@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest
+  id: List_GenerateNavigationUrlRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest.#ctor
+  - SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest.VisibleIn
+  - SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest.WindowName
+  langs:
+  - csharp
+  - vb
+  name: List_GenerateNavigationUrlRequest
+  nameWithType: List_GenerateNavigationUrlRequest
+  fullName: SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GenerateNavigationUrlRequest : Object'
+    content.vb: >-
+      Public Class List_GenerateNavigationUrlRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GenerateNavigationUrlRequest()
+  nameWithType: List_GenerateNavigationUrlRequest.List_GenerateNavigationUrlRequest()
+  fullName: SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest.List_GenerateNavigationUrlRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GenerateNavigationUrlRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest.VisibleIn
+  commentId: P:SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest.VisibleIn
+  id: VisibleIn
+  parent: SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: VisibleIn
+  nameWithType: List_GenerateNavigationUrlRequest.VisibleIn
+  fullName: SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest.VisibleIn
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Navigation VisibleIn { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Navigation
+    content.vb: Public Property VisibleIn As Navigation
+  overload: SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest.VisibleIn*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest.WindowName
+  commentId: P:SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest.WindowName
+  id: WindowName
+  parent: SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: WindowName
+  nameWithType: List_GenerateNavigationUrlRequest.WindowName
+  fullName: SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest.WindowName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string WindowName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property WindowName As String
+  overload: SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest.WindowName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest.#ctor
+  isExternal: true
+  name: List_GenerateNavigationUrlRequest
+  nameWithType: List_GenerateNavigationUrlRequest.List_GenerateNavigationUrlRequest
+  fullName: SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest.List_GenerateNavigationUrlRequest
+- uid: SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest.VisibleIn*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest.VisibleIn
+  isExternal: true
+  name: VisibleIn
+  nameWithType: List_GenerateNavigationUrlRequest.VisibleIn
+  fullName: SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest.VisibleIn
+- uid: SuperOffice.WebApi.Data.Navigation
+  commentId: T:SuperOffice.WebApi.Data.Navigation
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Navigation
+  nameWithType: Navigation
+  fullName: SuperOffice.WebApi.Data.Navigation
+- uid: SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest.WindowName*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest.WindowName
+  isExternal: true
+  name: WindowName
+  nameWithType: List_GenerateNavigationUrlRequest.WindowName
+  fullName: SuperOffice.WebApi.Data.List_GenerateNavigationUrlRequest.WindowName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

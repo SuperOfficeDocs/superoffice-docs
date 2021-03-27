@@ -1,0 +1,255 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpCrmListItemMapping
+  commentId: T:SuperOffice.WebApi.Data.ErpCrmListItemMapping
+  id: ErpCrmListItemMapping
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpCrmListItemMapping.#ctor
+  - SuperOffice.WebApi.Data.ErpCrmListItemMapping.CrmListItem
+  - SuperOffice.WebApi.Data.ErpCrmListItemMapping.ErpListItemId
+  - SuperOffice.WebApi.Data.ErpCrmListItemMapping.ErpListItemName
+  langs:
+  - csharp
+  - vb
+  name: ErpCrmListItemMapping
+  nameWithType: ErpCrmListItemMapping
+  fullName: SuperOffice.WebApi.Data.ErpCrmListItemMapping
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ErpCrmListItemMapping.\nOne list item mapping between erp and crm.    \n"
+  syntax:
+    content: 'public class ErpCrmListItemMapping : Carrier'
+    content.vb: >-
+      Public Class ErpCrmListItemMapping
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ErpSyncAgent
+    commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpCrmListItemMapping.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpCrmListItemMapping.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpCrmListItemMapping
+  langs:
+  - csharp
+  - vb
+  name: ErpCrmListItemMapping()
+  nameWithType: ErpCrmListItemMapping.ErpCrmListItemMapping()
+  fullName: SuperOffice.WebApi.Data.ErpCrmListItemMapping.ErpCrmListItemMapping()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ErpCrmListItemMapping()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpCrmListItemMapping.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpCrmListItemMapping.ErpListItemId
+  commentId: P:SuperOffice.WebApi.Data.ErpCrmListItemMapping.ErpListItemId
+  id: ErpListItemId
+  parent: SuperOffice.WebApi.Data.ErpCrmListItemMapping
+  langs:
+  - csharp
+  - vb
+  name: ErpListItemId
+  nameWithType: ErpCrmListItemMapping.ErpListItemId
+  fullName: SuperOffice.WebApi.Data.ErpCrmListItemMapping.ErpListItemId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOne Erp listItem id\n"
+  syntax:
+    content: public virtual string ErpListItemId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ErpListItemId As String
+  overload: SuperOffice.WebApi.Data.ErpCrmListItemMapping.ErpListItemId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpCrmListItemMapping.ErpListItemName
+  commentId: P:SuperOffice.WebApi.Data.ErpCrmListItemMapping.ErpListItemName
+  id: ErpListItemName
+  parent: SuperOffice.WebApi.Data.ErpCrmListItemMapping
+  langs:
+  - csharp
+  - vb
+  name: ErpListItemName
+  nameWithType: ErpCrmListItemMapping.ErpListItemName
+  fullName: SuperOffice.WebApi.Data.ErpCrmListItemMapping.ErpListItemName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOne Erp listItem id\n"
+  syntax:
+    content: public virtual string ErpListItemName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ErpListItemName As String
+  overload: SuperOffice.WebApi.Data.ErpCrmListItemMapping.ErpListItemName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpCrmListItemMapping.CrmListItem
+  commentId: P:SuperOffice.WebApi.Data.ErpCrmListItemMapping.CrmListItem
+  id: CrmListItem
+  parent: SuperOffice.WebApi.Data.ErpCrmListItemMapping
+  langs:
+  - csharp
+  - vb
+  name: CrmListItem
+  nameWithType: ErpCrmListItemMapping.CrmListItem
+  fullName: SuperOffice.WebApi.Data.ErpCrmListItemMapping.CrmListItem
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOne mapped SuperOffice listItem\n"
+  syntax:
+    content: public virtual MDOListItem CrmListItem { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.MDOListItem
+    content.vb: Public Overridable Property CrmListItem As MDOListItem
+  overload: SuperOffice.WebApi.Data.ErpCrmListItemMapping.CrmListItem*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent
+  commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
+  isExternal: true
+  name: ErpSyncAgent
+  nameWithType: ErpSyncAgent
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpCrmListItemMapping.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpCrmListItemMapping.#ctor
+  isExternal: true
+  name: ErpCrmListItemMapping
+  nameWithType: ErpCrmListItemMapping.ErpCrmListItemMapping
+  fullName: SuperOffice.WebApi.Data.ErpCrmListItemMapping.ErpCrmListItemMapping
+- uid: SuperOffice.WebApi.Data.ErpCrmListItemMapping.ErpListItemId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpCrmListItemMapping.ErpListItemId
+  isExternal: true
+  name: ErpListItemId
+  nameWithType: ErpCrmListItemMapping.ErpListItemId
+  fullName: SuperOffice.WebApi.Data.ErpCrmListItemMapping.ErpListItemId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ErpCrmListItemMapping.ErpListItemName*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpCrmListItemMapping.ErpListItemName
+  isExternal: true
+  name: ErpListItemName
+  nameWithType: ErpCrmListItemMapping.ErpListItemName
+  fullName: SuperOffice.WebApi.Data.ErpCrmListItemMapping.ErpListItemName
+- uid: SuperOffice.WebApi.Data.ErpCrmListItemMapping.CrmListItem*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpCrmListItemMapping.CrmListItem
+  isExternal: true
+  name: CrmListItem
+  nameWithType: ErpCrmListItemMapping.CrmListItem
+  fullName: SuperOffice.WebApi.Data.ErpCrmListItemMapping.CrmListItem
+- uid: SuperOffice.WebApi.Data.MDOListItem
+  commentId: T:SuperOffice.WebApi.Data.MDOListItem
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: MDOListItem
+  nameWithType: MDOListItem
+  fullName: SuperOffice.WebApi.Data.MDOListItem

@@ -1,0 +1,679 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Globalization.CultureManager
+  commentId: T:SuperOffice.Globalization.CultureManager
+  id: CultureManager
+  parent: SuperOffice.Globalization
+  children:
+  - SuperOffice.Globalization.CultureManager.#ctor
+  - SuperOffice.Globalization.CultureManager.GetDefaultLanguage
+  - SuperOffice.Globalization.CultureManager.GetLanguage(System.Int32)
+  - SuperOffice.Globalization.CultureManager.GetLanguages
+  - SuperOffice.Globalization.CultureManager.ToLCID(System.String)
+  - SuperOffice.Globalization.CultureManager.ToName(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: CultureManager
+  nameWithType: CultureManager
+  fullName: SuperOffice.Globalization.CultureManager
+  type: Class
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nThis is a helper class used to convert easily between various representations of cultures.\nIt is implemented as a Singleton.\n"
+  syntax:
+    content: public class CultureManager
+    content.vb: Public Class CultureManager
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Globalization.CultureManager.ToName(System.Int32)
+  commentId: M:SuperOffice.Globalization.CultureManager.ToName(System.Int32)
+  id: ToName(System.Int32)
+  parent: SuperOffice.Globalization.CultureManager
+  langs:
+  - csharp
+  - vb
+  name: ToName(Int32)
+  nameWithType: CultureManager.ToName(Int32)
+  fullName: SuperOffice.Globalization.CultureManager.ToName(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nConverts an LCID to a culture name, e.g. &quot;nb-NO&quot;.\n"
+  syntax:
+    content: public static string ToName(int lcid)
+    parameters:
+    - id: lcid
+      type: System.Int32
+      description: The LCID
+    return:
+      type: System.String
+      description: The culture name will be returned. e.g. &quot;nb-NO&quot;
+    content.vb: Public Shared Function ToName(lcid As Integer) As String
+  overload: SuperOffice.Globalization.CultureManager.ToName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.CultureManager.ToLCID(System.String)
+  commentId: M:SuperOffice.Globalization.CultureManager.ToLCID(System.String)
+  id: ToLCID(System.String)
+  parent: SuperOffice.Globalization.CultureManager
+  langs:
+  - csharp
+  - vb
+  name: ToLCID(String)
+  nameWithType: CultureManager.ToLCID(String)
+  fullName: SuperOffice.Globalization.CultureManager.ToLCID(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nConverts a culture name to an LCID.\n"
+  syntax:
+    content: public static int ToLCID(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: The culture name, e.g. &quot;nb-NO&quot;
+    return:
+      type: System.Int32
+      description: The LCID.
+    content.vb: Public Shared Function ToLCID(name As String) As Integer
+  overload: SuperOffice.Globalization.CultureManager.ToLCID*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.CultureManager.GetDefaultLanguage
+  commentId: M:SuperOffice.Globalization.CultureManager.GetDefaultLanguage
+  id: GetDefaultLanguage
+  parent: SuperOffice.Globalization.CultureManager
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultLanguage()
+  nameWithType: CultureManager.GetDefaultLanguage()
+  fullName: SuperOffice.Globalization.CultureManager.GetDefaultLanguage()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nReturns the Language for the Application country specified in the config file\n"
+  syntax:
+    content: public static Language GetDefaultLanguage()
+    return:
+      type: SuperOffice.Globalization.Language
+      description: Language
+    content.vb: Public Shared Function GetDefaultLanguage As Language
+  overload: SuperOffice.Globalization.CultureManager.GetDefaultLanguage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.CultureManager.GetLanguage(System.Int32)
+  commentId: M:SuperOffice.Globalization.CultureManager.GetLanguage(System.Int32)
+  id: GetLanguage(System.Int32)
+  parent: SuperOffice.Globalization.CultureManager
+  langs:
+  - csharp
+  - vb
+  name: GetLanguage(Int32)
+  nameWithType: CultureManager.GetLanguage(Int32)
+  fullName: SuperOffice.Globalization.CultureManager.GetLanguage(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  syntax:
+    content: public static Language GetLanguage(int LCID)
+    parameters:
+    - id: LCID
+      type: System.Int32
+    return:
+      type: SuperOffice.Globalization.Language
+    content.vb: Public Shared Function GetLanguage(LCID As Integer) As Language
+  overload: SuperOffice.Globalization.CultureManager.GetLanguage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.CultureManager.GetLanguages
+  commentId: M:SuperOffice.Globalization.CultureManager.GetLanguages
+  id: GetLanguages
+  parent: SuperOffice.Globalization.CultureManager
+  langs:
+  - csharp
+  - vb
+  name: GetLanguages()
+  nameWithType: CultureManager.GetLanguages()
+  fullName: SuperOffice.Globalization.CultureManager.GetLanguages()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nCollects and builds a list with languages based on the cultures stored in the \ndatabase.\n"
+  syntax:
+    content: public static List<Language> GetLanguages()
+    return:
+      type: System.Collections.Generic.List{SuperOffice.Globalization.Language}
+    content.vb: Public Shared Function GetLanguages As List(Of Language)
+  overload: SuperOffice.Globalization.CultureManager.GetLanguages*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Globalization.CultureManager.#ctor
+  commentId: M:SuperOffice.Globalization.CultureManager.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Globalization.CultureManager
+  langs:
+  - csharp
+  - vb
+  name: CultureManager()
+  nameWithType: CultureManager.CultureManager()
+  fullName: SuperOffice.Globalization.CultureManager.CultureManager()
+  type: Constructor
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  syntax:
+    content: public CultureManager()
+    content.vb: Public Sub New
+  overload: SuperOffice.Globalization.CultureManager.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Globalization
+  commentId: N:SuperOffice.Globalization
+  isExternal: true
+  name: SuperOffice.Globalization
+  nameWithType: SuperOffice.Globalization
+  fullName: SuperOffice.Globalization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Globalization.CultureManager.ToName*
+  commentId: Overload:SuperOffice.Globalization.CultureManager.ToName
+  isExternal: true
+  name: ToName
+  nameWithType: CultureManager.ToName
+  fullName: SuperOffice.Globalization.CultureManager.ToName
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Globalization.CultureManager.ToLCID*
+  commentId: Overload:SuperOffice.Globalization.CultureManager.ToLCID
+  isExternal: true
+  name: ToLCID
+  nameWithType: CultureManager.ToLCID
+  fullName: SuperOffice.Globalization.CultureManager.ToLCID
+- uid: SuperOffice.Globalization.CultureManager.GetDefaultLanguage*
+  commentId: Overload:SuperOffice.Globalization.CultureManager.GetDefaultLanguage
+  isExternal: true
+  name: GetDefaultLanguage
+  nameWithType: CultureManager.GetDefaultLanguage
+  fullName: SuperOffice.Globalization.CultureManager.GetDefaultLanguage
+- uid: SuperOffice.Globalization.Language
+  commentId: T:SuperOffice.Globalization.Language
+  parent: SuperOffice.Globalization
+  isExternal: true
+  name: Language
+  nameWithType: Language
+  fullName: SuperOffice.Globalization.Language
+- uid: SuperOffice.Globalization.CultureManager.GetLanguage*
+  commentId: Overload:SuperOffice.Globalization.CultureManager.GetLanguage
+  isExternal: true
+  name: GetLanguage
+  nameWithType: CultureManager.GetLanguage
+  fullName: SuperOffice.Globalization.CultureManager.GetLanguage
+- uid: SuperOffice.Globalization.CultureManager.GetLanguages*
+  commentId: Overload:SuperOffice.Globalization.CultureManager.GetLanguages
+  isExternal: true
+  name: GetLanguages
+  nameWithType: CultureManager.GetLanguages
+  fullName: SuperOffice.Globalization.CultureManager.GetLanguages
+- uid: System.Collections.Generic.List{SuperOffice.Globalization.Language}
+  commentId: T:System.Collections.Generic.List{SuperOffice.Globalization.Language}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Language>
+  nameWithType: List<Language>
+  fullName: System.Collections.Generic.List<SuperOffice.Globalization.Language>
+  nameWithType.vb: List(Of Language)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.Globalization.Language)
+  name.vb: List(Of Language)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Globalization.Language
+    name: Language
+    nameWithType: Language
+    fullName: SuperOffice.Globalization.Language
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Globalization.Language
+    name: Language
+    nameWithType: Language
+    fullName: SuperOffice.Globalization.Language
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Globalization.CultureManager.#ctor*
+  commentId: Overload:SuperOffice.Globalization.CultureManager.#ctor
+  isExternal: true
+  name: CultureManager
+  nameWithType: CultureManager.CultureManager
+  fullName: SuperOffice.Globalization.CultureManager.CultureManager

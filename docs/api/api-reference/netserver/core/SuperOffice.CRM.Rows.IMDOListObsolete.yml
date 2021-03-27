@@ -1,0 +1,483 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.IMDOListObsolete
+  commentId: T:SuperOffice.CRM.Rows.IMDOListObsolete
+  id: IMDOListObsolete
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.IMDOListObsolete.Headings
+  - SuperOffice.CRM.Rows.IMDOListObsolete.HeadingsCount
+  - SuperOffice.CRM.Rows.IMDOListObsolete.HistoryNodes
+  - SuperOffice.CRM.Rows.IMDOListObsolete.HistoryNodesCount
+  - SuperOffice.CRM.Rows.IMDOListObsolete.RootNodes
+  - SuperOffice.CRM.Rows.IMDOListObsolete.RootNodesCount
+  langs:
+  - csharp
+  - vb
+  name: IMDOListObsolete
+  nameWithType: IMDOListObsolete
+  fullName: SuperOffice.CRM.Rows.IMDOListObsolete
+  type: Interface
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nInterface for the MDO-lists.\n"
+  remarks: Implement this when making a MDO List.
+  syntax:
+    content: 'public interface IMDOListObsolete : IEnumerable'
+    content.vb: >-
+      Public Interface IMDOListObsolete
+          Inherits IEnumerable
+  inheritedMembers:
+  - System.Collections.IEnumerable.GetEnumerator
+  extensionMethods:
+  - SuperOffice.CRM.Rows.IMDOListObsolete.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.IMDOListObsolete.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Rows.IMDOListObsolete.HistoryNodesCount
+  commentId: P:SuperOffice.CRM.Rows.IMDOListObsolete.HistoryNodesCount
+  id: HistoryNodesCount
+  parent: SuperOffice.CRM.Rows.IMDOListObsolete
+  langs:
+  - csharp
+  - vb
+  name: HistoryNodesCount
+  nameWithType: IMDOListObsolete.HistoryNodesCount
+  fullName: SuperOffice.CRM.Rows.IMDOListObsolete.HistoryNodesCount
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe number of history-nodes in the list.\n"
+  syntax:
+    content: int HistoryNodesCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property HistoryNodesCount As Integer
+  overload: SuperOffice.CRM.Rows.IMDOListObsolete.HistoryNodesCount*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.Rows.IMDOListObsolete.RootNodesCount
+  commentId: P:SuperOffice.CRM.Rows.IMDOListObsolete.RootNodesCount
+  id: RootNodesCount
+  parent: SuperOffice.CRM.Rows.IMDOListObsolete
+  langs:
+  - csharp
+  - vb
+  name: RootNodesCount
+  nameWithType: IMDOListObsolete.RootNodesCount
+  fullName: SuperOffice.CRM.Rows.IMDOListObsolete.RootNodesCount
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe number of root-nodes in the list.\n"
+  syntax:
+    content: int RootNodesCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property RootNodesCount As Integer
+  overload: SuperOffice.CRM.Rows.IMDOListObsolete.RootNodesCount*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.Rows.IMDOListObsolete.HeadingsCount
+  commentId: P:SuperOffice.CRM.Rows.IMDOListObsolete.HeadingsCount
+  id: HeadingsCount
+  parent: SuperOffice.CRM.Rows.IMDOListObsolete
+  langs:
+  - csharp
+  - vb
+  name: HeadingsCount
+  nameWithType: IMDOListObsolete.HeadingsCount
+  fullName: SuperOffice.CRM.Rows.IMDOListObsolete.HeadingsCount
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe number of headings in the MDO-list.\n"
+  syntax:
+    content: int HeadingsCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property HeadingsCount As Integer
+  overload: SuperOffice.CRM.Rows.IMDOListObsolete.HeadingsCount*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.Rows.IMDOListObsolete.HistoryNodes
+  commentId: P:SuperOffice.CRM.Rows.IMDOListObsolete.HistoryNodes
+  id: HistoryNodes
+  parent: SuperOffice.CRM.Rows.IMDOListObsolete
+  langs:
+  - csharp
+  - vb
+  name: HistoryNodes
+  nameWithType: IMDOListObsolete.HistoryNodes
+  fullName: SuperOffice.CRM.Rows.IMDOListObsolete.HistoryNodes
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n\n"
+  syntax:
+    content: IEnumerable HistoryNodes { get; }
+    parameters: []
+    return:
+      type: System.Collections.IEnumerable
+    content.vb: ReadOnly Property HistoryNodes As IEnumerable
+  overload: SuperOffice.CRM.Rows.IMDOListObsolete.HistoryNodes*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.Rows.IMDOListObsolete.RootNodes
+  commentId: P:SuperOffice.CRM.Rows.IMDOListObsolete.RootNodes
+  id: RootNodes
+  parent: SuperOffice.CRM.Rows.IMDOListObsolete
+  langs:
+  - csharp
+  - vb
+  name: RootNodes
+  nameWithType: IMDOListObsolete.RootNodes
+  fullName: SuperOffice.CRM.Rows.IMDOListObsolete.RootNodes
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n\n"
+  syntax:
+    content: IEnumerable RootNodes { get; }
+    parameters: []
+    return:
+      type: System.Collections.IEnumerable
+    content.vb: ReadOnly Property RootNodes As IEnumerable
+  overload: SuperOffice.CRM.Rows.IMDOListObsolete.RootNodes*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.Rows.IMDOListObsolete.Headings
+  commentId: P:SuperOffice.CRM.Rows.IMDOListObsolete.Headings
+  id: Headings
+  parent: SuperOffice.CRM.Rows.IMDOListObsolete
+  langs:
+  - csharp
+  - vb
+  name: Headings
+  nameWithType: IMDOListObsolete.Headings
+  fullName: SuperOffice.CRM.Rows.IMDOListObsolete.Headings
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n\n"
+  syntax:
+    content: IEnumerable Headings { get; }
+    parameters: []
+    return:
+      type: System.Collections.IEnumerable
+    content.vb: ReadOnly Property Headings As IEnumerable
+  overload: SuperOffice.CRM.Rows.IMDOListObsolete.Headings*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Collections.IEnumerable.GetEnumerator
+  commentId: M:System.Collections.IEnumerable.GetEnumerator
+  parent: System.Collections.IEnumerable
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: IEnumerable.GetEnumerator()
+  fullName: System.Collections.IEnumerable.GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.IEnumerable.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable.GetEnumerator
+    fullName: System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IEnumerable.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable.GetEnumerator
+    fullName: System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.IMDOListObsolete.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IMDOListObsolete, To>()
+  nameWithType: EnumUtil.MapEnums<IMDOListObsolete, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.IMDOListObsolete, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IMDOListObsolete, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.IMDOListObsolete, To)()
+  name.vb: MapEnums(Of IMDOListObsolete, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IMDOListObsolete, To>
+    nameWithType: EnumUtil.MapEnums<IMDOListObsolete, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.IMDOListObsolete, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IMDOListObsolete, To)
+    nameWithType: EnumUtil.MapEnums(Of IMDOListObsolete, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.IMDOListObsolete, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.IMDOListObsolete.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IMDOListObsolete, To>()
+  nameWithType: Converters.MapEnums<IMDOListObsolete, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.IMDOListObsolete, To>()
+  nameWithType.vb: Converters.MapEnums(Of IMDOListObsolete, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.IMDOListObsolete, To)()
+  name.vb: MapEnums(Of IMDOListObsolete, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IMDOListObsolete, To>
+    nameWithType: Converters.MapEnums<IMDOListObsolete, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.IMDOListObsolete, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IMDOListObsolete, To)
+    nameWithType: Converters.MapEnums(Of IMDOListObsolete, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.IMDOListObsolete, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Rows.IMDOListObsolete.HistoryNodesCount*
+  commentId: Overload:SuperOffice.CRM.Rows.IMDOListObsolete.HistoryNodesCount
+  isExternal: true
+  name: HistoryNodesCount
+  nameWithType: IMDOListObsolete.HistoryNodesCount
+  fullName: SuperOffice.CRM.Rows.IMDOListObsolete.HistoryNodesCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Rows.IMDOListObsolete.RootNodesCount*
+  commentId: Overload:SuperOffice.CRM.Rows.IMDOListObsolete.RootNodesCount
+  isExternal: true
+  name: RootNodesCount
+  nameWithType: IMDOListObsolete.RootNodesCount
+  fullName: SuperOffice.CRM.Rows.IMDOListObsolete.RootNodesCount
+- uid: SuperOffice.CRM.Rows.IMDOListObsolete.HeadingsCount*
+  commentId: Overload:SuperOffice.CRM.Rows.IMDOListObsolete.HeadingsCount
+  isExternal: true
+  name: HeadingsCount
+  nameWithType: IMDOListObsolete.HeadingsCount
+  fullName: SuperOffice.CRM.Rows.IMDOListObsolete.HeadingsCount
+- uid: SuperOffice.CRM.Rows.IMDOListObsolete.HistoryNodes*
+  commentId: Overload:SuperOffice.CRM.Rows.IMDOListObsolete.HistoryNodes
+  isExternal: true
+  name: HistoryNodes
+  nameWithType: IMDOListObsolete.HistoryNodes
+  fullName: SuperOffice.CRM.Rows.IMDOListObsolete.HistoryNodes
+- uid: SuperOffice.CRM.Rows.IMDOListObsolete.RootNodes*
+  commentId: Overload:SuperOffice.CRM.Rows.IMDOListObsolete.RootNodes
+  isExternal: true
+  name: RootNodes
+  nameWithType: IMDOListObsolete.RootNodes
+  fullName: SuperOffice.CRM.Rows.IMDOListObsolete.RootNodes
+- uid: SuperOffice.CRM.Rows.IMDOListObsolete.Headings*
+  commentId: Overload:SuperOffice.CRM.Rows.IMDOListObsolete.Headings
+  isExternal: true
+  name: Headings
+  nameWithType: IMDOListObsolete.Headings
+  fullName: SuperOffice.CRM.Rows.IMDOListObsolete.Headings

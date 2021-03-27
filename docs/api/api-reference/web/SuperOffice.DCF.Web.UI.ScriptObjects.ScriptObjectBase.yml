@@ -1,0 +1,506 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  commentId: T:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  id: ScriptObjectBase
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects
+  children:
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.#ctor
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ScriptObjectBase
+  nameWithType: ScriptObjectBase
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public class ScriptObjectBase
+    content.vb: Public Class ScriptObjectBase
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager
+  - SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+  id: SoIdSelector(System.String)
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  langs:
+  - csharp
+  - vb
+  name: SoIdSelector(String)
+  nameWithType: ScriptObjectBase.SoIdSelector(String)
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public static string SoIdSelector(string soid)
+    parameters:
+    - id: soid
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function SoIdSelector(soid As String) As String
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+  id: CreateClickFunctionForSoId(System.String,System.String)
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  langs:
+  - csharp
+  - vb
+  name: CreateClickFunctionForSoId(String, String)
+  nameWithType: ScriptObjectBase.CreateClickFunctionForSoId(String, String)
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public static string CreateClickFunctionForSoId(string soid, string script)
+    parameters:
+    - id: soid
+      type: System.String
+    - id: script
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function CreateClickFunctionForSoId(soid As String, script As String) As String
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+  id: CreateHoverFunctionForSoId(System.String,System.String,System.String)
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  langs:
+  - csharp
+  - vb
+  name: CreateHoverFunctionForSoId(String, String, String)
+  nameWithType: ScriptObjectBase.CreateHoverFunctionForSoId(String, String, String)
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public static string CreateHoverFunctionForSoId(string soid, string scriptIn, string scriptOut)
+    parameters:
+    - id: soid
+      type: System.String
+    - id: scriptIn
+      type: System.String
+    - id: scriptOut
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function CreateHoverFunctionForSoId(soid As String, scriptIn As String, scriptOut As String) As String
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.#ctor
+  commentId: M:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  langs:
+  - csharp
+  - vb
+  name: ScriptObjectBase()
+  nameWithType: ScriptObjectBase.ScriptObjectBase()
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.ScriptObjectBase()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public ScriptObjectBase()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects
+  commentId: N:SuperOffice.DCF.Web.UI.ScriptObjects
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.ScriptObjects
+  nameWithType: SuperOffice.DCF.Web.UI.ScriptObjects
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector
+  isExternal: true
+  name: SoIdSelector
+  nameWithType: ScriptObjectBase.SoIdSelector
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId
+  isExternal: true
+  name: CreateClickFunctionForSoId
+  nameWithType: ScriptObjectBase.CreateClickFunctionForSoId
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId
+  isExternal: true
+  name: CreateHoverFunctionForSoId
+  nameWithType: ScriptObjectBase.CreateHoverFunctionForSoId
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.#ctor
+  isExternal: true
+  name: ScriptObjectBase
+  nameWithType: ScriptObjectBase.ScriptObjectBase
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.ScriptObjectBase

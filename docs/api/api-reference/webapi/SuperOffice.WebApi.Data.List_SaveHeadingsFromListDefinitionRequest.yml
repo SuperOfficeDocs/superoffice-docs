@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest
+  commentId: T:SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest
+  id: List_SaveHeadingsFromListDefinitionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest.#ctor
+  - SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest.Entities
+  - SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest.Id
+  langs:
+  - csharp
+  - vb
+  name: List_SaveHeadingsFromListDefinitionRequest
+  nameWithType: List_SaveHeadingsFromListDefinitionRequest
+  fullName: SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_SaveHeadingsFromListDefinitionRequest : Object'
+    content.vb: >-
+      Public Class List_SaveHeadingsFromListDefinitionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest
+  langs:
+  - csharp
+  - vb
+  name: List_SaveHeadingsFromListDefinitionRequest()
+  nameWithType: List_SaveHeadingsFromListDefinitionRequest.List_SaveHeadingsFromListDefinitionRequest()
+  fullName: SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest.List_SaveHeadingsFromListDefinitionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_SaveHeadingsFromListDefinitionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest.Id
+  commentId: P:SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: List_SaveHeadingsFromListDefinitionRequest.Id
+  fullName: SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest.Entities
+  commentId: P:SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest.Entities
+  id: Entities
+  parent: SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest
+  langs:
+  - csharp
+  - vb
+  name: Entities
+  nameWithType: List_SaveHeadingsFromListDefinitionRequest.Entities
+  fullName: SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest.Entities
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public HeadingEntity[] Entities { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.HeadingEntity[]
+    content.vb: Public Property Entities As HeadingEntity()
+  overload: SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest.Entities*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest.#ctor
+  isExternal: true
+  name: List_SaveHeadingsFromListDefinitionRequest
+  nameWithType: List_SaveHeadingsFromListDefinitionRequest.List_SaveHeadingsFromListDefinitionRequest
+  fullName: SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest.List_SaveHeadingsFromListDefinitionRequest
+- uid: SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest.Id
+  isExternal: true
+  name: Id
+  nameWithType: List_SaveHeadingsFromListDefinitionRequest.Id
+  fullName: SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest.Entities*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest.Entities
+  isExternal: true
+  name: Entities
+  nameWithType: List_SaveHeadingsFromListDefinitionRequest.Entities
+  fullName: SuperOffice.WebApi.Data.List_SaveHeadingsFromListDefinitionRequest.Entities
+- uid: SuperOffice.WebApi.Data.HeadingEntity[]
+  isExternal: true
+  name: HeadingEntity[]
+  nameWithType: HeadingEntity[]
+  fullName: SuperOffice.WebApi.Data.HeadingEntity[]
+  nameWithType.vb: HeadingEntity()
+  fullName.vb: SuperOffice.WebApi.Data.HeadingEntity()
+  name.vb: HeadingEntity()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.HeadingEntity
+    name: HeadingEntity
+    nameWithType: HeadingEntity
+    fullName: SuperOffice.WebApi.Data.HeadingEntity
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.HeadingEntity
+    name: HeadingEntity
+    nameWithType: HeadingEntity
+    fullName: SuperOffice.WebApi.Data.HeadingEntity
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

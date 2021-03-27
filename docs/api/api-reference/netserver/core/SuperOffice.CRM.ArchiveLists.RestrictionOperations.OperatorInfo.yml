@@ -1,0 +1,670 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo
+  commentId: T:SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo
+  id: RestrictionOperations.OperatorInfo
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo.#ctor(System.String,System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo._displayName
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo._name
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo._valueHints
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo.ToString
+  langs:
+  - csharp
+  - vb
+  name: RestrictionOperations.OperatorInfo
+  nameWithType: RestrictionOperations.OperatorInfo
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nOperator information container\n"
+  syntax:
+    content: public class OperatorInfo
+    content.vb: Public Class OperatorInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo._name
+  commentId: F:SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo._name
+  id: _name
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo
+  langs:
+  - csharp
+  - vb
+  name: _name
+  nameWithType: RestrictionOperations.OperatorInfo._name
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo._name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public string _name
+    return:
+      type: System.String
+    content.vb: Public _name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo._displayName
+  commentId: F:SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo._displayName
+  id: _displayName
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo
+  langs:
+  - csharp
+  - vb
+  name: _displayName
+  nameWithType: RestrictionOperations.OperatorInfo._displayName
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo._displayName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public string _displayName
+    return:
+      type: System.String
+    content.vb: Public _displayName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo._valueHints
+  commentId: F:SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo._valueHints
+  id: _valueHints
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo
+  langs:
+  - csharp
+  - vb
+  name: _valueHints
+  nameWithType: RestrictionOperations.OperatorInfo._valueHints
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo._valueHints
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public string _valueHints
+    return:
+      type: System.String
+    content.vb: Public _valueHints As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo.#ctor(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo.#ctor(System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String)'
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo
+  langs:
+  - csharp
+  - vb
+  name: OperatorInfo(String, String, String)
+  nameWithType: RestrictionOperations.OperatorInfo.OperatorInfo(String, String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo.OperatorInfo(System.String, System.String, System.String)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public OperatorInfo(string name, string displayName, string valueHints)
+    parameters:
+    - id: name
+      type: System.String
+    - id: displayName
+      type: System.String
+    - id: valueHints
+      type: System.String
+    content.vb: Public Sub New(name As String, displayName As String, valueHints As String)
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo.ToString
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo.ToString
+  id: ToString
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: RestrictionOperations.OperatorInfo.ToString()
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo.ToString()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<RestrictionOperations.OperatorInfo, To>()
+  nameWithType: EnumUtil.MapEnums<RestrictionOperations.OperatorInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of RestrictionOperations.OperatorInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo, To)()
+  name.vb: MapEnums(Of RestrictionOperations.OperatorInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<RestrictionOperations.OperatorInfo, To>
+    nameWithType: EnumUtil.MapEnums<RestrictionOperations.OperatorInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of RestrictionOperations.OperatorInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of RestrictionOperations.OperatorInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<RestrictionOperations.OperatorInfo, To>()
+  nameWithType: Converters.MapEnums<RestrictionOperations.OperatorInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of RestrictionOperations.OperatorInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo, To)()
+  name.vb: MapEnums(Of RestrictionOperations.OperatorInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<RestrictionOperations.OperatorInfo, To>
+    nameWithType: Converters.MapEnums<RestrictionOperations.OperatorInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of RestrictionOperations.OperatorInfo, To)
+    nameWithType: Converters.MapEnums(Of RestrictionOperations.OperatorInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo.#ctor
+  isExternal: true
+  name: OperatorInfo
+  nameWithType: RestrictionOperations.OperatorInfo.OperatorInfo
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo.OperatorInfo
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo.ToString*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: RestrictionOperations.OperatorInfo.ToString
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo.ToString

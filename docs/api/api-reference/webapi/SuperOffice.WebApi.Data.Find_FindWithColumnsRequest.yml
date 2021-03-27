@@ -1,0 +1,410 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest
+  commentId: T:SuperOffice.WebApi.Data.Find_FindWithColumnsRequest
+  id: Find_FindWithColumnsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.#ctor
+  - SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.DesiredColumns
+  - SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.OrderBy
+  - SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.PageNumber
+  - SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.PageSize
+  - SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.ProviderName
+  - SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.StorageKey
+  - SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.StorageType
+  langs:
+  - csharp
+  - vb
+  name: Find_FindWithColumnsRequest
+  nameWithType: Find_FindWithColumnsRequest
+  fullName: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Find_FindWithColumnsRequest : Object'
+    content.vb: >-
+      Public Class Find_FindWithColumnsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest
+  langs:
+  - csharp
+  - vb
+  name: Find_FindWithColumnsRequest()
+  nameWithType: Find_FindWithColumnsRequest.Find_FindWithColumnsRequest()
+  fullName: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.Find_FindWithColumnsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Find_FindWithColumnsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.StorageType
+  commentId: P:SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.StorageType
+  id: StorageType
+  parent: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest
+  langs:
+  - csharp
+  - vb
+  name: StorageType
+  nameWithType: Find_FindWithColumnsRequest.StorageType
+  fullName: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.StorageType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string StorageType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StorageType As String
+  overload: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.StorageType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.ProviderName
+  commentId: P:SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.ProviderName
+  id: ProviderName
+  parent: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: Find_FindWithColumnsRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.ProviderName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ProviderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProviderName As String
+  overload: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.ProviderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.StorageKey
+  commentId: P:SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.StorageKey
+  id: StorageKey
+  parent: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest
+  langs:
+  - csharp
+  - vb
+  name: StorageKey
+  nameWithType: Find_FindWithColumnsRequest.StorageKey
+  fullName: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.StorageKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string StorageKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StorageKey As String
+  overload: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.StorageKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.DesiredColumns
+  commentId: P:SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.DesiredColumns
+  id: DesiredColumns
+  parent: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest
+  langs:
+  - csharp
+  - vb
+  name: DesiredColumns
+  nameWithType: Find_FindWithColumnsRequest.DesiredColumns
+  fullName: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.DesiredColumns
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] DesiredColumns { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property DesiredColumns As String()
+  overload: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.DesiredColumns*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.PageSize
+  commentId: P:SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.PageSize
+  id: PageSize
+  parent: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest
+  langs:
+  - csharp
+  - vb
+  name: PageSize
+  nameWithType: Find_FindWithColumnsRequest.PageSize
+  fullName: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.PageSize
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PageSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PageSize As Integer
+  overload: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.PageSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.PageNumber
+  commentId: P:SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.PageNumber
+  id: PageNumber
+  parent: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest
+  langs:
+  - csharp
+  - vb
+  name: PageNumber
+  nameWithType: Find_FindWithColumnsRequest.PageNumber
+  fullName: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.PageNumber
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PageNumber { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PageNumber As Integer
+  overload: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.PageNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.OrderBy
+  commentId: P:SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.OrderBy
+  id: OrderBy
+  parent: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest
+  langs:
+  - csharp
+  - vb
+  name: OrderBy
+  nameWithType: Find_FindWithColumnsRequest.OrderBy
+  fullName: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.OrderBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ArchiveOrderByInfo[] OrderBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
+    content.vb: Public Property OrderBy As ArchiveOrderByInfo()
+  overload: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.OrderBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.#ctor
+  isExternal: true
+  name: Find_FindWithColumnsRequest
+  nameWithType: Find_FindWithColumnsRequest.Find_FindWithColumnsRequest
+  fullName: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.Find_FindWithColumnsRequest
+- uid: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.StorageType*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.StorageType
+  isExternal: true
+  name: StorageType
+  nameWithType: Find_FindWithColumnsRequest.StorageType
+  fullName: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.StorageType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.ProviderName*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.ProviderName
+  isExternal: true
+  name: ProviderName
+  nameWithType: Find_FindWithColumnsRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.ProviderName
+- uid: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.StorageKey*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.StorageKey
+  isExternal: true
+  name: StorageKey
+  nameWithType: Find_FindWithColumnsRequest.StorageKey
+  fullName: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.StorageKey
+- uid: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.DesiredColumns*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.DesiredColumns
+  isExternal: true
+  name: DesiredColumns
+  nameWithType: Find_FindWithColumnsRequest.DesiredColumns
+  fullName: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.DesiredColumns
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.PageSize*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.PageSize
+  isExternal: true
+  name: PageSize
+  nameWithType: Find_FindWithColumnsRequest.PageSize
+  fullName: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.PageSize
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.PageNumber*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.PageNumber
+  isExternal: true
+  name: PageNumber
+  nameWithType: Find_FindWithColumnsRequest.PageNumber
+  fullName: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.PageNumber
+- uid: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.OrderBy*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.OrderBy
+  isExternal: true
+  name: OrderBy
+  nameWithType: Find_FindWithColumnsRequest.OrderBy
+  fullName: SuperOffice.WebApi.Data.Find_FindWithColumnsRequest.OrderBy
+- uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
+  isExternal: true
+  name: ArchiveOrderByInfo[]
+  nameWithType: ArchiveOrderByInfo[]
+  fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
+  nameWithType.vb: ArchiveOrderByInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveOrderByInfo()
+  name.vb: ArchiveOrderByInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

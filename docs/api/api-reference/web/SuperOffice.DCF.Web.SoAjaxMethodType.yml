@@ -1,0 +1,137 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.SoAjaxMethodType
+  commentId: T:SuperOffice.DCF.Web.SoAjaxMethodType
+  id: SoAjaxMethodType
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.SoAjaxMethodType.Default
+  - SuperOffice.DCF.Web.SoAjaxMethodType.SkipAuthentication
+  - SuperOffice.DCF.Web.SoAjaxMethodType.ThreatErrorAsWarning
+  langs:
+  - csharp
+  - vb
+  name: SoAjaxMethodType
+  nameWithType: SoAjaxMethodType
+  fullName: SuperOffice.DCF.Web.SoAjaxMethodType
+  type: Enum
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum SoAjaxMethodType
+    content.vb: >-
+      <Flags>
+
+      Public Enum SoAjaxMethodType
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.DCF.Web.SoAjaxMethodType.Default
+  commentId: F:SuperOffice.DCF.Web.SoAjaxMethodType.Default
+  id: Default
+  parent: SuperOffice.DCF.Web.SoAjaxMethodType
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: SoAjaxMethodType.Default
+  fullName: SuperOffice.DCF.Web.SoAjaxMethodType.Default
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: Default = 0
+    return:
+      type: SuperOffice.DCF.Web.SoAjaxMethodType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.SoAjaxMethodType.SkipAuthentication
+  commentId: F:SuperOffice.DCF.Web.SoAjaxMethodType.SkipAuthentication
+  id: SkipAuthentication
+  parent: SuperOffice.DCF.Web.SoAjaxMethodType
+  langs:
+  - csharp
+  - vb
+  name: SkipAuthentication
+  nameWithType: SoAjaxMethodType.SkipAuthentication
+  fullName: SuperOffice.DCF.Web.SoAjaxMethodType.SkipAuthentication
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: SkipAuthentication = 1
+    return:
+      type: SuperOffice.DCF.Web.SoAjaxMethodType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.SoAjaxMethodType.ThreatErrorAsWarning
+  commentId: F:SuperOffice.DCF.Web.SoAjaxMethodType.ThreatErrorAsWarning
+  id: ThreatErrorAsWarning
+  parent: SuperOffice.DCF.Web.SoAjaxMethodType
+  langs:
+  - csharp
+  - vb
+  name: ThreatErrorAsWarning
+  nameWithType: SoAjaxMethodType.ThreatErrorAsWarning
+  fullName: SuperOffice.DCF.Web.SoAjaxMethodType.ThreatErrorAsWarning
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: ThreatErrorAsWarning = 2
+    return:
+      type: SuperOffice.DCF.Web.SoAjaxMethodType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: SuperOffice.DCF.Web.SoAjaxMethodType
+  commentId: T:SuperOffice.DCF.Web.SoAjaxMethodType
+  parent: SuperOffice.DCF.Web
+  isExternal: true
+  name: SoAjaxMethodType
+  nameWithType: SoAjaxMethodType
+  fullName: SuperOffice.DCF.Web.SoAjaxMethodType

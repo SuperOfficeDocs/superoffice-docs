@@ -1,0 +1,297 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AttachmentEntity
+  commentId: T:SuperOffice.WebApi.Data.AttachmentEntity
+  id: AttachmentEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AttachmentEntity.#ctor
+  - SuperOffice.WebApi.Data.AttachmentEntity.AttachmentId
+  - SuperOffice.WebApi.Data.AttachmentEntity.AttSize
+  - SuperOffice.WebApi.Data.AttachmentEntity.ContentType
+  - SuperOffice.WebApi.Data.AttachmentEntity.Name
+  langs:
+  - csharp
+  - vb
+  name: AttachmentEntity
+  nameWithType: AttachmentEntity
+  fullName: SuperOffice.WebApi.Data.AttachmentEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for AttachmentEntity.\nThe Attachment carrier represent meta data for a Service attachment    \n"
+  example:
+  - "\nGet AttachmentEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new TicketAgent(configuration);\nvar attachmentEntity = agent.GetAttachmentEntity( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class AttachmentEntity : Carrier'
+    content.vb: >-
+      Public Class AttachmentEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.TicketAgent
+    commentId: T:SuperOffice.WebApi.Agents.TicketAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.AttachmentEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.AttachmentEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.AttachmentEntity
+  langs:
+  - csharp
+  - vb
+  name: AttachmentEntity()
+  nameWithType: AttachmentEntity.AttachmentEntity()
+  fullName: SuperOffice.WebApi.Data.AttachmentEntity.AttachmentEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public AttachmentEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.AttachmentEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AttachmentEntity.AttachmentId
+  commentId: P:SuperOffice.WebApi.Data.AttachmentEntity.AttachmentId
+  id: AttachmentId
+  parent: SuperOffice.WebApi.Data.AttachmentEntity
+  langs:
+  - csharp
+  - vb
+  name: AttachmentId
+  nameWithType: AttachmentEntity.AttachmentId
+  fullName: SuperOffice.WebApi.Data.AttachmentEntity.AttachmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe primary key (auto-incremented)\n"
+  syntax:
+    content: public virtual int AttachmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AttachmentId As Integer
+  overload: SuperOffice.WebApi.Data.AttachmentEntity.AttachmentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AttachmentEntity.Name
+  commentId: P:SuperOffice.WebApi.Data.AttachmentEntity.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.AttachmentEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: AttachmentEntity.Name
+  fullName: SuperOffice.WebApi.Data.AttachmentEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe filename for the attachment.\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.AttachmentEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AttachmentEntity.ContentType
+  commentId: P:SuperOffice.WebApi.Data.AttachmentEntity.ContentType
+  id: ContentType
+  parent: SuperOffice.WebApi.Data.AttachmentEntity
+  langs:
+  - csharp
+  - vb
+  name: ContentType
+  nameWithType: AttachmentEntity.ContentType
+  fullName: SuperOffice.WebApi.Data.AttachmentEntity.ContentType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe content type for the attachment (e.g. &amp;apos;applaction/octet-stream&amp;apos; or &amp;apos;application/vnd.openxmlformats-officedocument.wordprocessingml.document&amp;apos;).\n"
+  syntax:
+    content: public virtual string ContentType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContentType As String
+  overload: SuperOffice.WebApi.Data.AttachmentEntity.ContentType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AttachmentEntity.AttSize
+  commentId: P:SuperOffice.WebApi.Data.AttachmentEntity.AttSize
+  id: AttSize
+  parent: SuperOffice.WebApi.Data.AttachmentEntity
+  langs:
+  - csharp
+  - vb
+  name: AttSize
+  nameWithType: AttachmentEntity.AttSize
+  fullName: SuperOffice.WebApi.Data.AttachmentEntity.AttSize
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe size (in bytes) for the attachment.\n"
+  syntax:
+    content: public virtual int AttSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AttSize As Integer
+  overload: SuperOffice.WebApi.Data.AttachmentEntity.AttSize*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.TicketAgent
+  commentId: T:SuperOffice.WebApi.Agents.TicketAgent
+  isExternal: true
+  name: TicketAgent
+  nameWithType: TicketAgent
+  fullName: SuperOffice.WebApi.Agents.TicketAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.AttachmentEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.AttachmentEntity.#ctor
+  isExternal: true
+  name: AttachmentEntity
+  nameWithType: AttachmentEntity.AttachmentEntity
+  fullName: SuperOffice.WebApi.Data.AttachmentEntity.AttachmentEntity
+- uid: SuperOffice.WebApi.Data.AttachmentEntity.AttachmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.AttachmentEntity.AttachmentId
+  isExternal: true
+  name: AttachmentId
+  nameWithType: AttachmentEntity.AttachmentId
+  fullName: SuperOffice.WebApi.Data.AttachmentEntity.AttachmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.AttachmentEntity.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.AttachmentEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: AttachmentEntity.Name
+  fullName: SuperOffice.WebApi.Data.AttachmentEntity.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.AttachmentEntity.ContentType*
+  commentId: Overload:SuperOffice.WebApi.Data.AttachmentEntity.ContentType
+  isExternal: true
+  name: ContentType
+  nameWithType: AttachmentEntity.ContentType
+  fullName: SuperOffice.WebApi.Data.AttachmentEntity.ContentType
+- uid: SuperOffice.WebApi.Data.AttachmentEntity.AttSize*
+  commentId: Overload:SuperOffice.WebApi.Data.AttachmentEntity.AttSize
+  isExternal: true
+  name: AttSize
+  nameWithType: AttachmentEntity.AttSize
+  fullName: SuperOffice.WebApi.Data.AttachmentEntity.AttSize

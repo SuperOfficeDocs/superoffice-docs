@@ -1,0 +1,853 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions
+  id: ScreenDefinitionLanguageRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo})
+  - SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo})
+  - SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData)
+  - SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData})
+  langs:
+  - csharp
+  - vb
+  name: ScreenDefinitionLanguageRecordDataExtensions
+  nameWithType: ScreenDefinitionLanguageRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nExtension methods to make it easy to fetch <xref href=\"SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData\" data-throw-if-not-resolved=\"false\"></xref> objects from the database,\nusing the <see cref=\"!:TargetedSelect\"></see> infrastructure\n"
+  syntax:
+    content: public static class ScreenDefinitionLanguageRecordDataExtensions
+    content.vb: Public Module ScreenDefinitionLanguageRecordDataExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<ScreenDefinitionLanguageTableInfo>)
+  nameWithType: ScreenDefinitionLanguageRecordDataExtensions.FromSelect(TargetedSelect<ScreenDefinitionLanguageTableInfo>)
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;ScreenDefinitionLanguageTableInfo>, execute it and return an IEnumerable&lt;ScreenDefinitionLanguageRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<ScreenDefinitionLanguageRecordData> FromSelect(this TargetedSelect<ScreenDefinitionLanguageTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of ScreenDefinitionLanguageTableInfo)) As IEnumerable(Of ScreenDefinitionLanguageRecordData)
+  overload: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.FromSelect*
+  nameWithType.vb: ScreenDefinitionLanguageRecordDataExtensions.FromSelect(TargetedSelect(Of ScreenDefinitionLanguageTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of ScreenDefinitionLanguageTableInfo))
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo})
+  id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromRecord(TargetedDataRecord<ScreenDefinitionLanguageTableInfo>)
+  nameWithType: ScreenDefinitionLanguageRecordDataExtensions.FromRecord(TargetedDataRecord<ScreenDefinitionLanguageTableInfo>)
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedDataRecord&lt;ScreenDefinitionLanguageTableInfo>, create and populate a <xref href=\"SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData\" data-throw-if-not-resolved=\"false\"></xref> POCO object\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                /* add joins, return fields etc. as you wish */
+                s.ReturnFields.Add(s.Table.All);
+                var result = s.Records().Select(r => new { ScreenDefinitionLanguageItem = r.FromRecord(), /* fetch other fields here */ });</code></pre>
+  syntax:
+    content: public static ScreenDefinitionLanguageRecordData FromRecord(this TargetedDataRecord<ScreenDefinitionLanguageTableInfo> record)
+    parameters:
+    - id: record
+      type: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo}
+    return:
+      type: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromRecord(record As TargetedDataRecord(Of ScreenDefinitionLanguageTableInfo)) As ScreenDefinitionLanguageRecordData
+  overload: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.FromRecord*
+  nameWithType.vb: ScreenDefinitionLanguageRecordDataExtensions.FromRecord(TargetedDataRecord(Of ScreenDefinitionLanguageTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo))
+  name.vb: FromRecord(TargetedDataRecord(Of ScreenDefinitionLanguageTableInfo))
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData)
+  commentId: M:SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData)
+  id: ToInsert(SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInsert(ScreenDefinitionLanguageRecordData)
+  nameWithType: ScreenDefinitionLanguageRecordDataExtensions.ToInsert(ScreenDefinitionLanguageRecordData)
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static Insert ToInsert(this ScreenDefinitionLanguageRecordData record)
+    parameters:
+    - id: record
+      type: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData
+    return:
+      type: SuperOffice.Data.SQL.Insert
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInsert(record As ScreenDefinitionLanguageRecordData) As Insert
+  overload: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsert*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData})
+  commentId: M:SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData})
+  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInserts(IEnumerable<ScreenDefinitionLanguageRecordData>)
+  nameWithType: ScreenDefinitionLanguageRecordDataExtensions.ToInserts(IEnumerable<ScreenDefinitionLanguageRecordData>)
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<ScreenDefinitionLanguageRecordData> records)
+    parameters:
+    - id: records
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInserts(records As IEnumerable(Of ScreenDefinitionLanguageRecordData)) As IEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInserts*
+  nameWithType.vb: ScreenDefinitionLanguageRecordDataExtensions.ToInserts(IEnumerable(Of ScreenDefinitionLanguageRecordData))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData))
+  name.vb: ToInserts(IEnumerable(Of ScreenDefinitionLanguageRecordData))
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: ScreenDefinitionLanguageRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.FromSelect
+- uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedSelect`1
+  name: TargetedSelect<ScreenDefinitionLanguageTableInfo>
+  nameWithType: TargetedSelect<ScreenDefinitionLanguageTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo>
+  nameWithType.vb: TargetedSelect(Of ScreenDefinitionLanguageTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo)
+  name.vb: TargetedSelect(Of ScreenDefinitionLanguageTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo
+    name: ScreenDefinitionLanguageTableInfo
+    nameWithType: ScreenDefinitionLanguageTableInfo
+    fullName: SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo
+    name: ScreenDefinitionLanguageTableInfo
+    nameWithType: ScreenDefinitionLanguageTableInfo
+    fullName: SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ScreenDefinitionLanguageRecordData>
+  nameWithType: IEnumerable<ScreenDefinitionLanguageRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData>
+  nameWithType.vb: IEnumerable(Of ScreenDefinitionLanguageRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData)
+  name.vb: IEnumerable(Of ScreenDefinitionLanguageRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData
+    name: ScreenDefinitionLanguageRecordData
+    nameWithType: ScreenDefinitionLanguageRecordData
+    fullName: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData
+    name: ScreenDefinitionLanguageRecordData
+    nameWithType: ScreenDefinitionLanguageRecordData
+    fullName: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedSelect`1
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect`1
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TargetedSelect<MainTableInfo>
+  nameWithType: TargetedSelect<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<MainTableInfo>
+  nameWithType.vb: TargetedSelect(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of MainTableInfo)
+  name.vb: TargetedSelect(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.FromRecord*
+  commentId: Overload:SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.FromRecord
+  isExternal: true
+  name: FromRecord
+  nameWithType: ScreenDefinitionLanguageRecordDataExtensions.FromRecord
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.FromRecord
+- uid: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedDataRecord`1
+  name: TargetedDataRecord<ScreenDefinitionLanguageTableInfo>
+  nameWithType: TargetedDataRecord<ScreenDefinitionLanguageTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo>
+  nameWithType.vb: TargetedDataRecord(Of ScreenDefinitionLanguageTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo)
+  name.vb: TargetedDataRecord(Of ScreenDefinitionLanguageTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo
+    name: ScreenDefinitionLanguageTableInfo
+    nameWithType: ScreenDefinitionLanguageTableInfo
+    fullName: SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo
+    name: ScreenDefinitionLanguageTableInfo
+    nameWithType: ScreenDefinitionLanguageTableInfo
+    fullName: SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData
+  commentId: T:SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: ScreenDefinitionLanguageRecordData
+  nameWithType: ScreenDefinitionLanguageRecordData
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordData
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord`1
+  isExternal: true
+  name: TargetedDataRecord<MainTableInfo>
+  nameWithType: TargetedDataRecord<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo)
+  name.vb: TargetedDataRecord(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsert*
+  commentId: Overload:SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsert
+  isExternal: true
+  name: ToInsert
+  nameWithType: ScreenDefinitionLanguageRecordDataExtensions.ToInsert
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInsert
+- uid: SuperOffice.Data.SQL.Insert
+  commentId: T:SuperOffice.Data.SQL.Insert
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Insert
+  nameWithType: Insert
+  fullName: SuperOffice.Data.SQL.Insert
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInserts*
+  commentId: Overload:SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInserts
+  isExternal: true
+  name: ToInserts
+  nameWithType: ScreenDefinitionLanguageRecordDataExtensions.ToInserts
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionLanguageRecordDataExtensions.ToInserts
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Insert>
+  nameWithType: IEnumerable<Insert>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,482 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.TravelEncryptionChild
+  commentId: T:SuperOffice.Data.TravelEncryptionChild
+  id: TravelEncryptionChild
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.TravelEncryptionChild.BF128
+  - SuperOffice.Data.TravelEncryptionChild.None
+  - SuperOffice.Data.TravelEncryptionChild.Serial
+  langs:
+  - csharp
+  - vb
+  name: TravelEncryptionChild
+  nameWithType: TravelEncryptionChild
+  fullName: SuperOffice.Data.TravelEncryptionChild
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nValue for the encryptedComm field in traveller\nThis Enum is used by:  traveller.encryptedComm\n"
+  syntax:
+    content: 'public enum TravelEncryptionChild : short'
+    content.vb: Public Enum TravelEncryptionChild As Short
+  extensionMethods:
+  - SuperOffice.Data.TravelEncryptionChild.EnumUtil.MapEnums``2
+  - SuperOffice.Data.TravelEncryptionChild.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TravelEncryptionChild)
+  - SuperOffice.Data.TravelEncryptionChild.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.TravelEncryptionChild.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.TravelEncryptionChild.None
+  commentId: F:SuperOffice.Data.TravelEncryptionChild.None
+  id: None
+  parent: SuperOffice.Data.TravelEncryptionChild
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: TravelEncryptionChild.None
+  fullName: SuperOffice.Data.TravelEncryptionChild.None
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: Transmitted travel data are not encrypted (only ZIPed)\n"
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.Data.TravelEncryptionChild
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TravelEncryptionChild.Serial
+  commentId: F:SuperOffice.Data.TravelEncryptionChild.Serial
+  id: Serial
+  parent: SuperOffice.Data.TravelEncryptionChild
+  langs:
+  - csharp
+  - vb
+  name: Serial
+  nameWithType: TravelEncryptionChild.Serial
+  fullName: SuperOffice.Data.TravelEncryptionChild.Serial
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Transmitted travel data are encrypted using licence serial no. as key\n"
+  syntax:
+    content: Serial = 1
+    return:
+      type: SuperOffice.Data.TravelEncryptionChild
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TravelEncryptionChild.BF128
+  commentId: F:SuperOffice.Data.TravelEncryptionChild.BF128
+  id: BF128
+  parent: SuperOffice.Data.TravelEncryptionChild
+  langs:
+  - csharp
+  - vb
+  name: BF128
+  nameWithType: TravelEncryptionChild.BF128
+  fullName: SuperOffice.Data.TravelEncryptionChild.BF128
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Transmitted travel data are encrypted using a 128-bit key unique to each database\n"
+  syntax:
+    content: BF128 = 2
+    return:
+      type: SuperOffice.Data.TravelEncryptionChild
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.TravelEncryptionChild.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TravelEncryptionChild, To>()
+  nameWithType: EnumUtil.MapEnums<TravelEncryptionChild, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.TravelEncryptionChild, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TravelEncryptionChild, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.TravelEncryptionChild, To)()
+  name.vb: MapEnums(Of TravelEncryptionChild, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TravelEncryptionChild, To>
+    nameWithType: EnumUtil.MapEnums<TravelEncryptionChild, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.TravelEncryptionChild, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TravelEncryptionChild, To)
+    nameWithType: EnumUtil.MapEnums(Of TravelEncryptionChild, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.TravelEncryptionChild, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.TravelEncryptionChild.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TravelEncryptionChild)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<TravelEncryptionChild>(TravelEncryptionChild)
+  nameWithType: ObjectExtensions.AssignByReflection<TravelEncryptionChild>(TravelEncryptionChild)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TravelEncryptionChild>(SuperOffice.Data.TravelEncryptionChild)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TravelEncryptionChild)(TravelEncryptionChild)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TravelEncryptionChild)(SuperOffice.Data.TravelEncryptionChild)
+  name.vb: AssignByReflection(Of TravelEncryptionChild)(TravelEncryptionChild)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<TravelEncryptionChild>
+    nameWithType: ObjectExtensions.AssignByReflection<TravelEncryptionChild>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TravelEncryptionChild>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.TravelEncryptionChild
+    name: TravelEncryptionChild
+    nameWithType: TravelEncryptionChild
+    fullName: SuperOffice.Data.TravelEncryptionChild
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of TravelEncryptionChild)
+    nameWithType: ObjectExtensions.AssignByReflection(Of TravelEncryptionChild)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TravelEncryptionChild)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.TravelEncryptionChild
+    name: TravelEncryptionChild
+    nameWithType: TravelEncryptionChild
+    fullName: SuperOffice.Data.TravelEncryptionChild
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.TravelEncryptionChild.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<TravelEncryptionChild>()
+  nameWithType: ObjectExtensions.GraphCopy<TravelEncryptionChild>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TravelEncryptionChild>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TravelEncryptionChild)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TravelEncryptionChild)()
+  name.vb: GraphCopy(Of TravelEncryptionChild)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<TravelEncryptionChild>
+    nameWithType: ObjectExtensions.GraphCopy<TravelEncryptionChild>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TravelEncryptionChild>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of TravelEncryptionChild)
+    nameWithType: ObjectExtensions.GraphCopy(Of TravelEncryptionChild)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TravelEncryptionChild)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.TravelEncryptionChild.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TravelEncryptionChild, To>()
+  nameWithType: Converters.MapEnums<TravelEncryptionChild, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TravelEncryptionChild, To>()
+  nameWithType.vb: Converters.MapEnums(Of TravelEncryptionChild, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TravelEncryptionChild, To)()
+  name.vb: MapEnums(Of TravelEncryptionChild, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TravelEncryptionChild, To>
+    nameWithType: Converters.MapEnums<TravelEncryptionChild, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TravelEncryptionChild, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TravelEncryptionChild, To)
+    nameWithType: Converters.MapEnums(Of TravelEncryptionChild, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TravelEncryptionChild, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.TravelEncryptionChild
+  commentId: T:SuperOffice.Data.TravelEncryptionChild
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TravelEncryptionChild
+  nameWithType: TravelEncryptionChild
+  fullName: SuperOffice.Data.TravelEncryptionChild

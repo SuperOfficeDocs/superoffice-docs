@@ -1,0 +1,569 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem
+  id: SoCheckedListBoxItems.ColumnItem
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.#ctor
+  - SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Alignment
+  - SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Index
+  - SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Name
+  - SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Title
+  - SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Width
+  langs:
+  - csharp
+  - vb
+  name: SoCheckedListBoxItems.ColumnItem
+  nameWithType: SoCheckedListBoxItems.ColumnItem
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected class ColumnItem
+    content.vb: Protected Class ColumnItem
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - protected
+  - class
+  modifiers.vb:
+  - Protected
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Index
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Index
+  id: Index
+  parent: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: SoCheckedListBoxItems.ColumnItem.Index
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Index
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public int Index
+    return:
+      type: System.Int32
+    content.vb: Public Index As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem
+  langs:
+  - csharp
+  - vb
+  name: ColumnItem()
+  nameWithType: SoCheckedListBoxItems.ColumnItem.ColumnItem()
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.ColumnItem()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public ColumnItem()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Name
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Name
+  id: Name
+  parent: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SoCheckedListBoxItems.ColumnItem.Name
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Name
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Title
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Title
+  id: Title
+  parent: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: SoCheckedListBoxItems.ColumnItem.Title
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Title
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Width
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Width
+  id: Width
+  parent: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: SoCheckedListBoxItems.ColumnItem.Width
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Width
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public Unit Width { get; set; }
+    parameters: []
+    return:
+      type: System.Web.UI.WebControls.Unit
+    content.vb: Public Property Width As Unit
+  overload: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Width*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Alignment
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Alignment
+  id: Alignment
+  parent: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem
+  langs:
+  - csharp
+  - vb
+  name: Alignment
+  nameWithType: SoCheckedListBoxItems.ColumnItem.Alignment
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Alignment
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public HorizontalAlign Alignment { get; set; }
+    parameters: []
+    return:
+      type: System.Web.UI.WebControls.HorizontalAlign
+    content.vb: Public Property Alignment As HorizontalAlign
+  overload: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Alignment*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.#ctor
+  isExternal: true
+  name: ColumnItem
+  nameWithType: SoCheckedListBoxItems.ColumnItem.ColumnItem
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.ColumnItem
+- uid: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Name*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Name
+  isExternal: true
+  name: Name
+  nameWithType: SoCheckedListBoxItems.ColumnItem.Name
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Title*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Title
+  isExternal: true
+  name: Title
+  nameWithType: SoCheckedListBoxItems.ColumnItem.Title
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Title
+- uid: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Width*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Width
+  isExternal: true
+  name: Width
+  nameWithType: SoCheckedListBoxItems.ColumnItem.Width
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Width
+- uid: System.Web.UI.WebControls.Unit
+  isExternal: true
+  name: Unit
+  nameWithType: Unit
+  fullName: System.Web.UI.WebControls.Unit
+- uid: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Alignment*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Alignment
+  isExternal: true
+  name: Alignment
+  nameWithType: SoCheckedListBoxItems.ColumnItem.Alignment
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem.Alignment
+- uid: System.Web.UI.WebControls.HorizontalAlign
+  isExternal: true
+  name: HorizontalAlign
+  nameWithType: HorizontalAlign
+  fullName: System.Web.UI.WebControls.HorizontalAlign

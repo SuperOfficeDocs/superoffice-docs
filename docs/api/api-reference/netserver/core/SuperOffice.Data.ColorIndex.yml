@@ -1,0 +1,1120 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.ColorIndex
+  commentId: T:SuperOffice.Data.ColorIndex
+  id: ColorIndex
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.ColorIndex.BlueAlt1
+  - SuperOffice.Data.ColorIndex.BlueAlt2
+  - SuperOffice.Data.ColorIndex.BlueAlt3
+  - SuperOffice.Data.ColorIndex.DarkBlue
+  - SuperOffice.Data.ColorIndex.DarkGray
+  - SuperOffice.Data.ColorIndex.DarkGreen
+  - SuperOffice.Data.ColorIndex.DarkRed
+  - SuperOffice.Data.ColorIndex.DarkYellow
+  - SuperOffice.Data.ColorIndex.GrayAlt1
+  - SuperOffice.Data.ColorIndex.GrayAlt2
+  - SuperOffice.Data.ColorIndex.GrayAlt3
+  - SuperOffice.Data.ColorIndex.GreenAlt1
+  - SuperOffice.Data.ColorIndex.GreenAlt2
+  - SuperOffice.Data.ColorIndex.GreenAlt3
+  - SuperOffice.Data.ColorIndex.LightBlue
+  - SuperOffice.Data.ColorIndex.LightGray
+  - SuperOffice.Data.ColorIndex.LightGreen
+  - SuperOffice.Data.ColorIndex.LightRed
+  - SuperOffice.Data.ColorIndex.LightYellow
+  - SuperOffice.Data.ColorIndex.RedAlt1
+  - SuperOffice.Data.ColorIndex.RedAlt2
+  - SuperOffice.Data.ColorIndex.RedAlt3
+  - SuperOffice.Data.ColorIndex.YellowAlt1
+  - SuperOffice.Data.ColorIndex.YellowAlt2
+  - SuperOffice.Data.ColorIndex.YellowAlt3
+  langs:
+  - csharp
+  - vb
+  name: ColorIndex
+  nameWithType: ColorIndex
+  fullName: SuperOffice.Data.ColorIndex
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nColor index of tasks\n"
+  syntax:
+    content: public enum ColorIndex
+    content.vb: Public Enum ColorIndex
+  extensionMethods:
+  - SuperOffice.Data.ColorIndex.EnumUtil.MapEnums``2
+  - SuperOffice.Data.ColorIndex.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ColorIndex)
+  - SuperOffice.Data.ColorIndex.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.ColorIndex.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.ColorIndex.LightBlue
+  commentId: F:SuperOffice.Data.ColorIndex.LightBlue
+  id: LightBlue
+  parent: SuperOffice.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: LightBlue
+  nameWithType: ColorIndex.LightBlue
+  fullName: SuperOffice.Data.ColorIndex.LightBlue
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: Light blue\n"
+  syntax:
+    content: LightBlue = 0
+    return:
+      type: SuperOffice.Data.ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ColorIndex.DarkBlue
+  commentId: F:SuperOffice.Data.ColorIndex.DarkBlue
+  id: DarkBlue
+  parent: SuperOffice.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: DarkBlue
+  nameWithType: ColorIndex.DarkBlue
+  fullName: SuperOffice.Data.ColorIndex.DarkBlue
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Dark blue\n"
+  syntax:
+    content: DarkBlue = 1
+    return:
+      type: SuperOffice.Data.ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ColorIndex.LightGray
+  commentId: F:SuperOffice.Data.ColorIndex.LightGray
+  id: LightGray
+  parent: SuperOffice.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: LightGray
+  nameWithType: ColorIndex.LightGray
+  fullName: SuperOffice.Data.ColorIndex.LightGray
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Light gray\n"
+  syntax:
+    content: LightGray = 2
+    return:
+      type: SuperOffice.Data.ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ColorIndex.DarkGray
+  commentId: F:SuperOffice.Data.ColorIndex.DarkGray
+  id: DarkGray
+  parent: SuperOffice.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: DarkGray
+  nameWithType: ColorIndex.DarkGray
+  fullName: SuperOffice.Data.ColorIndex.DarkGray
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n3: Dark gray\n"
+  syntax:
+    content: DarkGray = 3
+    return:
+      type: SuperOffice.Data.ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ColorIndex.LightGreen
+  commentId: F:SuperOffice.Data.ColorIndex.LightGreen
+  id: LightGreen
+  parent: SuperOffice.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: LightGreen
+  nameWithType: ColorIndex.LightGreen
+  fullName: SuperOffice.Data.ColorIndex.LightGreen
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Light green\n"
+  syntax:
+    content: LightGreen = 4
+    return:
+      type: SuperOffice.Data.ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ColorIndex.DarkGreen
+  commentId: F:SuperOffice.Data.ColorIndex.DarkGreen
+  id: DarkGreen
+  parent: SuperOffice.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: DarkGreen
+  nameWithType: ColorIndex.DarkGreen
+  fullName: SuperOffice.Data.ColorIndex.DarkGreen
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n5: Dark Green\n"
+  syntax:
+    content: DarkGreen = 5
+    return:
+      type: SuperOffice.Data.ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ColorIndex.LightYellow
+  commentId: F:SuperOffice.Data.ColorIndex.LightYellow
+  id: LightYellow
+  parent: SuperOffice.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: LightYellow
+  nameWithType: ColorIndex.LightYellow
+  fullName: SuperOffice.Data.ColorIndex.LightYellow
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n6: Light Yellow\n"
+  syntax:
+    content: LightYellow = 6
+    return:
+      type: SuperOffice.Data.ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ColorIndex.DarkYellow
+  commentId: F:SuperOffice.Data.ColorIndex.DarkYellow
+  id: DarkYellow
+  parent: SuperOffice.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: DarkYellow
+  nameWithType: ColorIndex.DarkYellow
+  fullName: SuperOffice.Data.ColorIndex.DarkYellow
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n7: Dark Yellow\n"
+  syntax:
+    content: DarkYellow = 7
+    return:
+      type: SuperOffice.Data.ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ColorIndex.LightRed
+  commentId: F:SuperOffice.Data.ColorIndex.LightRed
+  id: LightRed
+  parent: SuperOffice.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: LightRed
+  nameWithType: ColorIndex.LightRed
+  fullName: SuperOffice.Data.ColorIndex.LightRed
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n8: Light Red\n"
+  syntax:
+    content: LightRed = 8
+    return:
+      type: SuperOffice.Data.ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ColorIndex.DarkRed
+  commentId: F:SuperOffice.Data.ColorIndex.DarkRed
+  id: DarkRed
+  parent: SuperOffice.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: DarkRed
+  nameWithType: ColorIndex.DarkRed
+  fullName: SuperOffice.Data.ColorIndex.DarkRed
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n9: Dark Red\n"
+  syntax:
+    content: DarkRed = 9
+    return:
+      type: SuperOffice.Data.ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ColorIndex.BlueAlt1
+  commentId: F:SuperOffice.Data.ColorIndex.BlueAlt1
+  id: BlueAlt1
+  parent: SuperOffice.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: BlueAlt1
+  nameWithType: ColorIndex.BlueAlt1
+  fullName: SuperOffice.Data.ColorIndex.BlueAlt1
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n10: Blue alternative 1\n"
+  syntax:
+    content: BlueAlt1 = 10
+    return:
+      type: SuperOffice.Data.ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ColorIndex.BlueAlt2
+  commentId: F:SuperOffice.Data.ColorIndex.BlueAlt2
+  id: BlueAlt2
+  parent: SuperOffice.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: BlueAlt2
+  nameWithType: ColorIndex.BlueAlt2
+  fullName: SuperOffice.Data.ColorIndex.BlueAlt2
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n11: Blue alternative 2\n"
+  syntax:
+    content: BlueAlt2 = 11
+    return:
+      type: SuperOffice.Data.ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ColorIndex.BlueAlt3
+  commentId: F:SuperOffice.Data.ColorIndex.BlueAlt3
+  id: BlueAlt3
+  parent: SuperOffice.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: BlueAlt3
+  nameWithType: ColorIndex.BlueAlt3
+  fullName: SuperOffice.Data.ColorIndex.BlueAlt3
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n12: Blue alternative 3\n"
+  syntax:
+    content: BlueAlt3 = 12
+    return:
+      type: SuperOffice.Data.ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ColorIndex.GrayAlt1
+  commentId: F:SuperOffice.Data.ColorIndex.GrayAlt1
+  id: GrayAlt1
+  parent: SuperOffice.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: GrayAlt1
+  nameWithType: ColorIndex.GrayAlt1
+  fullName: SuperOffice.Data.ColorIndex.GrayAlt1
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n13: Gray alternative 1\n"
+  syntax:
+    content: GrayAlt1 = 13
+    return:
+      type: SuperOffice.Data.ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ColorIndex.GrayAlt2
+  commentId: F:SuperOffice.Data.ColorIndex.GrayAlt2
+  id: GrayAlt2
+  parent: SuperOffice.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: GrayAlt2
+  nameWithType: ColorIndex.GrayAlt2
+  fullName: SuperOffice.Data.ColorIndex.GrayAlt2
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n14: Gray alternative 2\n"
+  syntax:
+    content: GrayAlt2 = 14
+    return:
+      type: SuperOffice.Data.ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ColorIndex.GrayAlt3
+  commentId: F:SuperOffice.Data.ColorIndex.GrayAlt3
+  id: GrayAlt3
+  parent: SuperOffice.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: GrayAlt3
+  nameWithType: ColorIndex.GrayAlt3
+  fullName: SuperOffice.Data.ColorIndex.GrayAlt3
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n15: Gray alternative 3\n"
+  syntax:
+    content: GrayAlt3 = 15
+    return:
+      type: SuperOffice.Data.ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ColorIndex.GreenAlt1
+  commentId: F:SuperOffice.Data.ColorIndex.GreenAlt1
+  id: GreenAlt1
+  parent: SuperOffice.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: GreenAlt1
+  nameWithType: ColorIndex.GreenAlt1
+  fullName: SuperOffice.Data.ColorIndex.GreenAlt1
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n16: Green alternative 1\n"
+  syntax:
+    content: GreenAlt1 = 16
+    return:
+      type: SuperOffice.Data.ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ColorIndex.GreenAlt2
+  commentId: F:SuperOffice.Data.ColorIndex.GreenAlt2
+  id: GreenAlt2
+  parent: SuperOffice.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: GreenAlt2
+  nameWithType: ColorIndex.GreenAlt2
+  fullName: SuperOffice.Data.ColorIndex.GreenAlt2
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n17: Green alternative 2\n"
+  syntax:
+    content: GreenAlt2 = 17
+    return:
+      type: SuperOffice.Data.ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ColorIndex.GreenAlt3
+  commentId: F:SuperOffice.Data.ColorIndex.GreenAlt3
+  id: GreenAlt3
+  parent: SuperOffice.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: GreenAlt3
+  nameWithType: ColorIndex.GreenAlt3
+  fullName: SuperOffice.Data.ColorIndex.GreenAlt3
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n18: Green alternative 3\n"
+  syntax:
+    content: GreenAlt3 = 18
+    return:
+      type: SuperOffice.Data.ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ColorIndex.YellowAlt1
+  commentId: F:SuperOffice.Data.ColorIndex.YellowAlt1
+  id: YellowAlt1
+  parent: SuperOffice.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: YellowAlt1
+  nameWithType: ColorIndex.YellowAlt1
+  fullName: SuperOffice.Data.ColorIndex.YellowAlt1
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n19: Yellow alternative 1\n"
+  syntax:
+    content: YellowAlt1 = 19
+    return:
+      type: SuperOffice.Data.ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ColorIndex.YellowAlt2
+  commentId: F:SuperOffice.Data.ColorIndex.YellowAlt2
+  id: YellowAlt2
+  parent: SuperOffice.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: YellowAlt2
+  nameWithType: ColorIndex.YellowAlt2
+  fullName: SuperOffice.Data.ColorIndex.YellowAlt2
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n20: Yellow alternative 2\n"
+  syntax:
+    content: YellowAlt2 = 20
+    return:
+      type: SuperOffice.Data.ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ColorIndex.YellowAlt3
+  commentId: F:SuperOffice.Data.ColorIndex.YellowAlt3
+  id: YellowAlt3
+  parent: SuperOffice.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: YellowAlt3
+  nameWithType: ColorIndex.YellowAlt3
+  fullName: SuperOffice.Data.ColorIndex.YellowAlt3
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n21: Yellow alternative 3\n"
+  syntax:
+    content: YellowAlt3 = 21
+    return:
+      type: SuperOffice.Data.ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ColorIndex.RedAlt1
+  commentId: F:SuperOffice.Data.ColorIndex.RedAlt1
+  id: RedAlt1
+  parent: SuperOffice.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: RedAlt1
+  nameWithType: ColorIndex.RedAlt1
+  fullName: SuperOffice.Data.ColorIndex.RedAlt1
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n22: Red alternative 1\n"
+  syntax:
+    content: RedAlt1 = 22
+    return:
+      type: SuperOffice.Data.ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ColorIndex.RedAlt2
+  commentId: F:SuperOffice.Data.ColorIndex.RedAlt2
+  id: RedAlt2
+  parent: SuperOffice.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: RedAlt2
+  nameWithType: ColorIndex.RedAlt2
+  fullName: SuperOffice.Data.ColorIndex.RedAlt2
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n23: Red alternative 2\n"
+  syntax:
+    content: RedAlt2 = 23
+    return:
+      type: SuperOffice.Data.ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ColorIndex.RedAlt3
+  commentId: F:SuperOffice.Data.ColorIndex.RedAlt3
+  id: RedAlt3
+  parent: SuperOffice.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: RedAlt3
+  nameWithType: ColorIndex.RedAlt3
+  fullName: SuperOffice.Data.ColorIndex.RedAlt3
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n24: Red alternative 3\n"
+  syntax:
+    content: RedAlt3 = 24
+    return:
+      type: SuperOffice.Data.ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.ColorIndex.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ColorIndex, To>()
+  nameWithType: EnumUtil.MapEnums<ColorIndex, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ColorIndex, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ColorIndex, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ColorIndex, To)()
+  name.vb: MapEnums(Of ColorIndex, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ColorIndex, To>
+    nameWithType: EnumUtil.MapEnums<ColorIndex, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ColorIndex, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ColorIndex, To)
+    nameWithType: EnumUtil.MapEnums(Of ColorIndex, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ColorIndex, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ColorIndex.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ColorIndex)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ColorIndex>(ColorIndex)
+  nameWithType: ObjectExtensions.AssignByReflection<ColorIndex>(ColorIndex)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ColorIndex>(SuperOffice.Data.ColorIndex)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ColorIndex)(ColorIndex)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ColorIndex)(SuperOffice.Data.ColorIndex)
+  name.vb: AssignByReflection(Of ColorIndex)(ColorIndex)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ColorIndex>
+    nameWithType: ObjectExtensions.AssignByReflection<ColorIndex>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ColorIndex>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.ColorIndex
+    name: ColorIndex
+    nameWithType: ColorIndex
+    fullName: SuperOffice.Data.ColorIndex
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ColorIndex)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ColorIndex)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ColorIndex)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.ColorIndex
+    name: ColorIndex
+    nameWithType: ColorIndex
+    fullName: SuperOffice.Data.ColorIndex
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ColorIndex.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ColorIndex>()
+  nameWithType: ObjectExtensions.GraphCopy<ColorIndex>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ColorIndex>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ColorIndex)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ColorIndex)()
+  name.vb: GraphCopy(Of ColorIndex)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ColorIndex>
+    nameWithType: ObjectExtensions.GraphCopy<ColorIndex>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ColorIndex>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ColorIndex)
+    nameWithType: ObjectExtensions.GraphCopy(Of ColorIndex)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ColorIndex)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ColorIndex.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ColorIndex, To>()
+  nameWithType: Converters.MapEnums<ColorIndex, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ColorIndex, To>()
+  nameWithType.vb: Converters.MapEnums(Of ColorIndex, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ColorIndex, To)()
+  name.vb: MapEnums(Of ColorIndex, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ColorIndex, To>
+    nameWithType: Converters.MapEnums<ColorIndex, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ColorIndex, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ColorIndex, To)
+    nameWithType: Converters.MapEnums(Of ColorIndex, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ColorIndex, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.ColorIndex
+  commentId: T:SuperOffice.Data.ColorIndex
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ColorIndex
+  nameWithType: ColorIndex
+  fullName: SuperOffice.Data.ColorIndex

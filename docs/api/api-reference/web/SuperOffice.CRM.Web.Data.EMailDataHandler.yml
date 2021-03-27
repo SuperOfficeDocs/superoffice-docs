@@ -1,0 +1,2071 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler
+  commentId: T:SuperOffice.CRM.Web.Data.EMailDataHandler
+  id: EMailDataHandler
+  parent: SuperOffice.CRM.Web.Data
+  children:
+  - SuperOffice.CRM.Web.Data.EMailDataHandler.#ctor
+  - SuperOffice.CRM.Web.Data.EMailDataHandler.CreateEmailFromDocumentEntity(SuperOffice.CRM.Services.DocumentEntity)
+  - SuperOffice.CRM.Web.Data.EMailDataHandler.GenerateNewEmailFromTemplate(System.Int32,System.String,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32,System.String)
+  - SuperOffice.CRM.Web.Data.EMailDataHandler.GetAppointmentEntityCurrent
+  - SuperOffice.CRM.Web.Data.EMailDataHandler.GetAttachment(System.Int32,System.String,System.String)
+  - SuperOffice.CRM.Web.Data.EMailDataHandler.GetEMailAsStream(System.Int32,System.String,System.Boolean)
+  - SuperOffice.CRM.Web.Data.EMailDataHandler.GetEmlStreamFromEMailEntity(SuperOffice.CRM.Services.EMailEntity,System.IO.Stream)
+  - SuperOffice.CRM.Web.Data.EMailDataHandler.GetNewPopulatedEmailEntity
+  - SuperOffice.CRM.Web.Data.EMailDataHandler.GetParsedFolder(System.String)
+  - SuperOffice.CRM.Web.Data.EMailDataHandler.GetPlainHTMLBody(System.String)
+  - SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientCurrent(System.String,SuperOffice.CRM.Services.EMailAddress[])
+  - SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientString(SuperOffice.CRM.Services.EMailAddress)
+  - SuperOffice.CRM.Web.Data.EMailDataHandler.GetSessionValue(System.String)
+  - SuperOffice.CRM.Web.Data.EMailDataHandler.GetSubjectCurrent(System.String)
+  - SuperOffice.CRM.Web.Data.EMailDataHandler.GetSuperOfficeBody(SuperOffice.CRM.Web.Util.MailEntity,SuperOffice.CRM.Services.AppointmentEntity,System.String,System.Int32)
+  - SuperOffice.CRM.Web.Data.EMailDataHandler.Initialize(System.Xml.XmlNode,System.String)
+  - SuperOffice.CRM.Web.Data.EMailDataHandler.IsNewInboxFeatureToggleOn
+  - SuperOffice.CRM.Web.Data.EMailDataHandler.Load(System.String)
+  - SuperOffice.CRM.Web.Data.EMailDataHandler.MarkAsRead
+  - SuperOffice.CRM.Web.Data.EMailDataHandler.New(System.String)
+  - SuperOffice.CRM.Web.Data.EMailDataHandler.Save
+  - SuperOffice.CRM.Web.Data.EMailDataHandler.SaveAttachmentToFile(System.Int32,System.String)
+  - SuperOffice.CRM.Web.Data.EMailDataHandler.SaveEMailToFile(System.Int32,System.String,System.String,System.Boolean)
+  - SuperOffice.CRM.Web.Data.EMailDataHandler.SetSessionValue(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: EMailDataHandler
+  nameWithType: EMailDataHandler
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: 'public class EMailDataHandler : DataHandlerBase, IDataHandler, IWebObject, IPlugin'
+    content.vb: >-
+      Public Class EMailDataHandler
+          Inherits DataHandlerBase
+          Implements IDataHandler, IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  - SuperOffice.DCF.Web.Data.DataHandlerBase
+  implements:
+  - SuperOffice.Data.IDataHandler
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.isPreLoadMode
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._dataCarriers
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._mandatoryDataCarriers
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._primaryCurrent
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._currentHistoryItem
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._config
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._id
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._hasLoaded
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._isNew
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String,System.String)
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String)
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.New
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData(System.String@)
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriersToExpose
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.ExposeToClient
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.Id
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.HasLoaded
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.IsNew
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriers
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.PrimaryCurrent
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.CurrentHistoryItem
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.EventArgument
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.EventTarget
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.#ctor
+  commentId: M:SuperOffice.CRM.Web.Data.EMailDataHandler.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
+  langs:
+  - csharp
+  - vb
+  name: EMailDataHandler()
+  nameWithType: EMailDataHandler.EMailDataHandler()
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.EMailDataHandler()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public EMailDataHandler()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.Initialize(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailDataHandler.Initialize(System.Xml.XmlNode,System.String)
+  id: Initialize(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
+  langs:
+  - csharp
+  - vb
+  name: Initialize(XmlNode, String)
+  nameWithType: EMailDataHandler.Initialize(XmlNode, String)
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.Initialize(System.Xml.XmlNode, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public override void Initialize(XmlNode config, string id)
+    parameters:
+    - id: config
+      type: System.Xml.XmlNode
+    - id: id
+      type: System.String
+    content.vb: Public Overrides Sub Initialize(config As XmlNode, id As String)
+  overridden: SuperOffice.DCF.Web.Data.DataHandlerBase.Initialize(System.Xml.XmlNode,System.String)
+  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.Initialize*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.New(System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailDataHandler.New(System.String)
+  id: New(System.String)
+  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
+  langs:
+  - csharp
+  - vb
+  name: New(String)
+  nameWithType: EMailDataHandler.New(String)
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.New(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public override void New(string CarrierId)
+    parameters:
+    - id: CarrierId
+      type: System.String
+    content.vb: Public Overrides Sub New(CarrierId As String)
+  overridden: SuperOffice.DCF.Web.Data.DataHandlerBase.New(System.String)
+  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.New*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.Save
+  commentId: M:SuperOffice.CRM.Web.Data.EMailDataHandler.Save
+  id: Save
+  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
+  langs:
+  - csharp
+  - vb
+  name: Save()
+  nameWithType: EMailDataHandler.Save()
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.Save()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public override object Save()
+    return:
+      type: System.Object
+    content.vb: Public Overrides Function Save As Object
+  overridden: SuperOffice.DCF.Web.Data.DataHandlerBase.Save
+  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.Save*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.Load(System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailDataHandler.Load(System.String)
+  id: Load(System.String)
+  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
+  langs:
+  - csharp
+  - vb
+  name: Load(String)
+  nameWithType: EMailDataHandler.Load(String)
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.Load(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public override void Load(string CarrierId)
+    parameters:
+    - id: CarrierId
+      type: System.String
+    content.vb: Public Overrides Sub Load(CarrierId As String)
+  overridden: SuperOffice.DCF.Web.Data.DataHandlerBase.Load(System.String)
+  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.Load*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.CreateEmailFromDocumentEntity(SuperOffice.CRM.Services.DocumentEntity)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailDataHandler.CreateEmailFromDocumentEntity(SuperOffice.CRM.Services.DocumentEntity)
+  id: CreateEmailFromDocumentEntity(SuperOffice.CRM.Services.DocumentEntity)
+  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
+  langs:
+  - csharp
+  - vb
+  name: CreateEmailFromDocumentEntity(DocumentEntity)
+  nameWithType: EMailDataHandler.CreateEmailFromDocumentEntity(DocumentEntity)
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.CreateEmailFromDocumentEntity(SuperOffice.CRM.Services.DocumentEntity)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static EMailEntity CreateEmailFromDocumentEntity(DocumentEntity documentEntity)
+    parameters:
+    - id: documentEntity
+      type: SuperOffice.CRM.Services.DocumentEntity
+    return:
+      type: SuperOffice.CRM.Services.EMailEntity
+    content.vb: Public Shared Function CreateEmailFromDocumentEntity(documentEntity As DocumentEntity) As EMailEntity
+  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.CreateEmailFromDocumentEntity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetAppointmentEntityCurrent
+  commentId: M:SuperOffice.CRM.Web.Data.EMailDataHandler.GetAppointmentEntityCurrent
+  id: GetAppointmentEntityCurrent
+  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
+  langs:
+  - csharp
+  - vb
+  name: GetAppointmentEntityCurrent()
+  nameWithType: EMailDataHandler.GetAppointmentEntityCurrent()
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetAppointmentEntityCurrent()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static AppointmentEntity GetAppointmentEntityCurrent()
+    return:
+      type: SuperOffice.CRM.Services.AppointmentEntity
+    content.vb: Public Shared Function GetAppointmentEntityCurrent As AppointmentEntity
+  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.GetAppointmentEntityCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetSubjectCurrent(System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailDataHandler.GetSubjectCurrent(System.String)
+  id: GetSubjectCurrent(System.String)
+  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
+  langs:
+  - csharp
+  - vb
+  name: GetSubjectCurrent(String)
+  nameWithType: EMailDataHandler.GetSubjectCurrent(String)
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetSubjectCurrent(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static string GetSubjectCurrent(string existing)
+    parameters:
+    - id: existing
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetSubjectCurrent(existing As String) As String
+  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.GetSubjectCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientString(SuperOffice.CRM.Services.EMailAddress)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientString(SuperOffice.CRM.Services.EMailAddress)
+  id: GetRecipientString(SuperOffice.CRM.Services.EMailAddress)
+  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
+  langs:
+  - csharp
+  - vb
+  name: GetRecipientString(EMailAddress)
+  nameWithType: EMailDataHandler.GetRecipientString(EMailAddress)
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientString(SuperOffice.CRM.Services.EMailAddress)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static string GetRecipientString(EMailAddress a)
+    parameters:
+    - id: a
+      type: SuperOffice.CRM.Services.EMailAddress
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetRecipientString(a As EMailAddress) As String
+  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientCurrent(System.String,SuperOffice.CRM.Services.EMailAddress[])
+  commentId: M:SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientCurrent(System.String,SuperOffice.CRM.Services.EMailAddress[])
+  id: GetRecipientCurrent(System.String,SuperOffice.CRM.Services.EMailAddress[])
+  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
+  langs:
+  - csharp
+  - vb
+  name: GetRecipientCurrent(String, EMailAddress[])
+  nameWithType: EMailDataHandler.GetRecipientCurrent(String, EMailAddress[])
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientCurrent(System.String, SuperOffice.CRM.Services.EMailAddress[])
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static EMailAddress[] GetRecipientCurrent(string currentName, EMailAddress[] existingValue)
+    parameters:
+    - id: currentName
+      type: System.String
+    - id: existingValue
+      type: SuperOffice.CRM.Services.EMailAddress[]
+    return:
+      type: SuperOffice.CRM.Services.EMailAddress[]
+    content.vb: Public Shared Function GetRecipientCurrent(currentName As String, existingValue As EMailAddress()) As EMailAddress()
+  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientCurrent*
+  nameWithType.vb: EMailDataHandler.GetRecipientCurrent(String, EMailAddress())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientCurrent(System.String, SuperOffice.CRM.Services.EMailAddress())
+  name.vb: GetRecipientCurrent(String, EMailAddress())
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetParsedFolder(System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailDataHandler.GetParsedFolder(System.String)
+  id: GetParsedFolder(System.String)
+  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
+  langs:
+  - csharp
+  - vb
+  name: GetParsedFolder(String)
+  nameWithType: EMailDataHandler.GetParsedFolder(String)
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetParsedFolder(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static string GetParsedFolder(string rawName)
+    parameters:
+    - id: rawName
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetParsedFolder(rawName As String) As String
+  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.GetParsedFolder*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetAttachment(System.Int32,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailDataHandler.GetAttachment(System.Int32,System.String,System.String)
+  id: GetAttachment(System.Int32,System.String,System.String)
+  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
+  langs:
+  - csharp
+  - vb
+  name: GetAttachment(Int32, String, String)
+  nameWithType: EMailDataHandler.GetAttachment(Int32, String, String)
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetAttachment(System.Int32, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static EMailAttachment GetAttachment(int messageId, string folderName, string attachmentId)
+    parameters:
+    - id: messageId
+      type: System.Int32
+    - id: folderName
+      type: System.String
+    - id: attachmentId
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Services.EMailAttachment
+    content.vb: Public Shared Function GetAttachment(messageId As Integer, folderName As String, attachmentId As String) As EMailAttachment
+  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.GetAttachment*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetEMailAsStream(System.Int32,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailDataHandler.GetEMailAsStream(System.Int32,System.String,System.Boolean)
+  id: GetEMailAsStream(System.Int32,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
+  langs:
+  - csharp
+  - vb
+  name: GetEMailAsStream(Int32, String, Boolean)
+  nameWithType: EMailDataHandler.GetEMailAsStream(Int32, String, Boolean)
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetEMailAsStream(System.Int32, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static Stream GetEMailAsStream(int messageServerId, string folderName, bool stripAttachments)
+    parameters:
+    - id: messageServerId
+      type: System.Int32
+    - id: folderName
+      type: System.String
+    - id: stripAttachments
+      type: System.Boolean
+    return:
+      type: System.IO.Stream
+    content.vb: Public Shared Function GetEMailAsStream(messageServerId As Integer, folderName As String, stripAttachments As Boolean) As Stream
+  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.GetEMailAsStream*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.SaveAttachmentToFile(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailDataHandler.SaveAttachmentToFile(System.Int32,System.String)
+  id: SaveAttachmentToFile(System.Int32,System.String)
+  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
+  langs:
+  - csharp
+  - vb
+  name: SaveAttachmentToFile(Int32, String)
+  nameWithType: EMailDataHandler.SaveAttachmentToFile(Int32, String)
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.SaveAttachmentToFile(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static string SaveAttachmentToFile(int serverId, string attachmentId)
+    parameters:
+    - id: serverId
+      type: System.Int32
+    - id: attachmentId
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function SaveAttachmentToFile(serverId As Integer, attachmentId As String) As String
+  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.SaveAttachmentToFile*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.SaveEMailToFile(System.Int32,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailDataHandler.SaveEMailToFile(System.Int32,System.String,System.String,System.Boolean)
+  id: SaveEMailToFile(System.Int32,System.String,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
+  langs:
+  - csharp
+  - vb
+  name: SaveEMailToFile(Int32, String, String, Boolean)
+  nameWithType: EMailDataHandler.SaveEMailToFile(Int32, String, String, Boolean)
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.SaveEMailToFile(System.Int32, System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static string SaveEMailToFile(int serverId, string folder, string filename, bool stripAttachments)
+    parameters:
+    - id: serverId
+      type: System.Int32
+    - id: folder
+      type: System.String
+    - id: filename
+      type: System.String
+    - id: stripAttachments
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Shared Function SaveEMailToFile(serverId As Integer, folder As String, filename As String, stripAttachments As Boolean) As String
+  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.SaveEMailToFile*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetPlainHTMLBody(System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailDataHandler.GetPlainHTMLBody(System.String)
+  id: GetPlainHTMLBody(System.String)
+  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
+  langs:
+  - csharp
+  - vb
+  name: GetPlainHTMLBody(String)
+  nameWithType: EMailDataHandler.GetPlainHTMLBody(String)
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetPlainHTMLBody(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static string GetPlainHTMLBody(string source)
+    parameters:
+    - id: source
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetPlainHTMLBody(source As String) As String
+  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.GetPlainHTMLBody*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetSuperOfficeBody(SuperOffice.CRM.Web.Util.MailEntity,SuperOffice.CRM.Services.AppointmentEntity,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailDataHandler.GetSuperOfficeBody(SuperOffice.CRM.Web.Util.MailEntity,SuperOffice.CRM.Services.AppointmentEntity,System.String,System.Int32)
+  id: GetSuperOfficeBody(SuperOffice.CRM.Web.Util.MailEntity,SuperOffice.CRM.Services.AppointmentEntity,System.String,System.Int32)
+  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
+  langs:
+  - csharp
+  - vb
+  name: GetSuperOfficeBody(MailEntity, AppointmentEntity, String, Int32)
+  nameWithType: EMailDataHandler.GetSuperOfficeBody(MailEntity, AppointmentEntity, String, Int32)
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetSuperOfficeBody(SuperOffice.CRM.Web.Util.MailEntity, SuperOffice.CRM.Services.AppointmentEntity, System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static void GetSuperOfficeBody(MailEntity entity, AppointmentEntity appointment, string originalMail, int templateId = 0)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Web.Util.MailEntity
+    - id: appointment
+      type: SuperOffice.CRM.Services.AppointmentEntity
+    - id: originalMail
+      type: System.String
+    - id: templateId
+      type: System.Int32
+    content.vb: Public Shared Sub GetSuperOfficeBody(entity As MailEntity, appointment As AppointmentEntity, originalMail As String, templateId As Integer = 0)
+  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.GetSuperOfficeBody*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetEmlStreamFromEMailEntity(SuperOffice.CRM.Services.EMailEntity,System.IO.Stream)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailDataHandler.GetEmlStreamFromEMailEntity(SuperOffice.CRM.Services.EMailEntity,System.IO.Stream)
+  id: GetEmlStreamFromEMailEntity(SuperOffice.CRM.Services.EMailEntity,System.IO.Stream)
+  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
+  langs:
+  - csharp
+  - vb
+  name: GetEmlStreamFromEMailEntity(EMailEntity, Stream)
+  nameWithType: EMailDataHandler.GetEmlStreamFromEMailEntity(EMailEntity, Stream)
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetEmlStreamFromEMailEntity(SuperOffice.CRM.Services.EMailEntity, System.IO.Stream)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static Stream GetEmlStreamFromEMailEntity(EMailEntity mailEntity, Stream templateStream)
+    parameters:
+    - id: mailEntity
+      type: SuperOffice.CRM.Services.EMailEntity
+    - id: templateStream
+      type: System.IO.Stream
+    return:
+      type: System.IO.Stream
+    content.vb: Public Shared Function GetEmlStreamFromEMailEntity(mailEntity As EMailEntity, templateStream As Stream) As Stream
+  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.GetEmlStreamFromEMailEntity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GenerateNewEmailFromTemplate(System.Int32,System.String,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailDataHandler.GenerateNewEmailFromTemplate(System.Int32,System.String,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32,System.String)
+  id: GenerateNewEmailFromTemplate(System.Int32,System.String,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32,System.String)
+  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
+  langs:
+  - csharp
+  - vb
+  name: GenerateNewEmailFromTemplate(Int32, String, Boolean, Int32, Int32, Int32, Int32, String)
+  nameWithType: EMailDataHandler.GenerateNewEmailFromTemplate(Int32, String, Boolean, Int32, Int32, Int32, Int32, String)
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GenerateNewEmailFromTemplate(System.Int32, System.String, System.Boolean, System.Int32, System.Int32, System.Int32, System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static EMailEntity GenerateNewEmailFromTemplate(int templateId, string language, bool includeSignature, int contactId, int personId, int saleId, int projectId, string subject)
+    parameters:
+    - id: templateId
+      type: System.Int32
+    - id: language
+      type: System.String
+    - id: includeSignature
+      type: System.Boolean
+    - id: contactId
+      type: System.Int32
+    - id: personId
+      type: System.Int32
+    - id: saleId
+      type: System.Int32
+    - id: projectId
+      type: System.Int32
+    - id: subject
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Services.EMailEntity
+    content.vb: Public Shared Function GenerateNewEmailFromTemplate(templateId As Integer, language As String, includeSignature As Boolean, contactId As Integer, personId As Integer, saleId As Integer, projectId As Integer, subject As String) As EMailEntity
+  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.GenerateNewEmailFromTemplate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetSessionValue(System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailDataHandler.GetSessionValue(System.String)
+  id: GetSessionValue(System.String)
+  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
+  langs:
+  - csharp
+  - vb
+  name: GetSessionValue(String)
+  nameWithType: EMailDataHandler.GetSessionValue(String)
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetSessionValue(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static string GetSessionValue(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetSessionValue(key As String) As String
+  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.GetSessionValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.IsNewInboxFeatureToggleOn
+  commentId: M:SuperOffice.CRM.Web.Data.EMailDataHandler.IsNewInboxFeatureToggleOn
+  id: IsNewInboxFeatureToggleOn
+  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
+  langs:
+  - csharp
+  - vb
+  name: IsNewInboxFeatureToggleOn()
+  nameWithType: EMailDataHandler.IsNewInboxFeatureToggleOn()
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.IsNewInboxFeatureToggleOn()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static bool IsNewInboxFeatureToggleOn()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsNewInboxFeatureToggleOn As Boolean
+  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.IsNewInboxFeatureToggleOn*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetNewPopulatedEmailEntity
+  commentId: M:SuperOffice.CRM.Web.Data.EMailDataHandler.GetNewPopulatedEmailEntity
+  id: GetNewPopulatedEmailEntity
+  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
+  langs:
+  - csharp
+  - vb
+  name: GetNewPopulatedEmailEntity()
+  nameWithType: EMailDataHandler.GetNewPopulatedEmailEntity()
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetNewPopulatedEmailEntity()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public EMailEntity GetNewPopulatedEmailEntity()
+    return:
+      type: SuperOffice.CRM.Services.EMailEntity
+    content.vb: Public Function GetNewPopulatedEmailEntity As EMailEntity
+  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.GetNewPopulatedEmailEntity*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.SetSessionValue(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailDataHandler.SetSessionValue(System.String,System.String)
+  id: SetSessionValue(System.String,System.String)
+  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
+  langs:
+  - csharp
+  - vb
+  name: SetSessionValue(String, String)
+  nameWithType: EMailDataHandler.SetSessionValue(String, String)
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.SetSessionValue(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static void SetSessionValue(string key, string value)
+    parameters:
+    - id: key
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Public Shared Sub SetSessionValue(key As String, value As String)
+  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.SetSessionValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.MarkAsRead
+  commentId: P:SuperOffice.CRM.Web.Data.EMailDataHandler.MarkAsRead
+  id: MarkAsRead
+  parent: SuperOffice.CRM.Web.Data.EMailDataHandler
+  langs:
+  - csharp
+  - vb
+  name: MarkAsRead
+  nameWithType: EMailDataHandler.MarkAsRead
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.MarkAsRead
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public bool MarkAsRead { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property MarkAsRead As Boolean
+  overload: SuperOffice.CRM.Web.Data.EMailDataHandler.MarkAsRead*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Web.Data
+  commentId: N:SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: SuperOffice.CRM.Web.Data
+  nameWithType: SuperOffice.CRM.Web.Data
+  fullName: SuperOffice.CRM.Web.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase
+  commentId: T:SuperOffice.DCF.Web.Data.DataHandlerBase
+  parent: SuperOffice.DCF.Web.Data
+  isExternal: true
+  name: DataHandlerBase
+  nameWithType: DataHandlerBase
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase
+- uid: SuperOffice.Data.IDataHandler
+  commentId: T:SuperOffice.Data.IDataHandler
+  parent: SuperOffice.Data
+  isExternal: true
+  name: IDataHandler
+  nameWithType: IDataHandler
+  fullName: SuperOffice.Data.IDataHandler
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.isPreLoadMode
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase.isPreLoadMode
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: isPreLoadMode
+  nameWithType: DataHandlerBase.isPreLoadMode
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.isPreLoadMode
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._dataCarriers
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._dataCarriers
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _dataCarriers
+  nameWithType: DataHandlerBase._dataCarriers
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._dataCarriers
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._mandatoryDataCarriers
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._mandatoryDataCarriers
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _mandatoryDataCarriers
+  nameWithType: DataHandlerBase._mandatoryDataCarriers
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._mandatoryDataCarriers
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._primaryCurrent
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._primaryCurrent
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _primaryCurrent
+  nameWithType: DataHandlerBase._primaryCurrent
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._primaryCurrent
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._currentHistoryItem
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._currentHistoryItem
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _currentHistoryItem
+  nameWithType: DataHandlerBase._currentHistoryItem
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._currentHistoryItem
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._config
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._config
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _config
+  nameWithType: DataHandlerBase._config
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._config
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._id
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._id
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _id
+  nameWithType: DataHandlerBase._id
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._id
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._hasLoaded
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._hasLoaded
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _hasLoaded
+  nameWithType: DataHandlerBase._hasLoaded
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._hasLoaded
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._isNew
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._isNew
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _isNew
+  nameWithType: DataHandlerBase._isNew
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._isNew
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String,System.String)
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: GetRawDataValue(String, String)
+  nameWithType: DataHandlerBase.GetRawDataValue(String, String)
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String,System.String)
+    name: GetRawDataValue
+    nameWithType: DataHandlerBase.GetRawDataValue
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String,System.String)
+    name: GetRawDataValue
+    nameWithType: DataHandlerBase.GetRawDataValue
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String)
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String)
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: GetRawDataValue(String)
+  nameWithType: DataHandlerBase.GetRawDataValue(String)
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String)
+    name: GetRawDataValue
+    nameWithType: DataHandlerBase.GetRawDataValue
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String)
+    name: GetRawDataValue
+    nameWithType: DataHandlerBase.GetRawDataValue
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: Clear()
+  nameWithType: DataHandlerBase.Clear()
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Clear()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+    name: Clear
+    nameWithType: DataHandlerBase.Clear
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+    name: Clear
+    nameWithType: DataHandlerBase.Clear
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.New
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: New()
+  nameWithType: DataHandlerBase.New()
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.New()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+    name: New
+    nameWithType: DataHandlerBase.New
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+    name: New
+    nameWithType: DataHandlerBase.New
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: Delete()
+  nameWithType: DataHandlerBase.Delete()
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Delete()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+    name: Delete
+    nameWithType: DataHandlerBase.Delete
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+    name: Delete
+    nameWithType: DataHandlerBase.Delete
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: OnBeforeDataBind()
+  nameWithType: DataHandlerBase.OnBeforeDataBind()
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+    name: OnBeforeDataBind
+    nameWithType: DataHandlerBase.OnBeforeDataBind
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+    name: OnBeforeDataBind
+    nameWithType: DataHandlerBase.OnBeforeDataBind
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: OnBeforeValidate()
+  nameWithType: DataHandlerBase.OnBeforeValidate()
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+    name: OnBeforeValidate
+    nameWithType: DataHandlerBase.OnBeforeValidate
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+    name: OnBeforeValidate
+    nameWithType: DataHandlerBase.OnBeforeValidate
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData(System.String@)
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData(System.String@)
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: CheckMandatoryData(String)
+  nameWithType: DataHandlerBase.CheckMandatoryData(String)
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData(System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData(System.String@)
+    name: CheckMandatoryData
+    nameWithType: DataHandlerBase.CheckMandatoryData
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData(System.String@)
+    name: CheckMandatoryData
+    nameWithType: DataHandlerBase.CheckMandatoryData
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriersToExpose
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriersToExpose
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: DataCarriersToExpose
+  nameWithType: DataHandlerBase.DataCarriersToExpose
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriersToExpose
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.ExposeToClient
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.ExposeToClient
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: ExposeToClient
+  nameWithType: DataHandlerBase.ExposeToClient
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.ExposeToClient
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Id
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.Id
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: Id
+  nameWithType: DataHandlerBase.Id
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Id
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.HasLoaded
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.HasLoaded
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: HasLoaded
+  nameWithType: DataHandlerBase.HasLoaded
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.HasLoaded
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.IsNew
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.IsNew
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: IsNew
+  nameWithType: DataHandlerBase.IsNew
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.IsNew
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriers
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriers
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: DataCarriers
+  nameWithType: DataHandlerBase.DataCarriers
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriers
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.PrimaryCurrent
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.PrimaryCurrent
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: PrimaryCurrent
+  nameWithType: DataHandlerBase.PrimaryCurrent
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.PrimaryCurrent
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.CurrentHistoryItem
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.CurrentHistoryItem
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: CurrentHistoryItem
+  nameWithType: DataHandlerBase.CurrentHistoryItem
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.CurrentHistoryItem
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.EventArgument
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.EventArgument
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: EventArgument
+  nameWithType: DataHandlerBase.EventArgument
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.EventArgument
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.EventTarget
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.EventTarget
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: EventTarget
+  nameWithType: DataHandlerBase.EventTarget
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.EventTarget
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Data
+  commentId: N:SuperOffice.DCF.Web.Data
+  isExternal: true
+  name: SuperOffice.DCF.Web.Data
+  nameWithType: SuperOffice.DCF.Web.Data
+  fullName: SuperOffice.DCF.Web.Data
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.#ctor
+  isExternal: true
+  name: EMailDataHandler
+  nameWithType: EMailDataHandler.EMailDataHandler
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.EMailDataHandler
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Initialize(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.Initialize(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: Initialize(XmlNode, String)
+  nameWithType: DataHandlerBase.Initialize(XmlNode, String)
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Initialize(System.Xml.XmlNode, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Initialize(System.Xml.XmlNode,System.String)
+    name: Initialize
+    nameWithType: DataHandlerBase.Initialize
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Initialize(System.Xml.XmlNode,System.String)
+    name: Initialize
+    nameWithType: DataHandlerBase.Initialize
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.Initialize*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.Initialize
+  isExternal: true
+  name: Initialize
+  nameWithType: EMailDataHandler.Initialize
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.Initialize
+- uid: System.Xml.XmlNode
+  isExternal: true
+  name: XmlNode
+  nameWithType: XmlNode
+  fullName: System.Xml.XmlNode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.New(System.String)
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.New(System.String)
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: New(String)
+  nameWithType: DataHandlerBase.New(String)
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.New(System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.New(System.String)
+    name: New
+    nameWithType: DataHandlerBase.New
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.New(System.String)
+    name: New
+    nameWithType: DataHandlerBase.New
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.New*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.New
+  isExternal: true
+  name: New
+  nameWithType: EMailDataHandler.New
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.New
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Save
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.Save
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: Save()
+  nameWithType: DataHandlerBase.Save()
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Save()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Save
+    name: Save
+    nameWithType: DataHandlerBase.Save
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Save
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Save
+    name: Save
+    nameWithType: DataHandlerBase.Save
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Save
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.Save*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.Save
+  isExternal: true
+  name: Save
+  nameWithType: EMailDataHandler.Save
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.Save
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Load(System.String)
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.Load(System.String)
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: Load(String)
+  nameWithType: DataHandlerBase.Load(String)
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Load(System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Load(System.String)
+    name: Load
+    nameWithType: DataHandlerBase.Load
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Load
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Load(System.String)
+    name: Load
+    nameWithType: DataHandlerBase.Load
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Load
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.Load*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.Load
+  isExternal: true
+  name: Load
+  nameWithType: EMailDataHandler.Load
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.Load
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.CreateEmailFromDocumentEntity*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.CreateEmailFromDocumentEntity
+  isExternal: true
+  name: CreateEmailFromDocumentEntity
+  nameWithType: EMailDataHandler.CreateEmailFromDocumentEntity
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.CreateEmailFromDocumentEntity
+- uid: SuperOffice.CRM.Services.DocumentEntity
+  isExternal: true
+  name: DocumentEntity
+  nameWithType: DocumentEntity
+  fullName: SuperOffice.CRM.Services.DocumentEntity
+- uid: SuperOffice.CRM.Services.EMailEntity
+  isExternal: true
+  name: EMailEntity
+  nameWithType: EMailEntity
+  fullName: SuperOffice.CRM.Services.EMailEntity
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetAppointmentEntityCurrent*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.GetAppointmentEntityCurrent
+  isExternal: true
+  name: GetAppointmentEntityCurrent
+  nameWithType: EMailDataHandler.GetAppointmentEntityCurrent
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetAppointmentEntityCurrent
+- uid: SuperOffice.CRM.Services.AppointmentEntity
+  isExternal: true
+  name: AppointmentEntity
+  nameWithType: AppointmentEntity
+  fullName: SuperOffice.CRM.Services.AppointmentEntity
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetSubjectCurrent*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.GetSubjectCurrent
+  isExternal: true
+  name: GetSubjectCurrent
+  nameWithType: EMailDataHandler.GetSubjectCurrent
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetSubjectCurrent
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientString*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientString
+  isExternal: true
+  name: GetRecipientString
+  nameWithType: EMailDataHandler.GetRecipientString
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientString
+- uid: SuperOffice.CRM.Services.EMailAddress
+  isExternal: true
+  name: EMailAddress
+  nameWithType: EMailAddress
+  fullName: SuperOffice.CRM.Services.EMailAddress
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientCurrent*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientCurrent
+  isExternal: true
+  name: GetRecipientCurrent
+  nameWithType: EMailDataHandler.GetRecipientCurrent
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetRecipientCurrent
+- uid: SuperOffice.CRM.Services.EMailAddress[]
+  isExternal: true
+  name: EMailAddress[]
+  nameWithType: EMailAddress[]
+  fullName: SuperOffice.CRM.Services.EMailAddress[]
+  nameWithType.vb: EMailAddress()
+  fullName.vb: SuperOffice.CRM.Services.EMailAddress()
+  name.vb: EMailAddress()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.EMailAddress
+    name: EMailAddress
+    nameWithType: EMailAddress
+    fullName: SuperOffice.CRM.Services.EMailAddress
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.EMailAddress
+    name: EMailAddress
+    nameWithType: EMailAddress
+    fullName: SuperOffice.CRM.Services.EMailAddress
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetParsedFolder*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.GetParsedFolder
+  isExternal: true
+  name: GetParsedFolder
+  nameWithType: EMailDataHandler.GetParsedFolder
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetParsedFolder
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetAttachment*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.GetAttachment
+  isExternal: true
+  name: GetAttachment
+  nameWithType: EMailDataHandler.GetAttachment
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetAttachment
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.EMailAttachment
+  isExternal: true
+  name: EMailAttachment
+  nameWithType: EMailAttachment
+  fullName: SuperOffice.CRM.Services.EMailAttachment
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetEMailAsStream*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.GetEMailAsStream
+  isExternal: true
+  name: GetEMailAsStream
+  nameWithType: EMailDataHandler.GetEMailAsStream
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetEMailAsStream
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.SaveAttachmentToFile*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.SaveAttachmentToFile
+  isExternal: true
+  name: SaveAttachmentToFile
+  nameWithType: EMailDataHandler.SaveAttachmentToFile
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.SaveAttachmentToFile
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.SaveEMailToFile*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.SaveEMailToFile
+  isExternal: true
+  name: SaveEMailToFile
+  nameWithType: EMailDataHandler.SaveEMailToFile
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.SaveEMailToFile
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetPlainHTMLBody*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.GetPlainHTMLBody
+  isExternal: true
+  name: GetPlainHTMLBody
+  nameWithType: EMailDataHandler.GetPlainHTMLBody
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetPlainHTMLBody
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetSuperOfficeBody*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.GetSuperOfficeBody
+  isExternal: true
+  name: GetSuperOfficeBody
+  nameWithType: EMailDataHandler.GetSuperOfficeBody
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetSuperOfficeBody
+- uid: SuperOffice.CRM.Web.Util.MailEntity
+  commentId: T:SuperOffice.CRM.Web.Util.MailEntity
+  parent: SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: MailEntity
+  nameWithType: MailEntity
+  fullName: SuperOffice.CRM.Web.Util.MailEntity
+- uid: SuperOffice.CRM.Web.Util
+  commentId: N:SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: SuperOffice.CRM.Web.Util
+  nameWithType: SuperOffice.CRM.Web.Util
+  fullName: SuperOffice.CRM.Web.Util
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetEmlStreamFromEMailEntity*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.GetEmlStreamFromEMailEntity
+  isExternal: true
+  name: GetEmlStreamFromEMailEntity
+  nameWithType: EMailDataHandler.GetEmlStreamFromEMailEntity
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetEmlStreamFromEMailEntity
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GenerateNewEmailFromTemplate*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.GenerateNewEmailFromTemplate
+  isExternal: true
+  name: GenerateNewEmailFromTemplate
+  nameWithType: EMailDataHandler.GenerateNewEmailFromTemplate
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GenerateNewEmailFromTemplate
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetSessionValue*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.GetSessionValue
+  isExternal: true
+  name: GetSessionValue
+  nameWithType: EMailDataHandler.GetSessionValue
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetSessionValue
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.IsNewInboxFeatureToggleOn*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.IsNewInboxFeatureToggleOn
+  isExternal: true
+  name: IsNewInboxFeatureToggleOn
+  nameWithType: EMailDataHandler.IsNewInboxFeatureToggleOn
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.IsNewInboxFeatureToggleOn
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.GetNewPopulatedEmailEntity*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.GetNewPopulatedEmailEntity
+  isExternal: true
+  name: GetNewPopulatedEmailEntity
+  nameWithType: EMailDataHandler.GetNewPopulatedEmailEntity
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.GetNewPopulatedEmailEntity
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.SetSessionValue*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.SetSessionValue
+  isExternal: true
+  name: SetSessionValue
+  nameWithType: EMailDataHandler.SetSessionValue
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.SetSessionValue
+- uid: SuperOffice.CRM.Web.Data.EMailDataHandler.MarkAsRead*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailDataHandler.MarkAsRead
+  isExternal: true
+  name: MarkAsRead
+  nameWithType: EMailDataHandler.MarkAsRead
+  fullName: SuperOffice.CRM.Web.Data.EMailDataHandler.MarkAsRead

@@ -1,0 +1,369 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Domain
+  commentId: T:SuperOffice.WebApi.Data.Domain
+  id: Domain
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Domain.Dashboards
+  - SuperOffice.WebApi.Data.Domain.ExternalDocumentRelatedToSpmMessage
+  - SuperOffice.WebApi.Data.Domain.ExternalDocuments
+  - SuperOffice.WebApi.Data.Domain.ExtraTables
+  - SuperOffice.WebApi.Data.Domain.ScreenDefinitions
+  - SuperOffice.WebApi.Data.Domain.Scripts
+  - SuperOffice.WebApi.Data.Domain.Selections
+  - SuperOffice.WebApi.Data.Domain.Unknown
+  - SuperOffice.WebApi.Data.Domain.UserGroups
+  - SuperOffice.WebApi.Data.Domain.value__
+  langs:
+  - csharp
+  - vb
+  name: Domain
+  nameWithType: Domain
+  fullName: SuperOffice.WebApi.Data.Domain
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHierarchy domain\n"
+  syntax:
+    content: 'public sealed class Domain : Enum'
+    content.vb: >-
+      Public NotInheritable Class Domain
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.Domain.value__
+  commentId: F:SuperOffice.WebApi.Data.Domain.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.Domain
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: Domain.value__
+  fullName: SuperOffice.WebApi.Data.Domain.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Domain.Unknown
+  commentId: F:SuperOffice.WebApi.Data.Domain.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.Domain
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: Domain.Unknown
+  fullName: SuperOffice.WebApi.Data.Domain.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Unknown folders\n"
+  syntax:
+    content: public const Domain Unknown
+    return:
+      type: SuperOffice.WebApi.Data.Domain
+    content.vb: Public Const Unknown As Domain
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.Domain.ExtraTables
+  commentId: F:SuperOffice.WebApi.Data.Domain.ExtraTables
+  id: ExtraTables
+  parent: SuperOffice.WebApi.Data.Domain
+  langs:
+  - csharp
+  - vb
+  name: ExtraTables
+  nameWithType: Domain.ExtraTables
+  fullName: SuperOffice.WebApi.Data.Domain.ExtraTables
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: ExtraTable folders\n"
+  syntax:
+    content: public const Domain ExtraTables
+    return:
+      type: SuperOffice.WebApi.Data.Domain
+    content.vb: Public Const ExtraTables As Domain
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.Domain.ScreenDefinitions
+  commentId: F:SuperOffice.WebApi.Data.Domain.ScreenDefinitions
+  id: ScreenDefinitions
+  parent: SuperOffice.WebApi.Data.Domain
+  langs:
+  - csharp
+  - vb
+  name: ScreenDefinitions
+  nameWithType: Domain.ScreenDefinitions
+  fullName: SuperOffice.WebApi.Data.Domain.ScreenDefinitions
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: ScreenDefinition folders\n"
+  syntax:
+    content: public const Domain ScreenDefinitions
+    return:
+      type: SuperOffice.WebApi.Data.Domain
+    content.vb: Public Const ScreenDefinitions As Domain
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.Domain.Scripts
+  commentId: F:SuperOffice.WebApi.Data.Domain.Scripts
+  id: Scripts
+  parent: SuperOffice.WebApi.Data.Domain
+  langs:
+  - csharp
+  - vb
+  name: Scripts
+  nameWithType: Domain.Scripts
+  fullName: SuperOffice.WebApi.Data.Domain.Scripts
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Script folders\n"
+  syntax:
+    content: public const Domain Scripts
+    return:
+      type: SuperOffice.WebApi.Data.Domain
+    content.vb: Public Const Scripts As Domain
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.Domain.Selections
+  commentId: F:SuperOffice.WebApi.Data.Domain.Selections
+  id: Selections
+  parent: SuperOffice.WebApi.Data.Domain
+  langs:
+  - csharp
+  - vb
+  name: Selections
+  nameWithType: Domain.Selections
+  fullName: SuperOffice.WebApi.Data.Domain.Selections
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Selection folders\n"
+  syntax:
+    content: public const Domain Selections
+    return:
+      type: SuperOffice.WebApi.Data.Domain
+    content.vb: Public Const Selections As Domain
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.Domain.ExternalDocuments
+  commentId: F:SuperOffice.WebApi.Data.Domain.ExternalDocuments
+  id: ExternalDocuments
+  parent: SuperOffice.WebApi.Data.Domain
+  langs:
+  - csharp
+  - vb
+  name: ExternalDocuments
+  nameWithType: Domain.ExternalDocuments
+  fullName: SuperOffice.WebApi.Data.Domain.ExternalDocuments
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: ExternalDocument folders\n"
+  syntax:
+    content: public const Domain ExternalDocuments
+    return:
+      type: SuperOffice.WebApi.Data.Domain
+    content.vb: Public Const ExternalDocuments As Domain
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.Domain.UserGroups
+  commentId: F:SuperOffice.WebApi.Data.Domain.UserGroups
+  id: UserGroups
+  parent: SuperOffice.WebApi.Data.Domain
+  langs:
+  - csharp
+  - vb
+  name: UserGroups
+  nameWithType: Domain.UserGroups
+  fullName: SuperOffice.WebApi.Data.Domain.UserGroups
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: UserGroup folders\n"
+  syntax:
+    content: public const Domain UserGroups
+    return:
+      type: SuperOffice.WebApi.Data.Domain
+    content.vb: Public Const UserGroups As Domain
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.Domain.ExternalDocumentRelatedToSpmMessage
+  commentId: F:SuperOffice.WebApi.Data.Domain.ExternalDocumentRelatedToSpmMessage
+  id: ExternalDocumentRelatedToSpmMessage
+  parent: SuperOffice.WebApi.Data.Domain
+  langs:
+  - csharp
+  - vb
+  name: ExternalDocumentRelatedToSpmMessage
+  nameWithType: Domain.ExternalDocumentRelatedToSpmMessage
+  fullName: SuperOffice.WebApi.Data.Domain.ExternalDocumentRelatedToSpmMessage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: ExternalDocuments related to spam messages folders\n"
+  syntax:
+    content: public const Domain ExternalDocumentRelatedToSpmMessage
+    return:
+      type: SuperOffice.WebApi.Data.Domain
+    content.vb: Public Const ExternalDocumentRelatedToSpmMessage As Domain
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.Domain.Dashboards
+  commentId: F:SuperOffice.WebApi.Data.Domain.Dashboards
+  id: Dashboards
+  parent: SuperOffice.WebApi.Data.Domain
+  langs:
+  - csharp
+  - vb
+  name: Dashboards
+  nameWithType: Domain.Dashboards
+  fullName: SuperOffice.WebApi.Data.Domain.Dashboards
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: Dashboard folders\n"
+  syntax:
+    content: public const Domain Dashboards
+    return:
+      type: SuperOffice.WebApi.Data.Domain
+    content.vb: Public Const Dashboards As Domain
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Domain
+  commentId: T:SuperOffice.WebApi.Data.Domain
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Domain
+  nameWithType: Domain
+  fullName: SuperOffice.WebApi.Data.Domain

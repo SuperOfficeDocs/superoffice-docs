@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Mime
+  commentId: N:SuperOffice.Mime
+  id: SuperOffice.Mime
+  children:
+  - SuperOffice.Mime.MimeDetect
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Mime
+  nameWithType: SuperOffice.Mime
+  fullName: SuperOffice.Mime
+  type: Namespace
+  assemblies:
+  - SOCore
+references:
+- uid: SuperOffice.Mime.MimeDetect
+  commentId: T:SuperOffice.Mime.MimeDetect
+  isExternal: true
+  name: MimeDetect
+  nameWithType: MimeDetect
+  fullName: SuperOffice.Mime.MimeDetect

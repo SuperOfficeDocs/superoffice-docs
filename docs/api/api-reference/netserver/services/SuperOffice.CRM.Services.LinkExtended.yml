@@ -1,0 +1,364 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.LinkExtended
+  commentId: T:SuperOffice.CRM.Services.LinkExtended
+  id: LinkExtended
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.LinkExtended.#ctor
+  - SuperOffice.CRM.Services.LinkExtended.IconHint
+  - SuperOffice.CRM.Services.LinkExtended.LinkHint
+  - SuperOffice.CRM.Services.LinkExtended.Name
+  - SuperOffice.CRM.Services.LinkExtended.TooltipHint
+  langs:
+  - csharp
+  - vb
+  name: LinkExtended
+  nameWithType: LinkExtended
+  fullName: SuperOffice.CRM.Services.LinkExtended
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nClass used by CRM.web for dealing with links\n"
+  syntax:
+    content: 'public class LinkExtended : Link'
+    content.vb: >-
+      Public Class LinkExtended
+          Inherits Link
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.Link
+  inheritedMembers:
+  - SuperOffice.CRM.Services.Link.ToString
+  - SuperOffice.CRM.Services.Link.ToString(System.String)
+  - SuperOffice.CRM.Services.Link.EntityName
+  - SuperOffice.CRM.Services.Link.Id
+  - SuperOffice.CRM.Services.Link.Description
+  - SuperOffice.CRM.Services.Link.ExtraInfo
+  - SuperOffice.CRM.Services.Link.LinkId
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.LinkExtended.#ctor
+  commentId: M:SuperOffice.CRM.Services.LinkExtended.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.LinkExtended
+  langs:
+  - csharp
+  - vb
+  name: LinkExtended()
+  nameWithType: LinkExtended.LinkExtended()
+  fullName: SuperOffice.CRM.Services.LinkExtended.LinkExtended()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public LinkExtended()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.LinkExtended.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.LinkExtended.Name
+  commentId: P:SuperOffice.CRM.Services.LinkExtended.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.LinkExtended
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: LinkExtended.Name
+  fullName: SuperOffice.CRM.Services.LinkExtended.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.CRM.Services.LinkExtended.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.LinkExtended.IconHint
+  commentId: P:SuperOffice.CRM.Services.LinkExtended.IconHint
+  id: IconHint
+  parent: SuperOffice.CRM.Services.LinkExtended
+  langs:
+  - csharp
+  - vb
+  name: IconHint
+  nameWithType: LinkExtended.IconHint
+  fullName: SuperOffice.CRM.Services.LinkExtended.IconHint
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public string IconHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IconHint As String
+  overload: SuperOffice.CRM.Services.LinkExtended.IconHint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.LinkExtended.LinkHint
+  commentId: P:SuperOffice.CRM.Services.LinkExtended.LinkHint
+  id: LinkHint
+  parent: SuperOffice.CRM.Services.LinkExtended
+  langs:
+  - csharp
+  - vb
+  name: LinkHint
+  nameWithType: LinkExtended.LinkHint
+  fullName: SuperOffice.CRM.Services.LinkExtended.LinkHint
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public string LinkHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LinkHint As String
+  overload: SuperOffice.CRM.Services.LinkExtended.LinkHint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.LinkExtended.TooltipHint
+  commentId: P:SuperOffice.CRM.Services.LinkExtended.TooltipHint
+  id: TooltipHint
+  parent: SuperOffice.CRM.Services.LinkExtended
+  langs:
+  - csharp
+  - vb
+  name: TooltipHint
+  nameWithType: LinkExtended.TooltipHint
+  fullName: SuperOffice.CRM.Services.LinkExtended.TooltipHint
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public string TooltipHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TooltipHint As String
+  overload: SuperOffice.CRM.Services.LinkExtended.TooltipHint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.Link
+  commentId: T:SuperOffice.CRM.Services.Link
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Link
+  nameWithType: Link
+  fullName: SuperOffice.CRM.Services.Link
+- uid: SuperOffice.CRM.Services.Link.ToString
+  commentId: M:SuperOffice.CRM.Services.Link.ToString
+  parent: SuperOffice.CRM.Services.Link
+  isExternal: true
+  name: ToString()
+  nameWithType: Link.ToString()
+  fullName: SuperOffice.CRM.Services.Link.ToString()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Link.ToString
+    name: ToString
+    nameWithType: Link.ToString
+    fullName: SuperOffice.CRM.Services.Link.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Link.ToString
+    name: ToString
+    nameWithType: Link.ToString
+    fullName: SuperOffice.CRM.Services.Link.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Link.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.Link.ToString(System.String)
+  parent: SuperOffice.CRM.Services.Link
+  isExternal: true
+  name: ToString(String)
+  nameWithType: Link.ToString(String)
+  fullName: SuperOffice.CRM.Services.Link.ToString(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Link.ToString(System.String)
+    name: ToString
+    nameWithType: Link.ToString
+    fullName: SuperOffice.CRM.Services.Link.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Link.ToString(System.String)
+    name: ToString
+    nameWithType: Link.ToString
+    fullName: SuperOffice.CRM.Services.Link.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Link.EntityName
+  commentId: P:SuperOffice.CRM.Services.Link.EntityName
+  parent: SuperOffice.CRM.Services.Link
+  isExternal: true
+  name: EntityName
+  nameWithType: Link.EntityName
+  fullName: SuperOffice.CRM.Services.Link.EntityName
+- uid: SuperOffice.CRM.Services.Link.Id
+  commentId: P:SuperOffice.CRM.Services.Link.Id
+  parent: SuperOffice.CRM.Services.Link
+  isExternal: true
+  name: Id
+  nameWithType: Link.Id
+  fullName: SuperOffice.CRM.Services.Link.Id
+- uid: SuperOffice.CRM.Services.Link.Description
+  commentId: P:SuperOffice.CRM.Services.Link.Description
+  parent: SuperOffice.CRM.Services.Link
+  isExternal: true
+  name: Description
+  nameWithType: Link.Description
+  fullName: SuperOffice.CRM.Services.Link.Description
+- uid: SuperOffice.CRM.Services.Link.ExtraInfo
+  commentId: P:SuperOffice.CRM.Services.Link.ExtraInfo
+  parent: SuperOffice.CRM.Services.Link
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: Link.ExtraInfo
+  fullName: SuperOffice.CRM.Services.Link.ExtraInfo
+- uid: SuperOffice.CRM.Services.Link.LinkId
+  commentId: P:SuperOffice.CRM.Services.Link.LinkId
+  parent: SuperOffice.CRM.Services.Link
+  isExternal: true
+  name: LinkId
+  nameWithType: Link.LinkId
+  fullName: SuperOffice.CRM.Services.Link.LinkId
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.LinkExtended.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.LinkExtended.#ctor
+  isExternal: true
+  name: LinkExtended
+  nameWithType: LinkExtended.LinkExtended
+  fullName: SuperOffice.CRM.Services.LinkExtended.LinkExtended
+- uid: SuperOffice.CRM.Services.LinkExtended.Name*
+  commentId: Overload:SuperOffice.CRM.Services.LinkExtended.Name
+  isExternal: true
+  name: Name
+  nameWithType: LinkExtended.Name
+  fullName: SuperOffice.CRM.Services.LinkExtended.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.LinkExtended.IconHint*
+  commentId: Overload:SuperOffice.CRM.Services.LinkExtended.IconHint
+  isExternal: true
+  name: IconHint
+  nameWithType: LinkExtended.IconHint
+  fullName: SuperOffice.CRM.Services.LinkExtended.IconHint
+- uid: SuperOffice.CRM.Services.LinkExtended.LinkHint*
+  commentId: Overload:SuperOffice.CRM.Services.LinkExtended.LinkHint
+  isExternal: true
+  name: LinkHint
+  nameWithType: LinkExtended.LinkHint
+  fullName: SuperOffice.CRM.Services.LinkExtended.LinkHint
+- uid: SuperOffice.CRM.Services.LinkExtended.TooltipHint*
+  commentId: Overload:SuperOffice.CRM.Services.LinkExtended.TooltipHint
+  isExternal: true
+  name: TooltipHint
+  nameWithType: LinkExtended.TooltipHint
+  fullName: SuperOffice.CRM.Services.LinkExtended.TooltipHint

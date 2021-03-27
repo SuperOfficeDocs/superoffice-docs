@@ -1,0 +1,2011 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2
+  commentId: T:SuperOffice.CRM.Documents.IDocumentPlugin2
+  id: IDocumentPlugin2
+  parent: SuperOffice.CRM.Documents
+  children:
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.CheckinDocument(SuperOffice.CRM.IDocumentInfo,System.String[],System.String,System.String[])
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.CheckoutDocument(SuperOffice.CRM.IDocumentInfo,System.String[])
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.CreateDefaultDocumentTemplate(System.Int32,SuperOffice.CRM.IDocumentTemplateInfo)
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.CreateDocument(SuperOffice.CRM.IDocumentInfo,System.String@,System.String[],System.String,System.String[])
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocument(SuperOffice.CRM.IDocumentInfo,System.String[])
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocumentTemplate(SuperOffice.CRM.IDocumentTemplateInfo,System.String[])
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocumentTemplateLanguage(SuperOffice.CRM.IDocumentTemplateInfo,System.String,System.String[])
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.ExecuteDocumentCommand(SuperOffice.CRM.IDocumentInfo,System.String,System.String[],System.String,System.String[])
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.Exists(SuperOffice.CRM.IDocumentInfo)
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.GetCheckoutState(SuperOffice.CRM.IDocumentInfo)
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentCommands(SuperOffice.CRM.IDocumentInfo,System.String[])
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentIdFromPath(System.String)
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentProperties(SuperOffice.CRM.IDocumentInfo,System.String[])
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentTemplateLanguages(SuperOffice.CRM.IDocumentTemplateInfo)
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentTemplateProperties(SuperOffice.CRM.IDocumentTemplateInfo,System.String[])
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentTemplateUrl(SuperOffice.CRM.IDocumentTemplateInfo,System.Boolean,System.String)
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentUrl(SuperOffice.CRM.IDocumentInfo,System.String,System.Boolean)
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.GetLength(SuperOffice.CRM.IDocumentInfo,System.String)
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.GetPluginCapabilities
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.GetSupportedDocumentTypesForDocumentTemplates
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.GetTemplateExtension(SuperOffice.CRM.IDocumentTemplateInfo)
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.GetVersionList(SuperOffice.CRM.IDocumentInfo)
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.LoadDocumentStream(SuperOffice.CRM.IDocumentInfo,System.String)
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.LoadDocumentTemplateStream(SuperOffice.CRM.IDocumentTemplateInfo,System.String)
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.LoadMetaData(SuperOffice.CRM.IDocumentInfo)
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.LoadVersionInfo(SuperOffice.CRM.IDocumentInfo,System.String)
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.RenameDocument(SuperOffice.CRM.IDocumentInfo,System.String)
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.SaveDocumentFromStream(SuperOffice.CRM.IDocumentInfo,System.String[],System.IO.Stream)
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.SaveDocumentTemplateStream(SuperOffice.CRM.IDocumentTemplateInfo,System.IO.Stream,System.String)
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.SaveMetaData(SuperOffice.CRM.IDocumentInfo,System.Collections.Generic.Dictionary{System.String,System.String})
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.SaveVersionInfo(SuperOffice.CRM.IDocumentInfo,SuperOffice.CRM.Documents.VersionInfo)
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.UndoCheckoutDocument(SuperOffice.CRM.IDocumentInfo,System.String[])
+  langs:
+  - csharp
+  - vb
+  name: IDocumentPlugin2
+  nameWithType: IDocumentPlugin2
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2
+  type: Interface
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nThis is the API that needs to be implemented by document plugins - objects that provide the\nlink between a document repository and SuperOffice NetServer\n"
+  remarks: "\nA document plugin must support basic operations for storing and retrieving documents, according \nto keys it generates itself. Optionally, it can support locking, versions, and WebDAV access.\n<p></p>\nLocking and versioning, if supported, can be selected on a per-document basis - support for versioning\ndoes not have to imply that <strong>every</strong> document in the plugins&apos; repository is versioned.\n<p></p>\nCustom GUI declaration is not part of this interface, since the various clients that exist, may\nhave different ways of declaring or implementing custom user interfaces. A document plugin\nthat wants to implement a custom GUI should additionally implement the\n<xref href=\"SuperOffice.UI.Configuration.ICustomUIProvider\" data-throw-if-not-resolved=\"false\"></xref> or other (future) GUI-declaration interface,\nthereby making it possible to add GUI options in the future, without changing this basic\ndocument plugin interface.\n<p></p>\nNetServer will attempt to construct your object in two different ways:<p></p>\n1. With an <xref href=\"SuperOffice.CRM.IConfiguration\" data-throw-if-not-resolved=\"false\"></xref> parameter. This allows you to access config values and licenses without linking to SoCore/SoDatabase.<p></p>\n2. With no parameters. This is just the default constructor.<p></p>\nImplement the constructor that is most suitable for your plugin.  Throw an exception from the constructor if your plugin does not want to be created. The exception is logged as Information, and \nyour plugin will not be used.<p></p>\n"
+  syntax:
+    content: 'public interface IDocumentPlugin2 : IPlugin'
+    content.vb: >-
+      Public Interface IDocumentPlugin2
+          Inherits IPlugin
+  extensionMethods:
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Documents.IDocumentPlugin2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetPluginCapabilities
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.GetPluginCapabilities
+  id: GetPluginCapabilities
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: GetPluginCapabilities()
+  nameWithType: IDocumentPlugin2.GetPluginCapabilities()
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetPluginCapabilities()
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet a list of capabilities (functionality) supported by this document plugin\n"
+  remarks: "\nThe purpose of this call is to enable NetServer and clients to determine what functionality this plugin can offer. \nPlugins should populate the return array with all capabilities they know about. NetServer will call this API only once.\n<p></p>\nAs an example of use, the Document archive provider inside NetServer will look at plugin capabilities, \nand read document properties as appropriate. \n<p></p>\ni.e. if “fast-lock-status=false”, then the archive provider \nwill not call the IsCheckedOut(externalReference) function. Otherwise it will make the call (if the client has requested\nthe appropriate column in the GUI), so that the user can see which documents are checked out.\n<p></p>\nString constants for capabilities are available in the <xref href=\"SuperOffice.CRM.Documents.Constants.Capabilities\" data-throw-if-not-resolved=\"false\"></xref> static class.\n"
+  syntax:
+    content: Dictionary<string, string> GetPluginCapabilities()
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      description: Dictionary of name=value strings listing all known capabilities and their values
+    content.vb: Function GetPluginCapabilities As Dictionary(Of String, String)
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.GetPluginCapabilities*
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentProperties(SuperOffice.CRM.IDocumentInfo,System.String[])
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentProperties(SuperOffice.CRM.IDocumentInfo,System.String[])
+  id: GetDocumentProperties(SuperOffice.CRM.IDocumentInfo,System.String[])
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentProperties(IDocumentInfo, String[])
+  nameWithType: IDocumentPlugin2.GetDocumentProperties(IDocumentInfo, String[])
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentProperties(SuperOffice.CRM.IDocumentInfo, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet the values of certain properties, for a given document\n"
+  remarks: "\nEach document can have a number of properties associated with it. A set of standard properties\nis defined in the <xref href=\"SuperOffice.CRM.Documents.Constants.Properties\" data-throw-if-not-resolved=\"false\"></xref> class. Ideally, retrieving properties should\nbe a lightweight operation.\n<p></p>\nNote that &apos;properties&apos; are a one-way mechanism where the document plugin provides information about\nthe document or certain aspects of it. This is not the same as document-specific\nmetadata, which is handled by the <xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.LoadMetaData(SuperOffice.CRM.IDocumentInfo)\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.SaveMetaData(SuperOffice.CRM.IDocumentInfo%2cSystem.Collections.Generic.Dictionary%7bSystem.String%2cSystem.String%7d)\" data-throw-if-not-resolved=\"false\"></xref>\nmethods.\n"
+  syntax:
+    content: Dictionary<string, string> GetDocumentProperties(IDocumentInfo documentInfo, string[] requestedProperties)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+      description: Document record with filename, extref and primary key (document id).
+    - id: requestedProperties
+      type: System.String[]
+      description: Array of property strings, for which values are requested
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      description: >-
+        Dictionary of key=value pairs, where the key is one of the requested property strings, and the value
+
+        is the value of that property for the given document.
+    content.vb: Function GetDocumentProperties(documentInfo As IDocumentInfo, requestedProperties As String()) As Dictionary(Of String, String)
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentProperties*
+  nameWithType.vb: IDocumentPlugin2.GetDocumentProperties(IDocumentInfo, String())
+  fullName.vb: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentProperties(SuperOffice.CRM.IDocumentInfo, System.String())
+  name.vb: GetDocumentProperties(IDocumentInfo, String())
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentCommands(SuperOffice.CRM.IDocumentInfo,System.String[])
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentCommands(SuperOffice.CRM.IDocumentInfo,System.String[])
+  id: GetDocumentCommands(SuperOffice.CRM.IDocumentInfo,System.String[])
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentCommands(IDocumentInfo, String[])
+  nameWithType: IDocumentPlugin2.GetDocumentCommands(IDocumentInfo, String[])
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentCommands(SuperOffice.CRM.IDocumentInfo, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet a list of custom commands, applicable to a specific document. Note that commands related to\nstandard locking and versioning operations have their own API calls and are not &apos;custom commands&apos; in this sense.\n"
+  remarks: "\nThis API is called before a menu, task button or other GUI item that gives access to document-specific commands is shown.\nIt is used to populate the GUI with available commands for a particular document, the results are not cached by the GUI.\n<p></p>\nDepending on the return type indicated in the command, the command might be filtered by GUI. More information can\nbe found in the <xref href=\"SuperOffice.CRM.Documents.CommandInfo\" data-throw-if-not-resolved=\"false\"></xref> topic.\n"
+  syntax:
+    content: CommandInfo[] GetDocumentCommands(IDocumentInfo documentInfo, string[] allowedReturnTypes)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+      description: Document info from the SuperOffice database
+    - id: allowedReturnTypes
+      type: System.String[]
+      description: >-
+        Array of names of allowed return types; if this array is
+
+        empty then no limits are placed on return type.
+    return:
+      type: SuperOffice.CRM.Documents.CommandInfo[]
+      description: Array of command descriptions. If there are no custom commands available, an empty array should be returned.
+    content.vb: Function GetDocumentCommands(documentInfo As IDocumentInfo, allowedReturnTypes As String()) As CommandInfo()
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentCommands*
+  nameWithType.vb: IDocumentPlugin2.GetDocumentCommands(IDocumentInfo, String())
+  fullName.vb: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentCommands(SuperOffice.CRM.IDocumentInfo, System.String())
+  name.vb: GetDocumentCommands(IDocumentInfo, String())
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.ExecuteDocumentCommand(SuperOffice.CRM.IDocumentInfo,System.String,System.String[],System.String,System.String[])
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.ExecuteDocumentCommand(SuperOffice.CRM.IDocumentInfo,System.String,System.String[],System.String,System.String[])
+  id: ExecuteDocumentCommand(SuperOffice.CRM.IDocumentInfo,System.String,System.String[],System.String,System.String[])
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: ExecuteDocumentCommand(IDocumentInfo, String, String[], String, String[])
+  nameWithType: IDocumentPlugin2.ExecuteDocumentCommand(IDocumentInfo, String, String[], String, String[])
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.ExecuteDocumentCommand(SuperOffice.CRM.IDocumentInfo, System.String, System.String[], System.String, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nExecute a custom command on a specified document and version\n"
+  remarks: "\nThis command is called when the user chooses an action item from a dropdown/context menu. \nIt is also reflected in the DocumentAgent service interface, so that custom GUI’s and external \ncode can directly execute document plugin commands; this is useful if a plugin also has some \ncorresponding custom GUI that needs to execute commands depending on user interaction.\n<p></p>\nThe parameter <code data-dev-comment-type=\"paramref\" class=\"paramref\">allowedReturnTypes</code> can be used by clients to hint to the plugin\nwhat kind of return value processing is available. For instance, a mobile client might\nonly offer None and Message, and this information can be used by the document plugin to adapt\nthe processing of a command, if it wants to (for instance, use default values instead of\ntriggering some more advanced workflow).\n<p></p>\nThe command is obtained from the <xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentCommands(SuperOffice.CRM.IDocumentInfo%2cSystem.String%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref> method.\n"
+  syntax:
+    content: ReturnInfo ExecuteDocumentCommand(IDocumentInfo documentInfo, string versionId, string[] allowedReturnTypes, string command, params string[] additionalData)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+      description: Document info from the SuperOffice database
+    - id: versionId
+      type: System.String
+      description: Version identifier, blank implies &apos;latest&apos; version
+    - id: allowedReturnTypes
+      type: System.String[]
+      description: >-
+        Array of names of allowed return types; if this array is
+
+        empty then no limits are placed on return type.
+    - id: command
+      type: System.String
+      description: >-
+        Command name, taken from an earlier call to <xref href="SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentCommands(SuperOffice.CRM.IDocumentInfo%2cSystem.String%5b%5d)" data-throw-if-not-resolved="false"></xref>
+
+        - or any other command name that is understood by the provider. &apos;Private&apos; commands that
+
+        are not declared in GetDocumentCommands but are known to the authors of custom GUI code
+
+        or OK.
+    - id: additionalData
+      type: System.String[]
+      description: >-
+        Array of strings containing whatever additional data the command
+
+        may need. This parameter is intended for authors of more complex custom GUI&apos;s and works as
+
+        a tunnel between the ultimate client and the document plugin. Standard GUI made by SuperOffice,
+
+        such as a context menu connected to a document item in an archive, will not populate this
+
+        member.<br />It is strongly suggested that the convention of using name=value for each string
+
+        array element be followed here.
+    return:
+      type: SuperOffice.CRM.ReturnInfo
+      description: Return value object, specifying failure or success plus any optional, additional processing to be triggered
+    content.vb: Function ExecuteDocumentCommand(documentInfo As IDocumentInfo, versionId As String, allowedReturnTypes As String(), command As String, ParamArray additionalData As String()) As ReturnInfo
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.ExecuteDocumentCommand*
+  nameWithType.vb: IDocumentPlugin2.ExecuteDocumentCommand(IDocumentInfo, String, String(), String, String())
+  fullName.vb: SuperOffice.CRM.Documents.IDocumentPlugin2.ExecuteDocumentCommand(SuperOffice.CRM.IDocumentInfo, System.String, System.String(), System.String, System.String())
+  name.vb: ExecuteDocumentCommand(IDocumentInfo, String, String(), String, String())
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.LoadMetaData(SuperOffice.CRM.IDocumentInfo)
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.LoadMetaData(SuperOffice.CRM.IDocumentInfo)
+  id: LoadMetaData(SuperOffice.CRM.IDocumentInfo)
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: LoadMetaData(IDocumentInfo)
+  nameWithType: IDocumentPlugin2.LoadMetaData(IDocumentInfo)
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.LoadMetaData(SuperOffice.CRM.IDocumentInfo)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nRetrieve metadata owned by the plugin/repository, related to one document (excluding version-dependent metadata)\n"
+  remarks: "\nA document plugin may consume and provide an arbitrary number of metadata fields. These are placed\nin a string, string dictionary, representing name/value pairs. This call should <strong>not</strong>\nretrieve metadata related to any particular version, only data related to the document as a whole.\n<p></p>\nThe NetServer service call DocumentAgent.GetDocumentEntity will (among other things) result in a call \nto this API to populate the ExtraFields property of the document entity carrier. Note, however, \nthat the carrier handed over to the client may contain other fields in addition to those \nsupplied by the document plugin, since the extrafields mechanism is generic and \nthere may be other metadata providers along the line.\n<p></p>\nAttribute names should be prefixed with the name of the document plugin, to maintain global uniqueness.\n<p></p>\nIt is <strong>strongly suggested</strong> that non-string data be formatted according to the rules followed by the \n<xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref> class, to avoid problems\nwhen parsing dates and floating-point types between different cultures and platforms.\n"
+  syntax:
+    content: Dictionary<string, string> LoadMetaData(IDocumentInfo documentInfo)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+      description: Contains extref and primary key, filename of the document.
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      description: "Array of name=value strings, each representing one key and one value. The same\nconvention is used here as in the <xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.GetPluginCapabilities\" data-throw-if-not-resolved=\"false\"></xref> and \n<xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentProperties(SuperOffice.CRM.IDocumentInfo%2cSystem.String%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref> methods.\n"
+    content.vb: Function LoadMetaData(documentInfo As IDocumentInfo) As Dictionary(Of String, String)
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.LoadMetaData*
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.LoadVersionInfo(SuperOffice.CRM.IDocumentInfo,System.String)
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.LoadVersionInfo(SuperOffice.CRM.IDocumentInfo,System.String)
+  id: LoadVersionInfo(SuperOffice.CRM.IDocumentInfo,System.String)
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: LoadVersionInfo(IDocumentInfo, String)
+  nameWithType: IDocumentPlugin2.LoadVersionInfo(IDocumentInfo, String)
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.LoadVersionInfo(SuperOffice.CRM.IDocumentInfo, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nRetrieve metadata owned by the plugin/repository, related to one particular\nversion of one document\n"
+  remarks: "\nA document plugin may consume and provide an arbitrary number of metadata fields. These are placed\nin a string, string dictionary, representing name/value pairs. This call should only retrieve\nmetadata related to a version.\n<p></p>\nThe NetServer service call DocumentAgent.GetDocumentEntity will (among other things) result in a call \nto this API to populate the VersionInfo property of the document entity carrier. \n<p></p>\nAttribute names should be prefixed with the name of the document plugin, to maintain global uniqueness.\n<p></p>\nIt is <strong>strongly suggested</strong> that non-string data be formatted according to the rules followed by the \n<xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref> class, to avoid problems\nwhen parsing dates and floating-point types between different cultures and platforms.\n<p></p>\nTo efficiently retrieve information about <strong>all</strong> versions, use the \n<xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.GetVersionList(SuperOffice.CRM.IDocumentInfo)\" data-throw-if-not-resolved=\"false\"></xref> method, instead of iterating\nover this method.\n"
+  syntax:
+    content: VersionInfo LoadVersionInfo(IDocumentInfo documentInfo, string versionId)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+      description: Document info from the SuperOffice database
+    - id: versionId
+      type: System.String
+      description: Version identifier, blank implies &apos;latest&apos; version
+    return:
+      type: SuperOffice.CRM.Documents.VersionInfo
+      description: Fully populated version info structure
+    content.vb: Function LoadVersionInfo(documentInfo As IDocumentInfo, versionId As String) As VersionInfo
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.LoadVersionInfo*
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.SaveMetaData(SuperOffice.CRM.IDocumentInfo,System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.SaveMetaData(SuperOffice.CRM.IDocumentInfo,System.Collections.Generic.Dictionary{System.String,System.String})
+  id: SaveMetaData(SuperOffice.CRM.IDocumentInfo,System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: SaveMetaData(IDocumentInfo, Dictionary<String, String>)
+  nameWithType: IDocumentPlugin2.SaveMetaData(IDocumentInfo, Dictionary<String, String>)
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.SaveMetaData(SuperOffice.CRM.IDocumentInfo, System.Collections.Generic.Dictionary<System.String, System.String>)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nStore/update plugin-dependent document metadata in the repository\n"
+  remarks: "\nThis call is made when the document metadata should be stored, and is the complement of the\n<xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.LoadMetaData(SuperOffice.CRM.IDocumentInfo)\" data-throw-if-not-resolved=\"false\"></xref> method.\nThe document plugin should extract whatever elements it \nrecognizes from the pluginData name/value dictionary. Failure to recognize an element should not cause an exception, \nas there may be other plugins along the line (not document plugins, but service-level field providers) that own the data. \nLikewise, absence of a value should be taken to imply “no change” to that value - not &quot;delete&quot;.\n<p></p>\nIt is <strong>strongly suggested</strong> that non-string data be formatted according to the rules followed by the \n<xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref> class, to avoid problems\nwhen parsing dates and floating-point types between different cultures and platforms.\n"
+  syntax:
+    content: void SaveMetaData(IDocumentInfo incomingInfo, Dictionary<string, string> pluginData)
+    parameters:
+    - id: incomingInfo
+      type: SuperOffice.CRM.IDocumentInfo
+      description: >-
+        SuperOffice metadata. Note that the plugin is <strong>not</strong> responsible
+
+        for storing this data; however, it is allowed to look at it, in case it influences how the document
+
+        is stored. However, it should always be possible to retrieve a document using the ExternalReference
+
+        or DocumentId keys alone.
+    - id: pluginData
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      description: Name/value dictionary containing metadata
+    content.vb: Sub SaveMetaData(incomingInfo As IDocumentInfo, pluginData As Dictionary(Of String, String))
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.SaveMetaData*
+  nameWithType.vb: IDocumentPlugin2.SaveMetaData(IDocumentInfo, Dictionary(Of String, String))
+  fullName.vb: SuperOffice.CRM.Documents.IDocumentPlugin2.SaveMetaData(SuperOffice.CRM.IDocumentInfo, System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: SaveMetaData(IDocumentInfo, Dictionary(Of String, String))
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.SaveVersionInfo(SuperOffice.CRM.IDocumentInfo,SuperOffice.CRM.Documents.VersionInfo)
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.SaveVersionInfo(SuperOffice.CRM.IDocumentInfo,SuperOffice.CRM.Documents.VersionInfo)
+  id: SaveVersionInfo(SuperOffice.CRM.IDocumentInfo,SuperOffice.CRM.Documents.VersionInfo)
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: SaveVersionInfo(IDocumentInfo, VersionInfo)
+  nameWithType: IDocumentPlugin2.SaveVersionInfo(IDocumentInfo, VersionInfo)
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.SaveVersionInfo(SuperOffice.CRM.IDocumentInfo, SuperOffice.CRM.Documents.VersionInfo)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nStore/update plugin-dependent document version metadata in the repository\n"
+  remarks: "\nThis call is made when the document <strong>version</strong> metadata should be stored, and is the complement of the\n<xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.LoadVersionInfo(SuperOffice.CRM.IDocumentInfo%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref> method.\nThe document plugin should extract whatever elements it \nrecognizes from the pluginData name/value dictionary. Failure to recognize an element should not cause an exception, \nas there may be other plugins along the line (not document plugins, but service-level field providers) that own the data. \nLikewise, absence of a value should be taken to imply “no change” to that value - not &quot;delete&quot;.\n<p></p>\nIt is <strong>strongly suggested</strong> that non-string data be formatted according to the rules followed by the \n<xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref> class, to avoid problems\nwhen parsing dates and floating-point types between different cultures and platforms.\n"
+  syntax:
+    content: void SaveVersionInfo(IDocumentInfo documentInfo, VersionInfo versionInfo)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+      description: Document that version is being saved on
+    - id: versionInfo
+      type: SuperOffice.CRM.Documents.VersionInfo
+      description: Version information to be saved
+    content.vb: Sub SaveVersionInfo(documentInfo As IDocumentInfo, versionInfo As VersionInfo)
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.SaveVersionInfo*
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.Exists(SuperOffice.CRM.IDocumentInfo)
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.Exists(SuperOffice.CRM.IDocumentInfo)
+  id: Exists(SuperOffice.CRM.IDocumentInfo)
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: Exists(IDocumentInfo)
+  nameWithType: IDocumentPlugin2.Exists(IDocumentInfo)
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.Exists(SuperOffice.CRM.IDocumentInfo)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nDetermine if the document exists in the repository\n"
+  remarks: "\nThe plugin should declare, through the <xref href=\"SuperOffice.CRM.Documents.Constants.Capabilities.FastExists\" data-throw-if-not-resolved=\"false\"></xref> property,\nwhether this call is highly efficient or not. If it is efficient, then document archive providers and similar code\nwill call it when populating an archive, otherwise not.\n"
+  syntax:
+    content: bool Exists(IDocumentInfo documentInfo)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+      description: Document info used by the document plugin
+    return:
+      type: System.Boolean
+      description: true if the document exists in the repository, otherwise false
+    content.vb: Function Exists(documentInfo As IDocumentInfo) As Boolean
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.Exists*
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetLength(SuperOffice.CRM.IDocumentInfo,System.String)
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.GetLength(SuperOffice.CRM.IDocumentInfo,System.String)
+  id: GetLength(SuperOffice.CRM.IDocumentInfo,System.String)
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: GetLength(IDocumentInfo, String)
+  nameWithType: IDocumentPlugin2.GetLength(IDocumentInfo, String)
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetLength(SuperOffice.CRM.IDocumentInfo, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nReturn the length of the physical document. This should be an efficient method\n"
+  syntax:
+    content: long GetLength(IDocumentInfo documentInfo, string versionId)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+      description: Document info used by the document plugin
+    - id: versionId
+      type: System.String
+      description: Version identifier, blank implies &apos;latest&apos; version
+    return:
+      type: System.Int64
+      description: >-
+        Physical document length in bytes - this should be the same as the length of the stream
+
+        returned by the LoadDocumentStream method.
+    content.vb: Function GetLength(documentInfo As IDocumentInfo, versionId As String) As Long
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.GetLength*
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.SaveDocumentTemplateStream(SuperOffice.CRM.IDocumentTemplateInfo,System.IO.Stream,System.String)
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.SaveDocumentTemplateStream(SuperOffice.CRM.IDocumentTemplateInfo,System.IO.Stream,System.String)
+  id: SaveDocumentTemplateStream(SuperOffice.CRM.IDocumentTemplateInfo,System.IO.Stream,System.String)
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: SaveDocumentTemplateStream(IDocumentTemplateInfo, Stream, String)
+  nameWithType: IDocumentPlugin2.SaveDocumentTemplateStream(IDocumentTemplateInfo, Stream, String)
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.SaveDocumentTemplateStream(SuperOffice.CRM.IDocumentTemplateInfo, System.IO.Stream, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nCreate or update the document template contents. Usually used when uploading a file to a new document template.\n"
+  syntax:
+    content: TemplateInfo SaveDocumentTemplateStream(IDocumentTemplateInfo templateInfo, Stream content, string languageCode)
+    parameters:
+    - id: templateInfo
+      type: SuperOffice.CRM.IDocumentTemplateInfo
+      description: Name, tooltip and mime type from the document template record in the database. The ExtRef/Filename may be set if this is an edit rather than an add.
+    - id: content
+      type: System.IO.Stream
+      description: Stream containing file content
+    - id: languageCode
+      type: System.String
+      description: Language variation on the template. May be ignored by the plugin, or used to keep language specific versions of the template.
+    return:
+      type: SuperOffice.CRM.Documents.TemplateInfo
+      description: Template information with ExtRef/Filename and MimeType filled in. These values are saved in the DocTmpl record.
+    content.vb: Function SaveDocumentTemplateStream(templateInfo As IDocumentTemplateInfo, content As Stream, languageCode As String) As TemplateInfo
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.SaveDocumentTemplateStream*
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.LoadDocumentTemplateStream(SuperOffice.CRM.IDocumentTemplateInfo,System.String)
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.LoadDocumentTemplateStream(SuperOffice.CRM.IDocumentTemplateInfo,System.String)
+  id: LoadDocumentTemplateStream(SuperOffice.CRM.IDocumentTemplateInfo,System.String)
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: LoadDocumentTemplateStream(IDocumentTemplateInfo, String)
+  nameWithType: IDocumentPlugin2.LoadDocumentTemplateStream(IDocumentTemplateInfo, String)
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.LoadDocumentTemplateStream(SuperOffice.CRM.IDocumentTemplateInfo, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet the document template content as a stream. NetServer will read-to-end and close this stream\n"
+  remarks: "\nDocument templates may be stored in a repository, with or without special content tags.\nBecause a document template does not have a corresponding document record within\nSuperOffice, there is no documentId to identify it.\n<p></p>\nThis call is used by NetServer to retrieve a document template based on either\nan externalreference value stored in the corresponding doctmpl record,\nor the Id of the doctmpl record itself. The document plugin is free\nto use either method of identification.\n<p></p>\nMail templates are passed in using extref = &quot;filename=xyz&amp;allowPersonal=1&quot; and docTemplateId = 0\n"
+  syntax:
+    content: Stream LoadDocumentTemplateStream(IDocumentTemplateInfo documentTemplateInfo, string languageCode)
+    parameters:
+    - id: documentTemplateInfo
+      type: SuperOffice.CRM.IDocumentTemplateInfo
+      description: "Document template info: contains the extref/filename, template id, mime type.\nTemplateInfo.Id = 0 when archiving mail messages. \n"
+    - id: languageCode
+      type: System.String
+      description: Language (en-US, nb-NO, etc) that the user is using in the user interface. Can be used to select language-specific templates.
+    return:
+      type: System.IO.Stream
+      description: Stream containing the template content for the appropriate language. Null if no suitable template content found in this plugin.
+    content.vb: Function LoadDocumentTemplateStream(documentTemplateInfo As IDocumentTemplateInfo, languageCode As String) As Stream
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.LoadDocumentTemplateStream*
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetTemplateExtension(SuperOffice.CRM.IDocumentTemplateInfo)
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.GetTemplateExtension(SuperOffice.CRM.IDocumentTemplateInfo)
+  id: GetTemplateExtension(SuperOffice.CRM.IDocumentTemplateInfo)
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: GetTemplateExtension(IDocumentTemplateInfo)
+  nameWithType: IDocumentPlugin2.GetTemplateExtension(IDocumentTemplateInfo)
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetTemplateExtension(SuperOffice.CRM.IDocumentTemplateInfo)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet the &quot;extension&quot; for the template, i.e., what the file extension would have been - to \nhelp identify the stream content format\n"
+  remarks: "\nTemplate documents are generally created in text editors and stored as files of some kind. The\nfile extension indicates the kind of document - doc, docx, xls, txt, and so on. While the template\nmay be stored inside the document repository as any kind of data byte collection, a concept\nakin to the file extension is still needed to help identify the document format, ahead of actually\nreading the template content.\n"
+  syntax:
+    content: string GetTemplateExtension(IDocumentTemplateInfo documentTemplateInfo)
+    parameters:
+    - id: documentTemplateInfo
+      type: SuperOffice.CRM.IDocumentTemplateInfo
+      description: 'Document template info: contains the extref/filename, template id, mime type'
+    return:
+      type: System.String
+      description: String equivalent to a file extension, for instance &quot;.docx&quot;
+    content.vb: Function GetTemplateExtension(documentTemplateInfo As IDocumentTemplateInfo) As String
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.GetTemplateExtension*
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.CreateDefaultDocumentTemplate(System.Int32,SuperOffice.CRM.IDocumentTemplateInfo)
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.CreateDefaultDocumentTemplate(System.Int32,SuperOffice.CRM.IDocumentTemplateInfo)
+  id: CreateDefaultDocumentTemplate(System.Int32,SuperOffice.CRM.IDocumentTemplateInfo)
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultDocumentTemplate(Int32, IDocumentTemplateInfo)
+  nameWithType: IDocumentPlugin2.CreateDefaultDocumentTemplate(Int32, IDocumentTemplateInfo)
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.CreateDefaultDocumentTemplate(System.Int32, SuperOffice.CRM.IDocumentTemplateInfo)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nCreate a default document based on the given documentType. Called when creating a new template.\n"
+  syntax:
+    content: TemplateInfo CreateDefaultDocumentTemplate(int documentTypeKey, IDocumentTemplateInfo documentTemplateInfo)
+    parameters:
+    - id: documentTypeKey
+      type: System.Int32
+      description: Id for a document type. 0 if plugin does not use document types.
+    - id: documentTemplateInfo
+      type: SuperOffice.CRM.IDocumentTemplateInfo
+      description: Document template info
+    return:
+      type: SuperOffice.CRM.Documents.TemplateInfo
+      description: >-
+        Template info object, with MimeType and Extref/Filename for new template filled in. These values are written to the template record by NetServer.
+
+        Other fields like TemplateInfo.PluginId or TemplateInfo.Name are ignored in the result. The plugin cannot alter these.
+
+        Return NULL if no change, or if no blank document created.
+    content.vb: Function CreateDefaultDocumentTemplate(documentTypeKey As Integer, documentTemplateInfo As IDocumentTemplateInfo) As TemplateInfo
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.CreateDefaultDocumentTemplate*
+  seealso:
+  - linkId: SuperOffice.CRM.Documents.IDocumentPlugin2.GetSupportedDocumentTypesForDocumentTemplates
+    commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.GetSupportedDocumentTypesForDocumentTemplates
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetSupportedDocumentTypesForDocumentTemplates
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.GetSupportedDocumentTypesForDocumentTemplates
+  id: GetSupportedDocumentTypesForDocumentTemplates
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: GetSupportedDocumentTypesForDocumentTemplates()
+  nameWithType: IDocumentPlugin2.GetSupportedDocumentTypesForDocumentTemplates()
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetSupportedDocumentTypesForDocumentTemplates()
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet a list of supported document template types for this document plugin. May be empty.\n"
+  syntax:
+    content: Dictionary<int, string> GetSupportedDocumentTypesForDocumentTemplates()
+    return:
+      type: System.Collections.Generic.Dictionary{System.Int32,System.String}
+      description: An dictionary of key=display-name for supported document types for template. Empty dictionary if no document types supported.
+    content.vb: Function GetSupportedDocumentTypesForDocumentTemplates As Dictionary(Of Integer, String)
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.GetSupportedDocumentTypesForDocumentTemplates*
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentTemplateProperties(SuperOffice.CRM.IDocumentTemplateInfo,System.String[])
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentTemplateProperties(SuperOffice.CRM.IDocumentTemplateInfo,System.String[])
+  id: GetDocumentTemplateProperties(SuperOffice.CRM.IDocumentTemplateInfo,System.String[])
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentTemplateProperties(IDocumentTemplateInfo, String[])
+  nameWithType: IDocumentPlugin2.GetDocumentTemplateProperties(IDocumentTemplateInfo, String[])
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentTemplateProperties(SuperOffice.CRM.IDocumentTemplateInfo, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet the values of certain properties, for a given document template\n"
+  remarks: "\nEach document can have a number of properties associated with it. A set of standard properties\nis defined in the <xref href=\"SuperOffice.CRM.Documents.Constants.Properties\" data-throw-if-not-resolved=\"false\"></xref> class. Ideally, retrieving properties should\nbe a lightweight operation.\n<p></p>\nNote that &apos;properties&apos; are a one-way mechanism where the document plugin provides information about\nthe document or certain aspects of it. This is not the same as document-specific\nmetadata, which is handled by the <xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.LoadMetaData(SuperOffice.CRM.IDocumentInfo)\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.SaveMetaData(SuperOffice.CRM.IDocumentInfo%2cSystem.Collections.Generic.Dictionary%7bSystem.String%2cSystem.String%7d)\" data-throw-if-not-resolved=\"false\"></xref>\nmethods.\n"
+  syntax:
+    content: Dictionary<string, string> GetDocumentTemplateProperties(IDocumentTemplateInfo documentTemplateInfo, string[] requestedProperties)
+    parameters:
+    - id: documentTemplateInfo
+      type: SuperOffice.CRM.IDocumentTemplateInfo
+      description: Document template record from the SuperOffice database
+    - id: requestedProperties
+      type: System.String[]
+      description: Array of property strings, for which values are requested
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      description: >-
+        Dictionary of name=value pairs, where the name is one of the requested property strings, and the value
+
+        is the value of that property for the given document.
+    content.vb: Function GetDocumentTemplateProperties(documentTemplateInfo As IDocumentTemplateInfo, requestedProperties As String()) As Dictionary(Of String, String)
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentTemplateProperties*
+  nameWithType.vb: IDocumentPlugin2.GetDocumentTemplateProperties(IDocumentTemplateInfo, String())
+  fullName.vb: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentTemplateProperties(SuperOffice.CRM.IDocumentTemplateInfo, System.String())
+  name.vb: GetDocumentTemplateProperties(IDocumentTemplateInfo, String())
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentTemplateUrl(SuperOffice.CRM.IDocumentTemplateInfo,System.Boolean,System.String)
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentTemplateUrl(SuperOffice.CRM.IDocumentTemplateInfo,System.Boolean,System.String)
+  id: GetDocumentTemplateUrl(SuperOffice.CRM.IDocumentTemplateInfo,System.Boolean,System.String)
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentTemplateUrl(IDocumentTemplateInfo, Boolean, String)
+  nameWithType: IDocumentPlugin2.GetDocumentTemplateUrl(IDocumentTemplateInfo, Boolean, String)
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentTemplateUrl(SuperOffice.CRM.IDocumentTemplateInfo, System.Boolean, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet a URL referring to the given document template\n"
+  remarks: "\nDocument plugins may support document access via URLs. This call is used to retrieve a url that \nwill give the specified access to the document. This URL will be passed to the ultimate client \n(most probably a browser, but could be a text editor application), and control will not return to NetServer.\n<p></p>\nThe string returned here should be a fully resolved URL that can be given directly to the editor application.\n"
+  syntax:
+    content: string GetDocumentTemplateUrl(IDocumentTemplateInfo documentTemplateInfo, bool writeableUrl, string languageCode)
+    parameters:
+    - id: documentTemplateInfo
+      type: SuperOffice.CRM.IDocumentTemplateInfo
+      description: The document template info from database
+    - id: writeableUrl
+      type: System.Boolean
+      description: >-
+        If true, then the request URL should allow the document editor to write content
+
+        back to the repository; otherwise, a url that does not support writeback should be supplied
+
+        if possible.
+    - id: languageCode
+      type: System.String
+      description: Language variation on the template. May be ignored by the plugin, or used to keep language specific versions of the template.
+    return:
+      type: System.String
+      description: >-
+        URL that gives access to the template document. If the document plugin
+
+        does not support URL access, then a blank string should be returned.
+    content.vb: Function GetDocumentTemplateUrl(documentTemplateInfo As IDocumentTemplateInfo, writeableUrl As Boolean, languageCode As String) As String
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentTemplateUrl*
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentTemplateLanguages(SuperOffice.CRM.IDocumentTemplateInfo)
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentTemplateLanguages(SuperOffice.CRM.IDocumentTemplateInfo)
+  id: GetDocumentTemplateLanguages(SuperOffice.CRM.IDocumentTemplateInfo)
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentTemplateLanguages(IDocumentTemplateInfo)
+  nameWithType: IDocumentPlugin2.GetDocumentTemplateLanguages(IDocumentTemplateInfo)
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentTemplateLanguages(SuperOffice.CRM.IDocumentTemplateInfo)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet the list of languages supported by the given template, not including the default (blank) language.\n"
+  remarks: Used when populating the dropdown list in the admin client or the document dialog.
+  syntax:
+    content: string[] GetDocumentTemplateLanguages(IDocumentTemplateInfo documentTemplateInfo)
+    parameters:
+    - id: documentTemplateInfo
+      type: SuperOffice.CRM.IDocumentTemplateInfo
+      description: The template we are curious about
+    return:
+      type: System.String[]
+      description: 'Array of ISO codes: (&quot;en-US&quot;, &quot;nb-NO&quot;, &quot;fr&quot;)'
+    content.vb: Function GetDocumentTemplateLanguages(documentTemplateInfo As IDocumentTemplateInfo) As String()
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentTemplateLanguages*
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocumentTemplate(SuperOffice.CRM.IDocumentTemplateInfo,System.String[])
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocumentTemplate(SuperOffice.CRM.IDocumentTemplateInfo,System.String[])
+  id: DeleteDocumentTemplate(SuperOffice.CRM.IDocumentTemplateInfo,System.String[])
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: DeleteDocumentTemplate(IDocumentTemplateInfo, String[])
+  nameWithType: IDocumentPlugin2.DeleteDocumentTemplate(IDocumentTemplateInfo, String[])
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocumentTemplate(SuperOffice.CRM.IDocumentTemplateInfo, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nDelete a document template, all language variations and all metadata from the repository\n"
+  syntax:
+    content: ReturnInfo DeleteDocumentTemplate(IDocumentTemplateInfo documentTemplateInfo, string[] allowedReturnTypes)
+    parameters:
+    - id: documentTemplateInfo
+      type: SuperOffice.CRM.IDocumentTemplateInfo
+      description: Fully populated document metadata, used to identify the document. Usefully contains ExternalReference and Filename properties.
+    - id: allowedReturnTypes
+      type: System.String[]
+      description: >-
+        Array of names of allowed return types; if this array is
+
+        empty then no limits are placed on return type. (&quot;None&quot;, &quot;Message&quot;, &quot;SoProtocol&quot;, &quot;CustomGUI&quot;, &quot;Other&quot;)
+    return:
+      type: SuperOffice.CRM.ReturnInfo
+      description: Return value, indicating success/failure and any optional processing to be performed
+    content.vb: Function DeleteDocumentTemplate(documentTemplateInfo As IDocumentTemplateInfo, allowedReturnTypes As String()) As ReturnInfo
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocumentTemplate*
+  nameWithType.vb: IDocumentPlugin2.DeleteDocumentTemplate(IDocumentTemplateInfo, String())
+  fullName.vb: SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocumentTemplate(SuperOffice.CRM.IDocumentTemplateInfo, System.String())
+  name.vb: DeleteDocumentTemplate(IDocumentTemplateInfo, String())
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocumentTemplateLanguage(SuperOffice.CRM.IDocumentTemplateInfo,System.String,System.String[])
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocumentTemplateLanguage(SuperOffice.CRM.IDocumentTemplateInfo,System.String,System.String[])
+  id: DeleteDocumentTemplateLanguage(SuperOffice.CRM.IDocumentTemplateInfo,System.String,System.String[])
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: DeleteDocumentTemplateLanguage(IDocumentTemplateInfo, String, String[])
+  nameWithType: IDocumentPlugin2.DeleteDocumentTemplateLanguage(IDocumentTemplateInfo, String, String[])
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocumentTemplateLanguage(SuperOffice.CRM.IDocumentTemplateInfo, System.String, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nDelete a specific language variation from the document template\n"
+  syntax:
+    content: ReturnInfo DeleteDocumentTemplateLanguage(IDocumentTemplateInfo documentTemplateInfo, string languageCode, string[] allowedReturnTypes)
+    parameters:
+    - id: documentTemplateInfo
+      type: SuperOffice.CRM.IDocumentTemplateInfo
+      description: Fully populated document template metadata used to identity the template.
+    - id: languageCode
+      type: System.String
+      description: The language variation to delete
+    - id: allowedReturnTypes
+      type: System.String[]
+      description: Array of names of allowed return types.
+    return:
+      type: SuperOffice.CRM.ReturnInfo
+      description: Return value, indicating success/failure and any optional processing to be performed
+    content.vb: Function DeleteDocumentTemplateLanguage(documentTemplateInfo As IDocumentTemplateInfo, languageCode As String, allowedReturnTypes As String()) As ReturnInfo
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocumentTemplateLanguage*
+  nameWithType.vb: IDocumentPlugin2.DeleteDocumentTemplateLanguage(IDocumentTemplateInfo, String, String())
+  fullName.vb: SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocumentTemplateLanguage(SuperOffice.CRM.IDocumentTemplateInfo, System.String, System.String())
+  name.vb: DeleteDocumentTemplateLanguage(IDocumentTemplateInfo, String, String())
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.CreateDocument(SuperOffice.CRM.IDocumentInfo,System.String@,System.String[],System.String,System.String[])
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.CreateDocument(SuperOffice.CRM.IDocumentInfo,System.String@,System.String[],System.String,System.String[])
+  id: CreateDocument(SuperOffice.CRM.IDocumentInfo,System.String@,System.String[],System.String,System.String[])
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: CreateDocument(IDocumentInfo, ref String, String[], String, String[])
+  nameWithType: IDocumentPlugin2.CreateDocument(IDocumentInfo, ref String, String[], String, String[])
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.CreateDocument(SuperOffice.CRM.IDocumentInfo, ref System.String, System.String[], System.String, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nCreate an empty document file in the repository, returning the external reference that \nuniquely identifies the document in the repository.\n"
+  remarks: "\nExecution of this method should result in the creation of a document instance in the\nunderlying repository, with empty content. If locking is supported, the status should\nbe &apos;Checked-out&apos;; the document should not be visible to other users. If locking is not \nsupported, a zero-length content should be the result.\n<p></p>\nAll metadata should be saved, an externalReference key should be assigned, and\nthe file name/document name validated and reserved.\n<p></p><strong>Notes on semantics</strong><br />\nThe IDocumentInfo.<see cref=\"!:SuperOffice.CRM.IDocumentInfo.Semantics\"></see> property is used to specify the\nlocking/versioning semantics requested and implemented for a document. Semantics actually implemtned\nwill be the lowest of what is requested and what is supported. Thus, a document may request \n<see cref=\"!:SuperOffice.Data.DocumentSemantics.None\"></see> semantics even if versioning is optionally supported\nby the document plugin, and in that case no versioning or locking should be performed.\n<p></p>\nOn creation, if locking and/or versioning is supported and requested, then the document stream should\nbe saved to a temporary area. Calls to GetDocumentStream should return an empty stream until the first\ncall to CheckinDocument has succeeded. The result of that Checkin call will be the base version \n(version 1).\n<p></p>\nLocking semantics are set on creation and cannot be changed later.\n<p></p>\nNetServer will typically call several plugin functions create a new document like this:\n<ul><li>plugin.<xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.LoadDocumentTemplateStream(SuperOffice.CRM.IDocumentTemplateInfo%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref> </li><li>(NetServer saves document template stream to temp file and \n  runs tag substitution on the file, replacing &lt;name> with company name, etc.)</li><li>plugin.CreateDocument - creates empty file in repository.</li><li>plugin.<xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.SaveDocumentFromStream(SuperOffice.CRM.IDocumentInfo%2cSystem.String%5b%5d%2cSystem.IO.Stream)\" data-throw-if-not-resolved=\"false\"></xref>(temp-file) - moves temp file into repository, replacing the empty file.</li></ul>\n"
+  syntax:
+    content: string CreateDocument(IDocumentInfo incomingInfo, ref string fileName, string[] extraFields, string versionDecription, string[] versionExtraFields)
+    parameters:
+    - id: incomingInfo
+      type: SuperOffice.CRM.IDocumentInfo
+      description: >-
+        SuperOffice metadata for the document, including the document Id
+
+        and locking/versioning sematics requested for this document.
+    - id: fileName
+      type: System.String
+      description: >-
+        Suggested file name/document name. The document plugin must validate this
+
+        name and amend it if needed (this is a ref parameter). If the name needs to be changed
+
+        for any reason, a new and valid name must be generated by the plugin, and returned
+
+        to the caller. NetServer will update the document record&apos;s Name field with the new filename.
+    - id: extraFields
+      type: System.String[]
+      description: >-
+        Plugin-dependent metadata for the document as a whole. The
+
+        usual caveats apply, i.e., there may be name/value pairs in the parameter that
+
+        belong to other parts of the system. Failure to recognize a name is not an error.
+    - id: versionDecription
+      type: System.String
+      description: >-
+        Description of the initial version, if versioning is supported
+
+        and enabled for the document.
+    - id: versionExtraFields
+      type: System.String[]
+      description: Plugin-dependent metadata for the initial version
+    return:
+      type: System.String
+      description: The external reference that identifies this document. This return value is written to the document record&apos;s ExtRef field.
+    content.vb: Function CreateDocument(incomingInfo As IDocumentInfo, ByRef fileName As String, extraFields As String(), versionDecription As String, versionExtraFields As String()) As String
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.CreateDocument*
+  nameWithType.vb: IDocumentPlugin2.CreateDocument(IDocumentInfo, ByRef String, String(), String, String())
+  fullName.vb: SuperOffice.CRM.Documents.IDocumentPlugin2.CreateDocument(SuperOffice.CRM.IDocumentInfo, ByRef System.String, System.String(), System.String, System.String())
+  name.vb: CreateDocument(IDocumentInfo, ByRef String, String(), String, String())
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.SaveDocumentFromStream(SuperOffice.CRM.IDocumentInfo,System.String[],System.IO.Stream)
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.SaveDocumentFromStream(SuperOffice.CRM.IDocumentInfo,System.String[],System.IO.Stream)
+  id: SaveDocumentFromStream(SuperOffice.CRM.IDocumentInfo,System.String[],System.IO.Stream)
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: SaveDocumentFromStream(IDocumentInfo, String[], Stream)
+  nameWithType: IDocumentPlugin2.SaveDocumentFromStream(IDocumentInfo, String[], Stream)
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.SaveDocumentFromStream(SuperOffice.CRM.IDocumentInfo, System.String[], System.IO.Stream)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nSave the stream as the document content in the repository; depending on the state, this\nmay imply creating a temporary save pending a final checkin, or an immediately visible result.\n"
+  remarks: "\nAn empty document must have been created in the repository with <xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.CreateDocument(SuperOffice.CRM.IDocumentInfo%2cSystem.String%40%2cSystem.String%5b%5d%2cSystem.String%2cSystem.String%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref> before content\ncan be streamed into it.\n<p></p>\nIf the document is currently checked out to the current user, then the stream should be saved, \nbut this call does not imply the automatic creation of a new version (visible to other users) \nor automatic checkin. However, it is an advantage if subsequent GetDocument calls made by \nthe same user using the same key return the latest known content – while other users see \nthe latest checked-in version.\n<p></p>\nIf the plugin does not support locking and versioning (or such semantics are not requested, see below), \nthen each call to this API overwrites \nany prior content completely and becomes the new, official content immediately. The Save operation \nshould be atomic, and should not destroy earlier content if it fails.\n<p></p>\nIf locking is supported and requested, the document is checked out and some other associate than the one \nthat has checked it out calls this API, a failure message should be returned.\n"
+  syntax:
+    content: ReturnInfo SaveDocumentFromStream(IDocumentInfo incomingInfo, string[] allowedReturnTypes, Stream content)
+    parameters:
+    - id: incomingInfo
+      type: SuperOffice.CRM.IDocumentInfo
+      description: >-
+        Incoming document metadata, used to identify the document. Metadata
+
+        changes are <strong>not</strong> to be checked or saved by this operation - only the document stream is saved.
+    - id: allowedReturnTypes
+      type: System.String[]
+      description: >-
+        Array of names of allowed return types; if this array is
+
+        empty then no limits are placed on return type. (&quot;None&quot;, &quot;Message&quot;, &quot;SoProtocol&quot;, &quot;CustomGUI&quot;, &quot;Other&quot;)
+    - id: content
+      type: System.IO.Stream
+      description: >-
+        Document content, a binary stream about which nothing is assumed. The
+
+        document plugin should read-to-end and close this stream.
+    return:
+      type: SuperOffice.CRM.ReturnInfo
+      description: Return value, indicating success/failure and any optional processing to be performed
+    content.vb: Function SaveDocumentFromStream(incomingInfo As IDocumentInfo, allowedReturnTypes As String(), content As Stream) As ReturnInfo
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.SaveDocumentFromStream*
+  nameWithType.vb: IDocumentPlugin2.SaveDocumentFromStream(IDocumentInfo, String(), Stream)
+  fullName.vb: SuperOffice.CRM.Documents.IDocumentPlugin2.SaveDocumentFromStream(SuperOffice.CRM.IDocumentInfo, System.String(), System.IO.Stream)
+  name.vb: SaveDocumentFromStream(IDocumentInfo, String(), Stream)
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.LoadDocumentStream(SuperOffice.CRM.IDocumentInfo,System.String)
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.LoadDocumentStream(SuperOffice.CRM.IDocumentInfo,System.String)
+  id: LoadDocumentStream(SuperOffice.CRM.IDocumentInfo,System.String)
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: LoadDocumentStream(IDocumentInfo, String)
+  nameWithType: IDocumentPlugin2.LoadDocumentStream(IDocumentInfo, String)
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.LoadDocumentStream(SuperOffice.CRM.IDocumentInfo, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet document content as a stream. NetServer will read-to-end and close this stream.\n"
+  remarks: "\nIt is up to the document plugin whether it can open a stream directly into the underlying repository, \nor whether it has to extract the document to some temporary area and then stream that – \nhowever, the fewer buffers the better.\n"
+  syntax:
+    content: Stream LoadDocumentStream(IDocumentInfo incomingInfo, string versionId)
+    parameters:
+    - id: incomingInfo
+      type: SuperOffice.CRM.IDocumentInfo
+      description: Fully populated document metadata, used to identify the document. Usefully contains ExternalReference and Filename properties.
+    - id: versionId
+      type: System.String
+      description: Optional version identifier, blank implies &apos;latest&apos; version
+    return:
+      type: System.IO.Stream
+      description: Document content stream
+    content.vb: Function LoadDocumentStream(incomingInfo As IDocumentInfo, versionId As String) As Stream
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.LoadDocumentStream*
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentUrl(SuperOffice.CRM.IDocumentInfo,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentUrl(SuperOffice.CRM.IDocumentInfo,System.String,System.Boolean)
+  id: GetDocumentUrl(SuperOffice.CRM.IDocumentInfo,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentUrl(IDocumentInfo, String, Boolean)
+  nameWithType: IDocumentPlugin2.GetDocumentUrl(IDocumentInfo, String, Boolean)
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentUrl(SuperOffice.CRM.IDocumentInfo, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet a WebDAV-compliant URL referring to the given document\n"
+  remarks: "\nDocument plugins may support document access via WebDAV. This call is used to retrieve a WebDAV url that \nwill give the specified access to the document. This URL will be passed to the ultimate client \n(most probably a text editor application), and control will not return to NetServer.\n<p></p>\nThe string returned here should be a fully resolved URL that can be given directly to the editor application.\n"
+  syntax:
+    content: string GetDocumentUrl(IDocumentInfo incomingInfo, string versionId, bool writeableUrl)
+    parameters:
+    - id: incomingInfo
+      type: SuperOffice.CRM.IDocumentInfo
+      description: Fully populated document metadata, used to identify the document. Usefully contains ExternalReference and Filename properties.
+    - id: versionId
+      type: System.String
+      description: Optional version identifier, blank implies &apos;latest&apos; version
+    - id: writeableUrl
+      type: System.Boolean
+      description: >-
+        If true, then the request URL should allow the document editor to write content
+
+        back to the repository; otherwise, a url that does not support writeback should be supplied
+
+        if possible.
+    return:
+      type: System.String
+      description: >-
+        WebDAV-compliant URL that gives access to the document. If the document plugin
+
+        does not support WebDAV access, then a blank string should be returned.
+    content.vb: Function GetDocumentUrl(incomingInfo As IDocumentInfo, versionId As String, writeableUrl As Boolean) As String
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentUrl*
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocument(SuperOffice.CRM.IDocumentInfo,System.String[])
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocument(SuperOffice.CRM.IDocumentInfo,System.String[])
+  id: DeleteDocument(SuperOffice.CRM.IDocumentInfo,System.String[])
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: DeleteDocument(IDocumentInfo, String[])
+  nameWithType: IDocumentPlugin2.DeleteDocument(IDocumentInfo, String[])
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocument(SuperOffice.CRM.IDocumentInfo, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nDelete a document, all versions and all metadata from the repository\n"
+  syntax:
+    content: ReturnInfo DeleteDocument(IDocumentInfo documentInfo, string[] allowedReturnTypes)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+      description: Fully populated document metadata, used to identify the document. Usefully contains ExternalReference and Filename properties.
+    - id: allowedReturnTypes
+      type: System.String[]
+      description: >-
+        Array of names of allowed return types; if this array is
+
+        empty then no limits are placed on return type. (&quot;None&quot;, &quot;Message&quot;, &quot;SoProtocol&quot;, &quot;CustomGUI&quot;, &quot;Other&quot;)
+    return:
+      type: SuperOffice.CRM.ReturnInfo
+      description: Return value, indicating success/failure and any optional processing to be performed
+    content.vb: Function DeleteDocument(documentInfo As IDocumentInfo, allowedReturnTypes As String()) As ReturnInfo
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocument*
+  nameWithType.vb: IDocumentPlugin2.DeleteDocument(IDocumentInfo, String())
+  fullName.vb: SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocument(SuperOffice.CRM.IDocumentInfo, System.String())
+  name.vb: DeleteDocument(IDocumentInfo, String())
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.RenameDocument(SuperOffice.CRM.IDocumentInfo,System.String)
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.RenameDocument(SuperOffice.CRM.IDocumentInfo,System.String)
+  id: RenameDocument(SuperOffice.CRM.IDocumentInfo,System.String)
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: RenameDocument(IDocumentInfo, String)
+  nameWithType: IDocumentPlugin2.RenameDocument(IDocumentInfo, String)
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.RenameDocument(SuperOffice.CRM.IDocumentInfo, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nRename a document in the repository\n"
+  remarks: "\nThe document name should be changed from the existing to the new name. However,\nif the new name is not valid (or collides with an existing name of some other\ndocument), then the plugin should amend the name to a valid one and return\nit, instead of throwing an exception.\n"
+  syntax:
+    content: string RenameDocument(IDocumentInfo documentInfo, string suggestedNewName)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+      description: Fully populated document metadata, used to identify the document. Usefully contains ExternalReference and Filename properties.
+    - id: suggestedNewName
+      type: System.String
+      description: Suggested new document name
+    return:
+      type: System.String
+      description: Actual new document name, limited to 254 characters
+    content.vb: Function RenameDocument(documentInfo As IDocumentInfo, suggestedNewName As String) As String
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.RenameDocument*
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentIdFromPath(System.String)
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentIdFromPath(System.String)
+  id: GetDocumentIdFromPath(System.String)
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentIdFromPath(String)
+  nameWithType: IDocumentPlugin2.GetDocumentIdFromPath(String)
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentIdFromPath(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nMap a file path to a document. Return 0 if the plugin cannot map the path.\n"
+  syntax:
+    content: int GetDocumentIdFromPath(string documentPathAndName)
+    parameters:
+    - id: documentPathAndName
+      type: System.String
+      description: '&quot;c:\path\to\a-document.docx&quot;'
+    return:
+      type: System.Int32
+      description: Document id that matches, or 0 if no match
+    content.vb: Function GetDocumentIdFromPath(documentPathAndName As String) As Integer
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentIdFromPath*
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetCheckoutState(SuperOffice.CRM.IDocumentInfo)
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.GetCheckoutState(SuperOffice.CRM.IDocumentInfo)
+  id: GetCheckoutState(SuperOffice.CRM.IDocumentInfo)
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: GetCheckoutState(IDocumentInfo)
+  nameWithType: IDocumentPlugin2.GetCheckoutState(IDocumentInfo)
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetCheckoutState(SuperOffice.CRM.IDocumentInfo)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet the checkout state of a document\n"
+  remarks: "\nThis API is called from inside document archive providers if the plugin has declared that it\nsupports fast fetching of this attribute. If the document plugin does not support locking or\nversioning, then the return value should have state NotCheckedOut, associate id 0 and blank name.\n"
+  syntax:
+    content: CheckoutInfo GetCheckoutState(IDocumentInfo documentInfo)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+      description: Fully populated document metadata, used to identify the document. Usefully contains ExternalReference and Filename properties.
+    return:
+      type: SuperOffice.CRM.Documents.CheckoutInfo
+      description: Object that describes the checkout state of the document
+    content.vb: Function GetCheckoutState(documentInfo As IDocumentInfo) As CheckoutInfo
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.GetCheckoutState*
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.CheckoutDocument(SuperOffice.CRM.IDocumentInfo,System.String[])
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.CheckoutDocument(SuperOffice.CRM.IDocumentInfo,System.String[])
+  id: CheckoutDocument(SuperOffice.CRM.IDocumentInfo,System.String[])
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: CheckoutDocument(IDocumentInfo, String[])
+  nameWithType: IDocumentPlugin2.CheckoutDocument(IDocumentInfo, String[])
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.CheckoutDocument(SuperOffice.CRM.IDocumentInfo, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nCheck out the document for editing\n"
+  remarks: "\nA document plugin that supports versioning may internally prepare to receive new content and \nprepare a new internal version, but a subsequent <xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.GetVersionList(SuperOffice.CRM.IDocumentInfo)\" data-throw-if-not-resolved=\"false\"></xref> call should <strong>not</strong> \nshow this version – not until <xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.CheckinDocument(SuperOffice.CRM.IDocumentInfo%2cSystem.String%5b%5d%2cSystem.String%2cSystem.String%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref> has been called. \n<p></p>\nAfter the completion of this call, the document is in checked out state and <xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.GetCheckoutState(SuperOffice.CRM.IDocumentInfo)\" data-throw-if-not-resolved=\"false\"></xref> \nshould return “Own” as the status. <xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.SaveDocumentFromStream(SuperOffice.CRM.IDocumentInfo%2cSystem.String%5b%5d%2cSystem.IO.Stream)\" data-throw-if-not-resolved=\"false\"></xref> calls on behalf of other users should\nfail, as should <xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.CheckoutDocument(SuperOffice.CRM.IDocumentInfo%2cSystem.String%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.CRM.Documents.IDocumentPlugin2.CheckinDocument(SuperOffice.CRM.IDocumentInfo%2cSystem.String%5b%5d%2cSystem.String%2cSystem.String%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref> calls on behalf of other users.\n<p></p>\nIf the document plugin does not support locking or versioning, then this call should perform no action.\n"
+  syntax:
+    content: ReturnInfo CheckoutDocument(IDocumentInfo documentInfo, string[] allowedReturnTypes)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+      description: Fully populated document metadata, used to identify the document. Usefully contains ExternalReference and Filename properties.
+    - id: allowedReturnTypes
+      type: System.String[]
+      description: >-
+        Array of names of allowed return types; if this array is
+
+        empty then no limits are placed on return type. (&quot;None&quot;, &quot;Message&quot;, &quot;SoProtocol&quot;, &quot;CustomGUI&quot;, &quot;Other&quot;)
+    return:
+      type: SuperOffice.CRM.ReturnInfo
+      description: Return value, indicating success/failure and any optional processing to be performed
+    content.vb: Function CheckoutDocument(documentInfo As IDocumentInfo, allowedReturnTypes As String()) As ReturnInfo
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.CheckoutDocument*
+  nameWithType.vb: IDocumentPlugin2.CheckoutDocument(IDocumentInfo, String())
+  fullName.vb: SuperOffice.CRM.Documents.IDocumentPlugin2.CheckoutDocument(SuperOffice.CRM.IDocumentInfo, System.String())
+  name.vb: CheckoutDocument(IDocumentInfo, String())
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.CheckinDocument(SuperOffice.CRM.IDocumentInfo,System.String[],System.String,System.String[])
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.CheckinDocument(SuperOffice.CRM.IDocumentInfo,System.String[],System.String,System.String[])
+  id: CheckinDocument(SuperOffice.CRM.IDocumentInfo,System.String[],System.String,System.String[])
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: CheckinDocument(IDocumentInfo, String[], String, String[])
+  nameWithType: IDocumentPlugin2.CheckinDocument(IDocumentInfo, String[], String, String[])
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.CheckinDocument(SuperOffice.CRM.IDocumentInfo, System.String[], System.String, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nCheck in a currently checked-out document\n"
+  remarks: "\nIf the document plugin supports locking and the requesting user is the one who checked out the document, \nthen the last-saved content by that user should become the new publicly visible content, and \nthe checkout state should be reset. Calls by other users should result in failure and no state change.\n<p></p>\nIf the document plugin does not support locking or versioning, then this call should perform no action.\n"
+  syntax:
+    content: ReturnInfo CheckinDocument(IDocumentInfo documentInfo, string[] allowedReturnTypes, string versionDescription, string[] versionExtraFields)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+      description: Fully populated document metadata, used to identify the document. Usefully contains ExternalReference and Filename properties.
+    - id: allowedReturnTypes
+      type: System.String[]
+      description: >-
+        Array of names of allowed return types; if this array is
+
+        empty then no limits are placed on return type. (&quot;None&quot;, &quot;Message&quot;, &quot;SoProtocol&quot;, &quot;CustomGUI&quot;, &quot;Other&quot;)
+    - id: versionDescription
+      type: System.String
+      description: Version description.
+    - id: versionExtraFields
+      type: System.String[]
+      description: Extra fields
+    return:
+      type: SuperOffice.CRM.ReturnInfo
+      description: Return value, indicating success/failure and any optional processing to be performed
+    content.vb: Function CheckinDocument(documentInfo As IDocumentInfo, allowedReturnTypes As String(), versionDescription As String, versionExtraFields As String()) As ReturnInfo
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.CheckinDocument*
+  nameWithType.vb: IDocumentPlugin2.CheckinDocument(IDocumentInfo, String(), String, String())
+  fullName.vb: SuperOffice.CRM.Documents.IDocumentPlugin2.CheckinDocument(SuperOffice.CRM.IDocumentInfo, System.String(), System.String, System.String())
+  name.vb: CheckinDocument(IDocumentInfo, String(), String, String())
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.UndoCheckoutDocument(SuperOffice.CRM.IDocumentInfo,System.String[])
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.UndoCheckoutDocument(SuperOffice.CRM.IDocumentInfo,System.String[])
+  id: UndoCheckoutDocument(SuperOffice.CRM.IDocumentInfo,System.String[])
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: UndoCheckoutDocument(IDocumentInfo, String[])
+  nameWithType: IDocumentPlugin2.UndoCheckoutDocument(IDocumentInfo, String[])
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.UndoCheckoutDocument(SuperOffice.CRM.IDocumentInfo, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nUndo (abandon) a checkout\n"
+  remarks: "\nIf the document plugin supports locking and the requesting user is the one who checked out the document, \nthen any content saved since the checkout should be discarded and the checkout state reset. \nThe content will be as before checkout. \n<p></p>\nCalls by other users should result in failure and no state change – except if the calling user has the right to force an undo\n<p></p>\nIf the document plugin does not support locking or versioning, then this call should perform no action.\n"
+  syntax:
+    content: ReturnInfo UndoCheckoutDocument(IDocumentInfo documentInfo, string[] allowedReturnTypes)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+      description: Fully populated document metadata, used to identify the document. Usefully contains ExternalReference and Filename properties.
+    - id: allowedReturnTypes
+      type: System.String[]
+      description: >-
+        Array of names of allowed return types; if this array is
+
+        empty then no limits are placed on return type. (&quot;None&quot;, &quot;Message&quot;, &quot;SoProtocol&quot;, &quot;CustomGUI&quot;, &quot;Other&quot;)
+    return:
+      type: SuperOffice.CRM.ReturnInfo
+      description: Return value, indicating success/failure and any optional processing to be performed
+    content.vb: Function UndoCheckoutDocument(documentInfo As IDocumentInfo, allowedReturnTypes As String()) As ReturnInfo
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.UndoCheckoutDocument*
+  nameWithType.vb: IDocumentPlugin2.UndoCheckoutDocument(IDocumentInfo, String())
+  fullName.vb: SuperOffice.CRM.Documents.IDocumentPlugin2.UndoCheckoutDocument(SuperOffice.CRM.IDocumentInfo, System.String())
+  name.vb: UndoCheckoutDocument(IDocumentInfo, String())
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetVersionList(SuperOffice.CRM.IDocumentInfo)
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.GetVersionList(SuperOffice.CRM.IDocumentInfo)
+  id: GetVersionList(SuperOffice.CRM.IDocumentInfo)
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  langs:
+  - csharp
+  - vb
+  name: GetVersionList(IDocumentInfo)
+  nameWithType: IDocumentPlugin2.GetVersionList(IDocumentInfo)
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetVersionList(SuperOffice.CRM.IDocumentInfo)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nGet the list of current versions for the given document\n"
+  remarks: "\nThe list should not include an “in-work” version, if the document is currently checked out – only \nversions visible and accessible to any authorized user.\n<p></p>\nIf the document plugin does not support versioning, then this call should return an empty array.\n"
+  syntax:
+    content: VersionInfo[] GetVersionList(IDocumentInfo documentInfo)
+    parameters:
+    - id: documentInfo
+      type: SuperOffice.CRM.IDocumentInfo
+      description: Fully populated document metadata, used to identify the document. Usefully contains ExternalReference and Filename properties.
+    return:
+      type: SuperOffice.CRM.Documents.VersionInfo[]
+      description: Array of objects describing the existing, committed versions for this document
+    content.vb: Function GetVersionList(documentInfo As IDocumentInfo) As VersionInfo()
+  overload: SuperOffice.CRM.Documents.IDocumentPlugin2.GetVersionList*
+references:
+- uid: SuperOffice.CRM.Documents
+  commentId: N:SuperOffice.CRM.Documents
+  isExternal: true
+  name: SuperOffice.CRM.Documents
+  nameWithType: SuperOffice.CRM.Documents
+  fullName: SuperOffice.CRM.Documents
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IDocumentPlugin2, To>()
+  nameWithType: EnumUtil.MapEnums<IDocumentPlugin2, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Documents.IDocumentPlugin2, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IDocumentPlugin2, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Documents.IDocumentPlugin2, To)()
+  name.vb: MapEnums(Of IDocumentPlugin2, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IDocumentPlugin2, To>
+    nameWithType: EnumUtil.MapEnums<IDocumentPlugin2, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Documents.IDocumentPlugin2, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IDocumentPlugin2, To)
+    nameWithType: EnumUtil.MapEnums(Of IDocumentPlugin2, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Documents.IDocumentPlugin2, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IDocumentPlugin2, To>()
+  nameWithType: Converters.MapEnums<IDocumentPlugin2, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Documents.IDocumentPlugin2, To>()
+  nameWithType.vb: Converters.MapEnums(Of IDocumentPlugin2, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Documents.IDocumentPlugin2, To)()
+  name.vb: MapEnums(Of IDocumentPlugin2, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IDocumentPlugin2, To>
+    nameWithType: Converters.MapEnums<IDocumentPlugin2, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Documents.IDocumentPlugin2, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IDocumentPlugin2, To)
+    nameWithType: Converters.MapEnums(Of IDocumentPlugin2, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Documents.IDocumentPlugin2, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetPluginCapabilities*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.GetPluginCapabilities
+  isExternal: true
+  name: GetPluginCapabilities
+  nameWithType: IDocumentPlugin2.GetPluginCapabilities
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetPluginCapabilities
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentProperties*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentProperties
+  isExternal: true
+  name: GetDocumentProperties
+  nameWithType: IDocumentPlugin2.GetDocumentProperties
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentProperties
+- uid: SuperOffice.CRM.IDocumentInfo
+  commentId: T:SuperOffice.CRM.IDocumentInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IDocumentInfo
+  nameWithType: IDocumentInfo
+  fullName: SuperOffice.CRM.IDocumentInfo
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentCommands*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentCommands
+  isExternal: true
+  name: GetDocumentCommands
+  nameWithType: IDocumentPlugin2.GetDocumentCommands
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentCommands
+- uid: SuperOffice.CRM.Documents.CommandInfo[]
+  isExternal: true
+  name: CommandInfo[]
+  nameWithType: CommandInfo[]
+  fullName: SuperOffice.CRM.Documents.CommandInfo[]
+  nameWithType.vb: CommandInfo()
+  fullName.vb: SuperOffice.CRM.Documents.CommandInfo()
+  name.vb: CommandInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Documents.CommandInfo
+    name: CommandInfo
+    nameWithType: CommandInfo
+    fullName: SuperOffice.CRM.Documents.CommandInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Documents.CommandInfo
+    name: CommandInfo
+    nameWithType: CommandInfo
+    fullName: SuperOffice.CRM.Documents.CommandInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.ExecuteDocumentCommand*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.ExecuteDocumentCommand
+  isExternal: true
+  name: ExecuteDocumentCommand
+  nameWithType: IDocumentPlugin2.ExecuteDocumentCommand
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.ExecuteDocumentCommand
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.ReturnInfo
+  commentId: T:SuperOffice.CRM.ReturnInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ReturnInfo
+  nameWithType: ReturnInfo
+  fullName: SuperOffice.CRM.ReturnInfo
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.LoadMetaData*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.LoadMetaData
+  isExternal: true
+  name: LoadMetaData
+  nameWithType: IDocumentPlugin2.LoadMetaData
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.LoadMetaData
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.LoadVersionInfo*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.LoadVersionInfo
+  isExternal: true
+  name: LoadVersionInfo
+  nameWithType: IDocumentPlugin2.LoadVersionInfo
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.LoadVersionInfo
+- uid: SuperOffice.CRM.Documents.VersionInfo
+  commentId: T:SuperOffice.CRM.Documents.VersionInfo
+  parent: SuperOffice.CRM.Documents
+  isExternal: true
+  name: VersionInfo
+  nameWithType: VersionInfo
+  fullName: SuperOffice.CRM.Documents.VersionInfo
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.SaveMetaData*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.SaveMetaData
+  isExternal: true
+  name: SaveMetaData
+  nameWithType: IDocumentPlugin2.SaveMetaData
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.SaveMetaData
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.SaveVersionInfo*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.SaveVersionInfo
+  isExternal: true
+  name: SaveVersionInfo
+  nameWithType: IDocumentPlugin2.SaveVersionInfo
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.SaveVersionInfo
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.Exists*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.Exists
+  isExternal: true
+  name: Exists
+  nameWithType: IDocumentPlugin2.Exists
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.Exists
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetLength*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.GetLength
+  isExternal: true
+  name: GetLength
+  nameWithType: IDocumentPlugin2.GetLength
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetLength
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.SaveDocumentTemplateStream*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.SaveDocumentTemplateStream
+  isExternal: true
+  name: SaveDocumentTemplateStream
+  nameWithType: IDocumentPlugin2.SaveDocumentTemplateStream
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.SaveDocumentTemplateStream
+- uid: SuperOffice.CRM.IDocumentTemplateInfo
+  commentId: T:SuperOffice.CRM.IDocumentTemplateInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IDocumentTemplateInfo
+  nameWithType: IDocumentTemplateInfo
+  fullName: SuperOffice.CRM.IDocumentTemplateInfo
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: SuperOffice.CRM.Documents.TemplateInfo
+  commentId: T:SuperOffice.CRM.Documents.TemplateInfo
+  parent: SuperOffice.CRM.Documents
+  isExternal: true
+  name: TemplateInfo
+  nameWithType: TemplateInfo
+  fullName: SuperOffice.CRM.Documents.TemplateInfo
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.LoadDocumentTemplateStream*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.LoadDocumentTemplateStream
+  isExternal: true
+  name: LoadDocumentTemplateStream
+  nameWithType: IDocumentPlugin2.LoadDocumentTemplateStream
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.LoadDocumentTemplateStream
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetTemplateExtension*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.GetTemplateExtension
+  isExternal: true
+  name: GetTemplateExtension
+  nameWithType: IDocumentPlugin2.GetTemplateExtension
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetTemplateExtension
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.CreateDefaultDocumentTemplate*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.CreateDefaultDocumentTemplate
+  isExternal: true
+  name: CreateDefaultDocumentTemplate
+  nameWithType: IDocumentPlugin2.CreateDefaultDocumentTemplate
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.CreateDefaultDocumentTemplate
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetSupportedDocumentTypesForDocumentTemplates
+  commentId: M:SuperOffice.CRM.Documents.IDocumentPlugin2.GetSupportedDocumentTypesForDocumentTemplates
+  parent: SuperOffice.CRM.Documents.IDocumentPlugin2
+  isExternal: true
+  name: GetSupportedDocumentTypesForDocumentTemplates()
+  nameWithType: IDocumentPlugin2.GetSupportedDocumentTypesForDocumentTemplates()
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetSupportedDocumentTypesForDocumentTemplates()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetSupportedDocumentTypesForDocumentTemplates
+    name: GetSupportedDocumentTypesForDocumentTemplates
+    nameWithType: IDocumentPlugin2.GetSupportedDocumentTypesForDocumentTemplates
+    fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetSupportedDocumentTypesForDocumentTemplates
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetSupportedDocumentTypesForDocumentTemplates
+    name: GetSupportedDocumentTypesForDocumentTemplates
+    nameWithType: IDocumentPlugin2.GetSupportedDocumentTypesForDocumentTemplates
+    fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetSupportedDocumentTypesForDocumentTemplates
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2
+  commentId: T:SuperOffice.CRM.Documents.IDocumentPlugin2
+  parent: SuperOffice.CRM.Documents
+  isExternal: true
+  name: IDocumentPlugin2
+  nameWithType: IDocumentPlugin2
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetSupportedDocumentTypesForDocumentTemplates*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.GetSupportedDocumentTypesForDocumentTemplates
+  isExternal: true
+  name: GetSupportedDocumentTypesForDocumentTemplates
+  nameWithType: IDocumentPlugin2.GetSupportedDocumentTypesForDocumentTemplates
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetSupportedDocumentTypesForDocumentTemplates
+- uid: System.Collections.Generic.Dictionary{System.Int32,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.Int32,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<Int32, String>
+  nameWithType: Dictionary<Int32, String>
+  fullName: System.Collections.Generic.Dictionary<System.Int32, System.String>
+  nameWithType.vb: Dictionary(Of Int32, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.Int32, System.String)
+  name.vb: Dictionary(Of Int32, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentTemplateProperties*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentTemplateProperties
+  isExternal: true
+  name: GetDocumentTemplateProperties
+  nameWithType: IDocumentPlugin2.GetDocumentTemplateProperties
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentTemplateProperties
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentTemplateUrl*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentTemplateUrl
+  isExternal: true
+  name: GetDocumentTemplateUrl
+  nameWithType: IDocumentPlugin2.GetDocumentTemplateUrl
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentTemplateUrl
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentTemplateLanguages*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentTemplateLanguages
+  isExternal: true
+  name: GetDocumentTemplateLanguages
+  nameWithType: IDocumentPlugin2.GetDocumentTemplateLanguages
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentTemplateLanguages
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocumentTemplate*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocumentTemplate
+  isExternal: true
+  name: DeleteDocumentTemplate
+  nameWithType: IDocumentPlugin2.DeleteDocumentTemplate
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocumentTemplate
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocumentTemplateLanguage*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocumentTemplateLanguage
+  isExternal: true
+  name: DeleteDocumentTemplateLanguage
+  nameWithType: IDocumentPlugin2.DeleteDocumentTemplateLanguage
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocumentTemplateLanguage
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.CreateDocument*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.CreateDocument
+  isExternal: true
+  name: CreateDocument
+  nameWithType: IDocumentPlugin2.CreateDocument
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.CreateDocument
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.SaveDocumentFromStream*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.SaveDocumentFromStream
+  isExternal: true
+  name: SaveDocumentFromStream
+  nameWithType: IDocumentPlugin2.SaveDocumentFromStream
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.SaveDocumentFromStream
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.LoadDocumentStream*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.LoadDocumentStream
+  isExternal: true
+  name: LoadDocumentStream
+  nameWithType: IDocumentPlugin2.LoadDocumentStream
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.LoadDocumentStream
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentUrl*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentUrl
+  isExternal: true
+  name: GetDocumentUrl
+  nameWithType: IDocumentPlugin2.GetDocumentUrl
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentUrl
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocument*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocument
+  isExternal: true
+  name: DeleteDocument
+  nameWithType: IDocumentPlugin2.DeleteDocument
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.DeleteDocument
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.RenameDocument*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.RenameDocument
+  isExternal: true
+  name: RenameDocument
+  nameWithType: IDocumentPlugin2.RenameDocument
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.RenameDocument
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentIdFromPath*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentIdFromPath
+  isExternal: true
+  name: GetDocumentIdFromPath
+  nameWithType: IDocumentPlugin2.GetDocumentIdFromPath
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetDocumentIdFromPath
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetCheckoutState*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.GetCheckoutState
+  isExternal: true
+  name: GetCheckoutState
+  nameWithType: IDocumentPlugin2.GetCheckoutState
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetCheckoutState
+- uid: SuperOffice.CRM.Documents.CheckoutInfo
+  commentId: T:SuperOffice.CRM.Documents.CheckoutInfo
+  parent: SuperOffice.CRM.Documents
+  isExternal: true
+  name: CheckoutInfo
+  nameWithType: CheckoutInfo
+  fullName: SuperOffice.CRM.Documents.CheckoutInfo
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.CheckoutDocument*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.CheckoutDocument
+  isExternal: true
+  name: CheckoutDocument
+  nameWithType: IDocumentPlugin2.CheckoutDocument
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.CheckoutDocument
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.CheckinDocument*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.CheckinDocument
+  isExternal: true
+  name: CheckinDocument
+  nameWithType: IDocumentPlugin2.CheckinDocument
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.CheckinDocument
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.UndoCheckoutDocument*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.UndoCheckoutDocument
+  isExternal: true
+  name: UndoCheckoutDocument
+  nameWithType: IDocumentPlugin2.UndoCheckoutDocument
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.UndoCheckoutDocument
+- uid: SuperOffice.CRM.Documents.IDocumentPlugin2.GetVersionList*
+  commentId: Overload:SuperOffice.CRM.Documents.IDocumentPlugin2.GetVersionList
+  isExternal: true
+  name: GetVersionList
+  nameWithType: IDocumentPlugin2.GetVersionList
+  fullName: SuperOffice.CRM.Documents.IDocumentPlugin2.GetVersionList
+- uid: SuperOffice.CRM.Documents.VersionInfo[]
+  isExternal: true
+  name: VersionInfo[]
+  nameWithType: VersionInfo[]
+  fullName: SuperOffice.CRM.Documents.VersionInfo[]
+  nameWithType.vb: VersionInfo()
+  fullName.vb: SuperOffice.CRM.Documents.VersionInfo()
+  name.vb: VersionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Documents.VersionInfo
+    name: VersionInfo
+    nameWithType: VersionInfo
+    fullName: SuperOffice.CRM.Documents.VersionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Documents.VersionInfo
+    name: VersionInfo
+    nameWithType: VersionInfo
+    fullName: SuperOffice.CRM.Documents.VersionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

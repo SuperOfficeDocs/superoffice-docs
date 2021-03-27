@@ -1,0 +1,1114 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.SaleStakeholder
+  commentId: T:SuperOffice.CRM.Services.SaleStakeholder
+  id: SaleStakeholder
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.SaleStakeholder.#ctor
+  - SuperOffice.CRM.Services.SaleStakeholder.Comment
+  - SuperOffice.CRM.Services.SaleStakeholder.ContactId
+  - SuperOffice.CRM.Services.SaleStakeholder.ContactName
+  - SuperOffice.CRM.Services.SaleStakeholder.CountryId
+  - SuperOffice.CRM.Services.SaleStakeholder.EmailAddress
+  - SuperOffice.CRM.Services.SaleStakeholder.EmailDescription
+  - SuperOffice.CRM.Services.SaleStakeholder.EmailId
+  - SuperOffice.CRM.Services.SaleStakeholder.Firstname
+  - SuperOffice.CRM.Services.SaleStakeholder.Lastname
+  - SuperOffice.CRM.Services.SaleStakeholder.MiddleName
+  - SuperOffice.CRM.Services.SaleStakeholder.Mrmrs
+  - SuperOffice.CRM.Services.SaleStakeholder.PersonId
+  - SuperOffice.CRM.Services.SaleStakeholder.Phone
+  - SuperOffice.CRM.Services.SaleStakeholder.PhoneId
+  - SuperOffice.CRM.Services.SaleStakeholder.Rank
+  - SuperOffice.CRM.Services.SaleStakeholder.SaleId
+  - SuperOffice.CRM.Services.SaleStakeholder.SaleStakeholderId
+  - SuperOffice.CRM.Services.SaleStakeholder.StakeholderRoleId
+  - SuperOffice.CRM.Services.SaleStakeholder.StakeholderRoleName
+  - SuperOffice.CRM.Services.SaleStakeholder.ToString
+  - SuperOffice.CRM.Services.SaleStakeholder.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: SaleStakeholder
+  nameWithType: SaleStakeholder
+  fullName: SuperOffice.CRM.Services.SaleStakeholder
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for SaleStakeholder.\nServices for the SaleStakeholder Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ISaleAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet SaleStakeholder 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new SaleAgent();\n    var saleStakeholder = agent.GetSaleStakeholder( 123 );\n }</code></pre>\n\nFind all SaleStakeholder, get related items using archive agent.\n<pre><code>var archive = new ArchiveAgent();\nvar rows = archive.GetArchiveListByColumns2(&quot;SaleStakeholder&quot;, &quot;...&quot;, null, &quot;getAllRows eq 1&quot;, null, 0, 100 );</code></pre>\n"
+  syntax:
+    content: 'public class SaleStakeholder : Carrier'
+    content.vb: >-
+      Public Class SaleStakeholder
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.SaleAgent
+    commentId: T:SuperOffice.CRM.Services.SaleAgent
+  - linkId: SuperOffice.CRM.Services.ISaleAgent
+    commentId: T:SuperOffice.CRM.Services.ISaleAgent
+  - linkId: SuperOffice.CRM.Services.ArchiveAgent
+    commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  - linkId: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.SaleStakeholder.#ctor
+  commentId: M:SuperOffice.CRM.Services.SaleStakeholder.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: SaleStakeholder()
+  nameWithType: SaleStakeholder.SaleStakeholder()
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.SaleStakeholder()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public SaleStakeholder()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.SaleStakeholder.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleStakeholder.ToString
+  commentId: M:SuperOffice.CRM.Services.SaleStakeholder.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SaleStakeholder.ToString()
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.SaleStakeholder.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.SaleStakeholder.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.SaleStakeholder.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: SaleStakeholder.ToString(String)
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.SaleStakeholder.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleStakeholder.StakeholderRoleName
+  commentId: P:SuperOffice.CRM.Services.SaleStakeholder.StakeholderRoleName
+  id: StakeholderRoleName
+  parent: SuperOffice.CRM.Services.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: StakeholderRoleName
+  nameWithType: SaleStakeholder.StakeholderRoleName
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.StakeholderRoleName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStakeholder role name \n"
+  syntax:
+    content: public virtual string StakeholderRoleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property StakeholderRoleName As String
+  overload: SuperOffice.CRM.Services.SaleStakeholder.StakeholderRoleName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleStakeholder.Comment
+  commentId: P:SuperOffice.CRM.Services.SaleStakeholder.Comment
+  id: Comment
+  parent: SuperOffice.CRM.Services.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: SaleStakeholder.Comment
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.Comment
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOptional comment text \n"
+  syntax:
+    content: public virtual string Comment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Comment As String
+  overload: SuperOffice.CRM.Services.SaleStakeholder.Comment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleStakeholder.StakeholderRoleId
+  commentId: P:SuperOffice.CRM.Services.SaleStakeholder.StakeholderRoleId
+  id: StakeholderRoleId
+  parent: SuperOffice.CRM.Services.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: StakeholderRoleId
+  nameWithType: SaleStakeholder.StakeholderRoleId
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.StakeholderRoleId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStakeholde role list id - Primary key \n"
+  syntax:
+    content: public virtual int StakeholderRoleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property StakeholderRoleId As Integer
+  overload: SuperOffice.CRM.Services.SaleStakeholder.StakeholderRoleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleStakeholder.CountryId
+  commentId: P:SuperOffice.CRM.Services.SaleStakeholder.CountryId
+  id: CountryId
+  parent: SuperOffice.CRM.Services.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: CountryId
+  nameWithType: SaleStakeholder.CountryId
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.CountryId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCountry id - primary key \n"
+  syntax:
+    content: public virtual int CountryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CountryId As Integer
+  overload: SuperOffice.CRM.Services.SaleStakeholder.CountryId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleStakeholder.PersonId
+  commentId: P:SuperOffice.CRM.Services.SaleStakeholder.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Services.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: SaleStakeholder.PersonId
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.PersonId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPerson id - Primary key \n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.CRM.Services.SaleStakeholder.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleStakeholder.EmailDescription
+  commentId: P:SuperOffice.CRM.Services.SaleStakeholder.EmailDescription
+  id: EmailDescription
+  parent: SuperOffice.CRM.Services.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: EmailDescription
+  nameWithType: SaleStakeholder.EmailDescription
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.EmailDescription
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nE-mail description \n"
+  syntax:
+    content: public virtual string EmailDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EmailDescription As String
+  overload: SuperOffice.CRM.Services.SaleStakeholder.EmailDescription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleStakeholder.EmailId
+  commentId: P:SuperOffice.CRM.Services.SaleStakeholder.EmailId
+  id: EmailId
+  parent: SuperOffice.CRM.Services.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: EmailId
+  nameWithType: SaleStakeholder.EmailId
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.EmailId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nE-mail address id - Primary key \n"
+  syntax:
+    content: public virtual int EmailId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property EmailId As Integer
+  overload: SuperOffice.CRM.Services.SaleStakeholder.EmailId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleStakeholder.EmailAddress
+  commentId: P:SuperOffice.CRM.Services.SaleStakeholder.EmailAddress
+  id: EmailAddress
+  parent: SuperOffice.CRM.Services.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: SaleStakeholder.EmailAddress
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.EmailAddress
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nE-mail address \n"
+  syntax:
+    content: public virtual string EmailAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EmailAddress As String
+  overload: SuperOffice.CRM.Services.SaleStakeholder.EmailAddress*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleStakeholder.PhoneId
+  commentId: P:SuperOffice.CRM.Services.SaleStakeholder.PhoneId
+  id: PhoneId
+  parent: SuperOffice.CRM.Services.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: PhoneId
+  nameWithType: SaleStakeholder.PhoneId
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.PhoneId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int PhoneId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PhoneId As Integer
+  overload: SuperOffice.CRM.Services.SaleStakeholder.PhoneId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleStakeholder.ContactName
+  commentId: P:SuperOffice.CRM.Services.SaleStakeholder.ContactName
+  id: ContactName
+  parent: SuperOffice.CRM.Services.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: ContactName
+  nameWithType: SaleStakeholder.ContactName
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.ContactName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContact name \n"
+  syntax:
+    content: public virtual string ContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactName As String
+  overload: SuperOffice.CRM.Services.SaleStakeholder.ContactName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleStakeholder.ContactId
+  commentId: P:SuperOffice.CRM.Services.SaleStakeholder.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Services.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: SaleStakeholder.ContactId
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.ContactId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContact ID of person or contact who is the sale stakeholder \n"
+  syntax:
+    content: public virtual int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.CRM.Services.SaleStakeholder.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleStakeholder.SaleId
+  commentId: P:SuperOffice.CRM.Services.SaleStakeholder.SaleId
+  id: SaleId
+  parent: SuperOffice.CRM.Services.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: SaleStakeholder.SaleId
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.SaleId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nParent sale \n"
+  syntax:
+    content: public virtual int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleId As Integer
+  overload: SuperOffice.CRM.Services.SaleStakeholder.SaleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleStakeholder.Mrmrs
+  commentId: P:SuperOffice.CRM.Services.SaleStakeholder.Mrmrs
+  id: Mrmrs
+  parent: SuperOffice.CRM.Services.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: Mrmrs
+  nameWithType: SaleStakeholder.Mrmrs
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.Mrmrs
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\ne.g. Mrs, Mr, Ms, Dr. \n"
+  syntax:
+    content: public virtual string Mrmrs { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Mrmrs As String
+  overload: SuperOffice.CRM.Services.SaleStakeholder.Mrmrs*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleStakeholder.Firstname
+  commentId: P:SuperOffice.CRM.Services.SaleStakeholder.Firstname
+  id: Firstname
+  parent: SuperOffice.CRM.Services.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: Firstname
+  nameWithType: SaleStakeholder.Firstname
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.Firstname
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFirst name \n"
+  syntax:
+    content: public virtual string Firstname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Firstname As String
+  overload: SuperOffice.CRM.Services.SaleStakeholder.Firstname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleStakeholder.MiddleName
+  commentId: P:SuperOffice.CRM.Services.SaleStakeholder.MiddleName
+  id: MiddleName
+  parent: SuperOffice.CRM.Services.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: MiddleName
+  nameWithType: SaleStakeholder.MiddleName
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.MiddleName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMiddle name or &apos;van&apos; etc. \n"
+  syntax:
+    content: public virtual string MiddleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property MiddleName As String
+  overload: SuperOffice.CRM.Services.SaleStakeholder.MiddleName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleStakeholder.Lastname
+  commentId: P:SuperOffice.CRM.Services.SaleStakeholder.Lastname
+  id: Lastname
+  parent: SuperOffice.CRM.Services.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: Lastname
+  nameWithType: SaleStakeholder.Lastname
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.Lastname
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLast name \n"
+  syntax:
+    content: public virtual string Lastname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Lastname As String
+  overload: SuperOffice.CRM.Services.SaleStakeholder.Lastname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleStakeholder.SaleStakeholderId
+  commentId: P:SuperOffice.CRM.Services.SaleStakeholder.SaleStakeholderId
+  id: SaleStakeholderId
+  parent: SuperOffice.CRM.Services.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: SaleStakeholderId
+  nameWithType: SaleStakeholder.SaleStakeholderId
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.SaleStakeholderId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int SaleStakeholderId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleStakeholderId As Integer
+  overload: SuperOffice.CRM.Services.SaleStakeholder.SaleStakeholderId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleStakeholder.Rank
+  commentId: P:SuperOffice.CRM.Services.SaleStakeholder.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Services.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: SaleStakeholder.Rank
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.Rank
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRank in list of stakeholders \n"
+  syntax:
+    content: public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Rank As Short
+  overload: SuperOffice.CRM.Services.SaleStakeholder.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleStakeholder.Phone
+  commentId: P:SuperOffice.CRM.Services.SaleStakeholder.Phone
+  id: Phone
+  parent: SuperOffice.CRM.Services.SaleStakeholder
+  langs:
+  - csharp
+  - vb
+  name: Phone
+  nameWithType: SaleStakeholder.Phone
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.Phone
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPhone number \n"
+  syntax:
+    content: public virtual string Phone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Phone As String
+  overload: SuperOffice.CRM.Services.SaleStakeholder.Phone*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.SaleAgent
+  commentId: T:SuperOffice.CRM.Services.SaleAgent
+  isExternal: true
+  name: SaleAgent
+  nameWithType: SaleAgent
+  fullName: SuperOffice.CRM.Services.SaleAgent
+- uid: SuperOffice.CRM.Services.ISaleAgent
+  commentId: T:SuperOffice.CRM.Services.ISaleAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ISaleAgent
+  nameWithType: ISaleAgent
+  fullName: SuperOffice.CRM.Services.ISaleAgent
+- uid: SuperOffice.CRM.Services.ArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.CRM.Services.ArchiveAgent
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  isExternal: true
+  name: GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
+  nameWithType: IArchiveAgent.GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    name: GetArchiveListByColumns2
+    nameWithType: IArchiveAgent.GetArchiveListByColumns2
+    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    name: GetArchiveListByColumns2
+    nameWithType: IArchiveAgent.GetArchiveListByColumns2
+    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.IArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.IArchiveAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IArchiveAgent
+  nameWithType: IArchiveAgent
+  fullName: SuperOffice.CRM.Services.IArchiveAgent
+- uid: SuperOffice.CRM.Services.SaleStakeholder.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.SaleStakeholder.#ctor
+  isExternal: true
+  name: SaleStakeholder
+  nameWithType: SaleStakeholder.SaleStakeholder
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.SaleStakeholder
+- uid: SuperOffice.CRM.Services.SaleStakeholder.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.SaleStakeholder.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: SaleStakeholder.ToString
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.SaleStakeholder.StakeholderRoleName*
+  commentId: Overload:SuperOffice.CRM.Services.SaleStakeholder.StakeholderRoleName
+  isExternal: true
+  name: StakeholderRoleName
+  nameWithType: SaleStakeholder.StakeholderRoleName
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.StakeholderRoleName
+- uid: SuperOffice.CRM.Services.SaleStakeholder.Comment*
+  commentId: Overload:SuperOffice.CRM.Services.SaleStakeholder.Comment
+  isExternal: true
+  name: Comment
+  nameWithType: SaleStakeholder.Comment
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.Comment
+- uid: SuperOffice.CRM.Services.SaleStakeholder.StakeholderRoleId*
+  commentId: Overload:SuperOffice.CRM.Services.SaleStakeholder.StakeholderRoleId
+  isExternal: true
+  name: StakeholderRoleId
+  nameWithType: SaleStakeholder.StakeholderRoleId
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.StakeholderRoleId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.SaleStakeholder.CountryId*
+  commentId: Overload:SuperOffice.CRM.Services.SaleStakeholder.CountryId
+  isExternal: true
+  name: CountryId
+  nameWithType: SaleStakeholder.CountryId
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.CountryId
+- uid: SuperOffice.CRM.Services.SaleStakeholder.PersonId*
+  commentId: Overload:SuperOffice.CRM.Services.SaleStakeholder.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: SaleStakeholder.PersonId
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.PersonId
+- uid: SuperOffice.CRM.Services.SaleStakeholder.EmailDescription*
+  commentId: Overload:SuperOffice.CRM.Services.SaleStakeholder.EmailDescription
+  isExternal: true
+  name: EmailDescription
+  nameWithType: SaleStakeholder.EmailDescription
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.EmailDescription
+- uid: SuperOffice.CRM.Services.SaleStakeholder.EmailId*
+  commentId: Overload:SuperOffice.CRM.Services.SaleStakeholder.EmailId
+  isExternal: true
+  name: EmailId
+  nameWithType: SaleStakeholder.EmailId
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.EmailId
+- uid: SuperOffice.CRM.Services.SaleStakeholder.EmailAddress*
+  commentId: Overload:SuperOffice.CRM.Services.SaleStakeholder.EmailAddress
+  isExternal: true
+  name: EmailAddress
+  nameWithType: SaleStakeholder.EmailAddress
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.EmailAddress
+- uid: SuperOffice.CRM.Services.SaleStakeholder.PhoneId*
+  commentId: Overload:SuperOffice.CRM.Services.SaleStakeholder.PhoneId
+  isExternal: true
+  name: PhoneId
+  nameWithType: SaleStakeholder.PhoneId
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.PhoneId
+- uid: SuperOffice.CRM.Services.SaleStakeholder.ContactName*
+  commentId: Overload:SuperOffice.CRM.Services.SaleStakeholder.ContactName
+  isExternal: true
+  name: ContactName
+  nameWithType: SaleStakeholder.ContactName
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.ContactName
+- uid: SuperOffice.CRM.Services.SaleStakeholder.ContactId*
+  commentId: Overload:SuperOffice.CRM.Services.SaleStakeholder.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: SaleStakeholder.ContactId
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.ContactId
+- uid: SuperOffice.CRM.Services.SaleStakeholder.SaleId*
+  commentId: Overload:SuperOffice.CRM.Services.SaleStakeholder.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: SaleStakeholder.SaleId
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.SaleId
+- uid: SuperOffice.CRM.Services.SaleStakeholder.Mrmrs*
+  commentId: Overload:SuperOffice.CRM.Services.SaleStakeholder.Mrmrs
+  isExternal: true
+  name: Mrmrs
+  nameWithType: SaleStakeholder.Mrmrs
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.Mrmrs
+- uid: SuperOffice.CRM.Services.SaleStakeholder.Firstname*
+  commentId: Overload:SuperOffice.CRM.Services.SaleStakeholder.Firstname
+  isExternal: true
+  name: Firstname
+  nameWithType: SaleStakeholder.Firstname
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.Firstname
+- uid: SuperOffice.CRM.Services.SaleStakeholder.MiddleName*
+  commentId: Overload:SuperOffice.CRM.Services.SaleStakeholder.MiddleName
+  isExternal: true
+  name: MiddleName
+  nameWithType: SaleStakeholder.MiddleName
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.MiddleName
+- uid: SuperOffice.CRM.Services.SaleStakeholder.Lastname*
+  commentId: Overload:SuperOffice.CRM.Services.SaleStakeholder.Lastname
+  isExternal: true
+  name: Lastname
+  nameWithType: SaleStakeholder.Lastname
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.Lastname
+- uid: SuperOffice.CRM.Services.SaleStakeholder.SaleStakeholderId*
+  commentId: Overload:SuperOffice.CRM.Services.SaleStakeholder.SaleStakeholderId
+  isExternal: true
+  name: SaleStakeholderId
+  nameWithType: SaleStakeholder.SaleStakeholderId
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.SaleStakeholderId
+- uid: SuperOffice.CRM.Services.SaleStakeholder.Rank*
+  commentId: Overload:SuperOffice.CRM.Services.SaleStakeholder.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: SaleStakeholder.Rank
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.Rank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Services.SaleStakeholder.Phone*
+  commentId: Overload:SuperOffice.CRM.Services.SaleStakeholder.Phone
+  isExternal: true
+  name: Phone
+  nameWithType: SaleStakeholder.Phone
+  fullName: SuperOffice.CRM.Services.SaleStakeholder.Phone

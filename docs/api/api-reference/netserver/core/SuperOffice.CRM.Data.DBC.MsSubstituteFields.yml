@@ -1,0 +1,527 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.MsSubstituteFields
+  commentId: T:SuperOffice.CRM.Data.DBC.MsSubstituteFields
+  id: DBC.MsSubstituteFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.MsSubstituteFields.Flags
+  - SuperOffice.CRM.Data.DBC.MsSubstituteFields.MsFilterId
+  - SuperOffice.CRM.Data.DBC.MsSubstituteFields.MsSubstituteId
+  - SuperOffice.CRM.Data.DBC.MsSubstituteFields.ParserName
+  - SuperOffice.CRM.Data.DBC.MsSubstituteFields.SubstType
+  - SuperOffice.CRM.Data.DBC.MsSubstituteFields.TheRegexp
+  langs:
+  - csharp
+  - vb
+  name: DBC.MsSubstituteFields
+  nameWithType: DBC.MsSubstituteFields
+  fullName: SuperOffice.CRM.Data.DBC.MsSubstituteFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for MsSubstitute, Regexp for extracting info from emails when they enter they system\n"
+  syntax:
+    content: public static class MsSubstituteFields
+    content.vb: Public Module MsSubstituteFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.MsSubstituteFields.MsSubstituteId
+  commentId: F:SuperOffice.CRM.Data.DBC.MsSubstituteFields.MsSubstituteId
+  id: MsSubstituteId
+  parent: SuperOffice.CRM.Data.DBC.MsSubstituteFields
+  langs:
+  - csharp
+  - vb
+  name: MsSubstituteId
+  nameWithType: DBC.MsSubstituteFields.MsSubstituteId
+  fullName: SuperOffice.CRM.Data.DBC.MsSubstituteFields.MsSubstituteId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsSubstitute.MsSubstituteId: The primary key (auto-incremented)\n"
+  syntax:
+    content: public const string MsSubstituteId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const MsSubstituteId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MsSubstituteFields.MsFilterId
+  commentId: F:SuperOffice.CRM.Data.DBC.MsSubstituteFields.MsFilterId
+  id: MsFilterId
+  parent: SuperOffice.CRM.Data.DBC.MsSubstituteFields
+  langs:
+  - csharp
+  - vb
+  name: MsFilterId
+  nameWithType: DBC.MsSubstituteFields.MsFilterId
+  fullName: SuperOffice.CRM.Data.DBC.MsSubstituteFields.MsFilterId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsSubstitute.MsFilterId: \n"
+  syntax:
+    content: public const string MsFilterId = "ms_filter_id"
+    return:
+      type: System.String
+    content.vb: Public Const MsFilterId As String = "ms_filter_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MsSubstituteFields.ParserName
+  commentId: F:SuperOffice.CRM.Data.DBC.MsSubstituteFields.ParserName
+  id: ParserName
+  parent: SuperOffice.CRM.Data.DBC.MsSubstituteFields
+  langs:
+  - csharp
+  - vb
+  name: ParserName
+  nameWithType: DBC.MsSubstituteFields.ParserName
+  fullName: SuperOffice.CRM.Data.DBC.MsSubstituteFields.ParserName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsSubstitute.ParserName: The name of the variable as used in the parser.\n"
+  syntax:
+    content: public const string ParserName = "parser_name"
+    return:
+      type: System.String
+    content.vb: Public Const ParserName As String = "parser_name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MsSubstituteFields.TheRegexp
+  commentId: F:SuperOffice.CRM.Data.DBC.MsSubstituteFields.TheRegexp
+  id: TheRegexp
+  parent: SuperOffice.CRM.Data.DBC.MsSubstituteFields
+  langs:
+  - csharp
+  - vb
+  name: TheRegexp
+  nameWithType: DBC.MsSubstituteFields.TheRegexp
+  fullName: SuperOffice.CRM.Data.DBC.MsSubstituteFields.TheRegexp
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsSubstitute.TheRegexp: The regular expression searched for.\n"
+  syntax:
+    content: public const string TheRegexp = "the_regexp"
+    return:
+      type: System.String
+    content.vb: Public Const TheRegexp As String = "the_regexp"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MsSubstituteFields.SubstType
+  commentId: F:SuperOffice.CRM.Data.DBC.MsSubstituteFields.SubstType
+  id: SubstType
+  parent: SuperOffice.CRM.Data.DBC.MsSubstituteFields
+  langs:
+  - csharp
+  - vb
+  name: SubstType
+  nameWithType: DBC.MsSubstituteFields.SubstType
+  fullName: SuperOffice.CRM.Data.DBC.MsSubstituteFields.SubstType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsSubstitute.SubstType: Enum indicating the target domain for this regexp (customer connection, parser, etc).\n"
+  syntax:
+    content: public const string SubstType = "subst_type"
+    return:
+      type: System.String
+    content.vb: Public Const SubstType As String = "subst_type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MsSubstituteFields.Flags
+  commentId: F:SuperOffice.CRM.Data.DBC.MsSubstituteFields.Flags
+  id: Flags
+  parent: SuperOffice.CRM.Data.DBC.MsSubstituteFields
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: DBC.MsSubstituteFields.Flags
+  fullName: SuperOffice.CRM.Data.DBC.MsSubstituteFields.Flags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMsSubstitute.Flags: Bitmap for flags for this entry.\n"
+  syntax:
+    content: public const string Flags = "flags"
+    return:
+      type: System.String
+    content.vb: Public Const Flags As String = "flags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

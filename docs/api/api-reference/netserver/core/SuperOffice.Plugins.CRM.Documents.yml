@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Plugins.CRM.Documents
+  commentId: N:SuperOffice.Plugins.CRM.Documents
+  id: SuperOffice.Plugins.CRM.Documents
+  children:
+  - SuperOffice.Plugins.CRM.Documents.IAssociateRename
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Plugins.CRM.Documents
+  nameWithType: SuperOffice.Plugins.CRM.Documents
+  fullName: SuperOffice.Plugins.CRM.Documents
+  type: Namespace
+  assemblies:
+  - SuperOffice.Plugins
+references:
+- uid: SuperOffice.Plugins.CRM.Documents.IAssociateRename
+  commentId: T:SuperOffice.Plugins.CRM.Documents.IAssociateRename
+  parent: SuperOffice.Plugins.CRM.Documents
+  isExternal: true
+  name: IAssociateRename
+  nameWithType: IAssociateRename
+  fullName: SuperOffice.Plugins.CRM.Documents.IAssociateRename
+- uid: SuperOffice.Plugins.CRM.Documents
+  commentId: N:SuperOffice.Plugins.CRM.Documents
+  isExternal: true
+  name: SuperOffice.Plugins.CRM.Documents
+  nameWithType: SuperOffice.Plugins.CRM.Documents
+  fullName: SuperOffice.Plugins.CRM.Documents

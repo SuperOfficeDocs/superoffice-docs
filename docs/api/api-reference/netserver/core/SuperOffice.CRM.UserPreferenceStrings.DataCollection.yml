@@ -1,0 +1,736 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.UserPreferenceStrings.DataCollection
+  commentId: T:SuperOffice.CRM.UserPreferenceStrings.DataCollection
+  id: UserPreferenceStrings.DataCollection
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.UserPreferenceStrings.DataCollection.CollectionUrl
+  - SuperOffice.CRM.UserPreferenceStrings.DataCollection.Configured
+  - SuperOffice.CRM.UserPreferenceStrings.DataCollection.ConfiguredStatistics
+  - SuperOffice.CRM.UserPreferenceStrings.DataCollection.ConfiguredUserSync
+  - SuperOffice.CRM.UserPreferenceStrings.DataCollection.DataAdd
+  - SuperOffice.CRM.UserPreferenceStrings.DataCollection.DataAddTables
+  - SuperOffice.CRM.UserPreferenceStrings.DataCollection.Running
+  - SuperOffice.CRM.UserPreferenceStrings.DataCollection.Section
+  - SuperOffice.CRM.UserPreferenceStrings.DataCollection.Statistics
+  - SuperOffice.CRM.UserPreferenceStrings.DataCollection.TableSize
+  - SuperOffice.CRM.UserPreferenceStrings.DataCollection.UsageStats
+  - SuperOffice.CRM.UserPreferenceStrings.DataCollection.UserSync
+  - SuperOffice.CRM.UserPreferenceStrings.DataCollection.WebAppUsage
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.DataCollection
+  nameWithType: UserPreferenceStrings.DataCollection
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nData collection (usage statistics) - used for status storage and locking, not intended for user interaction\n"
+  syntax:
+    content: public static class DataCollection
+    content.vb: Public Module DataCollection
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.UserPreferenceStrings.DataCollection.Section
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DataCollection.Section
+  id: Section
+  parent: SuperOffice.CRM.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.DataCollection.Section
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.Section
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public const string Section = "DataCollection"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "DataCollection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.DataCollection.UsageStats
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DataCollection.UsageStats
+  id: UsageStats
+  parent: SuperOffice.CRM.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: UsageStats
+  nameWithType: UserPreferenceStrings.DataCollection.UsageStats
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.UsageStats
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nWindows client usage statistics\n"
+  syntax:
+    content: public const string UsageStats = "UsageStats"
+    return:
+      type: System.String
+    content.vb: Public Const UsageStats As String = "UsageStats"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.DataCollection.WebAppUsage
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DataCollection.WebAppUsage
+  id: WebAppUsage
+  parent: SuperOffice.CRM.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: WebAppUsage
+  nameWithType: UserPreferenceStrings.DataCollection.WebAppUsage
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.WebAppUsage
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSMweb, CS, Pocket usage statistics\n"
+  syntax:
+    content: public const string WebAppUsage = "WebAppUsage"
+    return:
+      type: System.String
+    content.vb: Public Const WebAppUsage As String = "WebAppUsage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.DataCollection.DataAdd
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DataCollection.DataAdd
+  id: DataAdd
+  parent: SuperOffice.CRM.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: DataAdd
+  nameWithType: UserPreferenceStrings.DataCollection.DataAdd
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.DataAdd
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nData additions for specific tables\n"
+  syntax:
+    content: public const string DataAdd = "DataAdd"
+    return:
+      type: System.String
+    content.vb: Public Const DataAdd As String = "DataAdd"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.DataCollection.DataAddTables
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DataCollection.DataAddTables
+  id: DataAddTables
+  parent: SuperOffice.CRM.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: DataAddTables
+  nameWithType: UserPreferenceStrings.DataCollection.DataAddTables
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.DataAddTables
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nData additions for specific tables: semicolon-separated list of table names; initialized from code but updated from server\n"
+  syntax:
+    content: public const string DataAddTables = "DataAddTables"
+    return:
+      type: System.String
+    content.vb: Public Const DataAddTables As String = "DataAddTables"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.DataCollection.TableSize
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DataCollection.TableSize
+  id: TableSize
+  parent: SuperOffice.CRM.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: TableSize
+  nameWithType: UserPreferenceStrings.DataCollection.TableSize
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.TableSize
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nTotal table sizes\n"
+  syntax:
+    content: public const string TableSize = "TableSize"
+    return:
+      type: System.String
+    content.vb: Public Const TableSize As String = "TableSize"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.DataCollection.Configured
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DataCollection.Configured
+  id: Configured
+  parent: SuperOffice.CRM.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: Configured
+  nameWithType: UserPreferenceStrings.DataCollection.Configured
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.Configured
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nPrefix for opt-in preferences, &apos;configured&apos; by user\n"
+  syntax:
+    content: public const string Configured = "Configured"
+    return:
+      type: System.String
+    content.vb: Public Const Configured As String = "Configured"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.DataCollection.Running
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DataCollection.Running
+  id: Running
+  parent: SuperOffice.CRM.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: Running
+  nameWithType: UserPreferenceStrings.DataCollection.Running
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.Running
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nPrefix for opt-in preferences, &apos;configured&apos; by user\n"
+  syntax:
+    content: public const string Running = "Running"
+    return:
+      type: System.String
+    content.vb: Public Const Running As String = "Running"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.DataCollection.Statistics
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DataCollection.Statistics
+  id: Statistics
+  parent: SuperOffice.CRM.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: Statistics
+  nameWithType: UserPreferenceStrings.DataCollection.Statistics
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.Statistics
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nOpt-in preference for Statistics\n"
+  syntax:
+    content: public const string Statistics = "Statistics"
+    return:
+      type: System.String
+    content.vb: Public Const Statistics As String = "Statistics"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.DataCollection.UserSync
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DataCollection.UserSync
+  id: UserSync
+  parent: SuperOffice.CRM.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: UserSync
+  nameWithType: UserPreferenceStrings.DataCollection.UserSync
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.UserSync
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nOpt-in preference for UserSync\n"
+  syntax:
+    content: public const string UserSync = "UserSync"
+    return:
+      type: System.String
+    content.vb: Public Const UserSync As String = "UserSync"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.DataCollection.CollectionUrl
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DataCollection.CollectionUrl
+  id: CollectionUrl
+  parent: SuperOffice.CRM.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: CollectionUrl
+  nameWithType: UserPreferenceStrings.DataCollection.CollectionUrl
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.CollectionUrl
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nOpt-in preference for UserSync\n"
+  syntax:
+    content: public const string CollectionUrl = "CollectionUrl"
+    return:
+      type: System.String
+    content.vb: Public Const CollectionUrl As String = "CollectionUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.DataCollection.ConfiguredUserSync
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DataCollection.ConfiguredUserSync
+  id: ConfiguredUserSync
+  parent: SuperOffice.CRM.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: ConfiguredUserSync
+  nameWithType: UserPreferenceStrings.DataCollection.ConfiguredUserSync
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.ConfiguredUserSync
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nOpt-in preference for Configured UserSync\n"
+  syntax:
+    content: public const string ConfiguredUserSync = "ConfiguredUserSync"
+    return:
+      type: System.String
+    content.vb: Public Const ConfiguredUserSync As String = "ConfiguredUserSync"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.DataCollection.ConfiguredStatistics
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DataCollection.ConfiguredStatistics
+  id: ConfiguredStatistics
+  parent: SuperOffice.CRM.UserPreferenceStrings.DataCollection
+  langs:
+  - csharp
+  - vb
+  name: ConfiguredStatistics
+  nameWithType: UserPreferenceStrings.DataCollection.ConfiguredStatistics
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DataCollection.ConfiguredStatistics
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nOpt-in preference for Configured Statistics\n"
+  syntax:
+    content: public const string ConfiguredStatistics = "ConfiguredStatistics"
+    return:
+      type: System.String
+    content.vb: Public Const ConfiguredStatistics As String = "ConfiguredStatistics"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Project
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.Project
+  id: UserPreferenceStrings.Project
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Project.Section
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Project.SkipCompletedProjects
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.Project
+  nameWithType: UserPreferenceStrings.Project
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Project
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nProject preferences\n"
+  syntax:
+    content: 'public static class Project : Object'
+    content.vb: >-
+      Public Module Project
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Project.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Project.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Project
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.Project.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Project.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "Project"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "Project"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Project.SkipCompletedProjects
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Project.SkipCompletedProjects
+  id: SkipCompletedProjects
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Project
+  langs:
+  - csharp
+  - vb
+  name: SkipCompletedProjects
+  nameWithType: UserPreferenceStrings.Project.SkipCompletedProjects
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Project.SkipCompletedProjects
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould navigator search and steppers skip completed projects\n"
+  syntax:
+    content: public const string SkipCompletedProjects = "SkipCompletedProjects"
+    return:
+      type: System.String
+    content.vb: Public Const SkipCompletedProjects As String = "SkipCompletedProjects"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

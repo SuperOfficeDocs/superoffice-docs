@@ -1,0 +1,1016 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync.SearchRestrictionInfoWS
+  commentId: T:SuperOffice.ErpSync.SearchRestrictionInfoWS
+  id: SearchRestrictionInfoWS
+  parent: SuperOffice.ErpSync
+  children:
+  - SuperOffice.ErpSync.SearchRestrictionInfoWS.#ctor
+  - SuperOffice.ErpSync.SearchRestrictionInfoWS.FieldKey
+  - SuperOffice.ErpSync.SearchRestrictionInfoWS.Operator
+  - SuperOffice.ErpSync.SearchRestrictionInfoWS.ScalarValue
+  - SuperOffice.ErpSync.SearchRestrictionInfoWS.ToString
+  - SuperOffice.ErpSync.SearchRestrictionInfoWS.Values
+  langs:
+  - csharp
+  - vb
+  name: SearchRestrictionInfoWS
+  nameWithType: SearchRestrictionInfoWS
+  fullName: SuperOffice.ErpSync.SearchRestrictionInfoWS
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nCarrier object representing search restriction, used for advanced search\n"
+  syntax:
+    content: public class SearchRestrictionInfoWS
+    content.vb: Public Class SearchRestrictionInfoWS
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.ErpSync.SearchRestrictionInfoWS.EnumUtil.MapEnums``2
+  - SuperOffice.ErpSync.SearchRestrictionInfoWS.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ErpSync.SearchRestrictionInfoWS)
+  - SuperOffice.ErpSync.SearchRestrictionInfoWS.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.ErpSync.SearchRestrictionInfoWS.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.ErpSync.SearchRestrictionInfoWS.SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.ErpSync.SearchRestrictionInfoWS.ToString
+  commentId: M:SuperOffice.ErpSync.SearchRestrictionInfoWS.ToString
+  id: ToString
+  parent: SuperOffice.ErpSync.SearchRestrictionInfoWS
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SearchRestrictionInfoWS.ToString()
+  fullName: SuperOffice.ErpSync.SearchRestrictionInfoWS.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nToString override. Returns a formatted representation of a SearchRestrictionInfo\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.ErpSync.SearchRestrictionInfoWS.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.ErpSync.SearchRestrictionInfoWS.#ctor
+  commentId: M:SuperOffice.ErpSync.SearchRestrictionInfoWS.#ctor
+  id: '#ctor'
+  parent: SuperOffice.ErpSync.SearchRestrictionInfoWS
+  langs:
+  - csharp
+  - vb
+  name: SearchRestrictionInfoWS()
+  nameWithType: SearchRestrictionInfoWS.SearchRestrictionInfoWS()
+  fullName: SuperOffice.ErpSync.SearchRestrictionInfoWS.SearchRestrictionInfoWS()
+  type: Constructor
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public SearchRestrictionInfoWS()
+    content.vb: Public Sub New
+  overload: SuperOffice.ErpSync.SearchRestrictionInfoWS.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.ErpSync.SearchRestrictionInfoWS.FieldKey
+  commentId: P:SuperOffice.ErpSync.SearchRestrictionInfoWS.FieldKey
+  id: FieldKey
+  parent: SuperOffice.ErpSync.SearchRestrictionInfoWS
+  langs:
+  - csharp
+  - vb
+  name: FieldKey
+  nameWithType: SearchRestrictionInfoWS.FieldKey
+  fullName: SuperOffice.ErpSync.SearchRestrictionInfoWS.FieldKey
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nField key, corresponding to a previously-returned FieldKey in a <xref href=\"SuperOffice.CRM.FieldMetadataInfo\" data-throw-if-not-resolved=\"false\"></xref> structure;\nuniquely identifies the field to search for\n"
+  syntax:
+    content: public string FieldKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FieldKey As String
+  overload: SuperOffice.ErpSync.SearchRestrictionInfoWS.FieldKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.ErpSync.SearchRestrictionInfoWS.Operator
+  commentId: P:SuperOffice.ErpSync.SearchRestrictionInfoWS.Operator
+  id: Operator
+  parent: SuperOffice.ErpSync.SearchRestrictionInfoWS
+  langs:
+  - csharp
+  - vb
+  name: Operator
+  nameWithType: SearchRestrictionInfoWS.Operator
+  fullName: SuperOffice.ErpSync.SearchRestrictionInfoWS.Operator
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nOperator to be applied in this search. Operators are: =, !=, >, &lt; between and IN for all data types; \nin addition, strings should support begins and contains with % as the wildcard placeholder\n"
+  syntax:
+    content: public string Operator { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Operator As String
+  overload: SuperOffice.ErpSync.SearchRestrictionInfoWS.Operator*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.ErpSync.SearchRestrictionInfoWS.Values
+  commentId: P:SuperOffice.ErpSync.SearchRestrictionInfoWS.Values
+  id: Values
+  parent: SuperOffice.ErpSync.SearchRestrictionInfoWS
+  langs:
+  - csharp
+  - vb
+  name: Values
+  nameWithType: SearchRestrictionInfoWS.Values
+  fullName: SuperOffice.ErpSync.SearchRestrictionInfoWS.Values
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nArray of values to apply in search. Most operators take just one value, and the <xref href=\"SuperOffice.ErpSync.SearchRestrictionInfoWS.ScalarValue\" data-throw-if-not-resolved=\"false\"></xref> derived\nproperty can be used to get/set the value\n"
+  syntax:
+    content: public string[] Values { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property Values As String()
+  overload: SuperOffice.ErpSync.SearchRestrictionInfoWS.Values*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.ErpSync.SearchRestrictionInfoWS.ScalarValue
+  commentId: P:SuperOffice.ErpSync.SearchRestrictionInfoWS.ScalarValue
+  id: ScalarValue
+  parent: SuperOffice.ErpSync.SearchRestrictionInfoWS
+  langs:
+  - csharp
+  - vb
+  name: ScalarValue
+  nameWithType: SearchRestrictionInfoWS.ScalarValue
+  fullName: SuperOffice.ErpSync.SearchRestrictionInfoWS.ScalarValue
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nSimplified get/set property for the one-and-only element of the <xref href=\"SuperOffice.ErpSync.SearchRestrictionInfoWS.Values\" data-throw-if-not-resolved=\"false\"></xref> array, for operators\nthat take only one value.\n"
+  syntax:
+    content: public string ScalarValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ScalarValue As String
+  overload: SuperOffice.ErpSync.SearchRestrictionInfoWS.ScalarValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.ErpSync
+  commentId: N:SuperOffice.ErpSync
+  isExternal: true
+  name: SuperOffice.ErpSync
+  nameWithType: SuperOffice.ErpSync
+  fullName: SuperOffice.ErpSync
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.SearchRestrictionInfoWS.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SearchRestrictionInfoWS, To>()
+  nameWithType: EnumUtil.MapEnums<SearchRestrictionInfoWS, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.SearchRestrictionInfoWS, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SearchRestrictionInfoWS, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.ErpSync.SearchRestrictionInfoWS, To)()
+  name.vb: MapEnums(Of SearchRestrictionInfoWS, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SearchRestrictionInfoWS, To>
+    nameWithType: EnumUtil.MapEnums<SearchRestrictionInfoWS, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.SearchRestrictionInfoWS, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SearchRestrictionInfoWS, To)
+    nameWithType: EnumUtil.MapEnums(Of SearchRestrictionInfoWS, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.ErpSync.SearchRestrictionInfoWS, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.SearchRestrictionInfoWS.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ErpSync.SearchRestrictionInfoWS)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SearchRestrictionInfoWS>(SearchRestrictionInfoWS)
+  nameWithType: ObjectExtensions.AssignByReflection<SearchRestrictionInfoWS>(SearchRestrictionInfoWS)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.ErpSync.SearchRestrictionInfoWS>(SuperOffice.ErpSync.SearchRestrictionInfoWS)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SearchRestrictionInfoWS)(SearchRestrictionInfoWS)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.ErpSync.SearchRestrictionInfoWS)(SuperOffice.ErpSync.SearchRestrictionInfoWS)
+  name.vb: AssignByReflection(Of SearchRestrictionInfoWS)(SearchRestrictionInfoWS)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SearchRestrictionInfoWS>
+    nameWithType: ObjectExtensions.AssignByReflection<SearchRestrictionInfoWS>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.ErpSync.SearchRestrictionInfoWS>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.ErpSync.SearchRestrictionInfoWS
+    name: SearchRestrictionInfoWS
+    nameWithType: SearchRestrictionInfoWS
+    fullName: SuperOffice.ErpSync.SearchRestrictionInfoWS
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SearchRestrictionInfoWS)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SearchRestrictionInfoWS)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.ErpSync.SearchRestrictionInfoWS)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.ErpSync.SearchRestrictionInfoWS
+    name: SearchRestrictionInfoWS
+    nameWithType: SearchRestrictionInfoWS
+    fullName: SuperOffice.ErpSync.SearchRestrictionInfoWS
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.SearchRestrictionInfoWS.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SearchRestrictionInfoWS>()
+  nameWithType: ObjectExtensions.GraphCopy<SearchRestrictionInfoWS>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.ErpSync.SearchRestrictionInfoWS>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SearchRestrictionInfoWS)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.ErpSync.SearchRestrictionInfoWS)()
+  name.vb: GraphCopy(Of SearchRestrictionInfoWS)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SearchRestrictionInfoWS>
+    nameWithType: ObjectExtensions.GraphCopy<SearchRestrictionInfoWS>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.ErpSync.SearchRestrictionInfoWS>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SearchRestrictionInfoWS)
+    nameWithType: ObjectExtensions.GraphCopy(Of SearchRestrictionInfoWS)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.ErpSync.SearchRestrictionInfoWS)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.SearchRestrictionInfoWS.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SearchRestrictionInfoWS, To>()
+  nameWithType: Converters.MapEnums<SearchRestrictionInfoWS, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.SearchRestrictionInfoWS, To>()
+  nameWithType.vb: Converters.MapEnums(Of SearchRestrictionInfoWS, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.SearchRestrictionInfoWS, To)()
+  name.vb: MapEnums(Of SearchRestrictionInfoWS, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SearchRestrictionInfoWS, To>
+    nameWithType: Converters.MapEnums<SearchRestrictionInfoWS, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.SearchRestrictionInfoWS, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SearchRestrictionInfoWS, To)
+    nameWithType: Converters.MapEnums(Of SearchRestrictionInfoWS, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.SearchRestrictionInfoWS, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.SearchRestrictionInfoWS.SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.SearchRestrictionInfoWS)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.SearchRestrictionInfoWS)
+  name: ToPlugin()
+  nameWithType: Converters.ToPlugin()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
+    name: ToPlugin
+    nameWithType: Converters.ToPlugin
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
+    name: ToPlugin
+    nameWithType: Converters.ToPlugin
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.SearchRestrictionInfoWS)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.SearchRestrictionInfoWS)
+  isExternal: true
+  name: ToPlugin(SearchRestrictionInfoWS)
+  nameWithType: Converters.ToPlugin(SearchRestrictionInfoWS)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.SearchRestrictionInfoWS)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.SearchRestrictionInfoWS)
+    name: ToPlugin
+    nameWithType: Converters.ToPlugin
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.ErpSync.SearchRestrictionInfoWS
+    name: SearchRestrictionInfoWS
+    nameWithType: SearchRestrictionInfoWS
+    fullName: SuperOffice.ErpSync.SearchRestrictionInfoWS
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.SearchRestrictionInfoWS)
+    name: ToPlugin
+    nameWithType: Converters.ToPlugin
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.ErpSync.SearchRestrictionInfoWS
+    name: SearchRestrictionInfoWS
+    nameWithType: SearchRestrictionInfoWS
+    fullName: SuperOffice.ErpSync.SearchRestrictionInfoWS
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.SearchRestrictionInfoWS.ToString*
+  commentId: Overload:SuperOffice.ErpSync.SearchRestrictionInfoWS.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: SearchRestrictionInfoWS.ToString
+  fullName: SuperOffice.ErpSync.SearchRestrictionInfoWS.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.ErpSync.SearchRestrictionInfoWS.#ctor*
+  commentId: Overload:SuperOffice.ErpSync.SearchRestrictionInfoWS.#ctor
+  isExternal: true
+  name: SearchRestrictionInfoWS
+  nameWithType: SearchRestrictionInfoWS.SearchRestrictionInfoWS
+  fullName: SuperOffice.ErpSync.SearchRestrictionInfoWS.SearchRestrictionInfoWS
+- uid: SuperOffice.ErpSync.SearchRestrictionInfoWS.FieldKey*
+  commentId: Overload:SuperOffice.ErpSync.SearchRestrictionInfoWS.FieldKey
+  isExternal: true
+  name: FieldKey
+  nameWithType: SearchRestrictionInfoWS.FieldKey
+  fullName: SuperOffice.ErpSync.SearchRestrictionInfoWS.FieldKey
+- uid: SuperOffice.ErpSync.SearchRestrictionInfoWS.Operator*
+  commentId: Overload:SuperOffice.ErpSync.SearchRestrictionInfoWS.Operator
+  isExternal: true
+  name: Operator
+  nameWithType: SearchRestrictionInfoWS.Operator
+  fullName: SuperOffice.ErpSync.SearchRestrictionInfoWS.Operator
+- uid: SuperOffice.ErpSync.SearchRestrictionInfoWS.Values*
+  commentId: Overload:SuperOffice.ErpSync.SearchRestrictionInfoWS.Values
+  isExternal: true
+  name: Values
+  nameWithType: SearchRestrictionInfoWS.Values
+  fullName: SuperOffice.ErpSync.SearchRestrictionInfoWS.Values
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.ErpSync.SearchRestrictionInfoWS.ScalarValue*
+  commentId: Overload:SuperOffice.ErpSync.SearchRestrictionInfoWS.ScalarValue
+  isExternal: true
+  name: ScalarValue
+  nameWithType: SearchRestrictionInfoWS.ScalarValue
+  fullName: SuperOffice.ErpSync.SearchRestrictionInfoWS.ScalarValue

@@ -1,0 +1,288 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.License
+  commentId: N:SuperOffice.License
+  id: SuperOffice.License
+  children:
+  - SuperOffice.License.AssociateModuleLicenseLink
+  - SuperOffice.License.AssociateModuleLicenseOwner
+  - SuperOffice.License.BuildInfoAttribute
+  - SuperOffice.License.ExtendedLicenseInfo
+  - SuperOffice.License.ExtendedLicenseInfoWithAssignments
+  - SuperOffice.License.ExtendedModuleLicense
+  - SuperOffice.License.LicenseAssocLinkCache
+  - SuperOffice.License.LicenseCache
+  - SuperOffice.License.LicenseInfoHelper
+  - SuperOffice.License.LicenseManager
+  - SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
+  - SuperOffice.License.LicenseService
+  - SuperOffice.License.ModuleLicenseLinkBase`1
+  - SuperOffice.License.ModuleLicenseOwnerBase`2
+  - SuperOffice.License.Product
+  - SuperOffice.License.ProductAttribute
+  - SuperOffice.License.ProductLicense
+  - SuperOffice.License.SatelliteModuleLicenseLink
+  - SuperOffice.License.SatelliteModuleLicenseOwner
+  - SuperOffice.License.SerialNr
+  - SuperOffice.License.SignatureCreator
+  - SuperOffice.License.SignatureValidator
+  - SuperOffice.License.SoLicenseNames
+  - SuperOffice.License.SoModuleLicenseNames
+  - SuperOffice.License.UserTypeHelper
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.License
+  nameWithType: SuperOffice.License
+  fullName: SuperOffice.License
+  type: Namespace
+  assemblies:
+  - SOCore
+references:
+- uid: SuperOffice.License.ProductAttribute
+  commentId: T:SuperOffice.License.ProductAttribute
+  isExternal: true
+  name: ProductAttribute
+  nameWithType: ProductAttribute
+  fullName: SuperOffice.License.ProductAttribute
+- uid: SuperOffice.License.Product
+  commentId: T:SuperOffice.License.Product
+  parent: SuperOffice.License
+  isExternal: true
+  name: Product
+  nameWithType: Product
+  fullName: SuperOffice.License.Product
+- uid: SuperOffice.License.UserTypeHelper
+  commentId: T:SuperOffice.License.UserTypeHelper
+  parent: SuperOffice.License
+  isExternal: true
+  name: UserTypeHelper
+  nameWithType: UserTypeHelper
+  fullName: SuperOffice.License.UserTypeHelper
+- uid: SuperOffice.License.BuildInfoAttribute
+  commentId: T:SuperOffice.License.BuildInfoAttribute
+  parent: SuperOffice.License
+  isExternal: true
+  name: BuildInfoAttribute
+  nameWithType: BuildInfoAttribute
+  fullName: SuperOffice.License.BuildInfoAttribute
+- uid: SuperOffice.License.ExtendedLicenseInfo
+  commentId: T:SuperOffice.License.ExtendedLicenseInfo
+  parent: SuperOffice.License
+  isExternal: true
+  name: ExtendedLicenseInfo
+  nameWithType: ExtendedLicenseInfo
+  fullName: SuperOffice.License.ExtendedLicenseInfo
+- uid: SuperOffice.License.ExtendedModuleLicense
+  commentId: T:SuperOffice.License.ExtendedModuleLicense
+  parent: SuperOffice.License
+  isExternal: true
+  name: ExtendedModuleLicense
+  nameWithType: ExtendedModuleLicense
+  fullName: SuperOffice.License.ExtendedModuleLicense
+- uid: SuperOffice.License.ExtendedLicenseInfoWithAssignments
+  commentId: T:SuperOffice.License.ExtendedLicenseInfoWithAssignments
+  parent: SuperOffice.License
+  isExternal: true
+  name: ExtendedLicenseInfoWithAssignments
+  nameWithType: ExtendedLicenseInfoWithAssignments
+  fullName: SuperOffice.License.ExtendedLicenseInfoWithAssignments
+- uid: SuperOffice.License.SoModuleLicenseNames
+  commentId: T:SuperOffice.License.SoModuleLicenseNames
+  isExternal: true
+  name: SoModuleLicenseNames
+  nameWithType: SoModuleLicenseNames
+  fullName: SuperOffice.License.SoModuleLicenseNames
+- uid: SuperOffice.License.ProductLicense
+  commentId: T:SuperOffice.License.ProductLicense
+  parent: SuperOffice.License
+  isExternal: true
+  name: ProductLicense
+  nameWithType: ProductLicense
+  fullName: SuperOffice.License.ProductLicense
+- uid: SuperOffice.License.SoLicenseNames
+  commentId: T:SuperOffice.License.SoLicenseNames
+  isExternal: true
+  name: SoLicenseNames
+  nameWithType: SoLicenseNames
+  fullName: SuperOffice.License.SoLicenseNames
+- uid: SuperOffice.License.ModuleLicenseLinkBase`1
+  commentId: T:SuperOffice.License.ModuleLicenseLinkBase`1
+  isExternal: true
+  name: ModuleLicenseLinkBase<TLinkRow>
+  nameWithType: ModuleLicenseLinkBase<TLinkRow>
+  fullName: SuperOffice.License.ModuleLicenseLinkBase<TLinkRow>
+  nameWithType.vb: ModuleLicenseLinkBase(Of TLinkRow)
+  fullName.vb: SuperOffice.License.ModuleLicenseLinkBase(Of TLinkRow)
+  name.vb: ModuleLicenseLinkBase(Of TLinkRow)
+  spec.csharp:
+  - uid: SuperOffice.License.ModuleLicenseLinkBase`1
+    name: ModuleLicenseLinkBase
+    nameWithType: ModuleLicenseLinkBase
+    fullName: SuperOffice.License.ModuleLicenseLinkBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TLinkRow
+    nameWithType: TLinkRow
+    fullName: TLinkRow
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.License.ModuleLicenseLinkBase`1
+    name: ModuleLicenseLinkBase
+    nameWithType: ModuleLicenseLinkBase
+    fullName: SuperOffice.License.ModuleLicenseLinkBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TLinkRow
+    nameWithType: TLinkRow
+    fullName: TLinkRow
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.License.ModuleLicenseOwnerBase`2
+  commentId: T:SuperOffice.License.ModuleLicenseOwnerBase`2
+  isExternal: true
+  name: ModuleLicenseOwnerBase<TLink, TLinkRow>
+  nameWithType: ModuleLicenseOwnerBase<TLink, TLinkRow>
+  fullName: SuperOffice.License.ModuleLicenseOwnerBase<TLink, TLinkRow>
+  nameWithType.vb: ModuleLicenseOwnerBase(Of TLink, TLinkRow)
+  fullName.vb: SuperOffice.License.ModuleLicenseOwnerBase(Of TLink, TLinkRow)
+  name.vb: ModuleLicenseOwnerBase(Of TLink, TLinkRow)
+  spec.csharp:
+  - uid: SuperOffice.License.ModuleLicenseOwnerBase`2
+    name: ModuleLicenseOwnerBase
+    nameWithType: ModuleLicenseOwnerBase
+    fullName: SuperOffice.License.ModuleLicenseOwnerBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TLink
+    nameWithType: TLink
+    fullName: TLink
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TLinkRow
+    nameWithType: TLinkRow
+    fullName: TLinkRow
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.License.ModuleLicenseOwnerBase`2
+    name: ModuleLicenseOwnerBase
+    nameWithType: ModuleLicenseOwnerBase
+    fullName: SuperOffice.License.ModuleLicenseOwnerBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TLink
+    nameWithType: TLink
+    fullName: TLink
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TLinkRow
+    nameWithType: TLinkRow
+    fullName: TLinkRow
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.License.SatelliteModuleLicenseLink
+  commentId: T:SuperOffice.License.SatelliteModuleLicenseLink
+  isExternal: true
+  name: SatelliteModuleLicenseLink
+  nameWithType: SatelliteModuleLicenseLink
+  fullName: SuperOffice.License.SatelliteModuleLicenseLink
+- uid: SuperOffice.License.SatelliteModuleLicenseOwner
+  commentId: T:SuperOffice.License.SatelliteModuleLicenseOwner
+  isExternal: true
+  name: SatelliteModuleLicenseOwner
+  nameWithType: SatelliteModuleLicenseOwner
+  fullName: SuperOffice.License.SatelliteModuleLicenseOwner
+- uid: SuperOffice.License.LicenseAssocLinkCache
+  commentId: T:SuperOffice.License.LicenseAssocLinkCache
+  parent: SuperOffice.License
+  isExternal: true
+  name: LicenseAssocLinkCache
+  nameWithType: LicenseAssocLinkCache
+  fullName: SuperOffice.License.LicenseAssocLinkCache
+- uid: SuperOffice.License.LicenseCache
+  commentId: T:SuperOffice.License.LicenseCache
+  parent: SuperOffice.License
+  isExternal: true
+  name: LicenseCache
+  nameWithType: LicenseCache
+  fullName: SuperOffice.License.LicenseCache
+- uid: SuperOffice.License.AssociateModuleLicenseLink
+  commentId: T:SuperOffice.License.AssociateModuleLicenseLink
+  parent: SuperOffice.License
+  isExternal: true
+  name: AssociateModuleLicenseLink
+  nameWithType: AssociateModuleLicenseLink
+  fullName: SuperOffice.License.AssociateModuleLicenseLink
+- uid: SuperOffice.License.AssociateModuleLicenseOwner
+  commentId: T:SuperOffice.License.AssociateModuleLicenseOwner
+  parent: SuperOffice.License
+  isExternal: true
+  name: AssociateModuleLicenseOwner
+  nameWithType: AssociateModuleLicenseOwner
+  fullName: SuperOffice.License.AssociateModuleLicenseOwner
+- uid: SuperOffice.License.LicenseManager
+  commentId: T:SuperOffice.License.LicenseManager
+  parent: SuperOffice.License
+  isExternal: true
+  name: LicenseManager
+  nameWithType: LicenseManager
+  fullName: SuperOffice.License.LicenseManager
+- uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
+  commentId: T:SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
+  isExternal: true
+  name: LicenseManager.LicenseManagerNonAutoUpdate
+  nameWithType: LicenseManager.LicenseManagerNonAutoUpdate
+  fullName: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
+- uid: SuperOffice.License.LicenseService
+  commentId: T:SuperOffice.License.LicenseService
+  isExternal: true
+  name: LicenseService
+  nameWithType: LicenseService
+  fullName: SuperOffice.License.LicenseService
+- uid: SuperOffice.License.LicenseInfoHelper
+  commentId: T:SuperOffice.License.LicenseInfoHelper
+  isExternal: true
+  name: LicenseInfoHelper
+  nameWithType: LicenseInfoHelper
+  fullName: SuperOffice.License.LicenseInfoHelper
+- uid: SuperOffice.License.SerialNr
+  commentId: T:SuperOffice.License.SerialNr
+  isExternal: true
+  name: SerialNr
+  nameWithType: SerialNr
+  fullName: SuperOffice.License.SerialNr
+- uid: SuperOffice.License.SignatureCreator
+  commentId: T:SuperOffice.License.SignatureCreator
+  isExternal: true
+  name: SignatureCreator
+  nameWithType: SignatureCreator
+  fullName: SuperOffice.License.SignatureCreator
+- uid: SuperOffice.License.SignatureValidator
+  commentId: T:SuperOffice.License.SignatureValidator
+  parent: SuperOffice.License
+  isExternal: true
+  name: SignatureValidator
+  nameWithType: SignatureValidator
+  fullName: SuperOffice.License.SignatureValidator
+- uid: SuperOffice.License
+  commentId: N:SuperOffice.License
+  isExternal: true
+  name: SuperOffice.License
+  nameWithType: SuperOffice.License
+  fullName: SuperOffice.License

@@ -1,0 +1,556 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.SoCurrentCalculator
+  commentId: T:SuperOffice.CRM.Web.SoCurrentCalculator
+  id: SoCurrentCalculator
+  parent: SuperOffice.CRM.Web
+  children:
+  - SuperOffice.CRM.Web.SoCurrentCalculator.#ctor
+  - SuperOffice.CRM.Web.SoCurrentCalculator.SuperOffice#DCF#Web#ICurrentCalculator#Calculate(System.String,SuperOffice.Cache.HistoryItem,SuperOffice.Cache.SuperStateHelper)
+  langs:
+  - csharp
+  - vb
+  name: SoCurrentCalculator
+  nameWithType: SoCurrentCalculator
+  fullName: SuperOffice.CRM.Web.SoCurrentCalculator
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: >-
+      [CurrentCalculatorPlugin("CRM")]
+
+      public class SoCurrentCalculator : ICurrentCalculator, ICurrentCalculatorPlugin, IPlugin
+    content.vb: >-
+      <CurrentCalculatorPlugin("CRM")>
+
+      Public Class SoCurrentCalculator
+          Implements ICurrentCalculator, ICurrentCalculatorPlugin, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.DCF.Web.ICurrentCalculator
+  - SuperOffice.DCF.Web.ICurrentCalculatorPlugin
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.DCF.Web.CurrentCalculatorPluginAttribute
+    ctor: SuperOffice.DCF.Web.CurrentCalculatorPluginAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CRM
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.SoCurrentCalculator.SuperOffice#DCF#Web#ICurrentCalculator#Calculate(System.String,SuperOffice.Cache.HistoryItem,SuperOffice.Cache.SuperStateHelper)
+  commentId: M:SuperOffice.CRM.Web.SoCurrentCalculator.SuperOffice#DCF#Web#ICurrentCalculator#Calculate(System.String,SuperOffice.Cache.HistoryItem,SuperOffice.Cache.SuperStateHelper)
+  id: SuperOffice#DCF#Web#ICurrentCalculator#Calculate(System.String,SuperOffice.Cache.HistoryItem,SuperOffice.Cache.SuperStateHelper)
+  isEii: true
+  parent: SuperOffice.CRM.Web.SoCurrentCalculator
+  langs:
+  - csharp
+  - vb
+  name: ICurrentCalculator.Calculate(String, HistoryItem, SuperStateHelper)
+  nameWithType: SoCurrentCalculator.ICurrentCalculator.Calculate(String, HistoryItem, SuperStateHelper)
+  fullName: SuperOffice.CRM.Web.SoCurrentCalculator.SuperOffice.DCF.Web.ICurrentCalculator.Calculate(System.String, SuperOffice.Cache.HistoryItem, SuperOffice.Cache.SuperStateHelper)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: HistoryItem ICurrentCalculator.Calculate(string entityName, HistoryItem current, SuperStateHelper helper)
+    parameters:
+    - id: entityName
+      type: System.String
+    - id: current
+      type: SuperOffice.Cache.HistoryItem
+    - id: helper
+      type: SuperOffice.Cache.SuperStateHelper
+    return:
+      type: SuperOffice.Cache.HistoryItem
+    content.vb: Function SuperOffice.DCF.Web.ICurrentCalculator.Calculate(entityName As String, current As HistoryItem, helper As SuperStateHelper) As HistoryItem Implements ICurrentCalculator.Calculate
+  overload: SuperOffice.CRM.Web.SoCurrentCalculator.SuperOffice#DCF#Web#ICurrentCalculator#Calculate*
+  implements:
+  - SuperOffice.DCF.Web.ICurrentCalculator.Calculate(System.String,SuperOffice.Cache.HistoryItem,SuperOffice.Cache.SuperStateHelper)
+  nameWithType.vb: SoCurrentCalculator.SuperOffice.DCF.Web.ICurrentCalculator.Calculate(String, HistoryItem, SuperStateHelper)
+  name.vb: SuperOffice.DCF.Web.ICurrentCalculator.Calculate(String, HistoryItem, SuperStateHelper)
+- uid: SuperOffice.CRM.Web.SoCurrentCalculator.#ctor
+  commentId: M:SuperOffice.CRM.Web.SoCurrentCalculator.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.SoCurrentCalculator
+  langs:
+  - csharp
+  - vb
+  name: SoCurrentCalculator()
+  nameWithType: SoCurrentCalculator.SoCurrentCalculator()
+  fullName: SuperOffice.CRM.Web.SoCurrentCalculator.SoCurrentCalculator()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public SoCurrentCalculator()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.SoCurrentCalculator.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web
+  commentId: N:SuperOffice.CRM.Web
+  isExternal: true
+  name: SuperOffice.CRM.Web
+  nameWithType: SuperOffice.CRM.Web
+  fullName: SuperOffice.CRM.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.ICurrentCalculator
+  commentId: T:SuperOffice.DCF.Web.ICurrentCalculator
+  parent: SuperOffice.DCF.Web
+  isExternal: true
+  name: ICurrentCalculator
+  nameWithType: ICurrentCalculator
+  fullName: SuperOffice.DCF.Web.ICurrentCalculator
+- uid: SuperOffice.DCF.Web.ICurrentCalculatorPlugin
+  commentId: T:SuperOffice.DCF.Web.ICurrentCalculatorPlugin
+  parent: SuperOffice.DCF.Web
+  isExternal: true
+  name: ICurrentCalculatorPlugin
+  nameWithType: ICurrentCalculatorPlugin
+  fullName: SuperOffice.DCF.Web.ICurrentCalculatorPlugin
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: SuperOffice.CRM.Web.SoCurrentCalculator.SuperOffice#DCF#Web#ICurrentCalculator#Calculate*
+  commentId: Overload:SuperOffice.CRM.Web.SoCurrentCalculator.SuperOffice#DCF#Web#ICurrentCalculator#Calculate
+  isExternal: true
+  name: ICurrentCalculator.Calculate
+  nameWithType: SoCurrentCalculator.ICurrentCalculator.Calculate
+  fullName: SuperOffice.CRM.Web.SoCurrentCalculator.SuperOffice.DCF.Web.ICurrentCalculator.Calculate
+  nameWithType.vb: SoCurrentCalculator.SuperOffice.DCF.Web.ICurrentCalculator.Calculate
+  name.vb: SuperOffice.DCF.Web.ICurrentCalculator.Calculate
+- uid: SuperOffice.DCF.Web.ICurrentCalculator.Calculate(System.String,SuperOffice.Cache.HistoryItem,SuperOffice.Cache.SuperStateHelper)
+  commentId: M:SuperOffice.DCF.Web.ICurrentCalculator.Calculate(System.String,SuperOffice.Cache.HistoryItem,SuperOffice.Cache.SuperStateHelper)
+  parent: SuperOffice.DCF.Web.ICurrentCalculator
+  isExternal: true
+  name: Calculate(String, HistoryItem, SuperStateHelper)
+  nameWithType: ICurrentCalculator.Calculate(String, HistoryItem, SuperStateHelper)
+  fullName: SuperOffice.DCF.Web.ICurrentCalculator.Calculate(System.String, SuperOffice.Cache.HistoryItem, SuperOffice.Cache.SuperStateHelper)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.ICurrentCalculator.Calculate(System.String,SuperOffice.Cache.HistoryItem,SuperOffice.Cache.SuperStateHelper)
+    name: Calculate
+    nameWithType: ICurrentCalculator.Calculate
+    fullName: SuperOffice.DCF.Web.ICurrentCalculator.Calculate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Cache.HistoryItem
+    name: HistoryItem
+    nameWithType: HistoryItem
+    fullName: SuperOffice.Cache.HistoryItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Cache.SuperStateHelper
+    name: SuperStateHelper
+    nameWithType: SuperStateHelper
+    fullName: SuperOffice.Cache.SuperStateHelper
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.ICurrentCalculator.Calculate(System.String,SuperOffice.Cache.HistoryItem,SuperOffice.Cache.SuperStateHelper)
+    name: Calculate
+    nameWithType: ICurrentCalculator.Calculate
+    fullName: SuperOffice.DCF.Web.ICurrentCalculator.Calculate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Cache.HistoryItem
+    name: HistoryItem
+    nameWithType: HistoryItem
+    fullName: SuperOffice.Cache.HistoryItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Cache.SuperStateHelper
+    name: SuperStateHelper
+    nameWithType: SuperStateHelper
+    fullName: SuperOffice.Cache.SuperStateHelper
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Cache.HistoryItem
+  commentId: T:SuperOffice.Cache.HistoryItem
+  parent: SuperOffice.Cache
+  isExternal: true
+  name: HistoryItem
+  nameWithType: HistoryItem
+  fullName: SuperOffice.Cache.HistoryItem
+- uid: SuperOffice.Cache.SuperStateHelper
+  commentId: T:SuperOffice.Cache.SuperStateHelper
+  parent: SuperOffice.Cache
+  isExternal: true
+  name: SuperStateHelper
+  nameWithType: SuperStateHelper
+  fullName: SuperOffice.Cache.SuperStateHelper
+- uid: SuperOffice.Cache
+  commentId: N:SuperOffice.Cache
+  isExternal: true
+  name: SuperOffice.Cache
+  nameWithType: SuperOffice.Cache
+  fullName: SuperOffice.Cache
+- uid: SuperOffice.CRM.Web.SoCurrentCalculator.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.SoCurrentCalculator.#ctor
+  isExternal: true
+  name: SoCurrentCalculator
+  nameWithType: SoCurrentCalculator.SoCurrentCalculator
+  fullName: SuperOffice.CRM.Web.SoCurrentCalculator.SoCurrentCalculator

@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ChatTopicFlag
+  commentId: T:SuperOffice.WebApi.Data.ChatTopicFlag
+  id: ChatTopicFlag
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ChatTopicFlag.CollectConsent
+  - SuperOffice.WebApi.Data.ChatTopicFlag.EmailAlert
+  - SuperOffice.WebApi.Data.ChatTopicFlag.None
+  - SuperOffice.WebApi.Data.ChatTopicFlag.PopupAlert
+  - SuperOffice.WebApi.Data.ChatTopicFlag.UseCustomQueueMessage
+  - SuperOffice.WebApi.Data.ChatTopicFlag.value__
+  - SuperOffice.WebApi.Data.ChatTopicFlag.WidgetSizeLarge
+  langs:
+  - csharp
+  - vb
+  name: ChatTopicFlag
+  nameWithType: ChatTopicFlag
+  fullName: SuperOffice.WebApi.Data.ChatTopicFlag
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nChat Topic flags\nThis Enum is used by:  chat_topic.flags\nThis Enum consists of flag values that can be combined.\n"
+  syntax:
+    content: 'public sealed class ChatTopicFlag : Enum'
+    content.vb: >-
+      Public NotInheritable Class ChatTopicFlag
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ChatTopicFlag.value__
+  commentId: F:SuperOffice.WebApi.Data.ChatTopicFlag.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ChatTopicFlag
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ChatTopicFlag.value__
+  fullName: SuperOffice.WebApi.Data.ChatTopicFlag.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChatTopicFlag.None
+  commentId: F:SuperOffice.WebApi.Data.ChatTopicFlag.None
+  id: None
+  parent: SuperOffice.WebApi.Data.ChatTopicFlag
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ChatTopicFlag.None
+  fullName: SuperOffice.WebApi.Data.ChatTopicFlag.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Nothing\n"
+  syntax:
+    content: public const ChatTopicFlag None
+    return:
+      type: SuperOffice.WebApi.Data.ChatTopicFlag
+    content.vb: Public Const None As ChatTopicFlag
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ChatTopicFlag.PopupAlert
+  commentId: F:SuperOffice.WebApi.Data.ChatTopicFlag.PopupAlert
+  id: PopupAlert
+  parent: SuperOffice.WebApi.Data.ChatTopicFlag
+  langs:
+  - csharp
+  - vb
+  name: PopupAlert
+  nameWithType: ChatTopicFlag.PopupAlert
+  fullName: SuperOffice.WebApi.Data.ChatTopicFlag.PopupAlert
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Alert using Popup\n"
+  syntax:
+    content: public const ChatTopicFlag PopupAlert
+    return:
+      type: SuperOffice.WebApi.Data.ChatTopicFlag
+    content.vb: Public Const PopupAlert As ChatTopicFlag
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ChatTopicFlag.EmailAlert
+  commentId: F:SuperOffice.WebApi.Data.ChatTopicFlag.EmailAlert
+  id: EmailAlert
+  parent: SuperOffice.WebApi.Data.ChatTopicFlag
+  langs:
+  - csharp
+  - vb
+  name: EmailAlert
+  nameWithType: ChatTopicFlag.EmailAlert
+  fullName: SuperOffice.WebApi.Data.ChatTopicFlag.EmailAlert
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Alert using E-mail\n"
+  syntax:
+    content: public const ChatTopicFlag EmailAlert
+    return:
+      type: SuperOffice.WebApi.Data.ChatTopicFlag
+    content.vb: Public Const EmailAlert As ChatTopicFlag
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ChatTopicFlag.CollectConsent
+  commentId: F:SuperOffice.WebApi.Data.ChatTopicFlag.CollectConsent
+  id: CollectConsent
+  parent: SuperOffice.WebApi.Data.ChatTopicFlag
+  langs:
+  - csharp
+  - vb
+  name: CollectConsent
+  nameWithType: ChatTopicFlag.CollectConsent
+  fullName: SuperOffice.WebApi.Data.ChatTopicFlag.CollectConsent
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Collect GDPR consent before chat\n"
+  syntax:
+    content: public const ChatTopicFlag CollectConsent
+    return:
+      type: SuperOffice.WebApi.Data.ChatTopicFlag
+    content.vb: Public Const CollectConsent As ChatTopicFlag
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ChatTopicFlag.UseCustomQueueMessage
+  commentId: F:SuperOffice.WebApi.Data.ChatTopicFlag.UseCustomQueueMessage
+  id: UseCustomQueueMessage
+  parent: SuperOffice.WebApi.Data.ChatTopicFlag
+  langs:
+  - csharp
+  - vb
+  name: UseCustomQueueMessage
+  nameWithType: ChatTopicFlag.UseCustomQueueMessage
+  fullName: SuperOffice.WebApi.Data.ChatTopicFlag.UseCustomQueueMessage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: Use custom queue message\n"
+  syntax:
+    content: public const ChatTopicFlag UseCustomQueueMessage
+    return:
+      type: SuperOffice.WebApi.Data.ChatTopicFlag
+    content.vb: Public Const UseCustomQueueMessage As ChatTopicFlag
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ChatTopicFlag.WidgetSizeLarge
+  commentId: F:SuperOffice.WebApi.Data.ChatTopicFlag.WidgetSizeLarge
+  id: WidgetSizeLarge
+  parent: SuperOffice.WebApi.Data.ChatTopicFlag
+  langs:
+  - csharp
+  - vb
+  name: WidgetSizeLarge
+  nameWithType: ChatTopicFlag.WidgetSizeLarge
+  fullName: SuperOffice.WebApi.Data.ChatTopicFlag.WidgetSizeLarge
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n16: Show large widget\n"
+  syntax:
+    content: public const ChatTopicFlag WidgetSizeLarge
+    return:
+      type: SuperOffice.WebApi.Data.ChatTopicFlag
+    content.vb: Public Const WidgetSizeLarge As ChatTopicFlag
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ChatTopicFlag
+  commentId: T:SuperOffice.WebApi.Data.ChatTopicFlag
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ChatTopicFlag
+  nameWithType: ChatTopicFlag
+  fullName: SuperOffice.WebApi.Data.ChatTopicFlag

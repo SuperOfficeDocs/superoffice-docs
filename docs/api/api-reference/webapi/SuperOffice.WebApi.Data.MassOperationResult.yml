@@ -1,0 +1,408 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.MassOperationResult
+  commentId: T:SuperOffice.WebApi.Data.MassOperationResult
+  id: MassOperationResult
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.MassOperationResult.#ctor
+  - SuperOffice.WebApi.Data.MassOperationResult.Deletes
+  - SuperOffice.WebApi.Data.MassOperationResult.Inserts
+  - SuperOffice.WebApi.Data.MassOperationResult.Message
+  - SuperOffice.WebApi.Data.MassOperationResult.RowStatus
+  - SuperOffice.WebApi.Data.MassOperationResult.Success
+  - SuperOffice.WebApi.Data.MassOperationResult.Updates
+  langs:
+  - csharp
+  - vb
+  name: MassOperationResult
+  nameWithType: MassOperationResult
+  fullName: SuperOffice.WebApi.Data.MassOperationResult
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for MassOperationResult.\nInformation about the results of a mass-update operation    \n"
+  syntax:
+    content: 'public class MassOperationResult : Carrier'
+    content.vb: >-
+      Public Class MassOperationResult
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DatabaseTableAgent
+    commentId: T:SuperOffice.WebApi.Agents.DatabaseTableAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.MassOperationResult.#ctor
+  commentId: M:SuperOffice.WebApi.Data.MassOperationResult.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.MassOperationResult
+  langs:
+  - csharp
+  - vb
+  name: MassOperationResult()
+  nameWithType: MassOperationResult.MassOperationResult()
+  fullName: SuperOffice.WebApi.Data.MassOperationResult.MassOperationResult()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public MassOperationResult()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.MassOperationResult.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MassOperationResult.Success
+  commentId: P:SuperOffice.WebApi.Data.MassOperationResult.Success
+  id: Success
+  parent: SuperOffice.WebApi.Data.MassOperationResult
+  langs:
+  - csharp
+  - vb
+  name: Success
+  nameWithType: MassOperationResult.Success
+  fullName: SuperOffice.WebApi.Data.MassOperationResult.Success
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDid the operation succeed\n"
+  syntax:
+    content: public virtual bool Success { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Success As Boolean
+  overload: SuperOffice.WebApi.Data.MassOperationResult.Success*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MassOperationResult.Message
+  commentId: P:SuperOffice.WebApi.Data.MassOperationResult.Message
+  id: Message
+  parent: SuperOffice.WebApi.Data.MassOperationResult
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: MassOperationResult.Message
+  fullName: SuperOffice.WebApi.Data.MassOperationResult.Message
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAny message from the method, including timing data\n"
+  syntax:
+    content: public virtual string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Message As String
+  overload: SuperOffice.WebApi.Data.MassOperationResult.Message*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MassOperationResult.Inserts
+  commentId: P:SuperOffice.WebApi.Data.MassOperationResult.Inserts
+  id: Inserts
+  parent: SuperOffice.WebApi.Data.MassOperationResult
+  langs:
+  - csharp
+  - vb
+  name: Inserts
+  nameWithType: MassOperationResult.Inserts
+  fullName: SuperOffice.WebApi.Data.MassOperationResult.Inserts
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of rows inserted\n"
+  syntax:
+    content: public virtual int Inserts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Inserts As Integer
+  overload: SuperOffice.WebApi.Data.MassOperationResult.Inserts*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MassOperationResult.Updates
+  commentId: P:SuperOffice.WebApi.Data.MassOperationResult.Updates
+  id: Updates
+  parent: SuperOffice.WebApi.Data.MassOperationResult
+  langs:
+  - csharp
+  - vb
+  name: Updates
+  nameWithType: MassOperationResult.Updates
+  fullName: SuperOffice.WebApi.Data.MassOperationResult.Updates
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of rows updated\n"
+  syntax:
+    content: public virtual int Updates { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Updates As Integer
+  overload: SuperOffice.WebApi.Data.MassOperationResult.Updates*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MassOperationResult.Deletes
+  commentId: P:SuperOffice.WebApi.Data.MassOperationResult.Deletes
+  id: Deletes
+  parent: SuperOffice.WebApi.Data.MassOperationResult
+  langs:
+  - csharp
+  - vb
+  name: Deletes
+  nameWithType: MassOperationResult.Deletes
+  fullName: SuperOffice.WebApi.Data.MassOperationResult.Deletes
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of rows deleted / zeroed\n"
+  syntax:
+    content: public virtual int Deletes { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Deletes As Integer
+  overload: SuperOffice.WebApi.Data.MassOperationResult.Deletes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MassOperationResult.RowStatus
+  commentId: P:SuperOffice.WebApi.Data.MassOperationResult.RowStatus
+  id: RowStatus
+  parent: SuperOffice.WebApi.Data.MassOperationResult
+  langs:
+  - csharp
+  - vb
+  name: RowStatus
+  nameWithType: MassOperationResult.RowStatus
+  fullName: SuperOffice.WebApi.Data.MassOperationResult.RowStatus
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nArray of statuses and primary keys for all rows that were specified. Populated if the &apos;ReturnRowStatus&apos; parameter of &apos;Upsert&apos; is set, otherwise null\n"
+  syntax:
+    content: public virtual UpsertRowStatus[] RowStatus { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.UpsertRowStatus[]
+    content.vb: Public Overridable Property RowStatus As UpsertRowStatus()
+  overload: SuperOffice.WebApi.Data.MassOperationResult.RowStatus*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.DatabaseTableAgent
+  commentId: T:SuperOffice.WebApi.Agents.DatabaseTableAgent
+  isExternal: true
+  name: DatabaseTableAgent
+  nameWithType: DatabaseTableAgent
+  fullName: SuperOffice.WebApi.Agents.DatabaseTableAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.MassOperationResult.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.MassOperationResult.#ctor
+  isExternal: true
+  name: MassOperationResult
+  nameWithType: MassOperationResult.MassOperationResult
+  fullName: SuperOffice.WebApi.Data.MassOperationResult.MassOperationResult
+- uid: SuperOffice.WebApi.Data.MassOperationResult.Success*
+  commentId: Overload:SuperOffice.WebApi.Data.MassOperationResult.Success
+  isExternal: true
+  name: Success
+  nameWithType: MassOperationResult.Success
+  fullName: SuperOffice.WebApi.Data.MassOperationResult.Success
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.MassOperationResult.Message*
+  commentId: Overload:SuperOffice.WebApi.Data.MassOperationResult.Message
+  isExternal: true
+  name: Message
+  nameWithType: MassOperationResult.Message
+  fullName: SuperOffice.WebApi.Data.MassOperationResult.Message
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.MassOperationResult.Inserts*
+  commentId: Overload:SuperOffice.WebApi.Data.MassOperationResult.Inserts
+  isExternal: true
+  name: Inserts
+  nameWithType: MassOperationResult.Inserts
+  fullName: SuperOffice.WebApi.Data.MassOperationResult.Inserts
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.MassOperationResult.Updates*
+  commentId: Overload:SuperOffice.WebApi.Data.MassOperationResult.Updates
+  isExternal: true
+  name: Updates
+  nameWithType: MassOperationResult.Updates
+  fullName: SuperOffice.WebApi.Data.MassOperationResult.Updates
+- uid: SuperOffice.WebApi.Data.MassOperationResult.Deletes*
+  commentId: Overload:SuperOffice.WebApi.Data.MassOperationResult.Deletes
+  isExternal: true
+  name: Deletes
+  nameWithType: MassOperationResult.Deletes
+  fullName: SuperOffice.WebApi.Data.MassOperationResult.Deletes
+- uid: SuperOffice.WebApi.Data.MassOperationResult.RowStatus*
+  commentId: Overload:SuperOffice.WebApi.Data.MassOperationResult.RowStatus
+  isExternal: true
+  name: RowStatus
+  nameWithType: MassOperationResult.RowStatus
+  fullName: SuperOffice.WebApi.Data.MassOperationResult.RowStatus
+- uid: SuperOffice.WebApi.Data.UpsertRowStatus[]
+  isExternal: true
+  name: UpsertRowStatus[]
+  nameWithType: UpsertRowStatus[]
+  fullName: SuperOffice.WebApi.Data.UpsertRowStatus[]
+  nameWithType.vb: UpsertRowStatus()
+  fullName.vb: SuperOffice.WebApi.Data.UpsertRowStatus()
+  name.vb: UpsertRowStatus()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.UpsertRowStatus
+    name: UpsertRowStatus
+    nameWithType: UpsertRowStatus
+    fullName: SuperOffice.WebApi.Data.UpsertRowStatus
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.UpsertRowStatus
+    name: UpsertRowStatus
+    nameWithType: UpsertRowStatus
+    fullName: SuperOffice.WebApi.Data.UpsertRowStatus
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

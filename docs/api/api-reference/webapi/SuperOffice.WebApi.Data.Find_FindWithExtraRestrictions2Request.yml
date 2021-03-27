@@ -1,0 +1,395 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request
+  commentId: T:SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request
+  id: Find_FindWithExtraRestrictions2Request
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.#ctor
+  - SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.DesiredColumns
+  - SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.ExtraRestrictions
+  - SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.OrderBy
+  - SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.PageNumber
+  - SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.PageSize
+  - SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.ProviderName
+  - SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.StorageKey
+  - SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.StorageType
+  langs:
+  - csharp
+  - vb
+  name: Find_FindWithExtraRestrictions2Request
+  nameWithType: Find_FindWithExtraRestrictions2Request
+  fullName: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Find_FindWithExtraRestrictions2Request : Object'
+    content.vb: >-
+      Public Class Find_FindWithExtraRestrictions2Request
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request
+  langs:
+  - csharp
+  - vb
+  name: Find_FindWithExtraRestrictions2Request()
+  nameWithType: Find_FindWithExtraRestrictions2Request.Find_FindWithExtraRestrictions2Request()
+  fullName: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.Find_FindWithExtraRestrictions2Request()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Find_FindWithExtraRestrictions2Request()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.StorageType
+  commentId: P:SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.StorageType
+  id: StorageType
+  parent: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request
+  langs:
+  - csharp
+  - vb
+  name: StorageType
+  nameWithType: Find_FindWithExtraRestrictions2Request.StorageType
+  fullName: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.StorageType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string StorageType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StorageType As String
+  overload: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.StorageType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.ProviderName
+  commentId: P:SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.ProviderName
+  id: ProviderName
+  parent: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: Find_FindWithExtraRestrictions2Request.ProviderName
+  fullName: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.ProviderName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ProviderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProviderName As String
+  overload: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.ProviderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.StorageKey
+  commentId: P:SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.StorageKey
+  id: StorageKey
+  parent: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request
+  langs:
+  - csharp
+  - vb
+  name: StorageKey
+  nameWithType: Find_FindWithExtraRestrictions2Request.StorageKey
+  fullName: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.StorageKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string StorageKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StorageKey As String
+  overload: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.StorageKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.ExtraRestrictions
+  commentId: P:SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.ExtraRestrictions
+  id: ExtraRestrictions
+  parent: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request
+  langs:
+  - csharp
+  - vb
+  name: ExtraRestrictions
+  nameWithType: Find_FindWithExtraRestrictions2Request.ExtraRestrictions
+  fullName: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.ExtraRestrictions
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ExtraRestrictions { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ExtraRestrictions As String
+  overload: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.ExtraRestrictions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.OrderBy
+  commentId: P:SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.OrderBy
+  id: OrderBy
+  parent: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request
+  langs:
+  - csharp
+  - vb
+  name: OrderBy
+  nameWithType: Find_FindWithExtraRestrictions2Request.OrderBy
+  fullName: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.OrderBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string OrderBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OrderBy As String
+  overload: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.OrderBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.DesiredColumns
+  commentId: P:SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.DesiredColumns
+  id: DesiredColumns
+  parent: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request
+  langs:
+  - csharp
+  - vb
+  name: DesiredColumns
+  nameWithType: Find_FindWithExtraRestrictions2Request.DesiredColumns
+  fullName: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.DesiredColumns
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string DesiredColumns { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DesiredColumns As String
+  overload: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.DesiredColumns*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.PageSize
+  commentId: P:SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.PageSize
+  id: PageSize
+  parent: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request
+  langs:
+  - csharp
+  - vb
+  name: PageSize
+  nameWithType: Find_FindWithExtraRestrictions2Request.PageSize
+  fullName: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.PageSize
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PageSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PageSize As Integer
+  overload: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.PageSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.PageNumber
+  commentId: P:SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.PageNumber
+  id: PageNumber
+  parent: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request
+  langs:
+  - csharp
+  - vb
+  name: PageNumber
+  nameWithType: Find_FindWithExtraRestrictions2Request.PageNumber
+  fullName: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.PageNumber
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PageNumber { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PageNumber As Integer
+  overload: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.PageNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.#ctor
+  isExternal: true
+  name: Find_FindWithExtraRestrictions2Request
+  nameWithType: Find_FindWithExtraRestrictions2Request.Find_FindWithExtraRestrictions2Request
+  fullName: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.Find_FindWithExtraRestrictions2Request
+- uid: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.StorageType*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.StorageType
+  isExternal: true
+  name: StorageType
+  nameWithType: Find_FindWithExtraRestrictions2Request.StorageType
+  fullName: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.StorageType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.ProviderName*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.ProviderName
+  isExternal: true
+  name: ProviderName
+  nameWithType: Find_FindWithExtraRestrictions2Request.ProviderName
+  fullName: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.ProviderName
+- uid: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.StorageKey*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.StorageKey
+  isExternal: true
+  name: StorageKey
+  nameWithType: Find_FindWithExtraRestrictions2Request.StorageKey
+  fullName: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.StorageKey
+- uid: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.ExtraRestrictions*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.ExtraRestrictions
+  isExternal: true
+  name: ExtraRestrictions
+  nameWithType: Find_FindWithExtraRestrictions2Request.ExtraRestrictions
+  fullName: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.ExtraRestrictions
+- uid: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.OrderBy*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.OrderBy
+  isExternal: true
+  name: OrderBy
+  nameWithType: Find_FindWithExtraRestrictions2Request.OrderBy
+  fullName: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.OrderBy
+- uid: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.DesiredColumns*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.DesiredColumns
+  isExternal: true
+  name: DesiredColumns
+  nameWithType: Find_FindWithExtraRestrictions2Request.DesiredColumns
+  fullName: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.DesiredColumns
+- uid: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.PageSize*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.PageSize
+  isExternal: true
+  name: PageSize
+  nameWithType: Find_FindWithExtraRestrictions2Request.PageSize
+  fullName: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.PageSize
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.PageNumber*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.PageNumber
+  isExternal: true
+  name: PageNumber
+  nameWithType: Find_FindWithExtraRestrictions2Request.PageNumber
+  fullName: SuperOffice.WebApi.Data.Find_FindWithExtraRestrictions2Request.PageNumber

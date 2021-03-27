@@ -1,0 +1,1307 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  id: BulkUpdateSystem.ContactFieldValueKeys
+  parent: SuperOffice.CRM.BulkUpdate
+  children:
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.AddInterests
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.AssociateId
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Business
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Category
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.ContactCountry
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.ContactNoMail
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Department
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.EMail
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Fax
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Name
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Number1
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Number2
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.OrgNr
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Phone
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress1
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress2
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress3
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressCounty
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressState
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressZipCity
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressZipCode
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.RemoveInterest
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Stopped
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress1
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress2
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress3
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressCounty
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressState
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressZipCity
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressZipCode
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Url
+  langs:
+  - csharp
+  - vb
+  name: BulkUpdateSystem.ContactFieldValueKeys
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static class ContactFieldValueKeys
+    content.vb: Public Module ContactFieldValueKeys
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Category
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Category
+  id: Category
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Category
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.Category
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Category
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Category
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Category As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Business
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Business
+  id: Business
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Business
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.Business
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Business
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Business
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Business As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.AssociateId
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.AssociateId
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.AssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string AssociateId
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly AssociateId As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Number2
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Number2
+  id: Number2
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Number2
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.Number2
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Number2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Number2
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Number2 As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Number1
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Number1
+  id: Number1
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Number1
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.Number1
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Number1
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Number1
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Number1 As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Stopped
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Stopped
+  id: Stopped
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Stopped
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.Stopped
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Stopped
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Stopped
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Stopped As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.ContactNoMail
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.ContactNoMail
+  id: ContactNoMail
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: ContactNoMail
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.ContactNoMail
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.ContactNoMail
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string ContactNoMail
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly ContactNoMail As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.OrgNr
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.OrgNr
+  id: OrgNr
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: OrgNr
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.OrgNr
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.OrgNr
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string OrgNr
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly OrgNr As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Name
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Name
+  id: Name
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.Name
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Name
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Name As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Department
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Department
+  id: Department
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Department
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.Department
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Department
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Department
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Department As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.ContactCountry
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.ContactCountry
+  id: ContactCountry
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: ContactCountry
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.ContactCountry
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.ContactCountry
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string ContactCountry
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly ContactCountry As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Url
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Url
+  id: Url
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.Url
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Url
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Url
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Url As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.EMail
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.EMail
+  id: EMail
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: EMail
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.EMail
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.EMail
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string EMail
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly EMail As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Phone
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Phone
+  id: Phone
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Phone
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.Phone
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Phone
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Phone
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Phone As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Fax
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Fax
+  id: Fax
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Fax
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.Fax
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Fax
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Fax
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Fax As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress1
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress1
+  id: StreetAddressAddress1
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: StreetAddressAddress1
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress1
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress1
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string StreetAddressAddress1
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly StreetAddressAddress1 As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress2
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress2
+  id: StreetAddressAddress2
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: StreetAddressAddress2
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress2
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string StreetAddressAddress2
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly StreetAddressAddress2 As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress3
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress3
+  id: StreetAddressAddress3
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: StreetAddressAddress3
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress3
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress3
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string StreetAddressAddress3
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly StreetAddressAddress3 As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressZipCode
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressZipCode
+  id: StreetAddressZipCode
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: StreetAddressZipCode
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.StreetAddressZipCode
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressZipCode
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string StreetAddressZipCode
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly StreetAddressZipCode As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressZipCity
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressZipCity
+  id: StreetAddressZipCity
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: StreetAddressZipCity
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.StreetAddressZipCity
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressZipCity
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string StreetAddressZipCity
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly StreetAddressZipCity As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressState
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressState
+  id: StreetAddressState
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: StreetAddressState
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.StreetAddressState
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressState
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string StreetAddressState
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly StreetAddressState As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressCounty
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressCounty
+  id: StreetAddressCounty
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: StreetAddressCounty
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.StreetAddressCounty
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressCounty
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string StreetAddressCounty
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly StreetAddressCounty As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress1
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress1
+  id: PostalAddressAddress1
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: PostalAddressAddress1
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress1
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress1
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string PostalAddressAddress1
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly PostalAddressAddress1 As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress2
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress2
+  id: PostalAddressAddress2
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: PostalAddressAddress2
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress2
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string PostalAddressAddress2
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly PostalAddressAddress2 As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress3
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress3
+  id: PostalAddressAddress3
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: PostalAddressAddress3
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress3
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress3
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string PostalAddressAddress3
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly PostalAddressAddress3 As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressZipCode
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressZipCode
+  id: PostalAddressZipCode
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: PostalAddressZipCode
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.PostalAddressZipCode
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressZipCode
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string PostalAddressZipCode
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly PostalAddressZipCode As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressZipCity
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressZipCity
+  id: PostalAddressZipCity
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: PostalAddressZipCity
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.PostalAddressZipCity
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressZipCity
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string PostalAddressZipCity
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly PostalAddressZipCity As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressState
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressState
+  id: PostalAddressState
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: PostalAddressState
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.PostalAddressState
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressState
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string PostalAddressState
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly PostalAddressState As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressCounty
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressCounty
+  id: PostalAddressCounty
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: PostalAddressCounty
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.PostalAddressCounty
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressCounty
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string PostalAddressCounty
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly PostalAddressCounty As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.AddInterests
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.AddInterests
+  id: AddInterests
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: AddInterests
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.AddInterests
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.AddInterests
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string AddInterests
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly AddInterests As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.RemoveInterest
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.RemoveInterest
+  id: RemoveInterest
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: RemoveInterest
+  nameWithType: BulkUpdateSystem.ContactFieldValueKeys.RemoveInterest
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.RemoveInterest
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string RemoveInterest
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly RemoveInterest As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.BulkUpdate
+  commentId: N:SuperOffice.CRM.BulkUpdate
+  isExternal: true
+  name: SuperOffice.CRM.BulkUpdate
+  nameWithType: SuperOffice.CRM.BulkUpdate
+  fullName: SuperOffice.CRM.BulkUpdate
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

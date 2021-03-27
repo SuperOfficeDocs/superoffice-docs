@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.Switches
+  commentId: N:SuperOffice.CRM.Services.Switches
+  id: SuperOffice.CRM.Services.Switches
+  children:
+  - SuperOffice.CRM.Services.Switches.SwitchDefault
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.Services.Switches
+  nameWithType: SuperOffice.CRM.Services.Switches
+  fullName: SuperOffice.CRM.Services.Switches
+  type: Namespace
+  assemblies:
+  - SOCore
+references:
+- uid: SuperOffice.CRM.Services.Switches.SwitchDefault
+  commentId: T:SuperOffice.CRM.Services.Switches.SwitchDefault
+  parent: SuperOffice.CRM.Services.Switches
+  isExternal: true
+  name: SwitchDefault
+  nameWithType: SwitchDefault
+  fullName: SuperOffice.CRM.Services.Switches.SwitchDefault
+- uid: SuperOffice.CRM.Services.Switches
+  commentId: N:SuperOffice.CRM.Services.Switches
+  isExternal: true
+  name: SuperOffice.CRM.Services.Switches
+  nameWithType: SuperOffice.CRM.Services.Switches
+  fullName: SuperOffice.CRM.Services.Switches

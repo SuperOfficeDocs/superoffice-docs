@@ -1,0 +1,1567 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo
+  commentId: T:SuperOffice.CRM.Data.LogEventsTableInfo
+  id: LogEventsTableInfo
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.LogEventsTableInfo.Definition
+  - SuperOffice.CRM.Data.LogEventsTableInfo.DictionaryTableName
+  - SuperOffice.CRM.Data.LogEventsTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.LogEventsTableInfo.EventGroup
+  - SuperOffice.CRM.Data.LogEventsTableInfo.EventId
+  - SuperOffice.CRM.Data.LogEventsTableInfo.EventType
+  - SuperOffice.CRM.Data.LogEventsTableInfo.LogEventsId
+  - SuperOffice.CRM.Data.LogEventsTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.LogEventsTableInfo.SourceUser
+  - SuperOffice.CRM.Data.LogEventsTableInfo.SourceUserDesc
+  - SuperOffice.CRM.Data.LogEventsTableInfo.TargetId
+  - SuperOffice.CRM.Data.LogEventsTableInfo.TimeOfEvent
+  - SuperOffice.CRM.Data.LogEventsTableInfo.Var1
+  - SuperOffice.CRM.Data.LogEventsTableInfo.Var2
+  - SuperOffice.CRM.Data.LogEventsTableInfo.Var3
+  - SuperOffice.CRM.Data.LogEventsTableInfo.Var4
+  - SuperOffice.CRM.Data.LogEventsTableInfo.Var5
+  langs:
+  - csharp
+  - vb
+  name: LogEventsTableInfo
+  nameWithType: LogEventsTableInfo
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable &apos;log_events&apos;: System log\n"
+  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetLogEventsInfo()\"></see>.\n"
+  syntax:
+    content: >-
+      [DatabaseTable("log_events")]
+
+      public class LogEventsTableInfo : TableInfo, ICloneable
+    content.vb: >-
+      <DatabaseTable("log_events")>
+
+      Public Class LogEventsTableInfo
+          Inherits TableInfo
+          Implements ICloneable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.SQL.TableInfo
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - SuperOffice.Data.SQL.TableInfo.ToString
+  - SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  - SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  - SuperOffice.Data.SQL.TableInfo.Clone
+  - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  - SuperOffice.Data.SQL.TableInfo.ProtAll
+  - SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  - SuperOffice.Data.SQL.TableInfo.TableName
+  - SuperOffice.Data.SQL.TableInfo.DbName
+  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  - SuperOffice.Data.SQL.TableInfo.All
+  - SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Data.LogEventsTableInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Data.LogEventsTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.SQL.DatabaseTableAttribute
+    ctor: SuperOffice.Data.SQL.DatabaseTableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: log_events
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.DictionaryTableName
+  commentId: F:SuperOffice.CRM.Data.LogEventsTableInfo.DictionaryTableName
+  id: DictionaryTableName
+  parent: SuperOffice.CRM.Data.LogEventsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableName
+  nameWithType: LogEventsTableInfo.DictionaryTableName
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.DictionaryTableName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConceptual name of table LogEvents in the database dictionary: log_events\n"
+  syntax:
+    content: public const string DictionaryTableName = "log_events"
+    return:
+      type: System.String
+    content.vb: Public Const DictionaryTableName As String = "log_events"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.DictionaryTableNumber
+  commentId: P:SuperOffice.CRM.Data.LogEventsTableInfo.DictionaryTableNumber
+  id: DictionaryTableNumber
+  parent: SuperOffice.CRM.Data.LogEventsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableNumber
+  nameWithType: LogEventsTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.DictionaryTableNumber
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable number for table LogEvents in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
+  syntax:
+    content: public int DictionaryTableNumber { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
+  overload: SuperOffice.CRM.Data.LogEventsTableInfo.DictionaryTableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.RuntimeDefinition
+  commentId: P:SuperOffice.CRM.Data.LogEventsTableInfo.RuntimeDefinition
+  id: RuntimeDefinition
+  parent: SuperOffice.CRM.Data.LogEventsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RuntimeDefinition
+  nameWithType: LogEventsTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.RuntimeDefinition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: >-
+      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
+
+      public static SoTable RuntimeDefinition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: >-
+      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
+
+      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+  overload: SuperOffice.CRM.Data.LogEventsTableInfo.RuntimeDefinition*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use instance property Definition or static member DictionaryTableNumber
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.Definition
+  commentId: P:SuperOffice.CRM.Data.LogEventsTableInfo.Definition
+  id: Definition
+  parent: SuperOffice.CRM.Data.LogEventsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: LogEventsTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.Definition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: public override SoTable Definition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: Public Overrides ReadOnly Property Definition As SoTable
+  overridden: SuperOffice.Data.SQL.TableInfo.Definition
+  overload: SuperOffice.CRM.Data.LogEventsTableInfo.Definition*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.LogEventsId
+  commentId: P:SuperOffice.CRM.Data.LogEventsTableInfo.LogEventsId
+  id: LogEventsId
+  parent: SuperOffice.CRM.Data.LogEventsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LogEventsId
+  nameWithType: LogEventsTableInfo.LogEventsId
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.LogEventsId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;id&apos; in table &apos;log_events&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrimary key\n"
+  syntax:
+    content: public Int32FieldInfo LogEventsId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property LogEventsId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.LogEventsTableInfo.LogEventsId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.TimeOfEvent
+  commentId: P:SuperOffice.CRM.Data.LogEventsTableInfo.TimeOfEvent
+  id: TimeOfEvent
+  parent: SuperOffice.CRM.Data.LogEventsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: TimeOfEvent
+  nameWithType: LogEventsTableInfo.TimeOfEvent
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.TimeOfEvent
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;time_of_event&apos; in table &apos;log_events&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWhen did the event take place\n"
+  syntax:
+    content: public DateTimeFieldInfo TimeOfEvent { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property TimeOfEvent As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.LogEventsTableInfo.TimeOfEvent*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.EventType
+  commentId: P:SuperOffice.CRM.Data.LogEventsTableInfo.EventType
+  id: EventType
+  parent: SuperOffice.CRM.Data.LogEventsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: EventType
+  nameWithType: LogEventsTableInfo.EventType
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.EventType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;event_type&apos; in table &apos;log_events&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNotification=1, warning=2, error=3, critical error=4\n"
+  syntax:
+    content: public Int32FieldInfo EventType { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property EventType As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.LogEventsTableInfo.EventType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.EventGroup
+  commentId: P:SuperOffice.CRM.Data.LogEventsTableInfo.EventGroup
+  id: EventGroup
+  parent: SuperOffice.CRM.Data.LogEventsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: EventGroup
+  nameWithType: LogEventsTableInfo.EventGroup
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.EventGroup
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;event_group&apos; in table &apos;log_events&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSee NewLog::EventGroup\n"
+  syntax:
+    content: public Int32FieldInfo EventGroup { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property EventGroup As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.LogEventsTableInfo.EventGroup*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.EventId
+  commentId: P:SuperOffice.CRM.Data.LogEventsTableInfo.EventId
+  id: EventId
+  parent: SuperOffice.CRM.Data.LogEventsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: EventId
+  nameWithType: LogEventsTableInfo.EventId
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.EventId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;event_id&apos; in table &apos;log_events&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSee NewLog::EventId\n"
+  syntax:
+    content: public Int32FieldInfo EventId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property EventId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.LogEventsTableInfo.EventId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.TargetId
+  commentId: P:SuperOffice.CRM.Data.LogEventsTableInfo.TargetId
+  id: TargetId
+  parent: SuperOffice.CRM.Data.LogEventsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: TargetId
+  nameWithType: LogEventsTableInfo.TargetId
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.TargetId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;target_id&apos; in table &apos;log_events&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe id of the target entity (ticket.id, customer.id etc)\n"
+  syntax:
+    content: public Int32FieldInfo TargetId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property TargetId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.LogEventsTableInfo.TargetId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.Var1
+  commentId: P:SuperOffice.CRM.Data.LogEventsTableInfo.Var1
+  id: Var1
+  parent: SuperOffice.CRM.Data.LogEventsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Var1
+  nameWithType: LogEventsTableInfo.Var1
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.Var1
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;var1&apos; in table &apos;log_events&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDynamic info\n"
+  syntax:
+    content: public StringFieldInfo Var1 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Var1 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.LogEventsTableInfo.Var1*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.Var2
+  commentId: P:SuperOffice.CRM.Data.LogEventsTableInfo.Var2
+  id: Var2
+  parent: SuperOffice.CRM.Data.LogEventsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Var2
+  nameWithType: LogEventsTableInfo.Var2
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.Var2
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;var2&apos; in table &apos;log_events&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDynamic info\n"
+  syntax:
+    content: public StringFieldInfo Var2 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Var2 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.LogEventsTableInfo.Var2*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.Var3
+  commentId: P:SuperOffice.CRM.Data.LogEventsTableInfo.Var3
+  id: Var3
+  parent: SuperOffice.CRM.Data.LogEventsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Var3
+  nameWithType: LogEventsTableInfo.Var3
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.Var3
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;var3&apos; in table &apos;log_events&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDynamic info\n"
+  syntax:
+    content: public StringFieldInfo Var3 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Var3 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.LogEventsTableInfo.Var3*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.Var4
+  commentId: P:SuperOffice.CRM.Data.LogEventsTableInfo.Var4
+  id: Var4
+  parent: SuperOffice.CRM.Data.LogEventsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Var4
+  nameWithType: LogEventsTableInfo.Var4
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.Var4
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;var4&apos; in table &apos;log_events&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDynamic info\n"
+  syntax:
+    content: public StringFieldInfo Var4 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Var4 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.LogEventsTableInfo.Var4*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.Var5
+  commentId: P:SuperOffice.CRM.Data.LogEventsTableInfo.Var5
+  id: Var5
+  parent: SuperOffice.CRM.Data.LogEventsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Var5
+  nameWithType: LogEventsTableInfo.Var5
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.Var5
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;var5&apos; in table &apos;log_events&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDynamic info\n"
+  syntax:
+    content: public StringFieldInfo Var5 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Var5 As StringFieldInfo
+  overload: SuperOffice.CRM.Data.LogEventsTableInfo.Var5*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.SourceUser
+  commentId: P:SuperOffice.CRM.Data.LogEventsTableInfo.SourceUser
+  id: SourceUser
+  parent: SuperOffice.CRM.Data.LogEventsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SourceUser
+  nameWithType: LogEventsTableInfo.SourceUser
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.SourceUser
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;source_user&apos; in table &apos;log_events&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe user generating the event. 1=system, other=ejuser.id\n"
+  syntax:
+    content: public Int32FieldInfo SourceUser { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property SourceUser As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.LogEventsTableInfo.SourceUser*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.SourceUserDesc
+  commentId: P:SuperOffice.CRM.Data.LogEventsTableInfo.SourceUserDesc
+  id: SourceUserDesc
+  parent: SuperOffice.CRM.Data.LogEventsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SourceUserDesc
+  nameWithType: LogEventsTableInfo.SourceUserDesc
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.SourceUserDesc
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;source_user_desc&apos; in table &apos;log_events&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDescribing the id in source_user. eg user name or customer name or (System)\n"
+  syntax:
+    content: public StringFieldInfo SourceUserDesc { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property SourceUserDesc As StringFieldInfo
+  overload: SuperOffice.CRM.Data.LogEventsTableInfo.SourceUserDesc*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: SuperOffice.Data.SQL.TableInfo.ToString
+  commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ToString()
+  nameWithType: TableInfo.ToString()
+  fullName: SuperOffice.Data.SQL.TableInfo.ToString()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: RegisterFields(FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(FieldInfo())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FieldInfoFromSoField(SoField)
+  nameWithType: TableInfo.FieldInfoFromSoField(SoField)
+  fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.Clone
+  commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Clone()
+  nameWithType: TableInfo.Clone()
+  fullName: SuperOffice.Data.SQL.TableInfo.Clone()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsSameTable(TableInfo)
+  nameWithType: TableInfo.IsSameTable(TableInfo)
+  fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FindField(String)
+  nameWithType: TableInfo.FindField(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
+  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ProtAll
+  nameWithType: TableInfo.ProtAll
+  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+- uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: HashCheckFields
+  nameWithType: TableInfo.HashCheckFields
+  fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+- uid: SuperOffice.Data.SQL.TableInfo.TableName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: TableName
+  nameWithType: TableInfo.TableName
+  fullName: SuperOffice.Data.SQL.TableInfo.TableName
+- uid: SuperOffice.Data.SQL.TableInfo.DbName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: DbName
+  nameWithType: TableInfo.DbName
+  fullName: SuperOffice.Data.SQL.TableInfo.DbName
+- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsDictionaryTable
+  nameWithType: TableInfo.IsDictionaryTable
+  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+- uid: SuperOffice.Data.SQL.TableInfo.All
+  commentId: P:SuperOffice.Data.SQL.TableInfo.All
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: All
+  nameWithType: TableInfo.All
+  fullName: SuperOffice.Data.SQL.TableInfo.All
+- uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Item[String]
+  nameWithType: TableInfo.Item[String]
+  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
+  nameWithType.vb: TableInfo.Item(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  name.vb: Item(String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: PrimaryKeyField
+  nameWithType: TableInfo.PrimaryKeyField
+  fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<LogEventsTableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<LogEventsTableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.LogEventsTableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of LogEventsTableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.LogEventsTableInfo, To)()
+  name.vb: MapEnums(Of LogEventsTableInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<LogEventsTableInfo, To>
+    nameWithType: EnumUtil.MapEnums<LogEventsTableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.LogEventsTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of LogEventsTableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of LogEventsTableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.LogEventsTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<LogEventsTableInfo, To>()
+  nameWithType: Converters.MapEnums<LogEventsTableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.LogEventsTableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of LogEventsTableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.LogEventsTableInfo, To)()
+  name.vb: MapEnums(Of LogEventsTableInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<LogEventsTableInfo, To>
+    nameWithType: Converters.MapEnums<LogEventsTableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.LogEventsTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of LogEventsTableInfo, To)
+    nameWithType: Converters.MapEnums(Of LogEventsTableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.LogEventsTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.DictionaryTableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.LogEventsTableInfo.DictionaryTableNumber
+  isExternal: true
+  name: DictionaryTableNumber
+  nameWithType: LogEventsTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.DictionaryTableNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.RuntimeDefinition*
+  commentId: Overload:SuperOffice.CRM.Data.LogEventsTableInfo.RuntimeDefinition
+  isExternal: true
+  name: RuntimeDefinition
+  nameWithType: LogEventsTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.RuntimeDefinition
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: SuperOffice.Data.SQL.TableInfo.Definition
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Definition
+  nameWithType: TableInfo.Definition
+  fullName: SuperOffice.Data.SQL.TableInfo.Definition
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.Definition*
+  commentId: Overload:SuperOffice.CRM.Data.LogEventsTableInfo.Definition
+  isExternal: true
+  name: Definition
+  nameWithType: LogEventsTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.Definition
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.LogEventsId*
+  commentId: Overload:SuperOffice.CRM.Data.LogEventsTableInfo.LogEventsId
+  isExternal: true
+  name: LogEventsId
+  nameWithType: LogEventsTableInfo.LogEventsId
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.LogEventsId
+- uid: SuperOffice.Data.SQL.Int32FieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Int32FieldInfo
+  nameWithType: Int32FieldInfo
+  fullName: SuperOffice.Data.SQL.Int32FieldInfo
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.TimeOfEvent*
+  commentId: Overload:SuperOffice.CRM.Data.LogEventsTableInfo.TimeOfEvent
+  isExternal: true
+  name: TimeOfEvent
+  nameWithType: LogEventsTableInfo.TimeOfEvent
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.TimeOfEvent
+- uid: SuperOffice.Data.SQL.DateTimeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DateTimeFieldInfo
+  nameWithType: DateTimeFieldInfo
+  fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.EventType*
+  commentId: Overload:SuperOffice.CRM.Data.LogEventsTableInfo.EventType
+  isExternal: true
+  name: EventType
+  nameWithType: LogEventsTableInfo.EventType
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.EventType
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.EventGroup*
+  commentId: Overload:SuperOffice.CRM.Data.LogEventsTableInfo.EventGroup
+  isExternal: true
+  name: EventGroup
+  nameWithType: LogEventsTableInfo.EventGroup
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.EventGroup
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.EventId*
+  commentId: Overload:SuperOffice.CRM.Data.LogEventsTableInfo.EventId
+  isExternal: true
+  name: EventId
+  nameWithType: LogEventsTableInfo.EventId
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.EventId
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.TargetId*
+  commentId: Overload:SuperOffice.CRM.Data.LogEventsTableInfo.TargetId
+  isExternal: true
+  name: TargetId
+  nameWithType: LogEventsTableInfo.TargetId
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.TargetId
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.Var1*
+  commentId: Overload:SuperOffice.CRM.Data.LogEventsTableInfo.Var1
+  isExternal: true
+  name: Var1
+  nameWithType: LogEventsTableInfo.Var1
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.Var1
+- uid: SuperOffice.Data.SQL.StringFieldInfo
+  commentId: T:SuperOffice.Data.SQL.StringFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: StringFieldInfo
+  nameWithType: StringFieldInfo
+  fullName: SuperOffice.Data.SQL.StringFieldInfo
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.Var2*
+  commentId: Overload:SuperOffice.CRM.Data.LogEventsTableInfo.Var2
+  isExternal: true
+  name: Var2
+  nameWithType: LogEventsTableInfo.Var2
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.Var2
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.Var3*
+  commentId: Overload:SuperOffice.CRM.Data.LogEventsTableInfo.Var3
+  isExternal: true
+  name: Var3
+  nameWithType: LogEventsTableInfo.Var3
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.Var3
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.Var4*
+  commentId: Overload:SuperOffice.CRM.Data.LogEventsTableInfo.Var4
+  isExternal: true
+  name: Var4
+  nameWithType: LogEventsTableInfo.Var4
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.Var4
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.Var5*
+  commentId: Overload:SuperOffice.CRM.Data.LogEventsTableInfo.Var5
+  isExternal: true
+  name: Var5
+  nameWithType: LogEventsTableInfo.Var5
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.Var5
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.SourceUser*
+  commentId: Overload:SuperOffice.CRM.Data.LogEventsTableInfo.SourceUser
+  isExternal: true
+  name: SourceUser
+  nameWithType: LogEventsTableInfo.SourceUser
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.SourceUser
+- uid: SuperOffice.CRM.Data.LogEventsTableInfo.SourceUserDesc*
+  commentId: Overload:SuperOffice.CRM.Data.LogEventsTableInfo.SourceUserDesc
+  isExternal: true
+  name: SourceUserDesc
+  nameWithType: LogEventsTableInfo.SourceUserDesc
+  fullName: SuperOffice.CRM.Data.LogEventsTableInfo.SourceUserDesc

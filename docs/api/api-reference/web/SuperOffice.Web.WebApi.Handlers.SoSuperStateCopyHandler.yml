@@ -1,0 +1,234 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler
+  commentId: T:SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler
+  id: SoSuperStateCopyHandler
+  parent: SuperOffice.Web.WebApi.Handlers
+  children:
+  - SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler.#ctor
+  - SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: SoSuperStateCopyHandler
+  nameWithType: SoSuperStateCopyHandler
+  fullName: SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.WebApi.Handlers
+  syntax:
+    content: 'public class SoSuperStateCopyHandler : DelegatingHandler'
+    content.vb: >-
+      Public Class SoSuperStateCopyHandler
+          Inherits DelegatingHandler
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  id: SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  parent: SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler
+  langs:
+  - csharp
+  - vb
+  name: SendAsync(HttpRequestMessage, CancellationToken)
+  nameWithType: SoSuperStateCopyHandler.SendAsync(HttpRequestMessage, CancellationToken)
+  fullName: SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler.SendAsync(System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.WebApi.Handlers
+  syntax:
+    content: protected override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+    parameters:
+    - id: request
+      type: System.Net.Http.HttpRequestMessage
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+    content.vb: Protected Overrides Function SendAsync(request As HttpRequestMessage, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)
+  overload: SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler.SendAsync*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler.#ctor
+  commentId: M:SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler
+  langs:
+  - csharp
+  - vb
+  name: SoSuperStateCopyHandler()
+  nameWithType: SoSuperStateCopyHandler.SoSuperStateCopyHandler()
+  fullName: SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler.SoSuperStateCopyHandler()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.WebApi.Handlers
+  syntax:
+    content: public SoSuperStateCopyHandler()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Web.WebApi.Handlers
+  commentId: N:SuperOffice.Web.WebApi.Handlers
+  isExternal: true
+  name: SuperOffice.Web.WebApi.Handlers
+  nameWithType: SuperOffice.Web.WebApi.Handlers
+  fullName: SuperOffice.Web.WebApi.Handlers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler.SendAsync*
+  commentId: Overload:SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler.SendAsync
+  isExternal: true
+  name: SendAsync
+  nameWithType: SoSuperStateCopyHandler.SendAsync
+  fullName: SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler.SendAsync
+- uid: System.Net.Http.HttpRequestMessage
+  commentId: '!:System.Net.Http.HttpRequestMessage'
+  isExternal: true
+  name: HttpRequestMessage
+  nameWithType: HttpRequestMessage
+  fullName: System.Net.Http.HttpRequestMessage
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+  commentId: T:System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<HttpResponseMessage>
+  nameWithType: Task<HttpResponseMessage>
+  fullName: System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage>
+  nameWithType.vb: Task(Of HttpResponseMessage)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Net.Http.HttpResponseMessage)
+  name.vb: Task(Of HttpResponseMessage)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler.#ctor*
+  commentId: Overload:SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler.#ctor
+  isExternal: true
+  name: SoSuperStateCopyHandler
+  nameWithType: SoSuperStateCopyHandler.SoSuperStateCopyHandler
+  fullName: SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler.SoSuperStateCopyHandler

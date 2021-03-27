@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Services
+  commentId: N:SuperOffice.Services
+  id: SuperOffice.Services
+  children:
+  - SuperOffice.Services.LatestVersion
+  - SuperOffice.Services.ServiceVersion
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Services
+  nameWithType: SuperOffice.Services
+  fullName: SuperOffice.Services
+  type: Namespace
+  assemblies:
+  - SOCore
+references:
+- uid: SuperOffice.Services.ServiceVersion
+  commentId: T:SuperOffice.Services.ServiceVersion
+  isExternal: true
+  name: ServiceVersion
+  nameWithType: ServiceVersion
+  fullName: SuperOffice.Services.ServiceVersion
+- uid: SuperOffice.Services.LatestVersion
+  commentId: T:SuperOffice.Services.LatestVersion
+  isExternal: true
+  name: LatestVersion
+  nameWithType: LatestVersion
+  fullName: SuperOffice.Services.LatestVersion

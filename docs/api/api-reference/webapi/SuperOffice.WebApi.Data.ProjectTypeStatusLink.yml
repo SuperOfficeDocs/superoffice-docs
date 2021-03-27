@@ -1,0 +1,406 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink
+  commentId: T:SuperOffice.WebApi.Data.ProjectTypeStatusLink
+  id: ProjectTypeStatusLink
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ProjectTypeStatusLink.#ctor
+  - SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjectTypeStatusLinkId
+  - SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusId
+  - SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusName
+  - SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusTooltip
+  - SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeId
+  - SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeName
+  - SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeTooltip
+  langs:
+  - csharp
+  - vb
+  name: ProjectTypeStatusLink
+  nameWithType: ProjectTypeStatusLink
+  fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ProjectTypeStatusLink.\n\n"
+  syntax:
+    content: 'public class ProjectTypeStatusLink : Carrier'
+    content.vb: >-
+      Public Class ProjectTypeStatusLink
+          Inherits Carrier
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ProjectTypeStatusLink.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ProjectTypeStatusLink
+  langs:
+  - csharp
+  - vb
+  name: ProjectTypeStatusLink()
+  nameWithType: ProjectTypeStatusLink.ProjectTypeStatusLink()
+  fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjectTypeStatusLink()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ProjectTypeStatusLink()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ProjectTypeStatusLink.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjectTypeStatusLinkId
+  commentId: P:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjectTypeStatusLinkId
+  id: ProjectTypeStatusLinkId
+  parent: SuperOffice.WebApi.Data.ProjectTypeStatusLink
+  langs:
+  - csharp
+  - vb
+  name: ProjectTypeStatusLinkId
+  nameWithType: ProjectTypeStatusLink.ProjectTypeStatusLinkId
+  fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjectTypeStatusLinkId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int ProjectTypeStatusLinkId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProjectTypeStatusLinkId As Integer
+  overload: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjectTypeStatusLinkId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeId
+  commentId: P:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeId
+  id: ProjTypeId
+  parent: SuperOffice.WebApi.Data.ProjectTypeStatusLink
+  langs:
+  - csharp
+  - vb
+  name: ProjTypeId
+  nameWithType: ProjectTypeStatusLink.ProjTypeId
+  fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int ProjTypeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProjTypeId As Integer
+  overload: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeName
+  commentId: P:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeName
+  id: ProjTypeName
+  parent: SuperOffice.WebApi.Data.ProjectTypeStatusLink
+  langs:
+  - csharp
+  - vb
+  name: ProjTypeName
+  nameWithType: ProjectTypeStatusLink.ProjTypeName
+  fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe list item\n"
+  syntax:
+    content: public virtual string ProjTypeName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProjTypeName As String
+  overload: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeTooltip
+  commentId: P:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeTooltip
+  id: ProjTypeTooltip
+  parent: SuperOffice.WebApi.Data.ProjectTypeStatusLink
+  langs:
+  - csharp
+  - vb
+  name: ProjTypeTooltip
+  nameWithType: ProjectTypeStatusLink.ProjTypeTooltip
+  fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeTooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip or other description\n"
+  syntax:
+    content: public virtual string ProjTypeTooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProjTypeTooltip As String
+  overload: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeTooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusId
+  commentId: P:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusId
+  id: ProjStatusId
+  parent: SuperOffice.WebApi.Data.ProjectTypeStatusLink
+  langs:
+  - csharp
+  - vb
+  name: ProjStatusId
+  nameWithType: ProjectTypeStatusLink.ProjStatusId
+  fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int ProjStatusId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProjStatusId As Integer
+  overload: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusName
+  commentId: P:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusName
+  id: ProjStatusName
+  parent: SuperOffice.WebApi.Data.ProjectTypeStatusLink
+  langs:
+  - csharp
+  - vb
+  name: ProjStatusName
+  nameWithType: ProjectTypeStatusLink.ProjStatusName
+  fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe list item\n"
+  syntax:
+    content: public virtual string ProjStatusName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProjStatusName As String
+  overload: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusTooltip
+  commentId: P:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusTooltip
+  id: ProjStatusTooltip
+  parent: SuperOffice.WebApi.Data.ProjectTypeStatusLink
+  langs:
+  - csharp
+  - vb
+  name: ProjStatusTooltip
+  nameWithType: ProjectTypeStatusLink.ProjStatusTooltip
+  fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusTooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip or other description\n"
+  syntax:
+    content: public virtual string ProjStatusTooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProjStatusTooltip As String
+  overload: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusTooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ProjectTypeStatusLink.#ctor
+  isExternal: true
+  name: ProjectTypeStatusLink
+  nameWithType: ProjectTypeStatusLink.ProjectTypeStatusLink
+  fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjectTypeStatusLink
+- uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjectTypeStatusLinkId*
+  commentId: Overload:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjectTypeStatusLinkId
+  isExternal: true
+  name: ProjectTypeStatusLinkId
+  nameWithType: ProjectTypeStatusLink.ProjectTypeStatusLinkId
+  fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjectTypeStatusLinkId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeId*
+  commentId: Overload:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeId
+  isExternal: true
+  name: ProjTypeId
+  nameWithType: ProjectTypeStatusLink.ProjTypeId
+  fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeId
+- uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeName*
+  commentId: Overload:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeName
+  isExternal: true
+  name: ProjTypeName
+  nameWithType: ProjectTypeStatusLink.ProjTypeName
+  fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeTooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeTooltip
+  isExternal: true
+  name: ProjTypeTooltip
+  nameWithType: ProjectTypeStatusLink.ProjTypeTooltip
+  fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeTooltip
+- uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusId*
+  commentId: Overload:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusId
+  isExternal: true
+  name: ProjStatusId
+  nameWithType: ProjectTypeStatusLink.ProjStatusId
+  fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusId
+- uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusName*
+  commentId: Overload:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusName
+  isExternal: true
+  name: ProjStatusName
+  nameWithType: ProjectTypeStatusLink.ProjStatusName
+  fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusName
+- uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusTooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusTooltip
+  isExternal: true
+  name: ProjStatusTooltip
+  nameWithType: ProjectTypeStatusLink.ProjStatusTooltip
+  fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusTooltip

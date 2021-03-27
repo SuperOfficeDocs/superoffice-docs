@@ -1,0 +1,413 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi
+  commentId: T:SuperOffice.DCF.Web.WebApi.RegisterClientWebApi
+  id: RegisterClientWebApi
+  parent: SuperOffice.DCF.Web.WebApi
+  children:
+  - SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.#ctor
+  - SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.RegisterWebApis(System.Web.Http.HttpConfiguration)
+  langs:
+  - csharp
+  - vb
+  name: RegisterClientWebApi
+  nameWithType: RegisterClientWebApi
+  fullName: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.WebApi
+  syntax:
+    content: public class RegisterClientWebApi
+    content.vb: Public Class RegisterClientWebApi
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.RegisterWebApis(System.Web.Http.HttpConfiguration)
+  commentId: M:SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.RegisterWebApis(System.Web.Http.HttpConfiguration)
+  id: RegisterWebApis(System.Web.Http.HttpConfiguration)
+  parent: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi
+  langs:
+  - csharp
+  - vb
+  name: RegisterWebApis(HttpConfiguration)
+  nameWithType: RegisterClientWebApi.RegisterWebApis(HttpConfiguration)
+  fullName: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.RegisterWebApis(System.Web.Http.HttpConfiguration)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.WebApi
+  syntax:
+    content: public static void RegisterWebApis(HttpConfiguration config)
+    parameters:
+    - id: config
+      type: System.Web.Http.HttpConfiguration
+    content.vb: Public Shared Sub RegisterWebApis(config As HttpConfiguration)
+  overload: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.RegisterWebApis*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.#ctor
+  commentId: M:SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi
+  langs:
+  - csharp
+  - vb
+  name: RegisterClientWebApi()
+  nameWithType: RegisterClientWebApi.RegisterClientWebApi()
+  fullName: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.RegisterClientWebApi()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.WebApi
+  syntax:
+    content: public RegisterClientWebApi()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.WebApi
+  commentId: N:SuperOffice.DCF.Web.WebApi
+  isExternal: true
+  name: SuperOffice.DCF.Web.WebApi
+  nameWithType: SuperOffice.DCF.Web.WebApi
+  fullName: SuperOffice.DCF.Web.WebApi
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.RegisterWebApis*
+  commentId: Overload:SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.RegisterWebApis
+  isExternal: true
+  name: RegisterWebApis
+  nameWithType: RegisterClientWebApi.RegisterWebApis
+  fullName: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.RegisterWebApis
+- uid: System.Web.Http.HttpConfiguration
+  commentId: '!:System.Web.Http.HttpConfiguration'
+  isExternal: true
+  name: HttpConfiguration
+  nameWithType: HttpConfiguration
+  fullName: System.Web.Http.HttpConfiguration
+- uid: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.#ctor
+  isExternal: true
+  name: RegisterClientWebApi
+  nameWithType: RegisterClientWebApi.RegisterClientWebApi
+  fullName: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi.RegisterClientWebApi

@@ -1,0 +1,3658 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.ImportColumnDef
+  commentId: T:SuperOffice.Data.ImportColumnDef
+  id: ImportColumnDef
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.ImportColumnDef.ContactBusiness
+  - SuperOffice.Data.ImportColumnDef.ContactCategory
+  - SuperOffice.Data.ImportColumnDef.ContactCountry
+  - SuperOffice.Data.ImportColumnDef.ContactDepartment
+  - SuperOffice.Data.ImportColumnDef.ContactEmail
+  - SuperOffice.Data.ImportColumnDef.ContactErpBusiness
+  - SuperOffice.Data.ImportColumnDef.ContactErpCategory
+  - SuperOffice.Data.ImportColumnDef.ContactErpOurContact
+  - SuperOffice.Data.ImportColumnDef.ContactFax
+  - SuperOffice.Data.ImportColumnDef.ContactId
+  - SuperOffice.Data.ImportColumnDef.ContactInfo
+  - SuperOffice.Data.ImportColumnDef.ContactInterest
+  - SuperOffice.Data.ImportColumnDef.ContactName
+  - SuperOffice.Data.ImportColumnDef.ContactNoMailing
+  - SuperOffice.Data.ImportColumnDef.ContactNumber1
+  - SuperOffice.Data.ImportColumnDef.ContactNumber2
+  - SuperOffice.Data.ImportColumnDef.ContactOrgNr
+  - SuperOffice.Data.ImportColumnDef.ContactOurContact
+  - SuperOffice.Data.ImportColumnDef.ContactPhone
+  - SuperOffice.Data.ImportColumnDef.ContactPostalAddress1
+  - SuperOffice.Data.ImportColumnDef.ContactPostalAddress2
+  - SuperOffice.Data.ImportColumnDef.ContactPostalAddress3
+  - SuperOffice.Data.ImportColumnDef.ContactPostalCity
+  - SuperOffice.Data.ImportColumnDef.ContactPostalCounty
+  - SuperOffice.Data.ImportColumnDef.ContactPostalState
+  - SuperOffice.Data.ImportColumnDef.ContactPostalWgs84Latitude
+  - SuperOffice.Data.ImportColumnDef.ContactPostalWgs84Longitude
+  - SuperOffice.Data.ImportColumnDef.ContactPostalZipcode
+  - SuperOffice.Data.ImportColumnDef.ContactStreetAddress1
+  - SuperOffice.Data.ImportColumnDef.ContactStreetAddress2
+  - SuperOffice.Data.ImportColumnDef.ContactStreetAddress3
+  - SuperOffice.Data.ImportColumnDef.ContactStreetCity
+  - SuperOffice.Data.ImportColumnDef.ContactStreetCounty
+  - SuperOffice.Data.ImportColumnDef.ContactStreetState
+  - SuperOffice.Data.ImportColumnDef.ContactStreetWgs84Latitude
+  - SuperOffice.Data.ImportColumnDef.ContactStreetWgs84Longitude
+  - SuperOffice.Data.ImportColumnDef.ContactStreetZipcode
+  - SuperOffice.Data.ImportColumnDef.ContactUrl
+  - SuperOffice.Data.ImportColumnDef.ContactXstop
+  - SuperOffice.Data.ImportColumnDef.ImportColumns
+  - SuperOffice.Data.ImportColumnDef.ImportProductColumns
+  - SuperOffice.Data.ImportColumnDef.PersonAddress1
+  - SuperOffice.Data.ImportColumnDef.PersonAddress2
+  - SuperOffice.Data.ImportColumnDef.PersonAddress3
+  - SuperOffice.Data.ImportColumnDef.PersonBirthDate
+  - SuperOffice.Data.ImportColumnDef.PersonBusiness
+  - SuperOffice.Data.ImportColumnDef.PersonCategory
+  - SuperOffice.Data.ImportColumnDef.PersonChat
+  - SuperOffice.Data.ImportColumnDef.PersonCity
+  - SuperOffice.Data.ImportColumnDef.PersonCountry
+  - SuperOffice.Data.ImportColumnDef.PersonCounty
+  - SuperOffice.Data.ImportColumnDef.PersonDepartment
+  - SuperOffice.Data.ImportColumnDef.PersonEmail
+  - SuperOffice.Data.ImportColumnDef.PersonErpPersPos
+  - SuperOffice.Data.ImportColumnDef.PersonFaxes
+  - SuperOffice.Data.ImportColumnDef.PersonFirstname
+  - SuperOffice.Data.ImportColumnDef.PersonFullname
+  - SuperOffice.Data.ImportColumnDef.PersonId
+  - SuperOffice.Data.ImportColumnDef.PersonInfo
+  - SuperOffice.Data.ImportColumnDef.PersonInitials
+  - SuperOffice.Data.ImportColumnDef.PersonInterest
+  - SuperOffice.Data.ImportColumnDef.PersonInternetPhones
+  - SuperOffice.Data.ImportColumnDef.PersonLastname
+  - SuperOffice.Data.ImportColumnDef.PersonMiddlename
+  - SuperOffice.Data.ImportColumnDef.PersonMobilePhones
+  - SuperOffice.Data.ImportColumnDef.PersonMrmrs
+  - SuperOffice.Data.ImportColumnDef.PersonNoMailing
+  - SuperOffice.Data.ImportColumnDef.PersonOfficePhones
+  - SuperOffice.Data.ImportColumnDef.PersonOther
+  - SuperOffice.Data.ImportColumnDef.PersonOurContact
+  - SuperOffice.Data.ImportColumnDef.PersonPersonNumber
+  - SuperOffice.Data.ImportColumnDef.PersonPosition
+  - SuperOffice.Data.ImportColumnDef.PersonPrivatePhones
+  - SuperOffice.Data.ImportColumnDef.PersonRetired
+  - SuperOffice.Data.ImportColumnDef.PersonSalutation
+  - SuperOffice.Data.ImportColumnDef.PersonState
+  - SuperOffice.Data.ImportColumnDef.PersonTitle
+  - SuperOffice.Data.ImportColumnDef.PersonUrl
+  - SuperOffice.Data.ImportColumnDef.PersonUsePersonAddress
+  - SuperOffice.Data.ImportColumnDef.PersonWgs84Latitude
+  - SuperOffice.Data.ImportColumnDef.PersonWgs84Longitude
+  - SuperOffice.Data.ImportColumnDef.PersonZipcode
+  - SuperOffice.Data.ImportColumnDef.ProductCategory
+  - SuperOffice.Data.ImportColumnDef.ProductCode
+  - SuperOffice.Data.ImportColumnDef.ProductDefaultSubscriptionquantity
+  - SuperOffice.Data.ImportColumnDef.ProductDescription
+  - SuperOffice.Data.ImportColumnDef.ProductErpProductKey
+  - SuperOffice.Data.ImportColumnDef.ProductExtraField1
+  - SuperOffice.Data.ImportColumnDef.ProductExtraField2
+  - SuperOffice.Data.ImportColumnDef.ProductExtraField3
+  - SuperOffice.Data.ImportColumnDef.ProductExtraField4
+  - SuperOffice.Data.ImportColumnDef.ProductExtraField5
+  - SuperOffice.Data.ImportColumnDef.ProductExtraInfo
+  - SuperOffice.Data.ImportColumnDef.ProductFamily
+  - SuperOffice.Data.ImportColumnDef.ProductId
+  - SuperOffice.Data.ImportColumnDef.ProductImage
+  - SuperOffice.Data.ImportColumnDef.ProductInAssortment
+  - SuperOffice.Data.ImportColumnDef.ProductIsSubscription
+  - SuperOffice.Data.ImportColumnDef.ProductItemNumber
+  - SuperOffice.Data.ImportColumnDef.ProductName
+  - SuperOffice.Data.ImportColumnDef.ProductPriceUnit
+  - SuperOffice.Data.ImportColumnDef.ProductQuantityUnit
+  - SuperOffice.Data.ImportColumnDef.ProductRights
+  - SuperOffice.Data.ImportColumnDef.ProductRule
+  - SuperOffice.Data.ImportColumnDef.ProductSubscriptionUnit
+  - SuperOffice.Data.ImportColumnDef.ProductSupplier
+  - SuperOffice.Data.ImportColumnDef.ProductSupplierCode
+  - SuperOffice.Data.ImportColumnDef.ProductType
+  - SuperOffice.Data.ImportColumnDef.ProductUnitCost
+  - SuperOffice.Data.ImportColumnDef.ProductUnitListPrice
+  - SuperOffice.Data.ImportColumnDef.ProductUnitMinimumPrice
+  - SuperOffice.Data.ImportColumnDef.ProductUrl
+  - SuperOffice.Data.ImportColumnDef.ProductVat
+  - SuperOffice.Data.ImportColumnDef.ProductVatInfo
+  langs:
+  - csharp
+  - vb
+  name: ImportColumnDef
+  nameWithType: ImportColumnDef
+  fullName: SuperOffice.Data.ImportColumnDef
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nClass containing a dictionary of all import columns available\n"
+  syntax:
+    content: public static class ImportColumnDef
+    content.vb: Public Module ImportColumnDef
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Data.ImportColumnDef.PersonFirstname
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonFirstname
+  id: PersonFirstname
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonFirstname
+  nameWithType: ImportColumnDef.PersonFirstname
+  fullName: SuperOffice.Data.ImportColumnDef.PersonFirstname
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonFirstname = "person.firstname"
+    return:
+      type: System.String
+    content.vb: Public Const PersonFirstname As String = "person.firstname"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonMiddlename
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonMiddlename
+  id: PersonMiddlename
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonMiddlename
+  nameWithType: ImportColumnDef.PersonMiddlename
+  fullName: SuperOffice.Data.ImportColumnDef.PersonMiddlename
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonMiddlename = "person.middlename"
+    return:
+      type: System.String
+    content.vb: Public Const PersonMiddlename As String = "person.middlename"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonLastname
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonLastname
+  id: PersonLastname
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonLastname
+  nameWithType: ImportColumnDef.PersonLastname
+  fullName: SuperOffice.Data.ImportColumnDef.PersonLastname
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonLastname = "person.lastname"
+    return:
+      type: System.String
+    content.vb: Public Const PersonLastname As String = "person.lastname"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonFullname
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonFullname
+  id: PersonFullname
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonFullname
+  nameWithType: ImportColumnDef.PersonFullname
+  fullName: SuperOffice.Data.ImportColumnDef.PersonFullname
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonFullname = "person.fullname"
+    return:
+      type: System.String
+    content.vb: Public Const PersonFullname As String = "person.fullname"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonMrmrs
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonMrmrs
+  id: PersonMrmrs
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonMrmrs
+  nameWithType: ImportColumnDef.PersonMrmrs
+  fullName: SuperOffice.Data.ImportColumnDef.PersonMrmrs
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonMrmrs = "person.mrmrs"
+    return:
+      type: System.String
+    content.vb: Public Const PersonMrmrs As String = "person.mrmrs"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonTitle
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonTitle
+  id: PersonTitle
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonTitle
+  nameWithType: ImportColumnDef.PersonTitle
+  fullName: SuperOffice.Data.ImportColumnDef.PersonTitle
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonTitle = "person.title"
+    return:
+      type: System.String
+    content.vb: Public Const PersonTitle As String = "person.title"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonBirthDate
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonBirthDate
+  id: PersonBirthDate
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonBirthDate
+  nameWithType: ImportColumnDef.PersonBirthDate
+  fullName: SuperOffice.Data.ImportColumnDef.PersonBirthDate
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonBirthDate = "person.birthdate"
+    return:
+      type: System.String
+    content.vb: Public Const PersonBirthDate As String = "person.birthdate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonEmail
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonEmail
+  id: PersonEmail
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonEmail
+  nameWithType: ImportColumnDef.PersonEmail
+  fullName: SuperOffice.Data.ImportColumnDef.PersonEmail
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonEmail = "person.email"
+    return:
+      type: System.String
+    content.vb: Public Const PersonEmail As String = "person.email"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonPrivatePhones
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonPrivatePhones
+  id: PersonPrivatePhones
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonPrivatePhones
+  nameWithType: ImportColumnDef.PersonPrivatePhones
+  fullName: SuperOffice.Data.ImportColumnDef.PersonPrivatePhones
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonPrivatePhones = "person.privatephones"
+    return:
+      type: System.String
+    content.vb: Public Const PersonPrivatePhones As String = "person.privatephones"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonFaxes
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonFaxes
+  id: PersonFaxes
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonFaxes
+  nameWithType: ImportColumnDef.PersonFaxes
+  fullName: SuperOffice.Data.ImportColumnDef.PersonFaxes
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonFaxes = "person.faxes"
+    return:
+      type: System.String
+    content.vb: Public Const PersonFaxes As String = "person.faxes"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonOther
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonOther
+  id: PersonOther
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonOther
+  nameWithType: ImportColumnDef.PersonOther
+  fullName: SuperOffice.Data.ImportColumnDef.PersonOther
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonOther = "person.other"
+    return:
+      type: System.String
+    content.vb: Public Const PersonOther As String = "person.other"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonMobilePhones
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonMobilePhones
+  id: PersonMobilePhones
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonMobilePhones
+  nameWithType: ImportColumnDef.PersonMobilePhones
+  fullName: SuperOffice.Data.ImportColumnDef.PersonMobilePhones
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonMobilePhones = "person.mobilephones"
+    return:
+      type: System.String
+    content.vb: Public Const PersonMobilePhones As String = "person.mobilephones"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonOfficePhones
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonOfficePhones
+  id: PersonOfficePhones
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonOfficePhones
+  nameWithType: ImportColumnDef.PersonOfficePhones
+  fullName: SuperOffice.Data.ImportColumnDef.PersonOfficePhones
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonOfficePhones = "person.officephones"
+    return:
+      type: System.String
+    content.vb: Public Const PersonOfficePhones As String = "person.officephones"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonPosition
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonPosition
+  id: PersonPosition
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonPosition
+  nameWithType: ImportColumnDef.PersonPosition
+  fullName: SuperOffice.Data.ImportColumnDef.PersonPosition
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonPosition = "person.position"
+    return:
+      type: System.String
+    content.vb: Public Const PersonPosition As String = "person.position"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonCountry
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonCountry
+  id: PersonCountry
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonCountry
+  nameWithType: ImportColumnDef.PersonCountry
+  fullName: SuperOffice.Data.ImportColumnDef.PersonCountry
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonCountry = "person.country"
+    return:
+      type: System.String
+    content.vb: Public Const PersonCountry As String = "person.country"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonPersonNumber
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonPersonNumber
+  id: PersonPersonNumber
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonPersonNumber
+  nameWithType: ImportColumnDef.PersonPersonNumber
+  fullName: SuperOffice.Data.ImportColumnDef.PersonPersonNumber
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonPersonNumber = "person.personnumber"
+    return:
+      type: System.String
+    content.vb: Public Const PersonPersonNumber As String = "person.personnumber"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonNoMailing
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonNoMailing
+  id: PersonNoMailing
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonNoMailing
+  nameWithType: ImportColumnDef.PersonNoMailing
+  fullName: SuperOffice.Data.ImportColumnDef.PersonNoMailing
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonNoMailing = "person.nomailing"
+    return:
+      type: System.String
+    content.vb: Public Const PersonNoMailing As String = "person.nomailing"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonUsePersonAddress
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonUsePersonAddress
+  id: PersonUsePersonAddress
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonUsePersonAddress
+  nameWithType: ImportColumnDef.PersonUsePersonAddress
+  fullName: SuperOffice.Data.ImportColumnDef.PersonUsePersonAddress
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonUsePersonAddress = "person.usepersonaddress"
+    return:
+      type: System.String
+    content.vb: Public Const PersonUsePersonAddress As String = "person.usepersonaddress"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonUrl
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonUrl
+  id: PersonUrl
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonUrl
+  nameWithType: ImportColumnDef.PersonUrl
+  fullName: SuperOffice.Data.ImportColumnDef.PersonUrl
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonUrl = "person.url"
+    return:
+      type: System.String
+    content.vb: Public Const PersonUrl As String = "person.url"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonAddress1
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonAddress1
+  id: PersonAddress1
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonAddress1
+  nameWithType: ImportColumnDef.PersonAddress1
+  fullName: SuperOffice.Data.ImportColumnDef.PersonAddress1
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonAddress1 = "person.address1"
+    return:
+      type: System.String
+    content.vb: Public Const PersonAddress1 As String = "person.address1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonAddress2
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonAddress2
+  id: PersonAddress2
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonAddress2
+  nameWithType: ImportColumnDef.PersonAddress2
+  fullName: SuperOffice.Data.ImportColumnDef.PersonAddress2
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonAddress2 = "person.address2"
+    return:
+      type: System.String
+    content.vb: Public Const PersonAddress2 As String = "person.address2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonAddress3
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonAddress3
+  id: PersonAddress3
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonAddress3
+  nameWithType: ImportColumnDef.PersonAddress3
+  fullName: SuperOffice.Data.ImportColumnDef.PersonAddress3
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonAddress3 = "person.address3"
+    return:
+      type: System.String
+    content.vb: Public Const PersonAddress3 As String = "person.address3"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonCity
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonCity
+  id: PersonCity
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonCity
+  nameWithType: ImportColumnDef.PersonCity
+  fullName: SuperOffice.Data.ImportColumnDef.PersonCity
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonCity = "person.city"
+    return:
+      type: System.String
+    content.vb: Public Const PersonCity As String = "person.city"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonCounty
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonCounty
+  id: PersonCounty
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonCounty
+  nameWithType: ImportColumnDef.PersonCounty
+  fullName: SuperOffice.Data.ImportColumnDef.PersonCounty
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonCounty = "person.county"
+    return:
+      type: System.String
+    content.vb: Public Const PersonCounty As String = "person.county"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonState
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonState
+  id: PersonState
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonState
+  nameWithType: ImportColumnDef.PersonState
+  fullName: SuperOffice.Data.ImportColumnDef.PersonState
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonState = "person.state"
+    return:
+      type: System.String
+    content.vb: Public Const PersonState As String = "person.state"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonZipcode
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonZipcode
+  id: PersonZipcode
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonZipcode
+  nameWithType: ImportColumnDef.PersonZipcode
+  fullName: SuperOffice.Data.ImportColumnDef.PersonZipcode
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonZipcode = "person.zipcode"
+    return:
+      type: System.String
+    content.vb: Public Const PersonZipcode As String = "person.zipcode"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonWgs84Latitude
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonWgs84Latitude
+  id: PersonWgs84Latitude
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonWgs84Latitude
+  nameWithType: ImportColumnDef.PersonWgs84Latitude
+  fullName: SuperOffice.Data.ImportColumnDef.PersonWgs84Latitude
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonWgs84Latitude = "person.wgs84latitude"
+    return:
+      type: System.String
+    content.vb: Public Const PersonWgs84Latitude As String = "person.wgs84latitude"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonWgs84Longitude
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonWgs84Longitude
+  id: PersonWgs84Longitude
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonWgs84Longitude
+  nameWithType: ImportColumnDef.PersonWgs84Longitude
+  fullName: SuperOffice.Data.ImportColumnDef.PersonWgs84Longitude
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonWgs84Longitude = "person.wgs84longitude"
+    return:
+      type: System.String
+    content.vb: Public Const PersonWgs84Longitude As String = "person.wgs84longitude"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonBusiness
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonBusiness
+  id: PersonBusiness
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonBusiness
+  nameWithType: ImportColumnDef.PersonBusiness
+  fullName: SuperOffice.Data.ImportColumnDef.PersonBusiness
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonBusiness = "person.business"
+    return:
+      type: System.String
+    content.vb: Public Const PersonBusiness As String = "person.business"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonCategory
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonCategory
+  id: PersonCategory
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonCategory
+  nameWithType: ImportColumnDef.PersonCategory
+  fullName: SuperOffice.Data.ImportColumnDef.PersonCategory
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonCategory = "person.category"
+    return:
+      type: System.String
+    content.vb: Public Const PersonCategory As String = "person.category"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonDepartment
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonDepartment
+  id: PersonDepartment
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonDepartment
+  nameWithType: ImportColumnDef.PersonDepartment
+  fullName: SuperOffice.Data.ImportColumnDef.PersonDepartment
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonDepartment = "person.department"
+    return:
+      type: System.String
+    content.vb: Public Const PersonDepartment As String = "person.department"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonInfo
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonInfo
+  id: PersonInfo
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonInfo
+  nameWithType: ImportColumnDef.PersonInfo
+  fullName: SuperOffice.Data.ImportColumnDef.PersonInfo
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonInfo = "person.info"
+    return:
+      type: System.String
+    content.vb: Public Const PersonInfo As String = "person.info"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonInitials
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonInitials
+  id: PersonInitials
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonInitials
+  nameWithType: ImportColumnDef.PersonInitials
+  fullName: SuperOffice.Data.ImportColumnDef.PersonInitials
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonInitials = "person.initials"
+    return:
+      type: System.String
+    content.vb: Public Const PersonInitials As String = "person.initials"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonInternetPhones
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonInternetPhones
+  id: PersonInternetPhones
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonInternetPhones
+  nameWithType: ImportColumnDef.PersonInternetPhones
+  fullName: SuperOffice.Data.ImportColumnDef.PersonInternetPhones
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonInternetPhones = "person.internetphones"
+    return:
+      type: System.String
+    content.vb: Public Const PersonInternetPhones As String = "person.internetphones"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonSalutation
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonSalutation
+  id: PersonSalutation
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonSalutation
+  nameWithType: ImportColumnDef.PersonSalutation
+  fullName: SuperOffice.Data.ImportColumnDef.PersonSalutation
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonSalutation = "person.salutation"
+    return:
+      type: System.String
+    content.vb: Public Const PersonSalutation As String = "person.salutation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonChat
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonChat
+  id: PersonChat
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonChat
+  nameWithType: ImportColumnDef.PersonChat
+  fullName: SuperOffice.Data.ImportColumnDef.PersonChat
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonChat = "person.chat"
+    return:
+      type: System.String
+    content.vb: Public Const PersonChat As String = "person.chat"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonInterest
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonInterest
+  id: PersonInterest
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonInterest
+  nameWithType: ImportColumnDef.PersonInterest
+  fullName: SuperOffice.Data.ImportColumnDef.PersonInterest
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonInterest = "person.interest"
+    return:
+      type: System.String
+    content.vb: Public Const PersonInterest As String = "person.interest"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonOurContact
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonOurContact
+  id: PersonOurContact
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonOurContact
+  nameWithType: ImportColumnDef.PersonOurContact
+  fullName: SuperOffice.Data.ImportColumnDef.PersonOurContact
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonOurContact = "person.ourcontact"
+    return:
+      type: System.String
+    content.vb: Public Const PersonOurContact As String = "person.ourcontact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonId
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonId
+  id: PersonId
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: ImportColumnDef.PersonId
+  fullName: SuperOffice.Data.ImportColumnDef.PersonId
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonId = "person.id"
+    return:
+      type: System.String
+    content.vb: Public Const PersonId As String = "person.id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonErpPersPos
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonErpPersPos
+  id: PersonErpPersPos
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonErpPersPos
+  nameWithType: ImportColumnDef.PersonErpPersPos
+  fullName: SuperOffice.Data.ImportColumnDef.PersonErpPersPos
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonErpPersPos = "person.erpperspos"
+    return:
+      type: System.String
+    content.vb: Public Const PersonErpPersPos As String = "person.erpperspos"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.PersonRetired
+  commentId: F:SuperOffice.Data.ImportColumnDef.PersonRetired
+  id: PersonRetired
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: PersonRetired
+  nameWithType: ImportColumnDef.PersonRetired
+  fullName: SuperOffice.Data.ImportColumnDef.PersonRetired
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string PersonRetired = "person.retired"
+    return:
+      type: System.String
+    content.vb: Public Const PersonRetired As String = "person.retired"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactBusiness
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactBusiness
+  id: ContactBusiness
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactBusiness
+  nameWithType: ImportColumnDef.ContactBusiness
+  fullName: SuperOffice.Data.ImportColumnDef.ContactBusiness
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactBusiness = "contact.business"
+    return:
+      type: System.String
+    content.vb: Public Const ContactBusiness As String = "contact.business"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactCategory
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactCategory
+  id: ContactCategory
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactCategory
+  nameWithType: ImportColumnDef.ContactCategory
+  fullName: SuperOffice.Data.ImportColumnDef.ContactCategory
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactCategory = "contact.category"
+    return:
+      type: System.String
+    content.vb: Public Const ContactCategory As String = "contact.category"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactCountry
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactCountry
+  id: ContactCountry
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactCountry
+  nameWithType: ImportColumnDef.ContactCountry
+  fullName: SuperOffice.Data.ImportColumnDef.ContactCountry
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactCountry = "contact.country"
+    return:
+      type: System.String
+    content.vb: Public Const ContactCountry As String = "contact.country"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactDepartment
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactDepartment
+  id: ContactDepartment
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactDepartment
+  nameWithType: ImportColumnDef.ContactDepartment
+  fullName: SuperOffice.Data.ImportColumnDef.ContactDepartment
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactDepartment = "contact.department"
+    return:
+      type: System.String
+    content.vb: Public Const ContactDepartment As String = "contact.department"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactEmail
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactEmail
+  id: ContactEmail
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactEmail
+  nameWithType: ImportColumnDef.ContactEmail
+  fullName: SuperOffice.Data.ImportColumnDef.ContactEmail
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactEmail = "contact.email"
+    return:
+      type: System.String
+    content.vb: Public Const ContactEmail As String = "contact.email"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactPhone
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactPhone
+  id: ContactPhone
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactPhone
+  nameWithType: ImportColumnDef.ContactPhone
+  fullName: SuperOffice.Data.ImportColumnDef.ContactPhone
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactPhone = "contact.phone"
+    return:
+      type: System.String
+    content.vb: Public Const ContactPhone As String = "contact.phone"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactFax
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactFax
+  id: ContactFax
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactFax
+  nameWithType: ImportColumnDef.ContactFax
+  fullName: SuperOffice.Data.ImportColumnDef.ContactFax
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactFax = "contact.fax"
+    return:
+      type: System.String
+    content.vb: Public Const ContactFax As String = "contact.fax"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactInfo
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactInfo
+  id: ContactInfo
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactInfo
+  nameWithType: ImportColumnDef.ContactInfo
+  fullName: SuperOffice.Data.ImportColumnDef.ContactInfo
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactInfo = "contact.info"
+    return:
+      type: System.String
+    content.vb: Public Const ContactInfo As String = "contact.info"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactName
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactName
+  id: ContactName
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactName
+  nameWithType: ImportColumnDef.ContactName
+  fullName: SuperOffice.Data.ImportColumnDef.ContactName
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactName = "contact.name"
+    return:
+      type: System.String
+    content.vb: Public Const ContactName As String = "contact.name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactNoMailing
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactNoMailing
+  id: ContactNoMailing
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactNoMailing
+  nameWithType: ImportColumnDef.ContactNoMailing
+  fullName: SuperOffice.Data.ImportColumnDef.ContactNoMailing
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactNoMailing = "contact.nomailing"
+    return:
+      type: System.String
+    content.vb: Public Const ContactNoMailing As String = "contact.nomailing"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactNumber1
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactNumber1
+  id: ContactNumber1
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactNumber1
+  nameWithType: ImportColumnDef.ContactNumber1
+  fullName: SuperOffice.Data.ImportColumnDef.ContactNumber1
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactNumber1 = "contact.number1"
+    return:
+      type: System.String
+    content.vb: Public Const ContactNumber1 As String = "contact.number1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactNumber2
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactNumber2
+  id: ContactNumber2
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactNumber2
+  nameWithType: ImportColumnDef.ContactNumber2
+  fullName: SuperOffice.Data.ImportColumnDef.ContactNumber2
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactNumber2 = "contact.number2"
+    return:
+      type: System.String
+    content.vb: Public Const ContactNumber2 As String = "contact.number2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactOrgNr
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactOrgNr
+  id: ContactOrgNr
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactOrgNr
+  nameWithType: ImportColumnDef.ContactOrgNr
+  fullName: SuperOffice.Data.ImportColumnDef.ContactOrgNr
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactOrgNr = "contact.orgnr"
+    return:
+      type: System.String
+    content.vb: Public Const ContactOrgNr As String = "contact.orgnr"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactPostalAddress1
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactPostalAddress1
+  id: ContactPostalAddress1
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactPostalAddress1
+  nameWithType: ImportColumnDef.ContactPostalAddress1
+  fullName: SuperOffice.Data.ImportColumnDef.ContactPostalAddress1
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactPostalAddress1 = "contact.postaladdress1"
+    return:
+      type: System.String
+    content.vb: Public Const ContactPostalAddress1 As String = "contact.postaladdress1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactPostalAddress2
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactPostalAddress2
+  id: ContactPostalAddress2
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactPostalAddress2
+  nameWithType: ImportColumnDef.ContactPostalAddress2
+  fullName: SuperOffice.Data.ImportColumnDef.ContactPostalAddress2
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactPostalAddress2 = "contact.postaladdress2"
+    return:
+      type: System.String
+    content.vb: Public Const ContactPostalAddress2 As String = "contact.postaladdress2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactPostalAddress3
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactPostalAddress3
+  id: ContactPostalAddress3
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactPostalAddress3
+  nameWithType: ImportColumnDef.ContactPostalAddress3
+  fullName: SuperOffice.Data.ImportColumnDef.ContactPostalAddress3
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactPostalAddress3 = "contact.postaladdress3"
+    return:
+      type: System.String
+    content.vb: Public Const ContactPostalAddress3 As String = "contact.postaladdress3"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactPostalCity
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactPostalCity
+  id: ContactPostalCity
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactPostalCity
+  nameWithType: ImportColumnDef.ContactPostalCity
+  fullName: SuperOffice.Data.ImportColumnDef.ContactPostalCity
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactPostalCity = "contact.postalcity"
+    return:
+      type: System.String
+    content.vb: Public Const ContactPostalCity As String = "contact.postalcity"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactPostalCounty
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactPostalCounty
+  id: ContactPostalCounty
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactPostalCounty
+  nameWithType: ImportColumnDef.ContactPostalCounty
+  fullName: SuperOffice.Data.ImportColumnDef.ContactPostalCounty
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactPostalCounty = "contact.postalcounty"
+    return:
+      type: System.String
+    content.vb: Public Const ContactPostalCounty As String = "contact.postalcounty"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactPostalState
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactPostalState
+  id: ContactPostalState
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactPostalState
+  nameWithType: ImportColumnDef.ContactPostalState
+  fullName: SuperOffice.Data.ImportColumnDef.ContactPostalState
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactPostalState = "contact.postalstate"
+    return:
+      type: System.String
+    content.vb: Public Const ContactPostalState As String = "contact.postalstate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactPostalZipcode
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactPostalZipcode
+  id: ContactPostalZipcode
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactPostalZipcode
+  nameWithType: ImportColumnDef.ContactPostalZipcode
+  fullName: SuperOffice.Data.ImportColumnDef.ContactPostalZipcode
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactPostalZipcode = "contact.postalzipcode"
+    return:
+      type: System.String
+    content.vb: Public Const ContactPostalZipcode As String = "contact.postalzipcode"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactPostalWgs84Latitude
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactPostalWgs84Latitude
+  id: ContactPostalWgs84Latitude
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactPostalWgs84Latitude
+  nameWithType: ImportColumnDef.ContactPostalWgs84Latitude
+  fullName: SuperOffice.Data.ImportColumnDef.ContactPostalWgs84Latitude
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactPostalWgs84Latitude = "contact.postalwgs84latitude"
+    return:
+      type: System.String
+    content.vb: Public Const ContactPostalWgs84Latitude As String = "contact.postalwgs84latitude"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactPostalWgs84Longitude
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactPostalWgs84Longitude
+  id: ContactPostalWgs84Longitude
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactPostalWgs84Longitude
+  nameWithType: ImportColumnDef.ContactPostalWgs84Longitude
+  fullName: SuperOffice.Data.ImportColumnDef.ContactPostalWgs84Longitude
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactPostalWgs84Longitude = "contact.postalwgs84longitude"
+    return:
+      type: System.String
+    content.vb: Public Const ContactPostalWgs84Longitude As String = "contact.postalwgs84longitude"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactStreetAddress1
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactStreetAddress1
+  id: ContactStreetAddress1
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactStreetAddress1
+  nameWithType: ImportColumnDef.ContactStreetAddress1
+  fullName: SuperOffice.Data.ImportColumnDef.ContactStreetAddress1
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactStreetAddress1 = "contact.streetaddress1"
+    return:
+      type: System.String
+    content.vb: Public Const ContactStreetAddress1 As String = "contact.streetaddress1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactStreetAddress2
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactStreetAddress2
+  id: ContactStreetAddress2
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactStreetAddress2
+  nameWithType: ImportColumnDef.ContactStreetAddress2
+  fullName: SuperOffice.Data.ImportColumnDef.ContactStreetAddress2
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactStreetAddress2 = "contact.streetaddress2"
+    return:
+      type: System.String
+    content.vb: Public Const ContactStreetAddress2 As String = "contact.streetaddress2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactStreetAddress3
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactStreetAddress3
+  id: ContactStreetAddress3
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactStreetAddress3
+  nameWithType: ImportColumnDef.ContactStreetAddress3
+  fullName: SuperOffice.Data.ImportColumnDef.ContactStreetAddress3
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactStreetAddress3 = "contact.streetaddress3"
+    return:
+      type: System.String
+    content.vb: Public Const ContactStreetAddress3 As String = "contact.streetaddress3"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactStreetCity
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactStreetCity
+  id: ContactStreetCity
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactStreetCity
+  nameWithType: ImportColumnDef.ContactStreetCity
+  fullName: SuperOffice.Data.ImportColumnDef.ContactStreetCity
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactStreetCity = "contact.streetcity"
+    return:
+      type: System.String
+    content.vb: Public Const ContactStreetCity As String = "contact.streetcity"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactStreetCounty
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactStreetCounty
+  id: ContactStreetCounty
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactStreetCounty
+  nameWithType: ImportColumnDef.ContactStreetCounty
+  fullName: SuperOffice.Data.ImportColumnDef.ContactStreetCounty
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactStreetCounty = "contact.streetcounty"
+    return:
+      type: System.String
+    content.vb: Public Const ContactStreetCounty As String = "contact.streetcounty"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactStreetState
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactStreetState
+  id: ContactStreetState
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactStreetState
+  nameWithType: ImportColumnDef.ContactStreetState
+  fullName: SuperOffice.Data.ImportColumnDef.ContactStreetState
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactStreetState = "contact.streetstate"
+    return:
+      type: System.String
+    content.vb: Public Const ContactStreetState As String = "contact.streetstate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactStreetZipcode
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactStreetZipcode
+  id: ContactStreetZipcode
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactStreetZipcode
+  nameWithType: ImportColumnDef.ContactStreetZipcode
+  fullName: SuperOffice.Data.ImportColumnDef.ContactStreetZipcode
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactStreetZipcode = "contact.streetzipcode"
+    return:
+      type: System.String
+    content.vb: Public Const ContactStreetZipcode As String = "contact.streetzipcode"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactStreetWgs84Latitude
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactStreetWgs84Latitude
+  id: ContactStreetWgs84Latitude
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactStreetWgs84Latitude
+  nameWithType: ImportColumnDef.ContactStreetWgs84Latitude
+  fullName: SuperOffice.Data.ImportColumnDef.ContactStreetWgs84Latitude
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactStreetWgs84Latitude = "contact.streetwgs84latitude"
+    return:
+      type: System.String
+    content.vb: Public Const ContactStreetWgs84Latitude As String = "contact.streetwgs84latitude"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactStreetWgs84Longitude
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactStreetWgs84Longitude
+  id: ContactStreetWgs84Longitude
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactStreetWgs84Longitude
+  nameWithType: ImportColumnDef.ContactStreetWgs84Longitude
+  fullName: SuperOffice.Data.ImportColumnDef.ContactStreetWgs84Longitude
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactStreetWgs84Longitude = "contact.streetwgs84longitude"
+    return:
+      type: System.String
+    content.vb: Public Const ContactStreetWgs84Longitude As String = "contact.streetwgs84longitude"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactUrl
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactUrl
+  id: ContactUrl
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactUrl
+  nameWithType: ImportColumnDef.ContactUrl
+  fullName: SuperOffice.Data.ImportColumnDef.ContactUrl
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactUrl = "contact.url"
+    return:
+      type: System.String
+    content.vb: Public Const ContactUrl As String = "contact.url"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactXstop
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactXstop
+  id: ContactXstop
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactXstop
+  nameWithType: ImportColumnDef.ContactXstop
+  fullName: SuperOffice.Data.ImportColumnDef.ContactXstop
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactXstop = "contact.xstop"
+    return:
+      type: System.String
+    content.vb: Public Const ContactXstop As String = "contact.xstop"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactInterest
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactInterest
+  id: ContactInterest
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactInterest
+  nameWithType: ImportColumnDef.ContactInterest
+  fullName: SuperOffice.Data.ImportColumnDef.ContactInterest
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactInterest = "contact.interest"
+    return:
+      type: System.String
+    content.vb: Public Const ContactInterest As String = "contact.interest"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactOurContact
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactOurContact
+  id: ContactOurContact
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactOurContact
+  nameWithType: ImportColumnDef.ContactOurContact
+  fullName: SuperOffice.Data.ImportColumnDef.ContactOurContact
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactOurContact = "contact.ourcontact"
+    return:
+      type: System.String
+    content.vb: Public Const ContactOurContact As String = "contact.ourcontact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactId
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactId
+  id: ContactId
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: ImportColumnDef.ContactId
+  fullName: SuperOffice.Data.ImportColumnDef.ContactId
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactId = "contact.id"
+    return:
+      type: System.String
+    content.vb: Public Const ContactId As String = "contact.id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactErpBusiness
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactErpBusiness
+  id: ContactErpBusiness
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactErpBusiness
+  nameWithType: ImportColumnDef.ContactErpBusiness
+  fullName: SuperOffice.Data.ImportColumnDef.ContactErpBusiness
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactErpBusiness = "contact.erpbusiness"
+    return:
+      type: System.String
+    content.vb: Public Const ContactErpBusiness As String = "contact.erpbusiness"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactErpCategory
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactErpCategory
+  id: ContactErpCategory
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactErpCategory
+  nameWithType: ImportColumnDef.ContactErpCategory
+  fullName: SuperOffice.Data.ImportColumnDef.ContactErpCategory
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactErpCategory = "contact.erpcategory"
+    return:
+      type: System.String
+    content.vb: Public Const ContactErpCategory As String = "contact.erpcategory"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ContactErpOurContact
+  commentId: F:SuperOffice.Data.ImportColumnDef.ContactErpOurContact
+  id: ContactErpOurContact
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ContactErpOurContact
+  nameWithType: ImportColumnDef.ContactErpOurContact
+  fullName: SuperOffice.Data.ImportColumnDef.ContactErpOurContact
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ContactErpOurContact = "contact.erpourcontact"
+    return:
+      type: System.String
+    content.vb: Public Const ContactErpOurContact As String = "contact.erpourcontact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductErpProductKey
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductErpProductKey
+  id: ProductErpProductKey
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductErpProductKey
+  nameWithType: ImportColumnDef.ProductErpProductKey
+  fullName: SuperOffice.Data.ImportColumnDef.ProductErpProductKey
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductErpProductKey = "product.erpproductkey"
+    return:
+      type: System.String
+    content.vb: Public Const ProductErpProductKey As String = "product.erpproductkey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductName
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductName
+  id: ProductName
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductName
+  nameWithType: ImportColumnDef.ProductName
+  fullName: SuperOffice.Data.ImportColumnDef.ProductName
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductName = "product.name"
+    return:
+      type: System.String
+    content.vb: Public Const ProductName As String = "product.name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductDescription
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductDescription
+  id: ProductDescription
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductDescription
+  nameWithType: ImportColumnDef.ProductDescription
+  fullName: SuperOffice.Data.ImportColumnDef.ProductDescription
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductDescription = "product.description"
+    return:
+      type: System.String
+    content.vb: Public Const ProductDescription As String = "product.description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductCode
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductCode
+  id: ProductCode
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductCode
+  nameWithType: ImportColumnDef.ProductCode
+  fullName: SuperOffice.Data.ImportColumnDef.ProductCode
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductCode = "product.code"
+    return:
+      type: System.String
+    content.vb: Public Const ProductCode As String = "product.code"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductQuantityUnit
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductQuantityUnit
+  id: ProductQuantityUnit
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductQuantityUnit
+  nameWithType: ImportColumnDef.ProductQuantityUnit
+  fullName: SuperOffice.Data.ImportColumnDef.ProductQuantityUnit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductQuantityUnit = "product.quantityunit"
+    return:
+      type: System.String
+    content.vb: Public Const ProductQuantityUnit As String = "product.quantityunit"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductPriceUnit
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductPriceUnit
+  id: ProductPriceUnit
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductPriceUnit
+  nameWithType: ImportColumnDef.ProductPriceUnit
+  fullName: SuperOffice.Data.ImportColumnDef.ProductPriceUnit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductPriceUnit = "product.priceunit"
+    return:
+      type: System.String
+    content.vb: Public Const ProductPriceUnit As String = "product.priceunit"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductIsSubscription
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductIsSubscription
+  id: ProductIsSubscription
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductIsSubscription
+  nameWithType: ImportColumnDef.ProductIsSubscription
+  fullName: SuperOffice.Data.ImportColumnDef.ProductIsSubscription
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductIsSubscription = "product.issubscription"
+    return:
+      type: System.String
+    content.vb: Public Const ProductIsSubscription As String = "product.issubscription"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductSubscriptionUnit
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductSubscriptionUnit
+  id: ProductSubscriptionUnit
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductSubscriptionUnit
+  nameWithType: ImportColumnDef.ProductSubscriptionUnit
+  fullName: SuperOffice.Data.ImportColumnDef.ProductSubscriptionUnit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductSubscriptionUnit = "product.subscriptionunit"
+    return:
+      type: System.String
+    content.vb: Public Const ProductSubscriptionUnit As String = "product.subscriptionunit"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductDefaultSubscriptionquantity
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductDefaultSubscriptionquantity
+  id: ProductDefaultSubscriptionquantity
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductDefaultSubscriptionquantity
+  nameWithType: ImportColumnDef.ProductDefaultSubscriptionquantity
+  fullName: SuperOffice.Data.ImportColumnDef.ProductDefaultSubscriptionquantity
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductDefaultSubscriptionquantity = "product.defaultsubscriptionquantity"
+    return:
+      type: System.String
+    content.vb: Public Const ProductDefaultSubscriptionquantity As String = "product.defaultsubscriptionquantity"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductItemNumber
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductItemNumber
+  id: ProductItemNumber
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductItemNumber
+  nameWithType: ImportColumnDef.ProductItemNumber
+  fullName: SuperOffice.Data.ImportColumnDef.ProductItemNumber
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductItemNumber = "product.itemnumber"
+    return:
+      type: System.String
+    content.vb: Public Const ProductItemNumber As String = "product.itemnumber"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductUrl
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductUrl
+  id: ProductUrl
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductUrl
+  nameWithType: ImportColumnDef.ProductUrl
+  fullName: SuperOffice.Data.ImportColumnDef.ProductUrl
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductUrl = "product.url"
+    return:
+      type: System.String
+    content.vb: Public Const ProductUrl As String = "product.url"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductCategory
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductCategory
+  id: ProductCategory
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductCategory
+  nameWithType: ImportColumnDef.ProductCategory
+  fullName: SuperOffice.Data.ImportColumnDef.ProductCategory
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductCategory = "product.category"
+    return:
+      type: System.String
+    content.vb: Public Const ProductCategory As String = "product.category"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductFamily
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductFamily
+  id: ProductFamily
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductFamily
+  nameWithType: ImportColumnDef.ProductFamily
+  fullName: SuperOffice.Data.ImportColumnDef.ProductFamily
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductFamily = "product.family"
+    return:
+      type: System.String
+    content.vb: Public Const ProductFamily As String = "product.family"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductType
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductType
+  id: ProductType
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductType
+  nameWithType: ImportColumnDef.ProductType
+  fullName: SuperOffice.Data.ImportColumnDef.ProductType
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductType = "product.type"
+    return:
+      type: System.String
+    content.vb: Public Const ProductType As String = "product.type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductVatInfo
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductVatInfo
+  id: ProductVatInfo
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductVatInfo
+  nameWithType: ImportColumnDef.ProductVatInfo
+  fullName: SuperOffice.Data.ImportColumnDef.ProductVatInfo
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductVatInfo = "product.vatinfo"
+    return:
+      type: System.String
+    content.vb: Public Const ProductVatInfo As String = "product.vatinfo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductVat
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductVat
+  id: ProductVat
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductVat
+  nameWithType: ImportColumnDef.ProductVat
+  fullName: SuperOffice.Data.ImportColumnDef.ProductVat
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductVat = "product.vat"
+    return:
+      type: System.String
+    content.vb: Public Const ProductVat As String = "product.vat"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductUnitCost
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductUnitCost
+  id: ProductUnitCost
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductUnitCost
+  nameWithType: ImportColumnDef.ProductUnitCost
+  fullName: SuperOffice.Data.ImportColumnDef.ProductUnitCost
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductUnitCost = "product.unitcost"
+    return:
+      type: System.String
+    content.vb: Public Const ProductUnitCost As String = "product.unitcost"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductUnitMinimumPrice
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductUnitMinimumPrice
+  id: ProductUnitMinimumPrice
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductUnitMinimumPrice
+  nameWithType: ImportColumnDef.ProductUnitMinimumPrice
+  fullName: SuperOffice.Data.ImportColumnDef.ProductUnitMinimumPrice
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductUnitMinimumPrice = "product.unitminimumprice"
+    return:
+      type: System.String
+    content.vb: Public Const ProductUnitMinimumPrice As String = "product.unitminimumprice"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductUnitListPrice
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductUnitListPrice
+  id: ProductUnitListPrice
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductUnitListPrice
+  nameWithType: ImportColumnDef.ProductUnitListPrice
+  fullName: SuperOffice.Data.ImportColumnDef.ProductUnitListPrice
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductUnitListPrice = "product.unitlistprice"
+    return:
+      type: System.String
+    content.vb: Public Const ProductUnitListPrice As String = "product.unitlistprice"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductExtraInfo
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductExtraInfo
+  id: ProductExtraInfo
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductExtraInfo
+  nameWithType: ImportColumnDef.ProductExtraInfo
+  fullName: SuperOffice.Data.ImportColumnDef.ProductExtraInfo
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductExtraInfo = "product.extrainfo"
+    return:
+      type: System.String
+    content.vb: Public Const ProductExtraInfo As String = "product.extrainfo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductInAssortment
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductInAssortment
+  id: ProductInAssortment
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductInAssortment
+  nameWithType: ImportColumnDef.ProductInAssortment
+  fullName: SuperOffice.Data.ImportColumnDef.ProductInAssortment
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductInAssortment = "product.inassortment"
+    return:
+      type: System.String
+    content.vb: Public Const ProductInAssortment As String = "product.inassortment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductSupplier
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductSupplier
+  id: ProductSupplier
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductSupplier
+  nameWithType: ImportColumnDef.ProductSupplier
+  fullName: SuperOffice.Data.ImportColumnDef.ProductSupplier
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductSupplier = "product.supplier"
+    return:
+      type: System.String
+    content.vb: Public Const ProductSupplier As String = "product.supplier"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductSupplierCode
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductSupplierCode
+  id: ProductSupplierCode
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductSupplierCode
+  nameWithType: ImportColumnDef.ProductSupplierCode
+  fullName: SuperOffice.Data.ImportColumnDef.ProductSupplierCode
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductSupplierCode = "product.suppliercode"
+    return:
+      type: System.String
+    content.vb: Public Const ProductSupplierCode As String = "product.suppliercode"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductRights
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductRights
+  id: ProductRights
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductRights
+  nameWithType: ImportColumnDef.ProductRights
+  fullName: SuperOffice.Data.ImportColumnDef.ProductRights
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductRights = "product.rights"
+    return:
+      type: System.String
+    content.vb: Public Const ProductRights As String = "product.rights"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductRule
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductRule
+  id: ProductRule
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductRule
+  nameWithType: ImportColumnDef.ProductRule
+  fullName: SuperOffice.Data.ImportColumnDef.ProductRule
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductRule = "product.rule"
+    return:
+      type: System.String
+    content.vb: Public Const ProductRule As String = "product.rule"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductExtraField1
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductExtraField1
+  id: ProductExtraField1
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductExtraField1
+  nameWithType: ImportColumnDef.ProductExtraField1
+  fullName: SuperOffice.Data.ImportColumnDef.ProductExtraField1
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductExtraField1 = "product.extrafield1"
+    return:
+      type: System.String
+    content.vb: Public Const ProductExtraField1 As String = "product.extrafield1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductExtraField2
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductExtraField2
+  id: ProductExtraField2
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductExtraField2
+  nameWithType: ImportColumnDef.ProductExtraField2
+  fullName: SuperOffice.Data.ImportColumnDef.ProductExtraField2
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductExtraField2 = "product.extrafield2"
+    return:
+      type: System.String
+    content.vb: Public Const ProductExtraField2 As String = "product.extrafield2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductExtraField3
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductExtraField3
+  id: ProductExtraField3
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductExtraField3
+  nameWithType: ImportColumnDef.ProductExtraField3
+  fullName: SuperOffice.Data.ImportColumnDef.ProductExtraField3
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductExtraField3 = "product.extrafield3"
+    return:
+      type: System.String
+    content.vb: Public Const ProductExtraField3 As String = "product.extrafield3"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductExtraField4
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductExtraField4
+  id: ProductExtraField4
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductExtraField4
+  nameWithType: ImportColumnDef.ProductExtraField4
+  fullName: SuperOffice.Data.ImportColumnDef.ProductExtraField4
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductExtraField4 = "product.extrafield4"
+    return:
+      type: System.String
+    content.vb: Public Const ProductExtraField4 As String = "product.extrafield4"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductExtraField5
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductExtraField5
+  id: ProductExtraField5
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductExtraField5
+  nameWithType: ImportColumnDef.ProductExtraField5
+  fullName: SuperOffice.Data.ImportColumnDef.ProductExtraField5
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductExtraField5 = "product.extrafield5"
+    return:
+      type: System.String
+    content.vb: Public Const ProductExtraField5 As String = "product.extrafield5"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductImage
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductImage
+  id: ProductImage
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductImage
+  nameWithType: ImportColumnDef.ProductImage
+  fullName: SuperOffice.Data.ImportColumnDef.ProductImage
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductImage = "product.image"
+    return:
+      type: System.String
+    content.vb: Public Const ProductImage As String = "product.image"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ProductId
+  commentId: F:SuperOffice.Data.ImportColumnDef.ProductId
+  id: ProductId
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ProductId
+  nameWithType: ImportColumnDef.ProductId
+  fullName: SuperOffice.Data.ImportColumnDef.ProductId
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProductId = "product.id"
+    return:
+      type: System.String
+    content.vb: Public Const ProductId As String = "product.id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportColumnDef.ImportColumns
+  commentId: F:SuperOffice.Data.ImportColumnDef.ImportColumns
+  id: ImportColumns
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ImportColumns
+  nameWithType: ImportColumnDef.ImportColumns
+  fullName: SuperOffice.Data.ImportColumnDef.ImportColumns
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static OrderedDictionary ImportColumns
+    return:
+      type: System.Collections.Specialized.OrderedDictionary
+    content.vb: Public Shared ImportColumns As OrderedDictionary
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.ImportColumnDef.ImportProductColumns
+  commentId: F:SuperOffice.Data.ImportColumnDef.ImportProductColumns
+  id: ImportProductColumns
+  parent: SuperOffice.Data.ImportColumnDef
+  langs:
+  - csharp
+  - vb
+  name: ImportProductColumns
+  nameWithType: ImportColumnDef.ImportProductColumns
+  fullName: SuperOffice.Data.ImportColumnDef.ImportProductColumns
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static OrderedDictionary ImportProductColumns
+    return:
+      type: System.Collections.Specialized.OrderedDictionary
+    content.vb: Public Shared ImportProductColumns As OrderedDictionary
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Specialized.OrderedDictionary
+  isExternal: true
+  name: OrderedDictionary
+  nameWithType: OrderedDictionary
+  fullName: System.Collections.Specialized.OrderedDictionary

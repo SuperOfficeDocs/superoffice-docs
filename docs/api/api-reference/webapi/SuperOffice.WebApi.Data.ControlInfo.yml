@@ -1,0 +1,415 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ControlInfo
+  commentId: T:SuperOffice.WebApi.Data.ControlInfo
+  id: ControlInfo
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ControlInfo.#ctor
+  - SuperOffice.WebApi.Data.ControlInfo.Dimension
+  - SuperOffice.WebApi.Data.ControlInfo.Label
+  - SuperOffice.WebApi.Data.ControlInfo.ListLeadText
+  - SuperOffice.WebApi.Data.ControlInfo.ListProviderExtraInfo
+  - SuperOffice.WebApi.Data.ControlInfo.ListProviderName
+  - SuperOffice.WebApi.Data.ControlInfo.ListProviderPrimaryKeyName
+  - SuperOffice.WebApi.Data.ControlInfo.Type
+  langs:
+  - csharp
+  - vb
+  name: ControlInfo
+  nameWithType: ControlInfo
+  fullName: SuperOffice.WebApi.Data.ControlInfo
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ControlInfo.\nThis class carries information about the definition and properties of an field used in bulk update system. The class is serializable and used on both the application and Web server sides.    \n"
+  syntax:
+    content: 'public class ControlInfo : Carrier'
+    content.vb: >-
+      Public Class ControlInfo
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.BulkUpdateAgent
+    commentId: T:SuperOffice.WebApi.Agents.BulkUpdateAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ControlInfo.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ControlInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ControlInfo
+  langs:
+  - csharp
+  - vb
+  name: ControlInfo()
+  nameWithType: ControlInfo.ControlInfo()
+  fullName: SuperOffice.WebApi.Data.ControlInfo.ControlInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ControlInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ControlInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ControlInfo.Type
+  commentId: P:SuperOffice.WebApi.Data.ControlInfo.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.ControlInfo
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: ControlInfo.Type
+  fullName: SuperOffice.WebApi.Data.ControlInfo.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Type As String
+  overload: SuperOffice.WebApi.Data.ControlInfo.Type*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ControlInfo.Label
+  commentId: P:SuperOffice.WebApi.Data.ControlInfo.Label
+  id: Label
+  parent: SuperOffice.WebApi.Data.ControlInfo
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: ControlInfo.Label
+  fullName: SuperOffice.WebApi.Data.ControlInfo.Label
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string Label { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Label As String
+  overload: SuperOffice.WebApi.Data.ControlInfo.Label*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ControlInfo.Dimension
+  commentId: P:SuperOffice.WebApi.Data.ControlInfo.Dimension
+  id: Dimension
+  parent: SuperOffice.WebApi.Data.ControlInfo
+  langs:
+  - csharp
+  - vb
+  name: Dimension
+  nameWithType: ControlInfo.Dimension
+  fullName: SuperOffice.WebApi.Data.ControlInfo.Dimension
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual int Dimension { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Dimension As Integer
+  overload: SuperOffice.WebApi.Data.ControlInfo.Dimension*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ControlInfo.ListProviderName
+  commentId: P:SuperOffice.WebApi.Data.ControlInfo.ListProviderName
+  id: ListProviderName
+  parent: SuperOffice.WebApi.Data.ControlInfo
+  langs:
+  - csharp
+  - vb
+  name: ListProviderName
+  nameWithType: ControlInfo.ListProviderName
+  fullName: SuperOffice.WebApi.Data.ControlInfo.ListProviderName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string ListProviderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ListProviderName As String
+  overload: SuperOffice.WebApi.Data.ControlInfo.ListProviderName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ControlInfo.ListProviderExtraInfo
+  commentId: P:SuperOffice.WebApi.Data.ControlInfo.ListProviderExtraInfo
+  id: ListProviderExtraInfo
+  parent: SuperOffice.WebApi.Data.ControlInfo
+  langs:
+  - csharp
+  - vb
+  name: ListProviderExtraInfo
+  nameWithType: ControlInfo.ListProviderExtraInfo
+  fullName: SuperOffice.WebApi.Data.ControlInfo.ListProviderExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string ListProviderExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ListProviderExtraInfo As String
+  overload: SuperOffice.WebApi.Data.ControlInfo.ListProviderExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ControlInfo.ListProviderPrimaryKeyName
+  commentId: P:SuperOffice.WebApi.Data.ControlInfo.ListProviderPrimaryKeyName
+  id: ListProviderPrimaryKeyName
+  parent: SuperOffice.WebApi.Data.ControlInfo
+  langs:
+  - csharp
+  - vb
+  name: ListProviderPrimaryKeyName
+  nameWithType: ControlInfo.ListProviderPrimaryKeyName
+  fullName: SuperOffice.WebApi.Data.ControlInfo.ListProviderPrimaryKeyName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string ListProviderPrimaryKeyName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ListProviderPrimaryKeyName As String
+  overload: SuperOffice.WebApi.Data.ControlInfo.ListProviderPrimaryKeyName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ControlInfo.ListLeadText
+  commentId: P:SuperOffice.WebApi.Data.ControlInfo.ListLeadText
+  id: ListLeadText
+  parent: SuperOffice.WebApi.Data.ControlInfo
+  langs:
+  - csharp
+  - vb
+  name: ListLeadText
+  nameWithType: ControlInfo.ListLeadText
+  fullName: SuperOffice.WebApi.Data.ControlInfo.ListLeadText
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string ListLeadText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ListLeadText As String
+  overload: SuperOffice.WebApi.Data.ControlInfo.ListLeadText*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.BulkUpdateAgent
+  commentId: T:SuperOffice.WebApi.Agents.BulkUpdateAgent
+  isExternal: true
+  name: BulkUpdateAgent
+  nameWithType: BulkUpdateAgent
+  fullName: SuperOffice.WebApi.Agents.BulkUpdateAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ControlInfo.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ControlInfo.#ctor
+  isExternal: true
+  name: ControlInfo
+  nameWithType: ControlInfo.ControlInfo
+  fullName: SuperOffice.WebApi.Data.ControlInfo.ControlInfo
+- uid: SuperOffice.WebApi.Data.ControlInfo.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.ControlInfo.Type
+  isExternal: true
+  name: Type
+  nameWithType: ControlInfo.Type
+  fullName: SuperOffice.WebApi.Data.ControlInfo.Type
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ControlInfo.Label*
+  commentId: Overload:SuperOffice.WebApi.Data.ControlInfo.Label
+  isExternal: true
+  name: Label
+  nameWithType: ControlInfo.Label
+  fullName: SuperOffice.WebApi.Data.ControlInfo.Label
+- uid: SuperOffice.WebApi.Data.ControlInfo.Dimension*
+  commentId: Overload:SuperOffice.WebApi.Data.ControlInfo.Dimension
+  isExternal: true
+  name: Dimension
+  nameWithType: ControlInfo.Dimension
+  fullName: SuperOffice.WebApi.Data.ControlInfo.Dimension
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ControlInfo.ListProviderName*
+  commentId: Overload:SuperOffice.WebApi.Data.ControlInfo.ListProviderName
+  isExternal: true
+  name: ListProviderName
+  nameWithType: ControlInfo.ListProviderName
+  fullName: SuperOffice.WebApi.Data.ControlInfo.ListProviderName
+- uid: SuperOffice.WebApi.Data.ControlInfo.ListProviderExtraInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.ControlInfo.ListProviderExtraInfo
+  isExternal: true
+  name: ListProviderExtraInfo
+  nameWithType: ControlInfo.ListProviderExtraInfo
+  fullName: SuperOffice.WebApi.Data.ControlInfo.ListProviderExtraInfo
+- uid: SuperOffice.WebApi.Data.ControlInfo.ListProviderPrimaryKeyName*
+  commentId: Overload:SuperOffice.WebApi.Data.ControlInfo.ListProviderPrimaryKeyName
+  isExternal: true
+  name: ListProviderPrimaryKeyName
+  nameWithType: ControlInfo.ListProviderPrimaryKeyName
+  fullName: SuperOffice.WebApi.Data.ControlInfo.ListProviderPrimaryKeyName
+- uid: SuperOffice.WebApi.Data.ControlInfo.ListLeadText*
+  commentId: Overload:SuperOffice.WebApi.Data.ControlInfo.ListLeadText
+  isExternal: true
+  name: ListLeadText
+  nameWithType: ControlInfo.ListLeadText
+  fullName: SuperOffice.WebApi.Data.ControlInfo.ListLeadText

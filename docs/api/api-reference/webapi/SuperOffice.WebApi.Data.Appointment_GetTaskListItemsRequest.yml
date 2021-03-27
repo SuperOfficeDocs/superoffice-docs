@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_GetTaskListItemsRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_GetTaskListItemsRequest
+  id: Appointment_GetTaskListItemsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_GetTaskListItemsRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_GetTaskListItemsRequest.IncludeDeleted
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetTaskListItemsRequest
+  nameWithType: Appointment_GetTaskListItemsRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetTaskListItemsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_GetTaskListItemsRequest : Object'
+    content.vb: >-
+      Public Class Appointment_GetTaskListItemsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_GetTaskListItemsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_GetTaskListItemsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_GetTaskListItemsRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetTaskListItemsRequest()
+  nameWithType: Appointment_GetTaskListItemsRequest.Appointment_GetTaskListItemsRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_GetTaskListItemsRequest.Appointment_GetTaskListItemsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_GetTaskListItemsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_GetTaskListItemsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetTaskListItemsRequest.IncludeDeleted
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetTaskListItemsRequest.IncludeDeleted
+  id: IncludeDeleted
+  parent: SuperOffice.WebApi.Data.Appointment_GetTaskListItemsRequest
+  langs:
+  - csharp
+  - vb
+  name: IncludeDeleted
+  nameWithType: Appointment_GetTaskListItemsRequest.IncludeDeleted
+  fullName: SuperOffice.WebApi.Data.Appointment_GetTaskListItemsRequest.IncludeDeleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool IncludeDeleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeDeleted As Boolean
+  overload: SuperOffice.WebApi.Data.Appointment_GetTaskListItemsRequest.IncludeDeleted*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_GetTaskListItemsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetTaskListItemsRequest.#ctor
+  isExternal: true
+  name: Appointment_GetTaskListItemsRequest
+  nameWithType: Appointment_GetTaskListItemsRequest.Appointment_GetTaskListItemsRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetTaskListItemsRequest.Appointment_GetTaskListItemsRequest
+- uid: SuperOffice.WebApi.Data.Appointment_GetTaskListItemsRequest.IncludeDeleted*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetTaskListItemsRequest.IncludeDeleted
+  isExternal: true
+  name: IncludeDeleted
+  nameWithType: Appointment_GetTaskListItemsRequest.IncludeDeleted
+  fullName: SuperOffice.WebApi.Data.Appointment_GetTaskListItemsRequest.IncludeDeleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

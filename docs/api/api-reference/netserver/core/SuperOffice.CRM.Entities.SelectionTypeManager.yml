@@ -1,0 +1,904 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.SelectionTypeManager
+  commentId: T:SuperOffice.CRM.Entities.SelectionTypeManager
+  id: SelectionTypeManager
+  parent: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.SelectionTypeManager.GetProviderName(System.Int32)
+  - SuperOffice.CRM.Entities.SelectionTypeManager.GetProviderNameByType(System.Int16,SuperOffice.CRM.Entities.SelectionTypeInfo)
+  - SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionMainHeading(System.Int16,System.Int32)
+  - SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionType(System.Int32)
+  - SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionType(System.String)
+  - SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypeFromSelectionId(System.Int32)
+  - SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypes
+  langs:
+  - csharp
+  - vb
+  name: SelectionTypeManager
+  nameWithType: SelectionTypeManager
+  fullName: SuperOffice.CRM.Entities.SelectionTypeManager
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nCentralized point of knowledge for the Selection system: what tables can we have Selections of, and what are the properties and providers for each\n"
+  syntax:
+    content: >-
+      [SoInject("Database")]
+
+      public class SelectionTypeManager
+    content.vb: >-
+      <SoInject("Database")>
+
+      Public Class SelectionTypeManager
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Entities.SelectionTypeManager.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.SelectionTypeManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Factory.SoInjectAttribute
+    ctor: SuperOffice.Factory.SoInjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Database
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypes
+  commentId: M:SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypes
+  id: GetSelectionTypes
+  parent: SuperOffice.CRM.Entities.SelectionTypeManager
+  langs:
+  - csharp
+  - vb
+  name: GetSelectionTypes()
+  nameWithType: SelectionTypeManager.GetSelectionTypes()
+  fullName: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypes()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nGet <strong>all</strong> known selection types; filtered through the current associate&apos;s licenses\n"
+  syntax:
+    content: public List<SelectionTypeInfo> GetSelectionTypes()
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Entities.SelectionTypeInfo}
+    content.vb: Public Function GetSelectionTypes As List(Of SelectionTypeInfo)
+  overload: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypes*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionType(System.String)
+  commentId: M:SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionType(System.String)
+  id: GetSelectionType(System.String)
+  parent: SuperOffice.CRM.Entities.SelectionTypeManager
+  langs:
+  - csharp
+  - vb
+  name: GetSelectionType(String)
+  nameWithType: SelectionTypeManager.GetSelectionType(String)
+  fullName: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionType(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nGet a particular selection type, by entity (table!) name\n"
+  syntax:
+    content: public SelectionTypeInfo GetSelectionType(string entity)
+    parameters:
+    - id: entity
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Entities.SelectionTypeInfo
+      description: <strong>null</strong> if there is no selection support for this entity
+    content.vb: Public Function GetSelectionType(entity As String) As SelectionTypeInfo
+  overload: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionType*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionType(System.Int32)
+  commentId: M:SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionType(System.Int32)
+  id: GetSelectionType(System.Int32)
+  parent: SuperOffice.CRM.Entities.SelectionTypeManager
+  langs:
+  - csharp
+  - vb
+  name: GetSelectionType(Int32)
+  nameWithType: SelectionTypeManager.GetSelectionType(Int32)
+  fullName: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionType(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nGet a praticular selection type, by table number\n"
+  syntax:
+    content: public SelectionTypeInfo GetSelectionType(int tableNumber)
+    parameters:
+    - id: tableNumber
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Entities.SelectionTypeInfo
+      description: <strong>null</strong> if there is no such table, or if the table does not have selection support
+    content.vb: Public Function GetSelectionType(tableNumber As Integer) As SelectionTypeInfo
+  overload: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionType*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypeFromSelectionId(System.Int32)
+  commentId: M:SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypeFromSelectionId(System.Int32)
+  id: GetSelectionTypeFromSelectionId(System.Int32)
+  parent: SuperOffice.CRM.Entities.SelectionTypeManager
+  langs:
+  - csharp
+  - vb
+  name: GetSelectionTypeFromSelectionId(Int32)
+  nameWithType: SelectionTypeManager.GetSelectionTypeFromSelectionId(Int32)
+  fullName: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypeFromSelectionId(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nGet selection type information based on a selection id (database access)\n"
+  syntax:
+    content: public SelectionTypeInfo GetSelectionTypeFromSelectionId(int selectionId)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Entities.SelectionTypeInfo
+    content.vb: Public Function GetSelectionTypeFromSelectionId(selectionId As Integer) As SelectionTypeInfo
+  overload: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypeFromSelectionId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.SelectionTypeManager.GetProviderNameByType(System.Int16,SuperOffice.CRM.Entities.SelectionTypeInfo)
+  commentId: M:SuperOffice.CRM.Entities.SelectionTypeManager.GetProviderNameByType(System.Int16,SuperOffice.CRM.Entities.SelectionTypeInfo)
+  id: GetProviderNameByType(System.Int16,SuperOffice.CRM.Entities.SelectionTypeInfo)
+  parent: SuperOffice.CRM.Entities.SelectionTypeManager
+  langs:
+  - csharp
+  - vb
+  name: GetProviderNameByType(Int16, SelectionTypeInfo)
+  nameWithType: SelectionTypeManager.GetProviderNameByType(Int16, SelectionTypeInfo)
+  fullName: SuperOffice.CRM.Entities.SelectionTypeManager.GetProviderNameByType(System.Int16, SuperOffice.CRM.Entities.SelectionTypeInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nBased on a selType (static/dynamic/combined) value, pick the rick member provider name\n"
+  syntax:
+    content: public static string GetProviderNameByType(short selType, SelectionTypeInfo selTypeInfo)
+    parameters:
+    - id: selType
+      type: System.Int16
+    - id: selTypeInfo
+      type: SuperOffice.CRM.Entities.SelectionTypeInfo
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetProviderNameByType(selType As Short, selTypeInfo As SelectionTypeInfo) As String
+  overload: SuperOffice.CRM.Entities.SelectionTypeManager.GetProviderNameByType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.SelectionTypeManager.GetProviderName(System.Int32)
+  commentId: M:SuperOffice.CRM.Entities.SelectionTypeManager.GetProviderName(System.Int32)
+  id: GetProviderName(System.Int32)
+  parent: SuperOffice.CRM.Entities.SelectionTypeManager
+  langs:
+  - csharp
+  - vb
+  name: GetProviderName(Int32)
+  nameWithType: SelectionTypeManager.GetProviderName(Int32)
+  fullName: SuperOffice.CRM.Entities.SelectionTypeManager.GetProviderName(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public static string GetProviderName(int selectionId)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetProviderName(selectionId As Integer) As String
+  overload: SuperOffice.CRM.Entities.SelectionTypeManager.GetProviderName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionMainHeading(System.Int16,System.Int32)
+  commentId: M:SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionMainHeading(System.Int16,System.Int32)
+  id: GetSelectionMainHeading(System.Int16,System.Int32)
+  parent: SuperOffice.CRM.Entities.SelectionTypeManager
+  langs:
+  - csharp
+  - vb
+  name: GetSelectionMainHeading(Int16, Int32)
+  nameWithType: SelectionTypeManager.GetSelectionMainHeading(Int16, Int32)
+  fullName: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionMainHeading(System.Int16, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\n&apos;Static selection of Companies&apos;, or whatever else is appropriate, made by combining text resources for the type and the entity (plural form); this string will contain resource references\n"
+  syntax:
+    content: public static string GetSelectionMainHeading(short selType, int tableNumber)
+    parameters:
+    - id: selType
+      type: System.Int16
+    - id: tableNumber
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetSelectionMainHeading(selType As Short, tableNumber As Integer) As String
+  overload: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionMainHeading*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.SelectionTypeManager.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SelectionTypeManager, To>()
+  nameWithType: EnumUtil.MapEnums<SelectionTypeManager, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.SelectionTypeManager, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SelectionTypeManager, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.SelectionTypeManager, To)()
+  name.vb: MapEnums(Of SelectionTypeManager, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SelectionTypeManager, To>
+    nameWithType: EnumUtil.MapEnums<SelectionTypeManager, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.SelectionTypeManager, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SelectionTypeManager, To)
+    nameWithType: EnumUtil.MapEnums(Of SelectionTypeManager, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.SelectionTypeManager, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.SelectionTypeManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SelectionTypeManager, To>()
+  nameWithType: Converters.MapEnums<SelectionTypeManager, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.SelectionTypeManager, To>()
+  nameWithType.vb: Converters.MapEnums(Of SelectionTypeManager, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.SelectionTypeManager, To)()
+  name.vb: MapEnums(Of SelectionTypeManager, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SelectionTypeManager, To>
+    nameWithType: Converters.MapEnums<SelectionTypeManager, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.SelectionTypeManager, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SelectionTypeManager, To)
+    nameWithType: Converters.MapEnums(Of SelectionTypeManager, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.SelectionTypeManager, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypes*
+  commentId: Overload:SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypes
+  isExternal: true
+  name: GetSelectionTypes
+  nameWithType: SelectionTypeManager.GetSelectionTypes
+  fullName: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypes
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Entities.SelectionTypeInfo}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Entities.SelectionTypeInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<SelectionTypeInfo>
+  nameWithType: List<SelectionTypeInfo>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Entities.SelectionTypeInfo>
+  nameWithType.vb: List(Of SelectionTypeInfo)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Entities.SelectionTypeInfo)
+  name.vb: List(Of SelectionTypeInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Entities.SelectionTypeInfo
+    name: SelectionTypeInfo
+    nameWithType: SelectionTypeInfo
+    fullName: SuperOffice.CRM.Entities.SelectionTypeInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Entities.SelectionTypeInfo
+    name: SelectionTypeInfo
+    nameWithType: SelectionTypeInfo
+    fullName: SuperOffice.CRM.Entities.SelectionTypeInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionType*
+  commentId: Overload:SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionType
+  isExternal: true
+  name: GetSelectionType
+  nameWithType: SelectionTypeManager.GetSelectionType
+  fullName: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Entities.SelectionTypeInfo
+  commentId: T:SuperOffice.CRM.Entities.SelectionTypeInfo
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: SelectionTypeInfo
+  nameWithType: SelectionTypeInfo
+  fullName: SuperOffice.CRM.Entities.SelectionTypeInfo
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypeFromSelectionId*
+  commentId: Overload:SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypeFromSelectionId
+  isExternal: true
+  name: GetSelectionTypeFromSelectionId
+  nameWithType: SelectionTypeManager.GetSelectionTypeFromSelectionId
+  fullName: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionTypeFromSelectionId
+- uid: SuperOffice.CRM.Entities.SelectionTypeManager.GetProviderNameByType*
+  commentId: Overload:SuperOffice.CRM.Entities.SelectionTypeManager.GetProviderNameByType
+  isExternal: true
+  name: GetProviderNameByType
+  nameWithType: SelectionTypeManager.GetProviderNameByType
+  fullName: SuperOffice.CRM.Entities.SelectionTypeManager.GetProviderNameByType
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Entities.SelectionTypeManager.GetProviderName*
+  commentId: Overload:SuperOffice.CRM.Entities.SelectionTypeManager.GetProviderName
+  isExternal: true
+  name: GetProviderName
+  nameWithType: SelectionTypeManager.GetProviderName
+  fullName: SuperOffice.CRM.Entities.SelectionTypeManager.GetProviderName
+- uid: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionMainHeading*
+  commentId: Overload:SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionMainHeading
+  isExternal: true
+  name: GetSelectionMainHeading
+  nameWithType: SelectionTypeManager.GetSelectionMainHeading
+  fullName: SuperOffice.CRM.Entities.SelectionTypeManager.GetSelectionMainHeading

@@ -1,0 +1,1222 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.OLEFieldRecordData
+  commentId: T:SuperOffice.CRM.Rows.OLEFieldRecordData
+  id: OLEFieldRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.OLEFieldRecordData.#ctor
+  - SuperOffice.CRM.Rows.OLEFieldRecordData.AlgoData
+  - SuperOffice.CRM.Rows.OLEFieldRecordData.AlgoType
+  - SuperOffice.CRM.Rows.OLEFieldRecordData.Datatype
+  - SuperOffice.CRM.Rows.OLEFieldRecordData.FieldId
+  - SuperOffice.CRM.Rows.OLEFieldRecordData.Length
+  - SuperOffice.CRM.Rows.OLEFieldRecordData.OLEFieldId
+  - SuperOffice.CRM.Rows.OLEFieldRecordData.OLEViewId
+  - SuperOffice.CRM.Rows.OLEFieldRecordData.Predefined
+  - SuperOffice.CRM.Rows.OLEFieldRecordData.Registered
+  - SuperOffice.CRM.Rows.OLEFieldRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.OLEFieldRecordData.Searchable
+  - SuperOffice.CRM.Rows.OLEFieldRecordData.Updated
+  - SuperOffice.CRM.Rows.OLEFieldRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.OLEFieldRecordData.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: OLEFieldRecordData
+  nameWithType: OLEFieldRecordData
+  fullName: SuperOffice.CRM.Rows.OLEFieldRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the OLEField table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.OLEFieldRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.OLEFieldTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class OLEFieldRecordData
+    content.vb: Public Class OLEFieldRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.OLEFieldRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.OLEFieldRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.OLEFieldRecordData)
+  - SuperOffice.CRM.Rows.OLEFieldRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.OLEFieldRecordData.SuperOffice.CRM.Rows.OLEFieldRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.OLEFieldRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.OLEFieldRecordData.OLEFieldId
+  commentId: F:SuperOffice.CRM.Rows.OLEFieldRecordData.OLEFieldId
+  id: OLEFieldId
+  parent: SuperOffice.CRM.Rows.OLEFieldRecordData
+  langs:
+  - csharp
+  - vb
+  name: OLEFieldId
+  nameWithType: OLEFieldRecordData.OLEFieldId
+  fullName: SuperOffice.CRM.Rows.OLEFieldRecordData.OLEFieldId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int OLEFieldId
+    return:
+      type: System.Int32
+    content.vb: Public OLEFieldId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.OLEFieldRecordData.OLEViewId
+  commentId: F:SuperOffice.CRM.Rows.OLEFieldRecordData.OLEViewId
+  id: OLEViewId
+  parent: SuperOffice.CRM.Rows.OLEFieldRecordData
+  langs:
+  - csharp
+  - vb
+  name: OLEViewId
+  nameWithType: OLEFieldRecordData.OLEViewId
+  fullName: SuperOffice.CRM.Rows.OLEFieldRecordData.OLEViewId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOwner subject \n"
+  syntax:
+    content: public int OLEViewId
+    return:
+      type: System.Int32
+    content.vb: Public OLEViewId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.OLEFieldRecordData.FieldId
+  commentId: F:SuperOffice.CRM.Rows.OLEFieldRecordData.FieldId
+  id: FieldId
+  parent: SuperOffice.CRM.Rows.OLEFieldRecordData
+  langs:
+  - csharp
+  - vb
+  name: FieldId
+  nameWithType: OLEFieldRecordData.FieldId
+  fullName: SuperOffice.CRM.Rows.OLEFieldRecordData.FieldId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSODBIF field ID (including table!) \n"
+  syntax:
+    content: public int FieldId
+    return:
+      type: System.Int32
+    content.vb: Public FieldId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.OLEFieldRecordData.Predefined
+  commentId: F:SuperOffice.CRM.Rows.OLEFieldRecordData.Predefined
+  id: Predefined
+  parent: SuperOffice.CRM.Rows.OLEFieldRecordData
+  langs:
+  - csharp
+  - vb
+  name: Predefined
+  nameWithType: OLEFieldRecordData.Predefined
+  fullName: SuperOffice.CRM.Rows.OLEFieldRecordData.Predefined
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n1 = predefined subject, do not change \n"
+  syntax:
+    content: public short Predefined
+    return:
+      type: System.Int16
+    content.vb: Public Predefined As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.OLEFieldRecordData.Datatype
+  commentId: F:SuperOffice.CRM.Rows.OLEFieldRecordData.Datatype
+  id: Datatype
+  parent: SuperOffice.CRM.Rows.OLEFieldRecordData
+  langs:
+  - csharp
+  - vb
+  name: Datatype
+  nameWithType: OLEFieldRecordData.Datatype
+  fullName: SuperOffice.CRM.Rows.OLEFieldRecordData.Datatype
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nData type, same as in dictionary \n"
+  syntax:
+    content: public short Datatype
+    return:
+      type: System.Int16
+    content.vb: Public Datatype As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.OLEFieldRecordData.Length
+  commentId: F:SuperOffice.CRM.Rows.OLEFieldRecordData.Length
+  id: Length
+  parent: SuperOffice.CRM.Rows.OLEFieldRecordData
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: OLEFieldRecordData.Length
+  fullName: SuperOffice.CRM.Rows.OLEFieldRecordData.Length
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSize of data in result buffer \n"
+  syntax:
+    content: public short Length
+    return:
+      type: System.Int16
+    content.vb: Public Length As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.OLEFieldRecordData.AlgoType
+  commentId: F:SuperOffice.CRM.Rows.OLEFieldRecordData.AlgoType
+  id: AlgoType
+  parent: SuperOffice.CRM.Rows.OLEFieldRecordData
+  langs:
+  - csharp
+  - vb
+  name: AlgoType
+  nameWithType: OLEFieldRecordData.AlgoType
+  fullName: SuperOffice.CRM.Rows.OLEFieldRecordData.AlgoType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nAlgorithm - how data is transferred from source field to result. 4 = copy from source buffer. 2 = associate name, 3 = person name \n"
+  syntax:
+    content: public short AlgoType
+    return:
+      type: System.Int16
+    content.vb: Public AlgoType As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.OLEFieldRecordData.AlgoData
+  commentId: F:SuperOffice.CRM.Rows.OLEFieldRecordData.AlgoData
+  id: AlgoData
+  parent: SuperOffice.CRM.Rows.OLEFieldRecordData
+  langs:
+  - csharp
+  - vb
+  name: AlgoData
+  nameWithType: OLEFieldRecordData.AlgoData
+  fullName: SuperOffice.CRM.Rows.OLEFieldRecordData.AlgoData
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSource field or other parameter to algorithm in AlgoType.  \n"
+  syntax:
+    content: public uint AlgoData
+    return:
+      type: System.UInt32
+    content.vb: Public AlgoData As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.OLEFieldRecordData.Searchable
+  commentId: F:SuperOffice.CRM.Rows.OLEFieldRecordData.Searchable
+  id: Searchable
+  parent: SuperOffice.CRM.Rows.OLEFieldRecordData
+  langs:
+  - csharp
+  - vb
+  name: Searchable
+  nameWithType: OLEFieldRecordData.Searchable
+  fullName: SuperOffice.CRM.Rows.OLEFieldRecordData.Searchable
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIs the field searchable (and shown as such in the reporter) \n"
+  syntax:
+    content: public short Searchable
+    return:
+      type: System.Int16
+    content.vb: Public Searchable As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.OLEFieldRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.OLEFieldRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.OLEFieldRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: OLEFieldRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.OLEFieldRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.OLEFieldRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.OLEFieldRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.OLEFieldRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: OLEFieldRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.OLEFieldRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.OLEFieldRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.OLEFieldRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.OLEFieldRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: OLEFieldRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.OLEFieldRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.OLEFieldRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.OLEFieldRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.OLEFieldRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: OLEFieldRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.OLEFieldRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.OLEFieldRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.OLEFieldRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.OLEFieldRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: OLEFieldRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.OLEFieldRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.OLEFieldRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.OLEFieldRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.OLEFieldRecordData
+  langs:
+  - csharp
+  - vb
+  name: OLEFieldRecordData()
+  nameWithType: OLEFieldRecordData.OLEFieldRecordData()
+  fullName: SuperOffice.CRM.Rows.OLEFieldRecordData.OLEFieldRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public OLEFieldRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.OLEFieldRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.OLEFieldRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<OLEFieldRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<OLEFieldRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.OLEFieldRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of OLEFieldRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.OLEFieldRecordData, To)()
+  name.vb: MapEnums(Of OLEFieldRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<OLEFieldRecordData, To>
+    nameWithType: EnumUtil.MapEnums<OLEFieldRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.OLEFieldRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of OLEFieldRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of OLEFieldRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.OLEFieldRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.OLEFieldRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.OLEFieldRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<OLEFieldRecordData>(OLEFieldRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<OLEFieldRecordData>(OLEFieldRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.OLEFieldRecordData>(SuperOffice.CRM.Rows.OLEFieldRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of OLEFieldRecordData)(OLEFieldRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.OLEFieldRecordData)(SuperOffice.CRM.Rows.OLEFieldRecordData)
+  name.vb: AssignByReflection(Of OLEFieldRecordData)(OLEFieldRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<OLEFieldRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<OLEFieldRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.OLEFieldRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.OLEFieldRecordData
+    name: OLEFieldRecordData
+    nameWithType: OLEFieldRecordData
+    fullName: SuperOffice.CRM.Rows.OLEFieldRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of OLEFieldRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of OLEFieldRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.OLEFieldRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.OLEFieldRecordData
+    name: OLEFieldRecordData
+    nameWithType: OLEFieldRecordData
+    fullName: SuperOffice.CRM.Rows.OLEFieldRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.OLEFieldRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<OLEFieldRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<OLEFieldRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.OLEFieldRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of OLEFieldRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.OLEFieldRecordData)()
+  name.vb: GraphCopy(Of OLEFieldRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<OLEFieldRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<OLEFieldRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.OLEFieldRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of OLEFieldRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of OLEFieldRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.OLEFieldRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.OLEFieldRecordData.SuperOffice.CRM.Rows.OLEFieldRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.OLEFieldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.OLEFieldRecordData)
+  parent: SuperOffice.CRM.Rows.OLEFieldRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.OLEFieldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.OLEFieldRecordData)
+  name: ToInsert()
+  nameWithType: OLEFieldRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.OLEFieldRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.OLEFieldRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: OLEFieldRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.OLEFieldRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.OLEFieldRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: OLEFieldRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.OLEFieldRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.OLEFieldRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<OLEFieldRecordData, To>()
+  nameWithType: Converters.MapEnums<OLEFieldRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.OLEFieldRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of OLEFieldRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.OLEFieldRecordData, To)()
+  name.vb: MapEnums(Of OLEFieldRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<OLEFieldRecordData, To>
+    nameWithType: Converters.MapEnums<OLEFieldRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.OLEFieldRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of OLEFieldRecordData, To)
+    nameWithType: Converters.MapEnums(Of OLEFieldRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.OLEFieldRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.OLEFieldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.OLEFieldRecordData)
+  commentId: M:SuperOffice.CRM.Rows.OLEFieldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.OLEFieldRecordData)
+  isExternal: true
+  name: ToInsert(OLEFieldRecordData)
+  nameWithType: OLEFieldRecordDataExtensions.ToInsert(OLEFieldRecordData)
+  fullName: SuperOffice.CRM.Rows.OLEFieldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.OLEFieldRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.OLEFieldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.OLEFieldRecordData)
+    name: ToInsert
+    nameWithType: OLEFieldRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.OLEFieldRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.OLEFieldRecordData
+    name: OLEFieldRecordData
+    nameWithType: OLEFieldRecordData
+    fullName: SuperOffice.CRM.Rows.OLEFieldRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.OLEFieldRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.OLEFieldRecordData)
+    name: ToInsert
+    nameWithType: OLEFieldRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.OLEFieldRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.OLEFieldRecordData
+    name: OLEFieldRecordData
+    nameWithType: OLEFieldRecordData
+    fullName: SuperOffice.CRM.Rows.OLEFieldRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.OLEFieldRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.OLEFieldRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: OLEFieldRecordDataExtensions
+  nameWithType: OLEFieldRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.OLEFieldRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Rows.OLEFieldRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.OLEFieldRecordData.#ctor
+  isExternal: true
+  name: OLEFieldRecordData
+  nameWithType: OLEFieldRecordData.OLEFieldRecordData
+  fullName: SuperOffice.CRM.Rows.OLEFieldRecordData.OLEFieldRecordData

@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Controls.SoButtonBase.TextAlign
+  commentId: T:SuperOffice.Web.UI.Controls.SoButtonBase.TextAlign
+  id: SoButtonBase.TextAlign
+  parent: SuperOffice.Web.UI.Controls
+  children:
+  - SuperOffice.Web.UI.Controls.SoButtonBase.TextAlign.Bottom
+  - SuperOffice.Web.UI.Controls.SoButtonBase.TextAlign.Right
+  langs:
+  - csharp
+  - vb
+  name: SoButtonBase.TextAlign
+  nameWithType: SoButtonBase.TextAlign
+  fullName: SuperOffice.Web.UI.Controls.SoButtonBase.TextAlign
+  type: Enum
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public enum TextAlign
+    content.vb: Public Enum TextAlign
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Web.UI.Controls.SoButtonBase.TextAlign.Right
+  commentId: F:SuperOffice.Web.UI.Controls.SoButtonBase.TextAlign.Right
+  id: Right
+  parent: SuperOffice.Web.UI.Controls.SoButtonBase.TextAlign
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: SoButtonBase.TextAlign.Right
+  fullName: SuperOffice.Web.UI.Controls.SoButtonBase.TextAlign.Right
+  type: Field
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: Right = 0
+    return:
+      type: SuperOffice.Web.UI.Controls.SoButtonBase.TextAlign
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Web.UI.Controls.SoButtonBase.TextAlign.Bottom
+  commentId: F:SuperOffice.Web.UI.Controls.SoButtonBase.TextAlign.Bottom
+  id: Bottom
+  parent: SuperOffice.Web.UI.Controls.SoButtonBase.TextAlign
+  langs:
+  - csharp
+  - vb
+  name: Bottom
+  nameWithType: SoButtonBase.TextAlign.Bottom
+  fullName: SuperOffice.Web.UI.Controls.SoButtonBase.TextAlign.Bottom
+  type: Field
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: Bottom = 1
+    return:
+      type: SuperOffice.Web.UI.Controls.SoButtonBase.TextAlign
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Web.UI.Controls
+  commentId: N:SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.Web.UI.Controls
+  nameWithType: SuperOffice.Web.UI.Controls
+  fullName: SuperOffice.Web.UI.Controls
+- uid: SuperOffice.Web.UI.Controls.SoButtonBase.TextAlign
+  commentId: T:SuperOffice.Web.UI.Controls.SoButtonBase.TextAlign
+  parent: SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SoButtonBase.TextAlign
+  nameWithType: SoButtonBase.TextAlign
+  fullName: SuperOffice.Web.UI.Controls.SoButtonBase.TextAlign

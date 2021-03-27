@@ -1,0 +1,1410 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  commentId: T:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  id: PersonContactExtenderHelper
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.#ctor(SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase)
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colAddressId
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colCity
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colCounty
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colLine1
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colLine2
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colLine3
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colZip
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.AddAndInitializeExtensionProvider``1(``0,System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.AddressColumns
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetFullName(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean)
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetFullNameWithContact(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean,SuperOffice.CRM.ArchiveLists.ContactExtenderBase)
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetNameAndDepartment(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.ContactTableInfo,System.Boolean)
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.InitializeAddressExtenders
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PopulateAddressColumns(SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean,SuperOffice.CRM.ArchiveLists.ColumnHelper)
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.ProcessFullNameRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,SuperOffice.CRM.ArchiveLists.ArchiveSelect)
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetDesiredAddressColumns(System.String[])
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetFullNameOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetPersonTableInfo(SuperOffice.CRM.Data.PersonTableInfo)
+  langs:
+  - csharp
+  - vb
+  name: PersonContactExtenderHelper
+  nameWithType: PersonContactExtenderHelper
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nCommon functionality related to custom fields and logic on person; used by <xref href=\"SuperOffice.CRM.ArchiveLists.PersonExtenderBase\" data-throw-if-not-resolved=\"false\"></xref> for static and\n<xref href=\"SuperOffice.CRM.ArchiveLists.DynamicPersonExtender\" data-throw-if-not-resolved=\"false\"></xref> for dynamic extenders\n"
+  syntax:
+    content: public class PersonContactExtenderHelper
+    content.vb: Public Class PersonContactExtenderHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colAddressId
+  commentId: F:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colAddressId
+  id: _colAddressId
+  parent: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  langs:
+  - csharp
+  - vb
+  name: _colAddressId
+  nameWithType: PersonContactExtenderHelper._colAddressId
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colAddressId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colAddressId
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colAddressId As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colLine1
+  commentId: F:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colLine1
+  id: _colLine1
+  parent: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  langs:
+  - csharp
+  - vb
+  name: _colLine1
+  nameWithType: PersonContactExtenderHelper._colLine1
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colLine1
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colLine1
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colLine1 As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colLine2
+  commentId: F:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colLine2
+  id: _colLine2
+  parent: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  langs:
+  - csharp
+  - vb
+  name: _colLine2
+  nameWithType: PersonContactExtenderHelper._colLine2
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colLine2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colLine2
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colLine2 As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colLine3
+  commentId: F:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colLine3
+  id: _colLine3
+  parent: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  langs:
+  - csharp
+  - vb
+  name: _colLine3
+  nameWithType: PersonContactExtenderHelper._colLine3
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colLine3
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colLine3
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colLine3 As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colCounty
+  commentId: F:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colCounty
+  id: _colCounty
+  parent: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  langs:
+  - csharp
+  - vb
+  name: _colCounty
+  nameWithType: PersonContactExtenderHelper._colCounty
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colCounty
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colCounty
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colCounty As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colCity
+  commentId: F:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colCity
+  id: _colCity
+  parent: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  langs:
+  - csharp
+  - vb
+  name: _colCity
+  nameWithType: PersonContactExtenderHelper._colCity
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colCity
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colCity
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colCity As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colZip
+  commentId: F:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colZip
+  id: _colZip
+  parent: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  langs:
+  - csharp
+  - vb
+  name: _colZip
+  nameWithType: PersonContactExtenderHelper._colZip
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper._colZip
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colZip
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colZip As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.#ctor(SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase)
+  commentId: M:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.#ctor(SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase)
+  id: '#ctor(SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase)'
+  parent: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  langs:
+  - csharp
+  - vb
+  name: PersonContactExtenderHelper(ExtensibleColumnsBase)
+  nameWithType: PersonContactExtenderHelper.PersonContactExtenderHelper(ExtensibleColumnsBase)
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PersonContactExtenderHelper(SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public PersonContactExtenderHelper(ExtensibleColumnsBase parent)
+    parameters:
+    - id: parent
+      type: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+    content.vb: Public Sub New(parent As ExtensibleColumnsBase)
+  overload: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetPersonTableInfo(SuperOffice.CRM.Data.PersonTableInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetPersonTableInfo(SuperOffice.CRM.Data.PersonTableInfo)
+  id: SetPersonTableInfo(SuperOffice.CRM.Data.PersonTableInfo)
+  parent: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  langs:
+  - csharp
+  - vb
+  name: SetPersonTableInfo(PersonTableInfo)
+  nameWithType: PersonContactExtenderHelper.SetPersonTableInfo(PersonTableInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetPersonTableInfo(SuperOffice.CRM.Data.PersonTableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public void SetPersonTableInfo(PersonTableInfo ourTable)
+    parameters:
+    - id: ourTable
+      type: SuperOffice.CRM.Data.PersonTableInfo
+    content.vb: Public Sub SetPersonTableInfo(ourTable As PersonTableInfo)
+  overload: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetPersonTableInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetFullName(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean)
+  commentId: M:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetFullName(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean)
+  id: GetFullName(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean)
+  parent: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  langs:
+  - csharp
+  - vb
+  name: GetFullName(SoDataReader, ArchiveRow, Boolean)
+  nameWithType: PersonContactExtenderHelper.GetFullName(SoDataReader, ArchiveRow, Boolean)
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetFullName(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nGet the full name according to formatting preferences, without contact component\n"
+  syntax:
+    content: public ArchiveColumnData GetFullName(SoDataReader reader, ArchiveRow row, bool wantNavLinks)
+    parameters:
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+    - id: row
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    - id: wantNavLinks
+      type: System.Boolean
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    content.vb: Public Function GetFullName(reader As SoDataReader, row As ArchiveRow, wantNavLinks As Boolean) As ArchiveColumnData
+  overload: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetFullName*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetFullNameWithContact(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean,SuperOffice.CRM.ArchiveLists.ContactExtenderBase)
+  commentId: M:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetFullNameWithContact(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean,SuperOffice.CRM.ArchiveLists.ContactExtenderBase)
+  id: GetFullNameWithContact(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean,SuperOffice.CRM.ArchiveLists.ContactExtenderBase)
+  parent: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  langs:
+  - csharp
+  - vb
+  name: GetFullNameWithContact(SoDataReader, ArchiveRow, Boolean, ContactExtenderBase)
+  nameWithType: PersonContactExtenderHelper.GetFullNameWithContact(SoDataReader, ArchiveRow, Boolean, ContactExtenderBase)
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetFullNameWithContact(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow, System.Boolean, SuperOffice.CRM.ArchiveLists.ContactExtenderBase)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nGet the full name according to formatting preferences, including the contact name and department\n"
+  syntax:
+    content: public ArchiveColumnData GetFullNameWithContact(SoDataReader reader, ArchiveRow row, bool wantNavLinks, ContactExtenderBase contactExtender)
+    parameters:
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+    - id: row
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    - id: wantNavLinks
+      type: System.Boolean
+    - id: contactExtender
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    content.vb: Public Function GetFullNameWithContact(reader As SoDataReader, row As ArchiveRow, wantNavLinks As Boolean, contactExtender As ContactExtenderBase) As ArchiveColumnData
+  overload: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetFullNameWithContact*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetNameAndDepartment(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.ContactTableInfo,System.Boolean)
+  commentId: M:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetNameAndDepartment(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.ContactTableInfo,System.Boolean)
+  id: GetNameAndDepartment(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.ContactTableInfo,System.Boolean)
+  parent: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  langs:
+  - csharp
+  - vb
+  name: GetNameAndDepartment(SoDataReader, ContactTableInfo, Boolean)
+  nameWithType: PersonContactExtenderHelper.GetNameAndDepartment(SoDataReader, ContactTableInfo, Boolean)
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetNameAndDepartment(SuperOffice.Data.SoDataReader, SuperOffice.CRM.Data.ContactTableInfo, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static ArchiveColumnData GetNameAndDepartment(SoDataReader reader, ContactTableInfo contactInfo, bool wantNavLinks)
+    parameters:
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+    - id: contactInfo
+      type: SuperOffice.CRM.Data.ContactTableInfo
+    - id: wantNavLinks
+      type: System.Boolean
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    content.vb: Public Shared Function GetNameAndDepartment(reader As SoDataReader, contactInfo As ContactTableInfo, wantNavLinks As Boolean) As ArchiveColumnData
+  overload: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetNameAndDepartment*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetFullNameOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetFullNameOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  id: SetFullNameOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  parent: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  langs:
+  - csharp
+  - vb
+  name: SetFullNameOrderBy(ArchiveColumnInfo, ArchiveColumnInfo, ArchiveColumnInfo, ArchiveColumnInfo, ArchiveColumnInfo, ArchiveColumnInfo, ArchiveColumnInfo)
+  nameWithType: PersonContactExtenderHelper.SetFullNameOrderBy(ArchiveColumnInfo, ArchiveColumnInfo, ArchiveColumnInfo, ArchiveColumnInfo, ArchiveColumnInfo, ArchiveColumnInfo, ArchiveColumnInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetFullNameOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public void SetFullNameOrderBy(ArchiveColumnInfo _colFullName, ArchiveColumnInfo _colFullNameWithContact, ArchiveColumnInfo _colFirstName, ArchiveColumnInfo _colMiddleName, ArchiveColumnInfo _colLastName, ArchiveColumnInfo _colPosition, ArchiveColumnInfo _colRank)
+    parameters:
+    - id: _colFullName
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    - id: _colFullNameWithContact
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    - id: _colFirstName
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    - id: _colMiddleName
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    - id: _colLastName
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    - id: _colPosition
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    - id: _colRank
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Public Sub SetFullNameOrderBy(_colFullName As ArchiveColumnInfo, _colFullNameWithContact As ArchiveColumnInfo, _colFirstName As ArchiveColumnInfo, _colMiddleName As ArchiveColumnInfo, _colLastName As ArchiveColumnInfo, _colPosition As ArchiveColumnInfo, _colRank As ArchiveColumnInfo)
+  overload: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetFullNameOrderBy*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.ProcessFullNameRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,SuperOffice.CRM.ArchiveLists.ArchiveSelect)
+  commentId: M:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.ProcessFullNameRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,SuperOffice.CRM.ArchiveLists.ArchiveSelect)
+  id: ProcessFullNameRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,SuperOffice.CRM.ArchiveLists.ArchiveSelect)
+  parent: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  langs:
+  - csharp
+  - vb
+  name: ProcessFullNameRestriction(ArchiveRestrictionInfo, ArchiveSelect)
+  nameWithType: PersonContactExtenderHelper.ProcessFullNameRestriction(ArchiveRestrictionInfo, ArchiveSelect)
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.ProcessFullNameRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo, SuperOffice.CRM.ArchiveLists.ArchiveSelect)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nHelper for processing fullname restriction\n"
+  syntax:
+    content: public void ProcessFullNameRestriction(ArchiveRestrictionInfo restriction, ArchiveSelect targetQuery)
+    parameters:
+    - id: restriction
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    - id: targetQuery
+      type: SuperOffice.CRM.ArchiveLists.ArchiveSelect
+    content.vb: Public Sub ProcessFullNameRestriction(restriction As ArchiveRestrictionInfo, targetQuery As ArchiveSelect)
+  overload: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.ProcessFullNameRestriction*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.InitializeAddressExtenders
+  commentId: M:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.InitializeAddressExtenders
+  id: InitializeAddressExtenders
+  parent: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  langs:
+  - csharp
+  - vb
+  name: InitializeAddressExtenders()
+  nameWithType: PersonContactExtenderHelper.InitializeAddressExtenders()
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.InitializeAddressExtenders()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nInitialize the address extenders. Call from constructor\n"
+  syntax:
+    content: public void InitializeAddressExtenders()
+    content.vb: Public Sub InitializeAddressExtenders
+  overload: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.InitializeAddressExtenders*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetDesiredAddressColumns(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetDesiredAddressColumns(System.String[])
+  id: SetDesiredAddressColumns(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  langs:
+  - csharp
+  - vb
+  name: SetDesiredAddressColumns(String[])
+  nameWithType: PersonContactExtenderHelper.SetDesiredAddressColumns(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetDesiredAddressColumns(System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nFish out address columns from a set of desired columns, and do the prefixing magic needed. Call from SetDesiredColumns\n"
+  syntax:
+    content: public bool SetDesiredAddressColumns(string[] columnIds)
+    parameters:
+    - id: columnIds
+      type: System.String[]
+    return:
+      type: System.Boolean
+      description: true if at least one address column has been requested
+    content.vb: Public Function SetDesiredAddressColumns(columnIds As String()) As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetDesiredAddressColumns*
+  nameWithType.vb: PersonContactExtenderHelper.SetDesiredAddressColumns(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetDesiredAddressColumns(System.String())
+  name.vb: SetDesiredAddressColumns(String())
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PopulateAddressColumns(SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean,SuperOffice.CRM.ArchiveLists.ColumnHelper)
+  commentId: M:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PopulateAddressColumns(SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean,SuperOffice.CRM.ArchiveLists.ColumnHelper)
+  id: PopulateAddressColumns(SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean,SuperOffice.CRM.ArchiveLists.ColumnHelper)
+  parent: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  langs:
+  - csharp
+  - vb
+  name: PopulateAddressColumns(ArchiveRow, Boolean, ColumnHelper)
+  nameWithType: PersonContactExtenderHelper.PopulateAddressColumns(ArchiveRow, Boolean, ColumnHelper)
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PopulateAddressColumns(SuperOffice.CRM.ArchiveLists.ArchiveRow, System.Boolean, SuperOffice.CRM.ArchiveLists.ColumnHelper)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nPopulate the requested address columns from various subextenders. Call from InnerPopulateRowFromReader.\n"
+  syntax:
+    content: public void PopulateAddressColumns(ArchiveRow row, bool wantPersonAddress, ColumnHelper columnHelper)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    - id: wantPersonAddress
+      type: System.Boolean
+    - id: columnHelper
+      type: SuperOffice.CRM.ArchiveLists.ColumnHelper
+    content.vb: Public Sub PopulateAddressColumns(row As ArchiveRow, wantPersonAddress As Boolean, columnHelper As ColumnHelper)
+  overload: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PopulateAddressColumns*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.AddAndInitializeExtensionProvider``1(``0,System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.AddAndInitializeExtensionProvider``1(``0,System.String,System.String)
+  id: AddAndInitializeExtensionProvider``1(``0,System.String,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  langs:
+  - csharp
+  - vb
+  name: AddAndInitializeExtensionProvider<ExtenderType>(ExtenderType, String, String)
+  nameWithType: PersonContactExtenderHelper.AddAndInitializeExtensionProvider<ExtenderType>(ExtenderType, String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.AddAndInitializeExtensionProvider<ExtenderType>(ExtenderType, System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nReflection of a similar method in <xref href=\"SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase\" data-throw-if-not-resolved=\"false\"></xref>, needed here to initialize extenders on behalf of our parent\n"
+  syntax:
+    content: >-
+      protected ExtenderType AddAndInitializeExtensionProvider<ExtenderType>(ExtenderType extender, string namePrefix, string displayNamePrefix)
+          where ExtenderType : IArchiveExtender
+    parameters:
+    - id: extender
+      type: '{ExtenderType}'
+    - id: namePrefix
+      type: System.String
+    - id: displayNamePrefix
+      type: System.String
+    typeParameters:
+    - id: ExtenderType
+    return:
+      type: '{ExtenderType}'
+    content.vb: Protected Function AddAndInitializeExtensionProvider(Of ExtenderType As IArchiveExtender)(extender As ExtenderType, namePrefix As String, displayNamePrefix As String) As ExtenderType
+  overload: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.AddAndInitializeExtensionProvider*
+  nameWithType.vb: PersonContactExtenderHelper.AddAndInitializeExtensionProvider(Of ExtenderType)(ExtenderType, String, String)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.AddAndInitializeExtensionProvider(Of ExtenderType)(ExtenderType, System.String, System.String)
+  name.vb: AddAndInitializeExtensionProvider(Of ExtenderType)(ExtenderType, String, String)
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.AddressColumns
+  commentId: P:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.AddressColumns
+  id: AddressColumns
+  parent: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper
+  langs:
+  - csharp
+  - vb
+  name: AddressColumns
+  nameWithType: PersonContactExtenderHelper.AddressColumns
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.AddressColumns
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nProvide an iterator that will give the address columns only\n"
+  syntax:
+    content: public IEnumerable<ArchiveColumnInfo> AddressColumns { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+    content.vb: Public ReadOnly Property AddressColumns As IEnumerable(Of ArchiveColumnInfo)
+  overload: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.AddressColumns*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<PersonContactExtenderHelper, To>()
+  nameWithType: EnumUtil.MapEnums<PersonContactExtenderHelper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of PersonContactExtenderHelper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper, To)()
+  name.vb: MapEnums(Of PersonContactExtenderHelper, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<PersonContactExtenderHelper, To>
+    nameWithType: EnumUtil.MapEnums<PersonContactExtenderHelper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of PersonContactExtenderHelper, To)
+    nameWithType: EnumUtil.MapEnums(Of PersonContactExtenderHelper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<PersonContactExtenderHelper, To>()
+  nameWithType: Converters.MapEnums<PersonContactExtenderHelper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper, To>()
+  nameWithType.vb: Converters.MapEnums(Of PersonContactExtenderHelper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper, To)()
+  name.vb: MapEnums(Of PersonContactExtenderHelper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<PersonContactExtenderHelper, To>
+    nameWithType: Converters.MapEnums<PersonContactExtenderHelper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of PersonContactExtenderHelper, To)
+    nameWithType: Converters.MapEnums(Of PersonContactExtenderHelper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveColumnInfo
+  nameWithType: ArchiveColumnInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.#ctor
+  isExternal: true
+  name: PersonContactExtenderHelper
+  nameWithType: PersonContactExtenderHelper.PersonContactExtenderHelper
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PersonContactExtenderHelper
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ExtensibleColumnsBase
+  nameWithType: ExtensibleColumnsBase
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetPersonTableInfo*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetPersonTableInfo
+  isExternal: true
+  name: SetPersonTableInfo
+  nameWithType: PersonContactExtenderHelper.SetPersonTableInfo
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetPersonTableInfo
+- uid: SuperOffice.CRM.Data.PersonTableInfo
+  commentId: T:SuperOffice.CRM.Data.PersonTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: PersonTableInfo
+  nameWithType: PersonTableInfo
+  fullName: SuperOffice.CRM.Data.PersonTableInfo
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetFullName*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetFullName
+  isExternal: true
+  name: GetFullName
+  nameWithType: PersonContactExtenderHelper.GetFullName
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetFullName
+- uid: SuperOffice.Data.SoDataReader
+  commentId: T:SuperOffice.Data.SoDataReader
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoDataReader
+  nameWithType: SoDataReader
+  fullName: SuperOffice.Data.SoDataReader
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRow
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveRow
+  nameWithType: ArchiveRow
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveColumnData
+  nameWithType: ArchiveColumnData
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetFullNameWithContact*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetFullNameWithContact
+  isExternal: true
+  name: GetFullNameWithContact
+  nameWithType: PersonContactExtenderHelper.GetFullNameWithContact
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetFullNameWithContact
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.ContactExtenderBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ContactExtenderBase
+  nameWithType: ContactExtenderBase
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetNameAndDepartment*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetNameAndDepartment
+  isExternal: true
+  name: GetNameAndDepartment
+  nameWithType: PersonContactExtenderHelper.GetNameAndDepartment
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.GetNameAndDepartment
+- uid: SuperOffice.CRM.Data.ContactTableInfo
+  commentId: T:SuperOffice.CRM.Data.ContactTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ContactTableInfo
+  nameWithType: ContactTableInfo
+  fullName: SuperOffice.CRM.Data.ContactTableInfo
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetFullNameOrderBy*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetFullNameOrderBy
+  isExternal: true
+  name: SetFullNameOrderBy
+  nameWithType: PersonContactExtenderHelper.SetFullNameOrderBy
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetFullNameOrderBy
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.ProcessFullNameRestriction*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.ProcessFullNameRestriction
+  isExternal: true
+  name: ProcessFullNameRestriction
+  nameWithType: PersonContactExtenderHelper.ProcessFullNameRestriction
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.ProcessFullNameRestriction
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveRestrictionInfo
+  nameWithType: ArchiveRestrictionInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveSelect
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveSelect
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveSelect
+  nameWithType: ArchiveSelect
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveSelect
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.InitializeAddressExtenders*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.InitializeAddressExtenders
+  isExternal: true
+  name: InitializeAddressExtenders
+  nameWithType: PersonContactExtenderHelper.InitializeAddressExtenders
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.InitializeAddressExtenders
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetDesiredAddressColumns*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetDesiredAddressColumns
+  isExternal: true
+  name: SetDesiredAddressColumns
+  nameWithType: PersonContactExtenderHelper.SetDesiredAddressColumns
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.SetDesiredAddressColumns
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PopulateAddressColumns*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PopulateAddressColumns
+  isExternal: true
+  name: PopulateAddressColumns
+  nameWithType: PersonContactExtenderHelper.PopulateAddressColumns
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.PopulateAddressColumns
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  commentId: T:SuperOffice.CRM.ArchiveLists.ColumnHelper
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ColumnHelper
+  nameWithType: ColumnHelper
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.AddAndInitializeExtensionProvider*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.AddAndInitializeExtensionProvider
+  isExternal: true
+  name: AddAndInitializeExtensionProvider
+  nameWithType: PersonContactExtenderHelper.AddAndInitializeExtensionProvider
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.AddAndInitializeExtensionProvider
+- uid: '{ExtenderType}'
+  commentId: '!:ExtenderType'
+  definition: ExtenderType
+  name: ExtenderType
+  nameWithType: ExtenderType
+  fullName: ExtenderType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: ExtenderType
+  name: ExtenderType
+  nameWithType: ExtenderType
+  fullName: ExtenderType
+- uid: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.AddressColumns*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.AddressColumns
+  isExternal: true
+  name: AddressColumns
+  nameWithType: PersonContactExtenderHelper.AddressColumns
+  fullName: SuperOffice.CRM.ArchiveLists.PersonContactExtenderHelper.AddressColumns
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ArchiveColumnInfo>
+  nameWithType: IEnumerable<ArchiveColumnInfo>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>
+  nameWithType.vb: IEnumerable(Of ArchiveColumnInfo)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  name.vb: IEnumerable(Of ArchiveColumnInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

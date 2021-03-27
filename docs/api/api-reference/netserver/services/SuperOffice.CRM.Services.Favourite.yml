@@ -1,0 +1,391 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.Favourite
+  commentId: T:SuperOffice.CRM.Services.Favourite
+  id: Favourite
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.Favourite.#ctor
+  - SuperOffice.CRM.Services.Favourite.AssociateId
+  - SuperOffice.CRM.Services.Favourite.ExtraInfo
+  - SuperOffice.CRM.Services.Favourite.Rank
+  - SuperOffice.CRM.Services.Favourite.RecordId
+  - SuperOffice.CRM.Services.Favourite.TableName
+  - SuperOffice.CRM.Services.Favourite.ToString
+  - SuperOffice.CRM.Services.Favourite.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Favourite
+  nameWithType: Favourite
+  fullName: SuperOffice.CRM.Services.Favourite
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFavourite carrier.\n<p></p>\nCarrier object for Favourite.\nServices for the Favourite Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IFavouriteAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class Favourite : Carrier'
+    content.vb: >-
+      Public Class Favourite
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.FavouriteAgent
+    commentId: T:SuperOffice.CRM.Services.FavouriteAgent
+  - linkId: SuperOffice.CRM.Services.IFavouriteAgent
+    commentId: T:SuperOffice.CRM.Services.IFavouriteAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.Favourite.#ctor
+  commentId: M:SuperOffice.CRM.Services.Favourite.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.Favourite
+  langs:
+  - csharp
+  - vb
+  name: Favourite()
+  nameWithType: Favourite.Favourite()
+  fullName: SuperOffice.CRM.Services.Favourite.Favourite()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public Favourite()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.Favourite.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Favourite.ToString
+  commentId: M:SuperOffice.CRM.Services.Favourite.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.Favourite
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Favourite.ToString()
+  fullName: SuperOffice.CRM.Services.Favourite.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.Favourite.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.Favourite.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.Favourite.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.Favourite
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: Favourite.ToString(String)
+  fullName: SuperOffice.CRM.Services.Favourite.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.Favourite.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Favourite.TableName
+  commentId: P:SuperOffice.CRM.Services.Favourite.TableName
+  id: TableName
+  parent: SuperOffice.CRM.Services.Favourite
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: Favourite.TableName
+  fullName: SuperOffice.CRM.Services.Favourite.TableName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of the table this favourite belongs to. \n"
+  syntax:
+    content: public virtual string TableName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TableName As String
+  overload: SuperOffice.CRM.Services.Favourite.TableName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Favourite.RecordId
+  commentId: P:SuperOffice.CRM.Services.Favourite.RecordId
+  id: RecordId
+  parent: SuperOffice.CRM.Services.Favourite
+  langs:
+  - csharp
+  - vb
+  name: RecordId
+  nameWithType: Favourite.RecordId
+  fullName: SuperOffice.CRM.Services.Favourite.RecordId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nId of the record this favourite belongs to. \n"
+  syntax:
+    content: public virtual int RecordId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RecordId As Integer
+  overload: SuperOffice.CRM.Services.Favourite.RecordId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Favourite.AssociateId
+  commentId: P:SuperOffice.CRM.Services.Favourite.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Services.Favourite
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: Favourite.AssociateId
+  fullName: SuperOffice.CRM.Services.Favourite.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nId of the associate this favourite belongs to. \n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.CRM.Services.Favourite.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Favourite.ExtraInfo
+  commentId: P:SuperOffice.CRM.Services.Favourite.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.CRM.Services.Favourite
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: Favourite.ExtraInfo
+  fullName: SuperOffice.CRM.Services.Favourite.ExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nExtra information for this favourite. \n"
+  syntax:
+    content: public virtual string ExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraInfo As String
+  overload: SuperOffice.CRM.Services.Favourite.ExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Favourite.Rank
+  commentId: P:SuperOffice.CRM.Services.Favourite.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Services.Favourite
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: Favourite.Rank
+  fullName: SuperOffice.CRM.Services.Favourite.Rank
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRank order \n"
+  syntax:
+    content: public virtual int Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Rank As Integer
+  overload: SuperOffice.CRM.Services.Favourite.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.FavouriteAgent
+  commentId: T:SuperOffice.CRM.Services.FavouriteAgent
+  isExternal: true
+  name: FavouriteAgent
+  nameWithType: FavouriteAgent
+  fullName: SuperOffice.CRM.Services.FavouriteAgent
+- uid: SuperOffice.CRM.Services.IFavouriteAgent
+  commentId: T:SuperOffice.CRM.Services.IFavouriteAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IFavouriteAgent
+  nameWithType: IFavouriteAgent
+  fullName: SuperOffice.CRM.Services.IFavouriteAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.Favourite.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.Favourite.#ctor
+  isExternal: true
+  name: Favourite
+  nameWithType: Favourite.Favourite
+  fullName: SuperOffice.CRM.Services.Favourite.Favourite
+- uid: SuperOffice.CRM.Services.Favourite.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.Favourite.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: Favourite.ToString
+  fullName: SuperOffice.CRM.Services.Favourite.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.Favourite.TableName*
+  commentId: Overload:SuperOffice.CRM.Services.Favourite.TableName
+  isExternal: true
+  name: TableName
+  nameWithType: Favourite.TableName
+  fullName: SuperOffice.CRM.Services.Favourite.TableName
+- uid: SuperOffice.CRM.Services.Favourite.RecordId*
+  commentId: Overload:SuperOffice.CRM.Services.Favourite.RecordId
+  isExternal: true
+  name: RecordId
+  nameWithType: Favourite.RecordId
+  fullName: SuperOffice.CRM.Services.Favourite.RecordId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.Favourite.AssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.Favourite.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: Favourite.AssociateId
+  fullName: SuperOffice.CRM.Services.Favourite.AssociateId
+- uid: SuperOffice.CRM.Services.Favourite.ExtraInfo*
+  commentId: Overload:SuperOffice.CRM.Services.Favourite.ExtraInfo
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: Favourite.ExtraInfo
+  fullName: SuperOffice.CRM.Services.Favourite.ExtraInfo
+- uid: SuperOffice.CRM.Services.Favourite.Rank*
+  commentId: Overload:SuperOffice.CRM.Services.Favourite.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: Favourite.Rank
+  fullName: SuperOffice.CRM.Services.Favourite.Rank

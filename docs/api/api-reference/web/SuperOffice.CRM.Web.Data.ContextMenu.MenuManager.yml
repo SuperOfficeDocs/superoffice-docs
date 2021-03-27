@@ -1,0 +1,658 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager
+  commentId: T:SuperOffice.CRM.Web.Data.ContextMenu.MenuManager
+  id: MenuManager
+  parent: SuperOffice.CRM.Web.Data.ContextMenu
+  children:
+  - SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.#ctor
+  - SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.CreateDividerItem
+  - SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.CreateNewItem(System.Boolean,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.GetMenuItems(System.String,System.String,System.Int32,System.String)
+  - SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.UnderLineName(System.String)
+  langs:
+  - csharp
+  - vb
+  name: MenuManager
+  nameWithType: MenuManager
+  fullName: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.ContextMenu
+  syntax:
+    content: public class MenuManager
+    content.vb: Public Class MenuManager
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.GetMenuItems(System.String,System.String,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.GetMenuItems(System.String,System.String,System.Int32,System.String)
+  id: GetMenuItems(System.String,System.String,System.Int32,System.String)
+  parent: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager
+  langs:
+  - csharp
+  - vb
+  name: GetMenuItems(String, String, Int32, String)
+  nameWithType: MenuManager.GetMenuItems(String, String, Int32, String)
+  fullName: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.GetMenuItems(System.String, System.String, System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.ContextMenu
+  syntax:
+    content: public static List<MenuListItem> GetMenuItems(string context, string subcontext, int id, string linkHint)
+    parameters:
+    - id: context
+      type: System.String
+    - id: subcontext
+      type: System.String
+    - id: id
+      type: System.Int32
+    - id: linkHint
+      type: System.String
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.MenuListItem}
+    content.vb: Public Shared Function GetMenuItems(context As String, subcontext As String, id As Integer, linkHint As String) As List(Of MenuListItem)
+  overload: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.GetMenuItems*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.CreateDividerItem
+  commentId: M:SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.CreateDividerItem
+  id: CreateDividerItem
+  parent: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager
+  langs:
+  - csharp
+  - vb
+  name: CreateDividerItem()
+  nameWithType: MenuManager.CreateDividerItem()
+  fullName: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.CreateDividerItem()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.ContextMenu
+  syntax:
+    content: protected static MenuListItem CreateDividerItem()
+    return:
+      type: SuperOffice.CRM.Lists.MenuListItem
+    content.vb: Protected Shared Function CreateDividerItem As MenuListItem
+  overload: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.CreateDividerItem*
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.CreateNewItem(System.Boolean,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.CreateNewItem(System.Boolean,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String)
+  id: CreateNewItem(System.Boolean,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager
+  langs:
+  - csharp
+  - vb
+  name: CreateNewItem(Boolean, String, String, String, Int32, String, String, String)
+  nameWithType: MenuManager.CreateNewItem(Boolean, String, String, String, Int32, String, String, String)
+  fullName: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.CreateNewItem(System.Boolean, System.String, System.String, System.String, System.Int32, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.ContextMenu
+  syntax:
+    content: protected static MenuListItem CreateNewItem(bool displayAccessKeys, string name, string url, string icon, int id, string shortcutText, string currentSoProtocol, string menuItemId)
+    parameters:
+    - id: displayAccessKeys
+      type: System.Boolean
+    - id: name
+      type: System.String
+    - id: url
+      type: System.String
+    - id: icon
+      type: System.String
+    - id: id
+      type: System.Int32
+    - id: shortcutText
+      type: System.String
+    - id: currentSoProtocol
+      type: System.String
+    - id: menuItemId
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Lists.MenuListItem
+    content.vb: Protected Shared Function CreateNewItem(displayAccessKeys As Boolean, name As String, url As String, icon As String, id As Integer, shortcutText As String, currentSoProtocol As String, menuItemId As String) As MenuListItem
+  overload: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.CreateNewItem*
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.UnderLineName(System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.UnderLineName(System.String)
+  id: UnderLineName(System.String)
+  parent: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager
+  langs:
+  - csharp
+  - vb
+  name: UnderLineName(String)
+  nameWithType: MenuManager.UnderLineName(String)
+  fullName: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.UnderLineName(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.ContextMenu
+  syntax:
+    content: protected static string UnderLineName(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Protected Shared Function UnderLineName(name As String) As String
+  overload: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.UnderLineName*
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.#ctor
+  commentId: M:SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager
+  langs:
+  - csharp
+  - vb
+  name: MenuManager()
+  nameWithType: MenuManager.MenuManager()
+  fullName: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.MenuManager()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.ContextMenu
+  syntax:
+    content: public MenuManager()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Data.ContextMenu
+  commentId: N:SuperOffice.CRM.Web.Data.ContextMenu
+  isExternal: true
+  name: SuperOffice.CRM.Web.Data.ContextMenu
+  nameWithType: SuperOffice.CRM.Web.Data.ContextMenu
+  fullName: SuperOffice.CRM.Web.Data.ContextMenu
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.GetMenuItems*
+  commentId: Overload:SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.GetMenuItems
+  isExternal: true
+  name: GetMenuItems
+  nameWithType: MenuManager.GetMenuItems
+  fullName: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.GetMenuItems
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.MenuListItem}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Lists.MenuListItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<MenuListItem>
+  nameWithType: List<MenuListItem>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Lists.MenuListItem>
+  nameWithType.vb: List(Of MenuListItem)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Lists.MenuListItem)
+  name.vb: List(Of MenuListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.MenuListItem
+    name: MenuListItem
+    nameWithType: MenuListItem
+    fullName: SuperOffice.CRM.Lists.MenuListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.MenuListItem
+    name: MenuListItem
+    nameWithType: MenuListItem
+    fullName: SuperOffice.CRM.Lists.MenuListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.CreateDividerItem*
+  commentId: Overload:SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.CreateDividerItem
+  isExternal: true
+  name: CreateDividerItem
+  nameWithType: MenuManager.CreateDividerItem
+  fullName: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.CreateDividerItem
+- uid: SuperOffice.CRM.Lists.MenuListItem
+  isExternal: true
+  name: MenuListItem
+  nameWithType: MenuListItem
+  fullName: SuperOffice.CRM.Lists.MenuListItem
+- uid: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.CreateNewItem*
+  commentId: Overload:SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.CreateNewItem
+  isExternal: true
+  name: CreateNewItem
+  nameWithType: MenuManager.CreateNewItem
+  fullName: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.CreateNewItem
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.UnderLineName*
+  commentId: Overload:SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.UnderLineName
+  isExternal: true
+  name: UnderLineName
+  nameWithType: MenuManager.UnderLineName
+  fullName: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.UnderLineName
+- uid: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.#ctor
+  isExternal: true
+  name: MenuManager
+  nameWithType: MenuManager.MenuManager
+  fullName: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager.MenuManager

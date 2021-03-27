@@ -1,0 +1,797 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.UserPreferenceStrings.DiaryView
+  commentId: T:SuperOffice.CRM.UserPreferenceStrings.DiaryView
+  id: UserPreferenceStrings.DiaryView
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.UserPreferenceStrings.DiaryView.AllDayEndTime
+  - SuperOffice.CRM.UserPreferenceStrings.DiaryView.AllDayStartTime
+  - SuperOffice.CRM.UserPreferenceStrings.DiaryView.DefaultAlarmTime
+  - SuperOffice.CRM.UserPreferenceStrings.DiaryView.DiaryStartTime
+  - SuperOffice.CRM.UserPreferenceStrings.DiaryView.DiaryViewAssociates
+  - SuperOffice.CRM.UserPreferenceStrings.DiaryView.DiaryViewNumAssociates
+  - SuperOffice.CRM.UserPreferenceStrings.DiaryView.DiaryViewShowUserGroup
+  - SuperOffice.CRM.UserPreferenceStrings.DiaryView.DiaryViewSubList
+  - SuperOffice.CRM.UserPreferenceStrings.DiaryView.ExtendFindAvailable
+  - SuperOffice.CRM.UserPreferenceStrings.DiaryView.LunchEndTime
+  - SuperOffice.CRM.UserPreferenceStrings.DiaryView.LunchStartTime
+  - SuperOffice.CRM.UserPreferenceStrings.DiaryView.SecretaryMode
+  - SuperOffice.CRM.UserPreferenceStrings.DiaryView.Section
+  - SuperOffice.CRM.UserPreferenceStrings.DiaryView.SilentAfter
+  - SuperOffice.CRM.UserPreferenceStrings.DiaryView.SundayFirstDay
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.DiaryView
+  nameWithType: UserPreferenceStrings.DiaryView
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDiary\n"
+  syntax:
+    content: public static class DiaryView
+    content.vb: Public Module DiaryView
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.UserPreferenceStrings.DiaryView.Section
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DiaryView.Section
+  id: Section
+  parent: SuperOffice.CRM.UserPreferenceStrings.DiaryView
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.DiaryView.Section
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.Section
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "DiaryView"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "DiaryView"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.DiaryView.AllDayEndTime
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DiaryView.AllDayEndTime
+  id: AllDayEndTime
+  parent: SuperOffice.CRM.UserPreferenceStrings.DiaryView
+  langs:
+  - csharp
+  - vb
+  name: AllDayEndTime
+  nameWithType: UserPreferenceStrings.DiaryView.AllDayEndTime
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.AllDayEndTime
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nEnd time for an all-day appointment\n<p></p>Control type: Date, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string AllDayEndTime = "AllDayEndTime"
+    return:
+      type: System.String
+    content.vb: Public Const AllDayEndTime As String = "AllDayEndTime"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.DiaryView.AllDayStartTime
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DiaryView.AllDayStartTime
+  id: AllDayStartTime
+  parent: SuperOffice.CRM.UserPreferenceStrings.DiaryView
+  langs:
+  - csharp
+  - vb
+  name: AllDayStartTime
+  nameWithType: UserPreferenceStrings.DiaryView.AllDayStartTime
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.AllDayStartTime
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nStart time for an all-day appointment\n<p></p>Control type: Date, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string AllDayStartTime = "AllDayStartTime"
+    return:
+      type: System.String
+    content.vb: Public Const AllDayStartTime As String = "AllDayStartTime"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.DiaryView.DefaultAlarmTime
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DiaryView.DefaultAlarmTime
+  id: DefaultAlarmTime
+  parent: SuperOffice.CRM.UserPreferenceStrings.DiaryView
+  langs:
+  - csharp
+  - vb
+  name: DefaultAlarmTime
+  nameWithType: UserPreferenceStrings.DiaryView.DefaultAlarmTime
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.DefaultAlarmTime
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault number of minutes before a follow-up alarm is triggered\n<p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultAlarmTime = "DefaultAlarmTime"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAlarmTime As String = "DefaultAlarmTime"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.DiaryView.DiaryStartTime
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DiaryView.DiaryStartTime
+  id: DiaryStartTime
+  parent: SuperOffice.CRM.UserPreferenceStrings.DiaryView
+  langs:
+  - csharp
+  - vb
+  name: DiaryStartTime
+  nameWithType: UserPreferenceStrings.DiaryView.DiaryStartTime
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.DiaryStartTime
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSpecifies the time your calendar starts in the morning. Use a number to indicate the whole hour. Default = 8, meaning that your calendar will start at 08:00\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string DiaryStartTime = "DiaryStartTime"
+    return:
+      type: System.String
+    content.vb: Public Const DiaryStartTime As String = "DiaryStartTime"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.DiaryView.DiaryViewAssociates
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DiaryView.DiaryViewAssociates
+  id: DiaryViewAssociates
+  parent: SuperOffice.CRM.UserPreferenceStrings.DiaryView
+  langs:
+  - csharp
+  - vb
+  name: DiaryViewAssociates
+  nameWithType: UserPreferenceStrings.DiaryView.DiaryViewAssociates
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.DiaryViewAssociates
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nA comma-separated list of the associates and resources to display in the group view\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string DiaryViewAssociates = "DiaryViewAssociates"
+    return:
+      type: System.String
+    content.vb: Public Const DiaryViewAssociates As String = "DiaryViewAssociates"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.DiaryView.DiaryViewNumAssociates
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DiaryView.DiaryViewNumAssociates
+  id: DiaryViewNumAssociates
+  parent: SuperOffice.CRM.UserPreferenceStrings.DiaryView
+  langs:
+  - csharp
+  - vb
+  name: DiaryViewNumAssociates
+  nameWithType: UserPreferenceStrings.DiaryView.DiaryViewNumAssociates
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.DiaryViewNumAssociates
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nNumber of columns to display in the group view\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string DiaryViewNumAssociates = "DiaryViewNumAssociates"
+    return:
+      type: System.String
+    content.vb: Public Const DiaryViewNumAssociates As String = "DiaryViewNumAssociates"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.DiaryView.DiaryViewSubList
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DiaryView.DiaryViewSubList
+  id: DiaryViewSubList
+  parent: SuperOffice.CRM.UserPreferenceStrings.DiaryView
+  langs:
+  - csharp
+  - vb
+  name: DiaryViewSubList
+  nameWithType: UserPreferenceStrings.DiaryView.DiaryViewSubList
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.DiaryViewSubList
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nPreference used to remember the setup/state of the Filter dialog\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string DiaryViewSubList = "DiaryViewSubList"
+    return:
+      type: System.String
+    content.vb: Public Const DiaryViewSubList As String = "DiaryViewSubList"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.DiaryView.DiaryViewShowUserGroup
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DiaryView.DiaryViewShowUserGroup
+  id: DiaryViewShowUserGroup
+  parent: SuperOffice.CRM.UserPreferenceStrings.DiaryView
+  langs:
+  - csharp
+  - vb
+  name: DiaryViewShowUserGroup
+  nameWithType: UserPreferenceStrings.DiaryView.DiaryViewShowUserGroup
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.DiaryViewShowUserGroup
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nPreference used to remember the current diary view\n<p></p>Control type: Text\n"
+  syntax:
+    content: public const string DiaryViewShowUserGroup = "DiaryViewShowUserGroup"
+    return:
+      type: System.String
+    content.vb: Public Const DiaryViewShowUserGroup As String = "DiaryViewShowUserGroup"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.DiaryView.LunchEndTime
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DiaryView.LunchEndTime
+  id: LunchEndTime
+  parent: SuperOffice.CRM.UserPreferenceStrings.DiaryView
+  langs:
+  - csharp
+  - vb
+  name: LunchEndTime
+  nameWithType: UserPreferenceStrings.DiaryView.LunchEndTime
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.LunchEndTime
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nEnd time for your lunch-break\n<p></p>Control type: Date, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string LunchEndTime = "LunchEndTime"
+    return:
+      type: System.String
+    content.vb: Public Const LunchEndTime As String = "LunchEndTime"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.DiaryView.LunchStartTime
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DiaryView.LunchStartTime
+  id: LunchStartTime
+  parent: SuperOffice.CRM.UserPreferenceStrings.DiaryView
+  langs:
+  - csharp
+  - vb
+  name: LunchStartTime
+  nameWithType: UserPreferenceStrings.DiaryView.LunchStartTime
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.LunchStartTime
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nStart time for your lunch-break\n<p></p>Control type: Date, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string LunchStartTime = "LunchStartTime"
+    return:
+      type: System.String
+    content.vb: Public Const LunchStartTime As String = "LunchStartTime"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.DiaryView.SecretaryMode
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DiaryView.SecretaryMode
+  id: SecretaryMode
+  parent: SuperOffice.CRM.UserPreferenceStrings.DiaryView
+  langs:
+  - csharp
+  - vb
+  name: SecretaryMode
+  nameWithType: UserPreferenceStrings.DiaryView.SecretaryMode
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.SecretaryMode
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nKeeps the current diary owner in all panels (Default = No)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string SecretaryMode = "SecretaryMode"
+    return:
+      type: System.String
+    content.vb: Public Const SecretaryMode As String = "SecretaryMode"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.DiaryView.SilentAfter
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DiaryView.SilentAfter
+  id: SilentAfter
+  parent: SuperOffice.CRM.UserPreferenceStrings.DiaryView
+  langs:
+  - csharp
+  - vb
+  name: SilentAfter
+  nameWithType: UserPreferenceStrings.DiaryView.SilentAfter
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.SilentAfter
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nThe alarm can be silenced after a given number of minutes to avoid unnecessary office disruption when you are away.\n<p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string SilentAfter = "SilentAfter"
+    return:
+      type: System.String
+    content.vb: Public Const SilentAfter As String = "SilentAfter"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.DiaryView.ExtendFindAvailable
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DiaryView.ExtendFindAvailable
+  id: ExtendFindAvailable
+  parent: SuperOffice.CRM.UserPreferenceStrings.DiaryView
+  langs:
+  - csharp
+  - vb
+  name: ExtendFindAvailable
+  nameWithType: UserPreferenceStrings.DiaryView.ExtendFindAvailable
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.ExtendFindAvailable
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nExtended possibility to find available time (i.e. lunch meeting, dinner...)\n"
+  syntax:
+    content: public const string ExtendFindAvailable = "ExtendFindAvailable "
+    return:
+      type: System.String
+    content.vb: Public Const ExtendFindAvailable As String = "ExtendFindAvailable "
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.DiaryView.SundayFirstDay
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DiaryView.SundayFirstDay
+  id: SundayFirstDay
+  parent: SuperOffice.CRM.UserPreferenceStrings.DiaryView
+  langs:
+  - csharp
+  - vb
+  name: SundayFirstDay
+  nameWithType: UserPreferenceStrings.DiaryView.SundayFirstDay
+  fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.SundayFirstDay
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDisplay Sunday as the first day of the week in the calendar and diary. (Default = NO, meaning that Monday will be used as the first day of the week.)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string SundayFirstDay = "SundayFirstDay"
+    return:
+      type: System.String
+    content.vb: Public Const SundayFirstDay As String = "SundayFirstDay"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

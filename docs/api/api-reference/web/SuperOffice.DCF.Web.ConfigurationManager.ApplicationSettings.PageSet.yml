@@ -1,0 +1,676 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet
+  commentId: T:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet
+  id: ConfigurationManager.ApplicationSettings.PageSet
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.#ctor(System.Xml.XmlNode)
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.Pages(System.String)
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.PrefKey
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.PrefSection
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.SubClients
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationManager.ApplicationSettings.PageSet
+  nameWithType: ConfigurationManager.ApplicationSettings.PageSet
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public class PageSet
+    content.vb: Public Class PageSet
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.#ctor(System.Xml.XmlNode)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.#ctor(System.Xml.XmlNode)
+  id: '#ctor(System.Xml.XmlNode)'
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet
+  langs:
+  - csharp
+  - vb
+  name: PageSet(XmlNode)
+  nameWithType: ConfigurationManager.ApplicationSettings.PageSet.PageSet(XmlNode)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.PageSet(System.Xml.XmlNode)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public PageSet(XmlNode configXml)
+    parameters:
+    - id: configXml
+      type: System.Xml.XmlNode
+    content.vb: Public Sub New(configXml As XmlNode)
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.Pages(System.String)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.Pages(System.String)
+  id: Pages(System.String)
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet
+  langs:
+  - csharp
+  - vb
+  name: Pages(String)
+  nameWithType: ConfigurationManager.ApplicationSettings.PageSet.Pages(String)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.Pages(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public Dictionary<string, ConfigurationManager.ApplicationSettings.PageDefinition> Pages(string subclient = "default")
+    parameters:
+    - id: subclient
+      type: System.String
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition}
+    content.vb: Public Function Pages(subclient As String = "default") As Dictionary(Of String, ConfigurationManager.ApplicationSettings.PageDefinition)
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.Pages*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.PrefSection
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.PrefSection
+  id: PrefSection
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet
+  langs:
+  - csharp
+  - vb
+  name: PrefSection
+  nameWithType: ConfigurationManager.ApplicationSettings.PageSet.PrefSection
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.PrefSection
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string PrefSection { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property PrefSection As String
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.PrefSection*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.PrefKey
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.PrefKey
+  id: PrefKey
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet
+  langs:
+  - csharp
+  - vb
+  name: PrefKey
+  nameWithType: ConfigurationManager.ApplicationSettings.PageSet.PrefKey
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.PrefKey
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string PrefKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property PrefKey As String
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.PrefKey*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.SubClients
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.SubClients
+  id: SubClients
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet
+  langs:
+  - csharp
+  - vb
+  name: SubClients
+  nameWithType: ConfigurationManager.ApplicationSettings.PageSet.SubClients
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.SubClients
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string[] SubClients { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public ReadOnly Property SubClients As String()
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.SubClients*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.#ctor
+  isExternal: true
+  name: PageSet
+  nameWithType: ConfigurationManager.ApplicationSettings.PageSet.PageSet
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.PageSet
+- uid: System.Xml.XmlNode
+  isExternal: true
+  name: XmlNode
+  nameWithType: XmlNode
+  fullName: System.Xml.XmlNode
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.Pages*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.Pages
+  isExternal: true
+  name: Pages
+  nameWithType: ConfigurationManager.ApplicationSettings.PageSet.Pages
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.Pages
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, ConfigurationManager.ApplicationSettings.PageDefinition>
+  nameWithType: Dictionary<String, ConfigurationManager.ApplicationSettings.PageDefinition>
+  fullName: System.Collections.Generic.Dictionary<System.String, SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition>
+  nameWithType.vb: Dictionary(Of String, ConfigurationManager.ApplicationSettings.PageDefinition)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition)
+  name.vb: Dictionary(Of String, ConfigurationManager.ApplicationSettings.PageDefinition)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+    name: ConfigurationManager.ApplicationSettings.PageDefinition
+    nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition
+    fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+    name: ConfigurationManager.ApplicationSettings.PageDefinition
+    nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition
+    fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.PrefSection*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.PrefSection
+  isExternal: true
+  name: PrefSection
+  nameWithType: ConfigurationManager.ApplicationSettings.PageSet.PrefSection
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.PrefSection
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.PrefKey*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.PrefKey
+  isExternal: true
+  name: PrefKey
+  nameWithType: ConfigurationManager.ApplicationSettings.PageSet.PrefKey
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.PrefKey
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.SubClients*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.SubClients
+  isExternal: true
+  name: SubClients
+  nameWithType: ConfigurationManager.ApplicationSettings.PageSet.SubClients
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet.SubClients
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

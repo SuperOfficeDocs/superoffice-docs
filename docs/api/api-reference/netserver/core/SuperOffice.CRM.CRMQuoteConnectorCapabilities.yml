@@ -1,0 +1,973 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities
+  commentId: T:SuperOffice.CRM.CRMQuoteConnectorCapabilities
+  id: CRMQuoteConnectorCapabilities
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.CRMQuoteConnectorCapabilities.All
+  - SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanCachePriceLists
+  - SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanPerformComplexSearch
+  - SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanPlaceOrder
+  - SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideAddresses
+  - SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideCost
+  - SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideDeliveryTermsList
+  - SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideDeliveryTypeList
+  - SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideExtraData
+  - SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideListBase
+  - SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideMinimumPrice
+  - SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideOrderState
+  - SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvidePaymentTermsList
+  - SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvidePaymentTypeList
+  - SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvidePicture
+  - SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideProductCategoryList
+  - SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideProductFamilyList
+  - SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideProductTypeList
+  - SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideStockData
+  - SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanSendOrderConfirmation
+  langs:
+  - csharp
+  - vb
+  name: CRMQuoteConnectorCapabilities
+  nameWithType: CRMQuoteConnectorCapabilities
+  fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nA list of capabilities that a quote connector can have. These are strings instead of an enum to future proof it, i.e. so that when new capabilities occure\n, you don&apos;t have to recompile your connector if you don&apos;t want to.\n"
+  syntax:
+    content: public static class CRMQuoteConnectorCapabilities
+    content.vb: Public Module CRMQuoteConnectorCapabilities
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideCost
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideCost
+  id: CanProvideCost
+  parent: SuperOffice.CRM.CRMQuoteConnectorCapabilities
+  langs:
+  - csharp
+  - vb
+  name: CanProvideCost
+  nameWithType: CRMQuoteConnectorCapabilities.CanProvideCost
+  fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideCost
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCan the Product Provider fill in the Cost price value?\nDetermines if the Cost and Earning field is shown in the GUI.\n<p></p>\nIf this is FALSE, then the Cost Price, Earning and Earning% fields are not shown in the Quote Line dialog or search dialogs or archive footers.\n"
+  syntax:
+    content: public const string CanProvideCost = "iproductprovider_provide_cost"
+    return:
+      type: System.String
+    content.vb: Public Const CanProvideCost As String = "iproductprovider_provide_cost"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideMinimumPrice
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideMinimumPrice
+  id: CanProvideMinimumPrice
+  parent: SuperOffice.CRM.CRMQuoteConnectorCapabilities
+  langs:
+  - csharp
+  - vb
+  name: CanProvideMinimumPrice
+  nameWithType: CRMQuoteConnectorCapabilities.CanProvideMinimumPrice
+  fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideMinimumPrice
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCan the Product Provider define the Minimum price value? \nDetermines if the Minimum Price field is shown in the GUI, and if the minimum price is checked against the list price field. \n<p></p>\nIf the list price is less than the minimum price, then an ERROR is signalled, blocking the SEND/PLACE ORDER actions of the quote. \nThe minimum price check cannot be bypassed - it does not trigger a NEEDS APPROVAL workflow.\n<p></p>\nIf this is FALSE, then the Minimum Price field is not shown in the Quote Line dialog or search dialogs or archives, and no check is done on the list price.\n"
+  syntax:
+    content: public const string CanProvideMinimumPrice = "iproductprovider_provide_minimumprice"
+    return:
+      type: System.String
+    content.vb: Public Const CanProvideMinimumPrice As String = "iproductprovider_provide_minimumprice"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideStockData
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideStockData
+  id: CanProvideStockData
+  parent: SuperOffice.CRM.CRMQuoteConnectorCapabilities
+  langs:
+  - csharp
+  - vb
+  name: CanProvideStockData
+  nameWithType: CRMQuoteConnectorCapabilities.CanProvideStockData
+  fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideStockData
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCan the product provider supply the inStock data?\nDetermines whether the inStock values are shown in the GUI or not.\n<p></p>\nIf this is FALSE, then the inStock column is not shown in the product search results.\n"
+  syntax:
+    content: public const string CanProvideStockData = "iproductprovider_provide_stockdata"
+    return:
+      type: System.String
+    content.vb: Public Const CanProvideStockData As String = "iproductprovider_provide_stockdata"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideExtraData
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideExtraData
+  id: CanProvideExtraData
+  parent: SuperOffice.CRM.CRMQuoteConnectorCapabilities
+  langs:
+  - csharp
+  - vb
+  name: CanProvideExtraData
+  nameWithType: CRMQuoteConnectorCapabilities.CanProvideExtraData
+  fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideExtraData
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nDoes the Product Provider fill in any ExtraData. \nDetermines if the extra data fields are shown in the GUI.\n<p></p>\nIf this is FALSE: then the extra-fields section in the quote line dialog is not shown.\nIf this is false, and no extra fields are in use, then the whole EXTRA tab disappears.\n"
+  syntax:
+    content: public const string CanProvideExtraData = "iproductprovider_provide_extradata"
+    return:
+      type: System.String
+    content.vb: Public Const CanProvideExtraData As String = "iproductprovider_provide_extradata"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvidePicture
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvidePicture
+  id: CanProvidePicture
+  parent: SuperOffice.CRM.CRMQuoteConnectorCapabilities
+  langs:
+  - csharp
+  - vb
+  name: CanProvidePicture
+  nameWithType: CRMQuoteConnectorCapabilities.CanProvidePicture
+  fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvidePicture
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCan the Product Provider supply any pictures? \nDetermines if the picture field is shown in the dialog.\n<p></p>\nIf this is FALSE, then the picture in the quote line dialog is not shown. Thumbnails will still be shown in archives, if a thumbnail is provided.\n"
+  syntax:
+    content: public const string CanProvidePicture = "iproductprovider_provide_picture"
+    return:
+      type: System.String
+    content.vb: Public Const CanProvidePicture As String = "iproductprovider_provide_picture"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanSendOrderConfirmation
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanSendOrderConfirmation
+  id: CanSendOrderConfirmation
+  parent: SuperOffice.CRM.CRMQuoteConnectorCapabilities
+  langs:
+  - csharp
+  - vb
+  name: CanSendOrderConfirmation
+  nameWithType: CRMQuoteConnectorCapabilities.CanSendOrderConfirmation
+  fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanSendOrderConfirmation
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCan the connector send its own order confirmation e-mail? If the connector or the ERP system sends its own e-mail, then SuperOffice doesn&apos;t have to do it.\n<p></p>\nIf the capability is FALSE, then the E-MAIL section of the PLACE ORDER dialog is shown.\n"
+  syntax:
+    content: public const string CanSendOrderConfirmation = "iorderconsumer_send_order_confirm"
+    return:
+      type: System.String
+    content.vb: Public Const CanSendOrderConfirmation As String = "iorderconsumer_send_order_confirm"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanPlaceOrder
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanPlaceOrder
+  id: CanPlaceOrder
+  parent: SuperOffice.CRM.CRMQuoteConnectorCapabilities
+  langs:
+  - csharp
+  - vb
+  name: CanPlaceOrder
+  nameWithType: CRMQuoteConnectorCapabilities.CanPlaceOrder
+  fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanPlaceOrder
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCan the connector place orders?\nIf not then the PlaceOrder method is not called.\nThe PLACE ORDER button is still shown, and the quote can be set to ordered.\n"
+  syntax:
+    content: public const string CanPlaceOrder = "iorderconsumer_place_order"
+    return:
+      type: System.String
+    content.vb: Public Const CanPlaceOrder As String = "iorderconsumer_place_order"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideOrderState
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideOrderState
+  id: CanProvideOrderState
+  parent: SuperOffice.CRM.CRMQuoteConnectorCapabilities
+  langs:
+  - csharp
+  - vb
+  name: CanProvideOrderState
+  nameWithType: CRMQuoteConnectorCapabilities.CanProvideOrderState
+  fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideOrderState
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCan the connector check order status in the ERP system. \n<p></p>\nIf the capability is FALSE, then no GET STATUS button appears after an order has been placed in the ERP system.\n"
+  syntax:
+    content: public const string CanProvideOrderState = "iorderconsumer_provide_orderstate"
+    return:
+      type: System.String
+    content.vb: Public Const CanProvideOrderState As String = "iorderconsumer_provide_orderstate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideListBase
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideListBase
+  id: CanProvideListBase
+  parent: SuperOffice.CRM.CRMQuoteConnectorCapabilities
+  langs:
+  - csharp
+  - vb
+  name: CanProvideListBase
+  nameWithType: CRMQuoteConnectorCapabilities.CanProvideListBase
+  fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideListBase
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nBase string for the list-specific capability; append list name in lowercase and the &quot;list&quot; suffix with no additional underscores\n"
+  syntax:
+    content: public const string CanProvideListBase = "ilistprovider_provide_"
+    return:
+      type: System.String
+    content.vb: Public Const CanProvideListBase As String = "ilistprovider_provide_"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideProductCategoryList
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideProductCategoryList
+  id: CanProvideProductCategoryList
+  parent: SuperOffice.CRM.CRMQuoteConnectorCapabilities
+  langs:
+  - csharp
+  - vb
+  name: CanProvideProductCategoryList
+  nameWithType: CRMQuoteConnectorCapabilities.CanProvideProductCategoryList
+  fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideProductCategoryList
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCan the connector provide the Product category list?\n<p></p>\nIf the capability is FALSE; then a text field is shown in place of a dropdown list in the QuoteLine and Quote dialogs.\n"
+  syntax:
+    content: public const string CanProvideProductCategoryList = "ilistprovider_provide_productcategorylist"
+    return:
+      type: System.String
+    content.vb: Public Const CanProvideProductCategoryList As String = "ilistprovider_provide_productcategorylist"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideProductFamilyList
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideProductFamilyList
+  id: CanProvideProductFamilyList
+  parent: SuperOffice.CRM.CRMQuoteConnectorCapabilities
+  langs:
+  - csharp
+  - vb
+  name: CanProvideProductFamilyList
+  nameWithType: CRMQuoteConnectorCapabilities.CanProvideProductFamilyList
+  fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideProductFamilyList
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCan the connector provide the Product family list?\n<p></p>\nIf the capability is FALSE; then a text field is shown in place of a dropdown list in the QuoteLine and Quote dialogs.\n"
+  syntax:
+    content: public const string CanProvideProductFamilyList = "ilistprovider_provide_productfamilylist"
+    return:
+      type: System.String
+    content.vb: Public Const CanProvideProductFamilyList As String = "ilistprovider_provide_productfamilylist"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideProductTypeList
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideProductTypeList
+  id: CanProvideProductTypeList
+  parent: SuperOffice.CRM.CRMQuoteConnectorCapabilities
+  langs:
+  - csharp
+  - vb
+  name: CanProvideProductTypeList
+  nameWithType: CRMQuoteConnectorCapabilities.CanProvideProductTypeList
+  fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideProductTypeList
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCan the connector provide the Product type list?\n<p></p>\nIf the capability is FALSE; then a text field is shown in place of a dropdown list in the QuoteLine and Product dialogs.\n"
+  syntax:
+    content: public const string CanProvideProductTypeList = "ilistprovider_provide_producttypelist"
+    return:
+      type: System.String
+    content.vb: Public Const CanProvideProductTypeList As String = "ilistprovider_provide_producttypelist"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvidePaymentTermsList
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvidePaymentTermsList
+  id: CanProvidePaymentTermsList
+  parent: SuperOffice.CRM.CRMQuoteConnectorCapabilities
+  langs:
+  - csharp
+  - vb
+  name: CanProvidePaymentTermsList
+  nameWithType: CRMQuoteConnectorCapabilities.CanProvidePaymentTermsList
+  fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvidePaymentTermsList
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCan the connector provide the Payment terms list?\n<p></p>\nIf the capability is FALSE; then a text field is shown in place of a dropdown list in the Quote dialog.\n"
+  syntax:
+    content: public const string CanProvidePaymentTermsList = "ilistprovider_provide_paymenttermslist"
+    return:
+      type: System.String
+    content.vb: Public Const CanProvidePaymentTermsList As String = "ilistprovider_provide_paymenttermslist"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvidePaymentTypeList
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvidePaymentTypeList
+  id: CanProvidePaymentTypeList
+  parent: SuperOffice.CRM.CRMQuoteConnectorCapabilities
+  langs:
+  - csharp
+  - vb
+  name: CanProvidePaymentTypeList
+  nameWithType: CRMQuoteConnectorCapabilities.CanProvidePaymentTypeList
+  fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvidePaymentTypeList
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCan the connector provide the Payment type list?\n<p></p>\nIf the capability is FALSE; then a text field is shown in place of a dropdown list in the Quote dialog.\n"
+  syntax:
+    content: public const string CanProvidePaymentTypeList = "ilistprovider_provide_paymenttypelist"
+    return:
+      type: System.String
+    content.vb: Public Const CanProvidePaymentTypeList As String = "ilistprovider_provide_paymenttypelist"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideDeliveryTermsList
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideDeliveryTermsList
+  id: CanProvideDeliveryTermsList
+  parent: SuperOffice.CRM.CRMQuoteConnectorCapabilities
+  langs:
+  - csharp
+  - vb
+  name: CanProvideDeliveryTermsList
+  nameWithType: CRMQuoteConnectorCapabilities.CanProvideDeliveryTermsList
+  fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideDeliveryTermsList
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCan the connector provide the Delivery terms list?\n<p></p>\nIf the capability is FALSE; then a text field is shown in place of a dropdown list in the Quote dialog.\n"
+  syntax:
+    content: public const string CanProvideDeliveryTermsList = "ilistprovider_provide_deliverytermslist"
+    return:
+      type: System.String
+    content.vb: Public Const CanProvideDeliveryTermsList As String = "ilistprovider_provide_deliverytermslist"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideDeliveryTypeList
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideDeliveryTypeList
+  id: CanProvideDeliveryTypeList
+  parent: SuperOffice.CRM.CRMQuoteConnectorCapabilities
+  langs:
+  - csharp
+  - vb
+  name: CanProvideDeliveryTypeList
+  nameWithType: CRMQuoteConnectorCapabilities.CanProvideDeliveryTypeList
+  fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideDeliveryTypeList
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCan the connector provide the Delivery type list?\n<p></p>\nIf the capability is FALSE; then a text field is shown in place of a dropdown list in the Quote dialog.\n"
+  syntax:
+    content: public const string CanProvideDeliveryTypeList = "ilistprovider_provide_deliverytypelist"
+    return:
+      type: System.String
+    content.vb: Public Const CanProvideDeliveryTypeList As String = "ilistprovider_provide_deliverytypelist"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanPerformComplexSearch
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanPerformComplexSearch
+  id: CanPerformComplexSearch
+  parent: SuperOffice.CRM.CRMQuoteConnectorCapabilities
+  langs:
+  - csharp
+  - vb
+  name: CanPerformComplexSearch
+  nameWithType: CRMQuoteConnectorCapabilities.CanPerformComplexSearch
+  fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanPerformComplexSearch
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCan the connector provide the &quot;Advanced Search&quot; feature (magnifying glass next to search field, leading to a full Find dialog);\nif TRUE then <xref href=\"SuperOffice.CRM.IQuoteConnector.GetSearchableFields\" data-throw-if-not-resolved=\"false\"></xref>\nshould return at least one criterion field.\n"
+  syntax:
+    content: public const string CanPerformComplexSearch = "iconnector_perform_complexsearch"
+    return:
+      type: System.String
+    content.vb: Public Const CanPerformComplexSearch As String = "iconnector_perform_complexsearch"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideAddresses
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideAddresses
+  id: CanProvideAddresses
+  parent: SuperOffice.CRM.CRMQuoteConnectorCapabilities
+  langs:
+  - csharp
+  - vb
+  name: CanProvideAddresses
+  nameWithType: CRMQuoteConnectorCapabilities.CanProvideAddresses
+  fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanProvideAddresses
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCan the connector provide addresses at all?\n<p></p>\nIf the capability is TRUE; then the quote will use the delivery and invoice addresses provided by the connector.\n<p></p>\nIf the capability is FALSE; then the quote will use the default addresses from SuperOffice.\n"
+  syntax:
+    content: public const string CanProvideAddresses = "iaddressprovider_provide_addresses"
+    return:
+      type: System.String
+    content.vb: Public Const CanProvideAddresses As String = "iaddressprovider_provide_addresses"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanCachePriceLists
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanCachePriceLists
+  id: CanCachePriceLists
+  parent: SuperOffice.CRM.CRMQuoteConnectorCapabilities
+  langs:
+  - csharp
+  - vb
+  name: CanCachePriceLists
+  nameWithType: CRMQuoteConnectorCapabilities.CanCachePriceLists
+  fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.CanCachePriceLists
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCan the quote engine cache the pricelists to increase performance?\n<p></p>\nThis is only available in the online environment and is not used by onsite installations.\n"
+  syntax:
+    content: public const string CanCachePriceLists = "cache-pricelists"
+    return:
+      type: System.String
+    content.vb: Public Const CanCachePriceLists As String = "cache-pricelists"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.CRMQuoteConnectorCapabilities.All
+  commentId: F:SuperOffice.CRM.CRMQuoteConnectorCapabilities.All
+  id: All
+  parent: SuperOffice.CRM.CRMQuoteConnectorCapabilities
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: CRMQuoteConnectorCapabilities.All
+  fullName: SuperOffice.CRM.CRMQuoteConnectorCapabilities.All
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nReturns all of the capabilities in a handy array. Useful when iterating.\n"
+  syntax:
+    content: public static string[] All
+    return:
+      type: System.String[]
+    content.vb: Public Shared All As String()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

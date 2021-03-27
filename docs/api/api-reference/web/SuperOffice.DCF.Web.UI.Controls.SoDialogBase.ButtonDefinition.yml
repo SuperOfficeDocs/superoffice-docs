@@ -1,0 +1,574 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition
+  id: SoDialogBase.ButtonDefinition
+  parent: SuperOffice.DCF.Web.UI.Controls
+  children:
+  - SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.#ctor(System.String,System.String,System.Boolean)
+  - SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.#ctor(System.String,System.String,System.Boolean,System.Boolean)
+  - SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.Callback
+  - SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.Caption
+  - SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.Enabled
+  - SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.IsOkButton
+  langs:
+  - csharp
+  - vb
+  name: SoDialogBase.ButtonDefinition
+  nameWithType: SoDialogBase.ButtonDefinition
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public class ButtonDefinition
+    content.vb: Public Class ButtonDefinition
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.#ctor(System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.#ctor(System.String,System.String,System.Boolean)
+  id: '#ctor(System.String,System.String,System.Boolean)'
+  parent: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition
+  langs:
+  - csharp
+  - vb
+  name: ButtonDefinition(String, String, Boolean)
+  nameWithType: SoDialogBase.ButtonDefinition.ButtonDefinition(String, String, Boolean)
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.ButtonDefinition(System.String, System.String, System.Boolean)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public ButtonDefinition(string caption, string callback, bool enabled)
+    parameters:
+    - id: caption
+      type: System.String
+    - id: callback
+      type: System.String
+    - id: enabled
+      type: System.Boolean
+    content.vb: Public Sub New(caption As String, callback As String, enabled As Boolean)
+  overload: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.#ctor(System.String,System.String,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.#ctor(System.String,System.String,System.Boolean,System.Boolean)
+  id: '#ctor(System.String,System.String,System.Boolean,System.Boolean)'
+  parent: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition
+  langs:
+  - csharp
+  - vb
+  name: ButtonDefinition(String, String, Boolean, Boolean)
+  nameWithType: SoDialogBase.ButtonDefinition.ButtonDefinition(String, String, Boolean, Boolean)
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.ButtonDefinition(System.String, System.String, System.Boolean, System.Boolean)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public ButtonDefinition(string caption, string callback, bool enabled, bool isOkButton)
+    parameters:
+    - id: caption
+      type: System.String
+    - id: callback
+      type: System.String
+    - id: enabled
+      type: System.Boolean
+    - id: isOkButton
+      type: System.Boolean
+    content.vb: Public Sub New(caption As String, callback As String, enabled As Boolean, isOkButton As Boolean)
+  overload: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.Callback
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.Callback
+  id: Callback
+  parent: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition
+  langs:
+  - csharp
+  - vb
+  name: Callback
+  nameWithType: SoDialogBase.ButtonDefinition.Callback
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.Callback
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public string Callback { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Callback As String
+  overload: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.Callback*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.Caption
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.Caption
+  id: Caption
+  parent: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition
+  langs:
+  - csharp
+  - vb
+  name: Caption
+  nameWithType: SoDialogBase.ButtonDefinition.Caption
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.Caption
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public string Caption { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Caption As String
+  overload: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.Caption*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.Enabled
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.Enabled
+  id: Enabled
+  parent: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition
+  langs:
+  - csharp
+  - vb
+  name: Enabled
+  nameWithType: SoDialogBase.ButtonDefinition.Enabled
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.Enabled
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public bool Enabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Enabled As Boolean
+  overload: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.Enabled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.IsOkButton
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.IsOkButton
+  id: IsOkButton
+  parent: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition
+  langs:
+  - csharp
+  - vb
+  name: IsOkButton
+  nameWithType: SoDialogBase.ButtonDefinition.IsOkButton
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.IsOkButton
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public bool IsOkButton { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsOkButton As Boolean
+  overload: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.IsOkButton*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.UI.Controls
+  commentId: N:SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Controls
+  nameWithType: SuperOffice.DCF.Web.UI.Controls
+  fullName: SuperOffice.DCF.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.#ctor
+  isExternal: true
+  name: ButtonDefinition
+  nameWithType: SoDialogBase.ButtonDefinition.ButtonDefinition
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.ButtonDefinition
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.Callback*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.Callback
+  isExternal: true
+  name: Callback
+  nameWithType: SoDialogBase.ButtonDefinition.Callback
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.Callback
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.Caption*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.Caption
+  isExternal: true
+  name: Caption
+  nameWithType: SoDialogBase.ButtonDefinition.Caption
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.Caption
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.Enabled*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.Enabled
+  isExternal: true
+  name: Enabled
+  nameWithType: SoDialogBase.ButtonDefinition.Enabled
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.Enabled
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.IsOkButton*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.IsOkButton
+  isExternal: true
+  name: IsOkButton
+  nameWithType: SoDialogBase.ButtonDefinition.IsOkButton
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition.IsOkButton

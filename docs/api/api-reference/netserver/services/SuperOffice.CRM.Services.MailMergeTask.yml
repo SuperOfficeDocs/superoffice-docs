@@ -1,0 +1,657 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.MailMergeTask
+  commentId: T:SuperOffice.CRM.Services.MailMergeTask
+  id: MailMergeTask
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.MailMergeTask.#ctor
+  - SuperOffice.CRM.Services.MailMergeTask.Completed
+  - SuperOffice.CRM.Services.MailMergeTask.Description
+  - SuperOffice.CRM.Services.MailMergeTask.Duration
+  - SuperOffice.CRM.Services.MailMergeTask.OwnerAssociateId
+  - SuperOffice.CRM.Services.MailMergeTask.PriorityId
+  - SuperOffice.CRM.Services.MailMergeTask.ProjectId
+  - SuperOffice.CRM.Services.MailMergeTask.SaleId
+  - SuperOffice.CRM.Services.MailMergeTask.SingleEntryOnEachCompany
+  - SuperOffice.CRM.Services.MailMergeTask.StartDate
+  - SuperOffice.CRM.Services.MailMergeTask.ToString
+  - SuperOffice.CRM.Services.MailMergeTask.ToString(System.String)
+  - SuperOffice.CRM.Services.MailMergeTask.TypeId
+  - SuperOffice.CRM.Services.MailMergeTask.VisibleFor
+  langs:
+  - csharp
+  - vb
+  name: MailMergeTask
+  nameWithType: MailMergeTask
+  fullName: SuperOffice.CRM.Services.MailMergeTask
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nProperties describing a task to create on recipients of a mail merge\n<p></p>\nCarrier object for MailMergeTask.\nServices for the MailMergeTask Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ISelectionAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class MailMergeTask : Carrier'
+    content.vb: >-
+      Public Class MailMergeTask
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.SelectionAgent
+    commentId: T:SuperOffice.CRM.Services.SelectionAgent
+  - linkId: SuperOffice.CRM.Services.ISelectionAgent
+    commentId: T:SuperOffice.CRM.Services.ISelectionAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.MailMergeTask.#ctor
+  commentId: M:SuperOffice.CRM.Services.MailMergeTask.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: MailMergeTask()
+  nameWithType: MailMergeTask.MailMergeTask()
+  fullName: SuperOffice.CRM.Services.MailMergeTask.MailMergeTask()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public MailMergeTask()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.MailMergeTask.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.MailMergeTask.ToString
+  commentId: M:SuperOffice.CRM.Services.MailMergeTask.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: MailMergeTask.ToString()
+  fullName: SuperOffice.CRM.Services.MailMergeTask.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.MailMergeTask.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.MailMergeTask.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.MailMergeTask.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: MailMergeTask.ToString(String)
+  fullName: SuperOffice.CRM.Services.MailMergeTask.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.MailMergeTask.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.MailMergeTask.ProjectId
+  commentId: P:SuperOffice.CRM.Services.MailMergeTask.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.Services.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: MailMergeTask.ProjectId
+  fullName: SuperOffice.CRM.Services.MailMergeTask.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nProject identity to set on task \n"
+  syntax:
+    content: public virtual int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProjectId As Integer
+  overload: SuperOffice.CRM.Services.MailMergeTask.ProjectId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.MailMergeTask.TypeId
+  commentId: P:SuperOffice.CRM.Services.MailMergeTask.TypeId
+  id: TypeId
+  parent: SuperOffice.CRM.Services.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: TypeId
+  nameWithType: MailMergeTask.TypeId
+  fullName: SuperOffice.CRM.Services.MailMergeTask.TypeId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nType identity to set on task \n"
+  syntax:
+    content: public virtual int TypeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TypeId As Integer
+  overload: SuperOffice.CRM.Services.MailMergeTask.TypeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.MailMergeTask.StartDate
+  commentId: P:SuperOffice.CRM.Services.MailMergeTask.StartDate
+  id: StartDate
+  parent: SuperOffice.CRM.Services.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: MailMergeTask.StartDate
+  fullName: SuperOffice.CRM.Services.MailMergeTask.StartDate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhen the task should start \n"
+  syntax:
+    content: public virtual DateTime StartDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property StartDate As Date
+  overload: SuperOffice.CRM.Services.MailMergeTask.StartDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.MailMergeTask.Duration
+  commentId: P:SuperOffice.CRM.Services.MailMergeTask.Duration
+  id: Duration
+  parent: SuperOffice.CRM.Services.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: MailMergeTask.Duration
+  fullName: SuperOffice.CRM.Services.MailMergeTask.Duration
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDuration of task \n"
+  syntax:
+    content: public virtual int Duration { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Duration As Integer
+  overload: SuperOffice.CRM.Services.MailMergeTask.Duration*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.MailMergeTask.Description
+  commentId: P:SuperOffice.CRM.Services.MailMergeTask.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: MailMergeTask.Description
+  fullName: SuperOffice.CRM.Services.MailMergeTask.Description
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nText describing task \n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.MailMergeTask.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.MailMergeTask.PriorityId
+  commentId: P:SuperOffice.CRM.Services.MailMergeTask.PriorityId
+  id: PriorityId
+  parent: SuperOffice.CRM.Services.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: PriorityId
+  nameWithType: MailMergeTask.PriorityId
+  fullName: SuperOffice.CRM.Services.MailMergeTask.PriorityId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPriority of task \n"
+  syntax:
+    content: public virtual int PriorityId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PriorityId As Integer
+  overload: SuperOffice.CRM.Services.MailMergeTask.PriorityId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.MailMergeTask.VisibleFor
+  commentId: P:SuperOffice.CRM.Services.MailMergeTask.VisibleFor
+  id: VisibleFor
+  parent: SuperOffice.CRM.Services.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: VisibleFor
+  nameWithType: MailMergeTask.VisibleFor
+  fullName: SuperOffice.CRM.Services.MailMergeTask.VisibleFor
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWho the task should be visible for \n"
+  syntax:
+    content: public virtual VisibleFor VisibleFor { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.VisibleFor
+    content.vb: Public Overridable Property VisibleFor As VisibleFor
+  overload: SuperOffice.CRM.Services.MailMergeTask.VisibleFor*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.MailMergeTask.Completed
+  commentId: P:SuperOffice.CRM.Services.MailMergeTask.Completed
+  id: Completed
+  parent: SuperOffice.CRM.Services.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: Completed
+  nameWithType: MailMergeTask.Completed
+  fullName: SuperOffice.CRM.Services.MailMergeTask.Completed
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCompleted status for task \n"
+  syntax:
+    content: public virtual ActivityStatus Completed { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.ActivityStatus
+    content.vb: Public Overridable Property Completed As ActivityStatus
+  overload: SuperOffice.CRM.Services.MailMergeTask.Completed*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.MailMergeTask.OwnerAssociateId
+  commentId: P:SuperOffice.CRM.Services.MailMergeTask.OwnerAssociateId
+  id: OwnerAssociateId
+  parent: SuperOffice.CRM.Services.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: OwnerAssociateId
+  nameWithType: MailMergeTask.OwnerAssociateId
+  fullName: SuperOffice.CRM.Services.MailMergeTask.OwnerAssociateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAssociate identity of who should be set as owner of the task.  If value is 0, the recipient owner(our contact) will be used. \n"
+  syntax:
+    content: public virtual int OwnerAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property OwnerAssociateId As Integer
+  overload: SuperOffice.CRM.Services.MailMergeTask.OwnerAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.MailMergeTask.SingleEntryOnEachCompany
+  commentId: P:SuperOffice.CRM.Services.MailMergeTask.SingleEntryOnEachCompany
+  id: SingleEntryOnEachCompany
+  parent: SuperOffice.CRM.Services.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: SingleEntryOnEachCompany
+  nameWithType: MailMergeTask.SingleEntryOnEachCompany
+  fullName: SuperOffice.CRM.Services.MailMergeTask.SingleEntryOnEachCompany
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nShould we only create one task on each company? If false, separate tasks will be created for all persons from the same company. \n"
+  syntax:
+    content: public virtual bool SingleEntryOnEachCompany { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property SingleEntryOnEachCompany As Boolean
+  overload: SuperOffice.CRM.Services.MailMergeTask.SingleEntryOnEachCompany*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.MailMergeTask.SaleId
+  commentId: P:SuperOffice.CRM.Services.MailMergeTask.SaleId
+  id: SaleId
+  parent: SuperOffice.CRM.Services.MailMergeTask
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: MailMergeTask.SaleId
+  fullName: SuperOffice.CRM.Services.MailMergeTask.SaleId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSale identity to set on task \n"
+  syntax:
+    content: public virtual int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleId As Integer
+  overload: SuperOffice.CRM.Services.MailMergeTask.SaleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.SelectionAgent
+  commentId: T:SuperOffice.CRM.Services.SelectionAgent
+  isExternal: true
+  name: SelectionAgent
+  nameWithType: SelectionAgent
+  fullName: SuperOffice.CRM.Services.SelectionAgent
+- uid: SuperOffice.CRM.Services.ISelectionAgent
+  commentId: T:SuperOffice.CRM.Services.ISelectionAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ISelectionAgent
+  nameWithType: ISelectionAgent
+  fullName: SuperOffice.CRM.Services.ISelectionAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.MailMergeTask.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.MailMergeTask.#ctor
+  isExternal: true
+  name: MailMergeTask
+  nameWithType: MailMergeTask.MailMergeTask
+  fullName: SuperOffice.CRM.Services.MailMergeTask.MailMergeTask
+- uid: SuperOffice.CRM.Services.MailMergeTask.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.MailMergeTask.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: MailMergeTask.ToString
+  fullName: SuperOffice.CRM.Services.MailMergeTask.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.MailMergeTask.ProjectId*
+  commentId: Overload:SuperOffice.CRM.Services.MailMergeTask.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: MailMergeTask.ProjectId
+  fullName: SuperOffice.CRM.Services.MailMergeTask.ProjectId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.MailMergeTask.TypeId*
+  commentId: Overload:SuperOffice.CRM.Services.MailMergeTask.TypeId
+  isExternal: true
+  name: TypeId
+  nameWithType: MailMergeTask.TypeId
+  fullName: SuperOffice.CRM.Services.MailMergeTask.TypeId
+- uid: SuperOffice.CRM.Services.MailMergeTask.StartDate*
+  commentId: Overload:SuperOffice.CRM.Services.MailMergeTask.StartDate
+  isExternal: true
+  name: StartDate
+  nameWithType: MailMergeTask.StartDate
+  fullName: SuperOffice.CRM.Services.MailMergeTask.StartDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.MailMergeTask.Duration*
+  commentId: Overload:SuperOffice.CRM.Services.MailMergeTask.Duration
+  isExternal: true
+  name: Duration
+  nameWithType: MailMergeTask.Duration
+  fullName: SuperOffice.CRM.Services.MailMergeTask.Duration
+- uid: SuperOffice.CRM.Services.MailMergeTask.Description*
+  commentId: Overload:SuperOffice.CRM.Services.MailMergeTask.Description
+  isExternal: true
+  name: Description
+  nameWithType: MailMergeTask.Description
+  fullName: SuperOffice.CRM.Services.MailMergeTask.Description
+- uid: SuperOffice.CRM.Services.MailMergeTask.PriorityId*
+  commentId: Overload:SuperOffice.CRM.Services.MailMergeTask.PriorityId
+  isExternal: true
+  name: PriorityId
+  nameWithType: MailMergeTask.PriorityId
+  fullName: SuperOffice.CRM.Services.MailMergeTask.PriorityId
+- uid: SuperOffice.CRM.Services.MailMergeTask.VisibleFor*
+  commentId: Overload:SuperOffice.CRM.Services.MailMergeTask.VisibleFor
+  isExternal: true
+  name: VisibleFor
+  nameWithType: MailMergeTask.VisibleFor
+  fullName: SuperOffice.CRM.Services.MailMergeTask.VisibleFor
+- uid: SuperOffice.CRM.Services.VisibleFor
+  commentId: T:SuperOffice.CRM.Services.VisibleFor
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: VisibleFor
+  nameWithType: VisibleFor
+  fullName: SuperOffice.CRM.Services.VisibleFor
+- uid: SuperOffice.CRM.Services.MailMergeTask.Completed*
+  commentId: Overload:SuperOffice.CRM.Services.MailMergeTask.Completed
+  isExternal: true
+  name: Completed
+  nameWithType: MailMergeTask.Completed
+  fullName: SuperOffice.CRM.Services.MailMergeTask.Completed
+- uid: SuperOffice.Data.ActivityStatus
+  isExternal: true
+  name: ActivityStatus
+  nameWithType: ActivityStatus
+  fullName: SuperOffice.Data.ActivityStatus
+- uid: SuperOffice.CRM.Services.MailMergeTask.OwnerAssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.MailMergeTask.OwnerAssociateId
+  isExternal: true
+  name: OwnerAssociateId
+  nameWithType: MailMergeTask.OwnerAssociateId
+  fullName: SuperOffice.CRM.Services.MailMergeTask.OwnerAssociateId
+- uid: SuperOffice.CRM.Services.MailMergeTask.SingleEntryOnEachCompany*
+  commentId: Overload:SuperOffice.CRM.Services.MailMergeTask.SingleEntryOnEachCompany
+  isExternal: true
+  name: SingleEntryOnEachCompany
+  nameWithType: MailMergeTask.SingleEntryOnEachCompany
+  fullName: SuperOffice.CRM.Services.MailMergeTask.SingleEntryOnEachCompany
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.MailMergeTask.SaleId*
+  commentId: Overload:SuperOffice.CRM.Services.MailMergeTask.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: MailMergeTask.SaleId
+  fullName: SuperOffice.CRM.Services.MailMergeTask.SaleId

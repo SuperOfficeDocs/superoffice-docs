@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Document_DeleteTempFileRequest
+  commentId: T:SuperOffice.WebApi.Data.Document_DeleteTempFileRequest
+  id: Document_DeleteTempFileRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Document_DeleteTempFileRequest.#ctor
+  - SuperOffice.WebApi.Data.Document_DeleteTempFileRequest.Filename
+  langs:
+  - csharp
+  - vb
+  name: Document_DeleteTempFileRequest
+  nameWithType: Document_DeleteTempFileRequest
+  fullName: SuperOffice.WebApi.Data.Document_DeleteTempFileRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Document_DeleteTempFileRequest : Object'
+    content.vb: >-
+      Public Class Document_DeleteTempFileRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Document_DeleteTempFileRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Document_DeleteTempFileRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Document_DeleteTempFileRequest
+  langs:
+  - csharp
+  - vb
+  name: Document_DeleteTempFileRequest()
+  nameWithType: Document_DeleteTempFileRequest.Document_DeleteTempFileRequest()
+  fullName: SuperOffice.WebApi.Data.Document_DeleteTempFileRequest.Document_DeleteTempFileRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Document_DeleteTempFileRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Document_DeleteTempFileRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_DeleteTempFileRequest.Filename
+  commentId: P:SuperOffice.WebApi.Data.Document_DeleteTempFileRequest.Filename
+  id: Filename
+  parent: SuperOffice.WebApi.Data.Document_DeleteTempFileRequest
+  langs:
+  - csharp
+  - vb
+  name: Filename
+  nameWithType: Document_DeleteTempFileRequest.Filename
+  fullName: SuperOffice.WebApi.Data.Document_DeleteTempFileRequest.Filename
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Filename { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Filename As String
+  overload: SuperOffice.WebApi.Data.Document_DeleteTempFileRequest.Filename*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Document_DeleteTempFileRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_DeleteTempFileRequest.#ctor
+  isExternal: true
+  name: Document_DeleteTempFileRequest
+  nameWithType: Document_DeleteTempFileRequest.Document_DeleteTempFileRequest
+  fullName: SuperOffice.WebApi.Data.Document_DeleteTempFileRequest.Document_DeleteTempFileRequest
+- uid: SuperOffice.WebApi.Data.Document_DeleteTempFileRequest.Filename*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_DeleteTempFileRequest.Filename
+  isExternal: true
+  name: Filename
+  nameWithType: Document_DeleteTempFileRequest.Filename
+  fullName: SuperOffice.WebApi.Data.Document_DeleteTempFileRequest.Filename
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

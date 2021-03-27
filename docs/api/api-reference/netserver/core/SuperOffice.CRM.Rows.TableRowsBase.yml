@@ -1,0 +1,4905 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.TableRowsBase
+  commentId: T:SuperOffice.CRM.Rows.TableRowsBase
+  id: TableRowsBase
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.TableRowsBase.#ctor(SuperOffice.CRM.Rows.IdxBase)
+  - SuperOffice.CRM.Rows.TableRowsBase._allHasBeenMarkedForDelete
+  - SuperOffice.CRM.Rows.TableRowsBase._idx
+  - SuperOffice.CRM.Rows.TableRowsBase._innerList
+  - SuperOffice.CRM.Rows.TableRowsBase._onCollectionChanged
+  - SuperOffice.CRM.Rows.TableRowsBase._sentries
+  - SuperOffice.CRM.Rows.TableRowsBase.Add(SuperOffice.CRM.Rows.TableRowBase)
+  - SuperOffice.CRM.Rows.TableRowsBase.AddIndex(System.ComponentModel.PropertyDescriptor)
+  - SuperOffice.CRM.Rows.TableRowsBase.AddNew
+  - SuperOffice.CRM.Rows.TableRowsBase.AllowEdit
+  - SuperOffice.CRM.Rows.TableRowsBase.AllowNew
+  - SuperOffice.CRM.Rows.TableRowsBase.AllowRemove
+  - SuperOffice.CRM.Rows.TableRowsBase.ApplySort(System.ComponentModel.PropertyDescriptor,System.ComponentModel.ListSortDirection)
+  - SuperOffice.CRM.Rows.TableRowsBase.Clear
+  - SuperOffice.CRM.Rows.TableRowsBase.CollectionChanged
+  - SuperOffice.CRM.Rows.TableRowsBase.Contains(System.Object)
+  - SuperOffice.CRM.Rows.TableRowsBase.CopyTo(System.Array,System.Int32)
+  - SuperOffice.CRM.Rows.TableRowsBase.Count
+  - SuperOffice.CRM.Rows.TableRowsBase.CreateChild
+  - SuperOffice.CRM.Rows.TableRowsBase.Delete
+  - SuperOffice.CRM.Rows.TableRowsBase.Find(System.ComponentModel.PropertyDescriptor,System.Object)
+  - SuperOffice.CRM.Rows.TableRowsBase.GetEnumerator
+  - SuperOffice.CRM.Rows.TableRowsBase.GetPrimaryKeys
+  - SuperOffice.CRM.Rows.TableRowsBase.Index
+  - SuperOffice.CRM.Rows.TableRowsBase.IndexOf(System.Object)
+  - SuperOffice.CRM.Rows.TableRowsBase.IsDirty
+  - SuperOffice.CRM.Rows.TableRowsBase.IsFixedSize
+  - SuperOffice.CRM.Rows.TableRowsBase.IsMarkedForDelete
+  - SuperOffice.CRM.Rows.TableRowsBase.IsReadOnly
+  - SuperOffice.CRM.Rows.TableRowsBase.IsSorted
+  - SuperOffice.CRM.Rows.TableRowsBase.Item(System.Int32)
+  - SuperOffice.CRM.Rows.TableRowsBase.ListChanged
+  - SuperOffice.CRM.Rows.TableRowsBase.Load(SuperOffice.CRM.Rows.IdxBase)
+  - SuperOffice.CRM.Rows.TableRowsBase.OnAdded(System.Object,System.Int32)
+  - SuperOffice.CRM.Rows.TableRowsBase.OnIndexChanged(SuperOffice.CRM.Rows.IdxBase)
+  - SuperOffice.CRM.Rows.TableRowsBase.Remove(SuperOffice.CRM.Rows.TableRowBase)
+  - SuperOffice.CRM.Rows.TableRowsBase.RemoveIndex(System.ComponentModel.PropertyDescriptor)
+  - SuperOffice.CRM.Rows.TableRowsBase.RemoveSort
+  - SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
+  - SuperOffice.CRM.Rows.TableRowsBase.RowsLoad(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
+  - SuperOffice.CRM.Rows.TableRowsBase.Sentries
+  - SuperOffice.CRM.Rows.TableRowsBase.Sort(System.Collections.IComparer)
+  - SuperOffice.CRM.Rows.TableRowsBase.SortDirection
+  - SuperOffice.CRM.Rows.TableRowsBase.SortProperty
+  - SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#Add(SuperOffice.Data.ISoItem)
+  - SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#AddNew
+  - SuperOffice.CRM.Rows.TableRowsBase.SupportsChangeNotification
+  - SuperOffice.CRM.Rows.TableRowsBase.SupportsSearching
+  - SuperOffice.CRM.Rows.TableRowsBase.SupportsSorting
+  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#Count
+  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#IsSynchronized
+  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#SyncRoot
+  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Add(System.Object)
+  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Clear
+  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#get_Item(System.Int32)
+  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Insert(System.Int32,System.Object)
+  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Item(System.Int32)
+  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Remove(System.Object)
+  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#RemoveAt(System.Int32)
+  - SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#set_Item(System.Int32,System.Object)
+  langs:
+  - csharp
+  - vb
+  name: TableRowsBase
+  nameWithType: TableRowsBase
+  fullName: SuperOffice.CRM.Rows.TableRowsBase
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSummary description for TableCollectionBase.\n"
+  syntax:
+    content: 'public abstract class TableRowsBase : NestedCollectionPersist, INestedPersist, IEnumerable<INestedPersist>, ISoCollection, IList, ICollection, IEnumerable, INotifyCollectionChanged, IBindingList'
+    content.vb: >-
+      Public MustInherit Class TableRowsBase
+          Inherits NestedCollectionPersist
+          Implements INestedPersist, IEnumerable(Of INestedPersist), ISoCollection, IList, ICollection, IEnumerable, INotifyCollectionChanged, IBindingList
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.NestedPersist
+  - SuperOffice.Data.NestedPersistFacade
+  - SuperOffice.Data.NestedCollectionPersist
+  derivedClasses:
+  - SuperOffice.CRM.Lists.ListTableRows
+  - SuperOffice.CRM.Rows.AccessScriptRows
+  - SuperOffice.CRM.Rows.ActiveUserRows
+  - SuperOffice.CRM.Rows.AddressFormatRows
+  - SuperOffice.CRM.Rows.AddressRows
+  - SuperOffice.CRM.Rows.AmountClassGroupLinkRows
+  - SuperOffice.CRM.Rows.AmountClassHeadingLinkRows
+  - SuperOffice.CRM.Rows.AmountClassRows
+  - SuperOffice.CRM.Rows.AppointmentRows
+  - SuperOffice.CRM.Rows.AreaRows
+  - SuperOffice.CRM.Rows.AreaUserAssignmentRows
+  - SuperOffice.CRM.Rows.AreaUserInclusionRows
+  - SuperOffice.CRM.Rows.AssociateGroupLinkRows
+  - SuperOffice.CRM.Rows.AssociateHeadingLinkRows
+  - SuperOffice.CRM.Rows.AssociateHistoryRows
+  - SuperOffice.CRM.Rows.AssociateRows
+  - SuperOffice.CRM.Rows.AttachmentLocationRows
+  - SuperOffice.CRM.Rows.AttachmentRows
+  - SuperOffice.CRM.Rows.AudienceConfigRows
+  - SuperOffice.CRM.Rows.AudienceLayoutLinkRows
+  - SuperOffice.CRM.Rows.AudienceLayoutRows
+  - SuperOffice.CRM.Rows.AudienceVisibilityRows
+  - SuperOffice.CRM.Rows.AutosaveRows
+  - SuperOffice.CRM.Rows.BaseTZLocationRows
+  - SuperOffice.CRM.Rows.BatchTaskDefinitionRows
+  - SuperOffice.CRM.Rows.BatchTaskRows
+  - SuperOffice.CRM.Rows.BinaryObjectLinkRows
+  - SuperOffice.CRM.Rows.BinaryObjectRows
+  - SuperOffice.CRM.Rows.BusinessGroupLinkRows
+  - SuperOffice.CRM.Rows.BusinessHeadingLinkRows
+  - SuperOffice.CRM.Rows.BusinessRows
+  - SuperOffice.CRM.Rows.CacheTablesRows
+  - SuperOffice.CRM.Rows.CategoryFamilyRows
+  - SuperOffice.CRM.Rows.CategoryGroupLinkRows
+  - SuperOffice.CRM.Rows.CategoryHeadingLinkRows
+  - SuperOffice.CRM.Rows.CategoryMembershipRows
+  - SuperOffice.CRM.Rows.CategoryRows
+  - SuperOffice.CRM.Rows.ChatMessageRows
+  - SuperOffice.CRM.Rows.ChatSessionRows
+  - SuperOffice.CRM.Rows.ChatTopicRows
+  - SuperOffice.CRM.Rows.ChatTopicUserRows
+  - SuperOffice.CRM.Rows.CompanyDomainRows
+  - SuperOffice.CRM.Rows.CompanyRows
+  - SuperOffice.CRM.Rows.ComptrGroupLinkRows
+  - SuperOffice.CRM.Rows.ComptrHeadingLinkRows
+  - SuperOffice.CRM.Rows.ComptrRows
+  - SuperOffice.CRM.Rows.ConfigRows
+  - SuperOffice.CRM.Rows.ConnectionConfigFieldRows
+  - SuperOffice.CRM.Rows.ConsentPersonRows
+  - SuperOffice.CRM.Rows.ConsentPurposeRows
+  - SuperOffice.CRM.Rows.ConsentSourceRows
+  - SuperOffice.CRM.Rows.ContactInterestRows
+  - SuperOffice.CRM.Rows.ContactRows
+  - SuperOffice.CRM.Rows.ContIntGroupLinkRows
+  - SuperOffice.CRM.Rows.ContIntHeadingLinkRows
+  - SuperOffice.CRM.Rows.ContIntRows
+  - SuperOffice.CRM.Rows.CounterValueRows
+  - SuperOffice.CRM.Rows.CountryGroupLinkRows
+  - SuperOffice.CRM.Rows.CountryHeadingLinkRows
+  - SuperOffice.CRM.Rows.CountryRows
+  - SuperOffice.CRM.Rows.CredentialsRows
+  - SuperOffice.CRM.Rows.CreditedGroupLinkRows
+  - SuperOffice.CRM.Rows.CreditedHeadingLinkRows
+  - SuperOffice.CRM.Rows.CreditedRows
+  - SuperOffice.CRM.Rows.CurrencyGroupLinkRows
+  - SuperOffice.CRM.Rows.CurrencyHeadingLinkRows
+  - SuperOffice.CRM.Rows.CurrencyRows
+  - SuperOffice.CRM.Rows.CustCategoryRows
+  - SuperOffice.CRM.Rows.CustConfigRows
+  - SuperOffice.CRM.Rows.CustLangRows
+  - SuperOffice.CRM.Rows.DatabaseModelRows
+  - SuperOffice.CRM.Rows.DataRightRows
+  - SuperOffice.CRM.Rows.DbiAgentFieldRows
+  - SuperOffice.CRM.Rows.DbiAgentRows
+  - SuperOffice.CRM.Rows.DbiAgentScheduleRows
+  - SuperOffice.CRM.Rows.DeliveryTermsGroupLinkRows
+  - SuperOffice.CRM.Rows.DeliveryTermsHeadingLinkRows
+  - SuperOffice.CRM.Rows.DeliveryTermsRows
+  - SuperOffice.CRM.Rows.DeliveryTypeGroupLinkRows
+  - SuperOffice.CRM.Rows.DeliveryTypeHeadingLinkRows
+  - SuperOffice.CRM.Rows.DeliveryTypeRows
+  - SuperOffice.CRM.Rows.DiaryViewRowRows
+  - SuperOffice.CRM.Rows.DiaryViewRows
+  - SuperOffice.CRM.Rows.DictionaryBaseRows
+  - SuperOffice.CRM.Rows.DictionaryRows
+  - SuperOffice.CRM.Rows.DocDocumentRows
+  - SuperOffice.CRM.Rows.DocFolderRows
+  - SuperOffice.CRM.Rows.DocTmplGroupLinkRows
+  - SuperOffice.CRM.Rows.DocTmplHeadingLinkRows
+  - SuperOffice.CRM.Rows.DocTmplRows
+  - SuperOffice.CRM.Rows.DocumentRows
+  - SuperOffice.CRM.Rows.EabEntryRows
+  - SuperOffice.CRM.Rows.EabFolderRows
+  - SuperOffice.CRM.Rows.EjCategoryGroupLinkRows
+  - SuperOffice.CRM.Rows.EjCategoryRows
+  - SuperOffice.CRM.Rows.EjMessageRows
+  - SuperOffice.CRM.Rows.EjpackageItemRows
+  - SuperOffice.CRM.Rows.EjpackageRows
+  - SuperOffice.CRM.Rows.EjRoleRows
+  - SuperOffice.CRM.Rows.EjscriptDebugRows
+  - SuperOffice.CRM.Rows.EjscriptRows
+  - SuperOffice.CRM.Rows.EjselectionRows
+  - SuperOffice.CRM.Rows.EjselEjselRows
+  - SuperOffice.CRM.Rows.EjselMetaResultRows
+  - SuperOffice.CRM.Rows.EjselResultSetRows
+  - SuperOffice.CRM.Rows.EjselSourceIdlistRows
+  - SuperOffice.CRM.Rows.EjselSourceScriptRows
+  - SuperOffice.CRM.Rows.EjselSourceXmlRows
+  - SuperOffice.CRM.Rows.EjuserRows
+  - SuperOffice.CRM.Rows.ElementProfileRows
+  - SuperOffice.CRM.Rows.EmailAccountRows
+  - SuperOffice.CRM.Rows.EmailAttachmentRows
+  - SuperOffice.CRM.Rows.EmailFolderRows
+  - SuperOffice.CRM.Rows.EmailItemRows
+  - SuperOffice.CRM.Rows.EmailRows
+  - SuperOffice.CRM.Rows.ErpConfigurationRows
+  - SuperOffice.CRM.Rows.ErpConnectionAccessRows
+  - SuperOffice.CRM.Rows.ErpConnectionActorTypeRows
+  - SuperOffice.CRM.Rows.ErpConnectionRows
+  - SuperOffice.CRM.Rows.ErpConnectorRows
+  - SuperOffice.CRM.Rows.ErpExternalKeyRows
+  - SuperOffice.CRM.Rows.ErpFieldRows
+  - SuperOffice.CRM.Rows.ErpInternalKeyRows
+  - SuperOffice.CRM.Rows.ErpListItemMappingRows
+  - SuperOffice.CRM.Rows.ErpSyncLogRows
+  - SuperOffice.CRM.Rows.ExtAppGroupLinkRows
+  - SuperOffice.CRM.Rows.ExtAppHeadingLinkRows
+  - SuperOffice.CRM.Rows.ExtAppRows
+  - SuperOffice.CRM.Rows.ExtDatasourceRows
+  - SuperOffice.CRM.Rows.ExternalDocumentRows
+  - SuperOffice.CRM.Rows.ExternalEventRows
+  - SuperOffice.CRM.Rows.ExtFieldRows
+  - SuperOffice.CRM.Rows.ExtraFieldsRows
+  - SuperOffice.CRM.Rows.ExtraMenusRows
+  - SuperOffice.CRM.Rows.ExtraTablesEntryRows
+  - SuperOffice.CRM.Rows.ExtraTablesResultRows
+  - SuperOffice.CRM.Rows.ExtraTablesRows
+  - SuperOffice.CRM.Rows.ExtTableRows
+  - SuperOffice.CRM.Rows.FavouriteRows
+  - SuperOffice.CRM.Rows.FieldLabelRows
+  - SuperOffice.CRM.Rows.ForeignAppRows
+  - SuperOffice.CRM.Rows.ForeignDeviceRows
+  - SuperOffice.CRM.Rows.ForeignKeyRows
+  - SuperOffice.CRM.Rows.FormKeysRows
+  - SuperOffice.CRM.Rows.FormRows
+  - SuperOffice.CRM.Rows.FormSubmissionRows
+  - SuperOffice.CRM.Rows.FreeTextIndexRows
+  - SuperOffice.CRM.Rows.FreeTextStopWordsRows
+  - SuperOffice.CRM.Rows.FreeTextWordsRows
+  - SuperOffice.CRM.Rows.FunctionRightRoleLinkRows
+  - SuperOffice.CRM.Rows.FunctionRightRows
+  - SuperOffice.CRM.Rows.HeadingRows
+  - SuperOffice.CRM.Rows.HelpRows
+  - SuperOffice.CRM.Rows.HierarchyRows
+  - SuperOffice.CRM.Rows.HistoryRows
+  - SuperOffice.CRM.Rows.HotlistRows
+  - SuperOffice.CRM.Rows.ImportDefaultRows
+  - SuperOffice.CRM.Rows.ImportFieldRows
+  - SuperOffice.CRM.Rows.ImportObjectRows
+  - SuperOffice.CRM.Rows.ImportRelationRows
+  - SuperOffice.CRM.Rows.InboxRows
+  - SuperOffice.CRM.Rows.IntentGroupLinkRows
+  - SuperOffice.CRM.Rows.IntentHeadingLinkRows
+  - SuperOffice.CRM.Rows.IntentRows
+  - SuperOffice.CRM.Rows.InvitationRows
+  - SuperOffice.CRM.Rows.InvoiceEntryRows
+  - SuperOffice.CRM.Rows.InvoiceRows
+  - SuperOffice.CRM.Rows.InvoiceSumRows
+  - SuperOffice.CRM.Rows.InvoiceTypeRows
+  - SuperOffice.CRM.Rows.ItemConfigRows
+  - SuperOffice.CRM.Rows.KbAttachmentRows
+  - SuperOffice.CRM.Rows.KbCategoryLogRows
+  - SuperOffice.CRM.Rows.KbCategoryRows
+  - SuperOffice.CRM.Rows.KbEntryCommentRows
+  - SuperOffice.CRM.Rows.KbEntryKeywordRows
+  - SuperOffice.CRM.Rows.KbEntryLogRows
+  - SuperOffice.CRM.Rows.KbEntryRows
+  - SuperOffice.CRM.Rows.KbEntryWordsRows
+  - SuperOffice.CRM.Rows.KbGroupEntryRows
+  - SuperOffice.CRM.Rows.KbGroupRows
+  - SuperOffice.CRM.Rows.KbHttpLinkRows
+  - SuperOffice.CRM.Rows.KbSolutionFinderEntryRows
+  - SuperOffice.CRM.Rows.KbSolutionFinderRows
+  - SuperOffice.CRM.Rows.KbWorkflowAccessRows
+  - SuperOffice.CRM.Rows.KbWorkflowRows
+  - SuperOffice.CRM.Rows.LanguageInfoCountryRows
+  - SuperOffice.CRM.Rows.LanguageInfoRows
+  - SuperOffice.CRM.Rows.LegalBaseRows
+  - SuperOffice.CRM.Rows.LegalHtmlTagsRows
+  - SuperOffice.CRM.Rows.LicenseAssocLinkRows
+  - SuperOffice.CRM.Rows.LicenseSatlLinkRows
+  - SuperOffice.CRM.Rows.LocaleTextRows
+  - SuperOffice.CRM.Rows.LockingRows
+  - SuperOffice.CRM.Rows.LogDebugRows
+  - SuperOffice.CRM.Rows.LogEventsRows
+  - SuperOffice.CRM.Rows.LoginCustomerRows
+  - SuperOffice.CRM.Rows.LoginRows
+  - SuperOffice.CRM.Rows.MailAliasRows
+  - SuperOffice.CRM.Rows.MailBlockRows
+  - SuperOffice.CRM.Rows.MailInFilterRows
+  - SuperOffice.CRM.Rows.MailInUidlRows
+  - SuperOffice.CRM.Rows.MergeMoveLogRows
+  - SuperOffice.CRM.Rows.MessageCustomersRows
+  - SuperOffice.CRM.Rows.MessageHandlerRows
+  - SuperOffice.CRM.Rows.MessageHeaderRows
+  - SuperOffice.CRM.Rows.MessageIdRows
+  - SuperOffice.CRM.Rows.MessageRows
+  - SuperOffice.CRM.Rows.ModuleLicenseRows
+  - SuperOffice.CRM.Rows.ModuleOwnerRows
+  - SuperOffice.CRM.Rows.MrMrsGroupLinkRows
+  - SuperOffice.CRM.Rows.MrMrsHeadingLinkRows
+  - SuperOffice.CRM.Rows.MrMrsRows
+  - SuperOffice.CRM.Rows.MsFilterMailRows
+  - SuperOffice.CRM.Rows.MsFilterRows
+  - SuperOffice.CRM.Rows.MsSubstituteRows
+  - SuperOffice.CRM.Rows.MsTrashbinRows
+  - SuperOffice.CRM.Rows.NoticeFrameRows
+  - SuperOffice.CRM.Rows.NotifyRows
+  - SuperOffice.CRM.Rows.OLEFieldRows
+  - SuperOffice.CRM.Rows.OLEFieldTextRows
+  - SuperOffice.CRM.Rows.OLESubjectRows
+  - SuperOffice.CRM.Rows.OLESubjectTextRows
+  - SuperOffice.CRM.Rows.OLEViewRows
+  - SuperOffice.CRM.Rows.OLEViewTextRows
+  - SuperOffice.CRM.Rows.OnlineAppRows
+  - SuperOffice.CRM.Rows.OutboxRows
+  - SuperOffice.CRM.Rows.OutgoingMessageRows
+  - SuperOffice.CRM.Rows.OwnerContactLinkRows
+  - SuperOffice.CRM.Rows.PasswordRulesRows
+  - SuperOffice.CRM.Rows.PaymentTermsGroupLinkRows
+  - SuperOffice.CRM.Rows.PaymentTermsHeadingLinkRows
+  - SuperOffice.CRM.Rows.PaymentTermsRows
+  - SuperOffice.CRM.Rows.PaymentTypeGroupLinkRows
+  - SuperOffice.CRM.Rows.PaymentTypeHeadingLinkRows
+  - SuperOffice.CRM.Rows.PaymentTypeRows
+  - SuperOffice.CRM.Rows.PersIntGroupLinkRows
+  - SuperOffice.CRM.Rows.PersIntHeadingLinkRows
+  - SuperOffice.CRM.Rows.PersIntRows
+  - SuperOffice.CRM.Rows.PersonInterestRows
+  - SuperOffice.CRM.Rows.PersonRows
+  - SuperOffice.CRM.Rows.PersPosGroupLinkRows
+  - SuperOffice.CRM.Rows.PersPosHeadingLinkRows
+  - SuperOffice.CRM.Rows.PersPosRows
+  - SuperOffice.CRM.Rows.PhoneFormatRows
+  - SuperOffice.CRM.Rows.PhoneRows
+  - SuperOffice.CRM.Rows.PMembTypeGroupLinkRows
+  - SuperOffice.CRM.Rows.PMembTypeHeadingLinkRows
+  - SuperOffice.CRM.Rows.PMembTypeRows
+  - SuperOffice.CRM.Rows.PrefDescLineRows
+  - SuperOffice.CRM.Rows.PrefDescRows
+  - SuperOffice.CRM.Rows.PreferenceRows
+  - SuperOffice.CRM.Rows.PriceListRows
+  - SuperOffice.CRM.Rows.PriceUnitGroupLinkRows
+  - SuperOffice.CRM.Rows.PriceUnitHeadingLinkRows
+  - SuperOffice.CRM.Rows.PriceUnitRows
+  - SuperOffice.CRM.Rows.PriorityGroupLinkRows
+  - SuperOffice.CRM.Rows.PriorityHeadingLinkRows
+  - SuperOffice.CRM.Rows.PriorityRows
+  - SuperOffice.CRM.Rows.ProbGroupLinkRows
+  - SuperOffice.CRM.Rows.ProbHeadingLinkRows
+  - SuperOffice.CRM.Rows.ProbRows
+  - SuperOffice.CRM.Rows.ProductCategoryGroupLinkRows
+  - SuperOffice.CRM.Rows.ProductCategoryHeadingLinkRows
+  - SuperOffice.CRM.Rows.ProductCategoryRows
+  - SuperOffice.CRM.Rows.ProductFamilyGroupLinkRows
+  - SuperOffice.CRM.Rows.ProductFamilyHeadingLinkRows
+  - SuperOffice.CRM.Rows.ProductFamilyRows
+  - SuperOffice.CRM.Rows.ProductRows
+  - SuperOffice.CRM.Rows.ProductTypeGroupLinkRows
+  - SuperOffice.CRM.Rows.ProductTypeHeadingLinkRows
+  - SuperOffice.CRM.Rows.ProductTypeRows
+  - SuperOffice.CRM.Rows.ProductVersionRows
+  - SuperOffice.CRM.Rows.ProfileRows
+  - SuperOffice.CRM.Rows.ProjectMemberRows
+  - SuperOffice.CRM.Rows.ProjectRows
+  - SuperOffice.CRM.Rows.ProjectTypeStatusLinkRows
+  - SuperOffice.CRM.Rows.ProjStatusGroupLinkRows
+  - SuperOffice.CRM.Rows.ProjStatusHeadingLinkRows
+  - SuperOffice.CRM.Rows.ProjStatusRows
+  - SuperOffice.CRM.Rows.ProjTypeGroupLinkRows
+  - SuperOffice.CRM.Rows.ProjTypeHeadingLinkRows
+  - SuperOffice.CRM.Rows.ProjTypeRows
+  - SuperOffice.CRM.Rows.PublishRows
+  - SuperOffice.CRM.Rows.PushNotificationServiceRows
+  - SuperOffice.CRM.Rows.QuickReplyRows
+  - SuperOffice.CRM.Rows.QuoteAlternativeRows
+  - SuperOffice.CRM.Rows.QuoteConnectionAccessRows
+  - SuperOffice.CRM.Rows.QuoteConnectionRows
+  - SuperOffice.CRM.Rows.QuoteLineConfigurationRows
+  - SuperOffice.CRM.Rows.QuoteLineRows
+  - SuperOffice.CRM.Rows.QuoteRows
+  - SuperOffice.CRM.Rows.QuoteVersionAttachmentRows
+  - SuperOffice.CRM.Rows.QuoteVersionRows
+  - SuperOffice.CRM.Rows.ReasonGroupLinkRows
+  - SuperOffice.CRM.Rows.ReasonHeadingLinkRows
+  - SuperOffice.CRM.Rows.ReasonRows
+  - SuperOffice.CRM.Rows.ReasonSoldGroupLinkRows
+  - SuperOffice.CRM.Rows.ReasonSoldHeadingLinkRows
+  - SuperOffice.CRM.Rows.ReasonSoldRows
+  - SuperOffice.CRM.Rows.ReasonStalledGroupLinkRows
+  - SuperOffice.CRM.Rows.ReasonStalledHeadingLinkRows
+  - SuperOffice.CRM.Rows.ReasonStalledRows
+  - SuperOffice.CRM.Rows.RecurrenceRuleRows
+  - SuperOffice.CRM.Rows.RedLetterDayRows
+  - SuperOffice.CRM.Rows.RefCountRangeRows
+  - SuperOffice.CRM.Rows.RefCountsRows
+  - SuperOffice.CRM.Rows.RegistryRows
+  - SuperOffice.CRM.Rows.RejectReasonGroupLinkRows
+  - SuperOffice.CRM.Rows.RejectReasonHeadingLinkRows
+  - SuperOffice.CRM.Rows.RejectReasonRows
+  - SuperOffice.CRM.Rows.RelationDefinitionGroupLinkRows
+  - SuperOffice.CRM.Rows.RelationDefinitionHeadingLinkRows
+  - SuperOffice.CRM.Rows.RelationDefinitionRows
+  - SuperOffice.CRM.Rows.RelationsRows
+  - SuperOffice.CRM.Rows.RelationTargetRows
+  - SuperOffice.CRM.Rows.ReplyTemplateAttachmentRows
+  - SuperOffice.CRM.Rows.ReplyTemplateBodyRows
+  - SuperOffice.CRM.Rows.ReplyTemplateFolderRows
+  - SuperOffice.CRM.Rows.ReplyTemplateRows
+  - SuperOffice.CRM.Rows.ReporterListDefRows
+  - SuperOffice.CRM.Rows.ResourceOverrideRows
+  - SuperOffice.CRM.Rows.RoleCategoryRows
+  - SuperOffice.CRM.Rows.RoleElementRows
+  - SuperOffice.CRM.Rows.RoleMemberRows
+  - SuperOffice.CRM.Rows.RoleRows
+  - SuperOffice.CRM.Rows.RoleWorkflowRows
+  - SuperOffice.CRM.Rows.SaintConfigurationRows
+  - SuperOffice.CRM.Rows.SaleHistRows
+  - SuperOffice.CRM.Rows.SaleRows
+  - SuperOffice.CRM.Rows.SaleStakeholderRows
+  - SuperOffice.CRM.Rows.SaleTypeCatGroupLinkRows
+  - SuperOffice.CRM.Rows.SaleTypeCatHeadingLinkRows
+  - SuperOffice.CRM.Rows.SaleTypeCatRows
+  - SuperOffice.CRM.Rows.SaleTypeGroupLinkRows
+  - SuperOffice.CRM.Rows.SaleTypeHeadingLinkRows
+  - SuperOffice.CRM.Rows.SaleTypeQuoteAttachmentRows
+  - SuperOffice.CRM.Rows.SaleTypeRows
+  - SuperOffice.CRM.Rows.SaleTypeStageLinkRows
+  - SuperOffice.CRM.Rows.SalutationGroupLinkRows
+  - SuperOffice.CRM.Rows.SalutationHeadingLinkRows
+  - SuperOffice.CRM.Rows.SalutationRows
+  - SuperOffice.CRM.Rows.SatelliteRows
+  - SuperOffice.CRM.Rows.SAttachmentRows
+  - SuperOffice.CRM.Rows.SBounceShipmentRows
+  - SuperOffice.CRM.Rows.ScheduledTaskRows
+  - SuperOffice.CRM.Rows.ScheduleRows
+  - SuperOffice.CRM.Rows.ScreenChooserRows
+  - SuperOffice.CRM.Rows.ScreenDefinitionActionRows
+  - SuperOffice.CRM.Rows.ScreenDefinitionElementRows
+  - SuperOffice.CRM.Rows.ScreenDefinitionHiddenRows
+  - SuperOffice.CRM.Rows.ScreenDefinitionLanguageRows
+  - SuperOffice.CRM.Rows.ScreenDefinitionRows
+  - SuperOffice.CRM.Rows.ScriptTraceRows
+  - SuperOffice.CRM.Rows.ScriptTraceRunRows
+  - SuperOffice.CRM.Rows.SDynCriteriaRows
+  - SuperOffice.CRM.Rows.SearchCatGroupLinkRows
+  - SuperOffice.CRM.Rows.SearchCatHeadingLinkRows
+  - SuperOffice.CRM.Rows.SearchCatRows
+  - SuperOffice.CRM.Rows.SearchCriteriaGroupRows
+  - SuperOffice.CRM.Rows.SearchCriteriaRows
+  - SuperOffice.CRM.Rows.SearchCriterionRows
+  - SuperOffice.CRM.Rows.SearchCriterionValueRows
+  - SuperOffice.CRM.Rows.SelectionMemberRows
+  - SuperOffice.CRM.Rows.SelectionRows
+  - SuperOffice.CRM.Rows.SequenceRows
+  - SuperOffice.CRM.Rows.ServiceAuthRows
+  - SuperOffice.CRM.Rows.SessionObjectRows
+  - SuperOffice.CRM.Rows.ShipmentTypeReservationRows
+  - SuperOffice.CRM.Rows.ShipmentTypeRows
+  - SuperOffice.CRM.Rows.SLinkCustomerRows
+  - SuperOffice.CRM.Rows.SLinkCustomerStaticalRows
+  - SuperOffice.CRM.Rows.SLinkRows
+  - SuperOffice.CRM.Rows.SListCustomerRows
+  - SuperOffice.CRM.Rows.SListElementRows
+  - SuperOffice.CRM.Rows.SListRows
+  - SuperOffice.CRM.Rows.SListShipmentRows
+  - SuperOffice.CRM.Rows.SMessageblockRows
+  - SuperOffice.CRM.Rows.SMessageRows
+  - SuperOffice.CRM.Rows.SmsHysteriaRows
+  - SuperOffice.CRM.Rows.SmsRows
+  - SuperOffice.CRM.Rows.SnapshotRows
+  - SuperOffice.CRM.Rows.SoapAccessRows
+  - SuperOffice.CRM.Rows.SORCriteriaRows
+  - SuperOffice.CRM.Rows.SORFCTRows
+  - SuperOffice.CRM.Rows.SORFieldRows
+  - SuperOffice.CRM.Rows.SORLabelLayoutRows
+  - SuperOffice.CRM.Rows.SOROperatorsRows
+  - SuperOffice.CRM.Rows.SORPublishGroupLinkRows
+  - SuperOffice.CRM.Rows.SORPublishRows
+  - SuperOffice.CRM.Rows.SORSectionRows
+  - SuperOffice.CRM.Rows.SORTemplateRows
+  - SuperOffice.CRM.Rows.SourceGroupLinkRows
+  - SuperOffice.CRM.Rows.SourceHeadingLinkRows
+  - SuperOffice.CRM.Rows.SourceRows
+  - SuperOffice.CRM.Rows.SPictureEntryRows
+  - SuperOffice.CRM.Rows.SPictureFolderRows
+  - SuperOffice.CRM.Rows.SSentMessageRows
+  - SuperOffice.CRM.Rows.SShipmentAddrRows
+  - SuperOffice.CRM.Rows.SShipmentRows
+  - SuperOffice.CRM.Rows.SSmtpServersRows
+  - SuperOffice.CRM.Rows.StakeholderRoleGroupLinkRows
+  - SuperOffice.CRM.Rows.StakeholderRoleHeadingLinkRows
+  - SuperOffice.CRM.Rows.StakeholderRoleRows
+  - SuperOffice.CRM.Rows.StaticListRefRows
+  - SuperOffice.CRM.Rows.StatusDefRows
+  - SuperOffice.CRM.Rows.StatusValueRows
+  - SuperOffice.CRM.Rows.SubscriptionUnitGroupLinkRows
+  - SuperOffice.CRM.Rows.SubscriptionUnitHeadingLinkRows
+  - SuperOffice.CRM.Rows.SubscriptionUnitRows
+  - SuperOffice.CRM.Rows.SuggestedAppointmentRows
+  - SuperOffice.CRM.Rows.SuggestedDocumentRows
+  - SuperOffice.CRM.Rows.SuperListColumnSizeRows
+  - SuperOffice.CRM.Rows.SWashingListRows
+  - SuperOffice.CRM.Rows.SWashingRows
+  - SuperOffice.CRM.Rows.SystemEventRows
+  - SuperOffice.CRM.Rows.SystemScriptRows
+  - SuperOffice.CRM.Rows.TabOrderRows
+  - SuperOffice.CRM.Rows.TagsGroupLinkRows
+  - SuperOffice.CRM.Rows.TagsHeadingLinkRows
+  - SuperOffice.CRM.Rows.TagsRows
+  - SuperOffice.CRM.Rows.TaskGroupLinkRows
+  - SuperOffice.CRM.Rows.TaskHeadingLinkRows
+  - SuperOffice.CRM.Rows.TaskRows
+  - SuperOffice.CRM.Rows.TemporaryKeyRows
+  - SuperOffice.CRM.Rows.TemporaryWordsRows
+  - SuperOffice.CRM.Rows.TextRows
+  - SuperOffice.CRM.Rows.TicketAlertRows
+  - SuperOffice.CRM.Rows.TicketAttachmentRows
+  - SuperOffice.CRM.Rows.TicketCustomersRows
+  - SuperOffice.CRM.Rows.TicketLogActionRows
+  - SuperOffice.CRM.Rows.TicketLogChangeRows
+  - SuperOffice.CRM.Rows.TicketLogRows
+  - SuperOffice.CRM.Rows.TicketPriorityRows
+  - SuperOffice.CRM.Rows.TicketRelationActionRows
+  - SuperOffice.CRM.Rows.TicketRelationRows
+  - SuperOffice.CRM.Rows.TicketRelationTypeRows
+  - SuperOffice.CRM.Rows.TicketRows
+  - SuperOffice.CRM.Rows.TicketStatusHistoryRows
+  - SuperOffice.CRM.Rows.TicketStatusRows
+  - SuperOffice.CRM.Rows.TicketTypeRows
+  - SuperOffice.CRM.Rows.TimestampsRows
+  - SuperOffice.CRM.Rows.TravelCurrentRows
+  - SuperOffice.CRM.Rows.TravelGeneratedDatabaseRows
+  - SuperOffice.CRM.Rows.TravelGeneratedTransactionRows
+  - SuperOffice.CRM.Rows.TravelIDMappingRows
+  - SuperOffice.CRM.Rows.TravellerRows
+  - SuperOffice.CRM.Rows.TravelTransactionLogRows
+  - SuperOffice.CRM.Rows.TrayAppRows
+  - SuperOffice.CRM.Rows.TreeExplorerEntryRows
+  - SuperOffice.CRM.Rows.TreeExplorerLinkRows
+  - SuperOffice.CRM.Rows.TypicalSearchRows
+  - SuperOffice.CRM.Rows.TZDstRuleRows
+  - SuperOffice.CRM.Rows.TZLocationRows
+  - SuperOffice.CRM.Rows.TZStdRuleRows
+  - SuperOffice.CRM.Rows.UDAppntLargeRows
+  - SuperOffice.CRM.Rows.UDAppntSmallRows
+  - SuperOffice.CRM.Rows.UDContactLargeRows
+  - SuperOffice.CRM.Rows.UDContactSmallRows
+  - SuperOffice.CRM.Rows.UDDocLargeRows
+  - SuperOffice.CRM.Rows.UDDocSmallRows
+  - SuperOffice.CRM.Rows.UDefFieldGLRows
+  - SuperOffice.CRM.Rows.UDefFieldRows
+  - SuperOffice.CRM.Rows.UDListDefinitionRows
+  - SuperOffice.CRM.Rows.UDListGroupLinkRows
+  - SuperOffice.CRM.Rows.UDListHeadingLinkRows
+  - SuperOffice.CRM.Rows.UDListRows
+  - SuperOffice.CRM.Rows.UDPersonLargeRows
+  - SuperOffice.CRM.Rows.UDPersonSmallRows
+  - SuperOffice.CRM.Rows.UDProjectLargeRows
+  - SuperOffice.CRM.Rows.UDProjectSmallRows
+  - SuperOffice.CRM.Rows.UDSaleLargeRows
+  - SuperOffice.CRM.Rows.UDSaleSmallRows
+  - SuperOffice.CRM.Rows.UDTempLargeRows
+  - SuperOffice.CRM.Rows.UDTempSmallRows
+  - SuperOffice.CRM.Rows.URLRows
+  - SuperOffice.CRM.Rows.UsageStatsRows
+  - SuperOffice.CRM.Rows.UserAttributeRows
+  - SuperOffice.CRM.Rows.UserCandidateRows
+  - SuperOffice.CRM.Rows.UserGroupLinkRows
+  - SuperOffice.CRM.Rows.UserGroupRows
+  - SuperOffice.CRM.Rows.UserPreferenceRows
+  - SuperOffice.CRM.Rows.UserRoleLinkRows
+  - SuperOffice.CRM.Rows.VisibleForRows
+  - SuperOffice.CRM.Rows.WebAppUsageRows
+  - SuperOffice.CRM.Rows.WebhookRows
+  - SuperOffice.CRM.Rows.WinPosSizeRows
+  - SuperOffice.CRM.Rows.WordRelationsRows
+  - SuperOffice.CRM.Rows.WsdlDescriptionRows
+  - SuperOffice.CRM.Rows.ZipToCityRows
+  implements:
+  - SuperOffice.Data.INestedPersist
+  - System.Collections.Generic.IEnumerable{SuperOffice.Data.INestedPersist}
+  - SuperOffice.Data.ISoCollection
+  - System.Collections.IList
+  - System.Collections.ICollection
+  - System.Collections.IEnumerable
+  - System.Collections.Specialized.INotifyCollectionChanged
+  - System.ComponentModel.IBindingList
+  inheritedMembers:
+  - SuperOffice.Data.NestedCollectionPersist.GetFacadingItems
+  - SuperOffice.Data.NestedCollectionPersist.System#Collections#Generic#IEnumerable{SuperOffice#Data#INestedPersist}#GetEnumerator
+  - SuperOffice.Data.NestedCollectionPersist.IsDeleted
+  - SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
+  - SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersistFacade.OnIdUpdate
+  - SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
+  - SuperOffice.Data.NestedPersist._saveOwner
+  - SuperOffice.Data.NestedPersist._isSaving
+  - SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+  - SuperOffice.Data.NestedPersist.Save
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  - SuperOffice.Data.NestedPersist.IsSaving
+  - SuperOffice.Data.NestedPersist.OnElementSaved
+  - SuperOffice.Data.NestedPersist.OnElementIdUpdate
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.TableRowsBase.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.TableRowsBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.CRM.Rows.TableRowsBase._innerList
+  commentId: F:SuperOffice.CRM.Rows.TableRowsBase._innerList
+  id: _innerList
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: _innerList
+  nameWithType: TableRowsBase._innerList
+  fullName: SuperOffice.CRM.Rows.TableRowsBase._innerList
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nInner list for rows.\n"
+  syntax:
+    content: protected ArrayList _innerList
+    return:
+      type: System.Collections.ArrayList
+    content.vb: Protected _innerList As ArrayList
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.TableRowsBase._allHasBeenMarkedForDelete
+  commentId: F:SuperOffice.CRM.Rows.TableRowsBase._allHasBeenMarkedForDelete
+  id: _allHasBeenMarkedForDelete
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: _allHasBeenMarkedForDelete
+  nameWithType: TableRowsBase._allHasBeenMarkedForDelete
+  fullName: SuperOffice.CRM.Rows.TableRowsBase._allHasBeenMarkedForDelete
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected bool _allHasBeenMarkedForDelete
+    return:
+      type: System.Boolean
+    content.vb: Protected _allHasBeenMarkedForDelete As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.TableRowsBase._sentries
+  commentId: F:SuperOffice.CRM.Rows.TableRowsBase._sentries
+  id: _sentries
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: _sentries
+  nameWithType: TableRowsBase._sentries
+  fullName: SuperOffice.CRM.Rows.TableRowsBase._sentries
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected SentryCollection _sentries
+    return:
+      type: SuperOffice.CRM.Security.SentryCollection
+    content.vb: Protected _sentries As SentryCollection
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.TableRowsBase._idx
+  commentId: F:SuperOffice.CRM.Rows.TableRowsBase._idx
+  id: _idx
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: _idx
+  nameWithType: TableRowsBase._idx
+  fullName: SuperOffice.CRM.Rows.TableRowsBase._idx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nReference to the index used to load the object from the database\n"
+  syntax:
+    content: protected IdxBase _idx
+    return:
+      type: SuperOffice.CRM.Rows.IdxBase
+    content.vb: Protected _idx As IdxBase
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.TableRowsBase.#ctor(SuperOffice.CRM.Rows.IdxBase)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.#ctor(SuperOffice.CRM.Rows.IdxBase)
+  id: '#ctor(SuperOffice.CRM.Rows.IdxBase)'
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: TableRowsBase(IdxBase)
+  nameWithType: TableRowsBase.TableRowsBase(IdxBase)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.TableRowsBase(SuperOffice.CRM.Rows.IdxBase)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDefault constructor for the class.\n"
+  syntax:
+    content: protected TableRowsBase(IdxBase idx)
+    parameters:
+    - id: idx
+      type: SuperOffice.CRM.Rows.IdxBase
+      description: Index to be used for loading the object from the database.
+    content.vb: Protected Sub New(idx As IdxBase)
+  overload: SuperOffice.CRM.Rows.TableRowsBase.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.TableRowsBase.OnIndexChanged(SuperOffice.CRM.Rows.IdxBase)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.OnIndexChanged(SuperOffice.CRM.Rows.IdxBase)
+  id: OnIndexChanged(SuperOffice.CRM.Rows.IdxBase)
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: OnIndexChanged(IdxBase)
+  nameWithType: TableRowsBase.OnIndexChanged(IdxBase)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.OnIndexChanged(SuperOffice.CRM.Rows.IdxBase)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCalled whenever there is a modification in the index.\n"
+  syntax:
+    content: protected virtual void OnIndexChanged(IdxBase index)
+    parameters:
+    - id: index
+      type: SuperOffice.CRM.Rows.IdxBase
+      description: The index that has changed
+    content.vb: Protected Overridable Sub OnIndexChanged(index As IdxBase)
+  overload: SuperOffice.CRM.Rows.TableRowsBase.OnIndexChanged*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Rows.TableRowsBase.Load(SuperOffice.CRM.Rows.IdxBase)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.Load(SuperOffice.CRM.Rows.IdxBase)
+  id: Load(SuperOffice.CRM.Rows.IdxBase)
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: Load(IdxBase)
+  nameWithType: TableRowsBase.Load(IdxBase)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Load(SuperOffice.CRM.Rows.IdxBase)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected void Load(IdxBase idx)
+    parameters:
+    - id: idx
+      type: SuperOffice.CRM.Rows.IdxBase
+    content.vb: Protected Sub Load(idx As IdxBase)
+  overload: SuperOffice.CRM.Rows.TableRowsBase.Load*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
+  id: RowsLoad
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: RowsLoad()
+  nameWithType: TableRowsBase.RowsLoad()
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected virtual void RowsLoad()
+    content.vb: Protected Overridable Sub RowsLoad
+  overload: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.RowsLoad(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
+  id: RowsLoad(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: RowsLoad(ITableRowLoadHandlerFactory)
+  nameWithType: TableRowsBase.RowsLoad(ITableRowLoadHandlerFactory)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLoad the object from the database, using the index.\n"
+  syntax:
+    content: protected virtual void RowsLoad(ITableRowLoadHandlerFactory tableRowHandlerFactory)
+    parameters:
+    - id: tableRowHandlerFactory
+      type: SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory
+    content.vb: Protected Overridable Sub RowsLoad(tableRowHandlerFactory As ITableRowLoadHandlerFactory)
+  overload: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Rows.TableRowsBase.Delete
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.Delete
+  id: Delete
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: Delete()
+  nameWithType: TableRowsBase.Delete()
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Delete()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDelete all contained objects.\n"
+  syntax:
+    content: public virtual void Delete()
+    content.vb: Public Overridable Sub Delete
+  overload: SuperOffice.CRM.Rows.TableRowsBase.Delete*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Rows.TableRowsBase.GetEnumerator
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.GetEnumerator
+  id: GetEnumerator
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: TableRowsBase.GetEnumerator()
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.GetEnumerator()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRetrieve an enumerator for enumerating over the collection.\n"
+  syntax:
+    content: public override IEnumerator GetEnumerator()
+    return:
+      type: System.Collections.IEnumerator
+      description: object implementing the interface <xref href="System.Collections.IEnumerator" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Overrides Function GetEnumerator As IEnumerator
+  overridden: SuperOffice.Data.NestedCollectionPersist.GetEnumerator
+  overload: SuperOffice.CRM.Rows.TableRowsBase.GetEnumerator*
+  implements:
+  - System.Collections.IEnumerable.GetEnumerator
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Rows.TableRowsBase.Add(SuperOffice.CRM.Rows.TableRowBase)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.Add(SuperOffice.CRM.Rows.TableRowBase)
+  id: Add(SuperOffice.CRM.Rows.TableRowBase)
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: Add(TableRowBase)
+  nameWithType: TableRowsBase.Add(TableRowBase)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Add(SuperOffice.CRM.Rows.TableRowBase)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nAdd one row to the collection.\n"
+  syntax:
+    content: protected virtual int Add(TableRowBase row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.TableRowBase
+      description: An instance of row to be added to the collection.
+    return:
+      type: System.Int32
+      description: The index of the added row.
+    content.vb: Protected Overridable Function Add(row As TableRowBase) As Integer
+  overload: SuperOffice.CRM.Rows.TableRowsBase.Add*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Rows.TableRowsBase.AddNew
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.AddNew
+  id: AddNew
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: AddNew()
+  nameWithType: TableRowsBase.AddNew()
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.AddNew()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public virtual TableRowBase AddNew()
+    return:
+      type: SuperOffice.CRM.Rows.TableRowBase
+    content.vb: Public Overridable Function AddNew As TableRowBase
+  overload: SuperOffice.CRM.Rows.TableRowsBase.AddNew*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Rows.TableRowsBase.Remove(SuperOffice.CRM.Rows.TableRowBase)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.Remove(SuperOffice.CRM.Rows.TableRowBase)
+  id: Remove(SuperOffice.CRM.Rows.TableRowBase)
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: Remove(TableRowBase)
+  nameWithType: TableRowsBase.Remove(TableRowBase)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Remove(SuperOffice.CRM.Rows.TableRowBase)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRemoves the given row from the collection\n"
+  syntax:
+    content: public virtual void Remove(TableRowBase row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.TableRowBase
+      description: the row to be removed
+    content.vb: Public Overridable Sub Remove(row As TableRowBase)
+  overload: SuperOffice.CRM.Rows.TableRowsBase.Remove*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Rows.TableRowsBase.Clear
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.Clear
+  id: Clear
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: TableRowsBase.Clear()
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Clear()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nClears the collection; no rows are saved, deleted or otherwise manipulated - they are simply dropped from the collection\n"
+  syntax:
+    content: public virtual void Clear()
+    content.vb: Public Overridable Sub Clear
+  overload: SuperOffice.CRM.Rows.TableRowsBase.Clear*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Rows.TableRowsBase.Sort(System.Collections.IComparer)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.Sort(System.Collections.IComparer)
+  id: Sort(System.Collections.IComparer)
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: Sort(IComparer)
+  nameWithType: TableRowsBase.Sort(IComparer)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Sort(System.Collections.IComparer)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSort the inner list using the comparer\n"
+  syntax:
+    content: public virtual void Sort(IComparer comparer)
+    parameters:
+    - id: comparer
+      type: System.Collections.IComparer
+      description: Comparer to use when sorting the inner list
+    content.vb: Public Overridable Sub Sort(comparer As IComparer)
+  overload: SuperOffice.CRM.Rows.TableRowsBase.Sort*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Rows.TableRowsBase.GetPrimaryKeys
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.GetPrimaryKeys
+  id: GetPrimaryKeys
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: GetPrimaryKeys()
+  nameWithType: TableRowsBase.GetPrimaryKeys()
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.GetPrimaryKeys()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nGet an array containing the primary keys of this collection of table rows\n"
+  syntax:
+    content: public int[] GetPrimaryKeys()
+    return:
+      type: System.Int32[]
+      description: Array of 0 or more elements
+    content.vb: Public Function GetPrimaryKeys As Integer()
+  overload: SuperOffice.CRM.Rows.TableRowsBase.GetPrimaryKeys*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TableRowsBase.OnAdded(System.Object,System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.OnAdded(System.Object,System.Int32)
+  id: OnAdded(System.Object,System.Int32)
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: OnAdded(Object, Int32)
+  nameWithType: TableRowsBase.OnAdded(Object, Int32)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.OnAdded(System.Object, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nMethod called whenever a row is added to the collection\n"
+  syntax:
+    content: protected virtual void OnAdded(object value, int index)
+    parameters:
+    - id: value
+      type: System.Object
+      description: The object added to the collection.
+    - id: index
+      type: System.Int32
+      description: The index of the object added to the collection.
+    content.vb: Protected Overridable Sub OnAdded(value As Object, index As Integer)
+  overload: SuperOffice.CRM.Rows.TableRowsBase.OnAdded*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Rows.TableRowsBase.CreateChild
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.CreateChild
+  id: CreateChild
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: CreateChild()
+  nameWithType: TableRowsBase.CreateChild()
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.CreateChild()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCreate a child element for the collection.\n"
+  syntax:
+    content: protected abstract TableRowBase CreateChild()
+    return:
+      type: SuperOffice.CRM.Rows.TableRowBase
+      description: Returns a new instance of a row for the collection
+    content.vb: Protected MustOverride Function CreateChild As TableRowBase
+  overload: SuperOffice.CRM.Rows.TableRowsBase.CreateChild*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#Add(SuperOffice.Data.ISoItem)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#Add(SuperOffice.Data.ISoItem)
+  id: SuperOffice#Data#ISoCollection#Add(SuperOffice.Data.ISoItem)
+  isEii: true
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: ISoCollection.Add(ISoItem)
+  nameWithType: TableRowsBase.ISoCollection.Add(ISoItem)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice.Data.ISoCollection.Add(SuperOffice.Data.ISoItem)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: int ISoCollection.Add(ISoItem item)
+    parameters:
+    - id: item
+      type: SuperOffice.Data.ISoItem
+    return:
+      type: System.Int32
+    content.vb: Function SuperOffice.Data.ISoCollection.Add(item As ISoItem) As Integer Implements ISoCollection.Add
+  overload: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#Add*
+  implements:
+  - SuperOffice.Data.ISoCollection.Add(SuperOffice.Data.ISoItem)
+  nameWithType.vb: TableRowsBase.SuperOffice.Data.ISoCollection.Add(ISoItem)
+  name.vb: SuperOffice.Data.ISoCollection.Add(ISoItem)
+- uid: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#AddNew
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#AddNew
+  id: SuperOffice#Data#ISoCollection#AddNew
+  isEii: true
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: ISoCollection.AddNew()
+  nameWithType: TableRowsBase.ISoCollection.AddNew()
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice.Data.ISoCollection.AddNew()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: ISoItem ISoCollection.AddNew()
+    return:
+      type: SuperOffice.Data.ISoItem
+    content.vb: Function SuperOffice.Data.ISoCollection.AddNew As ISoItem Implements ISoCollection.AddNew
+  overload: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#AddNew*
+  implements:
+  - SuperOffice.Data.ISoCollection.AddNew
+  nameWithType.vb: TableRowsBase.SuperOffice.Data.ISoCollection.AddNew()
+  name.vb: SuperOffice.Data.ISoCollection.AddNew()
+- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#get_Item(System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#get_Item(System.Int32)
+  id: System#Collections#IList#get_Item(System.Int32)
+  isEii: true
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: IList.get_Item(Int32)
+  nameWithType: TableRowsBase.IList.get_Item(Int32)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.get_Item(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: object IList.get_Item(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Object
+    content.vb: Function System.Collections.IList.get_Item(index As Integer) As Object Implements IList.get_Item
+  overload: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#get_Item*
+  implements:
+  - System.Collections.IList.get_Item(System.Int32)
+  nameWithType.vb: TableRowsBase.System.Collections.IList.get_Item(Int32)
+  name.vb: System.Collections.IList.get_Item(Int32)
+- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#set_Item(System.Int32,System.Object)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#set_Item(System.Int32,System.Object)
+  id: System#Collections#IList#set_Item(System.Int32,System.Object)
+  isEii: true
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: IList.set_Item(Int32, Object)
+  nameWithType: TableRowsBase.IList.set_Item(Int32, Object)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.set_Item(System.Int32, System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: void IList.set_Item(int index, object value)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: value
+      type: System.Object
+    content.vb: Sub System.Collections.IList.set_Item(index As Integer, value As Object) Implements IList.set_Item
+  overload: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#set_Item*
+  implements:
+  - System.Collections.IList.set_Item(System.Int32,System.Object)
+  nameWithType.vb: TableRowsBase.System.Collections.IList.set_Item(Int32, Object)
+  name.vb: System.Collections.IList.set_Item(Int32, Object)
+- uid: SuperOffice.CRM.Rows.TableRowsBase.CopyTo(System.Array,System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.CopyTo(System.Array,System.Int32)
+  id: CopyTo(System.Array,System.Int32)
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: CopyTo(Array, Int32)
+  nameWithType: TableRowsBase.CopyTo(Array, Int32)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.CopyTo(System.Array, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nConvert collection into an array (array must already be allocated)\n<xref href=\"System.Collections.ICollection.CopyTo(System.Array%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public void CopyTo(Array list, int index)
+    parameters:
+    - id: list
+      type: System.Array
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub CopyTo(list As Array, index As Integer)
+  overload: SuperOffice.CRM.Rows.TableRowsBase.CopyTo*
+  implements:
+  - System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Add(System.Object)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Add(System.Object)
+  id: System#Collections#IList#Add(System.Object)
+  isEii: true
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: IList.Add(Object)
+  nameWithType: TableRowsBase.IList.Add(Object)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Add(System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nImplemented in child-objects.\n<xref href=\"System.Collections.IList.Add(System.Object)\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: int IList.Add(object o)
+    parameters:
+    - id: o
+      type: System.Object
+      description: The object to add.
+    return:
+      type: System.Int32
+      description: The index of the added object.
+    content.vb: Function System.Collections.IList.Add(o As Object) As Integer Implements IList.Add
+  overload: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Add*
+  implements:
+  - System.Collections.IList.Add(System.Object)
+  nameWithType.vb: TableRowsBase.System.Collections.IList.Add(Object)
+  name.vb: System.Collections.IList.Add(Object)
+- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Remove(System.Object)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Remove(System.Object)
+  id: System#Collections#IList#Remove(System.Object)
+  isEii: true
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: IList.Remove(Object)
+  nameWithType: TableRowsBase.IList.Remove(Object)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Remove(System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n\n"
+  syntax:
+    content: void IList.Remove(object o)
+    parameters:
+    - id: o
+      type: System.Object
+    content.vb: Sub System.Collections.IList.Remove(o As Object) Implements IList.Remove
+  overload: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Remove*
+  implements:
+  - System.Collections.IList.Remove(System.Object)
+  nameWithType.vb: TableRowsBase.System.Collections.IList.Remove(Object)
+  name.vb: System.Collections.IList.Remove(Object)
+- uid: SuperOffice.CRM.Rows.TableRowsBase.IndexOf(System.Object)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.IndexOf(System.Object)
+  id: IndexOf(System.Object)
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: IndexOf(Object)
+  nameWithType: TableRowsBase.IndexOf(Object)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.IndexOf(System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nReturns the object at the given index. Implemented in classes inheriting TableRowBase.\n<xref href=\"System.Collections.IList.IndexOf(System.Object)\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public int IndexOf(object o)
+    parameters:
+    - id: o
+      type: System.Object
+      description: The object
+    return:
+      type: System.Int32
+      description: The index of the object.
+    content.vb: Public Function IndexOf(o As Object) As Integer
+  overload: SuperOffice.CRM.Rows.TableRowsBase.IndexOf*
+  implements:
+  - System.Collections.IList.IndexOf(System.Object)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TableRowsBase.Contains(System.Object)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.Contains(System.Object)
+  id: Contains(System.Object)
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: Contains(Object)
+  nameWithType: TableRowsBase.Contains(Object)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Contains(System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChecks if the list contains the object or not. Implemented in classes inheriting TableRowBase. \n<xref href=\"System.Collections.IList.Contains(System.Object)\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public bool Contains(object o)
+    parameters:
+    - id: o
+      type: System.Object
+      description: The object to locate in the Array.
+    return:
+      type: System.Boolean
+      description: True if value is found in the Array; otherwise, False
+    content.vb: Public Function Contains(o As Object) As Boolean
+  overload: SuperOffice.CRM.Rows.TableRowsBase.Contains*
+  implements:
+  - System.Collections.IList.Contains(System.Object)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Clear
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Clear
+  id: System#Collections#IList#Clear
+  isEii: true
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: IList.Clear()
+  nameWithType: TableRowsBase.IList.Clear()
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Clear()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nClears the list.\n<xref href=\"System.Collections.IList.Clear\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: void IList.Clear()
+    content.vb: Sub System.Collections.IList.Clear Implements IList.Clear
+  overload: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Clear*
+  implements:
+  - System.Collections.IList.Clear
+  nameWithType.vb: TableRowsBase.System.Collections.IList.Clear()
+  name.vb: System.Collections.IList.Clear()
+- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Insert(System.Int32,System.Object)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Insert(System.Int32,System.Object)
+  id: System#Collections#IList#Insert(System.Int32,System.Object)
+  isEii: true
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: IList.Insert(Int32, Object)
+  nameWithType: TableRowsBase.IList.Insert(Int32, Object)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Insert(System.Int32, System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWill add the given object to the collection.\n<xref href=\"System.Collections.IList.Insert(System.Int32%2cSystem.Object)\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: void IList.Insert(int i, object o)
+    parameters:
+    - id: i
+      type: System.Int32
+      description: Not used. Object will be added as last element.
+    - id: o
+      type: System.Object
+      description: The object to add.
+    content.vb: Sub System.Collections.IList.Insert(i As Integer, o As Object) Implements IList.Insert
+  overload: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Insert*
+  implements:
+  - System.Collections.IList.Insert(System.Int32,System.Object)
+  nameWithType.vb: TableRowsBase.System.Collections.IList.Insert(Int32, Object)
+  name.vb: System.Collections.IList.Insert(Int32, Object)
+- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#RemoveAt(System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#RemoveAt(System.Int32)
+  id: System#Collections#IList#RemoveAt(System.Int32)
+  isEii: true
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: IList.RemoveAt(Int32)
+  nameWithType: TableRowsBase.IList.RemoveAt(Int32)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.RemoveAt(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWill remove object at given index.\n<xref href=\"System.Collections.IList.RemoveAt(System.Int32)\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: void IList.RemoveAt(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+      description: The index pointing to the object to remove.
+    content.vb: Sub System.Collections.IList.RemoveAt(index As Integer) Implements IList.RemoveAt
+  overload: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#RemoveAt*
+  implements:
+  - System.Collections.IList.RemoveAt(System.Int32)
+  nameWithType.vb: TableRowsBase.System.Collections.IList.RemoveAt(Int32)
+  name.vb: System.Collections.IList.RemoveAt(Int32)
+- uid: SuperOffice.CRM.Rows.TableRowsBase.AddIndex(System.ComponentModel.PropertyDescriptor)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.AddIndex(System.ComponentModel.PropertyDescriptor)
+  id: AddIndex(System.ComponentModel.PropertyDescriptor)
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: AddIndex(PropertyDescriptor)
+  nameWithType: TableRowsBase.AddIndex(PropertyDescriptor)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.AddIndex(System.ComponentModel.PropertyDescriptor)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void AddIndex(PropertyDescriptor property)
+    parameters:
+    - id: property
+      type: System.ComponentModel.PropertyDescriptor
+    content.vb: Public Sub AddIndex(property As PropertyDescriptor)
+  overload: SuperOffice.CRM.Rows.TableRowsBase.AddIndex*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TableRowsBase.ApplySort(System.ComponentModel.PropertyDescriptor,System.ComponentModel.ListSortDirection)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.ApplySort(System.ComponentModel.PropertyDescriptor,System.ComponentModel.ListSortDirection)
+  id: ApplySort(System.ComponentModel.PropertyDescriptor,System.ComponentModel.ListSortDirection)
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: ApplySort(PropertyDescriptor, ListSortDirection)
+  nameWithType: TableRowsBase.ApplySort(PropertyDescriptor, ListSortDirection)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.ApplySort(System.ComponentModel.PropertyDescriptor, System.ComponentModel.ListSortDirection)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void ApplySort(PropertyDescriptor property, ListSortDirection direction)
+    parameters:
+    - id: property
+      type: System.ComponentModel.PropertyDescriptor
+    - id: direction
+      type: System.ComponentModel.ListSortDirection
+    content.vb: Public Sub ApplySort(property As PropertyDescriptor, direction As ListSortDirection)
+  overload: SuperOffice.CRM.Rows.TableRowsBase.ApplySort*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TableRowsBase.Find(System.ComponentModel.PropertyDescriptor,System.Object)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.Find(System.ComponentModel.PropertyDescriptor,System.Object)
+  id: Find(System.ComponentModel.PropertyDescriptor,System.Object)
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: Find(PropertyDescriptor, Object)
+  nameWithType: TableRowsBase.Find(PropertyDescriptor, Object)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Find(System.ComponentModel.PropertyDescriptor, System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public int Find(PropertyDescriptor property, object key)
+    parameters:
+    - id: property
+      type: System.ComponentModel.PropertyDescriptor
+    - id: key
+      type: System.Object
+    return:
+      type: System.Int32
+    content.vb: Public Function Find(property As PropertyDescriptor, key As Object) As Integer
+  overload: SuperOffice.CRM.Rows.TableRowsBase.Find*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TableRowsBase.RemoveIndex(System.ComponentModel.PropertyDescriptor)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.RemoveIndex(System.ComponentModel.PropertyDescriptor)
+  id: RemoveIndex(System.ComponentModel.PropertyDescriptor)
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: RemoveIndex(PropertyDescriptor)
+  nameWithType: TableRowsBase.RemoveIndex(PropertyDescriptor)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.RemoveIndex(System.ComponentModel.PropertyDescriptor)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void RemoveIndex(PropertyDescriptor property)
+    parameters:
+    - id: property
+      type: System.ComponentModel.PropertyDescriptor
+    content.vb: Public Sub RemoveIndex(property As PropertyDescriptor)
+  overload: SuperOffice.CRM.Rows.TableRowsBase.RemoveIndex*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TableRowsBase.RemoveSort
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.RemoveSort
+  id: RemoveSort
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: RemoveSort()
+  nameWithType: TableRowsBase.RemoveSort()
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.RemoveSort()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void RemoveSort()
+    content.vb: Public Sub RemoveSort
+  overload: SuperOffice.CRM.Rows.TableRowsBase.RemoveSort*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TableRowsBase.Item(System.Int32)
+  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: Item[Int32]
+  nameWithType: TableRowsBase.Item[Int32]
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Item[System.Int32]
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public TableRowBase this[int index] { get; }
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Rows.TableRowBase
+    content.vb: Public ReadOnly Property Item(index As Integer) As TableRowBase
+  overload: SuperOffice.CRM.Rows.TableRowsBase.Item*
+  nameWithType.vb: TableRowsBase.Item(Int32)
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.CRM.Rows.TableRowsBase.Item(System.Int32)
+  name.vb: Item(Int32)
+- uid: SuperOffice.CRM.Rows.TableRowsBase.Sentries
+  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.Sentries
+  id: Sentries
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: Sentries
+  nameWithType: TableRowsBase.Sentries
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Sentries
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe collection of sentries that are guarding this collection of rows.\nThis collection is used by RDB entities which return HDB collections.\n<p>For example, the contact.Faxes returns a PhoneRows collection in which \neach row will need to check the contact&apos;s sentry for permission to read/write \ntheir field</p>\n"
+  syntax:
+    content: public SentryCollection Sentries { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Security.SentryCollection
+    content.vb: Public ReadOnly Property Sentries As SentryCollection
+  overload: SuperOffice.CRM.Rows.TableRowsBase.Sentries*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Rows.TableRowsBase.IsDirty
+  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.IsDirty
+  id: IsDirty
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: IsDirty
+  nameWithType: TableRowsBase.IsDirty
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.IsDirty
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIs the collection dirty, true if any of the elements of the collection is dirty.\n"
+  syntax:
+    content: public override bool IsDirty { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property IsDirty As Boolean
+  overridden: SuperOffice.Data.NestedPersistFacade.IsDirty
+  overload: SuperOffice.CRM.Rows.TableRowsBase.IsDirty*
+  implements:
+  - SuperOffice.Data.ISoCollection.IsDirty
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Rows.TableRowsBase.Index
+  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.Index
+  id: Index
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: TableRowsBase.Index
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Index
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe index used to load the collection.\n"
+  syntax:
+    content: public IdxBase Index { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.IdxBase
+    content.vb: Public ReadOnly Property Index As IdxBase
+  overload: SuperOffice.CRM.Rows.TableRowsBase.Index*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Rows.TableRowsBase.Count
+  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.Count
+  id: Count
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: TableRowsBase.Count
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Count
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe number of rows in the collection.\n"
+  syntax:
+    content: public override int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overrides ReadOnly Property Count As Integer
+  overridden: SuperOffice.Data.NestedCollectionPersist.Count
+  overload: SuperOffice.CRM.Rows.TableRowsBase.Count*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Rows.TableRowsBase.IsMarkedForDelete
+  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.IsMarkedForDelete
+  id: IsMarkedForDelete
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: IsMarkedForDelete
+  nameWithType: TableRowsBase.IsMarkedForDelete
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.IsMarkedForDelete
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nGets or sets a flag for every row in the collection to be marked for deletion.\n"
+  syntax:
+    content: public override bool IsMarkedForDelete { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Property IsMarkedForDelete As Boolean
+  overridden: SuperOffice.Data.NestedPersist.IsMarkedForDelete
+  overload: SuperOffice.CRM.Rows.TableRowsBase.IsMarkedForDelete*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Item(System.Int32)
+  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Item(System.Int32)
+  id: System#Collections#IList#Item(System.Int32)
+  isEii: true
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: IList.Item[Int32]
+  nameWithType: TableRowsBase.IList.Item[Int32]
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Item[System.Int32]
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n\n"
+  syntax:
+    content: object IList.this[] { get; set; }
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Object
+    content.vb: ReadOnly WriteOnly Property System.Collections.IList.Item(index As Integer) As Object Implements IList.this[]
+  overload: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Item*
+  implements:
+  - System.Collections.IList.Item(System.Int32)
+  nameWithType.vb: TableRowsBase.System.Collections.IList.Item(Int32)
+  modifiers.csharp:
+  - get
+  - set
+  fullName.vb: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Item(System.Int32)
+  name.vb: System.Collections.IList.Item(Int32)
+- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#Count
+  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#Count
+  id: System#Collections#ICollection#Count
+  isEii: true
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: ICollection.Count
+  nameWithType: TableRowsBase.ICollection.Count
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.ICollection.Count
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe number of elements contained in the underlying collection.\n"
+  syntax:
+    content: int ICollection.Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: Number of items in underlying collection.
+    content.vb: ReadOnly WriteOnly Property System.Collections.ICollection.Count As Integer Implements ICollection.Count
+  overload: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#Count*
+  implements:
+  - System.Collections.ICollection.Count
+  nameWithType.vb: TableRowsBase.System.Collections.ICollection.Count
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: System.Collections.ICollection.Count
+- uid: SuperOffice.CRM.Rows.TableRowsBase.IsFixedSize
+  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.IsFixedSize
+  id: IsFixedSize
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: IsFixedSize
+  nameWithType: TableRowsBase.IsFixedSize
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.IsFixedSize
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nA collection with a fixed size does not allow the addition or removal of elements after \nthe collection is created, but it allows the modification of existing elements.\n"
+  syntax:
+    content: public bool IsFixedSize { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsFixedSize As Boolean
+  overload: SuperOffice.CRM.Rows.TableRowsBase.IsFixedSize*
+  implements:
+  - System.Collections.IList.IsFixedSize
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Rows.TableRowsBase.IsReadOnly
+  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.IsReadOnly
+  id: IsReadOnly
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: IsReadOnly
+  nameWithType: TableRowsBase.IsReadOnly
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.IsReadOnly
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nA collection that is read-only does not allow the addition, removal, \nor modification of elements after the collection is created.\n"
+  syntax:
+    content: public bool IsReadOnly { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsReadOnly As Boolean
+  overload: SuperOffice.CRM.Rows.TableRowsBase.IsReadOnly*
+  implements:
+  - System.Collections.IList.IsReadOnly
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#IsSynchronized
+  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#IsSynchronized
+  id: System#Collections#ICollection#IsSynchronized
+  isEii: true
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: ICollection.IsSynchronized
+  nameWithType: TableRowsBase.ICollection.IsSynchronized
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.ICollection.IsSynchronized
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n<xref href=\"System.Collections.ICollection.IsSynchronized\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: bool ICollection.IsSynchronized { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly WriteOnly Property System.Collections.ICollection.IsSynchronized As Boolean Implements ICollection.IsSynchronized
+  overload: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#IsSynchronized*
+  implements:
+  - System.Collections.ICollection.IsSynchronized
+  nameWithType.vb: TableRowsBase.System.Collections.ICollection.IsSynchronized
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: System.Collections.ICollection.IsSynchronized
+- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#SyncRoot
+  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#SyncRoot
+  id: System#Collections#ICollection#SyncRoot
+  isEii: true
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: ICollection.SyncRoot
+  nameWithType: TableRowsBase.ICollection.SyncRoot
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.ICollection.SyncRoot
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n<xref href=\"System.Collections.ICollection.SyncRoot\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: object ICollection.SyncRoot { get; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: ReadOnly WriteOnly Property System.Collections.ICollection.SyncRoot As Object Implements ICollection.SyncRoot
+  overload: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#SyncRoot*
+  implements:
+  - System.Collections.ICollection.SyncRoot
+  nameWithType.vb: TableRowsBase.System.Collections.ICollection.SyncRoot
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  name.vb: System.Collections.ICollection.SyncRoot
+- uid: SuperOffice.CRM.Rows.TableRowsBase.AllowEdit
+  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.AllowEdit
+  id: AllowEdit
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: AllowEdit
+  nameWithType: TableRowsBase.AllowEdit
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.AllowEdit
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool AllowEdit { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property AllowEdit As Boolean
+  overload: SuperOffice.CRM.Rows.TableRowsBase.AllowEdit*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Rows.TableRowsBase.AllowNew
+  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.AllowNew
+  id: AllowNew
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: AllowNew
+  nameWithType: TableRowsBase.AllowNew
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.AllowNew
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool AllowNew { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property AllowNew As Boolean
+  overload: SuperOffice.CRM.Rows.TableRowsBase.AllowNew*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Rows.TableRowsBase.AllowRemove
+  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.AllowRemove
+  id: AllowRemove
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: AllowRemove
+  nameWithType: TableRowsBase.AllowRemove
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.AllowRemove
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool AllowRemove { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property AllowRemove As Boolean
+  overload: SuperOffice.CRM.Rows.TableRowsBase.AllowRemove*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Rows.TableRowsBase.IsSorted
+  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.IsSorted
+  id: IsSorted
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: IsSorted
+  nameWithType: TableRowsBase.IsSorted
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.IsSorted
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool IsSorted { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsSorted As Boolean
+  overload: SuperOffice.CRM.Rows.TableRowsBase.IsSorted*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Rows.TableRowsBase.SortDirection
+  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.SortDirection
+  id: SortDirection
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: SortDirection
+  nameWithType: TableRowsBase.SortDirection
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.SortDirection
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public ListSortDirection SortDirection { get; }
+    parameters: []
+    return:
+      type: System.ComponentModel.ListSortDirection
+    content.vb: Public ReadOnly Property SortDirection As ListSortDirection
+  overload: SuperOffice.CRM.Rows.TableRowsBase.SortDirection*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Rows.TableRowsBase.SortProperty
+  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.SortProperty
+  id: SortProperty
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: SortProperty
+  nameWithType: TableRowsBase.SortProperty
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.SortProperty
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public PropertyDescriptor SortProperty { get; }
+    parameters: []
+    return:
+      type: System.ComponentModel.PropertyDescriptor
+    content.vb: Public ReadOnly Property SortProperty As PropertyDescriptor
+  overload: SuperOffice.CRM.Rows.TableRowsBase.SortProperty*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Rows.TableRowsBase.SupportsChangeNotification
+  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.SupportsChangeNotification
+  id: SupportsChangeNotification
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: SupportsChangeNotification
+  nameWithType: TableRowsBase.SupportsChangeNotification
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.SupportsChangeNotification
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool SupportsChangeNotification { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property SupportsChangeNotification As Boolean
+  overload: SuperOffice.CRM.Rows.TableRowsBase.SupportsChangeNotification*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Rows.TableRowsBase.SupportsSearching
+  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.SupportsSearching
+  id: SupportsSearching
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: SupportsSearching
+  nameWithType: TableRowsBase.SupportsSearching
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.SupportsSearching
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool SupportsSearching { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property SupportsSearching As Boolean
+  overload: SuperOffice.CRM.Rows.TableRowsBase.SupportsSearching*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Rows.TableRowsBase.SupportsSorting
+  commentId: P:SuperOffice.CRM.Rows.TableRowsBase.SupportsSorting
+  id: SupportsSorting
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: SupportsSorting
+  nameWithType: TableRowsBase.SupportsSorting
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.SupportsSorting
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool SupportsSorting { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property SupportsSorting As Boolean
+  overload: SuperOffice.CRM.Rows.TableRowsBase.SupportsSorting*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Rows.TableRowsBase._onCollectionChanged
+  commentId: E:SuperOffice.CRM.Rows.TableRowsBase._onCollectionChanged
+  id: _onCollectionChanged
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: _onCollectionChanged
+  nameWithType: TableRowsBase._onCollectionChanged
+  fullName: SuperOffice.CRM.Rows.TableRowsBase._onCollectionChanged
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected event NotifyCollectionChangedEventHandler _onCollectionChanged
+    return:
+      type: System.Collections.Specialized.NotifyCollectionChangedEventHandler
+    content.vb: Protected Event _onCollectionChanged As NotifyCollectionChangedEventHandler
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.TableRowsBase.CollectionChanged
+  commentId: E:SuperOffice.CRM.Rows.TableRowsBase.CollectionChanged
+  id: CollectionChanged
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: CollectionChanged
+  nameWithType: TableRowsBase.CollectionChanged
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.CollectionChanged
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public event NotifyCollectionChangedEventHandler CollectionChanged
+    return:
+      type: System.Collections.Specialized.NotifyCollectionChangedEventHandler
+    content.vb: Public Event CollectionChanged As NotifyCollectionChangedEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TableRowsBase.ListChanged
+  commentId: E:SuperOffice.CRM.Rows.TableRowsBase.ListChanged
+  id: ListChanged
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  langs:
+  - csharp
+  - vb
+  name: ListChanged
+  nameWithType: TableRowsBase.ListChanged
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.ListChanged
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public event ListChangedEventHandler ListChanged
+    return:
+      type: System.ComponentModel.ListChangedEventHandler
+    content.vb: Public Event ListChanged As ListChangedEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.NestedPersist
+  commentId: T:SuperOffice.Data.NestedPersist
+  parent: SuperOffice.Data
+  isExternal: true
+  name: NestedPersist
+  nameWithType: NestedPersist
+  fullName: SuperOffice.Data.NestedPersist
+- uid: SuperOffice.Data.NestedPersistFacade
+  commentId: T:SuperOffice.Data.NestedPersistFacade
+  parent: SuperOffice.Data
+  isExternal: true
+  name: NestedPersistFacade
+  nameWithType: NestedPersistFacade
+  fullName: SuperOffice.Data.NestedPersistFacade
+- uid: SuperOffice.Data.NestedCollectionPersist
+  commentId: T:SuperOffice.Data.NestedCollectionPersist
+  parent: SuperOffice.Data
+  isExternal: true
+  name: NestedCollectionPersist
+  nameWithType: NestedCollectionPersist
+  fullName: SuperOffice.Data.NestedCollectionPersist
+- uid: SuperOffice.Data.INestedPersist
+  commentId: T:SuperOffice.Data.INestedPersist
+  parent: SuperOffice.Data
+  isExternal: true
+  name: INestedPersist
+  nameWithType: INestedPersist
+  fullName: SuperOffice.Data.INestedPersist
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.INestedPersist}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.INestedPersist}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<INestedPersist>
+  nameWithType: IEnumerable<INestedPersist>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>
+  nameWithType.vb: IEnumerable(Of INestedPersist)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.INestedPersist)
+  name.vb: IEnumerable(Of INestedPersist)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.INestedPersist
+    name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.INestedPersist
+    name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ISoCollection
+  commentId: T:SuperOffice.Data.ISoCollection
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ISoCollection
+  nameWithType: ISoCollection
+  fullName: SuperOffice.Data.ISoCollection
+- uid: System.Collections.IList
+  commentId: T:System.Collections.IList
+  parent: System.Collections
+  isExternal: true
+  name: IList
+  nameWithType: IList
+  fullName: System.Collections.IList
+- uid: System.Collections.ICollection
+  commentId: T:System.Collections.ICollection
+  parent: System.Collections
+  isExternal: true
+  name: ICollection
+  nameWithType: ICollection
+  fullName: System.Collections.ICollection
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.Collections.Specialized.INotifyCollectionChanged
+  isExternal: true
+  name: INotifyCollectionChanged
+  nameWithType: INotifyCollectionChanged
+  fullName: System.Collections.Specialized.INotifyCollectionChanged
+- uid: System.ComponentModel.IBindingList
+  isExternal: true
+  name: IBindingList
+  nameWithType: IBindingList
+  fullName: System.ComponentModel.IBindingList
+- uid: SuperOffice.Data.NestedCollectionPersist.GetFacadingItems
+  commentId: M:SuperOffice.Data.NestedCollectionPersist.GetFacadingItems
+  parent: SuperOffice.Data.NestedCollectionPersist
+  isExternal: true
+  name: GetFacadingItems()
+  nameWithType: NestedCollectionPersist.GetFacadingItems()
+  fullName: SuperOffice.Data.NestedCollectionPersist.GetFacadingItems()
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedCollectionPersist.GetFacadingItems
+    name: GetFacadingItems
+    nameWithType: NestedCollectionPersist.GetFacadingItems
+    fullName: SuperOffice.Data.NestedCollectionPersist.GetFacadingItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedCollectionPersist.GetFacadingItems
+    name: GetFacadingItems
+    nameWithType: NestedCollectionPersist.GetFacadingItems
+    fullName: SuperOffice.Data.NestedCollectionPersist.GetFacadingItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedCollectionPersist.System#Collections#Generic#IEnumerable{SuperOffice#Data#INestedPersist}#GetEnumerator
+  commentId: M:SuperOffice.Data.NestedCollectionPersist.System#Collections#Generic#IEnumerable{SuperOffice#Data#INestedPersist}#GetEnumerator
+  parent: SuperOffice.Data.NestedCollectionPersist
+  isExternal: true
+  name: IEnumerable<INestedPersist>.GetEnumerator()
+  nameWithType: NestedCollectionPersist.IEnumerable<INestedPersist>.GetEnumerator()
+  fullName: SuperOffice.Data.NestedCollectionPersist.System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator()
+  nameWithType.vb: NestedCollectionPersist.System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator()
+  name.vb: System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator()
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedCollectionPersist.System#Collections#Generic#IEnumerable{SuperOffice#Data#INestedPersist}#GetEnumerator
+    name: IEnumerable<INestedPersist>.GetEnumerator
+    nameWithType: NestedCollectionPersist.IEnumerable<INestedPersist>.GetEnumerator
+    fullName: SuperOffice.Data.NestedCollectionPersist.System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedCollectionPersist.System#Collections#Generic#IEnumerable{SuperOffice#Data#INestedPersist}#GetEnumerator
+    name: System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator
+    nameWithType: NestedCollectionPersist.System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator
+    fullName: SuperOffice.Data.NestedCollectionPersist.System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedCollectionPersist.IsDeleted
+  commentId: P:SuperOffice.Data.NestedCollectionPersist.IsDeleted
+  parent: SuperOffice.Data.NestedCollectionPersist
+  isExternal: true
+  name: IsDeleted
+  nameWithType: NestedCollectionPersist.IsDeleted
+  fullName: SuperOffice.Data.NestedCollectionPersist.IsDeleted
+- uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
+  parent: SuperOffice.Data.NestedPersistFacade
+  isExternal: true
+  name: OnPreIdUpdate()
+  nameWithType: NestedPersistFacade.OnPreIdUpdate()
+  fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate()
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
+    name: OnPreIdUpdate
+    nameWithType: NestedPersistFacade.OnPreIdUpdate
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
+    name: OnPreIdUpdate
+    nameWithType: NestedPersistFacade.OnPreIdUpdate
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  parent: SuperOffice.Data.NestedPersistFacade
+  isExternal: true
+  name: OnPrimaryKeyRequest(PKContainer)
+  nameWithType: NestedPersistFacade.OnPrimaryKeyRequest(PKContainer)
+  fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyRequest
+    nameWithType: NestedPersistFacade.OnPrimaryKeyRequest
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyRequest
+    nameWithType: NestedPersistFacade.OnPrimaryKeyRequest
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  parent: SuperOffice.Data.NestedPersistFacade
+  isExternal: true
+  name: OnPrimaryKeyUpdate(PKContainer)
+  nameWithType: NestedPersistFacade.OnPrimaryKeyUpdate(PKContainer)
+  fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyUpdate
+    nameWithType: NestedPersistFacade.OnPrimaryKeyUpdate
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyUpdate
+    nameWithType: NestedPersistFacade.OnPrimaryKeyUpdate
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnIdUpdate
+  parent: SuperOffice.Data.NestedPersistFacade
+  isExternal: true
+  name: OnIdUpdate()
+  nameWithType: NestedPersistFacade.OnIdUpdate()
+  fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdate()
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: NestedPersistFacade.OnIdUpdate
+    fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: NestedPersistFacade.OnIdUpdate
+    fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
+  parent: SuperOffice.Data.NestedPersistFacade
+  isExternal: true
+  name: OnSave(BatchSave)
+  nameWithType: NestedPersistFacade.OnSave(BatchSave)
+  fullName: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
+    name: OnSave
+    nameWithType: NestedPersistFacade.OnSave
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSave
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.BatchSave
+    name: BatchSave
+    nameWithType: BatchSave
+    fullName: SuperOffice.Data.SQL.BatchSave
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
+    name: OnSave
+    nameWithType: NestedPersistFacade.OnSave
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSave
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.BatchSave
+    name: BatchSave
+    nameWithType: BatchSave
+    fullName: SuperOffice.Data.SQL.BatchSave
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
+  commentId: M:SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
+  parent: SuperOffice.Data.NestedPersistFacade
+  isExternal: true
+  name: OnSaved(Boolean)
+  nameWithType: NestedPersistFacade.OnSaved(Boolean)
+  fullName: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
+    name: OnSaved
+    nameWithType: NestedPersistFacade.OnSaved
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
+    name: OnSaved
+    nameWithType: NestedPersistFacade.OnSaved
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist._saveOwner
+  commentId: F:SuperOffice.Data.NestedPersist._saveOwner
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: _saveOwner
+  nameWithType: NestedPersist._saveOwner
+  fullName: SuperOffice.Data.NestedPersist._saveOwner
+- uid: SuperOffice.Data.NestedPersist._isSaving
+  commentId: F:SuperOffice.Data.NestedPersist._isSaving
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: _isSaving
+  nameWithType: NestedPersist._isSaving
+  fullName: SuperOffice.Data.NestedPersist._isSaving
+- uid: SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+  commentId: M:SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: SetSaveOwner(INestedPersist)
+  nameWithType: NestedPersist.SetSaveOwner(INestedPersist)
+  fullName: SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+    name: SetSaveOwner
+    nameWithType: NestedPersist.SetSaveOwner
+    fullName: SuperOffice.Data.NestedPersist.SetSaveOwner
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.INestedPersist
+    name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+    name: SetSaveOwner
+    nameWithType: NestedPersist.SetSaveOwner
+    fullName: SuperOffice.Data.NestedPersist.SetSaveOwner
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.INestedPersist
+    name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.Save
+  commentId: M:SuperOffice.Data.NestedPersist.Save
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: Save()
+  nameWithType: NestedPersist.Save()
+  fullName: SuperOffice.Data.NestedPersist.Save()
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.Save
+    name: Save
+    nameWithType: NestedPersist.Save
+    fullName: SuperOffice.Data.NestedPersist.Save
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.Save
+    name: Save
+    nameWithType: NestedPersist.Save
+    fullName: SuperOffice.Data.NestedPersist.Save
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnPreIdUpdate()
+  nameWithType: NestedPersist.INestedPersist.OnPreIdUpdate()
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  name.vb: SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+    name: INestedPersist.OnPreIdUpdate
+    nameWithType: NestedPersist.INestedPersist.OnPreIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+    name: SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+    name: INestedPersist.OnPrimaryKeyRequest
+    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequest
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+    name: INestedPersist.OnPrimaryKeyUpdate
+    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnIdUpdate()
+  nameWithType: NestedPersist.INestedPersist.OnIdUpdate()
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate()
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate()
+  name.vb: SuperOffice.Data.INestedPersist.OnIdUpdate()
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+    name: INestedPersist.OnIdUpdate
+    nameWithType: NestedPersist.INestedPersist.OnIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+    name: SuperOffice.Data.INestedPersist.OnIdUpdate
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnSave(BatchSave)
+  nameWithType: NestedPersist.INestedPersist.OnSave(BatchSave)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSave(BatchSave)
+  name.vb: SuperOffice.Data.INestedPersist.OnSave(BatchSave)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+    name: INestedPersist.OnSave
+    nameWithType: NestedPersist.INestedPersist.OnSave
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.BatchSave
+    name: BatchSave
+    nameWithType: BatchSave
+    fullName: SuperOffice.Data.SQL.BatchSave
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+    name: SuperOffice.Data.INestedPersist.OnSave
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.BatchSave
+    name: BatchSave
+    nameWithType: BatchSave
+    fullName: SuperOffice.Data.SQL.BatchSave
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnSaved(Boolean)
+  nameWithType: NestedPersist.INestedPersist.OnSaved(Boolean)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSaved(Boolean)
+  name.vb: SuperOffice.Data.INestedPersist.OnSaved(Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+    name: INestedPersist.OnSaved
+    nameWithType: NestedPersist.INestedPersist.OnSaved
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+    name: SuperOffice.Data.INestedPersist.OnSaved
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.IsSaving
+  commentId: P:SuperOffice.Data.NestedPersist.IsSaving
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: IsSaving
+  nameWithType: NestedPersist.IsSaving
+  fullName: SuperOffice.Data.NestedPersist.IsSaving
+- uid: SuperOffice.Data.NestedPersist.OnElementSaved
+  commentId: E:SuperOffice.Data.NestedPersist.OnElementSaved
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: OnElementSaved
+  nameWithType: NestedPersist.OnElementSaved
+  fullName: SuperOffice.Data.NestedPersist.OnElementSaved
+- uid: SuperOffice.Data.NestedPersist.OnElementIdUpdate
+  commentId: E:SuperOffice.Data.NestedPersist.OnElementIdUpdate
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: OnElementIdUpdate
+  nameWithType: NestedPersist.OnElementIdUpdate
+  fullName: SuperOffice.Data.NestedPersist.OnElementIdUpdate
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowsBase.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TableRowsBase, To>()
+  nameWithType: EnumUtil.MapEnums<TableRowsBase, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.TableRowsBase, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TableRowsBase, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.TableRowsBase, To)()
+  name.vb: MapEnums(Of TableRowsBase, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TableRowsBase, To>
+    nameWithType: EnumUtil.MapEnums<TableRowsBase, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.TableRowsBase, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TableRowsBase, To)
+    nameWithType: EnumUtil.MapEnums(Of TableRowsBase, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.TableRowsBase, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TableRowsBase, To>()
+  nameWithType: Converters.MapEnums<TableRowsBase, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.TableRowsBase, To>()
+  nameWithType.vb: Converters.MapEnums(Of TableRowsBase, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.TableRowsBase, To)()
+  name.vb: MapEnums(Of TableRowsBase, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TableRowsBase, To>
+    nameWithType: Converters.MapEnums<TableRowsBase, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.TableRowsBase, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TableRowsBase, To)
+    nameWithType: Converters.MapEnums(Of TableRowsBase, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.TableRowsBase, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Collections.ArrayList
+  commentId: T:System.Collections.ArrayList
+  parent: System.Collections
+  isExternal: true
+  name: ArrayList
+  nameWithType: ArrayList
+  fullName: System.Collections.ArrayList
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Security.SentryCollection
+  commentId: T:SuperOffice.CRM.Security.SentryCollection
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: SentryCollection
+  nameWithType: SentryCollection
+  fullName: SuperOffice.CRM.Security.SentryCollection
+- uid: SuperOffice.CRM.Security
+  commentId: N:SuperOffice.CRM.Security
+  isExternal: true
+  name: SuperOffice.CRM.Security
+  nameWithType: SuperOffice.CRM.Security
+  fullName: SuperOffice.CRM.Security
+- uid: SuperOffice.CRM.Rows.IdxBase
+  commentId: T:SuperOffice.CRM.Rows.IdxBase
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: IdxBase
+  nameWithType: IdxBase
+  fullName: SuperOffice.CRM.Rows.IdxBase
+- uid: SuperOffice.CRM.Rows.TableRowsBase.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.#ctor
+  isExternal: true
+  name: TableRowsBase
+  nameWithType: TableRowsBase.TableRowsBase
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.TableRowsBase
+- uid: SuperOffice.CRM.Rows.TableRowsBase.OnIndexChanged*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.OnIndexChanged
+  isExternal: true
+  name: OnIndexChanged
+  nameWithType: TableRowsBase.OnIndexChanged
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.OnIndexChanged
+- uid: SuperOffice.CRM.Rows.TableRowsBase.Load*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.Load
+  isExternal: true
+  name: Load
+  nameWithType: TableRowsBase.Load
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Load
+- uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
+  isExternal: true
+  name: RowsLoad
+  nameWithType: TableRowsBase.RowsLoad
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
+- uid: SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory
+  commentId: T:SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: ITableRowLoadHandlerFactory
+  nameWithType: ITableRowLoadHandlerFactory
+  fullName: SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory
+- uid: SuperOffice.CRM.Rows.TableRowsBase.Delete*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.Delete
+  isExternal: true
+  name: Delete
+  nameWithType: TableRowsBase.Delete
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Delete
+- uid: SuperOffice.Data.NestedCollectionPersist.GetEnumerator
+  commentId: M:SuperOffice.Data.NestedCollectionPersist.GetEnumerator
+  parent: SuperOffice.Data.NestedCollectionPersist
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: NestedCollectionPersist.GetEnumerator()
+  fullName: SuperOffice.Data.NestedCollectionPersist.GetEnumerator()
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedCollectionPersist.GetEnumerator
+    name: GetEnumerator
+    nameWithType: NestedCollectionPersist.GetEnumerator
+    fullName: SuperOffice.Data.NestedCollectionPersist.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedCollectionPersist.GetEnumerator
+    name: GetEnumerator
+    nameWithType: NestedCollectionPersist.GetEnumerator
+    fullName: SuperOffice.Data.NestedCollectionPersist.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowsBase.GetEnumerator*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.GetEnumerator
+  isExternal: true
+  name: GetEnumerator
+  nameWithType: TableRowsBase.GetEnumerator
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.GetEnumerator
+- uid: System.Collections.IEnumerable.GetEnumerator
+  commentId: M:System.Collections.IEnumerable.GetEnumerator
+  parent: System.Collections.IEnumerable
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: IEnumerable.GetEnumerator()
+  fullName: System.Collections.IEnumerable.GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.IEnumerable.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable.GetEnumerator
+    fullName: System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IEnumerable.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable.GetEnumerator
+    fullName: System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: SuperOffice.CRM.Rows.TableRowsBase.Add*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.Add
+  isExternal: true
+  name: Add
+  nameWithType: TableRowsBase.Add
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Add
+- uid: SuperOffice.CRM.Rows.TableRowBase
+  commentId: T:SuperOffice.CRM.Rows.TableRowBase
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TableRowBase
+  nameWithType: TableRowBase
+  fullName: SuperOffice.CRM.Rows.TableRowBase
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Rows.TableRowsBase.AddNew*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.AddNew
+  isExternal: true
+  name: AddNew
+  nameWithType: TableRowsBase.AddNew
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.AddNew
+- uid: SuperOffice.CRM.Rows.TableRowsBase.Remove*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.Remove
+  isExternal: true
+  name: Remove
+  nameWithType: TableRowsBase.Remove
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Remove
+- uid: SuperOffice.CRM.Rows.TableRowsBase.Clear*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.Clear
+  isExternal: true
+  name: Clear
+  nameWithType: TableRowsBase.Clear
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Clear
+- uid: SuperOffice.CRM.Rows.TableRowsBase.Sort*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.Sort
+  isExternal: true
+  name: Sort
+  nameWithType: TableRowsBase.Sort
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Sort
+- uid: System.Collections.IComparer
+  commentId: T:System.Collections.IComparer
+  parent: System.Collections
+  isExternal: true
+  name: IComparer
+  nameWithType: IComparer
+  fullName: System.Collections.IComparer
+- uid: SuperOffice.CRM.Rows.TableRowsBase.GetPrimaryKeys*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.GetPrimaryKeys
+  isExternal: true
+  name: GetPrimaryKeys
+  nameWithType: TableRowsBase.GetPrimaryKeys
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.GetPrimaryKeys
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Rows.TableRowsBase.OnAdded*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.OnAdded
+  isExternal: true
+  name: OnAdded
+  nameWithType: TableRowsBase.OnAdded
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.OnAdded
+- uid: SuperOffice.CRM.Rows.TableRowsBase.CreateChild*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.CreateChild
+  isExternal: true
+  name: CreateChild
+  nameWithType: TableRowsBase.CreateChild
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.CreateChild
+- uid: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#Add*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#Add
+  isExternal: true
+  name: ISoCollection.Add
+  nameWithType: TableRowsBase.ISoCollection.Add
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice.Data.ISoCollection.Add
+  nameWithType.vb: TableRowsBase.SuperOffice.Data.ISoCollection.Add
+  name.vb: SuperOffice.Data.ISoCollection.Add
+- uid: SuperOffice.Data.ISoCollection.Add(SuperOffice.Data.ISoItem)
+  commentId: M:SuperOffice.Data.ISoCollection.Add(SuperOffice.Data.ISoItem)
+  parent: SuperOffice.Data.ISoCollection
+  isExternal: true
+  name: Add(ISoItem)
+  nameWithType: ISoCollection.Add(ISoItem)
+  fullName: SuperOffice.Data.ISoCollection.Add(SuperOffice.Data.ISoItem)
+  spec.csharp:
+  - uid: SuperOffice.Data.ISoCollection.Add(SuperOffice.Data.ISoItem)
+    name: Add
+    nameWithType: ISoCollection.Add
+    fullName: SuperOffice.Data.ISoCollection.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.ISoItem
+    name: ISoItem
+    nameWithType: ISoItem
+    fullName: SuperOffice.Data.ISoItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISoCollection.Add(SuperOffice.Data.ISoItem)
+    name: Add
+    nameWithType: ISoCollection.Add
+    fullName: SuperOffice.Data.ISoCollection.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.ISoItem
+    name: ISoItem
+    nameWithType: ISoItem
+    fullName: SuperOffice.Data.ISoItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ISoItem
+  commentId: T:SuperOffice.Data.ISoItem
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ISoItem
+  nameWithType: ISoItem
+  fullName: SuperOffice.Data.ISoItem
+- uid: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#AddNew*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#AddNew
+  isExternal: true
+  name: ISoCollection.AddNew
+  nameWithType: TableRowsBase.ISoCollection.AddNew
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice.Data.ISoCollection.AddNew
+  nameWithType.vb: TableRowsBase.SuperOffice.Data.ISoCollection.AddNew
+  name.vb: SuperOffice.Data.ISoCollection.AddNew
+- uid: SuperOffice.Data.ISoCollection.AddNew
+  commentId: M:SuperOffice.Data.ISoCollection.AddNew
+  parent: SuperOffice.Data.ISoCollection
+  isExternal: true
+  name: AddNew()
+  nameWithType: ISoCollection.AddNew()
+  fullName: SuperOffice.Data.ISoCollection.AddNew()
+  spec.csharp:
+  - uid: SuperOffice.Data.ISoCollection.AddNew
+    name: AddNew
+    nameWithType: ISoCollection.AddNew
+    fullName: SuperOffice.Data.ISoCollection.AddNew
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.ISoCollection.AddNew
+    name: AddNew
+    nameWithType: ISoCollection.AddNew
+    fullName: SuperOffice.Data.ISoCollection.AddNew
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#get_Item*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#get_Item
+  isExternal: true
+  name: IList.get_Item
+  nameWithType: TableRowsBase.IList.get_Item
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.get_Item
+  nameWithType.vb: TableRowsBase.System.Collections.IList.get_Item
+  name.vb: System.Collections.IList.get_Item
+- uid: System.Collections.IList.get_Item(System.Int32)
+  commentId: M:System.Collections.IList.get_Item(System.Int32)
+  parent: System.Collections.IList
+  isExternal: true
+  name: get_Item(Int32)
+  nameWithType: IList.get_Item(Int32)
+  fullName: System.Collections.IList.get_Item(System.Int32)
+  spec.csharp:
+  - uid: System.Collections.IList.get_Item(System.Int32)
+    name: get_Item
+    nameWithType: IList.get_Item
+    fullName: System.Collections.IList.get_Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IList.get_Item(System.Int32)
+    name: get_Item
+    nameWithType: IList.get_Item
+    fullName: System.Collections.IList.get_Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#set_Item*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#set_Item
+  isExternal: true
+  name: IList.set_Item
+  nameWithType: TableRowsBase.IList.set_Item
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.set_Item
+  nameWithType.vb: TableRowsBase.System.Collections.IList.set_Item
+  name.vb: System.Collections.IList.set_Item
+- uid: System.Collections.IList.set_Item(System.Int32,System.Object)
+  commentId: M:System.Collections.IList.set_Item(System.Int32,System.Object)
+  parent: System.Collections.IList
+  isExternal: true
+  name: set_Item(Int32, Object)
+  nameWithType: IList.set_Item(Int32, Object)
+  fullName: System.Collections.IList.set_Item(System.Int32, System.Object)
+  spec.csharp:
+  - uid: System.Collections.IList.set_Item(System.Int32,System.Object)
+    name: set_Item
+    nameWithType: IList.set_Item
+    fullName: System.Collections.IList.set_Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IList.set_Item(System.Int32,System.Object)
+    name: set_Item
+    nameWithType: IList.set_Item
+    fullName: System.Collections.IList.set_Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowsBase.CopyTo*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.CopyTo
+  isExternal: true
+  name: CopyTo
+  nameWithType: TableRowsBase.CopyTo
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.CopyTo
+- uid: System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+  commentId: M:System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+  parent: System.Collections.ICollection
+  isExternal: true
+  name: CopyTo(Array, Int32)
+  nameWithType: ICollection.CopyTo(Array, Int32)
+  fullName: System.Collections.ICollection.CopyTo(System.Array, System.Int32)
+  spec.csharp:
+  - uid: System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+    name: CopyTo
+    nameWithType: ICollection.CopyTo
+    fullName: System.Collections.ICollection.CopyTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Array
+    name: Array
+    nameWithType: Array
+    fullName: System.Array
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+    name: CopyTo
+    nameWithType: ICollection.CopyTo
+    fullName: System.Collections.ICollection.CopyTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Array
+    name: Array
+    nameWithType: Array
+    fullName: System.Array
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Array
+  commentId: T:System.Array
+  parent: System
+  isExternal: true
+  name: Array
+  nameWithType: Array
+  fullName: System.Array
+- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Add*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Add
+  isExternal: true
+  name: IList.Add
+  nameWithType: TableRowsBase.IList.Add
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Add
+  nameWithType.vb: TableRowsBase.System.Collections.IList.Add
+  name.vb: System.Collections.IList.Add
+- uid: System.Collections.IList.Add(System.Object)
+  commentId: M:System.Collections.IList.Add(System.Object)
+  parent: System.Collections.IList
+  isExternal: true
+  name: Add(Object)
+  nameWithType: IList.Add(Object)
+  fullName: System.Collections.IList.Add(System.Object)
+  spec.csharp:
+  - uid: System.Collections.IList.Add(System.Object)
+    name: Add
+    nameWithType: IList.Add
+    fullName: System.Collections.IList.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IList.Add(System.Object)
+    name: Add
+    nameWithType: IList.Add
+    fullName: System.Collections.IList.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Remove*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Remove
+  isExternal: true
+  name: IList.Remove
+  nameWithType: TableRowsBase.IList.Remove
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Remove
+  nameWithType.vb: TableRowsBase.System.Collections.IList.Remove
+  name.vb: System.Collections.IList.Remove
+- uid: System.Collections.IList.Remove(System.Object)
+  commentId: M:System.Collections.IList.Remove(System.Object)
+  parent: System.Collections.IList
+  isExternal: true
+  name: Remove(Object)
+  nameWithType: IList.Remove(Object)
+  fullName: System.Collections.IList.Remove(System.Object)
+  spec.csharp:
+  - uid: System.Collections.IList.Remove(System.Object)
+    name: Remove
+    nameWithType: IList.Remove
+    fullName: System.Collections.IList.Remove
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IList.Remove(System.Object)
+    name: Remove
+    nameWithType: IList.Remove
+    fullName: System.Collections.IList.Remove
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowsBase.IndexOf*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.IndexOf
+  isExternal: true
+  name: IndexOf
+  nameWithType: TableRowsBase.IndexOf
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.IndexOf
+- uid: System.Collections.IList.IndexOf(System.Object)
+  commentId: M:System.Collections.IList.IndexOf(System.Object)
+  parent: System.Collections.IList
+  isExternal: true
+  name: IndexOf(Object)
+  nameWithType: IList.IndexOf(Object)
+  fullName: System.Collections.IList.IndexOf(System.Object)
+  spec.csharp:
+  - uid: System.Collections.IList.IndexOf(System.Object)
+    name: IndexOf
+    nameWithType: IList.IndexOf
+    fullName: System.Collections.IList.IndexOf
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IList.IndexOf(System.Object)
+    name: IndexOf
+    nameWithType: IList.IndexOf
+    fullName: System.Collections.IList.IndexOf
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowsBase.Contains*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.Contains
+  isExternal: true
+  name: Contains
+  nameWithType: TableRowsBase.Contains
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Contains
+- uid: System.Collections.IList.Contains(System.Object)
+  commentId: M:System.Collections.IList.Contains(System.Object)
+  parent: System.Collections.IList
+  isExternal: true
+  name: Contains(Object)
+  nameWithType: IList.Contains(Object)
+  fullName: System.Collections.IList.Contains(System.Object)
+  spec.csharp:
+  - uid: System.Collections.IList.Contains(System.Object)
+    name: Contains
+    nameWithType: IList.Contains
+    fullName: System.Collections.IList.Contains
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IList.Contains(System.Object)
+    name: Contains
+    nameWithType: IList.Contains
+    fullName: System.Collections.IList.Contains
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Clear*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Clear
+  isExternal: true
+  name: IList.Clear
+  nameWithType: TableRowsBase.IList.Clear
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Clear
+  nameWithType.vb: TableRowsBase.System.Collections.IList.Clear
+  name.vb: System.Collections.IList.Clear
+- uid: System.Collections.IList.Clear
+  commentId: M:System.Collections.IList.Clear
+  parent: System.Collections.IList
+  isExternal: true
+  name: Clear()
+  nameWithType: IList.Clear()
+  fullName: System.Collections.IList.Clear()
+  spec.csharp:
+  - uid: System.Collections.IList.Clear
+    name: Clear
+    nameWithType: IList.Clear
+    fullName: System.Collections.IList.Clear
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IList.Clear
+    name: Clear
+    nameWithType: IList.Clear
+    fullName: System.Collections.IList.Clear
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Insert*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Insert
+  isExternal: true
+  name: IList.Insert
+  nameWithType: TableRowsBase.IList.Insert
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Insert
+  nameWithType.vb: TableRowsBase.System.Collections.IList.Insert
+  name.vb: System.Collections.IList.Insert
+- uid: System.Collections.IList.Insert(System.Int32,System.Object)
+  commentId: M:System.Collections.IList.Insert(System.Int32,System.Object)
+  parent: System.Collections.IList
+  isExternal: true
+  name: Insert(Int32, Object)
+  nameWithType: IList.Insert(Int32, Object)
+  fullName: System.Collections.IList.Insert(System.Int32, System.Object)
+  spec.csharp:
+  - uid: System.Collections.IList.Insert(System.Int32,System.Object)
+    name: Insert
+    nameWithType: IList.Insert
+    fullName: System.Collections.IList.Insert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IList.Insert(System.Int32,System.Object)
+    name: Insert
+    nameWithType: IList.Insert
+    fullName: System.Collections.IList.Insert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#RemoveAt*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#RemoveAt
+  isExternal: true
+  name: IList.RemoveAt
+  nameWithType: TableRowsBase.IList.RemoveAt
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.RemoveAt
+  nameWithType.vb: TableRowsBase.System.Collections.IList.RemoveAt
+  name.vb: System.Collections.IList.RemoveAt
+- uid: System.Collections.IList.RemoveAt(System.Int32)
+  commentId: M:System.Collections.IList.RemoveAt(System.Int32)
+  parent: System.Collections.IList
+  isExternal: true
+  name: RemoveAt(Int32)
+  nameWithType: IList.RemoveAt(Int32)
+  fullName: System.Collections.IList.RemoveAt(System.Int32)
+  spec.csharp:
+  - uid: System.Collections.IList.RemoveAt(System.Int32)
+    name: RemoveAt
+    nameWithType: IList.RemoveAt
+    fullName: System.Collections.IList.RemoveAt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IList.RemoveAt(System.Int32)
+    name: RemoveAt
+    nameWithType: IList.RemoveAt
+    fullName: System.Collections.IList.RemoveAt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowsBase.AddIndex*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.AddIndex
+  isExternal: true
+  name: AddIndex
+  nameWithType: TableRowsBase.AddIndex
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.AddIndex
+- uid: System.ComponentModel.PropertyDescriptor
+  isExternal: true
+  name: PropertyDescriptor
+  nameWithType: PropertyDescriptor
+  fullName: System.ComponentModel.PropertyDescriptor
+- uid: SuperOffice.CRM.Rows.TableRowsBase.ApplySort*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.ApplySort
+  isExternal: true
+  name: ApplySort
+  nameWithType: TableRowsBase.ApplySort
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.ApplySort
+- uid: System.ComponentModel.ListSortDirection
+  isExternal: true
+  name: ListSortDirection
+  nameWithType: ListSortDirection
+  fullName: System.ComponentModel.ListSortDirection
+- uid: SuperOffice.CRM.Rows.TableRowsBase.Find*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.Find
+  isExternal: true
+  name: Find
+  nameWithType: TableRowsBase.Find
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Find
+- uid: SuperOffice.CRM.Rows.TableRowsBase.RemoveIndex*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.RemoveIndex
+  isExternal: true
+  name: RemoveIndex
+  nameWithType: TableRowsBase.RemoveIndex
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.RemoveIndex
+- uid: SuperOffice.CRM.Rows.TableRowsBase.RemoveSort*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.RemoveSort
+  isExternal: true
+  name: RemoveSort
+  nameWithType: TableRowsBase.RemoveSort
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.RemoveSort
+- uid: SuperOffice.CRM.Rows.TableRowsBase.Item*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.Item
+  isExternal: true
+  name: Item
+  nameWithType: TableRowsBase.Item
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Item
+- uid: SuperOffice.CRM.Rows.TableRowsBase.Sentries*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.Sentries
+  isExternal: true
+  name: Sentries
+  nameWithType: TableRowsBase.Sentries
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Sentries
+- uid: SuperOffice.Data.NestedPersistFacade.IsDirty
+  commentId: P:SuperOffice.Data.NestedPersistFacade.IsDirty
+  parent: SuperOffice.Data.NestedPersistFacade
+  isExternal: true
+  name: IsDirty
+  nameWithType: NestedPersistFacade.IsDirty
+  fullName: SuperOffice.Data.NestedPersistFacade.IsDirty
+- uid: SuperOffice.CRM.Rows.TableRowsBase.IsDirty*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.IsDirty
+  isExternal: true
+  name: IsDirty
+  nameWithType: TableRowsBase.IsDirty
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.IsDirty
+- uid: SuperOffice.Data.ISoCollection.IsDirty
+  commentId: P:SuperOffice.Data.ISoCollection.IsDirty
+  parent: SuperOffice.Data.ISoCollection
+  isExternal: true
+  name: IsDirty
+  nameWithType: ISoCollection.IsDirty
+  fullName: SuperOffice.Data.ISoCollection.IsDirty
+- uid: SuperOffice.CRM.Rows.TableRowsBase.Index*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.Index
+  isExternal: true
+  name: Index
+  nameWithType: TableRowsBase.Index
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Index
+- uid: SuperOffice.Data.NestedCollectionPersist.Count
+  commentId: P:SuperOffice.Data.NestedCollectionPersist.Count
+  parent: SuperOffice.Data.NestedCollectionPersist
+  isExternal: true
+  name: Count
+  nameWithType: NestedCollectionPersist.Count
+  fullName: SuperOffice.Data.NestedCollectionPersist.Count
+- uid: SuperOffice.CRM.Rows.TableRowsBase.Count*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.Count
+  isExternal: true
+  name: Count
+  nameWithType: TableRowsBase.Count
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Count
+- uid: SuperOffice.Data.NestedPersist.IsMarkedForDelete
+  commentId: P:SuperOffice.Data.NestedPersist.IsMarkedForDelete
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: IsMarkedForDelete
+  nameWithType: NestedPersist.IsMarkedForDelete
+  fullName: SuperOffice.Data.NestedPersist.IsMarkedForDelete
+- uid: SuperOffice.CRM.Rows.TableRowsBase.IsMarkedForDelete*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.IsMarkedForDelete
+  isExternal: true
+  name: IsMarkedForDelete
+  nameWithType: TableRowsBase.IsMarkedForDelete
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.IsMarkedForDelete
+- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Item*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#IList#Item
+  isExternal: true
+  name: IList.Item
+  nameWithType: TableRowsBase.IList.Item
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.IList.Item
+  nameWithType.vb: TableRowsBase.System.Collections.IList.Item
+  name.vb: System.Collections.IList.Item
+- uid: System.Collections.IList.Item(System.Int32)
+  commentId: P:System.Collections.IList.Item(System.Int32)
+  parent: System.Collections.IList
+  isExternal: true
+  name: Item[Int32]
+  nameWithType: IList.Item[Int32]
+  fullName: System.Collections.IList.Item[System.Int32]
+  nameWithType.vb: IList.Item(Int32)
+  fullName.vb: System.Collections.IList.Item(System.Int32)
+  name.vb: Item(Int32)
+  spec.csharp:
+  - uid: System.Collections.IList.Item(System.Int32)
+    name: Item
+    nameWithType: IList.Item
+    fullName: System.Collections.IList.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: System.Collections.IList.Item(System.Int32)
+    name: Item
+    nameWithType: IList.Item
+    fullName: System.Collections.IList.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#Count*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#Count
+  isExternal: true
+  name: ICollection.Count
+  nameWithType: TableRowsBase.ICollection.Count
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.ICollection.Count
+  nameWithType.vb: TableRowsBase.System.Collections.ICollection.Count
+  name.vb: System.Collections.ICollection.Count
+- uid: System.Collections.ICollection.Count
+  commentId: P:System.Collections.ICollection.Count
+  parent: System.Collections.ICollection
+  isExternal: true
+  name: Count
+  nameWithType: ICollection.Count
+  fullName: System.Collections.ICollection.Count
+- uid: SuperOffice.CRM.Rows.TableRowsBase.IsFixedSize*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.IsFixedSize
+  isExternal: true
+  name: IsFixedSize
+  nameWithType: TableRowsBase.IsFixedSize
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.IsFixedSize
+- uid: System.Collections.IList.IsFixedSize
+  commentId: P:System.Collections.IList.IsFixedSize
+  parent: System.Collections.IList
+  isExternal: true
+  name: IsFixedSize
+  nameWithType: IList.IsFixedSize
+  fullName: System.Collections.IList.IsFixedSize
+- uid: SuperOffice.CRM.Rows.TableRowsBase.IsReadOnly*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.IsReadOnly
+  isExternal: true
+  name: IsReadOnly
+  nameWithType: TableRowsBase.IsReadOnly
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.IsReadOnly
+- uid: System.Collections.IList.IsReadOnly
+  commentId: P:System.Collections.IList.IsReadOnly
+  parent: System.Collections.IList
+  isExternal: true
+  name: IsReadOnly
+  nameWithType: IList.IsReadOnly
+  fullName: System.Collections.IList.IsReadOnly
+- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#IsSynchronized*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#IsSynchronized
+  isExternal: true
+  name: ICollection.IsSynchronized
+  nameWithType: TableRowsBase.ICollection.IsSynchronized
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.ICollection.IsSynchronized
+  nameWithType.vb: TableRowsBase.System.Collections.ICollection.IsSynchronized
+  name.vb: System.Collections.ICollection.IsSynchronized
+- uid: System.Collections.ICollection.IsSynchronized
+  commentId: P:System.Collections.ICollection.IsSynchronized
+  parent: System.Collections.ICollection
+  isExternal: true
+  name: IsSynchronized
+  nameWithType: ICollection.IsSynchronized
+  fullName: System.Collections.ICollection.IsSynchronized
+- uid: SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#SyncRoot*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.System#Collections#ICollection#SyncRoot
+  isExternal: true
+  name: ICollection.SyncRoot
+  nameWithType: TableRowsBase.ICollection.SyncRoot
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.System.Collections.ICollection.SyncRoot
+  nameWithType.vb: TableRowsBase.System.Collections.ICollection.SyncRoot
+  name.vb: System.Collections.ICollection.SyncRoot
+- uid: System.Collections.ICollection.SyncRoot
+  commentId: P:System.Collections.ICollection.SyncRoot
+  parent: System.Collections.ICollection
+  isExternal: true
+  name: SyncRoot
+  nameWithType: ICollection.SyncRoot
+  fullName: System.Collections.ICollection.SyncRoot
+- uid: SuperOffice.CRM.Rows.TableRowsBase.AllowEdit*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.AllowEdit
+  isExternal: true
+  name: AllowEdit
+  nameWithType: TableRowsBase.AllowEdit
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.AllowEdit
+- uid: SuperOffice.CRM.Rows.TableRowsBase.AllowNew*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.AllowNew
+  isExternal: true
+  name: AllowNew
+  nameWithType: TableRowsBase.AllowNew
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.AllowNew
+- uid: SuperOffice.CRM.Rows.TableRowsBase.AllowRemove*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.AllowRemove
+  isExternal: true
+  name: AllowRemove
+  nameWithType: TableRowsBase.AllowRemove
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.AllowRemove
+- uid: SuperOffice.CRM.Rows.TableRowsBase.IsSorted*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.IsSorted
+  isExternal: true
+  name: IsSorted
+  nameWithType: TableRowsBase.IsSorted
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.IsSorted
+- uid: SuperOffice.CRM.Rows.TableRowsBase.SortDirection*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.SortDirection
+  isExternal: true
+  name: SortDirection
+  nameWithType: TableRowsBase.SortDirection
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.SortDirection
+- uid: SuperOffice.CRM.Rows.TableRowsBase.SortProperty*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.SortProperty
+  isExternal: true
+  name: SortProperty
+  nameWithType: TableRowsBase.SortProperty
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.SortProperty
+- uid: SuperOffice.CRM.Rows.TableRowsBase.SupportsChangeNotification*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.SupportsChangeNotification
+  isExternal: true
+  name: SupportsChangeNotification
+  nameWithType: TableRowsBase.SupportsChangeNotification
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.SupportsChangeNotification
+- uid: SuperOffice.CRM.Rows.TableRowsBase.SupportsSearching*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.SupportsSearching
+  isExternal: true
+  name: SupportsSearching
+  nameWithType: TableRowsBase.SupportsSearching
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.SupportsSearching
+- uid: SuperOffice.CRM.Rows.TableRowsBase.SupportsSorting*
+  commentId: Overload:SuperOffice.CRM.Rows.TableRowsBase.SupportsSorting
+  isExternal: true
+  name: SupportsSorting
+  nameWithType: TableRowsBase.SupportsSorting
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.SupportsSorting
+- uid: System.Collections.Specialized.NotifyCollectionChangedEventHandler
+  isExternal: true
+  name: NotifyCollectionChangedEventHandler
+  nameWithType: NotifyCollectionChangedEventHandler
+  fullName: System.Collections.Specialized.NotifyCollectionChangedEventHandler
+- uid: System.ComponentModel.ListChangedEventHandler
+  isExternal: true
+  name: ListChangedEventHandler
+  nameWithType: ListChangedEventHandler
+  fullName: System.ComponentModel.ListChangedEventHandler

@@ -1,0 +1,332 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue
+  id: ICriteriaDynamicValue
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.DisplayValue
+  - SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.ExtraInfo
+  - SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.Height
+  - SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.IsValid
+  - SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.ValidationMessage
+  - SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.Value
+  - SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.ValueHintCollection
+  langs:
+  - csharp
+  - vb
+  name: ICriteriaDynamicValue
+  nameWithType: ICriteriaDynamicValue
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue
+  type: Interface
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public interface ICriteriaDynamicValue
+    content.vb: Public Interface ICriteriaDynamicValue
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.IsValid
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.IsValid
+  id: IsValid
+  parent: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue
+  langs:
+  - csharp
+  - vb
+  name: IsValid()
+  nameWithType: ICriteriaDynamicValue.IsValid()
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.IsValid()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: bool IsValid()
+    return:
+      type: System.Boolean
+    content.vb: Function IsValid As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.IsValid*
+- uid: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.Value
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.Value
+  id: Value
+  parent: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: ICriteriaDynamicValue.Value
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.Value
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: string[] Value { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Property Value As String()
+  overload: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.Value*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.DisplayValue
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.DisplayValue
+  id: DisplayValue
+  parent: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue
+  langs:
+  - csharp
+  - vb
+  name: DisplayValue
+  nameWithType: ICriteriaDynamicValue.DisplayValue
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.DisplayValue
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: string[] DisplayValue { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Property DisplayValue As String()
+  overload: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.DisplayValue*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.ValueHintCollection
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.ValueHintCollection
+  id: ValueHintCollection
+  parent: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue
+  langs:
+  - csharp
+  - vb
+  name: ValueHintCollection
+  nameWithType: ICriteriaDynamicValue.ValueHintCollection
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.ValueHintCollection
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: ValueHintCollection ValueHintCollection { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.ValueHintCollection
+    content.vb: Property ValueHintCollection As ValueHintCollection
+  overload: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.ValueHintCollection*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.ExtraInfo
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: ICriteriaDynamicValue.ExtraInfo
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.ExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: string ExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ExtraInfo As String
+  overload: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.ExtraInfo*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.Height
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.Height
+  id: Height
+  parent: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: ICriteriaDynamicValue.Height
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.Height
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: int Height { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Height As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.Height*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.ValidationMessage
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.ValidationMessage
+  id: ValidationMessage
+  parent: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue
+  langs:
+  - csharp
+  - vb
+  name: ValidationMessage
+  nameWithType: ICriteriaDynamicValue.ValidationMessage
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.ValidationMessage
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: string ValidationMessage { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property ValidationMessage As String
+  overload: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.ValidationMessage*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.IsValid*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.IsValid
+  isExternal: true
+  name: IsValid
+  nameWithType: ICriteriaDynamicValue.IsValid
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.IsValid
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.Value*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.Value
+  isExternal: true
+  name: Value
+  nameWithType: ICriteriaDynamicValue.Value
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.Value
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.DisplayValue*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.DisplayValue
+  isExternal: true
+  name: DisplayValue
+  nameWithType: ICriteriaDynamicValue.DisplayValue
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.DisplayValue
+- uid: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.ValueHintCollection*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.ValueHintCollection
+  isExternal: true
+  name: ValueHintCollection
+  nameWithType: ICriteriaDynamicValue.ValueHintCollection
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.ValueHintCollection
+- uid: SuperOffice.CRM.Web.UI.Controls.ValueHintCollection
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.ValueHintCollection
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: ValueHintCollection
+  nameWithType: ValueHintCollection
+  fullName: SuperOffice.CRM.Web.UI.Controls.ValueHintCollection
+- uid: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.ExtraInfo*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.ExtraInfo
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: ICriteriaDynamicValue.ExtraInfo
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.ExtraInfo
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.Height*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.Height
+  isExternal: true
+  name: Height
+  nameWithType: ICriteriaDynamicValue.Height
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.Height
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.ValidationMessage*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.ValidationMessage
+  isExternal: true
+  name: ValidationMessage
+  nameWithType: ICriteriaDynamicValue.ValidationMessage
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue.ValidationMessage

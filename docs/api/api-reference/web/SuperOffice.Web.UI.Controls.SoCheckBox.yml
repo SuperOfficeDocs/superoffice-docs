@@ -1,0 +1,179 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Controls.SoCheckBox
+  commentId: T:SuperOffice.Web.UI.Controls.SoCheckBox
+  id: SoCheckBox
+  parent: SuperOffice.Web.UI.Controls
+  children:
+  - SuperOffice.Web.UI.Controls.SoCheckBox.#ctor
+  - SuperOffice.Web.UI.Controls.SoCheckBox.ReadOnly
+  - SuperOffice.Web.UI.Controls.SoCheckBox.Render(System.Web.UI.HtmlTextWriter)
+  langs:
+  - csharp
+  - vb
+  name: SoCheckBox
+  nameWithType: SoCheckBox
+  fullName: SuperOffice.Web.UI.Controls.SoCheckBox
+  type: Class
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: 'public class SoCheckBox : CheckBox, INamingContainer'
+    content.vb: >-
+      Public Class SoCheckBox
+          Inherits CheckBox
+          Implements INamingContainer
+  inheritance:
+  - System.Object
+  implements:
+  - System.Web.UI.INamingContainer
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.UI.Controls.SoCheckBox.#ctor
+  commentId: M:SuperOffice.Web.UI.Controls.SoCheckBox.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.UI.Controls.SoCheckBox
+  langs:
+  - csharp
+  - vb
+  name: SoCheckBox()
+  nameWithType: SoCheckBox.SoCheckBox()
+  fullName: SuperOffice.Web.UI.Controls.SoCheckBox.SoCheckBox()
+  type: Constructor
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public SoCheckBox()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.UI.Controls.SoCheckBox.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoCheckBox.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoCheckBox.Render(System.Web.UI.HtmlTextWriter)
+  id: Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoCheckBox
+  langs:
+  - csharp
+  - vb
+  name: Render(HtmlTextWriter)
+  nameWithType: SoCheckBox.Render(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoCheckBox.Render(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected override void Render(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overrides Sub Render(writer As HtmlTextWriter)
+  overload: SuperOffice.Web.UI.Controls.SoCheckBox.Render*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.Web.UI.Controls.SoCheckBox.ReadOnly
+  commentId: P:SuperOffice.Web.UI.Controls.SoCheckBox.ReadOnly
+  id: ReadOnly
+  parent: SuperOffice.Web.UI.Controls.SoCheckBox
+  langs:
+  - csharp
+  - vb
+  name: ReadOnly
+  nameWithType: SoCheckBox.ReadOnly
+  fullName: SuperOffice.Web.UI.Controls.SoCheckBox.ReadOnly
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public bool ReadOnly { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ReadOnly As Boolean
+  overload: SuperOffice.Web.UI.Controls.SoCheckBox.ReadOnly*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Web.UI.Controls
+  commentId: N:SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.Web.UI.Controls
+  nameWithType: SuperOffice.Web.UI.Controls
+  fullName: SuperOffice.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.UI.INamingContainer
+  isExternal: true
+  name: INamingContainer
+  nameWithType: INamingContainer
+  fullName: System.Web.UI.INamingContainer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.UI.Controls.SoCheckBox.#ctor*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoCheckBox.#ctor
+  isExternal: true
+  name: SoCheckBox
+  nameWithType: SoCheckBox.SoCheckBox
+  fullName: SuperOffice.Web.UI.Controls.SoCheckBox.SoCheckBox
+- uid: SuperOffice.Web.UI.Controls.SoCheckBox.Render*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoCheckBox.Render
+  isExternal: true
+  name: Render
+  nameWithType: SoCheckBox.Render
+  fullName: SuperOffice.Web.UI.Controls.SoCheckBox.Render
+- uid: System.Web.UI.HtmlTextWriter
+  isExternal: true
+  name: HtmlTextWriter
+  nameWithType: HtmlTextWriter
+  fullName: System.Web.UI.HtmlTextWriter
+- uid: SuperOffice.Web.UI.Controls.SoCheckBox.ReadOnly*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoCheckBox.ReadOnly
+  isExternal: true
+  name: ReadOnly
+  nameWithType: SoCheckBox.ReadOnly
+  fullName: SuperOffice.Web.UI.Controls.SoCheckBox.ReadOnly
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -1,0 +1,419 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.SQL.UpdateField
+  commentId: T:SuperOffice.Data.SQL.UpdateField
+  id: UpdateField
+  parent: SuperOffice.Data.SQL
+  children:
+  - SuperOffice.Data.SQL.UpdateField.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.Data.SQL.UpdateField.BeginInvoke(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Parameter,System.AsyncCallback,System.Object)
+  - SuperOffice.Data.SQL.UpdateField.EndInvoke(System.IAsyncResult)
+  - SuperOffice.Data.SQL.UpdateField.Invoke(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Parameter)
+  langs:
+  - csharp
+  - vb
+  name: UpdateField
+  nameWithType: UpdateField
+  fullName: SuperOffice.Data.SQL.UpdateField
+  type: Delegate
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nThis delegate is used by the Data layer if it has updated - manipulated - the data in a\nquery, and the client might wish to know. \n"
+  remarks: "\nExamples of such changes are soundex generation and registered/last updated. In some cases\nthe client could not care less, while the Row objects do care and need to update their internal\nvariables to correspond to the changes that have been done. Note that you may be called about\nfields that were NOT part of your original query, and you will be called at least once for each changed field.\n"
+  syntax:
+    content: public delegate void UpdateField(FieldInfo whichField, Parameter newValue);
+    parameters:
+    - id: whichField
+      type: SuperOffice.Data.SQL.FieldInfo
+      description: FieldInfo taken from the same TableInfo as the query&apos;s table(s)
+    - id: newValue
+      type: SuperOffice.Data.SQL.Parameter
+      description: The desired new value of the field encapsulated in a parameter.
+    content.vb: Public Delegate Sub UpdateField(whichField As FieldInfo, newValue As Parameter)
+  extensionMethods:
+  - SuperOffice.Data.SQL.UpdateField.EnumUtil.MapEnums``2
+  - SuperOffice.Data.SQL.UpdateField.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+- uid: SuperOffice.Data.SQL.UpdateField.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.Data.SQL.UpdateField.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.Data.SQL.UpdateField
+  langs:
+  - csharp
+  - vb
+  name: UpdateField(Object, IntPtr)
+  nameWithType: UpdateField.UpdateField(Object, IntPtr)
+  fullName: SuperOffice.Data.SQL.UpdateField.UpdateField(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public UpdateField(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.Data.SQL.UpdateField.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.UpdateField.Invoke(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Parameter)
+  commentId: M:SuperOffice.Data.SQL.UpdateField.Invoke(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Parameter)
+  id: Invoke(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Parameter)
+  parent: SuperOffice.Data.SQL.UpdateField
+  langs:
+  - csharp
+  - vb
+  name: Invoke(FieldInfo, Parameter)
+  nameWithType: UpdateField.Invoke(FieldInfo, Parameter)
+  fullName: SuperOffice.Data.SQL.UpdateField.Invoke(SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.Parameter)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public virtual void Invoke(FieldInfo whichField, Parameter newValue)
+    parameters:
+    - id: whichField
+      type: SuperOffice.Data.SQL.FieldInfo
+    - id: newValue
+      type: SuperOffice.Data.SQL.Parameter
+    content.vb: Public Overridable Sub Invoke(whichField As FieldInfo, newValue As Parameter)
+  overload: SuperOffice.Data.SQL.UpdateField.Invoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Data.SQL.UpdateField.BeginInvoke(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Parameter,System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.Data.SQL.UpdateField.BeginInvoke(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Parameter,System.AsyncCallback,System.Object)
+  id: BeginInvoke(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Parameter,System.AsyncCallback,System.Object)
+  parent: SuperOffice.Data.SQL.UpdateField
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(FieldInfo, Parameter, AsyncCallback, Object)
+  nameWithType: UpdateField.BeginInvoke(FieldInfo, Parameter, AsyncCallback, Object)
+  fullName: SuperOffice.Data.SQL.UpdateField.BeginInvoke(SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.Parameter, System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(FieldInfo whichField, Parameter newValue, AsyncCallback callback, object object)
+    parameters:
+    - id: whichField
+      type: SuperOffice.Data.SQL.FieldInfo
+    - id: newValue
+      type: SuperOffice.Data.SQL.Parameter
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(whichField As FieldInfo, newValue As Parameter, callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.Data.SQL.UpdateField.BeginInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Data.SQL.UpdateField.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.Data.SQL.UpdateField.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.Data.SQL.UpdateField
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: UpdateField.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.Data.SQL.UpdateField.EndInvoke(System.IAsyncResult)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public virtual void EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
+  overload: SuperOffice.Data.SQL.UpdateField.EndInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.Data.SQL.UpdateField.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<UpdateField, To>()
+  nameWithType: EnumUtil.MapEnums<UpdateField, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.UpdateField, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of UpdateField, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.UpdateField, To)()
+  name.vb: MapEnums(Of UpdateField, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<UpdateField, To>
+    nameWithType: EnumUtil.MapEnums<UpdateField, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.UpdateField, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of UpdateField, To)
+    nameWithType: EnumUtil.MapEnums(Of UpdateField, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.UpdateField, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.UpdateField.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<UpdateField, To>()
+  nameWithType: Converters.MapEnums<UpdateField, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.UpdateField, To>()
+  nameWithType.vb: Converters.MapEnums(Of UpdateField, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.UpdateField, To)()
+  name.vb: MapEnums(Of UpdateField, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<UpdateField, To>
+    nameWithType: Converters.MapEnums<UpdateField, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.UpdateField, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of UpdateField, To)
+    nameWithType: Converters.MapEnums(Of UpdateField, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.UpdateField, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: SuperOffice.Data.SQL.Parameter
+  commentId: T:SuperOffice.Data.SQL.Parameter
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Parameter
+  nameWithType: Parameter
+  fullName: SuperOffice.Data.SQL.Parameter
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.SQL.UpdateField.#ctor*
+  commentId: Overload:SuperOffice.Data.SQL.UpdateField.#ctor
+  isExternal: true
+  name: UpdateField
+  nameWithType: UpdateField.UpdateField
+  fullName: SuperOffice.Data.SQL.UpdateField.UpdateField
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.SQL.UpdateField.Invoke*
+  commentId: Overload:SuperOffice.Data.SQL.UpdateField.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: UpdateField.Invoke
+  fullName: SuperOffice.Data.SQL.UpdateField.Invoke
+- uid: SuperOffice.Data.SQL.UpdateField.BeginInvoke*
+  commentId: Overload:SuperOffice.Data.SQL.UpdateField.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: UpdateField.BeginInvoke
+  fullName: SuperOffice.Data.SQL.UpdateField.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.Data.SQL.UpdateField.EndInvoke*
+  commentId: Overload:SuperOffice.Data.SQL.UpdateField.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: UpdateField.EndInvoke
+  fullName: SuperOffice.Data.SQL.UpdateField.EndInvoke

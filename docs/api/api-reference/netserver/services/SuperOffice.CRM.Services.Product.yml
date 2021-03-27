@@ -1,0 +1,1747 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.Product
+  commentId: T:SuperOffice.CRM.Services.Product
+  id: Product
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.Product.#ctor
+  - SuperOffice.CRM.Services.Product.Code
+  - SuperOffice.CRM.Services.Product.DefaultSubscriptionQuantity
+  - SuperOffice.CRM.Services.Product.Description
+  - SuperOffice.CRM.Services.Product.ERPPriceListKey
+  - SuperOffice.CRM.Services.Product.ERPProductKey
+  - SuperOffice.CRM.Services.Product.ExtraField1
+  - SuperOffice.CRM.Services.Product.ExtraField2
+  - SuperOffice.CRM.Services.Product.ExtraField3
+  - SuperOffice.CRM.Services.Product.ExtraField4
+  - SuperOffice.CRM.Services.Product.ExtraField5
+  - SuperOffice.CRM.Services.Product.ExtraInfo
+  - SuperOffice.CRM.Services.Product.InAssortment
+  - SuperOffice.CRM.Services.Product.InStock
+  - SuperOffice.CRM.Services.Product.IsSubscription
+  - SuperOffice.CRM.Services.Product.ItemNumber
+  - SuperOffice.CRM.Services.Product.Name
+  - SuperOffice.CRM.Services.Product.PriceUnit
+  - SuperOffice.CRM.Services.Product.ProductCategoryKey
+  - SuperOffice.CRM.Services.Product.ProductFamilyKey
+  - SuperOffice.CRM.Services.Product.ProductId
+  - SuperOffice.CRM.Services.Product.ProductTypeKey
+  - SuperOffice.CRM.Services.Product.QuantityUnit
+  - SuperOffice.CRM.Services.Product.RawExtraInfo
+  - SuperOffice.CRM.Services.Product.Rights
+  - SuperOffice.CRM.Services.Product.Rule
+  - SuperOffice.CRM.Services.Product.SubscriptionUnit
+  - SuperOffice.CRM.Services.Product.Supplier
+  - SuperOffice.CRM.Services.Product.SupplierCode
+  - SuperOffice.CRM.Services.Product.ToString
+  - SuperOffice.CRM.Services.Product.ToString(System.String)
+  - SuperOffice.CRM.Services.Product.UnitCost
+  - SuperOffice.CRM.Services.Product.UnitListPrice
+  - SuperOffice.CRM.Services.Product.UnitMinimumPrice
+  - SuperOffice.CRM.Services.Product.Url
+  - SuperOffice.CRM.Services.Product.VAT
+  - SuperOffice.CRM.Services.Product.VATInfo
+  langs:
+  - csharp
+  - vb
+  name: Product
+  nameWithType: Product
+  fullName: SuperOffice.CRM.Services.Product
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInformation about a Product from the ERP system. This may be fetched from SuperOffice Product table through the SO Connector\n<p></p>\nCarrier object for Product.\nServices for the Product Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IQuoteAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet Product 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new QuoteAgent();\n    var product = agent.GetProduct( 123 );\n }</code></pre>\n\nFind all Product, get related items using archive agent.\n<pre><code>var archive = new ArchiveAgent();\nvar rows = archive.GetArchiveListByColumns2(&quot;Product&quot;, &quot;...&quot;, null, &quot;getAllRows eq 1&quot;, null, 0, 100 );</code></pre>\n"
+  syntax:
+    content: 'public class Product : Carrier'
+    content.vb: >-
+      Public Class Product
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.QuoteAgent
+    commentId: T:SuperOffice.CRM.Services.QuoteAgent
+  - linkId: SuperOffice.CRM.Services.IQuoteAgent
+    commentId: T:SuperOffice.CRM.Services.IQuoteAgent
+  - linkId: SuperOffice.CRM.Services.ArchiveAgent
+    commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  - linkId: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.Product.#ctor
+  commentId: M:SuperOffice.CRM.Services.Product.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: Product()
+  nameWithType: Product.Product()
+  fullName: SuperOffice.CRM.Services.Product.Product()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public Product()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.Product.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Product.ToString
+  commentId: M:SuperOffice.CRM.Services.Product.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Product.ToString()
+  fullName: SuperOffice.CRM.Services.Product.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.Product.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.Product.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.Product.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: Product.ToString(String)
+  fullName: SuperOffice.CRM.Services.Product.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.Product.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Product.ProductId
+  commentId: P:SuperOffice.CRM.Services.Product.ProductId
+  id: ProductId
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: ProductId
+  nameWithType: Product.ProductId
+  fullName: SuperOffice.CRM.Services.Product.ProductId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int ProductId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProductId As Integer
+  overload: SuperOffice.CRM.Services.Product.ProductId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.ERPProductKey
+  commentId: P:SuperOffice.CRM.Services.Product.ERPProductKey
+  id: ERPProductKey
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: ERPProductKey
+  nameWithType: Product.ERPProductKey
+  fullName: SuperOffice.CRM.Services.Product.ERPProductKey
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReference/foreign key to the product in the given pricelist in the product supplier system, if it exists there. \n"
+  syntax:
+    content: public virtual string ERPProductKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ERPProductKey As String
+  overload: SuperOffice.CRM.Services.Product.ERPProductKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.ERPPriceListKey
+  commentId: P:SuperOffice.CRM.Services.Product.ERPPriceListKey
+  id: ERPPriceListKey
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: ERPPriceListKey
+  nameWithType: Product.ERPPriceListKey
+  fullName: SuperOffice.CRM.Services.Product.ERPPriceListKey
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nForeign key to the price list that this product is a part of, or the primary key of the pricelist if this is a built-in pricelist. \n"
+  syntax:
+    content: public virtual string ERPPriceListKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ERPPriceListKey As String
+  overload: SuperOffice.CRM.Services.Product.ERPPriceListKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.Name
+  commentId: P:SuperOffice.CRM.Services.Product.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Product.Name
+  fullName: SuperOffice.CRM.Services.Product.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe name to use in the user interface. \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.Product.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.Description
+  commentId: P:SuperOffice.CRM.Services.Product.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: Product.Description
+  fullName: SuperOffice.CRM.Services.Product.Description
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe description to use, with potentially several lines. Will be used as tool-tip to use in the list user interface too. \n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.Product.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.Code
+  commentId: P:SuperOffice.CRM.Services.Product.Code
+  id: Code
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: Code
+  nameWithType: Product.Code
+  fullName: SuperOffice.CRM.Services.Product.Code
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe product code / article number in the product supplier system. \n"
+  syntax:
+    content: public virtual string Code { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Code As String
+  overload: SuperOffice.CRM.Services.Product.Code*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.PriceUnit
+  commentId: P:SuperOffice.CRM.Services.Product.PriceUnit
+  id: PriceUnit
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: PriceUnit
+  nameWithType: Product.PriceUnit
+  fullName: SuperOffice.CRM.Services.Product.PriceUnit
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhat is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); read-only for lines that originate in defined products \n"
+  syntax:
+    content: public virtual string PriceUnit { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PriceUnit As String
+  overload: SuperOffice.CRM.Services.Product.PriceUnit*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.QuantityUnit
+  commentId: P:SuperOffice.CRM.Services.Product.QuantityUnit
+  id: QuantityUnit
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: QuantityUnit
+  nameWithType: Product.QuantityUnit
+  fullName: SuperOffice.CRM.Services.Product.QuantityUnit
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhat is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); Connector handles conversion relative to PriceUnit if they are different \n"
+  syntax:
+    content: public virtual string QuantityUnit { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property QuantityUnit As String
+  overload: SuperOffice.CRM.Services.Product.QuantityUnit*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.IsSubscription
+  commentId: P:SuperOffice.CRM.Services.Product.IsSubscription
+  id: IsSubscription
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: IsSubscription
+  nameWithType: Product.IsSubscription
+  fullName: SuperOffice.CRM.Services.Product.IsSubscription
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIs this a subscription product, sold in repeating intervals/amounts? \n"
+  syntax:
+    content: public virtual bool IsSubscription { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsSubscription As Boolean
+  overload: SuperOffice.CRM.Services.Product.IsSubscription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.SubscriptionUnit
+  commentId: P:SuperOffice.CRM.Services.Product.SubscriptionUnit
+  id: SubscriptionUnit
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionUnit
+  nameWithType: Product.SubscriptionUnit
+  fullName: SuperOffice.CRM.Services.Product.SubscriptionUnit
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual subscription unit. \n"
+  syntax:
+    content: public virtual string SubscriptionUnit { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SubscriptionUnit As String
+  overload: SuperOffice.CRM.Services.Product.SubscriptionUnit*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.DefaultSubscriptionQuantity
+  commentId: P:SuperOffice.CRM.Services.Product.DefaultSubscriptionQuantity
+  id: DefaultSubscriptionQuantity
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: DefaultSubscriptionQuantity
+  nameWithType: Product.DefaultSubscriptionQuantity
+  fullName: SuperOffice.CRM.Services.Product.DefaultSubscriptionQuantity
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe default number of SubscriptionUnits to suggest when creating quote lines from this product \n"
+  syntax:
+    content: public virtual double DefaultSubscriptionQuantity { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property DefaultSubscriptionQuantity As Double
+  overload: SuperOffice.CRM.Services.Product.DefaultSubscriptionQuantity*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.ItemNumber
+  commentId: P:SuperOffice.CRM.Services.Product.ItemNumber
+  id: ItemNumber
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: ItemNumber
+  nameWithType: Product.ItemNumber
+  fullName: SuperOffice.CRM.Services.Product.ItemNumber
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLine item number, NOR: «Postnummer». Specific numbers from some hierarchy, for instance “1.4.3.2P”. Typically used to sort the items in the quote by some standard way. \n"
+  syntax:
+    content: public virtual string ItemNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ItemNumber As String
+  overload: SuperOffice.CRM.Services.Product.ItemNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.Url
+  commentId: P:SuperOffice.CRM.Services.Product.Url
+  id: Url
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: Product.Url
+  fullName: SuperOffice.CRM.Services.Product.Url
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nURL to product information web page. \n"
+  syntax:
+    content: public virtual string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Url As String
+  overload: SuperOffice.CRM.Services.Product.Url*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.ProductCategoryKey
+  commentId: P:SuperOffice.CRM.Services.Product.ProductCategoryKey
+  id: ProductCategoryKey
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: ProductCategoryKey
+  nameWithType: Product.ProductCategoryKey
+  fullName: SuperOffice.CRM.Services.Product.ProductCategoryKey
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product category. \n"
+  syntax:
+    content: public virtual string ProductCategoryKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProductCategoryKey As String
+  overload: SuperOffice.CRM.Services.Product.ProductCategoryKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.ProductFamilyKey
+  commentId: P:SuperOffice.CRM.Services.Product.ProductFamilyKey
+  id: ProductFamilyKey
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: ProductFamilyKey
+  nameWithType: Product.ProductFamilyKey
+  fullName: SuperOffice.CRM.Services.Product.ProductFamilyKey
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn&apos;t support lists, a text with the actual product family. \n"
+  syntax:
+    content: public virtual string ProductFamilyKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProductFamilyKey As String
+  overload: SuperOffice.CRM.Services.Product.ProductFamilyKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.ProductTypeKey
+  commentId: P:SuperOffice.CRM.Services.Product.ProductTypeKey
+  id: ProductTypeKey
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: ProductTypeKey
+  nameWithType: Product.ProductTypeKey
+  fullName: SuperOffice.CRM.Services.Product.ProductTypeKey
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product type. \n"
+  syntax:
+    content: public virtual string ProductTypeKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProductTypeKey As String
+  overload: SuperOffice.CRM.Services.Product.ProductTypeKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.VAT
+  commentId: P:SuperOffice.CRM.Services.Product.VAT
+  id: VAT
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: VAT
+  nameWithType: Product.VAT
+  fullName: SuperOffice.CRM.Services.Product.VAT
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the Superoffice product register, this field is available in the product admin GUI. \n"
+  syntax:
+    content: public virtual double VAT { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property VAT As Double
+  overload: SuperOffice.CRM.Services.Product.VAT*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.VATInfo
+  commentId: P:SuperOffice.CRM.Services.Product.VATInfo
+  id: VATInfo
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: VATInfo
+  nameWithType: Product.VATInfo
+  fullName: SuperOffice.CRM.Services.Product.VATInfo
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA field for putting VATInfo you need to show in the final quoteDocument, like the VAT type that is used. Not used in any business logic in SuperOffice; available to document templates. \n"
+  syntax:
+    content: public virtual string VATInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property VATInfo As String
+  overload: SuperOffice.CRM.Services.Product.VATInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.UnitCost
+  commentId: P:SuperOffice.CRM.Services.Product.UnitCost
+  id: UnitCost
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: UnitCost
+  nameWithType: Product.UnitCost
+  fullName: SuperOffice.CRM.Services.Product.UnitCost
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe cost price. Might not be given, use Decimal.MinValue to signal this. \n"
+  syntax:
+    content: public virtual double UnitCost { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property UnitCost As Double
+  overload: SuperOffice.CRM.Services.Product.UnitCost*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.UnitMinimumPrice
+  commentId: P:SuperOffice.CRM.Services.Product.UnitMinimumPrice
+  id: UnitMinimumPrice
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: UnitMinimumPrice
+  nameWithType: Product.UnitMinimumPrice
+  fullName: SuperOffice.CRM.Services.Product.UnitMinimumPrice
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe minimum price this salesman can offer to his customer. This might be cost price if there is no policy. Might not be given, use Decimal.MinValue to signal this. \n"
+  syntax:
+    content: public virtual double UnitMinimumPrice { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property UnitMinimumPrice As Double
+  overload: SuperOffice.CRM.Services.Product.UnitMinimumPrice*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.UnitListPrice
+  commentId: P:SuperOffice.CRM.Services.Product.UnitListPrice
+  id: UnitListPrice
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: UnitListPrice
+  nameWithType: Product.UnitListPrice
+  fullName: SuperOffice.CRM.Services.Product.UnitListPrice
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n(Basic Price, normal price, standard price.) This is the basic price from which the discount is computed from. The ListPrice will stay the same even when a larger amount is ordered. \n"
+  syntax:
+    content: public virtual double UnitListPrice { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property UnitListPrice As Double
+  overload: SuperOffice.CRM.Services.Product.UnitListPrice*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.InAssortment
+  commentId: P:SuperOffice.CRM.Services.Product.InAssortment
+  id: InAssortment
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: InAssortment
+  nameWithType: Product.InAssortment
+  fullName: SuperOffice.CRM.Services.Product.InAssortment
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue for products that should currently be offered, false when the product is discontinued and should not ordinarily be offered. When false the product no longer appears in search results. \n"
+  syntax:
+    content: public virtual bool InAssortment { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property InAssortment As Boolean
+  overload: SuperOffice.CRM.Services.Product.InAssortment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.Supplier
+  commentId: P:SuperOffice.CRM.Services.Product.Supplier
+  id: Supplier
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: Supplier
+  nameWithType: Product.Supplier
+  fullName: SuperOffice.CRM.Services.Product.Supplier
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIn SuperOffice, an id from the contact table, when saved as an ERP cache, the name of the supplier \n"
+  syntax:
+    content: public virtual string Supplier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Supplier As String
+  overload: SuperOffice.CRM.Services.Product.Supplier*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.SupplierCode
+  commentId: P:SuperOffice.CRM.Services.Product.SupplierCode
+  id: SupplierCode
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: SupplierCode
+  nameWithType: Product.SupplierCode
+  fullName: SuperOffice.CRM.Services.Product.SupplierCode
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSuppliers part code/number or other key-like field \n"
+  syntax:
+    content: public virtual string SupplierCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SupplierCode As String
+  overload: SuperOffice.CRM.Services.Product.SupplierCode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.Rights
+  commentId: P:SuperOffice.CRM.Services.Product.Rights
+  id: Rights
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: Rights
+  nameWithType: Product.Rights
+  fullName: SuperOffice.CRM.Services.Product.Rights
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nField1=right&amp;Field2=right, etc. of any fields that have non-standard field access rights. Rights can be one of: N (=None or Hidden), R (=Read-only), W (=Writeable), M (=Mandatory). The fields will mostly be from the Quoteline table, but some added fields that are conceptually part of the quoteline, like Image will also be possibly to set rights on. Will be used by SuperOffice to control the user interface when showing the record. \n"
+  syntax:
+    content: public virtual string Rights { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Rights As String
+  overload: SuperOffice.CRM.Services.Product.Rights*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.Rule
+  commentId: P:SuperOffice.CRM.Services.Product.Rule
+  id: Rule
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: Rule
+  nameWithType: Product.Rule
+  fullName: SuperOffice.CRM.Services.Product.Rule
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe names of one or more calculation rules that are in effect for this line, comma-separated case-insensitive. Will NOT be used by SuperOffice. \n"
+  syntax:
+    content: public virtual string Rule { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Rule As String
+  overload: SuperOffice.CRM.Services.Product.Rule*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.ExtraInfo
+  commentId: P:SuperOffice.CRM.Services.Product.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: Product.ExtraInfo
+  fullName: SuperOffice.CRM.Services.Product.ExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nExtra information, supplied by QuoteConnector, used by a future dynamic GUI extension \n"
+  syntax:
+    content: public virtual ProductExtraDataField[] ExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.ProductExtraDataField[]
+    content.vb: Public Overridable Property ExtraInfo As ProductExtraDataField()
+  overload: SuperOffice.CRM.Services.Product.ExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.RawExtraInfo
+  commentId: P:SuperOffice.CRM.Services.Product.RawExtraInfo
+  id: RawExtraInfo
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: RawExtraInfo
+  nameWithType: Product.RawExtraInfo
+  fullName: SuperOffice.CRM.Services.Product.RawExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRead-only extra information in plain text, supplied by QuoteConnector, used by a future dynamic GUI extension \n"
+  syntax:
+    content: public virtual string RawExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RawExtraInfo As String
+  overload: SuperOffice.CRM.Services.Product.RawExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.ExtraField1
+  commentId: P:SuperOffice.CRM.Services.Product.ExtraField1
+  id: ExtraField1
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: ExtraField1
+  nameWithType: Product.ExtraField1
+  fullName: SuperOffice.CRM.Services.Product.ExtraField1
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display. \n"
+  syntax:
+    content: public virtual string ExtraField1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraField1 As String
+  overload: SuperOffice.CRM.Services.Product.ExtraField1*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.ExtraField2
+  commentId: P:SuperOffice.CRM.Services.Product.ExtraField2
+  id: ExtraField2
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: ExtraField2
+  nameWithType: Product.ExtraField2
+  fullName: SuperOffice.CRM.Services.Product.ExtraField2
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display. \n"
+  syntax:
+    content: public virtual string ExtraField2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraField2 As String
+  overload: SuperOffice.CRM.Services.Product.ExtraField2*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.ExtraField3
+  commentId: P:SuperOffice.CRM.Services.Product.ExtraField3
+  id: ExtraField3
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: ExtraField3
+  nameWithType: Product.ExtraField3
+  fullName: SuperOffice.CRM.Services.Product.ExtraField3
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display. \n"
+  syntax:
+    content: public virtual string ExtraField3 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraField3 As String
+  overload: SuperOffice.CRM.Services.Product.ExtraField3*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.ExtraField4
+  commentId: P:SuperOffice.CRM.Services.Product.ExtraField4
+  id: ExtraField4
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: ExtraField4
+  nameWithType: Product.ExtraField4
+  fullName: SuperOffice.CRM.Services.Product.ExtraField4
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display. \n"
+  syntax:
+    content: public virtual string ExtraField4 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraField4 As String
+  overload: SuperOffice.CRM.Services.Product.ExtraField4*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.ExtraField5
+  commentId: P:SuperOffice.CRM.Services.Product.ExtraField5
+  id: ExtraField5
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: ExtraField5
+  nameWithType: Product.ExtraField5
+  fullName: SuperOffice.CRM.Services.Product.ExtraField5
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display. \n"
+  syntax:
+    content: public virtual string ExtraField5 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraField5 As String
+  overload: SuperOffice.CRM.Services.Product.ExtraField5*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Product.InStock
+  commentId: P:SuperOffice.CRM.Services.Product.InStock
+  id: InStock
+  parent: SuperOffice.CRM.Services.Product
+  langs:
+  - csharp
+  - vb
+  name: InStock
+  nameWithType: Product.InStock
+  fullName: SuperOffice.CRM.Services.Product.InStock
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNegative numbers will be interpreted as how many is ordered. Might not be available. \n"
+  syntax:
+    content: public virtual double InStock { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property InStock As Double
+  overload: SuperOffice.CRM.Services.Product.InStock*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.QuoteAgent
+  commentId: T:SuperOffice.CRM.Services.QuoteAgent
+  isExternal: true
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.CRM.Services.QuoteAgent
+- uid: SuperOffice.CRM.Services.IQuoteAgent
+  commentId: T:SuperOffice.CRM.Services.IQuoteAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IQuoteAgent
+  nameWithType: IQuoteAgent
+  fullName: SuperOffice.CRM.Services.IQuoteAgent
+- uid: SuperOffice.CRM.Services.ArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.CRM.Services.ArchiveAgent
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  isExternal: true
+  name: GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
+  nameWithType: IArchiveAgent.GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    name: GetArchiveListByColumns2
+    nameWithType: IArchiveAgent.GetArchiveListByColumns2
+    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    name: GetArchiveListByColumns2
+    nameWithType: IArchiveAgent.GetArchiveListByColumns2
+    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.IArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.IArchiveAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IArchiveAgent
+  nameWithType: IArchiveAgent
+  fullName: SuperOffice.CRM.Services.IArchiveAgent
+- uid: SuperOffice.CRM.Services.Product.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.Product.#ctor
+  isExternal: true
+  name: Product
+  nameWithType: Product.Product
+  fullName: SuperOffice.CRM.Services.Product.Product
+- uid: SuperOffice.CRM.Services.Product.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.Product.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: Product.ToString
+  fullName: SuperOffice.CRM.Services.Product.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.Product.ProductId*
+  commentId: Overload:SuperOffice.CRM.Services.Product.ProductId
+  isExternal: true
+  name: ProductId
+  nameWithType: Product.ProductId
+  fullName: SuperOffice.CRM.Services.Product.ProductId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.Product.ERPProductKey*
+  commentId: Overload:SuperOffice.CRM.Services.Product.ERPProductKey
+  isExternal: true
+  name: ERPProductKey
+  nameWithType: Product.ERPProductKey
+  fullName: SuperOffice.CRM.Services.Product.ERPProductKey
+- uid: SuperOffice.CRM.Services.Product.ERPPriceListKey*
+  commentId: Overload:SuperOffice.CRM.Services.Product.ERPPriceListKey
+  isExternal: true
+  name: ERPPriceListKey
+  nameWithType: Product.ERPPriceListKey
+  fullName: SuperOffice.CRM.Services.Product.ERPPriceListKey
+- uid: SuperOffice.CRM.Services.Product.Name*
+  commentId: Overload:SuperOffice.CRM.Services.Product.Name
+  isExternal: true
+  name: Name
+  nameWithType: Product.Name
+  fullName: SuperOffice.CRM.Services.Product.Name
+- uid: SuperOffice.CRM.Services.Product.Description*
+  commentId: Overload:SuperOffice.CRM.Services.Product.Description
+  isExternal: true
+  name: Description
+  nameWithType: Product.Description
+  fullName: SuperOffice.CRM.Services.Product.Description
+- uid: SuperOffice.CRM.Services.Product.Code*
+  commentId: Overload:SuperOffice.CRM.Services.Product.Code
+  isExternal: true
+  name: Code
+  nameWithType: Product.Code
+  fullName: SuperOffice.CRM.Services.Product.Code
+- uid: SuperOffice.CRM.Services.Product.PriceUnit*
+  commentId: Overload:SuperOffice.CRM.Services.Product.PriceUnit
+  isExternal: true
+  name: PriceUnit
+  nameWithType: Product.PriceUnit
+  fullName: SuperOffice.CRM.Services.Product.PriceUnit
+- uid: SuperOffice.CRM.Services.Product.QuantityUnit*
+  commentId: Overload:SuperOffice.CRM.Services.Product.QuantityUnit
+  isExternal: true
+  name: QuantityUnit
+  nameWithType: Product.QuantityUnit
+  fullName: SuperOffice.CRM.Services.Product.QuantityUnit
+- uid: SuperOffice.CRM.Services.Product.IsSubscription*
+  commentId: Overload:SuperOffice.CRM.Services.Product.IsSubscription
+  isExternal: true
+  name: IsSubscription
+  nameWithType: Product.IsSubscription
+  fullName: SuperOffice.CRM.Services.Product.IsSubscription
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.Product.SubscriptionUnit*
+  commentId: Overload:SuperOffice.CRM.Services.Product.SubscriptionUnit
+  isExternal: true
+  name: SubscriptionUnit
+  nameWithType: Product.SubscriptionUnit
+  fullName: SuperOffice.CRM.Services.Product.SubscriptionUnit
+- uid: SuperOffice.CRM.Services.Product.DefaultSubscriptionQuantity*
+  commentId: Overload:SuperOffice.CRM.Services.Product.DefaultSubscriptionQuantity
+  isExternal: true
+  name: DefaultSubscriptionQuantity
+  nameWithType: Product.DefaultSubscriptionQuantity
+  fullName: SuperOffice.CRM.Services.Product.DefaultSubscriptionQuantity
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.CRM.Services.Product.ItemNumber*
+  commentId: Overload:SuperOffice.CRM.Services.Product.ItemNumber
+  isExternal: true
+  name: ItemNumber
+  nameWithType: Product.ItemNumber
+  fullName: SuperOffice.CRM.Services.Product.ItemNumber
+- uid: SuperOffice.CRM.Services.Product.Url*
+  commentId: Overload:SuperOffice.CRM.Services.Product.Url
+  isExternal: true
+  name: Url
+  nameWithType: Product.Url
+  fullName: SuperOffice.CRM.Services.Product.Url
+- uid: SuperOffice.CRM.Services.Product.ProductCategoryKey*
+  commentId: Overload:SuperOffice.CRM.Services.Product.ProductCategoryKey
+  isExternal: true
+  name: ProductCategoryKey
+  nameWithType: Product.ProductCategoryKey
+  fullName: SuperOffice.CRM.Services.Product.ProductCategoryKey
+- uid: SuperOffice.CRM.Services.Product.ProductFamilyKey*
+  commentId: Overload:SuperOffice.CRM.Services.Product.ProductFamilyKey
+  isExternal: true
+  name: ProductFamilyKey
+  nameWithType: Product.ProductFamilyKey
+  fullName: SuperOffice.CRM.Services.Product.ProductFamilyKey
+- uid: SuperOffice.CRM.Services.Product.ProductTypeKey*
+  commentId: Overload:SuperOffice.CRM.Services.Product.ProductTypeKey
+  isExternal: true
+  name: ProductTypeKey
+  nameWithType: Product.ProductTypeKey
+  fullName: SuperOffice.CRM.Services.Product.ProductTypeKey
+- uid: SuperOffice.CRM.Services.Product.VAT*
+  commentId: Overload:SuperOffice.CRM.Services.Product.VAT
+  isExternal: true
+  name: VAT
+  nameWithType: Product.VAT
+  fullName: SuperOffice.CRM.Services.Product.VAT
+- uid: SuperOffice.CRM.Services.Product.VATInfo*
+  commentId: Overload:SuperOffice.CRM.Services.Product.VATInfo
+  isExternal: true
+  name: VATInfo
+  nameWithType: Product.VATInfo
+  fullName: SuperOffice.CRM.Services.Product.VATInfo
+- uid: SuperOffice.CRM.Services.Product.UnitCost*
+  commentId: Overload:SuperOffice.CRM.Services.Product.UnitCost
+  isExternal: true
+  name: UnitCost
+  nameWithType: Product.UnitCost
+  fullName: SuperOffice.CRM.Services.Product.UnitCost
+- uid: SuperOffice.CRM.Services.Product.UnitMinimumPrice*
+  commentId: Overload:SuperOffice.CRM.Services.Product.UnitMinimumPrice
+  isExternal: true
+  name: UnitMinimumPrice
+  nameWithType: Product.UnitMinimumPrice
+  fullName: SuperOffice.CRM.Services.Product.UnitMinimumPrice
+- uid: SuperOffice.CRM.Services.Product.UnitListPrice*
+  commentId: Overload:SuperOffice.CRM.Services.Product.UnitListPrice
+  isExternal: true
+  name: UnitListPrice
+  nameWithType: Product.UnitListPrice
+  fullName: SuperOffice.CRM.Services.Product.UnitListPrice
+- uid: SuperOffice.CRM.Services.Product.InAssortment*
+  commentId: Overload:SuperOffice.CRM.Services.Product.InAssortment
+  isExternal: true
+  name: InAssortment
+  nameWithType: Product.InAssortment
+  fullName: SuperOffice.CRM.Services.Product.InAssortment
+- uid: SuperOffice.CRM.Services.Product.Supplier*
+  commentId: Overload:SuperOffice.CRM.Services.Product.Supplier
+  isExternal: true
+  name: Supplier
+  nameWithType: Product.Supplier
+  fullName: SuperOffice.CRM.Services.Product.Supplier
+- uid: SuperOffice.CRM.Services.Product.SupplierCode*
+  commentId: Overload:SuperOffice.CRM.Services.Product.SupplierCode
+  isExternal: true
+  name: SupplierCode
+  nameWithType: Product.SupplierCode
+  fullName: SuperOffice.CRM.Services.Product.SupplierCode
+- uid: SuperOffice.CRM.Services.Product.Rights*
+  commentId: Overload:SuperOffice.CRM.Services.Product.Rights
+  isExternal: true
+  name: Rights
+  nameWithType: Product.Rights
+  fullName: SuperOffice.CRM.Services.Product.Rights
+- uid: SuperOffice.CRM.Services.Product.Rule*
+  commentId: Overload:SuperOffice.CRM.Services.Product.Rule
+  isExternal: true
+  name: Rule
+  nameWithType: Product.Rule
+  fullName: SuperOffice.CRM.Services.Product.Rule
+- uid: SuperOffice.CRM.Services.Product.ExtraInfo*
+  commentId: Overload:SuperOffice.CRM.Services.Product.ExtraInfo
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: Product.ExtraInfo
+  fullName: SuperOffice.CRM.Services.Product.ExtraInfo
+- uid: SuperOffice.CRM.Services.ProductExtraDataField[]
+  isExternal: true
+  name: ProductExtraDataField[]
+  nameWithType: ProductExtraDataField[]
+  fullName: SuperOffice.CRM.Services.ProductExtraDataField[]
+  nameWithType.vb: ProductExtraDataField()
+  fullName.vb: SuperOffice.CRM.Services.ProductExtraDataField()
+  name.vb: ProductExtraDataField()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ProductExtraDataField
+    name: ProductExtraDataField
+    nameWithType: ProductExtraDataField
+    fullName: SuperOffice.CRM.Services.ProductExtraDataField
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ProductExtraDataField
+    name: ProductExtraDataField
+    nameWithType: ProductExtraDataField
+    fullName: SuperOffice.CRM.Services.ProductExtraDataField
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.Product.RawExtraInfo*
+  commentId: Overload:SuperOffice.CRM.Services.Product.RawExtraInfo
+  isExternal: true
+  name: RawExtraInfo
+  nameWithType: Product.RawExtraInfo
+  fullName: SuperOffice.CRM.Services.Product.RawExtraInfo
+- uid: SuperOffice.CRM.Services.Product.ExtraField1*
+  commentId: Overload:SuperOffice.CRM.Services.Product.ExtraField1
+  isExternal: true
+  name: ExtraField1
+  nameWithType: Product.ExtraField1
+  fullName: SuperOffice.CRM.Services.Product.ExtraField1
+- uid: SuperOffice.CRM.Services.Product.ExtraField2*
+  commentId: Overload:SuperOffice.CRM.Services.Product.ExtraField2
+  isExternal: true
+  name: ExtraField2
+  nameWithType: Product.ExtraField2
+  fullName: SuperOffice.CRM.Services.Product.ExtraField2
+- uid: SuperOffice.CRM.Services.Product.ExtraField3*
+  commentId: Overload:SuperOffice.CRM.Services.Product.ExtraField3
+  isExternal: true
+  name: ExtraField3
+  nameWithType: Product.ExtraField3
+  fullName: SuperOffice.CRM.Services.Product.ExtraField3
+- uid: SuperOffice.CRM.Services.Product.ExtraField4*
+  commentId: Overload:SuperOffice.CRM.Services.Product.ExtraField4
+  isExternal: true
+  name: ExtraField4
+  nameWithType: Product.ExtraField4
+  fullName: SuperOffice.CRM.Services.Product.ExtraField4
+- uid: SuperOffice.CRM.Services.Product.ExtraField5*
+  commentId: Overload:SuperOffice.CRM.Services.Product.ExtraField5
+  isExternal: true
+  name: ExtraField5
+  nameWithType: Product.ExtraField5
+  fullName: SuperOffice.CRM.Services.Product.ExtraField5
+- uid: SuperOffice.CRM.Services.Product.InStock*
+  commentId: Overload:SuperOffice.CRM.Services.Product.InStock
+  isExternal: true
+  name: InStock
+  nameWithType: Product.InStock
+  fullName: SuperOffice.CRM.Services.Product.InStock

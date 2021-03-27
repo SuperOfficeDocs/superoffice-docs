@@ -1,0 +1,232 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Controls.SoButton
+  commentId: T:SuperOffice.Web.UI.Controls.SoButton
+  id: SoButton
+  parent: SuperOffice.Web.UI.Controls
+  children:
+  - SuperOffice.Web.UI.Controls.SoButton.#ctor
+  - SuperOffice.Web.UI.Controls.SoButton.LightweightRender
+  - SuperOffice.Web.UI.Controls.SoButton.MinWidth
+  - SuperOffice.Web.UI.Controls.SoButton.Render(System.Web.UI.HtmlTextWriter)
+  langs:
+  - csharp
+  - vb
+  name: SoButton
+  nameWithType: SoButton
+  fullName: SuperOffice.Web.UI.Controls.SoButton
+  type: Class
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: >-
+      [Obsolete("Use SoInputButton")]
+
+      public class SoButton : Button, INamingContainer
+    content.vb: >-
+      <Obsolete("Use SoInputButton")>
+
+      Public Class SoButton
+          Inherits Button
+          Implements INamingContainer
+  inheritance:
+  - System.Object
+  implements:
+  - System.Web.UI.INamingContainer
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use SoInputButton
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.UI.Controls.SoButton.#ctor
+  commentId: M:SuperOffice.Web.UI.Controls.SoButton.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.UI.Controls.SoButton
+  langs:
+  - csharp
+  - vb
+  name: SoButton()
+  nameWithType: SoButton.SoButton()
+  fullName: SuperOffice.Web.UI.Controls.SoButton.SoButton()
+  type: Constructor
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public SoButton()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.UI.Controls.SoButton.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoButton.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoButton.Render(System.Web.UI.HtmlTextWriter)
+  id: Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoButton
+  langs:
+  - csharp
+  - vb
+  name: Render(HtmlTextWriter)
+  nameWithType: SoButton.Render(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoButton.Render(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected override void Render(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overrides Sub Render(writer As HtmlTextWriter)
+  overload: SuperOffice.Web.UI.Controls.SoButton.Render*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.Web.UI.Controls.SoButton.MinWidth
+  commentId: P:SuperOffice.Web.UI.Controls.SoButton.MinWidth
+  id: MinWidth
+  parent: SuperOffice.Web.UI.Controls.SoButton
+  langs:
+  - csharp
+  - vb
+  name: MinWidth
+  nameWithType: SoButton.MinWidth
+  fullName: SuperOffice.Web.UI.Controls.SoButton.MinWidth
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public Unit MinWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Web.UI.WebControls.Unit
+    content.vb: Public Property MinWidth As Unit
+  overload: SuperOffice.Web.UI.Controls.SoButton.MinWidth*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoButton.LightweightRender
+  commentId: P:SuperOffice.Web.UI.Controls.SoButton.LightweightRender
+  id: LightweightRender
+  parent: SuperOffice.Web.UI.Controls.SoButton
+  langs:
+  - csharp
+  - vb
+  name: LightweightRender
+  nameWithType: SoButton.LightweightRender
+  fullName: SuperOffice.Web.UI.Controls.SoButton.LightweightRender
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public bool LightweightRender { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property LightweightRender As Boolean
+  overload: SuperOffice.Web.UI.Controls.SoButton.LightweightRender*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Web.UI.Controls
+  commentId: N:SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.Web.UI.Controls
+  nameWithType: SuperOffice.Web.UI.Controls
+  fullName: SuperOffice.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.UI.INamingContainer
+  isExternal: true
+  name: INamingContainer
+  nameWithType: INamingContainer
+  fullName: System.Web.UI.INamingContainer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.UI.Controls.SoButton.#ctor*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoButton.#ctor
+  isExternal: true
+  name: SoButton
+  nameWithType: SoButton.SoButton
+  fullName: SuperOffice.Web.UI.Controls.SoButton.SoButton
+- uid: SuperOffice.Web.UI.Controls.SoButton.Render*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoButton.Render
+  isExternal: true
+  name: Render
+  nameWithType: SoButton.Render
+  fullName: SuperOffice.Web.UI.Controls.SoButton.Render
+- uid: System.Web.UI.HtmlTextWriter
+  isExternal: true
+  name: HtmlTextWriter
+  nameWithType: HtmlTextWriter
+  fullName: System.Web.UI.HtmlTextWriter
+- uid: SuperOffice.Web.UI.Controls.SoButton.MinWidth*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoButton.MinWidth
+  isExternal: true
+  name: MinWidth
+  nameWithType: SoButton.MinWidth
+  fullName: SuperOffice.Web.UI.Controls.SoButton.MinWidth
+- uid: System.Web.UI.WebControls.Unit
+  isExternal: true
+  name: Unit
+  nameWithType: Unit
+  fullName: System.Web.UI.WebControls.Unit
+- uid: SuperOffice.Web.UI.Controls.SoButton.LightweightRender*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoButton.LightweightRender
+  isExternal: true
+  name: LightweightRender
+  nameWithType: SoButton.LightweightRender
+  fullName: SuperOffice.Web.UI.Controls.SoButton.LightweightRender
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

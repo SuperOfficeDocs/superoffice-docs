@@ -1,0 +1,707 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField
+  commentId: T:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField
+  id: ConfigurationAttributes.ControlElements.Config.TextField
+  parent: SuperOffice.DCF.Configuration
+  children:
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Alphanumeric
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Center
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Float
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Integer
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Left
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Mask
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.MaxLength
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Money
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Right
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Rows
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.TextAlign
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Type
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationAttributes.ControlElements.Config.TextField
+  nameWithType: ConfigurationAttributes.ControlElements.Config.TextField
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public static class TextField
+    content.vb: Public Module TextField
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Type
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Type
+  id: Type
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: ConfigurationAttributes.ControlElements.Config.TextField.Type
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Type
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Type = "type"
+    return:
+      type: System.String
+    content.vb: Public Const Type As String = "type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Mask
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Mask
+  id: Mask
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField
+  langs:
+  - csharp
+  - vb
+  name: Mask
+  nameWithType: ConfigurationAttributes.ControlElements.Config.TextField.Mask
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Mask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Mask = "mask"
+    return:
+      type: System.String
+    content.vb: Public Const Mask As String = "mask"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.MaxLength
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.MaxLength
+  id: MaxLength
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField
+  langs:
+  - csharp
+  - vb
+  name: MaxLength
+  nameWithType: ConfigurationAttributes.ControlElements.Config.TextField.MaxLength
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.MaxLength
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string MaxLength = "max-length"
+    return:
+      type: System.String
+    content.vb: Public Const MaxLength As String = "max-length"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Rows
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Rows
+  id: Rows
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField
+  langs:
+  - csharp
+  - vb
+  name: Rows
+  nameWithType: ConfigurationAttributes.ControlElements.Config.TextField.Rows
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Rows
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Rows = "rows"
+    return:
+      type: System.String
+    content.vb: Public Const Rows As String = "rows"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.TextAlign
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.TextAlign
+  id: TextAlign
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField
+  langs:
+  - csharp
+  - vb
+  name: TextAlign
+  nameWithType: ConfigurationAttributes.ControlElements.Config.TextField.TextAlign
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.TextAlign
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string TextAlign = "text-align"
+    return:
+      type: System.String
+    content.vb: Public Const TextAlign As String = "text-align"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Left
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Left
+  id: Left
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: ConfigurationAttributes.ControlElements.Config.TextField.Left
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Left
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Left = "left"
+    return:
+      type: System.String
+    content.vb: Public Const Left As String = "left"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Right
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Right
+  id: Right
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: ConfigurationAttributes.ControlElements.Config.TextField.Right
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Right
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Right = "right"
+    return:
+      type: System.String
+    content.vb: Public Const Right As String = "right"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Center
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Center
+  id: Center
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField
+  langs:
+  - csharp
+  - vb
+  name: Center
+  nameWithType: ConfigurationAttributes.ControlElements.Config.TextField.Center
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Center
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Center = "center"
+    return:
+      type: System.String
+    content.vb: Public Const Center As String = "center"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Alphanumeric
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Alphanumeric
+  id: Alphanumeric
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField
+  langs:
+  - csharp
+  - vb
+  name: Alphanumeric
+  nameWithType: ConfigurationAttributes.ControlElements.Config.TextField.Alphanumeric
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Alphanumeric
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Alphanumeric = "alphanumeric"
+    return:
+      type: System.String
+    content.vb: Public Const Alphanumeric As String = "alphanumeric"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Integer
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Integer
+  id: Integer
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField
+  langs:
+  - csharp
+  - vb
+  name: Integer
+  nameWithType: ConfigurationAttributes.ControlElements.Config.TextField.Integer
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Integer
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Integer = "integer"
+    return:
+      type: System.String
+    content.vb: Public Const Integer As String = "integer"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Float
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Float
+  id: Float
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField
+  langs:
+  - csharp
+  - vb
+  name: Float
+  nameWithType: ConfigurationAttributes.ControlElements.Config.TextField.Float
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Float
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Float = "float"
+    return:
+      type: System.String
+    content.vb: Public Const Float As String = "float"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Money
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Money
+  id: Money
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField
+  langs:
+  - csharp
+  - vb
+  name: Money
+  nameWithType: ConfigurationAttributes.ControlElements.Config.TextField.Money
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlElements.Config.TextField.Money
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Money = "money"
+    return:
+      type: System.String
+    content.vb: Public Const Money As String = "money"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.DCF.Configuration
+  commentId: N:SuperOffice.DCF.Configuration
+  isExternal: true
+  name: SuperOffice.DCF.Configuration
+  nameWithType: SuperOffice.DCF.Configuration
+  fullName: SuperOffice.DCF.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

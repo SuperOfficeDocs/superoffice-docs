@@ -1,0 +1,656 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.ReportLayout
+  commentId: T:SuperOffice.Data.ReportLayout
+  id: ReportLayout
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.ReportLayout.CalendarMonth
+  - SuperOffice.Data.ReportLayout.CalendarWeek5
+  - SuperOffice.Data.ReportLayout.CalendarWeek7
+  - SuperOffice.Data.ReportLayout.CrossTable
+  - SuperOffice.Data.ReportLayout.GroupList
+  - SuperOffice.Data.ReportLayout.Label
+  - SuperOffice.Data.ReportLayout.List
+  - SuperOffice.Data.ReportLayout.Text
+  - SuperOffice.Data.ReportLayout.Unknown
+  langs:
+  - csharp
+  - vb
+  name: ReportLayout
+  nameWithType: ReportLayout
+  fullName: SuperOffice.Data.ReportLayout
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n\n"
+  syntax:
+    content: public enum ReportLayout
+    content.vb: Public Enum ReportLayout
+  extensionMethods:
+  - SuperOffice.Data.ReportLayout.EnumUtil.MapEnums``2
+  - SuperOffice.Data.ReportLayout.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ReportLayout)
+  - SuperOffice.Data.ReportLayout.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.ReportLayout.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.ReportLayout.Unknown
+  commentId: F:SuperOffice.Data.ReportLayout.Unknown
+  id: Unknown
+  parent: SuperOffice.Data.ReportLayout
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: ReportLayout.Unknown
+  fullName: SuperOffice.Data.ReportLayout.Unknown
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: \n"
+  syntax:
+    content: Unknown = 0
+    return:
+      type: SuperOffice.Data.ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReportLayout.List
+  commentId: F:SuperOffice.Data.ReportLayout.List
+  id: List
+  parent: SuperOffice.Data.ReportLayout
+  langs:
+  - csharp
+  - vb
+  name: List
+  nameWithType: ReportLayout.List
+  fullName: SuperOffice.Data.ReportLayout.List
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: \n"
+  syntax:
+    content: List = 1
+    return:
+      type: SuperOffice.Data.ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReportLayout.Label
+  commentId: F:SuperOffice.Data.ReportLayout.Label
+  id: Label
+  parent: SuperOffice.Data.ReportLayout
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: ReportLayout.Label
+  fullName: SuperOffice.Data.ReportLayout.Label
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: \n"
+  syntax:
+    content: Label = 2
+    return:
+      type: SuperOffice.Data.ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReportLayout.GroupList
+  commentId: F:SuperOffice.Data.ReportLayout.GroupList
+  id: GroupList
+  parent: SuperOffice.Data.ReportLayout
+  langs:
+  - csharp
+  - vb
+  name: GroupList
+  nameWithType: ReportLayout.GroupList
+  fullName: SuperOffice.Data.ReportLayout.GroupList
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n3: \n"
+  syntax:
+    content: GroupList = 3
+    return:
+      type: SuperOffice.Data.ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReportLayout.CrossTable
+  commentId: F:SuperOffice.Data.ReportLayout.CrossTable
+  id: CrossTable
+  parent: SuperOffice.Data.ReportLayout
+  langs:
+  - csharp
+  - vb
+  name: CrossTable
+  nameWithType: ReportLayout.CrossTable
+  fullName: SuperOffice.Data.ReportLayout.CrossTable
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4: \n"
+  syntax:
+    content: CrossTable = 4
+    return:
+      type: SuperOffice.Data.ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReportLayout.CalendarWeek5
+  commentId: F:SuperOffice.Data.ReportLayout.CalendarWeek5
+  id: CalendarWeek5
+  parent: SuperOffice.Data.ReportLayout
+  langs:
+  - csharp
+  - vb
+  name: CalendarWeek5
+  nameWithType: ReportLayout.CalendarWeek5
+  fullName: SuperOffice.Data.ReportLayout.CalendarWeek5
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n5: \n"
+  syntax:
+    content: CalendarWeek5 = 5
+    return:
+      type: SuperOffice.Data.ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReportLayout.CalendarWeek7
+  commentId: F:SuperOffice.Data.ReportLayout.CalendarWeek7
+  id: CalendarWeek7
+  parent: SuperOffice.Data.ReportLayout
+  langs:
+  - csharp
+  - vb
+  name: CalendarWeek7
+  nameWithType: ReportLayout.CalendarWeek7
+  fullName: SuperOffice.Data.ReportLayout.CalendarWeek7
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n6: \n"
+  syntax:
+    content: CalendarWeek7 = 6
+    return:
+      type: SuperOffice.Data.ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReportLayout.CalendarMonth
+  commentId: F:SuperOffice.Data.ReportLayout.CalendarMonth
+  id: CalendarMonth
+  parent: SuperOffice.Data.ReportLayout
+  langs:
+  - csharp
+  - vb
+  name: CalendarMonth
+  nameWithType: ReportLayout.CalendarMonth
+  fullName: SuperOffice.Data.ReportLayout.CalendarMonth
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n7: \n"
+  syntax:
+    content: CalendarMonth = 7
+    return:
+      type: SuperOffice.Data.ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ReportLayout.Text
+  commentId: F:SuperOffice.Data.ReportLayout.Text
+  id: Text
+  parent: SuperOffice.Data.ReportLayout
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: ReportLayout.Text
+  fullName: SuperOffice.Data.ReportLayout.Text
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n8: \n"
+  syntax:
+    content: Text = 8
+    return:
+      type: SuperOffice.Data.ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.ReportLayout.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ReportLayout, To>()
+  nameWithType: EnumUtil.MapEnums<ReportLayout, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ReportLayout, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ReportLayout, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ReportLayout, To)()
+  name.vb: MapEnums(Of ReportLayout, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ReportLayout, To>
+    nameWithType: EnumUtil.MapEnums<ReportLayout, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ReportLayout, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ReportLayout, To)
+    nameWithType: EnumUtil.MapEnums(Of ReportLayout, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ReportLayout, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ReportLayout.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ReportLayout)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ReportLayout>(ReportLayout)
+  nameWithType: ObjectExtensions.AssignByReflection<ReportLayout>(ReportLayout)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ReportLayout>(SuperOffice.Data.ReportLayout)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ReportLayout)(ReportLayout)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ReportLayout)(SuperOffice.Data.ReportLayout)
+  name.vb: AssignByReflection(Of ReportLayout)(ReportLayout)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ReportLayout>
+    nameWithType: ObjectExtensions.AssignByReflection<ReportLayout>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ReportLayout>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.ReportLayout
+    name: ReportLayout
+    nameWithType: ReportLayout
+    fullName: SuperOffice.Data.ReportLayout
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ReportLayout)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ReportLayout)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ReportLayout)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.ReportLayout
+    name: ReportLayout
+    nameWithType: ReportLayout
+    fullName: SuperOffice.Data.ReportLayout
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ReportLayout.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ReportLayout>()
+  nameWithType: ObjectExtensions.GraphCopy<ReportLayout>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ReportLayout>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ReportLayout)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ReportLayout)()
+  name.vb: GraphCopy(Of ReportLayout)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ReportLayout>
+    nameWithType: ObjectExtensions.GraphCopy<ReportLayout>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ReportLayout>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ReportLayout)
+    nameWithType: ObjectExtensions.GraphCopy(Of ReportLayout)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ReportLayout)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ReportLayout.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ReportLayout, To>()
+  nameWithType: Converters.MapEnums<ReportLayout, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ReportLayout, To>()
+  nameWithType.vb: Converters.MapEnums(Of ReportLayout, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ReportLayout, To)()
+  name.vb: MapEnums(Of ReportLayout, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ReportLayout, To>
+    nameWithType: Converters.MapEnums<ReportLayout, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ReportLayout, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ReportLayout, To)
+    nameWithType: Converters.MapEnums(Of ReportLayout, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ReportLayout, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.ReportLayout
+  commentId: T:SuperOffice.Data.ReportLayout
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ReportLayout
+  nameWithType: ReportLayout
+  fullName: SuperOffice.Data.ReportLayout

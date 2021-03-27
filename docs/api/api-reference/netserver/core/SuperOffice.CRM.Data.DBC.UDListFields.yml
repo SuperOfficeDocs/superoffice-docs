@@ -1,0 +1,677 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.UDListFields
+  commentId: T:SuperOffice.CRM.Data.DBC.UDListFields
+  id: DBC.UDListFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.UDListFields.Deleted
+  - SuperOffice.CRM.Data.DBC.UDListFields.Name
+  - SuperOffice.CRM.Data.DBC.UDListFields.Rank
+  - SuperOffice.CRM.Data.DBC.UDListFields.Registered
+  - SuperOffice.CRM.Data.DBC.UDListFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.UDListFields.Tooltip
+  - SuperOffice.CRM.Data.DBC.UDListFields.UDListDefinitionId
+  - SuperOffice.CRM.Data.DBC.UDListFields.UDListId
+  - SuperOffice.CRM.Data.DBC.UDListFields.Updated
+  - SuperOffice.CRM.Data.DBC.UDListFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.UDListFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.UDListFields
+  nameWithType: DBC.UDListFields
+  fullName: SuperOffice.CRM.Data.DBC.UDListFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for UDList, List table for user-defined lists, contains all user-defined lists. Note - MDO mode for userdefinede lists are either turned on or off, you may not have it on for one userdefined list and off for the others.\n"
+  syntax:
+    content: public static class UDListFields
+    content.vb: Public Module UDListFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.UDListFields.UDListId
+  commentId: F:SuperOffice.CRM.Data.DBC.UDListFields.UDListId
+  id: UDListId
+  parent: SuperOffice.CRM.Data.DBC.UDListFields
+  langs:
+  - csharp
+  - vb
+  name: UDListId
+  nameWithType: DBC.UDListFields.UDListId
+  fullName: SuperOffice.CRM.Data.DBC.UDListFields.UDListId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDList.UDListId: Primary key\n"
+  syntax:
+    content: public const string UDListId = "UDList_id"
+    return:
+      type: System.String
+    content.vb: Public Const UDListId As String = "UDList_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDListFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.UDListFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.UDListFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.UDListFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.UDListFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDList.Name: The list item\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDListFields.Rank
+  commentId: F:SuperOffice.CRM.Data.DBC.UDListFields.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Data.DBC.UDListFields
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DBC.UDListFields.Rank
+  fullName: SuperOffice.CRM.Data.DBC.UDListFields.Rank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDList.Rank: Rank order \n"
+  syntax:
+    content: public const string Rank = "rank"
+    return:
+      type: System.String
+    content.vb: Public Const Rank As String = "rank"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDListFields.Tooltip
+  commentId: F:SuperOffice.CRM.Data.DBC.UDListFields.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Data.DBC.UDListFields
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: DBC.UDListFields.Tooltip
+  fullName: SuperOffice.CRM.Data.DBC.UDListFields.Tooltip
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDList.Tooltip: Tooltip or other description\n"
+  syntax:
+    content: public const string Tooltip = "tooltip"
+    return:
+      type: System.String
+    content.vb: Public Const Tooltip As String = "tooltip"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDListFields.Deleted
+  commentId: F:SuperOffice.CRM.Data.DBC.UDListFields.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Data.DBC.UDListFields
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: DBC.UDListFields.Deleted
+  fullName: SuperOffice.CRM.Data.DBC.UDListFields.Deleted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDList.Deleted: 0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists\n"
+  syntax:
+    content: public const string Deleted = "deleted"
+    return:
+      type: System.String
+    content.vb: Public Const Deleted As String = "deleted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDListFields.UDListDefinitionId
+  commentId: F:SuperOffice.CRM.Data.DBC.UDListFields.UDListDefinitionId
+  id: UDListDefinitionId
+  parent: SuperOffice.CRM.Data.DBC.UDListFields
+  langs:
+  - csharp
+  - vb
+  name: UDListDefinitionId
+  nameWithType: DBC.UDListFields.UDListDefinitionId
+  fullName: SuperOffice.CRM.Data.DBC.UDListFields.UDListDefinitionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDList.UDListDefinitionId: List to use for populating dropdown or listbox\n"
+  syntax:
+    content: public const string UDListDefinitionId = "UDListDefinition_id"
+    return:
+      type: System.String
+    content.vb: Public Const UDListDefinitionId As String = "UDListDefinition_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDListFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.UDListFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.UDListFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.UDListFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.UDListFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDList.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDListFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.UDListFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.UDListFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.UDListFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.UDListFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDList.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDListFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.UDListFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.UDListFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.UDListFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.UDListFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDList.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDListFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.UDListFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.UDListFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.UDListFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.UDListFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDList.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDListFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.UDListFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.UDListFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.UDListFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.UDListFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDList.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

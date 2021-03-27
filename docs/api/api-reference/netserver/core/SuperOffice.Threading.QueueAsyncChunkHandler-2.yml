@@ -1,0 +1,1633 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Threading.QueueAsyncChunkHandler`2
+  commentId: T:SuperOffice.Threading.QueueAsyncChunkHandler`2
+  id: QueueAsyncChunkHandler`2
+  parent: SuperOffice.Threading
+  children:
+  - SuperOffice.Threading.QueueAsyncChunkHandler`2.#ctor
+  - SuperOffice.Threading.QueueAsyncChunkHandler`2.Enqueue(`0)
+  - SuperOffice.Threading.QueueAsyncChunkHandler`2.QueueLength
+  - SuperOffice.Threading.QueueAsyncChunkHandler`2.ScheduleNewWork
+  - SuperOffice.Threading.QueueAsyncChunkHandler`2.ThreadDelegate(SuperOffice.Threading.AsyncContext,System.Object)
+  langs:
+  - csharp
+  - vb
+  name: QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>
+  nameWithType: QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>
+  fullName: SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  summary: "\nOwner of the thread processing the queue on behalf of <see cref=\"!:AsyncChunkedProcessedQueue\"></see>.\n"
+  remarks: "\nThe handler is designed to be used with <see cref=\"!:AsyncChunkedProcessedQueue\"></see> and \nuses the <see cref=\"!:QueueAsyncChunkProcessor\"></see> to perform the actuall processing on \nthe queue.  All implementations need a default parameter-less constructor.\n"
+  syntax:
+    content: 'public class QueueAsyncChunkHandler<TWorkItem, TChunkProcessor> : AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>> where TChunkProcessor : QueueAsyncChunkProcessor<TWorkItem>, new()'
+    typeParameters:
+    - id: TWorkItem
+      description: The type that is in the queue
+    - id: TChunkProcessor
+      description: The processor that processes a chunk of the queue.
+    content.vb: >-
+      Public Class QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor As {QueueAsyncChunkProcessor(Of TWorkItem), New})
+          Inherits AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem))
+  inheritance:
+  - System.Object
+  - SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}
+  inheritedMembers:
+  - SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.ToString
+  - SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.OnSetup(System.Collections.Generic.Queue{{TWorkItem}})
+  - SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.SynchronousSetup(System.Collections.Generic.Queue{{TWorkItem}})
+  - SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.AsynchronousOperation
+  - SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.ScheduleNewWork
+  - SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.ExecuteWork
+  - SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.Processor
+  - SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.WasSetupCalled
+  - SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.HasWorkToDo
+  - SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.ThreadName
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Threading.QueueAsyncChunkHandler`2.EnumUtil.MapEnums``2
+  - SuperOffice.Threading.QueueAsyncChunkHandler`2.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Threading.QueueAsyncChunkHandler{{TWorkItem},{TChunkProcessor}})
+  - SuperOffice.Threading.QueueAsyncChunkHandler`2.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Threading.QueueAsyncChunkHandler`2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  nameWithType.vb: QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor)
+  name.vb: QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor)
+- uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.#ctor
+  commentId: M:SuperOffice.Threading.QueueAsyncChunkHandler`2.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Threading.QueueAsyncChunkHandler`2
+  langs:
+  - csharp
+  - vb
+  name: QueueAsyncChunkHandler()
+  nameWithType: QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.QueueAsyncChunkHandler()
+  fullName: SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.QueueAsyncChunkHandler()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public QueueAsyncChunkHandler()
+    content.vb: Public Sub New
+  overload: SuperOffice.Threading.QueueAsyncChunkHandler`2.#ctor*
+  nameWithType.vb: QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).QueueAsyncChunkHandler()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).QueueAsyncChunkHandler()
+- uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.ScheduleNewWork
+  commentId: M:SuperOffice.Threading.QueueAsyncChunkHandler`2.ScheduleNewWork
+  id: ScheduleNewWork
+  parent: SuperOffice.Threading.QueueAsyncChunkHandler`2
+  langs:
+  - csharp
+  - vb
+  name: ScheduleNewWork()
+  nameWithType: QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.ScheduleNewWork()
+  fullName: SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.ScheduleNewWork()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  summary: "\nStart the thread and start processing the chunk.\n"
+  syntax:
+    content: protected override void ScheduleNewWork()
+    content.vb: Protected Overrides Sub ScheduleNewWork
+  overridden: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.ScheduleNewWork
+  overload: SuperOffice.Threading.QueueAsyncChunkHandler`2.ScheduleNewWork*
+  nameWithType.vb: QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).ScheduleNewWork()
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+  fullName.vb: SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).ScheduleNewWork()
+- uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.ThreadDelegate(SuperOffice.Threading.AsyncContext,System.Object)
+  commentId: M:SuperOffice.Threading.QueueAsyncChunkHandler`2.ThreadDelegate(SuperOffice.Threading.AsyncContext,System.Object)
+  id: ThreadDelegate(SuperOffice.Threading.AsyncContext,System.Object)
+  parent: SuperOffice.Threading.QueueAsyncChunkHandler`2
+  langs:
+  - csharp
+  - vb
+  name: ThreadDelegate(AsyncContext, Object)
+  nameWithType: QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.ThreadDelegate(AsyncContext, Object)
+  fullName: SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.ThreadDelegate(SuperOffice.Threading.AsyncContext, System.Object)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  summary: "\nThe actual thread perform processing.\n"
+  syntax:
+    content: protected void ThreadDelegate(AsyncContext context, object argument)
+    parameters:
+    - id: context
+      type: SuperOffice.Threading.AsyncContext
+      description: Context of the thread.
+    - id: argument
+      type: System.Object
+      description: Unused empty argument.
+    content.vb: Protected Sub ThreadDelegate(context As AsyncContext, argument As Object)
+  overload: SuperOffice.Threading.QueueAsyncChunkHandler`2.ThreadDelegate*
+  nameWithType.vb: QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).ThreadDelegate(AsyncContext, Object)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).ThreadDelegate(SuperOffice.Threading.AsyncContext, System.Object)
+- uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.Enqueue(`0)
+  commentId: M:SuperOffice.Threading.QueueAsyncChunkHandler`2.Enqueue(`0)
+  id: Enqueue(`0)
+  parent: SuperOffice.Threading.QueueAsyncChunkHandler`2
+  langs:
+  - csharp
+  - vb
+  name: Enqueue(TWorkItem)
+  nameWithType: QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.Enqueue(TWorkItem)
+  fullName: SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.Enqueue(TWorkItem)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  summary: "\nAdd a work item to the queue for processing.\n"
+  syntax:
+    content: public bool Enqueue(TWorkItem workItem)
+    parameters:
+    - id: workItem
+      type: '{TWorkItem}'
+      description: The item to add to the queue for processing.
+    return:
+      type: System.Boolean
+      description: True if successfully added to the queue.  False if the chunk processor has completed processed its queue and has or is about to die.
+    content.vb: Public Function Enqueue(workItem As TWorkItem) As Boolean
+  overload: SuperOffice.Threading.QueueAsyncChunkHandler`2.Enqueue*
+  nameWithType.vb: QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).Enqueue(TWorkItem)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).Enqueue(TWorkItem)
+- uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.QueueLength
+  commentId: P:SuperOffice.Threading.QueueAsyncChunkHandler`2.QueueLength
+  id: QueueLength
+  parent: SuperOffice.Threading.QueueAsyncChunkHandler`2
+  langs:
+  - csharp
+  - vb
+  name: QueueLength
+  nameWithType: QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.QueueLength
+  fullName: SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.QueueLength
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  summary: "\nObtain the length of the queue\n"
+  syntax:
+    content: public int QueueLength { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property QueueLength As Integer
+  overload: SuperOffice.Threading.QueueAsyncChunkHandler`2.QueueLength*
+  nameWithType.vb: QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).QueueLength
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).QueueLength
+references:
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}
+  commentId: T:SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}
+  parent: SuperOffice.Threading
+  definition: SuperOffice.Threading.AsynchronousHandler`2
+  name: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>
+  nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>
+  fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>
+  nameWithType.vb: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem))
+  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem))
+  name.vb: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem))
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2
+    name: AsynchronousHandler
+    nameWithType: AsynchronousHandler
+    fullName: SuperOffice.Threading.AsynchronousHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TChunkProcessor
+    nameWithType: TChunkProcessor
+    fullName: TChunkProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Queue`1
+    name: Queue
+    nameWithType: Queue
+    fullName: System.Collections.Generic.Queue
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TWorkItem
+    nameWithType: TWorkItem
+    fullName: TWorkItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2
+    name: AsynchronousHandler
+    nameWithType: AsynchronousHandler
+    fullName: SuperOffice.Threading.AsynchronousHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TChunkProcessor
+    nameWithType: TChunkProcessor
+    fullName: TChunkProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Queue`1
+    name: Queue
+    nameWithType: Queue
+    fullName: System.Collections.Generic.Queue
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TWorkItem
+    nameWithType: TWorkItem
+    fullName: TWorkItem
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.ToString
+  commentId: M:SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.ToString
+  parent: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}
+  definition: SuperOffice.Threading.AsynchronousHandler`2.ToString
+  name: ToString()
+  nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.ToString()
+  fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.ToString()
+  nameWithType.vb: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).ToString()
+  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).ToString()
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ToString
+    name: ToString
+    nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.ToString
+    fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ToString
+    name: ToString
+    nameWithType: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).ToString
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.OnSetup(System.Collections.Generic.Queue{{TWorkItem}})
+  commentId: M:SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.OnSetup(System.Collections.Generic.Queue{`0})
+  parent: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}
+  definition: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
+  name: OnSetup(Queue<TWorkItem>)
+  nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.OnSetup(Queue<TWorkItem>)
+  fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.OnSetup(System.Collections.Generic.Queue<TWorkItem>)
+  nameWithType.vb: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).OnSetup(Queue(Of TWorkItem))
+  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).OnSetup(System.Collections.Generic.Queue(Of TWorkItem))
+  name.vb: OnSetup(Queue(Of TWorkItem))
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
+    name: OnSetup
+    nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.OnSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.OnSetup
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.Queue`1
+    name: Queue
+    nameWithType: Queue
+    fullName: System.Collections.Generic.Queue
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TWorkItem
+    nameWithType: TWorkItem
+    fullName: TWorkItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
+    name: OnSetup
+    nameWithType: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).OnSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).OnSetup
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.Queue`1
+    name: Queue
+    nameWithType: Queue
+    fullName: System.Collections.Generic.Queue
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TWorkItem
+    nameWithType: TWorkItem
+    fullName: TWorkItem
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.SynchronousSetup(System.Collections.Generic.Queue{{TWorkItem}})
+  commentId: M:SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.SynchronousSetup(System.Collections.Generic.Queue{`0})
+  parent: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}
+  definition: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
+  name: SynchronousSetup(Queue<TWorkItem>)
+  nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.SynchronousSetup(Queue<TWorkItem>)
+  fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.SynchronousSetup(System.Collections.Generic.Queue<TWorkItem>)
+  nameWithType.vb: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).SynchronousSetup(Queue(Of TWorkItem))
+  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).SynchronousSetup(System.Collections.Generic.Queue(Of TWorkItem))
+  name.vb: SynchronousSetup(Queue(Of TWorkItem))
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
+    name: SynchronousSetup
+    nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.SynchronousSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.SynchronousSetup
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.Queue`1
+    name: Queue
+    nameWithType: Queue
+    fullName: System.Collections.Generic.Queue
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TWorkItem
+    nameWithType: TWorkItem
+    fullName: TWorkItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
+    name: SynchronousSetup
+    nameWithType: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).SynchronousSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).SynchronousSetup
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.Queue`1
+    name: Queue
+    nameWithType: Queue
+    fullName: System.Collections.Generic.Queue
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TWorkItem
+    nameWithType: TWorkItem
+    fullName: TWorkItem
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.AsynchronousOperation
+  commentId: M:SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.AsynchronousOperation
+  parent: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}
+  definition: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
+  name: AsynchronousOperation()
+  nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.AsynchronousOperation()
+  fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.AsynchronousOperation()
+  nameWithType.vb: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).AsynchronousOperation()
+  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).AsynchronousOperation()
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
+    name: AsynchronousOperation
+    nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.AsynchronousOperation
+    fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.AsynchronousOperation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
+    name: AsynchronousOperation
+    nameWithType: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).AsynchronousOperation
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).AsynchronousOperation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.ScheduleNewWork
+  commentId: M:SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.ScheduleNewWork
+  parent: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}
+  definition: SuperOffice.Threading.AsynchronousHandler`2.ScheduleNewWork
+  name: ScheduleNewWork()
+  nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.ScheduleNewWork()
+  fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.ScheduleNewWork()
+  nameWithType.vb: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).ScheduleNewWork()
+  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).ScheduleNewWork()
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ScheduleNewWork
+    name: ScheduleNewWork
+    nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.ScheduleNewWork
+    fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.ScheduleNewWork
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ScheduleNewWork
+    name: ScheduleNewWork
+    nameWithType: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).ScheduleNewWork
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).ScheduleNewWork
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.ExecuteWork
+  commentId: M:SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.ExecuteWork
+  parent: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}
+  definition: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
+  name: ExecuteWork()
+  nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.ExecuteWork()
+  fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.ExecuteWork()
+  nameWithType.vb: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).ExecuteWork()
+  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).ExecuteWork()
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
+    name: ExecuteWork
+    nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.ExecuteWork
+    fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.ExecuteWork
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
+    name: ExecuteWork
+    nameWithType: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).ExecuteWork
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).ExecuteWork
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.Processor
+  commentId: P:SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.Processor
+  parent: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}
+  definition: SuperOffice.Threading.AsynchronousHandler`2.Processor
+  name: Processor
+  nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.Processor
+  fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.Processor
+  nameWithType.vb: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).Processor
+  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).Processor
+- uid: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.WasSetupCalled
+  commentId: P:SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.WasSetupCalled
+  parent: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}
+  definition: SuperOffice.Threading.AsynchronousHandler`2.WasSetupCalled
+  name: WasSetupCalled
+  nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.WasSetupCalled
+  fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.WasSetupCalled
+  nameWithType.vb: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).WasSetupCalled
+  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).WasSetupCalled
+- uid: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.HasWorkToDo
+  commentId: P:SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.HasWorkToDo
+  parent: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}
+  definition: SuperOffice.Threading.AsynchronousHandler`2.HasWorkToDo
+  name: HasWorkToDo
+  nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.HasWorkToDo
+  fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.HasWorkToDo
+  nameWithType.vb: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).HasWorkToDo
+  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).HasWorkToDo
+- uid: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.ThreadName
+  commentId: P:SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.ThreadName
+  parent: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}
+  definition: SuperOffice.Threading.AsynchronousHandler`2.ThreadName
+  name: ThreadName
+  nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.ThreadName
+  fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.ThreadName
+  nameWithType.vb: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).ThreadName
+  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).ThreadName
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>()
+  nameWithType: EnumUtil.MapEnums<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)()
+  name.vb: MapEnums(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>
+    nameWithType: EnumUtil.MapEnums<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)
+    nameWithType: EnumUtil.MapEnums(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Threading.QueueAsyncChunkHandler{{TWorkItem},{TChunkProcessor}})
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>(QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>)
+  nameWithType: ObjectExtensions.AssignByReflection<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>(QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>(SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))(QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))(SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
+  name.vb: AssignByReflection(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))(QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>
+    nameWithType: ObjectExtensions.AssignByReflection<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2
+    name: QueueAsyncChunkHandler
+    nameWithType: QueueAsyncChunkHandler
+    fullName: SuperOffice.Threading.QueueAsyncChunkHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TWorkItem
+    nameWithType: TWorkItem
+    fullName: TWorkItem
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TChunkProcessor
+    nameWithType: TChunkProcessor
+    fullName: TChunkProcessor
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
+    nameWithType: ObjectExtensions.AssignByReflection(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2
+    name: QueueAsyncChunkHandler
+    nameWithType: QueueAsyncChunkHandler
+    fullName: SuperOffice.Threading.QueueAsyncChunkHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TWorkItem
+    nameWithType: TWorkItem
+    fullName: TWorkItem
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TChunkProcessor
+    nameWithType: TChunkProcessor
+    fullName: TChunkProcessor
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>()
+  nameWithType: ObjectExtensions.GraphCopy<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))()
+  name.vb: GraphCopy(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>
+    nameWithType: ObjectExtensions.GraphCopy<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
+    nameWithType: ObjectExtensions.GraphCopy(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>()
+  nameWithType: Converters.MapEnums<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>()
+  nameWithType.vb: Converters.MapEnums(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)()
+  name.vb: MapEnums(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>
+    nameWithType: Converters.MapEnums<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)
+    nameWithType: Converters.MapEnums(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Threading.AsynchronousHandler`2
+  commentId: T:SuperOffice.Threading.AsynchronousHandler`2
+  isExternal: true
+  name: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
+  nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
+  fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
+  nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)
+  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)
+  name.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2
+    name: AsynchronousHandler
+    nameWithType: AsynchronousHandler
+    fullName: SuperOffice.Threading.AsynchronousHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAsynchronousHandlerProcessor
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2
+    name: AsynchronousHandler
+    nameWithType: AsynchronousHandler
+    fullName: SuperOffice.Threading.AsynchronousHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAsynchronousHandlerProcessor
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsynchronousHandler`2.ToString
+  commentId: M:SuperOffice.Threading.AsynchronousHandler`2.ToString
+  isExternal: true
+  name: ToString()
+  nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ToString()
+  fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ToString()
+  nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ToString()
+  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ToString()
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ToString
+    name: ToString
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ToString
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ToString
+    name: ToString
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ToString
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
+  commentId: M:SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
+  isExternal: true
+  name: OnSetup(TAsynchronousArgument)
+  nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup(TAsynchronousArgument)
+  fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup(TAsynchronousArgument)
+  nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).OnSetup(TAsynchronousArgument)
+  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).OnSetup(TAsynchronousArgument)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
+    name: OnSetup
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
+    name: OnSetup
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).OnSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).OnSetup
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
+  commentId: M:SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
+  isExternal: true
+  name: SynchronousSetup(TAsynchronousArgument)
+  nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup(TAsynchronousArgument)
+  fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup(TAsynchronousArgument)
+  nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).SynchronousSetup(TAsynchronousArgument)
+  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).SynchronousSetup(TAsynchronousArgument)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
+    name: SynchronousSetup
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
+    name: SynchronousSetup
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).SynchronousSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).SynchronousSetup
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
+  commentId: M:SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
+  isExternal: true
+  name: AsynchronousOperation()
+  nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation()
+  fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation()
+  nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsynchronousOperation()
+  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsynchronousOperation()
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
+    name: AsynchronousOperation
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
+    name: AsynchronousOperation
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsynchronousOperation
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsynchronousOperation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsynchronousHandler`2.ScheduleNewWork
+  commentId: M:SuperOffice.Threading.AsynchronousHandler`2.ScheduleNewWork
+  isExternal: true
+  name: ScheduleNewWork()
+  nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork()
+  fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork()
+  nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ScheduleNewWork()
+  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ScheduleNewWork()
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ScheduleNewWork
+    name: ScheduleNewWork
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ScheduleNewWork
+    name: ScheduleNewWork
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ScheduleNewWork
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ScheduleNewWork
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
+  commentId: M:SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
+  isExternal: true
+  name: ExecuteWork()
+  nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ExecuteWork()
+  fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ExecuteWork()
+  nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ExecuteWork()
+  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ExecuteWork()
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
+    name: ExecuteWork
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ExecuteWork
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ExecuteWork
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
+    name: ExecuteWork
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ExecuteWork
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ExecuteWork
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsynchronousHandler`2.Processor
+  commentId: P:SuperOffice.Threading.AsynchronousHandler`2.Processor
+  isExternal: true
+  name: Processor
+  nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.Processor
+  fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.Processor
+  nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).Processor
+  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).Processor
+- uid: SuperOffice.Threading.AsynchronousHandler`2.WasSetupCalled
+  commentId: P:SuperOffice.Threading.AsynchronousHandler`2.WasSetupCalled
+  isExternal: true
+  name: WasSetupCalled
+  nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WasSetupCalled
+  fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WasSetupCalled
+  nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WasSetupCalled
+  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WasSetupCalled
+- uid: SuperOffice.Threading.AsynchronousHandler`2.HasWorkToDo
+  commentId: P:SuperOffice.Threading.AsynchronousHandler`2.HasWorkToDo
+  isExternal: true
+  name: HasWorkToDo
+  nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.HasWorkToDo
+  fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.HasWorkToDo
+  nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).HasWorkToDo
+  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).HasWorkToDo
+- uid: SuperOffice.Threading.AsynchronousHandler`2.ThreadName
+  commentId: P:SuperOffice.Threading.AsynchronousHandler`2.ThreadName
+  isExternal: true
+  name: ThreadName
+  nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ThreadName
+  fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ThreadName
+  nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ThreadName
+  fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ThreadName
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.#ctor*
+  commentId: Overload:SuperOffice.Threading.QueueAsyncChunkHandler`2.#ctor
+  isExternal: true
+  name: QueueAsyncChunkHandler
+  nameWithType: QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.QueueAsyncChunkHandler
+  fullName: SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.QueueAsyncChunkHandler
+  nameWithType.vb: QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).QueueAsyncChunkHandler
+  fullName.vb: SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).QueueAsyncChunkHandler
+- uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.ScheduleNewWork*
+  commentId: Overload:SuperOffice.Threading.QueueAsyncChunkHandler`2.ScheduleNewWork
+  isExternal: true
+  name: ScheduleNewWork
+  nameWithType: QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.ScheduleNewWork
+  fullName: SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.ScheduleNewWork
+  nameWithType.vb: QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).ScheduleNewWork
+  fullName.vb: SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).ScheduleNewWork
+- uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.ThreadDelegate*
+  commentId: Overload:SuperOffice.Threading.QueueAsyncChunkHandler`2.ThreadDelegate
+  isExternal: true
+  name: ThreadDelegate
+  nameWithType: QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.ThreadDelegate
+  fullName: SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.ThreadDelegate
+  nameWithType.vb: QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).ThreadDelegate
+  fullName.vb: SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).ThreadDelegate
+- uid: SuperOffice.Threading.AsyncContext
+  commentId: T:SuperOffice.Threading.AsyncContext
+  parent: SuperOffice.Threading
+  isExternal: true
+  name: AsyncContext
+  nameWithType: AsyncContext
+  fullName: SuperOffice.Threading.AsyncContext
+- uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.Enqueue*
+  commentId: Overload:SuperOffice.Threading.QueueAsyncChunkHandler`2.Enqueue
+  isExternal: true
+  name: Enqueue
+  nameWithType: QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.Enqueue
+  fullName: SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.Enqueue
+  nameWithType.vb: QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).Enqueue
+  fullName.vb: SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).Enqueue
+- uid: '{TWorkItem}'
+  commentId: '!:TWorkItem'
+  definition: TWorkItem
+  name: TWorkItem
+  nameWithType: TWorkItem
+  fullName: TWorkItem
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TWorkItem
+  name: TWorkItem
+  nameWithType: TWorkItem
+  fullName: TWorkItem
+- uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.QueueLength*
+  commentId: Overload:SuperOffice.Threading.QueueAsyncChunkHandler`2.QueueLength
+  isExternal: true
+  name: QueueLength
+  nameWithType: QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.QueueLength
+  fullName: SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.QueueLength
+  nameWithType.vb: QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).QueueLength
+  fullName.vb: SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).QueueLength
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

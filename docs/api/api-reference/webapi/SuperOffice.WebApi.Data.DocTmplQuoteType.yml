@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DocTmplQuoteType
+  commentId: T:SuperOffice.WebApi.Data.DocTmplQuoteType
+  id: DocTmplQuoteType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DocTmplQuoteType.ConfirmationLines
+  - SuperOffice.WebApi.Data.DocTmplQuoteType.ConfirmationMailBody
+  - SuperOffice.WebApi.Data.DocTmplQuoteType.MailBody
+  - SuperOffice.WebApi.Data.DocTmplQuoteType.MainDocument
+  - SuperOffice.WebApi.Data.DocTmplQuoteType.None
+  - SuperOffice.WebApi.Data.DocTmplQuoteType.QuoteLines
+  - SuperOffice.WebApi.Data.DocTmplQuoteType.value__
+  langs:
+  - csharp
+  - vb
+  name: DocTmplQuoteType
+  nameWithType: DocTmplQuoteType
+  fullName: SuperOffice.WebApi.Data.DocTmplQuoteType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs this document template some kind of quote document, and if so what\nThis Enum is used by:  DocTmpl.quoteDocType\n"
+  syntax:
+    content: 'public sealed class DocTmplQuoteType : Enum'
+    content.vb: >-
+      Public NotInheritable Class DocTmplQuoteType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.DocTmplQuoteType.value__
+  commentId: F:SuperOffice.WebApi.Data.DocTmplQuoteType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.DocTmplQuoteType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DocTmplQuoteType.value__
+  fullName: SuperOffice.WebApi.Data.DocTmplQuoteType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DocTmplQuoteType.None
+  commentId: F:SuperOffice.WebApi.Data.DocTmplQuoteType.None
+  id: None
+  parent: SuperOffice.WebApi.Data.DocTmplQuoteType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DocTmplQuoteType.None
+  fullName: SuperOffice.WebApi.Data.DocTmplQuoteType.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: This document template is in no way related to Quote Management\n"
+  syntax:
+    content: public const DocTmplQuoteType None
+    return:
+      type: SuperOffice.WebApi.Data.DocTmplQuoteType
+    content.vb: Public Const None As DocTmplQuoteType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DocTmplQuoteType.MailBody
+  commentId: F:SuperOffice.WebApi.Data.DocTmplQuoteType.MailBody
+  id: MailBody
+  parent: SuperOffice.WebApi.Data.DocTmplQuoteType
+  langs:
+  - csharp
+  - vb
+  name: MailBody
+  nameWithType: DocTmplQuoteType.MailBody
+  fullName: SuperOffice.WebApi.Data.DocTmplQuoteType.MailBody
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: This is a template for the offer mail body\n"
+  syntax:
+    content: public const DocTmplQuoteType MailBody
+    return:
+      type: SuperOffice.WebApi.Data.DocTmplQuoteType
+    content.vb: Public Const MailBody As DocTmplQuoteType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DocTmplQuoteType.MainDocument
+  commentId: F:SuperOffice.WebApi.Data.DocTmplQuoteType.MainDocument
+  id: MainDocument
+  parent: SuperOffice.WebApi.Data.DocTmplQuoteType
+  langs:
+  - csharp
+  - vb
+  name: MainDocument
+  nameWithType: DocTmplQuoteType.MainDocument
+  fullName: SuperOffice.WebApi.Data.DocTmplQuoteType.MainDocument
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: This is a template for the main offer document, document instances will be referred through Quote.DocumentId\n"
+  syntax:
+    content: public const DocTmplQuoteType MainDocument
+    return:
+      type: SuperOffice.WebApi.Data.DocTmplQuoteType
+    content.vb: Public Const MainDocument As DocTmplQuoteType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DocTmplQuoteType.QuoteLines
+  commentId: F:SuperOffice.WebApi.Data.DocTmplQuoteType.QuoteLines
+  id: QuoteLines
+  parent: SuperOffice.WebApi.Data.DocTmplQuoteType
+  langs:
+  - csharp
+  - vb
+  name: QuoteLines
+  nameWithType: DocTmplQuoteType.QuoteLines
+  fullName: SuperOffice.WebApi.Data.DocTmplQuoteType.QuoteLines
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: This is a template for the AsposeWords merge process, generating the offer line details\n"
+  syntax:
+    content: public const DocTmplQuoteType QuoteLines
+    return:
+      type: SuperOffice.WebApi.Data.DocTmplQuoteType
+    content.vb: Public Const QuoteLines As DocTmplQuoteType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DocTmplQuoteType.ConfirmationMailBody
+  commentId: F:SuperOffice.WebApi.Data.DocTmplQuoteType.ConfirmationMailBody
+  id: ConfirmationMailBody
+  parent: SuperOffice.WebApi.Data.DocTmplQuoteType
+  langs:
+  - csharp
+  - vb
+  name: ConfirmationMailBody
+  nameWithType: DocTmplQuoteType.ConfirmationMailBody
+  fullName: SuperOffice.WebApi.Data.DocTmplQuoteType.ConfirmationMailBody
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: This is a template for the mail body of the order confirmation\n"
+  syntax:
+    content: public const DocTmplQuoteType ConfirmationMailBody
+    return:
+      type: SuperOffice.WebApi.Data.DocTmplQuoteType
+    content.vb: Public Const ConfirmationMailBody As DocTmplQuoteType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DocTmplQuoteType.ConfirmationLines
+  commentId: F:SuperOffice.WebApi.Data.DocTmplQuoteType.ConfirmationLines
+  id: ConfirmationLines
+  parent: SuperOffice.WebApi.Data.DocTmplQuoteType
+  langs:
+  - csharp
+  - vb
+  name: ConfirmationLines
+  nameWithType: DocTmplQuoteType.ConfirmationLines
+  fullName: SuperOffice.WebApi.Data.DocTmplQuoteType.ConfirmationLines
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: This is a template for the lines document that is an attachment to the confirmation mail\n"
+  syntax:
+    content: public const DocTmplQuoteType ConfirmationLines
+    return:
+      type: SuperOffice.WebApi.Data.DocTmplQuoteType
+    content.vb: Public Const ConfirmationLines As DocTmplQuoteType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.DocTmplQuoteType
+  commentId: T:SuperOffice.WebApi.Data.DocTmplQuoteType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DocTmplQuoteType
+  nameWithType: DocTmplQuoteType
+  fullName: SuperOffice.WebApi.Data.DocTmplQuoteType

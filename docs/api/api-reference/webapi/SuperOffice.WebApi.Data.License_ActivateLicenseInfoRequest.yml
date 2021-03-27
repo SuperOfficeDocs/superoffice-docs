@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.License_ActivateLicenseInfoRequest
+  commentId: T:SuperOffice.WebApi.Data.License_ActivateLicenseInfoRequest
+  id: License_ActivateLicenseInfoRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.License_ActivateLicenseInfoRequest.#ctor
+  - SuperOffice.WebApi.Data.License_ActivateLicenseInfoRequest.NewLicense
+  langs:
+  - csharp
+  - vb
+  name: License_ActivateLicenseInfoRequest
+  nameWithType: License_ActivateLicenseInfoRequest
+  fullName: SuperOffice.WebApi.Data.License_ActivateLicenseInfoRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class License_ActivateLicenseInfoRequest : Object'
+    content.vb: >-
+      Public Class License_ActivateLicenseInfoRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.License_ActivateLicenseInfoRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.License_ActivateLicenseInfoRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.License_ActivateLicenseInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: License_ActivateLicenseInfoRequest()
+  nameWithType: License_ActivateLicenseInfoRequest.License_ActivateLicenseInfoRequest()
+  fullName: SuperOffice.WebApi.Data.License_ActivateLicenseInfoRequest.License_ActivateLicenseInfoRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public License_ActivateLicenseInfoRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.License_ActivateLicenseInfoRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.License_ActivateLicenseInfoRequest.NewLicense
+  commentId: P:SuperOffice.WebApi.Data.License_ActivateLicenseInfoRequest.NewLicense
+  id: NewLicense
+  parent: SuperOffice.WebApi.Data.License_ActivateLicenseInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: NewLicense
+  nameWithType: License_ActivateLicenseInfoRequest.NewLicense
+  fullName: SuperOffice.WebApi.Data.License_ActivateLicenseInfoRequest.NewLicense
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ExtendedLicenseInfo NewLicense { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+    content.vb: Public Property NewLicense As ExtendedLicenseInfo
+  overload: SuperOffice.WebApi.Data.License_ActivateLicenseInfoRequest.NewLicense*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.License_ActivateLicenseInfoRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.License_ActivateLicenseInfoRequest.#ctor
+  isExternal: true
+  name: License_ActivateLicenseInfoRequest
+  nameWithType: License_ActivateLicenseInfoRequest.License_ActivateLicenseInfoRequest
+  fullName: SuperOffice.WebApi.Data.License_ActivateLicenseInfoRequest.License_ActivateLicenseInfoRequest
+- uid: SuperOffice.WebApi.Data.License_ActivateLicenseInfoRequest.NewLicense*
+  commentId: Overload:SuperOffice.WebApi.Data.License_ActivateLicenseInfoRequest.NewLicense
+  isExternal: true
+  name: NewLicense
+  nameWithType: License_ActivateLicenseInfoRequest.NewLicense
+  fullName: SuperOffice.WebApi.Data.License_ActivateLicenseInfoRequest.NewLicense
+- uid: SuperOffice.WebApi.Data.ExtendedLicenseInfo
+  commentId: T:SuperOffice.WebApi.Data.ExtendedLicenseInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ExtendedLicenseInfo
+  nameWithType: ExtendedLicenseInfo
+  fullName: SuperOffice.WebApi.Data.ExtendedLicenseInfo

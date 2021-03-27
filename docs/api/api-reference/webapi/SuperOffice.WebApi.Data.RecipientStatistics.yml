@@ -1,0 +1,359 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.RecipientStatistics
+  commentId: T:SuperOffice.WebApi.Data.RecipientStatistics
+  id: RecipientStatistics
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.RecipientStatistics.#ctor
+  - SuperOffice.WebApi.Data.RecipientStatistics.NoAddresses
+  - SuperOffice.WebApi.Data.RecipientStatistics.NoFaxOrEmails
+  - SuperOffice.WebApi.Data.RecipientStatistics.Total
+  - SuperOffice.WebApi.Data.RecipientStatistics.ValidEmailAddresses
+  - SuperOffice.WebApi.Data.RecipientStatistics.ValidFaxNumbers
+  - SuperOffice.WebApi.Data.RecipientStatistics.ValidPostalAddresses
+  langs:
+  - csharp
+  - vb
+  name: RecipientStatistics
+  nameWithType: RecipientStatistics
+  fullName: SuperOffice.WebApi.Data.RecipientStatistics
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for RecipientStatistics.\nClass representing a RecipientStatistics carrier used for counting attributes on selection members.    \n"
+  syntax:
+    content: 'public class RecipientStatistics : Carrier'
+    content.vb: >-
+      Public Class RecipientStatistics
+          Inherits Carrier
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.RecipientStatistics.#ctor
+  commentId: M:SuperOffice.WebApi.Data.RecipientStatistics.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.RecipientStatistics
+  langs:
+  - csharp
+  - vb
+  name: RecipientStatistics()
+  nameWithType: RecipientStatistics.RecipientStatistics()
+  fullName: SuperOffice.WebApi.Data.RecipientStatistics.RecipientStatistics()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public RecipientStatistics()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.RecipientStatistics.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RecipientStatistics.Total
+  commentId: P:SuperOffice.WebApi.Data.RecipientStatistics.Total
+  id: Total
+  parent: SuperOffice.WebApi.Data.RecipientStatistics
+  langs:
+  - csharp
+  - vb
+  name: Total
+  nameWithType: RecipientStatistics.Total
+  fullName: SuperOffice.WebApi.Data.RecipientStatistics.Total
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTotal number of members.\n"
+  syntax:
+    content: public virtual int Total { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Total As Integer
+  overload: SuperOffice.WebApi.Data.RecipientStatistics.Total*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RecipientStatistics.ValidPostalAddresses
+  commentId: P:SuperOffice.WebApi.Data.RecipientStatistics.ValidPostalAddresses
+  id: ValidPostalAddresses
+  parent: SuperOffice.WebApi.Data.RecipientStatistics
+  langs:
+  - csharp
+  - vb
+  name: ValidPostalAddresses
+  nameWithType: RecipientStatistics.ValidPostalAddresses
+  fullName: SuperOffice.WebApi.Data.RecipientStatistics.ValidPostalAddresses
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of members with a valid postal address.\n"
+  syntax:
+    content: public virtual int ValidPostalAddresses { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ValidPostalAddresses As Integer
+  overload: SuperOffice.WebApi.Data.RecipientStatistics.ValidPostalAddresses*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RecipientStatistics.ValidEmailAddresses
+  commentId: P:SuperOffice.WebApi.Data.RecipientStatistics.ValidEmailAddresses
+  id: ValidEmailAddresses
+  parent: SuperOffice.WebApi.Data.RecipientStatistics
+  langs:
+  - csharp
+  - vb
+  name: ValidEmailAddresses
+  nameWithType: RecipientStatistics.ValidEmailAddresses
+  fullName: SuperOffice.WebApi.Data.RecipientStatistics.ValidEmailAddresses
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of members with a valid email address.\n"
+  syntax:
+    content: public virtual int ValidEmailAddresses { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ValidEmailAddresses As Integer
+  overload: SuperOffice.WebApi.Data.RecipientStatistics.ValidEmailAddresses*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RecipientStatistics.ValidFaxNumbers
+  commentId: P:SuperOffice.WebApi.Data.RecipientStatistics.ValidFaxNumbers
+  id: ValidFaxNumbers
+  parent: SuperOffice.WebApi.Data.RecipientStatistics
+  langs:
+  - csharp
+  - vb
+  name: ValidFaxNumbers
+  nameWithType: RecipientStatistics.ValidFaxNumbers
+  fullName: SuperOffice.WebApi.Data.RecipientStatistics.ValidFaxNumbers
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of members with a valid fax number.\n"
+  syntax:
+    content: public virtual int ValidFaxNumbers { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ValidFaxNumbers As Integer
+  overload: SuperOffice.WebApi.Data.RecipientStatistics.ValidFaxNumbers*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RecipientStatistics.NoAddresses
+  commentId: P:SuperOffice.WebApi.Data.RecipientStatistics.NoAddresses
+  id: NoAddresses
+  parent: SuperOffice.WebApi.Data.RecipientStatistics
+  langs:
+  - csharp
+  - vb
+  name: NoAddresses
+  nameWithType: RecipientStatistics.NoAddresses
+  fullName: SuperOffice.WebApi.Data.RecipientStatistics.NoAddresses
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of members with an invalid address.\n"
+  syntax:
+    content: public virtual int NoAddresses { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NoAddresses As Integer
+  overload: SuperOffice.WebApi.Data.RecipientStatistics.NoAddresses*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RecipientStatistics.NoFaxOrEmails
+  commentId: P:SuperOffice.WebApi.Data.RecipientStatistics.NoFaxOrEmails
+  id: NoFaxOrEmails
+  parent: SuperOffice.WebApi.Data.RecipientStatistics
+  langs:
+  - csharp
+  - vb
+  name: NoFaxOrEmails
+  nameWithType: RecipientStatistics.NoFaxOrEmails
+  fullName: SuperOffice.WebApi.Data.RecipientStatistics.NoFaxOrEmails
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of members with no fax or email address.\n"
+  syntax:
+    content: public virtual int NoFaxOrEmails { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NoFaxOrEmails As Integer
+  overload: SuperOffice.WebApi.Data.RecipientStatistics.NoFaxOrEmails*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.RecipientStatistics.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.RecipientStatistics.#ctor
+  isExternal: true
+  name: RecipientStatistics
+  nameWithType: RecipientStatistics.RecipientStatistics
+  fullName: SuperOffice.WebApi.Data.RecipientStatistics.RecipientStatistics
+- uid: SuperOffice.WebApi.Data.RecipientStatistics.Total*
+  commentId: Overload:SuperOffice.WebApi.Data.RecipientStatistics.Total
+  isExternal: true
+  name: Total
+  nameWithType: RecipientStatistics.Total
+  fullName: SuperOffice.WebApi.Data.RecipientStatistics.Total
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.RecipientStatistics.ValidPostalAddresses*
+  commentId: Overload:SuperOffice.WebApi.Data.RecipientStatistics.ValidPostalAddresses
+  isExternal: true
+  name: ValidPostalAddresses
+  nameWithType: RecipientStatistics.ValidPostalAddresses
+  fullName: SuperOffice.WebApi.Data.RecipientStatistics.ValidPostalAddresses
+- uid: SuperOffice.WebApi.Data.RecipientStatistics.ValidEmailAddresses*
+  commentId: Overload:SuperOffice.WebApi.Data.RecipientStatistics.ValidEmailAddresses
+  isExternal: true
+  name: ValidEmailAddresses
+  nameWithType: RecipientStatistics.ValidEmailAddresses
+  fullName: SuperOffice.WebApi.Data.RecipientStatistics.ValidEmailAddresses
+- uid: SuperOffice.WebApi.Data.RecipientStatistics.ValidFaxNumbers*
+  commentId: Overload:SuperOffice.WebApi.Data.RecipientStatistics.ValidFaxNumbers
+  isExternal: true
+  name: ValidFaxNumbers
+  nameWithType: RecipientStatistics.ValidFaxNumbers
+  fullName: SuperOffice.WebApi.Data.RecipientStatistics.ValidFaxNumbers
+- uid: SuperOffice.WebApi.Data.RecipientStatistics.NoAddresses*
+  commentId: Overload:SuperOffice.WebApi.Data.RecipientStatistics.NoAddresses
+  isExternal: true
+  name: NoAddresses
+  nameWithType: RecipientStatistics.NoAddresses
+  fullName: SuperOffice.WebApi.Data.RecipientStatistics.NoAddresses
+- uid: SuperOffice.WebApi.Data.RecipientStatistics.NoFaxOrEmails*
+  commentId: Overload:SuperOffice.WebApi.Data.RecipientStatistics.NoFaxOrEmails
+  isExternal: true
+  name: NoFaxOrEmails
+  nameWithType: RecipientStatistics.NoFaxOrEmails
+  fullName: SuperOffice.WebApi.Data.RecipientStatistics.NoFaxOrEmails

@@ -1,0 +1,590 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.RowVisibleForHelper
+  commentId: T:SuperOffice.CRM.Rows.RowVisibleForHelper
+  id: RowVisibleForHelper
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor(SuperOffice.CRM.Rows.TableRowBase)
+  - SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
+  - SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor,System.Int32)
+  - SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor(SuperOffice.CRM.Rows.TableRowsBase)
+  - SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor(SuperOffice.CRM.Rows.TableRowsBase,SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
+  - SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor(SuperOffice.CRM.Rows.TableRowsBase,SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: RowVisibleForHelper
+  nameWithType: RowVisibleForHelper
+  fullName: SuperOffice.CRM.Rows.RowVisibleForHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nUtility class helping set VisibleFor permissions on row and rows objects.\n"
+  syntax:
+    content: public static class RowVisibleForHelper
+    content.vb: Public Module RowVisibleForHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor(SuperOffice.CRM.Rows.TableRowsBase)
+  commentId: M:SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor(SuperOffice.CRM.Rows.TableRowsBase)
+  id: SetVisibleFor(SuperOffice.CRM.Rows.TableRowsBase)
+  parent: SuperOffice.CRM.Rows.RowVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: SetVisibleFor(TableRowsBase)
+  nameWithType: RowVisibleForHelper.SetVisibleFor(TableRowsBase)
+  fullName: SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor(SuperOffice.CRM.Rows.TableRowsBase)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSet visible for on the provided rows.  The row will be visible for all.\n"
+  syntax:
+    content: public static void SetVisibleFor(TableRowsBase owners)
+    parameters:
+    - id: owners
+      type: SuperOffice.CRM.Rows.TableRowsBase
+      description: Rows to set visible for on.
+    content.vb: Public Shared Sub SetVisibleFor(owners As TableRowsBase)
+  overload: SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor(SuperOffice.CRM.Rows.TableRowsBase,SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
+  commentId: M:SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor(SuperOffice.CRM.Rows.TableRowsBase,SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
+  id: SetVisibleFor(SuperOffice.CRM.Rows.TableRowsBase,SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
+  parent: SuperOffice.CRM.Rows.RowVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: SetVisibleFor(TableRowsBase, RowVisibleForHelper.VisibleFor)
+  nameWithType: RowVisibleForHelper.SetVisibleFor(TableRowsBase, RowVisibleForHelper.VisibleFor)
+  fullName: SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor(SuperOffice.CRM.Rows.TableRowsBase, SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSet visible for on the provided rows.\n"
+  syntax:
+    content: public static void SetVisibleFor(TableRowsBase owners, RowVisibleForHelper.VisibleFor visibleFor)
+    parameters:
+    - id: owners
+      type: SuperOffice.CRM.Rows.TableRowsBase
+      description: Rows to set visible for on.
+    - id: visibleFor
+      type: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
+      description: Level of visibility.
+    content.vb: Public Shared Sub SetVisibleFor(owners As TableRowsBase, visibleFor As RowVisibleForHelper.VisibleFor)
+  overload: SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor(SuperOffice.CRM.Rows.TableRowsBase,SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor,System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor(SuperOffice.CRM.Rows.TableRowsBase,SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor,System.Int32)
+  id: SetVisibleFor(SuperOffice.CRM.Rows.TableRowsBase,SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor,System.Int32)
+  parent: SuperOffice.CRM.Rows.RowVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: SetVisibleFor(TableRowsBase, RowVisibleForHelper.VisibleFor, Int32)
+  nameWithType: RowVisibleForHelper.SetVisibleFor(TableRowsBase, RowVisibleForHelper.VisibleFor, Int32)
+  fullName: SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor(SuperOffice.CRM.Rows.TableRowsBase, SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSet visible for on the provided rows.\n"
+  syntax:
+    content: public static void SetVisibleFor(TableRowsBase owners, RowVisibleForHelper.VisibleFor visibleFor, int groupId)
+    parameters:
+    - id: owners
+      type: SuperOffice.CRM.Rows.TableRowsBase
+      description: Rows to set visible for on.
+    - id: visibleFor
+      type: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
+      description: Level of visibility.
+    - id: groupId
+      type: System.Int32
+      description: GroupId to use if visibility is set to group.  Default group will be used if the value is 0.
+    content.vb: Public Shared Sub SetVisibleFor(owners As TableRowsBase, visibleFor As RowVisibleForHelper.VisibleFor, groupId As Integer)
+  overload: SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor(SuperOffice.CRM.Rows.TableRowBase)
+  commentId: M:SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor(SuperOffice.CRM.Rows.TableRowBase)
+  id: SetVisibleFor(SuperOffice.CRM.Rows.TableRowBase)
+  parent: SuperOffice.CRM.Rows.RowVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: SetVisibleFor(TableRowBase)
+  nameWithType: RowVisibleForHelper.SetVisibleFor(TableRowBase)
+  fullName: SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor(SuperOffice.CRM.Rows.TableRowBase)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSet visible for on a row.  The row is set to visible for all.\n"
+  syntax:
+    content: public static void SetVisibleFor(TableRowBase owner)
+    parameters:
+    - id: owner
+      type: SuperOffice.CRM.Rows.TableRowBase
+      description: Row to set visible for on.
+    content.vb: Public Shared Sub SetVisibleFor(owner As TableRowBase)
+  overload: SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
+  commentId: M:SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
+  id: SetVisibleFor(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
+  parent: SuperOffice.CRM.Rows.RowVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: SetVisibleFor(TableRowBase, RowVisibleForHelper.VisibleFor)
+  nameWithType: RowVisibleForHelper.SetVisibleFor(TableRowBase, RowVisibleForHelper.VisibleFor)
+  fullName: SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor(SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSet visible for on a row.\n"
+  syntax:
+    content: public static void SetVisibleFor(TableRowBase owner, RowVisibleForHelper.VisibleFor visibleFor)
+    parameters:
+    - id: owner
+      type: SuperOffice.CRM.Rows.TableRowBase
+      description: Row to set visible for on.
+    - id: visibleFor
+      type: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
+      description: Level of visibility.
+    content.vb: Public Shared Sub SetVisibleFor(owner As TableRowBase, visibleFor As RowVisibleForHelper.VisibleFor)
+  overload: SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor,System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor,System.Int32)
+  id: SetVisibleFor(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor,System.Int32)
+  parent: SuperOffice.CRM.Rows.RowVisibleForHelper
+  langs:
+  - csharp
+  - vb
+  name: SetVisibleFor(TableRowBase, RowVisibleForHelper.VisibleFor, Int32)
+  nameWithType: RowVisibleForHelper.SetVisibleFor(TableRowBase, RowVisibleForHelper.VisibleFor, Int32)
+  fullName: SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor(SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSet visible for on a row.\n"
+  syntax:
+    content: public static void SetVisibleFor(TableRowBase owner, RowVisibleForHelper.VisibleFor visibleFor, int groupId)
+    parameters:
+    - id: owner
+      type: SuperOffice.CRM.Rows.TableRowBase
+      description: Row to set visible for on.
+    - id: visibleFor
+      type: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
+      description: Level of visibility.
+    - id: groupId
+      type: System.Int32
+      description: GroupId to use if visibility is set to group.  Default group will be used if the value is 0.
+    content.vb: Public Shared Sub SetVisibleFor(owner As TableRowBase, visibleFor As RowVisibleForHelper.VisibleFor, groupId As Integer)
+  overload: SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor*
+  commentId: Overload:SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor
+  isExternal: true
+  name: SetVisibleFor
+  nameWithType: RowVisibleForHelper.SetVisibleFor
+  fullName: SuperOffice.CRM.Rows.RowVisibleForHelper.SetVisibleFor
+- uid: SuperOffice.CRM.Rows.TableRowsBase
+  commentId: T:SuperOffice.CRM.Rows.TableRowsBase
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TableRowsBase
+  nameWithType: TableRowsBase
+  fullName: SuperOffice.CRM.Rows.TableRowsBase
+- uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
+  commentId: T:SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: RowVisibleForHelper.VisibleFor
+  nameWithType: RowVisibleForHelper.VisibleFor
+  fullName: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Rows.TableRowBase
+  commentId: T:SuperOffice.CRM.Rows.TableRowBase
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TableRowBase
+  nameWithType: TableRowBase
+  fullName: SuperOffice.CRM.Rows.TableRowBase

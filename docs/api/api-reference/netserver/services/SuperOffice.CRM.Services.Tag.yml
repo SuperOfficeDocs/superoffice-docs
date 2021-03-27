@@ -1,0 +1,311 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.Tag
+  commentId: T:SuperOffice.CRM.Services.Tag
+  id: Tag
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.Tag.#ctor
+  - SuperOffice.CRM.Services.Tag.Id
+  - SuperOffice.CRM.Services.Tag.Name
+  - SuperOffice.CRM.Services.Tag.ToolTip
+  - SuperOffice.CRM.Services.Tag.ToString
+  - SuperOffice.CRM.Services.Tag.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Tag
+  nameWithType: Tag
+  fullName: SuperOffice.CRM.Services.Tag
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for Tag.\nServices for the Tag Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IListAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class Tag : Carrier'
+    content.vb: >-
+      Public Class Tag
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ListAgent
+    commentId: T:SuperOffice.CRM.Services.ListAgent
+  - linkId: SuperOffice.CRM.Services.IListAgent
+    commentId: T:SuperOffice.CRM.Services.IListAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.Tag.#ctor
+  commentId: M:SuperOffice.CRM.Services.Tag.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.Tag
+  langs:
+  - csharp
+  - vb
+  name: Tag()
+  nameWithType: Tag.Tag()
+  fullName: SuperOffice.CRM.Services.Tag.Tag()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public Tag()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.Tag.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Tag.ToString
+  commentId: M:SuperOffice.CRM.Services.Tag.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.Tag
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Tag.ToString()
+  fullName: SuperOffice.CRM.Services.Tag.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.Tag.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.Tag.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.Tag.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.Tag
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: Tag.ToString(String)
+  fullName: SuperOffice.CRM.Services.Tag.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.Tag.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Tag.Id
+  commentId: P:SuperOffice.CRM.Services.Tag.Id
+  id: Id
+  parent: SuperOffice.CRM.Services.Tag
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Tag.Id
+  fullName: SuperOffice.CRM.Services.Tag.Id
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe Id of the ListItem \n"
+  syntax:
+    content: public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Id As Integer
+  overload: SuperOffice.CRM.Services.Tag.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Tag.Name
+  commentId: P:SuperOffice.CRM.Services.Tag.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.Tag
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Tag.Name
+  fullName: SuperOffice.CRM.Services.Tag.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe name of the ListItem \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.Tag.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Tag.ToolTip
+  commentId: P:SuperOffice.CRM.Services.Tag.ToolTip
+  id: ToolTip
+  parent: SuperOffice.CRM.Services.Tag
+  langs:
+  - csharp
+  - vb
+  name: ToolTip
+  nameWithType: Tag.ToolTip
+  fullName: SuperOffice.CRM.Services.Tag.ToolTip
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe tooltip of the ListItem \n"
+  syntax:
+    content: public virtual string ToolTip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ToolTip As String
+  overload: SuperOffice.CRM.Services.Tag.ToolTip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.ListAgent
+  commentId: T:SuperOffice.CRM.Services.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.CRM.Services.ListAgent
+- uid: SuperOffice.CRM.Services.IListAgent
+  commentId: T:SuperOffice.CRM.Services.IListAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IListAgent
+  nameWithType: IListAgent
+  fullName: SuperOffice.CRM.Services.IListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.Tag.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.Tag.#ctor
+  isExternal: true
+  name: Tag
+  nameWithType: Tag.Tag
+  fullName: SuperOffice.CRM.Services.Tag.Tag
+- uid: SuperOffice.CRM.Services.Tag.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.Tag.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: Tag.ToString
+  fullName: SuperOffice.CRM.Services.Tag.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.Tag.Id*
+  commentId: Overload:SuperOffice.CRM.Services.Tag.Id
+  isExternal: true
+  name: Id
+  nameWithType: Tag.Id
+  fullName: SuperOffice.CRM.Services.Tag.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.Tag.Name*
+  commentId: Overload:SuperOffice.CRM.Services.Tag.Name
+  isExternal: true
+  name: Name
+  nameWithType: Tag.Name
+  fullName: SuperOffice.CRM.Services.Tag.Name
+- uid: SuperOffice.CRM.Services.Tag.ToolTip*
+  commentId: Overload:SuperOffice.CRM.Services.Tag.ToolTip
+  isExternal: true
+  name: ToolTip
+  nameWithType: Tag.ToolTip
+  fullName: SuperOffice.CRM.Services.Tag.ToolTip

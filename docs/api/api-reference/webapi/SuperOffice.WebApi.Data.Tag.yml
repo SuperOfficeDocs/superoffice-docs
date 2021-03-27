@@ -1,0 +1,255 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Tag
+  commentId: T:SuperOffice.WebApi.Data.Tag
+  id: Tag
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Tag.#ctor
+  - SuperOffice.WebApi.Data.Tag.Id
+  - SuperOffice.WebApi.Data.Tag.Name
+  - SuperOffice.WebApi.Data.Tag.ToolTip
+  langs:
+  - csharp
+  - vb
+  name: Tag
+  nameWithType: Tag
+  fullName: SuperOffice.WebApi.Data.Tag
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for Tag.\n\n"
+  syntax:
+    content: 'public class Tag : Carrier'
+    content.vb: >-
+      Public Class Tag
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ListAgent
+    commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Tag.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Tag.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Tag
+  langs:
+  - csharp
+  - vb
+  name: Tag()
+  nameWithType: Tag.Tag()
+  fullName: SuperOffice.WebApi.Data.Tag.Tag()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public Tag()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Tag.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Tag.Id
+  commentId: P:SuperOffice.WebApi.Data.Tag.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.Tag
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Tag.Id
+  fullName: SuperOffice.WebApi.Data.Tag.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe Id of the ListItem\n"
+  syntax:
+    content: public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Id As Integer
+  overload: SuperOffice.WebApi.Data.Tag.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Tag.Name
+  commentId: P:SuperOffice.WebApi.Data.Tag.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.Tag
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Tag.Name
+  fullName: SuperOffice.WebApi.Data.Tag.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the ListItem\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.Tag.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Tag.ToolTip
+  commentId: P:SuperOffice.WebApi.Data.Tag.ToolTip
+  id: ToolTip
+  parent: SuperOffice.WebApi.Data.Tag
+  langs:
+  - csharp
+  - vb
+  name: ToolTip
+  nameWithType: Tag.ToolTip
+  fullName: SuperOffice.WebApi.Data.Tag.ToolTip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe tooltip of the ListItem\n"
+  syntax:
+    content: public virtual string ToolTip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ToolTip As String
+  overload: SuperOffice.WebApi.Data.Tag.ToolTip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Tag.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Tag.#ctor
+  isExternal: true
+  name: Tag
+  nameWithType: Tag.Tag
+  fullName: SuperOffice.WebApi.Data.Tag.Tag
+- uid: SuperOffice.WebApi.Data.Tag.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.Tag.Id
+  isExternal: true
+  name: Id
+  nameWithType: Tag.Id
+  fullName: SuperOffice.WebApi.Data.Tag.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Tag.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.Tag.Name
+  isExternal: true
+  name: Name
+  nameWithType: Tag.Name
+  fullName: SuperOffice.WebApi.Data.Tag.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Tag.ToolTip*
+  commentId: Overload:SuperOffice.WebApi.Data.Tag.ToolTip
+  isExternal: true
+  name: ToolTip
+  nameWithType: Tag.ToolTip
+  fullName: SuperOffice.WebApi.Data.Tag.ToolTip

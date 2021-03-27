@@ -1,0 +1,459 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ChatSessionStatus
+  commentId: T:SuperOffice.WebApi.Data.ChatSessionStatus
+  id: ChatSessionStatus
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ChatSessionStatus.Closed
+  - SuperOffice.WebApi.Data.ChatSessionStatus.ClosedFromQueue
+  - SuperOffice.WebApi.Data.ChatSessionStatus.CustomerLast
+  - SuperOffice.WebApi.Data.ChatSessionStatus.Deleted
+  - SuperOffice.WebApi.Data.ChatSessionStatus.Faq
+  - SuperOffice.WebApi.Data.ChatSessionStatus.Finished
+  - SuperOffice.WebApi.Data.ChatSessionStatus.InQueue
+  - SuperOffice.WebApi.Data.ChatSessionStatus.Invalid
+  - SuperOffice.WebApi.Data.ChatSessionStatus.OfflineForm
+  - SuperOffice.WebApi.Data.ChatSessionStatus.PreChatForm
+  - SuperOffice.WebApi.Data.ChatSessionStatus.RequestPosted
+  - SuperOffice.WebApi.Data.ChatSessionStatus.UserLast
+  - SuperOffice.WebApi.Data.ChatSessionStatus.value__
+  langs:
+  - csharp
+  - vb
+  name: ChatSessionStatus
+  nameWithType: ChatSessionStatus
+  fullName: SuperOffice.WebApi.Data.ChatSessionStatus
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nChat Session status\nThis Enum is used by:  chat_session.status\n"
+  syntax:
+    content: 'public sealed class ChatSessionStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class ChatSessionStatus
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ChatSessionStatus.value__
+  commentId: F:SuperOffice.WebApi.Data.ChatSessionStatus.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ChatSessionStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ChatSessionStatus.value__
+  fullName: SuperOffice.WebApi.Data.ChatSessionStatus.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChatSessionStatus.Invalid
+  commentId: F:SuperOffice.WebApi.Data.ChatSessionStatus.Invalid
+  id: Invalid
+  parent: SuperOffice.WebApi.Data.ChatSessionStatus
+  langs:
+  - csharp
+  - vb
+  name: Invalid
+  nameWithType: ChatSessionStatus.Invalid
+  fullName: SuperOffice.WebApi.Data.ChatSessionStatus.Invalid
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Unknown\n"
+  syntax:
+    content: public const ChatSessionStatus Invalid
+    return:
+      type: SuperOffice.WebApi.Data.ChatSessionStatus
+    content.vb: Public Const Invalid As ChatSessionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ChatSessionStatus.PreChatForm
+  commentId: F:SuperOffice.WebApi.Data.ChatSessionStatus.PreChatForm
+  id: PreChatForm
+  parent: SuperOffice.WebApi.Data.ChatSessionStatus
+  langs:
+  - csharp
+  - vb
+  name: PreChatForm
+  nameWithType: ChatSessionStatus.PreChatForm
+  fullName: SuperOffice.WebApi.Data.ChatSessionStatus.PreChatForm
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: PreChatForm\n"
+  syntax:
+    content: public const ChatSessionStatus PreChatForm
+    return:
+      type: SuperOffice.WebApi.Data.ChatSessionStatus
+    content.vb: Public Const PreChatForm As ChatSessionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ChatSessionStatus.Faq
+  commentId: F:SuperOffice.WebApi.Data.ChatSessionStatus.Faq
+  id: Faq
+  parent: SuperOffice.WebApi.Data.ChatSessionStatus
+  langs:
+  - csharp
+  - vb
+  name: Faq
+  nameWithType: ChatSessionStatus.Faq
+  fullName: SuperOffice.WebApi.Data.ChatSessionStatus.Faq
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: FAQ\n"
+  syntax:
+    content: public const ChatSessionStatus Faq
+    return:
+      type: SuperOffice.WebApi.Data.ChatSessionStatus
+    content.vb: Public Const Faq As ChatSessionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ChatSessionStatus.OfflineForm
+  commentId: F:SuperOffice.WebApi.Data.ChatSessionStatus.OfflineForm
+  id: OfflineForm
+  parent: SuperOffice.WebApi.Data.ChatSessionStatus
+  langs:
+  - csharp
+  - vb
+  name: OfflineForm
+  nameWithType: ChatSessionStatus.OfflineForm
+  fullName: SuperOffice.WebApi.Data.ChatSessionStatus.OfflineForm
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: OfflineForm\n"
+  syntax:
+    content: public const ChatSessionStatus OfflineForm
+    return:
+      type: SuperOffice.WebApi.Data.ChatSessionStatus
+    content.vb: Public Const OfflineForm As ChatSessionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ChatSessionStatus.InQueue
+  commentId: F:SuperOffice.WebApi.Data.ChatSessionStatus.InQueue
+  id: InQueue
+  parent: SuperOffice.WebApi.Data.ChatSessionStatus
+  langs:
+  - csharp
+  - vb
+  name: InQueue
+  nameWithType: ChatSessionStatus.InQueue
+  fullName: SuperOffice.WebApi.Data.ChatSessionStatus.InQueue
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: InQueue - waiting to be picked up\n"
+  syntax:
+    content: public const ChatSessionStatus InQueue
+    return:
+      type: SuperOffice.WebApi.Data.ChatSessionStatus
+    content.vb: Public Const InQueue As ChatSessionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ChatSessionStatus.CustomerLast
+  commentId: F:SuperOffice.WebApi.Data.ChatSessionStatus.CustomerLast
+  id: CustomerLast
+  parent: SuperOffice.WebApi.Data.ChatSessionStatus
+  langs:
+  - csharp
+  - vb
+  name: CustomerLast
+  nameWithType: ChatSessionStatus.CustomerLast
+  fullName: SuperOffice.WebApi.Data.ChatSessionStatus.CustomerLast
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: CustomerLast - customer wrote last message\n"
+  syntax:
+    content: public const ChatSessionStatus CustomerLast
+    return:
+      type: SuperOffice.WebApi.Data.ChatSessionStatus
+    content.vb: Public Const CustomerLast As ChatSessionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ChatSessionStatus.UserLast
+  commentId: F:SuperOffice.WebApi.Data.ChatSessionStatus.UserLast
+  id: UserLast
+  parent: SuperOffice.WebApi.Data.ChatSessionStatus
+  langs:
+  - csharp
+  - vb
+  name: UserLast
+  nameWithType: ChatSessionStatus.UserLast
+  fullName: SuperOffice.WebApi.Data.ChatSessionStatus.UserLast
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: UserLast - user agent wrote last message\n"
+  syntax:
+    content: public const ChatSessionStatus UserLast
+    return:
+      type: SuperOffice.WebApi.Data.ChatSessionStatus
+    content.vb: Public Const UserLast As ChatSessionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ChatSessionStatus.Finished
+  commentId: F:SuperOffice.WebApi.Data.ChatSessionStatus.Finished
+  id: Finished
+  parent: SuperOffice.WebApi.Data.ChatSessionStatus
+  langs:
+  - csharp
+  - vb
+  name: Finished
+  nameWithType: ChatSessionStatus.Finished
+  fullName: SuperOffice.WebApi.Data.ChatSessionStatus.Finished
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: Finished - may be deleted later\n"
+  syntax:
+    content: public const ChatSessionStatus Finished
+    return:
+      type: SuperOffice.WebApi.Data.ChatSessionStatus
+    content.vb: Public Const Finished As ChatSessionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ChatSessionStatus.Deleted
+  commentId: F:SuperOffice.WebApi.Data.ChatSessionStatus.Deleted
+  id: Deleted
+  parent: SuperOffice.WebApi.Data.ChatSessionStatus
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: ChatSessionStatus.Deleted
+  fullName: SuperOffice.WebApi.Data.ChatSessionStatus.Deleted
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: Deleted - ready to delete. Usually cleaned within 24 hrs\n"
+  syntax:
+    content: public const ChatSessionStatus Deleted
+    return:
+      type: SuperOffice.WebApi.Data.ChatSessionStatus
+    content.vb: Public Const Deleted As ChatSessionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ChatSessionStatus.Closed
+  commentId: F:SuperOffice.WebApi.Data.ChatSessionStatus.Closed
+  id: Closed
+  parent: SuperOffice.WebApi.Data.ChatSessionStatus
+  langs:
+  - csharp
+  - vb
+  name: Closed
+  nameWithType: ChatSessionStatus.Closed
+  fullName: SuperOffice.WebApi.Data.ChatSessionStatus.Closed
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n9: Closed\n"
+  syntax:
+    content: public const ChatSessionStatus Closed
+    return:
+      type: SuperOffice.WebApi.Data.ChatSessionStatus
+    content.vb: Public Const Closed As ChatSessionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ChatSessionStatus.RequestPosted
+  commentId: F:SuperOffice.WebApi.Data.ChatSessionStatus.RequestPosted
+  id: RequestPosted
+  parent: SuperOffice.WebApi.Data.ChatSessionStatus
+  langs:
+  - csharp
+  - vb
+  name: RequestPosted
+  nameWithType: ChatSessionStatus.RequestPosted
+  fullName: SuperOffice.WebApi.Data.ChatSessionStatus.RequestPosted
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n10: RequestPosted\n"
+  syntax:
+    content: public const ChatSessionStatus RequestPosted
+    return:
+      type: SuperOffice.WebApi.Data.ChatSessionStatus
+    content.vb: Public Const RequestPosted As ChatSessionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ChatSessionStatus.ClosedFromQueue
+  commentId: F:SuperOffice.WebApi.Data.ChatSessionStatus.ClosedFromQueue
+  id: ClosedFromQueue
+  parent: SuperOffice.WebApi.Data.ChatSessionStatus
+  langs:
+  - csharp
+  - vb
+  name: ClosedFromQueue
+  nameWithType: ChatSessionStatus.ClosedFromQueue
+  fullName: SuperOffice.WebApi.Data.ChatSessionStatus.ClosedFromQueue
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n11: ClosedFromQueue\n"
+  syntax:
+    content: public const ChatSessionStatus ClosedFromQueue
+    return:
+      type: SuperOffice.WebApi.Data.ChatSessionStatus
+    content.vb: Public Const ClosedFromQueue As ChatSessionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.ChatSessionStatus
+  commentId: T:SuperOffice.WebApi.Data.ChatSessionStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ChatSessionStatus
+  nameWithType: ChatSessionStatus
+  fullName: SuperOffice.WebApi.Data.ChatSessionStatus

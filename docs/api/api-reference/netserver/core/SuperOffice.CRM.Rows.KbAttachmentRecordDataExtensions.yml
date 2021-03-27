@@ -1,0 +1,853 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions
+  id: KbAttachmentRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.KbAttachmentTableInfo})
+  - SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbAttachmentTableInfo})
+  - SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbAttachmentRecordData)
+  - SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbAttachmentRecordData})
+  langs:
+  - csharp
+  - vb
+  name: KbAttachmentRecordDataExtensions
+  nameWithType: KbAttachmentRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nExtension methods to make it easy to fetch <xref href=\"SuperOffice.CRM.Rows.KbAttachmentRecordData\" data-throw-if-not-resolved=\"false\"></xref> objects from the database,\nusing the <see cref=\"!:TargetedSelect\"></see> infrastructure\n"
+  syntax:
+    content: public static class KbAttachmentRecordDataExtensions
+    content.vb: Public Module KbAttachmentRecordDataExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbAttachmentTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbAttachmentTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbAttachmentTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<KbAttachmentTableInfo>)
+  nameWithType: KbAttachmentRecordDataExtensions.FromSelect(TargetedSelect<KbAttachmentTableInfo>)
+  fullName: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.KbAttachmentTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;KbAttachmentTableInfo>, execute it and return an IEnumerable&lt;KbAttachmentRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<KbAttachmentRecordData> FromSelect(this TargetedSelect<KbAttachmentTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbAttachmentTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbAttachmentRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of KbAttachmentTableInfo)) As IEnumerable(Of KbAttachmentRecordData)
+  overload: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.FromSelect*
+  nameWithType.vb: KbAttachmentRecordDataExtensions.FromSelect(TargetedSelect(Of KbAttachmentTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.KbAttachmentTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of KbAttachmentTableInfo))
+- uid: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.KbAttachmentTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.KbAttachmentTableInfo})
+  id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.KbAttachmentTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromRecord(TargetedDataRecord<KbAttachmentTableInfo>)
+  nameWithType: KbAttachmentRecordDataExtensions.FromRecord(TargetedDataRecord<KbAttachmentTableInfo>)
+  fullName: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.KbAttachmentTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedDataRecord&lt;KbAttachmentTableInfo>, create and populate a <xref href=\"SuperOffice.CRM.Rows.KbAttachmentRecordData\" data-throw-if-not-resolved=\"false\"></xref> POCO object\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                /* add joins, return fields etc. as you wish */
+                s.ReturnFields.Add(s.Table.All);
+                var result = s.Records().Select(r => new { KbAttachmentItem = r.FromRecord(), /* fetch other fields here */ });</code></pre>
+  syntax:
+    content: public static KbAttachmentRecordData FromRecord(this TargetedDataRecord<KbAttachmentTableInfo> record)
+    parameters:
+    - id: record
+      type: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.KbAttachmentTableInfo}
+    return:
+      type: SuperOffice.CRM.Rows.KbAttachmentRecordData
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromRecord(record As TargetedDataRecord(Of KbAttachmentTableInfo)) As KbAttachmentRecordData
+  overload: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.FromRecord*
+  nameWithType.vb: KbAttachmentRecordDataExtensions.FromRecord(TargetedDataRecord(Of KbAttachmentTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.KbAttachmentTableInfo))
+  name.vb: FromRecord(TargetedDataRecord(Of KbAttachmentTableInfo))
+- uid: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbAttachmentRecordData)
+  commentId: M:SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbAttachmentRecordData)
+  id: ToInsert(SuperOffice.CRM.Rows.KbAttachmentRecordData)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInsert(KbAttachmentRecordData)
+  nameWithType: KbAttachmentRecordDataExtensions.ToInsert(KbAttachmentRecordData)
+  fullName: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbAttachmentRecordData)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static Insert ToInsert(this KbAttachmentRecordData record)
+    parameters:
+    - id: record
+      type: SuperOffice.CRM.Rows.KbAttachmentRecordData
+    return:
+      type: SuperOffice.Data.SQL.Insert
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInsert(record As KbAttachmentRecordData) As Insert
+  overload: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.ToInsert*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbAttachmentRecordData})
+  commentId: M:SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbAttachmentRecordData})
+  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbAttachmentRecordData})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInserts(IEnumerable<KbAttachmentRecordData>)
+  nameWithType: KbAttachmentRecordDataExtensions.ToInserts(IEnumerable<KbAttachmentRecordData>)
+  fullName: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.KbAttachmentRecordData>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<KbAttachmentRecordData> records)
+    parameters:
+    - id: records
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbAttachmentRecordData}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInserts(records As IEnumerable(Of KbAttachmentRecordData)) As IEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.ToInserts*
+  nameWithType.vb: KbAttachmentRecordDataExtensions.ToInserts(IEnumerable(Of KbAttachmentRecordData))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.KbAttachmentRecordData))
+  name.vb: ToInserts(IEnumerable(Of KbAttachmentRecordData))
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: KbAttachmentRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.FromSelect
+- uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbAttachmentTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbAttachmentTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedSelect`1
+  name: TargetedSelect<KbAttachmentTableInfo>
+  nameWithType: TargetedSelect<KbAttachmentTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.KbAttachmentTableInfo>
+  nameWithType.vb: TargetedSelect(Of KbAttachmentTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.KbAttachmentTableInfo)
+  name.vb: TargetedSelect(Of KbAttachmentTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.KbAttachmentTableInfo
+    name: KbAttachmentTableInfo
+    nameWithType: KbAttachmentTableInfo
+    fullName: SuperOffice.CRM.Data.KbAttachmentTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.KbAttachmentTableInfo
+    name: KbAttachmentTableInfo
+    nameWithType: KbAttachmentTableInfo
+    fullName: SuperOffice.CRM.Data.KbAttachmentTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbAttachmentRecordData}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbAttachmentRecordData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<KbAttachmentRecordData>
+  nameWithType: IEnumerable<KbAttachmentRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.KbAttachmentRecordData>
+  nameWithType.vb: IEnumerable(Of KbAttachmentRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.KbAttachmentRecordData)
+  name.vb: IEnumerable(Of KbAttachmentRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.KbAttachmentRecordData
+    name: KbAttachmentRecordData
+    nameWithType: KbAttachmentRecordData
+    fullName: SuperOffice.CRM.Rows.KbAttachmentRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.KbAttachmentRecordData
+    name: KbAttachmentRecordData
+    nameWithType: KbAttachmentRecordData
+    fullName: SuperOffice.CRM.Rows.KbAttachmentRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedSelect`1
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect`1
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TargetedSelect<MainTableInfo>
+  nameWithType: TargetedSelect<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<MainTableInfo>
+  nameWithType.vb: TargetedSelect(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of MainTableInfo)
+  name.vb: TargetedSelect(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.FromRecord*
+  commentId: Overload:SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.FromRecord
+  isExternal: true
+  name: FromRecord
+  nameWithType: KbAttachmentRecordDataExtensions.FromRecord
+  fullName: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.FromRecord
+- uid: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.KbAttachmentTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.KbAttachmentTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedDataRecord`1
+  name: TargetedDataRecord<KbAttachmentTableInfo>
+  nameWithType: TargetedDataRecord<KbAttachmentTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.KbAttachmentTableInfo>
+  nameWithType.vb: TargetedDataRecord(Of KbAttachmentTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.KbAttachmentTableInfo)
+  name.vb: TargetedDataRecord(Of KbAttachmentTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.KbAttachmentTableInfo
+    name: KbAttachmentTableInfo
+    nameWithType: KbAttachmentTableInfo
+    fullName: SuperOffice.CRM.Data.KbAttachmentTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.KbAttachmentTableInfo
+    name: KbAttachmentTableInfo
+    nameWithType: KbAttachmentTableInfo
+    fullName: SuperOffice.CRM.Data.KbAttachmentTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.KbAttachmentRecordData
+  commentId: T:SuperOffice.CRM.Rows.KbAttachmentRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: KbAttachmentRecordData
+  nameWithType: KbAttachmentRecordData
+  fullName: SuperOffice.CRM.Rows.KbAttachmentRecordData
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord`1
+  isExternal: true
+  name: TargetedDataRecord<MainTableInfo>
+  nameWithType: TargetedDataRecord<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo)
+  name.vb: TargetedDataRecord(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.ToInsert*
+  commentId: Overload:SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.ToInsert
+  isExternal: true
+  name: ToInsert
+  nameWithType: KbAttachmentRecordDataExtensions.ToInsert
+  fullName: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.ToInsert
+- uid: SuperOffice.Data.SQL.Insert
+  commentId: T:SuperOffice.Data.SQL.Insert
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Insert
+  nameWithType: Insert
+  fullName: SuperOffice.Data.SQL.Insert
+- uid: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.ToInserts*
+  commentId: Overload:SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.ToInserts
+  isExternal: true
+  name: ToInserts
+  nameWithType: KbAttachmentRecordDataExtensions.ToInserts
+  fullName: SuperOffice.CRM.Rows.KbAttachmentRecordDataExtensions.ToInserts
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Insert>
+  nameWithType: IEnumerable<Insert>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,1171 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.RecordSetProvider
+  commentId: T:SuperOffice.Data.RecordSetProvider
+  id: RecordSetProvider
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.RecordSetProvider.#ctor
+  - SuperOffice.Data.RecordSetProvider.Delimiter
+  - SuperOffice.Data.RecordSetProvider.GetRecordsFor``1(``0)
+  - SuperOffice.Data.RecordSetProvider.GetRecordsFor``1(``0,System.String)
+  langs:
+  - csharp
+  - vb
+  name: RecordSetProvider
+  nameWithType: RecordSetProvider
+  fullName: SuperOffice.Data.RecordSetProvider
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nClass which can convert entities into sets of <xref href=\"SuperOffice.Data.Record\" data-throw-if-not-resolved=\"false\"></xref>-instances.\n"
+  syntax:
+    content: >-
+      [SoInject]
+
+      public class RecordSetProvider : IRecordSetProvider
+    content.vb: >-
+      <SoInject>
+
+      Public Class RecordSetProvider
+          Implements IRecordSetProvider
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Data.IRecordSetProvider
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Data.RecordSetProvider.EnumUtil.MapEnums``2
+  - SuperOffice.Data.RecordSetProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.RecordSetProvider)
+  - SuperOffice.Data.RecordSetProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.RecordSetProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Factory.SoInjectAttribute
+    ctor: SuperOffice.Factory.SoInjectAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Data.RecordSetProvider.GetRecordsFor``1(``0)
+  commentId: M:SuperOffice.Data.RecordSetProvider.GetRecordsFor``1(``0)
+  id: GetRecordsFor``1(``0)
+  parent: SuperOffice.Data.RecordSetProvider
+  langs:
+  - csharp
+  - vb
+  name: GetRecordsFor<T>(T)
+  nameWithType: RecordSetProvider.GetRecordsFor<T>(T)
+  fullName: SuperOffice.Data.RecordSetProvider.GetRecordsFor<T>(T)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nConverts the provided entity into a set of records.\n"
+  syntax:
+    content: public IEnumerable<Record> GetRecordsFor<T>(T instance)
+    parameters:
+    - id: instance
+      type: '{T}'
+      description: The instance to convert.
+    typeParameters:
+    - id: T
+      description: The type of entity to convert.
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.Record}
+      description: A set of records.
+    content.vb: Public Function GetRecordsFor(Of T)(instance As T) As IEnumerable(Of Record)
+  overload: SuperOffice.Data.RecordSetProvider.GetRecordsFor*
+  implements:
+  - SuperOffice.Data.IRecordSetProvider.GetRecordsFor``1({T})
+  nameWithType.vb: RecordSetProvider.GetRecordsFor(Of T)(T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.RecordSetProvider.GetRecordsFor(Of T)(T)
+  name.vb: GetRecordsFor(Of T)(T)
+- uid: SuperOffice.Data.RecordSetProvider.GetRecordsFor``1(``0,System.String)
+  commentId: M:SuperOffice.Data.RecordSetProvider.GetRecordsFor``1(``0,System.String)
+  id: GetRecordsFor``1(``0,System.String)
+  parent: SuperOffice.Data.RecordSetProvider
+  langs:
+  - csharp
+  - vb
+  name: GetRecordsFor<T>(T, String)
+  nameWithType: RecordSetProvider.GetRecordsFor<T>(T, String)
+  fullName: SuperOffice.Data.RecordSetProvider.GetRecordsFor<T>(T, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nConverts the provided entity into a set of records.\n"
+  syntax:
+    content: public IEnumerable<Record> GetRecordsFor<T>(T instance, string rootName)
+    parameters:
+    - id: instance
+      type: '{T}'
+      description: The instance to convert.
+    - id: rootName
+      type: System.String
+      description: Name of the root record.
+    typeParameters:
+    - id: T
+      description: The type of entity to convert.
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.Record}
+      description: A set of records.
+    content.vb: Public Function GetRecordsFor(Of T)(instance As T, rootName As String) As IEnumerable(Of Record)
+  overload: SuperOffice.Data.RecordSetProvider.GetRecordsFor*
+  implements:
+  - SuperOffice.Data.IRecordSetProvider.GetRecordsFor``1({T},System.String)
+  nameWithType.vb: RecordSetProvider.GetRecordsFor(Of T)(T, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.RecordSetProvider.GetRecordsFor(Of T)(T, System.String)
+  name.vb: GetRecordsFor(Of T)(T, String)
+- uid: SuperOffice.Data.RecordSetProvider.#ctor
+  commentId: M:SuperOffice.Data.RecordSetProvider.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Data.RecordSetProvider
+  langs:
+  - csharp
+  - vb
+  name: RecordSetProvider()
+  nameWithType: RecordSetProvider.RecordSetProvider()
+  fullName: SuperOffice.Data.RecordSetProvider.RecordSetProvider()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public RecordSetProvider()
+    content.vb: Public Sub New
+  overload: SuperOffice.Data.RecordSetProvider.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.RecordSetProvider.Delimiter
+  commentId: P:SuperOffice.Data.RecordSetProvider.Delimiter
+  id: Delimiter
+  parent: SuperOffice.Data.RecordSetProvider
+  langs:
+  - csharp
+  - vb
+  name: Delimiter
+  nameWithType: RecordSetProvider.Delimiter
+  fullName: SuperOffice.Data.RecordSetProvider.Delimiter
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nGets or sets the delimiter used to delimit entity-bounderies when setting up the keys used\nfor Record-values.\n"
+  syntax:
+    content: public static string Delimiter { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property Delimiter As String
+  overload: SuperOffice.Data.RecordSetProvider.Delimiter*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.IRecordSetProvider
+  commentId: T:SuperOffice.Data.IRecordSetProvider
+  parent: SuperOffice.Data
+  isExternal: true
+  name: IRecordSetProvider
+  nameWithType: IRecordSetProvider
+  fullName: SuperOffice.Data.IRecordSetProvider
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.RecordSetProvider.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<RecordSetProvider, To>()
+  nameWithType: EnumUtil.MapEnums<RecordSetProvider, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.RecordSetProvider, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of RecordSetProvider, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.RecordSetProvider, To)()
+  name.vb: MapEnums(Of RecordSetProvider, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<RecordSetProvider, To>
+    nameWithType: EnumUtil.MapEnums<RecordSetProvider, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.RecordSetProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of RecordSetProvider, To)
+    nameWithType: EnumUtil.MapEnums(Of RecordSetProvider, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.RecordSetProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.RecordSetProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.RecordSetProvider)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<RecordSetProvider>(RecordSetProvider)
+  nameWithType: ObjectExtensions.AssignByReflection<RecordSetProvider>(RecordSetProvider)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.RecordSetProvider>(SuperOffice.Data.RecordSetProvider)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of RecordSetProvider)(RecordSetProvider)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.RecordSetProvider)(SuperOffice.Data.RecordSetProvider)
+  name.vb: AssignByReflection(Of RecordSetProvider)(RecordSetProvider)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<RecordSetProvider>
+    nameWithType: ObjectExtensions.AssignByReflection<RecordSetProvider>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.RecordSetProvider>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.RecordSetProvider
+    name: RecordSetProvider
+    nameWithType: RecordSetProvider
+    fullName: SuperOffice.Data.RecordSetProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of RecordSetProvider)
+    nameWithType: ObjectExtensions.AssignByReflection(Of RecordSetProvider)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.RecordSetProvider)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.RecordSetProvider
+    name: RecordSetProvider
+    nameWithType: RecordSetProvider
+    fullName: SuperOffice.Data.RecordSetProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.RecordSetProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<RecordSetProvider>()
+  nameWithType: ObjectExtensions.GraphCopy<RecordSetProvider>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.RecordSetProvider>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of RecordSetProvider)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.RecordSetProvider)()
+  name.vb: GraphCopy(Of RecordSetProvider)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<RecordSetProvider>
+    nameWithType: ObjectExtensions.GraphCopy<RecordSetProvider>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.RecordSetProvider>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of RecordSetProvider)
+    nameWithType: ObjectExtensions.GraphCopy(Of RecordSetProvider)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.RecordSetProvider)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.RecordSetProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<RecordSetProvider, To>()
+  nameWithType: Converters.MapEnums<RecordSetProvider, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.RecordSetProvider, To>()
+  nameWithType.vb: Converters.MapEnums(Of RecordSetProvider, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.RecordSetProvider, To)()
+  name.vb: MapEnums(Of RecordSetProvider, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<RecordSetProvider, To>
+    nameWithType: Converters.MapEnums<RecordSetProvider, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.RecordSetProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of RecordSetProvider, To)
+    nameWithType: Converters.MapEnums(Of RecordSetProvider, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.RecordSetProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.RecordSetProvider.GetRecordsFor*
+  commentId: Overload:SuperOffice.Data.RecordSetProvider.GetRecordsFor
+  isExternal: true
+  name: GetRecordsFor
+  nameWithType: RecordSetProvider.GetRecordsFor
+  fullName: SuperOffice.Data.RecordSetProvider.GetRecordsFor
+- uid: SuperOffice.Data.IRecordSetProvider.GetRecordsFor``1({T})
+  commentId: M:SuperOffice.Data.IRecordSetProvider.GetRecordsFor``1(``0)
+  parent: SuperOffice.Data.IRecordSetProvider
+  definition: SuperOffice.Data.IRecordSetProvider.GetRecordsFor``1(``0)
+  name: GetRecordsFor<T>(T)
+  nameWithType: IRecordSetProvider.GetRecordsFor<T>(T)
+  fullName: SuperOffice.Data.IRecordSetProvider.GetRecordsFor<T>(T)
+  nameWithType.vb: IRecordSetProvider.GetRecordsFor(Of T)(T)
+  fullName.vb: SuperOffice.Data.IRecordSetProvider.GetRecordsFor(Of T)(T)
+  name.vb: GetRecordsFor(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Data.IRecordSetProvider.GetRecordsFor``1(``0)
+    name: GetRecordsFor<T>
+    nameWithType: IRecordSetProvider.GetRecordsFor<T>
+    fullName: SuperOffice.Data.IRecordSetProvider.GetRecordsFor<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.IRecordSetProvider.GetRecordsFor``1(``0)
+    name: GetRecordsFor(Of T)
+    nameWithType: IRecordSetProvider.GetRecordsFor(Of T)
+    fullName: SuperOffice.Data.IRecordSetProvider.GetRecordsFor(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.Record}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.Record}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Record>
+  nameWithType: IEnumerable<Record>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.Record>
+  nameWithType.vb: IEnumerable(Of Record)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.Record)
+  name.vb: IEnumerable(Of Record)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.Record
+    name: Record
+    nameWithType: Record
+    fullName: SuperOffice.Data.Record
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.Record
+    name: Record
+    nameWithType: Record
+    fullName: SuperOffice.Data.Record
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.IRecordSetProvider.GetRecordsFor``1(``0)
+  commentId: M:SuperOffice.Data.IRecordSetProvider.GetRecordsFor``1(``0)
+  isExternal: true
+  name: GetRecordsFor<T>(T)
+  nameWithType: IRecordSetProvider.GetRecordsFor<T>(T)
+  fullName: SuperOffice.Data.IRecordSetProvider.GetRecordsFor<T>(T)
+  nameWithType.vb: IRecordSetProvider.GetRecordsFor(Of T)(T)
+  fullName.vb: SuperOffice.Data.IRecordSetProvider.GetRecordsFor(Of T)(T)
+  name.vb: GetRecordsFor(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Data.IRecordSetProvider.GetRecordsFor``1(``0)
+    name: GetRecordsFor<T>
+    nameWithType: IRecordSetProvider.GetRecordsFor<T>
+    fullName: SuperOffice.Data.IRecordSetProvider.GetRecordsFor<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.IRecordSetProvider.GetRecordsFor``1(``0)
+    name: GetRecordsFor(Of T)
+    nameWithType: IRecordSetProvider.GetRecordsFor(Of T)
+    fullName: SuperOffice.Data.IRecordSetProvider.GetRecordsFor(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Data.IRecordSetProvider.GetRecordsFor``1({T},System.String)
+  commentId: M:SuperOffice.Data.IRecordSetProvider.GetRecordsFor``1(``0,System.String)
+  parent: SuperOffice.Data.IRecordSetProvider
+  definition: SuperOffice.Data.IRecordSetProvider.GetRecordsFor``1(``0,System.String)
+  name: GetRecordsFor<T>(T, String)
+  nameWithType: IRecordSetProvider.GetRecordsFor<T>(T, String)
+  fullName: SuperOffice.Data.IRecordSetProvider.GetRecordsFor<T>(T, System.String)
+  nameWithType.vb: IRecordSetProvider.GetRecordsFor(Of T)(T, String)
+  fullName.vb: SuperOffice.Data.IRecordSetProvider.GetRecordsFor(Of T)(T, System.String)
+  name.vb: GetRecordsFor(Of T)(T, String)
+  spec.csharp:
+  - uid: SuperOffice.Data.IRecordSetProvider.GetRecordsFor``1(``0,System.String)
+    name: GetRecordsFor<T>
+    nameWithType: IRecordSetProvider.GetRecordsFor<T>
+    fullName: SuperOffice.Data.IRecordSetProvider.GetRecordsFor<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.IRecordSetProvider.GetRecordsFor``1(``0,System.String)
+    name: GetRecordsFor(Of T)
+    nameWithType: IRecordSetProvider.GetRecordsFor(Of T)
+    fullName: SuperOffice.Data.IRecordSetProvider.GetRecordsFor(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.IRecordSetProvider.GetRecordsFor``1(``0,System.String)
+  commentId: M:SuperOffice.Data.IRecordSetProvider.GetRecordsFor``1(``0,System.String)
+  isExternal: true
+  name: GetRecordsFor<T>(T, String)
+  nameWithType: IRecordSetProvider.GetRecordsFor<T>(T, String)
+  fullName: SuperOffice.Data.IRecordSetProvider.GetRecordsFor<T>(T, System.String)
+  nameWithType.vb: IRecordSetProvider.GetRecordsFor(Of T)(T, String)
+  fullName.vb: SuperOffice.Data.IRecordSetProvider.GetRecordsFor(Of T)(T, System.String)
+  name.vb: GetRecordsFor(Of T)(T, String)
+  spec.csharp:
+  - uid: SuperOffice.Data.IRecordSetProvider.GetRecordsFor``1(``0,System.String)
+    name: GetRecordsFor<T>
+    nameWithType: IRecordSetProvider.GetRecordsFor<T>
+    fullName: SuperOffice.Data.IRecordSetProvider.GetRecordsFor<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.IRecordSetProvider.GetRecordsFor``1(``0,System.String)
+    name: GetRecordsFor(Of T)
+    nameWithType: IRecordSetProvider.GetRecordsFor(Of T)
+    fullName: SuperOffice.Data.IRecordSetProvider.GetRecordsFor(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.RecordSetProvider.#ctor*
+  commentId: Overload:SuperOffice.Data.RecordSetProvider.#ctor
+  isExternal: true
+  name: RecordSetProvider
+  nameWithType: RecordSetProvider.RecordSetProvider
+  fullName: SuperOffice.Data.RecordSetProvider.RecordSetProvider
+- uid: SuperOffice.Data.RecordSetProvider.Delimiter*
+  commentId: Overload:SuperOffice.Data.RecordSetProvider.Delimiter
+  isExternal: true
+  name: Delimiter
+  nameWithType: RecordSetProvider.Delimiter
+  fullName: SuperOffice.Data.RecordSetProvider.Delimiter

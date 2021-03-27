@@ -1,0 +1,215 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ChangedDataItem
+  commentId: T:SuperOffice.WebApi.Data.ChangedDataItem
+  id: ChangedDataItem
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ChangedDataItem.#ctor
+  - SuperOffice.WebApi.Data.ChangedDataItem.RecordId
+  - SuperOffice.WebApi.Data.ChangedDataItem.Tablename
+  langs:
+  - csharp
+  - vb
+  name: ChangedDataItem
+  nameWithType: ChangedDataItem
+  fullName: SuperOffice.WebApi.Data.ChangedDataItem
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ChangedDataItem.\nTablename/recordid pair used to refer to records    \n"
+  syntax:
+    content: 'public class ChangedDataItem : Carrier'
+    content.vb: >-
+      Public Class ChangedDataItem
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.QuoteAgent
+    commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ChangedDataItem.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ChangedDataItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ChangedDataItem
+  langs:
+  - csharp
+  - vb
+  name: ChangedDataItem()
+  nameWithType: ChangedDataItem.ChangedDataItem()
+  fullName: SuperOffice.WebApi.Data.ChangedDataItem.ChangedDataItem()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ChangedDataItem()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ChangedDataItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChangedDataItem.Tablename
+  commentId: P:SuperOffice.WebApi.Data.ChangedDataItem.Tablename
+  id: Tablename
+  parent: SuperOffice.WebApi.Data.ChangedDataItem
+  langs:
+  - csharp
+  - vb
+  name: Tablename
+  nameWithType: ChangedDataItem.Tablename
+  fullName: SuperOffice.WebApi.Data.ChangedDataItem.Tablename
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of table, standardized to lowercase\n"
+  syntax:
+    content: public virtual string Tablename { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tablename As String
+  overload: SuperOffice.WebApi.Data.ChangedDataItem.Tablename*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChangedDataItem.RecordId
+  commentId: P:SuperOffice.WebApi.Data.ChangedDataItem.RecordId
+  id: RecordId
+  parent: SuperOffice.WebApi.Data.ChangedDataItem
+  langs:
+  - csharp
+  - vb
+  name: RecordId
+  nameWithType: ChangedDataItem.RecordId
+  fullName: SuperOffice.WebApi.Data.ChangedDataItem.RecordId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nId of record, should never be 0\n"
+  syntax:
+    content: public virtual int RecordId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RecordId As Integer
+  overload: SuperOffice.WebApi.Data.ChangedDataItem.RecordId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.QuoteAgent
+  commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  isExternal: true
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.WebApi.Agents.QuoteAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ChangedDataItem.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ChangedDataItem.#ctor
+  isExternal: true
+  name: ChangedDataItem
+  nameWithType: ChangedDataItem.ChangedDataItem
+  fullName: SuperOffice.WebApi.Data.ChangedDataItem.ChangedDataItem
+- uid: SuperOffice.WebApi.Data.ChangedDataItem.Tablename*
+  commentId: Overload:SuperOffice.WebApi.Data.ChangedDataItem.Tablename
+  isExternal: true
+  name: Tablename
+  nameWithType: ChangedDataItem.Tablename
+  fullName: SuperOffice.WebApi.Data.ChangedDataItem.Tablename
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ChangedDataItem.RecordId*
+  commentId: Overload:SuperOffice.WebApi.Data.ChangedDataItem.RecordId
+  isExternal: true
+  name: RecordId
+  nameWithType: ChangedDataItem.RecordId
+  fullName: SuperOffice.WebApi.Data.ChangedDataItem.RecordId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person_ChangeCountryRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_ChangeCountryRequest
+  id: Person_ChangeCountryRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person_ChangeCountryRequest.#ctor
+  - SuperOffice.WebApi.Data.Person_ChangeCountryRequest.PersonEntity
+  - SuperOffice.WebApi.Data.Person_ChangeCountryRequest.ToCountryId
+  langs:
+  - csharp
+  - vb
+  name: Person_ChangeCountryRequest
+  nameWithType: Person_ChangeCountryRequest
+  fullName: SuperOffice.WebApi.Data.Person_ChangeCountryRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Person_ChangeCountryRequest : Object'
+    content.vb: >-
+      Public Class Person_ChangeCountryRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person_ChangeCountryRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person_ChangeCountryRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person_ChangeCountryRequest
+  langs:
+  - csharp
+  - vb
+  name: Person_ChangeCountryRequest()
+  nameWithType: Person_ChangeCountryRequest.Person_ChangeCountryRequest()
+  fullName: SuperOffice.WebApi.Data.Person_ChangeCountryRequest.Person_ChangeCountryRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Person_ChangeCountryRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person_ChangeCountryRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_ChangeCountryRequest.PersonEntity
+  commentId: P:SuperOffice.WebApi.Data.Person_ChangeCountryRequest.PersonEntity
+  id: PersonEntity
+  parent: SuperOffice.WebApi.Data.Person_ChangeCountryRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonEntity
+  nameWithType: Person_ChangeCountryRequest.PersonEntity
+  fullName: SuperOffice.WebApi.Data.Person_ChangeCountryRequest.PersonEntity
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public PersonEntity PersonEntity { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.PersonEntity
+    content.vb: Public Property PersonEntity As PersonEntity
+  overload: SuperOffice.WebApi.Data.Person_ChangeCountryRequest.PersonEntity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_ChangeCountryRequest.ToCountryId
+  commentId: P:SuperOffice.WebApi.Data.Person_ChangeCountryRequest.ToCountryId
+  id: ToCountryId
+  parent: SuperOffice.WebApi.Data.Person_ChangeCountryRequest
+  langs:
+  - csharp
+  - vb
+  name: ToCountryId
+  nameWithType: Person_ChangeCountryRequest.ToCountryId
+  fullName: SuperOffice.WebApi.Data.Person_ChangeCountryRequest.ToCountryId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ToCountryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ToCountryId As Integer
+  overload: SuperOffice.WebApi.Data.Person_ChangeCountryRequest.ToCountryId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person_ChangeCountryRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_ChangeCountryRequest.#ctor
+  isExternal: true
+  name: Person_ChangeCountryRequest
+  nameWithType: Person_ChangeCountryRequest.Person_ChangeCountryRequest
+  fullName: SuperOffice.WebApi.Data.Person_ChangeCountryRequest.Person_ChangeCountryRequest
+- uid: SuperOffice.WebApi.Data.Person_ChangeCountryRequest.PersonEntity*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_ChangeCountryRequest.PersonEntity
+  isExternal: true
+  name: PersonEntity
+  nameWithType: Person_ChangeCountryRequest.PersonEntity
+  fullName: SuperOffice.WebApi.Data.Person_ChangeCountryRequest.PersonEntity
+- uid: SuperOffice.WebApi.Data.PersonEntity
+  commentId: T:SuperOffice.WebApi.Data.PersonEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: PersonEntity
+  nameWithType: PersonEntity
+  fullName: SuperOffice.WebApi.Data.PersonEntity
+- uid: SuperOffice.WebApi.Data.Person_ChangeCountryRequest.ToCountryId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_ChangeCountryRequest.ToCountryId
+  isExternal: true
+  name: ToCountryId
+  nameWithType: Person_ChangeCountryRequest.ToCountryId
+  fullName: SuperOffice.WebApi.Data.Person_ChangeCountryRequest.ToCountryId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

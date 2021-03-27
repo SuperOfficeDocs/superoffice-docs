@@ -1,0 +1,613 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.EMailAddAddressObject
+  commentId: T:SuperOffice.CRM.Web.Data.EMailAddAddressObject
+  id: EMailAddAddressObject
+  parent: SuperOffice.CRM.Web.Data
+  children:
+  - SuperOffice.CRM.Web.Data.EMailAddAddressObject.#ctor
+  - SuperOffice.CRM.Web.Data.EMailAddAddressObject.Address
+  - SuperOffice.CRM.Web.Data.EMailAddAddressObject.ContactId
+  - SuperOffice.CRM.Web.Data.EMailAddAddressObject.Name
+  - SuperOffice.CRM.Web.Data.EMailAddAddressObject.PersonId
+  - SuperOffice.CRM.Web.Data.EMailAddAddressObject.RawAddress
+  - SuperOffice.CRM.Web.Data.EMailAddAddressObject.Task
+  langs:
+  - csharp
+  - vb
+  name: EMailAddAddressObject
+  nameWithType: EMailAddAddressObject
+  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressObject
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public class EMailAddAddressObject
+    content.vb: Public Class EMailAddAddressObject
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Data.EMailAddAddressObject.#ctor
+  commentId: M:SuperOffice.CRM.Web.Data.EMailAddAddressObject.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Data.EMailAddAddressObject
+  langs:
+  - csharp
+  - vb
+  name: EMailAddAddressObject()
+  nameWithType: EMailAddAddressObject.EMailAddAddressObject()
+  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressObject.EMailAddAddressObject()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public EMailAddAddressObject()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Data.EMailAddAddressObject.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.EMailAddAddressObject.RawAddress
+  commentId: P:SuperOffice.CRM.Web.Data.EMailAddAddressObject.RawAddress
+  id: RawAddress
+  parent: SuperOffice.CRM.Web.Data.EMailAddAddressObject
+  langs:
+  - csharp
+  - vb
+  name: RawAddress
+  nameWithType: EMailAddAddressObject.RawAddress
+  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressObject.RawAddress
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string RawAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RawAddress As String
+  overload: SuperOffice.CRM.Web.Data.EMailAddAddressObject.RawAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.EMailAddAddressObject.Task
+  commentId: P:SuperOffice.CRM.Web.Data.EMailAddAddressObject.Task
+  id: Task
+  parent: SuperOffice.CRM.Web.Data.EMailAddAddressObject
+  langs:
+  - csharp
+  - vb
+  name: Task
+  nameWithType: EMailAddAddressObject.Task
+  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressObject.Task
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public EMailAddAddressTask Task { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Web.Data.EMailAddAddressTask
+    content.vb: Public Property Task As EMailAddAddressTask
+  overload: SuperOffice.CRM.Web.Data.EMailAddAddressObject.Task*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.EMailAddAddressObject.ContactId
+  commentId: P:SuperOffice.CRM.Web.Data.EMailAddAddressObject.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Web.Data.EMailAddAddressObject
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: EMailAddAddressObject.ContactId
+  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressObject.ContactId
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ContactId As Integer
+  overload: SuperOffice.CRM.Web.Data.EMailAddAddressObject.ContactId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.EMailAddAddressObject.PersonId
+  commentId: P:SuperOffice.CRM.Web.Data.EMailAddAddressObject.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Web.Data.EMailAddAddressObject
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: EMailAddAddressObject.PersonId
+  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressObject.PersonId
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.CRM.Web.Data.EMailAddAddressObject.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.EMailAddAddressObject.Name
+  commentId: P:SuperOffice.CRM.Web.Data.EMailAddAddressObject.Name
+  id: Name
+  parent: SuperOffice.CRM.Web.Data.EMailAddAddressObject
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: EMailAddAddressObject.Name
+  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressObject.Name
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: SuperOffice.CRM.Web.Data.EMailAddAddressObject.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.Data.EMailAddAddressObject.Address
+  commentId: P:SuperOffice.CRM.Web.Data.EMailAddAddressObject.Address
+  id: Address
+  parent: SuperOffice.CRM.Web.Data.EMailAddAddressObject
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: EMailAddAddressObject.Address
+  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressObject.Address
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string Address { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Address As String
+  overload: SuperOffice.CRM.Web.Data.EMailAddAddressObject.Address*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Web.Data
+  commentId: N:SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: SuperOffice.CRM.Web.Data
+  nameWithType: SuperOffice.CRM.Web.Data
+  fullName: SuperOffice.CRM.Web.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Data.EMailAddAddressObject.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAddAddressObject.#ctor
+  isExternal: true
+  name: EMailAddAddressObject
+  nameWithType: EMailAddAddressObject.EMailAddAddressObject
+  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressObject.EMailAddAddressObject
+- uid: SuperOffice.CRM.Web.Data.EMailAddAddressObject.RawAddress*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAddAddressObject.RawAddress
+  isExternal: true
+  name: RawAddress
+  nameWithType: EMailAddAddressObject.RawAddress
+  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressObject.RawAddress
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Data.EMailAddAddressObject.Task*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAddAddressObject.Task
+  isExternal: true
+  name: Task
+  nameWithType: EMailAddAddressObject.Task
+  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressObject.Task
+- uid: SuperOffice.CRM.Web.Data.EMailAddAddressTask
+  commentId: T:SuperOffice.CRM.Web.Data.EMailAddAddressTask
+  parent: SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: EMailAddAddressTask
+  nameWithType: EMailAddAddressTask
+  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressTask
+- uid: SuperOffice.CRM.Web.Data.EMailAddAddressObject.ContactId*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAddAddressObject.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: EMailAddAddressObject.ContactId
+  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressObject.ContactId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.Data.EMailAddAddressObject.PersonId*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAddAddressObject.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: EMailAddAddressObject.PersonId
+  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressObject.PersonId
+- uid: SuperOffice.CRM.Web.Data.EMailAddAddressObject.Name*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAddAddressObject.Name
+  isExternal: true
+  name: Name
+  nameWithType: EMailAddAddressObject.Name
+  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressObject.Name
+- uid: SuperOffice.CRM.Web.Data.EMailAddAddressObject.Address*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAddAddressObject.Address
+  isExternal: true
+  name: Address
+  nameWithType: EMailAddAddressObject.Address
+  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressObject.Address

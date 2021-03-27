@@ -1,0 +1,557 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields
+  commentId: T:SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields
+  id: DBC.DbiAgentScheduleFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.AgentId
+  - SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.DbiAgentScheduleId
+  - SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.IdString
+  - SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.ReceivedObjects
+  - SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.ScheduleId
+  - SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.ScriptId
+  - SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.SentObjects
+  langs:
+  - csharp
+  - vb
+  name: DBC.DbiAgentScheduleFields
+  nameWithType: DBC.DbiAgentScheduleFields
+  fullName: SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for DbiAgentSchedule, DBI agent schedule settings\n"
+  syntax:
+    content: public static class DbiAgentScheduleFields
+    content.vb: Public Module DbiAgentScheduleFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.DbiAgentScheduleId
+  commentId: F:SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.DbiAgentScheduleId
+  id: DbiAgentScheduleId
+  parent: SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: DbiAgentScheduleId
+  nameWithType: DBC.DbiAgentScheduleFields.DbiAgentScheduleId
+  fullName: SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.DbiAgentScheduleId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDbiAgentSchedule.DbiAgentScheduleId: Primary key\n"
+  syntax:
+    content: public const string DbiAgentScheduleId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const DbiAgentScheduleId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.AgentId
+  commentId: F:SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.AgentId
+  id: AgentId
+  parent: SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: AgentId
+  nameWithType: DBC.DbiAgentScheduleFields.AgentId
+  fullName: SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.AgentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDbiAgentSchedule.AgentId: Agent\n"
+  syntax:
+    content: public const string AgentId = "agent_id"
+    return:
+      type: System.String
+    content.vb: Public Const AgentId As String = "agent_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.ScriptId
+  commentId: F:SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.ScriptId
+  id: ScriptId
+  parent: SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: ScriptId
+  nameWithType: DBC.DbiAgentScheduleFields.ScriptId
+  fullName: SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.ScriptId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDbiAgentSchedule.ScriptId: Communication script\n"
+  syntax:
+    content: public const string ScriptId = "script_id"
+    return:
+      type: System.String
+    content.vb: Public Const ScriptId As String = "script_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.ScheduleId
+  commentId: F:SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.ScheduleId
+  id: ScheduleId
+  parent: SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: ScheduleId
+  nameWithType: DBC.DbiAgentScheduleFields.ScheduleId
+  fullName: SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.ScheduleId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDbiAgentSchedule.ScheduleId: Update schedule\n"
+  syntax:
+    content: public const string ScheduleId = "schedule_id"
+    return:
+      type: System.String
+    content.vb: Public Const ScheduleId As String = "schedule_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.SentObjects
+  commentId: F:SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.SentObjects
+  id: SentObjects
+  parent: SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: SentObjects
+  nameWithType: DBC.DbiAgentScheduleFields.SentObjects
+  fullName: SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.SentObjects
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDbiAgentSchedule.SentObjects: Number of objects sent during the last syncronization\n"
+  syntax:
+    content: public const string SentObjects = "sent_objects"
+    return:
+      type: System.String
+    content.vb: Public Const SentObjects As String = "sent_objects"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.ReceivedObjects
+  commentId: F:SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.ReceivedObjects
+  id: ReceivedObjects
+  parent: SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: ReceivedObjects
+  nameWithType: DBC.DbiAgentScheduleFields.ReceivedObjects
+  fullName: SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.ReceivedObjects
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDbiAgentSchedule.ReceivedObjects: Number of objects received during the last syncronization\n"
+  syntax:
+    content: public const string ReceivedObjects = "received_objects"
+    return:
+      type: System.String
+    content.vb: Public Const ReceivedObjects As String = "received_objects"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.IdString
+  commentId: F:SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.IdString
+  id: IdString
+  parent: SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields
+  langs:
+  - csharp
+  - vb
+  name: IdString
+  nameWithType: DBC.DbiAgentScheduleFields.IdString
+  fullName: SuperOffice.CRM.Data.DBC.DbiAgentScheduleFields.IdString
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDbiAgentSchedule.IdString: A field for an id_string which may be used to access the agent schedule\n"
+  syntax:
+    content: public const string IdString = "id_string"
+    return:
+      type: System.String
+    content.vb: Public Const IdString As String = "id_string"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

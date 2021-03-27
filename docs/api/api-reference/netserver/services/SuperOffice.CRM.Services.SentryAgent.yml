@@ -1,0 +1,1269 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.SentryAgent
+  commentId: T:SuperOffice.CRM.Services.SentryAgent
+  id: SentryAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.SentryAgent.#ctor
+  - SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAllDiaries
+  - SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32[])
+  - SuperOffice.CRM.Services.SentryAgent.GetFunctionRights
+  - SuperOffice.CRM.Services.SentryAgent.GetNewTableRight(System.String)
+  - SuperOffice.CRM.Services.SentryAgent.GetTableRightByContactOwnership(System.String,System.Int32)
+  - SuperOffice.CRM.Services.SentryAgent.GetTableRightByOwnership(System.String,System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.SentryAgent.HasFunctionRight(System.String)
+  langs:
+  - csharp
+  - vb
+  name: SentryAgent
+  nameWithType: SentryAgent
+  fullName: SuperOffice.CRM.Services.SentryAgent
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFacade for the Sentry Agent\nData and function right queries\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (SentryAgent agent = new SentryAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: 'public class SentryAgent : AgentBase<ISentryAgent>, IDisposable, ISentryAgent, IAgent'
+    content.vb: >-
+      Public Class SentryAgent
+          Inherits AgentBase(Of ISentryAgent)
+          Implements IDisposable, ISentryAgent, IAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISentryAgent}
+  implements:
+  - System.IDisposable
+  - SuperOffice.CRM.Services.ISentryAgent
+  - SuperOffice.CRM.Services.IAgent
+  inheritedMembers:
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISentryAgent}.Dispose
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISentryAgent}.InnerAgent
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.SentryAgent.GetNewTableRight(System.String)
+  commentId: M:SuperOffice.CRM.Services.SentryAgent.GetNewTableRight(System.String)
+  id: GetNewTableRight(System.String)
+  parent: SuperOffice.CRM.Services.SentryAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNewTableRight(String)
+  nameWithType: SentryAgent.GetNewTableRight(String)
+  fullName: SuperOffice.CRM.Services.SentryAgent.GetNewTableRight(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns a TableRight for a new row based on tableName parameter.\n"
+  syntax:
+    content: public TableRight GetNewTableRight(string tableName)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Name of the table to get the TableRights from
+    return:
+      type: SuperOffice.CRM.Security.TableRight
+      description: The TableRight
+    content.vb: Public Function GetNewTableRight(tableName As String) As TableRight
+  overload: SuperOffice.CRM.Services.SentryAgent.GetNewTableRight*
+  implements:
+  - SuperOffice.CRM.Services.ISentryAgent.GetNewTableRight(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SentryAgent.GetTableRightByOwnership(System.String,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.SentryAgent.GetTableRightByOwnership(System.String,System.Int32,System.Int32)
+  id: GetTableRightByOwnership(System.String,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.SentryAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTableRightByOwnership(String, Int32, Int32)
+  nameWithType: SentryAgent.GetTableRightByOwnership(String, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.SentryAgent.GetTableRightByOwnership(System.String, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturn the TableRight from the relationship between the current user and the given user and group.\n"
+  syntax:
+    content: public TableRight GetTableRightByOwnership(string tableName, int contactGroupId, int contactAssociateId)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Name of the table to get the TableRights from.
+    - id: contactGroupId
+      type: System.Int32
+      description: The user-group that the associate id is part of.
+    - id: contactAssociateId
+      type: System.Int32
+      description: The associate id of the owner of the record
+    return:
+      type: SuperOffice.CRM.Security.TableRight
+      description: The TableRight
+    content.vb: Public Function GetTableRightByOwnership(tableName As String, contactGroupId As Integer, contactAssociateId As Integer) As TableRight
+  overload: SuperOffice.CRM.Services.SentryAgent.GetTableRightByOwnership*
+  implements:
+  - SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnership(System.String,System.Int32,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SentryAgent.GetFunctionRights
+  commentId: M:SuperOffice.CRM.Services.SentryAgent.GetFunctionRights
+  id: GetFunctionRights
+  parent: SuperOffice.CRM.Services.SentryAgent
+  langs:
+  - csharp
+  - vb
+  name: GetFunctionRights()
+  nameWithType: SentryAgent.GetFunctionRights()
+  fullName: SuperOffice.CRM.Services.SentryAgent.GetFunctionRights()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a string array of all functions rights for the role of the current associate.\n"
+  syntax:
+    content: public string[] GetFunctionRights()
+    return:
+      type: System.String[]
+      description: >
+        String array.
+    content.vb: Public Function GetFunctionRights As String()
+  overload: SuperOffice.CRM.Services.SentryAgent.GetFunctionRights*
+  implements:
+  - SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SentryAgent.HasFunctionRight(System.String)
+  commentId: M:SuperOffice.CRM.Services.SentryAgent.HasFunctionRight(System.String)
+  id: HasFunctionRight(System.String)
+  parent: SuperOffice.CRM.Services.SentryAgent
+  langs:
+  - csharp
+  - vb
+  name: HasFunctionRight(String)
+  nameWithType: SentryAgent.HasFunctionRight(String)
+  fullName: SuperOffice.CRM.Services.SentryAgent.HasFunctionRight(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a boolean value indicating if the current user has the functional right.\n"
+  syntax:
+    content: public bool HasFunctionRight(string functionRight)
+    parameters:
+    - id: functionRight
+      type: System.String
+      description: Function right to check.
+    return:
+      type: System.Boolean
+    content.vb: Public Function HasFunctionRight(functionRight As String) As Boolean
+  overload: SuperOffice.CRM.Services.SentryAgent.HasFunctionRight*
+  implements:
+  - SuperOffice.CRM.Services.ISentryAgent.HasFunctionRight(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32[])
+  id: CanCreateAppointmentInAssociateDiaries(System.Int32[])
+  parent: SuperOffice.CRM.Services.SentryAgent
+  langs:
+  - csharp
+  - vb
+  name: CanCreateAppointmentInAssociateDiaries(Int32[])
+  nameWithType: SentryAgent.CanCreateAppointmentInAssociateDiaries(Int32[])
+  fullName: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCanCreateAppointmentInAssociateDiaries will check if the current associate can create appointments in diaries belonging to the associates listed in associateIds. CanCreateAppointmentInAssociateDiaries will only check against associates that are diary owners. If none of the associates listed in the associateIds parameter is a diary owner, the method will return true.\n"
+  syntax:
+    content: public bool CanCreateAppointmentInAssociateDiaries(int[] associateIds)
+    parameters:
+    - id: associateIds
+      type: System.Int32[]
+      description: Array of associate ids to check.
+    return:
+      type: System.Boolean
+      description: Returns true if the current associate can create appointments in the diary of all the other associates, otherwise false.
+    content.vb: Public Function CanCreateAppointmentInAssociateDiaries(associateIds As Integer()) As Boolean
+  overload: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiaries*
+  implements:
+  - SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32[])
+  nameWithType.vb: SentryAgent.CanCreateAppointmentInAssociateDiaries(Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32())
+  name.vb: CanCreateAppointmentInAssociateDiaries(Int32())
+- uid: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAllDiaries
+  commentId: M:SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAllDiaries
+  id: CanCreateAppointmentInAllDiaries
+  parent: SuperOffice.CRM.Services.SentryAgent
+  langs:
+  - csharp
+  - vb
+  name: CanCreateAppointmentInAllDiaries()
+  nameWithType: SentryAgent.CanCreateAppointmentInAllDiaries()
+  fullName: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAllDiaries()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCanCreateAppointmentInAllDiaries will check if the current associate can create appointments in diaries belonging all other associates. CanCreateAppointmentInAssociateDiaries will only check against associates that are diary owners.\n"
+  syntax:
+    content: public bool CanCreateAppointmentInAllDiaries()
+    return:
+      type: System.Boolean
+      description: Returns true if the current associate can create appointments in the diary of all the other associates, otherwise false.
+    content.vb: Public Function CanCreateAppointmentInAllDiaries As Boolean
+  overload: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAllDiaries*
+  implements:
+  - SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SentryAgent.GetTableRightByContactOwnership(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.SentryAgent.GetTableRightByContactOwnership(System.String,System.Int32)
+  id: GetTableRightByContactOwnership(System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.SentryAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTableRightByContactOwnership(String, Int32)
+  nameWithType: SentryAgent.GetTableRightByContactOwnership(String, Int32)
+  fullName: SuperOffice.CRM.Services.SentryAgent.GetTableRightByContactOwnership(System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturn the TableRight from the relationship between the current user and the given user and group.\n"
+  syntax:
+    content: public TableRight GetTableRightByContactOwnership(string tableName, int contactId)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Name of the table to get the TableRights from.
+    - id: contactId
+      type: System.Int32
+      description: The owner contact.
+    return:
+      type: SuperOffice.CRM.Security.TableRight
+      description: The TableRight
+    content.vb: Public Function GetTableRightByContactOwnership(tableName As String, contactId As Integer) As TableRight
+  overload: SuperOffice.CRM.Services.SentryAgent.GetTableRightByContactOwnership*
+  implements:
+  - SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnership(System.String,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SentryAgent.#ctor
+  commentId: M:SuperOffice.CRM.Services.SentryAgent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.SentryAgent
+  langs:
+  - csharp
+  - vb
+  name: SentryAgent()
+  nameWithType: SentryAgent.SentryAgent()
+  fullName: SuperOffice.CRM.Services.SentryAgent.SentryAgent()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public SentryAgent()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.SentryAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISentryAgent}
+  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISentryAgent}
+  parent: SuperOffice.CRM.Services
+  definition: SuperOffice.CRM.Services.AgentBase`1
+  name: AgentBase<ISentryAgent>
+  nameWithType: AgentBase<ISentryAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.ISentryAgent>
+  nameWithType.vb: AgentBase(Of ISentryAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.ISentryAgent)
+  name.vb: AgentBase(Of ISentryAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.ISentryAgent
+    name: ISentryAgent
+    nameWithType: ISentryAgent
+    fullName: SuperOffice.CRM.Services.ISentryAgent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.ISentryAgent
+    name: ISentryAgent
+    nameWithType: ISentryAgent
+    fullName: SuperOffice.CRM.Services.ISentryAgent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.CRM.Services.ISentryAgent
+  commentId: T:SuperOffice.CRM.Services.ISentryAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ISentryAgent
+  nameWithType: ISentryAgent
+  fullName: SuperOffice.CRM.Services.ISentryAgent
+- uid: SuperOffice.CRM.Services.IAgent
+  commentId: T:SuperOffice.CRM.Services.IAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAgent
+  nameWithType: IAgent
+  fullName: SuperOffice.CRM.Services.IAgent
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISentryAgent}.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISentryAgent}.Dispose
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISentryAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  name: Dispose()
+  nameWithType: AgentBase<ISentryAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.ISentryAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of ISentryAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.ISentryAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<ISentryAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.ISentryAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of ISentryAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.ISentryAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISentryAgent}.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISentryAgent}.InnerAgent
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISentryAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  name: InnerAgent
+  nameWithType: AgentBase<ISentryAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.ISentryAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of ISentryAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.ISentryAgent).InnerAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AgentBase`1
+  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+  isExternal: true
+  name: AgentBase<TAgent>
+  nameWithType: AgentBase<TAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
+  nameWithType.vb: AgentBase(Of TAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
+  name.vb: AgentBase(Of TAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase<TAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of TAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  isExternal: true
+  name: InnerAgent
+  nameWithType: AgentBase<TAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
+- uid: SuperOffice.CRM.Services.SentryAgent.GetNewTableRight*
+  commentId: Overload:SuperOffice.CRM.Services.SentryAgent.GetNewTableRight
+  isExternal: true
+  name: GetNewTableRight
+  nameWithType: SentryAgent.GetNewTableRight
+  fullName: SuperOffice.CRM.Services.SentryAgent.GetNewTableRight
+- uid: SuperOffice.CRM.Services.ISentryAgent.GetNewTableRight(System.String)
+  commentId: M:SuperOffice.CRM.Services.ISentryAgent.GetNewTableRight(System.String)
+  parent: SuperOffice.CRM.Services.ISentryAgent
+  isExternal: true
+  name: GetNewTableRight(String)
+  nameWithType: ISentryAgent.GetNewTableRight(String)
+  fullName: SuperOffice.CRM.Services.ISentryAgent.GetNewTableRight(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISentryAgent.GetNewTableRight(System.String)
+    name: GetNewTableRight
+    nameWithType: ISentryAgent.GetNewTableRight
+    fullName: SuperOffice.CRM.Services.ISentryAgent.GetNewTableRight
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISentryAgent.GetNewTableRight(System.String)
+    name: GetNewTableRight
+    nameWithType: ISentryAgent.GetNewTableRight
+    fullName: SuperOffice.CRM.Services.ISentryAgent.GetNewTableRight
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Security.TableRight
+  isExternal: true
+  name: TableRight
+  nameWithType: TableRight
+  fullName: SuperOffice.CRM.Security.TableRight
+- uid: SuperOffice.CRM.Services.SentryAgent.GetTableRightByOwnership*
+  commentId: Overload:SuperOffice.CRM.Services.SentryAgent.GetTableRightByOwnership
+  isExternal: true
+  name: GetTableRightByOwnership
+  nameWithType: SentryAgent.GetTableRightByOwnership
+  fullName: SuperOffice.CRM.Services.SentryAgent.GetTableRightByOwnership
+- uid: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnership(System.String,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnership(System.String,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.ISentryAgent
+  isExternal: true
+  name: GetTableRightByOwnership(String, Int32, Int32)
+  nameWithType: ISentryAgent.GetTableRightByOwnership(String, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnership(System.String, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnership(System.String,System.Int32,System.Int32)
+    name: GetTableRightByOwnership
+    nameWithType: ISentryAgent.GetTableRightByOwnership
+    fullName: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnership
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnership(System.String,System.Int32,System.Int32)
+    name: GetTableRightByOwnership
+    nameWithType: ISentryAgent.GetTableRightByOwnership
+    fullName: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnership
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.SentryAgent.GetFunctionRights*
+  commentId: Overload:SuperOffice.CRM.Services.SentryAgent.GetFunctionRights
+  isExternal: true
+  name: GetFunctionRights
+  nameWithType: SentryAgent.GetFunctionRights
+  fullName: SuperOffice.CRM.Services.SentryAgent.GetFunctionRights
+- uid: SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights
+  commentId: M:SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights
+  parent: SuperOffice.CRM.Services.ISentryAgent
+  isExternal: true
+  name: GetFunctionRights()
+  nameWithType: ISentryAgent.GetFunctionRights()
+  fullName: SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights
+    name: GetFunctionRights
+    nameWithType: ISentryAgent.GetFunctionRights
+    fullName: SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights
+    name: GetFunctionRights
+    nameWithType: ISentryAgent.GetFunctionRights
+    fullName: SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.SentryAgent.HasFunctionRight*
+  commentId: Overload:SuperOffice.CRM.Services.SentryAgent.HasFunctionRight
+  isExternal: true
+  name: HasFunctionRight
+  nameWithType: SentryAgent.HasFunctionRight
+  fullName: SuperOffice.CRM.Services.SentryAgent.HasFunctionRight
+- uid: SuperOffice.CRM.Services.ISentryAgent.HasFunctionRight(System.String)
+  commentId: M:SuperOffice.CRM.Services.ISentryAgent.HasFunctionRight(System.String)
+  parent: SuperOffice.CRM.Services.ISentryAgent
+  isExternal: true
+  name: HasFunctionRight(String)
+  nameWithType: ISentryAgent.HasFunctionRight(String)
+  fullName: SuperOffice.CRM.Services.ISentryAgent.HasFunctionRight(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISentryAgent.HasFunctionRight(System.String)
+    name: HasFunctionRight
+    nameWithType: ISentryAgent.HasFunctionRight
+    fullName: SuperOffice.CRM.Services.ISentryAgent.HasFunctionRight
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISentryAgent.HasFunctionRight(System.String)
+    name: HasFunctionRight
+    nameWithType: ISentryAgent.HasFunctionRight
+    fullName: SuperOffice.CRM.Services.ISentryAgent.HasFunctionRight
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiaries*
+  commentId: Overload:SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiaries
+  isExternal: true
+  name: CanCreateAppointmentInAssociateDiaries
+  nameWithType: SentryAgent.CanCreateAppointmentInAssociateDiaries
+  fullName: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAssociateDiaries
+- uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32[])
+  parent: SuperOffice.CRM.Services.ISentryAgent
+  isExternal: true
+  name: CanCreateAppointmentInAssociateDiaries(Int32[])
+  nameWithType: ISentryAgent.CanCreateAppointmentInAssociateDiaries(Int32[])
+  fullName: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32[])
+  nameWithType.vb: ISentryAgent.CanCreateAppointmentInAssociateDiaries(Int32())
+  fullName.vb: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32())
+  name.vb: CanCreateAppointmentInAssociateDiaries(Int32())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32[])
+    name: CanCreateAppointmentInAssociateDiaries
+    nameWithType: ISentryAgent.CanCreateAppointmentInAssociateDiaries
+    fullName: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32[])
+    name: CanCreateAppointmentInAssociateDiaries
+    nameWithType: ISentryAgent.CanCreateAppointmentInAssociateDiaries
+    fullName: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAllDiaries*
+  commentId: Overload:SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAllDiaries
+  isExternal: true
+  name: CanCreateAppointmentInAllDiaries
+  nameWithType: SentryAgent.CanCreateAppointmentInAllDiaries
+  fullName: SuperOffice.CRM.Services.SentryAgent.CanCreateAppointmentInAllDiaries
+- uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries
+  commentId: M:SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries
+  parent: SuperOffice.CRM.Services.ISentryAgent
+  isExternal: true
+  name: CanCreateAppointmentInAllDiaries()
+  nameWithType: ISentryAgent.CanCreateAppointmentInAllDiaries()
+  fullName: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries
+    name: CanCreateAppointmentInAllDiaries
+    nameWithType: ISentryAgent.CanCreateAppointmentInAllDiaries
+    fullName: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries
+    name: CanCreateAppointmentInAllDiaries
+    nameWithType: ISentryAgent.CanCreateAppointmentInAllDiaries
+    fullName: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SentryAgent.GetTableRightByContactOwnership*
+  commentId: Overload:SuperOffice.CRM.Services.SentryAgent.GetTableRightByContactOwnership
+  isExternal: true
+  name: GetTableRightByContactOwnership
+  nameWithType: SentryAgent.GetTableRightByContactOwnership
+  fullName: SuperOffice.CRM.Services.SentryAgent.GetTableRightByContactOwnership
+- uid: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnership(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnership(System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.ISentryAgent
+  isExternal: true
+  name: GetTableRightByContactOwnership(String, Int32)
+  nameWithType: ISentryAgent.GetTableRightByContactOwnership(String, Int32)
+  fullName: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnership(System.String, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnership(System.String,System.Int32)
+    name: GetTableRightByContactOwnership
+    nameWithType: ISentryAgent.GetTableRightByContactOwnership
+    fullName: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnership
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnership(System.String,System.Int32)
+    name: GetTableRightByContactOwnership
+    nameWithType: ISentryAgent.GetTableRightByContactOwnership
+    fullName: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnership
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SentryAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.SentryAgent.#ctor
+  isExternal: true
+  name: SentryAgent
+  nameWithType: SentryAgent.SentryAgent
+  fullName: SuperOffice.CRM.Services.SentryAgent.SentryAgent

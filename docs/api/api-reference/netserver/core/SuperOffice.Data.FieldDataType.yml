@@ -1,0 +1,946 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.FieldDataType
+  commentId: T:SuperOffice.Data.FieldDataType
+  id: FieldDataType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.FieldDataType.dbBlob
+  - SuperOffice.Data.FieldDataType.dbDateLocal
+  - SuperOffice.Data.FieldDataType.dbDateTimeLocal
+  - SuperOffice.Data.FieldDataType.dbDateTimeUTC
+  - SuperOffice.Data.FieldDataType.dbDouble
+  - SuperOffice.Data.FieldDataType.dbExtendedDateTimeLocal
+  - SuperOffice.Data.FieldDataType.dbExtendedDateTimeUTC
+  - SuperOffice.Data.FieldDataType.dbInt
+  - SuperOffice.Data.FieldDataType.dbIntId
+  - SuperOffice.Data.FieldDataType.dbIntIdArr
+  - SuperOffice.Data.FieldDataType.dbNull
+  - SuperOffice.Data.FieldDataType.dbShort
+  - SuperOffice.Data.FieldDataType.dbShortId
+  - SuperOffice.Data.FieldDataType.dbString
+  - SuperOffice.Data.FieldDataType.dbStringBlob
+  - SuperOffice.Data.FieldDataType.dbTimeLocal
+  - SuperOffice.Data.FieldDataType.dbUInt
+  - SuperOffice.Data.FieldDataType.dbUShort
+  - SuperOffice.Data.FieldDataType.Undefined
+  langs:
+  - csharp
+  - vb
+  name: FieldDataType
+  nameWithType: FieldDataType
+  fullName: SuperOffice.Data.FieldDataType
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nDatatype of the field in the database\n"
+  syntax:
+    content: public enum FieldDataType
+    content.vb: Public Enum FieldDataType
+  extensionMethods:
+  - SuperOffice.Data.FieldDataType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.FieldDataType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.FieldDataType)
+  - SuperOffice.Data.FieldDataType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.FieldDataType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.FieldDataType.Undefined
+  commentId: F:SuperOffice.Data.FieldDataType.Undefined
+  id: Undefined
+  parent: SuperOffice.Data.FieldDataType
+  langs:
+  - csharp
+  - vb
+  name: Undefined
+  nameWithType: FieldDataType.Undefined
+  fullName: SuperOffice.Data.FieldDataType.Undefined
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: Undefined data type (error)\n"
+  syntax:
+    content: Undefined = 0
+    return:
+      type: SuperOffice.Data.FieldDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.FieldDataType.dbShortId
+  commentId: F:SuperOffice.Data.FieldDataType.dbShortId
+  id: dbShortId
+  parent: SuperOffice.Data.FieldDataType
+  langs:
+  - csharp
+  - vb
+  name: dbShortId
+  nameWithType: FieldDataType.dbShortId
+  fullName: SuperOffice.Data.FieldDataType.dbShortId
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Short integer (e.g. System.Int16) id.\n"
+  syntax:
+    content: dbShortId = 1
+    return:
+      type: SuperOffice.Data.FieldDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.FieldDataType.dbDateTimeUTC
+  commentId: F:SuperOffice.Data.FieldDataType.dbDateTimeUTC
+  id: dbDateTimeUTC
+  parent: SuperOffice.Data.FieldDataType
+  langs:
+  - csharp
+  - vb
+  name: dbDateTimeUTC
+  nameWithType: FieldDataType.dbDateTimeUTC
+  fullName: SuperOffice.Data.FieldDataType.dbDateTimeUTC
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: DateTime ( e.g. seconds since 01.01.1970) in UTC stored as an integer value in the database.\n"
+  syntax:
+    content: dbDateTimeUTC = 2
+    return:
+      type: SuperOffice.Data.FieldDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.FieldDataType.dbDouble
+  commentId: F:SuperOffice.Data.FieldDataType.dbDouble
+  id: dbDouble
+  parent: SuperOffice.Data.FieldDataType
+  langs:
+  - csharp
+  - vb
+  name: dbDouble
+  nameWithType: FieldDataType.dbDouble
+  fullName: SuperOffice.Data.FieldDataType.dbDouble
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n3: Double precision real (e.g. System.Double) value.\n"
+  syntax:
+    content: dbDouble = 3
+    return:
+      type: SuperOffice.Data.FieldDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.FieldDataType.dbInt
+  commentId: F:SuperOffice.Data.FieldDataType.dbInt
+  id: dbInt
+  parent: SuperOffice.Data.FieldDataType
+  langs:
+  - csharp
+  - vb
+  name: dbInt
+  nameWithType: FieldDataType.dbInt
+  fullName: SuperOffice.Data.FieldDataType.dbInt
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Integer (e.g. System.Int32) value.\n"
+  syntax:
+    content: dbInt = 4
+    return:
+      type: SuperOffice.Data.FieldDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.FieldDataType.dbIntId
+  commentId: F:SuperOffice.Data.FieldDataType.dbIntId
+  id: dbIntId
+  parent: SuperOffice.Data.FieldDataType
+  langs:
+  - csharp
+  - vb
+  name: dbIntId
+  nameWithType: FieldDataType.dbIntId
+  fullName: SuperOffice.Data.FieldDataType.dbIntId
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n5: Integer (e.g. System.Int32) id.\n"
+  syntax:
+    content: dbIntId = 5
+    return:
+      type: SuperOffice.Data.FieldDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.FieldDataType.dbDateTimeLocal
+  commentId: F:SuperOffice.Data.FieldDataType.dbDateTimeLocal
+  id: dbDateTimeLocal
+  parent: SuperOffice.Data.FieldDataType
+  langs:
+  - csharp
+  - vb
+  name: dbDateTimeLocal
+  nameWithType: FieldDataType.dbDateTimeLocal
+  fullName: SuperOffice.Data.FieldDataType.dbDateTimeLocal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n6: DateTime ( e.g. seconds since 01.01.1970) in Local time stored as an integer value in the database.\n"
+  syntax:
+    content: dbDateTimeLocal = 6
+    return:
+      type: SuperOffice.Data.FieldDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.FieldDataType.dbUShort
+  commentId: F:SuperOffice.Data.FieldDataType.dbUShort
+  id: dbUShort
+  parent: SuperOffice.Data.FieldDataType
+  langs:
+  - csharp
+  - vb
+  name: dbUShort
+  nameWithType: FieldDataType.dbUShort
+  fullName: SuperOffice.Data.FieldDataType.dbUShort
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n7: Unsigned short integer (e.g. System.UInt16) value\n"
+  syntax:
+    content: dbUShort = 7
+    return:
+      type: SuperOffice.Data.FieldDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.FieldDataType.dbShort
+  commentId: F:SuperOffice.Data.FieldDataType.dbShort
+  id: dbShort
+  parent: SuperOffice.Data.FieldDataType
+  langs:
+  - csharp
+  - vb
+  name: dbShort
+  nameWithType: FieldDataType.dbShort
+  fullName: SuperOffice.Data.FieldDataType.dbShort
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n8: Short integer (e.g. System.Int16) value\n"
+  syntax:
+    content: dbShort = 8
+    return:
+      type: SuperOffice.Data.FieldDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.FieldDataType.dbNull
+  commentId: F:SuperOffice.Data.FieldDataType.dbNull
+  id: dbNull
+  parent: SuperOffice.Data.FieldDataType
+  langs:
+  - csharp
+  - vb
+  name: dbNull
+  nameWithType: FieldDataType.dbNull
+  fullName: SuperOffice.Data.FieldDataType.dbNull
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n9: This is not a value\n"
+  syntax:
+    content: dbNull = 9
+    return:
+      type: SuperOffice.Data.FieldDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.FieldDataType.dbUInt
+  commentId: F:SuperOffice.Data.FieldDataType.dbUInt
+  id: dbUInt
+  parent: SuperOffice.Data.FieldDataType
+  langs:
+  - csharp
+  - vb
+  name: dbUInt
+  nameWithType: FieldDataType.dbUInt
+  fullName: SuperOffice.Data.FieldDataType.dbUInt
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n10: Unsigned integer (e.g. System.UInt32) id\n"
+  syntax:
+    content: dbUInt = 10
+    return:
+      type: SuperOffice.Data.FieldDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.FieldDataType.dbBlob
+  commentId: F:SuperOffice.Data.FieldDataType.dbBlob
+  id: dbBlob
+  parent: SuperOffice.Data.FieldDataType
+  langs:
+  - csharp
+  - vb
+  name: dbBlob
+  nameWithType: FieldDataType.dbBlob
+  fullName: SuperOffice.Data.FieldDataType.dbBlob
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n11: Blob in hte database\n"
+  syntax:
+    content: dbBlob = 11
+    return:
+      type: SuperOffice.Data.FieldDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.FieldDataType.dbStringBlob
+  commentId: F:SuperOffice.Data.FieldDataType.dbStringBlob
+  id: dbStringBlob
+  parent: SuperOffice.Data.FieldDataType
+  langs:
+  - csharp
+  - vb
+  name: dbStringBlob
+  nameWithType: FieldDataType.dbStringBlob
+  fullName: SuperOffice.Data.FieldDataType.dbStringBlob
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n12: Long string (e.g. System.String) stored as a (text) blob in the database\n"
+  syntax:
+    content: dbStringBlob = 12
+    return:
+      type: SuperOffice.Data.FieldDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.FieldDataType.dbString
+  commentId: F:SuperOffice.Data.FieldDataType.dbString
+  id: dbString
+  parent: SuperOffice.Data.FieldDataType
+  langs:
+  - csharp
+  - vb
+  name: dbString
+  nameWithType: FieldDataType.dbString
+  fullName: SuperOffice.Data.FieldDataType.dbString
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n13: String (e.g. System.String) preferebly stored as a variable lenght string in the database.  The Length can be up to (e.g. not including) 256 characters long depending upon the datatype.\n"
+  syntax:
+    content: dbString = 13
+    return:
+      type: SuperOffice.Data.FieldDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.FieldDataType.dbExtendedDateTimeLocal
+  commentId: F:SuperOffice.Data.FieldDataType.dbExtendedDateTimeLocal
+  id: dbExtendedDateTimeLocal
+  parent: SuperOffice.Data.FieldDataType
+  langs:
+  - csharp
+  - vb
+  name: dbExtendedDateTimeLocal
+  nameWithType: FieldDataType.dbExtendedDateTimeLocal
+  fullName: SuperOffice.Data.FieldDataType.dbExtendedDateTimeLocal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n14: DateTime, stored as a real datetime in the database, with extended range. Local time zone\n"
+  syntax:
+    content: dbExtendedDateTimeLocal = 14
+    return:
+      type: SuperOffice.Data.FieldDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.FieldDataType.dbExtendedDateTimeUTC
+  commentId: F:SuperOffice.Data.FieldDataType.dbExtendedDateTimeUTC
+  id: dbExtendedDateTimeUTC
+  parent: SuperOffice.Data.FieldDataType
+  langs:
+  - csharp
+  - vb
+  name: dbExtendedDateTimeUTC
+  nameWithType: FieldDataType.dbExtendedDateTimeUTC
+  fullName: SuperOffice.Data.FieldDataType.dbExtendedDateTimeUTC
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n15: DateTime, stored as a real datetime in the database, with extended range. UTC  time\n"
+  syntax:
+    content: dbExtendedDateTimeUTC = 15
+    return:
+      type: SuperOffice.Data.FieldDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.FieldDataType.dbTimeLocal
+  commentId: F:SuperOffice.Data.FieldDataType.dbTimeLocal
+  id: dbTimeLocal
+  parent: SuperOffice.Data.FieldDataType
+  langs:
+  - csharp
+  - vb
+  name: dbTimeLocal
+  nameWithType: FieldDataType.dbTimeLocal
+  fullName: SuperOffice.Data.FieldDataType.dbTimeLocal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n16: Time, stored as a datetime in the database, with date value that should be ignored. This time is not timezone converted/sensitive\n"
+  syntax:
+    content: dbTimeLocal = 16
+    return:
+      type: SuperOffice.Data.FieldDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.FieldDataType.dbDateLocal
+  commentId: F:SuperOffice.Data.FieldDataType.dbDateLocal
+  id: dbDateLocal
+  parent: SuperOffice.Data.FieldDataType
+  langs:
+  - csharp
+  - vb
+  name: dbDateLocal
+  nameWithType: FieldDataType.dbDateLocal
+  fullName: SuperOffice.Data.FieldDataType.dbDateLocal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n17: Date, stored as a datetime in the database, with time value that should be ignored. This time is not timezone converted/sensitive\n"
+  syntax:
+    content: dbDateLocal = 17
+    return:
+      type: SuperOffice.Data.FieldDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.FieldDataType.dbIntIdArr
+  commentId: F:SuperOffice.Data.FieldDataType.dbIntIdArr
+  id: dbIntIdArr
+  parent: SuperOffice.Data.FieldDataType
+  langs:
+  - csharp
+  - vb
+  name: dbIntIdArr
+  nameWithType: FieldDataType.dbIntIdArr
+  fullName: SuperOffice.Data.FieldDataType.dbIntIdArr
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n18: Array if int&apos;s that represent ID&apos;s (foreign keys). Stored encoded as a long string, with each int becoming a word that can be fulltext indexed\n"
+  syntax:
+    content: dbIntIdArr = 18
+    return:
+      type: SuperOffice.Data.FieldDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.FieldDataType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<FieldDataType, To>()
+  nameWithType: EnumUtil.MapEnums<FieldDataType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.FieldDataType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of FieldDataType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.FieldDataType, To)()
+  name.vb: MapEnums(Of FieldDataType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<FieldDataType, To>
+    nameWithType: EnumUtil.MapEnums<FieldDataType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.FieldDataType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of FieldDataType, To)
+    nameWithType: EnumUtil.MapEnums(Of FieldDataType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.FieldDataType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.FieldDataType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.FieldDataType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<FieldDataType>(FieldDataType)
+  nameWithType: ObjectExtensions.AssignByReflection<FieldDataType>(FieldDataType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.FieldDataType>(SuperOffice.Data.FieldDataType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FieldDataType)(FieldDataType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.FieldDataType)(SuperOffice.Data.FieldDataType)
+  name.vb: AssignByReflection(Of FieldDataType)(FieldDataType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<FieldDataType>
+    nameWithType: ObjectExtensions.AssignByReflection<FieldDataType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.FieldDataType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.FieldDataType
+    name: FieldDataType
+    nameWithType: FieldDataType
+    fullName: SuperOffice.Data.FieldDataType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of FieldDataType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of FieldDataType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.FieldDataType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.FieldDataType
+    name: FieldDataType
+    nameWithType: FieldDataType
+    fullName: SuperOffice.Data.FieldDataType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.FieldDataType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<FieldDataType>()
+  nameWithType: ObjectExtensions.GraphCopy<FieldDataType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.FieldDataType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of FieldDataType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.FieldDataType)()
+  name.vb: GraphCopy(Of FieldDataType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<FieldDataType>
+    nameWithType: ObjectExtensions.GraphCopy<FieldDataType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.FieldDataType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of FieldDataType)
+    nameWithType: ObjectExtensions.GraphCopy(Of FieldDataType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.FieldDataType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.FieldDataType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<FieldDataType, To>()
+  nameWithType: Converters.MapEnums<FieldDataType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.FieldDataType, To>()
+  nameWithType.vb: Converters.MapEnums(Of FieldDataType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.FieldDataType, To)()
+  name.vb: MapEnums(Of FieldDataType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<FieldDataType, To>
+    nameWithType: Converters.MapEnums<FieldDataType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.FieldDataType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of FieldDataType, To)
+    nameWithType: Converters.MapEnums(Of FieldDataType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.FieldDataType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.FieldDataType
+  commentId: T:SuperOffice.Data.FieldDataType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: FieldDataType
+  nameWithType: FieldDataType
+  fullName: SuperOffice.Data.FieldDataType

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_DeleteQuoteAlternativeRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_DeleteQuoteAlternativeRequest
+  id: Quote_DeleteQuoteAlternativeRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_DeleteQuoteAlternativeRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_DeleteQuoteAlternativeRequest.QuoteAlternativeId
+  langs:
+  - csharp
+  - vb
+  name: Quote_DeleteQuoteAlternativeRequest
+  nameWithType: Quote_DeleteQuoteAlternativeRequest
+  fullName: SuperOffice.WebApi.Data.Quote_DeleteQuoteAlternativeRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_DeleteQuoteAlternativeRequest : Object'
+    content.vb: >-
+      Public Class Quote_DeleteQuoteAlternativeRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_DeleteQuoteAlternativeRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_DeleteQuoteAlternativeRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_DeleteQuoteAlternativeRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_DeleteQuoteAlternativeRequest()
+  nameWithType: Quote_DeleteQuoteAlternativeRequest.Quote_DeleteQuoteAlternativeRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_DeleteQuoteAlternativeRequest.Quote_DeleteQuoteAlternativeRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_DeleteQuoteAlternativeRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_DeleteQuoteAlternativeRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_DeleteQuoteAlternativeRequest.QuoteAlternativeId
+  commentId: P:SuperOffice.WebApi.Data.Quote_DeleteQuoteAlternativeRequest.QuoteAlternativeId
+  id: QuoteAlternativeId
+  parent: SuperOffice.WebApi.Data.Quote_DeleteQuoteAlternativeRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteAlternativeId
+  nameWithType: Quote_DeleteQuoteAlternativeRequest.QuoteAlternativeId
+  fullName: SuperOffice.WebApi.Data.Quote_DeleteQuoteAlternativeRequest.QuoteAlternativeId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int QuoteAlternativeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteAlternativeId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_DeleteQuoteAlternativeRequest.QuoteAlternativeId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_DeleteQuoteAlternativeRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_DeleteQuoteAlternativeRequest.#ctor
+  isExternal: true
+  name: Quote_DeleteQuoteAlternativeRequest
+  nameWithType: Quote_DeleteQuoteAlternativeRequest.Quote_DeleteQuoteAlternativeRequest
+  fullName: SuperOffice.WebApi.Data.Quote_DeleteQuoteAlternativeRequest.Quote_DeleteQuoteAlternativeRequest
+- uid: SuperOffice.WebApi.Data.Quote_DeleteQuoteAlternativeRequest.QuoteAlternativeId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_DeleteQuoteAlternativeRequest.QuoteAlternativeId
+  isExternal: true
+  name: QuoteAlternativeId
+  nameWithType: Quote_DeleteQuoteAlternativeRequest.QuoteAlternativeId
+  fullName: SuperOffice.WebApi.Data.Quote_DeleteQuoteAlternativeRequest.QuoteAlternativeId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

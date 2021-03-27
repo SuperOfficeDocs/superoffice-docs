@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest
+  commentId: T:SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest
+  id: Configuration_GetCSAuthUrlRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.#ctor
+  - SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.Action
+  - SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.ExtraParameters
+  - SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.Language
+  - SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.ProgramName
+  langs:
+  - csharp
+  - vb
+  name: Configuration_GetCSAuthUrlRequest
+  nameWithType: Configuration_GetCSAuthUrlRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Configuration_GetCSAuthUrlRequest : Object'
+    content.vb: >-
+      Public Class Configuration_GetCSAuthUrlRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: Configuration_GetCSAuthUrlRequest()
+  nameWithType: Configuration_GetCSAuthUrlRequest.Configuration_GetCSAuthUrlRequest()
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.Configuration_GetCSAuthUrlRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Configuration_GetCSAuthUrlRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.Language
+  commentId: P:SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.Language
+  id: Language
+  parent: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: Configuration_GetCSAuthUrlRequest.Language
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.Language
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Language { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Language As String
+  overload: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.Language*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.ProgramName
+  commentId: P:SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.ProgramName
+  id: ProgramName
+  parent: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: ProgramName
+  nameWithType: Configuration_GetCSAuthUrlRequest.ProgramName
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.ProgramName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ProgramName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProgramName As String
+  overload: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.ProgramName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.Action
+  commentId: P:SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.Action
+  id: Action
+  parent: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: Action
+  nameWithType: Configuration_GetCSAuthUrlRequest.Action
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.Action
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Action { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Action As String
+  overload: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.Action*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.ExtraParameters
+  commentId: P:SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.ExtraParameters
+  id: ExtraParameters
+  parent: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: ExtraParameters
+  nameWithType: Configuration_GetCSAuthUrlRequest.ExtraParameters
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.ExtraParameters
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ExtraParameters { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ExtraParameters As String
+  overload: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.ExtraParameters*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.#ctor
+  isExternal: true
+  name: Configuration_GetCSAuthUrlRequest
+  nameWithType: Configuration_GetCSAuthUrlRequest.Configuration_GetCSAuthUrlRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.Configuration_GetCSAuthUrlRequest
+- uid: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.Language*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.Language
+  isExternal: true
+  name: Language
+  nameWithType: Configuration_GetCSAuthUrlRequest.Language
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.Language
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.ProgramName*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.ProgramName
+  isExternal: true
+  name: ProgramName
+  nameWithType: Configuration_GetCSAuthUrlRequest.ProgramName
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.ProgramName
+- uid: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.Action*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.Action
+  isExternal: true
+  name: Action
+  nameWithType: Configuration_GetCSAuthUrlRequest.Action
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.Action
+- uid: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.ExtraParameters*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.ExtraParameters
+  isExternal: true
+  name: ExtraParameters
+  nameWithType: Configuration_GetCSAuthUrlRequest.ExtraParameters
+  fullName: SuperOffice.WebApi.Data.Configuration_GetCSAuthUrlRequest.ExtraParameters

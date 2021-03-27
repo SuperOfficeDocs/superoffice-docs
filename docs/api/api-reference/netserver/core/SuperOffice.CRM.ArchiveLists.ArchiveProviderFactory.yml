@@ -1,0 +1,1465 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory
+  id: ArchiveProviderFactory
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.#ctor
+  - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.AddExtendersToProvider(SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible)
+  - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.AddExtensionsToProvider(SuperOffice.CRM.ArchiveLists.IArchiveProvider)
+  - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.AddSubQueriesToMultiProvider(SuperOffice.CRM.ArchiveLists.IArchiveMultiQueryProvider)
+  - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Create(System.String)
+  - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Create(System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Create(System.String,System.String,System.Boolean)
+  - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.CreateAsyncWrapped(System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.DefaultPageSize
+  - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Flush
+  - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetActualProvider(System.Type)
+  - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetAvailableColumns(System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetAvailableEntities(System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.KnownArchiveProviders
+  langs:
+  - csharp
+  - vb
+  name: ArchiveProviderFactory
+  nameWithType: ArchiveProviderFactory
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nThis is the class factory for Archive Providers. It uses the <xref href=\"SuperOffice.Factory.PluginFactory\" data-throw-if-not-resolved=\"false\"></xref> class together with\nthe <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveProviderAttribute\" data-throw-if-not-resolved=\"false\"></xref> to identify classes that implement the <xref href=\"SuperOffice.CRM.ArchiveLists.IArchiveProvider\" data-throw-if-not-resolved=\"false\"></xref>\ninterface. These are ordered by priority, the lowest value wins for any particular provider name. The system-standard\nproviders all have priority int.MaxValue/2 so they are in the middle of the possible range.\n"
+  syntax:
+    content: >-
+      [ClassFactory(typeof(IArchiveProvider))]
+
+      public class ArchiveProviderFactory : IPrivateFactory
+    content.vb: >-
+      <ClassFactory(GetType(IArchiveProvider))>
+
+      Public Class ArchiveProviderFactory
+          Implements IPrivateFactory
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory)
+  - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Factory.ClassFactoryAttribute
+    ctor: SuperOffice.Factory.ClassFactoryAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.DefaultPageSize
+  commentId: F:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.DefaultPageSize
+  id: DefaultPageSize
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: DefaultPageSize
+  nameWithType: ArchiveProviderFactory.DefaultPageSize
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.DefaultPageSize
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const int DefaultPageSize = 50
+    return:
+      type: System.Int32
+    content.vb: Public Const DefaultPageSize As Integer = 50
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Create(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Create(System.String)
+  id: Create(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: Create(String)
+  nameWithType: ArchiveProviderFactory.Create(String)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Create(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nCreate a provider for the given provider name, and hook up any plugins registered for it.\n"
+  remarks: "\nProviders can be extended - subqueries added to multiqueryproviders, and extensions added to normal query providers.\nThe hookup is done by the factory, not by each individual provider.\n"
+  syntax:
+    content: public static IArchiveProvider Create(string providerName)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: Name of provider
+    return:
+      type: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+      description: Provider class, if at least one provider has registered for the name
+    content.vb: Public Shared Function Create(providerName As String) As IArchiveProvider
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Create*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Create(System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Create(System.String,System.String)
+  id: Create(System.String,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: Create(String, String)
+  nameWithType: ArchiveProviderFactory.Create(String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Create(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static IArchiveProvider Create(string providerName, string context)
+    parameters:
+    - id: providerName
+      type: System.String
+    - id: context
+      type: System.String
+    return:
+      type: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+    content.vb: Public Shared Function Create(providerName As String, context As String) As IArchiveProvider
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Create*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Create(System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Create(System.String,System.String,System.Boolean)
+  id: Create(System.String,System.String,System.Boolean)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: Create(String, String, Boolean)
+  nameWithType: ArchiveProviderFactory.Create(String, String, Boolean)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Create(System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nCreate a provider for the given provider name, and hook up any plugins registered for it.\n"
+  remarks: "\nProviders can be extended - subqueries added to multiqueryproviders, and extensions added to normal query providers.\nThe hookup is done by the factory, not by each individual provider.\n<p></p>\nAn additional hookup is performed to add the <see cref=\"!:AggregationProvider\"></see>, to enable the aggregation functions.\nArchive providers can opt out by adding the <xref href=\"SuperOffice.CRM.ArchiveLists.NoAggregationAttribute\" data-throw-if-not-resolved=\"false\"></xref> to their declaration.\n<p></p>\nThe CreateArchiveProvider timer records timings of the separate parts.\n"
+  syntax:
+    content: public static IArchiveProvider Create(string providerName, string context, bool blockAggregationWrapper)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: Name of provider
+    - id: context
+      type: System.String
+      description: "Contextual information to pass on to providers&apos; constructor; non-blank/non-null \nvalues require the provider to have a public constructor taking the actual parameter type as its only parameter.\n<br />null here means &apos;call the default (parameter-less) constructor&apos;, not &apos;call constructor with parameter value null!&apos;"
+    - id: blockAggregationWrapper
+      type: System.Boolean
+      description: >-
+        If true, then the <see cref="!:AggregationProvider"></see> will not be hooked up. Use
+
+        sparingly in cases where you really need to avoid this happening, and you can&apos;t mark the provider itself
+
+        with the <xref href="SuperOffice.CRM.ArchiveLists.NoAggregationAttribute" data-throw-if-not-resolved="false"></xref>
+    return:
+      type: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+      description: Provider class, if at least one provider has registered for the name
+    content.vb: Public Shared Function Create(providerName As String, context As String, blockAggregationWrapper As Boolean) As IArchiveProvider
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Create*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.CreateAsyncWrapped(System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.CreateAsyncWrapped(System.String,System.String)
+  id: CreateAsyncWrapped(System.String,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateAsyncWrapped(String, String)
+  nameWithType: ArchiveProviderFactory.CreateAsyncWrapped(String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.CreateAsyncWrapped(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nCreate a provider for the given provider name, and wrap it in an <xref href=\"SuperOffice.CRM.ArchiveLists.AsyncProviderWrapper\" data-throw-if-not-resolved=\"false\"></xref> instance; this will\ngive <strong>null</strong> rows when iterating over GetRows with a timeout, instead of blocking. Clients who use this \n<strong>must</strong> be prepared to handle such null rows.\n"
+  remarks: "\nIf NetServer is in single-thread mode, then any thread procs are run inline in the main thread; and that would\nnot really work in this case. So instead we just return the standard provider, unwrapped.\n"
+  syntax:
+    content: public static IArchiveProvider CreateAsyncWrapped(string providerName, string context)
+    parameters:
+    - id: providerName
+      type: System.String
+    - id: context
+      type: System.String
+    return:
+      type: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+    content.vb: Public Shared Function CreateAsyncWrapped(providerName As String, context As String) As IArchiveProvider
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.CreateAsyncWrapped*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.AddExtensionsToProvider(SuperOffice.CRM.ArchiveLists.IArchiveProvider)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.AddExtensionsToProvider(SuperOffice.CRM.ArchiveLists.IArchiveProvider)
+  id: AddExtensionsToProvider(SuperOffice.CRM.ArchiveLists.IArchiveProvider)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: AddExtensionsToProvider(IArchiveProvider)
+  nameWithType: ArchiveProviderFactory.AddExtensionsToProvider(IArchiveProvider)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.AddExtensionsToProvider(SuperOffice.CRM.ArchiveLists.IArchiveProvider)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nGiven a provider, use reflection to discover subproviders and extensions, and instantiate &amp; wire-up any such\n"
+  syntax:
+    content: public static void AddExtensionsToProvider(IArchiveProvider result)
+    parameters:
+    - id: result
+      type: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+    content.vb: Public Shared Sub AddExtensionsToProvider(result As IArchiveProvider)
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.AddExtensionsToProvider*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.AddExtendersToProvider(SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.AddExtendersToProvider(SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible)
+  id: AddExtendersToProvider(SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: AddExtendersToProvider(IArchiveProviderExtensible)
+  nameWithType: ArchiveProviderFactory.AddExtendersToProvider(IArchiveProviderExtensible)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.AddExtendersToProvider(SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nScans the available plugins to determine if there exist extenders to the given provider,\nand instantiates and links up each such extender.\n"
+  remarks: "\nThe parent provider (target) for the extension is identified through the provider name\ndeclared by its ArchiveProvider attribute. If the target has no such attribute, then the unqualified\nclass name is used instead. The fallback for missing attribute is not likely to be used as long as this\nmethod is called from within the Provider factory.\n"
+  syntax:
+    content: public static void AddExtendersToProvider(IArchiveProviderExtensible provider)
+    parameters:
+    - id: provider
+      type: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
+      description: Extensible provider (parent)
+    content.vb: Public Shared Sub AddExtendersToProvider(provider As IArchiveProviderExtensible)
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.AddExtendersToProvider*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.AddSubQueriesToMultiProvider(SuperOffice.CRM.ArchiveLists.IArchiveMultiQueryProvider)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.AddSubQueriesToMultiProvider(SuperOffice.CRM.ArchiveLists.IArchiveMultiQueryProvider)
+  id: AddSubQueriesToMultiProvider(SuperOffice.CRM.ArchiveLists.IArchiveMultiQueryProvider)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: AddSubQueriesToMultiProvider(IArchiveMultiQueryProvider)
+  nameWithType: ArchiveProviderFactory.AddSubQueriesToMultiProvider(IArchiveMultiQueryProvider)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.AddSubQueriesToMultiProvider(SuperOffice.CRM.ArchiveLists.IArchiveMultiQueryProvider)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nScans the available plugins to determine if there exist subproviders intended for the given\nmulti query provider, and instantiates and links up any such subproviders.\n"
+  remarks: "\nThe parent provider (target) for the extension is identified through the provider name\ndeclared by its ArchiveProvider attribute. If the target has no such attribute, then the unqualified\nclass name is used instead. The fallback for missing attribute is not likely to be used as long as this\nmethod is called from within the Provider factory.\n"
+  syntax:
+    content: public static void AddSubQueriesToMultiProvider(IArchiveMultiQueryProvider provider)
+    parameters:
+    - id: provider
+      type: SuperOffice.CRM.ArchiveLists.IArchiveMultiQueryProvider
+      description: Multi query provider (parent)
+    content.vb: Public Shared Sub AddSubQueriesToMultiProvider(provider As IArchiveMultiQueryProvider)
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.AddSubQueriesToMultiProvider*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetAvailableColumns(System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetAvailableColumns(System.String,System.String)
+  id: GetAvailableColumns(System.String,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: GetAvailableColumns(String, String)
+  nameWithType: ArchiveProviderFactory.GetAvailableColumns(String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetAvailableColumns(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nGet the available column list for the given provider. This method provides FAST, CACHED access to the\ncolumn list, which is an order of magnitude faster than instantiating the provider just to get the same list.\n"
+  syntax:
+    content: public static List<ArchiveColumnInfo> GetAvailableColumns(string providerName, string context = "")
+    parameters:
+    - id: providerName
+      type: System.String
+      description: Case-insensitive name of provider
+    - id: context
+      type: System.String
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+      description: List of available columns; the column objects are clones and may be mistreated in any way you desire :-)
+    content.vb: Public Shared Function GetAvailableColumns(providerName As String, context As String = "") As List(Of ArchiveColumnInfo)
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetAvailableColumns*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetAvailableEntities(System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetAvailableEntities(System.String,System.String)
+  id: GetAvailableEntities(System.String,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: GetAvailableEntities(String, String)
+  nameWithType: ArchiveProviderFactory.GetAvailableEntities(String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetAvailableEntities(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nGet the available entity list for the given provider. This method provides FAST, CACHED access to the\nentity list, which is an order of magnitude faster than instantiating the provider just to get the same list.\n"
+  syntax:
+    content: public static List<ArchiveRowTypeInfo> GetAvailableEntities(string providerName, string context = "")
+    parameters:
+    - id: providerName
+      type: System.String
+      description: Case-insensitive name of provider
+    - id: context
+      type: System.String
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
+      description: List of available entities; the entity objects are clones and may be mistreated in any way you desire :-)
+    content.vb: Public Shared Function GetAvailableEntities(providerName As String, context As String = "") As List(Of ArchiveRowTypeInfo)
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetAvailableEntities*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetActualProvider(System.Type)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetActualProvider(System.Type)
+  id: GetActualProvider(System.Type)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: GetActualProvider(Type)
+  nameWithType: ArchiveProviderFactory.GetActualProvider(Type)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetActualProvider(System.Type)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDetermine the actual provider to create, given a known provider\n"
+  remarks: "\nSome internal multi-query providers hard-code what inner providers should be used. In this case it may still be useful\nto be able to override the standard providers with partner-defined ones. This method will extract the provider name attribute\nfrom the original provider, and determine what actual type corresponds to this name - taking any overrides into account.\n"
+  syntax:
+    content: public static Type GetActualProvider(Type internalProvider)
+    parameters:
+    - id: internalProvider
+      type: System.Type
+      description: The original provider, usually something created by SuperOffice
+    return:
+      type: System.Type
+      description: "The current provider class that fulfills this role. If the original type does not exist, does not have a valid attribute or \ndoes not have an implementation, the original, incoming type is returned."
+    content.vb: Public Shared Function GetActualProvider(internalProvider As Type) As Type
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetActualProvider*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Flush
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Flush
+  id: Flush
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: Flush()
+  nameWithType: ArchiveProviderFactory.Flush()
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Flush()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nReset all cached data - plugins created by factory, stock providers and cached column infos\n"
+  syntax:
+    content: public static void Flush()
+    content.vb: Public Shared Sub Flush
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Flush*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.#ctor
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: ArchiveProviderFactory()
+  nameWithType: ArchiveProviderFactory.ArchiveProviderFactory()
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.ArchiveProviderFactory()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public ArchiveProviderFactory()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.KnownArchiveProviders
+  commentId: P:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.KnownArchiveProviders
+  id: KnownArchiveProviders
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory
+  langs:
+  - csharp
+  - vb
+  name: KnownArchiveProviders
+  nameWithType: ArchiveProviderFactory.KnownArchiveProviders
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.KnownArchiveProviders
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nReturns an array of information about all known archive providers. This array reflects the state\nafter prioritization and duplicate elimination, so that only &apos;surviving&apos; providers are present.\n"
+  syntax:
+    content: public static PluginInfo[] KnownArchiveProviders { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Factory.PluginInfo[]
+    content.vb: Public Shared ReadOnly Property KnownArchiveProviders As PluginInfo()
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.KnownArchiveProviders*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ArchiveProviderFactory, To>()
+  nameWithType: EnumUtil.MapEnums<ArchiveProviderFactory, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ArchiveProviderFactory, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory, To)()
+  name.vb: MapEnums(Of ArchiveProviderFactory, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ArchiveProviderFactory, To>
+    nameWithType: EnumUtil.MapEnums<ArchiveProviderFactory, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ArchiveProviderFactory, To)
+    nameWithType: EnumUtil.MapEnums(Of ArchiveProviderFactory, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ArchiveProviderFactory>(ArchiveProviderFactory)
+  nameWithType: ObjectExtensions.AssignByReflection<ArchiveProviderFactory>(ArchiveProviderFactory)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory>(SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ArchiveProviderFactory)(ArchiveProviderFactory)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory)(SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory)
+  name.vb: AssignByReflection(Of ArchiveProviderFactory)(ArchiveProviderFactory)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ArchiveProviderFactory>
+    nameWithType: ObjectExtensions.AssignByReflection<ArchiveProviderFactory>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory
+    name: ArchiveProviderFactory
+    nameWithType: ArchiveProviderFactory
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ArchiveProviderFactory)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ArchiveProviderFactory)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory
+    name: ArchiveProviderFactory
+    nameWithType: ArchiveProviderFactory
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ArchiveProviderFactory>()
+  nameWithType: ObjectExtensions.GraphCopy<ArchiveProviderFactory>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ArchiveProviderFactory)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory)()
+  name.vb: GraphCopy(Of ArchiveProviderFactory)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ArchiveProviderFactory>
+    nameWithType: ObjectExtensions.GraphCopy<ArchiveProviderFactory>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ArchiveProviderFactory)
+    nameWithType: ObjectExtensions.GraphCopy(Of ArchiveProviderFactory)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ArchiveProviderFactory, To>()
+  nameWithType: Converters.MapEnums<ArchiveProviderFactory, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory, To>()
+  nameWithType.vb: Converters.MapEnums(Of ArchiveProviderFactory, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory, To)()
+  name.vb: MapEnums(Of ArchiveProviderFactory, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ArchiveProviderFactory, To>
+    nameWithType: Converters.MapEnums<ArchiveProviderFactory, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ArchiveProviderFactory, To)
+    nameWithType: Converters.MapEnums(Of ArchiveProviderFactory, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Create*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Create
+  isExternal: true
+  name: Create
+  nameWithType: ArchiveProviderFactory.Create
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Create
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProvider
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProvider
+  nameWithType: IArchiveProvider
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.CreateAsyncWrapped*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.CreateAsyncWrapped
+  isExternal: true
+  name: CreateAsyncWrapped
+  nameWithType: ArchiveProviderFactory.CreateAsyncWrapped
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.CreateAsyncWrapped
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.AddExtensionsToProvider*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.AddExtensionsToProvider
+  isExternal: true
+  name: AddExtensionsToProvider
+  nameWithType: ArchiveProviderFactory.AddExtensionsToProvider
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.AddExtensionsToProvider
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.AddExtendersToProvider*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.AddExtendersToProvider
+  isExternal: true
+  name: AddExtendersToProvider
+  nameWithType: ArchiveProviderFactory.AddExtendersToProvider
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.AddExtendersToProvider
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProviderExtensible
+  nameWithType: IArchiveProviderExtensible
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.AddSubQueriesToMultiProvider*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.AddSubQueriesToMultiProvider
+  isExternal: true
+  name: AddSubQueriesToMultiProvider
+  nameWithType: ArchiveProviderFactory.AddSubQueriesToMultiProvider
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.AddSubQueriesToMultiProvider
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveMultiQueryProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveMultiQueryProvider
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveMultiQueryProvider
+  nameWithType: IArchiveMultiQueryProvider
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveMultiQueryProvider
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetAvailableColumns*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetAvailableColumns
+  isExternal: true
+  name: GetAvailableColumns
+  nameWithType: ArchiveProviderFactory.GetAvailableColumns
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetAvailableColumns
+- uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ArchiveColumnInfo>
+  nameWithType: List<ArchiveColumnInfo>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>
+  nameWithType.vb: List(Of ArchiveColumnInfo)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  name.vb: List(Of ArchiveColumnInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetAvailableEntities*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetAvailableEntities
+  isExternal: true
+  name: GetAvailableEntities
+  nameWithType: ArchiveProviderFactory.GetAvailableEntities
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetAvailableEntities
+- uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ArchiveRowTypeInfo>
+  nameWithType: List<ArchiveRowTypeInfo>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>
+  nameWithType.vb: List(Of ArchiveRowTypeInfo)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
+  name.vb: List(Of ArchiveRowTypeInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetActualProvider*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetActualProvider
+  isExternal: true
+  name: GetActualProvider
+  nameWithType: ArchiveProviderFactory.GetActualProvider
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.GetActualProvider
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Flush*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Flush
+  isExternal: true
+  name: Flush
+  nameWithType: ArchiveProviderFactory.Flush
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.Flush
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.#ctor
+  isExternal: true
+  name: ArchiveProviderFactory
+  nameWithType: ArchiveProviderFactory.ArchiveProviderFactory
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.ArchiveProviderFactory
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.KnownArchiveProviders*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.KnownArchiveProviders
+  isExternal: true
+  name: KnownArchiveProviders
+  nameWithType: ArchiveProviderFactory.KnownArchiveProviders
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveProviderFactory.KnownArchiveProviders
+- uid: SuperOffice.Factory.PluginInfo[]
+  isExternal: true
+  name: PluginInfo[]
+  nameWithType: PluginInfo[]
+  fullName: SuperOffice.Factory.PluginInfo[]
+  nameWithType.vb: PluginInfo()
+  fullName.vb: SuperOffice.Factory.PluginInfo()
+  name.vb: PluginInfo()
+  spec.csharp:
+  - uid: SuperOffice.Factory.PluginInfo
+    name: PluginInfo
+    nameWithType: PluginInfo
+    fullName: SuperOffice.Factory.PluginInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.Factory.PluginInfo
+    name: PluginInfo
+    nameWithType: PluginInfo
+    fullName: SuperOffice.Factory.PluginInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

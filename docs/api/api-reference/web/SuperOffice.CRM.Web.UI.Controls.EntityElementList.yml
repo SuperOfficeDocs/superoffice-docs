@@ -1,0 +1,1810 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.EntityElementList
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.EntityElementList
+  id: EntityElementList
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.EntityElementList.#ctor
+  - SuperOffice.CRM.Web.UI.Controls.EntityElementList.OnHeaderClick
+  - SuperOffice.CRM.Web.UI.Controls.EntityElementList.Render(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.CRM.Web.UI.Controls.EntityElementList.RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String)
+  - SuperOffice.CRM.Web.UI.Controls.EntityElementList.RenderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String,System.String,System.String,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: EntityElementList
+  nameWithType: EntityElementList
+  fullName: SuperOffice.CRM.Web.UI.Controls.EntityElementList
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: 'public class EntityElementList : MDOList'
+    content.vb: >-
+      Public Class EntityElementList
+          Inherits MDOList
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Web.UI.Controls.MDOList
+  inheritedMembers:
+  - SuperOffice.CRM.Web.UI.Controls.MDOList._mdoListItems
+  - SuperOffice.CRM.Web.UI.Controls.MDOList._showIcons
+  - SuperOffice.CRM.Web.UI.Controls.MDOList._showColor
+  - SuperOffice.CRM.Web.UI.Controls.MDOList._onClientClick
+  - SuperOffice.CRM.Web.UI.Controls.MDOList._onMouseOver
+  - SuperOffice.CRM.Web.UI.Controls.MDOList._readOnly
+  - SuperOffice.CRM.Web.UI.Controls.MDOList._customIconPath
+  - SuperOffice.CRM.Web.UI.Controls.MDOList._encodeTooltips
+  - SuperOffice.CRM.Web.UI.Controls.MDOList._renderItemsInTable
+  - SuperOffice.CRM.Web.UI.Controls.MDOList.Initialize(System.Web.UI.Page)
+  - SuperOffice.CRM.Web.UI.Controls.MDOList.Initialize(System.Web.UI.Page,System.String)
+  - SuperOffice.CRM.Web.UI.Controls.MDOList.AddStaticitem(System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.UI.Controls.MDOList.DataBind
+  - SuperOffice.CRM.Web.UI.Controls.MDOList.CalculateOnClick(SuperOffice.CRM.Services.MDOListItem,System.String)
+  - SuperOffice.CRM.Web.UI.Controls.MDOList.GetInnerIconHint(System.String)
+  - SuperOffice.CRM.Web.UI.Controls.MDOList.GetOuterIconHint(System.String)
+  - SuperOffice.CRM.Web.UI.Controls.MDOList.RenderBeginContainingLayer(System.Web.UI.HtmlTextWriter,System.String)
+  - SuperOffice.CRM.Web.UI.Controls.MDOList.RenderEndContainingLayer(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.CRM.Web.UI.Controls.MDOList.RenderBeginItemTable(System.Web.UI.HtmlTextWriter,System.String)
+  - SuperOffice.CRM.Web.UI.Controls.MDOList.RenderEndItemTable(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.CRM.Web.UI.Controls.MDOList.RenderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.UI.Controls.MDOList.RenderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String,System.String,System.String,System.Boolean,SuperOffice.CRM.Services.MDOListItem,System.Boolean)
+  - SuperOffice.CRM.Web.UI.Controls.MDOList.RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String)
+  - SuperOffice.CRM.Web.UI.Controls.MDOList.RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String,System.Boolean)
+  - SuperOffice.CRM.Web.UI.Controls.MDOList.GetItemName(SuperOffice.CRM.Services.MDOListItem,System.Boolean)
+  - SuperOffice.CRM.Web.UI.Controls.MDOList.EncodeNonAsciiCharacters(System.String)
+  - SuperOffice.CRM.Web.UI.Controls.MDOList.ShowIcons
+  - SuperOffice.CRM.Web.UI.Controls.MDOList.ShowColor
+  - SuperOffice.CRM.Web.UI.Controls.MDOList.DataSource
+  - SuperOffice.CRM.Web.UI.Controls.MDOList.OnClientClick
+  - SuperOffice.CRM.Web.UI.Controls.MDOList.OnMouseOver
+  - SuperOffice.CRM.Web.UI.Controls.MDOList.ReadOnly
+  - SuperOffice.CRM.Web.UI.Controls.MDOList.CustomIconPath
+  - SuperOffice.CRM.Web.UI.Controls.MDOList.EncodeTooltips
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Controls.EntityElementList.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.EntityElementList.Render(System.Web.UI.HtmlTextWriter)
+  id: Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.CRM.Web.UI.Controls.EntityElementList
+  langs:
+  - csharp
+  - vb
+  name: Render(HtmlTextWriter)
+  nameWithType: EntityElementList.Render(HtmlTextWriter)
+  fullName: SuperOffice.CRM.Web.UI.Controls.EntityElementList.Render(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override void Render(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overrides Sub Render(writer As HtmlTextWriter)
+  overridden: SuperOffice.CRM.Web.UI.Controls.MDOList.Render(System.Web.UI.HtmlTextWriter)
+  overload: SuperOffice.CRM.Web.UI.Controls.EntityElementList.Render*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.EntityElementList.RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.EntityElementList.RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String)
+  id: RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.EntityElementList
+  langs:
+  - csharp
+  - vb
+  name: RenderHeaderItem(HtmlTextWriter, MDOListItem, String, String)
+  nameWithType: EntityElementList.RenderHeaderItem(HtmlTextWriter, MDOListItem, String, String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.EntityElementList.RenderHeaderItem(System.Web.UI.HtmlTextWriter, SuperOffice.CRM.Services.MDOListItem, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override void RenderHeaderItem(HtmlTextWriter writer, MDOListItem item, string onclickText, string styleClass)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    - id: item
+      type: SuperOffice.CRM.Services.MDOListItem
+    - id: onclickText
+      type: System.String
+    - id: styleClass
+      type: System.String
+    content.vb: Protected Overrides Sub RenderHeaderItem(writer As HtmlTextWriter, item As MDOListItem, onclickText As String, styleClass As String)
+  overridden: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String)
+  overload: SuperOffice.CRM.Web.UI.Controls.EntityElementList.RenderHeaderItem*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.EntityElementList.RenderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.EntityElementList.RenderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String,System.String,System.String,System.Boolean)
+  id: RenderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String,System.String,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Web.UI.Controls.EntityElementList
+  langs:
+  - csharp
+  - vb
+  name: RenderItem(HtmlTextWriter, MDOListItem, String, String, String, String, Boolean)
+  nameWithType: EntityElementList.RenderItem(HtmlTextWriter, MDOListItem, String, String, String, String, Boolean)
+  fullName: SuperOffice.CRM.Web.UI.Controls.EntityElementList.RenderItem(System.Web.UI.HtmlTextWriter, SuperOffice.CRM.Services.MDOListItem, System.String, System.String, System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override void RenderItem(HtmlTextWriter writer, MDOListItem item, string onclickText, string rowClientId, string styleClass, string defaultClass, bool isChild)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    - id: item
+      type: SuperOffice.CRM.Services.MDOListItem
+    - id: onclickText
+      type: System.String
+    - id: rowClientId
+      type: System.String
+    - id: styleClass
+      type: System.String
+    - id: defaultClass
+      type: System.String
+    - id: isChild
+      type: System.Boolean
+    content.vb: Protected Overrides Sub RenderItem(writer As HtmlTextWriter, item As MDOListItem, onclickText As String, rowClientId As String, styleClass As String, defaultClass As String, isChild As Boolean)
+  overridden: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String,System.String,System.String,System.Boolean)
+  overload: SuperOffice.CRM.Web.UI.Controls.EntityElementList.RenderItem*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.EntityElementList.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.EntityElementList.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.Controls.EntityElementList
+  langs:
+  - csharp
+  - vb
+  name: EntityElementList()
+  nameWithType: EntityElementList.EntityElementList()
+  fullName: SuperOffice.CRM.Web.UI.Controls.EntityElementList.EntityElementList()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public EntityElementList()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.Controls.EntityElementList.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.EntityElementList.OnHeaderClick
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.EntityElementList.OnHeaderClick
+  id: OnHeaderClick
+  parent: SuperOffice.CRM.Web.UI.Controls.EntityElementList
+  langs:
+  - csharp
+  - vb
+  name: OnHeaderClick
+  nameWithType: EntityElementList.OnHeaderClick
+  fullName: SuperOffice.CRM.Web.UI.Controls.EntityElementList.OnHeaderClick
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string OnHeaderClick { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OnHeaderClick As String
+  overload: SuperOffice.CRM.Web.UI.Controls.EntityElementList.OnHeaderClick*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.MDOList
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: MDOList
+  nameWithType: MDOList
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList._mdoListItems
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.MDOList._mdoListItems
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: _mdoListItems
+  nameWithType: MDOList._mdoListItems
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList._mdoListItems
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList._showIcons
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.MDOList._showIcons
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: _showIcons
+  nameWithType: MDOList._showIcons
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList._showIcons
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList._showColor
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.MDOList._showColor
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: _showColor
+  nameWithType: MDOList._showColor
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList._showColor
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList._onClientClick
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.MDOList._onClientClick
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: _onClientClick
+  nameWithType: MDOList._onClientClick
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList._onClientClick
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList._onMouseOver
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.MDOList._onMouseOver
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: _onMouseOver
+  nameWithType: MDOList._onMouseOver
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList._onMouseOver
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList._readOnly
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.MDOList._readOnly
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: _readOnly
+  nameWithType: MDOList._readOnly
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList._readOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList._customIconPath
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.MDOList._customIconPath
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: _customIconPath
+  nameWithType: MDOList._customIconPath
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList._customIconPath
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList._encodeTooltips
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.MDOList._encodeTooltips
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: _encodeTooltips
+  nameWithType: MDOList._encodeTooltips
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList._encodeTooltips
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList._renderItemsInTable
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.MDOList._renderItemsInTable
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: _renderItemsInTable
+  nameWithType: MDOList._renderItemsInTable
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList._renderItemsInTable
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.Initialize(System.Web.UI.Page)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.MDOList.Initialize(System.Web.UI.Page)
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: Initialize(Page)
+  nameWithType: MDOList.Initialize(Page)
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.Initialize(System.Web.UI.Page)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.Initialize(System.Web.UI.Page)
+    name: Initialize
+    nameWithType: MDOList.Initialize
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.Page
+    name: Page
+    nameWithType: Page
+    fullName: System.Web.UI.Page
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.Initialize(System.Web.UI.Page)
+    name: Initialize
+    nameWithType: MDOList.Initialize
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.Page
+    name: Page
+    nameWithType: Page
+    fullName: System.Web.UI.Page
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.Initialize(System.Web.UI.Page,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.MDOList.Initialize(System.Web.UI.Page,System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: Initialize(Page, String)
+  nameWithType: MDOList.Initialize(Page, String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.Initialize(System.Web.UI.Page, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.Initialize(System.Web.UI.Page,System.String)
+    name: Initialize
+    nameWithType: MDOList.Initialize
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.Page
+    name: Page
+    nameWithType: Page
+    fullName: System.Web.UI.Page
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.Initialize(System.Web.UI.Page,System.String)
+    name: Initialize
+    nameWithType: MDOList.Initialize
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.Page
+    name: Page
+    nameWithType: Page
+    fullName: System.Web.UI.Page
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.AddStaticitem(System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.MDOList.AddStaticitem(System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: AddStaticitem(String, String, String, String)
+  nameWithType: MDOList.AddStaticitem(String, String, String, String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.AddStaticitem(System.String, System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.AddStaticitem(System.String,System.String,System.String,System.String)
+    name: AddStaticitem
+    nameWithType: MDOList.AddStaticitem
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.AddStaticitem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.AddStaticitem(System.String,System.String,System.String,System.String)
+    name: AddStaticitem
+    nameWithType: MDOList.AddStaticitem
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.AddStaticitem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.DataBind
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.MDOList.DataBind
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: DataBind()
+  nameWithType: MDOList.DataBind()
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.DataBind()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.DataBind
+    name: DataBind
+    nameWithType: MDOList.DataBind
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.DataBind
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.DataBind
+    name: DataBind
+    nameWithType: MDOList.DataBind
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.DataBind
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.CalculateOnClick(SuperOffice.CRM.Services.MDOListItem,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.MDOList.CalculateOnClick(SuperOffice.CRM.Services.MDOListItem,System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: CalculateOnClick(MDOListItem, String)
+  nameWithType: MDOList.CalculateOnClick(MDOListItem, String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.CalculateOnClick(SuperOffice.CRM.Services.MDOListItem, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.CalculateOnClick(SuperOffice.CRM.Services.MDOListItem,System.String)
+    name: CalculateOnClick
+    nameWithType: MDOList.CalculateOnClick
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.CalculateOnClick
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.CalculateOnClick(SuperOffice.CRM.Services.MDOListItem,System.String)
+    name: CalculateOnClick
+    nameWithType: MDOList.CalculateOnClick
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.CalculateOnClick
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.GetInnerIconHint(System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.MDOList.GetInnerIconHint(System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: GetInnerIconHint(String)
+  nameWithType: MDOList.GetInnerIconHint(String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.GetInnerIconHint(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.GetInnerIconHint(System.String)
+    name: GetInnerIconHint
+    nameWithType: MDOList.GetInnerIconHint
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.GetInnerIconHint
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.GetInnerIconHint(System.String)
+    name: GetInnerIconHint
+    nameWithType: MDOList.GetInnerIconHint
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.GetInnerIconHint
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.GetOuterIconHint(System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.MDOList.GetOuterIconHint(System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: GetOuterIconHint(String)
+  nameWithType: MDOList.GetOuterIconHint(String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.GetOuterIconHint(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.GetOuterIconHint(System.String)
+    name: GetOuterIconHint
+    nameWithType: MDOList.GetOuterIconHint
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.GetOuterIconHint
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.GetOuterIconHint(System.String)
+    name: GetOuterIconHint
+    nameWithType: MDOList.GetOuterIconHint
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.GetOuterIconHint
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderBeginContainingLayer(System.Web.UI.HtmlTextWriter,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.MDOList.RenderBeginContainingLayer(System.Web.UI.HtmlTextWriter,System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: RenderBeginContainingLayer(HtmlTextWriter, String)
+  nameWithType: MDOList.RenderBeginContainingLayer(HtmlTextWriter, String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderBeginContainingLayer(System.Web.UI.HtmlTextWriter, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderBeginContainingLayer(System.Web.UI.HtmlTextWriter,System.String)
+    name: RenderBeginContainingLayer
+    nameWithType: MDOList.RenderBeginContainingLayer
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderBeginContainingLayer
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderBeginContainingLayer(System.Web.UI.HtmlTextWriter,System.String)
+    name: RenderBeginContainingLayer
+    nameWithType: MDOList.RenderBeginContainingLayer
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderBeginContainingLayer
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderEndContainingLayer(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.MDOList.RenderEndContainingLayer(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: RenderEndContainingLayer(HtmlTextWriter)
+  nameWithType: MDOList.RenderEndContainingLayer(HtmlTextWriter)
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderEndContainingLayer(System.Web.UI.HtmlTextWriter)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderEndContainingLayer(System.Web.UI.HtmlTextWriter)
+    name: RenderEndContainingLayer
+    nameWithType: MDOList.RenderEndContainingLayer
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderEndContainingLayer
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderEndContainingLayer(System.Web.UI.HtmlTextWriter)
+    name: RenderEndContainingLayer
+    nameWithType: MDOList.RenderEndContainingLayer
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderEndContainingLayer
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderBeginItemTable(System.Web.UI.HtmlTextWriter,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.MDOList.RenderBeginItemTable(System.Web.UI.HtmlTextWriter,System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: RenderBeginItemTable(HtmlTextWriter, String)
+  nameWithType: MDOList.RenderBeginItemTable(HtmlTextWriter, String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderBeginItemTable(System.Web.UI.HtmlTextWriter, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderBeginItemTable(System.Web.UI.HtmlTextWriter,System.String)
+    name: RenderBeginItemTable
+    nameWithType: MDOList.RenderBeginItemTable
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderBeginItemTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderBeginItemTable(System.Web.UI.HtmlTextWriter,System.String)
+    name: RenderBeginItemTable
+    nameWithType: MDOList.RenderBeginItemTable
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderBeginItemTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderEndItemTable(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.MDOList.RenderEndItemTable(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: RenderEndItemTable(HtmlTextWriter)
+  nameWithType: MDOList.RenderEndItemTable(HtmlTextWriter)
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderEndItemTable(System.Web.UI.HtmlTextWriter)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderEndItemTable(System.Web.UI.HtmlTextWriter)
+    name: RenderEndItemTable
+    nameWithType: MDOList.RenderEndItemTable
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderEndItemTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderEndItemTable(System.Web.UI.HtmlTextWriter)
+    name: RenderEndItemTable
+    nameWithType: MDOList.RenderEndItemTable
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderEndItemTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.MDOList.RenderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: RenderItem(HtmlTextWriter, MDOListItem, String, String, String)
+  nameWithType: MDOList.RenderItem(HtmlTextWriter, MDOListItem, String, String, String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderItem(System.Web.UI.HtmlTextWriter, SuperOffice.CRM.Services.MDOListItem, System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String,System.String)
+    name: RenderItem
+    nameWithType: MDOList.RenderItem
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String,System.String)
+    name: RenderItem
+    nameWithType: MDOList.RenderItem
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String,System.String,System.String,System.Boolean,SuperOffice.CRM.Services.MDOListItem,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.MDOList.RenderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String,System.String,System.String,System.Boolean,SuperOffice.CRM.Services.MDOListItem,System.Boolean)
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: RenderItem(HtmlTextWriter, MDOListItem, String, String, String, String, Boolean, MDOListItem, Boolean)
+  nameWithType: MDOList.RenderItem(HtmlTextWriter, MDOListItem, String, String, String, String, Boolean, MDOListItem, Boolean)
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderItem(System.Web.UI.HtmlTextWriter, SuperOffice.CRM.Services.MDOListItem, System.String, System.String, System.String, System.String, System.Boolean, SuperOffice.CRM.Services.MDOListItem, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String,System.String,System.String,System.Boolean,SuperOffice.CRM.Services.MDOListItem,System.Boolean)
+    name: RenderItem
+    nameWithType: MDOList.RenderItem
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String,System.String,System.String,System.Boolean,SuperOffice.CRM.Services.MDOListItem,System.Boolean)
+    name: RenderItem
+    nameWithType: MDOList.RenderItem
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.MDOList.RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: RenderHeaderItem(HtmlTextWriter, MDOListItem, String)
+  nameWithType: MDOList.RenderHeaderItem(HtmlTextWriter, MDOListItem, String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderHeaderItem(System.Web.UI.HtmlTextWriter, SuperOffice.CRM.Services.MDOListItem, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String)
+    name: RenderHeaderItem
+    nameWithType: MDOList.RenderHeaderItem
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderHeaderItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String)
+    name: RenderHeaderItem
+    nameWithType: MDOList.RenderHeaderItem
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderHeaderItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.MDOList.RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: RenderHeaderItem(HtmlTextWriter, MDOListItem, String, String, Boolean)
+  nameWithType: MDOList.RenderHeaderItem(HtmlTextWriter, MDOListItem, String, String, Boolean)
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderHeaderItem(System.Web.UI.HtmlTextWriter, SuperOffice.CRM.Services.MDOListItem, System.String, System.String, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String,System.Boolean)
+    name: RenderHeaderItem
+    nameWithType: MDOList.RenderHeaderItem
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderHeaderItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String,System.Boolean)
+    name: RenderHeaderItem
+    nameWithType: MDOList.RenderHeaderItem
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderHeaderItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.GetItemName(SuperOffice.CRM.Services.MDOListItem,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.MDOList.GetItemName(SuperOffice.CRM.Services.MDOListItem,System.Boolean)
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: GetItemName(MDOListItem, Boolean)
+  nameWithType: MDOList.GetItemName(MDOListItem, Boolean)
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.GetItemName(SuperOffice.CRM.Services.MDOListItem, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.GetItemName(SuperOffice.CRM.Services.MDOListItem,System.Boolean)
+    name: GetItemName
+    nameWithType: MDOList.GetItemName
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.GetItemName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.GetItemName(SuperOffice.CRM.Services.MDOListItem,System.Boolean)
+    name: GetItemName
+    nameWithType: MDOList.GetItemName
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.GetItemName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.EncodeNonAsciiCharacters(System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.MDOList.EncodeNonAsciiCharacters(System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: EncodeNonAsciiCharacters(String)
+  nameWithType: MDOList.EncodeNonAsciiCharacters(String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.EncodeNonAsciiCharacters(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.EncodeNonAsciiCharacters(System.String)
+    name: EncodeNonAsciiCharacters
+    nameWithType: MDOList.EncodeNonAsciiCharacters
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.EncodeNonAsciiCharacters
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.EncodeNonAsciiCharacters(System.String)
+    name: EncodeNonAsciiCharacters
+    nameWithType: MDOList.EncodeNonAsciiCharacters
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.EncodeNonAsciiCharacters
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.ShowIcons
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.MDOList.ShowIcons
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: ShowIcons
+  nameWithType: MDOList.ShowIcons
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.ShowIcons
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.ShowColor
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.MDOList.ShowColor
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: ShowColor
+  nameWithType: MDOList.ShowColor
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.ShowColor
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.DataSource
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.MDOList.DataSource
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: DataSource
+  nameWithType: MDOList.DataSource
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.DataSource
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.OnClientClick
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.MDOList.OnClientClick
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: OnClientClick
+  nameWithType: MDOList.OnClientClick
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.OnClientClick
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.OnMouseOver
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.MDOList.OnMouseOver
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: OnMouseOver
+  nameWithType: MDOList.OnMouseOver
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.OnMouseOver
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.ReadOnly
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.MDOList.ReadOnly
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: ReadOnly
+  nameWithType: MDOList.ReadOnly
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.CustomIconPath
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.MDOList.CustomIconPath
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: CustomIconPath
+  nameWithType: MDOList.CustomIconPath
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.CustomIconPath
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.EncodeTooltips
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.MDOList.EncodeTooltips
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: EncodeTooltips
+  nameWithType: MDOList.EncodeTooltips
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.EncodeTooltips
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.MDOList.Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: Render(HtmlTextWriter)
+  nameWithType: MDOList.Render(HtmlTextWriter)
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.Render(System.Web.UI.HtmlTextWriter)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.Render(System.Web.UI.HtmlTextWriter)
+    name: Render
+    nameWithType: MDOList.Render
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.Render
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.Render(System.Web.UI.HtmlTextWriter)
+    name: Render
+    nameWithType: MDOList.Render
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.Render
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.EntityElementList.Render*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.EntityElementList.Render
+  isExternal: true
+  name: Render
+  nameWithType: EntityElementList.Render
+  fullName: SuperOffice.CRM.Web.UI.Controls.EntityElementList.Render
+- uid: System.Web.UI.HtmlTextWriter
+  isExternal: true
+  name: HtmlTextWriter
+  nameWithType: HtmlTextWriter
+  fullName: System.Web.UI.HtmlTextWriter
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.MDOList.RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: RenderHeaderItem(HtmlTextWriter, MDOListItem, String, String)
+  nameWithType: MDOList.RenderHeaderItem(HtmlTextWriter, MDOListItem, String, String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderHeaderItem(System.Web.UI.HtmlTextWriter, SuperOffice.CRM.Services.MDOListItem, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String)
+    name: RenderHeaderItem
+    nameWithType: MDOList.RenderHeaderItem
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderHeaderItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String)
+    name: RenderHeaderItem
+    nameWithType: MDOList.RenderHeaderItem
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderHeaderItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.EntityElementList.RenderHeaderItem*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.EntityElementList.RenderHeaderItem
+  isExternal: true
+  name: RenderHeaderItem
+  nameWithType: EntityElementList.RenderHeaderItem
+  fullName: SuperOffice.CRM.Web.UI.Controls.EntityElementList.RenderHeaderItem
+- uid: SuperOffice.CRM.Services.MDOListItem
+  isExternal: true
+  name: MDOListItem
+  nameWithType: MDOListItem
+  fullName: SuperOffice.CRM.Services.MDOListItem
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.MDOList.RenderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String,System.String,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Web.UI.Controls.MDOList
+  isExternal: true
+  name: RenderItem(HtmlTextWriter, MDOListItem, String, String, String, String, Boolean)
+  nameWithType: MDOList.RenderItem(HtmlTextWriter, MDOListItem, String, String, String, String, Boolean)
+  fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderItem(System.Web.UI.HtmlTextWriter, SuperOffice.CRM.Services.MDOListItem, System.String, System.String, System.String, System.String, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String,System.String,System.String,System.Boolean)
+    name: RenderItem
+    nameWithType: MDOList.RenderItem
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.MDOListItem,System.String,System.String,System.String,System.String,System.Boolean)
+    name: RenderItem
+    nameWithType: MDOList.RenderItem
+    fullName: SuperOffice.CRM.Web.UI.Controls.MDOList.RenderItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.EntityElementList.RenderItem*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.EntityElementList.RenderItem
+  isExternal: true
+  name: RenderItem
+  nameWithType: EntityElementList.RenderItem
+  fullName: SuperOffice.CRM.Web.UI.Controls.EntityElementList.RenderItem
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.UI.Controls.EntityElementList.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.EntityElementList.#ctor
+  isExternal: true
+  name: EntityElementList
+  nameWithType: EntityElementList.EntityElementList
+  fullName: SuperOffice.CRM.Web.UI.Controls.EntityElementList.EntityElementList
+- uid: SuperOffice.CRM.Web.UI.Controls.EntityElementList.OnHeaderClick*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.EntityElementList.OnHeaderClick
+  isExternal: true
+  name: OnHeaderClick
+  nameWithType: EntityElementList.OnHeaderClick
+  fullName: SuperOffice.CRM.Web.UI.Controls.EntityElementList.OnHeaderClick

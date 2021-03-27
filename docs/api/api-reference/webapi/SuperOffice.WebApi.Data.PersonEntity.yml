@@ -1,0 +1,2848 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.PersonEntity
+  commentId: T:SuperOffice.WebApi.Data.PersonEntity
+  id: PersonEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.PersonEntity.#ctor
+  - SuperOffice.WebApi.Data.PersonEntity.ActiveErpLinks
+  - SuperOffice.WebApi.Data.PersonEntity.ActiveInterests
+  - SuperOffice.WebApi.Data.PersonEntity.Address
+  - SuperOffice.WebApi.Data.PersonEntity.Associate
+  - SuperOffice.WebApi.Data.PersonEntity.BirthDate
+  - SuperOffice.WebApi.Data.PersonEntity.BounceEmails
+  - SuperOffice.WebApi.Data.PersonEntity.Business
+  - SuperOffice.WebApi.Data.PersonEntity.Category
+  - SuperOffice.WebApi.Data.PersonEntity.ChatEmails
+  - SuperOffice.WebApi.Data.PersonEntity.Consents
+  - SuperOffice.WebApi.Data.PersonEntity.Contact
+  - SuperOffice.WebApi.Data.PersonEntity.CorrespondingAssociate
+  - SuperOffice.WebApi.Data.PersonEntity.Country
+  - SuperOffice.WebApi.Data.PersonEntity.CreatedBy
+  - SuperOffice.WebApi.Data.PersonEntity.CreatedDate
+  - SuperOffice.WebApi.Data.PersonEntity.CustomerLanguage
+  - SuperOffice.WebApi.Data.PersonEntity.CustomFields
+  - SuperOffice.WebApi.Data.PersonEntity.DbiAgentId
+  - SuperOffice.WebApi.Data.PersonEntity.DbiKey
+  - SuperOffice.WebApi.Data.PersonEntity.DbiLastModified
+  - SuperOffice.WebApi.Data.PersonEntity.DbiLastSyncronized
+  - SuperOffice.WebApi.Data.PersonEntity.Description
+  - SuperOffice.WebApi.Data.PersonEntity.Emails
+  - SuperOffice.WebApi.Data.PersonEntity.ExtraFields
+  - SuperOffice.WebApi.Data.PersonEntity.Faxes
+  - SuperOffice.WebApi.Data.PersonEntity.Firstname
+  - SuperOffice.WebApi.Data.PersonEntity.FormalName
+  - SuperOffice.WebApi.Data.PersonEntity.FullName
+  - SuperOffice.WebApi.Data.PersonEntity.Interests
+  - SuperOffice.WebApi.Data.PersonEntity.InternetPhones
+  - SuperOffice.WebApi.Data.PersonEntity.IsAssociate
+  - SuperOffice.WebApi.Data.PersonEntity.Kanafname
+  - SuperOffice.WebApi.Data.PersonEntity.Kanalname
+  - SuperOffice.WebApi.Data.PersonEntity.Lastname
+  - SuperOffice.WebApi.Data.PersonEntity.MiddleName
+  - SuperOffice.WebApi.Data.PersonEntity.MobilePhones
+  - SuperOffice.WebApi.Data.PersonEntity.Mrmrs
+  - SuperOffice.WebApi.Data.PersonEntity.NoMailing
+  - SuperOffice.WebApi.Data.PersonEntity.OfficePhones
+  - SuperOffice.WebApi.Data.PersonEntity.OtherPhones
+  - SuperOffice.WebApi.Data.PersonEntity.PersonId
+  - SuperOffice.WebApi.Data.PersonEntity.PersonNumber
+  - SuperOffice.WebApi.Data.PersonEntity.Position
+  - SuperOffice.WebApi.Data.PersonEntity.Post1
+  - SuperOffice.WebApi.Data.PersonEntity.Post2
+  - SuperOffice.WebApi.Data.PersonEntity.Post3
+  - SuperOffice.WebApi.Data.PersonEntity.PrivatePhones
+  - SuperOffice.WebApi.Data.PersonEntity.Retired
+  - SuperOffice.WebApi.Data.PersonEntity.Salutation
+  - SuperOffice.WebApi.Data.PersonEntity.SentInfo
+  - SuperOffice.WebApi.Data.PersonEntity.ShipmentTypes
+  - SuperOffice.WebApi.Data.PersonEntity.ShowContactTickets
+  - SuperOffice.WebApi.Data.PersonEntity.Source
+  - SuperOffice.WebApi.Data.PersonEntity.SupportAssociate
+  - SuperOffice.WebApi.Data.PersonEntity.TicketPriority
+  - SuperOffice.WebApi.Data.PersonEntity.Title
+  - SuperOffice.WebApi.Data.PersonEntity.UpdatedBy
+  - SuperOffice.WebApi.Data.PersonEntity.UpdatedDate
+  - SuperOffice.WebApi.Data.PersonEntity.Urls
+  - SuperOffice.WebApi.Data.PersonEntity.UsePersonAddress
+  - SuperOffice.WebApi.Data.PersonEntity.UserDefinedFields
+  - SuperOffice.WebApi.Data.PersonEntity.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: PersonEntity
+  nameWithType: PersonEntity
+  fullName: SuperOffice.WebApi.Data.PersonEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for PersonEntity.\nThe Person Service. The service implements all services working with the Person object.    \n"
+  remarks: >
+    Use <xref href="SuperOffice.CRM.Services.ArchiveAgent" data-throw-if-not-resolved="false"></xref>:
+
+    All PersonEntity: <pre><code>&quot;Person&quot;</code></pre>
+
+    Activities: <pre><code>&quot;ContactActivity&quot;</code></pre> with restriction <pre><code>&quot;personId eq &quot; + id</code></pre>.
+
+    Appointments: <pre><code>&quot;Appointment&quot;</code></pre> with restriction <pre><code>&quot;personId eq &quot; + id</code></pre>.
+
+    Documents: <pre><code>&quot;Document&quot;</code></pre> with restriction <pre><code>&quot;personId eq &quot; + id</code></pre>.
+
+    Sales: <pre><code>&quot;SaleFilteredWithStakeholder&quot;</code></pre> with restriction <pre><code>&quot;person/personId eq &quot; + id</code></pre>.
+
+    Relations: <pre><code>&quot;Relation&quot;</code></pre> with restriction <pre><code>&quot;source/restrictionPersonId eq &quot; + id</code></pre>.
+
+    Tickets: <pre><code>&quot;Ticket&quot;</code></pre> with restriction <pre><code>&quot;personId eq &quot; + id</code></pre>.
+  example:
+  - "\nGet PersonEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new PersonAgent(configuration);\nvar personEntity = agent.GetPersonEntity( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class PersonEntity : Carrier'
+    content.vb: >-
+      Public Class PersonEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.PersonAgent
+    commentId: T:SuperOffice.WebApi.Agents.PersonAgent
+  - linkId: SuperOffice.WebApi.Agents.ArchiveAgent
+    commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  - linkId: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+    commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.PersonEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.PersonEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: PersonEntity()
+  nameWithType: PersonEntity.PersonEntity()
+  fullName: SuperOffice.WebApi.Data.PersonEntity.PersonEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public PersonEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.PersonEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PersonEntity.PersonId
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: PersonEntity.PersonId
+  fullName: SuperOffice.WebApi.Data.PersonEntity.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.PersonEntity.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.Firstname
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.Firstname
+  id: Firstname
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Firstname
+  nameWithType: PersonEntity.Firstname
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Firstname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFirst name\n"
+  syntax:
+    content: public virtual string Firstname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Firstname As String
+  overload: SuperOffice.WebApi.Data.PersonEntity.Firstname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.MiddleName
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.MiddleName
+  id: MiddleName
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: MiddleName
+  nameWithType: PersonEntity.MiddleName
+  fullName: SuperOffice.WebApi.Data.PersonEntity.MiddleName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMiddle name or &apos;van&apos; etc.\n"
+  syntax:
+    content: public virtual string MiddleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property MiddleName As String
+  overload: SuperOffice.WebApi.Data.PersonEntity.MiddleName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.Lastname
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.Lastname
+  id: Lastname
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Lastname
+  nameWithType: PersonEntity.Lastname
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Lastname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast name\n"
+  syntax:
+    content: public virtual string Lastname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Lastname As String
+  overload: SuperOffice.WebApi.Data.PersonEntity.Lastname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.Mrmrs
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.Mrmrs
+  id: Mrmrs
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Mrmrs
+  nameWithType: PersonEntity.Mrmrs
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Mrmrs
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\ne.g. Mrs   sex_title\n<p>Use MDO List name &quot;mrmrs&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual string Mrmrs { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Mrmrs As String
+  overload: SuperOffice.WebApi.Data.PersonEntity.Mrmrs*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.Title
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.Title
+  id: Title
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: PersonEntity.Title
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Title
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTitle\n"
+  syntax:
+    content: public virtual string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Title As String
+  overload: SuperOffice.WebApi.Data.PersonEntity.Title*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.UpdatedDate
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.UpdatedDate
+  id: UpdatedDate
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedDate
+  nameWithType: PersonEntity.UpdatedDate
+  fullName: SuperOffice.WebApi.Data.PersonEntity.UpdatedDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast updated date\n"
+  syntax:
+    content: public virtual DateTime UpdatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property UpdatedDate As DateTime
+  overload: SuperOffice.WebApi.Data.PersonEntity.UpdatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.CreatedDate
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.CreatedDate
+  id: CreatedDate
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: CreatedDate
+  nameWithType: PersonEntity.CreatedDate
+  fullName: SuperOffice.WebApi.Data.PersonEntity.CreatedDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRegistered date\n"
+  syntax:
+    content: public virtual DateTime CreatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property CreatedDate As DateTime
+  overload: SuperOffice.WebApi.Data.PersonEntity.CreatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.BirthDate
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.BirthDate
+  id: BirthDate
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: BirthDate
+  nameWithType: PersonEntity.BirthDate
+  fullName: SuperOffice.WebApi.Data.PersonEntity.BirthDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe Person birth date as Date\n"
+  syntax:
+    content: public virtual DateTime BirthDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property BirthDate As DateTime
+  overload: SuperOffice.WebApi.Data.PersonEntity.BirthDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.CreatedBy
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: PersonEntity.CreatedBy
+  fullName: SuperOffice.WebApi.Data.PersonEntity.CreatedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe user that created the person object\n"
+  syntax:
+    content: public virtual Associate CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property CreatedBy As Associate
+  overload: SuperOffice.WebApi.Data.PersonEntity.CreatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.Emails
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.Emails
+  id: Emails
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Emails
+  nameWithType: PersonEntity.Emails
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Emails
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA collection of the person&apos;s emails\n"
+  syntax:
+    content: public virtual EntityElement[] Emails { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EntityElement[]
+    content.vb: Public Overridable Property Emails As EntityElement()
+  overload: SuperOffice.WebApi.Data.PersonEntity.Emails*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.Description
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: PersonEntity.Description
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe actual text, max 2047 significant characters even though it is stored as a larger data type on some databases\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.PersonEntity.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.IsAssociate
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.IsAssociate
+  id: IsAssociate
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: IsAssociate
+  nameWithType: PersonEntity.IsAssociate
+  fullName: SuperOffice.WebApi.Data.PersonEntity.IsAssociate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nChecks if the person object is an associate. The property is read-only.\n"
+  syntax:
+    content: public virtual bool IsAssociate { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsAssociate As Boolean
+  overload: SuperOffice.WebApi.Data.PersonEntity.IsAssociate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.PrivatePhones
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.PrivatePhones
+  id: PrivatePhones
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: PrivatePhones
+  nameWithType: PersonEntity.PrivatePhones
+  fullName: SuperOffice.WebApi.Data.PersonEntity.PrivatePhones
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReturns a collection of phone numbers that belong to the contact person.\n"
+  syntax:
+    content: public virtual EntityElement[] PrivatePhones { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EntityElement[]
+    content.vb: Public Overridable Property PrivatePhones As EntityElement()
+  overload: SuperOffice.WebApi.Data.PersonEntity.PrivatePhones*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.Faxes
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.Faxes
+  id: Faxes
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Faxes
+  nameWithType: PersonEntity.Faxes
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Faxes
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReturns a collection of fax numbers that belong to the contact person.\n"
+  syntax:
+    content: public virtual EntityElement[] Faxes { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EntityElement[]
+    content.vb: Public Overridable Property Faxes As EntityElement()
+  overload: SuperOffice.WebApi.Data.PersonEntity.Faxes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.MobilePhones
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.MobilePhones
+  id: MobilePhones
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: MobilePhones
+  nameWithType: PersonEntity.MobilePhones
+  fullName: SuperOffice.WebApi.Data.PersonEntity.MobilePhones
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReturns a collection of mobile phone numbers that belong to the contact person.\n"
+  syntax:
+    content: public virtual EntityElement[] MobilePhones { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EntityElement[]
+    content.vb: Public Overridable Property MobilePhones As EntityElement()
+  overload: SuperOffice.WebApi.Data.PersonEntity.MobilePhones*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.OfficePhones
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.OfficePhones
+  id: OfficePhones
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: OfficePhones
+  nameWithType: PersonEntity.OfficePhones
+  fullName: SuperOffice.WebApi.Data.PersonEntity.OfficePhones
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReturns a collection of office phone numbers that belong to the contact person.\n"
+  syntax:
+    content: public virtual EntityElement[] OfficePhones { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EntityElement[]
+    content.vb: Public Overridable Property OfficePhones As EntityElement()
+  overload: SuperOffice.WebApi.Data.PersonEntity.OfficePhones*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.OtherPhones
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.OtherPhones
+  id: OtherPhones
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: OtherPhones
+  nameWithType: PersonEntity.OtherPhones
+  fullName: SuperOffice.WebApi.Data.PersonEntity.OtherPhones
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReturns a collection of pagers that belong to the contact person.\n"
+  syntax:
+    content: public virtual EntityElement[] OtherPhones { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EntityElement[]
+    content.vb: Public Overridable Property OtherPhones As EntityElement()
+  overload: SuperOffice.WebApi.Data.PersonEntity.OtherPhones*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.Position
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.Position
+  id: Position
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: PersonEntity.Position
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Position
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe position. This is a predefined SuperOffice value, different from Title\n<p>Use MDO List name &quot;perspos&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Position Position { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Position
+    content.vb: Public Overridable Property Position As Position
+  overload: SuperOffice.WebApi.Data.PersonEntity.Position*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.UpdatedBy
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.UpdatedBy
+  id: UpdatedBy
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedBy
+  nameWithType: PersonEntity.UpdatedBy
+  fullName: SuperOffice.WebApi.Data.PersonEntity.UpdatedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe person that last updated the person object\n"
+  syntax:
+    content: public virtual Associate UpdatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property UpdatedBy As Associate
+  overload: SuperOffice.WebApi.Data.PersonEntity.UpdatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.Contact
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.Contact
+  id: Contact
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: PersonEntity.Contact
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Contact
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe contact the contact person is registered on. This is required unless the &apos;MandatoryContactOnPerson&apos; preference is set.\n<p>Use MDO List name &quot;contact_new&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Contact Contact { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Contact
+    content.vb: Public Overridable Property Contact As Contact
+  overload: SuperOffice.WebApi.Data.PersonEntity.Contact*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.Country
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.Country
+  id: Country
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Country
+  nameWithType: PersonEntity.Country
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Country
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe country this contact person is located in.\n<p>Use MDO List name &quot;country&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Country Country { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Country
+    content.vb: Public Overridable Property Country As Country
+  overload: SuperOffice.WebApi.Data.PersonEntity.Country*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.Interests
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.Interests
+  id: Interests
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Interests
+  nameWithType: PersonEntity.Interests
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Interests
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe person&apos;s available and selected interests.\n<p>Use MDO List name &quot;persint&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual SelectableMDOListItem[] Interests { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.SelectableMDOListItem[]
+    content.vb: Public Overridable Property Interests As SelectableMDOListItem()
+  overload: SuperOffice.WebApi.Data.PersonEntity.Interests*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.PersonNumber
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.PersonNumber
+  id: PersonNumber
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: PersonNumber
+  nameWithType: PersonEntity.PersonNumber
+  fullName: SuperOffice.WebApi.Data.PersonEntity.PersonNumber
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAlphanumeric user field\n"
+  syntax:
+    content: public virtual string PersonNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonNumber As String
+  overload: SuperOffice.WebApi.Data.PersonEntity.PersonNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.FullName
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.FullName
+  id: FullName
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: PersonEntity.FullName
+  fullName: SuperOffice.WebApi.Data.PersonEntity.FullName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe person&apos;s full name localized to the current culture/country.  (internal name used in clients for employees)\n"
+  syntax:
+    content: public virtual string FullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FullName As String
+  overload: SuperOffice.WebApi.Data.PersonEntity.FullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.NoMailing
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.NoMailing
+  id: NoMailing
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: NoMailing
+  nameWithType: PersonEntity.NoMailing
+  fullName: SuperOffice.WebApi.Data.PersonEntity.NoMailing
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSpam filter. Indicates if this person should retrieve advertising.\n"
+  syntax:
+    content: public virtual bool NoMailing { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property NoMailing As Boolean
+  overload: SuperOffice.WebApi.Data.PersonEntity.NoMailing*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.UsePersonAddress
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.UsePersonAddress
+  id: UsePersonAddress
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: UsePersonAddress
+  nameWithType: PersonEntity.UsePersonAddress
+  fullName: SuperOffice.WebApi.Data.PersonEntity.UsePersonAddress
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if the person&apos;s address should be used as mailing address, instead of the contact&apos;s address.\n"
+  syntax:
+    content: public virtual bool UsePersonAddress { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property UsePersonAddress As Boolean
+  overload: SuperOffice.WebApi.Data.PersonEntity.UsePersonAddress*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.Retired
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.Retired
+  id: Retired
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Retired
+  nameWithType: PersonEntity.Retired
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Retired
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if the user is retired and should have no rights, not appear in lists, etc.\n"
+  syntax:
+    content: public virtual bool Retired { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Retired As Boolean
+  overload: SuperOffice.WebApi.Data.PersonEntity.Retired*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.Urls
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.Urls
+  id: Urls
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Urls
+  nameWithType: PersonEntity.Urls
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Urls
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe urls related to this person.\n"
+  syntax:
+    content: public virtual EntityElement[] Urls { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EntityElement[]
+    content.vb: Public Overridable Property Urls As EntityElement()
+  overload: SuperOffice.WebApi.Data.PersonEntity.Urls*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.FormalName
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.FormalName
+  id: FormalName
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: FormalName
+  nameWithType: PersonEntity.FormalName
+  fullName: SuperOffice.WebApi.Data.PersonEntity.FormalName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGet formal name for a person, as used in labels. (Full name + person title + academic title)\n"
+  syntax:
+    content: public virtual string FormalName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FormalName As String
+  overload: SuperOffice.WebApi.Data.PersonEntity.FormalName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.Address
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.Address
+  id: Address
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: PersonEntity.Address
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Address
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStructure holding formatted address data. The layout of the array structure indicates the layout of the localized address.\n"
+  syntax:
+    content: public virtual Address Address { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Address
+    content.vb: Public Overridable Property Address As Address
+  overload: SuperOffice.WebApi.Data.PersonEntity.Address*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.Post3
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.Post3
+  id: Post3
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Post3
+  nameWithType: PersonEntity.Post3
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Post3
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPostal address, used in Japanese versions only\n"
+  syntax:
+    content: public virtual string Post3 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Post3 As String
+  overload: SuperOffice.WebApi.Data.PersonEntity.Post3*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.Post2
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.Post2
+  id: Post2
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Post2
+  nameWithType: PersonEntity.Post2
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Post2
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPostal address, used in Japanese versions only\n"
+  syntax:
+    content: public virtual string Post2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Post2 As String
+  overload: SuperOffice.WebApi.Data.PersonEntity.Post2*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.Post1
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.Post1
+  id: Post1
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Post1
+  nameWithType: PersonEntity.Post1
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Post1
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPostal address, used in Japanese versions only\n"
+  syntax:
+    content: public virtual string Post1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Post1 As String
+  overload: SuperOffice.WebApi.Data.PersonEntity.Post1*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.Kanalname
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.Kanalname
+  id: Kanalname
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Kanalname
+  nameWithType: PersonEntity.Kanalname
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Kanalname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nKana last name, used in Japanese versions only\n"
+  syntax:
+    content: public virtual string Kanalname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Kanalname As String
+  overload: SuperOffice.WebApi.Data.PersonEntity.Kanalname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.Kanafname
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.Kanafname
+  id: Kanafname
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Kanafname
+  nameWithType: PersonEntity.Kanafname
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Kanafname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nKana first name, used in Japanese versions only\n"
+  syntax:
+    content: public virtual string Kanafname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Kanafname As String
+  overload: SuperOffice.WebApi.Data.PersonEntity.Kanafname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.CorrespondingAssociate
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.CorrespondingAssociate
+  id: CorrespondingAssociate
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: CorrespondingAssociate
+  nameWithType: PersonEntity.CorrespondingAssociate
+  fullName: SuperOffice.WebApi.Data.PersonEntity.CorrespondingAssociate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe associate corresponding to this person. Will be empty if the person is not a user (internal associate user, external user).\n"
+  syntax:
+    content: public virtual Associate CorrespondingAssociate { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property CorrespondingAssociate As Associate
+  overload: SuperOffice.WebApi.Data.PersonEntity.CorrespondingAssociate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.Category
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.Category
+  id: Category
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Category
+  nameWithType: PersonEntity.Category
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Category
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPerson&apos;s category. Usually null. Refer to the Contact.Category instead.  Intended for use when individual persons are created. (i.e. when Person.Contact is blank)\n<p>Use MDO List name &quot;category&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Category Category { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Category
+    content.vb: Public Overridable Property Category As Category
+  overload: SuperOffice.WebApi.Data.PersonEntity.Category*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.Business
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.Business
+  id: Business
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Business
+  nameWithType: PersonEntity.Business
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Business
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPerson&apos;s business - usually blank. Use Contact.Business instead. Intended for use when individual persons are created. (i.e. when Person.Contact is blank)\n<p>Use MDO List name &quot;business&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Business Business { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Business
+    content.vb: Public Overridable Property Business As Business
+  overload: SuperOffice.WebApi.Data.PersonEntity.Business*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.Associate
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.Associate
+  id: Associate
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: PersonEntity.Associate
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Associate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe associate owning this person (similar to contact.Associate) - usually blank. Use the Person.Contact.Associate instead.  Intended for use when individual persons are created (i.e. when Person.Contact is blank)\n<p>Use MDO List name &quot;associate&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Associate Associate { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property Associate As Associate
+  overload: SuperOffice.WebApi.Data.PersonEntity.Associate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.Salutation
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.Salutation
+  id: Salutation
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Salutation
+  nameWithType: PersonEntity.Salutation
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Salutation
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAcademic title, populated from Salutation list but can be overwritten with anything at all\n<p>Use MDO List name &quot;salutation&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual string Salutation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Salutation As String
+  overload: SuperOffice.WebApi.Data.PersonEntity.Salutation*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.ActiveInterests
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.ActiveInterests
+  id: ActiveInterests
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: ActiveInterests
+  nameWithType: PersonEntity.ActiveInterests
+  fullName: SuperOffice.WebApi.Data.PersonEntity.ActiveInterests
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe number of active interests.\n"
+  syntax:
+    content: public virtual int ActiveInterests { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ActiveInterests As Integer
+  overload: SuperOffice.WebApi.Data.PersonEntity.ActiveInterests*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.SupportAssociate
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.SupportAssociate
+  id: SupportAssociate
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: SupportAssociate
+  nameWithType: PersonEntity.SupportAssociate
+  fullName: SuperOffice.WebApi.Data.PersonEntity.SupportAssociate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n<p>Use MDO List name &quot;associate&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Associate SupportAssociate { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property SupportAssociate As Associate
+  overload: SuperOffice.WebApi.Data.PersonEntity.SupportAssociate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.TicketPriority
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.TicketPriority
+  id: TicketPriority
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketPriority
+  nameWithType: PersonEntity.TicketPriority
+  fullName: SuperOffice.WebApi.Data.PersonEntity.TicketPriority
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n<p>Use MDO List name &quot;ticketpriority&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual TicketPriority TicketPriority { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TicketPriority
+    content.vb: Public Overridable Property TicketPriority As TicketPriority
+  overload: SuperOffice.WebApi.Data.PersonEntity.TicketPriority*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.CustomerLanguage
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.CustomerLanguage
+  id: CustomerLanguage
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: CustomerLanguage
+  nameWithType: PersonEntity.CustomerLanguage
+  fullName: SuperOffice.WebApi.Data.PersonEntity.CustomerLanguage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n<p>Use MDO List name &quot;customerlanguage&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual CustomerLanguage CustomerLanguage { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.CustomerLanguage
+    content.vb: Public Overridable Property CustomerLanguage As CustomerLanguage
+  overload: SuperOffice.WebApi.Data.PersonEntity.CustomerLanguage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.DbiAgentId
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.DbiAgentId
+  id: DbiAgentId
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: DbiAgentId
+  nameWithType: PersonEntity.DbiAgentId
+  fullName: SuperOffice.WebApi.Data.PersonEntity.DbiAgentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIntegration agent (eJournal)\n"
+  syntax:
+    content: public virtual int DbiAgentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DbiAgentId As Integer
+  overload: SuperOffice.WebApi.Data.PersonEntity.DbiAgentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.DbiKey
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.DbiKey
+  id: DbiKey
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: DbiKey
+  nameWithType: PersonEntity.DbiKey
+  fullName: SuperOffice.WebApi.Data.PersonEntity.DbiKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe primary key for the integrated entry in the external datasource.\n"
+  syntax:
+    content: public virtual string DbiKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DbiKey As String
+  overload: SuperOffice.WebApi.Data.PersonEntity.DbiKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.DbiLastModified
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.DbiLastModified
+  id: DbiLastModified
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: DbiLastModified
+  nameWithType: PersonEntity.DbiLastModified
+  fullName: SuperOffice.WebApi.Data.PersonEntity.DbiLastModified
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhen the entry was last modified.\n"
+  syntax:
+    content: public virtual DateTime DbiLastModified { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property DbiLastModified As DateTime
+  overload: SuperOffice.WebApi.Data.PersonEntity.DbiLastModified*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.DbiLastSyncronized
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.DbiLastSyncronized
+  id: DbiLastSyncronized
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: DbiLastSyncronized
+  nameWithType: PersonEntity.DbiLastSyncronized
+  fullName: SuperOffice.WebApi.Data.PersonEntity.DbiLastSyncronized
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast external syncronization.\n"
+  syntax:
+    content: public virtual DateTime DbiLastSyncronized { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property DbiLastSyncronized As DateTime
+  overload: SuperOffice.WebApi.Data.PersonEntity.DbiLastSyncronized*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.SentInfo
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.SentInfo
+  id: SentInfo
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: SentInfo
+  nameWithType: PersonEntity.SentInfo
+  fullName: SuperOffice.WebApi.Data.PersonEntity.SentInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHas information on username/password been sent (ejournal)\n"
+  syntax:
+    content: public virtual short SentInfo { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property SentInfo As Short
+  overload: SuperOffice.WebApi.Data.PersonEntity.SentInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.ShowContactTickets
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.ShowContactTickets
+  id: ShowContactTickets
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: ShowContactTickets
+  nameWithType: PersonEntity.ShowContactTickets
+  fullName: SuperOffice.WebApi.Data.PersonEntity.ShowContactTickets
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould tickets related to the company be shown to this person\n"
+  syntax:
+    content: public virtual short ShowContactTickets { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property ShowContactTickets As Short
+  overload: SuperOffice.WebApi.Data.PersonEntity.ShowContactTickets*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.UserInfo
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.UserInfo
+  id: UserInfo
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: UserInfo
+  nameWithType: PersonEntity.UserInfo
+  fullName: SuperOffice.WebApi.Data.PersonEntity.UserInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nInformation about the user if this person is a user.  If IsAssociate (e.g. is user is true) the UserInfo will be provided.\n"
+  syntax:
+    content: public virtual UserInfo UserInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.UserInfo
+    content.vb: Public Overridable Property UserInfo As UserInfo
+  overload: SuperOffice.WebApi.Data.PersonEntity.UserInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.ChatEmails
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.ChatEmails
+  id: ChatEmails
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: ChatEmails
+  nameWithType: PersonEntity.ChatEmails
+  fullName: SuperOffice.WebApi.Data.PersonEntity.ChatEmails
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual EntityElement[] ChatEmails { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EntityElement[]
+    content.vb: Public Overridable Property ChatEmails As EntityElement()
+  overload: SuperOffice.WebApi.Data.PersonEntity.ChatEmails*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.InternetPhones
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.InternetPhones
+  id: InternetPhones
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: InternetPhones
+  nameWithType: PersonEntity.InternetPhones
+  fullName: SuperOffice.WebApi.Data.PersonEntity.InternetPhones
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual EntityElement[] InternetPhones { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EntityElement[]
+    content.vb: Public Overridable Property InternetPhones As EntityElement()
+  overload: SuperOffice.WebApi.Data.PersonEntity.InternetPhones*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.Source
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.Source
+  id: Source
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: PersonEntity.Source
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Source
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHow did we get this person? For future integration needs\n"
+  syntax:
+    content: public virtual short Source { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Source As Short
+  overload: SuperOffice.WebApi.Data.PersonEntity.Source*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.ActiveErpLinks
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.ActiveErpLinks
+  id: ActiveErpLinks
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: ActiveErpLinks
+  nameWithType: PersonEntity.ActiveErpLinks
+  fullName: SuperOffice.WebApi.Data.PersonEntity.ActiveErpLinks
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHow many active ERP links are there for this person?\n"
+  syntax:
+    content: public virtual int ActiveErpLinks { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ActiveErpLinks As Integer
+  overload: SuperOffice.WebApi.Data.PersonEntity.ActiveErpLinks*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.ShipmentTypes
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.ShipmentTypes
+  id: ShipmentTypes
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: ShipmentTypes
+  nameWithType: PersonEntity.ShipmentTypes
+  fullName: SuperOffice.WebApi.Data.PersonEntity.ShipmentTypes
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe person&apos;s available and selected shipment types.\n"
+  syntax:
+    content: public virtual SelectableMDOListItem[] ShipmentTypes { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.SelectableMDOListItem[]
+    content.vb: Public Overridable Property ShipmentTypes As SelectableMDOListItem()
+  overload: SuperOffice.WebApi.Data.PersonEntity.ShipmentTypes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.Consents
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.Consents
+  id: Consents
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Consents
+  nameWithType: PersonEntity.Consents
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Consents
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe person&apos;s available consent information. Missing consents are not deleted. To remove a consent, mark its legalbase as &apos;WITHDRAWN&apos;\n"
+  syntax:
+    content: public virtual ConsentInfo[] Consents { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ConsentInfo[]
+    content.vb: Public Overridable Property Consents As ConsentInfo()
+  overload: SuperOffice.WebApi.Data.PersonEntity.Consents*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.BounceEmails
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.BounceEmails
+  id: BounceEmails
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: BounceEmails
+  nameWithType: PersonEntity.BounceEmails
+  fullName: SuperOffice.WebApi.Data.PersonEntity.BounceEmails
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEmail addresses with a positive bounce counter.\n"
+  syntax:
+    content: public virtual string[] BounceEmails { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property BounceEmails As String()
+  overload: SuperOffice.WebApi.Data.PersonEntity.BounceEmails*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.UserDefinedFields
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.UserDefinedFields
+  id: UserDefinedFields
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFields
+  nameWithType: PersonEntity.UserDefinedFields
+  fullName: SuperOffice.WebApi.Data.PersonEntity.UserDefinedFields
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDeprecated: Use <xref href=\"SuperOffice.WebApi.Data.PersonEntity.CustomFields\" data-throw-if-not-resolved=\"false\"></xref> instead.\nDictionary of user defined field data.\nThe key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format &quot;SuperOffice:[UdefFieldIdentity]&quot;, e.g. &quot;SuperOffice:1234&quot;\nThe value string is the encoded value: &quot;[I:123]&quot; or &quot;[DT:2019-09-11]&quot;.\n"
+  syntax:
+    content: public virtual StringDictionary UserDefinedFields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StringDictionary
+    content.vb: Public Overridable Property UserDefinedFields As StringDictionary
+  overload: SuperOffice.WebApi.Data.PersonEntity.UserDefinedFields*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.ExtraFields
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.ExtraFields
+  id: ExtraFields
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: ExtraFields
+  nameWithType: PersonEntity.ExtraFields
+  fullName: SuperOffice.WebApi.Data.PersonEntity.ExtraFields
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDeprecated: Use <xref href=\"SuperOffice.WebApi.Data.PersonEntity.CustomFields\" data-throw-if-not-resolved=\"false\"></xref> instead.\nExtra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc.\nThe value string is the encoded value: &quot;[I:123]&quot; or &quot;[DT:2019-09-11]&quot;.\n"
+  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Plug-in data</td><td>\n	[Plug-in name].[Property name]\n	Example: DocumentPlugin.DocumentType\n</td></tr><tr><td>Foreign key data</td><td>\nThe device identity is appended directly to the device name if it exists. \n   This is not commonly used, but the database opens for this as a possibility to have several devices with the same name, \n   and hence we would ensure an unique key if this field is used.\n   Example: Audience.SecretService.DefaultCountry\n</td></tr><tr><td>User defined table data</td><td>\n[Table name].[Field name]\nExample: Phunneling.AggregatedSales\n</td></tr><tr><td>Other</td><td>\nOther data sources must ensure an unique name. If the key already exists we do not add the data to the dictionary. \nWe also ensure that SuperOffice data are added first, so that existing data doesnt change when more data sources are added (with duplicate data keys).\n</td></tr></tbody></table>\n"
+  syntax:
+    content: public virtual StringDictionary ExtraFields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StringDictionary
+    content.vb: Public Overridable Property ExtraFields As StringDictionary
+  overload: SuperOffice.WebApi.Data.PersonEntity.ExtraFields*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PersonEntity.CustomFields
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.CustomFields
+  id: CustomFields
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: CustomFields
+  nameWithType: PersonEntity.CustomFields
+  fullName: SuperOffice.WebApi.Data.PersonEntity.CustomFields
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUdef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin.\nCustom fields combines user defined fields and extra fields into one bucket. \nThe individual <xref href=\"SuperOffice.WebApi.Data.PersonEntity.ExtraFields\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.WebApi.Data.PersonEntity.UserDefinedFields\" data-throw-if-not-resolved=\"false\"></xref> properties are deprecated in favor of this\ncombined collection.\nThe value string is the encoded value: &quot;[I:123]&quot; or &quot;[DT:2019-09-11]&quot;.\n"
+  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Extra field data</td><td>\n	[Extra field name]<p></p>\n	Example: <pre><code>&apos;x_gorp&apos; = &apos;[I:123]&apos;</code></pre>\n</td></tr><tr><td>User defined field data</td><td>\n[Prog-id name]<p></p>\n   Example: <pre><code>&apos;SuperOffice:1&apos; = &apos;[I:123]&apos;</code></pre><p></p>\n</td></tr></tbody></table>\n"
+  syntax:
+    content: public virtual StringDictionary CustomFields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StringDictionary
+    content.vb: Public Overridable Property CustomFields As StringDictionary
+  overload: SuperOffice.WebApi.Data.PersonEntity.CustomFields*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.PersonAgent
+  commentId: T:SuperOffice.WebApi.Agents.PersonAgent
+  isExternal: true
+  name: PersonAgent
+  nameWithType: PersonAgent
+  fullName: SuperOffice.WebApi.Agents.PersonAgent
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+- uid: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  isExternal: true
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.PersonEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.#ctor
+  isExternal: true
+  name: PersonEntity
+  nameWithType: PersonEntity.PersonEntity
+  fullName: SuperOffice.WebApi.Data.PersonEntity.PersonEntity
+- uid: SuperOffice.WebApi.Data.PersonEntity.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: PersonEntity.PersonId
+  fullName: SuperOffice.WebApi.Data.PersonEntity.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.PersonEntity.Firstname*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.Firstname
+  isExternal: true
+  name: Firstname
+  nameWithType: PersonEntity.Firstname
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Firstname
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.PersonEntity.MiddleName*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.MiddleName
+  isExternal: true
+  name: MiddleName
+  nameWithType: PersonEntity.MiddleName
+  fullName: SuperOffice.WebApi.Data.PersonEntity.MiddleName
+- uid: SuperOffice.WebApi.Data.PersonEntity.Lastname*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.Lastname
+  isExternal: true
+  name: Lastname
+  nameWithType: PersonEntity.Lastname
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Lastname
+- uid: SuperOffice.WebApi.Data.PersonEntity.Mrmrs*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.Mrmrs
+  isExternal: true
+  name: Mrmrs
+  nameWithType: PersonEntity.Mrmrs
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Mrmrs
+- uid: SuperOffice.WebApi.Data.PersonEntity.Title*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.Title
+  isExternal: true
+  name: Title
+  nameWithType: PersonEntity.Title
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Title
+- uid: SuperOffice.WebApi.Data.PersonEntity.UpdatedDate*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.UpdatedDate
+  isExternal: true
+  name: UpdatedDate
+  nameWithType: PersonEntity.UpdatedDate
+  fullName: SuperOffice.WebApi.Data.PersonEntity.UpdatedDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.PersonEntity.CreatedDate*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.CreatedDate
+  isExternal: true
+  name: CreatedDate
+  nameWithType: PersonEntity.CreatedDate
+  fullName: SuperOffice.WebApi.Data.PersonEntity.CreatedDate
+- uid: SuperOffice.WebApi.Data.PersonEntity.BirthDate*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.BirthDate
+  isExternal: true
+  name: BirthDate
+  nameWithType: PersonEntity.BirthDate
+  fullName: SuperOffice.WebApi.Data.PersonEntity.BirthDate
+- uid: SuperOffice.WebApi.Data.PersonEntity.CreatedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: PersonEntity.CreatedBy
+  fullName: SuperOffice.WebApi.Data.PersonEntity.CreatedBy
+- uid: SuperOffice.WebApi.Data.Associate
+  commentId: T:SuperOffice.WebApi.Data.Associate
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.WebApi.Data.Associate
+- uid: SuperOffice.WebApi.Data.PersonEntity.Emails*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.Emails
+  isExternal: true
+  name: Emails
+  nameWithType: PersonEntity.Emails
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Emails
+- uid: SuperOffice.WebApi.Data.EntityElement[]
+  isExternal: true
+  name: EntityElement[]
+  nameWithType: EntityElement[]
+  fullName: SuperOffice.WebApi.Data.EntityElement[]
+  nameWithType.vb: EntityElement()
+  fullName.vb: SuperOffice.WebApi.Data.EntityElement()
+  name.vb: EntityElement()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.EntityElement
+    name: EntityElement
+    nameWithType: EntityElement
+    fullName: SuperOffice.WebApi.Data.EntityElement
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.EntityElement
+    name: EntityElement
+    nameWithType: EntityElement
+    fullName: SuperOffice.WebApi.Data.EntityElement
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.PersonEntity.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.Description
+  isExternal: true
+  name: Description
+  nameWithType: PersonEntity.Description
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Description
+- uid: SuperOffice.WebApi.Data.PersonEntity.IsAssociate*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.IsAssociate
+  isExternal: true
+  name: IsAssociate
+  nameWithType: PersonEntity.IsAssociate
+  fullName: SuperOffice.WebApi.Data.PersonEntity.IsAssociate
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.PersonEntity.PrivatePhones*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.PrivatePhones
+  isExternal: true
+  name: PrivatePhones
+  nameWithType: PersonEntity.PrivatePhones
+  fullName: SuperOffice.WebApi.Data.PersonEntity.PrivatePhones
+- uid: SuperOffice.WebApi.Data.PersonEntity.Faxes*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.Faxes
+  isExternal: true
+  name: Faxes
+  nameWithType: PersonEntity.Faxes
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Faxes
+- uid: SuperOffice.WebApi.Data.PersonEntity.MobilePhones*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.MobilePhones
+  isExternal: true
+  name: MobilePhones
+  nameWithType: PersonEntity.MobilePhones
+  fullName: SuperOffice.WebApi.Data.PersonEntity.MobilePhones
+- uid: SuperOffice.WebApi.Data.PersonEntity.OfficePhones*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.OfficePhones
+  isExternal: true
+  name: OfficePhones
+  nameWithType: PersonEntity.OfficePhones
+  fullName: SuperOffice.WebApi.Data.PersonEntity.OfficePhones
+- uid: SuperOffice.WebApi.Data.PersonEntity.OtherPhones*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.OtherPhones
+  isExternal: true
+  name: OtherPhones
+  nameWithType: PersonEntity.OtherPhones
+  fullName: SuperOffice.WebApi.Data.PersonEntity.OtherPhones
+- uid: SuperOffice.WebApi.Data.PersonEntity.Position*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.Position
+  isExternal: true
+  name: Position
+  nameWithType: PersonEntity.Position
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Position
+- uid: SuperOffice.WebApi.Data.Position
+  commentId: T:SuperOffice.WebApi.Data.Position
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Position
+  nameWithType: Position
+  fullName: SuperOffice.WebApi.Data.Position
+- uid: SuperOffice.WebApi.Data.PersonEntity.UpdatedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.UpdatedBy
+  isExternal: true
+  name: UpdatedBy
+  nameWithType: PersonEntity.UpdatedBy
+  fullName: SuperOffice.WebApi.Data.PersonEntity.UpdatedBy
+- uid: SuperOffice.WebApi.Data.PersonEntity.Contact*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.Contact
+  isExternal: true
+  name: Contact
+  nameWithType: PersonEntity.Contact
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Contact
+- uid: SuperOffice.WebApi.Data.Contact
+  commentId: T:SuperOffice.WebApi.Data.Contact
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Contact
+  nameWithType: Contact
+  fullName: SuperOffice.WebApi.Data.Contact
+- uid: SuperOffice.WebApi.Data.PersonEntity.Country*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.Country
+  isExternal: true
+  name: Country
+  nameWithType: PersonEntity.Country
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Country
+- uid: SuperOffice.WebApi.Data.Country
+  commentId: T:SuperOffice.WebApi.Data.Country
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Country
+  nameWithType: Country
+  fullName: SuperOffice.WebApi.Data.Country
+- uid: SuperOffice.WebApi.Data.PersonEntity.Interests*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.Interests
+  isExternal: true
+  name: Interests
+  nameWithType: PersonEntity.Interests
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Interests
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem[]
+  isExternal: true
+  name: SelectableMDOListItem[]
+  nameWithType: SelectableMDOListItem[]
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem[]
+  nameWithType.vb: SelectableMDOListItem()
+  fullName.vb: SuperOffice.WebApi.Data.SelectableMDOListItem()
+  name.vb: SelectableMDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.WebApi.Data.SelectableMDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.WebApi.Data.SelectableMDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.PersonEntity.PersonNumber*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.PersonNumber
+  isExternal: true
+  name: PersonNumber
+  nameWithType: PersonEntity.PersonNumber
+  fullName: SuperOffice.WebApi.Data.PersonEntity.PersonNumber
+- uid: SuperOffice.WebApi.Data.PersonEntity.FullName*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.FullName
+  isExternal: true
+  name: FullName
+  nameWithType: PersonEntity.FullName
+  fullName: SuperOffice.WebApi.Data.PersonEntity.FullName
+- uid: SuperOffice.WebApi.Data.PersonEntity.NoMailing*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.NoMailing
+  isExternal: true
+  name: NoMailing
+  nameWithType: PersonEntity.NoMailing
+  fullName: SuperOffice.WebApi.Data.PersonEntity.NoMailing
+- uid: SuperOffice.WebApi.Data.PersonEntity.UsePersonAddress*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.UsePersonAddress
+  isExternal: true
+  name: UsePersonAddress
+  nameWithType: PersonEntity.UsePersonAddress
+  fullName: SuperOffice.WebApi.Data.PersonEntity.UsePersonAddress
+- uid: SuperOffice.WebApi.Data.PersonEntity.Retired*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.Retired
+  isExternal: true
+  name: Retired
+  nameWithType: PersonEntity.Retired
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Retired
+- uid: SuperOffice.WebApi.Data.PersonEntity.Urls*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.Urls
+  isExternal: true
+  name: Urls
+  nameWithType: PersonEntity.Urls
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Urls
+- uid: SuperOffice.WebApi.Data.PersonEntity.FormalName*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.FormalName
+  isExternal: true
+  name: FormalName
+  nameWithType: PersonEntity.FormalName
+  fullName: SuperOffice.WebApi.Data.PersonEntity.FormalName
+- uid: SuperOffice.WebApi.Data.PersonEntity.Address*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.Address
+  isExternal: true
+  name: Address
+  nameWithType: PersonEntity.Address
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Address
+- uid: SuperOffice.WebApi.Data.Address
+  commentId: T:SuperOffice.WebApi.Data.Address
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Address
+  nameWithType: Address
+  fullName: SuperOffice.WebApi.Data.Address
+- uid: SuperOffice.WebApi.Data.PersonEntity.Post3*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.Post3
+  isExternal: true
+  name: Post3
+  nameWithType: PersonEntity.Post3
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Post3
+- uid: SuperOffice.WebApi.Data.PersonEntity.Post2*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.Post2
+  isExternal: true
+  name: Post2
+  nameWithType: PersonEntity.Post2
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Post2
+- uid: SuperOffice.WebApi.Data.PersonEntity.Post1*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.Post1
+  isExternal: true
+  name: Post1
+  nameWithType: PersonEntity.Post1
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Post1
+- uid: SuperOffice.WebApi.Data.PersonEntity.Kanalname*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.Kanalname
+  isExternal: true
+  name: Kanalname
+  nameWithType: PersonEntity.Kanalname
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Kanalname
+- uid: SuperOffice.WebApi.Data.PersonEntity.Kanafname*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.Kanafname
+  isExternal: true
+  name: Kanafname
+  nameWithType: PersonEntity.Kanafname
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Kanafname
+- uid: SuperOffice.WebApi.Data.PersonEntity.CorrespondingAssociate*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.CorrespondingAssociate
+  isExternal: true
+  name: CorrespondingAssociate
+  nameWithType: PersonEntity.CorrespondingAssociate
+  fullName: SuperOffice.WebApi.Data.PersonEntity.CorrespondingAssociate
+- uid: SuperOffice.WebApi.Data.PersonEntity.Category*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.Category
+  isExternal: true
+  name: Category
+  nameWithType: PersonEntity.Category
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Category
+- uid: SuperOffice.WebApi.Data.Category
+  commentId: T:SuperOffice.WebApi.Data.Category
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Category
+  nameWithType: Category
+  fullName: SuperOffice.WebApi.Data.Category
+- uid: SuperOffice.WebApi.Data.PersonEntity.Business*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.Business
+  isExternal: true
+  name: Business
+  nameWithType: PersonEntity.Business
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Business
+- uid: SuperOffice.WebApi.Data.Business
+  commentId: T:SuperOffice.WebApi.Data.Business
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Business
+  nameWithType: Business
+  fullName: SuperOffice.WebApi.Data.Business
+- uid: SuperOffice.WebApi.Data.PersonEntity.Associate*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.Associate
+  isExternal: true
+  name: Associate
+  nameWithType: PersonEntity.Associate
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Associate
+- uid: SuperOffice.WebApi.Data.PersonEntity.Salutation*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.Salutation
+  isExternal: true
+  name: Salutation
+  nameWithType: PersonEntity.Salutation
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Salutation
+- uid: SuperOffice.WebApi.Data.PersonEntity.ActiveInterests*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.ActiveInterests
+  isExternal: true
+  name: ActiveInterests
+  nameWithType: PersonEntity.ActiveInterests
+  fullName: SuperOffice.WebApi.Data.PersonEntity.ActiveInterests
+- uid: SuperOffice.WebApi.Data.PersonEntity.SupportAssociate*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.SupportAssociate
+  isExternal: true
+  name: SupportAssociate
+  nameWithType: PersonEntity.SupportAssociate
+  fullName: SuperOffice.WebApi.Data.PersonEntity.SupportAssociate
+- uid: SuperOffice.WebApi.Data.PersonEntity.TicketPriority*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.TicketPriority
+  isExternal: true
+  name: TicketPriority
+  nameWithType: PersonEntity.TicketPriority
+  fullName: SuperOffice.WebApi.Data.PersonEntity.TicketPriority
+- uid: SuperOffice.WebApi.Data.TicketPriority
+  commentId: T:SuperOffice.WebApi.Data.TicketPriority
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TicketPriority
+  nameWithType: TicketPriority
+  fullName: SuperOffice.WebApi.Data.TicketPriority
+- uid: SuperOffice.WebApi.Data.PersonEntity.CustomerLanguage*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.CustomerLanguage
+  isExternal: true
+  name: CustomerLanguage
+  nameWithType: PersonEntity.CustomerLanguage
+  fullName: SuperOffice.WebApi.Data.PersonEntity.CustomerLanguage
+- uid: SuperOffice.WebApi.Data.CustomerLanguage
+  commentId: T:SuperOffice.WebApi.Data.CustomerLanguage
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: CustomerLanguage
+  nameWithType: CustomerLanguage
+  fullName: SuperOffice.WebApi.Data.CustomerLanguage
+- uid: SuperOffice.WebApi.Data.PersonEntity.DbiAgentId*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.DbiAgentId
+  isExternal: true
+  name: DbiAgentId
+  nameWithType: PersonEntity.DbiAgentId
+  fullName: SuperOffice.WebApi.Data.PersonEntity.DbiAgentId
+- uid: SuperOffice.WebApi.Data.PersonEntity.DbiKey*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.DbiKey
+  isExternal: true
+  name: DbiKey
+  nameWithType: PersonEntity.DbiKey
+  fullName: SuperOffice.WebApi.Data.PersonEntity.DbiKey
+- uid: SuperOffice.WebApi.Data.PersonEntity.DbiLastModified*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.DbiLastModified
+  isExternal: true
+  name: DbiLastModified
+  nameWithType: PersonEntity.DbiLastModified
+  fullName: SuperOffice.WebApi.Data.PersonEntity.DbiLastModified
+- uid: SuperOffice.WebApi.Data.PersonEntity.DbiLastSyncronized*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.DbiLastSyncronized
+  isExternal: true
+  name: DbiLastSyncronized
+  nameWithType: PersonEntity.DbiLastSyncronized
+  fullName: SuperOffice.WebApi.Data.PersonEntity.DbiLastSyncronized
+- uid: SuperOffice.WebApi.Data.PersonEntity.SentInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.SentInfo
+  isExternal: true
+  name: SentInfo
+  nameWithType: PersonEntity.SentInfo
+  fullName: SuperOffice.WebApi.Data.PersonEntity.SentInfo
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.PersonEntity.ShowContactTickets*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.ShowContactTickets
+  isExternal: true
+  name: ShowContactTickets
+  nameWithType: PersonEntity.ShowContactTickets
+  fullName: SuperOffice.WebApi.Data.PersonEntity.ShowContactTickets
+- uid: SuperOffice.WebApi.Data.PersonEntity.UserInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.UserInfo
+  isExternal: true
+  name: UserInfo
+  nameWithType: PersonEntity.UserInfo
+  fullName: SuperOffice.WebApi.Data.PersonEntity.UserInfo
+- uid: SuperOffice.WebApi.Data.UserInfo
+  commentId: T:SuperOffice.WebApi.Data.UserInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: UserInfo
+  nameWithType: UserInfo
+  fullName: SuperOffice.WebApi.Data.UserInfo
+- uid: SuperOffice.WebApi.Data.PersonEntity.ChatEmails*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.ChatEmails
+  isExternal: true
+  name: ChatEmails
+  nameWithType: PersonEntity.ChatEmails
+  fullName: SuperOffice.WebApi.Data.PersonEntity.ChatEmails
+- uid: SuperOffice.WebApi.Data.PersonEntity.InternetPhones*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.InternetPhones
+  isExternal: true
+  name: InternetPhones
+  nameWithType: PersonEntity.InternetPhones
+  fullName: SuperOffice.WebApi.Data.PersonEntity.InternetPhones
+- uid: SuperOffice.WebApi.Data.PersonEntity.Source*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.Source
+  isExternal: true
+  name: Source
+  nameWithType: PersonEntity.Source
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Source
+- uid: SuperOffice.WebApi.Data.PersonEntity.ActiveErpLinks*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.ActiveErpLinks
+  isExternal: true
+  name: ActiveErpLinks
+  nameWithType: PersonEntity.ActiveErpLinks
+  fullName: SuperOffice.WebApi.Data.PersonEntity.ActiveErpLinks
+- uid: SuperOffice.WebApi.Data.PersonEntity.ShipmentTypes*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.ShipmentTypes
+  isExternal: true
+  name: ShipmentTypes
+  nameWithType: PersonEntity.ShipmentTypes
+  fullName: SuperOffice.WebApi.Data.PersonEntity.ShipmentTypes
+- uid: SuperOffice.WebApi.Data.PersonEntity.Consents*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.Consents
+  isExternal: true
+  name: Consents
+  nameWithType: PersonEntity.Consents
+  fullName: SuperOffice.WebApi.Data.PersonEntity.Consents
+- uid: SuperOffice.WebApi.Data.ConsentInfo[]
+  isExternal: true
+  name: ConsentInfo[]
+  nameWithType: ConsentInfo[]
+  fullName: SuperOffice.WebApi.Data.ConsentInfo[]
+  nameWithType.vb: ConsentInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ConsentInfo()
+  name.vb: ConsentInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ConsentInfo
+    name: ConsentInfo
+    nameWithType: ConsentInfo
+    fullName: SuperOffice.WebApi.Data.ConsentInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ConsentInfo
+    name: ConsentInfo
+    nameWithType: ConsentInfo
+    fullName: SuperOffice.WebApi.Data.ConsentInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.PersonEntity.BounceEmails*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.BounceEmails
+  isExternal: true
+  name: BounceEmails
+  nameWithType: PersonEntity.BounceEmails
+  fullName: SuperOffice.WebApi.Data.PersonEntity.BounceEmails
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.PersonEntity.UserDefinedFields*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.UserDefinedFields
+  isExternal: true
+  name: UserDefinedFields
+  nameWithType: PersonEntity.UserDefinedFields
+  fullName: SuperOffice.WebApi.Data.PersonEntity.UserDefinedFields
+- uid: SuperOffice.WebApi.Data.StringDictionary
+  commentId: T:SuperOffice.WebApi.Data.StringDictionary
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.WebApi.Data.StringDictionary
+- uid: SuperOffice.WebApi.Data.PersonEntity.ExtraFields*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.ExtraFields
+  isExternal: true
+  name: ExtraFields
+  nameWithType: PersonEntity.ExtraFields
+  fullName: SuperOffice.WebApi.Data.PersonEntity.ExtraFields
+- uid: SuperOffice.WebApi.Data.PersonEntity.CustomFields*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.CustomFields
+  isExternal: true
+  name: CustomFields
+  nameWithType: PersonEntity.CustomFields
+  fullName: SuperOffice.WebApi.Data.PersonEntity.CustomFields

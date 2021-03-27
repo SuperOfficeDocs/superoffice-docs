@@ -1,0 +1,540 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Cache.CacheBase.CacheState
+  commentId: T:SuperOffice.Data.Cache.CacheBase.CacheState
+  id: CacheBase.CacheState
+  parent: SuperOffice.Data.Cache
+  children:
+  - SuperOffice.Data.Cache.CacheBase.CacheState.Disposed
+  - SuperOffice.Data.Cache.CacheBase.CacheState.Expired
+  - SuperOffice.Data.Cache.CacheBase.CacheState.Flushed
+  - SuperOffice.Data.Cache.CacheBase.CacheState.New
+  - SuperOffice.Data.Cache.CacheBase.CacheState.Normal
+  langs:
+  - csharp
+  - vb
+  name: CacheBase.CacheState
+  nameWithType: CacheBase.CacheState
+  fullName: SuperOffice.Data.Cache.CacheBase.CacheState
+  type: Enum
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  summary: "\nState of the cache\n"
+  syntax:
+    content: public enum CacheState
+    content.vb: Public Enum CacheState
+  extensionMethods:
+  - SuperOffice.Data.Cache.CacheBase.CacheState.EnumUtil.MapEnums``2
+  - SuperOffice.Data.Cache.CacheBase.CacheState.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Cache.CacheBase.CacheState)
+  - SuperOffice.Data.Cache.CacheBase.CacheState.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.Cache.CacheBase.CacheState.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.Cache.CacheBase.CacheState.New
+  commentId: F:SuperOffice.Data.Cache.CacheBase.CacheState.New
+  id: New
+  parent: SuperOffice.Data.Cache.CacheBase.CacheState
+  langs:
+  - csharp
+  - vb
+  name: New
+  nameWithType: CacheBase.CacheState.New
+  fullName: SuperOffice.Data.Cache.CacheBase.CacheState.New
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  summary: "\nThe cache has not been refreshed for the first time.\n"
+  syntax:
+    content: New = 0
+    return:
+      type: SuperOffice.Data.Cache.CacheBase.CacheState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Cache.CacheBase.CacheState.Normal
+  commentId: F:SuperOffice.Data.Cache.CacheBase.CacheState.Normal
+  id: Normal
+  parent: SuperOffice.Data.Cache.CacheBase.CacheState
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: CacheBase.CacheState.Normal
+  fullName: SuperOffice.Data.Cache.CacheBase.CacheState.Normal
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  summary: "\nThe cache is in a state where it has not expired since the last refresh.\n"
+  syntax:
+    content: Normal = 1
+    return:
+      type: SuperOffice.Data.Cache.CacheBase.CacheState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Cache.CacheBase.CacheState.Expired
+  commentId: F:SuperOffice.Data.Cache.CacheBase.CacheState.Expired
+  id: Expired
+  parent: SuperOffice.Data.Cache.CacheBase.CacheState
+  langs:
+  - csharp
+  - vb
+  name: Expired
+  nameWithType: CacheBase.CacheState.Expired
+  fullName: SuperOffice.Data.Cache.CacheBase.CacheState.Expired
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  summary: "\nThe cache has expired.\n"
+  syntax:
+    content: Expired = 2
+    return:
+      type: SuperOffice.Data.Cache.CacheBase.CacheState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Cache.CacheBase.CacheState.Flushed
+  commentId: F:SuperOffice.Data.Cache.CacheBase.CacheState.Flushed
+  id: Flushed
+  parent: SuperOffice.Data.Cache.CacheBase.CacheState
+  langs:
+  - csharp
+  - vb
+  name: Flushed
+  nameWithType: CacheBase.CacheState.Flushed
+  fullName: SuperOffice.Data.Cache.CacheBase.CacheState.Flushed
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  summary: "\nThe cache has been flushed and not refreshed yet.\n"
+  syntax:
+    content: Flushed = 3
+    return:
+      type: SuperOffice.Data.Cache.CacheBase.CacheState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Cache.CacheBase.CacheState.Disposed
+  commentId: F:SuperOffice.Data.Cache.CacheBase.CacheState.Disposed
+  id: Disposed
+  parent: SuperOffice.Data.Cache.CacheBase.CacheState
+  langs:
+  - csharp
+  - vb
+  name: Disposed
+  nameWithType: CacheBase.CacheState.Disposed
+  fullName: SuperOffice.Data.Cache.CacheBase.CacheState.Disposed
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  summary: "\nThe cache has been disposed of and should be disregarded.\n"
+  syntax:
+    content: Disposed = 4
+    return:
+      type: SuperOffice.Data.Cache.CacheBase.CacheState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data.Cache
+  commentId: N:SuperOffice.Data.Cache
+  isExternal: true
+  name: SuperOffice.Data.Cache
+  nameWithType: SuperOffice.Data.Cache
+  fullName: SuperOffice.Data.Cache
+- uid: SuperOffice.Data.Cache.CacheBase.CacheState.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<CacheBase.CacheState, To>()
+  nameWithType: EnumUtil.MapEnums<CacheBase.CacheState, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Cache.CacheBase.CacheState, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CacheBase.CacheState, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Cache.CacheBase.CacheState, To)()
+  name.vb: MapEnums(Of CacheBase.CacheState, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CacheBase.CacheState, To>
+    nameWithType: EnumUtil.MapEnums<CacheBase.CacheState, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.Cache.CacheBase.CacheState, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CacheBase.CacheState, To)
+    nameWithType: EnumUtil.MapEnums(Of CacheBase.CacheState, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.Cache.CacheBase.CacheState, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.CacheState.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Cache.CacheBase.CacheState)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<CacheBase.CacheState>(CacheBase.CacheState)
+  nameWithType: ObjectExtensions.AssignByReflection<CacheBase.CacheState>(CacheBase.CacheState)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.Cache.CacheBase.CacheState>(SuperOffice.Data.Cache.CacheBase.CacheState)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CacheBase.CacheState)(CacheBase.CacheState)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.Cache.CacheBase.CacheState)(SuperOffice.Data.Cache.CacheBase.CacheState)
+  name.vb: AssignByReflection(Of CacheBase.CacheState)(CacheBase.CacheState)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<CacheBase.CacheState>
+    nameWithType: ObjectExtensions.AssignByReflection<CacheBase.CacheState>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.Cache.CacheBase.CacheState>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Cache.CacheBase.CacheState
+    name: CacheBase.CacheState
+    nameWithType: CacheBase.CacheState
+    fullName: SuperOffice.Data.Cache.CacheBase.CacheState
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of CacheBase.CacheState)
+    nameWithType: ObjectExtensions.AssignByReflection(Of CacheBase.CacheState)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.Cache.CacheBase.CacheState)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Cache.CacheBase.CacheState
+    name: CacheBase.CacheState
+    nameWithType: CacheBase.CacheState
+    fullName: SuperOffice.Data.Cache.CacheBase.CacheState
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.CacheState.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<CacheBase.CacheState>()
+  nameWithType: ObjectExtensions.GraphCopy<CacheBase.CacheState>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.Cache.CacheBase.CacheState>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of CacheBase.CacheState)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.Cache.CacheBase.CacheState)()
+  name.vb: GraphCopy(Of CacheBase.CacheState)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<CacheBase.CacheState>
+    nameWithType: ObjectExtensions.GraphCopy<CacheBase.CacheState>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.Cache.CacheBase.CacheState>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of CacheBase.CacheState)
+    nameWithType: ObjectExtensions.GraphCopy(Of CacheBase.CacheState)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.Cache.CacheBase.CacheState)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.CacheState.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CacheBase.CacheState, To>()
+  nameWithType: Converters.MapEnums<CacheBase.CacheState, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Cache.CacheBase.CacheState, To>()
+  nameWithType.vb: Converters.MapEnums(Of CacheBase.CacheState, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Cache.CacheBase.CacheState, To)()
+  name.vb: MapEnums(Of CacheBase.CacheState, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CacheBase.CacheState, To>
+    nameWithType: Converters.MapEnums<CacheBase.CacheState, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Cache.CacheBase.CacheState, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CacheBase.CacheState, To)
+    nameWithType: Converters.MapEnums(Of CacheBase.CacheState, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Cache.CacheBase.CacheState, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.Cache.CacheBase.CacheState
+  commentId: T:SuperOffice.Data.Cache.CacheBase.CacheState
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: CacheBase.CacheState
+  nameWithType: CacheBase.CacheState
+  fullName: SuperOffice.Data.Cache.CacheBase.CacheState

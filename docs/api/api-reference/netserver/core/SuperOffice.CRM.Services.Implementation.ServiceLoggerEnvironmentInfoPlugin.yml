@@ -1,0 +1,832 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin
+  commentId: T:SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin
+  id: ServiceLoggerEnvironmentInfoPlugin
+  parent: SuperOffice.CRM.Services.Implementation
+  children:
+  - SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.#ctor
+  - SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  langs:
+  - csharp
+  - vb
+  name: ServiceLoggerEnvironmentInfoPlugin
+  nameWithType: ServiceLoggerEnvironmentInfoPlugin
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: >-
+      [SoEnvironmentInfoPlugin("ServiceLoggerEnvironmentInfoPlugin")]
+
+      public class ServiceLoggerEnvironmentInfoPlugin : ISoEnvironmentInfoPlugin, IPlugin
+    content.vb: >-
+      <SoEnvironmentInfoPlugin("ServiceLoggerEnvironmentInfoPlugin")>
+
+      Public Class ServiceLoggerEnvironmentInfoPlugin
+          Implements ISoEnvironmentInfoPlugin, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin)
+  - SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Diagnostics.SoEnvironmentInfoPluginAttribute
+    ctor: SuperOffice.Diagnostics.SoEnvironmentInfoPluginAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ServiceLoggerEnvironmentInfoPlugin
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  id: UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin
+  langs:
+  - csharp
+  - vb
+  name: UpdateEnvironmentInfo(NameValueCollection)
+  nameWithType: ServiceLoggerEnvironmentInfoPlugin.UpdateEnvironmentInfo(NameValueCollection)
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public void UpdateEnvironmentInfo(NameValueCollection environmentInfo)
+    parameters:
+    - id: environmentInfo
+      type: System.Collections.Specialized.NameValueCollection
+    content.vb: Public Sub UpdateEnvironmentInfo(environmentInfo As NameValueCollection)
+  overload: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.UpdateEnvironmentInfo*
+  implements:
+  - SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.#ctor
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin
+  langs:
+  - csharp
+  - vb
+  name: ServiceLoggerEnvironmentInfoPlugin()
+  nameWithType: ServiceLoggerEnvironmentInfoPlugin.ServiceLoggerEnvironmentInfoPlugin()
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.ServiceLoggerEnvironmentInfoPlugin()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public ServiceLoggerEnvironmentInfoPlugin()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services.Implementation
+  commentId: N:SuperOffice.CRM.Services.Implementation
+  isExternal: true
+  name: SuperOffice.CRM.Services.Implementation
+  nameWithType: SuperOffice.CRM.Services.Implementation
+  fullName: SuperOffice.CRM.Services.Implementation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin
+  commentId: T:SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: ISoEnvironmentInfoPlugin
+  nameWithType: ISoEnvironmentInfoPlugin
+  fullName: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ServiceLoggerEnvironmentInfoPlugin, To>()
+  nameWithType: EnumUtil.MapEnums<ServiceLoggerEnvironmentInfoPlugin, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ServiceLoggerEnvironmentInfoPlugin, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin, To)()
+  name.vb: MapEnums(Of ServiceLoggerEnvironmentInfoPlugin, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ServiceLoggerEnvironmentInfoPlugin, To>
+    nameWithType: EnumUtil.MapEnums<ServiceLoggerEnvironmentInfoPlugin, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ServiceLoggerEnvironmentInfoPlugin, To)
+    nameWithType: EnumUtil.MapEnums(Of ServiceLoggerEnvironmentInfoPlugin, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ServiceLoggerEnvironmentInfoPlugin>(ServiceLoggerEnvironmentInfoPlugin)
+  nameWithType: ObjectExtensions.AssignByReflection<ServiceLoggerEnvironmentInfoPlugin>(ServiceLoggerEnvironmentInfoPlugin)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin>(SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ServiceLoggerEnvironmentInfoPlugin)(ServiceLoggerEnvironmentInfoPlugin)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin)(SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin)
+  name.vb: AssignByReflection(Of ServiceLoggerEnvironmentInfoPlugin)(ServiceLoggerEnvironmentInfoPlugin)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ServiceLoggerEnvironmentInfoPlugin>
+    nameWithType: ObjectExtensions.AssignByReflection<ServiceLoggerEnvironmentInfoPlugin>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin
+    name: ServiceLoggerEnvironmentInfoPlugin
+    nameWithType: ServiceLoggerEnvironmentInfoPlugin
+    fullName: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ServiceLoggerEnvironmentInfoPlugin)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ServiceLoggerEnvironmentInfoPlugin)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin
+    name: ServiceLoggerEnvironmentInfoPlugin
+    nameWithType: ServiceLoggerEnvironmentInfoPlugin
+    fullName: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ServiceLoggerEnvironmentInfoPlugin>()
+  nameWithType: ObjectExtensions.GraphCopy<ServiceLoggerEnvironmentInfoPlugin>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ServiceLoggerEnvironmentInfoPlugin)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin)()
+  name.vb: GraphCopy(Of ServiceLoggerEnvironmentInfoPlugin)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ServiceLoggerEnvironmentInfoPlugin>
+    nameWithType: ObjectExtensions.GraphCopy<ServiceLoggerEnvironmentInfoPlugin>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ServiceLoggerEnvironmentInfoPlugin)
+    nameWithType: ObjectExtensions.GraphCopy(Of ServiceLoggerEnvironmentInfoPlugin)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ServiceLoggerEnvironmentInfoPlugin, To>()
+  nameWithType: Converters.MapEnums<ServiceLoggerEnvironmentInfoPlugin, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin, To>()
+  nameWithType.vb: Converters.MapEnums(Of ServiceLoggerEnvironmentInfoPlugin, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin, To)()
+  name.vb: MapEnums(Of ServiceLoggerEnvironmentInfoPlugin, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ServiceLoggerEnvironmentInfoPlugin, To>
+    nameWithType: Converters.MapEnums<ServiceLoggerEnvironmentInfoPlugin, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ServiceLoggerEnvironmentInfoPlugin, To)
+    nameWithType: Converters.MapEnums(Of ServiceLoggerEnvironmentInfoPlugin, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.UpdateEnvironmentInfo*
+  commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.UpdateEnvironmentInfo
+  isExternal: true
+  name: UpdateEnvironmentInfo
+  nameWithType: ServiceLoggerEnvironmentInfoPlugin.UpdateEnvironmentInfo
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.UpdateEnvironmentInfo
+- uid: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  commentId: M:SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  parent: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin
+  isExternal: true
+  name: UpdateEnvironmentInfo(NameValueCollection)
+  nameWithType: ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(NameValueCollection)
+  fullName: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  spec.csharp:
+  - uid: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+    name: UpdateEnvironmentInfo
+    nameWithType: ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo
+    fullName: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Specialized.NameValueCollection
+    name: NameValueCollection
+    nameWithType: NameValueCollection
+    fullName: System.Collections.Specialized.NameValueCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+    name: UpdateEnvironmentInfo
+    nameWithType: ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo
+    fullName: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Specialized.NameValueCollection
+    name: NameValueCollection
+    nameWithType: NameValueCollection
+    fullName: System.Collections.Specialized.NameValueCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Specialized.NameValueCollection
+  isExternal: true
+  name: NameValueCollection
+  nameWithType: NameValueCollection
+  fullName: System.Collections.Specialized.NameValueCollection
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.#ctor
+  isExternal: true
+  name: ServiceLoggerEnvironmentInfoPlugin
+  nameWithType: ServiceLoggerEnvironmentInfoPlugin.ServiceLoggerEnvironmentInfoPlugin
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.ServiceLoggerEnvironmentInfoPlugin

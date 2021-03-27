@@ -1,0 +1,888 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.BlobLinkType
+  commentId: T:SuperOffice.Data.BlobLinkType
+  id: BlobLinkType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.BlobLinkType.AccessToken
+  - SuperOffice.Data.BlobLinkType.BatchTask
+  - SuperOffice.Data.BlobLinkType.ChatTopicImage
+  - SuperOffice.Data.BlobLinkType.ContactImage
+  - SuperOffice.Data.BlobLinkType.Dashboard
+  - SuperOffice.Data.BlobLinkType.DashboardTile
+  - SuperOffice.Data.BlobLinkType.EventImage
+  - SuperOffice.Data.BlobLinkType.FormsBackgroundImage
+  - SuperOffice.Data.BlobLinkType.PersonImage
+  - SuperOffice.Data.BlobLinkType.ProductImage
+  - SuperOffice.Data.BlobLinkType.ProductThumbnail
+  - SuperOffice.Data.BlobLinkType.ProjectImage
+  - SuperOffice.Data.BlobLinkType.QuoteLineImage
+  - SuperOffice.Data.BlobLinkType.QuoteLineThumbnail
+  - SuperOffice.Data.BlobLinkType.RefreshToken
+  - SuperOffice.Data.BlobLinkType.StatusMonitorImage
+  - SuperOffice.Data.BlobLinkType.Thumbnail
+  langs:
+  - csharp
+  - vb
+  name: BlobLinkType
+  nameWithType: BlobLinkType
+  fullName: SuperOffice.Data.BlobLinkType
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nThe link type, often synonymous with the blob type, of a BinaryObjectLink row\nThis Enum is used by:  BinaryObjectLink.linkType\n"
+  syntax:
+    content: 'public enum BlobLinkType : short'
+    content.vb: Public Enum BlobLinkType As Short
+  extensionMethods:
+  - SuperOffice.Data.BlobLinkType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.BlobLinkType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.BlobLinkType)
+  - SuperOffice.Data.BlobLinkType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.BlobLinkType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.BlobLinkType.PersonImage
+  commentId: F:SuperOffice.Data.BlobLinkType.PersonImage
+  id: PersonImage
+  parent: SuperOffice.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: PersonImage
+  nameWithType: BlobLinkType.PersonImage
+  fullName: SuperOffice.Data.BlobLinkType.PersonImage
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Portrait picture of a person\n"
+  syntax:
+    content: PersonImage = 1
+    return:
+      type: SuperOffice.Data.BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.BlobLinkType.ProjectImage
+  commentId: F:SuperOffice.Data.BlobLinkType.ProjectImage
+  id: ProjectImage
+  parent: SuperOffice.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: ProjectImage
+  nameWithType: BlobLinkType.ProjectImage
+  fullName: SuperOffice.Data.BlobLinkType.ProjectImage
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Picture bound to a project\n"
+  syntax:
+    content: ProjectImage = 2
+    return:
+      type: SuperOffice.Data.BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.BlobLinkType.EventImage
+  commentId: F:SuperOffice.Data.BlobLinkType.EventImage
+  id: EventImage
+  parent: SuperOffice.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: EventImage
+  nameWithType: BlobLinkType.EventImage
+  fullName: SuperOffice.Data.BlobLinkType.EventImage
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n3: Picture used for a project of type Event, in the Audience client\n"
+  syntax:
+    content: EventImage = 3
+    return:
+      type: SuperOffice.Data.BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.BlobLinkType.Thumbnail
+  commentId: F:SuperOffice.Data.BlobLinkType.Thumbnail
+  id: Thumbnail
+  parent: SuperOffice.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: Thumbnail
+  nameWithType: BlobLinkType.Thumbnail
+  fullName: SuperOffice.Data.BlobLinkType.Thumbnail
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Generic thumbnail - not used?\n"
+  syntax:
+    content: Thumbnail = 4
+    return:
+      type: SuperOffice.Data.BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.BlobLinkType.StatusMonitorImage
+  commentId: F:SuperOffice.Data.BlobLinkType.StatusMonitorImage
+  id: StatusMonitorImage
+  parent: SuperOffice.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: StatusMonitorImage
+  nameWithType: BlobLinkType.StatusMonitorImage
+  fullName: SuperOffice.Data.BlobLinkType.StatusMonitorImage
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n5: Watermark image for a Status Monitor in Sales Intelligence\n"
+  syntax:
+    content: StatusMonitorImage = 5
+    return:
+      type: SuperOffice.Data.BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.BlobLinkType.BatchTask
+  commentId: F:SuperOffice.Data.BlobLinkType.BatchTask
+  id: BatchTask
+  parent: SuperOffice.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: BatchTask
+  nameWithType: BlobLinkType.BatchTask
+  fullName: SuperOffice.Data.BlobLinkType.BatchTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n6: Information related to a BatchTask in NetServer\n"
+  syntax:
+    content: BatchTask = 6
+    return:
+      type: SuperOffice.Data.BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.BlobLinkType.ProductImage
+  commentId: F:SuperOffice.Data.BlobLinkType.ProductImage
+  id: ProductImage
+  parent: SuperOffice.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: ProductImage
+  nameWithType: BlobLinkType.ProductImage
+  fullName: SuperOffice.Data.BlobLinkType.ProductImage
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n7: Image (possibly more than one, differentiated by rank) of a Product; exactly one row should have rank=1\n"
+  syntax:
+    content: ProductImage = 7
+    return:
+      type: SuperOffice.Data.BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.BlobLinkType.ProductThumbnail
+  commentId: F:SuperOffice.Data.BlobLinkType.ProductThumbnail
+  id: ProductThumbnail
+  parent: SuperOffice.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: ProductThumbnail
+  nameWithType: BlobLinkType.ProductThumbnail
+  fullName: SuperOffice.Data.BlobLinkType.ProductThumbnail
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n8: Thumbnail image for a product, only one allowed per product\n"
+  syntax:
+    content: ProductThumbnail = 8
+    return:
+      type: SuperOffice.Data.BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.BlobLinkType.QuoteLineImage
+  commentId: F:SuperOffice.Data.BlobLinkType.QuoteLineImage
+  id: QuoteLineImage
+  parent: SuperOffice.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineImage
+  nameWithType: BlobLinkType.QuoteLineImage
+  fullName: SuperOffice.Data.BlobLinkType.QuoteLineImage
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n9: Image (possibly more than one, differentiated by rank) of a Product image for a quote line, only one allowed per quote line\n"
+  syntax:
+    content: QuoteLineImage = 9
+    return:
+      type: SuperOffice.Data.BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.BlobLinkType.QuoteLineThumbnail
+  commentId: F:SuperOffice.Data.BlobLinkType.QuoteLineThumbnail
+  id: QuoteLineThumbnail
+  parent: SuperOffice.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineThumbnail
+  nameWithType: BlobLinkType.QuoteLineThumbnail
+  fullName: SuperOffice.Data.BlobLinkType.QuoteLineThumbnail
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n10: Thumbnail image for a quote line, only one allowed per quote line\n"
+  syntax:
+    content: QuoteLineThumbnail = 10
+    return:
+      type: SuperOffice.Data.BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.BlobLinkType.AccessToken
+  commentId: F:SuperOffice.Data.BlobLinkType.AccessToken
+  id: AccessToken
+  parent: SuperOffice.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: AccessToken
+  nameWithType: BlobLinkType.AccessToken
+  fullName: SuperOffice.Data.BlobLinkType.AccessToken
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n11: Access Token used by Cloud Documents for accessing external services\n"
+  syntax:
+    content: AccessToken = 11
+    return:
+      type: SuperOffice.Data.BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.BlobLinkType.RefreshToken
+  commentId: F:SuperOffice.Data.BlobLinkType.RefreshToken
+  id: RefreshToken
+  parent: SuperOffice.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: RefreshToken
+  nameWithType: BlobLinkType.RefreshToken
+  fullName: SuperOffice.Data.BlobLinkType.RefreshToken
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n12: Refresh Token used by Cloud Documents for accessing external services\n"
+  syntax:
+    content: RefreshToken = 12
+    return:
+      type: SuperOffice.Data.BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.BlobLinkType.Dashboard
+  commentId: F:SuperOffice.Data.BlobLinkType.Dashboard
+  id: Dashboard
+  parent: SuperOffice.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: Dashboard
+  nameWithType: BlobLinkType.Dashboard
+  fullName: SuperOffice.Data.BlobLinkType.Dashboard
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n13: Dashboard\n"
+  syntax:
+    content: Dashboard = 13
+    return:
+      type: SuperOffice.Data.BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.BlobLinkType.DashboardTile
+  commentId: F:SuperOffice.Data.BlobLinkType.DashboardTile
+  id: DashboardTile
+  parent: SuperOffice.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: DashboardTile
+  nameWithType: BlobLinkType.DashboardTile
+  fullName: SuperOffice.Data.BlobLinkType.DashboardTile
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n14: Dashboard tile\n"
+  syntax:
+    content: DashboardTile = 14
+    return:
+      type: SuperOffice.Data.BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.BlobLinkType.ChatTopicImage
+  commentId: F:SuperOffice.Data.BlobLinkType.ChatTopicImage
+  id: ChatTopicImage
+  parent: SuperOffice.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: ChatTopicImage
+  nameWithType: BlobLinkType.ChatTopicImage
+  fullName: SuperOffice.Data.BlobLinkType.ChatTopicImage
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n15: Chat topic image\n"
+  syntax:
+    content: ChatTopicImage = 15
+    return:
+      type: SuperOffice.Data.BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.BlobLinkType.FormsBackgroundImage
+  commentId: F:SuperOffice.Data.BlobLinkType.FormsBackgroundImage
+  id: FormsBackgroundImage
+  parent: SuperOffice.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: FormsBackgroundImage
+  nameWithType: BlobLinkType.FormsBackgroundImage
+  fullName: SuperOffice.Data.BlobLinkType.FormsBackgroundImage
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n16: Forms background image\n"
+  syntax:
+    content: FormsBackgroundImage = 16
+    return:
+      type: SuperOffice.Data.BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.BlobLinkType.ContactImage
+  commentId: F:SuperOffice.Data.BlobLinkType.ContactImage
+  id: ContactImage
+  parent: SuperOffice.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: ContactImage
+  nameWithType: BlobLinkType.ContactImage
+  fullName: SuperOffice.Data.BlobLinkType.ContactImage
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n17: Contact logo image\n"
+  syntax:
+    content: ContactImage = 17
+    return:
+      type: SuperOffice.Data.BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.BlobLinkType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<BlobLinkType, To>()
+  nameWithType: EnumUtil.MapEnums<BlobLinkType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.BlobLinkType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of BlobLinkType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.BlobLinkType, To)()
+  name.vb: MapEnums(Of BlobLinkType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<BlobLinkType, To>
+    nameWithType: EnumUtil.MapEnums<BlobLinkType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.BlobLinkType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of BlobLinkType, To)
+    nameWithType: EnumUtil.MapEnums(Of BlobLinkType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.BlobLinkType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.BlobLinkType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.BlobLinkType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<BlobLinkType>(BlobLinkType)
+  nameWithType: ObjectExtensions.AssignByReflection<BlobLinkType>(BlobLinkType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.BlobLinkType>(SuperOffice.Data.BlobLinkType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of BlobLinkType)(BlobLinkType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.BlobLinkType)(SuperOffice.Data.BlobLinkType)
+  name.vb: AssignByReflection(Of BlobLinkType)(BlobLinkType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<BlobLinkType>
+    nameWithType: ObjectExtensions.AssignByReflection<BlobLinkType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.BlobLinkType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.BlobLinkType
+    name: BlobLinkType
+    nameWithType: BlobLinkType
+    fullName: SuperOffice.Data.BlobLinkType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of BlobLinkType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of BlobLinkType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.BlobLinkType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.BlobLinkType
+    name: BlobLinkType
+    nameWithType: BlobLinkType
+    fullName: SuperOffice.Data.BlobLinkType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.BlobLinkType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<BlobLinkType>()
+  nameWithType: ObjectExtensions.GraphCopy<BlobLinkType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.BlobLinkType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of BlobLinkType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.BlobLinkType)()
+  name.vb: GraphCopy(Of BlobLinkType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<BlobLinkType>
+    nameWithType: ObjectExtensions.GraphCopy<BlobLinkType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.BlobLinkType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of BlobLinkType)
+    nameWithType: ObjectExtensions.GraphCopy(Of BlobLinkType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.BlobLinkType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.BlobLinkType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<BlobLinkType, To>()
+  nameWithType: Converters.MapEnums<BlobLinkType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.BlobLinkType, To>()
+  nameWithType.vb: Converters.MapEnums(Of BlobLinkType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.BlobLinkType, To)()
+  name.vb: MapEnums(Of BlobLinkType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<BlobLinkType, To>
+    nameWithType: Converters.MapEnums<BlobLinkType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.BlobLinkType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of BlobLinkType, To)
+    nameWithType: Converters.MapEnums(Of BlobLinkType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.BlobLinkType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.BlobLinkType
+  commentId: T:SuperOffice.Data.BlobLinkType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: BlobLinkType
+  nameWithType: BlobLinkType
+  fullName: SuperOffice.Data.BlobLinkType

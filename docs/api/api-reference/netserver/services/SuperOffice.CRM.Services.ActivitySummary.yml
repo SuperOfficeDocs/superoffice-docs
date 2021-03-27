@@ -1,0 +1,311 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ActivitySummary
+  commentId: T:SuperOffice.CRM.Services.ActivitySummary
+  id: ActivitySummary
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ActivitySummary.#ctor
+  - SuperOffice.CRM.Services.ActivitySummary.NumBusyActivities
+  - SuperOffice.CRM.Services.ActivitySummary.NumFreeActivities
+  - SuperOffice.CRM.Services.ActivitySummary.PercentageBusy
+  - SuperOffice.CRM.Services.ActivitySummary.ToString
+  - SuperOffice.CRM.Services.ActivitySummary.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ActivitySummary
+  nameWithType: ActivitySummary
+  fullName: SuperOffice.CRM.Services.ActivitySummary
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nActivity information summary - number of free and busy activities.\n<p></p>\nCarrier object for ActivitySummary.\nServices for the ActivitySummary Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IAppointmentAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class ActivitySummary : Carrier'
+    content.vb: >-
+      Public Class ActivitySummary
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.AppointmentAgent
+    commentId: T:SuperOffice.CRM.Services.AppointmentAgent
+  - linkId: SuperOffice.CRM.Services.IAppointmentAgent
+    commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ActivitySummary.#ctor
+  commentId: M:SuperOffice.CRM.Services.ActivitySummary.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ActivitySummary
+  langs:
+  - csharp
+  - vb
+  name: ActivitySummary()
+  nameWithType: ActivitySummary.ActivitySummary()
+  fullName: SuperOffice.CRM.Services.ActivitySummary.ActivitySummary()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ActivitySummary()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ActivitySummary.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ActivitySummary.ToString
+  commentId: M:SuperOffice.CRM.Services.ActivitySummary.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ActivitySummary
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ActivitySummary.ToString()
+  fullName: SuperOffice.CRM.Services.ActivitySummary.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.ActivitySummary.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ActivitySummary.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ActivitySummary.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ActivitySummary
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ActivitySummary.ToString(String)
+  fullName: SuperOffice.CRM.Services.ActivitySummary.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ActivitySummary.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ActivitySummary.NumBusyActivities
+  commentId: P:SuperOffice.CRM.Services.ActivitySummary.NumBusyActivities
+  id: NumBusyActivities
+  parent: SuperOffice.CRM.Services.ActivitySummary
+  langs:
+  - csharp
+  - vb
+  name: NumBusyActivities
+  nameWithType: ActivitySummary.NumBusyActivities
+  fullName: SuperOffice.CRM.Services.ActivitySummary.NumBusyActivities
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNumber of activites and tasks in the diary that are of type &apos;busy&apos;. Sales and documents are not activites in this case, only diary appointments and tasks. \n"
+  syntax:
+    content: public virtual int NumBusyActivities { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NumBusyActivities As Integer
+  overload: SuperOffice.CRM.Services.ActivitySummary.NumBusyActivities*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ActivitySummary.NumFreeActivities
+  commentId: P:SuperOffice.CRM.Services.ActivitySummary.NumFreeActivities
+  id: NumFreeActivities
+  parent: SuperOffice.CRM.Services.ActivitySummary
+  langs:
+  - csharp
+  - vb
+  name: NumFreeActivities
+  nameWithType: ActivitySummary.NumFreeActivities
+  fullName: SuperOffice.CRM.Services.ActivitySummary.NumFreeActivities
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNumber of activites of the type &apos;free&apos;. Sales and documents are not activites in this case, only diary appointments and tasks. \n"
+  syntax:
+    content: public virtual int NumFreeActivities { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NumFreeActivities As Integer
+  overload: SuperOffice.CRM.Services.ActivitySummary.NumFreeActivities*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ActivitySummary.PercentageBusy
+  commentId: P:SuperOffice.CRM.Services.ActivitySummary.PercentageBusy
+  id: PercentageBusy
+  parent: SuperOffice.CRM.Services.ActivitySummary
+  langs:
+  - csharp
+  - vb
+  name: PercentageBusy
+  nameWithType: ActivitySummary.PercentageBusy
+  fullName: SuperOffice.CRM.Services.ActivitySummary.PercentageBusy
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nHow much of the active work-day which is booked in appointments. \n"
+  syntax:
+    content: public virtual int PercentageBusy { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PercentageBusy As Integer
+  overload: SuperOffice.CRM.Services.ActivitySummary.PercentageBusy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AppointmentAgent
+  commentId: T:SuperOffice.CRM.Services.AppointmentAgent
+  isExternal: true
+  name: AppointmentAgent
+  nameWithType: AppointmentAgent
+  fullName: SuperOffice.CRM.Services.AppointmentAgent
+- uid: SuperOffice.CRM.Services.IAppointmentAgent
+  commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAppointmentAgent
+  nameWithType: IAppointmentAgent
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ActivitySummary.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ActivitySummary.#ctor
+  isExternal: true
+  name: ActivitySummary
+  nameWithType: ActivitySummary.ActivitySummary
+  fullName: SuperOffice.CRM.Services.ActivitySummary.ActivitySummary
+- uid: SuperOffice.CRM.Services.ActivitySummary.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ActivitySummary.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ActivitySummary.ToString
+  fullName: SuperOffice.CRM.Services.ActivitySummary.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ActivitySummary.NumBusyActivities*
+  commentId: Overload:SuperOffice.CRM.Services.ActivitySummary.NumBusyActivities
+  isExternal: true
+  name: NumBusyActivities
+  nameWithType: ActivitySummary.NumBusyActivities
+  fullName: SuperOffice.CRM.Services.ActivitySummary.NumBusyActivities
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ActivitySummary.NumFreeActivities*
+  commentId: Overload:SuperOffice.CRM.Services.ActivitySummary.NumFreeActivities
+  isExternal: true
+  name: NumFreeActivities
+  nameWithType: ActivitySummary.NumFreeActivities
+  fullName: SuperOffice.CRM.Services.ActivitySummary.NumFreeActivities
+- uid: SuperOffice.CRM.Services.ActivitySummary.PercentageBusy*
+  commentId: Overload:SuperOffice.CRM.Services.ActivitySummary.PercentageBusy
+  isExternal: true
+  name: PercentageBusy
+  nameWithType: ActivitySummary.PercentageBusy
+  fullName: SuperOffice.CRM.Services.ActivitySummary.PercentageBusy

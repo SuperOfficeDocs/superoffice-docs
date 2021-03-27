@@ -1,0 +1,2774 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  commentId: T:SuperOffice.WebApi.Agents.ForeignSystemAgent
+  id: ForeignSystemAgent
+  parent: SuperOffice.WebApi.Agents
+  children:
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.#ctor(System.Net.Http.HttpClient)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.AddDeviceByIdentifierAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.AddForeignKeyAsync(SuperOffice.WebApi.Data.ForeignKey,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.CreateDefaultForeignAppEntityAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteDeviceByIdentifierAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignAppEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignDeviceAsync(SuperOffice.WebApi.Data.ForeignDevice,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignKeyAsync(SuperOffice.WebApi.Data.ForeignKey,System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignKeyOnNameAsync(System.String,System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.GetAllForeignKeysOnEntityAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.GetAppByNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.GetApplicationDevicesAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.GetApplicationKeysAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceByIdentifierAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceByNameAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableAsync(System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordIdAsync(System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.GetForeignAppEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.GetForeignDeviceAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyAsync(System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyByValueAndIdentifierAsync(System.String,System.String,System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyByValueAsync(System.String,System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyOnDeviceIdentifierAsync(System.String,System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyValueAsync(System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyValueOnDeviceIdentifierAsync(System.String,System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveDeviceByIdentifierAsync(System.String,System.String,System.String,SuperOffice.WebApi.Data.ForeignDevice,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveForeignAppEntityAsync(SuperOffice.WebApi.Data.ForeignAppEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveForeignDeviceAsync(SuperOffice.WebApi.Data.ForeignDevice,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveForeignKeyAsync(SuperOffice.WebApi.Data.ForeignKey,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  langs:
+  - csharp
+  - vb
+  name: ForeignSystemAgent
+  nameWithType: ForeignSystemAgent
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCollection of all services that works with Foreign key data (Key/Value pairs)\n"
+  example:
+  - "\n<pre><code>  using SuperOffice.WebApi;\n  using SuperOffice.WebApi.Agents;\n\n  var mySession = new WebApiOptions(&quot;http://example.com/super/api&quot;);\n  mySession.Authorization = new AuthorizationUsernamePassword(&quot;user&quot;, &quot;pass&quot;);\n  using (ForeignSystemAgent agent = new ForeignSystemAgent(mySession))\n  {\n        // call methods on agent here...\n  }</code></pre>\n"
+  syntax:
+    content: 'public class ForeignSystemAgent : AgentBase, IDisposable'
+    content.vb: >-
+      Public Class ForeignSystemAgent
+          Inherits AgentBase
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Agents.AgentBase
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - SuperOffice.WebApi.Agents.AgentBase._json
+  - SuperOffice.WebApi.Agents.AgentBase._binary
+  - SuperOffice.WebApi.Agents.AgentBase._config
+  - SuperOffice.WebApi.Agents.AgentBase._client
+  - SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AgentBase.Dispose
+  - SuperOffice.WebApi.Agents.AgentBase.Configuration
+  - SuperOffice.WebApi.Agents.AgentBase.Client
+  - SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  - SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  - SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.#ctor(System.Net.Http.HttpClient)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.#ctor(System.Net.Http.HttpClient)
+  id: '#ctor(System.Net.Http.HttpClient)'
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: ForeignSystemAgent(HttpClient)
+  nameWithType: ForeignSystemAgent.ForeignSystemAgent(HttpClient)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.ForeignSystemAgent(System.Net.Http.HttpClient)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nConstructor: Collection of all services that works with Foreign key data (Key/Value pairs)\n"
+  syntax:
+    content: public ForeignSystemAgent(HttpClient httpClient)
+    parameters:
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+      description: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.
+    content.vb: Public Sub New(httpClient As HttpClient)
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  id: '#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)'
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: ForeignSystemAgent(WebApiOptions, HttpClient)
+  nameWithType: ForeignSystemAgent.ForeignSystemAgent(WebApiOptions, HttpClient)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.ForeignSystemAgent(SuperOffice.WebApi.WebApiOptions, System.Net.Http.HttpClient)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nConstructor: Collection of all services that works with Foreign key data (Key/Value pairs)\n"
+  syntax:
+    content: public ForeignSystemAgent(WebApiOptions options, HttpClient httpClient = null)
+    parameters:
+    - id: options
+      type: SuperOffice.WebApi.WebApiOptions
+      description: Base URL and authentication values.
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+      description: 'Optional: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.'
+    content.vb: Public Sub New(options As WebApiOptions, httpClient As HttpClient = Nothing)
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.CreateDefaultForeignAppEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.CreateDefaultForeignAppEntityAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultForeignAppEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultForeignAppEntityAsync(RequestOptions)
+  nameWithType: ForeignSystemAgent.CreateDefaultForeignAppEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.CreateDefaultForeignAppEntityAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new ForeignAppEntity.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public Task<ForeignAppEntity> CreateDefaultForeignAppEntityAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignAppEntity}
+      description: A blank ForeignAppEntity
+    content.vb: Public Function CreateDefaultForeignAppEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of ForeignAppEntity)
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.CreateDefaultForeignAppEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveForeignAppEntityAsync(SuperOffice.WebApi.Data.ForeignAppEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveForeignAppEntityAsync(SuperOffice.WebApi.Data.ForeignAppEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveForeignAppEntityAsync(SuperOffice.WebApi.Data.ForeignAppEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveForeignAppEntityAsync(ForeignAppEntity, RequestOptions)
+  nameWithType: ForeignSystemAgent.SaveForeignAppEntityAsync(ForeignAppEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveForeignAppEntityAsync(SuperOffice.WebApi.Data.ForeignAppEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing ForeignAppEntity or creates a new ForeignAppEntity if the id parameter is 0. \n"
+  syntax:
+    content: public Task<ForeignAppEntity> SaveForeignAppEntityAsync(ForeignAppEntity foreignAppEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: foreignAppEntity
+      type: SuperOffice.WebApi.Data.ForeignAppEntity
+      description: The ForeignAppEntity that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignAppEntity}
+      description: New or updated ForeignAppEntity
+    content.vb: Public Function SaveForeignAppEntityAsync(foreignAppEntity As ForeignAppEntity, requestOptions As RequestOptions = Nothing) As Task(Of ForeignAppEntity)
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveForeignAppEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignAppEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignAppEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteForeignAppEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteForeignAppEntityAsync(Int32, RequestOptions)
+  nameWithType: ForeignSystemAgent.DeleteForeignAppEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignAppEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes the ForeignAppEntity\n"
+  syntax:
+    content: public Task DeleteForeignAppEntityAsync(int foreignAppEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: foreignAppEntityId
+      type: System.Int32
+      description: The identity of the ForeignAppEntity
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteForeignAppEntityAsync(foreignAppEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignAppEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetForeignAppEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetForeignAppEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetForeignAppEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetForeignAppEntityAsync(Int32, RequestOptions)
+  nameWithType: ForeignSystemAgent.GetForeignAppEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetForeignAppEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific ForeignAppEntity object.                        \n"
+  syntax:
+    content: public Task<ForeignAppEntity> GetForeignAppEntityAsync(int foreignAppEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: foreignAppEntityId
+      type: System.Int32
+      description: The identifier of the ForeignAppEntity object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignAppEntity}
+      description: ForeignAppEntity
+    content.vb: Public Function GetForeignAppEntityAsync(foreignAppEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ForeignAppEntity)
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetForeignAppEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetAppByNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetAppByNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetAppByNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAppByNameAsync(String, RequestOptions)
+  nameWithType: ForeignSystemAgent.GetAppByNameAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetAppByNameAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets the ForeignApp with the given name.\n"
+  syntax:
+    content: public Task<ForeignAppEntity> GetAppByNameAsync(string applicationName, RequestOptions requestOptions = null)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignAppEntity}
+      description: The ForeignApp that matches the name.
+    content.vb: Public Function GetAppByNameAsync(applicationName As String, requestOptions As RequestOptions = Nothing) As Task(Of ForeignAppEntity)
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetAppByNameAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetApplicationDevicesAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetApplicationDevicesAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetApplicationDevicesAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetApplicationDevicesAsync(String, RequestOptions)
+  nameWithType: ForeignSystemAgent.GetApplicationDevicesAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetApplicationDevicesAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets all devices that belong to a foreign application.\n"
+  syntax:
+    content: public Task<ForeignDevice[]> GetApplicationDevicesAsync(string applicationName, RequestOptions requestOptions = null)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The foreign application name
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignDevice[]}
+      description: Array of ForeignDevices
+    content.vb: Public Function GetApplicationDevicesAsync(applicationName As String, requestOptions As RequestOptions = Nothing) As Task(Of ForeignDevice())
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetApplicationDevicesAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceByNameAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceByNameAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetDeviceByNameAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDeviceByNameAsync(String, String, RequestOptions)
+  nameWithType: ForeignSystemAgent.GetDeviceByNameAsync(String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceByNameAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a ForeignDevice with deviceName that belongs to the application with applicationName.\n"
+  syntax:
+    content: public Task<ForeignDevice> GetDeviceByNameAsync(string applicationName, string deviceName, RequestOptions requestOptions = null)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignDevice}
+      description: The ForeignDevice.
+    content.vb: Public Function GetDeviceByNameAsync(applicationName As String, deviceName As String, requestOptions As RequestOptions = Nothing) As Task(Of ForeignDevice)
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceByNameAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceByIdentifierAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceByIdentifierAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetDeviceByIdentifierAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDeviceByIdentifierAsync(String, String, String, RequestOptions)
+  nameWithType: ForeignSystemAgent.GetDeviceByIdentifierAsync(String, String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceByIdentifierAsync(System.String, System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a ForeignDevice with deviceName and deviceIdentifier that belongs to the application with applicationName.\n"
+  syntax:
+    content: public Task<ForeignDevice> GetDeviceByIdentifierAsync(string applicationName, string deviceName, string deviceIdentifier, RequestOptions requestOptions = null)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: Optional unique id of device (Palm pilot device ID, version number, etc)
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignDevice}
+      description: The ForeignDevice.
+    content.vb: Public Function GetDeviceByIdentifierAsync(applicationName As String, deviceName As String, deviceIdentifier As String, requestOptions As RequestOptions = Nothing) As Task(Of ForeignDevice)
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceByIdentifierAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.AddDeviceByIdentifierAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.AddDeviceByIdentifierAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: AddDeviceByIdentifierAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: AddDeviceByIdentifierAsync(String, String, String, RequestOptions)
+  nameWithType: ForeignSystemAgent.AddDeviceByIdentifierAsync(String, String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.AddDeviceByIdentifierAsync(System.String, System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAdds a new ForeignDevice with deviceName that belongs to the application with applicationName, with an optional device-specific identifier.\n"
+  syntax:
+    content: public Task<ForeignDevice> AddDeviceByIdentifierAsync(string applicationName, string deviceName, string deviceIdentifier, RequestOptions requestOptions = null)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: Unique id of device (Palm pilot device ID, version number, etc)
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignDevice}
+      description: The ForeignDevice.
+    content.vb: Public Function AddDeviceByIdentifierAsync(applicationName As String, deviceName As String, deviceIdentifier As String, requestOptions As RequestOptions = Nothing) As Task(Of ForeignDevice)
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.AddDeviceByIdentifierAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveDeviceByIdentifierAsync(System.String,System.String,System.String,SuperOffice.WebApi.Data.ForeignDevice,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveDeviceByIdentifierAsync(System.String,System.String,System.String,SuperOffice.WebApi.Data.ForeignDevice,SuperOffice.WebApi.RequestOptions)
+  id: SaveDeviceByIdentifierAsync(System.String,System.String,System.String,SuperOffice.WebApi.Data.ForeignDevice,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveDeviceByIdentifierAsync(String, String, String, ForeignDevice, RequestOptions)
+  nameWithType: ForeignSystemAgent.SaveDeviceByIdentifierAsync(String, String, String, ForeignDevice, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveDeviceByIdentifierAsync(System.String, System.String, System.String, SuperOffice.WebApi.Data.ForeignDevice, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates a ForeignDevice with deviceName that belongs to the application with applicationName.\n"
+  syntax:
+    content: public Task<ForeignDevice> SaveDeviceByIdentifierAsync(string applicationName, string deviceName, string deviceIdentifier, ForeignDevice foreignDevice, RequestOptions requestOptions = null)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: Unique id of device (Palm pilot device ID, version number, etc)
+    - id: foreignDevice
+      type: SuperOffice.WebApi.Data.ForeignDevice
+      description: Foreign device to save. Can be null if adding new device.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignDevice}
+      description: The ForeignDevice.
+    content.vb: Public Function SaveDeviceByIdentifierAsync(applicationName As String, deviceName As String, deviceIdentifier As String, foreignDevice As ForeignDevice, requestOptions As RequestOptions = Nothing) As Task(Of ForeignDevice)
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveDeviceByIdentifierAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteDeviceByIdentifierAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteDeviceByIdentifierAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: DeleteDeviceByIdentifierAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteDeviceByIdentifierAsync(String, String, String, RequestOptions)
+  nameWithType: ForeignSystemAgent.DeleteDeviceByIdentifierAsync(String, String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteDeviceByIdentifierAsync(System.String, System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDelete a ForeignDevice with deviceName and deviceIdentifier that belongs to the application with applicationName.\n"
+  syntax:
+    content: public Task DeleteDeviceByIdentifierAsync(string applicationName, string deviceName, string deviceIdentifier, RequestOptions requestOptions = null)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: Unique id of device (Palm pilot device ID, version number, etc)
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function DeleteDeviceByIdentifierAsync(applicationName As String, deviceName As String, deviceIdentifier As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteDeviceByIdentifierAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyAsync(System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyAsync(System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetKeyAsync(System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetKeyAsync(String, String, String, String, Int32, RequestOptions)
+  nameWithType: ForeignSystemAgent.GetKeyAsync(String, String, String, String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyAsync(System.String, System.String, System.String, System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturning a foreign key by its key name, that belongs to the specified device and application. A table name and record ID can also be specified.\n"
+  syntax:
+    content: public Task<ForeignKey> GetKeyAsync(string applicationName, string deviceName, string keyName, string tableName, int recordId, RequestOptions requestOptions = null)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: keyName
+      type: System.String
+      description: The name of the foreign key.
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to indicate that your key is not bound to any specific table.
+    - id: recordId
+      type: System.Int32
+      description: Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignKey}
+      description: The ForeignKey.
+    content.vb: Public Function GetKeyAsync(applicationName As String, deviceName As String, keyName As String, tableName As String, recordId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ForeignKey)
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyValueAsync(System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyValueAsync(System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetKeyValueAsync(System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetKeyValueAsync(String, String, String, String, Int32, RequestOptions)
+  nameWithType: ForeignSystemAgent.GetKeyValueAsync(String, String, String, String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyValueAsync(System.String, System.String, System.String, System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets the string value of a ForeignKey, that belongs to the specified device and application. The table name and record ID must also be specified.\n"
+  syntax:
+    content: public Task<string> GetKeyValueAsync(string applicationName, string deviceName, string keyName, string tableName, int recordId, RequestOptions requestOptions = null)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: keyName
+      type: System.String
+      description: The name of the foreign key.
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to indicate that your key is not bound to any specific table.
+    - id: recordId
+      type: System.Int32
+      description: Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: The ForeignKey value as string.
+    content.vb: Public Function GetKeyValueAsync(applicationName As String, deviceName As String, keyName As String, tableName As String, recordId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyValueAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyOnDeviceIdentifierAsync(System.String,System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyOnDeviceIdentifierAsync(System.String,System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetKeyOnDeviceIdentifierAsync(System.String,System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetKeyOnDeviceIdentifierAsync(String, String, String, String, String, Int32, RequestOptions)
+  nameWithType: ForeignSystemAgent.GetKeyOnDeviceIdentifierAsync(String, String, String, String, String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyOnDeviceIdentifierAsync(System.String, System.String, System.String, System.String, System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturning a foreign key by its key name and device identifier, that belongs to the specified device and application. A table name and record ID can also be specified.\n"
+  syntax:
+    content: public Task<ForeignKey> GetKeyOnDeviceIdentifierAsync(string applicationName, string deviceName, string deviceIdentifier, string keyName, string tableName, int recordId, RequestOptions requestOptions = null)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: The device identifier.
+    - id: keyName
+      type: System.String
+      description: The name of the foreign key.
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to indicate that your key is not bound to any specific table.
+    - id: recordId
+      type: System.Int32
+      description: Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignKey}
+      description: The ForeignKey.
+    content.vb: Public Function GetKeyOnDeviceIdentifierAsync(applicationName As String, deviceName As String, deviceIdentifier As String, keyName As String, tableName As String, recordId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ForeignKey)
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyOnDeviceIdentifierAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyValueOnDeviceIdentifierAsync(System.String,System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyValueOnDeviceIdentifierAsync(System.String,System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetKeyValueOnDeviceIdentifierAsync(System.String,System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetKeyValueOnDeviceIdentifierAsync(String, String, String, String, String, Int32, RequestOptions)
+  nameWithType: ForeignSystemAgent.GetKeyValueOnDeviceIdentifierAsync(String, String, String, String, String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyValueOnDeviceIdentifierAsync(System.String, System.String, System.String, System.String, System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturning a foreign key string value by its key name and device identifier, that belongs to the specified device and application. A table name and record ID can also be specified.\n"
+  syntax:
+    content: public Task<string> GetKeyValueOnDeviceIdentifierAsync(string applicationName, string deviceName, string deviceIdentifier, string keyName, string tableName, int recordId, RequestOptions requestOptions = null)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: The device identifier.
+    - id: keyName
+      type: System.String
+      description: The name of the foreign key.
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to indicate that your key is not bound to any specific table.
+    - id: recordId
+      type: System.Int32
+      description: Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: The ForeignKey&apos;s string value.
+    content.vb: Public Function GetKeyValueOnDeviceIdentifierAsync(applicationName As String, deviceName As String, deviceIdentifier As String, keyName As String, tableName As String, recordId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyValueOnDeviceIdentifierAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.AddForeignKeyAsync(SuperOffice.WebApi.Data.ForeignKey,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.AddForeignKeyAsync(SuperOffice.WebApi.Data.ForeignKey,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: AddForeignKeyAsync(SuperOffice.WebApi.Data.ForeignKey,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: AddForeignKeyAsync(ForeignKey, String, String, String, RequestOptions)
+  nameWithType: ForeignSystemAgent.AddForeignKeyAsync(ForeignKey, String, String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.AddForeignKeyAsync(SuperOffice.WebApi.Data.ForeignKey, System.String, System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAdd a new key belonging to the ForeignApp and ForeignDevice specified.\n"
+  syntax:
+    content: public Task<ForeignKey> AddForeignKeyAsync(ForeignKey foreignKey, string applicationName, string deviceName, string deviceIdentifier, RequestOptions requestOptions = null)
+    parameters:
+    - id: foreignKey
+      type: SuperOffice.WebApi.Data.ForeignKey
+      description: Foreign key to save
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: The device identifier. Optional if device identifier is not used.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignKey}
+      description: The new or updated ForeignKey
+    content.vb: Public Function AddForeignKeyAsync(foreignKey As ForeignKey, applicationName As String, deviceName As String, deviceIdentifier As String, requestOptions As RequestOptions = Nothing) As Task(Of ForeignKey)
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.AddForeignKeyAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveForeignKeyAsync(SuperOffice.WebApi.Data.ForeignKey,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveForeignKeyAsync(SuperOffice.WebApi.Data.ForeignKey,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: SaveForeignKeyAsync(SuperOffice.WebApi.Data.ForeignKey,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveForeignKeyAsync(ForeignKey, String, String, String, RequestOptions)
+  nameWithType: ForeignSystemAgent.SaveForeignKeyAsync(ForeignKey, String, String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveForeignKeyAsync(SuperOffice.WebApi.Data.ForeignKey, System.String, System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSaves a key belonging to the ForeignApp and ForeignDevice specified.\n"
+  syntax:
+    content: public Task<ForeignKey> SaveForeignKeyAsync(ForeignKey foreignKey, string applicationName, string deviceName, string deviceIdentifier, RequestOptions requestOptions = null)
+    parameters:
+    - id: foreignKey
+      type: SuperOffice.WebApi.Data.ForeignKey
+      description: Foreign key to save
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: The device identifier. Optional if device identifier is not used.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignKey}
+      description: The new or updated ForeignKey
+    content.vb: Public Function SaveForeignKeyAsync(foreignKey As ForeignKey, applicationName As String, deviceName As String, deviceIdentifier As String, requestOptions As RequestOptions = Nothing) As Task(Of ForeignKey)
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveForeignKeyAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignKeyOnNameAsync(System.String,System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignKeyOnNameAsync(System.String,System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteForeignKeyOnNameAsync(System.String,System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteForeignKeyOnNameAsync(String, String, String, String, String, Int32, RequestOptions)
+  nameWithType: ForeignSystemAgent.DeleteForeignKeyOnNameAsync(String, String, String, String, String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignKeyOnNameAsync(System.String, System.String, System.String, System.String, System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes all specified occurrences of a key, belonging to the ForeignApp and ForeignDevice, table and record specified. Specifying a blank table name will delete ALL keys of the given name; specifying a recordId of 0 will delete ALL keys of the given name for the given table.\n"
+  syntax:
+    content: public Task DeleteForeignKeyOnNameAsync(string applicationName, string deviceName, string deviceIdentifier, string keyName, string tableName, int recordId, RequestOptions requestOptions = null)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: The device identifier. Optional if device identifier is not used.
+    - id: keyName
+      type: System.String
+      description: The name of the foreign key to delete.
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to delete ALL keys that otherwise match; this may be dangerous and can take a long time if there are many items to delete.
+    - id: recordId
+      type: System.Int32
+      description: Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.&lt;p/>Specifying a zero recordId will remove the recordId restriction and delete all keys that otherwise match.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function DeleteForeignKeyOnNameAsync(applicationName As String, deviceName As String, deviceIdentifier As String, keyName As String, tableName As String, recordId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignKeyOnNameAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyByValueAsync(System.String,System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyByValueAsync(System.String,System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetKeyByValueAsync(System.String,System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetKeyByValueAsync(String, String, String, String, String, RequestOptions)
+  nameWithType: ForeignSystemAgent.GetKeyByValueAsync(String, String, String, String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyByValueAsync(System.String, System.String, System.String, System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a foreignkey based on its name and value, that belongs to the specified device and application.\n"
+  syntax:
+    content: public Task<ForeignKey> GetKeyByValueAsync(string applicationName, string deviceName, string keyName, string keyValue, string tableName, RequestOptions requestOptions = null)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: keyName
+      type: System.String
+      description: The name of the foreign key.
+    - id: keyValue
+      type: System.String
+      description: Foreignkey value
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to indicate that your key is not bound to any specific table.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignKey}
+      description: The ForeignKey.
+    content.vb: Public Function GetKeyByValueAsync(applicationName As String, deviceName As String, keyName As String, keyValue As String, tableName As String, requestOptions As RequestOptions = Nothing) As Task(Of ForeignKey)
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyByValueAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyByValueAndIdentifierAsync(System.String,System.String,System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyByValueAndIdentifierAsync(System.String,System.String,System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetKeyByValueAndIdentifierAsync(System.String,System.String,System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetKeyByValueAndIdentifierAsync(String, String, String, String, String, String, RequestOptions)
+  nameWithType: ForeignSystemAgent.GetKeyByValueAndIdentifierAsync(String, String, String, String, String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyByValueAndIdentifierAsync(System.String, System.String, System.String, System.String, System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a foreignkey based on its name and value, that belongs to the specified deviceId, device, and application.\n"
+  syntax:
+    content: public Task<ForeignKey> GetKeyByValueAndIdentifierAsync(string applicationName, string deviceName, string deviceIdentifier, string keyName, string keyValue, string tableName, RequestOptions requestOptions = null)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: The device identifier. Optional if device identifier is not used.
+    - id: keyName
+      type: System.String
+      description: The name of the foreign key.
+    - id: keyValue
+      type: System.String
+      description: Foreignkey value
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to indicate that your key is not bound to any specific table.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignKey}
+      description: The ForeignKey.
+    content.vb: Public Function GetKeyByValueAndIdentifierAsync(applicationName As String, deviceName As String, deviceIdentifier As String, keyName As String, keyValue As String, tableName As String, requestOptions As RequestOptions = Nothing) As Task(Of ForeignKey)
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyByValueAndIdentifierAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetAllForeignKeysOnEntityAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetAllForeignKeysOnEntityAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetAllForeignKeysOnEntityAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAllForeignKeysOnEntityAsync(String, Int32, RequestOptions)
+  nameWithType: ForeignSystemAgent.GetAllForeignKeysOnEntityAsync(String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetAllForeignKeysOnEntityAsync(System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a list of foreignkeys (&apos;app.device.key&apos;) and their values (&apos;123&apos;) that belong to the specified entity.\n"
+  syntax:
+    content: public Task<StringDictionary> GetAllForeignKeysOnEntityAsync(string entityType, int entityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: entityType
+      type: System.String
+      description: 'Entity type (table name): &apos;contact&apos;, &apos;project&apos; etc.'
+    - id: entityId
+      type: System.Int32
+      description: Primary key of Entity
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}
+      description: Dictionary of &apos;appname.deviceid.keyname&apos; = &apos;123&apos; key values
+    content.vb: Public Function GetAllForeignKeysOnEntityAsync(entityType As String, entityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of StringDictionary)
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetAllForeignKeysOnEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetForeignDeviceAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetForeignDeviceAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetForeignDeviceAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetForeignDeviceAsync(Int32, RequestOptions)
+  nameWithType: ForeignSystemAgent.GetForeignDeviceAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetForeignDeviceAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific ForeignDevice object.                        \n"
+  syntax:
+    content: public Task<ForeignDevice> GetForeignDeviceAsync(int foreignDeviceId, RequestOptions requestOptions = null)
+    parameters:
+    - id: foreignDeviceId
+      type: System.Int32
+      description: The identifier of the ForeignDevice object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignDevice}
+      description: ForeignDevice
+    content.vb: Public Function GetForeignDeviceAsync(foreignDeviceId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ForeignDevice)
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetForeignDeviceAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveForeignDeviceAsync(SuperOffice.WebApi.Data.ForeignDevice,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveForeignDeviceAsync(SuperOffice.WebApi.Data.ForeignDevice,System.String,SuperOffice.WebApi.RequestOptions)
+  id: SaveForeignDeviceAsync(SuperOffice.WebApi.Data.ForeignDevice,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveForeignDeviceAsync(ForeignDevice, String, RequestOptions)
+  nameWithType: ForeignSystemAgent.SaveForeignDeviceAsync(ForeignDevice, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveForeignDeviceAsync(SuperOffice.WebApi.Data.ForeignDevice, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSaves a foreign device for an foreign application\n"
+  syntax:
+    content: public Task<ForeignDevice> SaveForeignDeviceAsync(ForeignDevice foreignDevice, string applicationName, RequestOptions requestOptions = null)
+    parameters:
+    - id: foreignDevice
+      type: SuperOffice.WebApi.Data.ForeignDevice
+      description: Foreign device to save
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignDevice}
+      description: Returns the saved foreign device
+    content.vb: Public Function SaveForeignDeviceAsync(foreignDevice As ForeignDevice, applicationName As String, requestOptions As RequestOptions = Nothing) As Task(Of ForeignDevice)
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveForeignDeviceAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignDeviceAsync(SuperOffice.WebApi.Data.ForeignDevice,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignDeviceAsync(SuperOffice.WebApi.Data.ForeignDevice,System.String,SuperOffice.WebApi.RequestOptions)
+  id: DeleteForeignDeviceAsync(SuperOffice.WebApi.Data.ForeignDevice,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteForeignDeviceAsync(ForeignDevice, String, RequestOptions)
+  nameWithType: ForeignSystemAgent.DeleteForeignDeviceAsync(ForeignDevice, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignDeviceAsync(SuperOffice.WebApi.Data.ForeignDevice, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes a foreign device from an application\n"
+  syntax:
+    content: public Task DeleteForeignDeviceAsync(ForeignDevice foreignDevice, string applicationName, RequestOptions requestOptions = null)
+    parameters:
+    - id: foreignDevice
+      type: SuperOffice.WebApi.Data.ForeignDevice
+      description: foreign device to delete
+    - id: applicationName
+      type: System.String
+      description: Name of application to delete from
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteForeignDeviceAsync(foreignDevice As ForeignDevice, applicationName As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignDeviceAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignKeyAsync(SuperOffice.WebApi.Data.ForeignKey,System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignKeyAsync(SuperOffice.WebApi.Data.ForeignKey,System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteForeignKeyAsync(SuperOffice.WebApi.Data.ForeignKey,System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteForeignKeyAsync(ForeignKey, String, String, String, String, Int32, RequestOptions)
+  nameWithType: ForeignSystemAgent.DeleteForeignKeyAsync(ForeignKey, String, String, String, String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignKeyAsync(SuperOffice.WebApi.Data.ForeignKey, System.String, System.String, System.String, System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes all specified occurrences of a key, belonging to the ForeignApp and ForeignDevice, table and record specified. Specifying a blank table name will delete ALL keys of the given name; specifying a recordId of 0 will delete ALL keys of the given name for the given table.\n"
+  syntax:
+    content: public Task DeleteForeignKeyAsync(ForeignKey foreignKey, string applicationName, string deviceName, string deviceIdentifier, string tableName, int recordId, RequestOptions requestOptions = null)
+    parameters:
+    - id: foreignKey
+      type: SuperOffice.WebApi.Data.ForeignKey
+      description: Key name to delete.
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: The device identifier. Optional if device identifier is not used.
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to delete ALL keys that otherwise match; this may be dangerous and can take a long time if there are many items to delete.
+    - id: recordId
+      type: System.Int32
+      description: Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.&lt;p/>Specifying a zero recordId will remove the recordId restriction and delete all keys that otherwise match.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function DeleteForeignKeyAsync(foreignKey As ForeignKey, applicationName As String, deviceName As String, deviceIdentifier As String, tableName As String, recordId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignKeyAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetDeviceKeysAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDeviceKeysAsync(String, String, RequestOptions)
+  nameWithType: ForeignSystemAgent.GetDeviceKeysAsync(String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns all ForeignKeys that belong to a device.\n"
+  syntax:
+    content: public Task<ForeignKey[]> GetDeviceKeysAsync(string applicationName, string deviceName, RequestOptions requestOptions = null)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignKey[]}
+      description: Array of all ForeignKeys in the ForeignDevice.
+    content.vb: Public Function GetDeviceKeysAsync(applicationName As String, deviceName As String, requestOptions As RequestOptions = Nothing) As Task(Of ForeignKey())
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetApplicationKeysAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetApplicationKeysAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetApplicationKeysAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetApplicationKeysAsync(String, RequestOptions)
+  nameWithType: ForeignSystemAgent.GetApplicationKeysAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetApplicationKeysAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns all ForeignKeys that belong to an application.\n"
+  syntax:
+    content: public Task<ForeignKey[]> GetApplicationKeysAsync(string applicationName, RequestOptions requestOptions = null)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignKey[]}
+      description: Array of all ForeignKeys in the ForeignApp.
+    content.vb: Public Function GetApplicationKeysAsync(applicationName As String, requestOptions As RequestOptions = Nothing) As Task(Of ForeignKey())
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetApplicationKeysAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetDeviceKeysOnDeviceIdentifierAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDeviceKeysOnDeviceIdentifierAsync(String, String, String, RequestOptions)
+  nameWithType: ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierAsync(String, String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierAsync(System.String, System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns all ForeignKeys that belong to a device with a given deviceIdentifier.\n"
+  syntax:
+    content: public Task<ForeignKey[]> GetDeviceKeysOnDeviceIdentifierAsync(string applicationName, string deviceName, string deviceIdentifier, RequestOptions requestOptions = null)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: Identifier for a unique grouping of keys within a device.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignKey[]}
+      description: Array of all ForeignKeys in the ForeignDevice that belong to the DeviceIdentifier.
+    content.vb: Public Function GetDeviceKeysOnDeviceIdentifierAsync(applicationName As String, deviceName As String, deviceIdentifier As String, requestOptions As RequestOptions = Nothing) As Task(Of ForeignKey())
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableAsync(System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableAsync(System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetDeviceKeysOnDeviceIdentifierTableAsync(System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDeviceKeysOnDeviceIdentifierTableAsync(String, String, String, String, RequestOptions)
+  nameWithType: ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableAsync(String, String, String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableAsync(System.String, System.String, System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns all ForeignKeys that belong to a device with a given deviceIdentifier and table name.\n"
+  syntax:
+    content: public Task<ForeignKey[]> GetDeviceKeysOnDeviceIdentifierTableAsync(string applicationName, string deviceName, string deviceIdentifier, string tableName, RequestOptions requestOptions = null)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: Identifier for a unique grouping of keys within a device.
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to indicate that your key is not bound to any specific table.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignKey[]}
+      description: Array of all ForeignKeys in the ForeignDevice that belong to the DeviceIdentifier.
+    content.vb: Public Function GetDeviceKeysOnDeviceIdentifierTableAsync(applicationName As String, deviceName As String, deviceIdentifier As String, tableName As String, requestOptions As RequestOptions = Nothing) As Task(Of ForeignKey())
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordIdAsync(System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordIdAsync(System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetDeviceKeysOnDeviceIdentifierTableRecordIdAsync(System.String,System.String,System.String,System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDeviceKeysOnDeviceIdentifierTableRecordIdAsync(String, String, String, String, Int32, RequestOptions)
+  nameWithType: ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordIdAsync(String, String, String, String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordIdAsync(System.String, System.String, System.String, System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns all ForeignKeys that belong to a device with a given deviceIdentifier and table name, as well as record id.\n"
+  syntax:
+    content: public Task<ForeignKey[]> GetDeviceKeysOnDeviceIdentifierTableRecordIdAsync(string applicationName, string deviceName, string deviceIdentifier, string tableName, int recordId, RequestOptions requestOptions = null)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: Identifier for a unique grouping of keys within a device.
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to indicate that your key is not bound to any specific table.
+    - id: recordId
+      type: System.Int32
+      description: Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignKey[]}
+      description: Array of all ForeignKeys in the ForeignDevice that match the criteria
+    content.vb: Public Function GetDeviceKeysOnDeviceIdentifierTableRecordIdAsync(applicationName As String, deviceName As String, deviceIdentifier As String, tableName As String, recordId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ForeignKey())
+  overload: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordIdAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Agents
+  commentId: N:SuperOffice.WebApi.Agents
+  isExternal: true
+  name: SuperOffice.WebApi.Agents
+  nameWithType: SuperOffice.WebApi.Agents
+  fullName: SuperOffice.WebApi.Agents
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.AgentBase
+  commentId: T:SuperOffice.WebApi.Agents.AgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  name: AgentBase
+  nameWithType: AgentBase
+  fullName: SuperOffice.WebApi.Agents.AgentBase
+- uid: System.IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.WebApi.Agents.AgentBase._json
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._json
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _json
+  nameWithType: AgentBase._json
+  fullName: SuperOffice.WebApi.Agents.AgentBase._json
+- uid: SuperOffice.WebApi.Agents.AgentBase._binary
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._binary
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _binary
+  nameWithType: AgentBase._binary
+  fullName: SuperOffice.WebApi.Agents.AgentBase._binary
+- uid: SuperOffice.WebApi.Agents.AgentBase._config
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._config
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _config
+  nameWithType: AgentBase._config
+  fullName: SuperOffice.WebApi.Agents.AgentBase._config
+- uid: SuperOffice.WebApi.Agents.AgentBase._client
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._client
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _client
+  nameWithType: AgentBase._client
+  fullName: SuperOffice.WebApi.Agents.AgentBase._client
+- uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Merge(RequestOptions)
+  nameWithType: AgentBase.Merge(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+    name: Merge
+    nameWithType: AgentBase.Merge
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Merge
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+    name: Merge
+    nameWithType: AgentBase.Merge
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Merge
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod, System.String, System.Object, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObject
+    nameWithType: AgentBase.BuildRequestFromObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObject
+    nameWithType: AgentBase.BuildRequestFromObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod, System.String, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromStream
+    nameWithType: AgentBase.BuildRequestFromStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromStream
+    nameWithType: AgentBase.BuildRequestFromStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseAuthorization(IAuthorization)
+  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: CancelRequest()
+  nameWithType: AgentBase.CancelRequest()
+  fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    name: CancelRequest
+    nameWithType: AgentBase.CancelRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    name: CancelRequest
+    nameWithType: AgentBase.CancelRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
+  nameWithType: AgentBase.SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod, System.String, System.Object, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObject
+    nameWithType: AgentBase.SendRequestObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObject
+    nameWithType: AgentBase.SendRequestObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequest(HttpRequestMessage)
+  nameWithType: AgentBase.SendRequest(HttpRequestMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+    name: SendRequest
+    nameWithType: AgentBase.SendRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+    name: SendRequest
+    nameWithType: AgentBase.SendRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
+  nameWithType: AgentBase.ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage, System.Net.Http.HttpResponseMessage)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseError
+    nameWithType: AgentBase.ThrowOnResponseError
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseError
+    nameWithType: AgentBase.ThrowOnResponseError
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseResponse<T>(HttpResponseMessage)
+  nameWithType: AgentBase.ParseResponse<T>(HttpResponseMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse<T>(System.Net.Http.HttpResponseMessage)
+  nameWithType.vb: AgentBase.ParseResponse(Of T)(HttpResponseMessage)
+  fullName.vb: SuperOffice.WebApi.Agents.AgentBase.ParseResponse(Of T)(System.Net.Http.HttpResponseMessage)
+  name.vb: ParseResponse(Of T)(HttpResponseMessage)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+    name: ParseResponse<T>
+    nameWithType: AgentBase.ParseResponse<T>
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+    name: ParseResponse(Of T)
+    nameWithType: AgentBase.ParseResponse(Of T)
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Finally(RequestOptions)
+  nameWithType: AgentBase.Finally(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+    name: Finally
+    nameWithType: AgentBase.Finally
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Finally
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+    name: Finally
+    nameWithType: AgentBase.Finally
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Finally
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Dispose
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase.Dispose()
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    name: Dispose
+    nameWithType: AgentBase.Dispose
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    name: Dispose
+    nameWithType: AgentBase.Dispose
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Configuration
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.Configuration
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Configuration
+  nameWithType: AgentBase.Configuration
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Configuration
+- uid: SuperOffice.WebApi.Agents.AgentBase.Client
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.Client
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Client
+  nameWithType: AgentBase.Client
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Client
+- uid: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: HasRunningRequest
+  nameWithType: AgentBase.HasRunningRequest
+  fullName: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+- uid: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ClientCancellationTokenSource
+  nameWithType: AgentBase.ClientCancellationTokenSource
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+- uid: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ProgressListener
+  nameWithType: AgentBase.ProgressListener
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.#ctor
+  isExternal: true
+  name: ForeignSystemAgent
+  nameWithType: ForeignSystemAgent.ForeignSystemAgent
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.ForeignSystemAgent
+- uid: System.Net.Http.HttpClient
+  isExternal: true
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: System.Net.Http.HttpClient
+- uid: SuperOffice.WebApi.WebApiOptions
+  commentId: T:SuperOffice.WebApi.WebApiOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: WebApiOptions
+  nameWithType: WebApiOptions
+  fullName: SuperOffice.WebApi.WebApiOptions
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.CreateDefaultForeignAppEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.CreateDefaultForeignAppEntityAsync
+  isExternal: true
+  name: CreateDefaultForeignAppEntityAsync
+  nameWithType: ForeignSystemAgent.CreateDefaultForeignAppEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.CreateDefaultForeignAppEntityAsync
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignAppEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignAppEntity}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ForeignAppEntity>
+  nameWithType: Task<ForeignAppEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ForeignAppEntity>
+  nameWithType.vb: Task(Of ForeignAppEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ForeignAppEntity)
+  name.vb: Task(Of ForeignAppEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ForeignAppEntity
+    name: ForeignAppEntity
+    nameWithType: ForeignAppEntity
+    fullName: SuperOffice.WebApi.Data.ForeignAppEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ForeignAppEntity
+    name: ForeignAppEntity
+    nameWithType: ForeignAppEntity
+    fullName: SuperOffice.WebApi.Data.ForeignAppEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveForeignAppEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveForeignAppEntityAsync
+  isExternal: true
+  name: SaveForeignAppEntityAsync
+  nameWithType: ForeignSystemAgent.SaveForeignAppEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveForeignAppEntityAsync
+- uid: SuperOffice.WebApi.Data.ForeignAppEntity
+  commentId: T:SuperOffice.WebApi.Data.ForeignAppEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ForeignAppEntity
+  nameWithType: ForeignAppEntity
+  fullName: SuperOffice.WebApi.Data.ForeignAppEntity
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignAppEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignAppEntityAsync
+  isExternal: true
+  name: DeleteForeignAppEntityAsync
+  nameWithType: ForeignSystemAgent.DeleteForeignAppEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignAppEntityAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetForeignAppEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetForeignAppEntityAsync
+  isExternal: true
+  name: GetForeignAppEntityAsync
+  nameWithType: ForeignSystemAgent.GetForeignAppEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetForeignAppEntityAsync
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetAppByNameAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetAppByNameAsync
+  isExternal: true
+  name: GetAppByNameAsync
+  nameWithType: ForeignSystemAgent.GetAppByNameAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetAppByNameAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetApplicationDevicesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetApplicationDevicesAsync
+  isExternal: true
+  name: GetApplicationDevicesAsync
+  nameWithType: ForeignSystemAgent.GetApplicationDevicesAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetApplicationDevicesAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignDevice[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignDevice[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ForeignDevice[]>
+  nameWithType: Task<ForeignDevice[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ForeignDevice[]>
+  nameWithType.vb: Task(Of ForeignDevice())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ForeignDevice())
+  name.vb: Task(Of ForeignDevice())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ForeignDevice
+    name: ForeignDevice
+    nameWithType: ForeignDevice
+    fullName: SuperOffice.WebApi.Data.ForeignDevice
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ForeignDevice
+    name: ForeignDevice
+    nameWithType: ForeignDevice
+    fullName: SuperOffice.WebApi.Data.ForeignDevice
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceByNameAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceByNameAsync
+  isExternal: true
+  name: GetDeviceByNameAsync
+  nameWithType: ForeignSystemAgent.GetDeviceByNameAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceByNameAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignDevice}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignDevice}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ForeignDevice>
+  nameWithType: Task<ForeignDevice>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ForeignDevice>
+  nameWithType.vb: Task(Of ForeignDevice)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ForeignDevice)
+  name.vb: Task(Of ForeignDevice)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ForeignDevice
+    name: ForeignDevice
+    nameWithType: ForeignDevice
+    fullName: SuperOffice.WebApi.Data.ForeignDevice
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ForeignDevice
+    name: ForeignDevice
+    nameWithType: ForeignDevice
+    fullName: SuperOffice.WebApi.Data.ForeignDevice
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceByIdentifierAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceByIdentifierAsync
+  isExternal: true
+  name: GetDeviceByIdentifierAsync
+  nameWithType: ForeignSystemAgent.GetDeviceByIdentifierAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceByIdentifierAsync
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.AddDeviceByIdentifierAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.AddDeviceByIdentifierAsync
+  isExternal: true
+  name: AddDeviceByIdentifierAsync
+  nameWithType: ForeignSystemAgent.AddDeviceByIdentifierAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.AddDeviceByIdentifierAsync
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveDeviceByIdentifierAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveDeviceByIdentifierAsync
+  isExternal: true
+  name: SaveDeviceByIdentifierAsync
+  nameWithType: ForeignSystemAgent.SaveDeviceByIdentifierAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveDeviceByIdentifierAsync
+- uid: SuperOffice.WebApi.Data.ForeignDevice
+  commentId: T:SuperOffice.WebApi.Data.ForeignDevice
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ForeignDevice
+  nameWithType: ForeignDevice
+  fullName: SuperOffice.WebApi.Data.ForeignDevice
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteDeviceByIdentifierAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteDeviceByIdentifierAsync
+  isExternal: true
+  name: DeleteDeviceByIdentifierAsync
+  nameWithType: ForeignSystemAgent.DeleteDeviceByIdentifierAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteDeviceByIdentifierAsync
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyAsync
+  isExternal: true
+  name: GetKeyAsync
+  nameWithType: ForeignSystemAgent.GetKeyAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignKey}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignKey}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ForeignKey>
+  nameWithType: Task<ForeignKey>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ForeignKey>
+  nameWithType.vb: Task(Of ForeignKey)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ForeignKey)
+  name.vb: Task(Of ForeignKey)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ForeignKey
+    name: ForeignKey
+    nameWithType: ForeignKey
+    fullName: SuperOffice.WebApi.Data.ForeignKey
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ForeignKey
+    name: ForeignKey
+    nameWithType: ForeignKey
+    fullName: SuperOffice.WebApi.Data.ForeignKey
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyValueAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyValueAsync
+  isExternal: true
+  name: GetKeyValueAsync
+  nameWithType: ForeignSystemAgent.GetKeyValueAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyValueAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyOnDeviceIdentifierAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyOnDeviceIdentifierAsync
+  isExternal: true
+  name: GetKeyOnDeviceIdentifierAsync
+  nameWithType: ForeignSystemAgent.GetKeyOnDeviceIdentifierAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyOnDeviceIdentifierAsync
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyValueOnDeviceIdentifierAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyValueOnDeviceIdentifierAsync
+  isExternal: true
+  name: GetKeyValueOnDeviceIdentifierAsync
+  nameWithType: ForeignSystemAgent.GetKeyValueOnDeviceIdentifierAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyValueOnDeviceIdentifierAsync
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.AddForeignKeyAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.AddForeignKeyAsync
+  isExternal: true
+  name: AddForeignKeyAsync
+  nameWithType: ForeignSystemAgent.AddForeignKeyAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.AddForeignKeyAsync
+- uid: SuperOffice.WebApi.Data.ForeignKey
+  commentId: T:SuperOffice.WebApi.Data.ForeignKey
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ForeignKey
+  nameWithType: ForeignKey
+  fullName: SuperOffice.WebApi.Data.ForeignKey
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveForeignKeyAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveForeignKeyAsync
+  isExternal: true
+  name: SaveForeignKeyAsync
+  nameWithType: ForeignSystemAgent.SaveForeignKeyAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveForeignKeyAsync
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignKeyOnNameAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignKeyOnNameAsync
+  isExternal: true
+  name: DeleteForeignKeyOnNameAsync
+  nameWithType: ForeignSystemAgent.DeleteForeignKeyOnNameAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignKeyOnNameAsync
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyByValueAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyByValueAsync
+  isExternal: true
+  name: GetKeyByValueAsync
+  nameWithType: ForeignSystemAgent.GetKeyByValueAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyByValueAsync
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyByValueAndIdentifierAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyByValueAndIdentifierAsync
+  isExternal: true
+  name: GetKeyByValueAndIdentifierAsync
+  nameWithType: ForeignSystemAgent.GetKeyByValueAndIdentifierAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetKeyByValueAndIdentifierAsync
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetAllForeignKeysOnEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetAllForeignKeysOnEntityAsync
+  isExternal: true
+  name: GetAllForeignKeysOnEntityAsync
+  nameWithType: ForeignSystemAgent.GetAllForeignKeysOnEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetAllForeignKeysOnEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<StringDictionary>
+  nameWithType: Task<StringDictionary>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.StringDictionary>
+  nameWithType.vb: Task(Of StringDictionary)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.StringDictionary)
+  name.vb: Task(Of StringDictionary)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.StringDictionary
+    name: StringDictionary
+    nameWithType: StringDictionary
+    fullName: SuperOffice.WebApi.Data.StringDictionary
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.StringDictionary
+    name: StringDictionary
+    nameWithType: StringDictionary
+    fullName: SuperOffice.WebApi.Data.StringDictionary
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetForeignDeviceAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetForeignDeviceAsync
+  isExternal: true
+  name: GetForeignDeviceAsync
+  nameWithType: ForeignSystemAgent.GetForeignDeviceAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetForeignDeviceAsync
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveForeignDeviceAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveForeignDeviceAsync
+  isExternal: true
+  name: SaveForeignDeviceAsync
+  nameWithType: ForeignSystemAgent.SaveForeignDeviceAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.SaveForeignDeviceAsync
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignDeviceAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignDeviceAsync
+  isExternal: true
+  name: DeleteForeignDeviceAsync
+  nameWithType: ForeignSystemAgent.DeleteForeignDeviceAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignDeviceAsync
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignKeyAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignKeyAsync
+  isExternal: true
+  name: DeleteForeignKeyAsync
+  nameWithType: ForeignSystemAgent.DeleteForeignKeyAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.DeleteForeignKeyAsync
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysAsync
+  isExternal: true
+  name: GetDeviceKeysAsync
+  nameWithType: ForeignSystemAgent.GetDeviceKeysAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignKey[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ForeignKey[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ForeignKey[]>
+  nameWithType: Task<ForeignKey[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ForeignKey[]>
+  nameWithType.vb: Task(Of ForeignKey())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ForeignKey())
+  name.vb: Task(Of ForeignKey())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ForeignKey
+    name: ForeignKey
+    nameWithType: ForeignKey
+    fullName: SuperOffice.WebApi.Data.ForeignKey
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ForeignKey
+    name: ForeignKey
+    nameWithType: ForeignKey
+    fullName: SuperOffice.WebApi.Data.ForeignKey
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetApplicationKeysAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetApplicationKeysAsync
+  isExternal: true
+  name: GetApplicationKeysAsync
+  nameWithType: ForeignSystemAgent.GetApplicationKeysAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetApplicationKeysAsync
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierAsync
+  isExternal: true
+  name: GetDeviceKeysOnDeviceIdentifierAsync
+  nameWithType: ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierAsync
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableAsync
+  isExternal: true
+  name: GetDeviceKeysOnDeviceIdentifierTableAsync
+  nameWithType: ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableAsync
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordIdAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordIdAsync
+  isExternal: true
+  name: GetDeviceKeysOnDeviceIdentifierTableRecordIdAsync
+  nameWithType: ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordIdAsync
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordIdAsync

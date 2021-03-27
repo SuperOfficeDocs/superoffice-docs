@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest
+  id: List_GetAllFromListDefinitionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest.#ctor
+  - SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest.IncludeDeleted
+  - SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest.UdListDefinitionId
+  langs:
+  - csharp
+  - vb
+  name: List_GetAllFromListDefinitionRequest
+  nameWithType: List_GetAllFromListDefinitionRequest
+  fullName: SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetAllFromListDefinitionRequest : Object'
+    content.vb: >-
+      Public Class List_GetAllFromListDefinitionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetAllFromListDefinitionRequest()
+  nameWithType: List_GetAllFromListDefinitionRequest.List_GetAllFromListDefinitionRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest.List_GetAllFromListDefinitionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetAllFromListDefinitionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest.UdListDefinitionId
+  commentId: P:SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest.UdListDefinitionId
+  id: UdListDefinitionId
+  parent: SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest
+  langs:
+  - csharp
+  - vb
+  name: UdListDefinitionId
+  nameWithType: List_GetAllFromListDefinitionRequest.UdListDefinitionId
+  fullName: SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest.UdListDefinitionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int UdListDefinitionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UdListDefinitionId As Integer
+  overload: SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest.UdListDefinitionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest.IncludeDeleted
+  commentId: P:SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest.IncludeDeleted
+  id: IncludeDeleted
+  parent: SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest
+  langs:
+  - csharp
+  - vb
+  name: IncludeDeleted
+  nameWithType: List_GetAllFromListDefinitionRequest.IncludeDeleted
+  fullName: SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest.IncludeDeleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool IncludeDeleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeDeleted As Boolean
+  overload: SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest.IncludeDeleted*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest.#ctor
+  isExternal: true
+  name: List_GetAllFromListDefinitionRequest
+  nameWithType: List_GetAllFromListDefinitionRequest.List_GetAllFromListDefinitionRequest
+  fullName: SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest.List_GetAllFromListDefinitionRequest
+- uid: SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest.UdListDefinitionId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest.UdListDefinitionId
+  isExternal: true
+  name: UdListDefinitionId
+  nameWithType: List_GetAllFromListDefinitionRequest.UdListDefinitionId
+  fullName: SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest.UdListDefinitionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest.IncludeDeleted*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest.IncludeDeleted
+  isExternal: true
+  name: IncludeDeleted
+  nameWithType: List_GetAllFromListDefinitionRequest.IncludeDeleted
+  fullName: SuperOffice.WebApi.Data.List_GetAllFromListDefinitionRequest.IncludeDeleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

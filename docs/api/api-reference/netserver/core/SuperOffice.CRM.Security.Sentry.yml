@@ -1,0 +1,3092 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Security.Sentry
+  commentId: T:SuperOffice.CRM.Security.Sentry
+  id: Sentry
+  parent: SuperOffice.CRM.Security
+  children:
+  - SuperOffice.CRM.Security.Sentry.#ctor(SuperOffice.CRM.Security.SentryQueryInfo)
+  - SuperOffice.CRM.Security.Sentry._fieldRights
+  - SuperOffice.CRM.Security.Sentry._lookups
+  - SuperOffice.CRM.Security.Sentry._tableRights
+  - SuperOffice.CRM.Security.Sentry.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  - SuperOffice.CRM.Security.Sentry.AssociateId
+  - SuperOffice.CRM.Security.Sentry.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.CRM.Security.Sentry.CanFieldDo(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.EFieldRight,System.Boolean)
+  - SuperOffice.CRM.Security.Sentry.CanTableDo(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.ETableRight,System.Boolean)
+  - SuperOffice.CRM.Security.Sentry.ClearRights
+  - SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select)
+  - SuperOffice.CRM.Security.Sentry.CreateSentry(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.CRM.Security.Sentry.DemandPlugins
+  - SuperOffice.CRM.Security.Sentry.GetDateTimeField(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Security.Sentry.GetFieldRight(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Security.Sentry.GetGroupFromAssociate(System.Int32)
+  - SuperOffice.CRM.Security.Sentry.GetIntField(SuperOffice.Data.SQL.FieldInfo[])
+  - SuperOffice.CRM.Security.Sentry.GetIsGhostField(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Security.Sentry.GetMainRight
+  - SuperOffice.CRM.Security.Sentry.GetPersistedIntField(SuperOffice.Data.SQL.FieldInfo[])
+  - SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex
+  - SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex(System.Int32,System.Int32)
+  - SuperOffice.CRM.Security.Sentry.GetRowSentry
+  - SuperOffice.CRM.Security.Sentry.GetStringField(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Security.Sentry.GetTableRight(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.CRM.Security.Sentry.GroupId
+  - SuperOffice.CRM.Security.Sentry.IgnoreSentry
+  - SuperOffice.CRM.Security.Sentry.IsAssociatesOwnerContact(System.Int32,System.Int32)
+  - SuperOffice.CRM.Security.Sentry.IsContactCurrentDatabaseOwner(System.Int32)
+  - SuperOffice.CRM.Security.Sentry.IsContactDatabaseOwner(System.Int32)
+  - SuperOffice.CRM.Security.Sentry.IsContactEmployeeUserOwner(System.Int32)
+  - SuperOffice.CRM.Security.Sentry.IsContactLicenseOwner(System.Int32)
+  - SuperOffice.CRM.Security.Sentry.IsContactSatelliteOwner(System.Int32)
+  - SuperOffice.CRM.Security.Sentry.IsFieldCovered(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Security.Sentry.IsGhostRow
+  - SuperOffice.CRM.Security.Sentry.IsNew
+  - SuperOffice.CRM.Security.Sentry.IsPersonAssociate(System.Int32,System.Boolean)
+  - SuperOffice.CRM.Security.Sentry.IsTableCovered(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.CRM.Security.Sentry.IterateLookups(SuperOffice.CRM.Security.LookupCollection)
+  - SuperOffice.CRM.Security.Sentry.kFieldRights
+  - SuperOffice.CRM.Security.Sentry.kTableRights
+  - SuperOffice.CRM.Security.Sentry.Lookups
+  - SuperOffice.CRM.Security.Sentry.MainTable
+  - SuperOffice.CRM.Security.Sentry.MakeFieldFromTableRight(SuperOffice.CRM.Security.TableRight)
+  - SuperOffice.CRM.Security.Sentry.MakeFieldFromTableRight(SuperOffice.CRM.Security.TableRight,SuperOffice.Data.ETableRight)
+  - SuperOffice.CRM.Security.Sentry.MakeFieldFromTableRight(SuperOffice.Data.ETableRight)
+  - SuperOffice.CRM.Security.Sentry.MapTableToFieldRights(SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight,SuperOffice.Data.SQL.FieldInfo[])
+  - SuperOffice.CRM.Security.Sentry.Parent
+  - SuperOffice.CRM.Security.Sentry.Registered
+  - SuperOffice.CRM.Security.Sentry.RegisteredAssociateId
+  - SuperOffice.CRM.Security.Sentry.RegisteredAssociateIdField
+  - SuperOffice.CRM.Security.Sentry.RegisteredField
+  - SuperOffice.CRM.Security.Sentry.RowId
+  - SuperOffice.CRM.Security.Sentry.SentryQueryInfo
+  - SuperOffice.CRM.Security.Sentry.SetAllTableRights(SuperOffice.Data.ETableRight,System.String)
+  - SuperOffice.CRM.Security.Sentry.SuperComputeDerivedTableRights
+  - SuperOffice.CRM.Security.Sentry.SuperComputeFieldRights
+  - SuperOffice.CRM.Security.Sentry.SuperComputeTableRights
+  - SuperOffice.CRM.Security.Sentry.System#ICloneable#Clone
+  langs:
+  - csharp
+  - vb
+  name: Sentry
+  nameWithType: Sentry
+  fullName: SuperOffice.CRM.Security.Sentry
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: 'public abstract class Sentry : ICloneable'
+    content.vb: >-
+      Public MustInherit Class Sentry
+          Implements ICloneable
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.CRM.Security.Sentry`1
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Security.Sentry.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Security.Sentry.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.CRM.Security.Sentry.kTableRights
+  commentId: F:SuperOffice.CRM.Security.Sentry.kTableRights
+  id: kTableRights
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: kTableRights
+  nameWithType: Sentry.kTableRights
+  fullName: SuperOffice.CRM.Security.Sentry.kTableRights
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: protected const string kTableRights = "Rights"
+    return:
+      type: System.String
+    content.vb: Protected Const kTableRights As String = "Rights"
+  modifiers.csharp:
+  - protected
+  - const
+  modifiers.vb:
+  - Protected
+  - Const
+- uid: SuperOffice.CRM.Security.Sentry.kFieldRights
+  commentId: F:SuperOffice.CRM.Security.Sentry.kFieldRights
+  id: kFieldRights
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: kFieldRights
+  nameWithType: Sentry.kFieldRights
+  fullName: SuperOffice.CRM.Security.Sentry.kFieldRights
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: protected const string kFieldRights = "Rights"
+    return:
+      type: System.String
+    content.vb: Protected Const kFieldRights As String = "Rights"
+  modifiers.csharp:
+  - protected
+  - const
+  modifiers.vb:
+  - Protected
+  - Const
+- uid: SuperOffice.CRM.Security.Sentry._tableRights
+  commentId: F:SuperOffice.CRM.Security.Sentry._tableRights
+  id: _tableRights
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: _tableRights
+  nameWithType: Sentry._tableRights
+  fullName: SuperOffice.CRM.Security.Sentry._tableRights
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nHolds the result of the table rights computations.\nTells us if we can add/read/update/delete the row.\nThis is a bit-flag, so more than one right may be set.\nKey = table number (from conceptual dictionary)\nValue = Tableright. Usually gotten from the <xref href=\"SuperOffice.CRM.Security.RightsFactory\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected TableRights _tableRights
+    return:
+      type: SuperOffice.CRM.Security.TableRights
+    content.vb: Protected _tableRights As TableRights
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Security.Sentry._fieldRights
+  commentId: F:SuperOffice.CRM.Security.Sentry._fieldRights
+  id: _fieldRights
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: _fieldRights
+  nameWithType: Sentry._fieldRights
+  fullName: SuperOffice.CRM.Security.Sentry._fieldRights
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nHolds the result of the field rights computations.\nThe dictionary key is the field id, the dictionary value is the resulting <xref href=\"SuperOffice.CRM.Security.FieldRight\" data-throw-if-not-resolved=\"false\"></xref> rights object.\nThe rights objects are shared among many instances -- they are copy-on-write.\nKey = field number (from conceptual dictionary)\nValue = FieldRight. Usually gotten from the <xref href=\"SuperOffice.CRM.Security.RightsFactory\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected FieldRights _fieldRights
+    return:
+      type: SuperOffice.CRM.Security.FieldRights
+    content.vb: Protected _fieldRights As FieldRights
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Security.Sentry._lookups
+  commentId: F:SuperOffice.CRM.Security.Sentry._lookups
+  id: _lookups
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: _lookups
+  nameWithType: Sentry._lookups
+  fullName: SuperOffice.CRM.Security.Sentry._lookups
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nContains the list of row data providers that the sentry can consult.\n"
+  syntax:
+    content: protected LookupCollection _lookups
+    return:
+      type: SuperOffice.CRM.Security.LookupCollection
+    content.vb: Protected _lookups As LookupCollection
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Security.Sentry.DemandPlugins
+  commentId: M:SuperOffice.CRM.Security.Sentry.DemandPlugins
+  id: DemandPlugins
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: DemandPlugins()
+  nameWithType: Sentry.DemandPlugins()
+  fullName: SuperOffice.CRM.Security.Sentry.DemandPlugins()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nDemand that all required sentry plugins are present. See <xref href=\"SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.CRM.Security.SentryPluginAttribute\" data-throw-if-not-resolved=\"false\"></xref> for further details.\nCalled by NetServer during user authentication.\n"
+  remarks: "\nThese user-preferences all mean the same thing:<p></p>\n[section] key = val\n<pre><code>[SentryAddonNames] prog.id = prog.id\n[SentryAddonNames] 1 = prog.id\n[SentryAddonNames] foo bar = prog.id</code></pre>\nThey all mean that the config file must load a sentry plug-in that declares itself as the &quot;prog.id&quot; plug-in.\nIf the plug-in with this prog.id attribute is not loaded according to the current plug-in configuration, an exception will be thrown.\n<p></p>\nTo disable a sentry preference, change its value to 0 or to blank.\n"
+  syntax:
+    content: public static void DemandPlugins()
+    content.vb: Public Shared Sub DemandPlugins
+  overload: SuperOffice.CRM.Security.Sentry.DemandPlugins*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if there are any sentry plugins missing and Sentry is enabled.
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Security.Sentry.#ctor(SuperOffice.CRM.Security.SentryQueryInfo)
+  commentId: M:SuperOffice.CRM.Security.Sentry.#ctor(SuperOffice.CRM.Security.SentryQueryInfo)
+  id: '#ctor(SuperOffice.CRM.Security.SentryQueryInfo)'
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: Sentry(SentryQueryInfo)
+  nameWithType: Sentry.Sentry(SentryQueryInfo)
+  fullName: SuperOffice.CRM.Security.Sentry.Sentry(SuperOffice.CRM.Security.SentryQueryInfo)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: protected Sentry(SentryQueryInfo coveredTables)
+    parameters:
+    - id: coveredTables
+      type: SuperOffice.CRM.Security.SentryQueryInfo
+    content.vb: Protected Sub New(coveredTables As SentryQueryInfo)
+  overload: SuperOffice.CRM.Security.Sentry.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Security.Sentry.CreateSentry(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.CRM.Security.Sentry.CreateSentry(SuperOffice.Data.SQL.TableInfo)
+  id: CreateSentry(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: CreateSentry(TableInfo)
+  nameWithType: Sentry.CreateSentry(TableInfo)
+  fullName: SuperOffice.CRM.Security.Sentry.CreateSentry(SuperOffice.Data.SQL.TableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nSentry Factory function. Given a table-info, finds the appropriate sentry type (if possible) \nand creates a new instance.\n<p>The sentry must afterwards be populated with lookup interfaces to read the row.</p>\n"
+  syntax:
+    content: public static Sentry CreateSentry(TableInfo tableInfo)
+    parameters:
+    - id: tableInfo
+      type: SuperOffice.Data.SQL.TableInfo
+      description: >
+        The table we want covered:
+
+        Contact, Person, Appointment, Sale, Project, Selection, Relation are suitable TableInfo types.
+    return:
+      type: SuperOffice.CRM.Security.Sentry
+      description: "A sentry of the proper sub-class. \nReturns a ContactSentry if given a Contact.ContactId and a Contact.AssociateId field.\n"
+    content.vb: Public Shared Function CreateSentry(tableInfo As TableInfo) As Sentry
+  overload: SuperOffice.CRM.Security.Sentry.CreateSentry*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select)
+  commentId: M:SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select)
+  id: CreateSentries(SuperOffice.Data.SQL.Select)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: CreateSentries(Select)
+  nameWithType: Sentry.CreateSentries(Select)
+  fullName: SuperOffice.CRM.Security.Sentry.CreateSentries(SuperOffice.Data.SQL.Select)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public static SentryCollection CreateSentries(Select sql)
+    parameters:
+    - id: sql
+      type: SuperOffice.Data.SQL.Select
+    return:
+      type: SuperOffice.CRM.Security.SentryCollection
+    content.vb: Public Shared Function CreateSentries(sql As  Select) As SentryCollection
+  overload: SuperOffice.CRM.Security.Sentry.CreateSentries*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Security.Sentry.IgnoreSentry
+  commentId: M:SuperOffice.CRM.Security.Sentry.IgnoreSentry
+  id: IgnoreSentry
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: IgnoreSentry()
+  nameWithType: Sentry.IgnoreSentry()
+  fullName: SuperOffice.CRM.Security.Sentry.IgnoreSentry()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nAre we currently in an &apos;IgnoreSentry&apos; state? This is <strong>the</strong> place to get the answer; do not try to directly\ncompute it - just call this method\n"
+  remarks: "\nIgnoreSentry can be set in at least three different ways: On the <xref href=\"SuperOffice.Security.Principal.SoPrincipal\" data-throw-if-not-resolved=\"false\"></xref>, on the <xref href=\"SuperOffice.Threading.ThreadManager\" data-throw-if-not-resolved=\"false\"></xref>, and through \nconfig.<xref href=\"SuperOffice.Configuration.ConfigFile.Security.Sentry.Ignore\" data-throw-if-not-resolved=\"false\"></xref>. Any one of them can trigger the state.\n"
+  syntax:
+    content: public static bool IgnoreSentry()
+    return:
+      type: System.Boolean
+      description: true if sentry should currently be ignored
+    content.vb: Public Shared Function IgnoreSentry As Boolean
+  overload: SuperOffice.CRM.Security.Sentry.IgnoreSentry*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Security.Sentry.GetRowSentry
+  commentId: M:SuperOffice.CRM.Security.Sentry.GetRowSentry
+  id: GetRowSentry
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: GetRowSentry()
+  nameWithType: Sentry.GetRowSentry()
+  fullName: SuperOffice.CRM.Security.Sentry.GetRowSentry()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCreate a copy of the Sentry holding the right instances of table and field infos.\n"
+  syntax:
+    content: public abstract Sentry GetRowSentry()
+    return:
+      type: SuperOffice.CRM.Security.Sentry
+      description: New instance of the Sentry.
+    content.vb: Public MustOverride Function GetRowSentry As Sentry
+  overload: SuperOffice.CRM.Security.Sentry.GetRowSentry*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: SuperOffice.CRM.Security.Sentry.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  commentId: M:SuperOffice.CRM.Security.Sentry.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  id: AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: AnalyzeQuery(PrivateSelect)
+  nameWithType: Sentry.AnalyzeQuery(PrivateSelect)
+  fullName: SuperOffice.CRM.Security.Sentry.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public abstract void AnalyzeQuery(PrivateSelect sql)
+    parameters:
+    - id: sql
+      type: SuperOffice.Data.SQL.PrivateSelect
+    content.vb: Public MustOverride Sub AnalyzeQuery(sql As PrivateSelect)
+  overload: SuperOffice.CRM.Security.Sentry.AnalyzeQuery*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: SuperOffice.CRM.Security.Sentry.System#ICloneable#Clone
+  commentId: M:SuperOffice.CRM.Security.Sentry.System#ICloneable#Clone
+  id: System#ICloneable#Clone
+  isEii: true
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: ICloneable.Clone()
+  nameWithType: Sentry.ICloneable.Clone()
+  fullName: SuperOffice.CRM.Security.Sentry.System.ICloneable.Clone()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: object ICloneable.Clone()
+    return:
+      type: System.Object
+    content.vb: Function System.ICloneable.Clone As Object Implements ICloneable.Clone
+  overload: SuperOffice.CRM.Security.Sentry.System#ICloneable#Clone*
+  implements:
+  - System.ICloneable.Clone
+  nameWithType.vb: Sentry.System.ICloneable.Clone()
+  name.vb: System.ICloneable.Clone()
+- uid: SuperOffice.CRM.Security.Sentry.IterateLookups(SuperOffice.CRM.Security.LookupCollection)
+  commentId: M:SuperOffice.CRM.Security.Sentry.IterateLookups(SuperOffice.CRM.Security.LookupCollection)
+  id: IterateLookups(SuperOffice.CRM.Security.LookupCollection)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: IterateLookups(LookupCollection)
+  nameWithType: Sentry.IterateLookups(LookupCollection)
+  fullName: SuperOffice.CRM.Security.Sentry.IterateLookups(SuperOffice.CRM.Security.LookupCollection)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nIterate over the lookup collection\n"
+  syntax:
+    content: protected IEnumerable<object> IterateLookups(LookupCollection lookup)
+    parameters:
+    - id: lookup
+      type: SuperOffice.CRM.Security.LookupCollection
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Object}
+    content.vb: Protected Function IterateLookups(lookup As LookupCollection) As IEnumerable(Of Object)
+  overload: SuperOffice.CRM.Security.Sentry.IterateLookups*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Security.Sentry.GetIntField(SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.CRM.Security.Sentry.GetIntField(SuperOffice.Data.SQL.FieldInfo[])
+  id: GetIntField(SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: GetIntField(FieldInfo[])
+  nameWithType: Sentry.GetIntField(FieldInfo[])
+  fullName: SuperOffice.CRM.Security.Sentry.GetIntField(SuperOffice.Data.SQL.FieldInfo[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nGet the value of a field, as an int. The first lookup that returns a valid value is used.\n"
+  syntax:
+    content: public int GetIntField(params FieldInfo[] fields)
+    parameters:
+    - id: fields
+      type: SuperOffice.Data.SQL.FieldInfo[]
+      description: Field specification
+    return:
+      type: System.Int32
+      description: Value, or 0 if none was found
+    content.vb: Public Function GetIntField(ParamArray fields As FieldInfo()) As Integer
+  overload: SuperOffice.CRM.Security.Sentry.GetIntField*
+  nameWithType.vb: Sentry.GetIntField(FieldInfo())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Security.Sentry.GetIntField(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: GetIntField(FieldInfo())
+- uid: SuperOffice.CRM.Security.Sentry.GetPersistedIntField(SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.CRM.Security.Sentry.GetPersistedIntField(SuperOffice.Data.SQL.FieldInfo[])
+  id: GetPersistedIntField(SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: GetPersistedIntField(FieldInfo[])
+  nameWithType: Sentry.GetPersistedIntField(FieldInfo[])
+  fullName: SuperOffice.CRM.Security.Sentry.GetPersistedIntField(SuperOffice.Data.SQL.FieldInfo[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nGet the persisted value of a field, as an int. The first lookup that returns a valid value is used.\n"
+  syntax:
+    content: public int GetPersistedIntField(params FieldInfo[] fields)
+    parameters:
+    - id: fields
+      type: SuperOffice.Data.SQL.FieldInfo[]
+      description: Field specification
+    return:
+      type: System.Int32
+      description: Value, or 0 if none was found
+    content.vb: Public Function GetPersistedIntField(ParamArray fields As FieldInfo()) As Integer
+  overload: SuperOffice.CRM.Security.Sentry.GetPersistedIntField*
+  nameWithType.vb: Sentry.GetPersistedIntField(FieldInfo())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Security.Sentry.GetPersistedIntField(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: GetPersistedIntField(FieldInfo())
+- uid: SuperOffice.CRM.Security.Sentry.GetIsGhostField(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Security.Sentry.GetIsGhostField(SuperOffice.Data.SQL.FieldInfo)
+  id: GetIsGhostField(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: GetIsGhostField(FieldInfo)
+  nameWithType: Sentry.GetIsGhostField(FieldInfo)
+  fullName: SuperOffice.CRM.Security.Sentry.GetIsGhostField(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nDetermine whether the given field is a ghost field. It is sufficient that\none lookup has a non-ghost, to return false\n"
+  syntax:
+    content: public bool GetIsGhostField(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+      description: Field specification
+    return:
+      type: System.Boolean
+      description: true if a) no lookup had the field, or b) all lookups that had the field, returned true (ghost)
+    content.vb: Public Function GetIsGhostField(field As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Security.Sentry.GetIsGhostField*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.Sentry.GetDateTimeField(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Security.Sentry.GetDateTimeField(SuperOffice.Data.SQL.FieldInfo)
+  id: GetDateTimeField(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: GetDateTimeField(FieldInfo)
+  nameWithType: Sentry.GetDateTimeField(FieldInfo)
+  fullName: SuperOffice.CRM.Security.Sentry.GetDateTimeField(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nGet the value of a field, as a DateTime. \nThe first lookup that returns a valid value is used.\n"
+  syntax:
+    content: public DateTime GetDateTimeField(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+      description: Field specification
+    return:
+      type: System.DateTime
+      description: DateTime value, or DateTime.MinValue if not found
+    content.vb: Public Function GetDateTimeField(field As FieldInfo) As Date
+  overload: SuperOffice.CRM.Security.Sentry.GetDateTimeField*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.Sentry.GetStringField(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Security.Sentry.GetStringField(SuperOffice.Data.SQL.FieldInfo)
+  id: GetStringField(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: GetStringField(FieldInfo)
+  nameWithType: Sentry.GetStringField(FieldInfo)
+  fullName: SuperOffice.CRM.Security.Sentry.GetStringField(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nGet the value of a field, as a string. \nThe first lookup that returns a valid value is used.\n"
+  syntax:
+    content: public string GetStringField(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+      description: Field specification
+    return:
+      type: System.String
+      description: string value, or empty string if not found
+    content.vb: Public Function GetStringField(field As FieldInfo) As String
+  overload: SuperOffice.CRM.Security.Sentry.GetStringField*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.Sentry.ClearRights
+  commentId: M:SuperOffice.CRM.Security.Sentry.ClearRights
+  id: ClearRights
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: ClearRights()
+  nameWithType: Sentry.ClearRights()
+  fullName: SuperOffice.CRM.Security.Sentry.ClearRights()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nClears out old results from data. \nCalled every time a row is read.\n"
+  syntax:
+    content: public void ClearRights()
+    content.vb: Public Sub ClearRights
+  overload: SuperOffice.CRM.Security.Sentry.ClearRights*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.Sentry.GetMainRight
+  commentId: M:SuperOffice.CRM.Security.Sentry.GetMainRight
+  id: GetMainRight
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: GetMainRight()
+  nameWithType: Sentry.GetMainRight()
+  fullName: SuperOffice.CRM.Security.Sentry.GetMainRight()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public abstract ETableRight GetMainRight()
+    return:
+      type: SuperOffice.Data.ETableRight
+    content.vb: Public MustOverride Function GetMainRight As ETableRight
+  overload: SuperOffice.CRM.Security.Sentry.GetMainRight*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex
+  commentId: M:SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex
+  id: GetRecordOwnershipIndex
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: GetRecordOwnershipIndex()
+  nameWithType: Sentry.GetRecordOwnershipIndex()
+  fullName: SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturn the sort of relationship between the current user and the Sentry&apos;s user and group.\n"
+  syntax:
+    content: public virtual EOwnershipIndex GetRecordOwnershipIndex()
+    return:
+      type: SuperOffice.CRM.Security.EOwnershipIndex
+      description: Relationship to the item.
+    content.vb: Public Overridable Function GetRecordOwnershipIndex As EOwnershipIndex
+  overload: SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex(System.Int32,System.Int32)
+  id: GetRecordOwnershipIndex(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: GetRecordOwnershipIndex(Int32, Int32)
+  nameWithType: Sentry.GetRecordOwnershipIndex(Int32, Int32)
+  fullName: SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturn the sort of relationship between the current user and the given user and group. Use a cached value if possible\n"
+  syntax:
+    content: public static EOwnershipIndex GetRecordOwnershipIndex(int assocId, int groupId)
+    parameters:
+    - id: assocId
+      type: System.Int32
+      description: The associate id of the owner of the record being guarded.
+    - id: groupId
+      type: System.Int32
+      description: The user-group that the associate id is part of.
+    return:
+      type: SuperOffice.CRM.Security.EOwnershipIndex
+      description: Relationship to the item.
+    content.vb: Public Shared Function GetRecordOwnershipIndex(assocId As Integer, groupId As Integer) As EOwnershipIndex
+  overload: SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Security.Sentry.MapTableToFieldRights(SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight,SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.CRM.Security.Sentry.MapTableToFieldRights(SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight,SuperOffice.Data.SQL.FieldInfo[])
+  id: MapTableToFieldRights(SuperOffice.Data.SQL.TableInfo,SuperOffice.CRM.Security.TableRight,SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: MapTableToFieldRights(TableInfo, TableRight, FieldInfo[])
+  nameWithType: Sentry.MapTableToFieldRights(TableInfo, TableRight, FieldInfo[])
+  fullName: SuperOffice.CRM.Security.Sentry.MapTableToFieldRights(SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight, SuperOffice.Data.SQL.FieldInfo[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nAdds the field rights for all the fields in the given table, \nderived from the given tableRight. i.e. an Update tableright will \ngive write permission on the fields.\n"
+  remarks: "\nThis function is used for creating the base fieldrights in SuperComputeFieldRights.\nThe ComputeFieldRights function will invariably tweak these rights slightly.\n"
+  syntax:
+    content: protected void MapTableToFieldRights(TableInfo tableInfo, TableRight tableRight, FieldInfo[] fieldInfos = null)
+    parameters:
+    - id: tableInfo
+      type: SuperOffice.Data.SQL.TableInfo
+      description: All the fields in this table are added to the fieldrights list
+    - id: tableRight
+      type: SuperOffice.CRM.Security.TableRight
+      description: >
+        These tablerights are used when computing the fieldrights
+    - id: fieldInfos
+      type: SuperOffice.Data.SQL.FieldInfo[]
+    content.vb: Protected Sub MapTableToFieldRights(tableInfo As TableInfo, tableRight As TableRight, fieldInfos As FieldInfo() = Nothing)
+  overload: SuperOffice.CRM.Security.Sentry.MapTableToFieldRights*
+  nameWithType.vb: Sentry.MapTableToFieldRights(TableInfo, TableRight, FieldInfo())
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Security.Sentry.MapTableToFieldRights(SuperOffice.Data.SQL.TableInfo, SuperOffice.CRM.Security.TableRight, SuperOffice.Data.SQL.FieldInfo())
+  name.vb: MapTableToFieldRights(TableInfo, TableRight, FieldInfo())
+- uid: SuperOffice.CRM.Security.Sentry.MakeFieldFromTableRight(SuperOffice.CRM.Security.TableRight)
+  commentId: M:SuperOffice.CRM.Security.Sentry.MakeFieldFromTableRight(SuperOffice.CRM.Security.TableRight)
+  id: MakeFieldFromTableRight(SuperOffice.CRM.Security.TableRight)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: MakeFieldFromTableRight(TableRight)
+  nameWithType: Sentry.MakeFieldFromTableRight(TableRight)
+  fullName: SuperOffice.CRM.Security.Sentry.MakeFieldFromTableRight(SuperOffice.CRM.Security.TableRight)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns the field rights for all the fields in the given table, \nderived from the given tableRight.\n"
+  syntax:
+    content: protected FieldRight MakeFieldFromTableRight(TableRight tableRight)
+    parameters:
+    - id: tableRight
+      type: SuperOffice.CRM.Security.TableRight
+      description: "The tableRight determines the field right returned. \nA select table right implies a read fieldright. \nAn Insert or Update tableright will imply a write fieldright, depending on the record id.\n"
+    return:
+      type: SuperOffice.CRM.Security.FieldRight
+    content.vb: Protected Function MakeFieldFromTableRight(tableRight As TableRight) As FieldRight
+  overload: SuperOffice.CRM.Security.Sentry.MakeFieldFromTableRight*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Security.Sentry.MakeFieldFromTableRight(SuperOffice.CRM.Security.TableRight,SuperOffice.Data.ETableRight)
+  commentId: M:SuperOffice.CRM.Security.Sentry.MakeFieldFromTableRight(SuperOffice.CRM.Security.TableRight,SuperOffice.Data.ETableRight)
+  id: MakeFieldFromTableRight(SuperOffice.CRM.Security.TableRight,SuperOffice.Data.ETableRight)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: MakeFieldFromTableRight(TableRight, ETableRight)
+  nameWithType: Sentry.MakeFieldFromTableRight(TableRight, ETableRight)
+  fullName: SuperOffice.CRM.Security.Sentry.MakeFieldFromTableRight(SuperOffice.CRM.Security.TableRight, SuperOffice.Data.ETableRight)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns the field rights for all the fields in the given table, \nderived from the current tableRight, minus the given tableRight.\n"
+  syntax:
+    content: protected FieldRight MakeFieldFromTableRight(TableRight tableRight, ETableRight allowOnly)
+    parameters:
+    - id: tableRight
+      type: SuperOffice.CRM.Security.TableRight
+      description: "The tableRight determines the field right returned. \nA select table right implies a read fieldright. \nAn Insert or Update tableright will imply a write fieldright.\n"
+    - id: allowOnly
+      type: SuperOffice.Data.ETableRight
+      description: "\nIf set, this tableRight is the one that triggers write-access when determining the fieldright returned.\nUseful for getting rid of write permissions when you want to force a read-only situation.\n"
+    return:
+      type: SuperOffice.CRM.Security.FieldRight
+    content.vb: Protected Function MakeFieldFromTableRight(tableRight As TableRight, allowOnly As ETableRight) As FieldRight
+  overload: SuperOffice.CRM.Security.Sentry.MakeFieldFromTableRight*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Security.Sentry.MakeFieldFromTableRight(SuperOffice.Data.ETableRight)
+  commentId: M:SuperOffice.CRM.Security.Sentry.MakeFieldFromTableRight(SuperOffice.Data.ETableRight)
+  id: MakeFieldFromTableRight(SuperOffice.Data.ETableRight)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: MakeFieldFromTableRight(ETableRight)
+  nameWithType: Sentry.MakeFieldFromTableRight(ETableRight)
+  fullName: SuperOffice.CRM.Security.Sentry.MakeFieldFromTableRight(SuperOffice.Data.ETableRight)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: protected EFieldRight MakeFieldFromTableRight(ETableRight tableRight)
+    parameters:
+    - id: tableRight
+      type: SuperOffice.Data.ETableRight
+    return:
+      type: SuperOffice.Data.EFieldRight
+    content.vb: Protected Function MakeFieldFromTableRight(tableRight As ETableRight) As EFieldRight
+  overload: SuperOffice.CRM.Security.Sentry.MakeFieldFromTableRight*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Security.Sentry.SuperComputeTableRights
+  commentId: M:SuperOffice.CRM.Security.Sentry.SuperComputeTableRights
+  id: SuperComputeTableRights
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: SuperComputeTableRights()
+  nameWithType: Sentry.SuperComputeTableRights()
+  fullName: SuperOffice.CRM.Security.Sentry.SuperComputeTableRights()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: protected abstract void SuperComputeTableRights()
+    content.vb: Protected MustOverride Sub SuperComputeTableRights
+  overload: SuperOffice.CRM.Security.Sentry.SuperComputeTableRights*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: SuperOffice.CRM.Security.Sentry.SuperComputeFieldRights
+  commentId: M:SuperOffice.CRM.Security.Sentry.SuperComputeFieldRights
+  id: SuperComputeFieldRights
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: SuperComputeFieldRights()
+  nameWithType: Sentry.SuperComputeFieldRights()
+  fullName: SuperOffice.CRM.Security.Sentry.SuperComputeFieldRights()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: protected abstract void SuperComputeFieldRights()
+    content.vb: Protected MustOverride Sub SuperComputeFieldRights
+  overload: SuperOffice.CRM.Security.Sentry.SuperComputeFieldRights*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: SuperOffice.CRM.Security.Sentry.SuperComputeDerivedTableRights
+  commentId: M:SuperOffice.CRM.Security.Sentry.SuperComputeDerivedTableRights
+  id: SuperComputeDerivedTableRights
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: SuperComputeDerivedTableRights()
+  nameWithType: Sentry.SuperComputeDerivedTableRights()
+  fullName: SuperOffice.CRM.Security.Sentry.SuperComputeDerivedTableRights()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: protected abstract void SuperComputeDerivedTableRights()
+    content.vb: Protected MustOverride Sub SuperComputeDerivedTableRights
+  overload: SuperOffice.CRM.Security.Sentry.SuperComputeDerivedTableRights*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: SuperOffice.CRM.Security.Sentry.GetTableRight(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.CRM.Security.Sentry.GetTableRight(SuperOffice.Data.SQL.TableInfo)
+  id: GetTableRight(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: GetTableRight(TableInfo)
+  nameWithType: Sentry.GetTableRight(TableInfo)
+  fullName: SuperOffice.CRM.Security.Sentry.GetTableRight(SuperOffice.Data.SQL.TableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns the tableright for the given table.\nThe table right contains the rights mask and a reason why some rights are restricted.\n"
+  syntax:
+    content: public TableRight GetTableRight(TableInfo table)
+    parameters:
+    - id: table
+      type: SuperOffice.Data.SQL.TableInfo
+    return:
+      type: SuperOffice.CRM.Security.TableRight
+      description: Will return a new tableright with full rights if the table is not covered by this sentry.
+    content.vb: Public Function GetTableRight(table As TableInfo) As TableRight
+  overload: SuperOffice.CRM.Security.Sentry.GetTableRight*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.Sentry.GetFieldRight(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Security.Sentry.GetFieldRight(SuperOffice.Data.SQL.FieldInfo)
+  id: GetFieldRight(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: GetFieldRight(FieldInfo)
+  nameWithType: Sentry.GetFieldRight(FieldInfo)
+  fullName: SuperOffice.CRM.Security.Sentry.GetFieldRight(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns the fieldright for the given table.\n"
+  syntax:
+    content: public FieldRight GetFieldRight(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: SuperOffice.CRM.Security.FieldRight
+      description: Returns a new fieldright with full rights if the field is not covered by this sentry.
+    content.vb: Public Function GetFieldRight(field As FieldInfo) As FieldRight
+  overload: SuperOffice.CRM.Security.Sentry.GetFieldRight*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.Sentry.SetAllTableRights(SuperOffice.Data.ETableRight,System.String)
+  commentId: M:SuperOffice.CRM.Security.Sentry.SetAllTableRights(SuperOffice.Data.ETableRight,System.String)
+  id: SetAllTableRights(SuperOffice.Data.ETableRight,System.String)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: SetAllTableRights(ETableRight, String)
+  nameWithType: Sentry.SetAllTableRights(ETableRight, String)
+  fullName: SuperOffice.CRM.Security.Sentry.SetAllTableRights(SuperOffice.Data.ETableRight, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCopies the given right and reason into all the tablerights, except for the main table.\nThe main table can have different rights than the dependent tables.\n"
+  syntax:
+    content: protected abstract void SetAllTableRights(ETableRight right, string reason)
+    parameters:
+    - id: right
+      type: SuperOffice.Data.ETableRight
+    - id: reason
+      type: System.String
+    content.vb: Protected MustOverride Sub SetAllTableRights(right As ETableRight, reason As String)
+  overload: SuperOffice.CRM.Security.Sentry.SetAllTableRights*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: SuperOffice.CRM.Security.Sentry.CanTableDo(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.ETableRight,System.Boolean)
+  commentId: M:SuperOffice.CRM.Security.Sentry.CanTableDo(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.ETableRight,System.Boolean)
+  id: CanTableDo(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.ETableRight,System.Boolean)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: CanTableDo(TableInfo, ETableRight, Boolean)
+  nameWithType: Sentry.CanTableDo(TableInfo, ETableRight, Boolean)
+  fullName: SuperOffice.CRM.Security.Sentry.CanTableDo(SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.ETableRight, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nDetermine if the current user has the required access rights to the row this sentry is protecting.\n"
+  example:
+  - "\nContactRow c = new ContactRow.IdxContactId( 1234 );\nbool canModify = c.Sentry.CanTableDo( c.TableInfo, ETableRight.Insert and ETableRight.Update, false );\n"
+  syntax:
+    content: public virtual bool CanTableDo(TableInfo table, ETableRight rights, bool allOfRights)
+    parameters:
+    - id: table
+      type: SuperOffice.Data.SQL.TableInfo
+    - id: rights
+      type: SuperOffice.Data.ETableRight
+      description: 'one or more of the <xref href="SuperOffice.Data.ETableRight" data-throw-if-not-resolved="false"></xref> values combined as bitflags '
+    - id: allOfRights
+      type: System.Boolean
+      description: "if true, then all of the rights must be available for the result to be true. \nOtherwise any of the rights must be available for the result to be true"
+    return:
+      type: System.Boolean
+      description: True if the user has the required access rights to the table.
+    content.vb: Public Overridable Function CanTableDo(table As TableInfo, rights As ETableRight, allOfRights As Boolean) As Boolean
+  overload: SuperOffice.CRM.Security.Sentry.CanTableDo*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Security.Sentry.CanFieldDo(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.EFieldRight,System.Boolean)
+  commentId: M:SuperOffice.CRM.Security.Sentry.CanFieldDo(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.EFieldRight,System.Boolean)
+  id: CanFieldDo(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.EFieldRight,System.Boolean)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: CanFieldDo(FieldInfo, EFieldRight, Boolean)
+  nameWithType: Sentry.CanFieldDo(FieldInfo, EFieldRight, Boolean)
+  fullName: SuperOffice.CRM.Security.Sentry.CanFieldDo(SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.EFieldRight, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nDetermine if the current user has the required access rights to a field \nbelonging to the row this sentry is protecting.\n\nNote that the field does not have to be on the table\n"
+  syntax:
+    content: public virtual bool CanFieldDo(FieldInfo field, EFieldRight rights, bool allOfRights)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+      description: SODBIF id of field we want to know about
+    - id: rights
+      type: SuperOffice.Data.EFieldRight
+      description: Rights we want to have to field
+    - id: allOfRights
+      type: System.Boolean
+      description: True if all the rights must be present
+    return:
+      type: System.Boolean
+      description: True if we have some (allOfRights=False) or all (allOfRights=True) of the rights to the field.
+    content.vb: Public Overridable Function CanFieldDo(field As FieldInfo, rights As EFieldRight, allOfRights As Boolean) As Boolean
+  overload: SuperOffice.CRM.Security.Sentry.CanFieldDo*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Security.Sentry.IsTableCovered(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.CRM.Security.Sentry.IsTableCovered(SuperOffice.Data.SQL.TableInfo)
+  id: IsTableCovered(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: IsTableCovered(TableInfo)
+  nameWithType: Sentry.IsTableCovered(TableInfo)
+  fullName: SuperOffice.CRM.Security.Sentry.IsTableCovered(SuperOffice.Data.SQL.TableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns true if the sentry has an opinion about the table in question.\n"
+  syntax:
+    content: public abstract bool IsTableCovered(TableInfo table)
+    parameters:
+    - id: table
+      type: SuperOffice.Data.SQL.TableInfo
+    return:
+      type: System.Boolean
+    content.vb: Public MustOverride Function IsTableCovered(table As TableInfo) As Boolean
+  overload: SuperOffice.CRM.Security.Sentry.IsTableCovered*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: SuperOffice.CRM.Security.Sentry.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.CRM.Security.Sentry.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  id: CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: CanCoverTable(TableInfo)
+  nameWithType: Sentry.CanCoverTable(TableInfo)
+  fullName: SuperOffice.CRM.Security.Sentry.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public abstract bool CanCoverTable(TableInfo table)
+    parameters:
+    - id: table
+      type: SuperOffice.Data.SQL.TableInfo
+    return:
+      type: System.Boolean
+    content.vb: Public MustOverride Function CanCoverTable(table As TableInfo) As Boolean
+  overload: SuperOffice.CRM.Security.Sentry.CanCoverTable*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: SuperOffice.CRM.Security.Sentry.IsFieldCovered(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Security.Sentry.IsFieldCovered(SuperOffice.Data.SQL.FieldInfo)
+  id: IsFieldCovered(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: IsFieldCovered(FieldInfo)
+  nameWithType: Sentry.IsFieldCovered(FieldInfo)
+  fullName: SuperOffice.CRM.Security.Sentry.IsFieldCovered(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns true if the sentry has a definite opinion about the field.\nTo find out what the opinion is, you need to use <xref href=\"SuperOffice.CRM.Security.Sentry.CanFieldDo(SuperOffice.Data.SQL.FieldInfo%2cSuperOffice.Data.EFieldRight%2cSystem.Boolean)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public virtual bool IsFieldCovered(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+      description: The field we are wondering about
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function IsFieldCovered(field As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Security.Sentry.IsFieldCovered*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Security.Sentry.GetGroupFromAssociate(System.Int32)
+  commentId: M:SuperOffice.CRM.Security.Sentry.GetGroupFromAssociate(System.Int32)
+  id: GetGroupFromAssociate(System.Int32)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: GetGroupFromAssociate(Int32)
+  nameWithType: Sentry.GetGroupFromAssociate(Int32)
+  fullName: SuperOffice.CRM.Security.Sentry.GetGroupFromAssociate(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nGet the group that an associate belongs to.\n"
+  remarks: "\n<p>\n	This value can be cached.\n</p>\n<p>\n	Most calculations actually only requires to find out wetter \n	the associate belongs to a group or not.  Future \n	implementations can take advantage of this and make this \n	method obsolete.\n</p>\n"
+  syntax:
+    content: protected int GetGroupFromAssociate(int assocId)
+    parameters:
+    - id: assocId
+      type: System.Int32
+      description: The associate id to check group for.
+    return:
+      type: System.Int32
+      description: Group id of the group that the associate belongs to.
+    content.vb: Protected Function GetGroupFromAssociate(assocId As Integer) As Integer
+  overload: SuperOffice.CRM.Security.Sentry.GetGroupFromAssociate*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Security.Sentry.IsContactDatabaseOwner(System.Int32)
+  commentId: M:SuperOffice.CRM.Security.Sentry.IsContactDatabaseOwner(System.Int32)
+  id: IsContactDatabaseOwner(System.Int32)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: IsContactDatabaseOwner(Int32)
+  nameWithType: Sentry.IsContactDatabaseOwner(Int32)
+  fullName: SuperOffice.CRM.Security.Sentry.IsContactDatabaseOwner(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nIs the contact one of the contacts owning the database?\n"
+  remarks: This value can be cached.
+  syntax:
+    content: protected bool IsContactDatabaseOwner(int contact_id)
+    parameters:
+    - id: contact_id
+      type: System.Int32
+      description: Id of contact to check if is one of teh owner contacts.
+    return:
+      type: System.Boolean
+      description: True of the contact is one of the owner contacts.
+    content.vb: Protected Function IsContactDatabaseOwner(contact_id As Integer) As Boolean
+  overload: SuperOffice.CRM.Security.Sentry.IsContactDatabaseOwner*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Security.Sentry.IsContactEmployeeUserOwner(System.Int32)
+  commentId: M:SuperOffice.CRM.Security.Sentry.IsContactEmployeeUserOwner(System.Int32)
+  id: IsContactEmployeeUserOwner(System.Int32)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: IsContactEmployeeUserOwner(Int32)
+  nameWithType: Sentry.IsContactEmployeeUserOwner(Int32)
+  fullName: SuperOffice.CRM.Security.Sentry.IsContactEmployeeUserOwner(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nIs the contact owner of an associate (employee users)\n"
+  remarks: This value can be cached.
+  syntax:
+    content: protected bool IsContactEmployeeUserOwner(int contactId)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: Id of contact to check if is one of the.
+    return:
+      type: System.Boolean
+      description: True of the contact is one of the owner contacts.
+    content.vb: Protected Function IsContactEmployeeUserOwner(contactId As Integer) As Boolean
+  overload: SuperOffice.CRM.Security.Sentry.IsContactEmployeeUserOwner*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Security.Sentry.IsContactSatelliteOwner(System.Int32)
+  commentId: M:SuperOffice.CRM.Security.Sentry.IsContactSatelliteOwner(System.Int32)
+  id: IsContactSatelliteOwner(System.Int32)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: IsContactSatelliteOwner(Int32)
+  nameWithType: Sentry.IsContactSatelliteOwner(Int32)
+  fullName: SuperOffice.CRM.Security.Sentry.IsContactSatelliteOwner(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nIs the contact an owner of a satelite?\n"
+  remarks: This value can be cached.
+  syntax:
+    content: protected bool IsContactSatelliteOwner(int contact_id)
+    parameters:
+    - id: contact_id
+      type: System.Int32
+      description: Id of contact to check if it owns a satelite.
+    return:
+      type: System.Boolean
+      description: True if the contact owns a satelite.
+    content.vb: Protected Function IsContactSatelliteOwner(contact_id As Integer) As Boolean
+  overload: SuperOffice.CRM.Security.Sentry.IsContactSatelliteOwner*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Security.Sentry.IsContactLicenseOwner(System.Int32)
+  commentId: M:SuperOffice.CRM.Security.Sentry.IsContactLicenseOwner(System.Int32)
+  id: IsContactLicenseOwner(System.Int32)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: IsContactLicenseOwner(Int32)
+  nameWithType: Sentry.IsContactLicenseOwner(Int32)
+  fullName: SuperOffice.CRM.Security.Sentry.IsContactLicenseOwner(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nIs the contact owner of central database and the license?\n"
+  syntax:
+    content: protected bool IsContactLicenseOwner(int contactId)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: Primary key of the contect to check.
+    return:
+      type: System.Boolean
+      description: True if the contact is hte owner of central database and the license.
+    content.vb: Protected Function IsContactLicenseOwner(contactId As Integer) As Boolean
+  overload: SuperOffice.CRM.Security.Sentry.IsContactLicenseOwner*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Security.Sentry.IsContactCurrentDatabaseOwner(System.Int32)
+  commentId: M:SuperOffice.CRM.Security.Sentry.IsContactCurrentDatabaseOwner(System.Int32)
+  id: IsContactCurrentDatabaseOwner(System.Int32)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: IsContactCurrentDatabaseOwner(Int32)
+  nameWithType: Sentry.IsContactCurrentDatabaseOwner(Int32)
+  fullName: SuperOffice.CRM.Security.Sentry.IsContactCurrentDatabaseOwner(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nIs the contact the owner of the current database.\n"
+  syntax:
+    content: protected bool IsContactCurrentDatabaseOwner(int contactId)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: Primary key of the contect to check.
+    return:
+      type: System.Boolean
+      description: True if the contact is the owner of the current database
+    content.vb: Protected Function IsContactCurrentDatabaseOwner(contactId As Integer) As Boolean
+  overload: SuperOffice.CRM.Security.Sentry.IsContactCurrentDatabaseOwner*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Security.Sentry.IsPersonAssociate(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Security.Sentry.IsPersonAssociate(System.Int32,System.Boolean)
+  id: IsPersonAssociate(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: IsPersonAssociate(Int32, Boolean)
+  nameWithType: Sentry.IsPersonAssociate(Int32, Boolean)
+  fullName: SuperOffice.CRM.Security.Sentry.IsPersonAssociate(System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCheck if a person is an associate (e.g. user).\n"
+  syntax:
+    content: protected bool IsPersonAssociate(int personId, bool includeExternalUsers)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: Id of person to check if it is an associate (e.g. user).
+    - id: includeExternalUsers
+      type: System.Boolean
+      description: If includeExternalUsers is false, external users will not be regarded as associates.
+    return:
+      type: System.Boolean
+      description: True if the person is an associate (e.g. user).
+    content.vb: Protected Function IsPersonAssociate(personId As Integer, includeExternalUsers As Boolean) As Boolean
+  overload: SuperOffice.CRM.Security.Sentry.IsPersonAssociate*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Security.Sentry.IsAssociatesOwnerContact(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Security.Sentry.IsAssociatesOwnerContact(System.Int32,System.Int32)
+  id: IsAssociatesOwnerContact(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: IsAssociatesOwnerContact(Int32, Int32)
+  nameWithType: Sentry.IsAssociatesOwnerContact(Int32, Int32)
+  fullName: SuperOffice.CRM.Security.Sentry.IsAssociatesOwnerContact(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCheck if a contact is the owner of an associate\n"
+  syntax:
+    content: protected bool IsAssociatesOwnerContact(int assocId, int contactId)
+    parameters:
+    - id: assocId
+      type: System.Int32
+      description: Id of the associate
+    - id: contactId
+      type: System.Int32
+      description: 'Id of the contact we want to verify '
+    return:
+      type: System.Boolean
+      description: 'True if the contact id is the owner of the associate '
+    content.vb: Protected Function IsAssociatesOwnerContact(assocId As Integer, contactId As Integer) As Boolean
+  overload: SuperOffice.CRM.Security.Sentry.IsAssociatesOwnerContact*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Security.Sentry.Lookups
+  commentId: P:SuperOffice.CRM.Security.Sentry.Lookups
+  id: Lookups
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: Lookups
+  nameWithType: Sentry.Lookups
+  fullName: SuperOffice.CRM.Security.Sentry.Lookups
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nContains the list of row data providers that the sentry can consult.\n"
+  syntax:
+    content: public LookupCollection Lookups { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Security.LookupCollection
+    content.vb: Public ReadOnly Property Lookups As LookupCollection
+  overload: SuperOffice.CRM.Security.Sentry.Lookups*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.Sentry.Parent
+  commentId: P:SuperOffice.CRM.Security.Sentry.Parent
+  id: Parent
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: Parent
+  nameWithType: Sentry.Parent
+  fullName: SuperOffice.CRM.Security.Sentry.Parent
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nGet the sentry collection that teh sentry belongs to.\n"
+  syntax:
+    content: public SentryCollection Parent { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Security.SentryCollection
+    content.vb: Public ReadOnly Property Parent As SentryCollection
+  overload: SuperOffice.CRM.Security.Sentry.Parent*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.Sentry.RegisteredField
+  commentId: P:SuperOffice.CRM.Security.Sentry.RegisteredField
+  id: RegisteredField
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: RegisteredField
+  nameWithType: Sentry.RegisteredField
+  fullName: SuperOffice.CRM.Security.Sentry.RegisteredField
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nThe field that holds information about when the item was first created.\n"
+  syntax:
+    content: public abstract FieldInfo RegisteredField { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public MustOverride ReadOnly Property RegisteredField As FieldInfo
+  overload: SuperOffice.CRM.Security.Sentry.RegisteredField*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.Sentry.RegisteredAssociateIdField
+  commentId: P:SuperOffice.CRM.Security.Sentry.RegisteredAssociateIdField
+  id: RegisteredAssociateIdField
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateIdField
+  nameWithType: Sentry.RegisteredAssociateIdField
+  fullName: SuperOffice.CRM.Security.Sentry.RegisteredAssociateIdField
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nThe field that holds the associate id of teh user first creating the item.\n"
+  syntax:
+    content: public abstract FieldInfo RegisteredAssociateIdField { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public MustOverride ReadOnly Property RegisteredAssociateIdField As FieldInfo
+  overload: SuperOffice.CRM.Security.Sentry.RegisteredAssociateIdField*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.Sentry.RowId
+  commentId: P:SuperOffice.CRM.Security.Sentry.RowId
+  id: RowId
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: RowId
+  nameWithType: Sentry.RowId
+  fullName: SuperOffice.CRM.Security.Sentry.RowId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns the primary key id based on the row provided to the sentry.\nThis method must be overridden by the sub-class.\n"
+  syntax:
+    content: public abstract int RowId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public MustOverride ReadOnly Property RowId As Integer
+  overload: SuperOffice.CRM.Security.Sentry.RowId*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.Sentry.IsNew
+  commentId: P:SuperOffice.CRM.Security.Sentry.IsNew
+  id: IsNew
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: IsNew
+  nameWithType: Sentry.IsNew
+  fullName: SuperOffice.CRM.Security.Sentry.IsNew
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nHas the row been saved to teh database yet.\n"
+  syntax:
+    content: public abstract bool IsNew { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public MustOverride ReadOnly Property IsNew As Boolean
+  overload: SuperOffice.CRM.Security.Sentry.IsNew*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.Sentry.IsGhostRow
+  commentId: P:SuperOffice.CRM.Security.Sentry.IsGhostRow
+  id: IsGhostRow
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: IsGhostRow
+  nameWithType: Sentry.IsGhostRow
+  fullName: SuperOffice.CRM.Security.Sentry.IsGhostRow
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns whether the primary key field is a ghost\n"
+  syntax:
+    content: public abstract bool IsGhostRow { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public MustOverride ReadOnly Property IsGhostRow As Boolean
+  overload: SuperOffice.CRM.Security.Sentry.IsGhostRow*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.Sentry.MainTable
+  commentId: P:SuperOffice.CRM.Security.Sentry.MainTable
+  id: MainTable
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: MainTable
+  nameWithType: Sentry.MainTable
+  fullName: SuperOffice.CRM.Security.Sentry.MainTable
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nGet main table for the sentry.\n"
+  syntax:
+    content: public TableInfo MainTable { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TableInfo
+    content.vb: Public ReadOnly Property MainTable As TableInfo
+  overload: SuperOffice.CRM.Security.Sentry.MainTable*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.Sentry.SentryQueryInfo
+  commentId: P:SuperOffice.CRM.Security.Sentry.SentryQueryInfo
+  id: SentryQueryInfo
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: SentryQueryInfo
+  nameWithType: Sentry.SentryQueryInfo
+  fullName: SuperOffice.CRM.Security.Sentry.SentryQueryInfo
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns an array of the table-ids of the tables this sentry covers\n"
+  syntax:
+    content: public SentryQueryInfo SentryQueryInfo { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Security.SentryQueryInfo
+    content.vb: Public ReadOnly Property SentryQueryInfo As SentryQueryInfo
+  overload: SuperOffice.CRM.Security.Sentry.SentryQueryInfo*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.Sentry.Registered
+  commentId: P:SuperOffice.CRM.Security.Sentry.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: Sentry.Registered
+  fullName: SuperOffice.CRM.Security.Sentry.Registered
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nWhen was the item first created. Returns the current time if the field is not set (i.e. if the record has not been saved yet).\n"
+  syntax:
+    content: public virtual DateTime Registered { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable ReadOnly Property Registered As Date
+  overload: SuperOffice.CRM.Security.Sentry.Registered*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.Sentry.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Security.Sentry.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: Sentry.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Security.Sentry.RegisteredAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nWho created the item.\n"
+  syntax:
+    content: public virtual int RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable ReadOnly Property RegisteredAssociateId As Integer
+  overload: SuperOffice.CRM.Security.Sentry.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.Sentry.AssociateId
+  commentId: P:SuperOffice.CRM.Security.Sentry.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: Sentry.AssociateId
+  fullName: SuperOffice.CRM.Security.Sentry.AssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns the associate id based on the row provided to the sentry.\nThis method must be overridden by the sub-class.\n"
+  syntax:
+    content: public abstract int AssociateId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public MustOverride ReadOnly Property AssociateId As Integer
+  overload: SuperOffice.CRM.Security.Sentry.AssociateId*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.Sentry.GroupId
+  commentId: P:SuperOffice.CRM.Security.Sentry.GroupId
+  id: GroupId
+  parent: SuperOffice.CRM.Security.Sentry
+  langs:
+  - csharp
+  - vb
+  name: GroupId
+  nameWithType: Sentry.GroupId
+  fullName: SuperOffice.CRM.Security.Sentry.GroupId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns the group id of the associate based on the row provided to the sentry.\nThis method must be overridden by the sub-class.\nIf the row does not contain the group id of the associate, then the function must\nlook up the appropriate group id in the associate table.\n\nTODO CM: add multi-db aware caching mechanism for associate->usergroup mapping\n"
+  syntax:
+    content: public virtual int GroupId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable ReadOnly Property GroupId As Integer
+  overload: SuperOffice.CRM.Security.Sentry.GroupId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Security
+  commentId: N:SuperOffice.CRM.Security
+  isExternal: true
+  name: SuperOffice.CRM.Security
+  nameWithType: SuperOffice.CRM.Security
+  fullName: SuperOffice.CRM.Security
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Sentry.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<Sentry, To>()
+  nameWithType: EnumUtil.MapEnums<Sentry, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.Sentry, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of Sentry, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.Sentry, To)()
+  name.vb: MapEnums(Of Sentry, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<Sentry, To>
+    nameWithType: EnumUtil.MapEnums<Sentry, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.Sentry, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of Sentry, To)
+    nameWithType: EnumUtil.MapEnums(Of Sentry, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.Sentry, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Sentry.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<Sentry, To>()
+  nameWithType: Converters.MapEnums<Sentry, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.Sentry, To>()
+  nameWithType.vb: Converters.MapEnums(Of Sentry, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.Sentry, To)()
+  name.vb: MapEnums(Of Sentry, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<Sentry, To>
+    nameWithType: Converters.MapEnums<Sentry, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.Sentry, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of Sentry, To)
+    nameWithType: Converters.MapEnums(Of Sentry, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.Sentry, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Security.TableRights
+  commentId: T:SuperOffice.CRM.Security.TableRights
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: TableRights
+  nameWithType: TableRights
+  fullName: SuperOffice.CRM.Security.TableRights
+- uid: SuperOffice.CRM.Security.FieldRights
+  commentId: T:SuperOffice.CRM.Security.FieldRights
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: FieldRights
+  nameWithType: FieldRights
+  fullName: SuperOffice.CRM.Security.FieldRights
+- uid: SuperOffice.CRM.Security.LookupCollection
+  commentId: T:SuperOffice.CRM.Security.LookupCollection
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: LookupCollection
+  nameWithType: LookupCollection
+  fullName: SuperOffice.CRM.Security.LookupCollection
+- uid: SuperOffice.CRM.Security.Sentry.DemandPlugins*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.DemandPlugins
+  isExternal: true
+  name: DemandPlugins
+  nameWithType: Sentry.DemandPlugins
+  fullName: SuperOffice.CRM.Security.Sentry.DemandPlugins
+- uid: SuperOffice.Exceptions.SoSentryException
+  commentId: T:SuperOffice.Exceptions.SoSentryException
+  isExternal: true
+  name: SoSentryException
+  nameWithType: SoSentryException
+  fullName: SuperOffice.Exceptions.SoSentryException
+- uid: SuperOffice.CRM.Security.Sentry.#ctor*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.#ctor
+  isExternal: true
+  name: Sentry
+  nameWithType: Sentry.Sentry
+  fullName: SuperOffice.CRM.Security.Sentry.Sentry
+- uid: SuperOffice.CRM.Security.SentryQueryInfo
+  commentId: T:SuperOffice.CRM.Security.SentryQueryInfo
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: SentryQueryInfo
+  nameWithType: SentryQueryInfo
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo
+- uid: SuperOffice.CRM.Security.Sentry.CreateSentry*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.CreateSentry
+  isExternal: true
+  name: CreateSentry
+  nameWithType: Sentry.CreateSentry
+  fullName: SuperOffice.CRM.Security.Sentry.CreateSentry
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: SuperOffice.CRM.Security.Sentry
+  commentId: T:SuperOffice.CRM.Security.Sentry
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: Sentry
+  nameWithType: Sentry
+  fullName: SuperOffice.CRM.Security.Sentry
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.CRM.Security.Sentry.CreateSentries*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.CreateSentries
+  isExternal: true
+  name: CreateSentries
+  nameWithType: Sentry.CreateSentries
+  fullName: SuperOffice.CRM.Security.Sentry.CreateSentries
+- uid: SuperOffice.Data.SQL.Select
+  commentId: T:SuperOffice.Data.SQL.Select
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Select
+  nameWithType: Select
+  fullName: SuperOffice.Data.SQL.Select
+- uid: SuperOffice.CRM.Security.SentryCollection
+  commentId: T:SuperOffice.CRM.Security.SentryCollection
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: SentryCollection
+  nameWithType: SentryCollection
+  fullName: SuperOffice.CRM.Security.SentryCollection
+- uid: SuperOffice.CRM.Security.Sentry.IgnoreSentry*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.IgnoreSentry
+  isExternal: true
+  name: IgnoreSentry
+  nameWithType: Sentry.IgnoreSentry
+  fullName: SuperOffice.CRM.Security.Sentry.IgnoreSentry
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Security.Sentry.GetRowSentry*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.GetRowSentry
+  isExternal: true
+  name: GetRowSentry
+  nameWithType: Sentry.GetRowSentry
+  fullName: SuperOffice.CRM.Security.Sentry.GetRowSentry
+- uid: SuperOffice.CRM.Security.Sentry.AnalyzeQuery*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.AnalyzeQuery
+  isExternal: true
+  name: AnalyzeQuery
+  nameWithType: Sentry.AnalyzeQuery
+  fullName: SuperOffice.CRM.Security.Sentry.AnalyzeQuery
+- uid: SuperOffice.Data.SQL.PrivateSelect
+  commentId: T:SuperOffice.Data.SQL.PrivateSelect
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: PrivateSelect
+  nameWithType: PrivateSelect
+  fullName: SuperOffice.Data.SQL.PrivateSelect
+- uid: SuperOffice.CRM.Security.Sentry.System#ICloneable#Clone*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.System#ICloneable#Clone
+  isExternal: true
+  name: ICloneable.Clone
+  nameWithType: Sentry.ICloneable.Clone
+  fullName: SuperOffice.CRM.Security.Sentry.System.ICloneable.Clone
+  nameWithType.vb: Sentry.System.ICloneable.Clone
+  name.vb: System.ICloneable.Clone
+- uid: System.ICloneable.Clone
+  commentId: M:System.ICloneable.Clone
+  parent: System.ICloneable
+  isExternal: true
+  name: Clone()
+  nameWithType: ICloneable.Clone()
+  fullName: System.ICloneable.Clone()
+  spec.csharp:
+  - uid: System.ICloneable.Clone
+    name: Clone
+    nameWithType: ICloneable.Clone
+    fullName: System.ICloneable.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ICloneable.Clone
+    name: Clone
+    nameWithType: ICloneable.Clone
+    fullName: System.ICloneable.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Sentry.IterateLookups*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.IterateLookups
+  isExternal: true
+  name: IterateLookups
+  nameWithType: Sentry.IterateLookups
+  fullName: SuperOffice.CRM.Security.Sentry.IterateLookups
+- uid: System.Collections.Generic.IEnumerable{System.Object}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Object>
+  nameWithType: IEnumerable<Object>
+  fullName: System.Collections.Generic.IEnumerable<System.Object>
+  nameWithType.vb: IEnumerable(Of Object)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Object)
+  name.vb: IEnumerable(Of Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Security.Sentry.GetIntField*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.GetIntField
+  isExternal: true
+  name: GetIntField
+  nameWithType: Sentry.GetIntField
+  fullName: SuperOffice.CRM.Security.Sentry.GetIntField
+- uid: SuperOffice.Data.SQL.FieldInfo[]
+  isExternal: true
+  name: FieldInfo[]
+  nameWithType: FieldInfo[]
+  fullName: SuperOffice.Data.SQL.FieldInfo[]
+  nameWithType.vb: FieldInfo()
+  fullName.vb: SuperOffice.Data.SQL.FieldInfo()
+  name.vb: FieldInfo()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Security.Sentry.GetPersistedIntField*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.GetPersistedIntField
+  isExternal: true
+  name: GetPersistedIntField
+  nameWithType: Sentry.GetPersistedIntField
+  fullName: SuperOffice.CRM.Security.Sentry.GetPersistedIntField
+- uid: SuperOffice.CRM.Security.Sentry.GetIsGhostField*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.GetIsGhostField
+  isExternal: true
+  name: GetIsGhostField
+  nameWithType: Sentry.GetIsGhostField
+  fullName: SuperOffice.CRM.Security.Sentry.GetIsGhostField
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: SuperOffice.CRM.Security.Sentry.GetDateTimeField*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.GetDateTimeField
+  isExternal: true
+  name: GetDateTimeField
+  nameWithType: Sentry.GetDateTimeField
+  fullName: SuperOffice.CRM.Security.Sentry.GetDateTimeField
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Security.Sentry.GetStringField*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.GetStringField
+  isExternal: true
+  name: GetStringField
+  nameWithType: Sentry.GetStringField
+  fullName: SuperOffice.CRM.Security.Sentry.GetStringField
+- uid: SuperOffice.CRM.Security.Sentry.ClearRights*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.ClearRights
+  isExternal: true
+  name: ClearRights
+  nameWithType: Sentry.ClearRights
+  fullName: SuperOffice.CRM.Security.Sentry.ClearRights
+- uid: SuperOffice.CRM.Security.Sentry.GetMainRight*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.GetMainRight
+  isExternal: true
+  name: GetMainRight
+  nameWithType: Sentry.GetMainRight
+  fullName: SuperOffice.CRM.Security.Sentry.GetMainRight
+- uid: SuperOffice.Data.ETableRight
+  commentId: T:SuperOffice.Data.ETableRight
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ETableRight
+  nameWithType: ETableRight
+  fullName: SuperOffice.Data.ETableRight
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex
+  isExternal: true
+  name: GetRecordOwnershipIndex
+  nameWithType: Sentry.GetRecordOwnershipIndex
+  fullName: SuperOffice.CRM.Security.Sentry.GetRecordOwnershipIndex
+- uid: SuperOffice.CRM.Security.EOwnershipIndex
+  commentId: T:SuperOffice.CRM.Security.EOwnershipIndex
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: EOwnershipIndex
+  nameWithType: EOwnershipIndex
+  fullName: SuperOffice.CRM.Security.EOwnershipIndex
+- uid: SuperOffice.CRM.Security.Sentry.MapTableToFieldRights*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.MapTableToFieldRights
+  isExternal: true
+  name: MapTableToFieldRights
+  nameWithType: Sentry.MapTableToFieldRights
+  fullName: SuperOffice.CRM.Security.Sentry.MapTableToFieldRights
+- uid: SuperOffice.CRM.Security.TableRight
+  commentId: T:SuperOffice.CRM.Security.TableRight
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: TableRight
+  nameWithType: TableRight
+  fullName: SuperOffice.CRM.Security.TableRight
+- uid: SuperOffice.CRM.Security.Sentry.MakeFieldFromTableRight*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.MakeFieldFromTableRight
+  isExternal: true
+  name: MakeFieldFromTableRight
+  nameWithType: Sentry.MakeFieldFromTableRight
+  fullName: SuperOffice.CRM.Security.Sentry.MakeFieldFromTableRight
+- uid: SuperOffice.CRM.Security.FieldRight
+  commentId: T:SuperOffice.CRM.Security.FieldRight
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: FieldRight
+  nameWithType: FieldRight
+  fullName: SuperOffice.CRM.Security.FieldRight
+- uid: SuperOffice.Data.EFieldRight
+  commentId: T:SuperOffice.Data.EFieldRight
+  parent: SuperOffice.Data
+  isExternal: true
+  name: EFieldRight
+  nameWithType: EFieldRight
+  fullName: SuperOffice.Data.EFieldRight
+- uid: SuperOffice.CRM.Security.Sentry.SuperComputeTableRights*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.SuperComputeTableRights
+  isExternal: true
+  name: SuperComputeTableRights
+  nameWithType: Sentry.SuperComputeTableRights
+  fullName: SuperOffice.CRM.Security.Sentry.SuperComputeTableRights
+- uid: SuperOffice.CRM.Security.Sentry.SuperComputeFieldRights*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.SuperComputeFieldRights
+  isExternal: true
+  name: SuperComputeFieldRights
+  nameWithType: Sentry.SuperComputeFieldRights
+  fullName: SuperOffice.CRM.Security.Sentry.SuperComputeFieldRights
+- uid: SuperOffice.CRM.Security.Sentry.SuperComputeDerivedTableRights*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.SuperComputeDerivedTableRights
+  isExternal: true
+  name: SuperComputeDerivedTableRights
+  nameWithType: Sentry.SuperComputeDerivedTableRights
+  fullName: SuperOffice.CRM.Security.Sentry.SuperComputeDerivedTableRights
+- uid: SuperOffice.CRM.Security.Sentry.GetTableRight*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.GetTableRight
+  isExternal: true
+  name: GetTableRight
+  nameWithType: Sentry.GetTableRight
+  fullName: SuperOffice.CRM.Security.Sentry.GetTableRight
+- uid: SuperOffice.CRM.Security.Sentry.GetFieldRight*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.GetFieldRight
+  isExternal: true
+  name: GetFieldRight
+  nameWithType: Sentry.GetFieldRight
+  fullName: SuperOffice.CRM.Security.Sentry.GetFieldRight
+- uid: SuperOffice.CRM.Security.Sentry.SetAllTableRights*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.SetAllTableRights
+  isExternal: true
+  name: SetAllTableRights
+  nameWithType: Sentry.SetAllTableRights
+  fullName: SuperOffice.CRM.Security.Sentry.SetAllTableRights
+- uid: SuperOffice.CRM.Security.Sentry.CanTableDo*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.CanTableDo
+  isExternal: true
+  name: CanTableDo
+  nameWithType: Sentry.CanTableDo
+  fullName: SuperOffice.CRM.Security.Sentry.CanTableDo
+- uid: SuperOffice.CRM.Security.Sentry.CanFieldDo*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.CanFieldDo
+  isExternal: true
+  name: CanFieldDo
+  nameWithType: Sentry.CanFieldDo
+  fullName: SuperOffice.CRM.Security.Sentry.CanFieldDo
+- uid: SuperOffice.CRM.Security.Sentry.IsTableCovered*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.IsTableCovered
+  isExternal: true
+  name: IsTableCovered
+  nameWithType: Sentry.IsTableCovered
+  fullName: SuperOffice.CRM.Security.Sentry.IsTableCovered
+- uid: SuperOffice.CRM.Security.Sentry.CanCoverTable*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.CanCoverTable
+  isExternal: true
+  name: CanCoverTable
+  nameWithType: Sentry.CanCoverTable
+  fullName: SuperOffice.CRM.Security.Sentry.CanCoverTable
+- uid: SuperOffice.CRM.Security.Sentry.IsFieldCovered*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.IsFieldCovered
+  isExternal: true
+  name: IsFieldCovered
+  nameWithType: Sentry.IsFieldCovered
+  fullName: SuperOffice.CRM.Security.Sentry.IsFieldCovered
+- uid: SuperOffice.CRM.Security.Sentry.GetGroupFromAssociate*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.GetGroupFromAssociate
+  isExternal: true
+  name: GetGroupFromAssociate
+  nameWithType: Sentry.GetGroupFromAssociate
+  fullName: SuperOffice.CRM.Security.Sentry.GetGroupFromAssociate
+- uid: SuperOffice.CRM.Security.Sentry.IsContactDatabaseOwner*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.IsContactDatabaseOwner
+  isExternal: true
+  name: IsContactDatabaseOwner
+  nameWithType: Sentry.IsContactDatabaseOwner
+  fullName: SuperOffice.CRM.Security.Sentry.IsContactDatabaseOwner
+- uid: SuperOffice.CRM.Security.Sentry.IsContactEmployeeUserOwner*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.IsContactEmployeeUserOwner
+  isExternal: true
+  name: IsContactEmployeeUserOwner
+  nameWithType: Sentry.IsContactEmployeeUserOwner
+  fullName: SuperOffice.CRM.Security.Sentry.IsContactEmployeeUserOwner
+- uid: SuperOffice.CRM.Security.Sentry.IsContactSatelliteOwner*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.IsContactSatelliteOwner
+  isExternal: true
+  name: IsContactSatelliteOwner
+  nameWithType: Sentry.IsContactSatelliteOwner
+  fullName: SuperOffice.CRM.Security.Sentry.IsContactSatelliteOwner
+- uid: SuperOffice.CRM.Security.Sentry.IsContactLicenseOwner*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.IsContactLicenseOwner
+  isExternal: true
+  name: IsContactLicenseOwner
+  nameWithType: Sentry.IsContactLicenseOwner
+  fullName: SuperOffice.CRM.Security.Sentry.IsContactLicenseOwner
+- uid: SuperOffice.CRM.Security.Sentry.IsContactCurrentDatabaseOwner*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.IsContactCurrentDatabaseOwner
+  isExternal: true
+  name: IsContactCurrentDatabaseOwner
+  nameWithType: Sentry.IsContactCurrentDatabaseOwner
+  fullName: SuperOffice.CRM.Security.Sentry.IsContactCurrentDatabaseOwner
+- uid: SuperOffice.CRM.Security.Sentry.IsPersonAssociate*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.IsPersonAssociate
+  isExternal: true
+  name: IsPersonAssociate
+  nameWithType: Sentry.IsPersonAssociate
+  fullName: SuperOffice.CRM.Security.Sentry.IsPersonAssociate
+- uid: SuperOffice.CRM.Security.Sentry.IsAssociatesOwnerContact*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.IsAssociatesOwnerContact
+  isExternal: true
+  name: IsAssociatesOwnerContact
+  nameWithType: Sentry.IsAssociatesOwnerContact
+  fullName: SuperOffice.CRM.Security.Sentry.IsAssociatesOwnerContact
+- uid: SuperOffice.CRM.Security.Sentry.Lookups*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.Lookups
+  isExternal: true
+  name: Lookups
+  nameWithType: Sentry.Lookups
+  fullName: SuperOffice.CRM.Security.Sentry.Lookups
+- uid: SuperOffice.CRM.Security.Sentry.Parent*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.Parent
+  isExternal: true
+  name: Parent
+  nameWithType: Sentry.Parent
+  fullName: SuperOffice.CRM.Security.Sentry.Parent
+- uid: SuperOffice.CRM.Security.Sentry.RegisteredField*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.RegisteredField
+  isExternal: true
+  name: RegisteredField
+  nameWithType: Sentry.RegisteredField
+  fullName: SuperOffice.CRM.Security.Sentry.RegisteredField
+- uid: SuperOffice.CRM.Security.Sentry.RegisteredAssociateIdField*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.RegisteredAssociateIdField
+  isExternal: true
+  name: RegisteredAssociateIdField
+  nameWithType: Sentry.RegisteredAssociateIdField
+  fullName: SuperOffice.CRM.Security.Sentry.RegisteredAssociateIdField
+- uid: SuperOffice.CRM.Security.Sentry.RowId*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.RowId
+  isExternal: true
+  name: RowId
+  nameWithType: Sentry.RowId
+  fullName: SuperOffice.CRM.Security.Sentry.RowId
+- uid: SuperOffice.CRM.Security.Sentry.IsNew*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.IsNew
+  isExternal: true
+  name: IsNew
+  nameWithType: Sentry.IsNew
+  fullName: SuperOffice.CRM.Security.Sentry.IsNew
+- uid: SuperOffice.CRM.Security.Sentry.IsGhostRow*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.IsGhostRow
+  isExternal: true
+  name: IsGhostRow
+  nameWithType: Sentry.IsGhostRow
+  fullName: SuperOffice.CRM.Security.Sentry.IsGhostRow
+- uid: SuperOffice.CRM.Security.Sentry.MainTable*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.MainTable
+  isExternal: true
+  name: MainTable
+  nameWithType: Sentry.MainTable
+  fullName: SuperOffice.CRM.Security.Sentry.MainTable
+- uid: SuperOffice.CRM.Security.Sentry.SentryQueryInfo*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.SentryQueryInfo
+  isExternal: true
+  name: SentryQueryInfo
+  nameWithType: Sentry.SentryQueryInfo
+  fullName: SuperOffice.CRM.Security.Sentry.SentryQueryInfo
+- uid: SuperOffice.CRM.Security.Sentry.Registered*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: Sentry.Registered
+  fullName: SuperOffice.CRM.Security.Sentry.Registered
+- uid: SuperOffice.CRM.Security.Sentry.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.RegisteredAssociateId
+  isExternal: true
+  name: RegisteredAssociateId
+  nameWithType: Sentry.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Security.Sentry.RegisteredAssociateId
+- uid: SuperOffice.CRM.Security.Sentry.AssociateId*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: Sentry.AssociateId
+  fullName: SuperOffice.CRM.Security.Sentry.AssociateId
+- uid: SuperOffice.CRM.Security.Sentry.GroupId*
+  commentId: Overload:SuperOffice.CRM.Security.Sentry.GroupId
+  isExternal: true
+  name: GroupId
+  nameWithType: Sentry.GroupId
+  fullName: SuperOffice.CRM.Security.Sentry.GroupId

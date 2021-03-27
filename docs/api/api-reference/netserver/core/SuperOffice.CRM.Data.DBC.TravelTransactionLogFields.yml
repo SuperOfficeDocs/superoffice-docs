@@ -1,0 +1,617 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TravelTransactionLogFields
+  id: DBC.TravelTransactionLogFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.ApplicationId
+  - SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.AssociateId
+  - SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.Flags
+  - SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.PrevRecordId
+  - SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.RecordId
+  - SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.Tablenumber
+  - SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.TraveltransactionlogId
+  - SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.Ttime
+  - SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.Type
+  langs:
+  - csharp
+  - vb
+  name: DBC.TravelTransactionLogFields
+  nameWithType: DBC.TravelTransactionLogFields
+  fullName: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for TravelTransactionLog, Log of all updates made to the database, that need to be replicated.\n"
+  syntax:
+    content: public static class TravelTransactionLogFields
+    content.vb: Public Module TravelTransactionLogFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.TraveltransactionlogId
+  commentId: F:SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.TraveltransactionlogId
+  id: TraveltransactionlogId
+  parent: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields
+  langs:
+  - csharp
+  - vb
+  name: TraveltransactionlogId
+  nameWithType: DBC.TravelTransactionLogFields.TraveltransactionlogId
+  fullName: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.TraveltransactionlogId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTravelTransactionLog.TraveltransactionlogId: Primary key\n"
+  syntax:
+    content: public const string TraveltransactionlogId = "traveltransactionlog_id"
+    return:
+      type: System.String
+    content.vb: Public Const TraveltransactionlogId As String = "traveltransactionlog_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.Ttime
+  commentId: F:SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.Ttime
+  id: Ttime
+  parent: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields
+  langs:
+  - csharp
+  - vb
+  name: Ttime
+  nameWithType: DBC.TravelTransactionLogFields.Ttime
+  fullName: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.Ttime
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTravelTransactionLog.Ttime: Time/datestamp of event\n"
+  syntax:
+    content: public const string Ttime = "ttime"
+    return:
+      type: System.String
+    content.vb: Public Const Ttime As String = "ttime"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.PrevRecordId
+  commentId: F:SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.PrevRecordId
+  id: PrevRecordId
+  parent: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields
+  langs:
+  - csharp
+  - vb
+  name: PrevRecordId
+  nameWithType: DBC.TravelTransactionLogFields.PrevRecordId
+  fullName: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.PrevRecordId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTravelTransactionLog.PrevRecordId: Additional information\n"
+  syntax:
+    content: public const string PrevRecordId = "prev_record_id"
+    return:
+      type: System.String
+    content.vb: Public Const PrevRecordId As String = "prev_record_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.Type
+  commentId: F:SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.Type
+  id: Type
+  parent: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: DBC.TravelTransactionLogFields.Type
+  fullName: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.Type
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTravelTransactionLog.Type: Type of event\n"
+  syntax:
+    content: public const string Type = "type"
+    return:
+      type: System.String
+    content.vb: Public Const Type As String = "type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.AssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: DBC.TravelTransactionLogFields.AssociateId
+  fullName: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.AssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTravelTransactionLog.AssociateId: Who did it\n"
+  syntax:
+    content: public const string AssociateId = "associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const AssociateId As String = "associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.Tablenumber
+  commentId: F:SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.Tablenumber
+  id: Tablenumber
+  parent: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields
+  langs:
+  - csharp
+  - vb
+  name: Tablenumber
+  nameWithType: DBC.TravelTransactionLogFields.Tablenumber
+  fullName: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.Tablenumber
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTravelTransactionLog.Tablenumber: Table that was updated\n"
+  syntax:
+    content: public const string Tablenumber = "tablenumber"
+    return:
+      type: System.String
+    content.vb: Public Const Tablenumber As String = "tablenumber"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.RecordId
+  commentId: F:SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.RecordId
+  id: RecordId
+  parent: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields
+  langs:
+  - csharp
+  - vb
+  name: RecordId
+  nameWithType: DBC.TravelTransactionLogFields.RecordId
+  fullName: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.RecordId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTravelTransactionLog.RecordId: Record that was updated\n"
+  syntax:
+    content: public const string RecordId = "record_id"
+    return:
+      type: System.String
+    content.vb: Public Const RecordId As String = "record_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.Flags
+  commentId: F:SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.Flags
+  id: Flags
+  parent: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: DBC.TravelTransactionLogFields.Flags
+  fullName: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.Flags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTravelTransactionLog.Flags: Extra information about the operation, as a bit-masked field\n"
+  syntax:
+    content: public const string Flags = "flags"
+    return:
+      type: System.String
+    content.vb: Public Const Flags As String = "flags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.ApplicationId
+  commentId: F:SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.ApplicationId
+  id: ApplicationId
+  parent: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields
+  langs:
+  - csharp
+  - vb
+  name: ApplicationId
+  nameWithType: DBC.TravelTransactionLogFields.ApplicationId
+  fullName: SuperOffice.CRM.Data.DBC.TravelTransactionLogFields.ApplicationId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTravelTransactionLog.ApplicationId: ID of the application/client/owner of the context in which this record was written. This is primarily an Online feature, but the value int.MaxValue denotes the Win client\n"
+  syntax:
+    content: public const string ApplicationId = "application_id"
+    return:
+      type: System.String
+    content.vb: Public Const ApplicationId As String = "application_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

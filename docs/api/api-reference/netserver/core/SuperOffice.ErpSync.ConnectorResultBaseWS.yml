@@ -1,0 +1,986 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync.ConnectorResultBaseWS
+  commentId: T:SuperOffice.ErpSync.ConnectorResultBaseWS
+  id: ConnectorResultBaseWS
+  parent: SuperOffice.ErpSync
+  children:
+  - SuperOffice.ErpSync.ConnectorResultBaseWS.#ctor
+  - SuperOffice.ErpSync.ConnectorResultBaseWS.ErrorCode
+  - SuperOffice.ErpSync.ConnectorResultBaseWS.IsOk
+  - SuperOffice.ErpSync.ConnectorResultBaseWS.Merge(SuperOffice.ErpSync.ConnectorResultBaseWS)
+  - SuperOffice.ErpSync.ConnectorResultBaseWS.State
+  - SuperOffice.ErpSync.ConnectorResultBaseWS.TechExplanation
+  - SuperOffice.ErpSync.ConnectorResultBaseWS.UserExplanation
+  langs:
+  - csharp
+  - vb
+  name: ConnectorResultBaseWS
+  nameWithType: ConnectorResultBaseWS
+  fullName: SuperOffice.ErpSync.ConnectorResultBaseWS
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nResponse object used by plugin/connector actions, to tell the caller how well the call went.\n"
+  syntax:
+    content: public class ConnectorResultBaseWS
+    content.vb: Public Class ConnectorResultBaseWS
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.ErpSync.ActorArrayPluginResponseWS
+  - SuperOffice.ErpSync.ActorPluginResponseWS
+  - SuperOffice.ErpSync.FieldMetadataInfoArrayPluginResponseWS
+  - SuperOffice.ErpSync.ListItemArrayPluginResponseWS
+  - SuperOffice.ErpSync.StringArrayPluginResponseWS
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.ErpSync.ConnectorResultBaseWS.EnumUtil.MapEnums``2
+  - SuperOffice.ErpSync.ConnectorResultBaseWS.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ErpSync.ConnectorResultBaseWS)
+  - SuperOffice.ErpSync.ConnectorResultBaseWS.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.ErpSync.ConnectorResultBaseWS.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.ErpSync.ConnectorResultBaseWS.#ctor
+  commentId: M:SuperOffice.ErpSync.ConnectorResultBaseWS.#ctor
+  id: '#ctor'
+  parent: SuperOffice.ErpSync.ConnectorResultBaseWS
+  langs:
+  - csharp
+  - vb
+  name: ConnectorResultBaseWS()
+  nameWithType: ConnectorResultBaseWS.ConnectorResultBaseWS()
+  fullName: SuperOffice.ErpSync.ConnectorResultBaseWS.ConnectorResultBaseWS()
+  type: Constructor
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nDefault constructor, creates an Ok response\n"
+  syntax:
+    content: public ConnectorResultBaseWS()
+    content.vb: Public Sub New
+  overload: SuperOffice.ErpSync.ConnectorResultBaseWS.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.ErpSync.ConnectorResultBaseWS.Merge(SuperOffice.ErpSync.ConnectorResultBaseWS)
+  commentId: M:SuperOffice.ErpSync.ConnectorResultBaseWS.Merge(SuperOffice.ErpSync.ConnectorResultBaseWS)
+  id: Merge(SuperOffice.ErpSync.ConnectorResultBaseWS)
+  parent: SuperOffice.ErpSync.ConnectorResultBaseWS
+  langs:
+  - csharp
+  - vb
+  name: Merge(ConnectorResultBaseWS)
+  nameWithType: ConnectorResultBaseWS.Merge(ConnectorResultBaseWS)
+  fullName: SuperOffice.ErpSync.ConnectorResultBaseWS.Merge(SuperOffice.ErpSync.ConnectorResultBaseWS)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nConcatenates two response object into one. If one is ok and the other not, then the &apos;not&apos; wins.\nThe text is conactenated with lineends.\n"
+  syntax:
+    content: public ConnectorResultBaseWS Merge(ConnectorResultBaseWS rhs)
+    parameters:
+    - id: rhs
+      type: SuperOffice.ErpSync.ConnectorResultBaseWS
+      description: The object to merge into this.
+    return:
+      type: SuperOffice.ErpSync.ConnectorResultBaseWS
+    content.vb: Public Function Merge(rhs As ConnectorResultBaseWS) As ConnectorResultBaseWS
+  overload: SuperOffice.ErpSync.ConnectorResultBaseWS.Merge*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.ErpSync.ConnectorResultBaseWS.State
+  commentId: P:SuperOffice.ErpSync.ConnectorResultBaseWS.State
+  id: State
+  parent: SuperOffice.ErpSync.ConnectorResultBaseWS
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: ConnectorResultBaseWS.State
+  fullName: SuperOffice.ErpSync.ConnectorResultBaseWS.State
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nFull response state\n"
+  syntax:
+    content: public ResponseStateWS State { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.ErpSync.ResponseStateWS
+    content.vb: Public Property State As ResponseStateWS
+  overload: SuperOffice.ErpSync.ConnectorResultBaseWS.State*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.ErpSync.ConnectorResultBaseWS.IsOk
+  commentId: P:SuperOffice.ErpSync.ConnectorResultBaseWS.IsOk
+  id: IsOk
+  parent: SuperOffice.ErpSync.ConnectorResultBaseWS
+  langs:
+  - csharp
+  - vb
+  name: IsOk
+  nameWithType: ConnectorResultBaseWS.IsOk
+  fullName: SuperOffice.ErpSync.ConnectorResultBaseWS.IsOk
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nA bool simplification of the response state\n"
+  syntax:
+    content: public bool IsOk { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsOk As Boolean
+  overload: SuperOffice.ErpSync.ConnectorResultBaseWS.IsOk*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.ErpSync.ConnectorResultBaseWS.UserExplanation
+  commentId: P:SuperOffice.ErpSync.ConnectorResultBaseWS.UserExplanation
+  id: UserExplanation
+  parent: SuperOffice.ErpSync.ConnectorResultBaseWS
+  langs:
+  - csharp
+  - vb
+  name: UserExplanation
+  nameWithType: ConnectorResultBaseWS.UserExplanation
+  fullName: SuperOffice.ErpSync.ConnectorResultBaseWS.UserExplanation
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nA localized explanation to the answer.\n"
+  syntax:
+    content: public string UserExplanation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserExplanation As String
+  overload: SuperOffice.ErpSync.ConnectorResultBaseWS.UserExplanation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.ErpSync.ConnectorResultBaseWS.TechExplanation
+  commentId: P:SuperOffice.ErpSync.ConnectorResultBaseWS.TechExplanation
+  id: TechExplanation
+  parent: SuperOffice.ErpSync.ConnectorResultBaseWS
+  langs:
+  - csharp
+  - vb
+  name: TechExplanation
+  nameWithType: ConnectorResultBaseWS.TechExplanation
+  fullName: SuperOffice.ErpSync.ConnectorResultBaseWS.TechExplanation
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nAlways in English\n"
+  syntax:
+    content: public string TechExplanation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TechExplanation As String
+  overload: SuperOffice.ErpSync.ConnectorResultBaseWS.TechExplanation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.ErpSync.ConnectorResultBaseWS.ErrorCode
+  commentId: P:SuperOffice.ErpSync.ConnectorResultBaseWS.ErrorCode
+  id: ErrorCode
+  parent: SuperOffice.ErpSync.ConnectorResultBaseWS
+  langs:
+  - csharp
+  - vb
+  name: ErrorCode
+  nameWithType: ConnectorResultBaseWS.ErrorCode
+  fullName: SuperOffice.ErpSync.ConnectorResultBaseWS.ErrorCode
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nAn error code, if available.\n"
+  syntax:
+    content: public string ErrorCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ErrorCode As String
+  overload: SuperOffice.ErpSync.ConnectorResultBaseWS.ErrorCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.ErpSync
+  commentId: N:SuperOffice.ErpSync
+  isExternal: true
+  name: SuperOffice.ErpSync
+  nameWithType: SuperOffice.ErpSync
+  fullName: SuperOffice.ErpSync
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorResultBaseWS.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ConnectorResultBaseWS, To>()
+  nameWithType: EnumUtil.MapEnums<ConnectorResultBaseWS, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.ConnectorResultBaseWS, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ConnectorResultBaseWS, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.ErpSync.ConnectorResultBaseWS, To)()
+  name.vb: MapEnums(Of ConnectorResultBaseWS, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ConnectorResultBaseWS, To>
+    nameWithType: EnumUtil.MapEnums<ConnectorResultBaseWS, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.ConnectorResultBaseWS, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ConnectorResultBaseWS, To)
+    nameWithType: EnumUtil.MapEnums(Of ConnectorResultBaseWS, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.ErpSync.ConnectorResultBaseWS, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorResultBaseWS.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ErpSync.ConnectorResultBaseWS)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ConnectorResultBaseWS>(ConnectorResultBaseWS)
+  nameWithType: ObjectExtensions.AssignByReflection<ConnectorResultBaseWS>(ConnectorResultBaseWS)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.ErpSync.ConnectorResultBaseWS>(SuperOffice.ErpSync.ConnectorResultBaseWS)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ConnectorResultBaseWS)(ConnectorResultBaseWS)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.ErpSync.ConnectorResultBaseWS)(SuperOffice.ErpSync.ConnectorResultBaseWS)
+  name.vb: AssignByReflection(Of ConnectorResultBaseWS)(ConnectorResultBaseWS)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ConnectorResultBaseWS>
+    nameWithType: ObjectExtensions.AssignByReflection<ConnectorResultBaseWS>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.ErpSync.ConnectorResultBaseWS>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.ErpSync.ConnectorResultBaseWS
+    name: ConnectorResultBaseWS
+    nameWithType: ConnectorResultBaseWS
+    fullName: SuperOffice.ErpSync.ConnectorResultBaseWS
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ConnectorResultBaseWS)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ConnectorResultBaseWS)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.ErpSync.ConnectorResultBaseWS)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.ErpSync.ConnectorResultBaseWS
+    name: ConnectorResultBaseWS
+    nameWithType: ConnectorResultBaseWS
+    fullName: SuperOffice.ErpSync.ConnectorResultBaseWS
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorResultBaseWS.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ConnectorResultBaseWS>()
+  nameWithType: ObjectExtensions.GraphCopy<ConnectorResultBaseWS>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.ErpSync.ConnectorResultBaseWS>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ConnectorResultBaseWS)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.ErpSync.ConnectorResultBaseWS)()
+  name.vb: GraphCopy(Of ConnectorResultBaseWS)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ConnectorResultBaseWS>
+    nameWithType: ObjectExtensions.GraphCopy<ConnectorResultBaseWS>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.ErpSync.ConnectorResultBaseWS>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ConnectorResultBaseWS)
+    nameWithType: ObjectExtensions.GraphCopy(Of ConnectorResultBaseWS)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.ErpSync.ConnectorResultBaseWS)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorResultBaseWS.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ConnectorResultBaseWS, To>()
+  nameWithType: Converters.MapEnums<ConnectorResultBaseWS, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.ConnectorResultBaseWS, To>()
+  nameWithType.vb: Converters.MapEnums(Of ConnectorResultBaseWS, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.ConnectorResultBaseWS, To)()
+  name.vb: MapEnums(Of ConnectorResultBaseWS, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ConnectorResultBaseWS, To>
+    nameWithType: Converters.MapEnums<ConnectorResultBaseWS, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.ConnectorResultBaseWS, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ConnectorResultBaseWS, To)
+    nameWithType: Converters.MapEnums(Of ConnectorResultBaseWS, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.ConnectorResultBaseWS, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.ErpSync.ConnectorResultBaseWS.#ctor*
+  commentId: Overload:SuperOffice.ErpSync.ConnectorResultBaseWS.#ctor
+  isExternal: true
+  name: ConnectorResultBaseWS
+  nameWithType: ConnectorResultBaseWS.ConnectorResultBaseWS
+  fullName: SuperOffice.ErpSync.ConnectorResultBaseWS.ConnectorResultBaseWS
+- uid: SuperOffice.ErpSync.ConnectorResultBaseWS.Merge*
+  commentId: Overload:SuperOffice.ErpSync.ConnectorResultBaseWS.Merge
+  isExternal: true
+  name: Merge
+  nameWithType: ConnectorResultBaseWS.Merge
+  fullName: SuperOffice.ErpSync.ConnectorResultBaseWS.Merge
+- uid: SuperOffice.ErpSync.ConnectorResultBaseWS
+  commentId: T:SuperOffice.ErpSync.ConnectorResultBaseWS
+  parent: SuperOffice.ErpSync
+  isExternal: true
+  name: ConnectorResultBaseWS
+  nameWithType: ConnectorResultBaseWS
+  fullName: SuperOffice.ErpSync.ConnectorResultBaseWS
+- uid: SuperOffice.ErpSync.ConnectorResultBaseWS.State*
+  commentId: Overload:SuperOffice.ErpSync.ConnectorResultBaseWS.State
+  isExternal: true
+  name: State
+  nameWithType: ConnectorResultBaseWS.State
+  fullName: SuperOffice.ErpSync.ConnectorResultBaseWS.State
+- uid: SuperOffice.ErpSync.ResponseStateWS
+  commentId: T:SuperOffice.ErpSync.ResponseStateWS
+  parent: SuperOffice.ErpSync
+  isExternal: true
+  name: ResponseStateWS
+  nameWithType: ResponseStateWS
+  fullName: SuperOffice.ErpSync.ResponseStateWS
+- uid: SuperOffice.ErpSync.ConnectorResultBaseWS.IsOk*
+  commentId: Overload:SuperOffice.ErpSync.ConnectorResultBaseWS.IsOk
+  isExternal: true
+  name: IsOk
+  nameWithType: ConnectorResultBaseWS.IsOk
+  fullName: SuperOffice.ErpSync.ConnectorResultBaseWS.IsOk
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.ErpSync.ConnectorResultBaseWS.UserExplanation*
+  commentId: Overload:SuperOffice.ErpSync.ConnectorResultBaseWS.UserExplanation
+  isExternal: true
+  name: UserExplanation
+  nameWithType: ConnectorResultBaseWS.UserExplanation
+  fullName: SuperOffice.ErpSync.ConnectorResultBaseWS.UserExplanation
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.ErpSync.ConnectorResultBaseWS.TechExplanation*
+  commentId: Overload:SuperOffice.ErpSync.ConnectorResultBaseWS.TechExplanation
+  isExternal: true
+  name: TechExplanation
+  nameWithType: ConnectorResultBaseWS.TechExplanation
+  fullName: SuperOffice.ErpSync.ConnectorResultBaseWS.TechExplanation
+- uid: SuperOffice.ErpSync.ConnectorResultBaseWS.ErrorCode*
+  commentId: Overload:SuperOffice.ErpSync.ConnectorResultBaseWS.ErrorCode
+  isExternal: true
+  name: ErrorCode
+  nameWithType: ConnectorResultBaseWS.ErrorCode
+  fullName: SuperOffice.ErpSync.ConnectorResultBaseWS.ErrorCode

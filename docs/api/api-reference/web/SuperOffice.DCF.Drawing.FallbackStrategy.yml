@@ -1,0 +1,218 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Drawing.FallbackStrategy
+  commentId: T:SuperOffice.DCF.Drawing.FallbackStrategy
+  id: FallbackStrategy
+  parent: SuperOffice.DCF.Drawing
+  children:
+  - SuperOffice.DCF.Drawing.FallbackStrategy.ClearPixel
+  - SuperOffice.DCF.Drawing.FallbackStrategy.Default
+  - SuperOffice.DCF.Drawing.FallbackStrategy.GenericFileIcon
+  - SuperOffice.DCF.Drawing.FallbackStrategy.Null
+  - SuperOffice.DCF.Drawing.FallbackStrategy.SrNoPhoto
+  - SuperOffice.DCF.Drawing.FallbackStrategy.SrNoPhotoWithBorder
+  langs:
+  - csharp
+  - vb
+  name: FallbackStrategy
+  nameWithType: FallbackStrategy
+  fullName: SuperOffice.DCF.Drawing.FallbackStrategy
+  type: Enum
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nStrategy to be used if there an no available picture for the entity.\n"
+  syntax:
+    content: public enum FallbackStrategy
+    content.vb: Public Enum FallbackStrategy
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.DCF.Drawing.FallbackStrategy.Default
+  commentId: F:SuperOffice.DCF.Drawing.FallbackStrategy.Default
+  id: Default
+  parent: SuperOffice.DCF.Drawing.FallbackStrategy
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: FallbackStrategy.Default
+  fullName: SuperOffice.DCF.Drawing.FallbackStrategy.Default
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nReturn a default / anonymous image.\n"
+  syntax:
+    content: Default = 0
+    return:
+      type: SuperOffice.DCF.Drawing.FallbackStrategy
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Drawing.FallbackStrategy.ClearPixel
+  commentId: F:SuperOffice.DCF.Drawing.FallbackStrategy.ClearPixel
+  id: ClearPixel
+  parent: SuperOffice.DCF.Drawing.FallbackStrategy
+  langs:
+  - csharp
+  - vb
+  name: ClearPixel
+  nameWithType: FallbackStrategy.ClearPixel
+  fullName: SuperOffice.DCF.Drawing.FallbackStrategy.ClearPixel
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nReturn a transparent GIF.\n"
+  syntax:
+    content: ClearPixel = 1
+    return:
+      type: SuperOffice.DCF.Drawing.FallbackStrategy
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Drawing.FallbackStrategy.SrNoPhoto
+  commentId: F:SuperOffice.DCF.Drawing.FallbackStrategy.SrNoPhoto
+  id: SrNoPhoto
+  parent: SuperOffice.DCF.Drawing.FallbackStrategy
+  langs:
+  - csharp
+  - vb
+  name: SrNoPhoto
+  nameWithType: FallbackStrategy.SrNoPhoto
+  fullName: SuperOffice.DCF.Drawing.FallbackStrategy.SrNoPhoto
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nReturn an image containing the string resolved by SR_NO_PHOTO\n"
+  syntax:
+    content: SrNoPhoto = 2
+    return:
+      type: SuperOffice.DCF.Drawing.FallbackStrategy
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Drawing.FallbackStrategy.SrNoPhotoWithBorder
+  commentId: F:SuperOffice.DCF.Drawing.FallbackStrategy.SrNoPhotoWithBorder
+  id: SrNoPhotoWithBorder
+  parent: SuperOffice.DCF.Drawing.FallbackStrategy
+  langs:
+  - csharp
+  - vb
+  name: SrNoPhotoWithBorder
+  nameWithType: FallbackStrategy.SrNoPhotoWithBorder
+  fullName: SuperOffice.DCF.Drawing.FallbackStrategy.SrNoPhotoWithBorder
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nsame as <xref href=\"SuperOffice.DCF.Drawing.FallbackStrategy.SrNoPhoto\" data-throw-if-not-resolved=\"false\"></xref> with an additional border around the image.\n"
+  syntax:
+    content: SrNoPhotoWithBorder = 3
+    return:
+      type: SuperOffice.DCF.Drawing.FallbackStrategy
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Drawing.FallbackStrategy.Null
+  commentId: F:SuperOffice.DCF.Drawing.FallbackStrategy.Null
+  id: "Null"
+  parent: SuperOffice.DCF.Drawing.FallbackStrategy
+  langs:
+  - csharp
+  - vb
+  name: "Null"
+  nameWithType: FallbackStrategy.Null
+  fullName: SuperOffice.DCF.Drawing.FallbackStrategy.Null
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nReturn a NULL Value\n"
+  syntax:
+    content: Null = 4
+    return:
+      type: SuperOffice.DCF.Drawing.FallbackStrategy
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Drawing.FallbackStrategy.GenericFileIcon
+  commentId: F:SuperOffice.DCF.Drawing.FallbackStrategy.GenericFileIcon
+  id: GenericFileIcon
+  parent: SuperOffice.DCF.Drawing.FallbackStrategy
+  langs:
+  - csharp
+  - vb
+  name: GenericFileIcon
+  nameWithType: FallbackStrategy.GenericFileIcon
+  fullName: SuperOffice.DCF.Drawing.FallbackStrategy.GenericFileIcon
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nReturns the generic file icon\n"
+  syntax:
+    content: GenericFileIcon = 5
+    return:
+      type: SuperOffice.DCF.Drawing.FallbackStrategy
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.DCF.Drawing
+  commentId: N:SuperOffice.DCF.Drawing
+  isExternal: true
+  name: SuperOffice.DCF.Drawing
+  nameWithType: SuperOffice.DCF.Drawing
+  fullName: SuperOffice.DCF.Drawing
+- uid: SuperOffice.DCF.Drawing.FallbackStrategy
+  commentId: T:SuperOffice.DCF.Drawing.FallbackStrategy
+  parent: SuperOffice.DCF.Drawing
+  isExternal: true
+  name: FallbackStrategy
+  nameWithType: FallbackStrategy
+  fullName: SuperOffice.DCF.Drawing.FallbackStrategy

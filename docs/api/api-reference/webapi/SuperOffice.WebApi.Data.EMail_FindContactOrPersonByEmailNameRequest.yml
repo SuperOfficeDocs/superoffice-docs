@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest
+  id: EMail_FindContactOrPersonByEmailNameRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest.EmailAddress
+  - SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest.Name
+  langs:
+  - csharp
+  - vb
+  name: EMail_FindContactOrPersonByEmailNameRequest
+  nameWithType: EMail_FindContactOrPersonByEmailNameRequest
+  fullName: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_FindContactOrPersonByEmailNameRequest : Object'
+    content.vb: >-
+      Public Class EMail_FindContactOrPersonByEmailNameRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_FindContactOrPersonByEmailNameRequest()
+  nameWithType: EMail_FindContactOrPersonByEmailNameRequest.EMail_FindContactOrPersonByEmailNameRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest.EMail_FindContactOrPersonByEmailNameRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_FindContactOrPersonByEmailNameRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest.Name
+  commentId: P:SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: EMail_FindContactOrPersonByEmailNameRequest.Name
+  fullName: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest.EmailAddress
+  commentId: P:SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest.EmailAddress
+  id: EmailAddress
+  parent: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: EMail_FindContactOrPersonByEmailNameRequest.EmailAddress
+  fullName: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest.EmailAddress
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string EmailAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EmailAddress As String
+  overload: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest.EmailAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest.#ctor
+  isExternal: true
+  name: EMail_FindContactOrPersonByEmailNameRequest
+  nameWithType: EMail_FindContactOrPersonByEmailNameRequest.EMail_FindContactOrPersonByEmailNameRequest
+  fullName: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest.EMail_FindContactOrPersonByEmailNameRequest
+- uid: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest.Name
+  isExternal: true
+  name: Name
+  nameWithType: EMail_FindContactOrPersonByEmailNameRequest.Name
+  fullName: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest.EmailAddress*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest.EmailAddress
+  isExternal: true
+  name: EmailAddress
+  nameWithType: EMail_FindContactOrPersonByEmailNameRequest.EmailAddress
+  fullName: SuperOffice.WebApi.Data.EMail_FindContactOrPersonByEmailNameRequest.EmailAddress

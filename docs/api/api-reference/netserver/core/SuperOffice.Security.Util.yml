@@ -1,0 +1,74 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Util
+  commentId: N:SuperOffice.Security.Util
+  id: SuperOffice.Security.Util
+  children:
+  - SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
+  - SuperOffice.Security.Util.DocumentArchiveUser
+  - SuperOffice.Security.Util.FileImpersonationContext
+  - SuperOffice.Security.Util.WindowsIdentityHelper
+  - SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
+  - SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
+  - SuperOffice.Security.Util.WindowsIdentityHelper.WindowsIdentityHelperException
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Security.Util
+  nameWithType: SuperOffice.Security.Util
+  fullName: SuperOffice.Security.Util
+  type: Namespace
+  assemblies:
+  - SOCore
+references:
+- uid: SuperOffice.Security.Util.DocumentArchiveUser
+  commentId: T:SuperOffice.Security.Util.DocumentArchiveUser
+  isExternal: true
+  name: DocumentArchiveUser
+  nameWithType: DocumentArchiveUser
+  fullName: SuperOffice.Security.Util.DocumentArchiveUser
+- uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
+  commentId: T:SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
+  isExternal: true
+  name: DocumentArchiveFileImpersonationContext
+  nameWithType: DocumentArchiveFileImpersonationContext
+  fullName: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
+- uid: SuperOffice.Security.Util.FileImpersonationContext
+  commentId: T:SuperOffice.Security.Util.FileImpersonationContext
+  parent: SuperOffice.Security.Util
+  isExternal: true
+  name: FileImpersonationContext
+  nameWithType: FileImpersonationContext
+  fullName: SuperOffice.Security.Util.FileImpersonationContext
+- uid: SuperOffice.Security.Util.WindowsIdentityHelper
+  commentId: T:SuperOffice.Security.Util.WindowsIdentityHelper
+  isExternal: true
+  name: WindowsIdentityHelper
+  nameWithType: WindowsIdentityHelper
+  fullName: SuperOffice.Security.Util.WindowsIdentityHelper
+- uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
+  commentId: T:SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
+  parent: SuperOffice.Security.Util
+  isExternal: true
+  name: WindowsIdentityHelper.LogonType
+  nameWithType: WindowsIdentityHelper.LogonType
+  fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonType
+- uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
+  commentId: T:SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
+  parent: SuperOffice.Security.Util
+  isExternal: true
+  name: WindowsIdentityHelper.LogonProvider
+  nameWithType: WindowsIdentityHelper.LogonProvider
+  fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
+- uid: SuperOffice.Security.Util.WindowsIdentityHelper.WindowsIdentityHelperException
+  commentId: T:SuperOffice.Security.Util.WindowsIdentityHelper.WindowsIdentityHelperException
+  isExternal: true
+  name: WindowsIdentityHelper.WindowsIdentityHelperException
+  nameWithType: WindowsIdentityHelper.WindowsIdentityHelperException
+  fullName: SuperOffice.Security.Util.WindowsIdentityHelper.WindowsIdentityHelperException
+- uid: SuperOffice.Security.Util
+  commentId: N:SuperOffice.Security.Util
+  isExternal: true
+  name: SuperOffice.Security.Util
+  nameWithType: SuperOffice.Security.Util
+  fullName: SuperOffice.Security.Util

@@ -1,0 +1,311 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController
+  commentId: T:SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController
+  id: SessionRequiredMethodsController
+  parent: SuperOffice.DCF.Web.Controllers
+  children:
+  - SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController.#ctor
+  - SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController.GetMethods
+  - SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController.method(System.Object)
+  langs:
+  - csharp
+  - vb
+  name: SessionRequiredMethodsController
+  nameWithType: SessionRequiredMethodsController
+  fullName: SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Controllers
+  syntax:
+    content: >-
+      [EnableJsonTypeAnnotations]
+
+      public class SessionRequiredMethodsController : MethodControllerBase
+    content.vb: >-
+      <EnableJsonTypeAnnotations>
+
+      Public Class SessionRequiredMethodsController
+          Inherits MethodControllerBase
+  inheritance:
+  - System.Object
+  - SuperOffice.Web.Controllers.MethodControllerBase
+  inheritedMembers:
+  - SuperOffice.Web.Controllers.MethodControllerBase._method(System.Object)
+  attributes:
+  - type: SuperOffice.Web.WebApi.EnableJsonTypeAnnotationsAttribute
+    ctor: SuperOffice.Web.WebApi.EnableJsonTypeAnnotationsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController.method(System.Object)
+  commentId: M:SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController.method(System.Object)
+  id: method(System.Object)
+  parent: SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController
+  langs:
+  - csharp
+  - vb
+  name: method(Object)
+  nameWithType: SessionRequiredMethodsController.method(Object)
+  fullName: SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController.method(System.Object)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Controllers
+  syntax:
+    content: public object method(object data)
+    parameters:
+    - id: data
+      type: System.Object
+    return:
+      type: System.Object
+    content.vb: Public Function method(data As Object) As Object
+  overload: SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController.method*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController.GetMethods
+  commentId: M:SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController.GetMethods
+  id: GetMethods
+  parent: SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController
+  langs:
+  - csharp
+  - vb
+  name: GetMethods()
+  nameWithType: SessionRequiredMethodsController.GetMethods()
+  fullName: SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController.GetMethods()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Controllers
+  syntax:
+    content: public IEnumerable<object> GetMethods()
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Object}
+    content.vb: Public Function GetMethods As IEnumerable(Of Object)
+  overload: SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController.GetMethods*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController.#ctor
+  commentId: M:SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController
+  langs:
+  - csharp
+  - vb
+  name: SessionRequiredMethodsController()
+  nameWithType: SessionRequiredMethodsController.SessionRequiredMethodsController()
+  fullName: SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController.SessionRequiredMethodsController()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Controllers
+  syntax:
+    content: public SessionRequiredMethodsController()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.Controllers
+  commentId: N:SuperOffice.DCF.Web.Controllers
+  isExternal: true
+  name: SuperOffice.DCF.Web.Controllers
+  nameWithType: SuperOffice.DCF.Web.Controllers
+  fullName: SuperOffice.DCF.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Web.Controllers.MethodControllerBase
+  commentId: T:SuperOffice.Web.Controllers.MethodControllerBase
+  parent: SuperOffice.Web.Controllers
+  isExternal: true
+  name: MethodControllerBase
+  nameWithType: MethodControllerBase
+  fullName: SuperOffice.Web.Controllers.MethodControllerBase
+- uid: SuperOffice.Web.Controllers.MethodControllerBase._method(System.Object)
+  commentId: M:SuperOffice.Web.Controllers.MethodControllerBase._method(System.Object)
+  parent: SuperOffice.Web.Controllers.MethodControllerBase
+  isExternal: true
+  name: _method(Object)
+  nameWithType: MethodControllerBase._method(Object)
+  fullName: SuperOffice.Web.Controllers.MethodControllerBase._method(System.Object)
+  spec.csharp:
+  - uid: SuperOffice.Web.Controllers.MethodControllerBase._method(System.Object)
+    name: _method
+    nameWithType: MethodControllerBase._method
+    fullName: SuperOffice.Web.Controllers.MethodControllerBase._method
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Web.Controllers.MethodControllerBase._method(System.Object)
+    name: _method
+    nameWithType: MethodControllerBase._method
+    fullName: SuperOffice.Web.Controllers.MethodControllerBase._method
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.Controllers
+  commentId: N:SuperOffice.Web.Controllers
+  isExternal: true
+  name: SuperOffice.Web.Controllers
+  nameWithType: SuperOffice.Web.Controllers
+  fullName: SuperOffice.Web.Controllers
+- uid: SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController.method*
+  commentId: Overload:SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController.method
+  isExternal: true
+  name: method
+  nameWithType: SessionRequiredMethodsController.method
+  fullName: SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController.method
+- uid: SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController.GetMethods*
+  commentId: Overload:SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController.GetMethods
+  isExternal: true
+  name: GetMethods
+  nameWithType: SessionRequiredMethodsController.GetMethods
+  fullName: SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController.GetMethods
+- uid: System.Collections.Generic.IEnumerable{System.Object}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Object>
+  nameWithType: IEnumerable<Object>
+  fullName: System.Collections.Generic.IEnumerable<System.Object>
+  nameWithType.vb: IEnumerable(Of Object)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Object)
+  name.vb: IEnumerable(Of Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController.#ctor
+  isExternal: true
+  name: SessionRequiredMethodsController
+  nameWithType: SessionRequiredMethodsController.SessionRequiredMethodsController
+  fullName: SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController.SessionRequiredMethodsController

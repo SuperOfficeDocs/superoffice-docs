@@ -1,0 +1,587 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.SLinkCustomerFields
+  commentId: T:SuperOffice.CRM.Data.DBC.SLinkCustomerFields
+  id: DBC.SLinkCustomerFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.SLinkCustomerFields.CustomerId
+  - SuperOffice.CRM.Data.DBC.SLinkCustomerFields.HttpUserAgent
+  - SuperOffice.CRM.Data.DBC.SLinkCustomerFields.LinkId
+  - SuperOffice.CRM.Data.DBC.SLinkCustomerFields.LinkType
+  - SuperOffice.CRM.Data.DBC.SLinkCustomerFields.Page
+  - SuperOffice.CRM.Data.DBC.SLinkCustomerFields.Pressed
+  - SuperOffice.CRM.Data.DBC.SLinkCustomerFields.ShipmentId
+  - SuperOffice.CRM.Data.DBC.SLinkCustomerFields.SLinkCustomerId
+  langs:
+  - csharp
+  - vb
+  name: DBC.SLinkCustomerFields
+  nameWithType: DBC.SLinkCustomerFields
+  fullName: SuperOffice.CRM.Data.DBC.SLinkCustomerFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for SLinkCustomer, A connection between a customer and a link. Registered customers are identified when clicking on a link\n"
+  syntax:
+    content: public static class SLinkCustomerFields
+    content.vb: Public Module SLinkCustomerFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.SLinkCustomerFields.SLinkCustomerId
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkCustomerFields.SLinkCustomerId
+  id: SLinkCustomerId
+  parent: SuperOffice.CRM.Data.DBC.SLinkCustomerFields
+  langs:
+  - csharp
+  - vb
+  name: SLinkCustomerId
+  nameWithType: DBC.SLinkCustomerFields.SLinkCustomerId
+  fullName: SuperOffice.CRM.Data.DBC.SLinkCustomerFields.SLinkCustomerId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLinkCustomer.SLinkCustomerId: Primary key\n"
+  syntax:
+    content: public const string SLinkCustomerId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const SLinkCustomerId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkCustomerFields.CustomerId
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkCustomerFields.CustomerId
+  id: CustomerId
+  parent: SuperOffice.CRM.Data.DBC.SLinkCustomerFields
+  langs:
+  - csharp
+  - vb
+  name: CustomerId
+  nameWithType: DBC.SLinkCustomerFields.CustomerId
+  fullName: SuperOffice.CRM.Data.DBC.SLinkCustomerFields.CustomerId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLinkCustomer.CustomerId: Connection to a customer that clicked on a link\n"
+  syntax:
+    content: public const string CustomerId = "customer_id"
+    return:
+      type: System.String
+    content.vb: Public Const CustomerId As String = "customer_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkCustomerFields.LinkId
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkCustomerFields.LinkId
+  id: LinkId
+  parent: SuperOffice.CRM.Data.DBC.SLinkCustomerFields
+  langs:
+  - csharp
+  - vb
+  name: LinkId
+  nameWithType: DBC.SLinkCustomerFields.LinkId
+  fullName: SuperOffice.CRM.Data.DBC.SLinkCustomerFields.LinkId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLinkCustomer.LinkId: Connection to a link that the customer clicked on\n"
+  syntax:
+    content: public const string LinkId = "link_id"
+    return:
+      type: System.String
+    content.vb: Public Const LinkId As String = "link_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkCustomerFields.ShipmentId
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkCustomerFields.ShipmentId
+  id: ShipmentId
+  parent: SuperOffice.CRM.Data.DBC.SLinkCustomerFields
+  langs:
+  - csharp
+  - vb
+  name: ShipmentId
+  nameWithType: DBC.SLinkCustomerFields.ShipmentId
+  fullName: SuperOffice.CRM.Data.DBC.SLinkCustomerFields.ShipmentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLinkCustomer.ShipmentId: Which shipment the customer received.\n"
+  syntax:
+    content: public const string ShipmentId = "shipment_id"
+    return:
+      type: System.String
+    content.vb: Public Const ShipmentId As String = "shipment_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkCustomerFields.Pressed
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkCustomerFields.Pressed
+  id: Pressed
+  parent: SuperOffice.CRM.Data.DBC.SLinkCustomerFields
+  langs:
+  - csharp
+  - vb
+  name: Pressed
+  nameWithType: DBC.SLinkCustomerFields.Pressed
+  fullName: SuperOffice.CRM.Data.DBC.SLinkCustomerFields.Pressed
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLinkCustomer.Pressed: When the link was clicked.\n"
+  syntax:
+    content: public const string Pressed = "pressed"
+    return:
+      type: System.String
+    content.vb: Public Const Pressed As String = "pressed"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkCustomerFields.LinkType
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkCustomerFields.LinkType
+  id: LinkType
+  parent: SuperOffice.CRM.Data.DBC.SLinkCustomerFields
+  langs:
+  - csharp
+  - vb
+  name: LinkType
+  nameWithType: DBC.SLinkCustomerFields.LinkType
+  fullName: SuperOffice.CRM.Data.DBC.SLinkCustomerFields.LinkType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLinkCustomer.LinkType: If this is a link to a link or an image (gif/jpeg). See SpmLink::LinkType\n"
+  syntax:
+    content: public const string LinkType = "link_type"
+    return:
+      type: System.String
+    content.vb: Public Const LinkType As String = "link_type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkCustomerFields.Page
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkCustomerFields.Page
+  id: Page
+  parent: SuperOffice.CRM.Data.DBC.SLinkCustomerFields
+  langs:
+  - csharp
+  - vb
+  name: Page
+  nameWithType: DBC.SLinkCustomerFields.Page
+  fullName: SuperOffice.CRM.Data.DBC.SLinkCustomerFields.Page
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLinkCustomer.Page: Indicates the page number for this gif link\n"
+  syntax:
+    content: public const string Page = "page"
+    return:
+      type: System.String
+    content.vb: Public Const Page As String = "page"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SLinkCustomerFields.HttpUserAgent
+  commentId: F:SuperOffice.CRM.Data.DBC.SLinkCustomerFields.HttpUserAgent
+  id: HttpUserAgent
+  parent: SuperOffice.CRM.Data.DBC.SLinkCustomerFields
+  langs:
+  - csharp
+  - vb
+  name: HttpUserAgent
+  nameWithType: DBC.SLinkCustomerFields.HttpUserAgent
+  fullName: SuperOffice.CRM.Data.DBC.SLinkCustomerFields.HttpUserAgent
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSLinkCustomer.HttpUserAgent: The HTTP_USER_AGENT reported when the customer opened this link\n"
+  syntax:
+    content: public const string HttpUserAgent = "http_user_agent"
+    return:
+      type: System.String
+    content.vb: Public Const HttpUserAgent As String = "http_user_agent"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

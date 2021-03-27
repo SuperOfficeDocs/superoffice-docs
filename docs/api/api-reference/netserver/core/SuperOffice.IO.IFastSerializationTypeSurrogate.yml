@@ -1,0 +1,356 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.IO.IFastSerializationTypeSurrogate
+  commentId: T:SuperOffice.IO.IFastSerializationTypeSurrogate
+  id: IFastSerializationTypeSurrogate
+  parent: SuperOffice.IO
+  children:
+  - SuperOffice.IO.IFastSerializationTypeSurrogate.Deserialize(SuperOffice.IO.SerializationReader,System.Type)
+  - SuperOffice.IO.IFastSerializationTypeSurrogate.Serialize(SuperOffice.IO.SerializationWriter,System.Object)
+  - SuperOffice.IO.IFastSerializationTypeSurrogate.SupportsType(System.Type)
+  langs:
+  - csharp
+  - vb
+  name: IFastSerializationTypeSurrogate
+  nameWithType: IFastSerializationTypeSurrogate
+  fullName: SuperOffice.IO.IFastSerializationTypeSurrogate
+  type: Interface
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nInterface to allow helper classes to be used to serialize objects\nthat are not directly supported by SerializationWriter/SerializationReader\n"
+  syntax:
+    content: public interface IFastSerializationTypeSurrogate
+    content.vb: Public Interface IFastSerializationTypeSurrogate
+  extensionMethods:
+  - SuperOffice.IO.IFastSerializationTypeSurrogate.EnumUtil.MapEnums``2
+  - SuperOffice.IO.IFastSerializationTypeSurrogate.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.IO.IFastSerializationTypeSurrogate.SupportsType(System.Type)
+  commentId: M:SuperOffice.IO.IFastSerializationTypeSurrogate.SupportsType(System.Type)
+  id: SupportsType(System.Type)
+  parent: SuperOffice.IO.IFastSerializationTypeSurrogate
+  langs:
+  - csharp
+  - vb
+  name: SupportsType(Type)
+  nameWithType: IFastSerializationTypeSurrogate.SupportsType(Type)
+  fullName: SuperOffice.IO.IFastSerializationTypeSurrogate.SupportsType(System.Type)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nAllows a surrogate to be queried as to whether a particular type is supported\n"
+  syntax:
+    content: bool SupportsType(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: The type being queried
+    return:
+      type: System.Boolean
+      description: true if the type is supported; otherwise false
+    content.vb: Function SupportsType(type As Type) As Boolean
+  overload: SuperOffice.IO.IFastSerializationTypeSurrogate.SupportsType*
+- uid: SuperOffice.IO.IFastSerializationTypeSurrogate.Serialize(SuperOffice.IO.SerializationWriter,System.Object)
+  commentId: M:SuperOffice.IO.IFastSerializationTypeSurrogate.Serialize(SuperOffice.IO.SerializationWriter,System.Object)
+  id: Serialize(SuperOffice.IO.SerializationWriter,System.Object)
+  parent: SuperOffice.IO.IFastSerializationTypeSurrogate
+  langs:
+  - csharp
+  - vb
+  name: Serialize(SerializationWriter, Object)
+  nameWithType: IFastSerializationTypeSurrogate.Serialize(SerializationWriter, Object)
+  fullName: SuperOffice.IO.IFastSerializationTypeSurrogate.Serialize(SuperOffice.IO.SerializationWriter, System.Object)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nFastSerializes the object into the SerializationWriter.\n"
+  syntax:
+    content: void Serialize(SerializationWriter writer, object value)
+    parameters:
+    - id: writer
+      type: SuperOffice.IO.SerializationWriter
+      description: The SerializationWriter into which the object is to be serialized.
+    - id: value
+      type: System.Object
+      description: The object to serialize.
+    content.vb: Sub Serialize(writer As SerializationWriter, value As Object)
+  overload: SuperOffice.IO.IFastSerializationTypeSurrogate.Serialize*
+- uid: SuperOffice.IO.IFastSerializationTypeSurrogate.Deserialize(SuperOffice.IO.SerializationReader,System.Type)
+  commentId: M:SuperOffice.IO.IFastSerializationTypeSurrogate.Deserialize(SuperOffice.IO.SerializationReader,System.Type)
+  id: Deserialize(SuperOffice.IO.SerializationReader,System.Type)
+  parent: SuperOffice.IO.IFastSerializationTypeSurrogate
+  langs:
+  - csharp
+  - vb
+  name: Deserialize(SerializationReader, Type)
+  nameWithType: IFastSerializationTypeSurrogate.Deserialize(SerializationReader, Type)
+  fullName: SuperOffice.IO.IFastSerializationTypeSurrogate.Deserialize(SuperOffice.IO.SerializationReader, System.Type)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nDeserializes an object of the supplied type from the SerializationReader.\n"
+  syntax:
+    content: object Deserialize(SerializationReader reader, Type type)
+    parameters:
+    - id: reader
+      type: SuperOffice.IO.SerializationReader
+      description: The SerializationReader containing the serialized object.
+    - id: type
+      type: System.Type
+      description: The type of object required to be deserialized.
+    return:
+      type: System.Object
+    content.vb: Function Deserialize(reader As SerializationReader, type As Type) As Object
+  overload: SuperOffice.IO.IFastSerializationTypeSurrogate.Deserialize*
+references:
+- uid: SuperOffice.IO
+  commentId: N:SuperOffice.IO
+  isExternal: true
+  name: SuperOffice.IO
+  nameWithType: SuperOffice.IO
+  fullName: SuperOffice.IO
+- uid: SuperOffice.IO.IFastSerializationTypeSurrogate.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IFastSerializationTypeSurrogate, To>()
+  nameWithType: EnumUtil.MapEnums<IFastSerializationTypeSurrogate, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.IO.IFastSerializationTypeSurrogate, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IFastSerializationTypeSurrogate, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.IO.IFastSerializationTypeSurrogate, To)()
+  name.vb: MapEnums(Of IFastSerializationTypeSurrogate, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IFastSerializationTypeSurrogate, To>
+    nameWithType: EnumUtil.MapEnums<IFastSerializationTypeSurrogate, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.IO.IFastSerializationTypeSurrogate, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IFastSerializationTypeSurrogate, To)
+    nameWithType: EnumUtil.MapEnums(Of IFastSerializationTypeSurrogate, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.IO.IFastSerializationTypeSurrogate, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.IFastSerializationTypeSurrogate.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IFastSerializationTypeSurrogate, To>()
+  nameWithType: Converters.MapEnums<IFastSerializationTypeSurrogate, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.IFastSerializationTypeSurrogate, To>()
+  nameWithType.vb: Converters.MapEnums(Of IFastSerializationTypeSurrogate, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.IFastSerializationTypeSurrogate, To)()
+  name.vb: MapEnums(Of IFastSerializationTypeSurrogate, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IFastSerializationTypeSurrogate, To>
+    nameWithType: Converters.MapEnums<IFastSerializationTypeSurrogate, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.IFastSerializationTypeSurrogate, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IFastSerializationTypeSurrogate, To)
+    nameWithType: Converters.MapEnums(Of IFastSerializationTypeSurrogate, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.IFastSerializationTypeSurrogate, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.IO.IFastSerializationTypeSurrogate.SupportsType*
+  commentId: Overload:SuperOffice.IO.IFastSerializationTypeSurrogate.SupportsType
+  isExternal: true
+  name: SupportsType
+  nameWithType: IFastSerializationTypeSurrogate.SupportsType
+  fullName: SuperOffice.IO.IFastSerializationTypeSurrogate.SupportsType
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.IO.IFastSerializationTypeSurrogate.Serialize*
+  commentId: Overload:SuperOffice.IO.IFastSerializationTypeSurrogate.Serialize
+  isExternal: true
+  name: Serialize
+  nameWithType: IFastSerializationTypeSurrogate.Serialize
+  fullName: SuperOffice.IO.IFastSerializationTypeSurrogate.Serialize
+- uid: SuperOffice.IO.SerializationWriter
+  commentId: T:SuperOffice.IO.SerializationWriter
+  parent: SuperOffice.IO
+  isExternal: true
+  name: SerializationWriter
+  nameWithType: SerializationWriter
+  fullName: SuperOffice.IO.SerializationWriter
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.IO.IFastSerializationTypeSurrogate.Deserialize*
+  commentId: Overload:SuperOffice.IO.IFastSerializationTypeSurrogate.Deserialize
+  isExternal: true
+  name: Deserialize
+  nameWithType: IFastSerializationTypeSurrogate.Deserialize
+  fullName: SuperOffice.IO.IFastSerializationTypeSurrogate.Deserialize
+- uid: SuperOffice.IO.SerializationReader
+  commentId: T:SuperOffice.IO.SerializationReader
+  parent: SuperOffice.IO
+  isExternal: true
+  name: SerializationReader
+  nameWithType: SerializationReader
+  fullName: SuperOffice.IO.SerializationReader

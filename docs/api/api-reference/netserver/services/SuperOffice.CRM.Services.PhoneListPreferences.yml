@@ -1,0 +1,516 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.PhoneListPreferences
+  commentId: T:SuperOffice.CRM.Services.PhoneListPreferences
+  id: PhoneListPreferences
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.PhoneListPreferences.#ctor
+  - SuperOffice.CRM.Services.PhoneListPreferences.SearchCompany
+  - SuperOffice.CRM.Services.PhoneListPreferences.SearchDepartment
+  - SuperOffice.CRM.Services.PhoneListPreferences.SearchFirstname
+  - SuperOffice.CRM.Services.PhoneListPreferences.SearchLastname
+  - SuperOffice.CRM.Services.PhoneListPreferences.SearchModeCompany
+  - SuperOffice.CRM.Services.PhoneListPreferences.SearchModeDepartment
+  - SuperOffice.CRM.Services.PhoneListPreferences.SearchModeFirstname
+  - SuperOffice.CRM.Services.PhoneListPreferences.SearchModeLastname
+  - SuperOffice.CRM.Services.PhoneListPreferences.ToString
+  - SuperOffice.CRM.Services.PhoneListPreferences.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: PhoneListPreferences
+  nameWithType: PhoneListPreferences
+  fullName: SuperOffice.CRM.Services.PhoneListPreferences
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSearch preferences for a phone list search\n<p></p>\nCarrier object for PhoneListPreferences.\nServices for the PhoneListPreferences Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IPhoneListAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class PhoneListPreferences : Carrier'
+    content.vb: >-
+      Public Class PhoneListPreferences
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.PhoneListAgent
+    commentId: T:SuperOffice.CRM.Services.PhoneListAgent
+  - linkId: SuperOffice.CRM.Services.IPhoneListAgent
+    commentId: T:SuperOffice.CRM.Services.IPhoneListAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.PhoneListPreferences.#ctor
+  commentId: M:SuperOffice.CRM.Services.PhoneListPreferences.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.PhoneListPreferences
+  langs:
+  - csharp
+  - vb
+  name: PhoneListPreferences()
+  nameWithType: PhoneListPreferences.PhoneListPreferences()
+  fullName: SuperOffice.CRM.Services.PhoneListPreferences.PhoneListPreferences()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public PhoneListPreferences()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.PhoneListPreferences.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PhoneListPreferences.ToString
+  commentId: M:SuperOffice.CRM.Services.PhoneListPreferences.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.PhoneListPreferences
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: PhoneListPreferences.ToString()
+  fullName: SuperOffice.CRM.Services.PhoneListPreferences.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.PhoneListPreferences.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.PhoneListPreferences.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.PhoneListPreferences.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.PhoneListPreferences
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: PhoneListPreferences.ToString(String)
+  fullName: SuperOffice.CRM.Services.PhoneListPreferences.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.PhoneListPreferences.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PhoneListPreferences.SearchCompany
+  commentId: P:SuperOffice.CRM.Services.PhoneListPreferences.SearchCompany
+  id: SearchCompany
+  parent: SuperOffice.CRM.Services.PhoneListPreferences
+  langs:
+  - csharp
+  - vb
+  name: SearchCompany
+  nameWithType: PhoneListPreferences.SearchCompany
+  fullName: SuperOffice.CRM.Services.PhoneListPreferences.SearchCompany
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue if you want to search for Companies by their name. \n"
+  syntax:
+    content: public virtual bool SearchCompany { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property SearchCompany As Boolean
+  overload: SuperOffice.CRM.Services.PhoneListPreferences.SearchCompany*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PhoneListPreferences.SearchFirstname
+  commentId: P:SuperOffice.CRM.Services.PhoneListPreferences.SearchFirstname
+  id: SearchFirstname
+  parent: SuperOffice.CRM.Services.PhoneListPreferences
+  langs:
+  - csharp
+  - vb
+  name: SearchFirstname
+  nameWithType: PhoneListPreferences.SearchFirstname
+  fullName: SuperOffice.CRM.Services.PhoneListPreferences.SearchFirstname
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue if you want to search for Persons by their firstname. \n"
+  syntax:
+    content: public virtual bool SearchFirstname { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property SearchFirstname As Boolean
+  overload: SuperOffice.CRM.Services.PhoneListPreferences.SearchFirstname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PhoneListPreferences.SearchLastname
+  commentId: P:SuperOffice.CRM.Services.PhoneListPreferences.SearchLastname
+  id: SearchLastname
+  parent: SuperOffice.CRM.Services.PhoneListPreferences
+  langs:
+  - csharp
+  - vb
+  name: SearchLastname
+  nameWithType: PhoneListPreferences.SearchLastname
+  fullName: SuperOffice.CRM.Services.PhoneListPreferences.SearchLastname
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue if you want to search for Persons by their lastname. \n"
+  syntax:
+    content: public virtual bool SearchLastname { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property SearchLastname As Boolean
+  overload: SuperOffice.CRM.Services.PhoneListPreferences.SearchLastname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PhoneListPreferences.SearchDepartment
+  commentId: P:SuperOffice.CRM.Services.PhoneListPreferences.SearchDepartment
+  id: SearchDepartment
+  parent: SuperOffice.CRM.Services.PhoneListPreferences
+  langs:
+  - csharp
+  - vb
+  name: SearchDepartment
+  nameWithType: PhoneListPreferences.SearchDepartment
+  fullName: SuperOffice.CRM.Services.PhoneListPreferences.SearchDepartment
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue if you want to search for Departments where your colleagues work. \n"
+  syntax:
+    content: public virtual bool SearchDepartment { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property SearchDepartment As Boolean
+  overload: SuperOffice.CRM.Services.PhoneListPreferences.SearchDepartment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PhoneListPreferences.SearchModeCompany
+  commentId: P:SuperOffice.CRM.Services.PhoneListPreferences.SearchModeCompany
+  id: SearchModeCompany
+  parent: SuperOffice.CRM.Services.PhoneListPreferences
+  langs:
+  - csharp
+  - vb
+  name: SearchModeCompany
+  nameWithType: PhoneListPreferences.SearchModeCompany
+  fullName: SuperOffice.CRM.Services.PhoneListPreferences.SearchModeCompany
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe Company name search type, e.g. BeginsWith, Contains, Endswith, Matches \n"
+  syntax:
+    content: public virtual StringSearchType SearchModeCompany { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.StringSearchType
+    content.vb: Public Overridable Property SearchModeCompany As StringSearchType
+  overload: SuperOffice.CRM.Services.PhoneListPreferences.SearchModeCompany*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PhoneListPreferences.SearchModeDepartment
+  commentId: P:SuperOffice.CRM.Services.PhoneListPreferences.SearchModeDepartment
+  id: SearchModeDepartment
+  parent: SuperOffice.CRM.Services.PhoneListPreferences
+  langs:
+  - csharp
+  - vb
+  name: SearchModeDepartment
+  nameWithType: PhoneListPreferences.SearchModeDepartment
+  fullName: SuperOffice.CRM.Services.PhoneListPreferences.SearchModeDepartment
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe Department search type, e.g. BeginsWith, Contains, Endswith, Matches \n"
+  syntax:
+    content: public virtual StringSearchType SearchModeDepartment { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.StringSearchType
+    content.vb: Public Overridable Property SearchModeDepartment As StringSearchType
+  overload: SuperOffice.CRM.Services.PhoneListPreferences.SearchModeDepartment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PhoneListPreferences.SearchModeFirstname
+  commentId: P:SuperOffice.CRM.Services.PhoneListPreferences.SearchModeFirstname
+  id: SearchModeFirstname
+  parent: SuperOffice.CRM.Services.PhoneListPreferences
+  langs:
+  - csharp
+  - vb
+  name: SearchModeFirstname
+  nameWithType: PhoneListPreferences.SearchModeFirstname
+  fullName: SuperOffice.CRM.Services.PhoneListPreferences.SearchModeFirstname
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe firstname search type, e.g. BeginsWith, Contains, Endswith, Matches \n"
+  syntax:
+    content: public virtual StringSearchType SearchModeFirstname { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.StringSearchType
+    content.vb: Public Overridable Property SearchModeFirstname As StringSearchType
+  overload: SuperOffice.CRM.Services.PhoneListPreferences.SearchModeFirstname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PhoneListPreferences.SearchModeLastname
+  commentId: P:SuperOffice.CRM.Services.PhoneListPreferences.SearchModeLastname
+  id: SearchModeLastname
+  parent: SuperOffice.CRM.Services.PhoneListPreferences
+  langs:
+  - csharp
+  - vb
+  name: SearchModeLastname
+  nameWithType: PhoneListPreferences.SearchModeLastname
+  fullName: SuperOffice.CRM.Services.PhoneListPreferences.SearchModeLastname
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe lastname search type, e.g. BeginsWith, Contains, Endswith, Matches \n"
+  syntax:
+    content: public virtual StringSearchType SearchModeLastname { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.StringSearchType
+    content.vb: Public Overridable Property SearchModeLastname As StringSearchType
+  overload: SuperOffice.CRM.Services.PhoneListPreferences.SearchModeLastname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.PhoneListAgent
+  commentId: T:SuperOffice.CRM.Services.PhoneListAgent
+  isExternal: true
+  name: PhoneListAgent
+  nameWithType: PhoneListAgent
+  fullName: SuperOffice.CRM.Services.PhoneListAgent
+- uid: SuperOffice.CRM.Services.IPhoneListAgent
+  commentId: T:SuperOffice.CRM.Services.IPhoneListAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IPhoneListAgent
+  nameWithType: IPhoneListAgent
+  fullName: SuperOffice.CRM.Services.IPhoneListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.PhoneListPreferences.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListPreferences.#ctor
+  isExternal: true
+  name: PhoneListPreferences
+  nameWithType: PhoneListPreferences.PhoneListPreferences
+  fullName: SuperOffice.CRM.Services.PhoneListPreferences.PhoneListPreferences
+- uid: SuperOffice.CRM.Services.PhoneListPreferences.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListPreferences.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: PhoneListPreferences.ToString
+  fullName: SuperOffice.CRM.Services.PhoneListPreferences.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.PhoneListPreferences.SearchCompany*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListPreferences.SearchCompany
+  isExternal: true
+  name: SearchCompany
+  nameWithType: PhoneListPreferences.SearchCompany
+  fullName: SuperOffice.CRM.Services.PhoneListPreferences.SearchCompany
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.PhoneListPreferences.SearchFirstname*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListPreferences.SearchFirstname
+  isExternal: true
+  name: SearchFirstname
+  nameWithType: PhoneListPreferences.SearchFirstname
+  fullName: SuperOffice.CRM.Services.PhoneListPreferences.SearchFirstname
+- uid: SuperOffice.CRM.Services.PhoneListPreferences.SearchLastname*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListPreferences.SearchLastname
+  isExternal: true
+  name: SearchLastname
+  nameWithType: PhoneListPreferences.SearchLastname
+  fullName: SuperOffice.CRM.Services.PhoneListPreferences.SearchLastname
+- uid: SuperOffice.CRM.Services.PhoneListPreferences.SearchDepartment*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListPreferences.SearchDepartment
+  isExternal: true
+  name: SearchDepartment
+  nameWithType: PhoneListPreferences.SearchDepartment
+  fullName: SuperOffice.CRM.Services.PhoneListPreferences.SearchDepartment
+- uid: SuperOffice.CRM.Services.PhoneListPreferences.SearchModeCompany*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListPreferences.SearchModeCompany
+  isExternal: true
+  name: SearchModeCompany
+  nameWithType: PhoneListPreferences.SearchModeCompany
+  fullName: SuperOffice.CRM.Services.PhoneListPreferences.SearchModeCompany
+- uid: SuperOffice.Data.StringSearchType
+  isExternal: true
+  name: StringSearchType
+  nameWithType: StringSearchType
+  fullName: SuperOffice.Data.StringSearchType
+- uid: SuperOffice.CRM.Services.PhoneListPreferences.SearchModeDepartment*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListPreferences.SearchModeDepartment
+  isExternal: true
+  name: SearchModeDepartment
+  nameWithType: PhoneListPreferences.SearchModeDepartment
+  fullName: SuperOffice.CRM.Services.PhoneListPreferences.SearchModeDepartment
+- uid: SuperOffice.CRM.Services.PhoneListPreferences.SearchModeFirstname*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListPreferences.SearchModeFirstname
+  isExternal: true
+  name: SearchModeFirstname
+  nameWithType: PhoneListPreferences.SearchModeFirstname
+  fullName: SuperOffice.CRM.Services.PhoneListPreferences.SearchModeFirstname
+- uid: SuperOffice.CRM.Services.PhoneListPreferences.SearchModeLastname*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListPreferences.SearchModeLastname
+  isExternal: true
+  name: SearchModeLastname
+  nameWithType: PhoneListPreferences.SearchModeLastname
+  fullName: SuperOffice.CRM.Services.PhoneListPreferences.SearchModeLastname

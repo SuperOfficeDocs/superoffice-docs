@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Utilities
+  commentId: N:SuperOffice.WebApi.Utilities
+  id: SuperOffice.WebApi.Utilities
+  children:
+  - SuperOffice.WebApi.Utilities.UrlHelper
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.WebApi.Utilities
+  nameWithType: SuperOffice.WebApi.Utilities
+  fullName: SuperOffice.WebApi.Utilities
+  type: Namespace
+  assemblies:
+  - SuperOffice.WebApi
+references:
+- uid: SuperOffice.WebApi.Utilities.UrlHelper
+  commentId: T:SuperOffice.WebApi.Utilities.UrlHelper
+  isExternal: true
+  name: UrlHelper
+  nameWithType: UrlHelper
+  fullName: SuperOffice.WebApi.Utilities.UrlHelper

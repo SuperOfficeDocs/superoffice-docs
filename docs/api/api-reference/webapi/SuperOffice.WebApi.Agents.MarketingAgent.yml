@@ -1,0 +1,2096 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.MarketingAgent
+  commentId: T:SuperOffice.WebApi.Agents.MarketingAgent
+  id: MarketingAgent
+  parent: SuperOffice.WebApi.Agents
+  children:
+  - SuperOffice.WebApi.Agents.MarketingAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  - SuperOffice.WebApi.Agents.MarketingAgent.#ctor(System.Net.Http.HttpClient)
+  - SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultFormEntityAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultFormSubmissionEntityAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultShipmentMessageBlockEntityAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultShipmentMessageEntityAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.MarketingAgent.DeleteFormEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.MarketingAgent.DeleteFormSubmissionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.MarketingAgent.DeleteShipmentMessageBlockEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.MarketingAgent.DeleteShipmentMessageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.MarketingAgent.GetFormEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.MarketingAgent.GetFormSubmissionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.MarketingAgent.GetPreviewMailingAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.MarketingAgent.GetShipmentMessageBlockEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.MarketingAgent.GetShipmentMessageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.MarketingAgent.GetUserBlocksAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.MarketingAgent.SaveFormEntityAsync(SuperOffice.WebApi.Data.FormEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.MarketingAgent.SaveFormSubmissionEntityAsync(SuperOffice.WebApi.Data.FormSubmissionEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.MarketingAgent.SaveShipmentMessageBlockEntityAsync(SuperOffice.WebApi.Data.ShipmentMessageBlockEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.MarketingAgent.SaveShipmentMessageEntityAsync(SuperOffice.WebApi.Data.ShipmentMessageEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.MarketingAgent.VerifyGoogleRecaptchaAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  langs:
+  - csharp
+  - vb
+  name: MarketingAgent
+  nameWithType: MarketingAgent
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAgent used for Marketing functions, such as Forms\n"
+  example:
+  - "\n<pre><code>  using SuperOffice.WebApi;\n  using SuperOffice.WebApi.Agents;\n\n  var mySession = new WebApiOptions(&quot;http://example.com/super/api&quot;);\n  mySession.Authorization = new AuthorizationUsernamePassword(&quot;user&quot;, &quot;pass&quot;);\n  using (MarketingAgent agent = new MarketingAgent(mySession))\n  {\n        // call methods on agent here...\n  }</code></pre>\n"
+  syntax:
+    content: 'public class MarketingAgent : AgentBase, IDisposable'
+    content.vb: >-
+      Public Class MarketingAgent
+          Inherits AgentBase
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Agents.AgentBase
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - SuperOffice.WebApi.Agents.AgentBase._json
+  - SuperOffice.WebApi.Agents.AgentBase._binary
+  - SuperOffice.WebApi.Agents.AgentBase._config
+  - SuperOffice.WebApi.Agents.AgentBase._client
+  - SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AgentBase.Dispose
+  - SuperOffice.WebApi.Agents.AgentBase.Configuration
+  - SuperOffice.WebApi.Agents.AgentBase.Client
+  - SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  - SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  - SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.#ctor(System.Net.Http.HttpClient)
+  commentId: M:SuperOffice.WebApi.Agents.MarketingAgent.#ctor(System.Net.Http.HttpClient)
+  id: '#ctor(System.Net.Http.HttpClient)'
+  parent: SuperOffice.WebApi.Agents.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: MarketingAgent(HttpClient)
+  nameWithType: MarketingAgent.MarketingAgent(HttpClient)
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.MarketingAgent(System.Net.Http.HttpClient)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nConstructor: Agent used for Marketing functions, such as Forms\n"
+  syntax:
+    content: public MarketingAgent(HttpClient httpClient)
+    parameters:
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+      description: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.
+    content.vb: Public Sub New(httpClient As HttpClient)
+  overload: SuperOffice.WebApi.Agents.MarketingAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  commentId: M:SuperOffice.WebApi.Agents.MarketingAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  id: '#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)'
+  parent: SuperOffice.WebApi.Agents.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: MarketingAgent(WebApiOptions, HttpClient)
+  nameWithType: MarketingAgent.MarketingAgent(WebApiOptions, HttpClient)
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.MarketingAgent(SuperOffice.WebApi.WebApiOptions, System.Net.Http.HttpClient)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nConstructor: Agent used for Marketing functions, such as Forms\n"
+  syntax:
+    content: public MarketingAgent(WebApiOptions options, HttpClient httpClient = null)
+    parameters:
+    - id: options
+      type: SuperOffice.WebApi.WebApiOptions
+      description: Base URL and authentication values.
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+      description: 'Optional: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.'
+    content.vb: Public Sub New(options As WebApiOptions, httpClient As HttpClient = Nothing)
+  overload: SuperOffice.WebApi.Agents.MarketingAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultFormEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultFormEntityAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultFormEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultFormEntityAsync(RequestOptions)
+  nameWithType: MarketingAgent.CreateDefaultFormEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultFormEntityAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new FormEntity.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public Task<FormEntity> CreateDefaultFormEntityAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FormEntity}
+      description: A blank FormEntity
+    content.vb: Public Function CreateDefaultFormEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of FormEntity)
+  overload: SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultFormEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.SaveFormEntityAsync(SuperOffice.WebApi.Data.FormEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.MarketingAgent.SaveFormEntityAsync(SuperOffice.WebApi.Data.FormEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveFormEntityAsync(SuperOffice.WebApi.Data.FormEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveFormEntityAsync(FormEntity, RequestOptions)
+  nameWithType: MarketingAgent.SaveFormEntityAsync(FormEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.SaveFormEntityAsync(SuperOffice.WebApi.Data.FormEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing FormEntity or creates a new FormEntity if the id parameter is 0. \n"
+  syntax:
+    content: public Task<FormEntity> SaveFormEntityAsync(FormEntity formEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: formEntity
+      type: SuperOffice.WebApi.Data.FormEntity
+      description: The FormEntity that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FormEntity}
+      description: New or updated FormEntity
+    content.vb: Public Function SaveFormEntityAsync(formEntity As FormEntity, requestOptions As RequestOptions = Nothing) As Task(Of FormEntity)
+  overload: SuperOffice.WebApi.Agents.MarketingAgent.SaveFormEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.DeleteFormEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.MarketingAgent.DeleteFormEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteFormEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteFormEntityAsync(Int32, RequestOptions)
+  nameWithType: MarketingAgent.DeleteFormEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.DeleteFormEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes the FormEntity\n"
+  syntax:
+    content: public Task DeleteFormEntityAsync(int formEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: formEntityId
+      type: System.Int32
+      description: The identity of the FormEntity
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteFormEntityAsync(formEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.MarketingAgent.DeleteFormEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultFormSubmissionEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultFormSubmissionEntityAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultFormSubmissionEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultFormSubmissionEntityAsync(RequestOptions)
+  nameWithType: MarketingAgent.CreateDefaultFormSubmissionEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultFormSubmissionEntityAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new FormSubmissionEntity.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public Task<FormSubmissionEntity> CreateDefaultFormSubmissionEntityAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FormSubmissionEntity}
+      description: A blank FormSubmissionEntity
+    content.vb: Public Function CreateDefaultFormSubmissionEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of FormSubmissionEntity)
+  overload: SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultFormSubmissionEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.SaveFormSubmissionEntityAsync(SuperOffice.WebApi.Data.FormSubmissionEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.MarketingAgent.SaveFormSubmissionEntityAsync(SuperOffice.WebApi.Data.FormSubmissionEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveFormSubmissionEntityAsync(SuperOffice.WebApi.Data.FormSubmissionEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveFormSubmissionEntityAsync(FormSubmissionEntity, RequestOptions)
+  nameWithType: MarketingAgent.SaveFormSubmissionEntityAsync(FormSubmissionEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.SaveFormSubmissionEntityAsync(SuperOffice.WebApi.Data.FormSubmissionEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing FormSubmissionEntity or creates a new FormSubmissionEntity if the id parameter is 0. \n"
+  syntax:
+    content: public Task<FormSubmissionEntity> SaveFormSubmissionEntityAsync(FormSubmissionEntity formSubmissionEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: formSubmissionEntity
+      type: SuperOffice.WebApi.Data.FormSubmissionEntity
+      description: The FormSubmissionEntity that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FormSubmissionEntity}
+      description: New or updated FormSubmissionEntity
+    content.vb: Public Function SaveFormSubmissionEntityAsync(formSubmissionEntity As FormSubmissionEntity, requestOptions As RequestOptions = Nothing) As Task(Of FormSubmissionEntity)
+  overload: SuperOffice.WebApi.Agents.MarketingAgent.SaveFormSubmissionEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.DeleteFormSubmissionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.MarketingAgent.DeleteFormSubmissionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteFormSubmissionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteFormSubmissionEntityAsync(Int32, RequestOptions)
+  nameWithType: MarketingAgent.DeleteFormSubmissionEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.DeleteFormSubmissionEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes the FormSubmissionEntity\n"
+  syntax:
+    content: public Task DeleteFormSubmissionEntityAsync(int formSubmissionEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: formSubmissionEntityId
+      type: System.Int32
+      description: The identity of the FormSubmissionEntity
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteFormSubmissionEntityAsync(formSubmissionEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.MarketingAgent.DeleteFormSubmissionEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultShipmentMessageEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultShipmentMessageEntityAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultShipmentMessageEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultShipmentMessageEntityAsync(RequestOptions)
+  nameWithType: MarketingAgent.CreateDefaultShipmentMessageEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultShipmentMessageEntityAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new ShipmentMessageEntity.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public Task<ShipmentMessageEntity> CreateDefaultShipmentMessageEntityAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ShipmentMessageEntity}
+      description: A blank ShipmentMessageEntity
+    content.vb: Public Function CreateDefaultShipmentMessageEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of ShipmentMessageEntity)
+  overload: SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultShipmentMessageEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.SaveShipmentMessageEntityAsync(SuperOffice.WebApi.Data.ShipmentMessageEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.MarketingAgent.SaveShipmentMessageEntityAsync(SuperOffice.WebApi.Data.ShipmentMessageEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveShipmentMessageEntityAsync(SuperOffice.WebApi.Data.ShipmentMessageEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveShipmentMessageEntityAsync(ShipmentMessageEntity, RequestOptions)
+  nameWithType: MarketingAgent.SaveShipmentMessageEntityAsync(ShipmentMessageEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.SaveShipmentMessageEntityAsync(SuperOffice.WebApi.Data.ShipmentMessageEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing ShipmentMessageEntity or creates a new ShipmentMessageEntity if the id parameter is 0. \n"
+  syntax:
+    content: public Task<ShipmentMessageEntity> SaveShipmentMessageEntityAsync(ShipmentMessageEntity shipmentMessageEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: shipmentMessageEntity
+      type: SuperOffice.WebApi.Data.ShipmentMessageEntity
+      description: The ShipmentMessageEntity that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ShipmentMessageEntity}
+      description: New or updated ShipmentMessageEntity
+    content.vb: Public Function SaveShipmentMessageEntityAsync(shipmentMessageEntity As ShipmentMessageEntity, requestOptions As RequestOptions = Nothing) As Task(Of ShipmentMessageEntity)
+  overload: SuperOffice.WebApi.Agents.MarketingAgent.SaveShipmentMessageEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.DeleteShipmentMessageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.MarketingAgent.DeleteShipmentMessageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteShipmentMessageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteShipmentMessageEntityAsync(Int32, RequestOptions)
+  nameWithType: MarketingAgent.DeleteShipmentMessageEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.DeleteShipmentMessageEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes the ShipmentMessageEntity\n"
+  syntax:
+    content: public Task DeleteShipmentMessageEntityAsync(int shipmentMessageEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: shipmentMessageEntityId
+      type: System.Int32
+      description: The identity of the ShipmentMessageEntity
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteShipmentMessageEntityAsync(shipmentMessageEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.MarketingAgent.DeleteShipmentMessageEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultShipmentMessageBlockEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultShipmentMessageBlockEntityAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultShipmentMessageBlockEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultShipmentMessageBlockEntityAsync(RequestOptions)
+  nameWithType: MarketingAgent.CreateDefaultShipmentMessageBlockEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultShipmentMessageBlockEntityAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new ShipmentMessageBlockEntity.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public Task<ShipmentMessageBlockEntity> CreateDefaultShipmentMessageBlockEntityAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ShipmentMessageBlockEntity}
+      description: A blank ShipmentMessageBlockEntity
+    content.vb: Public Function CreateDefaultShipmentMessageBlockEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of ShipmentMessageBlockEntity)
+  overload: SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultShipmentMessageBlockEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.SaveShipmentMessageBlockEntityAsync(SuperOffice.WebApi.Data.ShipmentMessageBlockEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.MarketingAgent.SaveShipmentMessageBlockEntityAsync(SuperOffice.WebApi.Data.ShipmentMessageBlockEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveShipmentMessageBlockEntityAsync(SuperOffice.WebApi.Data.ShipmentMessageBlockEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveShipmentMessageBlockEntityAsync(ShipmentMessageBlockEntity, RequestOptions)
+  nameWithType: MarketingAgent.SaveShipmentMessageBlockEntityAsync(ShipmentMessageBlockEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.SaveShipmentMessageBlockEntityAsync(SuperOffice.WebApi.Data.ShipmentMessageBlockEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing ShipmentMessageBlockEntity or creates a new ShipmentMessageBlockEntity if the id parameter is 0. \n"
+  syntax:
+    content: public Task<ShipmentMessageBlockEntity> SaveShipmentMessageBlockEntityAsync(ShipmentMessageBlockEntity shipmentMessageBlockEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: shipmentMessageBlockEntity
+      type: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity
+      description: The ShipmentMessageBlockEntity that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ShipmentMessageBlockEntity}
+      description: New or updated ShipmentMessageBlockEntity
+    content.vb: Public Function SaveShipmentMessageBlockEntityAsync(shipmentMessageBlockEntity As ShipmentMessageBlockEntity, requestOptions As RequestOptions = Nothing) As Task(Of ShipmentMessageBlockEntity)
+  overload: SuperOffice.WebApi.Agents.MarketingAgent.SaveShipmentMessageBlockEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.DeleteShipmentMessageBlockEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.MarketingAgent.DeleteShipmentMessageBlockEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteShipmentMessageBlockEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteShipmentMessageBlockEntityAsync(Int32, RequestOptions)
+  nameWithType: MarketingAgent.DeleteShipmentMessageBlockEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.DeleteShipmentMessageBlockEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes the ShipmentMessageBlockEntity\n"
+  syntax:
+    content: public Task DeleteShipmentMessageBlockEntityAsync(int shipmentMessageBlockEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: shipmentMessageBlockEntityId
+      type: System.Int32
+      description: The identity of the ShipmentMessageBlockEntity
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteShipmentMessageBlockEntityAsync(shipmentMessageBlockEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.MarketingAgent.DeleteShipmentMessageBlockEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.GetFormEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.MarketingAgent.GetFormEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetFormEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: GetFormEntityAsync(Int32, RequestOptions)
+  nameWithType: MarketingAgent.GetFormEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.GetFormEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific FormEntity object.                        \n"
+  syntax:
+    content: public Task<FormEntity> GetFormEntityAsync(int formEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: formEntityId
+      type: System.Int32
+      description: The identifier of the FormEntity object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FormEntity}
+      description: FormEntity
+    content.vb: Public Function GetFormEntityAsync(formEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of FormEntity)
+  overload: SuperOffice.WebApi.Agents.MarketingAgent.GetFormEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.VerifyGoogleRecaptchaAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.MarketingAgent.VerifyGoogleRecaptchaAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: VerifyGoogleRecaptchaAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: VerifyGoogleRecaptchaAsync(String, String, RequestOptions)
+  nameWithType: MarketingAgent.VerifyGoogleRecaptchaAsync(String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.VerifyGoogleRecaptchaAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nThis method will try to verify a Google recaptcha token. The token is gained from the recaptcha frontend component\n"
+  syntax:
+    content: public Task<bool> VerifyGoogleRecaptchaAsync(string token, string optionalSecretKey, RequestOptions requestOptions = null)
+    parameters:
+    - id: token
+      type: System.String
+      description: The token to be verified
+    - id: optionalSecretKey
+      type: System.String
+      description: Use an optional secret key instead of the system wide
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: Returns true if the recaptcha token verified successfully
+    content.vb: Public Function VerifyGoogleRecaptchaAsync(token As String, optionalSecretKey As String, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.MarketingAgent.VerifyGoogleRecaptchaAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.GetFormSubmissionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.MarketingAgent.GetFormSubmissionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetFormSubmissionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: GetFormSubmissionEntityAsync(Int32, RequestOptions)
+  nameWithType: MarketingAgent.GetFormSubmissionEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.GetFormSubmissionEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific FormSubmissionEntity object.                        \n"
+  syntax:
+    content: public Task<FormSubmissionEntity> GetFormSubmissionEntityAsync(int formSubmissionEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: formSubmissionEntityId
+      type: System.Int32
+      description: The identifier of the FormSubmissionEntity object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FormSubmissionEntity}
+      description: FormSubmissionEntity
+    content.vb: Public Function GetFormSubmissionEntityAsync(formSubmissionEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of FormSubmissionEntity)
+  overload: SuperOffice.WebApi.Agents.MarketingAgent.GetFormSubmissionEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.GetShipmentMessageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.MarketingAgent.GetShipmentMessageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetShipmentMessageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: GetShipmentMessageEntityAsync(Int32, RequestOptions)
+  nameWithType: MarketingAgent.GetShipmentMessageEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.GetShipmentMessageEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific ShipmentMessageEntity object.                        \n"
+  syntax:
+    content: public Task<ShipmentMessageEntity> GetShipmentMessageEntityAsync(int shipmentMessageEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: shipmentMessageEntityId
+      type: System.Int32
+      description: The identifier of the ShipmentMessageEntity object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ShipmentMessageEntity}
+      description: ShipmentMessageEntity
+    content.vb: Public Function GetShipmentMessageEntityAsync(shipmentMessageEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ShipmentMessageEntity)
+  overload: SuperOffice.WebApi.Agents.MarketingAgent.GetShipmentMessageEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.GetShipmentMessageBlockEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.MarketingAgent.GetShipmentMessageBlockEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetShipmentMessageBlockEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: GetShipmentMessageBlockEntityAsync(Int32, RequestOptions)
+  nameWithType: MarketingAgent.GetShipmentMessageBlockEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.GetShipmentMessageBlockEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific ShipmentMessageBlockEntity object.                        \n"
+  syntax:
+    content: public Task<ShipmentMessageBlockEntity> GetShipmentMessageBlockEntityAsync(int shipmentMessageBlockEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: shipmentMessageBlockEntityId
+      type: System.Int32
+      description: The identifier of the ShipmentMessageBlockEntity object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ShipmentMessageBlockEntity}
+      description: ShipmentMessageBlockEntity
+    content.vb: Public Function GetShipmentMessageBlockEntityAsync(shipmentMessageBlockEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ShipmentMessageBlockEntity)
+  overload: SuperOffice.WebApi.Agents.MarketingAgent.GetShipmentMessageBlockEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.GetUserBlocksAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.MarketingAgent.GetUserBlocksAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetUserBlocksAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: GetUserBlocksAsync(Int32, RequestOptions)
+  nameWithType: MarketingAgent.GetUserBlocksAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.GetUserBlocksAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet the saved user blocks to be used in a shipment/mailing message\n"
+  syntax:
+    content: public Task<ShipmentMessageBlockEntity[]> GetUserBlocksAsync(int associateId, RequestOptions requestOptions = null)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: The associate id to get the user blocks. 0 will get all saved blocks
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ShipmentMessageBlockEntity[]}
+      description: An array of user blocks
+    content.vb: Public Function GetUserBlocksAsync(associateId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ShipmentMessageBlockEntity())
+  overload: SuperOffice.WebApi.Agents.MarketingAgent.GetUserBlocksAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.GetPreviewMailingAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.MarketingAgent.GetPreviewMailingAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetPreviewMailingAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.MarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPreviewMailingAsync(Int32, RequestOptions)
+  nameWithType: MarketingAgent.GetPreviewMailingAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.GetPreviewMailingAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a shipment message from its shipment address id\n"
+  syntax:
+    content: public Task<PreviewMailing> GetPreviewMailingAsync(int shipmentAddrId, RequestOptions requestOptions = null)
+    parameters:
+    - id: shipmentAddrId
+      type: System.Int32
+      description: Shipment address id
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreviewMailing}
+      description: PreviewMailing
+    content.vb: Public Function GetPreviewMailingAsync(shipmentAddrId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of PreviewMailing)
+  overload: SuperOffice.WebApi.Agents.MarketingAgent.GetPreviewMailingAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Agents
+  commentId: N:SuperOffice.WebApi.Agents
+  isExternal: true
+  name: SuperOffice.WebApi.Agents
+  nameWithType: SuperOffice.WebApi.Agents
+  fullName: SuperOffice.WebApi.Agents
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.AgentBase
+  commentId: T:SuperOffice.WebApi.Agents.AgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  name: AgentBase
+  nameWithType: AgentBase
+  fullName: SuperOffice.WebApi.Agents.AgentBase
+- uid: System.IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.WebApi.Agents.AgentBase._json
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._json
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _json
+  nameWithType: AgentBase._json
+  fullName: SuperOffice.WebApi.Agents.AgentBase._json
+- uid: SuperOffice.WebApi.Agents.AgentBase._binary
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._binary
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _binary
+  nameWithType: AgentBase._binary
+  fullName: SuperOffice.WebApi.Agents.AgentBase._binary
+- uid: SuperOffice.WebApi.Agents.AgentBase._config
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._config
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _config
+  nameWithType: AgentBase._config
+  fullName: SuperOffice.WebApi.Agents.AgentBase._config
+- uid: SuperOffice.WebApi.Agents.AgentBase._client
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._client
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _client
+  nameWithType: AgentBase._client
+  fullName: SuperOffice.WebApi.Agents.AgentBase._client
+- uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Merge(RequestOptions)
+  nameWithType: AgentBase.Merge(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+    name: Merge
+    nameWithType: AgentBase.Merge
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Merge
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+    name: Merge
+    nameWithType: AgentBase.Merge
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Merge
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod, System.String, System.Object, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObject
+    nameWithType: AgentBase.BuildRequestFromObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObject
+    nameWithType: AgentBase.BuildRequestFromObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod, System.String, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromStream
+    nameWithType: AgentBase.BuildRequestFromStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromStream
+    nameWithType: AgentBase.BuildRequestFromStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseAuthorization(IAuthorization)
+  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: CancelRequest()
+  nameWithType: AgentBase.CancelRequest()
+  fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    name: CancelRequest
+    nameWithType: AgentBase.CancelRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    name: CancelRequest
+    nameWithType: AgentBase.CancelRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
+  nameWithType: AgentBase.SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod, System.String, System.Object, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObject
+    nameWithType: AgentBase.SendRequestObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObject
+    nameWithType: AgentBase.SendRequestObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequest(HttpRequestMessage)
+  nameWithType: AgentBase.SendRequest(HttpRequestMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+    name: SendRequest
+    nameWithType: AgentBase.SendRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+    name: SendRequest
+    nameWithType: AgentBase.SendRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
+  nameWithType: AgentBase.ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage, System.Net.Http.HttpResponseMessage)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseError
+    nameWithType: AgentBase.ThrowOnResponseError
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseError
+    nameWithType: AgentBase.ThrowOnResponseError
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseResponse<T>(HttpResponseMessage)
+  nameWithType: AgentBase.ParseResponse<T>(HttpResponseMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse<T>(System.Net.Http.HttpResponseMessage)
+  nameWithType.vb: AgentBase.ParseResponse(Of T)(HttpResponseMessage)
+  fullName.vb: SuperOffice.WebApi.Agents.AgentBase.ParseResponse(Of T)(System.Net.Http.HttpResponseMessage)
+  name.vb: ParseResponse(Of T)(HttpResponseMessage)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+    name: ParseResponse<T>
+    nameWithType: AgentBase.ParseResponse<T>
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+    name: ParseResponse(Of T)
+    nameWithType: AgentBase.ParseResponse(Of T)
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Finally(RequestOptions)
+  nameWithType: AgentBase.Finally(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+    name: Finally
+    nameWithType: AgentBase.Finally
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Finally
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+    name: Finally
+    nameWithType: AgentBase.Finally
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Finally
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Dispose
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase.Dispose()
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    name: Dispose
+    nameWithType: AgentBase.Dispose
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    name: Dispose
+    nameWithType: AgentBase.Dispose
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Configuration
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.Configuration
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Configuration
+  nameWithType: AgentBase.Configuration
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Configuration
+- uid: SuperOffice.WebApi.Agents.AgentBase.Client
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.Client
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Client
+  nameWithType: AgentBase.Client
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Client
+- uid: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: HasRunningRequest
+  nameWithType: AgentBase.HasRunningRequest
+  fullName: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+- uid: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ClientCancellationTokenSource
+  nameWithType: AgentBase.ClientCancellationTokenSource
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+- uid: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ProgressListener
+  nameWithType: AgentBase.ProgressListener
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Agents.MarketingAgent.#ctor
+  isExternal: true
+  name: MarketingAgent
+  nameWithType: MarketingAgent.MarketingAgent
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.MarketingAgent
+- uid: System.Net.Http.HttpClient
+  isExternal: true
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: System.Net.Http.HttpClient
+- uid: SuperOffice.WebApi.WebApiOptions
+  commentId: T:SuperOffice.WebApi.WebApiOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: WebApiOptions
+  nameWithType: WebApiOptions
+  fullName: SuperOffice.WebApi.WebApiOptions
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultFormEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultFormEntityAsync
+  isExternal: true
+  name: CreateDefaultFormEntityAsync
+  nameWithType: MarketingAgent.CreateDefaultFormEntityAsync
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultFormEntityAsync
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FormEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FormEntity}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<FormEntity>
+  nameWithType: Task<FormEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.FormEntity>
+  nameWithType.vb: Task(Of FormEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.FormEntity)
+  name.vb: Task(Of FormEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.FormEntity
+    name: FormEntity
+    nameWithType: FormEntity
+    fullName: SuperOffice.WebApi.Data.FormEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.FormEntity
+    name: FormEntity
+    nameWithType: FormEntity
+    fullName: SuperOffice.WebApi.Data.FormEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.SaveFormEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.MarketingAgent.SaveFormEntityAsync
+  isExternal: true
+  name: SaveFormEntityAsync
+  nameWithType: MarketingAgent.SaveFormEntityAsync
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.SaveFormEntityAsync
+- uid: SuperOffice.WebApi.Data.FormEntity
+  commentId: T:SuperOffice.WebApi.Data.FormEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: FormEntity
+  nameWithType: FormEntity
+  fullName: SuperOffice.WebApi.Data.FormEntity
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.DeleteFormEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.MarketingAgent.DeleteFormEntityAsync
+  isExternal: true
+  name: DeleteFormEntityAsync
+  nameWithType: MarketingAgent.DeleteFormEntityAsync
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.DeleteFormEntityAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultFormSubmissionEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultFormSubmissionEntityAsync
+  isExternal: true
+  name: CreateDefaultFormSubmissionEntityAsync
+  nameWithType: MarketingAgent.CreateDefaultFormSubmissionEntityAsync
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultFormSubmissionEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FormSubmissionEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FormSubmissionEntity}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<FormSubmissionEntity>
+  nameWithType: Task<FormSubmissionEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.FormSubmissionEntity>
+  nameWithType.vb: Task(Of FormSubmissionEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.FormSubmissionEntity)
+  name.vb: Task(Of FormSubmissionEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.FormSubmissionEntity
+    name: FormSubmissionEntity
+    nameWithType: FormSubmissionEntity
+    fullName: SuperOffice.WebApi.Data.FormSubmissionEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.FormSubmissionEntity
+    name: FormSubmissionEntity
+    nameWithType: FormSubmissionEntity
+    fullName: SuperOffice.WebApi.Data.FormSubmissionEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.SaveFormSubmissionEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.MarketingAgent.SaveFormSubmissionEntityAsync
+  isExternal: true
+  name: SaveFormSubmissionEntityAsync
+  nameWithType: MarketingAgent.SaveFormSubmissionEntityAsync
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.SaveFormSubmissionEntityAsync
+- uid: SuperOffice.WebApi.Data.FormSubmissionEntity
+  commentId: T:SuperOffice.WebApi.Data.FormSubmissionEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: FormSubmissionEntity
+  nameWithType: FormSubmissionEntity
+  fullName: SuperOffice.WebApi.Data.FormSubmissionEntity
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.DeleteFormSubmissionEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.MarketingAgent.DeleteFormSubmissionEntityAsync
+  isExternal: true
+  name: DeleteFormSubmissionEntityAsync
+  nameWithType: MarketingAgent.DeleteFormSubmissionEntityAsync
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.DeleteFormSubmissionEntityAsync
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultShipmentMessageEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultShipmentMessageEntityAsync
+  isExternal: true
+  name: CreateDefaultShipmentMessageEntityAsync
+  nameWithType: MarketingAgent.CreateDefaultShipmentMessageEntityAsync
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultShipmentMessageEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ShipmentMessageEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ShipmentMessageEntity}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ShipmentMessageEntity>
+  nameWithType: Task<ShipmentMessageEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ShipmentMessageEntity>
+  nameWithType.vb: Task(Of ShipmentMessageEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ShipmentMessageEntity)
+  name.vb: Task(Of ShipmentMessageEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity
+    name: ShipmentMessageEntity
+    nameWithType: ShipmentMessageEntity
+    fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ShipmentMessageEntity
+    name: ShipmentMessageEntity
+    nameWithType: ShipmentMessageEntity
+    fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.SaveShipmentMessageEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.MarketingAgent.SaveShipmentMessageEntityAsync
+  isExternal: true
+  name: SaveShipmentMessageEntityAsync
+  nameWithType: MarketingAgent.SaveShipmentMessageEntityAsync
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.SaveShipmentMessageEntityAsync
+- uid: SuperOffice.WebApi.Data.ShipmentMessageEntity
+  commentId: T:SuperOffice.WebApi.Data.ShipmentMessageEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ShipmentMessageEntity
+  nameWithType: ShipmentMessageEntity
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageEntity
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.DeleteShipmentMessageEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.MarketingAgent.DeleteShipmentMessageEntityAsync
+  isExternal: true
+  name: DeleteShipmentMessageEntityAsync
+  nameWithType: MarketingAgent.DeleteShipmentMessageEntityAsync
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.DeleteShipmentMessageEntityAsync
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultShipmentMessageBlockEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultShipmentMessageBlockEntityAsync
+  isExternal: true
+  name: CreateDefaultShipmentMessageBlockEntityAsync
+  nameWithType: MarketingAgent.CreateDefaultShipmentMessageBlockEntityAsync
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.CreateDefaultShipmentMessageBlockEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ShipmentMessageBlockEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ShipmentMessageBlockEntity}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ShipmentMessageBlockEntity>
+  nameWithType: Task<ShipmentMessageBlockEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ShipmentMessageBlockEntity>
+  nameWithType.vb: Task(Of ShipmentMessageBlockEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ShipmentMessageBlockEntity)
+  name.vb: Task(Of ShipmentMessageBlockEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity
+    name: ShipmentMessageBlockEntity
+    nameWithType: ShipmentMessageBlockEntity
+    fullName: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity
+    name: ShipmentMessageBlockEntity
+    nameWithType: ShipmentMessageBlockEntity
+    fullName: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.SaveShipmentMessageBlockEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.MarketingAgent.SaveShipmentMessageBlockEntityAsync
+  isExternal: true
+  name: SaveShipmentMessageBlockEntityAsync
+  nameWithType: MarketingAgent.SaveShipmentMessageBlockEntityAsync
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.SaveShipmentMessageBlockEntityAsync
+- uid: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity
+  commentId: T:SuperOffice.WebApi.Data.ShipmentMessageBlockEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ShipmentMessageBlockEntity
+  nameWithType: ShipmentMessageBlockEntity
+  fullName: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.DeleteShipmentMessageBlockEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.MarketingAgent.DeleteShipmentMessageBlockEntityAsync
+  isExternal: true
+  name: DeleteShipmentMessageBlockEntityAsync
+  nameWithType: MarketingAgent.DeleteShipmentMessageBlockEntityAsync
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.DeleteShipmentMessageBlockEntityAsync
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.GetFormEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.MarketingAgent.GetFormEntityAsync
+  isExternal: true
+  name: GetFormEntityAsync
+  nameWithType: MarketingAgent.GetFormEntityAsync
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.GetFormEntityAsync
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.VerifyGoogleRecaptchaAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.MarketingAgent.VerifyGoogleRecaptchaAsync
+  isExternal: true
+  name: VerifyGoogleRecaptchaAsync
+  nameWithType: MarketingAgent.VerifyGoogleRecaptchaAsync
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.VerifyGoogleRecaptchaAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.GetFormSubmissionEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.MarketingAgent.GetFormSubmissionEntityAsync
+  isExternal: true
+  name: GetFormSubmissionEntityAsync
+  nameWithType: MarketingAgent.GetFormSubmissionEntityAsync
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.GetFormSubmissionEntityAsync
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.GetShipmentMessageEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.MarketingAgent.GetShipmentMessageEntityAsync
+  isExternal: true
+  name: GetShipmentMessageEntityAsync
+  nameWithType: MarketingAgent.GetShipmentMessageEntityAsync
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.GetShipmentMessageEntityAsync
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.GetShipmentMessageBlockEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.MarketingAgent.GetShipmentMessageBlockEntityAsync
+  isExternal: true
+  name: GetShipmentMessageBlockEntityAsync
+  nameWithType: MarketingAgent.GetShipmentMessageBlockEntityAsync
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.GetShipmentMessageBlockEntityAsync
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.GetUserBlocksAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.MarketingAgent.GetUserBlocksAsync
+  isExternal: true
+  name: GetUserBlocksAsync
+  nameWithType: MarketingAgent.GetUserBlocksAsync
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.GetUserBlocksAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ShipmentMessageBlockEntity[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ShipmentMessageBlockEntity[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ShipmentMessageBlockEntity[]>
+  nameWithType: Task<ShipmentMessageBlockEntity[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ShipmentMessageBlockEntity[]>
+  nameWithType.vb: Task(Of ShipmentMessageBlockEntity())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ShipmentMessageBlockEntity())
+  name.vb: Task(Of ShipmentMessageBlockEntity())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity
+    name: ShipmentMessageBlockEntity
+    nameWithType: ShipmentMessageBlockEntity
+    fullName: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity
+    name: ShipmentMessageBlockEntity
+    nameWithType: ShipmentMessageBlockEntity
+    fullName: SuperOffice.WebApi.Data.ShipmentMessageBlockEntity
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.MarketingAgent.GetPreviewMailingAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.MarketingAgent.GetPreviewMailingAsync
+  isExternal: true
+  name: GetPreviewMailingAsync
+  nameWithType: MarketingAgent.GetPreviewMailingAsync
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent.GetPreviewMailingAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreviewMailing}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreviewMailing}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<PreviewMailing>
+  nameWithType: Task<PreviewMailing>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.PreviewMailing>
+  nameWithType.vb: Task(Of PreviewMailing)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.PreviewMailing)
+  name.vb: Task(Of PreviewMailing)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.PreviewMailing
+    name: PreviewMailing
+    nameWithType: PreviewMailing
+    fullName: SuperOffice.WebApi.Data.PreviewMailing
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.PreviewMailing
+    name: PreviewMailing
+    nameWithType: PreviewMailing
+    fullName: SuperOffice.WebApi.Data.PreviewMailing
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

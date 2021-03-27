@@ -1,0 +1,482 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.ImportCompanyDuplicateAction
+  commentId: T:SuperOffice.Data.ImportCompanyDuplicateAction
+  id: ImportCompanyDuplicateAction
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.ImportCompanyDuplicateAction.Skip
+  - SuperOffice.Data.ImportCompanyDuplicateAction.UseBlankName
+  - SuperOffice.Data.ImportCompanyDuplicateAction.UsePersonName
+  langs:
+  - csharp
+  - vb
+  name: ImportCompanyDuplicateAction
+  nameWithType: ImportCompanyDuplicateAction
+  fullName: SuperOffice.Data.ImportCompanyDuplicateAction
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nAction for blank companys for import\n"
+  syntax:
+    content: public enum ImportCompanyDuplicateAction
+    content.vb: Public Enum ImportCompanyDuplicateAction
+  extensionMethods:
+  - SuperOffice.Data.ImportCompanyDuplicateAction.EnumUtil.MapEnums``2
+  - SuperOffice.Data.ImportCompanyDuplicateAction.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ImportCompanyDuplicateAction)
+  - SuperOffice.Data.ImportCompanyDuplicateAction.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.ImportCompanyDuplicateAction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.ImportCompanyDuplicateAction.UseBlankName
+  commentId: F:SuperOffice.Data.ImportCompanyDuplicateAction.UseBlankName
+  id: UseBlankName
+  parent: SuperOffice.Data.ImportCompanyDuplicateAction
+  langs:
+  - csharp
+  - vb
+  name: UseBlankName
+  nameWithType: ImportCompanyDuplicateAction.UseBlankName
+  fullName: SuperOffice.Data.ImportCompanyDuplicateAction.UseBlankName
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Use blank name\n"
+  syntax:
+    content: UseBlankName = 1
+    return:
+      type: SuperOffice.Data.ImportCompanyDuplicateAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportCompanyDuplicateAction.UsePersonName
+  commentId: F:SuperOffice.Data.ImportCompanyDuplicateAction.UsePersonName
+  id: UsePersonName
+  parent: SuperOffice.Data.ImportCompanyDuplicateAction
+  langs:
+  - csharp
+  - vb
+  name: UsePersonName
+  nameWithType: ImportCompanyDuplicateAction.UsePersonName
+  fullName: SuperOffice.Data.ImportCompanyDuplicateAction.UsePersonName
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Use person name\n"
+  syntax:
+    content: UsePersonName = 2
+    return:
+      type: SuperOffice.Data.ImportCompanyDuplicateAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportCompanyDuplicateAction.Skip
+  commentId: F:SuperOffice.Data.ImportCompanyDuplicateAction.Skip
+  id: Skip
+  parent: SuperOffice.Data.ImportCompanyDuplicateAction
+  langs:
+  - csharp
+  - vb
+  name: Skip
+  nameWithType: ImportCompanyDuplicateAction.Skip
+  fullName: SuperOffice.Data.ImportCompanyDuplicateAction.Skip
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n3: Skip\n"
+  syntax:
+    content: Skip = 3
+    return:
+      type: SuperOffice.Data.ImportCompanyDuplicateAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.ImportCompanyDuplicateAction.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ImportCompanyDuplicateAction, To>()
+  nameWithType: EnumUtil.MapEnums<ImportCompanyDuplicateAction, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ImportCompanyDuplicateAction, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ImportCompanyDuplicateAction, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ImportCompanyDuplicateAction, To)()
+  name.vb: MapEnums(Of ImportCompanyDuplicateAction, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ImportCompanyDuplicateAction, To>
+    nameWithType: EnumUtil.MapEnums<ImportCompanyDuplicateAction, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ImportCompanyDuplicateAction, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ImportCompanyDuplicateAction, To)
+    nameWithType: EnumUtil.MapEnums(Of ImportCompanyDuplicateAction, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ImportCompanyDuplicateAction, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ImportCompanyDuplicateAction.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ImportCompanyDuplicateAction)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ImportCompanyDuplicateAction>(ImportCompanyDuplicateAction)
+  nameWithType: ObjectExtensions.AssignByReflection<ImportCompanyDuplicateAction>(ImportCompanyDuplicateAction)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ImportCompanyDuplicateAction>(SuperOffice.Data.ImportCompanyDuplicateAction)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ImportCompanyDuplicateAction)(ImportCompanyDuplicateAction)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ImportCompanyDuplicateAction)(SuperOffice.Data.ImportCompanyDuplicateAction)
+  name.vb: AssignByReflection(Of ImportCompanyDuplicateAction)(ImportCompanyDuplicateAction)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ImportCompanyDuplicateAction>
+    nameWithType: ObjectExtensions.AssignByReflection<ImportCompanyDuplicateAction>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ImportCompanyDuplicateAction>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.ImportCompanyDuplicateAction
+    name: ImportCompanyDuplicateAction
+    nameWithType: ImportCompanyDuplicateAction
+    fullName: SuperOffice.Data.ImportCompanyDuplicateAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ImportCompanyDuplicateAction)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ImportCompanyDuplicateAction)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ImportCompanyDuplicateAction)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.ImportCompanyDuplicateAction
+    name: ImportCompanyDuplicateAction
+    nameWithType: ImportCompanyDuplicateAction
+    fullName: SuperOffice.Data.ImportCompanyDuplicateAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ImportCompanyDuplicateAction.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ImportCompanyDuplicateAction>()
+  nameWithType: ObjectExtensions.GraphCopy<ImportCompanyDuplicateAction>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ImportCompanyDuplicateAction>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ImportCompanyDuplicateAction)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ImportCompanyDuplicateAction)()
+  name.vb: GraphCopy(Of ImportCompanyDuplicateAction)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ImportCompanyDuplicateAction>
+    nameWithType: ObjectExtensions.GraphCopy<ImportCompanyDuplicateAction>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ImportCompanyDuplicateAction>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ImportCompanyDuplicateAction)
+    nameWithType: ObjectExtensions.GraphCopy(Of ImportCompanyDuplicateAction)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ImportCompanyDuplicateAction)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ImportCompanyDuplicateAction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ImportCompanyDuplicateAction, To>()
+  nameWithType: Converters.MapEnums<ImportCompanyDuplicateAction, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ImportCompanyDuplicateAction, To>()
+  nameWithType.vb: Converters.MapEnums(Of ImportCompanyDuplicateAction, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ImportCompanyDuplicateAction, To)()
+  name.vb: MapEnums(Of ImportCompanyDuplicateAction, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ImportCompanyDuplicateAction, To>
+    nameWithType: Converters.MapEnums<ImportCompanyDuplicateAction, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ImportCompanyDuplicateAction, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ImportCompanyDuplicateAction, To)
+    nameWithType: Converters.MapEnums(Of ImportCompanyDuplicateAction, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ImportCompanyDuplicateAction, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.ImportCompanyDuplicateAction
+  commentId: T:SuperOffice.Data.ImportCompanyDuplicateAction
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ImportCompanyDuplicateAction
+  nameWithType: ImportCompanyDuplicateAction
+  fullName: SuperOffice.Data.ImportCompanyDuplicateAction

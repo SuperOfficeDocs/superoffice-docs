@@ -1,0 +1,486 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ParticipantInfo
+  commentId: T:SuperOffice.WebApi.Data.ParticipantInfo
+  id: ParticipantInfo
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ParticipantInfo.#ctor
+  - SuperOffice.WebApi.Data.ParticipantInfo.AssociateId
+  - SuperOffice.WebApi.Data.ParticipantInfo.ContactId
+  - SuperOffice.WebApi.Data.ParticipantInfo.EmailId
+  - SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus
+  - SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus_String
+  - SuperOffice.WebApi.Data.ParticipantInfo.PersonId
+  - SuperOffice.WebApi.Data.ParticipantInfo.SendEmail
+  langs:
+  - csharp
+  - vb
+  name: ParticipantInfo
+  nameWithType: ParticipantInfo
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ParticipantInfo.\nClass representing an appointment participant.    \n"
+  syntax:
+    content: 'public class ParticipantInfo : Object'
+    content.vb: >-
+      Public Class ParticipantInfo
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AppointmentAgent
+    commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ParticipantInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: ParticipantInfo()
+  nameWithType: ParticipantInfo.ParticipantInfo()
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.ParticipantInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ParticipantInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ParticipantInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.ParticipantInfo.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: ParticipantInfo.AssociateId
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAssociate id of the participant if the participant is an associate (or resource)\n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.ParticipantInfo.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.PersonId
+  commentId: P:SuperOffice.WebApi.Data.ParticipantInfo.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: ParticipantInfo.PersonId
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPerson id of the participant if the participant is a person\n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.ParticipantInfo.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.ContactId
+  commentId: P:SuperOffice.WebApi.Data.ParticipantInfo.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: ParticipantInfo.ContactId
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.ContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContact id of the participant if the participant is an associate or person\n"
+  syntax:
+    content: public virtual int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.ParticipantInfo.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.EmailId
+  commentId: P:SuperOffice.WebApi.Data.ParticipantInfo.EmailId
+  id: EmailId
+  parent: SuperOffice.WebApi.Data.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: EmailId
+  nameWithType: ParticipantInfo.EmailId
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.EmailId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe email id of the email belonging to the appointment record belonging to this person\n"
+  syntax:
+    content: public virtual int EmailId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property EmailId As Integer
+  overload: SuperOffice.WebApi.Data.ParticipantInfo.EmailId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.SendEmail
+  commentId: P:SuperOffice.WebApi.Data.ParticipantInfo.SendEmail
+  id: SendEmail
+  parent: SuperOffice.WebApi.Data.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: SendEmail
+  nameWithType: ParticipantInfo.SendEmail
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.SendEmail
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if the participant has been sent an email or should be sent an email\n"
+  syntax:
+    content: public virtual bool SendEmail { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property SendEmail As Boolean
+  overload: SuperOffice.WebApi.Data.ParticipantInfo.SendEmail*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus_String
+  commentId: P:SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus_String
+  id: InvitationStatus_String
+  parent: SuperOffice.WebApi.Data.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: InvitationStatus_String
+  nameWithType: ParticipantInfo.InvitationStatus_String
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe participant status for the appointment\nRaw string enum value.\n"
+  syntax:
+    content: public string InvitationStatus_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property InvitationStatus_String As String
+  overload: SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus
+    commentId: P:SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus
+  commentId: P:SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus
+  id: InvitationStatus
+  parent: SuperOffice.WebApi.Data.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: InvitationStatus
+  nameWithType: ParticipantInfo.InvitationStatus
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe participant status for the appointment\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<InvitationStatus> InvitationStatus { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.InvitationStatus}
+    content.vb: Public Property InvitationStatus As Nullable(Of InvitationStatus)
+  overload: SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus_String
+    commentId: P:SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.AppointmentAgent
+  commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  isExternal: true
+  name: AppointmentAgent
+  nameWithType: AppointmentAgent
+  fullName: SuperOffice.WebApi.Agents.AppointmentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ParticipantInfo.#ctor
+  isExternal: true
+  name: ParticipantInfo
+  nameWithType: ParticipantInfo.ParticipantInfo
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.ParticipantInfo
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.ParticipantInfo.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: ParticipantInfo.AssociateId
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.ParticipantInfo.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: ParticipantInfo.PersonId
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.PersonId
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.ParticipantInfo.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: ParticipantInfo.ContactId
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.ContactId
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.EmailId*
+  commentId: Overload:SuperOffice.WebApi.Data.ParticipantInfo.EmailId
+  isExternal: true
+  name: EmailId
+  nameWithType: ParticipantInfo.EmailId
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.EmailId
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.SendEmail*
+  commentId: Overload:SuperOffice.WebApi.Data.ParticipantInfo.SendEmail
+  isExternal: true
+  name: SendEmail
+  nameWithType: ParticipantInfo.SendEmail
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.SendEmail
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus_String
+  isExternal: true
+  name: InvitationStatus_String
+  nameWithType: ParticipantInfo.InvitationStatus_String
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus_String
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus
+  commentId: P:SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus*
+  commentId: Overload:SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus
+  isExternal: true
+  name: InvitationStatus
+  nameWithType: ParticipantInfo.InvitationStatus
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus
+- uid: SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus_String
+  commentId: P:SuperOffice.WebApi.Data.ParticipantInfo.InvitationStatus_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.InvitationStatus}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.InvitationStatus}'
+  definition: System.Nullable`1
+  name: Nullable<InvitationStatus>
+  nameWithType: Nullable<InvitationStatus>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.InvitationStatus>
+  nameWithType.vb: Nullable(Of InvitationStatus)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.InvitationStatus)
+  name.vb: Nullable(Of InvitationStatus)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.InvitationStatus
+    name: InvitationStatus
+    nameWithType: InvitationStatus
+    fullName: SuperOffice.WebApi.Data.InvitationStatus
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.InvitationStatus
+    name: InvitationStatus
+    nameWithType: InvitationStatus
+    fullName: SuperOffice.WebApi.Data.InvitationStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

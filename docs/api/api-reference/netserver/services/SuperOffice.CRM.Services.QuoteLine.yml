@@ -1,0 +1,2208 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.QuoteLine
+  commentId: T:SuperOffice.CRM.Services.QuoteLine
+  id: QuoteLine
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.QuoteLine.#ctor
+  - SuperOffice.CRM.Services.QuoteLine.Code
+  - SuperOffice.CRM.Services.QuoteLine.DeliveredQuantity
+  - SuperOffice.CRM.Services.QuoteLine.Description
+  - SuperOffice.CRM.Services.QuoteLine.DiscountAmount
+  - SuperOffice.CRM.Services.QuoteLine.DiscountPercent
+  - SuperOffice.CRM.Services.QuoteLine.EarningAmount
+  - SuperOffice.CRM.Services.QuoteLine.EarningPercent
+  - SuperOffice.CRM.Services.QuoteLine.ERPDiscountAmount
+  - SuperOffice.CRM.Services.QuoteLine.ERPDiscountPercent
+  - SuperOffice.CRM.Services.QuoteLine.ERPProductKey
+  - SuperOffice.CRM.Services.QuoteLine.ERPQuoteLineKey
+  - SuperOffice.CRM.Services.QuoteLine.ExtraField1
+  - SuperOffice.CRM.Services.QuoteLine.ExtraField2
+  - SuperOffice.CRM.Services.QuoteLine.ExtraField3
+  - SuperOffice.CRM.Services.QuoteLine.ExtraField4
+  - SuperOffice.CRM.Services.QuoteLine.ExtraField5
+  - SuperOffice.CRM.Services.QuoteLine.ExtraInfo
+  - SuperOffice.CRM.Services.QuoteLine.IsSubscription
+  - SuperOffice.CRM.Services.QuoteLine.ItemNumber
+  - SuperOffice.CRM.Services.QuoteLine.Name
+  - SuperOffice.CRM.Services.QuoteLine.PriceUnit
+  - SuperOffice.CRM.Services.QuoteLine.ProductCategoryKey
+  - SuperOffice.CRM.Services.QuoteLine.ProductFamilyKey
+  - SuperOffice.CRM.Services.QuoteLine.ProductTypeKey
+  - SuperOffice.CRM.Services.QuoteLine.Quantity
+  - SuperOffice.CRM.Services.QuoteLine.QuantityUnit
+  - SuperOffice.CRM.Services.QuoteLine.QuoteAlternativeId
+  - SuperOffice.CRM.Services.QuoteLine.QuoteLineId
+  - SuperOffice.CRM.Services.QuoteLine.Rank
+  - SuperOffice.CRM.Services.QuoteLine.RawExtraInfo
+  - SuperOffice.CRM.Services.QuoteLine.Reason
+  - SuperOffice.CRM.Services.QuoteLine.Rights
+  - SuperOffice.CRM.Services.QuoteLine.Rule
+  - SuperOffice.CRM.Services.QuoteLine.Status
+  - SuperOffice.CRM.Services.QuoteLine.SubscriptionQuantity
+  - SuperOffice.CRM.Services.QuoteLine.SubscriptionStart
+  - SuperOffice.CRM.Services.QuoteLine.SubscriptionUnit
+  - SuperOffice.CRM.Services.QuoteLine.SubTotal
+  - SuperOffice.CRM.Services.QuoteLine.Supplier
+  - SuperOffice.CRM.Services.QuoteLine.SupplierCode
+  - SuperOffice.CRM.Services.QuoteLine.Thumbnail
+  - SuperOffice.CRM.Services.QuoteLine.ToString
+  - SuperOffice.CRM.Services.QuoteLine.ToString(System.String)
+  - SuperOffice.CRM.Services.QuoteLine.TotalPrice
+  - SuperOffice.CRM.Services.QuoteLine.UnitCost
+  - SuperOffice.CRM.Services.QuoteLine.UnitListPrice
+  - SuperOffice.CRM.Services.QuoteLine.UnitMinimumPrice
+  - SuperOffice.CRM.Services.QuoteLine.Url
+  - SuperOffice.CRM.Services.QuoteLine.UserValueOverride
+  - SuperOffice.CRM.Services.QuoteLine.VAT
+  - SuperOffice.CRM.Services.QuoteLine.VATInfo
+  langs:
+  - csharp
+  - vb
+  name: QuoteLine
+  nameWithType: QuoteLine
+  fullName: SuperOffice.CRM.Services.QuoteLine
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInformation about a connection to the ERP system.\n<p></p>\nCarrier object for QuoteLine.\nServices for the QuoteLine Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IQuoteAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class QuoteLine : Carrier'
+    content.vb: >-
+      Public Class QuoteLine
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.QuoteAgent
+    commentId: T:SuperOffice.CRM.Services.QuoteAgent
+  - linkId: SuperOffice.CRM.Services.IQuoteAgent
+    commentId: T:SuperOffice.CRM.Services.IQuoteAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.QuoteLine.#ctor
+  commentId: M:SuperOffice.CRM.Services.QuoteLine.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: QuoteLine()
+  nameWithType: QuoteLine.QuoteLine()
+  fullName: SuperOffice.CRM.Services.QuoteLine.QuoteLine()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public QuoteLine()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.QuoteLine.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.QuoteLine.ToString
+  commentId: M:SuperOffice.CRM.Services.QuoteLine.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: QuoteLine.ToString()
+  fullName: SuperOffice.CRM.Services.QuoteLine.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.QuoteLine.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.QuoteLine.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.QuoteLine.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: QuoteLine.ToString(String)
+  fullName: SuperOffice.CRM.Services.QuoteLine.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.QuoteLine.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.QuoteLine.QuoteLineId
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.QuoteLineId
+  id: QuoteLineId
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineId
+  nameWithType: QuoteLine.QuoteLineId
+  fullName: SuperOffice.CRM.Services.QuoteLine.QuoteLineId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int QuoteLineId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property QuoteLineId As Integer
+  overload: SuperOffice.CRM.Services.QuoteLine.QuoteLineId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.ERPQuoteLineKey
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.ERPQuoteLineKey
+  id: ERPQuoteLineKey
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ERPQuoteLineKey
+  nameWithType: QuoteLine.ERPQuoteLineKey
+  fullName: SuperOffice.CRM.Services.QuoteLine.ERPQuoteLineKey
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe foreign key to the quoteline in ERP system (if it has such a representation). \n"
+  syntax:
+    content: public virtual string ERPQuoteLineKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ERPQuoteLineKey As String
+  overload: SuperOffice.CRM.Services.QuoteLine.ERPQuoteLineKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.QuoteAlternativeId
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.QuoteAlternativeId
+  id: QuoteAlternativeId
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: QuoteAlternativeId
+  nameWithType: QuoteLine.QuoteAlternativeId
+  fullName: SuperOffice.CRM.Services.QuoteLine.QuoteAlternativeId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe alternative this line is part of, the conceptual Parent in CRM database. \n"
+  syntax:
+    content: public virtual int QuoteAlternativeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property QuoteAlternativeId As Integer
+  overload: SuperOffice.CRM.Services.QuoteLine.QuoteAlternativeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.ERPProductKey
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.ERPProductKey
+  id: ERPProductKey
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ERPProductKey
+  nameWithType: QuoteLine.ERPProductKey
+  fullName: SuperOffice.CRM.Services.QuoteLine.ERPProductKey
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nForeign key of product+pricelist this line is based on. Can be blank since the QuoteLine doesn’t have to be connected to a product. \n"
+  syntax:
+    content: public virtual string ERPProductKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ERPProductKey As String
+  overload: SuperOffice.CRM.Services.QuoteLine.ERPProductKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.Status
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.Status
+  id: Status
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: QuoteLine.Status
+  fullName: SuperOffice.CRM.Services.QuoteLine.Status
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIf there was a problem with for instance calculation, this field is set to warning or error. Typically shown as an icon. QuoteStatus is an enum with statuses: OK, OKWithInfo, Warning, Error. \n"
+  syntax:
+    content: public virtual QuoteStatus Status { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.QuoteStatus
+    content.vb: Public Overridable Property Status As QuoteStatus
+  overload: SuperOffice.CRM.Services.QuoteLine.Status*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.Reason
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.Reason
+  id: Reason
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: Reason
+  nameWithType: QuoteLine.Reason
+  fullName: SuperOffice.CRM.Services.QuoteLine.Reason
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIf QuoteStatus is not OK, then this field contains a localized explanation that the user can be shown. \n"
+  syntax:
+    content: public virtual string Reason { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Reason As String
+  overload: SuperOffice.CRM.Services.QuoteLine.Reason*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.Quantity
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.Quantity
+  id: Quantity
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: Quantity
+  nameWithType: QuoteLine.Quantity
+  fullName: SuperOffice.CRM.Services.QuoteLine.Quantity
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nHow many units; this is a decimal field since you might want to offer fractional units (2.5kg, or 0.5PC). \n"
+  syntax:
+    content: public virtual double Quantity { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property Quantity As Double
+  overload: SuperOffice.CRM.Services.QuoteLine.Quantity*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.DeliveredQuantity
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.DeliveredQuantity
+  id: DeliveredQuantity
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: DeliveredQuantity
+  nameWithType: QuoteLine.DeliveredQuantity
+  fullName: SuperOffice.CRM.Services.QuoteLine.DeliveredQuantity
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nHow many units have been delivered - updated by ERP system. \n"
+  syntax:
+    content: public virtual double DeliveredQuantity { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property DeliveredQuantity As Double
+  overload: SuperOffice.CRM.Services.QuoteLine.DeliveredQuantity*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.Rank
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: QuoteLine.Rank
+  fullName: SuperOffice.CRM.Services.QuoteLine.Rank
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nQuoteLines can be re-ordered, so we must track the ordering. \n"
+  syntax:
+    content: public virtual int Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Rank As Integer
+  overload: SuperOffice.CRM.Services.QuoteLine.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.Name
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: QuoteLine.Name
+  fullName: SuperOffice.CRM.Services.QuoteLine.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe name of the product. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link. \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.QuoteLine.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.Description
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: QuoteLine.Description
+  fullName: SuperOffice.CRM.Services.QuoteLine.Description
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA longer description for the product. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link. \n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.QuoteLine.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.Code
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.Code
+  id: Code
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: Code
+  nameWithType: QuoteLine.Code
+  fullName: SuperOffice.CRM.Services.QuoteLine.Code
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA value the salesmen use to quickly find the correct product. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link. \n"
+  syntax:
+    content: public virtual string Code { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Code As String
+  overload: SuperOffice.CRM.Services.QuoteLine.Code*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.QuantityUnit
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.QuantityUnit
+  id: QuantityUnit
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: QuantityUnit
+  nameWithType: QuoteLine.QuantityUnit
+  fullName: SuperOffice.CRM.Services.QuoteLine.QuantityUnit
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhat is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); Connector handles conversion relative to PriceUnit if they are different. \n"
+  syntax:
+    content: public virtual string QuantityUnit { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property QuantityUnit As String
+  overload: SuperOffice.CRM.Services.QuoteLine.QuantityUnit*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.PriceUnit
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.PriceUnit
+  id: PriceUnit
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: PriceUnit
+  nameWithType: QuoteLine.PriceUnit
+  fullName: SuperOffice.CRM.Services.QuoteLine.PriceUnit
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhat is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); read-only for lines that originate in defined products. \n"
+  syntax:
+    content: public virtual string PriceUnit { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PriceUnit As String
+  overload: SuperOffice.CRM.Services.QuoteLine.PriceUnit*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.ItemNumber
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.ItemNumber
+  id: ItemNumber
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ItemNumber
+  nameWithType: QuoteLine.ItemNumber
+  fullName: SuperOffice.CRM.Services.QuoteLine.ItemNumber
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNorwegian: «Postnummer». Specific numbers from some hierarchy, for instance &apos;1.4.3.2&apos;. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link. \n"
+  syntax:
+    content: public virtual string ItemNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ItemNumber As String
+  overload: SuperOffice.CRM.Services.QuoteLine.ItemNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.Url
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.Url
+  id: Url
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: QuoteLine.Url
+  fullName: SuperOffice.CRM.Services.QuoteLine.Url
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA url to the product info. Can be empty. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link. \n"
+  syntax:
+    content: public virtual string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Url As String
+  overload: SuperOffice.CRM.Services.QuoteLine.Url*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.ProductCategoryKey
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.ProductCategoryKey
+  id: ProductCategoryKey
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ProductCategoryKey
+  nameWithType: QuoteLine.ProductCategoryKey
+  fullName: SuperOffice.CRM.Services.QuoteLine.ProductCategoryKey
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn&apos;t support lists, a text. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link. \n"
+  syntax:
+    content: public virtual string ProductCategoryKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProductCategoryKey As String
+  overload: SuperOffice.CRM.Services.QuoteLine.ProductCategoryKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.ProductFamilyKey
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.ProductFamilyKey
+  id: ProductFamilyKey
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ProductFamilyKey
+  nameWithType: QuoteLine.ProductFamilyKey
+  fullName: SuperOffice.CRM.Services.QuoteLine.ProductFamilyKey
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn&apos;t support lists, a text. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link. \n"
+  syntax:
+    content: public virtual string ProductFamilyKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProductFamilyKey As String
+  overload: SuperOffice.CRM.Services.QuoteLine.ProductFamilyKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.ProductTypeKey
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.ProductTypeKey
+  id: ProductTypeKey
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ProductTypeKey
+  nameWithType: QuoteLine.ProductTypeKey
+  fullName: SuperOffice.CRM.Services.QuoteLine.ProductTypeKey
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn&apos;t support lists, a text. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link. \n"
+  syntax:
+    content: public virtual string ProductTypeKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProductTypeKey As String
+  overload: SuperOffice.CRM.Services.QuoteLine.ProductTypeKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.Supplier
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.Supplier
+  id: Supplier
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: Supplier
+  nameWithType: QuoteLine.Supplier
+  fullName: SuperOffice.CRM.Services.QuoteLine.Supplier
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe name of the supplier. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link. \n"
+  syntax:
+    content: public virtual string Supplier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Supplier As String
+  overload: SuperOffice.CRM.Services.QuoteLine.Supplier*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.SupplierCode
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.SupplierCode
+  id: SupplierCode
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: SupplierCode
+  nameWithType: QuoteLine.SupplierCode
+  fullName: SuperOffice.CRM.Services.QuoteLine.SupplierCode
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe suppliers&apos; code or part number for this product. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link. \n"
+  syntax:
+    content: public virtual string SupplierCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SupplierCode As String
+  overload: SuperOffice.CRM.Services.QuoteLine.SupplierCode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.Thumbnail
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.Thumbnail
+  id: Thumbnail
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: Thumbnail
+  nameWithType: QuoteLine.Thumbnail
+  fullName: SuperOffice.CRM.Services.QuoteLine.Thumbnail
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA small image of the product, typically used to show in a list. Base64 encoded png. \n"
+  syntax:
+    content: public virtual string Thumbnail { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Thumbnail As String
+  overload: SuperOffice.CRM.Services.QuoteLine.Thumbnail*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.VATInfo
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.VATInfo
+  id: VATInfo
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: VATInfo
+  nameWithType: QuoteLine.VATInfo
+  fullName: SuperOffice.CRM.Services.QuoteLine.VATInfo
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTax/VAT information, Extra info about VAT that the connector might insert, and the users might want to specify on the quote. The core CRM product has no business logic for this field, it is wholly up to connectors to use it. \n"
+  syntax:
+    content: public virtual string VATInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property VATInfo As String
+  overload: SuperOffice.CRM.Services.QuoteLine.VATInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.VAT
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.VAT
+  id: VAT
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: VAT
+  nameWithType: QuoteLine.VAT
+  fullName: SuperOffice.CRM.Services.QuoteLine.VAT
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTax/VAT - THIS IS A PERCENTAGE. The connector is responsible for populating this field; the percentage will be used to calculate VAT amounts available as merge fields in the document templates (but amounts are never stored in the database). \n"
+  syntax:
+    content: public virtual double VAT { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property VAT As Double
+  overload: SuperOffice.CRM.Services.QuoteLine.VAT*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.UnitCost
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.UnitCost
+  id: UnitCost
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: UnitCost
+  nameWithType: QuoteLine.UnitCost
+  fullName: SuperOffice.CRM.Services.QuoteLine.UnitCost
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe cost price per unit for this product. May be filled in by connector if it has the Provide-Cost capability. \n"
+  syntax:
+    content: public virtual double UnitCost { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property UnitCost As Double
+  overload: SuperOffice.CRM.Services.QuoteLine.UnitCost*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.UnitMinimumPrice
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.UnitMinimumPrice
+  id: UnitMinimumPrice
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: UnitMinimumPrice
+  nameWithType: QuoteLine.UnitMinimumPrice
+  fullName: SuperOffice.CRM.Services.QuoteLine.UnitMinimumPrice
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe minimum price this line can be sold for (to limit discounting). Will come from the connector. List price per unit must exceed the minimum price per unit. \n"
+  syntax:
+    content: public virtual double UnitMinimumPrice { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property UnitMinimumPrice As Double
+  overload: SuperOffice.CRM.Services.QuoteLine.UnitMinimumPrice*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.UnitListPrice
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.UnitListPrice
+  id: UnitListPrice
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: UnitListPrice
+  nameWithType: QuoteLine.UnitListPrice
+  fullName: SuperOffice.CRM.Services.QuoteLine.UnitListPrice
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe standard list price; as given by ERP Connector, OR overridden by user \n"
+  syntax:
+    content: public virtual double UnitListPrice { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property UnitListPrice As Double
+  overload: SuperOffice.CRM.Services.QuoteLine.UnitListPrice*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.ExtraInfo
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: QuoteLine.ExtraInfo
+  fullName: SuperOffice.CRM.Services.QuoteLine.ExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nExtra information, supplied by QuoteConnector, used by a future dynamic GUI extension \n"
+  syntax:
+    content: public virtual ProductExtraDataField[] ExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.ProductExtraDataField[]
+    content.vb: Public Overridable Property ExtraInfo As ProductExtraDataField()
+  overload: SuperOffice.CRM.Services.QuoteLine.ExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.RawExtraInfo
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.RawExtraInfo
+  id: RawExtraInfo
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: RawExtraInfo
+  nameWithType: QuoteLine.RawExtraInfo
+  fullName: SuperOffice.CRM.Services.QuoteLine.RawExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRead-only extra information in plain text, supplied by QuoteConnector, used by a future dynamic GUI extension \n"
+  syntax:
+    content: public virtual string RawExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RawExtraInfo As String
+  overload: SuperOffice.CRM.Services.QuoteLine.RawExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.IsSubscription
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.IsSubscription
+  id: IsSubscription
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: IsSubscription
+  nameWithType: QuoteLine.IsSubscription
+  fullName: SuperOffice.CRM.Services.QuoteLine.IsSubscription
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIs this a subscription product, sold in repeating intervals/amounts? \n"
+  syntax:
+    content: public virtual bool IsSubscription { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsSubscription As Boolean
+  overload: SuperOffice.CRM.Services.QuoteLine.IsSubscription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.SubscriptionUnit
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.SubscriptionUnit
+  id: SubscriptionUnit
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionUnit
+  nameWithType: QuoteLine.SubscriptionUnit
+  fullName: SuperOffice.CRM.Services.QuoteLine.SubscriptionUnit
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual subscription unit. \n"
+  syntax:
+    content: public virtual string SubscriptionUnit { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SubscriptionUnit As String
+  overload: SuperOffice.CRM.Services.QuoteLine.SubscriptionUnit*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.SubscriptionQuantity
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.SubscriptionQuantity
+  id: SubscriptionQuantity
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionQuantity
+  nameWithType: QuoteLine.SubscriptionQuantity
+  fullName: SuperOffice.CRM.Services.QuoteLine.SubscriptionQuantity
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe default number of SubscriptionUnits to suggest when creating quote lines from this product \n"
+  syntax:
+    content: public virtual double SubscriptionQuantity { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property SubscriptionQuantity As Double
+  overload: SuperOffice.CRM.Services.QuoteLine.SubscriptionQuantity*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.SubscriptionStart
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.SubscriptionStart
+  id: SubscriptionStart
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionStart
+  nameWithType: QuoteLine.SubscriptionStart
+  fullName: SuperOffice.CRM.Services.QuoteLine.SubscriptionStart
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStart date for subscription, as offered \n"
+  syntax:
+    content: public virtual DateTime SubscriptionStart { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property SubscriptionStart As Date
+  overload: SuperOffice.CRM.Services.QuoteLine.SubscriptionStart*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.ERPDiscountPercent
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.ERPDiscountPercent
+  id: ERPDiscountPercent
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ERPDiscountPercent
+  nameWithType: QuoteLine.ERPDiscountPercent
+  fullName: SuperOffice.CRM.Services.QuoteLine.ERPDiscountPercent
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe discount the system calculates based on customer / quantity / whatever. Can be overrided by the salesman in the field &apos;DiscountPercent&apos; or &apos;DiscountAmount&apos;. Both fields ERPDiscountPercent and ERPDiscountAmount will be filled out. If UserValueOverride is set to ‘None’ then the value is copied to DiscountPercent. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’. \n"
+  syntax:
+    content: public virtual double ERPDiscountPercent { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property ERPDiscountPercent As Double
+  overload: SuperOffice.CRM.Services.QuoteLine.ERPDiscountPercent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.ERPDiscountAmount
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.ERPDiscountAmount
+  id: ERPDiscountAmount
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ERPDiscountAmount
+  nameWithType: QuoteLine.ERPDiscountAmount
+  fullName: SuperOffice.CRM.Services.QuoteLine.ERPDiscountAmount
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe discount the system calculates based on customer / quantity / whatever. Can be overrided by the salesman in the field &apos;DiscountPercent&apos; or &apos;DiscountAmount&apos;. If UserValueOverride is set to ‘None’ then the value is copied to DiscountAmount. Both fields ERPDiscountPercent and ERPDiscountAmount will be filled out. \n"
+  syntax:
+    content: public virtual double ERPDiscountAmount { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property ERPDiscountAmount As Double
+  overload: SuperOffice.CRM.Services.QuoteLine.ERPDiscountAmount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.DiscountPercent
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.DiscountPercent
+  id: DiscountPercent
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: DiscountPercent
+  nameWithType: QuoteLine.DiscountPercent
+  fullName: SuperOffice.CRM.Services.QuoteLine.DiscountPercent
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe discount for the line, in percent. Both ‘DiscountPercent’ and ‘DiscountAmount’ shall be filled out, but the UserValueOverride field must be set to the field the user actually changed last. If this field is filled out by the user, it overrides any discount suggested by the connector. If the user has not filled this in, the system will copy the ERP discount amount to this field. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’. \n"
+  syntax:
+    content: public virtual double DiscountPercent { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property DiscountPercent As Double
+  overload: SuperOffice.CRM.Services.QuoteLine.DiscountPercent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.DiscountAmount
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.DiscountAmount
+  id: DiscountAmount
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: DiscountAmount
+  nameWithType: QuoteLine.DiscountAmount
+  fullName: SuperOffice.CRM.Services.QuoteLine.DiscountAmount
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe discount for the line, in whatever currency the sale is in. Both ‘DiscountPercent’ and ‘DiscountAmount’ shall be filled out, but the UserValueOverride field must be set to the field the user actually changed last. If this field is filled out by the user, it overrides any discount suggested by the connector. If the user has not filled this in, the system will copy the ERP discount amount to this field. \n"
+  syntax:
+    content: public virtual double DiscountAmount { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property DiscountAmount As Double
+  overload: SuperOffice.CRM.Services.QuoteLine.DiscountAmount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.UserValueOverride
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.UserValueOverride
+  id: UserValueOverride
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: UserValueOverride
+  nameWithType: QuoteLine.UserValueOverride
+  fullName: SuperOffice.CRM.Services.QuoteLine.UserValueOverride
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nHas the pre-calculated (from ERP) price information been overridden, and how. If the user has filled out the discountpercentage field, then the UserValueOverride field is set to OverridePercent. (The DiscountAmount, EarningPercent, EarningAmount and TotalPrice fields are calculated based on the DiscountPercent.) \n"
+  syntax:
+    content: public virtual ValueOverride UserValueOverride { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.ValueOverride
+    content.vb: Public Overridable Property UserValueOverride As ValueOverride
+  overload: SuperOffice.CRM.Services.QuoteLine.UserValueOverride*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.EarningPercent
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.EarningPercent
+  id: EarningPercent
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: EarningPercent
+  nameWithType: QuoteLine.EarningPercent
+  fullName: SuperOffice.CRM.Services.QuoteLine.EarningPercent
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe earning, in percent. Both ‘EarningAmount and ‘EarningPercent shall be filled out, but the UserValueOverride field must be set to the field the user actually changed last. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’. \n"
+  syntax:
+    content: public virtual double EarningPercent { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property EarningPercent As Double
+  overload: SuperOffice.CRM.Services.QuoteLine.EarningPercent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.EarningAmount
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.EarningAmount
+  id: EarningAmount
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: EarningAmount
+  nameWithType: QuoteLine.EarningAmount
+  fullName: SuperOffice.CRM.Services.QuoteLine.EarningAmount
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe earning, in whatever currency the sale is in. Both ‘EarningAmount and ‘EarningPercent shall be filled out, but the UserValueOverride field must be set to the field the user actually changed last. \n"
+  syntax:
+    content: public virtual double EarningAmount { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property EarningAmount As Double
+  overload: SuperOffice.CRM.Services.QuoteLine.EarningAmount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.SubTotal
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.SubTotal
+  id: SubTotal
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: SubTotal
+  nameWithType: QuoteLine.SubTotal
+  fullName: SuperOffice.CRM.Services.QuoteLine.SubTotal
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nValue to help the user interface, is equal to &apos;Quantity * ListPrice&apos; \n"
+  syntax:
+    content: public virtual double SubTotal { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property SubTotal As Double
+  overload: SuperOffice.CRM.Services.QuoteLine.SubTotal*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.TotalPrice
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.TotalPrice
+  id: TotalPrice
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: TotalPrice
+  nameWithType: QuoteLine.TotalPrice
+  fullName: SuperOffice.CRM.Services.QuoteLine.TotalPrice
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTotalPrice  = SubTotal - DiscountAmount or TotalPrice = (UnitCost * Quantity) + EarningAmount, according to what the user changed last. \n"
+  syntax:
+    content: public virtual double TotalPrice { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property TotalPrice As Double
+  overload: SuperOffice.CRM.Services.QuoteLine.TotalPrice*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.Rights
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.Rights
+  id: Rights
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: Rights
+  nameWithType: QuoteLine.Rights
+  fullName: SuperOffice.CRM.Services.QuoteLine.Rights
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nField1=right&amp;Field2=right, etc. of any fields that have non-standard field access rights. Rights can be one of: N (=None or Hidden), R (=Read-only), W (=Writeable), M (=Mandatory). The fields will mostly be from the Quoteline table, but some added fields that are conceptually part of the quoteline, like Image will also be possibly to set rights on. Will be used by SuperOffice to control the user interface when showing the record. \n"
+  syntax:
+    content: public virtual string Rights { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Rights As String
+  overload: SuperOffice.CRM.Services.QuoteLine.Rights*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.Rule
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.Rule
+  id: Rule
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: Rule
+  nameWithType: QuoteLine.Rule
+  fullName: SuperOffice.CRM.Services.QuoteLine.Rule
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe names of one or more calculation rules that are in effect for this line, comma-separated case-insensitive \n"
+  syntax:
+    content: public virtual string Rule { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Rule As String
+  overload: SuperOffice.CRM.Services.QuoteLine.Rule*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.ExtraField1
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.ExtraField1
+  id: ExtraField1
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ExtraField1
+  nameWithType: QuoteLine.ExtraField1
+  fullName: SuperOffice.CRM.Services.QuoteLine.ExtraField1
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display. \n"
+  syntax:
+    content: public virtual string ExtraField1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraField1 As String
+  overload: SuperOffice.CRM.Services.QuoteLine.ExtraField1*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.ExtraField2
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.ExtraField2
+  id: ExtraField2
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ExtraField2
+  nameWithType: QuoteLine.ExtraField2
+  fullName: SuperOffice.CRM.Services.QuoteLine.ExtraField2
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display. \n"
+  syntax:
+    content: public virtual string ExtraField2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraField2 As String
+  overload: SuperOffice.CRM.Services.QuoteLine.ExtraField2*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.ExtraField3
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.ExtraField3
+  id: ExtraField3
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ExtraField3
+  nameWithType: QuoteLine.ExtraField3
+  fullName: SuperOffice.CRM.Services.QuoteLine.ExtraField3
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display. \n"
+  syntax:
+    content: public virtual string ExtraField3 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraField3 As String
+  overload: SuperOffice.CRM.Services.QuoteLine.ExtraField3*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.ExtraField4
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.ExtraField4
+  id: ExtraField4
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ExtraField4
+  nameWithType: QuoteLine.ExtraField4
+  fullName: SuperOffice.CRM.Services.QuoteLine.ExtraField4
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display. \n"
+  syntax:
+    content: public virtual string ExtraField4 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraField4 As String
+  overload: SuperOffice.CRM.Services.QuoteLine.ExtraField4*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuoteLine.ExtraField5
+  commentId: P:SuperOffice.CRM.Services.QuoteLine.ExtraField5
+  id: ExtraField5
+  parent: SuperOffice.CRM.Services.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ExtraField5
+  nameWithType: QuoteLine.ExtraField5
+  fullName: SuperOffice.CRM.Services.QuoteLine.ExtraField5
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display. \n"
+  syntax:
+    content: public virtual string ExtraField5 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraField5 As String
+  overload: SuperOffice.CRM.Services.QuoteLine.ExtraField5*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.QuoteAgent
+  commentId: T:SuperOffice.CRM.Services.QuoteAgent
+  isExternal: true
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.CRM.Services.QuoteAgent
+- uid: SuperOffice.CRM.Services.IQuoteAgent
+  commentId: T:SuperOffice.CRM.Services.IQuoteAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IQuoteAgent
+  nameWithType: IQuoteAgent
+  fullName: SuperOffice.CRM.Services.IQuoteAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.QuoteLine.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.#ctor
+  isExternal: true
+  name: QuoteLine
+  nameWithType: QuoteLine.QuoteLine
+  fullName: SuperOffice.CRM.Services.QuoteLine.QuoteLine
+- uid: SuperOffice.CRM.Services.QuoteLine.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: QuoteLine.ToString
+  fullName: SuperOffice.CRM.Services.QuoteLine.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.QuoteLine.QuoteLineId*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.QuoteLineId
+  isExternal: true
+  name: QuoteLineId
+  nameWithType: QuoteLine.QuoteLineId
+  fullName: SuperOffice.CRM.Services.QuoteLine.QuoteLineId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.QuoteLine.ERPQuoteLineKey*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.ERPQuoteLineKey
+  isExternal: true
+  name: ERPQuoteLineKey
+  nameWithType: QuoteLine.ERPQuoteLineKey
+  fullName: SuperOffice.CRM.Services.QuoteLine.ERPQuoteLineKey
+- uid: SuperOffice.CRM.Services.QuoteLine.QuoteAlternativeId*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.QuoteAlternativeId
+  isExternal: true
+  name: QuoteAlternativeId
+  nameWithType: QuoteLine.QuoteAlternativeId
+  fullName: SuperOffice.CRM.Services.QuoteLine.QuoteAlternativeId
+- uid: SuperOffice.CRM.Services.QuoteLine.ERPProductKey*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.ERPProductKey
+  isExternal: true
+  name: ERPProductKey
+  nameWithType: QuoteLine.ERPProductKey
+  fullName: SuperOffice.CRM.Services.QuoteLine.ERPProductKey
+- uid: SuperOffice.CRM.Services.QuoteLine.Status*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.Status
+  isExternal: true
+  name: Status
+  nameWithType: QuoteLine.Status
+  fullName: SuperOffice.CRM.Services.QuoteLine.Status
+- uid: SuperOffice.Data.QuoteStatus
+  isExternal: true
+  name: QuoteStatus
+  nameWithType: QuoteStatus
+  fullName: SuperOffice.Data.QuoteStatus
+- uid: SuperOffice.CRM.Services.QuoteLine.Reason*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.Reason
+  isExternal: true
+  name: Reason
+  nameWithType: QuoteLine.Reason
+  fullName: SuperOffice.CRM.Services.QuoteLine.Reason
+- uid: SuperOffice.CRM.Services.QuoteLine.Quantity*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.Quantity
+  isExternal: true
+  name: Quantity
+  nameWithType: QuoteLine.Quantity
+  fullName: SuperOffice.CRM.Services.QuoteLine.Quantity
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.CRM.Services.QuoteLine.DeliveredQuantity*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.DeliveredQuantity
+  isExternal: true
+  name: DeliveredQuantity
+  nameWithType: QuoteLine.DeliveredQuantity
+  fullName: SuperOffice.CRM.Services.QuoteLine.DeliveredQuantity
+- uid: SuperOffice.CRM.Services.QuoteLine.Rank*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: QuoteLine.Rank
+  fullName: SuperOffice.CRM.Services.QuoteLine.Rank
+- uid: SuperOffice.CRM.Services.QuoteLine.Name*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.Name
+  isExternal: true
+  name: Name
+  nameWithType: QuoteLine.Name
+  fullName: SuperOffice.CRM.Services.QuoteLine.Name
+- uid: SuperOffice.CRM.Services.QuoteLine.Description*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.Description
+  isExternal: true
+  name: Description
+  nameWithType: QuoteLine.Description
+  fullName: SuperOffice.CRM.Services.QuoteLine.Description
+- uid: SuperOffice.CRM.Services.QuoteLine.Code*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.Code
+  isExternal: true
+  name: Code
+  nameWithType: QuoteLine.Code
+  fullName: SuperOffice.CRM.Services.QuoteLine.Code
+- uid: SuperOffice.CRM.Services.QuoteLine.QuantityUnit*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.QuantityUnit
+  isExternal: true
+  name: QuantityUnit
+  nameWithType: QuoteLine.QuantityUnit
+  fullName: SuperOffice.CRM.Services.QuoteLine.QuantityUnit
+- uid: SuperOffice.CRM.Services.QuoteLine.PriceUnit*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.PriceUnit
+  isExternal: true
+  name: PriceUnit
+  nameWithType: QuoteLine.PriceUnit
+  fullName: SuperOffice.CRM.Services.QuoteLine.PriceUnit
+- uid: SuperOffice.CRM.Services.QuoteLine.ItemNumber*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.ItemNumber
+  isExternal: true
+  name: ItemNumber
+  nameWithType: QuoteLine.ItemNumber
+  fullName: SuperOffice.CRM.Services.QuoteLine.ItemNumber
+- uid: SuperOffice.CRM.Services.QuoteLine.Url*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.Url
+  isExternal: true
+  name: Url
+  nameWithType: QuoteLine.Url
+  fullName: SuperOffice.CRM.Services.QuoteLine.Url
+- uid: SuperOffice.CRM.Services.QuoteLine.ProductCategoryKey*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.ProductCategoryKey
+  isExternal: true
+  name: ProductCategoryKey
+  nameWithType: QuoteLine.ProductCategoryKey
+  fullName: SuperOffice.CRM.Services.QuoteLine.ProductCategoryKey
+- uid: SuperOffice.CRM.Services.QuoteLine.ProductFamilyKey*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.ProductFamilyKey
+  isExternal: true
+  name: ProductFamilyKey
+  nameWithType: QuoteLine.ProductFamilyKey
+  fullName: SuperOffice.CRM.Services.QuoteLine.ProductFamilyKey
+- uid: SuperOffice.CRM.Services.QuoteLine.ProductTypeKey*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.ProductTypeKey
+  isExternal: true
+  name: ProductTypeKey
+  nameWithType: QuoteLine.ProductTypeKey
+  fullName: SuperOffice.CRM.Services.QuoteLine.ProductTypeKey
+- uid: SuperOffice.CRM.Services.QuoteLine.Supplier*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.Supplier
+  isExternal: true
+  name: Supplier
+  nameWithType: QuoteLine.Supplier
+  fullName: SuperOffice.CRM.Services.QuoteLine.Supplier
+- uid: SuperOffice.CRM.Services.QuoteLine.SupplierCode*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.SupplierCode
+  isExternal: true
+  name: SupplierCode
+  nameWithType: QuoteLine.SupplierCode
+  fullName: SuperOffice.CRM.Services.QuoteLine.SupplierCode
+- uid: SuperOffice.CRM.Services.QuoteLine.Thumbnail*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.Thumbnail
+  isExternal: true
+  name: Thumbnail
+  nameWithType: QuoteLine.Thumbnail
+  fullName: SuperOffice.CRM.Services.QuoteLine.Thumbnail
+- uid: SuperOffice.CRM.Services.QuoteLine.VATInfo*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.VATInfo
+  isExternal: true
+  name: VATInfo
+  nameWithType: QuoteLine.VATInfo
+  fullName: SuperOffice.CRM.Services.QuoteLine.VATInfo
+- uid: SuperOffice.CRM.Services.QuoteLine.VAT*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.VAT
+  isExternal: true
+  name: VAT
+  nameWithType: QuoteLine.VAT
+  fullName: SuperOffice.CRM.Services.QuoteLine.VAT
+- uid: SuperOffice.CRM.Services.QuoteLine.UnitCost*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.UnitCost
+  isExternal: true
+  name: UnitCost
+  nameWithType: QuoteLine.UnitCost
+  fullName: SuperOffice.CRM.Services.QuoteLine.UnitCost
+- uid: SuperOffice.CRM.Services.QuoteLine.UnitMinimumPrice*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.UnitMinimumPrice
+  isExternal: true
+  name: UnitMinimumPrice
+  nameWithType: QuoteLine.UnitMinimumPrice
+  fullName: SuperOffice.CRM.Services.QuoteLine.UnitMinimumPrice
+- uid: SuperOffice.CRM.Services.QuoteLine.UnitListPrice*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.UnitListPrice
+  isExternal: true
+  name: UnitListPrice
+  nameWithType: QuoteLine.UnitListPrice
+  fullName: SuperOffice.CRM.Services.QuoteLine.UnitListPrice
+- uid: SuperOffice.CRM.Services.QuoteLine.ExtraInfo*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.ExtraInfo
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: QuoteLine.ExtraInfo
+  fullName: SuperOffice.CRM.Services.QuoteLine.ExtraInfo
+- uid: SuperOffice.CRM.Services.ProductExtraDataField[]
+  isExternal: true
+  name: ProductExtraDataField[]
+  nameWithType: ProductExtraDataField[]
+  fullName: SuperOffice.CRM.Services.ProductExtraDataField[]
+  nameWithType.vb: ProductExtraDataField()
+  fullName.vb: SuperOffice.CRM.Services.ProductExtraDataField()
+  name.vb: ProductExtraDataField()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ProductExtraDataField
+    name: ProductExtraDataField
+    nameWithType: ProductExtraDataField
+    fullName: SuperOffice.CRM.Services.ProductExtraDataField
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ProductExtraDataField
+    name: ProductExtraDataField
+    nameWithType: ProductExtraDataField
+    fullName: SuperOffice.CRM.Services.ProductExtraDataField
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.QuoteLine.RawExtraInfo*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.RawExtraInfo
+  isExternal: true
+  name: RawExtraInfo
+  nameWithType: QuoteLine.RawExtraInfo
+  fullName: SuperOffice.CRM.Services.QuoteLine.RawExtraInfo
+- uid: SuperOffice.CRM.Services.QuoteLine.IsSubscription*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.IsSubscription
+  isExternal: true
+  name: IsSubscription
+  nameWithType: QuoteLine.IsSubscription
+  fullName: SuperOffice.CRM.Services.QuoteLine.IsSubscription
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.QuoteLine.SubscriptionUnit*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.SubscriptionUnit
+  isExternal: true
+  name: SubscriptionUnit
+  nameWithType: QuoteLine.SubscriptionUnit
+  fullName: SuperOffice.CRM.Services.QuoteLine.SubscriptionUnit
+- uid: SuperOffice.CRM.Services.QuoteLine.SubscriptionQuantity*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.SubscriptionQuantity
+  isExternal: true
+  name: SubscriptionQuantity
+  nameWithType: QuoteLine.SubscriptionQuantity
+  fullName: SuperOffice.CRM.Services.QuoteLine.SubscriptionQuantity
+- uid: SuperOffice.CRM.Services.QuoteLine.SubscriptionStart*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.SubscriptionStart
+  isExternal: true
+  name: SubscriptionStart
+  nameWithType: QuoteLine.SubscriptionStart
+  fullName: SuperOffice.CRM.Services.QuoteLine.SubscriptionStart
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.QuoteLine.ERPDiscountPercent*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.ERPDiscountPercent
+  isExternal: true
+  name: ERPDiscountPercent
+  nameWithType: QuoteLine.ERPDiscountPercent
+  fullName: SuperOffice.CRM.Services.QuoteLine.ERPDiscountPercent
+- uid: SuperOffice.CRM.Services.QuoteLine.ERPDiscountAmount*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.ERPDiscountAmount
+  isExternal: true
+  name: ERPDiscountAmount
+  nameWithType: QuoteLine.ERPDiscountAmount
+  fullName: SuperOffice.CRM.Services.QuoteLine.ERPDiscountAmount
+- uid: SuperOffice.CRM.Services.QuoteLine.DiscountPercent*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.DiscountPercent
+  isExternal: true
+  name: DiscountPercent
+  nameWithType: QuoteLine.DiscountPercent
+  fullName: SuperOffice.CRM.Services.QuoteLine.DiscountPercent
+- uid: SuperOffice.CRM.Services.QuoteLine.DiscountAmount*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.DiscountAmount
+  isExternal: true
+  name: DiscountAmount
+  nameWithType: QuoteLine.DiscountAmount
+  fullName: SuperOffice.CRM.Services.QuoteLine.DiscountAmount
+- uid: SuperOffice.CRM.Services.QuoteLine.UserValueOverride*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.UserValueOverride
+  isExternal: true
+  name: UserValueOverride
+  nameWithType: QuoteLine.UserValueOverride
+  fullName: SuperOffice.CRM.Services.QuoteLine.UserValueOverride
+- uid: SuperOffice.Data.ValueOverride
+  isExternal: true
+  name: ValueOverride
+  nameWithType: ValueOverride
+  fullName: SuperOffice.Data.ValueOverride
+- uid: SuperOffice.CRM.Services.QuoteLine.EarningPercent*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.EarningPercent
+  isExternal: true
+  name: EarningPercent
+  nameWithType: QuoteLine.EarningPercent
+  fullName: SuperOffice.CRM.Services.QuoteLine.EarningPercent
+- uid: SuperOffice.CRM.Services.QuoteLine.EarningAmount*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.EarningAmount
+  isExternal: true
+  name: EarningAmount
+  nameWithType: QuoteLine.EarningAmount
+  fullName: SuperOffice.CRM.Services.QuoteLine.EarningAmount
+- uid: SuperOffice.CRM.Services.QuoteLine.SubTotal*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.SubTotal
+  isExternal: true
+  name: SubTotal
+  nameWithType: QuoteLine.SubTotal
+  fullName: SuperOffice.CRM.Services.QuoteLine.SubTotal
+- uid: SuperOffice.CRM.Services.QuoteLine.TotalPrice*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.TotalPrice
+  isExternal: true
+  name: TotalPrice
+  nameWithType: QuoteLine.TotalPrice
+  fullName: SuperOffice.CRM.Services.QuoteLine.TotalPrice
+- uid: SuperOffice.CRM.Services.QuoteLine.Rights*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.Rights
+  isExternal: true
+  name: Rights
+  nameWithType: QuoteLine.Rights
+  fullName: SuperOffice.CRM.Services.QuoteLine.Rights
+- uid: SuperOffice.CRM.Services.QuoteLine.Rule*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.Rule
+  isExternal: true
+  name: Rule
+  nameWithType: QuoteLine.Rule
+  fullName: SuperOffice.CRM.Services.QuoteLine.Rule
+- uid: SuperOffice.CRM.Services.QuoteLine.ExtraField1*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.ExtraField1
+  isExternal: true
+  name: ExtraField1
+  nameWithType: QuoteLine.ExtraField1
+  fullName: SuperOffice.CRM.Services.QuoteLine.ExtraField1
+- uid: SuperOffice.CRM.Services.QuoteLine.ExtraField2*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.ExtraField2
+  isExternal: true
+  name: ExtraField2
+  nameWithType: QuoteLine.ExtraField2
+  fullName: SuperOffice.CRM.Services.QuoteLine.ExtraField2
+- uid: SuperOffice.CRM.Services.QuoteLine.ExtraField3*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.ExtraField3
+  isExternal: true
+  name: ExtraField3
+  nameWithType: QuoteLine.ExtraField3
+  fullName: SuperOffice.CRM.Services.QuoteLine.ExtraField3
+- uid: SuperOffice.CRM.Services.QuoteLine.ExtraField4*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.ExtraField4
+  isExternal: true
+  name: ExtraField4
+  nameWithType: QuoteLine.ExtraField4
+  fullName: SuperOffice.CRM.Services.QuoteLine.ExtraField4
+- uid: SuperOffice.CRM.Services.QuoteLine.ExtraField5*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteLine.ExtraField5
+  isExternal: true
+  name: ExtraField5
+  nameWithType: QuoteLine.ExtraField5
+  fullName: SuperOffice.CRM.Services.QuoteLine.ExtraField5

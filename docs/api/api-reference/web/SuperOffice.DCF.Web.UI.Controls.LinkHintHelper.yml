@@ -1,0 +1,596 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.LinkHintHelper
+  id: LinkHintHelper
+  parent: SuperOffice.DCF.Web.UI.Controls
+  children:
+  - SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetLink(System.String,SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType)
+  - SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetLinkHintValue(System.String,System.String)
+  - SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetLinkHintValues(System.String,System.String)
+  - SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetStringLinkHintValue(System.String,System.String)
+  - SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetUniqueKey(System.String)
+  langs:
+  - csharp
+  - vb
+  name: LinkHintHelper
+  nameWithType: LinkHintHelper
+  fullName: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public static class LinkHintHelper
+    content.vb: Public Module LinkHintHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetLink(System.String,SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetLink(System.String,SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType)
+  id: GetLink(System.String,SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType)
+  parent: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper
+  langs:
+  - csharp
+  - vb
+  name: GetLink(String, LinkInfoSubType)
+  nameWithType: LinkHintHelper.GetLink(String, LinkInfoSubType)
+  fullName: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetLink(System.String, SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public static LinkInfo GetLink(string linkName, LinkInfoSubType linkInfoSubType)
+    parameters:
+    - id: linkName
+      type: System.String
+    - id: linkInfoSubType
+      type: SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType
+    return:
+      type: SuperOffice.DCF.Web.UI.Controls.LinkInfo
+    content.vb: Public Shared Function GetLink(linkName As String, linkInfoSubType As LinkInfoSubType) As LinkInfo
+  overload: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetLink*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetUniqueKey(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetUniqueKey(System.String)
+  id: GetUniqueKey(System.String)
+  parent: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper
+  langs:
+  - csharp
+  - vb
+  name: GetUniqueKey(String)
+  nameWithType: LinkHintHelper.GetUniqueKey(String)
+  fullName: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetUniqueKey(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public static string GetUniqueKey(string linkhint)
+    parameters:
+    - id: linkhint
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetUniqueKey(linkhint As String) As String
+  overload: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetUniqueKey*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetLinkHintValue(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetLinkHintValue(System.String,System.String)
+  id: GetLinkHintValue(System.String,System.String)
+  parent: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper
+  langs:
+  - csharp
+  - vb
+  name: GetLinkHintValue(String, String)
+  nameWithType: LinkHintHelper.GetLinkHintValue(String, String)
+  fullName: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetLinkHintValue(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public static int GetLinkHintValue(string linkHint, string key)
+    parameters:
+    - id: linkHint
+      type: System.String
+    - id: key
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetLinkHintValue(linkHint As String, key As String) As Integer
+  overload: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetLinkHintValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetLinkHintValues(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetLinkHintValues(System.String,System.String)
+  id: GetLinkHintValues(System.String,System.String)
+  parent: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper
+  langs:
+  - csharp
+  - vb
+  name: GetLinkHintValues(String, String)
+  nameWithType: LinkHintHelper.GetLinkHintValues(String, String)
+  fullName: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetLinkHintValues(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public static int[] GetLinkHintValues(string linkHint, string key)
+    parameters:
+    - id: linkHint
+      type: System.String
+    - id: key
+      type: System.String
+    return:
+      type: System.Int32[]
+    content.vb: Public Shared Function GetLinkHintValues(linkHint As String, key As String) As Integer()
+  overload: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetLinkHintValues*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetStringLinkHintValue(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetStringLinkHintValue(System.String,System.String)
+  id: GetStringLinkHintValue(System.String,System.String)
+  parent: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper
+  langs:
+  - csharp
+  - vb
+  name: GetStringLinkHintValue(String, String)
+  nameWithType: LinkHintHelper.GetStringLinkHintValue(String, String)
+  fullName: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetStringLinkHintValue(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public static string GetStringLinkHintValue(string linkHint, string key)
+    parameters:
+    - id: linkHint
+      type: System.String
+    - id: key
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetStringLinkHintValue(linkHint As String, key As String) As String
+  overload: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetStringLinkHintValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.DCF.Web.UI.Controls
+  commentId: N:SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Controls
+  nameWithType: SuperOffice.DCF.Web.UI.Controls
+  fullName: SuperOffice.DCF.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetLink*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetLink
+  isExternal: true
+  name: GetLink
+  nameWithType: LinkHintHelper.GetLink
+  fullName: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetLink
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType
+  parent: SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: LinkInfoSubType
+  nameWithType: LinkInfoSubType
+  fullName: SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType
+- uid: SuperOffice.DCF.Web.UI.Controls.LinkInfo
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.LinkInfo
+  parent: SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: LinkInfo
+  nameWithType: LinkInfo
+  fullName: SuperOffice.DCF.Web.UI.Controls.LinkInfo
+- uid: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetUniqueKey*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetUniqueKey
+  isExternal: true
+  name: GetUniqueKey
+  nameWithType: LinkHintHelper.GetUniqueKey
+  fullName: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetUniqueKey
+- uid: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetLinkHintValue*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetLinkHintValue
+  isExternal: true
+  name: GetLinkHintValue
+  nameWithType: LinkHintHelper.GetLinkHintValue
+  fullName: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetLinkHintValue
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetLinkHintValues*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetLinkHintValues
+  isExternal: true
+  name: GetLinkHintValues
+  nameWithType: LinkHintHelper.GetLinkHintValues
+  fullName: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetLinkHintValues
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetStringLinkHintValue*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetStringLinkHintValue
+  isExternal: true
+  name: GetStringLinkHintValue
+  nameWithType: LinkHintHelper.GetStringLinkHintValue
+  fullName: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper.GetStringLinkHintValue

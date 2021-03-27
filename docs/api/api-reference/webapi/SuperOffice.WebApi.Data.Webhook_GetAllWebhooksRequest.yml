@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest
+  commentId: T:SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest
+  id: Webhook_GetAllWebhooksRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.#ctor
+  - SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.EventFilter
+  - SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.NameFilter
+  - SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.StatusFilter
+  langs:
+  - csharp
+  - vb
+  name: Webhook_GetAllWebhooksRequest
+  nameWithType: Webhook_GetAllWebhooksRequest
+  fullName: SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Webhook_GetAllWebhooksRequest : Object'
+    content.vb: >-
+      Public Class Webhook_GetAllWebhooksRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest
+  langs:
+  - csharp
+  - vb
+  name: Webhook_GetAllWebhooksRequest()
+  nameWithType: Webhook_GetAllWebhooksRequest.Webhook_GetAllWebhooksRequest()
+  fullName: SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.Webhook_GetAllWebhooksRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Webhook_GetAllWebhooksRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.NameFilter
+  commentId: P:SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.NameFilter
+  id: NameFilter
+  parent: SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest
+  langs:
+  - csharp
+  - vb
+  name: NameFilter
+  nameWithType: Webhook_GetAllWebhooksRequest.NameFilter
+  fullName: SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.NameFilter
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string NameFilter { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NameFilter As String
+  overload: SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.NameFilter*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.EventFilter
+  commentId: P:SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.EventFilter
+  id: EventFilter
+  parent: SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest
+  langs:
+  - csharp
+  - vb
+  name: EventFilter
+  nameWithType: Webhook_GetAllWebhooksRequest.EventFilter
+  fullName: SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.EventFilter
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string EventFilter { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EventFilter As String
+  overload: SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.EventFilter*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.StatusFilter
+  commentId: P:SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.StatusFilter
+  id: StatusFilter
+  parent: SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest
+  langs:
+  - csharp
+  - vb
+  name: StatusFilter
+  nameWithType: Webhook_GetAllWebhooksRequest.StatusFilter
+  fullName: SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.StatusFilter
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public WebhookState StatusFilter { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.WebhookState
+    content.vb: Public Property StatusFilter As WebhookState
+  overload: SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.StatusFilter*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.#ctor
+  isExternal: true
+  name: Webhook_GetAllWebhooksRequest
+  nameWithType: Webhook_GetAllWebhooksRequest.Webhook_GetAllWebhooksRequest
+  fullName: SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.Webhook_GetAllWebhooksRequest
+- uid: SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.NameFilter*
+  commentId: Overload:SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.NameFilter
+  isExternal: true
+  name: NameFilter
+  nameWithType: Webhook_GetAllWebhooksRequest.NameFilter
+  fullName: SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.NameFilter
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.EventFilter*
+  commentId: Overload:SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.EventFilter
+  isExternal: true
+  name: EventFilter
+  nameWithType: Webhook_GetAllWebhooksRequest.EventFilter
+  fullName: SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.EventFilter
+- uid: SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.StatusFilter*
+  commentId: Overload:SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.StatusFilter
+  isExternal: true
+  name: StatusFilter
+  nameWithType: Webhook_GetAllWebhooksRequest.StatusFilter
+  fullName: SuperOffice.WebApi.Data.Webhook_GetAllWebhooksRequest.StatusFilter
+- uid: SuperOffice.WebApi.Data.WebhookState
+  commentId: T:SuperOffice.WebApi.Data.WebhookState
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WebhookState
+  nameWithType: WebhookState
+  fullName: SuperOffice.WebApi.Data.WebhookState

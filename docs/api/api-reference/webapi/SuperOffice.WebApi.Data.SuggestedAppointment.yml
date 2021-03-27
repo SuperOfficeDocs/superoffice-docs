@@ -1,0 +1,711 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment
+  commentId: T:SuperOffice.WebApi.Data.SuggestedAppointment
+  id: SuggestedAppointment
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.SuggestedAppointment.#ctor
+  - SuperOffice.WebApi.Data.SuggestedAppointment.Associate
+  - SuperOffice.WebApi.Data.SuggestedAppointment.AutoSuggest
+  - SuperOffice.WebApi.Data.SuggestedAppointment.DaysFuture
+  - SuperOffice.WebApi.Data.SuggestedAppointment.Deleted
+  - SuperOffice.WebApi.Data.SuggestedAppointment.Duration
+  - SuperOffice.WebApi.Data.SuggestedAppointment.Name
+  - SuperOffice.WebApi.Data.SuggestedAppointment.ProjectTypeStatusLinkId
+  - SuperOffice.WebApi.Data.SuggestedAppointment.Rank
+  - SuperOffice.WebApi.Data.SuggestedAppointment.RegisteredAssociateId
+  - SuperOffice.WebApi.Data.SuggestedAppointment.SaleTypeStageLinkId
+  - SuperOffice.WebApi.Data.SuggestedAppointment.SuggestedAppointmentId
+  - SuperOffice.WebApi.Data.SuggestedAppointment.TaskId
+  - SuperOffice.WebApi.Data.SuggestedAppointment.Text
+  - SuperOffice.WebApi.Data.SuggestedAppointment.Tooltip
+  langs:
+  - csharp
+  - vb
+  name: SuggestedAppointment
+  nameWithType: SuggestedAppointment
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for SuggestedAppointment.\n\n"
+  example:
+  - "\nGet SuggestedAppointment 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new AppointmentAgent(configuration);\nvar suggestedAppointment = agent.GetSuggestedAppointment( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class SuggestedAppointment : Carrier'
+    content.vb: >-
+      Public Class SuggestedAppointment
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AppointmentAgent
+    commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.#ctor
+  commentId: M:SuperOffice.WebApi.Data.SuggestedAppointment.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: SuggestedAppointment()
+  nameWithType: SuggestedAppointment.SuggestedAppointment()
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.SuggestedAppointment()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public SuggestedAppointment()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.SuggestedAppointment.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.AutoSuggest
+  commentId: P:SuperOffice.WebApi.Data.SuggestedAppointment.AutoSuggest
+  id: AutoSuggest
+  parent: SuperOffice.WebApi.Data.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: AutoSuggest
+  nameWithType: SuggestedAppointment.AutoSuggest
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.AutoSuggest
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould this appointment be auto-suggested\n"
+  syntax:
+    content: public virtual short AutoSuggest { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property AutoSuggest As Short
+  overload: SuperOffice.WebApi.Data.SuggestedAppointment.AutoSuggest*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.Deleted
+  commentId: P:SuperOffice.WebApi.Data.SuggestedAppointment.Deleted
+  id: Deleted
+  parent: SuperOffice.WebApi.Data.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: SuggestedAppointment.Deleted
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.Deleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists\n"
+  syntax:
+    content: public virtual short Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Deleted As Short
+  overload: SuperOffice.WebApi.Data.SuggestedAppointment.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.DaysFuture
+  commentId: P:SuperOffice.WebApi.Data.SuggestedAppointment.DaysFuture
+  id: DaysFuture
+  parent: SuperOffice.WebApi.Data.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: DaysFuture
+  nameWithType: SuggestedAppointment.DaysFuture
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.DaysFuture
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHow many days into the future the appointment should be scheduled\n"
+  syntax:
+    content: public virtual short DaysFuture { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property DaysFuture As Short
+  overload: SuperOffice.WebApi.Data.SuggestedAppointment.DaysFuture*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.Tooltip
+  commentId: P:SuperOffice.WebApi.Data.SuggestedAppointment.Tooltip
+  id: Tooltip
+  parent: SuperOffice.WebApi.Data.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: SuggestedAppointment.Tooltip
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip / description\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.WebApi.Data.SuggestedAppointment.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.Text
+  commentId: P:SuperOffice.WebApi.Data.SuggestedAppointment.Text
+  id: Text
+  parent: SuperOffice.WebApi.Data.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: SuggestedAppointment.Text
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.Text
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe suggested text of the new appointment\n"
+  syntax:
+    content: public virtual string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Text As String
+  overload: SuperOffice.WebApi.Data.SuggestedAppointment.Text*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.TaskId
+  commentId: P:SuperOffice.WebApi.Data.SuggestedAppointment.TaskId
+  id: TaskId
+  parent: SuperOffice.WebApi.Data.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: TaskId
+  nameWithType: SuggestedAppointment.TaskId
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.TaskId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nType of the suggested appointment\n"
+  syntax:
+    content: public virtual int TaskId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TaskId As Integer
+  overload: SuperOffice.WebApi.Data.SuggestedAppointment.TaskId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.SuggestedAppointmentId
+  commentId: P:SuperOffice.WebApi.Data.SuggestedAppointment.SuggestedAppointmentId
+  id: SuggestedAppointmentId
+  parent: SuperOffice.WebApi.Data.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: SuggestedAppointmentId
+  nameWithType: SuggestedAppointment.SuggestedAppointmentId
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.SuggestedAppointmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int SuggestedAppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SuggestedAppointmentId As Integer
+  overload: SuperOffice.WebApi.Data.SuggestedAppointment.SuggestedAppointmentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.SaleTypeStageLinkId
+  commentId: P:SuperOffice.WebApi.Data.SuggestedAppointment.SaleTypeStageLinkId
+  id: SaleTypeStageLinkId
+  parent: SuperOffice.WebApi.Data.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeStageLinkId
+  nameWithType: SuggestedAppointment.SaleTypeStageLinkId
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.SaleTypeStageLinkId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLink to saleTypeStageLink, the anchor for sale guide items. Either this OR projectAnchorId should be set, not both at the same time.\n"
+  syntax:
+    content: public virtual int SaleTypeStageLinkId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleTypeStageLinkId As Integer
+  overload: SuperOffice.WebApi.Data.SuggestedAppointment.SaleTypeStageLinkId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.RegisteredAssociateId
+  commentId: P:SuperOffice.WebApi.Data.SuggestedAppointment.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.WebApi.Data.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: SuggestedAppointment.RegisteredAssociateId
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.RegisteredAssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRegistered by whom\n"
+  syntax:
+    content: public virtual int RegisteredAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RegisteredAssociateId As Integer
+  overload: SuperOffice.WebApi.Data.SuggestedAppointment.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.Rank
+  commentId: P:SuperOffice.WebApi.Data.SuggestedAppointment.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: SuggestedAppointment.Rank
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRank, controls rank of non-instantiated items in Guide\n"
+  syntax:
+    content: public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Rank As Short
+  overload: SuperOffice.WebApi.Data.SuggestedAppointment.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.ProjectTypeStatusLinkId
+  commentId: P:SuperOffice.WebApi.Data.SuggestedAppointment.ProjectTypeStatusLinkId
+  id: ProjectTypeStatusLinkId
+  parent: SuperOffice.WebApi.Data.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: ProjectTypeStatusLinkId
+  nameWithType: SuggestedAppointment.ProjectTypeStatusLinkId
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.ProjectTypeStatusLinkId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLink to projectTypeStatusLink, the anchor for project guide items. Either this OR saleAnchorId should be set, not both at the same time.\n"
+  syntax:
+    content: public virtual int ProjectTypeStatusLinkId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProjectTypeStatusLinkId As Integer
+  overload: SuperOffice.WebApi.Data.SuggestedAppointment.ProjectTypeStatusLinkId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.Name
+  commentId: P:SuperOffice.WebApi.Data.SuggestedAppointment.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SuggestedAppointment.Name
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nItem name, visible in Guide\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.SuggestedAppointment.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.Duration
+  commentId: P:SuperOffice.WebApi.Data.SuggestedAppointment.Duration
+  id: Duration
+  parent: SuperOffice.WebApi.Data.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: SuggestedAppointment.Duration
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.Duration
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDuration in minutes of suggested appointment\n"
+  syntax:
+    content: public virtual short Duration { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Duration As Short
+  overload: SuperOffice.WebApi.Data.SuggestedAppointment.Duration*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.Associate
+  commentId: P:SuperOffice.WebApi.Data.SuggestedAppointment.Associate
+  id: Associate
+  parent: SuperOffice.WebApi.Data.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: SuggestedAppointment.Associate
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.Associate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe owner of the suggested activity. Always the same as the sales owner.\n"
+  syntax:
+    content: public virtual Associate Associate { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property Associate As Associate
+  overload: SuperOffice.WebApi.Data.SuggestedAppointment.Associate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.AppointmentAgent
+  commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  isExternal: true
+  name: AppointmentAgent
+  nameWithType: AppointmentAgent
+  fullName: SuperOffice.WebApi.Agents.AppointmentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointment.#ctor
+  isExternal: true
+  name: SuggestedAppointment
+  nameWithType: SuggestedAppointment.SuggestedAppointment
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.SuggestedAppointment
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.AutoSuggest*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointment.AutoSuggest
+  isExternal: true
+  name: AutoSuggest
+  nameWithType: SuggestedAppointment.AutoSuggest
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.AutoSuggest
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.Deleted*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointment.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: SuggestedAppointment.Deleted
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.Deleted
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.DaysFuture*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointment.DaysFuture
+  isExternal: true
+  name: DaysFuture
+  nameWithType: SuggestedAppointment.DaysFuture
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.DaysFuture
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.Tooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointment.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: SuggestedAppointment.Tooltip
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.Tooltip
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.Text*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointment.Text
+  isExternal: true
+  name: Text
+  nameWithType: SuggestedAppointment.Text
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.Text
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.TaskId*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointment.TaskId
+  isExternal: true
+  name: TaskId
+  nameWithType: SuggestedAppointment.TaskId
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.TaskId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.SuggestedAppointmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointment.SuggestedAppointmentId
+  isExternal: true
+  name: SuggestedAppointmentId
+  nameWithType: SuggestedAppointment.SuggestedAppointmentId
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.SuggestedAppointmentId
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.SaleTypeStageLinkId*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointment.SaleTypeStageLinkId
+  isExternal: true
+  name: SaleTypeStageLinkId
+  nameWithType: SuggestedAppointment.SaleTypeStageLinkId
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.SaleTypeStageLinkId
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointment.RegisteredAssociateId
+  isExternal: true
+  name: RegisteredAssociateId
+  nameWithType: SuggestedAppointment.RegisteredAssociateId
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.RegisteredAssociateId
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointment.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: SuggestedAppointment.Rank
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.Rank
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.ProjectTypeStatusLinkId*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointment.ProjectTypeStatusLinkId
+  isExternal: true
+  name: ProjectTypeStatusLinkId
+  nameWithType: SuggestedAppointment.ProjectTypeStatusLinkId
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.ProjectTypeStatusLinkId
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointment.Name
+  isExternal: true
+  name: Name
+  nameWithType: SuggestedAppointment.Name
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.Name
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.Duration*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointment.Duration
+  isExternal: true
+  name: Duration
+  nameWithType: SuggestedAppointment.Duration
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.Duration
+- uid: SuperOffice.WebApi.Data.SuggestedAppointment.Associate*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointment.Associate
+  isExternal: true
+  name: Associate
+  nameWithType: SuggestedAppointment.Associate
+  fullName: SuperOffice.WebApi.Data.SuggestedAppointment.Associate
+- uid: SuperOffice.WebApi.Data.Associate
+  commentId: T:SuperOffice.WebApi.Data.Associate
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.WebApi.Data.Associate

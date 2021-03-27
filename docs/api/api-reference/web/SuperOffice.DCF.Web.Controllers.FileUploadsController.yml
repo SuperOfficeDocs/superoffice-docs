@@ -1,0 +1,325 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.Controllers.FileUploadsController
+  commentId: T:SuperOffice.DCF.Web.Controllers.FileUploadsController
+  id: FileUploadsController
+  parent: SuperOffice.DCF.Web.Controllers
+  children:
+  - SuperOffice.DCF.Web.Controllers.FileUploadsController.#ctor
+  - SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadChatImage
+  - SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadDocument
+  - SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadEmailAttachment
+  - SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadFormBackgroundImage
+  - SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadFroalaImage
+  langs:
+  - csharp
+  - vb
+  name: FileUploadsController
+  nameWithType: FileUploadsController
+  fullName: SuperOffice.DCF.Web.Controllers.FileUploadsController
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Controllers
+  syntax:
+    content: >-
+      [EnableJsonTypeAnnotations]
+
+      [ValidateMimeMultipartContentFilter]
+
+      public class FileUploadsController : ApiController, IRequiresSessionState
+    content.vb: >-
+      <EnableJsonTypeAnnotations>
+
+      <ValidateMimeMultipartContentFilter>
+
+      Public Class FileUploadsController
+          Inherits ApiController
+          Implements IRequiresSessionState
+  inheritance:
+  - System.Object
+  implements:
+  - System.Web.SessionState.IRequiresSessionState
+  attributes:
+  - type: SuperOffice.Web.WebApi.EnableJsonTypeAnnotationsAttribute
+    ctor: SuperOffice.Web.WebApi.EnableJsonTypeAnnotationsAttribute.#ctor
+    arguments: []
+  - type: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter
+    ctor: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadDocument
+  commentId: M:SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadDocument
+  id: UploadDocument
+  parent: SuperOffice.DCF.Web.Controllers.FileUploadsController
+  langs:
+  - csharp
+  - vb
+  name: UploadDocument()
+  nameWithType: FileUploadsController.UploadDocument()
+  fullName: SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadDocument()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Controllers
+  syntax:
+    content: public HttpResponseMessage UploadDocument()
+    return:
+      type: System.Net.Http.HttpResponseMessage
+    content.vb: Public Function UploadDocument As HttpResponseMessage
+  overload: SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadDocument*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadEmailAttachment
+  commentId: M:SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadEmailAttachment
+  id: UploadEmailAttachment
+  parent: SuperOffice.DCF.Web.Controllers.FileUploadsController
+  langs:
+  - csharp
+  - vb
+  name: UploadEmailAttachment()
+  nameWithType: FileUploadsController.UploadEmailAttachment()
+  fullName: SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadEmailAttachment()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Controllers
+  syntax:
+    content: >-
+      [ValidateMimeMultipartContentFilter]
+
+      public object UploadEmailAttachment()
+    return:
+      type: System.Object
+    content.vb: >-
+      <ValidateMimeMultipartContentFilter>
+
+      Public Function UploadEmailAttachment As Object
+  overload: SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadEmailAttachment*
+  attributes:
+  - type: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter
+    ctor: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadChatImage
+  commentId: M:SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadChatImage
+  id: UploadChatImage
+  parent: SuperOffice.DCF.Web.Controllers.FileUploadsController
+  langs:
+  - csharp
+  - vb
+  name: UploadChatImage()
+  nameWithType: FileUploadsController.UploadChatImage()
+  fullName: SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadChatImage()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Controllers
+  syntax:
+    content: >-
+      [ValidateMimeMultipartContentFilter]
+
+      public object UploadChatImage()
+    return:
+      type: System.Object
+    content.vb: >-
+      <ValidateMimeMultipartContentFilter>
+
+      Public Function UploadChatImage As Object
+  overload: SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadChatImage*
+  attributes:
+  - type: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter
+    ctor: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadFormBackgroundImage
+  commentId: M:SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadFormBackgroundImage
+  id: UploadFormBackgroundImage
+  parent: SuperOffice.DCF.Web.Controllers.FileUploadsController
+  langs:
+  - csharp
+  - vb
+  name: UploadFormBackgroundImage()
+  nameWithType: FileUploadsController.UploadFormBackgroundImage()
+  fullName: SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadFormBackgroundImage()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Controllers
+  syntax:
+    content: >-
+      [ValidateMimeMultipartContentFilter]
+
+      public object UploadFormBackgroundImage()
+    return:
+      type: System.Object
+    content.vb: >-
+      <ValidateMimeMultipartContentFilter>
+
+      Public Function UploadFormBackgroundImage As Object
+  overload: SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadFormBackgroundImage*
+  attributes:
+  - type: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter
+    ctor: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadFroalaImage
+  commentId: M:SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadFroalaImage
+  id: UploadFroalaImage
+  parent: SuperOffice.DCF.Web.Controllers.FileUploadsController
+  langs:
+  - csharp
+  - vb
+  name: UploadFroalaImage()
+  nameWithType: FileUploadsController.UploadFroalaImage()
+  fullName: SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadFroalaImage()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Controllers
+  syntax:
+    content: >-
+      [ValidateMimeMultipartContentFilter]
+
+      public object UploadFroalaImage()
+    return:
+      type: System.Object
+    content.vb: >-
+      <ValidateMimeMultipartContentFilter>
+
+      Public Function UploadFroalaImage As Object
+  overload: SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadFroalaImage*
+  attributes:
+  - type: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter
+    ctor: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.Controllers.FileUploadsController.#ctor
+  commentId: M:SuperOffice.DCF.Web.Controllers.FileUploadsController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.Controllers.FileUploadsController
+  langs:
+  - csharp
+  - vb
+  name: FileUploadsController()
+  nameWithType: FileUploadsController.FileUploadsController()
+  fullName: SuperOffice.DCF.Web.Controllers.FileUploadsController.FileUploadsController()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Controllers
+  syntax:
+    content: public FileUploadsController()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.Controllers.FileUploadsController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.Controllers
+  commentId: N:SuperOffice.DCF.Web.Controllers
+  isExternal: true
+  name: SuperOffice.DCF.Web.Controllers
+  nameWithType: SuperOffice.DCF.Web.Controllers
+  fullName: SuperOffice.DCF.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.SessionState.IRequiresSessionState
+  isExternal: true
+  name: IRequiresSessionState
+  nameWithType: IRequiresSessionState
+  fullName: System.Web.SessionState.IRequiresSessionState
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadDocument*
+  commentId: Overload:SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadDocument
+  isExternal: true
+  name: UploadDocument
+  nameWithType: FileUploadsController.UploadDocument
+  fullName: SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadDocument
+- uid: System.Net.Http.HttpResponseMessage
+  commentId: '!:System.Net.Http.HttpResponseMessage'
+  isExternal: true
+  name: HttpResponseMessage
+  nameWithType: HttpResponseMessage
+  fullName: System.Net.Http.HttpResponseMessage
+- uid: SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadEmailAttachment*
+  commentId: Overload:SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadEmailAttachment
+  isExternal: true
+  name: UploadEmailAttachment
+  nameWithType: FileUploadsController.UploadEmailAttachment
+  fullName: SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadEmailAttachment
+- uid: SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadChatImage*
+  commentId: Overload:SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadChatImage
+  isExternal: true
+  name: UploadChatImage
+  nameWithType: FileUploadsController.UploadChatImage
+  fullName: SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadChatImage
+- uid: SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadFormBackgroundImage*
+  commentId: Overload:SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadFormBackgroundImage
+  isExternal: true
+  name: UploadFormBackgroundImage
+  nameWithType: FileUploadsController.UploadFormBackgroundImage
+  fullName: SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadFormBackgroundImage
+- uid: SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadFroalaImage*
+  commentId: Overload:SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadFroalaImage
+  isExternal: true
+  name: UploadFroalaImage
+  nameWithType: FileUploadsController.UploadFroalaImage
+  fullName: SuperOffice.DCF.Web.Controllers.FileUploadsController.UploadFroalaImage
+- uid: SuperOffice.DCF.Web.Controllers.FileUploadsController.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.Controllers.FileUploadsController.#ctor
+  isExternal: true
+  name: FileUploadsController
+  nameWithType: FileUploadsController.FileUploadsController
+  fullName: SuperOffice.DCF.Web.Controllers.FileUploadsController.FileUploadsController

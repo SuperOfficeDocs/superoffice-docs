@@ -1,0 +1,977 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.EmailFields
+  commentId: T:SuperOffice.CRM.Data.DBC.EmailFields
+  id: DBC.EmailFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.EmailFields.AppointmentId
+  - SuperOffice.CRM.Data.DBC.EmailFields.BounceCount
+  - SuperOffice.CRM.Data.DBC.EmailFields.ContactId
+  - SuperOffice.CRM.Data.DBC.EmailFields.DbiAgentId
+  - SuperOffice.CRM.Data.DBC.EmailFields.Description
+  - SuperOffice.CRM.Data.DBC.EmailFields.EmailAddress
+  - SuperOffice.CRM.Data.DBC.EmailFields.EmailId
+  - SuperOffice.CRM.Data.DBC.EmailFields.LastBounce
+  - SuperOffice.CRM.Data.DBC.EmailFields.LastSent
+  - SuperOffice.CRM.Data.DBC.EmailFields.PersonId
+  - SuperOffice.CRM.Data.DBC.EmailFields.ProjectId
+  - SuperOffice.CRM.Data.DBC.EmailFields.Protocol
+  - SuperOffice.CRM.Data.DBC.EmailFields.Rank
+  - SuperOffice.CRM.Data.DBC.EmailFields.Registered
+  - SuperOffice.CRM.Data.DBC.EmailFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.EmailFields.ReservedId1
+  - SuperOffice.CRM.Data.DBC.EmailFields.ReservedId2
+  - SuperOffice.CRM.Data.DBC.EmailFields.Type
+  - SuperOffice.CRM.Data.DBC.EmailFields.Updated
+  - SuperOffice.CRM.Data.DBC.EmailFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.EmailFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.EmailFields
+  nameWithType: DBC.EmailFields
+  fullName: SuperOffice.CRM.Data.DBC.EmailFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for Email, Email addresses for contacts, projects and persons\n"
+  syntax:
+    content: public static class EmailFields
+    content.vb: Public Module EmailFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.EmailFields.EmailId
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFields.EmailId
+  id: EmailId
+  parent: SuperOffice.CRM.Data.DBC.EmailFields
+  langs:
+  - csharp
+  - vb
+  name: EmailId
+  nameWithType: DBC.EmailFields.EmailId
+  fullName: SuperOffice.CRM.Data.DBC.EmailFields.EmailId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmail.EmailId: Primary key\n"
+  syntax:
+    content: public const string EmailId = "email_id"
+    return:
+      type: System.String
+    content.vb: Public Const EmailId As String = "email_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFields.ContactId
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFields.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Data.DBC.EmailFields
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: DBC.EmailFields.ContactId
+  fullName: SuperOffice.CRM.Data.DBC.EmailFields.ContactId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmail.ContactId: Relations to possible owners\n"
+  syntax:
+    content: public const string ContactId = "contact_id"
+    return:
+      type: System.String
+    content.vb: Public Const ContactId As String = "contact_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFields.PersonId
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFields.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Data.DBC.EmailFields
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: DBC.EmailFields.PersonId
+  fullName: SuperOffice.CRM.Data.DBC.EmailFields.PersonId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmail.PersonId: Relations to possible owners\n"
+  syntax:
+    content: public const string PersonId = "person_id"
+    return:
+      type: System.String
+    content.vb: Public Const PersonId As String = "person_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFields.ProjectId
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFields.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.Data.DBC.EmailFields
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: DBC.EmailFields.ProjectId
+  fullName: SuperOffice.CRM.Data.DBC.EmailFields.ProjectId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmail.ProjectId: Relations to possible owners\n"
+  syntax:
+    content: public const string ProjectId = "project_id"
+    return:
+      type: System.String
+    content.vb: Public Const ProjectId As String = "project_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFields.ReservedId1
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFields.ReservedId1
+  id: ReservedId1
+  parent: SuperOffice.CRM.Data.DBC.EmailFields
+  langs:
+  - csharp
+  - vb
+  name: ReservedId1
+  nameWithType: DBC.EmailFields.ReservedId1
+  fullName: SuperOffice.CRM.Data.DBC.EmailFields.ReservedId1
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmail.ReservedId1: Reserved for potential future owners\n"
+  syntax:
+    content: public const string ReservedId1 = "reserved_id1"
+    return:
+      type: System.String
+    content.vb: Public Const ReservedId1 As String = "reserved_id1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFields.ReservedId2
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFields.ReservedId2
+  id: ReservedId2
+  parent: SuperOffice.CRM.Data.DBC.EmailFields
+  langs:
+  - csharp
+  - vb
+  name: ReservedId2
+  nameWithType: DBC.EmailFields.ReservedId2
+  fullName: SuperOffice.CRM.Data.DBC.EmailFields.ReservedId2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmail.ReservedId2: Reserved for potential future owners\n"
+  syntax:
+    content: public const string ReservedId2 = "reserved_id2"
+    return:
+      type: System.String
+    content.vb: Public Const ReservedId2 As String = "reserved_id2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFields.Protocol
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFields.Protocol
+  id: Protocol
+  parent: SuperOffice.CRM.Data.DBC.EmailFields
+  langs:
+  - csharp
+  - vb
+  name: Protocol
+  nameWithType: DBC.EmailFields.Protocol
+  fullName: SuperOffice.CRM.Data.DBC.EmailFields.Protocol
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmail.Protocol: SMTP, MSN, Skype, etc\n"
+  syntax:
+    content: public const string Protocol = "protocol"
+    return:
+      type: System.String
+    content.vb: Public Const Protocol As String = "protocol"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFields.Type
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFields.Type
+  id: Type
+  parent: SuperOffice.CRM.Data.DBC.EmailFields
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: DBC.EmailFields.Type
+  fullName: SuperOffice.CRM.Data.DBC.EmailFields.Type
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmail.Type: 0 = email, 1 = chat/instant msg, 2 = voip; see protocol field for more info\n"
+  syntax:
+    content: public const string Type = "type"
+    return:
+      type: System.String
+    content.vb: Public Const Type As String = "type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFields.Description
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFields.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.DBC.EmailFields
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DBC.EmailFields.Description
+  fullName: SuperOffice.CRM.Data.DBC.EmailFields.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmail.Description: Visible field\n"
+  syntax:
+    content: public const string Description = "description"
+    return:
+      type: System.String
+    content.vb: Public Const Description As String = "description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFields.EmailAddress
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFields.EmailAddress
+  id: EmailAddress
+  parent: SuperOffice.CRM.Data.DBC.EmailFields
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: DBC.EmailFields.EmailAddress
+  fullName: SuperOffice.CRM.Data.DBC.EmailFields.EmailAddress
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmail.EmailAddress: The address itself\n"
+  syntax:
+    content: public const string EmailAddress = "email_address"
+    return:
+      type: System.String
+    content.vb: Public Const EmailAddress As String = "email_address"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFields.Rank
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFields.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Data.DBC.EmailFields
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DBC.EmailFields.Rank
+  fullName: SuperOffice.CRM.Data.DBC.EmailFields.Rank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmail.Rank: Rank order in lists\n"
+  syntax:
+    content: public const string Rank = "rank"
+    return:
+      type: System.String
+    content.vb: Public Const Rank As String = "rank"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.EmailFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.EmailFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.EmailFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmail.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.EmailFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.EmailFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.EmailFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmail.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.EmailFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.EmailFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.EmailFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmail.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.EmailFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.EmailFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.EmailFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmail.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.EmailFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.EmailFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.EmailFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmail.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFields.BounceCount
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFields.BounceCount
+  id: BounceCount
+  parent: SuperOffice.CRM.Data.DBC.EmailFields
+  langs:
+  - csharp
+  - vb
+  name: BounceCount
+  nameWithType: DBC.EmailFields.BounceCount
+  fullName: SuperOffice.CRM.Data.DBC.EmailFields.BounceCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmail.BounceCount: Number of bounces detected\n"
+  syntax:
+    content: public const string BounceCount = "bounceCount"
+    return:
+      type: System.String
+    content.vb: Public Const BounceCount As String = "bounceCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFields.LastBounce
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFields.LastBounce
+  id: LastBounce
+  parent: SuperOffice.CRM.Data.DBC.EmailFields
+  langs:
+  - csharp
+  - vb
+  name: LastBounce
+  nameWithType: DBC.EmailFields.LastBounce
+  fullName: SuperOffice.CRM.Data.DBC.EmailFields.LastBounce
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmail.LastBounce: When did last bounce happen\n"
+  syntax:
+    content: public const string LastBounce = "lastBounce"
+    return:
+      type: System.String
+    content.vb: Public Const LastBounce As String = "lastBounce"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFields.LastSent
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFields.LastSent
+  id: LastSent
+  parent: SuperOffice.CRM.Data.DBC.EmailFields
+  langs:
+  - csharp
+  - vb
+  name: LastSent
+  nameWithType: DBC.EmailFields.LastSent
+  fullName: SuperOffice.CRM.Data.DBC.EmailFields.LastSent
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmail.LastSent: Last transmission (regardless of success/bounce)\n"
+  syntax:
+    content: public const string LastSent = "lastSent"
+    return:
+      type: System.String
+    content.vb: Public Const LastSent As String = "lastSent"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFields.DbiAgentId
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFields.DbiAgentId
+  id: DbiAgentId
+  parent: SuperOffice.CRM.Data.DBC.EmailFields
+  langs:
+  - csharp
+  - vb
+  name: DbiAgentId
+  nameWithType: DBC.EmailFields.DbiAgentId
+  fullName: SuperOffice.CRM.Data.DBC.EmailFields.DbiAgentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmail.DbiAgentId: Integration agent (eJournal)\n"
+  syntax:
+    content: public const string DbiAgentId = "dbi_agent_id"
+    return:
+      type: System.String
+    content.vb: Public Const DbiAgentId As String = "dbi_agent_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EmailFields.AppointmentId
+  commentId: F:SuperOffice.CRM.Data.DBC.EmailFields.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.CRM.Data.DBC.EmailFields
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: DBC.EmailFields.AppointmentId
+  fullName: SuperOffice.CRM.Data.DBC.EmailFields.AppointmentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEmail.AppointmentId: The id of the invitation appointment record, used when unknown person is associated with an appointment invitation\n"
+  syntax:
+    content: public const string AppointmentId = "appointment_id"
+    return:
+      type: System.String
+    content.vb: Public Const AppointmentId As String = "appointment_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

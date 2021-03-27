@@ -1,0 +1,590 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin
+  commentId: T:SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin
+  id: SoInvitationCheckServerEventPlugin
+  parent: SuperOffice.CRM.Web.ServerEvent
+  children:
+  - SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin.#ctor
+  - SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin.BeginExecute(System.String)
+  - SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin.EndExecute(SuperOffice.DCF.Web.ServerEvent.ServerEventObject)
+  langs:
+  - csharp
+  - vb
+  name: SoInvitationCheckServerEventPlugin
+  nameWithType: SoInvitationCheckServerEventPlugin
+  fullName: SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.ServerEvent
+  syntax:
+    content: >-
+      [SoWebObject("SoInvitationCheckServerEventPlugin")]
+
+      public class SoInvitationCheckServerEventPlugin : IServerEventPlugin, IWebObject, IPlugin
+    content.vb: >-
+      <SoWebObject("SoInvitationCheckServerEventPlugin")>
+
+      Public Class SoInvitationCheckServerEventPlugin
+          Implements IServerEventPlugin, IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SoInvitationCheckServerEventPlugin
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin.BeginExecute(System.String)
+  commentId: M:SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin.BeginExecute(System.String)
+  id: BeginExecute(System.String)
+  parent: SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin
+  langs:
+  - csharp
+  - vb
+  name: BeginExecute(String)
+  nameWithType: SoInvitationCheckServerEventPlugin.BeginExecute(String)
+  fullName: SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin.BeginExecute(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.ServerEvent
+  syntax:
+    content: public ServerEventObject BeginExecute(string eventType)
+    parameters:
+    - id: eventType
+      type: System.String
+    return:
+      type: SuperOffice.DCF.Web.ServerEvent.ServerEventObject
+    content.vb: Public Function BeginExecute(eventType As String) As ServerEventObject
+  overload: SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin.BeginExecute*
+  implements:
+  - SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.BeginExecute(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin.EndExecute(SuperOffice.DCF.Web.ServerEvent.ServerEventObject)
+  commentId: M:SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin.EndExecute(SuperOffice.DCF.Web.ServerEvent.ServerEventObject)
+  id: EndExecute(SuperOffice.DCF.Web.ServerEvent.ServerEventObject)
+  parent: SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin
+  langs:
+  - csharp
+  - vb
+  name: EndExecute(ServerEventObject)
+  nameWithType: SoInvitationCheckServerEventPlugin.EndExecute(ServerEventObject)
+  fullName: SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin.EndExecute(SuperOffice.DCF.Web.ServerEvent.ServerEventObject)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.ServerEvent
+  syntax:
+    content: public void EndExecute(ServerEventObject eventObj)
+    parameters:
+    - id: eventObj
+      type: SuperOffice.DCF.Web.ServerEvent.ServerEventObject
+    content.vb: Public Sub EndExecute(eventObj As ServerEventObject)
+  overload: SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin.EndExecute*
+  implements:
+  - SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.EndExecute(SuperOffice.DCF.Web.ServerEvent.ServerEventObject)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin.#ctor
+  commentId: M:SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin
+  langs:
+  - csharp
+  - vb
+  name: SoInvitationCheckServerEventPlugin()
+  nameWithType: SoInvitationCheckServerEventPlugin.SoInvitationCheckServerEventPlugin()
+  fullName: SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin.SoInvitationCheckServerEventPlugin()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.ServerEvent
+  syntax:
+    content: public SoInvitationCheckServerEventPlugin()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.ServerEvent
+  commentId: N:SuperOffice.CRM.Web.ServerEvent
+  isExternal: true
+  name: SuperOffice.CRM.Web.ServerEvent
+  nameWithType: SuperOffice.CRM.Web.ServerEvent
+  fullName: SuperOffice.CRM.Web.ServerEvent
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin
+  commentId: T:SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin
+  parent: SuperOffice.DCF.Web.ServerEvent
+  isExternal: true
+  name: IServerEventPlugin
+  nameWithType: IServerEventPlugin
+  fullName: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.ServerEvent
+  commentId: N:SuperOffice.DCF.Web.ServerEvent
+  isExternal: true
+  name: SuperOffice.DCF.Web.ServerEvent
+  nameWithType: SuperOffice.DCF.Web.ServerEvent
+  fullName: SuperOffice.DCF.Web.ServerEvent
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin.BeginExecute*
+  commentId: Overload:SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin.BeginExecute
+  isExternal: true
+  name: BeginExecute
+  nameWithType: SoInvitationCheckServerEventPlugin.BeginExecute
+  fullName: SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin.BeginExecute
+- uid: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.BeginExecute(System.String)
+  commentId: M:SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.BeginExecute(System.String)
+  parent: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin
+  isExternal: true
+  name: BeginExecute(String)
+  nameWithType: IServerEventPlugin.BeginExecute(String)
+  fullName: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.BeginExecute(System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.BeginExecute(System.String)
+    name: BeginExecute
+    nameWithType: IServerEventPlugin.BeginExecute
+    fullName: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.BeginExecute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.BeginExecute(System.String)
+    name: BeginExecute
+    nameWithType: IServerEventPlugin.BeginExecute
+    fullName: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.BeginExecute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventObject
+  commentId: T:SuperOffice.DCF.Web.ServerEvent.ServerEventObject
+  parent: SuperOffice.DCF.Web.ServerEvent
+  isExternal: true
+  name: ServerEventObject
+  nameWithType: ServerEventObject
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventObject
+- uid: SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin.EndExecute*
+  commentId: Overload:SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin.EndExecute
+  isExternal: true
+  name: EndExecute
+  nameWithType: SoInvitationCheckServerEventPlugin.EndExecute
+  fullName: SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin.EndExecute
+- uid: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.EndExecute(SuperOffice.DCF.Web.ServerEvent.ServerEventObject)
+  commentId: M:SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.EndExecute(SuperOffice.DCF.Web.ServerEvent.ServerEventObject)
+  parent: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin
+  isExternal: true
+  name: EndExecute(ServerEventObject)
+  nameWithType: IServerEventPlugin.EndExecute(ServerEventObject)
+  fullName: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.EndExecute(SuperOffice.DCF.Web.ServerEvent.ServerEventObject)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.EndExecute(SuperOffice.DCF.Web.ServerEvent.ServerEventObject)
+    name: EndExecute
+    nameWithType: IServerEventPlugin.EndExecute
+    fullName: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.EndExecute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.DCF.Web.ServerEvent.ServerEventObject
+    name: ServerEventObject
+    nameWithType: ServerEventObject
+    fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.EndExecute(SuperOffice.DCF.Web.ServerEvent.ServerEventObject)
+    name: EndExecute
+    nameWithType: IServerEventPlugin.EndExecute
+    fullName: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin.EndExecute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.DCF.Web.ServerEvent.ServerEventObject
+    name: ServerEventObject
+    nameWithType: ServerEventObject
+    fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin.#ctor
+  isExternal: true
+  name: SoInvitationCheckServerEventPlugin
+  nameWithType: SoInvitationCheckServerEventPlugin.SoInvitationCheckServerEventPlugin
+  fullName: SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin.SoInvitationCheckServerEventPlugin

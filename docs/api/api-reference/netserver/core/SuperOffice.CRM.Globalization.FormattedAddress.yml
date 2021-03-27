@@ -1,0 +1,1796 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Globalization.FormattedAddress
+  commentId: T:SuperOffice.CRM.Globalization.FormattedAddress
+  id: FormattedAddress
+  parent: SuperOffice.CRM.Globalization
+  children:
+  - SuperOffice.CRM.Globalization.FormattedAddress.#ctor
+  - SuperOffice.CRM.Globalization.FormattedAddress.Item(System.Int32)
+  - SuperOffice.CRM.Globalization.FormattedAddress.ToString
+  langs:
+  - csharp
+  - vb
+  name: FormattedAddress
+  nameWithType: FormattedAddress
+  fullName: SuperOffice.CRM.Globalization.FormattedAddress
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nStructure holding formatted address information\n"
+  syntax:
+    content: 'public abstract class FormattedAddress : CollectionBase, IList, ICollection, IEnumerable'
+    content.vb: >-
+      Public MustInherit Class FormattedAddress
+          Inherits CollectionBase
+          Implements IList, ICollection, IEnumerable
+  inheritance:
+  - System.Object
+  - System.Collections.CollectionBase
+  derivedClasses:
+  - SuperOffice.CRM.Globalization.AddressFormatter
+  implements:
+  - System.Collections.IList
+  - System.Collections.ICollection
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - System.Collections.CollectionBase.Clear
+  - System.Collections.CollectionBase.RemoveAt(System.Int32)
+  - System.Collections.CollectionBase.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
+  - System.Collections.CollectionBase.System#Collections#IList#get_Item(System.Int32)
+  - System.Collections.CollectionBase.System#Collections#IList#set_Item(System.Int32,System.Object)
+  - System.Collections.CollectionBase.System#Collections#IList#Contains(System.Object)
+  - System.Collections.CollectionBase.System#Collections#IList#Add(System.Object)
+  - System.Collections.CollectionBase.System#Collections#IList#Remove(System.Object)
+  - System.Collections.CollectionBase.System#Collections#IList#IndexOf(System.Object)
+  - System.Collections.CollectionBase.System#Collections#IList#Insert(System.Int32,System.Object)
+  - System.Collections.CollectionBase.GetEnumerator
+  - System.Collections.CollectionBase.OnSet(System.Int32,System.Object,System.Object)
+  - System.Collections.CollectionBase.OnInsert(System.Int32,System.Object)
+  - System.Collections.CollectionBase.OnClear
+  - System.Collections.CollectionBase.OnRemove(System.Int32,System.Object)
+  - System.Collections.CollectionBase.OnValidate(System.Object)
+  - System.Collections.CollectionBase.OnSetComplete(System.Int32,System.Object,System.Object)
+  - System.Collections.CollectionBase.OnInsertComplete(System.Int32,System.Object)
+  - System.Collections.CollectionBase.OnClearComplete
+  - System.Collections.CollectionBase.OnRemoveComplete(System.Int32,System.Object)
+  - System.Collections.CollectionBase.InnerList
+  - System.Collections.CollectionBase.List
+  - System.Collections.CollectionBase.Capacity
+  - System.Collections.CollectionBase.Count
+  - System.Collections.CollectionBase.System#Collections#IList#IsReadOnly
+  - System.Collections.CollectionBase.System#Collections#IList#IsFixedSize
+  - System.Collections.CollectionBase.System#Collections#ICollection#IsSynchronized
+  - System.Collections.CollectionBase.System#Collections#ICollection#SyncRoot
+  - System.Collections.CollectionBase.System#Collections#IList#Item(System.Int32)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Globalization.FormattedAddress.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Globalization.FormattedAddress.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.CRM.Globalization.FormattedAddress.ToString
+  commentId: M:SuperOffice.CRM.Globalization.FormattedAddress.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Globalization.FormattedAddress
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: FormattedAddress.ToString()
+  fullName: SuperOffice.CRM.Globalization.FormattedAddress.ToString()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nGet the complete address as a string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: Address as a string.
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.Globalization.FormattedAddress.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Globalization.FormattedAddress.#ctor
+  commentId: M:SuperOffice.CRM.Globalization.FormattedAddress.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Globalization.FormattedAddress
+  langs:
+  - csharp
+  - vb
+  name: FormattedAddress()
+  nameWithType: FormattedAddress.FormattedAddress()
+  fullName: SuperOffice.CRM.Globalization.FormattedAddress.FormattedAddress()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: protected FormattedAddress()
+    content.vb: Protected Sub New
+  overload: SuperOffice.CRM.Globalization.FormattedAddress.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Globalization.FormattedAddress.Item(System.Int32)
+  commentId: P:SuperOffice.CRM.Globalization.FormattedAddress.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: SuperOffice.CRM.Globalization.FormattedAddress
+  langs:
+  - csharp
+  - vb
+  name: Item[Int32]
+  nameWithType: FormattedAddress.Item[Int32]
+  fullName: SuperOffice.CRM.Globalization.FormattedAddress.Item[System.Int32]
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nList indexer\n"
+  syntax:
+    content: public FormattedFields this[int lineIndex] { get; set; }
+    parameters:
+    - id: lineIndex
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Globalization.FormattedFields
+    content.vb: Public Property Item(lineIndex As Integer) As FormattedFields
+  overload: SuperOffice.CRM.Globalization.FormattedAddress.Item*
+  nameWithType.vb: FormattedAddress.Item(Int32)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Globalization.FormattedAddress.Item(System.Int32)
+  name.vb: Item(Int32)
+references:
+- uid: SuperOffice.CRM.Globalization
+  commentId: N:SuperOffice.CRM.Globalization
+  isExternal: true
+  name: SuperOffice.CRM.Globalization
+  nameWithType: SuperOffice.CRM.Globalization
+  fullName: SuperOffice.CRM.Globalization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Collections.CollectionBase
+  commentId: T:System.Collections.CollectionBase
+  parent: System.Collections
+  isExternal: true
+  name: CollectionBase
+  nameWithType: CollectionBase
+  fullName: System.Collections.CollectionBase
+- uid: System.Collections.IList
+  commentId: T:System.Collections.IList
+  parent: System.Collections
+  isExternal: true
+  name: IList
+  nameWithType: IList
+  fullName: System.Collections.IList
+- uid: System.Collections.ICollection
+  commentId: T:System.Collections.ICollection
+  parent: System.Collections
+  isExternal: true
+  name: ICollection
+  nameWithType: ICollection
+  fullName: System.Collections.ICollection
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.Collections.CollectionBase.Clear
+  commentId: M:System.Collections.CollectionBase.Clear
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: Clear()
+  nameWithType: CollectionBase.Clear()
+  fullName: System.Collections.CollectionBase.Clear()
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.Clear
+    name: Clear
+    nameWithType: CollectionBase.Clear
+    fullName: System.Collections.CollectionBase.Clear
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.Clear
+    name: Clear
+    nameWithType: CollectionBase.Clear
+    fullName: System.Collections.CollectionBase.Clear
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.CollectionBase.RemoveAt(System.Int32)
+  commentId: M:System.Collections.CollectionBase.RemoveAt(System.Int32)
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: RemoveAt(Int32)
+  nameWithType: CollectionBase.RemoveAt(Int32)
+  fullName: System.Collections.CollectionBase.RemoveAt(System.Int32)
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.RemoveAt(System.Int32)
+    name: RemoveAt
+    nameWithType: CollectionBase.RemoveAt
+    fullName: System.Collections.CollectionBase.RemoveAt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.RemoveAt(System.Int32)
+    name: RemoveAt
+    nameWithType: CollectionBase.RemoveAt
+    fullName: System.Collections.CollectionBase.RemoveAt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.CollectionBase.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
+  commentId: M:System.Collections.CollectionBase.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: ICollection.CopyTo(Array, Int32)
+  nameWithType: CollectionBase.ICollection.CopyTo(Array, Int32)
+  fullName: System.Collections.CollectionBase.System.Collections.ICollection.CopyTo(System.Array, System.Int32)
+  nameWithType.vb: CollectionBase.System.Collections.ICollection.CopyTo(Array, Int32)
+  name.vb: System.Collections.ICollection.CopyTo(Array, Int32)
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
+    name: ICollection.CopyTo
+    nameWithType: CollectionBase.ICollection.CopyTo
+    fullName: System.Collections.CollectionBase.System.Collections.ICollection.CopyTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Array
+    name: Array
+    nameWithType: Array
+    fullName: System.Array
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
+    name: System.Collections.ICollection.CopyTo
+    nameWithType: CollectionBase.System.Collections.ICollection.CopyTo
+    fullName: System.Collections.CollectionBase.System.Collections.ICollection.CopyTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Array
+    name: Array
+    nameWithType: Array
+    fullName: System.Array
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.CollectionBase.System#Collections#IList#get_Item(System.Int32)
+  commentId: M:System.Collections.CollectionBase.System#Collections#IList#get_Item(System.Int32)
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: IList.get_Item(Int32)
+  nameWithType: CollectionBase.IList.get_Item(Int32)
+  fullName: System.Collections.CollectionBase.System.Collections.IList.get_Item(System.Int32)
+  nameWithType.vb: CollectionBase.System.Collections.IList.get_Item(Int32)
+  name.vb: System.Collections.IList.get_Item(Int32)
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.System#Collections#IList#get_Item(System.Int32)
+    name: IList.get_Item
+    nameWithType: CollectionBase.IList.get_Item
+    fullName: System.Collections.CollectionBase.System.Collections.IList.get_Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.System#Collections#IList#get_Item(System.Int32)
+    name: System.Collections.IList.get_Item
+    nameWithType: CollectionBase.System.Collections.IList.get_Item
+    fullName: System.Collections.CollectionBase.System.Collections.IList.get_Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.CollectionBase.System#Collections#IList#set_Item(System.Int32,System.Object)
+  commentId: M:System.Collections.CollectionBase.System#Collections#IList#set_Item(System.Int32,System.Object)
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: IList.set_Item(Int32, Object)
+  nameWithType: CollectionBase.IList.set_Item(Int32, Object)
+  fullName: System.Collections.CollectionBase.System.Collections.IList.set_Item(System.Int32, System.Object)
+  nameWithType.vb: CollectionBase.System.Collections.IList.set_Item(Int32, Object)
+  name.vb: System.Collections.IList.set_Item(Int32, Object)
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.System#Collections#IList#set_Item(System.Int32,System.Object)
+    name: IList.set_Item
+    nameWithType: CollectionBase.IList.set_Item
+    fullName: System.Collections.CollectionBase.System.Collections.IList.set_Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.System#Collections#IList#set_Item(System.Int32,System.Object)
+    name: System.Collections.IList.set_Item
+    nameWithType: CollectionBase.System.Collections.IList.set_Item
+    fullName: System.Collections.CollectionBase.System.Collections.IList.set_Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.CollectionBase.System#Collections#IList#Contains(System.Object)
+  commentId: M:System.Collections.CollectionBase.System#Collections#IList#Contains(System.Object)
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: IList.Contains(Object)
+  nameWithType: CollectionBase.IList.Contains(Object)
+  fullName: System.Collections.CollectionBase.System.Collections.IList.Contains(System.Object)
+  nameWithType.vb: CollectionBase.System.Collections.IList.Contains(Object)
+  name.vb: System.Collections.IList.Contains(Object)
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.System#Collections#IList#Contains(System.Object)
+    name: IList.Contains
+    nameWithType: CollectionBase.IList.Contains
+    fullName: System.Collections.CollectionBase.System.Collections.IList.Contains
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.System#Collections#IList#Contains(System.Object)
+    name: System.Collections.IList.Contains
+    nameWithType: CollectionBase.System.Collections.IList.Contains
+    fullName: System.Collections.CollectionBase.System.Collections.IList.Contains
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.CollectionBase.System#Collections#IList#Add(System.Object)
+  commentId: M:System.Collections.CollectionBase.System#Collections#IList#Add(System.Object)
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: IList.Add(Object)
+  nameWithType: CollectionBase.IList.Add(Object)
+  fullName: System.Collections.CollectionBase.System.Collections.IList.Add(System.Object)
+  nameWithType.vb: CollectionBase.System.Collections.IList.Add(Object)
+  name.vb: System.Collections.IList.Add(Object)
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.System#Collections#IList#Add(System.Object)
+    name: IList.Add
+    nameWithType: CollectionBase.IList.Add
+    fullName: System.Collections.CollectionBase.System.Collections.IList.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.System#Collections#IList#Add(System.Object)
+    name: System.Collections.IList.Add
+    nameWithType: CollectionBase.System.Collections.IList.Add
+    fullName: System.Collections.CollectionBase.System.Collections.IList.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.CollectionBase.System#Collections#IList#Remove(System.Object)
+  commentId: M:System.Collections.CollectionBase.System#Collections#IList#Remove(System.Object)
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: IList.Remove(Object)
+  nameWithType: CollectionBase.IList.Remove(Object)
+  fullName: System.Collections.CollectionBase.System.Collections.IList.Remove(System.Object)
+  nameWithType.vb: CollectionBase.System.Collections.IList.Remove(Object)
+  name.vb: System.Collections.IList.Remove(Object)
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.System#Collections#IList#Remove(System.Object)
+    name: IList.Remove
+    nameWithType: CollectionBase.IList.Remove
+    fullName: System.Collections.CollectionBase.System.Collections.IList.Remove
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.System#Collections#IList#Remove(System.Object)
+    name: System.Collections.IList.Remove
+    nameWithType: CollectionBase.System.Collections.IList.Remove
+    fullName: System.Collections.CollectionBase.System.Collections.IList.Remove
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.CollectionBase.System#Collections#IList#IndexOf(System.Object)
+  commentId: M:System.Collections.CollectionBase.System#Collections#IList#IndexOf(System.Object)
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: IList.IndexOf(Object)
+  nameWithType: CollectionBase.IList.IndexOf(Object)
+  fullName: System.Collections.CollectionBase.System.Collections.IList.IndexOf(System.Object)
+  nameWithType.vb: CollectionBase.System.Collections.IList.IndexOf(Object)
+  name.vb: System.Collections.IList.IndexOf(Object)
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.System#Collections#IList#IndexOf(System.Object)
+    name: IList.IndexOf
+    nameWithType: CollectionBase.IList.IndexOf
+    fullName: System.Collections.CollectionBase.System.Collections.IList.IndexOf
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.System#Collections#IList#IndexOf(System.Object)
+    name: System.Collections.IList.IndexOf
+    nameWithType: CollectionBase.System.Collections.IList.IndexOf
+    fullName: System.Collections.CollectionBase.System.Collections.IList.IndexOf
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.CollectionBase.System#Collections#IList#Insert(System.Int32,System.Object)
+  commentId: M:System.Collections.CollectionBase.System#Collections#IList#Insert(System.Int32,System.Object)
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: IList.Insert(Int32, Object)
+  nameWithType: CollectionBase.IList.Insert(Int32, Object)
+  fullName: System.Collections.CollectionBase.System.Collections.IList.Insert(System.Int32, System.Object)
+  nameWithType.vb: CollectionBase.System.Collections.IList.Insert(Int32, Object)
+  name.vb: System.Collections.IList.Insert(Int32, Object)
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.System#Collections#IList#Insert(System.Int32,System.Object)
+    name: IList.Insert
+    nameWithType: CollectionBase.IList.Insert
+    fullName: System.Collections.CollectionBase.System.Collections.IList.Insert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.System#Collections#IList#Insert(System.Int32,System.Object)
+    name: System.Collections.IList.Insert
+    nameWithType: CollectionBase.System.Collections.IList.Insert
+    fullName: System.Collections.CollectionBase.System.Collections.IList.Insert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.CollectionBase.GetEnumerator
+  commentId: M:System.Collections.CollectionBase.GetEnumerator
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: CollectionBase.GetEnumerator()
+  fullName: System.Collections.CollectionBase.GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.GetEnumerator
+    name: GetEnumerator
+    nameWithType: CollectionBase.GetEnumerator
+    fullName: System.Collections.CollectionBase.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.GetEnumerator
+    name: GetEnumerator
+    nameWithType: CollectionBase.GetEnumerator
+    fullName: System.Collections.CollectionBase.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.CollectionBase.OnSet(System.Int32,System.Object,System.Object)
+  commentId: M:System.Collections.CollectionBase.OnSet(System.Int32,System.Object,System.Object)
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: OnSet(Int32, Object, Object)
+  nameWithType: CollectionBase.OnSet(Int32, Object, Object)
+  fullName: System.Collections.CollectionBase.OnSet(System.Int32, System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.OnSet(System.Int32,System.Object,System.Object)
+    name: OnSet
+    nameWithType: CollectionBase.OnSet
+    fullName: System.Collections.CollectionBase.OnSet
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.OnSet(System.Int32,System.Object,System.Object)
+    name: OnSet
+    nameWithType: CollectionBase.OnSet
+    fullName: System.Collections.CollectionBase.OnSet
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.CollectionBase.OnInsert(System.Int32,System.Object)
+  commentId: M:System.Collections.CollectionBase.OnInsert(System.Int32,System.Object)
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: OnInsert(Int32, Object)
+  nameWithType: CollectionBase.OnInsert(Int32, Object)
+  fullName: System.Collections.CollectionBase.OnInsert(System.Int32, System.Object)
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.OnInsert(System.Int32,System.Object)
+    name: OnInsert
+    nameWithType: CollectionBase.OnInsert
+    fullName: System.Collections.CollectionBase.OnInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.OnInsert(System.Int32,System.Object)
+    name: OnInsert
+    nameWithType: CollectionBase.OnInsert
+    fullName: System.Collections.CollectionBase.OnInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.CollectionBase.OnClear
+  commentId: M:System.Collections.CollectionBase.OnClear
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: OnClear()
+  nameWithType: CollectionBase.OnClear()
+  fullName: System.Collections.CollectionBase.OnClear()
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.OnClear
+    name: OnClear
+    nameWithType: CollectionBase.OnClear
+    fullName: System.Collections.CollectionBase.OnClear
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.OnClear
+    name: OnClear
+    nameWithType: CollectionBase.OnClear
+    fullName: System.Collections.CollectionBase.OnClear
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.CollectionBase.OnRemove(System.Int32,System.Object)
+  commentId: M:System.Collections.CollectionBase.OnRemove(System.Int32,System.Object)
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: OnRemove(Int32, Object)
+  nameWithType: CollectionBase.OnRemove(Int32, Object)
+  fullName: System.Collections.CollectionBase.OnRemove(System.Int32, System.Object)
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.OnRemove(System.Int32,System.Object)
+    name: OnRemove
+    nameWithType: CollectionBase.OnRemove
+    fullName: System.Collections.CollectionBase.OnRemove
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.OnRemove(System.Int32,System.Object)
+    name: OnRemove
+    nameWithType: CollectionBase.OnRemove
+    fullName: System.Collections.CollectionBase.OnRemove
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.CollectionBase.OnValidate(System.Object)
+  commentId: M:System.Collections.CollectionBase.OnValidate(System.Object)
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: OnValidate(Object)
+  nameWithType: CollectionBase.OnValidate(Object)
+  fullName: System.Collections.CollectionBase.OnValidate(System.Object)
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.OnValidate(System.Object)
+    name: OnValidate
+    nameWithType: CollectionBase.OnValidate
+    fullName: System.Collections.CollectionBase.OnValidate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.OnValidate(System.Object)
+    name: OnValidate
+    nameWithType: CollectionBase.OnValidate
+    fullName: System.Collections.CollectionBase.OnValidate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.CollectionBase.OnSetComplete(System.Int32,System.Object,System.Object)
+  commentId: M:System.Collections.CollectionBase.OnSetComplete(System.Int32,System.Object,System.Object)
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: OnSetComplete(Int32, Object, Object)
+  nameWithType: CollectionBase.OnSetComplete(Int32, Object, Object)
+  fullName: System.Collections.CollectionBase.OnSetComplete(System.Int32, System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.OnSetComplete(System.Int32,System.Object,System.Object)
+    name: OnSetComplete
+    nameWithType: CollectionBase.OnSetComplete
+    fullName: System.Collections.CollectionBase.OnSetComplete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.OnSetComplete(System.Int32,System.Object,System.Object)
+    name: OnSetComplete
+    nameWithType: CollectionBase.OnSetComplete
+    fullName: System.Collections.CollectionBase.OnSetComplete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.CollectionBase.OnInsertComplete(System.Int32,System.Object)
+  commentId: M:System.Collections.CollectionBase.OnInsertComplete(System.Int32,System.Object)
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: OnInsertComplete(Int32, Object)
+  nameWithType: CollectionBase.OnInsertComplete(Int32, Object)
+  fullName: System.Collections.CollectionBase.OnInsertComplete(System.Int32, System.Object)
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.OnInsertComplete(System.Int32,System.Object)
+    name: OnInsertComplete
+    nameWithType: CollectionBase.OnInsertComplete
+    fullName: System.Collections.CollectionBase.OnInsertComplete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.OnInsertComplete(System.Int32,System.Object)
+    name: OnInsertComplete
+    nameWithType: CollectionBase.OnInsertComplete
+    fullName: System.Collections.CollectionBase.OnInsertComplete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.CollectionBase.OnClearComplete
+  commentId: M:System.Collections.CollectionBase.OnClearComplete
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: OnClearComplete()
+  nameWithType: CollectionBase.OnClearComplete()
+  fullName: System.Collections.CollectionBase.OnClearComplete()
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.OnClearComplete
+    name: OnClearComplete
+    nameWithType: CollectionBase.OnClearComplete
+    fullName: System.Collections.CollectionBase.OnClearComplete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.OnClearComplete
+    name: OnClearComplete
+    nameWithType: CollectionBase.OnClearComplete
+    fullName: System.Collections.CollectionBase.OnClearComplete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.CollectionBase.OnRemoveComplete(System.Int32,System.Object)
+  commentId: M:System.Collections.CollectionBase.OnRemoveComplete(System.Int32,System.Object)
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: OnRemoveComplete(Int32, Object)
+  nameWithType: CollectionBase.OnRemoveComplete(Int32, Object)
+  fullName: System.Collections.CollectionBase.OnRemoveComplete(System.Int32, System.Object)
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.OnRemoveComplete(System.Int32,System.Object)
+    name: OnRemoveComplete
+    nameWithType: CollectionBase.OnRemoveComplete
+    fullName: System.Collections.CollectionBase.OnRemoveComplete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.CollectionBase.OnRemoveComplete(System.Int32,System.Object)
+    name: OnRemoveComplete
+    nameWithType: CollectionBase.OnRemoveComplete
+    fullName: System.Collections.CollectionBase.OnRemoveComplete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.CollectionBase.InnerList
+  commentId: P:System.Collections.CollectionBase.InnerList
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: InnerList
+  nameWithType: CollectionBase.InnerList
+  fullName: System.Collections.CollectionBase.InnerList
+- uid: System.Collections.CollectionBase.List
+  commentId: P:System.Collections.CollectionBase.List
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: List
+  nameWithType: CollectionBase.List
+  fullName: System.Collections.CollectionBase.List
+- uid: System.Collections.CollectionBase.Capacity
+  commentId: P:System.Collections.CollectionBase.Capacity
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: Capacity
+  nameWithType: CollectionBase.Capacity
+  fullName: System.Collections.CollectionBase.Capacity
+- uid: System.Collections.CollectionBase.Count
+  commentId: P:System.Collections.CollectionBase.Count
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: Count
+  nameWithType: CollectionBase.Count
+  fullName: System.Collections.CollectionBase.Count
+- uid: System.Collections.CollectionBase.System#Collections#IList#IsReadOnly
+  commentId: P:System.Collections.CollectionBase.System#Collections#IList#IsReadOnly
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: IList.IsReadOnly
+  nameWithType: CollectionBase.IList.IsReadOnly
+  fullName: System.Collections.CollectionBase.System.Collections.IList.IsReadOnly
+  nameWithType.vb: CollectionBase.System.Collections.IList.IsReadOnly
+  name.vb: System.Collections.IList.IsReadOnly
+- uid: System.Collections.CollectionBase.System#Collections#IList#IsFixedSize
+  commentId: P:System.Collections.CollectionBase.System#Collections#IList#IsFixedSize
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: IList.IsFixedSize
+  nameWithType: CollectionBase.IList.IsFixedSize
+  fullName: System.Collections.CollectionBase.System.Collections.IList.IsFixedSize
+  nameWithType.vb: CollectionBase.System.Collections.IList.IsFixedSize
+  name.vb: System.Collections.IList.IsFixedSize
+- uid: System.Collections.CollectionBase.System#Collections#ICollection#IsSynchronized
+  commentId: P:System.Collections.CollectionBase.System#Collections#ICollection#IsSynchronized
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: ICollection.IsSynchronized
+  nameWithType: CollectionBase.ICollection.IsSynchronized
+  fullName: System.Collections.CollectionBase.System.Collections.ICollection.IsSynchronized
+  nameWithType.vb: CollectionBase.System.Collections.ICollection.IsSynchronized
+  name.vb: System.Collections.ICollection.IsSynchronized
+- uid: System.Collections.CollectionBase.System#Collections#ICollection#SyncRoot
+  commentId: P:System.Collections.CollectionBase.System#Collections#ICollection#SyncRoot
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: ICollection.SyncRoot
+  nameWithType: CollectionBase.ICollection.SyncRoot
+  fullName: System.Collections.CollectionBase.System.Collections.ICollection.SyncRoot
+  nameWithType.vb: CollectionBase.System.Collections.ICollection.SyncRoot
+  name.vb: System.Collections.ICollection.SyncRoot
+- uid: System.Collections.CollectionBase.System#Collections#IList#Item(System.Int32)
+  commentId: P:System.Collections.CollectionBase.System#Collections#IList#Item(System.Int32)
+  parent: System.Collections.CollectionBase
+  isExternal: true
+  name: IList.Item[Int32]
+  nameWithType: CollectionBase.IList.Item[Int32]
+  fullName: System.Collections.CollectionBase.System.Collections.IList.Item[System.Int32]
+  nameWithType.vb: CollectionBase.System.Collections.IList.Item(Int32)
+  fullName.vb: System.Collections.CollectionBase.System.Collections.IList.Item(System.Int32)
+  name.vb: System.Collections.IList.Item(Int32)
+  spec.csharp:
+  - uid: System.Collections.CollectionBase.System#Collections#IList#Item(System.Int32)
+    name: IList.Item
+    nameWithType: CollectionBase.IList.Item
+    fullName: System.Collections.CollectionBase.System.Collections.IList.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: System.Collections.CollectionBase.System#Collections#IList#Item(System.Int32)
+    name: System.Collections.IList.Item
+    nameWithType: CollectionBase.System.Collections.IList.Item
+    fullName: System.Collections.CollectionBase.System.Collections.IList.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.FormattedAddress.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<FormattedAddress, To>()
+  nameWithType: EnumUtil.MapEnums<FormattedAddress, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.FormattedAddress, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of FormattedAddress, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.FormattedAddress, To)()
+  name.vb: MapEnums(Of FormattedAddress, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<FormattedAddress, To>
+    nameWithType: EnumUtil.MapEnums<FormattedAddress, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.FormattedAddress, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of FormattedAddress, To)
+    nameWithType: EnumUtil.MapEnums(Of FormattedAddress, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.FormattedAddress, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.FormattedAddress.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<FormattedAddress, To>()
+  nameWithType: Converters.MapEnums<FormattedAddress, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.FormattedAddress, To>()
+  nameWithType.vb: Converters.MapEnums(Of FormattedAddress, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.FormattedAddress, To)()
+  name.vb: MapEnums(Of FormattedAddress, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<FormattedAddress, To>
+    nameWithType: Converters.MapEnums<FormattedAddress, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.FormattedAddress, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of FormattedAddress, To)
+    nameWithType: Converters.MapEnums(Of FormattedAddress, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.FormattedAddress, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.FormattedAddress.ToString*
+  commentId: Overload:SuperOffice.CRM.Globalization.FormattedAddress.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: FormattedAddress.ToString
+  fullName: SuperOffice.CRM.Globalization.FormattedAddress.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Globalization.FormattedAddress.#ctor*
+  commentId: Overload:SuperOffice.CRM.Globalization.FormattedAddress.#ctor
+  isExternal: true
+  name: FormattedAddress
+  nameWithType: FormattedAddress.FormattedAddress
+  fullName: SuperOffice.CRM.Globalization.FormattedAddress.FormattedAddress
+- uid: SuperOffice.CRM.Globalization.FormattedAddress.Item*
+  commentId: Overload:SuperOffice.CRM.Globalization.FormattedAddress.Item
+  isExternal: true
+  name: Item
+  nameWithType: FormattedAddress.Item
+  fullName: SuperOffice.CRM.Globalization.FormattedAddress.Item
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Globalization.FormattedFields
+  commentId: T:SuperOffice.CRM.Globalization.FormattedFields
+  parent: SuperOffice.CRM.Globalization
+  isExternal: true
+  name: FormattedFields
+  nameWithType: FormattedFields
+  fullName: SuperOffice.CRM.Globalization.FormattedFields

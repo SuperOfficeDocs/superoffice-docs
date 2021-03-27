@@ -1,0 +1,887 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.BatchTaskFields
+  commentId: T:SuperOffice.CRM.Data.DBC.BatchTaskFields
+  id: DBC.BatchTaskFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.BatchTaskFields.BatchTaskDefinitionId
+  - SuperOffice.CRM.Data.DBC.BatchTaskFields.BatchTaskId
+  - SuperOffice.CRM.Data.DBC.BatchTaskFields.DbTag
+  - SuperOffice.CRM.Data.DBC.BatchTaskFields.Description
+  - SuperOffice.CRM.Data.DBC.BatchTaskFields.DetailsRecord
+  - SuperOffice.CRM.Data.DBC.BatchTaskFields.DetailsTable
+  - SuperOffice.CRM.Data.DBC.BatchTaskFields.LastStarted
+  - SuperOffice.CRM.Data.DBC.BatchTaskFields.ProgressDescription
+  - SuperOffice.CRM.Data.DBC.BatchTaskFields.ProgressPercent
+  - SuperOffice.CRM.Data.DBC.BatchTaskFields.Registered
+  - SuperOffice.CRM.Data.DBC.BatchTaskFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.BatchTaskFields.Request
+  - SuperOffice.CRM.Data.DBC.BatchTaskFields.Response
+  - SuperOffice.CRM.Data.DBC.BatchTaskFields.StartCount
+  - SuperOffice.CRM.Data.DBC.BatchTaskFields.State
+  - SuperOffice.CRM.Data.DBC.BatchTaskFields.Updated
+  - SuperOffice.CRM.Data.DBC.BatchTaskFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.BatchTaskFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.BatchTaskFields
+  nameWithType: DBC.BatchTaskFields
+  fullName: SuperOffice.CRM.Data.DBC.BatchTaskFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for BatchTask, Batch task request details, corresponding to the message body of a batch request message\n"
+  syntax:
+    content: public static class BatchTaskFields
+    content.vb: Public Module BatchTaskFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.BatchTaskFields.BatchTaskId
+  commentId: F:SuperOffice.CRM.Data.DBC.BatchTaskFields.BatchTaskId
+  id: BatchTaskId
+  parent: SuperOffice.CRM.Data.DBC.BatchTaskFields
+  langs:
+  - csharp
+  - vb
+  name: BatchTaskId
+  nameWithType: DBC.BatchTaskFields.BatchTaskId
+  fullName: SuperOffice.CRM.Data.DBC.BatchTaskFields.BatchTaskId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBatchTask.BatchTaskId: Primary key\n"
+  syntax:
+    content: public const string BatchTaskId = "BatchTask_id"
+    return:
+      type: System.String
+    content.vb: Public Const BatchTaskId As String = "BatchTask_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BatchTaskFields.BatchTaskDefinitionId
+  commentId: F:SuperOffice.CRM.Data.DBC.BatchTaskFields.BatchTaskDefinitionId
+  id: BatchTaskDefinitionId
+  parent: SuperOffice.CRM.Data.DBC.BatchTaskFields
+  langs:
+  - csharp
+  - vb
+  name: BatchTaskDefinitionId
+  nameWithType: DBC.BatchTaskFields.BatchTaskDefinitionId
+  fullName: SuperOffice.CRM.Data.DBC.BatchTaskFields.BatchTaskDefinitionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBatchTask.BatchTaskDefinitionId: Batch task definition, which is populated from code attributes\n"
+  syntax:
+    content: public const string BatchTaskDefinitionId = "BatchTaskDefinition_id"
+    return:
+      type: System.String
+    content.vb: Public Const BatchTaskDefinitionId As String = "BatchTaskDefinition_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BatchTaskFields.Description
+  commentId: F:SuperOffice.CRM.Data.DBC.BatchTaskFields.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.DBC.BatchTaskFields
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DBC.BatchTaskFields.Description
+  fullName: SuperOffice.CRM.Data.DBC.BatchTaskFields.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBatchTask.Description: Description of task (for monitoring and debugging)\n"
+  syntax:
+    content: public const string Description = "description"
+    return:
+      type: System.String
+    content.vb: Public Const Description As String = "description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BatchTaskFields.DbTag
+  commentId: F:SuperOffice.CRM.Data.DBC.BatchTaskFields.DbTag
+  id: DbTag
+  parent: SuperOffice.CRM.Data.DBC.BatchTaskFields
+  langs:
+  - csharp
+  - vb
+  name: DbTag
+  nameWithType: DBC.BatchTaskFields.DbTag
+  fullName: SuperOffice.CRM.Data.DBC.BatchTaskFields.DbTag
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBatchTask.DbTag: Database tag that this task applies to, to ensure tasks are execute on the correct database only\n"
+  syntax:
+    content: public const string DbTag = "dbTag"
+    return:
+      type: System.String
+    content.vb: Public Const DbTag As String = "dbTag"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BatchTaskFields.State
+  commentId: F:SuperOffice.CRM.Data.DBC.BatchTaskFields.State
+  id: State
+  parent: SuperOffice.CRM.Data.DBC.BatchTaskFields
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: DBC.BatchTaskFields.State
+  fullName: SuperOffice.CRM.Data.DBC.BatchTaskFields.State
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBatchTask.State: 0=Unknown; 1=New; 2=Assigned; 3=Started; 4=Succeeded; 5=Failed\n"
+  syntax:
+    content: public const string State = "state"
+    return:
+      type: System.String
+    content.vb: Public Const State As String = "state"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BatchTaskFields.DetailsTable
+  commentId: F:SuperOffice.CRM.Data.DBC.BatchTaskFields.DetailsTable
+  id: DetailsTable
+  parent: SuperOffice.CRM.Data.DBC.BatchTaskFields
+  langs:
+  - csharp
+  - vb
+  name: DetailsTable
+  nameWithType: DBC.BatchTaskFields.DetailsTable
+  fullName: SuperOffice.CRM.Data.DBC.BatchTaskFields.DetailsTable
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBatchTask.DetailsTable: Optional table containing further details that will not fit in the standard request/response fields\n"
+  syntax:
+    content: public const string DetailsTable = "detailsTable"
+    return:
+      type: System.String
+    content.vb: Public Const DetailsTable As String = "detailsTable"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BatchTaskFields.DetailsRecord
+  commentId: F:SuperOffice.CRM.Data.DBC.BatchTaskFields.DetailsRecord
+  id: DetailsRecord
+  parent: SuperOffice.CRM.Data.DBC.BatchTaskFields
+  langs:
+  - csharp
+  - vb
+  name: DetailsRecord
+  nameWithType: DBC.BatchTaskFields.DetailsRecord
+  fullName: SuperOffice.CRM.Data.DBC.BatchTaskFields.DetailsRecord
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBatchTask.DetailsRecord: Optional record containing further details that will not fit in the standard request/response fields\n"
+  syntax:
+    content: public const string DetailsRecord = "detailsRecord"
+    return:
+      type: System.String
+    content.vb: Public Const DetailsRecord As String = "detailsRecord"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BatchTaskFields.Request
+  commentId: F:SuperOffice.CRM.Data.DBC.BatchTaskFields.Request
+  id: Request
+  parent: SuperOffice.CRM.Data.DBC.BatchTaskFields
+  langs:
+  - csharp
+  - vb
+  name: Request
+  nameWithType: DBC.BatchTaskFields.Request
+  fullName: SuperOffice.CRM.Data.DBC.BatchTaskFields.Request
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBatchTask.Request: The batch request, specifying what to do\n"
+  syntax:
+    content: public const string Request = "request"
+    return:
+      type: System.String
+    content.vb: Public Const Request As String = "request"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BatchTaskFields.Response
+  commentId: F:SuperOffice.CRM.Data.DBC.BatchTaskFields.Response
+  id: Response
+  parent: SuperOffice.CRM.Data.DBC.BatchTaskFields
+  langs:
+  - csharp
+  - vb
+  name: Response
+  nameWithType: DBC.BatchTaskFields.Response
+  fullName: SuperOffice.CRM.Data.DBC.BatchTaskFields.Response
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBatchTask.Response: The response from the batch task processor\n"
+  syntax:
+    content: public const string Response = "response"
+    return:
+      type: System.String
+    content.vb: Public Const Response As String = "response"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BatchTaskFields.StartCount
+  commentId: F:SuperOffice.CRM.Data.DBC.BatchTaskFields.StartCount
+  id: StartCount
+  parent: SuperOffice.CRM.Data.DBC.BatchTaskFields
+  langs:
+  - csharp
+  - vb
+  name: StartCount
+  nameWithType: DBC.BatchTaskFields.StartCount
+  fullName: SuperOffice.CRM.Data.DBC.BatchTaskFields.StartCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBatchTask.StartCount: Number of times this batch task has been started (0 for tasks that have never been executed)\n"
+  syntax:
+    content: public const string StartCount = "startCount"
+    return:
+      type: System.String
+    content.vb: Public Const StartCount As String = "startCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BatchTaskFields.LastStarted
+  commentId: F:SuperOffice.CRM.Data.DBC.BatchTaskFields.LastStarted
+  id: LastStarted
+  parent: SuperOffice.CRM.Data.DBC.BatchTaskFields
+  langs:
+  - csharp
+  - vb
+  name: LastStarted
+  nameWithType: DBC.BatchTaskFields.LastStarted
+  fullName: SuperOffice.CRM.Data.DBC.BatchTaskFields.LastStarted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBatchTask.LastStarted: When was this job last started\n"
+  syntax:
+    content: public const string LastStarted = "lastStarted"
+    return:
+      type: System.String
+    content.vb: Public Const LastStarted As String = "lastStarted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BatchTaskFields.ProgressPercent
+  commentId: F:SuperOffice.CRM.Data.DBC.BatchTaskFields.ProgressPercent
+  id: ProgressPercent
+  parent: SuperOffice.CRM.Data.DBC.BatchTaskFields
+  langs:
+  - csharp
+  - vb
+  name: ProgressPercent
+  nameWithType: DBC.BatchTaskFields.ProgressPercent
+  fullName: SuperOffice.CRM.Data.DBC.BatchTaskFields.ProgressPercent
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBatchTask.ProgressPercent: Task progress, in percent of estimated total\n"
+  syntax:
+    content: public const string ProgressPercent = "progressPercent"
+    return:
+      type: System.String
+    content.vb: Public Const ProgressPercent As String = "progressPercent"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BatchTaskFields.ProgressDescription
+  commentId: F:SuperOffice.CRM.Data.DBC.BatchTaskFields.ProgressDescription
+  id: ProgressDescription
+  parent: SuperOffice.CRM.Data.DBC.BatchTaskFields
+  langs:
+  - csharp
+  - vb
+  name: ProgressDescription
+  nameWithType: DBC.BatchTaskFields.ProgressDescription
+  fullName: SuperOffice.CRM.Data.DBC.BatchTaskFields.ProgressDescription
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBatchTask.ProgressDescription: Descriptive text for the current stage\n"
+  syntax:
+    content: public const string ProgressDescription = "progressDescription"
+    return:
+      type: System.String
+    content.vb: Public Const ProgressDescription As String = "progressDescription"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BatchTaskFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.BatchTaskFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.BatchTaskFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.BatchTaskFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.BatchTaskFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBatchTask.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BatchTaskFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.BatchTaskFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.BatchTaskFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.BatchTaskFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.BatchTaskFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBatchTask.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BatchTaskFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.BatchTaskFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.BatchTaskFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.BatchTaskFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.BatchTaskFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBatchTask.Updated: &apos;heartbeat&apos; that is updated once a minute by the batch task process\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BatchTaskFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.BatchTaskFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.BatchTaskFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.BatchTaskFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.BatchTaskFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBatchTask.UpdatedAssociateId: &apos;heartbeat&apos; that is updated once a minute by the batch task process\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BatchTaskFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.BatchTaskFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.BatchTaskFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.BatchTaskFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.BatchTaskFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBatchTask.UpdatedCount: &apos;heartbeat&apos; that is updated once a minute by the batch task process\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

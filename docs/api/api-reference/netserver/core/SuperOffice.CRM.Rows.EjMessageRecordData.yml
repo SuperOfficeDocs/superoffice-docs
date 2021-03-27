@@ -1,0 +1,1613 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData
+  commentId: T:SuperOffice.CRM.Rows.EjMessageRecordData
+  id: EjMessageRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.EjMessageRecordData.#ctor
+  - SuperOffice.CRM.Rows.EjMessageRecordData.Author
+  - SuperOffice.CRM.Rows.EjMessageRecordData.Body
+  - SuperOffice.CRM.Rows.EjMessageRecordData.BodyAttachment
+  - SuperOffice.CRM.Rows.EjMessageRecordData.CreatedAt
+  - SuperOffice.CRM.Rows.EjMessageRecordData.CreatedBy
+  - SuperOffice.CRM.Rows.EjMessageRecordData.CustomerId
+  - SuperOffice.CRM.Rows.EjMessageRecordData.DebugInfo
+  - SuperOffice.CRM.Rows.EjMessageRecordData.EjMessageId
+  - SuperOffice.CRM.Rows.EjMessageRecordData.EmailHeader
+  - SuperOffice.CRM.Rows.EjMessageRecordData.HtmlBody
+  - SuperOffice.CRM.Rows.EjMessageRecordData.HtmlBodyAttachment
+  - SuperOffice.CRM.Rows.EjMessageRecordData.HtmlBodyInlineConverted
+  - SuperOffice.CRM.Rows.EjMessageRecordData.Important
+  - SuperOffice.CRM.Rows.EjMessageRecordData.Inbox
+  - SuperOffice.CRM.Rows.EjMessageRecordData.Language
+  - SuperOffice.CRM.Rows.EjMessageRecordData.MailSorter
+  - SuperOffice.CRM.Rows.EjMessageRecordData.MessageCategory
+  - SuperOffice.CRM.Rows.EjMessageRecordData.MessageId
+  - SuperOffice.CRM.Rows.EjMessageRecordData.SearchTitle
+  - SuperOffice.CRM.Rows.EjMessageRecordData.Sentiment
+  - SuperOffice.CRM.Rows.EjMessageRecordData.SentimentConfidence
+  - SuperOffice.CRM.Rows.EjMessageRecordData.Slevel
+  - SuperOffice.CRM.Rows.EjMessageRecordData.SuggestedCategoryId
+  - SuperOffice.CRM.Rows.EjMessageRecordData.TicketId
+  - SuperOffice.CRM.Rows.EjMessageRecordData.TimeCharge
+  - SuperOffice.CRM.Rows.EjMessageRecordData.TimeSpent
+  - SuperOffice.CRM.Rows.EjMessageRecordData.Type
+  langs:
+  - csharp
+  - vb
+  name: EjMessageRecordData
+  nameWithType: EjMessageRecordData
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the ej_message table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.EjMessageRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.EjMessageTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class EjMessageRecordData
+    content.vb: Public Class EjMessageRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.EjMessageRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.EjMessageRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.EjMessageRecordData)
+  - SuperOffice.CRM.Rows.EjMessageRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.EjMessageRecordData.SuperOffice.CRM.Rows.EjMessageRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.EjMessageRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.EjMessageId
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.EjMessageId
+  id: EjMessageId
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: EjMessageId
+  nameWithType: EjMessageRecordData.EjMessageId
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.EjMessageId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe primary key (auto-incremented) \n"
+  syntax:
+    content: public int EjMessageId
+    return:
+      type: System.Int32
+    content.vb: Public EjMessageId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.TicketId
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.TicketId
+  id: TicketId
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: TicketId
+  nameWithType: EjMessageRecordData.TicketId
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.TicketId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe ticket this message is a child of. \n"
+  syntax:
+    content: public int TicketId
+    return:
+      type: System.Int32
+    content.vb: Public TicketId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.SearchTitle
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.SearchTitle
+  id: SearchTitle
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: SearchTitle
+  nameWithType: EjMessageRecordData.SearchTitle
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.SearchTitle
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nA copy of the title of the ticket, for search optimisation and simpler reporting. \n"
+  syntax:
+    content: public string SearchTitle
+    return:
+      type: System.String
+    content.vb: Public SearchTitle As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.CreatedAt
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.CreatedAt
+  id: CreatedAt
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: CreatedAt
+  nameWithType: EjMessageRecordData.CreatedAt
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.CreatedAt
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen the message was posted. \n"
+  syntax:
+    content: public DateTime CreatedAt
+    return:
+      type: System.DateTime
+    content.vb: Public CreatedAt As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.CreatedBy
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: EjMessageRecordData.CreatedBy
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.CreatedBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe id of the user who posted the message. The value 1 (system user) for externally posted messages. \n"
+  syntax:
+    content: public int CreatedBy
+    return:
+      type: System.Int32
+    content.vb: Public CreatedBy As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.Type
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.Type
+  id: Type
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: EjMessageRecordData.Type
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.Type
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe type of the message (plaintext/html). \n"
+  syntax:
+    content: public TicketMessageType Type
+    return:
+      type: SuperOffice.Data.TicketMessageType
+    content.vb: Public Type As TicketMessageType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.MessageCategory
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.MessageCategory
+  id: MessageCategory
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: MessageCategory
+  nameWithType: EjMessageRecordData.MessageCategory
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.MessageCategory
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDefines what kind of message this is. \n"
+  syntax:
+    content: public TicketMessageCategory MessageCategory
+    return:
+      type: SuperOffice.Data.TicketMessageCategory
+    content.vb: Public MessageCategory As TicketMessageCategory
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.Author
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.Author
+  id: Author
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: Author
+  nameWithType: EjMessageRecordData.Author
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.Author
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nA string representing the author of the message. Could be a user&apos;s name, or a persons email address. \n"
+  syntax:
+    content: public string Author
+    return:
+      type: System.String
+    content.vb: Public Author As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.Slevel
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.Slevel
+  id: Slevel
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: Slevel
+  nameWithType: EjMessageRecordData.Slevel
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.Slevel
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe securitylevel of the message. \n"
+  syntax:
+    content: public TicketSecurityLevel Slevel
+    return:
+      type: SuperOffice.Data.TicketSecurityLevel
+    content.vb: Public Slevel As TicketSecurityLevel
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.MessageId
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.MessageId
+  id: MessageId
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: MessageId
+  nameWithType: EjMessageRecordData.MessageId
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.MessageId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. \n"
+  syntax:
+    content: public string MessageId
+    return:
+      type: System.String
+    content.vb: Public MessageId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.TimeSpent
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.TimeSpent
+  id: TimeSpent
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: TimeSpent
+  nameWithType: EjMessageRecordData.TimeSpent
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.TimeSpent
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe time spent (minutes) for this message. \n"
+  syntax:
+    content: public int TimeSpent
+    return:
+      type: System.Int32
+    content.vb: Public TimeSpent As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.TimeCharge
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.TimeCharge
+  id: TimeCharge
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: TimeCharge
+  nameWithType: EjMessageRecordData.TimeCharge
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.TimeCharge
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe amount of time (minutes) which should be invoiced for this message. \n"
+  syntax:
+    content: public int TimeCharge
+    return:
+      type: System.Int32
+    content.vb: Public TimeCharge As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.Body
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.Body
+  id: Body
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: Body
+  nameWithType: EjMessageRecordData.Body
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.Body
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe textbody for the message. \n"
+  syntax:
+    content: public string Body
+    return:
+      type: System.String
+    content.vb: Public Body As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.HtmlBody
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.HtmlBody
+  id: HtmlBody
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: HtmlBody
+  nameWithType: EjMessageRecordData.HtmlBody
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.HtmlBody
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe html body for the message (if any). \n"
+  syntax:
+    content: public string HtmlBody
+    return:
+      type: System.String
+    content.vb: Public HtmlBody As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.EmailHeader
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.EmailHeader
+  id: EmailHeader
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: EmailHeader
+  nameWithType: EjMessageRecordData.EmailHeader
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.EmailHeader
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe email header is saved in this field as raw text \n"
+  syntax:
+    content: public string EmailHeader
+    return:
+      type: System.String
+    content.vb: Public EmailHeader As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.DebugInfo
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.DebugInfo
+  id: DebugInfo
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: DebugInfo
+  nameWithType: EjMessageRecordData.DebugInfo
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.DebugInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe debug info for the message. \n"
+  syntax:
+    content: public string DebugInfo
+    return:
+      type: System.String
+    content.vb: Public DebugInfo As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.MailSorter
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.MailSorter
+  id: MailSorter
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: MailSorter
+  nameWithType: EjMessageRecordData.MailSorter
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.MailSorter
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe name of the mail sorter used when the email was imported. Note: We must use name instead of id since the id&apos;s change every time one changes the mail sorter. :-0 \n"
+  syntax:
+    content: public string MailSorter
+    return:
+      type: System.String
+    content.vb: Public MailSorter As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.CustomerId
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.CustomerId
+  id: CustomerId
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: CustomerId
+  nameWithType: EjMessageRecordData.CustomerId
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.CustomerId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIf the message was created by email or from the customer center, this field will point to that customer. -1 if the message was created by an user \n"
+  syntax:
+    content: public int CustomerId
+    return:
+      type: System.Int32
+    content.vb: Public CustomerId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.BodyAttachment
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.BodyAttachment
+  id: BodyAttachment
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: BodyAttachment
+  nameWithType: EjMessageRecordData.BodyAttachment
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.BodyAttachment
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIf the body is too long for the database, it&apos;s stored in this attachment instead. \n"
+  syntax:
+    content: public int BodyAttachment
+    return:
+      type: System.Int32
+    content.vb: Public BodyAttachment As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.HtmlBodyAttachment
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.HtmlBodyAttachment
+  id: HtmlBodyAttachment
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: HtmlBodyAttachment
+  nameWithType: EjMessageRecordData.HtmlBodyAttachment
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.HtmlBodyAttachment
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIf the htmlbody is too long for the database, it&apos;s stored in this attachment instead. \n"
+  syntax:
+    content: public int HtmlBodyAttachment
+    return:
+      type: System.Int32
+    content.vb: Public HtmlBodyAttachment As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.HtmlBodyInlineConverted
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.HtmlBodyInlineConverted
+  id: HtmlBodyInlineConverted
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: HtmlBodyInlineConverted
+  nameWithType: EjMessageRecordData.HtmlBodyInlineConverted
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.HtmlBodyInlineConverted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTrue if the html_body has converted inline image links. \n"
+  syntax:
+    content: public short HtmlBodyInlineConverted
+    return:
+      type: System.Int16
+    content.vb: Public HtmlBodyInlineConverted As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.Inbox
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.Inbox
+  id: Inbox
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: Inbox
+  nameWithType: EjMessageRecordData.Inbox
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.Inbox
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe id of the inbox entry which created this message. Note: inbox entries are regularily deleted. \n"
+  syntax:
+    content: public int Inbox
+    return:
+      type: System.Int32
+    content.vb: Public Inbox As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.Important
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.Important
+  id: Important
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: Important
+  nameWithType: EjMessageRecordData.Important
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.Important
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIf this message is important or not. \n"
+  syntax:
+    content: public short Important
+    return:
+      type: System.Int16
+    content.vb: Public Important As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.Language
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.Language
+  id: Language
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: EjMessageRecordData.Language
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.Language
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe language this message is in, based on some kind of analysis \n"
+  syntax:
+    content: public string Language
+    return:
+      type: System.String
+    content.vb: Public Language As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.Sentiment
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.Sentiment
+  id: Sentiment
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: Sentiment
+  nameWithType: EjMessageRecordData.Sentiment
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.Sentiment
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea \n"
+  syntax:
+    content: public int Sentiment
+    return:
+      type: System.Int32
+    content.vb: Public Sentiment As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.SentimentConfidence
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.SentimentConfidence
+  id: SentimentConfidence
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: SentimentConfidence
+  nameWithType: EjMessageRecordData.SentimentConfidence
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.SentimentConfidence
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nConfidence of sentiment index, 0 = no idea, 100 = completely sure \n"
+  syntax:
+    content: public int SentimentConfidence
+    return:
+      type: System.Int32
+    content.vb: Public SentimentConfidence As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.SuggestedCategoryId
+  commentId: F:SuperOffice.CRM.Rows.EjMessageRecordData.SuggestedCategoryId
+  id: SuggestedCategoryId
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: SuggestedCategoryId
+  nameWithType: EjMessageRecordData.SuggestedCategoryId
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.SuggestedCategoryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSuggestion for categorization, based on the text of the message (AI) \n"
+  syntax:
+    content: public int SuggestedCategoryId
+    return:
+      type: System.Int32
+    content.vb: Public SuggestedCategoryId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.EjMessageRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.EjMessageRecordData
+  langs:
+  - csharp
+  - vb
+  name: EjMessageRecordData()
+  nameWithType: EjMessageRecordData.EjMessageRecordData()
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.EjMessageRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public EjMessageRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.EjMessageRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<EjMessageRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<EjMessageRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.EjMessageRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of EjMessageRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.EjMessageRecordData, To)()
+  name.vb: MapEnums(Of EjMessageRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<EjMessageRecordData, To>
+    nameWithType: EnumUtil.MapEnums<EjMessageRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.EjMessageRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of EjMessageRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of EjMessageRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.EjMessageRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.EjMessageRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<EjMessageRecordData>(EjMessageRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<EjMessageRecordData>(EjMessageRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.EjMessageRecordData>(SuperOffice.CRM.Rows.EjMessageRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of EjMessageRecordData)(EjMessageRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.EjMessageRecordData)(SuperOffice.CRM.Rows.EjMessageRecordData)
+  name.vb: AssignByReflection(Of EjMessageRecordData)(EjMessageRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<EjMessageRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<EjMessageRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.EjMessageRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.EjMessageRecordData
+    name: EjMessageRecordData
+    nameWithType: EjMessageRecordData
+    fullName: SuperOffice.CRM.Rows.EjMessageRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of EjMessageRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of EjMessageRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.EjMessageRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.EjMessageRecordData
+    name: EjMessageRecordData
+    nameWithType: EjMessageRecordData
+    fullName: SuperOffice.CRM.Rows.EjMessageRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<EjMessageRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<EjMessageRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.EjMessageRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of EjMessageRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.EjMessageRecordData)()
+  name.vb: GraphCopy(Of EjMessageRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<EjMessageRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<EjMessageRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.EjMessageRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of EjMessageRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of EjMessageRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.EjMessageRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.SuperOffice.CRM.Rows.EjMessageRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.EjMessageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjMessageRecordData)
+  parent: SuperOffice.CRM.Rows.EjMessageRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.EjMessageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjMessageRecordData)
+  name: ToInsert()
+  nameWithType: EjMessageRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.EjMessageRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: EjMessageRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.EjMessageRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.EjMessageRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: EjMessageRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.EjMessageRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<EjMessageRecordData, To>()
+  nameWithType: Converters.MapEnums<EjMessageRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.EjMessageRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of EjMessageRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.EjMessageRecordData, To)()
+  name.vb: MapEnums(Of EjMessageRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<EjMessageRecordData, To>
+    nameWithType: Converters.MapEnums<EjMessageRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.EjMessageRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of EjMessageRecordData, To)
+    nameWithType: Converters.MapEnums(Of EjMessageRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.EjMessageRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.EjMessageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjMessageRecordData)
+  commentId: M:SuperOffice.CRM.Rows.EjMessageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjMessageRecordData)
+  isExternal: true
+  name: ToInsert(EjMessageRecordData)
+  nameWithType: EjMessageRecordDataExtensions.ToInsert(EjMessageRecordData)
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjMessageRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.EjMessageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjMessageRecordData)
+    name: ToInsert
+    nameWithType: EjMessageRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.EjMessageRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.EjMessageRecordData
+    name: EjMessageRecordData
+    nameWithType: EjMessageRecordData
+    fullName: SuperOffice.CRM.Rows.EjMessageRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.EjMessageRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjMessageRecordData)
+    name: ToInsert
+    nameWithType: EjMessageRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.EjMessageRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.EjMessageRecordData
+    name: EjMessageRecordData
+    nameWithType: EjMessageRecordData
+    fullName: SuperOffice.CRM.Rows.EjMessageRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.EjMessageRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.EjMessageRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: EjMessageRecordDataExtensions
+  nameWithType: EjMessageRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.Data.TicketMessageType
+  commentId: T:SuperOffice.Data.TicketMessageType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TicketMessageType
+  nameWithType: TicketMessageType
+  fullName: SuperOffice.Data.TicketMessageType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.TicketMessageCategory
+  commentId: T:SuperOffice.Data.TicketMessageCategory
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TicketMessageCategory
+  nameWithType: TicketMessageCategory
+  fullName: SuperOffice.Data.TicketMessageCategory
+- uid: SuperOffice.Data.TicketSecurityLevel
+  commentId: T:SuperOffice.Data.TicketSecurityLevel
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TicketSecurityLevel
+  nameWithType: TicketSecurityLevel
+  fullName: SuperOffice.Data.TicketSecurityLevel
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Rows.EjMessageRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.EjMessageRecordData.#ctor
+  isExternal: true
+  name: EjMessageRecordData
+  nameWithType: EjMessageRecordData.EjMessageRecordData
+  fullName: SuperOffice.CRM.Rows.EjMessageRecordData.EjMessageRecordData

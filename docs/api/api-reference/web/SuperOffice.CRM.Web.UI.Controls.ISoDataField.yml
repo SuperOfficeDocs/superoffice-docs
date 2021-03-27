@@ -1,0 +1,124 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.ISoDataField
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.ISoDataField
+  id: ISoDataField
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.ISoDataField.ColumnCustomInfo
+  - SuperOffice.CRM.Web.UI.Controls.ISoDataField.LinkHintPrefix
+  langs:
+  - csharp
+  - vb
+  name: ISoDataField
+  nameWithType: ISoDataField
+  fullName: SuperOffice.CRM.Web.UI.Controls.ISoDataField
+  type: Interface
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public interface ISoDataField
+    content.vb: Public Interface ISoDataField
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Web.UI.Controls.ISoDataField.LinkHintPrefix
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ISoDataField.LinkHintPrefix
+  id: LinkHintPrefix
+  parent: SuperOffice.CRM.Web.UI.Controls.ISoDataField
+  langs:
+  - csharp
+  - vb
+  name: LinkHintPrefix
+  nameWithType: ISoDataField.LinkHintPrefix
+  fullName: SuperOffice.CRM.Web.UI.Controls.ISoDataField.LinkHintPrefix
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: string LinkHintPrefix { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property LinkHintPrefix As String
+  overload: SuperOffice.CRM.Web.UI.Controls.ISoDataField.LinkHintPrefix*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.CRM.Web.UI.Controls.ISoDataField.ColumnCustomInfo
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ISoDataField.ColumnCustomInfo
+  id: ColumnCustomInfo
+  parent: SuperOffice.CRM.Web.UI.Controls.ISoDataField
+  langs:
+  - csharp
+  - vb
+  name: ColumnCustomInfo
+  nameWithType: ISoDataField.ColumnCustomInfo
+  fullName: SuperOffice.CRM.Web.UI.Controls.ISoDataField.ColumnCustomInfo
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: ColumnCustomInfo ColumnCustomInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.ColumnCustomInfo
+    content.vb: Property ColumnCustomInfo As ColumnCustomInfo
+  overload: SuperOffice.CRM.Web.UI.Controls.ISoDataField.ColumnCustomInfo*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.ISoDataField.LinkHintPrefix*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ISoDataField.LinkHintPrefix
+  isExternal: true
+  name: LinkHintPrefix
+  nameWithType: ISoDataField.LinkHintPrefix
+  fullName: SuperOffice.CRM.Web.UI.Controls.ISoDataField.LinkHintPrefix
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.Controls.ISoDataField.ColumnCustomInfo*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ISoDataField.ColumnCustomInfo
+  isExternal: true
+  name: ColumnCustomInfo
+  nameWithType: ISoDataField.ColumnCustomInfo
+  fullName: SuperOffice.CRM.Web.UI.Controls.ISoDataField.ColumnCustomInfo
+- uid: SuperOffice.CRM.Web.UI.Controls.ColumnCustomInfo
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.ColumnCustomInfo
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: ColumnCustomInfo
+  nameWithType: ColumnCustomInfo
+  fullName: SuperOffice.CRM.Web.UI.Controls.ColumnCustomInfo

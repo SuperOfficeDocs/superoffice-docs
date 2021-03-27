@@ -1,0 +1,526 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.CustomerCenterConfig
+  commentId: T:SuperOffice.CRM.Services.CustomerCenterConfig
+  id: CustomerCenterConfig
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.CustomerCenterConfig.#ctor
+  - SuperOffice.CRM.Services.CustomerCenterConfig.Config
+  - SuperOffice.CRM.Services.CustomerCenterConfig.CustConfigId
+  - SuperOffice.CRM.Services.CustomerCenterConfig.CustLangId
+  - SuperOffice.CRM.Services.CustomerCenterConfig.Registered
+  - SuperOffice.CRM.Services.CustomerCenterConfig.RegisteredAssociateId
+  - SuperOffice.CRM.Services.CustomerCenterConfig.ToString
+  - SuperOffice.CRM.Services.CustomerCenterConfig.ToString(System.String)
+  - SuperOffice.CRM.Services.CustomerCenterConfig.Type
+  - SuperOffice.CRM.Services.CustomerCenterConfig.Updated
+  - SuperOffice.CRM.Services.CustomerCenterConfig.UpdatedAssociateId
+  langs:
+  - csharp
+  - vb
+  name: CustomerCenterConfig
+  nameWithType: CustomerCenterConfig
+  fullName: SuperOffice.CRM.Services.CustomerCenterConfig
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContains configuration when displaying the Customer Center\n<p></p>\nCarrier object for CustomerCenterConfig.\nServices for the CustomerCenterConfig Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ICustomerServiceAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet CustomerCenterConfig 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new CustomerServiceAgent();\n    var customerCenterConfig = agent.GetCustomerCenterConfig( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class CustomerCenterConfig : Carrier'
+    content.vb: >-
+      Public Class CustomerCenterConfig
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.CustomerServiceAgent
+    commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
+  - linkId: SuperOffice.CRM.Services.ICustomerServiceAgent
+    commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.CustomerCenterConfig.#ctor
+  commentId: M:SuperOffice.CRM.Services.CustomerCenterConfig.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.CustomerCenterConfig
+  langs:
+  - csharp
+  - vb
+  name: CustomerCenterConfig()
+  nameWithType: CustomerCenterConfig.CustomerCenterConfig()
+  fullName: SuperOffice.CRM.Services.CustomerCenterConfig.CustomerCenterConfig()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public CustomerCenterConfig()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.CustomerCenterConfig.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CustomerCenterConfig.ToString
+  commentId: M:SuperOffice.CRM.Services.CustomerCenterConfig.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.CustomerCenterConfig
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: CustomerCenterConfig.ToString()
+  fullName: SuperOffice.CRM.Services.CustomerCenterConfig.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.CustomerCenterConfig.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.CustomerCenterConfig.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.CustomerCenterConfig.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.CustomerCenterConfig
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: CustomerCenterConfig.ToString(String)
+  fullName: SuperOffice.CRM.Services.CustomerCenterConfig.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.CustomerCenterConfig.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CustomerCenterConfig.CustConfigId
+  commentId: P:SuperOffice.CRM.Services.CustomerCenterConfig.CustConfigId
+  id: CustConfigId
+  parent: SuperOffice.CRM.Services.CustomerCenterConfig
+  langs:
+  - csharp
+  - vb
+  name: CustConfigId
+  nameWithType: CustomerCenterConfig.CustConfigId
+  fullName: SuperOffice.CRM.Services.CustomerCenterConfig.CustConfigId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int CustConfigId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CustConfigId As Integer
+  overload: SuperOffice.CRM.Services.CustomerCenterConfig.CustConfigId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CustomerCenterConfig.Type
+  commentId: P:SuperOffice.CRM.Services.CustomerCenterConfig.Type
+  id: Type
+  parent: SuperOffice.CRM.Services.CustomerCenterConfig
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: CustomerCenterConfig.Type
+  fullName: SuperOffice.CRM.Services.CustomerCenterConfig.Type
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhat kind of data is in this row \n"
+  syntax:
+    content: public virtual ConfigType Type { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.ConfigType
+    content.vb: Public Overridable Property Type As ConfigType
+  overload: SuperOffice.CRM.Services.CustomerCenterConfig.Type*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CustomerCenterConfig.Config
+  commentId: P:SuperOffice.CRM.Services.CustomerCenterConfig.Config
+  id: Config
+  parent: SuperOffice.CRM.Services.CustomerCenterConfig
+  langs:
+  - csharp
+  - vb
+  name: Config
+  nameWithType: CustomerCenterConfig.Config
+  fullName: SuperOffice.CRM.Services.CustomerCenterConfig.Config
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA JSON-formatted config \n"
+  syntax:
+    content: public virtual string Config { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Config As String
+  overload: SuperOffice.CRM.Services.CustomerCenterConfig.Config*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CustomerCenterConfig.CustLangId
+  commentId: P:SuperOffice.CRM.Services.CustomerCenterConfig.CustLangId
+  id: CustLangId
+  parent: SuperOffice.CRM.Services.CustomerCenterConfig
+  langs:
+  - csharp
+  - vb
+  name: CustLangId
+  nameWithType: CustomerCenterConfig.CustLangId
+  fullName: SuperOffice.CRM.Services.CustomerCenterConfig.CustLangId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe customer language which this config belongs to. 0 indicates that the config is global \n"
+  syntax:
+    content: public virtual int CustLangId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CustLangId As Integer
+  overload: SuperOffice.CRM.Services.CustomerCenterConfig.CustLangId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CustomerCenterConfig.Registered
+  commentId: P:SuperOffice.CRM.Services.CustomerCenterConfig.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Services.CustomerCenterConfig
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: CustomerCenterConfig.Registered
+  fullName: SuperOffice.CRM.Services.CustomerCenterConfig.Registered
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRegistered when  in UTC.\n"
+  syntax:
+    content: public virtual DateTime Registered { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Registered As Date
+  overload: SuperOffice.CRM.Services.CustomerCenterConfig.Registered*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CustomerCenterConfig.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Services.CustomerCenterConfig.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Services.CustomerCenterConfig
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: CustomerCenterConfig.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Services.CustomerCenterConfig.RegisteredAssociateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public virtual int RegisteredAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RegisteredAssociateId As Integer
+  overload: SuperOffice.CRM.Services.CustomerCenterConfig.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CustomerCenterConfig.Updated
+  commentId: P:SuperOffice.CRM.Services.CustomerCenterConfig.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Services.CustomerCenterConfig
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: CustomerCenterConfig.Updated
+  fullName: SuperOffice.CRM.Services.CustomerCenterConfig.Updated
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLast updated when  in UTC.\n"
+  syntax:
+    content: public virtual DateTime Updated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Updated As Date
+  overload: SuperOffice.CRM.Services.CustomerCenterConfig.Updated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CustomerCenterConfig.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Services.CustomerCenterConfig.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Services.CustomerCenterConfig
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: CustomerCenterConfig.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Services.CustomerCenterConfig.UpdatedAssociateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public virtual int UpdatedAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UpdatedAssociateId As Integer
+  overload: SuperOffice.CRM.Services.CustomerCenterConfig.UpdatedAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.CustomerServiceAgent
+  commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
+  isExternal: true
+  name: CustomerServiceAgent
+  nameWithType: CustomerServiceAgent
+  fullName: SuperOffice.CRM.Services.CustomerServiceAgent
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent
+  commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ICustomerServiceAgent
+  nameWithType: ICustomerServiceAgent
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.CustomerCenterConfig.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.CustomerCenterConfig.#ctor
+  isExternal: true
+  name: CustomerCenterConfig
+  nameWithType: CustomerCenterConfig.CustomerCenterConfig
+  fullName: SuperOffice.CRM.Services.CustomerCenterConfig.CustomerCenterConfig
+- uid: SuperOffice.CRM.Services.CustomerCenterConfig.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.CustomerCenterConfig.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: CustomerCenterConfig.ToString
+  fullName: SuperOffice.CRM.Services.CustomerCenterConfig.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.CustomerCenterConfig.CustConfigId*
+  commentId: Overload:SuperOffice.CRM.Services.CustomerCenterConfig.CustConfigId
+  isExternal: true
+  name: CustConfigId
+  nameWithType: CustomerCenterConfig.CustConfigId
+  fullName: SuperOffice.CRM.Services.CustomerCenterConfig.CustConfigId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.CustomerCenterConfig.Type*
+  commentId: Overload:SuperOffice.CRM.Services.CustomerCenterConfig.Type
+  isExternal: true
+  name: Type
+  nameWithType: CustomerCenterConfig.Type
+  fullName: SuperOffice.CRM.Services.CustomerCenterConfig.Type
+- uid: SuperOffice.Data.ConfigType
+  commentId: '!:SuperOffice.Data.ConfigType'
+  isExternal: true
+  name: ConfigType
+  nameWithType: ConfigType
+  fullName: SuperOffice.Data.ConfigType
+- uid: SuperOffice.CRM.Services.CustomerCenterConfig.Config*
+  commentId: Overload:SuperOffice.CRM.Services.CustomerCenterConfig.Config
+  isExternal: true
+  name: Config
+  nameWithType: CustomerCenterConfig.Config
+  fullName: SuperOffice.CRM.Services.CustomerCenterConfig.Config
+- uid: SuperOffice.CRM.Services.CustomerCenterConfig.CustLangId*
+  commentId: Overload:SuperOffice.CRM.Services.CustomerCenterConfig.CustLangId
+  isExternal: true
+  name: CustLangId
+  nameWithType: CustomerCenterConfig.CustLangId
+  fullName: SuperOffice.CRM.Services.CustomerCenterConfig.CustLangId
+- uid: SuperOffice.CRM.Services.CustomerCenterConfig.Registered*
+  commentId: Overload:SuperOffice.CRM.Services.CustomerCenterConfig.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: CustomerCenterConfig.Registered
+  fullName: SuperOffice.CRM.Services.CustomerCenterConfig.Registered
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.CustomerCenterConfig.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.CustomerCenterConfig.RegisteredAssociateId
+  isExternal: true
+  name: RegisteredAssociateId
+  nameWithType: CustomerCenterConfig.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Services.CustomerCenterConfig.RegisteredAssociateId
+- uid: SuperOffice.CRM.Services.CustomerCenterConfig.Updated*
+  commentId: Overload:SuperOffice.CRM.Services.CustomerCenterConfig.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: CustomerCenterConfig.Updated
+  fullName: SuperOffice.CRM.Services.CustomerCenterConfig.Updated
+- uid: SuperOffice.CRM.Services.CustomerCenterConfig.UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.CustomerCenterConfig.UpdatedAssociateId
+  isExternal: true
+  name: UpdatedAssociateId
+  nameWithType: CustomerCenterConfig.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Services.CustomerCenterConfig.UpdatedAssociateId

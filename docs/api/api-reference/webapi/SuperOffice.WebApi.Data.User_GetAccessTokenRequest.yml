@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.User_GetAccessTokenRequest
+  commentId: T:SuperOffice.WebApi.Data.User_GetAccessTokenRequest
+  id: User_GetAccessTokenRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.User_GetAccessTokenRequest.#ctor
+  - SuperOffice.WebApi.Data.User_GetAccessTokenRequest.AppToken
+  - SuperOffice.WebApi.Data.User_GetAccessTokenRequest.IncludeCsSession
+  langs:
+  - csharp
+  - vb
+  name: User_GetAccessTokenRequest
+  nameWithType: User_GetAccessTokenRequest
+  fullName: SuperOffice.WebApi.Data.User_GetAccessTokenRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class User_GetAccessTokenRequest : Object'
+    content.vb: >-
+      Public Class User_GetAccessTokenRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.User_GetAccessTokenRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.User_GetAccessTokenRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.User_GetAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: User_GetAccessTokenRequest()
+  nameWithType: User_GetAccessTokenRequest.User_GetAccessTokenRequest()
+  fullName: SuperOffice.WebApi.Data.User_GetAccessTokenRequest.User_GetAccessTokenRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User_GetAccessTokenRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.User_GetAccessTokenRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_GetAccessTokenRequest.AppToken
+  commentId: P:SuperOffice.WebApi.Data.User_GetAccessTokenRequest.AppToken
+  id: AppToken
+  parent: SuperOffice.WebApi.Data.User_GetAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: AppToken
+  nameWithType: User_GetAccessTokenRequest.AppToken
+  fullName: SuperOffice.WebApi.Data.User_GetAccessTokenRequest.AppToken
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string AppToken { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AppToken As String
+  overload: SuperOffice.WebApi.Data.User_GetAccessTokenRequest.AppToken*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_GetAccessTokenRequest.IncludeCsSession
+  commentId: P:SuperOffice.WebApi.Data.User_GetAccessTokenRequest.IncludeCsSession
+  id: IncludeCsSession
+  parent: SuperOffice.WebApi.Data.User_GetAccessTokenRequest
+  langs:
+  - csharp
+  - vb
+  name: IncludeCsSession
+  nameWithType: User_GetAccessTokenRequest.IncludeCsSession
+  fullName: SuperOffice.WebApi.Data.User_GetAccessTokenRequest.IncludeCsSession
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool IncludeCsSession { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeCsSession As Boolean
+  overload: SuperOffice.WebApi.Data.User_GetAccessTokenRequest.IncludeCsSession*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.User_GetAccessTokenRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.User_GetAccessTokenRequest.#ctor
+  isExternal: true
+  name: User_GetAccessTokenRequest
+  nameWithType: User_GetAccessTokenRequest.User_GetAccessTokenRequest
+  fullName: SuperOffice.WebApi.Data.User_GetAccessTokenRequest.User_GetAccessTokenRequest
+- uid: SuperOffice.WebApi.Data.User_GetAccessTokenRequest.AppToken*
+  commentId: Overload:SuperOffice.WebApi.Data.User_GetAccessTokenRequest.AppToken
+  isExternal: true
+  name: AppToken
+  nameWithType: User_GetAccessTokenRequest.AppToken
+  fullName: SuperOffice.WebApi.Data.User_GetAccessTokenRequest.AppToken
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.User_GetAccessTokenRequest.IncludeCsSession*
+  commentId: Overload:SuperOffice.WebApi.Data.User_GetAccessTokenRequest.IncludeCsSession
+  isExternal: true
+  name: IncludeCsSession
+  nameWithType: User_GetAccessTokenRequest.IncludeCsSession
+  fullName: SuperOffice.WebApi.Data.User_GetAccessTokenRequest.IncludeCsSession
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

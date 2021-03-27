@@ -1,0 +1,252 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject
+  commentId: T:SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject
+  id: MailMergeTaskCacheObject
+  parent: SuperOffice.CRM.Web.Data.CacheObjects
+  children:
+  - SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.#ctor
+  - SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.PriorityObject
+  - SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.ProjectName
+  - SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.SaleName
+  - SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.Task
+  langs:
+  - csharp
+  - vb
+  name: MailMergeTaskCacheObject
+  nameWithType: MailMergeTaskCacheObject
+  fullName: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.CacheObjects
+  syntax:
+    content: 'public class MailMergeTaskCacheObject : MailMergeTask'
+    content.vb: >-
+      Public Class MailMergeTaskCacheObject
+          Inherits MailMergeTask
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.#ctor
+  commentId: M:SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject
+  langs:
+  - csharp
+  - vb
+  name: MailMergeTaskCacheObject()
+  nameWithType: MailMergeTaskCacheObject.MailMergeTaskCacheObject()
+  fullName: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.MailMergeTaskCacheObject()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.CacheObjects
+  syntax:
+    content: public MailMergeTaskCacheObject()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.ProjectName
+  commentId: P:SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.ProjectName
+  id: ProjectName
+  parent: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject
+  langs:
+  - csharp
+  - vb
+  name: ProjectName
+  nameWithType: MailMergeTaskCacheObject.ProjectName
+  fullName: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.ProjectName
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.CacheObjects
+  syntax:
+    content: public string ProjectName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProjectName As String
+  overload: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.ProjectName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.SaleName
+  commentId: P:SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.SaleName
+  id: SaleName
+  parent: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject
+  langs:
+  - csharp
+  - vb
+  name: SaleName
+  nameWithType: MailMergeTaskCacheObject.SaleName
+  fullName: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.SaleName
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.CacheObjects
+  syntax:
+    content: public string SaleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SaleName As String
+  overload: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.SaleName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.PriorityObject
+  commentId: P:SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.PriorityObject
+  id: PriorityObject
+  parent: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject
+  langs:
+  - csharp
+  - vb
+  name: PriorityObject
+  nameWithType: MailMergeTaskCacheObject.PriorityObject
+  fullName: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.PriorityObject
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.CacheObjects
+  syntax:
+    content: public Priority PriorityObject { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Priority
+    content.vb: Public Property PriorityObject As Priority
+  overload: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.PriorityObject*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.Task
+  commentId: P:SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.Task
+  id: Task
+  parent: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject
+  langs:
+  - csharp
+  - vb
+  name: Task
+  nameWithType: MailMergeTaskCacheObject.Task
+  fullName: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.Task
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.CacheObjects
+  syntax:
+    content: public TaskListItem Task { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.TaskListItem
+    content.vb: Public Property Task As TaskListItem
+  overload: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.Task*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Data.CacheObjects
+  commentId: N:SuperOffice.CRM.Web.Data.CacheObjects
+  isExternal: true
+  name: SuperOffice.CRM.Web.Data.CacheObjects
+  nameWithType: SuperOffice.CRM.Web.Data.CacheObjects
+  fullName: SuperOffice.CRM.Web.Data.CacheObjects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.#ctor
+  isExternal: true
+  name: MailMergeTaskCacheObject
+  nameWithType: MailMergeTaskCacheObject.MailMergeTaskCacheObject
+  fullName: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.MailMergeTaskCacheObject
+- uid: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.ProjectName*
+  commentId: Overload:SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.ProjectName
+  isExternal: true
+  name: ProjectName
+  nameWithType: MailMergeTaskCacheObject.ProjectName
+  fullName: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.ProjectName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.SaleName*
+  commentId: Overload:SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.SaleName
+  isExternal: true
+  name: SaleName
+  nameWithType: MailMergeTaskCacheObject.SaleName
+  fullName: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.SaleName
+- uid: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.PriorityObject*
+  commentId: Overload:SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.PriorityObject
+  isExternal: true
+  name: PriorityObject
+  nameWithType: MailMergeTaskCacheObject.PriorityObject
+  fullName: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.PriorityObject
+- uid: SuperOffice.CRM.Services.Priority
+  commentId: '!:SuperOffice.CRM.Services.Priority'
+  isExternal: true
+  name: Priority
+  nameWithType: Priority
+  fullName: SuperOffice.CRM.Services.Priority
+- uid: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.Task*
+  commentId: Overload:SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.Task
+  isExternal: true
+  name: Task
+  nameWithType: MailMergeTaskCacheObject.Task
+  fullName: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject.Task
+- uid: SuperOffice.CRM.Services.TaskListItem
+  commentId: '!:SuperOffice.CRM.Services.TaskListItem'
+  isExternal: true
+  name: TaskListItem
+  nameWithType: TaskListItem
+  fullName: SuperOffice.CRM.Services.TaskListItem

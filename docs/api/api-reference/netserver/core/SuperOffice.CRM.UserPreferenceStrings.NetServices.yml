@@ -1,0 +1,1339 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  commentId: T:SuperOffice.CRM.UserPreferenceStrings.NetServices
+  id: UserPreferenceStrings.NetServices
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.CommunityUrl
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.ELearningUrl
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.EnableNetServicesOnCentral
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.EnableNetServicesOnTravel
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.FeedbackUrl
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.HelpIndexUrl
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.HelpUrl
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.LastPage
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.MeteredServicesUrl
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.NewsURL
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.NextDate
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.PageURL
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.ResourceCtrUrl
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.Section
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.SeenTeaserDlg
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.ShowOnStartup
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.StatusCheckTimeout
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.StatusURL
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.TeaserURL
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.TechSupportUrl
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.UserPassportId
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.WebtoolsDownloadUrl
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewConfirmedPocket
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewConfirmedWeb
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewConfirmedWin
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewSeenPocket
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewSeenWeb
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewSeenWin
+  - SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewUrl
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.NetServices
+  nameWithType: UserPreferenceStrings.NetServices
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSuperOffice Web Services settings\n"
+  syntax:
+    content: public static class NetServices
+    content.vb: Public Module NetServices
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.Section
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.Section
+  id: Section
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.NetServices.Section
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.Section
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSection heading. \n"
+  syntax:
+    content: public const string Section = "NetServices"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "NetServices"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.ELearningUrl
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.ELearningUrl
+  id: ELearningUrl
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: ELearningUrl
+  nameWithType: UserPreferenceStrings.NetServices.ELearningUrl
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.ELearningUrl
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nURL to E-Learning\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string ELearningUrl = "ELearningUrl"
+    return:
+      type: System.String
+    content.vb: Public Const ELearningUrl As String = "ELearningUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.EnableNetServicesOnCentral
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.EnableNetServicesOnCentral
+  id: EnableNetServicesOnCentral
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: EnableNetServicesOnCentral
+  nameWithType: UserPreferenceStrings.NetServices.EnableNetServicesOnCentral
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.EnableNetServicesOnCentral
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nMake Web Services available on your central and satellite databases. (Default = YES)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public const string EnableNetServicesOnCentral = "EnableNetServicesOnCentral"
+    return:
+      type: System.String
+    content.vb: >-
+      <Obsolete>
+
+      Public Const EnableNetServicesOnCentral As String = "EnableNetServicesOnCentral"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.EnableNetServicesOnTravel
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.EnableNetServicesOnTravel
+  id: EnableNetServicesOnTravel
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: EnableNetServicesOnTravel
+  nameWithType: UserPreferenceStrings.NetServices.EnableNetServicesOnTravel
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.EnableNetServicesOnTravel
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nMake Web Services available on your Travel databases. (Default = YES)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public const string EnableNetServicesOnTravel = "EnableNetServicesOnTravel"
+    return:
+      type: System.String
+    content.vb: >-
+      <Obsolete>
+
+      Public Const EnableNetServicesOnTravel As String = "EnableNetServicesOnTravel"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.LastPage
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.LastPage
+  id: LastPage
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: LastPage
+  nameWithType: UserPreferenceStrings.NetServices.LastPage
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.LastPage
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nLast page read\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public const string LastPage = "LastPage"
+    return:
+      type: System.String
+    content.vb: >-
+      <Obsolete>
+
+      Public Const LastPage As String = "LastPage"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.NewsURL
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.NewsURL
+  id: NewsURL
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: NewsURL
+  nameWithType: UserPreferenceStrings.NetServices.NewsURL
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.NewsURL
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nNews URL\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public const string NewsURL = "NewsURL"
+    return:
+      type: System.String
+    content.vb: >-
+      <Obsolete>
+
+      Public Const NewsURL As String = "NewsURL"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.NextDate
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.NextDate
+  id: NextDate
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: NextDate
+  nameWithType: UserPreferenceStrings.NetServices.NextDate
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.NextDate
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nNext date CRM should check for news on Web Services (yyyy.mm.dd)\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string NextDate = "NextDate"
+    return:
+      type: System.String
+    content.vb: Public Const NextDate As String = "NextDate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.PageURL
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.PageURL
+  id: PageURL
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: PageURL
+  nameWithType: UserPreferenceStrings.NetServices.PageURL
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.PageURL
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nWWW Page URL - show when the Logo clicked in the client.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\n<p></p>Control type: Text, access: Wizard\n"
+  example:
+  - "\nhttps://help.superoffice.com/SODispatcher/v1/wwwPage?ver=&lt;ver#>&amp;langiso=&lt;lani>\n"
+  syntax:
+    content: public const string PageURL = "PageURL"
+    return:
+      type: System.String
+    content.vb: Public Const PageURL As String = "PageURL"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.SeenTeaserDlg
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.SeenTeaserDlg
+  id: SeenTeaserDlg
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: SeenTeaserDlg
+  nameWithType: UserPreferenceStrings.NetServices.SeenTeaserDlg
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.SeenTeaserDlg
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nThe user has read the teaser from Web Services.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public const string SeenTeaserDlg = "SeenTeaserDlg"
+    return:
+      type: System.String
+    content.vb: >-
+      <Obsolete>
+
+      Public Const SeenTeaserDlg As String = "SeenTeaserDlg"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.ShowOnStartup
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.ShowOnStartup
+  id: ShowOnStartup
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: ShowOnStartup
+  nameWithType: UserPreferenceStrings.NetServices.ShowOnStartup
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.ShowOnStartup
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nShow news from SuperOffice Web Services on startup. (Default = YES)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public const string ShowOnStartup = "ShowOnStartup"
+    return:
+      type: System.String
+    content.vb: >-
+      <Obsolete>
+
+      Public Const ShowOnStartup As String = "ShowOnStartup"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.StatusCheckTimeout
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.StatusCheckTimeout
+  id: StatusCheckTimeout
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: StatusCheckTimeout
+  nameWithType: UserPreferenceStrings.NetServices.StatusCheckTimeout
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.StatusCheckTimeout
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nTimeout for reading status from Web Services in seconds. (Default = 60)\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public const string StatusCheckTimeout = "StatusCheckTimeout"
+    return:
+      type: System.String
+    content.vb: >-
+      <Obsolete>
+
+      Public Const StatusCheckTimeout As String = "StatusCheckTimeout"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.StatusURL
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.StatusURL
+  id: StatusURL
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: StatusURL
+  nameWithType: UserPreferenceStrings.NetServices.StatusURL
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.StatusURL
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nStatus URL - returns XML or JSON with list of links to update NetServices preferences with.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\n<p></p>Control type: Text, access: Wizard\n"
+  example:
+  - "\nhttps://help.superoffice.com/SODispatcher/v1/Status?ver=&lt;ver#>&amp;langiso=&lt;lani>\n"
+  syntax:
+    content: public const string StatusURL = "StatusURL"
+    return:
+      type: System.String
+    content.vb: Public Const StatusURL As String = "StatusURL"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.WebtoolsDownloadUrl
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.WebtoolsDownloadUrl
+  id: WebtoolsDownloadUrl
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: WebtoolsDownloadUrl
+  nameWithType: UserPreferenceStrings.NetServices.WebtoolsDownloadUrl
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.WebtoolsDownloadUrl
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nPreferencekey for DownloadService dispatcher-provided URL template string.\n"
+  syntax:
+    content: public const string WebtoolsDownloadUrl = "WebtoolsDownloadUrl"
+    return:
+      type: System.String
+    content.vb: Public Const WebtoolsDownloadUrl As String = "WebtoolsDownloadUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.TeaserURL
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.TeaserURL
+  id: TeaserURL
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: TeaserURL
+  nameWithType: UserPreferenceStrings.NetServices.TeaserURL
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.TeaserURL
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nTeaser URL\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public const string TeaserURL = "TeaserURL"
+    return:
+      type: System.String
+    content.vb: >-
+      <Obsolete>
+
+      Public Const TeaserURL As String = "TeaserURL"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.UserPassportId
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.UserPassportId
+  id: UserPassportId
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: UserPassportId
+  nameWithType: UserPreferenceStrings.NetServices.UserPassportId
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.UserPassportId
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nThe Microsoft Passport ID of this associate (not the e-mail address)\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public const string UserPassportId = "UserPassportId"
+    return:
+      type: System.String
+    content.vb: >-
+      <Obsolete>
+
+      Public Const UserPassportId As String = "UserPassportId"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewUrl
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewUrl
+  id: WhatsNewUrl
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: WhatsNewUrl
+  nameWithType: UserPreferenceStrings.NetServices.WhatsNewUrl
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewUrl
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nWhatsNew URL - call this to get the URL to the latest news page.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\nClient should compare the returned URL with the WhatsNewLatestWeb or\nWhatsNewLatestPocket, depending on the client.\n<p></p>Control type: Text, access: Wizard\n"
+  example:
+  - "\nhttps://help.superoffice.com/SODispatcher/v1/WhatsNew?ver=&lt;ver#>&amp;langiso=&lt;lani>\nreturns JSON object when called:\n{ url: &quot;https://help.superoffice.com/news/web/8.0.10/default.htm&quot; }\n"
+  syntax:
+    content: public const string WhatsNewUrl = "WhatsNewUrl"
+    return:
+      type: System.String
+    content.vb: Public Const WhatsNewUrl As String = "WhatsNewUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewSeenWeb
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewSeenWeb
+  id: WhatsNewSeenWeb
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: WhatsNewSeenWeb
+  nameWithType: UserPreferenceStrings.NetServices.WhatsNewSeenWeb
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewSeenWeb
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nWhatsNew Seen on Web client. The latest WhatsNew URL we have seen in the web client.\nUpdated by the client when the WhatsNewUrl has been changed.\n<p></p>Control type: Text, access: Wizard\n"
+  example:
+  - "\nhttps://help.superoffice.com/news/web/8.0.10/default.htm\n"
+  syntax:
+    content: public const string WhatsNewSeenWeb = "WhatsNewSeenWeb"
+    return:
+      type: System.String
+    content.vb: Public Const WhatsNewSeenWeb As String = "WhatsNewSeenWeb"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewConfirmedWeb
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewConfirmedWeb
+  id: WhatsNewConfirmedWeb
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: WhatsNewConfirmedWeb
+  nameWithType: UserPreferenceStrings.NetServices.WhatsNewConfirmedWeb
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewConfirmedWeb
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nWhatsNew Latest confirmed on web client. The latests WhatsNew URL the user has confirmed on the web client.\nUpdated by the client when teh user clicks GOT IT in the whats new dialog.\n<p></p>Control type: Text, access: Wizard\n"
+  example:
+  - "\nhttps://help.superoffice.com/news/web/8.0.10/default.htm\n"
+  syntax:
+    content: public const string WhatsNewConfirmedWeb = "WhatsNewConfirmedWeb"
+    return:
+      type: System.String
+    content.vb: Public Const WhatsNewConfirmedWeb As String = "WhatsNewConfirmedWeb"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewSeenWin
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewSeenWin
+  id: WhatsNewSeenWin
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: WhatsNewSeenWin
+  nameWithType: UserPreferenceStrings.NetServices.WhatsNewSeenWin
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewSeenWin
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nWhatsNew Seen on Web client. The latest WhatsNew URL we have seen in the web client.\nUpdated by the client when the WhatsNewUrl has been changed.\n<p></p>Control type: Text, access: Wizard\n"
+  example:
+  - "\nhttps://help.superoffice.com/news/win/8.0.10/default.htm\n"
+  syntax:
+    content: public const string WhatsNewSeenWin = "WhatsNewSeenWin"
+    return:
+      type: System.String
+    content.vb: Public Const WhatsNewSeenWin As String = "WhatsNewSeenWin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewConfirmedWin
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewConfirmedWin
+  id: WhatsNewConfirmedWin
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: WhatsNewConfirmedWin
+  nameWithType: UserPreferenceStrings.NetServices.WhatsNewConfirmedWin
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewConfirmedWin
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nWhatsNew Latest confirmed on web client. The latests WhatsNew URL the user has confirmed on the web client.\nUpdated by the client when teh user clicks GOT IT in the whats new dialog.\n<p></p>Control type: Text, access: Wizard\n"
+  example:
+  - "\nhttps://help.superoffice.com/news/win/8.0.10/default.htm\n"
+  syntax:
+    content: public const string WhatsNewConfirmedWin = "WhatsNewConfirmedWin"
+    return:
+      type: System.String
+    content.vb: Public Const WhatsNewConfirmedWin As String = "WhatsNewConfirmedWin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewSeenPocket
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewSeenPocket
+  id: WhatsNewSeenPocket
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: WhatsNewSeenPocket
+  nameWithType: UserPreferenceStrings.NetServices.WhatsNewSeenPocket
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewSeenPocket
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nWhatsNew Seen on Web client. The latest WhatsNew URL we have seen in the web client.\nUpdated by the client when the WhatsNewUrl has been changed.\n<p></p>Control type: Text, access: Wizard\n"
+  example:
+  - "\nhttps://help.superoffice.com/news/pocket/8.0.10/default.htm\n"
+  syntax:
+    content: public const string WhatsNewSeenPocket = "WhatsNewSeenPocket"
+    return:
+      type: System.String
+    content.vb: Public Const WhatsNewSeenPocket As String = "WhatsNewSeenPocket"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewConfirmedPocket
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewConfirmedPocket
+  id: WhatsNewConfirmedPocket
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: WhatsNewConfirmedPocket
+  nameWithType: UserPreferenceStrings.NetServices.WhatsNewConfirmedPocket
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.WhatsNewConfirmedPocket
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nWhatsNew Latest confirmed on web client. The latests WhatsNew URL the user has confirmed on the web client.\nUpdated by the client when teh user clicks GOT IT in the whats new dialog.\n<p></p>Control type: Text, access: Wizard\n"
+  example:
+  - "\nhttps://help.superoffice.com/news/pocket/8.0.10/default.htm\n"
+  syntax:
+    content: public const string WhatsNewConfirmedPocket = "WhatsNewConfirmedPocket"
+    return:
+      type: System.String
+    content.vb: Public Const WhatsNewConfirmedPocket As String = "WhatsNewConfirmedPocket"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.CommunityUrl
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.CommunityUrl
+  id: CommunityUrl
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: CommunityUrl
+  nameWithType: UserPreferenceStrings.NetServices.CommunityUrl
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.CommunityUrl
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nCommunity URL - Link to the Customer Community homepage.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\n<p></p>Control type: Text, access: Wizard\n"
+  example:
+  - "\nhttps://help.superoffice.com/SODispatcher/v1/Community?ver=&lt;ver#>&amp;langiso=&lt;lani>\n"
+  syntax:
+    content: public const string CommunityUrl = "CommunityUrl"
+    return:
+      type: System.String
+    content.vb: Public Const CommunityUrl As String = "CommunityUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.FeedbackUrl
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.FeedbackUrl
+  id: FeedbackUrl
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: FeedbackUrl
+  nameWithType: UserPreferenceStrings.NetServices.FeedbackUrl
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.FeedbackUrl
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nFeedback URL - Link to the Feedback form.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\n<p></p>Control type: Text, access: Wizard\n"
+  example:
+  - "\nhttps://help.superoffice.com/SODispatcher/v1/Feedback?ver=&lt;ver#>&amp;langiso=&lt;lani>\n"
+  syntax:
+    content: public const string FeedbackUrl = "FeedbackUrl"
+    return:
+      type: System.String
+    content.vb: Public Const FeedbackUrl As String = "FeedbackUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.TechSupportUrl
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.TechSupportUrl
+  id: TechSupportUrl
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: TechSupportUrl
+  nameWithType: UserPreferenceStrings.NetServices.TechSupportUrl
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.TechSupportUrl
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nTech Support URL - Link to the Tech Support page.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\n<p></p>Control type: Text, access: Wizard\n"
+  example:
+  - "\nhttps://help.superoffice.com/SODispatcher/v1/TechSupport?ver=&lt;ver#>&amp;langiso=&lt;lani>\n"
+  syntax:
+    content: public const string TechSupportUrl = "TechSupportUrl"
+    return:
+      type: System.String
+    content.vb: Public Const TechSupportUrl As String = "TechSupportUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.HelpUrl
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.HelpUrl
+  id: HelpUrl
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: HelpUrl
+  nameWithType: UserPreferenceStrings.NetServices.HelpUrl
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.HelpUrl
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nHelp URL - Link to the context sensitive Help page.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\n<p></p>Control type: Text, access: Wizard\n"
+  example:
+  - "\nhttps://help.superoffice.com/SODispatcher/v1/Help?ver=&lt;ver#>&amp;langiso=&lt;lani>\n"
+  syntax:
+    content: public const string HelpUrl = "HelpUrl"
+    return:
+      type: System.String
+    content.vb: Public Const HelpUrl As String = "HelpUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.HelpIndexUrl
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.HelpIndexUrl
+  id: HelpIndexUrl
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: HelpIndexUrl
+  nameWithType: UserPreferenceStrings.NetServices.HelpIndexUrl
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.HelpIndexUrl
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nHelp Index URL - Link to the Help home page.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\n<p></p>Control type: Text, access: Wizard\n"
+  example:
+  - "\nhttps://help.superoffice.com/SODispatcher/v1/HelpIndex?ver=&lt;ver#>&amp;langiso=&lt;lani>\n"
+  syntax:
+    content: public const string HelpIndexUrl = "HelpIndexUrl"
+    return:
+      type: System.String
+    content.vb: Public Const HelpIndexUrl As String = "HelpIndexUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.ResourceCtrUrl
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.ResourceCtrUrl
+  id: ResourceCtrUrl
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: ResourceCtrUrl
+  nameWithType: UserPreferenceStrings.NetServices.ResourceCtrUrl
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.ResourceCtrUrl
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nResource Center URL - Link to the Resource Center home page.\nNote that URL in this preference will have merge tags that need to \nbe substituted before use.\n<p></p>Control type: Text, access: Wizard\n"
+  example:
+  - >
+    1
+
+    https://help.superoffice.com/SODispatcher/v1/ResiyrceCtr?ver=&lt;ver#>&amp;langiso=&lt;lani>
+  syntax:
+    content: public const string ResourceCtrUrl = "ResourceCtrUrl"
+    return:
+      type: System.String
+    content.vb: Public Const ResourceCtrUrl As String = "ResourceCtrUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NetServices.MeteredServicesUrl
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NetServices.MeteredServicesUrl
+  id: MeteredServicesUrl
+  parent: SuperOffice.CRM.UserPreferenceStrings.NetServices
+  langs:
+  - csharp
+  - vb
+  name: MeteredServicesUrl
+  nameWithType: UserPreferenceStrings.NetServices.MeteredServicesUrl
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NetServices.MeteredServicesUrl
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public const string MeteredServicesUrl = "MeteredServicesUrl"
+    return:
+      type: System.String
+    content.vb: Public Const MeteredServicesUrl As String = "MeteredServicesUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

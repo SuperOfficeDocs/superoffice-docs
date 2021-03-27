@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest
+  commentId: T:SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest
+  id: List_DeleteHierarchyFromPathRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest.#ctor
+  - SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest.Domain
+  - SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest.Path
+  langs:
+  - csharp
+  - vb
+  name: List_DeleteHierarchyFromPathRequest
+  nameWithType: List_DeleteHierarchyFromPathRequest
+  fullName: SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_DeleteHierarchyFromPathRequest : Object'
+    content.vb: >-
+      Public Class List_DeleteHierarchyFromPathRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest
+  langs:
+  - csharp
+  - vb
+  name: List_DeleteHierarchyFromPathRequest()
+  nameWithType: List_DeleteHierarchyFromPathRequest.List_DeleteHierarchyFromPathRequest()
+  fullName: SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest.List_DeleteHierarchyFromPathRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_DeleteHierarchyFromPathRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest.Domain
+  commentId: P:SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest.Domain
+  id: Domain
+  parent: SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest
+  langs:
+  - csharp
+  - vb
+  name: Domain
+  nameWithType: List_DeleteHierarchyFromPathRequest.Domain
+  fullName: SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest.Domain
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Domain Domain { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Domain
+    content.vb: Public Property Domain As Domain
+  overload: SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest.Domain*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest.Path
+  commentId: P:SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest.Path
+  id: Path
+  parent: SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest
+  langs:
+  - csharp
+  - vb
+  name: Path
+  nameWithType: List_DeleteHierarchyFromPathRequest.Path
+  fullName: SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest.Path
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Path { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Path As String
+  overload: SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest.Path*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest.#ctor
+  isExternal: true
+  name: List_DeleteHierarchyFromPathRequest
+  nameWithType: List_DeleteHierarchyFromPathRequest.List_DeleteHierarchyFromPathRequest
+  fullName: SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest.List_DeleteHierarchyFromPathRequest
+- uid: SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest.Domain*
+  commentId: Overload:SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest.Domain
+  isExternal: true
+  name: Domain
+  nameWithType: List_DeleteHierarchyFromPathRequest.Domain
+  fullName: SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest.Domain
+- uid: SuperOffice.WebApi.Data.Domain
+  commentId: T:SuperOffice.WebApi.Data.Domain
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Domain
+  nameWithType: Domain
+  fullName: SuperOffice.WebApi.Data.Domain
+- uid: SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest.Path*
+  commentId: Overload:SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest.Path
+  isExternal: true
+  name: Path
+  nameWithType: List_DeleteHierarchyFromPathRequest.Path
+  fullName: SuperOffice.WebApi.Data.List_DeleteHierarchyFromPathRequest.Path
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

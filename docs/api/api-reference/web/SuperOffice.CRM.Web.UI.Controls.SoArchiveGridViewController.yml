@@ -1,0 +1,163 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController
+  id: SoArchiveGridViewController
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController.#ctor
+  - SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController.GetArchiveData(SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController.SoArchiveGridViewRequest)
+  langs:
+  - csharp
+  - vb
+  name: SoArchiveGridViewController
+  nameWithType: SoArchiveGridViewController
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: 'public class SoArchiveGridViewController : ApiController, IRequiresSessionState'
+    content.vb: >-
+      Public Class SoArchiveGridViewController
+          Inherits ApiController
+          Implements IRequiresSessionState
+  inheritance:
+  - System.Object
+  implements:
+  - System.Web.SessionState.IRequiresSessionState
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController.GetArchiveData(SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController.SoArchiveGridViewRequest)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController.GetArchiveData(SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController.SoArchiveGridViewRequest)
+  id: GetArchiveData(SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController.SoArchiveGridViewRequest)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveData(SoArchiveGridViewController.SoArchiveGridViewRequest)
+  nameWithType: SoArchiveGridViewController.GetArchiveData(SoArchiveGridViewController.SoArchiveGridViewRequest)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController.GetArchiveData(SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController.SoArchiveGridViewRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public ArchiveGridViewListItem[] GetArchiveData(SoArchiveGridViewController.SoArchiveGridViewRequest soArchiveGridViewRequest)
+    parameters:
+    - id: soArchiveGridViewRequest
+      type: SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController.SoArchiveGridViewRequest
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewListItem[]
+    content.vb: Public Function GetArchiveData(soArchiveGridViewRequest As SoArchiveGridViewController.SoArchiveGridViewRequest) As ArchiveGridViewListItem()
+  overload: SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController.GetArchiveData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController
+  langs:
+  - csharp
+  - vb
+  name: SoArchiveGridViewController()
+  nameWithType: SoArchiveGridViewController.SoArchiveGridViewController()
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController.SoArchiveGridViewController()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public SoArchiveGridViewController()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.SessionState.IRequiresSessionState
+  isExternal: true
+  name: IRequiresSessionState
+  nameWithType: IRequiresSessionState
+  fullName: System.Web.SessionState.IRequiresSessionState
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController.GetArchiveData*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController.GetArchiveData
+  isExternal: true
+  name: GetArchiveData
+  nameWithType: SoArchiveGridViewController.GetArchiveData
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController.GetArchiveData
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController.SoArchiveGridViewRequest
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController.SoArchiveGridViewRequest
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SoArchiveGridViewController.SoArchiveGridViewRequest
+  nameWithType: SoArchiveGridViewController.SoArchiveGridViewRequest
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController.SoArchiveGridViewRequest
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewListItem[]
+  isExternal: true
+  name: ArchiveGridViewListItem[]
+  nameWithType: ArchiveGridViewListItem[]
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewListItem[]
+  nameWithType.vb: ArchiveGridViewListItem()
+  fullName.vb: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewListItem()
+  name.vb: ArchiveGridViewListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewListItem
+    name: ArchiveGridViewListItem
+    nameWithType: ArchiveGridViewListItem
+    fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewListItem
+    name: ArchiveGridViewListItem
+    nameWithType: ArchiveGridViewListItem
+    fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController.#ctor
+  isExternal: true
+  name: SoArchiveGridViewController
+  nameWithType: SoArchiveGridViewController.SoArchiveGridViewController
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController.SoArchiveGridViewController

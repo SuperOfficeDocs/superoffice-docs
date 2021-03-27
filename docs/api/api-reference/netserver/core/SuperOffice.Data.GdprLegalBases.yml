@@ -1,0 +1,667 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.GdprLegalBases
+  commentId: T:SuperOffice.Data.GdprLegalBases
+  id: GdprLegalBases
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.GdprLegalBases.All
+  - SuperOffice.Data.GdprLegalBases.IsBuiltin(System.String)
+  - SuperOffice.Data.GdprLegalBases.Section61A
+  - SuperOffice.Data.GdprLegalBases.Section61B
+  - SuperOffice.Data.GdprLegalBases.Section61C
+  - SuperOffice.Data.GdprLegalBases.Section61D
+  - SuperOffice.Data.GdprLegalBases.Section61E
+  - SuperOffice.Data.GdprLegalBases.Section61F
+  - SuperOffice.Data.GdprLegalBases.Withdrawn
+  langs:
+  - csharp
+  - vb
+  name: GdprLegalBases
+  nameWithType: GdprLegalBases
+  fullName: SuperOffice.Data.GdprLegalBases
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static class GdprLegalBases
+    content.vb: Public Module GdprLegalBases
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Data.GdprLegalBases.Section61A
+  commentId: F:SuperOffice.Data.GdprLegalBases.Section61A
+  id: Section61A
+  parent: SuperOffice.Data.GdprLegalBases
+  langs:
+  - csharp
+  - vb
+  name: Section61A
+  nameWithType: GdprLegalBases.Section61A
+  fullName: SuperOffice.Data.GdprLegalBases.Section61A
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nExplicit consent\n"
+  syntax:
+    content: public const string Section61A = "61A"
+    return:
+      type: System.String
+    content.vb: Public Const Section61A As String = "61A"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.GdprLegalBases.Section61B
+  commentId: F:SuperOffice.Data.GdprLegalBases.Section61B
+  id: Section61B
+  parent: SuperOffice.Data.GdprLegalBases
+  langs:
+  - csharp
+  - vb
+  name: Section61B
+  nameWithType: GdprLegalBases.Section61B
+  fullName: SuperOffice.Data.GdprLegalBases.Section61B
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nContract\n"
+  syntax:
+    content: public const string Section61B = "61B"
+    return:
+      type: System.String
+    content.vb: Public Const Section61B As String = "61B"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.GdprLegalBases.Section61C
+  commentId: F:SuperOffice.Data.GdprLegalBases.Section61C
+  id: Section61C
+  parent: SuperOffice.Data.GdprLegalBases
+  langs:
+  - csharp
+  - vb
+  name: Section61C
+  nameWithType: GdprLegalBases.Section61C
+  fullName: SuperOffice.Data.GdprLegalBases.Section61C
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nRequired by law\n"
+  syntax:
+    content: public const string Section61C = "61C"
+    return:
+      type: System.String
+    content.vb: Public Const Section61C As String = "61C"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.GdprLegalBases.Section61D
+  commentId: F:SuperOffice.Data.GdprLegalBases.Section61D
+  id: Section61D
+  parent: SuperOffice.Data.GdprLegalBases
+  langs:
+  - csharp
+  - vb
+  name: Section61D
+  nameWithType: GdprLegalBases.Section61D
+  fullName: SuperOffice.Data.GdprLegalBases.Section61D
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nProtection of vital interests\n"
+  syntax:
+    content: public const string Section61D = "61D"
+    return:
+      type: System.String
+    content.vb: Public Const Section61D As String = "61D"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.GdprLegalBases.Section61E
+  commentId: F:SuperOffice.Data.GdprLegalBases.Section61E
+  id: Section61E
+  parent: SuperOffice.Data.GdprLegalBases
+  langs:
+  - csharp
+  - vb
+  name: Section61E
+  nameWithType: GdprLegalBases.Section61E
+  fullName: SuperOffice.Data.GdprLegalBases.Section61E
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nPublic interest\n"
+  syntax:
+    content: public const string Section61E = "61E"
+    return:
+      type: System.String
+    content.vb: Public Const Section61E As String = "61E"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.GdprLegalBases.Section61F
+  commentId: F:SuperOffice.Data.GdprLegalBases.Section61F
+  id: Section61F
+  parent: SuperOffice.Data.GdprLegalBases
+  langs:
+  - csharp
+  - vb
+  name: Section61F
+  nameWithType: GdprLegalBases.Section61F
+  fullName: SuperOffice.Data.GdprLegalBases.Section61F
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nOther legitimate interest\n"
+  syntax:
+    content: public const string Section61F = "61F"
+    return:
+      type: System.String
+    content.vb: Public Const Section61F As String = "61F"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.GdprLegalBases.Withdrawn
+  commentId: F:SuperOffice.Data.GdprLegalBases.Withdrawn
+  id: Withdrawn
+  parent: SuperOffice.Data.GdprLegalBases
+  langs:
+  - csharp
+  - vb
+  name: Withdrawn
+  nameWithType: GdprLegalBases.Withdrawn
+  fullName: SuperOffice.Data.GdprLegalBases.Withdrawn
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nConsent explicitly withdrawn\n"
+  syntax:
+    content: public const string Withdrawn = "WITHDRAWN"
+    return:
+      type: System.String
+    content.vb: Public Const Withdrawn As String = "WITHDRAWN"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.GdprLegalBases.IsBuiltin(System.String)
+  commentId: M:SuperOffice.Data.GdprLegalBases.IsBuiltin(System.String)
+  id: IsBuiltin(System.String)
+  parent: SuperOffice.Data.GdprLegalBases
+  langs:
+  - csharp
+  - vb
+  name: IsBuiltin(String)
+  nameWithType: GdprLegalBases.IsBuiltin(String)
+  fullName: SuperOffice.Data.GdprLegalBases.IsBuiltin(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static bool IsBuiltin(string basis)
+    parameters:
+    - id: basis
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsBuiltin(basis As String) As Boolean
+  overload: SuperOffice.Data.GdprLegalBases.IsBuiltin*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.GdprLegalBases.All
+  commentId: P:SuperOffice.Data.GdprLegalBases.All
+  id: All
+  parent: SuperOffice.Data.GdprLegalBases
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: GdprLegalBases.All
+  fullName: SuperOffice.Data.GdprLegalBases.All
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static string[] All { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Shared ReadOnly Property All As String()
+  overload: SuperOffice.Data.GdprLegalBases.All*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.GdprLegalBases.IsBuiltin*
+  commentId: Overload:SuperOffice.Data.GdprLegalBases.IsBuiltin
+  isExternal: true
+  name: IsBuiltin
+  nameWithType: GdprLegalBases.IsBuiltin
+  fullName: SuperOffice.Data.GdprLegalBases.IsBuiltin
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Data.GdprLegalBases.All*
+  commentId: Overload:SuperOffice.Data.GdprLegalBases.All
+  isExternal: true
+  name: All
+  nameWithType: GdprLegalBases.All
+  fullName: SuperOffice.Data.GdprLegalBases.All
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

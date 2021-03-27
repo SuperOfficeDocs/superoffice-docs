@@ -1,0 +1,1786 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.ReportAgent
+  commentId: T:SuperOffice.WebApi.Agents.ReportAgent
+  id: ReportAgent
+  parent: SuperOffice.WebApi.Agents
+  children:
+  - SuperOffice.WebApi.Agents.ReportAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  - SuperOffice.WebApi.Agents.ReportAgent.#ctor(System.Net.Http.HttpClient)
+  - SuperOffice.WebApi.Agents.ReportAgent.CreateDefaultReportEntityAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ReportAgent.CreateDefaultReportLabelLayoutEntityAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ReportAgent.CreateFavoriteAsync(System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ReportAgent.DeleteFavoriteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ReportAgent.DeleteReportAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ReportAgent.DeleteReportLabelLayoutEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ReportAgent.GenerateReportAsync(System.Int32,System.Int32,System.String,System.String,System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ReportAgent.GetReportEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ReportAgent.GetReportLabelLayoutEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ReportAgent.ImportReportAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ReportAgent.SaveReportEntityAsync(SuperOffice.WebApi.Data.ReportEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ReportAgent.SaveReportLabelLayoutEntityAsync(SuperOffice.WebApi.Data.ReportLabelLayoutEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ReportAgent.UpdateFavoriteAsync(SuperOffice.WebApi.Data.ReportEntity,SuperOffice.WebApi.RequestOptions)
+  langs:
+  - csharp
+  - vb
+  name: ReportAgent
+  nameWithType: ReportAgent
+  fullName: SuperOffice.WebApi.Agents.ReportAgent
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRun reports, set favourites, labels\n"
+  example:
+  - "\n<pre><code>  using SuperOffice.WebApi;\n  using SuperOffice.WebApi.Agents;\n\n  var mySession = new WebApiOptions(&quot;http://example.com/super/api&quot;);\n  mySession.Authorization = new AuthorizationUsernamePassword(&quot;user&quot;, &quot;pass&quot;);\n  using (ReportAgent agent = new ReportAgent(mySession))\n  {\n        // call methods on agent here...\n  }</code></pre>\n"
+  syntax:
+    content: 'public class ReportAgent : AgentBase, IDisposable'
+    content.vb: >-
+      Public Class ReportAgent
+          Inherits AgentBase
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Agents.AgentBase
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - SuperOffice.WebApi.Agents.AgentBase._json
+  - SuperOffice.WebApi.Agents.AgentBase._binary
+  - SuperOffice.WebApi.Agents.AgentBase._config
+  - SuperOffice.WebApi.Agents.AgentBase._client
+  - SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AgentBase.Dispose
+  - SuperOffice.WebApi.Agents.AgentBase.Configuration
+  - SuperOffice.WebApi.Agents.AgentBase.Client
+  - SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  - SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  - SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Agents.ReportAgent.#ctor(System.Net.Http.HttpClient)
+  commentId: M:SuperOffice.WebApi.Agents.ReportAgent.#ctor(System.Net.Http.HttpClient)
+  id: '#ctor(System.Net.Http.HttpClient)'
+  parent: SuperOffice.WebApi.Agents.ReportAgent
+  langs:
+  - csharp
+  - vb
+  name: ReportAgent(HttpClient)
+  nameWithType: ReportAgent.ReportAgent(HttpClient)
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.ReportAgent(System.Net.Http.HttpClient)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nConstructor: Run reports, set favourites, labels\n"
+  syntax:
+    content: public ReportAgent(HttpClient httpClient)
+    parameters:
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+      description: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.
+    content.vb: Public Sub New(httpClient As HttpClient)
+  overload: SuperOffice.WebApi.Agents.ReportAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ReportAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  commentId: M:SuperOffice.WebApi.Agents.ReportAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  id: '#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)'
+  parent: SuperOffice.WebApi.Agents.ReportAgent
+  langs:
+  - csharp
+  - vb
+  name: ReportAgent(WebApiOptions, HttpClient)
+  nameWithType: ReportAgent.ReportAgent(WebApiOptions, HttpClient)
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.ReportAgent(SuperOffice.WebApi.WebApiOptions, System.Net.Http.HttpClient)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nConstructor: Run reports, set favourites, labels\n"
+  syntax:
+    content: public ReportAgent(WebApiOptions options, HttpClient httpClient = null)
+    parameters:
+    - id: options
+      type: SuperOffice.WebApi.WebApiOptions
+      description: Base URL and authentication values.
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+      description: 'Optional: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.'
+    content.vb: Public Sub New(options As WebApiOptions, httpClient As HttpClient = Nothing)
+  overload: SuperOffice.WebApi.Agents.ReportAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ReportAgent.CreateDefaultReportEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ReportAgent.CreateDefaultReportEntityAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultReportEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ReportAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultReportEntityAsync(RequestOptions)
+  nameWithType: ReportAgent.CreateDefaultReportEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.CreateDefaultReportEntityAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new ReportEntity.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public Task<ReportEntity> CreateDefaultReportEntityAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ReportEntity}
+      description: A blank ReportEntity
+    content.vb: Public Function CreateDefaultReportEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of ReportEntity)
+  overload: SuperOffice.WebApi.Agents.ReportAgent.CreateDefaultReportEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ReportAgent.SaveReportEntityAsync(SuperOffice.WebApi.Data.ReportEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ReportAgent.SaveReportEntityAsync(SuperOffice.WebApi.Data.ReportEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveReportEntityAsync(SuperOffice.WebApi.Data.ReportEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ReportAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveReportEntityAsync(ReportEntity, RequestOptions)
+  nameWithType: ReportAgent.SaveReportEntityAsync(ReportEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.SaveReportEntityAsync(SuperOffice.WebApi.Data.ReportEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing ReportEntity or creates a new ReportEntity if the id parameter is 0. \n"
+  syntax:
+    content: public Task<ReportEntity> SaveReportEntityAsync(ReportEntity reportEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: reportEntity
+      type: SuperOffice.WebApi.Data.ReportEntity
+      description: The ReportEntity that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ReportEntity}
+      description: New or updated ReportEntity
+    content.vb: Public Function SaveReportEntityAsync(reportEntity As ReportEntity, requestOptions As RequestOptions = Nothing) As Task(Of ReportEntity)
+  overload: SuperOffice.WebApi.Agents.ReportAgent.SaveReportEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ReportAgent.CreateDefaultReportLabelLayoutEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ReportAgent.CreateDefaultReportLabelLayoutEntityAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultReportLabelLayoutEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ReportAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultReportLabelLayoutEntityAsync(RequestOptions)
+  nameWithType: ReportAgent.CreateDefaultReportLabelLayoutEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.CreateDefaultReportLabelLayoutEntityAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new ReportLabelLayoutEntity.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public Task<ReportLabelLayoutEntity> CreateDefaultReportLabelLayoutEntityAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ReportLabelLayoutEntity}
+      description: A blank ReportLabelLayoutEntity
+    content.vb: Public Function CreateDefaultReportLabelLayoutEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of ReportLabelLayoutEntity)
+  overload: SuperOffice.WebApi.Agents.ReportAgent.CreateDefaultReportLabelLayoutEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ReportAgent.SaveReportLabelLayoutEntityAsync(SuperOffice.WebApi.Data.ReportLabelLayoutEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ReportAgent.SaveReportLabelLayoutEntityAsync(SuperOffice.WebApi.Data.ReportLabelLayoutEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveReportLabelLayoutEntityAsync(SuperOffice.WebApi.Data.ReportLabelLayoutEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ReportAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveReportLabelLayoutEntityAsync(ReportLabelLayoutEntity, RequestOptions)
+  nameWithType: ReportAgent.SaveReportLabelLayoutEntityAsync(ReportLabelLayoutEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.SaveReportLabelLayoutEntityAsync(SuperOffice.WebApi.Data.ReportLabelLayoutEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing ReportLabelLayoutEntity or creates a new ReportLabelLayoutEntity if the id parameter is 0. \n"
+  syntax:
+    content: public Task<ReportLabelLayoutEntity> SaveReportLabelLayoutEntityAsync(ReportLabelLayoutEntity reportLabelLayoutEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: reportLabelLayoutEntity
+      type: SuperOffice.WebApi.Data.ReportLabelLayoutEntity
+      description: The ReportLabelLayoutEntity that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ReportLabelLayoutEntity}
+      description: New or updated ReportLabelLayoutEntity
+    content.vb: Public Function SaveReportLabelLayoutEntityAsync(reportLabelLayoutEntity As ReportLabelLayoutEntity, requestOptions As RequestOptions = Nothing) As Task(Of ReportLabelLayoutEntity)
+  overload: SuperOffice.WebApi.Agents.ReportAgent.SaveReportLabelLayoutEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ReportAgent.DeleteReportLabelLayoutEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ReportAgent.DeleteReportLabelLayoutEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteReportLabelLayoutEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ReportAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteReportLabelLayoutEntityAsync(Int32, RequestOptions)
+  nameWithType: ReportAgent.DeleteReportLabelLayoutEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.DeleteReportLabelLayoutEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes the ReportLabelLayoutEntity\n"
+  syntax:
+    content: public Task DeleteReportLabelLayoutEntityAsync(int reportLabelLayoutEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: reportLabelLayoutEntityId
+      type: System.Int32
+      description: The identity of the ReportLabelLayoutEntity
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteReportLabelLayoutEntityAsync(reportLabelLayoutEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ReportAgent.DeleteReportLabelLayoutEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ReportAgent.GetReportEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ReportAgent.GetReportEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetReportEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ReportAgent
+  langs:
+  - csharp
+  - vb
+  name: GetReportEntityAsync(Int32, RequestOptions)
+  nameWithType: ReportAgent.GetReportEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.GetReportEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific ReportEntity object.                        \n"
+  syntax:
+    content: public Task<ReportEntity> GetReportEntityAsync(int reportEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: reportEntityId
+      type: System.Int32
+      description: The identifier of the ReportEntity object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ReportEntity}
+      description: ReportEntity
+    content.vb: Public Function GetReportEntityAsync(reportEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ReportEntity)
+  overload: SuperOffice.WebApi.Agents.ReportAgent.GetReportEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ReportAgent.CreateFavoriteAsync(System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ReportAgent.CreateFavoriteAsync(System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  id: CreateFavoriteAsync(System.Int32,System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ReportAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateFavoriteAsync(Int32, String, String, RequestOptions)
+  nameWithType: ReportAgent.CreateFavoriteAsync(Int32, String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.CreateFavoriteAsync(System.Int32, System.String, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreates the report as favorite. The sourceId is the key to the report that the favorite is based on.\n"
+  syntax:
+    content: public Task<ReportEntity> CreateFavoriteAsync(int sourceId, string name, string description, RequestOptions requestOptions = null)
+    parameters:
+    - id: sourceId
+      type: System.Int32
+      description: The primary key to the report to make the favorite from.
+    - id: name
+      type: System.String
+      description: The name of the new favorite.
+    - id: description
+      type: System.String
+      description: The description of the new favorite.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ReportEntity}
+      description: The new favorite ReportEntity.
+    content.vb: Public Function CreateFavoriteAsync(sourceId As Integer, name As String, description As String, requestOptions As RequestOptions = Nothing) As Task(Of ReportEntity)
+  overload: SuperOffice.WebApi.Agents.ReportAgent.CreateFavoriteAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ReportAgent.DeleteFavoriteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ReportAgent.DeleteFavoriteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteFavoriteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ReportAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteFavoriteAsync(Int32, RequestOptions)
+  nameWithType: ReportAgent.DeleteFavoriteAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.DeleteFavoriteAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes the report favorite.\n"
+  syntax:
+    content: public Task DeleteFavoriteAsync(int reportEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: reportEntityId
+      type: System.Int32
+      description: The id of the report favorite to delete.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteFavoriteAsync(reportEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ReportAgent.DeleteFavoriteAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ReportAgent.UpdateFavoriteAsync(SuperOffice.WebApi.Data.ReportEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ReportAgent.UpdateFavoriteAsync(SuperOffice.WebApi.Data.ReportEntity,SuperOffice.WebApi.RequestOptions)
+  id: UpdateFavoriteAsync(SuperOffice.WebApi.Data.ReportEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ReportAgent
+  langs:
+  - csharp
+  - vb
+  name: UpdateFavoriteAsync(ReportEntity, RequestOptions)
+  nameWithType: ReportAgent.UpdateFavoriteAsync(ReportEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.UpdateFavoriteAsync(SuperOffice.WebApi.Data.ReportEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the favorite.\n"
+  syntax:
+    content: public Task<ReportEntity> UpdateFavoriteAsync(ReportEntity reportEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: reportEntity
+      type: SuperOffice.WebApi.Data.ReportEntity
+      description: ReportEntity carrier containg updated data.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ReportEntity}
+      description: The updated ReportEntity carrier.
+    content.vb: Public Function UpdateFavoriteAsync(reportEntity As ReportEntity, requestOptions As RequestOptions = Nothing) As Task(Of ReportEntity)
+  overload: SuperOffice.WebApi.Agents.ReportAgent.UpdateFavoriteAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ReportAgent.GenerateReportAsync(System.Int32,System.Int32,System.String,System.String,System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ReportAgent.GenerateReportAsync(System.Int32,System.Int32,System.String,System.String,System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],SuperOffice.WebApi.RequestOptions)
+  id: GenerateReportAsync(System.Int32,System.Int32,System.String,System.String,System.String,SuperOffice.WebApi.Data.ArchiveRestrictionInfo[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ReportAgent
+  langs:
+  - csharp
+  - vb
+  name: GenerateReportAsync(Int32, Int32, String, String, String, ArchiveRestrictionInfo[], RequestOptions)
+  nameWithType: ReportAgent.GenerateReportAsync(Int32, Int32, String, String, String, ArchiveRestrictionInfo[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.GenerateReportAsync(System.Int32, System.Int32, System.String, System.String, System.String, SuperOffice.WebApi.Data.ArchiveRestrictionInfo[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGenerates the report in PDF format\n"
+  syntax:
+    content: public Task<string> GenerateReportAsync(int reportId, int labelLayoutId, string filename, string language, string fileType, ArchiveRestrictionInfo[] restrictions, RequestOptions requestOptions = null)
+    parameters:
+    - id: reportId
+      type: System.Int32
+      description: The id of the report.
+    - id: labelLayoutId
+      type: System.Int32
+      description: The id of the labellayout. Use 0 if the report isn&apos;t of type label.
+    - id: filename
+      type: System.String
+      description: Filename of the report.
+    - id: language
+      type: System.String
+      description: Language to use when generating the report.
+    - id: fileType
+      type: System.String
+    - id: restrictions
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+      description: Use restrictions to provide additional restrictions when generating the report.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: Batch task id, as string. Used to be path to the generated report, but no more.
+    content.vb: Public Function GenerateReportAsync(reportId As Integer, labelLayoutId As Integer, filename As String, language As String, fileType As String, restrictions As ArchiveRestrictionInfo(), requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.ReportAgent.GenerateReportAsync*
+  nameWithType.vb: ReportAgent.GenerateReportAsync(Int32, Int32, String, String, String, ArchiveRestrictionInfo(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.ReportAgent.GenerateReportAsync(System.Int32, System.Int32, System.String, System.String, System.String, SuperOffice.WebApi.Data.ArchiveRestrictionInfo(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GenerateReportAsync(Int32, Int32, String, String, String, ArchiveRestrictionInfo(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ReportAgent.ImportReportAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ReportAgent.ImportReportAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: ImportReportAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ReportAgent
+  langs:
+  - csharp
+  - vb
+  name: ImportReportAsync(String, RequestOptions)
+  nameWithType: ReportAgent.ImportReportAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.ImportReportAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nTakes the input stream and create a report. This stream must be on a valid xml format\n"
+  syntax:
+    content: public Task<int> ImportReportAsync(string report, RequestOptions requestOptions = null)
+    parameters:
+    - id: report
+      type: System.String
+      description: The report to import in a correct xml format
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: The id of the newly imported report
+    content.vb: Public Function ImportReportAsync(report As String, requestOptions As RequestOptions = Nothing) As Task(Of Integer)
+  overload: SuperOffice.WebApi.Agents.ReportAgent.ImportReportAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ReportAgent.DeleteReportAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ReportAgent.DeleteReportAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteReportAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ReportAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteReportAsync(Int32, RequestOptions)
+  nameWithType: ReportAgent.DeleteReportAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.DeleteReportAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDelete the report with the given id\n"
+  syntax:
+    content: public Task<bool> DeleteReportAsync(int reportId, RequestOptions requestOptions = null)
+    parameters:
+    - id: reportId
+      type: System.Int32
+      description: The id of the report to delete
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: Delete ok?
+    content.vb: Public Function DeleteReportAsync(reportId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.ReportAgent.DeleteReportAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ReportAgent.GetReportLabelLayoutEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ReportAgent.GetReportLabelLayoutEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetReportLabelLayoutEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ReportAgent
+  langs:
+  - csharp
+  - vb
+  name: GetReportLabelLayoutEntityAsync(Int32, RequestOptions)
+  nameWithType: ReportAgent.GetReportLabelLayoutEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.GetReportLabelLayoutEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific ReportLabelLayoutEntity object.                        \n"
+  syntax:
+    content: public Task<ReportLabelLayoutEntity> GetReportLabelLayoutEntityAsync(int reportLabelLayoutEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: reportLabelLayoutEntityId
+      type: System.Int32
+      description: The identifier of the ReportLabelLayoutEntity object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ReportLabelLayoutEntity}
+      description: ReportLabelLayoutEntity
+    content.vb: Public Function GetReportLabelLayoutEntityAsync(reportLabelLayoutEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ReportLabelLayoutEntity)
+  overload: SuperOffice.WebApi.Agents.ReportAgent.GetReportLabelLayoutEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Agents
+  commentId: N:SuperOffice.WebApi.Agents
+  isExternal: true
+  name: SuperOffice.WebApi.Agents
+  nameWithType: SuperOffice.WebApi.Agents
+  fullName: SuperOffice.WebApi.Agents
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.AgentBase
+  commentId: T:SuperOffice.WebApi.Agents.AgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  name: AgentBase
+  nameWithType: AgentBase
+  fullName: SuperOffice.WebApi.Agents.AgentBase
+- uid: System.IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.WebApi.Agents.AgentBase._json
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._json
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _json
+  nameWithType: AgentBase._json
+  fullName: SuperOffice.WebApi.Agents.AgentBase._json
+- uid: SuperOffice.WebApi.Agents.AgentBase._binary
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._binary
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _binary
+  nameWithType: AgentBase._binary
+  fullName: SuperOffice.WebApi.Agents.AgentBase._binary
+- uid: SuperOffice.WebApi.Agents.AgentBase._config
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._config
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _config
+  nameWithType: AgentBase._config
+  fullName: SuperOffice.WebApi.Agents.AgentBase._config
+- uid: SuperOffice.WebApi.Agents.AgentBase._client
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._client
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _client
+  nameWithType: AgentBase._client
+  fullName: SuperOffice.WebApi.Agents.AgentBase._client
+- uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Merge(RequestOptions)
+  nameWithType: AgentBase.Merge(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+    name: Merge
+    nameWithType: AgentBase.Merge
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Merge
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+    name: Merge
+    nameWithType: AgentBase.Merge
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Merge
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod, System.String, System.Object, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObject
+    nameWithType: AgentBase.BuildRequestFromObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObject
+    nameWithType: AgentBase.BuildRequestFromObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod, System.String, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromStream
+    nameWithType: AgentBase.BuildRequestFromStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromStream
+    nameWithType: AgentBase.BuildRequestFromStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseAuthorization(IAuthorization)
+  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: CancelRequest()
+  nameWithType: AgentBase.CancelRequest()
+  fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    name: CancelRequest
+    nameWithType: AgentBase.CancelRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    name: CancelRequest
+    nameWithType: AgentBase.CancelRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
+  nameWithType: AgentBase.SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod, System.String, System.Object, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObject
+    nameWithType: AgentBase.SendRequestObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObject
+    nameWithType: AgentBase.SendRequestObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequest(HttpRequestMessage)
+  nameWithType: AgentBase.SendRequest(HttpRequestMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+    name: SendRequest
+    nameWithType: AgentBase.SendRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+    name: SendRequest
+    nameWithType: AgentBase.SendRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
+  nameWithType: AgentBase.ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage, System.Net.Http.HttpResponseMessage)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseError
+    nameWithType: AgentBase.ThrowOnResponseError
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseError
+    nameWithType: AgentBase.ThrowOnResponseError
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseResponse<T>(HttpResponseMessage)
+  nameWithType: AgentBase.ParseResponse<T>(HttpResponseMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse<T>(System.Net.Http.HttpResponseMessage)
+  nameWithType.vb: AgentBase.ParseResponse(Of T)(HttpResponseMessage)
+  fullName.vb: SuperOffice.WebApi.Agents.AgentBase.ParseResponse(Of T)(System.Net.Http.HttpResponseMessage)
+  name.vb: ParseResponse(Of T)(HttpResponseMessage)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+    name: ParseResponse<T>
+    nameWithType: AgentBase.ParseResponse<T>
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+    name: ParseResponse(Of T)
+    nameWithType: AgentBase.ParseResponse(Of T)
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Finally(RequestOptions)
+  nameWithType: AgentBase.Finally(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+    name: Finally
+    nameWithType: AgentBase.Finally
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Finally
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+    name: Finally
+    nameWithType: AgentBase.Finally
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Finally
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Dispose
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase.Dispose()
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    name: Dispose
+    nameWithType: AgentBase.Dispose
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    name: Dispose
+    nameWithType: AgentBase.Dispose
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Configuration
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.Configuration
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Configuration
+  nameWithType: AgentBase.Configuration
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Configuration
+- uid: SuperOffice.WebApi.Agents.AgentBase.Client
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.Client
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Client
+  nameWithType: AgentBase.Client
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Client
+- uid: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: HasRunningRequest
+  nameWithType: AgentBase.HasRunningRequest
+  fullName: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+- uid: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ClientCancellationTokenSource
+  nameWithType: AgentBase.ClientCancellationTokenSource
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+- uid: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ProgressListener
+  nameWithType: AgentBase.ProgressListener
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Agents.ReportAgent.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Agents.ReportAgent.#ctor
+  isExternal: true
+  name: ReportAgent
+  nameWithType: ReportAgent.ReportAgent
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.ReportAgent
+- uid: System.Net.Http.HttpClient
+  isExternal: true
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: System.Net.Http.HttpClient
+- uid: SuperOffice.WebApi.WebApiOptions
+  commentId: T:SuperOffice.WebApi.WebApiOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: WebApiOptions
+  nameWithType: WebApiOptions
+  fullName: SuperOffice.WebApi.WebApiOptions
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: SuperOffice.WebApi.Agents.ReportAgent.CreateDefaultReportEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ReportAgent.CreateDefaultReportEntityAsync
+  isExternal: true
+  name: CreateDefaultReportEntityAsync
+  nameWithType: ReportAgent.CreateDefaultReportEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.CreateDefaultReportEntityAsync
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ReportEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ReportEntity}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ReportEntity>
+  nameWithType: Task<ReportEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ReportEntity>
+  nameWithType.vb: Task(Of ReportEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ReportEntity)
+  name.vb: Task(Of ReportEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ReportEntity
+    name: ReportEntity
+    nameWithType: ReportEntity
+    fullName: SuperOffice.WebApi.Data.ReportEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ReportEntity
+    name: ReportEntity
+    nameWithType: ReportEntity
+    fullName: SuperOffice.WebApi.Data.ReportEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ReportAgent.SaveReportEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ReportAgent.SaveReportEntityAsync
+  isExternal: true
+  name: SaveReportEntityAsync
+  nameWithType: ReportAgent.SaveReportEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.SaveReportEntityAsync
+- uid: SuperOffice.WebApi.Data.ReportEntity
+  commentId: T:SuperOffice.WebApi.Data.ReportEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ReportEntity
+  nameWithType: ReportEntity
+  fullName: SuperOffice.WebApi.Data.ReportEntity
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: SuperOffice.WebApi.Agents.ReportAgent.CreateDefaultReportLabelLayoutEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ReportAgent.CreateDefaultReportLabelLayoutEntityAsync
+  isExternal: true
+  name: CreateDefaultReportLabelLayoutEntityAsync
+  nameWithType: ReportAgent.CreateDefaultReportLabelLayoutEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.CreateDefaultReportLabelLayoutEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ReportLabelLayoutEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ReportLabelLayoutEntity}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ReportLabelLayoutEntity>
+  nameWithType: Task<ReportLabelLayoutEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ReportLabelLayoutEntity>
+  nameWithType.vb: Task(Of ReportLabelLayoutEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ReportLabelLayoutEntity)
+  name.vb: Task(Of ReportLabelLayoutEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity
+    name: ReportLabelLayoutEntity
+    nameWithType: ReportLabelLayoutEntity
+    fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity
+    name: ReportLabelLayoutEntity
+    nameWithType: ReportLabelLayoutEntity
+    fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ReportAgent.SaveReportLabelLayoutEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ReportAgent.SaveReportLabelLayoutEntityAsync
+  isExternal: true
+  name: SaveReportLabelLayoutEntityAsync
+  nameWithType: ReportAgent.SaveReportLabelLayoutEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.SaveReportLabelLayoutEntityAsync
+- uid: SuperOffice.WebApi.Data.ReportLabelLayoutEntity
+  commentId: T:SuperOffice.WebApi.Data.ReportLabelLayoutEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ReportLabelLayoutEntity
+  nameWithType: ReportLabelLayoutEntity
+  fullName: SuperOffice.WebApi.Data.ReportLabelLayoutEntity
+- uid: SuperOffice.WebApi.Agents.ReportAgent.DeleteReportLabelLayoutEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ReportAgent.DeleteReportLabelLayoutEntityAsync
+  isExternal: true
+  name: DeleteReportLabelLayoutEntityAsync
+  nameWithType: ReportAgent.DeleteReportLabelLayoutEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.DeleteReportLabelLayoutEntityAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.WebApi.Agents.ReportAgent.GetReportEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ReportAgent.GetReportEntityAsync
+  isExternal: true
+  name: GetReportEntityAsync
+  nameWithType: ReportAgent.GetReportEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.GetReportEntityAsync
+- uid: SuperOffice.WebApi.Agents.ReportAgent.CreateFavoriteAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ReportAgent.CreateFavoriteAsync
+  isExternal: true
+  name: CreateFavoriteAsync
+  nameWithType: ReportAgent.CreateFavoriteAsync
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.CreateFavoriteAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Agents.ReportAgent.DeleteFavoriteAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ReportAgent.DeleteFavoriteAsync
+  isExternal: true
+  name: DeleteFavoriteAsync
+  nameWithType: ReportAgent.DeleteFavoriteAsync
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.DeleteFavoriteAsync
+- uid: SuperOffice.WebApi.Agents.ReportAgent.UpdateFavoriteAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ReportAgent.UpdateFavoriteAsync
+  isExternal: true
+  name: UpdateFavoriteAsync
+  nameWithType: ReportAgent.UpdateFavoriteAsync
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.UpdateFavoriteAsync
+- uid: SuperOffice.WebApi.Agents.ReportAgent.GenerateReportAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ReportAgent.GenerateReportAsync
+  isExternal: true
+  name: GenerateReportAsync
+  nameWithType: ReportAgent.GenerateReportAsync
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.GenerateReportAsync
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ReportAgent.ImportReportAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ReportAgent.ImportReportAsync
+  isExternal: true
+  name: ImportReportAsync
+  nameWithType: ReportAgent.ImportReportAsync
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.ImportReportAsync
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ReportAgent.DeleteReportAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ReportAgent.DeleteReportAsync
+  isExternal: true
+  name: DeleteReportAsync
+  nameWithType: ReportAgent.DeleteReportAsync
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.DeleteReportAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ReportAgent.GetReportLabelLayoutEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ReportAgent.GetReportLabelLayoutEntityAsync
+  isExternal: true
+  name: GetReportLabelLayoutEntityAsync
+  nameWithType: ReportAgent.GetReportLabelLayoutEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ReportAgent.GetReportLabelLayoutEntityAsync

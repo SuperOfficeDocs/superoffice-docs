@@ -1,0 +1,274 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.MultiAlarmData
+  commentId: T:SuperOffice.WebApi.Data.MultiAlarmData
+  id: MultiAlarmData
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.MultiAlarmData.#ctor
+  - SuperOffice.WebApi.Data.MultiAlarmData.Alarms
+  - SuperOffice.WebApi.Data.MultiAlarmData.PollingInterval
+  - SuperOffice.WebApi.Data.MultiAlarmData.SilentAfter
+  langs:
+  - csharp
+  - vb
+  name: MultiAlarmData
+  nameWithType: MultiAlarmData
+  fullName: SuperOffice.WebApi.Data.MultiAlarmData
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for MultiAlarmData.\n\n"
+  syntax:
+    content: 'public class MultiAlarmData : Carrier'
+    content.vb: >-
+      Public Class MultiAlarmData
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AppointmentAgent
+    commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.MultiAlarmData.#ctor
+  commentId: M:SuperOffice.WebApi.Data.MultiAlarmData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.MultiAlarmData
+  langs:
+  - csharp
+  - vb
+  name: MultiAlarmData()
+  nameWithType: MultiAlarmData.MultiAlarmData()
+  fullName: SuperOffice.WebApi.Data.MultiAlarmData.MultiAlarmData()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public MultiAlarmData()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.MultiAlarmData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MultiAlarmData.Alarms
+  commentId: P:SuperOffice.WebApi.Data.MultiAlarmData.Alarms
+  id: Alarms
+  parent: SuperOffice.WebApi.Data.MultiAlarmData
+  langs:
+  - csharp
+  - vb
+  name: Alarms
+  nameWithType: MultiAlarmData.Alarms
+  fullName: SuperOffice.WebApi.Data.MultiAlarmData.Alarms
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual AlarmData[] Alarms { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.AlarmData[]
+    content.vb: Public Overridable Property Alarms As AlarmData()
+  overload: SuperOffice.WebApi.Data.MultiAlarmData.Alarms*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MultiAlarmData.PollingInterval
+  commentId: P:SuperOffice.WebApi.Data.MultiAlarmData.PollingInterval
+  id: PollingInterval
+  parent: SuperOffice.WebApi.Data.MultiAlarmData
+  langs:
+  - csharp
+  - vb
+  name: PollingInterval
+  nameWithType: MultiAlarmData.PollingInterval
+  fullName: SuperOffice.WebApi.Data.MultiAlarmData.PollingInterval
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual int PollingInterval { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PollingInterval As Integer
+  overload: SuperOffice.WebApi.Data.MultiAlarmData.PollingInterval*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MultiAlarmData.SilentAfter
+  commentId: P:SuperOffice.WebApi.Data.MultiAlarmData.SilentAfter
+  id: SilentAfter
+  parent: SuperOffice.WebApi.Data.MultiAlarmData
+  langs:
+  - csharp
+  - vb
+  name: SilentAfter
+  nameWithType: MultiAlarmData.SilentAfter
+  fullName: SuperOffice.WebApi.Data.MultiAlarmData.SilentAfter
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual int SilentAfter { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SilentAfter As Integer
+  overload: SuperOffice.WebApi.Data.MultiAlarmData.SilentAfter*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.AppointmentAgent
+  commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  isExternal: true
+  name: AppointmentAgent
+  nameWithType: AppointmentAgent
+  fullName: SuperOffice.WebApi.Agents.AppointmentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.MultiAlarmData.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.MultiAlarmData.#ctor
+  isExternal: true
+  name: MultiAlarmData
+  nameWithType: MultiAlarmData.MultiAlarmData
+  fullName: SuperOffice.WebApi.Data.MultiAlarmData.MultiAlarmData
+- uid: SuperOffice.WebApi.Data.MultiAlarmData.Alarms*
+  commentId: Overload:SuperOffice.WebApi.Data.MultiAlarmData.Alarms
+  isExternal: true
+  name: Alarms
+  nameWithType: MultiAlarmData.Alarms
+  fullName: SuperOffice.WebApi.Data.MultiAlarmData.Alarms
+- uid: SuperOffice.WebApi.Data.AlarmData[]
+  isExternal: true
+  name: AlarmData[]
+  nameWithType: AlarmData[]
+  fullName: SuperOffice.WebApi.Data.AlarmData[]
+  nameWithType.vb: AlarmData()
+  fullName.vb: SuperOffice.WebApi.Data.AlarmData()
+  name.vb: AlarmData()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.AlarmData
+    name: AlarmData
+    nameWithType: AlarmData
+    fullName: SuperOffice.WebApi.Data.AlarmData
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.AlarmData
+    name: AlarmData
+    nameWithType: AlarmData
+    fullName: SuperOffice.WebApi.Data.AlarmData
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.MultiAlarmData.PollingInterval*
+  commentId: Overload:SuperOffice.WebApi.Data.MultiAlarmData.PollingInterval
+  isExternal: true
+  name: PollingInterval
+  nameWithType: MultiAlarmData.PollingInterval
+  fullName: SuperOffice.WebApi.Data.MultiAlarmData.PollingInterval
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.MultiAlarmData.SilentAfter*
+  commentId: Overload:SuperOffice.WebApi.Data.MultiAlarmData.SilentAfter
+  isExternal: true
+  name: SilentAfter
+  nameWithType: MultiAlarmData.SilentAfter
+  fullName: SuperOffice.WebApi.Data.MultiAlarmData.SilentAfter

@@ -1,0 +1,511 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ContactOrPersonFromEmail
+  commentId: T:SuperOffice.CRM.Services.ContactOrPersonFromEmail
+  id: ContactOrPersonFromEmail
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ContactOrPersonFromEmail.#ctor
+  - SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactCategory
+  - SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactDepartment
+  - SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactId
+  - SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactName
+  - SuperOffice.CRM.Services.ContactOrPersonFromEmail.EmailAddress
+  - SuperOffice.CRM.Services.ContactOrPersonFromEmail.FullName
+  - SuperOffice.CRM.Services.ContactOrPersonFromEmail.PersonId
+  - SuperOffice.CRM.Services.ContactOrPersonFromEmail.SortName
+  - SuperOffice.CRM.Services.ContactOrPersonFromEmail.ToString
+  - SuperOffice.CRM.Services.ContactOrPersonFromEmail.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ContactOrPersonFromEmail
+  nameWithType: ContactOrPersonFromEmail
+  fullName: SuperOffice.CRM.Services.ContactOrPersonFromEmail
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for ContactOrPersonFromEmail.\nServices for the ContactOrPersonFromEmail Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IEMailAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class ContactOrPersonFromEmail : Carrier'
+    content.vb: >-
+      Public Class ContactOrPersonFromEmail
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.EMailAgent
+    commentId: T:SuperOffice.CRM.Services.EMailAgent
+  - linkId: SuperOffice.CRM.Services.IEMailAgent
+    commentId: T:SuperOffice.CRM.Services.IEMailAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ContactOrPersonFromEmail.#ctor
+  commentId: M:SuperOffice.CRM.Services.ContactOrPersonFromEmail.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ContactOrPersonFromEmail
+  langs:
+  - csharp
+  - vb
+  name: ContactOrPersonFromEmail()
+  nameWithType: ContactOrPersonFromEmail.ContactOrPersonFromEmail()
+  fullName: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactOrPersonFromEmail()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ContactOrPersonFromEmail()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ContactOrPersonFromEmail.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ToString
+  commentId: M:SuperOffice.CRM.Services.ContactOrPersonFromEmail.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ContactOrPersonFromEmail
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ContactOrPersonFromEmail.ToString()
+  fullName: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ContactOrPersonFromEmail.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ContactOrPersonFromEmail
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ContactOrPersonFromEmail.ToString(String)
+  fullName: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactOrPersonFromEmail.PersonId
+  commentId: P:SuperOffice.CRM.Services.ContactOrPersonFromEmail.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Services.ContactOrPersonFromEmail
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: ContactOrPersonFromEmail.PersonId
+  fullName: SuperOffice.CRM.Services.ContactOrPersonFromEmail.PersonId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe id of the person \n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.CRM.Services.ContactOrPersonFromEmail.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ContactOrPersonFromEmail.FullName
+  commentId: P:SuperOffice.CRM.Services.ContactOrPersonFromEmail.FullName
+  id: FullName
+  parent: SuperOffice.CRM.Services.ContactOrPersonFromEmail
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: ContactOrPersonFromEmail.FullName
+  fullName: SuperOffice.CRM.Services.ContactOrPersonFromEmail.FullName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe person fullname \n"
+  syntax:
+    content: public virtual string FullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FullName As String
+  overload: SuperOffice.CRM.Services.ContactOrPersonFromEmail.FullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ContactOrPersonFromEmail.EmailAddress
+  commentId: P:SuperOffice.CRM.Services.ContactOrPersonFromEmail.EmailAddress
+  id: EmailAddress
+  parent: SuperOffice.CRM.Services.ContactOrPersonFromEmail
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: ContactOrPersonFromEmail.EmailAddress
+  fullName: SuperOffice.CRM.Services.ContactOrPersonFromEmail.EmailAddress
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe emailAddress \n"
+  syntax:
+    content: public virtual string EmailAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EmailAddress As String
+  overload: SuperOffice.CRM.Services.ContactOrPersonFromEmail.EmailAddress*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactId
+  commentId: P:SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Services.ContactOrPersonFromEmail
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: ContactOrPersonFromEmail.ContactId
+  fullName: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe id of the contact \n"
+  syntax:
+    content: public virtual int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactName
+  commentId: P:SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactName
+  id: ContactName
+  parent: SuperOffice.CRM.Services.ContactOrPersonFromEmail
+  langs:
+  - csharp
+  - vb
+  name: ContactName
+  nameWithType: ContactOrPersonFromEmail.ContactName
+  fullName: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe contact name \n"
+  syntax:
+    content: public virtual string ContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactName As String
+  overload: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactDepartment
+  commentId: P:SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactDepartment
+  id: ContactDepartment
+  parent: SuperOffice.CRM.Services.ContactOrPersonFromEmail
+  langs:
+  - csharp
+  - vb
+  name: ContactDepartment
+  nameWithType: ContactOrPersonFromEmail.ContactDepartment
+  fullName: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactDepartment
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDepartment \n"
+  syntax:
+    content: public virtual string ContactDepartment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactDepartment As String
+  overload: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactDepartment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactCategory
+  commentId: P:SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactCategory
+  id: ContactCategory
+  parent: SuperOffice.CRM.Services.ContactOrPersonFromEmail
+  langs:
+  - csharp
+  - vb
+  name: ContactCategory
+  nameWithType: ContactOrPersonFromEmail.ContactCategory
+  fullName: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactCategory
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContact category \n"
+  syntax:
+    content: public virtual string ContactCategory { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactCategory As String
+  overload: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactCategory*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ContactOrPersonFromEmail.SortName
+  commentId: P:SuperOffice.CRM.Services.ContactOrPersonFromEmail.SortName
+  id: SortName
+  parent: SuperOffice.CRM.Services.ContactOrPersonFromEmail
+  langs:
+  - csharp
+  - vb
+  name: SortName
+  nameWithType: ContactOrPersonFromEmail.SortName
+  fullName: SuperOffice.CRM.Services.ContactOrPersonFromEmail.SortName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIf person ? The person name, else contact name \n"
+  syntax:
+    content: public virtual string SortName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SortName As String
+  overload: SuperOffice.CRM.Services.ContactOrPersonFromEmail.SortName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.EMailAgent
+  commentId: T:SuperOffice.CRM.Services.EMailAgent
+  isExternal: true
+  name: EMailAgent
+  nameWithType: EMailAgent
+  fullName: SuperOffice.CRM.Services.EMailAgent
+- uid: SuperOffice.CRM.Services.IEMailAgent
+  commentId: T:SuperOffice.CRM.Services.IEMailAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IEMailAgent
+  nameWithType: IEMailAgent
+  fullName: SuperOffice.CRM.Services.IEMailAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ContactOrPersonFromEmail.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ContactOrPersonFromEmail.#ctor
+  isExternal: true
+  name: ContactOrPersonFromEmail
+  nameWithType: ContactOrPersonFromEmail.ContactOrPersonFromEmail
+  fullName: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactOrPersonFromEmail
+- uid: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ContactOrPersonFromEmail.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ContactOrPersonFromEmail.ToString
+  fullName: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ContactOrPersonFromEmail.PersonId*
+  commentId: Overload:SuperOffice.CRM.Services.ContactOrPersonFromEmail.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: ContactOrPersonFromEmail.PersonId
+  fullName: SuperOffice.CRM.Services.ContactOrPersonFromEmail.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ContactOrPersonFromEmail.FullName*
+  commentId: Overload:SuperOffice.CRM.Services.ContactOrPersonFromEmail.FullName
+  isExternal: true
+  name: FullName
+  nameWithType: ContactOrPersonFromEmail.FullName
+  fullName: SuperOffice.CRM.Services.ContactOrPersonFromEmail.FullName
+- uid: SuperOffice.CRM.Services.ContactOrPersonFromEmail.EmailAddress*
+  commentId: Overload:SuperOffice.CRM.Services.ContactOrPersonFromEmail.EmailAddress
+  isExternal: true
+  name: EmailAddress
+  nameWithType: ContactOrPersonFromEmail.EmailAddress
+  fullName: SuperOffice.CRM.Services.ContactOrPersonFromEmail.EmailAddress
+- uid: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactId*
+  commentId: Overload:SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: ContactOrPersonFromEmail.ContactId
+  fullName: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactId
+- uid: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactName*
+  commentId: Overload:SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactName
+  isExternal: true
+  name: ContactName
+  nameWithType: ContactOrPersonFromEmail.ContactName
+  fullName: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactName
+- uid: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactDepartment*
+  commentId: Overload:SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactDepartment
+  isExternal: true
+  name: ContactDepartment
+  nameWithType: ContactOrPersonFromEmail.ContactDepartment
+  fullName: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactDepartment
+- uid: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactCategory*
+  commentId: Overload:SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactCategory
+  isExternal: true
+  name: ContactCategory
+  nameWithType: ContactOrPersonFromEmail.ContactCategory
+  fullName: SuperOffice.CRM.Services.ContactOrPersonFromEmail.ContactCategory
+- uid: SuperOffice.CRM.Services.ContactOrPersonFromEmail.SortName*
+  commentId: Overload:SuperOffice.CRM.Services.ContactOrPersonFromEmail.SortName
+  isExternal: true
+  name: SortName
+  nameWithType: ContactOrPersonFromEmail.SortName
+  fullName: SuperOffice.CRM.Services.ContactOrPersonFromEmail.SortName

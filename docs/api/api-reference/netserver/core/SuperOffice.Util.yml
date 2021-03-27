@@ -1,0 +1,927 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  id: SuperOffice.Util
+  children:
+  - SuperOffice.Util.AppointmentUtility
+  - SuperOffice.Util.AssemblyHelper
+  - SuperOffice.Util.AsyncListProviderWrapper
+  - SuperOffice.Util.AttributeFetcher
+  - SuperOffice.Util.ByteOrderMarkerEncodingDetector
+  - SuperOffice.Util.CollectionOps
+  - SuperOffice.Util.CollectionOps.ConvertType`2
+  - SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
+  - SuperOffice.Util.DateTimeSearchType
+  - SuperOffice.Util.DateTimeUtil
+  - SuperOffice.Util.DateUtility
+  - SuperOffice.Util.DomainHelper
+  - SuperOffice.Util.doubleExtensions
+  - SuperOffice.Util.Encoding
+  - SuperOffice.Util.EnumerableWriter
+  - SuperOffice.Util.ExpiringDictionary`2
+  - SuperOffice.Util.ExpressionUtil
+  - SuperOffice.Util.FileNameHelper
+  - SuperOffice.Util.HtmlHelper
+  - SuperOffice.Util.HttpHelper
+  - SuperOffice.Util.HttpHelper.RequestType
+  - SuperOffice.Util.iCalendarUtility
+  - SuperOffice.Util.ImageUtilities
+  - SuperOffice.Util.ImportDefaults
+  - SuperOffice.Util.ITextEncodingDetector
+  - SuperOffice.Util.KeyedMatrix`3
+  - SuperOffice.Util.MailHelper
+  - SuperOffice.Util.MailIdConverter
+  - SuperOffice.Util.MatrixItem`3
+  - SuperOffice.Util.MimeHelper
+  - SuperOffice.Util.MimeTypes
+  - SuperOffice.Util.NaiveBomLessUtf16LeEncodingDetector
+  - SuperOffice.Util.NameHelper
+  - SuperOffice.Util.NameValueCollectionOps
+  - SuperOffice.Util.NotUtf8EncodingDetector
+  - SuperOffice.Util.NSWinContactHelper
+  - SuperOffice.Util.NsWinHelper
+  - SuperOffice.Util.NSWinListProviderHelper
+  - SuperOffice.Util.ObjectExtensions
+  - SuperOffice.Util.OperationTracker
+  - SuperOffice.Util.ParameterBuilder
+  - SuperOffice.Util.PreferenceLicenseRequired
+  - SuperOffice.Util.RandomNumberGeneratorExtensions
+  - SuperOffice.Util.ReaderWriteLockExtensions
+  - SuperOffice.Util.RecurringSeries
+  - SuperOffice.Util.RecurringSubSeries
+  - SuperOffice.Util.ReversibleStringEncryption
+  - SuperOffice.Util.shortAndboolExtensions
+  - SuperOffice.Util.SJArray
+  - SuperOffice.Util.SJElement
+  - SuperOffice.Util.SoMapper
+  - SuperOffice.Util.StackTracer
+  - SuperOffice.Util.StringHelper
+  - SuperOffice.Util.TextEncodingHelper
+  - SuperOffice.Util.ThreadedQueueProcessor`1
+  - SuperOffice.Util.TimeConverter
+  - SuperOffice.Util.TimeConverterData
+  - SuperOffice.Util.TimeConverterHelper
+  - SuperOffice.Util.TSRandom
+  - SuperOffice.Util.TwipsConverter
+  - SuperOffice.Util.TwoWayDictionary`2
+  - SuperOffice.Util.TypeHelper
+  - SuperOffice.Util.UrlHelper
+  - SuperOffice.Util.VideoMeetingHelper
+  - SuperOffice.Util.VideoMeetingHelper.SoAppointment
+  - SuperOffice.Util.VisitorPatternHelper`1
+  - SuperOffice.Util.XmlObjectHelper
+  - SuperOffice.Util.XmlSchemaUtil
+  - SuperOffice.Util.XmlUtil
+  - SuperOffice.Util.XmlUtil.InternalResolver
+  - SuperOffice.Util.XmlUtil.Override
+  - SuperOffice.Util.Zip
+  - SuperOffice.Util.ZipEntry
+  - SuperOffice.Util.ZipFile
+  - SuperOffice.Util.ZipType
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  type: Namespace
+  assemblies:
+  - SOCore
+references:
+- uid: SuperOffice.Util.CollectionOps
+  commentId: T:SuperOffice.Util.CollectionOps
+  parent: SuperOffice.Util
+  isExternal: true
+  name: CollectionOps
+  nameWithType: CollectionOps
+  fullName: SuperOffice.Util.CollectionOps
+- uid: SuperOffice.Util.CollectionOps.ConvertType`2
+  commentId: T:SuperOffice.Util.CollectionOps.ConvertType`2
+  isExternal: true
+  name: CollectionOps.ConvertType<SourceType, ReturnType>
+  nameWithType: CollectionOps.ConvertType<SourceType, ReturnType>
+  fullName: SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>
+  nameWithType.vb: CollectionOps.ConvertType(Of SourceType, ReturnType)
+  fullName.vb: SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType)
+  name.vb: CollectionOps.ConvertType(Of SourceType, ReturnType)
+  spec.csharp:
+  - uid: SuperOffice.Util.CollectionOps.ConvertType`2
+    name: CollectionOps.ConvertType
+    nameWithType: CollectionOps.ConvertType
+    fullName: SuperOffice.Util.CollectionOps.ConvertType
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: SourceType
+    nameWithType: SourceType
+    fullName: SourceType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ReturnType
+    nameWithType: ReturnType
+    fullName: ReturnType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Util.CollectionOps.ConvertType`2
+    name: CollectionOps.ConvertType
+    nameWithType: CollectionOps.ConvertType
+    fullName: SuperOffice.Util.CollectionOps.ConvertType
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: SourceType
+    nameWithType: SourceType
+    fullName: SourceType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ReturnType
+    nameWithType: ReturnType
+    fullName: ReturnType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
+  commentId: T:SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
+  isExternal: true
+  name: CollectionOps.GetKeyFromValueItem<KeyType, ValueType>
+  nameWithType: CollectionOps.GetKeyFromValueItem<KeyType, ValueType>
+  fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>
+  nameWithType.vb: CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)
+  fullName.vb: SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)
+  name.vb: CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)
+  spec.csharp:
+  - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
+    name: CollectionOps.GetKeyFromValueItem
+    nameWithType: CollectionOps.GetKeyFromValueItem
+    fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: KeyType
+    nameWithType: KeyType
+    fullName: KeyType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ValueType
+    nameWithType: ValueType
+    fullName: ValueType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
+    name: CollectionOps.GetKeyFromValueItem
+    nameWithType: CollectionOps.GetKeyFromValueItem
+    fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: KeyType
+    nameWithType: KeyType
+    fullName: KeyType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ValueType
+    nameWithType: ValueType
+    fullName: ValueType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.DomainHelper
+  commentId: T:SuperOffice.Util.DomainHelper
+  isExternal: true
+  name: DomainHelper
+  nameWithType: DomainHelper
+  fullName: SuperOffice.Util.DomainHelper
+- uid: SuperOffice.Util.ExpressionUtil
+  commentId: T:SuperOffice.Util.ExpressionUtil
+  isExternal: true
+  name: ExpressionUtil
+  nameWithType: ExpressionUtil
+  fullName: SuperOffice.Util.ExpressionUtil
+- uid: SuperOffice.Util.HtmlHelper
+  commentId: T:SuperOffice.Util.HtmlHelper
+  isExternal: true
+  name: HtmlHelper
+  nameWithType: HtmlHelper
+  fullName: SuperOffice.Util.HtmlHelper
+- uid: SuperOffice.Util.SJElement
+  commentId: T:SuperOffice.Util.SJElement
+  parent: SuperOffice.Util
+  isExternal: true
+  name: SJElement
+  nameWithType: SJElement
+  fullName: SuperOffice.Util.SJElement
+- uid: SuperOffice.Util.SJArray
+  commentId: T:SuperOffice.Util.SJArray
+  parent: SuperOffice.Util
+  isExternal: true
+  name: SJArray
+  nameWithType: SJArray
+  fullName: SuperOffice.Util.SJArray
+- uid: SuperOffice.Util.MailIdConverter
+  commentId: T:SuperOffice.Util.MailIdConverter
+  isExternal: true
+  name: MailIdConverter
+  nameWithType: MailIdConverter
+  fullName: SuperOffice.Util.MailIdConverter
+- uid: SuperOffice.Util.MailHelper
+  commentId: T:SuperOffice.Util.MailHelper
+  isExternal: true
+  name: MailHelper
+  nameWithType: MailHelper
+  fullName: SuperOffice.Util.MailHelper
+- uid: SuperOffice.Util.NameHelper
+  commentId: T:SuperOffice.Util.NameHelper
+  isExternal: true
+  name: NameHelper
+  nameWithType: NameHelper
+  fullName: SuperOffice.Util.NameHelper
+- uid: SuperOffice.Util.NameValueCollectionOps
+  commentId: T:SuperOffice.Util.NameValueCollectionOps
+  isExternal: true
+  name: NameValueCollectionOps
+  nameWithType: NameValueCollectionOps
+  fullName: SuperOffice.Util.NameValueCollectionOps
+- uid: SuperOffice.Util.PreferenceLicenseRequired
+  commentId: T:SuperOffice.Util.PreferenceLicenseRequired
+  isExternal: true
+  name: PreferenceLicenseRequired
+  nameWithType: PreferenceLicenseRequired
+  fullName: SuperOffice.Util.PreferenceLicenseRequired
+- uid: SuperOffice.Util.OperationTracker
+  commentId: T:SuperOffice.Util.OperationTracker
+  isExternal: true
+  name: OperationTracker
+  nameWithType: OperationTracker
+  fullName: SuperOffice.Util.OperationTracker
+- uid: SuperOffice.Util.RandomNumberGeneratorExtensions
+  commentId: T:SuperOffice.Util.RandomNumberGeneratorExtensions
+  isExternal: true
+  name: RandomNumberGeneratorExtensions
+  nameWithType: RandomNumberGeneratorExtensions
+  fullName: SuperOffice.Util.RandomNumberGeneratorExtensions
+- uid: SuperOffice.Util.SoMapper
+  commentId: T:SuperOffice.Util.SoMapper
+  parent: SuperOffice.Util
+  isExternal: true
+  name: SoMapper
+  nameWithType: SoMapper
+  fullName: SuperOffice.Util.SoMapper
+- uid: SuperOffice.Util.AssemblyHelper
+  commentId: T:SuperOffice.Util.AssemblyHelper
+  isExternal: true
+  name: AssemblyHelper
+  nameWithType: AssemblyHelper
+  fullName: SuperOffice.Util.AssemblyHelper
+- uid: SuperOffice.Util.EnumerableWriter
+  commentId: T:SuperOffice.Util.EnumerableWriter
+  parent: SuperOffice.Util
+  isExternal: true
+  name: EnumerableWriter
+  nameWithType: EnumerableWriter
+  fullName: SuperOffice.Util.EnumerableWriter
+- uid: SuperOffice.Util.ImportDefaults
+  commentId: T:SuperOffice.Util.ImportDefaults
+  isExternal: true
+  name: ImportDefaults
+  nameWithType: ImportDefaults
+  fullName: SuperOffice.Util.ImportDefaults
+- uid: SuperOffice.Util.MimeHelper
+  commentId: T:SuperOffice.Util.MimeHelper
+  isExternal: true
+  name: MimeHelper
+  nameWithType: MimeHelper
+  fullName: SuperOffice.Util.MimeHelper
+- uid: SuperOffice.Util.MimeTypes
+  commentId: T:SuperOffice.Util.MimeTypes
+  isExternal: true
+  name: MimeTypes
+  nameWithType: MimeTypes
+  fullName: SuperOffice.Util.MimeTypes
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ReversibleStringEncryption
+  commentId: T:SuperOffice.Util.ReversibleStringEncryption
+  isExternal: true
+  name: ReversibleStringEncryption
+  nameWithType: ReversibleStringEncryption
+  fullName: SuperOffice.Util.ReversibleStringEncryption
+- uid: SuperOffice.Util.AttributeFetcher
+  commentId: T:SuperOffice.Util.AttributeFetcher
+  isExternal: true
+  name: AttributeFetcher
+  nameWithType: AttributeFetcher
+  fullName: SuperOffice.Util.AttributeFetcher
+- uid: SuperOffice.Util.DateUtility
+  commentId: T:SuperOffice.Util.DateUtility
+  isExternal: true
+  name: DateUtility
+  nameWithType: DateUtility
+  fullName: SuperOffice.Util.DateUtility
+- uid: SuperOffice.Util.doubleExtensions
+  commentId: T:SuperOffice.Util.doubleExtensions
+  isExternal: true
+  name: doubleExtensions
+  nameWithType: doubleExtensions
+  fullName: SuperOffice.Util.doubleExtensions
+- uid: SuperOffice.Util.Encoding
+  commentId: T:SuperOffice.Util.Encoding
+  isExternal: true
+  name: Encoding
+  nameWithType: Encoding
+  fullName: SuperOffice.Util.Encoding
+- uid: SuperOffice.Util.ExpiringDictionary`2
+  commentId: T:SuperOffice.Util.ExpiringDictionary`2
+  isExternal: true
+  name: ExpiringDictionary<TKey, TValue>
+  nameWithType: ExpiringDictionary<TKey, TValue>
+  fullName: SuperOffice.Util.ExpiringDictionary<TKey, TValue>
+  nameWithType.vb: ExpiringDictionary(Of TKey, TValue)
+  fullName.vb: SuperOffice.Util.ExpiringDictionary(Of TKey, TValue)
+  name.vb: ExpiringDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: SuperOffice.Util.ExpiringDictionary`2
+    name: ExpiringDictionary
+    nameWithType: ExpiringDictionary
+    fullName: SuperOffice.Util.ExpiringDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Util.ExpiringDictionary`2
+    name: ExpiringDictionary
+    nameWithType: ExpiringDictionary
+    fullName: SuperOffice.Util.ExpiringDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ImageUtilities
+  commentId: T:SuperOffice.Util.ImageUtilities
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ImageUtilities
+  nameWithType: ImageUtilities
+  fullName: SuperOffice.Util.ImageUtilities
+- uid: SuperOffice.Util.shortAndboolExtensions
+  commentId: T:SuperOffice.Util.shortAndboolExtensions
+  isExternal: true
+  name: shortAndboolExtensions
+  nameWithType: shortAndboolExtensions
+  fullName: SuperOffice.Util.shortAndboolExtensions
+- uid: SuperOffice.Util.StackTracer
+  commentId: T:SuperOffice.Util.StackTracer
+  parent: SuperOffice.Util
+  isExternal: true
+  name: StackTracer
+  nameWithType: StackTracer
+  fullName: SuperOffice.Util.StackTracer
+- uid: SuperOffice.Util.KeyedMatrix`3
+  commentId: T:SuperOffice.Util.KeyedMatrix`3
+  parent: SuperOffice.Util
+  isExternal: true
+  name: KeyedMatrix<TKeyColumn, TKeyRow, TItem>
+  nameWithType: KeyedMatrix<TKeyColumn, TKeyRow, TItem>
+  fullName: SuperOffice.Util.KeyedMatrix<TKeyColumn, TKeyRow, TItem>
+  nameWithType.vb: KeyedMatrix(Of TKeyColumn, TKeyRow, TItem)
+  fullName.vb: SuperOffice.Util.KeyedMatrix(Of TKeyColumn, TKeyRow, TItem)
+  name.vb: KeyedMatrix(Of TKeyColumn, TKeyRow, TItem)
+  spec.csharp:
+  - uid: SuperOffice.Util.KeyedMatrix`3
+    name: KeyedMatrix
+    nameWithType: KeyedMatrix
+    fullName: SuperOffice.Util.KeyedMatrix
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKeyColumn
+    nameWithType: TKeyColumn
+    fullName: TKeyColumn
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TKeyRow
+    nameWithType: TKeyRow
+    fullName: TKeyRow
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TItem
+    nameWithType: TItem
+    fullName: TItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Util.KeyedMatrix`3
+    name: KeyedMatrix
+    nameWithType: KeyedMatrix
+    fullName: SuperOffice.Util.KeyedMatrix
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKeyColumn
+    nameWithType: TKeyColumn
+    fullName: TKeyColumn
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TKeyRow
+    nameWithType: TKeyRow
+    fullName: TKeyRow
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TItem
+    nameWithType: TItem
+    fullName: TItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.MatrixItem`3
+  commentId: T:SuperOffice.Util.MatrixItem`3
+  isExternal: true
+  name: MatrixItem<TKeyColumn, TKeyRow, TItem>
+  nameWithType: MatrixItem<TKeyColumn, TKeyRow, TItem>
+  fullName: SuperOffice.Util.MatrixItem<TKeyColumn, TKeyRow, TItem>
+  nameWithType.vb: MatrixItem(Of TKeyColumn, TKeyRow, TItem)
+  fullName.vb: SuperOffice.Util.MatrixItem(Of TKeyColumn, TKeyRow, TItem)
+  name.vb: MatrixItem(Of TKeyColumn, TKeyRow, TItem)
+  spec.csharp:
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    nameWithType: MatrixItem
+    fullName: SuperOffice.Util.MatrixItem
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKeyColumn
+    nameWithType: TKeyColumn
+    fullName: TKeyColumn
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TKeyRow
+    nameWithType: TKeyRow
+    fullName: TKeyRow
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TItem
+    nameWithType: TItem
+    fullName: TItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Util.MatrixItem`3
+    name: MatrixItem
+    nameWithType: MatrixItem
+    fullName: SuperOffice.Util.MatrixItem
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKeyColumn
+    nameWithType: TKeyColumn
+    fullName: TKeyColumn
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TKeyRow
+    nameWithType: TKeyRow
+    fullName: TKeyRow
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TItem
+    nameWithType: TItem
+    fullName: TItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ReaderWriteLockExtensions
+  commentId: T:SuperOffice.Util.ReaderWriteLockExtensions
+  isExternal: true
+  name: ReaderWriteLockExtensions
+  nameWithType: ReaderWriteLockExtensions
+  fullName: SuperOffice.Util.ReaderWriteLockExtensions
+- uid: SuperOffice.Util.StringHelper
+  commentId: T:SuperOffice.Util.StringHelper
+  isExternal: true
+  name: StringHelper
+  nameWithType: StringHelper
+  fullName: SuperOffice.Util.StringHelper
+- uid: SuperOffice.Util.TextEncodingHelper
+  commentId: T:SuperOffice.Util.TextEncodingHelper
+  isExternal: true
+  name: TextEncodingHelper
+  nameWithType: TextEncodingHelper
+  fullName: SuperOffice.Util.TextEncodingHelper
+- uid: SuperOffice.Util.ITextEncodingDetector
+  commentId: T:SuperOffice.Util.ITextEncodingDetector
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ITextEncodingDetector
+  nameWithType: ITextEncodingDetector
+  fullName: SuperOffice.Util.ITextEncodingDetector
+- uid: SuperOffice.Util.ByteOrderMarkerEncodingDetector
+  commentId: T:SuperOffice.Util.ByteOrderMarkerEncodingDetector
+  isExternal: true
+  name: ByteOrderMarkerEncodingDetector
+  nameWithType: ByteOrderMarkerEncodingDetector
+  fullName: SuperOffice.Util.ByteOrderMarkerEncodingDetector
+- uid: SuperOffice.Util.NaiveBomLessUtf16LeEncodingDetector
+  commentId: T:SuperOffice.Util.NaiveBomLessUtf16LeEncodingDetector
+  isExternal: true
+  name: NaiveBomLessUtf16LeEncodingDetector
+  nameWithType: NaiveBomLessUtf16LeEncodingDetector
+  fullName: SuperOffice.Util.NaiveBomLessUtf16LeEncodingDetector
+- uid: SuperOffice.Util.NotUtf8EncodingDetector
+  commentId: T:SuperOffice.Util.NotUtf8EncodingDetector
+  isExternal: true
+  name: NotUtf8EncodingDetector
+  nameWithType: NotUtf8EncodingDetector
+  fullName: SuperOffice.Util.NotUtf8EncodingDetector
+- uid: SuperOffice.Util.ThreadedQueueProcessor`1
+  commentId: T:SuperOffice.Util.ThreadedQueueProcessor`1
+  isExternal: true
+  name: ThreadedQueueProcessor<T>
+  nameWithType: ThreadedQueueProcessor<T>
+  fullName: SuperOffice.Util.ThreadedQueueProcessor<T>
+  nameWithType.vb: ThreadedQueueProcessor(Of T)
+  fullName.vb: SuperOffice.Util.ThreadedQueueProcessor(Of T)
+  name.vb: ThreadedQueueProcessor(Of T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ThreadedQueueProcessor`1
+    name: ThreadedQueueProcessor
+    nameWithType: ThreadedQueueProcessor
+    fullName: SuperOffice.Util.ThreadedQueueProcessor
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Util.ThreadedQueueProcessor`1
+    name: ThreadedQueueProcessor
+    nameWithType: ThreadedQueueProcessor
+    fullName: SuperOffice.Util.ThreadedQueueProcessor
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.TSRandom
+  commentId: T:SuperOffice.Util.TSRandom
+  isExternal: true
+  name: TSRandom
+  nameWithType: TSRandom
+  fullName: SuperOffice.Util.TSRandom
+- uid: SuperOffice.Util.TimeConverterHelper
+  commentId: T:SuperOffice.Util.TimeConverterHelper
+  isExternal: true
+  name: TimeConverterHelper
+  nameWithType: TimeConverterHelper
+  fullName: SuperOffice.Util.TimeConverterHelper
+- uid: SuperOffice.Util.TimeConverterData
+  commentId: T:SuperOffice.Util.TimeConverterData
+  isExternal: true
+  name: TimeConverterData
+  nameWithType: TimeConverterData
+  fullName: SuperOffice.Util.TimeConverterData
+- uid: SuperOffice.Util.TimeConverter
+  commentId: T:SuperOffice.Util.TimeConverter
+  isExternal: true
+  name: TimeConverter
+  nameWithType: TimeConverter
+  fullName: SuperOffice.Util.TimeConverter
+- uid: SuperOffice.Util.TwipsConverter
+  commentId: T:SuperOffice.Util.TwipsConverter
+  isExternal: true
+  name: TwipsConverter
+  nameWithType: TwipsConverter
+  fullName: SuperOffice.Util.TwipsConverter
+- uid: SuperOffice.Util.TwoWayDictionary`2
+  commentId: T:SuperOffice.Util.TwoWayDictionary`2
+  isExternal: true
+  name: TwoWayDictionary<LeftType, RightType>
+  nameWithType: TwoWayDictionary<LeftType, RightType>
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType)
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType)
+  name.vb: TwoWayDictionary(Of LeftType, RightType)
+  spec.csharp:
+  - uid: SuperOffice.Util.TwoWayDictionary`2
+    name: TwoWayDictionary
+    nameWithType: TwoWayDictionary
+    fullName: SuperOffice.Util.TwoWayDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: LeftType
+    nameWithType: LeftType
+    fullName: LeftType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: RightType
+    nameWithType: RightType
+    fullName: RightType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Util.TwoWayDictionary`2
+    name: TwoWayDictionary
+    nameWithType: TwoWayDictionary
+    fullName: SuperOffice.Util.TwoWayDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: LeftType
+    nameWithType: LeftType
+    fullName: LeftType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: RightType
+    nameWithType: RightType
+    fullName: RightType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.TypeHelper
+  commentId: T:SuperOffice.Util.TypeHelper
+  isExternal: true
+  name: TypeHelper
+  nameWithType: TypeHelper
+  fullName: SuperOffice.Util.TypeHelper
+- uid: SuperOffice.Util.FileNameHelper
+  commentId: T:SuperOffice.Util.FileNameHelper
+  isExternal: true
+  name: FileNameHelper
+  nameWithType: FileNameHelper
+  fullName: SuperOffice.Util.FileNameHelper
+- uid: SuperOffice.Util.UrlHelper
+  commentId: T:SuperOffice.Util.UrlHelper
+  isExternal: true
+  name: UrlHelper
+  nameWithType: UrlHelper
+  fullName: SuperOffice.Util.UrlHelper
+- uid: SuperOffice.Util.VisitorPatternHelper`1
+  commentId: T:SuperOffice.Util.VisitorPatternHelper`1
+  isExternal: true
+  name: VisitorPatternHelper<ReturnType>
+  nameWithType: VisitorPatternHelper<ReturnType>
+  fullName: SuperOffice.Util.VisitorPatternHelper<ReturnType>
+  nameWithType.vb: VisitorPatternHelper(Of ReturnType)
+  fullName.vb: SuperOffice.Util.VisitorPatternHelper(Of ReturnType)
+  name.vb: VisitorPatternHelper(Of ReturnType)
+  spec.csharp:
+  - uid: SuperOffice.Util.VisitorPatternHelper`1
+    name: VisitorPatternHelper
+    nameWithType: VisitorPatternHelper
+    fullName: SuperOffice.Util.VisitorPatternHelper
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ReturnType
+    nameWithType: ReturnType
+    fullName: ReturnType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Util.VisitorPatternHelper`1
+    name: VisitorPatternHelper
+    nameWithType: VisitorPatternHelper
+    fullName: SuperOffice.Util.VisitorPatternHelper
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ReturnType
+    nameWithType: ReturnType
+    fullName: ReturnType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.XmlSchemaUtil
+  commentId: T:SuperOffice.Util.XmlSchemaUtil
+  isExternal: true
+  name: XmlSchemaUtil
+  nameWithType: XmlSchemaUtil
+  fullName: SuperOffice.Util.XmlSchemaUtil
+- uid: SuperOffice.Util.XmlUtil
+  commentId: T:SuperOffice.Util.XmlUtil
+  isExternal: true
+  name: XmlUtil
+  nameWithType: XmlUtil
+  fullName: SuperOffice.Util.XmlUtil
+- uid: SuperOffice.Util.XmlUtil.InternalResolver
+  commentId: T:SuperOffice.Util.XmlUtil.InternalResolver
+  isExternal: true
+  name: XmlUtil.InternalResolver
+  nameWithType: XmlUtil.InternalResolver
+  fullName: SuperOffice.Util.XmlUtil.InternalResolver
+- uid: SuperOffice.Util.XmlUtil.Override
+  commentId: T:SuperOffice.Util.XmlUtil.Override
+  parent: SuperOffice.Util
+  isExternal: true
+  name: XmlUtil.Override
+  nameWithType: XmlUtil.Override
+  fullName: SuperOffice.Util.XmlUtil.Override
+- uid: SuperOffice.Util.XmlObjectHelper
+  commentId: T:SuperOffice.Util.XmlObjectHelper
+  isExternal: true
+  name: XmlObjectHelper
+  nameWithType: XmlObjectHelper
+  fullName: SuperOffice.Util.XmlObjectHelper
+- uid: SuperOffice.Util.ZipType
+  commentId: T:SuperOffice.Util.ZipType
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ZipType
+  nameWithType: ZipType
+  fullName: SuperOffice.Util.ZipType
+- uid: SuperOffice.Util.Zip
+  commentId: T:SuperOffice.Util.Zip
+  isExternal: true
+  name: Zip
+  nameWithType: Zip
+  fullName: SuperOffice.Util.Zip
+- uid: SuperOffice.Util.ZipEntry
+  commentId: T:SuperOffice.Util.ZipEntry
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ZipEntry
+  nameWithType: ZipEntry
+  fullName: SuperOffice.Util.ZipEntry
+- uid: SuperOffice.Util.ZipFile
+  commentId: T:SuperOffice.Util.ZipFile
+  isExternal: true
+  name: ZipFile
+  nameWithType: ZipFile
+  fullName: SuperOffice.Util.ZipFile
+- uid: SuperOffice.Util.ParameterBuilder
+  commentId: T:SuperOffice.Util.ParameterBuilder
+  isExternal: true
+  name: ParameterBuilder
+  nameWithType: ParameterBuilder
+  fullName: SuperOffice.Util.ParameterBuilder
+- uid: SuperOffice.Util.DateTimeSearchType
+  commentId: T:SuperOffice.Util.DateTimeSearchType
+  parent: SuperOffice.Util
+  isExternal: true
+  name: DateTimeSearchType
+  nameWithType: DateTimeSearchType
+  fullName: SuperOffice.Util.DateTimeSearchType
+- uid: SuperOffice.Util.DateTimeUtil
+  commentId: T:SuperOffice.Util.DateTimeUtil
+  isExternal: true
+  name: DateTimeUtil
+  nameWithType: DateTimeUtil
+  fullName: SuperOffice.Util.DateTimeUtil
+- uid: SuperOffice.Util.RecurringSeries
+  commentId: T:SuperOffice.Util.RecurringSeries
+  parent: SuperOffice.Util
+  isExternal: true
+  name: RecurringSeries
+  nameWithType: RecurringSeries
+  fullName: SuperOffice.Util.RecurringSeries
+- uid: SuperOffice.Util.RecurringSubSeries
+  commentId: T:SuperOffice.Util.RecurringSubSeries
+  parent: SuperOffice.Util
+  isExternal: true
+  name: RecurringSubSeries
+  nameWithType: RecurringSubSeries
+  fullName: SuperOffice.Util.RecurringSubSeries
+- uid: SuperOffice.Util.AppointmentUtility
+  commentId: T:SuperOffice.Util.AppointmentUtility
+  parent: SuperOffice.Util
+  isExternal: true
+  name: AppointmentUtility
+  nameWithType: AppointmentUtility
+  fullName: SuperOffice.Util.AppointmentUtility
+- uid: SuperOffice.Util.HttpHelper
+  commentId: T:SuperOffice.Util.HttpHelper
+  isExternal: true
+  name: HttpHelper
+  nameWithType: HttpHelper
+  fullName: SuperOffice.Util.HttpHelper
+- uid: SuperOffice.Util.HttpHelper.RequestType
+  commentId: T:SuperOffice.Util.HttpHelper.RequestType
+  parent: SuperOffice.Util
+  isExternal: true
+  name: HttpHelper.RequestType
+  nameWithType: HttpHelper.RequestType
+  fullName: SuperOffice.Util.HttpHelper.RequestType
+- uid: SuperOffice.Util.iCalendarUtility
+  commentId: T:SuperOffice.Util.iCalendarUtility
+  parent: SuperOffice.Util
+  isExternal: true
+  name: iCalendarUtility
+  nameWithType: iCalendarUtility
+  fullName: SuperOffice.Util.iCalendarUtility
+- uid: SuperOffice.Util.NSWinContactHelper
+  commentId: T:SuperOffice.Util.NSWinContactHelper
+  isExternal: true
+  name: NSWinContactHelper
+  nameWithType: NSWinContactHelper
+  fullName: SuperOffice.Util.NSWinContactHelper
+- uid: SuperOffice.Util.NsWinHelper
+  commentId: T:SuperOffice.Util.NsWinHelper
+  isExternal: true
+  name: NsWinHelper
+  nameWithType: NsWinHelper
+  fullName: SuperOffice.Util.NsWinHelper
+- uid: SuperOffice.Util.AsyncListProviderWrapper
+  commentId: T:SuperOffice.Util.AsyncListProviderWrapper
+  parent: SuperOffice.Util
+  isExternal: true
+  name: AsyncListProviderWrapper
+  nameWithType: AsyncListProviderWrapper
+  fullName: SuperOffice.Util.AsyncListProviderWrapper
+- uid: SuperOffice.Util.NSWinListProviderHelper
+  commentId: T:SuperOffice.Util.NSWinListProviderHelper
+  isExternal: true
+  name: NSWinListProviderHelper
+  nameWithType: NSWinListProviderHelper
+  fullName: SuperOffice.Util.NSWinListProviderHelper
+- uid: SuperOffice.Util.VideoMeetingHelper
+  commentId: T:SuperOffice.Util.VideoMeetingHelper
+  isExternal: true
+  name: VideoMeetingHelper
+  nameWithType: VideoMeetingHelper
+  fullName: SuperOffice.Util.VideoMeetingHelper
+- uid: SuperOffice.Util.VideoMeetingHelper.SoAppointment
+  commentId: T:SuperOffice.Util.VideoMeetingHelper.SoAppointment
+  isExternal: true
+  name: VideoMeetingHelper.SoAppointment
+  nameWithType: VideoMeetingHelper.SoAppointment
+  fullName: SuperOffice.Util.VideoMeetingHelper.SoAppointment
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util

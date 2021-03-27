@@ -1,0 +1,594 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.WebApi
+  commentId: T:SuperOffice.Configuration.ConfigFile.WebApi
+  id: ConfigFile.WebApi
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithImplicit
+  - SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithTicket
+  - SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithUsername
+  - SuperOffice.Configuration.ConfigFile.WebApi.CORSEnable
+  - SuperOffice.Configuration.ConfigFile.WebApi.CORSOrigin
+  - SuperOffice.Configuration.ConfigFile.WebApi.Documentation
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.WebApi
+  nameWithType: ConfigFile.WebApi
+  fullName: SuperOffice.Configuration.ConfigFile.WebApi
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nConfiguration values related to the WebApi web services.\n"
+  syntax:
+    content: public static class WebApi
+    content.vb: Public Module WebApi
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithUsername
+  commentId: P:SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithUsername
+  id: AuthorizeWithUsername
+  parent: SuperOffice.Configuration.ConfigFile.WebApi
+  langs:
+  - csharp
+  - vb
+  name: AuthorizeWithUsername
+  nameWithType: ConfigFile.WebApi.AuthorizeWithUsername
+  fullName: SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithUsername
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAllow WebAPI to authorize with username + password. Default true.\n"
+  syntax:
+    content: public static bool AuthorizeWithUsername { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property AuthorizeWithUsername As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithUsername*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithTicket
+  commentId: P:SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithTicket
+  id: AuthorizeWithTicket
+  parent: SuperOffice.Configuration.ConfigFile.WebApi
+  langs:
+  - csharp
+  - vb
+  name: AuthorizeWithTicket
+  nameWithType: ConfigFile.WebApi.AuthorizeWithTicket
+  fullName: SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithTicket
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAllow WebAPI to authorize with session tickets. Default true.\n"
+  syntax:
+    content: public static bool AuthorizeWithTicket { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property AuthorizeWithTicket As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithTicket*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithImplicit
+  commentId: P:SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithImplicit
+  id: AuthorizeWithImplicit
+  parent: SuperOffice.Configuration.ConfigFile.WebApi
+  langs:
+  - csharp
+  - vb
+  name: AuthorizeWithImplicit
+  nameWithType: ConfigFile.WebApi.AuthorizeWithImplicit
+  fullName: SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithImplicit
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAllow WebAPI to authorize with implicit identity from IIS. Default true.\n"
+  syntax:
+    content: public static bool AuthorizeWithImplicit { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property AuthorizeWithImplicit As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithImplicit*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.WebApi.CORSEnable
+  commentId: P:SuperOffice.Configuration.ConfigFile.WebApi.CORSEnable
+  id: CORSEnable
+  parent: SuperOffice.Configuration.ConfigFile.WebApi
+  langs:
+  - csharp
+  - vb
+  name: CORSEnable
+  nameWithType: ConfigFile.WebApi.CORSEnable
+  fullName: SuperOffice.Configuration.ConfigFile.WebApi.CORSEnable
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAllow 3rd party web pages to call WebAPI from the browser. Default false.\n"
+  syntax:
+    content: public static bool CORSEnable { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property CORSEnable As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.WebApi.CORSEnable*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.WebApi.CORSOrigin
+  commentId: P:SuperOffice.Configuration.ConfigFile.WebApi.CORSOrigin
+  id: CORSOrigin
+  parent: SuperOffice.Configuration.ConfigFile.WebApi
+  langs:
+  - csharp
+  - vb
+  name: CORSOrigin
+  nameWithType: ConfigFile.WebApi.CORSOrigin
+  fullName: SuperOffice.Configuration.ConfigFile.WebApi.CORSOrigin
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nIf CORS is enabled, define the Origins that are allowed to call the WebAPI from the browser. Default &apos;&apos; (none).\n"
+  syntax:
+    content: public static string CORSOrigin { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property CORSOrigin As String
+  overload: SuperOffice.Configuration.ConfigFile.WebApi.CORSOrigin*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.WebApi.Documentation
+  commentId: P:SuperOffice.Configuration.ConfigFile.WebApi.Documentation
+  id: Documentation
+  parent: SuperOffice.Configuration.ConfigFile.WebApi
+  langs:
+  - csharp
+  - vb
+  name: Documentation
+  nameWithType: ConfigFile.WebApi.Documentation
+  fullName: SuperOffice.Configuration.ConfigFile.WebApi.Documentation
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nTurn on/off Swagger/OpenAPI documentation generation for WebAPI. Turn off to reduce memory usage.\n"
+  syntax:
+    content: public static bool Documentation { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property Documentation As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.WebApi.Documentation*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithUsername*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithUsername
+  isExternal: true
+  name: AuthorizeWithUsername
+  nameWithType: ConfigFile.WebApi.AuthorizeWithUsername
+  fullName: SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithUsername
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithTicket*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithTicket
+  isExternal: true
+  name: AuthorizeWithTicket
+  nameWithType: ConfigFile.WebApi.AuthorizeWithTicket
+  fullName: SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithTicket
+- uid: SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithImplicit*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithImplicit
+  isExternal: true
+  name: AuthorizeWithImplicit
+  nameWithType: ConfigFile.WebApi.AuthorizeWithImplicit
+  fullName: SuperOffice.Configuration.ConfigFile.WebApi.AuthorizeWithImplicit
+- uid: SuperOffice.Configuration.ConfigFile.WebApi.CORSEnable*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.WebApi.CORSEnable
+  isExternal: true
+  name: CORSEnable
+  nameWithType: ConfigFile.WebApi.CORSEnable
+  fullName: SuperOffice.Configuration.ConfigFile.WebApi.CORSEnable
+- uid: SuperOffice.Configuration.ConfigFile.WebApi.CORSOrigin*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.WebApi.CORSOrigin
+  isExternal: true
+  name: CORSOrigin
+  nameWithType: ConfigFile.WebApi.CORSOrigin
+  fullName: SuperOffice.Configuration.ConfigFile.WebApi.CORSOrigin
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Configuration.ConfigFile.WebApi.Documentation*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.WebApi.Documentation
+  isExternal: true
+  name: Documentation
+  nameWithType: ConfigFile.WebApi.Documentation
+  fullName: SuperOffice.Configuration.ConfigFile.WebApi.Documentation

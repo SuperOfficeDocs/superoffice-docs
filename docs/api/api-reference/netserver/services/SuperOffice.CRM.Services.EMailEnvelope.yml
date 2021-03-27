@@ -1,0 +1,648 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.EMailEnvelope
+  commentId: T:SuperOffice.CRM.Services.EMailEnvelope
+  id: EMailEnvelope
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.EMailEnvelope.#ctor
+  - SuperOffice.CRM.Services.EMailEnvelope.EMailSOInfo
+  - SuperOffice.CRM.Services.EMailEnvelope.Flags
+  - SuperOffice.CRM.Services.EMailEnvelope.From
+  - SuperOffice.CRM.Services.EMailEnvelope.MessageId
+  - SuperOffice.CRM.Services.EMailEnvelope.Priority
+  - SuperOffice.CRM.Services.EMailEnvelope.Sent
+  - SuperOffice.CRM.Services.EMailEnvelope.ServerId
+  - SuperOffice.CRM.Services.EMailEnvelope.Size
+  - SuperOffice.CRM.Services.EMailEnvelope.Subject
+  - SuperOffice.CRM.Services.EMailEnvelope.To
+  - SuperOffice.CRM.Services.EMailEnvelope.ToString
+  - SuperOffice.CRM.Services.EMailEnvelope.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: EMailEnvelope
+  nameWithType: EMailEnvelope
+  fullName: SuperOffice.CRM.Services.EMailEnvelope
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLimited information about one e-mail.\n<p></p>\nCarrier object for EMailEnvelope.\nServices for the EMailEnvelope Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IEMailAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class EMailEnvelope : Carrier'
+    content.vb: >-
+      Public Class EMailEnvelope
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.EMailAgent
+    commentId: T:SuperOffice.CRM.Services.EMailAgent
+  - linkId: SuperOffice.CRM.Services.IEMailAgent
+    commentId: T:SuperOffice.CRM.Services.IEMailAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.EMailEnvelope.#ctor
+  commentId: M:SuperOffice.CRM.Services.EMailEnvelope.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: EMailEnvelope()
+  nameWithType: EMailEnvelope.EMailEnvelope()
+  fullName: SuperOffice.CRM.Services.EMailEnvelope.EMailEnvelope()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public EMailEnvelope()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.EMailEnvelope.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EMailEnvelope.ToString
+  commentId: M:SuperOffice.CRM.Services.EMailEnvelope.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: EMailEnvelope.ToString()
+  fullName: SuperOffice.CRM.Services.EMailEnvelope.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.EMailEnvelope.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.EMailEnvelope.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.EMailEnvelope.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: EMailEnvelope.ToString(String)
+  fullName: SuperOffice.CRM.Services.EMailEnvelope.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.EMailEnvelope.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EMailEnvelope.ServerId
+  commentId: P:SuperOffice.CRM.Services.EMailEnvelope.ServerId
+  id: ServerId
+  parent: SuperOffice.CRM.Services.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: ServerId
+  nameWithType: EMailEnvelope.ServerId
+  fullName: SuperOffice.CRM.Services.EMailEnvelope.ServerId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUnique id for the e-mail on the server \n"
+  syntax:
+    content: public virtual int ServerId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ServerId As Integer
+  overload: SuperOffice.CRM.Services.EMailEnvelope.ServerId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailEnvelope.MessageId
+  commentId: P:SuperOffice.CRM.Services.EMailEnvelope.MessageId
+  id: MessageId
+  parent: SuperOffice.CRM.Services.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: MessageId
+  nameWithType: EMailEnvelope.MessageId
+  fullName: SuperOffice.CRM.Services.EMailEnvelope.MessageId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUnique id of e-mails \n"
+  syntax:
+    content: public virtual string MessageId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property MessageId As String
+  overload: SuperOffice.CRM.Services.EMailEnvelope.MessageId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailEnvelope.Subject
+  commentId: P:SuperOffice.CRM.Services.EMailEnvelope.Subject
+  id: Subject
+  parent: SuperOffice.CRM.Services.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: Subject
+  nameWithType: EMailEnvelope.Subject
+  fullName: SuperOffice.CRM.Services.EMailEnvelope.Subject
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSubject of the e-mail \n"
+  syntax:
+    content: public virtual string Subject { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Subject As String
+  overload: SuperOffice.CRM.Services.EMailEnvelope.Subject*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailEnvelope.From
+  commentId: P:SuperOffice.CRM.Services.EMailEnvelope.From
+  id: From
+  parent: SuperOffice.CRM.Services.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: From
+  nameWithType: EMailEnvelope.From
+  fullName: SuperOffice.CRM.Services.EMailEnvelope.From
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWho did the e-mail originate from \n"
+  syntax:
+    content: public virtual EMailAddress From { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.EMailAddress
+    content.vb: Public Overridable Property From As EMailAddress
+  overload: SuperOffice.CRM.Services.EMailEnvelope.From*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailEnvelope.To
+  commentId: P:SuperOffice.CRM.Services.EMailEnvelope.To
+  id: To
+  parent: SuperOffice.CRM.Services.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: To
+  nameWithType: EMailEnvelope.To
+  fullName: SuperOffice.CRM.Services.EMailEnvelope.To
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTo recipients of e-mail \n"
+  syntax:
+    content: public virtual EMailAddress[] To { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.EMailAddress[]
+    content.vb: Public Overridable Property To As EMailAddress()
+  overload: SuperOffice.CRM.Services.EMailEnvelope.To*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailEnvelope.Sent
+  commentId: P:SuperOffice.CRM.Services.EMailEnvelope.Sent
+  id: Sent
+  parent: SuperOffice.CRM.Services.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: Sent
+  nameWithType: EMailEnvelope.Sent
+  fullName: SuperOffice.CRM.Services.EMailEnvelope.Sent
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhen was the e-mail sent \n"
+  syntax:
+    content: public virtual DateTime Sent { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Sent As Date
+  overload: SuperOffice.CRM.Services.EMailEnvelope.Sent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailEnvelope.Priority
+  commentId: P:SuperOffice.CRM.Services.EMailEnvelope.Priority
+  id: Priority
+  parent: SuperOffice.CRM.Services.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: EMailEnvelope.Priority
+  fullName: SuperOffice.CRM.Services.EMailEnvelope.Priority
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nImportance of the e-mail \n"
+  syntax:
+    content: public virtual EMailPriority Priority { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.EMailPriority
+    content.vb: Public Overridable Property Priority As EMailPriority
+  overload: SuperOffice.CRM.Services.EMailEnvelope.Priority*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailEnvelope.Flags
+  commentId: P:SuperOffice.CRM.Services.EMailEnvelope.Flags
+  id: Flags
+  parent: SuperOffice.CRM.Services.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: EMailEnvelope.Flags
+  fullName: SuperOffice.CRM.Services.EMailEnvelope.Flags
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFlag status of this mail (unread, replied, deleted ) \n"
+  syntax:
+    content: public virtual EMailFlags Flags { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.EMailFlags
+    content.vb: Public Overridable Property Flags As EMailFlags
+  overload: SuperOffice.CRM.Services.EMailEnvelope.Flags*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailEnvelope.Size
+  commentId: P:SuperOffice.CRM.Services.EMailEnvelope.Size
+  id: Size
+  parent: SuperOffice.CRM.Services.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: EMailEnvelope.Size
+  fullName: SuperOffice.CRM.Services.EMailEnvelope.Size
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTotal size of the e-mail \n"
+  syntax:
+    content: public virtual int Size { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Size As Integer
+  overload: SuperOffice.CRM.Services.EMailEnvelope.Size*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailEnvelope.EMailSOInfo
+  commentId: P:SuperOffice.CRM.Services.EMailEnvelope.EMailSOInfo
+  id: EMailSOInfo
+  parent: SuperOffice.CRM.Services.EMailEnvelope
+  langs:
+  - csharp
+  - vb
+  name: EMailSOInfo
+  nameWithType: EMailEnvelope.EMailSOInfo
+  fullName: SuperOffice.CRM.Services.EMailEnvelope.EMailSOInfo
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGlue between SuperOffice data and an e-mail. \n"
+  syntax:
+    content: public virtual EMailSOInfo EMailSOInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.EMailSOInfo
+    content.vb: Public Overridable Property EMailSOInfo As EMailSOInfo
+  overload: SuperOffice.CRM.Services.EMailEnvelope.EMailSOInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.EMailAgent
+  commentId: T:SuperOffice.CRM.Services.EMailAgent
+  isExternal: true
+  name: EMailAgent
+  nameWithType: EMailAgent
+  fullName: SuperOffice.CRM.Services.EMailAgent
+- uid: SuperOffice.CRM.Services.IEMailAgent
+  commentId: T:SuperOffice.CRM.Services.IEMailAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IEMailAgent
+  nameWithType: IEMailAgent
+  fullName: SuperOffice.CRM.Services.IEMailAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.EMailEnvelope.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.EMailEnvelope.#ctor
+  isExternal: true
+  name: EMailEnvelope
+  nameWithType: EMailEnvelope.EMailEnvelope
+  fullName: SuperOffice.CRM.Services.EMailEnvelope.EMailEnvelope
+- uid: SuperOffice.CRM.Services.EMailEnvelope.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.EMailEnvelope.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: EMailEnvelope.ToString
+  fullName: SuperOffice.CRM.Services.EMailEnvelope.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.EMailEnvelope.ServerId*
+  commentId: Overload:SuperOffice.CRM.Services.EMailEnvelope.ServerId
+  isExternal: true
+  name: ServerId
+  nameWithType: EMailEnvelope.ServerId
+  fullName: SuperOffice.CRM.Services.EMailEnvelope.ServerId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.EMailEnvelope.MessageId*
+  commentId: Overload:SuperOffice.CRM.Services.EMailEnvelope.MessageId
+  isExternal: true
+  name: MessageId
+  nameWithType: EMailEnvelope.MessageId
+  fullName: SuperOffice.CRM.Services.EMailEnvelope.MessageId
+- uid: SuperOffice.CRM.Services.EMailEnvelope.Subject*
+  commentId: Overload:SuperOffice.CRM.Services.EMailEnvelope.Subject
+  isExternal: true
+  name: Subject
+  nameWithType: EMailEnvelope.Subject
+  fullName: SuperOffice.CRM.Services.EMailEnvelope.Subject
+- uid: SuperOffice.CRM.Services.EMailEnvelope.From*
+  commentId: Overload:SuperOffice.CRM.Services.EMailEnvelope.From
+  isExternal: true
+  name: From
+  nameWithType: EMailEnvelope.From
+  fullName: SuperOffice.CRM.Services.EMailEnvelope.From
+- uid: SuperOffice.CRM.Services.EMailAddress
+  commentId: T:SuperOffice.CRM.Services.EMailAddress
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: EMailAddress
+  nameWithType: EMailAddress
+  fullName: SuperOffice.CRM.Services.EMailAddress
+- uid: SuperOffice.CRM.Services.EMailEnvelope.To*
+  commentId: Overload:SuperOffice.CRM.Services.EMailEnvelope.To
+  isExternal: true
+  name: To
+  nameWithType: EMailEnvelope.To
+  fullName: SuperOffice.CRM.Services.EMailEnvelope.To
+- uid: SuperOffice.CRM.Services.EMailAddress[]
+  isExternal: true
+  name: EMailAddress[]
+  nameWithType: EMailAddress[]
+  fullName: SuperOffice.CRM.Services.EMailAddress[]
+  nameWithType.vb: EMailAddress()
+  fullName.vb: SuperOffice.CRM.Services.EMailAddress()
+  name.vb: EMailAddress()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.EMailAddress
+    name: EMailAddress
+    nameWithType: EMailAddress
+    fullName: SuperOffice.CRM.Services.EMailAddress
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.EMailAddress
+    name: EMailAddress
+    nameWithType: EMailAddress
+    fullName: SuperOffice.CRM.Services.EMailAddress
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.EMailEnvelope.Sent*
+  commentId: Overload:SuperOffice.CRM.Services.EMailEnvelope.Sent
+  isExternal: true
+  name: Sent
+  nameWithType: EMailEnvelope.Sent
+  fullName: SuperOffice.CRM.Services.EMailEnvelope.Sent
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.EMailEnvelope.Priority*
+  commentId: Overload:SuperOffice.CRM.Services.EMailEnvelope.Priority
+  isExternal: true
+  name: Priority
+  nameWithType: EMailEnvelope.Priority
+  fullName: SuperOffice.CRM.Services.EMailEnvelope.Priority
+- uid: SuperOffice.Data.EMailPriority
+  isExternal: true
+  name: EMailPriority
+  nameWithType: EMailPriority
+  fullName: SuperOffice.Data.EMailPriority
+- uid: SuperOffice.CRM.Services.EMailEnvelope.Flags*
+  commentId: Overload:SuperOffice.CRM.Services.EMailEnvelope.Flags
+  isExternal: true
+  name: Flags
+  nameWithType: EMailEnvelope.Flags
+  fullName: SuperOffice.CRM.Services.EMailEnvelope.Flags
+- uid: SuperOffice.Data.EMailFlags
+  isExternal: true
+  name: EMailFlags
+  nameWithType: EMailFlags
+  fullName: SuperOffice.Data.EMailFlags
+- uid: SuperOffice.CRM.Services.EMailEnvelope.Size*
+  commentId: Overload:SuperOffice.CRM.Services.EMailEnvelope.Size
+  isExternal: true
+  name: Size
+  nameWithType: EMailEnvelope.Size
+  fullName: SuperOffice.CRM.Services.EMailEnvelope.Size
+- uid: SuperOffice.CRM.Services.EMailEnvelope.EMailSOInfo*
+  commentId: Overload:SuperOffice.CRM.Services.EMailEnvelope.EMailSOInfo
+  isExternal: true
+  name: EMailSOInfo
+  nameWithType: EMailEnvelope.EMailSOInfo
+  fullName: SuperOffice.CRM.Services.EMailEnvelope.EMailSOInfo
+- uid: SuperOffice.CRM.Services.EMailSOInfo
+  commentId: T:SuperOffice.CRM.Services.EMailSOInfo
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: EMailSOInfo
+  nameWithType: EMailSOInfo
+  fullName: SuperOffice.CRM.Services.EMailSOInfo

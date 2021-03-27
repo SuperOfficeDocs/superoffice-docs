@@ -1,0 +1,608 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.EMailFlags
+  commentId: T:SuperOffice.Data.EMailFlags
+  id: EMailFlags
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.EMailFlags.Answered
+  - SuperOffice.Data.EMailFlags.Deleted
+  - SuperOffice.Data.EMailFlags.Draft
+  - SuperOffice.Data.EMailFlags.Flagged
+  - SuperOffice.Data.EMailFlags.None
+  - SuperOffice.Data.EMailFlags.Recent
+  - SuperOffice.Data.EMailFlags.Seen
+  langs:
+  - csharp
+  - vb
+  name: EMailFlags
+  nameWithType: EMailFlags
+  fullName: SuperOffice.Data.EMailFlags
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n\nThis Enum is used by:  email_item.flags\nThis Enum consists of flag values that can be combined.\n"
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum EMailFlags : short
+    content.vb: >-
+      <Flags>
+
+      Public Enum EMailFlags As Short
+  extensionMethods:
+  - SuperOffice.Data.EMailFlags.EnumUtil.MapEnums``2
+  - SuperOffice.Data.EMailFlags.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EMailFlags)
+  - SuperOffice.Data.EMailFlags.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.EMailFlags.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.EMailFlags.None
+  commentId: F:SuperOffice.Data.EMailFlags.None
+  id: None
+  parent: SuperOffice.Data.EMailFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: EMailFlags.None
+  fullName: SuperOffice.Data.EMailFlags.None
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: 0: No flags set\n"
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.Data.EMailFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EMailFlags.Seen
+  commentId: F:SuperOffice.Data.EMailFlags.Seen
+  id: Seen
+  parent: SuperOffice.Data.EMailFlags
+  langs:
+  - csharp
+  - vb
+  name: Seen
+  nameWithType: EMailFlags.Seen
+  fullName: SuperOffice.Data.EMailFlags.Seen
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: 1: Mail has been read\n"
+  syntax:
+    content: Seen = 1
+    return:
+      type: SuperOffice.Data.EMailFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EMailFlags.Deleted
+  commentId: F:SuperOffice.Data.EMailFlags.Deleted
+  id: Deleted
+  parent: SuperOffice.Data.EMailFlags
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: EMailFlags.Deleted
+  fullName: SuperOffice.Data.EMailFlags.Deleted
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: 2: Mail has been deleted\n"
+  syntax:
+    content: Deleted = 2
+    return:
+      type: SuperOffice.Data.EMailFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EMailFlags.Recent
+  commentId: F:SuperOffice.Data.EMailFlags.Recent
+  id: Recent
+  parent: SuperOffice.Data.EMailFlags
+  langs:
+  - csharp
+  - vb
+  name: Recent
+  nameWithType: EMailFlags.Recent
+  fullName: SuperOffice.Data.EMailFlags.Recent
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4: 4: Mail is recent\n"
+  syntax:
+    content: Recent = 4
+    return:
+      type: SuperOffice.Data.EMailFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EMailFlags.Flagged
+  commentId: F:SuperOffice.Data.EMailFlags.Flagged
+  id: Flagged
+  parent: SuperOffice.Data.EMailFlags
+  langs:
+  - csharp
+  - vb
+  name: Flagged
+  nameWithType: EMailFlags.Flagged
+  fullName: SuperOffice.Data.EMailFlags.Flagged
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n8: 8: Mail is flagged in the GUI\n"
+  syntax:
+    content: Flagged = 8
+    return:
+      type: SuperOffice.Data.EMailFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EMailFlags.Draft
+  commentId: F:SuperOffice.Data.EMailFlags.Draft
+  id: Draft
+  parent: SuperOffice.Data.EMailFlags
+  langs:
+  - csharp
+  - vb
+  name: Draft
+  nameWithType: EMailFlags.Draft
+  fullName: SuperOffice.Data.EMailFlags.Draft
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n16: 16: Mail is an unsent draft\n"
+  syntax:
+    content: Draft = 16
+    return:
+      type: SuperOffice.Data.EMailFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EMailFlags.Answered
+  commentId: F:SuperOffice.Data.EMailFlags.Answered
+  id: Answered
+  parent: SuperOffice.Data.EMailFlags
+  langs:
+  - csharp
+  - vb
+  name: Answered
+  nameWithType: EMailFlags.Answered
+  fullName: SuperOffice.Data.EMailFlags.Answered
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n32: 32: Mail has been replied to at least once\n"
+  syntax:
+    content: Answered = 32
+    return:
+      type: SuperOffice.Data.EMailFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.EMailFlags.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<EMailFlags, To>()
+  nameWithType: EnumUtil.MapEnums<EMailFlags, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.EMailFlags, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of EMailFlags, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.EMailFlags, To)()
+  name.vb: MapEnums(Of EMailFlags, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<EMailFlags, To>
+    nameWithType: EnumUtil.MapEnums<EMailFlags, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.EMailFlags, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of EMailFlags, To)
+    nameWithType: EnumUtil.MapEnums(Of EMailFlags, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.EMailFlags, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.EMailFlags.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EMailFlags)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<EMailFlags>(EMailFlags)
+  nameWithType: ObjectExtensions.AssignByReflection<EMailFlags>(EMailFlags)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.EMailFlags>(SuperOffice.Data.EMailFlags)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of EMailFlags)(EMailFlags)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.EMailFlags)(SuperOffice.Data.EMailFlags)
+  name.vb: AssignByReflection(Of EMailFlags)(EMailFlags)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<EMailFlags>
+    nameWithType: ObjectExtensions.AssignByReflection<EMailFlags>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.EMailFlags>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.EMailFlags
+    name: EMailFlags
+    nameWithType: EMailFlags
+    fullName: SuperOffice.Data.EMailFlags
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of EMailFlags)
+    nameWithType: ObjectExtensions.AssignByReflection(Of EMailFlags)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.EMailFlags)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.EMailFlags
+    name: EMailFlags
+    nameWithType: EMailFlags
+    fullName: SuperOffice.Data.EMailFlags
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.EMailFlags.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<EMailFlags>()
+  nameWithType: ObjectExtensions.GraphCopy<EMailFlags>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.EMailFlags>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of EMailFlags)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.EMailFlags)()
+  name.vb: GraphCopy(Of EMailFlags)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<EMailFlags>
+    nameWithType: ObjectExtensions.GraphCopy<EMailFlags>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.EMailFlags>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of EMailFlags)
+    nameWithType: ObjectExtensions.GraphCopy(Of EMailFlags)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.EMailFlags)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.EMailFlags.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<EMailFlags, To>()
+  nameWithType: Converters.MapEnums<EMailFlags, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.EMailFlags, To>()
+  nameWithType.vb: Converters.MapEnums(Of EMailFlags, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.EMailFlags, To)()
+  name.vb: MapEnums(Of EMailFlags, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<EMailFlags, To>
+    nameWithType: Converters.MapEnums<EMailFlags, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.EMailFlags, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of EMailFlags, To)
+    nameWithType: Converters.MapEnums(Of EMailFlags, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.EMailFlags, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.EMailFlags
+  commentId: T:SuperOffice.Data.EMailFlags
+  parent: SuperOffice.Data
+  isExternal: true
+  name: EMailFlags
+  nameWithType: EMailFlags
+  fullName: SuperOffice.Data.EMailFlags

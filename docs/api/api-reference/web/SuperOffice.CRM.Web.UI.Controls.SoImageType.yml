@@ -1,0 +1,407 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoImageType
+  id: SoImageType
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.SoImageType.BinaryObject
+  - SuperOffice.CRM.Web.UI.Controls.SoImageType.Flag
+  - SuperOffice.CRM.Web.UI.Controls.SoImageType.Other
+  - SuperOffice.CRM.Web.UI.Controls.SoImageType.Person
+  - SuperOffice.CRM.Web.UI.Controls.SoImageType.PlainUrl
+  - SuperOffice.CRM.Web.UI.Controls.SoImageType.Product
+  - SuperOffice.CRM.Web.UI.Controls.SoImageType.Project
+  - SuperOffice.CRM.Web.UI.Controls.SoImageType.ProjectPreview
+  - SuperOffice.CRM.Web.UI.Controls.SoImageType.QuoteLine
+  - SuperOffice.CRM.Web.UI.Controls.SoImageType.RoundFlag
+  - SuperOffice.CRM.Web.UI.Controls.SoImageType.Sale
+  - SuperOffice.CRM.Web.UI.Controls.SoImageType.ScalableUrl
+  - SuperOffice.CRM.Web.UI.Controls.SoImageType.Url
+  langs:
+  - csharp
+  - vb
+  name: SoImageType
+  nameWithType: SoImageType
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public enum SoImageType
+    content.vb: Public Enum SoImageType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImageType.Url
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoImageType.Url
+  id: Url
+  parent: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: SoImageType.Url
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImageType.Url
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Url = 0
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImageType.BinaryObject
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoImageType.BinaryObject
+  id: BinaryObject
+  parent: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  langs:
+  - csharp
+  - vb
+  name: BinaryObject
+  nameWithType: SoImageType.BinaryObject
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImageType.BinaryObject
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: BinaryObject = 1
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImageType.Flag
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoImageType.Flag
+  id: Flag
+  parent: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  langs:
+  - csharp
+  - vb
+  name: Flag
+  nameWithType: SoImageType.Flag
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImageType.Flag
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Flag = 2
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImageType.Person
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoImageType.Person
+  id: Person
+  parent: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: SoImageType.Person
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImageType.Person
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Person = 3
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImageType.Project
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoImageType.Project
+  id: Project
+  parent: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: SoImageType.Project
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImageType.Project
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Project = 4
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImageType.Sale
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoImageType.Sale
+  id: Sale
+  parent: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  langs:
+  - csharp
+  - vb
+  name: Sale
+  nameWithType: SoImageType.Sale
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImageType.Sale
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Sale = 5
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImageType.ProjectPreview
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoImageType.ProjectPreview
+  id: ProjectPreview
+  parent: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  langs:
+  - csharp
+  - vb
+  name: ProjectPreview
+  nameWithType: SoImageType.ProjectPreview
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImageType.ProjectPreview
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: ProjectPreview = 6
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImageType.Product
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoImageType.Product
+  id: Product
+  parent: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  langs:
+  - csharp
+  - vb
+  name: Product
+  nameWithType: SoImageType.Product
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImageType.Product
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Product = 7
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImageType.QuoteLine
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoImageType.QuoteLine
+  id: QuoteLine
+  parent: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  langs:
+  - csharp
+  - vb
+  name: QuoteLine
+  nameWithType: SoImageType.QuoteLine
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImageType.QuoteLine
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: QuoteLine = 8
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImageType.ScalableUrl
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoImageType.ScalableUrl
+  id: ScalableUrl
+  parent: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  langs:
+  - csharp
+  - vb
+  name: ScalableUrl
+  nameWithType: SoImageType.ScalableUrl
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImageType.ScalableUrl
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: ScalableUrl = 9
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImageType.PlainUrl
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoImageType.PlainUrl
+  id: PlainUrl
+  parent: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  langs:
+  - csharp
+  - vb
+  name: PlainUrl
+  nameWithType: SoImageType.PlainUrl
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImageType.PlainUrl
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: PlainUrl = 10
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImageType.Other
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoImageType.Other
+  id: Other
+  parent: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  langs:
+  - csharp
+  - vb
+  name: Other
+  nameWithType: SoImageType.Other
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImageType.Other
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Other = 11
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImageType.RoundFlag
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoImageType.RoundFlag
+  id: RoundFlag
+  parent: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  langs:
+  - csharp
+  - vb
+  name: RoundFlag
+  nameWithType: SoImageType.RoundFlag
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImageType.RoundFlag
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: RoundFlag = 12
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImageType
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoImageType
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SoImageType
+  nameWithType: SoImageType
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImageType

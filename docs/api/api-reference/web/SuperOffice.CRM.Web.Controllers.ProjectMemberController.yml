@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Controllers.ProjectMemberController
+  commentId: T:SuperOffice.CRM.Web.Controllers.ProjectMemberController
+  id: ProjectMemberController
+  parent: SuperOffice.CRM.Web.Controllers
+  children:
+  - SuperOffice.CRM.Web.Controllers.ProjectMemberController.#ctor
+  - SuperOffice.CRM.Web.Controllers.ProjectMemberController.RemoveProjectMember(SuperOffice.CRM.Web.Controllers.ProjectMemberController.RemoveProjectMemberRequest)
+  langs:
+  - csharp
+  - vb
+  name: ProjectMemberController
+  nameWithType: ProjectMemberController
+  fullName: SuperOffice.CRM.Web.Controllers.ProjectMemberController
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: 'public class ProjectMemberController : ApiController'
+    content.vb: >-
+      Public Class ProjectMemberController
+          Inherits ApiController
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Controllers.ProjectMemberController.RemoveProjectMember(SuperOffice.CRM.Web.Controllers.ProjectMemberController.RemoveProjectMemberRequest)
+  commentId: M:SuperOffice.CRM.Web.Controllers.ProjectMemberController.RemoveProjectMember(SuperOffice.CRM.Web.Controllers.ProjectMemberController.RemoveProjectMemberRequest)
+  id: RemoveProjectMember(SuperOffice.CRM.Web.Controllers.ProjectMemberController.RemoveProjectMemberRequest)
+  parent: SuperOffice.CRM.Web.Controllers.ProjectMemberController
+  langs:
+  - csharp
+  - vb
+  name: RemoveProjectMember(ProjectMemberController.RemoveProjectMemberRequest)
+  nameWithType: ProjectMemberController.RemoveProjectMember(ProjectMemberController.RemoveProjectMemberRequest)
+  fullName: SuperOffice.CRM.Web.Controllers.ProjectMemberController.RemoveProjectMember(SuperOffice.CRM.Web.Controllers.ProjectMemberController.RemoveProjectMemberRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public void RemoveProjectMember(ProjectMemberController.RemoveProjectMemberRequest removeProjectMemberRequest)
+    parameters:
+    - id: removeProjectMemberRequest
+      type: SuperOffice.CRM.Web.Controllers.ProjectMemberController.RemoveProjectMemberRequest
+    content.vb: Public Sub RemoveProjectMember(removeProjectMemberRequest As ProjectMemberController.RemoveProjectMemberRequest)
+  overload: SuperOffice.CRM.Web.Controllers.ProjectMemberController.RemoveProjectMember*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.ProjectMemberController.#ctor
+  commentId: M:SuperOffice.CRM.Web.Controllers.ProjectMemberController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Controllers.ProjectMemberController
+  langs:
+  - csharp
+  - vb
+  name: ProjectMemberController()
+  nameWithType: ProjectMemberController.ProjectMemberController()
+  fullName: SuperOffice.CRM.Web.Controllers.ProjectMemberController.ProjectMemberController()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public ProjectMemberController()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Controllers.ProjectMemberController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Controllers
+  commentId: N:SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperOffice.CRM.Web.Controllers
+  nameWithType: SuperOffice.CRM.Web.Controllers
+  fullName: SuperOffice.CRM.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Controllers.ProjectMemberController.RemoveProjectMember*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ProjectMemberController.RemoveProjectMember
+  isExternal: true
+  name: RemoveProjectMember
+  nameWithType: ProjectMemberController.RemoveProjectMember
+  fullName: SuperOffice.CRM.Web.Controllers.ProjectMemberController.RemoveProjectMember
+- uid: SuperOffice.CRM.Web.Controllers.ProjectMemberController.RemoveProjectMemberRequest
+  commentId: T:SuperOffice.CRM.Web.Controllers.ProjectMemberController.RemoveProjectMemberRequest
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: ProjectMemberController.RemoveProjectMemberRequest
+  nameWithType: ProjectMemberController.RemoveProjectMemberRequest
+  fullName: SuperOffice.CRM.Web.Controllers.ProjectMemberController.RemoveProjectMemberRequest
+- uid: SuperOffice.CRM.Web.Controllers.ProjectMemberController.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ProjectMemberController.#ctor
+  isExternal: true
+  name: ProjectMemberController
+  nameWithType: ProjectMemberController.ProjectMemberController
+  fullName: SuperOffice.CRM.Web.Controllers.ProjectMemberController.ProjectMemberController

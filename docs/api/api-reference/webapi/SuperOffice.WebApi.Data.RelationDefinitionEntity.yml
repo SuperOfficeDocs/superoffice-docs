@@ -1,0 +1,648 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity
+  commentId: T:SuperOffice.WebApi.Data.RelationDefinitionEntity
+  id: RelationDefinitionEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.RelationDefinitionEntity.#ctor
+  - SuperOffice.WebApi.Data.RelationDefinitionEntity.Deleted
+  - SuperOffice.WebApi.Data.RelationDefinitionEntity.Destination
+  - SuperOffice.WebApi.Data.RelationDefinitionEntity.Destination_String
+  - SuperOffice.WebApi.Data.RelationDefinitionEntity.Name
+  - SuperOffice.WebApi.Data.RelationDefinitionEntity.PassiveText
+  - SuperOffice.WebApi.Data.RelationDefinitionEntity.Rank
+  - SuperOffice.WebApi.Data.RelationDefinitionEntity.ReldefId
+  - SuperOffice.WebApi.Data.RelationDefinitionEntity.Source
+  - SuperOffice.WebApi.Data.RelationDefinitionEntity.Source_String
+  - SuperOffice.WebApi.Data.RelationDefinitionEntity.Tooltip
+  langs:
+  - csharp
+  - vb
+  name: RelationDefinitionEntity
+  nameWithType: RelationDefinitionEntity
+  fullName: SuperOffice.WebApi.Data.RelationDefinitionEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for RelationDefinitionEntity.\nA relation definition entity with source and destination tables    \n"
+  example:
+  - "\nGet RelationDefinitionEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ListAgent(configuration);\nvar relationDefinitionEntity = agent.GetRelationDefinitionEntity( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class RelationDefinitionEntity : Carrier'
+    content.vb: >-
+      Public Class RelationDefinitionEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ListAgent
+    commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.RelationDefinitionEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.RelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: RelationDefinitionEntity()
+  nameWithType: RelationDefinitionEntity.RelationDefinitionEntity()
+  fullName: SuperOffice.WebApi.Data.RelationDefinitionEntity.RelationDefinitionEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public RelationDefinitionEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.RelationDefinitionEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity.ReldefId
+  commentId: P:SuperOffice.WebApi.Data.RelationDefinitionEntity.ReldefId
+  id: ReldefId
+  parent: SuperOffice.WebApi.Data.RelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: ReldefId
+  nameWithType: RelationDefinitionEntity.ReldefId
+  fullName: SuperOffice.WebApi.Data.RelationDefinitionEntity.ReldefId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int ReldefId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ReldefId As Integer
+  overload: SuperOffice.WebApi.Data.RelationDefinitionEntity.ReldefId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity.Name
+  commentId: P:SuperOffice.WebApi.Data.RelationDefinitionEntity.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.RelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: RelationDefinitionEntity.Name
+  fullName: SuperOffice.WebApi.Data.RelationDefinitionEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nActive text\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.RelationDefinitionEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity.Tooltip
+  commentId: P:SuperOffice.WebApi.Data.RelationDefinitionEntity.Tooltip
+  id: Tooltip
+  parent: SuperOffice.WebApi.Data.RelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: RelationDefinitionEntity.Tooltip
+  fullName: SuperOffice.WebApi.Data.RelationDefinitionEntity.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip or other description\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.WebApi.Data.RelationDefinitionEntity.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity.PassiveText
+  commentId: P:SuperOffice.WebApi.Data.RelationDefinitionEntity.PassiveText
+  id: PassiveText
+  parent: SuperOffice.WebApi.Data.RelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: PassiveText
+  nameWithType: RelationDefinitionEntity.PassiveText
+  fullName: SuperOffice.WebApi.Data.RelationDefinitionEntity.PassiveText
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nText used in passive direction\n"
+  syntax:
+    content: public virtual string PassiveText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PassiveText As String
+  overload: SuperOffice.WebApi.Data.RelationDefinitionEntity.PassiveText*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity.Deleted
+  commentId: P:SuperOffice.WebApi.Data.RelationDefinitionEntity.Deleted
+  id: Deleted
+  parent: SuperOffice.WebApi.Data.RelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: RelationDefinitionEntity.Deleted
+  fullName: SuperOffice.WebApi.Data.RelationDefinitionEntity.Deleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if deleted\n"
+  syntax:
+    content: public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.WebApi.Data.RelationDefinitionEntity.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity.Rank
+  commentId: P:SuperOffice.WebApi.Data.RelationDefinitionEntity.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.RelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: RelationDefinitionEntity.Rank
+  fullName: SuperOffice.WebApi.Data.RelationDefinitionEntity.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRank order \n"
+  syntax:
+    content: public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Rank As Short
+  overload: SuperOffice.WebApi.Data.RelationDefinitionEntity.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity.Source_String
+  commentId: P:SuperOffice.WebApi.Data.RelationDefinitionEntity.Source_String
+  id: Source_String
+  parent: SuperOffice.WebApi.Data.RelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: Source_String
+  nameWithType: RelationDefinitionEntity.Source_String
+  fullName: SuperOffice.WebApi.Data.RelationDefinitionEntity.Source_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe source of the relation\nRaw string enum value.\n"
+  syntax:
+    content: public string Source_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Source_String As String
+  overload: SuperOffice.WebApi.Data.RelationDefinitionEntity.Source_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.RelationDefinitionEntity.Source
+    commentId: P:SuperOffice.WebApi.Data.RelationDefinitionEntity.Source
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity.Source
+  commentId: P:SuperOffice.WebApi.Data.RelationDefinitionEntity.Source
+  id: Source
+  parent: SuperOffice.WebApi.Data.RelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: RelationDefinitionEntity.Source
+  fullName: SuperOffice.WebApi.Data.RelationDefinitionEntity.Source
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe source of the relation\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<RelationTarget> Source { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.RelationTarget}
+    content.vb: Public Property Source As Nullable(Of RelationTarget)
+  overload: SuperOffice.WebApi.Data.RelationDefinitionEntity.Source*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.RelationDefinitionEntity.Source_String
+    commentId: P:SuperOffice.WebApi.Data.RelationDefinitionEntity.Source_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity.Destination_String
+  commentId: P:SuperOffice.WebApi.Data.RelationDefinitionEntity.Destination_String
+  id: Destination_String
+  parent: SuperOffice.WebApi.Data.RelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: Destination_String
+  nameWithType: RelationDefinitionEntity.Destination_String
+  fullName: SuperOffice.WebApi.Data.RelationDefinitionEntity.Destination_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe destination of the relation\nRaw string enum value.\n"
+  syntax:
+    content: public string Destination_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Destination_String As String
+  overload: SuperOffice.WebApi.Data.RelationDefinitionEntity.Destination_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.RelationDefinitionEntity.Destination
+    commentId: P:SuperOffice.WebApi.Data.RelationDefinitionEntity.Destination
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity.Destination
+  commentId: P:SuperOffice.WebApi.Data.RelationDefinitionEntity.Destination
+  id: Destination
+  parent: SuperOffice.WebApi.Data.RelationDefinitionEntity
+  langs:
+  - csharp
+  - vb
+  name: Destination
+  nameWithType: RelationDefinitionEntity.Destination
+  fullName: SuperOffice.WebApi.Data.RelationDefinitionEntity.Destination
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe destination of the relation\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<RelationTarget> Destination { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.RelationTarget}
+    content.vb: Public Property Destination As Nullable(Of RelationTarget)
+  overload: SuperOffice.WebApi.Data.RelationDefinitionEntity.Destination*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.RelationDefinitionEntity.Destination_String
+    commentId: P:SuperOffice.WebApi.Data.RelationDefinitionEntity.Destination_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.RelationDefinitionEntity.#ctor
+  isExternal: true
+  name: RelationDefinitionEntity
+  nameWithType: RelationDefinitionEntity.RelationDefinitionEntity
+  fullName: SuperOffice.WebApi.Data.RelationDefinitionEntity.RelationDefinitionEntity
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity.ReldefId*
+  commentId: Overload:SuperOffice.WebApi.Data.RelationDefinitionEntity.ReldefId
+  isExternal: true
+  name: ReldefId
+  nameWithType: RelationDefinitionEntity.ReldefId
+  fullName: SuperOffice.WebApi.Data.RelationDefinitionEntity.ReldefId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.RelationDefinitionEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: RelationDefinitionEntity.Name
+  fullName: SuperOffice.WebApi.Data.RelationDefinitionEntity.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity.Tooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.RelationDefinitionEntity.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: RelationDefinitionEntity.Tooltip
+  fullName: SuperOffice.WebApi.Data.RelationDefinitionEntity.Tooltip
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity.PassiveText*
+  commentId: Overload:SuperOffice.WebApi.Data.RelationDefinitionEntity.PassiveText
+  isExternal: true
+  name: PassiveText
+  nameWithType: RelationDefinitionEntity.PassiveText
+  fullName: SuperOffice.WebApi.Data.RelationDefinitionEntity.PassiveText
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity.Deleted*
+  commentId: Overload:SuperOffice.WebApi.Data.RelationDefinitionEntity.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: RelationDefinitionEntity.Deleted
+  fullName: SuperOffice.WebApi.Data.RelationDefinitionEntity.Deleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.RelationDefinitionEntity.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: RelationDefinitionEntity.Rank
+  fullName: SuperOffice.WebApi.Data.RelationDefinitionEntity.Rank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity.Source_String*
+  commentId: Overload:SuperOffice.WebApi.Data.RelationDefinitionEntity.Source_String
+  isExternal: true
+  name: Source_String
+  nameWithType: RelationDefinitionEntity.Source_String
+  fullName: SuperOffice.WebApi.Data.RelationDefinitionEntity.Source_String
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity.Source
+  commentId: P:SuperOffice.WebApi.Data.RelationDefinitionEntity.Source
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity.Source*
+  commentId: Overload:SuperOffice.WebApi.Data.RelationDefinitionEntity.Source
+  isExternal: true
+  name: Source
+  nameWithType: RelationDefinitionEntity.Source
+  fullName: SuperOffice.WebApi.Data.RelationDefinitionEntity.Source
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity.Source_String
+  commentId: P:SuperOffice.WebApi.Data.RelationDefinitionEntity.Source_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.RelationTarget}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.RelationTarget}'
+  definition: System.Nullable`1
+  name: Nullable<RelationTarget>
+  nameWithType: Nullable<RelationTarget>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.RelationTarget>
+  nameWithType.vb: Nullable(Of RelationTarget)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.RelationTarget)
+  name.vb: Nullable(Of RelationTarget)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.RelationTarget
+    name: RelationTarget
+    nameWithType: RelationTarget
+    fullName: SuperOffice.WebApi.Data.RelationTarget
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.RelationTarget
+    name: RelationTarget
+    nameWithType: RelationTarget
+    fullName: SuperOffice.WebApi.Data.RelationTarget
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity.Destination_String*
+  commentId: Overload:SuperOffice.WebApi.Data.RelationDefinitionEntity.Destination_String
+  isExternal: true
+  name: Destination_String
+  nameWithType: RelationDefinitionEntity.Destination_String
+  fullName: SuperOffice.WebApi.Data.RelationDefinitionEntity.Destination_String
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity.Destination
+  commentId: P:SuperOffice.WebApi.Data.RelationDefinitionEntity.Destination
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity.Destination*
+  commentId: Overload:SuperOffice.WebApi.Data.RelationDefinitionEntity.Destination
+  isExternal: true
+  name: Destination
+  nameWithType: RelationDefinitionEntity.Destination
+  fullName: SuperOffice.WebApi.Data.RelationDefinitionEntity.Destination
+- uid: SuperOffice.WebApi.Data.RelationDefinitionEntity.Destination_String
+  commentId: P:SuperOffice.WebApi.Data.RelationDefinitionEntity.Destination_String
+  isExternal: true

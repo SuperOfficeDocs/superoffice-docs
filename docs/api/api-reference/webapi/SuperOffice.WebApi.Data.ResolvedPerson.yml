@@ -1,0 +1,215 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ResolvedPerson
+  commentId: T:SuperOffice.WebApi.Data.ResolvedPerson
+  id: ResolvedPerson
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ResolvedPerson.#ctor
+  - SuperOffice.WebApi.Data.ResolvedPerson.Person
+  - SuperOffice.WebApi.Data.ResolvedPerson.PersonCreated
+  langs:
+  - csharp
+  - vb
+  name: ResolvedPerson
+  nameWithType: ResolvedPerson
+  fullName: SuperOffice.WebApi.Data.ResolvedPerson
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ResolvedPerson.\nThe Person Service. The service implements all services working with the Person object.    \n"
+  syntax:
+    content: 'public class ResolvedPerson : Carrier'
+    content.vb: >-
+      Public Class ResolvedPerson
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.PersonAgent
+    commentId: T:SuperOffice.WebApi.Agents.PersonAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ResolvedPerson.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ResolvedPerson.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ResolvedPerson
+  langs:
+  - csharp
+  - vb
+  name: ResolvedPerson()
+  nameWithType: ResolvedPerson.ResolvedPerson()
+  fullName: SuperOffice.WebApi.Data.ResolvedPerson.ResolvedPerson()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ResolvedPerson()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ResolvedPerson.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ResolvedPerson.Person
+  commentId: P:SuperOffice.WebApi.Data.ResolvedPerson.Person
+  id: Person
+  parent: SuperOffice.WebApi.Data.ResolvedPerson
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: ResolvedPerson.Person
+  fullName: SuperOffice.WebApi.Data.ResolvedPerson.Person
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe resolved PersonEntity instance.\n"
+  syntax:
+    content: public virtual PersonEntity Person { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.PersonEntity
+    content.vb: Public Overridable Property Person As PersonEntity
+  overload: SuperOffice.WebApi.Data.ResolvedPerson.Person*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ResolvedPerson.PersonCreated
+  commentId: P:SuperOffice.WebApi.Data.ResolvedPerson.PersonCreated
+  id: PersonCreated
+  parent: SuperOffice.WebApi.Data.ResolvedPerson
+  langs:
+  - csharp
+  - vb
+  name: PersonCreated
+  nameWithType: ResolvedPerson.PersonCreated
+  fullName: SuperOffice.WebApi.Data.ResolvedPerson.PersonCreated
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIndicates if the resolved person was created or not.\n"
+  syntax:
+    content: public virtual bool PersonCreated { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property PersonCreated As Boolean
+  overload: SuperOffice.WebApi.Data.ResolvedPerson.PersonCreated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.PersonAgent
+  commentId: T:SuperOffice.WebApi.Agents.PersonAgent
+  isExternal: true
+  name: PersonAgent
+  nameWithType: PersonAgent
+  fullName: SuperOffice.WebApi.Agents.PersonAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ResolvedPerson.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ResolvedPerson.#ctor
+  isExternal: true
+  name: ResolvedPerson
+  nameWithType: ResolvedPerson.ResolvedPerson
+  fullName: SuperOffice.WebApi.Data.ResolvedPerson.ResolvedPerson
+- uid: SuperOffice.WebApi.Data.ResolvedPerson.Person*
+  commentId: Overload:SuperOffice.WebApi.Data.ResolvedPerson.Person
+  isExternal: true
+  name: Person
+  nameWithType: ResolvedPerson.Person
+  fullName: SuperOffice.WebApi.Data.ResolvedPerson.Person
+- uid: SuperOffice.WebApi.Data.PersonEntity
+  commentId: T:SuperOffice.WebApi.Data.PersonEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: PersonEntity
+  nameWithType: PersonEntity
+  fullName: SuperOffice.WebApi.Data.PersonEntity
+- uid: SuperOffice.WebApi.Data.ResolvedPerson.PersonCreated*
+  commentId: Overload:SuperOffice.WebApi.Data.ResolvedPerson.PersonCreated
+  isExternal: true
+  name: PersonCreated
+  nameWithType: ResolvedPerson.PersonCreated
+  fullName: SuperOffice.WebApi.Data.ResolvedPerson.PersonCreated
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -1,0 +1,727 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserPreferences
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.UserPreferences
+  id: UserPreferences
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  children:
+  - SuperOffice.CRM.Web.AjaxMethods.UserPreferences.#ctor
+  - SuperOffice.CRM.Web.AjaxMethods.UserPreferences.Get(System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.UserPreferences.GetWithDefault(System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.UserPreferences.SavePreference(System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.UserPreferences.Set(System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.UserPreferences.SetAndSave(System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.UserPreferences.ToggleBool(System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.UserPreferences.ToggleBoolAndSave(System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.UserPreferences.ToggleMiniPanelLock(System.String)
+  langs:
+  - csharp
+  - vb
+  name: UserPreferences
+  nameWithType: UserPreferences
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserPreferences
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoWebObject("UserPreferences")]
+
+      public class UserPreferences : IWebObject, IPlugin
+    content.vb: >-
+      <SoWebObject("UserPreferences")>
+
+      Public Class UserPreferences
+          Implements IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: UserPreferences
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.Set(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UserPreferences.Set(System.String,System.String,System.String)
+  id: Set(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.UserPreferences
+  langs:
+  - csharp
+  - vb
+  name: Set(String, String, String)
+  nameWithType: UserPreferences.Set(String, String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.Set(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string Set(string prefSection, string prefKey, string value)
+    parameters:
+    - id: prefSection
+      type: System.String
+    - id: prefKey
+      type: System.String
+    - id: value
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function Set(prefSection As String, prefKey As String, value As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.Set*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.SetAndSave(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UserPreferences.SetAndSave(System.String,System.String,System.String)
+  id: SetAndSave(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.UserPreferences
+  langs:
+  - csharp
+  - vb
+  name: SetAndSave(String, String, String)
+  nameWithType: UserPreferences.SetAndSave(String, String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.SetAndSave(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string SetAndSave(string prefSection, string prefKey, string value)
+    parameters:
+    - id: prefSection
+      type: System.String
+    - id: prefKey
+      type: System.String
+    - id: value
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function SetAndSave(prefSection As String, prefKey As String, value As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.SetAndSave*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.SavePreference(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UserPreferences.SavePreference(System.String,System.String,System.String)
+  id: SavePreference(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.UserPreferences
+  langs:
+  - csharp
+  - vb
+  name: SavePreference(String, String, String)
+  nameWithType: UserPreferences.SavePreference(String, String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.SavePreference(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public static void SavePreference(string prefSection, string prefKey, string value)
+    parameters:
+    - id: prefSection
+      type: System.String
+    - id: prefKey
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Public Shared Sub SavePreference(prefSection As String, prefKey As String, value As String)
+  overload: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.SavePreference*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.ToggleBool(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UserPreferences.ToggleBool(System.String,System.String)
+  id: ToggleBool(System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.UserPreferences
+  langs:
+  - csharp
+  - vb
+  name: ToggleBool(String, String)
+  nameWithType: UserPreferences.ToggleBool(String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.ToggleBool(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string ToggleBool(string prefSection, string prefKey)
+    parameters:
+    - id: prefSection
+      type: System.String
+    - id: prefKey
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ToggleBool(prefSection As String, prefKey As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.ToggleBool*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.ToggleBoolAndSave(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UserPreferences.ToggleBoolAndSave(System.String,System.String)
+  id: ToggleBoolAndSave(System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.UserPreferences
+  langs:
+  - csharp
+  - vb
+  name: ToggleBoolAndSave(String, String)
+  nameWithType: UserPreferences.ToggleBoolAndSave(String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.ToggleBoolAndSave(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string ToggleBoolAndSave(string prefSection, string prefKey)
+    parameters:
+    - id: prefSection
+      type: System.String
+    - id: prefKey
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ToggleBoolAndSave(prefSection As String, prefKey As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.ToggleBoolAndSave*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.Get(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UserPreferences.Get(System.String,System.String)
+  id: Get(System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.UserPreferences
+  langs:
+  - csharp
+  - vb
+  name: Get(String, String)
+  nameWithType: UserPreferences.Get(String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.Get(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string Get(string prefSection, string prefKey)
+    parameters:
+    - id: prefSection
+      type: System.String
+    - id: prefKey
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function Get(prefSection As String, prefKey As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.Get*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.GetWithDefault(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UserPreferences.GetWithDefault(System.String,System.String,System.String)
+  id: GetWithDefault(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.UserPreferences
+  langs:
+  - csharp
+  - vb
+  name: GetWithDefault(String, String, String)
+  nameWithType: UserPreferences.GetWithDefault(String, String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.GetWithDefault(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetWithDefault(string prefSection, string prefKey, string defaultValue)
+    parameters:
+    - id: prefSection
+      type: System.String
+    - id: prefKey
+      type: System.String
+    - id: defaultValue
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetWithDefault(prefSection As String, prefKey As String, defaultValue As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.GetWithDefault*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.ToggleMiniPanelLock(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UserPreferences.ToggleMiniPanelLock(System.String)
+  id: ToggleMiniPanelLock(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.UserPreferences
+  langs:
+  - csharp
+  - vb
+  name: ToggleMiniPanelLock(String)
+  nameWithType: UserPreferences.ToggleMiniPanelLock(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.ToggleMiniPanelLock(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void ToggleMiniPanelLock(string soprotocol)
+    parameters:
+    - id: soprotocol
+      type: System.String
+    content.vb: Public Sub ToggleMiniPanelLock(soprotocol As String)
+  overload: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.ToggleMiniPanelLock*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.#ctor
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UserPreferences.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.AjaxMethods.UserPreferences
+  langs:
+  - csharp
+  - vb
+  name: UserPreferences()
+  nameWithType: UserPreferences.UserPreferences()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.UserPreferences()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public UserPreferences()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.AjaxMethods
+  commentId: N:SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: SuperOffice.CRM.Web.AjaxMethods
+  nameWithType: SuperOffice.CRM.Web.AjaxMethods
+  fullName: SuperOffice.CRM.Web.AjaxMethods
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.Set*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UserPreferences.Set
+  isExternal: true
+  name: Set
+  nameWithType: UserPreferences.Set
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.Set
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.SetAndSave*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UserPreferences.SetAndSave
+  isExternal: true
+  name: SetAndSave
+  nameWithType: UserPreferences.SetAndSave
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.SetAndSave
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.SavePreference*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UserPreferences.SavePreference
+  isExternal: true
+  name: SavePreference
+  nameWithType: UserPreferences.SavePreference
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.SavePreference
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.ToggleBool*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UserPreferences.ToggleBool
+  isExternal: true
+  name: ToggleBool
+  nameWithType: UserPreferences.ToggleBool
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.ToggleBool
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.ToggleBoolAndSave*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UserPreferences.ToggleBoolAndSave
+  isExternal: true
+  name: ToggleBoolAndSave
+  nameWithType: UserPreferences.ToggleBoolAndSave
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.ToggleBoolAndSave
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.Get*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UserPreferences.Get
+  isExternal: true
+  name: Get
+  nameWithType: UserPreferences.Get
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.Get
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.GetWithDefault*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UserPreferences.GetWithDefault
+  isExternal: true
+  name: GetWithDefault
+  nameWithType: UserPreferences.GetWithDefault
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.GetWithDefault
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.ToggleMiniPanelLock*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UserPreferences.ToggleMiniPanelLock
+  isExternal: true
+  name: ToggleMiniPanelLock
+  nameWithType: UserPreferences.ToggleMiniPanelLock
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.ToggleMiniPanelLock
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UserPreferences.#ctor
+  isExternal: true
+  name: UserPreferences
+  nameWithType: UserPreferences.UserPreferences
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserPreferences.UserPreferences

@@ -1,0 +1,604 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.FreeText
+  commentId: T:SuperOffice.WebApi.Data.FreeText
+  id: FreeText
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.FreeText.#ctor
+  - SuperOffice.WebApi.Data.FreeText.AutoEnableTravelAreas
+  - SuperOffice.WebApi.Data.FreeText.CountWords
+  - SuperOffice.WebApi.Data.FreeText.FreeTextEnabled
+  - SuperOffice.WebApi.Data.FreeText.LastGenerated
+  - SuperOffice.WebApi.Data.FreeText.MultiWordOperator
+  - SuperOffice.WebApi.Data.FreeText.MultiWordOperator_String
+  - SuperOffice.WebApi.Data.FreeText.Occurrences
+  - SuperOffice.WebApi.Data.FreeText.SingleWordOperator
+  - SuperOffice.WebApi.Data.FreeText.SingleWordOperator_String
+  langs:
+  - csharp
+  - vb
+  name: FreeText
+  nameWithType: FreeText
+  fullName: SuperOffice.WebApi.Data.FreeText
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for FreeText.\nUsed to manage freetext search.    \n"
+  syntax:
+    content: 'public class FreeText : Carrier'
+    content.vb: >-
+      Public Class FreeText
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.FreeTextAgent
+    commentId: T:SuperOffice.WebApi.Agents.FreeTextAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.FreeText.#ctor
+  commentId: M:SuperOffice.WebApi.Data.FreeText.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.FreeText
+  langs:
+  - csharp
+  - vb
+  name: FreeText()
+  nameWithType: FreeText.FreeText()
+  fullName: SuperOffice.WebApi.Data.FreeText.FreeText()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public FreeText()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.FreeText.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FreeText.FreeTextEnabled
+  commentId: P:SuperOffice.WebApi.Data.FreeText.FreeTextEnabled
+  id: FreeTextEnabled
+  parent: SuperOffice.WebApi.Data.FreeText
+  langs:
+  - csharp
+  - vb
+  name: FreeTextEnabled
+  nameWithType: FreeText.FreeTextEnabled
+  fullName: SuperOffice.WebApi.Data.FreeText.FreeTextEnabled
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if freetext search enabled\n"
+  syntax:
+    content: public virtual bool FreeTextEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property FreeTextEnabled As Boolean
+  overload: SuperOffice.WebApi.Data.FreeText.FreeTextEnabled*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FreeText.SingleWordOperator_String
+  commentId: P:SuperOffice.WebApi.Data.FreeText.SingleWordOperator_String
+  id: SingleWordOperator_String
+  parent: SuperOffice.WebApi.Data.FreeText
+  langs:
+  - csharp
+  - vb
+  name: SingleWordOperator_String
+  nameWithType: FreeText.SingleWordOperator_String
+  fullName: SuperOffice.WebApi.Data.FreeText.SingleWordOperator_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStarts with, contains or exact match\nRaw string enum value.\n"
+  syntax:
+    content: public string SingleWordOperator_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SingleWordOperator_String As String
+  overload: SuperOffice.WebApi.Data.FreeText.SingleWordOperator_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.FreeText.SingleWordOperator
+    commentId: P:SuperOffice.WebApi.Data.FreeText.SingleWordOperator
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FreeText.SingleWordOperator
+  commentId: P:SuperOffice.WebApi.Data.FreeText.SingleWordOperator
+  id: SingleWordOperator
+  parent: SuperOffice.WebApi.Data.FreeText
+  langs:
+  - csharp
+  - vb
+  name: SingleWordOperator
+  nameWithType: FreeText.SingleWordOperator
+  fullName: SuperOffice.WebApi.Data.FreeText.SingleWordOperator
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStarts with, contains or exact match\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<FreeTextOperator> SingleWordOperator { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.FreeTextOperator}
+    content.vb: Public Property SingleWordOperator As Nullable(Of FreeTextOperator)
+  overload: SuperOffice.WebApi.Data.FreeText.SingleWordOperator*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.FreeText.SingleWordOperator_String
+    commentId: P:SuperOffice.WebApi.Data.FreeText.SingleWordOperator_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FreeText.MultiWordOperator_String
+  commentId: P:SuperOffice.WebApi.Data.FreeText.MultiWordOperator_String
+  id: MultiWordOperator_String
+  parent: SuperOffice.WebApi.Data.FreeText
+  langs:
+  - csharp
+  - vb
+  name: MultiWordOperator_String
+  nameWithType: FreeText.MultiWordOperator_String
+  fullName: SuperOffice.WebApi.Data.FreeText.MultiWordOperator_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStarts with, contains or exact match\nRaw string enum value.\n"
+  syntax:
+    content: public string MultiWordOperator_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MultiWordOperator_String As String
+  overload: SuperOffice.WebApi.Data.FreeText.MultiWordOperator_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.FreeText.MultiWordOperator
+    commentId: P:SuperOffice.WebApi.Data.FreeText.MultiWordOperator
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FreeText.MultiWordOperator
+  commentId: P:SuperOffice.WebApi.Data.FreeText.MultiWordOperator
+  id: MultiWordOperator
+  parent: SuperOffice.WebApi.Data.FreeText
+  langs:
+  - csharp
+  - vb
+  name: MultiWordOperator
+  nameWithType: FreeText.MultiWordOperator
+  fullName: SuperOffice.WebApi.Data.FreeText.MultiWordOperator
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStarts with, contains or exact match\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<FreeTextOperator> MultiWordOperator { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.FreeTextOperator}
+    content.vb: Public Property MultiWordOperator As Nullable(Of FreeTextOperator)
+  overload: SuperOffice.WebApi.Data.FreeText.MultiWordOperator*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.FreeText.MultiWordOperator_String
+    commentId: P:SuperOffice.WebApi.Data.FreeText.MultiWordOperator_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FreeText.CountWords
+  commentId: P:SuperOffice.WebApi.Data.FreeText.CountWords
+  id: CountWords
+  parent: SuperOffice.WebApi.Data.FreeText
+  langs:
+  - csharp
+  - vb
+  name: CountWords
+  nameWithType: FreeText.CountWords
+  fullName: SuperOffice.WebApi.Data.FreeText.CountWords
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCount of unique search words\n"
+  syntax:
+    content: public virtual int CountWords { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CountWords As Integer
+  overload: SuperOffice.WebApi.Data.FreeText.CountWords*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FreeText.Occurrences
+  commentId: P:SuperOffice.WebApi.Data.FreeText.Occurrences
+  id: Occurrences
+  parent: SuperOffice.WebApi.Data.FreeText
+  langs:
+  - csharp
+  - vb
+  name: Occurrences
+  nameWithType: FreeText.Occurrences
+  fullName: SuperOffice.WebApi.Data.FreeText.Occurrences
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTotal count of search words\n"
+  syntax:
+    content: public virtual int Occurrences { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Occurrences As Integer
+  overload: SuperOffice.WebApi.Data.FreeText.Occurrences*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FreeText.LastGenerated
+  commentId: P:SuperOffice.WebApi.Data.FreeText.LastGenerated
+  id: LastGenerated
+  parent: SuperOffice.WebApi.Data.FreeText
+  langs:
+  - csharp
+  - vb
+  name: LastGenerated
+  nameWithType: FreeText.LastGenerated
+  fullName: SuperOffice.WebApi.Data.FreeText.LastGenerated
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast time search has been generated\n"
+  syntax:
+    content: public virtual DateTime LastGenerated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property LastGenerated As DateTime
+  overload: SuperOffice.WebApi.Data.FreeText.LastGenerated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FreeText.AutoEnableTravelAreas
+  commentId: P:SuperOffice.WebApi.Data.FreeText.AutoEnableTravelAreas
+  id: AutoEnableTravelAreas
+  parent: SuperOffice.WebApi.Data.FreeText
+  langs:
+  - csharp
+  - vb
+  name: AutoEnableTravelAreas
+  nameWithType: FreeText.AutoEnableTravelAreas
+  fullName: SuperOffice.WebApi.Data.FreeText.AutoEnableTravelAreas
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAutomatically enable freetext search for new travel areas\n"
+  syntax:
+    content: public virtual bool AutoEnableTravelAreas { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property AutoEnableTravelAreas As Boolean
+  overload: SuperOffice.WebApi.Data.FreeText.AutoEnableTravelAreas*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.FreeTextAgent
+  commentId: T:SuperOffice.WebApi.Agents.FreeTextAgent
+  isExternal: true
+  name: FreeTextAgent
+  nameWithType: FreeTextAgent
+  fullName: SuperOffice.WebApi.Agents.FreeTextAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.FreeText.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.FreeText.#ctor
+  isExternal: true
+  name: FreeText
+  nameWithType: FreeText.FreeText
+  fullName: SuperOffice.WebApi.Data.FreeText.FreeText
+- uid: SuperOffice.WebApi.Data.FreeText.FreeTextEnabled*
+  commentId: Overload:SuperOffice.WebApi.Data.FreeText.FreeTextEnabled
+  isExternal: true
+  name: FreeTextEnabled
+  nameWithType: FreeText.FreeTextEnabled
+  fullName: SuperOffice.WebApi.Data.FreeText.FreeTextEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.FreeText.SingleWordOperator_String*
+  commentId: Overload:SuperOffice.WebApi.Data.FreeText.SingleWordOperator_String
+  isExternal: true
+  name: SingleWordOperator_String
+  nameWithType: FreeText.SingleWordOperator_String
+  fullName: SuperOffice.WebApi.Data.FreeText.SingleWordOperator_String
+- uid: SuperOffice.WebApi.Data.FreeText.SingleWordOperator
+  commentId: P:SuperOffice.WebApi.Data.FreeText.SingleWordOperator
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.FreeText.SingleWordOperator*
+  commentId: Overload:SuperOffice.WebApi.Data.FreeText.SingleWordOperator
+  isExternal: true
+  name: SingleWordOperator
+  nameWithType: FreeText.SingleWordOperator
+  fullName: SuperOffice.WebApi.Data.FreeText.SingleWordOperator
+- uid: SuperOffice.WebApi.Data.FreeText.SingleWordOperator_String
+  commentId: P:SuperOffice.WebApi.Data.FreeText.SingleWordOperator_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.FreeTextOperator}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.FreeTextOperator}'
+  definition: System.Nullable`1
+  name: Nullable<FreeTextOperator>
+  nameWithType: Nullable<FreeTextOperator>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.FreeTextOperator>
+  nameWithType.vb: Nullable(Of FreeTextOperator)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.FreeTextOperator)
+  name.vb: Nullable(Of FreeTextOperator)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.FreeTextOperator
+    name: FreeTextOperator
+    nameWithType: FreeTextOperator
+    fullName: SuperOffice.WebApi.Data.FreeTextOperator
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.FreeTextOperator
+    name: FreeTextOperator
+    nameWithType: FreeTextOperator
+    fullName: SuperOffice.WebApi.Data.FreeTextOperator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.FreeText.MultiWordOperator_String*
+  commentId: Overload:SuperOffice.WebApi.Data.FreeText.MultiWordOperator_String
+  isExternal: true
+  name: MultiWordOperator_String
+  nameWithType: FreeText.MultiWordOperator_String
+  fullName: SuperOffice.WebApi.Data.FreeText.MultiWordOperator_String
+- uid: SuperOffice.WebApi.Data.FreeText.MultiWordOperator
+  commentId: P:SuperOffice.WebApi.Data.FreeText.MultiWordOperator
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.FreeText.MultiWordOperator*
+  commentId: Overload:SuperOffice.WebApi.Data.FreeText.MultiWordOperator
+  isExternal: true
+  name: MultiWordOperator
+  nameWithType: FreeText.MultiWordOperator
+  fullName: SuperOffice.WebApi.Data.FreeText.MultiWordOperator
+- uid: SuperOffice.WebApi.Data.FreeText.MultiWordOperator_String
+  commentId: P:SuperOffice.WebApi.Data.FreeText.MultiWordOperator_String
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.FreeText.CountWords*
+  commentId: Overload:SuperOffice.WebApi.Data.FreeText.CountWords
+  isExternal: true
+  name: CountWords
+  nameWithType: FreeText.CountWords
+  fullName: SuperOffice.WebApi.Data.FreeText.CountWords
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.FreeText.Occurrences*
+  commentId: Overload:SuperOffice.WebApi.Data.FreeText.Occurrences
+  isExternal: true
+  name: Occurrences
+  nameWithType: FreeText.Occurrences
+  fullName: SuperOffice.WebApi.Data.FreeText.Occurrences
+- uid: SuperOffice.WebApi.Data.FreeText.LastGenerated*
+  commentId: Overload:SuperOffice.WebApi.Data.FreeText.LastGenerated
+  isExternal: true
+  name: LastGenerated
+  nameWithType: FreeText.LastGenerated
+  fullName: SuperOffice.WebApi.Data.FreeText.LastGenerated
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.FreeText.AutoEnableTravelAreas*
+  commentId: Overload:SuperOffice.WebApi.Data.FreeText.AutoEnableTravelAreas
+  isExternal: true
+  name: AutoEnableTravelAreas
+  nameWithType: FreeText.AutoEnableTravelAreas
+  fullName: SuperOffice.WebApi.Data.FreeText.AutoEnableTravelAreas

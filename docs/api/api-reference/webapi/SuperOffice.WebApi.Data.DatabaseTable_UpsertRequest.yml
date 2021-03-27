@@ -1,0 +1,386 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest
+  commentId: T:SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest
+  id: DatabaseTable_UpsertRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.#ctor
+  - SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.Columns
+  - SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.Data
+  - SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.Keys
+  - SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.NomatchAction
+  - SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.ReturnRowStatus
+  - SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.TableName
+  langs:
+  - csharp
+  - vb
+  name: DatabaseTable_UpsertRequest
+  nameWithType: DatabaseTable_UpsertRequest
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class DatabaseTable_UpsertRequest : Object'
+    content.vb: >-
+      Public Class DatabaseTable_UpsertRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest
+  langs:
+  - csharp
+  - vb
+  name: DatabaseTable_UpsertRequest()
+  nameWithType: DatabaseTable_UpsertRequest.DatabaseTable_UpsertRequest()
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.DatabaseTable_UpsertRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DatabaseTable_UpsertRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.TableName
+  commentId: P:SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.TableName
+  id: TableName
+  parent: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: DatabaseTable_UpsertRequest.TableName
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.TableName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string TableName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TableName As String
+  overload: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.TableName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.Columns
+  commentId: P:SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.Columns
+  id: Columns
+  parent: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest
+  langs:
+  - csharp
+  - vb
+  name: Columns
+  nameWithType: DatabaseTable_UpsertRequest.Columns
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.Columns
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] Columns { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property Columns As String()
+  overload: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.Columns*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.Keys
+  commentId: P:SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.Keys
+  id: Keys
+  parent: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest
+  langs:
+  - csharp
+  - vb
+  name: Keys
+  nameWithType: DatabaseTable_UpsertRequest.Keys
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.Keys
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] Keys { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property Keys As String()
+  overload: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.Keys*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.Data
+  commentId: P:SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.Data
+  id: Data
+  parent: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: DatabaseTable_UpsertRequest.Data
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.Data
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[][] Data { get; set; }
+    parameters: []
+    return:
+      type: System.String[][]
+    content.vb: Public Property Data As String()()
+  overload: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.Data*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.NomatchAction
+  commentId: P:SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.NomatchAction
+  id: NomatchAction
+  parent: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest
+  langs:
+  - csharp
+  - vb
+  name: NomatchAction
+  nameWithType: DatabaseTable_UpsertRequest.NomatchAction
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.NomatchAction
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UpsertNomatchAction NomatchAction { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.UpsertNomatchAction
+    content.vb: Public Property NomatchAction As UpsertNomatchAction
+  overload: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.NomatchAction*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.ReturnRowStatus
+  commentId: P:SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.ReturnRowStatus
+  id: ReturnRowStatus
+  parent: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest
+  langs:
+  - csharp
+  - vb
+  name: ReturnRowStatus
+  nameWithType: DatabaseTable_UpsertRequest.ReturnRowStatus
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.ReturnRowStatus
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool ReturnRowStatus { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ReturnRowStatus As Boolean
+  overload: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.ReturnRowStatus*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.#ctor
+  isExternal: true
+  name: DatabaseTable_UpsertRequest
+  nameWithType: DatabaseTable_UpsertRequest.DatabaseTable_UpsertRequest
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.DatabaseTable_UpsertRequest
+- uid: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.TableName*
+  commentId: Overload:SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.TableName
+  isExternal: true
+  name: TableName
+  nameWithType: DatabaseTable_UpsertRequest.TableName
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.TableName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.Columns*
+  commentId: Overload:SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.Columns
+  isExternal: true
+  name: Columns
+  nameWithType: DatabaseTable_UpsertRequest.Columns
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.Columns
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.Keys*
+  commentId: Overload:SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.Keys
+  isExternal: true
+  name: Keys
+  nameWithType: DatabaseTable_UpsertRequest.Keys
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.Keys
+- uid: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.Data*
+  commentId: Overload:SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.Data
+  isExternal: true
+  name: Data
+  nameWithType: DatabaseTable_UpsertRequest.Data
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.Data
+- uid: System.String[][]
+  isExternal: true
+  name: String[][]
+  nameWithType: String[][]
+  fullName: System.String[][]
+  nameWithType.vb: String()()
+  fullName.vb: System.String()()
+  name.vb: String()()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.NomatchAction*
+  commentId: Overload:SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.NomatchAction
+  isExternal: true
+  name: NomatchAction
+  nameWithType: DatabaseTable_UpsertRequest.NomatchAction
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.NomatchAction
+- uid: SuperOffice.WebApi.Data.UpsertNomatchAction
+  commentId: T:SuperOffice.WebApi.Data.UpsertNomatchAction
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: UpsertNomatchAction
+  nameWithType: UpsertNomatchAction
+  fullName: SuperOffice.WebApi.Data.UpsertNomatchAction
+- uid: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.ReturnRowStatus*
+  commentId: Overload:SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.ReturnRowStatus
+  isExternal: true
+  name: ReturnRowStatus
+  nameWithType: DatabaseTable_UpsertRequest.ReturnRowStatus
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_UpsertRequest.ReturnRowStatus
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

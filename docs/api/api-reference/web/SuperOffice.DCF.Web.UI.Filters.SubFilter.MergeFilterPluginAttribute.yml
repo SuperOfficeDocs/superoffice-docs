@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeFilterPluginAttribute
+  commentId: T:SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeFilterPluginAttribute
+  id: MergeFilterPluginAttribute
+  parent: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  children:
+  - SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeFilterPluginAttribute.#ctor(System.String)
+  - SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeFilterPluginAttribute.#ctor(System.String,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: MergeFilterPluginAttribute
+  nameWithType: MergeFilterPluginAttribute
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeFilterPluginAttribute
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  syntax:
+    content: 'public class MergeFilterPluginAttribute : PrioritizedPluginAttribute'
+    content.vb: >-
+      Public Class MergeFilterPluginAttribute
+          Inherits PrioritizedPluginAttribute
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeFilterPluginAttribute.#ctor(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeFilterPluginAttribute.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeFilterPluginAttribute
+  langs:
+  - csharp
+  - vb
+  name: MergeFilterPluginAttribute(String)
+  nameWithType: MergeFilterPluginAttribute.MergeFilterPluginAttribute(String)
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeFilterPluginAttribute.MergeFilterPluginAttribute(System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  syntax:
+    content: public MergeFilterPluginAttribute(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub New(name As String)
+  overload: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeFilterPluginAttribute.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeFilterPluginAttribute.#ctor(System.String,System.Int32)
+  commentId: M:SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeFilterPluginAttribute.#ctor(System.String,System.Int32)
+  id: '#ctor(System.String,System.Int32)'
+  parent: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeFilterPluginAttribute
+  langs:
+  - csharp
+  - vb
+  name: MergeFilterPluginAttribute(String, Int32)
+  nameWithType: MergeFilterPluginAttribute.MergeFilterPluginAttribute(String, Int32)
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeFilterPluginAttribute.MergeFilterPluginAttribute(System.String, System.Int32)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  syntax:
+    content: public MergeFilterPluginAttribute(string name, int priority)
+    parameters:
+    - id: name
+      type: System.String
+    - id: priority
+      type: System.Int32
+    content.vb: Public Sub New(name As String, priority As Integer)
+  overload: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeFilterPluginAttribute.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  commentId: N:SuperOffice.DCF.Web.UI.Filters.SubFilter
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  nameWithType: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeFilterPluginAttribute.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeFilterPluginAttribute.#ctor
+  isExternal: true
+  name: MergeFilterPluginAttribute
+  nameWithType: MergeFilterPluginAttribute.MergeFilterPluginAttribute
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeFilterPluginAttribute.MergeFilterPluginAttribute
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

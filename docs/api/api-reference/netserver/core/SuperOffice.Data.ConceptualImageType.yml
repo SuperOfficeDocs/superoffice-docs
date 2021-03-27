@@ -1,0 +1,569 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.ConceptualImageType
+  commentId: T:SuperOffice.Data.ConceptualImageType
+  id: ConceptualImageType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.ConceptualImageType.EventImage
+  - SuperOffice.Data.ConceptualImageType.PersonImage
+  - SuperOffice.Data.ConceptualImageType.ProjectImage
+  - SuperOffice.Data.ConceptualImageType.StatusMonitorImage
+  - SuperOffice.Data.ConceptualImageType.Thumbnail
+  - SuperOffice.Data.ConceptualImageType.UndefinedImage
+  langs:
+  - csharp
+  - vb
+  name: ConceptualImageType
+  nameWithType: ConceptualImageType
+  fullName: SuperOffice.Data.ConceptualImageType
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nConceptual image types\n"
+  syntax:
+    content: public enum ConceptualImageType
+    content.vb: Public Enum ConceptualImageType
+  extensionMethods:
+  - SuperOffice.Data.ConceptualImageType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.ConceptualImageType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ConceptualImageType)
+  - SuperOffice.Data.ConceptualImageType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.ConceptualImageType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.ConceptualImageType.UndefinedImage
+  commentId: F:SuperOffice.Data.ConceptualImageType.UndefinedImage
+  id: UndefinedImage
+  parent: SuperOffice.Data.ConceptualImageType
+  langs:
+  - csharp
+  - vb
+  name: UndefinedImage
+  nameWithType: ConceptualImageType.UndefinedImage
+  fullName: SuperOffice.Data.ConceptualImageType.UndefinedImage
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: \n"
+  syntax:
+    content: UndefinedImage = 0
+    return:
+      type: SuperOffice.Data.ConceptualImageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ConceptualImageType.PersonImage
+  commentId: F:SuperOffice.Data.ConceptualImageType.PersonImage
+  id: PersonImage
+  parent: SuperOffice.Data.ConceptualImageType
+  langs:
+  - csharp
+  - vb
+  name: PersonImage
+  nameWithType: ConceptualImageType.PersonImage
+  fullName: SuperOffice.Data.ConceptualImageType.PersonImage
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Image used with persons\n"
+  syntax:
+    content: PersonImage = 1
+    return:
+      type: SuperOffice.Data.ConceptualImageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ConceptualImageType.ProjectImage
+  commentId: F:SuperOffice.Data.ConceptualImageType.ProjectImage
+  id: ProjectImage
+  parent: SuperOffice.Data.ConceptualImageType
+  langs:
+  - csharp
+  - vb
+  name: ProjectImage
+  nameWithType: ConceptualImageType.ProjectImage
+  fullName: SuperOffice.Data.ConceptualImageType.ProjectImage
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Image used in projects\n"
+  syntax:
+    content: ProjectImage = 2
+    return:
+      type: SuperOffice.Data.ConceptualImageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ConceptualImageType.EventImage
+  commentId: F:SuperOffice.Data.ConceptualImageType.EventImage
+  id: EventImage
+  parent: SuperOffice.Data.ConceptualImageType
+  langs:
+  - csharp
+  - vb
+  name: EventImage
+  nameWithType: ConceptualImageType.EventImage
+  fullName: SuperOffice.Data.ConceptualImageType.EventImage
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n3: Image used in ?\n"
+  syntax:
+    content: EventImage = 3
+    return:
+      type: SuperOffice.Data.ConceptualImageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ConceptualImageType.Thumbnail
+  commentId: F:SuperOffice.Data.ConceptualImageType.Thumbnail
+  id: Thumbnail
+  parent: SuperOffice.Data.ConceptualImageType
+  langs:
+  - csharp
+  - vb
+  name: Thumbnail
+  nameWithType: ConceptualImageType.Thumbnail
+  fullName: SuperOffice.Data.ConceptualImageType.Thumbnail
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Image used as thumbnails\n"
+  syntax:
+    content: Thumbnail = 4
+    return:
+      type: SuperOffice.Data.ConceptualImageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ConceptualImageType.StatusMonitorImage
+  commentId: F:SuperOffice.Data.ConceptualImageType.StatusMonitorImage
+  id: StatusMonitorImage
+  parent: SuperOffice.Data.ConceptualImageType
+  langs:
+  - csharp
+  - vb
+  name: StatusMonitorImage
+  nameWithType: ConceptualImageType.StatusMonitorImage
+  fullName: SuperOffice.Data.ConceptualImageType.StatusMonitorImage
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n5: Image used in status monitors\n"
+  syntax:
+    content: StatusMonitorImage = 5
+    return:
+      type: SuperOffice.Data.ConceptualImageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.ConceptualImageType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ConceptualImageType, To>()
+  nameWithType: EnumUtil.MapEnums<ConceptualImageType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ConceptualImageType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ConceptualImageType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ConceptualImageType, To)()
+  name.vb: MapEnums(Of ConceptualImageType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ConceptualImageType, To>
+    nameWithType: EnumUtil.MapEnums<ConceptualImageType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ConceptualImageType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ConceptualImageType, To)
+    nameWithType: EnumUtil.MapEnums(Of ConceptualImageType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ConceptualImageType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ConceptualImageType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ConceptualImageType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ConceptualImageType>(ConceptualImageType)
+  nameWithType: ObjectExtensions.AssignByReflection<ConceptualImageType>(ConceptualImageType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ConceptualImageType>(SuperOffice.Data.ConceptualImageType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ConceptualImageType)(ConceptualImageType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ConceptualImageType)(SuperOffice.Data.ConceptualImageType)
+  name.vb: AssignByReflection(Of ConceptualImageType)(ConceptualImageType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ConceptualImageType>
+    nameWithType: ObjectExtensions.AssignByReflection<ConceptualImageType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ConceptualImageType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.ConceptualImageType
+    name: ConceptualImageType
+    nameWithType: ConceptualImageType
+    fullName: SuperOffice.Data.ConceptualImageType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ConceptualImageType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ConceptualImageType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ConceptualImageType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.ConceptualImageType
+    name: ConceptualImageType
+    nameWithType: ConceptualImageType
+    fullName: SuperOffice.Data.ConceptualImageType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ConceptualImageType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ConceptualImageType>()
+  nameWithType: ObjectExtensions.GraphCopy<ConceptualImageType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ConceptualImageType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ConceptualImageType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ConceptualImageType)()
+  name.vb: GraphCopy(Of ConceptualImageType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ConceptualImageType>
+    nameWithType: ObjectExtensions.GraphCopy<ConceptualImageType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ConceptualImageType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ConceptualImageType)
+    nameWithType: ObjectExtensions.GraphCopy(Of ConceptualImageType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ConceptualImageType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ConceptualImageType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ConceptualImageType, To>()
+  nameWithType: Converters.MapEnums<ConceptualImageType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ConceptualImageType, To>()
+  nameWithType.vb: Converters.MapEnums(Of ConceptualImageType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ConceptualImageType, To)()
+  name.vb: MapEnums(Of ConceptualImageType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ConceptualImageType, To>
+    nameWithType: Converters.MapEnums<ConceptualImageType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ConceptualImageType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ConceptualImageType, To)
+    nameWithType: Converters.MapEnums(Of ConceptualImageType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ConceptualImageType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.ConceptualImageType
+  commentId: T:SuperOffice.Data.ConceptualImageType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ConceptualImageType
+  nameWithType: ConceptualImageType
+  fullName: SuperOffice.Data.ConceptualImageType

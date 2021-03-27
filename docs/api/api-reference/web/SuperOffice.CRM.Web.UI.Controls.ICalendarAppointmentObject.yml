@@ -1,0 +1,238 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject
+  id: ICalendarAppointmentObject
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.AppointmentCanBeMoved
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.AppointmentCanBeUpdated
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.AppointmentId
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.ClientID
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.Completed
+  langs:
+  - csharp
+  - vb
+  name: ICalendarAppointmentObject
+  nameWithType: ICalendarAppointmentObject
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject
+  type: Interface
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public interface ICalendarAppointmentObject
+    content.vb: Public Interface ICalendarAppointmentObject
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.ClientID
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.ClientID
+  id: ClientID
+  parent: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject
+  langs:
+  - csharp
+  - vb
+  name: ClientID
+  nameWithType: ICalendarAppointmentObject.ClientID
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.ClientID
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: string ClientID { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property ClientID As String
+  overload: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.ClientID*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.Completed
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.Completed
+  id: Completed
+  parent: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject
+  langs:
+  - csharp
+  - vb
+  name: Completed
+  nameWithType: ICalendarAppointmentObject.Completed
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.Completed
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: bool Completed { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property Completed As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.Completed*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.AppointmentCanBeUpdated
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.AppointmentCanBeUpdated
+  id: AppointmentCanBeUpdated
+  parent: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject
+  langs:
+  - csharp
+  - vb
+  name: AppointmentCanBeUpdated
+  nameWithType: ICalendarAppointmentObject.AppointmentCanBeUpdated
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.AppointmentCanBeUpdated
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: bool AppointmentCanBeUpdated { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property AppointmentCanBeUpdated As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.AppointmentCanBeUpdated*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.AppointmentCanBeMoved
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.AppointmentCanBeMoved
+  id: AppointmentCanBeMoved
+  parent: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject
+  langs:
+  - csharp
+  - vb
+  name: AppointmentCanBeMoved
+  nameWithType: ICalendarAppointmentObject.AppointmentCanBeMoved
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.AppointmentCanBeMoved
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: bool AppointmentCanBeMoved { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property AppointmentCanBeMoved As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.AppointmentCanBeMoved*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.AppointmentId
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: ICalendarAppointmentObject.AppointmentId
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.AppointmentId
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: int AppointmentId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property AppointmentId As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.AppointmentId*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.ClientID*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.ClientID
+  isExternal: true
+  name: ClientID
+  nameWithType: ICalendarAppointmentObject.ClientID
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.ClientID
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.Completed*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.Completed
+  isExternal: true
+  name: Completed
+  nameWithType: ICalendarAppointmentObject.Completed
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.Completed
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.AppointmentCanBeUpdated*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.AppointmentCanBeUpdated
+  isExternal: true
+  name: AppointmentCanBeUpdated
+  nameWithType: ICalendarAppointmentObject.AppointmentCanBeUpdated
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.AppointmentCanBeUpdated
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.AppointmentCanBeMoved*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.AppointmentCanBeMoved
+  isExternal: true
+  name: AppointmentCanBeMoved
+  nameWithType: ICalendarAppointmentObject.AppointmentCanBeMoved
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.AppointmentCanBeMoved
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.AppointmentId*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: ICalendarAppointmentObject.AppointmentId
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject.AppointmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

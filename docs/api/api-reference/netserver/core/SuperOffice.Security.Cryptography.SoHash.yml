@@ -1,0 +1,702 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Cryptography.SoHash
+  commentId: T:SuperOffice.Security.Cryptography.SoHash
+  id: SoHash
+  parent: SuperOffice.Security.Cryptography
+  children:
+  - SuperOffice.Security.Cryptography.SoHash.#ctor(System.Byte[])
+  - SuperOffice.Security.Cryptography.SoHash.#ctor(System.String)
+  - SuperOffice.Security.Cryptography.SoHash.HashData(System.Int32,System.Byte[])
+  - SuperOffice.Security.Cryptography.SoHash.HashData(System.Int32,System.String)
+  langs:
+  - csharp
+  - vb
+  name: SoHash
+  nameWithType: SoHash
+  fullName: SuperOffice.Security.Cryptography.SoHash
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Cryptography
+  summary: "\nPerform hashing of data, such as checksums, passwords etc. IMPORTANT - read Remarks for cross-dependency on the corresponding C++ code!\n"
+  remarks: "\nThis class will take a dbtag (which should always be the CentralDbTag, not the own tag of the current DB), a primary key and a binary\nbuffer, and produce a hash. Currently the algorithm is SHA1.\n<p></p>\nThe code must be cross-checked with c:\\CRM_Client\\main.seven\\Source\\SUP\\SoHash.cpp and PRODUCE THE EXACT SAME RESULT for the same\ninputs. Any changes must be made to both codebases and carefully checked; hashes made by one codebase will routinely be checked\nby the other and they have to match.\n"
+  syntax:
+    content: public class SoHash
+    content.vb: Public Class SoHash
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Security.Cryptography.SoHash.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Cryptography.SoHash.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Security.Cryptography.SoHash.#ctor(System.String)
+  commentId: M:SuperOffice.Security.Cryptography.SoHash.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.Security.Cryptography.SoHash
+  langs:
+  - csharp
+  - vb
+  name: SoHash(String)
+  nameWithType: SoHash.SoHash(String)
+  fullName: SuperOffice.Security.Cryptography.SoHash.SoHash(System.String)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Cryptography
+  summary: "\nDefault constructor taking the DbTag in the format it is in the database.\n"
+  syntax:
+    content: public SoHash(string dbTagString)
+    parameters:
+    - id: dbTagString
+      type: System.String
+      description: DbTag as formatted in the database.
+    content.vb: Public Sub New(dbTagString As String)
+  overload: SuperOffice.Security.Cryptography.SoHash.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Cryptography.SoHash.#ctor(System.Byte[])
+  commentId: M:SuperOffice.Security.Cryptography.SoHash.#ctor(System.Byte[])
+  id: '#ctor(System.Byte[])'
+  parent: SuperOffice.Security.Cryptography.SoHash
+  langs:
+  - csharp
+  - vb
+  name: SoHash(Byte[])
+  nameWithType: SoHash.SoHash(Byte[])
+  fullName: SuperOffice.Security.Cryptography.SoHash.SoHash(System.Byte[])
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Cryptography
+  summary: "\nDefault constructor taking the DbTag as a byte array.\n"
+  syntax:
+    content: public SoHash(byte[] dbTag)
+    parameters:
+    - id: dbTag
+      type: System.Byte[]
+      description: DbTag as a byte array
+    content.vb: Public Sub New(dbTag As Byte())
+  overload: SuperOffice.Security.Cryptography.SoHash.#ctor*
+  nameWithType.vb: SoHash.SoHash(Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Security.Cryptography.SoHash.SoHash(System.Byte())
+  name.vb: SoHash(Byte())
+- uid: SuperOffice.Security.Cryptography.SoHash.HashData(System.Int32,System.String)
+  commentId: M:SuperOffice.Security.Cryptography.SoHash.HashData(System.Int32,System.String)
+  id: HashData(System.Int32,System.String)
+  parent: SuperOffice.Security.Cryptography.SoHash
+  langs:
+  - csharp
+  - vb
+  name: HashData(Int32, String)
+  nameWithType: SoHash.HashData(Int32, String)
+  fullName: SuperOffice.Security.Cryptography.SoHash.HashData(System.Int32, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Cryptography
+  summary: "\nCreate a private hash from the provided primary key and data\n"
+  syntax:
+    content: public byte[] HashData(int primaryKey, string data)
+    parameters:
+    - id: primaryKey
+      type: System.Int32
+      description: Primary key of the row where the data is to reside.
+    - id: data
+      type: System.String
+      description: String to get a hash from.
+    return:
+      type: System.Byte[]
+      description: Hash as a byte array.
+    content.vb: Public Function HashData(primaryKey As Integer, data As String) As Byte()
+  overload: SuperOffice.Security.Cryptography.SoHash.HashData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Cryptography.SoHash.HashData(System.Int32,System.Byte[])
+  commentId: M:SuperOffice.Security.Cryptography.SoHash.HashData(System.Int32,System.Byte[])
+  id: HashData(System.Int32,System.Byte[])
+  parent: SuperOffice.Security.Cryptography.SoHash
+  langs:
+  - csharp
+  - vb
+  name: HashData(Int32, Byte[])
+  nameWithType: SoHash.HashData(Int32, Byte[])
+  fullName: SuperOffice.Security.Cryptography.SoHash.HashData(System.Int32, System.Byte[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Cryptography
+  summary: "\nCreate a private hash from the provided primary key and data\n"
+  syntax:
+    content: public byte[] HashData(int primaryKey, byte[] data)
+    parameters:
+    - id: primaryKey
+      type: System.Int32
+      description: Primary key of the row where the data is to reside.
+    - id: data
+      type: System.Byte[]
+      description: Byte array to be hashed
+    return:
+      type: System.Byte[]
+      description: Hash as a byte array.
+    content.vb: Public Function HashData(primaryKey As Integer, data As Byte()) As Byte()
+  overload: SuperOffice.Security.Cryptography.SoHash.HashData*
+  nameWithType.vb: SoHash.HashData(Int32, Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Security.Cryptography.SoHash.HashData(System.Int32, System.Byte())
+  name.vb: HashData(Int32, Byte())
+references:
+- uid: SuperOffice.Security.Cryptography
+  commentId: N:SuperOffice.Security.Cryptography
+  isExternal: true
+  name: SuperOffice.Security.Cryptography
+  nameWithType: SuperOffice.Security.Cryptography
+  fullName: SuperOffice.Security.Cryptography
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Cryptography.SoHash.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoHash, To>()
+  nameWithType: EnumUtil.MapEnums<SoHash, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Cryptography.SoHash, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoHash, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Cryptography.SoHash, To)()
+  name.vb: MapEnums(Of SoHash, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoHash, To>
+    nameWithType: EnumUtil.MapEnums<SoHash, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.Cryptography.SoHash, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoHash, To)
+    nameWithType: EnumUtil.MapEnums(Of SoHash, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Cryptography.SoHash, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Cryptography.SoHash.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoHash, To>()
+  nameWithType: Converters.MapEnums<SoHash, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Cryptography.SoHash, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoHash, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Cryptography.SoHash, To)()
+  name.vb: MapEnums(Of SoHash, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoHash, To>
+    nameWithType: Converters.MapEnums<SoHash, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Cryptography.SoHash, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoHash, To)
+    nameWithType: Converters.MapEnums(Of SoHash, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Cryptography.SoHash, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Security.Cryptography.SoHash.#ctor*
+  commentId: Overload:SuperOffice.Security.Cryptography.SoHash.#ctor
+  isExternal: true
+  name: SoHash
+  nameWithType: SoHash.SoHash
+  fullName: SuperOffice.Security.Cryptography.SoHash.SoHash
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Security.Cryptography.SoHash.HashData*
+  commentId: Overload:SuperOffice.Security.Cryptography.SoHash.HashData
+  isExternal: true
+  name: HashData
+  nameWithType: SoHash.HashData
+  fullName: SuperOffice.Security.Cryptography.SoHash.HashData
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

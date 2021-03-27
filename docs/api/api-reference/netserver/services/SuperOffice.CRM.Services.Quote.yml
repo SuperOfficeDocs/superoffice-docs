@@ -1,0 +1,772 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.Quote
+  commentId: T:SuperOffice.CRM.Services.Quote
+  id: Quote
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.Quote.#ctor
+  - SuperOffice.CRM.Services.Quote.AcceptedQuoteAlternativeId
+  - SuperOffice.CRM.Services.Quote.ActiveQuoteVersion
+  - SuperOffice.CRM.Services.Quote.ActiveQuoteVersionId
+  - SuperOffice.CRM.Services.Quote.DocumentId
+  - SuperOffice.CRM.Services.Quote.ERPOrderKey
+  - SuperOffice.CRM.Services.Quote.ERPQuoteKey
+  - SuperOffice.CRM.Services.Quote.FavoriteQuoteAlternative
+  - SuperOffice.CRM.Services.Quote.OrderComment
+  - SuperOffice.CRM.Services.Quote.PoNumber
+  - SuperOffice.CRM.Services.Quote.PreferredEmailCulture
+  - SuperOffice.CRM.Services.Quote.QuoteConnectionId
+  - SuperOffice.CRM.Services.Quote.QuoteId
+  - SuperOffice.CRM.Services.Quote.SaleId
+  - SuperOffice.CRM.Services.Quote.ToString
+  - SuperOffice.CRM.Services.Quote.ToString(System.String)
+  - SuperOffice.CRM.Services.Quote.UseValuesFromQuote
+  langs:
+  - csharp
+  - vb
+  name: Quote
+  nameWithType: Quote
+  fullName: SuperOffice.CRM.Services.Quote
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nQuote carrier with the active quote version and favorite alternative.\n<p></p>\nCarrier object for Quote.\nServices for the Quote Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IQuoteAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class Quote : Carrier'
+    content.vb: >-
+      Public Class Quote
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.QuoteAgent
+    commentId: T:SuperOffice.CRM.Services.QuoteAgent
+  - linkId: SuperOffice.CRM.Services.IQuoteAgent
+    commentId: T:SuperOffice.CRM.Services.IQuoteAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.Quote.#ctor
+  commentId: M:SuperOffice.CRM.Services.Quote.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.Quote
+  langs:
+  - csharp
+  - vb
+  name: Quote()
+  nameWithType: Quote.Quote()
+  fullName: SuperOffice.CRM.Services.Quote.Quote()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public Quote()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.Quote.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Quote.ToString
+  commentId: M:SuperOffice.CRM.Services.Quote.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.Quote
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Quote.ToString()
+  fullName: SuperOffice.CRM.Services.Quote.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.Quote.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.Quote.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.Quote.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.Quote
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: Quote.ToString(String)
+  fullName: SuperOffice.CRM.Services.Quote.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.Quote.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Quote.QuoteId
+  commentId: P:SuperOffice.CRM.Services.Quote.QuoteId
+  id: QuoteId
+  parent: SuperOffice.CRM.Services.Quote
+  langs:
+  - csharp
+  - vb
+  name: QuoteId
+  nameWithType: Quote.QuoteId
+  fullName: SuperOffice.CRM.Services.Quote.QuoteId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int QuoteId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property QuoteId As Integer
+  overload: SuperOffice.CRM.Services.Quote.QuoteId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Quote.SaleId
+  commentId: P:SuperOffice.CRM.Services.Quote.SaleId
+  id: SaleId
+  parent: SuperOffice.CRM.Services.Quote
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: Quote.SaleId
+  fullName: SuperOffice.CRM.Services.Quote.SaleId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe foreign key to the corresponding sale \n"
+  syntax:
+    content: public virtual int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleId As Integer
+  overload: SuperOffice.CRM.Services.Quote.SaleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Quote.QuoteConnectionId
+  commentId: P:SuperOffice.CRM.Services.Quote.QuoteConnectionId
+  id: QuoteConnectionId
+  parent: SuperOffice.CRM.Services.Quote
+  langs:
+  - csharp
+  - vb
+  name: QuoteConnectionId
+  nameWithType: Quote.QuoteConnectionId
+  fullName: SuperOffice.CRM.Services.Quote.QuoteConnectionId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe connection in the CRM system to where this quote came from. Identifies the ERP connection used for this quote. Each quote is bound to one and only one connection. \n"
+  syntax:
+    content: public virtual int QuoteConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property QuoteConnectionId As Integer
+  overload: SuperOffice.CRM.Services.Quote.QuoteConnectionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Quote.ERPQuoteKey
+  commentId: P:SuperOffice.CRM.Services.Quote.ERPQuoteKey
+  id: ERPQuoteKey
+  parent: SuperOffice.CRM.Services.Quote
+  langs:
+  - csharp
+  - vb
+  name: ERPQuoteKey
+  nameWithType: Quote.ERPQuoteKey
+  fullName: SuperOffice.CRM.Services.Quote.ERPQuoteKey
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nForeign key of quote (if available). The key in the ERP system that identifies this sale&apos;s Quote (as opposed to the later Order information) \n"
+  syntax:
+    content: public virtual string ERPQuoteKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ERPQuoteKey As String
+  overload: SuperOffice.CRM.Services.Quote.ERPQuoteKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Quote.ERPOrderKey
+  commentId: P:SuperOffice.CRM.Services.Quote.ERPOrderKey
+  id: ERPOrderKey
+  parent: SuperOffice.CRM.Services.Quote
+  langs:
+  - csharp
+  - vb
+  name: ERPOrderKey
+  nameWithType: Quote.ERPOrderKey
+  fullName: SuperOffice.CRM.Services.Quote.ERPOrderKey
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe key in the ERP system that identifies this sale&apos;s Order, as transferred and possibly later edited in the ERP system.  Only filled out if there exists a corresponding order representation of the quote in the ERP system. \n"
+  syntax:
+    content: public virtual string ERPOrderKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ERPOrderKey As String
+  overload: SuperOffice.CRM.Services.Quote.ERPOrderKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Quote.ActiveQuoteVersionId
+  commentId: P:SuperOffice.CRM.Services.Quote.ActiveQuoteVersionId
+  id: ActiveQuoteVersionId
+  parent: SuperOffice.CRM.Services.Quote
+  langs:
+  - csharp
+  - vb
+  name: ActiveQuoteVersionId
+  nameWithType: Quote.ActiveQuoteVersionId
+  fullName: SuperOffice.CRM.Services.Quote.ActiveQuoteVersionId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe primary key of the Quote Version that is currently active. (The active version will always be the latest version.) \n"
+  syntax:
+    content: public virtual int ActiveQuoteVersionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ActiveQuoteVersionId As Integer
+  overload: SuperOffice.CRM.Services.Quote.ActiveQuoteVersionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Quote.AcceptedQuoteAlternativeId
+  commentId: P:SuperOffice.CRM.Services.Quote.AcceptedQuoteAlternativeId
+  id: AcceptedQuoteAlternativeId
+  parent: SuperOffice.CRM.Services.Quote
+  langs:
+  - csharp
+  - vb
+  name: AcceptedQuoteAlternativeId
+  nameWithType: Quote.AcceptedQuoteAlternativeId
+  fullName: SuperOffice.CRM.Services.Quote.AcceptedQuoteAlternativeId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe primary key of the Quote Alternative which was finally accepted by the customer. Set when the user is marking a quote as accepted. \n"
+  syntax:
+    content: public virtual int AcceptedQuoteAlternativeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AcceptedQuoteAlternativeId As Integer
+  overload: SuperOffice.CRM.Services.Quote.AcceptedQuoteAlternativeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Quote.UseValuesFromQuote
+  commentId: P:SuperOffice.CRM.Services.Quote.UseValuesFromQuote
+  id: UseValuesFromQuote
+  parent: SuperOffice.CRM.Services.Quote
+  langs:
+  - csharp
+  - vb
+  name: UseValuesFromQuote
+  nameWithType: Quote.UseValuesFromQuote
+  fullName: SuperOffice.CRM.Services.Quote.UseValuesFromQuote
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIf true, then the Earning, Earning_Percent and Amount fields are populated from the QuoteVersion.QuoteAlternative (current revision, most-likely alternative). \n"
+  syntax:
+    content: public virtual short UseValuesFromQuote { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property UseValuesFromQuote As Short
+  overload: SuperOffice.CRM.Services.Quote.UseValuesFromQuote*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Quote.DocumentId
+  commentId: P:SuperOffice.CRM.Services.Quote.DocumentId
+  id: DocumentId
+  parent: SuperOffice.CRM.Services.Quote
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: Quote.DocumentId
+  fullName: SuperOffice.CRM.Services.Quote.DocumentId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe ID of the main Quote Document \n"
+  syntax:
+    content: public virtual int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DocumentId As Integer
+  overload: SuperOffice.CRM.Services.Quote.DocumentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Quote.PoNumber
+  commentId: P:SuperOffice.CRM.Services.Quote.PoNumber
+  id: PoNumber
+  parent: SuperOffice.CRM.Services.Quote
+  langs:
+  - csharp
+  - vb
+  name: PoNumber
+  nameWithType: Quote.PoNumber
+  fullName: SuperOffice.CRM.Services.Quote.PoNumber
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCustomer&apos;s Purchase order number \n"
+  syntax:
+    content: public virtual string PoNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PoNumber As String
+  overload: SuperOffice.CRM.Services.Quote.PoNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Quote.OrderComment
+  commentId: P:SuperOffice.CRM.Services.Quote.OrderComment
+  id: OrderComment
+  parent: SuperOffice.CRM.Services.Quote
+  langs:
+  - csharp
+  - vb
+  name: OrderComment
+  nameWithType: Quote.OrderComment
+  fullName: SuperOffice.CRM.Services.Quote.OrderComment
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA comment that is intended for the Invoice, Order, Packing list and similar stages - AFTER the quote has become an order and goes to ERP for processing \n"
+  syntax:
+    content: public virtual string OrderComment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property OrderComment As String
+  overload: SuperOffice.CRM.Services.Quote.OrderComment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Quote.PreferredEmailCulture
+  commentId: P:SuperOffice.CRM.Services.Quote.PreferredEmailCulture
+  id: PreferredEmailCulture
+  parent: SuperOffice.CRM.Services.Quote
+  langs:
+  - csharp
+  - vb
+  name: PreferredEmailCulture
+  nameWithType: Quote.PreferredEmailCulture
+  fullName: SuperOffice.CRM.Services.Quote.PreferredEmailCulture
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhen emails are sent (offer or confirmation), a language can be chosen in the GUI; this field saves the most recent choice and can be used to default the next such choice. Default-default is user&apos;s current language \n"
+  syntax:
+    content: public virtual string PreferredEmailCulture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PreferredEmailCulture As String
+  overload: SuperOffice.CRM.Services.Quote.PreferredEmailCulture*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Quote.ActiveQuoteVersion
+  commentId: P:SuperOffice.CRM.Services.Quote.ActiveQuoteVersion
+  id: ActiveQuoteVersion
+  parent: SuperOffice.CRM.Services.Quote
+  langs:
+  - csharp
+  - vb
+  name: ActiveQuoteVersion
+  nameWithType: Quote.ActiveQuoteVersion
+  fullName: SuperOffice.CRM.Services.Quote.ActiveQuoteVersion
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe active quote version for the quote \n"
+  syntax:
+    content: public virtual QuoteVersion ActiveQuoteVersion { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.QuoteVersion
+    content.vb: Public Overridable Property ActiveQuoteVersion As QuoteVersion
+  overload: SuperOffice.CRM.Services.Quote.ActiveQuoteVersion*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Quote.FavoriteQuoteAlternative
+  commentId: P:SuperOffice.CRM.Services.Quote.FavoriteQuoteAlternative
+  id: FavoriteQuoteAlternative
+  parent: SuperOffice.CRM.Services.Quote
+  langs:
+  - csharp
+  - vb
+  name: FavoriteQuoteAlternative
+  nameWithType: Quote.FavoriteQuoteAlternative
+  fullName: SuperOffice.CRM.Services.Quote.FavoriteQuoteAlternative
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe favorite quote alternative for the quote and active quote version. \n"
+  syntax:
+    content: public virtual QuoteAlternative FavoriteQuoteAlternative { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.QuoteAlternative
+    content.vb: Public Overridable Property FavoriteQuoteAlternative As QuoteAlternative
+  overload: SuperOffice.CRM.Services.Quote.FavoriteQuoteAlternative*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.QuoteAgent
+  commentId: T:SuperOffice.CRM.Services.QuoteAgent
+  isExternal: true
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.CRM.Services.QuoteAgent
+- uid: SuperOffice.CRM.Services.IQuoteAgent
+  commentId: T:SuperOffice.CRM.Services.IQuoteAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IQuoteAgent
+  nameWithType: IQuoteAgent
+  fullName: SuperOffice.CRM.Services.IQuoteAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.Quote.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.Quote.#ctor
+  isExternal: true
+  name: Quote
+  nameWithType: Quote.Quote
+  fullName: SuperOffice.CRM.Services.Quote.Quote
+- uid: SuperOffice.CRM.Services.Quote.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.Quote.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: Quote.ToString
+  fullName: SuperOffice.CRM.Services.Quote.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.Quote.QuoteId*
+  commentId: Overload:SuperOffice.CRM.Services.Quote.QuoteId
+  isExternal: true
+  name: QuoteId
+  nameWithType: Quote.QuoteId
+  fullName: SuperOffice.CRM.Services.Quote.QuoteId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.Quote.SaleId*
+  commentId: Overload:SuperOffice.CRM.Services.Quote.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: Quote.SaleId
+  fullName: SuperOffice.CRM.Services.Quote.SaleId
+- uid: SuperOffice.CRM.Services.Quote.QuoteConnectionId*
+  commentId: Overload:SuperOffice.CRM.Services.Quote.QuoteConnectionId
+  isExternal: true
+  name: QuoteConnectionId
+  nameWithType: Quote.QuoteConnectionId
+  fullName: SuperOffice.CRM.Services.Quote.QuoteConnectionId
+- uid: SuperOffice.CRM.Services.Quote.ERPQuoteKey*
+  commentId: Overload:SuperOffice.CRM.Services.Quote.ERPQuoteKey
+  isExternal: true
+  name: ERPQuoteKey
+  nameWithType: Quote.ERPQuoteKey
+  fullName: SuperOffice.CRM.Services.Quote.ERPQuoteKey
+- uid: SuperOffice.CRM.Services.Quote.ERPOrderKey*
+  commentId: Overload:SuperOffice.CRM.Services.Quote.ERPOrderKey
+  isExternal: true
+  name: ERPOrderKey
+  nameWithType: Quote.ERPOrderKey
+  fullName: SuperOffice.CRM.Services.Quote.ERPOrderKey
+- uid: SuperOffice.CRM.Services.Quote.ActiveQuoteVersionId*
+  commentId: Overload:SuperOffice.CRM.Services.Quote.ActiveQuoteVersionId
+  isExternal: true
+  name: ActiveQuoteVersionId
+  nameWithType: Quote.ActiveQuoteVersionId
+  fullName: SuperOffice.CRM.Services.Quote.ActiveQuoteVersionId
+- uid: SuperOffice.CRM.Services.Quote.AcceptedQuoteAlternativeId*
+  commentId: Overload:SuperOffice.CRM.Services.Quote.AcceptedQuoteAlternativeId
+  isExternal: true
+  name: AcceptedQuoteAlternativeId
+  nameWithType: Quote.AcceptedQuoteAlternativeId
+  fullName: SuperOffice.CRM.Services.Quote.AcceptedQuoteAlternativeId
+- uid: SuperOffice.CRM.Services.Quote.UseValuesFromQuote*
+  commentId: Overload:SuperOffice.CRM.Services.Quote.UseValuesFromQuote
+  isExternal: true
+  name: UseValuesFromQuote
+  nameWithType: Quote.UseValuesFromQuote
+  fullName: SuperOffice.CRM.Services.Quote.UseValuesFromQuote
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Services.Quote.DocumentId*
+  commentId: Overload:SuperOffice.CRM.Services.Quote.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: Quote.DocumentId
+  fullName: SuperOffice.CRM.Services.Quote.DocumentId
+- uid: SuperOffice.CRM.Services.Quote.PoNumber*
+  commentId: Overload:SuperOffice.CRM.Services.Quote.PoNumber
+  isExternal: true
+  name: PoNumber
+  nameWithType: Quote.PoNumber
+  fullName: SuperOffice.CRM.Services.Quote.PoNumber
+- uid: SuperOffice.CRM.Services.Quote.OrderComment*
+  commentId: Overload:SuperOffice.CRM.Services.Quote.OrderComment
+  isExternal: true
+  name: OrderComment
+  nameWithType: Quote.OrderComment
+  fullName: SuperOffice.CRM.Services.Quote.OrderComment
+- uid: SuperOffice.CRM.Services.Quote.PreferredEmailCulture*
+  commentId: Overload:SuperOffice.CRM.Services.Quote.PreferredEmailCulture
+  isExternal: true
+  name: PreferredEmailCulture
+  nameWithType: Quote.PreferredEmailCulture
+  fullName: SuperOffice.CRM.Services.Quote.PreferredEmailCulture
+- uid: SuperOffice.CRM.Services.Quote.ActiveQuoteVersion*
+  commentId: Overload:SuperOffice.CRM.Services.Quote.ActiveQuoteVersion
+  isExternal: true
+  name: ActiveQuoteVersion
+  nameWithType: Quote.ActiveQuoteVersion
+  fullName: SuperOffice.CRM.Services.Quote.ActiveQuoteVersion
+- uid: SuperOffice.CRM.Services.QuoteVersion
+  commentId: T:SuperOffice.CRM.Services.QuoteVersion
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: QuoteVersion
+  nameWithType: QuoteVersion
+  fullName: SuperOffice.CRM.Services.QuoteVersion
+- uid: SuperOffice.CRM.Services.Quote.FavoriteQuoteAlternative*
+  commentId: Overload:SuperOffice.CRM.Services.Quote.FavoriteQuoteAlternative
+  isExternal: true
+  name: FavoriteQuoteAlternative
+  nameWithType: Quote.FavoriteQuoteAlternative
+  fullName: SuperOffice.CRM.Services.Quote.FavoriteQuoteAlternative
+- uid: SuperOffice.CRM.Services.QuoteAlternative
+  commentId: T:SuperOffice.CRM.Services.QuoteAlternative
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: QuoteAlternative
+  nameWithType: QuoteAlternative
+  fullName: SuperOffice.CRM.Services.QuoteAlternative

@@ -1,0 +1,1318 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.SaleSummary
+  commentId: T:SuperOffice.CRM.Services.SaleSummary
+  id: SaleSummary
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.SaleSummary.#ctor
+  - SuperOffice.CRM.Services.SaleSummary.BaseCurrency
+  - SuperOffice.CRM.Services.SaleSummary.CurrentOverdue
+  - SuperOffice.CRM.Services.SaleSummary.CurrentOverdueTotalBaseCurrency
+  - SuperOffice.CRM.Services.SaleSummary.CurrentOverdueTotalOwnCurrency
+  - SuperOffice.CRM.Services.SaleSummary.CurrentOverdueWeightedBaseCurrency
+  - SuperOffice.CRM.Services.SaleSummary.CurrentOverdueWeightedOwnCurrency
+  - SuperOffice.CRM.Services.SaleSummary.FutureOpen
+  - SuperOffice.CRM.Services.SaleSummary.FutureOpenTotalBaseCurrency
+  - SuperOffice.CRM.Services.SaleSummary.FutureOpenTotalOwnCurrency
+  - SuperOffice.CRM.Services.SaleSummary.FutureOpenWeightedBaseCurrency
+  - SuperOffice.CRM.Services.SaleSummary.FutureOpenWeightedOwnCurrency
+  - SuperOffice.CRM.Services.SaleSummary.Lost
+  - SuperOffice.CRM.Services.SaleSummary.LostTotalBaseCurrency
+  - SuperOffice.CRM.Services.SaleSummary.LostTotalOwnCurrency
+  - SuperOffice.CRM.Services.SaleSummary.Open
+  - SuperOffice.CRM.Services.SaleSummary.OpenTotalBaseCurrency
+  - SuperOffice.CRM.Services.SaleSummary.OpenTotalOwnCurrency
+  - SuperOffice.CRM.Services.SaleSummary.OpenWeightedBaseCurrency
+  - SuperOffice.CRM.Services.SaleSummary.OpenWeightedOwnCurrency
+  - SuperOffice.CRM.Services.SaleSummary.OwnCurrency
+  - SuperOffice.CRM.Services.SaleSummary.PreviousOverdue
+  - SuperOffice.CRM.Services.SaleSummary.PreviousOverdueTotalBaseCurrency
+  - SuperOffice.CRM.Services.SaleSummary.PreviousOverdueTotalOwnCurrency
+  - SuperOffice.CRM.Services.SaleSummary.PreviousOverdueWeightedBaseCurrency
+  - SuperOffice.CRM.Services.SaleSummary.PreviousOverdueWeightedOwnCurrency
+  - SuperOffice.CRM.Services.SaleSummary.Sold
+  - SuperOffice.CRM.Services.SaleSummary.SoldTotalBaseCurrency
+  - SuperOffice.CRM.Services.SaleSummary.SoldTotalOwnCurrency
+  - SuperOffice.CRM.Services.SaleSummary.ToString
+  - SuperOffice.CRM.Services.SaleSummary.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: SaleSummary
+  nameWithType: SaleSummary
+  fullName: SuperOffice.CRM.Services.SaleSummary
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for SaleSummary.\nServices for the SaleSummary Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ISaleAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class SaleSummary : Carrier'
+    content.vb: >-
+      Public Class SaleSummary
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.SaleAgent
+    commentId: T:SuperOffice.CRM.Services.SaleAgent
+  - linkId: SuperOffice.CRM.Services.ISaleAgent
+    commentId: T:SuperOffice.CRM.Services.ISaleAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.SaleSummary.#ctor
+  commentId: M:SuperOffice.CRM.Services.SaleSummary.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: SaleSummary()
+  nameWithType: SaleSummary.SaleSummary()
+  fullName: SuperOffice.CRM.Services.SaleSummary.SaleSummary()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public SaleSummary()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.SaleSummary.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleSummary.ToString
+  commentId: M:SuperOffice.CRM.Services.SaleSummary.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SaleSummary.ToString()
+  fullName: SuperOffice.CRM.Services.SaleSummary.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.SaleSummary.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.SaleSummary.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.SaleSummary.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: SaleSummary.ToString(String)
+  fullName: SuperOffice.CRM.Services.SaleSummary.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.SaleSummary.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleSummary.BaseCurrency
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.BaseCurrency
+  id: BaseCurrency
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: BaseCurrency
+  nameWithType: SaleSummary.BaseCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.BaseCurrency
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault currency for the installation \n"
+  syntax:
+    content: public virtual string BaseCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property BaseCurrency As String
+  overload: SuperOffice.CRM.Services.SaleSummary.BaseCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.OwnCurrency
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.OwnCurrency
+  id: OwnCurrency
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: OwnCurrency
+  nameWithType: SaleSummary.OwnCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.OwnCurrency
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault currency for the current user \n"
+  syntax:
+    content: public virtual string OwnCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property OwnCurrency As String
+  overload: SuperOffice.CRM.Services.SaleSummary.OwnCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.SoldTotalBaseCurrency
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.SoldTotalBaseCurrency
+  id: SoldTotalBaseCurrency
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: SoldTotalBaseCurrency
+  nameWithType: SaleSummary.SoldTotalBaseCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.SoldTotalBaseCurrency
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSummed amount for all sold within the period in default currency for the installation \n"
+  syntax:
+    content: public virtual double SoldTotalBaseCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property SoldTotalBaseCurrency As Double
+  overload: SuperOffice.CRM.Services.SaleSummary.SoldTotalBaseCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.Sold
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.Sold
+  id: Sold
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: Sold
+  nameWithType: SaleSummary.Sold
+  fullName: SuperOffice.CRM.Services.SaleSummary.Sold
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNumber of all sold within the period \n"
+  syntax:
+    content: public virtual int Sold { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Sold As Integer
+  overload: SuperOffice.CRM.Services.SaleSummary.Sold*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.SoldTotalOwnCurrency
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.SoldTotalOwnCurrency
+  id: SoldTotalOwnCurrency
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: SoldTotalOwnCurrency
+  nameWithType: SaleSummary.SoldTotalOwnCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.SoldTotalOwnCurrency
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSummed amount for all sold within the period in default currency for the current user \n"
+  syntax:
+    content: public virtual double SoldTotalOwnCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property SoldTotalOwnCurrency As Double
+  overload: SuperOffice.CRM.Services.SaleSummary.SoldTotalOwnCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.Lost
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.Lost
+  id: Lost
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: Lost
+  nameWithType: SaleSummary.Lost
+  fullName: SuperOffice.CRM.Services.SaleSummary.Lost
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNumber of all lost within the period \n"
+  syntax:
+    content: public virtual int Lost { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Lost As Integer
+  overload: SuperOffice.CRM.Services.SaleSummary.Lost*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.LostTotalBaseCurrency
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.LostTotalBaseCurrency
+  id: LostTotalBaseCurrency
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: LostTotalBaseCurrency
+  nameWithType: SaleSummary.LostTotalBaseCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.LostTotalBaseCurrency
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSummed amount for all lost within the period in default currency for the installation \n"
+  syntax:
+    content: public virtual double LostTotalBaseCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property LostTotalBaseCurrency As Double
+  overload: SuperOffice.CRM.Services.SaleSummary.LostTotalBaseCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.LostTotalOwnCurrency
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.LostTotalOwnCurrency
+  id: LostTotalOwnCurrency
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: LostTotalOwnCurrency
+  nameWithType: SaleSummary.LostTotalOwnCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.LostTotalOwnCurrency
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSummed amount for all lost within the period in default currency for the current user \n"
+  syntax:
+    content: public virtual double LostTotalOwnCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property LostTotalOwnCurrency As Double
+  overload: SuperOffice.CRM.Services.SaleSummary.LostTotalOwnCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.Open
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.Open
+  id: Open
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: Open
+  nameWithType: SaleSummary.Open
+  fullName: SuperOffice.CRM.Services.SaleSummary.Open
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNumber of all open within the period\n\n"
+  syntax:
+    content: public virtual int Open { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Open As Integer
+  overload: SuperOffice.CRM.Services.SaleSummary.Open*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.OpenTotalBaseCurrency
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.OpenTotalBaseCurrency
+  id: OpenTotalBaseCurrency
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: OpenTotalBaseCurrency
+  nameWithType: SaleSummary.OpenTotalBaseCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.OpenTotalBaseCurrency
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSummed amount for all open within the period in default currency for the installation \n"
+  syntax:
+    content: public virtual double OpenTotalBaseCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property OpenTotalBaseCurrency As Double
+  overload: SuperOffice.CRM.Services.SaleSummary.OpenTotalBaseCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.OpenTotalOwnCurrency
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.OpenTotalOwnCurrency
+  id: OpenTotalOwnCurrency
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: OpenTotalOwnCurrency
+  nameWithType: SaleSummary.OpenTotalOwnCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.OpenTotalOwnCurrency
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSummed amount for all open within the period in default currency for the current user \n"
+  syntax:
+    content: public virtual double OpenTotalOwnCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property OpenTotalOwnCurrency As Double
+  overload: SuperOffice.CRM.Services.SaleSummary.OpenTotalOwnCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.OpenWeightedBaseCurrency
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.OpenWeightedBaseCurrency
+  id: OpenWeightedBaseCurrency
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: OpenWeightedBaseCurrency
+  nameWithType: SaleSummary.OpenWeightedBaseCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.OpenWeightedBaseCurrency
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWeighted sum for all open within the period in default currency for the installation\n\n"
+  syntax:
+    content: public virtual double OpenWeightedBaseCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property OpenWeightedBaseCurrency As Double
+  overload: SuperOffice.CRM.Services.SaleSummary.OpenWeightedBaseCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.OpenWeightedOwnCurrency
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.OpenWeightedOwnCurrency
+  id: OpenWeightedOwnCurrency
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: OpenWeightedOwnCurrency
+  nameWithType: SaleSummary.OpenWeightedOwnCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.OpenWeightedOwnCurrency
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWeighted sum for all open within the period in default currency for the current user \n"
+  syntax:
+    content: public virtual double OpenWeightedOwnCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property OpenWeightedOwnCurrency As Double
+  overload: SuperOffice.CRM.Services.SaleSummary.OpenWeightedOwnCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.PreviousOverdue
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.PreviousOverdue
+  id: PreviousOverdue
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: PreviousOverdue
+  nameWithType: SaleSummary.PreviousOverdue
+  fullName: SuperOffice.CRM.Services.SaleSummary.PreviousOverdue
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNumber of all open sales with date before this period \n"
+  syntax:
+    content: public virtual int PreviousOverdue { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PreviousOverdue As Integer
+  overload: SuperOffice.CRM.Services.SaleSummary.PreviousOverdue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.PreviousOverdueTotalBaseCurrency
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.PreviousOverdueTotalBaseCurrency
+  id: PreviousOverdueTotalBaseCurrency
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: PreviousOverdueTotalBaseCurrency
+  nameWithType: SaleSummary.PreviousOverdueTotalBaseCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.PreviousOverdueTotalBaseCurrency
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSummed amount for all open sales with date before this period in default currency for the installation \n"
+  syntax:
+    content: public virtual double PreviousOverdueTotalBaseCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property PreviousOverdueTotalBaseCurrency As Double
+  overload: SuperOffice.CRM.Services.SaleSummary.PreviousOverdueTotalBaseCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.PreviousOverdueTotalOwnCurrency
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.PreviousOverdueTotalOwnCurrency
+  id: PreviousOverdueTotalOwnCurrency
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: PreviousOverdueTotalOwnCurrency
+  nameWithType: SaleSummary.PreviousOverdueTotalOwnCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.PreviousOverdueTotalOwnCurrency
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSummed amount for all open sales with date before this period in default currency for the current user \n"
+  syntax:
+    content: public virtual double PreviousOverdueTotalOwnCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property PreviousOverdueTotalOwnCurrency As Double
+  overload: SuperOffice.CRM.Services.SaleSummary.PreviousOverdueTotalOwnCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.PreviousOverdueWeightedBaseCurrency
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.PreviousOverdueWeightedBaseCurrency
+  id: PreviousOverdueWeightedBaseCurrency
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: PreviousOverdueWeightedBaseCurrency
+  nameWithType: SaleSummary.PreviousOverdueWeightedBaseCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.PreviousOverdueWeightedBaseCurrency
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWeighted sum for all open sales with date before this period in default currency for the installation \n"
+  syntax:
+    content: public virtual double PreviousOverdueWeightedBaseCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property PreviousOverdueWeightedBaseCurrency As Double
+  overload: SuperOffice.CRM.Services.SaleSummary.PreviousOverdueWeightedBaseCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.PreviousOverdueWeightedOwnCurrency
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.PreviousOverdueWeightedOwnCurrency
+  id: PreviousOverdueWeightedOwnCurrency
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: PreviousOverdueWeightedOwnCurrency
+  nameWithType: SaleSummary.PreviousOverdueWeightedOwnCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.PreviousOverdueWeightedOwnCurrency
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWeighted sum for all open sales with date before this period in default currency for the current user \n"
+  syntax:
+    content: public virtual double PreviousOverdueWeightedOwnCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property PreviousOverdueWeightedOwnCurrency As Double
+  overload: SuperOffice.CRM.Services.SaleSummary.PreviousOverdueWeightedOwnCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.CurrentOverdue
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.CurrentOverdue
+  id: CurrentOverdue
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: CurrentOverdue
+  nameWithType: SaleSummary.CurrentOverdue
+  fullName: SuperOffice.CRM.Services.SaleSummary.CurrentOverdue
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNumber of all overdue sales within the period \n"
+  syntax:
+    content: public virtual int CurrentOverdue { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CurrentOverdue As Integer
+  overload: SuperOffice.CRM.Services.SaleSummary.CurrentOverdue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.CurrentOverdueTotalBaseCurrency
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.CurrentOverdueTotalBaseCurrency
+  id: CurrentOverdueTotalBaseCurrency
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: CurrentOverdueTotalBaseCurrency
+  nameWithType: SaleSummary.CurrentOverdueTotalBaseCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.CurrentOverdueTotalBaseCurrency
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSummed amount for all overdue sales within the period in default currency for the installation \n"
+  syntax:
+    content: public virtual double CurrentOverdueTotalBaseCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property CurrentOverdueTotalBaseCurrency As Double
+  overload: SuperOffice.CRM.Services.SaleSummary.CurrentOverdueTotalBaseCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.CurrentOverdueTotalOwnCurrency
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.CurrentOverdueTotalOwnCurrency
+  id: CurrentOverdueTotalOwnCurrency
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: CurrentOverdueTotalOwnCurrency
+  nameWithType: SaleSummary.CurrentOverdueTotalOwnCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.CurrentOverdueTotalOwnCurrency
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSummed amount for all overdue sales within the period in default currency for the current user \n"
+  syntax:
+    content: public virtual double CurrentOverdueTotalOwnCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property CurrentOverdueTotalOwnCurrency As Double
+  overload: SuperOffice.CRM.Services.SaleSummary.CurrentOverdueTotalOwnCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.CurrentOverdueWeightedBaseCurrency
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.CurrentOverdueWeightedBaseCurrency
+  id: CurrentOverdueWeightedBaseCurrency
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: CurrentOverdueWeightedBaseCurrency
+  nameWithType: SaleSummary.CurrentOverdueWeightedBaseCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.CurrentOverdueWeightedBaseCurrency
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWeighted sum for all overdue sales within the period in default currency for the installation \n"
+  syntax:
+    content: public virtual double CurrentOverdueWeightedBaseCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property CurrentOverdueWeightedBaseCurrency As Double
+  overload: SuperOffice.CRM.Services.SaleSummary.CurrentOverdueWeightedBaseCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.CurrentOverdueWeightedOwnCurrency
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.CurrentOverdueWeightedOwnCurrency
+  id: CurrentOverdueWeightedOwnCurrency
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: CurrentOverdueWeightedOwnCurrency
+  nameWithType: SaleSummary.CurrentOverdueWeightedOwnCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.CurrentOverdueWeightedOwnCurrency
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWeighted sum for all overdue sales within the period in default currency for the current user \n"
+  syntax:
+    content: public virtual double CurrentOverdueWeightedOwnCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property CurrentOverdueWeightedOwnCurrency As Double
+  overload: SuperOffice.CRM.Services.SaleSummary.CurrentOverdueWeightedOwnCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.FutureOpen
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.FutureOpen
+  id: FutureOpen
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: FutureOpen
+  nameWithType: SaleSummary.FutureOpen
+  fullName: SuperOffice.CRM.Services.SaleSummary.FutureOpen
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNumber of all Future Pipe/All open sales with date after the period \n"
+  syntax:
+    content: public virtual int FutureOpen { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property FutureOpen As Integer
+  overload: SuperOffice.CRM.Services.SaleSummary.FutureOpen*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.FutureOpenTotalBaseCurrency
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.FutureOpenTotalBaseCurrency
+  id: FutureOpenTotalBaseCurrency
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: FutureOpenTotalBaseCurrency
+  nameWithType: SaleSummary.FutureOpenTotalBaseCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.FutureOpenTotalBaseCurrency
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSummed amount for all Future Pipe/All open sales with date after the period in default currency for the installation \n"
+  syntax:
+    content: public virtual double FutureOpenTotalBaseCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property FutureOpenTotalBaseCurrency As Double
+  overload: SuperOffice.CRM.Services.SaleSummary.FutureOpenTotalBaseCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.FutureOpenTotalOwnCurrency
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.FutureOpenTotalOwnCurrency
+  id: FutureOpenTotalOwnCurrency
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: FutureOpenTotalOwnCurrency
+  nameWithType: SaleSummary.FutureOpenTotalOwnCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.FutureOpenTotalOwnCurrency
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSummed amount for all Future Pipe/All open sales with date after the period in default currency for the current user \n"
+  syntax:
+    content: public virtual double FutureOpenTotalOwnCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property FutureOpenTotalOwnCurrency As Double
+  overload: SuperOffice.CRM.Services.SaleSummary.FutureOpenTotalOwnCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.FutureOpenWeightedBaseCurrency
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.FutureOpenWeightedBaseCurrency
+  id: FutureOpenWeightedBaseCurrency
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: FutureOpenWeightedBaseCurrency
+  nameWithType: SaleSummary.FutureOpenWeightedBaseCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.FutureOpenWeightedBaseCurrency
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWeighted sum for all Future Pipe/All open sales with date after the period in default currency for the installation \n"
+  syntax:
+    content: public virtual double FutureOpenWeightedBaseCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property FutureOpenWeightedBaseCurrency As Double
+  overload: SuperOffice.CRM.Services.SaleSummary.FutureOpenWeightedBaseCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleSummary.FutureOpenWeightedOwnCurrency
+  commentId: P:SuperOffice.CRM.Services.SaleSummary.FutureOpenWeightedOwnCurrency
+  id: FutureOpenWeightedOwnCurrency
+  parent: SuperOffice.CRM.Services.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: FutureOpenWeightedOwnCurrency
+  nameWithType: SaleSummary.FutureOpenWeightedOwnCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.FutureOpenWeightedOwnCurrency
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWeighted sum for all Future Pipe/All open sales with date after the period in default currency for the current user\n\n"
+  syntax:
+    content: public virtual double FutureOpenWeightedOwnCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property FutureOpenWeightedOwnCurrency As Double
+  overload: SuperOffice.CRM.Services.SaleSummary.FutureOpenWeightedOwnCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.SaleAgent
+  commentId: T:SuperOffice.CRM.Services.SaleAgent
+  isExternal: true
+  name: SaleAgent
+  nameWithType: SaleAgent
+  fullName: SuperOffice.CRM.Services.SaleAgent
+- uid: SuperOffice.CRM.Services.ISaleAgent
+  commentId: T:SuperOffice.CRM.Services.ISaleAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ISaleAgent
+  nameWithType: ISaleAgent
+  fullName: SuperOffice.CRM.Services.ISaleAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.SaleSummary.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.#ctor
+  isExternal: true
+  name: SaleSummary
+  nameWithType: SaleSummary.SaleSummary
+  fullName: SuperOffice.CRM.Services.SaleSummary.SaleSummary
+- uid: SuperOffice.CRM.Services.SaleSummary.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: SaleSummary.ToString
+  fullName: SuperOffice.CRM.Services.SaleSummary.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.SaleSummary.BaseCurrency*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.BaseCurrency
+  isExternal: true
+  name: BaseCurrency
+  nameWithType: SaleSummary.BaseCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.BaseCurrency
+- uid: SuperOffice.CRM.Services.SaleSummary.OwnCurrency*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.OwnCurrency
+  isExternal: true
+  name: OwnCurrency
+  nameWithType: SaleSummary.OwnCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.OwnCurrency
+- uid: SuperOffice.CRM.Services.SaleSummary.SoldTotalBaseCurrency*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.SoldTotalBaseCurrency
+  isExternal: true
+  name: SoldTotalBaseCurrency
+  nameWithType: SaleSummary.SoldTotalBaseCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.SoldTotalBaseCurrency
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.CRM.Services.SaleSummary.Sold*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.Sold
+  isExternal: true
+  name: Sold
+  nameWithType: SaleSummary.Sold
+  fullName: SuperOffice.CRM.Services.SaleSummary.Sold
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.SaleSummary.SoldTotalOwnCurrency*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.SoldTotalOwnCurrency
+  isExternal: true
+  name: SoldTotalOwnCurrency
+  nameWithType: SaleSummary.SoldTotalOwnCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.SoldTotalOwnCurrency
+- uid: SuperOffice.CRM.Services.SaleSummary.Lost*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.Lost
+  isExternal: true
+  name: Lost
+  nameWithType: SaleSummary.Lost
+  fullName: SuperOffice.CRM.Services.SaleSummary.Lost
+- uid: SuperOffice.CRM.Services.SaleSummary.LostTotalBaseCurrency*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.LostTotalBaseCurrency
+  isExternal: true
+  name: LostTotalBaseCurrency
+  nameWithType: SaleSummary.LostTotalBaseCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.LostTotalBaseCurrency
+- uid: SuperOffice.CRM.Services.SaleSummary.LostTotalOwnCurrency*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.LostTotalOwnCurrency
+  isExternal: true
+  name: LostTotalOwnCurrency
+  nameWithType: SaleSummary.LostTotalOwnCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.LostTotalOwnCurrency
+- uid: SuperOffice.CRM.Services.SaleSummary.Open*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.Open
+  isExternal: true
+  name: Open
+  nameWithType: SaleSummary.Open
+  fullName: SuperOffice.CRM.Services.SaleSummary.Open
+- uid: SuperOffice.CRM.Services.SaleSummary.OpenTotalBaseCurrency*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.OpenTotalBaseCurrency
+  isExternal: true
+  name: OpenTotalBaseCurrency
+  nameWithType: SaleSummary.OpenTotalBaseCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.OpenTotalBaseCurrency
+- uid: SuperOffice.CRM.Services.SaleSummary.OpenTotalOwnCurrency*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.OpenTotalOwnCurrency
+  isExternal: true
+  name: OpenTotalOwnCurrency
+  nameWithType: SaleSummary.OpenTotalOwnCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.OpenTotalOwnCurrency
+- uid: SuperOffice.CRM.Services.SaleSummary.OpenWeightedBaseCurrency*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.OpenWeightedBaseCurrency
+  isExternal: true
+  name: OpenWeightedBaseCurrency
+  nameWithType: SaleSummary.OpenWeightedBaseCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.OpenWeightedBaseCurrency
+- uid: SuperOffice.CRM.Services.SaleSummary.OpenWeightedOwnCurrency*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.OpenWeightedOwnCurrency
+  isExternal: true
+  name: OpenWeightedOwnCurrency
+  nameWithType: SaleSummary.OpenWeightedOwnCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.OpenWeightedOwnCurrency
+- uid: SuperOffice.CRM.Services.SaleSummary.PreviousOverdue*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.PreviousOverdue
+  isExternal: true
+  name: PreviousOverdue
+  nameWithType: SaleSummary.PreviousOverdue
+  fullName: SuperOffice.CRM.Services.SaleSummary.PreviousOverdue
+- uid: SuperOffice.CRM.Services.SaleSummary.PreviousOverdueTotalBaseCurrency*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.PreviousOverdueTotalBaseCurrency
+  isExternal: true
+  name: PreviousOverdueTotalBaseCurrency
+  nameWithType: SaleSummary.PreviousOverdueTotalBaseCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.PreviousOverdueTotalBaseCurrency
+- uid: SuperOffice.CRM.Services.SaleSummary.PreviousOverdueTotalOwnCurrency*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.PreviousOverdueTotalOwnCurrency
+  isExternal: true
+  name: PreviousOverdueTotalOwnCurrency
+  nameWithType: SaleSummary.PreviousOverdueTotalOwnCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.PreviousOverdueTotalOwnCurrency
+- uid: SuperOffice.CRM.Services.SaleSummary.PreviousOverdueWeightedBaseCurrency*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.PreviousOverdueWeightedBaseCurrency
+  isExternal: true
+  name: PreviousOverdueWeightedBaseCurrency
+  nameWithType: SaleSummary.PreviousOverdueWeightedBaseCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.PreviousOverdueWeightedBaseCurrency
+- uid: SuperOffice.CRM.Services.SaleSummary.PreviousOverdueWeightedOwnCurrency*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.PreviousOverdueWeightedOwnCurrency
+  isExternal: true
+  name: PreviousOverdueWeightedOwnCurrency
+  nameWithType: SaleSummary.PreviousOverdueWeightedOwnCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.PreviousOverdueWeightedOwnCurrency
+- uid: SuperOffice.CRM.Services.SaleSummary.CurrentOverdue*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.CurrentOverdue
+  isExternal: true
+  name: CurrentOverdue
+  nameWithType: SaleSummary.CurrentOverdue
+  fullName: SuperOffice.CRM.Services.SaleSummary.CurrentOverdue
+- uid: SuperOffice.CRM.Services.SaleSummary.CurrentOverdueTotalBaseCurrency*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.CurrentOverdueTotalBaseCurrency
+  isExternal: true
+  name: CurrentOverdueTotalBaseCurrency
+  nameWithType: SaleSummary.CurrentOverdueTotalBaseCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.CurrentOverdueTotalBaseCurrency
+- uid: SuperOffice.CRM.Services.SaleSummary.CurrentOverdueTotalOwnCurrency*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.CurrentOverdueTotalOwnCurrency
+  isExternal: true
+  name: CurrentOverdueTotalOwnCurrency
+  nameWithType: SaleSummary.CurrentOverdueTotalOwnCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.CurrentOverdueTotalOwnCurrency
+- uid: SuperOffice.CRM.Services.SaleSummary.CurrentOverdueWeightedBaseCurrency*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.CurrentOverdueWeightedBaseCurrency
+  isExternal: true
+  name: CurrentOverdueWeightedBaseCurrency
+  nameWithType: SaleSummary.CurrentOverdueWeightedBaseCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.CurrentOverdueWeightedBaseCurrency
+- uid: SuperOffice.CRM.Services.SaleSummary.CurrentOverdueWeightedOwnCurrency*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.CurrentOverdueWeightedOwnCurrency
+  isExternal: true
+  name: CurrentOverdueWeightedOwnCurrency
+  nameWithType: SaleSummary.CurrentOverdueWeightedOwnCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.CurrentOverdueWeightedOwnCurrency
+- uid: SuperOffice.CRM.Services.SaleSummary.FutureOpen*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.FutureOpen
+  isExternal: true
+  name: FutureOpen
+  nameWithType: SaleSummary.FutureOpen
+  fullName: SuperOffice.CRM.Services.SaleSummary.FutureOpen
+- uid: SuperOffice.CRM.Services.SaleSummary.FutureOpenTotalBaseCurrency*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.FutureOpenTotalBaseCurrency
+  isExternal: true
+  name: FutureOpenTotalBaseCurrency
+  nameWithType: SaleSummary.FutureOpenTotalBaseCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.FutureOpenTotalBaseCurrency
+- uid: SuperOffice.CRM.Services.SaleSummary.FutureOpenTotalOwnCurrency*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.FutureOpenTotalOwnCurrency
+  isExternal: true
+  name: FutureOpenTotalOwnCurrency
+  nameWithType: SaleSummary.FutureOpenTotalOwnCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.FutureOpenTotalOwnCurrency
+- uid: SuperOffice.CRM.Services.SaleSummary.FutureOpenWeightedBaseCurrency*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.FutureOpenWeightedBaseCurrency
+  isExternal: true
+  name: FutureOpenWeightedBaseCurrency
+  nameWithType: SaleSummary.FutureOpenWeightedBaseCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.FutureOpenWeightedBaseCurrency
+- uid: SuperOffice.CRM.Services.SaleSummary.FutureOpenWeightedOwnCurrency*
+  commentId: Overload:SuperOffice.CRM.Services.SaleSummary.FutureOpenWeightedOwnCurrency
+  isExternal: true
+  name: FutureOpenWeightedOwnCurrency
+  nameWithType: SaleSummary.FutureOpenWeightedOwnCurrency
+  fullName: SuperOffice.CRM.Services.SaleSummary.FutureOpenWeightedOwnCurrency

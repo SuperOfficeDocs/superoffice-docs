@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI
+  id: UserPreferenceStrings.HugoAI
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.BusinessCardScan
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.CSCategorize
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.CSLanguageDetection
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.CSSentiment
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.CSTranslate
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.Section
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.HugoAI
+  nameWithType: UserPreferenceStrings.HugoAI
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public static class HugoAI : Object'
+    content.vb: >-
+      Public Module HugoAI
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.HugoAI.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string Section = "HugoAI"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "HugoAI"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.CSLanguageDetection
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.CSLanguageDetection
+  id: CSLanguageDetection
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI
+  langs:
+  - csharp
+  - vb
+  name: CSLanguageDetection
+  nameWithType: UserPreferenceStrings.HugoAI.CSLanguageDetection
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.CSLanguageDetection
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOLEAN) HugoAI Language detection is enabled\n"
+  syntax:
+    content: public const string CSLanguageDetection = "CSLanguageDetection"
+    return:
+      type: System.String
+    content.vb: Public Const CSLanguageDetection As String = "CSLanguageDetection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.CSTranslate
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.CSTranslate
+  id: CSTranslate
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI
+  langs:
+  - csharp
+  - vb
+  name: CSTranslate
+  nameWithType: UserPreferenceStrings.HugoAI.CSTranslate
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.CSTranslate
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOLEAN) HugoAI translation function is enabled\n"
+  syntax:
+    content: public const string CSTranslate = "CSTranslate"
+    return:
+      type: System.String
+    content.vb: Public Const CSTranslate As String = "CSTranslate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.CSSentiment
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.CSSentiment
+  id: CSSentiment
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI
+  langs:
+  - csharp
+  - vb
+  name: CSSentiment
+  nameWithType: UserPreferenceStrings.HugoAI.CSSentiment
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.CSSentiment
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOLEAN) HugoAI sentiment analysis is enabled\n"
+  syntax:
+    content: public const string CSSentiment = "CSSentiment"
+    return:
+      type: System.String
+    content.vb: Public Const CSSentiment As String = "CSSentiment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.CSCategorize
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.CSCategorize
+  id: CSCategorize
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI
+  langs:
+  - csharp
+  - vb
+  name: CSCategorize
+  nameWithType: UserPreferenceStrings.HugoAI.CSCategorize
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.CSCategorize
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOLEAN) HugoAI request Categorization is enabled\n"
+  syntax:
+    content: public const string CSCategorize = "CSCategorize"
+    return:
+      type: System.String
+    content.vb: Public Const CSCategorize As String = "CSCategorize"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.BusinessCardScan
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.BusinessCardScan
+  id: BusinessCardScan
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI
+  langs:
+  - csharp
+  - vb
+  name: BusinessCardScan
+  nameWithType: UserPreferenceStrings.HugoAI.BusinessCardScan
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.HugoAI.BusinessCardScan
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOLEAN) HugoAI Business card scan is enabled in Mobile\n"
+  syntax:
+    content: public const string BusinessCardScan = "BusinessCardScan"
+    return:
+      type: System.String
+    content.vb: Public Const BusinessCardScan As String = "BusinessCardScan"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,447 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.LegalBase
+  commentId: T:SuperOffice.CRM.Services.LegalBase
+  id: LegalBase
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.LegalBase.#ctor
+  - SuperOffice.CRM.Services.LegalBase.Deleted
+  - SuperOffice.CRM.Services.LegalBase.Key
+  - SuperOffice.CRM.Services.LegalBase.LegalBaseId
+  - SuperOffice.CRM.Services.LegalBase.Name
+  - SuperOffice.CRM.Services.LegalBase.Rank
+  - SuperOffice.CRM.Services.LegalBase.Tooltip
+  - SuperOffice.CRM.Services.LegalBase.ToString
+  - SuperOffice.CRM.Services.LegalBase.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: LegalBase
+  nameWithType: LegalBase
+  fullName: SuperOffice.CRM.Services.LegalBase
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for LegalBase.\nServices for the LegalBase Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IListAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet LegalBase 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ListAgent();\n    var legalBase = agent.GetLegalBase( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class LegalBase : Carrier'
+    content.vb: >-
+      Public Class LegalBase
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ListAgent
+    commentId: T:SuperOffice.CRM.Services.ListAgent
+  - linkId: SuperOffice.CRM.Services.IListAgent
+    commentId: T:SuperOffice.CRM.Services.IListAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.LegalBase.#ctor
+  commentId: M:SuperOffice.CRM.Services.LegalBase.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.LegalBase
+  langs:
+  - csharp
+  - vb
+  name: LegalBase()
+  nameWithType: LegalBase.LegalBase()
+  fullName: SuperOffice.CRM.Services.LegalBase.LegalBase()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public LegalBase()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.LegalBase.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.LegalBase.ToString
+  commentId: M:SuperOffice.CRM.Services.LegalBase.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.LegalBase
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: LegalBase.ToString()
+  fullName: SuperOffice.CRM.Services.LegalBase.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.LegalBase.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.LegalBase.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.LegalBase.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.LegalBase
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: LegalBase.ToString(String)
+  fullName: SuperOffice.CRM.Services.LegalBase.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.LegalBase.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.LegalBase.LegalBaseId
+  commentId: P:SuperOffice.CRM.Services.LegalBase.LegalBaseId
+  id: LegalBaseId
+  parent: SuperOffice.CRM.Services.LegalBase
+  langs:
+  - csharp
+  - vb
+  name: LegalBaseId
+  nameWithType: LegalBase.LegalBaseId
+  fullName: SuperOffice.CRM.Services.LegalBase.LegalBaseId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int LegalBaseId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property LegalBaseId As Integer
+  overload: SuperOffice.CRM.Services.LegalBase.LegalBaseId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.LegalBase.Name
+  commentId: P:SuperOffice.CRM.Services.LegalBase.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.LegalBase
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: LegalBase.Name
+  fullName: SuperOffice.CRM.Services.LegalBase.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of legal base \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.LegalBase.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.LegalBase.Tooltip
+  commentId: P:SuperOffice.CRM.Services.LegalBase.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Services.LegalBase
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: LegalBase.Tooltip
+  fullName: SuperOffice.CRM.Services.LegalBase.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTooltip for this consent source \n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.CRM.Services.LegalBase.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.LegalBase.Rank
+  commentId: P:SuperOffice.CRM.Services.LegalBase.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Services.LegalBase
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: LegalBase.Rank
+  fullName: SuperOffice.CRM.Services.LegalBase.Rank
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRank of this consent source \n"
+  syntax:
+    content: public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Rank As Short
+  overload: SuperOffice.CRM.Services.LegalBase.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.LegalBase.Key
+  commentId: P:SuperOffice.CRM.Services.LegalBase.Key
+  id: Key
+  parent: SuperOffice.CRM.Services.LegalBase
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: LegalBase.Key
+  fullName: SuperOffice.CRM.Services.LegalBase.Key
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe key used to uniquely identify this legal base \n"
+  syntax:
+    content: public virtual string Key { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Key As String
+  overload: SuperOffice.CRM.Services.LegalBase.Key*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.LegalBase.Deleted
+  commentId: P:SuperOffice.CRM.Services.LegalBase.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Services.LegalBase
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: LegalBase.Deleted
+  fullName: SuperOffice.CRM.Services.LegalBase.Deleted
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\ntrue if the LegalBase is deleted \n"
+  syntax:
+    content: public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.CRM.Services.LegalBase.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.ListAgent
+  commentId: T:SuperOffice.CRM.Services.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.CRM.Services.ListAgent
+- uid: SuperOffice.CRM.Services.IListAgent
+  commentId: T:SuperOffice.CRM.Services.IListAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IListAgent
+  nameWithType: IListAgent
+  fullName: SuperOffice.CRM.Services.IListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.LegalBase.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.LegalBase.#ctor
+  isExternal: true
+  name: LegalBase
+  nameWithType: LegalBase.LegalBase
+  fullName: SuperOffice.CRM.Services.LegalBase.LegalBase
+- uid: SuperOffice.CRM.Services.LegalBase.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.LegalBase.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: LegalBase.ToString
+  fullName: SuperOffice.CRM.Services.LegalBase.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.LegalBase.LegalBaseId*
+  commentId: Overload:SuperOffice.CRM.Services.LegalBase.LegalBaseId
+  isExternal: true
+  name: LegalBaseId
+  nameWithType: LegalBase.LegalBaseId
+  fullName: SuperOffice.CRM.Services.LegalBase.LegalBaseId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.LegalBase.Name*
+  commentId: Overload:SuperOffice.CRM.Services.LegalBase.Name
+  isExternal: true
+  name: Name
+  nameWithType: LegalBase.Name
+  fullName: SuperOffice.CRM.Services.LegalBase.Name
+- uid: SuperOffice.CRM.Services.LegalBase.Tooltip*
+  commentId: Overload:SuperOffice.CRM.Services.LegalBase.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: LegalBase.Tooltip
+  fullName: SuperOffice.CRM.Services.LegalBase.Tooltip
+- uid: SuperOffice.CRM.Services.LegalBase.Rank*
+  commentId: Overload:SuperOffice.CRM.Services.LegalBase.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: LegalBase.Rank
+  fullName: SuperOffice.CRM.Services.LegalBase.Rank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Services.LegalBase.Key*
+  commentId: Overload:SuperOffice.CRM.Services.LegalBase.Key
+  isExternal: true
+  name: Key
+  nameWithType: LegalBase.Key
+  fullName: SuperOffice.CRM.Services.LegalBase.Key
+- uid: SuperOffice.CRM.Services.LegalBase.Deleted*
+  commentId: Overload:SuperOffice.CRM.Services.LegalBase.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: LegalBase.Deleted
+  fullName: SuperOffice.CRM.Services.LegalBase.Deleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

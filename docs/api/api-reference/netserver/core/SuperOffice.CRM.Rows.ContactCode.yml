@@ -1,0 +1,633 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.ContactCode
+  commentId: T:SuperOffice.CRM.Rows.ContactCode
+  id: ContactCode
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.ContactCode.CalculateCode(System.String)
+  - SuperOffice.CRM.Rows.ContactCode.IsCharAlpha(System.Char)
+  - SuperOffice.CRM.Rows.ContactCode.IsCharAlphaNumeric(System.Char)
+  - SuperOffice.CRM.Rows.ContactCode.IsCharLower(System.Char)
+  - SuperOffice.CRM.Rows.ContactCode.IsCharNumeric(System.Char)
+  - SuperOffice.CRM.Rows.ContactCode.IsCharUpper(System.Char)
+  langs:
+  - csharp
+  - vb
+  name: ContactCode
+  nameWithType: ContactCode
+  fullName: SuperOffice.CRM.Rows.ContactCode
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static class ContactCode
+    content.vb: Public Module ContactCode
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Rows.ContactCode.IsCharAlpha(System.Char)
+  commentId: M:SuperOffice.CRM.Rows.ContactCode.IsCharAlpha(System.Char)
+  id: IsCharAlpha(System.Char)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.ContactCode
+  langs:
+  - csharp
+  - vb
+  name: IsCharAlpha(Char)
+  nameWithType: ContactCode.IsCharAlpha(Char)
+  fullName: SuperOffice.CRM.Rows.ContactCode.IsCharAlpha(System.Char)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIs the character alphabetic, according to the regional settings on the machine we&apos;re running on\n"
+  syntax:
+    content: public static bool IsCharAlpha(this char cChar)
+    parameters:
+    - id: cChar
+      type: System.Char
+      description: Character to evaluate
+    return:
+      type: System.Boolean
+      description: true or false
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsCharAlpha(cChar As Char) As Boolean
+  overload: SuperOffice.CRM.Rows.ContactCode.IsCharAlpha*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.ContactCode.IsCharAlphaNumeric(System.Char)
+  commentId: M:SuperOffice.CRM.Rows.ContactCode.IsCharAlphaNumeric(System.Char)
+  id: IsCharAlphaNumeric(System.Char)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.ContactCode
+  langs:
+  - csharp
+  - vb
+  name: IsCharAlphaNumeric(Char)
+  nameWithType: ContactCode.IsCharAlphaNumeric(Char)
+  fullName: SuperOffice.CRM.Rows.ContactCode.IsCharAlphaNumeric(System.Char)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIs the character alphabetic OR numeric, according to the regional settings on the machine we&apos;re running on\n"
+  syntax:
+    content: public static bool IsCharAlphaNumeric(this char cChar)
+    parameters:
+    - id: cChar
+      type: System.Char
+      description: Character to evaluate
+    return:
+      type: System.Boolean
+      description: true or false
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsCharAlphaNumeric(cChar As Char) As Boolean
+  overload: SuperOffice.CRM.Rows.ContactCode.IsCharAlphaNumeric*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.ContactCode.IsCharUpper(System.Char)
+  commentId: M:SuperOffice.CRM.Rows.ContactCode.IsCharUpper(System.Char)
+  id: IsCharUpper(System.Char)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.ContactCode
+  langs:
+  - csharp
+  - vb
+  name: IsCharUpper(Char)
+  nameWithType: ContactCode.IsCharUpper(Char)
+  fullName: SuperOffice.CRM.Rows.ContactCode.IsCharUpper(System.Char)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIs the character uppercase alphabetic, according to the regional settings on the machine we&apos;re running on\n"
+  syntax:
+    content: public static bool IsCharUpper(this char cChar)
+    parameters:
+    - id: cChar
+      type: System.Char
+      description: Character to evaluate
+    return:
+      type: System.Boolean
+      description: true or false
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsCharUpper(cChar As Char) As Boolean
+  overload: SuperOffice.CRM.Rows.ContactCode.IsCharUpper*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.ContactCode.IsCharLower(System.Char)
+  commentId: M:SuperOffice.CRM.Rows.ContactCode.IsCharLower(System.Char)
+  id: IsCharLower(System.Char)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.ContactCode
+  langs:
+  - csharp
+  - vb
+  name: IsCharLower(Char)
+  nameWithType: ContactCode.IsCharLower(Char)
+  fullName: SuperOffice.CRM.Rows.ContactCode.IsCharLower(System.Char)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIs the character lowercase alphabetic, according to the regional settings on the machine we&apos;re running on\n"
+  syntax:
+    content: public static bool IsCharLower(this char cChar)
+    parameters:
+    - id: cChar
+      type: System.Char
+      description: Character to evaluate
+    return:
+      type: System.Boolean
+      description: true or false
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsCharLower(cChar As Char) As Boolean
+  overload: SuperOffice.CRM.Rows.ContactCode.IsCharLower*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.ContactCode.IsCharNumeric(System.Char)
+  commentId: M:SuperOffice.CRM.Rows.ContactCode.IsCharNumeric(System.Char)
+  id: IsCharNumeric(System.Char)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.ContactCode
+  langs:
+  - csharp
+  - vb
+  name: IsCharNumeric(Char)
+  nameWithType: ContactCode.IsCharNumeric(Char)
+  fullName: SuperOffice.CRM.Rows.ContactCode.IsCharNumeric(System.Char)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIs the character numeric, according to the regional settings on the machine we&apos;re running on\n"
+  remarks: "\nSince there is no OS method for this, we define &quot;numeric&quot; as &quot;alphanumeric:true &amp;&amp; alpha:false&quot;\n"
+  syntax:
+    content: public static bool IsCharNumeric(this char cChar)
+    parameters:
+    - id: cChar
+      type: System.Char
+      description: Character to evaluate
+    return:
+      type: System.Boolean
+      description: true or false
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsCharNumeric(cChar As Char) As Boolean
+  overload: SuperOffice.CRM.Rows.ContactCode.IsCharNumeric*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.ContactCode.CalculateCode(System.String)
+  commentId: M:SuperOffice.CRM.Rows.ContactCode.CalculateCode(System.String)
+  id: CalculateCode(System.String)
+  parent: SuperOffice.CRM.Rows.ContactCode
+  langs:
+  - csharp
+  - vb
+  name: CalculateCode(String)
+  nameWithType: ContactCode.CalculateCode(String)
+  fullName: SuperOffice.CRM.Rows.ContactCode.CalculateCode(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCalculate the &quot;Code&quot; (actually Number1) field of the contact card, based on the name\n"
+  syntax:
+    content: public static string CalculateCode(string contactName)
+    parameters:
+    - id: contactName
+      type: System.String
+      description: Raw contact name
+    return:
+      type: System.String
+      description: Code, which is upper-case alphanumeric chars, up to a length of 9
+    content.vb: Public Shared Function CalculateCode(contactName As String) As String
+  overload: SuperOffice.CRM.Rows.ContactCode.CalculateCode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Rows.ContactCode.IsCharAlpha*
+  commentId: Overload:SuperOffice.CRM.Rows.ContactCode.IsCharAlpha
+  isExternal: true
+  name: IsCharAlpha
+  nameWithType: ContactCode.IsCharAlpha
+  fullName: SuperOffice.CRM.Rows.ContactCode.IsCharAlpha
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  name: Char
+  nameWithType: Char
+  fullName: System.Char
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Rows.ContactCode.IsCharAlphaNumeric*
+  commentId: Overload:SuperOffice.CRM.Rows.ContactCode.IsCharAlphaNumeric
+  isExternal: true
+  name: IsCharAlphaNumeric
+  nameWithType: ContactCode.IsCharAlphaNumeric
+  fullName: SuperOffice.CRM.Rows.ContactCode.IsCharAlphaNumeric
+- uid: SuperOffice.CRM.Rows.ContactCode.IsCharUpper*
+  commentId: Overload:SuperOffice.CRM.Rows.ContactCode.IsCharUpper
+  isExternal: true
+  name: IsCharUpper
+  nameWithType: ContactCode.IsCharUpper
+  fullName: SuperOffice.CRM.Rows.ContactCode.IsCharUpper
+- uid: SuperOffice.CRM.Rows.ContactCode.IsCharLower*
+  commentId: Overload:SuperOffice.CRM.Rows.ContactCode.IsCharLower
+  isExternal: true
+  name: IsCharLower
+  nameWithType: ContactCode.IsCharLower
+  fullName: SuperOffice.CRM.Rows.ContactCode.IsCharLower
+- uid: SuperOffice.CRM.Rows.ContactCode.IsCharNumeric*
+  commentId: Overload:SuperOffice.CRM.Rows.ContactCode.IsCharNumeric
+  isExternal: true
+  name: IsCharNumeric
+  nameWithType: ContactCode.IsCharNumeric
+  fullName: SuperOffice.CRM.Rows.ContactCode.IsCharNumeric
+- uid: SuperOffice.CRM.Rows.ContactCode.CalculateCode*
+  commentId: Overload:SuperOffice.CRM.Rows.ContactCode.CalculateCode
+  isExternal: true
+  name: CalculateCode
+  nameWithType: ContactCode.CalculateCode
+  fullName: SuperOffice.CRM.Rows.ContactCode.CalculateCode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

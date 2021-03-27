@@ -1,0 +1,4517 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider
+  commentId: T:SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider
+  id: ResourceRestrictionsMDOProvider
+  parent: SuperOffice.CRM.Lists
+  children:
+  - SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider.AddGroupLinkJoin(System.Int32[],SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
+  - SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider.GetGroupingAllowedForList
+  - SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider.ProviderName
+  langs:
+  - csharp
+  - vb
+  name: ResourceRestrictionsMDOProvider
+  nameWithType: ResourceRestrictionsMDOProvider
+  fullName: SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nMDO provider for resources (from the associate table) that uses restrictions to include\nconflict checking\n"
+  syntax:
+    content: >-
+      [MDOProviderPlugin("resourceRestrictions")]
+
+      public class ResourceRestrictionsMDOProvider : AssociateRestrictionsMDOProviderBase, ISoListProvider, ISoList, IPlugin, IEnumerable<ISoListItem>, IEnumerable
+    content.vb: >-
+      <MDOProviderPlugin("resourceRestrictions")>
+
+      Public Class ResourceRestrictionsMDOProvider
+          Inherits AssociateRestrictionsMDOProviderBase
+          Implements ISoListProvider, ISoList, IPlugin, IEnumerable(Of ISoListItem), IEnumerable
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Lists.MDOProviderBase
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  - SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase
+  implements:
+  - SuperOffice.CRM.Lists.ISoListProvider
+  - SuperOffice.CRM.Lists.ISoList
+  - System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.ReadItemsAndHeadings
+  - SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.GetItemStyleHint(SuperOffice.CRM.Lists.ListTableRow)
+  - SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.GetConflicts(System.Int32[])
+  - SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.GetItemTooltip(SuperOffice.CRM.Lists.ListTableRow)
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase._additionalInfo_GetDeleted
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase._AdditionalInfo
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemType(SuperOffice.CRM.Lists.ListTableRow)
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingType(SuperOffice.CRM.Lists.ListTableRow)
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemName(SuperOffice.CRM.Lists.ListTableRow)
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHeadingElementToCollection(SuperOffice.CRM.Lists.SoListHeading)
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHistoryElementToCollection(SuperOffice.CRM.Lists.SoListItem)
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddSubItemToCollection(SuperOffice.CRM.Lists.SoListItem,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryCollection
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetSimpleListQuery
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadSimpleList
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemsAndHeadingsQuery
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateFlatList
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateHeadingAndItems
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GenerateCommonQuery(SuperOffice.CRM.Lists.ListTableRows.CustomSearch,SuperOffice.Data.Dictionary.ListInfo)
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{System.Int32})
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.ResortFlattenedList
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.HistoryInfo
+  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.PersonTableInfo
+  - SuperOffice.CRM.Lists.MDOProviderBase._historyIds
+  - SuperOffice.CRM.Lists.MDOProviderBase._searchValue
+  - SuperOffice.CRM.Lists.MDOProviderBase._forceFlatList
+  - SuperOffice.CRM.Lists.MDOProviderBase._rootCollection
+  - SuperOffice.CRM.Lists.MDOProviderBase._historyCollection
+  - SuperOffice.CRM.Lists.MDOProviderBase._headingCollection
+  - SuperOffice.CRM.Lists.MDOProviderBase._declaredListName
+  - SuperOffice.CRM.Lists.MDOProviderBase._tableRows
+  - SuperOffice.CRM.Lists.MDOProviderBase._nodeType
+  - SuperOffice.CRM.Lists.MDOProviderBase._listName
+  - SuperOffice.CRM.Lists.MDOProviderBase._tableName
+  - SuperOffice.CRM.Lists.MDOProviderBase._tableListInfo
+  - SuperOffice.CRM.Lists.MDOProviderBase._listInfo
+  - SuperOffice.CRM.Lists.MDOProviderBase.FillList
+  - SuperOffice.CRM.Lists.MDOProviderBase.AddSimpleListOrderBy(SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
+  - SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQuery(System.Boolean,System.Int32[])
+  - SuperOffice.CRM.Lists.MDOProviderBase.GetItemId(SuperOffice.CRM.Lists.ListTableRow)
+  - SuperOffice.CRM.Lists.MDOProviderBase.GetItemRank(SuperOffice.CRM.Lists.ListTableRow)
+  - SuperOffice.CRM.Lists.MDOProviderBase.GetItemDeleted(SuperOffice.CRM.Lists.ListTableRow)
+  - SuperOffice.CRM.Lists.MDOProviderBase.GetItemColor(SuperOffice.CRM.Lists.ListTableRow)
+  - SuperOffice.CRM.Lists.MDOProviderBase.GetItemExtraInfo(SuperOffice.CRM.Lists.ListTableRow)
+  - SuperOffice.CRM.Lists.MDOProviderBase.OnAddRootElementToCollection(SuperOffice.CRM.Lists.SoListItem)
+  - SuperOffice.CRM.Lists.MDOProviderBase.GetListLowerLimit
+  - SuperOffice.CRM.Lists.MDOProviderBase.GetPreferredSortOrder
+  - SuperOffice.CRM.Lists.MDOProviderBase.BuildMdoCollections
+  - SuperOffice.CRM.Lists.MDOProviderBase.System#Collections#Generic#IEnumerable{SuperOffice#CRM#Lists#ISoListItem}#GetEnumerator
+  - SuperOffice.CRM.Lists.MDOProviderBase.System#Collections#IEnumerable#GetEnumerator
+  - SuperOffice.CRM.Lists.MDOProviderBase.IncludeDeletedItems
+  - SuperOffice.CRM.Lists.MDOProviderBase.InhibitResortOnFlattening
+  - SuperOffice.CRM.Lists.MDOProviderBase.IsFinalListFlat
+  - SuperOffice.CRM.Lists.MDOProviderBase.HistoryItems
+  - SuperOffice.CRM.Lists.MDOProviderBase.RootItems
+  - SuperOffice.CRM.Lists.MDOProviderBase.HeadingItems
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}.IEnumerableExtensions.ForEach``1(System.Action{SuperOffice.CRM.Lists.ISoListItem})
+  - System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}.IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem})
+  - System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}.IEnumerableExtensions.Batch``1(System.Int32)
+  - System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}.IEnumerableExtensions.IndexOf``1(SuperOffice.CRM.Lists.ISoListItem,System.Int32)
+  - System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}.IEnumerableExtensions.IndexOf``1(System.Func{SuperOffice.CRM.Lists.ISoListItem,System.Boolean},System.Int32)
+  - System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}.IEnumerableExtensions.Permute``1(System.Int32)
+  - System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}.IEnumerableExtensions.PermissiveToDictionary``3(System.Func{SuperOffice.CRM.Lists.ISoListItem,{K}},System.Func{SuperOffice.CRM.Lists.ISoListItem,{V}})
+  - System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}.IEnumerableExtensions.PermissiveToDictionary``3(System.Func{SuperOffice.CRM.Lists.ISoListItem,{K}},System.Func{SuperOffice.CRM.Lists.ISoListItem,{V}},System.Collections.Generic.IEqualityComparer{{K}})
+  - SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider.EnumUtil.MapEnums``2
+  - System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}.SuperOffice.Util.CollectionOps.AtLeastOne``1
+  - SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.CRM.Lists.MDOProviderPluginAttribute
+    ctor: SuperOffice.CRM.Lists.MDOProviderPluginAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: resourceRestrictions
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider.ProviderName
+  commentId: F:SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider.ProviderName
+  id: ProviderName
+  parent: SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: ResourceRestrictionsMDOProvider.ProviderName
+  fullName: SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider.ProviderName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public const string ProviderName = "resourceRestrictions"
+    return:
+      type: System.String
+    content.vb: Public Const ProviderName As String = "resourceRestrictions"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider.GetGroupingAllowedForList
+  commentId: M:SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider.GetGroupingAllowedForList
+  id: GetGroupingAllowedForList
+  parent: SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider
+  langs:
+  - csharp
+  - vb
+  name: GetGroupingAllowedForList()
+  nameWithType: ResourceRestrictionsMDOProvider.GetGroupingAllowedForList()
+  fullName: SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider.GetGroupingAllowedForList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected override bool GetGroupingAllowedForList()
+    return:
+      type: System.Boolean
+    content.vb: Protected Overrides Function GetGroupingAllowedForList As Boolean
+  overridden: SuperOffice.CRM.Lists.MDOProviderBase.GetGroupingAllowedForList
+  overload: SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider.GetGroupingAllowedForList*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider.AddGroupLinkJoin(System.Int32[],SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
+  commentId: M:SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider.AddGroupLinkJoin(System.Int32[],SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
+  id: AddGroupLinkJoin(System.Int32[],SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
+  parent: SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider
+  langs:
+  - csharp
+  - vb
+  name: AddGroupLinkJoin(Int32[], ListTableRows.CustomSearch)
+  nameWithType: ResourceRestrictionsMDOProvider.AddGroupLinkJoin(Int32[], ListTableRows.CustomSearch)
+  fullName: SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider.AddGroupLinkJoin(System.Int32[], SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected override void AddGroupLinkJoin(int[] selectedIds, ListTableRows.CustomSearch query)
+    parameters:
+    - id: selectedIds
+      type: System.Int32[]
+    - id: query
+      type: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
+    content.vb: Protected Overrides Sub AddGroupLinkJoin(selectedIds As Integer(), query As ListTableRows.CustomSearch)
+  overridden: SuperOffice.CRM.Lists.MDOProviderBase.AddGroupLinkJoin(System.Int32[],SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
+  overload: SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider.AddGroupLinkJoin*
+  nameWithType.vb: ResourceRestrictionsMDOProvider.AddGroupLinkJoin(Int32(), ListTableRows.CustomSearch)
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+  fullName.vb: SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider.AddGroupLinkJoin(System.Int32(), SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
+  name.vb: AddGroupLinkJoin(Int32(), ListTableRows.CustomSearch)
+references:
+- uid: SuperOffice.CRM.Lists
+  commentId: N:SuperOffice.CRM.Lists
+  isExternal: true
+  name: SuperOffice.CRM.Lists
+  nameWithType: SuperOffice.CRM.Lists
+  fullName: SuperOffice.CRM.Lists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Lists.MDOProviderBase
+  commentId: T:SuperOffice.CRM.Lists.MDOProviderBase
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: MDOProviderBase
+  nameWithType: MDOProviderBase
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  commentId: T:SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: AssociateMDOProviderBase
+  nameWithType: AssociateMDOProviderBase
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+- uid: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase
+  commentId: T:SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: AssociateRestrictionsMDOProviderBase
+  nameWithType: AssociateRestrictionsMDOProviderBase
+  fullName: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase
+- uid: SuperOffice.CRM.Lists.ISoListProvider
+  commentId: T:SuperOffice.CRM.Lists.ISoListProvider
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: ISoListProvider
+  nameWithType: ISoListProvider
+  fullName: SuperOffice.CRM.Lists.ISoListProvider
+- uid: SuperOffice.CRM.Lists.ISoList
+  commentId: T:SuperOffice.CRM.Lists.ISoList
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: ISoList
+  nameWithType: ISoList
+  fullName: SuperOffice.CRM.Lists.ISoList
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ISoListItem>
+  nameWithType: IEnumerable<ISoListItem>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Lists.ISoListItem>
+  nameWithType.vb: IEnumerable(Of ISoListItem)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Lists.ISoListItem)
+  name.vb: IEnumerable(Of ISoListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.ReadItemsAndHeadings
+  commentId: M:SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.ReadItemsAndHeadings
+  parent: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase
+  isExternal: true
+  name: ReadItemsAndHeadings()
+  nameWithType: AssociateRestrictionsMDOProviderBase.ReadItemsAndHeadings()
+  fullName: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.ReadItemsAndHeadings()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.ReadItemsAndHeadings
+    name: ReadItemsAndHeadings
+    nameWithType: AssociateRestrictionsMDOProviderBase.ReadItemsAndHeadings
+    fullName: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.ReadItemsAndHeadings
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.ReadItemsAndHeadings
+    name: ReadItemsAndHeadings
+    nameWithType: AssociateRestrictionsMDOProviderBase.ReadItemsAndHeadings
+    fullName: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.ReadItemsAndHeadings
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.GetItemStyleHint(SuperOffice.CRM.Lists.ListTableRow)
+  commentId: M:SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.GetItemStyleHint(SuperOffice.CRM.Lists.ListTableRow)
+  parent: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase
+  isExternal: true
+  name: GetItemStyleHint(ListTableRow)
+  nameWithType: AssociateRestrictionsMDOProviderBase.GetItemStyleHint(ListTableRow)
+  fullName: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.GetItemStyleHint(SuperOffice.CRM.Lists.ListTableRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.GetItemStyleHint(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetItemStyleHint
+    nameWithType: AssociateRestrictionsMDOProviderBase.GetItemStyleHint
+    fullName: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.GetItemStyleHint
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.GetItemStyleHint(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetItemStyleHint
+    nameWithType: AssociateRestrictionsMDOProviderBase.GetItemStyleHint
+    fullName: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.GetItemStyleHint
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.GetConflicts(System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.GetConflicts(System.Int32[])
+  parent: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase
+  isExternal: true
+  name: GetConflicts(Int32[])
+  nameWithType: AssociateRestrictionsMDOProviderBase.GetConflicts(Int32[])
+  fullName: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.GetConflicts(System.Int32[])
+  nameWithType.vb: AssociateRestrictionsMDOProviderBase.GetConflicts(Int32())
+  fullName.vb: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.GetConflicts(System.Int32())
+  name.vb: GetConflicts(Int32())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.GetConflicts(System.Int32[])
+    name: GetConflicts
+    nameWithType: AssociateRestrictionsMDOProviderBase.GetConflicts
+    fullName: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.GetConflicts
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.GetConflicts(System.Int32[])
+    name: GetConflicts
+    nameWithType: AssociateRestrictionsMDOProviderBase.GetConflicts
+    fullName: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.GetConflicts
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.GetItemTooltip(SuperOffice.CRM.Lists.ListTableRow)
+  commentId: M:SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.GetItemTooltip(SuperOffice.CRM.Lists.ListTableRow)
+  parent: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase
+  isExternal: true
+  name: GetItemTooltip(ListTableRow)
+  nameWithType: AssociateRestrictionsMDOProviderBase.GetItemTooltip(ListTableRow)
+  fullName: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.GetItemTooltip(SuperOffice.CRM.Lists.ListTableRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.GetItemTooltip(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetItemTooltip
+    nameWithType: AssociateRestrictionsMDOProviderBase.GetItemTooltip
+    fullName: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.GetItemTooltip
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.GetItemTooltip(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetItemTooltip
+    nameWithType: AssociateRestrictionsMDOProviderBase.GetItemTooltip
+    fullName: SuperOffice.CRM.Lists.AssociateRestrictionsMDOProviderBase.GetItemTooltip
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase._additionalInfo_GetDeleted
+  commentId: F:SuperOffice.CRM.Lists.AssociateMDOProviderBase._additionalInfo_GetDeleted
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  name: _additionalInfo_GetDeleted
+  nameWithType: AssociateMDOProviderBase._additionalInfo_GetDeleted
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase._additionalInfo_GetDeleted
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase._AdditionalInfo
+  commentId: F:SuperOffice.CRM.Lists.AssociateMDOProviderBase._AdditionalInfo
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  name: _AdditionalInfo
+  nameWithType: AssociateMDOProviderBase._AdditionalInfo
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase._AdditionalInfo
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  name: Construct(String, String, Int32[], Boolean, String, Boolean)
+  nameWithType: AssociateMDOProviderBase.Construct(String, String, Int32[], Boolean, String, Boolean)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.Construct(System.String, System.String, System.Int32[], System.Boolean, System.String, System.Boolean)
+  nameWithType.vb: AssociateMDOProviderBase.Construct(String, String, Int32(), Boolean, String, Boolean)
+  fullName.vb: SuperOffice.CRM.Lists.AssociateMDOProviderBase.Construct(System.String, System.String, System.Int32(), System.Boolean, System.String, System.Boolean)
+  name.vb: Construct(String, String, Int32(), Boolean, String, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+    name: Construct
+    nameWithType: AssociateMDOProviderBase.Construct
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.Construct
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+    name: Construct
+    nameWithType: AssociateMDOProviderBase.Construct
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.Construct
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  name: GetItemIconHint(ListTableRow)
+  nameWithType: AssociateMDOProviderBase.GetItemIconHint(ListTableRow)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetItemIconHint
+    nameWithType: AssociateMDOProviderBase.GetItemIconHint
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemIconHint
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetItemIconHint
+    nameWithType: AssociateMDOProviderBase.GetItemIconHint
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemIconHint
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  name: GetHeadingIconHint(ListTableRow)
+  nameWithType: AssociateMDOProviderBase.GetHeadingIconHint(ListTableRow)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetHeadingIconHint
+    nameWithType: AssociateMDOProviderBase.GetHeadingIconHint
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingIconHint
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetHeadingIconHint
+    nameWithType: AssociateMDOProviderBase.GetHeadingIconHint
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingIconHint
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemType(SuperOffice.CRM.Lists.ListTableRow)
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemType(SuperOffice.CRM.Lists.ListTableRow)
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  name: GetItemType(ListTableRow)
+  nameWithType: AssociateMDOProviderBase.GetItemType(ListTableRow)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemType(SuperOffice.CRM.Lists.ListTableRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemType(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetItemType
+    nameWithType: AssociateMDOProviderBase.GetItemType
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemType(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetItemType
+    nameWithType: AssociateMDOProviderBase.GetItemType
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingType(SuperOffice.CRM.Lists.ListTableRow)
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingType(SuperOffice.CRM.Lists.ListTableRow)
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  name: GetHeadingType(ListTableRow)
+  nameWithType: AssociateMDOProviderBase.GetHeadingType(ListTableRow)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingType(SuperOffice.CRM.Lists.ListTableRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingType(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetHeadingType
+    nameWithType: AssociateMDOProviderBase.GetHeadingType
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingType(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetHeadingType
+    nameWithType: AssociateMDOProviderBase.GetHeadingType
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemName(SuperOffice.CRM.Lists.ListTableRow)
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemName(SuperOffice.CRM.Lists.ListTableRow)
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  name: GetItemName(ListTableRow)
+  nameWithType: AssociateMDOProviderBase.GetItemName(ListTableRow)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemName(SuperOffice.CRM.Lists.ListTableRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemName(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetItemName
+    nameWithType: AssociateMDOProviderBase.GetItemName
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemName(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetItemName
+    nameWithType: AssociateMDOProviderBase.GetItemName
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  name: GetHistoryIconHint(ListTableRow)
+  nameWithType: AssociateMDOProviderBase.GetHistoryIconHint(ListTableRow)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryIconHint(SuperOffice.CRM.Lists.ListTableRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryIconHint(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetHistoryIconHint
+    nameWithType: AssociateMDOProviderBase.GetHistoryIconHint
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryIconHint
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryIconHint(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetHistoryIconHint
+    nameWithType: AssociateMDOProviderBase.GetHistoryIconHint
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryIconHint
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHeadingElementToCollection(SuperOffice.CRM.Lists.SoListHeading)
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHeadingElementToCollection(SuperOffice.CRM.Lists.SoListHeading)
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  name: OnAddHeadingElementToCollection(SoListHeading)
+  nameWithType: AssociateMDOProviderBase.OnAddHeadingElementToCollection(SoListHeading)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHeadingElementToCollection(SuperOffice.CRM.Lists.SoListHeading)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHeadingElementToCollection(SuperOffice.CRM.Lists.SoListHeading)
+    name: OnAddHeadingElementToCollection
+    nameWithType: AssociateMDOProviderBase.OnAddHeadingElementToCollection
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHeadingElementToCollection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.SoListHeading
+    name: SoListHeading
+    nameWithType: SoListHeading
+    fullName: SuperOffice.CRM.Lists.SoListHeading
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHeadingElementToCollection(SuperOffice.CRM.Lists.SoListHeading)
+    name: OnAddHeadingElementToCollection
+    nameWithType: AssociateMDOProviderBase.OnAddHeadingElementToCollection
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHeadingElementToCollection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.SoListHeading
+    name: SoListHeading
+    nameWithType: SoListHeading
+    fullName: SuperOffice.CRM.Lists.SoListHeading
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHistoryElementToCollection(SuperOffice.CRM.Lists.SoListItem)
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHistoryElementToCollection(SuperOffice.CRM.Lists.SoListItem)
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  name: OnAddHistoryElementToCollection(SoListItem)
+  nameWithType: AssociateMDOProviderBase.OnAddHistoryElementToCollection(SoListItem)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHistoryElementToCollection(SuperOffice.CRM.Lists.SoListItem)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHistoryElementToCollection(SuperOffice.CRM.Lists.SoListItem)
+    name: OnAddHistoryElementToCollection
+    nameWithType: AssociateMDOProviderBase.OnAddHistoryElementToCollection
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHistoryElementToCollection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.SoListItem
+    name: SoListItem
+    nameWithType: SoListItem
+    fullName: SuperOffice.CRM.Lists.SoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHistoryElementToCollection(SuperOffice.CRM.Lists.SoListItem)
+    name: OnAddHistoryElementToCollection
+    nameWithType: AssociateMDOProviderBase.OnAddHistoryElementToCollection
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHistoryElementToCollection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.SoListItem
+    name: SoListItem
+    nameWithType: SoListItem
+    fullName: SuperOffice.CRM.Lists.SoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddSubItemToCollection(SuperOffice.CRM.Lists.SoListItem,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddSubItemToCollection(SuperOffice.CRM.Lists.SoListItem,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  name: OnAddSubItemToCollection(SoListItem, List<ISoListItem>)
+  nameWithType: AssociateMDOProviderBase.OnAddSubItemToCollection(SoListItem, List<ISoListItem>)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddSubItemToCollection(SuperOffice.CRM.Lists.SoListItem, System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>)
+  nameWithType.vb: AssociateMDOProviderBase.OnAddSubItemToCollection(SoListItem, List(Of ISoListItem))
+  fullName.vb: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddSubItemToCollection(SuperOffice.CRM.Lists.SoListItem, System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem))
+  name.vb: OnAddSubItemToCollection(SoListItem, List(Of ISoListItem))
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddSubItemToCollection(SuperOffice.CRM.Lists.SoListItem,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+    name: OnAddSubItemToCollection
+    nameWithType: AssociateMDOProviderBase.OnAddSubItemToCollection
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddSubItemToCollection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.SoListItem
+    name: SoListItem
+    nameWithType: SoListItem
+    fullName: SuperOffice.CRM.Lists.SoListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddSubItemToCollection(SuperOffice.CRM.Lists.SoListItem,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+    name: OnAddSubItemToCollection
+    nameWithType: AssociateMDOProviderBase.OnAddSubItemToCollection
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddSubItemToCollection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.SoListItem
+    name: SoListItem
+    nameWithType: SoListItem
+    fullName: SuperOffice.CRM.Lists.SoListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryCollection
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryCollection
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  name: GetHistoryCollection()
+  nameWithType: AssociateMDOProviderBase.GetHistoryCollection()
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryCollection()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryCollection
+    name: GetHistoryCollection
+    nameWithType: AssociateMDOProviderBase.GetHistoryCollection
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryCollection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryCollection
+    name: GetHistoryCollection
+    nameWithType: AssociateMDOProviderBase.GetHistoryCollection
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryCollection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  name: AcceptHistoryRow(ListTableRow)
+  nameWithType: AssociateMDOProviderBase.AcceptHistoryRow(ListTableRow)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
+    name: AcceptHistoryRow
+    nameWithType: AssociateMDOProviderBase.AcceptHistoryRow
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.AcceptHistoryRow
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
+    name: AcceptHistoryRow
+    nameWithType: AssociateMDOProviderBase.AcceptHistoryRow
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.AcceptHistoryRow
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetSimpleListQuery
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetSimpleListQuery
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  name: GetSimpleListQuery()
+  nameWithType: AssociateMDOProviderBase.GetSimpleListQuery()
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetSimpleListQuery()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetSimpleListQuery
+    name: GetSimpleListQuery
+    nameWithType: AssociateMDOProviderBase.GetSimpleListQuery
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetSimpleListQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetSimpleListQuery
+    name: GetSimpleListQuery
+    nameWithType: AssociateMDOProviderBase.GetSimpleListQuery
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetSimpleListQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadSimpleList
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadSimpleList
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  name: ReadSimpleList()
+  nameWithType: AssociateMDOProviderBase.ReadSimpleList()
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadSimpleList()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadSimpleList
+    name: ReadSimpleList
+    nameWithType: AssociateMDOProviderBase.ReadSimpleList
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadSimpleList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadSimpleList
+    name: ReadSimpleList
+    nameWithType: AssociateMDOProviderBase.ReadSimpleList
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ReadSimpleList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemsAndHeadingsQuery
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemsAndHeadingsQuery
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  name: GetItemsAndHeadingsQuery()
+  nameWithType: AssociateMDOProviderBase.GetItemsAndHeadingsQuery()
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemsAndHeadingsQuery()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemsAndHeadingsQuery
+    name: GetItemsAndHeadingsQuery
+    nameWithType: AssociateMDOProviderBase.GetItemsAndHeadingsQuery
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemsAndHeadingsQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemsAndHeadingsQuery
+    name: GetItemsAndHeadingsQuery
+    nameWithType: AssociateMDOProviderBase.GetItemsAndHeadingsQuery
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemsAndHeadingsQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateFlatList
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateFlatList
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  name: GetAssociateFlatList()
+  nameWithType: AssociateMDOProviderBase.GetAssociateFlatList()
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateFlatList()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateFlatList
+    name: GetAssociateFlatList
+    nameWithType: AssociateMDOProviderBase.GetAssociateFlatList
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateFlatList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateFlatList
+    name: GetAssociateFlatList
+    nameWithType: AssociateMDOProviderBase.GetAssociateFlatList
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateFlatList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateHeadingAndItems
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateHeadingAndItems
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  name: GetAssociateHeadingAndItems()
+  nameWithType: AssociateMDOProviderBase.GetAssociateHeadingAndItems()
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateHeadingAndItems()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateHeadingAndItems
+    name: GetAssociateHeadingAndItems
+    nameWithType: AssociateMDOProviderBase.GetAssociateHeadingAndItems
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateHeadingAndItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateHeadingAndItems
+    name: GetAssociateHeadingAndItems
+    nameWithType: AssociateMDOProviderBase.GetAssociateHeadingAndItems
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetAssociateHeadingAndItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GenerateCommonQuery(SuperOffice.CRM.Lists.ListTableRows.CustomSearch,SuperOffice.Data.Dictionary.ListInfo)
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GenerateCommonQuery(SuperOffice.CRM.Lists.ListTableRows.CustomSearch,SuperOffice.Data.Dictionary.ListInfo)
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  name: GenerateCommonQuery(ListTableRows.CustomSearch, ListInfo)
+  nameWithType: AssociateMDOProviderBase.GenerateCommonQuery(ListTableRows.CustomSearch, ListInfo)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GenerateCommonQuery(SuperOffice.CRM.Lists.ListTableRows.CustomSearch, SuperOffice.Data.Dictionary.ListInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GenerateCommonQuery(SuperOffice.CRM.Lists.ListTableRows.CustomSearch,SuperOffice.Data.Dictionary.ListInfo)
+    name: GenerateCommonQuery
+    nameWithType: AssociateMDOProviderBase.GenerateCommonQuery
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GenerateCommonQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
+    name: ListTableRows.CustomSearch
+    nameWithType: ListTableRows.CustomSearch
+    fullName: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.Dictionary.ListInfo
+    name: ListInfo
+    nameWithType: ListInfo
+    fullName: SuperOffice.Data.Dictionary.ListInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GenerateCommonQuery(SuperOffice.CRM.Lists.ListTableRows.CustomSearch,SuperOffice.Data.Dictionary.ListInfo)
+    name: GenerateCommonQuery
+    nameWithType: AssociateMDOProviderBase.GenerateCommonQuery
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GenerateCommonQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
+    name: ListTableRows.CustomSearch
+    nameWithType: ListTableRows.CustomSearch
+    fullName: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.Dictionary.ListInfo
+    name: ListInfo
+    nameWithType: ListInfo
+    fullName: SuperOffice.Data.Dictionary.ListInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{System.Int32})
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{System.Int32})
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  name: ExecuteQuery(Select, List<Int32>)
+  nameWithType: AssociateMDOProviderBase.ExecuteQuery(Select, List<Int32>)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select, System.Collections.Generic.List<System.Int32>)
+  nameWithType.vb: AssociateMDOProviderBase.ExecuteQuery(Select, List(Of Int32))
+  fullName.vb: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select, System.Collections.Generic.List(Of System.Int32))
+  name.vb: ExecuteQuery(Select, List(Of Int32))
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{System.Int32})
+    name: ExecuteQuery
+    nameWithType: AssociateMDOProviderBase.ExecuteQuery
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Select
+    name: Select
+    nameWithType: Select
+    fullName: SuperOffice.Data.SQL.Select
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{System.Int32})
+    name: ExecuteQuery
+    nameWithType: AssociateMDOProviderBase.ExecuteQuery
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Select
+    name: Select
+    nameWithType: Select
+    fullName: SuperOffice.Data.SQL.Select
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  name: ExecuteReader(SoCommand)
+  nameWithType: AssociateMDOProviderBase.ExecuteReader(SoCommand)
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
+    name: ExecuteReader
+    nameWithType: AssociateMDOProviderBase.ExecuteReader
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoCommand
+    name: SoCommand
+    nameWithType: SoCommand
+    fullName: SuperOffice.Data.SoCommand
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
+    name: ExecuteReader
+    nameWithType: AssociateMDOProviderBase.ExecuteReader
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ExecuteReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoCommand
+    name: SoCommand
+    nameWithType: SoCommand
+    fullName: SuperOffice.Data.SoCommand
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ResortFlattenedList
+  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.ResortFlattenedList
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  name: ResortFlattenedList()
+  nameWithType: AssociateMDOProviderBase.ResortFlattenedList()
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ResortFlattenedList()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ResortFlattenedList
+    name: ResortFlattenedList
+    nameWithType: AssociateMDOProviderBase.ResortFlattenedList
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ResortFlattenedList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ResortFlattenedList
+    name: ResortFlattenedList
+    nameWithType: AssociateMDOProviderBase.ResortFlattenedList
+    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.ResortFlattenedList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.HistoryInfo
+  commentId: P:SuperOffice.CRM.Lists.AssociateMDOProviderBase.HistoryInfo
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  name: HistoryInfo
+  nameWithType: AssociateMDOProviderBase.HistoryInfo
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.HistoryInfo
+- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.PersonTableInfo
+  commentId: P:SuperOffice.CRM.Lists.AssociateMDOProviderBase.PersonTableInfo
+  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
+  isExternal: true
+  name: PersonTableInfo
+  nameWithType: AssociateMDOProviderBase.PersonTableInfo
+  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.PersonTableInfo
+- uid: SuperOffice.CRM.Lists.MDOProviderBase._historyIds
+  commentId: F:SuperOffice.CRM.Lists.MDOProviderBase._historyIds
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: _historyIds
+  nameWithType: MDOProviderBase._historyIds
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase._historyIds
+- uid: SuperOffice.CRM.Lists.MDOProviderBase._searchValue
+  commentId: F:SuperOffice.CRM.Lists.MDOProviderBase._searchValue
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: _searchValue
+  nameWithType: MDOProviderBase._searchValue
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase._searchValue
+- uid: SuperOffice.CRM.Lists.MDOProviderBase._forceFlatList
+  commentId: F:SuperOffice.CRM.Lists.MDOProviderBase._forceFlatList
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: _forceFlatList
+  nameWithType: MDOProviderBase._forceFlatList
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase._forceFlatList
+- uid: SuperOffice.CRM.Lists.MDOProviderBase._rootCollection
+  commentId: F:SuperOffice.CRM.Lists.MDOProviderBase._rootCollection
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: _rootCollection
+  nameWithType: MDOProviderBase._rootCollection
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase._rootCollection
+- uid: SuperOffice.CRM.Lists.MDOProviderBase._historyCollection
+  commentId: F:SuperOffice.CRM.Lists.MDOProviderBase._historyCollection
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: _historyCollection
+  nameWithType: MDOProviderBase._historyCollection
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase._historyCollection
+- uid: SuperOffice.CRM.Lists.MDOProviderBase._headingCollection
+  commentId: F:SuperOffice.CRM.Lists.MDOProviderBase._headingCollection
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: _headingCollection
+  nameWithType: MDOProviderBase._headingCollection
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase._headingCollection
+- uid: SuperOffice.CRM.Lists.MDOProviderBase._declaredListName
+  commentId: F:SuperOffice.CRM.Lists.MDOProviderBase._declaredListName
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: _declaredListName
+  nameWithType: MDOProviderBase._declaredListName
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase._declaredListName
+- uid: SuperOffice.CRM.Lists.MDOProviderBase._tableRows
+  commentId: F:SuperOffice.CRM.Lists.MDOProviderBase._tableRows
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: _tableRows
+  nameWithType: MDOProviderBase._tableRows
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase._tableRows
+- uid: SuperOffice.CRM.Lists.MDOProviderBase._nodeType
+  commentId: F:SuperOffice.CRM.Lists.MDOProviderBase._nodeType
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: _nodeType
+  nameWithType: MDOProviderBase._nodeType
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase._nodeType
+- uid: SuperOffice.CRM.Lists.MDOProviderBase._listName
+  commentId: F:SuperOffice.CRM.Lists.MDOProviderBase._listName
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: _listName
+  nameWithType: MDOProviderBase._listName
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase._listName
+- uid: SuperOffice.CRM.Lists.MDOProviderBase._tableName
+  commentId: F:SuperOffice.CRM.Lists.MDOProviderBase._tableName
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: _tableName
+  nameWithType: MDOProviderBase._tableName
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase._tableName
+- uid: SuperOffice.CRM.Lists.MDOProviderBase._tableListInfo
+  commentId: F:SuperOffice.CRM.Lists.MDOProviderBase._tableListInfo
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: _tableListInfo
+  nameWithType: MDOProviderBase._tableListInfo
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase._tableListInfo
+- uid: SuperOffice.CRM.Lists.MDOProviderBase._listInfo
+  commentId: F:SuperOffice.CRM.Lists.MDOProviderBase._listInfo
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: _listInfo
+  nameWithType: MDOProviderBase._listInfo
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase._listInfo
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.FillList
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.FillList
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: FillList()
+  nameWithType: MDOProviderBase.FillList()
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.FillList()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.FillList
+    name: FillList
+    nameWithType: MDOProviderBase.FillList
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.FillList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.FillList
+    name: FillList
+    nameWithType: MDOProviderBase.FillList
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.FillList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.AddSimpleListOrderBy(SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.AddSimpleListOrderBy(SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: AddSimpleListOrderBy(ListTableRows.CustomSearch)
+  nameWithType: MDOProviderBase.AddSimpleListOrderBy(ListTableRows.CustomSearch)
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.AddSimpleListOrderBy(SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.AddSimpleListOrderBy(SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
+    name: AddSimpleListOrderBy
+    nameWithType: MDOProviderBase.AddSimpleListOrderBy
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.AddSimpleListOrderBy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
+    name: ListTableRows.CustomSearch
+    nameWithType: ListTableRows.CustomSearch
+    fullName: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.AddSimpleListOrderBy(SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
+    name: AddSimpleListOrderBy
+    nameWithType: MDOProviderBase.AddSimpleListOrderBy
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.AddSimpleListOrderBy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
+    name: ListTableRows.CustomSearch
+    nameWithType: ListTableRows.CustomSearch
+    fullName: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQuery(System.Boolean,System.Int32[])
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQuery(System.Boolean,System.Int32[])
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: GetItemsAndHeadingsQuery(Boolean, Int32[])
+  nameWithType: MDOProviderBase.GetItemsAndHeadingsQuery(Boolean, Int32[])
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQuery(System.Boolean, System.Int32[])
+  nameWithType.vb: MDOProviderBase.GetItemsAndHeadingsQuery(Boolean, Int32())
+  fullName.vb: SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQuery(System.Boolean, System.Int32())
+  name.vb: GetItemsAndHeadingsQuery(Boolean, Int32())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQuery(System.Boolean,System.Int32[])
+    name: GetItemsAndHeadingsQuery
+    nameWithType: MDOProviderBase.GetItemsAndHeadingsQuery
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQuery(System.Boolean,System.Int32[])
+    name: GetItemsAndHeadingsQuery
+    nameWithType: MDOProviderBase.GetItemsAndHeadingsQuery
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemsAndHeadingsQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemId(SuperOffice.CRM.Lists.ListTableRow)
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetItemId(SuperOffice.CRM.Lists.ListTableRow)
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: GetItemId(ListTableRow)
+  nameWithType: MDOProviderBase.GetItemId(ListTableRow)
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemId(SuperOffice.CRM.Lists.ListTableRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemId(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetItemId
+    nameWithType: MDOProviderBase.GetItemId
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemId(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetItemId
+    nameWithType: MDOProviderBase.GetItemId
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemRank(SuperOffice.CRM.Lists.ListTableRow)
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetItemRank(SuperOffice.CRM.Lists.ListTableRow)
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: GetItemRank(ListTableRow)
+  nameWithType: MDOProviderBase.GetItemRank(ListTableRow)
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemRank(SuperOffice.CRM.Lists.ListTableRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemRank(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetItemRank
+    nameWithType: MDOProviderBase.GetItemRank
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemRank
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemRank(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetItemRank
+    nameWithType: MDOProviderBase.GetItemRank
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemRank
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemDeleted(SuperOffice.CRM.Lists.ListTableRow)
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetItemDeleted(SuperOffice.CRM.Lists.ListTableRow)
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: GetItemDeleted(ListTableRow)
+  nameWithType: MDOProviderBase.GetItemDeleted(ListTableRow)
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemDeleted(SuperOffice.CRM.Lists.ListTableRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemDeleted(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetItemDeleted
+    nameWithType: MDOProviderBase.GetItemDeleted
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemDeleted
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemDeleted(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetItemDeleted
+    nameWithType: MDOProviderBase.GetItemDeleted
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemDeleted
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemColor(SuperOffice.CRM.Lists.ListTableRow)
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetItemColor(SuperOffice.CRM.Lists.ListTableRow)
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: GetItemColor(ListTableRow)
+  nameWithType: MDOProviderBase.GetItemColor(ListTableRow)
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemColor(SuperOffice.CRM.Lists.ListTableRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemColor(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetItemColor
+    nameWithType: MDOProviderBase.GetItemColor
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemColor
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemColor(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetItemColor
+    nameWithType: MDOProviderBase.GetItemColor
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemColor
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemExtraInfo(SuperOffice.CRM.Lists.ListTableRow)
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetItemExtraInfo(SuperOffice.CRM.Lists.ListTableRow)
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: GetItemExtraInfo(ListTableRow)
+  nameWithType: MDOProviderBase.GetItemExtraInfo(ListTableRow)
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemExtraInfo(SuperOffice.CRM.Lists.ListTableRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemExtraInfo(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetItemExtraInfo
+    nameWithType: MDOProviderBase.GetItemExtraInfo
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemExtraInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemExtraInfo(SuperOffice.CRM.Lists.ListTableRow)
+    name: GetItemExtraInfo
+    nameWithType: MDOProviderBase.GetItemExtraInfo
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemExtraInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.OnAddRootElementToCollection(SuperOffice.CRM.Lists.SoListItem)
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.OnAddRootElementToCollection(SuperOffice.CRM.Lists.SoListItem)
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: OnAddRootElementToCollection(SoListItem)
+  nameWithType: MDOProviderBase.OnAddRootElementToCollection(SoListItem)
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.OnAddRootElementToCollection(SuperOffice.CRM.Lists.SoListItem)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.OnAddRootElementToCollection(SuperOffice.CRM.Lists.SoListItem)
+    name: OnAddRootElementToCollection
+    nameWithType: MDOProviderBase.OnAddRootElementToCollection
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.OnAddRootElementToCollection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.SoListItem
+    name: SoListItem
+    nameWithType: SoListItem
+    fullName: SuperOffice.CRM.Lists.SoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.OnAddRootElementToCollection(SuperOffice.CRM.Lists.SoListItem)
+    name: OnAddRootElementToCollection
+    nameWithType: MDOProviderBase.OnAddRootElementToCollection
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.OnAddRootElementToCollection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.SoListItem
+    name: SoListItem
+    nameWithType: SoListItem
+    fullName: SuperOffice.CRM.Lists.SoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.GetListLowerLimit
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetListLowerLimit
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: GetListLowerLimit()
+  nameWithType: MDOProviderBase.GetListLowerLimit()
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetListLowerLimit()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetListLowerLimit
+    name: GetListLowerLimit
+    nameWithType: MDOProviderBase.GetListLowerLimit
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetListLowerLimit
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetListLowerLimit
+    name: GetListLowerLimit
+    nameWithType: MDOProviderBase.GetListLowerLimit
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetListLowerLimit
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.GetPreferredSortOrder
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetPreferredSortOrder
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: GetPreferredSortOrder()
+  nameWithType: MDOProviderBase.GetPreferredSortOrder()
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetPreferredSortOrder()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetPreferredSortOrder
+    name: GetPreferredSortOrder
+    nameWithType: MDOProviderBase.GetPreferredSortOrder
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetPreferredSortOrder
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetPreferredSortOrder
+    name: GetPreferredSortOrder
+    nameWithType: MDOProviderBase.GetPreferredSortOrder
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetPreferredSortOrder
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.BuildMdoCollections
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.BuildMdoCollections
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: BuildMdoCollections()
+  nameWithType: MDOProviderBase.BuildMdoCollections()
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.BuildMdoCollections()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.BuildMdoCollections
+    name: BuildMdoCollections
+    nameWithType: MDOProviderBase.BuildMdoCollections
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.BuildMdoCollections
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.BuildMdoCollections
+    name: BuildMdoCollections
+    nameWithType: MDOProviderBase.BuildMdoCollections
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.BuildMdoCollections
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.System#Collections#Generic#IEnumerable{SuperOffice#CRM#Lists#ISoListItem}#GetEnumerator
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.System#Collections#Generic#IEnumerable{SuperOffice#CRM#Lists#ISoListItem}#GetEnumerator
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: IEnumerable<ISoListItem>.GetEnumerator()
+  nameWithType: MDOProviderBase.IEnumerable<ISoListItem>.GetEnumerator()
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.System.Collections.Generic.IEnumerable<SuperOffice.CRM.Lists.ISoListItem>.GetEnumerator()
+  nameWithType.vb: MDOProviderBase.System.Collections.Generic.IEnumerable<SuperOffice.CRM.Lists.ISoListItem>.GetEnumerator()
+  name.vb: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Lists.ISoListItem>.GetEnumerator()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.System#Collections#Generic#IEnumerable{SuperOffice#CRM#Lists#ISoListItem}#GetEnumerator
+    name: IEnumerable<ISoListItem>.GetEnumerator
+    nameWithType: MDOProviderBase.IEnumerable<ISoListItem>.GetEnumerator
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.System.Collections.Generic.IEnumerable<SuperOffice.CRM.Lists.ISoListItem>.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.System#Collections#Generic#IEnumerable{SuperOffice#CRM#Lists#ISoListItem}#GetEnumerator
+    name: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Lists.ISoListItem>.GetEnumerator
+    nameWithType: MDOProviderBase.System.Collections.Generic.IEnumerable<SuperOffice.CRM.Lists.ISoListItem>.GetEnumerator
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.System.Collections.Generic.IEnumerable<SuperOffice.CRM.Lists.ISoListItem>.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.System#Collections#IEnumerable#GetEnumerator
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.System#Collections#IEnumerable#GetEnumerator
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: IEnumerable.GetEnumerator()
+  nameWithType: MDOProviderBase.IEnumerable.GetEnumerator()
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.System.Collections.IEnumerable.GetEnumerator()
+  nameWithType.vb: MDOProviderBase.System.Collections.IEnumerable.GetEnumerator()
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.System#Collections#IEnumerable#GetEnumerator
+    name: IEnumerable.GetEnumerator
+    nameWithType: MDOProviderBase.IEnumerable.GetEnumerator
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.System#Collections#IEnumerable#GetEnumerator
+    name: System.Collections.IEnumerable.GetEnumerator
+    nameWithType: MDOProviderBase.System.Collections.IEnumerable.GetEnumerator
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.IncludeDeletedItems
+  commentId: P:SuperOffice.CRM.Lists.MDOProviderBase.IncludeDeletedItems
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: IncludeDeletedItems
+  nameWithType: MDOProviderBase.IncludeDeletedItems
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.IncludeDeletedItems
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.InhibitResortOnFlattening
+  commentId: P:SuperOffice.CRM.Lists.MDOProviderBase.InhibitResortOnFlattening
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: InhibitResortOnFlattening
+  nameWithType: MDOProviderBase.InhibitResortOnFlattening
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.InhibitResortOnFlattening
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.IsFinalListFlat
+  commentId: P:SuperOffice.CRM.Lists.MDOProviderBase.IsFinalListFlat
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: IsFinalListFlat
+  nameWithType: MDOProviderBase.IsFinalListFlat
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.IsFinalListFlat
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.HistoryItems
+  commentId: P:SuperOffice.CRM.Lists.MDOProviderBase.HistoryItems
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: HistoryItems
+  nameWithType: MDOProviderBase.HistoryItems
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.HistoryItems
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.RootItems
+  commentId: P:SuperOffice.CRM.Lists.MDOProviderBase.RootItems
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: RootItems
+  nameWithType: MDOProviderBase.RootItems
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.RootItems
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.HeadingItems
+  commentId: P:SuperOffice.CRM.Lists.MDOProviderBase.HeadingItems
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: HeadingItems
+  nameWithType: MDOProviderBase.HeadingItems
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.HeadingItems
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}.IEnumerableExtensions.ForEach``1(System.Action{SuperOffice.CRM.Lists.ISoListItem})
+  commentId: M:IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  name: ForEach<ISoListItem>(Action<ISoListItem>)
+  nameWithType: IEnumerableExtensions.ForEach<ISoListItem>(Action<ISoListItem>)
+  fullName: IEnumerableExtensions.ForEach<SuperOffice.CRM.Lists.ISoListItem>(System.Action<SuperOffice.CRM.Lists.ISoListItem>)
+  nameWithType.vb: IEnumerableExtensions.ForEach(Of ISoListItem)(Action(Of ISoListItem))
+  fullName.vb: IEnumerableExtensions.ForEach(Of SuperOffice.CRM.Lists.ISoListItem)(System.Action(Of SuperOffice.CRM.Lists.ISoListItem))
+  name.vb: ForEach(Of ISoListItem)(Action(Of ISoListItem))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ForEach``1(System.Action{``0})
+    name: ForEach<ISoListItem>
+    nameWithType: IEnumerableExtensions.ForEach<ISoListItem>
+    fullName: IEnumerableExtensions.ForEach<SuperOffice.CRM.Lists.ISoListItem>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ForEach``1(System.Action{``0})
+    name: ForEach(Of ISoListItem)
+    nameWithType: IEnumerableExtensions.ForEach(Of ISoListItem)
+    fullName: IEnumerableExtensions.ForEach(Of SuperOffice.CRM.Lists.ISoListItem)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}.IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem})
+  commentId: M:IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
+  name: ContainsAny<ISoListItem>(IEnumerable<ISoListItem>)
+  nameWithType: IEnumerableExtensions.ContainsAny<ISoListItem>(IEnumerable<ISoListItem>)
+  fullName: IEnumerableExtensions.ContainsAny<SuperOffice.CRM.Lists.ISoListItem>(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Lists.ISoListItem>)
+  nameWithType.vb: IEnumerableExtensions.ContainsAny(Of ISoListItem)(IEnumerable(Of ISoListItem))
+  fullName.vb: IEnumerableExtensions.ContainsAny(Of SuperOffice.CRM.Lists.ISoListItem)(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Lists.ISoListItem))
+  name.vb: ContainsAny(Of ISoListItem)(IEnumerable(Of ISoListItem))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0})
+    name: ContainsAny<ISoListItem>
+    nameWithType: IEnumerableExtensions.ContainsAny<ISoListItem>
+    fullName: IEnumerableExtensions.ContainsAny<SuperOffice.CRM.Lists.ISoListItem>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0})
+    name: ContainsAny(Of ISoListItem)
+    nameWithType: IEnumerableExtensions.ContainsAny(Of ISoListItem)
+    fullName: IEnumerableExtensions.ContainsAny(Of SuperOffice.CRM.Lists.ISoListItem)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}.IEnumerableExtensions.Batch``1(System.Int32)
+  commentId: M:IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name: Batch<ISoListItem>(Int32)
+  nameWithType: IEnumerableExtensions.Batch<ISoListItem>(Int32)
+  fullName: IEnumerableExtensions.Batch<SuperOffice.CRM.Lists.ISoListItem>(System.Int32)
+  nameWithType.vb: IEnumerableExtensions.Batch(Of ISoListItem)(Int32)
+  fullName.vb: IEnumerableExtensions.Batch(Of SuperOffice.CRM.Lists.ISoListItem)(System.Int32)
+  name.vb: Batch(Of ISoListItem)(Int32)
+  spec.csharp:
+  - uid: IEnumerableExtensions.Batch``1(System.Int32)
+    name: Batch<ISoListItem>
+    nameWithType: IEnumerableExtensions.Batch<ISoListItem>
+    fullName: IEnumerableExtensions.Batch<SuperOffice.CRM.Lists.ISoListItem>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.Batch``1(System.Int32)
+    name: Batch(Of ISoListItem)
+    nameWithType: IEnumerableExtensions.Batch(Of ISoListItem)
+    fullName: IEnumerableExtensions.Batch(Of SuperOffice.CRM.Lists.ISoListItem)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}.IEnumerableExtensions.IndexOf``1(SuperOffice.CRM.Lists.ISoListItem,System.Int32)
+  commentId: M:IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},``0,System.Int32)
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},``0,System.Int32)
+  name: IndexOf<ISoListItem>(ISoListItem, Int32)
+  nameWithType: IEnumerableExtensions.IndexOf<ISoListItem>(ISoListItem, Int32)
+  fullName: IEnumerableExtensions.IndexOf<SuperOffice.CRM.Lists.ISoListItem>(SuperOffice.CRM.Lists.ISoListItem, System.Int32)
+  nameWithType.vb: IEnumerableExtensions.IndexOf(Of ISoListItem)(ISoListItem, Int32)
+  fullName.vb: IEnumerableExtensions.IndexOf(Of SuperOffice.CRM.Lists.ISoListItem)(SuperOffice.CRM.Lists.ISoListItem, System.Int32)
+  name.vb: IndexOf(Of ISoListItem)(ISoListItem, Int32)
+  spec.csharp:
+  - uid: IEnumerableExtensions.IndexOf``1(``0,System.Int32)
+    name: IndexOf<ISoListItem>
+    nameWithType: IEnumerableExtensions.IndexOf<ISoListItem>
+    fullName: IEnumerableExtensions.IndexOf<SuperOffice.CRM.Lists.ISoListItem>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.IndexOf``1(``0,System.Int32)
+    name: IndexOf(Of ISoListItem)
+    nameWithType: IEnumerableExtensions.IndexOf(Of ISoListItem)
+    fullName: IEnumerableExtensions.IndexOf(Of SuperOffice.CRM.Lists.ISoListItem)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}.IEnumerableExtensions.IndexOf``1(System.Func{SuperOffice.CRM.Lists.ISoListItem,System.Boolean},System.Int32)
+  commentId: M:IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32)
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32)
+  name: IndexOf<ISoListItem>(Func<ISoListItem, Boolean>, Int32)
+  nameWithType: IEnumerableExtensions.IndexOf<ISoListItem>(Func<ISoListItem, Boolean>, Int32)
+  fullName: IEnumerableExtensions.IndexOf<SuperOffice.CRM.Lists.ISoListItem>(System.Func<SuperOffice.CRM.Lists.ISoListItem, System.Boolean>, System.Int32)
+  nameWithType.vb: IEnumerableExtensions.IndexOf(Of ISoListItem)(Func(Of ISoListItem, Boolean), Int32)
+  fullName.vb: IEnumerableExtensions.IndexOf(Of SuperOffice.CRM.Lists.ISoListItem)(System.Func(Of SuperOffice.CRM.Lists.ISoListItem, System.Boolean), System.Int32)
+  name.vb: IndexOf(Of ISoListItem)(Func(Of ISoListItem, Boolean), Int32)
+  spec.csharp:
+  - uid: IEnumerableExtensions.IndexOf``1(System.Func{``0,System.Boolean},System.Int32)
+    name: IndexOf<ISoListItem>
+    nameWithType: IEnumerableExtensions.IndexOf<ISoListItem>
+    fullName: IEnumerableExtensions.IndexOf<SuperOffice.CRM.Lists.ISoListItem>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.IndexOf``1(System.Func{``0,System.Boolean},System.Int32)
+    name: IndexOf(Of ISoListItem)
+    nameWithType: IEnumerableExtensions.IndexOf(Of ISoListItem)
+    fullName: IEnumerableExtensions.IndexOf(Of SuperOffice.CRM.Lists.ISoListItem)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}.IEnumerableExtensions.Permute``1(System.Int32)
+  commentId: M:IEnumerableExtensions.Permute``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.Permute``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name: Permute<ISoListItem>(Int32)
+  nameWithType: IEnumerableExtensions.Permute<ISoListItem>(Int32)
+  fullName: IEnumerableExtensions.Permute<SuperOffice.CRM.Lists.ISoListItem>(System.Int32)
+  nameWithType.vb: IEnumerableExtensions.Permute(Of ISoListItem)(Int32)
+  fullName.vb: IEnumerableExtensions.Permute(Of SuperOffice.CRM.Lists.ISoListItem)(System.Int32)
+  name.vb: Permute(Of ISoListItem)(Int32)
+  spec.csharp:
+  - uid: IEnumerableExtensions.Permute``1(System.Int32)
+    name: Permute<ISoListItem>
+    nameWithType: IEnumerableExtensions.Permute<ISoListItem>
+    fullName: IEnumerableExtensions.Permute<SuperOffice.CRM.Lists.ISoListItem>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.Permute``1(System.Int32)
+    name: Permute(Of ISoListItem)
+    nameWithType: IEnumerableExtensions.Permute(Of ISoListItem)
+    fullName: IEnumerableExtensions.Permute(Of SuperOffice.CRM.Lists.ISoListItem)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}.IEnumerableExtensions.PermissiveToDictionary``3(System.Func{SuperOffice.CRM.Lists.ISoListItem,{K}},System.Func{SuperOffice.CRM.Lists.ISoListItem,{V}})
+  commentId: M:IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  name: PermissiveToDictionary<ISoListItem, K, V>(Func<ISoListItem, K>, Func<ISoListItem, V>)
+  nameWithType: IEnumerableExtensions.PermissiveToDictionary<ISoListItem, K, V>(Func<ISoListItem, K>, Func<ISoListItem, V>)
+  fullName: IEnumerableExtensions.PermissiveToDictionary<SuperOffice.CRM.Lists.ISoListItem, K, V>(System.Func<SuperOffice.CRM.Lists.ISoListItem, K>, System.Func<SuperOffice.CRM.Lists.ISoListItem, V>)
+  nameWithType.vb: IEnumerableExtensions.PermissiveToDictionary(Of ISoListItem, K, V)(Func(Of ISoListItem, K), Func(Of ISoListItem, V))
+  fullName.vb: IEnumerableExtensions.PermissiveToDictionary(Of SuperOffice.CRM.Lists.ISoListItem, K, V)(System.Func(Of SuperOffice.CRM.Lists.ISoListItem, K), System.Func(Of SuperOffice.CRM.Lists.ISoListItem, V))
+  name.vb: PermissiveToDictionary(Of ISoListItem, K, V)(Func(Of ISoListItem, K), Func(Of ISoListItem, V))
+  spec.csharp:
+  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Func{``0,``1},System.Func{``0,``2})
+    name: PermissiveToDictionary<ISoListItem, K, V>
+    nameWithType: IEnumerableExtensions.PermissiveToDictionary<ISoListItem, K, V>
+    fullName: IEnumerableExtensions.PermissiveToDictionary<SuperOffice.CRM.Lists.ISoListItem, K, V>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Func{``0,``1},System.Func{``0,``2})
+    name: PermissiveToDictionary(Of ISoListItem, K, V)
+    nameWithType: IEnumerableExtensions.PermissiveToDictionary(Of ISoListItem, K, V)
+    fullName: IEnumerableExtensions.PermissiveToDictionary(Of SuperOffice.CRM.Lists.ISoListItem, K, V)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}.IEnumerableExtensions.PermissiveToDictionary``3(System.Func{SuperOffice.CRM.Lists.ISoListItem,{K}},System.Func{SuperOffice.CRM.Lists.ISoListItem,{V}},System.Collections.Generic.IEqualityComparer{{K}})
+  commentId: M:IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  name: PermissiveToDictionary<ISoListItem, K, V>(Func<ISoListItem, K>, Func<ISoListItem, V>, IEqualityComparer<K>)
+  nameWithType: IEnumerableExtensions.PermissiveToDictionary<ISoListItem, K, V>(Func<ISoListItem, K>, Func<ISoListItem, V>, IEqualityComparer<K>)
+  fullName: IEnumerableExtensions.PermissiveToDictionary<SuperOffice.CRM.Lists.ISoListItem, K, V>(System.Func<SuperOffice.CRM.Lists.ISoListItem, K>, System.Func<SuperOffice.CRM.Lists.ISoListItem, V>, System.Collections.Generic.IEqualityComparer<K>)
+  nameWithType.vb: IEnumerableExtensions.PermissiveToDictionary(Of ISoListItem, K, V)(Func(Of ISoListItem, K), Func(Of ISoListItem, V), IEqualityComparer(Of K))
+  fullName.vb: IEnumerableExtensions.PermissiveToDictionary(Of SuperOffice.CRM.Lists.ISoListItem, K, V)(System.Func(Of SuperOffice.CRM.Lists.ISoListItem, K), System.Func(Of SuperOffice.CRM.Lists.ISoListItem, V), System.Collections.Generic.IEqualityComparer(Of K))
+  name.vb: PermissiveToDictionary(Of ISoListItem, K, V)(Func(Of ISoListItem, K), Func(Of ISoListItem, V), IEqualityComparer(Of K))
+  spec.csharp:
+  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: PermissiveToDictionary<ISoListItem, K, V>
+    nameWithType: IEnumerableExtensions.PermissiveToDictionary<ISoListItem, K, V>
+    fullName: IEnumerableExtensions.PermissiveToDictionary<SuperOffice.CRM.Lists.ISoListItem, K, V>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: PermissiveToDictionary(Of ISoListItem, K, V)
+    nameWithType: IEnumerableExtensions.PermissiveToDictionary(Of ISoListItem, K, V)
+    fullName: IEnumerableExtensions.PermissiveToDictionary(Of SuperOffice.CRM.Lists.ISoListItem, K, V)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ResourceRestrictionsMDOProvider, To>()
+  nameWithType: EnumUtil.MapEnums<ResourceRestrictionsMDOProvider, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ResourceRestrictionsMDOProvider, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider, To)()
+  name.vb: MapEnums(Of ResourceRestrictionsMDOProvider, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ResourceRestrictionsMDOProvider, To>
+    nameWithType: EnumUtil.MapEnums<ResourceRestrictionsMDOProvider, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ResourceRestrictionsMDOProvider, To)
+    nameWithType: EnumUtil.MapEnums(Of ResourceRestrictionsMDOProvider, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Lists.ISoListItem}.SuperOffice.Util.CollectionOps.AtLeastOne``1
+  commentId: M:SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
+  parent: SuperOffice.Util.CollectionOps
+  definition: SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
+  name: AtLeastOne<ISoListItem>()
+  nameWithType: CollectionOps.AtLeastOne<ISoListItem>()
+  fullName: SuperOffice.Util.CollectionOps.AtLeastOne<SuperOffice.CRM.Lists.ISoListItem>()
+  nameWithType.vb: CollectionOps.AtLeastOne(Of ISoListItem)()
+  fullName.vb: SuperOffice.Util.CollectionOps.AtLeastOne(Of SuperOffice.CRM.Lists.ISoListItem)()
+  name.vb: AtLeastOne(Of ISoListItem)()
+  spec.csharp:
+  - uid: SuperOffice.Util.CollectionOps.AtLeastOne``1
+    name: AtLeastOne<ISoListItem>
+    nameWithType: CollectionOps.AtLeastOne<ISoListItem>
+    fullName: SuperOffice.Util.CollectionOps.AtLeastOne<SuperOffice.CRM.Lists.ISoListItem>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.CollectionOps.AtLeastOne``1
+    name: AtLeastOne(Of ISoListItem)
+    nameWithType: CollectionOps.AtLeastOne(Of ISoListItem)
+    fullName: SuperOffice.Util.CollectionOps.AtLeastOne(Of SuperOffice.CRM.Lists.ISoListItem)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ResourceRestrictionsMDOProvider, To>()
+  nameWithType: Converters.MapEnums<ResourceRestrictionsMDOProvider, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider, To>()
+  nameWithType.vb: Converters.MapEnums(Of ResourceRestrictionsMDOProvider, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider, To)()
+  name.vb: MapEnums(Of ResourceRestrictionsMDOProvider, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ResourceRestrictionsMDOProvider, To>
+    nameWithType: Converters.MapEnums<ResourceRestrictionsMDOProvider, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ResourceRestrictionsMDOProvider, To)
+    nameWithType: Converters.MapEnums(Of ResourceRestrictionsMDOProvider, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  commentId: M:IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  isExternal: true
+  name: ForEach<T>(IEnumerable<T>, Action<T>)
+  nameWithType: IEnumerableExtensions.ForEach<T>(IEnumerable<T>, Action<T>)
+  fullName: IEnumerableExtensions.ForEach<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T>)
+  nameWithType.vb: IEnumerableExtensions.ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+  fullName.vb: IEnumerableExtensions.ForEach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T))
+  name.vb: ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+    name: ForEach<T>
+    nameWithType: IEnumerableExtensions.ForEach<T>
+    fullName: IEnumerableExtensions.ForEach<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+    name: ForEach(Of T)
+    nameWithType: IEnumerableExtensions.ForEach(Of T)
+    fullName: IEnumerableExtensions.ForEach(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerableExtensions
+  commentId: T:IEnumerableExtensions
+  isExternal: true
+  name: IEnumerableExtensions
+  nameWithType: IEnumerableExtensions
+  fullName: IEnumerableExtensions
+- uid: IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
+  commentId: M:IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
+  isExternal: true
+  name: ContainsAny<T>(IEnumerable<T>, IEnumerable<T>)
+  nameWithType: IEnumerableExtensions.ContainsAny<T>(IEnumerable<T>, IEnumerable<T>)
+  fullName: IEnumerableExtensions.ContainsAny<T>(System.Collections.Generic.IEnumerable<T>, System.Collections.Generic.IEnumerable<T>)
+  nameWithType.vb: IEnumerableExtensions.ContainsAny(Of T)(IEnumerable(Of T), IEnumerable(Of T))
+  fullName.vb: IEnumerableExtensions.ContainsAny(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Collections.Generic.IEnumerable(Of T))
+  name.vb: ContainsAny(Of T)(IEnumerable(Of T), IEnumerable(Of T))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
+    name: ContainsAny<T>
+    nameWithType: IEnumerableExtensions.ContainsAny<T>
+    fullName: IEnumerableExtensions.ContainsAny<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
+    name: ContainsAny(Of T)
+    nameWithType: IEnumerableExtensions.ContainsAny(Of T)
+    fullName: IEnumerableExtensions.ContainsAny(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  commentId: M:IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  isExternal: true
+  name: Batch<T>(IEnumerable<T>, Int32)
+  nameWithType: IEnumerableExtensions.Batch<T>(IEnumerable<T>, Int32)
+  fullName: IEnumerableExtensions.Batch<T>(System.Collections.Generic.IEnumerable<T>, System.Int32)
+  nameWithType.vb: IEnumerableExtensions.Batch(Of T)(IEnumerable(Of T), Int32)
+  fullName.vb: IEnumerableExtensions.Batch(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Int32)
+  name.vb: Batch(Of T)(IEnumerable(Of T), Int32)
+  spec.csharp:
+  - uid: IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+    name: Batch<T>
+    nameWithType: IEnumerableExtensions.Batch<T>
+    fullName: IEnumerableExtensions.Batch<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+    name: Batch(Of T)
+    nameWithType: IEnumerableExtensions.Batch(Of T)
+    fullName: IEnumerableExtensions.Batch(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},``0,System.Int32)
+  commentId: M:IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},``0,System.Int32)
+  isExternal: true
+  name: IndexOf<T>(IEnumerable<T>, T, Int32)
+  nameWithType: IEnumerableExtensions.IndexOf<T>(IEnumerable<T>, T, Int32)
+  fullName: IEnumerableExtensions.IndexOf<T>(System.Collections.Generic.IEnumerable<T>, T, System.Int32)
+  nameWithType.vb: IEnumerableExtensions.IndexOf(Of T)(IEnumerable(Of T), T, Int32)
+  fullName.vb: IEnumerableExtensions.IndexOf(Of T)(System.Collections.Generic.IEnumerable(Of T), T, System.Int32)
+  name.vb: IndexOf(Of T)(IEnumerable(Of T), T, Int32)
+  spec.csharp:
+  - uid: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},``0,System.Int32)
+    name: IndexOf<T>
+    nameWithType: IEnumerableExtensions.IndexOf<T>
+    fullName: IEnumerableExtensions.IndexOf<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},``0,System.Int32)
+    name: IndexOf(Of T)
+    nameWithType: IEnumerableExtensions.IndexOf(Of T)
+    fullName: IEnumerableExtensions.IndexOf(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32)
+  commentId: M:IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32)
+  isExternal: true
+  name: IndexOf<T>(IEnumerable<T>, Func<T, Boolean>, Int32)
+  nameWithType: IEnumerableExtensions.IndexOf<T>(IEnumerable<T>, Func<T, Boolean>, Int32)
+  fullName: IEnumerableExtensions.IndexOf<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, System.Boolean>, System.Int32)
+  nameWithType.vb: IEnumerableExtensions.IndexOf(Of T)(IEnumerable(Of T), Func(Of T, Boolean), Int32)
+  fullName.vb: IEnumerableExtensions.IndexOf(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, System.Boolean), System.Int32)
+  name.vb: IndexOf(Of T)(IEnumerable(Of T), Func(Of T, Boolean), Int32)
+  spec.csharp:
+  - uid: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32)
+    name: IndexOf<T>
+    nameWithType: IEnumerableExtensions.IndexOf<T>
+    fullName: IEnumerableExtensions.IndexOf<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32)
+    name: IndexOf(Of T)
+    nameWithType: IEnumerableExtensions.IndexOf(Of T)
+    fullName: IEnumerableExtensions.IndexOf(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerableExtensions.Permute``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  commentId: M:IEnumerableExtensions.Permute``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  isExternal: true
+  name: Permute<T>(IEnumerable<T>, Int32)
+  nameWithType: IEnumerableExtensions.Permute<T>(IEnumerable<T>, Int32)
+  fullName: IEnumerableExtensions.Permute<T>(System.Collections.Generic.IEnumerable<T>, System.Int32)
+  nameWithType.vb: IEnumerableExtensions.Permute(Of T)(IEnumerable(Of T), Int32)
+  fullName.vb: IEnumerableExtensions.Permute(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Int32)
+  name.vb: Permute(Of T)(IEnumerable(Of T), Int32)
+  spec.csharp:
+  - uid: IEnumerableExtensions.Permute``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+    name: Permute<T>
+    nameWithType: IEnumerableExtensions.Permute<T>
+    fullName: IEnumerableExtensions.Permute<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.Permute``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+    name: Permute(Of T)
+    nameWithType: IEnumerableExtensions.Permute(Of T)
+    fullName: IEnumerableExtensions.Permute(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  commentId: M:IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  isExternal: true
+  name: PermissiveToDictionary<T, K, V>(IEnumerable<T>, Func<T, K>, Func<T, V>)
+  nameWithType: IEnumerableExtensions.PermissiveToDictionary<T, K, V>(IEnumerable<T>, Func<T, K>, Func<T, V>)
+  fullName: IEnumerableExtensions.PermissiveToDictionary<T, K, V>(System.Collections.Generic.IEnumerable<T>, System.Func<T, K>, System.Func<T, V>)
+  nameWithType.vb: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)(IEnumerable(Of T), Func(Of T, K), Func(Of T, V))
+  fullName.vb: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, K), System.Func(Of T, V))
+  name.vb: PermissiveToDictionary(Of T, K, V)(IEnumerable(Of T), Func(Of T, K), Func(Of T, V))
+  spec.csharp:
+  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+    name: PermissiveToDictionary<T, K, V>
+    nameWithType: IEnumerableExtensions.PermissiveToDictionary<T, K, V>
+    fullName: IEnumerableExtensions.PermissiveToDictionary<T, K, V>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+    name: PermissiveToDictionary(Of T, K, V)
+    nameWithType: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)
+    fullName: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  commentId: M:IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  isExternal: true
+  name: PermissiveToDictionary<T, K, V>(IEnumerable<T>, Func<T, K>, Func<T, V>, IEqualityComparer<K>)
+  nameWithType: IEnumerableExtensions.PermissiveToDictionary<T, K, V>(IEnumerable<T>, Func<T, K>, Func<T, V>, IEqualityComparer<K>)
+  fullName: IEnumerableExtensions.PermissiveToDictionary<T, K, V>(System.Collections.Generic.IEnumerable<T>, System.Func<T, K>, System.Func<T, V>, System.Collections.Generic.IEqualityComparer<K>)
+  nameWithType.vb: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)(IEnumerable(Of T), Func(Of T, K), Func(Of T, V), IEqualityComparer(Of K))
+  fullName.vb: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, K), System.Func(Of T, V), System.Collections.Generic.IEqualityComparer(Of K))
+  name.vb: PermissiveToDictionary(Of T, K, V)(IEnumerable(Of T), Func(Of T, K), Func(Of T, V), IEqualityComparer(Of K))
+  spec.csharp:
+  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: PermissiveToDictionary<T, K, V>
+    nameWithType: IEnumerableExtensions.PermissiveToDictionary<T, K, V>
+    fullName: IEnumerableExtensions.PermissiveToDictionary<T, K, V>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: PermissiveToDictionary(Of T, K, V)
+    nameWithType: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)
+    fullName: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
+  commentId: M:SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
+  isExternal: true
+  name: AtLeastOne<T>(IEnumerable<T>)
+  nameWithType: CollectionOps.AtLeastOne<T>(IEnumerable<T>)
+  fullName: SuperOffice.Util.CollectionOps.AtLeastOne<T>(System.Collections.Generic.IEnumerable<T>)
+  nameWithType.vb: CollectionOps.AtLeastOne(Of T)(IEnumerable(Of T))
+  fullName.vb: SuperOffice.Util.CollectionOps.AtLeastOne(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  name.vb: AtLeastOne(Of T)(IEnumerable(Of T))
+  spec.csharp:
+  - uid: SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
+    name: AtLeastOne<T>
+    nameWithType: CollectionOps.AtLeastOne<T>
+    fullName: SuperOffice.Util.CollectionOps.AtLeastOne<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
+    name: AtLeastOne(Of T)
+    nameWithType: CollectionOps.AtLeastOne(Of T)
+    fullName: SuperOffice.Util.CollectionOps.AtLeastOne(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.CollectionOps
+  commentId: T:SuperOffice.Util.CollectionOps
+  parent: SuperOffice.Util
+  isExternal: true
+  name: CollectionOps
+  nameWithType: CollectionOps
+  fullName: SuperOffice.Util.CollectionOps
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.GetGroupingAllowedForList
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetGroupingAllowedForList
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: GetGroupingAllowedForList()
+  nameWithType: MDOProviderBase.GetGroupingAllowedForList()
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetGroupingAllowedForList()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetGroupingAllowedForList
+    name: GetGroupingAllowedForList
+    nameWithType: MDOProviderBase.GetGroupingAllowedForList
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetGroupingAllowedForList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetGroupingAllowedForList
+    name: GetGroupingAllowedForList
+    nameWithType: MDOProviderBase.GetGroupingAllowedForList
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetGroupingAllowedForList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider.GetGroupingAllowedForList*
+  commentId: Overload:SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider.GetGroupingAllowedForList
+  isExternal: true
+  name: GetGroupingAllowedForList
+  nameWithType: ResourceRestrictionsMDOProvider.GetGroupingAllowedForList
+  fullName: SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider.GetGroupingAllowedForList
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.AddGroupLinkJoin(System.Int32[],SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.AddGroupLinkJoin(System.Int32[],SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: AddGroupLinkJoin(Int32[], ListTableRows.CustomSearch)
+  nameWithType: MDOProviderBase.AddGroupLinkJoin(Int32[], ListTableRows.CustomSearch)
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.AddGroupLinkJoin(System.Int32[], SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
+  nameWithType.vb: MDOProviderBase.AddGroupLinkJoin(Int32(), ListTableRows.CustomSearch)
+  fullName.vb: SuperOffice.CRM.Lists.MDOProviderBase.AddGroupLinkJoin(System.Int32(), SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
+  name.vb: AddGroupLinkJoin(Int32(), ListTableRows.CustomSearch)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.AddGroupLinkJoin(System.Int32[],SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
+    name: AddGroupLinkJoin
+    nameWithType: MDOProviderBase.AddGroupLinkJoin
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.AddGroupLinkJoin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
+    name: ListTableRows.CustomSearch
+    nameWithType: ListTableRows.CustomSearch
+    fullName: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.AddGroupLinkJoin(System.Int32[],SuperOffice.CRM.Lists.ListTableRows.CustomSearch)
+    name: AddGroupLinkJoin
+    nameWithType: MDOProviderBase.AddGroupLinkJoin
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.AddGroupLinkJoin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
+    name: ListTableRows.CustomSearch
+    nameWithType: ListTableRows.CustomSearch
+    fullName: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider.AddGroupLinkJoin*
+  commentId: Overload:SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider.AddGroupLinkJoin
+  isExternal: true
+  name: AddGroupLinkJoin
+  nameWithType: ResourceRestrictionsMDOProvider.AddGroupLinkJoin
+  fullName: SuperOffice.CRM.Lists.ResourceRestrictionsMDOProvider.AddGroupLinkJoin
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Lists.ListTableRows.CustomSearch
+  commentId: T:SuperOffice.CRM.Lists.ListTableRows.CustomSearch
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: ListTableRows.CustomSearch
+  nameWithType: ListTableRows.CustomSearch
+  fullName: SuperOffice.CRM.Lists.ListTableRows.CustomSearch

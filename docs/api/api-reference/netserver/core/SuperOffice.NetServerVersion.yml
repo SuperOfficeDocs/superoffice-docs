@@ -1,0 +1,1222 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.NetServerVersion
+  commentId: T:SuperOffice.NetServerVersion
+  id: NetServerVersion
+  parent: SuperOffice
+  children:
+  - SuperOffice.NetServerVersion.Build
+  - SuperOffice.NetServerVersion.BuildInfo
+  - SuperOffice.NetServerVersion.BuildType
+  - SuperOffice.NetServerVersion.CheckVersion(System.Version)
+  - SuperOffice.NetServerVersion.CheckWebtoolsVersion(System.Version)
+  - SuperOffice.NetServerVersion.DaysUnitilExpiry
+  - SuperOffice.NetServerVersion.DaysUntilExpiry
+  - SuperOffice.NetServerVersion.DotNetFrameworkVersion
+  - SuperOffice.NetServerVersion.FileVersion
+  - SuperOffice.NetServerVersion.FriendlyName
+  - SuperOffice.NetServerVersion.FullName
+  - SuperOffice.NetServerVersion.GetServerVersionWithOverride(System.Boolean@)
+  - SuperOffice.NetServerVersion.MajorMinor
+  - SuperOffice.NetServerVersion.OverriddenVersionString
+  - SuperOffice.NetServerVersion.ReleaseName
+  - SuperOffice.NetServerVersion.ServiceNamespace
+  - SuperOffice.NetServerVersion.Version
+  langs:
+  - csharp
+  - vb
+  name: NetServerVersion
+  nameWithType: NetServerVersion
+  fullName: SuperOffice.NetServerVersion
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nVersion information.\n"
+  syntax:
+    content: public class NetServerVersion
+    content.vb: Public Class NetServerVersion
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.NetServerVersion.EnumUtil.MapEnums``2
+  - SuperOffice.NetServerVersion.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.NetServerVersion.ServiceNamespace
+  commentId: F:SuperOffice.NetServerVersion.ServiceNamespace
+  id: ServiceNamespace
+  parent: SuperOffice.NetServerVersion
+  langs:
+  - csharp
+  - vb
+  name: ServiceNamespace
+  nameWithType: NetServerVersion.ServiceNamespace
+  fullName: SuperOffice.NetServerVersion.ServiceNamespace
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nDefault namespace for services based on this version of NetServer\n"
+  syntax:
+    content: public const string ServiceNamespace = "http://www.superoffice.net/ws/crm/NetServer/9.2.0000.0"
+    return:
+      type: System.String
+    content.vb: Public Const ServiceNamespace As String = "http://www.superoffice.net/ws/crm/NetServer/9.2.0000.0"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.NetServerVersion.FriendlyName
+  commentId: F:SuperOffice.NetServerVersion.FriendlyName
+  id: FriendlyName
+  parent: SuperOffice.NetServerVersion
+  langs:
+  - csharp
+  - vb
+  name: FriendlyName
+  nameWithType: NetServerVersion.FriendlyName
+  fullName: SuperOffice.NetServerVersion.FriendlyName
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public const string FriendlyName = "SuperOffice 9.2 Build {1}"
+    return:
+      type: System.String
+    content.vb: Public Const FriendlyName As String = "SuperOffice 9.2 Build {1}"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.NetServerVersion.MajorMinor
+  commentId: F:SuperOffice.NetServerVersion.MajorMinor
+  id: MajorMinor
+  parent: SuperOffice.NetServerVersion
+  langs:
+  - csharp
+  - vb
+  name: MajorMinor
+  nameWithType: NetServerVersion.MajorMinor
+  fullName: SuperOffice.NetServerVersion.MajorMinor
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public const string MajorMinor = "9.2"
+    return:
+      type: System.String
+    content.vb: Public Const MajorMinor As String = "9.2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.NetServerVersion.OverriddenVersionString
+  commentId: M:SuperOffice.NetServerVersion.OverriddenVersionString
+  id: OverriddenVersionString
+  parent: SuperOffice.NetServerVersion
+  langs:
+  - csharp
+  - vb
+  name: OverriddenVersionString()
+  nameWithType: NetServerVersion.OverriddenVersionString()
+  fullName: SuperOffice.NetServerVersion.OverriddenVersionString()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public static string OverriddenVersionString()
+    return:
+      type: System.String
+    content.vb: Public Shared Function OverriddenVersionString As String
+  overload: SuperOffice.NetServerVersion.OverriddenVersionString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.NetServerVersion.CheckVersion(System.Version)
+  commentId: M:SuperOffice.NetServerVersion.CheckVersion(System.Version)
+  id: CheckVersion(System.Version)
+  parent: SuperOffice.NetServerVersion
+  langs:
+  - csharp
+  - vb
+  name: CheckVersion(Version)
+  nameWithType: NetServerVersion.CheckVersion(Version)
+  fullName: SuperOffice.NetServerVersion.CheckVersion(System.Version)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nReturns the upgrade-status to be reported to the WebTools-clients\ndirectly.\n"
+  syntax:
+    content: public static UpgradeStatus CheckVersion(Version version)
+    parameters:
+    - id: version
+      type: System.Version
+    return:
+      type: SuperOffice.UpgradeStatus
+    content.vb: Public Shared Function CheckVersion(version As Version) As UpgradeStatus
+  overload: SuperOffice.NetServerVersion.CheckVersion*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.NetServerVersion.CheckWebtoolsVersion(System.Version)
+  commentId: M:SuperOffice.NetServerVersion.CheckWebtoolsVersion(System.Version)
+  id: CheckWebtoolsVersion(System.Version)
+  parent: SuperOffice.NetServerVersion
+  langs:
+  - csharp
+  - vb
+  name: CheckWebtoolsVersion(Version)
+  nameWithType: NetServerVersion.CheckWebtoolsVersion(Version)
+  fullName: SuperOffice.NetServerVersion.CheckWebtoolsVersion(System.Version)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nReturns the upgrade-status to be reported to Web-client&apos;s webtools upgrade\nwizard.\n"
+  syntax:
+    content: public static UpgradeStatus CheckWebtoolsVersion(Version version)
+    parameters:
+    - id: version
+      type: System.Version
+    return:
+      type: SuperOffice.UpgradeStatus
+    content.vb: Public Shared Function CheckWebtoolsVersion(version As Version) As UpgradeStatus
+  overload: SuperOffice.NetServerVersion.CheckWebtoolsVersion*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.NetServerVersion.GetServerVersionWithOverride(System.Boolean@)
+  commentId: M:SuperOffice.NetServerVersion.GetServerVersionWithOverride(System.Boolean@)
+  id: GetServerVersionWithOverride(System.Boolean@)
+  parent: SuperOffice.NetServerVersion
+  langs:
+  - csharp
+  - vb
+  name: GetServerVersionWithOverride(out Boolean)
+  nameWithType: NetServerVersion.GetServerVersionWithOverride(out Boolean)
+  fullName: SuperOffice.NetServerVersion.GetServerVersionWithOverride(out System.Boolean)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nReturns the current server-version or the explicit WebTools version-override set in config-file.\n"
+  syntax:
+    content: public static Version GetServerVersionWithOverride(out bool useOverride)
+    parameters:
+    - id: useOverride
+      type: System.Boolean
+      description: true if version has been overriden
+    return:
+      type: System.Version
+    content.vb: Public Shared Function GetServerVersionWithOverride(ByRef useOverride As Boolean) As Version
+  overload: SuperOffice.NetServerVersion.GetServerVersionWithOverride*
+  nameWithType.vb: NetServerVersion.GetServerVersionWithOverride(ByRef Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.NetServerVersion.GetServerVersionWithOverride(ByRef System.Boolean)
+  name.vb: GetServerVersionWithOverride(ByRef Boolean)
+- uid: SuperOffice.NetServerVersion.DotNetFrameworkVersion
+  commentId: M:SuperOffice.NetServerVersion.DotNetFrameworkVersion
+  id: DotNetFrameworkVersion
+  parent: SuperOffice.NetServerVersion
+  langs:
+  - csharp
+  - vb
+  name: DotNetFrameworkVersion()
+  nameWithType: NetServerVersion.DotNetFrameworkVersion()
+  fullName: SuperOffice.NetServerVersion.DotNetFrameworkVersion()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nReturns installed .net version &quot;4.5.1&quot; or &quot;4.8&quot; or similarly\n"
+  syntax:
+    content: public static string DotNetFrameworkVersion()
+    return:
+      type: System.String
+      description: '&quot;4.7.2&quot; or &quot;0&quot; if not able to detect'
+    content.vb: Public Shared Function DotNetFrameworkVersion As String
+  overload: SuperOffice.NetServerVersion.DotNetFrameworkVersion*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.NetServerVersion.BuildType
+  commentId: P:SuperOffice.NetServerVersion.BuildType
+  id: BuildType
+  parent: SuperOffice.NetServerVersion
+  langs:
+  - csharp
+  - vb
+  name: BuildType
+  nameWithType: NetServerVersion.BuildType
+  fullName: SuperOffice.NetServerVersion.BuildType
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nType of build.\n"
+  syntax:
+    content: public static NetServerBuildType BuildType { get; }
+    parameters: []
+    return:
+      type: SuperOffice.NetServerBuildType
+    content.vb: Public Shared ReadOnly Property BuildType As NetServerBuildType
+  overload: SuperOffice.NetServerVersion.BuildType*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.NetServerVersion.Version
+  commentId: P:SuperOffice.NetServerVersion.Version
+  id: Version
+  parent: SuperOffice.NetServerVersion
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: NetServerVersion.Version
+  fullName: SuperOffice.NetServerVersion.Version
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nBuild version of SoCore\n"
+  syntax:
+    content: public static Version Version { get; }
+    parameters: []
+    return:
+      type: System.Version
+    content.vb: Public Shared ReadOnly Property Version As Version
+  overload: SuperOffice.NetServerVersion.Version*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.NetServerVersion.Build
+  commentId: P:SuperOffice.NetServerVersion.Build
+  id: Build
+  parent: SuperOffice.NetServerVersion
+  langs:
+  - csharp
+  - vb
+  name: Build
+  nameWithType: NetServerVersion.Build
+  fullName: SuperOffice.NetServerVersion.Build
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nBuild of the assembly\n"
+  syntax:
+    content: public static int Build { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property Build As Integer
+  overload: SuperOffice.NetServerVersion.Build*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.NetServerVersion.DaysUnitilExpiry
+  commentId: P:SuperOffice.NetServerVersion.DaysUnitilExpiry
+  id: DaysUnitilExpiry
+  parent: SuperOffice.NetServerVersion
+  langs:
+  - csharp
+  - vb
+  name: DaysUnitilExpiry
+  nameWithType: NetServerVersion.DaysUnitilExpiry
+  fullName: SuperOffice.NetServerVersion.DaysUnitilExpiry
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nDays until this version of NetServer expires\n"
+  syntax:
+    content: >-
+      [Obsolete("Use DaysUntilExpiry instead", false)]
+
+      public static int DaysUnitilExpiry { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <Obsolete("Use DaysUntilExpiry instead", False)>
+
+      Public Shared ReadOnly Property DaysUnitilExpiry As Integer
+  overload: SuperOffice.NetServerVersion.DaysUnitilExpiry*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use DaysUntilExpiry instead
+    - type: System.Boolean
+      value: false
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.NetServerVersion.DaysUntilExpiry
+  commentId: P:SuperOffice.NetServerVersion.DaysUntilExpiry
+  id: DaysUntilExpiry
+  parent: SuperOffice.NetServerVersion
+  langs:
+  - csharp
+  - vb
+  name: DaysUntilExpiry
+  nameWithType: NetServerVersion.DaysUntilExpiry
+  fullName: SuperOffice.NetServerVersion.DaysUntilExpiry
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nDays until this version of NetServer expires\n"
+  syntax:
+    content: public static int DaysUntilExpiry { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property DaysUntilExpiry As Integer
+  overload: SuperOffice.NetServerVersion.DaysUntilExpiry*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.NetServerVersion.ReleaseName
+  commentId: P:SuperOffice.NetServerVersion.ReleaseName
+  id: ReleaseName
+  parent: SuperOffice.NetServerVersion
+  langs:
+  - csharp
+  - vb
+  name: ReleaseName
+  nameWithType: NetServerVersion.ReleaseName
+  fullName: SuperOffice.NetServerVersion.ReleaseName
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nRelease Name: &quot;8.5 R11&quot; or &quot;8.5 Dev&quot;\n"
+  syntax:
+    content: public static string ReleaseName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property ReleaseName As String
+  overload: SuperOffice.NetServerVersion.ReleaseName*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.NetServerVersion.FullName
+  commentId: P:SuperOffice.NetServerVersion.FullName
+  id: FullName
+  parent: SuperOffice.NetServerVersion
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: NetServerVersion.FullName
+  fullName: SuperOffice.NetServerVersion.FullName
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nFull name of this version of NetServer: &quot;SuperOffice 8.5 R11 NetServer 7.1 Release (Build: 7.1.200.300.TEST})&quot;\n"
+  syntax:
+    content: public static string FullName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property FullName As String
+  overload: SuperOffice.NetServerVersion.FullName*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.NetServerVersion.BuildInfo
+  commentId: P:SuperOffice.NetServerVersion.BuildInfo
+  id: BuildInfo
+  parent: SuperOffice.NetServerVersion
+  langs:
+  - csharp
+  - vb
+  name: BuildInfo
+  nameWithType: NetServerVersion.BuildInfo
+  fullName: SuperOffice.NetServerVersion.BuildInfo
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nInformation about the build as generated by the build system.\n"
+  syntax:
+    content: public static BuildInfoAttribute BuildInfo { get; }
+    parameters: []
+    return:
+      type: SuperOffice.License.BuildInfoAttribute
+    content.vb: Public Shared ReadOnly Property BuildInfo As BuildInfoAttribute
+  overload: SuperOffice.NetServerVersion.BuildInfo*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.NetServerVersion.FileVersion
+  commentId: P:SuperOffice.NetServerVersion.FileVersion
+  id: FileVersion
+  parent: SuperOffice.NetServerVersion
+  langs:
+  - csharp
+  - vb
+  name: FileVersion
+  nameWithType: NetServerVersion.FileVersion
+  fullName: SuperOffice.NetServerVersion.FileVersion
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nReturn NetServer&apos;s file version\n"
+  syntax:
+    content: public static string FileVersion { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property FileVersion As String
+  overload: SuperOffice.NetServerVersion.FileVersion*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: SuperOffice
+  commentId: N:SuperOffice
+  isExternal: true
+  name: SuperOffice
+  nameWithType: SuperOffice
+  fullName: SuperOffice
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.NetServerVersion.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<NetServerVersion, To>()
+  nameWithType: EnumUtil.MapEnums<NetServerVersion, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.NetServerVersion, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of NetServerVersion, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.NetServerVersion, To)()
+  name.vb: MapEnums(Of NetServerVersion, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<NetServerVersion, To>
+    nameWithType: EnumUtil.MapEnums<NetServerVersion, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.NetServerVersion, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of NetServerVersion, To)
+    nameWithType: EnumUtil.MapEnums(Of NetServerVersion, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.NetServerVersion, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.NetServerVersion.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<NetServerVersion, To>()
+  nameWithType: Converters.MapEnums<NetServerVersion, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.NetServerVersion, To>()
+  nameWithType.vb: Converters.MapEnums(Of NetServerVersion, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.NetServerVersion, To)()
+  name.vb: MapEnums(Of NetServerVersion, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<NetServerVersion, To>
+    nameWithType: Converters.MapEnums<NetServerVersion, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.NetServerVersion, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of NetServerVersion, To)
+    nameWithType: Converters.MapEnums(Of NetServerVersion, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.NetServerVersion, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.NetServerVersion.OverriddenVersionString*
+  commentId: Overload:SuperOffice.NetServerVersion.OverriddenVersionString
+  isExternal: true
+  name: OverriddenVersionString
+  nameWithType: NetServerVersion.OverriddenVersionString
+  fullName: SuperOffice.NetServerVersion.OverriddenVersionString
+- uid: SuperOffice.NetServerVersion.CheckVersion*
+  commentId: Overload:SuperOffice.NetServerVersion.CheckVersion
+  isExternal: true
+  name: CheckVersion
+  nameWithType: NetServerVersion.CheckVersion
+  fullName: SuperOffice.NetServerVersion.CheckVersion
+- uid: System.Version
+  commentId: T:System.Version
+  parent: System
+  isExternal: true
+  name: Version
+  nameWithType: Version
+  fullName: System.Version
+- uid: SuperOffice.UpgradeStatus
+  commentId: T:SuperOffice.UpgradeStatus
+  parent: SuperOffice
+  isExternal: true
+  name: UpgradeStatus
+  nameWithType: UpgradeStatus
+  fullName: SuperOffice.UpgradeStatus
+- uid: SuperOffice.NetServerVersion.CheckWebtoolsVersion*
+  commentId: Overload:SuperOffice.NetServerVersion.CheckWebtoolsVersion
+  isExternal: true
+  name: CheckWebtoolsVersion
+  nameWithType: NetServerVersion.CheckWebtoolsVersion
+  fullName: SuperOffice.NetServerVersion.CheckWebtoolsVersion
+- uid: SuperOffice.NetServerVersion.GetServerVersionWithOverride*
+  commentId: Overload:SuperOffice.NetServerVersion.GetServerVersionWithOverride
+  isExternal: true
+  name: GetServerVersionWithOverride
+  nameWithType: NetServerVersion.GetServerVersionWithOverride
+  fullName: SuperOffice.NetServerVersion.GetServerVersionWithOverride
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.NetServerVersion.DotNetFrameworkVersion*
+  commentId: Overload:SuperOffice.NetServerVersion.DotNetFrameworkVersion
+  isExternal: true
+  name: DotNetFrameworkVersion
+  nameWithType: NetServerVersion.DotNetFrameworkVersion
+  fullName: SuperOffice.NetServerVersion.DotNetFrameworkVersion
+- uid: SuperOffice.NetServerVersion.BuildType*
+  commentId: Overload:SuperOffice.NetServerVersion.BuildType
+  isExternal: true
+  name: BuildType
+  nameWithType: NetServerVersion.BuildType
+  fullName: SuperOffice.NetServerVersion.BuildType
+- uid: SuperOffice.NetServerBuildType
+  commentId: T:SuperOffice.NetServerBuildType
+  parent: SuperOffice
+  isExternal: true
+  name: NetServerBuildType
+  nameWithType: NetServerBuildType
+  fullName: SuperOffice.NetServerBuildType
+- uid: SuperOffice.NetServerVersion.Version*
+  commentId: Overload:SuperOffice.NetServerVersion.Version
+  isExternal: true
+  name: Version
+  nameWithType: NetServerVersion.Version
+  fullName: SuperOffice.NetServerVersion.Version
+- uid: SuperOffice.NetServerVersion.Build*
+  commentId: Overload:SuperOffice.NetServerVersion.Build
+  isExternal: true
+  name: Build
+  nameWithType: NetServerVersion.Build
+  fullName: SuperOffice.NetServerVersion.Build
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.NetServerVersion.DaysUnitilExpiry*
+  commentId: Overload:SuperOffice.NetServerVersion.DaysUnitilExpiry
+  isExternal: true
+  name: DaysUnitilExpiry
+  nameWithType: NetServerVersion.DaysUnitilExpiry
+  fullName: SuperOffice.NetServerVersion.DaysUnitilExpiry
+- uid: SuperOffice.NetServerVersion.DaysUntilExpiry*
+  commentId: Overload:SuperOffice.NetServerVersion.DaysUntilExpiry
+  isExternal: true
+  name: DaysUntilExpiry
+  nameWithType: NetServerVersion.DaysUntilExpiry
+  fullName: SuperOffice.NetServerVersion.DaysUntilExpiry
+- uid: SuperOffice.NetServerVersion.ReleaseName*
+  commentId: Overload:SuperOffice.NetServerVersion.ReleaseName
+  isExternal: true
+  name: ReleaseName
+  nameWithType: NetServerVersion.ReleaseName
+  fullName: SuperOffice.NetServerVersion.ReleaseName
+- uid: SuperOffice.NetServerVersion.FullName*
+  commentId: Overload:SuperOffice.NetServerVersion.FullName
+  isExternal: true
+  name: FullName
+  nameWithType: NetServerVersion.FullName
+  fullName: SuperOffice.NetServerVersion.FullName
+- uid: SuperOffice.NetServerVersion.BuildInfo*
+  commentId: Overload:SuperOffice.NetServerVersion.BuildInfo
+  isExternal: true
+  name: BuildInfo
+  nameWithType: NetServerVersion.BuildInfo
+  fullName: SuperOffice.NetServerVersion.BuildInfo
+- uid: SuperOffice.License.BuildInfoAttribute
+  commentId: T:SuperOffice.License.BuildInfoAttribute
+  parent: SuperOffice.License
+  isExternal: true
+  name: BuildInfoAttribute
+  nameWithType: BuildInfoAttribute
+  fullName: SuperOffice.License.BuildInfoAttribute
+- uid: SuperOffice.License
+  commentId: N:SuperOffice.License
+  isExternal: true
+  name: SuperOffice.License
+  nameWithType: SuperOffice.License
+  fullName: SuperOffice.License
+- uid: SuperOffice.NetServerVersion.FileVersion*
+  commentId: Overload:SuperOffice.NetServerVersion.FileVersion
+  isExternal: true
+  name: FileVersion
+  nameWithType: NetServerVersion.FileVersion
+  fullName: SuperOffice.NetServerVersion.FileVersion

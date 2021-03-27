@@ -1,0 +1,2285 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData
+  commentId: T:SuperOffice.CRM.Rows.AppointmentRecordData
+  id: AppointmentRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.AppointmentRecordData.#ctor
+  - SuperOffice.CRM.Rows.AppointmentRecordData.ActiveDate
+  - SuperOffice.CRM.Rows.AppointmentRecordData.ActiveLinks
+  - SuperOffice.CRM.Rows.AppointmentRecordData.Alarm
+  - SuperOffice.CRM.Rows.AppointmentRecordData.AlldayEvent
+  - SuperOffice.CRM.Rows.AppointmentRecordData.AppointmentId
+  - SuperOffice.CRM.Rows.AppointmentRecordData.AssignedBy
+  - SuperOffice.CRM.Rows.AppointmentRecordData.AssociateId
+  - SuperOffice.CRM.Rows.AppointmentRecordData.CautionWarning
+  - SuperOffice.CRM.Rows.AppointmentRecordData.CentralserviceVideomeetId
+  - SuperOffice.CRM.Rows.AppointmentRecordData.ColorIndex
+  - SuperOffice.CRM.Rows.AppointmentRecordData.ContactId
+  - SuperOffice.CRM.Rows.AppointmentRecordData.DoBy
+  - SuperOffice.CRM.Rows.AppointmentRecordData.DocumentId
+  - SuperOffice.CRM.Rows.AppointmentRecordData.Done
+  - SuperOffice.CRM.Rows.AppointmentRecordData.EmailId
+  - SuperOffice.CRM.Rows.AppointmentRecordData.EndDate
+  - SuperOffice.CRM.Rows.AppointmentRecordData.FreeBusy
+  - SuperOffice.CRM.Rows.AppointmentRecordData.GroupIdx
+  - SuperOffice.CRM.Rows.AppointmentRecordData.HasAlarm
+  - SuperOffice.CRM.Rows.AppointmentRecordData.InvitedPersonId
+  - SuperOffice.CRM.Rows.AppointmentRecordData.IsMilestone
+  - SuperOffice.CRM.Rows.AppointmentRecordData.JoinVideomeetUrl
+  - SuperOffice.CRM.Rows.AppointmentRecordData.LagTime
+  - SuperOffice.CRM.Rows.AppointmentRecordData.Leadtime
+  - SuperOffice.CRM.Rows.AppointmentRecordData.Location
+  - SuperOffice.CRM.Rows.AppointmentRecordData.MotherAssociateId
+  - SuperOffice.CRM.Rows.AppointmentRecordData.MotherId
+  - SuperOffice.CRM.Rows.AppointmentRecordData.PersonId
+  - SuperOffice.CRM.Rows.AppointmentRecordData.PreferredTZLocation
+  - SuperOffice.CRM.Rows.AppointmentRecordData.PriorityIdx
+  - SuperOffice.CRM.Rows.AppointmentRecordData.Private
+  - SuperOffice.CRM.Rows.AppointmentRecordData.ProjectId
+  - SuperOffice.CRM.Rows.AppointmentRecordData.RecurrenceRuleId
+  - SuperOffice.CRM.Rows.AppointmentRecordData.Registered
+  - SuperOffice.CRM.Rows.AppointmentRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.AppointmentRecordData.RejectCounter
+  - SuperOffice.CRM.Rows.AppointmentRecordData.RejectReason
+  - SuperOffice.CRM.Rows.AppointmentRecordData.SaleId
+  - SuperOffice.CRM.Rows.AppointmentRecordData.Source
+  - SuperOffice.CRM.Rows.AppointmentRecordData.Status
+  - SuperOffice.CRM.Rows.AppointmentRecordData.SuggestedAppointmentId
+  - SuperOffice.CRM.Rows.AppointmentRecordData.SuggestedDocumentId
+  - SuperOffice.CRM.Rows.AppointmentRecordData.TaskIdx
+  - SuperOffice.CRM.Rows.AppointmentRecordData.TextId
+  - SuperOffice.CRM.Rows.AppointmentRecordData.Type
+  - SuperOffice.CRM.Rows.AppointmentRecordData.Updated
+  - SuperOffice.CRM.Rows.AppointmentRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.AppointmentRecordData.UpdatedCount
+  - SuperOffice.CRM.Rows.AppointmentRecordData.Userdef2Id
+  - SuperOffice.CRM.Rows.AppointmentRecordData.UserdefId
+  langs:
+  - csharp
+  - vb
+  name: AppointmentRecordData
+  nameWithType: AppointmentRecordData
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the appointment table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.AppointmentTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class AppointmentRecordData
+    content.vb: Public Class AppointmentRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.AppointmentRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.AppointmentRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.AppointmentRecordData)
+  - SuperOffice.CRM.Rows.AppointmentRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.AppointmentRecordData.SuperOffice.CRM.Rows.AppointmentRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.AppointmentRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.AppointmentId
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: AppointmentRecordData.AppointmentId
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.AppointmentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int AppointmentId
+    return:
+      type: System.Int32
+    content.vb: Public AppointmentId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.ContactId
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: AppointmentRecordData.ContactId
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.ContactId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nContact ID of owning contact, may be 0 \n"
+  syntax:
+    content: public int ContactId
+    return:
+      type: System.Int32
+    content.vb: Public ContactId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.PersonId
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: AppointmentRecordData.PersonId
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.PersonId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPerson ID of person the appointment is with, may be 0 \n"
+  syntax:
+    content: public int PersonId
+    return:
+      type: System.Int32
+    content.vb: Public PersonId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.AssociateId
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: AppointmentRecordData.AssociateId
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.AssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nID of associate whose diary the appointment is in, REQUIRED \n"
+  syntax:
+    content: public int AssociateId
+    return:
+      type: System.Int32
+    content.vb: Public AssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.GroupIdx
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.GroupIdx
+  id: GroupIdx
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: GroupIdx
+  nameWithType: AppointmentRecordData.GroupIdx
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.GroupIdx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nGroup of owning associate at the time tha ppnt was created \n"
+  syntax:
+    content: public int GroupIdx
+    return:
+      type: System.Int32
+    content.vb: Public GroupIdx As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: AppointmentRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered date in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: AppointmentRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.Done
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.Done
+  id: Done
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: Done
+  nameWithType: AppointmentRecordData.Done
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.Done
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\ndate + start time this task was done \n"
+  syntax:
+    content: public DateTime Done
+    return:
+      type: System.DateTime
+    content.vb: Public Done As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.DoBy
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.DoBy
+  id: DoBy
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: DoBy
+  nameWithType: AppointmentRecordData.DoBy
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.DoBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\ndate + start time planned \n"
+  syntax:
+    content: public DateTime DoBy
+    return:
+      type: System.DateTime
+    content.vb: Public DoBy As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.Leadtime
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.Leadtime
+  id: Leadtime
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: Leadtime
+  nameWithType: AppointmentRecordData.Leadtime
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.Leadtime
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTime blocked (minutes) BEFORE starttime \n"
+  syntax:
+    content: public short Leadtime
+    return:
+      type: System.Int16
+    content.vb: Public Leadtime As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.TaskIdx
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.TaskIdx
+  id: TaskIdx
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: TaskIdx
+  nameWithType: AppointmentRecordData.TaskIdx
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.TaskIdx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLink to Task list, OR to DocTmpl list, if this is a document \n"
+  syntax:
+    content: public int TaskIdx
+    return:
+      type: System.Int32
+    content.vb: Public TaskIdx As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.PriorityIdx
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.PriorityIdx
+  id: PriorityIdx
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: PriorityIdx
+  nameWithType: AppointmentRecordData.PriorityIdx
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.PriorityIdx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLink to priority list \n"
+  syntax:
+    content: public int PriorityIdx
+    return:
+      type: System.Int32
+    content.vb: Public PriorityIdx As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.Type
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.Type
+  id: Type
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: AppointmentRecordData.Type
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.Type
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nwhere=no start time,note,docin, docout  \n"
+  syntax:
+    content: public AppointmentType Type
+    return:
+      type: SuperOffice.Data.AppointmentType
+    content.vb: Public Type As AppointmentType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.Status
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.Status
+  id: Status
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: AppointmentRecordData.Status
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.Status
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nstatus=done,started, not started, hidden \n"
+  syntax:
+    content: public AppointmentStatus Status
+    return:
+      type: SuperOffice.Data.AppointmentStatus
+    content.vb: Public Status As AppointmentStatus
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.Private
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.Private
+  id: Private
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: Private
+  nameWithType: AppointmentRecordData.Private
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.Private
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nObsolete, but still maintained field for appointment privacy; denormalization of visiblefor status \n"
+  syntax:
+    content: public AppointmentPrivate Private
+    return:
+      type: SuperOffice.Data.AppointmentPrivate
+    content.vb: Public Private As AppointmentPrivate
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.Alarm
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.Alarm
+  id: Alarm
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: Alarm
+  nameWithType: AppointmentRecordData.Alarm
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.Alarm
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nAlarm leadtime, the alarm flag has moved to hasAlarm \n"
+  syntax:
+    content: public short Alarm
+    return:
+      type: System.Int16
+    content.vb: Public Alarm As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.TextId
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.TextId
+  id: TextId
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: TextId
+  nameWithType: AppointmentRecordData.TextId
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.TextId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nID of record containing appointment text \n"
+  syntax:
+    content: public int TextId
+    return:
+      type: System.Int32
+    content.vb: Public TextId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.ProjectId
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: AppointmentRecordData.ProjectId
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.ProjectId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nID of project referred to, may be 0 \n"
+  syntax:
+    content: public int ProjectId
+    return:
+      type: System.Int32
+    content.vb: Public ProjectId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.MotherId
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.MotherId
+  id: MotherId
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: MotherId
+  nameWithType: AppointmentRecordData.MotherId
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.MotherId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment. However, if 0 and assoc_id != reg_id then this is an assigned appointment, indicated vt type = kBooking \n"
+  syntax:
+    content: public int MotherId
+    return:
+      type: System.Int32
+    content.vb: Public MotherId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.DocumentId
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.DocumentId
+  id: DocumentId
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: AppointmentRecordData.DocumentId
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.DocumentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPoints to document record; 0 for non-document appointments! \n"
+  syntax:
+    content: public int DocumentId
+    return:
+      type: System.Int32
+    content.vb: Public DocumentId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.ColorIndex
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.ColorIndex
+  id: ColorIndex
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: ColorIndex
+  nameWithType: AppointmentRecordData.ColorIndex
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.ColorIndex
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nAppointment colour, used only in Japanese versions. Western versions take colour from Task \n"
+  syntax:
+    content: public short ColorIndex
+    return:
+      type: System.Int16
+    content.vb: Public ColorIndex As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.InvitedPersonId
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.InvitedPersonId
+  id: InvitedPersonId
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: InvitedPersonId
+  nameWithType: AppointmentRecordData.InvitedPersonId
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.InvitedPersonId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nValid when mother_id != 0 &amp;&amp; mother_id != id \n"
+  syntax:
+    content: public int InvitedPersonId
+    return:
+      type: System.Int32
+    content.vb: Public InvitedPersonId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.ActiveDate
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.ActiveDate
+  id: ActiveDate
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: ActiveDate
+  nameWithType: AppointmentRecordData.ActiveDate
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.ActiveDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe date to be used for searching &amp; showing \n"
+  syntax:
+    content: public DateTime ActiveDate
+    return:
+      type: System.DateTime
+    content.vb: Public ActiveDate As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.EndDate
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.EndDate
+  id: EndDate
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: EndDate
+  nameWithType: AppointmentRecordData.EndDate
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.EndDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDate + end time planned \n"
+  syntax:
+    content: public DateTime EndDate
+    return:
+      type: System.DateTime
+    content.vb: Public EndDate As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.LagTime
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.LagTime
+  id: LagTime
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: LagTime
+  nameWithType: AppointmentRecordData.LagTime
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.LagTime
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nas leadtime, but after the end - time blocked for travel etc. \n"
+  syntax:
+    content: public short LagTime
+    return:
+      type: System.Int16
+    content.vb: Public LagTime As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.Source
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.Source
+  id: Source
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: AppointmentRecordData.Source
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.Source
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFor future integration use; source of record \n"
+  syntax:
+    content: public short Source
+    return:
+      type: System.Int16
+    content.vb: Public Source As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.UserdefId
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.UserdefId
+  id: UserdefId
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: UserdefId
+  nameWithType: AppointmentRecordData.UserdefId
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.UserdefId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nUser defined table record 1 (for future use) \n"
+  syntax:
+    content: public int UserdefId
+    return:
+      type: System.Int32
+    content.vb: Public UserdefId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.Userdef2Id
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.Userdef2Id
+  id: Userdef2Id
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: Userdef2Id
+  nameWithType: AppointmentRecordData.Userdef2Id
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.Userdef2Id
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nUser defined table record 2 (for future use) \n"
+  syntax:
+    content: public int Userdef2Id
+    return:
+      type: System.Int32
+    content.vb: Public Userdef2Id As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: AppointmentRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nUpdated date in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: AppointmentRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nUpdated by who \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: AppointmentRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.ActiveLinks
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.ActiveLinks
+  id: ActiveLinks
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: ActiveLinks
+  nameWithType: AppointmentRecordData.ActiveLinks
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.ActiveLinks
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of active links to documents, other appointments, and such \n"
+  syntax:
+    content: public uint ActiveLinks
+    return:
+      type: System.UInt32
+    content.vb: Public ActiveLinks As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.RecurrenceRuleId
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.RecurrenceRuleId
+  id: RecurrenceRuleId
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: RecurrenceRuleId
+  nameWithType: AppointmentRecordData.RecurrenceRuleId
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.RecurrenceRuleId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPointer to recurrence rule, for recurring appointments, otherwise 0 \n"
+  syntax:
+    content: public int RecurrenceRuleId
+    return:
+      type: System.Int32
+    content.vb: Public RecurrenceRuleId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.Location
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.Location
+  id: Location
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: AppointmentRecordData.Location
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.Location
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLocation for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here \n"
+  syntax:
+    content: public string Location
+    return:
+      type: System.String
+    content.vb: Public Location As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.AlldayEvent
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.AlldayEvent
+  id: AlldayEvent
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: AlldayEvent
+  nameWithType: AppointmentRecordData.AlldayEvent
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.AlldayEvent
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIs this an all day event: 0 = No, 1 = Yes \n"
+  syntax:
+    content: public AllDayEvent AlldayEvent
+    return:
+      type: SuperOffice.Data.AllDayEvent
+    content.vb: Public AlldayEvent As AllDayEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.FreeBusy
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.FreeBusy
+  id: FreeBusy
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: FreeBusy
+  nameWithType: AppointmentRecordData.FreeBusy
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.FreeBusy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhat kind of time is this: 0 = Busy, 1 = Free \n"
+  syntax:
+    content: public FreeBusy FreeBusy
+    return:
+      type: SuperOffice.Data.FreeBusy
+    content.vb: Public FreeBusy As FreeBusy
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.RejectCounter
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.RejectCounter
+  id: RejectCounter
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: RejectCounter
+  nameWithType: AppointmentRecordData.RejectCounter
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.RejectCounter
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nHow many invitees have rejected this appointment \n"
+  syntax:
+    content: public short RejectCounter
+    return:
+      type: System.Int16
+    content.vb: Public RejectCounter As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.EmailId
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.EmailId
+  id: EmailId
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: EmailId
+  nameWithType: AppointmentRecordData.EmailId
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.EmailId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIf invitation and status changes should be mailed, this is the ID of the email address used \n"
+  syntax:
+    content: public int EmailId
+    return:
+      type: System.Int32
+    content.vb: Public EmailId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.RejectReason
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.RejectReason
+  id: RejectReason
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: RejectReason
+  nameWithType: AppointmentRecordData.RejectReason
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.RejectReason
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhy was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here \n"
+  syntax:
+    content: public string RejectReason
+    return:
+      type: System.String
+    content.vb: Public RejectReason As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.HasAlarm
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.HasAlarm
+  id: HasAlarm
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: HasAlarm
+  nameWithType: AppointmentRecordData.HasAlarm
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.HasAlarm
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDoes this appointment have an alarm \n"
+  syntax:
+    content: public short HasAlarm
+    return:
+      type: System.Int16
+    content.vb: Public HasAlarm As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.AssignedBy
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.AssignedBy
+  id: AssignedBy
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: AssignedBy
+  nameWithType: AppointmentRecordData.AssignedBy
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.AssignedBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWho (last) assigned this appointment to associate_id? \n"
+  syntax:
+    content: public int AssignedBy
+    return:
+      type: System.Int32
+    content.vb: Public AssignedBy As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.PreferredTZLocation
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.PreferredTZLocation
+  id: PreferredTZLocation
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: PreferredTZLocation
+  nameWithType: AppointmentRecordData.PreferredTZLocation
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.PreferredTZLocation
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPreferred timezone location to use when displaying/editing this appointment \n"
+  syntax:
+    content: public int PreferredTZLocation
+    return:
+      type: System.Int32
+    content.vb: Public PreferredTZLocation As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.SaleId
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.SaleId
+  id: SaleId
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: AppointmentRecordData.SaleId
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.SaleId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOwning sale, if any (may be 0) \n"
+  syntax:
+    content: public int SaleId
+    return:
+      type: System.Int32
+    content.vb: Public SaleId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.SuggestedAppointmentId
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.SuggestedAppointmentId
+  id: SuggestedAppointmentId
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: SuggestedAppointmentId
+  nameWithType: AppointmentRecordData.SuggestedAppointmentId
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.SuggestedAppointmentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSuggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) \n"
+  syntax:
+    content: public int SuggestedAppointmentId
+    return:
+      type: System.Int32
+    content.vb: Public SuggestedAppointmentId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.SuggestedDocumentId
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.SuggestedDocumentId
+  id: SuggestedDocumentId
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: SuggestedDocumentId
+  nameWithType: AppointmentRecordData.SuggestedDocumentId
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.SuggestedDocumentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSuggested guide item that this document is an instance of (Note: NOT valid for appointments, they have their own link) \n"
+  syntax:
+    content: public int SuggestedDocumentId
+    return:
+      type: System.Int32
+    content.vb: Public SuggestedDocumentId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.IsMilestone
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.IsMilestone
+  id: IsMilestone
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: IsMilestone
+  nameWithType: AppointmentRecordData.IsMilestone
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.IsMilestone
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIs this appointment a milestone? \n"
+  syntax:
+    content: public short IsMilestone
+    return:
+      type: System.Int16
+    content.vb: Public IsMilestone As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.JoinVideomeetUrl
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.JoinVideomeetUrl
+  id: JoinVideomeetUrl
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: JoinVideomeetUrl
+  nameWithType: AppointmentRecordData.JoinVideomeetUrl
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.JoinVideomeetUrl
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nBlank when not a video meeting. Filled with Join Meeting URL when created. \n"
+  syntax:
+    content: public string JoinVideomeetUrl
+    return:
+      type: System.String
+    content.vb: Public JoinVideomeetUrl As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.CentralserviceVideomeetId
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.CentralserviceVideomeetId
+  id: CentralserviceVideomeetId
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: CentralserviceVideomeetId
+  nameWithType: AppointmentRecordData.CentralserviceVideomeetId
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.CentralserviceVideomeetId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nGUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. \n"
+  syntax:
+    content: public string CentralserviceVideomeetId
+    return:
+      type: System.String
+    content.vb: Public CentralserviceVideomeetId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.CautionWarning
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.CautionWarning
+  id: CautionWarning
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: CautionWarning
+  nameWithType: AppointmentRecordData.CautionWarning
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.CautionWarning
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nStatus field to indicate appointments that have some sort of problem \n"
+  syntax:
+    content: public AppointmentCautionWarning CautionWarning
+    return:
+      type: SuperOffice.Data.AppointmentCautionWarning
+    content.vb: Public CautionWarning As AppointmentCautionWarning
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.MotherAssociateId
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.MotherAssociateId
+  id: MotherAssociateId
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: MotherAssociateId
+  nameWithType: AppointmentRecordData.MotherAssociateId
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.MotherAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nAssociate/owner of the mother appointment \n"
+  syntax:
+    content: public int MotherAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public MotherAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.AppointmentRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: AppointmentRecordData()
+  nameWithType: AppointmentRecordData.AppointmentRecordData()
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.AppointmentRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public AppointmentRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.AppointmentRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<AppointmentRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<AppointmentRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.AppointmentRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AppointmentRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.AppointmentRecordData, To)()
+  name.vb: MapEnums(Of AppointmentRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AppointmentRecordData, To>
+    nameWithType: EnumUtil.MapEnums<AppointmentRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.AppointmentRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AppointmentRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of AppointmentRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.AppointmentRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.AppointmentRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<AppointmentRecordData>(AppointmentRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<AppointmentRecordData>(AppointmentRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.AppointmentRecordData>(SuperOffice.CRM.Rows.AppointmentRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of AppointmentRecordData)(AppointmentRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.AppointmentRecordData)(SuperOffice.CRM.Rows.AppointmentRecordData)
+  name.vb: AssignByReflection(Of AppointmentRecordData)(AppointmentRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<AppointmentRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<AppointmentRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.AppointmentRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.AppointmentRecordData
+    name: AppointmentRecordData
+    nameWithType: AppointmentRecordData
+    fullName: SuperOffice.CRM.Rows.AppointmentRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of AppointmentRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of AppointmentRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.AppointmentRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.AppointmentRecordData
+    name: AppointmentRecordData
+    nameWithType: AppointmentRecordData
+    fullName: SuperOffice.CRM.Rows.AppointmentRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<AppointmentRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<AppointmentRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.AppointmentRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of AppointmentRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.AppointmentRecordData)()
+  name.vb: GraphCopy(Of AppointmentRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<AppointmentRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<AppointmentRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.AppointmentRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of AppointmentRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of AppointmentRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.AppointmentRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.SuperOffice.CRM.Rows.AppointmentRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.AppointmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AppointmentRecordData)
+  parent: SuperOffice.CRM.Rows.AppointmentRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.AppointmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AppointmentRecordData)
+  name: ToInsert()
+  nameWithType: AppointmentRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.AppointmentRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: AppointmentRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.AppointmentRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.AppointmentRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: AppointmentRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.AppointmentRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<AppointmentRecordData, To>()
+  nameWithType: Converters.MapEnums<AppointmentRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.AppointmentRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of AppointmentRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.AppointmentRecordData, To)()
+  name.vb: MapEnums(Of AppointmentRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AppointmentRecordData, To>
+    nameWithType: Converters.MapEnums<AppointmentRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.AppointmentRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AppointmentRecordData, To)
+    nameWithType: Converters.MapEnums(Of AppointmentRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.AppointmentRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.AppointmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AppointmentRecordData)
+  commentId: M:SuperOffice.CRM.Rows.AppointmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AppointmentRecordData)
+  isExternal: true
+  name: ToInsert(AppointmentRecordData)
+  nameWithType: AppointmentRecordDataExtensions.ToInsert(AppointmentRecordData)
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AppointmentRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.AppointmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AppointmentRecordData)
+    name: ToInsert
+    nameWithType: AppointmentRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.AppointmentRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.AppointmentRecordData
+    name: AppointmentRecordData
+    nameWithType: AppointmentRecordData
+    fullName: SuperOffice.CRM.Rows.AppointmentRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.AppointmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AppointmentRecordData)
+    name: ToInsert
+    nameWithType: AppointmentRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.AppointmentRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.AppointmentRecordData
+    name: AppointmentRecordData
+    nameWithType: AppointmentRecordData
+    fullName: SuperOffice.CRM.Rows.AppointmentRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.AppointmentRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.AppointmentRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: AppointmentRecordDataExtensions
+  nameWithType: AppointmentRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.Data.AppointmentType
+  commentId: T:SuperOffice.Data.AppointmentType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: AppointmentType
+  nameWithType: AppointmentType
+  fullName: SuperOffice.Data.AppointmentType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.AppointmentStatus
+  commentId: T:SuperOffice.Data.AppointmentStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: AppointmentStatus
+  nameWithType: AppointmentStatus
+  fullName: SuperOffice.Data.AppointmentStatus
+- uid: SuperOffice.Data.AppointmentPrivate
+  commentId: T:SuperOffice.Data.AppointmentPrivate
+  parent: SuperOffice.Data
+  isExternal: true
+  name: AppointmentPrivate
+  nameWithType: AppointmentPrivate
+  fullName: SuperOffice.Data.AppointmentPrivate
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.AllDayEvent
+  commentId: T:SuperOffice.Data.AllDayEvent
+  parent: SuperOffice.Data
+  isExternal: true
+  name: AllDayEvent
+  nameWithType: AllDayEvent
+  fullName: SuperOffice.Data.AllDayEvent
+- uid: SuperOffice.Data.FreeBusy
+  commentId: T:SuperOffice.Data.FreeBusy
+  parent: SuperOffice.Data
+  isExternal: true
+  name: FreeBusy
+  nameWithType: FreeBusy
+  fullName: SuperOffice.Data.FreeBusy
+- uid: SuperOffice.Data.AppointmentCautionWarning
+  commentId: T:SuperOffice.Data.AppointmentCautionWarning
+  parent: SuperOffice.Data
+  isExternal: true
+  name: AppointmentCautionWarning
+  nameWithType: AppointmentCautionWarning
+  fullName: SuperOffice.Data.AppointmentCautionWarning
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.AppointmentRecordData.#ctor
+  isExternal: true
+  name: AppointmentRecordData
+  nameWithType: AppointmentRecordData.AppointmentRecordData
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.AppointmentRecordData

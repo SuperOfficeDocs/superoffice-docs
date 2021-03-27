@@ -1,0 +1,2144 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.IO.BinaryGenerator
+  commentId: T:SuperOffice.IO.BinaryGenerator
+  id: BinaryGenerator
+  parent: SuperOffice.IO
+  children:
+  - SuperOffice.IO.BinaryGenerator.#ctor(System.IO.Stream,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding)
+  - SuperOffice.IO.BinaryGenerator.AbortTag
+  - SuperOffice.IO.BinaryGenerator.AbortTag(System.Int32)
+  - SuperOffice.IO.BinaryGenerator.EndTag(System.Int32)
+  - SuperOffice.IO.BinaryGenerator.Generate(System.IO.Stream)
+  - SuperOffice.IO.BinaryGenerator.GeneratorState
+  - SuperOffice.IO.BinaryGenerator.IsValidTagData(System.Int32)
+  - SuperOffice.IO.BinaryGenerator.OnEnd
+  - SuperOffice.IO.BinaryGenerator.OnProcessData(System.Int64,System.Int32,SuperOffice.IO.BinaryGenerator.State)
+  - SuperOffice.IO.BinaryGenerator.OnProcessTag(System.Int64,System.Byte[])
+  - SuperOffice.IO.BinaryGenerator.OnStart
+  - SuperOffice.IO.BinaryGenerator.Reader
+  - SuperOffice.IO.BinaryGenerator.SetState(SuperOffice.IO.BinaryGenerator.State,System.Int32)
+  - SuperOffice.IO.BinaryGenerator.StartTag(System.Int32)
+  - SuperOffice.IO.BinaryGenerator.Writer
+  langs:
+  - csharp
+  - vb
+  name: BinaryGenerator
+  nameWithType: BinaryGenerator
+  fullName: SuperOffice.IO.BinaryGenerator
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nAbstract class providing mechanisms supporting generating documents from binary template files.\n"
+  syntax:
+    content: 'public abstract class BinaryGenerator : Generator'
+    content.vb: >-
+      Public MustInherit Class BinaryGenerator
+          Inherits Generator
+  inheritance:
+  - System.Object
+  - SuperOffice.IO.Generator
+  derivedClasses:
+  - SuperOffice.IO.MsWordGenerator
+  inheritedMembers:
+  - SuperOffice.IO.Generator.OptionSkipLtGtTags
+  - SuperOffice.IO.Generator.RegExTag
+  - SuperOffice.IO.Generator.SetOption(System.String)
+  - SuperOffice.IO.Generator.HasOption(System.String)
+  - SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding)
+  - SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding,System.String)
+  - SuperOffice.IO.Generator.GetGenerator(System.String,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding)
+  - SuperOffice.IO.Generator.GetGenerator(System.String,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding,System.String)
+  - SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,System.String)
+  - SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,System.String,System.String)
+  - SuperOffice.IO.Generator.AddExtensionMapping(System.String,System.String)
+  - SuperOffice.IO.Generator.GetEncoding(System.String)
+  - SuperOffice.IO.Generator.Generate
+  - SuperOffice.IO.Generator.GetDefaultTextEncoding(SuperOffice.Data.GeneratorEncoding)
+  - SuperOffice.IO.Generator.GetTagData(System.String)
+  - SuperOffice.IO.Generator.AddTagRegex(System.Text.RegularExpressions.Regex)
+  - SuperOffice.IO.Generator.UiCulture
+  - SuperOffice.IO.Generator.Template
+  - SuperOffice.IO.Generator.Tags
+  - SuperOffice.IO.Generator.Encoding
+  - SuperOffice.IO.Generator.OldEncoding
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.IO.BinaryGenerator.EnumUtil.MapEnums``2
+  - SuperOffice.IO.BinaryGenerator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.IO.BinaryGenerator.#ctor(System.IO.Stream,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding)
+  commentId: M:SuperOffice.IO.BinaryGenerator.#ctor(System.IO.Stream,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding)
+  id: '#ctor(System.IO.Stream,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding)'
+  parent: SuperOffice.IO.BinaryGenerator
+  langs:
+  - csharp
+  - vb
+  name: BinaryGenerator(Stream, TagContainer, GeneratorEncoding)
+  nameWithType: BinaryGenerator.BinaryGenerator(Stream, TagContainer, GeneratorEncoding)
+  fullName: SuperOffice.IO.BinaryGenerator.BinaryGenerator(System.IO.Stream, SuperOffice.IO.TagContainer, SuperOffice.Data.GeneratorEncoding)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nProtected constructor used by sub-classes\n"
+  syntax:
+    content: protected BinaryGenerator(Stream template, TagContainer tags, GeneratorEncoding encoding)
+    parameters:
+    - id: template
+      type: System.IO.Stream
+      description: Stream holding a template.
+    - id: tags
+      type: SuperOffice.IO.TagContainer
+      description: Class holding values for the tags used by the generator
+    - id: encoding
+      type: SuperOffice.Data.GeneratorEncoding
+      description: Format of the document.
+    content.vb: Protected Sub New(template As Stream, tags As TagContainer, encoding As GeneratorEncoding)
+  overload: SuperOffice.IO.BinaryGenerator.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.IO.BinaryGenerator.Generate(System.IO.Stream)
+  commentId: M:SuperOffice.IO.BinaryGenerator.Generate(System.IO.Stream)
+  id: Generate(System.IO.Stream)
+  parent: SuperOffice.IO.BinaryGenerator
+  langs:
+  - csharp
+  - vb
+  name: Generate(Stream)
+  nameWithType: BinaryGenerator.Generate(Stream)
+  fullName: SuperOffice.IO.BinaryGenerator.Generate(System.IO.Stream)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nGenerate the document from the template.\n"
+  syntax:
+    content: public override void Generate(Stream output)
+    parameters:
+    - id: output
+      type: System.IO.Stream
+    content.vb: Public Overrides Sub Generate(output As Stream)
+  overridden: SuperOffice.IO.Generator.Generate(System.IO.Stream)
+  overload: SuperOffice.IO.BinaryGenerator.Generate*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.IO.BinaryGenerator.OnProcessData(System.Int64,System.Int32,SuperOffice.IO.BinaryGenerator.State)
+  commentId: M:SuperOffice.IO.BinaryGenerator.OnProcessData(System.Int64,System.Int32,SuperOffice.IO.BinaryGenerator.State)
+  id: OnProcessData(System.Int64,System.Int32,SuperOffice.IO.BinaryGenerator.State)
+  parent: SuperOffice.IO.BinaryGenerator
+  langs:
+  - csharp
+  - vb
+  name: OnProcessData(Int64, Int32, BinaryGenerator.State)
+  nameWithType: BinaryGenerator.OnProcessData(Int64, Int32, BinaryGenerator.State)
+  fullName: SuperOffice.IO.BinaryGenerator.OnProcessData(System.Int64, System.Int32, SuperOffice.IO.BinaryGenerator.State)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nProcess data as it is read from the template.\n"
+  syntax:
+    content: protected virtual void OnProcessData(long position, int buffer, BinaryGenerator.State state)
+    parameters:
+    - id: position
+      type: System.Int64
+      description: Current position in the template, where the first byte in the template is 1.
+    - id: buffer
+      type: System.Int32
+      description: Last 4 bytes parsed.  This method is called each time a new byte is read from the template.
+    - id: state
+      type: SuperOffice.IO.BinaryGenerator.State
+      description: State of the generator.  The state is either to look for a start or to look for an end tag.
+    content.vb: Protected Overridable Sub OnProcessData(position As Long, buffer As Integer, state As BinaryGenerator.State)
+  overload: SuperOffice.IO.BinaryGenerator.OnProcessData*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.IO.BinaryGenerator.OnStart
+  commentId: M:SuperOffice.IO.BinaryGenerator.OnStart
+  id: OnStart
+  parent: SuperOffice.IO.BinaryGenerator
+  langs:
+  - csharp
+  - vb
+  name: OnStart()
+  nameWithType: BinaryGenerator.OnStart()
+  fullName: SuperOffice.IO.BinaryGenerator.OnStart()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nCalled when starting to parse the template.\n"
+  syntax:
+    content: protected abstract void OnStart()
+    content.vb: Protected MustOverride Sub OnStart
+  overload: SuperOffice.IO.BinaryGenerator.OnStart*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: SuperOffice.IO.BinaryGenerator.OnProcessTag(System.Int64,System.Byte[])
+  commentId: M:SuperOffice.IO.BinaryGenerator.OnProcessTag(System.Int64,System.Byte[])
+  id: OnProcessTag(System.Int64,System.Byte[])
+  parent: SuperOffice.IO.BinaryGenerator
+  langs:
+  - csharp
+  - vb
+  name: OnProcessTag(Int64, Byte[])
+  nameWithType: BinaryGenerator.OnProcessTag(Int64, Byte[])
+  fullName: SuperOffice.IO.BinaryGenerator.OnProcessTag(System.Int64, System.Byte[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nCalled when a tag has been extracted from the template file.\n"
+  syntax:
+    content: protected abstract byte[] OnProcessTag(long position, byte[] tagBuffer)
+    parameters:
+    - id: position
+      type: System.Int64
+      description: Position in the template where the tag starts.
+    - id: tagBuffer
+      type: System.Byte[]
+      description: Buffer holding the tag, including tag start and stop bytes,
+    return:
+      type: System.Byte[]
+      description: Buffer holding data to be written to the document instead of the tag.
+    content.vb: Protected MustOverride Function OnProcessTag(position As Long, tagBuffer As Byte()) As Byte()
+  overload: SuperOffice.IO.BinaryGenerator.OnProcessTag*
+  nameWithType.vb: BinaryGenerator.OnProcessTag(Int64, Byte())
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  fullName.vb: SuperOffice.IO.BinaryGenerator.OnProcessTag(System.Int64, System.Byte())
+  name.vb: OnProcessTag(Int64, Byte())
+- uid: SuperOffice.IO.BinaryGenerator.OnEnd
+  commentId: M:SuperOffice.IO.BinaryGenerator.OnEnd
+  id: OnEnd
+  parent: SuperOffice.IO.BinaryGenerator
+  langs:
+  - csharp
+  - vb
+  name: OnEnd()
+  nameWithType: BinaryGenerator.OnEnd()
+  fullName: SuperOffice.IO.BinaryGenerator.OnEnd()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nCalled when the template has been parsed.\n"
+  syntax:
+    content: protected abstract void OnEnd()
+    content.vb: Protected MustOverride Sub OnEnd
+  overload: SuperOffice.IO.BinaryGenerator.OnEnd*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: SuperOffice.IO.BinaryGenerator.StartTag(System.Int32)
+  commentId: M:SuperOffice.IO.BinaryGenerator.StartTag(System.Int32)
+  id: StartTag(System.Int32)
+  parent: SuperOffice.IO.BinaryGenerator
+  langs:
+  - csharp
+  - vb
+  name: StartTag(Int32)
+  nameWithType: BinaryGenerator.StartTag(Int32)
+  fullName: SuperOffice.IO.BinaryGenerator.StartTag(System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nIdentify a tag start.\n"
+  syntax:
+    content: protected abstract int StartTag(int buffer)
+    parameters:
+    - id: buffer
+      type: System.Int32
+      description: Last 4 bytes parsed.  This method is called each time a new byte is read from the template.
+    return:
+      type: System.Int32
+      description: 0 if no tag has been identified.  A positive number is the number of bytes held by the start tag.
+    content.vb: Protected MustOverride Function StartTag(buffer As Integer) As Integer
+  overload: SuperOffice.IO.BinaryGenerator.StartTag*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: SuperOffice.IO.BinaryGenerator.EndTag(System.Int32)
+  commentId: M:SuperOffice.IO.BinaryGenerator.EndTag(System.Int32)
+  id: EndTag(System.Int32)
+  parent: SuperOffice.IO.BinaryGenerator
+  langs:
+  - csharp
+  - vb
+  name: EndTag(Int32)
+  nameWithType: BinaryGenerator.EndTag(Int32)
+  fullName: SuperOffice.IO.BinaryGenerator.EndTag(System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nIdentify a tag end.\n"
+  syntax:
+    content: protected abstract int EndTag(int buffer)
+    parameters:
+    - id: buffer
+      type: System.Int32
+      description: Last 4 bytes parsed.  This method is called each time a new byte is read from the template.
+    return:
+      type: System.Int32
+      description: 0 if no tag has been identified.  A positive number is the number of bytes held by the end tag.
+    content.vb: Protected MustOverride Function EndTag(buffer As Integer) As Integer
+  overload: SuperOffice.IO.BinaryGenerator.EndTag*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: SuperOffice.IO.BinaryGenerator.IsValidTagData(System.Int32)
+  commentId: M:SuperOffice.IO.BinaryGenerator.IsValidTagData(System.Int32)
+  id: IsValidTagData(System.Int32)
+  parent: SuperOffice.IO.BinaryGenerator
+  langs:
+  - csharp
+  - vb
+  name: IsValidTagData(Int32)
+  nameWithType: BinaryGenerator.IsValidTagData(Int32)
+  fullName: SuperOffice.IO.BinaryGenerator.IsValidTagData(System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nCalled for each byte in a tag, to verify that the data within the tags are valid.\n"
+  remarks: The default implementation will allways return true.
+  syntax:
+    content: protected virtual bool IsValidTagData(int buffer)
+    parameters:
+    - id: buffer
+      type: System.Int32
+    return:
+      type: System.Boolean
+      description: True if it is valid data.
+    content.vb: Protected Overridable Function IsValidTagData(buffer As Integer) As Boolean
+  overload: SuperOffice.IO.BinaryGenerator.IsValidTagData*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.IO.BinaryGenerator.SetState(SuperOffice.IO.BinaryGenerator.State,System.Int32)
+  commentId: M:SuperOffice.IO.BinaryGenerator.SetState(SuperOffice.IO.BinaryGenerator.State,System.Int32)
+  id: SetState(SuperOffice.IO.BinaryGenerator.State,System.Int32)
+  parent: SuperOffice.IO.BinaryGenerator
+  langs:
+  - csharp
+  - vb
+  name: SetState(BinaryGenerator.State, Int32)
+  nameWithType: BinaryGenerator.SetState(BinaryGenerator.State, Int32)
+  fullName: SuperOffice.IO.BinaryGenerator.SetState(SuperOffice.IO.BinaryGenerator.State, System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nChange the state of the parser between seeking for start or end tag.\n"
+  syntax:
+    content: protected void SetState(BinaryGenerator.State state, int tagSize)
+    parameters:
+    - id: state
+      type: SuperOffice.IO.BinaryGenerator.State
+      description: The new state.
+    - id: tagSize
+      type: System.Int32
+      description: Size of the tag in bytes.
+    content.vb: Protected Sub SetState(state As BinaryGenerator.State, tagSize As Integer)
+  overload: SuperOffice.IO.BinaryGenerator.SetState*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.IO.BinaryGenerator.AbortTag
+  commentId: M:SuperOffice.IO.BinaryGenerator.AbortTag
+  id: AbortTag
+  parent: SuperOffice.IO.BinaryGenerator
+  langs:
+  - csharp
+  - vb
+  name: AbortTag()
+  nameWithType: BinaryGenerator.AbortTag()
+  fullName: SuperOffice.IO.BinaryGenerator.AbortTag()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nAbort seeking for an end tag and start seeking for a start tag.\n"
+  syntax:
+    content: protected void AbortTag()
+    content.vb: Protected Sub AbortTag
+  overload: SuperOffice.IO.BinaryGenerator.AbortTag*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.IO.BinaryGenerator.AbortTag(System.Int32)
+  commentId: M:SuperOffice.IO.BinaryGenerator.AbortTag(System.Int32)
+  id: AbortTag(System.Int32)
+  parent: SuperOffice.IO.BinaryGenerator
+  langs:
+  - csharp
+  - vb
+  name: AbortTag(Int32)
+  nameWithType: BinaryGenerator.AbortTag(Int32)
+  fullName: SuperOffice.IO.BinaryGenerator.AbortTag(System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nAbort seeking for an end tag and start seeking for a start tag.\n"
+  remarks: "\nAfter a start tag is found, the search for an end-tag can be aborted.  \nThis method aborts seeking for an end tag.  If a next start tag is found \nwhile seeking for a start tag, the input argument will contain the number \nof bytes that should be re-parsed looking for a start tag.\n"
+  example:
+  - "\n<pre><code>case BinaryGenerator.State.LookForTagEnd:\n    {\n        int bytes = StartTag(buffer);\n        if (bytes > 0)\n        {\n            AbortTag(bytes);\n            SetState(BinaryGenerator.State.LookForTagEnd, bytes);\n            break;\n        }</code></pre>\n"
+  syntax:
+    content: protected void AbortTag(int bytes)
+    parameters:
+    - id: bytes
+      type: System.Int32
+    content.vb: Protected Sub AbortTag(bytes As Integer)
+  overload: SuperOffice.IO.BinaryGenerator.AbortTag*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.IO.BinaryGenerator.GeneratorState
+  commentId: P:SuperOffice.IO.BinaryGenerator.GeneratorState
+  id: GeneratorState
+  parent: SuperOffice.IO.BinaryGenerator
+  langs:
+  - csharp
+  - vb
+  name: GeneratorState
+  nameWithType: BinaryGenerator.GeneratorState
+  fullName: SuperOffice.IO.BinaryGenerator.GeneratorState
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\n\n"
+  syntax:
+    content: protected BinaryGenerator.State GeneratorState { get; }
+    parameters: []
+    return:
+      type: SuperOffice.IO.BinaryGenerator.State
+    content.vb: Protected ReadOnly Property GeneratorState As BinaryGenerator.State
+  overload: SuperOffice.IO.BinaryGenerator.GeneratorState*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: SuperOffice.IO.BinaryGenerator.Reader
+  commentId: P:SuperOffice.IO.BinaryGenerator.Reader
+  id: Reader
+  parent: SuperOffice.IO.BinaryGenerator
+  langs:
+  - csharp
+  - vb
+  name: Reader
+  nameWithType: BinaryGenerator.Reader
+  fullName: SuperOffice.IO.BinaryGenerator.Reader
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nBinaryReader that the template is read from.\n"
+  syntax:
+    content: protected BinaryReader Reader { get; }
+    parameters: []
+    return:
+      type: System.IO.BinaryReader
+    content.vb: Protected ReadOnly Property Reader As BinaryReader
+  overload: SuperOffice.IO.BinaryGenerator.Reader*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: SuperOffice.IO.BinaryGenerator.Writer
+  commentId: P:SuperOffice.IO.BinaryGenerator.Writer
+  id: Writer
+  parent: SuperOffice.IO.BinaryGenerator
+  langs:
+  - csharp
+  - vb
+  name: Writer
+  nameWithType: BinaryGenerator.Writer
+  fullName: SuperOffice.IO.BinaryGenerator.Writer
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nBinaryWriter that the document is written to.\n"
+  syntax:
+    content: protected BinaryWriter Writer { get; }
+    parameters: []
+    return:
+      type: System.IO.BinaryWriter
+    content.vb: Protected ReadOnly Property Writer As BinaryWriter
+  overload: SuperOffice.IO.BinaryGenerator.Writer*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+references:
+- uid: SuperOffice.IO
+  commentId: N:SuperOffice.IO
+  isExternal: true
+  name: SuperOffice.IO
+  nameWithType: SuperOffice.IO
+  fullName: SuperOffice.IO
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.IO.Generator
+  commentId: T:SuperOffice.IO.Generator
+  parent: SuperOffice.IO
+  isExternal: true
+  name: Generator
+  nameWithType: Generator
+  fullName: SuperOffice.IO.Generator
+- uid: SuperOffice.IO.Generator.OptionSkipLtGtTags
+  commentId: F:SuperOffice.IO.Generator.OptionSkipLtGtTags
+  parent: SuperOffice.IO.Generator
+  isExternal: true
+  name: OptionSkipLtGtTags
+  nameWithType: Generator.OptionSkipLtGtTags
+  fullName: SuperOffice.IO.Generator.OptionSkipLtGtTags
+- uid: SuperOffice.IO.Generator.RegExTag
+  commentId: F:SuperOffice.IO.Generator.RegExTag
+  parent: SuperOffice.IO.Generator
+  isExternal: true
+  name: RegExTag
+  nameWithType: Generator.RegExTag
+  fullName: SuperOffice.IO.Generator.RegExTag
+- uid: SuperOffice.IO.Generator.SetOption(System.String)
+  commentId: M:SuperOffice.IO.Generator.SetOption(System.String)
+  parent: SuperOffice.IO.Generator
+  isExternal: true
+  name: SetOption(String)
+  nameWithType: Generator.SetOption(String)
+  fullName: SuperOffice.IO.Generator.SetOption(System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.Generator.SetOption(System.String)
+    name: SetOption
+    nameWithType: Generator.SetOption
+    fullName: SuperOffice.IO.Generator.SetOption
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Generator.SetOption(System.String)
+    name: SetOption
+    nameWithType: Generator.SetOption
+    fullName: SuperOffice.IO.Generator.SetOption
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Generator.HasOption(System.String)
+  commentId: M:SuperOffice.IO.Generator.HasOption(System.String)
+  parent: SuperOffice.IO.Generator
+  isExternal: true
+  name: HasOption(String)
+  nameWithType: Generator.HasOption(String)
+  fullName: SuperOffice.IO.Generator.HasOption(System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.Generator.HasOption(System.String)
+    name: HasOption
+    nameWithType: Generator.HasOption
+    fullName: SuperOffice.IO.Generator.HasOption
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Generator.HasOption(System.String)
+    name: HasOption
+    nameWithType: Generator.HasOption
+    fullName: SuperOffice.IO.Generator.HasOption
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding)
+  commentId: M:SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding)
+  parent: SuperOffice.IO.Generator
+  isExternal: true
+  name: GetGenerator(Stream, TagContainer, GeneratorEncoding)
+  nameWithType: Generator.GetGenerator(Stream, TagContainer, GeneratorEncoding)
+  fullName: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream, SuperOffice.IO.TagContainer, SuperOffice.Data.GeneratorEncoding)
+  spec.csharp:
+  - uid: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding)
+    name: GetGenerator
+    nameWithType: Generator.GetGenerator
+    fullName: SuperOffice.IO.Generator.GetGenerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.IO.TagContainer
+    name: TagContainer
+    nameWithType: TagContainer
+    fullName: SuperOffice.IO.TagContainer
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.GeneratorEncoding
+    name: GeneratorEncoding
+    nameWithType: GeneratorEncoding
+    fullName: SuperOffice.Data.GeneratorEncoding
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding)
+    name: GetGenerator
+    nameWithType: Generator.GetGenerator
+    fullName: SuperOffice.IO.Generator.GetGenerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.IO.TagContainer
+    name: TagContainer
+    nameWithType: TagContainer
+    fullName: SuperOffice.IO.TagContainer
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.GeneratorEncoding
+    name: GeneratorEncoding
+    nameWithType: GeneratorEncoding
+    fullName: SuperOffice.Data.GeneratorEncoding
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding,System.String)
+  commentId: M:SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding,System.String)
+  parent: SuperOffice.IO.Generator
+  isExternal: true
+  name: GetGenerator(Stream, TagContainer, GeneratorEncoding, String)
+  nameWithType: Generator.GetGenerator(Stream, TagContainer, GeneratorEncoding, String)
+  fullName: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream, SuperOffice.IO.TagContainer, SuperOffice.Data.GeneratorEncoding, System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding,System.String)
+    name: GetGenerator
+    nameWithType: Generator.GetGenerator
+    fullName: SuperOffice.IO.Generator.GetGenerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.IO.TagContainer
+    name: TagContainer
+    nameWithType: TagContainer
+    fullName: SuperOffice.IO.TagContainer
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.GeneratorEncoding
+    name: GeneratorEncoding
+    nameWithType: GeneratorEncoding
+    fullName: SuperOffice.Data.GeneratorEncoding
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding,System.String)
+    name: GetGenerator
+    nameWithType: Generator.GetGenerator
+    fullName: SuperOffice.IO.Generator.GetGenerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.IO.TagContainer
+    name: TagContainer
+    nameWithType: TagContainer
+    fullName: SuperOffice.IO.TagContainer
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.GeneratorEncoding
+    name: GeneratorEncoding
+    nameWithType: GeneratorEncoding
+    fullName: SuperOffice.Data.GeneratorEncoding
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Generator.GetGenerator(System.String,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding)
+  commentId: M:SuperOffice.IO.Generator.GetGenerator(System.String,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding)
+  parent: SuperOffice.IO.Generator
+  isExternal: true
+  name: GetGenerator(String, TagContainer, GeneratorEncoding)
+  nameWithType: Generator.GetGenerator(String, TagContainer, GeneratorEncoding)
+  fullName: SuperOffice.IO.Generator.GetGenerator(System.String, SuperOffice.IO.TagContainer, SuperOffice.Data.GeneratorEncoding)
+  spec.csharp:
+  - uid: SuperOffice.IO.Generator.GetGenerator(System.String,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding)
+    name: GetGenerator
+    nameWithType: Generator.GetGenerator
+    fullName: SuperOffice.IO.Generator.GetGenerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.IO.TagContainer
+    name: TagContainer
+    nameWithType: TagContainer
+    fullName: SuperOffice.IO.TagContainer
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.GeneratorEncoding
+    name: GeneratorEncoding
+    nameWithType: GeneratorEncoding
+    fullName: SuperOffice.Data.GeneratorEncoding
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Generator.GetGenerator(System.String,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding)
+    name: GetGenerator
+    nameWithType: Generator.GetGenerator
+    fullName: SuperOffice.IO.Generator.GetGenerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.IO.TagContainer
+    name: TagContainer
+    nameWithType: TagContainer
+    fullName: SuperOffice.IO.TagContainer
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.GeneratorEncoding
+    name: GeneratorEncoding
+    nameWithType: GeneratorEncoding
+    fullName: SuperOffice.Data.GeneratorEncoding
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Generator.GetGenerator(System.String,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding,System.String)
+  commentId: M:SuperOffice.IO.Generator.GetGenerator(System.String,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding,System.String)
+  parent: SuperOffice.IO.Generator
+  isExternal: true
+  name: GetGenerator(String, TagContainer, GeneratorEncoding, String)
+  nameWithType: Generator.GetGenerator(String, TagContainer, GeneratorEncoding, String)
+  fullName: SuperOffice.IO.Generator.GetGenerator(System.String, SuperOffice.IO.TagContainer, SuperOffice.Data.GeneratorEncoding, System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.Generator.GetGenerator(System.String,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding,System.String)
+    name: GetGenerator
+    nameWithType: Generator.GetGenerator
+    fullName: SuperOffice.IO.Generator.GetGenerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.IO.TagContainer
+    name: TagContainer
+    nameWithType: TagContainer
+    fullName: SuperOffice.IO.TagContainer
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.GeneratorEncoding
+    name: GeneratorEncoding
+    nameWithType: GeneratorEncoding
+    fullName: SuperOffice.Data.GeneratorEncoding
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Generator.GetGenerator(System.String,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding,System.String)
+    name: GetGenerator
+    nameWithType: Generator.GetGenerator
+    fullName: SuperOffice.IO.Generator.GetGenerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.IO.TagContainer
+    name: TagContainer
+    nameWithType: TagContainer
+    fullName: SuperOffice.IO.TagContainer
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.GeneratorEncoding
+    name: GeneratorEncoding
+    nameWithType: GeneratorEncoding
+    fullName: SuperOffice.Data.GeneratorEncoding
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,System.String)
+  commentId: M:SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,System.String)
+  parent: SuperOffice.IO.Generator
+  isExternal: true
+  name: GetGenerator(Stream, TagContainer, String)
+  nameWithType: Generator.GetGenerator(Stream, TagContainer, String)
+  fullName: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream, SuperOffice.IO.TagContainer, System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,System.String)
+    name: GetGenerator
+    nameWithType: Generator.GetGenerator
+    fullName: SuperOffice.IO.Generator.GetGenerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.IO.TagContainer
+    name: TagContainer
+    nameWithType: TagContainer
+    fullName: SuperOffice.IO.TagContainer
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,System.String)
+    name: GetGenerator
+    nameWithType: Generator.GetGenerator
+    fullName: SuperOffice.IO.Generator.GetGenerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.IO.TagContainer
+    name: TagContainer
+    nameWithType: TagContainer
+    fullName: SuperOffice.IO.TagContainer
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,System.String,System.String)
+  commentId: M:SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,System.String,System.String)
+  parent: SuperOffice.IO.Generator
+  isExternal: true
+  name: GetGenerator(Stream, TagContainer, String, String)
+  nameWithType: Generator.GetGenerator(Stream, TagContainer, String, String)
+  fullName: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream, SuperOffice.IO.TagContainer, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,System.String,System.String)
+    name: GetGenerator
+    nameWithType: Generator.GetGenerator
+    fullName: SuperOffice.IO.Generator.GetGenerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.IO.TagContainer
+    name: TagContainer
+    nameWithType: TagContainer
+    fullName: SuperOffice.IO.TagContainer
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,System.String,System.String)
+    name: GetGenerator
+    nameWithType: Generator.GetGenerator
+    fullName: SuperOffice.IO.Generator.GetGenerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.IO.TagContainer
+    name: TagContainer
+    nameWithType: TagContainer
+    fullName: SuperOffice.IO.TagContainer
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Generator.AddExtensionMapping(System.String,System.String)
+  commentId: M:SuperOffice.IO.Generator.AddExtensionMapping(System.String,System.String)
+  parent: SuperOffice.IO.Generator
+  isExternal: true
+  name: AddExtensionMapping(String, String)
+  nameWithType: Generator.AddExtensionMapping(String, String)
+  fullName: SuperOffice.IO.Generator.AddExtensionMapping(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.Generator.AddExtensionMapping(System.String,System.String)
+    name: AddExtensionMapping
+    nameWithType: Generator.AddExtensionMapping
+    fullName: SuperOffice.IO.Generator.AddExtensionMapping
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Generator.AddExtensionMapping(System.String,System.String)
+    name: AddExtensionMapping
+    nameWithType: Generator.AddExtensionMapping
+    fullName: SuperOffice.IO.Generator.AddExtensionMapping
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Generator.GetEncoding(System.String)
+  commentId: M:SuperOffice.IO.Generator.GetEncoding(System.String)
+  parent: SuperOffice.IO.Generator
+  isExternal: true
+  name: GetEncoding(String)
+  nameWithType: Generator.GetEncoding(String)
+  fullName: SuperOffice.IO.Generator.GetEncoding(System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.Generator.GetEncoding(System.String)
+    name: GetEncoding
+    nameWithType: Generator.GetEncoding
+    fullName: SuperOffice.IO.Generator.GetEncoding
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Generator.GetEncoding(System.String)
+    name: GetEncoding
+    nameWithType: Generator.GetEncoding
+    fullName: SuperOffice.IO.Generator.GetEncoding
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Generator.Generate
+  commentId: M:SuperOffice.IO.Generator.Generate
+  parent: SuperOffice.IO.Generator
+  isExternal: true
+  name: Generate()
+  nameWithType: Generator.Generate()
+  fullName: SuperOffice.IO.Generator.Generate()
+  spec.csharp:
+  - uid: SuperOffice.IO.Generator.Generate
+    name: Generate
+    nameWithType: Generator.Generate
+    fullName: SuperOffice.IO.Generator.Generate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Generator.Generate
+    name: Generate
+    nameWithType: Generator.Generate
+    fullName: SuperOffice.IO.Generator.Generate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Generator.GetDefaultTextEncoding(SuperOffice.Data.GeneratorEncoding)
+  commentId: M:SuperOffice.IO.Generator.GetDefaultTextEncoding(SuperOffice.Data.GeneratorEncoding)
+  parent: SuperOffice.IO.Generator
+  isExternal: true
+  name: GetDefaultTextEncoding(GeneratorEncoding)
+  nameWithType: Generator.GetDefaultTextEncoding(GeneratorEncoding)
+  fullName: SuperOffice.IO.Generator.GetDefaultTextEncoding(SuperOffice.Data.GeneratorEncoding)
+  spec.csharp:
+  - uid: SuperOffice.IO.Generator.GetDefaultTextEncoding(SuperOffice.Data.GeneratorEncoding)
+    name: GetDefaultTextEncoding
+    nameWithType: Generator.GetDefaultTextEncoding
+    fullName: SuperOffice.IO.Generator.GetDefaultTextEncoding
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.GeneratorEncoding
+    name: GeneratorEncoding
+    nameWithType: GeneratorEncoding
+    fullName: SuperOffice.Data.GeneratorEncoding
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Generator.GetDefaultTextEncoding(SuperOffice.Data.GeneratorEncoding)
+    name: GetDefaultTextEncoding
+    nameWithType: Generator.GetDefaultTextEncoding
+    fullName: SuperOffice.IO.Generator.GetDefaultTextEncoding
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.GeneratorEncoding
+    name: GeneratorEncoding
+    nameWithType: GeneratorEncoding
+    fullName: SuperOffice.Data.GeneratorEncoding
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Generator.GetTagData(System.String)
+  commentId: M:SuperOffice.IO.Generator.GetTagData(System.String)
+  parent: SuperOffice.IO.Generator
+  isExternal: true
+  name: GetTagData(String)
+  nameWithType: Generator.GetTagData(String)
+  fullName: SuperOffice.IO.Generator.GetTagData(System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.Generator.GetTagData(System.String)
+    name: GetTagData
+    nameWithType: Generator.GetTagData
+    fullName: SuperOffice.IO.Generator.GetTagData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Generator.GetTagData(System.String)
+    name: GetTagData
+    nameWithType: Generator.GetTagData
+    fullName: SuperOffice.IO.Generator.GetTagData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Generator.AddTagRegex(System.Text.RegularExpressions.Regex)
+  commentId: M:SuperOffice.IO.Generator.AddTagRegex(System.Text.RegularExpressions.Regex)
+  parent: SuperOffice.IO.Generator
+  isExternal: true
+  name: AddTagRegex(Regex)
+  nameWithType: Generator.AddTagRegex(Regex)
+  fullName: SuperOffice.IO.Generator.AddTagRegex(System.Text.RegularExpressions.Regex)
+  spec.csharp:
+  - uid: SuperOffice.IO.Generator.AddTagRegex(System.Text.RegularExpressions.Regex)
+    name: AddTagRegex
+    nameWithType: Generator.AddTagRegex
+    fullName: SuperOffice.IO.Generator.AddTagRegex
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Text.RegularExpressions.Regex
+    name: Regex
+    nameWithType: Regex
+    fullName: System.Text.RegularExpressions.Regex
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Generator.AddTagRegex(System.Text.RegularExpressions.Regex)
+    name: AddTagRegex
+    nameWithType: Generator.AddTagRegex
+    fullName: SuperOffice.IO.Generator.AddTagRegex
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Text.RegularExpressions.Regex
+    name: Regex
+    nameWithType: Regex
+    fullName: System.Text.RegularExpressions.Regex
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.Generator.UiCulture
+  commentId: P:SuperOffice.IO.Generator.UiCulture
+  parent: SuperOffice.IO.Generator
+  isExternal: true
+  name: UiCulture
+  nameWithType: Generator.UiCulture
+  fullName: SuperOffice.IO.Generator.UiCulture
+- uid: SuperOffice.IO.Generator.Template
+  commentId: P:SuperOffice.IO.Generator.Template
+  parent: SuperOffice.IO.Generator
+  isExternal: true
+  name: Template
+  nameWithType: Generator.Template
+  fullName: SuperOffice.IO.Generator.Template
+- uid: SuperOffice.IO.Generator.Tags
+  commentId: P:SuperOffice.IO.Generator.Tags
+  parent: SuperOffice.IO.Generator
+  isExternal: true
+  name: Tags
+  nameWithType: Generator.Tags
+  fullName: SuperOffice.IO.Generator.Tags
+- uid: SuperOffice.IO.Generator.Encoding
+  commentId: P:SuperOffice.IO.Generator.Encoding
+  parent: SuperOffice.IO.Generator
+  isExternal: true
+  name: Encoding
+  nameWithType: Generator.Encoding
+  fullName: SuperOffice.IO.Generator.Encoding
+- uid: SuperOffice.IO.Generator.OldEncoding
+  commentId: P:SuperOffice.IO.Generator.OldEncoding
+  parent: SuperOffice.IO.Generator
+  isExternal: true
+  name: OldEncoding
+  nameWithType: Generator.OldEncoding
+  fullName: SuperOffice.IO.Generator.OldEncoding
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.BinaryGenerator.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<BinaryGenerator, To>()
+  nameWithType: EnumUtil.MapEnums<BinaryGenerator, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.IO.BinaryGenerator, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of BinaryGenerator, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.IO.BinaryGenerator, To)()
+  name.vb: MapEnums(Of BinaryGenerator, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<BinaryGenerator, To>
+    nameWithType: EnumUtil.MapEnums<BinaryGenerator, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.IO.BinaryGenerator, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of BinaryGenerator, To)
+    nameWithType: EnumUtil.MapEnums(Of BinaryGenerator, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.IO.BinaryGenerator, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.BinaryGenerator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<BinaryGenerator, To>()
+  nameWithType: Converters.MapEnums<BinaryGenerator, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.BinaryGenerator, To>()
+  nameWithType.vb: Converters.MapEnums(Of BinaryGenerator, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.BinaryGenerator, To)()
+  name.vb: MapEnums(Of BinaryGenerator, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<BinaryGenerator, To>
+    nameWithType: Converters.MapEnums<BinaryGenerator, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.BinaryGenerator, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of BinaryGenerator, To)
+    nameWithType: Converters.MapEnums(Of BinaryGenerator, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.BinaryGenerator, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.IO.BinaryGenerator.#ctor*
+  commentId: Overload:SuperOffice.IO.BinaryGenerator.#ctor
+  isExternal: true
+  name: BinaryGenerator
+  nameWithType: BinaryGenerator.BinaryGenerator
+  fullName: SuperOffice.IO.BinaryGenerator.BinaryGenerator
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: SuperOffice.IO.TagContainer
+  commentId: T:SuperOffice.IO.TagContainer
+  parent: SuperOffice.IO
+  isExternal: true
+  name: TagContainer
+  nameWithType: TagContainer
+  fullName: SuperOffice.IO.TagContainer
+- uid: SuperOffice.Data.GeneratorEncoding
+  commentId: T:SuperOffice.Data.GeneratorEncoding
+  parent: SuperOffice.Data
+  isExternal: true
+  name: GeneratorEncoding
+  nameWithType: GeneratorEncoding
+  fullName: SuperOffice.Data.GeneratorEncoding
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.IO.Generator.Generate(System.IO.Stream)
+  commentId: M:SuperOffice.IO.Generator.Generate(System.IO.Stream)
+  parent: SuperOffice.IO.Generator
+  isExternal: true
+  name: Generate(Stream)
+  nameWithType: Generator.Generate(Stream)
+  fullName: SuperOffice.IO.Generator.Generate(System.IO.Stream)
+  spec.csharp:
+  - uid: SuperOffice.IO.Generator.Generate(System.IO.Stream)
+    name: Generate
+    nameWithType: Generator.Generate
+    fullName: SuperOffice.IO.Generator.Generate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.Generator.Generate(System.IO.Stream)
+    name: Generate
+    nameWithType: Generator.Generate
+    fullName: SuperOffice.IO.Generator.Generate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.BinaryGenerator.Generate*
+  commentId: Overload:SuperOffice.IO.BinaryGenerator.Generate
+  isExternal: true
+  name: Generate
+  nameWithType: BinaryGenerator.Generate
+  fullName: SuperOffice.IO.BinaryGenerator.Generate
+- uid: SuperOffice.IO.BinaryGenerator.OnProcessData*
+  commentId: Overload:SuperOffice.IO.BinaryGenerator.OnProcessData
+  isExternal: true
+  name: OnProcessData
+  nameWithType: BinaryGenerator.OnProcessData
+  fullName: SuperOffice.IO.BinaryGenerator.OnProcessData
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.IO.BinaryGenerator.State
+  commentId: T:SuperOffice.IO.BinaryGenerator.State
+  parent: SuperOffice.IO
+  isExternal: true
+  name: BinaryGenerator.State
+  nameWithType: BinaryGenerator.State
+  fullName: SuperOffice.IO.BinaryGenerator.State
+- uid: SuperOffice.IO.BinaryGenerator.OnStart*
+  commentId: Overload:SuperOffice.IO.BinaryGenerator.OnStart
+  isExternal: true
+  name: OnStart
+  nameWithType: BinaryGenerator.OnStart
+  fullName: SuperOffice.IO.BinaryGenerator.OnStart
+- uid: SuperOffice.IO.BinaryGenerator.OnProcessTag*
+  commentId: Overload:SuperOffice.IO.BinaryGenerator.OnProcessTag
+  isExternal: true
+  name: OnProcessTag
+  nameWithType: BinaryGenerator.OnProcessTag
+  fullName: SuperOffice.IO.BinaryGenerator.OnProcessTag
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.IO.BinaryGenerator.OnEnd*
+  commentId: Overload:SuperOffice.IO.BinaryGenerator.OnEnd
+  isExternal: true
+  name: OnEnd
+  nameWithType: BinaryGenerator.OnEnd
+  fullName: SuperOffice.IO.BinaryGenerator.OnEnd
+- uid: SuperOffice.IO.BinaryGenerator.StartTag*
+  commentId: Overload:SuperOffice.IO.BinaryGenerator.StartTag
+  isExternal: true
+  name: StartTag
+  nameWithType: BinaryGenerator.StartTag
+  fullName: SuperOffice.IO.BinaryGenerator.StartTag
+- uid: SuperOffice.IO.BinaryGenerator.EndTag*
+  commentId: Overload:SuperOffice.IO.BinaryGenerator.EndTag
+  isExternal: true
+  name: EndTag
+  nameWithType: BinaryGenerator.EndTag
+  fullName: SuperOffice.IO.BinaryGenerator.EndTag
+- uid: SuperOffice.IO.BinaryGenerator.IsValidTagData*
+  commentId: Overload:SuperOffice.IO.BinaryGenerator.IsValidTagData
+  isExternal: true
+  name: IsValidTagData
+  nameWithType: BinaryGenerator.IsValidTagData
+  fullName: SuperOffice.IO.BinaryGenerator.IsValidTagData
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.IO.BinaryGenerator.SetState*
+  commentId: Overload:SuperOffice.IO.BinaryGenerator.SetState
+  isExternal: true
+  name: SetState
+  nameWithType: BinaryGenerator.SetState
+  fullName: SuperOffice.IO.BinaryGenerator.SetState
+- uid: SuperOffice.IO.BinaryGenerator.AbortTag*
+  commentId: Overload:SuperOffice.IO.BinaryGenerator.AbortTag
+  isExternal: true
+  name: AbortTag
+  nameWithType: BinaryGenerator.AbortTag
+  fullName: SuperOffice.IO.BinaryGenerator.AbortTag
+- uid: SuperOffice.IO.BinaryGenerator.GeneratorState*
+  commentId: Overload:SuperOffice.IO.BinaryGenerator.GeneratorState
+  isExternal: true
+  name: GeneratorState
+  nameWithType: BinaryGenerator.GeneratorState
+  fullName: SuperOffice.IO.BinaryGenerator.GeneratorState
+- uid: SuperOffice.IO.BinaryGenerator.Reader*
+  commentId: Overload:SuperOffice.IO.BinaryGenerator.Reader
+  isExternal: true
+  name: Reader
+  nameWithType: BinaryGenerator.Reader
+  fullName: SuperOffice.IO.BinaryGenerator.Reader
+- uid: System.IO.BinaryReader
+  commentId: T:System.IO.BinaryReader
+  parent: System.IO
+  isExternal: true
+  name: BinaryReader
+  nameWithType: BinaryReader
+  fullName: System.IO.BinaryReader
+- uid: SuperOffice.IO.BinaryGenerator.Writer*
+  commentId: Overload:SuperOffice.IO.BinaryGenerator.Writer
+  isExternal: true
+  name: Writer
+  nameWithType: BinaryGenerator.Writer
+  fullName: SuperOffice.IO.BinaryGenerator.Writer
+- uid: System.IO.BinaryWriter
+  commentId: T:System.IO.BinaryWriter
+  parent: System.IO
+  isExternal: true
+  name: BinaryWriter
+  nameWithType: BinaryWriter
+  fullName: System.IO.BinaryWriter

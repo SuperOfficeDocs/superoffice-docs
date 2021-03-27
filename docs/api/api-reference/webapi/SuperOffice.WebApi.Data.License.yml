@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.License
+  commentId: T:SuperOffice.WebApi.Data.License
+  id: License
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.License.#ctor
+  langs:
+  - csharp
+  - vb
+  name: License
+  nameWithType: License
+  fullName: SuperOffice.WebApi.Data.License
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for License.\nLicense information, hashed and signed with public keys to prevent tampering. Counts License usage and assignments.    \n"
+  syntax:
+    content: 'public class License : Carrier'
+    content.vb: >-
+      Public Class License
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.LicenseAgent
+    commentId: T:SuperOffice.WebApi.Agents.LicenseAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.License.#ctor
+  commentId: M:SuperOffice.WebApi.Data.License.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.License
+  langs:
+  - csharp
+  - vb
+  name: License()
+  nameWithType: License.License()
+  fullName: SuperOffice.WebApi.Data.License.License()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public License()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.License.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.LicenseAgent
+  commentId: T:SuperOffice.WebApi.Agents.LicenseAgent
+  isExternal: true
+  name: LicenseAgent
+  nameWithType: LicenseAgent
+  fullName: SuperOffice.WebApi.Agents.LicenseAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.License.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.License.#ctor
+  isExternal: true
+  name: License
+  nameWithType: License.License
+  fullName: SuperOffice.WebApi.Data.License.License

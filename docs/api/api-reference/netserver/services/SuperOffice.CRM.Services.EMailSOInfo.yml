@@ -1,0 +1,527 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.EMailSOInfo
+  commentId: T:SuperOffice.CRM.Services.EMailSOInfo
+  id: EMailSOInfo
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.EMailSOInfo.#ctor
+  - SuperOffice.CRM.Services.EMailSOInfo.AppointmentId
+  - SuperOffice.CRM.Services.EMailSOInfo.Archived
+  - SuperOffice.CRM.Services.EMailSOInfo.ArchivedAt
+  - SuperOffice.CRM.Services.EMailSOInfo.ArchivedBy
+  - SuperOffice.CRM.Services.EMailSOInfo.ArchivedDisplayName
+  - SuperOffice.CRM.Services.EMailSOInfo.DocumentId
+  - SuperOffice.CRM.Services.EMailSOInfo.ProjectId
+  - SuperOffice.CRM.Services.EMailSOInfo.SaleId
+  - SuperOffice.CRM.Services.EMailSOInfo.ToString
+  - SuperOffice.CRM.Services.EMailSOInfo.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: EMailSOInfo
+  nameWithType: EMailSOInfo
+  fullName: SuperOffice.CRM.Services.EMailSOInfo
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGlue between SuperOffice data and an e-mail.\n<p></p>\nCarrier object for EMailSOInfo.\nServices for the EMailSOInfo Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IEMailAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet EMailSOInfo 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new EMailAgent();\n    var eMailSOInfo = agent.GetEMailSOInfo( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class EMailSOInfo : Carrier'
+    content.vb: >-
+      Public Class EMailSOInfo
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.EMailAgent
+    commentId: T:SuperOffice.CRM.Services.EMailAgent
+  - linkId: SuperOffice.CRM.Services.IEMailAgent
+    commentId: T:SuperOffice.CRM.Services.IEMailAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.EMailSOInfo.#ctor
+  commentId: M:SuperOffice.CRM.Services.EMailSOInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.EMailSOInfo
+  langs:
+  - csharp
+  - vb
+  name: EMailSOInfo()
+  nameWithType: EMailSOInfo.EMailSOInfo()
+  fullName: SuperOffice.CRM.Services.EMailSOInfo.EMailSOInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public EMailSOInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.EMailSOInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EMailSOInfo.ToString
+  commentId: M:SuperOffice.CRM.Services.EMailSOInfo.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.EMailSOInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: EMailSOInfo.ToString()
+  fullName: SuperOffice.CRM.Services.EMailSOInfo.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.EMailSOInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.EMailSOInfo.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.EMailSOInfo.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.EMailSOInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: EMailSOInfo.ToString(String)
+  fullName: SuperOffice.CRM.Services.EMailSOInfo.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.EMailSOInfo.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EMailSOInfo.DocumentId
+  commentId: P:SuperOffice.CRM.Services.EMailSOInfo.DocumentId
+  id: DocumentId
+  parent: SuperOffice.CRM.Services.EMailSOInfo
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: EMailSOInfo.DocumentId
+  fullName: SuperOffice.CRM.Services.EMailSOInfo.DocumentId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DocumentId As Integer
+  overload: SuperOffice.CRM.Services.EMailSOInfo.DocumentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailSOInfo.AppointmentId
+  commentId: P:SuperOffice.CRM.Services.EMailSOInfo.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.CRM.Services.EMailSOInfo
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: EMailSOInfo.AppointmentId
+  fullName: SuperOffice.CRM.Services.EMailSOInfo.AppointmentId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int AppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AppointmentId As Integer
+  overload: SuperOffice.CRM.Services.EMailSOInfo.AppointmentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailSOInfo.ProjectId
+  commentId: P:SuperOffice.CRM.Services.EMailSOInfo.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.Services.EMailSOInfo
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: EMailSOInfo.ProjectId
+  fullName: SuperOffice.CRM.Services.EMailSOInfo.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProjectId As Integer
+  overload: SuperOffice.CRM.Services.EMailSOInfo.ProjectId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailSOInfo.SaleId
+  commentId: P:SuperOffice.CRM.Services.EMailSOInfo.SaleId
+  id: SaleId
+  parent: SuperOffice.CRM.Services.EMailSOInfo
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: EMailSOInfo.SaleId
+  fullName: SuperOffice.CRM.Services.EMailSOInfo.SaleId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleId As Integer
+  overload: SuperOffice.CRM.Services.EMailSOInfo.SaleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailSOInfo.Archived
+  commentId: P:SuperOffice.CRM.Services.EMailSOInfo.Archived
+  id: Archived
+  parent: SuperOffice.CRM.Services.EMailSOInfo
+  langs:
+  - csharp
+  - vb
+  name: Archived
+  nameWithType: EMailSOInfo.Archived
+  fullName: SuperOffice.CRM.Services.EMailSOInfo.Archived
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIs this e-mail archived in SuperOffice \n"
+  syntax:
+    content: public virtual bool Archived { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Archived As Boolean
+  overload: SuperOffice.CRM.Services.EMailSOInfo.Archived*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailSOInfo.ArchivedAt
+  commentId: P:SuperOffice.CRM.Services.EMailSOInfo.ArchivedAt
+  id: ArchivedAt
+  parent: SuperOffice.CRM.Services.EMailSOInfo
+  langs:
+  - csharp
+  - vb
+  name: ArchivedAt
+  nameWithType: EMailSOInfo.ArchivedAt
+  fullName: SuperOffice.CRM.Services.EMailSOInfo.ArchivedAt
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe datetime when this email was archived \n"
+  syntax:
+    content: public virtual DateTime ArchivedAt { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property ArchivedAt As Date
+  overload: SuperOffice.CRM.Services.EMailSOInfo.ArchivedAt*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailSOInfo.ArchivedBy
+  commentId: P:SuperOffice.CRM.Services.EMailSOInfo.ArchivedBy
+  id: ArchivedBy
+  parent: SuperOffice.CRM.Services.EMailSOInfo
+  langs:
+  - csharp
+  - vb
+  name: ArchivedBy
+  nameWithType: EMailSOInfo.ArchivedBy
+  fullName: SuperOffice.CRM.Services.EMailSOInfo.ArchivedBy
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe associate who archived this email \n"
+  syntax:
+    content: public virtual int ArchivedBy { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ArchivedBy As Integer
+  overload: SuperOffice.CRM.Services.EMailSOInfo.ArchivedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailSOInfo.ArchivedDisplayName
+  commentId: P:SuperOffice.CRM.Services.EMailSOInfo.ArchivedDisplayName
+  id: ArchivedDisplayName
+  parent: SuperOffice.CRM.Services.EMailSOInfo
+  langs:
+  - csharp
+  - vb
+  name: ArchivedDisplayName
+  nameWithType: EMailSOInfo.ArchivedDisplayName
+  fullName: SuperOffice.CRM.Services.EMailSOInfo.ArchivedDisplayName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe full name of the associate who archived this email \n"
+  syntax:
+    content: public virtual string ArchivedDisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ArchivedDisplayName As String
+  overload: SuperOffice.CRM.Services.EMailSOInfo.ArchivedDisplayName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.EMailAgent
+  commentId: T:SuperOffice.CRM.Services.EMailAgent
+  isExternal: true
+  name: EMailAgent
+  nameWithType: EMailAgent
+  fullName: SuperOffice.CRM.Services.EMailAgent
+- uid: SuperOffice.CRM.Services.IEMailAgent
+  commentId: T:SuperOffice.CRM.Services.IEMailAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IEMailAgent
+  nameWithType: IEMailAgent
+  fullName: SuperOffice.CRM.Services.IEMailAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.EMailSOInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.EMailSOInfo.#ctor
+  isExternal: true
+  name: EMailSOInfo
+  nameWithType: EMailSOInfo.EMailSOInfo
+  fullName: SuperOffice.CRM.Services.EMailSOInfo.EMailSOInfo
+- uid: SuperOffice.CRM.Services.EMailSOInfo.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.EMailSOInfo.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: EMailSOInfo.ToString
+  fullName: SuperOffice.CRM.Services.EMailSOInfo.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.EMailSOInfo.DocumentId*
+  commentId: Overload:SuperOffice.CRM.Services.EMailSOInfo.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: EMailSOInfo.DocumentId
+  fullName: SuperOffice.CRM.Services.EMailSOInfo.DocumentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.EMailSOInfo.AppointmentId*
+  commentId: Overload:SuperOffice.CRM.Services.EMailSOInfo.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: EMailSOInfo.AppointmentId
+  fullName: SuperOffice.CRM.Services.EMailSOInfo.AppointmentId
+- uid: SuperOffice.CRM.Services.EMailSOInfo.ProjectId*
+  commentId: Overload:SuperOffice.CRM.Services.EMailSOInfo.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: EMailSOInfo.ProjectId
+  fullName: SuperOffice.CRM.Services.EMailSOInfo.ProjectId
+- uid: SuperOffice.CRM.Services.EMailSOInfo.SaleId*
+  commentId: Overload:SuperOffice.CRM.Services.EMailSOInfo.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: EMailSOInfo.SaleId
+  fullName: SuperOffice.CRM.Services.EMailSOInfo.SaleId
+- uid: SuperOffice.CRM.Services.EMailSOInfo.Archived*
+  commentId: Overload:SuperOffice.CRM.Services.EMailSOInfo.Archived
+  isExternal: true
+  name: Archived
+  nameWithType: EMailSOInfo.Archived
+  fullName: SuperOffice.CRM.Services.EMailSOInfo.Archived
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.EMailSOInfo.ArchivedAt*
+  commentId: Overload:SuperOffice.CRM.Services.EMailSOInfo.ArchivedAt
+  isExternal: true
+  name: ArchivedAt
+  nameWithType: EMailSOInfo.ArchivedAt
+  fullName: SuperOffice.CRM.Services.EMailSOInfo.ArchivedAt
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.EMailSOInfo.ArchivedBy*
+  commentId: Overload:SuperOffice.CRM.Services.EMailSOInfo.ArchivedBy
+  isExternal: true
+  name: ArchivedBy
+  nameWithType: EMailSOInfo.ArchivedBy
+  fullName: SuperOffice.CRM.Services.EMailSOInfo.ArchivedBy
+- uid: SuperOffice.CRM.Services.EMailSOInfo.ArchivedDisplayName*
+  commentId: Overload:SuperOffice.CRM.Services.EMailSOInfo.ArchivedDisplayName
+  isExternal: true
+  name: ArchivedDisplayName
+  nameWithType: EMailSOInfo.ArchivedDisplayName
+  fullName: SuperOffice.CRM.Services.EMailSOInfo.ArchivedDisplayName

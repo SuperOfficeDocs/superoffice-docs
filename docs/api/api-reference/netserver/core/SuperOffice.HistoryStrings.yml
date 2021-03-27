@@ -1,0 +1,2091 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.HistoryStrings
+  commentId: T:SuperOffice.HistoryStrings
+  id: HistoryStrings
+  parent: SuperOffice
+  children:
+  - SuperOffice.HistoryStrings.#ctor
+  - SuperOffice.HistoryStrings.Appointment
+  - SuperOffice.HistoryStrings.Associate
+  - SuperOffice.HistoryStrings.Business
+  - SuperOffice.HistoryStrings.Category
+  - SuperOffice.HistoryStrings.Competitor
+  - SuperOffice.HistoryStrings.Contact
+  - SuperOffice.HistoryStrings.ContactInterest
+  - SuperOffice.HistoryStrings.Country
+  - SuperOffice.HistoryStrings.Credited
+  - SuperOffice.HistoryStrings.Currency
+  - SuperOffice.HistoryStrings.DiaryOwner
+  - SuperOffice.HistoryStrings.Document
+  - SuperOffice.HistoryStrings.DocumentTemplate
+  - SuperOffice.HistoryStrings.GroupView
+  - SuperOffice.HistoryStrings.Intent
+  - SuperOffice.HistoryStrings.MergeDocument
+  - SuperOffice.HistoryStrings.MrMrs
+  - SuperOffice.HistoryStrings.Person
+  - SuperOffice.HistoryStrings.PersonIntererst
+  - SuperOffice.HistoryStrings.PersonPosition
+  - SuperOffice.HistoryStrings.Priority
+  - SuperOffice.HistoryStrings.Probability
+  - SuperOffice.HistoryStrings.Project
+  - SuperOffice.HistoryStrings.ProjectMemberType
+  - SuperOffice.HistoryStrings.ProjectStatus
+  - SuperOffice.HistoryStrings.ProjectType
+  - SuperOffice.HistoryStrings.Reason
+  - SuperOffice.HistoryStrings.Sale
+  - SuperOffice.HistoryStrings.SearchCategory
+  - SuperOffice.HistoryStrings.Selection
+  - SuperOffice.HistoryStrings.Source
+  - SuperOffice.HistoryStrings.Task
+  - SuperOffice.HistoryStrings.UDList
+  - SuperOffice.HistoryStrings.UserGroup
+  langs:
+  - csharp
+  - vb
+  name: HistoryStrings
+  nameWithType: HistoryStrings
+  fullName: SuperOffice.HistoryStrings
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHelper class that exposes history list names that are used to identify current values.\nThese names either uniquely represents table_id/extra_id in the history table, or\nPreference values\n"
+  syntax:
+    content: public sealed class HistoryStrings
+    content.vb: Public NotInheritable Class HistoryStrings
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.HistoryStrings.EnumUtil.MapEnums``2
+  - SuperOffice.HistoryStrings.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.HistoryStrings)
+  - SuperOffice.HistoryStrings.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.HistoryStrings.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.HistoryStrings.#ctor
+  commentId: M:SuperOffice.HistoryStrings.#ctor
+  id: '#ctor'
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: HistoryStrings()
+  nameWithType: HistoryStrings.HistoryStrings()
+  fullName: SuperOffice.HistoryStrings.HistoryStrings()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public HistoryStrings()
+    content.vb: Public Sub New
+  overload: SuperOffice.HistoryStrings.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.HistoryStrings.Appointment
+  commentId: P:SuperOffice.HistoryStrings.Appointment
+  id: Appointment
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: Appointment
+  nameWithType: HistoryStrings.Appointment
+  fullName: SuperOffice.HistoryStrings.Appointment
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string Appointment { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Appointment As String
+  overload: SuperOffice.HistoryStrings.Appointment*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.Associate
+  commentId: P:SuperOffice.HistoryStrings.Associate
+  id: Associate
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: HistoryStrings.Associate
+  fullName: SuperOffice.HistoryStrings.Associate
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string Associate { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Associate As String
+  overload: SuperOffice.HistoryStrings.Associate*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.Business
+  commentId: P:SuperOffice.HistoryStrings.Business
+  id: Business
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: Business
+  nameWithType: HistoryStrings.Business
+  fullName: SuperOffice.HistoryStrings.Business
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string Business { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Business As String
+  overload: SuperOffice.HistoryStrings.Business*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.Category
+  commentId: P:SuperOffice.HistoryStrings.Category
+  id: Category
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: Category
+  nameWithType: HistoryStrings.Category
+  fullName: SuperOffice.HistoryStrings.Category
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string Category { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Category As String
+  overload: SuperOffice.HistoryStrings.Category*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.Competitor
+  commentId: P:SuperOffice.HistoryStrings.Competitor
+  id: Competitor
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: Competitor
+  nameWithType: HistoryStrings.Competitor
+  fullName: SuperOffice.HistoryStrings.Competitor
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string Competitor { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Competitor As String
+  overload: SuperOffice.HistoryStrings.Competitor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.Contact
+  commentId: P:SuperOffice.HistoryStrings.Contact
+  id: Contact
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: HistoryStrings.Contact
+  fullName: SuperOffice.HistoryStrings.Contact
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string Contact { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Contact As String
+  overload: SuperOffice.HistoryStrings.Contact*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.ContactInterest
+  commentId: P:SuperOffice.HistoryStrings.ContactInterest
+  id: ContactInterest
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: ContactInterest
+  nameWithType: HistoryStrings.ContactInterest
+  fullName: SuperOffice.HistoryStrings.ContactInterest
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string ContactInterest { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property ContactInterest As String
+  overload: SuperOffice.HistoryStrings.ContactInterest*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.Country
+  commentId: P:SuperOffice.HistoryStrings.Country
+  id: Country
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: Country
+  nameWithType: HistoryStrings.Country
+  fullName: SuperOffice.HistoryStrings.Country
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string Country { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Country As String
+  overload: SuperOffice.HistoryStrings.Country*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.Credited
+  commentId: P:SuperOffice.HistoryStrings.Credited
+  id: Credited
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: Credited
+  nameWithType: HistoryStrings.Credited
+  fullName: SuperOffice.HistoryStrings.Credited
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string Credited { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Credited As String
+  overload: SuperOffice.HistoryStrings.Credited*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.Currency
+  commentId: P:SuperOffice.HistoryStrings.Currency
+  id: Currency
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: Currency
+  nameWithType: HistoryStrings.Currency
+  fullName: SuperOffice.HistoryStrings.Currency
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string Currency { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Currency As String
+  overload: SuperOffice.HistoryStrings.Currency*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.DocumentTemplate
+  commentId: P:SuperOffice.HistoryStrings.DocumentTemplate
+  id: DocumentTemplate
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: DocumentTemplate
+  nameWithType: HistoryStrings.DocumentTemplate
+  fullName: SuperOffice.HistoryStrings.DocumentTemplate
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string DocumentTemplate { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property DocumentTemplate As String
+  overload: SuperOffice.HistoryStrings.DocumentTemplate*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.Document
+  commentId: P:SuperOffice.HistoryStrings.Document
+  id: Document
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: Document
+  nameWithType: HistoryStrings.Document
+  fullName: SuperOffice.HistoryStrings.Document
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string Document { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Document As String
+  overload: SuperOffice.HistoryStrings.Document*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.MergeDocument
+  commentId: P:SuperOffice.HistoryStrings.MergeDocument
+  id: MergeDocument
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: MergeDocument
+  nameWithType: HistoryStrings.MergeDocument
+  fullName: SuperOffice.HistoryStrings.MergeDocument
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name used for documents used as mailmerge drafts.\n"
+  syntax:
+    content: public static string MergeDocument { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MergeDocument As String
+  overload: SuperOffice.HistoryStrings.MergeDocument*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.Intent
+  commentId: P:SuperOffice.HistoryStrings.Intent
+  id: Intent
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: Intent
+  nameWithType: HistoryStrings.Intent
+  fullName: SuperOffice.HistoryStrings.Intent
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string Intent { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Intent As String
+  overload: SuperOffice.HistoryStrings.Intent*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.MrMrs
+  commentId: P:SuperOffice.HistoryStrings.MrMrs
+  id: MrMrs
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: MrMrs
+  nameWithType: HistoryStrings.MrMrs
+  fullName: SuperOffice.HistoryStrings.MrMrs
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string MrMrs { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MrMrs As String
+  overload: SuperOffice.HistoryStrings.MrMrs*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.PersonIntererst
+  commentId: P:SuperOffice.HistoryStrings.PersonIntererst
+  id: PersonIntererst
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: PersonIntererst
+  nameWithType: HistoryStrings.PersonIntererst
+  fullName: SuperOffice.HistoryStrings.PersonIntererst
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string PersonIntererst { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property PersonIntererst As String
+  overload: SuperOffice.HistoryStrings.PersonIntererst*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.Person
+  commentId: P:SuperOffice.HistoryStrings.Person
+  id: Person
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: HistoryStrings.Person
+  fullName: SuperOffice.HistoryStrings.Person
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string Person { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Person As String
+  overload: SuperOffice.HistoryStrings.Person*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.PersonPosition
+  commentId: P:SuperOffice.HistoryStrings.PersonPosition
+  id: PersonPosition
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: PersonPosition
+  nameWithType: HistoryStrings.PersonPosition
+  fullName: SuperOffice.HistoryStrings.PersonPosition
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string PersonPosition { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property PersonPosition As String
+  overload: SuperOffice.HistoryStrings.PersonPosition*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.ProjectMemberType
+  commentId: P:SuperOffice.HistoryStrings.ProjectMemberType
+  id: ProjectMemberType
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: ProjectMemberType
+  nameWithType: HistoryStrings.ProjectMemberType
+  fullName: SuperOffice.HistoryStrings.ProjectMemberType
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string ProjectMemberType { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property ProjectMemberType As String
+  overload: SuperOffice.HistoryStrings.ProjectMemberType*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.Priority
+  commentId: P:SuperOffice.HistoryStrings.Priority
+  id: Priority
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: HistoryStrings.Priority
+  fullName: SuperOffice.HistoryStrings.Priority
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string Priority { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Priority As String
+  overload: SuperOffice.HistoryStrings.Priority*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.Probability
+  commentId: P:SuperOffice.HistoryStrings.Probability
+  id: Probability
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: Probability
+  nameWithType: HistoryStrings.Probability
+  fullName: SuperOffice.HistoryStrings.Probability
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string Probability { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Probability As String
+  overload: SuperOffice.HistoryStrings.Probability*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.Project
+  commentId: P:SuperOffice.HistoryStrings.Project
+  id: Project
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: HistoryStrings.Project
+  fullName: SuperOffice.HistoryStrings.Project
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string Project { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Project As String
+  overload: SuperOffice.HistoryStrings.Project*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.ProjectStatus
+  commentId: P:SuperOffice.HistoryStrings.ProjectStatus
+  id: ProjectStatus
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: ProjectStatus
+  nameWithType: HistoryStrings.ProjectStatus
+  fullName: SuperOffice.HistoryStrings.ProjectStatus
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string ProjectStatus { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property ProjectStatus As String
+  overload: SuperOffice.HistoryStrings.ProjectStatus*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.ProjectType
+  commentId: P:SuperOffice.HistoryStrings.ProjectType
+  id: ProjectType
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: ProjectType
+  nameWithType: HistoryStrings.ProjectType
+  fullName: SuperOffice.HistoryStrings.ProjectType
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string ProjectType { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property ProjectType As String
+  overload: SuperOffice.HistoryStrings.ProjectType*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.Reason
+  commentId: P:SuperOffice.HistoryStrings.Reason
+  id: Reason
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: Reason
+  nameWithType: HistoryStrings.Reason
+  fullName: SuperOffice.HistoryStrings.Reason
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string Reason { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Reason As String
+  overload: SuperOffice.HistoryStrings.Reason*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.Sale
+  commentId: P:SuperOffice.HistoryStrings.Sale
+  id: Sale
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: Sale
+  nameWithType: HistoryStrings.Sale
+  fullName: SuperOffice.HistoryStrings.Sale
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string Sale { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Sale As String
+  overload: SuperOffice.HistoryStrings.Sale*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.SearchCategory
+  commentId: P:SuperOffice.HistoryStrings.SearchCategory
+  id: SearchCategory
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: SearchCategory
+  nameWithType: HistoryStrings.SearchCategory
+  fullName: SuperOffice.HistoryStrings.SearchCategory
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string SearchCategory { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SearchCategory As String
+  overload: SuperOffice.HistoryStrings.SearchCategory*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.Selection
+  commentId: P:SuperOffice.HistoryStrings.Selection
+  id: Selection
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: Selection
+  nameWithType: HistoryStrings.Selection
+  fullName: SuperOffice.HistoryStrings.Selection
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string Selection { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Selection As String
+  overload: SuperOffice.HistoryStrings.Selection*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.Source
+  commentId: P:SuperOffice.HistoryStrings.Source
+  id: Source
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: HistoryStrings.Source
+  fullName: SuperOffice.HistoryStrings.Source
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string Source { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Source As String
+  overload: SuperOffice.HistoryStrings.Source*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.Task
+  commentId: P:SuperOffice.HistoryStrings.Task
+  id: Task
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: Task
+  nameWithType: HistoryStrings.Task
+  fullName: SuperOffice.HistoryStrings.Task
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string Task { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Task As String
+  overload: SuperOffice.HistoryStrings.Task*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.UDList
+  commentId: P:SuperOffice.HistoryStrings.UDList
+  id: UDList
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: UDList
+  nameWithType: HistoryStrings.UDList
+  fullName: SuperOffice.HistoryStrings.UDList
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string UDList { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property UDList As String
+  overload: SuperOffice.HistoryStrings.UDList*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.UserGroup
+  commentId: P:SuperOffice.HistoryStrings.UserGroup
+  id: UserGroup
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: UserGroup
+  nameWithType: HistoryStrings.UserGroup
+  fullName: SuperOffice.HistoryStrings.UserGroup
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name\n"
+  syntax:
+    content: public static string UserGroup { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property UserGroup As String
+  overload: SuperOffice.HistoryStrings.UserGroup*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.GroupView
+  commentId: P:SuperOffice.HistoryStrings.GroupView
+  id: GroupView
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: GroupView
+  nameWithType: HistoryStrings.GroupView
+  fullName: SuperOffice.HistoryStrings.GroupView
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name used for the group view current value\n"
+  syntax:
+    content: public static string GroupView { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property GroupView As String
+  overload: SuperOffice.HistoryStrings.GroupView*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.HistoryStrings.DiaryOwner
+  commentId: P:SuperOffice.HistoryStrings.DiaryOwner
+  id: DiaryOwner
+  parent: SuperOffice.HistoryStrings
+  langs:
+  - csharp
+  - vb
+  name: DiaryOwner
+  nameWithType: HistoryStrings.DiaryOwner
+  fullName: SuperOffice.HistoryStrings.DiaryOwner
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHistory list name used for the diary owner current value\n"
+  syntax:
+    content: public static string DiaryOwner { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property DiaryOwner As String
+  overload: SuperOffice.HistoryStrings.DiaryOwner*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: SuperOffice
+  commentId: N:SuperOffice
+  isExternal: true
+  name: SuperOffice
+  nameWithType: SuperOffice
+  fullName: SuperOffice
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.HistoryStrings.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<HistoryStrings, To>()
+  nameWithType: EnumUtil.MapEnums<HistoryStrings, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.HistoryStrings, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of HistoryStrings, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.HistoryStrings, To)()
+  name.vb: MapEnums(Of HistoryStrings, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<HistoryStrings, To>
+    nameWithType: EnumUtil.MapEnums<HistoryStrings, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.HistoryStrings, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of HistoryStrings, To)
+    nameWithType: EnumUtil.MapEnums(Of HistoryStrings, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.HistoryStrings, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.HistoryStrings.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.HistoryStrings)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<HistoryStrings>(HistoryStrings)
+  nameWithType: ObjectExtensions.AssignByReflection<HistoryStrings>(HistoryStrings)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.HistoryStrings>(SuperOffice.HistoryStrings)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of HistoryStrings)(HistoryStrings)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.HistoryStrings)(SuperOffice.HistoryStrings)
+  name.vb: AssignByReflection(Of HistoryStrings)(HistoryStrings)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<HistoryStrings>
+    nameWithType: ObjectExtensions.AssignByReflection<HistoryStrings>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.HistoryStrings>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.HistoryStrings
+    name: HistoryStrings
+    nameWithType: HistoryStrings
+    fullName: SuperOffice.HistoryStrings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of HistoryStrings)
+    nameWithType: ObjectExtensions.AssignByReflection(Of HistoryStrings)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.HistoryStrings)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.HistoryStrings
+    name: HistoryStrings
+    nameWithType: HistoryStrings
+    fullName: SuperOffice.HistoryStrings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.HistoryStrings.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<HistoryStrings>()
+  nameWithType: ObjectExtensions.GraphCopy<HistoryStrings>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.HistoryStrings>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of HistoryStrings)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.HistoryStrings)()
+  name.vb: GraphCopy(Of HistoryStrings)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<HistoryStrings>
+    nameWithType: ObjectExtensions.GraphCopy<HistoryStrings>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.HistoryStrings>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of HistoryStrings)
+    nameWithType: ObjectExtensions.GraphCopy(Of HistoryStrings)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.HistoryStrings)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.HistoryStrings.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<HistoryStrings, To>()
+  nameWithType: Converters.MapEnums<HistoryStrings, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.HistoryStrings, To>()
+  nameWithType.vb: Converters.MapEnums(Of HistoryStrings, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.HistoryStrings, To)()
+  name.vb: MapEnums(Of HistoryStrings, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<HistoryStrings, To>
+    nameWithType: Converters.MapEnums<HistoryStrings, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.HistoryStrings, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of HistoryStrings, To)
+    nameWithType: Converters.MapEnums(Of HistoryStrings, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.HistoryStrings, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.HistoryStrings.#ctor*
+  commentId: Overload:SuperOffice.HistoryStrings.#ctor
+  isExternal: true
+  name: HistoryStrings
+  nameWithType: HistoryStrings.HistoryStrings
+  fullName: SuperOffice.HistoryStrings.HistoryStrings
+- uid: SuperOffice.HistoryStrings.Appointment*
+  commentId: Overload:SuperOffice.HistoryStrings.Appointment
+  isExternal: true
+  name: Appointment
+  nameWithType: HistoryStrings.Appointment
+  fullName: SuperOffice.HistoryStrings.Appointment
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.HistoryStrings.Associate*
+  commentId: Overload:SuperOffice.HistoryStrings.Associate
+  isExternal: true
+  name: Associate
+  nameWithType: HistoryStrings.Associate
+  fullName: SuperOffice.HistoryStrings.Associate
+- uid: SuperOffice.HistoryStrings.Business*
+  commentId: Overload:SuperOffice.HistoryStrings.Business
+  isExternal: true
+  name: Business
+  nameWithType: HistoryStrings.Business
+  fullName: SuperOffice.HistoryStrings.Business
+- uid: SuperOffice.HistoryStrings.Category*
+  commentId: Overload:SuperOffice.HistoryStrings.Category
+  isExternal: true
+  name: Category
+  nameWithType: HistoryStrings.Category
+  fullName: SuperOffice.HistoryStrings.Category
+- uid: SuperOffice.HistoryStrings.Competitor*
+  commentId: Overload:SuperOffice.HistoryStrings.Competitor
+  isExternal: true
+  name: Competitor
+  nameWithType: HistoryStrings.Competitor
+  fullName: SuperOffice.HistoryStrings.Competitor
+- uid: SuperOffice.HistoryStrings.Contact*
+  commentId: Overload:SuperOffice.HistoryStrings.Contact
+  isExternal: true
+  name: Contact
+  nameWithType: HistoryStrings.Contact
+  fullName: SuperOffice.HistoryStrings.Contact
+- uid: SuperOffice.HistoryStrings.ContactInterest*
+  commentId: Overload:SuperOffice.HistoryStrings.ContactInterest
+  isExternal: true
+  name: ContactInterest
+  nameWithType: HistoryStrings.ContactInterest
+  fullName: SuperOffice.HistoryStrings.ContactInterest
+- uid: SuperOffice.HistoryStrings.Country*
+  commentId: Overload:SuperOffice.HistoryStrings.Country
+  isExternal: true
+  name: Country
+  nameWithType: HistoryStrings.Country
+  fullName: SuperOffice.HistoryStrings.Country
+- uid: SuperOffice.HistoryStrings.Credited*
+  commentId: Overload:SuperOffice.HistoryStrings.Credited
+  isExternal: true
+  name: Credited
+  nameWithType: HistoryStrings.Credited
+  fullName: SuperOffice.HistoryStrings.Credited
+- uid: SuperOffice.HistoryStrings.Currency*
+  commentId: Overload:SuperOffice.HistoryStrings.Currency
+  isExternal: true
+  name: Currency
+  nameWithType: HistoryStrings.Currency
+  fullName: SuperOffice.HistoryStrings.Currency
+- uid: SuperOffice.HistoryStrings.DocumentTemplate*
+  commentId: Overload:SuperOffice.HistoryStrings.DocumentTemplate
+  isExternal: true
+  name: DocumentTemplate
+  nameWithType: HistoryStrings.DocumentTemplate
+  fullName: SuperOffice.HistoryStrings.DocumentTemplate
+- uid: SuperOffice.HistoryStrings.Document*
+  commentId: Overload:SuperOffice.HistoryStrings.Document
+  isExternal: true
+  name: Document
+  nameWithType: HistoryStrings.Document
+  fullName: SuperOffice.HistoryStrings.Document
+- uid: SuperOffice.HistoryStrings.MergeDocument*
+  commentId: Overload:SuperOffice.HistoryStrings.MergeDocument
+  isExternal: true
+  name: MergeDocument
+  nameWithType: HistoryStrings.MergeDocument
+  fullName: SuperOffice.HistoryStrings.MergeDocument
+- uid: SuperOffice.HistoryStrings.Intent*
+  commentId: Overload:SuperOffice.HistoryStrings.Intent
+  isExternal: true
+  name: Intent
+  nameWithType: HistoryStrings.Intent
+  fullName: SuperOffice.HistoryStrings.Intent
+- uid: SuperOffice.HistoryStrings.MrMrs*
+  commentId: Overload:SuperOffice.HistoryStrings.MrMrs
+  isExternal: true
+  name: MrMrs
+  nameWithType: HistoryStrings.MrMrs
+  fullName: SuperOffice.HistoryStrings.MrMrs
+- uid: SuperOffice.HistoryStrings.PersonIntererst*
+  commentId: Overload:SuperOffice.HistoryStrings.PersonIntererst
+  isExternal: true
+  name: PersonIntererst
+  nameWithType: HistoryStrings.PersonIntererst
+  fullName: SuperOffice.HistoryStrings.PersonIntererst
+- uid: SuperOffice.HistoryStrings.Person*
+  commentId: Overload:SuperOffice.HistoryStrings.Person
+  isExternal: true
+  name: Person
+  nameWithType: HistoryStrings.Person
+  fullName: SuperOffice.HistoryStrings.Person
+- uid: SuperOffice.HistoryStrings.PersonPosition*
+  commentId: Overload:SuperOffice.HistoryStrings.PersonPosition
+  isExternal: true
+  name: PersonPosition
+  nameWithType: HistoryStrings.PersonPosition
+  fullName: SuperOffice.HistoryStrings.PersonPosition
+- uid: SuperOffice.HistoryStrings.ProjectMemberType*
+  commentId: Overload:SuperOffice.HistoryStrings.ProjectMemberType
+  isExternal: true
+  name: ProjectMemberType
+  nameWithType: HistoryStrings.ProjectMemberType
+  fullName: SuperOffice.HistoryStrings.ProjectMemberType
+- uid: SuperOffice.HistoryStrings.Priority*
+  commentId: Overload:SuperOffice.HistoryStrings.Priority
+  isExternal: true
+  name: Priority
+  nameWithType: HistoryStrings.Priority
+  fullName: SuperOffice.HistoryStrings.Priority
+- uid: SuperOffice.HistoryStrings.Probability*
+  commentId: Overload:SuperOffice.HistoryStrings.Probability
+  isExternal: true
+  name: Probability
+  nameWithType: HistoryStrings.Probability
+  fullName: SuperOffice.HistoryStrings.Probability
+- uid: SuperOffice.HistoryStrings.Project*
+  commentId: Overload:SuperOffice.HistoryStrings.Project
+  isExternal: true
+  name: Project
+  nameWithType: HistoryStrings.Project
+  fullName: SuperOffice.HistoryStrings.Project
+- uid: SuperOffice.HistoryStrings.ProjectStatus*
+  commentId: Overload:SuperOffice.HistoryStrings.ProjectStatus
+  isExternal: true
+  name: ProjectStatus
+  nameWithType: HistoryStrings.ProjectStatus
+  fullName: SuperOffice.HistoryStrings.ProjectStatus
+- uid: SuperOffice.HistoryStrings.ProjectType*
+  commentId: Overload:SuperOffice.HistoryStrings.ProjectType
+  isExternal: true
+  name: ProjectType
+  nameWithType: HistoryStrings.ProjectType
+  fullName: SuperOffice.HistoryStrings.ProjectType
+- uid: SuperOffice.HistoryStrings.Reason*
+  commentId: Overload:SuperOffice.HistoryStrings.Reason
+  isExternal: true
+  name: Reason
+  nameWithType: HistoryStrings.Reason
+  fullName: SuperOffice.HistoryStrings.Reason
+- uid: SuperOffice.HistoryStrings.Sale*
+  commentId: Overload:SuperOffice.HistoryStrings.Sale
+  isExternal: true
+  name: Sale
+  nameWithType: HistoryStrings.Sale
+  fullName: SuperOffice.HistoryStrings.Sale
+- uid: SuperOffice.HistoryStrings.SearchCategory*
+  commentId: Overload:SuperOffice.HistoryStrings.SearchCategory
+  isExternal: true
+  name: SearchCategory
+  nameWithType: HistoryStrings.SearchCategory
+  fullName: SuperOffice.HistoryStrings.SearchCategory
+- uid: SuperOffice.HistoryStrings.Selection*
+  commentId: Overload:SuperOffice.HistoryStrings.Selection
+  isExternal: true
+  name: Selection
+  nameWithType: HistoryStrings.Selection
+  fullName: SuperOffice.HistoryStrings.Selection
+- uid: SuperOffice.HistoryStrings.Source*
+  commentId: Overload:SuperOffice.HistoryStrings.Source
+  isExternal: true
+  name: Source
+  nameWithType: HistoryStrings.Source
+  fullName: SuperOffice.HistoryStrings.Source
+- uid: SuperOffice.HistoryStrings.Task*
+  commentId: Overload:SuperOffice.HistoryStrings.Task
+  isExternal: true
+  name: Task
+  nameWithType: HistoryStrings.Task
+  fullName: SuperOffice.HistoryStrings.Task
+- uid: SuperOffice.HistoryStrings.UDList*
+  commentId: Overload:SuperOffice.HistoryStrings.UDList
+  isExternal: true
+  name: UDList
+  nameWithType: HistoryStrings.UDList
+  fullName: SuperOffice.HistoryStrings.UDList
+- uid: SuperOffice.HistoryStrings.UserGroup*
+  commentId: Overload:SuperOffice.HistoryStrings.UserGroup
+  isExternal: true
+  name: UserGroup
+  nameWithType: HistoryStrings.UserGroup
+  fullName: SuperOffice.HistoryStrings.UserGroup
+- uid: SuperOffice.HistoryStrings.GroupView*
+  commentId: Overload:SuperOffice.HistoryStrings.GroupView
+  isExternal: true
+  name: GroupView
+  nameWithType: HistoryStrings.GroupView
+  fullName: SuperOffice.HistoryStrings.GroupView
+- uid: SuperOffice.HistoryStrings.DiaryOwner*
+  commentId: Overload:SuperOffice.HistoryStrings.DiaryOwner
+  isExternal: true
+  name: DiaryOwner
+  nameWithType: HistoryStrings.DiaryOwner
+  fullName: SuperOffice.HistoryStrings.DiaryOwner

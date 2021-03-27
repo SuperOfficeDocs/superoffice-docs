@@ -1,0 +1,1248 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.ServicePreferenceMapper
+  commentId: T:SuperOffice.Data.ServicePreferenceMapper
+  id: ServicePreferenceMapper
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndFetchIntoCache(System.String)
+  - SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndSavePreference(System.String,System.String,System.String,System.Int32)
+  - SuperOffice.Data.ServicePreferenceMapper.FetchIndividualValues
+  - SuperOffice.Data.ServicePreferenceMapper.FetchSinglePreference(System.String,System.String,SuperOffice.Data.PreferenceLevel,System.Int32)
+  - SuperOffice.Data.ServicePreferenceMapper.MappedSections
+  - SuperOffice.Data.ServicePreferenceMapper.Mappings
+  langs:
+  - csharp
+  - vb
+  name: ServicePreferenceMapper
+  nameWithType: ServicePreferenceMapper
+  fullName: SuperOffice.Data.ServicePreferenceMapper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nHandle the mapping of some sections in userpreference to actually be stored in the config, registry and password_rules tables; \nbackwards compatibility with Service\n"
+  syntax:
+    content: >-
+      [SoInject("Database")]
+
+      public class ServicePreferenceMapper
+    content.vb: >-
+      <SoInject("Database")>
+
+      Public Class ServicePreferenceMapper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Data.ServicePreferenceMapper.EnumUtil.MapEnums``2
+  - SuperOffice.Data.ServicePreferenceMapper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Factory.SoInjectAttribute
+    ctor: SuperOffice.Factory.SoInjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Database
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndFetchIntoCache(System.String)
+  commentId: M:SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndFetchIntoCache(System.String)
+  id: CheckForMappingAndFetchIntoCache(System.String)
+  parent: SuperOffice.Data.ServicePreferenceMapper
+  langs:
+  - csharp
+  - vb
+  name: CheckForMappingAndFetchIntoCache(String)
+  nameWithType: ServicePreferenceMapper.CheckForMappingAndFetchIntoCache(String)
+  fullName: SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndFetchIntoCache(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nIf the given section is one of ours, read all our mapped stuff and update the cache.\n"
+  remarks: "\nThis is a simple and reasonable? optimization: touch anything that is mapped, and we get all of them, once.\n"
+  syntax:
+    content: public string[] CheckForMappingAndFetchIntoCache(string section)
+    parameters:
+    - id: section
+      type: System.String
+    return:
+      type: System.String[]
+    content.vb: Public Function CheckForMappingAndFetchIntoCache(section As String) As String()
+  overload: SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndFetchIntoCache*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.ServicePreferenceMapper.FetchIndividualValues
+  commentId: M:SuperOffice.Data.ServicePreferenceMapper.FetchIndividualValues
+  id: FetchIndividualValues
+  parent: SuperOffice.Data.ServicePreferenceMapper
+  langs:
+  - csharp
+  - vb
+  name: FetchIndividualValues()
+  nameWithType: ServicePreferenceMapper.FetchIndividualValues()
+  fullName: SuperOffice.Data.ServicePreferenceMapper.FetchIndividualValues()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public List<(string section, string key, int associateId, string value)> FetchIndividualValues()
+    return:
+      type: System.Collections.Generic.List{System.ValueTuple{System.String,System.String,System.Int32,System.String}}
+    content.vb: Public Function FetchIndividualValues As List(Of(section As String, key As String, associateId As Integer, value As String))
+  overload: SuperOffice.Data.ServicePreferenceMapper.FetchIndividualValues*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.ServicePreferenceMapper.FetchSinglePreference(System.String,System.String,SuperOffice.Data.PreferenceLevel,System.Int32)
+  commentId: M:SuperOffice.Data.ServicePreferenceMapper.FetchSinglePreference(System.String,System.String,SuperOffice.Data.PreferenceLevel,System.Int32)
+  id: FetchSinglePreference(System.String,System.String,SuperOffice.Data.PreferenceLevel,System.Int32)
+  parent: SuperOffice.Data.ServicePreferenceMapper
+  langs:
+  - csharp
+  - vb
+  name: FetchSinglePreference(String, String, PreferenceLevel, Int32)
+  nameWithType: ServicePreferenceMapper.FetchSinglePreference(String, String, PreferenceLevel, Int32)
+  fullName: SuperOffice.Data.ServicePreferenceMapper.FetchSinglePreference(System.String, System.String, SuperOffice.Data.PreferenceLevel, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public (int fakeId, string rawValue) FetchSinglePreference(string section, string key, PreferenceLevel prefLevel, int ownerId)
+    parameters:
+    - id: section
+      type: System.String
+    - id: key
+      type: System.String
+    - id: prefLevel
+      type: SuperOffice.Data.PreferenceLevel
+    - id: ownerId
+      type: System.Int32
+    return:
+      type: System.ValueTuple{System.Int32,System.String}
+    content.vb: Public Function FetchSinglePreference(section As String, key As String, prefLevel As PreferenceLevel, ownerId As Integer) As(fakeId As Integer, rawValue As String)
+  overload: SuperOffice.Data.ServicePreferenceMapper.FetchSinglePreference*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndSavePreference(System.String,System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndSavePreference(System.String,System.String,System.String,System.Int32)
+  id: CheckForMappingAndSavePreference(System.String,System.String,System.String,System.Int32)
+  parent: SuperOffice.Data.ServicePreferenceMapper
+  langs:
+  - csharp
+  - vb
+  name: CheckForMappingAndSavePreference(String, String, String, Int32)
+  nameWithType: ServicePreferenceMapper.CheckForMappingAndSavePreference(String, String, String, Int32)
+  fullName: SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndSavePreference(System.String, System.String, System.String, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int CheckForMappingAndSavePreference(string section, string key, string value, int ownerId)
+    parameters:
+    - id: section
+      type: System.String
+    - id: key
+      type: System.String
+    - id: value
+      type: System.String
+    - id: ownerId
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Function CheckForMappingAndSavePreference(section As String, key As String, value As String, ownerId As Integer) As Integer
+  overload: SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndSavePreference*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.ServicePreferenceMapper.MappedSections
+  commentId: P:SuperOffice.Data.ServicePreferenceMapper.MappedSections
+  id: MappedSections
+  parent: SuperOffice.Data.ServicePreferenceMapper
+  langs:
+  - csharp
+  - vb
+  name: MappedSections
+  nameWithType: ServicePreferenceMapper.MappedSections
+  fullName: SuperOffice.Data.ServicePreferenceMapper.MappedSections
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public HashSet<string> MappedSections { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.HashSet{System.String}
+    content.vb: Public ReadOnly Property MappedSections As HashSet(Of String)
+  overload: SuperOffice.Data.ServicePreferenceMapper.MappedSections*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.ServicePreferenceMapper.Mappings
+  commentId: P:SuperOffice.Data.ServicePreferenceMapper.Mappings
+  id: Mappings
+  parent: SuperOffice.Data.ServicePreferenceMapper
+  langs:
+  - csharp
+  - vb
+  name: Mappings
+  nameWithType: ServicePreferenceMapper.Mappings
+  fullName: SuperOffice.Data.ServicePreferenceMapper.Mappings
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public Dictionary<(string section, string key), ServicePreferenceMappings.PreferenceMappingInfo> Mappings { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.ValueTuple{System.String,System.String},SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo}
+    content.vb: Public ReadOnly Property Mappings As Dictionary(Of(section As String, key As String), ServicePreferenceMappings.PreferenceMappingInfo)
+  overload: SuperOffice.Data.ServicePreferenceMapper.Mappings*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ServicePreferenceMapper.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ServicePreferenceMapper, To>()
+  nameWithType: EnumUtil.MapEnums<ServicePreferenceMapper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ServicePreferenceMapper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ServicePreferenceMapper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ServicePreferenceMapper, To)()
+  name.vb: MapEnums(Of ServicePreferenceMapper, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ServicePreferenceMapper, To>
+    nameWithType: EnumUtil.MapEnums<ServicePreferenceMapper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ServicePreferenceMapper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ServicePreferenceMapper, To)
+    nameWithType: EnumUtil.MapEnums(Of ServicePreferenceMapper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ServicePreferenceMapper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ServicePreferenceMapper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ServicePreferenceMapper, To>()
+  nameWithType: Converters.MapEnums<ServicePreferenceMapper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ServicePreferenceMapper, To>()
+  nameWithType.vb: Converters.MapEnums(Of ServicePreferenceMapper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ServicePreferenceMapper, To)()
+  name.vb: MapEnums(Of ServicePreferenceMapper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ServicePreferenceMapper, To>
+    nameWithType: Converters.MapEnums<ServicePreferenceMapper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ServicePreferenceMapper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ServicePreferenceMapper, To)
+    nameWithType: Converters.MapEnums(Of ServicePreferenceMapper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ServicePreferenceMapper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndFetchIntoCache*
+  commentId: Overload:SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndFetchIntoCache
+  isExternal: true
+  name: CheckForMappingAndFetchIntoCache
+  nameWithType: ServicePreferenceMapper.CheckForMappingAndFetchIntoCache
+  fullName: SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndFetchIntoCache
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.ServicePreferenceMapper.FetchIndividualValues*
+  commentId: Overload:SuperOffice.Data.ServicePreferenceMapper.FetchIndividualValues
+  isExternal: true
+  name: FetchIndividualValues
+  nameWithType: ServicePreferenceMapper.FetchIndividualValues
+  fullName: SuperOffice.Data.ServicePreferenceMapper.FetchIndividualValues
+- uid: System.Collections.Generic.List{System.ValueTuple{System.String,System.String,System.Int32,System.String}}
+  commentId: T:System.Collections.Generic.List{System.ValueTuple{System.String,System.String,System.Int32,System.String}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ValueTuple<String, String, Int32, String>>
+  nameWithType: List<ValueTuple<String, String, Int32, String>>
+  fullName: System.Collections.Generic.List<System.ValueTuple<System.String, System.String, System.Int32, System.String>>
+  nameWithType.vb: List(Of ValueTuple(Of String, String, Int32, String))
+  fullName.vb: System.Collections.Generic.List(Of System.ValueTuple(Of System.String, System.String, System.Int32, System.String))
+  name.vb: List(Of ValueTuple(Of String, String, Int32, String))
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.ValueTuple`4
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.ValueTuple`4
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Data.ServicePreferenceMapper.FetchSinglePreference*
+  commentId: Overload:SuperOffice.Data.ServicePreferenceMapper.FetchSinglePreference
+  isExternal: true
+  name: FetchSinglePreference
+  nameWithType: ServicePreferenceMapper.FetchSinglePreference
+  fullName: SuperOffice.Data.ServicePreferenceMapper.FetchSinglePreference
+- uid: SuperOffice.Data.PreferenceLevel
+  commentId: T:SuperOffice.Data.PreferenceLevel
+  parent: SuperOffice.Data
+  isExternal: true
+  name: PreferenceLevel
+  nameWithType: PreferenceLevel
+  fullName: SuperOffice.Data.PreferenceLevel
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.ValueTuple{System.Int32,System.String}
+  commentId: T:System.ValueTuple{System.Int32,System.String}
+  parent: System
+  isExternal: true
+  name: ValueTuple<Int32, String>
+  nameWithType: ValueTuple<Int32, String>
+  fullName: System.ValueTuple<System.Int32, System.String>
+  nameWithType.vb: ValueTuple(Of Int32, String)
+  fullName.vb: System.ValueTuple(Of System.Int32, System.String)
+  name.vb: ValueTuple(Of Int32, String)
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndSavePreference*
+  commentId: Overload:SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndSavePreference
+  isExternal: true
+  name: CheckForMappingAndSavePreference
+  nameWithType: ServicePreferenceMapper.CheckForMappingAndSavePreference
+  fullName: SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndSavePreference
+- uid: SuperOffice.Data.ServicePreferenceMapper.MappedSections*
+  commentId: Overload:SuperOffice.Data.ServicePreferenceMapper.MappedSections
+  isExternal: true
+  name: MappedSections
+  nameWithType: ServicePreferenceMapper.MappedSections
+  fullName: SuperOffice.Data.ServicePreferenceMapper.MappedSections
+- uid: System.Collections.Generic.HashSet{System.String}
+  commentId: '!:System.Collections.Generic.HashSet{System.String}'
+  definition: System.Collections.Generic.HashSet`1
+  name: HashSet<String>
+  nameWithType: HashSet<String>
+  fullName: System.Collections.Generic.HashSet<System.String>
+  nameWithType.vb: HashSet(Of String)
+  fullName.vb: System.Collections.Generic.HashSet(Of System.String)
+  name.vb: HashSet(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.HashSet`1
+  isExternal: true
+  name: HashSet<>
+  nameWithType: HashSet<>
+  fullName: System.Collections.Generic.HashSet<>
+  nameWithType.vb: HashSet(Of )
+  fullName.vb: System.Collections.Generic.HashSet(Of )
+  name.vb: HashSet(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ServicePreferenceMapper.Mappings*
+  commentId: Overload:SuperOffice.Data.ServicePreferenceMapper.Mappings
+  isExternal: true
+  name: Mappings
+  nameWithType: ServicePreferenceMapper.Mappings
+  fullName: SuperOffice.Data.ServicePreferenceMapper.Mappings
+- uid: System.Collections.Generic.Dictionary{System.ValueTuple{System.String,System.String},SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo}
+  commentId: T:System.Collections.Generic.Dictionary{System.ValueTuple{System.String,System.String},SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<ValueTuple<String, String>, ServicePreferenceMappings.PreferenceMappingInfo>
+  nameWithType: Dictionary<ValueTuple<String, String>, ServicePreferenceMappings.PreferenceMappingInfo>
+  fullName: System.Collections.Generic.Dictionary<System.ValueTuple<System.String, System.String>, SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo>
+  nameWithType.vb: Dictionary(Of ValueTuple(Of String, String), ServicePreferenceMappings.PreferenceMappingInfo)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.ValueTuple(Of System.String, System.String), SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo)
+  name.vb: Dictionary(Of ValueTuple(Of String, String), ServicePreferenceMappings.PreferenceMappingInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo
+    name: ServicePreferenceMappings.PreferenceMappingInfo
+    nameWithType: ServicePreferenceMappings.PreferenceMappingInfo
+    fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo
+    name: ServicePreferenceMappings.PreferenceMappingInfo
+    nameWithType: ServicePreferenceMappings.PreferenceMappingInfo
+    fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )

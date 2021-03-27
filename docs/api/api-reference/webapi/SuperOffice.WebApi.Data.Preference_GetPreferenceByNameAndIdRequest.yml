@@ -1,0 +1,254 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest
+  commentId: T:SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest
+  id: Preference_GetPreferenceByNameAndIdRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.#ctor
+  - SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.OwnerId
+  - SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.PrefKey
+  - SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.PrefLevel
+  - SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.PrefSection
+  langs:
+  - csharp
+  - vb
+  name: Preference_GetPreferenceByNameAndIdRequest
+  nameWithType: Preference_GetPreferenceByNameAndIdRequest
+  fullName: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Preference_GetPreferenceByNameAndIdRequest : Object'
+    content.vb: >-
+      Public Class Preference_GetPreferenceByNameAndIdRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest
+  langs:
+  - csharp
+  - vb
+  name: Preference_GetPreferenceByNameAndIdRequest()
+  nameWithType: Preference_GetPreferenceByNameAndIdRequest.Preference_GetPreferenceByNameAndIdRequest()
+  fullName: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.Preference_GetPreferenceByNameAndIdRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Preference_GetPreferenceByNameAndIdRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.PrefSection
+  commentId: P:SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.PrefSection
+  id: PrefSection
+  parent: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest
+  langs:
+  - csharp
+  - vb
+  name: PrefSection
+  nameWithType: Preference_GetPreferenceByNameAndIdRequest.PrefSection
+  fullName: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.PrefSection
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string PrefSection { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PrefSection As String
+  overload: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.PrefSection*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.PrefKey
+  commentId: P:SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.PrefKey
+  id: PrefKey
+  parent: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest
+  langs:
+  - csharp
+  - vb
+  name: PrefKey
+  nameWithType: Preference_GetPreferenceByNameAndIdRequest.PrefKey
+  fullName: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.PrefKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string PrefKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PrefKey As String
+  overload: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.PrefKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.PrefLevel
+  commentId: P:SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.PrefLevel
+  id: PrefLevel
+  parent: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest
+  langs:
+  - csharp
+  - vb
+  name: PrefLevel
+  nameWithType: Preference_GetPreferenceByNameAndIdRequest.PrefLevel
+  fullName: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.PrefLevel
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public PreferenceLevel PrefLevel { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.PreferenceLevel
+    content.vb: Public Property PrefLevel As PreferenceLevel
+  overload: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.PrefLevel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.OwnerId
+  commentId: P:SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.OwnerId
+  id: OwnerId
+  parent: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest
+  langs:
+  - csharp
+  - vb
+  name: OwnerId
+  nameWithType: Preference_GetPreferenceByNameAndIdRequest.OwnerId
+  fullName: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.OwnerId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int OwnerId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property OwnerId As Integer
+  overload: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.OwnerId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.#ctor
+  isExternal: true
+  name: Preference_GetPreferenceByNameAndIdRequest
+  nameWithType: Preference_GetPreferenceByNameAndIdRequest.Preference_GetPreferenceByNameAndIdRequest
+  fullName: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.Preference_GetPreferenceByNameAndIdRequest
+- uid: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.PrefSection*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.PrefSection
+  isExternal: true
+  name: PrefSection
+  nameWithType: Preference_GetPreferenceByNameAndIdRequest.PrefSection
+  fullName: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.PrefSection
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.PrefKey*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.PrefKey
+  isExternal: true
+  name: PrefKey
+  nameWithType: Preference_GetPreferenceByNameAndIdRequest.PrefKey
+  fullName: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.PrefKey
+- uid: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.PrefLevel*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.PrefLevel
+  isExternal: true
+  name: PrefLevel
+  nameWithType: Preference_GetPreferenceByNameAndIdRequest.PrefLevel
+  fullName: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.PrefLevel
+- uid: SuperOffice.WebApi.Data.PreferenceLevel
+  commentId: T:SuperOffice.WebApi.Data.PreferenceLevel
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: PreferenceLevel
+  nameWithType: PreferenceLevel
+  fullName: SuperOffice.WebApi.Data.PreferenceLevel
+- uid: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.OwnerId*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.OwnerId
+  isExternal: true
+  name: OwnerId
+  nameWithType: Preference_GetPreferenceByNameAndIdRequest.OwnerId
+  fullName: SuperOffice.WebApi.Data.Preference_GetPreferenceByNameAndIdRequest.OwnerId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

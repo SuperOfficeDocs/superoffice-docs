@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Ticket_NotifyNewTicketMessageRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_NotifyNewTicketMessageRequest
+  id: Ticket_NotifyNewTicketMessageRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Ticket_NotifyNewTicketMessageRequest.#ctor
+  - SuperOffice.WebApi.Data.Ticket_NotifyNewTicketMessageRequest.TicketEntityId
+  langs:
+  - csharp
+  - vb
+  name: Ticket_NotifyNewTicketMessageRequest
+  nameWithType: Ticket_NotifyNewTicketMessageRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_NotifyNewTicketMessageRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Ticket_NotifyNewTicketMessageRequest : Object'
+    content.vb: >-
+      Public Class Ticket_NotifyNewTicketMessageRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Ticket_NotifyNewTicketMessageRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Ticket_NotifyNewTicketMessageRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Ticket_NotifyNewTicketMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: Ticket_NotifyNewTicketMessageRequest()
+  nameWithType: Ticket_NotifyNewTicketMessageRequest.Ticket_NotifyNewTicketMessageRequest()
+  fullName: SuperOffice.WebApi.Data.Ticket_NotifyNewTicketMessageRequest.Ticket_NotifyNewTicketMessageRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Ticket_NotifyNewTicketMessageRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Ticket_NotifyNewTicketMessageRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_NotifyNewTicketMessageRequest.TicketEntityId
+  commentId: P:SuperOffice.WebApi.Data.Ticket_NotifyNewTicketMessageRequest.TicketEntityId
+  id: TicketEntityId
+  parent: SuperOffice.WebApi.Data.Ticket_NotifyNewTicketMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: TicketEntityId
+  nameWithType: Ticket_NotifyNewTicketMessageRequest.TicketEntityId
+  fullName: SuperOffice.WebApi.Data.Ticket_NotifyNewTicketMessageRequest.TicketEntityId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TicketEntityId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TicketEntityId As Integer
+  overload: SuperOffice.WebApi.Data.Ticket_NotifyNewTicketMessageRequest.TicketEntityId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Ticket_NotifyNewTicketMessageRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_NotifyNewTicketMessageRequest.#ctor
+  isExternal: true
+  name: Ticket_NotifyNewTicketMessageRequest
+  nameWithType: Ticket_NotifyNewTicketMessageRequest.Ticket_NotifyNewTicketMessageRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_NotifyNewTicketMessageRequest.Ticket_NotifyNewTicketMessageRequest
+- uid: SuperOffice.WebApi.Data.Ticket_NotifyNewTicketMessageRequest.TicketEntityId*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_NotifyNewTicketMessageRequest.TicketEntityId
+  isExternal: true
+  name: TicketEntityId
+  nameWithType: Ticket_NotifyNewTicketMessageRequest.TicketEntityId
+  fullName: SuperOffice.WebApi.Data.Ticket_NotifyNewTicketMessageRequest.TicketEntityId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest
+  commentId: T:SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest
+  id: ViewState_SaveHistoriesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest.#ctor
+  - SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest.History
+  - SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest.HistoryName
+  langs:
+  - csharp
+  - vb
+  name: ViewState_SaveHistoriesRequest
+  nameWithType: ViewState_SaveHistoriesRequest
+  fullName: SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ViewState_SaveHistoriesRequest : Object'
+    content.vb: >-
+      Public Class ViewState_SaveHistoriesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest
+  langs:
+  - csharp
+  - vb
+  name: ViewState_SaveHistoriesRequest()
+  nameWithType: ViewState_SaveHistoriesRequest.ViewState_SaveHistoriesRequest()
+  fullName: SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest.ViewState_SaveHistoriesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ViewState_SaveHistoriesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest.HistoryName
+  commentId: P:SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest.HistoryName
+  id: HistoryName
+  parent: SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest
+  langs:
+  - csharp
+  - vb
+  name: HistoryName
+  nameWithType: ViewState_SaveHistoriesRequest.HistoryName
+  fullName: SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest.HistoryName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string HistoryName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HistoryName As String
+  overload: SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest.HistoryName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest.History
+  commentId: P:SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest.History
+  id: History
+  parent: SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest
+  langs:
+  - csharp
+  - vb
+  name: History
+  nameWithType: ViewState_SaveHistoriesRequest.History
+  fullName: SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest.History
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public History[] History { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.History[]
+    content.vb: Public Property History As History()
+  overload: SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest.History*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest.#ctor
+  isExternal: true
+  name: ViewState_SaveHistoriesRequest
+  nameWithType: ViewState_SaveHistoriesRequest.ViewState_SaveHistoriesRequest
+  fullName: SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest.ViewState_SaveHistoriesRequest
+- uid: SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest.HistoryName*
+  commentId: Overload:SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest.HistoryName
+  isExternal: true
+  name: HistoryName
+  nameWithType: ViewState_SaveHistoriesRequest.HistoryName
+  fullName: SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest.HistoryName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest.History*
+  commentId: Overload:SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest.History
+  isExternal: true
+  name: History
+  nameWithType: ViewState_SaveHistoriesRequest.History
+  fullName: SuperOffice.WebApi.Data.ViewState_SaveHistoriesRequest.History
+- uid: SuperOffice.WebApi.Data.History[]
+  isExternal: true
+  name: History[]
+  nameWithType: History[]
+  fullName: SuperOffice.WebApi.Data.History[]
+  nameWithType.vb: History()
+  fullName.vb: SuperOffice.WebApi.Data.History()
+  name.vb: History()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.History
+    name: History
+    nameWithType: History
+    fullName: SuperOffice.WebApi.Data.History
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.History
+    name: History
+    nameWithType: History
+    fullName: SuperOffice.WebApi.Data.History
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

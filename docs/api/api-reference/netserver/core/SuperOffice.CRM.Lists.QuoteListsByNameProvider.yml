@@ -1,0 +1,956 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider
+  commentId: T:SuperOffice.CRM.Lists.QuoteListsByNameProvider
+  id: QuoteListsByNameProvider
+  parent: SuperOffice.CRM.Lists
+  children:
+  - SuperOffice.CRM.Lists.QuoteListsByNameProvider.#ctor
+  - SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetListName(System.String,System.Int32)
+  - SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetListName(System.String,System.String)
+  - SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetProvider(System.String)
+  - SuperOffice.CRM.Lists.QuoteListsByNameProvider.Prefix
+  langs:
+  - csharp
+  - vb
+  name: QuoteListsByNameProvider
+  nameWithType: QuoteListsByNameProvider
+  fullName: SuperOffice.CRM.Lists.QuoteListsByNameProvider
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nWildcard list provider for Quote Management lists; see remarks for naming conventions. If you cannot dynamically generate\nthe proper list name, then see <xref href=\"SuperOffice.CRM.Lists.QuoteListsByIdProvider\" data-throw-if-not-resolved=\"false\"></xref>, which has a fixed name and instead takes a QuoteAlternativeId.\n"
+  remarks: "\nQuote lists, supplied by the Quote Management connectors, adhere to the following naming convention:\n<br />If the list is named &apos;PaymentTerms&apos;, and the context is sale with id 5, then the list name\n<strong>QM_5_PaymentTerms</strong> will retrieve the correct list via the correct connector.\n<p></p>\nThe first part must be uppercase QM, the second part must be a valid sale that has a quote, and the\nthird part must be a list name recognized by the connector. Underscore is the delimiter character.\n<p></p>\nQuote list dispatching is a two-step process. A Quote Connector may choose to implement its own MDO List provider(s),\nin which case the lists must be called &quot;&lt;ListName>&lt;ConnectorName>&quot;. If such a provider plugin\nclass exists, then it will be called.<p></p>\nOtherwise, we dispatch to a generic facade that will in turn call the plugins&apos; <see cref=\"!:IQuoteListProvider.GetQuoteList\"></see> method,\nwhich is a much simpler interface to implement than the full-size MDO provider. If the connector does not have that capability,\nthen we finally give up.\n<p></p>\nIf the call fails for any reason, then an empty list is returned. Only flat lists are supported by\nthis mechanism. Quote Connector assemblies may implement their own WildcardMDOProvider that has a\ndifferent behaviour (icons, headings etc) if they wish to do so - just use a low priority value in\nthe declaring attribute and you will be called first.\n<p></p>\nIf the saleId is 0, then an aggregate list from all visible connectors is requested (good for searching).\nDelegates to list &quot;erpProductFamily&quot; or &quot;ErpProductCategory&quot; list provider, which calls us back once for each list the user can see.\n"
+  syntax:
+    content: >-
+      [WildcardMDOProviderPlugin("QuoteListsByName")]
+
+      public sealed class QuoteListsByNameProvider : IWildcardMDOProvider, IPlugin
+    content.vb: >-
+      <WildcardMDOProviderPlugin("QuoteListsByName")>
+
+      Public NotInheritable Class QuoteListsByNameProvider
+          Implements IWildcardMDOProvider, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.Lists.IWildcardMDOProvider
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Lists.QuoteListsByNameProvider.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Lists.QuoteListsByNameProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.QuoteListsByNameProvider)
+  - SuperOffice.CRM.Lists.QuoteListsByNameProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Lists.QuoteListsByNameProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.CRM.Lists.WildcardMDOProviderPluginAttribute
+    ctor: SuperOffice.CRM.Lists.WildcardMDOProviderPluginAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: QuoteListsByName
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider.Prefix
+  commentId: F:SuperOffice.CRM.Lists.QuoteListsByNameProvider.Prefix
+  id: Prefix
+  parent: SuperOffice.CRM.Lists.QuoteListsByNameProvider
+  langs:
+  - csharp
+  - vb
+  name: Prefix
+  nameWithType: QuoteListsByNameProvider.Prefix
+  fullName: SuperOffice.CRM.Lists.QuoteListsByNameProvider.Prefix
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public const string Prefix = "QM"
+    return:
+      type: System.String
+    content.vb: Public Const Prefix As String = "QM"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetListName(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetListName(System.String,System.Int32)
+  id: GetListName(System.String,System.Int32)
+  parent: SuperOffice.CRM.Lists.QuoteListsByNameProvider
+  langs:
+  - csharp
+  - vb
+  name: GetListName(String, Int32)
+  nameWithType: QuoteListsByNameProvider.GetListName(String, Int32)
+  fullName: SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetListName(System.String, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nGiven a base list name and sale id, return the list name that uniquely specifies the &quot;real&quot; list name\nthat can be used all over the place\n"
+  syntax:
+    content: public static string GetListName(string name, int saleId)
+    parameters:
+    - id: name
+      type: System.String
+    - id: saleId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetListName(name As String, saleId As Integer) As String
+  overload: SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetListName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetListName(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetListName(System.String,System.String)
+  id: GetListName(System.String,System.String)
+  parent: SuperOffice.CRM.Lists.QuoteListsByNameProvider
+  langs:
+  - csharp
+  - vb
+  name: GetListName(String, String)
+  nameWithType: QuoteListsByNameProvider.GetListName(String, String)
+  fullName: SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetListName(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public static string GetListName(string name, string connectorName)
+    parameters:
+    - id: name
+      type: System.String
+    - id: connectorName
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetListName(name As String, connectorName As String) As String
+  overload: SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetListName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetProvider(System.String)
+  commentId: M:SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetProvider(System.String)
+  id: GetProvider(System.String)
+  parent: SuperOffice.CRM.Lists.QuoteListsByNameProvider
+  langs:
+  - csharp
+  - vb
+  name: GetProvider(String)
+  nameWithType: QuoteListsByNameProvider.GetProvider(String)
+  fullName: SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetProvider(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nReturn a fully populated, concrete list provider for a given list name; or null. See class remarks for more information.\n"
+  syntax:
+    content: public ISoListProvider GetProvider(string listName)
+    parameters:
+    - id: listName
+      type: System.String
+      description: "&quot;qm_excelquoteconnector_productcategory&quot; (generic connector name - during setup) \nor &quot;qm_con3_productCategory&quot; (3=connection id), \nor &quot;qm_3_productCategory&quot;, where 3 = sale-id"
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    content.vb: Public Function GetProvider(listName As String) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetProvider*
+  implements:
+  - SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider.#ctor
+  commentId: M:SuperOffice.CRM.Lists.QuoteListsByNameProvider.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Lists.QuoteListsByNameProvider
+  langs:
+  - csharp
+  - vb
+  name: QuoteListsByNameProvider()
+  nameWithType: QuoteListsByNameProvider.QuoteListsByNameProvider()
+  fullName: SuperOffice.CRM.Lists.QuoteListsByNameProvider.QuoteListsByNameProvider()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public QuoteListsByNameProvider()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Lists.QuoteListsByNameProvider.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Lists
+  commentId: N:SuperOffice.CRM.Lists
+  isExternal: true
+  name: SuperOffice.CRM.Lists
+  nameWithType: SuperOffice.CRM.Lists
+  fullName: SuperOffice.CRM.Lists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Lists.IWildcardMDOProvider
+  commentId: T:SuperOffice.CRM.Lists.IWildcardMDOProvider
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: IWildcardMDOProvider
+  nameWithType: IWildcardMDOProvider
+  fullName: SuperOffice.CRM.Lists.IWildcardMDOProvider
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<QuoteListsByNameProvider, To>()
+  nameWithType: EnumUtil.MapEnums<QuoteListsByNameProvider, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.QuoteListsByNameProvider, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of QuoteListsByNameProvider, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.QuoteListsByNameProvider, To)()
+  name.vb: MapEnums(Of QuoteListsByNameProvider, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<QuoteListsByNameProvider, To>
+    nameWithType: EnumUtil.MapEnums<QuoteListsByNameProvider, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.QuoteListsByNameProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of QuoteListsByNameProvider, To)
+    nameWithType: EnumUtil.MapEnums(Of QuoteListsByNameProvider, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.QuoteListsByNameProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.QuoteListsByNameProvider)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<QuoteListsByNameProvider>(QuoteListsByNameProvider)
+  nameWithType: ObjectExtensions.AssignByReflection<QuoteListsByNameProvider>(QuoteListsByNameProvider)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.QuoteListsByNameProvider>(SuperOffice.CRM.Lists.QuoteListsByNameProvider)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of QuoteListsByNameProvider)(QuoteListsByNameProvider)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.QuoteListsByNameProvider)(SuperOffice.CRM.Lists.QuoteListsByNameProvider)
+  name.vb: AssignByReflection(Of QuoteListsByNameProvider)(QuoteListsByNameProvider)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<QuoteListsByNameProvider>
+    nameWithType: ObjectExtensions.AssignByReflection<QuoteListsByNameProvider>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.QuoteListsByNameProvider>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider
+    name: QuoteListsByNameProvider
+    nameWithType: QuoteListsByNameProvider
+    fullName: SuperOffice.CRM.Lists.QuoteListsByNameProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of QuoteListsByNameProvider)
+    nameWithType: ObjectExtensions.AssignByReflection(Of QuoteListsByNameProvider)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.QuoteListsByNameProvider)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider
+    name: QuoteListsByNameProvider
+    nameWithType: QuoteListsByNameProvider
+    fullName: SuperOffice.CRM.Lists.QuoteListsByNameProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<QuoteListsByNameProvider>()
+  nameWithType: ObjectExtensions.GraphCopy<QuoteListsByNameProvider>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.QuoteListsByNameProvider>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of QuoteListsByNameProvider)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.QuoteListsByNameProvider)()
+  name.vb: GraphCopy(Of QuoteListsByNameProvider)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<QuoteListsByNameProvider>
+    nameWithType: ObjectExtensions.GraphCopy<QuoteListsByNameProvider>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.QuoteListsByNameProvider>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of QuoteListsByNameProvider)
+    nameWithType: ObjectExtensions.GraphCopy(Of QuoteListsByNameProvider)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.QuoteListsByNameProvider)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<QuoteListsByNameProvider, To>()
+  nameWithType: Converters.MapEnums<QuoteListsByNameProvider, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.QuoteListsByNameProvider, To>()
+  nameWithType.vb: Converters.MapEnums(Of QuoteListsByNameProvider, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.QuoteListsByNameProvider, To)()
+  name.vb: MapEnums(Of QuoteListsByNameProvider, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<QuoteListsByNameProvider, To>
+    nameWithType: Converters.MapEnums<QuoteListsByNameProvider, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.QuoteListsByNameProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of QuoteListsByNameProvider, To)
+    nameWithType: Converters.MapEnums(Of QuoteListsByNameProvider, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.QuoteListsByNameProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetListName*
+  commentId: Overload:SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetListName
+  isExternal: true
+  name: GetListName
+  nameWithType: QuoteListsByNameProvider.GetListName
+  fullName: SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetListName
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetProvider*
+  commentId: Overload:SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetProvider
+  isExternal: true
+  name: GetProvider
+  nameWithType: QuoteListsByNameProvider.GetProvider
+  fullName: SuperOffice.CRM.Lists.QuoteListsByNameProvider.GetProvider
+- uid: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider(System.String)
+  commentId: M:SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider(System.String)
+  parent: SuperOffice.CRM.Lists.IWildcardMDOProvider
+  isExternal: true
+  name: GetProvider(String)
+  nameWithType: IWildcardMDOProvider.GetProvider(String)
+  fullName: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider(System.String)
+    name: GetProvider
+    nameWithType: IWildcardMDOProvider.GetProvider
+    fullName: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider(System.String)
+    name: GetProvider
+    nameWithType: IWildcardMDOProvider.GetProvider
+    fullName: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ISoListProvider
+  commentId: T:SuperOffice.CRM.Lists.ISoListProvider
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: ISoListProvider
+  nameWithType: ISoListProvider
+  fullName: SuperOffice.CRM.Lists.ISoListProvider
+- uid: SuperOffice.CRM.Lists.QuoteListsByNameProvider.#ctor*
+  commentId: Overload:SuperOffice.CRM.Lists.QuoteListsByNameProvider.#ctor
+  isExternal: true
+  name: QuoteListsByNameProvider
+  nameWithType: QuoteListsByNameProvider.QuoteListsByNameProvider
+  fullName: SuperOffice.CRM.Lists.QuoteListsByNameProvider.QuoteListsByNameProvider

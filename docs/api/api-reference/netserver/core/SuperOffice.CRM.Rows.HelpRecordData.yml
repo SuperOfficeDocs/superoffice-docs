@@ -1,0 +1,1096 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.HelpRecordData
+  commentId: T:SuperOffice.CRM.Rows.HelpRecordData
+  id: HelpRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.HelpRecordData.#ctor
+  - SuperOffice.CRM.Rows.HelpRecordData.ApplicationAreaId
+  - SuperOffice.CRM.Rows.HelpRecordData.Body
+  - SuperOffice.CRM.Rows.HelpRecordData.HelpId
+  - SuperOffice.CRM.Rows.HelpRecordData.Language
+  - SuperOffice.CRM.Rows.HelpRecordData.ModuleId
+  - SuperOffice.CRM.Rows.HelpRecordData.Name
+  - SuperOffice.CRM.Rows.HelpRecordData.ParentId
+  - SuperOffice.CRM.Rows.HelpRecordData.ScreenId
+  - SuperOffice.CRM.Rows.HelpRecordData.SortOrder
+  - SuperOffice.CRM.Rows.HelpRecordData.Title
+  langs:
+  - csharp
+  - vb
+  name: HelpRecordData
+  nameWithType: HelpRecordData
+  fullName: SuperOffice.CRM.Rows.HelpRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the help table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.HelpRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.HelpTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class HelpRecordData
+    content.vb: Public Class HelpRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.HelpRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.HelpRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.HelpRecordData)
+  - SuperOffice.CRM.Rows.HelpRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.HelpRecordData.SuperOffice.CRM.Rows.HelpRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.HelpRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.HelpRecordData.HelpId
+  commentId: F:SuperOffice.CRM.Rows.HelpRecordData.HelpId
+  id: HelpId
+  parent: SuperOffice.CRM.Rows.HelpRecordData
+  langs:
+  - csharp
+  - vb
+  name: HelpId
+  nameWithType: HelpRecordData.HelpId
+  fullName: SuperOffice.CRM.Rows.HelpRecordData.HelpId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe primary key (auto-incremented) \n"
+  syntax:
+    content: public int HelpId
+    return:
+      type: System.Int32
+    content.vb: Public HelpId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.HelpRecordData.Name
+  commentId: F:SuperOffice.CRM.Rows.HelpRecordData.Name
+  id: Name
+  parent: SuperOffice.CRM.Rows.HelpRecordData
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: HelpRecordData.Name
+  fullName: SuperOffice.CRM.Rows.HelpRecordData.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe name for this help page. \n"
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.HelpRecordData.Title
+  commentId: F:SuperOffice.CRM.Rows.HelpRecordData.Title
+  id: Title
+  parent: SuperOffice.CRM.Rows.HelpRecordData
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: HelpRecordData.Title
+  fullName: SuperOffice.CRM.Rows.HelpRecordData.Title
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe title for this help page. \n"
+  syntax:
+    content: public string Title
+    return:
+      type: System.String
+    content.vb: Public Title As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.HelpRecordData.ParentId
+  commentId: F:SuperOffice.CRM.Rows.HelpRecordData.ParentId
+  id: ParentId
+  parent: SuperOffice.CRM.Rows.HelpRecordData
+  langs:
+  - csharp
+  - vb
+  name: ParentId
+  nameWithType: HelpRecordData.ParentId
+  fullName: SuperOffice.CRM.Rows.HelpRecordData.ParentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe id of the parent help page. NULL or -1 if this is a toplevel helppage. \n"
+  syntax:
+    content: public int ParentId
+    return:
+      type: System.Int32
+    content.vb: Public ParentId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.HelpRecordData.Language
+  commentId: F:SuperOffice.CRM.Rows.HelpRecordData.Language
+  id: Language
+  parent: SuperOffice.CRM.Rows.HelpRecordData
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: HelpRecordData.Language
+  fullName: SuperOffice.CRM.Rows.HelpRecordData.Language
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nA string indicating the language for this helppage (&apos;no&apos; or &apos;en&apos;). \n"
+  syntax:
+    content: public string Language
+    return:
+      type: System.String
+    content.vb: Public Language As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.HelpRecordData.SortOrder
+  commentId: F:SuperOffice.CRM.Rows.HelpRecordData.SortOrder
+  id: SortOrder
+  parent: SuperOffice.CRM.Rows.HelpRecordData
+  langs:
+  - csharp
+  - vb
+  name: SortOrder
+  nameWithType: HelpRecordData.SortOrder
+  fullName: SuperOffice.CRM.Rows.HelpRecordData.SortOrder
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe sort-order for this helppage when listed among its siblings. \n"
+  syntax:
+    content: public int SortOrder
+    return:
+      type: System.Int32
+    content.vb: Public SortOrder As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.HelpRecordData.ModuleId
+  commentId: F:SuperOffice.CRM.Rows.HelpRecordData.ModuleId
+  id: ModuleId
+  parent: SuperOffice.CRM.Rows.HelpRecordData
+  langs:
+  - csharp
+  - vb
+  name: ModuleId
+  nameWithType: HelpRecordData.ModuleId
+  fullName: SuperOffice.CRM.Rows.HelpRecordData.ModuleId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe id of the module, if this page is the description for a module.. \n"
+  syntax:
+    content: public int ModuleId
+    return:
+      type: System.Int32
+    content.vb: Public ModuleId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.HelpRecordData.ApplicationAreaId
+  commentId: F:SuperOffice.CRM.Rows.HelpRecordData.ApplicationAreaId
+  id: ApplicationAreaId
+  parent: SuperOffice.CRM.Rows.HelpRecordData
+  langs:
+  - csharp
+  - vb
+  name: ApplicationAreaId
+  nameWithType: HelpRecordData.ApplicationAreaId
+  fullName: SuperOffice.CRM.Rows.HelpRecordData.ApplicationAreaId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe id of the application_area, if this page is the description for a application_area.. \n"
+  syntax:
+    content: public int ApplicationAreaId
+    return:
+      type: System.Int32
+    content.vb: Public ApplicationAreaId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.HelpRecordData.ScreenId
+  commentId: F:SuperOffice.CRM.Rows.HelpRecordData.ScreenId
+  id: ScreenId
+  parent: SuperOffice.CRM.Rows.HelpRecordData
+  langs:
+  - csharp
+  - vb
+  name: ScreenId
+  nameWithType: HelpRecordData.ScreenId
+  fullName: SuperOffice.CRM.Rows.HelpRecordData.ScreenId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe id of the screen, if this page is the description for a screen.. \n"
+  syntax:
+    content: public int ScreenId
+    return:
+      type: System.Int32
+    content.vb: Public ScreenId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.HelpRecordData.Body
+  commentId: F:SuperOffice.CRM.Rows.HelpRecordData.Body
+  id: Body
+  parent: SuperOffice.CRM.Rows.HelpRecordData
+  langs:
+  - csharp
+  - vb
+  name: Body
+  nameWithType: HelpRecordData.Body
+  fullName: SuperOffice.CRM.Rows.HelpRecordData.Body
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe actual body for the helppage. HTML format. \n"
+  syntax:
+    content: public string Body
+    return:
+      type: System.String
+    content.vb: Public Body As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.HelpRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.HelpRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.HelpRecordData
+  langs:
+  - csharp
+  - vb
+  name: HelpRecordData()
+  nameWithType: HelpRecordData.HelpRecordData()
+  fullName: SuperOffice.CRM.Rows.HelpRecordData.HelpRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public HelpRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.HelpRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.HelpRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<HelpRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<HelpRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.HelpRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of HelpRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.HelpRecordData, To)()
+  name.vb: MapEnums(Of HelpRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<HelpRecordData, To>
+    nameWithType: EnumUtil.MapEnums<HelpRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.HelpRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of HelpRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of HelpRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.HelpRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.HelpRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.HelpRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<HelpRecordData>(HelpRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<HelpRecordData>(HelpRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.HelpRecordData>(SuperOffice.CRM.Rows.HelpRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of HelpRecordData)(HelpRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.HelpRecordData)(SuperOffice.CRM.Rows.HelpRecordData)
+  name.vb: AssignByReflection(Of HelpRecordData)(HelpRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<HelpRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<HelpRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.HelpRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.HelpRecordData
+    name: HelpRecordData
+    nameWithType: HelpRecordData
+    fullName: SuperOffice.CRM.Rows.HelpRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of HelpRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of HelpRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.HelpRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.HelpRecordData
+    name: HelpRecordData
+    nameWithType: HelpRecordData
+    fullName: SuperOffice.CRM.Rows.HelpRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.HelpRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<HelpRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<HelpRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.HelpRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of HelpRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.HelpRecordData)()
+  name.vb: GraphCopy(Of HelpRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<HelpRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<HelpRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.HelpRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of HelpRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of HelpRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.HelpRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.HelpRecordData.SuperOffice.CRM.Rows.HelpRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.HelpRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.HelpRecordData)
+  parent: SuperOffice.CRM.Rows.HelpRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.HelpRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.HelpRecordData)
+  name: ToInsert()
+  nameWithType: HelpRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.HelpRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.HelpRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: HelpRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.HelpRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.HelpRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: HelpRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.HelpRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.HelpRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<HelpRecordData, To>()
+  nameWithType: Converters.MapEnums<HelpRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.HelpRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of HelpRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.HelpRecordData, To)()
+  name.vb: MapEnums(Of HelpRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<HelpRecordData, To>
+    nameWithType: Converters.MapEnums<HelpRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.HelpRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of HelpRecordData, To)
+    nameWithType: Converters.MapEnums(Of HelpRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.HelpRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.HelpRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.HelpRecordData)
+  commentId: M:SuperOffice.CRM.Rows.HelpRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.HelpRecordData)
+  isExternal: true
+  name: ToInsert(HelpRecordData)
+  nameWithType: HelpRecordDataExtensions.ToInsert(HelpRecordData)
+  fullName: SuperOffice.CRM.Rows.HelpRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.HelpRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.HelpRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.HelpRecordData)
+    name: ToInsert
+    nameWithType: HelpRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.HelpRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.HelpRecordData
+    name: HelpRecordData
+    nameWithType: HelpRecordData
+    fullName: SuperOffice.CRM.Rows.HelpRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.HelpRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.HelpRecordData)
+    name: ToInsert
+    nameWithType: HelpRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.HelpRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.HelpRecordData
+    name: HelpRecordData
+    nameWithType: HelpRecordData
+    fullName: SuperOffice.CRM.Rows.HelpRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.HelpRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.HelpRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: HelpRecordDataExtensions
+  nameWithType: HelpRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.HelpRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Rows.HelpRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.HelpRecordData.#ctor
+  isExternal: true
+  name: HelpRecordData
+  nameWithType: HelpRecordData.HelpRecordData
+  fullName: SuperOffice.CRM.Rows.HelpRecordData.HelpRecordData

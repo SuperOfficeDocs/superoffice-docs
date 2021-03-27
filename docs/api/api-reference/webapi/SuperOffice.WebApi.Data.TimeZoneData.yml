@@ -1,0 +1,399 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TimeZoneData
+  commentId: T:SuperOffice.WebApi.Data.TimeZoneData
+  id: TimeZoneData
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TimeZoneData.#ctor
+  - SuperOffice.WebApi.Data.TimeZoneData.IsoNumber
+  - SuperOffice.WebApi.Data.TimeZoneData.Name
+  - SuperOffice.WebApi.Data.TimeZoneData.TimeZoneDSTRules
+  - SuperOffice.WebApi.Data.TimeZoneData.TimeZoneSTDRules
+  - SuperOffice.WebApi.Data.TimeZoneData.TZLocationCities
+  - SuperOffice.WebApi.Data.TimeZoneData.TZLocationCode
+  - SuperOffice.WebApi.Data.TimeZoneData.TZLocationID
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneData
+  nameWithType: TimeZoneData
+  fullName: SuperOffice.WebApi.Data.TimeZoneData
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for TimeZoneData.\nInformation about a TimeZone    \n"
+  example:
+  - "\nGet TimeZoneData 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new TimeZoneAgent(configuration);\nvar timeZoneData = agent.GetTimeZoneData( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class TimeZoneData : Object'
+    content.vb: >-
+      Public Class TimeZoneData
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.TimeZoneAgent
+    commentId: T:SuperOffice.WebApi.Agents.TimeZoneAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TimeZoneData.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TimeZoneData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TimeZoneData
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneData()
+  nameWithType: TimeZoneData.TimeZoneData()
+  fullName: SuperOffice.WebApi.Data.TimeZoneData.TimeZoneData()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public TimeZoneData()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TimeZoneData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TimeZoneData.TZLocationID
+  commentId: P:SuperOffice.WebApi.Data.TimeZoneData.TZLocationID
+  id: TZLocationID
+  parent: SuperOffice.WebApi.Data.TimeZoneData
+  langs:
+  - csharp
+  - vb
+  name: TZLocationID
+  nameWithType: TimeZoneData.TZLocationID
+  fullName: SuperOffice.WebApi.Data.TimeZoneData.TZLocationID
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTimezone location ID\n"
+  syntax:
+    content: public virtual int TZLocationID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TZLocationID As Integer
+  overload: SuperOffice.WebApi.Data.TimeZoneData.TZLocationID*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TimeZoneData.Name
+  commentId: P:SuperOffice.WebApi.Data.TimeZoneData.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.TimeZoneData
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: TimeZoneData.Name
+  fullName: SuperOffice.WebApi.Data.TimeZoneData.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName associated with the location\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.TimeZoneData.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TimeZoneData.TZLocationCode
+  commentId: P:SuperOffice.WebApi.Data.TimeZoneData.TZLocationCode
+  id: TZLocationCode
+  parent: SuperOffice.WebApi.Data.TimeZoneData
+  langs:
+  - csharp
+  - vb
+  name: TZLocationCode
+  nameWithType: TimeZoneData.TZLocationCode
+  fullName: SuperOffice.WebApi.Data.TimeZoneData.TZLocationCode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCode associated with location\n"
+  syntax:
+    content: public virtual string TZLocationCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TZLocationCode As String
+  overload: SuperOffice.WebApi.Data.TimeZoneData.TZLocationCode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TimeZoneData.TZLocationCities
+  commentId: P:SuperOffice.WebApi.Data.TimeZoneData.TZLocationCities
+  id: TZLocationCities
+  parent: SuperOffice.WebApi.Data.TimeZoneData
+  langs:
+  - csharp
+  - vb
+  name: TZLocationCities
+  nameWithType: TimeZoneData.TZLocationCities
+  fullName: SuperOffice.WebApi.Data.TimeZoneData.TZLocationCities
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCities associated with location\n"
+  syntax:
+    content: public virtual string TZLocationCities { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TZLocationCities As String
+  overload: SuperOffice.WebApi.Data.TimeZoneData.TZLocationCities*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TimeZoneData.IsoNumber
+  commentId: P:SuperOffice.WebApi.Data.TimeZoneData.IsoNumber
+  id: IsoNumber
+  parent: SuperOffice.WebApi.Data.TimeZoneData
+  langs:
+  - csharp
+  - vb
+  name: IsoNumber
+  nameWithType: TimeZoneData.IsoNumber
+  fullName: SuperOffice.WebApi.Data.TimeZoneData.IsoNumber
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual int IsoNumber { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property IsoNumber As Integer
+  overload: SuperOffice.WebApi.Data.TimeZoneData.IsoNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TimeZoneData.TimeZoneSTDRules
+  commentId: P:SuperOffice.WebApi.Data.TimeZoneData.TimeZoneSTDRules
+  id: TimeZoneSTDRules
+  parent: SuperOffice.WebApi.Data.TimeZoneData
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneSTDRules
+  nameWithType: TimeZoneData.TimeZoneSTDRules
+  fullName: SuperOffice.WebApi.Data.TimeZoneData.TimeZoneSTDRules
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRules for standard time\n"
+  syntax:
+    content: public virtual TimeZoneRuleDictionary TimeZoneSTDRules { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TimeZoneRuleDictionary
+    content.vb: Public Overridable Property TimeZoneSTDRules As TimeZoneRuleDictionary
+  overload: SuperOffice.WebApi.Data.TimeZoneData.TimeZoneSTDRules*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TimeZoneData.TimeZoneDSTRules
+  commentId: P:SuperOffice.WebApi.Data.TimeZoneData.TimeZoneDSTRules
+  id: TimeZoneDSTRules
+  parent: SuperOffice.WebApi.Data.TimeZoneData
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneDSTRules
+  nameWithType: TimeZoneData.TimeZoneDSTRules
+  fullName: SuperOffice.WebApi.Data.TimeZoneData.TimeZoneDSTRules
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRules for daylight savings time\n"
+  syntax:
+    content: public virtual TimeZoneRuleDictionary TimeZoneDSTRules { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TimeZoneRuleDictionary
+    content.vb: Public Overridable Property TimeZoneDSTRules As TimeZoneRuleDictionary
+  overload: SuperOffice.WebApi.Data.TimeZoneData.TimeZoneDSTRules*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.TimeZoneAgent
+  commentId: T:SuperOffice.WebApi.Agents.TimeZoneAgent
+  isExternal: true
+  name: TimeZoneAgent
+  nameWithType: TimeZoneAgent
+  fullName: SuperOffice.WebApi.Agents.TimeZoneAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TimeZoneData.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TimeZoneData.#ctor
+  isExternal: true
+  name: TimeZoneData
+  nameWithType: TimeZoneData.TimeZoneData
+  fullName: SuperOffice.WebApi.Data.TimeZoneData.TimeZoneData
+- uid: SuperOffice.WebApi.Data.TimeZoneData.TZLocationID*
+  commentId: Overload:SuperOffice.WebApi.Data.TimeZoneData.TZLocationID
+  isExternal: true
+  name: TZLocationID
+  nameWithType: TimeZoneData.TZLocationID
+  fullName: SuperOffice.WebApi.Data.TimeZoneData.TZLocationID
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.TimeZoneData.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.TimeZoneData.Name
+  isExternal: true
+  name: Name
+  nameWithType: TimeZoneData.Name
+  fullName: SuperOffice.WebApi.Data.TimeZoneData.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.TimeZoneData.TZLocationCode*
+  commentId: Overload:SuperOffice.WebApi.Data.TimeZoneData.TZLocationCode
+  isExternal: true
+  name: TZLocationCode
+  nameWithType: TimeZoneData.TZLocationCode
+  fullName: SuperOffice.WebApi.Data.TimeZoneData.TZLocationCode
+- uid: SuperOffice.WebApi.Data.TimeZoneData.TZLocationCities*
+  commentId: Overload:SuperOffice.WebApi.Data.TimeZoneData.TZLocationCities
+  isExternal: true
+  name: TZLocationCities
+  nameWithType: TimeZoneData.TZLocationCities
+  fullName: SuperOffice.WebApi.Data.TimeZoneData.TZLocationCities
+- uid: SuperOffice.WebApi.Data.TimeZoneData.IsoNumber*
+  commentId: Overload:SuperOffice.WebApi.Data.TimeZoneData.IsoNumber
+  isExternal: true
+  name: IsoNumber
+  nameWithType: TimeZoneData.IsoNumber
+  fullName: SuperOffice.WebApi.Data.TimeZoneData.IsoNumber
+- uid: SuperOffice.WebApi.Data.TimeZoneData.TimeZoneSTDRules*
+  commentId: Overload:SuperOffice.WebApi.Data.TimeZoneData.TimeZoneSTDRules
+  isExternal: true
+  name: TimeZoneSTDRules
+  nameWithType: TimeZoneData.TimeZoneSTDRules
+  fullName: SuperOffice.WebApi.Data.TimeZoneData.TimeZoneSTDRules
+- uid: SuperOffice.WebApi.Data.TimeZoneRuleDictionary
+  commentId: T:SuperOffice.WebApi.Data.TimeZoneRuleDictionary
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TimeZoneRuleDictionary
+  nameWithType: TimeZoneRuleDictionary
+  fullName: SuperOffice.WebApi.Data.TimeZoneRuleDictionary
+- uid: SuperOffice.WebApi.Data.TimeZoneData.TimeZoneDSTRules*
+  commentId: Overload:SuperOffice.WebApi.Data.TimeZoneData.TimeZoneDSTRules
+  isExternal: true
+  name: TimeZoneDSTRules
+  nameWithType: TimeZoneData.TimeZoneDSTRules
+  fullName: SuperOffice.WebApi.Data.TimeZoneData.TimeZoneDSTRules

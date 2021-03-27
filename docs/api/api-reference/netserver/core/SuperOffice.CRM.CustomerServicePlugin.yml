@@ -1,0 +1,1172 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.CustomerServicePlugin
+  commentId: T:SuperOffice.CRM.CustomerServicePlugin
+  id: CustomerServicePlugin
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.CustomerServicePlugin.#ctor
+  - SuperOffice.CRM.CustomerServicePlugin.GetCgiBin
+  - SuperOffice.CRM.CustomerServicePlugin.GetCgiUrlDirect
+  - SuperOffice.CRM.CustomerServicePlugin.GetCgiUrlExternal
+  - SuperOffice.CRM.CustomerServicePlugin.GetCgiUrlInternal
+  - SuperOffice.CRM.CustomerServicePlugin.GetRegistryExtension
+  - SuperOffice.CRM.CustomerServicePlugin.GetWwwFolder
+  langs:
+  - csharp
+  - vb
+  name: CustomerServicePlugin
+  nameWithType: CustomerServicePlugin
+  fullName: SuperOffice.CRM.CustomerServicePlugin
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nBase implementation of plugin, returning configuration from database.\n"
+  syntax:
+    content: >-
+      [CustomerServicePlugin("CustomerService", 1073741823)]
+
+      public class CustomerServicePlugin : ICustomerServicePlugin, IPlugin
+    content.vb: >-
+      <CustomerServicePlugin("CustomerService", 1073741823)>
+
+      Public Class CustomerServicePlugin
+          Implements ICustomerServicePlugin, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.ICustomerServicePlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.CustomerServicePlugin.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.CustomerServicePlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.CustomerServicePlugin)
+  - SuperOffice.CRM.CustomerServicePlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.CustomerServicePlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.CRM.CustomerServicePluginAttribute
+    ctor: SuperOffice.CRM.CustomerServicePluginAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: CustomerService
+    - type: System.Int32
+      value: 1073741823
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.CustomerServicePlugin.GetCgiUrlInternal
+  commentId: M:SuperOffice.CRM.CustomerServicePlugin.GetCgiUrlInternal
+  id: GetCgiUrlInternal
+  parent: SuperOffice.CRM.CustomerServicePlugin
+  langs:
+  - csharp
+  - vb
+  name: GetCgiUrlInternal()
+  nameWithType: CustomerServicePlugin.GetCgiUrlInternal()
+  fullName: SuperOffice.CRM.CustomerServicePlugin.GetCgiUrlInternal()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\n\n"
+  syntax:
+    content: public virtual string GetCgiUrlInternal()
+    return:
+      type: System.String
+    content.vb: Public Overridable Function GetCgiUrlInternal As String
+  overload: SuperOffice.CRM.CustomerServicePlugin.GetCgiUrlInternal*
+  implements:
+  - SuperOffice.CRM.ICustomerServicePlugin.GetCgiUrlInternal
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.CustomerServicePlugin.GetCgiUrlExternal
+  commentId: M:SuperOffice.CRM.CustomerServicePlugin.GetCgiUrlExternal
+  id: GetCgiUrlExternal
+  parent: SuperOffice.CRM.CustomerServicePlugin
+  langs:
+  - csharp
+  - vb
+  name: GetCgiUrlExternal()
+  nameWithType: CustomerServicePlugin.GetCgiUrlExternal()
+  fullName: SuperOffice.CRM.CustomerServicePlugin.GetCgiUrlExternal()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\n\n"
+  syntax:
+    content: public virtual string GetCgiUrlExternal()
+    return:
+      type: System.String
+      description: The external URL for CS (normally used for the Customer Centre)
+    content.vb: Public Overridable Function GetCgiUrlExternal As String
+  overload: SuperOffice.CRM.CustomerServicePlugin.GetCgiUrlExternal*
+  implements:
+  - SuperOffice.CRM.ICustomerServicePlugin.GetCgiUrlExternal
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.CustomerServicePlugin.GetCgiUrlDirect
+  commentId: M:SuperOffice.CRM.CustomerServicePlugin.GetCgiUrlDirect
+  id: GetCgiUrlDirect
+  parent: SuperOffice.CRM.CustomerServicePlugin
+  langs:
+  - csharp
+  - vb
+  name: GetCgiUrlDirect()
+  nameWithType: CustomerServicePlugin.GetCgiUrlDirect()
+  fullName: SuperOffice.CRM.CustomerServicePlugin.GetCgiUrlDirect()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public virtual string GetCgiUrlDirect()
+    return:
+      type: System.String
+    content.vb: Public Overridable Function GetCgiUrlDirect As String
+  overload: SuperOffice.CRM.CustomerServicePlugin.GetCgiUrlDirect*
+  implements:
+  - SuperOffice.CRM.ICustomerServicePlugin.GetCgiUrlDirect
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.CustomerServicePlugin.GetCgiBin
+  commentId: M:SuperOffice.CRM.CustomerServicePlugin.GetCgiBin
+  id: GetCgiBin
+  parent: SuperOffice.CRM.CustomerServicePlugin
+  langs:
+  - csharp
+  - vb
+  name: GetCgiBin()
+  nameWithType: CustomerServicePlugin.GetCgiBin()
+  fullName: SuperOffice.CRM.CustomerServicePlugin.GetCgiBin()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\n\n"
+  syntax:
+    content: public virtual string GetCgiBin()
+    return:
+      type: System.String
+    content.vb: Public Overridable Function GetCgiBin As String
+  overload: SuperOffice.CRM.CustomerServicePlugin.GetCgiBin*
+  implements:
+  - SuperOffice.CRM.ICustomerServicePlugin.GetCgiBin
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.CustomerServicePlugin.GetRegistryExtension
+  commentId: M:SuperOffice.CRM.CustomerServicePlugin.GetRegistryExtension
+  id: GetRegistryExtension
+  parent: SuperOffice.CRM.CustomerServicePlugin
+  langs:
+  - csharp
+  - vb
+  name: GetRegistryExtension()
+  nameWithType: CustomerServicePlugin.GetRegistryExtension()
+  fullName: SuperOffice.CRM.CustomerServicePlugin.GetRegistryExtension()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\n\n"
+  syntax:
+    content: public virtual string GetRegistryExtension()
+    return:
+      type: System.String
+    content.vb: Public Overridable Function GetRegistryExtension As String
+  overload: SuperOffice.CRM.CustomerServicePlugin.GetRegistryExtension*
+  implements:
+  - SuperOffice.CRM.ICustomerServicePlugin.GetRegistryExtension
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.CustomerServicePlugin.GetWwwFolder
+  commentId: M:SuperOffice.CRM.CustomerServicePlugin.GetWwwFolder
+  id: GetWwwFolder
+  parent: SuperOffice.CRM.CustomerServicePlugin
+  langs:
+  - csharp
+  - vb
+  name: GetWwwFolder()
+  nameWithType: CustomerServicePlugin.GetWwwFolder()
+  fullName: SuperOffice.CRM.CustomerServicePlugin.GetWwwFolder()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public virtual string GetWwwFolder()
+    return:
+      type: System.String
+    content.vb: Public Overridable Function GetWwwFolder As String
+  overload: SuperOffice.CRM.CustomerServicePlugin.GetWwwFolder*
+  implements:
+  - SuperOffice.CRM.ICustomerServicePlugin.GetWwwFolder
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.CustomerServicePlugin.#ctor
+  commentId: M:SuperOffice.CRM.CustomerServicePlugin.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.CustomerServicePlugin
+  langs:
+  - csharp
+  - vb
+  name: CustomerServicePlugin()
+  nameWithType: CustomerServicePlugin.CustomerServicePlugin()
+  fullName: SuperOffice.CRM.CustomerServicePlugin.CustomerServicePlugin()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public CustomerServicePlugin()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.CustomerServicePlugin.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.ICustomerServicePlugin
+  commentId: T:SuperOffice.CRM.ICustomerServicePlugin
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ICustomerServicePlugin
+  nameWithType: ICustomerServicePlugin
+  fullName: SuperOffice.CRM.ICustomerServicePlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.CustomerServicePlugin.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<CustomerServicePlugin, To>()
+  nameWithType: EnumUtil.MapEnums<CustomerServicePlugin, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.CustomerServicePlugin, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CustomerServicePlugin, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.CustomerServicePlugin, To)()
+  name.vb: MapEnums(Of CustomerServicePlugin, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CustomerServicePlugin, To>
+    nameWithType: EnumUtil.MapEnums<CustomerServicePlugin, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.CustomerServicePlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CustomerServicePlugin, To)
+    nameWithType: EnumUtil.MapEnums(Of CustomerServicePlugin, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.CustomerServicePlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.CustomerServicePlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.CustomerServicePlugin)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<CustomerServicePlugin>(CustomerServicePlugin)
+  nameWithType: ObjectExtensions.AssignByReflection<CustomerServicePlugin>(CustomerServicePlugin)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.CustomerServicePlugin>(SuperOffice.CRM.CustomerServicePlugin)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CustomerServicePlugin)(CustomerServicePlugin)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.CustomerServicePlugin)(SuperOffice.CRM.CustomerServicePlugin)
+  name.vb: AssignByReflection(Of CustomerServicePlugin)(CustomerServicePlugin)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<CustomerServicePlugin>
+    nameWithType: ObjectExtensions.AssignByReflection<CustomerServicePlugin>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.CustomerServicePlugin>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.CustomerServicePlugin
+    name: CustomerServicePlugin
+    nameWithType: CustomerServicePlugin
+    fullName: SuperOffice.CRM.CustomerServicePlugin
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of CustomerServicePlugin)
+    nameWithType: ObjectExtensions.AssignByReflection(Of CustomerServicePlugin)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.CustomerServicePlugin)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.CustomerServicePlugin
+    name: CustomerServicePlugin
+    nameWithType: CustomerServicePlugin
+    fullName: SuperOffice.CRM.CustomerServicePlugin
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.CustomerServicePlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<CustomerServicePlugin>()
+  nameWithType: ObjectExtensions.GraphCopy<CustomerServicePlugin>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.CustomerServicePlugin>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of CustomerServicePlugin)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.CustomerServicePlugin)()
+  name.vb: GraphCopy(Of CustomerServicePlugin)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<CustomerServicePlugin>
+    nameWithType: ObjectExtensions.GraphCopy<CustomerServicePlugin>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.CustomerServicePlugin>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of CustomerServicePlugin)
+    nameWithType: ObjectExtensions.GraphCopy(Of CustomerServicePlugin)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.CustomerServicePlugin)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.CustomerServicePlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CustomerServicePlugin, To>()
+  nameWithType: Converters.MapEnums<CustomerServicePlugin, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.CustomerServicePlugin, To>()
+  nameWithType.vb: Converters.MapEnums(Of CustomerServicePlugin, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.CustomerServicePlugin, To)()
+  name.vb: MapEnums(Of CustomerServicePlugin, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CustomerServicePlugin, To>
+    nameWithType: Converters.MapEnums<CustomerServicePlugin, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.CustomerServicePlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CustomerServicePlugin, To)
+    nameWithType: Converters.MapEnums(Of CustomerServicePlugin, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.CustomerServicePlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.CustomerServicePlugin.GetCgiUrlInternal*
+  commentId: Overload:SuperOffice.CRM.CustomerServicePlugin.GetCgiUrlInternal
+  isExternal: true
+  name: GetCgiUrlInternal
+  nameWithType: CustomerServicePlugin.GetCgiUrlInternal
+  fullName: SuperOffice.CRM.CustomerServicePlugin.GetCgiUrlInternal
+- uid: SuperOffice.CRM.ICustomerServicePlugin.GetCgiUrlInternal
+  commentId: M:SuperOffice.CRM.ICustomerServicePlugin.GetCgiUrlInternal
+  parent: SuperOffice.CRM.ICustomerServicePlugin
+  isExternal: true
+  name: GetCgiUrlInternal()
+  nameWithType: ICustomerServicePlugin.GetCgiUrlInternal()
+  fullName: SuperOffice.CRM.ICustomerServicePlugin.GetCgiUrlInternal()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ICustomerServicePlugin.GetCgiUrlInternal
+    name: GetCgiUrlInternal
+    nameWithType: ICustomerServicePlugin.GetCgiUrlInternal
+    fullName: SuperOffice.CRM.ICustomerServicePlugin.GetCgiUrlInternal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ICustomerServicePlugin.GetCgiUrlInternal
+    name: GetCgiUrlInternal
+    nameWithType: ICustomerServicePlugin.GetCgiUrlInternal
+    fullName: SuperOffice.CRM.ICustomerServicePlugin.GetCgiUrlInternal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.CustomerServicePlugin.GetCgiUrlExternal*
+  commentId: Overload:SuperOffice.CRM.CustomerServicePlugin.GetCgiUrlExternal
+  isExternal: true
+  name: GetCgiUrlExternal
+  nameWithType: CustomerServicePlugin.GetCgiUrlExternal
+  fullName: SuperOffice.CRM.CustomerServicePlugin.GetCgiUrlExternal
+- uid: SuperOffice.CRM.ICustomerServicePlugin.GetCgiUrlExternal
+  commentId: M:SuperOffice.CRM.ICustomerServicePlugin.GetCgiUrlExternal
+  parent: SuperOffice.CRM.ICustomerServicePlugin
+  isExternal: true
+  name: GetCgiUrlExternal()
+  nameWithType: ICustomerServicePlugin.GetCgiUrlExternal()
+  fullName: SuperOffice.CRM.ICustomerServicePlugin.GetCgiUrlExternal()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ICustomerServicePlugin.GetCgiUrlExternal
+    name: GetCgiUrlExternal
+    nameWithType: ICustomerServicePlugin.GetCgiUrlExternal
+    fullName: SuperOffice.CRM.ICustomerServicePlugin.GetCgiUrlExternal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ICustomerServicePlugin.GetCgiUrlExternal
+    name: GetCgiUrlExternal
+    nameWithType: ICustomerServicePlugin.GetCgiUrlExternal
+    fullName: SuperOffice.CRM.ICustomerServicePlugin.GetCgiUrlExternal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.CustomerServicePlugin.GetCgiUrlDirect*
+  commentId: Overload:SuperOffice.CRM.CustomerServicePlugin.GetCgiUrlDirect
+  isExternal: true
+  name: GetCgiUrlDirect
+  nameWithType: CustomerServicePlugin.GetCgiUrlDirect
+  fullName: SuperOffice.CRM.CustomerServicePlugin.GetCgiUrlDirect
+- uid: SuperOffice.CRM.ICustomerServicePlugin.GetCgiUrlDirect
+  commentId: M:SuperOffice.CRM.ICustomerServicePlugin.GetCgiUrlDirect
+  parent: SuperOffice.CRM.ICustomerServicePlugin
+  isExternal: true
+  name: GetCgiUrlDirect()
+  nameWithType: ICustomerServicePlugin.GetCgiUrlDirect()
+  fullName: SuperOffice.CRM.ICustomerServicePlugin.GetCgiUrlDirect()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ICustomerServicePlugin.GetCgiUrlDirect
+    name: GetCgiUrlDirect
+    nameWithType: ICustomerServicePlugin.GetCgiUrlDirect
+    fullName: SuperOffice.CRM.ICustomerServicePlugin.GetCgiUrlDirect
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ICustomerServicePlugin.GetCgiUrlDirect
+    name: GetCgiUrlDirect
+    nameWithType: ICustomerServicePlugin.GetCgiUrlDirect
+    fullName: SuperOffice.CRM.ICustomerServicePlugin.GetCgiUrlDirect
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.CustomerServicePlugin.GetCgiBin*
+  commentId: Overload:SuperOffice.CRM.CustomerServicePlugin.GetCgiBin
+  isExternal: true
+  name: GetCgiBin
+  nameWithType: CustomerServicePlugin.GetCgiBin
+  fullName: SuperOffice.CRM.CustomerServicePlugin.GetCgiBin
+- uid: SuperOffice.CRM.ICustomerServicePlugin.GetCgiBin
+  commentId: M:SuperOffice.CRM.ICustomerServicePlugin.GetCgiBin
+  parent: SuperOffice.CRM.ICustomerServicePlugin
+  isExternal: true
+  name: GetCgiBin()
+  nameWithType: ICustomerServicePlugin.GetCgiBin()
+  fullName: SuperOffice.CRM.ICustomerServicePlugin.GetCgiBin()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ICustomerServicePlugin.GetCgiBin
+    name: GetCgiBin
+    nameWithType: ICustomerServicePlugin.GetCgiBin
+    fullName: SuperOffice.CRM.ICustomerServicePlugin.GetCgiBin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ICustomerServicePlugin.GetCgiBin
+    name: GetCgiBin
+    nameWithType: ICustomerServicePlugin.GetCgiBin
+    fullName: SuperOffice.CRM.ICustomerServicePlugin.GetCgiBin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.CustomerServicePlugin.GetRegistryExtension*
+  commentId: Overload:SuperOffice.CRM.CustomerServicePlugin.GetRegistryExtension
+  isExternal: true
+  name: GetRegistryExtension
+  nameWithType: CustomerServicePlugin.GetRegistryExtension
+  fullName: SuperOffice.CRM.CustomerServicePlugin.GetRegistryExtension
+- uid: SuperOffice.CRM.ICustomerServicePlugin.GetRegistryExtension
+  commentId: M:SuperOffice.CRM.ICustomerServicePlugin.GetRegistryExtension
+  parent: SuperOffice.CRM.ICustomerServicePlugin
+  isExternal: true
+  name: GetRegistryExtension()
+  nameWithType: ICustomerServicePlugin.GetRegistryExtension()
+  fullName: SuperOffice.CRM.ICustomerServicePlugin.GetRegistryExtension()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ICustomerServicePlugin.GetRegistryExtension
+    name: GetRegistryExtension
+    nameWithType: ICustomerServicePlugin.GetRegistryExtension
+    fullName: SuperOffice.CRM.ICustomerServicePlugin.GetRegistryExtension
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ICustomerServicePlugin.GetRegistryExtension
+    name: GetRegistryExtension
+    nameWithType: ICustomerServicePlugin.GetRegistryExtension
+    fullName: SuperOffice.CRM.ICustomerServicePlugin.GetRegistryExtension
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.CustomerServicePlugin.GetWwwFolder*
+  commentId: Overload:SuperOffice.CRM.CustomerServicePlugin.GetWwwFolder
+  isExternal: true
+  name: GetWwwFolder
+  nameWithType: CustomerServicePlugin.GetWwwFolder
+  fullName: SuperOffice.CRM.CustomerServicePlugin.GetWwwFolder
+- uid: SuperOffice.CRM.ICustomerServicePlugin.GetWwwFolder
+  commentId: M:SuperOffice.CRM.ICustomerServicePlugin.GetWwwFolder
+  parent: SuperOffice.CRM.ICustomerServicePlugin
+  isExternal: true
+  name: GetWwwFolder()
+  nameWithType: ICustomerServicePlugin.GetWwwFolder()
+  fullName: SuperOffice.CRM.ICustomerServicePlugin.GetWwwFolder()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ICustomerServicePlugin.GetWwwFolder
+    name: GetWwwFolder
+    nameWithType: ICustomerServicePlugin.GetWwwFolder
+    fullName: SuperOffice.CRM.ICustomerServicePlugin.GetWwwFolder
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ICustomerServicePlugin.GetWwwFolder
+    name: GetWwwFolder
+    nameWithType: ICustomerServicePlugin.GetWwwFolder
+    fullName: SuperOffice.CRM.ICustomerServicePlugin.GetWwwFolder
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.CustomerServicePlugin.#ctor*
+  commentId: Overload:SuperOffice.CRM.CustomerServicePlugin.#ctor
+  isExternal: true
+  name: CustomerServicePlugin
+  nameWithType: CustomerServicePlugin.CustomerServicePlugin
+  fullName: SuperOffice.CRM.CustomerServicePlugin.CustomerServicePlugin

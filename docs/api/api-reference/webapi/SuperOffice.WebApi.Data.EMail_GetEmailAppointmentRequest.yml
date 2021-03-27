@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRequest
+  id: EMail_GetEmailAppointmentRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRequest.MailItemId
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetEmailAppointmentRequest
+  nameWithType: EMail_GetEmailAppointmentRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_GetEmailAppointmentRequest : Object'
+    content.vb: >-
+      Public Class EMail_GetEmailAppointmentRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetEmailAppointmentRequest()
+  nameWithType: EMail_GetEmailAppointmentRequest.EMail_GetEmailAppointmentRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRequest.EMail_GetEmailAppointmentRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_GetEmailAppointmentRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRequest.MailItemId
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRequest.MailItemId
+  id: MailItemId
+  parent: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRequest
+  langs:
+  - csharp
+  - vb
+  name: MailItemId
+  nameWithType: EMail_GetEmailAppointmentRequest.MailItemId
+  fullName: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRequest.MailItemId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int MailItemId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MailItemId As Integer
+  overload: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRequest.MailItemId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRequest.#ctor
+  isExternal: true
+  name: EMail_GetEmailAppointmentRequest
+  nameWithType: EMail_GetEmailAppointmentRequest.EMail_GetEmailAppointmentRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRequest.EMail_GetEmailAppointmentRequest
+- uid: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRequest.MailItemId*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRequest.MailItemId
+  isExternal: true
+  name: MailItemId
+  nameWithType: EMail_GetEmailAppointmentRequest.MailItemId
+  fullName: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRequest.MailItemId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

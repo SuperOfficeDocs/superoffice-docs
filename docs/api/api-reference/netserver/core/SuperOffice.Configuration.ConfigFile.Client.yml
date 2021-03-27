@@ -1,0 +1,1081 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.Client
+  commentId: T:SuperOffice.Configuration.ConfigFile.Client
+  id: ConfigFile.Client
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.Client.ApplicationInstance
+  - SuperOffice.Configuration.ConfigFile.Client.ApplicationName
+  - SuperOffice.Configuration.ConfigFile.Client.ApplicationTitle
+  - SuperOffice.Configuration.ConfigFile.Client.ClientCacheKey
+  - SuperOffice.Configuration.ConfigFile.Client.ExportPageSize
+  - SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientId
+  - SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientSecret
+  - SuperOffice.Configuration.ConfigFile.Client.GoogleImportDispatcher
+  - SuperOffice.Configuration.ConfigFile.Client.HelpFilesBaseUrl
+  - SuperOffice.Configuration.ConfigFile.Client.MasterDcfConfigHashKeyFormat
+  - SuperOffice.Configuration.ConfigFile.Client.NetServicesNextDate
+  - SuperOffice.Configuration.ConfigFile.Client.NetServicesStatusUrl
+  - SuperOffice.Configuration.ConfigFile.Client.ShowWelcomeDialogs
+  - SuperOffice.Configuration.ConfigFile.Client.UrlHostOverride
+  - SuperOffice.Configuration.ConfigFile.Client.UrlPortOverride
+  - SuperOffice.Configuration.ConfigFile.Client.UrlSchemeOverride
+  - SuperOffice.Configuration.ConfigFile.Client.WebAppUsage
+  - SuperOffice.Configuration.ConfigFile.Client.WWW3Url
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.Client
+  nameWithType: ConfigFile.Client
+  fullName: SuperOffice.Configuration.ConfigFile.Client
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nConfiguration values related to client configuration, extension of ClientConfigurationProvider\n"
+  syntax:
+    content: public static class Client
+    content.vb: Public Module Client
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Configuration.ConfigFile.Client.ApplicationName
+  commentId: P:SuperOffice.Configuration.ConfigFile.Client.ApplicationName
+  id: ApplicationName
+  parent: SuperOffice.Configuration.ConfigFile.Client
+  langs:
+  - csharp
+  - vb
+  name: ApplicationName
+  nameWithType: ConfigFile.Client.ApplicationName
+  fullName: SuperOffice.Configuration.ConfigFile.Client.ApplicationName
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public static string ApplicationName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property ApplicationName As String
+  overload: SuperOffice.Configuration.ConfigFile.Client.ApplicationName*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Client.ApplicationInstance
+  commentId: P:SuperOffice.Configuration.ConfigFile.Client.ApplicationInstance
+  id: ApplicationInstance
+  parent: SuperOffice.Configuration.ConfigFile.Client
+  langs:
+  - csharp
+  - vb
+  name: ApplicationInstance
+  nameWithType: ConfigFile.Client.ApplicationInstance
+  fullName: SuperOffice.Configuration.ConfigFile.Client.ApplicationInstance
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public static string ApplicationInstance { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property ApplicationInstance As String
+  overload: SuperOffice.Configuration.ConfigFile.Client.ApplicationInstance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Client.HelpFilesBaseUrl
+  commentId: P:SuperOffice.Configuration.ConfigFile.Client.HelpFilesBaseUrl
+  id: HelpFilesBaseUrl
+  parent: SuperOffice.Configuration.ConfigFile.Client
+  langs:
+  - csharp
+  - vb
+  name: HelpFilesBaseUrl
+  nameWithType: ConfigFile.Client.HelpFilesBaseUrl
+  fullName: SuperOffice.Configuration.ConfigFile.Client.HelpFilesBaseUrl
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nOverride the help files location - to support local deployments. \n"
+  syntax:
+    content: public static string HelpFilesBaseUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property HelpFilesBaseUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.Client.HelpFilesBaseUrl*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Client.ExportPageSize
+  commentId: P:SuperOffice.Configuration.ConfigFile.Client.ExportPageSize
+  id: ExportPageSize
+  parent: SuperOffice.Configuration.ConfigFile.Client
+  langs:
+  - csharp
+  - vb
+  name: ExportPageSize
+  nameWithType: ConfigFile.Client.ExportPageSize
+  fullName: SuperOffice.Configuration.ConfigFile.Client.ExportPageSize
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public static int ExportPageSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property ExportPageSize As Integer
+  overload: SuperOffice.Configuration.ConfigFile.Client.ExportPageSize*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Client.ApplicationTitle
+  commentId: P:SuperOffice.Configuration.ConfigFile.Client.ApplicationTitle
+  id: ApplicationTitle
+  parent: SuperOffice.Configuration.ConfigFile.Client
+  langs:
+  - csharp
+  - vb
+  name: ApplicationTitle
+  nameWithType: ConfigFile.Client.ApplicationTitle
+  fullName: SuperOffice.Configuration.ConfigFile.Client.ApplicationTitle
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nApplication title\n"
+  syntax:
+    content: public static string ApplicationTitle { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property ApplicationTitle As String
+  overload: SuperOffice.Configuration.ConfigFile.Client.ApplicationTitle*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Client.WebAppUsage
+  commentId: P:SuperOffice.Configuration.ConfigFile.Client.WebAppUsage
+  id: WebAppUsage
+  parent: SuperOffice.Configuration.ConfigFile.Client
+  langs:
+  - csharp
+  - vb
+  name: WebAppUsage
+  nameWithType: ConfigFile.Client.WebAppUsage
+  fullName: SuperOffice.Configuration.ConfigFile.Client.WebAppUsage
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nEnable the collection of Web Client usage statistics (only view usage, no references to actual data)\n"
+  syntax:
+    content: public static bool WebAppUsage { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property WebAppUsage As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Client.WebAppUsage*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Client.ClientCacheKey
+  commentId: P:SuperOffice.Configuration.ConfigFile.Client.ClientCacheKey
+  id: ClientCacheKey
+  parent: SuperOffice.Configuration.ConfigFile.Client
+  langs:
+  - csharp
+  - vb
+  name: ClientCacheKey
+  nameWithType: ConfigFile.Client.ClientCacheKey
+  fullName: SuperOffice.Configuration.ConfigFile.Client.ClientCacheKey
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nCache key that is appended (if it exists) to the querystring for javascript and css includes\n"
+  syntax:
+    content: public static string ClientCacheKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property ClientCacheKey As String
+  overload: SuperOffice.Configuration.ConfigFile.Client.ClientCacheKey*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Client.UrlSchemeOverride
+  commentId: P:SuperOffice.Configuration.ConfigFile.Client.UrlSchemeOverride
+  id: UrlSchemeOverride
+  parent: SuperOffice.Configuration.ConfigFile.Client
+  langs:
+  - csharp
+  - vb
+  name: UrlSchemeOverride
+  nameWithType: ConfigFile.Client.UrlSchemeOverride
+  fullName: SuperOffice.Configuration.ConfigFile.Client.UrlSchemeOverride
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nOverridden value of sheme (HTTP or HTTPS\n"
+  syntax:
+    content: public static string UrlSchemeOverride { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property UrlSchemeOverride As String
+  overload: SuperOffice.Configuration.ConfigFile.Client.UrlSchemeOverride*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Client.UrlHostOverride
+  commentId: P:SuperOffice.Configuration.ConfigFile.Client.UrlHostOverride
+  id: UrlHostOverride
+  parent: SuperOffice.Configuration.ConfigFile.Client
+  langs:
+  - csharp
+  - vb
+  name: UrlHostOverride
+  nameWithType: ConfigFile.Client.UrlHostOverride
+  fullName: SuperOffice.Configuration.ConfigFile.Client.UrlHostOverride
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nOverridden value of host, like: online.superoffice.com\n"
+  syntax:
+    content: public static string UrlHostOverride { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property UrlHostOverride As String
+  overload: SuperOffice.Configuration.ConfigFile.Client.UrlHostOverride*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Client.UrlPortOverride
+  commentId: P:SuperOffice.Configuration.ConfigFile.Client.UrlPortOverride
+  id: UrlPortOverride
+  parent: SuperOffice.Configuration.ConfigFile.Client
+  langs:
+  - csharp
+  - vb
+  name: UrlPortOverride
+  nameWithType: ConfigFile.Client.UrlPortOverride
+  fullName: SuperOffice.Configuration.ConfigFile.Client.UrlPortOverride
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nOverridden value of port, like: 80 or 443\n"
+  syntax:
+    content: public static int UrlPortOverride { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property UrlPortOverride As Integer
+  overload: SuperOffice.Configuration.ConfigFile.Client.UrlPortOverride*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Client.GoogleImportDispatcher
+  commentId: P:SuperOffice.Configuration.ConfigFile.Client.GoogleImportDispatcher
+  id: GoogleImportDispatcher
+  parent: SuperOffice.Configuration.ConfigFile.Client
+  langs:
+  - csharp
+  - vb
+  name: GoogleImportDispatcher
+  nameWithType: ConfigFile.Client.GoogleImportDispatcher
+  fullName: SuperOffice.Configuration.ConfigFile.Client.GoogleImportDispatcher
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nurl to import from google\n"
+  syntax:
+    content: public static string GoogleImportDispatcher { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property GoogleImportDispatcher As String
+  overload: SuperOffice.Configuration.ConfigFile.Client.GoogleImportDispatcher*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientId
+  commentId: P:SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientId
+  id: GoogleImportClientId
+  parent: SuperOffice.Configuration.ConfigFile.Client
+  langs:
+  - csharp
+  - vb
+  name: GoogleImportClientId
+  nameWithType: ConfigFile.Client.GoogleImportClientId
+  fullName: SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientId
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nClient ID when importing from google\n"
+  syntax:
+    content: public static string GoogleImportClientId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property GoogleImportClientId As String
+  overload: SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientId*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientSecret
+  commentId: P:SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientSecret
+  id: GoogleImportClientSecret
+  parent: SuperOffice.Configuration.ConfigFile.Client
+  langs:
+  - csharp
+  - vb
+  name: GoogleImportClientSecret
+  nameWithType: ConfigFile.Client.GoogleImportClientSecret
+  fullName: SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientSecret
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nClient secret when importing from google\n"
+  syntax:
+    content: public static string GoogleImportClientSecret { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property GoogleImportClientSecret As String
+  overload: SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientSecret*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Client.MasterDcfConfigHashKeyFormat
+  commentId: P:SuperOffice.Configuration.ConfigFile.Client.MasterDcfConfigHashKeyFormat
+  id: MasterDcfConfigHashKeyFormat
+  parent: SuperOffice.Configuration.ConfigFile.Client
+  langs:
+  - csharp
+  - vb
+  name: MasterDcfConfigHashKeyFormat
+  nameWithType: ConfigFile.Client.MasterDcfConfigHashKeyFormat
+  fullName: SuperOffice.Configuration.ConfigFile.Client.MasterDcfConfigHashKeyFormat
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe format key used to generate a unique DCF page config hash. {0} = MachineName. {1} = Build-label. {2} = Assembly version. Defaults to {0}.\n"
+  syntax:
+    content: public static string MasterDcfConfigHashKeyFormat { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property MasterDcfConfigHashKeyFormat As String
+  overload: SuperOffice.Configuration.ConfigFile.Client.MasterDcfConfigHashKeyFormat*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Client.NetServicesStatusUrl
+  commentId: P:SuperOffice.Configuration.ConfigFile.Client.NetServicesStatusUrl
+  id: NetServicesStatusUrl
+  parent: SuperOffice.Configuration.ConfigFile.Client
+  langs:
+  - csharp
+  - vb
+  name: NetServicesStatusUrl
+  nameWithType: ConfigFile.Client.NetServicesStatusUrl
+  fullName: SuperOffice.Configuration.ConfigFile.Client.NetServicesStatusUrl
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nOverride the default NetServices Status URL with this value. Useful for testing.\n"
+  syntax:
+    content: public static string NetServicesStatusUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property NetServicesStatusUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.Client.NetServicesStatusUrl*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Client.NetServicesNextDate
+  commentId: P:SuperOffice.Configuration.ConfigFile.Client.NetServicesNextDate
+  id: NetServicesNextDate
+  parent: SuperOffice.Configuration.ConfigFile.Client
+  langs:
+  - csharp
+  - vb
+  name: NetServicesNextDate
+  nameWithType: ConfigFile.Client.NetServicesNextDate
+  fullName: SuperOffice.Configuration.ConfigFile.Client.NetServicesNextDate
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nOverride the Next Check Date preference for NetServices Status checking. Useful for testing. YYYY.MM.DD\n"
+  syntax:
+    content: public static string NetServicesNextDate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property NetServicesNextDate As String
+  overload: SuperOffice.Configuration.ConfigFile.Client.NetServicesNextDate*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Client.ShowWelcomeDialogs
+  commentId: P:SuperOffice.Configuration.ConfigFile.Client.ShowWelcomeDialogs
+  id: ShowWelcomeDialogs
+  parent: SuperOffice.Configuration.ConfigFile.Client
+  langs:
+  - csharp
+  - vb
+  name: ShowWelcomeDialogs
+  nameWithType: ConfigFile.Client.ShowWelcomeDialogs
+  fullName: SuperOffice.Configuration.ConfigFile.Client.ShowWelcomeDialogs
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAllow automated tests to disable webtools and welcome dialogs.\n"
+  syntax:
+    content: public static bool ShowWelcomeDialogs { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property ShowWelcomeDialogs As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Client.ShowWelcomeDialogs*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Client.WWW3Url
+  commentId: P:SuperOffice.Configuration.ConfigFile.Client.WWW3Url
+  id: WWW3Url
+  parent: SuperOffice.Configuration.ConfigFile.Client
+  langs:
+  - csharp
+  - vb
+  name: WWW3Url
+  nameWithType: ConfigFile.Client.WWW3Url
+  fullName: SuperOffice.Configuration.ConfigFile.Client.WWW3Url
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe root-URL of the global SuperOffice www3 host.\n"
+  syntax:
+    content: public static string WWW3Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property WWW3Url As String
+  overload: SuperOffice.Configuration.ConfigFile.Client.WWW3Url*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.Client.ApplicationName*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.ApplicationName
+  isExternal: true
+  name: ApplicationName
+  nameWithType: ConfigFile.Client.ApplicationName
+  fullName: SuperOffice.Configuration.ConfigFile.Client.ApplicationName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Configuration.ConfigFile.Client.ApplicationInstance*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.ApplicationInstance
+  isExternal: true
+  name: ApplicationInstance
+  nameWithType: ConfigFile.Client.ApplicationInstance
+  fullName: SuperOffice.Configuration.ConfigFile.Client.ApplicationInstance
+- uid: SuperOffice.Configuration.ConfigFile.Client.HelpFilesBaseUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.HelpFilesBaseUrl
+  isExternal: true
+  name: HelpFilesBaseUrl
+  nameWithType: ConfigFile.Client.HelpFilesBaseUrl
+  fullName: SuperOffice.Configuration.ConfigFile.Client.HelpFilesBaseUrl
+- uid: SuperOffice.Configuration.ConfigFile.Client.ExportPageSize*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.ExportPageSize
+  isExternal: true
+  name: ExportPageSize
+  nameWithType: ConfigFile.Client.ExportPageSize
+  fullName: SuperOffice.Configuration.ConfigFile.Client.ExportPageSize
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Configuration.ConfigFile.Client.ApplicationTitle*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.ApplicationTitle
+  isExternal: true
+  name: ApplicationTitle
+  nameWithType: ConfigFile.Client.ApplicationTitle
+  fullName: SuperOffice.Configuration.ConfigFile.Client.ApplicationTitle
+- uid: SuperOffice.Configuration.ConfigFile.Client.WebAppUsage*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.WebAppUsage
+  isExternal: true
+  name: WebAppUsage
+  nameWithType: ConfigFile.Client.WebAppUsage
+  fullName: SuperOffice.Configuration.ConfigFile.Client.WebAppUsage
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Configuration.ConfigFile.Client.ClientCacheKey*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.ClientCacheKey
+  isExternal: true
+  name: ClientCacheKey
+  nameWithType: ConfigFile.Client.ClientCacheKey
+  fullName: SuperOffice.Configuration.ConfigFile.Client.ClientCacheKey
+- uid: SuperOffice.Configuration.ConfigFile.Client.UrlSchemeOverride*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.UrlSchemeOverride
+  isExternal: true
+  name: UrlSchemeOverride
+  nameWithType: ConfigFile.Client.UrlSchemeOverride
+  fullName: SuperOffice.Configuration.ConfigFile.Client.UrlSchemeOverride
+- uid: SuperOffice.Configuration.ConfigFile.Client.UrlHostOverride*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.UrlHostOverride
+  isExternal: true
+  name: UrlHostOverride
+  nameWithType: ConfigFile.Client.UrlHostOverride
+  fullName: SuperOffice.Configuration.ConfigFile.Client.UrlHostOverride
+- uid: SuperOffice.Configuration.ConfigFile.Client.UrlPortOverride*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.UrlPortOverride
+  isExternal: true
+  name: UrlPortOverride
+  nameWithType: ConfigFile.Client.UrlPortOverride
+  fullName: SuperOffice.Configuration.ConfigFile.Client.UrlPortOverride
+- uid: SuperOffice.Configuration.ConfigFile.Client.GoogleImportDispatcher*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.GoogleImportDispatcher
+  isExternal: true
+  name: GoogleImportDispatcher
+  nameWithType: ConfigFile.Client.GoogleImportDispatcher
+  fullName: SuperOffice.Configuration.ConfigFile.Client.GoogleImportDispatcher
+- uid: SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientId*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientId
+  isExternal: true
+  name: GoogleImportClientId
+  nameWithType: ConfigFile.Client.GoogleImportClientId
+  fullName: SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientId
+- uid: SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientSecret*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientSecret
+  isExternal: true
+  name: GoogleImportClientSecret
+  nameWithType: ConfigFile.Client.GoogleImportClientSecret
+  fullName: SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientSecret
+- uid: SuperOffice.Configuration.ConfigFile.Client.MasterDcfConfigHashKeyFormat*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.MasterDcfConfigHashKeyFormat
+  isExternal: true
+  name: MasterDcfConfigHashKeyFormat
+  nameWithType: ConfigFile.Client.MasterDcfConfigHashKeyFormat
+  fullName: SuperOffice.Configuration.ConfigFile.Client.MasterDcfConfigHashKeyFormat
+- uid: SuperOffice.Configuration.ConfigFile.Client.NetServicesStatusUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.NetServicesStatusUrl
+  isExternal: true
+  name: NetServicesStatusUrl
+  nameWithType: ConfigFile.Client.NetServicesStatusUrl
+  fullName: SuperOffice.Configuration.ConfigFile.Client.NetServicesStatusUrl
+- uid: SuperOffice.Configuration.ConfigFile.Client.NetServicesNextDate*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.NetServicesNextDate
+  isExternal: true
+  name: NetServicesNextDate
+  nameWithType: ConfigFile.Client.NetServicesNextDate
+  fullName: SuperOffice.Configuration.ConfigFile.Client.NetServicesNextDate
+- uid: SuperOffice.Configuration.ConfigFile.Client.ShowWelcomeDialogs*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.ShowWelcomeDialogs
+  isExternal: true
+  name: ShowWelcomeDialogs
+  nameWithType: ConfigFile.Client.ShowWelcomeDialogs
+  fullName: SuperOffice.Configuration.ConfigFile.Client.ShowWelcomeDialogs
+- uid: SuperOffice.Configuration.ConfigFile.Client.WWW3Url*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.WWW3Url
+  isExternal: true
+  name: WWW3Url
+  nameWithType: ConfigFile.Client.WWW3Url
+  fullName: SuperOffice.Configuration.ConfigFile.Client.WWW3Url

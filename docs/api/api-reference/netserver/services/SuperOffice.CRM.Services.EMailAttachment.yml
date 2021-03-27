@@ -1,0 +1,537 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.EMailAttachment
+  commentId: T:SuperOffice.CRM.Services.EMailAttachment
+  id: EMailAttachment
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.EMailAttachment.#ctor
+  - SuperOffice.CRM.Services.EMailAttachment.Description
+  - SuperOffice.CRM.Services.EMailAttachment.Disposition
+  - SuperOffice.CRM.Services.EMailAttachment.Encoding
+  - SuperOffice.CRM.Services.EMailAttachment.Filename
+  - SuperOffice.CRM.Services.EMailAttachment.Id
+  - SuperOffice.CRM.Services.EMailAttachment.Size
+  - SuperOffice.CRM.Services.EMailAttachment.Stream
+  - SuperOffice.CRM.Services.EMailAttachment.ToString
+  - SuperOffice.CRM.Services.EMailAttachment.ToString(System.String)
+  - SuperOffice.CRM.Services.EMailAttachment.Type
+  langs:
+  - csharp
+  - vb
+  name: EMailAttachment
+  nameWithType: EMailAttachment
+  fullName: SuperOffice.CRM.Services.EMailAttachment
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInformation about an attachment\n<p></p>\nCarrier object for EMailAttachment.\nServices for the EMailAttachment Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IEMailAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class EMailAttachment : Carrier'
+    content.vb: >-
+      Public Class EMailAttachment
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.EMailAgent
+    commentId: T:SuperOffice.CRM.Services.EMailAgent
+  - linkId: SuperOffice.CRM.Services.IEMailAgent
+    commentId: T:SuperOffice.CRM.Services.IEMailAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.EMailAttachment.#ctor
+  commentId: M:SuperOffice.CRM.Services.EMailAttachment.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.EMailAttachment
+  langs:
+  - csharp
+  - vb
+  name: EMailAttachment()
+  nameWithType: EMailAttachment.EMailAttachment()
+  fullName: SuperOffice.CRM.Services.EMailAttachment.EMailAttachment()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public EMailAttachment()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.EMailAttachment.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EMailAttachment.ToString
+  commentId: M:SuperOffice.CRM.Services.EMailAttachment.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.EMailAttachment
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: EMailAttachment.ToString()
+  fullName: SuperOffice.CRM.Services.EMailAttachment.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.EMailAttachment.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.EMailAttachment.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.EMailAttachment.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.EMailAttachment
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: EMailAttachment.ToString(String)
+  fullName: SuperOffice.CRM.Services.EMailAttachment.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.EMailAttachment.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EMailAttachment.Description
+  commentId: P:SuperOffice.CRM.Services.EMailAttachment.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.EMailAttachment
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: EMailAttachment.Description
+  fullName: SuperOffice.CRM.Services.EMailAttachment.Description
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName/description \n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.EMailAttachment.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailAttachment.Filename
+  commentId: P:SuperOffice.CRM.Services.EMailAttachment.Filename
+  id: Filename
+  parent: SuperOffice.CRM.Services.EMailAttachment
+  langs:
+  - csharp
+  - vb
+  name: Filename
+  nameWithType: EMailAttachment.Filename
+  fullName: SuperOffice.CRM.Services.EMailAttachment.Filename
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFilename \n"
+  syntax:
+    content: public virtual string Filename { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Filename As String
+  overload: SuperOffice.CRM.Services.EMailAttachment.Filename*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailAttachment.Size
+  commentId: P:SuperOffice.CRM.Services.EMailAttachment.Size
+  id: Size
+  parent: SuperOffice.CRM.Services.EMailAttachment
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: EMailAttachment.Size
+  fullName: SuperOffice.CRM.Services.EMailAttachment.Size
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSize of attachment \n"
+  syntax:
+    content: public virtual int Size { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Size As Integer
+  overload: SuperOffice.CRM.Services.EMailAttachment.Size*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailAttachment.Type
+  commentId: P:SuperOffice.CRM.Services.EMailAttachment.Type
+  id: Type
+  parent: SuperOffice.CRM.Services.EMailAttachment
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: EMailAttachment.Type
+  fullName: SuperOffice.CRM.Services.EMailAttachment.Type
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAttachment Content-Type \n"
+  syntax:
+    content: public virtual string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Type As String
+  overload: SuperOffice.CRM.Services.EMailAttachment.Type*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailAttachment.Encoding
+  commentId: P:SuperOffice.CRM.Services.EMailAttachment.Encoding
+  id: Encoding
+  parent: SuperOffice.CRM.Services.EMailAttachment
+  langs:
+  - csharp
+  - vb
+  name: Encoding
+  nameWithType: EMailAttachment.Encoding
+  fullName: SuperOffice.CRM.Services.EMailAttachment.Encoding
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContent-Transfer-Encoding \n"
+  syntax:
+    content: public virtual string Encoding { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Encoding As String
+  overload: SuperOffice.CRM.Services.EMailAttachment.Encoding*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailAttachment.Id
+  commentId: P:SuperOffice.CRM.Services.EMailAttachment.Id
+  id: Id
+  parent: SuperOffice.CRM.Services.EMailAttachment
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: EMailAttachment.Id
+  fullName: SuperOffice.CRM.Services.EMailAttachment.Id
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContent-ID \n"
+  syntax:
+    content: public virtual string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Id As String
+  overload: SuperOffice.CRM.Services.EMailAttachment.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailAttachment.Disposition
+  commentId: P:SuperOffice.CRM.Services.EMailAttachment.Disposition
+  id: Disposition
+  parent: SuperOffice.CRM.Services.EMailAttachment
+  langs:
+  - csharp
+  - vb
+  name: Disposition
+  nameWithType: EMailAttachment.Disposition
+  fullName: SuperOffice.CRM.Services.EMailAttachment.Disposition
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContent-Disposition \n"
+  syntax:
+    content: public virtual string Disposition { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Disposition As String
+  overload: SuperOffice.CRM.Services.EMailAttachment.Disposition*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailAttachment.Stream
+  commentId: P:SuperOffice.CRM.Services.EMailAttachment.Stream
+  id: Stream
+  parent: SuperOffice.CRM.Services.EMailAttachment
+  langs:
+  - csharp
+  - vb
+  name: Stream
+  nameWithType: EMailAttachment.Stream
+  fullName: SuperOffice.CRM.Services.EMailAttachment.Stream
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nBinary stream for outgoing attachments. This property will not be populated for existing e-mail items. \n"
+  syntax:
+    content: public virtual byte[] Stream { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Overridable Property Stream As Byte()
+  overload: SuperOffice.CRM.Services.EMailAttachment.Stream*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.EMailAgent
+  commentId: T:SuperOffice.CRM.Services.EMailAgent
+  isExternal: true
+  name: EMailAgent
+  nameWithType: EMailAgent
+  fullName: SuperOffice.CRM.Services.EMailAgent
+- uid: SuperOffice.CRM.Services.IEMailAgent
+  commentId: T:SuperOffice.CRM.Services.IEMailAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IEMailAgent
+  nameWithType: IEMailAgent
+  fullName: SuperOffice.CRM.Services.IEMailAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.EMailAttachment.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAttachment.#ctor
+  isExternal: true
+  name: EMailAttachment
+  nameWithType: EMailAttachment.EMailAttachment
+  fullName: SuperOffice.CRM.Services.EMailAttachment.EMailAttachment
+- uid: SuperOffice.CRM.Services.EMailAttachment.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAttachment.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: EMailAttachment.ToString
+  fullName: SuperOffice.CRM.Services.EMailAttachment.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.EMailAttachment.Description*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAttachment.Description
+  isExternal: true
+  name: Description
+  nameWithType: EMailAttachment.Description
+  fullName: SuperOffice.CRM.Services.EMailAttachment.Description
+- uid: SuperOffice.CRM.Services.EMailAttachment.Filename*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAttachment.Filename
+  isExternal: true
+  name: Filename
+  nameWithType: EMailAttachment.Filename
+  fullName: SuperOffice.CRM.Services.EMailAttachment.Filename
+- uid: SuperOffice.CRM.Services.EMailAttachment.Size*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAttachment.Size
+  isExternal: true
+  name: Size
+  nameWithType: EMailAttachment.Size
+  fullName: SuperOffice.CRM.Services.EMailAttachment.Size
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.EMailAttachment.Type*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAttachment.Type
+  isExternal: true
+  name: Type
+  nameWithType: EMailAttachment.Type
+  fullName: SuperOffice.CRM.Services.EMailAttachment.Type
+- uid: SuperOffice.CRM.Services.EMailAttachment.Encoding*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAttachment.Encoding
+  isExternal: true
+  name: Encoding
+  nameWithType: EMailAttachment.Encoding
+  fullName: SuperOffice.CRM.Services.EMailAttachment.Encoding
+- uid: SuperOffice.CRM.Services.EMailAttachment.Id*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAttachment.Id
+  isExternal: true
+  name: Id
+  nameWithType: EMailAttachment.Id
+  fullName: SuperOffice.CRM.Services.EMailAttachment.Id
+- uid: SuperOffice.CRM.Services.EMailAttachment.Disposition*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAttachment.Disposition
+  isExternal: true
+  name: Disposition
+  nameWithType: EMailAttachment.Disposition
+  fullName: SuperOffice.CRM.Services.EMailAttachment.Disposition
+- uid: SuperOffice.CRM.Services.EMailAttachment.Stream*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAttachment.Stream
+  isExternal: true
+  name: Stream
+  nameWithType: EMailAttachment.Stream
+  fullName: SuperOffice.CRM.Services.EMailAttachment.Stream
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

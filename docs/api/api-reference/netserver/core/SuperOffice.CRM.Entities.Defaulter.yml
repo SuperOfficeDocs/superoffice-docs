@@ -1,0 +1,1382 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.Defaulter
+  commentId: T:SuperOffice.CRM.Entities.Defaulter
+  id: Defaulter
+  parent: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Rows.DefaulterStrategy)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Contact)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Contact,SuperOffice.CRM.Rows.DefaulterStrategy)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Document)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Document,SuperOffice.CRM.Rows.DefaulterStrategy)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.EntityBase)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.EntityBase,SuperOffice.CRM.Rows.DefaulterStrategy)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Rows.DefaulterStrategy)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,System.Int32)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Project)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Project,SuperOffice.CRM.Rows.DefaulterStrategy)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.ProjectMember)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.ProjectMember,SuperOffice.CRM.Rows.DefaulterStrategy)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Sale)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Sale,SuperOffice.CRM.Rows.DefaulterStrategy)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Selection)
+  - SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Selection,SuperOffice.CRM.Rows.DefaulterStrategy)
+  langs:
+  - csharp
+  - vb
+  name: Defaulter
+  nameWithType: Defaulter
+  fullName: SuperOffice.CRM.Entities.Defaulter
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nDefaulter for Entity objects\n"
+  syntax:
+    content: public sealed class Defaulter
+    content.vb: Public NotInheritable Class Defaulter
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Entities.Defaulter.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.Defaulter.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.EntityBase)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.EntityBase)
+  id: SetDefaults(SuperOffice.CRM.Entities.EntityBase)
+  parent: SuperOffice.CRM.Entities.Defaulter
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults(EntityBase)
+  nameWithType: Defaulter.SetDefaults(EntityBase)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.EntityBase)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet default values for the entity.  This default implementation does nothing.\n"
+  syntax:
+    content: public static void SetDefaults(EntityBase entity)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Entities.EntityBase
+      description: The entity to set default values for.
+    content.vb: Public Shared Sub SetDefaults(entity As EntityBase)
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.EntityBase,SuperOffice.CRM.Rows.DefaulterStrategy)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.EntityBase,SuperOffice.CRM.Rows.DefaulterStrategy)
+  id: SetDefaults(SuperOffice.CRM.Entities.EntityBase,SuperOffice.CRM.Rows.DefaulterStrategy)
+  parent: SuperOffice.CRM.Entities.Defaulter
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults(EntityBase, DefaulterStrategy)
+  nameWithType: Defaulter.SetDefaults(EntityBase, DefaulterStrategy)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.EntityBase, SuperOffice.CRM.Rows.DefaulterStrategy)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet default values for the entity.  This default implementation does nothing.\n"
+  syntax:
+    content: public static void SetDefaults(EntityBase entity, DefaulterStrategy strategy)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Entities.EntityBase
+      description: The entity to set default values for.
+    - id: strategy
+      type: SuperOffice.CRM.Rows.DefaulterStrategy
+      description: Strategy used when appliying default values.
+    content.vb: Public Shared Sub SetDefaults(entity As EntityBase, strategy As DefaulterStrategy)
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment)
+  id: SetDefaults(SuperOffice.CRM.Entities.Appointment)
+  parent: SuperOffice.CRM.Entities.Defaulter
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults(Appointment)
+  nameWithType: Defaulter.SetDefaults(Appointment)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  syntax:
+    content: public static void SetDefaults(Appointment entity)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Entities.Appointment
+      description: The entity to set default values for.
+    content.vb: Public Shared Sub SetDefaults(entity As Appointment)
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Rows.DefaulterStrategy)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Rows.DefaulterStrategy)
+  id: SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Rows.DefaulterStrategy)
+  parent: SuperOffice.CRM.Entities.Defaulter
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults(Appointment, DefaulterStrategy)
+  nameWithType: Defaulter.SetDefaults(Appointment, DefaulterStrategy)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment, SuperOffice.CRM.Rows.DefaulterStrategy)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  syntax:
+    content: public static void SetDefaults(Appointment entity, DefaulterStrategy strategy)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Entities.Appointment
+      description: The entity to set default values for.
+    - id: strategy
+      type: SuperOffice.CRM.Rows.DefaulterStrategy
+      description: Strategy used when appliying default values.
+    content.vb: Public Shared Sub SetDefaults(entity As Appointment, strategy As DefaulterStrategy)
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType)
+  id: SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType)
+  parent: SuperOffice.CRM.Entities.Defaulter
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults(Appointment, TaskType)
+  nameWithType: Defaulter.SetDefaults(Appointment, TaskType)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment, SuperOffice.Data.TaskType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet default values for the appointment&apos;s main row, and for any udef fields it may have.\n"
+  syntax:
+    content: public static void SetDefaults(Appointment entity, TaskType type)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Entities.Appointment
+      description: The entity to set default values for.
+    - id: type
+      type: SuperOffice.Data.TaskType
+      description: The type of appointment
+    content.vb: Public Shared Sub SetDefaults(entity As Appointment, type As TaskType)
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy)
+  id: SetDefaults(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy)
+  parent: SuperOffice.CRM.Entities.Defaulter
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults(Appointment, TaskType, DefaulterStrategy)
+  nameWithType: Defaulter.SetDefaults(Appointment, TaskType, DefaulterStrategy)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Appointment, SuperOffice.Data.TaskType, SuperOffice.CRM.Rows.DefaulterStrategy)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet default values for the appointment&apos;s main row, and for any udef fields it may have.\n"
+  syntax:
+    content: public static void SetDefaults(Appointment entity, TaskType type, DefaulterStrategy strategy)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Entities.Appointment
+      description: The entity to set default values for.
+    - id: type
+      type: SuperOffice.Data.TaskType
+      description: The type of appointment
+    - id: strategy
+      type: SuperOffice.CRM.Rows.DefaulterStrategy
+      description: Strategy used when appliying default values.
+    content.vb: Public Shared Sub SetDefaults(entity As Appointment, type As TaskType, strategy As DefaulterStrategy)
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Contact)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Contact)
+  id: SetDefaults(SuperOffice.CRM.Entities.Contact)
+  parent: SuperOffice.CRM.Entities.Defaulter
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults(Contact)
+  nameWithType: Defaulter.SetDefaults(Contact)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Contact)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  syntax:
+    content: public static void SetDefaults(Contact entity)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Entities.Contact
+      description: The entity to set default values for.
+    content.vb: Public Shared Sub SetDefaults(entity As Contact)
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Contact,SuperOffice.CRM.Rows.DefaulterStrategy)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Contact,SuperOffice.CRM.Rows.DefaulterStrategy)
+  id: SetDefaults(SuperOffice.CRM.Entities.Contact,SuperOffice.CRM.Rows.DefaulterStrategy)
+  parent: SuperOffice.CRM.Entities.Defaulter
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults(Contact, DefaulterStrategy)
+  nameWithType: Defaulter.SetDefaults(Contact, DefaulterStrategy)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Contact, SuperOffice.CRM.Rows.DefaulterStrategy)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  syntax:
+    content: public static void SetDefaults(Contact entity, DefaulterStrategy strategy)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Entities.Contact
+      description: The entity to set default values for.
+    - id: strategy
+      type: SuperOffice.CRM.Rows.DefaulterStrategy
+      description: Strategy used when appliying default values.
+    content.vb: Public Shared Sub SetDefaults(entity As Contact, strategy As DefaulterStrategy)
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Document)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Document)
+  id: SetDefaults(SuperOffice.CRM.Entities.Document)
+  parent: SuperOffice.CRM.Entities.Defaulter
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults(Document)
+  nameWithType: Defaulter.SetDefaults(Document)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Document)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  syntax:
+    content: public static void SetDefaults(Document entity)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Entities.Document
+      description: The entity to set default values for.
+    content.vb: Public Shared Sub SetDefaults(entity As Document)
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Document,SuperOffice.CRM.Rows.DefaulterStrategy)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Document,SuperOffice.CRM.Rows.DefaulterStrategy)
+  id: SetDefaults(SuperOffice.CRM.Entities.Document,SuperOffice.CRM.Rows.DefaulterStrategy)
+  parent: SuperOffice.CRM.Entities.Defaulter
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults(Document, DefaulterStrategy)
+  nameWithType: Defaulter.SetDefaults(Document, DefaulterStrategy)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Document, SuperOffice.CRM.Rows.DefaulterStrategy)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  syntax:
+    content: public static void SetDefaults(Document entity, DefaulterStrategy strategy)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Entities.Document
+      description: The entity to set default values for.
+    - id: strategy
+      type: SuperOffice.CRM.Rows.DefaulterStrategy
+      description: Strategy used when appliying default values.
+    content.vb: Public Shared Sub SetDefaults(entity As Document, strategy As DefaulterStrategy)
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person)
+  id: SetDefaults(SuperOffice.CRM.Entities.Person)
+  parent: SuperOffice.CRM.Entities.Defaulter
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults(Person)
+  nameWithType: Defaulter.SetDefaults(Person)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  syntax:
+    content: public static void SetDefaults(Person entity)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Entities.Person
+      description: The entity to set default values for.
+    content.vb: Public Shared Sub SetDefaults(entity As Person)
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Rows.DefaulterStrategy)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Rows.DefaulterStrategy)
+  id: SetDefaults(SuperOffice.CRM.Entities.Person,SuperOffice.CRM.Rows.DefaulterStrategy)
+  parent: SuperOffice.CRM.Entities.Defaulter
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults(Person, DefaulterStrategy)
+  nameWithType: Defaulter.SetDefaults(Person, DefaulterStrategy)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person, SuperOffice.CRM.Rows.DefaulterStrategy)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  syntax:
+    content: public static void SetDefaults(Person entity, DefaulterStrategy strategy)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Entities.Person
+      description: The entity to set default values for.
+    - id: strategy
+      type: SuperOffice.CRM.Rows.DefaulterStrategy
+      description: Strategy used when appliying default values.
+    content.vb: Public Shared Sub SetDefaults(entity As Person, strategy As DefaulterStrategy)
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,System.Int32)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,System.Int32)
+  id: SetDefaults(SuperOffice.CRM.Entities.Person,System.Int32)
+  parent: SuperOffice.CRM.Entities.Defaulter
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults(Person, Int32)
+  nameWithType: Defaulter.SetDefaults(Person, Int32)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  syntax:
+    content: public static void SetDefaults(Person entity, int contactId)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Entities.Person
+      description: The entity to set default values for.
+    - id: contactId
+      type: System.Int32
+      description: The id of the contact the person belongs to.
+    content.vb: Public Shared Sub SetDefaults(entity As Person, contactId As Integer)
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy)
+  id: SetDefaults(SuperOffice.CRM.Entities.Person,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy)
+  parent: SuperOffice.CRM.Entities.Defaulter
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults(Person, Int32, DefaulterStrategy)
+  nameWithType: Defaulter.SetDefaults(Person, Int32, DefaulterStrategy)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Person, System.Int32, SuperOffice.CRM.Rows.DefaulterStrategy)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  syntax:
+    content: public static void SetDefaults(Person entity, int contactId, DefaulterStrategy strategy)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Entities.Person
+      description: The entity to set default values for.
+    - id: contactId
+      type: System.Int32
+      description: The id of the contact the person belongs to.
+    - id: strategy
+      type: SuperOffice.CRM.Rows.DefaulterStrategy
+      description: Strategy used when appliying default values.
+    content.vb: Public Shared Sub SetDefaults(entity As Person, contactId As Integer, strategy As DefaulterStrategy)
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Project)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Project)
+  id: SetDefaults(SuperOffice.CRM.Entities.Project)
+  parent: SuperOffice.CRM.Entities.Defaulter
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults(Project)
+  nameWithType: Defaulter.SetDefaults(Project)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Project)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  syntax:
+    content: public static void SetDefaults(Project entity)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Entities.Project
+      description: The entity to set default values for.
+    content.vb: Public Shared Sub SetDefaults(entity As Project)
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Project,SuperOffice.CRM.Rows.DefaulterStrategy)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Project,SuperOffice.CRM.Rows.DefaulterStrategy)
+  id: SetDefaults(SuperOffice.CRM.Entities.Project,SuperOffice.CRM.Rows.DefaulterStrategy)
+  parent: SuperOffice.CRM.Entities.Defaulter
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults(Project, DefaulterStrategy)
+  nameWithType: Defaulter.SetDefaults(Project, DefaulterStrategy)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Project, SuperOffice.CRM.Rows.DefaulterStrategy)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  syntax:
+    content: public static void SetDefaults(Project entity, DefaulterStrategy strategy)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Entities.Project
+      description: The entity to set default values for.
+    - id: strategy
+      type: SuperOffice.CRM.Rows.DefaulterStrategy
+      description: Strategy used when appliying default values.
+    content.vb: Public Shared Sub SetDefaults(entity As Project, strategy As DefaulterStrategy)
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.ProjectMember)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.ProjectMember)
+  id: SetDefaults(SuperOffice.CRM.Entities.ProjectMember)
+  parent: SuperOffice.CRM.Entities.Defaulter
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults(ProjectMember)
+  nameWithType: Defaulter.SetDefaults(ProjectMember)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.ProjectMember)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  syntax:
+    content: public static void SetDefaults(ProjectMember entity)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Entities.ProjectMember
+      description: The entity to set default values for.
+    content.vb: Public Shared Sub SetDefaults(entity As ProjectMember)
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.ProjectMember,SuperOffice.CRM.Rows.DefaulterStrategy)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.ProjectMember,SuperOffice.CRM.Rows.DefaulterStrategy)
+  id: SetDefaults(SuperOffice.CRM.Entities.ProjectMember,SuperOffice.CRM.Rows.DefaulterStrategy)
+  parent: SuperOffice.CRM.Entities.Defaulter
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults(ProjectMember, DefaulterStrategy)
+  nameWithType: Defaulter.SetDefaults(ProjectMember, DefaulterStrategy)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.ProjectMember, SuperOffice.CRM.Rows.DefaulterStrategy)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  syntax:
+    content: public static void SetDefaults(ProjectMember entity, DefaulterStrategy strategy)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Entities.ProjectMember
+      description: The entity to set default values for.
+    - id: strategy
+      type: SuperOffice.CRM.Rows.DefaulterStrategy
+      description: Strategy used when appliying default values.
+    content.vb: Public Shared Sub SetDefaults(entity As ProjectMember, strategy As DefaulterStrategy)
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Sale)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Sale)
+  id: SetDefaults(SuperOffice.CRM.Entities.Sale)
+  parent: SuperOffice.CRM.Entities.Defaulter
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults(Sale)
+  nameWithType: Defaulter.SetDefaults(Sale)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Sale)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  syntax:
+    content: public static void SetDefaults(Sale entity)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Entities.Sale
+      description: The entity to set default values for.
+    content.vb: Public Shared Sub SetDefaults(entity As Sale)
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Sale,SuperOffice.CRM.Rows.DefaulterStrategy)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Sale,SuperOffice.CRM.Rows.DefaulterStrategy)
+  id: SetDefaults(SuperOffice.CRM.Entities.Sale,SuperOffice.CRM.Rows.DefaulterStrategy)
+  parent: SuperOffice.CRM.Entities.Defaulter
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults(Sale, DefaulterStrategy)
+  nameWithType: Defaulter.SetDefaults(Sale, DefaulterStrategy)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Sale, SuperOffice.CRM.Rows.DefaulterStrategy)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  syntax:
+    content: public static void SetDefaults(Sale entity, DefaulterStrategy strategy)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Entities.Sale
+      description: The entity to set default values for.
+    - id: strategy
+      type: SuperOffice.CRM.Rows.DefaulterStrategy
+      description: Strategy used when appliying default values.
+    content.vb: Public Shared Sub SetDefaults(entity As Sale, strategy As DefaulterStrategy)
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Selection)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Selection)
+  id: SetDefaults(SuperOffice.CRM.Entities.Selection)
+  parent: SuperOffice.CRM.Entities.Defaulter
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults(Selection)
+  nameWithType: Defaulter.SetDefaults(Selection)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Selection)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  syntax:
+    content: public static void SetDefaults(Selection entity)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Entities.Selection
+      description: The entity to set default values for.
+    content.vb: Public Shared Sub SetDefaults(entity As Selection)
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Selection,SuperOffice.CRM.Rows.DefaulterStrategy)
+  commentId: M:SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Selection,SuperOffice.CRM.Rows.DefaulterStrategy)
+  id: SetDefaults(SuperOffice.CRM.Entities.Selection,SuperOffice.CRM.Rows.DefaulterStrategy)
+  parent: SuperOffice.CRM.Entities.Defaulter
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults(Selection, DefaulterStrategy)
+  nameWithType: Defaulter.SetDefaults(Selection, DefaulterStrategy)
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults(SuperOffice.CRM.Entities.Selection, SuperOffice.CRM.Rows.DefaulterStrategy)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet default values for the entity&apos;s main row, and for any udef fields it may have.\n"
+  syntax:
+    content: public static void SetDefaults(Selection entity, DefaulterStrategy strategy)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Entities.Selection
+      description: The entity to set default values for.
+    - id: strategy
+      type: SuperOffice.CRM.Rows.DefaulterStrategy
+      description: Strategy used when appliying default values.
+    content.vb: Public Shared Sub SetDefaults(entity As Selection, strategy As DefaulterStrategy)
+  overload: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Defaulter.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<Defaulter, To>()
+  nameWithType: EnumUtil.MapEnums<Defaulter, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Defaulter, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of Defaulter, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Defaulter, To)()
+  name.vb: MapEnums(Of Defaulter, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<Defaulter, To>
+    nameWithType: EnumUtil.MapEnums<Defaulter, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Defaulter, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of Defaulter, To)
+    nameWithType: EnumUtil.MapEnums(Of Defaulter, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Defaulter, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Defaulter.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<Defaulter, To>()
+  nameWithType: Converters.MapEnums<Defaulter, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Defaulter, To>()
+  nameWithType.vb: Converters.MapEnums(Of Defaulter, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Defaulter, To)()
+  name.vb: MapEnums(Of Defaulter, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<Defaulter, To>
+    nameWithType: Converters.MapEnums<Defaulter, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Defaulter, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of Defaulter, To)
+    nameWithType: Converters.MapEnums(Of Defaulter, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Defaulter, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Entities.Defaulter.SetDefaults*
+  commentId: Overload:SuperOffice.CRM.Entities.Defaulter.SetDefaults
+  isExternal: true
+  name: SetDefaults
+  nameWithType: Defaulter.SetDefaults
+  fullName: SuperOffice.CRM.Entities.Defaulter.SetDefaults
+- uid: SuperOffice.CRM.Entities.EntityBase
+  commentId: T:SuperOffice.CRM.Entities.EntityBase
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: EntityBase
+  nameWithType: EntityBase
+  fullName: SuperOffice.CRM.Entities.EntityBase
+- uid: SuperOffice.CRM.Rows.DefaulterStrategy
+  commentId: T:SuperOffice.CRM.Rows.DefaulterStrategy
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: DefaulterStrategy
+  nameWithType: DefaulterStrategy
+  fullName: SuperOffice.CRM.Rows.DefaulterStrategy
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.CRM.Entities.Appointment
+  commentId: T:SuperOffice.CRM.Entities.Appointment
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Appointment
+  nameWithType: Appointment
+  fullName: SuperOffice.CRM.Entities.Appointment
+- uid: SuperOffice.Data.TaskType
+  commentId: T:SuperOffice.Data.TaskType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TaskType
+  nameWithType: TaskType
+  fullName: SuperOffice.Data.TaskType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Entities.Contact
+  commentId: T:SuperOffice.CRM.Entities.Contact
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Contact
+  nameWithType: Contact
+  fullName: SuperOffice.CRM.Entities.Contact
+- uid: SuperOffice.CRM.Entities.Document
+  commentId: T:SuperOffice.CRM.Entities.Document
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Document
+  nameWithType: Document
+  fullName: SuperOffice.CRM.Entities.Document
+- uid: SuperOffice.CRM.Entities.Person
+  commentId: T:SuperOffice.CRM.Entities.Person
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Person
+  nameWithType: Person
+  fullName: SuperOffice.CRM.Entities.Person
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Entities.Project
+  commentId: T:SuperOffice.CRM.Entities.Project
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Project
+  nameWithType: Project
+  fullName: SuperOffice.CRM.Entities.Project
+- uid: SuperOffice.CRM.Entities.ProjectMember
+  commentId: T:SuperOffice.CRM.Entities.ProjectMember
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: ProjectMember
+  nameWithType: ProjectMember
+  fullName: SuperOffice.CRM.Entities.ProjectMember
+- uid: SuperOffice.CRM.Entities.Sale
+  commentId: T:SuperOffice.CRM.Entities.Sale
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Sale
+  nameWithType: Sale
+  fullName: SuperOffice.CRM.Entities.Sale
+- uid: SuperOffice.CRM.Entities.Selection
+  commentId: T:SuperOffice.CRM.Entities.Selection
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Selection
+  nameWithType: Selection
+  fullName: SuperOffice.CRM.Entities.Selection

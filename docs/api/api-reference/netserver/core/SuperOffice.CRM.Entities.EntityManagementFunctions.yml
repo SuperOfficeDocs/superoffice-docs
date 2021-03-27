@@ -1,0 +1,826 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions
+  commentId: T:SuperOffice.CRM.Entities.EntityManagementFunctions
+  id: EntityManagementFunctions
+  parent: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.EntityManagementFunctions.CopyContact(System.Int32,System.String,System.String,System.Boolean)
+  - SuperOffice.CRM.Entities.EntityManagementFunctions.DisconnectPersonNoSave(SuperOffice.CRM.Entities.Person,System.DateTime,System.Boolean)
+  - SuperOffice.CRM.Entities.EntityManagementFunctions.MergeContacts(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean)
+  - SuperOffice.CRM.Entities.EntityManagementFunctions.MergePersons(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Boolean,System.Boolean)
+  - SuperOffice.CRM.Entities.EntityManagementFunctions.MergeProjects(System.Int32,System.Int32,System.Boolean,System.Boolean)
+  - SuperOffice.CRM.Entities.EntityManagementFunctions.MovePerson(System.Int32,System.Int32,System.DateTime,System.Boolean)
+  - SuperOffice.CRM.Entities.EntityManagementFunctions.PerformOperationFromLog(System.Int32)
+  - SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMerge(System.Int32,System.Int32,System.Boolean,System.Action{System.String})
+  langs:
+  - csharp
+  - vb
+  name: EntityManagementFunctions
+  nameWithType: EntityManagementFunctions
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nMove, merge and copy contact, person and project; as well as replay such events on behalf of travel\n"
+  remarks: "\nThe public Copy and Merge methods are the outside entrypoints, as well as the generic PerformOperationFromLog.\n<p></p>\nOperations are not logged to traveltransactionlog, but instead to mergemovelog, from where they can be replayed.\nNote that move/merge are not supported on child databases, only on central (once you got out of sync with crossing\noperations, there would be no way back).\n"
+  syntax:
+    content: public static class EntityManagementFunctions
+    content.vb: Public Module EntityManagementFunctions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.PerformOperationFromLog(System.Int32)
+  commentId: M:SuperOffice.CRM.Entities.EntityManagementFunctions.PerformOperationFromLog(System.Int32)
+  id: PerformOperationFromLog(System.Int32)
+  parent: SuperOffice.CRM.Entities.EntityManagementFunctions
+  langs:
+  - csharp
+  - vb
+  name: PerformOperationFromLog(Int32)
+  nameWithType: EntityManagementFunctions.PerformOperationFromLog(Int32)
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.PerformOperationFromLog(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nPerform a move/merge operation from a MergeMoveLog entry\nUsed for merging from a travel database\n"
+  syntax:
+    content: public static void PerformOperationFromLog(int logId)
+    parameters:
+    - id: logId
+      type: System.Int32
+      description: The id of the log entry containing the move/merge operation
+    content.vb: Public Shared Sub PerformOperationFromLog(logId As Integer)
+  overload: SuperOffice.CRM.Entities.EntityManagementFunctions.PerformOperationFromLog*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeContacts(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Entities.EntityManagementFunctions.MergeContacts(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean)
+  id: MergeContacts(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean)
+  parent: SuperOffice.CRM.Entities.EntityManagementFunctions
+  langs:
+  - csharp
+  - vb
+  name: MergeContacts(Int32, Int32, Boolean, Boolean, Boolean)
+  nameWithType: EntityManagementFunctions.MergeContacts(Int32, Int32, Boolean, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeContacts(System.Int32, System.Int32, System.Boolean, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nMerge two contacts. The destination contact will remain.\n"
+  syntax:
+    content: public static void MergeContacts(int sourceContactId, int destinationContactId, bool mergeIdenticalPersons, bool replaceEmptyFieldsOnDestination, bool logOperation)
+    parameters:
+    - id: sourceContactId
+      type: System.Int32
+      description: Source contact to merge from
+    - id: destinationContactId
+      type: System.Int32
+      description: Destination contact to merge into
+    - id: mergeIdenticalPersons
+      type: System.Boolean
+      description: Persons with identical names will be merged
+    - id: replaceEmptyFieldsOnDestination
+      type: System.Boolean
+    - id: logOperation
+      type: System.Boolean
+    content.vb: Public Shared Sub MergeContacts(sourceContactId As Integer, destinationContactId As Integer, mergeIdenticalPersons As Boolean, replaceEmptyFieldsOnDestination As Boolean, logOperation As Boolean)
+  overload: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeContacts*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.DisconnectPersonNoSave(SuperOffice.CRM.Entities.Person,System.DateTime,System.Boolean)
+  commentId: M:SuperOffice.CRM.Entities.EntityManagementFunctions.DisconnectPersonNoSave(SuperOffice.CRM.Entities.Person,System.DateTime,System.Boolean)
+  id: DisconnectPersonNoSave(SuperOffice.CRM.Entities.Person,System.DateTime,System.Boolean)
+  parent: SuperOffice.CRM.Entities.EntityManagementFunctions
+  langs:
+  - csharp
+  - vb
+  name: DisconnectPersonNoSave(Person, DateTime, Boolean)
+  nameWithType: EntityManagementFunctions.DisconnectPersonNoSave(Person, DateTime, Boolean)
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.DisconnectPersonNoSave(SuperOffice.CRM.Entities.Person, System.DateTime, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nDisconnect a person from its contact\n"
+  syntax:
+    content: public static void DisconnectPersonNoSave(Person person, DateTime moveAfterDate, bool logOperation = true)
+    parameters:
+    - id: person
+      type: SuperOffice.CRM.Entities.Person
+      description: A person entity with update rights, without ERP links
+    - id: moveAfterDate
+      type: System.DateTime
+      description: Only move activites after this date
+    - id: logOperation
+      type: System.Boolean
+    content.vb: Public Shared Sub DisconnectPersonNoSave(person As Person, moveAfterDate As Date, logOperation As Boolean = True)
+  overload: SuperOffice.CRM.Entities.EntityManagementFunctions.DisconnectPersonNoSave*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.MovePerson(System.Int32,System.Int32,System.DateTime,System.Boolean)
+  commentId: M:SuperOffice.CRM.Entities.EntityManagementFunctions.MovePerson(System.Int32,System.Int32,System.DateTime,System.Boolean)
+  id: MovePerson(System.Int32,System.Int32,System.DateTime,System.Boolean)
+  parent: SuperOffice.CRM.Entities.EntityManagementFunctions
+  langs:
+  - csharp
+  - vb
+  name: MovePerson(Int32, Int32, DateTime, Boolean)
+  nameWithType: EntityManagementFunctions.MovePerson(Int32, Int32, DateTime, Boolean)
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.MovePerson(System.Int32, System.Int32, System.DateTime, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nMove a person to a specified contact\n"
+  syntax:
+    content: public static void MovePerson(int personId, int destinationContactId, DateTime moveAfterDate, bool logOperation)
+    parameters:
+    - id: personId
+      type: System.Int32
+    - id: destinationContactId
+      type: System.Int32
+    - id: moveAfterDate
+      type: System.DateTime
+      description: Only move activites after this date
+    - id: logOperation
+      type: System.Boolean
+    content.vb: Public Shared Sub MovePerson(personId As Integer, destinationContactId As Integer, moveAfterDate As Date, logOperation As Boolean)
+  overload: SuperOffice.CRM.Entities.EntityManagementFunctions.MovePerson*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.MergePersons(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Entities.EntityManagementFunctions.MergePersons(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Boolean,System.Boolean)
+  id: MergePersons(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Boolean,System.Boolean)
+  parent: SuperOffice.CRM.Entities.EntityManagementFunctions
+  langs:
+  - csharp
+  - vb
+  name: MergePersons(Int32, Int32, DateTime, Boolean, Boolean, Boolean)
+  nameWithType: EntityManagementFunctions.MergePersons(Int32, Int32, DateTime, Boolean, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.MergePersons(System.Int32, System.Int32, System.DateTime, System.Boolean, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nMerge two persons\n"
+  syntax:
+    content: public static void MergePersons(int sourcePersonId, int destinationPersonId, DateTime moveAfterDate, bool deleteSource, bool replaceEmptyFieldsOnDestination, bool logOperation)
+    parameters:
+    - id: sourcePersonId
+      type: System.Int32
+    - id: destinationPersonId
+      type: System.Int32
+    - id: moveAfterDate
+      type: System.DateTime
+      description: Only move activities after this date
+    - id: deleteSource
+      type: System.Boolean
+      description: 'If true the source will be deleted instead of retired and activities before moveAfterDate will have their personId set to 0 '
+    - id: replaceEmptyFieldsOnDestination
+      type: System.Boolean
+    - id: logOperation
+      type: System.Boolean
+    content.vb: Public Shared Sub MergePersons(sourcePersonId As Integer, destinationPersonId As Integer, moveAfterDate As Date, deleteSource As Boolean, replaceEmptyFieldsOnDestination As Boolean, logOperation As Boolean)
+  overload: SuperOffice.CRM.Entities.EntityManagementFunctions.MergePersons*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMerge(System.Int32,System.Int32,System.Boolean,System.Action{System.String})
+  commentId: M:SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMerge(System.Int32,System.Int32,System.Boolean,System.Action{System.String})
+  id: UpdateConsentPersonForMerge(System.Int32,System.Int32,System.Boolean,System.Action{System.String})
+  parent: SuperOffice.CRM.Entities.EntityManagementFunctions
+  langs:
+  - csharp
+  - vb
+  name: UpdateConsentPersonForMerge(Int32, Int32, Boolean, Action<String>)
+  nameWithType: EntityManagementFunctions.UpdateConsentPersonForMerge(Int32, Int32, Boolean, Action<String>)
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMerge(System.Int32, System.Int32, System.Boolean, System.Action<System.String>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public static void UpdateConsentPersonForMerge(int sourcePersonId, int destinationPersonId, bool deleteSource, Action<string> markAsManuallyHandled)
+    parameters:
+    - id: sourcePersonId
+      type: System.Int32
+    - id: destinationPersonId
+      type: System.Int32
+    - id: deleteSource
+      type: System.Boolean
+    - id: markAsManuallyHandled
+      type: System.Action{System.String}
+    content.vb: Public Shared Sub UpdateConsentPersonForMerge(sourcePersonId As Integer, destinationPersonId As Integer, deleteSource As Boolean, markAsManuallyHandled As Action(Of String))
+  overload: SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMerge*
+  nameWithType.vb: EntityManagementFunctions.UpdateConsentPersonForMerge(Int32, Int32, Boolean, Action(Of String))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMerge(System.Int32, System.Int32, System.Boolean, System.Action(Of System.String))
+  name.vb: UpdateConsentPersonForMerge(Int32, Int32, Boolean, Action(Of String))
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeProjects(System.Int32,System.Int32,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Entities.EntityManagementFunctions.MergeProjects(System.Int32,System.Int32,System.Boolean,System.Boolean)
+  id: MergeProjects(System.Int32,System.Int32,System.Boolean,System.Boolean)
+  parent: SuperOffice.CRM.Entities.EntityManagementFunctions
+  langs:
+  - csharp
+  - vb
+  name: MergeProjects(Int32, Int32, Boolean, Boolean)
+  nameWithType: EntityManagementFunctions.MergeProjects(Int32, Int32, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeProjects(System.Int32, System.Int32, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nMerge two projects\n"
+  syntax:
+    content: public static void MergeProjects(int sourceProjectId, int destinationProjectId, bool replaceEmptyFieldsOnDestination, bool logOperation)
+    parameters:
+    - id: sourceProjectId
+      type: System.Int32
+    - id: destinationProjectId
+      type: System.Int32
+    - id: replaceEmptyFieldsOnDestination
+      type: System.Boolean
+      description: Fill in empty fields on destination from source
+    - id: logOperation
+      type: System.Boolean
+    content.vb: Public Shared Sub MergeProjects(sourceProjectId As Integer, destinationProjectId As Integer, replaceEmptyFieldsOnDestination As Boolean, logOperation As Boolean)
+  overload: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeProjects*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.CopyContact(System.Int32,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Entities.EntityManagementFunctions.CopyContact(System.Int32,System.String,System.String,System.Boolean)
+  id: CopyContact(System.Int32,System.String,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Entities.EntityManagementFunctions
+  langs:
+  - csharp
+  - vb
+  name: CopyContact(Int32, String, String, Boolean)
+  nameWithType: EntityManagementFunctions.CopyContact(Int32, String, String, Boolean)
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.CopyContact(System.Int32, System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nCopy a contact. Activities and related data will be ignored\n"
+  syntax:
+    content: public static int CopyContact(int sourceContactId, string destinationContactName, string destinationContactDepartment, bool copyPersons)
+    parameters:
+    - id: sourceContactId
+      type: System.Int32
+    - id: destinationContactName
+      type: System.String
+      description: The name of the destination contact
+    - id: destinationContactDepartment
+      type: System.String
+    - id: copyPersons
+      type: System.Boolean
+      description: If true, persons will be copied from source contact
+    return:
+      type: System.Int32
+      description: Id of copied contact
+    content.vb: Public Shared Function CopyContact(sourceContactId As Integer, destinationContactName As String, destinationContactDepartment As String, copyPersons As Boolean) As Integer
+  overload: SuperOffice.CRM.Entities.EntityManagementFunctions.CopyContact*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.PerformOperationFromLog*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityManagementFunctions.PerformOperationFromLog
+  isExternal: true
+  name: PerformOperationFromLog
+  nameWithType: EntityManagementFunctions.PerformOperationFromLog
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.PerformOperationFromLog
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeContacts*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityManagementFunctions.MergeContacts
+  isExternal: true
+  name: MergeContacts
+  nameWithType: EntityManagementFunctions.MergeContacts
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeContacts
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.DisconnectPersonNoSave*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityManagementFunctions.DisconnectPersonNoSave
+  isExternal: true
+  name: DisconnectPersonNoSave
+  nameWithType: EntityManagementFunctions.DisconnectPersonNoSave
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.DisconnectPersonNoSave
+- uid: SuperOffice.CRM.Entities.Person
+  commentId: T:SuperOffice.CRM.Entities.Person
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Person
+  nameWithType: Person
+  fullName: SuperOffice.CRM.Entities.Person
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.MovePerson*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityManagementFunctions.MovePerson
+  isExternal: true
+  name: MovePerson
+  nameWithType: EntityManagementFunctions.MovePerson
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.MovePerson
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.MergePersons*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityManagementFunctions.MergePersons
+  isExternal: true
+  name: MergePersons
+  nameWithType: EntityManagementFunctions.MergePersons
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.MergePersons
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMerge*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMerge
+  isExternal: true
+  name: UpdateConsentPersonForMerge
+  nameWithType: EntityManagementFunctions.UpdateConsentPersonForMerge
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.UpdateConsentPersonForMerge
+- uid: System.Action{System.String}
+  commentId: T:System.Action{System.String}
+  parent: System
+  definition: System.Action`1
+  name: Action<String>
+  nameWithType: Action<String>
+  fullName: System.Action<System.String>
+  nameWithType.vb: Action(Of String)
+  fullName.vb: System.Action(Of System.String)
+  name.vb: Action(Of String)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeProjects*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityManagementFunctions.MergeProjects
+  isExternal: true
+  name: MergeProjects
+  nameWithType: EntityManagementFunctions.MergeProjects
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.MergeProjects
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions.CopyContact*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityManagementFunctions.CopyContact
+  isExternal: true
+  name: CopyContact
+  nameWithType: EntityManagementFunctions.CopyContact
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions.CopyContact
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

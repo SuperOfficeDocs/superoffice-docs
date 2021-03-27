@@ -1,0 +1,126 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Controllers.AboutDialogController
+  commentId: T:SuperOffice.CRM.Web.Controllers.AboutDialogController
+  id: AboutDialogController
+  parent: SuperOffice.CRM.Web.Controllers
+  children:
+  - SuperOffice.CRM.Web.Controllers.AboutDialogController.#ctor
+  - SuperOffice.CRM.Web.Controllers.AboutDialogController.GetData
+  langs:
+  - csharp
+  - vb
+  name: AboutDialogController
+  nameWithType: AboutDialogController
+  fullName: SuperOffice.CRM.Web.Controllers.AboutDialogController
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: 'public class AboutDialogController : ApiController'
+    content.vb: >-
+      Public Class AboutDialogController
+          Inherits ApiController
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Controllers.AboutDialogController.GetData
+  commentId: M:SuperOffice.CRM.Web.Controllers.AboutDialogController.GetData
+  id: GetData
+  parent: SuperOffice.CRM.Web.Controllers.AboutDialogController
+  langs:
+  - csharp
+  - vb
+  name: GetData()
+  nameWithType: AboutDialogController.GetData()
+  fullName: SuperOffice.CRM.Web.Controllers.AboutDialogController.GetData()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public AboutDialogController.AboutDialogData GetData()
+    return:
+      type: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData
+    content.vb: Public Function GetData As AboutDialogController.AboutDialogData
+  overload: SuperOffice.CRM.Web.Controllers.AboutDialogController.GetData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.AboutDialogController.#ctor
+  commentId: M:SuperOffice.CRM.Web.Controllers.AboutDialogController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Controllers.AboutDialogController
+  langs:
+  - csharp
+  - vb
+  name: AboutDialogController()
+  nameWithType: AboutDialogController.AboutDialogController()
+  fullName: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogController()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public AboutDialogController()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Controllers.AboutDialogController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Controllers
+  commentId: N:SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperOffice.CRM.Web.Controllers
+  nameWithType: SuperOffice.CRM.Web.Controllers
+  fullName: SuperOffice.CRM.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Controllers.AboutDialogController.GetData*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.AboutDialogController.GetData
+  isExternal: true
+  name: GetData
+  nameWithType: AboutDialogController.GetData
+  fullName: SuperOffice.CRM.Web.Controllers.AboutDialogController.GetData
+- uid: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData
+  commentId: T:SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: AboutDialogController.AboutDialogData
+  nameWithType: AboutDialogController.AboutDialogData
+  fullName: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData
+- uid: SuperOffice.CRM.Web.Controllers.AboutDialogController.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.AboutDialogController.#ctor
+  isExternal: true
+  name: AboutDialogController
+  nameWithType: AboutDialogController.AboutDialogController
+  fullName: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogController

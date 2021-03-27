@@ -1,0 +1,233 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Cache.IFlushable
+  commentId: T:SuperOffice.Data.Cache.IFlushable
+  id: IFlushable
+  parent: SuperOffice.Data.Cache
+  children:
+  - SuperOffice.Data.Cache.IFlushable.Flush
+  langs:
+  - csharp
+  - vb
+  name: IFlushable
+  nameWithType: IFlushable
+  fullName: SuperOffice.Data.Cache.IFlushable
+  type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  summary: "\nInterface for all kinds of caches that should support a common Flush mechanism\n"
+  syntax:
+    content: public interface IFlushable
+    content.vb: Public Interface IFlushable
+  extensionMethods:
+  - SuperOffice.Data.Cache.IFlushable.EnumUtil.MapEnums``2
+  - SuperOffice.Data.Cache.IFlushable.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Data.Cache.IFlushable.Flush
+  commentId: M:SuperOffice.Data.Cache.IFlushable.Flush
+  id: Flush
+  parent: SuperOffice.Data.Cache.IFlushable
+  langs:
+  - csharp
+  - vb
+  name: Flush()
+  nameWithType: IFlushable.Flush()
+  fullName: SuperOffice.Data.Cache.IFlushable.Flush()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: void Flush()
+    content.vb: Sub Flush
+  overload: SuperOffice.Data.Cache.IFlushable.Flush*
+references:
+- uid: SuperOffice.Data.Cache
+  commentId: N:SuperOffice.Data.Cache
+  isExternal: true
+  name: SuperOffice.Data.Cache
+  nameWithType: SuperOffice.Data.Cache
+  fullName: SuperOffice.Data.Cache
+- uid: SuperOffice.Data.Cache.IFlushable.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IFlushable, To>()
+  nameWithType: EnumUtil.MapEnums<IFlushable, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Cache.IFlushable, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IFlushable, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Cache.IFlushable, To)()
+  name.vb: MapEnums(Of IFlushable, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IFlushable, To>
+    nameWithType: EnumUtil.MapEnums<IFlushable, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.Cache.IFlushable, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IFlushable, To)
+    nameWithType: EnumUtil.MapEnums(Of IFlushable, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.Cache.IFlushable, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.IFlushable.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IFlushable, To>()
+  nameWithType: Converters.MapEnums<IFlushable, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Cache.IFlushable, To>()
+  nameWithType.vb: Converters.MapEnums(Of IFlushable, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Cache.IFlushable, To)()
+  name.vb: MapEnums(Of IFlushable, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IFlushable, To>
+    nameWithType: Converters.MapEnums<IFlushable, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Cache.IFlushable, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IFlushable, To)
+    nameWithType: Converters.MapEnums(Of IFlushable, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Cache.IFlushable, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.Cache.IFlushable.Flush*
+  commentId: Overload:SuperOffice.Data.Cache.IFlushable.Flush
+  isExternal: true
+  name: Flush
+  nameWithType: IFlushable.Flush
+  fullName: SuperOffice.Data.Cache.IFlushable.Flush

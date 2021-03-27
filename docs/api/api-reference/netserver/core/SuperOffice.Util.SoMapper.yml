@@ -1,0 +1,1135 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.SoMapper
+  commentId: T:SuperOffice.Util.SoMapper
+  id: SoMapper
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.SoMapper.#ctor
+  - SuperOffice.Util.SoMapper.Clone``1(``0)
+  - SuperOffice.Util.SoMapper.CopyProperties(System.Type,System.Type,System.Object,System.Object,System.Boolean,System.Boolean)
+  - SuperOffice.Util.SoMapper.CopyProperties``2(``0,``1,System.Boolean)
+  - SuperOffice.Util.SoMapper.GetDictionaryKey(System.Object)
+  - SuperOffice.Util.SoMapper.GetDictionaryValue(System.Object)
+  - SuperOffice.Util.SoMapper.Instance
+  - SuperOffice.Util.SoMapper.Map``2(``0,System.Boolean)
+  - SuperOffice.Util.SoMapper.MapValue(System.Type,System.Type,System.Object,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: SoMapper
+  nameWithType: SoMapper
+  fullName: SuperOffice.Util.SoMapper
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nClass for mapping values between class-instances and types based on similarly named properties with\nfundamentally compatible types.\n\nbasic principle of operation is adhering to the &quot;Duck test&quot;:\n&quot;When I see a bird that walks like a duck and swims like a duck and quacks like a duck,\nI call that bird a duck.&quot;\n\n<seealso ref=\"https://en.wikipedia.org/wiki/Duck_typing\"></seealso>\n"
+  syntax:
+    content: public class SoMapper
+    content.vb: Public Class SoMapper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Util.SoMapper.EnumUtil.MapEnums``2
+  - SuperOffice.Util.SoMapper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.SoMapper)
+  - SuperOffice.Util.SoMapper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Util.SoMapper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Util.SoMapper.#ctor
+  commentId: M:SuperOffice.Util.SoMapper.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Util.SoMapper
+  langs:
+  - csharp
+  - vb
+  name: SoMapper()
+  nameWithType: SoMapper.SoMapper()
+  fullName: SuperOffice.Util.SoMapper.SoMapper()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public SoMapper()
+    content.vb: Public Sub New
+  overload: SuperOffice.Util.SoMapper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.SoMapper.Map``2(``0,System.Boolean)
+  commentId: M:SuperOffice.Util.SoMapper.Map``2(``0,System.Boolean)
+  id: Map``2(``0,System.Boolean)
+  parent: SuperOffice.Util.SoMapper
+  langs:
+  - csharp
+  - vb
+  name: Map<TInput, TResult>(TInput, Boolean)
+  nameWithType: SoMapper.Map<TInput, TResult>(TInput, Boolean)
+  fullName: SuperOffice.Util.SoMapper.Map<TInput, TResult>(TInput, System.Boolean)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConvert the given input instance and return a instance of the specified output type\nusing fuzzy Duck-typing and logic.\n<remarks>\nWill return same instance if the provided types are the same.\n</remarks>\n"
+  syntax:
+    content: >-
+      public TResult Map<TInput, TResult>(TInput source, bool throwOnMismatch = true)
+          where TResult : new()
+    parameters:
+    - id: source
+      type: '{TInput}'
+      description: Value to convert.
+    - id: throwOnMismatch
+      type: System.Boolean
+      description: "\nIf true, throws when there is a mismatch between the types being converted.\nIf false, silently ignores property with mismatch and moves along to the next one.\n"
+    typeParameters:
+    - id: TInput
+      description: Type of input-value.
+    - id: TResult
+      description: Type of desired return-value.
+    return:
+      type: '{TResult}'
+      description: The converted value.
+    content.vb: Public Function Map(Of TInput, TResult As New)(source As TInput, throwOnMismatch As Boolean = True) As TResult
+  overload: SuperOffice.Util.SoMapper.Map*
+  nameWithType.vb: SoMapper.Map(Of TInput, TResult)(TInput, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.SoMapper.Map(Of TInput, TResult)(TInput, System.Boolean)
+  name.vb: Map(Of TInput, TResult)(TInput, Boolean)
+- uid: SuperOffice.Util.SoMapper.Clone``1(``0)
+  commentId: M:SuperOffice.Util.SoMapper.Clone``1(``0)
+  id: Clone``1(``0)
+  parent: SuperOffice.Util.SoMapper
+  langs:
+  - csharp
+  - vb
+  name: Clone<TInput>(TInput)
+  nameWithType: SoMapper.Clone<TInput>(TInput)
+  fullName: SuperOffice.Util.SoMapper.Clone<TInput>(TInput)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nClones the given object-graph using a recursive copy of public properties.\n<remarks>\nIf class being copied depends on private fields, the copy may not function as expected.\n</remarks>\n"
+  syntax:
+    content: >-
+      public TInput Clone<TInput>(TInput source)
+          where TInput : new()
+    parameters:
+    - id: source
+      type: '{TInput}'
+      description: Instance to clone.
+    typeParameters:
+    - id: TInput
+      description: Type of input-value.
+    return:
+      type: '{TInput}'
+      description: The converted value.
+    content.vb: Public Function Clone(Of TInput As New)(source As TInput) As TInput
+  overload: SuperOffice.Util.SoMapper.Clone*
+  nameWithType.vb: SoMapper.Clone(Of TInput)(TInput)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.SoMapper.Clone(Of TInput)(TInput)
+  name.vb: Clone(Of TInput)(TInput)
+- uid: SuperOffice.Util.SoMapper.CopyProperties``2(``0,``1,System.Boolean)
+  commentId: M:SuperOffice.Util.SoMapper.CopyProperties``2(``0,``1,System.Boolean)
+  id: CopyProperties``2(``0,``1,System.Boolean)
+  parent: SuperOffice.Util.SoMapper
+  langs:
+  - csharp
+  - vb
+  name: CopyProperties<TSource, TDestination>(TSource, TDestination, Boolean)
+  nameWithType: SoMapper.CopyProperties<TSource, TDestination>(TSource, TDestination, Boolean)
+  fullName: SuperOffice.Util.SoMapper.CopyProperties<TSource, TDestination>(TSource, TDestination, System.Boolean)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nCopies all properties of the provided source-instance onto the provided destination-instance.\n"
+  syntax:
+    content: public void CopyProperties<TSource, TDestination>(TSource source, TDestination destination, bool throwOnMismatch)
+    parameters:
+    - id: source
+      type: '{TSource}'
+      description: Source-value to copy.
+    - id: destination
+      type: '{TDestination}'
+      description: Target-value which properties will be copied onto.
+    - id: throwOnMismatch
+      type: System.Boolean
+      description: "\nIf true, throws when there is a mismatch between the types being converted.\nIf false, silently ignores property with mismatch and moves along to the next one.\n"
+    typeParameters:
+    - id: TSource
+      description: Type of the source value.
+    - id: TDestination
+      description: Type of the destination value.
+    content.vb: Public Sub CopyProperties(Of TSource, TDestination)(source As TSource, destination As TDestination, throwOnMismatch As Boolean)
+  overload: SuperOffice.Util.SoMapper.CopyProperties*
+  nameWithType.vb: SoMapper.CopyProperties(Of TSource, TDestination)(TSource, TDestination, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.SoMapper.CopyProperties(Of TSource, TDestination)(TSource, TDestination, System.Boolean)
+  name.vb: CopyProperties(Of TSource, TDestination)(TSource, TDestination, Boolean)
+- uid: SuperOffice.Util.SoMapper.CopyProperties(System.Type,System.Type,System.Object,System.Object,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.Util.SoMapper.CopyProperties(System.Type,System.Type,System.Object,System.Object,System.Boolean,System.Boolean)
+  id: CopyProperties(System.Type,System.Type,System.Object,System.Object,System.Boolean,System.Boolean)
+  parent: SuperOffice.Util.SoMapper
+  langs:
+  - csharp
+  - vb
+  name: CopyProperties(Type, Type, Object, Object, Boolean, Boolean)
+  nameWithType: SoMapper.CopyProperties(Type, Type, Object, Object, Boolean, Boolean)
+  fullName: SuperOffice.Util.SoMapper.CopyProperties(System.Type, System.Type, System.Object, System.Object, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nCopies all properties of the provided source-instance onto the provided destination-instance.\n"
+  syntax:
+    content: public void CopyProperties(Type sourceType, Type destinationType, object source, object destination, bool throwOnMismatch, bool copyNulls = false)
+    parameters:
+    - id: sourceType
+      type: System.Type
+      description: Type of the source value.
+    - id: destinationType
+      type: System.Type
+      description: Type of the destination value.
+    - id: source
+      type: System.Object
+      description: Source-value to copy.
+    - id: destination
+      type: System.Object
+      description: Target-value which properties will be copied onto.
+    - id: throwOnMismatch
+      type: System.Boolean
+      description: "\nIf true, throws when there is a mismatch between the types being converted.\nIf false, silently ignores property with mismatch and moves along to the next one.\n"
+    - id: copyNulls
+      type: System.Boolean
+      description: Should null values on source be skipped and left unchanged on dest, or copied to destionation?
+    content.vb: Public Sub CopyProperties(sourceType As Type, destinationType As Type, source As Object, destination As Object, throwOnMismatch As Boolean, copyNulls As Boolean = False)
+  overload: SuperOffice.Util.SoMapper.CopyProperties*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.SoMapper.GetDictionaryKey(System.Object)
+  commentId: M:SuperOffice.Util.SoMapper.GetDictionaryKey(System.Object)
+  id: GetDictionaryKey(System.Object)
+  parent: SuperOffice.Util.SoMapper
+  langs:
+  - csharp
+  - vb
+  name: GetDictionaryKey(Object)
+  nameWithType: SoMapper.GetDictionaryKey(Object)
+  fullName: SuperOffice.Util.SoMapper.GetDictionaryKey(System.Object)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: protected object GetDictionaryKey(object dictionaryEnumerationItem)
+    parameters:
+    - id: dictionaryEnumerationItem
+      type: System.Object
+    return:
+      type: System.Object
+    content.vb: Protected Function GetDictionaryKey(dictionaryEnumerationItem As Object) As Object
+  overload: SuperOffice.Util.SoMapper.GetDictionaryKey*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Util.SoMapper.GetDictionaryValue(System.Object)
+  commentId: M:SuperOffice.Util.SoMapper.GetDictionaryValue(System.Object)
+  id: GetDictionaryValue(System.Object)
+  parent: SuperOffice.Util.SoMapper
+  langs:
+  - csharp
+  - vb
+  name: GetDictionaryValue(Object)
+  nameWithType: SoMapper.GetDictionaryValue(Object)
+  fullName: SuperOffice.Util.SoMapper.GetDictionaryValue(System.Object)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: protected object GetDictionaryValue(object dictionaryEnumerationItem)
+    parameters:
+    - id: dictionaryEnumerationItem
+      type: System.Object
+    return:
+      type: System.Object
+    content.vb: Protected Function GetDictionaryValue(dictionaryEnumerationItem As Object) As Object
+  overload: SuperOffice.Util.SoMapper.GetDictionaryValue*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Util.SoMapper.MapValue(System.Type,System.Type,System.Object,System.Boolean)
+  commentId: M:SuperOffice.Util.SoMapper.MapValue(System.Type,System.Type,System.Object,System.Boolean)
+  id: MapValue(System.Type,System.Type,System.Object,System.Boolean)
+  parent: SuperOffice.Util.SoMapper
+  langs:
+  - csharp
+  - vb
+  name: MapValue(Type, Type, Object, Boolean)
+  nameWithType: SoMapper.MapValue(Type, Type, Object, Boolean)
+  fullName: SuperOffice.Util.SoMapper.MapValue(System.Type, System.Type, System.Object, System.Boolean)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public object MapValue(Type type1, Type type2, object sourceValue, bool throwOnMismatch = true)
+    parameters:
+    - id: type1
+      type: System.Type
+    - id: type2
+      type: System.Type
+    - id: sourceValue
+      type: System.Object
+    - id: throwOnMismatch
+      type: System.Boolean
+    return:
+      type: System.Object
+    content.vb: Public Function MapValue(type1 As Type, type2 As Type, sourceValue As Object, throwOnMismatch As Boolean = True) As Object
+  overload: SuperOffice.Util.SoMapper.MapValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.SoMapper.Instance
+  commentId: P:SuperOffice.Util.SoMapper.Instance
+  id: Instance
+  parent: SuperOffice.Util.SoMapper
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: SoMapper.Instance
+  fullName: SuperOffice.Util.SoMapper.Instance
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nThe default-instance of SoMapper for usage in cases where customization is not needed.\n"
+  syntax:
+    content: public static SoMapper Instance { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Util.SoMapper
+    content.vb: Public Shared ReadOnly Property Instance As SoMapper
+  overload: SuperOffice.Util.SoMapper.Instance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.SoMapper.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoMapper, To>()
+  nameWithType: EnumUtil.MapEnums<SoMapper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.SoMapper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoMapper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.SoMapper, To)()
+  name.vb: MapEnums(Of SoMapper, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoMapper, To>
+    nameWithType: EnumUtil.MapEnums<SoMapper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.SoMapper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoMapper, To)
+    nameWithType: EnumUtil.MapEnums(Of SoMapper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.SoMapper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.SoMapper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.SoMapper)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SoMapper>(SoMapper)
+  nameWithType: ObjectExtensions.AssignByReflection<SoMapper>(SoMapper)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.SoMapper>(SuperOffice.Util.SoMapper)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoMapper)(SoMapper)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.SoMapper)(SuperOffice.Util.SoMapper)
+  name.vb: AssignByReflection(Of SoMapper)(SoMapper)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SoMapper>
+    nameWithType: ObjectExtensions.AssignByReflection<SoMapper>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.SoMapper>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Util.SoMapper
+    name: SoMapper
+    nameWithType: SoMapper
+    fullName: SuperOffice.Util.SoMapper
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SoMapper)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SoMapper)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.SoMapper)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Util.SoMapper
+    name: SoMapper
+    nameWithType: SoMapper
+    fullName: SuperOffice.Util.SoMapper
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.SoMapper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SoMapper>()
+  nameWithType: ObjectExtensions.GraphCopy<SoMapper>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.SoMapper>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoMapper)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.SoMapper)()
+  name.vb: GraphCopy(Of SoMapper)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SoMapper>
+    nameWithType: ObjectExtensions.GraphCopy<SoMapper>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.SoMapper>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SoMapper)
+    nameWithType: ObjectExtensions.GraphCopy(Of SoMapper)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.SoMapper)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.SoMapper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoMapper, To>()
+  nameWithType: Converters.MapEnums<SoMapper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.SoMapper, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoMapper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.SoMapper, To)()
+  name.vb: MapEnums(Of SoMapper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoMapper, To>
+    nameWithType: Converters.MapEnums<SoMapper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.SoMapper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoMapper, To)
+    nameWithType: Converters.MapEnums(Of SoMapper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.SoMapper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Util.SoMapper.#ctor*
+  commentId: Overload:SuperOffice.Util.SoMapper.#ctor
+  isExternal: true
+  name: SoMapper
+  nameWithType: SoMapper.SoMapper
+  fullName: SuperOffice.Util.SoMapper.SoMapper
+- uid: SuperOffice.Util.SoMapper.Map*
+  commentId: Overload:SuperOffice.Util.SoMapper.Map
+  isExternal: true
+  name: Map
+  nameWithType: SoMapper.Map
+  fullName: SuperOffice.Util.SoMapper.Map
+- uid: '{TInput}'
+  commentId: '!:TInput'
+  definition: TInput
+  name: TInput
+  nameWithType: TInput
+  fullName: TInput
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: '{TResult}'
+  commentId: '!:TResult'
+  definition: TResult
+  name: TResult
+  nameWithType: TResult
+  fullName: TResult
+- uid: TInput
+  name: TInput
+  nameWithType: TInput
+  fullName: TInput
+- uid: TResult
+  name: TResult
+  nameWithType: TResult
+  fullName: TResult
+- uid: SuperOffice.Util.SoMapper.Clone*
+  commentId: Overload:SuperOffice.Util.SoMapper.Clone
+  isExternal: true
+  name: Clone
+  nameWithType: SoMapper.Clone
+  fullName: SuperOffice.Util.SoMapper.Clone
+- uid: SuperOffice.Util.SoMapper.CopyProperties*
+  commentId: Overload:SuperOffice.Util.SoMapper.CopyProperties
+  isExternal: true
+  name: CopyProperties
+  nameWithType: SoMapper.CopyProperties
+  fullName: SuperOffice.Util.SoMapper.CopyProperties
+- uid: '{TSource}'
+  commentId: '!:TSource'
+  definition: TSource
+  name: TSource
+  nameWithType: TSource
+  fullName: TSource
+- uid: '{TDestination}'
+  commentId: '!:TDestination'
+  definition: TDestination
+  name: TDestination
+  nameWithType: TDestination
+  fullName: TDestination
+- uid: TSource
+  commentId: '!:TSource'
+  name: TSource
+  nameWithType: TSource
+  fullName: TSource
+- uid: TDestination
+  commentId: '!:TDestination'
+  name: TDestination
+  nameWithType: TDestination
+  fullName: TDestination
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: SuperOffice.Util.SoMapper.GetDictionaryKey*
+  commentId: Overload:SuperOffice.Util.SoMapper.GetDictionaryKey
+  isExternal: true
+  name: GetDictionaryKey
+  nameWithType: SoMapper.GetDictionaryKey
+  fullName: SuperOffice.Util.SoMapper.GetDictionaryKey
+- uid: SuperOffice.Util.SoMapper.GetDictionaryValue*
+  commentId: Overload:SuperOffice.Util.SoMapper.GetDictionaryValue
+  isExternal: true
+  name: GetDictionaryValue
+  nameWithType: SoMapper.GetDictionaryValue
+  fullName: SuperOffice.Util.SoMapper.GetDictionaryValue
+- uid: SuperOffice.Util.SoMapper.MapValue*
+  commentId: Overload:SuperOffice.Util.SoMapper.MapValue
+  isExternal: true
+  name: MapValue
+  nameWithType: SoMapper.MapValue
+  fullName: SuperOffice.Util.SoMapper.MapValue
+- uid: SuperOffice.Util.SoMapper.Instance*
+  commentId: Overload:SuperOffice.Util.SoMapper.Instance
+  isExternal: true
+  name: Instance
+  nameWithType: SoMapper.Instance
+  fullName: SuperOffice.Util.SoMapper.Instance
+- uid: SuperOffice.Util.SoMapper
+  commentId: T:SuperOffice.Util.SoMapper
+  parent: SuperOffice.Util
+  isExternal: true
+  name: SoMapper
+  nameWithType: SoMapper
+  fullName: SuperOffice.Util.SoMapper

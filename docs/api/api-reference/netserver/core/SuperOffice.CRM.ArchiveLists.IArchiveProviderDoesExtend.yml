@@ -1,0 +1,477 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
+  id: IArchiveProviderDoesExtend
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ForceDisable
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryNeeded
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryRestriction
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.MainTableName
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ModifyQuery
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.PopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.SetParent(SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible)
+  langs:
+  - csharp
+  - vb
+  name: IArchiveProviderDoesExtend
+  nameWithType: IArchiveProviderDoesExtend
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
+  type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nThis interface defines the methods needed to extend an archive provider with additional columns. The\nstandard base class <see cref=\"!:ExtenderBase\"></see> implements this interface.\n"
+  syntax:
+    content: public interface IArchiveProviderDoesExtend
+    content.vb: Public Interface IArchiveProviderDoesExtend
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ModifyQuery
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ModifyQuery
+  id: ModifyQuery
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
+  langs:
+  - csharp
+  - vb
+  name: ModifyQuery()
+  nameWithType: IArchiveProviderDoesExtend.ModifyQuery()
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ModifyQuery()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nThis method is called before the execution of an archive provider. It should modify the parent&apos;s query as\nrequired by this extender, generally by adding a join and some return fields. If the recommended standard base class\n<see cref=\"!:ExtenderBase\"></see> is used, it implements this method and instead calls some inner, more specific methods.\n"
+  syntax:
+    content: void ModifyQuery()
+    content.vb: Sub ModifyQuery
+  overload: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ModifyQuery*
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.PopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.PopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  id: PopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
+  langs:
+  - csharp
+  - vb
+  name: PopulateRowFromReader(SoDataReader, ArchiveRow)
+  nameWithType: IArchiveProviderDoesExtend.PopulateRowFromReader(SoDataReader, ArchiveRow)
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.PopulateRowFromReader(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nUsing the provided data reader in its current state, extract the needed columns and populate the provided ArchiveRow\n"
+  syntax:
+    content: void PopulateRowFromReader(SoDataReader reader, ArchiveRow row)
+    parameters:
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+      description: The data reader containing raw data for the row
+    - id: row
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRow
+      description: The row to be populated/added to by the provider
+    content.vb: Sub PopulateRowFromReader(reader As SoDataReader, row As ArchiveRow)
+  overload: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.PopulateRowFromReader*
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.SetParent(SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible)
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.SetParent(SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible)
+  id: SetParent(SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible)
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
+  langs:
+  - csharp
+  - vb
+  name: SetParent(IArchiveProviderExtensible)
+  nameWithType: IArchiveProviderDoesExtend.SetParent(IArchiveProviderExtensible)
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.SetParent(SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nThis method is called during the addition of an extender to its parent, so that the extender may know who the parent is.\nThis information will generally be used by the ModifyQuery method so it can find the root query it is supposed to modify.\n"
+  syntax:
+    content: void SetParent(IArchiveProviderExtensible parent)
+    parameters:
+    - id: parent
+      type: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
+      description: Parent to extend
+    content.vb: Sub SetParent(parent As IArchiveProviderExtensible)
+  overload: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.SetParent*
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryNeeded
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryNeeded
+  id: IsQueryNeeded
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
+  langs:
+  - csharp
+  - vb
+  name: IsQueryNeeded()
+  nameWithType: IArchiveProviderDoesExtend.IsQueryNeeded()
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryNeeded()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nIs the query of this provider required to be part of the generated query? The answer is yes if any of\nthe columns provided by this provider or any of its extenders has been selected.\n"
+  syntax:
+    content: bool IsQueryNeeded()
+    return:
+      type: System.Boolean
+    content.vb: Function IsQueryNeeded As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryNeeded*
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryRestriction
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryRestriction
+  id: IsQueryRestriction
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
+  langs:
+  - csharp
+  - vb
+  name: IsQueryRestriction()
+  nameWithType: IArchiveProviderDoesExtend.IsQueryRestriction()
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryRestriction()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDoes the query of this provider add restrictions to the generated query? The answer is yes if any of\nthe restrictions match one handled by this extender, or any of its own extenders\n"
+  syntax:
+    content: bool IsQueryRestriction()
+    return:
+      type: System.Boolean
+    content.vb: Function IsQueryRestriction As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryRestriction*
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ForceDisable
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ForceDisable
+  id: ForceDisable
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
+  langs:
+  - csharp
+  - vb
+  name: ForceDisable()
+  nameWithType: IArchiveProviderDoesExtend.ForceDisable()
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ForceDisable()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nCalling this method will force the extender to disable itself and its own extenders. Disabling\nmeans that it will return &apos;false&apos; to the IsQueryNeeded and IsQueryRestriction, and will not expect\nto be called for ModifyQuery or PopulateRowFromReader.\n"
+  syntax:
+    content: void ForceDisable()
+    content.vb: Sub ForceDisable
+  overload: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ForceDisable*
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.MainTableName
+  commentId: P:SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.MainTableName
+  id: MainTableName
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
+  langs:
+  - csharp
+  - vb
+  name: MainTableName
+  nameWithType: IArchiveProviderDoesExtend.MainTableName
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.MainTableName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nThe name of the table that this node is the handler for\n"
+  syntax:
+    content: string MainTableName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property MainTableName As String
+  overload: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.MainTableName*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IArchiveProviderDoesExtend, To>()
+  nameWithType: EnumUtil.MapEnums<IArchiveProviderDoesExtend, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IArchiveProviderDoesExtend, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend, To)()
+  name.vb: MapEnums(Of IArchiveProviderDoesExtend, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IArchiveProviderDoesExtend, To>
+    nameWithType: EnumUtil.MapEnums<IArchiveProviderDoesExtend, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IArchiveProviderDoesExtend, To)
+    nameWithType: EnumUtil.MapEnums(Of IArchiveProviderDoesExtend, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IArchiveProviderDoesExtend, To>()
+  nameWithType: Converters.MapEnums<IArchiveProviderDoesExtend, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend, To>()
+  nameWithType.vb: Converters.MapEnums(Of IArchiveProviderDoesExtend, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend, To)()
+  name.vb: MapEnums(Of IArchiveProviderDoesExtend, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IArchiveProviderDoesExtend, To>
+    nameWithType: Converters.MapEnums<IArchiveProviderDoesExtend, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IArchiveProviderDoesExtend, To)
+    nameWithType: Converters.MapEnums(Of IArchiveProviderDoesExtend, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ModifyQuery*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ModifyQuery
+  isExternal: true
+  name: ModifyQuery
+  nameWithType: IArchiveProviderDoesExtend.ModifyQuery
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ModifyQuery
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.PopulateRowFromReader*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.PopulateRowFromReader
+  isExternal: true
+  name: PopulateRowFromReader
+  nameWithType: IArchiveProviderDoesExtend.PopulateRowFromReader
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.PopulateRowFromReader
+- uid: SuperOffice.Data.SoDataReader
+  commentId: T:SuperOffice.Data.SoDataReader
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoDataReader
+  nameWithType: SoDataReader
+  fullName: SuperOffice.Data.SoDataReader
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRow
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveRow
+  nameWithType: ArchiveRow
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.SetParent*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.SetParent
+  isExternal: true
+  name: SetParent
+  nameWithType: IArchiveProviderDoesExtend.SetParent
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.SetParent
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProviderExtensible
+  nameWithType: IArchiveProviderExtensible
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryNeeded*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryNeeded
+  isExternal: true
+  name: IsQueryNeeded
+  nameWithType: IArchiveProviderDoesExtend.IsQueryNeeded
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryNeeded
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryRestriction*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryRestriction
+  isExternal: true
+  name: IsQueryRestriction
+  nameWithType: IArchiveProviderDoesExtend.IsQueryRestriction
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryRestriction
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ForceDisable*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ForceDisable
+  isExternal: true
+  name: ForceDisable
+  nameWithType: IArchiveProviderDoesExtend.ForceDisable
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ForceDisable
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.MainTableName*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.MainTableName
+  isExternal: true
+  name: MainTableName
+  nameWithType: IArchiveProviderDoesExtend.MainTableName
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.MainTableName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

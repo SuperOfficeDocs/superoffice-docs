@@ -1,0 +1,4490 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.CollectionOps
+  commentId: T:SuperOffice.Util.CollectionOps
+  id: CollectionOps
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.CollectionOps.AddNamedValue(System.String,System.String)
+  - SuperOffice.Util.CollectionOps.AddNamedValue(System.String,System.String,System.String)
+  - SuperOffice.Util.CollectionOps.AddRange``2(System.Collections.Generic.Dictionary{``0,``1},System.Collections.Generic.Dictionary{``0,``1})
+  - SuperOffice.Util.CollectionOps.AddToArray``1(``0[],``0)
+  - SuperOffice.Util.CollectionOps.AddToArray``1(``0[],``0[])
+  - SuperOffice.Util.CollectionOps.AddToDictionary``2(System.Collections.Generic.Dictionary{``0,``1},``0,``1)
+  - SuperOffice.Util.CollectionOps.AddToDictionaryList``2(System.Collections.Generic.Dictionary{``0,System.Collections.Generic.List{``1}},``0,``1)
+  - SuperOffice.Util.CollectionOps.ArraysEquivalent``1(``0[],``0[])
+  - SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
+  - SuperOffice.Util.CollectionOps.CloneArray(System.String[])
+  - SuperOffice.Util.CollectionOps.CloneArray``1(``0[])
+  - SuperOffice.Util.CollectionOps.ConvertArray``2(``0[],SuperOffice.Util.CollectionOps.ConvertType{``0,``1})
+  - SuperOffice.Util.CollectionOps.ConvertArray``2(``0[],SuperOffice.Util.CollectionOps.ConvertType{``0,``1},System.Predicate{``0})
+  - SuperOffice.Util.CollectionOps.ConvertArray``2(System.Collections.Generic.ICollection{``0},SuperOffice.Util.CollectionOps.ConvertType{``0,``1},System.Predicate{``0})
+  - SuperOffice.Util.CollectionOps.ConvertToArray``2(System.Collections.Generic.ICollection{``0},SuperOffice.Util.CollectionOps.ConvertType{``0,``1})
+  - SuperOffice.Util.CollectionOps.ConvertToStringArray``1(``0[])
+  - SuperOffice.Util.CollectionOps.ConvertToStringArray``1(System.Collections.Generic.ICollection{``0})
+  - SuperOffice.Util.CollectionOps.CreateDictionaryFromArray``2(``1[],SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1})
+  - SuperOffice.Util.CollectionOps.CreateDictionaryFromArray``2(``1[],SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Collections.Generic.IEqualityComparer{``0})
+  - SuperOffice.Util.CollectionOps.CreateDictionaryFromArray``2(``1[],SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Collections.Generic.IEqualityComparer{``0},System.Predicate{``1})
+  - SuperOffice.Util.CollectionOps.CreateDictionaryFromArray``2(``1[],SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Predicate{``1})
+  - SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection``2(System.Collections.Generic.ICollection{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1})
+  - SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection``2(System.Collections.Generic.ICollection{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Collections.Generic.IEqualityComparer{``0})
+  - SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection``2(System.Collections.Generic.ICollection{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Collections.Generic.IEqualityComparer{``0},System.Predicate{``1})
+  - SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection``2(System.Collections.Generic.ICollection{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Predicate{``1})
+  - SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable``2(System.Collections.Generic.IEnumerable{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1})
+  - SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable``2(System.Collections.Generic.IEnumerable{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Collections.Generic.IEqualityComparer{``0})
+  - SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable``2(System.Collections.Generic.IEnumerable{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Collections.Generic.IEqualityComparer{``0},System.Predicate{``1})
+  - SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable``2(System.Collections.Generic.IEnumerable{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Predicate{``1})
+  - SuperOffice.Util.CollectionOps.DeepCloneArray``1(``0[])
+  - SuperOffice.Util.CollectionOps.DictionaryKeysToArray``2(System.Collections.Generic.Dictionary{``0,``1})
+  - SuperOffice.Util.CollectionOps.DictionaryValuesToArray``2(System.Collections.Generic.Dictionary{``0,``1})
+  - SuperOffice.Util.CollectionOps.GetFirstElement``2(System.Collections.Generic.Dictionary{``0,``1})
+  - SuperOffice.Util.CollectionOps.GetNamedBoolValue(System.String,System.String)
+  - SuperOffice.Util.CollectionOps.GetNamedDateTimeValue(System.String,System.String)
+  - SuperOffice.Util.CollectionOps.GetNamedDoubleValue(System.String,System.String)
+  - SuperOffice.Util.CollectionOps.GetNamedIntValue(System.String,System.String)
+  - SuperOffice.Util.CollectionOps.GetNamedValue(System.String,System.String)
+  - SuperOffice.Util.CollectionOps.GetPairs(System.String)
+  - SuperOffice.Util.CollectionOps.HasName(System.String,System.String)
+  - SuperOffice.Util.CollectionOps.IsNullOrEmpty``1(``0[])
+  - SuperOffice.Util.CollectionOps.IsNullOrEmpty``1(System.Collections.Generic.ICollection{``0})
+  - SuperOffice.Util.CollectionOps.NullToEmpty(System.String)
+  - SuperOffice.Util.CollectionOps.NullToEmpty``1(``0[])
+  - SuperOffice.Util.CollectionOps.ParseDelimitedStringToIntArray(System.String)
+  - SuperOffice.Util.CollectionOps.ParseDelimitedStringToIntArray(System.String,System.Char[])
+  - SuperOffice.Util.CollectionOps.RemoveNamedValue(System.String,System.String)
+  - SuperOffice.Util.CollectionOps.ReplaceNamedValue(System.String,System.String,System.String)
+  - SuperOffice.Util.CollectionOps.SortNamedValuesByNames(System.String)
+  - SuperOffice.Util.CollectionOps.StringArrayToStringDictionary(System.String[])
+  - SuperOffice.Util.CollectionOps.StringDictionaryToStringArray(System.Collections.Generic.Dictionary{System.String,System.String})
+  langs:
+  - csharp
+  - vb
+  name: CollectionOps
+  nameWithType: CollectionOps
+  fullName: SuperOffice.Util.CollectionOps
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nUtility class for operations on collections of various kinds. You will find operations for\nconverting between various kinds of collections, converting the data inside collections,\ncomparisons and more\n"
+  syntax:
+    content: public static class CollectionOps
+    content.vb: Public Module CollectionOps
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Util.CollectionOps.DeepCloneArray``1(``0[])
+  commentId: M:SuperOffice.Util.CollectionOps.DeepCloneArray``1(``0[])
+  id: DeepCloneArray``1(``0[])
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: DeepCloneArray<T>(T[])
+  nameWithType: CollectionOps.DeepCloneArray<T>(T[])
+  fullName: SuperOffice.Util.CollectionOps.DeepCloneArray<T>(T[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nClone an array, by cloning each element of it\n"
+  syntax:
+    content: >-
+      public static T[] DeepCloneArray<T>(T[] input)
+          where T : ICloneable
+    parameters:
+    - id: input
+      type: '{T}[]'
+      description: Array to be cloned, null and empty are ok
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}[]'
+      description: Deep clone; empty array if input is null or empty
+    content.vb: Public Shared Function DeepCloneArray(Of T As ICloneable)(input As T()) As T()
+  overload: SuperOffice.Util.CollectionOps.DeepCloneArray*
+  nameWithType.vb: CollectionOps.DeepCloneArray(Of T)(T())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.DeepCloneArray(Of T)(T())
+  name.vb: DeepCloneArray(Of T)(T())
+- uid: SuperOffice.Util.CollectionOps.CloneArray``1(``0[])
+  commentId: M:SuperOffice.Util.CollectionOps.CloneArray``1(``0[])
+  id: CloneArray``1(``0[])
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: CloneArray<MemberType>(MemberType[])
+  nameWithType: CollectionOps.CloneArray<MemberType>(MemberType[])
+  fullName: SuperOffice.Util.CollectionOps.CloneArray<MemberType>(MemberType[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nClone (deep copy) an array of elements, by creating a new array and cloning each element\n"
+  syntax:
+    content: >-
+      public static MemberType[] CloneArray<MemberType>(MemberType[] originalArray)
+          where MemberType : ICloneable
+    parameters:
+    - id: originalArray
+      type: '{MemberType}[]'
+      description: Original array to be cloned. Can be null, in which case null is also returned
+    typeParameters:
+    - id: MemberType
+      description: Type of array member, must be ICloneable
+    return:
+      type: '{MemberType}[]'
+      description: Cloned array
+    content.vb: Public Shared Function CloneArray(Of MemberType As ICloneable)(originalArray As MemberType()) As MemberType()
+  overload: SuperOffice.Util.CollectionOps.CloneArray*
+  nameWithType.vb: CollectionOps.CloneArray(Of MemberType)(MemberType())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.CloneArray(Of MemberType)(MemberType())
+  name.vb: CloneArray(Of MemberType)(MemberType())
+- uid: SuperOffice.Util.CollectionOps.ArraysEquivalent``1(``0[],``0[])
+  commentId: M:SuperOffice.Util.CollectionOps.ArraysEquivalent``1(``0[],``0[])
+  id: ArraysEquivalent``1(``0[],``0[])
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: ArraysEquivalent<T>(T[], T[])
+  nameWithType: CollectionOps.ArraysEquivalent<T>(T[], T[])
+  fullName: SuperOffice.Util.CollectionOps.ArraysEquivalent<T>(T[], T[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nCheck if two arrays have the same contents. The arrays must be of the same type, and the \nbase type must be comparable so that it can be sorted. The algorithm is O(log n) if the arrays\nhave the same size, otherwise it is very fast.\n"
+  remarks: "\nType inference means that you do not have to explicitly specify the actual type, simply\npass in two arrays.\n<example>\nThis example shows how:\n<pre><code>int[] allAssocs = AssociateCache.GetCurrent().GetAssociateIds();\nint[] myAssocs = { 1, 2, 3 };\nbool areMyAllThereAre = SuperOffice.Util.ArraysEquivalent( allAssocs, myAssocs );</code></pre>\n</example>\n"
+  syntax:
+    content: public static bool ArraysEquivalent<T>(T[] left, T[] right)
+    parameters:
+    - id: left
+      type: '{T}[]'
+      description: Left side of comparison; if null, a false result will always be returned
+    - id: right
+      type: '{T}[]'
+      description: Right side of comparison; if null, a false result will always be returned
+    typeParameters:
+    - id: T
+      description: Base type of arrays
+    return:
+      type: System.Boolean
+      description: True if the arrays have the same length and same elements, regardless of element order
+    content.vb: Public Shared Function ArraysEquivalent(Of T)(left As T(), right As T()) As Boolean
+  overload: SuperOffice.Util.CollectionOps.ArraysEquivalent*
+  nameWithType.vb: CollectionOps.ArraysEquivalent(Of T)(T(), T())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.ArraysEquivalent(Of T)(T(), T())
+  name.vb: ArraysEquivalent(Of T)(T(), T())
+- uid: SuperOffice.Util.CollectionOps.ConvertArray``2(``0[],SuperOffice.Util.CollectionOps.ConvertType{``0,``1})
+  commentId: M:SuperOffice.Util.CollectionOps.ConvertArray``2(``0[],SuperOffice.Util.CollectionOps.ConvertType{``0,``1})
+  id: ConvertArray``2(``0[],SuperOffice.Util.CollectionOps.ConvertType{``0,``1})
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: ConvertArray<SourceType, ReturnType>(SourceType[], CollectionOps.ConvertType<SourceType, ReturnType>)
+  nameWithType: CollectionOps.ConvertArray<SourceType, ReturnType>(SourceType[], CollectionOps.ConvertType<SourceType, ReturnType>)
+  fullName: SuperOffice.Util.CollectionOps.ConvertArray<SourceType, ReturnType>(SourceType[], SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConvert an array of some type to an equal-length array of another type, using a converter\n"
+  syntax:
+    content: public static ReturnType[] ConvertArray<SourceType, ReturnType>(SourceType[] source, CollectionOps.ConvertType<SourceType, ReturnType> converter)
+    parameters:
+    - id: source
+      type: '{SourceType}[]'
+      description: Source array
+    - id: converter
+      type: SuperOffice.Util.CollectionOps.ConvertType{{SourceType},{ReturnType}}
+      description: Converter, called for each element
+    typeParameters:
+    - id: SourceType
+      description: Source element type
+    - id: ReturnType
+      description: Return (target) element type
+    return:
+      type: '{ReturnType}[]'
+      description: Array of target type
+    content.vb: Public Shared Function ConvertArray(Of SourceType, ReturnType)(source As SourceType(), converter As CollectionOps.ConvertType(Of SourceType, ReturnType)) As ReturnType()
+  overload: SuperOffice.Util.CollectionOps.ConvertArray*
+  nameWithType.vb: CollectionOps.ConvertArray(Of SourceType, ReturnType)(SourceType(), CollectionOps.ConvertType(Of SourceType, ReturnType))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.ConvertArray(Of SourceType, ReturnType)(SourceType(), SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType))
+  name.vb: ConvertArray(Of SourceType, ReturnType)(SourceType(), CollectionOps.ConvertType(Of SourceType, ReturnType))
+- uid: SuperOffice.Util.CollectionOps.ConvertArray``2(``0[],SuperOffice.Util.CollectionOps.ConvertType{``0,``1},System.Predicate{``0})
+  commentId: M:SuperOffice.Util.CollectionOps.ConvertArray``2(``0[],SuperOffice.Util.CollectionOps.ConvertType{``0,``1},System.Predicate{``0})
+  id: ConvertArray``2(``0[],SuperOffice.Util.CollectionOps.ConvertType{``0,``1},System.Predicate{``0})
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: ConvertArray<SourceType, ReturnType>(SourceType[], CollectionOps.ConvertType<SourceType, ReturnType>, Predicate<SourceType>)
+  nameWithType: CollectionOps.ConvertArray<SourceType, ReturnType>(SourceType[], CollectionOps.ConvertType<SourceType, ReturnType>, Predicate<SourceType>)
+  fullName: SuperOffice.Util.CollectionOps.ConvertArray<SourceType, ReturnType>(SourceType[], SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>, System.Predicate<SourceType>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConditionally Convert an array of some type to an equal-length array of another type, using a converter and a predicate on the source type\n"
+  syntax:
+    content: public static ReturnType[] ConvertArray<SourceType, ReturnType>(SourceType[] source, CollectionOps.ConvertType<SourceType, ReturnType> converter, Predicate<SourceType> condition)
+    parameters:
+    - id: source
+      type: '{SourceType}[]'
+      description: Source array
+    - id: converter
+      type: SuperOffice.Util.CollectionOps.ConvertType{{SourceType},{ReturnType}}
+      description: Converter, called for each element
+    - id: condition
+      type: System.Predicate{{SourceType}}
+    typeParameters:
+    - id: SourceType
+      description: Source element type
+    - id: ReturnType
+      description: Return (target) element type
+    return:
+      type: '{ReturnType}[]'
+      description: Array of target type
+    content.vb: Public Shared Function ConvertArray(Of SourceType, ReturnType)(source As SourceType(), converter As CollectionOps.ConvertType(Of SourceType, ReturnType), condition As Predicate(Of SourceType)) As ReturnType()
+  overload: SuperOffice.Util.CollectionOps.ConvertArray*
+  nameWithType.vb: CollectionOps.ConvertArray(Of SourceType, ReturnType)(SourceType(), CollectionOps.ConvertType(Of SourceType, ReturnType), Predicate(Of SourceType))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.ConvertArray(Of SourceType, ReturnType)(SourceType(), SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType), System.Predicate(Of SourceType))
+  name.vb: ConvertArray(Of SourceType, ReturnType)(SourceType(), CollectionOps.ConvertType(Of SourceType, ReturnType), Predicate(Of SourceType))
+- uid: SuperOffice.Util.CollectionOps.ConvertToArray``2(System.Collections.Generic.ICollection{``0},SuperOffice.Util.CollectionOps.ConvertType{``0,``1})
+  commentId: M:SuperOffice.Util.CollectionOps.ConvertToArray``2(System.Collections.Generic.ICollection{``0},SuperOffice.Util.CollectionOps.ConvertType{``0,``1})
+  id: ConvertToArray``2(System.Collections.Generic.ICollection{``0},SuperOffice.Util.CollectionOps.ConvertType{``0,``1})
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: ConvertToArray<SourceType, ReturnType>(ICollection<SourceType>, CollectionOps.ConvertType<SourceType, ReturnType>)
+  nameWithType: CollectionOps.ConvertToArray<SourceType, ReturnType>(ICollection<SourceType>, CollectionOps.ConvertType<SourceType, ReturnType>)
+  fullName: SuperOffice.Util.CollectionOps.ConvertToArray<SourceType, ReturnType>(System.Collections.Generic.ICollection<SourceType>, SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConvert an array of some type to an equal-length array of another type, using a converter\n"
+  syntax:
+    content: public static ReturnType[] ConvertToArray<SourceType, ReturnType>(ICollection<SourceType> source, CollectionOps.ConvertType<SourceType, ReturnType> converter)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.ICollection{{SourceType}}
+      description: Source array
+    - id: converter
+      type: SuperOffice.Util.CollectionOps.ConvertType{{SourceType},{ReturnType}}
+      description: Converter, called for each element
+    typeParameters:
+    - id: SourceType
+      description: Source element type
+    - id: ReturnType
+      description: Return (target) element type
+    return:
+      type: '{ReturnType}[]'
+      description: Array of target type
+    content.vb: Public Shared Function ConvertToArray(Of SourceType, ReturnType)(source As ICollection(Of SourceType), converter As CollectionOps.ConvertType(Of SourceType, ReturnType)) As ReturnType()
+  overload: SuperOffice.Util.CollectionOps.ConvertToArray*
+  nameWithType.vb: CollectionOps.ConvertToArray(Of SourceType, ReturnType)(ICollection(Of SourceType), CollectionOps.ConvertType(Of SourceType, ReturnType))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.ConvertToArray(Of SourceType, ReturnType)(System.Collections.Generic.ICollection(Of SourceType), SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType))
+  name.vb: ConvertToArray(Of SourceType, ReturnType)(ICollection(Of SourceType), CollectionOps.ConvertType(Of SourceType, ReturnType))
+- uid: SuperOffice.Util.CollectionOps.ConvertArray``2(System.Collections.Generic.ICollection{``0},SuperOffice.Util.CollectionOps.ConvertType{``0,``1},System.Predicate{``0})
+  commentId: M:SuperOffice.Util.CollectionOps.ConvertArray``2(System.Collections.Generic.ICollection{``0},SuperOffice.Util.CollectionOps.ConvertType{``0,``1},System.Predicate{``0})
+  id: ConvertArray``2(System.Collections.Generic.ICollection{``0},SuperOffice.Util.CollectionOps.ConvertType{``0,``1},System.Predicate{``0})
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: ConvertArray<SourceType, ReturnType>(ICollection<SourceType>, CollectionOps.ConvertType<SourceType, ReturnType>, Predicate<SourceType>)
+  nameWithType: CollectionOps.ConvertArray<SourceType, ReturnType>(ICollection<SourceType>, CollectionOps.ConvertType<SourceType, ReturnType>, Predicate<SourceType>)
+  fullName: SuperOffice.Util.CollectionOps.ConvertArray<SourceType, ReturnType>(System.Collections.Generic.ICollection<SourceType>, SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>, System.Predicate<SourceType>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConditionally Convert an array of some type to an equal-length array of another type, using a converter and a predicate on the source type\n"
+  syntax:
+    content: public static ReturnType[] ConvertArray<SourceType, ReturnType>(ICollection<SourceType> source, CollectionOps.ConvertType<SourceType, ReturnType> converter, Predicate<SourceType> condition)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.ICollection{{SourceType}}
+      description: Source array
+    - id: converter
+      type: SuperOffice.Util.CollectionOps.ConvertType{{SourceType},{ReturnType}}
+      description: Converter, called for each element
+    - id: condition
+      type: System.Predicate{{SourceType}}
+    typeParameters:
+    - id: SourceType
+      description: Source element type
+    - id: ReturnType
+      description: Return (target) element type
+    return:
+      type: '{ReturnType}[]'
+      description: Array of target type
+    content.vb: Public Shared Function ConvertArray(Of SourceType, ReturnType)(source As ICollection(Of SourceType), converter As CollectionOps.ConvertType(Of SourceType, ReturnType), condition As Predicate(Of SourceType)) As ReturnType()
+  overload: SuperOffice.Util.CollectionOps.ConvertArray*
+  nameWithType.vb: CollectionOps.ConvertArray(Of SourceType, ReturnType)(ICollection(Of SourceType), CollectionOps.ConvertType(Of SourceType, ReturnType), Predicate(Of SourceType))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.ConvertArray(Of SourceType, ReturnType)(System.Collections.Generic.ICollection(Of SourceType), SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType), System.Predicate(Of SourceType))
+  name.vb: ConvertArray(Of SourceType, ReturnType)(ICollection(Of SourceType), CollectionOps.ConvertType(Of SourceType, ReturnType), Predicate(Of SourceType))
+- uid: SuperOffice.Util.CollectionOps.ConvertToStringArray``1(System.Collections.Generic.ICollection{``0})
+  commentId: M:SuperOffice.Util.CollectionOps.ConvertToStringArray``1(System.Collections.Generic.ICollection{``0})
+  id: ConvertToStringArray``1(System.Collections.Generic.ICollection{``0})
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: ConvertToStringArray<SourceType>(ICollection<SourceType>)
+  nameWithType: CollectionOps.ConvertToStringArray<SourceType>(ICollection<SourceType>)
+  fullName: SuperOffice.Util.CollectionOps.ConvertToStringArray<SourceType>(System.Collections.Generic.ICollection<SourceType>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConvert a collection of source elements into an array of string, using each element&apos;s ToString() method.\nA null input will result in a null output. An empty input will give an empty output (not null).\n"
+  syntax:
+    content: public static string[] ConvertToStringArray<SourceType>(ICollection<SourceType> sourceCollection)
+    parameters:
+    - id: sourceCollection
+      type: System.Collections.Generic.ICollection{{SourceType}}
+      description: Collection to be converted, can be null or empty
+    typeParameters:
+    - id: SourceType
+      description: Type of source element, deduced
+    return:
+      type: System.String[]
+      description: Array with same number of elements as input collection; or null if input was null
+    content.vb: Public Shared Function ConvertToStringArray(Of SourceType)(sourceCollection As ICollection(Of SourceType)) As String()
+  overload: SuperOffice.Util.CollectionOps.ConvertToStringArray*
+  nameWithType.vb: CollectionOps.ConvertToStringArray(Of SourceType)(ICollection(Of SourceType))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.ConvertToStringArray(Of SourceType)(System.Collections.Generic.ICollection(Of SourceType))
+  name.vb: ConvertToStringArray(Of SourceType)(ICollection(Of SourceType))
+- uid: SuperOffice.Util.CollectionOps.ConvertToStringArray``1(``0[])
+  commentId: M:SuperOffice.Util.CollectionOps.ConvertToStringArray``1(``0[])
+  id: ConvertToStringArray``1(``0[])
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: ConvertToStringArray<SourceType>(SourceType[])
+  nameWithType: CollectionOps.ConvertToStringArray<SourceType>(SourceType[])
+  fullName: SuperOffice.Util.CollectionOps.ConvertToStringArray<SourceType>(SourceType[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConvert an array of source elements into an array of string, using each element&apos;s ToString() method.\nA null input will result in a null output. An empty input will give an empty output (not null).\n"
+  syntax:
+    content: public static string[] ConvertToStringArray<SourceType>(SourceType[] sourceArray)
+    parameters:
+    - id: sourceArray
+      type: '{SourceType}[]'
+      description: Array to be converted, can be null or empty
+    typeParameters:
+    - id: SourceType
+      description: Type of source element, deduced
+    return:
+      type: System.String[]
+      description: Array with same number of elements as input collection; or null if input was null
+    content.vb: Public Shared Function ConvertToStringArray(Of SourceType)(sourceArray As SourceType()) As String()
+  overload: SuperOffice.Util.CollectionOps.ConvertToStringArray*
+  nameWithType.vb: CollectionOps.ConvertToStringArray(Of SourceType)(SourceType())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.ConvertToStringArray(Of SourceType)(SourceType())
+  name.vb: ConvertToStringArray(Of SourceType)(SourceType())
+- uid: SuperOffice.Util.CollectionOps.NullToEmpty``1(``0[])
+  commentId: M:SuperOffice.Util.CollectionOps.NullToEmpty``1(``0[])
+  id: NullToEmpty``1(``0[])
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: NullToEmpty<T>(T[])
+  nameWithType: CollectionOps.NullToEmpty<T>(T[])
+  fullName: SuperOffice.Util.CollectionOps.NullToEmpty<T>(T[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConvert a null pointer into an empty array \n"
+  syntax:
+    content: public static T[] NullToEmpty<T>(T[] array)
+    parameters:
+    - id: array
+      type: '{T}[]'
+      description: Actual array, which might be null
+    typeParameters:
+    - id: T
+      description: Type we have an array of
+    return:
+      type: '{T}[]'
+      description: Either the original non-emtpy array, or an empty array
+    content.vb: Public Shared Function NullToEmpty(Of T)(array As T()) As T()
+  overload: SuperOffice.Util.CollectionOps.NullToEmpty*
+  nameWithType.vb: CollectionOps.NullToEmpty(Of T)(T())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.NullToEmpty(Of T)(T())
+  name.vb: NullToEmpty(Of T)(T())
+- uid: SuperOffice.Util.CollectionOps.NullToEmpty(System.String)
+  commentId: M:SuperOffice.Util.CollectionOps.NullToEmpty(System.String)
+  id: NullToEmpty(System.String)
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: NullToEmpty(String)
+  nameWithType: CollectionOps.NullToEmpty(String)
+  fullName: SuperOffice.Util.CollectionOps.NullToEmpty(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConvert a null string into an empty string\n"
+  syntax:
+    content: public static string NullToEmpty(string input)
+    parameters:
+    - id: input
+      type: System.String
+      description: Input string, which might be null
+    return:
+      type: System.String
+      description: Original non-null string, or the empty string
+    content.vb: Public Shared Function NullToEmpty(input As String) As String
+  overload: SuperOffice.Util.CollectionOps.NullToEmpty*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.CollectionOps.DictionaryKeysToArray``2(System.Collections.Generic.Dictionary{``0,``1})
+  commentId: M:SuperOffice.Util.CollectionOps.DictionaryKeysToArray``2(System.Collections.Generic.Dictionary{``0,``1})
+  id: DictionaryKeysToArray``2(System.Collections.Generic.Dictionary{``0,``1})
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: DictionaryKeysToArray<KeyType, ValueType>(Dictionary<KeyType, ValueType>)
+  nameWithType: CollectionOps.DictionaryKeysToArray<KeyType, ValueType>(Dictionary<KeyType, ValueType>)
+  fullName: SuperOffice.Util.CollectionOps.DictionaryKeysToArray<KeyType, ValueType>(System.Collections.Generic.Dictionary<KeyType, ValueType>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nExtract the key collection from a dictionary, and return it as an array of the dictionary key type\n"
+  remarks: "\nType inference means that you do not have to explicitly specify the types involved,\nsimply pass in a dictionary and the generic code will adapt.\n<example>\nThis is how it works:\n<pre><code>Dictionary&lt;string, MyType> dictionary = new Dictionary&lt;string, MyType>();\n// add some members somehow\nstring[] myKeys = SuperOffice.Util.DictionaryKeysToArray( dictionary );</code></pre>\n</example>\n"
+  syntax:
+    content: public static KeyType[] DictionaryKeysToArray<KeyType, ValueType>(Dictionary<KeyType, ValueType> dictionary)
+    parameters:
+    - id: dictionary
+      type: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
+      description: Dictionary to extract keys from; if null, an empty array will be returned
+    typeParameters:
+    - id: KeyType
+      description: Dictionary key type
+    - id: ValueType
+      description: Dictionary value type
+    return:
+      type: '{KeyType}[]'
+      description: Dictionary keys as an array
+    content.vb: Public Shared Function DictionaryKeysToArray(Of KeyType, ValueType)(dictionary As Dictionary(Of KeyType, ValueType)) As KeyType()
+  overload: SuperOffice.Util.CollectionOps.DictionaryKeysToArray*
+  nameWithType.vb: CollectionOps.DictionaryKeysToArray(Of KeyType, ValueType)(Dictionary(Of KeyType, ValueType))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.DictionaryKeysToArray(Of KeyType, ValueType)(System.Collections.Generic.Dictionary(Of KeyType, ValueType))
+  name.vb: DictionaryKeysToArray(Of KeyType, ValueType)(Dictionary(Of KeyType, ValueType))
+- uid: SuperOffice.Util.CollectionOps.DictionaryValuesToArray``2(System.Collections.Generic.Dictionary{``0,``1})
+  commentId: M:SuperOffice.Util.CollectionOps.DictionaryValuesToArray``2(System.Collections.Generic.Dictionary{``0,``1})
+  id: DictionaryValuesToArray``2(System.Collections.Generic.Dictionary{``0,``1})
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: DictionaryValuesToArray<KeyType, ValueType>(Dictionary<KeyType, ValueType>)
+  nameWithType: CollectionOps.DictionaryValuesToArray<KeyType, ValueType>(Dictionary<KeyType, ValueType>)
+  fullName: SuperOffice.Util.CollectionOps.DictionaryValuesToArray<KeyType, ValueType>(System.Collections.Generic.Dictionary<KeyType, ValueType>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nExtract the value collection from a dictionary, and return it as an array of the dictionary value type\n"
+  remarks: "\nType inference means that you do not have to explicitly specify the types involved,\nsimply pass in a dictionary and the generic code will adapt.\n<example>\nThis is how it works:\n<pre><code>Dictionary&lt;string, MyType> dictionary = new Dictionary&lt;string, MyType>();\n// add some members somehow\nMyType[] myValues = SuperOffice.Util.DictionaryValuesToArray( dictionary );</code></pre>\n</example>\n"
+  syntax:
+    content: public static ValueType[] DictionaryValuesToArray<KeyType, ValueType>(Dictionary<KeyType, ValueType> dictionary)
+    parameters:
+    - id: dictionary
+      type: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
+      description: Dictionary to extract values from; if null, an empty array will be returned
+    typeParameters:
+    - id: KeyType
+      description: Dictionary key type
+    - id: ValueType
+      description: Dictionary value type
+    return:
+      type: '{ValueType}[]'
+      description: Dictionary values as an array
+    content.vb: Public Shared Function DictionaryValuesToArray(Of KeyType, ValueType)(dictionary As Dictionary(Of KeyType, ValueType)) As ValueType()
+  overload: SuperOffice.Util.CollectionOps.DictionaryValuesToArray*
+  nameWithType.vb: CollectionOps.DictionaryValuesToArray(Of KeyType, ValueType)(Dictionary(Of KeyType, ValueType))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.DictionaryValuesToArray(Of KeyType, ValueType)(System.Collections.Generic.Dictionary(Of KeyType, ValueType))
+  name.vb: DictionaryValuesToArray(Of KeyType, ValueType)(Dictionary(Of KeyType, ValueType))
+- uid: SuperOffice.Util.CollectionOps.GetFirstElement``2(System.Collections.Generic.Dictionary{``0,``1})
+  commentId: M:SuperOffice.Util.CollectionOps.GetFirstElement``2(System.Collections.Generic.Dictionary{``0,``1})
+  id: GetFirstElement``2(System.Collections.Generic.Dictionary{``0,``1})
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: GetFirstElement<K, V>(Dictionary<K, V>)
+  nameWithType: CollectionOps.GetFirstElement<K, V>(Dictionary<K, V>)
+  fullName: SuperOffice.Util.CollectionOps.GetFirstElement<K, V>(System.Collections.Generic.Dictionary<K, V>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nReturn the first element in a dictionary\n"
+  syntax:
+    content: public static KeyValuePair<K, V> GetFirstElement<K, V>(Dictionary<K, V> source)
+    parameters:
+    - id: source
+      type: System.Collections.Generic.Dictionary{{K},{V}}
+      description: Dictionary to get the first element from
+    typeParameters:
+    - id: K
+      description: Dictionary key type
+    - id: V
+      description: Dictionary value type
+    return:
+      type: System.Collections.Generic.KeyValuePair{{K},{V}}
+      description: First element
+    content.vb: Public Shared Function GetFirstElement(Of K, V)(source As Dictionary(Of K, V)) As KeyValuePair(Of K, V)
+  overload: SuperOffice.Util.CollectionOps.GetFirstElement*
+  nameWithType.vb: CollectionOps.GetFirstElement(Of K, V)(Dictionary(Of K, V))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.GetFirstElement(Of K, V)(System.Collections.Generic.Dictionary(Of K, V))
+  name.vb: GetFirstElement(Of K, V)(Dictionary(Of K, V))
+- uid: SuperOffice.Util.CollectionOps.AddToArray``1(``0[],``0)
+  commentId: M:SuperOffice.Util.CollectionOps.AddToArray``1(``0[],``0)
+  id: AddToArray``1(``0[],``0)
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: AddToArray<T>(T[], T)
+  nameWithType: CollectionOps.AddToArray<T>(T[], T)
+  fullName: SuperOffice.Util.CollectionOps.AddToArray<T>(T[], T)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nLogically add an element to an array by creating a new array with one more slot, copying all the\nexisting elements (by reference) and adding the new element at the end. This is an O(n) operation\nwhere n is the number of elements in the array\n"
+  syntax:
+    content: public static T[] AddToArray<T>(T[] currentArray, T newElement)
+    parameters:
+    - id: currentArray
+      type: '{T}[]'
+      description: Current array, can be null
+    - id: newElement
+      type: '{T}'
+      description: >-
+        New element, can be null, in which case the base array will be returned. If
+
+        currentArray is also null, an array of length 0 will be returned.
+    typeParameters:
+    - id: T
+      description: Base type for array
+    return:
+      type: '{T}[]'
+    content.vb: Public Shared Function AddToArray(Of T)(currentArray As T(), newElement As T) As T()
+  overload: SuperOffice.Util.CollectionOps.AddToArray*
+  nameWithType.vb: CollectionOps.AddToArray(Of T)(T(), T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.AddToArray(Of T)(T(), T)
+  name.vb: AddToArray(Of T)(T(), T)
+- uid: SuperOffice.Util.CollectionOps.AddToArray``1(``0[],``0[])
+  commentId: M:SuperOffice.Util.CollectionOps.AddToArray``1(``0[],``0[])
+  id: AddToArray``1(``0[],``0[])
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: AddToArray<T>(T[], T[])
+  nameWithType: CollectionOps.AddToArray<T>(T[], T[])
+  fullName: SuperOffice.Util.CollectionOps.AddToArray<T>(T[], T[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nLogically add an array of elements to an array by creating a new array with one more slot, copying all the\nexisting elements (by reference) and adding the new element at the end. This is an O(n) operation\nwhere n is the number of elements in the array\n"
+  syntax:
+    content: public static T[] AddToArray<T>(T[] currentArray, T[] newElements)
+    parameters:
+    - id: currentArray
+      type: '{T}[]'
+      description: Current array, can be null
+    - id: newElements
+      type: '{T}[]'
+      description: >-
+        New elements, can be null, in which case the base array will be returned.
+
+        If currentArray is also null, an array of length 0 will be returned
+    typeParameters:
+    - id: T
+      description: Base type for array
+    return:
+      type: '{T}[]'
+    content.vb: Public Shared Function AddToArray(Of T)(currentArray As T(), newElements As T()) As T()
+  overload: SuperOffice.Util.CollectionOps.AddToArray*
+  nameWithType.vb: CollectionOps.AddToArray(Of T)(T(), T())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.AddToArray(Of T)(T(), T())
+  name.vb: AddToArray(Of T)(T(), T())
+- uid: SuperOffice.Util.CollectionOps.AddToDictionary``2(System.Collections.Generic.Dictionary{``0,``1},``0,``1)
+  commentId: M:SuperOffice.Util.CollectionOps.AddToDictionary``2(System.Collections.Generic.Dictionary{``0,``1},``0,``1)
+  id: AddToDictionary``2(System.Collections.Generic.Dictionary{``0,``1},``0,``1)
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: AddToDictionary<Key, Value>(Dictionary<Key, Value>, Key, Value)
+  nameWithType: CollectionOps.AddToDictionary<Key, Value>(Dictionary<Key, Value>, Key, Value)
+  fullName: SuperOffice.Util.CollectionOps.AddToDictionary<Key, Value>(System.Collections.Generic.Dictionary<Key, Value>, Key, Value)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nAdd an element to a dictionary, overwriting it is it already exists\n"
+  syntax:
+    content: public static void AddToDictionary<Key, Value>(Dictionary<Key, Value> target, Key newKey, Value newValue)
+    parameters:
+    - id: target
+      type: System.Collections.Generic.Dictionary{{Key},{Value}}
+      description: Target dictionary
+    - id: newKey
+      type: '{Key}'
+      description: Key of element to add
+    - id: newValue
+      type: '{Value}'
+      description: Value to add
+    typeParameters:
+    - id: Key
+      description: Key type
+    - id: Value
+      description: Value type
+    content.vb: Public Shared Sub AddToDictionary(Of Key, Value)(target As Dictionary(Of Key, Value), newKey As Key, newValue As Value)
+  overload: SuperOffice.Util.CollectionOps.AddToDictionary*
+  nameWithType.vb: CollectionOps.AddToDictionary(Of Key, Value)(Dictionary(Of Key, Value), Key, Value)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.AddToDictionary(Of Key, Value)(System.Collections.Generic.Dictionary(Of Key, Value), Key, Value)
+  name.vb: AddToDictionary(Of Key, Value)(Dictionary(Of Key, Value), Key, Value)
+- uid: SuperOffice.Util.CollectionOps.IsNullOrEmpty``1(``0[])
+  commentId: M:SuperOffice.Util.CollectionOps.IsNullOrEmpty``1(``0[])
+  id: IsNullOrEmpty``1(``0[])
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: IsNullOrEmpty<BaseType>(BaseType[])
+  nameWithType: CollectionOps.IsNullOrEmpty<BaseType>(BaseType[])
+  fullName: SuperOffice.Util.CollectionOps.IsNullOrEmpty<BaseType>(BaseType[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nCheck if a given collection/array is null, or contains no elements. Semantically equivalent to string.<xref href=\"System.String.IsNullOrEmpty(System.String)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public static bool IsNullOrEmpty<BaseType>(BaseType[] array)
+    parameters:
+    - id: array
+      type: '{BaseType}[]'
+      description: Array, or null
+    typeParameters:
+    - id: BaseType
+      description: Base type for array
+    return:
+      type: System.Boolean
+      description: True if the in-parameter is null or has no elements
+    content.vb: Public Shared Function IsNullOrEmpty(Of BaseType)(array As BaseType()) As Boolean
+  overload: SuperOffice.Util.CollectionOps.IsNullOrEmpty*
+  nameWithType.vb: CollectionOps.IsNullOrEmpty(Of BaseType)(BaseType())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.IsNullOrEmpty(Of BaseType)(BaseType())
+  name.vb: IsNullOrEmpty(Of BaseType)(BaseType())
+- uid: SuperOffice.Util.CollectionOps.IsNullOrEmpty``1(System.Collections.Generic.ICollection{``0})
+  commentId: M:SuperOffice.Util.CollectionOps.IsNullOrEmpty``1(System.Collections.Generic.ICollection{``0})
+  id: IsNullOrEmpty``1(System.Collections.Generic.ICollection{``0})
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: IsNullOrEmpty<BaseType>(ICollection<BaseType>)
+  nameWithType: CollectionOps.IsNullOrEmpty<BaseType>(ICollection<BaseType>)
+  fullName: SuperOffice.Util.CollectionOps.IsNullOrEmpty<BaseType>(System.Collections.Generic.ICollection<BaseType>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nCheck if a given collection/array is null, or contains no elements. Semantically equivalent to string.<xref href=\"System.String.IsNullOrEmpty(System.String)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public static bool IsNullOrEmpty<BaseType>(ICollection<BaseType> collection)
+    parameters:
+    - id: collection
+      type: System.Collections.Generic.ICollection{{BaseType}}
+      description: Array, or null
+    typeParameters:
+    - id: BaseType
+      description: Base type for array
+    return:
+      type: System.Boolean
+      description: True if the in-parameter is null or has no elements
+    content.vb: Public Shared Function IsNullOrEmpty(Of BaseType)(collection As ICollection(Of BaseType)) As Boolean
+  overload: SuperOffice.Util.CollectionOps.IsNullOrEmpty*
+  nameWithType.vb: CollectionOps.IsNullOrEmpty(Of BaseType)(ICollection(Of BaseType))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.IsNullOrEmpty(Of BaseType)(System.Collections.Generic.ICollection(Of BaseType))
+  name.vb: IsNullOrEmpty(Of BaseType)(ICollection(Of BaseType))
+- uid: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray``2(``1[],SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1})
+  commentId: M:SuperOffice.Util.CollectionOps.CreateDictionaryFromArray``2(``1[],SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1})
+  id: CreateDictionaryFromArray``2(``1[],SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1})
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: CreateDictionaryFromArray<KeyType, ValueType>(ValueType[], CollectionOps.GetKeyFromValueItem<KeyType, ValueType>)
+  nameWithType: CollectionOps.CreateDictionaryFromArray<KeyType, ValueType>(ValueType[], CollectionOps.GetKeyFromValueItem<KeyType, ValueType>)
+  fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray<KeyType, ValueType>(ValueType[], SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nCreate a dictionary of key, item pairs from an array if items and a method that extract the key information\n"
+  syntax:
+    content: public static Dictionary<KeyType, ValueType> CreateDictionaryFromArray<KeyType, ValueType>(ValueType[] array, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor)
+    parameters:
+    - id: array
+      type: '{ValueType}[]'
+      description: Array if items to create the dictionary from
+    - id: keyExtractor
+      type: SuperOffice.Util.CollectionOps.GetKeyFromValueItem{{KeyType},{ValueType}}
+      description: >-
+        Delegate that extracts the key from the item, see <see cref="!:GetKeyFromValueItem"></see>.
+
+        This delegate takes one parameter of type <xref href="System.ValueType" data-throw-if-not-resolved="false"></xref> and returns a <see cref="!:KeyType"></see>
+    typeParameters:
+    - id: KeyType
+      description: Type of key
+    - id: ValueType
+      description: Type of value
+    return:
+      type: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
+      description: Dictionary, populated with the keys and corresponding items
+    content.vb: Public Shared Function CreateDictionaryFromArray(Of KeyType, ValueType)(array As ValueType(), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)) As Dictionary(Of KeyType, ValueType)
+  overload: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray*
+  nameWithType.vb: CollectionOps.CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType))
+  name.vb: CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType))
+- uid: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray``2(``1[],SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Collections.Generic.IEqualityComparer{``0})
+  commentId: M:SuperOffice.Util.CollectionOps.CreateDictionaryFromArray``2(``1[],SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Collections.Generic.IEqualityComparer{``0})
+  id: CreateDictionaryFromArray``2(``1[],SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Collections.Generic.IEqualityComparer{``0})
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: CreateDictionaryFromArray<KeyType, ValueType>(ValueType[], CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, IEqualityComparer<KeyType>)
+  nameWithType: CollectionOps.CreateDictionaryFromArray<KeyType, ValueType>(ValueType[], CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, IEqualityComparer<KeyType>)
+  fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray<KeyType, ValueType>(ValueType[], SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, System.Collections.Generic.IEqualityComparer<KeyType>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nCreate a dictionary of key, item pairs from an array of items and a method that extract the key information\n"
+  syntax:
+    content: public static Dictionary<KeyType, ValueType> CreateDictionaryFromArray<KeyType, ValueType>(ValueType[] array, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, IEqualityComparer<KeyType> comparer)
+    parameters:
+    - id: array
+      type: '{ValueType}[]'
+      description: Array if items to create the dictionary from
+    - id: keyExtractor
+      type: SuperOffice.Util.CollectionOps.GetKeyFromValueItem{{KeyType},{ValueType}}
+      description: delegate that extracts the key from the item, see <see cref="!:GetKeyFromValueItem"></see>
+    - id: comparer
+      type: System.Collections.Generic.IEqualityComparer{{KeyType}}
+      description: >-
+        Comparer to use for the keys, an example would be <xref href="System.StringComparer.OrdinalIgnoreCase" data-throw-if-not-resolved="false"></xref>
+
+        if the key type were string and you needed case-insensitive comparisons
+    typeParameters:
+    - id: KeyType
+      description: Type of key
+    - id: ValueType
+      description: Type of value
+    return:
+      type: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
+      description: Dictionary, populated with the keys and corresponding items
+    content.vb: Public Shared Function CreateDictionaryFromArray(Of KeyType, ValueType)(array As ValueType(), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), comparer As IEqualityComparer(Of KeyType)) As Dictionary(Of KeyType, ValueType)
+  overload: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray*
+  nameWithType.vb: CollectionOps.CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), IEqualityComparer(Of KeyType))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), System.Collections.Generic.IEqualityComparer(Of KeyType))
+  name.vb: CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), IEqualityComparer(Of KeyType))
+- uid: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray``2(``1[],SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Predicate{``1})
+  commentId: M:SuperOffice.Util.CollectionOps.CreateDictionaryFromArray``2(``1[],SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Predicate{``1})
+  id: CreateDictionaryFromArray``2(``1[],SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Predicate{``1})
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: CreateDictionaryFromArray<KeyType, ValueType>(ValueType[], CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, Predicate<ValueType>)
+  nameWithType: CollectionOps.CreateDictionaryFromArray<KeyType, ValueType>(ValueType[], CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, Predicate<ValueType>)
+  fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray<KeyType, ValueType>(ValueType[], SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, System.Predicate<ValueType>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConditionally create a dictionary of key, item pairs from an array if items and a method that extract the key information\n"
+  syntax:
+    content: public static Dictionary<KeyType, ValueType> CreateDictionaryFromArray<KeyType, ValueType>(ValueType[] array, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, Predicate<ValueType> predicate)
+    parameters:
+    - id: array
+      type: '{ValueType}[]'
+      description: Array if items to create the dictionary from
+    - id: keyExtractor
+      type: SuperOffice.Util.CollectionOps.GetKeyFromValueItem{{KeyType},{ValueType}}
+      description: >-
+        Delegate that extracts the key from the item, see <see cref="!:GetKeyFromValueItem"></see>.
+
+        This delegate takes one parameter of type <xref href="System.ValueType" data-throw-if-not-resolved="false"></xref> and returns a <see cref="!:KeyType"></see>
+    - id: predicate
+      type: System.Predicate{{ValueType}}
+      description: Predicate, evaluated for each item. The item is added to the dictionary if the predicate returns true
+    typeParameters:
+    - id: KeyType
+      description: Type of key
+    - id: ValueType
+      description: Type of value
+    return:
+      type: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
+      description: Dictionary, populated with the keys and corresponding items
+    content.vb: Public Shared Function CreateDictionaryFromArray(Of KeyType, ValueType)(array As ValueType(), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), predicate As Predicate(Of ValueType)) As Dictionary(Of KeyType, ValueType)
+  overload: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray*
+  nameWithType.vb: CollectionOps.CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), Predicate(Of ValueType))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), System.Predicate(Of ValueType))
+  name.vb: CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), Predicate(Of ValueType))
+- uid: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray``2(``1[],SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Collections.Generic.IEqualityComparer{``0},System.Predicate{``1})
+  commentId: M:SuperOffice.Util.CollectionOps.CreateDictionaryFromArray``2(``1[],SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Collections.Generic.IEqualityComparer{``0},System.Predicate{``1})
+  id: CreateDictionaryFromArray``2(``1[],SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Collections.Generic.IEqualityComparer{``0},System.Predicate{``1})
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: CreateDictionaryFromArray<KeyType, ValueType>(ValueType[], CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, IEqualityComparer<KeyType>, Predicate<ValueType>)
+  nameWithType: CollectionOps.CreateDictionaryFromArray<KeyType, ValueType>(ValueType[], CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, IEqualityComparer<KeyType>, Predicate<ValueType>)
+  fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray<KeyType, ValueType>(ValueType[], SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, System.Collections.Generic.IEqualityComparer<KeyType>, System.Predicate<ValueType>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConditionally create a dictionary of key, item pairs from an array if items and a method that extract the key information\n"
+  syntax:
+    content: public static Dictionary<KeyType, ValueType> CreateDictionaryFromArray<KeyType, ValueType>(ValueType[] array, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, IEqualityComparer<KeyType> comparer, Predicate<ValueType> predicate)
+    parameters:
+    - id: array
+      type: '{ValueType}[]'
+      description: Array if items to create the dictionary from
+    - id: keyExtractor
+      type: SuperOffice.Util.CollectionOps.GetKeyFromValueItem{{KeyType},{ValueType}}
+      description: >-
+        Delegate that extracts the key from the item, see <see cref="!:GetKeyFromValueItem"></see>.
+
+        This delegate takes one parameter of type <xref href="System.ValueType" data-throw-if-not-resolved="false"></xref> and returns a <see cref="!:KeyType"></see>
+    - id: comparer
+      type: System.Collections.Generic.IEqualityComparer{{KeyType}}
+    - id: predicate
+      type: System.Predicate{{ValueType}}
+      description: Predicate, evaluated for each item. The item is added to the dictionary if the predicate returns true
+    typeParameters:
+    - id: KeyType
+      description: Type of key
+    - id: ValueType
+      description: Type of value
+    return:
+      type: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
+      description: Dictionary, populated with the keys and corresponding items
+    content.vb: Public Shared Function CreateDictionaryFromArray(Of KeyType, ValueType)(array As ValueType(), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), comparer As IEqualityComparer(Of KeyType), predicate As Predicate(Of ValueType)) As Dictionary(Of KeyType, ValueType)
+  overload: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray*
+  nameWithType.vb: CollectionOps.CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), IEqualityComparer(Of KeyType), Predicate(Of ValueType))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), System.Collections.Generic.IEqualityComparer(Of KeyType), System.Predicate(Of ValueType))
+  name.vb: CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), IEqualityComparer(Of KeyType), Predicate(Of ValueType))
+- uid: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection``2(System.Collections.Generic.ICollection{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1})
+  commentId: M:SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection``2(System.Collections.Generic.ICollection{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1})
+  id: CreateDictionaryFromCollection``2(System.Collections.Generic.ICollection{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1})
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: CreateDictionaryFromCollection<KeyType, ValueType>(ICollection<ValueType>, CollectionOps.GetKeyFromValueItem<KeyType, ValueType>)
+  nameWithType: CollectionOps.CreateDictionaryFromCollection<KeyType, ValueType>(ICollection<ValueType>, CollectionOps.GetKeyFromValueItem<KeyType, ValueType>)
+  fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection<KeyType, ValueType>(System.Collections.Generic.ICollection<ValueType>, SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nCreate a dictionary of key, item pairs from a collection of items and a method that extract the key information\n"
+  syntax:
+    content: public static Dictionary<KeyType, ValueType> CreateDictionaryFromCollection<KeyType, ValueType>(ICollection<ValueType> collection, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor)
+    parameters:
+    - id: collection
+      type: System.Collections.Generic.ICollection{{ValueType}}
+      description: Array if items to create the dictionary from
+    - id: keyExtractor
+      type: SuperOffice.Util.CollectionOps.GetKeyFromValueItem{{KeyType},{ValueType}}
+      description: >-
+        Delegate that extracts the key from the item, see <see cref="!:GetKeyFromValueItem"></see>.
+
+        This delegate takes one parameter of type <xref href="System.ValueType" data-throw-if-not-resolved="false"></xref> and returns a <see cref="!:KeyType"></see>
+    typeParameters:
+    - id: KeyType
+      description: Type of key
+    - id: ValueType
+      description: Type of value
+    return:
+      type: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
+      description: Dictionary, populated with the keys and corresponding items
+    content.vb: Public Shared Function CreateDictionaryFromCollection(Of KeyType, ValueType)(collection As ICollection(Of ValueType), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)) As Dictionary(Of KeyType, ValueType)
+  overload: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection*
+  nameWithType.vb: CollectionOps.CreateDictionaryFromCollection(Of KeyType, ValueType)(ICollection(Of ValueType), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection(Of KeyType, ValueType)(System.Collections.Generic.ICollection(Of ValueType), SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType))
+  name.vb: CreateDictionaryFromCollection(Of KeyType, ValueType)(ICollection(Of ValueType), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType))
+- uid: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection``2(System.Collections.Generic.ICollection{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Predicate{``1})
+  commentId: M:SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection``2(System.Collections.Generic.ICollection{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Predicate{``1})
+  id: CreateDictionaryFromCollection``2(System.Collections.Generic.ICollection{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Predicate{``1})
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: CreateDictionaryFromCollection<KeyType, ValueType>(ICollection<ValueType>, CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, Predicate<ValueType>)
+  nameWithType: CollectionOps.CreateDictionaryFromCollection<KeyType, ValueType>(ICollection<ValueType>, CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, Predicate<ValueType>)
+  fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection<KeyType, ValueType>(System.Collections.Generic.ICollection<ValueType>, SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, System.Predicate<ValueType>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConditionally create a dictionary of key, item pairs from a collection of items and a method that extract the key information\n"
+  syntax:
+    content: public static Dictionary<KeyType, ValueType> CreateDictionaryFromCollection<KeyType, ValueType>(ICollection<ValueType> collection, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, Predicate<ValueType> predicate)
+    parameters:
+    - id: collection
+      type: System.Collections.Generic.ICollection{{ValueType}}
+    - id: keyExtractor
+      type: SuperOffice.Util.CollectionOps.GetKeyFromValueItem{{KeyType},{ValueType}}
+      description: >-
+        Delegate that extracts the key from the item, see <see cref="!:GetKeyFromValueItem"></see>.
+
+        This delegate takes one parameter of type <xref href="System.ValueType" data-throw-if-not-resolved="false"></xref> and returns a <see cref="!:KeyType"></see>
+    - id: predicate
+      type: System.Predicate{{ValueType}}
+      description: Predicate, evaluated for each item. The item is added to the dictionary if the predicate returns true
+    typeParameters:
+    - id: KeyType
+      description: Type of key
+    - id: ValueType
+      description: Type of value
+    return:
+      type: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
+      description: Dictionary, populated with the keys and corresponding items
+    content.vb: Public Shared Function CreateDictionaryFromCollection(Of KeyType, ValueType)(collection As ICollection(Of ValueType), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), predicate As Predicate(Of ValueType)) As Dictionary(Of KeyType, ValueType)
+  overload: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection*
+  nameWithType.vb: CollectionOps.CreateDictionaryFromCollection(Of KeyType, ValueType)(ICollection(Of ValueType), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), Predicate(Of ValueType))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection(Of KeyType, ValueType)(System.Collections.Generic.ICollection(Of ValueType), SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), System.Predicate(Of ValueType))
+  name.vb: CreateDictionaryFromCollection(Of KeyType, ValueType)(ICollection(Of ValueType), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), Predicate(Of ValueType))
+- uid: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection``2(System.Collections.Generic.ICollection{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Collections.Generic.IEqualityComparer{``0})
+  commentId: M:SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection``2(System.Collections.Generic.ICollection{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Collections.Generic.IEqualityComparer{``0})
+  id: CreateDictionaryFromCollection``2(System.Collections.Generic.ICollection{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Collections.Generic.IEqualityComparer{``0})
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: CreateDictionaryFromCollection<KeyType, ValueType>(ICollection<ValueType>, CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, IEqualityComparer<KeyType>)
+  nameWithType: CollectionOps.CreateDictionaryFromCollection<KeyType, ValueType>(ICollection<ValueType>, CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, IEqualityComparer<KeyType>)
+  fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection<KeyType, ValueType>(System.Collections.Generic.ICollection<ValueType>, SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, System.Collections.Generic.IEqualityComparer<KeyType>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nCreate a dictionary of key, item pairs from a collection of items and a method that extract the key information\n"
+  syntax:
+    content: public static Dictionary<KeyType, ValueType> CreateDictionaryFromCollection<KeyType, ValueType>(ICollection<ValueType> collection, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, IEqualityComparer<KeyType> comparer)
+    parameters:
+    - id: collection
+      type: System.Collections.Generic.ICollection{{ValueType}}
+    - id: keyExtractor
+      type: SuperOffice.Util.CollectionOps.GetKeyFromValueItem{{KeyType},{ValueType}}
+      description: >-
+        Delegate that extracts the key from the item, see <see cref="!:GetKeyFromValueItem"></see>.
+
+        This delegate takes one parameter of type <xref href="System.ValueType" data-throw-if-not-resolved="false"></xref> and returns a <see cref="!:KeyType"></see>
+    - id: comparer
+      type: System.Collections.Generic.IEqualityComparer{{KeyType}}
+    typeParameters:
+    - id: KeyType
+      description: Type of key
+    - id: ValueType
+      description: Type of value
+    return:
+      type: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
+      description: Dictionary, populated with the keys and corresponding items
+    content.vb: Public Shared Function CreateDictionaryFromCollection(Of KeyType, ValueType)(collection As ICollection(Of ValueType), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), comparer As IEqualityComparer(Of KeyType)) As Dictionary(Of KeyType, ValueType)
+  overload: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection*
+  nameWithType.vb: CollectionOps.CreateDictionaryFromCollection(Of KeyType, ValueType)(ICollection(Of ValueType), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), IEqualityComparer(Of KeyType))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection(Of KeyType, ValueType)(System.Collections.Generic.ICollection(Of ValueType), SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), System.Collections.Generic.IEqualityComparer(Of KeyType))
+  name.vb: CreateDictionaryFromCollection(Of KeyType, ValueType)(ICollection(Of ValueType), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), IEqualityComparer(Of KeyType))
+- uid: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection``2(System.Collections.Generic.ICollection{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Collections.Generic.IEqualityComparer{``0},System.Predicate{``1})
+  commentId: M:SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection``2(System.Collections.Generic.ICollection{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Collections.Generic.IEqualityComparer{``0},System.Predicate{``1})
+  id: CreateDictionaryFromCollection``2(System.Collections.Generic.ICollection{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Collections.Generic.IEqualityComparer{``0},System.Predicate{``1})
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: CreateDictionaryFromCollection<KeyType, ValueType>(ICollection<ValueType>, CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, IEqualityComparer<KeyType>, Predicate<ValueType>)
+  nameWithType: CollectionOps.CreateDictionaryFromCollection<KeyType, ValueType>(ICollection<ValueType>, CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, IEqualityComparer<KeyType>, Predicate<ValueType>)
+  fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection<KeyType, ValueType>(System.Collections.Generic.ICollection<ValueType>, SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, System.Collections.Generic.IEqualityComparer<KeyType>, System.Predicate<ValueType>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConditionally create a dictionary of key, item pairs from a collection of items and a method that extract the key information\n"
+  syntax:
+    content: public static Dictionary<KeyType, ValueType> CreateDictionaryFromCollection<KeyType, ValueType>(ICollection<ValueType> collection, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, IEqualityComparer<KeyType> comparer, Predicate<ValueType> predicate)
+    parameters:
+    - id: collection
+      type: System.Collections.Generic.ICollection{{ValueType}}
+    - id: keyExtractor
+      type: SuperOffice.Util.CollectionOps.GetKeyFromValueItem{{KeyType},{ValueType}}
+      description: >-
+        Delegate that extracts the key from the item, see <see cref="!:GetKeyFromValueItem"></see>.
+
+        This delegate takes one parameter of type <xref href="System.ValueType" data-throw-if-not-resolved="false"></xref> and returns a <see cref="!:KeyType"></see>
+    - id: comparer
+      type: System.Collections.Generic.IEqualityComparer{{KeyType}}
+    - id: predicate
+      type: System.Predicate{{ValueType}}
+      description: Predicate, evaluated for each item. The item is added to the dictionary if the predicate returns true
+    typeParameters:
+    - id: KeyType
+      description: Type of key
+    - id: ValueType
+      description: Type of value
+    return:
+      type: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
+      description: Dictionary, populated with the keys and corresponding items
+    content.vb: Public Shared Function CreateDictionaryFromCollection(Of KeyType, ValueType)(collection As ICollection(Of ValueType), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), comparer As IEqualityComparer(Of KeyType), predicate As Predicate(Of ValueType)) As Dictionary(Of KeyType, ValueType)
+  overload: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection*
+  nameWithType.vb: CollectionOps.CreateDictionaryFromCollection(Of KeyType, ValueType)(ICollection(Of ValueType), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), IEqualityComparer(Of KeyType), Predicate(Of ValueType))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection(Of KeyType, ValueType)(System.Collections.Generic.ICollection(Of ValueType), SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), System.Collections.Generic.IEqualityComparer(Of KeyType), System.Predicate(Of ValueType))
+  name.vb: CreateDictionaryFromCollection(Of KeyType, ValueType)(ICollection(Of ValueType), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), IEqualityComparer(Of KeyType), Predicate(Of ValueType))
+- uid: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable``2(System.Collections.Generic.IEnumerable{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1})
+  commentId: M:SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable``2(System.Collections.Generic.IEnumerable{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1})
+  id: CreateDictionaryFromEnumerable``2(System.Collections.Generic.IEnumerable{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1})
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: CreateDictionaryFromEnumerable<KeyType, ValueType>(IEnumerable<ValueType>, CollectionOps.GetKeyFromValueItem<KeyType, ValueType>)
+  nameWithType: CollectionOps.CreateDictionaryFromEnumerable<KeyType, ValueType>(IEnumerable<ValueType>, CollectionOps.GetKeyFromValueItem<KeyType, ValueType>)
+  fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable<KeyType, ValueType>(System.Collections.Generic.IEnumerable<ValueType>, SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nCreate a dictionary of key, item pairs from a collection of items and a method that extract the key information\n"
+  syntax:
+    content: public static Dictionary<KeyType, ValueType> CreateDictionaryFromEnumerable<KeyType, ValueType>(IEnumerable<ValueType> collection, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor)
+    parameters:
+    - id: collection
+      type: System.Collections.Generic.IEnumerable{{ValueType}}
+    - id: keyExtractor
+      type: SuperOffice.Util.CollectionOps.GetKeyFromValueItem{{KeyType},{ValueType}}
+      description: >-
+        Delegate that extracts the key from the item, see <see cref="!:GetKeyFromValueItem"></see>.
+
+        This delegate takes one parameter of type <xref href="System.ValueType" data-throw-if-not-resolved="false"></xref> and returns a <see cref="!:KeyType"></see>
+    typeParameters:
+    - id: KeyType
+      description: Type of key
+    - id: ValueType
+      description: Type of value
+    return:
+      type: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
+      description: Dictionary, populated with the keys and corresponding items
+    content.vb: Public Shared Function CreateDictionaryFromEnumerable(Of KeyType, ValueType)(collection As IEnumerable(Of ValueType), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)) As Dictionary(Of KeyType, ValueType)
+  overload: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable*
+  nameWithType.vb: CollectionOps.CreateDictionaryFromEnumerable(Of KeyType, ValueType)(IEnumerable(Of ValueType), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable(Of KeyType, ValueType)(System.Collections.Generic.IEnumerable(Of ValueType), SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType))
+  name.vb: CreateDictionaryFromEnumerable(Of KeyType, ValueType)(IEnumerable(Of ValueType), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType))
+- uid: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable``2(System.Collections.Generic.IEnumerable{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Predicate{``1})
+  commentId: M:SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable``2(System.Collections.Generic.IEnumerable{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Predicate{``1})
+  id: CreateDictionaryFromEnumerable``2(System.Collections.Generic.IEnumerable{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Predicate{``1})
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: CreateDictionaryFromEnumerable<KeyType, ValueType>(IEnumerable<ValueType>, CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, Predicate<ValueType>)
+  nameWithType: CollectionOps.CreateDictionaryFromEnumerable<KeyType, ValueType>(IEnumerable<ValueType>, CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, Predicate<ValueType>)
+  fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable<KeyType, ValueType>(System.Collections.Generic.IEnumerable<ValueType>, SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, System.Predicate<ValueType>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConditionally create a dictionary of key, item pairs from a collection of items and a method that extract the key information\n"
+  syntax:
+    content: public static Dictionary<KeyType, ValueType> CreateDictionaryFromEnumerable<KeyType, ValueType>(IEnumerable<ValueType> collection, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, Predicate<ValueType> predicate)
+    parameters:
+    - id: collection
+      type: System.Collections.Generic.IEnumerable{{ValueType}}
+    - id: keyExtractor
+      type: SuperOffice.Util.CollectionOps.GetKeyFromValueItem{{KeyType},{ValueType}}
+      description: >-
+        Delegate that extracts the key from the item, see <see cref="!:GetKeyFromValueItem"></see>.
+
+        This delegate takes one parameter of type <xref href="System.ValueType" data-throw-if-not-resolved="false"></xref> and returns a <see cref="!:KeyType"></see>
+    - id: predicate
+      type: System.Predicate{{ValueType}}
+      description: Predicate, evaluated for each item. The item is added to the dictionary if the predicate returns true
+    typeParameters:
+    - id: KeyType
+      description: Type of key
+    - id: ValueType
+      description: Type of value
+    return:
+      type: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
+      description: Dictionary, populated with the keys and corresponding items
+    content.vb: Public Shared Function CreateDictionaryFromEnumerable(Of KeyType, ValueType)(collection As IEnumerable(Of ValueType), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), predicate As Predicate(Of ValueType)) As Dictionary(Of KeyType, ValueType)
+  overload: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable*
+  nameWithType.vb: CollectionOps.CreateDictionaryFromEnumerable(Of KeyType, ValueType)(IEnumerable(Of ValueType), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), Predicate(Of ValueType))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable(Of KeyType, ValueType)(System.Collections.Generic.IEnumerable(Of ValueType), SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), System.Predicate(Of ValueType))
+  name.vb: CreateDictionaryFromEnumerable(Of KeyType, ValueType)(IEnumerable(Of ValueType), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), Predicate(Of ValueType))
+- uid: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable``2(System.Collections.Generic.IEnumerable{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Collections.Generic.IEqualityComparer{``0})
+  commentId: M:SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable``2(System.Collections.Generic.IEnumerable{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Collections.Generic.IEqualityComparer{``0})
+  id: CreateDictionaryFromEnumerable``2(System.Collections.Generic.IEnumerable{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Collections.Generic.IEqualityComparer{``0})
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: CreateDictionaryFromEnumerable<KeyType, ValueType>(IEnumerable<ValueType>, CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, IEqualityComparer<KeyType>)
+  nameWithType: CollectionOps.CreateDictionaryFromEnumerable<KeyType, ValueType>(IEnumerable<ValueType>, CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, IEqualityComparer<KeyType>)
+  fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable<KeyType, ValueType>(System.Collections.Generic.IEnumerable<ValueType>, SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, System.Collections.Generic.IEqualityComparer<KeyType>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nCreate a dictionary of key, item pairs from a collection of items and a method that extract the key information\n"
+  syntax:
+    content: public static Dictionary<KeyType, ValueType> CreateDictionaryFromEnumerable<KeyType, ValueType>(IEnumerable<ValueType> collection, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, IEqualityComparer<KeyType> comparer)
+    parameters:
+    - id: collection
+      type: System.Collections.Generic.IEnumerable{{ValueType}}
+    - id: keyExtractor
+      type: SuperOffice.Util.CollectionOps.GetKeyFromValueItem{{KeyType},{ValueType}}
+      description: >-
+        Delegate that extracts the key from the item, see <see cref="!:GetKeyFromValueItem"></see>.
+
+        This delegate takes one parameter of type <xref href="System.ValueType" data-throw-if-not-resolved="false"></xref> and returns a <see cref="!:KeyType"></see>
+    - id: comparer
+      type: System.Collections.Generic.IEqualityComparer{{KeyType}}
+    typeParameters:
+    - id: KeyType
+      description: Type of key
+    - id: ValueType
+      description: Type of value
+    return:
+      type: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
+      description: Dictionary, populated with the keys and corresponding items
+    content.vb: Public Shared Function CreateDictionaryFromEnumerable(Of KeyType, ValueType)(collection As IEnumerable(Of ValueType), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), comparer As IEqualityComparer(Of KeyType)) As Dictionary(Of KeyType, ValueType)
+  overload: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable*
+  nameWithType.vb: CollectionOps.CreateDictionaryFromEnumerable(Of KeyType, ValueType)(IEnumerable(Of ValueType), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), IEqualityComparer(Of KeyType))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable(Of KeyType, ValueType)(System.Collections.Generic.IEnumerable(Of ValueType), SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), System.Collections.Generic.IEqualityComparer(Of KeyType))
+  name.vb: CreateDictionaryFromEnumerable(Of KeyType, ValueType)(IEnumerable(Of ValueType), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), IEqualityComparer(Of KeyType))
+- uid: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable``2(System.Collections.Generic.IEnumerable{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Collections.Generic.IEqualityComparer{``0},System.Predicate{``1})
+  commentId: M:SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable``2(System.Collections.Generic.IEnumerable{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Collections.Generic.IEqualityComparer{``0},System.Predicate{``1})
+  id: CreateDictionaryFromEnumerable``2(System.Collections.Generic.IEnumerable{``1},SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1},System.Collections.Generic.IEqualityComparer{``0},System.Predicate{``1})
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: CreateDictionaryFromEnumerable<KeyType, ValueType>(IEnumerable<ValueType>, CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, IEqualityComparer<KeyType>, Predicate<ValueType>)
+  nameWithType: CollectionOps.CreateDictionaryFromEnumerable<KeyType, ValueType>(IEnumerable<ValueType>, CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, IEqualityComparer<KeyType>, Predicate<ValueType>)
+  fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable<KeyType, ValueType>(System.Collections.Generic.IEnumerable<ValueType>, SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, System.Collections.Generic.IEqualityComparer<KeyType>, System.Predicate<ValueType>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConditionally create a dictionary of key, item pairs from a collection of items and a method that extract the key information\n"
+  syntax:
+    content: public static Dictionary<KeyType, ValueType> CreateDictionaryFromEnumerable<KeyType, ValueType>(IEnumerable<ValueType> collection, CollectionOps.GetKeyFromValueItem<KeyType, ValueType> keyExtractor, IEqualityComparer<KeyType> comparer, Predicate<ValueType> predicate)
+    parameters:
+    - id: collection
+      type: System.Collections.Generic.IEnumerable{{ValueType}}
+    - id: keyExtractor
+      type: SuperOffice.Util.CollectionOps.GetKeyFromValueItem{{KeyType},{ValueType}}
+      description: >-
+        Delegate that extracts the key from the item, see <see cref="!:GetKeyFromValueItem"></see>.
+
+        This delegate takes one parameter of type <xref href="System.ValueType" data-throw-if-not-resolved="false"></xref> and returns a <see cref="!:KeyType"></see>
+    - id: comparer
+      type: System.Collections.Generic.IEqualityComparer{{KeyType}}
+    - id: predicate
+      type: System.Predicate{{ValueType}}
+      description: Predicate, evaluated for each item. The item is added to the dictionary if the predicate returns true
+    typeParameters:
+    - id: KeyType
+      description: Type of key
+    - id: ValueType
+      description: Type of value
+    return:
+      type: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
+      description: Dictionary, populated with the keys and corresponding items
+    content.vb: Public Shared Function CreateDictionaryFromEnumerable(Of KeyType, ValueType)(collection As IEnumerable(Of ValueType), keyExtractor As CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), comparer As IEqualityComparer(Of KeyType), predicate As Predicate(Of ValueType)) As Dictionary(Of KeyType, ValueType)
+  overload: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable*
+  nameWithType.vb: CollectionOps.CreateDictionaryFromEnumerable(Of KeyType, ValueType)(IEnumerable(Of ValueType), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), IEqualityComparer(Of KeyType), Predicate(Of ValueType))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable(Of KeyType, ValueType)(System.Collections.Generic.IEnumerable(Of ValueType), SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), System.Collections.Generic.IEqualityComparer(Of KeyType), System.Predicate(Of ValueType))
+  name.vb: CreateDictionaryFromEnumerable(Of KeyType, ValueType)(IEnumerable(Of ValueType), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), IEqualityComparer(Of KeyType), Predicate(Of ValueType))
+- uid: SuperOffice.Util.CollectionOps.AddRange``2(System.Collections.Generic.Dictionary{``0,``1},System.Collections.Generic.Dictionary{``0,``1})
+  commentId: M:SuperOffice.Util.CollectionOps.AddRange``2(System.Collections.Generic.Dictionary{``0,``1},System.Collections.Generic.Dictionary{``0,``1})
+  id: AddRange``2(System.Collections.Generic.Dictionary{``0,``1},System.Collections.Generic.Dictionary{``0,``1})
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: AddRange<T, S>(Dictionary<T, S>, Dictionary<T, S>)
+  nameWithType: CollectionOps.AddRange<T, S>(Dictionary<T, S>, Dictionary<T, S>)
+  fullName: SuperOffice.Util.CollectionOps.AddRange<T, S>(System.Collections.Generic.Dictionary<T, S>, System.Collections.Generic.Dictionary<T, S>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static void AddRange<T, S>(this Dictionary<T, S> target, Dictionary<T, S> source)
+    parameters:
+    - id: target
+      type: System.Collections.Generic.Dictionary{{T},{S}}
+    - id: source
+      type: System.Collections.Generic.Dictionary{{T},{S}}
+    typeParameters:
+    - id: T
+    - id: S
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub AddRange(Of T, S)(target As Dictionary(Of T, S), source As Dictionary(Of T, S))
+  overload: SuperOffice.Util.CollectionOps.AddRange*
+  nameWithType.vb: CollectionOps.AddRange(Of T, S)(Dictionary(Of T, S), Dictionary(Of T, S))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.AddRange(Of T, S)(System.Collections.Generic.Dictionary(Of T, S), System.Collections.Generic.Dictionary(Of T, S))
+  name.vb: AddRange(Of T, S)(Dictionary(Of T, S), Dictionary(Of T, S))
+- uid: SuperOffice.Util.CollectionOps.AddToDictionaryList``2(System.Collections.Generic.Dictionary{``0,System.Collections.Generic.List{``1}},``0,``1)
+  commentId: M:SuperOffice.Util.CollectionOps.AddToDictionaryList``2(System.Collections.Generic.Dictionary{``0,System.Collections.Generic.List{``1}},``0,``1)
+  id: AddToDictionaryList``2(System.Collections.Generic.Dictionary{``0,System.Collections.Generic.List{``1}},``0,``1)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: AddToDictionaryList<KeyType, ValueType>(Dictionary<KeyType, List<ValueType>>, KeyType, ValueType)
+  nameWithType: CollectionOps.AddToDictionaryList<KeyType, ValueType>(Dictionary<KeyType, List<ValueType>>, KeyType, ValueType)
+  fullName: SuperOffice.Util.CollectionOps.AddToDictionaryList<KeyType, ValueType>(System.Collections.Generic.Dictionary<KeyType, System.Collections.Generic.List<ValueType>>, KeyType, ValueType)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nAdd a value to a data structure that is a dictionary, where each value is a list of some type\n"
+  example:
+  - "\nSuppose we have to store a number of values for each key. A normal dictionary is unique on key, so\nwe need to store the values in a list inside each dictionary value.\n<p></p>\nThe declaration can look like this:\n<pre><code>		private static Dictionary&lt;SoTable, List&lt;CTData>> _cachedTables;&quot;</code></pre>\nTo add a new CTData using some SoTable type key, use the following:\n<pre><code>	SoTable key = GetSoTable( mySomething );\n	CTData listValue = new CTData( myDataSomething );\n	_cachedTables.AddToDictionaryList( key, listValue );</code></pre>\nIf the key already exists, its value list is extended with the new value. If not,\nthen the key is added to the dictionary and a new list containing the single new listValue is set as its value.\n"
+  syntax:
+    content: public static void AddToDictionaryList<KeyType, ValueType>(this Dictionary<KeyType, List<ValueType>> destination, KeyType key, ValueType val)
+    parameters:
+    - id: destination
+      type: System.Collections.Generic.Dictionary{{KeyType},System.Collections.Generic.List{{ValueType}}}
+      description: Dictionary to be updated
+    - id: key
+      type: '{KeyType}'
+      description: Dictionary key
+    - id: val
+      type: '{ValueType}'
+      description: Inner list value for the given key
+    typeParameters:
+    - id: KeyType
+      description: The dictionary key type
+    - id: ValueType
+      description: The inner value type of the list, whic is the value type of the dictionary
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub AddToDictionaryList(Of KeyType, ValueType)(destination As Dictionary(Of KeyType, List(Of ValueType)), key As KeyType, val As ValueType)
+  overload: SuperOffice.Util.CollectionOps.AddToDictionaryList*
+  nameWithType.vb: CollectionOps.AddToDictionaryList(Of KeyType, ValueType)(Dictionary(Of KeyType, List(Of ValueType)), KeyType, ValueType)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.AddToDictionaryList(Of KeyType, ValueType)(System.Collections.Generic.Dictionary(Of KeyType, System.Collections.Generic.List(Of ValueType)), KeyType, ValueType)
+  name.vb: AddToDictionaryList(Of KeyType, ValueType)(Dictionary(Of KeyType, List(Of ValueType)), KeyType, ValueType)
+- uid: SuperOffice.Util.CollectionOps.GetPairs(System.String)
+  commentId: M:SuperOffice.Util.CollectionOps.GetPairs(System.String)
+  id: GetPairs(System.String)
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: GetPairs(String)
+  nameWithType: CollectionOps.GetPairs(String)
+  fullName: SuperOffice.Util.CollectionOps.GetPairs(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nParse a string that contains one or more key=value pairs into a list of KeyValuePair&lt;string,string>.\nNOTE that key names are lower-cased during parsing!\n"
+  syntax:
+    content: public static List<KeyValuePair<string, string>> GetPairs(string keyValueString)
+    parameters:
+    - id: keyValueString
+      type: System.String
+      description: String of the form key=value, with &amp; as separator between multiple pairs
+    return:
+      type: System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.String,System.String}}
+      description: List of KeyValuePair elements, in the same order as they were in the string
+    content.vb: Public Shared Function GetPairs(keyValueString As String) As List(Of KeyValuePair(Of String, String))
+  overload: SuperOffice.Util.CollectionOps.GetPairs*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.CollectionOps.CloneArray(System.String[])
+  commentId: M:SuperOffice.Util.CollectionOps.CloneArray(System.String[])
+  id: CloneArray(System.String[])
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: CloneArray(String[])
+  nameWithType: CollectionOps.CloneArray(String[])
+  fullName: SuperOffice.Util.CollectionOps.CloneArray(System.String[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static string[] CloneArray(string[] originalArray)
+    parameters:
+    - id: originalArray
+      type: System.String[]
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function CloneArray(originalArray As String()) As String()
+  overload: SuperOffice.Util.CollectionOps.CloneArray*
+  nameWithType.vb: CollectionOps.CloneArray(String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.CloneArray(System.String())
+  name.vb: CloneArray(String())
+- uid: SuperOffice.Util.CollectionOps.GetNamedValue(System.String,System.String)
+  commentId: M:SuperOffice.Util.CollectionOps.GetNamedValue(System.String,System.String)
+  id: GetNamedValue(System.String,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: GetNamedValue(String, String)
+  nameWithType: CollectionOps.GetNamedValue(String, String)
+  fullName: SuperOffice.Util.CollectionOps.GetNamedValue(System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nReturn a value from a name/value collection string of the form name=value&amp;name2=value2\n"
+  syntax:
+    content: public static string GetNamedValue(this string nameValueString, string nameToFind)
+    parameters:
+    - id: nameValueString
+      type: System.String
+      description: Name/value collection string; empty and null are legal
+    - id: nameToFind
+      type: System.String
+      description: Name of key to find (case insensitive)
+    return:
+      type: System.String
+      description: The value of the key, or string.Empty if not found
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetNamedValue(nameValueString As String, nameToFind As String) As String
+  overload: SuperOffice.Util.CollectionOps.GetNamedValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.CollectionOps.GetNamedBoolValue(System.String,System.String)
+  commentId: M:SuperOffice.Util.CollectionOps.GetNamedBoolValue(System.String,System.String)
+  id: GetNamedBoolValue(System.String,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: GetNamedBoolValue(String, String)
+  nameWithType: CollectionOps.GetNamedBoolValue(String, String)
+  fullName: SuperOffice.Util.CollectionOps.GetNamedBoolValue(System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nFind and parse a bool-typed option in a named-value string, and return the result\n"
+  syntax:
+    content: public static bool GetNamedBoolValue(this string nameValueString, string nameToFind)
+    parameters:
+    - id: nameValueString
+      type: System.String
+      description: Name/value collection string; empty and null are legal
+    - id: nameToFind
+      type: System.String
+      description: Name of key to find (case insensitive)
+    return:
+      type: System.Boolean
+      description: true if the option value is 1 or (case-insentive) &apos;true&apos;
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetNamedBoolValue(nameValueString As String, nameToFind As String) As Boolean
+  overload: SuperOffice.Util.CollectionOps.GetNamedBoolValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.CollectionOps.HasName(System.String,System.String)
+  commentId: M:SuperOffice.Util.CollectionOps.HasName(System.String,System.String)
+  id: HasName(System.String,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: HasName(String, String)
+  nameWithType: CollectionOps.HasName(String, String)
+  fullName: SuperOffice.Util.CollectionOps.HasName(System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nCheck if a named-value string (querystring) contains a given name; null-tolerant and case-insensitive like all such operations\n"
+  syntax:
+    content: public static bool HasName(this string nameValueString, string nameToFind)
+    parameters:
+    - id: nameValueString
+      type: System.String
+    - id: nameToFind
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HasName(nameValueString As String, nameToFind As String) As Boolean
+  overload: SuperOffice.Util.CollectionOps.HasName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.CollectionOps.GetNamedIntValue(System.String,System.String)
+  commentId: M:SuperOffice.Util.CollectionOps.GetNamedIntValue(System.String,System.String)
+  id: GetNamedIntValue(System.String,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: GetNamedIntValue(String, String)
+  nameWithType: CollectionOps.GetNamedIntValue(String, String)
+  fullName: SuperOffice.Util.CollectionOps.GetNamedIntValue(System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nFind and parse a int-typed option in a named-value string, and return the result\n"
+  syntax:
+    content: public static int GetNamedIntValue(this string nameValueString, string nameToFind)
+    parameters:
+    - id: nameValueString
+      type: System.String
+      description: Name/value collection string; empty and null are legal
+    - id: nameToFind
+      type: System.String
+      description: Name of key to find (case insensitive)
+    return:
+      type: System.Int32
+      description: Integer value, or 0 if option not found or invalid format
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetNamedIntValue(nameValueString As String, nameToFind As String) As Integer
+  overload: SuperOffice.Util.CollectionOps.GetNamedIntValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.CollectionOps.GetNamedDateTimeValue(System.String,System.String)
+  commentId: M:SuperOffice.Util.CollectionOps.GetNamedDateTimeValue(System.String,System.String)
+  id: GetNamedDateTimeValue(System.String,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: GetNamedDateTimeValue(String, String)
+  nameWithType: CollectionOps.GetNamedDateTimeValue(String, String)
+  fullName: SuperOffice.Util.CollectionOps.GetNamedDateTimeValue(System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nFind and parse a DateTime-typed option in a named-value string, and return the result\n"
+  syntax:
+    content: public static DateTime GetNamedDateTimeValue(this string nameValueString, string nameToFind)
+    parameters:
+    - id: nameValueString
+      type: System.String
+      description: Name/value collection string; empty and null are legal
+    - id: nameToFind
+      type: System.String
+      description: Name of key to find (case insensitive)
+    return:
+      type: System.DateTime
+      description: DateTime value, or DateTime.MinValue if option not found or invalid format
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetNamedDateTimeValue(nameValueString As String, nameToFind As String) As Date
+  overload: SuperOffice.Util.CollectionOps.GetNamedDateTimeValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.CollectionOps.GetNamedDoubleValue(System.String,System.String)
+  commentId: M:SuperOffice.Util.CollectionOps.GetNamedDoubleValue(System.String,System.String)
+  id: GetNamedDoubleValue(System.String,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: GetNamedDoubleValue(String, String)
+  nameWithType: CollectionOps.GetNamedDoubleValue(String, String)
+  fullName: SuperOffice.Util.CollectionOps.GetNamedDoubleValue(System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nFind and parse a double-typed option in a named-value string, and return the result\n"
+  syntax:
+    content: public static double GetNamedDoubleValue(this string nameValueString, string nameToFind)
+    parameters:
+    - id: nameValueString
+      type: System.String
+      description: Name/value collection string; empty and null are legal
+    - id: nameToFind
+      type: System.String
+      description: Name of key to find (case insensitive)
+    return:
+      type: System.Double
+      description: double value, or 0.0 if option not found or invalid format
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetNamedDoubleValue(nameValueString As String, nameToFind As String) As Double
+  overload: SuperOffice.Util.CollectionOps.GetNamedDoubleValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.CollectionOps.ReplaceNamedValue(System.String,System.String,System.String)
+  commentId: M:SuperOffice.Util.CollectionOps.ReplaceNamedValue(System.String,System.String,System.String)
+  id: ReplaceNamedValue(System.String,System.String,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: ReplaceNamedValue(String, String, String)
+  nameWithType: CollectionOps.ReplaceNamedValue(String, String, String)
+  fullName: SuperOffice.Util.CollectionOps.ReplaceNamedValue(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nReplace a value in a name/value collection string of the form name=value&amp;name2=value2\n"
+  syntax:
+    content: public static string ReplaceNamedValue(this string nameValueString, string keyName, string value)
+    parameters:
+    - id: nameValueString
+      type: System.String
+      description: Name/value collection string; empty and null are legal
+    - id: keyName
+      type: System.String
+      description: Name of key to find (case insensitive)
+    - id: value
+      type: System.String
+      description: New value to set
+    return:
+      type: System.String
+      description: Updated collection string
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ReplaceNamedValue(nameValueString As String, keyName As String, value As String) As String
+  overload: SuperOffice.Util.CollectionOps.ReplaceNamedValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.CollectionOps.RemoveNamedValue(System.String,System.String)
+  commentId: M:SuperOffice.Util.CollectionOps.RemoveNamedValue(System.String,System.String)
+  id: RemoveNamedValue(System.String,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: RemoveNamedValue(String, String)
+  nameWithType: CollectionOps.RemoveNamedValue(String, String)
+  fullName: SuperOffice.Util.CollectionOps.RemoveNamedValue(System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nRemove values in a name/value collection string of the form name=value&amp;name2=value2.\nAll occurances of the key will be removed.\n"
+  syntax:
+    content: public static string RemoveNamedValue(this string nameValueString, string keyName)
+    parameters:
+    - id: nameValueString
+      type: System.String
+      description: Name/value collection string; empty and null are legal
+    - id: keyName
+      type: System.String
+      description: Name of key to find (case insensitive)
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function RemoveNamedValue(nameValueString As String, keyName As String) As String
+  overload: SuperOffice.Util.CollectionOps.RemoveNamedValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.CollectionOps.AddNamedValue(System.String,System.String)
+  commentId: M:SuperOffice.Util.CollectionOps.AddNamedValue(System.String,System.String)
+  id: AddNamedValue(System.String,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: AddNamedValue(String, String)
+  nameWithType: CollectionOps.AddNamedValue(String, String)
+  fullName: SuperOffice.Util.CollectionOps.AddNamedValue(System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nAdd a value to a name/value collection string of the form name=value&amp;name2=value2\n"
+  syntax:
+    content: public static string AddNamedValue(this string nameValueString, string addNameValue)
+    parameters:
+    - id: nameValueString
+      type: System.String
+      description: Name/value collection string; empty and null are legal
+    - id: addNameValue
+      type: System.String
+      description: Name/value to add (no search, will always be added)
+    return:
+      type: System.String
+      description: Updated collection string
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddNamedValue(nameValueString As String, addNameValue As String) As String
+  overload: SuperOffice.Util.CollectionOps.AddNamedValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.CollectionOps.AddNamedValue(System.String,System.String,System.String)
+  commentId: M:SuperOffice.Util.CollectionOps.AddNamedValue(System.String,System.String,System.String)
+  id: AddNamedValue(System.String,System.String,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: AddNamedValue(String, String, String)
+  nameWithType: CollectionOps.AddNamedValue(String, String, String)
+  fullName: SuperOffice.Util.CollectionOps.AddNamedValue(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nAdd a value to a name/value collection string of the form name=value&amp;name2=value2\n"
+  syntax:
+    content: public static string AddNamedValue(this string nameValueString, string name, string value)
+    parameters:
+    - id: nameValueString
+      type: System.String
+      description: Name/value collection string; empty and null are legal
+    - id: name
+      type: System.String
+      description: Name to add (no search, will always be added)
+    - id: value
+      type: System.String
+      description: Value to add
+    return:
+      type: System.String
+      description: Updated collection string
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddNamedValue(nameValueString As String, name As String, value As String) As String
+  overload: SuperOffice.Util.CollectionOps.AddNamedValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.CollectionOps.SortNamedValuesByNames(System.String)
+  commentId: M:SuperOffice.Util.CollectionOps.SortNamedValuesByNames(System.String)
+  id: SortNamedValuesByNames(System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: SortNamedValuesByNames(String)
+  nameWithType: CollectionOps.SortNamedValuesByNames(String)
+  fullName: SuperOffice.Util.CollectionOps.SortNamedValuesByNames(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nSort a name/value collection string of the form name=value&amp;name2=value2 by key names alphabetically ascending\n"
+  syntax:
+    content: public static string SortNamedValuesByNames(this string nameValueString)
+    parameters:
+    - id: nameValueString
+      type: System.String
+      description: Name/value collection to sort
+    return:
+      type: System.String
+      description: Name/values is sorted order
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SortNamedValuesByNames(nameValueString As String) As String
+  overload: SuperOffice.Util.CollectionOps.SortNamedValuesByNames*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.CollectionOps.ParseDelimitedStringToIntArray(System.String)
+  commentId: M:SuperOffice.Util.CollectionOps.ParseDelimitedStringToIntArray(System.String)
+  id: ParseDelimitedStringToIntArray(System.String)
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: ParseDelimitedStringToIntArray(String)
+  nameWithType: CollectionOps.ParseDelimitedStringToIntArray(String)
+  fullName: SuperOffice.Util.CollectionOps.ParseDelimitedStringToIntArray(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nParse a delimited string like &apos;1, 3,4,56,   23 15&apos; to the int[]{1, 3, 4, 56, 23, 15}.\nThis overload uses space, comma and semicolon as delimiters.\n"
+  remarks: "\nThis method will split apart the input string according to the delimiters, treating multiple consecutive delimiters as one.\nEach substring will be parsed using int.<xref href=\"System.Int32.TryParse(System.String%2cSystem.Int32%40)\" data-throw-if-not-resolved=\"false\"></xref>, and the result\nplaced in the return list. If TryParse fails, no value is parsed (no exceptions thrown).\nAn empty input will yield an empty (Length == 0) result.\n"
+  syntax:
+    content: public static List<int> ParseDelimitedStringToIntArray(string delimitedString)
+    parameters:
+    - id: delimitedString
+      type: System.String
+      description: Input string
+    return:
+      type: System.Collections.Generic.List{System.Int32}
+      description: Int array of parseable values
+    content.vb: Public Shared Function ParseDelimitedStringToIntArray(delimitedString As String) As List(Of Integer)
+  overload: SuperOffice.Util.CollectionOps.ParseDelimitedStringToIntArray*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.CollectionOps.ParseDelimitedStringToIntArray(System.String,System.Char[])
+  commentId: M:SuperOffice.Util.CollectionOps.ParseDelimitedStringToIntArray(System.String,System.Char[])
+  id: ParseDelimitedStringToIntArray(System.String,System.Char[])
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: ParseDelimitedStringToIntArray(String, Char[])
+  nameWithType: CollectionOps.ParseDelimitedStringToIntArray(String, Char[])
+  fullName: SuperOffice.Util.CollectionOps.ParseDelimitedStringToIntArray(System.String, System.Char[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nParse a delimited string like &apos;1, 3,4,56,   23 15&apos; to the int[]{1, 3, 4, 56, 23, 15}\n"
+  remarks: "\nThis method will split apart the input string according to the delimiters, treating multiple consecutive delimiters as one.\nEach substring will be parsed using int.<xref href=\"System.Int32.TryParse(System.String%2cSystem.Int32%40)\" data-throw-if-not-resolved=\"false\"></xref>, and the result\nplaced in the return list. If TryParse fails, no value is parsed (no exceptions thrown).\nAn empty input will yield an empty (Length == 0) result.\n"
+  syntax:
+    content: public static List<int> ParseDelimitedStringToIntArray(string delimitedString, params char[] delimiters)
+    parameters:
+    - id: delimitedString
+      type: System.String
+      description: Input string
+    - id: delimiters
+      type: System.Char[]
+      description: Array of delimiter characters; multiple consecutive delimiters will count as one
+    return:
+      type: System.Collections.Generic.List{System.Int32}
+      description: Int array of parseable values
+    content.vb: Public Shared Function ParseDelimitedStringToIntArray(delimitedString As String, ParamArray delimiters As Char()) As List(Of Integer)
+  overload: SuperOffice.Util.CollectionOps.ParseDelimitedStringToIntArray*
+  nameWithType.vb: CollectionOps.ParseDelimitedStringToIntArray(String, Char())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.ParseDelimitedStringToIntArray(System.String, System.Char())
+  name.vb: ParseDelimitedStringToIntArray(String, Char())
+- uid: SuperOffice.Util.CollectionOps.StringDictionaryToStringArray(System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.Util.CollectionOps.StringDictionaryToStringArray(System.Collections.Generic.Dictionary{System.String,System.String})
+  id: StringDictionaryToStringArray(System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: StringDictionaryToStringArray(Dictionary<String, String>)
+  nameWithType: CollectionOps.StringDictionaryToStringArray(Dictionary<String, String>)
+  fullName: SuperOffice.Util.CollectionOps.StringDictionaryToStringArray(System.Collections.Generic.Dictionary<System.String, System.String>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConvert a <see cref=\"!:StringDictionary\"></see> into an array of key=value strings\n"
+  syntax:
+    content: public static string[] StringDictionaryToStringArray(Dictionary<string, string> input)
+    parameters:
+    - id: input
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      description: Input dictionary, sincerely hoping none of the keys contain an equals sign. null and empty are both legal
+    return:
+      type: System.String[]
+      description: Array of key=value pairs, each a string. Empty array if input was null or empty
+    content.vb: Public Shared Function StringDictionaryToStringArray(input As Dictionary(Of String, String)) As String()
+  overload: SuperOffice.Util.CollectionOps.StringDictionaryToStringArray*
+  nameWithType.vb: CollectionOps.StringDictionaryToStringArray(Dictionary(Of String, String))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.StringDictionaryToStringArray(System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: StringDictionaryToStringArray(Dictionary(Of String, String))
+- uid: SuperOffice.Util.CollectionOps.StringArrayToStringDictionary(System.String[])
+  commentId: M:SuperOffice.Util.CollectionOps.StringArrayToStringDictionary(System.String[])
+  id: StringArrayToStringDictionary(System.String[])
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: StringArrayToStringDictionary(String[])
+  nameWithType: CollectionOps.StringArrayToStringDictionary(String[])
+  fullName: SuperOffice.Util.CollectionOps.StringArrayToStringDictionary(System.String[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConvert an array of key=value pairs into a <see cref=\"!:StringDictionary\"></see>, using the\nfirst equals sign in each string as the key/value delimiter\n"
+  syntax:
+    content: public static Dictionary<string, string> StringArrayToStringDictionary(string[] input)
+    parameters:
+    - id: input
+      type: System.String[]
+      description: String array, null and empty are both legal
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      description: StringDictionary based on input array. Duplicate keys are skipped and their values are lost
+    content.vb: Public Shared Function StringArrayToStringDictionary(input As String()) As Dictionary(Of String, String)
+  overload: SuperOffice.Util.CollectionOps.StringArrayToStringDictionary*
+  nameWithType.vb: CollectionOps.StringArrayToStringDictionary(String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.StringArrayToStringDictionary(System.String())
+  name.vb: StringArrayToStringDictionary(String())
+- uid: SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
+  commentId: M:SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
+  id: AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
+  isExtensionMethod: true
+  parent: SuperOffice.Util.CollectionOps
+  langs:
+  - csharp
+  - vb
+  name: AtLeastOne<T>(IEnumerable<T>)
+  nameWithType: CollectionOps.AtLeastOne<T>(IEnumerable<T>)
+  fullName: SuperOffice.Util.CollectionOps.AtLeastOne<T>(System.Collections.Generic.IEnumerable<T>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static IEnumerable<T> AtLeastOne<T>(this IEnumerable<T> sequence)
+    parameters:
+    - id: sequence
+      type: System.Collections.Generic.IEnumerable{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AtLeastOne(Of T)(sequence As IEnumerable(Of T)) As IEnumerable(Of T)
+  overload: SuperOffice.Util.CollectionOps.AtLeastOne*
+  nameWithType.vb: CollectionOps.AtLeastOne(Of T)(IEnumerable(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.CollectionOps.AtLeastOne(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  name.vb: AtLeastOne(Of T)(IEnumerable(Of T))
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Util.CollectionOps.DeepCloneArray*
+  commentId: Overload:SuperOffice.Util.CollectionOps.DeepCloneArray
+  isExternal: true
+  name: DeepCloneArray
+  nameWithType: CollectionOps.DeepCloneArray
+  fullName: SuperOffice.Util.CollectionOps.DeepCloneArray
+- uid: '{T}[]'
+  isExternal: true
+  name: T[]
+  nameWithType: T[]
+  fullName: T[]
+  nameWithType.vb: T()
+  fullName.vb: T()
+  name.vb: T()
+  spec.csharp:
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Util.CollectionOps.CloneArray*
+  commentId: Overload:SuperOffice.Util.CollectionOps.CloneArray
+  isExternal: true
+  name: CloneArray
+  nameWithType: CollectionOps.CloneArray
+  fullName: SuperOffice.Util.CollectionOps.CloneArray
+- uid: '{MemberType}[]'
+  isExternal: true
+  name: MemberType[]
+  nameWithType: MemberType[]
+  fullName: MemberType[]
+  nameWithType.vb: MemberType()
+  fullName.vb: MemberType()
+  name.vb: MemberType()
+  spec.csharp:
+  - name: MemberType
+    nameWithType: MemberType
+    fullName: MemberType
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - name: MemberType
+    nameWithType: MemberType
+    fullName: MemberType
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Util.CollectionOps.ArraysEquivalent*
+  commentId: Overload:SuperOffice.Util.CollectionOps.ArraysEquivalent
+  isExternal: true
+  name: ArraysEquivalent
+  nameWithType: CollectionOps.ArraysEquivalent
+  fullName: SuperOffice.Util.CollectionOps.ArraysEquivalent
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Util.CollectionOps.ConvertArray*
+  commentId: Overload:SuperOffice.Util.CollectionOps.ConvertArray
+  isExternal: true
+  name: ConvertArray
+  nameWithType: CollectionOps.ConvertArray
+  fullName: SuperOffice.Util.CollectionOps.ConvertArray
+- uid: '{SourceType}[]'
+  isExternal: true
+  name: SourceType[]
+  nameWithType: SourceType[]
+  fullName: SourceType[]
+  nameWithType.vb: SourceType()
+  fullName.vb: SourceType()
+  name.vb: SourceType()
+  spec.csharp:
+  - name: SourceType
+    nameWithType: SourceType
+    fullName: SourceType
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - name: SourceType
+    nameWithType: SourceType
+    fullName: SourceType
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Util.CollectionOps.ConvertType{{SourceType},{ReturnType}}
+  commentId: T:SuperOffice.Util.CollectionOps.ConvertType{``0,``1}
+  parent: SuperOffice.Util
+  definition: SuperOffice.Util.CollectionOps.ConvertType`2
+  name: CollectionOps.ConvertType<SourceType, ReturnType>
+  nameWithType: CollectionOps.ConvertType<SourceType, ReturnType>
+  fullName: SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>
+  nameWithType.vb: CollectionOps.ConvertType(Of SourceType, ReturnType)
+  fullName.vb: SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType)
+  name.vb: CollectionOps.ConvertType(Of SourceType, ReturnType)
+  spec.csharp:
+  - uid: SuperOffice.Util.CollectionOps.ConvertType`2
+    name: CollectionOps.ConvertType
+    nameWithType: CollectionOps.ConvertType
+    fullName: SuperOffice.Util.CollectionOps.ConvertType
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: SourceType
+    nameWithType: SourceType
+    fullName: SourceType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ReturnType
+    nameWithType: ReturnType
+    fullName: ReturnType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Util.CollectionOps.ConvertType`2
+    name: CollectionOps.ConvertType
+    nameWithType: CollectionOps.ConvertType
+    fullName: SuperOffice.Util.CollectionOps.ConvertType
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: SourceType
+    nameWithType: SourceType
+    fullName: SourceType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ReturnType
+    nameWithType: ReturnType
+    fullName: ReturnType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: '{ReturnType}[]'
+  isExternal: true
+  name: ReturnType[]
+  nameWithType: ReturnType[]
+  fullName: ReturnType[]
+  nameWithType.vb: ReturnType()
+  fullName.vb: ReturnType()
+  name.vb: ReturnType()
+  spec.csharp:
+  - name: ReturnType
+    nameWithType: ReturnType
+    fullName: ReturnType
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - name: ReturnType
+    nameWithType: ReturnType
+    fullName: ReturnType
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Util.CollectionOps.ConvertType`2
+  commentId: T:SuperOffice.Util.CollectionOps.ConvertType`2
+  isExternal: true
+  name: CollectionOps.ConvertType<SourceType, ReturnType>
+  nameWithType: CollectionOps.ConvertType<SourceType, ReturnType>
+  fullName: SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>
+  nameWithType.vb: CollectionOps.ConvertType(Of SourceType, ReturnType)
+  fullName.vb: SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType)
+  name.vb: CollectionOps.ConvertType(Of SourceType, ReturnType)
+  spec.csharp:
+  - uid: SuperOffice.Util.CollectionOps.ConvertType`2
+    name: CollectionOps.ConvertType
+    nameWithType: CollectionOps.ConvertType
+    fullName: SuperOffice.Util.CollectionOps.ConvertType
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: SourceType
+    nameWithType: SourceType
+    fullName: SourceType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ReturnType
+    nameWithType: ReturnType
+    fullName: ReturnType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Util.CollectionOps.ConvertType`2
+    name: CollectionOps.ConvertType
+    nameWithType: CollectionOps.ConvertType
+    fullName: SuperOffice.Util.CollectionOps.ConvertType
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: SourceType
+    nameWithType: SourceType
+    fullName: SourceType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ReturnType
+    nameWithType: ReturnType
+    fullName: ReturnType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Predicate{{SourceType}}
+  commentId: T:System.Predicate{``0}
+  parent: System
+  definition: System.Predicate`1
+  name: Predicate<SourceType>
+  nameWithType: Predicate<SourceType>
+  fullName: System.Predicate<SourceType>
+  nameWithType.vb: Predicate(Of SourceType)
+  fullName.vb: System.Predicate(Of SourceType)
+  name.vb: Predicate(Of SourceType)
+  spec.csharp:
+  - uid: System.Predicate`1
+    name: Predicate
+    nameWithType: Predicate
+    fullName: System.Predicate
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: SourceType
+    nameWithType: SourceType
+    fullName: SourceType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Predicate`1
+    name: Predicate
+    nameWithType: Predicate
+    fullName: System.Predicate
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: SourceType
+    nameWithType: SourceType
+    fullName: SourceType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Predicate`1
+  commentId: T:System.Predicate`1
+  isExternal: true
+  name: Predicate<T>
+  nameWithType: Predicate<T>
+  fullName: System.Predicate<T>
+  nameWithType.vb: Predicate(Of T)
+  fullName.vb: System.Predicate(Of T)
+  name.vb: Predicate(Of T)
+  spec.csharp:
+  - uid: System.Predicate`1
+    name: Predicate
+    nameWithType: Predicate
+    fullName: System.Predicate
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Predicate`1
+    name: Predicate
+    nameWithType: Predicate
+    fullName: System.Predicate
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.CollectionOps.ConvertToArray*
+  commentId: Overload:SuperOffice.Util.CollectionOps.ConvertToArray
+  isExternal: true
+  name: ConvertToArray
+  nameWithType: CollectionOps.ConvertToArray
+  fullName: SuperOffice.Util.CollectionOps.ConvertToArray
+- uid: System.Collections.Generic.ICollection{{SourceType}}
+  commentId: T:System.Collections.Generic.ICollection{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<SourceType>
+  nameWithType: ICollection<SourceType>
+  fullName: System.Collections.Generic.ICollection<SourceType>
+  nameWithType.vb: ICollection(Of SourceType)
+  fullName.vb: System.Collections.Generic.ICollection(Of SourceType)
+  name.vb: ICollection(Of SourceType)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: SourceType
+    nameWithType: SourceType
+    fullName: SourceType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: SourceType
+    nameWithType: SourceType
+    fullName: SourceType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Util.CollectionOps.ConvertToStringArray*
+  commentId: Overload:SuperOffice.Util.CollectionOps.ConvertToStringArray
+  isExternal: true
+  name: ConvertToStringArray
+  nameWithType: CollectionOps.ConvertToStringArray
+  fullName: SuperOffice.Util.CollectionOps.ConvertToStringArray
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Util.CollectionOps.NullToEmpty*
+  commentId: Overload:SuperOffice.Util.CollectionOps.NullToEmpty
+  isExternal: true
+  name: NullToEmpty
+  nameWithType: CollectionOps.NullToEmpty
+  fullName: SuperOffice.Util.CollectionOps.NullToEmpty
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Util.CollectionOps.DictionaryKeysToArray*
+  commentId: Overload:SuperOffice.Util.CollectionOps.DictionaryKeysToArray
+  isExternal: true
+  name: DictionaryKeysToArray
+  nameWithType: CollectionOps.DictionaryKeysToArray
+  fullName: SuperOffice.Util.CollectionOps.DictionaryKeysToArray
+- uid: System.Collections.Generic.Dictionary{{KeyType},{ValueType}}
+  commentId: T:System.Collections.Generic.Dictionary{``0,``1}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<KeyType, ValueType>
+  nameWithType: Dictionary<KeyType, ValueType>
+  fullName: System.Collections.Generic.Dictionary<KeyType, ValueType>
+  nameWithType.vb: Dictionary(Of KeyType, ValueType)
+  fullName.vb: System.Collections.Generic.Dictionary(Of KeyType, ValueType)
+  name.vb: Dictionary(Of KeyType, ValueType)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: KeyType
+    nameWithType: KeyType
+    fullName: KeyType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ValueType
+    nameWithType: ValueType
+    fullName: ValueType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: KeyType
+    nameWithType: KeyType
+    fullName: KeyType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ValueType
+    nameWithType: ValueType
+    fullName: ValueType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: '{KeyType}[]'
+  isExternal: true
+  name: KeyType[]
+  nameWithType: KeyType[]
+  fullName: KeyType[]
+  nameWithType.vb: KeyType()
+  fullName.vb: KeyType()
+  name.vb: KeyType()
+  spec.csharp:
+  - name: KeyType
+    nameWithType: KeyType
+    fullName: KeyType
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - name: KeyType
+    nameWithType: KeyType
+    fullName: KeyType
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.CollectionOps.DictionaryValuesToArray*
+  commentId: Overload:SuperOffice.Util.CollectionOps.DictionaryValuesToArray
+  isExternal: true
+  name: DictionaryValuesToArray
+  nameWithType: CollectionOps.DictionaryValuesToArray
+  fullName: SuperOffice.Util.CollectionOps.DictionaryValuesToArray
+- uid: '{ValueType}[]'
+  isExternal: true
+  name: ValueType[]
+  nameWithType: ValueType[]
+  fullName: ValueType[]
+  nameWithType.vb: ValueType()
+  fullName.vb: ValueType()
+  name.vb: ValueType()
+  spec.csharp:
+  - name: ValueType
+    nameWithType: ValueType
+    fullName: ValueType
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - name: ValueType
+    nameWithType: ValueType
+    fullName: ValueType
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Util.CollectionOps.GetFirstElement*
+  commentId: Overload:SuperOffice.Util.CollectionOps.GetFirstElement
+  isExternal: true
+  name: GetFirstElement
+  nameWithType: CollectionOps.GetFirstElement
+  fullName: SuperOffice.Util.CollectionOps.GetFirstElement
+- uid: System.Collections.Generic.Dictionary{{K},{V}}
+  commentId: T:System.Collections.Generic.Dictionary{``0,``1}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<K, V>
+  nameWithType: Dictionary<K, V>
+  fullName: System.Collections.Generic.Dictionary<K, V>
+  nameWithType.vb: Dictionary(Of K, V)
+  fullName.vb: System.Collections.Generic.Dictionary(Of K, V)
+  name.vb: Dictionary(Of K, V)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.KeyValuePair{{K},{V}}
+  commentId: T:System.Collections.Generic.KeyValuePair{``0,``1}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.KeyValuePair`2
+  name: KeyValuePair<K, V>
+  nameWithType: KeyValuePair<K, V>
+  fullName: System.Collections.Generic.KeyValuePair<K, V>
+  nameWithType.vb: KeyValuePair(Of K, V)
+  fullName.vb: System.Collections.Generic.KeyValuePair(Of K, V)
+  name.vb: KeyValuePair(Of K, V)
+  spec.csharp:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.KeyValuePair`2
+  commentId: T:System.Collections.Generic.KeyValuePair`2
+  isExternal: true
+  name: KeyValuePair<TKey, TValue>
+  nameWithType: KeyValuePair<TKey, TValue>
+  fullName: System.Collections.Generic.KeyValuePair<TKey, TValue>
+  nameWithType.vb: KeyValuePair(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.KeyValuePair(Of TKey, TValue)
+  name.vb: KeyValuePair(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.CollectionOps.AddToArray*
+  commentId: Overload:SuperOffice.Util.CollectionOps.AddToArray
+  isExternal: true
+  name: AddToArray
+  nameWithType: CollectionOps.AddToArray
+  fullName: SuperOffice.Util.CollectionOps.AddToArray
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: SuperOffice.Util.CollectionOps.AddToDictionary*
+  commentId: Overload:SuperOffice.Util.CollectionOps.AddToDictionary
+  isExternal: true
+  name: AddToDictionary
+  nameWithType: CollectionOps.AddToDictionary
+  fullName: SuperOffice.Util.CollectionOps.AddToDictionary
+- uid: System.Collections.Generic.Dictionary{{Key},{Value}}
+  commentId: T:System.Collections.Generic.Dictionary{``0,``1}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<Key, Value>
+  nameWithType: Dictionary<Key, Value>
+  fullName: System.Collections.Generic.Dictionary<Key, Value>
+  nameWithType.vb: Dictionary(Of Key, Value)
+  fullName.vb: System.Collections.Generic.Dictionary(Of Key, Value)
+  name.vb: Dictionary(Of Key, Value)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: Key
+    nameWithType: Key
+    fullName: Key
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: Value
+    nameWithType: Value
+    fullName: Value
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: Key
+    nameWithType: Key
+    fullName: Key
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: Value
+    nameWithType: Value
+    fullName: Value
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: '{Key}'
+  commentId: '!:Key'
+  definition: Key
+  name: Key
+  nameWithType: Key
+  fullName: Key
+- uid: '{Value}'
+  commentId: '!:Value'
+  definition: Value
+  name: Value
+  nameWithType: Value
+  fullName: Value
+- uid: Key
+  commentId: '!:Key'
+  name: Key
+  nameWithType: Key
+  fullName: Key
+- uid: Value
+  commentId: '!:Value'
+  name: Value
+  nameWithType: Value
+  fullName: Value
+- uid: SuperOffice.Util.CollectionOps.IsNullOrEmpty*
+  commentId: Overload:SuperOffice.Util.CollectionOps.IsNullOrEmpty
+  isExternal: true
+  name: IsNullOrEmpty
+  nameWithType: CollectionOps.IsNullOrEmpty
+  fullName: SuperOffice.Util.CollectionOps.IsNullOrEmpty
+- uid: '{BaseType}[]'
+  isExternal: true
+  name: BaseType[]
+  nameWithType: BaseType[]
+  fullName: BaseType[]
+  nameWithType.vb: BaseType()
+  fullName.vb: BaseType()
+  name.vb: BaseType()
+  spec.csharp:
+  - name: BaseType
+    nameWithType: BaseType
+    fullName: BaseType
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - name: BaseType
+    nameWithType: BaseType
+    fullName: BaseType
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Collections.Generic.ICollection{{BaseType}}
+  commentId: T:System.Collections.Generic.ICollection{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<BaseType>
+  nameWithType: ICollection<BaseType>
+  fullName: System.Collections.Generic.ICollection<BaseType>
+  nameWithType.vb: ICollection(Of BaseType)
+  fullName.vb: System.Collections.Generic.ICollection(Of BaseType)
+  name.vb: ICollection(Of BaseType)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: BaseType
+    nameWithType: BaseType
+    fullName: BaseType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: BaseType
+    nameWithType: BaseType
+    fullName: BaseType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray*
+  commentId: Overload:SuperOffice.Util.CollectionOps.CreateDictionaryFromArray
+  isExternal: true
+  name: CreateDictionaryFromArray
+  nameWithType: CollectionOps.CreateDictionaryFromArray
+  fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray
+- uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem{{KeyType},{ValueType}}
+  commentId: T:SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1}
+  parent: SuperOffice.Util
+  definition: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
+  name: CollectionOps.GetKeyFromValueItem<KeyType, ValueType>
+  nameWithType: CollectionOps.GetKeyFromValueItem<KeyType, ValueType>
+  fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>
+  nameWithType.vb: CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)
+  fullName.vb: SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)
+  name.vb: CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)
+  spec.csharp:
+  - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
+    name: CollectionOps.GetKeyFromValueItem
+    nameWithType: CollectionOps.GetKeyFromValueItem
+    fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: KeyType
+    nameWithType: KeyType
+    fullName: KeyType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ValueType
+    nameWithType: ValueType
+    fullName: ValueType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
+    name: CollectionOps.GetKeyFromValueItem
+    nameWithType: CollectionOps.GetKeyFromValueItem
+    fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: KeyType
+    nameWithType: KeyType
+    fullName: KeyType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ValueType
+    nameWithType: ValueType
+    fullName: ValueType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
+  commentId: T:SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
+  isExternal: true
+  name: CollectionOps.GetKeyFromValueItem<KeyType, ValueType>
+  nameWithType: CollectionOps.GetKeyFromValueItem<KeyType, ValueType>
+  fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>
+  nameWithType.vb: CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)
+  fullName.vb: SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)
+  name.vb: CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)
+  spec.csharp:
+  - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
+    name: CollectionOps.GetKeyFromValueItem
+    nameWithType: CollectionOps.GetKeyFromValueItem
+    fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: KeyType
+    nameWithType: KeyType
+    fullName: KeyType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ValueType
+    nameWithType: ValueType
+    fullName: ValueType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
+    name: CollectionOps.GetKeyFromValueItem
+    nameWithType: CollectionOps.GetKeyFromValueItem
+    fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: KeyType
+    nameWithType: KeyType
+    fullName: KeyType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ValueType
+    nameWithType: ValueType
+    fullName: ValueType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEqualityComparer{{KeyType}}
+  commentId: T:System.Collections.Generic.IEqualityComparer{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEqualityComparer`1
+  name: IEqualityComparer<KeyType>
+  nameWithType: IEqualityComparer<KeyType>
+  fullName: System.Collections.Generic.IEqualityComparer<KeyType>
+  nameWithType.vb: IEqualityComparer(Of KeyType)
+  fullName.vb: System.Collections.Generic.IEqualityComparer(Of KeyType)
+  name.vb: IEqualityComparer(Of KeyType)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: KeyType
+    nameWithType: KeyType
+    fullName: KeyType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: KeyType
+    nameWithType: KeyType
+    fullName: KeyType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEqualityComparer`1
+  commentId: T:System.Collections.Generic.IEqualityComparer`1
+  isExternal: true
+  name: IEqualityComparer<T>
+  nameWithType: IEqualityComparer<T>
+  fullName: System.Collections.Generic.IEqualityComparer<T>
+  nameWithType.vb: IEqualityComparer(Of T)
+  fullName.vb: System.Collections.Generic.IEqualityComparer(Of T)
+  name.vb: IEqualityComparer(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Predicate{{ValueType}}
+  commentId: T:System.Predicate{``1}
+  parent: System
+  definition: System.Predicate`1
+  name: Predicate<ValueType>
+  nameWithType: Predicate<ValueType>
+  fullName: System.Predicate<ValueType>
+  nameWithType.vb: Predicate(Of ValueType)
+  fullName.vb: System.Predicate(Of ValueType)
+  name.vb: Predicate(Of ValueType)
+  spec.csharp:
+  - uid: System.Predicate`1
+    name: Predicate
+    nameWithType: Predicate
+    fullName: System.Predicate
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ValueType
+    nameWithType: ValueType
+    fullName: ValueType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Predicate`1
+    name: Predicate
+    nameWithType: Predicate
+    fullName: System.Predicate
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ValueType
+    nameWithType: ValueType
+    fullName: ValueType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection*
+  commentId: Overload:SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection
+  isExternal: true
+  name: CreateDictionaryFromCollection
+  nameWithType: CollectionOps.CreateDictionaryFromCollection
+  fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromCollection
+- uid: System.Collections.Generic.ICollection{{ValueType}}
+  commentId: T:System.Collections.Generic.ICollection{``1}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<ValueType>
+  nameWithType: ICollection<ValueType>
+  fullName: System.Collections.Generic.ICollection<ValueType>
+  nameWithType.vb: ICollection(Of ValueType)
+  fullName.vb: System.Collections.Generic.ICollection(Of ValueType)
+  name.vb: ICollection(Of ValueType)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ValueType
+    nameWithType: ValueType
+    fullName: ValueType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ValueType
+    nameWithType: ValueType
+    fullName: ValueType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable*
+  commentId: Overload:SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable
+  isExternal: true
+  name: CreateDictionaryFromEnumerable
+  nameWithType: CollectionOps.CreateDictionaryFromEnumerable
+  fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromEnumerable
+- uid: System.Collections.Generic.IEnumerable{{ValueType}}
+  commentId: T:System.Collections.Generic.IEnumerable{``1}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ValueType>
+  nameWithType: IEnumerable<ValueType>
+  fullName: System.Collections.Generic.IEnumerable<ValueType>
+  nameWithType.vb: IEnumerable(Of ValueType)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of ValueType)
+  name.vb: IEnumerable(Of ValueType)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ValueType
+    nameWithType: ValueType
+    fullName: ValueType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ValueType
+    nameWithType: ValueType
+    fullName: ValueType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.CollectionOps.AddRange*
+  commentId: Overload:SuperOffice.Util.CollectionOps.AddRange
+  isExternal: true
+  name: AddRange
+  nameWithType: CollectionOps.AddRange
+  fullName: SuperOffice.Util.CollectionOps.AddRange
+- uid: System.Collections.Generic.Dictionary{{T},{S}}
+  commentId: T:System.Collections.Generic.Dictionary{``0,``1}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<T, S>
+  nameWithType: Dictionary<T, S>
+  fullName: System.Collections.Generic.Dictionary<T, S>
+  nameWithType.vb: Dictionary(Of T, S)
+  fullName.vb: System.Collections.Generic.Dictionary(Of T, S)
+  name.vb: Dictionary(Of T, S)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.CollectionOps.AddToDictionaryList*
+  commentId: Overload:SuperOffice.Util.CollectionOps.AddToDictionaryList
+  isExternal: true
+  name: AddToDictionaryList
+  nameWithType: CollectionOps.AddToDictionaryList
+  fullName: SuperOffice.Util.CollectionOps.AddToDictionaryList
+- uid: System.Collections.Generic.Dictionary{{KeyType},System.Collections.Generic.List{{ValueType}}}
+  commentId: T:System.Collections.Generic.Dictionary{``0,System.Collections.Generic.List{``1}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<KeyType, List<ValueType>>
+  nameWithType: Dictionary<KeyType, List<ValueType>>
+  fullName: System.Collections.Generic.Dictionary<KeyType, System.Collections.Generic.List<ValueType>>
+  nameWithType.vb: Dictionary(Of KeyType, List(Of ValueType))
+  fullName.vb: System.Collections.Generic.Dictionary(Of KeyType, System.Collections.Generic.List(Of ValueType))
+  name.vb: Dictionary(Of KeyType, List(Of ValueType))
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: KeyType
+    nameWithType: KeyType
+    fullName: KeyType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ValueType
+    nameWithType: ValueType
+    fullName: ValueType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: KeyType
+    nameWithType: KeyType
+    fullName: KeyType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ValueType
+    nameWithType: ValueType
+    fullName: ValueType
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: '{KeyType}'
+  commentId: '!:KeyType'
+  definition: KeyType
+  name: KeyType
+  nameWithType: KeyType
+  fullName: KeyType
+- uid: '{ValueType}'
+  commentId: '!:ValueType'
+  definition: ValueType
+  name: ValueType
+  nameWithType: ValueType
+  fullName: ValueType
+- uid: KeyType
+  name: KeyType
+  nameWithType: KeyType
+  fullName: KeyType
+- uid: ValueType
+  name: ValueType
+  nameWithType: ValueType
+  fullName: ValueType
+- uid: SuperOffice.Util.CollectionOps.GetPairs*
+  commentId: Overload:SuperOffice.Util.CollectionOps.GetPairs
+  isExternal: true
+  name: GetPairs
+  nameWithType: CollectionOps.GetPairs
+  fullName: SuperOffice.Util.CollectionOps.GetPairs
+- uid: System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.String,System.String}}
+  commentId: T:System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.String,System.String}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<KeyValuePair<String, String>>
+  nameWithType: List<KeyValuePair<String, String>>
+  fullName: System.Collections.Generic.List<System.Collections.Generic.KeyValuePair<System.String, System.String>>
+  nameWithType.vb: List(Of KeyValuePair(Of String, String))
+  fullName.vb: System.Collections.Generic.List(Of System.Collections.Generic.KeyValuePair(Of System.String, System.String))
+  name.vb: List(Of KeyValuePair(Of String, String))
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.CollectionOps.GetNamedValue*
+  commentId: Overload:SuperOffice.Util.CollectionOps.GetNamedValue
+  isExternal: true
+  name: GetNamedValue
+  nameWithType: CollectionOps.GetNamedValue
+  fullName: SuperOffice.Util.CollectionOps.GetNamedValue
+- uid: SuperOffice.Util.CollectionOps.GetNamedBoolValue*
+  commentId: Overload:SuperOffice.Util.CollectionOps.GetNamedBoolValue
+  isExternal: true
+  name: GetNamedBoolValue
+  nameWithType: CollectionOps.GetNamedBoolValue
+  fullName: SuperOffice.Util.CollectionOps.GetNamedBoolValue
+- uid: SuperOffice.Util.CollectionOps.HasName*
+  commentId: Overload:SuperOffice.Util.CollectionOps.HasName
+  isExternal: true
+  name: HasName
+  nameWithType: CollectionOps.HasName
+  fullName: SuperOffice.Util.CollectionOps.HasName
+- uid: SuperOffice.Util.CollectionOps.GetNamedIntValue*
+  commentId: Overload:SuperOffice.Util.CollectionOps.GetNamedIntValue
+  isExternal: true
+  name: GetNamedIntValue
+  nameWithType: CollectionOps.GetNamedIntValue
+  fullName: SuperOffice.Util.CollectionOps.GetNamedIntValue
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Util.CollectionOps.GetNamedDateTimeValue*
+  commentId: Overload:SuperOffice.Util.CollectionOps.GetNamedDateTimeValue
+  isExternal: true
+  name: GetNamedDateTimeValue
+  nameWithType: CollectionOps.GetNamedDateTimeValue
+  fullName: SuperOffice.Util.CollectionOps.GetNamedDateTimeValue
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.Util.CollectionOps.GetNamedDoubleValue*
+  commentId: Overload:SuperOffice.Util.CollectionOps.GetNamedDoubleValue
+  isExternal: true
+  name: GetNamedDoubleValue
+  nameWithType: CollectionOps.GetNamedDoubleValue
+  fullName: SuperOffice.Util.CollectionOps.GetNamedDoubleValue
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.Util.CollectionOps.ReplaceNamedValue*
+  commentId: Overload:SuperOffice.Util.CollectionOps.ReplaceNamedValue
+  isExternal: true
+  name: ReplaceNamedValue
+  nameWithType: CollectionOps.ReplaceNamedValue
+  fullName: SuperOffice.Util.CollectionOps.ReplaceNamedValue
+- uid: SuperOffice.Util.CollectionOps.RemoveNamedValue*
+  commentId: Overload:SuperOffice.Util.CollectionOps.RemoveNamedValue
+  isExternal: true
+  name: RemoveNamedValue
+  nameWithType: CollectionOps.RemoveNamedValue
+  fullName: SuperOffice.Util.CollectionOps.RemoveNamedValue
+- uid: SuperOffice.Util.CollectionOps.AddNamedValue*
+  commentId: Overload:SuperOffice.Util.CollectionOps.AddNamedValue
+  isExternal: true
+  name: AddNamedValue
+  nameWithType: CollectionOps.AddNamedValue
+  fullName: SuperOffice.Util.CollectionOps.AddNamedValue
+- uid: SuperOffice.Util.CollectionOps.SortNamedValuesByNames*
+  commentId: Overload:SuperOffice.Util.CollectionOps.SortNamedValuesByNames
+  isExternal: true
+  name: SortNamedValuesByNames
+  nameWithType: CollectionOps.SortNamedValuesByNames
+  fullName: SuperOffice.Util.CollectionOps.SortNamedValuesByNames
+- uid: SuperOffice.Util.CollectionOps.ParseDelimitedStringToIntArray*
+  commentId: Overload:SuperOffice.Util.CollectionOps.ParseDelimitedStringToIntArray
+  isExternal: true
+  name: ParseDelimitedStringToIntArray
+  nameWithType: CollectionOps.ParseDelimitedStringToIntArray
+  fullName: SuperOffice.Util.CollectionOps.ParseDelimitedStringToIntArray
+- uid: System.Collections.Generic.List{System.Int32}
+  commentId: T:System.Collections.Generic.List{System.Int32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Int32>
+  nameWithType: List<Int32>
+  fullName: System.Collections.Generic.List<System.Int32>
+  nameWithType.vb: List(Of Int32)
+  fullName.vb: System.Collections.Generic.List(Of System.Int32)
+  name.vb: List(Of Int32)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Char[]
+  isExternal: true
+  name: Char[]
+  nameWithType: Char[]
+  fullName: System.Char[]
+  nameWithType.vb: Char()
+  fullName.vb: System.Char()
+  name.vb: Char()
+  spec.csharp:
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Util.CollectionOps.StringDictionaryToStringArray*
+  commentId: Overload:SuperOffice.Util.CollectionOps.StringDictionaryToStringArray
+  isExternal: true
+  name: StringDictionaryToStringArray
+  nameWithType: CollectionOps.StringDictionaryToStringArray
+  fullName: SuperOffice.Util.CollectionOps.StringDictionaryToStringArray
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.CollectionOps.StringArrayToStringDictionary*
+  commentId: Overload:SuperOffice.Util.CollectionOps.StringArrayToStringDictionary
+  isExternal: true
+  name: StringArrayToStringDictionary
+  nameWithType: CollectionOps.StringArrayToStringDictionary
+  fullName: SuperOffice.Util.CollectionOps.StringArrayToStringDictionary
+- uid: SuperOffice.Util.CollectionOps.AtLeastOne*
+  commentId: Overload:SuperOffice.Util.CollectionOps.AtLeastOne
+  isExternal: true
+  name: AtLeastOne
+  nameWithType: CollectionOps.AtLeastOne
+  fullName: SuperOffice.Util.CollectionOps.AtLeastOne
+- uid: System.Collections.Generic.IEnumerable{{T}}
+  commentId: T:System.Collections.Generic.IEnumerable{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

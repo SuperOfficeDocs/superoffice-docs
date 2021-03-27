@@ -1,0 +1,495 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest
+  commentId: T:SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest
+  id: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.#ctor
+  - SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.AppointmentId
+  - SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.ContactId
+  - SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.CustomTags
+  - SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.CustomValues
+  - SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.DocumentId
+  - SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.PersonId
+  - SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.ProjectId
+  - SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.SaleId
+  - SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.SelectionId
+  - SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.UiCulture
+  langs:
+  - csharp
+  - vb
+  name: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest
+  nameWithType: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest
+  fullName: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest : Object'
+    content.vb: >-
+      Public Class Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest
+  langs:
+  - csharp
+  - vb
+  name: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest()
+  nameWithType: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest()
+  fullName: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.ContactId
+  commentId: P:SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.ContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.ContactId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.PersonId
+  commentId: P:SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.AppointmentId
+  commentId: P:SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.AppointmentId
+  fullName: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.AppointmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AppointmentId As Integer
+  overload: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.AppointmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.DocumentId
+  commentId: P:SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.DocumentId
+  id: DocumentId
+  parent: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.DocumentId
+  fullName: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.DocumentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DocumentId As Integer
+  overload: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.DocumentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.SaleId
+  commentId: P:SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.SaleId
+  id: SaleId
+  parent: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.SaleId
+  fullName: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.SaleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SaleId As Integer
+  overload: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.SaleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.SelectionId
+  commentId: P:SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.SelectionId
+  id: SelectionId
+  parent: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SelectionId As Integer
+  overload: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.SelectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.ProjectId
+  commentId: P:SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.ProjectId
+  id: ProjectId
+  parent: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.ProjectId
+  fullName: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ProjectId As Integer
+  overload: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.ProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.CustomTags
+  commentId: P:SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.CustomTags
+  id: CustomTags
+  parent: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest
+  langs:
+  - csharp
+  - vb
+  name: CustomTags
+  nameWithType: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.CustomTags
+  fullName: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.CustomTags
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] CustomTags { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property CustomTags As String()
+  overload: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.CustomTags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.CustomValues
+  commentId: P:SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.CustomValues
+  id: CustomValues
+  parent: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest
+  langs:
+  - csharp
+  - vb
+  name: CustomValues
+  nameWithType: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.CustomValues
+  fullName: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.CustomValues
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] CustomValues { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property CustomValues As String()
+  overload: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.CustomValues*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.UiCulture
+  commentId: P:SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.UiCulture
+  id: UiCulture
+  parent: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest
+  langs:
+  - csharp
+  - vb
+  name: UiCulture
+  nameWithType: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.UiCulture
+  fullName: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.UiCulture
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string UiCulture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UiCulture As String
+  overload: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.UiCulture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.#ctor
+  isExternal: true
+  name: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest
+  nameWithType: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest
+  fullName: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest
+- uid: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.ContactId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.PersonId
+- uid: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.AppointmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.AppointmentId
+  fullName: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.AppointmentId
+- uid: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.DocumentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.DocumentId
+  fullName: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.DocumentId
+- uid: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.SaleId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.SaleId
+  fullName: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.SaleId
+- uid: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.SelectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.SelectionId
+- uid: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.ProjectId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.ProjectId
+  fullName: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.ProjectId
+- uid: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.CustomTags*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.CustomTags
+  isExternal: true
+  name: CustomTags
+  nameWithType: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.CustomTags
+  fullName: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.CustomTags
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.CustomValues*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.CustomValues
+  isExternal: true
+  name: CustomValues
+  nameWithType: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.CustomValues
+  fullName: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.CustomValues
+- uid: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.UiCulture*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.UiCulture
+  isExternal: true
+  name: UiCulture
+  nameWithType: Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.UiCulture
+  fullName: SuperOffice.WebApi.Data.Document_CreateNewPhysicalDocumentFromTemplateWithCustomTagsRequest.UiCulture
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest
+  commentId: T:SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest
+  id: List_SetRankOnProjectActivityRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest.#ctor
+  - SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest.ItemsIds
+  - SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest.ProjectTypeStatusLinkId
+  langs:
+  - csharp
+  - vb
+  name: List_SetRankOnProjectActivityRequest
+  nameWithType: List_SetRankOnProjectActivityRequest
+  fullName: SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_SetRankOnProjectActivityRequest : Object'
+    content.vb: >-
+      Public Class List_SetRankOnProjectActivityRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest
+  langs:
+  - csharp
+  - vb
+  name: List_SetRankOnProjectActivityRequest()
+  nameWithType: List_SetRankOnProjectActivityRequest.List_SetRankOnProjectActivityRequest()
+  fullName: SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest.List_SetRankOnProjectActivityRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_SetRankOnProjectActivityRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest.ProjectTypeStatusLinkId
+  commentId: P:SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest.ProjectTypeStatusLinkId
+  id: ProjectTypeStatusLinkId
+  parent: SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest
+  langs:
+  - csharp
+  - vb
+  name: ProjectTypeStatusLinkId
+  nameWithType: List_SetRankOnProjectActivityRequest.ProjectTypeStatusLinkId
+  fullName: SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest.ProjectTypeStatusLinkId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ProjectTypeStatusLinkId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ProjectTypeStatusLinkId As Integer
+  overload: SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest.ProjectTypeStatusLinkId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest.ItemsIds
+  commentId: P:SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest.ItemsIds
+  id: ItemsIds
+  parent: SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest
+  langs:
+  - csharp
+  - vb
+  name: ItemsIds
+  nameWithType: List_SetRankOnProjectActivityRequest.ItemsIds
+  fullName: SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest.ItemsIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] ItemsIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property ItemsIds As Integer()
+  overload: SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest.ItemsIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest.#ctor
+  isExternal: true
+  name: List_SetRankOnProjectActivityRequest
+  nameWithType: List_SetRankOnProjectActivityRequest.List_SetRankOnProjectActivityRequest
+  fullName: SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest.List_SetRankOnProjectActivityRequest
+- uid: SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest.ProjectTypeStatusLinkId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest.ProjectTypeStatusLinkId
+  isExternal: true
+  name: ProjectTypeStatusLinkId
+  nameWithType: List_SetRankOnProjectActivityRequest.ProjectTypeStatusLinkId
+  fullName: SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest.ProjectTypeStatusLinkId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest.ItemsIds*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest.ItemsIds
+  isExternal: true
+  name: ItemsIds
+  nameWithType: List_SetRankOnProjectActivityRequest.ItemsIds
+  fullName: SuperOffice.WebApi.Data.List_SetRankOnProjectActivityRequest.ItemsIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

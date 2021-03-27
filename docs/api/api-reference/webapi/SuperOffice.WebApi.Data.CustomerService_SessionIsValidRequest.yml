@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CustomerService_SessionIsValidRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomerService_SessionIsValidRequest
+  id: CustomerService_SessionIsValidRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CustomerService_SessionIsValidRequest.#ctor
+  - SuperOffice.WebApi.Data.CustomerService_SessionIsValidRequest.CsSessionKey
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_SessionIsValidRequest
+  nameWithType: CustomerService_SessionIsValidRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_SessionIsValidRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class CustomerService_SessionIsValidRequest : Object'
+    content.vb: >-
+      Public Class CustomerService_SessionIsValidRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CustomerService_SessionIsValidRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CustomerService_SessionIsValidRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CustomerService_SessionIsValidRequest
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_SessionIsValidRequest()
+  nameWithType: CustomerService_SessionIsValidRequest.CustomerService_SessionIsValidRequest()
+  fullName: SuperOffice.WebApi.Data.CustomerService_SessionIsValidRequest.CustomerService_SessionIsValidRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CustomerService_SessionIsValidRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CustomerService_SessionIsValidRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerService_SessionIsValidRequest.CsSessionKey
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_SessionIsValidRequest.CsSessionKey
+  id: CsSessionKey
+  parent: SuperOffice.WebApi.Data.CustomerService_SessionIsValidRequest
+  langs:
+  - csharp
+  - vb
+  name: CsSessionKey
+  nameWithType: CustomerService_SessionIsValidRequest.CsSessionKey
+  fullName: SuperOffice.WebApi.Data.CustomerService_SessionIsValidRequest.CsSessionKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string CsSessionKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CsSessionKey As String
+  overload: SuperOffice.WebApi.Data.CustomerService_SessionIsValidRequest.CsSessionKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CustomerService_SessionIsValidRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_SessionIsValidRequest.#ctor
+  isExternal: true
+  name: CustomerService_SessionIsValidRequest
+  nameWithType: CustomerService_SessionIsValidRequest.CustomerService_SessionIsValidRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_SessionIsValidRequest.CustomerService_SessionIsValidRequest
+- uid: SuperOffice.WebApi.Data.CustomerService_SessionIsValidRequest.CsSessionKey*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_SessionIsValidRequest.CsSessionKey
+  isExternal: true
+  name: CsSessionKey
+  nameWithType: CustomerService_SessionIsValidRequest.CsSessionKey
+  fullName: SuperOffice.WebApi.Data.CustomerService_SessionIsValidRequest.CsSessionKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

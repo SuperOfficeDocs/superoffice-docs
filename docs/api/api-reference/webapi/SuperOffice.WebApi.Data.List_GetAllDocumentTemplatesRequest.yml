@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetAllDocumentTemplatesRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetAllDocumentTemplatesRequest
+  id: List_GetAllDocumentTemplatesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetAllDocumentTemplatesRequest.#ctor
+  - SuperOffice.WebApi.Data.List_GetAllDocumentTemplatesRequest.IncludeDeleted
+  langs:
+  - csharp
+  - vb
+  name: List_GetAllDocumentTemplatesRequest
+  nameWithType: List_GetAllDocumentTemplatesRequest
+  fullName: SuperOffice.WebApi.Data.List_GetAllDocumentTemplatesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetAllDocumentTemplatesRequest : Object'
+    content.vb: >-
+      Public Class List_GetAllDocumentTemplatesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetAllDocumentTemplatesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetAllDocumentTemplatesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetAllDocumentTemplatesRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetAllDocumentTemplatesRequest()
+  nameWithType: List_GetAllDocumentTemplatesRequest.List_GetAllDocumentTemplatesRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetAllDocumentTemplatesRequest.List_GetAllDocumentTemplatesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetAllDocumentTemplatesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetAllDocumentTemplatesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetAllDocumentTemplatesRequest.IncludeDeleted
+  commentId: P:SuperOffice.WebApi.Data.List_GetAllDocumentTemplatesRequest.IncludeDeleted
+  id: IncludeDeleted
+  parent: SuperOffice.WebApi.Data.List_GetAllDocumentTemplatesRequest
+  langs:
+  - csharp
+  - vb
+  name: IncludeDeleted
+  nameWithType: List_GetAllDocumentTemplatesRequest.IncludeDeleted
+  fullName: SuperOffice.WebApi.Data.List_GetAllDocumentTemplatesRequest.IncludeDeleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool IncludeDeleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeDeleted As Boolean
+  overload: SuperOffice.WebApi.Data.List_GetAllDocumentTemplatesRequest.IncludeDeleted*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetAllDocumentTemplatesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetAllDocumentTemplatesRequest.#ctor
+  isExternal: true
+  name: List_GetAllDocumentTemplatesRequest
+  nameWithType: List_GetAllDocumentTemplatesRequest.List_GetAllDocumentTemplatesRequest
+  fullName: SuperOffice.WebApi.Data.List_GetAllDocumentTemplatesRequest.List_GetAllDocumentTemplatesRequest
+- uid: SuperOffice.WebApi.Data.List_GetAllDocumentTemplatesRequest.IncludeDeleted*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetAllDocumentTemplatesRequest.IncludeDeleted
+  isExternal: true
+  name: IncludeDeleted
+  nameWithType: List_GetAllDocumentTemplatesRequest.IncludeDeleted
+  fullName: SuperOffice.WebApi.Data.List_GetAllDocumentTemplatesRequest.IncludeDeleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

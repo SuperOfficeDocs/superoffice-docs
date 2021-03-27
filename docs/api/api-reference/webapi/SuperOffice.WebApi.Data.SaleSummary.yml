@@ -1,0 +1,1262 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.SaleSummary
+  commentId: T:SuperOffice.WebApi.Data.SaleSummary
+  id: SaleSummary
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.SaleSummary.#ctor
+  - SuperOffice.WebApi.Data.SaleSummary.BaseCurrency
+  - SuperOffice.WebApi.Data.SaleSummary.CurrentOverdue
+  - SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueTotalBaseCurrency
+  - SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueTotalOwnCurrency
+  - SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueWeightedBaseCurrency
+  - SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueWeightedOwnCurrency
+  - SuperOffice.WebApi.Data.SaleSummary.FutureOpen
+  - SuperOffice.WebApi.Data.SaleSummary.FutureOpenTotalBaseCurrency
+  - SuperOffice.WebApi.Data.SaleSummary.FutureOpenTotalOwnCurrency
+  - SuperOffice.WebApi.Data.SaleSummary.FutureOpenWeightedBaseCurrency
+  - SuperOffice.WebApi.Data.SaleSummary.FutureOpenWeightedOwnCurrency
+  - SuperOffice.WebApi.Data.SaleSummary.Lost
+  - SuperOffice.WebApi.Data.SaleSummary.LostTotalBaseCurrency
+  - SuperOffice.WebApi.Data.SaleSummary.LostTotalOwnCurrency
+  - SuperOffice.WebApi.Data.SaleSummary.Open
+  - SuperOffice.WebApi.Data.SaleSummary.OpenTotalBaseCurrency
+  - SuperOffice.WebApi.Data.SaleSummary.OpenTotalOwnCurrency
+  - SuperOffice.WebApi.Data.SaleSummary.OpenWeightedBaseCurrency
+  - SuperOffice.WebApi.Data.SaleSummary.OpenWeightedOwnCurrency
+  - SuperOffice.WebApi.Data.SaleSummary.OwnCurrency
+  - SuperOffice.WebApi.Data.SaleSummary.PreviousOverdue
+  - SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueTotalBaseCurrency
+  - SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueTotalOwnCurrency
+  - SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueWeightedBaseCurrency
+  - SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueWeightedOwnCurrency
+  - SuperOffice.WebApi.Data.SaleSummary.Sold
+  - SuperOffice.WebApi.Data.SaleSummary.SoldTotalBaseCurrency
+  - SuperOffice.WebApi.Data.SaleSummary.SoldTotalOwnCurrency
+  langs:
+  - csharp
+  - vb
+  name: SaleSummary
+  nameWithType: SaleSummary
+  fullName: SuperOffice.WebApi.Data.SaleSummary
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for SaleSummary.\n\n"
+  syntax:
+    content: 'public class SaleSummary : Carrier'
+    content.vb: >-
+      Public Class SaleSummary
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.SaleAgent
+    commentId: T:SuperOffice.WebApi.Agents.SaleAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.SaleSummary.#ctor
+  commentId: M:SuperOffice.WebApi.Data.SaleSummary.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: SaleSummary()
+  nameWithType: SaleSummary.SaleSummary()
+  fullName: SuperOffice.WebApi.Data.SaleSummary.SaleSummary()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public SaleSummary()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.SaleSummary.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SaleSummary.BaseCurrency
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.BaseCurrency
+  id: BaseCurrency
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: BaseCurrency
+  nameWithType: SaleSummary.BaseCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.BaseCurrency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault currency for the installation\n"
+  syntax:
+    content: public virtual string BaseCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property BaseCurrency As String
+  overload: SuperOffice.WebApi.Data.SaleSummary.BaseCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.OwnCurrency
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.OwnCurrency
+  id: OwnCurrency
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: OwnCurrency
+  nameWithType: SaleSummary.OwnCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.OwnCurrency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault currency for the current user\n"
+  syntax:
+    content: public virtual string OwnCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property OwnCurrency As String
+  overload: SuperOffice.WebApi.Data.SaleSummary.OwnCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.SoldTotalBaseCurrency
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.SoldTotalBaseCurrency
+  id: SoldTotalBaseCurrency
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: SoldTotalBaseCurrency
+  nameWithType: SaleSummary.SoldTotalBaseCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.SoldTotalBaseCurrency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSummed amount for all sold within the period in default currency for the installation\n"
+  syntax:
+    content: public virtual double SoldTotalBaseCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property SoldTotalBaseCurrency As Double
+  overload: SuperOffice.WebApi.Data.SaleSummary.SoldTotalBaseCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.Sold
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.Sold
+  id: Sold
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: Sold
+  nameWithType: SaleSummary.Sold
+  fullName: SuperOffice.WebApi.Data.SaleSummary.Sold
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of all sold within the period\n"
+  syntax:
+    content: public virtual int Sold { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Sold As Integer
+  overload: SuperOffice.WebApi.Data.SaleSummary.Sold*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.SoldTotalOwnCurrency
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.SoldTotalOwnCurrency
+  id: SoldTotalOwnCurrency
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: SoldTotalOwnCurrency
+  nameWithType: SaleSummary.SoldTotalOwnCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.SoldTotalOwnCurrency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSummed amount for all sold within the period in default currency for the current user\n"
+  syntax:
+    content: public virtual double SoldTotalOwnCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property SoldTotalOwnCurrency As Double
+  overload: SuperOffice.WebApi.Data.SaleSummary.SoldTotalOwnCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.Lost
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.Lost
+  id: Lost
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: Lost
+  nameWithType: SaleSummary.Lost
+  fullName: SuperOffice.WebApi.Data.SaleSummary.Lost
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of all lost within the period\n"
+  syntax:
+    content: public virtual int Lost { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Lost As Integer
+  overload: SuperOffice.WebApi.Data.SaleSummary.Lost*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.LostTotalBaseCurrency
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.LostTotalBaseCurrency
+  id: LostTotalBaseCurrency
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: LostTotalBaseCurrency
+  nameWithType: SaleSummary.LostTotalBaseCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.LostTotalBaseCurrency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSummed amount for all lost within the period in default currency for the installation\n"
+  syntax:
+    content: public virtual double LostTotalBaseCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property LostTotalBaseCurrency As Double
+  overload: SuperOffice.WebApi.Data.SaleSummary.LostTotalBaseCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.LostTotalOwnCurrency
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.LostTotalOwnCurrency
+  id: LostTotalOwnCurrency
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: LostTotalOwnCurrency
+  nameWithType: SaleSummary.LostTotalOwnCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.LostTotalOwnCurrency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSummed amount for all lost within the period in default currency for the current user\n"
+  syntax:
+    content: public virtual double LostTotalOwnCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property LostTotalOwnCurrency As Double
+  overload: SuperOffice.WebApi.Data.SaleSummary.LostTotalOwnCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.Open
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.Open
+  id: Open
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: Open
+  nameWithType: SaleSummary.Open
+  fullName: SuperOffice.WebApi.Data.SaleSummary.Open
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of all open within the period\n\n"
+  syntax:
+    content: public virtual int Open { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Open As Integer
+  overload: SuperOffice.WebApi.Data.SaleSummary.Open*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.OpenTotalBaseCurrency
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.OpenTotalBaseCurrency
+  id: OpenTotalBaseCurrency
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: OpenTotalBaseCurrency
+  nameWithType: SaleSummary.OpenTotalBaseCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.OpenTotalBaseCurrency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSummed amount for all open within the period in default currency for the installation\n"
+  syntax:
+    content: public virtual double OpenTotalBaseCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property OpenTotalBaseCurrency As Double
+  overload: SuperOffice.WebApi.Data.SaleSummary.OpenTotalBaseCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.OpenTotalOwnCurrency
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.OpenTotalOwnCurrency
+  id: OpenTotalOwnCurrency
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: OpenTotalOwnCurrency
+  nameWithType: SaleSummary.OpenTotalOwnCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.OpenTotalOwnCurrency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSummed amount for all open within the period in default currency for the current user\n"
+  syntax:
+    content: public virtual double OpenTotalOwnCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property OpenTotalOwnCurrency As Double
+  overload: SuperOffice.WebApi.Data.SaleSummary.OpenTotalOwnCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.OpenWeightedBaseCurrency
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.OpenWeightedBaseCurrency
+  id: OpenWeightedBaseCurrency
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: OpenWeightedBaseCurrency
+  nameWithType: SaleSummary.OpenWeightedBaseCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.OpenWeightedBaseCurrency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWeighted sum for all open within the period in default currency for the installation\n\n"
+  syntax:
+    content: public virtual double OpenWeightedBaseCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property OpenWeightedBaseCurrency As Double
+  overload: SuperOffice.WebApi.Data.SaleSummary.OpenWeightedBaseCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.OpenWeightedOwnCurrency
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.OpenWeightedOwnCurrency
+  id: OpenWeightedOwnCurrency
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: OpenWeightedOwnCurrency
+  nameWithType: SaleSummary.OpenWeightedOwnCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.OpenWeightedOwnCurrency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWeighted sum for all open within the period in default currency for the current user\n"
+  syntax:
+    content: public virtual double OpenWeightedOwnCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property OpenWeightedOwnCurrency As Double
+  overload: SuperOffice.WebApi.Data.SaleSummary.OpenWeightedOwnCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.PreviousOverdue
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.PreviousOverdue
+  id: PreviousOverdue
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: PreviousOverdue
+  nameWithType: SaleSummary.PreviousOverdue
+  fullName: SuperOffice.WebApi.Data.SaleSummary.PreviousOverdue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of all open sales with date before this period\n"
+  syntax:
+    content: public virtual int PreviousOverdue { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PreviousOverdue As Integer
+  overload: SuperOffice.WebApi.Data.SaleSummary.PreviousOverdue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueTotalBaseCurrency
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueTotalBaseCurrency
+  id: PreviousOverdueTotalBaseCurrency
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: PreviousOverdueTotalBaseCurrency
+  nameWithType: SaleSummary.PreviousOverdueTotalBaseCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueTotalBaseCurrency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSummed amount for all open sales with date before this period in default currency for the installation\n"
+  syntax:
+    content: public virtual double PreviousOverdueTotalBaseCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property PreviousOverdueTotalBaseCurrency As Double
+  overload: SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueTotalBaseCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueTotalOwnCurrency
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueTotalOwnCurrency
+  id: PreviousOverdueTotalOwnCurrency
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: PreviousOverdueTotalOwnCurrency
+  nameWithType: SaleSummary.PreviousOverdueTotalOwnCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueTotalOwnCurrency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSummed amount for all open sales with date before this period in default currency for the current user\n"
+  syntax:
+    content: public virtual double PreviousOverdueTotalOwnCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property PreviousOverdueTotalOwnCurrency As Double
+  overload: SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueTotalOwnCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueWeightedBaseCurrency
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueWeightedBaseCurrency
+  id: PreviousOverdueWeightedBaseCurrency
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: PreviousOverdueWeightedBaseCurrency
+  nameWithType: SaleSummary.PreviousOverdueWeightedBaseCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueWeightedBaseCurrency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWeighted sum for all open sales with date before this period in default currency for the installation\n"
+  syntax:
+    content: public virtual double PreviousOverdueWeightedBaseCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property PreviousOverdueWeightedBaseCurrency As Double
+  overload: SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueWeightedBaseCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueWeightedOwnCurrency
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueWeightedOwnCurrency
+  id: PreviousOverdueWeightedOwnCurrency
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: PreviousOverdueWeightedOwnCurrency
+  nameWithType: SaleSummary.PreviousOverdueWeightedOwnCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueWeightedOwnCurrency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWeighted sum for all open sales with date before this period in default currency for the current user\n"
+  syntax:
+    content: public virtual double PreviousOverdueWeightedOwnCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property PreviousOverdueWeightedOwnCurrency As Double
+  overload: SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueWeightedOwnCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.CurrentOverdue
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.CurrentOverdue
+  id: CurrentOverdue
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: CurrentOverdue
+  nameWithType: SaleSummary.CurrentOverdue
+  fullName: SuperOffice.WebApi.Data.SaleSummary.CurrentOverdue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of all overdue sales within the period\n"
+  syntax:
+    content: public virtual int CurrentOverdue { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CurrentOverdue As Integer
+  overload: SuperOffice.WebApi.Data.SaleSummary.CurrentOverdue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueTotalBaseCurrency
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueTotalBaseCurrency
+  id: CurrentOverdueTotalBaseCurrency
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: CurrentOverdueTotalBaseCurrency
+  nameWithType: SaleSummary.CurrentOverdueTotalBaseCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueTotalBaseCurrency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSummed amount for all overdue sales within the period in default currency for the installation\n"
+  syntax:
+    content: public virtual double CurrentOverdueTotalBaseCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property CurrentOverdueTotalBaseCurrency As Double
+  overload: SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueTotalBaseCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueTotalOwnCurrency
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueTotalOwnCurrency
+  id: CurrentOverdueTotalOwnCurrency
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: CurrentOverdueTotalOwnCurrency
+  nameWithType: SaleSummary.CurrentOverdueTotalOwnCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueTotalOwnCurrency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSummed amount for all overdue sales within the period in default currency for the current user\n"
+  syntax:
+    content: public virtual double CurrentOverdueTotalOwnCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property CurrentOverdueTotalOwnCurrency As Double
+  overload: SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueTotalOwnCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueWeightedBaseCurrency
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueWeightedBaseCurrency
+  id: CurrentOverdueWeightedBaseCurrency
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: CurrentOverdueWeightedBaseCurrency
+  nameWithType: SaleSummary.CurrentOverdueWeightedBaseCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueWeightedBaseCurrency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWeighted sum for all overdue sales within the period in default currency for the installation\n"
+  syntax:
+    content: public virtual double CurrentOverdueWeightedBaseCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property CurrentOverdueWeightedBaseCurrency As Double
+  overload: SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueWeightedBaseCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueWeightedOwnCurrency
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueWeightedOwnCurrency
+  id: CurrentOverdueWeightedOwnCurrency
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: CurrentOverdueWeightedOwnCurrency
+  nameWithType: SaleSummary.CurrentOverdueWeightedOwnCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueWeightedOwnCurrency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWeighted sum for all overdue sales within the period in default currency for the current user\n"
+  syntax:
+    content: public virtual double CurrentOverdueWeightedOwnCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property CurrentOverdueWeightedOwnCurrency As Double
+  overload: SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueWeightedOwnCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.FutureOpen
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.FutureOpen
+  id: FutureOpen
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: FutureOpen
+  nameWithType: SaleSummary.FutureOpen
+  fullName: SuperOffice.WebApi.Data.SaleSummary.FutureOpen
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of all Future Pipe/All open sales with date after the period\n"
+  syntax:
+    content: public virtual int FutureOpen { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property FutureOpen As Integer
+  overload: SuperOffice.WebApi.Data.SaleSummary.FutureOpen*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.FutureOpenTotalBaseCurrency
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.FutureOpenTotalBaseCurrency
+  id: FutureOpenTotalBaseCurrency
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: FutureOpenTotalBaseCurrency
+  nameWithType: SaleSummary.FutureOpenTotalBaseCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.FutureOpenTotalBaseCurrency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSummed amount for all Future Pipe/All open sales with date after the period in default currency for the installation\n"
+  syntax:
+    content: public virtual double FutureOpenTotalBaseCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property FutureOpenTotalBaseCurrency As Double
+  overload: SuperOffice.WebApi.Data.SaleSummary.FutureOpenTotalBaseCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.FutureOpenTotalOwnCurrency
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.FutureOpenTotalOwnCurrency
+  id: FutureOpenTotalOwnCurrency
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: FutureOpenTotalOwnCurrency
+  nameWithType: SaleSummary.FutureOpenTotalOwnCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.FutureOpenTotalOwnCurrency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSummed amount for all Future Pipe/All open sales with date after the period in default currency for the current user\n"
+  syntax:
+    content: public virtual double FutureOpenTotalOwnCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property FutureOpenTotalOwnCurrency As Double
+  overload: SuperOffice.WebApi.Data.SaleSummary.FutureOpenTotalOwnCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.FutureOpenWeightedBaseCurrency
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.FutureOpenWeightedBaseCurrency
+  id: FutureOpenWeightedBaseCurrency
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: FutureOpenWeightedBaseCurrency
+  nameWithType: SaleSummary.FutureOpenWeightedBaseCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.FutureOpenWeightedBaseCurrency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWeighted sum for all Future Pipe/All open sales with date after the period in default currency for the installation\n"
+  syntax:
+    content: public virtual double FutureOpenWeightedBaseCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property FutureOpenWeightedBaseCurrency As Double
+  overload: SuperOffice.WebApi.Data.SaleSummary.FutureOpenWeightedBaseCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SaleSummary.FutureOpenWeightedOwnCurrency
+  commentId: P:SuperOffice.WebApi.Data.SaleSummary.FutureOpenWeightedOwnCurrency
+  id: FutureOpenWeightedOwnCurrency
+  parent: SuperOffice.WebApi.Data.SaleSummary
+  langs:
+  - csharp
+  - vb
+  name: FutureOpenWeightedOwnCurrency
+  nameWithType: SaleSummary.FutureOpenWeightedOwnCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.FutureOpenWeightedOwnCurrency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWeighted sum for all Future Pipe/All open sales with date after the period in default currency for the current user\n\n"
+  syntax:
+    content: public virtual double FutureOpenWeightedOwnCurrency { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property FutureOpenWeightedOwnCurrency As Double
+  overload: SuperOffice.WebApi.Data.SaleSummary.FutureOpenWeightedOwnCurrency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.SaleAgent
+  commentId: T:SuperOffice.WebApi.Agents.SaleAgent
+  isExternal: true
+  name: SaleAgent
+  nameWithType: SaleAgent
+  fullName: SuperOffice.WebApi.Agents.SaleAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.SaleSummary.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.#ctor
+  isExternal: true
+  name: SaleSummary
+  nameWithType: SaleSummary.SaleSummary
+  fullName: SuperOffice.WebApi.Data.SaleSummary.SaleSummary
+- uid: SuperOffice.WebApi.Data.SaleSummary.BaseCurrency*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.BaseCurrency
+  isExternal: true
+  name: BaseCurrency
+  nameWithType: SaleSummary.BaseCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.BaseCurrency
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.SaleSummary.OwnCurrency*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.OwnCurrency
+  isExternal: true
+  name: OwnCurrency
+  nameWithType: SaleSummary.OwnCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.OwnCurrency
+- uid: SuperOffice.WebApi.Data.SaleSummary.SoldTotalBaseCurrency*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.SoldTotalBaseCurrency
+  isExternal: true
+  name: SoldTotalBaseCurrency
+  nameWithType: SaleSummary.SoldTotalBaseCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.SoldTotalBaseCurrency
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.WebApi.Data.SaleSummary.Sold*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.Sold
+  isExternal: true
+  name: Sold
+  nameWithType: SaleSummary.Sold
+  fullName: SuperOffice.WebApi.Data.SaleSummary.Sold
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.SaleSummary.SoldTotalOwnCurrency*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.SoldTotalOwnCurrency
+  isExternal: true
+  name: SoldTotalOwnCurrency
+  nameWithType: SaleSummary.SoldTotalOwnCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.SoldTotalOwnCurrency
+- uid: SuperOffice.WebApi.Data.SaleSummary.Lost*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.Lost
+  isExternal: true
+  name: Lost
+  nameWithType: SaleSummary.Lost
+  fullName: SuperOffice.WebApi.Data.SaleSummary.Lost
+- uid: SuperOffice.WebApi.Data.SaleSummary.LostTotalBaseCurrency*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.LostTotalBaseCurrency
+  isExternal: true
+  name: LostTotalBaseCurrency
+  nameWithType: SaleSummary.LostTotalBaseCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.LostTotalBaseCurrency
+- uid: SuperOffice.WebApi.Data.SaleSummary.LostTotalOwnCurrency*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.LostTotalOwnCurrency
+  isExternal: true
+  name: LostTotalOwnCurrency
+  nameWithType: SaleSummary.LostTotalOwnCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.LostTotalOwnCurrency
+- uid: SuperOffice.WebApi.Data.SaleSummary.Open*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.Open
+  isExternal: true
+  name: Open
+  nameWithType: SaleSummary.Open
+  fullName: SuperOffice.WebApi.Data.SaleSummary.Open
+- uid: SuperOffice.WebApi.Data.SaleSummary.OpenTotalBaseCurrency*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.OpenTotalBaseCurrency
+  isExternal: true
+  name: OpenTotalBaseCurrency
+  nameWithType: SaleSummary.OpenTotalBaseCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.OpenTotalBaseCurrency
+- uid: SuperOffice.WebApi.Data.SaleSummary.OpenTotalOwnCurrency*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.OpenTotalOwnCurrency
+  isExternal: true
+  name: OpenTotalOwnCurrency
+  nameWithType: SaleSummary.OpenTotalOwnCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.OpenTotalOwnCurrency
+- uid: SuperOffice.WebApi.Data.SaleSummary.OpenWeightedBaseCurrency*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.OpenWeightedBaseCurrency
+  isExternal: true
+  name: OpenWeightedBaseCurrency
+  nameWithType: SaleSummary.OpenWeightedBaseCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.OpenWeightedBaseCurrency
+- uid: SuperOffice.WebApi.Data.SaleSummary.OpenWeightedOwnCurrency*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.OpenWeightedOwnCurrency
+  isExternal: true
+  name: OpenWeightedOwnCurrency
+  nameWithType: SaleSummary.OpenWeightedOwnCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.OpenWeightedOwnCurrency
+- uid: SuperOffice.WebApi.Data.SaleSummary.PreviousOverdue*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.PreviousOverdue
+  isExternal: true
+  name: PreviousOverdue
+  nameWithType: SaleSummary.PreviousOverdue
+  fullName: SuperOffice.WebApi.Data.SaleSummary.PreviousOverdue
+- uid: SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueTotalBaseCurrency*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueTotalBaseCurrency
+  isExternal: true
+  name: PreviousOverdueTotalBaseCurrency
+  nameWithType: SaleSummary.PreviousOverdueTotalBaseCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueTotalBaseCurrency
+- uid: SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueTotalOwnCurrency*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueTotalOwnCurrency
+  isExternal: true
+  name: PreviousOverdueTotalOwnCurrency
+  nameWithType: SaleSummary.PreviousOverdueTotalOwnCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueTotalOwnCurrency
+- uid: SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueWeightedBaseCurrency*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueWeightedBaseCurrency
+  isExternal: true
+  name: PreviousOverdueWeightedBaseCurrency
+  nameWithType: SaleSummary.PreviousOverdueWeightedBaseCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueWeightedBaseCurrency
+- uid: SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueWeightedOwnCurrency*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueWeightedOwnCurrency
+  isExternal: true
+  name: PreviousOverdueWeightedOwnCurrency
+  nameWithType: SaleSummary.PreviousOverdueWeightedOwnCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.PreviousOverdueWeightedOwnCurrency
+- uid: SuperOffice.WebApi.Data.SaleSummary.CurrentOverdue*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.CurrentOverdue
+  isExternal: true
+  name: CurrentOverdue
+  nameWithType: SaleSummary.CurrentOverdue
+  fullName: SuperOffice.WebApi.Data.SaleSummary.CurrentOverdue
+- uid: SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueTotalBaseCurrency*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueTotalBaseCurrency
+  isExternal: true
+  name: CurrentOverdueTotalBaseCurrency
+  nameWithType: SaleSummary.CurrentOverdueTotalBaseCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueTotalBaseCurrency
+- uid: SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueTotalOwnCurrency*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueTotalOwnCurrency
+  isExternal: true
+  name: CurrentOverdueTotalOwnCurrency
+  nameWithType: SaleSummary.CurrentOverdueTotalOwnCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueTotalOwnCurrency
+- uid: SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueWeightedBaseCurrency*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueWeightedBaseCurrency
+  isExternal: true
+  name: CurrentOverdueWeightedBaseCurrency
+  nameWithType: SaleSummary.CurrentOverdueWeightedBaseCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueWeightedBaseCurrency
+- uid: SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueWeightedOwnCurrency*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueWeightedOwnCurrency
+  isExternal: true
+  name: CurrentOverdueWeightedOwnCurrency
+  nameWithType: SaleSummary.CurrentOverdueWeightedOwnCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.CurrentOverdueWeightedOwnCurrency
+- uid: SuperOffice.WebApi.Data.SaleSummary.FutureOpen*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.FutureOpen
+  isExternal: true
+  name: FutureOpen
+  nameWithType: SaleSummary.FutureOpen
+  fullName: SuperOffice.WebApi.Data.SaleSummary.FutureOpen
+- uid: SuperOffice.WebApi.Data.SaleSummary.FutureOpenTotalBaseCurrency*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.FutureOpenTotalBaseCurrency
+  isExternal: true
+  name: FutureOpenTotalBaseCurrency
+  nameWithType: SaleSummary.FutureOpenTotalBaseCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.FutureOpenTotalBaseCurrency
+- uid: SuperOffice.WebApi.Data.SaleSummary.FutureOpenTotalOwnCurrency*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.FutureOpenTotalOwnCurrency
+  isExternal: true
+  name: FutureOpenTotalOwnCurrency
+  nameWithType: SaleSummary.FutureOpenTotalOwnCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.FutureOpenTotalOwnCurrency
+- uid: SuperOffice.WebApi.Data.SaleSummary.FutureOpenWeightedBaseCurrency*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.FutureOpenWeightedBaseCurrency
+  isExternal: true
+  name: FutureOpenWeightedBaseCurrency
+  nameWithType: SaleSummary.FutureOpenWeightedBaseCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.FutureOpenWeightedBaseCurrency
+- uid: SuperOffice.WebApi.Data.SaleSummary.FutureOpenWeightedOwnCurrency*
+  commentId: Overload:SuperOffice.WebApi.Data.SaleSummary.FutureOpenWeightedOwnCurrency
+  isExternal: true
+  name: FutureOpenWeightedOwnCurrency
+  nameWithType: SaleSummary.FutureOpenWeightedOwnCurrency
+  fullName: SuperOffice.WebApi.Data.SaleSummary.FutureOpenWeightedOwnCurrency

@@ -1,0 +1,1278 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.RecurringSubSeries
+  commentId: T:SuperOffice.Util.RecurringSubSeries
+  id: RecurringSubSeries
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.RecurringSubSeries.#ctor(SuperOffice.CRM.Rows.InvitationRecordData)
+  - SuperOffice.Util.RecurringSubSeries.AppointmentsInSeries
+  - SuperOffice.Util.RecurringSubSeries.ConvertToRecurrenceDateTime(System.DateTime)
+  - SuperOffice.Util.RecurringSubSeries.CreateStartEndDateTimesForRecurrenceFirstDay(System.DateTime,System.DateTime)
+  - SuperOffice.Util.RecurringSubSeries.GetAppointmentRecordData(System.Int32)
+  - SuperOffice.Util.RecurringSubSeries.GetDivergentAppointments
+  - SuperOffice.Util.RecurringSubSeries.GetNonDivergentAppointments
+  - SuperOffice.Util.RecurringSubSeries.InvitationAppointmentDoBy
+  - SuperOffice.Util.RecurringSubSeries.InvitationAppointmentId
+  - SuperOffice.Util.RecurringSubSeries.InvitationRecordData
+  - SuperOffice.Util.RecurringSubSeries.IsDivergentInSeries(SuperOffice.CRM.Rows.AppointmentRecordData)
+  - SuperOffice.Util.RecurringSubSeries.IsDivergentInSeries(System.Int32)
+  - SuperOffice.Util.RecurringSubSeries.TryGetIndexOfAppointmentIdInSeries(System.Int32,System.Int32@)
+  - SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentId(System.Int32)
+  - SuperOffice.Util.RecurringSubSeries.UpdateRecurringStartDate(System.DateTime)
+  langs:
+  - csharp
+  - vb
+  name: RecurringSubSeries
+  nameWithType: RecurringSubSeries
+  fullName: SuperOffice.Util.RecurringSubSeries
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public class RecurringSubSeries
+    content.vb: Public Class RecurringSubSeries
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Util.RecurringSubSeries.EnumUtil.MapEnums``2
+  - SuperOffice.Util.RecurringSubSeries.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Util.RecurringSubSeries.AppointmentsInSeries
+  commentId: F:SuperOffice.Util.RecurringSubSeries.AppointmentsInSeries
+  id: AppointmentsInSeries
+  parent: SuperOffice.Util.RecurringSubSeries
+  langs:
+  - csharp
+  - vb
+  name: AppointmentsInSeries
+  nameWithType: RecurringSubSeries.AppointmentsInSeries
+  fullName: SuperOffice.Util.RecurringSubSeries.AppointmentsInSeries
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nThe records only contain DoBy, EndDate and AppointmentId data. The rest of the fields are not filled.\n"
+  syntax:
+    content: public readonly List<AppointmentRecordData> AppointmentsInSeries
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Rows.AppointmentRecordData}
+    content.vb: Public ReadOnly AppointmentsInSeries As List(Of AppointmentRecordData)
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Util.RecurringSubSeries.InvitationRecordData
+  commentId: F:SuperOffice.Util.RecurringSubSeries.InvitationRecordData
+  id: InvitationRecordData
+  parent: SuperOffice.Util.RecurringSubSeries
+  langs:
+  - csharp
+  - vb
+  name: InvitationRecordData
+  nameWithType: RecurringSubSeries.InvitationRecordData
+  fullName: SuperOffice.Util.RecurringSubSeries.InvitationRecordData
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public readonly InvitationRecordData InvitationRecordData
+    return:
+      type: SuperOffice.CRM.Rows.InvitationRecordData
+    content.vb: Public ReadOnly InvitationRecordData As InvitationRecordData
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Util.RecurringSubSeries.#ctor(SuperOffice.CRM.Rows.InvitationRecordData)
+  commentId: M:SuperOffice.Util.RecurringSubSeries.#ctor(SuperOffice.CRM.Rows.InvitationRecordData)
+  id: '#ctor(SuperOffice.CRM.Rows.InvitationRecordData)'
+  parent: SuperOffice.Util.RecurringSubSeries
+  langs:
+  - csharp
+  - vb
+  name: RecurringSubSeries(InvitationRecordData)
+  nameWithType: RecurringSubSeries.RecurringSubSeries(InvitationRecordData)
+  fullName: SuperOffice.Util.RecurringSubSeries.RecurringSubSeries(SuperOffice.CRM.Rows.InvitationRecordData)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public RecurringSubSeries(InvitationRecordData invitationRecordData)
+    parameters:
+    - id: invitationRecordData
+      type: SuperOffice.CRM.Rows.InvitationRecordData
+    content.vb: Public Sub New(invitationRecordData As InvitationRecordData)
+  overload: SuperOffice.Util.RecurringSubSeries.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.RecurringSubSeries.IsDivergentInSeries(System.Int32)
+  commentId: M:SuperOffice.Util.RecurringSubSeries.IsDivergentInSeries(System.Int32)
+  id: IsDivergentInSeries(System.Int32)
+  parent: SuperOffice.Util.RecurringSubSeries
+  langs:
+  - csharp
+  - vb
+  name: IsDivergentInSeries(Int32)
+  nameWithType: RecurringSubSeries.IsDivergentInSeries(Int32)
+  fullName: SuperOffice.Util.RecurringSubSeries.IsDivergentInSeries(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public bool IsDivergentInSeries(int appointmentId)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsDivergentInSeries(appointmentId As Integer) As Boolean
+  overload: SuperOffice.Util.RecurringSubSeries.IsDivergentInSeries*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.RecurringSubSeries.IsDivergentInSeries(SuperOffice.CRM.Rows.AppointmentRecordData)
+  commentId: M:SuperOffice.Util.RecurringSubSeries.IsDivergentInSeries(SuperOffice.CRM.Rows.AppointmentRecordData)
+  id: IsDivergentInSeries(SuperOffice.CRM.Rows.AppointmentRecordData)
+  parent: SuperOffice.Util.RecurringSubSeries
+  langs:
+  - csharp
+  - vb
+  name: IsDivergentInSeries(AppointmentRecordData)
+  nameWithType: RecurringSubSeries.IsDivergentInSeries(AppointmentRecordData)
+  fullName: SuperOffice.Util.RecurringSubSeries.IsDivergentInSeries(SuperOffice.CRM.Rows.AppointmentRecordData)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public bool IsDivergentInSeries(AppointmentRecordData appointmentRecord)
+    parameters:
+    - id: appointmentRecord
+      type: SuperOffice.CRM.Rows.AppointmentRecordData
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsDivergentInSeries(appointmentRecord As AppointmentRecordData) As Boolean
+  overload: SuperOffice.Util.RecurringSubSeries.IsDivergentInSeries*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.RecurringSubSeries.GetAppointmentRecordData(System.Int32)
+  commentId: M:SuperOffice.Util.RecurringSubSeries.GetAppointmentRecordData(System.Int32)
+  id: GetAppointmentRecordData(System.Int32)
+  parent: SuperOffice.Util.RecurringSubSeries
+  langs:
+  - csharp
+  - vb
+  name: GetAppointmentRecordData(Int32)
+  nameWithType: RecurringSubSeries.GetAppointmentRecordData(Int32)
+  fullName: SuperOffice.Util.RecurringSubSeries.GetAppointmentRecordData(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public AppointmentRecordData GetAppointmentRecordData(int appointmentId)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Rows.AppointmentRecordData
+    content.vb: Public Function GetAppointmentRecordData(appointmentId As Integer) As AppointmentRecordData
+  overload: SuperOffice.Util.RecurringSubSeries.GetAppointmentRecordData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.RecurringSubSeries.UpdateRecurringStartDate(System.DateTime)
+  commentId: M:SuperOffice.Util.RecurringSubSeries.UpdateRecurringStartDate(System.DateTime)
+  id: UpdateRecurringStartDate(System.DateTime)
+  parent: SuperOffice.Util.RecurringSubSeries
+  langs:
+  - csharp
+  - vb
+  name: UpdateRecurringStartDate(DateTime)
+  nameWithType: RecurringSubSeries.UpdateRecurringStartDate(DateTime)
+  fullName: SuperOffice.Util.RecurringSubSeries.UpdateRecurringStartDate(System.DateTime)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public void UpdateRecurringStartDate(DateTime recurringStartDate)
+    parameters:
+    - id: recurringStartDate
+      type: System.DateTime
+    content.vb: Public Sub UpdateRecurringStartDate(recurringStartDate As Date)
+  overload: SuperOffice.Util.RecurringSubSeries.UpdateRecurringStartDate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentId(System.Int32)
+  commentId: M:SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentId(System.Int32)
+  id: UpdateInvitationRootAppointmentId(System.Int32)
+  parent: SuperOffice.Util.RecurringSubSeries
+  langs:
+  - csharp
+  - vb
+  name: UpdateInvitationRootAppointmentId(Int32)
+  nameWithType: RecurringSubSeries.UpdateInvitationRootAppointmentId(Int32)
+  fullName: SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentId(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public void UpdateInvitationRootAppointmentId(int appointmentId)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    content.vb: Public Sub UpdateInvitationRootAppointmentId(appointmentId As Integer)
+  overload: SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.RecurringSubSeries.TryGetIndexOfAppointmentIdInSeries(System.Int32,System.Int32@)
+  commentId: M:SuperOffice.Util.RecurringSubSeries.TryGetIndexOfAppointmentIdInSeries(System.Int32,System.Int32@)
+  id: TryGetIndexOfAppointmentIdInSeries(System.Int32,System.Int32@)
+  parent: SuperOffice.Util.RecurringSubSeries
+  langs:
+  - csharp
+  - vb
+  name: TryGetIndexOfAppointmentIdInSeries(Int32, out Int32)
+  nameWithType: RecurringSubSeries.TryGetIndexOfAppointmentIdInSeries(Int32, out Int32)
+  fullName: SuperOffice.Util.RecurringSubSeries.TryGetIndexOfAppointmentIdInSeries(System.Int32, out System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public bool TryGetIndexOfAppointmentIdInSeries(int appointmentId, out int index)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryGetIndexOfAppointmentIdInSeries(appointmentId As Integer, ByRef index As Integer) As Boolean
+  overload: SuperOffice.Util.RecurringSubSeries.TryGetIndexOfAppointmentIdInSeries*
+  nameWithType.vb: RecurringSubSeries.TryGetIndexOfAppointmentIdInSeries(Int32, ByRef Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.RecurringSubSeries.TryGetIndexOfAppointmentIdInSeries(System.Int32, ByRef System.Int32)
+  name.vb: TryGetIndexOfAppointmentIdInSeries(Int32, ByRef Int32)
+- uid: SuperOffice.Util.RecurringSubSeries.GetDivergentAppointments
+  commentId: M:SuperOffice.Util.RecurringSubSeries.GetDivergentAppointments
+  id: GetDivergentAppointments
+  parent: SuperOffice.Util.RecurringSubSeries
+  langs:
+  - csharp
+  - vb
+  name: GetDivergentAppointments()
+  nameWithType: RecurringSubSeries.GetDivergentAppointments()
+  fullName: SuperOffice.Util.RecurringSubSeries.GetDivergentAppointments()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public List<AppointmentRecordData> GetDivergentAppointments()
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Rows.AppointmentRecordData}
+    content.vb: Public Function GetDivergentAppointments As List(Of AppointmentRecordData)
+  overload: SuperOffice.Util.RecurringSubSeries.GetDivergentAppointments*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.RecurringSubSeries.GetNonDivergentAppointments
+  commentId: M:SuperOffice.Util.RecurringSubSeries.GetNonDivergentAppointments
+  id: GetNonDivergentAppointments
+  parent: SuperOffice.Util.RecurringSubSeries
+  langs:
+  - csharp
+  - vb
+  name: GetNonDivergentAppointments()
+  nameWithType: RecurringSubSeries.GetNonDivergentAppointments()
+  fullName: SuperOffice.Util.RecurringSubSeries.GetNonDivergentAppointments()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public List<AppointmentRecordData> GetNonDivergentAppointments()
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Rows.AppointmentRecordData}
+    content.vb: Public Function GetNonDivergentAppointments As List(Of AppointmentRecordData)
+  overload: SuperOffice.Util.RecurringSubSeries.GetNonDivergentAppointments*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.RecurringSubSeries.ConvertToRecurrenceDateTime(System.DateTime)
+  commentId: M:SuperOffice.Util.RecurringSubSeries.ConvertToRecurrenceDateTime(System.DateTime)
+  id: ConvertToRecurrenceDateTime(System.DateTime)
+  parent: SuperOffice.Util.RecurringSubSeries
+  langs:
+  - csharp
+  - vb
+  name: ConvertToRecurrenceDateTime(DateTime)
+  nameWithType: RecurringSubSeries.ConvertToRecurrenceDateTime(DateTime)
+  fullName: SuperOffice.Util.RecurringSubSeries.ConvertToRecurrenceDateTime(System.DateTime)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nCreates a new datetime using the date-component from <code data-dev-comment-type=\"paramref\" class=\"paramref\">date</code>, and the time-components from the RecurrenceStartDate and RecurrenceEndDate of the InvitationRow of the subseries.\n"
+  syntax:
+    content: public Tuple<DateTime, DateTime> ConvertToRecurrenceDateTime(DateTime date)
+    parameters:
+    - id: date
+      type: System.DateTime
+    return:
+      type: System.Tuple{System.DateTime,System.DateTime}
+    content.vb: Public Function ConvertToRecurrenceDateTime(date As Date) As Tuple(Of Date, Date)
+  overload: SuperOffice.Util.RecurringSubSeries.ConvertToRecurrenceDateTime*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.RecurringSubSeries.CreateStartEndDateTimesForRecurrenceFirstDay(System.DateTime,System.DateTime)
+  commentId: M:SuperOffice.Util.RecurringSubSeries.CreateStartEndDateTimesForRecurrenceFirstDay(System.DateTime,System.DateTime)
+  id: CreateStartEndDateTimesForRecurrenceFirstDay(System.DateTime,System.DateTime)
+  parent: SuperOffice.Util.RecurringSubSeries
+  langs:
+  - csharp
+  - vb
+  name: CreateStartEndDateTimesForRecurrenceFirstDay(DateTime, DateTime)
+  nameWithType: RecurringSubSeries.CreateStartEndDateTimesForRecurrenceFirstDay(DateTime, DateTime)
+  fullName: SuperOffice.Util.RecurringSubSeries.CreateStartEndDateTimesForRecurrenceFirstDay(System.DateTime, System.DateTime)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nCreates new start and end recurrence times, using the time-component from <code data-dev-comment-type=\"paramref\" class=\"paramref\">startTime</code> and <code data-dev-comment-type=\"paramref\" class=\"paramref\">endTime</code>.\n"
+  syntax:
+    content: public Tuple<DateTime, DateTime> CreateStartEndDateTimesForRecurrenceFirstDay(DateTime startTime, DateTime endTime)
+    parameters:
+    - id: startTime
+      type: System.DateTime
+    - id: endTime
+      type: System.DateTime
+    return:
+      type: System.Tuple{System.DateTime,System.DateTime}
+    content.vb: Public Function CreateStartEndDateTimesForRecurrenceFirstDay(startTime As Date, endTime As Date) As Tuple(Of Date, Date)
+  overload: SuperOffice.Util.RecurringSubSeries.CreateStartEndDateTimesForRecurrenceFirstDay*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.RecurringSubSeries.InvitationAppointmentId
+  commentId: P:SuperOffice.Util.RecurringSubSeries.InvitationAppointmentId
+  id: InvitationAppointmentId
+  parent: SuperOffice.Util.RecurringSubSeries
+  langs:
+  - csharp
+  - vb
+  name: InvitationAppointmentId
+  nameWithType: RecurringSubSeries.InvitationAppointmentId
+  fullName: SuperOffice.Util.RecurringSubSeries.InvitationAppointmentId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public int InvitationAppointmentId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property InvitationAppointmentId As Integer
+  overload: SuperOffice.Util.RecurringSubSeries.InvitationAppointmentId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Util.RecurringSubSeries.InvitationAppointmentDoBy
+  commentId: P:SuperOffice.Util.RecurringSubSeries.InvitationAppointmentDoBy
+  id: InvitationAppointmentDoBy
+  parent: SuperOffice.Util.RecurringSubSeries
+  langs:
+  - csharp
+  - vb
+  name: InvitationAppointmentDoBy
+  nameWithType: RecurringSubSeries.InvitationAppointmentDoBy
+  fullName: SuperOffice.Util.RecurringSubSeries.InvitationAppointmentDoBy
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public DateTime InvitationAppointmentDoBy { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property InvitationAppointmentDoBy As Date
+  overload: SuperOffice.Util.RecurringSubSeries.InvitationAppointmentDoBy*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.RecurringSubSeries.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<RecurringSubSeries, To>()
+  nameWithType: EnumUtil.MapEnums<RecurringSubSeries, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.RecurringSubSeries, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of RecurringSubSeries, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.RecurringSubSeries, To)()
+  name.vb: MapEnums(Of RecurringSubSeries, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<RecurringSubSeries, To>
+    nameWithType: EnumUtil.MapEnums<RecurringSubSeries, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.RecurringSubSeries, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of RecurringSubSeries, To)
+    nameWithType: EnumUtil.MapEnums(Of RecurringSubSeries, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.RecurringSubSeries, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.RecurringSubSeries.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<RecurringSubSeries, To>()
+  nameWithType: Converters.MapEnums<RecurringSubSeries, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.RecurringSubSeries, To>()
+  nameWithType.vb: Converters.MapEnums(Of RecurringSubSeries, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.RecurringSubSeries, To)()
+  name.vb: MapEnums(Of RecurringSubSeries, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<RecurringSubSeries, To>
+    nameWithType: Converters.MapEnums<RecurringSubSeries, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.RecurringSubSeries, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of RecurringSubSeries, To)
+    nameWithType: Converters.MapEnums(Of RecurringSubSeries, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.RecurringSubSeries, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Rows.AppointmentRecordData}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Rows.AppointmentRecordData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<AppointmentRecordData>
+  nameWithType: List<AppointmentRecordData>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Rows.AppointmentRecordData>
+  nameWithType.vb: List(Of AppointmentRecordData)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Rows.AppointmentRecordData)
+  name.vb: List(Of AppointmentRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.AppointmentRecordData
+    name: AppointmentRecordData
+    nameWithType: AppointmentRecordData
+    fullName: SuperOffice.CRM.Rows.AppointmentRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.AppointmentRecordData
+    name: AppointmentRecordData
+    nameWithType: AppointmentRecordData
+    fullName: SuperOffice.CRM.Rows.AppointmentRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Rows.InvitationRecordData
+  commentId: T:SuperOffice.CRM.Rows.InvitationRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: InvitationRecordData
+  nameWithType: InvitationRecordData
+  fullName: SuperOffice.CRM.Rows.InvitationRecordData
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.Util.RecurringSubSeries.#ctor*
+  commentId: Overload:SuperOffice.Util.RecurringSubSeries.#ctor
+  isExternal: true
+  name: RecurringSubSeries
+  nameWithType: RecurringSubSeries.RecurringSubSeries
+  fullName: SuperOffice.Util.RecurringSubSeries.RecurringSubSeries
+- uid: SuperOffice.Util.RecurringSubSeries.IsDivergentInSeries*
+  commentId: Overload:SuperOffice.Util.RecurringSubSeries.IsDivergentInSeries
+  isExternal: true
+  name: IsDivergentInSeries
+  nameWithType: RecurringSubSeries.IsDivergentInSeries
+  fullName: SuperOffice.Util.RecurringSubSeries.IsDivergentInSeries
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData
+  commentId: T:SuperOffice.CRM.Rows.AppointmentRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: AppointmentRecordData
+  nameWithType: AppointmentRecordData
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData
+- uid: SuperOffice.Util.RecurringSubSeries.GetAppointmentRecordData*
+  commentId: Overload:SuperOffice.Util.RecurringSubSeries.GetAppointmentRecordData
+  isExternal: true
+  name: GetAppointmentRecordData
+  nameWithType: RecurringSubSeries.GetAppointmentRecordData
+  fullName: SuperOffice.Util.RecurringSubSeries.GetAppointmentRecordData
+- uid: SuperOffice.Util.RecurringSubSeries.UpdateRecurringStartDate*
+  commentId: Overload:SuperOffice.Util.RecurringSubSeries.UpdateRecurringStartDate
+  isExternal: true
+  name: UpdateRecurringStartDate
+  nameWithType: RecurringSubSeries.UpdateRecurringStartDate
+  fullName: SuperOffice.Util.RecurringSubSeries.UpdateRecurringStartDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentId*
+  commentId: Overload:SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentId
+  isExternal: true
+  name: UpdateInvitationRootAppointmentId
+  nameWithType: RecurringSubSeries.UpdateInvitationRootAppointmentId
+  fullName: SuperOffice.Util.RecurringSubSeries.UpdateInvitationRootAppointmentId
+- uid: SuperOffice.Util.RecurringSubSeries.TryGetIndexOfAppointmentIdInSeries*
+  commentId: Overload:SuperOffice.Util.RecurringSubSeries.TryGetIndexOfAppointmentIdInSeries
+  isExternal: true
+  name: TryGetIndexOfAppointmentIdInSeries
+  nameWithType: RecurringSubSeries.TryGetIndexOfAppointmentIdInSeries
+  fullName: SuperOffice.Util.RecurringSubSeries.TryGetIndexOfAppointmentIdInSeries
+- uid: SuperOffice.Util.RecurringSubSeries.GetDivergentAppointments*
+  commentId: Overload:SuperOffice.Util.RecurringSubSeries.GetDivergentAppointments
+  isExternal: true
+  name: GetDivergentAppointments
+  nameWithType: RecurringSubSeries.GetDivergentAppointments
+  fullName: SuperOffice.Util.RecurringSubSeries.GetDivergentAppointments
+- uid: SuperOffice.Util.RecurringSubSeries.GetNonDivergentAppointments*
+  commentId: Overload:SuperOffice.Util.RecurringSubSeries.GetNonDivergentAppointments
+  isExternal: true
+  name: GetNonDivergentAppointments
+  nameWithType: RecurringSubSeries.GetNonDivergentAppointments
+  fullName: SuperOffice.Util.RecurringSubSeries.GetNonDivergentAppointments
+- uid: SuperOffice.Util.RecurringSubSeries.ConvertToRecurrenceDateTime*
+  commentId: Overload:SuperOffice.Util.RecurringSubSeries.ConvertToRecurrenceDateTime
+  isExternal: true
+  name: ConvertToRecurrenceDateTime
+  nameWithType: RecurringSubSeries.ConvertToRecurrenceDateTime
+  fullName: SuperOffice.Util.RecurringSubSeries.ConvertToRecurrenceDateTime
+- uid: System.Tuple{System.DateTime,System.DateTime}
+  commentId: T:System.Tuple{System.DateTime,System.DateTime}
+  parent: System
+  definition: System.Tuple`2
+  name: Tuple<DateTime, DateTime>
+  nameWithType: Tuple<DateTime, DateTime>
+  fullName: System.Tuple<System.DateTime, System.DateTime>
+  nameWithType.vb: Tuple(Of DateTime, DateTime)
+  fullName.vb: System.Tuple(Of System.DateTime, System.DateTime)
+  name.vb: Tuple(Of DateTime, DateTime)
+  spec.csharp:
+  - uid: System.Tuple`2
+    name: Tuple
+    nameWithType: Tuple
+    fullName: System.Tuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Tuple`2
+    name: Tuple
+    nameWithType: Tuple
+    fullName: System.Tuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Tuple`2
+  commentId: T:System.Tuple`2
+  isExternal: true
+  name: Tuple<T1, T2>
+  nameWithType: Tuple<T1, T2>
+  fullName: System.Tuple<T1, T2>
+  nameWithType.vb: Tuple(Of T1, T2)
+  fullName.vb: System.Tuple(Of T1, T2)
+  name.vb: Tuple(Of T1, T2)
+  spec.csharp:
+  - uid: System.Tuple`2
+    name: Tuple
+    nameWithType: Tuple
+    fullName: System.Tuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Tuple`2
+    name: Tuple
+    nameWithType: Tuple
+    fullName: System.Tuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.RecurringSubSeries.CreateStartEndDateTimesForRecurrenceFirstDay*
+  commentId: Overload:SuperOffice.Util.RecurringSubSeries.CreateStartEndDateTimesForRecurrenceFirstDay
+  isExternal: true
+  name: CreateStartEndDateTimesForRecurrenceFirstDay
+  nameWithType: RecurringSubSeries.CreateStartEndDateTimesForRecurrenceFirstDay
+  fullName: SuperOffice.Util.RecurringSubSeries.CreateStartEndDateTimesForRecurrenceFirstDay
+- uid: SuperOffice.Util.RecurringSubSeries.InvitationAppointmentId*
+  commentId: Overload:SuperOffice.Util.RecurringSubSeries.InvitationAppointmentId
+  isExternal: true
+  name: InvitationAppointmentId
+  nameWithType: RecurringSubSeries.InvitationAppointmentId
+  fullName: SuperOffice.Util.RecurringSubSeries.InvitationAppointmentId
+- uid: SuperOffice.Util.RecurringSubSeries.InvitationAppointmentDoBy*
+  commentId: Overload:SuperOffice.Util.RecurringSubSeries.InvitationAppointmentDoBy
+  isExternal: true
+  name: InvitationAppointmentDoBy
+  nameWithType: RecurringSubSeries.InvitationAppointmentDoBy
+  fullName: SuperOffice.Util.RecurringSubSeries.InvitationAppointmentDoBy

@@ -1,0 +1,4030 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  commentId: T:SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  id: Constants.IconHints
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Application
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Appointment
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Appointment_Alarm
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Arrow_Left
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Arrow_Right
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Assignment
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Assignment_Declined
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Assignment_Seen
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Associate
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Associate_Current
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Associate_Current_Group
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Associate_Group
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Audience_Associate
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Audience_Associate_Heading
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Audience_Associate_NoLogin
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Blank
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Accepted
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Cancelled
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Child
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Moved
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Moved_Seen
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Not_Seen
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Rejected
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Seen
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.CautionWarning
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Chat
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.CheckMark
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Conflict
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Contact
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.CustomList
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Document
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Document_MailMerge
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Archive_Heading
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Archived
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Deleted
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Disabled
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Draft
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Forwarded
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Importance_High
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Importance_Low
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_NotRead
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Read
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Replied
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Status_Heading
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Mailings
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Mailings_Heading
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Mailings_Mailings
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Mailings_No
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Milestone
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Other_Criteria
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Paperclip
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Person
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Person_Heading
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Person_Undefined
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Phone
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceArchives
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceDebug
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceDefaultValues
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceDiary
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceEmail
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceFilter
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceFunction
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceList
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceNotification
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceNotificationEmail
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceNotificationSms
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceOther
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferencePerson
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceRemove
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceReplication
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceRequest
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceSale
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceSearch
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceSorting
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceSystem
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceTooltip
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceTravel
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceVisualEffects
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceWebServer
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceWebService
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Privacy
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Product
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Project
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Published
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Pushpin
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Quote
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteAlternative
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteConnection
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteError
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteLine
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteOk
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteOkWithInfo
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteVersion
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteWarning
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Recurring
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Relation
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Relation_DestinationTarget
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Relation_SourceTarget
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Report
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Resource
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Resource_Group
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_Counter_Contact
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_Counter_Person
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_Counter_Project
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_Counter_Saint
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_StatusMonitor
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_StatusMonitor_Passive
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Sale
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Sale_IsStakeholderSale
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Sale_Lost
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Sale_Open
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Sale_Sold
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Sale_Stalled
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Selection
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Status_Monitor_Combo
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Status_Monitor_Eye
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Status_Monitor_X
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Tags
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Task
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Ticket
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.URL
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.User_Anonymous
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.User_External
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.User_System
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Webform
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Yes
+  langs:
+  - csharp
+  - vb
+  name: Constants.IconHints
+  nameWithType: Constants.IconHints
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nIcon hints for archive columns. Cells that have type icon will contain one of these hints, and the GUI should translate\nthat to the proper graphic (which will generally have the same name)\n"
+  syntax:
+    content: public static class IconHints
+    content.vb: Public Module IconHints
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Person
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Person
+  id: Person
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: Constants.IconHints.Person
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Person
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Person = "Person"
+    return:
+      type: System.String
+    content.vb: Public Const Person As String = "Person"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_Counter_Person
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_Counter_Person
+  id: Saint_Counter_Person
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Saint_Counter_Person
+  nameWithType: Constants.IconHints.Saint_Counter_Person
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_Counter_Person
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Saint_Counter_Person = "Saint_Counter_Person"
+    return:
+      type: System.String
+    content.vb: Public Const Saint_Counter_Person As String = "Saint_Counter_Person"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Contact
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Contact
+  id: Contact
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: Constants.IconHints.Contact
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Contact
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Contact = "Contact"
+    return:
+      type: System.String
+    content.vb: Public Const Contact As String = "Contact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_Counter_Contact
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_Counter_Contact
+  id: Saint_Counter_Contact
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Saint_Counter_Contact
+  nameWithType: Constants.IconHints.Saint_Counter_Contact
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_Counter_Contact
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Saint_Counter_Contact = "Saint_Counter_Contact"
+    return:
+      type: System.String
+    content.vb: Public Const Saint_Counter_Contact As String = "Saint_Counter_Contact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Project
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Project
+  id: Project
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: Constants.IconHints.Project
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Project
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Project = "Project"
+    return:
+      type: System.String
+    content.vb: Public Const Project As String = "Project"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_Counter_Project
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_Counter_Project
+  id: Saint_Counter_Project
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Saint_Counter_Project
+  nameWithType: Constants.IconHints.Saint_Counter_Project
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_Counter_Project
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Saint_Counter_Project = "Saint_Counter_Project"
+    return:
+      type: System.String
+    content.vb: Public Const Saint_Counter_Project As String = "Saint_Counter_Project"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Sale
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Sale
+  id: Sale
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Sale
+  nameWithType: Constants.IconHints.Sale
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Sale
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Sale = "Sale"
+    return:
+      type: System.String
+    content.vb: Public Const Sale As String = "Sale"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_Counter_Saint
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_Counter_Saint
+  id: Saint_Counter_Saint
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Saint_Counter_Saint
+  nameWithType: Constants.IconHints.Saint_Counter_Saint
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_Counter_Saint
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Saint_Counter_Saint = "Saint_Counter_Saint"
+    return:
+      type: System.String
+    content.vb: Public Const Saint_Counter_Saint As String = "Saint_Counter_Saint"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Relation
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Relation
+  id: Relation
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Relation
+  nameWithType: Constants.IconHints.Relation
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Relation
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Relation = "Relation"
+    return:
+      type: System.String
+    content.vb: Public Const Relation As String = "Relation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Selection
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Selection
+  id: Selection
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Selection
+  nameWithType: Constants.IconHints.Selection
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Selection
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Selection = "Selection"
+    return:
+      type: System.String
+    content.vb: Public Const Selection As String = "Selection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Other_Criteria
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Other_Criteria
+  id: Other_Criteria
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Other_Criteria
+  nameWithType: Constants.IconHints.Other_Criteria
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Other_Criteria
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Other_Criteria = "Other_Criteria"
+    return:
+      type: System.String
+    content.vb: Public Const Other_Criteria As String = "Other_Criteria"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Paperclip
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Paperclip
+  id: Paperclip
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Paperclip
+  nameWithType: Constants.IconHints.Paperclip
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Paperclip
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Paperclip = "paperclip"
+    return:
+      type: System.String
+    content.vb: Public Const Paperclip As String = "paperclip"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Pushpin
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Pushpin
+  id: Pushpin
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Pushpin
+  nameWithType: Constants.IconHints.Pushpin
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Pushpin
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Pushpin = "pushpin"
+    return:
+      type: System.String
+    content.vb: Public Const Pushpin As String = "pushpin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Arrow_Left
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Arrow_Left
+  id: Arrow_Left
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Arrow_Left
+  nameWithType: Constants.IconHints.Arrow_Left
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Arrow_Left
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Arrow_Left = "Arrow_Left"
+    return:
+      type: System.String
+    content.vb: Public Const Arrow_Left As String = "Arrow_Left"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Arrow_Right
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Arrow_Right
+  id: Arrow_Right
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Arrow_Right
+  nameWithType: Constants.IconHints.Arrow_Right
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Arrow_Right
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Arrow_Right = "Arrow_Right"
+    return:
+      type: System.String
+    content.vb: Public Const Arrow_Right As String = "Arrow_Right"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Published
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Published
+  id: Published
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Published
+  nameWithType: Constants.IconHints.Published
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Published
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Published = "Published"
+    return:
+      type: System.String
+    content.vb: Public Const Published As String = "Published"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Yes
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Yes
+  id: Yes
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Yes
+  nameWithType: Constants.IconHints.Yes
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Yes
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Yes = "Yes_Superlist"
+    return:
+      type: System.String
+    content.vb: Public Const Yes As String = "Yes_Superlist"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Sale_Lost
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Sale_Lost
+  id: Sale_Lost
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Sale_Lost
+  nameWithType: Constants.IconHints.Sale_Lost
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Sale_Lost
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Sale_Lost = "Sale_Lost"
+    return:
+      type: System.String
+    content.vb: Public Const Sale_Lost As String = "Sale_Lost"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Sale_Open
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Sale_Open
+  id: Sale_Open
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Sale_Open
+  nameWithType: Constants.IconHints.Sale_Open
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Sale_Open
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Sale_Open = "Sale_Open"
+    return:
+      type: System.String
+    content.vb: Public Const Sale_Open As String = "Sale_Open"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Sale_Sold
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Sale_Sold
+  id: Sale_Sold
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Sale_Sold
+  nameWithType: Constants.IconHints.Sale_Sold
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Sale_Sold
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Sale_Sold = "Sale_Sold"
+    return:
+      type: System.String
+    content.vb: Public Const Sale_Sold As String = "Sale_Sold"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Sale_Stalled
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Sale_Stalled
+  id: Sale_Stalled
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Sale_Stalled
+  nameWithType: Constants.IconHints.Sale_Stalled
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Sale_Stalled
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Sale_Stalled = "Sale_Stalled"
+    return:
+      type: System.String
+    content.vb: Public Const Sale_Stalled As String = "Sale_Stalled"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Sale_IsStakeholderSale
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Sale_IsStakeholderSale
+  id: Sale_IsStakeholderSale
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Sale_IsStakeholderSale
+  nameWithType: Constants.IconHints.Sale_IsStakeholderSale
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Sale_IsStakeholderSale
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Sale_IsStakeholderSale = "Sale_IsStakeholderSale"
+    return:
+      type: System.String
+    content.vb: Public Const Sale_IsStakeholderSale As String = "Sale_IsStakeholderSale"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Appointment
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Appointment
+  id: Appointment
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Appointment
+  nameWithType: Constants.IconHints.Appointment
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Appointment
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Appointment = "Appointment"
+    return:
+      type: System.String
+    content.vb: Public Const Appointment As String = "Appointment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Document
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Document
+  id: Document
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Document
+  nameWithType: Constants.IconHints.Document
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Document
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Document = "Document"
+    return:
+      type: System.String
+    content.vb: Public Const Document As String = "Document"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Ticket
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Ticket
+  id: Ticket
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Ticket
+  nameWithType: Constants.IconHints.Ticket
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Ticket
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Ticket = "Ticket"
+    return:
+      type: System.String
+    content.vb: Public Const Ticket As String = "Ticket"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Task
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Task
+  id: Task
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Task
+  nameWithType: Constants.IconHints.Task
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Task
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Task = "Task"
+    return:
+      type: System.String
+    content.vb: Public Const Task As String = "Task"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email
+  id: Email
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: Constants.IconHints.Email
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Email = "Email"
+    return:
+      type: System.String
+    content.vb: Public Const Email As String = "Email"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Phone
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Phone
+  id: Phone
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Phone
+  nameWithType: Constants.IconHints.Phone
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Phone
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Phone = "Phone"
+    return:
+      type: System.String
+    content.vb: Public Const Phone As String = "Phone"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Document_MailMerge
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Document_MailMerge
+  id: Document_MailMerge
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Document_MailMerge
+  nameWithType: Constants.IconHints.Document_MailMerge
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Document_MailMerge
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Document_MailMerge = "Document_MailMerge"
+    return:
+      type: System.String
+    content.vb: Public Const Document_MailMerge As String = "Document_MailMerge"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Report
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Report
+  id: Report
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Report
+  nameWithType: Constants.IconHints.Report
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Report
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Report = "Report"
+    return:
+      type: System.String
+    content.vb: Public Const Report As String = "Report"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Status_Heading
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Status_Heading
+  id: Email_Status_Heading
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Email_Status_Heading
+  nameWithType: Constants.IconHints.Email_Status_Heading
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Status_Heading
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Email_Status_Heading = "Email_Status_Heading"
+    return:
+      type: System.String
+    content.vb: Public Const Email_Status_Heading As String = "Email_Status_Heading"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_NotRead
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_NotRead
+  id: Email_NotRead
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Email_NotRead
+  nameWithType: Constants.IconHints.Email_NotRead
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_NotRead
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Email_NotRead = "Email_NotRead"
+    return:
+      type: System.String
+    content.vb: Public Const Email_NotRead As String = "Email_NotRead"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Read
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Read
+  id: Email_Read
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Email_Read
+  nameWithType: Constants.IconHints.Email_Read
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Read
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Email_Read = "Email_Read"
+    return:
+      type: System.String
+    content.vb: Public Const Email_Read As String = "Email_Read"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Replied
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Replied
+  id: Email_Replied
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Email_Replied
+  nameWithType: Constants.IconHints.Email_Replied
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Replied
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Email_Replied = "Email_Replied"
+    return:
+      type: System.String
+    content.vb: Public Const Email_Replied As String = "Email_Replied"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Forwarded
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Forwarded
+  id: Email_Forwarded
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Email_Forwarded
+  nameWithType: Constants.IconHints.Email_Forwarded
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Forwarded
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Email_Forwarded = "Email_Forwarded"
+    return:
+      type: System.String
+    content.vb: Public Const Email_Forwarded As String = "Email_Forwarded"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Deleted
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Deleted
+  id: Email_Deleted
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Email_Deleted
+  nameWithType: Constants.IconHints.Email_Deleted
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Deleted
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Email_Deleted = "Email_Deleted"
+    return:
+      type: System.String
+    content.vb: Public Const Email_Deleted As String = "Email_Deleted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Disabled
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Disabled
+  id: Email_Disabled
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Email_Disabled
+  nameWithType: Constants.IconHints.Email_Disabled
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Disabled
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Email_Disabled = "Email_Disabled"
+    return:
+      type: System.String
+    content.vb: Public Const Email_Disabled As String = "Email_Disabled"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Archive_Heading
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Archive_Heading
+  id: Email_Archive_Heading
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Email_Archive_Heading
+  nameWithType: Constants.IconHints.Email_Archive_Heading
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Archive_Heading
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Email_Archive_Heading = "Email_Archive_Heading"
+    return:
+      type: System.String
+    content.vb: Public Const Email_Archive_Heading As String = "Email_Archive_Heading"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Archived
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Archived
+  id: Email_Archived
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Email_Archived
+  nameWithType: Constants.IconHints.Email_Archived
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Archived
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Email_Archived = "Email_Archived"
+    return:
+      type: System.String
+    content.vb: Public Const Email_Archived As String = "Email_Archived"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Draft
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Draft
+  id: Email_Draft
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Email_Draft
+  nameWithType: Constants.IconHints.Email_Draft
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Draft
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Email_Draft = "Email_Draft"
+    return:
+      type: System.String
+    content.vb: Public Const Email_Draft As String = "Email_Draft"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Importance_High
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Importance_High
+  id: Email_Importance_High
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Email_Importance_High
+  nameWithType: Constants.IconHints.Email_Importance_High
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Importance_High
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Email_Importance_High = "Email_Importance_High"
+    return:
+      type: System.String
+    content.vb: Public Const Email_Importance_High As String = "Email_Importance_High"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Importance_Low
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Importance_Low
+  id: Email_Importance_Low
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Email_Importance_Low
+  nameWithType: Constants.IconHints.Email_Importance_Low
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Email_Importance_Low
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Email_Importance_Low = "Email_Importance_Low"
+    return:
+      type: System.String
+    content.vb: Public Const Email_Importance_Low As String = "Email_Importance_Low"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Relation_SourceTarget
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Relation_SourceTarget
+  id: Relation_SourceTarget
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Relation_SourceTarget
+  nameWithType: Constants.IconHints.Relation_SourceTarget
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Relation_SourceTarget
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Relation_SourceTarget = "Relation_SourceTarget"
+    return:
+      type: System.String
+    content.vb: Public Const Relation_SourceTarget As String = "Relation_SourceTarget"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Relation_DestinationTarget
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Relation_DestinationTarget
+  id: Relation_DestinationTarget
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Relation_DestinationTarget
+  nameWithType: Constants.IconHints.Relation_DestinationTarget
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Relation_DestinationTarget
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Relation_DestinationTarget = "Relation_DestinationTarget"
+    return:
+      type: System.String
+    content.vb: Public Const Relation_DestinationTarget As String = "Relation_DestinationTarget"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Blank
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Blank
+  id: Blank
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Blank
+  nameWithType: Constants.IconHints.Blank
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Blank
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Blank = "blank"
+    return:
+      type: System.String
+    content.vb: Public Const Blank As String = "blank"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.CautionWarning
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.CautionWarning
+  id: CautionWarning
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: CautionWarning
+  nameWithType: Constants.IconHints.CautionWarning
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.CautionWarning
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string CautionWarning = "CautionWarning"
+    return:
+      type: System.String
+    content.vb: Public Const CautionWarning As String = "CautionWarning"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Appointment_Alarm
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Appointment_Alarm
+  id: Appointment_Alarm
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Appointment_Alarm
+  nameWithType: Constants.IconHints.Appointment_Alarm
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Appointment_Alarm
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Appointment_Alarm = "Appointment_Alarm"
+    return:
+      type: System.String
+    content.vb: Public Const Appointment_Alarm As String = "Appointment_Alarm"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Recurring
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Recurring
+  id: Recurring
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Recurring
+  nameWithType: Constants.IconHints.Recurring
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Recurring
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Recurring = "recurring"
+    return:
+      type: System.String
+    content.vb: Public Const Recurring As String = "recurring"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Child
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Child
+  id: Booking_Child
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Booking_Child
+  nameWithType: Constants.IconHints.Booking_Child
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Child
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Booking_Child = "Booking_Child"
+    return:
+      type: System.String
+    content.vb: Public Const Booking_Child As String = "Booking_Child"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Seen
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Seen
+  id: Booking_Seen
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Booking_Seen
+  nameWithType: Constants.IconHints.Booking_Seen
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Seen
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Booking_Seen = "Booking_Seen"
+    return:
+      type: System.String
+    content.vb: Public Const Booking_Seen As String = "Booking_Seen"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Not_Seen
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Not_Seen
+  id: Booking_Not_Seen
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Booking_Not_Seen
+  nameWithType: Constants.IconHints.Booking_Not_Seen
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Not_Seen
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Booking_Not_Seen = "Booking_Not_Seen"
+    return:
+      type: System.String
+    content.vb: Public Const Booking_Not_Seen As String = "Booking_Not_Seen"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Accepted
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Accepted
+  id: Booking_Accepted
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Booking_Accepted
+  nameWithType: Constants.IconHints.Booking_Accepted
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Accepted
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Booking_Accepted = "Booking_Accepted"
+    return:
+      type: System.String
+    content.vb: Public Const Booking_Accepted As String = "Booking_Accepted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Rejected
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Rejected
+  id: Booking_Rejected
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Booking_Rejected
+  nameWithType: Constants.IconHints.Booking_Rejected
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Rejected
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Booking_Rejected = "Booking_Rejected"
+    return:
+      type: System.String
+    content.vb: Public Const Booking_Rejected As String = "Booking_Rejected"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Moved
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Moved
+  id: Booking_Moved
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Booking_Moved
+  nameWithType: Constants.IconHints.Booking_Moved
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Moved
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Booking_Moved = "Booking_Moved"
+    return:
+      type: System.String
+    content.vb: Public Const Booking_Moved As String = "Booking_Moved"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Moved_Seen
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Moved_Seen
+  id: Booking_Moved_Seen
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Booking_Moved_Seen
+  nameWithType: Constants.IconHints.Booking_Moved_Seen
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Moved_Seen
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Booking_Moved_Seen = "Booking_Moved_Seen"
+    return:
+      type: System.String
+    content.vb: Public Const Booking_Moved_Seen As String = "Booking_Moved_Seen"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Cancelled
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Cancelled
+  id: Booking_Cancelled
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Booking_Cancelled
+  nameWithType: Constants.IconHints.Booking_Cancelled
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Booking_Cancelled
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Booking_Cancelled = "Booking_Cancelled"
+    return:
+      type: System.String
+    content.vb: Public Const Booking_Cancelled As String = "Booking_Cancelled"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Assignment
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Assignment
+  id: Assignment
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Assignment
+  nameWithType: Constants.IconHints.Assignment
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Assignment
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Assignment = "assignment"
+    return:
+      type: System.String
+    content.vb: Public Const Assignment As String = "assignment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Assignment_Seen
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Assignment_Seen
+  id: Assignment_Seen
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Assignment_Seen
+  nameWithType: Constants.IconHints.Assignment_Seen
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Assignment_Seen
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Assignment_Seen = "Assignment_Seen"
+    return:
+      type: System.String
+    content.vb: Public Const Assignment_Seen As String = "Assignment_Seen"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Assignment_Declined
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Assignment_Declined
+  id: Assignment_Declined
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Assignment_Declined
+  nameWithType: Constants.IconHints.Assignment_Declined
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Assignment_Declined
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Assignment_Declined = "Assignment_Declined"
+    return:
+      type: System.String
+    content.vb: Public Const Assignment_Declined As String = "Assignment_Declined"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Status_Monitor_Eye
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Status_Monitor_Eye
+  id: Status_Monitor_Eye
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Status_Monitor_Eye
+  nameWithType: Constants.IconHints.Status_Monitor_Eye
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Status_Monitor_Eye
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Status_Monitor_Eye = "Status_monitor_eye"
+    return:
+      type: System.String
+    content.vb: Public Const Status_Monitor_Eye As String = "Status_monitor_eye"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Status_Monitor_X
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Status_Monitor_X
+  id: Status_Monitor_X
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Status_Monitor_X
+  nameWithType: Constants.IconHints.Status_Monitor_X
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Status_Monitor_X
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Status_Monitor_X = "Status_monitor_x"
+    return:
+      type: System.String
+    content.vb: Public Const Status_Monitor_X As String = "Status_monitor_x"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Status_Monitor_Combo
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Status_Monitor_Combo
+  id: Status_Monitor_Combo
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Status_Monitor_Combo
+  nameWithType: Constants.IconHints.Status_Monitor_Combo
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Status_Monitor_Combo
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Status_Monitor_Combo = "Status_monitor_combo"
+    return:
+      type: System.String
+    content.vb: Public Const Status_Monitor_Combo As String = "Status_monitor_combo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Associate
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Associate
+  id: Associate
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: Constants.IconHints.Associate
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Associate
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Associate = "Associate"
+    return:
+      type: System.String
+    content.vb: Public Const Associate As String = "Associate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.User_External
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.User_External
+  id: User_External
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: User_External
+  nameWithType: Constants.IconHints.User_External
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.User_External
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string User_External = "User_External"
+    return:
+      type: System.String
+    content.vb: Public Const User_External As String = "User_External"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Resource
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Resource
+  id: Resource
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Resource
+  nameWithType: Constants.IconHints.Resource
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Resource
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Resource = "resource"
+    return:
+      type: System.String
+    content.vb: Public Const Resource As String = "resource"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Resource_Group
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Resource_Group
+  id: Resource_Group
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Resource_Group
+  nameWithType: Constants.IconHints.Resource_Group
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Resource_Group
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Resource_Group = "Resource_Heading"
+    return:
+      type: System.String
+    content.vb: Public Const Resource_Group As String = "Resource_Heading"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Conflict
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Conflict
+  id: Conflict
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Conflict
+  nameWithType: Constants.IconHints.Conflict
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Conflict
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Conflict = "conflict"
+    return:
+      type: System.String
+    content.vb: Public Const Conflict As String = "conflict"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.User_Anonymous
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.User_Anonymous
+  id: User_Anonymous
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: User_Anonymous
+  nameWithType: Constants.IconHints.User_Anonymous
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.User_Anonymous
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string User_Anonymous = "User_Anonymous"
+    return:
+      type: System.String
+    content.vb: Public Const User_Anonymous As String = "User_Anonymous"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.User_System
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.User_System
+  id: User_System
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: User_System
+  nameWithType: Constants.IconHints.User_System
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.User_System
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string User_System = "User_System"
+    return:
+      type: System.String
+    content.vb: Public Const User_System As String = "User_System"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Associate_Current
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Associate_Current
+  id: Associate_Current
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Associate_Current
+  nameWithType: Constants.IconHints.Associate_Current
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Associate_Current
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Associate_Current = "Associate_Current"
+    return:
+      type: System.String
+    content.vb: Public Const Associate_Current As String = "Associate_Current"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Associate_Group
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Associate_Group
+  id: Associate_Group
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Associate_Group
+  nameWithType: Constants.IconHints.Associate_Group
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Associate_Group
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Associate_Group = "Group_Blue"
+    return:
+      type: System.String
+    content.vb: Public Const Associate_Group As String = "Group_Blue"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Associate_Current_Group
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Associate_Current_Group
+  id: Associate_Current_Group
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Associate_Current_Group
+  nameWithType: Constants.IconHints.Associate_Current_Group
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Associate_Current_Group
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Associate_Current_Group = "Group_BlueGreen"
+    return:
+      type: System.String
+    content.vb: Public Const Associate_Current_Group As String = "Group_BlueGreen"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_StatusMonitor_Passive
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_StatusMonitor_Passive
+  id: Saint_StatusMonitor_Passive
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Saint_StatusMonitor_Passive
+  nameWithType: Constants.IconHints.Saint_StatusMonitor_Passive
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_StatusMonitor_Passive
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Saint_StatusMonitor_Passive = "Saint_StatusMonitor_Passive"
+    return:
+      type: System.String
+    content.vb: Public Const Saint_StatusMonitor_Passive As String = "Saint_StatusMonitor_Passive"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_StatusMonitor
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_StatusMonitor
+  id: Saint_StatusMonitor
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Saint_StatusMonitor
+  nameWithType: Constants.IconHints.Saint_StatusMonitor
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Saint_StatusMonitor
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Saint_StatusMonitor = "Saint_StatusMonitor"
+    return:
+      type: System.String
+    content.vb: Public Const Saint_StatusMonitor As String = "Saint_StatusMonitor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Mailings
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Mailings
+  id: Mailings
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Mailings
+  nameWithType: Constants.IconHints.Mailings
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Mailings
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Mailings = "Mailings"
+    return:
+      type: System.String
+    content.vb: Public Const Mailings As String = "Mailings"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Mailings_No
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Mailings_No
+  id: Mailings_No
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Mailings_No
+  nameWithType: Constants.IconHints.Mailings_No
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Mailings_No
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Mailings_No = "Mailings_No"
+    return:
+      type: System.String
+    content.vb: Public Const Mailings_No As String = "Mailings_No"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Mailings_Mailings
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Mailings_Mailings
+  id: Mailings_Mailings
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Mailings_Mailings
+  nameWithType: Constants.IconHints.Mailings_Mailings
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Mailings_Mailings
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Mailings_Mailings = "Mailings_mailings"
+    return:
+      type: System.String
+    content.vb: Public Const Mailings_Mailings As String = "Mailings_mailings"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Chat
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Chat
+  id: Chat
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Chat
+  nameWithType: Constants.IconHints.Chat
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Chat
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Chat = "Chat"
+    return:
+      type: System.String
+    content.vb: Public Const Chat As String = "Chat"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Webform
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Webform
+  id: Webform
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Webform
+  nameWithType: Constants.IconHints.Webform
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Webform
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Webform = "Webform"
+    return:
+      type: System.String
+    content.vb: Public Const Webform As String = "Webform"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Privacy
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Privacy
+  id: Privacy
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Privacy
+  nameWithType: Constants.IconHints.Privacy
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Privacy
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Privacy = "Privacy"
+    return:
+      type: System.String
+    content.vb: Public Const Privacy As String = "Privacy"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Tags
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Tags
+  id: Tags
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Tags
+  nameWithType: Constants.IconHints.Tags
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Tags
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Tags = "Tags"
+    return:
+      type: System.String
+    content.vb: Public Const Tags As String = "Tags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Person_Undefined
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Person_Undefined
+  id: Person_Undefined
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Person_Undefined
+  nameWithType: Constants.IconHints.Person_Undefined
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Person_Undefined
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Person_Undefined = "Person_Undefined"
+    return:
+      type: System.String
+    content.vb: Public Const Person_Undefined As String = "Person_Undefined"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Person_Heading
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Person_Heading
+  id: Person_Heading
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Person_Heading
+  nameWithType: Constants.IconHints.Person_Heading
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Person_Heading
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Person_Heading = "Person_Heading"
+    return:
+      type: System.String
+    content.vb: Public Const Person_Heading As String = "Person_Heading"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Audience_Associate
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Audience_Associate
+  id: Audience_Associate
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Audience_Associate
+  nameWithType: Constants.IconHints.Audience_Associate
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Audience_Associate
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Audience_Associate = "Audience_Associate"
+    return:
+      type: System.String
+    content.vb: Public Const Audience_Associate As String = "Audience_Associate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Audience_Associate_NoLogin
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Audience_Associate_NoLogin
+  id: Audience_Associate_NoLogin
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Audience_Associate_NoLogin
+  nameWithType: Constants.IconHints.Audience_Associate_NoLogin
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Audience_Associate_NoLogin
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Audience_Associate_NoLogin = "Audience_Associate_NoLogin"
+    return:
+      type: System.String
+    content.vb: Public Const Audience_Associate_NoLogin As String = "Audience_Associate_NoLogin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Mailings_Heading
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Mailings_Heading
+  id: Mailings_Heading
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Mailings_Heading
+  nameWithType: Constants.IconHints.Mailings_Heading
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Mailings_Heading
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Mailings_Heading = "Mailings_Heading"
+    return:
+      type: System.String
+    content.vb: Public Const Mailings_Heading As String = "Mailings_Heading"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.CheckMark
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.CheckMark
+  id: CheckMark
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: CheckMark
+  nameWithType: Constants.IconHints.CheckMark
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.CheckMark
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string CheckMark = "CheckMark"
+    return:
+      type: System.String
+    content.vb: Public Const CheckMark As String = "CheckMark"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Audience_Associate_Heading
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Audience_Associate_Heading
+  id: Audience_Associate_Heading
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Audience_Associate_Heading
+  nameWithType: Constants.IconHints.Audience_Associate_Heading
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Audience_Associate_Heading
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Audience_Associate_Heading = "Audience_Associate_Heading"
+    return:
+      type: System.String
+    content.vb: Public Const Audience_Associate_Heading As String = "Audience_Associate_Heading"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.URL
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.URL
+  id: URL
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: URL
+  nameWithType: Constants.IconHints.URL
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.URL
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string URL = "URL"
+    return:
+      type: System.String
+    content.vb: Public Const URL As String = "URL"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Milestone
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Milestone
+  id: Milestone
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Milestone
+  nameWithType: Constants.IconHints.Milestone
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Milestone
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Milestone = "milestone"
+    return:
+      type: System.String
+    content.vb: Public Const Milestone As String = "milestone"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Product
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Product
+  id: Product
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Product
+  nameWithType: Constants.IconHints.Product
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Product
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Product = "Products"
+    return:
+      type: System.String
+    content.vb: Public Const Product As String = "Products"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteConnection
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteConnection
+  id: QuoteConnection
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: QuoteConnection
+  nameWithType: Constants.IconHints.QuoteConnection
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteConnection
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string QuoteConnection = "Quote_Connection"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteConnection As String = "Quote_Connection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteLine
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteLine
+  id: QuoteLine
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: QuoteLine
+  nameWithType: Constants.IconHints.QuoteLine
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteLine
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string QuoteLine = "Mini_quoteline"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteLine As String = "Mini_quoteline"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteVersion
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteVersion
+  id: QuoteVersion
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersion
+  nameWithType: Constants.IconHints.QuoteVersion
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteVersion
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string QuoteVersion = "Quote_Version"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteVersion As String = "Quote_Version"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteAlternative
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteAlternative
+  id: QuoteAlternative
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: QuoteAlternative
+  nameWithType: Constants.IconHints.QuoteAlternative
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteAlternative
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string QuoteAlternative = "Quote_Alternative"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteAlternative As String = "Quote_Alternative"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Quote
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Quote
+  id: Quote
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Quote
+  nameWithType: Constants.IconHints.Quote
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Quote
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Quote = "Quote"
+    return:
+      type: System.String
+    content.vb: Public Const Quote As String = "Quote"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteOk
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteOk
+  id: QuoteOk
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: QuoteOk
+  nameWithType: Constants.IconHints.QuoteOk
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteOk
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string QuoteOk = "Quote_Status_OK"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteOk As String = "Quote_Status_OK"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteOkWithInfo
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteOkWithInfo
+  id: QuoteOkWithInfo
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: QuoteOkWithInfo
+  nameWithType: Constants.IconHints.QuoteOkWithInfo
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteOkWithInfo
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string QuoteOkWithInfo = "Quote_Status_OKWithInfo"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteOkWithInfo As String = "Quote_Status_OKWithInfo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteWarning
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteWarning
+  id: QuoteWarning
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: QuoteWarning
+  nameWithType: Constants.IconHints.QuoteWarning
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteWarning
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string QuoteWarning = "Quote_Status_Warning"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteWarning As String = "Quote_Status_Warning"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteError
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteError
+  id: QuoteError
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: QuoteError
+  nameWithType: Constants.IconHints.QuoteError
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.QuoteError
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string QuoteError = "Quote_Status_Error"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteError As String = "Quote_Status_Error"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Application
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Application
+  id: Application
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Application
+  nameWithType: Constants.IconHints.Application
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Application
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Application = "Application"
+    return:
+      type: System.String
+    content.vb: Public Const Application As String = "Application"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.CustomList
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.CustomList
+  id: CustomList
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: CustomList
+  nameWithType: Constants.IconHints.CustomList
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.CustomList
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string CustomList = "Custom_list"
+    return:
+      type: System.String
+    content.vb: Public Const CustomList As String = "Custom_list"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceDefaultValues
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceDefaultValues
+  id: PreferenceDefaultValues
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferenceDefaultValues
+  nameWithType: Constants.IconHints.PreferenceDefaultValues
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceDefaultValues
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferenceDefaultValues = "Preference_defaultvalues"
+    return:
+      type: System.String
+    content.vb: Public Const PreferenceDefaultValues As String = "Preference_defaultvalues"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceDiary
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceDiary
+  id: PreferenceDiary
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferenceDiary
+  nameWithType: Constants.IconHints.PreferenceDiary
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceDiary
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferenceDiary = "Preference_diary"
+    return:
+      type: System.String
+    content.vb: Public Const PreferenceDiary As String = "Preference_diary"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceEmail
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceEmail
+  id: PreferenceEmail
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferenceEmail
+  nameWithType: Constants.IconHints.PreferenceEmail
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceEmail
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferenceEmail = "Preference_email"
+    return:
+      type: System.String
+    content.vb: Public Const PreferenceEmail As String = "Preference_email"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceFilter
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceFilter
+  id: PreferenceFilter
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferenceFilter
+  nameWithType: Constants.IconHints.PreferenceFilter
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceFilter
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferenceFilter = "Preference_filter"
+    return:
+      type: System.String
+    content.vb: Public Const PreferenceFilter As String = "Preference_filter"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceFunction
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceFunction
+  id: PreferenceFunction
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferenceFunction
+  nameWithType: Constants.IconHints.PreferenceFunction
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceFunction
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferenceFunction = "Preference_function"
+    return:
+      type: System.String
+    content.vb: Public Const PreferenceFunction As String = "Preference_function"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceList
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceList
+  id: PreferenceList
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferenceList
+  nameWithType: Constants.IconHints.PreferenceList
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceList
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferenceList = "Preference_groupedlist"
+    return:
+      type: System.String
+    content.vb: Public Const PreferenceList As String = "Preference_groupedlist"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceOther
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceOther
+  id: PreferenceOther
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferenceOther
+  nameWithType: Constants.IconHints.PreferenceOther
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceOther
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferenceOther = "Preference_other"
+    return:
+      type: System.String
+    content.vb: Public Const PreferenceOther As String = "Preference_other"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceReplication
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceReplication
+  id: PreferenceReplication
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferenceReplication
+  nameWithType: Constants.IconHints.PreferenceReplication
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceReplication
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferenceReplication = "Preference_replication"
+    return:
+      type: System.String
+    content.vb: Public Const PreferenceReplication As String = "Preference_replication"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceSale
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceSale
+  id: PreferenceSale
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferenceSale
+  nameWithType: Constants.IconHints.PreferenceSale
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceSale
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferenceSale = "Preference_sale"
+    return:
+      type: System.String
+    content.vb: Public Const PreferenceSale As String = "Preference_sale"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceSearch
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceSearch
+  id: PreferenceSearch
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferenceSearch
+  nameWithType: Constants.IconHints.PreferenceSearch
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceSearch
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferenceSearch = "Preference_search"
+    return:
+      type: System.String
+    content.vb: Public Const PreferenceSearch As String = "Preference_search"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceSorting
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceSorting
+  id: PreferenceSorting
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferenceSorting
+  nameWithType: Constants.IconHints.PreferenceSorting
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceSorting
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferenceSorting = "Preference_sorting"
+    return:
+      type: System.String
+    content.vb: Public Const PreferenceSorting As String = "Preference_sorting"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceSystem
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceSystem
+  id: PreferenceSystem
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferenceSystem
+  nameWithType: Constants.IconHints.PreferenceSystem
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceSystem
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferenceSystem = "Preference_system"
+    return:
+      type: System.String
+    content.vb: Public Const PreferenceSystem As String = "Preference_system"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceTooltip
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceTooltip
+  id: PreferenceTooltip
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferenceTooltip
+  nameWithType: Constants.IconHints.PreferenceTooltip
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceTooltip
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferenceTooltip = "Preference_tooltip"
+    return:
+      type: System.String
+    content.vb: Public Const PreferenceTooltip As String = "Preference_tooltip"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceTravel
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceTravel
+  id: PreferenceTravel
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferenceTravel
+  nameWithType: Constants.IconHints.PreferenceTravel
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceTravel
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferenceTravel = "Preference_travel"
+    return:
+      type: System.String
+    content.vb: Public Const PreferenceTravel As String = "Preference_travel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceVisualEffects
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceVisualEffects
+  id: PreferenceVisualEffects
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferenceVisualEffects
+  nameWithType: Constants.IconHints.PreferenceVisualEffects
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceVisualEffects
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferenceVisualEffects = "Preference_visualeffects"
+    return:
+      type: System.String
+    content.vb: Public Const PreferenceVisualEffects As String = "Preference_visualeffects"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceWebServer
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceWebServer
+  id: PreferenceWebServer
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferenceWebServer
+  nameWithType: Constants.IconHints.PreferenceWebServer
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceWebServer
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferenceWebServer = "Preference_webserver"
+    return:
+      type: System.String
+    content.vb: Public Const PreferenceWebServer As String = "Preference_webserver"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceWebService
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceWebService
+  id: PreferenceWebService
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferenceWebService
+  nameWithType: Constants.IconHints.PreferenceWebService
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceWebService
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferenceWebService = "Preference_webservice"
+    return:
+      type: System.String
+    content.vb: Public Const PreferenceWebService As String = "Preference_webservice"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferencePerson
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferencePerson
+  id: PreferencePerson
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferencePerson
+  nameWithType: Constants.IconHints.PreferencePerson
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferencePerson
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferencePerson = "Preference_Person"
+    return:
+      type: System.String
+    content.vb: Public Const PreferencePerson As String = "Preference_Person"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceRequest
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceRequest
+  id: PreferenceRequest
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferenceRequest
+  nameWithType: Constants.IconHints.PreferenceRequest
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceRequest
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferenceRequest = "Preference_request"
+    return:
+      type: System.String
+    content.vb: Public Const PreferenceRequest As String = "Preference_request"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceNotification
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceNotification
+  id: PreferenceNotification
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferenceNotification
+  nameWithType: Constants.IconHints.PreferenceNotification
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceNotification
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferenceNotification = "Preference_notification"
+    return:
+      type: System.String
+    content.vb: Public Const PreferenceNotification As String = "Preference_notification"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceRemove
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceRemove
+  id: PreferenceRemove
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferenceRemove
+  nameWithType: Constants.IconHints.PreferenceRemove
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceRemove
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferenceRemove = "Preference_Remove"
+    return:
+      type: System.String
+    content.vb: Public Const PreferenceRemove As String = "Preference_Remove"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceNotificationSms
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceNotificationSms
+  id: PreferenceNotificationSms
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferenceNotificationSms
+  nameWithType: Constants.IconHints.PreferenceNotificationSms
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceNotificationSms
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferenceNotificationSms = "Preference_notificationSms"
+    return:
+      type: System.String
+    content.vb: Public Const PreferenceNotificationSms As String = "Preference_notificationSms"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceNotificationEmail
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceNotificationEmail
+  id: PreferenceNotificationEmail
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferenceNotificationEmail
+  nameWithType: Constants.IconHints.PreferenceNotificationEmail
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceNotificationEmail
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferenceNotificationEmail = "Preference_notificationEmail"
+    return:
+      type: System.String
+    content.vb: Public Const PreferenceNotificationEmail As String = "Preference_notificationEmail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceArchives
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceArchives
+  id: PreferenceArchives
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferenceArchives
+  nameWithType: Constants.IconHints.PreferenceArchives
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceArchives
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferenceArchives = "Preference_Archives"
+    return:
+      type: System.String
+    content.vb: Public Const PreferenceArchives As String = "Preference_Archives"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceDebug
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceDebug
+  id: PreferenceDebug
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: PreferenceDebug
+  nameWithType: Constants.IconHints.PreferenceDebug
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.PreferenceDebug
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PreferenceDebug = "Preference_Debug"
+    return:
+      type: System.String
+    content.vb: Public Const PreferenceDebug As String = "Preference_Debug"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

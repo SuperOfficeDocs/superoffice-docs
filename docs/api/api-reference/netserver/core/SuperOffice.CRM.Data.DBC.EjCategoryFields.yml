@@ -1,0 +1,767 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.EjCategoryFields
+  commentId: T:SuperOffice.CRM.Data.DBC.EjCategoryFields
+  id: DBC.EjCategoryFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.EjCategoryFields.AssignmentLag
+  - SuperOffice.CRM.Data.DBC.EjCategoryFields.CategoryMaster
+  - SuperOffice.CRM.Data.DBC.EjCategoryFields.ClosingStatus
+  - SuperOffice.CRM.Data.DBC.EjCategoryFields.DelegateCounter
+  - SuperOffice.CRM.Data.DBC.EjCategoryFields.DelegateMethod
+  - SuperOffice.CRM.Data.DBC.EjCategoryFields.EjCategoryId
+  - SuperOffice.CRM.Data.DBC.EjCategoryFields.ExternalName
+  - SuperOffice.CRM.Data.DBC.EjCategoryFields.Flags
+  - SuperOffice.CRM.Data.DBC.EjCategoryFields.Fullname
+  - SuperOffice.CRM.Data.DBC.EjCategoryFields.MsgClosingStatus
+  - SuperOffice.CRM.Data.DBC.EjCategoryFields.Name
+  - SuperOffice.CRM.Data.DBC.EjCategoryFields.NotificationEmail
+  - SuperOffice.CRM.Data.DBC.EjCategoryFields.ParentId
+  - SuperOffice.CRM.Data.DBC.EjCategoryFields.ReplyTemplate
+  langs:
+  - csharp
+  - vb
+  name: DBC.EjCategoryFields
+  nameWithType: DBC.EjCategoryFields
+  fullName: SuperOffice.CRM.Data.DBC.EjCategoryFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for EjCategory, This table contains categories, in which tickets are categorized. The categories are organized in a hierarchial manner.\n"
+  syntax:
+    content: public static class EjCategoryFields
+    content.vb: Public Module EjCategoryFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.EjCategoryFields.EjCategoryId
+  commentId: F:SuperOffice.CRM.Data.DBC.EjCategoryFields.EjCategoryId
+  id: EjCategoryId
+  parent: SuperOffice.CRM.Data.DBC.EjCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: EjCategoryId
+  nameWithType: DBC.EjCategoryFields.EjCategoryId
+  fullName: SuperOffice.CRM.Data.DBC.EjCategoryFields.EjCategoryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjCategory.EjCategoryId: The primary key (auto-incremented)\n"
+  syntax:
+    content: public const string EjCategoryId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const EjCategoryId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjCategoryFields.ParentId
+  commentId: F:SuperOffice.CRM.Data.DBC.EjCategoryFields.ParentId
+  id: ParentId
+  parent: SuperOffice.CRM.Data.DBC.EjCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: ParentId
+  nameWithType: DBC.EjCategoryFields.ParentId
+  fullName: SuperOffice.CRM.Data.DBC.EjCategoryFields.ParentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjCategory.ParentId: The parent category for this category. -1 if this is a toplevel category.\n"
+  syntax:
+    content: public const string ParentId = "parent_id"
+    return:
+      type: System.String
+    content.vb: Public Const ParentId As String = "parent_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjCategoryFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.EjCategoryFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.EjCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.EjCategoryFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.EjCategoryFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjCategory.Name: The (short) name of this category. E.g. &apos;support&apos;.\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjCategoryFields.CategoryMaster
+  commentId: F:SuperOffice.CRM.Data.DBC.EjCategoryFields.CategoryMaster
+  id: CategoryMaster
+  parent: SuperOffice.CRM.Data.DBC.EjCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: CategoryMaster
+  nameWithType: DBC.EjCategoryFields.CategoryMaster
+  fullName: SuperOffice.CRM.Data.DBC.EjCategoryFields.CategoryMaster
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjCategory.CategoryMaster: The user associated with this category.\n"
+  syntax:
+    content: public const string CategoryMaster = "category_master"
+    return:
+      type: System.String
+    content.vb: Public Const CategoryMaster As String = "category_master"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjCategoryFields.Fullname
+  commentId: F:SuperOffice.CRM.Data.DBC.EjCategoryFields.Fullname
+  id: Fullname
+  parent: SuperOffice.CRM.Data.DBC.EjCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: Fullname
+  nameWithType: DBC.EjCategoryFields.Fullname
+  fullName: SuperOffice.CRM.Data.DBC.EjCategoryFields.Fullname
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjCategory.Fullname: The fullname (compiled from parents&apos; names) for this category. E.g. &apos;norway/product A/support&apos;.\n"
+  syntax:
+    content: public const string Fullname = "fullname"
+    return:
+      type: System.String
+    content.vb: Public Const Fullname As String = "fullname"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjCategoryFields.Flags
+  commentId: F:SuperOffice.CRM.Data.DBC.EjCategoryFields.Flags
+  id: Flags
+  parent: SuperOffice.CRM.Data.DBC.EjCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: DBC.EjCategoryFields.Flags
+  fullName: SuperOffice.CRM.Data.DBC.EjCategoryFields.Flags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjCategory.Flags: A bitmask representing flags for this category.\n"
+  syntax:
+    content: public const string Flags = "flags"
+    return:
+      type: System.String
+    content.vb: Public Const Flags As String = "flags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjCategoryFields.DelegateMethod
+  commentId: F:SuperOffice.CRM.Data.DBC.EjCategoryFields.DelegateMethod
+  id: DelegateMethod
+  parent: SuperOffice.CRM.Data.DBC.EjCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: DelegateMethod
+  nameWithType: DBC.EjCategoryFields.DelegateMethod
+  fullName: SuperOffice.CRM.Data.DBC.EjCategoryFields.DelegateMethod
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjCategory.DelegateMethod: An integer indicating the delegation method for this category.\n"
+  syntax:
+    content: public const string DelegateMethod = "delegate_method"
+    return:
+      type: System.String
+    content.vb: Public Const DelegateMethod As String = "delegate_method"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjCategoryFields.DelegateCounter
+  commentId: F:SuperOffice.CRM.Data.DBC.EjCategoryFields.DelegateCounter
+  id: DelegateCounter
+  parent: SuperOffice.CRM.Data.DBC.EjCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: DelegateCounter
+  nameWithType: DBC.EjCategoryFields.DelegateCounter
+  fullName: SuperOffice.CRM.Data.DBC.EjCategoryFields.DelegateCounter
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjCategory.DelegateCounter: A delegate counter, incremented by 1 for every delegation\n"
+  syntax:
+    content: public const string DelegateCounter = "delegate_counter"
+    return:
+      type: System.String
+    content.vb: Public Const DelegateCounter As String = "delegate_counter"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjCategoryFields.ExternalName
+  commentId: F:SuperOffice.CRM.Data.DBC.EjCategoryFields.ExternalName
+  id: ExternalName
+  parent: SuperOffice.CRM.Data.DBC.EjCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: ExternalName
+  nameWithType: DBC.EjCategoryFields.ExternalName
+  fullName: SuperOffice.CRM.Data.DBC.EjCategoryFields.ExternalName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjCategory.ExternalName: The external name for this category, used for the customer frontend.\n"
+  syntax:
+    content: public const string ExternalName = "external_name"
+    return:
+      type: System.String
+    content.vb: Public Const ExternalName As String = "external_name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjCategoryFields.ClosingStatus
+  commentId: F:SuperOffice.CRM.Data.DBC.EjCategoryFields.ClosingStatus
+  id: ClosingStatus
+  parent: SuperOffice.CRM.Data.DBC.EjCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: ClosingStatus
+  nameWithType: DBC.EjCategoryFields.ClosingStatus
+  fullName: SuperOffice.CRM.Data.DBC.EjCategoryFields.ClosingStatus
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjCategory.ClosingStatus: An integer indicating if new requests should have the &apos;close request&apos; in this category checked as default, or if the users preferences should be selected.\n"
+  syntax:
+    content: public const string ClosingStatus = "closing_status"
+    return:
+      type: System.String
+    content.vb: Public Const ClosingStatus As String = "closing_status"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjCategoryFields.MsgClosingStatus
+  commentId: F:SuperOffice.CRM.Data.DBC.EjCategoryFields.MsgClosingStatus
+  id: MsgClosingStatus
+  parent: SuperOffice.CRM.Data.DBC.EjCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: MsgClosingStatus
+  nameWithType: DBC.EjCategoryFields.MsgClosingStatus
+  fullName: SuperOffice.CRM.Data.DBC.EjCategoryFields.MsgClosingStatus
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjCategory.MsgClosingStatus: An integer indicating if new messages should have the &apos;close request&apos; in this category checked as default, or if the users preferences should be selected.\n"
+  syntax:
+    content: public const string MsgClosingStatus = "msg_closing_status"
+    return:
+      type: System.String
+    content.vb: Public Const MsgClosingStatus As String = "msg_closing_status"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjCategoryFields.AssignmentLag
+  commentId: F:SuperOffice.CRM.Data.DBC.EjCategoryFields.AssignmentLag
+  id: AssignmentLag
+  parent: SuperOffice.CRM.Data.DBC.EjCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: AssignmentLag
+  nameWithType: DBC.EjCategoryFields.AssignmentLag
+  fullName: SuperOffice.CRM.Data.DBC.EjCategoryFields.AssignmentLag
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjCategory.AssignmentLag: Number of minutes we shall override the assignment if a customer sends consecutive messages to this category\n"
+  syntax:
+    content: public const string AssignmentLag = "assignment_lag"
+    return:
+      type: System.String
+    content.vb: Public Const AssignmentLag As String = "assignment_lag"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjCategoryFields.ReplyTemplate
+  commentId: F:SuperOffice.CRM.Data.DBC.EjCategoryFields.ReplyTemplate
+  id: ReplyTemplate
+  parent: SuperOffice.CRM.Data.DBC.EjCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplate
+  nameWithType: DBC.EjCategoryFields.ReplyTemplate
+  fullName: SuperOffice.CRM.Data.DBC.EjCategoryFields.ReplyTemplate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjCategory.ReplyTemplate: Reply template to merge with messages posted in this category\n"
+  syntax:
+    content: public const string ReplyTemplate = "reply_template"
+    return:
+      type: System.String
+    content.vb: Public Const ReplyTemplate As String = "reply_template"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjCategoryFields.NotificationEmail
+  commentId: F:SuperOffice.CRM.Data.DBC.EjCategoryFields.NotificationEmail
+  id: NotificationEmail
+  parent: SuperOffice.CRM.Data.DBC.EjCategoryFields
+  langs:
+  - csharp
+  - vb
+  name: NotificationEmail
+  nameWithType: DBC.EjCategoryFields.NotificationEmail
+  fullName: SuperOffice.CRM.Data.DBC.EjCategoryFields.NotificationEmail
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjCategory.NotificationEmail: Comma separated list of addresses to notify when requests are redelegated to (unassigned) in this category.\n"
+  syntax:
+    content: public const string NotificationEmail = "notification_email"
+    return:
+      type: System.String
+    content.vb: Public Const NotificationEmail As String = "notification_email"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

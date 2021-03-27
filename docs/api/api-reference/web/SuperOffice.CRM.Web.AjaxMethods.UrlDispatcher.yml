@@ -1,0 +1,898 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher
+  id: UrlDispatcher
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  children:
+  - SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.#ctor
+  - SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ApplySchemeTranlation(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ApplySchemeTranslation(System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetContextHelpUrlFromIndex(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetContextHelpUrlFromPageId(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetCrossTableViewerDownloadUrl
+  - SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetUrl(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetUrlWithSchemeTranslation(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetWebtoolsDownloadUrl
+  - SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetWebtoolsVersionCheckUrl
+  - SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ReplaceTag(System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ReplaceTags(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.SetPilotProgramServiceUrl(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.UpdateNetServicesStatusUrls(System.String)
+  langs:
+  - csharp
+  - vb
+  name: UrlDispatcher
+  nameWithType: UrlDispatcher
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoWebObject("UrlDispatcher")]
+
+      public class UrlDispatcher : IWebObject, IPlugin
+    content.vb: >-
+      <SoWebObject("UrlDispatcher")>
+
+      Public Class UrlDispatcher
+          Implements IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: UrlDispatcher
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.UpdateNetServicesStatusUrls(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.UpdateNetServicesStatusUrls(System.String)
+  id: UpdateNetServicesStatusUrls(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher
+  langs:
+  - csharp
+  - vb
+  name: UpdateNetServicesStatusUrls(String)
+  nameWithType: UrlDispatcher.UpdateNetServicesStatusUrls(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.UpdateNetServicesStatusUrls(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public bool UpdateNetServicesStatusUrls(string jsonObject)
+    parameters:
+    - id: jsonObject
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function UpdateNetServicesStatusUrls(jsonObject As String) As Boolean
+  overload: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.UpdateNetServicesStatusUrls*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetContextHelpUrlFromPageId(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetContextHelpUrlFromPageId(System.String)
+  id: GetContextHelpUrlFromPageId(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher
+  langs:
+  - csharp
+  - vb
+  name: GetContextHelpUrlFromPageId(String)
+  nameWithType: UrlDispatcher.GetContextHelpUrlFromPageId(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetContextHelpUrlFromPageId(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetContextHelpUrlFromPageId(string pageId)
+    parameters:
+    - id: pageId
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetContextHelpUrlFromPageId(pageId As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetContextHelpUrlFromPageId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetContextHelpUrlFromIndex(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetContextHelpUrlFromIndex(System.String)
+  id: GetContextHelpUrlFromIndex(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher
+  langs:
+  - csharp
+  - vb
+  name: GetContextHelpUrlFromIndex(String)
+  nameWithType: UrlDispatcher.GetContextHelpUrlFromIndex(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetContextHelpUrlFromIndex(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetContextHelpUrlFromIndex(string index)
+    parameters:
+    - id: index
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetContextHelpUrlFromIndex(index As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetContextHelpUrlFromIndex*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetUrlWithSchemeTranslation(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetUrlWithSchemeTranslation(System.String)
+  id: GetUrlWithSchemeTranslation(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher
+  langs:
+  - csharp
+  - vb
+  name: GetUrlWithSchemeTranslation(String)
+  nameWithType: UrlDispatcher.GetUrlWithSchemeTranslation(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetUrlWithSchemeTranslation(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetUrlWithSchemeTranslation(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetUrlWithSchemeTranslation(key As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetUrlWithSchemeTranslation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetUrl(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetUrl(System.String)
+  id: GetUrl(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher
+  langs:
+  - csharp
+  - vb
+  name: GetUrl(String)
+  nameWithType: UrlDispatcher.GetUrl(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetUrl(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetUrl(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetUrl(key As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetUrl*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ApplySchemeTranlation(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ApplySchemeTranlation(System.String)
+  id: ApplySchemeTranlation(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher
+  langs:
+  - csharp
+  - vb
+  name: ApplySchemeTranlation(String)
+  nameWithType: UrlDispatcher.ApplySchemeTranlation(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ApplySchemeTranlation(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string ApplySchemeTranlation(string url)
+    parameters:
+    - id: url
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ApplySchemeTranlation(url As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ApplySchemeTranlation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ApplySchemeTranslation(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ApplySchemeTranslation(System.String,System.String)
+  id: ApplySchemeTranslation(System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher
+  langs:
+  - csharp
+  - vb
+  name: ApplySchemeTranslation(String, String)
+  nameWithType: UrlDispatcher.ApplySchemeTranslation(String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ApplySchemeTranslation(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string ApplySchemeTranslation(string url, string appRoot)
+    parameters:
+    - id: url
+      type: System.String
+    - id: appRoot
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ApplySchemeTranslation(url As String, appRoot As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ApplySchemeTranslation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ReplaceTags(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ReplaceTags(System.String)
+  id: ReplaceTags(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher
+  langs:
+  - csharp
+  - vb
+  name: ReplaceTags(String)
+  nameWithType: UrlDispatcher.ReplaceTags(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ReplaceTags(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string ReplaceTags(string str)
+    parameters:
+    - id: str
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ReplaceTags(str As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ReplaceTags*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ReplaceTag(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ReplaceTag(System.String,System.String,System.String)
+  id: ReplaceTag(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher
+  langs:
+  - csharp
+  - vb
+  name: ReplaceTag(String, String, String)
+  nameWithType: UrlDispatcher.ReplaceTag(String, String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ReplaceTag(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string ReplaceTag(string source, string tag, string replacement)
+    parameters:
+    - id: source
+      type: System.String
+    - id: tag
+      type: System.String
+    - id: replacement
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ReplaceTag(source As String, tag As String, replacement As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ReplaceTag*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetWebtoolsDownloadUrl
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetWebtoolsDownloadUrl
+  id: GetWebtoolsDownloadUrl
+  parent: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher
+  langs:
+  - csharp
+  - vb
+  name: GetWebtoolsDownloadUrl()
+  nameWithType: UrlDispatcher.GetWebtoolsDownloadUrl()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetWebtoolsDownloadUrl()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetWebtoolsDownloadUrl()
+    return:
+      type: System.String
+    content.vb: Public Function GetWebtoolsDownloadUrl As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetWebtoolsDownloadUrl*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.SetPilotProgramServiceUrl(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.SetPilotProgramServiceUrl(System.String)
+  id: SetPilotProgramServiceUrl(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher
+  langs:
+  - csharp
+  - vb
+  name: SetPilotProgramServiceUrl(String)
+  nameWithType: UrlDispatcher.SetPilotProgramServiceUrl(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.SetPilotProgramServiceUrl(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public static string SetPilotProgramServiceUrl(string url)
+    parameters:
+    - id: url
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function SetPilotProgramServiceUrl(url As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.SetPilotProgramServiceUrl*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetCrossTableViewerDownloadUrl
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetCrossTableViewerDownloadUrl
+  id: GetCrossTableViewerDownloadUrl
+  parent: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher
+  langs:
+  - csharp
+  - vb
+  name: GetCrossTableViewerDownloadUrl()
+  nameWithType: UrlDispatcher.GetCrossTableViewerDownloadUrl()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetCrossTableViewerDownloadUrl()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetCrossTableViewerDownloadUrl()
+    return:
+      type: System.String
+    content.vb: Public Function GetCrossTableViewerDownloadUrl As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetCrossTableViewerDownloadUrl*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetWebtoolsVersionCheckUrl
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetWebtoolsVersionCheckUrl
+  id: GetWebtoolsVersionCheckUrl
+  parent: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher
+  langs:
+  - csharp
+  - vb
+  name: GetWebtoolsVersionCheckUrl()
+  nameWithType: UrlDispatcher.GetWebtoolsVersionCheckUrl()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetWebtoolsVersionCheckUrl()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetWebtoolsVersionCheckUrl()
+    return:
+      type: System.String
+    content.vb: Public Function GetWebtoolsVersionCheckUrl As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetWebtoolsVersionCheckUrl*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.#ctor
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher
+  langs:
+  - csharp
+  - vb
+  name: UrlDispatcher()
+  nameWithType: UrlDispatcher.UrlDispatcher()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.UrlDispatcher()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public UrlDispatcher()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.AjaxMethods
+  commentId: N:SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: SuperOffice.CRM.Web.AjaxMethods
+  nameWithType: SuperOffice.CRM.Web.AjaxMethods
+  fullName: SuperOffice.CRM.Web.AjaxMethods
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.UpdateNetServicesStatusUrls*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.UpdateNetServicesStatusUrls
+  isExternal: true
+  name: UpdateNetServicesStatusUrls
+  nameWithType: UrlDispatcher.UpdateNetServicesStatusUrls
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.UpdateNetServicesStatusUrls
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetContextHelpUrlFromPageId*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetContextHelpUrlFromPageId
+  isExternal: true
+  name: GetContextHelpUrlFromPageId
+  nameWithType: UrlDispatcher.GetContextHelpUrlFromPageId
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetContextHelpUrlFromPageId
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetContextHelpUrlFromIndex*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetContextHelpUrlFromIndex
+  isExternal: true
+  name: GetContextHelpUrlFromIndex
+  nameWithType: UrlDispatcher.GetContextHelpUrlFromIndex
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetContextHelpUrlFromIndex
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetUrlWithSchemeTranslation*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetUrlWithSchemeTranslation
+  isExternal: true
+  name: GetUrlWithSchemeTranslation
+  nameWithType: UrlDispatcher.GetUrlWithSchemeTranslation
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetUrlWithSchemeTranslation
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetUrl*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetUrl
+  isExternal: true
+  name: GetUrl
+  nameWithType: UrlDispatcher.GetUrl
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetUrl
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ApplySchemeTranlation*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ApplySchemeTranlation
+  isExternal: true
+  name: ApplySchemeTranlation
+  nameWithType: UrlDispatcher.ApplySchemeTranlation
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ApplySchemeTranlation
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ApplySchemeTranslation*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ApplySchemeTranslation
+  isExternal: true
+  name: ApplySchemeTranslation
+  nameWithType: UrlDispatcher.ApplySchemeTranslation
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ApplySchemeTranslation
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ReplaceTags*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ReplaceTags
+  isExternal: true
+  name: ReplaceTags
+  nameWithType: UrlDispatcher.ReplaceTags
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ReplaceTags
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ReplaceTag*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ReplaceTag
+  isExternal: true
+  name: ReplaceTag
+  nameWithType: UrlDispatcher.ReplaceTag
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.ReplaceTag
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetWebtoolsDownloadUrl*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetWebtoolsDownloadUrl
+  isExternal: true
+  name: GetWebtoolsDownloadUrl
+  nameWithType: UrlDispatcher.GetWebtoolsDownloadUrl
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetWebtoolsDownloadUrl
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.SetPilotProgramServiceUrl*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.SetPilotProgramServiceUrl
+  isExternal: true
+  name: SetPilotProgramServiceUrl
+  nameWithType: UrlDispatcher.SetPilotProgramServiceUrl
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.SetPilotProgramServiceUrl
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetCrossTableViewerDownloadUrl*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetCrossTableViewerDownloadUrl
+  isExternal: true
+  name: GetCrossTableViewerDownloadUrl
+  nameWithType: UrlDispatcher.GetCrossTableViewerDownloadUrl
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetCrossTableViewerDownloadUrl
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetWebtoolsVersionCheckUrl*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetWebtoolsVersionCheckUrl
+  isExternal: true
+  name: GetWebtoolsVersionCheckUrl
+  nameWithType: UrlDispatcher.GetWebtoolsVersionCheckUrl
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.GetWebtoolsVersionCheckUrl
+- uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.#ctor
+  isExternal: true
+  name: UrlDispatcher
+  nameWithType: UrlDispatcher.UrlDispatcher
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher.UrlDispatcher

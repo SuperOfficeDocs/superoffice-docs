@@ -1,0 +1,634 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.Data.Explicit
+  commentId: T:SuperOffice.Configuration.ConfigFile.Data.Explicit
+  id: ConfigFile.Data.Explicit
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.Data.Explicit.AnonymousAllowed
+  - SuperOffice.Configuration.ConfigFile.Data.Explicit.CommonDBConnection
+  - SuperOffice.Configuration.ConfigFile.Data.Explicit.DBPassword
+  - SuperOffice.Configuration.ConfigFile.Data.Explicit.DBUser
+  - SuperOffice.Configuration.ConfigFile.Data.Explicit.EmployeeAllowed
+  - SuperOffice.Configuration.ConfigFile.Data.Explicit.PartnerAllowed
+  - SuperOffice.Configuration.ConfigFile.Data.Explicit.SystemAllowed
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.Data.Explicit
+  nameWithType: ConfigFile.Data.Explicit
+  fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThis section governs authentication behaviour when users are explicitly authenticated, typically by calling SoSession.Authenticate or the corresponding WCF service\n"
+  syntax:
+    content: public static class Explicit
+    content.vb: Public Module Explicit
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Configuration.ConfigFile.Data.Explicit.PartnerAllowed
+  commentId: P:SuperOffice.Configuration.ConfigFile.Data.Explicit.PartnerAllowed
+  id: PartnerAllowed
+  parent: SuperOffice.Configuration.ConfigFile.Data.Explicit
+  langs:
+  - csharp
+  - vb
+  name: PartnerAllowed
+  nameWithType: ConfigFile.Data.Explicit.PartnerAllowed
+  fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.PartnerAllowed
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nIs partner access allowed: [True|False]\n"
+  syntax:
+    content: public static bool PartnerAllowed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property PartnerAllowed As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Data.Explicit.PartnerAllowed*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Data.Explicit.EmployeeAllowed
+  commentId: P:SuperOffice.Configuration.ConfigFile.Data.Explicit.EmployeeAllowed
+  id: EmployeeAllowed
+  parent: SuperOffice.Configuration.ConfigFile.Data.Explicit
+  langs:
+  - csharp
+  - vb
+  name: EmployeeAllowed
+  nameWithType: ConfigFile.Data.Explicit.EmployeeAllowed
+  fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.EmployeeAllowed
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nIs employee access allowed: [True|False]\n"
+  syntax:
+    content: public static bool EmployeeAllowed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property EmployeeAllowed As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Data.Explicit.EmployeeAllowed*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Data.Explicit.SystemAllowed
+  commentId: P:SuperOffice.Configuration.ConfigFile.Data.Explicit.SystemAllowed
+  id: SystemAllowed
+  parent: SuperOffice.Configuration.ConfigFile.Data.Explicit
+  langs:
+  - csharp
+  - vb
+  name: SystemAllowed
+  nameWithType: ConfigFile.Data.Explicit.SystemAllowed
+  fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.SystemAllowed
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nIs system user access allowed: [True|False]\n"
+  syntax:
+    content: public static bool SystemAllowed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property SystemAllowed As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Data.Explicit.SystemAllowed*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Data.Explicit.AnonymousAllowed
+  commentId: P:SuperOffice.Configuration.ConfigFile.Data.Explicit.AnonymousAllowed
+  id: AnonymousAllowed
+  parent: SuperOffice.Configuration.ConfigFile.Data.Explicit
+  langs:
+  - csharp
+  - vb
+  name: AnonymousAllowed
+  nameWithType: ConfigFile.Data.Explicit.AnonymousAllowed
+  fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.AnonymousAllowed
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nIs anonymous access allowed: [True|False]\n"
+  syntax:
+    content: public static bool AnonymousAllowed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property AnonymousAllowed As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Data.Explicit.AnonymousAllowed*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Data.Explicit.DBUser
+  commentId: P:SuperOffice.Configuration.ConfigFile.Data.Explicit.DBUser
+  id: DBUser
+  parent: SuperOffice.Configuration.ConfigFile.Data.Explicit
+  langs:
+  - csharp
+  - vb
+  name: DBUser
+  nameWithType: ConfigFile.Data.Explicit.DBUser
+  fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.DBUser
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nDatabase user when running on behalf of explicitly authenticated users\n"
+  syntax:
+    content: public static string DBUser { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property DBUser As String
+  overload: SuperOffice.Configuration.ConfigFile.Data.Explicit.DBUser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Data.Explicit.DBPassword
+  commentId: P:SuperOffice.Configuration.ConfigFile.Data.Explicit.DBPassword
+  id: DBPassword
+  parent: SuperOffice.Configuration.ConfigFile.Data.Explicit
+  langs:
+  - csharp
+  - vb
+  name: DBPassword
+  nameWithType: ConfigFile.Data.Explicit.DBPassword
+  fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.DBPassword
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nDatabase user password\n"
+  syntax:
+    content: public static string DBPassword { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property DBPassword As String
+  overload: SuperOffice.Configuration.ConfigFile.Data.Explicit.DBPassword*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Data.Explicit.CommonDBConnection
+  commentId: P:SuperOffice.Configuration.ConfigFile.Data.Explicit.CommonDBConnection
+  id: CommonDBConnection
+  parent: SuperOffice.Configuration.ConfigFile.Data.Explicit
+  langs:
+  - csharp
+  - vb
+  name: CommonDBConnection
+  nameWithType: ConfigFile.Data.Explicit.CommonDBConnection
+  fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.CommonDBConnection
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nUse the same connection string for all users, applying the common User and Password from this section, vs. using the one provided elsewhere.\n"
+  syntax:
+    content: public static bool CommonDBConnection { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property CommonDBConnection As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Data.Explicit.CommonDBConnection*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.Data.Explicit.PartnerAllowed*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Explicit.PartnerAllowed
+  isExternal: true
+  name: PartnerAllowed
+  nameWithType: ConfigFile.Data.Explicit.PartnerAllowed
+  fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.PartnerAllowed
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Configuration.ConfigFile.Data.Explicit.EmployeeAllowed*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Explicit.EmployeeAllowed
+  isExternal: true
+  name: EmployeeAllowed
+  nameWithType: ConfigFile.Data.Explicit.EmployeeAllowed
+  fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.EmployeeAllowed
+- uid: SuperOffice.Configuration.ConfigFile.Data.Explicit.SystemAllowed*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Explicit.SystemAllowed
+  isExternal: true
+  name: SystemAllowed
+  nameWithType: ConfigFile.Data.Explicit.SystemAllowed
+  fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.SystemAllowed
+- uid: SuperOffice.Configuration.ConfigFile.Data.Explicit.AnonymousAllowed*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Explicit.AnonymousAllowed
+  isExternal: true
+  name: AnonymousAllowed
+  nameWithType: ConfigFile.Data.Explicit.AnonymousAllowed
+  fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.AnonymousAllowed
+- uid: SuperOffice.Configuration.ConfigFile.Data.Explicit.DBUser*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Explicit.DBUser
+  isExternal: true
+  name: DBUser
+  nameWithType: ConfigFile.Data.Explicit.DBUser
+  fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.DBUser
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Configuration.ConfigFile.Data.Explicit.DBPassword*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Explicit.DBPassword
+  isExternal: true
+  name: DBPassword
+  nameWithType: ConfigFile.Data.Explicit.DBPassword
+  fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.DBPassword
+- uid: SuperOffice.Configuration.ConfigFile.Data.Explicit.CommonDBConnection*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Data.Explicit.CommonDBConnection
+  isExternal: true
+  name: CommonDBConnection
+  nameWithType: ConfigFile.Data.Explicit.CommonDBConnection
+  fullName: SuperOffice.Configuration.ConfigFile.Data.Explicit.CommonDBConnection

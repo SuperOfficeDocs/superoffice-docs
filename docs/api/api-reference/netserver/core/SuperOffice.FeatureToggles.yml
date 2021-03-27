@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.FeatureToggles
+  commentId: N:SuperOffice.FeatureToggles
+  id: SuperOffice.FeatureToggles
+  children:
+  - SuperOffice.FeatureToggles.FeatureToggle
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.FeatureToggles
+  nameWithType: SuperOffice.FeatureToggles
+  fullName: SuperOffice.FeatureToggles
+  type: Namespace
+  assemblies:
+  - SOCore
+references:
+- uid: SuperOffice.FeatureToggles.FeatureToggle
+  commentId: T:SuperOffice.FeatureToggles.FeatureToggle
+  isExternal: true
+  name: FeatureToggle
+  nameWithType: FeatureToggle
+  fullName: SuperOffice.FeatureToggles.FeatureToggle

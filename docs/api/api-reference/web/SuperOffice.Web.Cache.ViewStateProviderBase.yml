@@ -1,0 +1,814 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.Cache.ViewStateProviderBase
+  commentId: T:SuperOffice.Web.Cache.ViewStateProviderBase
+  id: ViewStateProviderBase
+  parent: SuperOffice.Web.Cache
+  children:
+  - SuperOffice.Web.Cache.ViewStateProviderBase.#ctor
+  - SuperOffice.Web.Cache.ViewStateProviderBase.GetCurrent(System.String,System.Boolean,System.Boolean)
+  - SuperOffice.Web.Cache.ViewStateProviderBase.GetNextCurrent(System.String)
+  - SuperOffice.Web.Cache.ViewStateProviderBase.GetPreviousCurrent(System.String)
+  - SuperOffice.Web.Cache.ViewStateProviderBase.SetCurrent(System.String,SuperOffice.Cache.HistoryItem,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: ViewStateProviderBase
+  nameWithType: ViewStateProviderBase
+  fullName: SuperOffice.Web.Cache.ViewStateProviderBase
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Cache
+  syntax:
+    content: 'public class ViewStateProviderBase : IViewStateProvider'
+    content.vb: >-
+      Public Class ViewStateProviderBase
+          Implements IViewStateProvider
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.CRM.Web.Protocol.SoAdminContactProvider
+  - SuperOffice.CRM.Web.Protocol.SoAdminListProvider
+  - SuperOffice.CRM.Web.Protocol.SoAdminProjectTypeProvider
+  - SuperOffice.CRM.Web.Protocol.SoAdminSaleTypeProvider
+  - SuperOffice.CRM.Web.Protocol.SoOurContactProvider
+  - SuperOffice.DCF.Web.Protocol.SoProtocolProvider
+  - SuperOffice.DCF.Web.Protocol.SoTimeZoneProvider
+  implements:
+  - SuperOffice.Cache.IViewStateProvider
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.Cache.ViewStateProviderBase.GetCurrent(System.String,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.Web.Cache.ViewStateProviderBase.GetCurrent(System.String,System.Boolean,System.Boolean)
+  id: GetCurrent(System.String,System.Boolean,System.Boolean)
+  parent: SuperOffice.Web.Cache.ViewStateProviderBase
+  langs:
+  - csharp
+  - vb
+  name: GetCurrent(String, Boolean, Boolean)
+  nameWithType: ViewStateProviderBase.GetCurrent(String, Boolean, Boolean)
+  fullName: SuperOffice.Web.Cache.ViewStateProviderBase.GetCurrent(System.String, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Cache
+  syntax:
+    content: public virtual HistoryItem GetCurrent(string entityName, bool returnIfEmpty, bool setSpecifiedCurrentOnly = false)
+    parameters:
+    - id: entityName
+      type: System.String
+    - id: returnIfEmpty
+      type: System.Boolean
+    - id: setSpecifiedCurrentOnly
+      type: System.Boolean
+    return:
+      type: SuperOffice.Cache.HistoryItem
+    content.vb: Public Overridable Function GetCurrent(entityName As String, returnIfEmpty As Boolean, setSpecifiedCurrentOnly As Boolean = False) As HistoryItem
+  overload: SuperOffice.Web.Cache.ViewStateProviderBase.GetCurrent*
+  implements:
+  - SuperOffice.Cache.IViewStateProvider.GetCurrent(System.String,System.Boolean,System.Boolean)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.Cache.ViewStateProviderBase.SetCurrent(System.String,SuperOffice.Cache.HistoryItem,System.Boolean)
+  commentId: M:SuperOffice.Web.Cache.ViewStateProviderBase.SetCurrent(System.String,SuperOffice.Cache.HistoryItem,System.Boolean)
+  id: SetCurrent(System.String,SuperOffice.Cache.HistoryItem,System.Boolean)
+  parent: SuperOffice.Web.Cache.ViewStateProviderBase
+  langs:
+  - csharp
+  - vb
+  name: SetCurrent(String, HistoryItem, Boolean)
+  nameWithType: ViewStateProviderBase.SetCurrent(String, HistoryItem, Boolean)
+  fullName: SuperOffice.Web.Cache.ViewStateProviderBase.SetCurrent(System.String, SuperOffice.Cache.HistoryItem, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Cache
+  syntax:
+    content: public virtual void SetCurrent(string entityName, HistoryItem current, bool setSpecifiedCurrentOnly = false)
+    parameters:
+    - id: entityName
+      type: System.String
+    - id: current
+      type: SuperOffice.Cache.HistoryItem
+    - id: setSpecifiedCurrentOnly
+      type: System.Boolean
+    content.vb: Public Overridable Sub SetCurrent(entityName As String, current As HistoryItem, setSpecifiedCurrentOnly As Boolean = False)
+  overload: SuperOffice.Web.Cache.ViewStateProviderBase.SetCurrent*
+  implements:
+  - SuperOffice.Cache.IViewStateProvider.SetCurrent(System.String,SuperOffice.Cache.HistoryItem,System.Boolean)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.Cache.ViewStateProviderBase.GetNextCurrent(System.String)
+  commentId: M:SuperOffice.Web.Cache.ViewStateProviderBase.GetNextCurrent(System.String)
+  id: GetNextCurrent(System.String)
+  parent: SuperOffice.Web.Cache.ViewStateProviderBase
+  langs:
+  - csharp
+  - vb
+  name: GetNextCurrent(String)
+  nameWithType: ViewStateProviderBase.GetNextCurrent(String)
+  fullName: SuperOffice.Web.Cache.ViewStateProviderBase.GetNextCurrent(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Cache
+  syntax:
+    content: public virtual HistoryItem GetNextCurrent(string entityName)
+    parameters:
+    - id: entityName
+      type: System.String
+    return:
+      type: SuperOffice.Cache.HistoryItem
+    content.vb: Public Overridable Function GetNextCurrent(entityName As String) As HistoryItem
+  overload: SuperOffice.Web.Cache.ViewStateProviderBase.GetNextCurrent*
+  implements:
+  - SuperOffice.Cache.IViewStateProvider.GetNextCurrent(System.String)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.Cache.ViewStateProviderBase.GetPreviousCurrent(System.String)
+  commentId: M:SuperOffice.Web.Cache.ViewStateProviderBase.GetPreviousCurrent(System.String)
+  id: GetPreviousCurrent(System.String)
+  parent: SuperOffice.Web.Cache.ViewStateProviderBase
+  langs:
+  - csharp
+  - vb
+  name: GetPreviousCurrent(String)
+  nameWithType: ViewStateProviderBase.GetPreviousCurrent(String)
+  fullName: SuperOffice.Web.Cache.ViewStateProviderBase.GetPreviousCurrent(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Cache
+  syntax:
+    content: public virtual HistoryItem GetPreviousCurrent(string entityName)
+    parameters:
+    - id: entityName
+      type: System.String
+    return:
+      type: SuperOffice.Cache.HistoryItem
+    content.vb: Public Overridable Function GetPreviousCurrent(entityName As String) As HistoryItem
+  overload: SuperOffice.Web.Cache.ViewStateProviderBase.GetPreviousCurrent*
+  implements:
+  - SuperOffice.Cache.IViewStateProvider.GetPreviousCurrent(System.String)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.Cache.ViewStateProviderBase.#ctor
+  commentId: M:SuperOffice.Web.Cache.ViewStateProviderBase.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.Cache.ViewStateProviderBase
+  langs:
+  - csharp
+  - vb
+  name: ViewStateProviderBase()
+  nameWithType: ViewStateProviderBase.ViewStateProviderBase()
+  fullName: SuperOffice.Web.Cache.ViewStateProviderBase.ViewStateProviderBase()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Cache
+  syntax:
+    content: public ViewStateProviderBase()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.Cache.ViewStateProviderBase.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Web.Cache
+  commentId: N:SuperOffice.Web.Cache
+  isExternal: true
+  name: SuperOffice.Web.Cache
+  nameWithType: SuperOffice.Web.Cache
+  fullName: SuperOffice.Web.Cache
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Cache.IViewStateProvider
+  commentId: T:SuperOffice.Cache.IViewStateProvider
+  parent: SuperOffice.Cache
+  isExternal: true
+  name: IViewStateProvider
+  nameWithType: IViewStateProvider
+  fullName: SuperOffice.Cache.IViewStateProvider
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Cache
+  commentId: N:SuperOffice.Cache
+  isExternal: true
+  name: SuperOffice.Cache
+  nameWithType: SuperOffice.Cache
+  fullName: SuperOffice.Cache
+- uid: SuperOffice.Web.Cache.ViewStateProviderBase.GetCurrent*
+  commentId: Overload:SuperOffice.Web.Cache.ViewStateProviderBase.GetCurrent
+  isExternal: true
+  name: GetCurrent
+  nameWithType: ViewStateProviderBase.GetCurrent
+  fullName: SuperOffice.Web.Cache.ViewStateProviderBase.GetCurrent
+- uid: SuperOffice.Cache.IViewStateProvider.GetCurrent(System.String,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.Cache.IViewStateProvider.GetCurrent(System.String,System.Boolean,System.Boolean)
+  parent: SuperOffice.Cache.IViewStateProvider
+  isExternal: true
+  name: GetCurrent(String, Boolean, Boolean)
+  nameWithType: IViewStateProvider.GetCurrent(String, Boolean, Boolean)
+  fullName: SuperOffice.Cache.IViewStateProvider.GetCurrent(System.String, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Cache.IViewStateProvider.GetCurrent(System.String,System.Boolean,System.Boolean)
+    name: GetCurrent
+    nameWithType: IViewStateProvider.GetCurrent
+    fullName: SuperOffice.Cache.IViewStateProvider.GetCurrent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Cache.IViewStateProvider.GetCurrent(System.String,System.Boolean,System.Boolean)
+    name: GetCurrent
+    nameWithType: IViewStateProvider.GetCurrent
+    fullName: SuperOffice.Cache.IViewStateProvider.GetCurrent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Cache.HistoryItem
+  commentId: T:SuperOffice.Cache.HistoryItem
+  parent: SuperOffice.Cache
+  isExternal: true
+  name: HistoryItem
+  nameWithType: HistoryItem
+  fullName: SuperOffice.Cache.HistoryItem
+- uid: SuperOffice.Web.Cache.ViewStateProviderBase.SetCurrent*
+  commentId: Overload:SuperOffice.Web.Cache.ViewStateProviderBase.SetCurrent
+  isExternal: true
+  name: SetCurrent
+  nameWithType: ViewStateProviderBase.SetCurrent
+  fullName: SuperOffice.Web.Cache.ViewStateProviderBase.SetCurrent
+- uid: SuperOffice.Cache.IViewStateProvider.SetCurrent(System.String,SuperOffice.Cache.HistoryItem,System.Boolean)
+  commentId: M:SuperOffice.Cache.IViewStateProvider.SetCurrent(System.String,SuperOffice.Cache.HistoryItem,System.Boolean)
+  parent: SuperOffice.Cache.IViewStateProvider
+  isExternal: true
+  name: SetCurrent(String, HistoryItem, Boolean)
+  nameWithType: IViewStateProvider.SetCurrent(String, HistoryItem, Boolean)
+  fullName: SuperOffice.Cache.IViewStateProvider.SetCurrent(System.String, SuperOffice.Cache.HistoryItem, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Cache.IViewStateProvider.SetCurrent(System.String,SuperOffice.Cache.HistoryItem,System.Boolean)
+    name: SetCurrent
+    nameWithType: IViewStateProvider.SetCurrent
+    fullName: SuperOffice.Cache.IViewStateProvider.SetCurrent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Cache.HistoryItem
+    name: HistoryItem
+    nameWithType: HistoryItem
+    fullName: SuperOffice.Cache.HistoryItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Cache.IViewStateProvider.SetCurrent(System.String,SuperOffice.Cache.HistoryItem,System.Boolean)
+    name: SetCurrent
+    nameWithType: IViewStateProvider.SetCurrent
+    fullName: SuperOffice.Cache.IViewStateProvider.SetCurrent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Cache.HistoryItem
+    name: HistoryItem
+    nameWithType: HistoryItem
+    fullName: SuperOffice.Cache.HistoryItem
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Web.Cache.ViewStateProviderBase.GetNextCurrent*
+  commentId: Overload:SuperOffice.Web.Cache.ViewStateProviderBase.GetNextCurrent
+  isExternal: true
+  name: GetNextCurrent
+  nameWithType: ViewStateProviderBase.GetNextCurrent
+  fullName: SuperOffice.Web.Cache.ViewStateProviderBase.GetNextCurrent
+- uid: SuperOffice.Cache.IViewStateProvider.GetNextCurrent(System.String)
+  commentId: M:SuperOffice.Cache.IViewStateProvider.GetNextCurrent(System.String)
+  parent: SuperOffice.Cache.IViewStateProvider
+  isExternal: true
+  name: GetNextCurrent(String)
+  nameWithType: IViewStateProvider.GetNextCurrent(String)
+  fullName: SuperOffice.Cache.IViewStateProvider.GetNextCurrent(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Cache.IViewStateProvider.GetNextCurrent(System.String)
+    name: GetNextCurrent
+    nameWithType: IViewStateProvider.GetNextCurrent
+    fullName: SuperOffice.Cache.IViewStateProvider.GetNextCurrent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Cache.IViewStateProvider.GetNextCurrent(System.String)
+    name: GetNextCurrent
+    nameWithType: IViewStateProvider.GetNextCurrent
+    fullName: SuperOffice.Cache.IViewStateProvider.GetNextCurrent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Web.Cache.ViewStateProviderBase.GetPreviousCurrent*
+  commentId: Overload:SuperOffice.Web.Cache.ViewStateProviderBase.GetPreviousCurrent
+  isExternal: true
+  name: GetPreviousCurrent
+  nameWithType: ViewStateProviderBase.GetPreviousCurrent
+  fullName: SuperOffice.Web.Cache.ViewStateProviderBase.GetPreviousCurrent
+- uid: SuperOffice.Cache.IViewStateProvider.GetPreviousCurrent(System.String)
+  commentId: M:SuperOffice.Cache.IViewStateProvider.GetPreviousCurrent(System.String)
+  parent: SuperOffice.Cache.IViewStateProvider
+  isExternal: true
+  name: GetPreviousCurrent(String)
+  nameWithType: IViewStateProvider.GetPreviousCurrent(String)
+  fullName: SuperOffice.Cache.IViewStateProvider.GetPreviousCurrent(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Cache.IViewStateProvider.GetPreviousCurrent(System.String)
+    name: GetPreviousCurrent
+    nameWithType: IViewStateProvider.GetPreviousCurrent
+    fullName: SuperOffice.Cache.IViewStateProvider.GetPreviousCurrent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Cache.IViewStateProvider.GetPreviousCurrent(System.String)
+    name: GetPreviousCurrent
+    nameWithType: IViewStateProvider.GetPreviousCurrent
+    fullName: SuperOffice.Cache.IViewStateProvider.GetPreviousCurrent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Web.Cache.ViewStateProviderBase.#ctor*
+  commentId: Overload:SuperOffice.Web.Cache.ViewStateProviderBase.#ctor
+  isExternal: true
+  name: ViewStateProviderBase
+  nameWithType: ViewStateProviderBase.ViewStateProviderBase
+  fullName: SuperOffice.Web.Cache.ViewStateProviderBase.ViewStateProviderBase

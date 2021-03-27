@@ -1,0 +1,917 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Services.ServiceVersion
+  commentId: T:SuperOffice.Services.ServiceVersion
+  id: ServiceVersion
+  parent: SuperOffice.Services
+  children:
+  - SuperOffice.Services.ServiceVersion.#ctor(System.Int32,System.String,System.Boolean,System.Boolean,System.Boolean)
+  - SuperOffice.Services.ServiceVersion.IsCurrent
+  - SuperOffice.Services.ServiceVersion.IsFrozen
+  - SuperOffice.Services.ServiceVersion.IsObsolete
+  - SuperOffice.Services.ServiceVersion.Name
+  - SuperOffice.Services.ServiceVersion.Number
+  langs:
+  - csharp
+  - vb
+  name: ServiceVersion
+  nameWithType: ServiceVersion
+  fullName: SuperOffice.Services.ServiceVersion
+  type: Struct
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Services
+  summary: "\nWCF Service version information. Is it current, frozen or obsolete?\n"
+  syntax:
+    content: public struct ServiceVersion
+    content.vb: Public Structure ServiceVersion
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  extensionMethods:
+  - SuperOffice.Services.ServiceVersion.EnumUtil.MapEnums``2
+  - SuperOffice.Services.ServiceVersion.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Services.ServiceVersion)
+  - SuperOffice.Services.ServiceVersion.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Services.ServiceVersion.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: SuperOffice.Services.ServiceVersion.#ctor(System.Int32,System.String,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.Services.ServiceVersion.#ctor(System.Int32,System.String,System.Boolean,System.Boolean,System.Boolean)
+  id: '#ctor(System.Int32,System.String,System.Boolean,System.Boolean,System.Boolean)'
+  parent: SuperOffice.Services.ServiceVersion
+  langs:
+  - csharp
+  - vb
+  name: ServiceVersion(Int32, String, Boolean, Boolean, Boolean)
+  nameWithType: ServiceVersion.ServiceVersion(Int32, String, Boolean, Boolean, Boolean)
+  fullName: SuperOffice.Services.ServiceVersion.ServiceVersion(System.Int32, System.String, System.Boolean, System.Boolean, System.Boolean)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Services
+  syntax:
+    content: public ServiceVersion(int number, string name, bool released, bool current, bool obsolete)
+    parameters:
+    - id: number
+      type: System.Int32
+    - id: name
+      type: System.String
+    - id: released
+      type: System.Boolean
+    - id: current
+      type: System.Boolean
+    - id: obsolete
+      type: System.Boolean
+    content.vb: Public Sub New(number As Integer, name As String, released As Boolean, current As Boolean, obsolete As Boolean)
+  overload: SuperOffice.Services.ServiceVersion.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Services.ServiceVersion.Number
+  commentId: P:SuperOffice.Services.ServiceVersion.Number
+  id: Number
+  parent: SuperOffice.Services.ServiceVersion
+  langs:
+  - csharp
+  - vb
+  name: Number
+  nameWithType: ServiceVersion.Number
+  fullName: SuperOffice.Services.ServiceVersion.Number
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Services
+  summary: "\n87\n"
+  syntax:
+    content: public int Number { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Number As Integer
+  overload: SuperOffice.Services.ServiceVersion.Number*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Services.ServiceVersion.Name
+  commentId: P:SuperOffice.Services.ServiceVersion.Name
+  id: Name
+  parent: SuperOffice.Services.ServiceVersion
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ServiceVersion.Name
+  fullName: SuperOffice.Services.ServiceVersion.Name
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Services
+  summary: "\n&quot;Services87&quot;&quot;\n"
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: SuperOffice.Services.ServiceVersion.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Services.ServiceVersion.IsFrozen
+  commentId: P:SuperOffice.Services.ServiceVersion.IsFrozen
+  id: IsFrozen
+  parent: SuperOffice.Services.ServiceVersion
+  langs:
+  - csharp
+  - vb
+  name: IsFrozen
+  nameWithType: ServiceVersion.IsFrozen
+  fullName: SuperOffice.Services.ServiceVersion.IsFrozen
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Services
+  summary: "\nIs the services contract going to change or not?\n"
+  syntax:
+    content: public bool IsFrozen { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsFrozen As Boolean
+  overload: SuperOffice.Services.ServiceVersion.IsFrozen*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Services.ServiceVersion.IsCurrent
+  commentId: P:SuperOffice.Services.ServiceVersion.IsCurrent
+  id: IsCurrent
+  parent: SuperOffice.Services.ServiceVersion
+  langs:
+  - csharp
+  - vb
+  name: IsCurrent
+  nameWithType: ServiceVersion.IsCurrent
+  fullName: SuperOffice.Services.ServiceVersion.IsCurrent
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Services
+  summary: "\nIs the services contract still changing?\n"
+  syntax:
+    content: public bool IsCurrent { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsCurrent As Boolean
+  overload: SuperOffice.Services.ServiceVersion.IsCurrent*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Services.ServiceVersion.IsObsolete
+  commentId: P:SuperOffice.Services.ServiceVersion.IsObsolete
+  id: IsObsolete
+  parent: SuperOffice.Services.ServiceVersion
+  langs:
+  - csharp
+  - vb
+  name: IsObsolete
+  nameWithType: ServiceVersion.IsObsolete
+  fullName: SuperOffice.Services.ServiceVersion.IsObsolete
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Services
+  summary: "\nIs the services contract useful?\n"
+  syntax:
+    content: public bool IsObsolete { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsObsolete As Boolean
+  overload: SuperOffice.Services.ServiceVersion.IsObsolete*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Services
+  commentId: N:SuperOffice.Services
+  isExternal: true
+  name: SuperOffice.Services
+  nameWithType: SuperOffice.Services
+  fullName: SuperOffice.Services
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Services.ServiceVersion.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ServiceVersion, To>()
+  nameWithType: EnumUtil.MapEnums<ServiceVersion, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Services.ServiceVersion, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ServiceVersion, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Services.ServiceVersion, To)()
+  name.vb: MapEnums(Of ServiceVersion, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ServiceVersion, To>
+    nameWithType: EnumUtil.MapEnums<ServiceVersion, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Services.ServiceVersion, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ServiceVersion, To)
+    nameWithType: EnumUtil.MapEnums(Of ServiceVersion, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Services.ServiceVersion, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Services.ServiceVersion.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Services.ServiceVersion)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ServiceVersion>(ServiceVersion)
+  nameWithType: ObjectExtensions.AssignByReflection<ServiceVersion>(ServiceVersion)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Services.ServiceVersion>(SuperOffice.Services.ServiceVersion)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ServiceVersion)(ServiceVersion)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Services.ServiceVersion)(SuperOffice.Services.ServiceVersion)
+  name.vb: AssignByReflection(Of ServiceVersion)(ServiceVersion)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ServiceVersion>
+    nameWithType: ObjectExtensions.AssignByReflection<ServiceVersion>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Services.ServiceVersion>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Services.ServiceVersion
+    name: ServiceVersion
+    nameWithType: ServiceVersion
+    fullName: SuperOffice.Services.ServiceVersion
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ServiceVersion)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ServiceVersion)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Services.ServiceVersion)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Services.ServiceVersion
+    name: ServiceVersion
+    nameWithType: ServiceVersion
+    fullName: SuperOffice.Services.ServiceVersion
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Services.ServiceVersion.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ServiceVersion>()
+  nameWithType: ObjectExtensions.GraphCopy<ServiceVersion>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Services.ServiceVersion>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ServiceVersion)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Services.ServiceVersion)()
+  name.vb: GraphCopy(Of ServiceVersion)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ServiceVersion>
+    nameWithType: ObjectExtensions.GraphCopy<ServiceVersion>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Services.ServiceVersion>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ServiceVersion)
+    nameWithType: ObjectExtensions.GraphCopy(Of ServiceVersion)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Services.ServiceVersion)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Services.ServiceVersion.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ServiceVersion, To>()
+  nameWithType: Converters.MapEnums<ServiceVersion, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Services.ServiceVersion, To>()
+  nameWithType.vb: Converters.MapEnums(Of ServiceVersion, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Services.ServiceVersion, To)()
+  name.vb: MapEnums(Of ServiceVersion, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ServiceVersion, To>
+    nameWithType: Converters.MapEnums<ServiceVersion, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Services.ServiceVersion, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ServiceVersion, To)
+    nameWithType: Converters.MapEnums(Of ServiceVersion, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Services.ServiceVersion, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Services.ServiceVersion.#ctor*
+  commentId: Overload:SuperOffice.Services.ServiceVersion.#ctor
+  isExternal: true
+  name: ServiceVersion
+  nameWithType: ServiceVersion.ServiceVersion
+  fullName: SuperOffice.Services.ServiceVersion.ServiceVersion
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Services.ServiceVersion.Number*
+  commentId: Overload:SuperOffice.Services.ServiceVersion.Number
+  isExternal: true
+  name: Number
+  nameWithType: ServiceVersion.Number
+  fullName: SuperOffice.Services.ServiceVersion.Number
+- uid: SuperOffice.Services.ServiceVersion.Name*
+  commentId: Overload:SuperOffice.Services.ServiceVersion.Name
+  isExternal: true
+  name: Name
+  nameWithType: ServiceVersion.Name
+  fullName: SuperOffice.Services.ServiceVersion.Name
+- uid: SuperOffice.Services.ServiceVersion.IsFrozen*
+  commentId: Overload:SuperOffice.Services.ServiceVersion.IsFrozen
+  isExternal: true
+  name: IsFrozen
+  nameWithType: ServiceVersion.IsFrozen
+  fullName: SuperOffice.Services.ServiceVersion.IsFrozen
+- uid: SuperOffice.Services.ServiceVersion.IsCurrent*
+  commentId: Overload:SuperOffice.Services.ServiceVersion.IsCurrent
+  isExternal: true
+  name: IsCurrent
+  nameWithType: ServiceVersion.IsCurrent
+  fullName: SuperOffice.Services.ServiceVersion.IsCurrent
+- uid: SuperOffice.Services.ServiceVersion.IsObsolete*
+  commentId: Overload:SuperOffice.Services.ServiceVersion.IsObsolete
+  isExternal: true
+  name: IsObsolete
+  nameWithType: ServiceVersion.IsObsolete
+  fullName: SuperOffice.Services.ServiceVersion.IsObsolete

@@ -1,0 +1,656 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.CalMethod
+  commentId: T:SuperOffice.Data.CalMethod
+  id: CalMethod
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.CalMethod.Add
+  - SuperOffice.Data.CalMethod.Cancel
+  - SuperOffice.Data.CalMethod.Counter
+  - SuperOffice.Data.CalMethod.DeclineCounter
+  - SuperOffice.Data.CalMethod.Publish
+  - SuperOffice.Data.CalMethod.Refresh
+  - SuperOffice.Data.CalMethod.Reply
+  - SuperOffice.Data.CalMethod.Request
+  - SuperOffice.Data.CalMethod.Unknown
+  langs:
+  - csharp
+  - vb
+  name: CalMethod
+  nameWithType: CalMethod
+  fullName: SuperOffice.Data.CalMethod
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nValid iCal methods\n"
+  syntax:
+    content: public enum CalMethod
+    content.vb: Public Enum CalMethod
+  extensionMethods:
+  - SuperOffice.Data.CalMethod.EnumUtil.MapEnums``2
+  - SuperOffice.Data.CalMethod.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.CalMethod)
+  - SuperOffice.Data.CalMethod.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.CalMethod.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.CalMethod.Unknown
+  commentId: F:SuperOffice.Data.CalMethod.Unknown
+  id: Unknown
+  parent: SuperOffice.Data.CalMethod
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: CalMethod.Unknown
+  fullName: SuperOffice.Data.CalMethod.Unknown
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: Method is not known\n"
+  syntax:
+    content: Unknown = 0
+    return:
+      type: SuperOffice.Data.CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.CalMethod.Add
+  commentId: F:SuperOffice.Data.CalMethod.Add
+  id: Add
+  parent: SuperOffice.Data.CalMethod
+  langs:
+  - csharp
+  - vb
+  name: Add
+  nameWithType: CalMethod.Add
+  fullName: SuperOffice.Data.CalMethod.Add
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Add one or more instances to an existing event.\n"
+  syntax:
+    content: Add = 1
+    return:
+      type: SuperOffice.Data.CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.CalMethod.Cancel
+  commentId: F:SuperOffice.Data.CalMethod.Cancel
+  id: Cancel
+  parent: SuperOffice.Data.CalMethod
+  langs:
+  - csharp
+  - vb
+  name: Cancel
+  nameWithType: CalMethod.Cancel
+  fullName: SuperOffice.Data.CalMethod.Cancel
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Cancel one or more instances of an existing event.\n"
+  syntax:
+    content: Cancel = 2
+    return:
+      type: SuperOffice.Data.CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.CalMethod.Counter
+  commentId: F:SuperOffice.Data.CalMethod.Counter
+  id: Counter
+  parent: SuperOffice.Data.CalMethod
+  langs:
+  - csharp
+  - vb
+  name: Counter
+  nameWithType: CalMethod.Counter
+  fullName: SuperOffice.Data.CalMethod.Counter
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n3: Counter a REQUEST with an alternative proposal, Sent by an &apos;Attendee&apos; to the &apos;Organizer&apos;. \n"
+  syntax:
+    content: Counter = 3
+    return:
+      type: SuperOffice.Data.CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.CalMethod.DeclineCounter
+  commentId: F:SuperOffice.Data.CalMethod.DeclineCounter
+  id: DeclineCounter
+  parent: SuperOffice.Data.CalMethod
+  langs:
+  - csharp
+  - vb
+  name: DeclineCounter
+  nameWithType: CalMethod.DeclineCounter
+  fullName: SuperOffice.Data.CalMethod.DeclineCounter
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Decline a counter proposal. Sent to an &apos;Attendee&apos; by the &apos;Organizer&apos;.\n"
+  syntax:
+    content: DeclineCounter = 4
+    return:
+      type: SuperOffice.Data.CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.CalMethod.Publish
+  commentId: F:SuperOffice.Data.CalMethod.Publish
+  id: Publish
+  parent: SuperOffice.Data.CalMethod
+  langs:
+  - csharp
+  - vb
+  name: Publish
+  nameWithType: CalMethod.Publish
+  fullName: SuperOffice.Data.CalMethod.Publish
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n5: Post notification of an event. Used primarily as a method of advertising the existence of an event.\n"
+  syntax:
+    content: Publish = 5
+    return:
+      type: SuperOffice.Data.CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.CalMethod.Refresh
+  commentId: F:SuperOffice.Data.CalMethod.Refresh
+  id: Refresh
+  parent: SuperOffice.Data.CalMethod
+  langs:
+  - csharp
+  - vb
+  name: Refresh
+  nameWithType: CalMethod.Refresh
+  fullName: SuperOffice.Data.CalMethod.Refresh
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n6: A request is sent to an &apos;Organizer&apos; by an &apos;Attendee&apos; asking for the latest version of an event to be resent to the requester.\n"
+  syntax:
+    content: Refresh = 6
+    return:
+      type: SuperOffice.Data.CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.CalMethod.Reply
+  commentId: F:SuperOffice.Data.CalMethod.Reply
+  id: Reply
+  parent: SuperOffice.Data.CalMethod
+  langs:
+  - csharp
+  - vb
+  name: Reply
+  nameWithType: CalMethod.Reply
+  fullName: SuperOffice.Data.CalMethod.Reply
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n7: Reply to an event request. Clients may set their status (&apos;partstat&apos;) to ACCEPTED, DECLINED, TENTATIVE, or DELEGATED.\n"
+  syntax:
+    content: Reply = 7
+    return:
+      type: SuperOffice.Data.CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.CalMethod.Request
+  commentId: F:SuperOffice.Data.CalMethod.Request
+  id: Request
+  parent: SuperOffice.Data.CalMethod
+  langs:
+  - csharp
+  - vb
+  name: Request
+  nameWithType: CalMethod.Request
+  fullName: SuperOffice.Data.CalMethod.Request
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n8: Make a request for an event. This is an explicit invitation to one or more &apos;Attendees&apos;. Event Requests are also used to update or change an existing event. Clients that cannot handle REQUEST may degrade the event to view it as an PUBLISH.\n"
+  syntax:
+    content: Request = 8
+    return:
+      type: SuperOffice.Data.CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.CalMethod.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<CalMethod, To>()
+  nameWithType: EnumUtil.MapEnums<CalMethod, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.CalMethod, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CalMethod, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.CalMethod, To)()
+  name.vb: MapEnums(Of CalMethod, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CalMethod, To>
+    nameWithType: EnumUtil.MapEnums<CalMethod, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.CalMethod, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CalMethod, To)
+    nameWithType: EnumUtil.MapEnums(Of CalMethod, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.CalMethod, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.CalMethod.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.CalMethod)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<CalMethod>(CalMethod)
+  nameWithType: ObjectExtensions.AssignByReflection<CalMethod>(CalMethod)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.CalMethod>(SuperOffice.Data.CalMethod)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CalMethod)(CalMethod)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.CalMethod)(SuperOffice.Data.CalMethod)
+  name.vb: AssignByReflection(Of CalMethod)(CalMethod)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<CalMethod>
+    nameWithType: ObjectExtensions.AssignByReflection<CalMethod>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.CalMethod>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.CalMethod
+    name: CalMethod
+    nameWithType: CalMethod
+    fullName: SuperOffice.Data.CalMethod
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of CalMethod)
+    nameWithType: ObjectExtensions.AssignByReflection(Of CalMethod)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.CalMethod)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.CalMethod
+    name: CalMethod
+    nameWithType: CalMethod
+    fullName: SuperOffice.Data.CalMethod
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.CalMethod.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<CalMethod>()
+  nameWithType: ObjectExtensions.GraphCopy<CalMethod>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.CalMethod>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of CalMethod)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.CalMethod)()
+  name.vb: GraphCopy(Of CalMethod)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<CalMethod>
+    nameWithType: ObjectExtensions.GraphCopy<CalMethod>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.CalMethod>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of CalMethod)
+    nameWithType: ObjectExtensions.GraphCopy(Of CalMethod)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.CalMethod)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.CalMethod.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CalMethod, To>()
+  nameWithType: Converters.MapEnums<CalMethod, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.CalMethod, To>()
+  nameWithType.vb: Converters.MapEnums(Of CalMethod, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.CalMethod, To)()
+  name.vb: MapEnums(Of CalMethod, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CalMethod, To>
+    nameWithType: Converters.MapEnums<CalMethod, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.CalMethod, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CalMethod, To)
+    nameWithType: Converters.MapEnums(Of CalMethod, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.CalMethod, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.CalMethod
+  commentId: T:SuperOffice.Data.CalMethod
+  parent: SuperOffice.Data
+  isExternal: true
+  name: CalMethod
+  nameWithType: CalMethod
+  fullName: SuperOffice.Data.CalMethod

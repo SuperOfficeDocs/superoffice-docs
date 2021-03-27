@@ -1,0 +1,4752 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Security.FieldRights
+  commentId: T:SuperOffice.CRM.Security.FieldRights
+  id: FieldRights
+  parent: SuperOffice.CRM.Security
+  children:
+  - SuperOffice.CRM.Security.FieldRights.#ctor
+  - SuperOffice.CRM.Security.FieldRights.GetIntKey(SuperOffice.Data.SQL.FieldInfo)
+  langs:
+  - csharp
+  - vb
+  name: FieldRights
+  nameWithType: FieldRights
+  fullName: SuperOffice.CRM.Security.FieldRights
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: 'public class FieldRights : Rights<FieldInfo, FieldRight>, IDictionary<FieldInfo, FieldRight>, ICollection<KeyValuePair<FieldInfo, FieldRight>>, IEnumerable<KeyValuePair<FieldInfo, FieldRight>>, IEnumerable'
+    content.vb: >-
+      Public Class FieldRights
+          Inherits Rights(Of FieldInfo, FieldRight)
+          Implements IDictionary(Of FieldInfo, FieldRight), ICollection(Of KeyValuePair(Of FieldInfo, FieldRight)), IEnumerable(Of KeyValuePair(Of FieldInfo, FieldRight)), IEnumerable
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}
+  implements:
+  - System.Collections.Generic.IDictionary{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}
+  - System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}}
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}}
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Add(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight)
+  - SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.GetIntKey(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.ContainsKey(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Remove(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.TryGetValue(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight@)
+  - SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Add(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight})
+  - SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Clear
+  - SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Contains(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight})
+  - SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.CopyTo(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}[],System.Int32)
+  - SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Remove(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight})
+  - SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.GetEnumerator
+  - SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.System#Collections#IEnumerable#GetEnumerator
+  - SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Keys
+  - SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Values
+  - SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Item(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Count
+  - SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.IsReadOnly
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}}.IEnumerableExtensions.ForEach``1(System.Action{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}})
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}}.IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}})
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}}.IEnumerableExtensions.Batch``1(System.Int32)
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}}.IEnumerableExtensions.IndexOf``1(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight},System.Int32)
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}}.IEnumerableExtensions.IndexOf``1(System.Func{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight},System.Boolean},System.Int32)
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}}.IEnumerableExtensions.Permute``1(System.Int32)
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}}.IEnumerableExtensions.PermissiveToDictionary``3(System.Func{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight},{K}},System.Func{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight},{V}})
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}}.IEnumerableExtensions.PermissiveToDictionary``3(System.Func{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight},{K}},System.Func{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight},{V}},System.Collections.Generic.IEqualityComparer{{K}})
+  - SuperOffice.CRM.Security.FieldRights.EnumUtil.MapEnums``2
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}}.SuperOffice.Util.CollectionOps.AtLeastOne``1
+  - SuperOffice.CRM.Security.FieldRights.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.FieldRights)
+  - SuperOffice.CRM.Security.FieldRights.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Security.FieldRights.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Security.FieldRights.GetIntKey(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Security.FieldRights.GetIntKey(SuperOffice.Data.SQL.FieldInfo)
+  id: GetIntKey(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Security.FieldRights
+  langs:
+  - csharp
+  - vb
+  name: GetIntKey(FieldInfo)
+  nameWithType: FieldRights.GetIntKey(FieldInfo)
+  fullName: SuperOffice.CRM.Security.FieldRights.GetIntKey(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public override int GetIntKey(FieldInfo key)
+    parameters:
+    - id: key
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetIntKey(key As FieldInfo) As Integer
+  overridden: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.GetIntKey(SuperOffice.Data.SQL.FieldInfo)
+  overload: SuperOffice.CRM.Security.FieldRights.GetIntKey*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Security.FieldRights.#ctor
+  commentId: M:SuperOffice.CRM.Security.FieldRights.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Security.FieldRights
+  langs:
+  - csharp
+  - vb
+  name: FieldRights()
+  nameWithType: FieldRights.FieldRights()
+  fullName: SuperOffice.CRM.Security.FieldRights.FieldRights()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public FieldRights()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Security.FieldRights.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Security
+  commentId: N:SuperOffice.CRM.Security
+  isExternal: true
+  name: SuperOffice.CRM.Security
+  nameWithType: SuperOffice.CRM.Security
+  fullName: SuperOffice.CRM.Security
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}
+  commentId: T:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}
+  parent: SuperOffice.CRM.Security
+  definition: SuperOffice.CRM.Security.Rights`2
+  name: Rights<FieldInfo, FieldRight>
+  nameWithType: Rights<FieldInfo, FieldRight>
+  fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>
+  nameWithType.vb: Rights(Of FieldInfo, FieldRight)
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight)
+  name.vb: Rights(Of FieldInfo, FieldRight)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2
+    name: Rights
+    nameWithType: Rights
+    fullName: SuperOffice.CRM.Security.Rights
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2
+    name: Rights
+    nameWithType: Rights
+    fullName: SuperOffice.CRM.Security.Rights
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IDictionary{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}
+  commentId: T:System.Collections.Generic.IDictionary{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IDictionary`2
+  name: IDictionary<FieldInfo, FieldRight>
+  nameWithType: IDictionary<FieldInfo, FieldRight>
+  fullName: System.Collections.Generic.IDictionary<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>
+  nameWithType.vb: IDictionary(Of FieldInfo, FieldRight)
+  fullName.vb: System.Collections.Generic.IDictionary(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight)
+  name.vb: IDictionary(Of FieldInfo, FieldRight)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}}
+  commentId: T:System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<KeyValuePair<FieldInfo, FieldRight>>
+  nameWithType: ICollection<KeyValuePair<FieldInfo, FieldRight>>
+  fullName: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>>
+  nameWithType.vb: ICollection(Of KeyValuePair(Of FieldInfo, FieldRight))
+  fullName.vb: System.Collections.Generic.ICollection(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight))
+  name.vb: ICollection(Of KeyValuePair(Of FieldInfo, FieldRight))
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<KeyValuePair<FieldInfo, FieldRight>>
+  nameWithType: IEnumerable<KeyValuePair<FieldInfo, FieldRight>>
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>>
+  nameWithType.vb: IEnumerable(Of KeyValuePair(Of FieldInfo, FieldRight))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight))
+  name.vb: IEnumerable(Of KeyValuePair(Of FieldInfo, FieldRight))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Add(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight)
+  commentId: M:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Add(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight)
+  parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}
+  definition: SuperOffice.CRM.Security.Rights`2.Add(`0,`1)
+  name: Add(FieldInfo, FieldRight)
+  nameWithType: Rights<FieldInfo, FieldRight>.Add(FieldInfo, FieldRight)
+  fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.Add(SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight)
+  nameWithType.vb: Rights(Of FieldInfo, FieldRight).Add(FieldInfo, FieldRight)
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).Add(SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2.Add(`0,`1)
+    name: Add
+    nameWithType: Rights<FieldInfo, FieldRight>.Add
+    fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2.Add(`0,`1)
+    name: Add
+    nameWithType: Rights(Of FieldInfo, FieldRight).Add
+    fullName: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.GetIntKey(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.GetIntKey(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}
+  definition: SuperOffice.CRM.Security.Rights`2.GetIntKey(`0)
+  name: GetIntKey(FieldInfo)
+  nameWithType: Rights<FieldInfo, FieldRight>.GetIntKey(FieldInfo)
+  fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.GetIntKey(SuperOffice.Data.SQL.FieldInfo)
+  nameWithType.vb: Rights(Of FieldInfo, FieldRight).GetIntKey(FieldInfo)
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).GetIntKey(SuperOffice.Data.SQL.FieldInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2.GetIntKey(`0)
+    name: GetIntKey
+    nameWithType: Rights<FieldInfo, FieldRight>.GetIntKey
+    fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.GetIntKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2.GetIntKey(`0)
+    name: GetIntKey
+    nameWithType: Rights(Of FieldInfo, FieldRight).GetIntKey
+    fullName: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).GetIntKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.ContainsKey(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.ContainsKey(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}
+  definition: SuperOffice.CRM.Security.Rights`2.ContainsKey(`0)
+  name: ContainsKey(FieldInfo)
+  nameWithType: Rights<FieldInfo, FieldRight>.ContainsKey(FieldInfo)
+  fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.ContainsKey(SuperOffice.Data.SQL.FieldInfo)
+  nameWithType.vb: Rights(Of FieldInfo, FieldRight).ContainsKey(FieldInfo)
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).ContainsKey(SuperOffice.Data.SQL.FieldInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2.ContainsKey(`0)
+    name: ContainsKey
+    nameWithType: Rights<FieldInfo, FieldRight>.ContainsKey
+    fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.ContainsKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2.ContainsKey(`0)
+    name: ContainsKey
+    nameWithType: Rights(Of FieldInfo, FieldRight).ContainsKey
+    fullName: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).ContainsKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Remove(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Remove(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}
+  definition: SuperOffice.CRM.Security.Rights`2.Remove(`0)
+  name: Remove(FieldInfo)
+  nameWithType: Rights<FieldInfo, FieldRight>.Remove(FieldInfo)
+  fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.Remove(SuperOffice.Data.SQL.FieldInfo)
+  nameWithType.vb: Rights(Of FieldInfo, FieldRight).Remove(FieldInfo)
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).Remove(SuperOffice.Data.SQL.FieldInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2.Remove(`0)
+    name: Remove
+    nameWithType: Rights<FieldInfo, FieldRight>.Remove
+    fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.Remove
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2.Remove(`0)
+    name: Remove
+    nameWithType: Rights(Of FieldInfo, FieldRight).Remove
+    fullName: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).Remove
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.TryGetValue(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight@)
+  commentId: M:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.TryGetValue(SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight@)
+  parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}
+  definition: SuperOffice.CRM.Security.Rights`2.TryGetValue(`0,`1@)
+  name: TryGetValue(FieldInfo, FieldRight)
+  nameWithType: Rights<FieldInfo, FieldRight>.TryGetValue(FieldInfo, FieldRight)
+  fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.TryGetValue(SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight)
+  nameWithType.vb: Rights(Of FieldInfo, FieldRight).TryGetValue(FieldInfo, FieldRight)
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).TryGetValue(SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2.TryGetValue(`0,`1@)
+    name: TryGetValue
+    nameWithType: Rights<FieldInfo, FieldRight>.TryGetValue
+    fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.TryGetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2.TryGetValue(`0,`1@)
+    name: TryGetValue
+    nameWithType: Rights(Of FieldInfo, FieldRight).TryGetValue
+    fullName: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).TryGetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Add(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight})
+  commentId: M:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Add(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight})
+  parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}
+  definition: SuperOffice.CRM.Security.Rights`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+  name: Add(KeyValuePair<FieldInfo, FieldRight>)
+  nameWithType: Rights<FieldInfo, FieldRight>.Add(KeyValuePair<FieldInfo, FieldRight>)
+  fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.Add(System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>)
+  nameWithType.vb: Rights(Of FieldInfo, FieldRight).Add(KeyValuePair(Of FieldInfo, FieldRight))
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).Add(System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight))
+  name.vb: Add(KeyValuePair(Of FieldInfo, FieldRight))
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+    name: Add
+    nameWithType: Rights<FieldInfo, FieldRight>.Add
+    fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+    name: Add
+    nameWithType: Rights(Of FieldInfo, FieldRight).Add
+    fullName: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Clear
+  commentId: M:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Clear
+  parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}
+  definition: SuperOffice.CRM.Security.Rights`2.Clear
+  name: Clear()
+  nameWithType: Rights<FieldInfo, FieldRight>.Clear()
+  fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.Clear()
+  nameWithType.vb: Rights(Of FieldInfo, FieldRight).Clear()
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).Clear()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2.Clear
+    name: Clear
+    nameWithType: Rights<FieldInfo, FieldRight>.Clear
+    fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.Clear
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2.Clear
+    name: Clear
+    nameWithType: Rights(Of FieldInfo, FieldRight).Clear
+    fullName: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).Clear
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Contains(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight})
+  commentId: M:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Contains(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight})
+  parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}
+  definition: SuperOffice.CRM.Security.Rights`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  name: Contains(KeyValuePair<FieldInfo, FieldRight>)
+  nameWithType: Rights<FieldInfo, FieldRight>.Contains(KeyValuePair<FieldInfo, FieldRight>)
+  fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.Contains(System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>)
+  nameWithType.vb: Rights(Of FieldInfo, FieldRight).Contains(KeyValuePair(Of FieldInfo, FieldRight))
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).Contains(System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight))
+  name.vb: Contains(KeyValuePair(Of FieldInfo, FieldRight))
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+    name: Contains
+    nameWithType: Rights<FieldInfo, FieldRight>.Contains
+    fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.Contains
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+    name: Contains
+    nameWithType: Rights(Of FieldInfo, FieldRight).Contains
+    fullName: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).Contains
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.CopyTo(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}[],System.Int32)
+  commentId: M:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.CopyTo(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}[],System.Int32)
+  parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}
+  definition: SuperOffice.CRM.Security.Rights`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+  name: CopyTo(KeyValuePair<FieldInfo, FieldRight>[], Int32)
+  nameWithType: Rights<FieldInfo, FieldRight>.CopyTo(KeyValuePair<FieldInfo, FieldRight>[], Int32)
+  fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.CopyTo(System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>[], System.Int32)
+  nameWithType.vb: Rights(Of FieldInfo, FieldRight).CopyTo(KeyValuePair(Of FieldInfo, FieldRight)(), Int32)
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).CopyTo(System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight)(), System.Int32)
+  name.vb: CopyTo(KeyValuePair(Of FieldInfo, FieldRight)(), Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+    name: CopyTo
+    nameWithType: Rights<FieldInfo, FieldRight>.CopyTo
+    fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.CopyTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+    name: CopyTo
+    nameWithType: Rights(Of FieldInfo, FieldRight).CopyTo
+    fullName: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).CopyTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Remove(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight})
+  commentId: M:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Remove(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight})
+  parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}
+  definition: SuperOffice.CRM.Security.Rights`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+  name: Remove(KeyValuePair<FieldInfo, FieldRight>)
+  nameWithType: Rights<FieldInfo, FieldRight>.Remove(KeyValuePair<FieldInfo, FieldRight>)
+  fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.Remove(System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>)
+  nameWithType.vb: Rights(Of FieldInfo, FieldRight).Remove(KeyValuePair(Of FieldInfo, FieldRight))
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).Remove(System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight))
+  name.vb: Remove(KeyValuePair(Of FieldInfo, FieldRight))
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+    name: Remove
+    nameWithType: Rights<FieldInfo, FieldRight>.Remove
+    fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.Remove
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+    name: Remove
+    nameWithType: Rights(Of FieldInfo, FieldRight).Remove
+    fullName: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).Remove
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.GetEnumerator
+  commentId: M:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.GetEnumerator
+  parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}
+  definition: SuperOffice.CRM.Security.Rights`2.GetEnumerator
+  name: GetEnumerator()
+  nameWithType: Rights<FieldInfo, FieldRight>.GetEnumerator()
+  fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.GetEnumerator()
+  nameWithType.vb: Rights(Of FieldInfo, FieldRight).GetEnumerator()
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).GetEnumerator()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2.GetEnumerator
+    name: GetEnumerator
+    nameWithType: Rights<FieldInfo, FieldRight>.GetEnumerator
+    fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2.GetEnumerator
+    name: GetEnumerator
+    nameWithType: Rights(Of FieldInfo, FieldRight).GetEnumerator
+    fullName: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.System#Collections#IEnumerable#GetEnumerator
+  commentId: M:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.System#Collections#IEnumerable#GetEnumerator
+  parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}
+  definition: SuperOffice.CRM.Security.Rights`2.System#Collections#IEnumerable#GetEnumerator
+  name: IEnumerable.GetEnumerator()
+  nameWithType: Rights<FieldInfo, FieldRight>.IEnumerable.GetEnumerator()
+  fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.System.Collections.IEnumerable.GetEnumerator()
+  nameWithType.vb: Rights(Of FieldInfo, FieldRight).System.Collections.IEnumerable.GetEnumerator()
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).System.Collections.IEnumerable.GetEnumerator()
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2.System#Collections#IEnumerable#GetEnumerator
+    name: IEnumerable.GetEnumerator
+    nameWithType: Rights<FieldInfo, FieldRight>.IEnumerable.GetEnumerator
+    fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2.System#Collections#IEnumerable#GetEnumerator
+    name: System.Collections.IEnumerable.GetEnumerator
+    nameWithType: Rights(Of FieldInfo, FieldRight).System.Collections.IEnumerable.GetEnumerator
+    fullName: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Keys
+  commentId: P:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Keys
+  parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}
+  definition: SuperOffice.CRM.Security.Rights`2.Keys
+  name: Keys
+  nameWithType: Rights<FieldInfo, FieldRight>.Keys
+  fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.Keys
+  nameWithType.vb: Rights(Of FieldInfo, FieldRight).Keys
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).Keys
+- uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Values
+  commentId: P:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Values
+  parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}
+  definition: SuperOffice.CRM.Security.Rights`2.Values
+  name: Values
+  nameWithType: Rights<FieldInfo, FieldRight>.Values
+  fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.Values
+  nameWithType.vb: Rights(Of FieldInfo, FieldRight).Values
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).Values
+- uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Item(SuperOffice.Data.SQL.FieldInfo)
+  commentId: P:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Item(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}
+  definition: SuperOffice.CRM.Security.Rights`2.Item(`0)
+  name: Item[FieldInfo]
+  nameWithType: Rights<FieldInfo, FieldRight>.Item[FieldInfo]
+  fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.Item[SuperOffice.Data.SQL.FieldInfo]
+  nameWithType.vb: Rights(Of FieldInfo, FieldRight).Item(FieldInfo)
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).Item(SuperOffice.Data.SQL.FieldInfo)
+  name.vb: Item(FieldInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2.Item(`0)
+    name: Item
+    nameWithType: Rights<FieldInfo, FieldRight>.Item
+    fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2.Item(`0)
+    name: Item
+    nameWithType: Rights(Of FieldInfo, FieldRight).Item
+    fullName: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Count
+  commentId: P:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.Count
+  parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}
+  definition: SuperOffice.CRM.Security.Rights`2.Count
+  name: Count
+  nameWithType: Rights<FieldInfo, FieldRight>.Count
+  fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.Count
+  nameWithType.vb: Rights(Of FieldInfo, FieldRight).Count
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).Count
+- uid: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.IsReadOnly
+  commentId: P:SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}.IsReadOnly
+  parent: SuperOffice.CRM.Security.Rights{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}
+  definition: SuperOffice.CRM.Security.Rights`2.IsReadOnly
+  name: IsReadOnly
+  nameWithType: Rights<FieldInfo, FieldRight>.IsReadOnly
+  fullName: SuperOffice.CRM.Security.Rights<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>.IsReadOnly
+  nameWithType.vb: Rights(Of FieldInfo, FieldRight).IsReadOnly
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight).IsReadOnly
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}}.IEnumerableExtensions.ForEach``1(System.Action{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}})
+  commentId: M:IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  name: ForEach<KeyValuePair<FieldInfo, FieldRight>>(Action<KeyValuePair<FieldInfo, FieldRight>>)
+  nameWithType: IEnumerableExtensions.ForEach<KeyValuePair<FieldInfo, FieldRight>>(Action<KeyValuePair<FieldInfo, FieldRight>>)
+  fullName: IEnumerableExtensions.ForEach<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>>(System.Action<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>>)
+  nameWithType.vb: IEnumerableExtensions.ForEach(Of KeyValuePair(Of FieldInfo, FieldRight))(Action(Of KeyValuePair(Of FieldInfo, FieldRight)))
+  fullName.vb: IEnumerableExtensions.ForEach(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight))(System.Action(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight)))
+  name.vb: ForEach(Of KeyValuePair(Of FieldInfo, FieldRight))(Action(Of KeyValuePair(Of FieldInfo, FieldRight)))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ForEach``1(System.Action{``0})
+    name: ForEach<KeyValuePair<FieldInfo, FieldRight>>
+    nameWithType: IEnumerableExtensions.ForEach<KeyValuePair<FieldInfo, FieldRight>>
+    fullName: IEnumerableExtensions.ForEach<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ForEach``1(System.Action{``0})
+    name: ForEach(Of KeyValuePair(Of FieldInfo, FieldRight))
+    nameWithType: IEnumerableExtensions.ForEach(Of KeyValuePair(Of FieldInfo, FieldRight))
+    fullName: IEnumerableExtensions.ForEach(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight))
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}}.IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}})
+  commentId: M:IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
+  name: ContainsAny<KeyValuePair<FieldInfo, FieldRight>>(IEnumerable<KeyValuePair<FieldInfo, FieldRight>>)
+  nameWithType: IEnumerableExtensions.ContainsAny<KeyValuePair<FieldInfo, FieldRight>>(IEnumerable<KeyValuePair<FieldInfo, FieldRight>>)
+  fullName: IEnumerableExtensions.ContainsAny<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>>(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>>)
+  nameWithType.vb: IEnumerableExtensions.ContainsAny(Of KeyValuePair(Of FieldInfo, FieldRight))(IEnumerable(Of KeyValuePair(Of FieldInfo, FieldRight)))
+  fullName.vb: IEnumerableExtensions.ContainsAny(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight))(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight)))
+  name.vb: ContainsAny(Of KeyValuePair(Of FieldInfo, FieldRight))(IEnumerable(Of KeyValuePair(Of FieldInfo, FieldRight)))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0})
+    name: ContainsAny<KeyValuePair<FieldInfo, FieldRight>>
+    nameWithType: IEnumerableExtensions.ContainsAny<KeyValuePair<FieldInfo, FieldRight>>
+    fullName: IEnumerableExtensions.ContainsAny<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0})
+    name: ContainsAny(Of KeyValuePair(Of FieldInfo, FieldRight))
+    nameWithType: IEnumerableExtensions.ContainsAny(Of KeyValuePair(Of FieldInfo, FieldRight))
+    fullName: IEnumerableExtensions.ContainsAny(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight))
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}}.IEnumerableExtensions.Batch``1(System.Int32)
+  commentId: M:IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name: Batch<KeyValuePair<FieldInfo, FieldRight>>(Int32)
+  nameWithType: IEnumerableExtensions.Batch<KeyValuePair<FieldInfo, FieldRight>>(Int32)
+  fullName: IEnumerableExtensions.Batch<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>>(System.Int32)
+  nameWithType.vb: IEnumerableExtensions.Batch(Of KeyValuePair(Of FieldInfo, FieldRight))(Int32)
+  fullName.vb: IEnumerableExtensions.Batch(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight))(System.Int32)
+  name.vb: Batch(Of KeyValuePair(Of FieldInfo, FieldRight))(Int32)
+  spec.csharp:
+  - uid: IEnumerableExtensions.Batch``1(System.Int32)
+    name: Batch<KeyValuePair<FieldInfo, FieldRight>>
+    nameWithType: IEnumerableExtensions.Batch<KeyValuePair<FieldInfo, FieldRight>>
+    fullName: IEnumerableExtensions.Batch<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.Batch``1(System.Int32)
+    name: Batch(Of KeyValuePair(Of FieldInfo, FieldRight))
+    nameWithType: IEnumerableExtensions.Batch(Of KeyValuePair(Of FieldInfo, FieldRight))
+    fullName: IEnumerableExtensions.Batch(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight))
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}}.IEnumerableExtensions.IndexOf``1(System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight},System.Int32)
+  commentId: M:IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},``0,System.Int32)
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},``0,System.Int32)
+  name: IndexOf<KeyValuePair<FieldInfo, FieldRight>>(KeyValuePair<FieldInfo, FieldRight>, Int32)
+  nameWithType: IEnumerableExtensions.IndexOf<KeyValuePair<FieldInfo, FieldRight>>(KeyValuePair<FieldInfo, FieldRight>, Int32)
+  fullName: IEnumerableExtensions.IndexOf<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>>(System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>, System.Int32)
+  nameWithType.vb: IEnumerableExtensions.IndexOf(Of KeyValuePair(Of FieldInfo, FieldRight))(KeyValuePair(Of FieldInfo, FieldRight), Int32)
+  fullName.vb: IEnumerableExtensions.IndexOf(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight))(System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight), System.Int32)
+  name.vb: IndexOf(Of KeyValuePair(Of FieldInfo, FieldRight))(KeyValuePair(Of FieldInfo, FieldRight), Int32)
+  spec.csharp:
+  - uid: IEnumerableExtensions.IndexOf``1(``0,System.Int32)
+    name: IndexOf<KeyValuePair<FieldInfo, FieldRight>>
+    nameWithType: IEnumerableExtensions.IndexOf<KeyValuePair<FieldInfo, FieldRight>>
+    fullName: IEnumerableExtensions.IndexOf<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.IndexOf``1(``0,System.Int32)
+    name: IndexOf(Of KeyValuePair(Of FieldInfo, FieldRight))
+    nameWithType: IEnumerableExtensions.IndexOf(Of KeyValuePair(Of FieldInfo, FieldRight))
+    fullName: IEnumerableExtensions.IndexOf(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight))
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}}.IEnumerableExtensions.IndexOf``1(System.Func{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight},System.Boolean},System.Int32)
+  commentId: M:IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32)
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32)
+  name: IndexOf<KeyValuePair<FieldInfo, FieldRight>>(Func<KeyValuePair<FieldInfo, FieldRight>, Boolean>, Int32)
+  nameWithType: IEnumerableExtensions.IndexOf<KeyValuePair<FieldInfo, FieldRight>>(Func<KeyValuePair<FieldInfo, FieldRight>, Boolean>, Int32)
+  fullName: IEnumerableExtensions.IndexOf<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>>(System.Func<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>, System.Boolean>, System.Int32)
+  nameWithType.vb: IEnumerableExtensions.IndexOf(Of KeyValuePair(Of FieldInfo, FieldRight))(Func(Of KeyValuePair(Of FieldInfo, FieldRight), Boolean), Int32)
+  fullName.vb: IEnumerableExtensions.IndexOf(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight))(System.Func(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight), System.Boolean), System.Int32)
+  name.vb: IndexOf(Of KeyValuePair(Of FieldInfo, FieldRight))(Func(Of KeyValuePair(Of FieldInfo, FieldRight), Boolean), Int32)
+  spec.csharp:
+  - uid: IEnumerableExtensions.IndexOf``1(System.Func{``0,System.Boolean},System.Int32)
+    name: IndexOf<KeyValuePair<FieldInfo, FieldRight>>
+    nameWithType: IEnumerableExtensions.IndexOf<KeyValuePair<FieldInfo, FieldRight>>
+    fullName: IEnumerableExtensions.IndexOf<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.IndexOf``1(System.Func{``0,System.Boolean},System.Int32)
+    name: IndexOf(Of KeyValuePair(Of FieldInfo, FieldRight))
+    nameWithType: IEnumerableExtensions.IndexOf(Of KeyValuePair(Of FieldInfo, FieldRight))
+    fullName: IEnumerableExtensions.IndexOf(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight))
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}}.IEnumerableExtensions.Permute``1(System.Int32)
+  commentId: M:IEnumerableExtensions.Permute``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.Permute``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name: Permute<KeyValuePair<FieldInfo, FieldRight>>(Int32)
+  nameWithType: IEnumerableExtensions.Permute<KeyValuePair<FieldInfo, FieldRight>>(Int32)
+  fullName: IEnumerableExtensions.Permute<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>>(System.Int32)
+  nameWithType.vb: IEnumerableExtensions.Permute(Of KeyValuePair(Of FieldInfo, FieldRight))(Int32)
+  fullName.vb: IEnumerableExtensions.Permute(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight))(System.Int32)
+  name.vb: Permute(Of KeyValuePair(Of FieldInfo, FieldRight))(Int32)
+  spec.csharp:
+  - uid: IEnumerableExtensions.Permute``1(System.Int32)
+    name: Permute<KeyValuePair<FieldInfo, FieldRight>>
+    nameWithType: IEnumerableExtensions.Permute<KeyValuePair<FieldInfo, FieldRight>>
+    fullName: IEnumerableExtensions.Permute<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.Permute``1(System.Int32)
+    name: Permute(Of KeyValuePair(Of FieldInfo, FieldRight))
+    nameWithType: IEnumerableExtensions.Permute(Of KeyValuePair(Of FieldInfo, FieldRight))
+    fullName: IEnumerableExtensions.Permute(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight))
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}}.IEnumerableExtensions.PermissiveToDictionary``3(System.Func{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight},{K}},System.Func{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight},{V}})
+  commentId: M:IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  name: PermissiveToDictionary<KeyValuePair<FieldInfo, FieldRight>, K, V>(Func<KeyValuePair<FieldInfo, FieldRight>, K>, Func<KeyValuePair<FieldInfo, FieldRight>, V>)
+  nameWithType: IEnumerableExtensions.PermissiveToDictionary<KeyValuePair<FieldInfo, FieldRight>, K, V>(Func<KeyValuePair<FieldInfo, FieldRight>, K>, Func<KeyValuePair<FieldInfo, FieldRight>, V>)
+  fullName: IEnumerableExtensions.PermissiveToDictionary<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>, K, V>(System.Func<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>, K>, System.Func<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>, V>)
+  nameWithType.vb: IEnumerableExtensions.PermissiveToDictionary(Of KeyValuePair(Of FieldInfo, FieldRight), K, V)(Func(Of KeyValuePair(Of FieldInfo, FieldRight), K), Func(Of KeyValuePair(Of FieldInfo, FieldRight), V))
+  fullName.vb: IEnumerableExtensions.PermissiveToDictionary(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight), K, V)(System.Func(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight), K), System.Func(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight), V))
+  name.vb: PermissiveToDictionary(Of KeyValuePair(Of FieldInfo, FieldRight), K, V)(Func(Of KeyValuePair(Of FieldInfo, FieldRight), K), Func(Of KeyValuePair(Of FieldInfo, FieldRight), V))
+  spec.csharp:
+  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Func{``0,``1},System.Func{``0,``2})
+    name: PermissiveToDictionary<KeyValuePair<FieldInfo, FieldRight>, K, V>
+    nameWithType: IEnumerableExtensions.PermissiveToDictionary<KeyValuePair<FieldInfo, FieldRight>, K, V>
+    fullName: IEnumerableExtensions.PermissiveToDictionary<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>, K, V>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Func{``0,``1},System.Func{``0,``2})
+    name: PermissiveToDictionary(Of KeyValuePair(Of FieldInfo, FieldRight), K, V)
+    nameWithType: IEnumerableExtensions.PermissiveToDictionary(Of KeyValuePair(Of FieldInfo, FieldRight), K, V)
+    fullName: IEnumerableExtensions.PermissiveToDictionary(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight), K, V)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}}.IEnumerableExtensions.PermissiveToDictionary``3(System.Func{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight},{K}},System.Func{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight},{V}},System.Collections.Generic.IEqualityComparer{{K}})
+  commentId: M:IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  name: PermissiveToDictionary<KeyValuePair<FieldInfo, FieldRight>, K, V>(Func<KeyValuePair<FieldInfo, FieldRight>, K>, Func<KeyValuePair<FieldInfo, FieldRight>, V>, IEqualityComparer<K>)
+  nameWithType: IEnumerableExtensions.PermissiveToDictionary<KeyValuePair<FieldInfo, FieldRight>, K, V>(Func<KeyValuePair<FieldInfo, FieldRight>, K>, Func<KeyValuePair<FieldInfo, FieldRight>, V>, IEqualityComparer<K>)
+  fullName: IEnumerableExtensions.PermissiveToDictionary<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>, K, V>(System.Func<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>, K>, System.Func<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>, V>, System.Collections.Generic.IEqualityComparer<K>)
+  nameWithType.vb: IEnumerableExtensions.PermissiveToDictionary(Of KeyValuePair(Of FieldInfo, FieldRight), K, V)(Func(Of KeyValuePair(Of FieldInfo, FieldRight), K), Func(Of KeyValuePair(Of FieldInfo, FieldRight), V), IEqualityComparer(Of K))
+  fullName.vb: IEnumerableExtensions.PermissiveToDictionary(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight), K, V)(System.Func(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight), K), System.Func(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight), V), System.Collections.Generic.IEqualityComparer(Of K))
+  name.vb: PermissiveToDictionary(Of KeyValuePair(Of FieldInfo, FieldRight), K, V)(Func(Of KeyValuePair(Of FieldInfo, FieldRight), K), Func(Of KeyValuePair(Of FieldInfo, FieldRight), V), IEqualityComparer(Of K))
+  spec.csharp:
+  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: PermissiveToDictionary<KeyValuePair<FieldInfo, FieldRight>, K, V>
+    nameWithType: IEnumerableExtensions.PermissiveToDictionary<KeyValuePair<FieldInfo, FieldRight>, K, V>
+    fullName: IEnumerableExtensions.PermissiveToDictionary<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>, K, V>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: PermissiveToDictionary(Of KeyValuePair(Of FieldInfo, FieldRight), K, V)
+    nameWithType: IEnumerableExtensions.PermissiveToDictionary(Of KeyValuePair(Of FieldInfo, FieldRight), K, V)
+    fullName: IEnumerableExtensions.PermissiveToDictionary(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight), K, V)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.FieldRights.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<FieldRights, To>()
+  nameWithType: EnumUtil.MapEnums<FieldRights, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.FieldRights, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of FieldRights, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.FieldRights, To)()
+  name.vb: MapEnums(Of FieldRights, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<FieldRights, To>
+    nameWithType: EnumUtil.MapEnums<FieldRights, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.FieldRights, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of FieldRights, To)
+    nameWithType: EnumUtil.MapEnums(Of FieldRights, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.FieldRights, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{SuperOffice.Data.SQL.FieldInfo,SuperOffice.CRM.Security.FieldRight}}.SuperOffice.Util.CollectionOps.AtLeastOne``1
+  commentId: M:SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
+  parent: SuperOffice.Util.CollectionOps
+  definition: SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
+  name: AtLeastOne<KeyValuePair<FieldInfo, FieldRight>>()
+  nameWithType: CollectionOps.AtLeastOne<KeyValuePair<FieldInfo, FieldRight>>()
+  fullName: SuperOffice.Util.CollectionOps.AtLeastOne<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>>()
+  nameWithType.vb: CollectionOps.AtLeastOne(Of KeyValuePair(Of FieldInfo, FieldRight))()
+  fullName.vb: SuperOffice.Util.CollectionOps.AtLeastOne(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight))()
+  name.vb: AtLeastOne(Of KeyValuePair(Of FieldInfo, FieldRight))()
+  spec.csharp:
+  - uid: SuperOffice.Util.CollectionOps.AtLeastOne``1
+    name: AtLeastOne<KeyValuePair<FieldInfo, FieldRight>>
+    nameWithType: CollectionOps.AtLeastOne<KeyValuePair<FieldInfo, FieldRight>>
+    fullName: SuperOffice.Util.CollectionOps.AtLeastOne<System.Collections.Generic.KeyValuePair<SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight>>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.CollectionOps.AtLeastOne``1
+    name: AtLeastOne(Of KeyValuePair(Of FieldInfo, FieldRight))
+    nameWithType: CollectionOps.AtLeastOne(Of KeyValuePair(Of FieldInfo, FieldRight))
+    fullName: SuperOffice.Util.CollectionOps.AtLeastOne(Of System.Collections.Generic.KeyValuePair(Of SuperOffice.Data.SQL.FieldInfo, SuperOffice.CRM.Security.FieldRight))
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.FieldRights.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.FieldRights)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<FieldRights>(FieldRights)
+  nameWithType: ObjectExtensions.AssignByReflection<FieldRights>(FieldRights)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Security.FieldRights>(SuperOffice.CRM.Security.FieldRights)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FieldRights)(FieldRights)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Security.FieldRights)(SuperOffice.CRM.Security.FieldRights)
+  name.vb: AssignByReflection(Of FieldRights)(FieldRights)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<FieldRights>
+    nameWithType: ObjectExtensions.AssignByReflection<FieldRights>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Security.FieldRights>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Security.FieldRights
+    name: FieldRights
+    nameWithType: FieldRights
+    fullName: SuperOffice.CRM.Security.FieldRights
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of FieldRights)
+    nameWithType: ObjectExtensions.AssignByReflection(Of FieldRights)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Security.FieldRights)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Security.FieldRights
+    name: FieldRights
+    nameWithType: FieldRights
+    fullName: SuperOffice.CRM.Security.FieldRights
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.FieldRights.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<FieldRights>()
+  nameWithType: ObjectExtensions.GraphCopy<FieldRights>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Security.FieldRights>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of FieldRights)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Security.FieldRights)()
+  name.vb: GraphCopy(Of FieldRights)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<FieldRights>
+    nameWithType: ObjectExtensions.GraphCopy<FieldRights>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Security.FieldRights>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of FieldRights)
+    nameWithType: ObjectExtensions.GraphCopy(Of FieldRights)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Security.FieldRights)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.FieldRights.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<FieldRights, To>()
+  nameWithType: Converters.MapEnums<FieldRights, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.FieldRights, To>()
+  nameWithType.vb: Converters.MapEnums(Of FieldRights, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.FieldRights, To)()
+  name.vb: MapEnums(Of FieldRights, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<FieldRights, To>
+    nameWithType: Converters.MapEnums<FieldRights, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.FieldRights, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of FieldRights, To)
+    nameWithType: Converters.MapEnums(Of FieldRights, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.FieldRights, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Security.Rights`2
+  commentId: T:SuperOffice.CRM.Security.Rights`2
+  isExternal: true
+  name: Rights<TKey, TValue>
+  nameWithType: Rights<TKey, TValue>
+  fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>
+  nameWithType.vb: Rights(Of TKey, TValue)
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of TKey, TValue)
+  name.vb: Rights(Of TKey, TValue)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2
+    name: Rights
+    nameWithType: Rights
+    fullName: SuperOffice.CRM.Security.Rights
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2
+    name: Rights
+    nameWithType: Rights
+    fullName: SuperOffice.CRM.Security.Rights
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IDictionary`2
+  commentId: T:System.Collections.Generic.IDictionary`2
+  isExternal: true
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: SuperOffice.CRM.Security.Rights`2.Add(`0,`1)
+  commentId: M:SuperOffice.CRM.Security.Rights`2.Add(`0,`1)
+  isExternal: true
+  name: Add(TKey, TValue)
+  nameWithType: Rights<TKey, TValue>.Add(TKey, TValue)
+  fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Add(TKey, TValue)
+  nameWithType.vb: Rights(Of TKey, TValue).Add(TKey, TValue)
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of TKey, TValue).Add(TKey, TValue)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2.Add(`0,`1)
+    name: Add
+    nameWithType: Rights<TKey, TValue>.Add
+    fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2.Add(`0,`1)
+    name: Add
+    nameWithType: Rights(Of TKey, TValue).Add
+    fullName: SuperOffice.CRM.Security.Rights(Of TKey, TValue).Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Rights`2.GetIntKey(`0)
+  commentId: M:SuperOffice.CRM.Security.Rights`2.GetIntKey(`0)
+  isExternal: true
+  name: GetIntKey(TKey)
+  nameWithType: Rights<TKey, TValue>.GetIntKey(TKey)
+  fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.GetIntKey(TKey)
+  nameWithType.vb: Rights(Of TKey, TValue).GetIntKey(TKey)
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of TKey, TValue).GetIntKey(TKey)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2.GetIntKey(`0)
+    name: GetIntKey
+    nameWithType: Rights<TKey, TValue>.GetIntKey
+    fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.GetIntKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2.GetIntKey(`0)
+    name: GetIntKey
+    nameWithType: Rights(Of TKey, TValue).GetIntKey
+    fullName: SuperOffice.CRM.Security.Rights(Of TKey, TValue).GetIntKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Rights`2.ContainsKey(`0)
+  commentId: M:SuperOffice.CRM.Security.Rights`2.ContainsKey(`0)
+  isExternal: true
+  name: ContainsKey(TKey)
+  nameWithType: Rights<TKey, TValue>.ContainsKey(TKey)
+  fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.ContainsKey(TKey)
+  nameWithType.vb: Rights(Of TKey, TValue).ContainsKey(TKey)
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of TKey, TValue).ContainsKey(TKey)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2.ContainsKey(`0)
+    name: ContainsKey
+    nameWithType: Rights<TKey, TValue>.ContainsKey
+    fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.ContainsKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2.ContainsKey(`0)
+    name: ContainsKey
+    nameWithType: Rights(Of TKey, TValue).ContainsKey
+    fullName: SuperOffice.CRM.Security.Rights(Of TKey, TValue).ContainsKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Rights`2.Remove(`0)
+  commentId: M:SuperOffice.CRM.Security.Rights`2.Remove(`0)
+  isExternal: true
+  name: Remove(TKey)
+  nameWithType: Rights<TKey, TValue>.Remove(TKey)
+  fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Remove(TKey)
+  nameWithType.vb: Rights(Of TKey, TValue).Remove(TKey)
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of TKey, TValue).Remove(TKey)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2.Remove(`0)
+    name: Remove
+    nameWithType: Rights<TKey, TValue>.Remove
+    fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Remove
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2.Remove(`0)
+    name: Remove
+    nameWithType: Rights(Of TKey, TValue).Remove
+    fullName: SuperOffice.CRM.Security.Rights(Of TKey, TValue).Remove
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Rights`2.TryGetValue(`0,`1@)
+  commentId: M:SuperOffice.CRM.Security.Rights`2.TryGetValue(`0,`1@)
+  isExternal: true
+  name: TryGetValue(TKey, TValue)
+  nameWithType: Rights<TKey, TValue>.TryGetValue(TKey, TValue)
+  fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.TryGetValue(TKey, TValue)
+  nameWithType.vb: Rights(Of TKey, TValue).TryGetValue(TKey, TValue)
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of TKey, TValue).TryGetValue(TKey, TValue)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2.TryGetValue(`0,`1@)
+    name: TryGetValue
+    nameWithType: Rights<TKey, TValue>.TryGetValue
+    fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.TryGetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2.TryGetValue(`0,`1@)
+    name: TryGetValue
+    nameWithType: Rights(Of TKey, TValue).TryGetValue
+    fullName: SuperOffice.CRM.Security.Rights(Of TKey, TValue).TryGetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Rights`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+  commentId: M:SuperOffice.CRM.Security.Rights`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+  isExternal: true
+  name: Add(KeyValuePair<TKey, TValue>)
+  nameWithType: Rights<TKey, TValue>.Add(KeyValuePair<TKey, TValue>)
+  fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Add(System.Collections.Generic.KeyValuePair<TKey, TValue>)
+  nameWithType.vb: Rights(Of TKey, TValue).Add(KeyValuePair(Of TKey, TValue))
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of TKey, TValue).Add(System.Collections.Generic.KeyValuePair(Of TKey, TValue))
+  name.vb: Add(KeyValuePair(Of TKey, TValue))
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+    name: Add
+    nameWithType: Rights<TKey, TValue>.Add
+    fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})
+    name: Add
+    nameWithType: Rights(Of TKey, TValue).Add
+    fullName: SuperOffice.CRM.Security.Rights(Of TKey, TValue).Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Rights`2.Clear
+  commentId: M:SuperOffice.CRM.Security.Rights`2.Clear
+  isExternal: true
+  name: Clear()
+  nameWithType: Rights<TKey, TValue>.Clear()
+  fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Clear()
+  nameWithType.vb: Rights(Of TKey, TValue).Clear()
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of TKey, TValue).Clear()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2.Clear
+    name: Clear
+    nameWithType: Rights<TKey, TValue>.Clear
+    fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Clear
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2.Clear
+    name: Clear
+    nameWithType: Rights(Of TKey, TValue).Clear
+    fullName: SuperOffice.CRM.Security.Rights(Of TKey, TValue).Clear
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Rights`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  commentId: M:SuperOffice.CRM.Security.Rights`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+  isExternal: true
+  name: Contains(KeyValuePair<TKey, TValue>)
+  nameWithType: Rights<TKey, TValue>.Contains(KeyValuePair<TKey, TValue>)
+  fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Contains(System.Collections.Generic.KeyValuePair<TKey, TValue>)
+  nameWithType.vb: Rights(Of TKey, TValue).Contains(KeyValuePair(Of TKey, TValue))
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of TKey, TValue).Contains(System.Collections.Generic.KeyValuePair(Of TKey, TValue))
+  name.vb: Contains(KeyValuePair(Of TKey, TValue))
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+    name: Contains
+    nameWithType: Rights<TKey, TValue>.Contains
+    fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Contains
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})
+    name: Contains
+    nameWithType: Rights(Of TKey, TValue).Contains
+    fullName: SuperOffice.CRM.Security.Rights(Of TKey, TValue).Contains
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Rights`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+  commentId: M:SuperOffice.CRM.Security.Rights`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+  isExternal: true
+  name: CopyTo(KeyValuePair<TKey, TValue>[], Int32)
+  nameWithType: Rights<TKey, TValue>.CopyTo(KeyValuePair<TKey, TValue>[], Int32)
+  fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.CopyTo(System.Collections.Generic.KeyValuePair<TKey, TValue>[], System.Int32)
+  nameWithType.vb: Rights(Of TKey, TValue).CopyTo(KeyValuePair(Of TKey, TValue)(), Int32)
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of TKey, TValue).CopyTo(System.Collections.Generic.KeyValuePair(Of TKey, TValue)(), System.Int32)
+  name.vb: CopyTo(KeyValuePair(Of TKey, TValue)(), Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+    name: CopyTo
+    nameWithType: Rights<TKey, TValue>.CopyTo
+    fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.CopyTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
+    name: CopyTo
+    nameWithType: Rights(Of TKey, TValue).CopyTo
+    fullName: SuperOffice.CRM.Security.Rights(Of TKey, TValue).CopyTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Rights`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+  commentId: M:SuperOffice.CRM.Security.Rights`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+  isExternal: true
+  name: Remove(KeyValuePair<TKey, TValue>)
+  nameWithType: Rights<TKey, TValue>.Remove(KeyValuePair<TKey, TValue>)
+  fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Remove(System.Collections.Generic.KeyValuePair<TKey, TValue>)
+  nameWithType.vb: Rights(Of TKey, TValue).Remove(KeyValuePair(Of TKey, TValue))
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of TKey, TValue).Remove(System.Collections.Generic.KeyValuePair(Of TKey, TValue))
+  name.vb: Remove(KeyValuePair(Of TKey, TValue))
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+    name: Remove
+    nameWithType: Rights<TKey, TValue>.Remove
+    fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Remove
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})
+    name: Remove
+    nameWithType: Rights(Of TKey, TValue).Remove
+    fullName: SuperOffice.CRM.Security.Rights(Of TKey, TValue).Remove
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Rights`2.GetEnumerator
+  commentId: M:SuperOffice.CRM.Security.Rights`2.GetEnumerator
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: Rights<TKey, TValue>.GetEnumerator()
+  fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.GetEnumerator()
+  nameWithType.vb: Rights(Of TKey, TValue).GetEnumerator()
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of TKey, TValue).GetEnumerator()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2.GetEnumerator
+    name: GetEnumerator
+    nameWithType: Rights<TKey, TValue>.GetEnumerator
+    fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2.GetEnumerator
+    name: GetEnumerator
+    nameWithType: Rights(Of TKey, TValue).GetEnumerator
+    fullName: SuperOffice.CRM.Security.Rights(Of TKey, TValue).GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Rights`2.System#Collections#IEnumerable#GetEnumerator
+  commentId: M:SuperOffice.CRM.Security.Rights`2.System#Collections#IEnumerable#GetEnumerator
+  isExternal: true
+  name: IEnumerable.GetEnumerator()
+  nameWithType: Rights<TKey, TValue>.IEnumerable.GetEnumerator()
+  fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.System.Collections.IEnumerable.GetEnumerator()
+  nameWithType.vb: Rights(Of TKey, TValue).System.Collections.IEnumerable.GetEnumerator()
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of TKey, TValue).System.Collections.IEnumerable.GetEnumerator()
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2.System#Collections#IEnumerable#GetEnumerator
+    name: IEnumerable.GetEnumerator
+    nameWithType: Rights<TKey, TValue>.IEnumerable.GetEnumerator
+    fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2.System#Collections#IEnumerable#GetEnumerator
+    name: System.Collections.IEnumerable.GetEnumerator
+    nameWithType: Rights(Of TKey, TValue).System.Collections.IEnumerable.GetEnumerator
+    fullName: SuperOffice.CRM.Security.Rights(Of TKey, TValue).System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Rights`2.Keys
+  commentId: P:SuperOffice.CRM.Security.Rights`2.Keys
+  isExternal: true
+  name: Keys
+  nameWithType: Rights<TKey, TValue>.Keys
+  fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Keys
+  nameWithType.vb: Rights(Of TKey, TValue).Keys
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of TKey, TValue).Keys
+- uid: SuperOffice.CRM.Security.Rights`2.Values
+  commentId: P:SuperOffice.CRM.Security.Rights`2.Values
+  isExternal: true
+  name: Values
+  nameWithType: Rights<TKey, TValue>.Values
+  fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Values
+  nameWithType.vb: Rights(Of TKey, TValue).Values
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of TKey, TValue).Values
+- uid: SuperOffice.CRM.Security.Rights`2.Item(`0)
+  commentId: P:SuperOffice.CRM.Security.Rights`2.Item(`0)
+  isExternal: true
+  name: Item[TKey]
+  nameWithType: Rights<TKey, TValue>.Item[TKey]
+  fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Item[TKey]
+  nameWithType.vb: Rights(Of TKey, TValue).Item(TKey)
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of TKey, TValue).Item(TKey)
+  name.vb: Item(TKey)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.Rights`2.Item(`0)
+    name: Item
+    nameWithType: Rights<TKey, TValue>.Item
+    fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.Rights`2.Item(`0)
+    name: Item
+    nameWithType: Rights(Of TKey, TValue).Item
+    fullName: SuperOffice.CRM.Security.Rights(Of TKey, TValue).Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.Rights`2.Count
+  commentId: P:SuperOffice.CRM.Security.Rights`2.Count
+  isExternal: true
+  name: Count
+  nameWithType: Rights<TKey, TValue>.Count
+  fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.Count
+  nameWithType.vb: Rights(Of TKey, TValue).Count
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of TKey, TValue).Count
+- uid: SuperOffice.CRM.Security.Rights`2.IsReadOnly
+  commentId: P:SuperOffice.CRM.Security.Rights`2.IsReadOnly
+  isExternal: true
+  name: IsReadOnly
+  nameWithType: Rights<TKey, TValue>.IsReadOnly
+  fullName: SuperOffice.CRM.Security.Rights<TKey, TValue>.IsReadOnly
+  nameWithType.vb: Rights(Of TKey, TValue).IsReadOnly
+  fullName.vb: SuperOffice.CRM.Security.Rights(Of TKey, TValue).IsReadOnly
+- uid: IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  commentId: M:IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  isExternal: true
+  name: ForEach<T>(IEnumerable<T>, Action<T>)
+  nameWithType: IEnumerableExtensions.ForEach<T>(IEnumerable<T>, Action<T>)
+  fullName: IEnumerableExtensions.ForEach<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T>)
+  nameWithType.vb: IEnumerableExtensions.ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+  fullName.vb: IEnumerableExtensions.ForEach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T))
+  name.vb: ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+    name: ForEach<T>
+    nameWithType: IEnumerableExtensions.ForEach<T>
+    fullName: IEnumerableExtensions.ForEach<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+    name: ForEach(Of T)
+    nameWithType: IEnumerableExtensions.ForEach(Of T)
+    fullName: IEnumerableExtensions.ForEach(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerableExtensions
+  commentId: T:IEnumerableExtensions
+  isExternal: true
+  name: IEnumerableExtensions
+  nameWithType: IEnumerableExtensions
+  fullName: IEnumerableExtensions
+- uid: IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
+  commentId: M:IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
+  isExternal: true
+  name: ContainsAny<T>(IEnumerable<T>, IEnumerable<T>)
+  nameWithType: IEnumerableExtensions.ContainsAny<T>(IEnumerable<T>, IEnumerable<T>)
+  fullName: IEnumerableExtensions.ContainsAny<T>(System.Collections.Generic.IEnumerable<T>, System.Collections.Generic.IEnumerable<T>)
+  nameWithType.vb: IEnumerableExtensions.ContainsAny(Of T)(IEnumerable(Of T), IEnumerable(Of T))
+  fullName.vb: IEnumerableExtensions.ContainsAny(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Collections.Generic.IEnumerable(Of T))
+  name.vb: ContainsAny(Of T)(IEnumerable(Of T), IEnumerable(Of T))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
+    name: ContainsAny<T>
+    nameWithType: IEnumerableExtensions.ContainsAny<T>
+    fullName: IEnumerableExtensions.ContainsAny<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
+    name: ContainsAny(Of T)
+    nameWithType: IEnumerableExtensions.ContainsAny(Of T)
+    fullName: IEnumerableExtensions.ContainsAny(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  commentId: M:IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  isExternal: true
+  name: Batch<T>(IEnumerable<T>, Int32)
+  nameWithType: IEnumerableExtensions.Batch<T>(IEnumerable<T>, Int32)
+  fullName: IEnumerableExtensions.Batch<T>(System.Collections.Generic.IEnumerable<T>, System.Int32)
+  nameWithType.vb: IEnumerableExtensions.Batch(Of T)(IEnumerable(Of T), Int32)
+  fullName.vb: IEnumerableExtensions.Batch(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Int32)
+  name.vb: Batch(Of T)(IEnumerable(Of T), Int32)
+  spec.csharp:
+  - uid: IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+    name: Batch<T>
+    nameWithType: IEnumerableExtensions.Batch<T>
+    fullName: IEnumerableExtensions.Batch<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+    name: Batch(Of T)
+    nameWithType: IEnumerableExtensions.Batch(Of T)
+    fullName: IEnumerableExtensions.Batch(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},``0,System.Int32)
+  commentId: M:IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},``0,System.Int32)
+  isExternal: true
+  name: IndexOf<T>(IEnumerable<T>, T, Int32)
+  nameWithType: IEnumerableExtensions.IndexOf<T>(IEnumerable<T>, T, Int32)
+  fullName: IEnumerableExtensions.IndexOf<T>(System.Collections.Generic.IEnumerable<T>, T, System.Int32)
+  nameWithType.vb: IEnumerableExtensions.IndexOf(Of T)(IEnumerable(Of T), T, Int32)
+  fullName.vb: IEnumerableExtensions.IndexOf(Of T)(System.Collections.Generic.IEnumerable(Of T), T, System.Int32)
+  name.vb: IndexOf(Of T)(IEnumerable(Of T), T, Int32)
+  spec.csharp:
+  - uid: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},``0,System.Int32)
+    name: IndexOf<T>
+    nameWithType: IEnumerableExtensions.IndexOf<T>
+    fullName: IEnumerableExtensions.IndexOf<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},``0,System.Int32)
+    name: IndexOf(Of T)
+    nameWithType: IEnumerableExtensions.IndexOf(Of T)
+    fullName: IEnumerableExtensions.IndexOf(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32)
+  commentId: M:IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32)
+  isExternal: true
+  name: IndexOf<T>(IEnumerable<T>, Func<T, Boolean>, Int32)
+  nameWithType: IEnumerableExtensions.IndexOf<T>(IEnumerable<T>, Func<T, Boolean>, Int32)
+  fullName: IEnumerableExtensions.IndexOf<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, System.Boolean>, System.Int32)
+  nameWithType.vb: IEnumerableExtensions.IndexOf(Of T)(IEnumerable(Of T), Func(Of T, Boolean), Int32)
+  fullName.vb: IEnumerableExtensions.IndexOf(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, System.Boolean), System.Int32)
+  name.vb: IndexOf(Of T)(IEnumerable(Of T), Func(Of T, Boolean), Int32)
+  spec.csharp:
+  - uid: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32)
+    name: IndexOf<T>
+    nameWithType: IEnumerableExtensions.IndexOf<T>
+    fullName: IEnumerableExtensions.IndexOf<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32)
+    name: IndexOf(Of T)
+    nameWithType: IEnumerableExtensions.IndexOf(Of T)
+    fullName: IEnumerableExtensions.IndexOf(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerableExtensions.Permute``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  commentId: M:IEnumerableExtensions.Permute``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  isExternal: true
+  name: Permute<T>(IEnumerable<T>, Int32)
+  nameWithType: IEnumerableExtensions.Permute<T>(IEnumerable<T>, Int32)
+  fullName: IEnumerableExtensions.Permute<T>(System.Collections.Generic.IEnumerable<T>, System.Int32)
+  nameWithType.vb: IEnumerableExtensions.Permute(Of T)(IEnumerable(Of T), Int32)
+  fullName.vb: IEnumerableExtensions.Permute(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Int32)
+  name.vb: Permute(Of T)(IEnumerable(Of T), Int32)
+  spec.csharp:
+  - uid: IEnumerableExtensions.Permute``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+    name: Permute<T>
+    nameWithType: IEnumerableExtensions.Permute<T>
+    fullName: IEnumerableExtensions.Permute<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.Permute``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+    name: Permute(Of T)
+    nameWithType: IEnumerableExtensions.Permute(Of T)
+    fullName: IEnumerableExtensions.Permute(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  commentId: M:IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  isExternal: true
+  name: PermissiveToDictionary<T, K, V>(IEnumerable<T>, Func<T, K>, Func<T, V>)
+  nameWithType: IEnumerableExtensions.PermissiveToDictionary<T, K, V>(IEnumerable<T>, Func<T, K>, Func<T, V>)
+  fullName: IEnumerableExtensions.PermissiveToDictionary<T, K, V>(System.Collections.Generic.IEnumerable<T>, System.Func<T, K>, System.Func<T, V>)
+  nameWithType.vb: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)(IEnumerable(Of T), Func(Of T, K), Func(Of T, V))
+  fullName.vb: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, K), System.Func(Of T, V))
+  name.vb: PermissiveToDictionary(Of T, K, V)(IEnumerable(Of T), Func(Of T, K), Func(Of T, V))
+  spec.csharp:
+  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+    name: PermissiveToDictionary<T, K, V>
+    nameWithType: IEnumerableExtensions.PermissiveToDictionary<T, K, V>
+    fullName: IEnumerableExtensions.PermissiveToDictionary<T, K, V>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+    name: PermissiveToDictionary(Of T, K, V)
+    nameWithType: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)
+    fullName: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  commentId: M:IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  isExternal: true
+  name: PermissiveToDictionary<T, K, V>(IEnumerable<T>, Func<T, K>, Func<T, V>, IEqualityComparer<K>)
+  nameWithType: IEnumerableExtensions.PermissiveToDictionary<T, K, V>(IEnumerable<T>, Func<T, K>, Func<T, V>, IEqualityComparer<K>)
+  fullName: IEnumerableExtensions.PermissiveToDictionary<T, K, V>(System.Collections.Generic.IEnumerable<T>, System.Func<T, K>, System.Func<T, V>, System.Collections.Generic.IEqualityComparer<K>)
+  nameWithType.vb: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)(IEnumerable(Of T), Func(Of T, K), Func(Of T, V), IEqualityComparer(Of K))
+  fullName.vb: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, K), System.Func(Of T, V), System.Collections.Generic.IEqualityComparer(Of K))
+  name.vb: PermissiveToDictionary(Of T, K, V)(IEnumerable(Of T), Func(Of T, K), Func(Of T, V), IEqualityComparer(Of K))
+  spec.csharp:
+  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: PermissiveToDictionary<T, K, V>
+    nameWithType: IEnumerableExtensions.PermissiveToDictionary<T, K, V>
+    fullName: IEnumerableExtensions.PermissiveToDictionary<T, K, V>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: PermissiveToDictionary(Of T, K, V)
+    nameWithType: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)
+    fullName: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
+  commentId: M:SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
+  isExternal: true
+  name: AtLeastOne<T>(IEnumerable<T>)
+  nameWithType: CollectionOps.AtLeastOne<T>(IEnumerable<T>)
+  fullName: SuperOffice.Util.CollectionOps.AtLeastOne<T>(System.Collections.Generic.IEnumerable<T>)
+  nameWithType.vb: CollectionOps.AtLeastOne(Of T)(IEnumerable(Of T))
+  fullName.vb: SuperOffice.Util.CollectionOps.AtLeastOne(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  name.vb: AtLeastOne(Of T)(IEnumerable(Of T))
+  spec.csharp:
+  - uid: SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
+    name: AtLeastOne<T>
+    nameWithType: CollectionOps.AtLeastOne<T>
+    fullName: SuperOffice.Util.CollectionOps.AtLeastOne<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
+    name: AtLeastOne(Of T)
+    nameWithType: CollectionOps.AtLeastOne(Of T)
+    fullName: SuperOffice.Util.CollectionOps.AtLeastOne(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.CollectionOps
+  commentId: T:SuperOffice.Util.CollectionOps
+  parent: SuperOffice.Util
+  isExternal: true
+  name: CollectionOps
+  nameWithType: CollectionOps
+  fullName: SuperOffice.Util.CollectionOps
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Security.FieldRights.GetIntKey*
+  commentId: Overload:SuperOffice.CRM.Security.FieldRights.GetIntKey
+  isExternal: true
+  name: GetIntKey
+  nameWithType: FieldRights.GetIntKey
+  fullName: SuperOffice.CRM.Security.FieldRights.GetIntKey
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.CRM.Security.FieldRights.#ctor*
+  commentId: Overload:SuperOffice.CRM.Security.FieldRights.#ctor
+  isExternal: true
+  name: FieldRights
+  nameWithType: FieldRights.FieldRights
+  fullName: SuperOffice.CRM.Security.FieldRights.FieldRights

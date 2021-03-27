@@ -1,0 +1,438 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.PluginUrlResponse
+  commentId: T:SuperOffice.CRM.Services.PluginUrlResponse
+  id: PluginUrlResponse
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.PluginUrlResponse.#ctor
+  - SuperOffice.CRM.Services.PluginUrlResponse.Changes
+  - SuperOffice.CRM.Services.PluginUrlResponse.ErrorCode
+  - SuperOffice.CRM.Services.PluginUrlResponse.IsOk
+  - SuperOffice.CRM.Services.PluginUrlResponse.TechExplanation
+  - SuperOffice.CRM.Services.PluginUrlResponse.ToString
+  - SuperOffice.CRM.Services.PluginUrlResponse.ToString(System.String)
+  - SuperOffice.CRM.Services.PluginUrlResponse.Url
+  - SuperOffice.CRM.Services.PluginUrlResponse.UserExplanation
+  langs:
+  - csharp
+  - vb
+  name: PluginUrlResponse
+  nameWithType: PluginUrlResponse
+  fullName: SuperOffice.CRM.Services.PluginUrlResponse
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPluginUrlResponse exists to be able to respond with more than just a true/false, but also an explanation. Such an explanation can be displayed on for instance a disabled “Place Order” button. In addition, an URL can be returned, which the GUI should navigate to/display if it is non-blank. The URL can be an SoProtocol or http(s)\n<p></p>\nCarrier object for PluginUrlResponse.\nServices for the PluginUrlResponse Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IQuoteAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class PluginUrlResponse : Carrier'
+    content.vb: >-
+      Public Class PluginUrlResponse
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.QuoteAgent
+    commentId: T:SuperOffice.CRM.Services.QuoteAgent
+  - linkId: SuperOffice.CRM.Services.IQuoteAgent
+    commentId: T:SuperOffice.CRM.Services.IQuoteAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.PluginUrlResponse.#ctor
+  commentId: M:SuperOffice.CRM.Services.PluginUrlResponse.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.PluginUrlResponse
+  langs:
+  - csharp
+  - vb
+  name: PluginUrlResponse()
+  nameWithType: PluginUrlResponse.PluginUrlResponse()
+  fullName: SuperOffice.CRM.Services.PluginUrlResponse.PluginUrlResponse()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public PluginUrlResponse()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.PluginUrlResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PluginUrlResponse.ToString
+  commentId: M:SuperOffice.CRM.Services.PluginUrlResponse.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.PluginUrlResponse
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: PluginUrlResponse.ToString()
+  fullName: SuperOffice.CRM.Services.PluginUrlResponse.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.PluginUrlResponse.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.PluginUrlResponse.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.PluginUrlResponse.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.PluginUrlResponse
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: PluginUrlResponse.ToString(String)
+  fullName: SuperOffice.CRM.Services.PluginUrlResponse.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.PluginUrlResponse.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PluginUrlResponse.IsOk
+  commentId: P:SuperOffice.CRM.Services.PluginUrlResponse.IsOk
+  id: IsOk
+  parent: SuperOffice.CRM.Services.PluginUrlResponse
+  langs:
+  - csharp
+  - vb
+  name: IsOk
+  nameWithType: PluginUrlResponse.IsOk
+  fullName: SuperOffice.CRM.Services.PluginUrlResponse.IsOk
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAnswer to the question / An indication if the operation went well. \n"
+  syntax:
+    content: public virtual bool IsOk { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsOk As Boolean
+  overload: SuperOffice.CRM.Services.PluginUrlResponse.IsOk*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PluginUrlResponse.UserExplanation
+  commentId: P:SuperOffice.CRM.Services.PluginUrlResponse.UserExplanation
+  id: UserExplanation
+  parent: SuperOffice.CRM.Services.PluginUrlResponse
+  langs:
+  - csharp
+  - vb
+  name: UserExplanation
+  nameWithType: PluginUrlResponse.UserExplanation
+  fullName: SuperOffice.CRM.Services.PluginUrlResponse.UserExplanation
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA localized explanation to the answer. \n"
+  syntax:
+    content: public virtual string UserExplanation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property UserExplanation As String
+  overload: SuperOffice.CRM.Services.PluginUrlResponse.UserExplanation*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PluginUrlResponse.TechExplanation
+  commentId: P:SuperOffice.CRM.Services.PluginUrlResponse.TechExplanation
+  id: TechExplanation
+  parent: SuperOffice.CRM.Services.PluginUrlResponse
+  langs:
+  - csharp
+  - vb
+  name: TechExplanation
+  nameWithType: PluginUrlResponse.TechExplanation
+  fullName: SuperOffice.CRM.Services.PluginUrlResponse.TechExplanation
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAlways in English \n"
+  syntax:
+    content: public virtual string TechExplanation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TechExplanation As String
+  overload: SuperOffice.CRM.Services.PluginUrlResponse.TechExplanation*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PluginUrlResponse.ErrorCode
+  commentId: P:SuperOffice.CRM.Services.PluginUrlResponse.ErrorCode
+  id: ErrorCode
+  parent: SuperOffice.CRM.Services.PluginUrlResponse
+  langs:
+  - csharp
+  - vb
+  name: ErrorCode
+  nameWithType: PluginUrlResponse.ErrorCode
+  fullName: SuperOffice.CRM.Services.PluginUrlResponse.ErrorCode
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAn error code, if available. \n"
+  syntax:
+    content: public virtual string ErrorCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ErrorCode As String
+  overload: SuperOffice.CRM.Services.PluginUrlResponse.ErrorCode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PluginUrlResponse.Changes
+  commentId: P:SuperOffice.CRM.Services.PluginUrlResponse.Changes
+  id: Changes
+  parent: SuperOffice.CRM.Services.PluginUrlResponse
+  langs:
+  - csharp
+  - vb
+  name: Changes
+  nameWithType: PluginUrlResponse.Changes
+  fullName: SuperOffice.CRM.Services.PluginUrlResponse.Changes
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTablename/recordid of data changed by this method, that the client may need to reload \n"
+  syntax:
+    content: public virtual ChangedData Changes { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.ChangedData
+    content.vb: Public Overridable Property Changes As ChangedData
+  overload: SuperOffice.CRM.Services.PluginUrlResponse.Changes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PluginUrlResponse.Url
+  commentId: P:SuperOffice.CRM.Services.PluginUrlResponse.Url
+  id: Url
+  parent: SuperOffice.CRM.Services.PluginUrlResponse
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: PluginUrlResponse.Url
+  fullName: SuperOffice.CRM.Services.PluginUrlResponse.Url
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUrl that the GUI should navigato to/open, if non-blank. The GUI cannot enforce any rules subsequent to opening the requested url. \n"
+  syntax:
+    content: public virtual string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Url As String
+  overload: SuperOffice.CRM.Services.PluginUrlResponse.Url*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.QuoteAgent
+  commentId: T:SuperOffice.CRM.Services.QuoteAgent
+  isExternal: true
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.CRM.Services.QuoteAgent
+- uid: SuperOffice.CRM.Services.IQuoteAgent
+  commentId: T:SuperOffice.CRM.Services.IQuoteAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IQuoteAgent
+  nameWithType: IQuoteAgent
+  fullName: SuperOffice.CRM.Services.IQuoteAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.PluginUrlResponse.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.PluginUrlResponse.#ctor
+  isExternal: true
+  name: PluginUrlResponse
+  nameWithType: PluginUrlResponse.PluginUrlResponse
+  fullName: SuperOffice.CRM.Services.PluginUrlResponse.PluginUrlResponse
+- uid: SuperOffice.CRM.Services.PluginUrlResponse.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.PluginUrlResponse.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: PluginUrlResponse.ToString
+  fullName: SuperOffice.CRM.Services.PluginUrlResponse.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.PluginUrlResponse.IsOk*
+  commentId: Overload:SuperOffice.CRM.Services.PluginUrlResponse.IsOk
+  isExternal: true
+  name: IsOk
+  nameWithType: PluginUrlResponse.IsOk
+  fullName: SuperOffice.CRM.Services.PluginUrlResponse.IsOk
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.PluginUrlResponse.UserExplanation*
+  commentId: Overload:SuperOffice.CRM.Services.PluginUrlResponse.UserExplanation
+  isExternal: true
+  name: UserExplanation
+  nameWithType: PluginUrlResponse.UserExplanation
+  fullName: SuperOffice.CRM.Services.PluginUrlResponse.UserExplanation
+- uid: SuperOffice.CRM.Services.PluginUrlResponse.TechExplanation*
+  commentId: Overload:SuperOffice.CRM.Services.PluginUrlResponse.TechExplanation
+  isExternal: true
+  name: TechExplanation
+  nameWithType: PluginUrlResponse.TechExplanation
+  fullName: SuperOffice.CRM.Services.PluginUrlResponse.TechExplanation
+- uid: SuperOffice.CRM.Services.PluginUrlResponse.ErrorCode*
+  commentId: Overload:SuperOffice.CRM.Services.PluginUrlResponse.ErrorCode
+  isExternal: true
+  name: ErrorCode
+  nameWithType: PluginUrlResponse.ErrorCode
+  fullName: SuperOffice.CRM.Services.PluginUrlResponse.ErrorCode
+- uid: SuperOffice.CRM.Services.PluginUrlResponse.Changes*
+  commentId: Overload:SuperOffice.CRM.Services.PluginUrlResponse.Changes
+  isExternal: true
+  name: Changes
+  nameWithType: PluginUrlResponse.Changes
+  fullName: SuperOffice.CRM.Services.PluginUrlResponse.Changes
+- uid: SuperOffice.CRM.Services.ChangedData
+  commentId: T:SuperOffice.CRM.Services.ChangedData
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ChangedData
+  nameWithType: ChangedData
+  fullName: SuperOffice.CRM.Services.ChangedData
+- uid: SuperOffice.CRM.Services.PluginUrlResponse.Url*
+  commentId: Overload:SuperOffice.CRM.Services.PluginUrlResponse.Url
+  isExternal: true
+  name: Url
+  nameWithType: PluginUrlResponse.Url
+  fullName: SuperOffice.CRM.Services.PluginUrlResponse.Url

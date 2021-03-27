@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Associate_LogOffWindowsUsersRequest
+  commentId: T:SuperOffice.WebApi.Data.Associate_LogOffWindowsUsersRequest
+  id: Associate_LogOffWindowsUsersRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Associate_LogOffWindowsUsersRequest.#ctor
+  - SuperOffice.WebApi.Data.Associate_LogOffWindowsUsersRequest.AssociateIds
+  langs:
+  - csharp
+  - vb
+  name: Associate_LogOffWindowsUsersRequest
+  nameWithType: Associate_LogOffWindowsUsersRequest
+  fullName: SuperOffice.WebApi.Data.Associate_LogOffWindowsUsersRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Associate_LogOffWindowsUsersRequest : Object'
+    content.vb: >-
+      Public Class Associate_LogOffWindowsUsersRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Associate_LogOffWindowsUsersRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Associate_LogOffWindowsUsersRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Associate_LogOffWindowsUsersRequest
+  langs:
+  - csharp
+  - vb
+  name: Associate_LogOffWindowsUsersRequest()
+  nameWithType: Associate_LogOffWindowsUsersRequest.Associate_LogOffWindowsUsersRequest()
+  fullName: SuperOffice.WebApi.Data.Associate_LogOffWindowsUsersRequest.Associate_LogOffWindowsUsersRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Associate_LogOffWindowsUsersRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Associate_LogOffWindowsUsersRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Associate_LogOffWindowsUsersRequest.AssociateIds
+  commentId: P:SuperOffice.WebApi.Data.Associate_LogOffWindowsUsersRequest.AssociateIds
+  id: AssociateIds
+  parent: SuperOffice.WebApi.Data.Associate_LogOffWindowsUsersRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateIds
+  nameWithType: Associate_LogOffWindowsUsersRequest.AssociateIds
+  fullName: SuperOffice.WebApi.Data.Associate_LogOffWindowsUsersRequest.AssociateIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] AssociateIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property AssociateIds As Integer()
+  overload: SuperOffice.WebApi.Data.Associate_LogOffWindowsUsersRequest.AssociateIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Associate_LogOffWindowsUsersRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Associate_LogOffWindowsUsersRequest.#ctor
+  isExternal: true
+  name: Associate_LogOffWindowsUsersRequest
+  nameWithType: Associate_LogOffWindowsUsersRequest.Associate_LogOffWindowsUsersRequest
+  fullName: SuperOffice.WebApi.Data.Associate_LogOffWindowsUsersRequest.Associate_LogOffWindowsUsersRequest
+- uid: SuperOffice.WebApi.Data.Associate_LogOffWindowsUsersRequest.AssociateIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Associate_LogOffWindowsUsersRequest.AssociateIds
+  isExternal: true
+  name: AssociateIds
+  nameWithType: Associate_LogOffWindowsUsersRequest.AssociateIds
+  fullName: SuperOffice.WebApi.Data.Associate_LogOffWindowsUsersRequest.AssociateIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

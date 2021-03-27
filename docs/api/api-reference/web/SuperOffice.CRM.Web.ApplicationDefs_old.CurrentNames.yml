@@ -1,0 +1,2985 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  commentId: T:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  id: ApplicationDefs_old.CurrentNames
+  parent: SuperOffice.CRM.Web
+  children:
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminAllowPageOnePerGroup
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminCredentialGroup
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminCredentialUser
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminErpConnection
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminErpField
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminExcessLicense
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminExcessMath
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminLabel
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminLabelsSearchBox
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminLicenseOwner
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminPageOneGroup
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminPreferenceSearchBox
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminProduct
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminProductImage
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminSaintImage
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminTargetLanguage
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminTimeZonesFilter
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminUserGroups
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Appointment
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Associate
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AssociateRole
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Contact
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Day
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Diary
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.DiaryOwner
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Document
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ExternalRole
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.GroupView
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.GuideAppointment
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.GuideCreatedOnly
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.GuideDocument
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.GuideMilestoneOnly
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.List
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ListItem
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailBcc
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailCc
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailDocumentItem
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailFolder
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailItem
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailSubject
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailTo
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MiniSelection
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Month
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Person
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.PreviewContact
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.PreviewPerson
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Product
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Project
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectGuideStage
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectMember
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectMoveToStage
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectShowAllStages
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectStatus
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectType
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectTypeStatusLink
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Quote
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteAlternative
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteConnection
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteDeliveryCountry
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteDocLanguage
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteEmailBodyTemplate
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteLine
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteLinesTemplate
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuotePaymentCountry
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteVersion
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Relation
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Report
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ReportCategory
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ReportLabelLayout
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Resource
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Sale
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleGuideStage
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleMoveToStage
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleShowAllStage
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleStage
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleStakeholder
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleStakeholderRole
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleType
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleTypeStageLink
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SelectedStakeholders
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Selection
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SelectionMiniCard
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ShowDeleted
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.StatusMonitor
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SuggestedAppointment
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SystemEvent
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.TemplateLanguage
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.TimeZone
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.UserDefinedFieldEntityType
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.UserPreference
+  - SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Week
+  langs:
+  - csharp
+  - vb
+  name: ApplicationDefs_old.CurrentNames
+  nameWithType: ApplicationDefs_old.CurrentNames
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public static class CurrentNames
+    content.vb: Public Module CurrentNames
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Contact
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Contact
+  id: Contact
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: ApplicationDefs_old.CurrentNames.Contact
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Contact
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string Contact = "contact"
+    return:
+      type: System.String
+    content.vb: Public Const Contact As String = "contact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Person
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Person
+  id: Person
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: ApplicationDefs_old.CurrentNames.Person
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Person
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string Person = "person"
+    return:
+      type: System.String
+    content.vb: Public Const Person As String = "person"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Diary
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Diary
+  id: Diary
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Diary
+  nameWithType: ApplicationDefs_old.CurrentNames.Diary
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Diary
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string Diary = "diary"
+    return:
+      type: System.String
+    content.vb: Public Const Diary As String = "diary"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.DiaryOwner
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.DiaryOwner
+  id: DiaryOwner
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: DiaryOwner
+  nameWithType: ApplicationDefs_old.CurrentNames.DiaryOwner
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.DiaryOwner
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string DiaryOwner = "diaryowner"
+    return:
+      type: System.String
+    content.vb: Public Const DiaryOwner As String = "diaryowner"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Project
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Project
+  id: Project
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: ApplicationDefs_old.CurrentNames.Project
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Project
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string Project = "project"
+    return:
+      type: System.String
+    content.vb: Public Const Project As String = "project"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectMember
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectMember
+  id: ProjectMember
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ProjectMember
+  nameWithType: ApplicationDefs_old.CurrentNames.ProjectMember
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectMember
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string ProjectMember = "projectmember"
+    return:
+      type: System.String
+    content.vb: Public Const ProjectMember As String = "projectmember"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Selection
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Selection
+  id: Selection
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Selection
+  nameWithType: ApplicationDefs_old.CurrentNames.Selection
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Selection
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string Selection = "selection"
+    return:
+      type: System.String
+    content.vb: Public Const Selection As String = "selection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MiniSelection
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MiniSelection
+  id: MiniSelection
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: MiniSelection
+  nameWithType: ApplicationDefs_old.CurrentNames.MiniSelection
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MiniSelection
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string MiniSelection = "miniselection"
+    return:
+      type: System.String
+    content.vb: Public Const MiniSelection As String = "miniselection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SelectionMiniCard
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SelectionMiniCard
+  id: SelectionMiniCard
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: SelectionMiniCard
+  nameWithType: ApplicationDefs_old.CurrentNames.SelectionMiniCard
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SelectionMiniCard
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string SelectionMiniCard = "selectionminicard"
+    return:
+      type: System.String
+    content.vb: Public Const SelectionMiniCard As String = "selectionminicard"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Appointment
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Appointment
+  id: Appointment
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Appointment
+  nameWithType: ApplicationDefs_old.CurrentNames.Appointment
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Appointment
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string Appointment = "appointment"
+    return:
+      type: System.String
+    content.vb: Public Const Appointment As String = "appointment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Sale
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Sale
+  id: Sale
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Sale
+  nameWithType: ApplicationDefs_old.CurrentNames.Sale
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Sale
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string Sale = "sale"
+    return:
+      type: System.String
+    content.vb: Public Const Sale As String = "sale"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Document
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Document
+  id: Document
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Document
+  nameWithType: ApplicationDefs_old.CurrentNames.Document
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Document
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string Document = "document"
+    return:
+      type: System.String
+    content.vb: Public Const Document As String = "document"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Relation
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Relation
+  id: Relation
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Relation
+  nameWithType: ApplicationDefs_old.CurrentNames.Relation
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Relation
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string Relation = "relation"
+    return:
+      type: System.String
+    content.vb: Public Const Relation As String = "relation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Resource
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Resource
+  id: Resource
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Resource
+  nameWithType: ApplicationDefs_old.CurrentNames.Resource
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Resource
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string Resource = "resource"
+    return:
+      type: System.String
+    content.vb: Public Const Resource As String = "resource"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Associate
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Associate
+  id: Associate
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: ApplicationDefs_old.CurrentNames.Associate
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Associate
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string Associate = "associate"
+    return:
+      type: System.String
+    content.vb: Public Const Associate As String = "associate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.PreviewPerson
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.PreviewPerson
+  id: PreviewPerson
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: PreviewPerson
+  nameWithType: ApplicationDefs_old.CurrentNames.PreviewPerson
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.PreviewPerson
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string PreviewPerson = "previewperson"
+    return:
+      type: System.String
+    content.vb: Public Const PreviewPerson As String = "previewperson"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.PreviewContact
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.PreviewContact
+  id: PreviewContact
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: PreviewContact
+  nameWithType: ApplicationDefs_old.CurrentNames.PreviewContact
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.PreviewContact
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string PreviewContact = "previewcontact"
+    return:
+      type: System.String
+    content.vb: Public Const PreviewContact As String = "previewcontact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailItem
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailItem
+  id: MailItem
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: MailItem
+  nameWithType: ApplicationDefs_old.CurrentNames.MailItem
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailItem
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string MailItem = "mailitem"
+    return:
+      type: System.String
+    content.vb: Public Const MailItem As String = "mailitem"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailFolder
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailFolder
+  id: MailFolder
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: MailFolder
+  nameWithType: ApplicationDefs_old.CurrentNames.MailFolder
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailFolder
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string MailFolder = "mailfolder"
+    return:
+      type: System.String
+    content.vb: Public Const MailFolder As String = "mailfolder"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailDocumentItem
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailDocumentItem
+  id: MailDocumentItem
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: MailDocumentItem
+  nameWithType: ApplicationDefs_old.CurrentNames.MailDocumentItem
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailDocumentItem
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string MailDocumentItem = "maildocument"
+    return:
+      type: System.String
+    content.vb: Public Const MailDocumentItem As String = "maildocument"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Day
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Day
+  id: Day
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Day
+  nameWithType: ApplicationDefs_old.CurrentNames.Day
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Day
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string Day = "day"
+    return:
+      type: System.String
+    content.vb: Public Const Day As String = "day"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Week
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Week
+  id: Week
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Week
+  nameWithType: ApplicationDefs_old.CurrentNames.Week
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Week
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string Week = "week"
+    return:
+      type: System.String
+    content.vb: Public Const Week As String = "week"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Month
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Month
+  id: Month
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Month
+  nameWithType: ApplicationDefs_old.CurrentNames.Month
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Month
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string Month = "month"
+    return:
+      type: System.String
+    content.vb: Public Const Month As String = "month"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.GroupView
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.GroupView
+  id: GroupView
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: GroupView
+  nameWithType: ApplicationDefs_old.CurrentNames.GroupView
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.GroupView
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string GroupView = "groupview"
+    return:
+      type: System.String
+    content.vb: Public Const GroupView As String = "groupview"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.StatusMonitor
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.StatusMonitor
+  id: StatusMonitor
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: StatusMonitor
+  nameWithType: ApplicationDefs_old.CurrentNames.StatusMonitor
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.StatusMonitor
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string StatusMonitor = "statusmonitor"
+    return:
+      type: System.String
+    content.vb: Public Const StatusMonitor As String = "statusmonitor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Report
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Report
+  id: Report
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Report
+  nameWithType: ApplicationDefs_old.CurrentNames.Report
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Report
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string Report = "report"
+    return:
+      type: System.String
+    content.vb: Public Const Report As String = "report"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ReportCategory
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ReportCategory
+  id: ReportCategory
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ReportCategory
+  nameWithType: ApplicationDefs_old.CurrentNames.ReportCategory
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ReportCategory
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string ReportCategory = "reportcategory"
+    return:
+      type: System.String
+    content.vb: Public Const ReportCategory As String = "reportcategory"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ReportLabelLayout
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ReportLabelLayout
+  id: ReportLabelLayout
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ReportLabelLayout
+  nameWithType: ApplicationDefs_old.CurrentNames.ReportLabelLayout
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ReportLabelLayout
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string ReportLabelLayout = "reportlabellayout"
+    return:
+      type: System.String
+    content.vb: Public Const ReportLabelLayout As String = "reportlabellayout"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.TimeZone
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.TimeZone
+  id: TimeZone
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: TimeZone
+  nameWithType: ApplicationDefs_old.CurrentNames.TimeZone
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.TimeZone
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string TimeZone = "tzlocation"
+    return:
+      type: System.String
+    content.vb: Public Const TimeZone As String = "tzlocation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleGuideStage
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleGuideStage
+  id: SaleGuideStage
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: SaleGuideStage
+  nameWithType: ApplicationDefs_old.CurrentNames.SaleGuideStage
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleGuideStage
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string SaleGuideStage = "saleguidestage"
+    return:
+      type: System.String
+    content.vb: Public Const SaleGuideStage As String = "saleguidestage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleShowAllStage
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleShowAllStage
+  id: SaleShowAllStage
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: SaleShowAllStage
+  nameWithType: ApplicationDefs_old.CurrentNames.SaleShowAllStage
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleShowAllStage
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string SaleShowAllStage = "saleshowallstages"
+    return:
+      type: System.String
+    content.vb: Public Const SaleShowAllStage As String = "saleshowallstages"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleMoveToStage
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleMoveToStage
+  id: SaleMoveToStage
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: SaleMoveToStage
+  nameWithType: ApplicationDefs_old.CurrentNames.SaleMoveToStage
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleMoveToStage
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string SaleMoveToStage = "salemovetostage"
+    return:
+      type: System.String
+    content.vb: Public Const SaleMoveToStage As String = "salemovetostage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleStakeholder
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleStakeholder
+  id: SaleStakeholder
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: SaleStakeholder
+  nameWithType: ApplicationDefs_old.CurrentNames.SaleStakeholder
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleStakeholder
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string SaleStakeholder = "salestakeholder"
+    return:
+      type: System.String
+    content.vb: Public Const SaleStakeholder As String = "salestakeholder"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.UserPreference
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.UserPreference
+  id: UserPreference
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: UserPreference
+  nameWithType: ApplicationDefs_old.CurrentNames.UserPreference
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.UserPreference
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string UserPreference = "adminuserpreference"
+    return:
+      type: System.String
+    content.vb: Public Const UserPreference As String = "adminuserpreference"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SystemEvent
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SystemEvent
+  id: SystemEvent
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: SystemEvent
+  nameWithType: ApplicationDefs_old.CurrentNames.SystemEvent
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SystemEvent
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string SystemEvent = "adminsystemevent"
+    return:
+      type: System.String
+    content.vb: Public Const SystemEvent As String = "adminsystemevent"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailTo
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailTo
+  id: MailTo
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: MailTo
+  nameWithType: ApplicationDefs_old.CurrentNames.MailTo
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailTo
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string MailTo = "mailto"
+    return:
+      type: System.String
+    content.vb: Public Const MailTo As String = "mailto"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailCc
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailCc
+  id: MailCc
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: MailCc
+  nameWithType: ApplicationDefs_old.CurrentNames.MailCc
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailCc
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string MailCc = "mailcc"
+    return:
+      type: System.String
+    content.vb: Public Const MailCc As String = "mailcc"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailBcc
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailBcc
+  id: MailBcc
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: MailBcc
+  nameWithType: ApplicationDefs_old.CurrentNames.MailBcc
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailBcc
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string MailBcc = "mailbcc"
+    return:
+      type: System.String
+    content.vb: Public Const MailBcc As String = "mailbcc"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailSubject
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailSubject
+  id: MailSubject
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: MailSubject
+  nameWithType: ApplicationDefs_old.CurrentNames.MailSubject
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.MailSubject
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string MailSubject = "mailsubject"
+    return:
+      type: System.String
+    content.vb: Public Const MailSubject As String = "mailsubject"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleStakeholderRole
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleStakeholderRole
+  id: SaleStakeholderRole
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: SaleStakeholderRole
+  nameWithType: ApplicationDefs_old.CurrentNames.SaleStakeholderRole
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleStakeholderRole
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string SaleStakeholderRole = "salestakeholderrole"
+    return:
+      type: System.String
+    content.vb: Public Const SaleStakeholderRole As String = "salestakeholderrole"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SelectedStakeholders
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SelectedStakeholders
+  id: SelectedStakeholders
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: SelectedStakeholders
+  nameWithType: ApplicationDefs_old.CurrentNames.SelectedStakeholders
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SelectedStakeholders
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string SelectedStakeholders = "selectedstakeholders"
+    return:
+      type: System.String
+    content.vb: Public Const SelectedStakeholders As String = "selectedstakeholders"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SuggestedAppointment
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SuggestedAppointment
+  id: SuggestedAppointment
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: SuggestedAppointment
+  nameWithType: ApplicationDefs_old.CurrentNames.SuggestedAppointment
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SuggestedAppointment
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string SuggestedAppointment = "suggestedappointment"
+    return:
+      type: System.String
+    content.vb: Public Const SuggestedAppointment As String = "suggestedappointment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectGuideStage
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectGuideStage
+  id: ProjectGuideStage
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ProjectGuideStage
+  nameWithType: ApplicationDefs_old.CurrentNames.ProjectGuideStage
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectGuideStage
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string ProjectGuideStage = "projectguidestage"
+    return:
+      type: System.String
+    content.vb: Public Const ProjectGuideStage As String = "projectguidestage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectShowAllStages
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectShowAllStages
+  id: ProjectShowAllStages
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ProjectShowAllStages
+  nameWithType: ApplicationDefs_old.CurrentNames.ProjectShowAllStages
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectShowAllStages
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string ProjectShowAllStages = "projectshowallstages"
+    return:
+      type: System.String
+    content.vb: Public Const ProjectShowAllStages As String = "projectshowallstages"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.GuideDocument
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.GuideDocument
+  id: GuideDocument
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: GuideDocument
+  nameWithType: ApplicationDefs_old.CurrentNames.GuideDocument
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.GuideDocument
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string GuideDocument = "guidedocument"
+    return:
+      type: System.String
+    content.vb: Public Const GuideDocument As String = "guidedocument"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.GuideAppointment
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.GuideAppointment
+  id: GuideAppointment
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: GuideAppointment
+  nameWithType: ApplicationDefs_old.CurrentNames.GuideAppointment
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.GuideAppointment
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string GuideAppointment = "guideappointment"
+    return:
+      type: System.String
+    content.vb: Public Const GuideAppointment As String = "guideappointment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.GuideMilestoneOnly
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.GuideMilestoneOnly
+  id: GuideMilestoneOnly
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: GuideMilestoneOnly
+  nameWithType: ApplicationDefs_old.CurrentNames.GuideMilestoneOnly
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.GuideMilestoneOnly
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string GuideMilestoneOnly = "guidemilestoneonly"
+    return:
+      type: System.String
+    content.vb: Public Const GuideMilestoneOnly As String = "guidemilestoneonly"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.GuideCreatedOnly
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.GuideCreatedOnly
+  id: GuideCreatedOnly
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: GuideCreatedOnly
+  nameWithType: ApplicationDefs_old.CurrentNames.GuideCreatedOnly
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.GuideCreatedOnly
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string GuideCreatedOnly = "guidecreatedonly"
+    return:
+      type: System.String
+    content.vb: Public Const GuideCreatedOnly As String = "guidecreatedonly"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectMoveToStage
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectMoveToStage
+  id: ProjectMoveToStage
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ProjectMoveToStage
+  nameWithType: ApplicationDefs_old.CurrentNames.ProjectMoveToStage
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectMoveToStage
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string ProjectMoveToStage = "projectmovetostage"
+    return:
+      type: System.String
+    content.vb: Public Const ProjectMoveToStage As String = "projectmovetostage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AssociateRole
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AssociateRole
+  id: AssociateRole
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AssociateRole
+  nameWithType: ApplicationDefs_old.CurrentNames.AssociateRole
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AssociateRole
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string AssociateRole = "adminassociaterole"
+    return:
+      type: System.String
+    content.vb: Public Const AssociateRole As String = "adminassociaterole"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ExternalRole
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ExternalRole
+  id: ExternalRole
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ExternalRole
+  nameWithType: ApplicationDefs_old.CurrentNames.ExternalRole
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ExternalRole
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string ExternalRole = "adminexternalrole"
+    return:
+      type: System.String
+    content.vb: Public Const ExternalRole As String = "adminexternalrole"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.List
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.List
+  id: List
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: List
+  nameWithType: ApplicationDefs_old.CurrentNames.List
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.List
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string List = "adminlist"
+    return:
+      type: System.String
+    content.vb: Public Const List As String = "adminlist"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ListItem
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ListItem
+  id: ListItem
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ListItem
+  nameWithType: ApplicationDefs_old.CurrentNames.ListItem
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ListItem
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string ListItem = "adminlistitem"
+    return:
+      type: System.String
+    content.vb: Public Const ListItem As String = "adminlistitem"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.TemplateLanguage
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.TemplateLanguage
+  id: TemplateLanguage
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: TemplateLanguage
+  nameWithType: ApplicationDefs_old.CurrentNames.TemplateLanguage
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.TemplateLanguage
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string TemplateLanguage = "admintemplatelanguage"
+    return:
+      type: System.String
+    content.vb: Public Const TemplateLanguage As String = "admintemplatelanguage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleType
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleType
+  id: SaleType
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: SaleType
+  nameWithType: ApplicationDefs_old.CurrentNames.SaleType
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleType
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string SaleType = "adminsaletype"
+    return:
+      type: System.String
+    content.vb: Public Const SaleType As String = "adminsaletype"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleStage
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleStage
+  id: SaleStage
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: SaleStage
+  nameWithType: ApplicationDefs_old.CurrentNames.SaleStage
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleStage
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string SaleStage = "adminsalestage"
+    return:
+      type: System.String
+    content.vb: Public Const SaleStage As String = "adminsalestage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleTypeStageLink
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleTypeStageLink
+  id: SaleTypeStageLink
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeStageLink
+  nameWithType: ApplicationDefs_old.CurrentNames.SaleTypeStageLink
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.SaleTypeStageLink
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string SaleTypeStageLink = "adminsaletypestagelink"
+    return:
+      type: System.String
+    content.vb: Public Const SaleTypeStageLink As String = "adminsaletypestagelink"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ShowDeleted
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ShowDeleted
+  id: ShowDeleted
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ShowDeleted
+  nameWithType: ApplicationDefs_old.CurrentNames.ShowDeleted
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ShowDeleted
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string ShowDeleted = "adminshowdeleted"
+    return:
+      type: System.String
+    content.vb: Public Const ShowDeleted As String = "adminshowdeleted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectType
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectType
+  id: ProjectType
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ProjectType
+  nameWithType: ApplicationDefs_old.CurrentNames.ProjectType
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectType
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string ProjectType = "adminprojecttype"
+    return:
+      type: System.String
+    content.vb: Public Const ProjectType As String = "adminprojecttype"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectStatus
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectStatus
+  id: ProjectStatus
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ProjectStatus
+  nameWithType: ApplicationDefs_old.CurrentNames.ProjectStatus
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectStatus
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string ProjectStatus = "adminprojectstatus"
+    return:
+      type: System.String
+    content.vb: Public Const ProjectStatus As String = "adminprojectstatus"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectTypeStatusLink
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectTypeStatusLink
+  id: ProjectTypeStatusLink
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ProjectTypeStatusLink
+  nameWithType: ApplicationDefs_old.CurrentNames.ProjectTypeStatusLink
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.ProjectTypeStatusLink
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string ProjectTypeStatusLink = "adminprojecttypestatuslink"
+    return:
+      type: System.String
+    content.vb: Public Const ProjectTypeStatusLink As String = "adminprojecttypestatuslink"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminPageOneGroup
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminPageOneGroup
+  id: AdminPageOneGroup
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminPageOneGroup
+  nameWithType: ApplicationDefs_old.CurrentNames.AdminPageOneGroup
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminPageOneGroup
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string AdminPageOneGroup = "adminpageonegroup"
+    return:
+      type: System.String
+    content.vb: Public Const AdminPageOneGroup As String = "adminpageonegroup"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminAllowPageOnePerGroup
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminAllowPageOnePerGroup
+  id: AdminAllowPageOnePerGroup
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminAllowPageOnePerGroup
+  nameWithType: ApplicationDefs_old.CurrentNames.AdminAllowPageOnePerGroup
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminAllowPageOnePerGroup
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string AdminAllowPageOnePerGroup = "adminallowpageonepergroup"
+    return:
+      type: System.String
+    content.vb: Public Const AdminAllowPageOnePerGroup As String = "adminallowpageonepergroup"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.UserDefinedFieldEntityType
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.UserDefinedFieldEntityType
+  id: UserDefinedFieldEntityType
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldEntityType
+  nameWithType: ApplicationDefs_old.CurrentNames.UserDefinedFieldEntityType
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.UserDefinedFieldEntityType
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string UserDefinedFieldEntityType = "adminuserdefinedfieldentitytype"
+    return:
+      type: System.String
+    content.vb: Public Const UserDefinedFieldEntityType As String = "adminuserdefinedfieldentitytype"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminSaintImage
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminSaintImage
+  id: AdminSaintImage
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminSaintImage
+  nameWithType: ApplicationDefs_old.CurrentNames.AdminSaintImage
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminSaintImage
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string AdminSaintImage = "adminsaintimage"
+    return:
+      type: System.String
+    content.vb: Public Const AdminSaintImage As String = "adminsaintimage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminExcessLicense
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminExcessLicense
+  id: AdminExcessLicense
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminExcessLicense
+  nameWithType: ApplicationDefs_old.CurrentNames.AdminExcessLicense
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminExcessLicense
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string AdminExcessLicense = "adminexcesslicense"
+    return:
+      type: System.String
+    content.vb: Public Const AdminExcessLicense As String = "adminexcesslicense"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminExcessMath
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminExcessMath
+  id: AdminExcessMath
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminExcessMath
+  nameWithType: ApplicationDefs_old.CurrentNames.AdminExcessMath
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminExcessMath
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string AdminExcessMath = "adminexcessmath"
+    return:
+      type: System.String
+    content.vb: Public Const AdminExcessMath As String = "adminexcessmath"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminLicenseOwner
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminLicenseOwner
+  id: AdminLicenseOwner
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminLicenseOwner
+  nameWithType: ApplicationDefs_old.CurrentNames.AdminLicenseOwner
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminLicenseOwner
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string AdminLicenseOwner = "adminlicenseowner"
+    return:
+      type: System.String
+    content.vb: Public Const AdminLicenseOwner As String = "adminlicenseowner"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminPreferenceSearchBox
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminPreferenceSearchBox
+  id: AdminPreferenceSearchBox
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminPreferenceSearchBox
+  nameWithType: ApplicationDefs_old.CurrentNames.AdminPreferenceSearchBox
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminPreferenceSearchBox
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string AdminPreferenceSearchBox = "adminpreferencesearchbox"
+    return:
+      type: System.String
+    content.vb: Public Const AdminPreferenceSearchBox As String = "adminpreferencesearchbox"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminTargetLanguage
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminTargetLanguage
+  id: AdminTargetLanguage
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminTargetLanguage
+  nameWithType: ApplicationDefs_old.CurrentNames.AdminTargetLanguage
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminTargetLanguage
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string AdminTargetLanguage = "admintargetlanguage"
+    return:
+      type: System.String
+    content.vb: Public Const AdminTargetLanguage As String = "admintargetlanguage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminLabelsSearchBox
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminLabelsSearchBox
+  id: AdminLabelsSearchBox
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminLabelsSearchBox
+  nameWithType: ApplicationDefs_old.CurrentNames.AdminLabelsSearchBox
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminLabelsSearchBox
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string AdminLabelsSearchBox = "adminlabelssearchbox"
+    return:
+      type: System.String
+    content.vb: Public Const AdminLabelsSearchBox As String = "adminlabelssearchbox"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminLabel
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminLabel
+  id: AdminLabel
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminLabel
+  nameWithType: ApplicationDefs_old.CurrentNames.AdminLabel
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminLabel
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string AdminLabel = "adminlabel"
+    return:
+      type: System.String
+    content.vb: Public Const AdminLabel As String = "adminlabel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminUserGroups
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminUserGroups
+  id: AdminUserGroups
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminUserGroups
+  nameWithType: ApplicationDefs_old.CurrentNames.AdminUserGroups
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminUserGroups
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string AdminUserGroups = "adminusergroups"
+    return:
+      type: System.String
+    content.vb: Public Const AdminUserGroups As String = "adminusergroups"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminTimeZonesFilter
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminTimeZonesFilter
+  id: AdminTimeZonesFilter
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminTimeZonesFilter
+  nameWithType: ApplicationDefs_old.CurrentNames.AdminTimeZonesFilter
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminTimeZonesFilter
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string AdminTimeZonesFilter = "admintimezonesfilter"
+    return:
+      type: System.String
+    content.vb: Public Const AdminTimeZonesFilter As String = "admintimezonesfilter"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminErpConnection
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminErpConnection
+  id: AdminErpConnection
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminErpConnection
+  nameWithType: ApplicationDefs_old.CurrentNames.AdminErpConnection
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminErpConnection
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string AdminErpConnection = "adminerpconnection"
+    return:
+      type: System.String
+    content.vb: Public Const AdminErpConnection As String = "adminerpconnection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminErpField
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminErpField
+  id: AdminErpField
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminErpField
+  nameWithType: ApplicationDefs_old.CurrentNames.AdminErpField
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminErpField
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string AdminErpField = "adminerpfield"
+    return:
+      type: System.String
+    content.vb: Public Const AdminErpField As String = "adminerpfield"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteDocLanguage
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteDocLanguage
+  id: QuoteDocLanguage
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: QuoteDocLanguage
+  nameWithType: ApplicationDefs_old.CurrentNames.QuoteDocLanguage
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteDocLanguage
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string QuoteDocLanguage = "quotedoclanguage"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteDocLanguage As String = "quotedoclanguage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteEmailBodyTemplate
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteEmailBodyTemplate
+  id: QuoteEmailBodyTemplate
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: QuoteEmailBodyTemplate
+  nameWithType: ApplicationDefs_old.CurrentNames.QuoteEmailBodyTemplate
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteEmailBodyTemplate
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string QuoteEmailBodyTemplate = "quoteemailbodytemplate"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteEmailBodyTemplate As String = "quoteemailbodytemplate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteLinesTemplate
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteLinesTemplate
+  id: QuoteLinesTemplate
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: QuoteLinesTemplate
+  nameWithType: ApplicationDefs_old.CurrentNames.QuoteLinesTemplate
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteLinesTemplate
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string QuoteLinesTemplate = "quotelinestemplate"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteLinesTemplate As String = "quotelinestemplate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteConnection
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteConnection
+  id: QuoteConnection
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: QuoteConnection
+  nameWithType: ApplicationDefs_old.CurrentNames.QuoteConnection
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteConnection
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string QuoteConnection = "quoteconnection"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteConnection As String = "quoteconnection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteLine
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteLine
+  id: QuoteLine
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: QuoteLine
+  nameWithType: ApplicationDefs_old.CurrentNames.QuoteLine
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteLine
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string QuoteLine = "quoteline"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteLine As String = "quoteline"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteAlternative
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteAlternative
+  id: QuoteAlternative
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: QuoteAlternative
+  nameWithType: ApplicationDefs_old.CurrentNames.QuoteAlternative
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteAlternative
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string QuoteAlternative = "quotealternative"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteAlternative As String = "quotealternative"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteVersion
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteVersion
+  id: QuoteVersion
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersion
+  nameWithType: ApplicationDefs_old.CurrentNames.QuoteVersion
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteVersion
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string QuoteVersion = "quoteversion"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteVersion As String = "quoteversion"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Quote
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Quote
+  id: Quote
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Quote
+  nameWithType: ApplicationDefs_old.CurrentNames.Quote
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Quote
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string Quote = "quote"
+    return:
+      type: System.String
+    content.vb: Public Const Quote As String = "quote"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteDeliveryCountry
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteDeliveryCountry
+  id: QuoteDeliveryCountry
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: QuoteDeliveryCountry
+  nameWithType: ApplicationDefs_old.CurrentNames.QuoteDeliveryCountry
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuoteDeliveryCountry
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string QuoteDeliveryCountry = "quotedeliverycountry"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteDeliveryCountry As String = "quotedeliverycountry"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuotePaymentCountry
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuotePaymentCountry
+  id: QuotePaymentCountry
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: QuotePaymentCountry
+  nameWithType: ApplicationDefs_old.CurrentNames.QuotePaymentCountry
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.QuotePaymentCountry
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string QuotePaymentCountry = "quotepaymentcountry"
+    return:
+      type: System.String
+    content.vb: Public Const QuotePaymentCountry As String = "quotepaymentcountry"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Product
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Product
+  id: Product
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Product
+  nameWithType: ApplicationDefs_old.CurrentNames.Product
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.Product
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string Product = "product"
+    return:
+      type: System.String
+    content.vb: Public Const Product As String = "product"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminProduct
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminProduct
+  id: AdminProduct
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminProduct
+  nameWithType: ApplicationDefs_old.CurrentNames.AdminProduct
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminProduct
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string AdminProduct = "adminproduct"
+    return:
+      type: System.String
+    content.vb: Public Const AdminProduct As String = "adminproduct"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminProductImage
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminProductImage
+  id: AdminProductImage
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminProductImage
+  nameWithType: ApplicationDefs_old.CurrentNames.AdminProductImage
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminProductImage
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string AdminProductImage = "adminproductimage"
+    return:
+      type: System.String
+    content.vb: Public Const AdminProductImage As String = "adminproductimage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminCredentialGroup
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminCredentialGroup
+  id: AdminCredentialGroup
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminCredentialGroup
+  nameWithType: ApplicationDefs_old.CurrentNames.AdminCredentialGroup
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminCredentialGroup
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string AdminCredentialGroup = "admincredentialgroup"
+    return:
+      type: System.String
+    content.vb: Public Const AdminCredentialGroup As String = "admincredentialgroup"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminCredentialUser
+  commentId: F:SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminCredentialUser
+  id: AdminCredentialUser
+  parent: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminCredentialUser
+  nameWithType: ApplicationDefs_old.CurrentNames.AdminCredentialUser
+  fullName: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames.AdminCredentialUser
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web
+  syntax:
+    content: public const string AdminCredentialUser = "admincredentialuser"
+    return:
+      type: System.String
+    content.vb: Public Const AdminCredentialUser As String = "admincredentialuser"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web
+  commentId: N:SuperOffice.CRM.Web
+  isExternal: true
+  name: SuperOffice.CRM.Web
+  nameWithType: SuperOffice.CRM.Web
+  fullName: SuperOffice.CRM.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

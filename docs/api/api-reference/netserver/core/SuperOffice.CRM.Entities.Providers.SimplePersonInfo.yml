@@ -1,0 +1,4123 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  commentId: T:SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  id: SimplePersonInfo
+  parent: SuperOffice.CRM.Entities.Providers
+  children:
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.#ctor
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.AssociateId
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Chat
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ChatId
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ChatProtocol
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ContactId
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Country
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Country2
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.CountryCode
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.CountryId
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.DateOfBirth
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Department
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.EMail
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.EMailId
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Fax
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.FaxId
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.FaxStripped
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.FirstName
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetInternationalAddress(System.Int32)
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedDecimal(System.Int32)
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedDecimal(System.String)
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedInt(System.Int32)
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedInt(System.String)
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedString(System.Int32)
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedString(System.String)
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.LastName
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.LineFeedGermany
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MiddleName
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MiddleName2
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MobilePhone
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MobilePhoneId
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MrMrs
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Nomailing
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.OfficePhone
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.OfficePhoneId
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Pager
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PagerId
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PersonId
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PersonNumber
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Position
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressCity
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressCityFull
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressCounty
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine1
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine1Extended
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine2
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine3
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressState
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressStateAmericaCanadaAustralia
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressZip
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PreferredLanguageId
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PreferredLanguageName
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PrivatePhone
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PrivatePhoneId
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Retired
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Salutation
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ServiceContactId
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ServiceContactName
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ServicePriority
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Title
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UdefDecimal
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UdefInt
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UdefString
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Url
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UrlId
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UsePersonAddress
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Voip
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.VoipId
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.VoipService
+  langs:
+  - csharp
+  - vb
+  name: SimplePersonInfo
+  nameWithType: SimplePersonInfo
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  summary: "\nPlain-old-data implementation of <xref href=\"SuperOffice.CRM.IPersonInfo\" data-throw-if-not-resolved=\"false\"></xref>, intended for situations\nwhere the client knows everything and does not want the database to be involved\n(for instance, when running on unsaved data)\n"
+  syntax:
+    content: 'public class SimplePersonInfo : IPersonInfo2, IPersonInfo'
+    content.vb: >-
+      Public Class SimplePersonInfo
+          Implements IPersonInfo2, IPersonInfo
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.IPersonInfo2
+  - SuperOffice.CRM.IPersonInfo
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.Providers.SimplePersonInfo)
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Entities.Providers.SimplePersonInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetInternationalAddress(System.Int32)
+  commentId: M:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetInternationalAddress(System.Int32)
+  id: GetInternationalAddress(System.Int32)
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: GetInternationalAddress(Int32)
+  nameWithType: SimplePersonInfo.GetInternationalAddress(Int32)
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetInternationalAddress(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: >-
+      [Obsolete("FAD international addresses are handled through a separate system, see FadTags.cs", true)]
+
+      public string GetInternationalAddress(int lineNo)
+    parameters:
+    - id: lineNo
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: >-
+      <Obsolete("FAD international addresses are handled through a separate system, see FadTags.cs", True)>
+
+      Public Function GetInternationalAddress(lineNo As Integer) As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetInternationalAddress*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.GetInternationalAddress(System.Int32)
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: FAD international addresses are handled through a separate system, see FadTags.cs
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedDecimal(System.String)
+  commentId: M:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedDecimal(System.String)
+  id: GetUserDefinedDecimal(System.String)
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: GetUserDefinedDecimal(String)
+  nameWithType: SimplePersonInfo.GetUserDefinedDecimal(String)
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedDecimal(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  summary: "\n<strong>NOT SUPPORTED: </strong>Get the decimal udef value based on the prog.id name of the udef field.\n"
+  syntax:
+    content: public double GetUserDefinedDecimal(string progId)
+    parameters:
+    - id: progId
+      type: System.String
+    return:
+      type: System.Double
+    content.vb: Public Function GetUserDefinedDecimal(progId As String) As Double
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedDecimal*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.GetUserDefinedDecimal(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedInt(System.String)
+  commentId: M:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedInt(System.String)
+  id: GetUserDefinedInt(System.String)
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: GetUserDefinedInt(String)
+  nameWithType: SimplePersonInfo.GetUserDefinedInt(String)
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedInt(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  summary: "\n<strong>NOT SUPPORTED: </strong>Get the int udef value based on the prog.id name of the udef field.\n"
+  syntax:
+    content: public int GetUserDefinedInt(string progId)
+    parameters:
+    - id: progId
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Function GetUserDefinedInt(progId As String) As Integer
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedInt*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.GetUserDefinedInt(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedString(System.String)
+  commentId: M:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedString(System.String)
+  id: GetUserDefinedString(System.String)
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: GetUserDefinedString(String)
+  nameWithType: SimplePersonInfo.GetUserDefinedString(String)
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedString(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  summary: "\n<strong>NOT SUPPORTED: </strong>Get the string udef value based on the prog.id name of the udef field.\n"
+  syntax:
+    content: public string GetUserDefinedString(string progId)
+    parameters:
+    - id: progId
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetUserDefinedString(progId As String) As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedString*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.GetUserDefinedString(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedDecimal(System.Int32)
+  commentId: M:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedDecimal(System.Int32)
+  id: GetUserDefinedDecimal(System.Int32)
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: GetUserDefinedDecimal(Int32)
+  nameWithType: SimplePersonInfo.GetUserDefinedDecimal(Int32)
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedDecimal(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  summary: "\nUser-defined field 1-10 of the decimal (.NET double) number type.\n"
+  syntax:
+    content: public string GetUserDefinedDecimal(int fieldNo)
+    parameters:
+    - id: fieldNo
+      type: System.Int32
+      description: Field number (1-10).
+    return:
+      type: System.String
+      description: User-defined field value.
+    content.vb: Public Function GetUserDefinedDecimal(fieldNo As Integer) As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedDecimal*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.GetUserDefinedDecimal(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedInt(System.Int32)
+  commentId: M:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedInt(System.Int32)
+  id: GetUserDefinedInt(System.Int32)
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: GetUserDefinedInt(Int32)
+  nameWithType: SimplePersonInfo.GetUserDefinedInt(Int32)
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedInt(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  summary: "\nGet user-defined field 1-60 of the whole (.NET Int32) number type.\n"
+  syntax:
+    content: public string GetUserDefinedInt(int fieldNo)
+    parameters:
+    - id: fieldNo
+      type: System.Int32
+      description: Field number (1-60).
+    return:
+      type: System.String
+      description: User-defined field value.
+    content.vb: Public Function GetUserDefinedInt(fieldNo As Integer) As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedInt*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.GetUserDefinedInt(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedString(System.Int32)
+  commentId: M:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedString(System.Int32)
+  id: GetUserDefinedString(System.Int32)
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: GetUserDefinedString(Int32)
+  nameWithType: SimplePersonInfo.GetUserDefinedString(Int32)
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedString(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  summary: "\nGet user-defined field 1-49 of the text (.NET string) type.\n"
+  syntax:
+    content: public string GetUserDefinedString(int fieldNo)
+    parameters:
+    - id: fieldNo
+      type: System.Int32
+      description: Field number (1-39).
+    return:
+      type: System.String
+      description: User-defined field value.
+    content.vb: Public Function GetUserDefinedString(fieldNo As Integer) As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedString*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.GetUserDefinedString(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.#ctor
+  commentId: M:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: SimplePersonInfo()
+  nameWithType: SimplePersonInfo.SimplePersonInfo()
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.SimplePersonInfo()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public SimplePersonInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PersonId
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: SimplePersonInfo.PersonId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PersonId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PersonId*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.PersonId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.AssociateId
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: SimplePersonInfo.AssociateId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.AssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.AssociateId*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.AssociateId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ContactId
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: SimplePersonInfo.ContactId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ContactId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ContactId As Integer
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ContactId*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.ContactId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Department
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Department
+  id: Department
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: Department
+  nameWithType: SimplePersonInfo.Department
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Department
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string Department { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Department As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Department*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.Department
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MrMrs
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MrMrs
+  id: MrMrs
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: MrMrs
+  nameWithType: SimplePersonInfo.MrMrs
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MrMrs
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string MrMrs { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MrMrs As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MrMrs*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.MrMrs
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.FirstName
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.FirstName
+  id: FirstName
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: FirstName
+  nameWithType: SimplePersonInfo.FirstName
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.FirstName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string FirstName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FirstName As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.FirstName*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.FirstName
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MiddleName
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MiddleName
+  id: MiddleName
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: MiddleName
+  nameWithType: SimplePersonInfo.MiddleName
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MiddleName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string MiddleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MiddleName As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MiddleName*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.MiddleName
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MiddleName2
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MiddleName2
+  id: MiddleName2
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: MiddleName2
+  nameWithType: SimplePersonInfo.MiddleName2
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MiddleName2
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string MiddleName2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MiddleName2 As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MiddleName2*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.MiddleName2
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.LastName
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.LastName
+  id: LastName
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: LastName
+  nameWithType: SimplePersonInfo.LastName
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.LastName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string LastName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LastName As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.LastName*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.LastName
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PersonNumber
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PersonNumber
+  id: PersonNumber
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: PersonNumber
+  nameWithType: SimplePersonInfo.PersonNumber
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PersonNumber
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string PersonNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PersonNumber As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PersonNumber*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.PersonNumber
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Title
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Title
+  id: Title
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: SimplePersonInfo.Title
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Title
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Title*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.Title
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Salutation
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Salutation
+  id: Salutation
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: Salutation
+  nameWithType: SimplePersonInfo.Salutation
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Salutation
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string Salutation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Salutation As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Salutation*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.Salutation
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Position
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Position
+  id: Position
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: SimplePersonInfo.Position
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Position
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string Position { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Position As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Position*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.Position
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.DateOfBirth
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.DateOfBirth
+  id: DateOfBirth
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: DateOfBirth
+  nameWithType: SimplePersonInfo.DateOfBirth
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.DateOfBirth
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string DateOfBirth { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DateOfBirth As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.DateOfBirth*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.DateOfBirth
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MobilePhone
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MobilePhone
+  id: MobilePhone
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: MobilePhone
+  nameWithType: SimplePersonInfo.MobilePhone
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MobilePhone
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string MobilePhone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MobilePhone As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MobilePhone*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.MobilePhone
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MobilePhoneId
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MobilePhoneId
+  id: MobilePhoneId
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: MobilePhoneId
+  nameWithType: SimplePersonInfo.MobilePhoneId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MobilePhoneId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public int MobilePhoneId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MobilePhoneId As Integer
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MobilePhoneId*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.MobilePhoneId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.OfficePhone
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.OfficePhone
+  id: OfficePhone
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: OfficePhone
+  nameWithType: SimplePersonInfo.OfficePhone
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.OfficePhone
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string OfficePhone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OfficePhone As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.OfficePhone*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.OfficePhone
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.OfficePhoneId
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.OfficePhoneId
+  id: OfficePhoneId
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: OfficePhoneId
+  nameWithType: SimplePersonInfo.OfficePhoneId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.OfficePhoneId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public int OfficePhoneId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property OfficePhoneId As Integer
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.OfficePhoneId*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.OfficePhoneId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Fax
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Fax
+  id: Fax
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: Fax
+  nameWithType: SimplePersonInfo.Fax
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Fax
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string Fax { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Fax As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Fax*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.Fax
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.FaxId
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.FaxId
+  id: FaxId
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: FaxId
+  nameWithType: SimplePersonInfo.FaxId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.FaxId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public int FaxId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FaxId As Integer
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.FaxId*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.FaxId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.FaxStripped
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.FaxStripped
+  id: FaxStripped
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: FaxStripped
+  nameWithType: SimplePersonInfo.FaxStripped
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.FaxStripped
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string FaxStripped { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FaxStripped As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.FaxStripped*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.FaxStripped
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PrivatePhone
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PrivatePhone
+  id: PrivatePhone
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: PrivatePhone
+  nameWithType: SimplePersonInfo.PrivatePhone
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PrivatePhone
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string PrivatePhone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PrivatePhone As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PrivatePhone*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.PrivatePhone
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PrivatePhoneId
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PrivatePhoneId
+  id: PrivatePhoneId
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: PrivatePhoneId
+  nameWithType: SimplePersonInfo.PrivatePhoneId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PrivatePhoneId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public int PrivatePhoneId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PrivatePhoneId As Integer
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PrivatePhoneId*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.PrivatePhoneId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Pager
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Pager
+  id: Pager
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: Pager
+  nameWithType: SimplePersonInfo.Pager
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Pager
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string Pager { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Pager As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Pager*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.Pager
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PagerId
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PagerId
+  id: PagerId
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: PagerId
+  nameWithType: SimplePersonInfo.PagerId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PagerId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public int PagerId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PagerId As Integer
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PagerId*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.PagerId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.EMailId
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.EMailId
+  id: EMailId
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: EMailId
+  nameWithType: SimplePersonInfo.EMailId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.EMailId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public int EMailId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property EMailId As Integer
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.EMailId*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.EMailId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.EMail
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.EMail
+  id: EMail
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: EMail
+  nameWithType: SimplePersonInfo.EMail
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.EMail
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string EMail { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EMail As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.EMail*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.EMail
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ChatId
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ChatId
+  id: ChatId
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: ChatId
+  nameWithType: SimplePersonInfo.ChatId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ChatId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public int ChatId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChatId As Integer
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ChatId*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.ChatId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Chat
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Chat
+  id: Chat
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: Chat
+  nameWithType: SimplePersonInfo.Chat
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Chat
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string Chat { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Chat As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Chat*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.Chat
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ChatProtocol
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ChatProtocol
+  id: ChatProtocol
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: ChatProtocol
+  nameWithType: SimplePersonInfo.ChatProtocol
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ChatProtocol
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string ChatProtocol { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ChatProtocol As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ChatProtocol*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.ChatProtocol
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.VoipId
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.VoipId
+  id: VoipId
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: VoipId
+  nameWithType: SimplePersonInfo.VoipId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.VoipId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public int VoipId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property VoipId As Integer
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.VoipId*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.VoipId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Voip
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Voip
+  id: Voip
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: Voip
+  nameWithType: SimplePersonInfo.Voip
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Voip
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string Voip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Voip As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Voip*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.Voip
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.VoipService
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.VoipService
+  id: VoipService
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: VoipService
+  nameWithType: SimplePersonInfo.VoipService
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.VoipService
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string VoipService { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property VoipService As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.VoipService*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.VoipService
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Url
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Url
+  id: Url
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: SimplePersonInfo.Url
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Url
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Url As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Url*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.Url
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UrlId
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UrlId
+  id: UrlId
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: UrlId
+  nameWithType: SimplePersonInfo.UrlId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UrlId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public int UrlId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UrlId As Integer
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UrlId*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.UrlId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Nomailing
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Nomailing
+  id: Nomailing
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: Nomailing
+  nameWithType: SimplePersonInfo.Nomailing
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Nomailing
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public bool Nomailing { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Nomailing As Boolean
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Nomailing*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.Nomailing
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UsePersonAddress
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UsePersonAddress
+  id: UsePersonAddress
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: UsePersonAddress
+  nameWithType: SimplePersonInfo.UsePersonAddress
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UsePersonAddress
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public bool UsePersonAddress { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UsePersonAddress As Boolean
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UsePersonAddress*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.UsePersonAddress
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine1
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine1
+  id: PostalAddressLine1
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: PostalAddressLine1
+  nameWithType: SimplePersonInfo.PostalAddressLine1
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine1
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string PostalAddressLine1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PostalAddressLine1 As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine1*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.PostalAddressLine1
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine1Extended
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine1Extended
+  id: PostalAddressLine1Extended
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: PostalAddressLine1Extended
+  nameWithType: SimplePersonInfo.PostalAddressLine1Extended
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine1Extended
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string PostalAddressLine1Extended { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PostalAddressLine1Extended As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine1Extended*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.PostalAddressLine1Extended
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine2
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine2
+  id: PostalAddressLine2
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: PostalAddressLine2
+  nameWithType: SimplePersonInfo.PostalAddressLine2
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine2
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string PostalAddressLine2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PostalAddressLine2 As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine2*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.PostalAddressLine2
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine3
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine3
+  id: PostalAddressLine3
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: PostalAddressLine3
+  nameWithType: SimplePersonInfo.PostalAddressLine3
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine3
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string PostalAddressLine3 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PostalAddressLine3 As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine3*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.PostalAddressLine3
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressCity
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressCity
+  id: PostalAddressCity
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: PostalAddressCity
+  nameWithType: SimplePersonInfo.PostalAddressCity
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressCity
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string PostalAddressCity { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PostalAddressCity As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressCity*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.PostalAddressCity
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressCityFull
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressCityFull
+  id: PostalAddressCityFull
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: PostalAddressCityFull
+  nameWithType: SimplePersonInfo.PostalAddressCityFull
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressCityFull
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string PostalAddressCityFull { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PostalAddressCityFull As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressCityFull*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.PostalAddressCityFull
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressZip
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressZip
+  id: PostalAddressZip
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: PostalAddressZip
+  nameWithType: SimplePersonInfo.PostalAddressZip
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressZip
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string PostalAddressZip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PostalAddressZip As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressZip*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.PostalAddressZip
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressState
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressState
+  id: PostalAddressState
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: PostalAddressState
+  nameWithType: SimplePersonInfo.PostalAddressState
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressState
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string PostalAddressState { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PostalAddressState As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressState*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.PostalAddressState
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressCounty
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressCounty
+  id: PostalAddressCounty
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: PostalAddressCounty
+  nameWithType: SimplePersonInfo.PostalAddressCounty
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressCounty
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string PostalAddressCounty { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PostalAddressCounty As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressCounty*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.PostalAddressCounty
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressStateAmericaCanadaAustralia
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressStateAmericaCanadaAustralia
+  id: PostalAddressStateAmericaCanadaAustralia
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: PostalAddressStateAmericaCanadaAustralia
+  nameWithType: SimplePersonInfo.PostalAddressStateAmericaCanadaAustralia
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressStateAmericaCanadaAustralia
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string PostalAddressStateAmericaCanadaAustralia { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PostalAddressStateAmericaCanadaAustralia As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressStateAmericaCanadaAustralia*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.PostalAddressStateAmericaCanadaAustralia
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.LineFeedGermany
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.LineFeedGermany
+  id: LineFeedGermany
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: LineFeedGermany
+  nameWithType: SimplePersonInfo.LineFeedGermany
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.LineFeedGermany
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string LineFeedGermany { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LineFeedGermany As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.LineFeedGermany*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.LineFeedGermany
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Country
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Country
+  id: Country
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: Country
+  nameWithType: SimplePersonInfo.Country
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Country
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string Country { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Country As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Country*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.Country
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Country2
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Country2
+  id: Country2
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: Country2
+  nameWithType: SimplePersonInfo.Country2
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Country2
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string Country2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Country2 As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Country2*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.Country2
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.CountryCode
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.CountryCode
+  id: CountryCode
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: CountryCode
+  nameWithType: SimplePersonInfo.CountryCode
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.CountryCode
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string CountryCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CountryCode As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.CountryCode*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.CountryCode
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.CountryId
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.CountryId
+  id: CountryId
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: CountryId
+  nameWithType: SimplePersonInfo.CountryId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.CountryId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public int CountryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CountryId As Integer
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.CountryId*
+  implements:
+  - SuperOffice.CRM.IPersonInfo.CountryId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Retired
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Retired
+  id: Retired
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: Retired
+  nameWithType: SimplePersonInfo.Retired
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Retired
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public bool Retired { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Retired As Boolean
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Retired*
+  implements:
+  - SuperOffice.CRM.IPersonInfo2.Retired
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PreferredLanguageId
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PreferredLanguageId
+  id: PreferredLanguageId
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: PreferredLanguageId
+  nameWithType: SimplePersonInfo.PreferredLanguageId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PreferredLanguageId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public int PreferredLanguageId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PreferredLanguageId As Integer
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PreferredLanguageId*
+  implements:
+  - SuperOffice.CRM.IPersonInfo2.PreferredLanguageId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PreferredLanguageName
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PreferredLanguageName
+  id: PreferredLanguageName
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: PreferredLanguageName
+  nameWithType: SimplePersonInfo.PreferredLanguageName
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PreferredLanguageName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string PreferredLanguageName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PreferredLanguageName As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PreferredLanguageName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ServicePriority
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ServicePriority
+  id: ServicePriority
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: ServicePriority
+  nameWithType: SimplePersonInfo.ServicePriority
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ServicePriority
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public int ServicePriority { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ServicePriority As Integer
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ServicePriority*
+  implements:
+  - SuperOffice.CRM.IPersonInfo2.ServicePriority
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ServiceContactId
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ServiceContactId
+  id: ServiceContactId
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: ServiceContactId
+  nameWithType: SimplePersonInfo.ServiceContactId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ServiceContactId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public int ServiceContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ServiceContactId As Integer
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ServiceContactId*
+  implements:
+  - SuperOffice.CRM.IPersonInfo2.ServiceContactId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ServiceContactName
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ServiceContactName
+  id: ServiceContactName
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: ServiceContactName
+  nameWithType: SimplePersonInfo.ServiceContactName
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ServiceContactName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: public string ServiceContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ServiceContactName As String
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ServiceContactName*
+  implements:
+  - SuperOffice.CRM.IPersonInfo2.ServiceContactName
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UdefDecimal
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UdefDecimal
+  id: UdefDecimal
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: UdefDecimal
+  nameWithType: SimplePersonInfo.UdefDecimal
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UdefDecimal
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  summary: "\nSet the value of a user-defined DECIMAL field, identified by the field number (1-10)\n"
+  syntax:
+    content: public InfoUdefDict UdefDecimal { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Entities.Providers.InfoUdefDict
+    content.vb: Public Property UdefDecimal As InfoUdefDict
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UdefDecimal*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UdefInt
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UdefInt
+  id: UdefInt
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: UdefInt
+  nameWithType: SimplePersonInfo.UdefInt
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UdefInt
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  summary: "\nSet the value of a user-defined INT field, identified by the field number (1-60)\n"
+  syntax:
+    content: public InfoUdefDict UdefInt { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Entities.Providers.InfoUdefDict
+    content.vb: Public Property UdefInt As InfoUdefDict
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UdefInt*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UdefString
+  commentId: P:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UdefString
+  id: UdefString
+  parent: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+  langs:
+  - csharp
+  - vb
+  name: UdefString
+  nameWithType: SimplePersonInfo.UdefString
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UdefString
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  summary: "\nSet the value of a user-defined STRING field, identified by the field number.\nNumber 1-40 are short strings, 41-49 are long strings\n"
+  syntax:
+    content: public InfoUdefDict UdefString { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Entities.Providers.InfoUdefDict
+    content.vb: Public Property UdefString As InfoUdefDict
+  overload: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UdefString*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Entities.Providers
+  commentId: N:SuperOffice.CRM.Entities.Providers
+  isExternal: true
+  name: SuperOffice.CRM.Entities.Providers
+  nameWithType: SuperOffice.CRM.Entities.Providers
+  fullName: SuperOffice.CRM.Entities.Providers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.IPersonInfo2
+  commentId: T:SuperOffice.CRM.IPersonInfo2
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IPersonInfo2
+  nameWithType: IPersonInfo2
+  fullName: SuperOffice.CRM.IPersonInfo2
+- uid: SuperOffice.CRM.IPersonInfo
+  commentId: T:SuperOffice.CRM.IPersonInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IPersonInfo
+  nameWithType: IPersonInfo
+  fullName: SuperOffice.CRM.IPersonInfo
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SimplePersonInfo, To>()
+  nameWithType: EnumUtil.MapEnums<SimplePersonInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Providers.SimplePersonInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SimplePersonInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Providers.SimplePersonInfo, To)()
+  name.vb: MapEnums(Of SimplePersonInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SimplePersonInfo, To>
+    nameWithType: EnumUtil.MapEnums<SimplePersonInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Providers.SimplePersonInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SimplePersonInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of SimplePersonInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Providers.SimplePersonInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.Providers.SimplePersonInfo)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SimplePersonInfo>(SimplePersonInfo)
+  nameWithType: ObjectExtensions.AssignByReflection<SimplePersonInfo>(SimplePersonInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.Providers.SimplePersonInfo>(SuperOffice.CRM.Entities.Providers.SimplePersonInfo)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SimplePersonInfo)(SimplePersonInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.Providers.SimplePersonInfo)(SuperOffice.CRM.Entities.Providers.SimplePersonInfo)
+  name.vb: AssignByReflection(Of SimplePersonInfo)(SimplePersonInfo)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SimplePersonInfo>
+    nameWithType: ObjectExtensions.AssignByReflection<SimplePersonInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.Providers.SimplePersonInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+    name: SimplePersonInfo
+    nameWithType: SimplePersonInfo
+    fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SimplePersonInfo)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SimplePersonInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.Providers.SimplePersonInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+    name: SimplePersonInfo
+    nameWithType: SimplePersonInfo
+    fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SimplePersonInfo>()
+  nameWithType: ObjectExtensions.GraphCopy<SimplePersonInfo>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.Providers.SimplePersonInfo>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SimplePersonInfo)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.Providers.SimplePersonInfo)()
+  name.vb: GraphCopy(Of SimplePersonInfo)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SimplePersonInfo>
+    nameWithType: ObjectExtensions.GraphCopy<SimplePersonInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.Providers.SimplePersonInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SimplePersonInfo)
+    nameWithType: ObjectExtensions.GraphCopy(Of SimplePersonInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.Providers.SimplePersonInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SimplePersonInfo, To>()
+  nameWithType: Converters.MapEnums<SimplePersonInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Providers.SimplePersonInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of SimplePersonInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Providers.SimplePersonInfo, To)()
+  name.vb: MapEnums(Of SimplePersonInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SimplePersonInfo, To>
+    nameWithType: Converters.MapEnums<SimplePersonInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Providers.SimplePersonInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SimplePersonInfo, To)
+    nameWithType: Converters.MapEnums(Of SimplePersonInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Providers.SimplePersonInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetInternationalAddress*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetInternationalAddress
+  isExternal: true
+  name: GetInternationalAddress
+  nameWithType: SimplePersonInfo.GetInternationalAddress
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetInternationalAddress
+- uid: SuperOffice.CRM.IPersonInfo.GetInternationalAddress(System.Int32)
+  commentId: M:SuperOffice.CRM.IPersonInfo.GetInternationalAddress(System.Int32)
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: GetInternationalAddress(Int32)
+  nameWithType: IPersonInfo.GetInternationalAddress(Int32)
+  fullName: SuperOffice.CRM.IPersonInfo.GetInternationalAddress(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IPersonInfo.GetInternationalAddress(System.Int32)
+    name: GetInternationalAddress
+    nameWithType: IPersonInfo.GetInternationalAddress
+    fullName: SuperOffice.CRM.IPersonInfo.GetInternationalAddress
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IPersonInfo.GetInternationalAddress(System.Int32)
+    name: GetInternationalAddress
+    nameWithType: IPersonInfo.GetInternationalAddress
+    fullName: SuperOffice.CRM.IPersonInfo.GetInternationalAddress
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedDecimal*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedDecimal
+  isExternal: true
+  name: GetUserDefinedDecimal
+  nameWithType: SimplePersonInfo.GetUserDefinedDecimal
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedDecimal
+- uid: SuperOffice.CRM.IPersonInfo.GetUserDefinedDecimal(System.String)
+  commentId: M:SuperOffice.CRM.IPersonInfo.GetUserDefinedDecimal(System.String)
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: GetUserDefinedDecimal(String)
+  nameWithType: IPersonInfo.GetUserDefinedDecimal(String)
+  fullName: SuperOffice.CRM.IPersonInfo.GetUserDefinedDecimal(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IPersonInfo.GetUserDefinedDecimal(System.String)
+    name: GetUserDefinedDecimal
+    nameWithType: IPersonInfo.GetUserDefinedDecimal
+    fullName: SuperOffice.CRM.IPersonInfo.GetUserDefinedDecimal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IPersonInfo.GetUserDefinedDecimal(System.String)
+    name: GetUserDefinedDecimal
+    nameWithType: IPersonInfo.GetUserDefinedDecimal
+    fullName: SuperOffice.CRM.IPersonInfo.GetUserDefinedDecimal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedInt*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedInt
+  isExternal: true
+  name: GetUserDefinedInt
+  nameWithType: SimplePersonInfo.GetUserDefinedInt
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedInt
+- uid: SuperOffice.CRM.IPersonInfo.GetUserDefinedInt(System.String)
+  commentId: M:SuperOffice.CRM.IPersonInfo.GetUserDefinedInt(System.String)
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: GetUserDefinedInt(String)
+  nameWithType: IPersonInfo.GetUserDefinedInt(String)
+  fullName: SuperOffice.CRM.IPersonInfo.GetUserDefinedInt(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IPersonInfo.GetUserDefinedInt(System.String)
+    name: GetUserDefinedInt
+    nameWithType: IPersonInfo.GetUserDefinedInt
+    fullName: SuperOffice.CRM.IPersonInfo.GetUserDefinedInt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IPersonInfo.GetUserDefinedInt(System.String)
+    name: GetUserDefinedInt
+    nameWithType: IPersonInfo.GetUserDefinedInt
+    fullName: SuperOffice.CRM.IPersonInfo.GetUserDefinedInt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedString*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedString
+  isExternal: true
+  name: GetUserDefinedString
+  nameWithType: SimplePersonInfo.GetUserDefinedString
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.GetUserDefinedString
+- uid: SuperOffice.CRM.IPersonInfo.GetUserDefinedString(System.String)
+  commentId: M:SuperOffice.CRM.IPersonInfo.GetUserDefinedString(System.String)
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: GetUserDefinedString(String)
+  nameWithType: IPersonInfo.GetUserDefinedString(String)
+  fullName: SuperOffice.CRM.IPersonInfo.GetUserDefinedString(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IPersonInfo.GetUserDefinedString(System.String)
+    name: GetUserDefinedString
+    nameWithType: IPersonInfo.GetUserDefinedString
+    fullName: SuperOffice.CRM.IPersonInfo.GetUserDefinedString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IPersonInfo.GetUserDefinedString(System.String)
+    name: GetUserDefinedString
+    nameWithType: IPersonInfo.GetUserDefinedString
+    fullName: SuperOffice.CRM.IPersonInfo.GetUserDefinedString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IPersonInfo.GetUserDefinedDecimal(System.Int32)
+  commentId: M:SuperOffice.CRM.IPersonInfo.GetUserDefinedDecimal(System.Int32)
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: GetUserDefinedDecimal(Int32)
+  nameWithType: IPersonInfo.GetUserDefinedDecimal(Int32)
+  fullName: SuperOffice.CRM.IPersonInfo.GetUserDefinedDecimal(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IPersonInfo.GetUserDefinedDecimal(System.Int32)
+    name: GetUserDefinedDecimal
+    nameWithType: IPersonInfo.GetUserDefinedDecimal
+    fullName: SuperOffice.CRM.IPersonInfo.GetUserDefinedDecimal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IPersonInfo.GetUserDefinedDecimal(System.Int32)
+    name: GetUserDefinedDecimal
+    nameWithType: IPersonInfo.GetUserDefinedDecimal
+    fullName: SuperOffice.CRM.IPersonInfo.GetUserDefinedDecimal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IPersonInfo.GetUserDefinedInt(System.Int32)
+  commentId: M:SuperOffice.CRM.IPersonInfo.GetUserDefinedInt(System.Int32)
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: GetUserDefinedInt(Int32)
+  nameWithType: IPersonInfo.GetUserDefinedInt(Int32)
+  fullName: SuperOffice.CRM.IPersonInfo.GetUserDefinedInt(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IPersonInfo.GetUserDefinedInt(System.Int32)
+    name: GetUserDefinedInt
+    nameWithType: IPersonInfo.GetUserDefinedInt
+    fullName: SuperOffice.CRM.IPersonInfo.GetUserDefinedInt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IPersonInfo.GetUserDefinedInt(System.Int32)
+    name: GetUserDefinedInt
+    nameWithType: IPersonInfo.GetUserDefinedInt
+    fullName: SuperOffice.CRM.IPersonInfo.GetUserDefinedInt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IPersonInfo.GetUserDefinedString(System.Int32)
+  commentId: M:SuperOffice.CRM.IPersonInfo.GetUserDefinedString(System.Int32)
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: GetUserDefinedString(Int32)
+  nameWithType: IPersonInfo.GetUserDefinedString(Int32)
+  fullName: SuperOffice.CRM.IPersonInfo.GetUserDefinedString(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.IPersonInfo.GetUserDefinedString(System.Int32)
+    name: GetUserDefinedString
+    nameWithType: IPersonInfo.GetUserDefinedString
+    fullName: SuperOffice.CRM.IPersonInfo.GetUserDefinedString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.IPersonInfo.GetUserDefinedString(System.Int32)
+    name: GetUserDefinedString
+    nameWithType: IPersonInfo.GetUserDefinedString
+    fullName: SuperOffice.CRM.IPersonInfo.GetUserDefinedString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.#ctor
+  isExternal: true
+  name: SimplePersonInfo
+  nameWithType: SimplePersonInfo.SimplePersonInfo
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.SimplePersonInfo
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PersonId*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: SimplePersonInfo.PersonId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PersonId
+- uid: SuperOffice.CRM.IPersonInfo.PersonId
+  commentId: P:SuperOffice.CRM.IPersonInfo.PersonId
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: PersonId
+  nameWithType: IPersonInfo.PersonId
+  fullName: SuperOffice.CRM.IPersonInfo.PersonId
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.AssociateId*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: SimplePersonInfo.AssociateId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.AssociateId
+- uid: SuperOffice.CRM.IPersonInfo.AssociateId
+  commentId: P:SuperOffice.CRM.IPersonInfo.AssociateId
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: AssociateId
+  nameWithType: IPersonInfo.AssociateId
+  fullName: SuperOffice.CRM.IPersonInfo.AssociateId
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ContactId*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: SimplePersonInfo.ContactId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ContactId
+- uid: SuperOffice.CRM.IPersonInfo.ContactId
+  commentId: P:SuperOffice.CRM.IPersonInfo.ContactId
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: ContactId
+  nameWithType: IPersonInfo.ContactId
+  fullName: SuperOffice.CRM.IPersonInfo.ContactId
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Department*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Department
+  isExternal: true
+  name: Department
+  nameWithType: SimplePersonInfo.Department
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Department
+- uid: SuperOffice.CRM.IPersonInfo.Department
+  commentId: P:SuperOffice.CRM.IPersonInfo.Department
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: Department
+  nameWithType: IPersonInfo.Department
+  fullName: SuperOffice.CRM.IPersonInfo.Department
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MrMrs*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MrMrs
+  isExternal: true
+  name: MrMrs
+  nameWithType: SimplePersonInfo.MrMrs
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MrMrs
+- uid: SuperOffice.CRM.IPersonInfo.MrMrs
+  commentId: P:SuperOffice.CRM.IPersonInfo.MrMrs
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: MrMrs
+  nameWithType: IPersonInfo.MrMrs
+  fullName: SuperOffice.CRM.IPersonInfo.MrMrs
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.FirstName*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.FirstName
+  isExternal: true
+  name: FirstName
+  nameWithType: SimplePersonInfo.FirstName
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.FirstName
+- uid: SuperOffice.CRM.IPersonInfo.FirstName
+  commentId: P:SuperOffice.CRM.IPersonInfo.FirstName
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: FirstName
+  nameWithType: IPersonInfo.FirstName
+  fullName: SuperOffice.CRM.IPersonInfo.FirstName
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MiddleName*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MiddleName
+  isExternal: true
+  name: MiddleName
+  nameWithType: SimplePersonInfo.MiddleName
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MiddleName
+- uid: SuperOffice.CRM.IPersonInfo.MiddleName
+  commentId: P:SuperOffice.CRM.IPersonInfo.MiddleName
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: MiddleName
+  nameWithType: IPersonInfo.MiddleName
+  fullName: SuperOffice.CRM.IPersonInfo.MiddleName
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MiddleName2*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MiddleName2
+  isExternal: true
+  name: MiddleName2
+  nameWithType: SimplePersonInfo.MiddleName2
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MiddleName2
+- uid: SuperOffice.CRM.IPersonInfo.MiddleName2
+  commentId: P:SuperOffice.CRM.IPersonInfo.MiddleName2
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: MiddleName2
+  nameWithType: IPersonInfo.MiddleName2
+  fullName: SuperOffice.CRM.IPersonInfo.MiddleName2
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.LastName*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.LastName
+  isExternal: true
+  name: LastName
+  nameWithType: SimplePersonInfo.LastName
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.LastName
+- uid: SuperOffice.CRM.IPersonInfo.LastName
+  commentId: P:SuperOffice.CRM.IPersonInfo.LastName
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: LastName
+  nameWithType: IPersonInfo.LastName
+  fullName: SuperOffice.CRM.IPersonInfo.LastName
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PersonNumber*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PersonNumber
+  isExternal: true
+  name: PersonNumber
+  nameWithType: SimplePersonInfo.PersonNumber
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PersonNumber
+- uid: SuperOffice.CRM.IPersonInfo.PersonNumber
+  commentId: P:SuperOffice.CRM.IPersonInfo.PersonNumber
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: PersonNumber
+  nameWithType: IPersonInfo.PersonNumber
+  fullName: SuperOffice.CRM.IPersonInfo.PersonNumber
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Title*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Title
+  isExternal: true
+  name: Title
+  nameWithType: SimplePersonInfo.Title
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Title
+- uid: SuperOffice.CRM.IPersonInfo.Title
+  commentId: P:SuperOffice.CRM.IPersonInfo.Title
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: Title
+  nameWithType: IPersonInfo.Title
+  fullName: SuperOffice.CRM.IPersonInfo.Title
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Salutation*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Salutation
+  isExternal: true
+  name: Salutation
+  nameWithType: SimplePersonInfo.Salutation
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Salutation
+- uid: SuperOffice.CRM.IPersonInfo.Salutation
+  commentId: P:SuperOffice.CRM.IPersonInfo.Salutation
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: Salutation
+  nameWithType: IPersonInfo.Salutation
+  fullName: SuperOffice.CRM.IPersonInfo.Salutation
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Position*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Position
+  isExternal: true
+  name: Position
+  nameWithType: SimplePersonInfo.Position
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Position
+- uid: SuperOffice.CRM.IPersonInfo.Position
+  commentId: P:SuperOffice.CRM.IPersonInfo.Position
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: Position
+  nameWithType: IPersonInfo.Position
+  fullName: SuperOffice.CRM.IPersonInfo.Position
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.DateOfBirth*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.DateOfBirth
+  isExternal: true
+  name: DateOfBirth
+  nameWithType: SimplePersonInfo.DateOfBirth
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.DateOfBirth
+- uid: SuperOffice.CRM.IPersonInfo.DateOfBirth
+  commentId: P:SuperOffice.CRM.IPersonInfo.DateOfBirth
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: DateOfBirth
+  nameWithType: IPersonInfo.DateOfBirth
+  fullName: SuperOffice.CRM.IPersonInfo.DateOfBirth
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MobilePhone*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MobilePhone
+  isExternal: true
+  name: MobilePhone
+  nameWithType: SimplePersonInfo.MobilePhone
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MobilePhone
+- uid: SuperOffice.CRM.IPersonInfo.MobilePhone
+  commentId: P:SuperOffice.CRM.IPersonInfo.MobilePhone
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: MobilePhone
+  nameWithType: IPersonInfo.MobilePhone
+  fullName: SuperOffice.CRM.IPersonInfo.MobilePhone
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MobilePhoneId*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MobilePhoneId
+  isExternal: true
+  name: MobilePhoneId
+  nameWithType: SimplePersonInfo.MobilePhoneId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.MobilePhoneId
+- uid: SuperOffice.CRM.IPersonInfo.MobilePhoneId
+  commentId: P:SuperOffice.CRM.IPersonInfo.MobilePhoneId
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: MobilePhoneId
+  nameWithType: IPersonInfo.MobilePhoneId
+  fullName: SuperOffice.CRM.IPersonInfo.MobilePhoneId
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.OfficePhone*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.OfficePhone
+  isExternal: true
+  name: OfficePhone
+  nameWithType: SimplePersonInfo.OfficePhone
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.OfficePhone
+- uid: SuperOffice.CRM.IPersonInfo.OfficePhone
+  commentId: P:SuperOffice.CRM.IPersonInfo.OfficePhone
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: OfficePhone
+  nameWithType: IPersonInfo.OfficePhone
+  fullName: SuperOffice.CRM.IPersonInfo.OfficePhone
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.OfficePhoneId*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.OfficePhoneId
+  isExternal: true
+  name: OfficePhoneId
+  nameWithType: SimplePersonInfo.OfficePhoneId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.OfficePhoneId
+- uid: SuperOffice.CRM.IPersonInfo.OfficePhoneId
+  commentId: P:SuperOffice.CRM.IPersonInfo.OfficePhoneId
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: OfficePhoneId
+  nameWithType: IPersonInfo.OfficePhoneId
+  fullName: SuperOffice.CRM.IPersonInfo.OfficePhoneId
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Fax*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Fax
+  isExternal: true
+  name: Fax
+  nameWithType: SimplePersonInfo.Fax
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Fax
+- uid: SuperOffice.CRM.IPersonInfo.Fax
+  commentId: P:SuperOffice.CRM.IPersonInfo.Fax
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: Fax
+  nameWithType: IPersonInfo.Fax
+  fullName: SuperOffice.CRM.IPersonInfo.Fax
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.FaxId*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.FaxId
+  isExternal: true
+  name: FaxId
+  nameWithType: SimplePersonInfo.FaxId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.FaxId
+- uid: SuperOffice.CRM.IPersonInfo.FaxId
+  commentId: P:SuperOffice.CRM.IPersonInfo.FaxId
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: FaxId
+  nameWithType: IPersonInfo.FaxId
+  fullName: SuperOffice.CRM.IPersonInfo.FaxId
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.FaxStripped*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.FaxStripped
+  isExternal: true
+  name: FaxStripped
+  nameWithType: SimplePersonInfo.FaxStripped
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.FaxStripped
+- uid: SuperOffice.CRM.IPersonInfo.FaxStripped
+  commentId: P:SuperOffice.CRM.IPersonInfo.FaxStripped
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: FaxStripped
+  nameWithType: IPersonInfo.FaxStripped
+  fullName: SuperOffice.CRM.IPersonInfo.FaxStripped
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PrivatePhone*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PrivatePhone
+  isExternal: true
+  name: PrivatePhone
+  nameWithType: SimplePersonInfo.PrivatePhone
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PrivatePhone
+- uid: SuperOffice.CRM.IPersonInfo.PrivatePhone
+  commentId: P:SuperOffice.CRM.IPersonInfo.PrivatePhone
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: PrivatePhone
+  nameWithType: IPersonInfo.PrivatePhone
+  fullName: SuperOffice.CRM.IPersonInfo.PrivatePhone
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PrivatePhoneId*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PrivatePhoneId
+  isExternal: true
+  name: PrivatePhoneId
+  nameWithType: SimplePersonInfo.PrivatePhoneId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PrivatePhoneId
+- uid: SuperOffice.CRM.IPersonInfo.PrivatePhoneId
+  commentId: P:SuperOffice.CRM.IPersonInfo.PrivatePhoneId
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: PrivatePhoneId
+  nameWithType: IPersonInfo.PrivatePhoneId
+  fullName: SuperOffice.CRM.IPersonInfo.PrivatePhoneId
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Pager*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Pager
+  isExternal: true
+  name: Pager
+  nameWithType: SimplePersonInfo.Pager
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Pager
+- uid: SuperOffice.CRM.IPersonInfo.Pager
+  commentId: P:SuperOffice.CRM.IPersonInfo.Pager
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: Pager
+  nameWithType: IPersonInfo.Pager
+  fullName: SuperOffice.CRM.IPersonInfo.Pager
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PagerId*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PagerId
+  isExternal: true
+  name: PagerId
+  nameWithType: SimplePersonInfo.PagerId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PagerId
+- uid: SuperOffice.CRM.IPersonInfo.PagerId
+  commentId: P:SuperOffice.CRM.IPersonInfo.PagerId
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: PagerId
+  nameWithType: IPersonInfo.PagerId
+  fullName: SuperOffice.CRM.IPersonInfo.PagerId
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.EMailId*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.EMailId
+  isExternal: true
+  name: EMailId
+  nameWithType: SimplePersonInfo.EMailId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.EMailId
+- uid: SuperOffice.CRM.IPersonInfo.EMailId
+  commentId: P:SuperOffice.CRM.IPersonInfo.EMailId
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: EMailId
+  nameWithType: IPersonInfo.EMailId
+  fullName: SuperOffice.CRM.IPersonInfo.EMailId
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.EMail*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.EMail
+  isExternal: true
+  name: EMail
+  nameWithType: SimplePersonInfo.EMail
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.EMail
+- uid: SuperOffice.CRM.IPersonInfo.EMail
+  commentId: P:SuperOffice.CRM.IPersonInfo.EMail
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: EMail
+  nameWithType: IPersonInfo.EMail
+  fullName: SuperOffice.CRM.IPersonInfo.EMail
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ChatId*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ChatId
+  isExternal: true
+  name: ChatId
+  nameWithType: SimplePersonInfo.ChatId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ChatId
+- uid: SuperOffice.CRM.IPersonInfo.ChatId
+  commentId: P:SuperOffice.CRM.IPersonInfo.ChatId
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: ChatId
+  nameWithType: IPersonInfo.ChatId
+  fullName: SuperOffice.CRM.IPersonInfo.ChatId
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Chat*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Chat
+  isExternal: true
+  name: Chat
+  nameWithType: SimplePersonInfo.Chat
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Chat
+- uid: SuperOffice.CRM.IPersonInfo.Chat
+  commentId: P:SuperOffice.CRM.IPersonInfo.Chat
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: Chat
+  nameWithType: IPersonInfo.Chat
+  fullName: SuperOffice.CRM.IPersonInfo.Chat
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ChatProtocol*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ChatProtocol
+  isExternal: true
+  name: ChatProtocol
+  nameWithType: SimplePersonInfo.ChatProtocol
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ChatProtocol
+- uid: SuperOffice.CRM.IPersonInfo.ChatProtocol
+  commentId: P:SuperOffice.CRM.IPersonInfo.ChatProtocol
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: ChatProtocol
+  nameWithType: IPersonInfo.ChatProtocol
+  fullName: SuperOffice.CRM.IPersonInfo.ChatProtocol
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.VoipId*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.VoipId
+  isExternal: true
+  name: VoipId
+  nameWithType: SimplePersonInfo.VoipId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.VoipId
+- uid: SuperOffice.CRM.IPersonInfo.VoipId
+  commentId: P:SuperOffice.CRM.IPersonInfo.VoipId
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: VoipId
+  nameWithType: IPersonInfo.VoipId
+  fullName: SuperOffice.CRM.IPersonInfo.VoipId
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Voip*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Voip
+  isExternal: true
+  name: Voip
+  nameWithType: SimplePersonInfo.Voip
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Voip
+- uid: SuperOffice.CRM.IPersonInfo.Voip
+  commentId: P:SuperOffice.CRM.IPersonInfo.Voip
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: Voip
+  nameWithType: IPersonInfo.Voip
+  fullName: SuperOffice.CRM.IPersonInfo.Voip
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.VoipService*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.VoipService
+  isExternal: true
+  name: VoipService
+  nameWithType: SimplePersonInfo.VoipService
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.VoipService
+- uid: SuperOffice.CRM.IPersonInfo.VoipService
+  commentId: P:SuperOffice.CRM.IPersonInfo.VoipService
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: VoipService
+  nameWithType: IPersonInfo.VoipService
+  fullName: SuperOffice.CRM.IPersonInfo.VoipService
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Url*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Url
+  isExternal: true
+  name: Url
+  nameWithType: SimplePersonInfo.Url
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Url
+- uid: SuperOffice.CRM.IPersonInfo.Url
+  commentId: P:SuperOffice.CRM.IPersonInfo.Url
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: Url
+  nameWithType: IPersonInfo.Url
+  fullName: SuperOffice.CRM.IPersonInfo.Url
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UrlId*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UrlId
+  isExternal: true
+  name: UrlId
+  nameWithType: SimplePersonInfo.UrlId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UrlId
+- uid: SuperOffice.CRM.IPersonInfo.UrlId
+  commentId: P:SuperOffice.CRM.IPersonInfo.UrlId
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: UrlId
+  nameWithType: IPersonInfo.UrlId
+  fullName: SuperOffice.CRM.IPersonInfo.UrlId
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Nomailing*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Nomailing
+  isExternal: true
+  name: Nomailing
+  nameWithType: SimplePersonInfo.Nomailing
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Nomailing
+- uid: SuperOffice.CRM.IPersonInfo.Nomailing
+  commentId: P:SuperOffice.CRM.IPersonInfo.Nomailing
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: Nomailing
+  nameWithType: IPersonInfo.Nomailing
+  fullName: SuperOffice.CRM.IPersonInfo.Nomailing
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UsePersonAddress*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UsePersonAddress
+  isExternal: true
+  name: UsePersonAddress
+  nameWithType: SimplePersonInfo.UsePersonAddress
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UsePersonAddress
+- uid: SuperOffice.CRM.IPersonInfo.UsePersonAddress
+  commentId: P:SuperOffice.CRM.IPersonInfo.UsePersonAddress
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: UsePersonAddress
+  nameWithType: IPersonInfo.UsePersonAddress
+  fullName: SuperOffice.CRM.IPersonInfo.UsePersonAddress
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine1*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine1
+  isExternal: true
+  name: PostalAddressLine1
+  nameWithType: SimplePersonInfo.PostalAddressLine1
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine1
+- uid: SuperOffice.CRM.IPersonInfo.PostalAddressLine1
+  commentId: P:SuperOffice.CRM.IPersonInfo.PostalAddressLine1
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: PostalAddressLine1
+  nameWithType: IPersonInfo.PostalAddressLine1
+  fullName: SuperOffice.CRM.IPersonInfo.PostalAddressLine1
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine1Extended*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine1Extended
+  isExternal: true
+  name: PostalAddressLine1Extended
+  nameWithType: SimplePersonInfo.PostalAddressLine1Extended
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine1Extended
+- uid: SuperOffice.CRM.IPersonInfo.PostalAddressLine1Extended
+  commentId: P:SuperOffice.CRM.IPersonInfo.PostalAddressLine1Extended
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: PostalAddressLine1Extended
+  nameWithType: IPersonInfo.PostalAddressLine1Extended
+  fullName: SuperOffice.CRM.IPersonInfo.PostalAddressLine1Extended
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine2*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine2
+  isExternal: true
+  name: PostalAddressLine2
+  nameWithType: SimplePersonInfo.PostalAddressLine2
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine2
+- uid: SuperOffice.CRM.IPersonInfo.PostalAddressLine2
+  commentId: P:SuperOffice.CRM.IPersonInfo.PostalAddressLine2
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: PostalAddressLine2
+  nameWithType: IPersonInfo.PostalAddressLine2
+  fullName: SuperOffice.CRM.IPersonInfo.PostalAddressLine2
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine3*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine3
+  isExternal: true
+  name: PostalAddressLine3
+  nameWithType: SimplePersonInfo.PostalAddressLine3
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressLine3
+- uid: SuperOffice.CRM.IPersonInfo.PostalAddressLine3
+  commentId: P:SuperOffice.CRM.IPersonInfo.PostalAddressLine3
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: PostalAddressLine3
+  nameWithType: IPersonInfo.PostalAddressLine3
+  fullName: SuperOffice.CRM.IPersonInfo.PostalAddressLine3
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressCity*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressCity
+  isExternal: true
+  name: PostalAddressCity
+  nameWithType: SimplePersonInfo.PostalAddressCity
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressCity
+- uid: SuperOffice.CRM.IPersonInfo.PostalAddressCity
+  commentId: P:SuperOffice.CRM.IPersonInfo.PostalAddressCity
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: PostalAddressCity
+  nameWithType: IPersonInfo.PostalAddressCity
+  fullName: SuperOffice.CRM.IPersonInfo.PostalAddressCity
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressCityFull*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressCityFull
+  isExternal: true
+  name: PostalAddressCityFull
+  nameWithType: SimplePersonInfo.PostalAddressCityFull
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressCityFull
+- uid: SuperOffice.CRM.IPersonInfo.PostalAddressCityFull
+  commentId: P:SuperOffice.CRM.IPersonInfo.PostalAddressCityFull
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: PostalAddressCityFull
+  nameWithType: IPersonInfo.PostalAddressCityFull
+  fullName: SuperOffice.CRM.IPersonInfo.PostalAddressCityFull
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressZip*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressZip
+  isExternal: true
+  name: PostalAddressZip
+  nameWithType: SimplePersonInfo.PostalAddressZip
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressZip
+- uid: SuperOffice.CRM.IPersonInfo.PostalAddressZip
+  commentId: P:SuperOffice.CRM.IPersonInfo.PostalAddressZip
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: PostalAddressZip
+  nameWithType: IPersonInfo.PostalAddressZip
+  fullName: SuperOffice.CRM.IPersonInfo.PostalAddressZip
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressState*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressState
+  isExternal: true
+  name: PostalAddressState
+  nameWithType: SimplePersonInfo.PostalAddressState
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressState
+- uid: SuperOffice.CRM.IPersonInfo.PostalAddressState
+  commentId: P:SuperOffice.CRM.IPersonInfo.PostalAddressState
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: PostalAddressState
+  nameWithType: IPersonInfo.PostalAddressState
+  fullName: SuperOffice.CRM.IPersonInfo.PostalAddressState
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressCounty*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressCounty
+  isExternal: true
+  name: PostalAddressCounty
+  nameWithType: SimplePersonInfo.PostalAddressCounty
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressCounty
+- uid: SuperOffice.CRM.IPersonInfo.PostalAddressCounty
+  commentId: P:SuperOffice.CRM.IPersonInfo.PostalAddressCounty
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: PostalAddressCounty
+  nameWithType: IPersonInfo.PostalAddressCounty
+  fullName: SuperOffice.CRM.IPersonInfo.PostalAddressCounty
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressStateAmericaCanadaAustralia*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressStateAmericaCanadaAustralia
+  isExternal: true
+  name: PostalAddressStateAmericaCanadaAustralia
+  nameWithType: SimplePersonInfo.PostalAddressStateAmericaCanadaAustralia
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PostalAddressStateAmericaCanadaAustralia
+- uid: SuperOffice.CRM.IPersonInfo.PostalAddressStateAmericaCanadaAustralia
+  commentId: P:SuperOffice.CRM.IPersonInfo.PostalAddressStateAmericaCanadaAustralia
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: PostalAddressStateAmericaCanadaAustralia
+  nameWithType: IPersonInfo.PostalAddressStateAmericaCanadaAustralia
+  fullName: SuperOffice.CRM.IPersonInfo.PostalAddressStateAmericaCanadaAustralia
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.LineFeedGermany*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.LineFeedGermany
+  isExternal: true
+  name: LineFeedGermany
+  nameWithType: SimplePersonInfo.LineFeedGermany
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.LineFeedGermany
+- uid: SuperOffice.CRM.IPersonInfo.LineFeedGermany
+  commentId: P:SuperOffice.CRM.IPersonInfo.LineFeedGermany
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: LineFeedGermany
+  nameWithType: IPersonInfo.LineFeedGermany
+  fullName: SuperOffice.CRM.IPersonInfo.LineFeedGermany
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Country*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Country
+  isExternal: true
+  name: Country
+  nameWithType: SimplePersonInfo.Country
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Country
+- uid: SuperOffice.CRM.IPersonInfo.Country
+  commentId: P:SuperOffice.CRM.IPersonInfo.Country
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: Country
+  nameWithType: IPersonInfo.Country
+  fullName: SuperOffice.CRM.IPersonInfo.Country
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Country2*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Country2
+  isExternal: true
+  name: Country2
+  nameWithType: SimplePersonInfo.Country2
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Country2
+- uid: SuperOffice.CRM.IPersonInfo.Country2
+  commentId: P:SuperOffice.CRM.IPersonInfo.Country2
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: Country2
+  nameWithType: IPersonInfo.Country2
+  fullName: SuperOffice.CRM.IPersonInfo.Country2
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.CountryCode*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.CountryCode
+  isExternal: true
+  name: CountryCode
+  nameWithType: SimplePersonInfo.CountryCode
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.CountryCode
+- uid: SuperOffice.CRM.IPersonInfo.CountryCode
+  commentId: P:SuperOffice.CRM.IPersonInfo.CountryCode
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: CountryCode
+  nameWithType: IPersonInfo.CountryCode
+  fullName: SuperOffice.CRM.IPersonInfo.CountryCode
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.CountryId*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.CountryId
+  isExternal: true
+  name: CountryId
+  nameWithType: SimplePersonInfo.CountryId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.CountryId
+- uid: SuperOffice.CRM.IPersonInfo.CountryId
+  commentId: P:SuperOffice.CRM.IPersonInfo.CountryId
+  parent: SuperOffice.CRM.IPersonInfo
+  isExternal: true
+  name: CountryId
+  nameWithType: IPersonInfo.CountryId
+  fullName: SuperOffice.CRM.IPersonInfo.CountryId
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Retired*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Retired
+  isExternal: true
+  name: Retired
+  nameWithType: SimplePersonInfo.Retired
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.Retired
+- uid: SuperOffice.CRM.IPersonInfo2.Retired
+  commentId: P:SuperOffice.CRM.IPersonInfo2.Retired
+  parent: SuperOffice.CRM.IPersonInfo2
+  isExternal: true
+  name: Retired
+  nameWithType: IPersonInfo2.Retired
+  fullName: SuperOffice.CRM.IPersonInfo2.Retired
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PreferredLanguageId*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PreferredLanguageId
+  isExternal: true
+  name: PreferredLanguageId
+  nameWithType: SimplePersonInfo.PreferredLanguageId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PreferredLanguageId
+- uid: SuperOffice.CRM.IPersonInfo2.PreferredLanguageId
+  commentId: P:SuperOffice.CRM.IPersonInfo2.PreferredLanguageId
+  parent: SuperOffice.CRM.IPersonInfo2
+  isExternal: true
+  name: PreferredLanguageId
+  nameWithType: IPersonInfo2.PreferredLanguageId
+  fullName: SuperOffice.CRM.IPersonInfo2.PreferredLanguageId
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PreferredLanguageName*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PreferredLanguageName
+  isExternal: true
+  name: PreferredLanguageName
+  nameWithType: SimplePersonInfo.PreferredLanguageName
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.PreferredLanguageName
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ServicePriority*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ServicePriority
+  isExternal: true
+  name: ServicePriority
+  nameWithType: SimplePersonInfo.ServicePriority
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ServicePriority
+- uid: SuperOffice.CRM.IPersonInfo2.ServicePriority
+  commentId: P:SuperOffice.CRM.IPersonInfo2.ServicePriority
+  parent: SuperOffice.CRM.IPersonInfo2
+  isExternal: true
+  name: ServicePriority
+  nameWithType: IPersonInfo2.ServicePriority
+  fullName: SuperOffice.CRM.IPersonInfo2.ServicePriority
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ServiceContactId*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ServiceContactId
+  isExternal: true
+  name: ServiceContactId
+  nameWithType: SimplePersonInfo.ServiceContactId
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ServiceContactId
+- uid: SuperOffice.CRM.IPersonInfo2.ServiceContactId
+  commentId: P:SuperOffice.CRM.IPersonInfo2.ServiceContactId
+  parent: SuperOffice.CRM.IPersonInfo2
+  isExternal: true
+  name: ServiceContactId
+  nameWithType: IPersonInfo2.ServiceContactId
+  fullName: SuperOffice.CRM.IPersonInfo2.ServiceContactId
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ServiceContactName*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ServiceContactName
+  isExternal: true
+  name: ServiceContactName
+  nameWithType: SimplePersonInfo.ServiceContactName
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.ServiceContactName
+- uid: SuperOffice.CRM.IPersonInfo2.ServiceContactName
+  commentId: P:SuperOffice.CRM.IPersonInfo2.ServiceContactName
+  parent: SuperOffice.CRM.IPersonInfo2
+  isExternal: true
+  name: ServiceContactName
+  nameWithType: IPersonInfo2.ServiceContactName
+  fullName: SuperOffice.CRM.IPersonInfo2.ServiceContactName
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UdefDecimal*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UdefDecimal
+  isExternal: true
+  name: UdefDecimal
+  nameWithType: SimplePersonInfo.UdefDecimal
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UdefDecimal
+- uid: SuperOffice.CRM.Entities.Providers.InfoUdefDict
+  commentId: T:SuperOffice.CRM.Entities.Providers.InfoUdefDict
+  parent: SuperOffice.CRM.Entities.Providers
+  isExternal: true
+  name: InfoUdefDict
+  nameWithType: InfoUdefDict
+  fullName: SuperOffice.CRM.Entities.Providers.InfoUdefDict
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UdefInt*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UdefInt
+  isExternal: true
+  name: UdefInt
+  nameWithType: SimplePersonInfo.UdefInt
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UdefInt
+- uid: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UdefString*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UdefString
+  isExternal: true
+  name: UdefString
+  nameWithType: SimplePersonInfo.UdefString
+  fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.UdefString

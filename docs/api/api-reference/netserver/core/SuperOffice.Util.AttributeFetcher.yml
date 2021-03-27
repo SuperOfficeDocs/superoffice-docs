@@ -1,0 +1,451 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.AttributeFetcher
+  commentId: T:SuperOffice.Util.AttributeFetcher
+  id: AttributeFetcher
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.AttributeFetcher.FetchAttribute``1(System.Object)
+  - SuperOffice.Util.AttributeFetcher.FetchAttribute``1(System.Type)
+  langs:
+  - csharp
+  - vb
+  name: AttributeFetcher
+  nameWithType: AttributeFetcher
+  fullName: SuperOffice.Util.AttributeFetcher
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nHelper class (static method collection) that will fetch a given attribute from a type, or an instance of a type\n"
+  syntax:
+    content: public static class AttributeFetcher
+    content.vb: Public Module AttributeFetcher
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Util.AttributeFetcher.FetchAttribute``1(System.Type)
+  commentId: M:SuperOffice.Util.AttributeFetcher.FetchAttribute``1(System.Type)
+  id: FetchAttribute``1(System.Type)
+  parent: SuperOffice.Util.AttributeFetcher
+  langs:
+  - csharp
+  - vb
+  name: FetchAttribute<AttributeClass>(Type)
+  nameWithType: AttributeFetcher.FetchAttribute<AttributeClass>(Type)
+  fullName: SuperOffice.Util.AttributeFetcher.FetchAttribute<AttributeClass>(System.Type)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nFetch the first (if any) attribute of the given type from some source type\n"
+  syntax:
+    content: >-
+      public static AttributeClass FetchAttribute<AttributeClass>(Type sourceType)
+          where AttributeClass : Attribute
+    parameters:
+    - id: sourceType
+      type: System.Type
+      description: The type (class) to fetch the attribute from
+    typeParameters:
+    - id: AttributeClass
+      description: The attribute to fetch
+    return:
+      type: '{AttributeClass}'
+      description: Attribute instance if present, otherwise null
+    content.vb: Public Shared Function FetchAttribute(Of AttributeClass As Attribute)(sourceType As Type) As AttributeClass
+  overload: SuperOffice.Util.AttributeFetcher.FetchAttribute*
+  nameWithType.vb: AttributeFetcher.FetchAttribute(Of AttributeClass)(Type)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.AttributeFetcher.FetchAttribute(Of AttributeClass)(System.Type)
+  name.vb: FetchAttribute(Of AttributeClass)(Type)
+- uid: SuperOffice.Util.AttributeFetcher.FetchAttribute``1(System.Object)
+  commentId: M:SuperOffice.Util.AttributeFetcher.FetchAttribute``1(System.Object)
+  id: FetchAttribute``1(System.Object)
+  parent: SuperOffice.Util.AttributeFetcher
+  langs:
+  - csharp
+  - vb
+  name: FetchAttribute<AttributeClass>(Object)
+  nameWithType: AttributeFetcher.FetchAttribute<AttributeClass>(Object)
+  fullName: SuperOffice.Util.AttributeFetcher.FetchAttribute<AttributeClass>(System.Object)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nFetch the first (if any) attribute of the given type from an instance of some source type\n"
+  syntax:
+    content: >-
+      public static AttributeClass FetchAttribute<AttributeClass>(object source)
+          where AttributeClass : Attribute
+    parameters:
+    - id: source
+      type: System.Object
+      description: An instance of the type (class) to fetch the attribute from
+    typeParameters:
+    - id: AttributeClass
+      description: The attribute to fetch
+    return:
+      type: '{AttributeClass}'
+      description: Attribute instance if present, otherwise null
+    content.vb: Public Shared Function FetchAttribute(Of AttributeClass As Attribute)(source As Object) As AttributeClass
+  overload: SuperOffice.Util.AttributeFetcher.FetchAttribute*
+  nameWithType.vb: AttributeFetcher.FetchAttribute(Of AttributeClass)(Object)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.AttributeFetcher.FetchAttribute(Of AttributeClass)(System.Object)
+  name.vb: FetchAttribute(Of AttributeClass)(Object)
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Util.AttributeFetcher.FetchAttribute*
+  commentId: Overload:SuperOffice.Util.AttributeFetcher.FetchAttribute
+  isExternal: true
+  name: FetchAttribute
+  nameWithType: AttributeFetcher.FetchAttribute
+  fullName: SuperOffice.Util.AttributeFetcher.FetchAttribute
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: '{AttributeClass}'
+  commentId: '!:AttributeClass'
+  definition: AttributeClass
+  name: AttributeClass
+  nameWithType: AttributeClass
+  fullName: AttributeClass
+- uid: AttributeClass
+  name: AttributeClass
+  nameWithType: AttributeClass
+  fullName: AttributeClass

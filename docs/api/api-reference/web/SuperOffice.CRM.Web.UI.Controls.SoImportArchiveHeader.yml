@@ -1,0 +1,1143 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader
+  id: SoImportArchiveHeader
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.#ctor
+  - SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.HasDynamicFilterColumns
+  - SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.Initialize(System.Xml.XmlNode,System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[],System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Collections.Hashtable,System.Boolean)
+  - SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.OnLoad(System.EventArgs)
+  - SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.RenderDefaultSortItem(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  - SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.RenderHeaderTDAttributes(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  langs:
+  - csharp
+  - vb
+  name: SoImportArchiveHeader
+  nameWithType: SoImportArchiveHeader
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: >-
+      [SoWebObject("SoImportArchiveHeader")]
+
+      public class SoImportArchiveHeader : ArchiveHeader, IArchiveControlHeader, IWebObject, IPlugin
+    content.vb: >-
+      <SoWebObject("SoImportArchiveHeader")>
+
+      Public Class SoImportArchiveHeader
+          Inherits ArchiveHeader
+          Implements IArchiveControlHeader, IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+  implements:
+  - SuperOffice.CRM.Web.UI.Controls.IArchiveControlHeader
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._columnInfos
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._clientControlId
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._clientHeaderTableId
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._width
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._height
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._defaultSort
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._noSorting
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._textBoxControls
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._mdoControls
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._dateSelectControls
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.Render(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RightAlign(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.calcWidth(System.String)
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.getWidthType(System.String)
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.Width
+  - SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.Height
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SoImportArchiveHeader
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.OnLoad(System.EventArgs)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.OnLoad(System.EventArgs)
+  id: OnLoad(System.EventArgs)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader
+  langs:
+  - csharp
+  - vb
+  name: OnLoad(EventArgs)
+  nameWithType: SoImportArchiveHeader.OnLoad(EventArgs)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.OnLoad(System.EventArgs)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override void OnLoad(EventArgs e)
+    parameters:
+    - id: e
+      type: System.EventArgs
+    content.vb: Protected Overrides Sub OnLoad(e As EventArgs)
+  overridden: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.OnLoad(System.EventArgs)
+  overload: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.OnLoad*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.Initialize(System.Xml.XmlNode,System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[],System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Collections.Hashtable,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.Initialize(System.Xml.XmlNode,System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[],System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Collections.Hashtable,System.Boolean)
+  id: Initialize(System.Xml.XmlNode,System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[],System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Collections.Hashtable,System.Boolean)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader
+  langs:
+  - csharp
+  - vb
+  name: Initialize(XmlNode, String, String, ArchiveColumnInfo[], String, ArchiveRestrictionInfo[], Hashtable, Boolean)
+  nameWithType: SoImportArchiveHeader.Initialize(XmlNode, String, String, ArchiveColumnInfo[], String, ArchiveRestrictionInfo[], Hashtable, Boolean)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.Initialize(System.Xml.XmlNode, System.String, System.String, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[], System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.Collections.Hashtable, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public override void Initialize(XmlNode config, string clientControlId, string clientHeaderTableId, ArchiveColumnInfo[] columns, string defaultSort, ArchiveRestrictionInfo[] dynamicFilterRestrictions, Hashtable dynamicFilterExcludes, bool showDynamicFilter)
+    parameters:
+    - id: config
+      type: System.Xml.XmlNode
+    - id: clientControlId
+      type: System.String
+    - id: clientHeaderTableId
+      type: System.String
+    - id: columns
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+    - id: defaultSort
+      type: System.String
+    - id: dynamicFilterRestrictions
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+    - id: dynamicFilterExcludes
+      type: System.Collections.Hashtable
+    - id: showDynamicFilter
+      type: System.Boolean
+    content.vb: Public Overrides Sub Initialize(config As XmlNode, clientControlId As String, clientHeaderTableId As String, columns As ArchiveColumnInfo(), defaultSort As String, dynamicFilterRestrictions As ArchiveRestrictionInfo(), dynamicFilterExcludes As Hashtable, showDynamicFilter As Boolean)
+  overridden: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.Initialize(System.Xml.XmlNode,System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[],System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Collections.Hashtable,System.Boolean)
+  overload: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.Initialize*
+  nameWithType.vb: SoImportArchiveHeader.Initialize(XmlNode, String, String, ArchiveColumnInfo(), String, ArchiveRestrictionInfo(), Hashtable, Boolean)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.Initialize(System.Xml.XmlNode, System.String, System.String, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo(), System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.Collections.Hashtable, System.Boolean)
+  name.vb: Initialize(XmlNode, String, String, ArchiveColumnInfo(), String, ArchiveRestrictionInfo(), Hashtable, Boolean)
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.RenderHeaderTDAttributes(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.RenderHeaderTDAttributes(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  id: RenderHeaderTDAttributes(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader
+  langs:
+  - csharp
+  - vb
+  name: RenderHeaderTDAttributes(HtmlTextWriter, ArchiveColumnInfo)
+  nameWithType: SoImportArchiveHeader.RenderHeaderTDAttributes(HtmlTextWriter, ArchiveColumnInfo)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.RenderHeaderTDAttributes(System.Web.UI.HtmlTextWriter, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override void RenderHeaderTDAttributes(HtmlTextWriter writer, ArchiveColumnInfo column)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    - id: column
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected Overrides Sub RenderHeaderTDAttributes(writer As HtmlTextWriter, column As ArchiveColumnInfo)
+  overridden: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RenderHeaderTDAttributes(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  overload: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.RenderHeaderTDAttributes*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  id: RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader
+  langs:
+  - csharp
+  - vb
+  name: RenderHeaderItem(HtmlTextWriter, ArchiveColumnInfo)
+  nameWithType: SoImportArchiveHeader.RenderHeaderItem(HtmlTextWriter, ArchiveColumnInfo)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.RenderHeaderItem(System.Web.UI.HtmlTextWriter, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override void RenderHeaderItem(HtmlTextWriter writer, ArchiveColumnInfo column)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    - id: column
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected Overrides Sub RenderHeaderItem(writer As HtmlTextWriter, column As ArchiveColumnInfo)
+  overridden: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  overload: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.RenderHeaderItem*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.RenderDefaultSortItem(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.RenderDefaultSortItem(System.Web.UI.HtmlTextWriter)
+  id: RenderDefaultSortItem(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader
+  langs:
+  - csharp
+  - vb
+  name: RenderDefaultSortItem(HtmlTextWriter)
+  nameWithType: SoImportArchiveHeader.RenderDefaultSortItem(HtmlTextWriter)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.RenderDefaultSortItem(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override void RenderDefaultSortItem(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overrides Sub RenderDefaultSortItem(writer As HtmlTextWriter)
+  overridden: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RenderDefaultSortItem(System.Web.UI.HtmlTextWriter)
+  overload: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.RenderDefaultSortItem*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.HasDynamicFilterColumns
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.HasDynamicFilterColumns
+  id: HasDynamicFilterColumns
+  parent: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader
+  langs:
+  - csharp
+  - vb
+  name: HasDynamicFilterColumns()
+  nameWithType: SoImportArchiveHeader.HasDynamicFilterColumns()
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.HasDynamicFilterColumns()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override bool HasDynamicFilterColumns()
+    return:
+      type: System.Boolean
+    content.vb: Protected Overrides Function HasDynamicFilterColumns As Boolean
+  overridden: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.HasDynamicFilterColumns
+  overload: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.HasDynamicFilterColumns*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader
+  langs:
+  - csharp
+  - vb
+  name: SoImportArchiveHeader()
+  nameWithType: SoImportArchiveHeader.SoImportArchiveHeader()
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.SoImportArchiveHeader()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public SoImportArchiveHeader()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: ArchiveHeader
+  nameWithType: ArchiveHeader
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+- uid: SuperOffice.CRM.Web.UI.Controls.IArchiveControlHeader
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.IArchiveControlHeader
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: IArchiveControlHeader
+  nameWithType: IArchiveControlHeader
+  fullName: SuperOffice.CRM.Web.UI.Controls.IArchiveControlHeader
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._columnInfos
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._columnInfos
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+  isExternal: true
+  name: _columnInfos
+  nameWithType: ArchiveHeader._columnInfos
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._columnInfos
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._clientControlId
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._clientControlId
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+  isExternal: true
+  name: _clientControlId
+  nameWithType: ArchiveHeader._clientControlId
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._clientControlId
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._clientHeaderTableId
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._clientHeaderTableId
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+  isExternal: true
+  name: _clientHeaderTableId
+  nameWithType: ArchiveHeader._clientHeaderTableId
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._clientHeaderTableId
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._width
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._width
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+  isExternal: true
+  name: _width
+  nameWithType: ArchiveHeader._width
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._width
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._height
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._height
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+  isExternal: true
+  name: _height
+  nameWithType: ArchiveHeader._height
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._height
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._defaultSort
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._defaultSort
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+  isExternal: true
+  name: _defaultSort
+  nameWithType: ArchiveHeader._defaultSort
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._defaultSort
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._noSorting
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._noSorting
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+  isExternal: true
+  name: _noSorting
+  nameWithType: ArchiveHeader._noSorting
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._noSorting
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._textBoxControls
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._textBoxControls
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+  isExternal: true
+  name: _textBoxControls
+  nameWithType: ArchiveHeader._textBoxControls
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._textBoxControls
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._mdoControls
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._mdoControls
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+  isExternal: true
+  name: _mdoControls
+  nameWithType: ArchiveHeader._mdoControls
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._mdoControls
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._dateSelectControls
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._dateSelectControls
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+  isExternal: true
+  name: _dateSelectControls
+  nameWithType: ArchiveHeader._dateSelectControls
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader._dateSelectControls
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+  isExternal: true
+  name: Render(HtmlTextWriter)
+  nameWithType: ArchiveHeader.Render(HtmlTextWriter)
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.Render(System.Web.UI.HtmlTextWriter)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.Render(System.Web.UI.HtmlTextWriter)
+    name: Render
+    nameWithType: ArchiveHeader.Render
+    fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.Render
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.Render(System.Web.UI.HtmlTextWriter)
+    name: Render
+    nameWithType: ArchiveHeader.Render
+    fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.Render
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RightAlign(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RightAlign(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+  isExternal: true
+  name: RightAlign(ArchiveColumnInfo)
+  nameWithType: ArchiveHeader.RightAlign(ArchiveColumnInfo)
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RightAlign(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RightAlign(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+    name: RightAlign
+    nameWithType: ArchiveHeader.RightAlign
+    fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RightAlign
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RightAlign(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+    name: RightAlign
+    nameWithType: ArchiveHeader.RightAlign
+    fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RightAlign
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.calcWidth(System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.calcWidth(System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+  isExternal: true
+  name: calcWidth(String)
+  nameWithType: ArchiveHeader.calcWidth(String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.calcWidth(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.calcWidth(System.String)
+    name: calcWidth
+    nameWithType: ArchiveHeader.calcWidth
+    fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.calcWidth
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.calcWidth(System.String)
+    name: calcWidth
+    nameWithType: ArchiveHeader.calcWidth
+    fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.calcWidth
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.getWidthType(System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.getWidthType(System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+  isExternal: true
+  name: getWidthType(String)
+  nameWithType: ArchiveHeader.getWidthType(String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.getWidthType(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.getWidthType(System.String)
+    name: getWidthType
+    nameWithType: ArchiveHeader.getWidthType
+    fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.getWidthType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.getWidthType(System.String)
+    name: getWidthType
+    nameWithType: ArchiveHeader.getWidthType
+    fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.getWidthType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.Width
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.Width
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+  isExternal: true
+  name: Width
+  nameWithType: ArchiveHeader.Width
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.Width
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.Height
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.Height
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+  isExternal: true
+  name: Height
+  nameWithType: ArchiveHeader.Height
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.Height
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.OnLoad(System.EventArgs)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.OnLoad(System.EventArgs)
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+  isExternal: true
+  name: OnLoad(EventArgs)
+  nameWithType: ArchiveHeader.OnLoad(EventArgs)
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.OnLoad(System.EventArgs)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.OnLoad(System.EventArgs)
+    name: OnLoad
+    nameWithType: ArchiveHeader.OnLoad
+    fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.OnLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.OnLoad(System.EventArgs)
+    name: OnLoad
+    nameWithType: ArchiveHeader.OnLoad
+    fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.OnLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.OnLoad*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.OnLoad
+  isExternal: true
+  name: OnLoad
+  nameWithType: SoImportArchiveHeader.OnLoad
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.OnLoad
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.Initialize(System.Xml.XmlNode,System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[],System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Collections.Hashtable,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.Initialize(System.Xml.XmlNode,System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[],System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Collections.Hashtable,System.Boolean)
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+  isExternal: true
+  name: Initialize(XmlNode, String, String, ArchiveColumnInfo[], String, ArchiveRestrictionInfo[], Hashtable, Boolean)
+  nameWithType: ArchiveHeader.Initialize(XmlNode, String, String, ArchiveColumnInfo[], String, ArchiveRestrictionInfo[], Hashtable, Boolean)
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.Initialize(System.Xml.XmlNode, System.String, System.String, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[], System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.Collections.Hashtable, System.Boolean)
+  nameWithType.vb: ArchiveHeader.Initialize(XmlNode, String, String, ArchiveColumnInfo(), String, ArchiveRestrictionInfo(), Hashtable, Boolean)
+  fullName.vb: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.Initialize(System.Xml.XmlNode, System.String, System.String, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo(), System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.Collections.Hashtable, System.Boolean)
+  name.vb: Initialize(XmlNode, String, String, ArchiveColumnInfo(), String, ArchiveRestrictionInfo(), Hashtable, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.Initialize(System.Xml.XmlNode,System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[],System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Collections.Hashtable,System.Boolean)
+    name: Initialize
+    nameWithType: ArchiveHeader.Initialize
+    fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Hashtable
+    name: Hashtable
+    nameWithType: Hashtable
+    fullName: System.Collections.Hashtable
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.Initialize(System.Xml.XmlNode,System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[],System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Collections.Hashtable,System.Boolean)
+    name: Initialize
+    nameWithType: ArchiveHeader.Initialize
+    fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Hashtable
+    name: Hashtable
+    nameWithType: Hashtable
+    fullName: System.Collections.Hashtable
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.Initialize*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.Initialize
+  isExternal: true
+  name: Initialize
+  nameWithType: SoImportArchiveHeader.Initialize
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.Initialize
+- uid: System.Xml.XmlNode
+  isExternal: true
+  name: XmlNode
+  nameWithType: XmlNode
+  fullName: System.Xml.XmlNode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+  isExternal: true
+  name: ArchiveColumnInfo[]
+  nameWithType: ArchiveColumnInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+  nameWithType.vb: ArchiveColumnInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo()
+  name.vb: ArchiveColumnInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Collections.Hashtable
+  commentId: T:System.Collections.Hashtable
+  parent: System.Collections
+  isExternal: true
+  name: Hashtable
+  nameWithType: Hashtable
+  fullName: System.Collections.Hashtable
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RenderHeaderTDAttributes(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RenderHeaderTDAttributes(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+  isExternal: true
+  name: RenderHeaderTDAttributes(HtmlTextWriter, ArchiveColumnInfo)
+  nameWithType: ArchiveHeader.RenderHeaderTDAttributes(HtmlTextWriter, ArchiveColumnInfo)
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RenderHeaderTDAttributes(System.Web.UI.HtmlTextWriter, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RenderHeaderTDAttributes(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+    name: RenderHeaderTDAttributes
+    nameWithType: ArchiveHeader.RenderHeaderTDAttributes
+    fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RenderHeaderTDAttributes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RenderHeaderTDAttributes(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+    name: RenderHeaderTDAttributes
+    nameWithType: ArchiveHeader.RenderHeaderTDAttributes
+    fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RenderHeaderTDAttributes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.RenderHeaderTDAttributes*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.RenderHeaderTDAttributes
+  isExternal: true
+  name: RenderHeaderTDAttributes
+  nameWithType: SoImportArchiveHeader.RenderHeaderTDAttributes
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.RenderHeaderTDAttributes
+- uid: System.Web.UI.HtmlTextWriter
+  isExternal: true
+  name: HtmlTextWriter
+  nameWithType: HtmlTextWriter
+  fullName: System.Web.UI.HtmlTextWriter
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+  isExternal: true
+  name: ArchiveColumnInfo
+  nameWithType: ArchiveColumnInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+  isExternal: true
+  name: RenderHeaderItem(HtmlTextWriter, ArchiveColumnInfo)
+  nameWithType: ArchiveHeader.RenderHeaderItem(HtmlTextWriter, ArchiveColumnInfo)
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RenderHeaderItem(System.Web.UI.HtmlTextWriter, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+    name: RenderHeaderItem
+    nameWithType: ArchiveHeader.RenderHeaderItem
+    fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RenderHeaderItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RenderHeaderItem(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+    name: RenderHeaderItem
+    nameWithType: ArchiveHeader.RenderHeaderItem
+    fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RenderHeaderItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.RenderHeaderItem*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.RenderHeaderItem
+  isExternal: true
+  name: RenderHeaderItem
+  nameWithType: SoImportArchiveHeader.RenderHeaderItem
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.RenderHeaderItem
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RenderDefaultSortItem(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RenderDefaultSortItem(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+  isExternal: true
+  name: RenderDefaultSortItem(HtmlTextWriter)
+  nameWithType: ArchiveHeader.RenderDefaultSortItem(HtmlTextWriter)
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RenderDefaultSortItem(System.Web.UI.HtmlTextWriter)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RenderDefaultSortItem(System.Web.UI.HtmlTextWriter)
+    name: RenderDefaultSortItem
+    nameWithType: ArchiveHeader.RenderDefaultSortItem
+    fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RenderDefaultSortItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RenderDefaultSortItem(System.Web.UI.HtmlTextWriter)
+    name: RenderDefaultSortItem
+    nameWithType: ArchiveHeader.RenderDefaultSortItem
+    fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.RenderDefaultSortItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.RenderDefaultSortItem*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.RenderDefaultSortItem
+  isExternal: true
+  name: RenderDefaultSortItem
+  nameWithType: SoImportArchiveHeader.RenderDefaultSortItem
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.RenderDefaultSortItem
+- uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.HasDynamicFilterColumns
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.HasDynamicFilterColumns
+  parent: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+  isExternal: true
+  name: HasDynamicFilterColumns()
+  nameWithType: ArchiveHeader.HasDynamicFilterColumns()
+  fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.HasDynamicFilterColumns()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.HasDynamicFilterColumns
+    name: HasDynamicFilterColumns
+    nameWithType: ArchiveHeader.HasDynamicFilterColumns
+    fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.HasDynamicFilterColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.HasDynamicFilterColumns
+    name: HasDynamicFilterColumns
+    nameWithType: ArchiveHeader.HasDynamicFilterColumns
+    fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader.HasDynamicFilterColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.HasDynamicFilterColumns*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.HasDynamicFilterColumns
+  isExternal: true
+  name: HasDynamicFilterColumns
+  nameWithType: SoImportArchiveHeader.HasDynamicFilterColumns
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.HasDynamicFilterColumns
+- uid: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.#ctor
+  isExternal: true
+  name: SoImportArchiveHeader
+  nameWithType: SoImportArchiveHeader.SoImportArchiveHeader
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader.SoImportArchiveHeader

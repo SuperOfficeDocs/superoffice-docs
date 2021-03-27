@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SentryAddonNames
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.SentryAddonNames
+  id: UserPreferenceStrings.SentryAddonNames
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.SentryAddonNames.Section
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.SentryAddonNames
+  nameWithType: UserPreferenceStrings.SentryAddonNames
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SentryAddonNames
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSentry Addons: [SentryAddonNames] dummy-name = prog.id.  The prog.id is requred and \nmatches ProgId property of the sentry plugin attribute.\n"
+  remarks: "\nVerification is  done by adding a progid string to the sentry plugin attribute, so that \nNetServer plugins can declare the COM progid without having to actually be COM compatible. \nNetServer can then check the sentry preferences and verify that all progids are present \nbefore allowing user to log in. Ignore Sentry in config file or logging in with system \nuser disables the sentry plugin check.\n"
+  syntax:
+    content: 'public static class SentryAddonNames : Object'
+    content.vb: >-
+      Public Module SentryAddonNames
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SentryAddonNames.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.SentryAddonNames.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.SentryAddonNames
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.SentryAddonNames.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SentryAddonNames.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "SentryAddonNames"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "SentryAddonNames"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.Implementation
+  commentId: N:SuperOffice.CRM.Services.Implementation
+  id: SuperOffice.CRM.Services.Implementation
+  children:
+  - SuperOffice.CRM.Services.Implementation.ServiceLogContext
+  - SuperOffice.CRM.Services.Implementation.ServiceLogger
+  - SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.Services.Implementation
+  nameWithType: SuperOffice.CRM.Services.Implementation
+  fullName: SuperOffice.CRM.Services.Implementation
+  type: Namespace
+  assemblies:
+  - SOCore
+references:
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogger
+  commentId: T:SuperOffice.CRM.Services.Implementation.ServiceLogger
+  isExternal: true
+  name: ServiceLogger
+  nameWithType: ServiceLogger
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext
+  commentId: T:SuperOffice.CRM.Services.Implementation.ServiceLogContext
+  parent: SuperOffice.CRM.Services.Implementation
+  isExternal: true
+  name: ServiceLogContext
+  nameWithType: ServiceLogContext
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin
+  commentId: T:SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin
+  isExternal: true
+  name: ServiceLoggerEnvironmentInfoPlugin
+  nameWithType: ServiceLoggerEnvironmentInfoPlugin
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin
+- uid: SuperOffice.CRM.Services.Implementation
+  commentId: N:SuperOffice.CRM.Services.Implementation
+  isExternal: true
+  name: SuperOffice.CRM.Services.Implementation
+  nameWithType: SuperOffice.CRM.Services.Implementation
+  fullName: SuperOffice.CRM.Services.Implementation

@@ -1,0 +1,1188 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler
+  commentId: T:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler
+  id: EMailAuthenticationHandler
+  parent: SuperOffice.CRM.Web.Data
+  children:
+  - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.#ctor
+  - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthIncomingServer
+  - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthIncomingServer(System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthIncomingServer(System.String,System.String,System.String,System.Boolean)
+  - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthOutgoingServer
+  - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthOutgoingServer(System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthOutgoingServer(System.String,System.String,System.String,System.Boolean)
+  - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.ConvertToNewInbox(System.Web.UI.Page)
+  - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetConnectionDictionary(System.Boolean,System.String)
+  - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetConnectionObject(System.Boolean)
+  - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetConnectionObject(System.Boolean,System.String)
+  - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetCredentials(System.String)
+  - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.IsLoggedOnEmailServer
+  - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.IsLoggedOnNewInbox
+  - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.OldInBoxHasAuth
+  - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.RemoveCredentials(System.String,System.String)
+  - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.SaveCredentials(SuperOffice.CRM.Web.Data.MailCredentials)
+  - SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.ToUntrustedCredentials(SuperOffice.CRM.Web.Data.MailCredentials)
+  langs:
+  - csharp
+  - vb
+  name: EMailAuthenticationHandler
+  nameWithType: EMailAuthenticationHandler
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: >-
+      [SoWebObject("EMailAuthenticationHandler")]
+
+      public class EMailAuthenticationHandler : IWebObject, IPlugin
+    content.vb: >-
+      <SoWebObject("EMailAuthenticationHandler")>
+
+      Public Class EMailAuthenticationHandler
+          Implements IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: EMailAuthenticationHandler
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthIncomingServer(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthIncomingServer(System.String,System.String,System.String)
+  id: AuthIncomingServer(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler
+  langs:
+  - csharp
+  - vb
+  name: AuthIncomingServer(String, String, String)
+  nameWithType: EMailAuthenticationHandler.AuthIncomingServer(String, String, String)
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthIncomingServer(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static void AuthIncomingServer(string server, string username, string password)
+    parameters:
+    - id: server
+      type: System.String
+    - id: username
+      type: System.String
+    - id: password
+      type: System.String
+    content.vb: Public Shared Sub AuthIncomingServer(server As String, username As String, password As String)
+  overload: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthIncomingServer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthIncomingServer(System.String,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthIncomingServer(System.String,System.String,System.String,System.Boolean)
+  id: AuthIncomingServer(System.String,System.String,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler
+  langs:
+  - csharp
+  - vb
+  name: AuthIncomingServer(String, String, String, Boolean)
+  nameWithType: EMailAuthenticationHandler.AuthIncomingServer(String, String, String, Boolean)
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthIncomingServer(System.String, System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static void AuthIncomingServer(string server, string username, string password, bool useSSL)
+    parameters:
+    - id: server
+      type: System.String
+    - id: username
+      type: System.String
+    - id: password
+      type: System.String
+    - id: useSSL
+      type: System.Boolean
+    content.vb: Public Shared Sub AuthIncomingServer(server As String, username As String, password As String, useSSL As Boolean)
+  overload: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthIncomingServer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.ConvertToNewInbox(System.Web.UI.Page)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.ConvertToNewInbox(System.Web.UI.Page)
+  id: ConvertToNewInbox(System.Web.UI.Page)
+  parent: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler
+  langs:
+  - csharp
+  - vb
+  name: ConvertToNewInbox(Page)
+  nameWithType: EMailAuthenticationHandler.ConvertToNewInbox(Page)
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.ConvertToNewInbox(System.Web.UI.Page)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static void ConvertToNewInbox(Page page)
+    parameters:
+    - id: page
+      type: System.Web.UI.Page
+    content.vb: Public Shared Sub ConvertToNewInbox(page As Page)
+  overload: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.ConvertToNewInbox*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.OldInBoxHasAuth
+  commentId: M:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.OldInBoxHasAuth
+  id: OldInBoxHasAuth
+  parent: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler
+  langs:
+  - csharp
+  - vb
+  name: OldInBoxHasAuth()
+  nameWithType: EMailAuthenticationHandler.OldInBoxHasAuth()
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.OldInBoxHasAuth()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static bool OldInBoxHasAuth()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function OldInBoxHasAuth As Boolean
+  overload: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.OldInBoxHasAuth*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthIncomingServer
+  commentId: M:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthIncomingServer
+  id: AuthIncomingServer
+  parent: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler
+  langs:
+  - csharp
+  - vb
+  name: AuthIncomingServer()
+  nameWithType: EMailAuthenticationHandler.AuthIncomingServer()
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthIncomingServer()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static bool AuthIncomingServer()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function AuthIncomingServer As Boolean
+  overload: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthIncomingServer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetConnectionObject(System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetConnectionObject(System.Boolean)
+  id: GetConnectionObject(System.Boolean)
+  parent: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler
+  langs:
+  - csharp
+  - vb
+  name: GetConnectionObject(Boolean)
+  nameWithType: EMailAuthenticationHandler.GetConnectionObject(Boolean)
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetConnectionObject(System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static EMailConnectionInfo GetConnectionObject(bool outgoing)
+    parameters:
+    - id: outgoing
+      type: System.Boolean
+    return:
+      type: SuperOffice.CRM.Services.EMailConnectionInfo
+    content.vb: Public Shared Function GetConnectionObject(outgoing As Boolean) As EMailConnectionInfo
+  overload: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetConnectionObject*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetConnectionDictionary(System.Boolean,System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetConnectionDictionary(System.Boolean,System.String)
+  id: GetConnectionDictionary(System.Boolean,System.String)
+  parent: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler
+  langs:
+  - csharp
+  - vb
+  name: GetConnectionDictionary(Boolean, String)
+  nameWithType: EMailAuthenticationHandler.GetConnectionDictionary(Boolean, String)
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetConnectionDictionary(System.Boolean, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static Dictionary<string, string> GetConnectionDictionary(bool outgoing, string folder)
+    parameters:
+    - id: outgoing
+      type: System.Boolean
+    - id: folder
+      type: System.String
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Public Shared Function GetConnectionDictionary(outgoing As Boolean, folder As String) As Dictionary(Of String, String)
+  overload: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetConnectionDictionary*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetConnectionObject(System.Boolean,System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetConnectionObject(System.Boolean,System.String)
+  id: GetConnectionObject(System.Boolean,System.String)
+  parent: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler
+  langs:
+  - csharp
+  - vb
+  name: GetConnectionObject(Boolean, String)
+  nameWithType: EMailAuthenticationHandler.GetConnectionObject(Boolean, String)
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetConnectionObject(System.Boolean, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static EMailConnectionInfo GetConnectionObject(bool outgoing, string folder)
+    parameters:
+    - id: outgoing
+      type: System.Boolean
+    - id: folder
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Services.EMailConnectionInfo
+    content.vb: Public Shared Function GetConnectionObject(outgoing As Boolean, folder As String) As EMailConnectionInfo
+  overload: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetConnectionObject*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthOutgoingServer(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthOutgoingServer(System.String,System.String,System.String)
+  id: AuthOutgoingServer(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler
+  langs:
+  - csharp
+  - vb
+  name: AuthOutgoingServer(String, String, String)
+  nameWithType: EMailAuthenticationHandler.AuthOutgoingServer(String, String, String)
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthOutgoingServer(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static void AuthOutgoingServer(string server, string username, string password)
+    parameters:
+    - id: server
+      type: System.String
+    - id: username
+      type: System.String
+    - id: password
+      type: System.String
+    content.vb: Public Shared Sub AuthOutgoingServer(server As String, username As String, password As String)
+  overload: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthOutgoingServer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthOutgoingServer(System.String,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthOutgoingServer(System.String,System.String,System.String,System.Boolean)
+  id: AuthOutgoingServer(System.String,System.String,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler
+  langs:
+  - csharp
+  - vb
+  name: AuthOutgoingServer(String, String, String, Boolean)
+  nameWithType: EMailAuthenticationHandler.AuthOutgoingServer(String, String, String, Boolean)
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthOutgoingServer(System.String, System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static void AuthOutgoingServer(string server, string username, string password, bool useSSL)
+    parameters:
+    - id: server
+      type: System.String
+    - id: username
+      type: System.String
+    - id: password
+      type: System.String
+    - id: useSSL
+      type: System.Boolean
+    content.vb: Public Shared Sub AuthOutgoingServer(server As String, username As String, password As String, useSSL As Boolean)
+  overload: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthOutgoingServer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.IsLoggedOnEmailServer
+  commentId: M:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.IsLoggedOnEmailServer
+  id: IsLoggedOnEmailServer
+  parent: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler
+  langs:
+  - csharp
+  - vb
+  name: IsLoggedOnEmailServer()
+  nameWithType: EMailAuthenticationHandler.IsLoggedOnEmailServer()
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.IsLoggedOnEmailServer()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static bool IsLoggedOnEmailServer()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsLoggedOnEmailServer As Boolean
+  overload: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.IsLoggedOnEmailServer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.IsLoggedOnNewInbox
+  commentId: M:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.IsLoggedOnNewInbox
+  id: IsLoggedOnNewInbox
+  parent: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler
+  langs:
+  - csharp
+  - vb
+  name: IsLoggedOnNewInbox()
+  nameWithType: EMailAuthenticationHandler.IsLoggedOnNewInbox()
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.IsLoggedOnNewInbox()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static bool IsLoggedOnNewInbox()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsLoggedOnNewInbox As Boolean
+  overload: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.IsLoggedOnNewInbox*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthOutgoingServer
+  commentId: M:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthOutgoingServer
+  id: AuthOutgoingServer
+  parent: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler
+  langs:
+  - csharp
+  - vb
+  name: AuthOutgoingServer()
+  nameWithType: EMailAuthenticationHandler.AuthOutgoingServer()
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthOutgoingServer()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static bool AuthOutgoingServer()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function AuthOutgoingServer As Boolean
+  overload: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthOutgoingServer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.RemoveCredentials(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.RemoveCredentials(System.String,System.String)
+  id: RemoveCredentials(System.String,System.String)
+  parent: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler
+  langs:
+  - csharp
+  - vb
+  name: RemoveCredentials(String, String)
+  nameWithType: EMailAuthenticationHandler.RemoveCredentials(String, String)
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.RemoveCredentials(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static void RemoveCredentials(string type, string publicValue)
+    parameters:
+    - id: type
+      type: System.String
+    - id: publicValue
+      type: System.String
+    content.vb: Public Shared Sub RemoveCredentials(type As String, publicValue As String)
+  overload: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.RemoveCredentials*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetCredentials(System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetCredentials(System.String)
+  id: GetCredentials(System.String)
+  parent: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler
+  langs:
+  - csharp
+  - vb
+  name: GetCredentials(String)
+  nameWithType: EMailAuthenticationHandler.GetCredentials(String)
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetCredentials(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static MailCredentials GetCredentials(string type)
+    parameters:
+    - id: type
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Web.Data.MailCredentials
+    content.vb: Public Shared Function GetCredentials(type As String) As MailCredentials
+  overload: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetCredentials*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.SaveCredentials(SuperOffice.CRM.Web.Data.MailCredentials)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.SaveCredentials(SuperOffice.CRM.Web.Data.MailCredentials)
+  id: SaveCredentials(SuperOffice.CRM.Web.Data.MailCredentials)
+  parent: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler
+  langs:
+  - csharp
+  - vb
+  name: SaveCredentials(MailCredentials)
+  nameWithType: EMailAuthenticationHandler.SaveCredentials(MailCredentials)
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.SaveCredentials(SuperOffice.CRM.Web.Data.MailCredentials)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static void SaveCredentials(MailCredentials mailCred)
+    parameters:
+    - id: mailCred
+      type: SuperOffice.CRM.Web.Data.MailCredentials
+    content.vb: Public Shared Sub SaveCredentials(mailCred As MailCredentials)
+  overload: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.SaveCredentials*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.ToUntrustedCredentials(SuperOffice.CRM.Web.Data.MailCredentials)
+  commentId: M:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.ToUntrustedCredentials(SuperOffice.CRM.Web.Data.MailCredentials)
+  id: ToUntrustedCredentials(SuperOffice.CRM.Web.Data.MailCredentials)
+  parent: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler
+  langs:
+  - csharp
+  - vb
+  name: ToUntrustedCredentials(MailCredentials)
+  nameWithType: EMailAuthenticationHandler.ToUntrustedCredentials(MailCredentials)
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.ToUntrustedCredentials(SuperOffice.CRM.Web.Data.MailCredentials)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static UntrustedCredentials ToUntrustedCredentials(MailCredentials mailCred)
+    parameters:
+    - id: mailCred
+      type: SuperOffice.CRM.Web.Data.MailCredentials
+    return:
+      type: SuperOffice.CRM.Services.UntrustedCredentials
+    content.vb: Public Shared Function ToUntrustedCredentials(mailCred As MailCredentials) As UntrustedCredentials
+  overload: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.ToUntrustedCredentials*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.#ctor
+  commentId: M:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler
+  langs:
+  - csharp
+  - vb
+  name: EMailAuthenticationHandler()
+  nameWithType: EMailAuthenticationHandler.EMailAuthenticationHandler()
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.EMailAuthenticationHandler()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public EMailAuthenticationHandler()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Data
+  commentId: N:SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: SuperOffice.CRM.Web.Data
+  nameWithType: SuperOffice.CRM.Web.Data
+  fullName: SuperOffice.CRM.Web.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthIncomingServer*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthIncomingServer
+  isExternal: true
+  name: AuthIncomingServer
+  nameWithType: EMailAuthenticationHandler.AuthIncomingServer
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthIncomingServer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.ConvertToNewInbox*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.ConvertToNewInbox
+  isExternal: true
+  name: ConvertToNewInbox
+  nameWithType: EMailAuthenticationHandler.ConvertToNewInbox
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.ConvertToNewInbox
+- uid: System.Web.UI.Page
+  isExternal: true
+  name: Page
+  nameWithType: Page
+  fullName: System.Web.UI.Page
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.OldInBoxHasAuth*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.OldInBoxHasAuth
+  isExternal: true
+  name: OldInBoxHasAuth
+  nameWithType: EMailAuthenticationHandler.OldInBoxHasAuth
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.OldInBoxHasAuth
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetConnectionObject*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetConnectionObject
+  isExternal: true
+  name: GetConnectionObject
+  nameWithType: EMailAuthenticationHandler.GetConnectionObject
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetConnectionObject
+- uid: SuperOffice.CRM.Services.EMailConnectionInfo
+  isExternal: true
+  name: EMailConnectionInfo
+  nameWithType: EMailConnectionInfo
+  fullName: SuperOffice.CRM.Services.EMailConnectionInfo
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetConnectionDictionary*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetConnectionDictionary
+  isExternal: true
+  name: GetConnectionDictionary
+  nameWithType: EMailAuthenticationHandler.GetConnectionDictionary
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetConnectionDictionary
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthOutgoingServer*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthOutgoingServer
+  isExternal: true
+  name: AuthOutgoingServer
+  nameWithType: EMailAuthenticationHandler.AuthOutgoingServer
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.AuthOutgoingServer
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.IsLoggedOnEmailServer*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.IsLoggedOnEmailServer
+  isExternal: true
+  name: IsLoggedOnEmailServer
+  nameWithType: EMailAuthenticationHandler.IsLoggedOnEmailServer
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.IsLoggedOnEmailServer
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.IsLoggedOnNewInbox*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.IsLoggedOnNewInbox
+  isExternal: true
+  name: IsLoggedOnNewInbox
+  nameWithType: EMailAuthenticationHandler.IsLoggedOnNewInbox
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.IsLoggedOnNewInbox
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.RemoveCredentials*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.RemoveCredentials
+  isExternal: true
+  name: RemoveCredentials
+  nameWithType: EMailAuthenticationHandler.RemoveCredentials
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.RemoveCredentials
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetCredentials*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetCredentials
+  isExternal: true
+  name: GetCredentials
+  nameWithType: EMailAuthenticationHandler.GetCredentials
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.GetCredentials
+- uid: SuperOffice.CRM.Web.Data.MailCredentials
+  commentId: T:SuperOffice.CRM.Web.Data.MailCredentials
+  parent: SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: MailCredentials
+  nameWithType: MailCredentials
+  fullName: SuperOffice.CRM.Web.Data.MailCredentials
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.SaveCredentials*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.SaveCredentials
+  isExternal: true
+  name: SaveCredentials
+  nameWithType: EMailAuthenticationHandler.SaveCredentials
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.SaveCredentials
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.ToUntrustedCredentials*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.ToUntrustedCredentials
+  isExternal: true
+  name: ToUntrustedCredentials
+  nameWithType: EMailAuthenticationHandler.ToUntrustedCredentials
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.ToUntrustedCredentials
+- uid: SuperOffice.CRM.Services.UntrustedCredentials
+  commentId: '!:SuperOffice.CRM.Services.UntrustedCredentials'
+  isExternal: true
+  name: UntrustedCredentials
+  nameWithType: UntrustedCredentials
+  fullName: SuperOffice.CRM.Services.UntrustedCredentials
+- uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.#ctor
+  isExternal: true
+  name: EMailAuthenticationHandler
+  nameWithType: EMailAuthenticationHandler.EMailAuthenticationHandler
+  fullName: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler.EMailAuthenticationHandler

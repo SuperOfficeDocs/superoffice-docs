@@ -1,0 +1,402 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ProgressTextCallback
+  commentId: T:SuperOffice.CRM.ProgressTextCallback
+  id: ProgressTextCallback
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.ProgressTextCallback.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.CRM.ProgressTextCallback.BeginInvoke(System.String,System.AsyncCallback,System.Object)
+  - SuperOffice.CRM.ProgressTextCallback.EndInvoke(System.IAsyncResult)
+  - SuperOffice.CRM.ProgressTextCallback.Invoke(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ProgressTextCallback
+  nameWithType: ProgressTextCallback
+  fullName: SuperOffice.CRM.ProgressTextCallback
+  type: Delegate
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public delegate void ProgressTextCallback(string text);
+    parameters:
+    - id: text
+      type: System.String
+    content.vb: Public Delegate Sub ProgressTextCallback(text As String)
+  extensionMethods:
+  - SuperOffice.CRM.ProgressTextCallback.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ProgressTextCallback.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+- uid: SuperOffice.CRM.ProgressTextCallback.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.CRM.ProgressTextCallback.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.CRM.ProgressTextCallback
+  langs:
+  - csharp
+  - vb
+  name: ProgressTextCallback(Object, IntPtr)
+  nameWithType: ProgressTextCallback.ProgressTextCallback(Object, IntPtr)
+  fullName: SuperOffice.CRM.ProgressTextCallback.ProgressTextCallback(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public ProgressTextCallback(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.CRM.ProgressTextCallback.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ProgressTextCallback.Invoke(System.String)
+  commentId: M:SuperOffice.CRM.ProgressTextCallback.Invoke(System.String)
+  id: Invoke(System.String)
+  parent: SuperOffice.CRM.ProgressTextCallback
+  langs:
+  - csharp
+  - vb
+  name: Invoke(String)
+  nameWithType: ProgressTextCallback.Invoke(String)
+  fullName: SuperOffice.CRM.ProgressTextCallback.Invoke(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public virtual void Invoke(string text)
+    parameters:
+    - id: text
+      type: System.String
+    content.vb: Public Overridable Sub Invoke(text As String)
+  overload: SuperOffice.CRM.ProgressTextCallback.Invoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.ProgressTextCallback.BeginInvoke(System.String,System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.CRM.ProgressTextCallback.BeginInvoke(System.String,System.AsyncCallback,System.Object)
+  id: BeginInvoke(System.String,System.AsyncCallback,System.Object)
+  parent: SuperOffice.CRM.ProgressTextCallback
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(String, AsyncCallback, Object)
+  nameWithType: ProgressTextCallback.BeginInvoke(String, AsyncCallback, Object)
+  fullName: SuperOffice.CRM.ProgressTextCallback.BeginInvoke(System.String, System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(string text, AsyncCallback callback, object object)
+    parameters:
+    - id: text
+      type: System.String
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(text As String, callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.CRM.ProgressTextCallback.BeginInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.ProgressTextCallback.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.CRM.ProgressTextCallback.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.CRM.ProgressTextCallback
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: ProgressTextCallback.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.CRM.ProgressTextCallback.EndInvoke(System.IAsyncResult)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public virtual void EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
+  overload: SuperOffice.CRM.ProgressTextCallback.EndInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: SuperOffice.CRM.ProgressTextCallback.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ProgressTextCallback, To>()
+  nameWithType: EnumUtil.MapEnums<ProgressTextCallback, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ProgressTextCallback, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ProgressTextCallback, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ProgressTextCallback, To)()
+  name.vb: MapEnums(Of ProgressTextCallback, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ProgressTextCallback, To>
+    nameWithType: EnumUtil.MapEnums<ProgressTextCallback, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ProgressTextCallback, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ProgressTextCallback, To)
+    nameWithType: EnumUtil.MapEnums(Of ProgressTextCallback, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ProgressTextCallback, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ProgressTextCallback.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ProgressTextCallback, To>()
+  nameWithType: Converters.MapEnums<ProgressTextCallback, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ProgressTextCallback, To>()
+  nameWithType.vb: Converters.MapEnums(Of ProgressTextCallback, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ProgressTextCallback, To)()
+  name.vb: MapEnums(Of ProgressTextCallback, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ProgressTextCallback, To>
+    nameWithType: Converters.MapEnums<ProgressTextCallback, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ProgressTextCallback, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ProgressTextCallback, To)
+    nameWithType: Converters.MapEnums(Of ProgressTextCallback, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ProgressTextCallback, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.ProgressTextCallback.#ctor*
+  commentId: Overload:SuperOffice.CRM.ProgressTextCallback.#ctor
+  isExternal: true
+  name: ProgressTextCallback
+  nameWithType: ProgressTextCallback.ProgressTextCallback
+  fullName: SuperOffice.CRM.ProgressTextCallback.ProgressTextCallback
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: SuperOffice.CRM.ProgressTextCallback.Invoke*
+  commentId: Overload:SuperOffice.CRM.ProgressTextCallback.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: ProgressTextCallback.Invoke
+  fullName: SuperOffice.CRM.ProgressTextCallback.Invoke
+- uid: SuperOffice.CRM.ProgressTextCallback.BeginInvoke*
+  commentId: Overload:SuperOffice.CRM.ProgressTextCallback.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: ProgressTextCallback.BeginInvoke
+  fullName: SuperOffice.CRM.ProgressTextCallback.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.CRM.ProgressTextCallback.EndInvoke*
+  commentId: Overload:SuperOffice.CRM.ProgressTextCallback.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: ProgressTextCallback.EndInvoke
+  fullName: SuperOffice.CRM.ProgressTextCallback.EndInvoke

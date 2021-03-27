@@ -1,0 +1,2432 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.S
+  commentId: T:SuperOffice.Data.S
+  id: S
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.S.And(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Restriction})
+  - SuperOffice.Data.S.DeleteFromSelect``1(SuperOffice.Data.SQL.TargetedSelect{``0})
+  - SuperOffice.Data.S.LookupSingleField``2(System.Func{``0,SuperOffice.Data.SQL.FieldInfo},System.Int32)
+  - SuperOffice.Data.S.NewDelete
+  - SuperOffice.Data.S.NewDelete(SuperOffice.Data.SQL.FieldInfo,System.Int32)
+  - SuperOffice.Data.S.NewDelete(System.String)
+  - SuperOffice.Data.S.NewDelete``1(System.Int32)
+  - SuperOffice.Data.S.NewInsert
+  - SuperOffice.Data.S.NewInsert(System.String)
+  - SuperOffice.Data.S.NewInsertFromSelect
+  - SuperOffice.Data.S.NewSelect
+  - SuperOffice.Data.S.NewSelect(System.String)
+  - SuperOffice.Data.S.NewSelect``1
+  - SuperOffice.Data.S.NewSelect``1(System.Collections.Generic.IEnumerable{System.Int32})
+  - SuperOffice.Data.S.NewSelect``1(System.Func{``0,SuperOffice.Data.SQL.Restriction})
+  - SuperOffice.Data.S.NewSelect``1(System.Int32[])
+  - SuperOffice.Data.S.NewUpdate
+  - SuperOffice.Data.S.NewUpdate(System.String)
+  - SuperOffice.Data.S.Or(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Restriction})
+  - SuperOffice.Data.S.Parameter(System.Boolean)
+  - SuperOffice.Data.S.Parameter(System.Boolean,System.Boolean)
+  - SuperOffice.Data.S.Parameter(System.DateTime)
+  - SuperOffice.Data.S.Parameter(System.DateTime,System.Boolean)
+  - SuperOffice.Data.S.Parameter(System.DBNull)
+  - SuperOffice.Data.S.Parameter(System.DBNull,System.Boolean)
+  - SuperOffice.Data.S.Parameter(System.Double)
+  - SuperOffice.Data.S.Parameter(System.Double,System.Boolean)
+  - SuperOffice.Data.S.Parameter(System.Int32)
+  - SuperOffice.Data.S.Parameter(System.Int32,System.Boolean)
+  - SuperOffice.Data.S.Parameter(System.IO.Stream)
+  - SuperOffice.Data.S.Parameter(System.Object)
+  - SuperOffice.Data.S.Parameter(System.Object,SuperOffice.Data.FieldDataType)
+  - SuperOffice.Data.S.Parameter(System.Object,SuperOffice.Data.FieldDataType,System.Boolean)
+  - SuperOffice.Data.S.Parameter(System.Object,System.Boolean)
+  - SuperOffice.Data.S.Parameter(System.String)
+  - SuperOffice.Data.S.Parameter(System.String,System.Boolean)
+  - SuperOffice.Data.S.Parameter(System.UInt32)
+  - SuperOffice.Data.S.Parameter(System.UInt32,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: S
+  nameWithType: S
+  fullName: SuperOffice.Data.S
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static class S
+    content.vb: Public Module S
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Data.S.Parameter(System.Object)
+  commentId: M:SuperOffice.Data.S.Parameter(System.Object)
+  id: Parameter(System.Object)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: Parameter(Object)
+  nameWithType: S.Parameter(Object)
+  fullName: SuperOffice.Data.S.Parameter(System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class based on the parameter provided.\n"
+  syntax:
+    content: public static Parameter Parameter(object parameter)
+    parameters:
+    - id: parameter
+      type: System.Object
+      description: The parameter.
+    return:
+      type: SuperOffice.Data.SQL.Parameter
+      description: "\na new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+    content.vb: Public Shared Function Parameter(parameter As Object) As Parameter
+  overload: SuperOffice.Data.S.Parameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.Parameter(System.Object,System.Boolean)
+  commentId: M:SuperOffice.Data.S.Parameter(System.Object,System.Boolean)
+  id: Parameter(System.Object,System.Boolean)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: Parameter(Object, Boolean)
+  nameWithType: S.Parameter(Object, Boolean)
+  fullName: SuperOffice.Data.S.Parameter(System.Object, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class based on the parameter provided.\n"
+  syntax:
+    content: public static Parameter Parameter(object parameter, bool useSqlParameter)
+    parameters:
+    - id: parameter
+      type: System.Object
+      description: The parameter.
+    - id: useSqlParameter
+      type: System.Boolean
+      description: If true, a sql parameter will be added for this parameter when creating the query, otherwise the value will be added directly to the query
+    return:
+      type: SuperOffice.Data.SQL.Parameter
+      description: "\na new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+    content.vb: Public Shared Function Parameter(parameter As Object, useSqlParameter As Boolean) As Parameter
+  overload: SuperOffice.Data.S.Parameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.Parameter(System.Object,SuperOffice.Data.FieldDataType)
+  commentId: M:SuperOffice.Data.S.Parameter(System.Object,SuperOffice.Data.FieldDataType)
+  id: Parameter(System.Object,SuperOffice.Data.FieldDataType)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: Parameter(Object, FieldDataType)
+  nameWithType: S.Parameter(Object, FieldDataType)
+  fullName: SuperOffice.Data.S.Parameter(System.Object, SuperOffice.Data.FieldDataType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class,\n"
+  remarks: "\nThe type-checking will be done in the different Dialect-classes.\n"
+  syntax:
+    content: public static Parameter Parameter(object parameter, FieldDataType dataType)
+    parameters:
+    - id: parameter
+      type: System.Object
+      description: object to be stored
+    - id: dataType
+      type: SuperOffice.Data.FieldDataType
+      description: Type of the data to be stored
+    return:
+      type: SuperOffice.Data.SQL.Parameter
+      description: "\na new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+    content.vb: Public Shared Function Parameter(parameter As Object, dataType As FieldDataType) As Parameter
+  overload: SuperOffice.Data.S.Parameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.Parameter(System.Object,SuperOffice.Data.FieldDataType,System.Boolean)
+  commentId: M:SuperOffice.Data.S.Parameter(System.Object,SuperOffice.Data.FieldDataType,System.Boolean)
+  id: Parameter(System.Object,SuperOffice.Data.FieldDataType,System.Boolean)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: Parameter(Object, FieldDataType, Boolean)
+  nameWithType: S.Parameter(Object, FieldDataType, Boolean)
+  fullName: SuperOffice.Data.S.Parameter(System.Object, SuperOffice.Data.FieldDataType, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class,\n"
+  remarks: "\nThe type-checking will be done in the different Dialect-classes.\n"
+  syntax:
+    content: public static Parameter Parameter(object parameter, FieldDataType dataType, bool useSqlParameter)
+    parameters:
+    - id: parameter
+      type: System.Object
+      description: object to be stored
+    - id: dataType
+      type: SuperOffice.Data.FieldDataType
+      description: Type of the data to be stored
+    - id: useSqlParameter
+      type: System.Boolean
+      description: If true, a sql parameter will be added for this parameter when creating the query, otherwise the value will be added directly to the query
+    return:
+      type: SuperOffice.Data.SQL.Parameter
+      description: "\na new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+    content.vb: Public Shared Function Parameter(parameter As Object, dataType As FieldDataType, useSqlParameter As Boolean) As Parameter
+  overload: SuperOffice.Data.S.Parameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.Parameter(System.Int32)
+  commentId: M:SuperOffice.Data.S.Parameter(System.Int32)
+  id: Parameter(System.Int32)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: Parameter(Int32)
+  nameWithType: S.Parameter(Int32)
+  fullName: SuperOffice.Data.S.Parameter(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  syntax:
+    content: public static Parameter Parameter(int parameter)
+    parameters:
+    - id: parameter
+      type: System.Int32
+      description: signed integer value to be stored
+    return:
+      type: SuperOffice.Data.SQL.Parameter
+      description: "\na new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+    content.vb: Public Shared Function Parameter(parameter As Integer) As Parameter
+  overload: SuperOffice.Data.S.Parameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.Parameter(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.Data.S.Parameter(System.Int32,System.Boolean)
+  id: Parameter(System.Int32,System.Boolean)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: Parameter(Int32, Boolean)
+  nameWithType: S.Parameter(Int32, Boolean)
+  fullName: SuperOffice.Data.S.Parameter(System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  syntax:
+    content: public static Parameter Parameter(int parameter, bool useSqlParameter)
+    parameters:
+    - id: parameter
+      type: System.Int32
+      description: signed integer value to be stored
+    - id: useSqlParameter
+      type: System.Boolean
+      description: If true, a sql parameter will be added for this parameter when creating the query, otherwise the value will be added directly to the query
+    return:
+      type: SuperOffice.Data.SQL.Parameter
+      description: "\na new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+    content.vb: Public Shared Function Parameter(parameter As Integer, useSqlParameter As Boolean) As Parameter
+  overload: SuperOffice.Data.S.Parameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.Parameter(System.UInt32)
+  commentId: M:SuperOffice.Data.S.Parameter(System.UInt32)
+  id: Parameter(System.UInt32)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: Parameter(UInt32)
+  nameWithType: S.Parameter(UInt32)
+  fullName: SuperOffice.Data.S.Parameter(System.UInt32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  syntax:
+    content: public static Parameter Parameter(uint parameter)
+    parameters:
+    - id: parameter
+      type: System.UInt32
+      description: unsigned integer value to be stored
+    return:
+      type: SuperOffice.Data.SQL.Parameter
+      description: "\na new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+    content.vb: Public Shared Function Parameter(parameter As UInteger) As Parameter
+  overload: SuperOffice.Data.S.Parameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.Parameter(System.UInt32,System.Boolean)
+  commentId: M:SuperOffice.Data.S.Parameter(System.UInt32,System.Boolean)
+  id: Parameter(System.UInt32,System.Boolean)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: Parameter(UInt32, Boolean)
+  nameWithType: S.Parameter(UInt32, Boolean)
+  fullName: SuperOffice.Data.S.Parameter(System.UInt32, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  syntax:
+    content: public static Parameter Parameter(uint parameter, bool useSqlParameter)
+    parameters:
+    - id: parameter
+      type: System.UInt32
+      description: unsigned integer value to be stored
+    - id: useSqlParameter
+      type: System.Boolean
+      description: If true, a sql parameter will be added for this parameter when creating the query, otherwise the value will be added directly to the query
+    return:
+      type: SuperOffice.Data.SQL.Parameter
+      description: "\na new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+    content.vb: Public Shared Function Parameter(parameter As UInteger, useSqlParameter As Boolean) As Parameter
+  overload: SuperOffice.Data.S.Parameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.Parameter(System.String)
+  commentId: M:SuperOffice.Data.S.Parameter(System.String)
+  id: Parameter(System.String)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: Parameter(String)
+  nameWithType: S.Parameter(String)
+  fullName: SuperOffice.Data.S.Parameter(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  syntax:
+    content: public static Parameter Parameter(string parameter)
+    parameters:
+    - id: parameter
+      type: System.String
+      description: string value to be stored
+    return:
+      type: SuperOffice.Data.SQL.Parameter
+      description: "\na new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+    content.vb: Public Shared Function Parameter(parameter As String) As Parameter
+  overload: SuperOffice.Data.S.Parameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.Parameter(System.String,System.Boolean)
+  commentId: M:SuperOffice.Data.S.Parameter(System.String,System.Boolean)
+  id: Parameter(System.String,System.Boolean)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: Parameter(String, Boolean)
+  nameWithType: S.Parameter(String, Boolean)
+  fullName: SuperOffice.Data.S.Parameter(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  syntax:
+    content: public static Parameter Parameter(string parameter, bool useSqlParameter)
+    parameters:
+    - id: parameter
+      type: System.String
+      description: string value to be stored
+    - id: useSqlParameter
+      type: System.Boolean
+      description: If true, a sql parameter will be added for this parameter when creating the query, otherwise the value will be added directly to the query
+    return:
+      type: SuperOffice.Data.SQL.Parameter
+      description: "\na new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+    content.vb: Public Shared Function Parameter(parameter As String, useSqlParameter As Boolean) As Parameter
+  overload: SuperOffice.Data.S.Parameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.Parameter(System.DateTime)
+  commentId: M:SuperOffice.Data.S.Parameter(System.DateTime)
+  id: Parameter(System.DateTime)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: Parameter(DateTime)
+  nameWithType: S.Parameter(DateTime)
+  fullName: SuperOffice.Data.S.Parameter(System.DateTime)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  syntax:
+    content: public static Parameter Parameter(DateTime parameter)
+    parameters:
+    - id: parameter
+      type: System.DateTime
+      description: DateTime value to be stored
+    return:
+      type: SuperOffice.Data.SQL.Parameter
+      description: "\na new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+    content.vb: Public Shared Function Parameter(parameter As Date) As Parameter
+  overload: SuperOffice.Data.S.Parameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.Parameter(System.DateTime,System.Boolean)
+  commentId: M:SuperOffice.Data.S.Parameter(System.DateTime,System.Boolean)
+  id: Parameter(System.DateTime,System.Boolean)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: Parameter(DateTime, Boolean)
+  nameWithType: S.Parameter(DateTime, Boolean)
+  fullName: SuperOffice.Data.S.Parameter(System.DateTime, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  syntax:
+    content: public static Parameter Parameter(DateTime parameter, bool useSqlParameter)
+    parameters:
+    - id: parameter
+      type: System.DateTime
+      description: DateTime value to be stored
+    - id: useSqlParameter
+      type: System.Boolean
+      description: If true, a sql parameter will be added for this parameter when creating the query, otherwise the value will be added directly to the query
+    return:
+      type: SuperOffice.Data.SQL.Parameter
+      description: "\na new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+    content.vb: Public Shared Function Parameter(parameter As Date, useSqlParameter As Boolean) As Parameter
+  overload: SuperOffice.Data.S.Parameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.Parameter(System.Boolean)
+  commentId: M:SuperOffice.Data.S.Parameter(System.Boolean)
+  id: Parameter(System.Boolean)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: Parameter(Boolean)
+  nameWithType: S.Parameter(Boolean)
+  fullName: SuperOffice.Data.S.Parameter(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  syntax:
+    content: public static Parameter Parameter(bool parameter)
+    parameters:
+    - id: parameter
+      type: System.Boolean
+      description: bool value to be stored
+    return:
+      type: SuperOffice.Data.SQL.Parameter
+      description: "\na new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+    content.vb: Public Shared Function Parameter(parameter As Boolean) As Parameter
+  overload: SuperOffice.Data.S.Parameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.Parameter(System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.Data.S.Parameter(System.Boolean,System.Boolean)
+  id: Parameter(System.Boolean,System.Boolean)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: Parameter(Boolean, Boolean)
+  nameWithType: S.Parameter(Boolean, Boolean)
+  fullName: SuperOffice.Data.S.Parameter(System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  syntax:
+    content: public static Parameter Parameter(bool parameter, bool useSqlParameter)
+    parameters:
+    - id: parameter
+      type: System.Boolean
+      description: bool value to be stored
+    - id: useSqlParameter
+      type: System.Boolean
+      description: If true, a sql parameter will be added for this parameter when creating the query, otherwise the value will be added directly to the query
+    return:
+      type: SuperOffice.Data.SQL.Parameter
+      description: "\na new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+    content.vb: Public Shared Function Parameter(parameter As Boolean, useSqlParameter As Boolean) As Parameter
+  overload: SuperOffice.Data.S.Parameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.Parameter(System.Double)
+  commentId: M:SuperOffice.Data.S.Parameter(System.Double)
+  id: Parameter(System.Double)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: Parameter(Double)
+  nameWithType: S.Parameter(Double)
+  fullName: SuperOffice.Data.S.Parameter(System.Double)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  syntax:
+    content: public static Parameter Parameter(double parameter)
+    parameters:
+    - id: parameter
+      type: System.Double
+      description: double value to be stored
+    return:
+      type: SuperOffice.Data.SQL.Parameter
+      description: "\na new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+    content.vb: Public Shared Function Parameter(parameter As Double) As Parameter
+  overload: SuperOffice.Data.S.Parameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.Parameter(System.Double,System.Boolean)
+  commentId: M:SuperOffice.Data.S.Parameter(System.Double,System.Boolean)
+  id: Parameter(System.Double,System.Boolean)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: Parameter(Double, Boolean)
+  nameWithType: S.Parameter(Double, Boolean)
+  fullName: SuperOffice.Data.S.Parameter(System.Double, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  syntax:
+    content: public static Parameter Parameter(double parameter, bool useSqlParameter)
+    parameters:
+    - id: parameter
+      type: System.Double
+      description: double value to be stored
+    - id: useSqlParameter
+      type: System.Boolean
+      description: If true, a sql parameter will be added for this parameter when creating the query, otherwise the value will be added directly to the query
+    return:
+      type: SuperOffice.Data.SQL.Parameter
+      description: "\na new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+    content.vb: Public Shared Function Parameter(parameter As Double, useSqlParameter As Boolean) As Parameter
+  overload: SuperOffice.Data.S.Parameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.Parameter(System.DBNull)
+  commentId: M:SuperOffice.Data.S.Parameter(System.DBNull)
+  id: Parameter(System.DBNull)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: Parameter(DBNull)
+  nameWithType: S.Parameter(DBNull)
+  fullName: SuperOffice.Data.S.Parameter(System.DBNull)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  syntax:
+    content: public static Parameter Parameter(DBNull parameter)
+    parameters:
+    - id: parameter
+      type: System.DBNull
+      description: NULL value to be stored
+    return:
+      type: SuperOffice.Data.SQL.Parameter
+      description: "\na new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+    content.vb: Public Shared Function Parameter(parameter As DBNull) As Parameter
+  overload: SuperOffice.Data.S.Parameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.Parameter(System.DBNull,System.Boolean)
+  commentId: M:SuperOffice.Data.S.Parameter(System.DBNull,System.Boolean)
+  id: Parameter(System.DBNull,System.Boolean)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: Parameter(DBNull, Boolean)
+  nameWithType: S.Parameter(DBNull, Boolean)
+  fullName: SuperOffice.Data.S.Parameter(System.DBNull, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  syntax:
+    content: public static Parameter Parameter(DBNull parameter, bool useSqlParameter)
+    parameters:
+    - id: parameter
+      type: System.DBNull
+      description: NULL value to be stored
+    - id: useSqlParameter
+      type: System.Boolean
+      description: If true, a sql parameter will be added for this parameter when creating the query, otherwise the value will be added directly to the query
+    return:
+      type: SuperOffice.Data.SQL.Parameter
+      description: "\na new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+    content.vb: Public Shared Function Parameter(parameter As DBNull, useSqlParameter As Boolean) As Parameter
+  overload: SuperOffice.Data.S.Parameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.Parameter(System.IO.Stream)
+  commentId: M:SuperOffice.Data.S.Parameter(System.IO.Stream)
+  id: Parameter(System.IO.Stream)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: Parameter(Stream)
+  nameWithType: S.Parameter(Stream)
+  fullName: SuperOffice.Data.S.Parameter(System.IO.Stream)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  syntax:
+    content: public static Parameter Parameter(Stream parameter)
+    parameters:
+    - id: parameter
+      type: System.IO.Stream
+      description: Stream to be stored
+    return:
+      type: SuperOffice.Data.SQL.Parameter
+      description: "\na new instance of the <xref href=\"SuperOffice.Data.SQL.Parameter\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+    content.vb: Public Shared Function Parameter(parameter As Stream) As Parameter
+  overload: SuperOffice.Data.S.Parameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.NewSelect
+  commentId: M:SuperOffice.Data.S.NewSelect
+  id: NewSelect
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: NewSelect()
+  nameWithType: S.NewSelect()
+  fullName: SuperOffice.Data.S.NewSelect()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Select\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  syntax:
+    content: public static Select NewSelect()
+    return:
+      type: SuperOffice.Data.SQL.Select
+      description: a new instance of the <xref href="SuperOffice.Data.SQL.Select" data-throw-if-not-resolved="false"></xref> class.
+    content.vb: 'Public Shared Function NewSelect As '
+  overload: SuperOffice.Data.S.NewSelect*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.NewSelect``1(System.Func{``0,SuperOffice.Data.SQL.Restriction})
+  commentId: M:SuperOffice.Data.S.NewSelect``1(System.Func{``0,SuperOffice.Data.SQL.Restriction})
+  id: NewSelect``1(System.Func{``0,SuperOffice.Data.SQL.Restriction})
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: NewSelect<MainTableInfo>(Func<MainTableInfo, Restriction>)
+  nameWithType: S.NewSelect<MainTableInfo>(Func<MainTableInfo, Restriction>)
+  fullName: SuperOffice.Data.S.NewSelect<MainTableInfo>(System.Func<MainTableInfo, SuperOffice.Data.SQL.Restriction>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of a targeted select (one that knows its main table, and has an instance of it)\n"
+  syntax:
+    content: >-
+      public static TargetedSelect<MainTableInfo> NewSelect<MainTableInfo>(Func<MainTableInfo, Restriction> initialRestriction)
+          where MainTableInfo : TableInfo
+    parameters:
+    - id: initialRestriction
+      type: System.Func{{MainTableInfo},SuperOffice.Data.SQL.Restriction}
+      description: An initial restriction to include in the select, based on a tableinfo instance
+    typeParameters:
+    - id: MainTableInfo
+      description: TableInfo for which to create a select
+    return:
+      type: SuperOffice.Data.SQL.TargetedSelect{{MainTableInfo}}
+      description: Select object
+    content.vb: Public Shared Function NewSelect(Of MainTableInfo As TableInfo)(initialRestriction As Func(Of MainTableInfo, Restriction)) As TargetedSelect(Of MainTableInfo)
+  overload: SuperOffice.Data.S.NewSelect*
+  nameWithType.vb: S.NewSelect(Of MainTableInfo)(Func(Of MainTableInfo, Restriction))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.S.NewSelect(Of MainTableInfo)(System.Func(Of MainTableInfo, SuperOffice.Data.SQL.Restriction))
+  name.vb: NewSelect(Of MainTableInfo)(Func(Of MainTableInfo, Restriction))
+- uid: SuperOffice.Data.S.NewSelect``1
+  commentId: M:SuperOffice.Data.S.NewSelect``1
+  id: NewSelect``1
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: NewSelect<MainTableInfo>()
+  nameWithType: S.NewSelect<MainTableInfo>()
+  fullName: SuperOffice.Data.S.NewSelect<MainTableInfo>()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of a targeted select (one that knows its main table, and has an instance of it)\n"
+  syntax:
+    content: >-
+      public static TargetedSelect<MainTableInfo> NewSelect<MainTableInfo>()
+          where MainTableInfo : TableInfo
+    typeParameters:
+    - id: MainTableInfo
+      description: TableInfo for which to create a select
+    return:
+      type: SuperOffice.Data.SQL.TargetedSelect{{MainTableInfo}}
+      description: Select object
+    content.vb: Public Shared Function NewSelect(Of MainTableInfo As TableInfo) As TargetedSelect(Of MainTableInfo)
+  overload: SuperOffice.Data.S.NewSelect*
+  nameWithType.vb: S.NewSelect(Of MainTableInfo)()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.S.NewSelect(Of MainTableInfo)()
+  name.vb: NewSelect(Of MainTableInfo)()
+- uid: SuperOffice.Data.S.NewSelect``1(System.Int32[])
+  commentId: M:SuperOffice.Data.S.NewSelect``1(System.Int32[])
+  id: NewSelect``1(System.Int32[])
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: NewSelect<MainTableInfo>(Int32[])
+  nameWithType: S.NewSelect<MainTableInfo>(Int32[])
+  fullName: SuperOffice.Data.S.NewSelect<MainTableInfo>(System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of a targeted select (one that knows its main table, and has an instance of it)\n"
+  syntax:
+    content: >-
+      public static TargetedSelect<MainTableInfo> NewSelect<MainTableInfo>(params int[] primaryKey)
+          where MainTableInfo : TableInfo
+    parameters:
+    - id: primaryKey
+      type: System.Int32[]
+      description: Array of one or more primary key values, for which an IN restriction is created
+    typeParameters:
+    - id: MainTableInfo
+      description: TableInfo for which to create a select
+    return:
+      type: SuperOffice.Data.SQL.TargetedSelect{{MainTableInfo}}
+      description: Select object
+    content.vb: Public Shared Function NewSelect(Of MainTableInfo As TableInfo)(ParamArray primaryKey As Integer()) As TargetedSelect(Of MainTableInfo)
+  overload: SuperOffice.Data.S.NewSelect*
+  nameWithType.vb: S.NewSelect(Of MainTableInfo)(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.S.NewSelect(Of MainTableInfo)(System.Int32())
+  name.vb: NewSelect(Of MainTableInfo)(Int32())
+- uid: SuperOffice.Data.S.NewSelect``1(System.Collections.Generic.IEnumerable{System.Int32})
+  commentId: M:SuperOffice.Data.S.NewSelect``1(System.Collections.Generic.IEnumerable{System.Int32})
+  id: NewSelect``1(System.Collections.Generic.IEnumerable{System.Int32})
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: NewSelect<MainTableInfo>(IEnumerable<Int32>)
+  nameWithType: S.NewSelect<MainTableInfo>(IEnumerable<Int32>)
+  fullName: SuperOffice.Data.S.NewSelect<MainTableInfo>(System.Collections.Generic.IEnumerable<System.Int32>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of a targeted select (one that knows its main table, and has an instance of it)\n"
+  syntax:
+    content: >-
+      public static TargetedSelect<MainTableInfo> NewSelect<MainTableInfo>(IEnumerable<int> primaryKey)
+          where MainTableInfo : TableInfo
+    parameters:
+    - id: primaryKey
+      type: System.Collections.Generic.IEnumerable{System.Int32}
+      description: An enumeration of primary keys, for which an IN restriction is created
+    typeParameters:
+    - id: MainTableInfo
+      description: TableInfo for which to create a select
+    return:
+      type: SuperOffice.Data.SQL.TargetedSelect{{MainTableInfo}}
+      description: Select object
+    content.vb: Public Shared Function NewSelect(Of MainTableInfo As TableInfo)(primaryKey As IEnumerable(Of Integer)) As TargetedSelect(Of MainTableInfo)
+  overload: SuperOffice.Data.S.NewSelect*
+  nameWithType.vb: S.NewSelect(Of MainTableInfo)(IEnumerable(Of Int32))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.S.NewSelect(Of MainTableInfo)(System.Collections.Generic.IEnumerable(Of System.Int32))
+  name.vb: NewSelect(Of MainTableInfo)(IEnumerable(Of Int32))
+- uid: SuperOffice.Data.S.LookupSingleField``2(System.Func{``0,SuperOffice.Data.SQL.FieldInfo},System.Int32)
+  commentId: M:SuperOffice.Data.S.LookupSingleField``2(System.Func{``0,SuperOffice.Data.SQL.FieldInfo},System.Int32)
+  id: LookupSingleField``2(System.Func{``0,SuperOffice.Data.SQL.FieldInfo},System.Int32)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: LookupSingleField<T, R>(Func<T, FieldInfo>, Int32)
+  nameWithType: S.LookupSingleField<T, R>(Func<T, FieldInfo>, Int32)
+  fullName: SuperOffice.Data.S.LookupSingleField<T, R>(System.Func<T, SuperOffice.Data.SQL.FieldInfo>, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: >-
+      public static R LookupSingleField<T, R>(Func<T, FieldInfo> getField, int primaryKey)
+          where T : TableInfo where R : new()
+    parameters:
+    - id: getField
+      type: System.Func{{T},SuperOffice.Data.SQL.FieldInfo}
+    - id: primaryKey
+      type: System.Int32
+    typeParameters:
+    - id: T
+    - id: R
+    return:
+      type: '{R}'
+    content.vb: Public Shared Function LookupSingleField(Of T As TableInfo, R As New)(getField As Func(Of T, FieldInfo), primaryKey As Integer) As R
+  overload: SuperOffice.Data.S.LookupSingleField*
+  nameWithType.vb: S.LookupSingleField(Of T, R)(Func(Of T, FieldInfo), Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.S.LookupSingleField(Of T, R)(System.Func(Of T, SuperOffice.Data.SQL.FieldInfo), System.Int32)
+  name.vb: LookupSingleField(Of T, R)(Func(Of T, FieldInfo), Int32)
+- uid: SuperOffice.Data.S.NewInsert
+  commentId: M:SuperOffice.Data.S.NewInsert
+  id: NewInsert
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: NewInsert()
+  nameWithType: S.NewInsert()
+  fullName: SuperOffice.Data.S.NewInsert()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Insert\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  syntax:
+    content: public static Insert NewInsert()
+    return:
+      type: SuperOffice.Data.SQL.Insert
+      description: a new instance of the <xref href="SuperOffice.Data.SQL.Insert" data-throw-if-not-resolved="false"></xref> class.
+    content.vb: Public Shared Function NewInsert As Insert
+  overload: SuperOffice.Data.S.NewInsert*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.NewUpdate
+  commentId: M:SuperOffice.Data.S.NewUpdate
+  id: NewUpdate
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: NewUpdate()
+  nameWithType: S.NewUpdate()
+  fullName: SuperOffice.Data.S.NewUpdate()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Update\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  syntax:
+    content: public static Update NewUpdate()
+    return:
+      type: SuperOffice.Data.SQL.Update
+      description: a new instance of the <xref href="SuperOffice.Data.SQL.Update" data-throw-if-not-resolved="false"></xref> class.
+    content.vb: Public Shared Function NewUpdate As Update
+  overload: SuperOffice.Data.S.NewUpdate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.NewDelete
+  commentId: M:SuperOffice.Data.S.NewDelete
+  id: NewDelete
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: NewDelete()
+  nameWithType: S.NewDelete()
+  fullName: SuperOffice.Data.S.NewDelete()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Delete\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  syntax:
+    content: public static Delete NewDelete()
+    return:
+      type: SuperOffice.Data.SQL.Delete
+      description: a new instance of the <xref href="SuperOffice.Data.SQL.Delete" data-throw-if-not-resolved="false"></xref> class.
+    content.vb: Public Shared Function NewDelete As Delete
+  overload: SuperOffice.Data.S.NewDelete*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.NewDelete(SuperOffice.Data.SQL.FieldInfo,System.Int32)
+  commentId: M:SuperOffice.Data.S.NewDelete(SuperOffice.Data.SQL.FieldInfo,System.Int32)
+  id: NewDelete(SuperOffice.Data.SQL.FieldInfo,System.Int32)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: NewDelete(FieldInfo, Int32)
+  nameWithType: S.NewDelete(FieldInfo, Int32)
+  fullName: SuperOffice.Data.S.NewDelete(SuperOffice.Data.SQL.FieldInfo, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new, populated instance of the <xref href=\"SuperOffice.Data.SQL.Delete\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  syntax:
+    content: public static Delete NewDelete(FieldInfo keyField, int keyValue)
+    parameters:
+    - id: keyField
+      type: SuperOffice.Data.SQL.FieldInfo
+    - id: keyValue
+      type: System.Int32
+    return:
+      type: SuperOffice.Data.SQL.Delete
+      description: a new instance of the <xref href="SuperOffice.Data.SQL.Delete" data-throw-if-not-resolved="false"></xref> class.
+    content.vb: Public Shared Function NewDelete(keyField As FieldInfo, keyValue As Integer) As Delete
+  overload: SuperOffice.Data.S.NewDelete*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.NewDelete``1(System.Int32)
+  commentId: M:SuperOffice.Data.S.NewDelete``1(System.Int32)
+  id: NewDelete``1(System.Int32)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: NewDelete<TI>(Int32)
+  nameWithType: S.NewDelete<TI>(Int32)
+  fullName: SuperOffice.Data.S.NewDelete<TI>(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new, populated instance of the <xref href=\"SuperOffice.Data.SQL.Delete\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  syntax:
+    content: >-
+      public static Delete NewDelete<TI>(int keyValue)
+          where TI : TableInfo
+    parameters:
+    - id: keyValue
+      type: System.Int32
+    typeParameters:
+    - id: TI
+    return:
+      type: SuperOffice.Data.SQL.Delete
+      description: a new instance of the <xref href="SuperOffice.Data.SQL.Delete" data-throw-if-not-resolved="false"></xref> class.
+    content.vb: Public Shared Function NewDelete(Of TI As TableInfo)(keyValue As Integer) As Delete
+  overload: SuperOffice.Data.S.NewDelete*
+  nameWithType.vb: S.NewDelete(Of TI)(Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.S.NewDelete(Of TI)(System.Int32)
+  name.vb: NewDelete(Of TI)(Int32)
+- uid: SuperOffice.Data.S.DeleteFromSelect``1(SuperOffice.Data.SQL.TargetedSelect{``0})
+  commentId: M:SuperOffice.Data.S.DeleteFromSelect``1(SuperOffice.Data.SQL.TargetedSelect{``0})
+  id: DeleteFromSelect``1(SuperOffice.Data.SQL.TargetedSelect{``0})
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: DeleteFromSelect<TI>(TargetedSelect<TI>)
+  nameWithType: S.DeleteFromSelect<TI>(TargetedSelect<TI>)
+  fullName: SuperOffice.Data.S.DeleteFromSelect<TI>(SuperOffice.Data.SQL.TargetedSelect<TI>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nEvaluate a <xref href=\"SuperOffice.Data.SQL.TargetedSelect%601\" data-throw-if-not-resolved=\"false\"></xref>, fetch primary keys, and generate a <xref href=\"SuperOffice.Data.SQL.BatchSave\" data-throw-if-not-resolved=\"false\"></xref> that contains delete&apos;s for each row\n"
+  syntax:
+    content: >-
+      public static BatchSave DeleteFromSelect<TI>(TargetedSelect<TI> select)
+          where TI : TableInfo
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{{TI}}
+    typeParameters:
+    - id: TI
+    return:
+      type: SuperOffice.Data.SQL.BatchSave
+    content.vb: Public Shared Function DeleteFromSelect(Of TI As TableInfo)(select As TargetedSelect(Of TI)) As BatchSave
+  overload: SuperOffice.Data.S.DeleteFromSelect*
+  nameWithType.vb: S.DeleteFromSelect(Of TI)(TargetedSelect(Of TI))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.S.DeleteFromSelect(Of TI)(SuperOffice.Data.SQL.TargetedSelect(Of TI))
+  name.vb: DeleteFromSelect(Of TI)(TargetedSelect(Of TI))
+- uid: SuperOffice.Data.S.NewInsertFromSelect
+  commentId: M:SuperOffice.Data.S.NewInsertFromSelect
+  id: NewInsertFromSelect
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: NewInsertFromSelect()
+  nameWithType: S.NewInsertFromSelect()
+  fullName: SuperOffice.Data.S.NewInsertFromSelect()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.InsertFromSelect\" data-throw-if-not-resolved=\"false\"></xref> class\n"
+  syntax:
+    content: public static InsertFromSelect NewInsertFromSelect()
+    return:
+      type: SuperOffice.Data.SQL.InsertFromSelect
+    content.vb: Public Shared Function NewInsertFromSelect As InsertFromSelect
+  overload: SuperOffice.Data.S.NewInsertFromSelect*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.NewSelect(System.String)
+  commentId: M:SuperOffice.Data.S.NewSelect(System.String)
+  id: NewSelect(System.String)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: NewSelect(String)
+  nameWithType: S.NewSelect(String)
+  fullName: SuperOffice.Data.S.NewSelect(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Select\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  syntax:
+    content: public static Select NewSelect(string origin)
+    parameters:
+    - id: origin
+      type: System.String
+      description: "\nThis text is included - if possible - as an SQL comment in the generated SQL statement. It will usually be\nvisible in database tracing tools, and the intention is to make it possible to identify the code that gave created\na particular query. This has great &quot;forensic&quot; value when investigating performance or reverse-engineering the system.\n"
+    return:
+      type: SuperOffice.Data.SQL.Select
+      description: a new instance of the <xref href="SuperOffice.Data.SQL.Select" data-throw-if-not-resolved="false"></xref> class.
+    content.vb: 'Public Shared Function NewSelect(origin As String) As '
+  overload: SuperOffice.Data.S.NewSelect*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.NewInsert(System.String)
+  commentId: M:SuperOffice.Data.S.NewInsert(System.String)
+  id: NewInsert(System.String)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: NewInsert(String)
+  nameWithType: S.NewInsert(String)
+  fullName: SuperOffice.Data.S.NewInsert(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Insert\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  syntax:
+    content: public static Insert NewInsert(string origin)
+    parameters:
+    - id: origin
+      type: System.String
+      description: "\nThis text is included - if possible - as an SQL comment in the generated SQL statement. It will usually be\nvisible in database tracing tools, and the intention is to make it possible to identify the code that gave created\na particular query. This has great &quot;forensic&quot; value when investigating performance or reverse-engineering the system.\n"
+    return:
+      type: SuperOffice.Data.SQL.Insert
+      description: a new instance of the <xref href="SuperOffice.Data.SQL.Insert" data-throw-if-not-resolved="false"></xref> class.
+    content.vb: Public Shared Function NewInsert(origin As String) As Insert
+  overload: SuperOffice.Data.S.NewInsert*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.NewUpdate(System.String)
+  commentId: M:SuperOffice.Data.S.NewUpdate(System.String)
+  id: NewUpdate(System.String)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: NewUpdate(String)
+  nameWithType: S.NewUpdate(String)
+  fullName: SuperOffice.Data.S.NewUpdate(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Update\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  syntax:
+    content: public static Update NewUpdate(string origin)
+    parameters:
+    - id: origin
+      type: System.String
+      description: "\nThis text is included - if possible - as an SQL comment in the generated SQL statement. It will usually be\nvisible in database tracing tools, and the intention is to make it possible to identify the code that gave created\na particular query. This has great &quot;forensic&quot; value when investigating performance or reverse-engineering the system.\n"
+    return:
+      type: SuperOffice.Data.SQL.Update
+      description: a new instance of the <xref href="SuperOffice.Data.SQL.Update" data-throw-if-not-resolved="false"></xref> class.
+    content.vb: Public Shared Function NewUpdate(origin As String) As Update
+  overload: SuperOffice.Data.S.NewUpdate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.NewDelete(System.String)
+  commentId: M:SuperOffice.Data.S.NewDelete(System.String)
+  id: NewDelete(System.String)
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: NewDelete(String)
+  nameWithType: S.NewDelete(String)
+  fullName: SuperOffice.Data.S.NewDelete(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nReturns a new instance of the <xref href=\"SuperOffice.Data.SQL.Delete\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  syntax:
+    content: public static Delete NewDelete(string origin)
+    parameters:
+    - id: origin
+      type: System.String
+      description: "\nThis text is included - if possible - as an SQL comment in the generated SQL statement. It will usually be\nvisible in database tracing tools, and the intention is to make it possible to identify the code that gave created\na particular query. This has great &quot;forensic&quot; value when investigating performance or reverse-engineering the system.\n"
+    return:
+      type: SuperOffice.Data.SQL.Delete
+      description: a new instance of the <xref href="SuperOffice.Data.SQL.Delete" data-throw-if-not-resolved="false"></xref> class.
+    content.vb: Public Shared Function NewDelete(origin As String) As Delete
+  overload: SuperOffice.Data.S.NewDelete*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.And(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Restriction})
+  commentId: M:SuperOffice.Data.S.And(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Restriction})
+  id: And(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Restriction})
+  isExtensionMethod: true
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: And(IEnumerable<Restriction>)
+  nameWithType: S.And(IEnumerable<Restriction>)
+  fullName: SuperOffice.Data.S.And(System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Restriction>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nCombines the provided restriction-objects into one restriction using a logical AND.\nIf no valid restrictions are provided, null will be returned.\n"
+  syntax:
+    content: public static Restriction And(this IEnumerable<Restriction> instance)
+    parameters:
+    - id: instance
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Restriction}
+      description: An enumerable of Restriction. Can be null.
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+      description: A new restriction based on the provided restriction-enumerable.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function And(instance As IEnumerable(Of Restriction)) As Restriction
+  overload: SuperOffice.Data.S.And*
+  nameWithType.vb: S.And(IEnumerable(Of Restriction))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.S.And(System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Restriction))
+  name.vb: And(IEnumerable(Of Restriction))
+- uid: SuperOffice.Data.S.Or(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Restriction})
+  commentId: M:SuperOffice.Data.S.Or(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Restriction})
+  id: Or(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Restriction})
+  isExtensionMethod: true
+  parent: SuperOffice.Data.S
+  langs:
+  - csharp
+  - vb
+  name: Or(IEnumerable<Restriction>)
+  nameWithType: S.Or(IEnumerable<Restriction>)
+  fullName: SuperOffice.Data.S.Or(System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Restriction>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nCombines the provided restriction-objects into one restriction using a logical OR.\nIf no valid restrictions are provided, null will be returned.\n"
+  syntax:
+    content: public static Restriction Or(this IEnumerable<Restriction> instance)
+    parameters:
+    - id: instance
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Restriction}
+      description: An enumerable of Restriction. Can be null.
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+      description: A new restriction based on the provided restriction-enumerable.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Or(instance As IEnumerable(Of Restriction)) As Restriction
+  overload: SuperOffice.Data.S.Or*
+  nameWithType.vb: S.Or(IEnumerable(Of Restriction))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.S.Or(System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Restriction))
+  name.vb: Or(IEnumerable(Of Restriction))
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.S.Parameter*
+  commentId: Overload:SuperOffice.Data.S.Parameter
+  isExternal: true
+  name: Parameter
+  nameWithType: S.Parameter
+  fullName: SuperOffice.Data.S.Parameter
+- uid: SuperOffice.Data.SQL.Parameter
+  commentId: T:SuperOffice.Data.SQL.Parameter
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Parameter
+  nameWithType: Parameter
+  fullName: SuperOffice.Data.SQL.Parameter
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Data.FieldDataType
+  commentId: T:SuperOffice.Data.FieldDataType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: FieldDataType
+  nameWithType: FieldDataType
+  fullName: SuperOffice.Data.FieldDataType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: System.DBNull
+  commentId: T:System.DBNull
+  parent: System
+  isExternal: true
+  name: DBNull
+  nameWithType: DBNull
+  fullName: System.DBNull
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: SuperOffice.Data.S.NewSelect*
+  commentId: Overload:SuperOffice.Data.S.NewSelect
+  isExternal: true
+  name: NewSelect
+  nameWithType: S.NewSelect
+  fullName: SuperOffice.Data.S.NewSelect
+- uid: SuperOffice.Data.SQL.Select
+  commentId: T:SuperOffice.Data.SQL.Select
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Select
+  nameWithType: Select
+  fullName: SuperOffice.Data.SQL.Select
+- uid: System.Func{{MainTableInfo},SuperOffice.Data.SQL.Restriction}
+  commentId: T:System.Func{``0,SuperOffice.Data.SQL.Restriction}
+  parent: System
+  definition: System.Func`2
+  name: Func<MainTableInfo, Restriction>
+  nameWithType: Func<MainTableInfo, Restriction>
+  fullName: System.Func<MainTableInfo, SuperOffice.Data.SQL.Restriction>
+  nameWithType.vb: Func(Of MainTableInfo, Restriction)
+  fullName.vb: System.Func(Of MainTableInfo, SuperOffice.Data.SQL.Restriction)
+  name.vb: Func(Of MainTableInfo, Restriction)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.Restriction
+    name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.Restriction
+    name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedSelect{{MainTableInfo}}
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect{``0}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedSelect`1
+  name: TargetedSelect<MainTableInfo>
+  nameWithType: TargetedSelect<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<MainTableInfo>
+  nameWithType.vb: TargetedSelect(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of MainTableInfo)
+  name.vb: TargetedSelect(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedSelect`1
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect`1
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TargetedSelect<MainTableInfo>
+  nameWithType: TargetedSelect<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<MainTableInfo>
+  nameWithType.vb: TargetedSelect(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of MainTableInfo)
+  name.vb: TargetedSelect(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Collections.Generic.IEnumerable{System.Int32}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Int32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Int32>
+  nameWithType: IEnumerable<Int32>
+  fullName: System.Collections.Generic.IEnumerable<System.Int32>
+  nameWithType.vb: IEnumerable(Of Int32)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Int32)
+  name.vb: IEnumerable(Of Int32)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Data.S.LookupSingleField*
+  commentId: Overload:SuperOffice.Data.S.LookupSingleField
+  isExternal: true
+  name: LookupSingleField
+  nameWithType: S.LookupSingleField
+  fullName: SuperOffice.Data.S.LookupSingleField
+- uid: System.Func{{T},SuperOffice.Data.SQL.FieldInfo}
+  commentId: T:System.Func{``0,SuperOffice.Data.SQL.FieldInfo}
+  parent: System
+  definition: System.Func`2
+  name: Func<T, FieldInfo>
+  nameWithType: Func<T, FieldInfo>
+  fullName: System.Func<T, SuperOffice.Data.SQL.FieldInfo>
+  nameWithType.vb: Func(Of T, FieldInfo)
+  fullName.vb: System.Func(Of T, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: Func(Of T, FieldInfo)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: '{R}'
+  commentId: '!:R'
+  definition: R
+  name: R
+  nameWithType: R
+  fullName: R
+- uid: R
+  name: R
+  nameWithType: R
+  fullName: R
+- uid: SuperOffice.Data.S.NewInsert*
+  commentId: Overload:SuperOffice.Data.S.NewInsert
+  isExternal: true
+  name: NewInsert
+  nameWithType: S.NewInsert
+  fullName: SuperOffice.Data.S.NewInsert
+- uid: SuperOffice.Data.SQL.Insert
+  commentId: T:SuperOffice.Data.SQL.Insert
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Insert
+  nameWithType: Insert
+  fullName: SuperOffice.Data.SQL.Insert
+- uid: SuperOffice.Data.S.NewUpdate*
+  commentId: Overload:SuperOffice.Data.S.NewUpdate
+  isExternal: true
+  name: NewUpdate
+  nameWithType: S.NewUpdate
+  fullName: SuperOffice.Data.S.NewUpdate
+- uid: SuperOffice.Data.SQL.Update
+  commentId: T:SuperOffice.Data.SQL.Update
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Update
+  nameWithType: Update
+  fullName: SuperOffice.Data.SQL.Update
+- uid: SuperOffice.Data.S.NewDelete*
+  commentId: Overload:SuperOffice.Data.S.NewDelete
+  isExternal: true
+  name: NewDelete
+  nameWithType: S.NewDelete
+  fullName: SuperOffice.Data.S.NewDelete
+- uid: SuperOffice.Data.SQL.Delete
+  commentId: T:SuperOffice.Data.SQL.Delete
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Delete
+  nameWithType: Delete
+  fullName: SuperOffice.Data.SQL.Delete
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: SuperOffice.Data.S.DeleteFromSelect*
+  commentId: Overload:SuperOffice.Data.S.DeleteFromSelect
+  isExternal: true
+  name: DeleteFromSelect
+  nameWithType: S.DeleteFromSelect
+  fullName: SuperOffice.Data.S.DeleteFromSelect
+- uid: SuperOffice.Data.SQL.TargetedSelect{{TI}}
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect{``0}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedSelect`1
+  name: TargetedSelect<TI>
+  nameWithType: TargetedSelect<TI>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<TI>
+  nameWithType.vb: TargetedSelect(Of TI)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of TI)
+  name.vb: TargetedSelect(Of TI)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TI
+    nameWithType: TI
+    fullName: TI
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TI
+    nameWithType: TI
+    fullName: TI
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.BatchSave
+  commentId: T:SuperOffice.Data.SQL.BatchSave
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: BatchSave
+  nameWithType: BatchSave
+  fullName: SuperOffice.Data.SQL.BatchSave
+- uid: SuperOffice.Data.S.NewInsertFromSelect*
+  commentId: Overload:SuperOffice.Data.S.NewInsertFromSelect
+  isExternal: true
+  name: NewInsertFromSelect
+  nameWithType: S.NewInsertFromSelect
+  fullName: SuperOffice.Data.S.NewInsertFromSelect
+- uid: SuperOffice.Data.SQL.InsertFromSelect
+  commentId: T:SuperOffice.Data.SQL.InsertFromSelect
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: InsertFromSelect
+  nameWithType: InsertFromSelect
+  fullName: SuperOffice.Data.SQL.InsertFromSelect
+- uid: SuperOffice.Data.S.And*
+  commentId: Overload:SuperOffice.Data.S.And
+  isExternal: true
+  name: And
+  nameWithType: S.And
+  fullName: SuperOffice.Data.S.And
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Restriction}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Restriction}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Restriction>
+  nameWithType: IEnumerable<Restriction>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Restriction>
+  nameWithType.vb: IEnumerable(Of Restriction)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Restriction)
+  name.vb: IEnumerable(Of Restriction)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Restriction
+    name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Restriction
+    name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Restriction
+  commentId: T:SuperOffice.Data.SQL.Restriction
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Restriction
+  nameWithType: Restriction
+  fullName: SuperOffice.Data.SQL.Restriction
+- uid: SuperOffice.Data.S.Or*
+  commentId: Overload:SuperOffice.Data.S.Or
+  isExternal: true
+  name: Or
+  nameWithType: S.Or
+  fullName: SuperOffice.Data.S.Or

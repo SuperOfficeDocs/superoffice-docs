@@ -1,0 +1,1662 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData
+  commentId: T:SuperOffice.CRM.Rows.ChatSessionRecordData
+  id: ChatSessionRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.#ctor
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.AlertLevel
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.ChatSessionId
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.CompanyName
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.Consented
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.ContactId
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.CustomerAlias
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.CustomerFetch
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.CustomerHost
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.CustomerId
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.Email
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.FirstMessage
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.Flags
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.Idle
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.InitialQueuePos
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.LastMessage
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.Name
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.Phone
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.ProjectId
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.Rank
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.SaleId
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.SessionKey
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.Status
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.TicketId
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.TopicId
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.TransferTo
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.UserId
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.WhenEnded
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.WhenRequested
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.WhenStarted
+  langs:
+  - csharp
+  - vb
+  name: ChatSessionRecordData
+  nameWithType: ChatSessionRecordData
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the chat_session table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.ChatSessionRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.ChatSessionTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class ChatSessionRecordData
+    content.vb: Public Class ChatSessionRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ChatSessionRecordData)
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ChatSessionRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.ChatSessionId
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.ChatSessionId
+  id: ChatSessionId
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: ChatSessionId
+  nameWithType: ChatSessionRecordData.ChatSessionId
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.ChatSessionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe primary key (auto-incremented) \n"
+  syntax:
+    content: public int ChatSessionId
+    return:
+      type: System.Int32
+    content.vb: Public ChatSessionId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.TopicId
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.TopicId
+  id: TopicId
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: TopicId
+  nameWithType: ChatSessionRecordData.TopicId
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.TopicId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe reference to the associated chat topic. \n"
+  syntax:
+    content: public int TopicId
+    return:
+      type: System.Int32
+    content.vb: Public TopicId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.UserId
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.UserId
+  id: UserId
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: ChatSessionRecordData.UserId
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.UserId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe reference to the associated user. \n"
+  syntax:
+    content: public int UserId
+    return:
+      type: System.Int32
+    content.vb: Public UserId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.CustomerId
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.CustomerId
+  id: CustomerId
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: CustomerId
+  nameWithType: ChatSessionRecordData.CustomerId
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.CustomerId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe reference to the associated customer. May be NULL or -1. \n"
+  syntax:
+    content: public int CustomerId
+    return:
+      type: System.Int32
+    content.vb: Public CustomerId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.CustomerAlias
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.CustomerAlias
+  id: CustomerAlias
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: CustomerAlias
+  nameWithType: ChatSessionRecordData.CustomerAlias
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.CustomerAlias
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe alias for the customer. \n"
+  syntax:
+    content: public string CustomerAlias
+    return:
+      type: System.String
+    content.vb: Public CustomerAlias As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.Status
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.Status
+  id: Status
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: ChatSessionRecordData.Status
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.Status
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEnum indicating the status for the session (pending, active, closed, etc). \n"
+  syntax:
+    content: public ChatSessionStatus Status
+    return:
+      type: SuperOffice.Data.ChatSessionStatus
+    content.vb: Public Status As ChatSessionStatus
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.WhenRequested
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.WhenRequested
+  id: WhenRequested
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: WhenRequested
+  nameWithType: ChatSessionRecordData.WhenRequested
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.WhenRequested
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen the session was requested by the customer. \n"
+  syntax:
+    content: public DateTime WhenRequested
+    return:
+      type: System.DateTime
+    content.vb: Public WhenRequested As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.WhenStarted
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.WhenStarted
+  id: WhenStarted
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: WhenStarted
+  nameWithType: ChatSessionRecordData.WhenStarted
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.WhenStarted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen the session was accepted by a user. \n"
+  syntax:
+    content: public DateTime WhenStarted
+    return:
+      type: System.DateTime
+    content.vb: Public WhenStarted As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.WhenEnded
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.WhenEnded
+  id: WhenEnded
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: WhenEnded
+  nameWithType: ChatSessionRecordData.WhenEnded
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.WhenEnded
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen the session was ended. \n"
+  syntax:
+    content: public DateTime WhenEnded
+    return:
+      type: System.DateTime
+    content.vb: Public WhenEnded As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.Idle
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.Idle
+  id: Idle
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: Idle
+  nameWithType: ChatSessionRecordData.Idle
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.Idle
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe last time anyone sent a message for this session. \n"
+  syntax:
+    content: public DateTime Idle
+    return:
+      type: System.DateTime
+    content.vb: Public Idle As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.CustomerFetch
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.CustomerFetch
+  id: CustomerFetch
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: CustomerFetch
+  nameWithType: ChatSessionRecordData.CustomerFetch
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.CustomerFetch
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe last time the customer&apos;s client refetched the data. Used to detect &apos;dead&apos; session. \n"
+  syntax:
+    content: public DateTime CustomerFetch
+    return:
+      type: System.DateTime
+    content.vb: Public CustomerFetch As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.SessionKey
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.SessionKey
+  id: SessionKey
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: SessionKey
+  nameWithType: ChatSessionRecordData.SessionKey
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.SessionKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nKey used to authenticate the session. \n"
+  syntax:
+    content: public string SessionKey
+    return:
+      type: System.String
+    content.vb: Public SessionKey As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.InitialQueuePos
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.InitialQueuePos
+  id: InitialQueuePos
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: InitialQueuePos
+  nameWithType: ChatSessionRecordData.InitialQueuePos
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.InitialQueuePos
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe initial queue pos (i.e. the number of pending sessions + 1) when the session was requested. \n"
+  syntax:
+    content: public int InitialQueuePos
+    return:
+      type: System.Int32
+    content.vb: Public InitialQueuePos As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.CustomerHost
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.CustomerHost
+  id: CustomerHost
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: CustomerHost
+  nameWithType: ChatSessionRecordData.CustomerHost
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.CustomerHost
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe hostname or IP address for the customer. \n"
+  syntax:
+    content: public string CustomerHost
+    return:
+      type: System.String
+    content.vb: Public CustomerHost As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.AlertLevel
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.AlertLevel
+  id: AlertLevel
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: AlertLevel
+  nameWithType: ChatSessionRecordData.AlertLevel
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.AlertLevel
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe alert level for this chat session. \n"
+  syntax:
+    content: public int AlertLevel
+    return:
+      type: System.Int32
+    content.vb: Public AlertLevel As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.Rank
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: ChatSessionRecordData.Rank
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.Rank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLowest possible unique number for active sessions for user. User for color index. Starting at 1. \n"
+  syntax:
+    content: public int Rank
+    return:
+      type: System.Int32
+    content.vb: Public Rank As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.Name
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.Name
+  id: Name
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ChatSessionRecordData.Name
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe name of customer, if provided \n"
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.CompanyName
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.CompanyName
+  id: CompanyName
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: CompanyName
+  nameWithType: ChatSessionRecordData.CompanyName
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.CompanyName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe name of the customers company, if provided \n"
+  syntax:
+    content: public string CompanyName
+    return:
+      type: System.String
+    content.vb: Public CompanyName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.Email
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.Email
+  id: Email
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: ChatSessionRecordData.Email
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.Email
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe email address of the customer, if provided \n"
+  syntax:
+    content: public string Email
+    return:
+      type: System.String
+    content.vb: Public Email As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.Phone
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.Phone
+  id: Phone
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: Phone
+  nameWithType: ChatSessionRecordData.Phone
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.Phone
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe phone number of the customer, if provided \n"
+  syntax:
+    content: public string Phone
+    return:
+      type: System.String
+    content.vb: Public Phone As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.FirstMessage
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.FirstMessage
+  id: FirstMessage
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: FirstMessage
+  nameWithType: ChatSessionRecordData.FirstMessage
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.FirstMessage
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nA copy of the first message in the chat session \n"
+  syntax:
+    content: public string FirstMessage
+    return:
+      type: System.String
+    content.vb: Public FirstMessage As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.LastMessage
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.LastMessage
+  id: LastMessage
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: LastMessage
+  nameWithType: ChatSessionRecordData.LastMessage
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.LastMessage
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nA copy of the last message in the chat session \n"
+  syntax:
+    content: public string LastMessage
+    return:
+      type: System.String
+    content.vb: Public LastMessage As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.Flags
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.Flags
+  id: Flags
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: ChatSessionRecordData.Flags
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.Flags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nVarious flags for the chat session \n"
+  syntax:
+    content: public ChatSessionFlags Flags
+    return:
+      type: SuperOffice.Data.ChatSessionFlags
+    content.vb: Public Flags As ChatSessionFlags
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.ProjectId
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: ChatSessionRecordData.ProjectId
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.ProjectId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe project that this chat session is connected to \n"
+  syntax:
+    content: public int ProjectId
+    return:
+      type: System.Int32
+    content.vb: Public ProjectId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.SaleId
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.SaleId
+  id: SaleId
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: ChatSessionRecordData.SaleId
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.SaleId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe sale that this chat session is connected to \n"
+  syntax:
+    content: public int SaleId
+    return:
+      type: System.Int32
+    content.vb: Public SaleId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.TicketId
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.TicketId
+  id: TicketId
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: TicketId
+  nameWithType: ChatSessionRecordData.TicketId
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.TicketId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe ticket that this chat session is connected to \n"
+  syntax:
+    content: public int TicketId
+    return:
+      type: System.Int32
+    content.vb: Public TicketId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.ContactId
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: ChatSessionRecordData.ContactId
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.ContactId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe contact that this chat session is connected to \n"
+  syntax:
+    content: public int ContactId
+    return:
+      type: System.Int32
+    content.vb: Public ContactId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.TransferTo
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.TransferTo
+  id: TransferTo
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: TransferTo
+  nameWithType: ChatSessionRecordData.TransferTo
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.TransferTo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe ejuser that has a pending transfer of the chat session \n"
+  syntax:
+    content: public int TransferTo
+    return:
+      type: System.Int32
+    content.vb: Public TransferTo As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.Consented
+  commentId: F:SuperOffice.CRM.Rows.ChatSessionRecordData.Consented
+  id: Consented
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: Consented
+  nameWithType: ChatSessionRecordData.Consented
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.Consented
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe customer consented when starting the session \n"
+  syntax:
+    content: public short Consented
+    return:
+      type: System.Int16
+    content.vb: Public Consented As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.ChatSessionRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordData
+  langs:
+  - csharp
+  - vb
+  name: ChatSessionRecordData()
+  nameWithType: ChatSessionRecordData.ChatSessionRecordData()
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.ChatSessionRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public ChatSessionRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.ChatSessionRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ChatSessionRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<ChatSessionRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ChatSessionRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ChatSessionRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ChatSessionRecordData, To)()
+  name.vb: MapEnums(Of ChatSessionRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ChatSessionRecordData, To>
+    nameWithType: EnumUtil.MapEnums<ChatSessionRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ChatSessionRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ChatSessionRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of ChatSessionRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ChatSessionRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ChatSessionRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ChatSessionRecordData>(ChatSessionRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<ChatSessionRecordData>(ChatSessionRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ChatSessionRecordData>(SuperOffice.CRM.Rows.ChatSessionRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ChatSessionRecordData)(ChatSessionRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ChatSessionRecordData)(SuperOffice.CRM.Rows.ChatSessionRecordData)
+  name.vb: AssignByReflection(Of ChatSessionRecordData)(ChatSessionRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ChatSessionRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<ChatSessionRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ChatSessionRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ChatSessionRecordData
+    name: ChatSessionRecordData
+    nameWithType: ChatSessionRecordData
+    fullName: SuperOffice.CRM.Rows.ChatSessionRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ChatSessionRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ChatSessionRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ChatSessionRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ChatSessionRecordData
+    name: ChatSessionRecordData
+    nameWithType: ChatSessionRecordData
+    fullName: SuperOffice.CRM.Rows.ChatSessionRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ChatSessionRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<ChatSessionRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ChatSessionRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ChatSessionRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ChatSessionRecordData)()
+  name.vb: GraphCopy(Of ChatSessionRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ChatSessionRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<ChatSessionRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ChatSessionRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ChatSessionRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of ChatSessionRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ChatSessionRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatSessionRecordData)
+  parent: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatSessionRecordData)
+  name: ToInsert()
+  nameWithType: ChatSessionRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: ChatSessionRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: ChatSessionRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ChatSessionRecordData, To>()
+  nameWithType: Converters.MapEnums<ChatSessionRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ChatSessionRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of ChatSessionRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ChatSessionRecordData, To)()
+  name.vb: MapEnums(Of ChatSessionRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ChatSessionRecordData, To>
+    nameWithType: Converters.MapEnums<ChatSessionRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ChatSessionRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ChatSessionRecordData, To)
+    nameWithType: Converters.MapEnums(Of ChatSessionRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ChatSessionRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatSessionRecordData)
+  commentId: M:SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatSessionRecordData)
+  isExternal: true
+  name: ToInsert(ChatSessionRecordData)
+  nameWithType: ChatSessionRecordDataExtensions.ToInsert(ChatSessionRecordData)
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatSessionRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatSessionRecordData)
+    name: ToInsert
+    nameWithType: ChatSessionRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ChatSessionRecordData
+    name: ChatSessionRecordData
+    nameWithType: ChatSessionRecordData
+    fullName: SuperOffice.CRM.Rows.ChatSessionRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatSessionRecordData)
+    name: ToInsert
+    nameWithType: ChatSessionRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ChatSessionRecordData
+    name: ChatSessionRecordData
+    nameWithType: ChatSessionRecordData
+    fullName: SuperOffice.CRM.Rows.ChatSessionRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: ChatSessionRecordDataExtensions
+  nameWithType: ChatSessionRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.ChatSessionStatus
+  commentId: T:SuperOffice.Data.ChatSessionStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ChatSessionStatus
+  nameWithType: ChatSessionStatus
+  fullName: SuperOffice.Data.ChatSessionStatus
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.Data.ChatSessionFlags
+  commentId: T:SuperOffice.Data.ChatSessionFlags
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ChatSessionFlags
+  nameWithType: ChatSessionFlags
+  fullName: SuperOffice.Data.ChatSessionFlags
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Rows.ChatSessionRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.ChatSessionRecordData.#ctor
+  isExternal: true
+  name: ChatSessionRecordData
+  nameWithType: ChatSessionRecordData.ChatSessionRecordData
+  fullName: SuperOffice.CRM.Rows.ChatSessionRecordData.ChatSessionRecordData

@@ -1,0 +1,235 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Constants.Header
+  commentId: T:SuperOffice.WebApi.Constants.Header
+  id: Constants.Header
+  parent: SuperOffice.WebApi
+  children:
+  - SuperOffice.WebApi.Constants.Header.Authorization
+  - SuperOffice.WebApi.Constants.Header.SOAppToken
+  - SuperOffice.WebApi.Constants.Header.SOCulture
+  - SuperOffice.WebApi.Constants.Header.SOLanguage
+  - SuperOffice.WebApi.Constants.Header.SOTimeZone
+  - SuperOffice.WebApi.Constants.Header.WwwAuthenticate
+  langs:
+  - csharp
+  - vb
+  name: Constants.Header
+  nameWithType: Constants.Header
+  fullName: SuperOffice.WebApi.Constants.Header
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: 'public static class Header : Object'
+    content.vb: >-
+      Public Module Header
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Constants.Header.Authorization
+  commentId: F:SuperOffice.WebApi.Constants.Header.Authorization
+  id: Authorization
+  parent: SuperOffice.WebApi.Constants.Header
+  langs:
+  - csharp
+  - vb
+  name: Authorization
+  nameWithType: Constants.Header.Authorization
+  fullName: SuperOffice.WebApi.Constants.Header.Authorization
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string Authorization = "Authorization"
+    return:
+      type: System.String
+    content.vb: Public Const Authorization As String = "Authorization"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.Header.SOAppToken
+  commentId: F:SuperOffice.WebApi.Constants.Header.SOAppToken
+  id: SOAppToken
+  parent: SuperOffice.WebApi.Constants.Header
+  langs:
+  - csharp
+  - vb
+  name: SOAppToken
+  nameWithType: Constants.Header.SOAppToken
+  fullName: SuperOffice.WebApi.Constants.Header.SOAppToken
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string SOAppToken = "SO-AppToken"
+    return:
+      type: System.String
+    content.vb: Public Const SOAppToken As String = "SO-AppToken"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.Header.SOCulture
+  commentId: F:SuperOffice.WebApi.Constants.Header.SOCulture
+  id: SOCulture
+  parent: SuperOffice.WebApi.Constants.Header
+  langs:
+  - csharp
+  - vb
+  name: SOCulture
+  nameWithType: Constants.Header.SOCulture
+  fullName: SuperOffice.WebApi.Constants.Header.SOCulture
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string SOCulture = "SO-Culture"
+    return:
+      type: System.String
+    content.vb: Public Const SOCulture As String = "SO-Culture"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.Header.SOLanguage
+  commentId: F:SuperOffice.WebApi.Constants.Header.SOLanguage
+  id: SOLanguage
+  parent: SuperOffice.WebApi.Constants.Header
+  langs:
+  - csharp
+  - vb
+  name: SOLanguage
+  nameWithType: Constants.Header.SOLanguage
+  fullName: SuperOffice.WebApi.Constants.Header.SOLanguage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string SOLanguage = "SO-Language"
+    return:
+      type: System.String
+    content.vb: Public Const SOLanguage As String = "SO-Language"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.Header.SOTimeZone
+  commentId: F:SuperOffice.WebApi.Constants.Header.SOTimeZone
+  id: SOTimeZone
+  parent: SuperOffice.WebApi.Constants.Header
+  langs:
+  - csharp
+  - vb
+  name: SOTimeZone
+  nameWithType: Constants.Header.SOTimeZone
+  fullName: SuperOffice.WebApi.Constants.Header.SOTimeZone
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string SOTimeZone = "SO-TimeZone"
+    return:
+      type: System.String
+    content.vb: Public Const SOTimeZone As String = "SO-TimeZone"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.Header.WwwAuthenticate
+  commentId: F:SuperOffice.WebApi.Constants.Header.WwwAuthenticate
+  id: WwwAuthenticate
+  parent: SuperOffice.WebApi.Constants.Header
+  langs:
+  - csharp
+  - vb
+  name: WwwAuthenticate
+  nameWithType: Constants.Header.WwwAuthenticate
+  fullName: SuperOffice.WebApi.Constants.Header.WwwAuthenticate
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string WwwAuthenticate = "Www-Authenticate"
+    return:
+      type: System.String
+    content.vb: Public Const WwwAuthenticate As String = "Www-Authenticate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

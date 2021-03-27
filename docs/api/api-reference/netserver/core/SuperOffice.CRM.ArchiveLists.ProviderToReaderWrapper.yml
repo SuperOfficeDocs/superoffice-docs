@@ -1,0 +1,2016 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  commentId: T:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  id: ProviderToReaderWrapper
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.#ctor(SuperOffice.CRM.ArchiveLists.IArchiveProvider,System.String)
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Close
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Depth
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Dispose
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.FieldCount
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBoolean(System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetByte(System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChar(System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetData(System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDataTypeName(System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDateTime(System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDecimal(System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDouble(System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFieldType(System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFloat(System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetGuid(System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt16(System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt32(System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt64(System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetName(System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetOrdinal(System.String)
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetSchemaTable
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetString(System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValue(System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValues(System.Object[])
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsClosed
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsDBNull(System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item(System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item(System.String)
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.NextResult
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Read
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.RecordsAffected
+  langs:
+  - csharp
+  - vb
+  name: ProviderToReaderWrapper
+  nameWithType: ProviderToReaderWrapper
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nHelper class to serve an <xref href=\"SuperOffice.CRM.ArchiveLists.IArchiveProvider\" data-throw-if-not-resolved=\"false\"></xref> as an <xref href=\"System.Data.IDataReader\" data-throw-if-not-resolved=\"false\"></xref>; generally used for the implementation of the GetReader\nmethod of <xref href=\"SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows\" data-throw-if-not-resolved=\"false\"></xref> interface.\n"
+  syntax:
+    content: 'public class ProviderToReaderWrapper : IDataReader, IDisposable, IDataRecord'
+    content.vb: >-
+      Public Class ProviderToReaderWrapper
+          Implements IDataReader, IDisposable, IDataRecord
+  inheritance:
+  - System.Object
+  implements:
+  - System.Data.IDataReader
+  - System.IDisposable
+  - System.Data.IDataRecord
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.#ctor(SuperOffice.CRM.ArchiveLists.IArchiveProvider,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.#ctor(SuperOffice.CRM.ArchiveLists.IArchiveProvider,System.String)
+  id: '#ctor(SuperOffice.CRM.ArchiveLists.IArchiveProvider,System.String)'
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: ProviderToReaderWrapper(IArchiveProvider, String)
+  nameWithType: ProviderToReaderWrapper.ProviderToReaderWrapper(IArchiveProvider, String)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.ProviderToReaderWrapper(SuperOffice.CRM.ArchiveLists.IArchiveProvider, System.String)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public ProviderToReaderWrapper(IArchiveProvider provider, string options)
+    parameters:
+    - id: provider
+      type: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+    - id: options
+      type: System.String
+    content.vb: Public Sub New(provider As IArchiveProvider, options As String)
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Close
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Close
+  id: Close
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: Close()
+  nameWithType: ProviderToReaderWrapper.Close()
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Close()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public void Close()
+    content.vb: Public Sub Close
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Close*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetSchemaTable
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetSchemaTable
+  id: GetSchemaTable
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetSchemaTable()
+  nameWithType: ProviderToReaderWrapper.GetSchemaTable()
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetSchemaTable()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public DataTable GetSchemaTable()
+    return:
+      type: System.Data.DataTable
+    content.vb: Public Function GetSchemaTable As DataTable
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetSchemaTable*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.NextResult
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.NextResult
+  id: NextResult
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: NextResult()
+  nameWithType: ProviderToReaderWrapper.NextResult()
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.NextResult()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public bool NextResult()
+    return:
+      type: System.Boolean
+    content.vb: Public Function NextResult As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.NextResult*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Read
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Read
+  id: Read
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: Read()
+  nameWithType: ProviderToReaderWrapper.Read()
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Read()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public bool Read()
+    return:
+      type: System.Boolean
+    content.vb: Public Function Read As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Read*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Dispose
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Dispose
+  id: Dispose
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: ProviderToReaderWrapper.Dispose()
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Dispose()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBoolean(System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBoolean(System.Int32)
+  id: GetBoolean(System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetBoolean(Int32)
+  nameWithType: ProviderToReaderWrapper.GetBoolean(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBoolean(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public bool GetBoolean(int i)
+    parameters:
+    - id: i
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetBoolean(i As Integer) As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBoolean*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetByte(System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetByte(System.Int32)
+  id: GetByte(System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetByte(Int32)
+  nameWithType: ProviderToReaderWrapper.GetByte(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetByte(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public byte GetByte(int i)
+    parameters:
+    - id: i
+      type: System.Int32
+    return:
+      type: System.Byte
+    content.vb: Public Function GetByte(i As Integer) As Byte
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetByte*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)
+  id: GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetBytes(Int32, Int64, Byte[], Int32, Int32)
+  nameWithType: ProviderToReaderWrapper.GetBytes(Int32, Int64, Byte[], Int32, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBytes(System.Int32, System.Int64, System.Byte[], System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public long GetBytes(int i, long fieldOffset, byte[] buffer, int bufferoffset, int length)
+    parameters:
+    - id: i
+      type: System.Int32
+    - id: fieldOffset
+      type: System.Int64
+    - id: buffer
+      type: System.Byte[]
+    - id: bufferoffset
+      type: System.Int32
+    - id: length
+      type: System.Int32
+    return:
+      type: System.Int64
+    content.vb: Public Function GetBytes(i As Integer, fieldOffset As Long, buffer As Byte(), bufferoffset As Integer, length As Integer) As Long
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBytes*
+  nameWithType.vb: ProviderToReaderWrapper.GetBytes(Int32, Int64, Byte(), Int32, Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBytes(System.Int32, System.Int64, System.Byte(), System.Int32, System.Int32)
+  name.vb: GetBytes(Int32, Int64, Byte(), Int32, Int32)
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChar(System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChar(System.Int32)
+  id: GetChar(System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetChar(Int32)
+  nameWithType: ProviderToReaderWrapper.GetChar(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChar(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public char GetChar(int i)
+    parameters:
+    - id: i
+      type: System.Int32
+    return:
+      type: System.Char
+    content.vb: Public Function GetChar(i As Integer) As Char
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChar*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)
+  id: GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetChars(Int32, Int64, Char[], Int32, Int32)
+  nameWithType: ProviderToReaderWrapper.GetChars(Int32, Int64, Char[], Int32, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChars(System.Int32, System.Int64, System.Char[], System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public long GetChars(int i, long fieldoffset, char[] buffer, int bufferoffset, int length)
+    parameters:
+    - id: i
+      type: System.Int32
+    - id: fieldoffset
+      type: System.Int64
+    - id: buffer
+      type: System.Char[]
+    - id: bufferoffset
+      type: System.Int32
+    - id: length
+      type: System.Int32
+    return:
+      type: System.Int64
+    content.vb: Public Function GetChars(i As Integer, fieldoffset As Long, buffer As Char(), bufferoffset As Integer, length As Integer) As Long
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChars*
+  nameWithType.vb: ProviderToReaderWrapper.GetChars(Int32, Int64, Char(), Int32, Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChars(System.Int32, System.Int64, System.Char(), System.Int32, System.Int32)
+  name.vb: GetChars(Int32, Int64, Char(), Int32, Int32)
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetData(System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetData(System.Int32)
+  id: GetData(System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetData(Int32)
+  nameWithType: ProviderToReaderWrapper.GetData(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetData(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public IDataReader GetData(int i)
+    parameters:
+    - id: i
+      type: System.Int32
+    return:
+      type: System.Data.IDataReader
+    content.vb: Public Function GetData(i As Integer) As IDataReader
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDataTypeName(System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDataTypeName(System.Int32)
+  id: GetDataTypeName(System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetDataTypeName(Int32)
+  nameWithType: ProviderToReaderWrapper.GetDataTypeName(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDataTypeName(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public string GetDataTypeName(int i)
+    parameters:
+    - id: i
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function GetDataTypeName(i As Integer) As String
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDataTypeName*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDateTime(System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDateTime(System.Int32)
+  id: GetDateTime(System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetDateTime(Int32)
+  nameWithType: ProviderToReaderWrapper.GetDateTime(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDateTime(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public DateTime GetDateTime(int i)
+    parameters:
+    - id: i
+      type: System.Int32
+    return:
+      type: System.DateTime
+    content.vb: Public Function GetDateTime(i As Integer) As Date
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDateTime*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDecimal(System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDecimal(System.Int32)
+  id: GetDecimal(System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetDecimal(Int32)
+  nameWithType: ProviderToReaderWrapper.GetDecimal(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDecimal(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public decimal GetDecimal(int i)
+    parameters:
+    - id: i
+      type: System.Int32
+    return:
+      type: System.Decimal
+    content.vb: Public Function GetDecimal(i As Integer) As Decimal
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDecimal*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDouble(System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDouble(System.Int32)
+  id: GetDouble(System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetDouble(Int32)
+  nameWithType: ProviderToReaderWrapper.GetDouble(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDouble(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public double GetDouble(int i)
+    parameters:
+    - id: i
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Function GetDouble(i As Integer) As Double
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDouble*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFieldType(System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFieldType(System.Int32)
+  id: GetFieldType(System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetFieldType(Int32)
+  nameWithType: ProviderToReaderWrapper.GetFieldType(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFieldType(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public Type GetFieldType(int i)
+    parameters:
+    - id: i
+      type: System.Int32
+    return:
+      type: System.Type
+    content.vb: Public Function GetFieldType(i As Integer) As Type
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFieldType*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFloat(System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFloat(System.Int32)
+  id: GetFloat(System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetFloat(Int32)
+  nameWithType: ProviderToReaderWrapper.GetFloat(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFloat(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public float GetFloat(int i)
+    parameters:
+    - id: i
+      type: System.Int32
+    return:
+      type: System.Single
+    content.vb: Public Function GetFloat(i As Integer) As Single
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFloat*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetGuid(System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetGuid(System.Int32)
+  id: GetGuid(System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetGuid(Int32)
+  nameWithType: ProviderToReaderWrapper.GetGuid(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetGuid(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public Guid GetGuid(int i)
+    parameters:
+    - id: i
+      type: System.Int32
+    return:
+      type: System.Guid
+    content.vb: Public Function GetGuid(i As Integer) As Guid
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetGuid*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt16(System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt16(System.Int32)
+  id: GetInt16(System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetInt16(Int32)
+  nameWithType: ProviderToReaderWrapper.GetInt16(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt16(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public short GetInt16(int i)
+    parameters:
+    - id: i
+      type: System.Int32
+    return:
+      type: System.Int16
+    content.vb: Public Function GetInt16(i As Integer) As Short
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt16*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt32(System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt32(System.Int32)
+  id: GetInt32(System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetInt32(Int32)
+  nameWithType: ProviderToReaderWrapper.GetInt32(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt32(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public int GetInt32(int i)
+    parameters:
+    - id: i
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Function GetInt32(i As Integer) As Integer
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt32*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt64(System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt64(System.Int32)
+  id: GetInt64(System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetInt64(Int32)
+  nameWithType: ProviderToReaderWrapper.GetInt64(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt64(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public long GetInt64(int i)
+    parameters:
+    - id: i
+      type: System.Int32
+    return:
+      type: System.Int64
+    content.vb: Public Function GetInt64(i As Integer) As Long
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt64*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetName(System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetName(System.Int32)
+  id: GetName(System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetName(Int32)
+  nameWithType: ProviderToReaderWrapper.GetName(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetName(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public string GetName(int i)
+    parameters:
+    - id: i
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function GetName(i As Integer) As String
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetName*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetOrdinal(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetOrdinal(System.String)
+  id: GetOrdinal(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetOrdinal(String)
+  nameWithType: ProviderToReaderWrapper.GetOrdinal(String)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetOrdinal(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public int GetOrdinal(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Function GetOrdinal(name As String) As Integer
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetOrdinal*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetString(System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetString(System.Int32)
+  id: GetString(System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetString(Int32)
+  nameWithType: ProviderToReaderWrapper.GetString(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetString(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public string GetString(int i)
+    parameters:
+    - id: i
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function GetString(i As Integer) As String
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValue(System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValue(System.Int32)
+  id: GetValue(System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetValue(Int32)
+  nameWithType: ProviderToReaderWrapper.GetValue(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValue(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public object GetValue(int i)
+    parameters:
+    - id: i
+      type: System.Int32
+    return:
+      type: System.Object
+    content.vb: Public Function GetValue(i As Integer) As Object
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValues(System.Object[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValues(System.Object[])
+  id: GetValues(System.Object[])
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: GetValues(Object[])
+  nameWithType: ProviderToReaderWrapper.GetValues(Object[])
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValues(System.Object[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public int GetValues(object[] values)
+    parameters:
+    - id: values
+      type: System.Object[]
+    return:
+      type: System.Int32
+    content.vb: Public Function GetValues(values As Object()) As Integer
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValues*
+  nameWithType.vb: ProviderToReaderWrapper.GetValues(Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValues(System.Object())
+  name.vb: GetValues(Object())
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsDBNull(System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsDBNull(System.Int32)
+  id: IsDBNull(System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: IsDBNull(Int32)
+  nameWithType: ProviderToReaderWrapper.IsDBNull(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsDBNull(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public bool IsDBNull(int i)
+    parameters:
+    - id: i
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsDBNull(i As Integer) As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsDBNull*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Depth
+  commentId: P:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Depth
+  id: Depth
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: Depth
+  nameWithType: ProviderToReaderWrapper.Depth
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Depth
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nGets a value indicating the depth of nesting for the current row.\n"
+  remarks: "\nThe outermost table has a depth of zero\n"
+  syntax:
+    content: public int Depth { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Depth As Integer
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Depth*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsClosed
+  commentId: P:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsClosed
+  id: IsClosed
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: IsClosed
+  nameWithType: ProviderToReaderWrapper.IsClosed
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsClosed
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public bool IsClosed { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsClosed As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsClosed*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.RecordsAffected
+  commentId: P:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.RecordsAffected
+  id: RecordsAffected
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: RecordsAffected
+  nameWithType: ProviderToReaderWrapper.RecordsAffected
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.RecordsAffected
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nGets the number of rows changed, inserted, or deleted by execution of the SQL statement.\n"
+  remarks: "\nThe number of rows changed, inserted, or deleted; 0 if no rows were affected or the statement failed; and -1 for SELECT statements\n"
+  syntax:
+    content: public int RecordsAffected { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property RecordsAffected As Integer
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.RecordsAffected*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.FieldCount
+  commentId: P:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.FieldCount
+  id: FieldCount
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: FieldCount
+  nameWithType: ProviderToReaderWrapper.FieldCount
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.FieldCount
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public int FieldCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property FieldCount As Integer
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.FieldCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item(System.String)
+  commentId: P:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item(System.String)
+  id: Item(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: Item[String]
+  nameWithType: ProviderToReaderWrapper.Item[String]
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item[System.String]
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public object this[string name] { get; }
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Object
+    content.vb: Public ReadOnly Property Item(name As String) As Object
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item*
+  nameWithType.vb: ProviderToReaderWrapper.Item(String)
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item(System.String)
+  name.vb: Item(String)
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item(System.Int32)
+  commentId: P:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper
+  langs:
+  - csharp
+  - vb
+  name: Item[Int32]
+  nameWithType: ProviderToReaderWrapper.Item[Int32]
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item[System.Int32]
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public object this[int i] { get; }
+    parameters:
+    - id: i
+      type: System.Int32
+    return:
+      type: System.Object
+    content.vb: Public ReadOnly Property Item(i As Integer) As Object
+  overload: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item*
+  nameWithType.vb: ProviderToReaderWrapper.Item(Int32)
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item(System.Int32)
+  name.vb: Item(Int32)
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Data.IDataReader
+  isExternal: true
+  name: IDataReader
+  nameWithType: IDataReader
+  fullName: System.Data.IDataReader
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Data.IDataRecord
+  isExternal: true
+  name: IDataRecord
+  nameWithType: IDataRecord
+  fullName: System.Data.IDataRecord
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ProviderToReaderWrapper, To>()
+  nameWithType: EnumUtil.MapEnums<ProviderToReaderWrapper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ProviderToReaderWrapper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper, To)()
+  name.vb: MapEnums(Of ProviderToReaderWrapper, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ProviderToReaderWrapper, To>
+    nameWithType: EnumUtil.MapEnums<ProviderToReaderWrapper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ProviderToReaderWrapper, To)
+    nameWithType: EnumUtil.MapEnums(Of ProviderToReaderWrapper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ProviderToReaderWrapper, To>()
+  nameWithType: Converters.MapEnums<ProviderToReaderWrapper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper, To>()
+  nameWithType.vb: Converters.MapEnums(Of ProviderToReaderWrapper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper, To)()
+  name.vb: MapEnums(Of ProviderToReaderWrapper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ProviderToReaderWrapper, To>
+    nameWithType: Converters.MapEnums<ProviderToReaderWrapper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ProviderToReaderWrapper, To)
+    nameWithType: Converters.MapEnums(Of ProviderToReaderWrapper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.#ctor
+  isExternal: true
+  name: ProviderToReaderWrapper
+  nameWithType: ProviderToReaderWrapper.ProviderToReaderWrapper
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.ProviderToReaderWrapper
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProvider
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProvider
+  nameWithType: IArchiveProvider
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Close*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Close
+  isExternal: true
+  name: Close
+  nameWithType: ProviderToReaderWrapper.Close
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Close
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetSchemaTable*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetSchemaTable
+  isExternal: true
+  name: GetSchemaTable
+  nameWithType: ProviderToReaderWrapper.GetSchemaTable
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetSchemaTable
+- uid: System.Data.DataTable
+  isExternal: true
+  name: DataTable
+  nameWithType: DataTable
+  fullName: System.Data.DataTable
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.NextResult*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.NextResult
+  isExternal: true
+  name: NextResult
+  nameWithType: ProviderToReaderWrapper.NextResult
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.NextResult
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Read*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Read
+  isExternal: true
+  name: Read
+  nameWithType: ProviderToReaderWrapper.Read
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Read
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Dispose*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Dispose
+  isExternal: true
+  name: Dispose
+  nameWithType: ProviderToReaderWrapper.Dispose
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBoolean*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBoolean
+  isExternal: true
+  name: GetBoolean
+  nameWithType: ProviderToReaderWrapper.GetBoolean
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBoolean
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetByte*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetByte
+  isExternal: true
+  name: GetByte
+  nameWithType: ProviderToReaderWrapper.GetByte
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetByte
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBytes*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBytes
+  isExternal: true
+  name: GetBytes
+  nameWithType: ProviderToReaderWrapper.GetBytes
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetBytes
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChar*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChar
+  isExternal: true
+  name: GetChar
+  nameWithType: ProviderToReaderWrapper.GetChar
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChar
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  name: Char
+  nameWithType: Char
+  fullName: System.Char
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChars*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChars
+  isExternal: true
+  name: GetChars
+  nameWithType: ProviderToReaderWrapper.GetChars
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetChars
+- uid: System.Char[]
+  isExternal: true
+  name: Char[]
+  nameWithType: Char[]
+  fullName: System.Char[]
+  nameWithType.vb: Char()
+  fullName.vb: System.Char()
+  name.vb: Char()
+  spec.csharp:
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetData*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetData
+  isExternal: true
+  name: GetData
+  nameWithType: ProviderToReaderWrapper.GetData
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetData
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDataTypeName*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDataTypeName
+  isExternal: true
+  name: GetDataTypeName
+  nameWithType: ProviderToReaderWrapper.GetDataTypeName
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDataTypeName
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDateTime*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDateTime
+  isExternal: true
+  name: GetDateTime
+  nameWithType: ProviderToReaderWrapper.GetDateTime
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDateTime
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDecimal*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDecimal
+  isExternal: true
+  name: GetDecimal
+  nameWithType: ProviderToReaderWrapper.GetDecimal
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDecimal
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDouble*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDouble
+  isExternal: true
+  name: GetDouble
+  nameWithType: ProviderToReaderWrapper.GetDouble
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetDouble
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFieldType*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFieldType
+  isExternal: true
+  name: GetFieldType
+  nameWithType: ProviderToReaderWrapper.GetFieldType
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFieldType
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFloat*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFloat
+  isExternal: true
+  name: GetFloat
+  nameWithType: ProviderToReaderWrapper.GetFloat
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetFloat
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetGuid*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetGuid
+  isExternal: true
+  name: GetGuid
+  nameWithType: ProviderToReaderWrapper.GetGuid
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetGuid
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt16*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt16
+  isExternal: true
+  name: GetInt16
+  nameWithType: ProviderToReaderWrapper.GetInt16
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt16
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt32*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt32
+  isExternal: true
+  name: GetInt32
+  nameWithType: ProviderToReaderWrapper.GetInt32
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt32
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt64*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt64
+  isExternal: true
+  name: GetInt64
+  nameWithType: ProviderToReaderWrapper.GetInt64
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetInt64
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetName*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetName
+  isExternal: true
+  name: GetName
+  nameWithType: ProviderToReaderWrapper.GetName
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetName
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetOrdinal*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetOrdinal
+  isExternal: true
+  name: GetOrdinal
+  nameWithType: ProviderToReaderWrapper.GetOrdinal
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetOrdinal
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetString*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetString
+  isExternal: true
+  name: GetString
+  nameWithType: ProviderToReaderWrapper.GetString
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetString
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValue*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValue
+  isExternal: true
+  name: GetValue
+  nameWithType: ProviderToReaderWrapper.GetValue
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValue
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValues*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValues
+  isExternal: true
+  name: GetValues
+  nameWithType: ProviderToReaderWrapper.GetValues
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.GetValues
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsDBNull*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsDBNull
+  isExternal: true
+  name: IsDBNull
+  nameWithType: ProviderToReaderWrapper.IsDBNull
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsDBNull
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Depth*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Depth
+  isExternal: true
+  name: Depth
+  nameWithType: ProviderToReaderWrapper.Depth
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Depth
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsClosed*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsClosed
+  isExternal: true
+  name: IsClosed
+  nameWithType: ProviderToReaderWrapper.IsClosed
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.IsClosed
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.RecordsAffected*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.RecordsAffected
+  isExternal: true
+  name: RecordsAffected
+  nameWithType: ProviderToReaderWrapper.RecordsAffected
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.RecordsAffected
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.FieldCount*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.FieldCount
+  isExternal: true
+  name: FieldCount
+  nameWithType: ProviderToReaderWrapper.FieldCount
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.FieldCount
+- uid: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item
+  isExternal: true
+  name: Item
+  nameWithType: ProviderToReaderWrapper.Item
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderToReaderWrapper.Item

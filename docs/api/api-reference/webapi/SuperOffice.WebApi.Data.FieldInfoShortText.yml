@@ -1,0 +1,398 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.FieldInfoShortText
+  commentId: T:SuperOffice.WebApi.Data.FieldInfoShortText
+  id: FieldInfoShortText
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.FieldInfoShortText.#ctor
+  - SuperOffice.WebApi.Data.FieldInfoShortText.DefaultValue
+  - SuperOffice.WebApi.Data.FieldInfoShortText.FormatMask
+  - SuperOffice.WebApi.Data.FieldInfoShortText.IsHtml
+  - SuperOffice.WebApi.Data.FieldInfoShortText.TextLength
+  langs:
+  - csharp
+  - vb
+  name: FieldInfoShortText
+  nameWithType: FieldInfoShortText
+  fullName: SuperOffice.WebApi.Data.FieldInfoShortText
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for FieldInfoShortText.\nShort text string custom database field.    \n"
+  syntax:
+    content: 'public class FieldInfoShortText : FieldInfoBase'
+    content.vb: >-
+      Public Class FieldInfoShortText
+          Inherits FieldInfoBase
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
+    commentId: T:SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.FieldInfoBase
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.FieldInfoBase.FieldType_String
+  - SuperOffice.WebApi.Data.FieldInfoBase.FieldType
+  - SuperOffice.WebApi.Data.FieldInfoBase.FieldName
+  - SuperOffice.WebApi.Data.FieldInfoBase.DisplayName
+  - SuperOffice.WebApi.Data.FieldInfoBase.Description
+  - SuperOffice.WebApi.Data.FieldInfoBase.ShortLabel
+  - SuperOffice.WebApi.Data.FieldInfoBase.HideLabel
+  - SuperOffice.WebApi.Data.FieldInfoBase.HideField
+  - SuperOffice.WebApi.Data.FieldInfoBase.IsIndexed
+  - SuperOffice.WebApi.Data.FieldInfoBase.IsMandatory
+  - SuperOffice.WebApi.Data.FieldInfoBase.IsReadOnly
+  - SuperOffice.WebApi.Data.FieldInfoBase.IsExternal
+  - SuperOffice.WebApi.Data.FieldInfoBase.Rank
+  - SuperOffice.WebApi.Data.FieldInfoBase.TemplateVariableName
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.FieldInfoShortText.#ctor
+  commentId: M:SuperOffice.WebApi.Data.FieldInfoShortText.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.FieldInfoShortText
+  langs:
+  - csharp
+  - vb
+  name: FieldInfoShortText()
+  nameWithType: FieldInfoShortText.FieldInfoShortText()
+  fullName: SuperOffice.WebApi.Data.FieldInfoShortText.FieldInfoShortText()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public FieldInfoShortText()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.FieldInfoShortText.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FieldInfoShortText.DefaultValue
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoShortText.DefaultValue
+  id: DefaultValue
+  parent: SuperOffice.WebApi.Data.FieldInfoShortText
+  langs:
+  - csharp
+  - vb
+  name: DefaultValue
+  nameWithType: FieldInfoShortText.DefaultValue
+  fullName: SuperOffice.WebApi.Data.FieldInfoShortText.DefaultValue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault string value\n"
+  syntax:
+    content: public virtual string DefaultValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DefaultValue As String
+  overload: SuperOffice.WebApi.Data.FieldInfoShortText.DefaultValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FieldInfoShortText.TextLength
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoShortText.TextLength
+  id: TextLength
+  parent: SuperOffice.WebApi.Data.FieldInfoShortText
+  langs:
+  - csharp
+  - vb
+  name: TextLength
+  nameWithType: FieldInfoShortText.TextLength
+  fullName: SuperOffice.WebApi.Data.FieldInfoShortText.TextLength
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLength (in characters) of a text field, 0 for other types\n"
+  syntax:
+    content: public virtual short TextLength { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property TextLength As Short
+  overload: SuperOffice.WebApi.Data.FieldInfoShortText.TextLength*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FieldInfoShortText.FormatMask
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoShortText.FormatMask
+  id: FormatMask
+  parent: SuperOffice.WebApi.Data.FieldInfoShortText
+  langs:
+  - csharp
+  - vb
+  name: FormatMask
+  nameWithType: FieldInfoShortText.FormatMask
+  fullName: SuperOffice.WebApi.Data.FieldInfoShortText.FormatMask
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFormatting mask, can be whatever the controls understand (currently nothing :-))\n"
+  syntax:
+    content: public virtual string FormatMask { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FormatMask As String
+  overload: SuperOffice.WebApi.Data.FieldInfoShortText.FormatMask*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FieldInfoShortText.IsHtml
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoShortText.IsHtml
+  id: IsHtml
+  parent: SuperOffice.WebApi.Data.FieldInfoShortText
+  langs:
+  - csharp
+  - vb
+  name: IsHtml
+  nameWithType: FieldInfoShortText.IsHtml
+  fullName: SuperOffice.WebApi.Data.FieldInfoShortText.IsHtml
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDo not escape HTML in field when displaying contents.\n"
+  syntax:
+    content: public virtual bool IsHtml { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsHtml As Boolean
+  overload: SuperOffice.WebApi.Data.FieldInfoShortText.IsHtml*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.FieldInfoBase
+  commentId: T:SuperOffice.WebApi.Data.FieldInfoBase
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: FieldInfoBase
+  nameWithType: FieldInfoBase
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.FieldType_String
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.FieldType_String
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: FieldType_String
+  nameWithType: FieldInfoBase.FieldType_String
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.FieldType_String
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.FieldType
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.FieldType
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: FieldType
+  nameWithType: FieldInfoBase.FieldType
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.FieldType
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.FieldName
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.FieldName
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: FieldName
+  nameWithType: FieldInfoBase.FieldName
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.FieldName
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.DisplayName
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.DisplayName
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: DisplayName
+  nameWithType: FieldInfoBase.DisplayName
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.DisplayName
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.Description
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.Description
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: Description
+  nameWithType: FieldInfoBase.Description
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.Description
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.ShortLabel
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.ShortLabel
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: ShortLabel
+  nameWithType: FieldInfoBase.ShortLabel
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.ShortLabel
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.HideLabel
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.HideLabel
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: HideLabel
+  nameWithType: FieldInfoBase.HideLabel
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.HideLabel
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.HideField
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.HideField
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: HideField
+  nameWithType: FieldInfoBase.HideField
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.HideField
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.IsIndexed
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.IsIndexed
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: IsIndexed
+  nameWithType: FieldInfoBase.IsIndexed
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.IsIndexed
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.IsMandatory
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.IsMandatory
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: IsMandatory
+  nameWithType: FieldInfoBase.IsMandatory
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.IsMandatory
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.IsReadOnly
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.IsReadOnly
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: IsReadOnly
+  nameWithType: FieldInfoBase.IsReadOnly
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.IsReadOnly
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.IsExternal
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.IsExternal
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: IsExternal
+  nameWithType: FieldInfoBase.IsExternal
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.IsExternal
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.Rank
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.Rank
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: Rank
+  nameWithType: FieldInfoBase.Rank
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.Rank
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.TemplateVariableName
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.TemplateVariableName
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: TemplateVariableName
+  nameWithType: FieldInfoBase.TemplateVariableName
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.TemplateVariableName
+- uid: SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
+  commentId: T:SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
+  isExternal: true
+  name: UserDefinedFieldInfoAgent
+  nameWithType: UserDefinedFieldInfoAgent
+  fullName: SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.FieldInfoShortText.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldInfoShortText.#ctor
+  isExternal: true
+  name: FieldInfoShortText
+  nameWithType: FieldInfoShortText.FieldInfoShortText
+  fullName: SuperOffice.WebApi.Data.FieldInfoShortText.FieldInfoShortText
+- uid: SuperOffice.WebApi.Data.FieldInfoShortText.DefaultValue*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldInfoShortText.DefaultValue
+  isExternal: true
+  name: DefaultValue
+  nameWithType: FieldInfoShortText.DefaultValue
+  fullName: SuperOffice.WebApi.Data.FieldInfoShortText.DefaultValue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.FieldInfoShortText.TextLength*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldInfoShortText.TextLength
+  isExternal: true
+  name: TextLength
+  nameWithType: FieldInfoShortText.TextLength
+  fullName: SuperOffice.WebApi.Data.FieldInfoShortText.TextLength
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.FieldInfoShortText.FormatMask*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldInfoShortText.FormatMask
+  isExternal: true
+  name: FormatMask
+  nameWithType: FieldInfoShortText.FormatMask
+  fullName: SuperOffice.WebApi.Data.FieldInfoShortText.FormatMask
+- uid: SuperOffice.WebApi.Data.FieldInfoShortText.IsHtml*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldInfoShortText.IsHtml
+  isExternal: true
+  name: IsHtml
+  nameWithType: FieldInfoShortText.IsHtml
+  fullName: SuperOffice.WebApi.Data.FieldInfoShortText.IsHtml
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

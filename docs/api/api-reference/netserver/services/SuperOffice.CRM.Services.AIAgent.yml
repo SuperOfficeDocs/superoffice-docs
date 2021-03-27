@@ -1,0 +1,1022 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.AIAgent
+  commentId: T:SuperOffice.CRM.Services.AIAgent
+  id: AIAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.AIAgent.#ctor
+  - SuperOffice.CRM.Services.AIAgent.DetectLanguage(System.String)
+  - SuperOffice.CRM.Services.AIAgent.DetectSentiment(System.String)
+  - SuperOffice.CRM.Services.AIAgent.GuessCategory(System.String,System.String)
+  - SuperOffice.CRM.Services.AIAgent.TrainCategorizer
+  - SuperOffice.CRM.Services.AIAgent.Translate(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: AIAgent
+  nameWithType: AIAgent
+  fullName: SuperOffice.CRM.Services.AIAgent
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFacade for the AI Agent\nAI services, such as Translation, Statistics, Sentiment analysis, backed by calls to Public Cloud providers\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (AIAgent agent = new AIAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: 'public class AIAgent : AgentBase<IAIAgent>, IDisposable, IAIAgent, IAgent'
+    content.vb: >-
+      Public Class AIAgent
+          Inherits AgentBase(Of IAIAgent)
+          Implements IDisposable, IAIAgent, IAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAIAgent}
+  implements:
+  - System.IDisposable
+  - SuperOffice.CRM.Services.IAIAgent
+  - SuperOffice.CRM.Services.IAgent
+  inheritedMembers:
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAIAgent}.Dispose
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAIAgent}.InnerAgent
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.AIAgent.DetectLanguage(System.String)
+  commentId: M:SuperOffice.CRM.Services.AIAgent.DetectLanguage(System.String)
+  id: DetectLanguage(System.String)
+  parent: SuperOffice.CRM.Services.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: DetectLanguage(String)
+  nameWithType: AIAgent.DetectLanguage(String)
+  fullName: SuperOffice.CRM.Services.AIAgent.DetectLanguage(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGiven a (reasonably short) text, detect the language it is written in\n"
+  syntax:
+    content: public string DetectLanguage(string text)
+    parameters:
+    - id: text
+      type: System.String
+      description: Text to be analyzed; there may be a cost-per-character so do not send a book here
+    return:
+      type: System.String
+      description: ISO Language code, such as NO, US, ES, FR
+    content.vb: Public Function DetectLanguage(text As String) As String
+  overload: SuperOffice.CRM.Services.AIAgent.DetectLanguage*
+  implements:
+  - SuperOffice.CRM.Services.IAIAgent.DetectLanguage(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AIAgent.DetectSentiment(System.String)
+  commentId: M:SuperOffice.CRM.Services.AIAgent.DetectSentiment(System.String)
+  id: DetectSentiment(System.String)
+  parent: SuperOffice.CRM.Services.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: DetectSentiment(String)
+  nameWithType: AIAgent.DetectSentiment(String)
+  fullName: SuperOffice.CRM.Services.AIAgent.DetectSentiment(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDetect the sentiment of a (reasonably short) text. Sentiment analysis may cause a translation to be made, since sentiment analysis only supports a limited set of languages\n"
+  syntax:
+    content: public Sentiment DetectSentiment(string text)
+    parameters:
+    - id: text
+      type: System.String
+      description: Text to be analyzed
+    return:
+      type: SuperOffice.CRM.Services.Sentiment
+      description: 'The sentiment information: score (-100 to +100) and confidence'
+    content.vb: Public Function DetectSentiment(text As String) As Sentiment
+  overload: SuperOffice.CRM.Services.AIAgent.DetectSentiment*
+  implements:
+  - SuperOffice.CRM.Services.IAIAgent.DetectSentiment(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AIAgent.Translate(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.AIAgent.Translate(System.String,System.String)
+  id: Translate(System.String,System.String)
+  parent: SuperOffice.CRM.Services.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: Translate(String, String)
+  nameWithType: AIAgent.Translate(String, String)
+  fullName: SuperOffice.CRM.Services.AIAgent.Translate(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTranslate a text from one language to another. Language of the text is automatically detected.\n"
+  syntax:
+    content: public string Translate(string text, string targetLanguage)
+    parameters:
+    - id: text
+      type: System.String
+      description: Text to be translated. Language of the text is automatically detected.
+    - id: targetLanguage
+      type: System.String
+      description: ISO Language code (such as FR) to translate the text into.
+    return:
+      type: System.String
+      description: Translated text
+    content.vb: Public Function Translate(text As String, targetLanguage As String) As String
+  overload: SuperOffice.CRM.Services.AIAgent.Translate*
+  implements:
+  - SuperOffice.CRM.Services.IAIAgent.Translate(System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AIAgent.GuessCategory(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.AIAgent.GuessCategory(System.String,System.String)
+  id: GuessCategory(System.String,System.String)
+  parent: SuperOffice.CRM.Services.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: GuessCategory(String, String)
+  nameWithType: AIAgent.GuessCategory(String, String)
+  fullName: SuperOffice.CRM.Services.AIAgent.GuessCategory(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGiven a ticket&apos;s subject and message body, guess the ticket category it should be placed in\n"
+  syntax:
+    content: public string GuessCategory(string subject, string text)
+    parameters:
+    - id: subject
+      type: System.String
+      description: Ticket subject
+    - id: text
+      type: System.String
+      description: Ticket body text (not HTML)
+    return:
+      type: System.String
+      description: Suggested ticket category full name
+    content.vb: Public Function GuessCategory(subject As String, text As String) As String
+  overload: SuperOffice.CRM.Services.AIAgent.GuessCategory*
+  implements:
+  - SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AIAgent.TrainCategorizer
+  commentId: M:SuperOffice.CRM.Services.AIAgent.TrainCategorizer
+  id: TrainCategorizer
+  parent: SuperOffice.CRM.Services.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: TrainCategorizer()
+  nameWithType: AIAgent.TrainCategorizer()
+  fullName: SuperOffice.CRM.Services.AIAgent.TrainCategorizer()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrain categorizer with a \n"
+  syntax:
+    content: public string TrainCategorizer()
+    return:
+      type: System.String
+      description: NULL on success, or Error message if something went wrong.
+    content.vb: Public Function TrainCategorizer As String
+  overload: SuperOffice.CRM.Services.AIAgent.TrainCategorizer*
+  implements:
+  - SuperOffice.CRM.Services.IAIAgent.TrainCategorizer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AIAgent.#ctor
+  commentId: M:SuperOffice.CRM.Services.AIAgent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: AIAgent()
+  nameWithType: AIAgent.AIAgent()
+  fullName: SuperOffice.CRM.Services.AIAgent.AIAgent()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public AIAgent()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.AIAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAIAgent}
+  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAIAgent}
+  parent: SuperOffice.CRM.Services
+  definition: SuperOffice.CRM.Services.AgentBase`1
+  name: AgentBase<IAIAgent>
+  nameWithType: AgentBase<IAIAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IAIAgent>
+  nameWithType.vb: AgentBase(Of IAIAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IAIAgent)
+  name.vb: AgentBase(Of IAIAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.IAIAgent
+    name: IAIAgent
+    nameWithType: IAIAgent
+    fullName: SuperOffice.CRM.Services.IAIAgent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.IAIAgent
+    name: IAIAgent
+    nameWithType: IAIAgent
+    fullName: SuperOffice.CRM.Services.IAIAgent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.CRM.Services.IAIAgent
+  commentId: T:SuperOffice.CRM.Services.IAIAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAIAgent
+  nameWithType: IAIAgent
+  fullName: SuperOffice.CRM.Services.IAIAgent
+- uid: SuperOffice.CRM.Services.IAgent
+  commentId: T:SuperOffice.CRM.Services.IAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAgent
+  nameWithType: IAgent
+  fullName: SuperOffice.CRM.Services.IAgent
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAIAgent}.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAIAgent}.Dispose
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAIAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  name: Dispose()
+  nameWithType: AgentBase<IAIAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IAIAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of IAIAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IAIAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<IAIAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IAIAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of IAIAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IAIAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAIAgent}.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAIAgent}.InnerAgent
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAIAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  name: InnerAgent
+  nameWithType: AgentBase<IAIAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IAIAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of IAIAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IAIAgent).InnerAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AgentBase`1
+  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+  isExternal: true
+  name: AgentBase<TAgent>
+  nameWithType: AgentBase<TAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
+  nameWithType.vb: AgentBase(Of TAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
+  name.vb: AgentBase(Of TAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase<TAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of TAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  isExternal: true
+  name: InnerAgent
+  nameWithType: AgentBase<TAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
+- uid: SuperOffice.CRM.Services.AIAgent.DetectLanguage*
+  commentId: Overload:SuperOffice.CRM.Services.AIAgent.DetectLanguage
+  isExternal: true
+  name: DetectLanguage
+  nameWithType: AIAgent.DetectLanguage
+  fullName: SuperOffice.CRM.Services.AIAgent.DetectLanguage
+- uid: SuperOffice.CRM.Services.IAIAgent.DetectLanguage(System.String)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.DetectLanguage(System.String)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  isExternal: true
+  name: DetectLanguage(String)
+  nameWithType: IAIAgent.DetectLanguage(String)
+  fullName: SuperOffice.CRM.Services.IAIAgent.DetectLanguage(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAIAgent.DetectLanguage(System.String)
+    name: DetectLanguage
+    nameWithType: IAIAgent.DetectLanguage
+    fullName: SuperOffice.CRM.Services.IAIAgent.DetectLanguage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAIAgent.DetectLanguage(System.String)
+    name: DetectLanguage
+    nameWithType: IAIAgent.DetectLanguage
+    fullName: SuperOffice.CRM.Services.IAIAgent.DetectLanguage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.AIAgent.DetectSentiment*
+  commentId: Overload:SuperOffice.CRM.Services.AIAgent.DetectSentiment
+  isExternal: true
+  name: DetectSentiment
+  nameWithType: AIAgent.DetectSentiment
+  fullName: SuperOffice.CRM.Services.AIAgent.DetectSentiment
+- uid: SuperOffice.CRM.Services.IAIAgent.DetectSentiment(System.String)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.DetectSentiment(System.String)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  isExternal: true
+  name: DetectSentiment(String)
+  nameWithType: IAIAgent.DetectSentiment(String)
+  fullName: SuperOffice.CRM.Services.IAIAgent.DetectSentiment(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAIAgent.DetectSentiment(System.String)
+    name: DetectSentiment
+    nameWithType: IAIAgent.DetectSentiment
+    fullName: SuperOffice.CRM.Services.IAIAgent.DetectSentiment
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAIAgent.DetectSentiment(System.String)
+    name: DetectSentiment
+    nameWithType: IAIAgent.DetectSentiment
+    fullName: SuperOffice.CRM.Services.IAIAgent.DetectSentiment
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Sentiment
+  commentId: T:SuperOffice.CRM.Services.Sentiment
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Sentiment
+  nameWithType: Sentiment
+  fullName: SuperOffice.CRM.Services.Sentiment
+- uid: SuperOffice.CRM.Services.AIAgent.Translate*
+  commentId: Overload:SuperOffice.CRM.Services.AIAgent.Translate
+  isExternal: true
+  name: Translate
+  nameWithType: AIAgent.Translate
+  fullName: SuperOffice.CRM.Services.AIAgent.Translate
+- uid: SuperOffice.CRM.Services.IAIAgent.Translate(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.Translate(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  isExternal: true
+  name: Translate(String, String)
+  nameWithType: IAIAgent.Translate(String, String)
+  fullName: SuperOffice.CRM.Services.IAIAgent.Translate(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAIAgent.Translate(System.String,System.String)
+    name: Translate
+    nameWithType: IAIAgent.Translate
+    fullName: SuperOffice.CRM.Services.IAIAgent.Translate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAIAgent.Translate(System.String,System.String)
+    name: Translate
+    nameWithType: IAIAgent.Translate
+    fullName: SuperOffice.CRM.Services.IAIAgent.Translate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AIAgent.GuessCategory*
+  commentId: Overload:SuperOffice.CRM.Services.AIAgent.GuessCategory
+  isExternal: true
+  name: GuessCategory
+  nameWithType: AIAgent.GuessCategory
+  fullName: SuperOffice.CRM.Services.AIAgent.GuessCategory
+- uid: SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  isExternal: true
+  name: GuessCategory(String, String)
+  nameWithType: IAIAgent.GuessCategory(String, String)
+  fullName: SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.String,System.String)
+    name: GuessCategory
+    nameWithType: IAIAgent.GuessCategory
+    fullName: SuperOffice.CRM.Services.IAIAgent.GuessCategory
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.String,System.String)
+    name: GuessCategory
+    nameWithType: IAIAgent.GuessCategory
+    fullName: SuperOffice.CRM.Services.IAIAgent.GuessCategory
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AIAgent.TrainCategorizer*
+  commentId: Overload:SuperOffice.CRM.Services.AIAgent.TrainCategorizer
+  isExternal: true
+  name: TrainCategorizer
+  nameWithType: AIAgent.TrainCategorizer
+  fullName: SuperOffice.CRM.Services.AIAgent.TrainCategorizer
+- uid: SuperOffice.CRM.Services.IAIAgent.TrainCategorizer
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.TrainCategorizer
+  parent: SuperOffice.CRM.Services.IAIAgent
+  isExternal: true
+  name: TrainCategorizer()
+  nameWithType: IAIAgent.TrainCategorizer()
+  fullName: SuperOffice.CRM.Services.IAIAgent.TrainCategorizer()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAIAgent.TrainCategorizer
+    name: TrainCategorizer
+    nameWithType: IAIAgent.TrainCategorizer
+    fullName: SuperOffice.CRM.Services.IAIAgent.TrainCategorizer
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAIAgent.TrainCategorizer
+    name: TrainCategorizer
+    nameWithType: IAIAgent.TrainCategorizer
+    fullName: SuperOffice.CRM.Services.IAIAgent.TrainCategorizer
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AIAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.AIAgent.#ctor
+  isExternal: true
+  name: AIAgent
+  nameWithType: AIAgent.AIAgent
+  fullName: SuperOffice.CRM.Services.AIAgent.AIAgent

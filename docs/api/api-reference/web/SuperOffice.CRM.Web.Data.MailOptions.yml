@@ -1,0 +1,1050 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.MailOptions
+  commentId: T:SuperOffice.CRM.Web.Data.MailOptions
+  id: MailOptions
+  parent: SuperOffice.CRM.Web.Data
+  children:
+  - SuperOffice.CRM.Web.Data.MailOptions.#ctor
+  - SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveAppointments
+  - SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveDocuments
+  - SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveForwards
+  - SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveNew
+  - SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveReplies
+  - SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveToAssociates
+  - SuperOffice.CRM.Web.Data.MailOptions.DeleteAfterArchive
+  - SuperOffice.CRM.Web.Data.MailOptions.DeletedItemsFolderName
+  - SuperOffice.CRM.Web.Data.MailOptions.DraftsFolderName
+  - SuperOffice.CRM.Web.Data.MailOptions.InboxFolderName
+  - SuperOffice.CRM.Web.Data.MailOptions.MarkPreviewedAsRead
+  - SuperOffice.CRM.Web.Data.MailOptions.MoveDeletedToDeletedItems
+  - SuperOffice.CRM.Web.Data.MailOptions.SaveLoginInfo
+  - SuperOffice.CRM.Web.Data.MailOptions.SaveSentInSentItems
+  - SuperOffice.CRM.Web.Data.MailOptions.SentItemsFolderName
+  - SuperOffice.CRM.Web.Data.MailOptions.ShowInlineImages
+  - SuperOffice.CRM.Web.Data.MailOptions.UseSoBody
+  - SuperOffice.CRM.Web.Data.MailOptions.UseSoBodyReplyForward
+  langs:
+  - csharp
+  - vb
+  name: MailOptions
+  nameWithType: MailOptions
+  fullName: SuperOffice.CRM.Web.Data.MailOptions
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public class MailOptions
+    content.vb: Public Class MailOptions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Data.MailOptions.#ctor
+  commentId: M:SuperOffice.CRM.Web.Data.MailOptions.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Data.MailOptions
+  langs:
+  - csharp
+  - vb
+  name: MailOptions()
+  nameWithType: MailOptions.MailOptions()
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.MailOptions()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public MailOptions()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Data.MailOptions.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveNew
+  commentId: P:SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveNew
+  id: AutoArchiveNew
+  parent: SuperOffice.CRM.Web.Data.MailOptions
+  langs:
+  - csharp
+  - vb
+  name: AutoArchiveNew
+  nameWithType: MailOptions.AutoArchiveNew
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveNew
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public bool AutoArchiveNew { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AutoArchiveNew As Boolean
+  overload: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveNew*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveToAssociates
+  commentId: P:SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveToAssociates
+  id: AutoArchiveToAssociates
+  parent: SuperOffice.CRM.Web.Data.MailOptions
+  langs:
+  - csharp
+  - vb
+  name: AutoArchiveToAssociates
+  nameWithType: MailOptions.AutoArchiveToAssociates
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveToAssociates
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public bool AutoArchiveToAssociates { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AutoArchiveToAssociates As Boolean
+  overload: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveToAssociates*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveReplies
+  commentId: P:SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveReplies
+  id: AutoArchiveReplies
+  parent: SuperOffice.CRM.Web.Data.MailOptions
+  langs:
+  - csharp
+  - vb
+  name: AutoArchiveReplies
+  nameWithType: MailOptions.AutoArchiveReplies
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveReplies
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public bool AutoArchiveReplies { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AutoArchiveReplies As Boolean
+  overload: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveReplies*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveForwards
+  commentId: P:SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveForwards
+  id: AutoArchiveForwards
+  parent: SuperOffice.CRM.Web.Data.MailOptions
+  langs:
+  - csharp
+  - vb
+  name: AutoArchiveForwards
+  nameWithType: MailOptions.AutoArchiveForwards
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveForwards
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public bool AutoArchiveForwards { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AutoArchiveForwards As Boolean
+  overload: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveForwards*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveAppointments
+  commentId: P:SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveAppointments
+  id: AutoArchiveAppointments
+  parent: SuperOffice.CRM.Web.Data.MailOptions
+  langs:
+  - csharp
+  - vb
+  name: AutoArchiveAppointments
+  nameWithType: MailOptions.AutoArchiveAppointments
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveAppointments
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public bool AutoArchiveAppointments { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AutoArchiveAppointments As Boolean
+  overload: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveAppointments*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveDocuments
+  commentId: P:SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveDocuments
+  id: AutoArchiveDocuments
+  parent: SuperOffice.CRM.Web.Data.MailOptions
+  langs:
+  - csharp
+  - vb
+  name: AutoArchiveDocuments
+  nameWithType: MailOptions.AutoArchiveDocuments
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveDocuments
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public bool AutoArchiveDocuments { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AutoArchiveDocuments As Boolean
+  overload: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveDocuments*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.MailOptions.DeleteAfterArchive
+  commentId: P:SuperOffice.CRM.Web.Data.MailOptions.DeleteAfterArchive
+  id: DeleteAfterArchive
+  parent: SuperOffice.CRM.Web.Data.MailOptions
+  langs:
+  - csharp
+  - vb
+  name: DeleteAfterArchive
+  nameWithType: MailOptions.DeleteAfterArchive
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.DeleteAfterArchive
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public bool DeleteAfterArchive { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property DeleteAfterArchive As Boolean
+  overload: SuperOffice.CRM.Web.Data.MailOptions.DeleteAfterArchive*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.MailOptions.SaveLoginInfo
+  commentId: P:SuperOffice.CRM.Web.Data.MailOptions.SaveLoginInfo
+  id: SaveLoginInfo
+  parent: SuperOffice.CRM.Web.Data.MailOptions
+  langs:
+  - csharp
+  - vb
+  name: SaveLoginInfo
+  nameWithType: MailOptions.SaveLoginInfo
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.SaveLoginInfo
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public bool SaveLoginInfo { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SaveLoginInfo As Boolean
+  overload: SuperOffice.CRM.Web.Data.MailOptions.SaveLoginInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.MailOptions.ShowInlineImages
+  commentId: P:SuperOffice.CRM.Web.Data.MailOptions.ShowInlineImages
+  id: ShowInlineImages
+  parent: SuperOffice.CRM.Web.Data.MailOptions
+  langs:
+  - csharp
+  - vb
+  name: ShowInlineImages
+  nameWithType: MailOptions.ShowInlineImages
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.ShowInlineImages
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public bool ShowInlineImages { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ShowInlineImages As Boolean
+  overload: SuperOffice.CRM.Web.Data.MailOptions.ShowInlineImages*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.MailOptions.UseSoBody
+  commentId: P:SuperOffice.CRM.Web.Data.MailOptions.UseSoBody
+  id: UseSoBody
+  parent: SuperOffice.CRM.Web.Data.MailOptions
+  langs:
+  - csharp
+  - vb
+  name: UseSoBody
+  nameWithType: MailOptions.UseSoBody
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.UseSoBody
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public bool UseSoBody { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UseSoBody As Boolean
+  overload: SuperOffice.CRM.Web.Data.MailOptions.UseSoBody*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.MailOptions.UseSoBodyReplyForward
+  commentId: P:SuperOffice.CRM.Web.Data.MailOptions.UseSoBodyReplyForward
+  id: UseSoBodyReplyForward
+  parent: SuperOffice.CRM.Web.Data.MailOptions
+  langs:
+  - csharp
+  - vb
+  name: UseSoBodyReplyForward
+  nameWithType: MailOptions.UseSoBodyReplyForward
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.UseSoBodyReplyForward
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public bool UseSoBodyReplyForward { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UseSoBodyReplyForward As Boolean
+  overload: SuperOffice.CRM.Web.Data.MailOptions.UseSoBodyReplyForward*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.MailOptions.MarkPreviewedAsRead
+  commentId: P:SuperOffice.CRM.Web.Data.MailOptions.MarkPreviewedAsRead
+  id: MarkPreviewedAsRead
+  parent: SuperOffice.CRM.Web.Data.MailOptions
+  langs:
+  - csharp
+  - vb
+  name: MarkPreviewedAsRead
+  nameWithType: MailOptions.MarkPreviewedAsRead
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.MarkPreviewedAsRead
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public bool MarkPreviewedAsRead { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property MarkPreviewedAsRead As Boolean
+  overload: SuperOffice.CRM.Web.Data.MailOptions.MarkPreviewedAsRead*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.MailOptions.MoveDeletedToDeletedItems
+  commentId: P:SuperOffice.CRM.Web.Data.MailOptions.MoveDeletedToDeletedItems
+  id: MoveDeletedToDeletedItems
+  parent: SuperOffice.CRM.Web.Data.MailOptions
+  langs:
+  - csharp
+  - vb
+  name: MoveDeletedToDeletedItems
+  nameWithType: MailOptions.MoveDeletedToDeletedItems
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.MoveDeletedToDeletedItems
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public bool MoveDeletedToDeletedItems { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property MoveDeletedToDeletedItems As Boolean
+  overload: SuperOffice.CRM.Web.Data.MailOptions.MoveDeletedToDeletedItems*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.MailOptions.SaveSentInSentItems
+  commentId: P:SuperOffice.CRM.Web.Data.MailOptions.SaveSentInSentItems
+  id: SaveSentInSentItems
+  parent: SuperOffice.CRM.Web.Data.MailOptions
+  langs:
+  - csharp
+  - vb
+  name: SaveSentInSentItems
+  nameWithType: MailOptions.SaveSentInSentItems
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.SaveSentInSentItems
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public bool SaveSentInSentItems { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SaveSentInSentItems As Boolean
+  overload: SuperOffice.CRM.Web.Data.MailOptions.SaveSentInSentItems*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.MailOptions.InboxFolderName
+  commentId: P:SuperOffice.CRM.Web.Data.MailOptions.InboxFolderName
+  id: InboxFolderName
+  parent: SuperOffice.CRM.Web.Data.MailOptions
+  langs:
+  - csharp
+  - vb
+  name: InboxFolderName
+  nameWithType: MailOptions.InboxFolderName
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.InboxFolderName
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string InboxFolderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property InboxFolderName As String
+  overload: SuperOffice.CRM.Web.Data.MailOptions.InboxFolderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.MailOptions.DeletedItemsFolderName
+  commentId: P:SuperOffice.CRM.Web.Data.MailOptions.DeletedItemsFolderName
+  id: DeletedItemsFolderName
+  parent: SuperOffice.CRM.Web.Data.MailOptions
+  langs:
+  - csharp
+  - vb
+  name: DeletedItemsFolderName
+  nameWithType: MailOptions.DeletedItemsFolderName
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.DeletedItemsFolderName
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string DeletedItemsFolderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DeletedItemsFolderName As String
+  overload: SuperOffice.CRM.Web.Data.MailOptions.DeletedItemsFolderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.MailOptions.DraftsFolderName
+  commentId: P:SuperOffice.CRM.Web.Data.MailOptions.DraftsFolderName
+  id: DraftsFolderName
+  parent: SuperOffice.CRM.Web.Data.MailOptions
+  langs:
+  - csharp
+  - vb
+  name: DraftsFolderName
+  nameWithType: MailOptions.DraftsFolderName
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.DraftsFolderName
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string DraftsFolderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DraftsFolderName As String
+  overload: SuperOffice.CRM.Web.Data.MailOptions.DraftsFolderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.MailOptions.SentItemsFolderName
+  commentId: P:SuperOffice.CRM.Web.Data.MailOptions.SentItemsFolderName
+  id: SentItemsFolderName
+  parent: SuperOffice.CRM.Web.Data.MailOptions
+  langs:
+  - csharp
+  - vb
+  name: SentItemsFolderName
+  nameWithType: MailOptions.SentItemsFolderName
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.SentItemsFolderName
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string SentItemsFolderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SentItemsFolderName As String
+  overload: SuperOffice.CRM.Web.Data.MailOptions.SentItemsFolderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Data
+  commentId: N:SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: SuperOffice.CRM.Web.Data
+  nameWithType: SuperOffice.CRM.Web.Data
+  fullName: SuperOffice.CRM.Web.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Data.MailOptions.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Data.MailOptions.#ctor
+  isExternal: true
+  name: MailOptions
+  nameWithType: MailOptions.MailOptions
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.MailOptions
+- uid: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveNew*
+  commentId: Overload:SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveNew
+  isExternal: true
+  name: AutoArchiveNew
+  nameWithType: MailOptions.AutoArchiveNew
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveNew
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveToAssociates*
+  commentId: Overload:SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveToAssociates
+  isExternal: true
+  name: AutoArchiveToAssociates
+  nameWithType: MailOptions.AutoArchiveToAssociates
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveToAssociates
+- uid: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveReplies*
+  commentId: Overload:SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveReplies
+  isExternal: true
+  name: AutoArchiveReplies
+  nameWithType: MailOptions.AutoArchiveReplies
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveReplies
+- uid: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveForwards*
+  commentId: Overload:SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveForwards
+  isExternal: true
+  name: AutoArchiveForwards
+  nameWithType: MailOptions.AutoArchiveForwards
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveForwards
+- uid: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveAppointments*
+  commentId: Overload:SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveAppointments
+  isExternal: true
+  name: AutoArchiveAppointments
+  nameWithType: MailOptions.AutoArchiveAppointments
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveAppointments
+- uid: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveDocuments*
+  commentId: Overload:SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveDocuments
+  isExternal: true
+  name: AutoArchiveDocuments
+  nameWithType: MailOptions.AutoArchiveDocuments
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.AutoArchiveDocuments
+- uid: SuperOffice.CRM.Web.Data.MailOptions.DeleteAfterArchive*
+  commentId: Overload:SuperOffice.CRM.Web.Data.MailOptions.DeleteAfterArchive
+  isExternal: true
+  name: DeleteAfterArchive
+  nameWithType: MailOptions.DeleteAfterArchive
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.DeleteAfterArchive
+- uid: SuperOffice.CRM.Web.Data.MailOptions.SaveLoginInfo*
+  commentId: Overload:SuperOffice.CRM.Web.Data.MailOptions.SaveLoginInfo
+  isExternal: true
+  name: SaveLoginInfo
+  nameWithType: MailOptions.SaveLoginInfo
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.SaveLoginInfo
+- uid: SuperOffice.CRM.Web.Data.MailOptions.ShowInlineImages*
+  commentId: Overload:SuperOffice.CRM.Web.Data.MailOptions.ShowInlineImages
+  isExternal: true
+  name: ShowInlineImages
+  nameWithType: MailOptions.ShowInlineImages
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.ShowInlineImages
+- uid: SuperOffice.CRM.Web.Data.MailOptions.UseSoBody*
+  commentId: Overload:SuperOffice.CRM.Web.Data.MailOptions.UseSoBody
+  isExternal: true
+  name: UseSoBody
+  nameWithType: MailOptions.UseSoBody
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.UseSoBody
+- uid: SuperOffice.CRM.Web.Data.MailOptions.UseSoBodyReplyForward*
+  commentId: Overload:SuperOffice.CRM.Web.Data.MailOptions.UseSoBodyReplyForward
+  isExternal: true
+  name: UseSoBodyReplyForward
+  nameWithType: MailOptions.UseSoBodyReplyForward
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.UseSoBodyReplyForward
+- uid: SuperOffice.CRM.Web.Data.MailOptions.MarkPreviewedAsRead*
+  commentId: Overload:SuperOffice.CRM.Web.Data.MailOptions.MarkPreviewedAsRead
+  isExternal: true
+  name: MarkPreviewedAsRead
+  nameWithType: MailOptions.MarkPreviewedAsRead
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.MarkPreviewedAsRead
+- uid: SuperOffice.CRM.Web.Data.MailOptions.MoveDeletedToDeletedItems*
+  commentId: Overload:SuperOffice.CRM.Web.Data.MailOptions.MoveDeletedToDeletedItems
+  isExternal: true
+  name: MoveDeletedToDeletedItems
+  nameWithType: MailOptions.MoveDeletedToDeletedItems
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.MoveDeletedToDeletedItems
+- uid: SuperOffice.CRM.Web.Data.MailOptions.SaveSentInSentItems*
+  commentId: Overload:SuperOffice.CRM.Web.Data.MailOptions.SaveSentInSentItems
+  isExternal: true
+  name: SaveSentInSentItems
+  nameWithType: MailOptions.SaveSentInSentItems
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.SaveSentInSentItems
+- uid: SuperOffice.CRM.Web.Data.MailOptions.InboxFolderName*
+  commentId: Overload:SuperOffice.CRM.Web.Data.MailOptions.InboxFolderName
+  isExternal: true
+  name: InboxFolderName
+  nameWithType: MailOptions.InboxFolderName
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.InboxFolderName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Data.MailOptions.DeletedItemsFolderName*
+  commentId: Overload:SuperOffice.CRM.Web.Data.MailOptions.DeletedItemsFolderName
+  isExternal: true
+  name: DeletedItemsFolderName
+  nameWithType: MailOptions.DeletedItemsFolderName
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.DeletedItemsFolderName
+- uid: SuperOffice.CRM.Web.Data.MailOptions.DraftsFolderName*
+  commentId: Overload:SuperOffice.CRM.Web.Data.MailOptions.DraftsFolderName
+  isExternal: true
+  name: DraftsFolderName
+  nameWithType: MailOptions.DraftsFolderName
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.DraftsFolderName
+- uid: SuperOffice.CRM.Web.Data.MailOptions.SentItemsFolderName*
+  commentId: Overload:SuperOffice.CRM.Web.Data.MailOptions.SentItemsFolderName
+  isExternal: true
+  name: SentItemsFolderName
+  nameWithType: MailOptions.SentItemsFolderName
+  fullName: SuperOffice.CRM.Web.Data.MailOptions.SentItemsFolderName

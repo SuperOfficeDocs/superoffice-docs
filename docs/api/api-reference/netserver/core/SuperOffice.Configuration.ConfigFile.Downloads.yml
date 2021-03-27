@@ -1,0 +1,601 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.Downloads
+  commentId: T:SuperOffice.Configuration.ConfigFile.Downloads
+  id: ConfigFile.Downloads
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.Downloads.DownloadFolder
+  - SuperOffice.Configuration.ConfigFile.Downloads.DownloadFolderImpersonate
+  - SuperOffice.Configuration.ConfigFile.Downloads.NewTrayAppUrl
+  - SuperOffice.Configuration.ConfigFile.Downloads.ReportingInterval
+  - SuperOffice.Configuration.ConfigFile.Downloads.WebSiteEndPoint
+  - SuperOffice.Configuration.ConfigFile.Downloads.WebToolVersion
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.Downloads
+  nameWithType: ConfigFile.Downloads
+  fullName: SuperOffice.Configuration.ConfigFile.Downloads
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nConfiguration values related to Downloads.\n"
+  syntax:
+    content: public static class Downloads
+    content.vb: Public Module Downloads
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Configuration.ConfigFile.Downloads.WebSiteEndPoint
+  commentId: P:SuperOffice.Configuration.ConfigFile.Downloads.WebSiteEndPoint
+  id: WebSiteEndPoint
+  parent: SuperOffice.Configuration.ConfigFile.Downloads
+  langs:
+  - csharp
+  - vb
+  name: WebSiteEndPoint
+  nameWithType: ConfigFile.Downloads.WebSiteEndPoint
+  fullName: SuperOffice.Configuration.ConfigFile.Downloads.WebSiteEndPoint
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nPublic address of the web server, including protocol and port. Empty value will calculate a default value. Ex: https://online.superoffice.com:443\n"
+  syntax:
+    content: public static string WebSiteEndPoint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property WebSiteEndPoint As String
+  overload: SuperOffice.Configuration.ConfigFile.Downloads.WebSiteEndPoint*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Downloads.NewTrayAppUrl
+  commentId: P:SuperOffice.Configuration.ConfigFile.Downloads.NewTrayAppUrl
+  id: NewTrayAppUrl
+  parent: SuperOffice.Configuration.ConfigFile.Downloads
+  langs:
+  - csharp
+  - vb
+  name: NewTrayAppUrl
+  nameWithType: ConfigFile.Downloads.NewTrayAppUrl
+  fullName: SuperOffice.Configuration.ConfigFile.Downloads.NewTrayAppUrl
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nPublic address of the url for showing download-page of new TrayApp. Empty value will calculate a default value. Ex: https://online.superoffice.com/cust5566/ErrorPages/NewTrayApp.aspx\n"
+  syntax:
+    content: public static string NewTrayAppUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property NewTrayAppUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.Downloads.NewTrayAppUrl*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Downloads.DownloadFolder
+  commentId: P:SuperOffice.Configuration.ConfigFile.Downloads.DownloadFolder
+  id: DownloadFolder
+  parent: SuperOffice.Configuration.ConfigFile.Downloads
+  langs:
+  - csharp
+  - vb
+  name: DownloadFolder
+  nameWithType: ConfigFile.Downloads.DownloadFolder
+  fullName: SuperOffice.Configuration.ConfigFile.Downloads.DownloadFolder
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nFolder of files to be downloaded to the client\n"
+  syntax:
+    content: public static string DownloadFolder { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property DownloadFolder As String
+  overload: SuperOffice.Configuration.ConfigFile.Downloads.DownloadFolder*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Downloads.WebToolVersion
+  commentId: P:SuperOffice.Configuration.ConfigFile.Downloads.WebToolVersion
+  id: WebToolVersion
+  parent: SuperOffice.Configuration.ConfigFile.Downloads
+  langs:
+  - csharp
+  - vb
+  name: WebToolVersion
+  nameWithType: ConfigFile.Downloads.WebToolVersion
+  fullName: SuperOffice.Configuration.ConfigFile.Downloads.WebToolVersion
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe version number to use for upgrade check.\n"
+  syntax:
+    content: public static string WebToolVersion { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property WebToolVersion As String
+  overload: SuperOffice.Configuration.ConfigFile.Downloads.WebToolVersion*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Downloads.DownloadFolderImpersonate
+  commentId: P:SuperOffice.Configuration.ConfigFile.Downloads.DownloadFolderImpersonate
+  id: DownloadFolderImpersonate
+  parent: SuperOffice.Configuration.ConfigFile.Downloads
+  langs:
+  - csharp
+  - vb
+  name: DownloadFolderImpersonate
+  nameWithType: ConfigFile.Downloads.DownloadFolderImpersonate
+  fullName: SuperOffice.Configuration.ConfigFile.Downloads.DownloadFolderImpersonate
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nImpersonate as the document archive user when accessing the Download folder\n"
+  syntax:
+    content: public static bool DownloadFolderImpersonate { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property DownloadFolderImpersonate As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Downloads.DownloadFolderImpersonate*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Downloads.ReportingInterval
+  commentId: P:SuperOffice.Configuration.ConfigFile.Downloads.ReportingInterval
+  id: ReportingInterval
+  parent: SuperOffice.Configuration.ConfigFile.Downloads
+  langs:
+  - csharp
+  - vb
+  name: ReportingInterval
+  nameWithType: ConfigFile.Downloads.ReportingInterval
+  fullName: SuperOffice.Configuration.ConfigFile.Downloads.ReportingInterval
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe interval (in seconds) which the web-installation will require activity udpates from WebTools-clients in order for the clients to be considered active.\n"
+  syntax:
+    content: public static int ReportingInterval { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property ReportingInterval As Integer
+  overload: SuperOffice.Configuration.ConfigFile.Downloads.ReportingInterval*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.Downloads.WebSiteEndPoint*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Downloads.WebSiteEndPoint
+  isExternal: true
+  name: WebSiteEndPoint
+  nameWithType: ConfigFile.Downloads.WebSiteEndPoint
+  fullName: SuperOffice.Configuration.ConfigFile.Downloads.WebSiteEndPoint
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Configuration.ConfigFile.Downloads.NewTrayAppUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Downloads.NewTrayAppUrl
+  isExternal: true
+  name: NewTrayAppUrl
+  nameWithType: ConfigFile.Downloads.NewTrayAppUrl
+  fullName: SuperOffice.Configuration.ConfigFile.Downloads.NewTrayAppUrl
+- uid: SuperOffice.Configuration.ConfigFile.Downloads.DownloadFolder*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Downloads.DownloadFolder
+  isExternal: true
+  name: DownloadFolder
+  nameWithType: ConfigFile.Downloads.DownloadFolder
+  fullName: SuperOffice.Configuration.ConfigFile.Downloads.DownloadFolder
+- uid: SuperOffice.Configuration.ConfigFile.Downloads.WebToolVersion*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Downloads.WebToolVersion
+  isExternal: true
+  name: WebToolVersion
+  nameWithType: ConfigFile.Downloads.WebToolVersion
+  fullName: SuperOffice.Configuration.ConfigFile.Downloads.WebToolVersion
+- uid: SuperOffice.Configuration.ConfigFile.Downloads.DownloadFolderImpersonate*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Downloads.DownloadFolderImpersonate
+  isExternal: true
+  name: DownloadFolderImpersonate
+  nameWithType: ConfigFile.Downloads.DownloadFolderImpersonate
+  fullName: SuperOffice.Configuration.ConfigFile.Downloads.DownloadFolderImpersonate
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Configuration.ConfigFile.Downloads.ReportingInterval*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Downloads.ReportingInterval
+  isExternal: true
+  name: ReportingInterval
+  nameWithType: ConfigFile.Downloads.ReportingInterval
+  fullName: SuperOffice.Configuration.ConfigFile.Downloads.ReportingInterval
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

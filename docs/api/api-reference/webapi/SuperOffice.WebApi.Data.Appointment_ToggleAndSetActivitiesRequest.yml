@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_ToggleAndSetActivitiesRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_ToggleAndSetActivitiesRequest
+  id: Appointment_ToggleAndSetActivitiesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_ToggleAndSetActivitiesRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_ToggleAndSetActivitiesRequest.ActivityIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: Appointment_ToggleAndSetActivitiesRequest
+  nameWithType: Appointment_ToggleAndSetActivitiesRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_ToggleAndSetActivitiesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_ToggleAndSetActivitiesRequest : Object'
+    content.vb: >-
+      Public Class Appointment_ToggleAndSetActivitiesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_ToggleAndSetActivitiesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_ToggleAndSetActivitiesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_ToggleAndSetActivitiesRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_ToggleAndSetActivitiesRequest()
+  nameWithType: Appointment_ToggleAndSetActivitiesRequest.Appointment_ToggleAndSetActivitiesRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_ToggleAndSetActivitiesRequest.Appointment_ToggleAndSetActivitiesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_ToggleAndSetActivitiesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_ToggleAndSetActivitiesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_ToggleAndSetActivitiesRequest.ActivityIdentifiers
+  commentId: P:SuperOffice.WebApi.Data.Appointment_ToggleAndSetActivitiesRequest.ActivityIdentifiers
+  id: ActivityIdentifiers
+  parent: SuperOffice.WebApi.Data.Appointment_ToggleAndSetActivitiesRequest
+  langs:
+  - csharp
+  - vb
+  name: ActivityIdentifiers
+  nameWithType: Appointment_ToggleAndSetActivitiesRequest.ActivityIdentifiers
+  fullName: SuperOffice.WebApi.Data.Appointment_ToggleAndSetActivitiesRequest.ActivityIdentifiers
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] ActivityIdentifiers { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property ActivityIdentifiers As String()
+  overload: SuperOffice.WebApi.Data.Appointment_ToggleAndSetActivitiesRequest.ActivityIdentifiers*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_ToggleAndSetActivitiesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_ToggleAndSetActivitiesRequest.#ctor
+  isExternal: true
+  name: Appointment_ToggleAndSetActivitiesRequest
+  nameWithType: Appointment_ToggleAndSetActivitiesRequest.Appointment_ToggleAndSetActivitiesRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_ToggleAndSetActivitiesRequest.Appointment_ToggleAndSetActivitiesRequest
+- uid: SuperOffice.WebApi.Data.Appointment_ToggleAndSetActivitiesRequest.ActivityIdentifiers*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_ToggleAndSetActivitiesRequest.ActivityIdentifiers
+  isExternal: true
+  name: ActivityIdentifiers
+  nameWithType: Appointment_ToggleAndSetActivitiesRequest.ActivityIdentifiers
+  fullName: SuperOffice.WebApi.Data.Appointment_ToggleAndSetActivitiesRequest.ActivityIdentifiers
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -1,0 +1,1173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordData
+  commentId: T:SuperOffice.CRM.Rows.SPictureEntryRecordData
+  id: SPictureEntryRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.SPictureEntryRecordData.#ctor
+  - SuperOffice.CRM.Rows.SPictureEntryRecordData.AttachmentId
+  - SuperOffice.CRM.Rows.SPictureEntryRecordData.Description
+  - SuperOffice.CRM.Rows.SPictureEntryRecordData.Flags
+  - SuperOffice.CRM.Rows.SPictureEntryRecordData.FolderId
+  - SuperOffice.CRM.Rows.SPictureEntryRecordData.Hits
+  - SuperOffice.CRM.Rows.SPictureEntryRecordData.Registered
+  - SuperOffice.CRM.Rows.SPictureEntryRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.SPictureEntryRecordData.SPictureEntryId
+  - SuperOffice.CRM.Rows.SPictureEntryRecordData.Status
+  - SuperOffice.CRM.Rows.SPictureEntryRecordData.Updated
+  - SuperOffice.CRM.Rows.SPictureEntryRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.SPictureEntryRecordData.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: SPictureEntryRecordData
+  nameWithType: SPictureEntryRecordData
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the s_picture_entry table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.SPictureEntryRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.SPictureEntryTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class SPictureEntryRecordData
+    content.vb: Public Class SPictureEntryRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.SPictureEntryRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.SPictureEntryRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SPictureEntryRecordData)
+  - SuperOffice.CRM.Rows.SPictureEntryRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.SPictureEntryRecordData.SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.SPictureEntryRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordData.SPictureEntryId
+  commentId: F:SuperOffice.CRM.Rows.SPictureEntryRecordData.SPictureEntryId
+  id: SPictureEntryId
+  parent: SuperOffice.CRM.Rows.SPictureEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: SPictureEntryId
+  nameWithType: SPictureEntryRecordData.SPictureEntryId
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordData.SPictureEntryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int SPictureEntryId
+    return:
+      type: System.Int32
+    content.vb: Public SPictureEntryId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordData.AttachmentId
+  commentId: F:SuperOffice.CRM.Rows.SPictureEntryRecordData.AttachmentId
+  id: AttachmentId
+  parent: SuperOffice.CRM.Rows.SPictureEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: AttachmentId
+  nameWithType: SPictureEntryRecordData.AttachmentId
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordData.AttachmentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe id of the attachment in the attachment table \n"
+  syntax:
+    content: public int AttachmentId
+    return:
+      type: System.Int32
+    content.vb: Public AttachmentId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordData.Description
+  commentId: F:SuperOffice.CRM.Rows.SPictureEntryRecordData.Description
+  id: Description
+  parent: SuperOffice.CRM.Rows.SPictureEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: SPictureEntryRecordData.Description
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordData.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nA description of the picture \n"
+  syntax:
+    content: public string Description
+    return:
+      type: System.String
+    content.vb: Public Description As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordData.FolderId
+  commentId: F:SuperOffice.CRM.Rows.SPictureEntryRecordData.FolderId
+  id: FolderId
+  parent: SuperOffice.CRM.Rows.SPictureEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: FolderId
+  nameWithType: SPictureEntryRecordData.FolderId
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordData.FolderId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe folder which this picture belongs to. -1 indicates that the picture is on the root \n"
+  syntax:
+    content: public int FolderId
+    return:
+      type: System.Int32
+    content.vb: Public FolderId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordData.Flags
+  commentId: F:SuperOffice.CRM.Rows.SPictureEntryRecordData.Flags
+  id: Flags
+  parent: SuperOffice.CRM.Rows.SPictureEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: SPictureEntryRecordData.Flags
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordData.Flags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nVarious flags for this picture \n"
+  syntax:
+    content: public uint Flags
+    return:
+      type: System.UInt32
+    content.vb: Public Flags As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordData.Status
+  commentId: F:SuperOffice.CRM.Rows.SPictureEntryRecordData.Status
+  id: Status
+  parent: SuperOffice.CRM.Rows.SPictureEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: SPictureEntryRecordData.Status
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordData.Status
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIndicates the status of the picture. 0 = ok, 1 = deleted \n"
+  syntax:
+    content: public short Status
+    return:
+      type: System.Int16
+    content.vb: Public Status As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordData.Hits
+  commentId: F:SuperOffice.CRM.Rows.SPictureEntryRecordData.Hits
+  id: Hits
+  parent: SuperOffice.CRM.Rows.SPictureEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Hits
+  nameWithType: SPictureEntryRecordData.Hits
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordData.Hits
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of hits on this image \n"
+  syntax:
+    content: public int Hits
+    return:
+      type: System.Int32
+    content.vb: Public Hits As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.SPictureEntryRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.SPictureEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: SPictureEntryRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.SPictureEntryRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.SPictureEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: SPictureEntryRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.SPictureEntryRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.SPictureEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: SPictureEntryRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.SPictureEntryRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.SPictureEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: SPictureEntryRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.SPictureEntryRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.SPictureEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: SPictureEntryRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.SPictureEntryRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.SPictureEntryRecordData
+  langs:
+  - csharp
+  - vb
+  name: SPictureEntryRecordData()
+  nameWithType: SPictureEntryRecordData.SPictureEntryRecordData()
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordData.SPictureEntryRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public SPictureEntryRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.SPictureEntryRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SPictureEntryRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<SPictureEntryRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.SPictureEntryRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SPictureEntryRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.SPictureEntryRecordData, To)()
+  name.vb: MapEnums(Of SPictureEntryRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SPictureEntryRecordData, To>
+    nameWithType: EnumUtil.MapEnums<SPictureEntryRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.SPictureEntryRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SPictureEntryRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of SPictureEntryRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.SPictureEntryRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SPictureEntryRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SPictureEntryRecordData>(SPictureEntryRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<SPictureEntryRecordData>(SPictureEntryRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.SPictureEntryRecordData>(SuperOffice.CRM.Rows.SPictureEntryRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SPictureEntryRecordData)(SPictureEntryRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.SPictureEntryRecordData)(SuperOffice.CRM.Rows.SPictureEntryRecordData)
+  name.vb: AssignByReflection(Of SPictureEntryRecordData)(SPictureEntryRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SPictureEntryRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<SPictureEntryRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.SPictureEntryRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.SPictureEntryRecordData
+    name: SPictureEntryRecordData
+    nameWithType: SPictureEntryRecordData
+    fullName: SuperOffice.CRM.Rows.SPictureEntryRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SPictureEntryRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SPictureEntryRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.SPictureEntryRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.SPictureEntryRecordData
+    name: SPictureEntryRecordData
+    nameWithType: SPictureEntryRecordData
+    fullName: SuperOffice.CRM.Rows.SPictureEntryRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SPictureEntryRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<SPictureEntryRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.SPictureEntryRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SPictureEntryRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.SPictureEntryRecordData)()
+  name.vb: GraphCopy(Of SPictureEntryRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SPictureEntryRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<SPictureEntryRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.SPictureEntryRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SPictureEntryRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of SPictureEntryRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.SPictureEntryRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordData.SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SPictureEntryRecordData)
+  parent: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SPictureEntryRecordData)
+  name: ToInsert()
+  nameWithType: SPictureEntryRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: SPictureEntryRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: SPictureEntryRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SPictureEntryRecordData, To>()
+  nameWithType: Converters.MapEnums<SPictureEntryRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.SPictureEntryRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of SPictureEntryRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.SPictureEntryRecordData, To)()
+  name.vb: MapEnums(Of SPictureEntryRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SPictureEntryRecordData, To>
+    nameWithType: Converters.MapEnums<SPictureEntryRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.SPictureEntryRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SPictureEntryRecordData, To)
+    nameWithType: Converters.MapEnums(Of SPictureEntryRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.SPictureEntryRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SPictureEntryRecordData)
+  commentId: M:SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SPictureEntryRecordData)
+  isExternal: true
+  name: ToInsert(SPictureEntryRecordData)
+  nameWithType: SPictureEntryRecordDataExtensions.ToInsert(SPictureEntryRecordData)
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SPictureEntryRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SPictureEntryRecordData)
+    name: ToInsert
+    nameWithType: SPictureEntryRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.SPictureEntryRecordData
+    name: SPictureEntryRecordData
+    nameWithType: SPictureEntryRecordData
+    fullName: SuperOffice.CRM.Rows.SPictureEntryRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SPictureEntryRecordData)
+    name: ToInsert
+    nameWithType: SPictureEntryRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.SPictureEntryRecordData
+    name: SPictureEntryRecordData
+    nameWithType: SPictureEntryRecordData
+    fullName: SuperOffice.CRM.Rows.SPictureEntryRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: SPictureEntryRecordDataExtensions
+  nameWithType: SPictureEntryRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Rows.SPictureEntryRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.SPictureEntryRecordData.#ctor
+  isExternal: true
+  name: SPictureEntryRecordData
+  nameWithType: SPictureEntryRecordData.SPictureEntryRecordData
+  fullName: SuperOffice.CRM.Rows.SPictureEntryRecordData.SPictureEntryRecordData

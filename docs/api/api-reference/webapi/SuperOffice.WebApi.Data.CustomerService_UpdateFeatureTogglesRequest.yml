@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CustomerService_UpdateFeatureTogglesRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomerService_UpdateFeatureTogglesRequest
+  id: CustomerService_UpdateFeatureTogglesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CustomerService_UpdateFeatureTogglesRequest.#ctor
+  - SuperOffice.WebApi.Data.CustomerService_UpdateFeatureTogglesRequest.FeatureToggles
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_UpdateFeatureTogglesRequest
+  nameWithType: CustomerService_UpdateFeatureTogglesRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_UpdateFeatureTogglesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class CustomerService_UpdateFeatureTogglesRequest : Object'
+    content.vb: >-
+      Public Class CustomerService_UpdateFeatureTogglesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CustomerService_UpdateFeatureTogglesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CustomerService_UpdateFeatureTogglesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CustomerService_UpdateFeatureTogglesRequest
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_UpdateFeatureTogglesRequest()
+  nameWithType: CustomerService_UpdateFeatureTogglesRequest.CustomerService_UpdateFeatureTogglesRequest()
+  fullName: SuperOffice.WebApi.Data.CustomerService_UpdateFeatureTogglesRequest.CustomerService_UpdateFeatureTogglesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CustomerService_UpdateFeatureTogglesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CustomerService_UpdateFeatureTogglesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerService_UpdateFeatureTogglesRequest.FeatureToggles
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_UpdateFeatureTogglesRequest.FeatureToggles
+  id: FeatureToggles
+  parent: SuperOffice.WebApi.Data.CustomerService_UpdateFeatureTogglesRequest
+  langs:
+  - csharp
+  - vb
+  name: FeatureToggles
+  nameWithType: CustomerService_UpdateFeatureTogglesRequest.FeatureToggles
+  fullName: SuperOffice.WebApi.Data.CustomerService_UpdateFeatureTogglesRequest.FeatureToggles
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CsFeatureToggle[] FeatureToggles { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.CsFeatureToggle[]
+    content.vb: Public Property FeatureToggles As CsFeatureToggle()
+  overload: SuperOffice.WebApi.Data.CustomerService_UpdateFeatureTogglesRequest.FeatureToggles*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CustomerService_UpdateFeatureTogglesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_UpdateFeatureTogglesRequest.#ctor
+  isExternal: true
+  name: CustomerService_UpdateFeatureTogglesRequest
+  nameWithType: CustomerService_UpdateFeatureTogglesRequest.CustomerService_UpdateFeatureTogglesRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_UpdateFeatureTogglesRequest.CustomerService_UpdateFeatureTogglesRequest
+- uid: SuperOffice.WebApi.Data.CustomerService_UpdateFeatureTogglesRequest.FeatureToggles*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_UpdateFeatureTogglesRequest.FeatureToggles
+  isExternal: true
+  name: FeatureToggles
+  nameWithType: CustomerService_UpdateFeatureTogglesRequest.FeatureToggles
+  fullName: SuperOffice.WebApi.Data.CustomerService_UpdateFeatureTogglesRequest.FeatureToggles
+- uid: SuperOffice.WebApi.Data.CsFeatureToggle[]
+  isExternal: true
+  name: CsFeatureToggle[]
+  nameWithType: CsFeatureToggle[]
+  fullName: SuperOffice.WebApi.Data.CsFeatureToggle[]
+  nameWithType.vb: CsFeatureToggle()
+  fullName.vb: SuperOffice.WebApi.Data.CsFeatureToggle()
+  name.vb: CsFeatureToggle()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.CsFeatureToggle
+    name: CsFeatureToggle
+    nameWithType: CsFeatureToggle
+    fullName: SuperOffice.WebApi.Data.CsFeatureToggle
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.CsFeatureToggle
+    name: CsFeatureToggle
+    nameWithType: CsFeatureToggle
+    fullName: SuperOffice.WebApi.Data.CsFeatureToggle
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

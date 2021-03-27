@@ -1,0 +1,1717 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions
+  commentId: T:SuperOffice.CRM.UserPreferenceStrings.Functions
+  id: UserPreferenceStrings.Functions
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.AcademicTitle
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.AskToEditOrRead
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.AutoLoadLimitInArchive
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.BlankApptClick
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.CapitalFirstLetterCompanyName
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.CapitalFirstLetterPersonName
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.DefaultMailClientCookie
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.DisableContactDogEar
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDelKey
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDuplicateCheckContact
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDuplicateCheckProject
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDuplicateCheckSelection
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.DisableSoundExCheckContact
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.DisableSoundExCheckProject
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.DisableSoundExCheckSelection
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.DisplayDateFormatInLists
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.EditIfVisible
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.EnableLocalRendererInArchive
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.FilterBookingSlaves
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.ForceConfirmation
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.GetAdvanceDays
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.HideCounterInArchiveFooter
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.HomeContact
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.IdAllocationBatchSize
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.InternetUseIntegratedBrowser
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.JoinPilotForWebTools
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.LanguageCookie
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.LanguageUICookie
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.MandatoryContactOnPerson
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.MandatoryContactOnPerson_HardDefault
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.PastDateAlert
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.PeriodicCheckInterval
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.RemoveInvitationDuplicates
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.SaintRankDuplicateContacts
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.Section
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.ShowAllPhoneNumbers
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.ShowChangeCompanyWarning
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.ShowInviteDlgFromView
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.ShowProgressInfo
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.ShowTipNumber
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.ShowTipsAtStart
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.SoCrm75SR1FirstUseCookie
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.ThreeStateStatusCheckbox
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.UseCaseOnTemplateVariables
+  - SuperOffice.CRM.UserPreferenceStrings.Functions.UseMiddleName
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.Functions
+  nameWithType: UserPreferenceStrings.Functions
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nFunctions\n"
+  syntax:
+    content: public static class Functions
+    content.vb: Public Module Functions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.Section
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.Section
+  id: Section
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.Functions.Section
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.Section
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "Functions"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "Functions"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.ThreeStateStatusCheckbox
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.ThreeStateStatusCheckbox
+  id: ThreeStateStatusCheckbox
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: ThreeStateStatusCheckbox
+  nameWithType: UserPreferenceStrings.Functions.ThreeStateStatusCheckbox
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.ThreeStateStatusCheckbox
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: >-
+      [Obsolete("This functionality is no longer supported; it was never fully present in SM.web", true)]
+
+      public const string ThreeStateStatusCheckbox = "3StateStatusCheckbox"
+    return:
+      type: System.String
+    content.vb: >-
+      <Obsolete("This functionality is no longer supported; it was never fully present in SM.web", True)>
+
+      Public Const ThreeStateStatusCheckbox As String = "3StateStatusCheckbox"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: This functionality is no longer supported; it was never fully present in SM.web
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.AcademicTitle
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.AcademicTitle
+  id: AcademicTitle
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: AcademicTitle
+  nameWithType: UserPreferenceStrings.Functions.AcademicTitle
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.AcademicTitle
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nUse academic title for persons. (Default = NO)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string AcademicTitle = "AcademicTitle"
+    return:
+      type: System.String
+    content.vb: Public Const AcademicTitle As String = "AcademicTitle"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.BlankApptClick
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.BlankApptClick
+  id: BlankApptClick
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: BlankApptClick
+  nameWithType: UserPreferenceStrings.Functions.BlankApptClick
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.BlankApptClick
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSpecifies the type of activity to create when you double-click on a blank line in the Activities section tab in the Company or Project screens.\n<p></p>Control type: List, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string BlankApptClick = "BlankApptClick"
+    return:
+      type: System.String
+    content.vb: Public Const BlankApptClick As String = "BlankApptClick"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.CapitalFirstLetterCompanyName
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.CapitalFirstLetterCompanyName
+  id: CapitalFirstLetterCompanyName
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: CapitalFirstLetterCompanyName
+  nameWithType: UserPreferenceStrings.Functions.CapitalFirstLetterCompanyName
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.CapitalFirstLetterCompanyName
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nShould the first letter in every word in the company name automatically be converted to a capital letter? (Default = YES)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string CapitalFirstLetterCompanyName = "CapitalFirstLetterCompanyName"
+    return:
+      type: System.String
+    content.vb: Public Const CapitalFirstLetterCompanyName As String = "CapitalFirstLetterCompanyName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.CapitalFirstLetterPersonName
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.CapitalFirstLetterPersonName
+  id: CapitalFirstLetterPersonName
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: CapitalFirstLetterPersonName
+  nameWithType: UserPreferenceStrings.Functions.CapitalFirstLetterPersonName
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.CapitalFirstLetterPersonName
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nShould the first letter in every word in the contact name automatically be converted to a capital letter? (Default = YES)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string CapitalFirstLetterPersonName = "CapitalFirstLetterPersonName"
+    return:
+      type: System.String
+    content.vb: Public Const CapitalFirstLetterPersonName As String = "CapitalFirstLetterPersonName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableContactDogEar
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.DisableContactDogEar
+  id: DisableContactDogEar
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: DisableContactDogEar
+  nameWithType: UserPreferenceStrings.Functions.DisableContactDogEar
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableContactDogEar
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nRemoves the corner tabs on the Company card if there are too many companies - i.e. more than this number\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string DisableContactDogEar = "DisableContactDogEar"
+    return:
+      type: System.String
+    content.vb: Public Const DisableContactDogEar As String = "DisableContactDogEar"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDelKey
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDelKey
+  id: DisableDelKey
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: DisableDelKey
+  nameWithType: UserPreferenceStrings.Functions.DisableDelKey
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDelKey
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nIf YES, the user has to use the menu in order to delete a company, project or selection (Default = YES).\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string DisableDelKey = "DisableDelKey"
+    return:
+      type: System.String
+    content.vb: Public Const DisableDelKey As String = "DisableDelKey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.DisplayDateFormatInLists
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.DisplayDateFormatInLists
+  id: DisplayDateFormatInLists
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: DisplayDateFormatInLists
+  nameWithType: UserPreferenceStrings.Functions.DisplayDateFormatInLists
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisplayDateFormatInLists
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSpecifies the date format used in section tabs in CRM (ex. dd.mm.yyyy hh:mm). (Default: computer&apos;s regional settings for short date format.)\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string DisplayDateFormatInLists = "DisplayDateFormatInLists"
+    return:
+      type: System.String
+    content.vb: Public Const DisplayDateFormatInLists As String = "DisplayDateFormatInLists"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.EditIfVisible
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.EditIfVisible
+  id: EditIfVisible
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: EditIfVisible
+  nameWithType: UserPreferenceStrings.Functions.EditIfVisible
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.EditIfVisible
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nAllows other users to add and remove members from any selection visible to the user\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string EditIfVisible = "EditIfVisible"
+    return:
+      type: System.String
+    content.vb: Public Const EditIfVisible As String = "EditIfVisible"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.FilterBookingSlaves
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.FilterBookingSlaves
+  id: FilterBookingSlaves
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: FilterBookingSlaves
+  nameWithType: UserPreferenceStrings.Functions.FilterBookingSlaves
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.FilterBookingSlaves
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nFilter out invitations for everyone except the person making the invitation, to avoid duplicates in the list.\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string FilterBookingSlaves = "FilterBookingSlaves"
+    return:
+      type: System.String
+    content.vb: Public Const FilterBookingSlaves As String = "FilterBookingSlaves"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.ForceConfirmation
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.ForceConfirmation
+  id: ForceConfirmation
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: ForceConfirmation
+  nameWithType: UserPreferenceStrings.Functions.ForceConfirmation
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.ForceConfirmation
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nAlways displays confirmation dialog when deleting\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string ForceConfirmation = "ForceConfirmation"
+    return:
+      type: System.String
+    content.vb: Public Const ForceConfirmation As String = "ForceConfirmation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.GetAdvanceDays
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.GetAdvanceDays
+  id: GetAdvanceDays
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: GetAdvanceDays
+  nameWithType: UserPreferenceStrings.Functions.GetAdvanceDays
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.GetAdvanceDays
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nNumber of days ahead to display tasks in the checklist. Default is 21 days\n<p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string GetAdvanceDays = "GetAdvanceDays"
+    return:
+      type: System.String
+    content.vb: Public Const GetAdvanceDays As String = "GetAdvanceDays"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.HomeContact
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.HomeContact
+  id: HomeContact
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: HomeContact
+  nameWithType: UserPreferenceStrings.Functions.HomeContact
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.HomeContact
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nWhich contact is displayed when you click on Hugo (the owl in the Navigator)\n<p></p>Control type: ContactId, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string HomeContact = "HomeContact"
+    return:
+      type: System.String
+    content.vb: Public Const HomeContact As String = "HomeContact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.InternetUseIntegratedBrowser
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.InternetUseIntegratedBrowser
+  id: InternetUseIntegratedBrowser
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: InternetUseIntegratedBrowser
+  nameWithType: UserPreferenceStrings.Functions.InternetUseIntegratedBrowser
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.InternetUseIntegratedBrowser
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nUses the internal CRM browser when clicking a URL within CRM. Default is Yes. If you set this preference to No, your computer&apos;s default browser will be used instead.\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string InternetUseIntegratedBrowser = "InternetUseIntegratedBrowser"
+    return:
+      type: System.String
+    content.vb: Public Const InternetUseIntegratedBrowser As String = "InternetUseIntegratedBrowser"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.PastDateAlert
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.PastDateAlert
+  id: PastDateAlert
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: PastDateAlert
+  nameWithType: UserPreferenceStrings.Functions.PastDateAlert
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.PastDateAlert
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nMarks overdue activities in section tabs (Default = YES)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string PastDateAlert = "PastDateAlert"
+    return:
+      type: System.String
+    content.vb: Public Const PastDateAlert As String = "PastDateAlert"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.PeriodicCheckInterval
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.PeriodicCheckInterval
+  id: PeriodicCheckInterval
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: PeriodicCheckInterval
+  nameWithType: UserPreferenceStrings.Functions.PeriodicCheckInterval
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.PeriodicCheckInterval
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nHow often (in minutes) should CRM check the database for new invitations etc.\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string PeriodicCheckInterval = "PeriodicCheckInterval"
+    return:
+      type: System.String
+    content.vb: Public Const PeriodicCheckInterval As String = "PeriodicCheckInterval"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.RemoveInvitationDuplicates
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.RemoveInvitationDuplicates
+  id: RemoveInvitationDuplicates
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: RemoveInvitationDuplicates
+  nameWithType: UserPreferenceStrings.Functions.RemoveInvitationDuplicates
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.RemoveInvitationDuplicates
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nThis ensures that invitations are displayed only once in the Activities section tab in CRM (Default = YES).\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string RemoveInvitationDuplicates = "RemoveInvitationDuplicates"
+    return:
+      type: System.String
+    content.vb: Public Const RemoveInvitationDuplicates As String = "RemoveInvitationDuplicates"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowAllPhoneNumbers
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.ShowAllPhoneNumbers
+  id: ShowAllPhoneNumbers
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: ShowAllPhoneNumbers
+  nameWithType: UserPreferenceStrings.Functions.ShowAllPhoneNumbers
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowAllPhoneNumbers
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nAllows the option of adding several phone numbers of the same type (e.g. mobile phone) in the Contact dialog. (Default = NO).\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string ShowAllPhoneNumbers = "ShowAllPhoneNumbers"
+    return:
+      type: System.String
+    content.vb: Public Const ShowAllPhoneNumbers As String = "ShowAllPhoneNumbers"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowInviteDlgFromView
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.ShowInviteDlgFromView
+  id: ShowInviteDlgFromView
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: ShowInviteDlgFromView
+  nameWithType: UserPreferenceStrings.Functions.ShowInviteDlgFromView
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowInviteDlgFromView
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nShould CRM automatically display the Invitation dialog when creating an activity from the diary view. (Default = NO).\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string ShowInviteDlgFromView = "ShowInviteDlgFromView"
+    return:
+      type: System.String
+    content.vb: Public Const ShowInviteDlgFromView As String = "ShowInviteDlgFromView"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowTipNumber
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.ShowTipNumber
+  id: ShowTipNumber
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: ShowTipNumber
+  nameWithType: UserPreferenceStrings.Functions.ShowTipNumber
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowTipNumber
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nNext tip of the day to be displayed.\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string ShowTipNumber = "ShowTipNumber"
+    return:
+      type: System.String
+    content.vb: Public Const ShowTipNumber As String = "ShowTipNumber"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowTipsAtStart
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.ShowTipsAtStart
+  id: ShowTipsAtStart
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: ShowTipsAtStart
+  nameWithType: UserPreferenceStrings.Functions.ShowTipsAtStart
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowTipsAtStart
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nShould a tip of the day be displayed every time a user logs in to SuperOffice. (Default = YES)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string ShowTipsAtStart = "ShowTipsAtStart"
+    return:
+      type: System.String
+    content.vb: Public Const ShowTipsAtStart As String = "ShowTipsAtStart"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.UseCaseOnTemplateVariables
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.UseCaseOnTemplateVariables
+  id: UseCaseOnTemplateVariables
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: UseCaseOnTemplateVariables
+  nameWithType: UserPreferenceStrings.Functions.UseCaseOnTemplateVariables
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.UseCaseOnTemplateVariables
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nThe template variables used in, for instance, documents and addresses are output in lower case and get the text exactly as stored in the database by default. Setting this preference will change the text to uppercase for all or just the first letter, depending how the template variable is input. (Default: No).\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string UseCaseOnTemplateVariables = "UseCaseOnTemplateVariables"
+    return:
+      type: System.String
+    content.vb: Public Const UseCaseOnTemplateVariables As String = "UseCaseOnTemplateVariables"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.UseMiddleName
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.UseMiddleName
+  id: UseMiddleName
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: UseMiddleName
+  nameWithType: UserPreferenceStrings.Functions.UseMiddleName
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.UseMiddleName
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nEnables the use of middle names in the Contact dialog\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string UseMiddleName = "UseMiddleName"
+    return:
+      type: System.String
+    content.vb: Public Const UseMiddleName As String = "UseMiddleName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowProgressInfo
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.ShowProgressInfo
+  id: ShowProgressInfo
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: ShowProgressInfo
+  nameWithType: UserPreferenceStrings.Functions.ShowProgressInfo
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowProgressInfo
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nShould a progress dialog be displayed on the Travel Gateway when active tasks are running? (Default = YES)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string ShowProgressInfo = "ShowProgressInfo"
+    return:
+      type: System.String
+    content.vb: Public Const ShowProgressInfo As String = "ShowProgressInfo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.IdAllocationBatchSize
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.IdAllocationBatchSize
+  id: IdAllocationBatchSize
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: IdAllocationBatchSize
+  nameWithType: UserPreferenceStrings.Functions.IdAllocationBatchSize
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.IdAllocationBatchSize
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nHow many records should be inserted into the database during an import before they are committed?\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string IdAllocationBatchSize = "IdAllocationBatchSize"
+    return:
+      type: System.String
+    content.vb: Public Const IdAllocationBatchSize As String = "IdAllocationBatchSize"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableSoundExCheckContact
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.DisableSoundExCheckContact
+  id: DisableSoundExCheckContact
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: DisableSoundExCheckContact
+  nameWithType: UserPreferenceStrings.Functions.DisableSoundExCheckContact
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableSoundExCheckContact
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nShould duplicate checking for contact by soundex value be disabled\n"
+  syntax:
+    content: public const string DisableSoundExCheckContact = "DisableSoundexCheckContact"
+    return:
+      type: System.String
+    content.vb: Public Const DisableSoundExCheckContact As String = "DisableSoundexCheckContact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableSoundExCheckProject
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.DisableSoundExCheckProject
+  id: DisableSoundExCheckProject
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: DisableSoundExCheckProject
+  nameWithType: UserPreferenceStrings.Functions.DisableSoundExCheckProject
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableSoundExCheckProject
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nShould duplicate checking for project by soundex value be disabled\n"
+  syntax:
+    content: public const string DisableSoundExCheckProject = "DisableSoundExCheckProject"
+    return:
+      type: System.String
+    content.vb: Public Const DisableSoundExCheckProject As String = "DisableSoundExCheckProject"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableSoundExCheckSelection
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.DisableSoundExCheckSelection
+  id: DisableSoundExCheckSelection
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: DisableSoundExCheckSelection
+  nameWithType: UserPreferenceStrings.Functions.DisableSoundExCheckSelection
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableSoundExCheckSelection
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nShould duplicate checking for selection by soundex value be disabled\n"
+  syntax:
+    content: public const string DisableSoundExCheckSelection = "DisableSoundExCheckSelection"
+    return:
+      type: System.String
+    content.vb: Public Const DisableSoundExCheckSelection As String = "DisableSoundExCheckSelection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDuplicateCheckContact
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDuplicateCheckContact
+  id: DisableDuplicateCheckContact
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: DisableDuplicateCheckContact
+  nameWithType: UserPreferenceStrings.Functions.DisableDuplicateCheckContact
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDuplicateCheckContact
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nShould duplicate checking for contact by exact match be disabled\n"
+  syntax:
+    content: public const string DisableDuplicateCheckContact = "DisableDuplicateCheckContact"
+    return:
+      type: System.String
+    content.vb: Public Const DisableDuplicateCheckContact As String = "DisableDuplicateCheckContact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDuplicateCheckProject
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDuplicateCheckProject
+  id: DisableDuplicateCheckProject
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: DisableDuplicateCheckProject
+  nameWithType: UserPreferenceStrings.Functions.DisableDuplicateCheckProject
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDuplicateCheckProject
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nShould duplicate checking for project by exact match be disabled\n"
+  syntax:
+    content: public const string DisableDuplicateCheckProject = "DisableDuplicateCheckProject"
+    return:
+      type: System.String
+    content.vb: Public Const DisableDuplicateCheckProject As String = "DisableDuplicateCheckProject"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDuplicateCheckSelection
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDuplicateCheckSelection
+  id: DisableDuplicateCheckSelection
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: DisableDuplicateCheckSelection
+  nameWithType: UserPreferenceStrings.Functions.DisableDuplicateCheckSelection
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDuplicateCheckSelection
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nShould duplicate checking for selection exact match be disabled\n"
+  syntax:
+    content: public const string DisableDuplicateCheckSelection = "DisableDuplicateCheckSelection"
+    return:
+      type: System.String
+    content.vb: Public Const DisableDuplicateCheckSelection As String = "DisableDuplicateCheckSelection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.SaintRankDuplicateContacts
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.SaintRankDuplicateContacts
+  id: SaintRankDuplicateContacts
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: SaintRankDuplicateContacts
+  nameWithType: UserPreferenceStrings.Functions.SaintRankDuplicateContacts
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.SaintRankDuplicateContacts
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nShould SAINT data be used to rank and style contacts with duplicate soundex&apos;es\n"
+  syntax:
+    content: public const string SaintRankDuplicateContacts = "SaintRankDuplicateContacts"
+    return:
+      type: System.String
+    content.vb: Public Const SaintRankDuplicateContacts As String = "SaintRankDuplicateContacts"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.HideCounterInArchiveFooter
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.HideCounterInArchiveFooter
+  id: HideCounterInArchiveFooter
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: HideCounterInArchiveFooter
+  nameWithType: UserPreferenceStrings.Functions.HideCounterInArchiveFooter
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.HideCounterInArchiveFooter
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nShould the rowcount not be visible in the archive footers\n"
+  syntax:
+    content: public const string HideCounterInArchiveFooter = "HideCounterInArchiveFooter"
+    return:
+      type: System.String
+    content.vb: Public Const HideCounterInArchiveFooter As String = "HideCounterInArchiveFooter"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.EnableLocalRendererInArchive
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.EnableLocalRendererInArchive
+  id: EnableLocalRendererInArchive
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: EnableLocalRendererInArchive
+  nameWithType: UserPreferenceStrings.Functions.EnableLocalRendererInArchive
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.EnableLocalRendererInArchive
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nShould the local renderer be enabled for user\n"
+  syntax:
+    content: public const string EnableLocalRendererInArchive = "EnableLocalRendererInArchive"
+    return:
+      type: System.String
+    content.vb: Public Const EnableLocalRendererInArchive As String = "EnableLocalRendererInArchive"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.AutoLoadLimitInArchive
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.AutoLoadLimitInArchive
+  id: AutoLoadLimitInArchive
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: AutoLoadLimitInArchive
+  nameWithType: UserPreferenceStrings.Functions.AutoLoadLimitInArchive
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.AutoLoadLimitInArchive
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nThe limit for auto loading the full archive\n"
+  syntax:
+    content: public const string AutoLoadLimitInArchive = "AutoLoadLimitInArchive"
+    return:
+      type: System.String
+    content.vb: Public Const AutoLoadLimitInArchive As String = "AutoLoadLimitInArchive"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.AskToEditOrRead
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.AskToEditOrRead
+  id: AskToEditOrRead
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: AskToEditOrRead
+  nameWithType: UserPreferenceStrings.Functions.AskToEditOrRead
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.AskToEditOrRead
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nAsk if the user want to edit or read the document when opening an existing document. Only applies when Web Tools is installed.\n"
+  syntax:
+    content: public const string AskToEditOrRead = "AskToEditOrRead"
+    return:
+      type: System.String
+    content.vb: Public Const AskToEditOrRead As String = "AskToEditOrRead"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowChangeCompanyWarning
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.ShowChangeCompanyWarning
+  id: ShowChangeCompanyWarning
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: ShowChangeCompanyWarning
+  nameWithType: UserPreferenceStrings.Functions.ShowChangeCompanyWarning
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowChangeCompanyWarning
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nWarn the user that all activities will be moved to the new company. Used when changing company in the person panel.\n"
+  syntax:
+    content: public const string ShowChangeCompanyWarning = "ShowChangeCompanyWarning"
+    return:
+      type: System.String
+    content.vb: Public Const ShowChangeCompanyWarning As String = "ShowChangeCompanyWarning"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.MandatoryContactOnPerson
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.MandatoryContactOnPerson
+  id: MandatoryContactOnPerson
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: MandatoryContactOnPerson
+  nameWithType: UserPreferenceStrings.Functions.MandatoryContactOnPerson
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.MandatoryContactOnPerson
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nWhether a company is required when creating a new person. Default true.\n"
+  syntax:
+    content: public const string MandatoryContactOnPerson = "MandatoryContactOnPerson"
+    return:
+      type: System.String
+    content.vb: Public Const MandatoryContactOnPerson As String = "MandatoryContactOnPerson"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.MandatoryContactOnPerson_HardDefault
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.MandatoryContactOnPerson_HardDefault
+  id: MandatoryContactOnPerson_HardDefault
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: MandatoryContactOnPerson_HardDefault
+  nameWithType: UserPreferenceStrings.Functions.MandatoryContactOnPerson_HardDefault
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.MandatoryContactOnPerson_HardDefault
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nHard default for MandatoryContactOnPerson\n"
+  syntax:
+    content: public const bool MandatoryContactOnPerson_HardDefault = true
+    return:
+      type: System.Boolean
+    content.vb: Public Const MandatoryContactOnPerson_HardDefault As Boolean = True
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.LanguageCookie
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.LanguageCookie
+  id: LanguageCookie
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: LanguageCookie
+  nameWithType: UserPreferenceStrings.Functions.LanguageCookie
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.LanguageCookie
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nLanguage cookie (when cookie is missing)\n"
+  syntax:
+    content: public const string LanguageCookie = "LanguageCookie"
+    return:
+      type: System.String
+    content.vb: Public Const LanguageCookie As String = "LanguageCookie"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.LanguageUICookie
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.LanguageUICookie
+  id: LanguageUICookie
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: LanguageUICookie
+  nameWithType: UserPreferenceStrings.Functions.LanguageUICookie
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.LanguageUICookie
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nLanguage UI (when cookie is missing)\n"
+  syntax:
+    content: public const string LanguageUICookie = "LanguageUICookie"
+    return:
+      type: System.String
+    content.vb: Public Const LanguageUICookie As String = "LanguageUICookie"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.DefaultMailClientCookie
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.DefaultMailClientCookie
+  id: DefaultMailClientCookie
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: DefaultMailClientCookie
+  nameWithType: UserPreferenceStrings.Functions.DefaultMailClientCookie
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DefaultMailClientCookie
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault mail client setting (when cookie is missing)\n"
+  syntax:
+    content: public const string DefaultMailClientCookie = "DefaultMailClient"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultMailClientCookie As String = "DefaultMailClient"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.SoCrm75SR1FirstUseCookie
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.SoCrm75SR1FirstUseCookie
+  id: SoCrm75SR1FirstUseCookie
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: SoCrm75SR1FirstUseCookie
+  nameWithType: UserPreferenceStrings.Functions.SoCrm75SR1FirstUseCookie
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.SoCrm75SR1FirstUseCookie
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nFirst use setting (when cookie is missing)\n"
+  syntax:
+    content: public const string SoCrm75SR1FirstUseCookie = "SoCrm75SR1FirstUse"
+    return:
+      type: System.String
+    content.vb: Public Const SoCrm75SR1FirstUseCookie As String = "SoCrm75SR1FirstUse"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Functions.JoinPilotForWebTools
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.JoinPilotForWebTools
+  id: JoinPilotForWebTools
+  parent: SuperOffice.CRM.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: JoinPilotForWebTools
+  nameWithType: UserPreferenceStrings.Functions.JoinPilotForWebTools
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.JoinPilotForWebTools
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nRoute all DownloadService requests from PROD to STAGE to allow customers\nearly access to WebTools versions prior to release.\n"
+  syntax:
+    content: public const string JoinPilotForWebTools = "JoinPilotForWebTools"
+    return:
+      type: System.String
+    content.vb: Public Const JoinPilotForWebTools As String = "JoinPilotForWebTools"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -1,0 +1,366 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.LocalizedField
+  commentId: T:SuperOffice.WebApi.Data.LocalizedField
+  id: LocalizedField
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.LocalizedField.#ctor
+  - SuperOffice.WebApi.Data.LocalizedField.AddressType
+  - SuperOffice.WebApi.Data.LocalizedField.Label
+  - SuperOffice.WebApi.Data.LocalizedField.Name
+  - SuperOffice.WebApi.Data.LocalizedField.Tooltip
+  - SuperOffice.WebApi.Data.LocalizedField.Value
+  - SuperOffice.WebApi.Data.LocalizedField.ValueLength
+  langs:
+  - csharp
+  - vb
+  name: LocalizedField
+  nameWithType: LocalizedField
+  fullName: SuperOffice.WebApi.Data.LocalizedField
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for LocalizedField.\nLocalizedField is used to store localized information such as formatted address data, a formatted phone number, etc.    \n"
+  syntax:
+    content: 'public class LocalizedField : Carrier'
+    content.vb: >-
+      Public Class LocalizedField
+          Inherits Carrier
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.LocalizedField.#ctor
+  commentId: M:SuperOffice.WebApi.Data.LocalizedField.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.LocalizedField
+  langs:
+  - csharp
+  - vb
+  name: LocalizedField()
+  nameWithType: LocalizedField.LocalizedField()
+  fullName: SuperOffice.WebApi.Data.LocalizedField.LocalizedField()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public LocalizedField()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.LocalizedField.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.LocalizedField.Name
+  commentId: P:SuperOffice.WebApi.Data.LocalizedField.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.LocalizedField
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: LocalizedField.Name
+  fullName: SuperOffice.WebApi.Data.LocalizedField.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the value field\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.LocalizedField.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.LocalizedField.Value
+  commentId: P:SuperOffice.WebApi.Data.LocalizedField.Value
+  id: Value
+  parent: SuperOffice.WebApi.Data.LocalizedField
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: LocalizedField.Value
+  fullName: SuperOffice.WebApi.Data.LocalizedField.Value
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe field&apos;s value\n"
+  syntax:
+    content: public virtual string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Value As String
+  overload: SuperOffice.WebApi.Data.LocalizedField.Value*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.LocalizedField.Tooltip
+  commentId: P:SuperOffice.WebApi.Data.LocalizedField.Tooltip
+  id: Tooltip
+  parent: SuperOffice.WebApi.Data.LocalizedField
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: LocalizedField.Tooltip
+  fullName: SuperOffice.WebApi.Data.LocalizedField.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe tooltip\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.WebApi.Data.LocalizedField.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.LocalizedField.Label
+  commentId: P:SuperOffice.WebApi.Data.LocalizedField.Label
+  id: Label
+  parent: SuperOffice.WebApi.Data.LocalizedField
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: LocalizedField.Label
+  fullName: SuperOffice.WebApi.Data.LocalizedField.Label
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe label of the field\n"
+  syntax:
+    content: public virtual string Label { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Label As String
+  overload: SuperOffice.WebApi.Data.LocalizedField.Label*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.LocalizedField.ValueLength
+  commentId: P:SuperOffice.WebApi.Data.LocalizedField.ValueLength
+  id: ValueLength
+  parent: SuperOffice.WebApi.Data.LocalizedField
+  langs:
+  - csharp
+  - vb
+  name: ValueLength
+  nameWithType: LocalizedField.ValueLength
+  fullName: SuperOffice.WebApi.Data.LocalizedField.ValueLength
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDatabase length of the value\n"
+  syntax:
+    content: public virtual int ValueLength { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ValueLength As Integer
+  overload: SuperOffice.WebApi.Data.LocalizedField.ValueLength*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.LocalizedField.AddressType
+  commentId: P:SuperOffice.WebApi.Data.LocalizedField.AddressType
+  id: AddressType
+  parent: SuperOffice.WebApi.Data.LocalizedField
+  langs:
+  - csharp
+  - vb
+  name: AddressType
+  nameWithType: LocalizedField.AddressType
+  fullName: SuperOffice.WebApi.Data.LocalizedField.AddressType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string AddressType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property AddressType As String
+  overload: SuperOffice.WebApi.Data.LocalizedField.AddressType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.LocalizedField.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.LocalizedField.#ctor
+  isExternal: true
+  name: LocalizedField
+  nameWithType: LocalizedField.LocalizedField
+  fullName: SuperOffice.WebApi.Data.LocalizedField.LocalizedField
+- uid: SuperOffice.WebApi.Data.LocalizedField.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.LocalizedField.Name
+  isExternal: true
+  name: Name
+  nameWithType: LocalizedField.Name
+  fullName: SuperOffice.WebApi.Data.LocalizedField.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.LocalizedField.Value*
+  commentId: Overload:SuperOffice.WebApi.Data.LocalizedField.Value
+  isExternal: true
+  name: Value
+  nameWithType: LocalizedField.Value
+  fullName: SuperOffice.WebApi.Data.LocalizedField.Value
+- uid: SuperOffice.WebApi.Data.LocalizedField.Tooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.LocalizedField.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: LocalizedField.Tooltip
+  fullName: SuperOffice.WebApi.Data.LocalizedField.Tooltip
+- uid: SuperOffice.WebApi.Data.LocalizedField.Label*
+  commentId: Overload:SuperOffice.WebApi.Data.LocalizedField.Label
+  isExternal: true
+  name: Label
+  nameWithType: LocalizedField.Label
+  fullName: SuperOffice.WebApi.Data.LocalizedField.Label
+- uid: SuperOffice.WebApi.Data.LocalizedField.ValueLength*
+  commentId: Overload:SuperOffice.WebApi.Data.LocalizedField.ValueLength
+  isExternal: true
+  name: ValueLength
+  nameWithType: LocalizedField.ValueLength
+  fullName: SuperOffice.WebApi.Data.LocalizedField.ValueLength
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.LocalizedField.AddressType*
+  commentId: Overload:SuperOffice.WebApi.Data.LocalizedField.AddressType
+  isExternal: true
+  name: AddressType
+  nameWithType: LocalizedField.AddressType
+  fullName: SuperOffice.WebApi.Data.LocalizedField.AddressType

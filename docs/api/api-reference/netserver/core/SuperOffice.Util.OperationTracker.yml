@@ -1,0 +1,825 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.OperationTracker
+  commentId: T:SuperOffice.Util.OperationTracker
+  id: OperationTracker
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.OperationTracker.#ctor(System.String)
+  - SuperOffice.Util.OperationTracker.AddInfo(System.String,System.Object)
+  - SuperOffice.Util.OperationTracker.Dispose
+  - SuperOffice.Util.OperationTracker.IsActive
+  - SuperOffice.Util.OperationTracker.ValueToString(System.Object)
+  - SuperOffice.Util.OperationTracker.WriteEventLog(System.String,System.Object[])
+  langs:
+  - csharp
+  - vb
+  name: OperationTracker
+  nameWithType: OperationTracker
+  fullName: SuperOffice.Util.OperationTracker
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nFaçade for the LeanSentry Tracker class; enables us to use LeanSentry tracking without \nintroducing a hard dependency.\n"
+  remarks: "\nLeanSentry will catch and store a trace for requests that &apos;take too long&apos;; and we can\ngain insight by including logging information. To ensure that this code works even if\nthe LeanSentry dll is not present, everything happens dynamically.\n<br />\nRecommended use:\n<pre><code>using (var t = new LeanSentryTracker(&quot;Tracker name&quot;)\n{\n	...\n	t.AddInfo(&quot;My extra info&quot;, someObject);	// avoid ToString() and other expensive formatting here!!\n	...\n}</code></pre>\nThe LeanSentryTracker is IDisposable and <strong>must</strong> be disposed to work properly.\nDo not dispose after ASP.NET is done with the request.\n<br />\nThe <xref href=\"SuperOffice.Util.OperationTracker.AddInfo(System.String%2cSystem.Object)\" data-throw-if-not-resolved=\"false\"></xref> method does intelligent, shallow decoding of objects and\narrays to try to generate a reasonable amount of information in the tracking log. You should\ngenerally not have to do your own object.ToString() decoding, unless you have special needs.\nBeware of writing complicated formatting code that slows down the application or creates\na huge number of strings on the heap!\n"
+  syntax:
+    content: 'public class OperationTracker : IDisposable'
+    content.vb: >-
+      Public Class OperationTracker
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Util.OperationTracker.EnumUtil.MapEnums``2
+  - SuperOffice.Util.OperationTracker.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Util.OperationTracker.#ctor(System.String)
+  commentId: M:SuperOffice.Util.OperationTracker.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.Util.OperationTracker
+  langs:
+  - csharp
+  - vb
+  name: OperationTracker(String)
+  nameWithType: OperationTracker.OperationTracker(String)
+  fullName: SuperOffice.Util.OperationTracker.OperationTracker(System.String)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConstructor to create a Tracker; if tracking is not available then the returned instance will \nbe inactive and cheap to call\n"
+  syntax:
+    content: public OperationTracker(string trackerName)
+    parameters:
+    - id: trackerName
+      type: System.String
+    content.vb: Public Sub New(trackerName As String)
+  overload: SuperOffice.Util.OperationTracker.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.OperationTracker.AddInfo(System.String,System.Object)
+  commentId: M:SuperOffice.Util.OperationTracker.AddInfo(System.String,System.Object)
+  id: AddInfo(System.String,System.Object)
+  parent: SuperOffice.Util.OperationTracker
+  langs:
+  - csharp
+  - vb
+  name: AddInfo(String, Object)
+  nameWithType: OperationTracker.AddInfo(String, Object)
+  fullName: SuperOffice.Util.OperationTracker.AddInfo(System.String, System.Object)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nAdd information to the key/value property bag in the tracker. Existing key\nwill have its value replaced. See remarks for <xref href=\"SuperOffice.Util.OperationTracker.ValueToString(System.Object)\" data-throw-if-not-resolved=\"false\"></xref>\nfor object formatting!\n"
+  syntax:
+    content: public void AddInfo(string key, object value)
+    parameters:
+    - id: key
+      type: System.String
+      description: Property name
+    - id: value
+      type: System.Object
+      description: Value to be added, will be formatted by <xref href="SuperOffice.Util.OperationTracker.ValueToString(System.Object)" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Sub AddInfo(key As String, value As Object)
+  overload: SuperOffice.Util.OperationTracker.AddInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.OperationTracker.ValueToString(System.Object)
+  commentId: M:SuperOffice.Util.OperationTracker.ValueToString(System.Object)
+  id: ValueToString(System.Object)
+  parent: SuperOffice.Util.OperationTracker
+  langs:
+  - csharp
+  - vb
+  name: ValueToString(Object)
+  nameWithType: OperationTracker.ValueToString(Object)
+  fullName: SuperOffice.Util.OperationTracker.ValueToString(System.Object)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nDecode and format objects to a reasonable level\n"
+  remarks: "\nPrimitive types are converted to strings directly.  One-dimensional Arrays will decode the first\nthree elements. Complex types will only show the type name, to avoid the huge\nrecursive descent that is present in generated service objects.\n"
+  syntax:
+    content: public static string ValueToString(object value)
+    parameters:
+    - id: value
+      type: System.Object
+      description: Value to be decoded
+    return:
+      type: System.String
+    content.vb: Public Shared Function ValueToString(value As Object) As String
+  overload: SuperOffice.Util.OperationTracker.ValueToString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.OperationTracker.Dispose
+  commentId: M:SuperOffice.Util.OperationTracker.Dispose
+  id: Dispose
+  parent: SuperOffice.Util.OperationTracker
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: OperationTracker.Dispose()
+  fullName: SuperOffice.Util.OperationTracker.Dispose()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nDispose of the tracker, this ends the stopwatch and dumps any information to the\nLeanSentry services that pass it on to the cloud\n"
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: SuperOffice.Util.OperationTracker.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.OperationTracker.WriteEventLog(System.String,System.Object[])
+  commentId: M:SuperOffice.Util.OperationTracker.WriteEventLog(System.String,System.Object[])
+  id: WriteEventLog(System.String,System.Object[])
+  parent: SuperOffice.Util.OperationTracker
+  langs:
+  - csharp
+  - vb
+  name: WriteEventLog(String, Object[])
+  nameWithType: OperationTracker.WriteEventLog(String, Object[])
+  fullName: SuperOffice.Util.OperationTracker.WriteEventLog(System.String, System.Object[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static void WriteEventLog(string message, params object[] parameters)
+    parameters:
+    - id: message
+      type: System.String
+    - id: parameters
+      type: System.Object[]
+    content.vb: Public Shared Sub WriteEventLog(message As String, ParamArray parameters As Object())
+  overload: SuperOffice.Util.OperationTracker.WriteEventLog*
+  nameWithType.vb: OperationTracker.WriteEventLog(String, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.OperationTracker.WriteEventLog(System.String, System.Object())
+  name.vb: WriteEventLog(String, Object())
+- uid: SuperOffice.Util.OperationTracker.IsActive
+  commentId: P:SuperOffice.Util.OperationTracker.IsActive
+  id: IsActive
+  parent: SuperOffice.Util.OperationTracker
+  langs:
+  - csharp
+  - vb
+  name: IsActive
+  nameWithType: OperationTracker.IsActive
+  fullName: SuperOffice.Util.OperationTracker.IsActive
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nIs the LeanSentryTracker available? \n"
+  syntax:
+    content: public static bool IsActive { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsActive As Boolean
+  overload: SuperOffice.Util.OperationTracker.IsActive*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.OperationTracker.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<OperationTracker, To>()
+  nameWithType: EnumUtil.MapEnums<OperationTracker, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.OperationTracker, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of OperationTracker, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.OperationTracker, To)()
+  name.vb: MapEnums(Of OperationTracker, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<OperationTracker, To>
+    nameWithType: EnumUtil.MapEnums<OperationTracker, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.OperationTracker, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of OperationTracker, To)
+    nameWithType: EnumUtil.MapEnums(Of OperationTracker, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.OperationTracker, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.OperationTracker.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<OperationTracker, To>()
+  nameWithType: Converters.MapEnums<OperationTracker, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.OperationTracker, To>()
+  nameWithType.vb: Converters.MapEnums(Of OperationTracker, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.OperationTracker, To)()
+  name.vb: MapEnums(Of OperationTracker, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<OperationTracker, To>
+    nameWithType: Converters.MapEnums<OperationTracker, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.OperationTracker, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of OperationTracker, To)
+    nameWithType: Converters.MapEnums(Of OperationTracker, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.OperationTracker, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Util.OperationTracker.#ctor*
+  commentId: Overload:SuperOffice.Util.OperationTracker.#ctor
+  isExternal: true
+  name: OperationTracker
+  nameWithType: OperationTracker.OperationTracker
+  fullName: SuperOffice.Util.OperationTracker.OperationTracker
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Util.OperationTracker.AddInfo*
+  commentId: Overload:SuperOffice.Util.OperationTracker.AddInfo
+  isExternal: true
+  name: AddInfo
+  nameWithType: OperationTracker.AddInfo
+  fullName: SuperOffice.Util.OperationTracker.AddInfo
+- uid: SuperOffice.Util.OperationTracker.ValueToString*
+  commentId: Overload:SuperOffice.Util.OperationTracker.ValueToString
+  isExternal: true
+  name: ValueToString
+  nameWithType: OperationTracker.ValueToString
+  fullName: SuperOffice.Util.OperationTracker.ValueToString
+- uid: SuperOffice.Util.OperationTracker.Dispose*
+  commentId: Overload:SuperOffice.Util.OperationTracker.Dispose
+  isExternal: true
+  name: Dispose
+  nameWithType: OperationTracker.Dispose
+  fullName: SuperOffice.Util.OperationTracker.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.OperationTracker.WriteEventLog*
+  commentId: Overload:SuperOffice.Util.OperationTracker.WriteEventLog
+  isExternal: true
+  name: WriteEventLog
+  nameWithType: OperationTracker.WriteEventLog
+  fullName: SuperOffice.Util.OperationTracker.WriteEventLog
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Util.OperationTracker.IsActive*
+  commentId: Overload:SuperOffice.Util.OperationTracker.IsActive
+  isExternal: true
+  name: IsActive
+  nameWithType: OperationTracker.IsActive
+  fullName: SuperOffice.Util.OperationTracker.IsActive
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

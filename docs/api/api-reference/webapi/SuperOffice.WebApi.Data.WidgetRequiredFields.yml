@@ -1,0 +1,249 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.WidgetRequiredFields
+  commentId: T:SuperOffice.WebApi.Data.WidgetRequiredFields
+  id: WidgetRequiredFields
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.WidgetRequiredFields.Company
+  - SuperOffice.WebApi.Data.WidgetRequiredFields.Email
+  - SuperOffice.WebApi.Data.WidgetRequiredFields.Name
+  - SuperOffice.WebApi.Data.WidgetRequiredFields.Phone
+  - SuperOffice.WebApi.Data.WidgetRequiredFields.Subject
+  - SuperOffice.WebApi.Data.WidgetRequiredFields.value__
+  langs:
+  - csharp
+  - vb
+  name: WidgetRequiredFields
+  nameWithType: WidgetRequiredFields
+  fullName: SuperOffice.WebApi.Data.WidgetRequiredFields
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nValue for field &apos;widget_offline_fields&apos; in table &apos;chat_topic&apos;.\nThis Enum is used by:  chat_topic.widget_offline_fields; chat_topic.widget_required_fields\nThis Enum consists of flag values that can be combined.\n"
+  syntax:
+    content: 'public sealed class WidgetRequiredFields : Enum'
+    content.vb: >-
+      Public NotInheritable Class WidgetRequiredFields
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.WidgetRequiredFields.value__
+  commentId: F:SuperOffice.WebApi.Data.WidgetRequiredFields.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.WidgetRequiredFields
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WidgetRequiredFields.value__
+  fullName: SuperOffice.WebApi.Data.WidgetRequiredFields.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.WidgetRequiredFields.Email
+  commentId: F:SuperOffice.WebApi.Data.WidgetRequiredFields.Email
+  id: Email
+  parent: SuperOffice.WebApi.Data.WidgetRequiredFields
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: WidgetRequiredFields.Email
+  fullName: SuperOffice.WebApi.Data.WidgetRequiredFields.Email
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Email field is required\n"
+  syntax:
+    content: public const WidgetRequiredFields Email
+    return:
+      type: SuperOffice.WebApi.Data.WidgetRequiredFields
+    content.vb: Public Const Email As WidgetRequiredFields
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WidgetRequiredFields.Name
+  commentId: F:SuperOffice.WebApi.Data.WidgetRequiredFields.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.WidgetRequiredFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: WidgetRequiredFields.Name
+  fullName: SuperOffice.WebApi.Data.WidgetRequiredFields.Name
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Name field is required\n"
+  syntax:
+    content: public const WidgetRequiredFields Name
+    return:
+      type: SuperOffice.WebApi.Data.WidgetRequiredFields
+    content.vb: Public Const Name As WidgetRequiredFields
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WidgetRequiredFields.Company
+  commentId: F:SuperOffice.WebApi.Data.WidgetRequiredFields.Company
+  id: Company
+  parent: SuperOffice.WebApi.Data.WidgetRequiredFields
+  langs:
+  - csharp
+  - vb
+  name: Company
+  nameWithType: WidgetRequiredFields.Company
+  fullName: SuperOffice.WebApi.Data.WidgetRequiredFields.Company
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Company field is required\n"
+  syntax:
+    content: public const WidgetRequiredFields Company
+    return:
+      type: SuperOffice.WebApi.Data.WidgetRequiredFields
+    content.vb: Public Const Company As WidgetRequiredFields
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WidgetRequiredFields.Subject
+  commentId: F:SuperOffice.WebApi.Data.WidgetRequiredFields.Subject
+  id: Subject
+  parent: SuperOffice.WebApi.Data.WidgetRequiredFields
+  langs:
+  - csharp
+  - vb
+  name: Subject
+  nameWithType: WidgetRequiredFields.Subject
+  fullName: SuperOffice.WebApi.Data.WidgetRequiredFields.Subject
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Subject field is required\n"
+  syntax:
+    content: public const WidgetRequiredFields Subject
+    return:
+      type: SuperOffice.WebApi.Data.WidgetRequiredFields
+    content.vb: Public Const Subject As WidgetRequiredFields
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.WidgetRequiredFields.Phone
+  commentId: F:SuperOffice.WebApi.Data.WidgetRequiredFields.Phone
+  id: Phone
+  parent: SuperOffice.WebApi.Data.WidgetRequiredFields
+  langs:
+  - csharp
+  - vb
+  name: Phone
+  nameWithType: WidgetRequiredFields.Phone
+  fullName: SuperOffice.WebApi.Data.WidgetRequiredFields.Phone
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: Phone field is required\n"
+  syntax:
+    content: public const WidgetRequiredFields Phone
+    return:
+      type: SuperOffice.WebApi.Data.WidgetRequiredFields
+    content.vb: Public Const Phone As WidgetRequiredFields
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.WidgetRequiredFields
+  commentId: T:SuperOffice.WebApi.Data.WidgetRequiredFields
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WidgetRequiredFields
+  nameWithType: WidgetRequiredFields
+  fullName: SuperOffice.WebApi.Data.WidgetRequiredFields

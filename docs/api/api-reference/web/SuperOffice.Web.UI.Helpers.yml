@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Helpers
+  commentId: N:SuperOffice.Web.UI.Helpers
+  id: SuperOffice.Web.UI.Helpers
+  children:
+  - SuperOffice.Web.UI.Helpers.HtmlCleaner
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Web.UI.Helpers
+  nameWithType: SuperOffice.Web.UI.Helpers
+  fullName: SuperOffice.Web.UI.Helpers
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCFWeb
+references:
+- uid: SuperOffice.Web.UI.Helpers.HtmlCleaner
+  commentId: T:SuperOffice.Web.UI.Helpers.HtmlCleaner
+  isExternal: true
+  name: HtmlCleaner
+  nameWithType: HtmlCleaner
+  fullName: SuperOffice.Web.UI.Helpers.HtmlCleaner

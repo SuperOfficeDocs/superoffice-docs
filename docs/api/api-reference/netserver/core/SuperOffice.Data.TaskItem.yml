@@ -1,0 +1,3237 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.TaskItem
+  commentId: T:SuperOffice.Data.TaskItem
+  id: TaskItem
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.TaskItem.ETaskTypeAppointmentAttachAppointment
+  - SuperOffice.Data.TaskItem.ETaskTypeAppointmentAttachDocument
+  - SuperOffice.Data.TaskItem.ETaskTypeAppointmentAttachSale
+  - SuperOffice.Data.TaskItem.ETaskTypeCommon
+  - SuperOffice.Data.TaskItem.ETaskTypeConfigureTaskbar
+  - SuperOffice.Data.TaskItem.ETaskTypeContactDelete
+  - SuperOffice.Data.TaskItem.ETaskTypeContactFind
+  - SuperOffice.Data.TaskItem.ETaskTypeContactNew
+  - SuperOffice.Data.TaskItem.ETaskTypeCopySoProtocol
+  - SuperOffice.Data.TaskItem.ETaskTypeDelete
+  - SuperOffice.Data.TaskItem.ETaskTypeDeleteAppointment
+  - SuperOffice.Data.TaskItem.ETaskTypeDeleteContact
+  - SuperOffice.Data.TaskItem.ETaskTypeDeleteDocument
+  - SuperOffice.Data.TaskItem.ETaskTypeDeleteNote
+  - SuperOffice.Data.TaskItem.ETaskTypeDeletePerson
+  - SuperOffice.Data.TaskItem.ETaskTypeDeleteProject
+  - SuperOffice.Data.TaskItem.ETaskTypeDeleteSale
+  - SuperOffice.Data.TaskItem.ETaskTypeDeleteSelection
+  - SuperOffice.Data.TaskItem.ETaskTypeDiaryFind
+  - SuperOffice.Data.TaskItem.ETaskTypeDocumentAttachAppointment
+  - SuperOffice.Data.TaskItem.ETaskTypeDocumentAttachDocument
+  - SuperOffice.Data.TaskItem.ETaskTypeDocumentAttachSale
+  - SuperOffice.Data.TaskItem.ETaskTypeFind
+  - SuperOffice.Data.TaskItem.ETaskTypeFindActivity
+  - SuperOffice.Data.TaskItem.ETaskTypeFindContact
+  - SuperOffice.Data.TaskItem.ETaskTypeFindDocument
+  - SuperOffice.Data.TaskItem.ETaskTypeFindPerson
+  - SuperOffice.Data.TaskItem.ETaskTypeFindProject
+  - SuperOffice.Data.TaskItem.ETaskTypeFindSale
+  - SuperOffice.Data.TaskItem.ETaskTypeFindSelection
+  - SuperOffice.Data.TaskItem.ETaskTypeHelp
+  - SuperOffice.Data.TaskItem.ETaskTypeInvalid
+  - SuperOffice.Data.TaskItem.ETaskTypeNew
+  - SuperOffice.Data.TaskItem.ETaskTypeNewAppointment
+  - SuperOffice.Data.TaskItem.ETaskTypeNewContact
+  - SuperOffice.Data.TaskItem.ETaskTypeNewDocument
+  - SuperOffice.Data.TaskItem.ETaskTypeNewEmail
+  - SuperOffice.Data.TaskItem.ETaskTypeNewNote
+  - SuperOffice.Data.TaskItem.ETaskTypeNewPerson
+  - SuperOffice.Data.TaskItem.ETaskTypeNewPhone
+  - SuperOffice.Data.TaskItem.ETaskTypeNewProject
+  - SuperOffice.Data.TaskItem.ETaskTypeNewSale
+  - SuperOffice.Data.TaskItem.ETaskTypeNewSelection
+  - SuperOffice.Data.TaskItem.ETaskTypeNewToDo
+  - SuperOffice.Data.TaskItem.ETaskTypePersonDelete
+  - SuperOffice.Data.TaskItem.ETaskTypePersonFind
+  - SuperOffice.Data.TaskItem.ETaskTypePersonNew
+  - SuperOffice.Data.TaskItem.ETaskTypePhone
+  - SuperOffice.Data.TaskItem.ETaskTypePostItContact
+  - SuperOffice.Data.TaskItem.ETaskTypePostItDiary
+  - SuperOffice.Data.TaskItem.ETaskTypePostItPerson
+  - SuperOffice.Data.TaskItem.ETaskTypePostItProject
+  - SuperOffice.Data.TaskItem.ETaskTypePostItSelection
+  - SuperOffice.Data.TaskItem.ETaskTypePrint
+  - SuperOffice.Data.TaskItem.ETaskTypePrintAppointment
+  - SuperOffice.Data.TaskItem.ETaskTypePrintContact
+  - SuperOffice.Data.TaskItem.ETaskTypePrintDocument
+  - SuperOffice.Data.TaskItem.ETaskTypePrintPerson
+  - SuperOffice.Data.TaskItem.ETaskTypePrintProject
+  - SuperOffice.Data.TaskItem.ETaskTypePrintSale
+  - SuperOffice.Data.TaskItem.ETaskTypePrintSelection
+  - SuperOffice.Data.TaskItem.ETaskTypeProjectDelete
+  - SuperOffice.Data.TaskItem.ETaskTypeProjectFind
+  - SuperOffice.Data.TaskItem.ETaskTypeProjectMailMerge
+  - SuperOffice.Data.TaskItem.ETaskTypeProjectNew
+  - SuperOffice.Data.TaskItem.ETaskTypeSaleAttachAppointment
+  - SuperOffice.Data.TaskItem.ETaskTypeSaleAttachDocument
+  - SuperOffice.Data.TaskItem.ETaskTypeSaleAttachSale
+  - SuperOffice.Data.TaskItem.ETaskTypeSaleLost
+  - SuperOffice.Data.TaskItem.ETaskTypeSaleSold
+  - SuperOffice.Data.TaskItem.ETaskTypeSelectionClone
+  - SuperOffice.Data.TaskItem.ETaskTypeSelectionCopyInto
+  - SuperOffice.Data.TaskItem.ETaskTypeSelectionDelete
+  - SuperOffice.Data.TaskItem.ETaskTypeSelectionDeleteMembers
+  - SuperOffice.Data.TaskItem.ETaskTypeSelectionEditInterests
+  - SuperOffice.Data.TaskItem.ETaskTypeSelectionEditMembers
+  - SuperOffice.Data.TaskItem.ETaskTypeSelectionExport
+  - SuperOffice.Data.TaskItem.ETaskTypeSelectionFind
+  - SuperOffice.Data.TaskItem.ETaskTypeSelectionGenToDo
+  - SuperOffice.Data.TaskItem.ETaskTypeSelectionMailMerge
+  - SuperOffice.Data.TaskItem.ETaskTypeSelectionNew
+  - SuperOffice.Data.TaskItem.ETaskTypeSelectionPrintLabels
+  - SuperOffice.Data.TaskItem.ETaskTypeSelectionPrintReports
+  - SuperOffice.Data.TaskItem.ETaskTypeSelectionSendEmail
+  - SuperOffice.Data.TaskItem.ETaskTypeSendAsEmailAppointment
+  - SuperOffice.Data.TaskItem.ETaskTypeSeparator
+  - SuperOffice.Data.TaskItem.ETaskTypeSpacer
+  - SuperOffice.Data.TaskItem.ETaskTypeUndefined
+  - SuperOffice.Data.TaskItem.ETaskTypeUser
+  - SuperOffice.Data.TaskItem.ETaskTypeWrite
+  - SuperOffice.Data.TaskItem.ETaskTypeWriteDoc1
+  - SuperOffice.Data.TaskItem.ETaskTypeWriteDoc2
+  - SuperOffice.Data.TaskItem.ETaskTypeWriteDocument
+  - SuperOffice.Data.TaskItem.ETaskTypeWriteEmail
+  - SuperOffice.Data.TaskItem.ETaskTypeWriteEmail1
+  - SuperOffice.Data.TaskItem.ETaskTypeWriteEmail2
+  - SuperOffice.Data.TaskItem.ETaskTypeWriteFax1
+  - SuperOffice.Data.TaskItem.ETaskTypeWriteFax2
+  langs:
+  - csharp
+  - vb
+  name: TaskItem
+  nameWithType: TaskItem
+  fullName: SuperOffice.Data.TaskItem
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n\n"
+  syntax:
+    content: public enum TaskItem
+    content.vb: Public Enum TaskItem
+  extensionMethods:
+  - SuperOffice.Data.TaskItem.EnumUtil.MapEnums``2
+  - SuperOffice.Data.TaskItem.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TaskItem)
+  - SuperOffice.Data.TaskItem.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.TaskItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.TaskItem.ETaskTypeUndefined
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeUndefined
+  id: ETaskTypeUndefined
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeUndefined
+  nameWithType: TaskItem.ETaskTypeUndefined
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeUndefined
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n\n"
+  syntax:
+    content: ETaskTypeUndefined = 0
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeInvalid
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeInvalid
+  id: ETaskTypeInvalid
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeInvalid
+  nameWithType: TaskItem.ETaskTypeInvalid
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeInvalid
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n\n"
+  syntax:
+    content: ETaskTypeInvalid = 1
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeCommon
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeCommon
+  id: ETaskTypeCommon
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeCommon
+  nameWithType: TaskItem.ETaskTypeCommon
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeCommon
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCommon type used for common Context implementations.\n"
+  syntax:
+    content: ETaskTypeCommon = 2
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeNew
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeNew
+  id: ETaskTypeNew
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeNew
+  nameWithType: TaskItem.ETaskTypeNew
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeNew
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCreate a new CurrentMode dependent record.\n"
+  syntax:
+    content: ETaskTypeNew = 3
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeNewContact
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeNewContact
+  id: ETaskTypeNewContact
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeNewContact
+  nameWithType: TaskItem.ETaskTypeNewContact
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeNewContact
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCreate new contact\n"
+  syntax:
+    content: ETaskTypeNewContact = 4
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeNewProject
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeNewProject
+  id: ETaskTypeNewProject
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeNewProject
+  nameWithType: TaskItem.ETaskTypeNewProject
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeNewProject
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCreate new project\n"
+  syntax:
+    content: ETaskTypeNewProject = 5
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeNewPerson
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeNewPerson
+  id: ETaskTypeNewPerson
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeNewPerson
+  nameWithType: TaskItem.ETaskTypeNewPerson
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeNewPerson
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCreate new person\n"
+  syntax:
+    content: ETaskTypeNewPerson = 6
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeNewSelection
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeNewSelection
+  id: ETaskTypeNewSelection
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeNewSelection
+  nameWithType: TaskItem.ETaskTypeNewSelection
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeNewSelection
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCreate new selection\n"
+  syntax:
+    content: ETaskTypeNewSelection = 7
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeNewAppointment
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeNewAppointment
+  id: ETaskTypeNewAppointment
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeNewAppointment
+  nameWithType: TaskItem.ETaskTypeNewAppointment
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeNewAppointment
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCreate new &quot;Standard&quot; appointment\n"
+  syntax:
+    content: ETaskTypeNewAppointment = 8
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeNewToDo
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeNewToDo
+  id: ETaskTypeNewToDo
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeNewToDo
+  nameWithType: TaskItem.ETaskTypeNewToDo
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeNewToDo
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCreate new &quot;ToDo&quot; appointment, also called a &quot;Task&quot;\n"
+  syntax:
+    content: ETaskTypeNewToDo = 9
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeNewPhone
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeNewPhone
+  id: ETaskTypeNewPhone
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeNewPhone
+  nameWithType: TaskItem.ETaskTypeNewPhone
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeNewPhone
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCreate new &quot;Phone&quot; appointment\n"
+  syntax:
+    content: ETaskTypeNewPhone = 10
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeNewDocument
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeNewDocument
+  id: ETaskTypeNewDocument
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeNewDocument
+  nameWithType: TaskItem.ETaskTypeNewDocument
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeNewDocument
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCreate new &quot;Standard&quot; document\n"
+  syntax:
+    content: ETaskTypeNewDocument = 11
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeNewEmail
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeNewEmail
+  id: ETaskTypeNewEmail
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeNewEmail
+  nameWithType: TaskItem.ETaskTypeNewEmail
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeNewEmail
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCreate new &quot;Email&quot; document\n"
+  syntax:
+    content: ETaskTypeNewEmail = 12
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeNewSale
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeNewSale
+  id: ETaskTypeNewSale
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeNewSale
+  nameWithType: TaskItem.ETaskTypeNewSale
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeNewSale
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCreate new sale\n"
+  syntax:
+    content: ETaskTypeNewSale = 13
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeNewNote
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeNewNote
+  id: ETaskTypeNewNote
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeNewNote
+  nameWithType: TaskItem.ETaskTypeNewNote
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeNewNote
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nAttach new Note to the current card\n"
+  syntax:
+    content: ETaskTypeNewNote = 14
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeDelete
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeDelete
+  id: ETaskTypeDelete
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeDelete
+  nameWithType: TaskItem.ETaskTypeDelete
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeDelete
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nDelete whatever CurentMode points to.\n"
+  syntax:
+    content: ETaskTypeDelete = 15
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeDeleteContact
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeDeleteContact
+  id: ETaskTypeDeleteContact
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeDeleteContact
+  nameWithType: TaskItem.ETaskTypeDeleteContact
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeDeleteContact
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nDelete current contact card\n"
+  syntax:
+    content: ETaskTypeDeleteContact = 16
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeDeleteProject
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeDeleteProject
+  id: ETaskTypeDeleteProject
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeDeleteProject
+  nameWithType: TaskItem.ETaskTypeDeleteProject
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeDeleteProject
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nDelete current Project card\n"
+  syntax:
+    content: ETaskTypeDeleteProject = 17
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeDeletePerson
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeDeletePerson
+  id: ETaskTypeDeletePerson
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeDeletePerson
+  nameWithType: TaskItem.ETaskTypeDeletePerson
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeDeletePerson
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nDelete Person\n"
+  syntax:
+    content: ETaskTypeDeletePerson = 18
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeDeleteSelection
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeDeleteSelection
+  id: ETaskTypeDeleteSelection
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeDeleteSelection
+  nameWithType: TaskItem.ETaskTypeDeleteSelection
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeDeleteSelection
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nDelete curren selection\n"
+  syntax:
+    content: ETaskTypeDeleteSelection = 19
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeDeleteAppointment
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeDeleteAppointment
+  id: ETaskTypeDeleteAppointment
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeDeleteAppointment
+  nameWithType: TaskItem.ETaskTypeDeleteAppointment
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeDeleteAppointment
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nDelete Appointment\n"
+  syntax:
+    content: ETaskTypeDeleteAppointment = 20
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeDeleteDocument
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeDeleteDocument
+  id: ETaskTypeDeleteDocument
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeDeleteDocument
+  nameWithType: TaskItem.ETaskTypeDeleteDocument
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeDeleteDocument
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nDelete Document\n"
+  syntax:
+    content: ETaskTypeDeleteDocument = 21
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeDeleteSale
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeDeleteSale
+  id: ETaskTypeDeleteSale
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeDeleteSale
+  nameWithType: TaskItem.ETaskTypeDeleteSale
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeDeleteSale
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nDelete Sale\n"
+  syntax:
+    content: ETaskTypeDeleteSale = 22
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeDeleteNote
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeDeleteNote
+  id: ETaskTypeDeleteNote
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeDeleteNote
+  nameWithType: TaskItem.ETaskTypeDeleteNote
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeDeleteNote
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nDelete ca note\n"
+  syntax:
+    content: ETaskTypeDeleteNote = 23
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeWrite
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeWrite
+  id: ETaskTypeWrite
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeWrite
+  nameWithType: TaskItem.ETaskTypeWrite
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeWrite
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nWrite as used in Buttonbar and TaskCenter menu.\n"
+  syntax:
+    content: ETaskTypeWrite = 24
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeWriteDocument
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeWriteDocument
+  id: ETaskTypeWriteDocument
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeWriteDocument
+  nameWithType: TaskItem.ETaskTypeWriteDocument
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeWriteDocument
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nGeneric document type, &quot;TemplateId = 0&quot;\n"
+  syntax:
+    content: ETaskTypeWriteDocument = 25
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeWriteDoc1
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeWriteDoc1
+  id: ETaskTypeWriteDoc1
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeWriteDoc1
+  nameWithType: TaskItem.ETaskTypeWriteDoc1
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeWriteDoc1
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCreate a new document based on template of type kAppntDoc with rank 1)\n"
+  syntax:
+    content: ETaskTypeWriteDoc1 = 26
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeWriteDoc2
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeWriteDoc2
+  id: ETaskTypeWriteDoc2
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeWriteDoc2
+  nameWithType: TaskItem.ETaskTypeWriteDoc2
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeWriteDoc2
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCreate a new document based on template of type kAppntDoc with rank 2)\n"
+  syntax:
+    content: ETaskTypeWriteDoc2 = 27
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeWriteFax1
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeWriteFax1
+  id: ETaskTypeWriteFax1
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeWriteFax1
+  nameWithType: TaskItem.ETaskTypeWriteFax1
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeWriteFax1
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCreate a new document based on template of type kAppntFax with rank 1)\n"
+  syntax:
+    content: ETaskTypeWriteFax1 = 28
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeWriteFax2
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeWriteFax2
+  id: ETaskTypeWriteFax2
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeWriteFax2
+  nameWithType: TaskItem.ETaskTypeWriteFax2
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeWriteFax2
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCreate a new document based on template of type kAppntFax with rank 2)\n"
+  syntax:
+    content: ETaskTypeWriteFax2 = 29
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeWriteEmail
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeWriteEmail
+  id: ETaskTypeWriteEmail
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeWriteEmail
+  nameWithType: TaskItem.ETaskTypeWriteEmail
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeWriteEmail
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nGeneric mail type, &quot;TemplateId = 0&quot;\n"
+  syntax:
+    content: ETaskTypeWriteEmail = 30
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeWriteEmail1
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeWriteEmail1
+  id: ETaskTypeWriteEmail1
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeWriteEmail1
+  nameWithType: TaskItem.ETaskTypeWriteEmail1
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeWriteEmail1
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCreate a new document based on template of type kAppntEmail with rank 1)\n"
+  syntax:
+    content: ETaskTypeWriteEmail1 = 31
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeWriteEmail2
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeWriteEmail2
+  id: ETaskTypeWriteEmail2
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeWriteEmail2
+  nameWithType: TaskItem.ETaskTypeWriteEmail2
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeWriteEmail2
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCreate a new document based on template of type kAppntEmail with rank 2)\n"
+  syntax:
+    content: ETaskTypeWriteEmail2 = 32
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeSendAsEmailAppointment
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeSendAsEmailAppointment
+  id: ETaskTypeSendAsEmailAppointment
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeSendAsEmailAppointment
+  nameWithType: TaskItem.ETaskTypeSendAsEmailAppointment
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeSendAsEmailAppointment
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nSend appointment as EMail.\n"
+  syntax:
+    content: ETaskTypeSendAsEmailAppointment = 33
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeSaleAttachDocument
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeSaleAttachDocument
+  id: ETaskTypeSaleAttachDocument
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeSaleAttachDocument
+  nameWithType: TaskItem.ETaskTypeSaleAttachDocument
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeSaleAttachDocument
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nAdd document link to sale\n"
+  syntax:
+    content: ETaskTypeSaleAttachDocument = 34
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeSaleAttachAppointment
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeSaleAttachAppointment
+  id: ETaskTypeSaleAttachAppointment
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeSaleAttachAppointment
+  nameWithType: TaskItem.ETaskTypeSaleAttachAppointment
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeSaleAttachAppointment
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nAdd appointment link to sale\n"
+  syntax:
+    content: ETaskTypeSaleAttachAppointment = 35
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeSaleAttachSale
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeSaleAttachSale
+  id: ETaskTypeSaleAttachSale
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeSaleAttachSale
+  nameWithType: TaskItem.ETaskTypeSaleAttachSale
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeSaleAttachSale
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nAdd sale link to sale\n"
+  syntax:
+    content: ETaskTypeSaleAttachSale = 36
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeAppointmentAttachDocument
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeAppointmentAttachDocument
+  id: ETaskTypeAppointmentAttachDocument
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeAppointmentAttachDocument
+  nameWithType: TaskItem.ETaskTypeAppointmentAttachDocument
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeAppointmentAttachDocument
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nAdd document link to appointment\n"
+  syntax:
+    content: ETaskTypeAppointmentAttachDocument = 37
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeAppointmentAttachSale
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeAppointmentAttachSale
+  id: ETaskTypeAppointmentAttachSale
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeAppointmentAttachSale
+  nameWithType: TaskItem.ETaskTypeAppointmentAttachSale
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeAppointmentAttachSale
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nAdd sale link to appointment\n"
+  syntax:
+    content: ETaskTypeAppointmentAttachSale = 38
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeAppointmentAttachAppointment
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeAppointmentAttachAppointment
+  id: ETaskTypeAppointmentAttachAppointment
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeAppointmentAttachAppointment
+  nameWithType: TaskItem.ETaskTypeAppointmentAttachAppointment
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeAppointmentAttachAppointment
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nAddd appointment link to appointment\n"
+  syntax:
+    content: ETaskTypeAppointmentAttachAppointment = 39
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeDocumentAttachAppointment
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeDocumentAttachAppointment
+  id: ETaskTypeDocumentAttachAppointment
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeDocumentAttachAppointment
+  nameWithType: TaskItem.ETaskTypeDocumentAttachAppointment
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeDocumentAttachAppointment
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nAdd appointment link to document\n"
+  syntax:
+    content: ETaskTypeDocumentAttachAppointment = 40
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeDocumentAttachSale
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeDocumentAttachSale
+  id: ETaskTypeDocumentAttachSale
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeDocumentAttachSale
+  nameWithType: TaskItem.ETaskTypeDocumentAttachSale
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeDocumentAttachSale
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nAdd sale link to document\n"
+  syntax:
+    content: ETaskTypeDocumentAttachSale = 41
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeDocumentAttachDocument
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeDocumentAttachDocument
+  id: ETaskTypeDocumentAttachDocument
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeDocumentAttachDocument
+  nameWithType: TaskItem.ETaskTypeDocumentAttachDocument
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeDocumentAttachDocument
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nAdd document link to document\n"
+  syntax:
+    content: ETaskTypeDocumentAttachDocument = 42
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypePostItContact
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypePostItContact
+  id: ETaskTypePostItContact
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypePostItContact
+  nameWithType: TaskItem.ETaskTypePostItContact
+  fullName: SuperOffice.Data.TaskItem.ETaskTypePostItContact
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nAdd/Show UnknownOrPostIt on Contact card\n"
+  syntax:
+    content: ETaskTypePostItContact = 43
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypePostItProject
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypePostItProject
+  id: ETaskTypePostItProject
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypePostItProject
+  nameWithType: TaskItem.ETaskTypePostItProject
+  fullName: SuperOffice.Data.TaskItem.ETaskTypePostItProject
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nAdd/Show UnknownOrPostIt on Project card\n"
+  syntax:
+    content: ETaskTypePostItProject = 44
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypePostItPerson
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypePostItPerson
+  id: ETaskTypePostItPerson
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypePostItPerson
+  nameWithType: TaskItem.ETaskTypePostItPerson
+  fullName: SuperOffice.Data.TaskItem.ETaskTypePostItPerson
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nAdd/Show UnknownOrPostIt on Person card\n"
+  syntax:
+    content: ETaskTypePostItPerson = 45
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypePostItSelection
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypePostItSelection
+  id: ETaskTypePostItSelection
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypePostItSelection
+  nameWithType: TaskItem.ETaskTypePostItSelection
+  fullName: SuperOffice.Data.TaskItem.ETaskTypePostItSelection
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nAdd/Show UnknownOrPostIt on Selection card\n"
+  syntax:
+    content: ETaskTypePostItSelection = 46
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypePostItDiary
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypePostItDiary
+  id: ETaskTypePostItDiary
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypePostItDiary
+  nameWithType: TaskItem.ETaskTypePostItDiary
+  fullName: SuperOffice.Data.TaskItem.ETaskTypePostItDiary
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nAdd/Show UnknownOrPostIt in Diary\n"
+  syntax:
+    content: ETaskTypePostItDiary = 47
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeContactNew
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeContactNew
+  id: ETaskTypeContactNew
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeContactNew
+  nameWithType: TaskItem.ETaskTypeContactNew
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeContactNew
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCreate a new Contact\n"
+  syntax:
+    content: ETaskTypeContactNew = 48
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeContactDelete
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeContactDelete
+  id: ETaskTypeContactDelete
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeContactDelete
+  nameWithType: TaskItem.ETaskTypeContactDelete
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeContactDelete
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nDelete contact\n"
+  syntax:
+    content: ETaskTypeContactDelete = 49
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeContactFind
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeContactFind
+  id: ETaskTypeContactFind
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeContactFind
+  nameWithType: TaskItem.ETaskTypeContactFind
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeContactFind
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nFind a Contact\n"
+  syntax:
+    content: ETaskTypeContactFind = 50
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypePersonNew
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypePersonNew
+  id: ETaskTypePersonNew
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypePersonNew
+  nameWithType: TaskItem.ETaskTypePersonNew
+  fullName: SuperOffice.Data.TaskItem.ETaskTypePersonNew
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCreate a new Person\n"
+  syntax:
+    content: ETaskTypePersonNew = 51
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypePersonDelete
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypePersonDelete
+  id: ETaskTypePersonDelete
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypePersonDelete
+  nameWithType: TaskItem.ETaskTypePersonDelete
+  fullName: SuperOffice.Data.TaskItem.ETaskTypePersonDelete
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nDelete Person\n"
+  syntax:
+    content: ETaskTypePersonDelete = 52
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypePersonFind
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypePersonFind
+  id: ETaskTypePersonFind
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypePersonFind
+  nameWithType: TaskItem.ETaskTypePersonFind
+  fullName: SuperOffice.Data.TaskItem.ETaskTypePersonFind
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nFind a Person\n"
+  syntax:
+    content: ETaskTypePersonFind = 53
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeProjectNew
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeProjectNew
+  id: ETaskTypeProjectNew
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeProjectNew
+  nameWithType: TaskItem.ETaskTypeProjectNew
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeProjectNew
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCreate new Project\n"
+  syntax:
+    content: ETaskTypeProjectNew = 54
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeProjectDelete
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeProjectDelete
+  id: ETaskTypeProjectDelete
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeProjectDelete
+  nameWithType: TaskItem.ETaskTypeProjectDelete
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeProjectDelete
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nDelete project\n"
+  syntax:
+    content: ETaskTypeProjectDelete = 55
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeProjectFind
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeProjectFind
+  id: ETaskTypeProjectFind
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeProjectFind
+  nameWithType: TaskItem.ETaskTypeProjectFind
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeProjectFind
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nFind a Project\n"
+  syntax:
+    content: ETaskTypeProjectFind = 56
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeProjectMailMerge
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeProjectMailMerge
+  id: ETaskTypeProjectMailMerge
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeProjectMailMerge
+  nameWithType: TaskItem.ETaskTypeProjectMailMerge
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeProjectMailMerge
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nDo a mail merge on behalf of a project\n"
+  syntax:
+    content: ETaskTypeProjectMailMerge = 57
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeSelectionNew
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeSelectionNew
+  id: ETaskTypeSelectionNew
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeSelectionNew
+  nameWithType: TaskItem.ETaskTypeSelectionNew
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionNew
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCreate new selection\n"
+  syntax:
+    content: ETaskTypeSelectionNew = 58
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeSelectionDelete
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeSelectionDelete
+  id: ETaskTypeSelectionDelete
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeSelectionDelete
+  nameWithType: TaskItem.ETaskTypeSelectionDelete
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionDelete
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nDelete Selection\n"
+  syntax:
+    content: ETaskTypeSelectionDelete = 59
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeSelectionFind
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeSelectionFind
+  id: ETaskTypeSelectionFind
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeSelectionFind
+  nameWithType: TaskItem.ETaskTypeSelectionFind
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionFind
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nFind a Selection\n"
+  syntax:
+    content: ETaskTypeSelectionFind = 60
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeSelectionMailMerge
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeSelectionMailMerge
+  id: ETaskTypeSelectionMailMerge
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeSelectionMailMerge
+  nameWithType: TaskItem.ETaskTypeSelectionMailMerge
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionMailMerge
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nDo a mail merge on behalf of a selection\n"
+  syntax:
+    content: ETaskTypeSelectionMailMerge = 61
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeSelectionPrintLabels
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeSelectionPrintLabels
+  id: ETaskTypeSelectionPrintLabels
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeSelectionPrintLabels
+  nameWithType: TaskItem.ETaskTypeSelectionPrintLabels
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionPrintLabels
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nPrint a label for each member in the selection\n"
+  syntax:
+    content: ETaskTypeSelectionPrintLabels = 62
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeSelectionPrintReports
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeSelectionPrintReports
+  id: ETaskTypeSelectionPrintReports
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeSelectionPrintReports
+  nameWithType: TaskItem.ETaskTypeSelectionPrintReports
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionPrintReports
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nPrint report -&quot;-\n"
+  syntax:
+    content: ETaskTypeSelectionPrintReports = 63
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeSelectionSendEmail
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeSelectionSendEmail
+  id: ETaskTypeSelectionSendEmail
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeSelectionSendEmail
+  nameWithType: TaskItem.ETaskTypeSelectionSendEmail
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionSendEmail
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nSend an e-mail to each member in the selection\n"
+  syntax:
+    content: ETaskTypeSelectionSendEmail = 64
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeSelectionGenToDo
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeSelectionGenToDo
+  id: ETaskTypeSelectionGenToDo
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeSelectionGenToDo
+  nameWithType: TaskItem.ETaskTypeSelectionGenToDo
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionGenToDo
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nGenerate a to do appointment for each member\n"
+  syntax:
+    content: ETaskTypeSelectionGenToDo = 65
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeSelectionClone
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeSelectionClone
+  id: ETaskTypeSelectionClone
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeSelectionClone
+  nameWithType: TaskItem.ETaskTypeSelectionClone
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionClone
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nSimply copy a selection as &quot;Copy of ...&quot;\n"
+  syntax:
+    content: ETaskTypeSelectionClone = 66
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeSelectionCopyInto
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeSelectionCopyInto
+  id: ETaskTypeSelectionCopyInto
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeSelectionCopyInto
+  nameWithType: TaskItem.ETaskTypeSelectionCopyInto
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionCopyInto
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCopy selection members into a new or existing one\n"
+  syntax:
+    content: ETaskTypeSelectionCopyInto = 67
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeSelectionEditInterests
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeSelectionEditInterests
+  id: ETaskTypeSelectionEditInterests
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeSelectionEditInterests
+  nameWithType: TaskItem.ETaskTypeSelectionEditInterests
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionEditInterests
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nEdit the interest for each member/member person\n"
+  syntax:
+    content: ETaskTypeSelectionEditInterests = 68
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeSelectionEditMembers
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeSelectionEditMembers
+  id: ETaskTypeSelectionEditMembers
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeSelectionEditMembers
+  nameWithType: TaskItem.ETaskTypeSelectionEditMembers
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionEditMembers
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nDo changes on all members/member persons\n"
+  syntax:
+    content: ETaskTypeSelectionEditMembers = 69
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeSelectionDeleteMembers
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeSelectionDeleteMembers
+  id: ETaskTypeSelectionDeleteMembers
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeSelectionDeleteMembers
+  nameWithType: TaskItem.ETaskTypeSelectionDeleteMembers
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionDeleteMembers
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nDelete all members in the member list from the contact table\n"
+  syntax:
+    content: ETaskTypeSelectionDeleteMembers = 70
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeSelectionExport
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeSelectionExport
+  id: ETaskTypeSelectionExport
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeSelectionExport
+  nameWithType: TaskItem.ETaskTypeSelectionExport
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeSelectionExport
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nExport selection member data to a file\n"
+  syntax:
+    content: ETaskTypeSelectionExport = 71
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeDiaryFind
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeDiaryFind
+  id: ETaskTypeDiaryFind
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeDiaryFind
+  nameWithType: TaskItem.ETaskTypeDiaryFind
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeDiaryFind
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nFind Date\n"
+  syntax:
+    content: ETaskTypeDiaryFind = 72
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeUser
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeUser
+  id: ETaskTypeUser
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeUser
+  nameWithType: TaskItem.ETaskTypeUser
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeUser
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nUser defined task: Set up as an ExtApp i SOAdmin.\n"
+  syntax:
+    content: ETaskTypeUser = 73
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeFind
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeFind
+  id: ETaskTypeFind
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeFind
+  nameWithType: TaskItem.ETaskTypeFind
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeFind
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nInvoke Find dialog for CurrentMode.\n"
+  syntax:
+    content: ETaskTypeFind = 74
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeFindContact
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeFindContact
+  id: ETaskTypeFindContact
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeFindContact
+  nameWithType: TaskItem.ETaskTypeFindContact
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeFindContact
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nInvoke Find Contact dialog.\n"
+  syntax:
+    content: ETaskTypeFindContact = 75
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeFindPerson
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeFindPerson
+  id: ETaskTypeFindPerson
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeFindPerson
+  nameWithType: TaskItem.ETaskTypeFindPerson
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeFindPerson
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nInvoke Find Person dialog.\n"
+  syntax:
+    content: ETaskTypeFindPerson = 76
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeFindProject
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeFindProject
+  id: ETaskTypeFindProject
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeFindProject
+  nameWithType: TaskItem.ETaskTypeFindProject
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeFindProject
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nInvoke Find Project dialog.\n"
+  syntax:
+    content: ETaskTypeFindProject = 77
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeFindSelection
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeFindSelection
+  id: ETaskTypeFindSelection
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeFindSelection
+  nameWithType: TaskItem.ETaskTypeFindSelection
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeFindSelection
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nInvoke Find Selection dialog.\n"
+  syntax:
+    content: ETaskTypeFindSelection = 78
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeFindActivity
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeFindActivity
+  id: ETaskTypeFindActivity
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeFindActivity
+  nameWithType: TaskItem.ETaskTypeFindActivity
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeFindActivity
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nInvoke Find Activity dialog.\n"
+  syntax:
+    content: ETaskTypeFindActivity = 79
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeFindSale
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeFindSale
+  id: ETaskTypeFindSale
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeFindSale
+  nameWithType: TaskItem.ETaskTypeFindSale
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeFindSale
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nInvoke Find Sale dialog.\n"
+  syntax:
+    content: ETaskTypeFindSale = 80
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeFindDocument
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeFindDocument
+  id: ETaskTypeFindDocument
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeFindDocument
+  nameWithType: TaskItem.ETaskTypeFindDocument
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeFindDocument
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nInvoke Find Document dialog.\n"
+  syntax:
+    content: ETaskTypeFindDocument = 81
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypePrint
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypePrint
+  id: ETaskTypePrint
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypePrint
+  nameWithType: TaskItem.ETaskTypePrint
+  fullName: SuperOffice.Data.TaskItem.ETaskTypePrint
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nPrint CurrentMode.\n"
+  syntax:
+    content: ETaskTypePrint = 82
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypePrintContact
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypePrintContact
+  id: ETaskTypePrintContact
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypePrintContact
+  nameWithType: TaskItem.ETaskTypePrintContact
+  fullName: SuperOffice.Data.TaskItem.ETaskTypePrintContact
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nPrint Contact.\n"
+  syntax:
+    content: ETaskTypePrintContact = 83
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypePrintPerson
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypePrintPerson
+  id: ETaskTypePrintPerson
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypePrintPerson
+  nameWithType: TaskItem.ETaskTypePrintPerson
+  fullName: SuperOffice.Data.TaskItem.ETaskTypePrintPerson
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nPrint Person.\n"
+  syntax:
+    content: ETaskTypePrintPerson = 84
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypePrintProject
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypePrintProject
+  id: ETaskTypePrintProject
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypePrintProject
+  nameWithType: TaskItem.ETaskTypePrintProject
+  fullName: SuperOffice.Data.TaskItem.ETaskTypePrintProject
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nPrint Project.\n"
+  syntax:
+    content: ETaskTypePrintProject = 85
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypePrintSelection
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypePrintSelection
+  id: ETaskTypePrintSelection
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypePrintSelection
+  nameWithType: TaskItem.ETaskTypePrintSelection
+  fullName: SuperOffice.Data.TaskItem.ETaskTypePrintSelection
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nPrint Selection.\n"
+  syntax:
+    content: ETaskTypePrintSelection = 86
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypePrintAppointment
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypePrintAppointment
+  id: ETaskTypePrintAppointment
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypePrintAppointment
+  nameWithType: TaskItem.ETaskTypePrintAppointment
+  fullName: SuperOffice.Data.TaskItem.ETaskTypePrintAppointment
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nPrint Activity.\n"
+  syntax:
+    content: ETaskTypePrintAppointment = 87
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypePrintSale
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypePrintSale
+  id: ETaskTypePrintSale
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypePrintSale
+  nameWithType: TaskItem.ETaskTypePrintSale
+  fullName: SuperOffice.Data.TaskItem.ETaskTypePrintSale
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nPrint Sale.\n"
+  syntax:
+    content: ETaskTypePrintSale = 88
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypePrintDocument
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypePrintDocument
+  id: ETaskTypePrintDocument
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypePrintDocument
+  nameWithType: TaskItem.ETaskTypePrintDocument
+  fullName: SuperOffice.Data.TaskItem.ETaskTypePrintDocument
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nPrint Document.\n"
+  syntax:
+    content: ETaskTypePrintDocument = 89
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeSaleSold
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeSaleSold
+  id: ETaskTypeSaleSold
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeSaleSold
+  nameWithType: TaskItem.ETaskTypeSaleSold
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeSaleSold
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nset sale status = sold\n"
+  syntax:
+    content: ETaskTypeSaleSold = 90
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeSaleLost
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeSaleLost
+  id: ETaskTypeSaleLost
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeSaleLost
+  nameWithType: TaskItem.ETaskTypeSaleLost
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeSaleLost
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nset sale status = lost\n"
+  syntax:
+    content: ETaskTypeSaleLost = 91
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeConfigureTaskbar
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeConfigureTaskbar
+  id: ETaskTypeConfigureTaskbar
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeConfigureTaskbar
+  nameWithType: TaskItem.ETaskTypeConfigureTaskbar
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeConfigureTaskbar
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nInvokes the Task Center configuration dialog.\n"
+  syntax:
+    content: ETaskTypeConfigureTaskbar = 92
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeSeparator
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeSeparator
+  id: ETaskTypeSeparator
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeSeparator
+  nameWithType: TaskItem.ETaskTypeSeparator
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeSeparator
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nA menu item separator\n"
+  syntax:
+    content: ETaskTypeSeparator = 93
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeSpacer
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeSpacer
+  id: ETaskTypeSpacer
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeSpacer
+  nameWithType: TaskItem.ETaskTypeSpacer
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeSpacer
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nA small button layout spacer\n"
+  syntax:
+    content: ETaskTypeSpacer = 94
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypePhone
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypePhone
+  id: ETaskTypePhone
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypePhone
+  nameWithType: TaskItem.ETaskTypePhone
+  fullName: SuperOffice.Data.TaskItem.ETaskTypePhone
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nA &quot;Dial&quot; button and sub-menu\n"
+  syntax:
+    content: ETaskTypePhone = 95
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeHelp
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeHelp
+  id: ETaskTypeHelp
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeHelp
+  nameWithType: TaskItem.ETaskTypeHelp
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeHelp
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nEquivalent for the SVHelpKeyButton.\n"
+  syntax:
+    content: ETaskTypeHelp = 96
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TaskItem.ETaskTypeCopySoProtocol
+  commentId: F:SuperOffice.Data.TaskItem.ETaskTypeCopySoProtocol
+  id: ETaskTypeCopySoProtocol
+  parent: SuperOffice.Data.TaskItem
+  langs:
+  - csharp
+  - vb
+  name: ETaskTypeCopySoProtocol
+  nameWithType: TaskItem.ETaskTypeCopySoProtocol
+  fullName: SuperOffice.Data.TaskItem.ETaskTypeCopySoProtocol
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nrelevant SoProtocol string and copy to clipboard.\n"
+  syntax:
+    content: ETaskTypeCopySoProtocol = 97
+    return:
+      type: SuperOffice.Data.TaskItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.TaskItem.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TaskItem, To>()
+  nameWithType: EnumUtil.MapEnums<TaskItem, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.TaskItem, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TaskItem, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.TaskItem, To)()
+  name.vb: MapEnums(Of TaskItem, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TaskItem, To>
+    nameWithType: EnumUtil.MapEnums<TaskItem, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.TaskItem, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TaskItem, To)
+    nameWithType: EnumUtil.MapEnums(Of TaskItem, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.TaskItem, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.TaskItem.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TaskItem)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<TaskItem>(TaskItem)
+  nameWithType: ObjectExtensions.AssignByReflection<TaskItem>(TaskItem)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TaskItem>(SuperOffice.Data.TaskItem)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TaskItem)(TaskItem)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TaskItem)(SuperOffice.Data.TaskItem)
+  name.vb: AssignByReflection(Of TaskItem)(TaskItem)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<TaskItem>
+    nameWithType: ObjectExtensions.AssignByReflection<TaskItem>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TaskItem>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.TaskItem
+    name: TaskItem
+    nameWithType: TaskItem
+    fullName: SuperOffice.Data.TaskItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of TaskItem)
+    nameWithType: ObjectExtensions.AssignByReflection(Of TaskItem)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TaskItem)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.TaskItem
+    name: TaskItem
+    nameWithType: TaskItem
+    fullName: SuperOffice.Data.TaskItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.TaskItem.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<TaskItem>()
+  nameWithType: ObjectExtensions.GraphCopy<TaskItem>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TaskItem>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TaskItem)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TaskItem)()
+  name.vb: GraphCopy(Of TaskItem)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<TaskItem>
+    nameWithType: ObjectExtensions.GraphCopy<TaskItem>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TaskItem>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of TaskItem)
+    nameWithType: ObjectExtensions.GraphCopy(Of TaskItem)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TaskItem)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.TaskItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TaskItem, To>()
+  nameWithType: Converters.MapEnums<TaskItem, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TaskItem, To>()
+  nameWithType.vb: Converters.MapEnums(Of TaskItem, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TaskItem, To)()
+  name.vb: MapEnums(Of TaskItem, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TaskItem, To>
+    nameWithType: Converters.MapEnums<TaskItem, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TaskItem, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TaskItem, To)
+    nameWithType: Converters.MapEnums(Of TaskItem, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TaskItem, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.TaskItem
+  commentId: T:SuperOffice.Data.TaskItem
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TaskItem
+  nameWithType: TaskItem
+  fullName: SuperOffice.Data.TaskItem

@@ -1,0 +1,4156 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.License.SoLicenseNames
+  commentId: T:SuperOffice.License.SoLicenseNames
+  id: SoLicenseNames
+  parent: SuperOffice.License
+  children:
+  - SuperOffice.License.SoLicenseNames.AdAuth
+  - SuperOffice.License.SoLicenseNames.AdminAnonymousUser
+  - SuperOffice.License.SoLicenseNames.AdminExternUser
+  - SuperOffice.License.SoLicenseNames.AdminSystemUser
+  - SuperOffice.License.SoLicenseNames.AI
+  - SuperOffice.License.SoLicenseNames.AnonymousUser
+  - SuperOffice.License.SoLicenseNames.AnonymousUserCal
+  - SuperOffice.License.SoLicenseNames.AreaMgt
+  - SuperOffice.License.SoLicenseNames.Audience
+  - SuperOffice.License.SoLicenseNames.Chat
+  - SuperOffice.License.SoLicenseNames.ChatCal
+  - SuperOffice.License.SoLicenseNames.CustomApps
+  - SuperOffice.License.SoLicenseNames.DbMirror
+  - SuperOffice.License.SoLicenseNames.Devnet
+  - SuperOffice.License.SoLicenseNames.Document
+  - SuperOffice.License.SoLicenseNames.EJournalAdmin
+  - SuperOffice.License.SoLicenseNames.EJournalAdvancedFaq
+  - SuperOffice.License.SoLicenseNames.EJournalBlogic
+  - SuperOffice.License.SoLicenseNames.EJournalClient
+  - SuperOffice.License.SoLicenseNames.EJournalCustomer
+  - SuperOffice.License.SoLicenseNames.EJournalCustomerLang
+  - SuperOffice.License.SoLicenseNames.EJournalDocument
+  - SuperOffice.License.SoLicenseNames.EJournalExtdb
+  - SuperOffice.License.SoLicenseNames.EJournalHelp
+  - SuperOffice.License.SoLicenseNames.EJournalKnowledge
+  - SuperOffice.License.SoLicenseNames.EJournalMacro
+  - SuperOffice.License.SoLicenseNames.EJournalReadonlyClient
+  - SuperOffice.License.SoLicenseNames.EJournalRms
+  - SuperOffice.License.SoLicenseNames.EJournalSimClient
+  - SuperOffice.License.SoLicenseNames.EJournalSimReadonlyClient
+  - SuperOffice.License.SoLicenseNames.EJournalSms
+  - SuperOffice.License.SoLicenseNames.EJournalSoap
+  - SuperOffice.License.SoLicenseNames.EJournalSoapPublic
+  - SuperOffice.License.SoLicenseNames.EJournalSpm
+  - SuperOffice.License.SoLicenseNames.EJournalSpmCal
+  - SuperOffice.License.SoLicenseNames.EJournalStandardEdition
+  - SuperOffice.License.SoLicenseNames.EJournalStat
+  - SuperOffice.License.SoLicenseNames.EJournalTicket
+  - SuperOffice.License.SoLicenseNames.Engagement
+  - SuperOffice.License.SoLicenseNames.ErpSync
+  - SuperOffice.License.SoLicenseNames.ExchangeSync
+  - SuperOffice.License.SoLicenseNames.ExpanderServices
+  - SuperOffice.License.SoLicenseNames.ExternUser
+  - SuperOffice.License.SoLicenseNames.ExternUserCal
+  - SuperOffice.License.SoLicenseNames.ExtraStorage
+  - SuperOffice.License.SoLicenseNames.FeaturePricing
+  - SuperOffice.License.SoLicenseNames.Federation
+  - SuperOffice.License.SoLicenseNames.Forms
+  - SuperOffice.License.SoLicenseNames.FormsCal
+  - SuperOffice.License.SoLicenseNames.FreeTrial
+  - SuperOffice.License.SoLicenseNames.G9
+  - SuperOffice.License.SoLicenseNames.GoogleApps
+  - SuperOffice.License.SoLicenseNames.HugoAI
+  - SuperOffice.License.SoLicenseNames.Import
+  - SuperOffice.License.SoLicenseNames.MailMergeCal
+  - SuperOffice.License.SoLicenseNames.Maintenance
+  - SuperOffice.License.SoLicenseNames.MarketingAutomation
+  - SuperOffice.License.SoLicenseNames.MarketingAutomationCal
+  - SuperOffice.License.SoLicenseNames.NeedConsent
+  - SuperOffice.License.SoLicenseNames.Office365
+  - SuperOffice.License.SoLicenseNames.Online
+  - SuperOffice.License.SoLicenseNames.OnlineServices
+  - SuperOffice.License.SoLicenseNames.OnlineWebServices
+  - SuperOffice.License.SoLicenseNames.OutlookSynchronizer
+  - SuperOffice.License.SoLicenseNames.PocketCrmCal
+  - SuperOffice.License.SoLicenseNames.PocketCrmServer
+  - SuperOffice.License.SoLicenseNames.Project
+  - SuperOffice.License.SoLicenseNames.ProjectCal
+  - SuperOffice.License.SoLicenseNames.Publish
+  - SuperOffice.License.SoLicenseNames.Quote
+  - SuperOffice.License.SoLicenseNames.QuoteCal
+  - SuperOffice.License.SoLicenseNames.Relation
+  - SuperOffice.License.SoLicenseNames.RelationCal
+  - SuperOffice.License.SoLicenseNames.RemoteTravel
+  - SuperOffice.License.SoLicenseNames.Rental
+  - SuperOffice.License.SoLicenseNames.Report
+  - SuperOffice.License.SoLicenseNames.ReportCal
+  - SuperOffice.License.SoLicenseNames.ReporterStudio
+  - SuperOffice.License.SoLicenseNames.ReporterStudioUser
+  - SuperOffice.License.SoLicenseNames.Saint
+  - SuperOffice.License.SoLicenseNames.Sale
+  - SuperOffice.License.SoLicenseNames.SaleCal
+  - SuperOffice.License.SoLicenseNames.Sapb1link
+  - SuperOffice.License.SoLicenseNames.Satellite
+  - SuperOffice.License.SoLicenseNames.Selection
+  - SuperOffice.License.SoLicenseNames.SelectionCal
+  - SuperOffice.License.SoLicenseNames.SelectionCombinedCal
+  - SuperOffice.License.SoLicenseNames.Server
+  - SuperOffice.License.SoLicenseNames.Solo
+  - SuperOffice.License.SoLicenseNames.Subscription
+  - SuperOffice.License.SoLicenseNames.SuperlicenseAimCustomerCentre
+  - SuperOffice.License.SoLicenseNames.SuperlicenseAimCustomerPages
+  - SuperOffice.License.SoLicenseNames.SuperlicenseAimCustomerPortal
+  - SuperOffice.License.SoLicenseNames.SuperlicenseAimFaq
+  - SuperOffice.License.SoLicenseNames.SuperlicenseAimIntegrator
+  - SuperOffice.License.SoLicenseNames.SuperlicenseAimSdk
+  - SuperOffice.License.SoLicenseNames.SuperLicenseAssistant
+  - SuperOffice.License.SoLicenseNames.SuperLicenseComplete
+  - SuperOffice.License.SoLicenseNames.SuperLicenseContactManager
+  - SuperOffice.License.SoLicenseNames.SuperlicenseEjOnlinePro
+  - SuperOffice.License.SoLicenseNames.SuperlicenseEjOnlineStd
+  - SuperOffice.License.SoLicenseNames.SuperlicenseEJournalCustomerCentre
+  - SuperOffice.License.SoLicenseNames.SuperlicenseEJournalDesigner
+  - SuperOffice.License.SoLicenseNames.SuperlicenseEJournalEmarketing
+  - SuperOffice.License.SoLicenseNames.SuperlicenseEJournalIntegrator
+  - SuperOffice.License.SoLicenseNames.SuperlicenseExpanderForCollaboration
+  - SuperOffice.License.SoLicenseNames.SuperLicenseMarketingPro
+  - SuperOffice.License.SoLicenseNames.SuperLicenseNoSelection
+  - SuperOffice.License.SoLicenseNames.SuperlicenseOnlinePro
+  - SuperOffice.License.SoLicenseNames.SuperlicenseOnlineStd
+  - SuperOffice.License.SoLicenseNames.SuperLicenseSalesPro
+  - SuperOffice.License.SoLicenseNames.SuperLicenseServicePro
+  - SuperOffice.License.SoLicenseNames.SuperlicenseVismaNetPro
+  - SuperOffice.License.SoLicenseNames.SynchronizerCal
+  - SuperOffice.License.SoLicenseNames.SyncServer
+  - SuperOffice.License.SoLicenseNames.SystemUser
+  - SuperOffice.License.SoLicenseNames.SystemUserCal
+  - SuperOffice.License.SoLicenseNames.Test
+  - SuperOffice.License.SoLicenseNames.TestDrive
+  - SuperOffice.License.SoLicenseNames.Travel
+  - SuperOffice.License.SoLicenseNames.Udef
+  - SuperOffice.License.SoLicenseNames.User
+  - SuperOffice.License.SoLicenseNames.UserManagement
+  - SuperOffice.License.SoLicenseNames.VideoMeet
+  - SuperOffice.License.SoLicenseNames.VisibleFor
+  - SuperOffice.License.SoLicenseNames.Web
+  - SuperOffice.License.SoLicenseNames.Windows
+  langs:
+  - csharp
+  - vb
+  name: SoLicenseNames
+  nameWithType: SoLicenseNames
+  fullName: SuperOffice.License.SoLicenseNames
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nLicense names for SuperOffice Module Licenses. Use\n<xref href=\"SuperOffice.Security.Principal.SoPrincipal.GetLicense(System.String%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref> and \n<xref href=\"SuperOffice.Security.Principal.SoPrincipal.HasLicense(System.String%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref> with these constants.\n"
+  syntax:
+    content: public static class SoLicenseNames
+    content.vb: Public Module SoLicenseNames
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.License.SoLicenseNames.Server
+  commentId: F:SuperOffice.License.SoLicenseNames.Server
+  id: Server
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Server
+  nameWithType: SoLicenseNames.Server
+  fullName: SuperOffice.License.SoLicenseNames.Server
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.server: SuperOffice NetServer \nSystem License:   \n"
+  syntax:
+    content: public const string Server = "superoffice.server"
+    return:
+      type: System.String
+    content.vb: Public Const Server As String = "superoffice.server"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Saint
+  commentId: F:SuperOffice.License.SoLicenseNames.Saint
+  id: Saint
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Saint
+  nameWithType: SoLicenseNames.Saint
+  fullName: SuperOffice.License.SoLicenseNames.Saint
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.saint: Sales Intelligence Turns on SAINT counters, status monitors in admin+clients\nSystem License:   \n"
+  syntax:
+    content: public const string Saint = "superoffice.saint"
+    return:
+      type: System.String
+    content.vb: Public Const Saint As String = "superoffice.saint"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Quote
+  commentId: F:SuperOffice.License.SoLicenseNames.Quote
+  id: Quote
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Quote
+  nameWithType: SoLicenseNames.Quote
+  fullName: SuperOffice.License.SoLicenseNames.Quote
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.quote: Quote Turns on products and quotes in admin\nSystem License:   \n"
+  syntax:
+    content: public const string Quote = "superoffice.quote"
+    return:
+      type: System.String
+    content.vb: Public Const Quote As String = "superoffice.quote"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.ErpSync
+  commentId: F:SuperOffice.License.SoLicenseNames.ErpSync
+  id: ErpSync
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: ErpSync
+  nameWithType: SoLicenseNames.ErpSync
+  fullName: SuperOffice.License.SoLicenseNames.ErpSync
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.erp-sync: Turns on ERP Sync in admin + clients\nSystem License:   \n"
+  syntax:
+    content: public const string ErpSync = "superoffice.erp-sync"
+    return:
+      type: System.String
+    content.vb: Public Const ErpSync As String = "superoffice.erp-sync"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.AreaMgt
+  commentId: F:SuperOffice.License.SoLicenseNames.AreaMgt
+  id: AreaMgt
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: AreaMgt
+  nameWithType: SoLicenseNames.AreaMgt
+  fullName: SuperOffice.License.SoLicenseNames.AreaMgt
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.area-mgt: Area Management Turns on Area Mgt in SOADMIN\nSystem License:   \n"
+  syntax:
+    content: public const string AreaMgt = "superoffice.area-mgt"
+    return:
+      type: System.String
+    content.vb: Public Const AreaMgt As String = "superoffice.area-mgt"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SuperlicenseExpanderForCollaboration
+  commentId: F:SuperOffice.License.SoLicenseNames.SuperlicenseExpanderForCollaboration
+  id: SuperlicenseExpanderForCollaboration
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SuperlicenseExpanderForCollaboration
+  nameWithType: SoLicenseNames.SuperlicenseExpanderForCollaboration
+  fullName: SuperOffice.License.SoLicenseNames.SuperlicenseExpanderForCollaboration
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.superlicense-expander-for-collaboration: Expander for Collaboration Enables External and Anonymous access to NetServer\nSystem License:   \n"
+  syntax:
+    content: public const string SuperlicenseExpanderForCollaboration = "superoffice.superlicense-expander-for-collaboration"
+    return:
+      type: System.String
+    content.vb: Public Const SuperlicenseExpanderForCollaboration As String = "superoffice.superlicense-expander-for-collaboration"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.ExternUser
+  commentId: F:SuperOffice.License.SoLicenseNames.ExternUser
+  id: ExternUser
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: ExternUser
+  nameWithType: SoLicenseNames.ExternUser
+  fullName: SuperOffice.License.SoLicenseNames.ExternUser
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.extern-user: External Users Turns on external users in SOADMIN user panel and NetServer\nSystem License: Hidden  \n"
+  syntax:
+    content: public const string ExternUser = "superoffice.extern-user"
+    return:
+      type: System.String
+    content.vb: Public Const ExternUser As String = "superoffice.extern-user"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.CustomApps
+  commentId: F:SuperOffice.License.SoLicenseNames.CustomApps
+  id: CustomApps
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: CustomApps
+  nameWithType: SoLicenseNames.CustomApps
+  fullName: SuperOffice.License.SoLicenseNames.CustomApps
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.custom-apps: Enables un-certified apps without going through app store.\nSystem License: Hidden  \n"
+  syntax:
+    content: public const string CustomApps = "superoffice.custom-apps"
+    return:
+      type: System.String
+    content.vb: Public Const CustomApps As String = "superoffice.custom-apps"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SystemUser
+  commentId: F:SuperOffice.License.SoLicenseNames.SystemUser
+  id: SystemUser
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SystemUser
+  nameWithType: SoLicenseNames.SystemUser
+  fullName: SuperOffice.License.SoLicenseNames.SystemUser
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.system-user: System Users Turns on system user in SOADMIN user panel and NetServer\nSystem License: Hidden  \n"
+  syntax:
+    content: public const string SystemUser = "superoffice.system-user"
+    return:
+      type: System.String
+    content.vb: Public Const SystemUser As String = "superoffice.system-user"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.AnonymousUser
+  commentId: F:SuperOffice.License.SoLicenseNames.AnonymousUser
+  id: AnonymousUser
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: AnonymousUser
+  nameWithType: SoLicenseNames.AnonymousUser
+  fullName: SuperOffice.License.SoLicenseNames.AnonymousUser
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.anonymous-user: Anonymous Users Turns on anonymous user in SOADMIN user panel and NetServer\nSystem License: Hidden  \n"
+  syntax:
+    content: public const string AnonymousUser = "superoffice.anonymous-user"
+    return:
+      type: System.String
+    content.vb: Public Const AnonymousUser As String = "superoffice.anonymous-user"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Udef
+  commentId: F:SuperOffice.License.SoLicenseNames.Udef
+  id: Udef
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Udef
+  nameWithType: SoLicenseNames.Udef
+  fullName: SuperOffice.License.SoLicenseNames.Udef
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.udef: User-def fields Turns on udef field panel in SOADMIN and in CRM clients, NetServer.\nSystem License: Hidden  \n"
+  syntax:
+    content: public const string Udef = "superoffice.udef"
+    return:
+      type: System.String
+    content.vb: Public Const Udef As String = "superoffice.udef"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Import
+  commentId: F:SuperOffice.License.SoLicenseNames.Import
+  id: Import
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Import
+  nameWithType: SoLicenseNames.Import
+  fullName: SuperOffice.License.SoLicenseNames.Import
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.import: Import Turns on import panel in SOADMIN\nSystem License: Hidden  \n"
+  syntax:
+    content: public const string Import = "superoffice.import"
+    return:
+      type: System.String
+    content.vb: Public Const Import As String = "superoffice.import"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.AdAuth
+  commentId: F:SuperOffice.License.SoLicenseNames.AdAuth
+  id: AdAuth
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: AdAuth
+  nameWithType: SoLicenseNames.AdAuth
+  fullName: SuperOffice.License.SoLicenseNames.AdAuth
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.ad-auth: Active Directory Authentication integration\nSystem License: Hidden  \n"
+  syntax:
+    content: public const string AdAuth = "superoffice.ad-auth"
+    return:
+      type: System.String
+    content.vb: Public Const AdAuth As String = "superoffice.ad-auth"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Federation
+  commentId: F:SuperOffice.License.SoLicenseNames.Federation
+  id: Federation
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Federation
+  nameWithType: SoLicenseNames.Federation
+  fullName: SuperOffice.License.SoLicenseNames.Federation
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.federation: Cloud login integration marker\nSystem License: Hidden\n"
+  syntax:
+    content: public const string Federation = "superoffice.federation"
+    return:
+      type: System.String
+    content.vb: Public Const Federation As String = "superoffice.federation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Office365
+  commentId: F:SuperOffice.License.SoLicenseNames.Office365
+  id: Office365
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Office365
+  nameWithType: SoLicenseNames.Office365
+  fullName: SuperOffice.License.SoLicenseNames.Office365
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.office365: Cloud Office 365 authentication and document integration\nSystem License: Hidden  \n"
+  syntax:
+    content: public const string Office365 = "superoffice.office365"
+    return:
+      type: System.String
+    content.vb: Public Const Office365 As String = "superoffice.office365"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.GoogleApps
+  commentId: F:SuperOffice.License.SoLicenseNames.GoogleApps
+  id: GoogleApps
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: GoogleApps
+  nameWithType: SoLicenseNames.GoogleApps
+  fullName: SuperOffice.License.SoLicenseNames.GoogleApps
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.GoogleApps: Cloud Google Apps authentication and document integration\nSystem License: Hidden  \n"
+  syntax:
+    content: public const string GoogleApps = "superoffice.googleapps"
+    return:
+      type: System.String
+    content.vb: Public Const GoogleApps As String = "superoffice.googleapps"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.UserManagement
+  commentId: F:SuperOffice.License.SoLicenseNames.UserManagement
+  id: UserManagement
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: UserManagement
+  nameWithType: SoLicenseNames.UserManagement
+  fullName: SuperOffice.License.SoLicenseNames.UserManagement
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.user-management: User Management in Admin; disabled in Visma.NET where user management is in ODP/VARPAD instead\nSystem License: Hidden  \n"
+  syntax:
+    content: public const string UserManagement = "superoffice.user-management"
+    return:
+      type: System.String
+    content.vb: Public Const UserManagement As String = "superoffice.user-management"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.PocketCrmServer
+  commentId: F:SuperOffice.License.SoLicenseNames.PocketCrmServer
+  id: PocketCrmServer
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: PocketCrmServer
+  nameWithType: SoLicenseNames.PocketCrmServer
+  fullName: SuperOffice.License.SoLicenseNames.PocketCrmServer
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.pocket-crm-server: Pocket CRM Server Enables pocket CRM usage – still need CAL assigned though.\nSystem License:   \n"
+  syntax:
+    content: public const string PocketCrmServer = "superoffice.pocket-crm-server"
+    return:
+      type: System.String
+    content.vb: Public Const PocketCrmServer As String = "superoffice.pocket-crm-server"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SuperlicenseEJournalDesigner
+  commentId: F:SuperOffice.License.SoLicenseNames.SuperlicenseEJournalDesigner
+  id: SuperlicenseEJournalDesigner
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SuperlicenseEJournalDesigner
+  nameWithType: SoLicenseNames.SuperlicenseEJournalDesigner
+  fullName: SuperOffice.License.SoLicenseNames.SuperlicenseEJournalDesigner
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.superlicense-ej-designer: eJournal Designer Studio Extra Tables/Fields, System design and scripting, e-mail filters.\nSystem License:   \n"
+  syntax:
+    content: public const string SuperlicenseEJournalDesigner = "superoffice.superlicense-ej-designer"
+    return:
+      type: System.String
+    content.vb: Public Const SuperlicenseEJournalDesigner As String = "superoffice.superlicense-ej-designer"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SuperlicenseEJournalIntegrator
+  commentId: F:SuperOffice.License.SoLicenseNames.SuperlicenseEJournalIntegrator
+  id: SuperlicenseEJournalIntegrator
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SuperlicenseEJournalIntegrator
+  nameWithType: SoLicenseNames.SuperlicenseEJournalIntegrator
+  fullName: SuperOffice.License.SoLicenseNames.SuperlicenseEJournalIntegrator
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.superlicense-ej-integrator: eJournal Integrators Includes MAPI, LDAP, ODBC and SDK. DevNet membership included.\nSystem License:   \n"
+  syntax:
+    content: public const string SuperlicenseEJournalIntegrator = "superoffice.superlicense-ej-integrator"
+    return:
+      type: System.String
+    content.vb: Public Const SuperlicenseEJournalIntegrator As String = "superoffice.superlicense-ej-integrator"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SuperlicenseEJournalCustomerCentre
+  commentId: F:SuperOffice.License.SoLicenseNames.SuperlicenseEJournalCustomerCentre
+  id: SuperlicenseEJournalCustomerCentre
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SuperlicenseEJournalCustomerCentre
+  nameWithType: SoLicenseNames.SuperlicenseEJournalCustomerCentre
+  fullName: SuperOffice.License.SoLicenseNames.SuperlicenseEJournalCustomerCentre
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.superlicense-ej-customer centre: eJournal Customer Centre Language dependent customer login, case tracking, web forms, FAQ and knowledgebase\nSystem License:   \n"
+  syntax:
+    content: public const string SuperlicenseEJournalCustomerCentre = "superoffice.superlicense-ej-customer centre"
+    return:
+      type: System.String
+    content.vb: Public Const SuperlicenseEJournalCustomerCentre As String = "superoffice.superlicense-ej-customer centre"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SuperlicenseEJournalEmarketing
+  commentId: F:SuperOffice.License.SoLicenseNames.SuperlicenseEJournalEmarketing
+  id: SuperlicenseEJournalEmarketing
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SuperlicenseEJournalEmarketing
+  nameWithType: SoLicenseNames.SuperlicenseEJournalEmarketing
+  fullName: SuperOffice.License.SoLicenseNames.SuperlicenseEJournalEmarketing
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.superlicense-ej-emarketing: eJournal eMarketing Mass distribution of e-mails.\nSystem License:   \n"
+  syntax:
+    content: public const string SuperlicenseEJournalEmarketing = "superoffice.superlicense-ej-emarketing"
+    return:
+      type: System.String
+    content.vb: Public Const SuperlicenseEJournalEmarketing As String = "superoffice.superlicense-ej-emarketing"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SuperlicenseAimSdk
+  commentId: F:SuperOffice.License.SoLicenseNames.SuperlicenseAimSdk
+  id: SuperlicenseAimSdk
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SuperlicenseAimSdk
+  nameWithType: SoLicenseNames.SuperlicenseAimSdk
+  fullName: SuperOffice.License.SoLicenseNames.SuperlicenseAimSdk
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.superlicense-aim-sdk: eJournal AIM SDK AIM License - Design and scripting.\nSystem License:   \n"
+  syntax:
+    content: public const string SuperlicenseAimSdk = "superoffice.superlicense-aim-sdk"
+    return:
+      type: System.String
+    content.vb: Public Const SuperlicenseAimSdk As String = "superoffice.superlicense-aim-sdk"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SuperlicenseAimIntegrator
+  commentId: F:SuperOffice.License.SoLicenseNames.SuperlicenseAimIntegrator
+  id: SuperlicenseAimIntegrator
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SuperlicenseAimIntegrator
+  nameWithType: SoLicenseNames.SuperlicenseAimIntegrator
+  fullName: SuperOffice.License.SoLicenseNames.SuperlicenseAimIntegrator
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.superlicense-aim-integrator: eJournal AIM DB Integrators AIM License - ODBC and SDK.\nSystem License:   \n"
+  syntax:
+    content: public const string SuperlicenseAimIntegrator = "superoffice.superlicense-aim-integrator"
+    return:
+      type: System.String
+    content.vb: Public Const SuperlicenseAimIntegrator As String = "superoffice.superlicense-aim-integrator"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SuperlicenseAimCustomerCentre
+  commentId: F:SuperOffice.License.SoLicenseNames.SuperlicenseAimCustomerCentre
+  id: SuperlicenseAimCustomerCentre
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SuperlicenseAimCustomerCentre
+  nameWithType: SoLicenseNames.SuperlicenseAimCustomerCentre
+  fullName: SuperOffice.License.SoLicenseNames.SuperlicenseAimCustomerCentre
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.superlicense-aim-customer-centre: eJournal AIM Customer Centre AIM License - Customer login\nSystem License:   \n"
+  syntax:
+    content: public const string SuperlicenseAimCustomerCentre = "superoffice.superlicense-aim-customer-centre"
+    return:
+      type: System.String
+    content.vb: Public Const SuperlicenseAimCustomerCentre As String = "superoffice.superlicense-aim-customer-centre"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SuperlicenseAimCustomerPages
+  commentId: F:SuperOffice.License.SoLicenseNames.SuperlicenseAimCustomerPages
+  id: SuperlicenseAimCustomerPages
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SuperlicenseAimCustomerPages
+  nameWithType: SoLicenseNames.SuperlicenseAimCustomerPages
+  fullName: SuperOffice.License.SoLicenseNames.SuperlicenseAimCustomerPages
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.superlicense-aim-customer-pages: eJournal AIM Customer Pages AIM License - Web forms and knowledgebase\nSystem License:   \n"
+  syntax:
+    content: public const string SuperlicenseAimCustomerPages = "superoffice.superlicense-aim-customer-pages"
+    return:
+      type: System.String
+    content.vb: Public Const SuperlicenseAimCustomerPages As String = "superoffice.superlicense-aim-customer-pages"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SuperlicenseAimCustomerPortal
+  commentId: F:SuperOffice.License.SoLicenseNames.SuperlicenseAimCustomerPortal
+  id: SuperlicenseAimCustomerPortal
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SuperlicenseAimCustomerPortal
+  nameWithType: SoLicenseNames.SuperlicenseAimCustomerPortal
+  fullName: SuperOffice.License.SoLicenseNames.SuperlicenseAimCustomerPortal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.superlicense-aim-customer-portal: eJournal AIM Customer Portal AIM License - customer login, case tracking\nSystem License:   \n"
+  syntax:
+    content: public const string SuperlicenseAimCustomerPortal = "superoffice.superlicense-aim-customer-portal"
+    return:
+      type: System.String
+    content.vb: Public Const SuperlicenseAimCustomerPortal As String = "superoffice.superlicense-aim-customer-portal"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SuperlicenseAimFaq
+  commentId: F:SuperOffice.License.SoLicenseNames.SuperlicenseAimFaq
+  id: SuperlicenseAimFaq
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SuperlicenseAimFaq
+  nameWithType: SoLicenseNames.SuperlicenseAimFaq
+  fullName: SuperOffice.License.SoLicenseNames.SuperlicenseAimFaq
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.superlicense-aim-faq: eJournal AIM FAQ AIM License - Frequently Asked Questions, Knowledgebase.\nSystem License:   \n"
+  syntax:
+    content: public const string SuperlicenseAimFaq = "superoffice.superlicense-aim-faq"
+    return:
+      type: System.String
+    content.vb: Public Const SuperlicenseAimFaq As String = "superoffice.superlicense-aim-faq"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.EJournalAdmin
+  commentId: F:SuperOffice.License.SoLicenseNames.EJournalAdmin
+  id: EJournalAdmin
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: EJournalAdmin
+  nameWithType: SoLicenseNames.EJournalAdmin
+  fullName: SuperOffice.License.SoLicenseNames.EJournalAdmin
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.ej-mod-admin: eJournal admin and settings \nSystem License: Hidden  \n"
+  syntax:
+    content: public const string EJournalAdmin = "superoffice.ej-mod-admin"
+    return:
+      type: System.String
+    content.vb: Public Const EJournalAdmin As String = "superoffice.ej-mod-admin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.EJournalAdvancedFaq
+  commentId: F:SuperOffice.License.SoLicenseNames.EJournalAdvancedFaq
+  id: EJournalAdvancedFaq
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: EJournalAdvancedFaq
+  nameWithType: SoLicenseNames.EJournalAdvancedFaq
+  fullName: SuperOffice.License.SoLicenseNames.EJournalAdvancedFaq
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.ej-mod-advanced-faq: eJournal FAQ with advanced features (top 10, score, etc) \nSystem License: Hidden  \n"
+  syntax:
+    content: public const string EJournalAdvancedFaq = "superoffice.ej-mod-advanced-faq"
+    return:
+      type: System.String
+    content.vb: Public Const EJournalAdvancedFaq As String = "superoffice.ej-mod-advanced-faq"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.EJournalBlogic
+  commentId: F:SuperOffice.License.SoLicenseNames.EJournalBlogic
+  id: EJournalBlogic
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: EJournalBlogic
+  nameWithType: SoLicenseNames.EJournalBlogic
+  fullName: SuperOffice.License.SoLicenseNames.EJournalBlogic
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.ej-mod-blogic: eJournal Business Logic, scripting, custom screens \nSystem License: Hidden  \n"
+  syntax:
+    content: public const string EJournalBlogic = "superoffice.ej-mod-blogic"
+    return:
+      type: System.String
+    content.vb: Public Const EJournalBlogic As String = "superoffice.ej-mod-blogic"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.EJournalMacro
+  commentId: F:SuperOffice.License.SoLicenseNames.EJournalMacro
+  id: EJournalMacro
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: EJournalMacro
+  nameWithType: SoLicenseNames.EJournalMacro
+  fullName: SuperOffice.License.SoLicenseNames.EJournalMacro
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.ej-mod-macro: eJournal Macro scripting \nSystem License: Hidden  \n"
+  syntax:
+    content: public const string EJournalMacro = "superoffice.ej-mod-macro"
+    return:
+      type: System.String
+    content.vb: Public Const EJournalMacro As String = "superoffice.ej-mod-macro"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.EJournalCustomer
+  commentId: F:SuperOffice.License.SoLicenseNames.EJournalCustomer
+  id: EJournalCustomer
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: EJournalCustomer
+  nameWithType: SoLicenseNames.EJournalCustomer
+  fullName: SuperOffice.License.SoLicenseNames.EJournalCustomer
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.ej-mod-customer: eJournal Customer Center \nSystem License: Hidden  \n"
+  syntax:
+    content: public const string EJournalCustomer = "superoffice.ej-mod-customer"
+    return:
+      type: System.String
+    content.vb: Public Const EJournalCustomer As String = "superoffice.ej-mod-customer"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.EJournalCustomerLang
+  commentId: F:SuperOffice.License.SoLicenseNames.EJournalCustomerLang
+  id: EJournalCustomerLang
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: EJournalCustomerLang
+  nameWithType: SoLicenseNames.EJournalCustomerLang
+  fullName: SuperOffice.License.SoLicenseNames.EJournalCustomerLang
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.ej-mod-customer-lang: eJournal Customer Center in multiple languages \nSystem License: Hidden  \n"
+  syntax:
+    content: public const string EJournalCustomerLang = "superoffice.ej-mod-customer-lang"
+    return:
+      type: System.String
+    content.vb: Public Const EJournalCustomerLang As String = "superoffice.ej-mod-customer-lang"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.EJournalDocument
+  commentId: F:SuperOffice.License.SoLicenseNames.EJournalDocument
+  id: EJournalDocument
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: EJournalDocument
+  nameWithType: SoLicenseNames.EJournalDocument
+  fullName: SuperOffice.License.SoLicenseNames.EJournalDocument
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.ej-mod-document: eJournal documents \nSystem License: Hidden  \n"
+  syntax:
+    content: public const string EJournalDocument = "superoffice.ej-mod-document"
+    return:
+      type: System.String
+    content.vb: Public Const EJournalDocument As String = "superoffice.ej-mod-document"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.EJournalExtdb
+  commentId: F:SuperOffice.License.SoLicenseNames.EJournalExtdb
+  id: EJournalExtdb
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: EJournalExtdb
+  nameWithType: SoLicenseNames.EJournalExtdb
+  fullName: SuperOffice.License.SoLicenseNames.EJournalExtdb
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.ej-mod-extdb: eJournal Database Integration \nSystem License: Hidden  \n"
+  syntax:
+    content: public const string EJournalExtdb = "superoffice.ej-mod-extdb"
+    return:
+      type: System.String
+    content.vb: Public Const EJournalExtdb As String = "superoffice.ej-mod-extdb"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.EJournalHelp
+  commentId: F:SuperOffice.License.SoLicenseNames.EJournalHelp
+  id: EJournalHelp
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: EJournalHelp
+  nameWithType: SoLicenseNames.EJournalHelp
+  fullName: SuperOffice.License.SoLicenseNames.EJournalHelp
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.ej-mod-help: eJournal Help pages \nSystem License: Hidden  \n"
+  syntax:
+    content: public const string EJournalHelp = "superoffice.ej-mod-help"
+    return:
+      type: System.String
+    content.vb: Public Const EJournalHelp As String = "superoffice.ej-mod-help"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.EJournalKnowledge
+  commentId: F:SuperOffice.License.SoLicenseNames.EJournalKnowledge
+  id: EJournalKnowledge
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: EJournalKnowledge
+  nameWithType: SoLicenseNames.EJournalKnowledge
+  fullName: SuperOffice.License.SoLicenseNames.EJournalKnowledge
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.ej-mod-knowledge: eJournal Knowledge Base and Reply templates \nSystem License: Hidden  \n"
+  syntax:
+    content: public const string EJournalKnowledge = "superoffice.ej-mod-knowledge"
+    return:
+      type: System.String
+    content.vb: Public Const EJournalKnowledge As String = "superoffice.ej-mod-knowledge"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.EJournalRms
+  commentId: F:SuperOffice.License.SoLicenseNames.EJournalRms
+  id: EJournalRms
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: EJournalRms
+  nameWithType: SoLicenseNames.EJournalRms
+  fullName: SuperOffice.License.SoLicenseNames.EJournalRms
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.ej-mod-rms: eJournal Login pages \nSystem License: Hidden  \n"
+  syntax:
+    content: public const string EJournalRms = "superoffice.ej-mod-rms"
+    return:
+      type: System.String
+    content.vb: Public Const EJournalRms As String = "superoffice.ej-mod-rms"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.EJournalSoap
+  commentId: F:SuperOffice.License.SoLicenseNames.EJournalSoap
+  id: EJournalSoap
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: EJournalSoap
+  nameWithType: SoLicenseNames.EJournalSoap
+  fullName: SuperOffice.License.SoLicenseNames.EJournalSoap
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.ej-mod-soap: eJournal Developer SOAP SDK \nSystem License: Hidden  \n"
+  syntax:
+    content: public const string EJournalSoap = "superoffice.ej-mod-soap"
+    return:
+      type: System.String
+    content.vb: Public Const EJournalSoap As String = "superoffice.ej-mod-soap"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.EJournalSoapPublic
+  commentId: F:SuperOffice.License.SoLicenseNames.EJournalSoapPublic
+  id: EJournalSoapPublic
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: EJournalSoapPublic
+  nameWithType: SoLicenseNames.EJournalSoapPublic
+  fullName: SuperOffice.License.SoLicenseNames.EJournalSoapPublic
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.ej-mod-soap-public: eJournal Public SOAP API \nSystem License: Hidden  \n"
+  syntax:
+    content: public const string EJournalSoapPublic = "superoffice.ej-mod-soap-public"
+    return:
+      type: System.String
+    content.vb: Public Const EJournalSoapPublic As String = "superoffice.ej-mod-soap-public"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.EJournalStat
+  commentId: F:SuperOffice.License.SoLicenseNames.EJournalStat
+  id: EJournalStat
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: EJournalStat
+  nameWithType: SoLicenseNames.EJournalStat
+  fullName: SuperOffice.License.SoLicenseNames.EJournalStat
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.ej-mod-stat: eJournal statistics \nSystem License: Hidden  \n"
+  syntax:
+    content: public const string EJournalStat = "superoffice.ej-mod-stat"
+    return:
+      type: System.String
+    content.vb: Public Const EJournalStat As String = "superoffice.ej-mod-stat"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.EJournalStandardEdition
+  commentId: F:SuperOffice.License.SoLicenseNames.EJournalStandardEdition
+  id: EJournalStandardEdition
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: EJournalStandardEdition
+  nameWithType: SoLicenseNames.EJournalStandardEdition
+  fullName: SuperOffice.License.SoLicenseNames.EJournalStandardEdition
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.ej-mod-standard-edition: eJournal standard edition: no scripts, custom screens, extra tables. \nSystem License: Hidden  \n"
+  syntax:
+    content: public const string EJournalStandardEdition = "superoffice.ej-mod-standard-edition"
+    return:
+      type: System.String
+    content.vb: Public Const EJournalStandardEdition As String = "superoffice.ej-mod-standard-edition"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.EJournalSpm
+  commentId: F:SuperOffice.License.SoLicenseNames.EJournalSpm
+  id: EJournalSpm
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: EJournalSpm
+  nameWithType: SoLicenseNames.EJournalSpm
+  fullName: SuperOffice.License.SoLicenseNames.EJournalSpm
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.ej-mod-spm: eJournal eMarketing module \nSystem License: Hidden  \n"
+  syntax:
+    content: public const string EJournalSpm = "superoffice.ej-mod-spm"
+    return:
+      type: System.String
+    content.vb: Public Const EJournalSpm As String = "superoffice.ej-mod-spm"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.EJournalSms
+  commentId: F:SuperOffice.License.SoLicenseNames.EJournalSms
+  id: EJournalSms
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: EJournalSms
+  nameWithType: SoLicenseNames.EJournalSms
+  fullName: SuperOffice.License.SoLicenseNames.EJournalSms
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.ej-mod-sms: eJournal SMS module \nSystem License:   \n"
+  syntax:
+    content: public const string EJournalSms = "superoffice.ej-mod-sms"
+    return:
+      type: System.String
+    content.vb: Public Const EJournalSms As String = "superoffice.ej-mod-sms"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.EJournalTicket
+  commentId: F:SuperOffice.License.SoLicenseNames.EJournalTicket
+  id: EJournalTicket
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: EJournalTicket
+  nameWithType: SoLicenseNames.EJournalTicket
+  fullName: SuperOffice.License.SoLicenseNames.EJournalTicket
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.ej-mod-ticket: Enables request management \nSystem License: Hidden  \n"
+  syntax:
+    content: public const string EJournalTicket = "superoffice.ej-mod-ticket"
+    return:
+      type: System.String
+    content.vb: Public Const EJournalTicket As String = "superoffice.ej-mod-ticket"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Devnet
+  commentId: F:SuperOffice.License.SoLicenseNames.Devnet
+  id: Devnet
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Devnet
+  nameWithType: SoLicenseNames.Devnet
+  fullName: SuperOffice.License.SoLicenseNames.Devnet
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.devnet: DevNet membership Developer network membership. Enables Test License Tool\nSystem License:   \n"
+  syntax:
+    content: public const string Devnet = "superoffice.devnet"
+    return:
+      type: System.String
+    content.vb: Public Const Devnet As String = "superoffice.devnet"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Maintenance
+  commentId: F:SuperOffice.License.SoLicenseNames.Maintenance
+  id: Maintenance
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Maintenance
+  nameWithType: SoLicenseNames.Maintenance
+  fullName: SuperOffice.License.SoLicenseNames.Maintenance
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.maintenance: On-premises Maintenance customer. Pays yearly fee.\nSystem license. Hidden.\n"
+  syntax:
+    content: public const string Maintenance = "superoffice.maintenance"
+    return:
+      type: System.String
+    content.vb: Public Const Maintenance As String = "superoffice.maintenance"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Subscription
+  commentId: F:SuperOffice.License.SoLicenseNames.Subscription
+  id: Subscription
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Subscription
+  nameWithType: SoLicenseNames.Subscription
+  fullName: SuperOffice.License.SoLicenseNames.Subscription
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.subscription: On-premises Subscription customer. Pays monthly or quarterly.\nSystem license. Hidden.\n"
+  syntax:
+    content: public const string Subscription = "superoffice.subscription"
+    return:
+      type: System.String
+    content.vb: Public Const Subscription As String = "superoffice.subscription"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Rental
+  commentId: F:SuperOffice.License.SoLicenseNames.Rental
+  id: Rental
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Rental
+  nameWithType: SoLicenseNames.Rental
+  fullName: SuperOffice.License.SoLicenseNames.Rental
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.rental: On-premises Rental customer. Pays monthly or quarterly.\nSystem license. Hidden.\n"
+  syntax:
+    content: public const string Rental = "superoffice.rental"
+    return:
+      type: System.String
+    content.vb: Public Const Rental As String = "superoffice.rental"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.NeedConsent
+  commentId: F:SuperOffice.License.SoLicenseNames.NeedConsent
+  id: NeedConsent
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: NeedConsent
+  nameWithType: SoLicenseNames.NeedConsent
+  fullName: SuperOffice.License.SoLicenseNames.NeedConsent
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.need-consent: On-premises Maintenance customer that needs to show consent dialog to accept addendum.\nSystem license. Hidden.\n"
+  syntax:
+    content: public const string NeedConsent = "superoffice.need-consent"
+    return:
+      type: System.String
+    content.vb: Public Const NeedConsent As String = "superoffice.need-consent"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Online
+  commentId: F:SuperOffice.License.SoLicenseNames.Online
+  id: Online
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Online
+  nameWithType: SoLicenseNames.Online
+  fullName: SuperOffice.License.SoLicenseNames.Online
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.online: SuperOffice Online Customer \nSystem License:   \n"
+  syntax:
+    content: public const string Online = "superoffice.online"
+    return:
+      type: System.String
+    content.vb: Public Const Online As String = "superoffice.online"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.FreeTrial
+  commentId: F:SuperOffice.License.SoLicenseNames.FreeTrial
+  id: FreeTrial
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: FreeTrial
+  nameWithType: SoLicenseNames.FreeTrial
+  fullName: SuperOffice.License.SoLicenseNames.FreeTrial
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.freetrial: This free license will expire shortly.\nSystem License\n"
+  syntax:
+    content: public const string FreeTrial = "superoffice.freetrial"
+    return:
+      type: System.String
+    content.vb: Public Const FreeTrial As String = "superoffice.freetrial"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Solo
+  commentId: F:SuperOffice.License.SoLicenseNames.Solo
+  id: Solo
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Solo
+  nameWithType: SoLicenseNames.Solo
+  fullName: SuperOffice.License.SoLicenseNames.Solo
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.solo: SuperOffice SOLO Customer \nSystem License:   \n"
+  syntax:
+    content: public const string Solo = "superoffice.solo"
+    return:
+      type: System.String
+    content.vb: Public Const Solo As String = "superoffice.solo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SuperlicenseOnlineStd
+  commentId: F:SuperOffice.License.SoLicenseNames.SuperlicenseOnlineStd
+  id: SuperlicenseOnlineStd
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SuperlicenseOnlineStd
+  nameWithType: SoLicenseNames.SuperlicenseOnlineStd
+  fullName: SuperOffice.License.SoLicenseNames.SuperlicenseOnlineStd
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.superlicense-online-std: Online Standard\nSystem License:   \n"
+  syntax:
+    content: public const string SuperlicenseOnlineStd = "superoffice.superlicense-online-std"
+    return:
+      type: System.String
+    content.vb: Public Const SuperlicenseOnlineStd As String = "superoffice.superlicense-online-std"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SuperlicenseOnlinePro
+  commentId: F:SuperOffice.License.SoLicenseNames.SuperlicenseOnlinePro
+  id: SuperlicenseOnlinePro
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SuperlicenseOnlinePro
+  nameWithType: SoLicenseNames.SuperlicenseOnlinePro
+  fullName: SuperOffice.License.SoLicenseNames.SuperlicenseOnlinePro
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.superlicense-online-pro: Online Pro\nSystem License:   \n"
+  syntax:
+    content: public const string SuperlicenseOnlinePro = "superoffice.superlicense-online-pro"
+    return:
+      type: System.String
+    content.vb: Public Const SuperlicenseOnlinePro As String = "superoffice.superlicense-online-pro"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SuperlicenseEjOnlineStd
+  commentId: F:SuperOffice.License.SoLicenseNames.SuperlicenseEjOnlineStd
+  id: SuperlicenseEjOnlineStd
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SuperlicenseEjOnlineStd
+  nameWithType: SoLicenseNames.SuperlicenseEjOnlineStd
+  fullName: SuperOffice.License.SoLicenseNames.SuperlicenseEjOnlineStd
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.superlicense-ej-online-std: eJournal Online Standard\nSystem License:   \n"
+  syntax:
+    content: public const string SuperlicenseEjOnlineStd = "superoffice.superlicense-ej-online-std"
+    return:
+      type: System.String
+    content.vb: Public Const SuperlicenseEjOnlineStd As String = "superoffice.superlicense-ej-online-std"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SuperlicenseEjOnlinePro
+  commentId: F:SuperOffice.License.SoLicenseNames.SuperlicenseEjOnlinePro
+  id: SuperlicenseEjOnlinePro
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SuperlicenseEjOnlinePro
+  nameWithType: SoLicenseNames.SuperlicenseEjOnlinePro
+  fullName: SuperOffice.License.SoLicenseNames.SuperlicenseEjOnlinePro
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.superlicense-ej-online-pro: eJournal Online Pro\nSystem License:   \n"
+  syntax:
+    content: public const string SuperlicenseEjOnlinePro = "superoffice.superlicense-ej-online-pro"
+    return:
+      type: System.String
+    content.vb: Public Const SuperlicenseEjOnlinePro As String = "superoffice.superlicense-ej-online-pro"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SuperlicenseVismaNetPro
+  commentId: F:SuperOffice.License.SoLicenseNames.SuperlicenseVismaNetPro
+  id: SuperlicenseVismaNetPro
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SuperlicenseVismaNetPro
+  nameWithType: SoLicenseNames.SuperlicenseVismaNetPro
+  fullName: SuperOffice.License.SoLicenseNames.SuperlicenseVismaNetPro
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.superlicense-online-pro: Online Pro\nSystem License:   \n"
+  syntax:
+    content: public const string SuperlicenseVismaNetPro = "superoffice.superlicense-vismanet-pro"
+    return:
+      type: System.String
+    content.vb: Public Const SuperlicenseVismaNetPro As String = "superoffice.superlicense-vismanet-pro"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.OnlineWebServices
+  commentId: F:SuperOffice.License.SoLicenseNames.OnlineWebServices
+  id: OnlineWebServices
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: OnlineWebServices
+  nameWithType: SoLicenseNames.OnlineWebServices
+  fullName: SuperOffice.License.SoLicenseNames.OnlineWebServices
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.online-webservices: Online WebService activation\nSystem License:   Not needed on-site\n"
+  syntax:
+    content: public const string OnlineWebServices = "superoffice.online-webservices"
+    return:
+      type: System.String
+    content.vb: Public Const OnlineWebServices As String = "superoffice.online-webservices"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.ExpanderServices
+  commentId: F:SuperOffice.License.SoLicenseNames.ExpanderServices
+  id: ExpanderServices
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: ExpanderServices
+  nameWithType: SoLicenseNames.ExpanderServices
+  fullName: SuperOffice.License.SoLicenseNames.ExpanderServices
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.expander-services: Expander Services activation - turns on CS extra tables, external users, custom apps\nSystem License:   \n"
+  syntax:
+    content: public const string ExpanderServices = "superoffice.expander-services"
+    return:
+      type: System.String
+    content.vb: Public Const ExpanderServices As String = "superoffice.expander-services"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Satellite
+  commentId: F:SuperOffice.License.SoLicenseNames.Satellite
+  id: Satellite
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Satellite
+  nameWithType: SoLicenseNames.Satellite
+  fullName: SuperOffice.License.SoLicenseNames.Satellite
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.satellite: Satellite Turns on satellite dialogs in SOADMIN Replication panel\nSite License:   \n"
+  syntax:
+    content: public const string Satellite = "superoffice.satellite"
+    return:
+      type: System.String
+    content.vb: Public Const Satellite As String = "superoffice.satellite"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Audience
+  commentId: F:SuperOffice.License.SoLicenseNames.Audience
+  id: Audience
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Audience
+  nameWithType: SoLicenseNames.Audience
+  fullName: SuperOffice.License.SoLicenseNames.Audience
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.audience: Audience Enables Audience web site.\nSite License:     Requires: extern-user\n"
+  syntax:
+    content: public const string Audience = "superoffice.audience"
+    return:
+      type: System.String
+    content.vb: Public Const Audience As String = "superoffice.audience"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.ReporterStudio
+  commentId: F:SuperOffice.License.SoLicenseNames.ReporterStudio
+  id: ReporterStudio
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: ReporterStudio
+  nameWithType: SoLicenseNames.ReporterStudio
+  fullName: SuperOffice.License.SoLicenseNames.ReporterStudio
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.reporter-studio: Reporter Studio Custom reports through Reporter Studio. Also need RepStudio CAL.\nSite License:   \n"
+  syntax:
+    content: public const string ReporterStudio = "superoffice.reporter-studio"
+    return:
+      type: System.String
+    content.vb: Public Const ReporterStudio As String = "superoffice.reporter-studio"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Sapb1link
+  commentId: F:SuperOffice.License.SoLicenseNames.Sapb1link
+  id: Sapb1link
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Sapb1link
+  nameWithType: SoLicenseNames.Sapb1link
+  fullName: SuperOffice.License.SoLicenseNames.Sapb1link
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.sapb1link: SAP B1 Link Enables SAP B1 Link client.\nSite License:   \n"
+  syntax:
+    content: public const string Sapb1link = "superoffice.sapb1link"
+    return:
+      type: System.String
+    content.vb: Public Const Sapb1link As String = "superoffice.sapb1link"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.ExchangeSync
+  commentId: F:SuperOffice.License.SoLicenseNames.ExchangeSync
+  id: ExchangeSync
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: ExchangeSync
+  nameWithType: SoLicenseNames.ExchangeSync
+  fullName: SuperOffice.License.SoLicenseNames.ExchangeSync
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.exchange-sync: Exchange Synchronizer Enables InfoBridge Exchange synchronizer\nSite License:   \n"
+  syntax:
+    content: public const string ExchangeSync = "superoffice.exchange-sync"
+    return:
+      type: System.String
+    content.vb: Public Const ExchangeSync As String = "superoffice.exchange-sync"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SyncServer
+  commentId: F:SuperOffice.License.SoLicenseNames.SyncServer
+  id: SyncServer
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SyncServer
+  nameWithType: SoLicenseNames.SyncServer
+  fullName: SuperOffice.License.SoLicenseNames.SyncServer
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.sync-server: Intellisync Server Enables Intellisync Server (Notes)\nSite License:   \n"
+  syntax:
+    content: public const string SyncServer = "superoffice.sync-server"
+    return:
+      type: System.String
+    content.vb: Public Const SyncServer As String = "superoffice.sync-server"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.ExtraStorage
+  commentId: F:SuperOffice.License.SoLicenseNames.ExtraStorage
+  id: ExtraStorage
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: ExtraStorage
+  nameWithType: SoLicenseNames.ExtraStorage
+  fullName: SuperOffice.License.SoLicenseNames.ExtraStorage
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.extra-storage: Extra Storage Information about storage capacity for Online CRM use.\nSite License:   \n"
+  syntax:
+    content: public const string ExtraStorage = "superoffice.extra-storage"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraStorage As String = "superoffice.extra-storage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.HugoAI
+  commentId: F:SuperOffice.License.SoLicenseNames.HugoAI
+  id: HugoAI
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: HugoAI
+  nameWithType: SoLicenseNames.HugoAI
+  fullName: SuperOffice.License.SoLicenseNames.HugoAI
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.ai : Activate Artificial Intelligence System.\nSystem license.\n"
+  syntax:
+    content: public const string HugoAI = "superoffice.ai"
+    return:
+      type: System.String
+    content.vb: Public Const HugoAI As String = "superoffice.ai"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.VideoMeet
+  commentId: F:SuperOffice.License.SoLicenseNames.VideoMeet
+  id: VideoMeet
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: VideoMeet
+  nameWithType: SoLicenseNames.VideoMeet
+  fullName: SuperOffice.License.SoLicenseNames.VideoMeet
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.video-meet : Activate Video Meetings in Appointment dialog.\nSystem license.\n"
+  syntax:
+    content: public const string VideoMeet = "superoffice.video-meet"
+    return:
+      type: System.String
+    content.vb: Public Const VideoMeet As String = "superoffice.video-meet"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.User
+  commentId: F:SuperOffice.License.SoLicenseNames.User
+  id: User
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: SoLicenseNames.User
+  fullName: SuperOffice.License.SoLicenseNames.User
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.user: User login Allows user to log in half-way. You also need a client license.\nUser License:   \n"
+  syntax:
+    content: public const string User = "superoffice.user"
+    return:
+      type: System.String
+    content.vb: Public Const User As String = "superoffice.user"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Web
+  commentId: F:SuperOffice.License.SoLicenseNames.Web
+  id: Web
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Web
+  nameWithType: SoLicenseNames.Web
+  fullName: SuperOffice.License.SoLicenseNames.Web
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.web: Web login Allows user to log in to web client.\nUser License:     Requires: User\n"
+  syntax:
+    content: public const string Web = "superoffice.web"
+    return:
+      type: System.String
+    content.vb: Public Const Web As String = "superoffice.web"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Windows
+  commentId: F:SuperOffice.License.SoLicenseNames.Windows
+  id: Windows
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Windows
+  nameWithType: SoLicenseNames.Windows
+  fullName: SuperOffice.License.SoLicenseNames.Windows
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.windows: Windows login Allows user to log in to win client.\nUser License:     Requires: User\n"
+  syntax:
+    content: public const string Windows = "superoffice.windows"
+    return:
+      type: System.String
+    content.vb: Public Const Windows As String = "superoffice.windows"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.EJournalClient
+  commentId: F:SuperOffice.License.SoLicenseNames.EJournalClient
+  id: EJournalClient
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: EJournalClient
+  nameWithType: SoLicenseNames.EJournalClient
+  fullName: SuperOffice.License.SoLicenseNames.EJournalClient
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.ej-client: eJournal login Allows user to log in to eJournal web client.\nUser License:     Requires: User\n"
+  syntax:
+    content: public const string EJournalClient = "superoffice.ej-client"
+    return:
+      type: System.String
+    content.vb: Public Const EJournalClient As String = "superoffice.ej-client"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.EJournalReadonlyClient
+  commentId: F:SuperOffice.License.SoLicenseNames.EJournalReadonlyClient
+  id: EJournalReadonlyClient
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: EJournalReadonlyClient
+  nameWithType: SoLicenseNames.EJournalReadonlyClient
+  fullName: SuperOffice.License.SoLicenseNames.EJournalReadonlyClient
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.ej-readonly-client: eJournal Read-only login Allows user to use eJournal read-only client.\nUser License:     Requires: User\n"
+  syntax:
+    content: public const string EJournalReadonlyClient = "superoffice.ej-readonly-client"
+    return:
+      type: System.String
+    content.vb: Public Const EJournalReadonlyClient As String = "superoffice.ej-readonly-client"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.EJournalSimClient
+  commentId: F:SuperOffice.License.SoLicenseNames.EJournalSimClient
+  id: EJournalSimClient
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: EJournalSimClient
+  nameWithType: SoLicenseNames.EJournalSimClient
+  fullName: SuperOffice.License.SoLicenseNames.EJournalSimClient
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.ej-sim-client: eJournal sim login eJournal Simultaneous client user.\nUser License:     Requires: User\n"
+  syntax:
+    content: public const string EJournalSimClient = "superoffice.ej-sim-client"
+    return:
+      type: System.String
+    content.vb: Public Const EJournalSimClient As String = "superoffice.ej-sim-client"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.EJournalSimReadonlyClient
+  commentId: F:SuperOffice.License.SoLicenseNames.EJournalSimReadonlyClient
+  id: EJournalSimReadonlyClient
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: EJournalSimReadonlyClient
+  nameWithType: SoLicenseNames.EJournalSimReadonlyClient
+  fullName: SuperOffice.License.SoLicenseNames.EJournalSimReadonlyClient
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.ej-sim-readonly-client: eJournal sim read-only eJournal Simultaneous read-only user\nUser License:     Requires: User\n"
+  syntax:
+    content: public const string EJournalSimReadonlyClient = "superoffice.ej-sim-readonly-client"
+    return:
+      type: System.String
+    content.vb: Public Const EJournalSimReadonlyClient As String = "superoffice.ej-sim-readonly-client"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.PocketCrmCal
+  commentId: F:SuperOffice.License.SoLicenseNames.PocketCrmCal
+  id: PocketCrmCal
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: PocketCrmCal
+  nameWithType: SoLicenseNames.PocketCrmCal
+  fullName: SuperOffice.License.SoLicenseNames.PocketCrmCal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.pocket-crm-cal: Pocket login Allows user to log in to pocket client.\nUser License:     Requires: User\n"
+  syntax:
+    content: public const string PocketCrmCal = "superoffice.pocket-crm-cal"
+    return:
+      type: System.String
+    content.vb: Public Const PocketCrmCal As String = "superoffice.pocket-crm-cal"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.ExternUserCal
+  commentId: F:SuperOffice.License.SoLicenseNames.ExternUserCal
+  id: ExternUserCal
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: ExternUserCal
+  nameWithType: SoLicenseNames.ExternUserCal
+  fullName: SuperOffice.License.SoLicenseNames.ExternUserCal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.extern-user-cal: External user login Allows log in to audience client, eJournal portal, NetServer\nUser License:  Unrestricted \n"
+  syntax:
+    content: public const string ExternUserCal = "superoffice.extern-user-cal"
+    return:
+      type: System.String
+    content.vb: Public Const ExternUserCal As String = "superoffice.extern-user-cal"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SystemUserCal
+  commentId: F:SuperOffice.License.SoLicenseNames.SystemUserCal
+  id: SystemUserCal
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SystemUserCal
+  nameWithType: SoLicenseNames.SystemUserCal
+  fullName: SuperOffice.License.SoLicenseNames.SystemUserCal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.system-user-cal: System user login Allows log in to NetServer\nUser License:  Unrestricted \n"
+  syntax:
+    content: public const string SystemUserCal = "superoffice.system-user-cal"
+    return:
+      type: System.String
+    content.vb: Public Const SystemUserCal As String = "superoffice.system-user-cal"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.AnonymousUserCal
+  commentId: F:SuperOffice.License.SoLicenseNames.AnonymousUserCal
+  id: AnonymousUserCal
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: AnonymousUserCal
+  nameWithType: SoLicenseNames.AnonymousUserCal
+  fullName: SuperOffice.License.SoLicenseNames.AnonymousUserCal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.anonymous-user-cal: Anonymous user login Allows log in to NetServer, Audience\nUser License:  Unrestricted \n"
+  syntax:
+    content: public const string AnonymousUserCal = "superoffice.anonymous-user-cal"
+    return:
+      type: System.String
+    content.vb: Public Const AnonymousUserCal As String = "superoffice.anonymous-user-cal"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Publish
+  commentId: F:SuperOffice.License.SoLicenseNames.Publish
+  id: Publish
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Publish
+  nameWithType: SoLicenseNames.Publish
+  fullName: SuperOffice.License.SoLicenseNames.Publish
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.publish: Publish to external Enables Publish checkbox in CRM client. Requires Extern-user\nUser License:  Unrestricted \n"
+  syntax:
+    content: public const string Publish = "superoffice.publish"
+    return:
+      type: System.String
+    content.vb: Public Const Publish As String = "superoffice.publish"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.VisibleFor
+  commentId: F:SuperOffice.License.SoLicenseNames.VisibleFor
+  id: VisibleFor
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: VisibleFor
+  nameWithType: SoLicenseNames.VisibleFor
+  fullName: SuperOffice.License.SoLicenseNames.VisibleFor
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.visible-for: Confidential activities Enables the visible-for dropdown in the CRM client\nUser License:  Unrestricted \n"
+  syntax:
+    content: public const string VisibleFor = "superoffice.visible-for"
+    return:
+      type: System.String
+    content.vb: Public Const VisibleFor As String = "superoffice.visible-for"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Travel
+  commentId: F:SuperOffice.License.SoLicenseNames.Travel
+  id: Travel
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Travel
+  nameWithType: SoLicenseNames.Travel
+  fullName: SuperOffice.License.SoLicenseNames.Travel
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.travel: Travel Enables the travel menu. Requires Windows.\nUser License:  Unrestricted   Requires: Windows\n"
+  syntax:
+    content: public const string Travel = "superoffice.travel"
+    return:
+      type: System.String
+    content.vb: Public Const Travel As String = "superoffice.travel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.RemoteTravel
+  commentId: F:SuperOffice.License.SoLicenseNames.RemoteTravel
+  id: RemoteTravel
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: RemoteTravel
+  nameWithType: SoLicenseNames.RemoteTravel
+  fullName: SuperOffice.License.SoLicenseNames.RemoteTravel
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.remote-travel: Remote Travel Enables remote travel client for user.\nUser License:     Requires: Travel\n"
+  syntax:
+    content: public const string RemoteTravel = "superoffice.remote-travel"
+    return:
+      type: System.String
+    content.vb: Public Const RemoteTravel As String = "superoffice.remote-travel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.OutlookSynchronizer
+  commentId: F:SuperOffice.License.SoLicenseNames.OutlookSynchronizer
+  id: OutlookSynchronizer
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: OutlookSynchronizer
+  nameWithType: SoLicenseNames.OutlookSynchronizer
+  fullName: SuperOffice.License.SoLicenseNames.OutlookSynchronizer
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.outlook-synchronizer: Outlook Synchronizer Enables Outlook client sync (??)\nUser License:   \n"
+  syntax:
+    content: public const string OutlookSynchronizer = "superoffice.outlook-synchronizer"
+    return:
+      type: System.String
+    content.vb: Public Const OutlookSynchronizer As String = "superoffice.outlook-synchronizer"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SynchronizerCal
+  commentId: F:SuperOffice.License.SoLicenseNames.SynchronizerCal
+  id: SynchronizerCal
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SynchronizerCal
+  nameWithType: SoLicenseNames.SynchronizerCal
+  fullName: SuperOffice.License.SoLicenseNames.SynchronizerCal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.synchronizer-cal: Exchange synch login Allows user to use Exchange-sync site license\nUser License:   \n"
+  syntax:
+    content: public const string SynchronizerCal = "superoffice.synchronizer-cal"
+    return:
+      type: System.String
+    content.vb: Public Const SynchronizerCal As String = "superoffice.synchronizer-cal"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.ReporterStudioUser
+  commentId: F:SuperOffice.License.SoLicenseNames.ReporterStudioUser
+  id: ReporterStudioUser
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: ReporterStudioUser
+  nameWithType: SoLicenseNames.ReporterStudioUser
+  fullName: SuperOffice.License.SoLicenseNames.ReporterStudioUser
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.reporter-studio-user: Reporter Studio login Allows user to log in to Reporter Studio.\nUser License:  Unrestricted   Requires: rep-studio\n"
+  syntax:
+    content: public const string ReporterStudioUser = "superoffice.reporter-studio-user"
+    return:
+      type: System.String
+    content.vb: Public Const ReporterStudioUser As String = "superoffice.reporter-studio-user"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.AdminExternUser
+  commentId: F:SuperOffice.License.SoLicenseNames.AdminExternUser
+  id: AdminExternUser
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: AdminExternUser
+  nameWithType: SoLicenseNames.AdminExternUser
+  fullName: SuperOffice.License.SoLicenseNames.AdminExternUser
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.admin-extern-user: External user administrator Allows user to admin external user in CRM client\nUser License:  Unrestricted \n"
+  syntax:
+    content: public const string AdminExternUser = "superoffice.admin-extern-user"
+    return:
+      type: System.String
+    content.vb: Public Const AdminExternUser As String = "superoffice.admin-extern-user"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.AdminSystemUser
+  commentId: F:SuperOffice.License.SoLicenseNames.AdminSystemUser
+  id: AdminSystemUser
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: AdminSystemUser
+  nameWithType: SoLicenseNames.AdminSystemUser
+  fullName: SuperOffice.License.SoLicenseNames.AdminSystemUser
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.admin-system-user: System user administrator Allows user to admin system user in SOADMIN user panel.\nUser License: Hidden Unrestricted \n"
+  syntax:
+    content: public const string AdminSystemUser = "superoffice.admin-system-user"
+    return:
+      type: System.String
+    content.vb: Public Const AdminSystemUser As String = "superoffice.admin-system-user"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.AdminAnonymousUser
+  commentId: F:SuperOffice.License.SoLicenseNames.AdminAnonymousUser
+  id: AdminAnonymousUser
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: AdminAnonymousUser
+  nameWithType: SoLicenseNames.AdminAnonymousUser
+  fullName: SuperOffice.License.SoLicenseNames.AdminAnonymousUser
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.admin-anonymous-user: Anonymous user admin Allows user to admin anonymous user in SOADMIN user panel.\nUser License: Hidden Unrestricted \n"
+  syntax:
+    content: public const string AdminAnonymousUser = "superoffice.admin-anonymous-user"
+    return:
+      type: System.String
+    content.vb: Public Const AdminAnonymousUser As String = "superoffice.admin-anonymous-user"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.EJournalSpmCal
+  commentId: F:SuperOffice.License.SoLicenseNames.EJournalSpmCal
+  id: EJournalSpmCal
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: EJournalSpmCal
+  nameWithType: SoLicenseNames.EJournalSpmCal
+  fullName: SuperOffice.License.SoLicenseNames.EJournalSpmCal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.ej-mod-spm-cal: eJournal eMarketing user\nUser License: Unrestricted\n"
+  syntax:
+    content: public const string EJournalSpmCal = "superoffice.ej-mod-spm-cal"
+    return:
+      type: System.String
+    content.vb: Public Const EJournalSpmCal As String = "superoffice.ej-mod-spm-cal"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.QuoteCal
+  commentId: F:SuperOffice.License.SoLicenseNames.QuoteCal
+  id: QuoteCal
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: QuoteCal
+  nameWithType: SoLicenseNames.QuoteCal
+  fullName: SuperOffice.License.SoLicenseNames.QuoteCal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.quote-cal: Turns on products and quotes in client for this user\nUser License: Restricted.  \n"
+  syntax:
+    content: public const string QuoteCal = "superoffice.quote-cal"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteCal As String = "superoffice.quote-cal"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Document
+  commentId: F:SuperOffice.License.SoLicenseNames.Document
+  id: Document
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Document
+  nameWithType: SoLicenseNames.Document
+  fullName: SuperOffice.License.SoLicenseNames.Document
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  syntax:
+    content: public const string Document = "superoffice.document"
+    return:
+      type: System.String
+    content.vb: Public Const Document As String = "superoffice.document"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Sale
+  commentId: F:SuperOffice.License.SoLicenseNames.Sale
+  id: Sale
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Sale
+  nameWithType: SoLicenseNames.Sale
+  fullName: SuperOffice.License.SoLicenseNames.Sale
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.sale: Turn on Sale panel in client for users.\nUser license\n"
+  syntax:
+    content: public const string Sale = "superoffice.sale"
+    return:
+      type: System.String
+    content.vb: Public Const Sale As String = "superoffice.sale"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SaleCal
+  commentId: F:SuperOffice.License.SoLicenseNames.SaleCal
+  id: SaleCal
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SaleCal
+  nameWithType: SoLicenseNames.SaleCal
+  fullName: SuperOffice.License.SoLicenseNames.SaleCal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.sale-cal: Turn on EDIT rights for sales for this user. Without this CAL the user has read-only rights.\nUser license\n"
+  syntax:
+    content: public const string SaleCal = "superoffice.sale-cal"
+    return:
+      type: System.String
+    content.vb: Public Const SaleCal As String = "superoffice.sale-cal"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Selection
+  commentId: F:SuperOffice.License.SoLicenseNames.Selection
+  id: Selection
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Selection
+  nameWithType: SoLicenseNames.Selection
+  fullName: SuperOffice.License.SoLicenseNames.Selection
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.selection: Turn on Selection panel for users\nUser license.\n"
+  syntax:
+    content: public const string Selection = "superoffice.selection"
+    return:
+      type: System.String
+    content.vb: Public Const Selection As String = "superoffice.selection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SelectionCal
+  commentId: F:SuperOffice.License.SoLicenseNames.SelectionCal
+  id: SelectionCal
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SelectionCal
+  nameWithType: SoLicenseNames.SelectionCal
+  fullName: SuperOffice.License.SoLicenseNames.SelectionCal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.selection-cal: Turn on EDIT rights for selections for this user. Without this CAL the user has read-only rights.\nUser licenes.\n"
+  syntax:
+    content: public const string SelectionCal = "superoffice.selection-cal"
+    return:
+      type: System.String
+    content.vb: Public Const SelectionCal As String = "superoffice.selection-cal"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SelectionCombinedCal
+  commentId: F:SuperOffice.License.SoLicenseNames.SelectionCombinedCal
+  id: SelectionCombinedCal
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SelectionCombinedCal
+  nameWithType: SoLicenseNames.SelectionCombinedCal
+  fullName: SuperOffice.License.SoLicenseNames.SelectionCombinedCal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.selection-combined-cal: Enable combined-selections when creating selections in client.\nUser license.\n"
+  syntax:
+    content: public const string SelectionCombinedCal = "superoffice.selection-combined-cal"
+    return:
+      type: System.String
+    content.vb: Public Const SelectionCombinedCal As String = "superoffice.selection-combined-cal"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Project
+  commentId: F:SuperOffice.License.SoLicenseNames.Project
+  id: Project
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: SoLicenseNames.Project
+  fullName: SuperOffice.License.SoLicenseNames.Project
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.project: Turn on the project panel in the client for users.\nUser license.\n"
+  syntax:
+    content: public const string Project = "superoffice.project"
+    return:
+      type: System.String
+    content.vb: Public Const Project As String = "superoffice.project"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.ProjectCal
+  commentId: F:SuperOffice.License.SoLicenseNames.ProjectCal
+  id: ProjectCal
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: ProjectCal
+  nameWithType: SoLicenseNames.ProjectCal
+  fullName: SuperOffice.License.SoLicenseNames.ProjectCal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.project-cal: Turn on EDIT rights for projects for this user. Without this CAL the user has read-only rights.\nUser license.\n"
+  syntax:
+    content: public const string ProjectCal = "superoffice.project-cal"
+    return:
+      type: System.String
+    content.vb: Public Const ProjectCal As String = "superoffice.project-cal"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Report
+  commentId: F:SuperOffice.License.SoLicenseNames.Report
+  id: Report
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Report
+  nameWithType: SoLicenseNames.Report
+  fullName: SuperOffice.License.SoLicenseNames.Report
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.report: Turn on report panel in the client for users.\nUser license.\n"
+  syntax:
+    content: public const string Report = "superoffice.report"
+    return:
+      type: System.String
+    content.vb: Public Const Report As String = "superoffice.report"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.ReportCal
+  commentId: F:SuperOffice.License.SoLicenseNames.ReportCal
+  id: ReportCal
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: ReportCal
+  nameWithType: SoLicenseNames.ReportCal
+  fullName: SuperOffice.License.SoLicenseNames.ReportCal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.report-cal: Turn on editing of reports for this user. Without this CAL the user can only read/view reports.\nUser license.\n"
+  syntax:
+    content: public const string ReportCal = "superoffice.report-cal"
+    return:
+      type: System.String
+    content.vb: Public Const ReportCal As String = "superoffice.report-cal"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Relation
+  commentId: F:SuperOffice.License.SoLicenseNames.Relation
+  id: Relation
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Relation
+  nameWithType: SoLicenseNames.Relation
+  fullName: SuperOffice.License.SoLicenseNames.Relation
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.relation: Turn on relation archive/dialog in the client for users.\nUser license.\n"
+  syntax:
+    content: public const string Relation = "superoffice.relation"
+    return:
+      type: System.String
+    content.vb: Public Const Relation As String = "superoffice.relation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.RelationCal
+  commentId: F:SuperOffice.License.SoLicenseNames.RelationCal
+  id: RelationCal
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: RelationCal
+  nameWithType: SoLicenseNames.RelationCal
+  fullName: SuperOffice.License.SoLicenseNames.RelationCal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.relation-cal: Turn on create/editing of relations in the client for this user. Without this CAL the user can only read/view relations.\nUser license.\n"
+  syntax:
+    content: public const string RelationCal = "superoffice.relation-cal"
+    return:
+      type: System.String
+    content.vb: Public Const RelationCal As String = "superoffice.relation-cal"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.MailMergeCal
+  commentId: F:SuperOffice.License.SoLicenseNames.MailMergeCal
+  id: MailMergeCal
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: MailMergeCal
+  nameWithType: SoLicenseNames.MailMergeCal
+  fullName: SuperOffice.License.SoLicenseNames.MailMergeCal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.mail-merge-cal: Can access mail merge function, subject to functional right restrictions.\nUser License.\n"
+  syntax:
+    content: public const string MailMergeCal = "superoffice.mail-merge-cal"
+    return:
+      type: System.String
+    content.vb: Public Const MailMergeCal As String = "superoffice.mail-merge-cal"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SuperLicenseContactManager
+  commentId: F:SuperOffice.License.SoLicenseNames.SuperLicenseContactManager
+  id: SuperLicenseContactManager
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SuperLicenseContactManager
+  nameWithType: SoLicenseNames.SuperLicenseContactManager
+  fullName: SuperOffice.License.SoLicenseNames.SuperLicenseContactManager
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.superlicense-contact-manager: Enables user, web, project-cal, selection-cal, report-cal, relation-cal   licenses automatically when used. See ExtraInfo field for details.\nUser license. Type 1 (Radio button)\n"
+  syntax:
+    content: public const string SuperLicenseContactManager = "superoffice.superlicense-contact-manager"
+    return:
+      type: System.String
+    content.vb: Public Const SuperLicenseContactManager As String = "superoffice.superlicense-contact-manager"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SuperLicenseSalesPro
+  commentId: F:SuperOffice.License.SoLicenseNames.SuperLicenseSalesPro
+  id: SuperLicenseSalesPro
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SuperLicenseSalesPro
+  nameWithType: SoLicenseNames.SuperLicenseSalesPro
+  fullName: SuperOffice.License.SoLicenseNames.SuperLicenseSalesPro
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.superlicense-sales-pro: Enables user, web, project-cal, sale-cal, quote-cal, selection-cal, selection-combined-cal, report-cal, relation-cal   licenses automatically when used. See ExtraInfo field for details.\nUser license. Type 1 (Radio button)\n"
+  syntax:
+    content: public const string SuperLicenseSalesPro = "superoffice.superlicense-sales-pro"
+    return:
+      type: System.String
+    content.vb: Public Const SuperLicenseSalesPro As String = "superoffice.superlicense-sales-pro"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SuperLicenseMarketingPro
+  commentId: F:SuperOffice.License.SoLicenseNames.SuperLicenseMarketingPro
+  id: SuperLicenseMarketingPro
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SuperLicenseMarketingPro
+  nameWithType: SoLicenseNames.SuperLicenseMarketingPro
+  fullName: SuperOffice.License.SoLicenseNames.SuperLicenseMarketingPro
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.superlicense-marketing-pro: Enables user, web, project-cal, selection-cal, selection-combined-cal, ej-mod-spm-cal, report-cal, relation-cal  licenses automatically when used. See ExtraInfo field for details.\nUser license. Type 1 (Radio button)\n"
+  syntax:
+    content: public const string SuperLicenseMarketingPro = "superoffice.superlicense-marketing-pro"
+    return:
+      type: System.String
+    content.vb: Public Const SuperLicenseMarketingPro As String = "superoffice.superlicense-marketing-pro"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SuperLicenseServicePro
+  commentId: F:SuperOffice.License.SoLicenseNames.SuperLicenseServicePro
+  id: SuperLicenseServicePro
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SuperLicenseServicePro
+  nameWithType: SoLicenseNames.SuperLicenseServicePro
+  fullName: SuperOffice.License.SoLicenseNames.SuperLicenseServicePro
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.superlicense-service-pro: Enables user, web, ej-client, project-cal, selection-cal, report-cal, relation-cal  licenses automatically when used. See ExtraInfo field for details.\nUser license. Type 1 (Radio button)\n"
+  syntax:
+    content: public const string SuperLicenseServicePro = "superoffice.superlicense-service-pro"
+    return:
+      type: System.String
+    content.vb: Public Const SuperLicenseServicePro As String = "superoffice.superlicense-service-pro"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SuperLicenseComplete
+  commentId: F:SuperOffice.License.SoLicenseNames.SuperLicenseComplete
+  id: SuperLicenseComplete
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SuperLicenseComplete
+  nameWithType: SoLicenseNames.SuperLicenseComplete
+  fullName: SuperOffice.License.SoLicenseNames.SuperLicenseComplete
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.superlicense-complete: Enables user, web, ej-client, sale-cal, quote-cal, project-cal, selection-cal, selection-combined-cal, ej-mod-spm-cal, report-cal, relation-cal  licenses automatically when used. See ExtraInfo field for details.\nUser license. Type 1 (Radio button)\n"
+  syntax:
+    content: public const string SuperLicenseComplete = "superoffice.superlicense-complete"
+    return:
+      type: System.String
+    content.vb: Public Const SuperLicenseComplete As String = "superoffice.superlicense-complete"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SuperLicenseAssistant
+  commentId: F:SuperOffice.License.SoLicenseNames.SuperLicenseAssistant
+  id: SuperLicenseAssistant
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SuperLicenseAssistant
+  nameWithType: SoLicenseNames.SuperLicenseAssistant
+  fullName: SuperOffice.License.SoLicenseNames.SuperLicenseAssistant
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.superlicense-assistant: Enables user, web licenses automatically when used. See ExtraInfo field for details.\nUser license. Type 1 (Radio button)\n"
+  syntax:
+    content: public const string SuperLicenseAssistant = "superoffice.superlicense-assistant"
+    return:
+      type: System.String
+    content.vb: Public Const SuperLicenseAssistant As String = "superoffice.superlicense-assistant"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.SuperLicenseNoSelection
+  commentId: F:SuperOffice.License.SoLicenseNames.SuperLicenseNoSelection
+  id: SuperLicenseNoSelection
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: SuperLicenseNoSelection
+  nameWithType: SoLicenseNames.SuperLicenseNoSelection
+  fullName: SuperOffice.License.SoLicenseNames.SuperLicenseNoSelection
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.superlicense-no-selection: Enables no licenses automatically when used. Is used for disabling users/swapping between user types.\nUser license. Type 1 (Radio button)  UNRESTRICTED.\n"
+  syntax:
+    content: public const string SuperLicenseNoSelection = "superoffice.superlicense-no-selection"
+    return:
+      type: System.String
+    content.vb: Public Const SuperLicenseNoSelection As String = "superoffice.superlicense-no-selection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.FeaturePricing
+  commentId: F:SuperOffice.License.SoLicenseNames.FeaturePricing
+  id: FeaturePricing
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: FeaturePricing
+  nameWithType: SoLicenseNames.FeaturePricing
+  fullName: SuperOffice.License.SoLicenseNames.FeaturePricing
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.feature-pricing: Indicates that the new pricelist is in use. Applies to both Online and On-Prem installations.\nSystem license. Hidden.\n"
+  syntax:
+    content: public const string FeaturePricing = "superoffice.feature-pricing"
+    return:
+      type: System.String
+    content.vb: Public Const FeaturePricing As String = "superoffice.feature-pricing"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.G9
+  commentId: F:SuperOffice.License.SoLicenseNames.G9
+  id: G9
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: G9
+  nameWithType: SoLicenseNames.G9
+  fullName: SuperOffice.License.SoLicenseNames.G9
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.g9: Indicates that the new G9 pricelist is in use. Applies to both Online and On-Prem installations.\nSystem license. Hidden.\n"
+  syntax:
+    content: public const string G9 = "superoffice.g9"
+    return:
+      type: System.String
+    content.vb: Public Const G9 As String = "superoffice.g9"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.OnlineServices
+  commentId: F:SuperOffice.License.SoLicenseNames.OnlineServices
+  id: OnlineServices
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: OnlineServices
+  nameWithType: SoLicenseNames.OnlineServices
+  fullName: SuperOffice.License.SoLicenseNames.OnlineServices
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.online-services: Online services (Google,Office,Mailings services, etc). Applies to both Online and On-Prem installations.\nSystem license. Hidden.\n"
+  syntax:
+    content: public const string OnlineServices = "superoffice.online-services"
+    return:
+      type: System.String
+    content.vb: Public Const OnlineServices As String = "superoffice.online-services"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Test
+  commentId: F:SuperOffice.License.SoLicenseNames.Test
+  id: Test
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Test
+  nameWithType: SoLicenseNames.Test
+  fullName: SuperOffice.License.SoLicenseNames.Test
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.test: Test installation marker. Applies to both Online and On-Prem installations.\nSystem license. \n"
+  syntax:
+    content: public const string Test = "superoffice.test"
+    return:
+      type: System.String
+    content.vb: Public Const Test As String = "superoffice.test"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.DbMirror
+  commentId: F:SuperOffice.License.SoLicenseNames.DbMirror
+  id: DbMirror
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: DbMirror
+  nameWithType: SoLicenseNames.DbMirror
+  fullName: SuperOffice.License.SoLicenseNames.DbMirror
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.db-mirror: Database Mirroring active. Database changes are copied to remote location for processing.\nSystem license. \n"
+  syntax:
+    content: public const string DbMirror = "superoffice.db-mirror"
+    return:
+      type: System.String
+    content.vb: Public Const DbMirror As String = "superoffice.db-mirror"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.TestDrive
+  commentId: F:SuperOffice.License.SoLicenseNames.TestDrive
+  id: TestDrive
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: TestDrive
+  nameWithType: SoLicenseNames.TestDrive
+  fullName: SuperOffice.License.SoLicenseNames.TestDrive
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.testdrive: Test Drive installation marker. Applies to Online installations.\nSystem license. \n"
+  syntax:
+    content: public const string TestDrive = "superoffice.testdrive"
+    return:
+      type: System.String
+    content.vb: Public Const TestDrive As String = "superoffice.testdrive"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Chat
+  commentId: F:SuperOffice.License.SoLicenseNames.Chat
+  id: Chat
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Chat
+  nameWithType: SoLicenseNames.Chat
+  fullName: SuperOffice.License.SoLicenseNames.Chat
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.chat : Activate chat system. Without this license the Chat Admin does not appear.\nSystem license.\n"
+  syntax:
+    content: public const string Chat = "superoffice.chat"
+    return:
+      type: System.String
+    content.vb: Public Const Chat As String = "superoffice.chat"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.ChatCal
+  commentId: F:SuperOffice.License.SoLicenseNames.ChatCal
+  id: ChatCal
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: ChatCal
+  nameWithType: SoLicenseNames.ChatCal
+  fullName: SuperOffice.License.SoLicenseNames.ChatCal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.chat-cal: Turn on chat for this user. Without this CAL the user cannot access Chat system.\nChat permissions are controlled separately in admin.\nUser license.\n"
+  syntax:
+    content: public const string ChatCal = "superoffice.chat-cal"
+    return:
+      type: System.String
+    content.vb: Public Const ChatCal As String = "superoffice.chat-cal"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Forms
+  commentId: F:SuperOffice.License.SoLicenseNames.Forms
+  id: Forms
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Forms
+  nameWithType: SoLicenseNames.Forms
+  fullName: SuperOffice.License.SoLicenseNames.Forms
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.forms : Activate forms system. Without this license the Forms panel does not appear.\nSystem license.\n"
+  syntax:
+    content: public const string Forms = "superoffice.forms"
+    return:
+      type: System.String
+    content.vb: Public Const Forms As String = "superoffice.forms"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.FormsCal
+  commentId: F:SuperOffice.License.SoLicenseNames.FormsCal
+  id: FormsCal
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: FormsCal
+  nameWithType: SoLicenseNames.FormsCal
+  fullName: SuperOffice.License.SoLicenseNames.FormsCal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.forms-cal: Turn on forms for this user. Without this CAL the user cannot access Forms designer.\nUser license.\n"
+  syntax:
+    content: public const string FormsCal = "superoffice.forms-cal"
+    return:
+      type: System.String
+    content.vb: Public Const FormsCal As String = "superoffice.forms-cal"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.MarketingAutomation
+  commentId: F:SuperOffice.License.SoLicenseNames.MarketingAutomation
+  id: MarketingAutomation
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: MarketingAutomation
+  nameWithType: SoLicenseNames.MarketingAutomation
+  fullName: SuperOffice.License.SoLicenseNames.MarketingAutomation
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.mktg-auto: Activate marketing automation system. Without this license the Automation panel does not appear.\nSystem license.\n"
+  syntax:
+    content: public const string MarketingAutomation = "superoffice.mktg-auto"
+    return:
+      type: System.String
+    content.vb: Public Const MarketingAutomation As String = "superoffice.mktg-auto"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.MarketingAutomationCal
+  commentId: F:SuperOffice.License.SoLicenseNames.MarketingAutomationCal
+  id: MarketingAutomationCal
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: MarketingAutomationCal
+  nameWithType: SoLicenseNames.MarketingAutomationCal
+  fullName: SuperOffice.License.SoLicenseNames.MarketingAutomationCal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.mktg-auto-cal: Turn on marketing automation for this user. Without this CAL the user cannot access automation designer.\nUser license.\n"
+  syntax:
+    content: public const string MarketingAutomationCal = "superoffice.mktg-auto-cal"
+    return:
+      type: System.String
+    content.vb: Public Const MarketingAutomationCal As String = "superoffice.mktg-auto-cal"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.AI
+  commentId: F:SuperOffice.License.SoLicenseNames.AI
+  id: AI
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: AI
+  nameWithType: SoLicenseNames.AI
+  fullName: SuperOffice.License.SoLicenseNames.AI
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.ai: Artificial Intelligence\nSystem license.\n"
+  syntax:
+    content: public const string AI = "superoffice.ai"
+    return:
+      type: System.String
+    content.vb: Public Const AI As String = "superoffice.ai"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.License.SoLicenseNames.Engagement
+  commentId: F:SuperOffice.License.SoLicenseNames.Engagement
+  id: Engagement
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Engagement
+  nameWithType: SoLicenseNames.Engagement
+  fullName: SuperOffice.License.SoLicenseNames.Engagement
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nsuperoffice.engagement: Engagement Platform. Enables chat, forms, video meetings\nSystem license.\n"
+  syntax:
+    content: public const string Engagement = "superoffice.engagement"
+    return:
+      type: System.String
+    content.vb: Public Const Engagement As String = "superoffice.engagement"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.License
+  commentId: N:SuperOffice.License
+  isExternal: true
+  name: SuperOffice.License
+  nameWithType: SuperOffice.License
+  fullName: SuperOffice.License
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

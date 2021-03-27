@@ -1,0 +1,977 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.PrefDescFields
+  commentId: T:SuperOffice.CRM.Data.DBC.PrefDescFields
+  id: DBC.PrefDescFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.PrefDescFields.AccessFlags
+  - SuperOffice.CRM.Data.DBC.PrefDescFields.Description
+  - SuperOffice.CRM.Data.DBC.PrefDescFields.IsBuiltin
+  - SuperOffice.CRM.Data.DBC.PrefDescFields.MaxLevel
+  - SuperOffice.CRM.Data.DBC.PrefDescFields.MaxValue
+  - SuperOffice.CRM.Data.DBC.PrefDescFields.MinLevel
+  - SuperOffice.CRM.Data.DBC.PrefDescFields.MinValue
+  - SuperOffice.CRM.Data.DBC.PrefDescFields.Name
+  - SuperOffice.CRM.Data.DBC.PrefDescFields.PrefDescId
+  - SuperOffice.CRM.Data.DBC.PrefDescFields.Prefkey
+  - SuperOffice.CRM.Data.DBC.PrefDescFields.Prefsection
+  - SuperOffice.CRM.Data.DBC.PrefDescFields.Rank
+  - SuperOffice.CRM.Data.DBC.PrefDescFields.Registered
+  - SuperOffice.CRM.Data.DBC.PrefDescFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.PrefDescFields.RequiredLicense
+  - SuperOffice.CRM.Data.DBC.PrefDescFields.SubGroup
+  - SuperOffice.CRM.Data.DBC.PrefDescFields.SysMaxLevel
+  - SuperOffice.CRM.Data.DBC.PrefDescFields.Updated
+  - SuperOffice.CRM.Data.DBC.PrefDescFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.PrefDescFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.PrefDescFields.ValueType
+  langs:
+  - csharp
+  - vb
+  name: DBC.PrefDescFields
+  nameWithType: DBC.PrefDescFields
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for PrefDesc, Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice. You find an overview off all standard preference on http://techdoc.superoffice.com.  May be used by third-party developers to add system preferences to be updated from SuperOffice Maintenance client, instead of ini-files. \n"
+  syntax:
+    content: public static class PrefDescFields
+    content.vb: Public Module PrefDescFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.PrefDescFields.PrefDescId
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescFields.PrefDescId
+  id: PrefDescId
+  parent: SuperOffice.CRM.Data.DBC.PrefDescFields
+  langs:
+  - csharp
+  - vb
+  name: PrefDescId
+  nameWithType: DBC.PrefDescFields.PrefDescId
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescFields.PrefDescId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDesc.PrefDescId: Primary key\n"
+  syntax:
+    content: public const string PrefDescId = "PrefDesc_id"
+    return:
+      type: System.String
+    content.vb: Public Const PrefDescId As String = "PrefDesc_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescFields.Prefsection
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescFields.Prefsection
+  id: Prefsection
+  parent: SuperOffice.CRM.Data.DBC.PrefDescFields
+  langs:
+  - csharp
+  - vb
+  name: Prefsection
+  nameWithType: DBC.PrefDescFields.Prefsection
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescFields.Prefsection
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDesc.Prefsection: Preference section name\n"
+  syntax:
+    content: public const string Prefsection = "prefsection"
+    return:
+      type: System.String
+    content.vb: Public Const Prefsection As String = "prefsection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescFields.Prefkey
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescFields.Prefkey
+  id: Prefkey
+  parent: SuperOffice.CRM.Data.DBC.PrefDescFields
+  langs:
+  - csharp
+  - vb
+  name: Prefkey
+  nameWithType: DBC.PrefDescFields.Prefkey
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescFields.Prefkey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDesc.Prefkey: Preference key name\n"
+  syntax:
+    content: public const string Prefkey = "prefkey"
+    return:
+      type: System.String
+    content.vb: Public Const Prefkey As String = "prefkey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.PrefDescFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.PrefDescFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDesc.Name: Multi-language name\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescFields.ValueType
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescFields.ValueType
+  id: ValueType
+  parent: SuperOffice.CRM.Data.DBC.PrefDescFields
+  langs:
+  - csharp
+  - vb
+  name: ValueType
+  nameWithType: DBC.PrefDescFields.ValueType
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescFields.ValueType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDesc.ValueType: 1=number, 2=text, 3=bool, 4=list of values; 5=list table ref; 6=contact ID, 7=Person ID, 8=Project ID, 9=Selection ID\n"
+  syntax:
+    content: public const string ValueType = "valueType"
+    return:
+      type: System.String
+    content.vb: Public Const ValueType As String = "valueType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescFields.MaxLevel
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescFields.MaxLevel
+  id: MaxLevel
+  parent: SuperOffice.CRM.Data.DBC.PrefDescFields
+  langs:
+  - csharp
+  - vb
+  name: MaxLevel
+  nameWithType: DBC.PrefDescFields.MaxLevel
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescFields.MaxLevel
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDesc.MaxLevel: Lowest allowed setting level, set by user, but not lower than sysMaxLevel\n"
+  syntax:
+    content: public const string MaxLevel = "maxLevel"
+    return:
+      type: System.String
+    content.vb: Public Const MaxLevel As String = "maxLevel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescFields.SysMaxLevel
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescFields.SysMaxLevel
+  id: SysMaxLevel
+  parent: SuperOffice.CRM.Data.DBC.PrefDescFields
+  langs:
+  - csharp
+  - vb
+  name: SysMaxLevel
+  nameWithType: DBC.PrefDescFields.SysMaxLevel
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescFields.SysMaxLevel
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDesc.SysMaxLevel: Lowest allowed setting level, set by SuperOffice\n"
+  syntax:
+    content: public const string SysMaxLevel = "sysMaxLevel"
+    return:
+      type: System.String
+    content.vb: Public Const SysMaxLevel As String = "sysMaxLevel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescFields.AccessFlags
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescFields.AccessFlags
+  id: AccessFlags
+  parent: SuperOffice.CRM.Data.DBC.PrefDescFields
+  langs:
+  - csharp
+  - vb
+  name: AccessFlags
+  nameWithType: DBC.PrefDescFields.AccessFlags
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescFields.AccessFlags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDesc.AccessFlags: 1=wizard mode, 2=level 0, 4=admin gui, 8=crm gui\n"
+  syntax:
+    content: public const string AccessFlags = "accessFlags"
+    return:
+      type: System.String
+    content.vb: Public Const AccessFlags As String = "accessFlags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescFields.MaxValue
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescFields.MaxValue
+  id: MaxValue
+  parent: SuperOffice.CRM.Data.DBC.PrefDescFields
+  langs:
+  - csharp
+  - vb
+  name: MaxValue
+  nameWithType: DBC.PrefDescFields.MaxValue
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescFields.MaxValue
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDesc.MaxValue: Max value (if type 1); list table ID (if type 5)\n"
+  syntax:
+    content: public const string MaxValue = "maxValue"
+    return:
+      type: System.String
+    content.vb: Public Const MaxValue As String = "maxValue"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescFields.MinValue
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescFields.MinValue
+  id: MinValue
+  parent: SuperOffice.CRM.Data.DBC.PrefDescFields
+  langs:
+  - csharp
+  - vb
+  name: MinValue
+  nameWithType: DBC.PrefDescFields.MinValue
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescFields.MinValue
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDesc.MinValue: Min value (if type 1); list extra id (if type 5)\n"
+  syntax:
+    content: public const string MinValue = "minValue"
+    return:
+      type: System.String
+    content.vb: Public Const MinValue As String = "minValue"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.PrefDescFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.PrefDescFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDesc.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.PrefDescFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.PrefDescFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDesc.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.PrefDescFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.PrefDescFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDesc.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.PrefDescFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.PrefDescFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDesc.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.PrefDescFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.PrefDescFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDesc.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescFields.Description
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescFields.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.DBC.PrefDescFields
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DBC.PrefDescFields.Description
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescFields.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDesc.Description: Description of preference, multi-language parsed\n"
+  syntax:
+    content: public const string Description = "description"
+    return:
+      type: System.String
+    content.vb: Public Const Description As String = "description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescFields.IsBuiltin
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescFields.IsBuiltin
+  id: IsBuiltin
+  parent: SuperOffice.CRM.Data.DBC.PrefDescFields
+  langs:
+  - csharp
+  - vb
+  name: IsBuiltin
+  nameWithType: DBC.PrefDescFields.IsBuiltin
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescFields.IsBuiltin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDesc.IsBuiltin: 1 = This row populated and maintained by SuperOffice\n"
+  syntax:
+    content: public const string IsBuiltin = "isBuiltin"
+    return:
+      type: System.String
+    content.vb: Public Const IsBuiltin As String = "isBuiltin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescFields.RequiredLicense
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescFields.RequiredLicense
+  id: RequiredLicense
+  parent: SuperOffice.CRM.Data.DBC.PrefDescFields
+  langs:
+  - csharp
+  - vb
+  name: RequiredLicense
+  nameWithType: DBC.PrefDescFields.RequiredLicense
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescFields.RequiredLicense
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDesc.RequiredLicense: Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs\n"
+  syntax:
+    content: public const string RequiredLicense = "requiredLicense"
+    return:
+      type: System.String
+    content.vb: Public Const RequiredLicense As String = "requiredLicense"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescFields.Rank
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescFields.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Data.DBC.PrefDescFields
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DBC.PrefDescFields.Rank
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescFields.Rank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDesc.Rank: Rank field for ordering sections, and keys within sections\n"
+  syntax:
+    content: public const string Rank = "rank"
+    return:
+      type: System.String
+    content.vb: Public Const Rank As String = "rank"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescFields.SubGroup
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescFields.SubGroup
+  id: SubGroup
+  parent: SuperOffice.CRM.Data.DBC.PrefDescFields
+  langs:
+  - csharp
+  - vb
+  name: SubGroup
+  nameWithType: DBC.PrefDescFields.SubGroup
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescFields.SubGroup
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDesc.SubGroup: Keys that share a value (including NULL) in this field are shown together; a visual spacer is shown between groups\n"
+  syntax:
+    content: public const string SubGroup = "subGroup"
+    return:
+      type: System.String
+    content.vb: Public Const SubGroup As String = "subGroup"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PrefDescFields.MinLevel
+  commentId: F:SuperOffice.CRM.Data.DBC.PrefDescFields.MinLevel
+  id: MinLevel
+  parent: SuperOffice.CRM.Data.DBC.PrefDescFields
+  langs:
+  - csharp
+  - vb
+  name: MinLevel
+  nameWithType: DBC.PrefDescFields.MinLevel
+  fullName: SuperOffice.CRM.Data.DBC.PrefDescFields.MinLevel
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPrefDesc.MinLevel: The minimum (furthest away from User) level this preference can be set for\n"
+  syntax:
+    content: public const string MinLevel = "minLevel"
+    return:
+      type: System.String
+    content.vb: Public Const MinLevel As String = "minLevel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,1120 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity
+  commentId: T:SuperOffice.WebApi.Data.ChatTopicEntity
+  id: ChatTopicEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ChatTopicEntity.#ctor
+  - SuperOffice.WebApi.Data.ChatTopicEntity.AlertRecipient
+  - SuperOffice.WebApi.Data.ChatTopicEntity.AlertTemplate
+  - SuperOffice.WebApi.Data.ChatTopicEntity.BadgeHeader
+  - SuperOffice.WebApi.Data.ChatTopicEntity.ChatTopicId
+  - SuperOffice.WebApi.Data.ChatTopicEntity.CustomQueueText
+  - SuperOffice.WebApi.Data.ChatTopicEntity.Description
+  - SuperOffice.WebApi.Data.ChatTopicEntity.Flags
+  - SuperOffice.WebApi.Data.ChatTopicEntity.Flags_String
+  - SuperOffice.WebApi.Data.ChatTopicEntity.Language
+  - SuperOffice.WebApi.Data.ChatTopicEntity.LastAccept
+  - SuperOffice.WebApi.Data.ChatTopicEntity.Name
+  - SuperOffice.WebApi.Data.ChatTopicEntity.OpeningHours
+  - SuperOffice.WebApi.Data.ChatTopicEntity.OpeningHoursEnabled
+  - SuperOffice.WebApi.Data.ChatTopicEntity.SecondsPrAccept
+  - SuperOffice.WebApi.Data.ChatTopicEntity.TicketCategory
+  - SuperOffice.WebApi.Data.ChatTopicEntity.TicketEnabled
+  - SuperOffice.WebApi.Data.ChatTopicEntity.TicketPriority
+  - SuperOffice.WebApi.Data.ChatTopicEntity.WarnManagerNewChatSeconds
+  - SuperOffice.WebApi.Data.ChatTopicEntity.WarnNewChatSeconds
+  - SuperOffice.WebApi.Data.ChatTopicEntity.WelcomeMessage
+  - SuperOffice.WebApi.Data.ChatTopicEntity.Widget
+  langs:
+  - csharp
+  - vb
+  name: ChatTopicEntity
+  nameWithType: ChatTopicEntity
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ChatTopicEntity.\nChat topics define who is assigned, when the channel is open for business, and look of the chat widget.    \n"
+  example:
+  - "\nGet ChatTopicEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ChatAgent(configuration);\nvar chatTopicEntity = agent.GetChatTopicEntity( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class ChatTopicEntity : Carrier'
+    content.vb: >-
+      Public Class ChatTopicEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ChatAgent
+    commentId: T:SuperOffice.WebApi.Agents.ChatAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ChatTopicEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: ChatTopicEntity()
+  nameWithType: ChatTopicEntity.ChatTopicEntity()
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.ChatTopicEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ChatTopicEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.ChatTopicId
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.ChatTopicId
+  id: ChatTopicId
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: ChatTopicId
+  nameWithType: ChatTopicEntity.ChatTopicId
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.ChatTopicId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe primary key (auto-incremented)\n"
+  syntax:
+    content: public virtual int ChatTopicId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ChatTopicId As Integer
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.ChatTopicId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.Name
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ChatTopicEntity.Name
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of this chat topic\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.Description
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: ChatTopicEntity.Description
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe descriptiong for this topic.\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.WelcomeMessage
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.WelcomeMessage
+  id: WelcomeMessage
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: WelcomeMessage
+  nameWithType: ChatTopicEntity.WelcomeMessage
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.WelcomeMessage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe welcome message sent to the customer when the chat session starts.\n"
+  syntax:
+    content: public virtual string WelcomeMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property WelcomeMessage As String
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.WelcomeMessage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.Language
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.Language
+  id: Language
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: ChatTopicEntity.Language
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.Language
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCustomer language used in this topic. Optional\n"
+  syntax:
+    content: public virtual CustomerLanguage Language { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.CustomerLanguage
+    content.vb: Public Overridable Property Language As CustomerLanguage
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.Language*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.LastAccept
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.LastAccept
+  id: LastAccept
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: LastAccept
+  nameWithType: ChatTopicEntity.LastAccept
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.LastAccept
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe last time a session was accepted from the inside for this topic.\n"
+  syntax:
+    content: public virtual DateTime LastAccept { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property LastAccept As DateTime
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.LastAccept*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.SecondsPrAccept
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.SecondsPrAccept
+  id: SecondsPrAccept
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: SecondsPrAccept
+  nameWithType: ChatTopicEntity.SecondsPrAccept
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.SecondsPrAccept
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe average number of seconds per accept for this topic.\n"
+  syntax:
+    content: public virtual int SecondsPrAccept { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SecondsPrAccept As Integer
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.SecondsPrAccept*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.AlertRecipient
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.AlertRecipient
+  id: AlertRecipient
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: AlertRecipient
+  nameWithType: ChatTopicEntity.AlertRecipient
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.AlertRecipient
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe recipient(s) for the alert template\n"
+  syntax:
+    content: public virtual string AlertRecipient { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property AlertRecipient As String
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.AlertRecipient*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.AlertTemplate
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.AlertTemplate
+  id: AlertTemplate
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: AlertTemplate
+  nameWithType: ChatTopicEntity.AlertTemplate
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.AlertTemplate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTemplate to use for alerts.\n"
+  syntax:
+    content: public virtual ReplyTemplate AlertTemplate { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ReplyTemplate
+    content.vb: Public Overridable Property AlertTemplate As ReplyTemplate
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.AlertTemplate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.Flags_String
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.Flags_String
+  id: Flags_String
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: Flags_String
+  nameWithType: ChatTopicEntity.Flags_String
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.Flags_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAlert by e-mail, popup, etc. \nRaw string enum value.\n"
+  syntax:
+    content: public string Flags_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Flags_String As String
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.Flags_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ChatTopicEntity.Flags
+    commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.Flags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.Flags
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.Flags
+  id: Flags
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: ChatTopicEntity.Flags
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.Flags
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAlert by e-mail, popup, etc. \nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ChatTopicFlag> Flags { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ChatTopicFlag}
+    content.vb: Public Property Flags As Nullable(Of ChatTopicFlag)
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.Flags*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ChatTopicEntity.Flags_String
+    commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.Flags_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.BadgeHeader
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.BadgeHeader
+  id: BadgeHeader
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: BadgeHeader
+  nameWithType: ChatTopicEntity.BadgeHeader
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.BadgeHeader
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe badge header of the chat topic\n"
+  syntax:
+    content: public virtual string BadgeHeader { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property BadgeHeader As String
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.BadgeHeader*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.CustomQueueText
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.CustomQueueText
+  id: CustomQueueText
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: CustomQueueText
+  nameWithType: ChatTopicEntity.CustomQueueText
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.CustomQueueText
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA text to be used in the queue message in the chat widget. Usage is controlled by the flags field, bit number 3\n"
+  syntax:
+    content: public virtual string CustomQueueText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CustomQueueText As String
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.CustomQueueText*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.WarnNewChatSeconds
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.WarnNewChatSeconds
+  id: WarnNewChatSeconds
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: WarnNewChatSeconds
+  nameWithType: ChatTopicEntity.WarnNewChatSeconds
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.WarnNewChatSeconds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContains the user notify time in seconds\n"
+  syntax:
+    content: public virtual int WarnNewChatSeconds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property WarnNewChatSeconds As Integer
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.WarnNewChatSeconds*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.WarnManagerNewChatSeconds
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.WarnManagerNewChatSeconds
+  id: WarnManagerNewChatSeconds
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: WarnManagerNewChatSeconds
+  nameWithType: ChatTopicEntity.WarnManagerNewChatSeconds
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.WarnManagerNewChatSeconds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContains the manager notify time in seconds\n"
+  syntax:
+    content: public virtual int WarnManagerNewChatSeconds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property WarnManagerNewChatSeconds As Integer
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.WarnManagerNewChatSeconds*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.TicketEnabled
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.TicketEnabled
+  id: TicketEnabled
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketEnabled
+  nameWithType: ChatTopicEntity.TicketEnabled
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.TicketEnabled
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnable ticket submission in offline mode\n"
+  syntax:
+    content: public virtual bool TicketEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property TicketEnabled As Boolean
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.TicketEnabled*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.TicketCategory
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.TicketCategory
+  id: TicketCategory
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketCategory
+  nameWithType: ChatTopicEntity.TicketCategory
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.TicketCategory
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCategory on ticket created from off-line request\n"
+  syntax:
+    content: public virtual TicketCategory TicketCategory { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TicketCategory
+    content.vb: Public Overridable Property TicketCategory As TicketCategory
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.TicketCategory*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.TicketPriority
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.TicketPriority
+  id: TicketPriority
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketPriority
+  nameWithType: ChatTopicEntity.TicketPriority
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.TicketPriority
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPriority on ticket created from off-line request\n"
+  syntax:
+    content: public virtual TicketPriority TicketPriority { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TicketPriority
+    content.vb: Public Overridable Property TicketPriority As TicketPriority
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.TicketPriority*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.OpeningHoursEnabled
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.OpeningHoursEnabled
+  id: OpeningHoursEnabled
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: OpeningHoursEnabled
+  nameWithType: ChatTopicEntity.OpeningHoursEnabled
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.OpeningHoursEnabled
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhether to use opening hours or not.\n"
+  syntax:
+    content: public virtual bool OpeningHoursEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property OpeningHoursEnabled As Boolean
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.OpeningHoursEnabled*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.OpeningHours
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.OpeningHours
+  id: OpeningHours
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: OpeningHours
+  nameWithType: ChatTopicEntity.OpeningHours
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.OpeningHours
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOpening hours settings\n"
+  syntax:
+    content: public virtual ChatOpeningHours OpeningHours { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ChatOpeningHours
+    content.vb: Public Overridable Property OpeningHours As ChatOpeningHours
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.OpeningHours*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.Widget
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.Widget
+  id: Widget
+  parent: SuperOffice.WebApi.Data.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: Widget
+  nameWithType: ChatTopicEntity.Widget
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.Widget
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSettings for the chat widget\n"
+  syntax:
+    content: public virtual ChatWidgetSettings Widget { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ChatWidgetSettings
+    content.vb: Public Overridable Property Widget As ChatWidgetSettings
+  overload: SuperOffice.WebApi.Data.ChatTopicEntity.Widget*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ChatAgent
+  commentId: T:SuperOffice.WebApi.Agents.ChatAgent
+  isExternal: true
+  name: ChatAgent
+  nameWithType: ChatAgent
+  fullName: SuperOffice.WebApi.Agents.ChatAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.#ctor
+  isExternal: true
+  name: ChatTopicEntity
+  nameWithType: ChatTopicEntity.ChatTopicEntity
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.ChatTopicEntity
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.ChatTopicId*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.ChatTopicId
+  isExternal: true
+  name: ChatTopicId
+  nameWithType: ChatTopicEntity.ChatTopicId
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.ChatTopicId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: ChatTopicEntity.Name
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.Description
+  isExternal: true
+  name: Description
+  nameWithType: ChatTopicEntity.Description
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.Description
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.WelcomeMessage*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.WelcomeMessage
+  isExternal: true
+  name: WelcomeMessage
+  nameWithType: ChatTopicEntity.WelcomeMessage
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.WelcomeMessage
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.Language*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.Language
+  isExternal: true
+  name: Language
+  nameWithType: ChatTopicEntity.Language
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.Language
+- uid: SuperOffice.WebApi.Data.CustomerLanguage
+  commentId: T:SuperOffice.WebApi.Data.CustomerLanguage
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: CustomerLanguage
+  nameWithType: CustomerLanguage
+  fullName: SuperOffice.WebApi.Data.CustomerLanguage
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.LastAccept*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.LastAccept
+  isExternal: true
+  name: LastAccept
+  nameWithType: ChatTopicEntity.LastAccept
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.LastAccept
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.SecondsPrAccept*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.SecondsPrAccept
+  isExternal: true
+  name: SecondsPrAccept
+  nameWithType: ChatTopicEntity.SecondsPrAccept
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.SecondsPrAccept
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.AlertRecipient*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.AlertRecipient
+  isExternal: true
+  name: AlertRecipient
+  nameWithType: ChatTopicEntity.AlertRecipient
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.AlertRecipient
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.AlertTemplate*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.AlertTemplate
+  isExternal: true
+  name: AlertTemplate
+  nameWithType: ChatTopicEntity.AlertTemplate
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.AlertTemplate
+- uid: SuperOffice.WebApi.Data.ReplyTemplate
+  commentId: T:SuperOffice.WebApi.Data.ReplyTemplate
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ReplyTemplate
+  nameWithType: ReplyTemplate
+  fullName: SuperOffice.WebApi.Data.ReplyTemplate
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.Flags_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.Flags_String
+  isExternal: true
+  name: Flags_String
+  nameWithType: ChatTopicEntity.Flags_String
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.Flags_String
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.Flags
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.Flags
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.Flags*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.Flags
+  isExternal: true
+  name: Flags
+  nameWithType: ChatTopicEntity.Flags
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.Flags
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.Flags_String
+  commentId: P:SuperOffice.WebApi.Data.ChatTopicEntity.Flags_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ChatTopicFlag}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ChatTopicFlag}'
+  definition: System.Nullable`1
+  name: Nullable<ChatTopicFlag>
+  nameWithType: Nullable<ChatTopicFlag>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ChatTopicFlag>
+  nameWithType.vb: Nullable(Of ChatTopicFlag)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ChatTopicFlag)
+  name.vb: Nullable(Of ChatTopicFlag)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ChatTopicFlag
+    name: ChatTopicFlag
+    nameWithType: ChatTopicFlag
+    fullName: SuperOffice.WebApi.Data.ChatTopicFlag
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ChatTopicFlag
+    name: ChatTopicFlag
+    nameWithType: ChatTopicFlag
+    fullName: SuperOffice.WebApi.Data.ChatTopicFlag
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.BadgeHeader*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.BadgeHeader
+  isExternal: true
+  name: BadgeHeader
+  nameWithType: ChatTopicEntity.BadgeHeader
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.BadgeHeader
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.CustomQueueText*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.CustomQueueText
+  isExternal: true
+  name: CustomQueueText
+  nameWithType: ChatTopicEntity.CustomQueueText
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.CustomQueueText
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.WarnNewChatSeconds*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.WarnNewChatSeconds
+  isExternal: true
+  name: WarnNewChatSeconds
+  nameWithType: ChatTopicEntity.WarnNewChatSeconds
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.WarnNewChatSeconds
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.WarnManagerNewChatSeconds*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.WarnManagerNewChatSeconds
+  isExternal: true
+  name: WarnManagerNewChatSeconds
+  nameWithType: ChatTopicEntity.WarnManagerNewChatSeconds
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.WarnManagerNewChatSeconds
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.TicketEnabled*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.TicketEnabled
+  isExternal: true
+  name: TicketEnabled
+  nameWithType: ChatTopicEntity.TicketEnabled
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.TicketEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.TicketCategory*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.TicketCategory
+  isExternal: true
+  name: TicketCategory
+  nameWithType: ChatTopicEntity.TicketCategory
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.TicketCategory
+- uid: SuperOffice.WebApi.Data.TicketCategory
+  commentId: T:SuperOffice.WebApi.Data.TicketCategory
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TicketCategory
+  nameWithType: TicketCategory
+  fullName: SuperOffice.WebApi.Data.TicketCategory
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.TicketPriority*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.TicketPriority
+  isExternal: true
+  name: TicketPriority
+  nameWithType: ChatTopicEntity.TicketPriority
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.TicketPriority
+- uid: SuperOffice.WebApi.Data.TicketPriority
+  commentId: T:SuperOffice.WebApi.Data.TicketPriority
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TicketPriority
+  nameWithType: TicketPriority
+  fullName: SuperOffice.WebApi.Data.TicketPriority
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.OpeningHoursEnabled*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.OpeningHoursEnabled
+  isExternal: true
+  name: OpeningHoursEnabled
+  nameWithType: ChatTopicEntity.OpeningHoursEnabled
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.OpeningHoursEnabled
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.OpeningHours*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.OpeningHours
+  isExternal: true
+  name: OpeningHours
+  nameWithType: ChatTopicEntity.OpeningHours
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.OpeningHours
+- uid: SuperOffice.WebApi.Data.ChatOpeningHours
+  commentId: T:SuperOffice.WebApi.Data.ChatOpeningHours
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ChatOpeningHours
+  nameWithType: ChatOpeningHours
+  fullName: SuperOffice.WebApi.Data.ChatOpeningHours
+- uid: SuperOffice.WebApi.Data.ChatTopicEntity.Widget*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatTopicEntity.Widget
+  isExternal: true
+  name: Widget
+  nameWithType: ChatTopicEntity.Widget
+  fullName: SuperOffice.WebApi.Data.ChatTopicEntity.Widget
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings
+  commentId: T:SuperOffice.WebApi.Data.ChatWidgetSettings
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ChatWidgetSettings
+  nameWithType: ChatWidgetSettings
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings

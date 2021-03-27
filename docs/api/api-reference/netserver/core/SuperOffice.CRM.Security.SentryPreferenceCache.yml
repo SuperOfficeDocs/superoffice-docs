@@ -1,0 +1,1138 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Security.SentryPreferenceCache
+  commentId: T:SuperOffice.CRM.Security.SentryPreferenceCache
+  id: SentryPreferenceCache
+  parent: SuperOffice.CRM.Security
+  children:
+  - SuperOffice.CRM.Security.SentryPreferenceCache.GetCachedTableNumbers
+  - SuperOffice.CRM.Security.SentryPreferenceCache.GetCurrent
+  - SuperOffice.CRM.Security.SentryPreferenceCache.GetFieldRights(System.Int32,System.Int32,System.Int32)
+  - SuperOffice.CRM.Security.SentryPreferenceCache.GetFieldRights(System.Int32,System.Int32,System.Int32,SuperOffice.Security.Principal.SoPrincipal)
+  - SuperOffice.CRM.Security.SentryPreferenceCache.GetFieldRights(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  - SuperOffice.CRM.Security.SentryPreferenceCache.GetTableRights(System.Int32,System.Int32)
+  - SuperOffice.CRM.Security.SentryPreferenceCache.GetTableRights(System.Int32,System.Int32,System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: SentryPreferenceCache
+  nameWithType: SentryPreferenceCache
+  fullName: SuperOffice.CRM.Security.SentryPreferenceCache
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nSummary description for SentryPreferenceCache.\n"
+  syntax:
+    content: >-
+      [Cache(1800, "Database")]
+
+      public class SentryPreferenceCache : XCacheBase, IFlushable
+    content.vb: >-
+      <Cache(1800, "Database")>
+
+      Public Class SentryPreferenceCache
+          Inherits XCacheBase
+          Implements IFlushable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.Cache.XCacheBase
+  implements:
+  - SuperOffice.Data.Cache.IFlushable
+  inheritedMembers:
+  - SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute(System.Type)
+  - SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance``1
+  - SuperOffice.Data.Cache.XCacheBase.Flush
+  - SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+  - SuperOffice.Data.Cache.XCacheBase.Timeout
+  - SuperOffice.Data.Cache.XCacheBase.LastTouch
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Security.SentryPreferenceCache.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Security.SentryPreferenceCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.Cache.CacheAttribute
+    ctor: SuperOffice.Data.Cache.CacheAttribute.#ctor(System.Int32,System.String)
+    arguments:
+    - type: System.Int32
+      value: 1800
+    - type: System.String
+      value: Database
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Security.SentryPreferenceCache.GetTableRights(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Security.SentryPreferenceCache.GetTableRights(System.Int32,System.Int32)
+  id: GetTableRights(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Security.SentryPreferenceCache
+  langs:
+  - csharp
+  - vb
+  name: GetTableRights(Int32, Int32)
+  nameWithType: SentryPreferenceCache.GetTableRights(Int32, Int32)
+  fullName: SuperOffice.CRM.Security.SentryPreferenceCache.GetTableRights(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nGet table rights from the preference system for the logged in user.\n"
+  syntax:
+    content: public TableRight GetTableRights(int sentryTable, int rowId)
+    parameters:
+    - id: sentryTable
+      type: System.Int32
+      description: TableNumber for the main sentry table.
+    - id: rowId
+      type: System.Int32
+      description: Primary key of the row.  0 if the row is new.
+    return:
+      type: SuperOffice.CRM.Security.TableRight
+      description: Table rights from the preference system.
+    content.vb: Public Function GetTableRights(sentryTable As Integer, rowId As Integer) As TableRight
+  overload: SuperOffice.CRM.Security.SentryPreferenceCache.GetTableRights*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.SentryPreferenceCache.GetTableRights(System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Security.SentryPreferenceCache.GetTableRights(System.Int32,System.Int32,System.Int32,System.Int32)
+  id: GetTableRights(System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Security.SentryPreferenceCache
+  langs:
+  - csharp
+  - vb
+  name: GetTableRights(Int32, Int32, Int32, Int32)
+  nameWithType: SentryPreferenceCache.GetTableRights(Int32, Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Security.SentryPreferenceCache.GetTableRights(System.Int32, System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nGet table rights from the preference system for a user.\n"
+  syntax:
+    content: public TableRight GetTableRights(int sentryTable, int associateId, int groupId, int rowId)
+    parameters:
+    - id: sentryTable
+      type: System.Int32
+      description: TableNumber for the main sentry table.
+    - id: associateId
+      type: System.Int32
+      description: AssociateId for the user to get the rights for.
+    - id: groupId
+      type: System.Int32
+      description: Group id for the user to get the rights for
+    - id: rowId
+      type: System.Int32
+      description: Primary key of the row.  0 if the row is new.
+    return:
+      type: SuperOffice.CRM.Security.TableRight
+      description: Table rights from the preference system.
+    content.vb: Public Function GetTableRights(sentryTable As Integer, associateId As Integer, groupId As Integer, rowId As Integer) As TableRight
+  overload: SuperOffice.CRM.Security.SentryPreferenceCache.GetTableRights*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.SentryPreferenceCache.GetFieldRights(System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Security.SentryPreferenceCache.GetFieldRights(System.Int32,System.Int32,System.Int32)
+  id: GetFieldRights(System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Security.SentryPreferenceCache
+  langs:
+  - csharp
+  - vb
+  name: GetFieldRights(Int32, Int32, Int32)
+  nameWithType: SentryPreferenceCache.GetFieldRights(Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Security.SentryPreferenceCache.GetFieldRights(System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nGet the field rights from the preference system for a user.\n"
+  syntax:
+    content: public FieldRight GetFieldRights(int sentryTable, int fieldId, int rowId)
+    parameters:
+    - id: sentryTable
+      type: System.Int32
+      description: TableNumber for the main sentry table.
+    - id: fieldId
+      type: System.Int32
+      description: FieldNumber (TableNumber [left shift] 8 + FieldNumber) for the field to look up
+    - id: rowId
+      type: System.Int32
+      description: Primary key of the row.  0 if the row is new.
+    return:
+      type: SuperOffice.CRM.Security.FieldRight
+      description: Field rights from the preference system.
+    content.vb: Public Function GetFieldRights(sentryTable As Integer, fieldId As Integer, rowId As Integer) As FieldRight
+  overload: SuperOffice.CRM.Security.SentryPreferenceCache.GetFieldRights*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.SentryPreferenceCache.GetFieldRights(System.Int32,System.Int32,System.Int32,SuperOffice.Security.Principal.SoPrincipal)
+  commentId: M:SuperOffice.CRM.Security.SentryPreferenceCache.GetFieldRights(System.Int32,System.Int32,System.Int32,SuperOffice.Security.Principal.SoPrincipal)
+  id: GetFieldRights(System.Int32,System.Int32,System.Int32,SuperOffice.Security.Principal.SoPrincipal)
+  parent: SuperOffice.CRM.Security.SentryPreferenceCache
+  langs:
+  - csharp
+  - vb
+  name: GetFieldRights(Int32, Int32, Int32, SoPrincipal)
+  nameWithType: SentryPreferenceCache.GetFieldRights(Int32, Int32, Int32, SoPrincipal)
+  fullName: SuperOffice.CRM.Security.SentryPreferenceCache.GetFieldRights(System.Int32, System.Int32, System.Int32, SuperOffice.Security.Principal.SoPrincipal)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nGet the field rights from the preference system for a user.\n"
+  syntax:
+    content: public FieldRight GetFieldRights(int sentryTable, int fieldId, int rowId, SoPrincipal principal)
+    parameters:
+    - id: sentryTable
+      type: System.Int32
+      description: TableNumber for the main sentry table.
+    - id: fieldId
+      type: System.Int32
+      description: FieldNumber (TableNumber [left shift] 8 + FieldNumber) for the field to look up
+    - id: rowId
+      type: System.Int32
+      description: Primary key of the row.  0 if the row is new.
+    - id: principal
+      type: SuperOffice.Security.Principal.SoPrincipal
+      description: Providing the princpial for optimization
+    return:
+      type: SuperOffice.CRM.Security.FieldRight
+      description: Field rights from the preference system.
+    content.vb: Public Function GetFieldRights(sentryTable As Integer, fieldId As Integer, rowId As Integer, principal As SoPrincipal) As FieldRight
+  overload: SuperOffice.CRM.Security.SentryPreferenceCache.GetFieldRights*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.SentryPreferenceCache.GetFieldRights(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Security.SentryPreferenceCache.GetFieldRights(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  id: GetFieldRights(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Security.SentryPreferenceCache
+  langs:
+  - csharp
+  - vb
+  name: GetFieldRights(Int32, Int32, Int32, Int32, Int32)
+  nameWithType: SentryPreferenceCache.GetFieldRights(Int32, Int32, Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Security.SentryPreferenceCache.GetFieldRights(System.Int32, System.Int32, System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nGet the field rights from the preference system for a user.\n"
+  syntax:
+    content: public FieldRight GetFieldRights(int sentryTable, int fieldId, int associateId, int groupId, int rowId)
+    parameters:
+    - id: sentryTable
+      type: System.Int32
+      description: TableNumber for the main sentry table.
+    - id: fieldId
+      type: System.Int32
+      description: FieldNumber (TableNumber [left shift] 8 + FieldNumber) for the field to look up
+    - id: associateId
+      type: System.Int32
+      description: AssociateId for the user to get the rights for.
+    - id: groupId
+      type: System.Int32
+      description: Group id for the user to get the rights for
+    - id: rowId
+      type: System.Int32
+      description: Primary key of the row.  0 if the row is new.
+    return:
+      type: SuperOffice.CRM.Security.FieldRight
+      description: Field rights from the preference system.
+    content.vb: Public Function GetFieldRights(sentryTable As Integer, fieldId As Integer, associateId As Integer, groupId As Integer, rowId As Integer) As FieldRight
+  overload: SuperOffice.CRM.Security.SentryPreferenceCache.GetFieldRights*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.SentryPreferenceCache.GetCachedTableNumbers
+  commentId: M:SuperOffice.CRM.Security.SentryPreferenceCache.GetCachedTableNumbers
+  id: GetCachedTableNumbers
+  parent: SuperOffice.CRM.Security.SentryPreferenceCache
+  langs:
+  - csharp
+  - vb
+  name: GetCachedTableNumbers()
+  nameWithType: SentryPreferenceCache.GetCachedTableNumbers()
+  fullName: SuperOffice.CRM.Security.SentryPreferenceCache.GetCachedTableNumbers()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public override int[] GetCachedTableNumbers()
+    return:
+      type: System.Int32[]
+    content.vb: Public Overrides Function GetCachedTableNumbers As Integer()
+  overridden: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
+  overload: SuperOffice.CRM.Security.SentryPreferenceCache.GetCachedTableNumbers*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Security.SentryPreferenceCache.GetCurrent
+  commentId: M:SuperOffice.CRM.Security.SentryPreferenceCache.GetCurrent
+  id: GetCurrent
+  parent: SuperOffice.CRM.Security.SentryPreferenceCache
+  langs:
+  - csharp
+  - vb
+  name: GetCurrent()
+  nameWithType: SentryPreferenceCache.GetCurrent()
+  fullName: SuperOffice.CRM.Security.SentryPreferenceCache.GetCurrent()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nObtain an instance of the cache\n"
+  syntax:
+    content: public static SentryPreferenceCache GetCurrent()
+    return:
+      type: SuperOffice.CRM.Security.SentryPreferenceCache
+    content.vb: Public Shared Function GetCurrent As SentryPreferenceCache
+  overload: SuperOffice.CRM.Security.SentryPreferenceCache.GetCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Security
+  commentId: N:SuperOffice.CRM.Security
+  isExternal: true
+  name: SuperOffice.CRM.Security
+  nameWithType: SuperOffice.CRM.Security
+  fullName: SuperOffice.CRM.Security
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.Cache.XCacheBase
+  commentId: T:SuperOffice.Data.Cache.XCacheBase
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: XCacheBase
+  nameWithType: XCacheBase
+  fullName: SuperOffice.Data.Cache.XCacheBase
+- uid: SuperOffice.Data.Cache.IFlushable
+  commentId: T:SuperOffice.Data.Cache.IFlushable
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: IFlushable
+  nameWithType: IFlushable
+  fullName: SuperOffice.Data.Cache.IFlushable
+- uid: SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute(System.Type)
+  commentId: M:SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute(System.Type)
+  parent: SuperOffice.Data.Cache.XCacheBase
+  isExternal: true
+  name: GetCacheAttribute(Type)
+  nameWithType: XCacheBase.GetCacheAttribute(Type)
+  fullName: SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute(System.Type)
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute(System.Type)
+    name: GetCacheAttribute
+    nameWithType: XCacheBase.GetCacheAttribute
+    fullName: SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute(System.Type)
+    name: GetCacheAttribute
+    nameWithType: XCacheBase.GetCacheAttribute
+    fullName: SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance``1
+  commentId: M:SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance``1
+  parent: SuperOffice.Data.Cache.XCacheBase
+  isExternal: true
+  name: GetCurrentInstance<CacheType>()
+  nameWithType: XCacheBase.GetCurrentInstance<CacheType>()
+  fullName: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance<CacheType>()
+  nameWithType.vb: XCacheBase.GetCurrentInstance(Of CacheType)()
+  fullName.vb: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance(Of CacheType)()
+  name.vb: GetCurrentInstance(Of CacheType)()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance``1
+    name: GetCurrentInstance<CacheType>
+    nameWithType: XCacheBase.GetCurrentInstance<CacheType>
+    fullName: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance<CacheType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance``1
+    name: GetCurrentInstance(Of CacheType)
+    nameWithType: XCacheBase.GetCurrentInstance(Of CacheType)
+    fullName: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance(Of CacheType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.XCacheBase.Flush
+  commentId: M:SuperOffice.Data.Cache.XCacheBase.Flush
+  parent: SuperOffice.Data.Cache.XCacheBase
+  isExternal: true
+  name: Flush()
+  nameWithType: XCacheBase.Flush()
+  fullName: SuperOffice.Data.Cache.XCacheBase.Flush()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.XCacheBase.Flush
+    name: Flush
+    nameWithType: XCacheBase.Flush
+    fullName: SuperOffice.Data.Cache.XCacheBase.Flush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.XCacheBase.Flush
+    name: Flush
+    nameWithType: XCacheBase.Flush
+    fullName: SuperOffice.Data.Cache.XCacheBase.Flush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+  commentId: M:SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+  parent: SuperOffice.Data.Cache.XCacheBase
+  isExternal: true
+  name: IsCacheInvalidated(Int32, SqlType, Int32)
+  nameWithType: XCacheBase.IsCacheInvalidated(Int32, SqlType, Int32)
+  fullName: SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated(System.Int32, SuperOffice.Data.SQL.SqlType, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+    name: IsCacheInvalidated
+    nameWithType: XCacheBase.IsCacheInvalidated
+    fullName: SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.SqlType
+    name: SqlType
+    nameWithType: SqlType
+    fullName: SuperOffice.Data.SQL.SqlType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+    name: IsCacheInvalidated
+    nameWithType: XCacheBase.IsCacheInvalidated
+    fullName: SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.SqlType
+    name: SqlType
+    nameWithType: SqlType
+    fullName: SuperOffice.Data.SQL.SqlType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.XCacheBase.Timeout
+  commentId: P:SuperOffice.Data.Cache.XCacheBase.Timeout
+  parent: SuperOffice.Data.Cache.XCacheBase
+  isExternal: true
+  name: Timeout
+  nameWithType: XCacheBase.Timeout
+  fullName: SuperOffice.Data.Cache.XCacheBase.Timeout
+- uid: SuperOffice.Data.Cache.XCacheBase.LastTouch
+  commentId: P:SuperOffice.Data.Cache.XCacheBase.LastTouch
+  parent: SuperOffice.Data.Cache.XCacheBase
+  isExternal: true
+  name: LastTouch
+  nameWithType: XCacheBase.LastTouch
+  fullName: SuperOffice.Data.Cache.XCacheBase.LastTouch
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryPreferenceCache.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SentryPreferenceCache, To>()
+  nameWithType: EnumUtil.MapEnums<SentryPreferenceCache, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.SentryPreferenceCache, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SentryPreferenceCache, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.SentryPreferenceCache, To)()
+  name.vb: MapEnums(Of SentryPreferenceCache, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SentryPreferenceCache, To>
+    nameWithType: EnumUtil.MapEnums<SentryPreferenceCache, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.SentryPreferenceCache, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SentryPreferenceCache, To)
+    nameWithType: EnumUtil.MapEnums(Of SentryPreferenceCache, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.SentryPreferenceCache, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryPreferenceCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SentryPreferenceCache, To>()
+  nameWithType: Converters.MapEnums<SentryPreferenceCache, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.SentryPreferenceCache, To>()
+  nameWithType.vb: Converters.MapEnums(Of SentryPreferenceCache, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.SentryPreferenceCache, To)()
+  name.vb: MapEnums(Of SentryPreferenceCache, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SentryPreferenceCache, To>
+    nameWithType: Converters.MapEnums<SentryPreferenceCache, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.SentryPreferenceCache, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SentryPreferenceCache, To)
+    nameWithType: Converters.MapEnums(Of SentryPreferenceCache, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.SentryPreferenceCache, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.Cache
+  commentId: N:SuperOffice.Data.Cache
+  isExternal: true
+  name: SuperOffice.Data.Cache
+  nameWithType: SuperOffice.Data.Cache
+  fullName: SuperOffice.Data.Cache
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Security.SentryPreferenceCache.GetTableRights*
+  commentId: Overload:SuperOffice.CRM.Security.SentryPreferenceCache.GetTableRights
+  isExternal: true
+  name: GetTableRights
+  nameWithType: SentryPreferenceCache.GetTableRights
+  fullName: SuperOffice.CRM.Security.SentryPreferenceCache.GetTableRights
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Security.TableRight
+  commentId: T:SuperOffice.CRM.Security.TableRight
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: TableRight
+  nameWithType: TableRight
+  fullName: SuperOffice.CRM.Security.TableRight
+- uid: SuperOffice.CRM.Security.SentryPreferenceCache.GetFieldRights*
+  commentId: Overload:SuperOffice.CRM.Security.SentryPreferenceCache.GetFieldRights
+  isExternal: true
+  name: GetFieldRights
+  nameWithType: SentryPreferenceCache.GetFieldRights
+  fullName: SuperOffice.CRM.Security.SentryPreferenceCache.GetFieldRights
+- uid: SuperOffice.CRM.Security.FieldRight
+  commentId: T:SuperOffice.CRM.Security.FieldRight
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: FieldRight
+  nameWithType: FieldRight
+  fullName: SuperOffice.CRM.Security.FieldRight
+- uid: SuperOffice.Security.Principal.SoPrincipal
+  commentId: T:SuperOffice.Security.Principal.SoPrincipal
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: SoPrincipal
+  nameWithType: SoPrincipal
+  fullName: SuperOffice.Security.Principal.SoPrincipal
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+- uid: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
+  commentId: M:SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
+  parent: SuperOffice.Data.Cache.XCacheBase
+  isExternal: true
+  name: GetCachedTableNumbers()
+  nameWithType: XCacheBase.GetCachedTableNumbers()
+  fullName: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
+    name: GetCachedTableNumbers
+    nameWithType: XCacheBase.GetCachedTableNumbers
+    fullName: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
+    name: GetCachedTableNumbers
+    nameWithType: XCacheBase.GetCachedTableNumbers
+    fullName: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryPreferenceCache.GetCachedTableNumbers*
+  commentId: Overload:SuperOffice.CRM.Security.SentryPreferenceCache.GetCachedTableNumbers
+  isExternal: true
+  name: GetCachedTableNumbers
+  nameWithType: SentryPreferenceCache.GetCachedTableNumbers
+  fullName: SuperOffice.CRM.Security.SentryPreferenceCache.GetCachedTableNumbers
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Security.SentryPreferenceCache.GetCurrent*
+  commentId: Overload:SuperOffice.CRM.Security.SentryPreferenceCache.GetCurrent
+  isExternal: true
+  name: GetCurrent
+  nameWithType: SentryPreferenceCache.GetCurrent
+  fullName: SuperOffice.CRM.Security.SentryPreferenceCache.GetCurrent
+- uid: SuperOffice.CRM.Security.SentryPreferenceCache
+  commentId: T:SuperOffice.CRM.Security.SentryPreferenceCache
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: SentryPreferenceCache
+  nameWithType: SentryPreferenceCache
+  fullName: SuperOffice.CRM.Security.SentryPreferenceCache

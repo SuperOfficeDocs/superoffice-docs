@@ -1,0 +1,2565 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData
+  commentId: T:SuperOffice.CRM.Rows.ChatTopicRecordData
+  id: ChatTopicRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.#ctor
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.AlertRecipient
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.AlertTemplate
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.AlertTimeout
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.BadgeHeader
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.CategoryId
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.ChatTopicId
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.CustomQueueText
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.Description
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.Flags
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.FriEnabled
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.FriStart
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.FriStop
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.KbCategoryId
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.LanguageId
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.LastAccept
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.ManagerWarningNewChat
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.MonEnabled
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.MonStart
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.MonStop
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.Name
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.PriorityId
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.SatEnabled
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.SatStart
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.SatStop
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.SecondsPrAccept
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.SunEnabled
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.SunStart
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.SunStop
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.ThuEnabled
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.ThuStart
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.ThuStop
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.TueEnabled
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.TueStart
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.TueStop
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.TzLocationId
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.UseOpeningHours
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WarningNewChat
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WedEnabled
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WedStart
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WedStop
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WelcomeMessage
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetAutoFaq
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetColor
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetEnableTicket
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetFont
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetLanguage
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetOfflineFields
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetOfflineHeader
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetOfflineMessage
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPostForm
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPostHeader
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPostMessage
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPostTranscript
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPreForm
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPreMessage
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetRequiredFields
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetShowAgentPhoto
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetShowLogo
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetTheme
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetWelcomeMessage
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetWelcomeTitle
+  langs:
+  - csharp
+  - vb
+  name: ChatTopicRecordData
+  nameWithType: ChatTopicRecordData
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the chat_topic table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.ChatTopicRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.ChatTopicTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class ChatTopicRecordData
+    content.vb: Public Class ChatTopicRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ChatTopicRecordData)
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ChatTopicRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.ChatTopicId
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.ChatTopicId
+  id: ChatTopicId
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: ChatTopicId
+  nameWithType: ChatTopicRecordData.ChatTopicId
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.ChatTopicId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe primary key (auto-incremented) \n"
+  syntax:
+    content: public int ChatTopicId
+    return:
+      type: System.Int32
+    content.vb: Public ChatTopicId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.Description
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.Description
+  id: Description
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: ChatTopicRecordData.Description
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe descriptiong for this topic. \n"
+  syntax:
+    content: public string Description
+    return:
+      type: System.String
+    content.vb: Public Description As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.LanguageId
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.LanguageId
+  id: LanguageId
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: LanguageId
+  nameWithType: ChatTopicRecordData.LanguageId
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.LanguageId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe reference to the associated customer language. NULL or -1 if not set. \n"
+  syntax:
+    content: public int LanguageId
+    return:
+      type: System.Int32
+    content.vb: Public LanguageId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WelcomeMessage
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WelcomeMessage
+  id: WelcomeMessage
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WelcomeMessage
+  nameWithType: ChatTopicRecordData.WelcomeMessage
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WelcomeMessage
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe welcome message sent to the customer when the chat session starts. \n"
+  syntax:
+    content: public string WelcomeMessage
+    return:
+      type: System.String
+    content.vb: Public WelcomeMessage As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.LastAccept
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.LastAccept
+  id: LastAccept
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: LastAccept
+  nameWithType: ChatTopicRecordData.LastAccept
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.LastAccept
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe last time a session was accepted from the inside for this topic. \n"
+  syntax:
+    content: public DateTime LastAccept
+    return:
+      type: System.DateTime
+    content.vb: Public LastAccept As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.SecondsPrAccept
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.SecondsPrAccept
+  id: SecondsPrAccept
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: SecondsPrAccept
+  nameWithType: ChatTopicRecordData.SecondsPrAccept
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.SecondsPrAccept
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe average number of seconds per accept for this topic. \n"
+  syntax:
+    content: public int SecondsPrAccept
+    return:
+      type: System.Int32
+    content.vb: Public SecondsPrAccept As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.AlertTimeout
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.AlertTimeout
+  id: AlertTimeout
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: AlertTimeout
+  nameWithType: ChatTopicRecordData.AlertTimeout
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.AlertTimeout
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe number of seconds for an unanswered session before we alert \n"
+  syntax:
+    content: public int AlertTimeout
+    return:
+      type: System.Int32
+    content.vb: Public AlertTimeout As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.AlertTemplate
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.AlertTemplate
+  id: AlertTemplate
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: AlertTemplate
+  nameWithType: ChatTopicRecordData.AlertTemplate
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.AlertTemplate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe reply template to use for alerting \n"
+  syntax:
+    content: public int AlertTemplate
+    return:
+      type: System.Int32
+    content.vb: Public AlertTemplate As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.AlertRecipient
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.AlertRecipient
+  id: AlertRecipient
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: AlertRecipient
+  nameWithType: ChatTopicRecordData.AlertRecipient
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.AlertRecipient
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe recipient(s) for the alert template \n"
+  syntax:
+    content: public string AlertRecipient
+    return:
+      type: System.String
+    content.vb: Public AlertRecipient As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.Flags
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.Flags
+  id: Flags
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: ChatTopicRecordData.Flags
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.Flags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFlags for this topic: show popup alert?, collect consent first?, use custom message? \n"
+  syntax:
+    content: public ChatTopicFlag Flags
+    return:
+      type: SuperOffice.Data.ChatTopicFlag
+    content.vb: Public Flags As ChatTopicFlag
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.Name
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.Name
+  id: Name
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ChatTopicRecordData.Name
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe name of this chat topic \n"
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.BadgeHeader
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.BadgeHeader
+  id: BadgeHeader
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: BadgeHeader
+  nameWithType: ChatTopicRecordData.BadgeHeader
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.BadgeHeader
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe badge header of the chat topic \n"
+  syntax:
+    content: public string BadgeHeader
+    return:
+      type: System.String
+    content.vb: Public BadgeHeader As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WarningNewChat
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WarningNewChat
+  id: WarningNewChat
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WarningNewChat
+  nameWithType: ChatTopicRecordData.WarningNewChat
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WarningNewChat
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nContains the user notify time in seconds \n"
+  syntax:
+    content: public int WarningNewChat
+    return:
+      type: System.Int32
+    content.vb: Public WarningNewChat As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.ManagerWarningNewChat
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.ManagerWarningNewChat
+  id: ManagerWarningNewChat
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: ManagerWarningNewChat
+  nameWithType: ChatTopicRecordData.ManagerWarningNewChat
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.ManagerWarningNewChat
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nContains the manager notify time in seconds \n"
+  syntax:
+    content: public int ManagerWarningNewChat
+    return:
+      type: System.Int32
+    content.vb: Public ManagerWarningNewChat As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetTheme
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetTheme
+  id: WidgetTheme
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetTheme
+  nameWithType: ChatTopicRecordData.WidgetTheme
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetTheme
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPredefined themes for the chat widget \n"
+  syntax:
+    content: public WidgetTheme WidgetTheme
+    return:
+      type: SuperOffice.Data.WidgetTheme
+    content.vb: Public WidgetTheme As WidgetTheme
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetColor
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetColor
+  id: WidgetColor
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetColor
+  nameWithType: ChatTopicRecordData.WidgetColor
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetColor
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe base color of the widget \n"
+  syntax:
+    content: public string WidgetColor
+    return:
+      type: System.String
+    content.vb: Public WidgetColor As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetFont
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetFont
+  id: WidgetFont
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetFont
+  nameWithType: ChatTopicRecordData.WidgetFont
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetFont
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe font used in the widget \n"
+  syntax:
+    content: public string WidgetFont
+    return:
+      type: System.String
+    content.vb: Public WidgetFont As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetShowLogo
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetShowLogo
+  id: WidgetShowLogo
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetShowLogo
+  nameWithType: ChatTopicRecordData.WidgetShowLogo
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetShowLogo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIndicates if the logo should be shown in the widget \n"
+  syntax:
+    content: public short WidgetShowLogo
+    return:
+      type: System.Int16
+    content.vb: Public WidgetShowLogo As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetShowAgentPhoto
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetShowAgentPhoto
+  id: WidgetShowAgentPhoto
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetShowAgentPhoto
+  nameWithType: ChatTopicRecordData.WidgetShowAgentPhoto
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetShowAgentPhoto
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nUse agent photo and name when chatting \n"
+  syntax:
+    content: public short WidgetShowAgentPhoto
+    return:
+      type: System.Int16
+    content.vb: Public WidgetShowAgentPhoto As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetWelcomeTitle
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetWelcomeTitle
+  id: WidgetWelcomeTitle
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetWelcomeTitle
+  nameWithType: ChatTopicRecordData.WidgetWelcomeTitle
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetWelcomeTitle
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nShort welcome message when user initiates a chat \n"
+  syntax:
+    content: public string WidgetWelcomeTitle
+    return:
+      type: System.String
+    content.vb: Public WidgetWelcomeTitle As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetWelcomeMessage
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetWelcomeMessage
+  id: WidgetWelcomeMessage
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetWelcomeMessage
+  nameWithType: ChatTopicRecordData.WidgetWelcomeMessage
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetWelcomeMessage
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nShort message displayed as long as the request is in queue or active \n"
+  syntax:
+    content: public string WidgetWelcomeMessage
+    return:
+      type: System.String
+    content.vb: Public WidgetWelcomeMessage As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetOfflineHeader
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetOfflineHeader
+  id: WidgetOfflineHeader
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetOfflineHeader
+  nameWithType: ChatTopicRecordData.WidgetOfflineHeader
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetOfflineHeader
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOffline text shown in widget header \n"
+  syntax:
+    content: public string WidgetOfflineHeader
+    return:
+      type: System.String
+    content.vb: Public WidgetOfflineHeader As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetOfflineMessage
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetOfflineMessage
+  id: WidgetOfflineMessage
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetOfflineMessage
+  nameWithType: ChatTopicRecordData.WidgetOfflineMessage
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetOfflineMessage
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOffline message shown in widget \n"
+  syntax:
+    content: public string WidgetOfflineMessage
+    return:
+      type: System.String
+    content.vb: Public WidgetOfflineMessage As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetEnableTicket
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetEnableTicket
+  id: WidgetEnableTicket
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetEnableTicket
+  nameWithType: ChatTopicRecordData.WidgetEnableTicket
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetEnableTicket
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEnable ticket submission in offline mode \n"
+  syntax:
+    content: public short WidgetEnableTicket
+    return:
+      type: System.Int16
+    content.vb: Public WidgetEnableTicket As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.CategoryId
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.CategoryId
+  id: CategoryId
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: CategoryId
+  nameWithType: ChatTopicRecordData.CategoryId
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.CategoryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCategory on ticket created from off-line request \n"
+  syntax:
+    content: public int CategoryId
+    return:
+      type: System.Int32
+    content.vb: Public CategoryId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.PriorityId
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.PriorityId
+  id: PriorityId
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: PriorityId
+  nameWithType: ChatTopicRecordData.PriorityId
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.PriorityId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPriority on ticket created from off-line request \n"
+  syntax:
+    content: public int PriorityId
+    return:
+      type: System.Int32
+    content.vb: Public PriorityId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetOfflineFields
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetOfflineFields
+  id: WidgetOfflineFields
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetOfflineFields
+  nameWithType: ChatTopicRecordData.WidgetOfflineFields
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetOfflineFields
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRequired field when creating ticket in offline mode \n"
+  syntax:
+    content: public WidgetRequiredFields WidgetOfflineFields
+    return:
+      type: SuperOffice.Data.WidgetRequiredFields
+    content.vb: Public WidgetOfflineFields As WidgetRequiredFields
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetAutoFaq
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetAutoFaq
+  id: WidgetAutoFaq
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetAutoFaq
+  nameWithType: ChatTopicRecordData.WidgetAutoFaq
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetAutoFaq
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEnable automatic FAQ suggestions \n"
+  syntax:
+    content: public short WidgetAutoFaq
+    return:
+      type: System.Int16
+    content.vb: Public WidgetAutoFaq As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.KbCategoryId
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.KbCategoryId
+  id: KbCategoryId
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: KbCategoryId
+  nameWithType: ChatTopicRecordData.KbCategoryId
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.KbCategoryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRoot folder for FAQ suggestions \n"
+  syntax:
+    content: public int KbCategoryId
+    return:
+      type: System.Int32
+    content.vb: Public KbCategoryId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPreForm
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPreForm
+  id: WidgetPreForm
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetPreForm
+  nameWithType: ChatTopicRecordData.WidgetPreForm
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPreForm
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEnable pre-chat form for anonymous users \n"
+  syntax:
+    content: public short WidgetPreForm
+    return:
+      type: System.Int16
+    content.vb: Public WidgetPreForm As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPreMessage
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPreMessage
+  id: WidgetPreMessage
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetPreMessage
+  nameWithType: ChatTopicRecordData.WidgetPreMessage
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPreMessage
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nMessage to be shown in a pre-chat \n"
+  syntax:
+    content: public string WidgetPreMessage
+    return:
+      type: System.String
+    content.vb: Public WidgetPreMessage As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetRequiredFields
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetRequiredFields
+  id: WidgetRequiredFields
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetRequiredFields
+  nameWithType: ChatTopicRecordData.WidgetRequiredFields
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetRequiredFields
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFields required to start a chat \n"
+  syntax:
+    content: public WidgetRequiredFields WidgetRequiredFields
+    return:
+      type: SuperOffice.Data.WidgetRequiredFields
+    content.vb: Public WidgetRequiredFields As WidgetRequiredFields
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPostForm
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPostForm
+  id: WidgetPostForm
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetPostForm
+  nameWithType: ChatTopicRecordData.WidgetPostForm
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPostForm
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEnable post chat form \n"
+  syntax:
+    content: public short WidgetPostForm
+    return:
+      type: System.Int16
+    content.vb: Public WidgetPostForm As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPostHeader
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPostHeader
+  id: WidgetPostHeader
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetPostHeader
+  nameWithType: ChatTopicRecordData.WidgetPostHeader
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPostHeader
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nHeader text to show in post chat form \n"
+  syntax:
+    content: public string WidgetPostHeader
+    return:
+      type: System.String
+    content.vb: Public WidgetPostHeader As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPostMessage
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPostMessage
+  id: WidgetPostMessage
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetPostMessage
+  nameWithType: ChatTopicRecordData.WidgetPostMessage
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPostMessage
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nMessage text to show in post chat form \n"
+  syntax:
+    content: public string WidgetPostMessage
+    return:
+      type: System.String
+    content.vb: Public WidgetPostMessage As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPostTranscript
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPostTranscript
+  id: WidgetPostTranscript
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetPostTranscript
+  nameWithType: ChatTopicRecordData.WidgetPostTranscript
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetPostTranscript
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEnable transcript of chat session \n"
+  syntax:
+    content: public short WidgetPostTranscript
+    return:
+      type: System.Int16
+    content.vb: Public WidgetPostTranscript As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetLanguage
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetLanguage
+  id: WidgetLanguage
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WidgetLanguage
+  nameWithType: ChatTopicRecordData.WidgetLanguage
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WidgetLanguage
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe language ISO code for the widget language \n"
+  syntax:
+    content: public string WidgetLanguage
+    return:
+      type: System.String
+    content.vb: Public WidgetLanguage As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.UseOpeningHours
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.UseOpeningHours
+  id: UseOpeningHours
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: UseOpeningHours
+  nameWithType: ChatTopicRecordData.UseOpeningHours
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.UseOpeningHours
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhether to use opening hours or not. \n"
+  syntax:
+    content: public short UseOpeningHours
+    return:
+      type: System.Int16
+    content.vb: Public UseOpeningHours As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.TzLocationId
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.TzLocationId
+  id: TzLocationId
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: TzLocationId
+  nameWithType: ChatTopicRecordData.TzLocationId
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.TzLocationId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTimezone used for the start/stop times for this topic. \n"
+  syntax:
+    content: public int TzLocationId
+    return:
+      type: System.Int32
+    content.vb: Public TzLocationId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.MonEnabled
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.MonEnabled
+  id: MonEnabled
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: MonEnabled
+  nameWithType: ChatTopicRecordData.MonEnabled
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.MonEnabled
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhether open on Mondays. \n"
+  syntax:
+    content: public short MonEnabled
+    return:
+      type: System.Int16
+    content.vb: Public MonEnabled As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.MonStart
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.MonStart
+  id: MonStart
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: MonStart
+  nameWithType: ChatTopicRecordData.MonStart
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.MonStart
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen opening hours start on Mondays. Only time-part is used. \n"
+  syntax:
+    content: public DateTime MonStart
+    return:
+      type: System.DateTime
+    content.vb: Public MonStart As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.MonStop
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.MonStop
+  id: MonStop
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: MonStop
+  nameWithType: ChatTopicRecordData.MonStop
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.MonStop
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen opening hours stop on Mondays. Only time-part is used. \n"
+  syntax:
+    content: public DateTime MonStop
+    return:
+      type: System.DateTime
+    content.vb: Public MonStop As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.TueEnabled
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.TueEnabled
+  id: TueEnabled
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: TueEnabled
+  nameWithType: ChatTopicRecordData.TueEnabled
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.TueEnabled
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhether open on Tuesdays. \n"
+  syntax:
+    content: public short TueEnabled
+    return:
+      type: System.Int16
+    content.vb: Public TueEnabled As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.TueStart
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.TueStart
+  id: TueStart
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: TueStart
+  nameWithType: ChatTopicRecordData.TueStart
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.TueStart
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen opening hours start on Tuesdays. Only time-part is used. \n"
+  syntax:
+    content: public DateTime TueStart
+    return:
+      type: System.DateTime
+    content.vb: Public TueStart As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.TueStop
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.TueStop
+  id: TueStop
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: TueStop
+  nameWithType: ChatTopicRecordData.TueStop
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.TueStop
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen opening hours stop on Tuesdays. Only time-part is used. \n"
+  syntax:
+    content: public DateTime TueStop
+    return:
+      type: System.DateTime
+    content.vb: Public TueStop As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WedEnabled
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WedEnabled
+  id: WedEnabled
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WedEnabled
+  nameWithType: ChatTopicRecordData.WedEnabled
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WedEnabled
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhether open on Wednesdays. \n"
+  syntax:
+    content: public short WedEnabled
+    return:
+      type: System.Int16
+    content.vb: Public WedEnabled As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WedStart
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WedStart
+  id: WedStart
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WedStart
+  nameWithType: ChatTopicRecordData.WedStart
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WedStart
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen opening hours start on Wednesdays. Only time-part is used. \n"
+  syntax:
+    content: public DateTime WedStart
+    return:
+      type: System.DateTime
+    content.vb: Public WedStart As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.WedStop
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.WedStop
+  id: WedStop
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: WedStop
+  nameWithType: ChatTopicRecordData.WedStop
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.WedStop
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen opening hours stop on Wednesday. Only time-part is used. \n"
+  syntax:
+    content: public DateTime WedStop
+    return:
+      type: System.DateTime
+    content.vb: Public WedStop As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.ThuEnabled
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.ThuEnabled
+  id: ThuEnabled
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: ThuEnabled
+  nameWithType: ChatTopicRecordData.ThuEnabled
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.ThuEnabled
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhether open on Thursdays. \n"
+  syntax:
+    content: public short ThuEnabled
+    return:
+      type: System.Int16
+    content.vb: Public ThuEnabled As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.ThuStart
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.ThuStart
+  id: ThuStart
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: ThuStart
+  nameWithType: ChatTopicRecordData.ThuStart
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.ThuStart
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen opening hours start on Thursdays. Only time-part is used. \n"
+  syntax:
+    content: public DateTime ThuStart
+    return:
+      type: System.DateTime
+    content.vb: Public ThuStart As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.ThuStop
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.ThuStop
+  id: ThuStop
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: ThuStop
+  nameWithType: ChatTopicRecordData.ThuStop
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.ThuStop
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen opening hours stop on Thursdays. Only time-part is used. \n"
+  syntax:
+    content: public DateTime ThuStop
+    return:
+      type: System.DateTime
+    content.vb: Public ThuStop As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.FriEnabled
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.FriEnabled
+  id: FriEnabled
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: FriEnabled
+  nameWithType: ChatTopicRecordData.FriEnabled
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.FriEnabled
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhether open on Fridays. \n"
+  syntax:
+    content: public short FriEnabled
+    return:
+      type: System.Int16
+    content.vb: Public FriEnabled As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.FriStart
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.FriStart
+  id: FriStart
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: FriStart
+  nameWithType: ChatTopicRecordData.FriStart
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.FriStart
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen opening hours start on Fridays. Only time-part is used. \n"
+  syntax:
+    content: public DateTime FriStart
+    return:
+      type: System.DateTime
+    content.vb: Public FriStart As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.FriStop
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.FriStop
+  id: FriStop
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: FriStop
+  nameWithType: ChatTopicRecordData.FriStop
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.FriStop
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen opening hours stop on Fridays. Only time-part is used. \n"
+  syntax:
+    content: public DateTime FriStop
+    return:
+      type: System.DateTime
+    content.vb: Public FriStop As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.SatEnabled
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.SatEnabled
+  id: SatEnabled
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: SatEnabled
+  nameWithType: ChatTopicRecordData.SatEnabled
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.SatEnabled
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhether open on Saturdays. \n"
+  syntax:
+    content: public short SatEnabled
+    return:
+      type: System.Int16
+    content.vb: Public SatEnabled As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.SatStart
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.SatStart
+  id: SatStart
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: SatStart
+  nameWithType: ChatTopicRecordData.SatStart
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.SatStart
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen opening hours start on Saturdays. Only time-part is used. \n"
+  syntax:
+    content: public DateTime SatStart
+    return:
+      type: System.DateTime
+    content.vb: Public SatStart As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.SatStop
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.SatStop
+  id: SatStop
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: SatStop
+  nameWithType: ChatTopicRecordData.SatStop
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.SatStop
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen opening hours stop on Saturdays. Only time-part is used. \n"
+  syntax:
+    content: public DateTime SatStop
+    return:
+      type: System.DateTime
+    content.vb: Public SatStop As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.SunEnabled
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.SunEnabled
+  id: SunEnabled
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: SunEnabled
+  nameWithType: ChatTopicRecordData.SunEnabled
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.SunEnabled
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhether open on Sundays. \n"
+  syntax:
+    content: public short SunEnabled
+    return:
+      type: System.Int16
+    content.vb: Public SunEnabled As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.SunStart
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.SunStart
+  id: SunStart
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: SunStart
+  nameWithType: ChatTopicRecordData.SunStart
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.SunStart
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen opening hours start on Sundays. Only time-part is used. \n"
+  syntax:
+    content: public DateTime SunStart
+    return:
+      type: System.DateTime
+    content.vb: Public SunStart As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.SunStop
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.SunStop
+  id: SunStop
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: SunStop
+  nameWithType: ChatTopicRecordData.SunStop
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.SunStop
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen opening hours stop on Sundays. Only time-part is used. \n"
+  syntax:
+    content: public DateTime SunStop
+    return:
+      type: System.DateTime
+    content.vb: Public SunStop As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.CustomQueueText
+  commentId: F:SuperOffice.CRM.Rows.ChatTopicRecordData.CustomQueueText
+  id: CustomQueueText
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: CustomQueueText
+  nameWithType: ChatTopicRecordData.CustomQueueText
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.CustomQueueText
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nA text to be used in the queue message in the chat widget. Usage is controlled by the flags field, bit number 3 \n"
+  syntax:
+    content: public string CustomQueueText
+    return:
+      type: System.String
+    content.vb: Public CustomQueueText As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.ChatTopicRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordData
+  langs:
+  - csharp
+  - vb
+  name: ChatTopicRecordData()
+  nameWithType: ChatTopicRecordData.ChatTopicRecordData()
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.ChatTopicRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public ChatTopicRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.ChatTopicRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ChatTopicRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<ChatTopicRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ChatTopicRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ChatTopicRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ChatTopicRecordData, To)()
+  name.vb: MapEnums(Of ChatTopicRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ChatTopicRecordData, To>
+    nameWithType: EnumUtil.MapEnums<ChatTopicRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ChatTopicRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ChatTopicRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of ChatTopicRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ChatTopicRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ChatTopicRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ChatTopicRecordData>(ChatTopicRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<ChatTopicRecordData>(ChatTopicRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ChatTopicRecordData>(SuperOffice.CRM.Rows.ChatTopicRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ChatTopicRecordData)(ChatTopicRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ChatTopicRecordData)(SuperOffice.CRM.Rows.ChatTopicRecordData)
+  name.vb: AssignByReflection(Of ChatTopicRecordData)(ChatTopicRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ChatTopicRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<ChatTopicRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ChatTopicRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ChatTopicRecordData
+    name: ChatTopicRecordData
+    nameWithType: ChatTopicRecordData
+    fullName: SuperOffice.CRM.Rows.ChatTopicRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ChatTopicRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ChatTopicRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ChatTopicRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ChatTopicRecordData
+    name: ChatTopicRecordData
+    nameWithType: ChatTopicRecordData
+    fullName: SuperOffice.CRM.Rows.ChatTopicRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ChatTopicRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<ChatTopicRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ChatTopicRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ChatTopicRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ChatTopicRecordData)()
+  name.vb: GraphCopy(Of ChatTopicRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ChatTopicRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<ChatTopicRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ChatTopicRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ChatTopicRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of ChatTopicRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ChatTopicRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatTopicRecordData)
+  parent: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatTopicRecordData)
+  name: ToInsert()
+  nameWithType: ChatTopicRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: ChatTopicRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: ChatTopicRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ChatTopicRecordData, To>()
+  nameWithType: Converters.MapEnums<ChatTopicRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ChatTopicRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of ChatTopicRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ChatTopicRecordData, To)()
+  name.vb: MapEnums(Of ChatTopicRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ChatTopicRecordData, To>
+    nameWithType: Converters.MapEnums<ChatTopicRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ChatTopicRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ChatTopicRecordData, To)
+    nameWithType: Converters.MapEnums(Of ChatTopicRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ChatTopicRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatTopicRecordData)
+  commentId: M:SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatTopicRecordData)
+  isExternal: true
+  name: ToInsert(ChatTopicRecordData)
+  nameWithType: ChatTopicRecordDataExtensions.ToInsert(ChatTopicRecordData)
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatTopicRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatTopicRecordData)
+    name: ToInsert
+    nameWithType: ChatTopicRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ChatTopicRecordData
+    name: ChatTopicRecordData
+    nameWithType: ChatTopicRecordData
+    fullName: SuperOffice.CRM.Rows.ChatTopicRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ChatTopicRecordData)
+    name: ToInsert
+    nameWithType: ChatTopicRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ChatTopicRecordData
+    name: ChatTopicRecordData
+    nameWithType: ChatTopicRecordData
+    fullName: SuperOffice.CRM.Rows.ChatTopicRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: ChatTopicRecordDataExtensions
+  nameWithType: ChatTopicRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.Data.ChatTopicFlag
+  commentId: T:SuperOffice.Data.ChatTopicFlag
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ChatTopicFlag
+  nameWithType: ChatTopicFlag
+  fullName: SuperOffice.Data.ChatTopicFlag
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.WidgetTheme
+  commentId: T:SuperOffice.Data.WidgetTheme
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WidgetTheme
+  nameWithType: WidgetTheme
+  fullName: SuperOffice.Data.WidgetTheme
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.Data.WidgetRequiredFields
+  commentId: T:SuperOffice.Data.WidgetRequiredFields
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WidgetRequiredFields
+  nameWithType: WidgetRequiredFields
+  fullName: SuperOffice.Data.WidgetRequiredFields
+- uid: SuperOffice.CRM.Rows.ChatTopicRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.ChatTopicRecordData.#ctor
+  isExternal: true
+  name: ChatTopicRecordData
+  nameWithType: ChatTopicRecordData.ChatTopicRecordData
+  fullName: SuperOffice.CRM.Rows.ChatTopicRecordData.ChatTopicRecordData

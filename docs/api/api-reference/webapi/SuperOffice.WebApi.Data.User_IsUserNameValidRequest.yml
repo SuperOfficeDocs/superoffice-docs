@@ -1,0 +1,254 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.User_IsUserNameValidRequest
+  commentId: T:SuperOffice.WebApi.Data.User_IsUserNameValidRequest
+  id: User_IsUserNameValidRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.User_IsUserNameValidRequest.#ctor
+  - SuperOffice.WebApi.Data.User_IsUserNameValidRequest.AssociateId
+  - SuperOffice.WebApi.Data.User_IsUserNameValidRequest.PersonId
+  - SuperOffice.WebApi.Data.User_IsUserNameValidRequest.Type
+  - SuperOffice.WebApi.Data.User_IsUserNameValidRequest.UserName
+  langs:
+  - csharp
+  - vb
+  name: User_IsUserNameValidRequest
+  nameWithType: User_IsUserNameValidRequest
+  fullName: SuperOffice.WebApi.Data.User_IsUserNameValidRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class User_IsUserNameValidRequest : Object'
+    content.vb: >-
+      Public Class User_IsUserNameValidRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.User_IsUserNameValidRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.User_IsUserNameValidRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.User_IsUserNameValidRequest
+  langs:
+  - csharp
+  - vb
+  name: User_IsUserNameValidRequest()
+  nameWithType: User_IsUserNameValidRequest.User_IsUserNameValidRequest()
+  fullName: SuperOffice.WebApi.Data.User_IsUserNameValidRequest.User_IsUserNameValidRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User_IsUserNameValidRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.User_IsUserNameValidRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_IsUserNameValidRequest.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.User_IsUserNameValidRequest.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.User_IsUserNameValidRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: User_IsUserNameValidRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.User_IsUserNameValidRequest.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.User_IsUserNameValidRequest.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_IsUserNameValidRequest.Type
+  commentId: P:SuperOffice.WebApi.Data.User_IsUserNameValidRequest.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.User_IsUserNameValidRequest
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: User_IsUserNameValidRequest.Type
+  fullName: SuperOffice.WebApi.Data.User_IsUserNameValidRequest.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UserType Type { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.UserType
+    content.vb: Public Property Type As UserType
+  overload: SuperOffice.WebApi.Data.User_IsUserNameValidRequest.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_IsUserNameValidRequest.PersonId
+  commentId: P:SuperOffice.WebApi.Data.User_IsUserNameValidRequest.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.User_IsUserNameValidRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: User_IsUserNameValidRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.User_IsUserNameValidRequest.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.User_IsUserNameValidRequest.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_IsUserNameValidRequest.UserName
+  commentId: P:SuperOffice.WebApi.Data.User_IsUserNameValidRequest.UserName
+  id: UserName
+  parent: SuperOffice.WebApi.Data.User_IsUserNameValidRequest
+  langs:
+  - csharp
+  - vb
+  name: UserName
+  nameWithType: User_IsUserNameValidRequest.UserName
+  fullName: SuperOffice.WebApi.Data.User_IsUserNameValidRequest.UserName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string UserName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserName As String
+  overload: SuperOffice.WebApi.Data.User_IsUserNameValidRequest.UserName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.User_IsUserNameValidRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.User_IsUserNameValidRequest.#ctor
+  isExternal: true
+  name: User_IsUserNameValidRequest
+  nameWithType: User_IsUserNameValidRequest.User_IsUserNameValidRequest
+  fullName: SuperOffice.WebApi.Data.User_IsUserNameValidRequest.User_IsUserNameValidRequest
+- uid: SuperOffice.WebApi.Data.User_IsUserNameValidRequest.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.User_IsUserNameValidRequest.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: User_IsUserNameValidRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.User_IsUserNameValidRequest.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.User_IsUserNameValidRequest.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.User_IsUserNameValidRequest.Type
+  isExternal: true
+  name: Type
+  nameWithType: User_IsUserNameValidRequest.Type
+  fullName: SuperOffice.WebApi.Data.User_IsUserNameValidRequest.Type
+- uid: SuperOffice.WebApi.Data.UserType
+  commentId: T:SuperOffice.WebApi.Data.UserType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: UserType
+  nameWithType: UserType
+  fullName: SuperOffice.WebApi.Data.UserType
+- uid: SuperOffice.WebApi.Data.User_IsUserNameValidRequest.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.User_IsUserNameValidRequest.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: User_IsUserNameValidRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.User_IsUserNameValidRequest.PersonId
+- uid: SuperOffice.WebApi.Data.User_IsUserNameValidRequest.UserName*
+  commentId: Overload:SuperOffice.WebApi.Data.User_IsUserNameValidRequest.UserName
+  isExternal: true
+  name: UserName
+  nameWithType: User_IsUserNameValidRequest.UserName
+  fullName: SuperOffice.WebApi.Data.User_IsUserNameValidRequest.UserName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

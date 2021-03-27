@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserResult
+  commentId: T:SuperOffice.WebApi.IdentityModel.SystemUserResult
+  id: SystemUserResult
+  parent: SuperOffice.WebApi.IdentityModel
+  children:
+  - SuperOffice.WebApi.IdentityModel.SystemUserResult.#ctor
+  - SuperOffice.WebApi.IdentityModel.SystemUserResult.ErrorMessage
+  - SuperOffice.WebApi.IdentityModel.SystemUserResult.IsSuccessful
+  - SuperOffice.WebApi.IdentityModel.SystemUserResult.Token
+  langs:
+  - csharp
+  - vb
+  name: SystemUserResult
+  nameWithType: SystemUserResult
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserResult
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  summary: "\nRepresents the result of a system user request.\n"
+  syntax:
+    content: 'public class SystemUserResult : Object'
+    content.vb: >-
+      Public Class SystemUserResult
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserResult.#ctor
+  commentId: M:SuperOffice.WebApi.IdentityModel.SystemUserResult.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.IdentityModel.SystemUserResult
+  langs:
+  - csharp
+  - vb
+  name: SystemUserResult()
+  nameWithType: SystemUserResult.SystemUserResult()
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserResult.SystemUserResult()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  syntax:
+    content: public SystemUserResult()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.IdentityModel.SystemUserResult.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserResult.ErrorMessage
+  commentId: P:SuperOffice.WebApi.IdentityModel.SystemUserResult.ErrorMessage
+  id: ErrorMessage
+  parent: SuperOffice.WebApi.IdentityModel.SystemUserResult
+  langs:
+  - csharp
+  - vb
+  name: ErrorMessage
+  nameWithType: SystemUserResult.ErrorMessage
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserResult.ErrorMessage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  syntax:
+    content: public string ErrorMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ErrorMessage As String
+  overload: SuperOffice.WebApi.IdentityModel.SystemUserResult.ErrorMessage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserResult.IsSuccessful
+  commentId: P:SuperOffice.WebApi.IdentityModel.SystemUserResult.IsSuccessful
+  id: IsSuccessful
+  parent: SuperOffice.WebApi.IdentityModel.SystemUserResult
+  langs:
+  - csharp
+  - vb
+  name: IsSuccessful
+  nameWithType: SystemUserResult.IsSuccessful
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserResult.IsSuccessful
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  syntax:
+    content: public bool IsSuccessful { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsSuccessful As Boolean
+  overload: SuperOffice.WebApi.IdentityModel.SystemUserResult.IsSuccessful*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserResult.Token
+  commentId: P:SuperOffice.WebApi.IdentityModel.SystemUserResult.Token
+  id: Token
+  parent: SuperOffice.WebApi.IdentityModel.SystemUserResult
+  langs:
+  - csharp
+  - vb
+  name: Token
+  nameWithType: SystemUserResult.Token
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserResult.Token
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  syntax:
+    content: public string Token { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Token As String
+  overload: SuperOffice.WebApi.IdentityModel.SystemUserResult.Token*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.IdentityModel
+  commentId: N:SuperOffice.WebApi.IdentityModel
+  isExternal: true
+  name: SuperOffice.WebApi.IdentityModel
+  nameWithType: SuperOffice.WebApi.IdentityModel
+  fullName: SuperOffice.WebApi.IdentityModel
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserResult.#ctor*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.SystemUserResult.#ctor
+  isExternal: true
+  name: SystemUserResult
+  nameWithType: SystemUserResult.SystemUserResult
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserResult.SystemUserResult
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserResult.ErrorMessage*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.SystemUserResult.ErrorMessage
+  isExternal: true
+  name: ErrorMessage
+  nameWithType: SystemUserResult.ErrorMessage
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserResult.ErrorMessage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserResult.IsSuccessful*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.SystemUserResult.IsSuccessful
+  isExternal: true
+  name: IsSuccessful
+  nameWithType: SystemUserResult.IsSuccessful
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserResult.IsSuccessful
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserResult.Token*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.SystemUserResult.Token
+  isExternal: true
+  name: Token
+  nameWithType: SystemUserResult.Token
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserResult.Token

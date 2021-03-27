@@ -1,0 +1,1051 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.IAudienceAgent
+  commentId: T:SuperOffice.CRM.Services.IAudienceAgent
+  id: IAudienceAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.IAudienceAgent.CreateDefaultAudienceLayoutEntity
+  - SuperOffice.CRM.Services.IAudienceAgent.DeleteAudienceLayoutEntity(System.Int32)
+  - SuperOffice.CRM.Services.IAudienceAgent.DeleteConfigParameter(System.String,System.String)
+  - SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutByName(System.String)
+  - SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutEntity(System.Int32)
+  - SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutOnPerson(System.Int32)
+  - SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameter(System.String,System.String)
+  - SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterOnPerson(System.String,System.Int32)
+  - SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersByLayoutName(System.String)
+  - SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersOnPerson(System.Int32)
+  - SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValue(System.String,System.String)
+  - SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValueOnPerson(System.String,System.Int32)
+  - SuperOffice.CRM.Services.IAudienceAgent.GetDefaultCountryFlag(System.String)
+  - SuperOffice.CRM.Services.IAudienceAgent.GetDefaultPersonImage(System.String)
+  - SuperOffice.CRM.Services.IAudienceAgent.GetDefaultProjectImage(System.String)
+  - SuperOffice.CRM.Services.IAudienceAgent.GetLogoImage(System.String)
+  - SuperOffice.CRM.Services.IAudienceAgent.GetMyAudienceLayout
+  - SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameter(System.String)
+  - SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameters
+  - SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameterValue(System.String)
+  - SuperOffice.CRM.Services.IAudienceAgent.SaveAudienceLayoutEntity(SuperOffice.CRM.Services.AudienceLayoutEntity)
+  - SuperOffice.CRM.Services.IAudienceAgent.SaveConfigParameter(System.String,SuperOffice.CRM.Services.AudienceConfigParameter)
+  - SuperOffice.CRM.Services.IAudienceAgent.SetDefaultCountryFlag(System.String,System.Drawing.Image)
+  - SuperOffice.CRM.Services.IAudienceAgent.SetDefaultPersonImage(System.String,System.Drawing.Image)
+  - SuperOffice.CRM.Services.IAudienceAgent.SetDefaultProjectImage(System.String,System.Drawing.Image)
+  - SuperOffice.CRM.Services.IAudienceAgent.SetLogoImage(System.String,System.Drawing.Image)
+  langs:
+  - csharp
+  - vb
+  name: IAudienceAgent
+  nameWithType: IAudienceAgent
+  fullName: SuperOffice.CRM.Services.IAudienceAgent
+  type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInterface for the Audience Agent\nServices specific to the Audience client\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (AudienceAgent agent = new AudienceAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: >-
+      [Agent("Audience Agent", "Interface for the Audience Agent. Services specific to the Audience client")]
+
+      public interface IAudienceAgent : IAgent
+    content.vb: >-
+      <Agent("Audience Agent", "Interface for the Audience Agent. Services specific to the Audience client")>
+
+      Public Interface IAudienceAgent
+          Inherits IAgent
+  attributes:
+  - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
+    ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: Audience Agent
+    - type: System.String
+      value: Interface for the Audience Agent. Services specific to the Audience client
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Services.IAudienceAgent.CreateDefaultAudienceLayoutEntity
+  commentId: M:SuperOffice.CRM.Services.IAudienceAgent.CreateDefaultAudienceLayoutEntity
+  id: CreateDefaultAudienceLayoutEntity
+  parent: SuperOffice.CRM.Services.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultAudienceLayoutEntity()
+  nameWithType: IAudienceAgent.CreateDefaultAudienceLayoutEntity()
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.CreateDefaultAudienceLayoutEntity()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new AudienceLayoutEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: AudienceLayoutEntity CreateDefaultAudienceLayoutEntity()
+    return:
+      type: SuperOffice.CRM.Services.AudienceLayoutEntity
+      description: New AudienceLayoutEntity with default values
+    content.vb: Function CreateDefaultAudienceLayoutEntity As AudienceLayoutEntity
+  overload: SuperOffice.CRM.Services.IAudienceAgent.CreateDefaultAudienceLayoutEntity*
+- uid: SuperOffice.CRM.Services.IAudienceAgent.SaveAudienceLayoutEntity(SuperOffice.CRM.Services.AudienceLayoutEntity)
+  commentId: M:SuperOffice.CRM.Services.IAudienceAgent.SaveAudienceLayoutEntity(SuperOffice.CRM.Services.AudienceLayoutEntity)
+  id: SaveAudienceLayoutEntity(SuperOffice.CRM.Services.AudienceLayoutEntity)
+  parent: SuperOffice.CRM.Services.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveAudienceLayoutEntity(AudienceLayoutEntity)
+  nameWithType: IAudienceAgent.SaveAudienceLayoutEntity(AudienceLayoutEntity)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.SaveAudienceLayoutEntity(SuperOffice.CRM.Services.AudienceLayoutEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing AudienceLayoutEntity or creates a new AudienceLayoutEntity if the id parameter is empty\n"
+  syntax:
+    content: AudienceLayoutEntity SaveAudienceLayoutEntity(AudienceLayoutEntity audienceLayoutEntity)
+    parameters:
+    - id: audienceLayoutEntity
+      type: SuperOffice.CRM.Services.AudienceLayoutEntity
+      description: The AudienceLayoutEntity that is saved.
+    return:
+      type: SuperOffice.CRM.Services.AudienceLayoutEntity
+      description: New or updated AudienceLayoutEntity
+    content.vb: Function SaveAudienceLayoutEntity(audienceLayoutEntity As AudienceLayoutEntity) As AudienceLayoutEntity
+  overload: SuperOffice.CRM.Services.IAudienceAgent.SaveAudienceLayoutEntity*
+- uid: SuperOffice.CRM.Services.IAudienceAgent.DeleteAudienceLayoutEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IAudienceAgent.DeleteAudienceLayoutEntity(System.Int32)
+  id: DeleteAudienceLayoutEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteAudienceLayoutEntity(Int32)
+  nameWithType: IAudienceAgent.DeleteAudienceLayoutEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.DeleteAudienceLayoutEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the AudienceLayoutEntity\n"
+  syntax:
+    content: void DeleteAudienceLayoutEntity(int audienceLayoutEntityId)
+    parameters:
+    - id: audienceLayoutEntityId
+      type: System.Int32
+      description: The identity of the AudienceLayoutEntity
+    content.vb: Sub DeleteAudienceLayoutEntity(audienceLayoutEntityId As Integer)
+  overload: SuperOffice.CRM.Services.IAudienceAgent.DeleteAudienceLayoutEntity*
+- uid: SuperOffice.CRM.Services.IAudienceAgent.SaveConfigParameter(System.String,SuperOffice.CRM.Services.AudienceConfigParameter)
+  commentId: M:SuperOffice.CRM.Services.IAudienceAgent.SaveConfigParameter(System.String,SuperOffice.CRM.Services.AudienceConfigParameter)
+  id: SaveConfigParameter(System.String,SuperOffice.CRM.Services.AudienceConfigParameter)
+  parent: SuperOffice.CRM.Services.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveConfigParameter(String, AudienceConfigParameter)
+  nameWithType: IAudienceAgent.SaveConfigParameter(String, AudienceConfigParameter)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.SaveConfigParameter(System.String, SuperOffice.CRM.Services.AudienceConfigParameter)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSaves an Audience configuration parameter belonging to a Audience layout\n"
+  syntax:
+    content: AudienceConfigParameter SaveConfigParameter(string layoutName, AudienceConfigParameter configParameter)
+    parameters:
+    - id: layoutName
+      type: System.String
+      description: Name of the Audience layout instance
+    - id: configParameter
+      type: SuperOffice.CRM.Services.AudienceConfigParameter
+      description: The Audience configuration parameter to save.
+    return:
+      type: SuperOffice.CRM.Services.AudienceConfigParameter
+      description: The new or updated configuration parameter
+    content.vb: Function SaveConfigParameter(layoutName As String, configParameter As AudienceConfigParameter) As AudienceConfigParameter
+  overload: SuperOffice.CRM.Services.IAudienceAgent.SaveConfigParameter*
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValue(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValue(System.String,System.String)
+  id: GetConfigParameterValue(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetConfigParameterValue(String, String)
+  nameWithType: IAudienceAgent.GetConfigParameterValue(String, String)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValue(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the string value of an Audience configuration parameter belonging to a given Audience layout with the specified configuration parameter name\n"
+  syntax:
+    content: string GetConfigParameterValue(string layoutName, string parameterName)
+    parameters:
+    - id: layoutName
+      type: System.String
+      description: Name of the Audience layout instance
+    - id: parameterName
+      type: System.String
+      description: The name of the Audience configuration parameter
+    return:
+      type: System.String
+      description: The string value of the Audience configuration parameter.
+    content.vb: Function GetConfigParameterValue(layoutName As String, parameterName As String) As String
+  overload: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValue*
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameter(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameter(System.String,System.String)
+  id: GetConfigParameter(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetConfigParameter(String, String)
+  nameWithType: IAudienceAgent.GetConfigParameter(String, String)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameter(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets an Audience configuration parameter belonging to a given Audience layout with the specified configuration parameter name\n"
+  syntax:
+    content: AudienceConfigParameter GetConfigParameter(string layoutName, string parameterName)
+    parameters:
+    - id: layoutName
+      type: System.String
+      description: Name of the Audience layout instance
+    - id: parameterName
+      type: System.String
+      description: The name of the Audience configuration parameter
+    return:
+      type: SuperOffice.CRM.Services.AudienceConfigParameter
+      description: The Audience configuration parameter.
+    content.vb: Function GetConfigParameter(layoutName As String, parameterName As String) As AudienceConfigParameter
+  overload: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameter*
+- uid: SuperOffice.CRM.Services.IAudienceAgent.DeleteConfigParameter(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IAudienceAgent.DeleteConfigParameter(System.String,System.String)
+  id: DeleteConfigParameter(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteConfigParameter(String, String)
+  nameWithType: IAudienceAgent.DeleteConfigParameter(String, String)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.DeleteConfigParameter(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes an Audience configuration parameter belonging to a Audience layout\n"
+  syntax:
+    content: void DeleteConfigParameter(string layoutName, string parameterName)
+    parameters:
+    - id: layoutName
+      type: System.String
+      description: Name of the Audience layout instance
+    - id: parameterName
+      type: System.String
+      description: The name of the Audience configuration parameter
+    content.vb: Sub DeleteConfigParameter(layoutName As String, parameterName As String)
+  overload: SuperOffice.CRM.Services.IAudienceAgent.DeleteConfigParameter*
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameter(System.String)
+  commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameter(System.String)
+  id: GetMyConfigParameter(System.String)
+  parent: SuperOffice.CRM.Services.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyConfigParameter(String)
+  nameWithType: IAudienceAgent.GetMyConfigParameter(String)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameter(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets an Audience configuration parameter belonging to the currently logged on user with the specified configuration parameter name.\n"
+  syntax:
+    content: AudienceConfigParameter GetMyConfigParameter(string parameterName)
+    parameters:
+    - id: parameterName
+      type: System.String
+      description: The name of the Audience configuration parameter
+    return:
+      type: SuperOffice.CRM.Services.AudienceConfigParameter
+      description: The Audience configuration parameter.
+    content.vb: Function GetMyConfigParameter(parameterName As String) As AudienceConfigParameter
+  overload: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameter*
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameterValue(System.String)
+  commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameterValue(System.String)
+  id: GetMyConfigParameterValue(System.String)
+  parent: SuperOffice.CRM.Services.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyConfigParameterValue(String)
+  nameWithType: IAudienceAgent.GetMyConfigParameterValue(String)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameterValue(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the string value of an Audience configuration parameter belonging to the currently logged on user with the specified configuration parameter name.\n"
+  syntax:
+    content: string GetMyConfigParameterValue(string parameterName)
+    parameters:
+    - id: parameterName
+      type: System.String
+      description: The name of the Audience configuration parameter
+    return:
+      type: System.String
+      description: The string value of the Audience configuration parameter.
+    content.vb: Function GetMyConfigParameterValue(parameterName As String) As String
+  overload: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameterValue*
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValueOnPerson(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValueOnPerson(System.String,System.Int32)
+  id: GetConfigParameterValueOnPerson(System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetConfigParameterValueOnPerson(String, Int32)
+  nameWithType: IAudienceAgent.GetConfigParameterValueOnPerson(String, Int32)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValueOnPerson(System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the string value of an Audience configuration parameter with the specified configuration parameter name on the person specified\n"
+  syntax:
+    content: string GetConfigParameterValueOnPerson(string parameterName, int personId)
+    parameters:
+    - id: parameterName
+      type: System.String
+      description: The name of the Audience configuration parameter
+    - id: personId
+      type: System.Int32
+      description: Id of the person the parameter belongs to
+    return:
+      type: System.String
+      description: The string value of the Audience configuration parameter.
+    content.vb: Function GetConfigParameterValueOnPerson(parameterName As String, personId As Integer) As String
+  overload: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValueOnPerson*
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterOnPerson(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterOnPerson(System.String,System.Int32)
+  id: GetConfigParameterOnPerson(System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetConfigParameterOnPerson(String, Int32)
+  nameWithType: IAudienceAgent.GetConfigParameterOnPerson(String, Int32)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterOnPerson(System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets an Audience configuration parameter with the specified configuration parameter name on the person specified\n"
+  syntax:
+    content: AudienceConfigParameter GetConfigParameterOnPerson(string parameterName, int personId)
+    parameters:
+    - id: parameterName
+      type: System.String
+      description: The name of the Audience configuration parameter
+    - id: personId
+      type: System.Int32
+      description: Id of the person the parameter belongs to
+    return:
+      type: SuperOffice.CRM.Services.AudienceConfigParameter
+      description: The Audience configuration parameter.
+    content.vb: Function GetConfigParameterOnPerson(parameterName As String, personId As Integer) As AudienceConfigParameter
+  overload: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterOnPerson*
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersByLayoutName(System.String)
+  commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersByLayoutName(System.String)
+  id: GetConfigParametersByLayoutName(System.String)
+  parent: SuperOffice.CRM.Services.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetConfigParametersByLayoutName(String)
+  nameWithType: IAudienceAgent.GetConfigParametersByLayoutName(String)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersByLayoutName(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the Audience configuration parameters belonging to a given Audience layout.\n"
+  syntax:
+    content: AudienceConfigParameter[] GetConfigParametersByLayoutName(string layoutName)
+    parameters:
+    - id: layoutName
+      type: System.String
+      description: Name of the Audience layout instance
+    return:
+      type: SuperOffice.CRM.Services.AudienceConfigParameter[]
+      description: Array of Audience configuration parameters.
+    content.vb: Function GetConfigParametersByLayoutName(layoutName As String) As AudienceConfigParameter()
+  overload: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersByLayoutName*
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameters
+  commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameters
+  id: GetMyConfigParameters
+  parent: SuperOffice.CRM.Services.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyConfigParameters()
+  nameWithType: IAudienceAgent.GetMyConfigParameters()
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameters()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the Audience configuration parameters belonging to the currently logged on user.\n"
+  syntax:
+    content: AudienceConfigParameter[] GetMyConfigParameters()
+    return:
+      type: SuperOffice.CRM.Services.AudienceConfigParameter[]
+      description: Array of Audience configuration parameters.
+    content.vb: Function GetMyConfigParameters As AudienceConfigParameter()
+  overload: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameters*
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersOnPerson(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersOnPerson(System.Int32)
+  id: GetConfigParametersOnPerson(System.Int32)
+  parent: SuperOffice.CRM.Services.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetConfigParametersOnPerson(Int32)
+  nameWithType: IAudienceAgent.GetConfigParametersOnPerson(Int32)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersOnPerson(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the Audience configuration parameters belonging to the person specified\n"
+  syntax:
+    content: AudienceConfigParameter[] GetConfigParametersOnPerson(int personId)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: Id of the person the parameter belongs to
+    return:
+      type: SuperOffice.CRM.Services.AudienceConfigParameter[]
+      description: Array of Audience configuration parameters.
+    content.vb: Function GetConfigParametersOnPerson(personId As Integer) As AudienceConfigParameter()
+  overload: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersOnPerson*
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutEntity(System.Int32)
+  id: GetAudienceLayoutEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAudienceLayoutEntity(Int32)
+  nameWithType: IAudienceAgent.GetAudienceLayoutEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a AudienceLayoutEntity object.                        \n"
+  syntax:
+    content: AudienceLayoutEntity GetAudienceLayoutEntity(int audienceLayoutEntityId)
+    parameters:
+    - id: audienceLayoutEntityId
+      type: System.Int32
+      description: The identifier of the AudienceLayoutEntity object
+    return:
+      type: SuperOffice.CRM.Services.AudienceLayoutEntity
+      description: AudienceLayoutEntity
+    content.vb: Function GetAudienceLayoutEntity(audienceLayoutEntityId As Integer) As AudienceLayoutEntity
+  overload: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutEntity*
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutByName(System.String)
+  commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutByName(System.String)
+  id: GetAudienceLayoutByName(System.String)
+  parent: SuperOffice.CRM.Services.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAudienceLayoutByName(String)
+  nameWithType: IAudienceAgent.GetAudienceLayoutByName(String)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutByName(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets an Audience layout by it&apos;s instance name\n"
+  syntax:
+    content: AudienceLayoutEntity GetAudienceLayoutByName(string layoutName)
+    parameters:
+    - id: layoutName
+      type: System.String
+      description: Name of the Audience layout instance
+    return:
+      type: SuperOffice.CRM.Services.AudienceLayoutEntity
+      description: Audience layout entity
+    content.vb: Function GetAudienceLayoutByName(layoutName As String) As AudienceLayoutEntity
+  overload: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutByName*
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetMyAudienceLayout
+  commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetMyAudienceLayout
+  id: GetMyAudienceLayout
+  parent: SuperOffice.CRM.Services.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyAudienceLayout()
+  nameWithType: IAudienceAgent.GetMyAudienceLayout()
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetMyAudienceLayout()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the Audience layout belonging to the currently logged on user.\n"
+  syntax:
+    content: AudienceLayoutEntity GetMyAudienceLayout()
+    return:
+      type: SuperOffice.CRM.Services.AudienceLayoutEntity
+      description: Audience layout entity
+    content.vb: Function GetMyAudienceLayout As AudienceLayoutEntity
+  overload: SuperOffice.CRM.Services.IAudienceAgent.GetMyAudienceLayout*
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutOnPerson(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutOnPerson(System.Int32)
+  id: GetAudienceLayoutOnPerson(System.Int32)
+  parent: SuperOffice.CRM.Services.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAudienceLayoutOnPerson(Int32)
+  nameWithType: IAudienceAgent.GetAudienceLayoutOnPerson(Int32)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutOnPerson(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the Audience layout belonging to the person specified.\n"
+  syntax:
+    content: AudienceLayoutEntity GetAudienceLayoutOnPerson(int personId)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id
+    return:
+      type: SuperOffice.CRM.Services.AudienceLayoutEntity
+      description: Audience layout entity
+    content.vb: Function GetAudienceLayoutOnPerson(personId As Integer) As AudienceLayoutEntity
+  overload: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutOnPerson*
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultProjectImage(System.String)
+  commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetDefaultProjectImage(System.String)
+  id: GetDefaultProjectImage(System.String)
+  parent: SuperOffice.CRM.Services.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultProjectImage(String)
+  nameWithType: IAudienceAgent.GetDefaultProjectImage(String)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultProjectImage(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the default project or event image that is displayed in Audience when no project/event image is found. The image belongs to a specific Audience layout instance.\n"
+  syntax:
+    content: Image GetDefaultProjectImage(string layoutName)
+    parameters:
+    - id: layoutName
+      type: System.String
+      description: Name of the Audience layout instance
+    return:
+      type: System.Drawing.Image
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+    content.vb: Function GetDefaultProjectImage(layoutName As String) As Image
+  overload: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultProjectImage*
+- uid: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultProjectImage(System.String,System.Drawing.Image)
+  commentId: M:SuperOffice.CRM.Services.IAudienceAgent.SetDefaultProjectImage(System.String,System.Drawing.Image)
+  id: SetDefaultProjectImage(System.String,System.Drawing.Image)
+  parent: SuperOffice.CRM.Services.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: SetDefaultProjectImage(String, Image)
+  nameWithType: IAudienceAgent.SetDefaultProjectImage(String, Image)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultProjectImage(System.String, System.Drawing.Image)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStores the default project or event image that is displayed in Audience when no project/event image is found. The image is set on a specific Audience layout instance.\n"
+  syntax:
+    content: void SetDefaultProjectImage(string layoutName, Image image)
+    parameters:
+    - id: layoutName
+      type: System.String
+      description: Name of the Audience layout instance
+    - id: image
+      type: System.Drawing.Image
+      description: The default project/event image to be stored for this Audience layout instance (System.Drawing.Image)
+    content.vb: Sub SetDefaultProjectImage(layoutName As String, image As Image)
+  overload: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultProjectImage*
+- uid: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultPersonImage(System.String,System.Drawing.Image)
+  commentId: M:SuperOffice.CRM.Services.IAudienceAgent.SetDefaultPersonImage(System.String,System.Drawing.Image)
+  id: SetDefaultPersonImage(System.String,System.Drawing.Image)
+  parent: SuperOffice.CRM.Services.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: SetDefaultPersonImage(String, Image)
+  nameWithType: IAudienceAgent.SetDefaultPersonImage(String, Image)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultPersonImage(System.String, System.Drawing.Image)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStores the default person (sales rep) image that is displayed in Audience when no person image is found. The image is set on a specific Audience layout instance.\n"
+  syntax:
+    content: void SetDefaultPersonImage(string layoutName, Image image)
+    parameters:
+    - id: layoutName
+      type: System.String
+      description: Name of the Audience layout instance
+    - id: image
+      type: System.Drawing.Image
+      description: The default project/event image to be stored for this Audience layout instance (System.Drawing.Image)
+    content.vb: Sub SetDefaultPersonImage(layoutName As String, image As Image)
+  overload: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultPersonImage*
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultPersonImage(System.String)
+  commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetDefaultPersonImage(System.String)
+  id: GetDefaultPersonImage(System.String)
+  parent: SuperOffice.CRM.Services.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultPersonImage(String)
+  nameWithType: IAudienceAgent.GetDefaultPersonImage(String)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultPersonImage(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the default person (sales rep) image that is displayed in Audience when no person image is found. The image belongs to a specific Audience layout instance.\n"
+  syntax:
+    content: Image GetDefaultPersonImage(string layoutName)
+    parameters:
+    - id: layoutName
+      type: System.String
+      description: Name of the Audience layout instance
+    return:
+      type: System.Drawing.Image
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+    content.vb: Function GetDefaultPersonImage(layoutName As String) As Image
+  overload: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultPersonImage*
+- uid: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultCountryFlag(System.String,System.Drawing.Image)
+  commentId: M:SuperOffice.CRM.Services.IAudienceAgent.SetDefaultCountryFlag(System.String,System.Drawing.Image)
+  id: SetDefaultCountryFlag(System.String,System.Drawing.Image)
+  parent: SuperOffice.CRM.Services.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: SetDefaultCountryFlag(String, Image)
+  nameWithType: IAudienceAgent.SetDefaultCountryFlag(String, Image)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultCountryFlag(System.String, System.Drawing.Image)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStores the default country flag image that is displayed in Audience when no person image is found. The image is set on a specific Audience layout instance.\n"
+  syntax:
+    content: void SetDefaultCountryFlag(string layoutName, Image image)
+    parameters:
+    - id: layoutName
+      type: System.String
+      description: Name of the Audience layout instance
+    - id: image
+      type: System.Drawing.Image
+      description: The default country image to be stored for this Audience layout instance (System.Drawing.Image)
+    content.vb: Sub SetDefaultCountryFlag(layoutName As String, image As Image)
+  overload: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultCountryFlag*
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultCountryFlag(System.String)
+  commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetDefaultCountryFlag(System.String)
+  id: GetDefaultCountryFlag(System.String)
+  parent: SuperOffice.CRM.Services.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultCountryFlag(String)
+  nameWithType: IAudienceAgent.GetDefaultCountryFlag(String)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultCountryFlag(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the default country flag image that is displayed in Audience when no person image is found. The image belongs to a specific Audience layout instance.\n"
+  syntax:
+    content: Image GetDefaultCountryFlag(string layoutName)
+    parameters:
+    - id: layoutName
+      type: System.String
+      description: Name of the Audience layout instance
+    return:
+      type: System.Drawing.Image
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+    content.vb: Function GetDefaultCountryFlag(layoutName As String) As Image
+  overload: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultCountryFlag*
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetLogoImage(System.String)
+  commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetLogoImage(System.String)
+  id: GetLogoImage(System.String)
+  parent: SuperOffice.CRM.Services.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetLogoImage(String)
+  nameWithType: IAudienceAgent.GetLogoImage(String)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetLogoImage(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: Image GetLogoImage(string layoutName)
+    parameters:
+    - id: layoutName
+      type: System.String
+    return:
+      type: System.Drawing.Image
+    content.vb: Function GetLogoImage(layoutName As String) As Image
+  overload: SuperOffice.CRM.Services.IAudienceAgent.GetLogoImage*
+- uid: SuperOffice.CRM.Services.IAudienceAgent.SetLogoImage(System.String,System.Drawing.Image)
+  commentId: M:SuperOffice.CRM.Services.IAudienceAgent.SetLogoImage(System.String,System.Drawing.Image)
+  id: SetLogoImage(System.String,System.Drawing.Image)
+  parent: SuperOffice.CRM.Services.IAudienceAgent
+  langs:
+  - csharp
+  - vb
+  name: SetLogoImage(String, Image)
+  nameWithType: IAudienceAgent.SetLogoImage(String, Image)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.SetLogoImage(System.String, System.Drawing.Image)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: void SetLogoImage(string layoutName, Image image)
+    parameters:
+    - id: layoutName
+      type: System.String
+    - id: image
+      type: System.Drawing.Image
+    content.vb: Sub SetLogoImage(layoutName As String, image As Image)
+  overload: SuperOffice.CRM.Services.IAudienceAgent.SetLogoImage*
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.IAudienceAgent.CreateDefaultAudienceLayoutEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IAudienceAgent.CreateDefaultAudienceLayoutEntity
+  isExternal: true
+  name: CreateDefaultAudienceLayoutEntity
+  nameWithType: IAudienceAgent.CreateDefaultAudienceLayoutEntity
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.CreateDefaultAudienceLayoutEntity
+- uid: SuperOffice.CRM.Services.AudienceLayoutEntity
+  commentId: T:SuperOffice.CRM.Services.AudienceLayoutEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: AudienceLayoutEntity
+  nameWithType: AudienceLayoutEntity
+  fullName: SuperOffice.CRM.Services.AudienceLayoutEntity
+- uid: SuperOffice.CRM.Services.IAudienceAgent.SaveAudienceLayoutEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IAudienceAgent.SaveAudienceLayoutEntity
+  isExternal: true
+  name: SaveAudienceLayoutEntity
+  nameWithType: IAudienceAgent.SaveAudienceLayoutEntity
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.SaveAudienceLayoutEntity
+- uid: SuperOffice.CRM.Services.IAudienceAgent.DeleteAudienceLayoutEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IAudienceAgent.DeleteAudienceLayoutEntity
+  isExternal: true
+  name: DeleteAudienceLayoutEntity
+  nameWithType: IAudienceAgent.DeleteAudienceLayoutEntity
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.DeleteAudienceLayoutEntity
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.IAudienceAgent.SaveConfigParameter*
+  commentId: Overload:SuperOffice.CRM.Services.IAudienceAgent.SaveConfigParameter
+  isExternal: true
+  name: SaveConfigParameter
+  nameWithType: IAudienceAgent.SaveConfigParameter
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.SaveConfigParameter
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.AudienceConfigParameter
+  commentId: T:SuperOffice.CRM.Services.AudienceConfigParameter
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: AudienceConfigParameter
+  nameWithType: AudienceConfigParameter
+  fullName: SuperOffice.CRM.Services.AudienceConfigParameter
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValue*
+  commentId: Overload:SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValue
+  isExternal: true
+  name: GetConfigParameterValue
+  nameWithType: IAudienceAgent.GetConfigParameterValue
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValue
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameter*
+  commentId: Overload:SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameter
+  isExternal: true
+  name: GetConfigParameter
+  nameWithType: IAudienceAgent.GetConfigParameter
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameter
+- uid: SuperOffice.CRM.Services.IAudienceAgent.DeleteConfigParameter*
+  commentId: Overload:SuperOffice.CRM.Services.IAudienceAgent.DeleteConfigParameter
+  isExternal: true
+  name: DeleteConfigParameter
+  nameWithType: IAudienceAgent.DeleteConfigParameter
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.DeleteConfigParameter
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameter*
+  commentId: Overload:SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameter
+  isExternal: true
+  name: GetMyConfigParameter
+  nameWithType: IAudienceAgent.GetMyConfigParameter
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameter
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameterValue*
+  commentId: Overload:SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameterValue
+  isExternal: true
+  name: GetMyConfigParameterValue
+  nameWithType: IAudienceAgent.GetMyConfigParameterValue
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameterValue
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValueOnPerson*
+  commentId: Overload:SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValueOnPerson
+  isExternal: true
+  name: GetConfigParameterValueOnPerson
+  nameWithType: IAudienceAgent.GetConfigParameterValueOnPerson
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValueOnPerson
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterOnPerson*
+  commentId: Overload:SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterOnPerson
+  isExternal: true
+  name: GetConfigParameterOnPerson
+  nameWithType: IAudienceAgent.GetConfigParameterOnPerson
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterOnPerson
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersByLayoutName*
+  commentId: Overload:SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersByLayoutName
+  isExternal: true
+  name: GetConfigParametersByLayoutName
+  nameWithType: IAudienceAgent.GetConfigParametersByLayoutName
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersByLayoutName
+- uid: SuperOffice.CRM.Services.AudienceConfigParameter[]
+  isExternal: true
+  name: AudienceConfigParameter[]
+  nameWithType: AudienceConfigParameter[]
+  fullName: SuperOffice.CRM.Services.AudienceConfigParameter[]
+  nameWithType.vb: AudienceConfigParameter()
+  fullName.vb: SuperOffice.CRM.Services.AudienceConfigParameter()
+  name.vb: AudienceConfigParameter()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AudienceConfigParameter
+    name: AudienceConfigParameter
+    nameWithType: AudienceConfigParameter
+    fullName: SuperOffice.CRM.Services.AudienceConfigParameter
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AudienceConfigParameter
+    name: AudienceConfigParameter
+    nameWithType: AudienceConfigParameter
+    fullName: SuperOffice.CRM.Services.AudienceConfigParameter
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameters*
+  commentId: Overload:SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameters
+  isExternal: true
+  name: GetMyConfigParameters
+  nameWithType: IAudienceAgent.GetMyConfigParameters
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameters
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersOnPerson*
+  commentId: Overload:SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersOnPerson
+  isExternal: true
+  name: GetConfigParametersOnPerson
+  nameWithType: IAudienceAgent.GetConfigParametersOnPerson
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersOnPerson
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutEntity
+  isExternal: true
+  name: GetAudienceLayoutEntity
+  nameWithType: IAudienceAgent.GetAudienceLayoutEntity
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutEntity
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutByName*
+  commentId: Overload:SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutByName
+  isExternal: true
+  name: GetAudienceLayoutByName
+  nameWithType: IAudienceAgent.GetAudienceLayoutByName
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutByName
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetMyAudienceLayout*
+  commentId: Overload:SuperOffice.CRM.Services.IAudienceAgent.GetMyAudienceLayout
+  isExternal: true
+  name: GetMyAudienceLayout
+  nameWithType: IAudienceAgent.GetMyAudienceLayout
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetMyAudienceLayout
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutOnPerson*
+  commentId: Overload:SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutOnPerson
+  isExternal: true
+  name: GetAudienceLayoutOnPerson
+  nameWithType: IAudienceAgent.GetAudienceLayoutOnPerson
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutOnPerson
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultProjectImage*
+  commentId: Overload:SuperOffice.CRM.Services.IAudienceAgent.GetDefaultProjectImage
+  isExternal: true
+  name: GetDefaultProjectImage
+  nameWithType: IAudienceAgent.GetDefaultProjectImage
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultProjectImage
+- uid: System.Drawing.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: System.Drawing.Image
+- uid: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultProjectImage*
+  commentId: Overload:SuperOffice.CRM.Services.IAudienceAgent.SetDefaultProjectImage
+  isExternal: true
+  name: SetDefaultProjectImage
+  nameWithType: IAudienceAgent.SetDefaultProjectImage
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultProjectImage
+- uid: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultPersonImage*
+  commentId: Overload:SuperOffice.CRM.Services.IAudienceAgent.SetDefaultPersonImage
+  isExternal: true
+  name: SetDefaultPersonImage
+  nameWithType: IAudienceAgent.SetDefaultPersonImage
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultPersonImage
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultPersonImage*
+  commentId: Overload:SuperOffice.CRM.Services.IAudienceAgent.GetDefaultPersonImage
+  isExternal: true
+  name: GetDefaultPersonImage
+  nameWithType: IAudienceAgent.GetDefaultPersonImage
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultPersonImage
+- uid: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultCountryFlag*
+  commentId: Overload:SuperOffice.CRM.Services.IAudienceAgent.SetDefaultCountryFlag
+  isExternal: true
+  name: SetDefaultCountryFlag
+  nameWithType: IAudienceAgent.SetDefaultCountryFlag
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultCountryFlag
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultCountryFlag*
+  commentId: Overload:SuperOffice.CRM.Services.IAudienceAgent.GetDefaultCountryFlag
+  isExternal: true
+  name: GetDefaultCountryFlag
+  nameWithType: IAudienceAgent.GetDefaultCountryFlag
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultCountryFlag
+- uid: SuperOffice.CRM.Services.IAudienceAgent.GetLogoImage*
+  commentId: Overload:SuperOffice.CRM.Services.IAudienceAgent.GetLogoImage
+  isExternal: true
+  name: GetLogoImage
+  nameWithType: IAudienceAgent.GetLogoImage
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetLogoImage
+- uid: SuperOffice.CRM.Services.IAudienceAgent.SetLogoImage*
+  commentId: Overload:SuperOffice.CRM.Services.IAudienceAgent.SetLogoImage
+  isExternal: true
+  name: SetLogoImage
+  nameWithType: IAudienceAgent.SetLogoImage
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.SetLogoImage

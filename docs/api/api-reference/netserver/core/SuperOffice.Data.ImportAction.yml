@@ -1,0 +1,753 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.ImportAction
+  commentId: T:SuperOffice.Data.ImportAction
+  id: ImportAction
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.ImportAction.ContactAdded
+  - SuperOffice.Data.ImportAction.ContactNoChange
+  - SuperOffice.Data.ImportAction.ContactUpdated
+  - SuperOffice.Data.ImportAction.Obs
+  - SuperOffice.Data.ImportAction.ObsERPDuplicate
+  - SuperOffice.Data.ImportAction.PersonAdded
+  - SuperOffice.Data.ImportAction.PersonNoChange
+  - SuperOffice.Data.ImportAction.PersonUpdated
+  - SuperOffice.Data.ImportAction.ProductAdded
+  - SuperOffice.Data.ImportAction.ProductNoChange
+  - SuperOffice.Data.ImportAction.ProductUpdated
+  - SuperOffice.Data.ImportAction.Unknown
+  langs:
+  - csharp
+  - vb
+  name: ImportAction
+  nameWithType: ImportAction
+  fullName: SuperOffice.Data.ImportAction
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nAction being done for the import row\nThis Enum consists of flag values that can be combined.\n"
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum ImportAction
+    content.vb: >-
+      <Flags>
+
+      Public Enum ImportAction
+  extensionMethods:
+  - SuperOffice.Data.ImportAction.EnumUtil.MapEnums``2
+  - SuperOffice.Data.ImportAction.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ImportAction)
+  - SuperOffice.Data.ImportAction.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.ImportAction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.ImportAction.Unknown
+  commentId: F:SuperOffice.Data.ImportAction.Unknown
+  id: Unknown
+  parent: SuperOffice.Data.ImportAction
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: ImportAction.Unknown
+  fullName: SuperOffice.Data.ImportAction.Unknown
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: Unknown\n"
+  syntax:
+    content: Unknown = 0
+    return:
+      type: SuperOffice.Data.ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportAction.PersonAdded
+  commentId: F:SuperOffice.Data.ImportAction.PersonAdded
+  id: PersonAdded
+  parent: SuperOffice.Data.ImportAction
+  langs:
+  - csharp
+  - vb
+  name: PersonAdded
+  nameWithType: ImportAction.PersonAdded
+  fullName: SuperOffice.Data.ImportAction.PersonAdded
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: PersonAdded\n"
+  syntax:
+    content: PersonAdded = 1
+    return:
+      type: SuperOffice.Data.ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportAction.PersonUpdated
+  commentId: F:SuperOffice.Data.ImportAction.PersonUpdated
+  id: PersonUpdated
+  parent: SuperOffice.Data.ImportAction
+  langs:
+  - csharp
+  - vb
+  name: PersonUpdated
+  nameWithType: ImportAction.PersonUpdated
+  fullName: SuperOffice.Data.ImportAction.PersonUpdated
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: PersonUpdated\n"
+  syntax:
+    content: PersonUpdated = 2
+    return:
+      type: SuperOffice.Data.ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportAction.PersonNoChange
+  commentId: F:SuperOffice.Data.ImportAction.PersonNoChange
+  id: PersonNoChange
+  parent: SuperOffice.Data.ImportAction
+  langs:
+  - csharp
+  - vb
+  name: PersonNoChange
+  nameWithType: ImportAction.PersonNoChange
+  fullName: SuperOffice.Data.ImportAction.PersonNoChange
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4: PersonNoChange\n"
+  syntax:
+    content: PersonNoChange = 4
+    return:
+      type: SuperOffice.Data.ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportAction.ContactAdded
+  commentId: F:SuperOffice.Data.ImportAction.ContactAdded
+  id: ContactAdded
+  parent: SuperOffice.Data.ImportAction
+  langs:
+  - csharp
+  - vb
+  name: ContactAdded
+  nameWithType: ImportAction.ContactAdded
+  fullName: SuperOffice.Data.ImportAction.ContactAdded
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n8: ContactAdded\n"
+  syntax:
+    content: ContactAdded = 8
+    return:
+      type: SuperOffice.Data.ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportAction.ContactUpdated
+  commentId: F:SuperOffice.Data.ImportAction.ContactUpdated
+  id: ContactUpdated
+  parent: SuperOffice.Data.ImportAction
+  langs:
+  - csharp
+  - vb
+  name: ContactUpdated
+  nameWithType: ImportAction.ContactUpdated
+  fullName: SuperOffice.Data.ImportAction.ContactUpdated
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n16: ContactUpdated\n"
+  syntax:
+    content: ContactUpdated = 16
+    return:
+      type: SuperOffice.Data.ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportAction.ContactNoChange
+  commentId: F:SuperOffice.Data.ImportAction.ContactNoChange
+  id: ContactNoChange
+  parent: SuperOffice.Data.ImportAction
+  langs:
+  - csharp
+  - vb
+  name: ContactNoChange
+  nameWithType: ImportAction.ContactNoChange
+  fullName: SuperOffice.Data.ImportAction.ContactNoChange
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n32: ContactNoChange\n"
+  syntax:
+    content: ContactNoChange = 32
+    return:
+      type: SuperOffice.Data.ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportAction.ProductAdded
+  commentId: F:SuperOffice.Data.ImportAction.ProductAdded
+  id: ProductAdded
+  parent: SuperOffice.Data.ImportAction
+  langs:
+  - csharp
+  - vb
+  name: ProductAdded
+  nameWithType: ImportAction.ProductAdded
+  fullName: SuperOffice.Data.ImportAction.ProductAdded
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n64: ProductAdded\n"
+  syntax:
+    content: ProductAdded = 64
+    return:
+      type: SuperOffice.Data.ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportAction.ProductUpdated
+  commentId: F:SuperOffice.Data.ImportAction.ProductUpdated
+  id: ProductUpdated
+  parent: SuperOffice.Data.ImportAction
+  langs:
+  - csharp
+  - vb
+  name: ProductUpdated
+  nameWithType: ImportAction.ProductUpdated
+  fullName: SuperOffice.Data.ImportAction.ProductUpdated
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n128: ProductUpdated\n"
+  syntax:
+    content: ProductUpdated = 128
+    return:
+      type: SuperOffice.Data.ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportAction.ProductNoChange
+  commentId: F:SuperOffice.Data.ImportAction.ProductNoChange
+  id: ProductNoChange
+  parent: SuperOffice.Data.ImportAction
+  langs:
+  - csharp
+  - vb
+  name: ProductNoChange
+  nameWithType: ImportAction.ProductNoChange
+  fullName: SuperOffice.Data.ImportAction.ProductNoChange
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n256: ProductNoChange\n"
+  syntax:
+    content: ProductNoChange = 256
+    return:
+      type: SuperOffice.Data.ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportAction.Obs
+  commentId: F:SuperOffice.Data.ImportAction.Obs
+  id: Obs
+  parent: SuperOffice.Data.ImportAction
+  langs:
+  - csharp
+  - vb
+  name: Obs
+  nameWithType: ImportAction.Obs
+  fullName: SuperOffice.Data.ImportAction.Obs
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n512: Obs\n"
+  syntax:
+    content: Obs = 512
+    return:
+      type: SuperOffice.Data.ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ImportAction.ObsERPDuplicate
+  commentId: F:SuperOffice.Data.ImportAction.ObsERPDuplicate
+  id: ObsERPDuplicate
+  parent: SuperOffice.Data.ImportAction
+  langs:
+  - csharp
+  - vb
+  name: ObsERPDuplicate
+  nameWithType: ImportAction.ObsERPDuplicate
+  fullName: SuperOffice.Data.ImportAction.ObsERPDuplicate
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1024: ObsERPDuplicate\n"
+  syntax:
+    content: ObsERPDuplicate = 1024
+    return:
+      type: SuperOffice.Data.ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.ImportAction.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ImportAction, To>()
+  nameWithType: EnumUtil.MapEnums<ImportAction, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ImportAction, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ImportAction, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ImportAction, To)()
+  name.vb: MapEnums(Of ImportAction, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ImportAction, To>
+    nameWithType: EnumUtil.MapEnums<ImportAction, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ImportAction, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ImportAction, To)
+    nameWithType: EnumUtil.MapEnums(Of ImportAction, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ImportAction, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ImportAction.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ImportAction)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ImportAction>(ImportAction)
+  nameWithType: ObjectExtensions.AssignByReflection<ImportAction>(ImportAction)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ImportAction>(SuperOffice.Data.ImportAction)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ImportAction)(ImportAction)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ImportAction)(SuperOffice.Data.ImportAction)
+  name.vb: AssignByReflection(Of ImportAction)(ImportAction)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ImportAction>
+    nameWithType: ObjectExtensions.AssignByReflection<ImportAction>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ImportAction>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.ImportAction
+    name: ImportAction
+    nameWithType: ImportAction
+    fullName: SuperOffice.Data.ImportAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ImportAction)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ImportAction)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ImportAction)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.ImportAction
+    name: ImportAction
+    nameWithType: ImportAction
+    fullName: SuperOffice.Data.ImportAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ImportAction.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ImportAction>()
+  nameWithType: ObjectExtensions.GraphCopy<ImportAction>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ImportAction>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ImportAction)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ImportAction)()
+  name.vb: GraphCopy(Of ImportAction)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ImportAction>
+    nameWithType: ObjectExtensions.GraphCopy<ImportAction>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ImportAction>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ImportAction)
+    nameWithType: ObjectExtensions.GraphCopy(Of ImportAction)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ImportAction)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ImportAction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ImportAction, To>()
+  nameWithType: Converters.MapEnums<ImportAction, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ImportAction, To>()
+  nameWithType.vb: Converters.MapEnums(Of ImportAction, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ImportAction, To)()
+  name.vb: MapEnums(Of ImportAction, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ImportAction, To>
+    nameWithType: Converters.MapEnums<ImportAction, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ImportAction, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ImportAction, To)
+    nameWithType: Converters.MapEnums(Of ImportAction, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ImportAction, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.ImportAction
+  commentId: T:SuperOffice.Data.ImportAction
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ImportAction
+  nameWithType: ImportAction
+  fullName: SuperOffice.Data.ImportAction

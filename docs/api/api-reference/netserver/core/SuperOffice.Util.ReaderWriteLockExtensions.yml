@@ -1,0 +1,584 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.ReaderWriteLockExtensions
+  commentId: T:SuperOffice.Util.ReaderWriteLockExtensions
+  id: ReaderWriteLockExtensions
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock(System.Threading.ReaderWriterLock,System.Action)
+  - SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock``1(System.Threading.ReaderWriterLock,System.Func{``0})
+  - SuperOffice.Util.ReaderWriteLockExtensions.WithWriterLock(System.Threading.ReaderWriterLock,System.Action)
+  langs:
+  - csharp
+  - vb
+  name: ReaderWriteLockExtensions
+  nameWithType: ReaderWriteLockExtensions
+  fullName: SuperOffice.Util.ReaderWriteLockExtensions
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static class ReaderWriteLockExtensions
+    content.vb: Public Module ReaderWriteLockExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock(System.Threading.ReaderWriterLock,System.Action)
+  commentId: M:SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock(System.Threading.ReaderWriterLock,System.Action)
+  id: WithReaderLock(System.Threading.ReaderWriterLock,System.Action)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.ReaderWriteLockExtensions
+  langs:
+  - csharp
+  - vb
+  name: WithReaderLock(ReaderWriterLock, Action)
+  nameWithType: ReaderWriteLockExtensions.WithReaderLock(ReaderWriterLock, Action)
+  fullName: SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock(System.Threading.ReaderWriterLock, System.Action)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nPerform the body of actions within a read-lock context, using the given <xref href=\"System.Threading.ReaderWriterLock\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public static void WithReaderLock(this ReaderWriterLock theLock, Action body)
+    parameters:
+    - id: theLock
+      type: System.Threading.ReaderWriterLock
+      description: Lock object to operate on
+    - id: body
+      type: System.Action
+      description: Actions to perform within the lock
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub WithReaderLock(theLock As ReaderWriterLock, body As Action)
+  overload: SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock``1(System.Threading.ReaderWriterLock,System.Func{``0})
+  commentId: M:SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock``1(System.Threading.ReaderWriterLock,System.Func{``0})
+  id: WithReaderLock``1(System.Threading.ReaderWriterLock,System.Func{``0})
+  isExtensionMethod: true
+  parent: SuperOffice.Util.ReaderWriteLockExtensions
+  langs:
+  - csharp
+  - vb
+  name: WithReaderLock<TResult>(ReaderWriterLock, Func<TResult>)
+  nameWithType: ReaderWriteLockExtensions.WithReaderLock<TResult>(ReaderWriterLock, Func<TResult>)
+  fullName: SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock<TResult>(System.Threading.ReaderWriterLock, System.Func<TResult>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static TResult WithReaderLock<TResult>(this ReaderWriterLock theLock, Func<TResult> body)
+    parameters:
+    - id: theLock
+      type: System.Threading.ReaderWriterLock
+    - id: body
+      type: System.Func{{TResult}}
+    typeParameters:
+    - id: TResult
+    return:
+      type: '{TResult}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function WithReaderLock(Of TResult)(theLock As ReaderWriterLock, body As Func(Of TResult)) As TResult
+  overload: SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock*
+  nameWithType.vb: ReaderWriteLockExtensions.WithReaderLock(Of TResult)(ReaderWriterLock, Func(Of TResult))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock(Of TResult)(System.Threading.ReaderWriterLock, System.Func(Of TResult))
+  name.vb: WithReaderLock(Of TResult)(ReaderWriterLock, Func(Of TResult))
+- uid: SuperOffice.Util.ReaderWriteLockExtensions.WithWriterLock(System.Threading.ReaderWriterLock,System.Action)
+  commentId: M:SuperOffice.Util.ReaderWriteLockExtensions.WithWriterLock(System.Threading.ReaderWriterLock,System.Action)
+  id: WithWriterLock(System.Threading.ReaderWriterLock,System.Action)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.ReaderWriteLockExtensions
+  langs:
+  - csharp
+  - vb
+  name: WithWriterLock(ReaderWriterLock, Action)
+  nameWithType: ReaderWriteLockExtensions.WithWriterLock(ReaderWriterLock, Action)
+  fullName: SuperOffice.Util.ReaderWriteLockExtensions.WithWriterLock(System.Threading.ReaderWriterLock, System.Action)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nPerform the body of actions within a write-lock context, using the given <xref href=\"System.Threading.ReaderWriterLock\" data-throw-if-not-resolved=\"false\"></xref>.\nIf the thread already has a reader lock, then it will be upgraded to a writer lock, and restored\non exit.\n"
+  syntax:
+    content: public static void WithWriterLock(this ReaderWriterLock theLock, Action body)
+    parameters:
+    - id: theLock
+      type: System.Threading.ReaderWriterLock
+      description: Lock object to operate on
+    - id: body
+      type: System.Action
+      description: Actions to perform within the lock
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub WithWriterLock(theLock As ReaderWriterLock, body As Action)
+  overload: SuperOffice.Util.ReaderWriteLockExtensions.WithWriterLock*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock*
+  commentId: Overload:SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock
+  isExternal: true
+  name: WithReaderLock
+  nameWithType: ReaderWriteLockExtensions.WithReaderLock
+  fullName: SuperOffice.Util.ReaderWriteLockExtensions.WithReaderLock
+- uid: System.Threading.ReaderWriterLock
+  commentId: T:System.Threading.ReaderWriterLock
+  parent: System.Threading
+  isExternal: true
+  name: ReaderWriterLock
+  nameWithType: ReaderWriterLock
+  fullName: System.Threading.ReaderWriterLock
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+- uid: System.Func{{TResult}}
+  commentId: T:System.Func{``0}
+  parent: System
+  definition: System.Func`1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: '{TResult}'
+  commentId: '!:TResult'
+  definition: TResult
+  name: TResult
+  nameWithType: TResult
+  fullName: TResult
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TResult
+  name: TResult
+  nameWithType: TResult
+  fullName: TResult
+- uid: SuperOffice.Util.ReaderWriteLockExtensions.WithWriterLock*
+  commentId: Overload:SuperOffice.Util.ReaderWriteLockExtensions.WithWriterLock
+  isExternal: true
+  name: WithWriterLock
+  nameWithType: ReaderWriteLockExtensions.WithWriterLock
+  fullName: SuperOffice.Util.ReaderWriteLockExtensions.WithWriterLock

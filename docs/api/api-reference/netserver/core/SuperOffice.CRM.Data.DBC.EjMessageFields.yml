@@ -1,0 +1,1157 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields
+  commentId: T:SuperOffice.CRM.Data.DBC.EjMessageFields
+  id: DBC.EjMessageFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.Author
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.Body
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.BodyAttachment
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.CreatedAt
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.CreatedBy
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.CustomerId
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.DebugInfo
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.EjMessageId
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.EmailHeader
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.HtmlBody
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.HtmlBodyAttachment
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.HtmlBodyInlineConverted
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.Important
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.Inbox
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.Language
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.MailSorter
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.MessageCategory
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.MessageId
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.SearchTitle
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.Sentiment
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.SentimentConfidence
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.Slevel
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.SuggestedCategoryId
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.TicketId
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.TimeCharge
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.TimeSpent
+  - SuperOffice.CRM.Data.DBC.EjMessageFields.Type
+  langs:
+  - csharp
+  - vb
+  name: DBC.EjMessageFields
+  nameWithType: DBC.EjMessageFields
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for EjMessage, This table contains the messages listed under tickets.\n"
+  syntax:
+    content: public static class EjMessageFields
+    content.vb: Public Module EjMessageFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.EjMessageId
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.EjMessageId
+  id: EjMessageId
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: EjMessageId
+  nameWithType: DBC.EjMessageFields.EjMessageId
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.EjMessageId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.EjMessageId: The primary key (auto-incremented)\n"
+  syntax:
+    content: public const string EjMessageId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const EjMessageId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.TicketId
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.TicketId
+  id: TicketId
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: TicketId
+  nameWithType: DBC.EjMessageFields.TicketId
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.TicketId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.TicketId: The ticket this message is a child of.\n"
+  syntax:
+    content: public const string TicketId = "ticket_id"
+    return:
+      type: System.String
+    content.vb: Public Const TicketId As String = "ticket_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.SearchTitle
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.SearchTitle
+  id: SearchTitle
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: SearchTitle
+  nameWithType: DBC.EjMessageFields.SearchTitle
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.SearchTitle
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.SearchTitle: A copy of the title of the ticket, for search optimisation and simpler reporting.\n"
+  syntax:
+    content: public const string SearchTitle = "search_title"
+    return:
+      type: System.String
+    content.vb: Public Const SearchTitle As String = "search_title"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.CreatedAt
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.CreatedAt
+  id: CreatedAt
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: CreatedAt
+  nameWithType: DBC.EjMessageFields.CreatedAt
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.CreatedAt
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.CreatedAt: When the message was posted.\n"
+  syntax:
+    content: public const string CreatedAt = "created_at"
+    return:
+      type: System.String
+    content.vb: Public Const CreatedAt As String = "created_at"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.CreatedBy
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: DBC.EjMessageFields.CreatedBy
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.CreatedBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.CreatedBy: The id of the user who posted the message. The value 1 (system user) for externally posted messages.\n"
+  syntax:
+    content: public const string CreatedBy = "created_by"
+    return:
+      type: System.String
+    content.vb: Public Const CreatedBy As String = "created_by"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.Type
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.Type
+  id: Type
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: DBC.EjMessageFields.Type
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.Type
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.Type: The type of the message (plaintext/html).\n"
+  syntax:
+    content: public const string Type = "type"
+    return:
+      type: System.String
+    content.vb: Public Const Type As String = "type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.MessageCategory
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.MessageCategory
+  id: MessageCategory
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: MessageCategory
+  nameWithType: DBC.EjMessageFields.MessageCategory
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.MessageCategory
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.MessageCategory: Defines what kind of message this is.\n"
+  syntax:
+    content: public const string MessageCategory = "message_category"
+    return:
+      type: System.String
+    content.vb: Public Const MessageCategory As String = "message_category"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.Author
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.Author
+  id: Author
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: Author
+  nameWithType: DBC.EjMessageFields.Author
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.Author
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.Author: A string representing the author of the message. Could be a user&apos;s name, or a persons email address.\n"
+  syntax:
+    content: public const string Author = "author"
+    return:
+      type: System.String
+    content.vb: Public Const Author As String = "author"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.Slevel
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.Slevel
+  id: Slevel
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: Slevel
+  nameWithType: DBC.EjMessageFields.Slevel
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.Slevel
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.Slevel: The securitylevel of the message.\n"
+  syntax:
+    content: public const string Slevel = "slevel"
+    return:
+      type: System.String
+    content.vb: Public Const Slevel As String = "slevel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.MessageId
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.MessageId
+  id: MessageId
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: MessageId
+  nameWithType: DBC.EjMessageFields.MessageId
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.MessageId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.MessageId: The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets.\n"
+  syntax:
+    content: public const string MessageId = "message_id"
+    return:
+      type: System.String
+    content.vb: Public Const MessageId As String = "message_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.TimeSpent
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.TimeSpent
+  id: TimeSpent
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: TimeSpent
+  nameWithType: DBC.EjMessageFields.TimeSpent
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.TimeSpent
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.TimeSpent: The time spent (minutes) for this message.\n"
+  syntax:
+    content: public const string TimeSpent = "time_spent"
+    return:
+      type: System.String
+    content.vb: Public Const TimeSpent As String = "time_spent"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.TimeCharge
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.TimeCharge
+  id: TimeCharge
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: TimeCharge
+  nameWithType: DBC.EjMessageFields.TimeCharge
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.TimeCharge
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.TimeCharge: The amount of time (minutes) which should be invoiced for this message.\n"
+  syntax:
+    content: public const string TimeCharge = "time_charge"
+    return:
+      type: System.String
+    content.vb: Public Const TimeCharge As String = "time_charge"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.Body
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.Body
+  id: Body
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: Body
+  nameWithType: DBC.EjMessageFields.Body
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.Body
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.Body: The textbody for the message.\n"
+  syntax:
+    content: public const string Body = "body"
+    return:
+      type: System.String
+    content.vb: Public Const Body As String = "body"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.HtmlBody
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.HtmlBody
+  id: HtmlBody
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: HtmlBody
+  nameWithType: DBC.EjMessageFields.HtmlBody
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.HtmlBody
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.HtmlBody: The html body for the message (if any).\n"
+  syntax:
+    content: public const string HtmlBody = "html_body"
+    return:
+      type: System.String
+    content.vb: Public Const HtmlBody As String = "html_body"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.EmailHeader
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.EmailHeader
+  id: EmailHeader
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: EmailHeader
+  nameWithType: DBC.EjMessageFields.EmailHeader
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.EmailHeader
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.EmailHeader: The email header is saved in this field as raw text\n"
+  syntax:
+    content: public const string EmailHeader = "email_header"
+    return:
+      type: System.String
+    content.vb: Public Const EmailHeader As String = "email_header"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.DebugInfo
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.DebugInfo
+  id: DebugInfo
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: DebugInfo
+  nameWithType: DBC.EjMessageFields.DebugInfo
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.DebugInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.DebugInfo: The debug info for the message.\n"
+  syntax:
+    content: public const string DebugInfo = "debug_info"
+    return:
+      type: System.String
+    content.vb: Public Const DebugInfo As String = "debug_info"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.MailSorter
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.MailSorter
+  id: MailSorter
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: MailSorter
+  nameWithType: DBC.EjMessageFields.MailSorter
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.MailSorter
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.MailSorter: The name of the mail sorter used when the email was imported. Note: We must use name instead of id since the id&apos;s change every time one changes the mail sorter. :-0\n"
+  syntax:
+    content: public const string MailSorter = "mail_sorter"
+    return:
+      type: System.String
+    content.vb: Public Const MailSorter As String = "mail_sorter"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.CustomerId
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.CustomerId
+  id: CustomerId
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: CustomerId
+  nameWithType: DBC.EjMessageFields.CustomerId
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.CustomerId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.CustomerId: If the message was created by email or from the customer center, this field will point to that customer. -1 if the message was created by an user\n"
+  syntax:
+    content: public const string CustomerId = "customer_id"
+    return:
+      type: System.String
+    content.vb: Public Const CustomerId As String = "customer_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.BodyAttachment
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.BodyAttachment
+  id: BodyAttachment
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: BodyAttachment
+  nameWithType: DBC.EjMessageFields.BodyAttachment
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.BodyAttachment
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.BodyAttachment: If the body is too long for the database, it&apos;s stored in this attachment instead.\n"
+  syntax:
+    content: public const string BodyAttachment = "body_attachment"
+    return:
+      type: System.String
+    content.vb: Public Const BodyAttachment As String = "body_attachment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.HtmlBodyAttachment
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.HtmlBodyAttachment
+  id: HtmlBodyAttachment
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: HtmlBodyAttachment
+  nameWithType: DBC.EjMessageFields.HtmlBodyAttachment
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.HtmlBodyAttachment
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.HtmlBodyAttachment: If the htmlbody is too long for the database, it&apos;s stored in this attachment instead.\n"
+  syntax:
+    content: public const string HtmlBodyAttachment = "html_body_attachment"
+    return:
+      type: System.String
+    content.vb: Public Const HtmlBodyAttachment As String = "html_body_attachment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.HtmlBodyInlineConverted
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.HtmlBodyInlineConverted
+  id: HtmlBodyInlineConverted
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: HtmlBodyInlineConverted
+  nameWithType: DBC.EjMessageFields.HtmlBodyInlineConverted
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.HtmlBodyInlineConverted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.HtmlBodyInlineConverted: True if the html_body has converted inline image links.\n"
+  syntax:
+    content: public const string HtmlBodyInlineConverted = "html_body_inline_converted"
+    return:
+      type: System.String
+    content.vb: Public Const HtmlBodyInlineConverted As String = "html_body_inline_converted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.Inbox
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.Inbox
+  id: Inbox
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: Inbox
+  nameWithType: DBC.EjMessageFields.Inbox
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.Inbox
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.Inbox: The id of the inbox entry which created this message. Note: inbox entries are regularily deleted.\n"
+  syntax:
+    content: public const string Inbox = "inbox"
+    return:
+      type: System.String
+    content.vb: Public Const Inbox As String = "inbox"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.Important
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.Important
+  id: Important
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: Important
+  nameWithType: DBC.EjMessageFields.Important
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.Important
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.Important: If this message is important or not.\n"
+  syntax:
+    content: public const string Important = "important"
+    return:
+      type: System.String
+    content.vb: Public Const Important As String = "important"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.Language
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.Language
+  id: Language
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: DBC.EjMessageFields.Language
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.Language
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.Language: The language this message is in, based on some kind of analysis\n"
+  syntax:
+    content: public const string Language = "language"
+    return:
+      type: System.String
+    content.vb: Public Const Language As String = "language"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.Sentiment
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.Sentiment
+  id: Sentiment
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: Sentiment
+  nameWithType: DBC.EjMessageFields.Sentiment
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.Sentiment
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.Sentiment: Sentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea\n"
+  syntax:
+    content: public const string Sentiment = "sentiment"
+    return:
+      type: System.String
+    content.vb: Public Const Sentiment As String = "sentiment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.SentimentConfidence
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.SentimentConfidence
+  id: SentimentConfidence
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: SentimentConfidence
+  nameWithType: DBC.EjMessageFields.SentimentConfidence
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.SentimentConfidence
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.SentimentConfidence: Confidence of sentiment index, 0 = no idea, 100 = completely sure\n"
+  syntax:
+    content: public const string SentimentConfidence = "sentimentConfidence"
+    return:
+      type: System.String
+    content.vb: Public Const SentimentConfidence As String = "sentimentConfidence"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjMessageFields.SuggestedCategoryId
+  commentId: F:SuperOffice.CRM.Data.DBC.EjMessageFields.SuggestedCategoryId
+  id: SuggestedCategoryId
+  parent: SuperOffice.CRM.Data.DBC.EjMessageFields
+  langs:
+  - csharp
+  - vb
+  name: SuggestedCategoryId
+  nameWithType: DBC.EjMessageFields.SuggestedCategoryId
+  fullName: SuperOffice.CRM.Data.DBC.EjMessageFields.SuggestedCategoryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjMessage.SuggestedCategoryId: Suggestion for categorization, based on the text of the message (AI)\n"
+  syntax:
+    content: public const string SuggestedCategoryId = "suggestedCategory_id"
+    return:
+      type: System.String
+    content.vb: Public Const SuggestedCategoryId As String = "suggestedCategory_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,549 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues
+  commentId: T:SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues
+  id: Constants.RestrictionValues
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.HintDelimiter
+  - SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.R
+  - SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.RPLUS
+  - SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.TypeDelimiter
+  - SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.W
+  - SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.WDT
+  - SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.WPLUS
+  langs:
+  - csharp
+  - vb
+  name: Constants.RestrictionValues
+  nameWithType: Constants.RestrictionValues
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static class RestrictionValues
+    content.vb: Public Module RestrictionValues
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.HintDelimiter
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.HintDelimiter
+  id: HintDelimiter
+  parent: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues
+  langs:
+  - csharp
+  - vb
+  name: HintDelimiter
+  nameWithType: Constants.RestrictionValues.HintDelimiter
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.HintDelimiter
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string HintDelimiter = ";"
+    return:
+      type: System.String
+    content.vb: Public Const HintDelimiter As String = ";"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.TypeDelimiter
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.TypeDelimiter
+  id: TypeDelimiter
+  parent: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues
+  langs:
+  - csharp
+  - vb
+  name: TypeDelimiter
+  nameWithType: Constants.RestrictionValues.TypeDelimiter
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.TypeDelimiter
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string TypeDelimiter = ":"
+    return:
+      type: System.String
+    content.vb: Public Const TypeDelimiter As String = ":"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.R
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.R
+  id: R
+  parent: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues
+  langs:
+  - csharp
+  - vb
+  name: R
+  nameWithType: Constants.RestrictionValues.R
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.R
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string R = "R"
+    return:
+      type: System.String
+    content.vb: Public Const R As String = "R"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.W
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.W
+  id: W
+  parent: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues
+  langs:
+  - csharp
+  - vb
+  name: W
+  nameWithType: Constants.RestrictionValues.W
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.W
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string W = "W"
+    return:
+      type: System.String
+    content.vb: Public Const W As String = "W"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.WDT
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.WDT
+  id: WDT
+  parent: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues
+  langs:
+  - csharp
+  - vb
+  name: WDT
+  nameWithType: Constants.RestrictionValues.WDT
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.WDT
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string WDT = "WDT"
+    return:
+      type: System.String
+    content.vb: Public Const WDT As String = "WDT"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.WPLUS
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.WPLUS
+  id: WPLUS
+  parent: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues
+  langs:
+  - csharp
+  - vb
+  name: WPLUS
+  nameWithType: Constants.RestrictionValues.WPLUS
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.WPLUS
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string WPLUS = "W+"
+    return:
+      type: System.String
+    content.vb: Public Const WPLUS As String = "W+"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.RPLUS
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.RPLUS
+  id: RPLUS
+  parent: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues
+  langs:
+  - csharp
+  - vb
+  name: RPLUS
+  nameWithType: Constants.RestrictionValues.RPLUS
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.RestrictionValues.RPLUS
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string RPLUS = "R+"
+    return:
+      type: System.String
+    content.vb: Public Const RPLUS As String = "R+"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

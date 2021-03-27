@@ -1,0 +1,1549 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ParticipantSyncData
+  commentId: T:SuperOffice.CRM.Services.ParticipantSyncData
+  id: ParticipantSyncData
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ParticipantSyncData.#ctor
+  - SuperOffice.CRM.Services.ParticipantSyncData.ContactBusiness
+  - SuperOffice.CRM.Services.ParticipantSyncData.ContactCategory
+  - SuperOffice.CRM.Services.ParticipantSyncData.ContactCountry
+  - SuperOffice.CRM.Services.ParticipantSyncData.ContactDepartment
+  - SuperOffice.CRM.Services.ParticipantSyncData.ContactFullName
+  - SuperOffice.CRM.Services.ParticipantSyncData.ContactId
+  - SuperOffice.CRM.Services.ParticipantSyncData.ContactName
+  - SuperOffice.CRM.Services.ParticipantSyncData.ContactUrl
+  - SuperOffice.CRM.Services.ParticipantSyncData.Country
+  - SuperOffice.CRM.Services.ParticipantSyncData.EMail
+  - SuperOffice.CRM.Services.ParticipantSyncData.Messenger
+  - SuperOffice.CRM.Services.ParticipantSyncData.ParticipantStatus
+  - SuperOffice.CRM.Services.ParticipantSyncData.PersonAcademicTitle
+  - SuperOffice.CRM.Services.ParticipantSyncData.PersonAddress
+  - SuperOffice.CRM.Services.ParticipantSyncData.PersonCountry
+  - SuperOffice.CRM.Services.ParticipantSyncData.PersonFirstName
+  - SuperOffice.CRM.Services.ParticipantSyncData.PersonFormalName
+  - SuperOffice.CRM.Services.ParticipantSyncData.PersonFullName
+  - SuperOffice.CRM.Services.ParticipantSyncData.PersonId
+  - SuperOffice.CRM.Services.ParticipantSyncData.PersonLastname
+  - SuperOffice.CRM.Services.ParticipantSyncData.PersonMiddleName
+  - SuperOffice.CRM.Services.ParticipantSyncData.PersonMrmrs
+  - SuperOffice.CRM.Services.ParticipantSyncData.PersonPosition
+  - SuperOffice.CRM.Services.ParticipantSyncData.PersonTitle
+  - SuperOffice.CRM.Services.ParticipantSyncData.PhoneContact
+  - SuperOffice.CRM.Services.ParticipantSyncData.PhoneDirect
+  - SuperOffice.CRM.Services.ParticipantSyncData.PhoneFax
+  - SuperOffice.CRM.Services.ParticipantSyncData.PhoneMobile
+  - SuperOffice.CRM.Services.ParticipantSyncData.PhonePrivate
+  - SuperOffice.CRM.Services.ParticipantSyncData.PostalAddress
+  - SuperOffice.CRM.Services.ParticipantSyncData.StreetAddress
+  - SuperOffice.CRM.Services.ParticipantSyncData.ToString
+  - SuperOffice.CRM.Services.ParticipantSyncData.ToString(System.String)
+  - SuperOffice.CRM.Services.ParticipantSyncData.Url
+  - SuperOffice.CRM.Services.ParticipantSyncData.Voip
+  langs:
+  - csharp
+  - vb
+  name: ParticipantSyncData
+  nameWithType: ParticipantSyncData
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for ParticipantSyncData.\nServices for the ParticipantSyncData Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IAppointmentAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class ParticipantSyncData : Carrier'
+    content.vb: >-
+      Public Class ParticipantSyncData
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.AppointmentAgent
+    commentId: T:SuperOffice.CRM.Services.AppointmentAgent
+  - linkId: SuperOffice.CRM.Services.IAppointmentAgent
+    commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.#ctor
+  commentId: M:SuperOffice.CRM.Services.ParticipantSyncData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: ParticipantSyncData()
+  nameWithType: ParticipantSyncData.ParticipantSyncData()
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.ParticipantSyncData()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ParticipantSyncData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.ToString
+  commentId: M:SuperOffice.CRM.Services.ParticipantSyncData.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ParticipantSyncData.ToString()
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ParticipantSyncData.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ParticipantSyncData.ToString(String)
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonId
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: ParticipantSyncData.PersonId
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPerson ID of person the appointment is with, may be 0 \n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonFirstName
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PersonFirstName
+  id: PersonFirstName
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: PersonFirstName
+  nameWithType: ParticipantSyncData.PersonFirstName
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonFirstName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFirst name \n"
+  syntax:
+    content: public virtual string PersonFirstName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonFirstName As String
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.PersonFirstName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonMiddleName
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PersonMiddleName
+  id: PersonMiddleName
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: PersonMiddleName
+  nameWithType: ParticipantSyncData.PersonMiddleName
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonMiddleName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMiddle name or &apos;van&apos; etc. \n"
+  syntax:
+    content: public virtual string PersonMiddleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonMiddleName As String
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.PersonMiddleName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonLastname
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PersonLastname
+  id: PersonLastname
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: PersonLastname
+  nameWithType: ParticipantSyncData.PersonLastname
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonLastname
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLast name \n"
+  syntax:
+    content: public virtual string PersonLastname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonLastname As String
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.PersonLastname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonMrmrs
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PersonMrmrs
+  id: PersonMrmrs
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: PersonMrmrs
+  nameWithType: ParticipantSyncData.PersonMrmrs
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonMrmrs
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\ne.g. Mrs   sex_title \n"
+  syntax:
+    content: public virtual string PersonMrmrs { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonMrmrs As String
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.PersonMrmrs*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonTitle
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PersonTitle
+  id: PersonTitle
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: PersonTitle
+  nameWithType: ParticipantSyncData.PersonTitle
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonTitle
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTitle \n"
+  syntax:
+    content: public virtual string PersonTitle { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonTitle As String
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.PersonTitle*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonPosition
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PersonPosition
+  id: PersonPosition
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: PersonPosition
+  nameWithType: ParticipantSyncData.PersonPosition
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonPosition
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe position. This is a predefined SuperOffice value, different from Title \n"
+  syntax:
+    content: public virtual string PersonPosition { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonPosition As String
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.PersonPosition*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonAcademicTitle
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PersonAcademicTitle
+  id: PersonAcademicTitle
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: PersonAcademicTitle
+  nameWithType: ParticipantSyncData.PersonAcademicTitle
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonAcademicTitle
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAcademic title, populated from Salutation list but can be overwritten with anything at all \n"
+  syntax:
+    content: public virtual string PersonAcademicTitle { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonAcademicTitle As String
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.PersonAcademicTitle*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonFormalName
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PersonFormalName
+  id: PersonFormalName
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: PersonFormalName
+  nameWithType: ParticipantSyncData.PersonFormalName
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonFormalName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet formal name for a person, as used in labels. (Full name + person title + academic title) \n"
+  syntax:
+    content: public virtual string PersonFormalName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonFormalName As String
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.PersonFormalName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonFullName
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PersonFullName
+  id: PersonFullName
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: PersonFullName
+  nameWithType: ParticipantSyncData.PersonFullName
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonFullName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe person&apos;s full name localized to the current culture/country.  (internal name used in clients for employees) \n"
+  syntax:
+    content: public virtual string PersonFullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonFullName As String
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.PersonFullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactId
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: ParticipantSyncData.ContactId
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContact ID of owning contact, may be 0 \n"
+  syntax:
+    content: public virtual int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactName
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.ContactName
+  id: ContactName
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: ContactName
+  nameWithType: ParticipantSyncData.ContactName
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContact name \n"
+  syntax:
+    content: public virtual string ContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactName As String
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.ContactName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactDepartment
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.ContactDepartment
+  id: ContactDepartment
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: ContactDepartment
+  nameWithType: ParticipantSyncData.ContactDepartment
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactDepartment
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDepartment \n"
+  syntax:
+    content: public virtual string ContactDepartment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactDepartment As String
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.ContactDepartment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactBusiness
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.ContactBusiness
+  id: ContactBusiness
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: ContactBusiness
+  nameWithType: ParticipantSyncData.ContactBusiness
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactBusiness
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe business that the contact is associated with. The GUI forces the user to enter a business type. \n"
+  syntax:
+    content: public virtual string ContactBusiness { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactBusiness As String
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.ContactBusiness*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactCountry
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.ContactCountry
+  id: ContactCountry
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: ContactCountry
+  nameWithType: ParticipantSyncData.ContactCountry
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactCountry
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual string ContactCountry { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactCountry As String
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.ContactCountry*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactCategory
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.ContactCategory
+  id: ContactCategory
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: ContactCategory
+  nameWithType: ParticipantSyncData.ContactCategory
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactCategory
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe category that is set on the company. The GUI forces the user to enter a category type \n"
+  syntax:
+    content: public virtual string ContactCategory { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactCategory As String
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.ContactCategory*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactFullName
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.ContactFullName
+  id: ContactFullName
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: ContactFullName
+  nameWithType: ParticipantSyncData.ContactFullName
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactFullName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual string ContactFullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactFullName As String
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.ContactFullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.EMail
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.EMail
+  id: EMail
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: EMail
+  nameWithType: ParticipantSyncData.EMail
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.EMail
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual string[] EMail { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property EMail As String()
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.EMail*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PhonePrivate
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PhonePrivate
+  id: PhonePrivate
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: PhonePrivate
+  nameWithType: ParticipantSyncData.PhonePrivate
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PhonePrivate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns a collection of phone numbers that belong to the contact person. \n"
+  syntax:
+    content: public virtual string[] PhonePrivate { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property PhonePrivate As String()
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.PhonePrivate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PhoneFax
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PhoneFax
+  id: PhoneFax
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: PhoneFax
+  nameWithType: ParticipantSyncData.PhoneFax
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PhoneFax
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns a collection of fax numbers that belong to the contact person. \n"
+  syntax:
+    content: public virtual string[] PhoneFax { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property PhoneFax As String()
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.PhoneFax*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PhoneMobile
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PhoneMobile
+  id: PhoneMobile
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: PhoneMobile
+  nameWithType: ParticipantSyncData.PhoneMobile
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PhoneMobile
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns a collection of mobile phone numbers that belong to the contact person. \n"
+  syntax:
+    content: public virtual string[] PhoneMobile { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property PhoneMobile As String()
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.PhoneMobile*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PhoneDirect
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PhoneDirect
+  id: PhoneDirect
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: PhoneDirect
+  nameWithType: ParticipantSyncData.PhoneDirect
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PhoneDirect
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual string[] PhoneDirect { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property PhoneDirect As String()
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.PhoneDirect*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PhoneContact
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PhoneContact
+  id: PhoneContact
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: PhoneContact
+  nameWithType: ParticipantSyncData.PhoneContact
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PhoneContact
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns a collection of office phone numbers that belong to the contact person. \n"
+  syntax:
+    content: public virtual string[] PhoneContact { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property PhoneContact As String()
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.PhoneContact*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.Messenger
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.Messenger
+  id: Messenger
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: Messenger
+  nameWithType: ParticipantSyncData.Messenger
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.Messenger
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual string[] Messenger { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property Messenger As String()
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.Messenger*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.Voip
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.Voip
+  id: Voip
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: Voip
+  nameWithType: ParticipantSyncData.Voip
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.Voip
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual string[] Voip { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property Voip As String()
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.Voip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactUrl
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.ContactUrl
+  id: ContactUrl
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: ContactUrl
+  nameWithType: ParticipantSyncData.ContactUrl
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactUrl
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe contact&apos;s internet adresses \n"
+  syntax:
+    content: public virtual string[] ContactUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property ContactUrl As String()
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.ContactUrl*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.Url
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.Url
+  id: Url
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: ParticipantSyncData.Url
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.Url
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe urls related to this person. \n"
+  syntax:
+    content: public virtual string[] Url { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property Url As String()
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.Url*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.StreetAddress
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.StreetAddress
+  id: StreetAddress
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: StreetAddress
+  nameWithType: ParticipantSyncData.StreetAddress
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.StreetAddress
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual AddressSyncData StreetAddress { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.AddressSyncData
+    content.vb: Public Overridable Property StreetAddress As AddressSyncData
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.StreetAddress*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PostalAddress
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PostalAddress
+  id: PostalAddress
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: PostalAddress
+  nameWithType: ParticipantSyncData.PostalAddress
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PostalAddress
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual AddressSyncData PostalAddress { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.AddressSyncData
+    content.vb: Public Overridable Property PostalAddress As AddressSyncData
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.PostalAddress*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.Country
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.Country
+  id: Country
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: Country
+  nameWithType: ParticipantSyncData.Country
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.Country
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe country this contact is located in. The country a contact is saved with, affects the phone number format, and the address layout. \n"
+  syntax:
+    content: public virtual string Country { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Country As String
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.Country*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonAddress
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PersonAddress
+  id: PersonAddress
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: PersonAddress
+  nameWithType: ParticipantSyncData.PersonAddress
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonAddress
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual AddressSyncData PersonAddress { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.AddressSyncData
+    content.vb: Public Overridable Property PersonAddress As AddressSyncData
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.PersonAddress*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonCountry
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.PersonCountry
+  id: PersonCountry
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: PersonCountry
+  nameWithType: ParticipantSyncData.PersonCountry
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonCountry
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe country this contact person is located in. \n"
+  syntax:
+    content: public virtual string PersonCountry { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonCountry As String
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.PersonCountry*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.ParticipantStatus
+  commentId: P:SuperOffice.CRM.Services.ParticipantSyncData.ParticipantStatus
+  id: ParticipantStatus
+  parent: SuperOffice.CRM.Services.ParticipantSyncData
+  langs:
+  - csharp
+  - vb
+  name: ParticipantStatus
+  nameWithType: ParticipantSyncData.ParticipantStatus
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.ParticipantStatus
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe appointment status for this participant. \n"
+  syntax:
+    content: public virtual AppointmentStatus ParticipantStatus { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.AppointmentStatus
+    content.vb: Public Overridable Property ParticipantStatus As AppointmentStatus
+  overload: SuperOffice.CRM.Services.ParticipantSyncData.ParticipantStatus*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AppointmentAgent
+  commentId: T:SuperOffice.CRM.Services.AppointmentAgent
+  isExternal: true
+  name: AppointmentAgent
+  nameWithType: AppointmentAgent
+  fullName: SuperOffice.CRM.Services.AppointmentAgent
+- uid: SuperOffice.CRM.Services.IAppointmentAgent
+  commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAppointmentAgent
+  nameWithType: IAppointmentAgent
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.#ctor
+  isExternal: true
+  name: ParticipantSyncData
+  nameWithType: ParticipantSyncData.ParticipantSyncData
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.ParticipantSyncData
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ParticipantSyncData.ToString
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonId*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: ParticipantSyncData.PersonId
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonFirstName*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PersonFirstName
+  isExternal: true
+  name: PersonFirstName
+  nameWithType: ParticipantSyncData.PersonFirstName
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonFirstName
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonMiddleName*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PersonMiddleName
+  isExternal: true
+  name: PersonMiddleName
+  nameWithType: ParticipantSyncData.PersonMiddleName
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonMiddleName
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonLastname*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PersonLastname
+  isExternal: true
+  name: PersonLastname
+  nameWithType: ParticipantSyncData.PersonLastname
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonLastname
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonMrmrs*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PersonMrmrs
+  isExternal: true
+  name: PersonMrmrs
+  nameWithType: ParticipantSyncData.PersonMrmrs
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonMrmrs
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonTitle*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PersonTitle
+  isExternal: true
+  name: PersonTitle
+  nameWithType: ParticipantSyncData.PersonTitle
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonTitle
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonPosition*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PersonPosition
+  isExternal: true
+  name: PersonPosition
+  nameWithType: ParticipantSyncData.PersonPosition
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonPosition
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonAcademicTitle*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PersonAcademicTitle
+  isExternal: true
+  name: PersonAcademicTitle
+  nameWithType: ParticipantSyncData.PersonAcademicTitle
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonAcademicTitle
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonFormalName*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PersonFormalName
+  isExternal: true
+  name: PersonFormalName
+  nameWithType: ParticipantSyncData.PersonFormalName
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonFormalName
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonFullName*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PersonFullName
+  isExternal: true
+  name: PersonFullName
+  nameWithType: ParticipantSyncData.PersonFullName
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonFullName
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactId*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: ParticipantSyncData.ContactId
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactId
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactName*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.ContactName
+  isExternal: true
+  name: ContactName
+  nameWithType: ParticipantSyncData.ContactName
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactName
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactDepartment*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.ContactDepartment
+  isExternal: true
+  name: ContactDepartment
+  nameWithType: ParticipantSyncData.ContactDepartment
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactDepartment
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactBusiness*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.ContactBusiness
+  isExternal: true
+  name: ContactBusiness
+  nameWithType: ParticipantSyncData.ContactBusiness
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactBusiness
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactCountry*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.ContactCountry
+  isExternal: true
+  name: ContactCountry
+  nameWithType: ParticipantSyncData.ContactCountry
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactCountry
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactCategory*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.ContactCategory
+  isExternal: true
+  name: ContactCategory
+  nameWithType: ParticipantSyncData.ContactCategory
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactCategory
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactFullName*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.ContactFullName
+  isExternal: true
+  name: ContactFullName
+  nameWithType: ParticipantSyncData.ContactFullName
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactFullName
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.EMail*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.EMail
+  isExternal: true
+  name: EMail
+  nameWithType: ParticipantSyncData.EMail
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.EMail
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PhonePrivate*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PhonePrivate
+  isExternal: true
+  name: PhonePrivate
+  nameWithType: ParticipantSyncData.PhonePrivate
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PhonePrivate
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PhoneFax*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PhoneFax
+  isExternal: true
+  name: PhoneFax
+  nameWithType: ParticipantSyncData.PhoneFax
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PhoneFax
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PhoneMobile*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PhoneMobile
+  isExternal: true
+  name: PhoneMobile
+  nameWithType: ParticipantSyncData.PhoneMobile
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PhoneMobile
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PhoneDirect*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PhoneDirect
+  isExternal: true
+  name: PhoneDirect
+  nameWithType: ParticipantSyncData.PhoneDirect
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PhoneDirect
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PhoneContact*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PhoneContact
+  isExternal: true
+  name: PhoneContact
+  nameWithType: ParticipantSyncData.PhoneContact
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PhoneContact
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.Messenger*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.Messenger
+  isExternal: true
+  name: Messenger
+  nameWithType: ParticipantSyncData.Messenger
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.Messenger
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.Voip*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.Voip
+  isExternal: true
+  name: Voip
+  nameWithType: ParticipantSyncData.Voip
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.Voip
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.ContactUrl*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.ContactUrl
+  isExternal: true
+  name: ContactUrl
+  nameWithType: ParticipantSyncData.ContactUrl
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.ContactUrl
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.Url*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.Url
+  isExternal: true
+  name: Url
+  nameWithType: ParticipantSyncData.Url
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.Url
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.StreetAddress*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.StreetAddress
+  isExternal: true
+  name: StreetAddress
+  nameWithType: ParticipantSyncData.StreetAddress
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.StreetAddress
+- uid: SuperOffice.CRM.Services.AddressSyncData
+  commentId: T:SuperOffice.CRM.Services.AddressSyncData
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: AddressSyncData
+  nameWithType: AddressSyncData
+  fullName: SuperOffice.CRM.Services.AddressSyncData
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PostalAddress*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PostalAddress
+  isExternal: true
+  name: PostalAddress
+  nameWithType: ParticipantSyncData.PostalAddress
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PostalAddress
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.Country*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.Country
+  isExternal: true
+  name: Country
+  nameWithType: ParticipantSyncData.Country
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.Country
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonAddress*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PersonAddress
+  isExternal: true
+  name: PersonAddress
+  nameWithType: ParticipantSyncData.PersonAddress
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonAddress
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.PersonCountry*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.PersonCountry
+  isExternal: true
+  name: PersonCountry
+  nameWithType: ParticipantSyncData.PersonCountry
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.PersonCountry
+- uid: SuperOffice.CRM.Services.ParticipantSyncData.ParticipantStatus*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantSyncData.ParticipantStatus
+  isExternal: true
+  name: ParticipantStatus
+  nameWithType: ParticipantSyncData.ParticipantStatus
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData.ParticipantStatus
+- uid: SuperOffice.Data.AppointmentStatus
+  isExternal: true
+  name: AppointmentStatus
+  nameWithType: AppointmentStatus
+  fullName: SuperOffice.Data.AppointmentStatus

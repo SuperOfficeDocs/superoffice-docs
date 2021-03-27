@@ -1,0 +1,609 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.BlobLinkType
+  commentId: T:SuperOffice.WebApi.Data.BlobLinkType
+  id: BlobLinkType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.BlobLinkType.AccessToken
+  - SuperOffice.WebApi.Data.BlobLinkType.BatchTask
+  - SuperOffice.WebApi.Data.BlobLinkType.ChatTopicImage
+  - SuperOffice.WebApi.Data.BlobLinkType.ContactImage
+  - SuperOffice.WebApi.Data.BlobLinkType.Dashboard
+  - SuperOffice.WebApi.Data.BlobLinkType.DashboardTile
+  - SuperOffice.WebApi.Data.BlobLinkType.EventImage
+  - SuperOffice.WebApi.Data.BlobLinkType.FormsBackgroundImage
+  - SuperOffice.WebApi.Data.BlobLinkType.PersonImage
+  - SuperOffice.WebApi.Data.BlobLinkType.ProductImage
+  - SuperOffice.WebApi.Data.BlobLinkType.ProductThumbnail
+  - SuperOffice.WebApi.Data.BlobLinkType.ProjectImage
+  - SuperOffice.WebApi.Data.BlobLinkType.QuoteLineImage
+  - SuperOffice.WebApi.Data.BlobLinkType.QuoteLineThumbnail
+  - SuperOffice.WebApi.Data.BlobLinkType.RefreshToken
+  - SuperOffice.WebApi.Data.BlobLinkType.StatusMonitorImage
+  - SuperOffice.WebApi.Data.BlobLinkType.Thumbnail
+  - SuperOffice.WebApi.Data.BlobLinkType.value__
+  langs:
+  - csharp
+  - vb
+  name: BlobLinkType
+  nameWithType: BlobLinkType
+  fullName: SuperOffice.WebApi.Data.BlobLinkType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe link type, often synonymous with the blob type, of a BinaryObjectLink row\nThis Enum is used by:  BinaryObjectLink.linkType\n"
+  syntax:
+    content: 'public sealed class BlobLinkType : Enum'
+    content.vb: >-
+      Public NotInheritable Class BlobLinkType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.BlobLinkType.value__
+  commentId: F:SuperOffice.WebApi.Data.BlobLinkType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: BlobLinkType.value__
+  fullName: SuperOffice.WebApi.Data.BlobLinkType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BlobLinkType.PersonImage
+  commentId: F:SuperOffice.WebApi.Data.BlobLinkType.PersonImage
+  id: PersonImage
+  parent: SuperOffice.WebApi.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: PersonImage
+  nameWithType: BlobLinkType.PersonImage
+  fullName: SuperOffice.WebApi.Data.BlobLinkType.PersonImage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Portrait picture of a person\n"
+  syntax:
+    content: public const BlobLinkType PersonImage
+    return:
+      type: SuperOffice.WebApi.Data.BlobLinkType
+    content.vb: Public Const PersonImage As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BlobLinkType.ProjectImage
+  commentId: F:SuperOffice.WebApi.Data.BlobLinkType.ProjectImage
+  id: ProjectImage
+  parent: SuperOffice.WebApi.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: ProjectImage
+  nameWithType: BlobLinkType.ProjectImage
+  fullName: SuperOffice.WebApi.Data.BlobLinkType.ProjectImage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Picture bound to a project\n"
+  syntax:
+    content: public const BlobLinkType ProjectImage
+    return:
+      type: SuperOffice.WebApi.Data.BlobLinkType
+    content.vb: Public Const ProjectImage As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BlobLinkType.EventImage
+  commentId: F:SuperOffice.WebApi.Data.BlobLinkType.EventImage
+  id: EventImage
+  parent: SuperOffice.WebApi.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: EventImage
+  nameWithType: BlobLinkType.EventImage
+  fullName: SuperOffice.WebApi.Data.BlobLinkType.EventImage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Picture used for a project of type Event, in the Audience client\n"
+  syntax:
+    content: public const BlobLinkType EventImage
+    return:
+      type: SuperOffice.WebApi.Data.BlobLinkType
+    content.vb: Public Const EventImage As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BlobLinkType.Thumbnail
+  commentId: F:SuperOffice.WebApi.Data.BlobLinkType.Thumbnail
+  id: Thumbnail
+  parent: SuperOffice.WebApi.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: Thumbnail
+  nameWithType: BlobLinkType.Thumbnail
+  fullName: SuperOffice.WebApi.Data.BlobLinkType.Thumbnail
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Generic thumbnail - not used?\n"
+  syntax:
+    content: public const BlobLinkType Thumbnail
+    return:
+      type: SuperOffice.WebApi.Data.BlobLinkType
+    content.vb: Public Const Thumbnail As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BlobLinkType.StatusMonitorImage
+  commentId: F:SuperOffice.WebApi.Data.BlobLinkType.StatusMonitorImage
+  id: StatusMonitorImage
+  parent: SuperOffice.WebApi.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: StatusMonitorImage
+  nameWithType: BlobLinkType.StatusMonitorImage
+  fullName: SuperOffice.WebApi.Data.BlobLinkType.StatusMonitorImage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Watermark image for a Status Monitor in Sales Intelligence\n"
+  syntax:
+    content: public const BlobLinkType StatusMonitorImage
+    return:
+      type: SuperOffice.WebApi.Data.BlobLinkType
+    content.vb: Public Const StatusMonitorImage As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BlobLinkType.BatchTask
+  commentId: F:SuperOffice.WebApi.Data.BlobLinkType.BatchTask
+  id: BatchTask
+  parent: SuperOffice.WebApi.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: BatchTask
+  nameWithType: BlobLinkType.BatchTask
+  fullName: SuperOffice.WebApi.Data.BlobLinkType.BatchTask
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: Information related to a BatchTask in NetServer\n"
+  syntax:
+    content: public const BlobLinkType BatchTask
+    return:
+      type: SuperOffice.WebApi.Data.BlobLinkType
+    content.vb: Public Const BatchTask As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BlobLinkType.ProductImage
+  commentId: F:SuperOffice.WebApi.Data.BlobLinkType.ProductImage
+  id: ProductImage
+  parent: SuperOffice.WebApi.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: ProductImage
+  nameWithType: BlobLinkType.ProductImage
+  fullName: SuperOffice.WebApi.Data.BlobLinkType.ProductImage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: Image (possibly more than one, differentiated by rank) of a Product; exactly one row should have rank=1\n"
+  syntax:
+    content: public const BlobLinkType ProductImage
+    return:
+      type: SuperOffice.WebApi.Data.BlobLinkType
+    content.vb: Public Const ProductImage As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BlobLinkType.ProductThumbnail
+  commentId: F:SuperOffice.WebApi.Data.BlobLinkType.ProductThumbnail
+  id: ProductThumbnail
+  parent: SuperOffice.WebApi.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: ProductThumbnail
+  nameWithType: BlobLinkType.ProductThumbnail
+  fullName: SuperOffice.WebApi.Data.BlobLinkType.ProductThumbnail
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: Thumbnail image for a product, only one allowed per product\n"
+  syntax:
+    content: public const BlobLinkType ProductThumbnail
+    return:
+      type: SuperOffice.WebApi.Data.BlobLinkType
+    content.vb: Public Const ProductThumbnail As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BlobLinkType.QuoteLineImage
+  commentId: F:SuperOffice.WebApi.Data.BlobLinkType.QuoteLineImage
+  id: QuoteLineImage
+  parent: SuperOffice.WebApi.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineImage
+  nameWithType: BlobLinkType.QuoteLineImage
+  fullName: SuperOffice.WebApi.Data.BlobLinkType.QuoteLineImage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n9: Image (possibly more than one, differentiated by rank) of a Product image for a quote line, only one allowed per quote line\n"
+  syntax:
+    content: public const BlobLinkType QuoteLineImage
+    return:
+      type: SuperOffice.WebApi.Data.BlobLinkType
+    content.vb: Public Const QuoteLineImage As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BlobLinkType.QuoteLineThumbnail
+  commentId: F:SuperOffice.WebApi.Data.BlobLinkType.QuoteLineThumbnail
+  id: QuoteLineThumbnail
+  parent: SuperOffice.WebApi.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineThumbnail
+  nameWithType: BlobLinkType.QuoteLineThumbnail
+  fullName: SuperOffice.WebApi.Data.BlobLinkType.QuoteLineThumbnail
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n10: Thumbnail image for a quote line, only one allowed per quote line\n"
+  syntax:
+    content: public const BlobLinkType QuoteLineThumbnail
+    return:
+      type: SuperOffice.WebApi.Data.BlobLinkType
+    content.vb: Public Const QuoteLineThumbnail As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BlobLinkType.AccessToken
+  commentId: F:SuperOffice.WebApi.Data.BlobLinkType.AccessToken
+  id: AccessToken
+  parent: SuperOffice.WebApi.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: AccessToken
+  nameWithType: BlobLinkType.AccessToken
+  fullName: SuperOffice.WebApi.Data.BlobLinkType.AccessToken
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n11: Access Token used by Cloud Documents for accessing external services\n"
+  syntax:
+    content: public const BlobLinkType AccessToken
+    return:
+      type: SuperOffice.WebApi.Data.BlobLinkType
+    content.vb: Public Const AccessToken As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BlobLinkType.RefreshToken
+  commentId: F:SuperOffice.WebApi.Data.BlobLinkType.RefreshToken
+  id: RefreshToken
+  parent: SuperOffice.WebApi.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: RefreshToken
+  nameWithType: BlobLinkType.RefreshToken
+  fullName: SuperOffice.WebApi.Data.BlobLinkType.RefreshToken
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n12: Refresh Token used by Cloud Documents for accessing external services\n"
+  syntax:
+    content: public const BlobLinkType RefreshToken
+    return:
+      type: SuperOffice.WebApi.Data.BlobLinkType
+    content.vb: Public Const RefreshToken As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BlobLinkType.Dashboard
+  commentId: F:SuperOffice.WebApi.Data.BlobLinkType.Dashboard
+  id: Dashboard
+  parent: SuperOffice.WebApi.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: Dashboard
+  nameWithType: BlobLinkType.Dashboard
+  fullName: SuperOffice.WebApi.Data.BlobLinkType.Dashboard
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n13: Dashboard\n"
+  syntax:
+    content: public const BlobLinkType Dashboard
+    return:
+      type: SuperOffice.WebApi.Data.BlobLinkType
+    content.vb: Public Const Dashboard As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BlobLinkType.DashboardTile
+  commentId: F:SuperOffice.WebApi.Data.BlobLinkType.DashboardTile
+  id: DashboardTile
+  parent: SuperOffice.WebApi.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: DashboardTile
+  nameWithType: BlobLinkType.DashboardTile
+  fullName: SuperOffice.WebApi.Data.BlobLinkType.DashboardTile
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n14: Dashboard tile\n"
+  syntax:
+    content: public const BlobLinkType DashboardTile
+    return:
+      type: SuperOffice.WebApi.Data.BlobLinkType
+    content.vb: Public Const DashboardTile As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BlobLinkType.ChatTopicImage
+  commentId: F:SuperOffice.WebApi.Data.BlobLinkType.ChatTopicImage
+  id: ChatTopicImage
+  parent: SuperOffice.WebApi.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: ChatTopicImage
+  nameWithType: BlobLinkType.ChatTopicImage
+  fullName: SuperOffice.WebApi.Data.BlobLinkType.ChatTopicImage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n15: Chat topic image\n"
+  syntax:
+    content: public const BlobLinkType ChatTopicImage
+    return:
+      type: SuperOffice.WebApi.Data.BlobLinkType
+    content.vb: Public Const ChatTopicImage As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BlobLinkType.FormsBackgroundImage
+  commentId: F:SuperOffice.WebApi.Data.BlobLinkType.FormsBackgroundImage
+  id: FormsBackgroundImage
+  parent: SuperOffice.WebApi.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: FormsBackgroundImage
+  nameWithType: BlobLinkType.FormsBackgroundImage
+  fullName: SuperOffice.WebApi.Data.BlobLinkType.FormsBackgroundImage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n16: Forms background image\n"
+  syntax:
+    content: public const BlobLinkType FormsBackgroundImage
+    return:
+      type: SuperOffice.WebApi.Data.BlobLinkType
+    content.vb: Public Const FormsBackgroundImage As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BlobLinkType.ContactImage
+  commentId: F:SuperOffice.WebApi.Data.BlobLinkType.ContactImage
+  id: ContactImage
+  parent: SuperOffice.WebApi.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: ContactImage
+  nameWithType: BlobLinkType.ContactImage
+  fullName: SuperOffice.WebApi.Data.BlobLinkType.ContactImage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n17: Contact logo image\n"
+  syntax:
+    content: public const BlobLinkType ContactImage
+    return:
+      type: SuperOffice.WebApi.Data.BlobLinkType
+    content.vb: Public Const ContactImage As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.BlobLinkType
+  commentId: T:SuperOffice.WebApi.Data.BlobLinkType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: BlobLinkType
+  nameWithType: BlobLinkType
+  fullName: SuperOffice.WebApi.Data.BlobLinkType

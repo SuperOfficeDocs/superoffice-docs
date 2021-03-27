@@ -1,0 +1,612 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.SuggestedDocumentEntity
+  commentId: T:SuperOffice.WebApi.Data.SuggestedDocumentEntity
+  id: SuggestedDocumentEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.SuggestedDocumentEntity.#ctor
+  - SuperOffice.WebApi.Data.SuggestedDocumentEntity.Deleted
+  - SuperOffice.WebApi.Data.SuggestedDocumentEntity.DocTmpl
+  - SuperOffice.WebApi.Data.SuggestedDocumentEntity.DoctmplId
+  - SuperOffice.WebApi.Data.SuggestedDocumentEntity.Header
+  - SuperOffice.WebApi.Data.SuggestedDocumentEntity.Name
+  - SuperOffice.WebApi.Data.SuggestedDocumentEntity.OurRef
+  - SuperOffice.WebApi.Data.SuggestedDocumentEntity.ProjectTypeStatusLink
+  - SuperOffice.WebApi.Data.SuggestedDocumentEntity.Rank
+  - SuperOffice.WebApi.Data.SuggestedDocumentEntity.SaleTypeStageLink
+  - SuperOffice.WebApi.Data.SuggestedDocumentEntity.SuggestedDocumentId
+  - SuperOffice.WebApi.Data.SuggestedDocumentEntity.Tooltip
+  langs:
+  - csharp
+  - vb
+  name: SuggestedDocumentEntity
+  nameWithType: SuggestedDocumentEntity
+  fullName: SuperOffice.WebApi.Data.SuggestedDocumentEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for SuggestedDocumentEntity.\n\n"
+  example:
+  - "\nGet SuggestedDocumentEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new DocumentAgent(configuration);\nvar suggestedDocumentEntity = agent.GetSuggestedDocumentEntity( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class SuggestedDocumentEntity : Carrier'
+    content.vb: >-
+      Public Class SuggestedDocumentEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DocumentAgent
+    commentId: T:SuperOffice.WebApi.Agents.DocumentAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.SuggestedDocumentEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.SuggestedDocumentEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.SuggestedDocumentEntity
+  langs:
+  - csharp
+  - vb
+  name: SuggestedDocumentEntity()
+  nameWithType: SuggestedDocumentEntity.SuggestedDocumentEntity()
+  fullName: SuperOffice.WebApi.Data.SuggestedDocumentEntity.SuggestedDocumentEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public SuggestedDocumentEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.SuggestedDocumentEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SuggestedDocumentEntity.SuggestedDocumentId
+  commentId: P:SuperOffice.WebApi.Data.SuggestedDocumentEntity.SuggestedDocumentId
+  id: SuggestedDocumentId
+  parent: SuperOffice.WebApi.Data.SuggestedDocumentEntity
+  langs:
+  - csharp
+  - vb
+  name: SuggestedDocumentId
+  nameWithType: SuggestedDocumentEntity.SuggestedDocumentId
+  fullName: SuperOffice.WebApi.Data.SuggestedDocumentEntity.SuggestedDocumentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int SuggestedDocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SuggestedDocumentId As Integer
+  overload: SuperOffice.WebApi.Data.SuggestedDocumentEntity.SuggestedDocumentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SuggestedDocumentEntity.Name
+  commentId: P:SuperOffice.WebApi.Data.SuggestedDocumentEntity.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.SuggestedDocumentEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SuggestedDocumentEntity.Name
+  fullName: SuperOffice.WebApi.Data.SuggestedDocumentEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nItem name, visible in Guide\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.SuggestedDocumentEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SuggestedDocumentEntity.Tooltip
+  commentId: P:SuperOffice.WebApi.Data.SuggestedDocumentEntity.Tooltip
+  id: Tooltip
+  parent: SuperOffice.WebApi.Data.SuggestedDocumentEntity
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: SuggestedDocumentEntity.Tooltip
+  fullName: SuperOffice.WebApi.Data.SuggestedDocumentEntity.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip / description\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.WebApi.Data.SuggestedDocumentEntity.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SuggestedDocumentEntity.Rank
+  commentId: P:SuperOffice.WebApi.Data.SuggestedDocumentEntity.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.SuggestedDocumentEntity
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: SuggestedDocumentEntity.Rank
+  fullName: SuperOffice.WebApi.Data.SuggestedDocumentEntity.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRank, controls rank of non-instantiated items in Guide\n"
+  syntax:
+    content: public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Rank As Short
+  overload: SuperOffice.WebApi.Data.SuggestedDocumentEntity.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SuggestedDocumentEntity.DoctmplId
+  commentId: P:SuperOffice.WebApi.Data.SuggestedDocumentEntity.DoctmplId
+  id: DoctmplId
+  parent: SuperOffice.WebApi.Data.SuggestedDocumentEntity
+  langs:
+  - csharp
+  - vb
+  name: DoctmplId
+  nameWithType: SuggestedDocumentEntity.DoctmplId
+  fullName: SuperOffice.WebApi.Data.SuggestedDocumentEntity.DoctmplId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nType of the suggested document\n"
+  syntax:
+    content: public virtual int DoctmplId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DoctmplId As Integer
+  overload: SuperOffice.WebApi.Data.SuggestedDocumentEntity.DoctmplId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SuggestedDocumentEntity.Header
+  commentId: P:SuperOffice.WebApi.Data.SuggestedDocumentEntity.Header
+  id: Header
+  parent: SuperOffice.WebApi.Data.SuggestedDocumentEntity
+  langs:
+  - csharp
+  - vb
+  name: Header
+  nameWithType: SuggestedDocumentEntity.Header
+  fullName: SuperOffice.WebApi.Data.SuggestedDocumentEntity.Header
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSuggested &apos;header&apos;\n"
+  syntax:
+    content: public virtual string Header { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Header As String
+  overload: SuperOffice.WebApi.Data.SuggestedDocumentEntity.Header*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SuggestedDocumentEntity.OurRef
+  commentId: P:SuperOffice.WebApi.Data.SuggestedDocumentEntity.OurRef
+  id: OurRef
+  parent: SuperOffice.WebApi.Data.SuggestedDocumentEntity
+  langs:
+  - csharp
+  - vb
+  name: OurRef
+  nameWithType: SuggestedDocumentEntity.OurRef
+  fullName: SuperOffice.WebApi.Data.SuggestedDocumentEntity.OurRef
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSuggested &apos;our reference&apos;\n"
+  syntax:
+    content: public virtual string OurRef { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property OurRef As String
+  overload: SuperOffice.WebApi.Data.SuggestedDocumentEntity.OurRef*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SuggestedDocumentEntity.Deleted
+  commentId: P:SuperOffice.WebApi.Data.SuggestedDocumentEntity.Deleted
+  id: Deleted
+  parent: SuperOffice.WebApi.Data.SuggestedDocumentEntity
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: SuggestedDocumentEntity.Deleted
+  fullName: SuperOffice.WebApi.Data.SuggestedDocumentEntity.Deleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists\n"
+  syntax:
+    content: public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.WebApi.Data.SuggestedDocumentEntity.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SuggestedDocumentEntity.DocTmpl
+  commentId: P:SuperOffice.WebApi.Data.SuggestedDocumentEntity.DocTmpl
+  id: DocTmpl
+  parent: SuperOffice.WebApi.Data.SuggestedDocumentEntity
+  langs:
+  - csharp
+  - vb
+  name: DocTmpl
+  nameWithType: SuggestedDocumentEntity.DocTmpl
+  fullName: SuperOffice.WebApi.Data.SuggestedDocumentEntity.DocTmpl
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDocument template\n"
+  syntax:
+    content: public virtual DocumentTemplate DocTmpl { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.DocumentTemplate
+    content.vb: Public Overridable Property DocTmpl As DocumentTemplate
+  overload: SuperOffice.WebApi.Data.SuggestedDocumentEntity.DocTmpl*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SuggestedDocumentEntity.ProjectTypeStatusLink
+  commentId: P:SuperOffice.WebApi.Data.SuggestedDocumentEntity.ProjectTypeStatusLink
+  id: ProjectTypeStatusLink
+  parent: SuperOffice.WebApi.Data.SuggestedDocumentEntity
+  langs:
+  - csharp
+  - vb
+  name: ProjectTypeStatusLink
+  nameWithType: SuggestedDocumentEntity.ProjectTypeStatusLink
+  fullName: SuperOffice.WebApi.Data.SuggestedDocumentEntity.ProjectTypeStatusLink
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nProject type and project status link info\n"
+  syntax:
+    content: public virtual ProjectTypeStatusLink ProjectTypeStatusLink { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ProjectTypeStatusLink
+    content.vb: Public Overridable Property ProjectTypeStatusLink As ProjectTypeStatusLink
+  overload: SuperOffice.WebApi.Data.SuggestedDocumentEntity.ProjectTypeStatusLink*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SuggestedDocumentEntity.SaleTypeStageLink
+  commentId: P:SuperOffice.WebApi.Data.SuggestedDocumentEntity.SaleTypeStageLink
+  id: SaleTypeStageLink
+  parent: SuperOffice.WebApi.Data.SuggestedDocumentEntity
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeStageLink
+  nameWithType: SuggestedDocumentEntity.SaleTypeStageLink
+  fullName: SuperOffice.WebApi.Data.SuggestedDocumentEntity.SaleTypeStageLink
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSale type and stage link info.\n"
+  syntax:
+    content: public virtual SaleTypeStageLink SaleTypeStageLink { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.SaleTypeStageLink
+    content.vb: Public Overridable Property SaleTypeStageLink As SaleTypeStageLink
+  overload: SuperOffice.WebApi.Data.SuggestedDocumentEntity.SaleTypeStageLink*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.DocumentAgent
+  commentId: T:SuperOffice.WebApi.Agents.DocumentAgent
+  isExternal: true
+  name: DocumentAgent
+  nameWithType: DocumentAgent
+  fullName: SuperOffice.WebApi.Agents.DocumentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.SuggestedDocumentEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedDocumentEntity.#ctor
+  isExternal: true
+  name: SuggestedDocumentEntity
+  nameWithType: SuggestedDocumentEntity.SuggestedDocumentEntity
+  fullName: SuperOffice.WebApi.Data.SuggestedDocumentEntity.SuggestedDocumentEntity
+- uid: SuperOffice.WebApi.Data.SuggestedDocumentEntity.SuggestedDocumentId*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedDocumentEntity.SuggestedDocumentId
+  isExternal: true
+  name: SuggestedDocumentId
+  nameWithType: SuggestedDocumentEntity.SuggestedDocumentId
+  fullName: SuperOffice.WebApi.Data.SuggestedDocumentEntity.SuggestedDocumentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.SuggestedDocumentEntity.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedDocumentEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: SuggestedDocumentEntity.Name
+  fullName: SuperOffice.WebApi.Data.SuggestedDocumentEntity.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.SuggestedDocumentEntity.Tooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedDocumentEntity.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: SuggestedDocumentEntity.Tooltip
+  fullName: SuperOffice.WebApi.Data.SuggestedDocumentEntity.Tooltip
+- uid: SuperOffice.WebApi.Data.SuggestedDocumentEntity.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedDocumentEntity.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: SuggestedDocumentEntity.Rank
+  fullName: SuperOffice.WebApi.Data.SuggestedDocumentEntity.Rank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.SuggestedDocumentEntity.DoctmplId*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedDocumentEntity.DoctmplId
+  isExternal: true
+  name: DoctmplId
+  nameWithType: SuggestedDocumentEntity.DoctmplId
+  fullName: SuperOffice.WebApi.Data.SuggestedDocumentEntity.DoctmplId
+- uid: SuperOffice.WebApi.Data.SuggestedDocumentEntity.Header*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedDocumentEntity.Header
+  isExternal: true
+  name: Header
+  nameWithType: SuggestedDocumentEntity.Header
+  fullName: SuperOffice.WebApi.Data.SuggestedDocumentEntity.Header
+- uid: SuperOffice.WebApi.Data.SuggestedDocumentEntity.OurRef*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedDocumentEntity.OurRef
+  isExternal: true
+  name: OurRef
+  nameWithType: SuggestedDocumentEntity.OurRef
+  fullName: SuperOffice.WebApi.Data.SuggestedDocumentEntity.OurRef
+- uid: SuperOffice.WebApi.Data.SuggestedDocumentEntity.Deleted*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedDocumentEntity.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: SuggestedDocumentEntity.Deleted
+  fullName: SuperOffice.WebApi.Data.SuggestedDocumentEntity.Deleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.SuggestedDocumentEntity.DocTmpl*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedDocumentEntity.DocTmpl
+  isExternal: true
+  name: DocTmpl
+  nameWithType: SuggestedDocumentEntity.DocTmpl
+  fullName: SuperOffice.WebApi.Data.SuggestedDocumentEntity.DocTmpl
+- uid: SuperOffice.WebApi.Data.DocumentTemplate
+  commentId: T:SuperOffice.WebApi.Data.DocumentTemplate
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DocumentTemplate
+  nameWithType: DocumentTemplate
+  fullName: SuperOffice.WebApi.Data.DocumentTemplate
+- uid: SuperOffice.WebApi.Data.SuggestedDocumentEntity.ProjectTypeStatusLink*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedDocumentEntity.ProjectTypeStatusLink
+  isExternal: true
+  name: ProjectTypeStatusLink
+  nameWithType: SuggestedDocumentEntity.ProjectTypeStatusLink
+  fullName: SuperOffice.WebApi.Data.SuggestedDocumentEntity.ProjectTypeStatusLink
+- uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink
+  commentId: T:SuperOffice.WebApi.Data.ProjectTypeStatusLink
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ProjectTypeStatusLink
+  nameWithType: ProjectTypeStatusLink
+  fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink
+- uid: SuperOffice.WebApi.Data.SuggestedDocumentEntity.SaleTypeStageLink*
+  commentId: Overload:SuperOffice.WebApi.Data.SuggestedDocumentEntity.SaleTypeStageLink
+  isExternal: true
+  name: SaleTypeStageLink
+  nameWithType: SuggestedDocumentEntity.SaleTypeStageLink
+  fullName: SuperOffice.WebApi.Data.SuggestedDocumentEntity.SaleTypeStageLink
+- uid: SuperOffice.WebApi.Data.SaleTypeStageLink
+  commentId: T:SuperOffice.WebApi.Data.SaleTypeStageLink
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: SaleTypeStageLink
+  nameWithType: SaleTypeStageLink
+  fullName: SuperOffice.WebApi.Data.SaleTypeStageLink

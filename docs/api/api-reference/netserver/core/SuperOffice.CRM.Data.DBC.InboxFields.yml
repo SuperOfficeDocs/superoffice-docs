@@ -1,0 +1,677 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.InboxFields
+  commentId: T:SuperOffice.CRM.Data.DBC.InboxFields
+  id: DBC.InboxFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.InboxFields.Created
+  - SuperOffice.CRM.Data.DBC.InboxFields.Format
+  - SuperOffice.CRM.Data.DBC.InboxFields.Imported
+  - SuperOffice.CRM.Data.DBC.InboxFields.InboxId
+  - SuperOffice.CRM.Data.DBC.InboxFields.LockingId
+  - SuperOffice.CRM.Data.DBC.InboxFields.MailInFilter
+  - SuperOffice.CRM.Data.DBC.InboxFields.MailSize
+  - SuperOffice.CRM.Data.DBC.InboxFields.NextRetry
+  - SuperOffice.CRM.Data.DBC.InboxFields.Plugin
+  - SuperOffice.CRM.Data.DBC.InboxFields.Status
+  - SuperOffice.CRM.Data.DBC.InboxFields.Uidl
+  langs:
+  - csharp
+  - vb
+  name: DBC.InboxFields
+  nameWithType: DBC.InboxFields
+  fullName: SuperOffice.CRM.Data.DBC.InboxFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for Inbox, Info and status for safe email import\n"
+  syntax:
+    content: public static class InboxFields
+    content.vb: Public Module InboxFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.InboxFields.InboxId
+  commentId: F:SuperOffice.CRM.Data.DBC.InboxFields.InboxId
+  id: InboxId
+  parent: SuperOffice.CRM.Data.DBC.InboxFields
+  langs:
+  - csharp
+  - vb
+  name: InboxId
+  nameWithType: DBC.InboxFields.InboxId
+  fullName: SuperOffice.CRM.Data.DBC.InboxFields.InboxId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nInbox.InboxId: Primary key\n"
+  syntax:
+    content: public const string InboxId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const InboxId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.InboxFields.MailInFilter
+  commentId: F:SuperOffice.CRM.Data.DBC.InboxFields.MailInFilter
+  id: MailInFilter
+  parent: SuperOffice.CRM.Data.DBC.InboxFields
+  langs:
+  - csharp
+  - vb
+  name: MailInFilter
+  nameWithType: DBC.InboxFields.MailInFilter
+  fullName: SuperOffice.CRM.Data.DBC.InboxFields.MailInFilter
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nInbox.MailInFilter: A reference to the id of the mail box\n"
+  syntax:
+    content: public const string MailInFilter = "mail_in_filter"
+    return:
+      type: System.String
+    content.vb: Public Const MailInFilter As String = "mail_in_filter"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.InboxFields.LockingId
+  commentId: F:SuperOffice.CRM.Data.DBC.InboxFields.LockingId
+  id: LockingId
+  parent: SuperOffice.CRM.Data.DBC.InboxFields
+  langs:
+  - csharp
+  - vb
+  name: LockingId
+  nameWithType: DBC.InboxFields.LockingId
+  fullName: SuperOffice.CRM.Data.DBC.InboxFields.LockingId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nInbox.LockingId: A reference to the id of lock\n"
+  syntax:
+    content: public const string LockingId = "locking_id"
+    return:
+      type: System.String
+    content.vb: Public Const LockingId As String = "locking_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.InboxFields.Uidl
+  commentId: F:SuperOffice.CRM.Data.DBC.InboxFields.Uidl
+  id: Uidl
+  parent: SuperOffice.CRM.Data.DBC.InboxFields
+  langs:
+  - csharp
+  - vb
+  name: Uidl
+  nameWithType: DBC.InboxFields.Uidl
+  fullName: SuperOffice.CRM.Data.DBC.InboxFields.Uidl
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nInbox.Uidl: The uidl of the message. stored before the retrieval starts to prevent double import For locking purposes\n"
+  syntax:
+    content: public const string Uidl = "uidl"
+    return:
+      type: System.String
+    content.vb: Public Const Uidl As String = "uidl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.InboxFields.Created
+  commentId: F:SuperOffice.CRM.Data.DBC.InboxFields.Created
+  id: Created
+  parent: SuperOffice.CRM.Data.DBC.InboxFields
+  langs:
+  - csharp
+  - vb
+  name: Created
+  nameWithType: DBC.InboxFields.Created
+  fullName: SuperOffice.CRM.Data.DBC.InboxFields.Created
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nInbox.Created: When the mail was created\n"
+  syntax:
+    content: public const string Created = "created"
+    return:
+      type: System.String
+    content.vb: Public Const Created As String = "created"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.InboxFields.Imported
+  commentId: F:SuperOffice.CRM.Data.DBC.InboxFields.Imported
+  id: Imported
+  parent: SuperOffice.CRM.Data.DBC.InboxFields
+  langs:
+  - csharp
+  - vb
+  name: Imported
+  nameWithType: DBC.InboxFields.Imported
+  fullName: SuperOffice.CRM.Data.DBC.InboxFields.Imported
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nInbox.Imported: When the mail was imported\n"
+  syntax:
+    content: public const string Imported = "imported"
+    return:
+      type: System.String
+    content.vb: Public Const Imported As String = "imported"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.InboxFields.Status
+  commentId: F:SuperOffice.CRM.Data.DBC.InboxFields.Status
+  id: Status
+  parent: SuperOffice.CRM.Data.DBC.InboxFields
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: DBC.InboxFields.Status
+  fullName: SuperOffice.CRM.Data.DBC.InboxFields.Status
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nInbox.Status: Status enum\n"
+  syntax:
+    content: public const string Status = "status"
+    return:
+      type: System.String
+    content.vb: Public Const Status As String = "status"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.InboxFields.MailSize
+  commentId: F:SuperOffice.CRM.Data.DBC.InboxFields.MailSize
+  id: MailSize
+  parent: SuperOffice.CRM.Data.DBC.InboxFields
+  langs:
+  - csharp
+  - vb
+  name: MailSize
+  nameWithType: DBC.InboxFields.MailSize
+  fullName: SuperOffice.CRM.Data.DBC.InboxFields.MailSize
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nInbox.MailSize: The size of the mail in bytes\n"
+  syntax:
+    content: public const string MailSize = "mail_size"
+    return:
+      type: System.String
+    content.vb: Public Const MailSize As String = "mail_size"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.InboxFields.NextRetry
+  commentId: F:SuperOffice.CRM.Data.DBC.InboxFields.NextRetry
+  id: NextRetry
+  parent: SuperOffice.CRM.Data.DBC.InboxFields
+  langs:
+  - csharp
+  - vb
+  name: NextRetry
+  nameWithType: DBC.InboxFields.NextRetry
+  fullName: SuperOffice.CRM.Data.DBC.InboxFields.NextRetry
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nInbox.NextRetry: When is the next time we should try again?\n"
+  syntax:
+    content: public const string NextRetry = "next_retry"
+    return:
+      type: System.String
+    content.vb: Public Const NextRetry As String = "next_retry"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.InboxFields.Plugin
+  commentId: F:SuperOffice.CRM.Data.DBC.InboxFields.Plugin
+  id: Plugin
+  parent: SuperOffice.CRM.Data.DBC.InboxFields
+  langs:
+  - csharp
+  - vb
+  name: Plugin
+  nameWithType: DBC.InboxFields.Plugin
+  fullName: SuperOffice.CRM.Data.DBC.InboxFields.Plugin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nInbox.Plugin: Name of plugin that created this inbox entry\n"
+  syntax:
+    content: public const string Plugin = "plugin"
+    return:
+      type: System.String
+    content.vb: Public Const Plugin As String = "plugin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.InboxFields.Format
+  commentId: F:SuperOffice.CRM.Data.DBC.InboxFields.Format
+  id: Format
+  parent: SuperOffice.CRM.Data.DBC.InboxFields
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: DBC.InboxFields.Format
+  fullName: SuperOffice.CRM.Data.DBC.InboxFields.Format
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nInbox.Format: Format of the inbox entry\n"
+  syntax:
+    content: public const string Format = "format"
+    return:
+      type: System.String
+    content.vb: Public Const Format As String = "format"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

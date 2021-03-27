@@ -1,0 +1,935 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
+  commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
+  id: BulkUpdateSystem.AppointmentFieldValueKeys
+  parent: SuperOffice.CRM.BulkUpdate
+  children:
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Activitylink
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.AlarmOffset
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.CautionWarning
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Description
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Done
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Duration
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.EndTime
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.FreeBusy
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.HasAlarm
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Owner
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Priority
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.ProjectId
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Published
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.SaleId
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartDate
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartTime
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartTimeAndEndTime
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Type
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.VisibleFor
+  langs:
+  - csharp
+  - vb
+  name: BulkUpdateSystem.AppointmentFieldValueKeys
+  nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static class AppointmentFieldValueKeys
+    content.vb: Public Module AppointmentFieldValueKeys
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Done
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Done
+  id: Done
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Done
+  nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.Done
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Done
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Done
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Done As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.FreeBusy
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.FreeBusy
+  id: FreeBusy
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: FreeBusy
+  nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.FreeBusy
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.FreeBusy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string FreeBusy
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly FreeBusy As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Owner
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Owner
+  id: Owner
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Owner
+  nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.Owner
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Owner
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Owner
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Owner As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.ProjectId
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.ProjectId
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.ProjectId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string ProjectId
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly ProjectId As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.SaleId
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.SaleId
+  id: SaleId
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.SaleId
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.SaleId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string SaleId
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly SaleId As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Description
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Description
+  id: Description
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.Description
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Description
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Description As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Type
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Type
+  id: Type
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.Type
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Type
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Type
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Type As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Priority
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Priority
+  id: Priority
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.Priority
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Priority
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Priority
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Priority As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.HasAlarm
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.HasAlarm
+  id: HasAlarm
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: HasAlarm
+  nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.HasAlarm
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.HasAlarm
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string HasAlarm
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly HasAlarm As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.AlarmOffset
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.AlarmOffset
+  id: AlarmOffset
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: AlarmOffset
+  nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.AlarmOffset
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.AlarmOffset
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string AlarmOffset
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly AlarmOffset As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartDate
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartDate
+  id: StartDate
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.StartDate
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string StartDate
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly StartDate As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartTime
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartTime
+  id: StartTime
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: StartTime
+  nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.StartTime
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartTime
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string StartTime
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly StartTime As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.EndTime
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.EndTime
+  id: EndTime
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: EndTime
+  nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.EndTime
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.EndTime
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string EndTime
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly EndTime As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartTimeAndEndTime
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartTimeAndEndTime
+  id: StartTimeAndEndTime
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: StartTimeAndEndTime
+  nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.StartTimeAndEndTime
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.StartTimeAndEndTime
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string StartTimeAndEndTime
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly StartTimeAndEndTime As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Duration
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Duration
+  id: Duration
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.Duration
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Duration
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Duration
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Duration As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.VisibleFor
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.VisibleFor
+  id: VisibleFor
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: VisibleFor
+  nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.VisibleFor
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.VisibleFor
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string VisibleFor
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly VisibleFor As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Activitylink
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Activitylink
+  id: Activitylink
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Activitylink
+  nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.Activitylink
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Activitylink
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Activitylink
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Activitylink As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Published
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Published
+  id: Published
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Published
+  nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.Published
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.Published
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Published
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Published As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.CautionWarning
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.CautionWarning
+  id: CautionWarning
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: CautionWarning
+  nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys.CautionWarning
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.CautionWarning
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string CautionWarning
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly CautionWarning As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.BulkUpdate
+  commentId: N:SuperOffice.CRM.BulkUpdate
+  isExternal: true
+  name: SuperOffice.CRM.BulkUpdate
+  nameWithType: SuperOffice.CRM.BulkUpdate
+  fullName: SuperOffice.CRM.BulkUpdate
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

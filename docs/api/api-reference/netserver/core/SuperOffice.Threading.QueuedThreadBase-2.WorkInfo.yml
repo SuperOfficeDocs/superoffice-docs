@@ -1,0 +1,920 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Threading.QueuedThreadBase`2.WorkInfo
+  commentId: T:SuperOffice.Threading.QueuedThreadBase`2.WorkInfo
+  id: QueuedThreadBase`2.WorkInfo
+  parent: SuperOffice.Threading
+  children:
+  - SuperOffice.Threading.QueuedThreadBase`2.WorkInfo.#ctor
+  - SuperOffice.Threading.QueuedThreadBase`2.WorkInfo._workQueue
+  - SuperOffice.Threading.QueuedThreadBase`2.WorkInfo._workThreadPresent
+  langs:
+  - csharp
+  - vb
+  name: QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo
+  nameWithType: QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo
+  fullName: SuperOffice.Threading.QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  summary: "\nUnit of work information, contains a work queue and a thread present flag\n"
+  syntax:
+    content: protected class WorkInfo
+    content.vb: Protected Class WorkInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Threading.QueuedThreadBase`2.WorkInfo.EnumUtil.MapEnums``2
+  - SuperOffice.Threading.QueuedThreadBase`2.WorkInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Threading.QueuedThreadBase{{TAsynchronousHandlerProcessor},{TAsynchronousArgument}}.WorkInfo)
+  - SuperOffice.Threading.QueuedThreadBase`2.WorkInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Threading.QueuedThreadBase`2.WorkInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  nameWithType.vb: QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo
+  modifiers.csharp:
+  - protected
+  - class
+  modifiers.vb:
+  - Protected
+  - Class
+  fullName.vb: SuperOffice.Threading.QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo
+  name.vb: QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo
+- uid: SuperOffice.Threading.QueuedThreadBase`2.WorkInfo._workQueue
+  commentId: F:SuperOffice.Threading.QueuedThreadBase`2.WorkInfo._workQueue
+  id: _workQueue
+  parent: SuperOffice.Threading.QueuedThreadBase`2.WorkInfo
+  langs:
+  - csharp
+  - vb
+  name: _workQueue
+  nameWithType: QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo._workQueue
+  fullName: SuperOffice.Threading.QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo._workQueue
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  summary: "\nQueue of work, actually instances of our derived classes\n"
+  syntax:
+    content: public Queue<QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>> _workQueue
+    return:
+      type: System.Collections.Generic.Queue{SuperOffice.Threading.QueuedThreadBase`2}
+    content.vb: Public _workQueue As Queue(Of QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument))
+  nameWithType.vb: QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo._workQueue
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo._workQueue
+- uid: SuperOffice.Threading.QueuedThreadBase`2.WorkInfo._workThreadPresent
+  commentId: F:SuperOffice.Threading.QueuedThreadBase`2.WorkInfo._workThreadPresent
+  id: _workThreadPresent
+  parent: SuperOffice.Threading.QueuedThreadBase`2.WorkInfo
+  langs:
+  - csharp
+  - vb
+  name: _workThreadPresent
+  nameWithType: QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo._workThreadPresent
+  fullName: SuperOffice.Threading.QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo._workThreadPresent
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  summary: "\nFlag to keep track of the presence of a worker thread. Set/reset outside of\nqueue operations to ensure there will be no orphaned work\n"
+  syntax:
+    content: public bool _workThreadPresent
+    return:
+      type: System.Boolean
+    content.vb: Public _workThreadPresent As Boolean
+  nameWithType.vb: QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo._workThreadPresent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo._workThreadPresent
+- uid: SuperOffice.Threading.QueuedThreadBase`2.WorkInfo.#ctor
+  commentId: M:SuperOffice.Threading.QueuedThreadBase`2.WorkInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Threading.QueuedThreadBase`2.WorkInfo
+  langs:
+  - csharp
+  - vb
+  name: WorkInfo()
+  nameWithType: QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo.WorkInfo()
+  fullName: SuperOffice.Threading.QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo.WorkInfo()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public WorkInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.Threading.QueuedThreadBase`2.WorkInfo.#ctor*
+  nameWithType.vb: QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo.WorkInfo()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo.WorkInfo()
+references:
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.QueuedThreadBase`2.WorkInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo, To>()
+  nameWithType: EnumUtil.MapEnums<QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Threading.QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo, To)()
+  name.vb: MapEnums(Of QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo, To>
+    nameWithType: EnumUtil.MapEnums<QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Threading.QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Threading.QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.QueuedThreadBase`2.WorkInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Threading.QueuedThreadBase{{TAsynchronousHandlerProcessor},{TAsynchronousArgument}}.WorkInfo)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo>(QueuedThreadBase.WorkInfo<>)
+  nameWithType: ObjectExtensions.AssignByReflection<QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo>(QueuedThreadBase.WorkInfo<>)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Threading.QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo>(SuperOffice.Threading.QueuedThreadBase.WorkInfo<>)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo)(QueuedThreadBase.WorkInfo(Of ))
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Threading.QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo)(SuperOffice.Threading.QueuedThreadBase.WorkInfo(Of ))
+  name.vb: AssignByReflection(Of QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo)(QueuedThreadBase.WorkInfo(Of ))
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo>
+    nameWithType: ObjectExtensions.AssignByReflection<QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Threading.QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.QueuedThreadBase`2.WorkInfo
+    name: QueuedThreadBase.WorkInfo
+    nameWithType: QueuedThreadBase.WorkInfo
+    fullName: SuperOffice.Threading.QueuedThreadBase.WorkInfo
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo)
+    nameWithType: ObjectExtensions.AssignByReflection(Of QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Threading.QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.QueuedThreadBase`2.WorkInfo
+    name: QueuedThreadBase.WorkInfo
+    nameWithType: QueuedThreadBase.WorkInfo
+    fullName: SuperOffice.Threading.QueuedThreadBase.WorkInfo
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.QueuedThreadBase`2.WorkInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo>()
+  nameWithType: ObjectExtensions.GraphCopy<QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Threading.QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Threading.QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo)()
+  name.vb: GraphCopy(Of QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo>
+    nameWithType: ObjectExtensions.GraphCopy<QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Threading.QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo)
+    nameWithType: ObjectExtensions.GraphCopy(Of QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Threading.QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.QueuedThreadBase`2.WorkInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo, To>()
+  nameWithType: Converters.MapEnums<QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo, To)()
+  name.vb: MapEnums(Of QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo, To>
+    nameWithType: Converters.MapEnums<QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo, To)
+    nameWithType: Converters.MapEnums(Of QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Collections.Generic.Queue{SuperOffice.Threading.QueuedThreadBase`2}
+  commentId: '!:System.Collections.Generic.Queue{SuperOffice.Threading.QueuedThreadBase`2}'
+  definition: System.Collections.Generic.Queue`1
+  name: Queue<QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>>
+  nameWithType: Queue<QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>>
+  fullName: System.Collections.Generic.Queue<SuperOffice.Threading.QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>>
+  nameWithType.vb: Queue(Of QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument))
+  fullName.vb: System.Collections.Generic.Queue(Of SuperOffice.Threading.QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument))
+  name.vb: Queue(Of QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument))
+  spec.csharp:
+  - uid: System.Collections.Generic.Queue`1
+    name: Queue
+    nameWithType: Queue
+    fullName: System.Collections.Generic.Queue
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Threading.QueuedThreadBase`2
+    name: QueuedThreadBase
+    nameWithType: QueuedThreadBase
+    fullName: SuperOffice.Threading.QueuedThreadBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAsynchronousHandlerProcessor
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Queue`1
+    name: Queue
+    nameWithType: Queue
+    fullName: System.Collections.Generic.Queue
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Threading.QueuedThreadBase`2
+    name: QueuedThreadBase
+    nameWithType: QueuedThreadBase
+    fullName: SuperOffice.Threading.QueuedThreadBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAsynchronousHandlerProcessor
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Queue`1
+  commentId: '!:System.Collections.Generic.Queue`1'
+  isExternal: true
+  name: Queue<>
+  nameWithType: Queue<>
+  fullName: System.Collections.Generic.Queue<>
+  nameWithType.vb: Queue(Of )
+  fullName.vb: System.Collections.Generic.Queue(Of )
+  name.vb: Queue(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.Queue`1
+    name: Queue
+    nameWithType: Queue
+    fullName: System.Collections.Generic.Queue
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Queue`1
+    name: Queue
+    nameWithType: Queue
+    fullName: System.Collections.Generic.Queue
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Threading.QueuedThreadBase`2.WorkInfo.#ctor*
+  commentId: Overload:SuperOffice.Threading.QueuedThreadBase`2.WorkInfo.#ctor
+  isExternal: true
+  name: WorkInfo
+  nameWithType: QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo.WorkInfo
+  fullName: SuperOffice.Threading.QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo.WorkInfo
+  nameWithType.vb: QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo.WorkInfo
+  fullName.vb: SuperOffice.Threading.QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo.WorkInfo

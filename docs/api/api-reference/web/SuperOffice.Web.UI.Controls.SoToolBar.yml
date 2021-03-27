@@ -1,0 +1,496 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Controls.SoToolBar
+  commentId: T:SuperOffice.Web.UI.Controls.SoToolBar
+  id: SoToolBar
+  parent: SuperOffice.Web.UI.Controls
+  children:
+  - SuperOffice.Web.UI.Controls.SoToolBar.#ctor
+  - SuperOffice.Web.UI.Controls.SoToolBar.CenterAlignedButtons
+  - SuperOffice.Web.UI.Controls.SoToolBar.ControlCount
+  - SuperOffice.Web.UI.Controls.SoToolBar.CssClass
+  - SuperOffice.Web.UI.Controls.SoToolBar.LeftAlignedButtons
+  - SuperOffice.Web.UI.Controls.SoToolBar.OnLoad(System.EventArgs)
+  - SuperOffice.Web.UI.Controls.SoToolBar.Render(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoToolBar.RightAlignedButtons
+  - SuperOffice.Web.UI.Controls.SoToolBar.ToolBarIndex
+  langs:
+  - csharp
+  - vb
+  name: SoToolBar
+  nameWithType: SoToolBar
+  fullName: SuperOffice.Web.UI.Controls.SoToolBar
+  type: Class
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: 'public class SoToolBar : Control'
+    content.vb: >-
+      Public Class SoToolBar
+          Inherits Control
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.UI.Controls.SoToolBar.#ctor
+  commentId: M:SuperOffice.Web.UI.Controls.SoToolBar.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.UI.Controls.SoToolBar
+  langs:
+  - csharp
+  - vb
+  name: SoToolBar()
+  nameWithType: SoToolBar.SoToolBar()
+  fullName: SuperOffice.Web.UI.Controls.SoToolBar.SoToolBar()
+  type: Constructor
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public SoToolBar()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.UI.Controls.SoToolBar.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoToolBar.OnLoad(System.EventArgs)
+  commentId: M:SuperOffice.Web.UI.Controls.SoToolBar.OnLoad(System.EventArgs)
+  id: OnLoad(System.EventArgs)
+  parent: SuperOffice.Web.UI.Controls.SoToolBar
+  langs:
+  - csharp
+  - vb
+  name: OnLoad(EventArgs)
+  nameWithType: SoToolBar.OnLoad(EventArgs)
+  fullName: SuperOffice.Web.UI.Controls.SoToolBar.OnLoad(System.EventArgs)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected override void OnLoad(EventArgs e)
+    parameters:
+    - id: e
+      type: System.EventArgs
+    content.vb: Protected Overrides Sub OnLoad(e As EventArgs)
+  overload: SuperOffice.Web.UI.Controls.SoToolBar.OnLoad*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.Web.UI.Controls.SoToolBar.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoToolBar.Render(System.Web.UI.HtmlTextWriter)
+  id: Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoToolBar
+  langs:
+  - csharp
+  - vb
+  name: Render(HtmlTextWriter)
+  nameWithType: SoToolBar.Render(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoToolBar.Render(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected override void Render(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overrides Sub Render(writer As HtmlTextWriter)
+  overload: SuperOffice.Web.UI.Controls.SoToolBar.Render*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.Web.UI.Controls.SoToolBar.LeftAlignedButtons
+  commentId: P:SuperOffice.Web.UI.Controls.SoToolBar.LeftAlignedButtons
+  id: LeftAlignedButtons
+  parent: SuperOffice.Web.UI.Controls.SoToolBar
+  langs:
+  - csharp
+  - vb
+  name: LeftAlignedButtons
+  nameWithType: SoToolBar.LeftAlignedButtons
+  fullName: SuperOffice.Web.UI.Controls.SoToolBar.LeftAlignedButtons
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public List<object> LeftAlignedButtons { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Object}
+    content.vb: Public Property LeftAlignedButtons As List(Of Object)
+  overload: SuperOffice.Web.UI.Controls.SoToolBar.LeftAlignedButtons*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoToolBar.CenterAlignedButtons
+  commentId: P:SuperOffice.Web.UI.Controls.SoToolBar.CenterAlignedButtons
+  id: CenterAlignedButtons
+  parent: SuperOffice.Web.UI.Controls.SoToolBar
+  langs:
+  - csharp
+  - vb
+  name: CenterAlignedButtons
+  nameWithType: SoToolBar.CenterAlignedButtons
+  fullName: SuperOffice.Web.UI.Controls.SoToolBar.CenterAlignedButtons
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public List<object> CenterAlignedButtons { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Object}
+    content.vb: Public Property CenterAlignedButtons As List(Of Object)
+  overload: SuperOffice.Web.UI.Controls.SoToolBar.CenterAlignedButtons*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoToolBar.RightAlignedButtons
+  commentId: P:SuperOffice.Web.UI.Controls.SoToolBar.RightAlignedButtons
+  id: RightAlignedButtons
+  parent: SuperOffice.Web.UI.Controls.SoToolBar
+  langs:
+  - csharp
+  - vb
+  name: RightAlignedButtons
+  nameWithType: SoToolBar.RightAlignedButtons
+  fullName: SuperOffice.Web.UI.Controls.SoToolBar.RightAlignedButtons
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public List<object> RightAlignedButtons { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Object}
+    content.vb: Public Property RightAlignedButtons As List(Of Object)
+  overload: SuperOffice.Web.UI.Controls.SoToolBar.RightAlignedButtons*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoToolBar.ControlCount
+  commentId: P:SuperOffice.Web.UI.Controls.SoToolBar.ControlCount
+  id: ControlCount
+  parent: SuperOffice.Web.UI.Controls.SoToolBar
+  langs:
+  - csharp
+  - vb
+  name: ControlCount
+  nameWithType: SoToolBar.ControlCount
+  fullName: SuperOffice.Web.UI.Controls.SoToolBar.ControlCount
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public int ControlCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ControlCount As Integer
+  overload: SuperOffice.Web.UI.Controls.SoToolBar.ControlCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Web.UI.Controls.SoToolBar.CssClass
+  commentId: P:SuperOffice.Web.UI.Controls.SoToolBar.CssClass
+  id: CssClass
+  parent: SuperOffice.Web.UI.Controls.SoToolBar
+  langs:
+  - csharp
+  - vb
+  name: CssClass
+  nameWithType: SoToolBar.CssClass
+  fullName: SuperOffice.Web.UI.Controls.SoToolBar.CssClass
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public string CssClass { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CssClass As String
+  overload: SuperOffice.Web.UI.Controls.SoToolBar.CssClass*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoToolBar.ToolBarIndex
+  commentId: P:SuperOffice.Web.UI.Controls.SoToolBar.ToolBarIndex
+  id: ToolBarIndex
+  parent: SuperOffice.Web.UI.Controls.SoToolBar
+  langs:
+  - csharp
+  - vb
+  name: ToolBarIndex
+  nameWithType: SoToolBar.ToolBarIndex
+  fullName: SuperOffice.Web.UI.Controls.SoToolBar.ToolBarIndex
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public int ToolBarIndex { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ToolBarIndex As Integer
+  overload: SuperOffice.Web.UI.Controls.SoToolBar.ToolBarIndex*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Web.UI.Controls
+  commentId: N:SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.Web.UI.Controls
+  nameWithType: SuperOffice.Web.UI.Controls
+  fullName: SuperOffice.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.UI.Controls.SoToolBar.#ctor*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolBar.#ctor
+  isExternal: true
+  name: SoToolBar
+  nameWithType: SoToolBar.SoToolBar
+  fullName: SuperOffice.Web.UI.Controls.SoToolBar.SoToolBar
+- uid: SuperOffice.Web.UI.Controls.SoToolBar.OnLoad*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolBar.OnLoad
+  isExternal: true
+  name: OnLoad
+  nameWithType: SoToolBar.OnLoad
+  fullName: SuperOffice.Web.UI.Controls.SoToolBar.OnLoad
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: SuperOffice.Web.UI.Controls.SoToolBar.Render*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolBar.Render
+  isExternal: true
+  name: Render
+  nameWithType: SoToolBar.Render
+  fullName: SuperOffice.Web.UI.Controls.SoToolBar.Render
+- uid: System.Web.UI.HtmlTextWriter
+  isExternal: true
+  name: HtmlTextWriter
+  nameWithType: HtmlTextWriter
+  fullName: System.Web.UI.HtmlTextWriter
+- uid: SuperOffice.Web.UI.Controls.SoToolBar.LeftAlignedButtons*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolBar.LeftAlignedButtons
+  isExternal: true
+  name: LeftAlignedButtons
+  nameWithType: SoToolBar.LeftAlignedButtons
+  fullName: SuperOffice.Web.UI.Controls.SoToolBar.LeftAlignedButtons
+- uid: System.Collections.Generic.List{System.Object}
+  commentId: T:System.Collections.Generic.List{System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Object>
+  nameWithType: List<Object>
+  fullName: System.Collections.Generic.List<System.Object>
+  nameWithType.vb: List(Of Object)
+  fullName.vb: System.Collections.Generic.List(Of System.Object)
+  name.vb: List(Of Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Web.UI.Controls.SoToolBar.CenterAlignedButtons*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolBar.CenterAlignedButtons
+  isExternal: true
+  name: CenterAlignedButtons
+  nameWithType: SoToolBar.CenterAlignedButtons
+  fullName: SuperOffice.Web.UI.Controls.SoToolBar.CenterAlignedButtons
+- uid: SuperOffice.Web.UI.Controls.SoToolBar.RightAlignedButtons*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolBar.RightAlignedButtons
+  isExternal: true
+  name: RightAlignedButtons
+  nameWithType: SoToolBar.RightAlignedButtons
+  fullName: SuperOffice.Web.UI.Controls.SoToolBar.RightAlignedButtons
+- uid: SuperOffice.Web.UI.Controls.SoToolBar.ControlCount*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolBar.ControlCount
+  isExternal: true
+  name: ControlCount
+  nameWithType: SoToolBar.ControlCount
+  fullName: SuperOffice.Web.UI.Controls.SoToolBar.ControlCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Web.UI.Controls.SoToolBar.CssClass*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolBar.CssClass
+  isExternal: true
+  name: CssClass
+  nameWithType: SoToolBar.CssClass
+  fullName: SuperOffice.Web.UI.Controls.SoToolBar.CssClass
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Web.UI.Controls.SoToolBar.ToolBarIndex*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolBar.ToolBarIndex
+  isExternal: true
+  name: ToolBarIndex
+  nameWithType: SoToolBar.ToolBarIndex
+  fullName: SuperOffice.Web.UI.Controls.SoToolBar.ToolBarIndex

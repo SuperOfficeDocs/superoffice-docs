@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetTicketStatusesRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetTicketStatusesRequest
+  id: List_GetTicketStatusesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetTicketStatusesRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: List_GetTicketStatusesRequest
+  nameWithType: List_GetTicketStatusesRequest
+  fullName: SuperOffice.WebApi.Data.List_GetTicketStatusesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetTicketStatusesRequest : Object'
+    content.vb: >-
+      Public Class List_GetTicketStatusesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetTicketStatusesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetTicketStatusesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetTicketStatusesRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetTicketStatusesRequest()
+  nameWithType: List_GetTicketStatusesRequest.List_GetTicketStatusesRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetTicketStatusesRequest.List_GetTicketStatusesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetTicketStatusesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetTicketStatusesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetTicketStatusesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetTicketStatusesRequest.#ctor
+  isExternal: true
+  name: List_GetTicketStatusesRequest
+  nameWithType: List_GetTicketStatusesRequest.List_GetTicketStatusesRequest
+  fullName: SuperOffice.WebApi.Data.List_GetTicketStatusesRequest.List_GetTicketStatusesRequest

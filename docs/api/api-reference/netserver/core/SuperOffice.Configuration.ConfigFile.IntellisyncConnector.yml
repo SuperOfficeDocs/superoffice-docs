@@ -1,0 +1,521 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.IntellisyncConnector
+  commentId: T:SuperOffice.Configuration.ConfigFile.IntellisyncConnector
+  id: ConfigFile.IntellisyncConnector
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.IntellisyncConnector.DiagnosticsWebUri
+  - SuperOffice.Configuration.ConfigFile.IntellisyncConnector.EnableDiagnosticsWeb
+  - SuperOffice.Configuration.ConfigFile.IntellisyncConnector.IntellisyncConnectorUri
+  - SuperOffice.Configuration.ConfigFile.IntellisyncConnector.SessionTimeout
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.IntellisyncConnector
+  nameWithType: ConfigFile.IntellisyncConnector
+  fullName: SuperOffice.Configuration.ConfigFile.IntellisyncConnector
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nConfiguration values for SoIntellisyncConnector\n"
+  syntax:
+    content: public static class IntellisyncConnector
+    content.vb: Public Module IntellisyncConnector
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Configuration.ConfigFile.IntellisyncConnector.SessionTimeout
+  commentId: P:SuperOffice.Configuration.ConfigFile.IntellisyncConnector.SessionTimeout
+  id: SessionTimeout
+  parent: SuperOffice.Configuration.ConfigFile.IntellisyncConnector
+  langs:
+  - csharp
+  - vb
+  name: SessionTimeout
+  nameWithType: ConfigFile.IntellisyncConnector.SessionTimeout
+  fullName: SuperOffice.Configuration.ConfigFile.IntellisyncConnector.SessionTimeout
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nIntellisync Server authenticates against Intellisync Connector.  When an Intellisync Server sync session for a particular user is ended, the authentication session is always removed.  When a synchronization session exceeds the this time-out, an error is returned to Intellisync Server.  Intellisync Server will then try to re synchronize later.  Extensive traffic in the database resulting in a slowed up synchronization will typically trigger this.  Synchronization for a normal user will seldom take more than 5 minutes (300 seconds), hence the default value of 10 minutes (600 seconds) is a rather conservative value.  Situations where a lot of database locks are occurring should probably result in this default value being decreased, rather than increased. Extremely slow hardware as a result of virtualization should probably result in an increased value.\n"
+  syntax:
+    content: public static int SessionTimeout { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property SessionTimeout As Integer
+  overload: SuperOffice.Configuration.ConfigFile.IntellisyncConnector.SessionTimeout*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.IntellisyncConnector.IntellisyncConnectorUri
+  commentId: P:SuperOffice.Configuration.ConfigFile.IntellisyncConnector.IntellisyncConnectorUri
+  id: IntellisyncConnectorUri
+  parent: SuperOffice.Configuration.ConfigFile.IntellisyncConnector
+  langs:
+  - csharp
+  - vb
+  name: IntellisyncConnectorUri
+  nameWithType: ConfigFile.IntellisyncConnector.IntellisyncConnectorUri
+  fullName: SuperOffice.Configuration.ConfigFile.IntellisyncConnector.IntellisyncConnectorUri
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe end point hosted by SoConnectorService used by Intellisync Server for communicant. See\n"
+  syntax:
+    content: public static string IntellisyncConnectorUri { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property IntellisyncConnectorUri As String
+  overload: SuperOffice.Configuration.ConfigFile.IntellisyncConnector.IntellisyncConnectorUri*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.IntellisyncConnector.EnableDiagnosticsWeb
+  commentId: P:SuperOffice.Configuration.ConfigFile.IntellisyncConnector.EnableDiagnosticsWeb
+  id: EnableDiagnosticsWeb
+  parent: SuperOffice.Configuration.ConfigFile.IntellisyncConnector
+  langs:
+  - csharp
+  - vb
+  name: EnableDiagnosticsWeb
+  nameWithType: ConfigFile.IntellisyncConnector.EnableDiagnosticsWeb
+  fullName: SuperOffice.Configuration.ConfigFile.IntellisyncConnector.EnableDiagnosticsWeb
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nTrue to make SoIntellisyncConnector host an internal web server enabling the possibility to analyze the current activity of SoIntellisyncConnector.  The Uri listened on is described by\n"
+  syntax:
+    content: public static bool EnableDiagnosticsWeb { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property EnableDiagnosticsWeb As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.IntellisyncConnector.EnableDiagnosticsWeb*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.IntellisyncConnector.DiagnosticsWebUri
+  commentId: P:SuperOffice.Configuration.ConfigFile.IntellisyncConnector.DiagnosticsWebUri
+  id: DiagnosticsWebUri
+  parent: SuperOffice.Configuration.ConfigFile.IntellisyncConnector
+  langs:
+  - csharp
+  - vb
+  name: DiagnosticsWebUri
+  nameWithType: ConfigFile.IntellisyncConnector.DiagnosticsWebUri
+  fullName: SuperOffice.Configuration.ConfigFile.IntellisyncConnector.DiagnosticsWebUri
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe end-point used by the SoIntellisyncConnector internal diagnostics web server. Default value is http://*:8001/.\n"
+  syntax:
+    content: public static string DiagnosticsWebUri { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property DiagnosticsWebUri As String
+  overload: SuperOffice.Configuration.ConfigFile.IntellisyncConnector.DiagnosticsWebUri*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.IntellisyncConnector.SessionTimeout*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IntellisyncConnector.SessionTimeout
+  isExternal: true
+  name: SessionTimeout
+  nameWithType: ConfigFile.IntellisyncConnector.SessionTimeout
+  fullName: SuperOffice.Configuration.ConfigFile.IntellisyncConnector.SessionTimeout
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Configuration.ConfigFile.IntellisyncConnector.IntellisyncConnectorUri*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IntellisyncConnector.IntellisyncConnectorUri
+  isExternal: true
+  name: IntellisyncConnectorUri
+  nameWithType: ConfigFile.IntellisyncConnector.IntellisyncConnectorUri
+  fullName: SuperOffice.Configuration.ConfigFile.IntellisyncConnector.IntellisyncConnectorUri
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Configuration.ConfigFile.IntellisyncConnector.EnableDiagnosticsWeb*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IntellisyncConnector.EnableDiagnosticsWeb
+  isExternal: true
+  name: EnableDiagnosticsWeb
+  nameWithType: ConfigFile.IntellisyncConnector.EnableDiagnosticsWeb
+  fullName: SuperOffice.Configuration.ConfigFile.IntellisyncConnector.EnableDiagnosticsWeb
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Configuration.ConfigFile.IntellisyncConnector.DiagnosticsWebUri*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.IntellisyncConnector.DiagnosticsWebUri
+  isExternal: true
+  name: DiagnosticsWebUri
+  nameWithType: ConfigFile.IntellisyncConnector.DiagnosticsWebUri
+  fullName: SuperOffice.Configuration.ConfigFile.IntellisyncConnector.DiagnosticsWebUri

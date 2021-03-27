@@ -1,0 +1,1404 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore
+  id: IsolatedStorageConfigDataStore
+  parent: SuperOffice.ErpSync.ConnectorWS
+  children:
+  - SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.#ctor
+  - SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.DeleteData(System.String)
+  - SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.LoadData(System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataTypeInfo},System.Collections.Generic.Dictionary{System.String,System.String})
+  - SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.SaveData(System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataTypeInfo},System.Collections.Generic.Dictionary{System.String,System.String})
+  langs:
+  - csharp
+  - vb
+  name: IsolatedStorageConfigDataStore
+  nameWithType: IsolatedStorageConfigDataStore
+  fullName: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync.ConnectorWS
+  summary: "\nDefault implementation of IConfigDataStore which stores config data in the user&apos;s isolated storage folder isolated\nper-user, per-assembly, per-appdomain.\n<p></p>\nImplement your own IConfigDataStore to override and replace this implementation with something else.\n"
+  syntax:
+    content: >-
+      [ConfigDataStore("IsolatedStorage", 2147483647)]
+
+      public class IsolatedStorageConfigDataStore : IConfigDataStore, IPlugin
+    content.vb: >-
+      <ConfigDataStore("IsolatedStorage", 2147483647)>
+
+      Public Class IsolatedStorageConfigDataStore
+          Implements IConfigDataStore, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.ErpSync.ConnectorWS.IConfigDataStore
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.EnumUtil.MapEnums``2
+  - SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore)
+  - SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.ErpSync.ConnectorWS.ConfigDataStoreAttribute
+    ctor: SuperOffice.ErpSync.ConnectorWS.ConfigDataStoreAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: IsolatedStorage
+    - type: System.Int32
+      value: 2147483647
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.DeleteData(System.String)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.DeleteData(System.String)
+  id: DeleteData(System.String)
+  parent: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore
+  langs:
+  - csharp
+  - vb
+  name: DeleteData(String)
+  nameWithType: IsolatedStorageConfigDataStore.DeleteData(String)
+  fullName: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.DeleteData(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync.ConnectorWS
+  summary: "\nRemove all trace of configuration from data store.\n"
+  syntax:
+    content: public void DeleteData(string key)
+    parameters:
+    - id: key
+      type: System.String
+      description: Connection id
+    content.vb: Public Sub DeleteData(key As String)
+  overload: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.DeleteData*
+  implements:
+  - SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.DeleteData(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.SaveData(System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataTypeInfo},System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.SaveData(System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataTypeInfo},System.Collections.Generic.Dictionary{System.String,System.String})
+  id: SaveData(System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataTypeInfo},System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore
+  langs:
+  - csharp
+  - vb
+  name: SaveData(String, Dictionary<String, FieldMetadataTypeInfo>, Dictionary<String, String>)
+  nameWithType: IsolatedStorageConfigDataStore.SaveData(String, Dictionary<String, FieldMetadataTypeInfo>, Dictionary<String, String>)
+  fullName: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.SaveData(System.String, System.Collections.Generic.Dictionary<System.String, SuperOffice.CRM.FieldMetadataTypeInfo>, System.Collections.Generic.Dictionary<System.String, System.String>)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync.ConnectorWS
+  summary: "\nPersist data to storage, taking care to only store data listed in members collection.  Passwords should be stored in encrypted format.\n"
+  syntax:
+    content: public void SaveData(string key, Dictionary<string, FieldMetadataTypeInfo> members, Dictionary<string, string> data)
+    parameters:
+    - id: key
+      type: System.String
+      description: Connection id
+    - id: members
+      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataTypeInfo}
+      description: Collection of field names and their types.
+    - id: data
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      description: Collection of field names and CultureFormatted values to be saved to storage.
+    content.vb: Public Sub SaveData(key As String, members As Dictionary(Of String, FieldMetadataTypeInfo), data As Dictionary(Of String, String))
+  overload: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.SaveData*
+  implements:
+  - SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.SaveData(System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataTypeInfo},System.Collections.Generic.Dictionary{System.String,System.String})
+  nameWithType.vb: IsolatedStorageConfigDataStore.SaveData(String, Dictionary(Of String, FieldMetadataTypeInfo), Dictionary(Of String, String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.SaveData(System.String, System.Collections.Generic.Dictionary(Of System.String, SuperOffice.CRM.FieldMetadataTypeInfo), System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: SaveData(String, Dictionary(Of String, FieldMetadataTypeInfo), Dictionary(Of String, String))
+- uid: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.LoadData(System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataTypeInfo},System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.LoadData(System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataTypeInfo},System.Collections.Generic.Dictionary{System.String,System.String})
+  id: LoadData(System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataTypeInfo},System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore
+  langs:
+  - csharp
+  - vb
+  name: LoadData(String, Dictionary<String, FieldMetadataTypeInfo>, Dictionary<String, String>)
+  nameWithType: IsolatedStorageConfigDataStore.LoadData(String, Dictionary<String, FieldMetadataTypeInfo>, Dictionary<String, String>)
+  fullName: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.LoadData(System.String, System.Collections.Generic.Dictionary<System.String, SuperOffice.CRM.FieldMetadataTypeInfo>, System.Collections.Generic.Dictionary<System.String, System.String>)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync.ConnectorWS
+  summary: "\nRetrieve data from storage, taking care to only fill the data collection with fields listed in the members collection.  Passwords should be decrypted before being placed in data.\n"
+  syntax:
+    content: public void LoadData(string key, Dictionary<string, FieldMetadataTypeInfo> members, Dictionary<string, string> data)
+    parameters:
+    - id: key
+      type: System.String
+      description: Connection id
+    - id: members
+      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataTypeInfo}
+      description: Collection of field names and their types.
+    - id: data
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      description: Collection of field names and CultureFormatted values - to be loaded from storage.
+    content.vb: Public Sub LoadData(key As String, members As Dictionary(Of String, FieldMetadataTypeInfo), data As Dictionary(Of String, String))
+  overload: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.LoadData*
+  implements:
+  - SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.LoadData(System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataTypeInfo},System.Collections.Generic.Dictionary{System.String,System.String})
+  nameWithType.vb: IsolatedStorageConfigDataStore.LoadData(String, Dictionary(Of String, FieldMetadataTypeInfo), Dictionary(Of String, String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.LoadData(System.String, System.Collections.Generic.Dictionary(Of System.String, SuperOffice.CRM.FieldMetadataTypeInfo), System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: LoadData(String, Dictionary(Of String, FieldMetadataTypeInfo), Dictionary(Of String, String))
+- uid: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.#ctor
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.#ctor
+  id: '#ctor'
+  parent: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore
+  langs:
+  - csharp
+  - vb
+  name: IsolatedStorageConfigDataStore()
+  nameWithType: IsolatedStorageConfigDataStore.IsolatedStorageConfigDataStore()
+  fullName: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.IsolatedStorageConfigDataStore()
+  type: Constructor
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync.ConnectorWS
+  syntax:
+    content: public IsolatedStorageConfigDataStore()
+    content.vb: Public Sub New
+  overload: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.IConfigDataStore
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: IConfigDataStore
+  nameWithType: IConfigDataStore
+  fullName: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IsolatedStorageConfigDataStore, To>()
+  nameWithType: EnumUtil.MapEnums<IsolatedStorageConfigDataStore, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IsolatedStorageConfigDataStore, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore, To)()
+  name.vb: MapEnums(Of IsolatedStorageConfigDataStore, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IsolatedStorageConfigDataStore, To>
+    nameWithType: EnumUtil.MapEnums<IsolatedStorageConfigDataStore, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IsolatedStorageConfigDataStore, To)
+    nameWithType: EnumUtil.MapEnums(Of IsolatedStorageConfigDataStore, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<IsolatedStorageConfigDataStore>(IsolatedStorageConfigDataStore)
+  nameWithType: ObjectExtensions.AssignByReflection<IsolatedStorageConfigDataStore>(IsolatedStorageConfigDataStore)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore>(SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of IsolatedStorageConfigDataStore)(IsolatedStorageConfigDataStore)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore)(SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore)
+  name.vb: AssignByReflection(Of IsolatedStorageConfigDataStore)(IsolatedStorageConfigDataStore)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<IsolatedStorageConfigDataStore>
+    nameWithType: ObjectExtensions.AssignByReflection<IsolatedStorageConfigDataStore>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore
+    name: IsolatedStorageConfigDataStore
+    nameWithType: IsolatedStorageConfigDataStore
+    fullName: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of IsolatedStorageConfigDataStore)
+    nameWithType: ObjectExtensions.AssignByReflection(Of IsolatedStorageConfigDataStore)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore
+    name: IsolatedStorageConfigDataStore
+    nameWithType: IsolatedStorageConfigDataStore
+    fullName: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<IsolatedStorageConfigDataStore>()
+  nameWithType: ObjectExtensions.GraphCopy<IsolatedStorageConfigDataStore>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of IsolatedStorageConfigDataStore)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore)()
+  name.vb: GraphCopy(Of IsolatedStorageConfigDataStore)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<IsolatedStorageConfigDataStore>
+    nameWithType: ObjectExtensions.GraphCopy<IsolatedStorageConfigDataStore>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of IsolatedStorageConfigDataStore)
+    nameWithType: ObjectExtensions.GraphCopy(Of IsolatedStorageConfigDataStore)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IsolatedStorageConfigDataStore, To>()
+  nameWithType: Converters.MapEnums<IsolatedStorageConfigDataStore, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore, To>()
+  nameWithType.vb: Converters.MapEnums(Of IsolatedStorageConfigDataStore, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore, To)()
+  name.vb: MapEnums(Of IsolatedStorageConfigDataStore, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IsolatedStorageConfigDataStore, To>
+    nameWithType: Converters.MapEnums<IsolatedStorageConfigDataStore, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IsolatedStorageConfigDataStore, To)
+    nameWithType: Converters.MapEnums(Of IsolatedStorageConfigDataStore, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.DeleteData*
+  commentId: Overload:SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.DeleteData
+  isExternal: true
+  name: DeleteData
+  nameWithType: IsolatedStorageConfigDataStore.DeleteData
+  fullName: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.DeleteData
+- uid: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.DeleteData(System.String)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.DeleteData(System.String)
+  parent: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore
+  isExternal: true
+  name: DeleteData(String)
+  nameWithType: IConfigDataStore.DeleteData(String)
+  fullName: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.DeleteData(System.String)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.DeleteData(System.String)
+    name: DeleteData
+    nameWithType: IConfigDataStore.DeleteData
+    fullName: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.DeleteData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.DeleteData(System.String)
+    name: DeleteData
+    nameWithType: IConfigDataStore.DeleteData
+    fullName: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.DeleteData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.SaveData*
+  commentId: Overload:SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.SaveData
+  isExternal: true
+  name: SaveData
+  nameWithType: IsolatedStorageConfigDataStore.SaveData
+  fullName: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.SaveData
+- uid: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.SaveData(System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataTypeInfo},System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.SaveData(System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataTypeInfo},System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore
+  isExternal: true
+  name: SaveData(String, Dictionary<String, FieldMetadataTypeInfo>, Dictionary<String, String>)
+  nameWithType: IConfigDataStore.SaveData(String, Dictionary<String, FieldMetadataTypeInfo>, Dictionary<String, String>)
+  fullName: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.SaveData(System.String, System.Collections.Generic.Dictionary<System.String, SuperOffice.CRM.FieldMetadataTypeInfo>, System.Collections.Generic.Dictionary<System.String, System.String>)
+  nameWithType.vb: IConfigDataStore.SaveData(String, Dictionary(Of String, FieldMetadataTypeInfo), Dictionary(Of String, String))
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.SaveData(System.String, System.Collections.Generic.Dictionary(Of System.String, SuperOffice.CRM.FieldMetadataTypeInfo), System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: SaveData(String, Dictionary(Of String, FieldMetadataTypeInfo), Dictionary(Of String, String))
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.SaveData(System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataTypeInfo},System.Collections.Generic.Dictionary{System.String,System.String})
+    name: SaveData
+    nameWithType: IConfigDataStore.SaveData
+    fullName: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.SaveData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.FieldMetadataTypeInfo
+    name: FieldMetadataTypeInfo
+    nameWithType: FieldMetadataTypeInfo
+    fullName: SuperOffice.CRM.FieldMetadataTypeInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.SaveData(System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataTypeInfo},System.Collections.Generic.Dictionary{System.String,System.String})
+    name: SaveData
+    nameWithType: IConfigDataStore.SaveData
+    fullName: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.SaveData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.FieldMetadataTypeInfo
+    name: FieldMetadataTypeInfo
+    nameWithType: FieldMetadataTypeInfo
+    fullName: SuperOffice.CRM.FieldMetadataTypeInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataTypeInfo}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataTypeInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, FieldMetadataTypeInfo>
+  nameWithType: Dictionary<String, FieldMetadataTypeInfo>
+  fullName: System.Collections.Generic.Dictionary<System.String, SuperOffice.CRM.FieldMetadataTypeInfo>
+  nameWithType.vb: Dictionary(Of String, FieldMetadataTypeInfo)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, SuperOffice.CRM.FieldMetadataTypeInfo)
+  name.vb: Dictionary(Of String, FieldMetadataTypeInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.FieldMetadataTypeInfo
+    name: FieldMetadataTypeInfo
+    nameWithType: FieldMetadataTypeInfo
+    fullName: SuperOffice.CRM.FieldMetadataTypeInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.FieldMetadataTypeInfo
+    name: FieldMetadataTypeInfo
+    nameWithType: FieldMetadataTypeInfo
+    fullName: SuperOffice.CRM.FieldMetadataTypeInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.LoadData*
+  commentId: Overload:SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.LoadData
+  isExternal: true
+  name: LoadData
+  nameWithType: IsolatedStorageConfigDataStore.LoadData
+  fullName: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.LoadData
+- uid: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.LoadData(System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataTypeInfo},System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.LoadData(System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataTypeInfo},System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore
+  isExternal: true
+  name: LoadData(String, Dictionary<String, FieldMetadataTypeInfo>, Dictionary<String, String>)
+  nameWithType: IConfigDataStore.LoadData(String, Dictionary<String, FieldMetadataTypeInfo>, Dictionary<String, String>)
+  fullName: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.LoadData(System.String, System.Collections.Generic.Dictionary<System.String, SuperOffice.CRM.FieldMetadataTypeInfo>, System.Collections.Generic.Dictionary<System.String, System.String>)
+  nameWithType.vb: IConfigDataStore.LoadData(String, Dictionary(Of String, FieldMetadataTypeInfo), Dictionary(Of String, String))
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.LoadData(System.String, System.Collections.Generic.Dictionary(Of System.String, SuperOffice.CRM.FieldMetadataTypeInfo), System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: LoadData(String, Dictionary(Of String, FieldMetadataTypeInfo), Dictionary(Of String, String))
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.LoadData(System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataTypeInfo},System.Collections.Generic.Dictionary{System.String,System.String})
+    name: LoadData
+    nameWithType: IConfigDataStore.LoadData
+    fullName: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.LoadData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.FieldMetadataTypeInfo
+    name: FieldMetadataTypeInfo
+    nameWithType: FieldMetadataTypeInfo
+    fullName: SuperOffice.CRM.FieldMetadataTypeInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.LoadData(System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.FieldMetadataTypeInfo},System.Collections.Generic.Dictionary{System.String,System.String})
+    name: LoadData
+    nameWithType: IConfigDataStore.LoadData
+    fullName: SuperOffice.ErpSync.ConnectorWS.IConfigDataStore.LoadData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.FieldMetadataTypeInfo
+    name: FieldMetadataTypeInfo
+    nameWithType: FieldMetadataTypeInfo
+    fullName: SuperOffice.CRM.FieldMetadataTypeInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.#ctor*
+  commentId: Overload:SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.#ctor
+  isExternal: true
+  name: IsolatedStorageConfigDataStore
+  nameWithType: IsolatedStorageConfigDataStore.IsolatedStorageConfigDataStore
+  fullName: SuperOffice.ErpSync.ConnectorWS.IsolatedStorageConfigDataStore.IsolatedStorageConfigDataStore

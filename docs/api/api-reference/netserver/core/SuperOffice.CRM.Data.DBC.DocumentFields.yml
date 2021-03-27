@@ -1,0 +1,947 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.DocumentFields
+  commentId: T:SuperOffice.CRM.Data.DBC.DocumentFields
+  id: DBC.DocumentFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.DocumentFields.ApplicationId
+  - SuperOffice.CRM.Data.DBC.DocumentFields.AppointmentId
+  - SuperOffice.CRM.Data.DBC.DocumentFields.ArchiveProvider
+  - SuperOffice.CRM.Data.DBC.DocumentFields.Attention
+  - SuperOffice.CRM.Data.DBC.DocumentFields.DocumentId
+  - SuperOffice.CRM.Data.DBC.DocumentFields.Extref
+  - SuperOffice.CRM.Data.DBC.DocumentFields.Header
+  - SuperOffice.CRM.Data.DBC.DocumentFields.Name
+  - SuperOffice.CRM.Data.DBC.DocumentFields.OurRef
+  - SuperOffice.CRM.Data.DBC.DocumentFields.Registered
+  - SuperOffice.CRM.Data.DBC.DocumentFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.DocumentFields.Searchname
+  - SuperOffice.CRM.Data.DBC.DocumentFields.Snum
+  - SuperOffice.CRM.Data.DBC.DocumentFields.TextId
+  - SuperOffice.CRM.Data.DBC.DocumentFields.Updated
+  - SuperOffice.CRM.Data.DBC.DocumentFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.DocumentFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.DocumentFields.Userdef2Id
+  - SuperOffice.CRM.Data.DBC.DocumentFields.UserdefId
+  - SuperOffice.CRM.Data.DBC.DocumentFields.YourRef
+  langs:
+  - csharp
+  - vb
+  name: DBC.DocumentFields
+  nameWithType: DBC.DocumentFields
+  fullName: SuperOffice.CRM.Data.DBC.DocumentFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for Document, Documents, this table is an extension of the Appointment table.  There is always a corresponding appointment record; the relation between appointment and document is navigable in both directions. A document-type appointment record always has a corresponding document record and a record in VisibleFor specifying who may see this.  \n"
+  syntax:
+    content: public static class DocumentFields
+    content.vb: Public Module DocumentFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.DocumentFields.DocumentId
+  commentId: F:SuperOffice.CRM.Data.DBC.DocumentFields.DocumentId
+  id: DocumentId
+  parent: SuperOffice.CRM.Data.DBC.DocumentFields
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: DBC.DocumentFields.DocumentId
+  fullName: SuperOffice.CRM.Data.DBC.DocumentFields.DocumentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDocument.DocumentId: Primary key\n"
+  syntax:
+    content: public const string DocumentId = "document_id"
+    return:
+      type: System.String
+    content.vb: Public Const DocumentId As String = "document_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DocumentFields.ApplicationId
+  commentId: F:SuperOffice.CRM.Data.DBC.DocumentFields.ApplicationId
+  id: ApplicationId
+  parent: SuperOffice.CRM.Data.DBC.DocumentFields
+  langs:
+  - csharp
+  - vb
+  name: ApplicationId
+  nameWithType: DBC.DocumentFields.ApplicationId
+  fullName: SuperOffice.CRM.Data.DBC.DocumentFields.ApplicationId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDocument.ApplicationId: Application this document was made with\n"
+  syntax:
+    content: public const string ApplicationId = "application_id"
+    return:
+      type: System.String
+    content.vb: Public Const ApplicationId As String = "application_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DocumentFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.DocumentFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.DocumentFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.DocumentFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.DocumentFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDocument.Name: File name\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DocumentFields.Header
+  commentId: F:SuperOffice.CRM.Data.DBC.DocumentFields.Header
+  id: Header
+  parent: SuperOffice.CRM.Data.DBC.DocumentFields
+  langs:
+  - csharp
+  - vb
+  name: Header
+  nameWithType: DBC.DocumentFields.Header
+  fullName: SuperOffice.CRM.Data.DBC.DocumentFields.Header
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDocument.Header: Visible document name\n"
+  syntax:
+    content: public const string Header = "header"
+    return:
+      type: System.String
+    content.vb: Public Const Header As String = "header"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DocumentFields.OurRef
+  commentId: F:SuperOffice.CRM.Data.DBC.DocumentFields.OurRef
+  id: OurRef
+  parent: SuperOffice.CRM.Data.DBC.DocumentFields
+  langs:
+  - csharp
+  - vb
+  name: OurRef
+  nameWithType: DBC.DocumentFields.OurRef
+  fullName: SuperOffice.CRM.Data.DBC.DocumentFields.OurRef
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDocument.OurRef: Our reference, searchable field from freetext search\n"
+  syntax:
+    content: public const string OurRef = "our_ref"
+    return:
+      type: System.String
+    content.vb: Public Const OurRef As String = "our_ref"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DocumentFields.YourRef
+  commentId: F:SuperOffice.CRM.Data.DBC.DocumentFields.YourRef
+  id: YourRef
+  parent: SuperOffice.CRM.Data.DBC.DocumentFields
+  langs:
+  - csharp
+  - vb
+  name: YourRef
+  nameWithType: DBC.DocumentFields.YourRef
+  fullName: SuperOffice.CRM.Data.DBC.DocumentFields.YourRef
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDocument.YourRef: Your reference\n"
+  syntax:
+    content: public const string YourRef = "your_ref"
+    return:
+      type: System.String
+    content.vb: Public Const YourRef As String = "your_ref"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DocumentFields.Searchname
+  commentId: F:SuperOffice.CRM.Data.DBC.DocumentFields.Searchname
+  id: Searchname
+  parent: SuperOffice.CRM.Data.DBC.DocumentFields
+  langs:
+  - csharp
+  - vb
+  name: Searchname
+  nameWithType: DBC.DocumentFields.Searchname
+  fullName: SuperOffice.CRM.Data.DBC.DocumentFields.Searchname
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDocument.Searchname: Searchable name (not used?)\n"
+  syntax:
+    content: public const string Searchname = "searchname"
+    return:
+      type: System.String
+    content.vb: Public Const Searchname As String = "searchname"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DocumentFields.Attention
+  commentId: F:SuperOffice.CRM.Data.DBC.DocumentFields.Attention
+  id: Attention
+  parent: SuperOffice.CRM.Data.DBC.DocumentFields
+  langs:
+  - csharp
+  - vb
+  name: Attention
+  nameWithType: DBC.DocumentFields.Attention
+  fullName: SuperOffice.CRM.Data.DBC.DocumentFields.Attention
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDocument.Attention: Attention/salutation\n"
+  syntax:
+    content: public const string Attention = "attention"
+    return:
+      type: System.String
+    content.vb: Public Const Attention As String = "attention"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DocumentFields.TextId
+  commentId: F:SuperOffice.CRM.Data.DBC.DocumentFields.TextId
+  id: TextId
+  parent: SuperOffice.CRM.Data.DBC.DocumentFields
+  langs:
+  - csharp
+  - vb
+  name: TextId
+  nameWithType: DBC.DocumentFields.TextId
+  fullName: SuperOffice.CRM.Data.DBC.DocumentFields.TextId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDocument.TextId: Pointer to optional long description\n"
+  syntax:
+    content: public const string TextId = "text_id"
+    return:
+      type: System.String
+    content.vb: Public Const TextId As String = "text_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DocumentFields.ArchiveProvider
+  commentId: F:SuperOffice.CRM.Data.DBC.DocumentFields.ArchiveProvider
+  id: ArchiveProvider
+  parent: SuperOffice.CRM.Data.DBC.DocumentFields
+  langs:
+  - csharp
+  - vb
+  name: ArchiveProvider
+  nameWithType: DBC.DocumentFields.ArchiveProvider
+  fullName: SuperOffice.CRM.Data.DBC.DocumentFields.ArchiveProvider
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDocument.ArchiveProvider: Document plugin id copied from the DocTmpl.autoevent_id - tells us where the document content is stored\n"
+  syntax:
+    content: public const string ArchiveProvider = "archiveProvider"
+    return:
+      type: System.String
+    content.vb: Public Const ArchiveProvider As String = "archiveProvider"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DocumentFields.AppointmentId
+  commentId: F:SuperOffice.CRM.Data.DBC.DocumentFields.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.CRM.Data.DBC.DocumentFields
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: DBC.DocumentFields.AppointmentId
+  fullName: SuperOffice.CRM.Data.DBC.DocumentFields.AppointmentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDocument.AppointmentId: points back to owning appointment\n"
+  syntax:
+    content: public const string AppointmentId = "appointment_id"
+    return:
+      type: System.String
+    content.vb: Public Const AppointmentId As String = "appointment_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DocumentFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.DocumentFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.DocumentFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.DocumentFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.DocumentFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDocument.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DocumentFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.DocumentFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.DocumentFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.DocumentFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.DocumentFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDocument.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DocumentFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.DocumentFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.DocumentFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.DocumentFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.DocumentFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDocument.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DocumentFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.DocumentFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.DocumentFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.DocumentFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.DocumentFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDocument.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DocumentFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.DocumentFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.DocumentFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.DocumentFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.DocumentFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDocument.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DocumentFields.Extref
+  commentId: F:SuperOffice.CRM.Data.DBC.DocumentFields.Extref
+  id: Extref
+  parent: SuperOffice.CRM.Data.DBC.DocumentFields
+  langs:
+  - csharp
+  - vb
+  name: Extref
+  nameWithType: DBC.DocumentFields.Extref
+  fullName: SuperOffice.CRM.Data.DBC.DocumentFields.Extref
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDocument.Extref: External reference (notes ID, email ID, URL, whatever) for use by document plugin in locating document content\n"
+  syntax:
+    content: public const string Extref = "extref"
+    return:
+      type: System.String
+    content.vb: Public Const Extref As String = "extref"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DocumentFields.UserdefId
+  commentId: F:SuperOffice.CRM.Data.DBC.DocumentFields.UserdefId
+  id: UserdefId
+  parent: SuperOffice.CRM.Data.DBC.DocumentFields
+  langs:
+  - csharp
+  - vb
+  name: UserdefId
+  nameWithType: DBC.DocumentFields.UserdefId
+  fullName: SuperOffice.CRM.Data.DBC.DocumentFields.UserdefId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDocument.UserdefId: User-defined fields\n"
+  syntax:
+    content: public const string UserdefId = "userdef_id"
+    return:
+      type: System.String
+    content.vb: Public Const UserdefId As String = "userdef_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DocumentFields.Userdef2Id
+  commentId: F:SuperOffice.CRM.Data.DBC.DocumentFields.Userdef2Id
+  id: Userdef2Id
+  parent: SuperOffice.CRM.Data.DBC.DocumentFields
+  langs:
+  - csharp
+  - vb
+  name: Userdef2Id
+  nameWithType: DBC.DocumentFields.Userdef2Id
+  fullName: SuperOffice.CRM.Data.DBC.DocumentFields.Userdef2Id
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDocument.Userdef2Id: User-defined fields\n"
+  syntax:
+    content: public const string Userdef2Id = "userdef2_id"
+    return:
+      type: System.String
+    content.vb: Public Const Userdef2Id As String = "userdef2_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DocumentFields.Snum
+  commentId: F:SuperOffice.CRM.Data.DBC.DocumentFields.Snum
+  id: Snum
+  parent: SuperOffice.CRM.Data.DBC.DocumentFields
+  langs:
+  - csharp
+  - vb
+  name: Snum
+  nameWithType: DBC.DocumentFields.Snum
+  fullName: SuperOffice.CRM.Data.DBC.DocumentFields.Snum
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDocument.Snum: The sequence number allocated from refcount on used template when creating the document\n"
+  syntax:
+    content: public const string Snum = "snum"
+    return:
+      type: System.String
+    content.vb: Public Const Snum As String = "snum"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

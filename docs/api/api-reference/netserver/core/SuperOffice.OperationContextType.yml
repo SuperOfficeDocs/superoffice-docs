@@ -1,0 +1,590 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.OperationContextType
+  commentId: T:SuperOffice.OperationContextType
+  id: OperationContextType
+  parent: SuperOffice
+  children:
+  - SuperOffice.OperationContextType.AjaxCallback
+  - SuperOffice.OperationContextType.FilesetService
+  - SuperOffice.OperationContextType.None
+  - SuperOffice.OperationContextType.SuperIdTenantService
+  - SuperOffice.OperationContextType.WcfService
+  - SuperOffice.OperationContextType.WebPage
+  - SuperOffice.OperationContextType.WebTools
+  langs:
+  - csharp
+  - vb
+  name: OperationContextType
+  nameWithType: OperationContextType
+  fullName: SuperOffice.OperationContextType
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public enum OperationContextType
+    content.vb: Public Enum OperationContextType
+  extensionMethods:
+  - SuperOffice.OperationContextType.EnumUtil.MapEnums``2
+  - SuperOffice.OperationContextType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.OperationContextType)
+  - SuperOffice.OperationContextType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.OperationContextType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.OperationContextType.None
+  commentId: F:SuperOffice.OperationContextType.None
+  id: None
+  parent: SuperOffice.OperationContextType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: OperationContextType.None
+  fullName: SuperOffice.OperationContextType.None
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.OperationContextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.OperationContextType.WebPage
+  commentId: F:SuperOffice.OperationContextType.WebPage
+  id: WebPage
+  parent: SuperOffice.OperationContextType
+  langs:
+  - csharp
+  - vb
+  name: WebPage
+  nameWithType: OperationContextType.WebPage
+  fullName: SuperOffice.OperationContextType.WebPage
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: WebPage = 1
+    return:
+      type: SuperOffice.OperationContextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.OperationContextType.AjaxCallback
+  commentId: F:SuperOffice.OperationContextType.AjaxCallback
+  id: AjaxCallback
+  parent: SuperOffice.OperationContextType
+  langs:
+  - csharp
+  - vb
+  name: AjaxCallback
+  nameWithType: OperationContextType.AjaxCallback
+  fullName: SuperOffice.OperationContextType.AjaxCallback
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: AjaxCallback = 2
+    return:
+      type: SuperOffice.OperationContextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.OperationContextType.WebTools
+  commentId: F:SuperOffice.OperationContextType.WebTools
+  id: WebTools
+  parent: SuperOffice.OperationContextType
+  langs:
+  - csharp
+  - vb
+  name: WebTools
+  nameWithType: OperationContextType.WebTools
+  fullName: SuperOffice.OperationContextType.WebTools
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: WebTools = 3
+    return:
+      type: SuperOffice.OperationContextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.OperationContextType.WcfService
+  commentId: F:SuperOffice.OperationContextType.WcfService
+  id: WcfService
+  parent: SuperOffice.OperationContextType
+  langs:
+  - csharp
+  - vb
+  name: WcfService
+  nameWithType: OperationContextType.WcfService
+  fullName: SuperOffice.OperationContextType.WcfService
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: WcfService = 4
+    return:
+      type: SuperOffice.OperationContextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.OperationContextType.SuperIdTenantService
+  commentId: F:SuperOffice.OperationContextType.SuperIdTenantService
+  id: SuperIdTenantService
+  parent: SuperOffice.OperationContextType
+  langs:
+  - csharp
+  - vb
+  name: SuperIdTenantService
+  nameWithType: OperationContextType.SuperIdTenantService
+  fullName: SuperOffice.OperationContextType.SuperIdTenantService
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: SuperIdTenantService = 5
+    return:
+      type: SuperOffice.OperationContextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.OperationContextType.FilesetService
+  commentId: F:SuperOffice.OperationContextType.FilesetService
+  id: FilesetService
+  parent: SuperOffice.OperationContextType
+  langs:
+  - csharp
+  - vb
+  name: FilesetService
+  nameWithType: OperationContextType.FilesetService
+  fullName: SuperOffice.OperationContextType.FilesetService
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: FilesetService = 6
+    return:
+      type: SuperOffice.OperationContextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice
+  commentId: N:SuperOffice
+  isExternal: true
+  name: SuperOffice
+  nameWithType: SuperOffice
+  fullName: SuperOffice
+- uid: SuperOffice.OperationContextType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<OperationContextType, To>()
+  nameWithType: EnumUtil.MapEnums<OperationContextType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.OperationContextType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of OperationContextType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.OperationContextType, To)()
+  name.vb: MapEnums(Of OperationContextType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<OperationContextType, To>
+    nameWithType: EnumUtil.MapEnums<OperationContextType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.OperationContextType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of OperationContextType, To)
+    nameWithType: EnumUtil.MapEnums(Of OperationContextType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.OperationContextType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.OperationContextType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.OperationContextType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<OperationContextType>(OperationContextType)
+  nameWithType: ObjectExtensions.AssignByReflection<OperationContextType>(OperationContextType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.OperationContextType>(SuperOffice.OperationContextType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of OperationContextType)(OperationContextType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.OperationContextType)(SuperOffice.OperationContextType)
+  name.vb: AssignByReflection(Of OperationContextType)(OperationContextType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<OperationContextType>
+    nameWithType: ObjectExtensions.AssignByReflection<OperationContextType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.OperationContextType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.OperationContextType
+    name: OperationContextType
+    nameWithType: OperationContextType
+    fullName: SuperOffice.OperationContextType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of OperationContextType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of OperationContextType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.OperationContextType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.OperationContextType
+    name: OperationContextType
+    nameWithType: OperationContextType
+    fullName: SuperOffice.OperationContextType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.OperationContextType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<OperationContextType>()
+  nameWithType: ObjectExtensions.GraphCopy<OperationContextType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.OperationContextType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of OperationContextType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.OperationContextType)()
+  name.vb: GraphCopy(Of OperationContextType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<OperationContextType>
+    nameWithType: ObjectExtensions.GraphCopy<OperationContextType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.OperationContextType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of OperationContextType)
+    nameWithType: ObjectExtensions.GraphCopy(Of OperationContextType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.OperationContextType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.OperationContextType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<OperationContextType, To>()
+  nameWithType: Converters.MapEnums<OperationContextType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.OperationContextType, To>()
+  nameWithType.vb: Converters.MapEnums(Of OperationContextType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.OperationContextType, To)()
+  name.vb: MapEnums(Of OperationContextType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<OperationContextType, To>
+    nameWithType: Converters.MapEnums<OperationContextType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.OperationContextType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of OperationContextType, To)
+    nameWithType: Converters.MapEnums(Of OperationContextType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.OperationContextType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.OperationContextType
+  commentId: T:SuperOffice.OperationContextType
+  parent: SuperOffice
+  isExternal: true
+  name: OperationContextType
+  nameWithType: OperationContextType
+  fullName: SuperOffice.OperationContextType

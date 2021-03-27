@@ -1,0 +1,475 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.Globalization
+  commentId: T:SuperOffice.Configuration.ConfigFile.Globalization
+  id: ConfigFile.Globalization
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.Globalization.AllwaysUseGsmPhoneStyle
+  - SuperOffice.Configuration.ConfigFile.Globalization.ApplicationCountryCode
+  - SuperOffice.Configuration.ConfigFile.Globalization.UseApplicationCountryForPersons
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.Globalization
+  nameWithType: ConfigFile.Globalization
+  fullName: SuperOffice.Configuration.ConfigFile.Globalization
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nUtility class used to access the Globalization section in the config file.\n"
+  syntax:
+    content: public static class Globalization
+    content.vb: Public Module Globalization
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Configuration.ConfigFile.Globalization.ApplicationCountryCode
+  commentId: P:SuperOffice.Configuration.ConfigFile.Globalization.ApplicationCountryCode
+  id: ApplicationCountryCode
+  parent: SuperOffice.Configuration.ConfigFile.Globalization
+  langs:
+  - csharp
+  - vb
+  name: ApplicationCountryCode
+  nameWithType: ConfigFile.Globalization.ApplicationCountryCode
+  fullName: SuperOffice.Configuration.ConfigFile.Globalization.ApplicationCountryCode
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nUse this country code for associates that are not persons (e.g. anonymous and system users).  Default is gb (e.g. England).\n"
+  syntax:
+    content: public static string ApplicationCountryCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property ApplicationCountryCode As String
+  overload: SuperOffice.Configuration.ConfigFile.Globalization.ApplicationCountryCode*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Globalization.UseApplicationCountryForPersons
+  commentId: P:SuperOffice.Configuration.ConfigFile.Globalization.UseApplicationCountryForPersons
+  id: UseApplicationCountryForPersons
+  parent: SuperOffice.Configuration.ConfigFile.Globalization
+  langs:
+  - csharp
+  - vb
+  name: UseApplicationCountryForPersons
+  nameWithType: ConfigFile.Globalization.UseApplicationCountryForPersons
+  fullName: SuperOffice.Configuration.ConfigFile.Globalization.UseApplicationCountryForPersons
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nUse the applications country (e.g. <see cref=\"!:ApplicationCountry\"></see>) for all persons (e.g. employees and external users). This is for applications that are not localized.\n"
+  remarks: "\nCurrent county in the principal will forced to the <see cref=\"!:ApplicationCountry\"></see> value.\n"
+  syntax:
+    content: public static bool UseApplicationCountryForPersons { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property UseApplicationCountryForPersons As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Globalization.UseApplicationCountryForPersons*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Globalization.AllwaysUseGsmPhoneStyle
+  commentId: P:SuperOffice.Configuration.ConfigFile.Globalization.AllwaysUseGsmPhoneStyle
+  id: AllwaysUseGsmPhoneStyle
+  parent: SuperOffice.Configuration.ConfigFile.Globalization
+  langs:
+  - csharp
+  - vb
+  name: AllwaysUseGsmPhoneStyle
+  nameWithType: ConfigFile.Globalization.AllwaysUseGsmPhoneStyle
+  fullName: SuperOffice.Configuration.ConfigFile.Globalization.AllwaysUseGsmPhoneStyle
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nSetting this property to true will retun all phone numbers formatted for the display in a GSM Phone style. Default value is false\n"
+  syntax:
+    content: public static bool AllwaysUseGsmPhoneStyle { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property AllwaysUseGsmPhoneStyle As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Globalization.AllwaysUseGsmPhoneStyle*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.Globalization.ApplicationCountryCode*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Globalization.ApplicationCountryCode
+  isExternal: true
+  name: ApplicationCountryCode
+  nameWithType: ConfigFile.Globalization.ApplicationCountryCode
+  fullName: SuperOffice.Configuration.ConfigFile.Globalization.ApplicationCountryCode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Configuration.ConfigFile.Globalization.UseApplicationCountryForPersons*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Globalization.UseApplicationCountryForPersons
+  isExternal: true
+  name: UseApplicationCountryForPersons
+  nameWithType: ConfigFile.Globalization.UseApplicationCountryForPersons
+  fullName: SuperOffice.Configuration.ConfigFile.Globalization.UseApplicationCountryForPersons
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Configuration.ConfigFile.Globalization.AllwaysUseGsmPhoneStyle*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Globalization.AllwaysUseGsmPhoneStyle
+  isExternal: true
+  name: AllwaysUseGsmPhoneStyle
+  nameWithType: ConfigFile.Globalization.AllwaysUseGsmPhoneStyle
+  fullName: SuperOffice.Configuration.ConfigFile.Globalization.AllwaysUseGsmPhoneStyle

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Batch_DeleteBatchTaskRequest
+  commentId: T:SuperOffice.WebApi.Data.Batch_DeleteBatchTaskRequest
+  id: Batch_DeleteBatchTaskRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Batch_DeleteBatchTaskRequest.#ctor
+  - SuperOffice.WebApi.Data.Batch_DeleteBatchTaskRequest.BatchTaskId
+  langs:
+  - csharp
+  - vb
+  name: Batch_DeleteBatchTaskRequest
+  nameWithType: Batch_DeleteBatchTaskRequest
+  fullName: SuperOffice.WebApi.Data.Batch_DeleteBatchTaskRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Batch_DeleteBatchTaskRequest : Object'
+    content.vb: >-
+      Public Class Batch_DeleteBatchTaskRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Batch_DeleteBatchTaskRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Batch_DeleteBatchTaskRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Batch_DeleteBatchTaskRequest
+  langs:
+  - csharp
+  - vb
+  name: Batch_DeleteBatchTaskRequest()
+  nameWithType: Batch_DeleteBatchTaskRequest.Batch_DeleteBatchTaskRequest()
+  fullName: SuperOffice.WebApi.Data.Batch_DeleteBatchTaskRequest.Batch_DeleteBatchTaskRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Batch_DeleteBatchTaskRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Batch_DeleteBatchTaskRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Batch_DeleteBatchTaskRequest.BatchTaskId
+  commentId: P:SuperOffice.WebApi.Data.Batch_DeleteBatchTaskRequest.BatchTaskId
+  id: BatchTaskId
+  parent: SuperOffice.WebApi.Data.Batch_DeleteBatchTaskRequest
+  langs:
+  - csharp
+  - vb
+  name: BatchTaskId
+  nameWithType: Batch_DeleteBatchTaskRequest.BatchTaskId
+  fullName: SuperOffice.WebApi.Data.Batch_DeleteBatchTaskRequest.BatchTaskId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int BatchTaskId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property BatchTaskId As Integer
+  overload: SuperOffice.WebApi.Data.Batch_DeleteBatchTaskRequest.BatchTaskId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Batch_DeleteBatchTaskRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Batch_DeleteBatchTaskRequest.#ctor
+  isExternal: true
+  name: Batch_DeleteBatchTaskRequest
+  nameWithType: Batch_DeleteBatchTaskRequest.Batch_DeleteBatchTaskRequest
+  fullName: SuperOffice.WebApi.Data.Batch_DeleteBatchTaskRequest.Batch_DeleteBatchTaskRequest
+- uid: SuperOffice.WebApi.Data.Batch_DeleteBatchTaskRequest.BatchTaskId*
+  commentId: Overload:SuperOffice.WebApi.Data.Batch_DeleteBatchTaskRequest.BatchTaskId
+  isExternal: true
+  name: BatchTaskId
+  nameWithType: Batch_DeleteBatchTaskRequest.BatchTaskId
+  fullName: SuperOffice.WebApi.Data.Batch_DeleteBatchTaskRequest.BatchTaskId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

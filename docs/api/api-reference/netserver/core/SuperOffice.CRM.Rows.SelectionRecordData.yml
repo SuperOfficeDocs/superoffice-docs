@@ -1,0 +1,1697 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.SelectionRecordData
+  commentId: T:SuperOffice.CRM.Rows.SelectionRecordData
+  id: SelectionRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.SelectionRecordData.#ctor
+  - SuperOffice.CRM.Rows.SelectionRecordData.AssociateId
+  - SuperOffice.CRM.Rows.SelectionRecordData.ChartKey
+  - SuperOffice.CRM.Rows.SelectionRecordData.CombinationType
+  - SuperOffice.CRM.Rows.SelectionRecordData.CompanyUnique
+  - SuperOffice.CRM.Rows.SelectionRecordData.Done
+  - SuperOffice.CRM.Rows.SelectionRecordData.GroupIdx
+  - SuperOffice.CRM.Rows.SelectionRecordData.IncludePerson
+  - SuperOffice.CRM.Rows.SelectionRecordData.LastLoaded
+  - SuperOffice.CRM.Rows.SelectionRecordData.LastLoadedBy
+  - SuperOffice.CRM.Rows.SelectionRecordData.LastMembershipChange
+  - SuperOffice.CRM.Rows.SelectionRecordData.LastMembershipChangeBy
+  - SuperOffice.CRM.Rows.SelectionRecordData.LeftSelectionId
+  - SuperOffice.CRM.Rows.SelectionRecordData.MemberCount
+  - SuperOffice.CRM.Rows.SelectionRecordData.Name
+  - SuperOffice.CRM.Rows.SelectionRecordData.PostitTextId
+  - SuperOffice.CRM.Rows.SelectionRecordData.Registered
+  - SuperOffice.CRM.Rows.SelectionRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.SelectionRecordData.RightSelectionId
+  - SuperOffice.CRM.Rows.SelectionRecordData.SearchCatId
+  - SuperOffice.CRM.Rows.SelectionRecordData.SelectionId
+  - SuperOffice.CRM.Rows.SelectionRecordData.Seltype
+  - SuperOffice.CRM.Rows.SelectionRecordData.SoundEx
+  - SuperOffice.CRM.Rows.SelectionRecordData.Source
+  - SuperOffice.CRM.Rows.SelectionRecordData.SystemType
+  - SuperOffice.CRM.Rows.SelectionRecordData.TargetTableNumber
+  - SuperOffice.CRM.Rows.SelectionRecordData.TextId
+  - SuperOffice.CRM.Rows.SelectionRecordData.Updated
+  - SuperOffice.CRM.Rows.SelectionRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.SelectionRecordData.UpdatedCount
+  - SuperOffice.CRM.Rows.SelectionRecordData.Visibility
+  langs:
+  - csharp
+  - vb
+  name: SelectionRecordData
+  nameWithType: SelectionRecordData
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the selection table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.SelectionRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.SelectionTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class SelectionRecordData
+    content.vb: Public Class SelectionRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.SelectionRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.SelectionRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SelectionRecordData)
+  - SuperOffice.CRM.Rows.SelectionRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.SelectionRecordData.SuperOffice.CRM.Rows.SelectionRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.SelectionRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.SelectionId
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.SelectionId
+  id: SelectionId
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: SelectionRecordData.SelectionId
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.SelectionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int SelectionId
+    return:
+      type: System.Int32
+    content.vb: Public SelectionId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.AssociateId
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: SelectionRecordData.AssociateId
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.AssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nAssociate who owns the selection \n"
+  syntax:
+    content: public int AssociateId
+    return:
+      type: System.Int32
+    content.vb: Public AssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.GroupIdx
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.GroupIdx
+  id: GroupIdx
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: GroupIdx
+  nameWithType: SelectionRecordData.GroupIdx
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.GroupIdx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOriginal primary user group of associate \n"
+  syntax:
+    content: public int GroupIdx
+    return:
+      type: System.Int32
+    content.vb: Public GroupIdx As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.Name
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.Name
+  id: Name
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SelectionRecordData.Name
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nName, freetext indexed \n"
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.TextId
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.TextId
+  id: TextId
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: TextId
+  nameWithType: SelectionRecordData.TextId
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.TextId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDescription text \n"
+  syntax:
+    content: public int TextId
+    return:
+      type: System.Int32
+    content.vb: Public TextId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.PostitTextId
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.PostitTextId
+  id: PostitTextId
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: PostitTextId
+  nameWithType: SelectionRecordData.PostitTextId
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.PostitTextId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPostit text \n"
+  syntax:
+    content: public int PostitTextId
+    return:
+      type: System.Int32
+    content.vb: Public PostitTextId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.Visibility
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.Visibility
+  id: Visibility
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: Visibility
+  nameWithType: SelectionRecordData.Visibility
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.Visibility
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nObsolete, but still maintained denormalization of visiblefor \n"
+  syntax:
+    content: public short Visibility
+    return:
+      type: System.Int16
+    content.vb: Public Visibility As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.Seltype
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.Seltype
+  id: Seltype
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: Seltype
+  nameWithType: SelectionRecordData.Seltype
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.Seltype
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n0 = static selection, 1 = dynamic selection, 2 = combined selection. See the &apos;SystemType&apos; field to disnguish between user selections, and Temporary or other system-managed kinds of selection \n"
+  syntax:
+    content: public short Seltype
+    return:
+      type: System.Int16
+    content.vb: Public Seltype As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.SearchCatId
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.SearchCatId
+  id: SearchCatId
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: SearchCatId
+  nameWithType: SelectionRecordData.SearchCatId
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.SearchCatId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSearch category (list) \n"
+  syntax:
+    content: public int SearchCatId
+    return:
+      type: System.Int32
+    content.vb: Public SearchCatId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.CompanyUnique
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.CompanyUnique
+  id: CompanyUnique
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: CompanyUnique
+  nameWithType: SelectionRecordData.CompanyUnique
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.CompanyUnique
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOnly one person from a company may be selected as a member \n"
+  syntax:
+    content: public short CompanyUnique
+    return:
+      type: System.Int16
+    content.vb: Public CompanyUnique As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.SoundEx
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.SoundEx
+  id: SoundEx
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: SoundEx
+  nameWithType: SelectionRecordData.SoundEx
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.SoundEx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhat the name sounds like, for duplicate detection \n"
+  syntax:
+    content: public string SoundEx
+    return:
+      type: System.String
+    content.vb: Public SoundEx As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.Source
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.Source
+  id: Source
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: SelectionRecordData.Source
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.Source
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nHow did we get this selection? For future integration needs \n"
+  syntax:
+    content: public short Source
+    return:
+      type: System.Int16
+    content.vb: Public Source As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.MemberCount
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.MemberCount
+  id: MemberCount
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: MemberCount
+  nameWithType: SelectionRecordData.MemberCount
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.MemberCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nHow many selectionmembers (for progress bar) \n"
+  syntax:
+    content: public uint MemberCount
+    return:
+      type: System.UInt32
+    content.vb: Public MemberCount As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: SelectionRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: SelectionRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: SelectionRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: SelectionRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: SelectionRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.IncludePerson
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.IncludePerson
+  id: IncludePerson
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: IncludePerson
+  nameWithType: SelectionRecordData.IncludePerson
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.IncludePerson
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n0 = Include first person, 1 = Include all persons, 2 = Include no persons \n"
+  syntax:
+    content: public int IncludePerson
+    return:
+      type: System.Int32
+    content.vb: Public IncludePerson As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.TargetTableNumber
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.TargetTableNumber
+  id: TargetTableNumber
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: TargetTableNumber
+  nameWithType: SelectionRecordData.TargetTableNumber
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.TargetTableNumber
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTable number that this is a selection of (contact, sale, appointment, ....) \n"
+  syntax:
+    content: public short TargetTableNumber
+    return:
+      type: System.Int16
+    content.vb: Public TargetTableNumber As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.Done
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.Done
+  id: Done
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: Done
+  nameWithType: SelectionRecordData.Done
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.Done
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDone (0=false, 1=true). Status implies changes in which fields are shown in GUI, as well as which fields can be updated \n"
+  syntax:
+    content: public short Done
+    return:
+      type: System.Int16
+    content.vb: Public Done As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.CombinationType
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.CombinationType
+  id: CombinationType
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: CombinationType
+  nameWithType: SelectionRecordData.CombinationType
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.CombinationType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nHow should the inputs of a combined selection be combined \n"
+  syntax:
+    content: public SelectionUnionType CombinationType
+    return:
+      type: SuperOffice.Data.SelectionUnionType
+    content.vb: Public CombinationType As SelectionUnionType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.LeftSelectionId
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.LeftSelectionId
+  id: LeftSelectionId
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: LeftSelectionId
+  nameWithType: SelectionRecordData.LeftSelectionId
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.LeftSelectionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nID of the left selection of a combined selection \n"
+  syntax:
+    content: public int LeftSelectionId
+    return:
+      type: System.Int32
+    content.vb: Public LeftSelectionId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.RightSelectionId
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.RightSelectionId
+  id: RightSelectionId
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: RightSelectionId
+  nameWithType: SelectionRecordData.RightSelectionId
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.RightSelectionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nID of the right selection of a combined selection \n"
+  syntax:
+    content: public int RightSelectionId
+    return:
+      type: System.Int32
+    content.vb: Public RightSelectionId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.SystemType
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.SystemType
+  id: SystemType
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: SystemType
+  nameWithType: SelectionRecordData.SystemType
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.SystemType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSelection system type - defines if this selection is one that is managed by the system, and what kind it is \n"
+  syntax:
+    content: public SelectionSystemType SystemType
+    return:
+      type: SuperOffice.Data.SelectionSystemType
+    content.vb: Public SystemType As SelectionSystemType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.ChartKey
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.ChartKey
+  id: ChartKey
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: ChartKey
+  nameWithType: SelectionRecordData.ChartKey
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.ChartKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nID/key of the last-used chart tile on this selection \n"
+  syntax:
+    content: public string ChartKey
+    return:
+      type: System.String
+    content.vb: Public ChartKey As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.LastLoaded
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.LastLoaded
+  id: LastLoaded
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: LastLoaded
+  nameWithType: SelectionRecordData.LastLoaded
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.LastLoaded
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe date/time this selection was last loaded (selectionentity fetched) \n"
+  syntax:
+    content: public DateTime LastLoaded
+    return:
+      type: System.DateTime
+    content.vb: Public LastLoaded As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.LastLoadedBy
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.LastLoadedBy
+  id: LastLoadedBy
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: LastLoadedBy
+  nameWithType: SelectionRecordData.LastLoadedBy
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.LastLoadedBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWho last loaded this selection \n"
+  syntax:
+    content: public int LastLoadedBy
+    return:
+      type: System.Int32
+    content.vb: Public LastLoadedBy As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.LastMembershipChange
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.LastMembershipChange
+  id: LastMembershipChange
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: LastMembershipChange
+  nameWithType: SelectionRecordData.LastMembershipChange
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.LastMembershipChange
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe date/time the membership the selection last changed. Dynamic: change of criteria; Static: add/remove members; Combined: change of algorithm \n"
+  syntax:
+    content: public DateTime LastMembershipChange
+    return:
+      type: System.DateTime
+    content.vb: Public LastMembershipChange As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.LastMembershipChangeBy
+  commentId: F:SuperOffice.CRM.Rows.SelectionRecordData.LastMembershipChangeBy
+  id: LastMembershipChangeBy
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: LastMembershipChangeBy
+  nameWithType: SelectionRecordData.LastMembershipChangeBy
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.LastMembershipChangeBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWho last changed the membership \n"
+  syntax:
+    content: public int LastMembershipChangeBy
+    return:
+      type: System.Int32
+    content.vb: Public LastMembershipChangeBy As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.SelectionRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.SelectionRecordData
+  langs:
+  - csharp
+  - vb
+  name: SelectionRecordData()
+  nameWithType: SelectionRecordData.SelectionRecordData()
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.SelectionRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public SelectionRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.SelectionRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SelectionRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<SelectionRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.SelectionRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SelectionRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.SelectionRecordData, To)()
+  name.vb: MapEnums(Of SelectionRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SelectionRecordData, To>
+    nameWithType: EnumUtil.MapEnums<SelectionRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.SelectionRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SelectionRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of SelectionRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.SelectionRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SelectionRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SelectionRecordData>(SelectionRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<SelectionRecordData>(SelectionRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.SelectionRecordData>(SuperOffice.CRM.Rows.SelectionRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SelectionRecordData)(SelectionRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.SelectionRecordData)(SuperOffice.CRM.Rows.SelectionRecordData)
+  name.vb: AssignByReflection(Of SelectionRecordData)(SelectionRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SelectionRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<SelectionRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.SelectionRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.SelectionRecordData
+    name: SelectionRecordData
+    nameWithType: SelectionRecordData
+    fullName: SuperOffice.CRM.Rows.SelectionRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SelectionRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SelectionRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.SelectionRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.SelectionRecordData
+    name: SelectionRecordData
+    nameWithType: SelectionRecordData
+    fullName: SuperOffice.CRM.Rows.SelectionRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SelectionRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<SelectionRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.SelectionRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SelectionRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.SelectionRecordData)()
+  name.vb: GraphCopy(Of SelectionRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SelectionRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<SelectionRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.SelectionRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SelectionRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of SelectionRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.SelectionRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.SuperOffice.CRM.Rows.SelectionRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.SelectionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SelectionRecordData)
+  parent: SuperOffice.CRM.Rows.SelectionRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.SelectionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SelectionRecordData)
+  name: ToInsert()
+  nameWithType: SelectionRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.SelectionRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.SelectionRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: SelectionRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SelectionRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.SelectionRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: SelectionRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SelectionRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SelectionRecordData, To>()
+  nameWithType: Converters.MapEnums<SelectionRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.SelectionRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of SelectionRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.SelectionRecordData, To)()
+  name.vb: MapEnums(Of SelectionRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SelectionRecordData, To>
+    nameWithType: Converters.MapEnums<SelectionRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.SelectionRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SelectionRecordData, To)
+    nameWithType: Converters.MapEnums(Of SelectionRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.SelectionRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SelectionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SelectionRecordData)
+  commentId: M:SuperOffice.CRM.Rows.SelectionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SelectionRecordData)
+  isExternal: true
+  name: ToInsert(SelectionRecordData)
+  nameWithType: SelectionRecordDataExtensions.ToInsert(SelectionRecordData)
+  fullName: SuperOffice.CRM.Rows.SelectionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SelectionRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.SelectionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SelectionRecordData)
+    name: ToInsert
+    nameWithType: SelectionRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SelectionRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.SelectionRecordData
+    name: SelectionRecordData
+    nameWithType: SelectionRecordData
+    fullName: SuperOffice.CRM.Rows.SelectionRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.SelectionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SelectionRecordData)
+    name: ToInsert
+    nameWithType: SelectionRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SelectionRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.SelectionRecordData
+    name: SelectionRecordData
+    nameWithType: SelectionRecordData
+    fullName: SuperOffice.CRM.Rows.SelectionRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SelectionRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.SelectionRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: SelectionRecordDataExtensions
+  nameWithType: SelectionRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.SelectionRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.Data.SelectionUnionType
+  commentId: T:SuperOffice.Data.SelectionUnionType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SelectionUnionType
+  nameWithType: SelectionUnionType
+  fullName: SuperOffice.Data.SelectionUnionType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.SelectionSystemType
+  commentId: T:SuperOffice.Data.SelectionSystemType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SelectionSystemType
+  nameWithType: SelectionSystemType
+  fullName: SuperOffice.Data.SelectionSystemType
+- uid: SuperOffice.CRM.Rows.SelectionRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.SelectionRecordData.#ctor
+  isExternal: true
+  name: SelectionRecordData
+  nameWithType: SelectionRecordData.SelectionRecordData
+  fullName: SuperOffice.CRM.Rows.SelectionRecordData.SelectionRecordData

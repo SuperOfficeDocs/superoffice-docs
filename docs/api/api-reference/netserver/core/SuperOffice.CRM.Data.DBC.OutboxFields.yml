@@ -1,0 +1,827 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.OutboxFields
+  commentId: T:SuperOffice.CRM.Data.DBC.OutboxFields
+  id: DBC.OutboxFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.OutboxFields.Created
+  - SuperOffice.CRM.Data.DBC.OutboxFields.FromEmail
+  - SuperOffice.CRM.Data.DBC.OutboxFields.FromEnvelope
+  - SuperOffice.CRM.Data.DBC.OutboxFields.LastError
+  - SuperOffice.CRM.Data.DBC.OutboxFields.MailSize
+  - SuperOffice.CRM.Data.DBC.OutboxFields.MessageId
+  - SuperOffice.CRM.Data.DBC.OutboxFields.NextRetry
+  - SuperOffice.CRM.Data.DBC.OutboxFields.OutboxId
+  - SuperOffice.CRM.Data.DBC.OutboxFields.Pid
+  - SuperOffice.CRM.Data.DBC.OutboxFields.Rcpt
+  - SuperOffice.CRM.Data.DBC.OutboxFields.Retries
+  - SuperOffice.CRM.Data.DBC.OutboxFields.Rfc822Content
+  - SuperOffice.CRM.Data.DBC.OutboxFields.Status
+  - SuperOffice.CRM.Data.DBC.OutboxFields.Subject
+  - SuperOffice.CRM.Data.DBC.OutboxFields.TicketId
+  - SuperOffice.CRM.Data.DBC.OutboxFields.Type
+  langs:
+  - csharp
+  - vb
+  name: DBC.OutboxFields
+  nameWithType: DBC.OutboxFields
+  fullName: SuperOffice.CRM.Data.DBC.OutboxFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for Outbox, Outgoing emails with sending status and other info\n"
+  syntax:
+    content: public static class OutboxFields
+    content.vb: Public Module OutboxFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.OutboxFields.OutboxId
+  commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.OutboxId
+  id: OutboxId
+  parent: SuperOffice.CRM.Data.DBC.OutboxFields
+  langs:
+  - csharp
+  - vb
+  name: OutboxId
+  nameWithType: DBC.OutboxFields.OutboxId
+  fullName: SuperOffice.CRM.Data.DBC.OutboxFields.OutboxId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nOutbox.OutboxId: Primary key\n"
+  syntax:
+    content: public const string OutboxId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const OutboxId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.OutboxFields.TicketId
+  commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.TicketId
+  id: TicketId
+  parent: SuperOffice.CRM.Data.DBC.OutboxFields
+  langs:
+  - csharp
+  - vb
+  name: TicketId
+  nameWithType: DBC.OutboxFields.TicketId
+  fullName: SuperOffice.CRM.Data.DBC.OutboxFields.TicketId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nOutbox.TicketId: The ticket.id this reference is connected to.\n"
+  syntax:
+    content: public const string TicketId = "ticket_id"
+    return:
+      type: System.String
+    content.vb: Public Const TicketId As String = "ticket_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.OutboxFields.MessageId
+  commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.MessageId
+  id: MessageId
+  parent: SuperOffice.CRM.Data.DBC.OutboxFields
+  langs:
+  - csharp
+  - vb
+  name: MessageId
+  nameWithType: DBC.OutboxFields.MessageId
+  fullName: SuperOffice.CRM.Data.DBC.OutboxFields.MessageId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nOutbox.MessageId: The message.id this reference is connected to.\n"
+  syntax:
+    content: public const string MessageId = "message_id"
+    return:
+      type: System.String
+    content.vb: Public Const MessageId As String = "message_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.OutboxFields.Subject
+  commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.Subject
+  id: Subject
+  parent: SuperOffice.CRM.Data.DBC.OutboxFields
+  langs:
+  - csharp
+  - vb
+  name: Subject
+  nameWithType: DBC.OutboxFields.Subject
+  fullName: SuperOffice.CRM.Data.DBC.OutboxFields.Subject
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nOutbox.Subject: Subject of the mail\n"
+  syntax:
+    content: public const string Subject = "subject"
+    return:
+      type: System.String
+    content.vb: Public Const Subject As String = "subject"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.OutboxFields.FromEmail
+  commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.FromEmail
+  id: FromEmail
+  parent: SuperOffice.CRM.Data.DBC.OutboxFields
+  langs:
+  - csharp
+  - vb
+  name: FromEmail
+  nameWithType: DBC.OutboxFields.FromEmail
+  fullName: SuperOffice.CRM.Data.DBC.OutboxFields.FromEmail
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nOutbox.FromEmail: Mail address of the sender\n"
+  syntax:
+    content: public const string FromEmail = "from_email"
+    return:
+      type: System.String
+    content.vb: Public Const FromEmail As String = "from_email"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.OutboxFields.FromEnvelope
+  commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.FromEnvelope
+  id: FromEnvelope
+  parent: SuperOffice.CRM.Data.DBC.OutboxFields
+  langs:
+  - csharp
+  - vb
+  name: FromEnvelope
+  nameWithType: DBC.OutboxFields.FromEnvelope
+  fullName: SuperOffice.CRM.Data.DBC.OutboxFields.FromEnvelope
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nOutbox.FromEnvelope: Envelope (smtp) Mail address of the sender\n"
+  syntax:
+    content: public const string FromEnvelope = "from_envelope"
+    return:
+      type: System.String
+    content.vb: Public Const FromEnvelope As String = "from_envelope"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.OutboxFields.Rcpt
+  commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.Rcpt
+  id: Rcpt
+  parent: SuperOffice.CRM.Data.DBC.OutboxFields
+  langs:
+  - csharp
+  - vb
+  name: Rcpt
+  nameWithType: DBC.OutboxFields.Rcpt
+  fullName: SuperOffice.CRM.Data.DBC.OutboxFields.Rcpt
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nOutbox.Rcpt: A list of recipience\n"
+  syntax:
+    content: public const string Rcpt = "rcpt"
+    return:
+      type: System.String
+    content.vb: Public Const Rcpt As String = "rcpt"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.OutboxFields.MailSize
+  commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.MailSize
+  id: MailSize
+  parent: SuperOffice.CRM.Data.DBC.OutboxFields
+  langs:
+  - csharp
+  - vb
+  name: MailSize
+  nameWithType: DBC.OutboxFields.MailSize
+  fullName: SuperOffice.CRM.Data.DBC.OutboxFields.MailSize
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nOutbox.MailSize: The size of the mail in bytes\n"
+  syntax:
+    content: public const string MailSize = "mail_size"
+    return:
+      type: System.String
+    content.vb: Public Const MailSize As String = "mail_size"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.OutboxFields.Created
+  commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.Created
+  id: Created
+  parent: SuperOffice.CRM.Data.DBC.OutboxFields
+  langs:
+  - csharp
+  - vb
+  name: Created
+  nameWithType: DBC.OutboxFields.Created
+  fullName: SuperOffice.CRM.Data.DBC.OutboxFields.Created
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nOutbox.Created: When the mail was created\n"
+  syntax:
+    content: public const string Created = "created"
+    return:
+      type: System.String
+    content.vb: Public Const Created As String = "created"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.OutboxFields.Status
+  commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.Status
+  id: Status
+  parent: SuperOffice.CRM.Data.DBC.OutboxFields
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: DBC.OutboxFields.Status
+  fullName: SuperOffice.CRM.Data.DBC.OutboxFields.Status
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nOutbox.Status: Status enum\n"
+  syntax:
+    content: public const string Status = "status"
+    return:
+      type: System.String
+    content.vb: Public Const Status As String = "status"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.OutboxFields.Retries
+  commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.Retries
+  id: Retries
+  parent: SuperOffice.CRM.Data.DBC.OutboxFields
+  langs:
+  - csharp
+  - vb
+  name: Retries
+  nameWithType: DBC.OutboxFields.Retries
+  fullName: SuperOffice.CRM.Data.DBC.OutboxFields.Retries
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nOutbox.Retries: The number of times we have tried to send this mail\n"
+  syntax:
+    content: public const string Retries = "retries"
+    return:
+      type: System.String
+    content.vb: Public Const Retries As String = "retries"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.OutboxFields.NextRetry
+  commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.NextRetry
+  id: NextRetry
+  parent: SuperOffice.CRM.Data.DBC.OutboxFields
+  langs:
+  - csharp
+  - vb
+  name: NextRetry
+  nameWithType: DBC.OutboxFields.NextRetry
+  fullName: SuperOffice.CRM.Data.DBC.OutboxFields.NextRetry
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nOutbox.NextRetry: When is the next time we should try again?\n"
+  syntax:
+    content: public const string NextRetry = "next_retry"
+    return:
+      type: System.String
+    content.vb: Public Const NextRetry As String = "next_retry"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.OutboxFields.Pid
+  commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.Pid
+  id: Pid
+  parent: SuperOffice.CRM.Data.DBC.OutboxFields
+  langs:
+  - csharp
+  - vb
+  name: Pid
+  nameWithType: DBC.OutboxFields.Pid
+  fullName: SuperOffice.CRM.Data.DBC.OutboxFields.Pid
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nOutbox.Pid: The process id owning this message\n"
+  syntax:
+    content: public const string Pid = "pid"
+    return:
+      type: System.String
+    content.vb: Public Const Pid As String = "pid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.OutboxFields.LastError
+  commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.LastError
+  id: LastError
+  parent: SuperOffice.CRM.Data.DBC.OutboxFields
+  langs:
+  - csharp
+  - vb
+  name: LastError
+  nameWithType: DBC.OutboxFields.LastError
+  fullName: SuperOffice.CRM.Data.DBC.OutboxFields.LastError
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nOutbox.LastError: The last error reported when sending this message\n"
+  syntax:
+    content: public const string LastError = "last_error"
+    return:
+      type: System.String
+    content.vb: Public Const LastError As String = "last_error"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.OutboxFields.Type
+  commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.Type
+  id: Type
+  parent: SuperOffice.CRM.Data.DBC.OutboxFields
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: DBC.OutboxFields.Type
+  fullName: SuperOffice.CRM.Data.DBC.OutboxFields.Type
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nOutbox.Type: Indicates if this is a SMS to be sent via WebServices or a normal email. 0 = email, 1 = sms\n"
+  syntax:
+    content: public const string Type = "type"
+    return:
+      type: System.String
+    content.vb: Public Const Type As String = "type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.OutboxFields.Rfc822Content
+  commentId: F:SuperOffice.CRM.Data.DBC.OutboxFields.Rfc822Content
+  id: Rfc822Content
+  parent: SuperOffice.CRM.Data.DBC.OutboxFields
+  langs:
+  - csharp
+  - vb
+  name: Rfc822Content
+  nameWithType: DBC.OutboxFields.Rfc822Content
+  fullName: SuperOffice.CRM.Data.DBC.OutboxFields.Rfc822Content
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nOutbox.Rfc822Content: The content of the outgoing email as a string. Alternative to using outbox file\n"
+  syntax:
+    content: public const string Rfc822Content = "rfc822_content"
+    return:
+      type: System.String
+    content.vb: Public Const Rfc822Content As String = "rfc822_content"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

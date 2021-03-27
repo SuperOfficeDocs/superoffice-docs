@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Selection_GetParentCombinedSelectionsRequest
+  commentId: T:SuperOffice.WebApi.Data.Selection_GetParentCombinedSelectionsRequest
+  id: Selection_GetParentCombinedSelectionsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Selection_GetParentCombinedSelectionsRequest.#ctor
+  - SuperOffice.WebApi.Data.Selection_GetParentCombinedSelectionsRequest.SelectionId
+  langs:
+  - csharp
+  - vb
+  name: Selection_GetParentCombinedSelectionsRequest
+  nameWithType: Selection_GetParentCombinedSelectionsRequest
+  fullName: SuperOffice.WebApi.Data.Selection_GetParentCombinedSelectionsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Selection_GetParentCombinedSelectionsRequest : Object'
+    content.vb: >-
+      Public Class Selection_GetParentCombinedSelectionsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Selection_GetParentCombinedSelectionsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Selection_GetParentCombinedSelectionsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Selection_GetParentCombinedSelectionsRequest
+  langs:
+  - csharp
+  - vb
+  name: Selection_GetParentCombinedSelectionsRequest()
+  nameWithType: Selection_GetParentCombinedSelectionsRequest.Selection_GetParentCombinedSelectionsRequest()
+  fullName: SuperOffice.WebApi.Data.Selection_GetParentCombinedSelectionsRequest.Selection_GetParentCombinedSelectionsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Selection_GetParentCombinedSelectionsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Selection_GetParentCombinedSelectionsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_GetParentCombinedSelectionsRequest.SelectionId
+  commentId: P:SuperOffice.WebApi.Data.Selection_GetParentCombinedSelectionsRequest.SelectionId
+  id: SelectionId
+  parent: SuperOffice.WebApi.Data.Selection_GetParentCombinedSelectionsRequest
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: Selection_GetParentCombinedSelectionsRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Selection_GetParentCombinedSelectionsRequest.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SelectionId As Integer
+  overload: SuperOffice.WebApi.Data.Selection_GetParentCombinedSelectionsRequest.SelectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Selection_GetParentCombinedSelectionsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_GetParentCombinedSelectionsRequest.#ctor
+  isExternal: true
+  name: Selection_GetParentCombinedSelectionsRequest
+  nameWithType: Selection_GetParentCombinedSelectionsRequest.Selection_GetParentCombinedSelectionsRequest
+  fullName: SuperOffice.WebApi.Data.Selection_GetParentCombinedSelectionsRequest.Selection_GetParentCombinedSelectionsRequest
+- uid: SuperOffice.WebApi.Data.Selection_GetParentCombinedSelectionsRequest.SelectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_GetParentCombinedSelectionsRequest.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: Selection_GetParentCombinedSelectionsRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Selection_GetParentCombinedSelectionsRequest.SelectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

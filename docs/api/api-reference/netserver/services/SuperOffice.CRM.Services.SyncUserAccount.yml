@@ -1,0 +1,311 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.SyncUserAccount
+  commentId: T:SuperOffice.CRM.Services.SyncUserAccount
+  id: SyncUserAccount
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.SyncUserAccount.#ctor
+  - SuperOffice.CRM.Services.SyncUserAccount.AccountId
+  - SuperOffice.CRM.Services.SyncUserAccount.AssociateId
+  - SuperOffice.CRM.Services.SyncUserAccount.AssociateName
+  - SuperOffice.CRM.Services.SyncUserAccount.ToString
+  - SuperOffice.CRM.Services.SyncUserAccount.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: SyncUserAccount
+  nameWithType: SyncUserAccount
+  fullName: SuperOffice.CRM.Services.SyncUserAccount
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDetails for syncing email user accounts\n<p></p>\nCarrier object for SyncUserAccount.\nServices for the SyncUserAccount Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IEMailAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class SyncUserAccount : Carrier'
+    content.vb: >-
+      Public Class SyncUserAccount
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.EMailAgent
+    commentId: T:SuperOffice.CRM.Services.EMailAgent
+  - linkId: SuperOffice.CRM.Services.IEMailAgent
+    commentId: T:SuperOffice.CRM.Services.IEMailAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.SyncUserAccount.#ctor
+  commentId: M:SuperOffice.CRM.Services.SyncUserAccount.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.SyncUserAccount
+  langs:
+  - csharp
+  - vb
+  name: SyncUserAccount()
+  nameWithType: SyncUserAccount.SyncUserAccount()
+  fullName: SuperOffice.CRM.Services.SyncUserAccount.SyncUserAccount()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public SyncUserAccount()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.SyncUserAccount.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SyncUserAccount.ToString
+  commentId: M:SuperOffice.CRM.Services.SyncUserAccount.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.SyncUserAccount
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SyncUserAccount.ToString()
+  fullName: SuperOffice.CRM.Services.SyncUserAccount.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.SyncUserAccount.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.SyncUserAccount.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.SyncUserAccount.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.SyncUserAccount
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: SyncUserAccount.ToString(String)
+  fullName: SuperOffice.CRM.Services.SyncUserAccount.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.SyncUserAccount.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SyncUserAccount.AccountId
+  commentId: P:SuperOffice.CRM.Services.SyncUserAccount.AccountId
+  id: AccountId
+  parent: SuperOffice.CRM.Services.SyncUserAccount
+  langs:
+  - csharp
+  - vb
+  name: AccountId
+  nameWithType: SyncUserAccount.AccountId
+  fullName: SuperOffice.CRM.Services.SyncUserAccount.AccountId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe account primary key \n"
+  syntax:
+    content: public virtual int AccountId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AccountId As Integer
+  overload: SuperOffice.CRM.Services.SyncUserAccount.AccountId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SyncUserAccount.AssociateName
+  commentId: P:SuperOffice.CRM.Services.SyncUserAccount.AssociateName
+  id: AssociateName
+  parent: SuperOffice.CRM.Services.SyncUserAccount
+  langs:
+  - csharp
+  - vb
+  name: AssociateName
+  nameWithType: SyncUserAccount.AssociateName
+  fullName: SuperOffice.CRM.Services.SyncUserAccount.AssociateName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe username of the associate owning the account \n"
+  syntax:
+    content: public virtual string AssociateName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property AssociateName As String
+  overload: SuperOffice.CRM.Services.SyncUserAccount.AssociateName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SyncUserAccount.AssociateId
+  commentId: P:SuperOffice.CRM.Services.SyncUserAccount.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Services.SyncUserAccount
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: SyncUserAccount.AssociateId
+  fullName: SuperOffice.CRM.Services.SyncUserAccount.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nId of the associate who owns this account \n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.CRM.Services.SyncUserAccount.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.EMailAgent
+  commentId: T:SuperOffice.CRM.Services.EMailAgent
+  isExternal: true
+  name: EMailAgent
+  nameWithType: EMailAgent
+  fullName: SuperOffice.CRM.Services.EMailAgent
+- uid: SuperOffice.CRM.Services.IEMailAgent
+  commentId: T:SuperOffice.CRM.Services.IEMailAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IEMailAgent
+  nameWithType: IEMailAgent
+  fullName: SuperOffice.CRM.Services.IEMailAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.SyncUserAccount.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.SyncUserAccount.#ctor
+  isExternal: true
+  name: SyncUserAccount
+  nameWithType: SyncUserAccount.SyncUserAccount
+  fullName: SuperOffice.CRM.Services.SyncUserAccount.SyncUserAccount
+- uid: SuperOffice.CRM.Services.SyncUserAccount.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.SyncUserAccount.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: SyncUserAccount.ToString
+  fullName: SuperOffice.CRM.Services.SyncUserAccount.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.SyncUserAccount.AccountId*
+  commentId: Overload:SuperOffice.CRM.Services.SyncUserAccount.AccountId
+  isExternal: true
+  name: AccountId
+  nameWithType: SyncUserAccount.AccountId
+  fullName: SuperOffice.CRM.Services.SyncUserAccount.AccountId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.SyncUserAccount.AssociateName*
+  commentId: Overload:SuperOffice.CRM.Services.SyncUserAccount.AssociateName
+  isExternal: true
+  name: AssociateName
+  nameWithType: SyncUserAccount.AssociateName
+  fullName: SuperOffice.CRM.Services.SyncUserAccount.AssociateName
+- uid: SuperOffice.CRM.Services.SyncUserAccount.AssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.SyncUserAccount.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: SyncUserAccount.AssociateId
+  fullName: SuperOffice.CRM.Services.SyncUserAccount.AssociateId

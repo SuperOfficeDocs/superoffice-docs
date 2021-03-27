@@ -1,0 +1,177 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Controls.SoWebPartManager
+  commentId: T:SuperOffice.Web.UI.Controls.SoWebPartManager
+  id: SoWebPartManager
+  parent: SuperOffice.Web.UI.Controls
+  children:
+  - SuperOffice.Web.UI.Controls.SoWebPartManager.#ctor
+  - SuperOffice.Web.UI.Controls.SoWebPartManager.CreatePersonalization
+  - SuperOffice.Web.UI.Controls.SoWebPartManager.CreateWebPart(System.Web.UI.Control)
+  langs:
+  - csharp
+  - vb
+  name: SoWebPartManager
+  nameWithType: SoWebPartManager
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartManager
+  type: Class
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: 'public class SoWebPartManager : WebPartManager'
+    content.vb: >-
+      Public Class SoWebPartManager
+          Inherits WebPartManager
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.UI.Controls.SoWebPartManager.#ctor
+  commentId: M:SuperOffice.Web.UI.Controls.SoWebPartManager.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.UI.Controls.SoWebPartManager
+  langs:
+  - csharp
+  - vb
+  name: SoWebPartManager()
+  nameWithType: SoWebPartManager.SoWebPartManager()
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartManager.SoWebPartManager()
+  type: Constructor
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public SoWebPartManager()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.UI.Controls.SoWebPartManager.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoWebPartManager.CreatePersonalization
+  commentId: M:SuperOffice.Web.UI.Controls.SoWebPartManager.CreatePersonalization
+  id: CreatePersonalization
+  parent: SuperOffice.Web.UI.Controls.SoWebPartManager
+  langs:
+  - csharp
+  - vb
+  name: CreatePersonalization()
+  nameWithType: SoWebPartManager.CreatePersonalization()
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartManager.CreatePersonalization()
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected override WebPartPersonalization CreatePersonalization()
+    return:
+      type: System.Web.UI.WebControls.WebParts.WebPartPersonalization
+    content.vb: Protected Overrides Function CreatePersonalization As WebPartPersonalization
+  overload: SuperOffice.Web.UI.Controls.SoWebPartManager.CreatePersonalization*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.Web.UI.Controls.SoWebPartManager.CreateWebPart(System.Web.UI.Control)
+  commentId: M:SuperOffice.Web.UI.Controls.SoWebPartManager.CreateWebPart(System.Web.UI.Control)
+  id: CreateWebPart(System.Web.UI.Control)
+  parent: SuperOffice.Web.UI.Controls.SoWebPartManager
+  langs:
+  - csharp
+  - vb
+  name: CreateWebPart(Control)
+  nameWithType: SoWebPartManager.CreateWebPart(Control)
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartManager.CreateWebPart(System.Web.UI.Control)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public override GenericWebPart CreateWebPart(Control control)
+    parameters:
+    - id: control
+      type: System.Web.UI.Control
+    return:
+      type: System.Web.UI.WebControls.WebParts.GenericWebPart
+    content.vb: Public Overrides Function CreateWebPart(control As Control) As GenericWebPart
+  overload: SuperOffice.Web.UI.Controls.SoWebPartManager.CreateWebPart*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: SuperOffice.Web.UI.Controls
+  commentId: N:SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.Web.UI.Controls
+  nameWithType: SuperOffice.Web.UI.Controls
+  fullName: SuperOffice.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.UI.Controls.SoWebPartManager.#ctor*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoWebPartManager.#ctor
+  isExternal: true
+  name: SoWebPartManager
+  nameWithType: SoWebPartManager.SoWebPartManager
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartManager.SoWebPartManager
+- uid: SuperOffice.Web.UI.Controls.SoWebPartManager.CreatePersonalization*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoWebPartManager.CreatePersonalization
+  isExternal: true
+  name: CreatePersonalization
+  nameWithType: SoWebPartManager.CreatePersonalization
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartManager.CreatePersonalization
+- uid: System.Web.UI.WebControls.WebParts.WebPartPersonalization
+  commentId: '!:System.Web.UI.WebControls.WebParts.WebPartPersonalization'
+  isExternal: true
+  name: WebPartPersonalization
+  nameWithType: WebPartPersonalization
+  fullName: System.Web.UI.WebControls.WebParts.WebPartPersonalization
+- uid: SuperOffice.Web.UI.Controls.SoWebPartManager.CreateWebPart*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoWebPartManager.CreateWebPart
+  isExternal: true
+  name: CreateWebPart
+  nameWithType: SoWebPartManager.CreateWebPart
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartManager.CreateWebPart
+- uid: System.Web.UI.Control
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: System.Web.UI.WebControls.WebParts.GenericWebPart
+  commentId: '!:System.Web.UI.WebControls.WebParts.GenericWebPart'
+  isExternal: true
+  name: GenericWebPart
+  nameWithType: GenericWebPart
+  fullName: System.Web.UI.WebControls.WebParts.GenericWebPart

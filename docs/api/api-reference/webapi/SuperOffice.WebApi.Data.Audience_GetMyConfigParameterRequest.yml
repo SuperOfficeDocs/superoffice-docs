@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Audience_GetMyConfigParameterRequest
+  commentId: T:SuperOffice.WebApi.Data.Audience_GetMyConfigParameterRequest
+  id: Audience_GetMyConfigParameterRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Audience_GetMyConfigParameterRequest.#ctor
+  - SuperOffice.WebApi.Data.Audience_GetMyConfigParameterRequest.ParameterName
+  langs:
+  - csharp
+  - vb
+  name: Audience_GetMyConfigParameterRequest
+  nameWithType: Audience_GetMyConfigParameterRequest
+  fullName: SuperOffice.WebApi.Data.Audience_GetMyConfigParameterRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Audience_GetMyConfigParameterRequest : Object'
+    content.vb: >-
+      Public Class Audience_GetMyConfigParameterRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Audience_GetMyConfigParameterRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Audience_GetMyConfigParameterRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Audience_GetMyConfigParameterRequest
+  langs:
+  - csharp
+  - vb
+  name: Audience_GetMyConfigParameterRequest()
+  nameWithType: Audience_GetMyConfigParameterRequest.Audience_GetMyConfigParameterRequest()
+  fullName: SuperOffice.WebApi.Data.Audience_GetMyConfigParameterRequest.Audience_GetMyConfigParameterRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Audience_GetMyConfigParameterRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Audience_GetMyConfigParameterRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Audience_GetMyConfigParameterRequest.ParameterName
+  commentId: P:SuperOffice.WebApi.Data.Audience_GetMyConfigParameterRequest.ParameterName
+  id: ParameterName
+  parent: SuperOffice.WebApi.Data.Audience_GetMyConfigParameterRequest
+  langs:
+  - csharp
+  - vb
+  name: ParameterName
+  nameWithType: Audience_GetMyConfigParameterRequest.ParameterName
+  fullName: SuperOffice.WebApi.Data.Audience_GetMyConfigParameterRequest.ParameterName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ParameterName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ParameterName As String
+  overload: SuperOffice.WebApi.Data.Audience_GetMyConfigParameterRequest.ParameterName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Audience_GetMyConfigParameterRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Audience_GetMyConfigParameterRequest.#ctor
+  isExternal: true
+  name: Audience_GetMyConfigParameterRequest
+  nameWithType: Audience_GetMyConfigParameterRequest.Audience_GetMyConfigParameterRequest
+  fullName: SuperOffice.WebApi.Data.Audience_GetMyConfigParameterRequest.Audience_GetMyConfigParameterRequest
+- uid: SuperOffice.WebApi.Data.Audience_GetMyConfigParameterRequest.ParameterName*
+  commentId: Overload:SuperOffice.WebApi.Data.Audience_GetMyConfigParameterRequest.ParameterName
+  isExternal: true
+  name: ParameterName
+  nameWithType: Audience_GetMyConfigParameterRequest.ParameterName
+  fullName: SuperOffice.WebApi.Data.Audience_GetMyConfigParameterRequest.ParameterName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

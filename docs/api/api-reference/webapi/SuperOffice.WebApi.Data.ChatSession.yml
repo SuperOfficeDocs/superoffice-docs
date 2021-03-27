@@ -1,0 +1,168 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ChatSession
+  commentId: T:SuperOffice.WebApi.Data.ChatSession
+  id: ChatSession
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ChatSession.#ctor
+  - SuperOffice.WebApi.Data.ChatSession.ChatSessionId
+  langs:
+  - csharp
+  - vb
+  name: ChatSession
+  nameWithType: ChatSession
+  fullName: SuperOffice.WebApi.Data.ChatSession
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ChatSession.\nChat sessions belong to a chat topic, and contain messages to/from users    \n"
+  syntax:
+    content: 'public class ChatSession : Carrier'
+    content.vb: >-
+      Public Class ChatSession
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.CustomerServiceAgent
+    commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ChatSession.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ChatSession.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ChatSession
+  langs:
+  - csharp
+  - vb
+  name: ChatSession()
+  nameWithType: ChatSession.ChatSession()
+  fullName: SuperOffice.WebApi.Data.ChatSession.ChatSession()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ChatSession()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ChatSession.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChatSession.ChatSessionId
+  commentId: P:SuperOffice.WebApi.Data.ChatSession.ChatSessionId
+  id: ChatSessionId
+  parent: SuperOffice.WebApi.Data.ChatSession
+  langs:
+  - csharp
+  - vb
+  name: ChatSessionId
+  nameWithType: ChatSession.ChatSessionId
+  fullName: SuperOffice.WebApi.Data.ChatSession.ChatSessionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe primary key (auto-incremented)\n"
+  syntax:
+    content: public virtual int ChatSessionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ChatSessionId As Integer
+  overload: SuperOffice.WebApi.Data.ChatSession.ChatSessionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  isExternal: true
+  name: CustomerServiceAgent
+  nameWithType: CustomerServiceAgent
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ChatSession.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatSession.#ctor
+  isExternal: true
+  name: ChatSession
+  nameWithType: ChatSession.ChatSession
+  fullName: SuperOffice.WebApi.Data.ChatSession.ChatSession
+- uid: SuperOffice.WebApi.Data.ChatSession.ChatSessionId*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatSession.ChatSessionId
+  isExternal: true
+  name: ChatSessionId
+  nameWithType: ChatSession.ChatSessionId
+  fullName: SuperOffice.WebApi.Data.ChatSession.ChatSessionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

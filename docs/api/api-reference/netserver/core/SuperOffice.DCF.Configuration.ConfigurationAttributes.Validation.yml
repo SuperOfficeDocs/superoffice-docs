@@ -1,0 +1,767 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation
+  commentId: T:SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation
+  id: ConfigurationAttributes.Validation
+  parent: SuperOffice.DCF.Configuration
+  children:
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Datatype
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Date
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Datevalidation
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Double
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Int
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Integer
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.MandatoryValidation
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Maxvalue
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Minvalue
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Rangevalidation
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.String
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Type
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.ValidationAttribute
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Validations
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationAttributes.Validation
+  nameWithType: ConfigurationAttributes.Validation
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public static class Validation
+    content.vb: Public Module Validation
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Validations
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Validations
+  id: Validations
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation
+  langs:
+  - csharp
+  - vb
+  name: Validations
+  nameWithType: ConfigurationAttributes.Validation.Validations
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Validations
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Validations = "validations"
+    return:
+      type: System.String
+    content.vb: Public Const Validations As String = "validations"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.ValidationAttribute
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.ValidationAttribute
+  id: ValidationAttribute
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation
+  langs:
+  - csharp
+  - vb
+  name: ValidationAttribute
+  nameWithType: ConfigurationAttributes.Validation.ValidationAttribute
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.ValidationAttribute
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string ValidationAttribute = "validation"
+    return:
+      type: System.String
+    content.vb: Public Const ValidationAttribute As String = "validation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Type
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Type
+  id: Type
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: ConfigurationAttributes.Validation.Type
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Type
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Type = "type"
+    return:
+      type: System.String
+    content.vb: Public Const Type As String = "type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Datevalidation
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Datevalidation
+  id: Datevalidation
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation
+  langs:
+  - csharp
+  - vb
+  name: Datevalidation
+  nameWithType: ConfigurationAttributes.Validation.Datevalidation
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Datevalidation
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Datevalidation = "DateValidation"
+    return:
+      type: System.String
+    content.vb: Public Const Datevalidation As String = "DateValidation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.MandatoryValidation
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.MandatoryValidation
+  id: MandatoryValidation
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation
+  langs:
+  - csharp
+  - vb
+  name: MandatoryValidation
+  nameWithType: ConfigurationAttributes.Validation.MandatoryValidation
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.MandatoryValidation
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string MandatoryValidation = "MandatoryValidation"
+    return:
+      type: System.String
+    content.vb: Public Const MandatoryValidation As String = "MandatoryValidation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Rangevalidation
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Rangevalidation
+  id: Rangevalidation
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation
+  langs:
+  - csharp
+  - vb
+  name: Rangevalidation
+  nameWithType: ConfigurationAttributes.Validation.Rangevalidation
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Rangevalidation
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Rangevalidation = "RangeValidation"
+    return:
+      type: System.String
+    content.vb: Public Const Rangevalidation As String = "RangeValidation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Minvalue
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Minvalue
+  id: Minvalue
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation
+  langs:
+  - csharp
+  - vb
+  name: Minvalue
+  nameWithType: ConfigurationAttributes.Validation.Minvalue
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Minvalue
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Minvalue = "min-value"
+    return:
+      type: System.String
+    content.vb: Public Const Minvalue As String = "min-value"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Maxvalue
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Maxvalue
+  id: Maxvalue
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation
+  langs:
+  - csharp
+  - vb
+  name: Maxvalue
+  nameWithType: ConfigurationAttributes.Validation.Maxvalue
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Maxvalue
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Maxvalue = "max-value"
+    return:
+      type: System.String
+    content.vb: Public Const Maxvalue As String = "max-value"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Datatype
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Datatype
+  id: Datatype
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation
+  langs:
+  - csharp
+  - vb
+  name: Datatype
+  nameWithType: ConfigurationAttributes.Validation.Datatype
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Datatype
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Datatype = "datatype"
+    return:
+      type: System.String
+    content.vb: Public Const Datatype As String = "datatype"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Integer
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Integer
+  id: Integer
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation
+  langs:
+  - csharp
+  - vb
+  name: Integer
+  nameWithType: ConfigurationAttributes.Validation.Integer
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Integer
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Integer = "integer"
+    return:
+      type: System.String
+    content.vb: Public Const Integer As String = "integer"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Int
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Int
+  id: Int
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation
+  langs:
+  - csharp
+  - vb
+  name: Int
+  nameWithType: ConfigurationAttributes.Validation.Int
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Int
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Int = "int"
+    return:
+      type: System.String
+    content.vb: Public Const Int As String = "int"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Double
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Double
+  id: Double
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation
+  langs:
+  - csharp
+  - vb
+  name: Double
+  nameWithType: ConfigurationAttributes.Validation.Double
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Double
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Double = "double"
+    return:
+      type: System.String
+    content.vb: Public Const Double As String = "double"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Date
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Date
+  id: Date
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: ConfigurationAttributes.Validation.Date
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.Date
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Date = "date"
+    return:
+      type: System.String
+    content.vb: Public Const Date As String = "date"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.String
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.String
+  id: String
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation
+  langs:
+  - csharp
+  - vb
+  name: String
+  nameWithType: ConfigurationAttributes.Validation.String
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Validation.String
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string String = "string"
+    return:
+      type: System.String
+    content.vb: Public Const String As String = "string"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.DCF.Configuration
+  commentId: N:SuperOffice.DCF.Configuration
+  isExternal: true
+  name: SuperOffice.DCF.Configuration
+  nameWithType: SuperOffice.DCF.Configuration
+  fullName: SuperOffice.DCF.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

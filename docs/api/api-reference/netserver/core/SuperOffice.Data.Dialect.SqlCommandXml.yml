@@ -1,0 +1,832 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Dialect.SqlCommandXml
+  commentId: T:SuperOffice.Data.Dialect.SqlCommandXml
+  id: SqlCommandXml
+  parent: SuperOffice.Data.Dialect
+  children:
+  - SuperOffice.Data.Dialect.SqlCommandXml.#ctor
+  - SuperOffice.Data.Dialect.SqlCommandXml.DeSerialize(System.Xml.XmlDocument)
+  - SuperOffice.Data.Dialect.SqlCommandXml.Serialize(SuperOffice.Data.SQL.SqlCommand)
+  langs:
+  - csharp
+  - vb
+  name: SqlCommandXml
+  nameWithType: SqlCommandXml
+  fullName: SuperOffice.Data.Dialect.SqlCommandXml
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nSerializer/deserializer for <xref href=\"SuperOffice.Data.SQL.SqlCommand\" data-throw-if-not-resolved=\"false\"></xref> objects, to/from XML. This class is currently a prototype\nthat will handle most SELECT queries; however, group by as well as mathematical and aggregate functions are not yet\nhandled. Other query kinds, such as INSERT or UNION, are not yet handled at all, though it is fairly obivous how that should be\nimplemented :-).\n"
+  remarks: "\nThe class uses reflection on its members to map serialization methods to elements in the SqlCommand. Mappings\nare cached so the overhead is minimal. In the code, ToXml and Parse methods occur in complementary pairs,\nand mirror each other.\n"
+  example:
+  - "\nSerialization: \n<pre><code>Select myCommand = S.NewSelect();\n// add return fields, restrictions, etc\nXmlDocument mySerialized = new SqlCommandXml().Serialize( myCommand );</code></pre>\nDeserialization (from a file known to contain a Select, for illustration purposes):\n<pre><code>XmlDocument mySerialized = new XmlDocument();\nmySerialized.LoadXml( File.ReadAllText( path ) );\nSelect mySelect = new SqlCommandXml().DeSerialize( mySerialized ) as Select;\n// now you can execute it if you want...\nusing( QueryExecutionHelper qeh = new QueryExecutionHelper( mySelect ) )\n{\n	while( qeh.Reader.Read() )\n	{\n		// process result row ...\n	}\n}</code></pre>\n"
+  syntax:
+    content: public sealed class SqlCommandXml
+    content.vb: Public NotInheritable Class SqlCommandXml
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Data.Dialect.SqlCommandXml.EnumUtil.MapEnums``2
+  - SuperOffice.Data.Dialect.SqlCommandXml.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Dialect.SqlCommandXml)
+  - SuperOffice.Data.Dialect.SqlCommandXml.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.Dialect.SqlCommandXml.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.Dialect.SqlCommandXml.#ctor
+  commentId: M:SuperOffice.Data.Dialect.SqlCommandXml.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Data.Dialect.SqlCommandXml
+  langs:
+  - csharp
+  - vb
+  name: SqlCommandXml()
+  nameWithType: SqlCommandXml.SqlCommandXml()
+  fullName: SuperOffice.Data.Dialect.SqlCommandXml.SqlCommandXml()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nConstruct the instance, and set up the method call cache if needed (static)\n"
+  syntax:
+    content: public SqlCommandXml()
+    content.vb: Public Sub New
+  overload: SuperOffice.Data.Dialect.SqlCommandXml.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.Dialect.SqlCommandXml.Serialize(SuperOffice.Data.SQL.SqlCommand)
+  commentId: M:SuperOffice.Data.Dialect.SqlCommandXml.Serialize(SuperOffice.Data.SQL.SqlCommand)
+  id: Serialize(SuperOffice.Data.SQL.SqlCommand)
+  parent: SuperOffice.Data.Dialect.SqlCommandXml
+  langs:
+  - csharp
+  - vb
+  name: Serialize(SqlCommand)
+  nameWithType: SqlCommandXml.Serialize(SqlCommand)
+  fullName: SuperOffice.Data.Dialect.SqlCommandXml.Serialize(SuperOffice.Data.SQL.SqlCommand)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nConvert an SqlCommand into an XmlDocument (serialization). All elements of the command including\nvalues are converted.\n"
+  syntax:
+    content: public XmlDocument Serialize(SqlCommand command)
+    parameters:
+    - id: command
+      type: SuperOffice.Data.SQL.SqlCommand
+      description: >-
+        SqlCommand to convert. NOTE: Currently this is limited to a SELECT, not
+
+        using group by or aggregation or mathematical or conversion operators.
+    return:
+      type: System.Xml.XmlDocument
+      description: populated Xml document object
+    content.vb: Public Function Serialize(command As SqlCommand) As XmlDocument
+  overload: SuperOffice.Data.Dialect.SqlCommandXml.Serialize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.Dialect.SqlCommandXml.DeSerialize(System.Xml.XmlDocument)
+  commentId: M:SuperOffice.Data.Dialect.SqlCommandXml.DeSerialize(System.Xml.XmlDocument)
+  id: DeSerialize(System.Xml.XmlDocument)
+  parent: SuperOffice.Data.Dialect.SqlCommandXml
+  langs:
+  - csharp
+  - vb
+  name: DeSerialize(XmlDocument)
+  nameWithType: SqlCommandXml.DeSerialize(XmlDocument)
+  fullName: SuperOffice.Data.Dialect.SqlCommandXml.DeSerialize(System.Xml.XmlDocument)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nConvert an XmlDocument representing a query into the equivalent SqlCommand (deserialization).\n"
+  syntax:
+    content: public SqlCommand DeSerialize(XmlDocument xml)
+    parameters:
+    - id: xml
+      type: System.Xml.XmlDocument
+      description: >-
+        Xml to convert. NOTE: Currently this is limited to a SELECT, not
+
+        using group by or aggregation or mathematical or conversion operators
+    return:
+      type: SuperOffice.Data.SQL.SqlCommand
+      description: SqlCommand of type Select
+    content.vb: Public Function DeSerialize(xml As XmlDocument) As SqlCommand
+  overload: SuperOffice.Data.Dialect.SqlCommandXml.DeSerialize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Data.Dialect
+  commentId: N:SuperOffice.Data.Dialect
+  isExternal: true
+  name: SuperOffice.Data.Dialect
+  nameWithType: SuperOffice.Data.Dialect
+  fullName: SuperOffice.Data.Dialect
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dialect.SqlCommandXml.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SqlCommandXml, To>()
+  nameWithType: EnumUtil.MapEnums<SqlCommandXml, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Dialect.SqlCommandXml, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SqlCommandXml, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Dialect.SqlCommandXml, To)()
+  name.vb: MapEnums(Of SqlCommandXml, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SqlCommandXml, To>
+    nameWithType: EnumUtil.MapEnums<SqlCommandXml, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.Dialect.SqlCommandXml, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SqlCommandXml, To)
+    nameWithType: EnumUtil.MapEnums(Of SqlCommandXml, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.Dialect.SqlCommandXml, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dialect.SqlCommandXml.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Dialect.SqlCommandXml)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SqlCommandXml>(SqlCommandXml)
+  nameWithType: ObjectExtensions.AssignByReflection<SqlCommandXml>(SqlCommandXml)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.Dialect.SqlCommandXml>(SuperOffice.Data.Dialect.SqlCommandXml)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SqlCommandXml)(SqlCommandXml)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.Dialect.SqlCommandXml)(SuperOffice.Data.Dialect.SqlCommandXml)
+  name.vb: AssignByReflection(Of SqlCommandXml)(SqlCommandXml)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SqlCommandXml>
+    nameWithType: ObjectExtensions.AssignByReflection<SqlCommandXml>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.Dialect.SqlCommandXml>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dialect.SqlCommandXml
+    name: SqlCommandXml
+    nameWithType: SqlCommandXml
+    fullName: SuperOffice.Data.Dialect.SqlCommandXml
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SqlCommandXml)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SqlCommandXml)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.Dialect.SqlCommandXml)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dialect.SqlCommandXml
+    name: SqlCommandXml
+    nameWithType: SqlCommandXml
+    fullName: SuperOffice.Data.Dialect.SqlCommandXml
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dialect.SqlCommandXml.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SqlCommandXml>()
+  nameWithType: ObjectExtensions.GraphCopy<SqlCommandXml>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.Dialect.SqlCommandXml>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SqlCommandXml)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.Dialect.SqlCommandXml)()
+  name.vb: GraphCopy(Of SqlCommandXml)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SqlCommandXml>
+    nameWithType: ObjectExtensions.GraphCopy<SqlCommandXml>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.Dialect.SqlCommandXml>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SqlCommandXml)
+    nameWithType: ObjectExtensions.GraphCopy(Of SqlCommandXml)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.Dialect.SqlCommandXml)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dialect.SqlCommandXml.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SqlCommandXml, To>()
+  nameWithType: Converters.MapEnums<SqlCommandXml, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dialect.SqlCommandXml, To>()
+  nameWithType.vb: Converters.MapEnums(Of SqlCommandXml, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dialect.SqlCommandXml, To)()
+  name.vb: MapEnums(Of SqlCommandXml, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SqlCommandXml, To>
+    nameWithType: Converters.MapEnums<SqlCommandXml, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dialect.SqlCommandXml, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SqlCommandXml, To)
+    nameWithType: Converters.MapEnums(Of SqlCommandXml, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dialect.SqlCommandXml, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.Dialect.SqlCommandXml.#ctor*
+  commentId: Overload:SuperOffice.Data.Dialect.SqlCommandXml.#ctor
+  isExternal: true
+  name: SqlCommandXml
+  nameWithType: SqlCommandXml.SqlCommandXml
+  fullName: SuperOffice.Data.Dialect.SqlCommandXml.SqlCommandXml
+- uid: SuperOffice.Data.Dialect.SqlCommandXml.Serialize*
+  commentId: Overload:SuperOffice.Data.Dialect.SqlCommandXml.Serialize
+  isExternal: true
+  name: Serialize
+  nameWithType: SqlCommandXml.Serialize
+  fullName: SuperOffice.Data.Dialect.SqlCommandXml.Serialize
+- uid: SuperOffice.Data.SQL.SqlCommand
+  commentId: T:SuperOffice.Data.SQL.SqlCommand
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: SqlCommand
+  nameWithType: SqlCommand
+  fullName: SuperOffice.Data.SQL.SqlCommand
+- uid: System.Xml.XmlDocument
+  isExternal: true
+  name: XmlDocument
+  nameWithType: XmlDocument
+  fullName: System.Xml.XmlDocument
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.Data.Dialect.SqlCommandXml.DeSerialize*
+  commentId: Overload:SuperOffice.Data.Dialect.SqlCommandXml.DeSerialize
+  isExternal: true
+  name: DeSerialize
+  nameWithType: SqlCommandXml.DeSerialize
+  fullName: SuperOffice.Data.Dialect.SqlCommandXml.DeSerialize

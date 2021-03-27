@@ -1,0 +1,262 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CustomerServiceStartup
+  commentId: T:SuperOffice.WebApi.Data.CustomerServiceStartup
+  id: CustomerServiceStartup
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CustomerServiceStartup.#ctor
+  - SuperOffice.WebApi.Data.CustomerServiceStartup.RecaptchaSiteKey
+  - SuperOffice.WebApi.Data.CustomerServiceStartup.TimezoneEnabled
+  - SuperOffice.WebApi.Data.CustomerServiceStartup.TZOffset
+  langs:
+  - csharp
+  - vb
+  name: CustomerServiceStartup
+  nameWithType: CustomerServiceStartup
+  fullName: SuperOffice.WebApi.Data.CustomerServiceStartup
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for CustomerServiceStartup.\nThis carrier contains various data needed by Service for startup. Do not use this API, as it is for internal use and might change without notice    \n"
+  syntax:
+    content: 'public class CustomerServiceStartup : Carrier'
+    content.vb: >-
+      Public Class CustomerServiceStartup
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.CustomerServiceAgent
+    commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CustomerServiceStartup.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CustomerServiceStartup.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CustomerServiceStartup
+  langs:
+  - csharp
+  - vb
+  name: CustomerServiceStartup()
+  nameWithType: CustomerServiceStartup.CustomerServiceStartup()
+  fullName: SuperOffice.WebApi.Data.CustomerServiceStartup.CustomerServiceStartup()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public CustomerServiceStartup()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CustomerServiceStartup.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerServiceStartup.TimezoneEnabled
+  commentId: P:SuperOffice.WebApi.Data.CustomerServiceStartup.TimezoneEnabled
+  id: TimezoneEnabled
+  parent: SuperOffice.WebApi.Data.CustomerServiceStartup
+  langs:
+  - csharp
+  - vb
+  name: TimezoneEnabled
+  nameWithType: CustomerServiceStartup.TimezoneEnabled
+  fullName: SuperOffice.WebApi.Data.CustomerServiceStartup.TimezoneEnabled
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs timezone enabled\n"
+  syntax:
+    content: public virtual bool TimezoneEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property TimezoneEnabled As Boolean
+  overload: SuperOffice.WebApi.Data.CustomerServiceStartup.TimezoneEnabled*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CustomerServiceStartup.TZOffset
+  commentId: P:SuperOffice.WebApi.Data.CustomerServiceStartup.TZOffset
+  id: TZOffset
+  parent: SuperOffice.WebApi.Data.CustomerServiceStartup
+  langs:
+  - csharp
+  - vb
+  name: TZOffset
+  nameWithType: CustomerServiceStartup.TZOffset
+  fullName: SuperOffice.WebApi.Data.CustomerServiceStartup.TZOffset
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe offset in minutes compared with UTC, calculated for DateTime.Now\n"
+  syntax:
+    content: public virtual int TZOffset { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TZOffset As Integer
+  overload: SuperOffice.WebApi.Data.CustomerServiceStartup.TZOffset*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CustomerServiceStartup.RecaptchaSiteKey
+  commentId: P:SuperOffice.WebApi.Data.CustomerServiceStartup.RecaptchaSiteKey
+  id: RecaptchaSiteKey
+  parent: SuperOffice.WebApi.Data.CustomerServiceStartup
+  langs:
+  - csharp
+  - vb
+  name: RecaptchaSiteKey
+  nameWithType: CustomerServiceStartup.RecaptchaSiteKey
+  fullName: SuperOffice.WebApi.Data.CustomerServiceStartup.RecaptchaSiteKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA global recaptcha site key, used with the google recaptcha component. This value is taken from the web.config file\n"
+  syntax:
+    content: public virtual string RecaptchaSiteKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RecaptchaSiteKey As String
+  overload: SuperOffice.WebApi.Data.CustomerServiceStartup.RecaptchaSiteKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  isExternal: true
+  name: CustomerServiceAgent
+  nameWithType: CustomerServiceAgent
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CustomerServiceStartup.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerServiceStartup.#ctor
+  isExternal: true
+  name: CustomerServiceStartup
+  nameWithType: CustomerServiceStartup.CustomerServiceStartup
+  fullName: SuperOffice.WebApi.Data.CustomerServiceStartup.CustomerServiceStartup
+- uid: SuperOffice.WebApi.Data.CustomerServiceStartup.TimezoneEnabled*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerServiceStartup.TimezoneEnabled
+  isExternal: true
+  name: TimezoneEnabled
+  nameWithType: CustomerServiceStartup.TimezoneEnabled
+  fullName: SuperOffice.WebApi.Data.CustomerServiceStartup.TimezoneEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.CustomerServiceStartup.TZOffset*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerServiceStartup.TZOffset
+  isExternal: true
+  name: TZOffset
+  nameWithType: CustomerServiceStartup.TZOffset
+  fullName: SuperOffice.WebApi.Data.CustomerServiceStartup.TZOffset
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.CustomerServiceStartup.RecaptchaSiteKey*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerServiceStartup.RecaptchaSiteKey
+  isExternal: true
+  name: RecaptchaSiteKey
+  nameWithType: CustomerServiceStartup.RecaptchaSiteKey
+  fullName: SuperOffice.WebApi.Data.CustomerServiceStartup.RecaptchaSiteKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

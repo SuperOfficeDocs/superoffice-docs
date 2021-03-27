@@ -1,0 +1,869 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.PreviewMailing
+  commentId: T:SuperOffice.WebApi.Data.PreviewMailing
+  id: PreviewMailing
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.PreviewMailing.#ctor
+  - SuperOffice.WebApi.Data.PreviewMailing.ContactId
+  - SuperOffice.WebApi.Data.PreviewMailing.ContactName
+  - SuperOffice.WebApi.Data.PreviewMailing.DocumentMessage
+  - SuperOffice.WebApi.Data.PreviewMailing.FromAddress
+  - SuperOffice.WebApi.Data.PreviewMailing.LinkClicks
+  - SuperOffice.WebApi.Data.PreviewMailing.MessageId
+  - SuperOffice.WebApi.Data.PreviewMailing.MessageSubject
+  - SuperOffice.WebApi.Data.PreviewMailing.Opened
+  - SuperOffice.WebApi.Data.PreviewMailing.PersonFullName
+  - SuperOffice.WebApi.Data.PreviewMailing.PersonId
+  - SuperOffice.WebApi.Data.PreviewMailing.SendingTime
+  - SuperOffice.WebApi.Data.PreviewMailing.ShipmentDescription
+  - SuperOffice.WebApi.Data.PreviewMailing.ShipmentId
+  - SuperOffice.WebApi.Data.PreviewMailing.ShipmentType
+  - SuperOffice.WebApi.Data.PreviewMailing.Status
+  - SuperOffice.WebApi.Data.PreviewMailing.Status_String
+  langs:
+  - csharp
+  - vb
+  name: PreviewMailing
+  nameWithType: PreviewMailing
+  fullName: SuperOffice.WebApi.Data.PreviewMailing
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for PreviewMailing.\nA shipment message with information about the recipient it was sent to.    \n"
+  syntax:
+    content: 'public class PreviewMailing : Carrier'
+    content.vb: >-
+      Public Class PreviewMailing
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.MarketingAgent
+    commentId: T:SuperOffice.WebApi.Agents.MarketingAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.PreviewMailing.#ctor
+  commentId: M:SuperOffice.WebApi.Data.PreviewMailing.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: PreviewMailing()
+  nameWithType: PreviewMailing.PreviewMailing()
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.PreviewMailing()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public PreviewMailing()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.PreviewMailing.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PreviewMailing.SendingTime
+  commentId: P:SuperOffice.WebApi.Data.PreviewMailing.SendingTime
+  id: SendingTime
+  parent: SuperOffice.WebApi.Data.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: SendingTime
+  nameWithType: PreviewMailing.SendingTime
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.SendingTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEstimated or actual sent time (depends on status)\n"
+  syntax:
+    content: public virtual DateTime SendingTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property SendingTime As DateTime
+  overload: SuperOffice.WebApi.Data.PreviewMailing.SendingTime*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreviewMailing.Status_String
+  commentId: P:SuperOffice.WebApi.Data.PreviewMailing.Status_String
+  id: Status_String
+  parent: SuperOffice.WebApi.Data.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: Status_String
+  nameWithType: PreviewMailing.Status_String
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.Status_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStatus for sending to this particular recipient\nRaw string enum value.\n"
+  syntax:
+    content: public string Status_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Status_String As String
+  overload: SuperOffice.WebApi.Data.PreviewMailing.Status_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.PreviewMailing.Status
+    commentId: P:SuperOffice.WebApi.Data.PreviewMailing.Status
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PreviewMailing.Status
+  commentId: P:SuperOffice.WebApi.Data.PreviewMailing.Status
+  id: Status
+  parent: SuperOffice.WebApi.Data.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: PreviewMailing.Status
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.Status
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStatus for sending to this particular recipient\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ShipmentAddrStatus> Status { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ShipmentAddrStatus}
+    content.vb: Public Property Status As Nullable(Of ShipmentAddrStatus)
+  overload: SuperOffice.WebApi.Data.PreviewMailing.Status*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.PreviewMailing.Status_String
+    commentId: P:SuperOffice.WebApi.Data.PreviewMailing.Status_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PreviewMailing.ShipmentId
+  commentId: P:SuperOffice.WebApi.Data.PreviewMailing.ShipmentId
+  id: ShipmentId
+  parent: SuperOffice.WebApi.Data.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: ShipmentId
+  nameWithType: PreviewMailing.ShipmentId
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.ShipmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int ShipmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ShipmentId As Integer
+  overload: SuperOffice.WebApi.Data.PreviewMailing.ShipmentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreviewMailing.ShipmentDescription
+  commentId: P:SuperOffice.WebApi.Data.PreviewMailing.ShipmentDescription
+  id: ShipmentDescription
+  parent: SuperOffice.WebApi.Data.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: ShipmentDescription
+  nameWithType: PreviewMailing.ShipmentDescription
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.ShipmentDescription
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDescribes the shipment\n"
+  syntax:
+    content: public virtual string ShipmentDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ShipmentDescription As String
+  overload: SuperOffice.WebApi.Data.PreviewMailing.ShipmentDescription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreviewMailing.FromAddress
+  commentId: P:SuperOffice.WebApi.Data.PreviewMailing.FromAddress
+  id: FromAddress
+  parent: SuperOffice.WebApi.Data.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: FromAddress
+  nameWithType: PreviewMailing.FromAddress
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.FromAddress
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEmail address to put in the From header of the messages\n"
+  syntax:
+    content: public virtual string FromAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FromAddress As String
+  overload: SuperOffice.WebApi.Data.PreviewMailing.FromAddress*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreviewMailing.ContactId
+  commentId: P:SuperOffice.WebApi.Data.PreviewMailing.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: PreviewMailing.ContactId
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.ContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOwning contact ID\n"
+  syntax:
+    content: public virtual int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.PreviewMailing.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreviewMailing.ContactName
+  commentId: P:SuperOffice.WebApi.Data.PreviewMailing.ContactName
+  id: ContactName
+  parent: SuperOffice.WebApi.Data.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: ContactName
+  nameWithType: PreviewMailing.ContactName
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.ContactName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContact name\n"
+  syntax:
+    content: public virtual string ContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactName As String
+  overload: SuperOffice.WebApi.Data.PreviewMailing.ContactName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreviewMailing.PersonId
+  commentId: P:SuperOffice.WebApi.Data.PreviewMailing.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: PreviewMailing.PersonId
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.PreviewMailing.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreviewMailing.PersonFullName
+  commentId: P:SuperOffice.WebApi.Data.PreviewMailing.PersonFullName
+  id: PersonFullName
+  parent: SuperOffice.WebApi.Data.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: PersonFullName
+  nameWithType: PreviewMailing.PersonFullName
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.PersonFullName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGet the persons full name (internal name used in clients for employees). \n"
+  syntax:
+    content: public virtual string PersonFullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonFullName As String
+  overload: SuperOffice.WebApi.Data.PreviewMailing.PersonFullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreviewMailing.ShipmentType
+  commentId: P:SuperOffice.WebApi.Data.PreviewMailing.ShipmentType
+  id: ShipmentType
+  parent: SuperOffice.WebApi.Data.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: ShipmentType
+  nameWithType: PreviewMailing.ShipmentType
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.ShipmentType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe list item\n"
+  syntax:
+    content: public virtual string ShipmentType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ShipmentType As String
+  overload: SuperOffice.WebApi.Data.PreviewMailing.ShipmentType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreviewMailing.MessageId
+  commentId: P:SuperOffice.WebApi.Data.PreviewMailing.MessageId
+  id: MessageId
+  parent: SuperOffice.WebApi.Data.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: MessageId
+  nameWithType: PreviewMailing.MessageId
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.MessageId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int MessageId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property MessageId As Integer
+  overload: SuperOffice.WebApi.Data.PreviewMailing.MessageId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreviewMailing.MessageSubject
+  commentId: P:SuperOffice.WebApi.Data.PreviewMailing.MessageSubject
+  id: MessageSubject
+  parent: SuperOffice.WebApi.Data.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: MessageSubject
+  nameWithType: PreviewMailing.MessageSubject
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.MessageSubject
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe mail subject field of the message\n"
+  syntax:
+    content: public virtual string MessageSubject { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property MessageSubject As String
+  overload: SuperOffice.WebApi.Data.PreviewMailing.MessageSubject*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreviewMailing.DocumentMessage
+  commentId: P:SuperOffice.WebApi.Data.PreviewMailing.DocumentMessage
+  id: DocumentMessage
+  parent: SuperOffice.WebApi.Data.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: DocumentMessage
+  nameWithType: PreviewMailing.DocumentMessage
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.DocumentMessage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf a document was used as the message this is the document ID.\n"
+  syntax:
+    content: public virtual int DocumentMessage { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DocumentMessage As Integer
+  overload: SuperOffice.WebApi.Data.PreviewMailing.DocumentMessage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreviewMailing.Opened
+  commentId: P:SuperOffice.WebApi.Data.PreviewMailing.Opened
+  id: Opened
+  parent: SuperOffice.WebApi.Data.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: Opened
+  nameWithType: PreviewMailing.Opened
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.Opened
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDate/time the customer read the mailing.\n"
+  syntax:
+    content: public virtual DateTime Opened { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Opened As DateTime
+  overload: SuperOffice.WebApi.Data.PreviewMailing.Opened*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PreviewMailing.LinkClicks
+  commentId: P:SuperOffice.WebApi.Data.PreviewMailing.LinkClicks
+  id: LinkClicks
+  parent: SuperOffice.WebApi.Data.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: LinkClicks
+  nameWithType: PreviewMailing.LinkClicks
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.LinkClicks
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe number of links clicked in the mailing.\n"
+  syntax:
+    content: public virtual int LinkClicks { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property LinkClicks As Integer
+  overload: SuperOffice.WebApi.Data.PreviewMailing.LinkClicks*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.MarketingAgent
+  commentId: T:SuperOffice.WebApi.Agents.MarketingAgent
+  isExternal: true
+  name: MarketingAgent
+  nameWithType: MarketingAgent
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.PreviewMailing.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewMailing.#ctor
+  isExternal: true
+  name: PreviewMailing
+  nameWithType: PreviewMailing.PreviewMailing
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.PreviewMailing
+- uid: SuperOffice.WebApi.Data.PreviewMailing.SendingTime*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewMailing.SendingTime
+  isExternal: true
+  name: SendingTime
+  nameWithType: PreviewMailing.SendingTime
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.SendingTime
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.PreviewMailing.Status_String*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewMailing.Status_String
+  isExternal: true
+  name: Status_String
+  nameWithType: PreviewMailing.Status_String
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.Status_String
+- uid: SuperOffice.WebApi.Data.PreviewMailing.Status
+  commentId: P:SuperOffice.WebApi.Data.PreviewMailing.Status
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.PreviewMailing.Status*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewMailing.Status
+  isExternal: true
+  name: Status
+  nameWithType: PreviewMailing.Status
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.Status
+- uid: SuperOffice.WebApi.Data.PreviewMailing.Status_String
+  commentId: P:SuperOffice.WebApi.Data.PreviewMailing.Status_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ShipmentAddrStatus}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ShipmentAddrStatus}'
+  definition: System.Nullable`1
+  name: Nullable<ShipmentAddrStatus>
+  nameWithType: Nullable<ShipmentAddrStatus>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ShipmentAddrStatus>
+  nameWithType.vb: Nullable(Of ShipmentAddrStatus)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ShipmentAddrStatus)
+  name.vb: Nullable(Of ShipmentAddrStatus)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ShipmentAddrStatus
+    name: ShipmentAddrStatus
+    nameWithType: ShipmentAddrStatus
+    fullName: SuperOffice.WebApi.Data.ShipmentAddrStatus
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ShipmentAddrStatus
+    name: ShipmentAddrStatus
+    nameWithType: ShipmentAddrStatus
+    fullName: SuperOffice.WebApi.Data.ShipmentAddrStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.PreviewMailing.ShipmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewMailing.ShipmentId
+  isExternal: true
+  name: ShipmentId
+  nameWithType: PreviewMailing.ShipmentId
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.ShipmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.PreviewMailing.ShipmentDescription*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewMailing.ShipmentDescription
+  isExternal: true
+  name: ShipmentDescription
+  nameWithType: PreviewMailing.ShipmentDescription
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.ShipmentDescription
+- uid: SuperOffice.WebApi.Data.PreviewMailing.FromAddress*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewMailing.FromAddress
+  isExternal: true
+  name: FromAddress
+  nameWithType: PreviewMailing.FromAddress
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.FromAddress
+- uid: SuperOffice.WebApi.Data.PreviewMailing.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewMailing.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: PreviewMailing.ContactId
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.ContactId
+- uid: SuperOffice.WebApi.Data.PreviewMailing.ContactName*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewMailing.ContactName
+  isExternal: true
+  name: ContactName
+  nameWithType: PreviewMailing.ContactName
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.ContactName
+- uid: SuperOffice.WebApi.Data.PreviewMailing.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewMailing.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: PreviewMailing.PersonId
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.PersonId
+- uid: SuperOffice.WebApi.Data.PreviewMailing.PersonFullName*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewMailing.PersonFullName
+  isExternal: true
+  name: PersonFullName
+  nameWithType: PreviewMailing.PersonFullName
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.PersonFullName
+- uid: SuperOffice.WebApi.Data.PreviewMailing.ShipmentType*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewMailing.ShipmentType
+  isExternal: true
+  name: ShipmentType
+  nameWithType: PreviewMailing.ShipmentType
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.ShipmentType
+- uid: SuperOffice.WebApi.Data.PreviewMailing.MessageId*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewMailing.MessageId
+  isExternal: true
+  name: MessageId
+  nameWithType: PreviewMailing.MessageId
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.MessageId
+- uid: SuperOffice.WebApi.Data.PreviewMailing.MessageSubject*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewMailing.MessageSubject
+  isExternal: true
+  name: MessageSubject
+  nameWithType: PreviewMailing.MessageSubject
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.MessageSubject
+- uid: SuperOffice.WebApi.Data.PreviewMailing.DocumentMessage*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewMailing.DocumentMessage
+  isExternal: true
+  name: DocumentMessage
+  nameWithType: PreviewMailing.DocumentMessage
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.DocumentMessage
+- uid: SuperOffice.WebApi.Data.PreviewMailing.Opened*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewMailing.Opened
+  isExternal: true
+  name: Opened
+  nameWithType: PreviewMailing.Opened
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.Opened
+- uid: SuperOffice.WebApi.Data.PreviewMailing.LinkClicks*
+  commentId: Overload:SuperOffice.WebApi.Data.PreviewMailing.LinkClicks
+  isExternal: true
+  name: LinkClicks
+  nameWithType: PreviewMailing.LinkClicks
+  fullName: SuperOffice.WebApi.Data.PreviewMailing.LinkClicks

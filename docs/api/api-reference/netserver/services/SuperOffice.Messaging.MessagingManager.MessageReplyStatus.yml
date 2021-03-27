@@ -1,0 +1,491 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Messaging.MessagingManager.MessageReplyStatus
+  commentId: T:SuperOffice.Messaging.MessagingManager.MessageReplyStatus
+  id: MessagingManager.MessageReplyStatus
+  parent: SuperOffice.Messaging
+  children:
+  - SuperOffice.Messaging.MessagingManager.MessageReplyStatus.#ctor
+  - SuperOffice.Messaging.MessagingManager.MessageReplyStatus.ExternalMessageId
+  - SuperOffice.Messaging.MessagingManager.MessageReplyStatus.SessionKey
+  - SuperOffice.Messaging.MessagingManager.MessageReplyStatus.Status
+  - SuperOffice.Messaging.MessagingManager.MessageReplyStatus.StatusDescription
+  langs:
+  - csharp
+  - vb
+  name: MessagingManager.MessageReplyStatus
+  nameWithType: MessagingManager.MessageReplyStatus
+  fullName: SuperOffice.Messaging.MessagingManager.MessageReplyStatus
+  type: Class
+  source:
+    path: SuperOffice.Messaging
+    isExternal: true
+  assemblies:
+  - SuperOffice.Messaging
+  namespace: SuperOffice.Messaging
+  syntax:
+    content: public class MessageReplyStatus
+    content.vb: Public Class MessageReplyStatus
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Messaging.MessagingManager.MessageReplyStatus.ExternalMessageId
+  commentId: F:SuperOffice.Messaging.MessagingManager.MessageReplyStatus.ExternalMessageId
+  id: ExternalMessageId
+  parent: SuperOffice.Messaging.MessagingManager.MessageReplyStatus
+  langs:
+  - csharp
+  - vb
+  name: ExternalMessageId
+  nameWithType: MessagingManager.MessageReplyStatus.ExternalMessageId
+  fullName: SuperOffice.Messaging.MessagingManager.MessageReplyStatus.ExternalMessageId
+  type: Field
+  source:
+    path: SuperOffice.Messaging
+    isExternal: true
+  assemblies:
+  - SuperOffice.Messaging
+  namespace: SuperOffice.Messaging
+  syntax:
+    content: public string ExternalMessageId
+    return:
+      type: System.String
+    content.vb: Public ExternalMessageId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Messaging.MessagingManager.MessageReplyStatus.SessionKey
+  commentId: F:SuperOffice.Messaging.MessagingManager.MessageReplyStatus.SessionKey
+  id: SessionKey
+  parent: SuperOffice.Messaging.MessagingManager.MessageReplyStatus
+  langs:
+  - csharp
+  - vb
+  name: SessionKey
+  nameWithType: MessagingManager.MessageReplyStatus.SessionKey
+  fullName: SuperOffice.Messaging.MessagingManager.MessageReplyStatus.SessionKey
+  type: Field
+  source:
+    path: SuperOffice.Messaging
+    isExternal: true
+  assemblies:
+  - SuperOffice.Messaging
+  namespace: SuperOffice.Messaging
+  syntax:
+    content: public string SessionKey
+    return:
+      type: System.String
+    content.vb: Public SessionKey As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Messaging.MessagingManager.MessageReplyStatus.Status
+  commentId: F:SuperOffice.Messaging.MessagingManager.MessageReplyStatus.Status
+  id: Status
+  parent: SuperOffice.Messaging.MessagingManager.MessageReplyStatus
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: MessagingManager.MessageReplyStatus.Status
+  fullName: SuperOffice.Messaging.MessagingManager.MessageReplyStatus.Status
+  type: Field
+  source:
+    path: SuperOffice.Messaging
+    isExternal: true
+  assemblies:
+  - SuperOffice.Messaging
+  namespace: SuperOffice.Messaging
+  syntax:
+    content: public MessagingStatus Status
+    return:
+      type: SuperOffice.Data.MessagingStatus
+    content.vb: Public Status As MessagingStatus
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Messaging.MessagingManager.MessageReplyStatus.StatusDescription
+  commentId: F:SuperOffice.Messaging.MessagingManager.MessageReplyStatus.StatusDescription
+  id: StatusDescription
+  parent: SuperOffice.Messaging.MessagingManager.MessageReplyStatus
+  langs:
+  - csharp
+  - vb
+  name: StatusDescription
+  nameWithType: MessagingManager.MessageReplyStatus.StatusDescription
+  fullName: SuperOffice.Messaging.MessagingManager.MessageReplyStatus.StatusDescription
+  type: Field
+  source:
+    path: SuperOffice.Messaging
+    isExternal: true
+  assemblies:
+  - SuperOffice.Messaging
+  namespace: SuperOffice.Messaging
+  syntax:
+    content: public string StatusDescription
+    return:
+      type: System.String
+    content.vb: Public StatusDescription As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Messaging.MessagingManager.MessageReplyStatus.#ctor
+  commentId: M:SuperOffice.Messaging.MessagingManager.MessageReplyStatus.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Messaging.MessagingManager.MessageReplyStatus
+  langs:
+  - csharp
+  - vb
+  name: MessageReplyStatus()
+  nameWithType: MessagingManager.MessageReplyStatus.MessageReplyStatus()
+  fullName: SuperOffice.Messaging.MessagingManager.MessageReplyStatus.MessageReplyStatus()
+  type: Constructor
+  source:
+    path: SuperOffice.Messaging
+    isExternal: true
+  assemblies:
+  - SuperOffice.Messaging
+  namespace: SuperOffice.Messaging
+  syntax:
+    content: public MessageReplyStatus()
+    content.vb: Public Sub New
+  overload: SuperOffice.Messaging.MessagingManager.MessageReplyStatus.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Messaging
+  commentId: N:SuperOffice.Messaging
+  isExternal: true
+  name: SuperOffice.Messaging
+  nameWithType: SuperOffice.Messaging
+  fullName: SuperOffice.Messaging
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.MessagingStatus
+  commentId: '!:SuperOffice.Data.MessagingStatus'
+  isExternal: true
+  name: MessagingStatus
+  nameWithType: MessagingStatus
+  fullName: SuperOffice.Data.MessagingStatus
+- uid: SuperOffice.Messaging.MessagingManager.MessageReplyStatus.#ctor*
+  commentId: Overload:SuperOffice.Messaging.MessagingManager.MessageReplyStatus.#ctor
+  isExternal: true
+  name: MessageReplyStatus
+  nameWithType: MessagingManager.MessageReplyStatus.MessageReplyStatus
+  fullName: SuperOffice.Messaging.MessagingManager.MessageReplyStatus.MessageReplyStatus

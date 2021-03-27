@@ -1,0 +1,271 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.Sentiment
+  commentId: T:SuperOffice.CRM.Services.Sentiment
+  id: Sentiment
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.Sentiment.#ctor
+  - SuperOffice.CRM.Services.Sentiment.Confidence
+  - SuperOffice.CRM.Services.Sentiment.Score
+  - SuperOffice.CRM.Services.Sentiment.ToString
+  - SuperOffice.CRM.Services.Sentiment.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Sentiment
+  nameWithType: Sentiment
+  fullName: SuperOffice.CRM.Services.Sentiment
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSentiment information: Score (-100 to 100) and Confidence (0 to 100)\n<p></p>\nCarrier object for Sentiment.\nServices for the Sentiment Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IAIAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class Sentiment : Carrier'
+    content.vb: >-
+      Public Class Sentiment
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.AIAgent
+    commentId: T:SuperOffice.CRM.Services.AIAgent
+  - linkId: SuperOffice.CRM.Services.IAIAgent
+    commentId: T:SuperOffice.CRM.Services.IAIAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.Sentiment.#ctor
+  commentId: M:SuperOffice.CRM.Services.Sentiment.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.Sentiment
+  langs:
+  - csharp
+  - vb
+  name: Sentiment()
+  nameWithType: Sentiment.Sentiment()
+  fullName: SuperOffice.CRM.Services.Sentiment.Sentiment()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public Sentiment()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.Sentiment.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Sentiment.ToString
+  commentId: M:SuperOffice.CRM.Services.Sentiment.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.Sentiment
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Sentiment.ToString()
+  fullName: SuperOffice.CRM.Services.Sentiment.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.Sentiment.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.Sentiment.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.Sentiment.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.Sentiment
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: Sentiment.ToString(String)
+  fullName: SuperOffice.CRM.Services.Sentiment.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.Sentiment.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Sentiment.Score
+  commentId: P:SuperOffice.CRM.Services.Sentiment.Score
+  id: Score
+  parent: SuperOffice.CRM.Services.Sentiment
+  langs:
+  - csharp
+  - vb
+  name: Score
+  nameWithType: Sentiment.Score
+  fullName: SuperOffice.CRM.Services.Sentiment.Score
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSentiment score, -100 = very unhappy, 100 = very happy, 0 = no idea (not recognized) \n"
+  syntax:
+    content: public virtual int Score { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Score As Integer
+  overload: SuperOffice.CRM.Services.Sentiment.Score*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Sentiment.Confidence
+  commentId: P:SuperOffice.CRM.Services.Sentiment.Confidence
+  id: Confidence
+  parent: SuperOffice.CRM.Services.Sentiment
+  langs:
+  - csharp
+  - vb
+  name: Confidence
+  nameWithType: Sentiment.Confidence
+  fullName: SuperOffice.CRM.Services.Sentiment.Confidence
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSentiment analysis confidence, where available. 0 = no idea, 100 = perfectly confident, -1 = no confidence score available \n"
+  syntax:
+    content: public virtual int Confidence { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Confidence As Integer
+  overload: SuperOffice.CRM.Services.Sentiment.Confidence*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AIAgent
+  commentId: T:SuperOffice.CRM.Services.AIAgent
+  isExternal: true
+  name: AIAgent
+  nameWithType: AIAgent
+  fullName: SuperOffice.CRM.Services.AIAgent
+- uid: SuperOffice.CRM.Services.IAIAgent
+  commentId: T:SuperOffice.CRM.Services.IAIAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAIAgent
+  nameWithType: IAIAgent
+  fullName: SuperOffice.CRM.Services.IAIAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.Sentiment.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.Sentiment.#ctor
+  isExternal: true
+  name: Sentiment
+  nameWithType: Sentiment.Sentiment
+  fullName: SuperOffice.CRM.Services.Sentiment.Sentiment
+- uid: SuperOffice.CRM.Services.Sentiment.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.Sentiment.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: Sentiment.ToString
+  fullName: SuperOffice.CRM.Services.Sentiment.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.Sentiment.Score*
+  commentId: Overload:SuperOffice.CRM.Services.Sentiment.Score
+  isExternal: true
+  name: Score
+  nameWithType: Sentiment.Score
+  fullName: SuperOffice.CRM.Services.Sentiment.Score
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.Sentiment.Confidence*
+  commentId: Overload:SuperOffice.CRM.Services.Sentiment.Confidence
+  isExternal: true
+  name: Confidence
+  nameWithType: Sentiment.Confidence
+  fullName: SuperOffice.CRM.Services.Sentiment.Confidence

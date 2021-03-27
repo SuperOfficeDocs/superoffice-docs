@@ -1,0 +1,393 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Lists.ISelectableListItem
+  commentId: T:SuperOffice.CRM.Lists.ISelectableListItem
+  id: ISelectableListItem
+  parent: SuperOffice.CRM.Lists
+  children:
+  - SuperOffice.CRM.Lists.ISelectableListItem.LastChange
+  - SuperOffice.CRM.Lists.ISelectableListItem.Selected
+  langs:
+  - csharp
+  - vb
+  name: ISelectableListItem
+  nameWithType: ISelectableListItem
+  fullName: SuperOffice.CRM.Lists.ISelectableListItem
+  type: Interface
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nInterface for an MDO list item in a list where multiple items can be selected simultaneously\n"
+  syntax:
+    content: 'public interface ISelectableListItem : ISoListItem'
+    content.vb: >-
+      Public Interface ISelectableListItem
+          Inherits ISoListItem
+  inheritedMembers:
+  - SuperOffice.CRM.Lists.ISoListItem.Id
+  - SuperOffice.CRM.Lists.ISoListItem.Name
+  - SuperOffice.CRM.Lists.ISoListItem.Tooltip
+  - SuperOffice.CRM.Lists.ISoListItem.Rank
+  - SuperOffice.CRM.Lists.ISoListItem.Deleted
+  - SuperOffice.CRM.Lists.ISoListItem.Type
+  - SuperOffice.CRM.Lists.ISoListItem.Color
+  - SuperOffice.CRM.Lists.ISoListItem.IconHint
+  - SuperOffice.CRM.Lists.ISoListItem.StyleHint
+  - SuperOffice.CRM.Lists.ISoListItem.ExtraInfo
+  - SuperOffice.CRM.Lists.ISoListItem.FullName
+  extensionMethods:
+  - SuperOffice.CRM.Lists.ISelectableListItem.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Lists.ISelectableListItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Lists.ISelectableListItem.Selected
+  commentId: P:SuperOffice.CRM.Lists.ISelectableListItem.Selected
+  id: Selected
+  parent: SuperOffice.CRM.Lists.ISelectableListItem
+  langs:
+  - csharp
+  - vb
+  name: Selected
+  nameWithType: ISelectableListItem.Selected
+  fullName: SuperOffice.CRM.Lists.ISelectableListItem.Selected
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  summary: "\n"
+  syntax:
+    content: bool Selected { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property Selected As Boolean
+  overload: SuperOffice.CRM.Lists.ISelectableListItem.Selected*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.CRM.Lists.ISelectableListItem.LastChange
+  commentId: P:SuperOffice.CRM.Lists.ISelectableListItem.LastChange
+  id: LastChange
+  parent: SuperOffice.CRM.Lists.ISelectableListItem
+  langs:
+  - csharp
+  - vb
+  name: LastChange
+  nameWithType: ISelectableListItem.LastChange
+  fullName: SuperOffice.CRM.Lists.ISelectableListItem.LastChange
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  summary: "\n"
+  syntax:
+    content: DateTime LastChange { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Property LastChange As Date
+  overload: SuperOffice.CRM.Lists.ISelectableListItem.LastChange*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.CRM.Lists
+  commentId: N:SuperOffice.CRM.Lists
+  isExternal: true
+  name: SuperOffice.CRM.Lists
+  nameWithType: SuperOffice.CRM.Lists
+  fullName: SuperOffice.CRM.Lists
+- uid: SuperOffice.CRM.Lists.ISoListItem.Id
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.Id
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: Id
+  nameWithType: ISoListItem.Id
+  fullName: SuperOffice.CRM.Lists.ISoListItem.Id
+- uid: SuperOffice.CRM.Lists.ISoListItem.Name
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.Name
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: Name
+  nameWithType: ISoListItem.Name
+  fullName: SuperOffice.CRM.Lists.ISoListItem.Name
+- uid: SuperOffice.CRM.Lists.ISoListItem.Tooltip
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.Tooltip
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: Tooltip
+  nameWithType: ISoListItem.Tooltip
+  fullName: SuperOffice.CRM.Lists.ISoListItem.Tooltip
+- uid: SuperOffice.CRM.Lists.ISoListItem.Rank
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.Rank
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: Rank
+  nameWithType: ISoListItem.Rank
+  fullName: SuperOffice.CRM.Lists.ISoListItem.Rank
+- uid: SuperOffice.CRM.Lists.ISoListItem.Deleted
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.Deleted
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: Deleted
+  nameWithType: ISoListItem.Deleted
+  fullName: SuperOffice.CRM.Lists.ISoListItem.Deleted
+- uid: SuperOffice.CRM.Lists.ISoListItem.Type
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.Type
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: Type
+  nameWithType: ISoListItem.Type
+  fullName: SuperOffice.CRM.Lists.ISoListItem.Type
+- uid: SuperOffice.CRM.Lists.ISoListItem.Color
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.Color
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: Color
+  nameWithType: ISoListItem.Color
+  fullName: SuperOffice.CRM.Lists.ISoListItem.Color
+- uid: SuperOffice.CRM.Lists.ISoListItem.IconHint
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.IconHint
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: IconHint
+  nameWithType: ISoListItem.IconHint
+  fullName: SuperOffice.CRM.Lists.ISoListItem.IconHint
+- uid: SuperOffice.CRM.Lists.ISoListItem.StyleHint
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.StyleHint
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: StyleHint
+  nameWithType: ISoListItem.StyleHint
+  fullName: SuperOffice.CRM.Lists.ISoListItem.StyleHint
+- uid: SuperOffice.CRM.Lists.ISoListItem.ExtraInfo
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.ExtraInfo
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: ISoListItem.ExtraInfo
+  fullName: SuperOffice.CRM.Lists.ISoListItem.ExtraInfo
+- uid: SuperOffice.CRM.Lists.ISoListItem.FullName
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.FullName
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: FullName
+  nameWithType: ISoListItem.FullName
+  fullName: SuperOffice.CRM.Lists.ISoListItem.FullName
+- uid: SuperOffice.CRM.Lists.ISelectableListItem.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ISelectableListItem, To>()
+  nameWithType: EnumUtil.MapEnums<ISelectableListItem, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.ISelectableListItem, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ISelectableListItem, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.ISelectableListItem, To)()
+  name.vb: MapEnums(Of ISelectableListItem, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ISelectableListItem, To>
+    nameWithType: EnumUtil.MapEnums<ISelectableListItem, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.ISelectableListItem, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ISelectableListItem, To)
+    nameWithType: EnumUtil.MapEnums(Of ISelectableListItem, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.ISelectableListItem, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ISelectableListItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ISelectableListItem, To>()
+  nameWithType: Converters.MapEnums<ISelectableListItem, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.ISelectableListItem, To>()
+  nameWithType.vb: Converters.MapEnums(Of ISelectableListItem, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.ISelectableListItem, To)()
+  name.vb: MapEnums(Of ISelectableListItem, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ISelectableListItem, To>
+    nameWithType: Converters.MapEnums<ISelectableListItem, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.ISelectableListItem, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ISelectableListItem, To)
+    nameWithType: Converters.MapEnums(Of ISelectableListItem, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.ISelectableListItem, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ISoListItem
+  commentId: T:SuperOffice.CRM.Lists.ISoListItem
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: ISoListItem
+  nameWithType: ISoListItem
+  fullName: SuperOffice.CRM.Lists.ISoListItem
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Lists.ISelectableListItem.Selected*
+  commentId: Overload:SuperOffice.CRM.Lists.ISelectableListItem.Selected
+  isExternal: true
+  name: Selected
+  nameWithType: ISelectableListItem.Selected
+  fullName: SuperOffice.CRM.Lists.ISelectableListItem.Selected
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Lists.ISelectableListItem.LastChange*
+  commentId: Overload:SuperOffice.CRM.Lists.ISelectableListItem.LastChange
+  isExternal: true
+  name: LastChange
+  nameWithType: ISelectableListItem.LastChange
+  fullName: SuperOffice.CRM.Lists.ISelectableListItem.LastChange
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime

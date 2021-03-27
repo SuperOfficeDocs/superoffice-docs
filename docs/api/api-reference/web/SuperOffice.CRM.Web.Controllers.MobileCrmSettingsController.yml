@@ -1,0 +1,170 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController
+  commentId: T:SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController
+  id: MobileCrmSettingsController
+  parent: SuperOffice.CRM.Web.Controllers
+  children:
+  - SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.#ctor
+  - SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.GetData
+  - SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.SendEmail(SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.MobileCrmSettingsData)
+  langs:
+  - csharp
+  - vb
+  name: MobileCrmSettingsController
+  nameWithType: MobileCrmSettingsController
+  fullName: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: 'public class MobileCrmSettingsController : ApiController'
+    content.vb: >-
+      Public Class MobileCrmSettingsController
+          Inherits ApiController
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.GetData
+  commentId: M:SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.GetData
+  id: GetData
+  parent: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController
+  langs:
+  - csharp
+  - vb
+  name: GetData()
+  nameWithType: MobileCrmSettingsController.GetData()
+  fullName: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.GetData()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public MobileCrmSettingsController.MobileCrmSettingsData GetData()
+    return:
+      type: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.MobileCrmSettingsData
+    content.vb: Public Function GetData As MobileCrmSettingsController.MobileCrmSettingsData
+  overload: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.GetData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.SendEmail(SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.MobileCrmSettingsData)
+  commentId: M:SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.SendEmail(SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.MobileCrmSettingsData)
+  id: SendEmail(SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.MobileCrmSettingsData)
+  parent: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController
+  langs:
+  - csharp
+  - vb
+  name: SendEmail(MobileCrmSettingsController.MobileCrmSettingsData)
+  nameWithType: MobileCrmSettingsController.SendEmail(MobileCrmSettingsController.MobileCrmSettingsData)
+  fullName: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.SendEmail(SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.MobileCrmSettingsData)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string SendEmail(MobileCrmSettingsController.MobileCrmSettingsData request)
+    parameters:
+    - id: request
+      type: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.MobileCrmSettingsData
+    return:
+      type: System.String
+    content.vb: Public Function SendEmail(request As MobileCrmSettingsController.MobileCrmSettingsData) As String
+  overload: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.SendEmail*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.#ctor
+  commentId: M:SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController
+  langs:
+  - csharp
+  - vb
+  name: MobileCrmSettingsController()
+  nameWithType: MobileCrmSettingsController.MobileCrmSettingsController()
+  fullName: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.MobileCrmSettingsController()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public MobileCrmSettingsController()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Controllers
+  commentId: N:SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperOffice.CRM.Web.Controllers
+  nameWithType: SuperOffice.CRM.Web.Controllers
+  fullName: SuperOffice.CRM.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.GetData*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.GetData
+  isExternal: true
+  name: GetData
+  nameWithType: MobileCrmSettingsController.GetData
+  fullName: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.GetData
+- uid: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.MobileCrmSettingsData
+  commentId: T:SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.MobileCrmSettingsData
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: MobileCrmSettingsController.MobileCrmSettingsData
+  nameWithType: MobileCrmSettingsController.MobileCrmSettingsData
+  fullName: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.MobileCrmSettingsData
+- uid: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.SendEmail*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.SendEmail
+  isExternal: true
+  name: SendEmail
+  nameWithType: MobileCrmSettingsController.SendEmail
+  fullName: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.SendEmail
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.#ctor
+  isExternal: true
+  name: MobileCrmSettingsController
+  nameWithType: MobileCrmSettingsController.MobileCrmSettingsController
+  fullName: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.MobileCrmSettingsController

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.User_DeleteExternalUserRequest
+  commentId: T:SuperOffice.WebApi.Data.User_DeleteExternalUserRequest
+  id: User_DeleteExternalUserRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.User_DeleteExternalUserRequest.#ctor
+  - SuperOffice.WebApi.Data.User_DeleteExternalUserRequest.AssociateId
+  langs:
+  - csharp
+  - vb
+  name: User_DeleteExternalUserRequest
+  nameWithType: User_DeleteExternalUserRequest
+  fullName: SuperOffice.WebApi.Data.User_DeleteExternalUserRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class User_DeleteExternalUserRequest : Object'
+    content.vb: >-
+      Public Class User_DeleteExternalUserRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.User_DeleteExternalUserRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.User_DeleteExternalUserRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.User_DeleteExternalUserRequest
+  langs:
+  - csharp
+  - vb
+  name: User_DeleteExternalUserRequest()
+  nameWithType: User_DeleteExternalUserRequest.User_DeleteExternalUserRequest()
+  fullName: SuperOffice.WebApi.Data.User_DeleteExternalUserRequest.User_DeleteExternalUserRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User_DeleteExternalUserRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.User_DeleteExternalUserRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_DeleteExternalUserRequest.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.User_DeleteExternalUserRequest.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.User_DeleteExternalUserRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: User_DeleteExternalUserRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.User_DeleteExternalUserRequest.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.User_DeleteExternalUserRequest.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.User_DeleteExternalUserRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.User_DeleteExternalUserRequest.#ctor
+  isExternal: true
+  name: User_DeleteExternalUserRequest
+  nameWithType: User_DeleteExternalUserRequest.User_DeleteExternalUserRequest
+  fullName: SuperOffice.WebApi.Data.User_DeleteExternalUserRequest.User_DeleteExternalUserRequest
+- uid: SuperOffice.WebApi.Data.User_DeleteExternalUserRequest.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.User_DeleteExternalUserRequest.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: User_DeleteExternalUserRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.User_DeleteExternalUserRequest.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

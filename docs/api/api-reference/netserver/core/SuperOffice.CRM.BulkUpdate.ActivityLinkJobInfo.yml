@@ -1,0 +1,919 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo
+  commentId: T:SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo
+  id: ActivityLinkJobInfo
+  parent: SuperOffice.CRM.BulkUpdate
+  children:
+  - SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.#ctor
+  - SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.#ctor(System.Int32,System.Int32,System.String,System.String)
+  - SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.Comment
+  - SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.IsOk
+  - SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.PartnerRecordId
+  - SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.PartnerTableNumber
+  - SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.Url
+  langs:
+  - csharp
+  - vb
+  name: ActivityLinkJobInfo
+  nameWithType: ActivityLinkJobInfo
+  fullName: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public class ActivityLinkJobInfo
+    content.vb: Public Class ActivityLinkJobInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo)
+  - SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.PartnerTableNumber
+  commentId: F:SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.PartnerTableNumber
+  id: PartnerTableNumber
+  parent: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo
+  langs:
+  - csharp
+  - vb
+  name: PartnerTableNumber
+  nameWithType: ActivityLinkJobInfo.PartnerTableNumber
+  fullName: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.PartnerTableNumber
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public int PartnerTableNumber
+    return:
+      type: System.Int32
+    content.vb: Public PartnerTableNumber As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.PartnerRecordId
+  commentId: F:SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.PartnerRecordId
+  id: PartnerRecordId
+  parent: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo
+  langs:
+  - csharp
+  - vb
+  name: PartnerRecordId
+  nameWithType: ActivityLinkJobInfo.PartnerRecordId
+  fullName: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.PartnerRecordId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public int PartnerRecordId
+    return:
+      type: System.Int32
+    content.vb: Public PartnerRecordId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.Url
+  commentId: F:SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.Url
+  id: Url
+  parent: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: ActivityLinkJobInfo.Url
+  fullName: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.Url
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public string Url
+    return:
+      type: System.String
+    content.vb: Public Url As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.Comment
+  commentId: F:SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.Comment
+  id: Comment
+  parent: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: ActivityLinkJobInfo.Comment
+  fullName: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.Comment
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public string Comment
+    return:
+      type: System.String
+    content.vb: Public Comment As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.#ctor
+  commentId: M:SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo
+  langs:
+  - csharp
+  - vb
+  name: ActivityLinkJobInfo()
+  nameWithType: ActivityLinkJobInfo.ActivityLinkJobInfo()
+  fullName: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.ActivityLinkJobInfo()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public ActivityLinkJobInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.#ctor(System.Int32,System.Int32,System.String,System.String)
+  commentId: M:SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.#ctor(System.Int32,System.Int32,System.String,System.String)
+  id: '#ctor(System.Int32,System.Int32,System.String,System.String)'
+  parent: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo
+  langs:
+  - csharp
+  - vb
+  name: ActivityLinkJobInfo(Int32, Int32, String, String)
+  nameWithType: ActivityLinkJobInfo.ActivityLinkJobInfo(Int32, Int32, String, String)
+  fullName: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.ActivityLinkJobInfo(System.Int32, System.Int32, System.String, System.String)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public ActivityLinkJobInfo(int i_PartnerTableNumber, int i_PartnerRecordId, string i_Url, string i_Comment)
+    parameters:
+    - id: i_PartnerTableNumber
+      type: System.Int32
+    - id: i_PartnerRecordId
+      type: System.Int32
+    - id: i_Url
+      type: System.String
+    - id: i_Comment
+      type: System.String
+    content.vb: Public Sub New(i_PartnerTableNumber As Integer, i_PartnerRecordId As Integer, i_Url As String, i_Comment As String)
+  overload: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.IsOk
+  commentId: M:SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.IsOk
+  id: IsOk
+  parent: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo
+  langs:
+  - csharp
+  - vb
+  name: IsOk()
+  nameWithType: ActivityLinkJobInfo.IsOk()
+  fullName: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.IsOk()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public bool IsOk()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsOk As Boolean
+  overload: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.IsOk*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.BulkUpdate
+  commentId: N:SuperOffice.CRM.BulkUpdate
+  isExternal: true
+  name: SuperOffice.CRM.BulkUpdate
+  nameWithType: SuperOffice.CRM.BulkUpdate
+  fullName: SuperOffice.CRM.BulkUpdate
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ActivityLinkJobInfo, To>()
+  nameWithType: EnumUtil.MapEnums<ActivityLinkJobInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ActivityLinkJobInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo, To)()
+  name.vb: MapEnums(Of ActivityLinkJobInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ActivityLinkJobInfo, To>
+    nameWithType: EnumUtil.MapEnums<ActivityLinkJobInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ActivityLinkJobInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of ActivityLinkJobInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ActivityLinkJobInfo>(ActivityLinkJobInfo)
+  nameWithType: ObjectExtensions.AssignByReflection<ActivityLinkJobInfo>(ActivityLinkJobInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo>(SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ActivityLinkJobInfo)(ActivityLinkJobInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo)(SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo)
+  name.vb: AssignByReflection(Of ActivityLinkJobInfo)(ActivityLinkJobInfo)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ActivityLinkJobInfo>
+    nameWithType: ObjectExtensions.AssignByReflection<ActivityLinkJobInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo
+    name: ActivityLinkJobInfo
+    nameWithType: ActivityLinkJobInfo
+    fullName: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ActivityLinkJobInfo)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ActivityLinkJobInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo
+    name: ActivityLinkJobInfo
+    nameWithType: ActivityLinkJobInfo
+    fullName: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ActivityLinkJobInfo>()
+  nameWithType: ObjectExtensions.GraphCopy<ActivityLinkJobInfo>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ActivityLinkJobInfo)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo)()
+  name.vb: GraphCopy(Of ActivityLinkJobInfo)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ActivityLinkJobInfo>
+    nameWithType: ObjectExtensions.GraphCopy<ActivityLinkJobInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ActivityLinkJobInfo)
+    nameWithType: ObjectExtensions.GraphCopy(Of ActivityLinkJobInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ActivityLinkJobInfo, To>()
+  nameWithType: Converters.MapEnums<ActivityLinkJobInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of ActivityLinkJobInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo, To)()
+  name.vb: MapEnums(Of ActivityLinkJobInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ActivityLinkJobInfo, To>
+    nameWithType: Converters.MapEnums<ActivityLinkJobInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ActivityLinkJobInfo, To)
+    nameWithType: Converters.MapEnums(Of ActivityLinkJobInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.#ctor
+  isExternal: true
+  name: ActivityLinkJobInfo
+  nameWithType: ActivityLinkJobInfo.ActivityLinkJobInfo
+  fullName: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.ActivityLinkJobInfo
+- uid: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.IsOk*
+  commentId: Overload:SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.IsOk
+  isExternal: true
+  name: IsOk
+  nameWithType: ActivityLinkJobInfo.IsOk
+  fullName: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.IsOk
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

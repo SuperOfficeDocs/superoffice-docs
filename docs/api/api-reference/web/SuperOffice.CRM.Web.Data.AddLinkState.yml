@@ -1,0 +1,617 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.AddLinkState
+  commentId: T:SuperOffice.CRM.Web.Data.AddLinkState
+  id: AddLinkState
+  parent: SuperOffice.CRM.Web.Data
+  children:
+  - SuperOffice.CRM.Web.Data.AddLinkState.#ctor
+  - SuperOffice.CRM.Web.Data.AddLinkState.AppointmentId
+  - SuperOffice.CRM.Web.Data.AddLinkState.AppointmentName
+  - SuperOffice.CRM.Web.Data.AddLinkState.Description
+  - SuperOffice.CRM.Web.Data.AddLinkState.DocumentId
+  - SuperOffice.CRM.Web.Data.AddLinkState.DocumentName
+  - SuperOffice.CRM.Web.Data.AddLinkState.ExtraInfo
+  - SuperOffice.CRM.Web.Data.AddLinkState.LinkId
+  - SuperOffice.CRM.Web.Data.AddLinkState.ProjectId
+  - SuperOffice.CRM.Web.Data.AddLinkState.ProjectName
+  - SuperOffice.CRM.Web.Data.AddLinkState.SaleId
+  - SuperOffice.CRM.Web.Data.AddLinkState.SaleName
+  - SuperOffice.CRM.Web.Data.AddLinkState.SelectedType
+  - SuperOffice.CRM.Web.Data.AddLinkState.Url
+  - SuperOffice.CRM.Web.Data.AddLinkState.UrlId
+  langs:
+  - csharp
+  - vb
+  name: AddLinkState
+  nameWithType: AddLinkState
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: 'public class AddLinkState : Carrier'
+    content.vb: >-
+      Public Class AddLinkState
+          Inherits Carrier
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.#ctor
+  commentId: M:SuperOffice.CRM.Web.Data.AddLinkState.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Data.AddLinkState
+  langs:
+  - csharp
+  - vb
+  name: AddLinkState()
+  nameWithType: AddLinkState.AddLinkState()
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.AddLinkState()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public AddLinkState()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Data.AddLinkState.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.SelectedType
+  commentId: P:SuperOffice.CRM.Web.Data.AddLinkState.SelectedType
+  id: SelectedType
+  parent: SuperOffice.CRM.Web.Data.AddLinkState
+  langs:
+  - csharp
+  - vb
+  name: SelectedType
+  nameWithType: AddLinkState.SelectedType
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.SelectedType
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public int SelectedType { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SelectedType As Integer
+  overload: SuperOffice.CRM.Web.Data.AddLinkState.SelectedType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.Url
+  commentId: P:SuperOffice.CRM.Web.Data.AddLinkState.Url
+  id: Url
+  parent: SuperOffice.CRM.Web.Data.AddLinkState
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: AddLinkState.Url
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.Url
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Url As String
+  overload: SuperOffice.CRM.Web.Data.AddLinkState.Url*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.UrlId
+  commentId: P:SuperOffice.CRM.Web.Data.AddLinkState.UrlId
+  id: UrlId
+  parent: SuperOffice.CRM.Web.Data.AddLinkState
+  langs:
+  - csharp
+  - vb
+  name: UrlId
+  nameWithType: AddLinkState.UrlId
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.UrlId
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public int UrlId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UrlId As Integer
+  overload: SuperOffice.CRM.Web.Data.AddLinkState.UrlId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.ProjectId
+  commentId: P:SuperOffice.CRM.Web.Data.AddLinkState.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.Web.Data.AddLinkState
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: AddLinkState.ProjectId
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ProjectId As Integer
+  overload: SuperOffice.CRM.Web.Data.AddLinkState.ProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.ProjectName
+  commentId: P:SuperOffice.CRM.Web.Data.AddLinkState.ProjectName
+  id: ProjectName
+  parent: SuperOffice.CRM.Web.Data.AddLinkState
+  langs:
+  - csharp
+  - vb
+  name: ProjectName
+  nameWithType: AddLinkState.ProjectName
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.ProjectName
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string ProjectName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProjectName As String
+  overload: SuperOffice.CRM.Web.Data.AddLinkState.ProjectName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.SaleId
+  commentId: P:SuperOffice.CRM.Web.Data.AddLinkState.SaleId
+  id: SaleId
+  parent: SuperOffice.CRM.Web.Data.AddLinkState
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: AddLinkState.SaleId
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.SaleId
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SaleId As Integer
+  overload: SuperOffice.CRM.Web.Data.AddLinkState.SaleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.SaleName
+  commentId: P:SuperOffice.CRM.Web.Data.AddLinkState.SaleName
+  id: SaleName
+  parent: SuperOffice.CRM.Web.Data.AddLinkState
+  langs:
+  - csharp
+  - vb
+  name: SaleName
+  nameWithType: AddLinkState.SaleName
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.SaleName
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string SaleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SaleName As String
+  overload: SuperOffice.CRM.Web.Data.AddLinkState.SaleName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.DocumentId
+  commentId: P:SuperOffice.CRM.Web.Data.AddLinkState.DocumentId
+  id: DocumentId
+  parent: SuperOffice.CRM.Web.Data.AddLinkState
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: AddLinkState.DocumentId
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.DocumentId
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DocumentId As Integer
+  overload: SuperOffice.CRM.Web.Data.AddLinkState.DocumentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.DocumentName
+  commentId: P:SuperOffice.CRM.Web.Data.AddLinkState.DocumentName
+  id: DocumentName
+  parent: SuperOffice.CRM.Web.Data.AddLinkState
+  langs:
+  - csharp
+  - vb
+  name: DocumentName
+  nameWithType: AddLinkState.DocumentName
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.DocumentName
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string DocumentName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DocumentName As String
+  overload: SuperOffice.CRM.Web.Data.AddLinkState.DocumentName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.AppointmentId
+  commentId: P:SuperOffice.CRM.Web.Data.AddLinkState.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.CRM.Web.Data.AddLinkState
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: AddLinkState.AppointmentId
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.AppointmentId
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public int AppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AppointmentId As Integer
+  overload: SuperOffice.CRM.Web.Data.AddLinkState.AppointmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.AppointmentName
+  commentId: P:SuperOffice.CRM.Web.Data.AddLinkState.AppointmentName
+  id: AppointmentName
+  parent: SuperOffice.CRM.Web.Data.AddLinkState
+  langs:
+  - csharp
+  - vb
+  name: AppointmentName
+  nameWithType: AddLinkState.AppointmentName
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.AppointmentName
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string AppointmentName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AppointmentName As String
+  overload: SuperOffice.CRM.Web.Data.AddLinkState.AppointmentName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.Description
+  commentId: P:SuperOffice.CRM.Web.Data.AddLinkState.Description
+  id: Description
+  parent: SuperOffice.CRM.Web.Data.AddLinkState
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: AddLinkState.Description
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.Description
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: SuperOffice.CRM.Web.Data.AddLinkState.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.ExtraInfo
+  commentId: P:SuperOffice.CRM.Web.Data.AddLinkState.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.CRM.Web.Data.AddLinkState
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: AddLinkState.ExtraInfo
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.ExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string ExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ExtraInfo As String
+  overload: SuperOffice.CRM.Web.Data.AddLinkState.ExtraInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.LinkId
+  commentId: P:SuperOffice.CRM.Web.Data.AddLinkState.LinkId
+  id: LinkId
+  parent: SuperOffice.CRM.Web.Data.AddLinkState
+  langs:
+  - csharp
+  - vb
+  name: LinkId
+  nameWithType: AddLinkState.LinkId
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.LinkId
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public int LinkId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property LinkId As Integer
+  overload: SuperOffice.CRM.Web.Data.AddLinkState.LinkId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Data
+  commentId: N:SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: SuperOffice.CRM.Web.Data
+  nameWithType: SuperOffice.CRM.Web.Data
+  fullName: SuperOffice.CRM.Web.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Data.AddLinkState.#ctor
+  isExternal: true
+  name: AddLinkState
+  nameWithType: AddLinkState.AddLinkState
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.AddLinkState
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.SelectedType*
+  commentId: Overload:SuperOffice.CRM.Web.Data.AddLinkState.SelectedType
+  isExternal: true
+  name: SelectedType
+  nameWithType: AddLinkState.SelectedType
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.SelectedType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.Url*
+  commentId: Overload:SuperOffice.CRM.Web.Data.AddLinkState.Url
+  isExternal: true
+  name: Url
+  nameWithType: AddLinkState.Url
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.Url
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.UrlId*
+  commentId: Overload:SuperOffice.CRM.Web.Data.AddLinkState.UrlId
+  isExternal: true
+  name: UrlId
+  nameWithType: AddLinkState.UrlId
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.UrlId
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.ProjectId*
+  commentId: Overload:SuperOffice.CRM.Web.Data.AddLinkState.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: AddLinkState.ProjectId
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.ProjectId
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.ProjectName*
+  commentId: Overload:SuperOffice.CRM.Web.Data.AddLinkState.ProjectName
+  isExternal: true
+  name: ProjectName
+  nameWithType: AddLinkState.ProjectName
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.ProjectName
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.SaleId*
+  commentId: Overload:SuperOffice.CRM.Web.Data.AddLinkState.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: AddLinkState.SaleId
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.SaleId
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.SaleName*
+  commentId: Overload:SuperOffice.CRM.Web.Data.AddLinkState.SaleName
+  isExternal: true
+  name: SaleName
+  nameWithType: AddLinkState.SaleName
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.SaleName
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.DocumentId*
+  commentId: Overload:SuperOffice.CRM.Web.Data.AddLinkState.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: AddLinkState.DocumentId
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.DocumentId
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.DocumentName*
+  commentId: Overload:SuperOffice.CRM.Web.Data.AddLinkState.DocumentName
+  isExternal: true
+  name: DocumentName
+  nameWithType: AddLinkState.DocumentName
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.DocumentName
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.AppointmentId*
+  commentId: Overload:SuperOffice.CRM.Web.Data.AddLinkState.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: AddLinkState.AppointmentId
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.AppointmentId
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.AppointmentName*
+  commentId: Overload:SuperOffice.CRM.Web.Data.AddLinkState.AppointmentName
+  isExternal: true
+  name: AppointmentName
+  nameWithType: AddLinkState.AppointmentName
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.AppointmentName
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.Description*
+  commentId: Overload:SuperOffice.CRM.Web.Data.AddLinkState.Description
+  isExternal: true
+  name: Description
+  nameWithType: AddLinkState.Description
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.Description
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.ExtraInfo*
+  commentId: Overload:SuperOffice.CRM.Web.Data.AddLinkState.ExtraInfo
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: AddLinkState.ExtraInfo
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.ExtraInfo
+- uid: SuperOffice.CRM.Web.Data.AddLinkState.LinkId*
+  commentId: Overload:SuperOffice.CRM.Web.Data.AddLinkState.LinkId
+  isExternal: true
+  name: LinkId
+  nameWithType: AddLinkState.LinkId
+  fullName: SuperOffice.CRM.Web.Data.AddLinkState.LinkId

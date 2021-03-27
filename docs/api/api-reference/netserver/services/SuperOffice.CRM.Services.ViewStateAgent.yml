@@ -1,0 +1,1919 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ViewStateAgent
+  commentId: T:SuperOffice.CRM.Services.ViewStateAgent
+  id: ViewStateAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ViewStateAgent.#ctor
+  - SuperOffice.CRM.Services.ViewStateAgent.DeleteHistory(System.String,System.Int32)
+  - SuperOffice.CRM.Services.ViewStateAgent.GetCurrent(System.String)
+  - SuperOffice.CRM.Services.ViewStateAgent.GetHistories
+  - SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByName(System.String)
+  - SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByNames(System.String[])
+  - SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByNamesAndIds(SuperOffice.CRM.Services.HistoryRequest[])
+  - SuperOffice.CRM.Services.ViewStateAgent.GetHistory(System.Int32)
+  - SuperOffice.CRM.Services.ViewStateAgent.GetHistoryLengthPrefValue
+  - SuperOffice.CRM.Services.ViewStateAgent.GetNextCurrent(System.String,System.Int32)
+  - SuperOffice.CRM.Services.ViewStateAgent.GetPreviousCurrent(System.String,System.Int32)
+  - SuperOffice.CRM.Services.ViewStateAgent.SaveCurrent(SuperOffice.CRM.Services.History)
+  - SuperOffice.CRM.Services.ViewStateAgent.SaveCurrents(SuperOffice.CRM.Services.History[])
+  - SuperOffice.CRM.Services.ViewStateAgent.SaveHistories(System.String,SuperOffice.CRM.Services.History[])
+  - SuperOffice.CRM.Services.ViewStateAgent.SetHistoryLengthPrefValue(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: ViewStateAgent
+  nameWithType: ViewStateAgent
+  fullName: SuperOffice.CRM.Services.ViewStateAgent
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFacade for the ViewState Agent\nUser interface view state, history, currentXXX values\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (ViewStateAgent agent = new ViewStateAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: 'public class ViewStateAgent : AgentBase<IViewStateAgent>, IDisposable, IViewStateAgent, IAgent'
+    content.vb: >-
+      Public Class ViewStateAgent
+          Inherits AgentBase(Of IViewStateAgent)
+          Implements IDisposable, IViewStateAgent, IAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IViewStateAgent}
+  implements:
+  - System.IDisposable
+  - SuperOffice.CRM.Services.IViewStateAgent
+  - SuperOffice.CRM.Services.IAgent
+  inheritedMembers:
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IViewStateAgent}.Dispose
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IViewStateAgent}.InnerAgent
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ViewStateAgent.GetHistory(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ViewStateAgent.GetHistory(System.Int32)
+  id: GetHistory(System.Int32)
+  parent: SuperOffice.CRM.Services.ViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetHistory(Int32)
+  nameWithType: ViewStateAgent.GetHistory(Int32)
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.GetHistory(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a History object.                        \n"
+  syntax:
+    content: public History GetHistory(int historyId)
+    parameters:
+    - id: historyId
+      type: System.Int32
+      description: The identifier of the History object
+    return:
+      type: SuperOffice.CRM.Services.History
+      description: History
+    content.vb: Public Function GetHistory(historyId As Integer) As History
+  overload: SuperOffice.CRM.Services.ViewStateAgent.GetHistory*
+  implements:
+  - SuperOffice.CRM.Services.IViewStateAgent.GetHistory(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ViewStateAgent.GetCurrent(System.String)
+  commentId: M:SuperOffice.CRM.Services.ViewStateAgent.GetCurrent(System.String)
+  id: GetCurrent(System.String)
+  parent: SuperOffice.CRM.Services.ViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCurrent(String)
+  nameWithType: ViewStateAgent.GetCurrent(String)
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.GetCurrent(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the current (most recent) value of the history list. This is the item with rank = 1. If no item exists a default value is returned. This is usually the first item in the table representing the history list.\n"
+  syntax:
+    content: public History GetCurrent(string historyName)
+    parameters:
+    - id: historyName
+      type: System.String
+      description: Name of the history list, e.g. contact, project
+    return:
+      type: SuperOffice.CRM.Services.History
+      description: The current (most recent) history item
+    content.vb: Public Function GetCurrent(historyName As String) As History
+  overload: SuperOffice.CRM.Services.ViewStateAgent.GetCurrent*
+  implements:
+  - SuperOffice.CRM.Services.IViewStateAgent.GetCurrent(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ViewStateAgent.SaveCurrent(SuperOffice.CRM.Services.History)
+  commentId: M:SuperOffice.CRM.Services.ViewStateAgent.SaveCurrent(SuperOffice.CRM.Services.History)
+  id: SaveCurrent(SuperOffice.CRM.Services.History)
+  parent: SuperOffice.CRM.Services.ViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveCurrent(History)
+  nameWithType: ViewStateAgent.SaveCurrent(History)
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.SaveCurrent(SuperOffice.CRM.Services.History)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSaving the current history item. This history item is saved with Rank = 1, and all the remaining elements rank values are shifted one down. The list is maintained with the max lenght of the History list length preference.\n"
+  syntax:
+    content: public History SaveCurrent(History current)
+    parameters:
+    - id: current
+      type: SuperOffice.CRM.Services.History
+      description: The new current history element.
+    return:
+      type: SuperOffice.CRM.Services.History
+      description: The current (most recent) history item
+    content.vb: Public Function SaveCurrent(current As History) As History
+  overload: SuperOffice.CRM.Services.ViewStateAgent.SaveCurrent*
+  implements:
+  - SuperOffice.CRM.Services.IViewStateAgent.SaveCurrent(SuperOffice.CRM.Services.History)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ViewStateAgent.GetNextCurrent(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ViewStateAgent.GetNextCurrent(System.String,System.Int32)
+  id: GetNextCurrent(System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.ViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNextCurrent(String, Int32)
+  nameWithType: ViewStateAgent.GetNextCurrent(String, Int32)
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.GetNextCurrent(System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the next current item. If no item exists a default value is returned. This is usually the first item in the table representing the history list.\n"
+  syntax:
+    content: public History GetNextCurrent(string historyName, int id)
+    parameters:
+    - id: historyName
+      type: System.String
+      description: Name of the history list, e.g. contact, project
+    - id: id
+      type: System.Int32
+      description: Id of the history element, e.g. Contact id
+    return:
+      type: SuperOffice.CRM.Services.History
+      description: The current value.
+    content.vb: Public Function GetNextCurrent(historyName As String, id As Integer) As History
+  overload: SuperOffice.CRM.Services.ViewStateAgent.GetNextCurrent*
+  implements:
+  - SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrent(System.String,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ViewStateAgent.GetPreviousCurrent(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ViewStateAgent.GetPreviousCurrent(System.String,System.Int32)
+  id: GetPreviousCurrent(System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.ViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPreviousCurrent(String, Int32)
+  nameWithType: ViewStateAgent.GetPreviousCurrent(String, Int32)
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.GetPreviousCurrent(System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the previous current item. If no item exists a default value is returned. This is usually the first item in the table representing the history list.\n"
+  syntax:
+    content: public History GetPreviousCurrent(string historyName, int id)
+    parameters:
+    - id: historyName
+      type: System.String
+      description: Name of the history list, e.g. contact, project
+    - id: id
+      type: System.Int32
+      description: Id of the history element, e.g. Contact id
+    return:
+      type: SuperOffice.CRM.Services.History
+      description: The current value.
+    content.vb: Public Function GetPreviousCurrent(historyName As String, id As Integer) As History
+  overload: SuperOffice.CRM.Services.ViewStateAgent.GetPreviousCurrent*
+  implements:
+  - SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrent(System.String,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ViewStateAgent.DeleteHistory(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ViewStateAgent.DeleteHistory(System.String,System.Int32)
+  id: DeleteHistory(System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.ViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteHistory(String, Int32)
+  nameWithType: ViewStateAgent.DeleteHistory(String, Int32)
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.DeleteHistory(System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the history element\n"
+  syntax:
+    content: public void DeleteHistory(string historyName, int id)
+    parameters:
+    - id: historyName
+      type: System.String
+      description: Name of the history list, e.g. contact, project
+    - id: id
+      type: System.Int32
+      description: Id of the history element, e.g. Contact id
+    content.vb: Public Sub DeleteHistory(historyName As String, id As Integer)
+  overload: SuperOffice.CRM.Services.ViewStateAgent.DeleteHistory*
+  implements:
+  - SuperOffice.CRM.Services.IViewStateAgent.DeleteHistory(System.String,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ViewStateAgent.GetHistories
+  commentId: M:SuperOffice.CRM.Services.ViewStateAgent.GetHistories
+  id: GetHistories
+  parent: SuperOffice.CRM.Services.ViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetHistories()
+  nameWithType: ViewStateAgent.GetHistories()
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.GetHistories()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns all history items that belong to the currently logged in user\n"
+  syntax:
+    content: public History[] GetHistories()
+    return:
+      type: SuperOffice.CRM.Services.History[]
+      description: Array of History items
+    content.vb: Public Function GetHistories As History()
+  overload: SuperOffice.CRM.Services.ViewStateAgent.GetHistories*
+  implements:
+  - SuperOffice.CRM.Services.IViewStateAgent.GetHistories
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByName(System.String)
+  commentId: M:SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByName(System.String)
+  id: GetHistoriesByName(System.String)
+  parent: SuperOffice.CRM.Services.ViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetHistoriesByName(String)
+  nameWithType: ViewStateAgent.GetHistoriesByName(String)
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByName(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the named history list that belong to the currently logged in user\n"
+  syntax:
+    content: public History[] GetHistoriesByName(string historyName)
+    parameters:
+    - id: historyName
+      type: System.String
+      description: Name of the history list
+    return:
+      type: SuperOffice.CRM.Services.History[]
+      description: Array of History items
+    content.vb: Public Function GetHistoriesByName(historyName As String) As History()
+  overload: SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByName*
+  implements:
+  - SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByName(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByNames(System.String[])
+  commentId: M:SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByNames(System.String[])
+  id: GetHistoriesByNames(System.String[])
+  parent: SuperOffice.CRM.Services.ViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetHistoriesByNames(String[])
+  nameWithType: ViewStateAgent.GetHistoriesByNames(String[])
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByNames(System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the named history lists that belong to the currently logged in user\n"
+  syntax:
+    content: public History[] GetHistoriesByNames(string[] historyNames)
+    parameters:
+    - id: historyNames
+      type: System.String[]
+      description: String array of list names
+    return:
+      type: SuperOffice.CRM.Services.History[]
+      description: Array of History items
+    content.vb: Public Function GetHistoriesByNames(historyNames As String()) As History()
+  overload: SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByNames*
+  implements:
+  - SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames(System.String[])
+  nameWithType.vb: ViewStateAgent.GetHistoriesByNames(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByNames(System.String())
+  name.vb: GetHistoriesByNames(String())
+- uid: SuperOffice.CRM.Services.ViewStateAgent.SaveHistories(System.String,SuperOffice.CRM.Services.History[])
+  commentId: M:SuperOffice.CRM.Services.ViewStateAgent.SaveHistories(System.String,SuperOffice.CRM.Services.History[])
+  id: SaveHistories(System.String,SuperOffice.CRM.Services.History[])
+  parent: SuperOffice.CRM.Services.ViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveHistories(String, History[])
+  nameWithType: ViewStateAgent.SaveHistories(String, History[])
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.SaveHistories(System.String, SuperOffice.CRM.Services.History[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReplaces the existing history-list for the currently logged in user. All elements must belong to the same history list. If not they are ignored.\n"
+  syntax:
+    content: public History[] SaveHistories(string historyName, History[] history)
+    parameters:
+    - id: historyName
+      type: System.String
+    - id: history
+      type: SuperOffice.CRM.Services.History[]
+      description: Array of new history items to save.
+    return:
+      type: SuperOffice.CRM.Services.History[]
+      description: Array of the saved History items
+    content.vb: Public Function SaveHistories(historyName As String, history As History()) As History()
+  overload: SuperOffice.CRM.Services.ViewStateAgent.SaveHistories*
+  implements:
+  - SuperOffice.CRM.Services.IViewStateAgent.SaveHistories(System.String,SuperOffice.CRM.Services.History[])
+  nameWithType.vb: ViewStateAgent.SaveHistories(String, History())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.ViewStateAgent.SaveHistories(System.String, SuperOffice.CRM.Services.History())
+  name.vb: SaveHistories(String, History())
+- uid: SuperOffice.CRM.Services.ViewStateAgent.GetHistoryLengthPrefValue
+  commentId: M:SuperOffice.CRM.Services.ViewStateAgent.GetHistoryLengthPrefValue
+  id: GetHistoryLengthPrefValue
+  parent: SuperOffice.CRM.Services.ViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetHistoryLengthPrefValue()
+  nameWithType: ViewStateAgent.GetHistoryLengthPrefValue()
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.GetHistoryLengthPrefValue()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the logged on user&apos;s preferred history list length. Will return the system preference if no user preferences are available.\n"
+  syntax:
+    content: public int GetHistoryLengthPrefValue()
+    return:
+      type: System.Int32
+      description: The history list lenght
+    content.vb: Public Function GetHistoryLengthPrefValue As Integer
+  overload: SuperOffice.CRM.Services.ViewStateAgent.GetHistoryLengthPrefValue*
+  implements:
+  - SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValue
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ViewStateAgent.SetHistoryLengthPrefValue(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ViewStateAgent.SetHistoryLengthPrefValue(System.Int32)
+  id: SetHistoryLengthPrefValue(System.Int32)
+  parent: SuperOffice.CRM.Services.ViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: SetHistoryLengthPrefValue(Int32)
+  nameWithType: ViewStateAgent.SetHistoryLengthPrefValue(Int32)
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.SetHistoryLengthPrefValue(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSet the logged on user&apos;s preferred history list length.\n"
+  syntax:
+    content: public void SetHistoryLengthPrefValue(int length)
+    parameters:
+    - id: length
+      type: System.Int32
+      description: The new history list lenght
+    content.vb: Public Sub SetHistoryLengthPrefValue(length As Integer)
+  overload: SuperOffice.CRM.Services.ViewStateAgent.SetHistoryLengthPrefValue*
+  implements:
+  - SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValue(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ViewStateAgent.SaveCurrents(SuperOffice.CRM.Services.History[])
+  commentId: M:SuperOffice.CRM.Services.ViewStateAgent.SaveCurrents(SuperOffice.CRM.Services.History[])
+  id: SaveCurrents(SuperOffice.CRM.Services.History[])
+  parent: SuperOffice.CRM.Services.ViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveCurrents(History[])
+  nameWithType: ViewStateAgent.SaveCurrents(History[])
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.SaveCurrents(SuperOffice.CRM.Services.History[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSaves the history elements as the current value for their respective lists. If more than one item is submitted for the same list, they are added sequently, meaning that the last one is the most current.\n"
+  syntax:
+    content: public History[] SaveCurrents(History[] currents)
+    parameters:
+    - id: currents
+      type: SuperOffice.CRM.Services.History[]
+      description: Array of new history items to save.
+    return:
+      type: SuperOffice.CRM.Services.History[]
+      description: Array of the saved History items
+    content.vb: Public Function SaveCurrents(currents As History()) As History()
+  overload: SuperOffice.CRM.Services.ViewStateAgent.SaveCurrents*
+  implements:
+  - SuperOffice.CRM.Services.IViewStateAgent.SaveCurrents(SuperOffice.CRM.Services.History[])
+  nameWithType.vb: ViewStateAgent.SaveCurrents(History())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.ViewStateAgent.SaveCurrents(SuperOffice.CRM.Services.History())
+  name.vb: SaveCurrents(History())
+- uid: SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByNamesAndIds(SuperOffice.CRM.Services.HistoryRequest[])
+  commentId: M:SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByNamesAndIds(SuperOffice.CRM.Services.HistoryRequest[])
+  id: GetHistoriesByNamesAndIds(SuperOffice.CRM.Services.HistoryRequest[])
+  parent: SuperOffice.CRM.Services.ViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetHistoriesByNamesAndIds(HistoryRequest[])
+  nameWithType: ViewStateAgent.GetHistoriesByNamesAndIds(HistoryRequest[])
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByNamesAndIds(SuperOffice.CRM.Services.HistoryRequest[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns history data for the named entities and the given ids - which may not directly correspond to the current history records in the database.&lt;para/>Use this method if you know exactly which items you need, regardless of whether they are in the current history or not.&lt;para/>The history in the database is not changed or even looked at by this method.\n"
+  syntax:
+    content: public History[] GetHistoriesByNamesAndIds(HistoryRequest[] requests)
+    parameters:
+    - id: requests
+      type: SuperOffice.CRM.Services.HistoryRequest[]
+      description: Array of request objects that define what entities we are requesting history information for
+    return:
+      type: SuperOffice.CRM.Services.History[]
+      description: On history item for each history name/id pair specified, in exactly the same order as specified.&lt;para/>If a specified item cannot be found in the database, its Id will be 0 and its name will be blank in the return array.
+    content.vb: Public Function GetHistoriesByNamesAndIds(requests As HistoryRequest()) As History()
+  overload: SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByNamesAndIds*
+  implements:
+  - SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIds(SuperOffice.CRM.Services.HistoryRequest[])
+  nameWithType.vb: ViewStateAgent.GetHistoriesByNamesAndIds(HistoryRequest())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByNamesAndIds(SuperOffice.CRM.Services.HistoryRequest())
+  name.vb: GetHistoriesByNamesAndIds(HistoryRequest())
+- uid: SuperOffice.CRM.Services.ViewStateAgent.#ctor
+  commentId: M:SuperOffice.CRM.Services.ViewStateAgent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ViewStateAgent
+  langs:
+  - csharp
+  - vb
+  name: ViewStateAgent()
+  nameWithType: ViewStateAgent.ViewStateAgent()
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.ViewStateAgent()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public ViewStateAgent()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ViewStateAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IViewStateAgent}
+  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IViewStateAgent}
+  parent: SuperOffice.CRM.Services
+  definition: SuperOffice.CRM.Services.AgentBase`1
+  name: AgentBase<IViewStateAgent>
+  nameWithType: AgentBase<IViewStateAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IViewStateAgent>
+  nameWithType.vb: AgentBase(Of IViewStateAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IViewStateAgent)
+  name.vb: AgentBase(Of IViewStateAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.IViewStateAgent
+    name: IViewStateAgent
+    nameWithType: IViewStateAgent
+    fullName: SuperOffice.CRM.Services.IViewStateAgent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.IViewStateAgent
+    name: IViewStateAgent
+    nameWithType: IViewStateAgent
+    fullName: SuperOffice.CRM.Services.IViewStateAgent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.CRM.Services.IViewStateAgent
+  commentId: T:SuperOffice.CRM.Services.IViewStateAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IViewStateAgent
+  nameWithType: IViewStateAgent
+  fullName: SuperOffice.CRM.Services.IViewStateAgent
+- uid: SuperOffice.CRM.Services.IAgent
+  commentId: T:SuperOffice.CRM.Services.IAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAgent
+  nameWithType: IAgent
+  fullName: SuperOffice.CRM.Services.IAgent
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IViewStateAgent}.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IViewStateAgent}.Dispose
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IViewStateAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  name: Dispose()
+  nameWithType: AgentBase<IViewStateAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IViewStateAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of IViewStateAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IViewStateAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<IViewStateAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IViewStateAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of IViewStateAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IViewStateAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IViewStateAgent}.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IViewStateAgent}.InnerAgent
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IViewStateAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  name: InnerAgent
+  nameWithType: AgentBase<IViewStateAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IViewStateAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of IViewStateAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IViewStateAgent).InnerAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AgentBase`1
+  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+  isExternal: true
+  name: AgentBase<TAgent>
+  nameWithType: AgentBase<TAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
+  nameWithType.vb: AgentBase(Of TAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
+  name.vb: AgentBase(Of TAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase<TAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of TAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  isExternal: true
+  name: InnerAgent
+  nameWithType: AgentBase<TAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
+- uid: SuperOffice.CRM.Services.ViewStateAgent.GetHistory*
+  commentId: Overload:SuperOffice.CRM.Services.ViewStateAgent.GetHistory
+  isExternal: true
+  name: GetHistory
+  nameWithType: ViewStateAgent.GetHistory
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.GetHistory
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistory(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetHistory(System.Int32)
+  parent: SuperOffice.CRM.Services.IViewStateAgent
+  isExternal: true
+  name: GetHistory(Int32)
+  nameWithType: IViewStateAgent.GetHistory(Int32)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistory(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistory(System.Int32)
+    name: GetHistory
+    nameWithType: IViewStateAgent.GetHistory
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistory
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistory(System.Int32)
+    name: GetHistory
+    nameWithType: IViewStateAgent.GetHistory
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistory
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.History
+  commentId: T:SuperOffice.CRM.Services.History
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: History
+  nameWithType: History
+  fullName: SuperOffice.CRM.Services.History
+- uid: SuperOffice.CRM.Services.ViewStateAgent.GetCurrent*
+  commentId: Overload:SuperOffice.CRM.Services.ViewStateAgent.GetCurrent
+  isExternal: true
+  name: GetCurrent
+  nameWithType: ViewStateAgent.GetCurrent
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.GetCurrent
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetCurrent(System.String)
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetCurrent(System.String)
+  parent: SuperOffice.CRM.Services.IViewStateAgent
+  isExternal: true
+  name: GetCurrent(String)
+  nameWithType: IViewStateAgent.GetCurrent(String)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetCurrent(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.GetCurrent(System.String)
+    name: GetCurrent
+    nameWithType: IViewStateAgent.GetCurrent
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.GetCurrent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.GetCurrent(System.String)
+    name: GetCurrent
+    nameWithType: IViewStateAgent.GetCurrent
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.GetCurrent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ViewStateAgent.SaveCurrent*
+  commentId: Overload:SuperOffice.CRM.Services.ViewStateAgent.SaveCurrent
+  isExternal: true
+  name: SaveCurrent
+  nameWithType: ViewStateAgent.SaveCurrent
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.SaveCurrent
+- uid: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrent(SuperOffice.CRM.Services.History)
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.SaveCurrent(SuperOffice.CRM.Services.History)
+  parent: SuperOffice.CRM.Services.IViewStateAgent
+  isExternal: true
+  name: SaveCurrent(History)
+  nameWithType: IViewStateAgent.SaveCurrent(History)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrent(SuperOffice.CRM.Services.History)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrent(SuperOffice.CRM.Services.History)
+    name: SaveCurrent
+    nameWithType: IViewStateAgent.SaveCurrent
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.History
+    name: History
+    nameWithType: History
+    fullName: SuperOffice.CRM.Services.History
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrent(SuperOffice.CRM.Services.History)
+    name: SaveCurrent
+    nameWithType: IViewStateAgent.SaveCurrent
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.History
+    name: History
+    nameWithType: History
+    fullName: SuperOffice.CRM.Services.History
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ViewStateAgent.GetNextCurrent*
+  commentId: Overload:SuperOffice.CRM.Services.ViewStateAgent.GetNextCurrent
+  isExternal: true
+  name: GetNextCurrent
+  nameWithType: ViewStateAgent.GetNextCurrent
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.GetNextCurrent
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrent(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrent(System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.IViewStateAgent
+  isExternal: true
+  name: GetNextCurrent(String, Int32)
+  nameWithType: IViewStateAgent.GetNextCurrent(String, Int32)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrent(System.String, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrent(System.String,System.Int32)
+    name: GetNextCurrent
+    nameWithType: IViewStateAgent.GetNextCurrent
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrent(System.String,System.Int32)
+    name: GetNextCurrent
+    nameWithType: IViewStateAgent.GetNextCurrent
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ViewStateAgent.GetPreviousCurrent*
+  commentId: Overload:SuperOffice.CRM.Services.ViewStateAgent.GetPreviousCurrent
+  isExternal: true
+  name: GetPreviousCurrent
+  nameWithType: ViewStateAgent.GetPreviousCurrent
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.GetPreviousCurrent
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrent(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrent(System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.IViewStateAgent
+  isExternal: true
+  name: GetPreviousCurrent(String, Int32)
+  nameWithType: IViewStateAgent.GetPreviousCurrent(String, Int32)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrent(System.String, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrent(System.String,System.Int32)
+    name: GetPreviousCurrent
+    nameWithType: IViewStateAgent.GetPreviousCurrent
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrent(System.String,System.Int32)
+    name: GetPreviousCurrent
+    nameWithType: IViewStateAgent.GetPreviousCurrent
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ViewStateAgent.DeleteHistory*
+  commentId: Overload:SuperOffice.CRM.Services.ViewStateAgent.DeleteHistory
+  isExternal: true
+  name: DeleteHistory
+  nameWithType: ViewStateAgent.DeleteHistory
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.DeleteHistory
+- uid: SuperOffice.CRM.Services.IViewStateAgent.DeleteHistory(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.DeleteHistory(System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.IViewStateAgent
+  isExternal: true
+  name: DeleteHistory(String, Int32)
+  nameWithType: IViewStateAgent.DeleteHistory(String, Int32)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.DeleteHistory(System.String, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.DeleteHistory(System.String,System.Int32)
+    name: DeleteHistory
+    nameWithType: IViewStateAgent.DeleteHistory
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.DeleteHistory
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.DeleteHistory(System.String,System.Int32)
+    name: DeleteHistory
+    nameWithType: IViewStateAgent.DeleteHistory
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.DeleteHistory
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ViewStateAgent.GetHistories*
+  commentId: Overload:SuperOffice.CRM.Services.ViewStateAgent.GetHistories
+  isExternal: true
+  name: GetHistories
+  nameWithType: ViewStateAgent.GetHistories
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.GetHistories
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistories
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetHistories
+  parent: SuperOffice.CRM.Services.IViewStateAgent
+  isExternal: true
+  name: GetHistories()
+  nameWithType: IViewStateAgent.GetHistories()
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistories()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistories
+    name: GetHistories
+    nameWithType: IViewStateAgent.GetHistories
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistories
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistories
+    name: GetHistories
+    nameWithType: IViewStateAgent.GetHistories
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistories
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.History[]
+  isExternal: true
+  name: History[]
+  nameWithType: History[]
+  fullName: SuperOffice.CRM.Services.History[]
+  nameWithType.vb: History()
+  fullName.vb: SuperOffice.CRM.Services.History()
+  name.vb: History()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.History
+    name: History
+    nameWithType: History
+    fullName: SuperOffice.CRM.Services.History
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.History
+    name: History
+    nameWithType: History
+    fullName: SuperOffice.CRM.Services.History
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByName*
+  commentId: Overload:SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByName
+  isExternal: true
+  name: GetHistoriesByName
+  nameWithType: ViewStateAgent.GetHistoriesByName
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByName
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByName(System.String)
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByName(System.String)
+  parent: SuperOffice.CRM.Services.IViewStateAgent
+  isExternal: true
+  name: GetHistoriesByName(String)
+  nameWithType: IViewStateAgent.GetHistoriesByName(String)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByName(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByName(System.String)
+    name: GetHistoriesByName
+    nameWithType: IViewStateAgent.GetHistoriesByName
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByName(System.String)
+    name: GetHistoriesByName
+    nameWithType: IViewStateAgent.GetHistoriesByName
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByNames*
+  commentId: Overload:SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByNames
+  isExternal: true
+  name: GetHistoriesByNames
+  nameWithType: ViewStateAgent.GetHistoriesByNames
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByNames
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames(System.String[])
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames(System.String[])
+  parent: SuperOffice.CRM.Services.IViewStateAgent
+  isExternal: true
+  name: GetHistoriesByNames(String[])
+  nameWithType: IViewStateAgent.GetHistoriesByNames(String[])
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames(System.String[])
+  nameWithType.vb: IViewStateAgent.GetHistoriesByNames(String())
+  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames(System.String())
+  name.vb: GetHistoriesByNames(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames(System.String[])
+    name: GetHistoriesByNames
+    nameWithType: IViewStateAgent.GetHistoriesByNames
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames(System.String[])
+    name: GetHistoriesByNames
+    nameWithType: IViewStateAgent.GetHistoriesByNames
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ViewStateAgent.SaveHistories*
+  commentId: Overload:SuperOffice.CRM.Services.ViewStateAgent.SaveHistories
+  isExternal: true
+  name: SaveHistories
+  nameWithType: ViewStateAgent.SaveHistories
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.SaveHistories
+- uid: SuperOffice.CRM.Services.IViewStateAgent.SaveHistories(System.String,SuperOffice.CRM.Services.History[])
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.SaveHistories(System.String,SuperOffice.CRM.Services.History[])
+  parent: SuperOffice.CRM.Services.IViewStateAgent
+  isExternal: true
+  name: SaveHistories(String, History[])
+  nameWithType: IViewStateAgent.SaveHistories(String, History[])
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveHistories(System.String, SuperOffice.CRM.Services.History[])
+  nameWithType.vb: IViewStateAgent.SaveHistories(String, History())
+  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.SaveHistories(System.String, SuperOffice.CRM.Services.History())
+  name.vb: SaveHistories(String, History())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.SaveHistories(System.String,SuperOffice.CRM.Services.History[])
+    name: SaveHistories
+    nameWithType: IViewStateAgent.SaveHistories
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveHistories
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.History
+    name: History
+    nameWithType: History
+    fullName: SuperOffice.CRM.Services.History
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.SaveHistories(System.String,SuperOffice.CRM.Services.History[])
+    name: SaveHistories
+    nameWithType: IViewStateAgent.SaveHistories
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveHistories
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.History
+    name: History
+    nameWithType: History
+    fullName: SuperOffice.CRM.Services.History
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ViewStateAgent.GetHistoryLengthPrefValue*
+  commentId: Overload:SuperOffice.CRM.Services.ViewStateAgent.GetHistoryLengthPrefValue
+  isExternal: true
+  name: GetHistoryLengthPrefValue
+  nameWithType: ViewStateAgent.GetHistoryLengthPrefValue
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.GetHistoryLengthPrefValue
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValue
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValue
+  parent: SuperOffice.CRM.Services.IViewStateAgent
+  isExternal: true
+  name: GetHistoryLengthPrefValue()
+  nameWithType: IViewStateAgent.GetHistoryLengthPrefValue()
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValue()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValue
+    name: GetHistoryLengthPrefValue
+    nameWithType: IViewStateAgent.GetHistoryLengthPrefValue
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValue
+    name: GetHistoryLengthPrefValue
+    nameWithType: IViewStateAgent.GetHistoryLengthPrefValue
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ViewStateAgent.SetHistoryLengthPrefValue*
+  commentId: Overload:SuperOffice.CRM.Services.ViewStateAgent.SetHistoryLengthPrefValue
+  isExternal: true
+  name: SetHistoryLengthPrefValue
+  nameWithType: ViewStateAgent.SetHistoryLengthPrefValue
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.SetHistoryLengthPrefValue
+- uid: SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValue(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValue(System.Int32)
+  parent: SuperOffice.CRM.Services.IViewStateAgent
+  isExternal: true
+  name: SetHistoryLengthPrefValue(Int32)
+  nameWithType: IViewStateAgent.SetHistoryLengthPrefValue(Int32)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValue(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValue(System.Int32)
+    name: SetHistoryLengthPrefValue
+    nameWithType: IViewStateAgent.SetHistoryLengthPrefValue
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValue(System.Int32)
+    name: SetHistoryLengthPrefValue
+    nameWithType: IViewStateAgent.SetHistoryLengthPrefValue
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ViewStateAgent.SaveCurrents*
+  commentId: Overload:SuperOffice.CRM.Services.ViewStateAgent.SaveCurrents
+  isExternal: true
+  name: SaveCurrents
+  nameWithType: ViewStateAgent.SaveCurrents
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.SaveCurrents
+- uid: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrents(SuperOffice.CRM.Services.History[])
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.SaveCurrents(SuperOffice.CRM.Services.History[])
+  parent: SuperOffice.CRM.Services.IViewStateAgent
+  isExternal: true
+  name: SaveCurrents(History[])
+  nameWithType: IViewStateAgent.SaveCurrents(History[])
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrents(SuperOffice.CRM.Services.History[])
+  nameWithType.vb: IViewStateAgent.SaveCurrents(History())
+  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrents(SuperOffice.CRM.Services.History())
+  name.vb: SaveCurrents(History())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrents(SuperOffice.CRM.Services.History[])
+    name: SaveCurrents
+    nameWithType: IViewStateAgent.SaveCurrents
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrents
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.History
+    name: History
+    nameWithType: History
+    fullName: SuperOffice.CRM.Services.History
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrents(SuperOffice.CRM.Services.History[])
+    name: SaveCurrents
+    nameWithType: IViewStateAgent.SaveCurrents
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrents
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.History
+    name: History
+    nameWithType: History
+    fullName: SuperOffice.CRM.Services.History
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByNamesAndIds*
+  commentId: Overload:SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByNamesAndIds
+  isExternal: true
+  name: GetHistoriesByNamesAndIds
+  nameWithType: ViewStateAgent.GetHistoriesByNamesAndIds
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.GetHistoriesByNamesAndIds
+- uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIds(SuperOffice.CRM.Services.HistoryRequest[])
+  commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIds(SuperOffice.CRM.Services.HistoryRequest[])
+  parent: SuperOffice.CRM.Services.IViewStateAgent
+  isExternal: true
+  name: GetHistoriesByNamesAndIds(HistoryRequest[])
+  nameWithType: IViewStateAgent.GetHistoriesByNamesAndIds(HistoryRequest[])
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIds(SuperOffice.CRM.Services.HistoryRequest[])
+  nameWithType.vb: IViewStateAgent.GetHistoriesByNamesAndIds(HistoryRequest())
+  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIds(SuperOffice.CRM.Services.HistoryRequest())
+  name.vb: GetHistoriesByNamesAndIds(HistoryRequest())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIds(SuperOffice.CRM.Services.HistoryRequest[])
+    name: GetHistoriesByNamesAndIds
+    nameWithType: IViewStateAgent.GetHistoriesByNamesAndIds
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIds
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.HistoryRequest
+    name: HistoryRequest
+    nameWithType: HistoryRequest
+    fullName: SuperOffice.CRM.Services.HistoryRequest
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIds(SuperOffice.CRM.Services.HistoryRequest[])
+    name: GetHistoriesByNamesAndIds
+    nameWithType: IViewStateAgent.GetHistoriesByNamesAndIds
+    fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIds
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.HistoryRequest
+    name: HistoryRequest
+    nameWithType: HistoryRequest
+    fullName: SuperOffice.CRM.Services.HistoryRequest
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.HistoryRequest[]
+  isExternal: true
+  name: HistoryRequest[]
+  nameWithType: HistoryRequest[]
+  fullName: SuperOffice.CRM.Services.HistoryRequest[]
+  nameWithType.vb: HistoryRequest()
+  fullName.vb: SuperOffice.CRM.Services.HistoryRequest()
+  name.vb: HistoryRequest()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.HistoryRequest
+    name: HistoryRequest
+    nameWithType: HistoryRequest
+    fullName: SuperOffice.CRM.Services.HistoryRequest
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.HistoryRequest
+    name: HistoryRequest
+    nameWithType: HistoryRequest
+    fullName: SuperOffice.CRM.Services.HistoryRequest
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ViewStateAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ViewStateAgent.#ctor
+  isExternal: true
+  name: ViewStateAgent
+  nameWithType: ViewStateAgent.ViewStateAgent
+  fullName: SuperOffice.CRM.Services.ViewStateAgent.ViewStateAgent

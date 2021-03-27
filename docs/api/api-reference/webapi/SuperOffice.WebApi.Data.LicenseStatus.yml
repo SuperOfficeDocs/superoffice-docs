@@ -1,0 +1,339 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.LicenseStatus
+  commentId: T:SuperOffice.WebApi.Data.LicenseStatus
+  id: LicenseStatus
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.LicenseStatus.NewCompanyNameAvailable
+  - SuperOffice.WebApi.Data.LicenseStatus.NewLicenseAvailable
+  - SuperOffice.WebApi.Data.LicenseStatus.NewSerialAvailable
+  - SuperOffice.WebApi.Data.LicenseStatus.Ok
+  - SuperOffice.WebApi.Data.LicenseStatus.ProblemWithLicense
+  - SuperOffice.WebApi.Data.LicenseStatus.UnknownError
+  - SuperOffice.WebApi.Data.LicenseStatus.UseCustomMessage
+  - SuperOffice.WebApi.Data.LicenseStatus.UseCustomMessageAndUrl
+  - SuperOffice.WebApi.Data.LicenseStatus.value__
+  langs:
+  - csharp
+  - vb
+  name: LicenseStatus
+  nameWithType: LicenseStatus
+  fullName: SuperOffice.WebApi.Data.LicenseStatus
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUsed in the CheckLicenseStatusResult to describe how SOADMIN should handle\n"
+  syntax:
+    content: 'public sealed class LicenseStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class LicenseStatus
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.LicenseStatus.value__
+  commentId: F:SuperOffice.WebApi.Data.LicenseStatus.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.LicenseStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: LicenseStatus.value__
+  fullName: SuperOffice.WebApi.Data.LicenseStatus.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.LicenseStatus.Ok
+  commentId: F:SuperOffice.WebApi.Data.LicenseStatus.Ok
+  id: Ok
+  parent: SuperOffice.WebApi.Data.LicenseStatus
+  langs:
+  - csharp
+  - vb
+  name: Ok
+  nameWithType: LicenseStatus.Ok
+  fullName: SuperOffice.WebApi.Data.LicenseStatus.Ok
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: License is ok. No changes detected\n"
+  syntax:
+    content: public const LicenseStatus Ok
+    return:
+      type: SuperOffice.WebApi.Data.LicenseStatus
+    content.vb: Public Const Ok As LicenseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LicenseStatus.NewLicenseAvailable
+  commentId: F:SuperOffice.WebApi.Data.LicenseStatus.NewLicenseAvailable
+  id: NewLicenseAvailable
+  parent: SuperOffice.WebApi.Data.LicenseStatus
+  langs:
+  - csharp
+  - vb
+  name: NewLicenseAvailable
+  nameWithType: LicenseStatus.NewLicenseAvailable
+  fullName: SuperOffice.WebApi.Data.LicenseStatus.NewLicenseAvailable
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: New license information available. Get new license and activate it.\n"
+  syntax:
+    content: public const LicenseStatus NewLicenseAvailable
+    return:
+      type: SuperOffice.WebApi.Data.LicenseStatus
+    content.vb: Public Const NewLicenseAvailable As LicenseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LicenseStatus.NewCompanyNameAvailable
+  commentId: F:SuperOffice.WebApi.Data.LicenseStatus.NewCompanyNameAvailable
+  id: NewCompanyNameAvailable
+  parent: SuperOffice.WebApi.Data.LicenseStatus
+  langs:
+  - csharp
+  - vb
+  name: NewCompanyNameAvailable
+  nameWithType: LicenseStatus.NewCompanyNameAvailable
+  fullName: SuperOffice.WebApi.Data.LicenseStatus.NewCompanyNameAvailable
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Name change detected. Fetch new license and activate it.\n"
+  syntax:
+    content: public const LicenseStatus NewCompanyNameAvailable
+    return:
+      type: SuperOffice.WebApi.Data.LicenseStatus
+    content.vb: Public Const NewCompanyNameAvailable As LicenseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LicenseStatus.NewSerialAvailable
+  commentId: F:SuperOffice.WebApi.Data.LicenseStatus.NewSerialAvailable
+  id: NewSerialAvailable
+  parent: SuperOffice.WebApi.Data.LicenseStatus
+  langs:
+  - csharp
+  - vb
+  name: NewSerialAvailable
+  nameWithType: LicenseStatus.NewSerialAvailable
+  fullName: SuperOffice.WebApi.Data.LicenseStatus.NewSerialAvailable
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Serial number change detected. Fetch new license and activate it.\n"
+  syntax:
+    content: public const LicenseStatus NewSerialAvailable
+    return:
+      type: SuperOffice.WebApi.Data.LicenseStatus
+    content.vb: Public Const NewSerialAvailable As LicenseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LicenseStatus.UseCustomMessage
+  commentId: F:SuperOffice.WebApi.Data.LicenseStatus.UseCustomMessage
+  id: UseCustomMessage
+  parent: SuperOffice.WebApi.Data.LicenseStatus
+  langs:
+  - csharp
+  - vb
+  name: UseCustomMessage
+  nameWithType: LicenseStatus.UseCustomMessage
+  fullName: SuperOffice.WebApi.Data.LicenseStatus.UseCustomMessage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: See message for details.\n"
+  syntax:
+    content: public const LicenseStatus UseCustomMessage
+    return:
+      type: SuperOffice.WebApi.Data.LicenseStatus
+    content.vb: Public Const UseCustomMessage As LicenseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LicenseStatus.UseCustomMessageAndUrl
+  commentId: F:SuperOffice.WebApi.Data.LicenseStatus.UseCustomMessageAndUrl
+  id: UseCustomMessageAndUrl
+  parent: SuperOffice.WebApi.Data.LicenseStatus
+  langs:
+  - csharp
+  - vb
+  name: UseCustomMessageAndUrl
+  nameWithType: LicenseStatus.UseCustomMessageAndUrl
+  fullName: SuperOffice.WebApi.Data.LicenseStatus.UseCustomMessageAndUrl
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: See message and URL for details. Client should make URL clickable.\n"
+  syntax:
+    content: public const LicenseStatus UseCustomMessageAndUrl
+    return:
+      type: SuperOffice.WebApi.Data.LicenseStatus
+    content.vb: Public Const UseCustomMessageAndUrl As LicenseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LicenseStatus.ProblemWithLicense
+  commentId: F:SuperOffice.WebApi.Data.LicenseStatus.ProblemWithLicense
+  id: ProblemWithLicense
+  parent: SuperOffice.WebApi.Data.LicenseStatus
+  langs:
+  - csharp
+  - vb
+  name: ProblemWithLicense
+  nameWithType: LicenseStatus.ProblemWithLicense
+  fullName: SuperOffice.WebApi.Data.LicenseStatus.ProblemWithLicense
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n100: Something seems to be wrong. Cannot fetch new license.\n"
+  syntax:
+    content: public const LicenseStatus ProblemWithLicense
+    return:
+      type: SuperOffice.WebApi.Data.LicenseStatus
+    content.vb: Public Const ProblemWithLicense As LicenseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.LicenseStatus.UnknownError
+  commentId: F:SuperOffice.WebApi.Data.LicenseStatus.UnknownError
+  id: UnknownError
+  parent: SuperOffice.WebApi.Data.LicenseStatus
+  langs:
+  - csharp
+  - vb
+  name: UnknownError
+  nameWithType: LicenseStatus.UnknownError
+  fullName: SuperOffice.WebApi.Data.LicenseStatus.UnknownError
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5000: Bad things are happening.\n"
+  syntax:
+    content: public const LicenseStatus UnknownError
+    return:
+      type: SuperOffice.WebApi.Data.LicenseStatus
+    content.vb: Public Const UnknownError As LicenseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.LicenseStatus
+  commentId: T:SuperOffice.WebApi.Data.LicenseStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: LicenseStatus
+  nameWithType: LicenseStatus
+  fullName: SuperOffice.WebApi.Data.LicenseStatus

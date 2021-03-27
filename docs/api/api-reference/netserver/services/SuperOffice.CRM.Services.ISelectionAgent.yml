@@ -1,0 +1,2379 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ISelectionAgent
+  commentId: T:SuperOffice.CRM.Services.ISelectionAgent
+  id: ISelectionAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ISelectionAgent.AddContactSelectionMembers(System.Int32,SuperOffice.CRM.Services.ContactPersonId[])
+  - SuperOffice.CRM.Services.ISelectionAgent.AddContactSelectionMembersFromSearch(System.Int32,System.String)
+  - SuperOffice.CRM.Services.ISelectionAgent.AddRemoveContactSelectionMemberInterests(System.Int32,System.Int32[],System.Int32[],System.Int32[],System.Int32[])
+  - SuperOffice.CRM.Services.ISelectionAgent.AddSelectionMembers(System.Int32,System.Int32[])
+  - SuperOffice.CRM.Services.ISelectionAgent.AddSelectionMembersFromSearch(System.Int32,System.String)
+  - SuperOffice.CRM.Services.ISelectionAgent.CopyContactSelectionMembers(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.ISelectionAgent.CopySelectionMembers(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.ISelectionAgent.CreateContactSelectionFromSelection(System.Int32,System.String,SuperOffice.Data.SelectionType,System.Boolean)
+  - SuperOffice.CRM.Services.ISelectionAgent.CreateContactSelectionFromShadowSelection(System.Int32,System.String)
+  - SuperOffice.CRM.Services.ISelectionAgent.CreateDefaultMailMergeSettings
+  - SuperOffice.CRM.Services.ISelectionAgent.CreateDefaultMailMergeTask
+  - SuperOffice.CRM.Services.ISelectionAgent.CreateDefaultSelectionEntity
+  - SuperOffice.CRM.Services.ISelectionAgent.CreateNewEntry(SuperOffice.CRM.Services.DuplicateEntry)
+  - SuperOffice.CRM.Services.ISelectionAgent.CreateSelectionFromSelection(System.Int32,System.String,SuperOffice.Data.SelectionType,System.Boolean)
+  - SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelection
+  - SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIds(SuperOffice.CRM.Services.ContactPersonId[])
+  - SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembers(System.Int32)
+  - SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIds(System.Int32,System.Int32[])
+  - SuperOffice.CRM.Services.ISelectionAgent.CreateTemporarySelectionFromIds(System.Int32[],System.Int32)
+  - SuperOffice.CRM.Services.ISelectionAgent.DeleteContacts(System.Int32)
+  - SuperOffice.CRM.Services.ISelectionAgent.DeleteEntities(System.Int32)
+  - SuperOffice.CRM.Services.ISelectionAgent.DeletePersons(System.Int32)
+  - SuperOffice.CRM.Services.ISelectionAgent.DeleteSelectionEntity(System.Int32)
+  - SuperOffice.CRM.Services.ISelectionAgent.EditContactSelectionMemberDetails(System.Int32,SuperOffice.CRM.Services.SelectionMemberEditValues)
+  - SuperOffice.CRM.Services.ISelectionAgent.ExportSelectionMembers(System.Int32,System.String,System.Boolean)
+  - SuperOffice.CRM.Services.ISelectionAgent.ExportSelectionMembersWithOrderBy(System.Int32,System.String,System.Boolean,System.String)
+  - SuperOffice.CRM.Services.ISelectionAgent.GenerateFollowUps(System.Int32,SuperOffice.CRM.Services.AppointmentEntity,System.Int32,System.Boolean,System.Boolean)
+  - SuperOffice.CRM.Services.ISelectionAgent.GetDuplicateRules
+  - SuperOffice.CRM.Services.ISelectionAgent.GetDuplicates(System.String)
+  - SuperOffice.CRM.Services.ISelectionAgent.GetDynamicSelectionCriteria(System.Int32)
+  - SuperOffice.CRM.Services.ISelectionAgent.GetDynamicSelectionCriteriaGroups(System.Int32)
+  - SuperOffice.CRM.Services.ISelectionAgent.GetParentCombinedSelections(System.Int32)
+  - SuperOffice.CRM.Services.ISelectionAgent.GetRecipientStatistics(System.Int32)
+  - SuperOffice.CRM.Services.ISelectionAgent.GetRecipientStatisticsFromContactPersonIds(SuperOffice.CRM.Services.ContactPersonId[])
+  - SuperOffice.CRM.Services.ISelectionAgent.GetRecipientStatisticsFromProjectMembers(System.Int32)
+  - SuperOffice.CRM.Services.ISelectionAgent.GetSelectionEntity(System.Int32)
+  - SuperOffice.CRM.Services.ISelectionAgent.GetSelectionForFind(System.String,System.Int32)
+  - SuperOffice.CRM.Services.ISelectionAgent.GetSelectionMembersArchiveRows(System.Int32,System.String)
+  - SuperOffice.CRM.Services.ISelectionAgent.GetSelectionShadowMembersArchiveRows(System.Int32,System.String)
+  - SuperOffice.CRM.Services.ISelectionAgent.RemoveContactSelectionMembers(System.Int32,SuperOffice.CRM.Services.ContactPersonId[])
+  - SuperOffice.CRM.Services.ISelectionAgent.RemoveContactSelectionMembersFromIds(System.Int32,System.Int32[])
+  - SuperOffice.CRM.Services.ISelectionAgent.RemoveContactSelectionMembersFromSearch(System.Int32,System.String)
+  - SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembers(System.Int32,System.Int32[])
+  - SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembersById(System.Int32,System.Int32[])
+  - SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembersFromSearch(System.Int32,System.String)
+  - SuperOffice.CRM.Services.ISelectionAgent.SaveSelectionEntity(SuperOffice.CRM.Services.SelectionEntity)
+  - SuperOffice.CRM.Services.ISelectionAgent.SetDuplicateRulesStatus(SuperOffice.CRM.Services.DuplicateRule[])
+  - SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria(System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  - SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria2(System.Int32,System.String)
+  - SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria3(System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String)
+  - SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteriaGroups(System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup[])
+  - SuperOffice.CRM.Services.ISelectionAgent.StartMailMerge(SuperOffice.CRM.Services.MailMergeSettings)
+  - SuperOffice.CRM.Services.ISelectionAgent.UpdateTypicalSearch(SuperOffice.CRM.Services.TypicalSearches)
+  langs:
+  - csharp
+  - vb
+  name: ISelectionAgent
+  nameWithType: ISelectionAgent
+  fullName: SuperOffice.CRM.Services.ISelectionAgent
+  type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInterface for the Selection Agent\nSelections, entities, members and tasks\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (SelectionAgent agent = new SelectionAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: >-
+      [Agent("Selection Agent", "Interface for the Selection Agent. Selections, entities, members and tasks")]
+
+      public interface ISelectionAgent : IAgent
+    content.vb: >-
+      <Agent("Selection Agent", "Interface for the Selection Agent. Selections, entities, members and tasks")>
+
+      Public Interface ISelectionAgent
+          Inherits IAgent
+  attributes:
+  - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
+    ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: Selection Agent
+    - type: System.String
+      value: Interface for the Selection Agent. Selections, entities, members and tasks
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CreateDefaultMailMergeSettings
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.CreateDefaultMailMergeSettings
+  id: CreateDefaultMailMergeSettings
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultMailMergeSettings()
+  nameWithType: ISelectionAgent.CreateDefaultMailMergeSettings()
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateDefaultMailMergeSettings()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new MailMergeSettings.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: MailMergeSettings CreateDefaultMailMergeSettings()
+    return:
+      type: SuperOffice.CRM.Services.MailMergeSettings
+      description: New MailMergeSettings with default values
+    content.vb: Function CreateDefaultMailMergeSettings As MailMergeSettings
+  overload: SuperOffice.CRM.Services.ISelectionAgent.CreateDefaultMailMergeSettings*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CreateDefaultMailMergeTask
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.CreateDefaultMailMergeTask
+  id: CreateDefaultMailMergeTask
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultMailMergeTask()
+  nameWithType: ISelectionAgent.CreateDefaultMailMergeTask()
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateDefaultMailMergeTask()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new MailMergeTask.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: MailMergeTask CreateDefaultMailMergeTask()
+    return:
+      type: SuperOffice.CRM.Services.MailMergeTask
+      description: New MailMergeTask with default values
+    content.vb: Function CreateDefaultMailMergeTask As MailMergeTask
+  overload: SuperOffice.CRM.Services.ISelectionAgent.CreateDefaultMailMergeTask*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CreateDefaultSelectionEntity
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.CreateDefaultSelectionEntity
+  id: CreateDefaultSelectionEntity
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultSelectionEntity()
+  nameWithType: ISelectionAgent.CreateDefaultSelectionEntity()
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateDefaultSelectionEntity()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new SelectionEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: SelectionEntity CreateDefaultSelectionEntity()
+    return:
+      type: SuperOffice.CRM.Services.SelectionEntity
+      description: New SelectionEntity with default values
+    content.vb: Function CreateDefaultSelectionEntity As SelectionEntity
+  overload: SuperOffice.CRM.Services.ISelectionAgent.CreateDefaultSelectionEntity*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.SaveSelectionEntity(SuperOffice.CRM.Services.SelectionEntity)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.SaveSelectionEntity(SuperOffice.CRM.Services.SelectionEntity)
+  id: SaveSelectionEntity(SuperOffice.CRM.Services.SelectionEntity)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveSelectionEntity(SelectionEntity)
+  nameWithType: ISelectionAgent.SaveSelectionEntity(SelectionEntity)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.SaveSelectionEntity(SuperOffice.CRM.Services.SelectionEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing SelectionEntity or creates a new SelectionEntity if the id parameter is empty\n"
+  syntax:
+    content: SelectionEntity SaveSelectionEntity(SelectionEntity selectionEntity)
+    parameters:
+    - id: selectionEntity
+      type: SuperOffice.CRM.Services.SelectionEntity
+      description: The SelectionEntity that is saved.
+    return:
+      type: SuperOffice.CRM.Services.SelectionEntity
+      description: New or updated SelectionEntity
+    content.vb: Function SaveSelectionEntity(selectionEntity As SelectionEntity) As SelectionEntity
+  overload: SuperOffice.CRM.Services.ISelectionAgent.SaveSelectionEntity*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.DeleteSelectionEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.DeleteSelectionEntity(System.Int32)
+  id: DeleteSelectionEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteSelectionEntity(Int32)
+  nameWithType: ISelectionAgent.DeleteSelectionEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.DeleteSelectionEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the SelectionEntity\n"
+  syntax:
+    content: void DeleteSelectionEntity(int selectionEntityId)
+    parameters:
+    - id: selectionEntityId
+      type: System.Int32
+      description: The identity of the SelectionEntity
+    content.vb: Sub DeleteSelectionEntity(selectionEntityId As Integer)
+  overload: SuperOffice.CRM.Services.ISelectionAgent.DeleteSelectionEntity*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.GetSelectionEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.GetSelectionEntity(System.Int32)
+  id: GetSelectionEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSelectionEntity(Int32)
+  nameWithType: ISelectionAgent.GetSelectionEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.GetSelectionEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a SelectionEntity object.                        \n"
+  syntax:
+    content: SelectionEntity GetSelectionEntity(int selectionEntityId)
+    parameters:
+    - id: selectionEntityId
+      type: System.Int32
+      description: The identifier of the SelectionEntity object
+    return:
+      type: SuperOffice.CRM.Services.SelectionEntity
+      description: SelectionEntity
+    content.vb: Function GetSelectionEntity(selectionEntityId As Integer) As SelectionEntity
+  overload: SuperOffice.CRM.Services.ISelectionAgent.GetSelectionEntity*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CreateContactSelectionFromSelection(System.Int32,System.String,SuperOffice.Data.SelectionType,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.CreateContactSelectionFromSelection(System.Int32,System.String,SuperOffice.Data.SelectionType,System.Boolean)
+  id: CreateContactSelectionFromSelection(System.Int32,System.String,SuperOffice.Data.SelectionType,System.Boolean)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateContactSelectionFromSelection(Int32, String, SelectionType, Boolean)
+  nameWithType: ISelectionAgent.CreateContactSelectionFromSelection(Int32, String, SelectionType, Boolean)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateContactSelectionFromSelection(System.Int32, System.String, SuperOffice.Data.SelectionType, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreates a new selection based on selection members from an existing selection.\n"
+  syntax:
+    content: SelectionEntity CreateContactSelectionFromSelection(int selectionId, string name, SelectionType targetSelectionType, bool copyMembers)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to copy members from.
+    - id: name
+      type: System.String
+      description: The name of the new selection.
+    - id: targetSelectionType
+      type: SuperOffice.Data.SelectionType
+      description: The type of ContactSelection to create. The type can be static or dynamic. If the original selection to copy from is static, the SelectionType can only be static. If the original selection is dynamic, both a static and dynamic selection can be created.
+    - id: copyMembers
+      type: System.Boolean
+      description: If true, the members from the original selection will be added to the newly created selection.
+    return:
+      type: SuperOffice.CRM.Services.SelectionEntity
+      description: Returns the newly created SelectionEntity.
+    content.vb: Function CreateContactSelectionFromSelection(selectionId As Integer, name As String, targetSelectionType As SelectionType, copyMembers As Boolean) As SelectionEntity
+  overload: SuperOffice.CRM.Services.ISelectionAgent.CreateContactSelectionFromSelection*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIds(SuperOffice.CRM.Services.ContactPersonId[])
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIds(SuperOffice.CRM.Services.ContactPersonId[])
+  id: CreateTemporaryContactSelectionFromContactPersonIds(SuperOffice.CRM.Services.ContactPersonId[])
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateTemporaryContactSelectionFromContactPersonIds(ContactPersonId[])
+  nameWithType: ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIds(ContactPersonId[])
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIds(SuperOffice.CRM.Services.ContactPersonId[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreates a temporary selection with members from a collection of ContactPerson id&apos;s.\n"
+  syntax:
+    content: SelectionEntity CreateTemporaryContactSelectionFromContactPersonIds(ContactPersonId[] contactPersonIds)
+    parameters:
+    - id: contactPersonIds
+      type: SuperOffice.CRM.Services.ContactPersonId[]
+      description: A collection of ContactPersonId to copy into the temporary contact selection as members.
+    return:
+      type: SuperOffice.CRM.Services.SelectionEntity
+      description: Returns the newly created SelectionEntity.
+    content.vb: Function CreateTemporaryContactSelectionFromContactPersonIds(contactPersonIds As ContactPersonId()) As SelectionEntity
+  overload: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIds*
+  nameWithType.vb: ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIds(ContactPersonId())
+  fullName.vb: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIds(SuperOffice.CRM.Services.ContactPersonId())
+  name.vb: CreateTemporaryContactSelectionFromContactPersonIds(ContactPersonId())
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembers(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembers(System.Int32)
+  id: CreateTemporaryContactSelectionFromProjectMembers(System.Int32)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateTemporaryContactSelectionFromProjectMembers(Int32)
+  nameWithType: ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembers(Int32)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembers(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreates a temporary selection with members from an existing project.\n"
+  syntax:
+    content: SelectionEntity CreateTemporaryContactSelectionFromProjectMembers(int projectId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The id of the project to add members from.
+    return:
+      type: SuperOffice.CRM.Services.SelectionEntity
+      description: Returns the newly created SelectionEntity.
+    content.vb: Function CreateTemporaryContactSelectionFromProjectMembers(projectId As Integer) As SelectionEntity
+  overload: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembers*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CopyContactSelectionMembers(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.CopyContactSelectionMembers(System.Int32,System.Int32)
+  id: CopyContactSelectionMembers(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CopyContactSelectionMembers(Int32, Int32)
+  nameWithType: ISelectionAgent.CopyContactSelectionMembers(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CopyContactSelectionMembers(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCopy contact selection members from selection into an existing selection.\n"
+  syntax:
+    content: void CopyContactSelectionMembers(int fromSelectionId, int toSelectionId)
+    parameters:
+    - id: fromSelectionId
+      type: System.Int32
+      description: The id of the selection to copy members from.
+    - id: toSelectionId
+      type: System.Int32
+      description: The id of the selection to copy members to.
+    content.vb: Sub CopyContactSelectionMembers(fromSelectionId As Integer, toSelectionId As Integer)
+  overload: SuperOffice.CRM.Services.ISelectionAgent.CopyContactSelectionMembers*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.GetRecipientStatistics(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.GetRecipientStatistics(System.Int32)
+  id: GetRecipientStatistics(System.Int32)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetRecipientStatistics(Int32)
+  nameWithType: ISelectionAgent.GetRecipientStatistics(Int32)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.GetRecipientStatistics(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns a RecipientStatistics object with a count of addresses, emailaddresses and emailaddresses.\n"
+  syntax:
+    content: RecipientStatistics GetRecipientStatistics(int selectionId)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to get the statistics for.
+    return:
+      type: SuperOffice.CRM.Services.RecipientStatistics
+      description: Returns a RecipientStatistics object.
+    content.vb: Function GetRecipientStatistics(selectionId As Integer) As RecipientStatistics
+  overload: SuperOffice.CRM.Services.ISelectionAgent.GetRecipientStatistics*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.GetRecipientStatisticsFromProjectMembers(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.GetRecipientStatisticsFromProjectMembers(System.Int32)
+  id: GetRecipientStatisticsFromProjectMembers(System.Int32)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetRecipientStatisticsFromProjectMembers(Int32)
+  nameWithType: ISelectionAgent.GetRecipientStatisticsFromProjectMembers(Int32)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.GetRecipientStatisticsFromProjectMembers(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns a RecipientStatistics object with a count of addresses, emailaddresses and emailaddresses based on members in a project.\n"
+  syntax:
+    content: RecipientStatistics GetRecipientStatisticsFromProjectMembers(int projectId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The id of the project to get the member statistics for.
+    return:
+      type: SuperOffice.CRM.Services.RecipientStatistics
+      description: Returns a RecipientStatistics object.
+    content.vb: Function GetRecipientStatisticsFromProjectMembers(projectId As Integer) As RecipientStatistics
+  overload: SuperOffice.CRM.Services.ISelectionAgent.GetRecipientStatisticsFromProjectMembers*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.GetRecipientStatisticsFromContactPersonIds(SuperOffice.CRM.Services.ContactPersonId[])
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.GetRecipientStatisticsFromContactPersonIds(SuperOffice.CRM.Services.ContactPersonId[])
+  id: GetRecipientStatisticsFromContactPersonIds(SuperOffice.CRM.Services.ContactPersonId[])
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetRecipientStatisticsFromContactPersonIds(ContactPersonId[])
+  nameWithType: ISelectionAgent.GetRecipientStatisticsFromContactPersonIds(ContactPersonId[])
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.GetRecipientStatisticsFromContactPersonIds(SuperOffice.CRM.Services.ContactPersonId[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns a RecipientStatistics object with a count of addresses, emailaddresses and emailaddresses based on contact and persons in a collection of ContactPersonId.\n"
+  syntax:
+    content: RecipientStatistics GetRecipientStatisticsFromContactPersonIds(ContactPersonId[] contactPersonIds)
+    parameters:
+    - id: contactPersonIds
+      type: SuperOffice.CRM.Services.ContactPersonId[]
+      description: A collection of ContactPersonId to get the statistics for.
+    return:
+      type: SuperOffice.CRM.Services.RecipientStatistics
+      description: Returns a RecipientStatistics object.
+    content.vb: Function GetRecipientStatisticsFromContactPersonIds(contactPersonIds As ContactPersonId()) As RecipientStatistics
+  overload: SuperOffice.CRM.Services.ISelectionAgent.GetRecipientStatisticsFromContactPersonIds*
+  nameWithType.vb: ISelectionAgent.GetRecipientStatisticsFromContactPersonIds(ContactPersonId())
+  fullName.vb: SuperOffice.CRM.Services.ISelectionAgent.GetRecipientStatisticsFromContactPersonIds(SuperOffice.CRM.Services.ContactPersonId())
+  name.vb: GetRecipientStatisticsFromContactPersonIds(ContactPersonId())
+- uid: SuperOffice.CRM.Services.ISelectionAgent.AddContactSelectionMembers(System.Int32,SuperOffice.CRM.Services.ContactPersonId[])
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.AddContactSelectionMembers(System.Int32,SuperOffice.CRM.Services.ContactPersonId[])
+  id: AddContactSelectionMembers(System.Int32,SuperOffice.CRM.Services.ContactPersonId[])
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: AddContactSelectionMembers(Int32, ContactPersonId[])
+  nameWithType: ISelectionAgent.AddContactSelectionMembers(Int32, ContactPersonId[])
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.AddContactSelectionMembers(System.Int32, SuperOffice.CRM.Services.ContactPersonId[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAdds the collection of ContactPersonId as members to the static selection\n"
+  syntax:
+    content: void AddContactSelectionMembers(int selectionId, ContactPersonId[] contactPersonIds)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection where to members will be added to.
+    - id: contactPersonIds
+      type: SuperOffice.CRM.Services.ContactPersonId[]
+      description: A collection of ContactPersonId to add to the selection.
+    content.vb: Sub AddContactSelectionMembers(selectionId As Integer, contactPersonIds As ContactPersonId())
+  overload: SuperOffice.CRM.Services.ISelectionAgent.AddContactSelectionMembers*
+  nameWithType.vb: ISelectionAgent.AddContactSelectionMembers(Int32, ContactPersonId())
+  fullName.vb: SuperOffice.CRM.Services.ISelectionAgent.AddContactSelectionMembers(System.Int32, SuperOffice.CRM.Services.ContactPersonId())
+  name.vb: AddContactSelectionMembers(Int32, ContactPersonId())
+- uid: SuperOffice.CRM.Services.ISelectionAgent.RemoveContactSelectionMembers(System.Int32,SuperOffice.CRM.Services.ContactPersonId[])
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.RemoveContactSelectionMembers(System.Int32,SuperOffice.CRM.Services.ContactPersonId[])
+  id: RemoveContactSelectionMembers(System.Int32,SuperOffice.CRM.Services.ContactPersonId[])
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveContactSelectionMembers(Int32, ContactPersonId[])
+  nameWithType: ISelectionAgent.RemoveContactSelectionMembers(Int32, ContactPersonId[])
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.RemoveContactSelectionMembers(System.Int32, SuperOffice.CRM.Services.ContactPersonId[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRemoves members from the selection as  specified in the collection of ContactPersonId.\n"
+  syntax:
+    content: void RemoveContactSelectionMembers(int selectionId, ContactPersonId[] contactPersonIds)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection where to members will be removed.
+    - id: contactPersonIds
+      type: SuperOffice.CRM.Services.ContactPersonId[]
+      description: A collection of ContactPersonId to remove from the static selection.
+    content.vb: Sub RemoveContactSelectionMembers(selectionId As Integer, contactPersonIds As ContactPersonId())
+  overload: SuperOffice.CRM.Services.ISelectionAgent.RemoveContactSelectionMembers*
+  nameWithType.vb: ISelectionAgent.RemoveContactSelectionMembers(Int32, ContactPersonId())
+  fullName.vb: SuperOffice.CRM.Services.ISelectionAgent.RemoveContactSelectionMembers(System.Int32, SuperOffice.CRM.Services.ContactPersonId())
+  name.vb: RemoveContactSelectionMembers(Int32, ContactPersonId())
+- uid: SuperOffice.CRM.Services.ISelectionAgent.RemoveContactSelectionMembersFromIds(System.Int32,System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.RemoveContactSelectionMembersFromIds(System.Int32,System.Int32[])
+  id: RemoveContactSelectionMembersFromIds(System.Int32,System.Int32[])
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveContactSelectionMembersFromIds(Int32, Int32[])
+  nameWithType: ISelectionAgent.RemoveContactSelectionMembersFromIds(Int32, Int32[])
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.RemoveContactSelectionMembersFromIds(System.Int32, System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRemoves members from the selection using a collection a selectionmember id&apos;s. Members can only be removed from single selection.\n"
+  syntax:
+    content: void RemoveContactSelectionMembersFromIds(int selectionId, int[] selectionMembersIds)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection where to members will be removed.
+    - id: selectionMembersIds
+      type: System.Int32[]
+      description: An array of selectionmember id&apos;s to remove from the selection.
+    content.vb: Sub RemoveContactSelectionMembersFromIds(selectionId As Integer, selectionMembersIds As Integer())
+  overload: SuperOffice.CRM.Services.ISelectionAgent.RemoveContactSelectionMembersFromIds*
+  nameWithType.vb: ISelectionAgent.RemoveContactSelectionMembersFromIds(Int32, Int32())
+  fullName.vb: SuperOffice.CRM.Services.ISelectionAgent.RemoveContactSelectionMembersFromIds(System.Int32, System.Int32())
+  name.vb: RemoveContactSelectionMembersFromIds(Int32, Int32())
+- uid: SuperOffice.CRM.Services.ISelectionAgent.AddContactSelectionMembersFromSearch(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.AddContactSelectionMembersFromSearch(System.Int32,System.String)
+  id: AddContactSelectionMembersFromSearch(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: AddContactSelectionMembersFromSearch(Int32, String)
+  nameWithType: ISelectionAgent.AddContactSelectionMembersFromSearch(Int32, String)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.AddContactSelectionMembersFromSearch(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAdds members to the selection from the search result.\n"
+  syntax:
+    content: int AddContactSelectionMembersFromSearch(int selectionId, string storageKey)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to add members
+    - id: storageKey
+      type: System.String
+      description: Storage key to be interpreted by the restriction storage provider, when it fetches criteria for the search
+    return:
+      type: System.Int32
+      description: Number of members added
+    content.vb: Function AddContactSelectionMembersFromSearch(selectionId As Integer, storageKey As String) As Integer
+  overload: SuperOffice.CRM.Services.ISelectionAgent.AddContactSelectionMembersFromSearch*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.RemoveContactSelectionMembersFromSearch(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.RemoveContactSelectionMembersFromSearch(System.Int32,System.String)
+  id: RemoveContactSelectionMembersFromSearch(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveContactSelectionMembersFromSearch(Int32, String)
+  nameWithType: ISelectionAgent.RemoveContactSelectionMembersFromSearch(Int32, String)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.RemoveContactSelectionMembersFromSearch(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRemoves members from the selection using the search result.\n"
+  syntax:
+    content: int RemoveContactSelectionMembersFromSearch(int selectionId, string storageKey)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to remove members.
+    - id: storageKey
+      type: System.String
+      description: Storage key to be interpreted by the restriction storage provider, when it fetches criteria for the search.
+    return:
+      type: System.Int32
+      description: Number of members removed
+    content.vb: Function RemoveContactSelectionMembersFromSearch(selectionId As Integer, storageKey As String) As Integer
+  overload: SuperOffice.CRM.Services.ISelectionAgent.RemoveContactSelectionMembersFromSearch*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelection
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelection
+  id: CreateTemporaryContactSelection
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateTemporaryContactSelection()
+  nameWithType: ISelectionAgent.CreateTemporaryContactSelection()
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelection()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreates a temporary selection.\n"
+  syntax:
+    content: SelectionEntity CreateTemporaryContactSelection()
+    return:
+      type: SuperOffice.CRM.Services.SelectionEntity
+      description: Returns the newly created SelectionEntity.
+    content.vb: Function CreateTemporaryContactSelection As SelectionEntity
+  overload: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelection*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIds(System.Int32,System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIds(System.Int32,System.Int32[])
+  id: CreateTemporaryContactSelectionFromSelectionMemberIds(System.Int32,System.Int32[])
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateTemporaryContactSelectionFromSelectionMemberIds(Int32, Int32[])
+  nameWithType: ISelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIds(Int32, Int32[])
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIds(System.Int32, System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreates a temporary selection with members from a collection of selectionmember id&apos;s.\n"
+  syntax:
+    content: SelectionEntity CreateTemporaryContactSelectionFromSelectionMemberIds(int selectionId, int[] selectionMemberIds)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The selectionId the selectionmembers is a part of.
+    - id: selectionMemberIds
+      type: System.Int32[]
+      description: A collection of int ids to copy into the temporary contact selection as members.
+    return:
+      type: SuperOffice.CRM.Services.SelectionEntity
+      description: Returns the newly created SelectionEntity.
+    content.vb: Function CreateTemporaryContactSelectionFromSelectionMemberIds(selectionId As Integer, selectionMemberIds As Integer()) As SelectionEntity
+  overload: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIds*
+  nameWithType.vb: ISelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIds(Int32, Int32())
+  fullName.vb: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIds(System.Int32, System.Int32())
+  name.vb: CreateTemporaryContactSelectionFromSelectionMemberIds(Int32, Int32())
+- uid: SuperOffice.CRM.Services.ISelectionAgent.AddRemoveContactSelectionMemberInterests(System.Int32,System.Int32[],System.Int32[],System.Int32[],System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.AddRemoveContactSelectionMemberInterests(System.Int32,System.Int32[],System.Int32[],System.Int32[],System.Int32[])
+  id: AddRemoveContactSelectionMemberInterests(System.Int32,System.Int32[],System.Int32[],System.Int32[],System.Int32[])
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: AddRemoveContactSelectionMemberInterests(Int32, Int32[], Int32[], Int32[], Int32[])
+  nameWithType: ISelectionAgent.AddRemoveContactSelectionMemberInterests(Int32, Int32[], Int32[], Int32[], Int32[])
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.AddRemoveContactSelectionMemberInterests(System.Int32, System.Int32[], System.Int32[], System.Int32[], System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAdds or removes interests on companies and persons in a selection.\n"
+  syntax:
+    content: void AddRemoveContactSelectionMemberInterests(int selectionId, int[] addCompanyInterests, int[] removeCompanyInterests, int[] addContactInterests, int[] removeContactInterests)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to add or remove interests members from.
+    - id: addCompanyInterests
+      type: System.Int32[]
+      description: Array of int containing the id&apos;s of the interests to add to the company.
+    - id: removeCompanyInterests
+      type: System.Int32[]
+      description: Array of int containing the id&apos;s of the interests to remove from the company.
+    - id: addContactInterests
+      type: System.Int32[]
+      description: Array of int containing the id&apos;s of the interests to add to the contact.
+    - id: removeContactInterests
+      type: System.Int32[]
+      description: Array of int containing the id&apos;s of the interests to remove from the contact.
+    content.vb: Sub AddRemoveContactSelectionMemberInterests(selectionId As Integer, addCompanyInterests As Integer(), removeCompanyInterests As Integer(), addContactInterests As Integer(), removeContactInterests As Integer())
+  overload: SuperOffice.CRM.Services.ISelectionAgent.AddRemoveContactSelectionMemberInterests*
+  nameWithType.vb: ISelectionAgent.AddRemoveContactSelectionMemberInterests(Int32, Int32(), Int32(), Int32(), Int32())
+  fullName.vb: SuperOffice.CRM.Services.ISelectionAgent.AddRemoveContactSelectionMemberInterests(System.Int32, System.Int32(), System.Int32(), System.Int32(), System.Int32())
+  name.vb: AddRemoveContactSelectionMemberInterests(Int32, Int32(), Int32(), Int32(), Int32())
+- uid: SuperOffice.CRM.Services.ISelectionAgent.EditContactSelectionMemberDetails(System.Int32,SuperOffice.CRM.Services.SelectionMemberEditValues)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.EditContactSelectionMemberDetails(System.Int32,SuperOffice.CRM.Services.SelectionMemberEditValues)
+  id: EditContactSelectionMemberDetails(System.Int32,SuperOffice.CRM.Services.SelectionMemberEditValues)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: EditContactSelectionMemberDetails(Int32, SelectionMemberEditValues)
+  nameWithType: ISelectionAgent.EditContactSelectionMemberDetails(Int32, SelectionMemberEditValues)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.EditContactSelectionMemberDetails(System.Int32, SuperOffice.CRM.Services.SelectionMemberEditValues)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEdit company and contact details in a selection based on contents in selectionMemberEditValues.\n"
+  syntax:
+    content: void EditContactSelectionMemberDetails(int selectionId, SelectionMemberEditValues selectionMemberEditValues)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to edit members from.
+    - id: selectionMemberEditValues
+      type: SuperOffice.CRM.Services.SelectionMemberEditValues
+      description: An object of &lt;see cref=&quot;SelectionMemberEditValues&quot;/> describing what should be changed for companys and contacts.
+    content.vb: Sub EditContactSelectionMemberDetails(selectionId As Integer, selectionMemberEditValues As SelectionMemberEditValues)
+  overload: SuperOffice.CRM.Services.ISelectionAgent.EditContactSelectionMemberDetails*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.GenerateFollowUps(System.Int32,SuperOffice.CRM.Services.AppointmentEntity,System.Int32,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.GenerateFollowUps(System.Int32,SuperOffice.CRM.Services.AppointmentEntity,System.Int32,System.Boolean,System.Boolean)
+  id: GenerateFollowUps(System.Int32,SuperOffice.CRM.Services.AppointmentEntity,System.Int32,System.Boolean,System.Boolean)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GenerateFollowUps(Int32, AppointmentEntity, Int32, Boolean, Boolean)
+  nameWithType: ISelectionAgent.GenerateFollowUps(Int32, AppointmentEntity, Int32, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.GenerateFollowUps(System.Int32, SuperOffice.CRM.Services.AppointmentEntity, System.Int32, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGenerate follow-ups for members in the selection.\n"
+  syntax:
+    content: void GenerateFollowUps(int selectionId, AppointmentEntity appointmentEntity, int associateId, bool saveOnContactOwner, bool uniqueContact)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to generate the follow-ups for.
+    - id: appointmentEntity
+      type: SuperOffice.CRM.Services.AppointmentEntity
+      description: The AppointmentEntity with information about the appointment.
+    - id: associateId
+      type: System.Int32
+      description: The associate to save the appointments on. If saveOnContactOwner is true, this id will be ignored. Appointments wil be saved on current user if associateId = 0.
+    - id: saveOnContactOwner
+      type: System.Boolean
+      description: If true, the appointments will be saved on contact owner (Our contact). This parameter will override associateId if true.
+    - id: uniqueContact
+      type: System.Boolean
+      description: If true, only one appointment will be created for each contact.
+    content.vb: Sub GenerateFollowUps(selectionId As Integer, appointmentEntity As AppointmentEntity, associateId As Integer, saveOnContactOwner As Boolean, uniqueContact As Boolean)
+  overload: SuperOffice.CRM.Services.ISelectionAgent.GenerateFollowUps*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.ExportSelectionMembers(System.Int32,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.ExportSelectionMembers(System.Int32,System.String,System.Boolean)
+  id: ExportSelectionMembers(System.Int32,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: ExportSelectionMembers(Int32, String, Boolean)
+  nameWithType: ISelectionAgent.ExportSelectionMembers(Int32, String, Boolean)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.ExportSelectionMembers(System.Int32, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nExportSelectionMembers will generate a string that is the result of substituting the template variables with values from selectionmembers.\n"
+  syntax:
+    content: byte[] ExportSelectionMembers(int selectionId, string templateName, bool useContacts)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to generate the exported file.
+    - id: templateName
+      type: System.String
+      description: The templateName parameter is the relative path of a .sxf file template. The .sxf files can be found in \template or in the user folder of the so archive.
+    - id: useContacts
+      type: System.Boolean
+      description: If the selection contains other members than contacts, setting this to true will export the contact archive of the selection.
+    return:
+      type: System.Byte[]
+      description: Returns a unicode byte array with the file to export to the user.
+    content.vb: Function ExportSelectionMembers(selectionId As Integer, templateName As String, useContacts As Boolean) As Byte()
+  overload: SuperOffice.CRM.Services.ISelectionAgent.ExportSelectionMembers*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.ExportSelectionMembersWithOrderBy(System.Int32,System.String,System.Boolean,System.String)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.ExportSelectionMembersWithOrderBy(System.Int32,System.String,System.Boolean,System.String)
+  id: ExportSelectionMembersWithOrderBy(System.Int32,System.String,System.Boolean,System.String)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: ExportSelectionMembersWithOrderBy(Int32, String, Boolean, String)
+  nameWithType: ISelectionAgent.ExportSelectionMembersWithOrderBy(Int32, String, Boolean, String)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.ExportSelectionMembersWithOrderBy(System.Int32, System.String, System.Boolean, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nExportSelectionMembers will generate a string that is the result of substituting the template variables with values from selectionmembers.\n"
+  syntax:
+    content: byte[] ExportSelectionMembersWithOrderBy(int selectionId, string templateName, bool useContacts, string orderBy)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to generate the exported file.
+    - id: templateName
+      type: System.String
+      description: The templateName parameter is the relative path of a .sxf file template. The .sxf files can be found in \template or in the user folder of the so archive.
+    - id: useContacts
+      type: System.Boolean
+      description: If the selection contains other members than contacts, setting this to true will export the contact archive of the selection.
+    - id: orderBy
+      type: System.String
+      description: OrderBy. &lt;Column,OrderBySortType>
+    return:
+      type: System.Byte[]
+      description: Returns a unicode byte array with the file to export to the user.
+    content.vb: Function ExportSelectionMembersWithOrderBy(selectionId As Integer, templateName As String, useContacts As Boolean, orderBy As String) As Byte()
+  overload: SuperOffice.CRM.Services.ISelectionAgent.ExportSelectionMembersWithOrderBy*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.StartMailMerge(SuperOffice.CRM.Services.MailMergeSettings)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.StartMailMerge(SuperOffice.CRM.Services.MailMergeSettings)
+  id: StartMailMerge(SuperOffice.CRM.Services.MailMergeSettings)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: StartMailMerge(MailMergeSettings)
+  nameWithType: ISelectionAgent.StartMailMerge(MailMergeSettings)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.StartMailMerge(SuperOffice.CRM.Services.MailMergeSettings)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStart a mailmerge operation with specified settings.\n"
+  syntax:
+    content: void StartMailMerge(MailMergeSettings settings)
+    parameters:
+    - id: settings
+      type: SuperOffice.CRM.Services.MailMergeSettings
+      description: All settings needed to perform the mailmerge operation.
+    content.vb: Sub StartMailMerge(settings As MailMergeSettings)
+  overload: SuperOffice.CRM.Services.ISelectionAgent.StartMailMerge*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.SetDuplicateRulesStatus(SuperOffice.CRM.Services.DuplicateRule[])
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.SetDuplicateRulesStatus(SuperOffice.CRM.Services.DuplicateRule[])
+  id: SetDuplicateRulesStatus(SuperOffice.CRM.Services.DuplicateRule[])
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: SetDuplicateRulesStatus(DuplicateRule[])
+  nameWithType: ISelectionAgent.SetDuplicateRulesStatus(DuplicateRule[])
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.SetDuplicateRulesStatus(SuperOffice.CRM.Services.DuplicateRule[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSet which duplicate rules should be active or not\n"
+  syntax:
+    content: void SetDuplicateRulesStatus(DuplicateRule[] rules)
+    parameters:
+    - id: rules
+      type: SuperOffice.CRM.Services.DuplicateRule[]
+      description: Duplicate rules to update active status for
+    content.vb: Sub SetDuplicateRulesStatus(rules As DuplicateRule())
+  overload: SuperOffice.CRM.Services.ISelectionAgent.SetDuplicateRulesStatus*
+  nameWithType.vb: ISelectionAgent.SetDuplicateRulesStatus(DuplicateRule())
+  fullName.vb: SuperOffice.CRM.Services.ISelectionAgent.SetDuplicateRulesStatus(SuperOffice.CRM.Services.DuplicateRule())
+  name.vb: SetDuplicateRulesStatus(DuplicateRule())
+- uid: SuperOffice.CRM.Services.ISelectionAgent.GetDuplicates(System.String)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.GetDuplicates(System.String)
+  id: GetDuplicates(System.String)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDuplicates(String)
+  nameWithType: ISelectionAgent.GetDuplicates(String)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.GetDuplicates(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet duplicates(exact or similar in the database) based on the name\n"
+  syntax:
+    content: DuplicateEntry[] GetDuplicates(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name used for lookup
+    return:
+      type: SuperOffice.CRM.Services.DuplicateEntry[]
+      description: Any records matching the specified name
+    content.vb: Function GetDuplicates(name As String) As DuplicateEntry()
+  overload: SuperOffice.CRM.Services.ISelectionAgent.GetDuplicates*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.GetDuplicateRules
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.GetDuplicateRules
+  id: GetDuplicateRules
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDuplicateRules()
+  nameWithType: ISelectionAgent.GetDuplicateRules()
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.GetDuplicateRules()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRetrieve all available duplicate rules for selection\n"
+  syntax:
+    content: DuplicateRule[] GetDuplicateRules()
+    return:
+      type: SuperOffice.CRM.Services.DuplicateRule[]
+      description: All available duplicate rules
+    content.vb: Function GetDuplicateRules As DuplicateRule()
+  overload: SuperOffice.CRM.Services.ISelectionAgent.GetDuplicateRules*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CreateNewEntry(SuperOffice.CRM.Services.DuplicateEntry)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.CreateNewEntry(SuperOffice.CRM.Services.DuplicateEntry)
+  id: CreateNewEntry(SuperOffice.CRM.Services.DuplicateEntry)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateNewEntry(DuplicateEntry)
+  nameWithType: ISelectionAgent.CreateNewEntry(DuplicateEntry)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateNewEntry(SuperOffice.CRM.Services.DuplicateEntry)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreates a new selection based on external duplicate\n"
+  syntax:
+    content: int CreateNewEntry(DuplicateEntry duplicate)
+    parameters:
+    - id: duplicate
+      type: SuperOffice.CRM.Services.DuplicateEntry
+      description: The duplicate to create a new entry based upon
+    return:
+      type: System.Int32
+      description: The database identity of the newly created entry
+    content.vb: Function CreateNewEntry(duplicate As DuplicateEntry) As Integer
+  overload: SuperOffice.CRM.Services.ISelectionAgent.CreateNewEntry*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.DeleteContacts(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.DeleteContacts(System.Int32)
+  id: DeleteContacts(System.Int32)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteContacts(Int32)
+  nameWithType: ISelectionAgent.DeleteContacts(Int32)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.DeleteContacts(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes all contacts from a selection. If a contact does not have delete rights, it will be skipped.\n"
+  syntax:
+    content: void DeleteContacts(int selectionId)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: Id of the selection the delete operation will be performed.
+    content.vb: Sub DeleteContacts(selectionId As Integer)
+  overload: SuperOffice.CRM.Services.ISelectionAgent.DeleteContacts*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.AddSelectionMembers(System.Int32,System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.AddSelectionMembers(System.Int32,System.Int32[])
+  id: AddSelectionMembers(System.Int32,System.Int32[])
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: AddSelectionMembers(Int32, Int32[])
+  nameWithType: ISelectionAgent.AddSelectionMembers(Int32, Int32[])
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.AddSelectionMembers(System.Int32, System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAdd selection members to a static selection of type others than contacts.\n"
+  syntax:
+    content: int AddSelectionMembers(int selectionId, int[] ids)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The selection id to add the members to.
+    - id: ids
+      type: System.Int32[]
+      description: Collection of ids to add to the selection.
+    return:
+      type: System.Int32
+      description: Returns number of members added to the selection.
+    content.vb: Function AddSelectionMembers(selectionId As Integer, ids As Integer()) As Integer
+  overload: SuperOffice.CRM.Services.ISelectionAgent.AddSelectionMembers*
+  nameWithType.vb: ISelectionAgent.AddSelectionMembers(Int32, Int32())
+  fullName.vb: SuperOffice.CRM.Services.ISelectionAgent.AddSelectionMembers(System.Int32, System.Int32())
+  name.vb: AddSelectionMembers(Int32, Int32())
+- uid: SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembers(System.Int32,System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembers(System.Int32,System.Int32[])
+  id: RemoveSelectionMembers(System.Int32,System.Int32[])
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveSelectionMembers(Int32, Int32[])
+  nameWithType: ISelectionAgent.RemoveSelectionMembers(Int32, Int32[])
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembers(System.Int32, System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRemoves members from the selection as  specified in the collection of entity ids. The ids are selection member ids (selection member primary key)\n"
+  syntax:
+    content: void RemoveSelectionMembers(int selectionId, int[] selectionMemberIds)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection where to members will be removed.
+    - id: selectionMemberIds
+      type: System.Int32[]
+      description: Selection member primary keys
+    content.vb: Sub RemoveSelectionMembers(selectionId As Integer, selectionMemberIds As Integer())
+  overload: SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembers*
+  nameWithType.vb: ISelectionAgent.RemoveSelectionMembers(Int32, Int32())
+  fullName.vb: SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembers(System.Int32, System.Int32())
+  name.vb: RemoveSelectionMembers(Int32, Int32())
+- uid: SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembersById(System.Int32,System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembersById(System.Int32,System.Int32[])
+  id: RemoveSelectionMembersById(System.Int32,System.Int32[])
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveSelectionMembersById(Int32, Int32[])
+  nameWithType: ISelectionAgent.RemoveSelectionMembersById(Int32, Int32[])
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembersById(System.Int32, System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRemoves members from the selection as specified in the collection of entity ids. The ids can be a collection of sale ids, or other supported types.\n"
+  syntax:
+    content: void RemoveSelectionMembersById(int selectionId, int[] ids)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection where to members will be removed.
+    - id: ids
+      type: System.Int32[]
+      description: A collection of sale/project/contact ids to remove from the selection. The ids can be a collection of sale ids, or other supported types.
+    content.vb: Sub RemoveSelectionMembersById(selectionId As Integer, ids As Integer())
+  overload: SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembersById*
+  nameWithType.vb: ISelectionAgent.RemoveSelectionMembersById(Int32, Int32())
+  fullName.vb: SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembersById(System.Int32, System.Int32())
+  name.vb: RemoveSelectionMembersById(Int32, Int32())
+- uid: SuperOffice.CRM.Services.ISelectionAgent.AddSelectionMembersFromSearch(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.AddSelectionMembersFromSearch(System.Int32,System.String)
+  id: AddSelectionMembersFromSearch(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: AddSelectionMembersFromSearch(Int32, String)
+  nameWithType: ISelectionAgent.AddSelectionMembersFromSearch(Int32, String)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.AddSelectionMembersFromSearch(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAdds members from the selection using the search result.\n"
+  syntax:
+    content: int AddSelectionMembersFromSearch(int selectionId, string storageKey)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to add members
+    - id: storageKey
+      type: System.String
+      description: Storage key to be interpreted by the restriction storage provider, when it fetches criteria for the search
+    return:
+      type: System.Int32
+      description: Number of members added.
+    content.vb: Function AddSelectionMembersFromSearch(selectionId As Integer, storageKey As String) As Integer
+  overload: SuperOffice.CRM.Services.ISelectionAgent.AddSelectionMembersFromSearch*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembersFromSearch(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembersFromSearch(System.Int32,System.String)
+  id: RemoveSelectionMembersFromSearch(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveSelectionMembersFromSearch(Int32, String)
+  nameWithType: ISelectionAgent.RemoveSelectionMembersFromSearch(Int32, String)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembersFromSearch(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRemoves members from the selection using the search result.\n"
+  syntax:
+    content: int RemoveSelectionMembersFromSearch(int selectionId, string storageKey)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to remove members.
+    - id: storageKey
+      type: System.String
+      description: Storage key to be interpreted by the restriction storage provider, when it fetches criteria for the search.
+    return:
+      type: System.Int32
+      description: Number of members removed
+    content.vb: Function RemoveSelectionMembersFromSearch(selectionId As Integer, storageKey As String) As Integer
+  overload: SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembersFromSearch*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CopySelectionMembers(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.CopySelectionMembers(System.Int32,System.Int32)
+  id: CopySelectionMembers(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CopySelectionMembers(Int32, Int32)
+  nameWithType: ISelectionAgent.CopySelectionMembers(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CopySelectionMembers(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCopy selection members from selection into an existing selection.\n"
+  syntax:
+    content: void CopySelectionMembers(int fromSelectionId, int toSelectionId)
+    parameters:
+    - id: fromSelectionId
+      type: System.Int32
+      description: The id of the selection to copy members from.
+    - id: toSelectionId
+      type: System.Int32
+      description: The id of the selection to copy members to.
+    content.vb: Sub CopySelectionMembers(fromSelectionId As Integer, toSelectionId As Integer)
+  overload: SuperOffice.CRM.Services.ISelectionAgent.CopySelectionMembers*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporarySelectionFromIds(System.Int32[],System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.CreateTemporarySelectionFromIds(System.Int32[],System.Int32)
+  id: CreateTemporarySelectionFromIds(System.Int32[],System.Int32)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateTemporarySelectionFromIds(Int32[], Int32)
+  nameWithType: ISelectionAgent.CreateTemporarySelectionFromIds(Int32[], Int32)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporarySelectionFromIds(System.Int32[], System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreates a temporary selection with members from a collection of entity id&apos;s.\n"
+  syntax:
+    content: SelectionEntity CreateTemporarySelectionFromIds(int[] ids, int targetTableNumber)
+    parameters:
+    - id: ids
+      type: System.Int32[]
+      description: A collection of Ids to copy into the temporary selection as members. The ids are primary keys of entities defined by the targetTableNumber parameter.
+    - id: targetTableNumber
+      type: System.Int32
+      description: The type of selection to create.
+    return:
+      type: SuperOffice.CRM.Services.SelectionEntity
+      description: Returns the newly created SelectionEntity.
+    content.vb: Function CreateTemporarySelectionFromIds(ids As Integer(), targetTableNumber As Integer) As SelectionEntity
+  overload: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporarySelectionFromIds*
+  nameWithType.vb: ISelectionAgent.CreateTemporarySelectionFromIds(Int32(), Int32)
+  fullName.vb: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporarySelectionFromIds(System.Int32(), System.Int32)
+  name.vb: CreateTemporarySelectionFromIds(Int32(), Int32)
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CreateSelectionFromSelection(System.Int32,System.String,SuperOffice.Data.SelectionType,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.CreateSelectionFromSelection(System.Int32,System.String,SuperOffice.Data.SelectionType,System.Boolean)
+  id: CreateSelectionFromSelection(System.Int32,System.String,SuperOffice.Data.SelectionType,System.Boolean)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateSelectionFromSelection(Int32, String, SelectionType, Boolean)
+  nameWithType: ISelectionAgent.CreateSelectionFromSelection(Int32, String, SelectionType, Boolean)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateSelectionFromSelection(System.Int32, System.String, SuperOffice.Data.SelectionType, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreates a new selection based on selection members from an existing selection.\n"
+  syntax:
+    content: SelectionEntity CreateSelectionFromSelection(int selectionId, string name, SelectionType targetSelectionType, bool copyMembers)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to copy members from.
+    - id: name
+      type: System.String
+      description: The name of the new selection.
+    - id: targetSelectionType
+      type: SuperOffice.Data.SelectionType
+      description: The type of Selection to create. The type can be static or dynamic. If the original selection to copy from is static, the SelectionType can only be static. If the original selection is dynamic, both a static and dynamic selection can be created.
+    - id: copyMembers
+      type: System.Boolean
+      description: If true, the members from the original selection will be added to the newly created selection.
+    return:
+      type: SuperOffice.CRM.Services.SelectionEntity
+      description: Returns the newly created SelectionEntity.
+    content.vb: Function CreateSelectionFromSelection(selectionId As Integer, name As String, targetSelectionType As SelectionType, copyMembers As Boolean) As SelectionEntity
+  overload: SuperOffice.CRM.Services.ISelectionAgent.CreateSelectionFromSelection*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CreateContactSelectionFromShadowSelection(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.CreateContactSelectionFromShadowSelection(System.Int32,System.String)
+  id: CreateContactSelectionFromShadowSelection(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateContactSelectionFromShadowSelection(Int32, String)
+  nameWithType: ISelectionAgent.CreateContactSelectionFromShadowSelection(Int32, String)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateContactSelectionFromShadowSelection(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreates a new contact selection based on contact selection members from an existing shadow sale, appointment, project or document selection. The new selection will always be static even if the original selection is dynamic.\n"
+  syntax:
+    content: SelectionEntity CreateContactSelectionFromShadowSelection(int selectionId, string name)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to copy members from.
+    - id: name
+      type: System.String
+      description: The name of the new selection.
+    return:
+      type: SuperOffice.CRM.Services.SelectionEntity
+      description: Returns the newly created SelectionEntity.
+    content.vb: Function CreateContactSelectionFromShadowSelection(selectionId As Integer, name As String) As SelectionEntity
+  overload: SuperOffice.CRM.Services.ISelectionAgent.CreateContactSelectionFromShadowSelection*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.DeleteEntities(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.DeleteEntities(System.Int32)
+  id: DeleteEntities(System.Int32)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteEntities(Int32)
+  nameWithType: ISelectionAgent.DeleteEntities(Int32)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.DeleteEntities(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes all entities from a selection. If an entity does not have delete rights, it will be skipped.\n"
+  syntax:
+    content: void DeleteEntities(int selectionId)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: Id of the selection the delete operation will be performed.
+    content.vb: Sub DeleteEntities(selectionId As Integer)
+  overload: SuperOffice.CRM.Services.ISelectionAgent.DeleteEntities*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.GetParentCombinedSelections(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.GetParentCombinedSelections(System.Int32)
+  id: GetParentCombinedSelections(System.Int32)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetParentCombinedSelections(Int32)
+  nameWithType: ISelectionAgent.GetParentCombinedSelections(Int32)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.GetParentCombinedSelections(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a list of all selection ids where the given selection is used to create a combined selection.\n"
+  syntax:
+    content: int[] GetParentCombinedSelections(int selectionId)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The selectionId to query for.
+    return:
+      type: System.Int32[]
+      description: Array of selectionIds.
+    content.vb: Function GetParentCombinedSelections(selectionId As Integer) As Integer()
+  overload: SuperOffice.CRM.Services.ISelectionAgent.GetParentCombinedSelections*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.GetSelectionMembersArchiveRows(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.GetSelectionMembersArchiveRows(System.Int32,System.String)
+  id: GetSelectionMembersArchiveRows(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSelectionMembersArchiveRows(Int32, String)
+  nameWithType: ISelectionAgent.GetSelectionMembersArchiveRows(Int32, String)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.GetSelectionMembersArchiveRows(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the list of members in this selection. The type of members depends on the target table of the selection.\n"
+  syntax:
+    content: ArchiveListItem[] GetSelectionMembersArchiveRows(int selectionId, string select)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The selectionId we want selection members for.
+    - id: select
+      type: System.String
+      description: (optional) Comma separated Column names to include in result. List of columns varies depending on the selection&apos;s TargetTable. e.g. &apos;name&apos;, &apos;firstname&apos;, &apos;startTime&apos;
+    return:
+      type: SuperOffice.CRM.Services.ArchiveListItem[]
+      description: Array of archive rows, where each item represents one row of data (row level data + the requested columns). NULL if selection does not exist.
+    content.vb: Function GetSelectionMembersArchiveRows(selectionId As Integer, select As String) As ArchiveListItem()
+  overload: SuperOffice.CRM.Services.ISelectionAgent.GetSelectionMembersArchiveRows*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.GetSelectionShadowMembersArchiveRows(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.GetSelectionShadowMembersArchiveRows(System.Int32,System.String)
+  id: GetSelectionShadowMembersArchiveRows(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSelectionShadowMembersArchiveRows(Int32, String)
+  nameWithType: ISelectionAgent.GetSelectionShadowMembersArchiveRows(Int32, String)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.GetSelectionShadowMembersArchiveRows(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the list of members in this selection&apos;s shadow (i.e. the list of contacts + persons referenced in the main selection).\n"
+  syntax:
+    content: ArchiveListItem[] GetSelectionShadowMembersArchiveRows(int selectionId, string select)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The selectionId we want selection members for.
+    - id: select
+      type: System.String
+      description: (optional) Comma separated Column names to include in result. List of columns varies depending on the selection&apos;s TargetTable. e.g. &apos;name&apos;, &apos;firstname,name&apos;, &apos;startTime,firstname,name&apos;
+    return:
+      type: SuperOffice.CRM.Services.ArchiveListItem[]
+      description: Array of archive rows, where each item represents one row of data (row level data + the requested columns). NULL if selection does not exist.
+    content.vb: Function GetSelectionShadowMembersArchiveRows(selectionId As Integer, select As String) As ArchiveListItem()
+  overload: SuperOffice.CRM.Services.ISelectionAgent.GetSelectionShadowMembersArchiveRows*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.GetDynamicSelectionCriteria(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.GetDynamicSelectionCriteria(System.Int32)
+  id: GetDynamicSelectionCriteria(System.Int32)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDynamicSelectionCriteria(Int32)
+  nameWithType: ISelectionAgent.GetDynamicSelectionCriteria(Int32)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.GetDynamicSelectionCriteria(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the criteria for this dynamic selection.\n"
+  syntax:
+    content: ArchiveRestrictionInfo[] GetDynamicSelectionCriteria(int selectionId)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to add members
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+      description: Criteria defining the selection result. NULL if selection does not exist, or if this is not a dynamic selection.
+    content.vb: Function GetDynamicSelectionCriteria(selectionId As Integer) As ArchiveRestrictionInfo()
+  overload: SuperOffice.CRM.Services.ISelectionAgent.GetDynamicSelectionCriteria*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria(System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria(System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  id: SetDynamicSelectionCriteria(System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: SetDynamicSelectionCriteria(Int32, ArchiveRestrictionInfo[])
+  nameWithType: ISelectionAgent.SetDynamicSelectionCriteria(Int32, ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria(System.Int32, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdate the criteria for this dynamic selection. Replaces existing criteria with the new values.\n"
+  example:
+  - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[1];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[2];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nrestrictions[1] = new ArchiveRestrictionInfo(&quot;updatedDate&quot;, &quot;after&quot;, &quot;2000.1.2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p></code></pre>\n"
+  syntax:
+    content: ArchiveRestrictionInfo[] SetDynamicSelectionCriteria(int selectionId, ArchiveRestrictionInfo[] criteria)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to add members
+    - id: criteria
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+      description: Criteria defining the selection result.
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+      description: Criteria defining the selection result. NULL if this is not a dynamic selection.
+    content.vb: Function SetDynamicSelectionCriteria(selectionId As Integer, criteria As ArchiveRestrictionInfo()) As ArchiveRestrictionInfo()
+  overload: SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria*
+  nameWithType.vb: ISelectionAgent.SetDynamicSelectionCriteria(Int32, ArchiveRestrictionInfo())
+  fullName.vb: SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria(System.Int32, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: SetDynamicSelectionCriteria(Int32, ArchiveRestrictionInfo())
+- uid: SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria2(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria2(System.Int32,System.String)
+  id: SetDynamicSelectionCriteria2(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: SetDynamicSelectionCriteria2(Int32, String)
+  nameWithType: ISelectionAgent.SetDynamicSelectionCriteria2(Int32, String)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria2(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdate the criteria for this dynamic selection using string. Criteria are parsed from the OData filter form: &apos;&apos;name startswith &apos;foo&apos; and category in (1,2,3)&apos;&apos;\n"
+  example:
+  - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar res1 = agent.FindFromRestrictions2(&quot;updatedBy = 2&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar res2 = agent.FindFromRestrictions2(&quot;updatedBy unequals 6 and updatedDate after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p>\nvar res3 = agent.FindFromRestrictions2(&quot;category in (2,3)&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res3.ArchiveRows)\n    (int)row.ColumnData[&quot;category&quot;].RawValue == 2 || (int)row.ColumnData[&quot;category&quot;].RawValue == 3;\n<p></p>\nvar res4 = agent.FindFromRestrictions2(&quot;sale/date after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res4.ArchiveRows)\n    (row.ColumnData[&quot;sale/date&quot;].GetDateTimeValue().Year >= 2000 \n<p></p>\nvar res5 = _agent.FindFromRestrictionsColumns2(&quot;(category =2 or business = 3) and name contains &apos;e&apos;&quot;, \n         _provider, &quot;category,business,name&quot;, 100, 0);\nforeach (var row in res5.ArchiveRows)\n    ((int)x.ColumnData[&quot;category&quot;].RawValue == 2 || \n     (int)x.ColumnData[&quot;business&quot;].RawValue == 3) &amp;&amp; \n     (x.ColumnData[&quot;name&quot;].RawValue as string).Contains(&quot;e&quot;) );\n<p></p>\n<p></p></code></pre>\n"
+  syntax:
+    content: ArchiveRestrictionInfo[] SetDynamicSelectionCriteria2(int selectionId, string filter)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to add members
+    - id: filter
+      type: System.String
+      description: 'Criteria defining the selection result in OData filter form: `category in (1,2,3) and name = &apos;foo&apos;` '
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+      description: Criteria defining the selection result. NULL if this is not a dynamic selection.
+    content.vb: Function SetDynamicSelectionCriteria2(selectionId As Integer, filter As String) As ArchiveRestrictionInfo()
+  overload: SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria2*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria3(System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria3(System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String)
+  id: SetDynamicSelectionCriteria3(System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: SetDynamicSelectionCriteria3(Int32, ArchiveRestrictionInfo[], String)
+  nameWithType: ISelectionAgent.SetDynamicSelectionCriteria3(Int32, ArchiveRestrictionInfo[], String)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria3(System.Int32, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdate the criteria for this dynamic selection. Use criteria as either restriction objects or OData string format. Criteria are parsed from the OData filter form: &apos;&apos;name startswith &apos;foo&apos; and category in (1,2,3)&apos;&apos;\n"
+  example:
+  - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[1];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[2];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nrestrictions[1] = new ArchiveRestrictionInfo(&quot;updatedDate&quot;, &quot;after&quot;, &quot;2000.1.2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p>\n<p></p>\n&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar res1 = agent.FindFromRestrictions2(&quot;updatedBy = 2&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar res2 = agent.FindFromRestrictions2(&quot;updatedBy unequals 6 and updatedDate after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p>\nvar res3 = agent.FindFromRestrictions2(&quot;category in (2,3)&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res3.ArchiveRows)\n    (int)row.ColumnData[&quot;category&quot;].RawValue == 2 || (int)row.ColumnData[&quot;category&quot;].RawValue == 3;\n<p></p>\nvar res4 = agent.FindFromRestrictions2(&quot;sale/date after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res4.ArchiveRows)\n    (row.ColumnData[&quot;sale/date&quot;].GetDateTimeValue().Year >= 2000 \n<p></p>\nvar res5 = _agent.FindFromRestrictionsColumns2(&quot;(category =2 or business = 3) and name contains &apos;e&apos;&quot;, \n         _provider, &quot;category,business,name&quot;, 100, 0);\nforeach (var row in res5.ArchiveRows)\n    ((int)x.ColumnData[&quot;category&quot;].RawValue == 2 || \n     (int)x.ColumnData[&quot;business&quot;].RawValue == 3) &amp;&amp; \n     (x.ColumnData[&quot;name&quot;].RawValue as string).Contains(&quot;e&quot;) );\n<p></p>\n<p></p></code></pre>\n"
+  syntax:
+    content: ArchiveRestrictionInfo[] SetDynamicSelectionCriteria3(int selectionId, ArchiveRestrictionInfo[] criteria, string filter)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to add members
+    - id: criteria
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+      description: Criteria defining the selection result. Pass NULL if using the filter string instead.
+    - id: filter
+      type: System.String
+      description: 'Criteria defining the selection result in OData filter form: `category in (1,2,3) and name = &apos;foo&apos;`. Pass NULL or empty string &apos;&apos; if using the criteria objects.'
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+      description: Criteria defining the selection result. NULL if this is not a dynamic selection.
+    content.vb: Function SetDynamicSelectionCriteria3(selectionId As Integer, criteria As ArchiveRestrictionInfo(), filter As String) As ArchiveRestrictionInfo()
+  overload: SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria3*
+  nameWithType.vb: ISelectionAgent.SetDynamicSelectionCriteria3(Int32, ArchiveRestrictionInfo(), String)
+  fullName.vb: SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria3(System.Int32, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String)
+  name.vb: SetDynamicSelectionCriteria3(Int32, ArchiveRestrictionInfo(), String)
+- uid: SuperOffice.CRM.Services.ISelectionAgent.DeletePersons(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.DeletePersons(System.Int32)
+  id: DeletePersons(System.Int32)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: DeletePersons(Int32)
+  nameWithType: ISelectionAgent.DeletePersons(Int32)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.DeletePersons(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes all persons from a selection. If a person does not have delete rights, it will be skipped.\n"
+  syntax:
+    content: void DeletePersons(int selectionId)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: Id of the selection the delete operation will be performed.
+    content.vb: Sub DeletePersons(selectionId As Integer)
+  overload: SuperOffice.CRM.Services.ISelectionAgent.DeletePersons*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.GetDynamicSelectionCriteriaGroups(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.GetDynamicSelectionCriteriaGroups(System.Int32)
+  id: GetDynamicSelectionCriteriaGroups(System.Int32)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDynamicSelectionCriteriaGroups(Int32)
+  nameWithType: ISelectionAgent.GetDynamicSelectionCriteriaGroups(Int32)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.GetDynamicSelectionCriteriaGroups(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the criteria for this dynamic selection. This call supports multiple criteria groups.\n"
+  syntax:
+    content: ArchiveRestrictionGroup[] GetDynamicSelectionCriteriaGroups(int selectionId)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to add members
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup[]
+      description: Criteria groups defining the selection result. NULL if selection does not exist, or if this is not a dynamic selection.
+    content.vb: Function GetDynamicSelectionCriteriaGroups(selectionId As Integer) As ArchiveRestrictionGroup()
+  overload: SuperOffice.CRM.Services.ISelectionAgent.GetDynamicSelectionCriteriaGroups*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteriaGroups(System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup[])
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteriaGroups(System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup[])
+  id: SetDynamicSelectionCriteriaGroups(System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup[])
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: SetDynamicSelectionCriteriaGroups(Int32, ArchiveRestrictionGroup[])
+  nameWithType: ISelectionAgent.SetDynamicSelectionCriteriaGroups(Int32, ArchiveRestrictionGroup[])
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteriaGroups(System.Int32, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdate the criteria for this dynamic selection. Replaces existing criteria with the new values. This call supports multiple criteria groups.\n"
+  example:
+  - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[1];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[2];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nrestrictions[1] = new ArchiveRestrictionInfo(&quot;updatedDate&quot;, &quot;after&quot;, &quot;2000.1.2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p></code></pre>\n"
+  syntax:
+    content: ArchiveRestrictionGroup[] SetDynamicSelectionCriteriaGroups(int selectionId, ArchiveRestrictionGroup[] criteria)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection to add members
+    - id: criteria
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup[]
+      description: Criteria groups defining the selection result. Empty array is legal, simply means no criteria have been set
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup[]
+      description: Criteria groups defining the selection result. NULL if this is not a dynamic selection.
+    content.vb: Function SetDynamicSelectionCriteriaGroups(selectionId As Integer, criteria As ArchiveRestrictionGroup()) As ArchiveRestrictionGroup()
+  overload: SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteriaGroups*
+  nameWithType.vb: ISelectionAgent.SetDynamicSelectionCriteriaGroups(Int32, ArchiveRestrictionGroup())
+  fullName.vb: SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteriaGroups(System.Int32, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup())
+  name.vb: SetDynamicSelectionCriteriaGroups(Int32, ArchiveRestrictionGroup())
+- uid: SuperOffice.CRM.Services.ISelectionAgent.GetSelectionForFind(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.GetSelectionForFind(System.String,System.Int32)
+  id: GetSelectionForFind(System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSelectionForFind(String, Int32)
+  nameWithType: ISelectionAgent.GetSelectionForFind(String, Int32)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.GetSelectionForFind(System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nObtain a selection for the given entity, for the current user, of type WorkingSetForFind. Optionally populate criteria from the TypicalSearches system\n"
+  syntax:
+    content: SelectionForFind GetSelectionForFind(string entityName, int typicalSearchId)
+    parameters:
+    - id: entityName
+      type: System.String
+      description: The name of the entity to make a selection for; examples &apos;sale&apos;, &apos;project&apos;, &apos;y_equipment&apos;
+    - id: typicalSearchId
+      type: System.Int32
+      description: If 0, keep existing criteria; if -1, reset to entity default; > 0 get criteria from given TypicalSearch
+    return:
+      type: SuperOffice.CRM.Services.SelectionForFind
+      description: Target selection id and provider name
+    content.vb: Function GetSelectionForFind(entityName As String, typicalSearchId As Integer) As SelectionForFind
+  overload: SuperOffice.CRM.Services.ISelectionAgent.GetSelectionForFind*
+- uid: SuperOffice.CRM.Services.ISelectionAgent.UpdateTypicalSearch(SuperOffice.CRM.Services.TypicalSearches)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.UpdateTypicalSearch(SuperOffice.CRM.Services.TypicalSearches)
+  id: UpdateTypicalSearch(SuperOffice.CRM.Services.TypicalSearches)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: UpdateTypicalSearch(TypicalSearches)
+  nameWithType: ISelectionAgent.UpdateTypicalSearch(TypicalSearches)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.UpdateTypicalSearch(SuperOffice.CRM.Services.TypicalSearches)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdate (import) TypicalSearch information in the database\n"
+  syntax:
+    content: string UpdateTypicalSearch(TypicalSearches searches)
+    parameters:
+    - id: searches
+      type: SuperOffice.CRM.Services.TypicalSearches
+      description: TypicalSearch structures to import. If null, then the fileset is scanned for *TypicalSearch.json files and those are imported instead
+    return:
+      type: System.String
+      description: Message that can be shown to the user, summarizing what has been done, if anything.
+    content.vb: Function UpdateTypicalSearch(searches As TypicalSearches) As String
+  overload: SuperOffice.CRM.Services.ISelectionAgent.UpdateTypicalSearch*
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CreateDefaultMailMergeSettings*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.CreateDefaultMailMergeSettings
+  isExternal: true
+  name: CreateDefaultMailMergeSettings
+  nameWithType: ISelectionAgent.CreateDefaultMailMergeSettings
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateDefaultMailMergeSettings
+- uid: SuperOffice.CRM.Services.MailMergeSettings
+  commentId: T:SuperOffice.CRM.Services.MailMergeSettings
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: MailMergeSettings
+  nameWithType: MailMergeSettings
+  fullName: SuperOffice.CRM.Services.MailMergeSettings
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CreateDefaultMailMergeTask*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.CreateDefaultMailMergeTask
+  isExternal: true
+  name: CreateDefaultMailMergeTask
+  nameWithType: ISelectionAgent.CreateDefaultMailMergeTask
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateDefaultMailMergeTask
+- uid: SuperOffice.CRM.Services.MailMergeTask
+  commentId: T:SuperOffice.CRM.Services.MailMergeTask
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: MailMergeTask
+  nameWithType: MailMergeTask
+  fullName: SuperOffice.CRM.Services.MailMergeTask
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CreateDefaultSelectionEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.CreateDefaultSelectionEntity
+  isExternal: true
+  name: CreateDefaultSelectionEntity
+  nameWithType: ISelectionAgent.CreateDefaultSelectionEntity
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateDefaultSelectionEntity
+- uid: SuperOffice.CRM.Services.SelectionEntity
+  commentId: T:SuperOffice.CRM.Services.SelectionEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: SelectionEntity
+  nameWithType: SelectionEntity
+  fullName: SuperOffice.CRM.Services.SelectionEntity
+- uid: SuperOffice.CRM.Services.ISelectionAgent.SaveSelectionEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.SaveSelectionEntity
+  isExternal: true
+  name: SaveSelectionEntity
+  nameWithType: ISelectionAgent.SaveSelectionEntity
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.SaveSelectionEntity
+- uid: SuperOffice.CRM.Services.ISelectionAgent.DeleteSelectionEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.DeleteSelectionEntity
+  isExternal: true
+  name: DeleteSelectionEntity
+  nameWithType: ISelectionAgent.DeleteSelectionEntity
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.DeleteSelectionEntity
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ISelectionAgent.GetSelectionEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.GetSelectionEntity
+  isExternal: true
+  name: GetSelectionEntity
+  nameWithType: ISelectionAgent.GetSelectionEntity
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.GetSelectionEntity
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CreateContactSelectionFromSelection*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.CreateContactSelectionFromSelection
+  isExternal: true
+  name: CreateContactSelectionFromSelection
+  nameWithType: ISelectionAgent.CreateContactSelectionFromSelection
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateContactSelectionFromSelection
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.SelectionType
+  isExternal: true
+  name: SelectionType
+  nameWithType: SelectionType
+  fullName: SuperOffice.Data.SelectionType
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIds*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIds
+  isExternal: true
+  name: CreateTemporaryContactSelectionFromContactPersonIds
+  nameWithType: ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIds
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromContactPersonIds
+- uid: SuperOffice.CRM.Services.ContactPersonId[]
+  isExternal: true
+  name: ContactPersonId[]
+  nameWithType: ContactPersonId[]
+  fullName: SuperOffice.CRM.Services.ContactPersonId[]
+  nameWithType.vb: ContactPersonId()
+  fullName.vb: SuperOffice.CRM.Services.ContactPersonId()
+  name.vb: ContactPersonId()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ContactPersonId
+    name: ContactPersonId
+    nameWithType: ContactPersonId
+    fullName: SuperOffice.CRM.Services.ContactPersonId
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ContactPersonId
+    name: ContactPersonId
+    nameWithType: ContactPersonId
+    fullName: SuperOffice.CRM.Services.ContactPersonId
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembers*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembers
+  isExternal: true
+  name: CreateTemporaryContactSelectionFromProjectMembers
+  nameWithType: ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembers
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromProjectMembers
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CopyContactSelectionMembers*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.CopyContactSelectionMembers
+  isExternal: true
+  name: CopyContactSelectionMembers
+  nameWithType: ISelectionAgent.CopyContactSelectionMembers
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CopyContactSelectionMembers
+- uid: SuperOffice.CRM.Services.ISelectionAgent.GetRecipientStatistics*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.GetRecipientStatistics
+  isExternal: true
+  name: GetRecipientStatistics
+  nameWithType: ISelectionAgent.GetRecipientStatistics
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.GetRecipientStatistics
+- uid: SuperOffice.CRM.Services.RecipientStatistics
+  commentId: T:SuperOffice.CRM.Services.RecipientStatistics
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: RecipientStatistics
+  nameWithType: RecipientStatistics
+  fullName: SuperOffice.CRM.Services.RecipientStatistics
+- uid: SuperOffice.CRM.Services.ISelectionAgent.GetRecipientStatisticsFromProjectMembers*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.GetRecipientStatisticsFromProjectMembers
+  isExternal: true
+  name: GetRecipientStatisticsFromProjectMembers
+  nameWithType: ISelectionAgent.GetRecipientStatisticsFromProjectMembers
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.GetRecipientStatisticsFromProjectMembers
+- uid: SuperOffice.CRM.Services.ISelectionAgent.GetRecipientStatisticsFromContactPersonIds*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.GetRecipientStatisticsFromContactPersonIds
+  isExternal: true
+  name: GetRecipientStatisticsFromContactPersonIds
+  nameWithType: ISelectionAgent.GetRecipientStatisticsFromContactPersonIds
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.GetRecipientStatisticsFromContactPersonIds
+- uid: SuperOffice.CRM.Services.ISelectionAgent.AddContactSelectionMembers*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.AddContactSelectionMembers
+  isExternal: true
+  name: AddContactSelectionMembers
+  nameWithType: ISelectionAgent.AddContactSelectionMembers
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.AddContactSelectionMembers
+- uid: SuperOffice.CRM.Services.ISelectionAgent.RemoveContactSelectionMembers*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.RemoveContactSelectionMembers
+  isExternal: true
+  name: RemoveContactSelectionMembers
+  nameWithType: ISelectionAgent.RemoveContactSelectionMembers
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.RemoveContactSelectionMembers
+- uid: SuperOffice.CRM.Services.ISelectionAgent.RemoveContactSelectionMembersFromIds*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.RemoveContactSelectionMembersFromIds
+  isExternal: true
+  name: RemoveContactSelectionMembersFromIds
+  nameWithType: ISelectionAgent.RemoveContactSelectionMembersFromIds
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.RemoveContactSelectionMembersFromIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ISelectionAgent.AddContactSelectionMembersFromSearch*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.AddContactSelectionMembersFromSearch
+  isExternal: true
+  name: AddContactSelectionMembersFromSearch
+  nameWithType: ISelectionAgent.AddContactSelectionMembersFromSearch
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.AddContactSelectionMembersFromSearch
+- uid: SuperOffice.CRM.Services.ISelectionAgent.RemoveContactSelectionMembersFromSearch*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.RemoveContactSelectionMembersFromSearch
+  isExternal: true
+  name: RemoveContactSelectionMembersFromSearch
+  nameWithType: ISelectionAgent.RemoveContactSelectionMembersFromSearch
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.RemoveContactSelectionMembersFromSearch
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelection*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelection
+  isExternal: true
+  name: CreateTemporaryContactSelection
+  nameWithType: ISelectionAgent.CreateTemporaryContactSelection
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelection
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIds*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIds
+  isExternal: true
+  name: CreateTemporaryContactSelectionFromSelectionMemberIds
+  nameWithType: ISelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIds
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIds
+- uid: SuperOffice.CRM.Services.ISelectionAgent.AddRemoveContactSelectionMemberInterests*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.AddRemoveContactSelectionMemberInterests
+  isExternal: true
+  name: AddRemoveContactSelectionMemberInterests
+  nameWithType: ISelectionAgent.AddRemoveContactSelectionMemberInterests
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.AddRemoveContactSelectionMemberInterests
+- uid: SuperOffice.CRM.Services.ISelectionAgent.EditContactSelectionMemberDetails*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.EditContactSelectionMemberDetails
+  isExternal: true
+  name: EditContactSelectionMemberDetails
+  nameWithType: ISelectionAgent.EditContactSelectionMemberDetails
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.EditContactSelectionMemberDetails
+- uid: SuperOffice.CRM.Services.SelectionMemberEditValues
+  commentId: T:SuperOffice.CRM.Services.SelectionMemberEditValues
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: SelectionMemberEditValues
+  nameWithType: SelectionMemberEditValues
+  fullName: SuperOffice.CRM.Services.SelectionMemberEditValues
+- uid: SuperOffice.CRM.Services.ISelectionAgent.GenerateFollowUps*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.GenerateFollowUps
+  isExternal: true
+  name: GenerateFollowUps
+  nameWithType: ISelectionAgent.GenerateFollowUps
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.GenerateFollowUps
+- uid: SuperOffice.CRM.Services.AppointmentEntity
+  commentId: T:SuperOffice.CRM.Services.AppointmentEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: AppointmentEntity
+  nameWithType: AppointmentEntity
+  fullName: SuperOffice.CRM.Services.AppointmentEntity
+- uid: SuperOffice.CRM.Services.ISelectionAgent.ExportSelectionMembers*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.ExportSelectionMembers
+  isExternal: true
+  name: ExportSelectionMembers
+  nameWithType: ISelectionAgent.ExportSelectionMembers
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.ExportSelectionMembers
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ISelectionAgent.ExportSelectionMembersWithOrderBy*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.ExportSelectionMembersWithOrderBy
+  isExternal: true
+  name: ExportSelectionMembersWithOrderBy
+  nameWithType: ISelectionAgent.ExportSelectionMembersWithOrderBy
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.ExportSelectionMembersWithOrderBy
+- uid: SuperOffice.CRM.Services.ISelectionAgent.StartMailMerge*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.StartMailMerge
+  isExternal: true
+  name: StartMailMerge
+  nameWithType: ISelectionAgent.StartMailMerge
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.StartMailMerge
+- uid: SuperOffice.CRM.Services.ISelectionAgent.SetDuplicateRulesStatus*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.SetDuplicateRulesStatus
+  isExternal: true
+  name: SetDuplicateRulesStatus
+  nameWithType: ISelectionAgent.SetDuplicateRulesStatus
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.SetDuplicateRulesStatus
+- uid: SuperOffice.CRM.Services.DuplicateRule[]
+  isExternal: true
+  name: DuplicateRule[]
+  nameWithType: DuplicateRule[]
+  fullName: SuperOffice.CRM.Services.DuplicateRule[]
+  nameWithType.vb: DuplicateRule()
+  fullName.vb: SuperOffice.CRM.Services.DuplicateRule()
+  name.vb: DuplicateRule()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.DuplicateRule
+    name: DuplicateRule
+    nameWithType: DuplicateRule
+    fullName: SuperOffice.CRM.Services.DuplicateRule
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.DuplicateRule
+    name: DuplicateRule
+    nameWithType: DuplicateRule
+    fullName: SuperOffice.CRM.Services.DuplicateRule
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ISelectionAgent.GetDuplicates*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.GetDuplicates
+  isExternal: true
+  name: GetDuplicates
+  nameWithType: ISelectionAgent.GetDuplicates
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.GetDuplicates
+- uid: SuperOffice.CRM.Services.DuplicateEntry[]
+  isExternal: true
+  name: DuplicateEntry[]
+  nameWithType: DuplicateEntry[]
+  fullName: SuperOffice.CRM.Services.DuplicateEntry[]
+  nameWithType.vb: DuplicateEntry()
+  fullName.vb: SuperOffice.CRM.Services.DuplicateEntry()
+  name.vb: DuplicateEntry()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.DuplicateEntry
+    name: DuplicateEntry
+    nameWithType: DuplicateEntry
+    fullName: SuperOffice.CRM.Services.DuplicateEntry
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.DuplicateEntry
+    name: DuplicateEntry
+    nameWithType: DuplicateEntry
+    fullName: SuperOffice.CRM.Services.DuplicateEntry
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ISelectionAgent.GetDuplicateRules*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.GetDuplicateRules
+  isExternal: true
+  name: GetDuplicateRules
+  nameWithType: ISelectionAgent.GetDuplicateRules
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.GetDuplicateRules
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CreateNewEntry*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.CreateNewEntry
+  isExternal: true
+  name: CreateNewEntry
+  nameWithType: ISelectionAgent.CreateNewEntry
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateNewEntry
+- uid: SuperOffice.CRM.Services.DuplicateEntry
+  commentId: T:SuperOffice.CRM.Services.DuplicateEntry
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: DuplicateEntry
+  nameWithType: DuplicateEntry
+  fullName: SuperOffice.CRM.Services.DuplicateEntry
+- uid: SuperOffice.CRM.Services.ISelectionAgent.DeleteContacts*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.DeleteContacts
+  isExternal: true
+  name: DeleteContacts
+  nameWithType: ISelectionAgent.DeleteContacts
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.DeleteContacts
+- uid: SuperOffice.CRM.Services.ISelectionAgent.AddSelectionMembers*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.AddSelectionMembers
+  isExternal: true
+  name: AddSelectionMembers
+  nameWithType: ISelectionAgent.AddSelectionMembers
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.AddSelectionMembers
+- uid: SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembers*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembers
+  isExternal: true
+  name: RemoveSelectionMembers
+  nameWithType: ISelectionAgent.RemoveSelectionMembers
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembers
+- uid: SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembersById*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembersById
+  isExternal: true
+  name: RemoveSelectionMembersById
+  nameWithType: ISelectionAgent.RemoveSelectionMembersById
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembersById
+- uid: SuperOffice.CRM.Services.ISelectionAgent.AddSelectionMembersFromSearch*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.AddSelectionMembersFromSearch
+  isExternal: true
+  name: AddSelectionMembersFromSearch
+  nameWithType: ISelectionAgent.AddSelectionMembersFromSearch
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.AddSelectionMembersFromSearch
+- uid: SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembersFromSearch*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembersFromSearch
+  isExternal: true
+  name: RemoveSelectionMembersFromSearch
+  nameWithType: ISelectionAgent.RemoveSelectionMembersFromSearch
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.RemoveSelectionMembersFromSearch
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CopySelectionMembers*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.CopySelectionMembers
+  isExternal: true
+  name: CopySelectionMembers
+  nameWithType: ISelectionAgent.CopySelectionMembers
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CopySelectionMembers
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporarySelectionFromIds*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.CreateTemporarySelectionFromIds
+  isExternal: true
+  name: CreateTemporarySelectionFromIds
+  nameWithType: ISelectionAgent.CreateTemporarySelectionFromIds
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateTemporarySelectionFromIds
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CreateSelectionFromSelection*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.CreateSelectionFromSelection
+  isExternal: true
+  name: CreateSelectionFromSelection
+  nameWithType: ISelectionAgent.CreateSelectionFromSelection
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateSelectionFromSelection
+- uid: SuperOffice.CRM.Services.ISelectionAgent.CreateContactSelectionFromShadowSelection*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.CreateContactSelectionFromShadowSelection
+  isExternal: true
+  name: CreateContactSelectionFromShadowSelection
+  nameWithType: ISelectionAgent.CreateContactSelectionFromShadowSelection
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.CreateContactSelectionFromShadowSelection
+- uid: SuperOffice.CRM.Services.ISelectionAgent.DeleteEntities*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.DeleteEntities
+  isExternal: true
+  name: DeleteEntities
+  nameWithType: ISelectionAgent.DeleteEntities
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.DeleteEntities
+- uid: SuperOffice.CRM.Services.ISelectionAgent.GetParentCombinedSelections*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.GetParentCombinedSelections
+  isExternal: true
+  name: GetParentCombinedSelections
+  nameWithType: ISelectionAgent.GetParentCombinedSelections
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.GetParentCombinedSelections
+- uid: SuperOffice.CRM.Services.ISelectionAgent.GetSelectionMembersArchiveRows*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.GetSelectionMembersArchiveRows
+  isExternal: true
+  name: GetSelectionMembersArchiveRows
+  nameWithType: ISelectionAgent.GetSelectionMembersArchiveRows
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.GetSelectionMembersArchiveRows
+- uid: SuperOffice.CRM.Services.ArchiveListItem[]
+  isExternal: true
+  name: ArchiveListItem[]
+  nameWithType: ArchiveListItem[]
+  fullName: SuperOffice.CRM.Services.ArchiveListItem[]
+  nameWithType.vb: ArchiveListItem()
+  fullName.vb: SuperOffice.CRM.Services.ArchiveListItem()
+  name.vb: ArchiveListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ArchiveListItem
+    name: ArchiveListItem
+    nameWithType: ArchiveListItem
+    fullName: SuperOffice.CRM.Services.ArchiveListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ArchiveListItem
+    name: ArchiveListItem
+    nameWithType: ArchiveListItem
+    fullName: SuperOffice.CRM.Services.ArchiveListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ISelectionAgent.GetSelectionShadowMembersArchiveRows*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.GetSelectionShadowMembersArchiveRows
+  isExternal: true
+  name: GetSelectionShadowMembersArchiveRows
+  nameWithType: ISelectionAgent.GetSelectionShadowMembersArchiveRows
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.GetSelectionShadowMembersArchiveRows
+- uid: SuperOffice.CRM.Services.ISelectionAgent.GetDynamicSelectionCriteria*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.GetDynamicSelectionCriteria
+  isExternal: true
+  name: GetDynamicSelectionCriteria
+  nameWithType: ISelectionAgent.GetDynamicSelectionCriteria
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.GetDynamicSelectionCriteria
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria
+  isExternal: true
+  name: SetDynamicSelectionCriteria
+  nameWithType: ISelectionAgent.SetDynamicSelectionCriteria
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria
+- uid: SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria2*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria2
+  isExternal: true
+  name: SetDynamicSelectionCriteria2
+  nameWithType: ISelectionAgent.SetDynamicSelectionCriteria2
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria2
+- uid: SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria3*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria3
+  isExternal: true
+  name: SetDynamicSelectionCriteria3
+  nameWithType: ISelectionAgent.SetDynamicSelectionCriteria3
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteria3
+- uid: SuperOffice.CRM.Services.ISelectionAgent.DeletePersons*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.DeletePersons
+  isExternal: true
+  name: DeletePersons
+  nameWithType: ISelectionAgent.DeletePersons
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.DeletePersons
+- uid: SuperOffice.CRM.Services.ISelectionAgent.GetDynamicSelectionCriteriaGroups*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.GetDynamicSelectionCriteriaGroups
+  isExternal: true
+  name: GetDynamicSelectionCriteriaGroups
+  nameWithType: ISelectionAgent.GetDynamicSelectionCriteriaGroups
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.GetDynamicSelectionCriteriaGroups
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup[]
+  isExternal: true
+  name: ArchiveRestrictionGroup[]
+  nameWithType: ArchiveRestrictionGroup[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup[]
+  nameWithType.vb: ArchiveRestrictionGroup()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup()
+  name.vb: ArchiveRestrictionGroup()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
+    name: ArchiveRestrictionGroup
+    nameWithType: ArchiveRestrictionGroup
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
+    name: ArchiveRestrictionGroup
+    nameWithType: ArchiveRestrictionGroup
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteriaGroups*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteriaGroups
+  isExternal: true
+  name: SetDynamicSelectionCriteriaGroups
+  nameWithType: ISelectionAgent.SetDynamicSelectionCriteriaGroups
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.SetDynamicSelectionCriteriaGroups
+- uid: SuperOffice.CRM.Services.ISelectionAgent.GetSelectionForFind*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.GetSelectionForFind
+  isExternal: true
+  name: GetSelectionForFind
+  nameWithType: ISelectionAgent.GetSelectionForFind
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.GetSelectionForFind
+- uid: SuperOffice.CRM.Services.SelectionForFind
+  commentId: T:SuperOffice.CRM.Services.SelectionForFind
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: SelectionForFind
+  nameWithType: SelectionForFind
+  fullName: SuperOffice.CRM.Services.SelectionForFind
+- uid: SuperOffice.CRM.Services.ISelectionAgent.UpdateTypicalSearch*
+  commentId: Overload:SuperOffice.CRM.Services.ISelectionAgent.UpdateTypicalSearch
+  isExternal: true
+  name: UpdateTypicalSearch
+  nameWithType: ISelectionAgent.UpdateTypicalSearch
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.UpdateTypicalSearch
+- uid: SuperOffice.CRM.Services.TypicalSearches
+  commentId: T:SuperOffice.CRM.Services.TypicalSearches
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TypicalSearches
+  nameWithType: TypicalSearches
+  fullName: SuperOffice.CRM.Services.TypicalSearches

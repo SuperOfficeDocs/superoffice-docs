@@ -1,0 +1,3273 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ChatAgent
+  commentId: T:SuperOffice.CRM.Services.ChatAgent
+  id: ChatAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ChatAgent.#ctor
+  - SuperOffice.CRM.Services.ChatAgent.AcceptChatSessionTransfer(System.Int32)
+  - SuperOffice.CRM.Services.ChatAgent.AddChatMessage(System.Int32,SuperOffice.CRM.Services.ChatMessage)
+  - SuperOffice.CRM.Services.ChatAgent.AddChatTopicUserAgent(System.Int32,SuperOffice.CRM.Services.ChatTopicAgent)
+  - SuperOffice.CRM.Services.ChatAgent.ChatSessionsForUser
+  - SuperOffice.CRM.Services.ChatAgent.ChatTopicsForUser
+  - SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatSessionEntity
+  - SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatTopicAgent
+  - SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatTopicEntity
+  - SuperOffice.CRM.Services.ChatAgent.DeleteChatSessionEntity(System.Int32)
+  - SuperOffice.CRM.Services.ChatAgent.DeleteChatTopicEntity(System.Int32)
+  - SuperOffice.CRM.Services.ChatAgent.DeleteChatTopicUserAgent(System.Int32,System.String)
+  - SuperOffice.CRM.Services.ChatAgent.GetChatMessages(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.ChatAgent.GetChatPresence
+  - SuperOffice.CRM.Services.ChatAgent.GetChatSessionEntity(System.Int32)
+  - SuperOffice.CRM.Services.ChatAgent.GetChatTopicEntity(System.Int32)
+  - SuperOffice.CRM.Services.ChatAgent.GetChatTopicUserAgent(System.Int32,System.String)
+  - SuperOffice.CRM.Services.ChatAgent.GetChatTopicUserAgentList(System.Int32)
+  - SuperOffice.CRM.Services.ChatAgent.GetChatTranscript(System.Int32,System.Boolean)
+  - SuperOffice.CRM.Services.ChatAgent.GetUserAgentList(System.Boolean,System.Boolean)
+  - SuperOffice.CRM.Services.ChatAgent.IsWithinOpeningHours(System.Int32)
+  - SuperOffice.CRM.Services.ChatAgent.PickUpChatSession(System.Int32)
+  - SuperOffice.CRM.Services.ChatAgent.PickUpFirstChatSession
+  - SuperOffice.CRM.Services.ChatAgent.RejectChatSessionTransfer(System.Int32)
+  - SuperOffice.CRM.Services.ChatAgent.ResetChatSession(System.Int32)
+  - SuperOffice.CRM.Services.ChatAgent.SaveChatPresence(SuperOffice.CRM.Services.ChatPresence[])
+  - SuperOffice.CRM.Services.ChatAgent.SaveChatSessionEntity(SuperOffice.CRM.Services.ChatSessionEntity)
+  - SuperOffice.CRM.Services.ChatAgent.SaveChatTopicEntity(SuperOffice.CRM.Services.ChatTopicEntity)
+  - SuperOffice.CRM.Services.ChatAgent.TransferChatSession(System.Int32,System.String)
+  - SuperOffice.CRM.Services.ChatAgent.UpdateChatTopicUserAgent(System.Int32,System.String,SuperOffice.CRM.Services.ChatTopicAgent)
+  langs:
+  - csharp
+  - vb
+  name: ChatAgent
+  nameWithType: ChatAgent
+  fullName: SuperOffice.CRM.Services.ChatAgent
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFacade for the Chat Agent\nChat functions. Manage chat channels, sessions and messages.\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (ChatAgent agent = new ChatAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: 'public class ChatAgent : AgentBase<IChatAgent>, IDisposable, IChatAgent, IAgent'
+    content.vb: >-
+      Public Class ChatAgent
+          Inherits AgentBase(Of IChatAgent)
+          Implements IDisposable, IChatAgent, IAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IChatAgent}
+  implements:
+  - System.IDisposable
+  - SuperOffice.CRM.Services.IChatAgent
+  - SuperOffice.CRM.Services.IAgent
+  inheritedMembers:
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IChatAgent}.Dispose
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IChatAgent}.InnerAgent
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatTopicEntity
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatTopicEntity
+  id: CreateDefaultChatTopicEntity
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultChatTopicEntity()
+  nameWithType: ChatAgent.CreateDefaultChatTopicEntity()
+  fullName: SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatTopicEntity()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new ChatTopicEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public ChatTopicEntity CreateDefaultChatTopicEntity()
+    return:
+      type: SuperOffice.CRM.Services.ChatTopicEntity
+      description: New ChatTopicEntity with default values
+    content.vb: Public Function CreateDefaultChatTopicEntity As ChatTopicEntity
+  overload: SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatTopicEntity*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicEntity
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.SaveChatTopicEntity(SuperOffice.CRM.Services.ChatTopicEntity)
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.SaveChatTopicEntity(SuperOffice.CRM.Services.ChatTopicEntity)
+  id: SaveChatTopicEntity(SuperOffice.CRM.Services.ChatTopicEntity)
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveChatTopicEntity(ChatTopicEntity)
+  nameWithType: ChatAgent.SaveChatTopicEntity(ChatTopicEntity)
+  fullName: SuperOffice.CRM.Services.ChatAgent.SaveChatTopicEntity(SuperOffice.CRM.Services.ChatTopicEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing ChatTopicEntity or creates a new ChatTopicEntity if the id parameter is empty\n"
+  syntax:
+    content: public ChatTopicEntity SaveChatTopicEntity(ChatTopicEntity chatTopicEntity)
+    parameters:
+    - id: chatTopicEntity
+      type: SuperOffice.CRM.Services.ChatTopicEntity
+      description: The ChatTopicEntity that is saved.
+    return:
+      type: SuperOffice.CRM.Services.ChatTopicEntity
+      description: New or updated ChatTopicEntity
+    content.vb: Public Function SaveChatTopicEntity(chatTopicEntity As ChatTopicEntity) As ChatTopicEntity
+  overload: SuperOffice.CRM.Services.ChatAgent.SaveChatTopicEntity*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.SaveChatTopicEntity(SuperOffice.CRM.Services.ChatTopicEntity)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.DeleteChatTopicEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.DeleteChatTopicEntity(System.Int32)
+  id: DeleteChatTopicEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteChatTopicEntity(Int32)
+  nameWithType: ChatAgent.DeleteChatTopicEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ChatAgent.DeleteChatTopicEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the ChatTopicEntity\n"
+  syntax:
+    content: public void DeleteChatTopicEntity(int chatTopicEntityId)
+    parameters:
+    - id: chatTopicEntityId
+      type: System.Int32
+      description: The identity of the ChatTopicEntity
+    content.vb: Public Sub DeleteChatTopicEntity(chatTopicEntityId As Integer)
+  overload: SuperOffice.CRM.Services.ChatAgent.DeleteChatTopicEntity*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicEntity(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatTopicAgent
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatTopicAgent
+  id: CreateDefaultChatTopicAgent
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultChatTopicAgent()
+  nameWithType: ChatAgent.CreateDefaultChatTopicAgent()
+  fullName: SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatTopicAgent()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new ChatTopicAgent.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public ChatTopicAgent CreateDefaultChatTopicAgent()
+    return:
+      type: SuperOffice.CRM.Services.ChatTopicAgent
+      description: New ChatTopicAgent with default values
+    content.vb: Public Function CreateDefaultChatTopicAgent As ChatTopicAgent
+  overload: SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatTopicAgent*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicAgent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatSessionEntity
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatSessionEntity
+  id: CreateDefaultChatSessionEntity
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultChatSessionEntity()
+  nameWithType: ChatAgent.CreateDefaultChatSessionEntity()
+  fullName: SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatSessionEntity()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new ChatSessionEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public ChatSessionEntity CreateDefaultChatSessionEntity()
+    return:
+      type: SuperOffice.CRM.Services.ChatSessionEntity
+      description: New ChatSessionEntity with default values
+    content.vb: Public Function CreateDefaultChatSessionEntity As ChatSessionEntity
+  overload: SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatSessionEntity*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatSessionEntity
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.SaveChatSessionEntity(SuperOffice.CRM.Services.ChatSessionEntity)
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.SaveChatSessionEntity(SuperOffice.CRM.Services.ChatSessionEntity)
+  id: SaveChatSessionEntity(SuperOffice.CRM.Services.ChatSessionEntity)
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveChatSessionEntity(ChatSessionEntity)
+  nameWithType: ChatAgent.SaveChatSessionEntity(ChatSessionEntity)
+  fullName: SuperOffice.CRM.Services.ChatAgent.SaveChatSessionEntity(SuperOffice.CRM.Services.ChatSessionEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing ChatSessionEntity or creates a new ChatSessionEntity if the id parameter is empty\n"
+  syntax:
+    content: public ChatSessionEntity SaveChatSessionEntity(ChatSessionEntity chatSessionEntity)
+    parameters:
+    - id: chatSessionEntity
+      type: SuperOffice.CRM.Services.ChatSessionEntity
+      description: The ChatSessionEntity that is saved.
+    return:
+      type: SuperOffice.CRM.Services.ChatSessionEntity
+      description: New or updated ChatSessionEntity
+    content.vb: Public Function SaveChatSessionEntity(chatSessionEntity As ChatSessionEntity) As ChatSessionEntity
+  overload: SuperOffice.CRM.Services.ChatAgent.SaveChatSessionEntity*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.SaveChatSessionEntity(SuperOffice.CRM.Services.ChatSessionEntity)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.DeleteChatSessionEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.DeleteChatSessionEntity(System.Int32)
+  id: DeleteChatSessionEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteChatSessionEntity(Int32)
+  nameWithType: ChatAgent.DeleteChatSessionEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ChatAgent.DeleteChatSessionEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the ChatSessionEntity\n"
+  syntax:
+    content: public void DeleteChatSessionEntity(int chatSessionEntityId)
+    parameters:
+    - id: chatSessionEntityId
+      type: System.Int32
+      description: The identity of the ChatSessionEntity
+    content.vb: Public Sub DeleteChatSessionEntity(chatSessionEntityId As Integer)
+  overload: SuperOffice.CRM.Services.ChatAgent.DeleteChatSessionEntity*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.DeleteChatSessionEntity(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.GetChatPresence
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.GetChatPresence
+  id: GetChatPresence
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: GetChatPresence()
+  nameWithType: ChatAgent.GetChatPresence()
+  fullName: SuperOffice.CRM.Services.ChatAgent.GetChatPresence()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the chat presence status for all chat users\n"
+  syntax:
+    content: public ChatPresence[] GetChatPresence()
+    return:
+      type: SuperOffice.CRM.Services.ChatPresence[]
+      description: An array with ChatPresence objects for each user
+    content.vb: Public Function GetChatPresence As ChatPresence()
+  overload: SuperOffice.CRM.Services.ChatAgent.GetChatPresence*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.GetChatPresence
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.SaveChatPresence(SuperOffice.CRM.Services.ChatPresence[])
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.SaveChatPresence(SuperOffice.CRM.Services.ChatPresence[])
+  id: SaveChatPresence(SuperOffice.CRM.Services.ChatPresence[])
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveChatPresence(ChatPresence[])
+  nameWithType: ChatAgent.SaveChatPresence(ChatPresence[])
+  fullName: SuperOffice.CRM.Services.ChatAgent.SaveChatPresence(SuperOffice.CRM.Services.ChatPresence[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSave the chat presence for specified users\n"
+  syntax:
+    content: public void SaveChatPresence(ChatPresence[] chatPresence)
+    parameters:
+    - id: chatPresence
+      type: SuperOffice.CRM.Services.ChatPresence[]
+      description: An array with ChatPresence objects. Only the UserId and Present information is used while saving
+    content.vb: Public Sub SaveChatPresence(chatPresence As ChatPresence())
+  overload: SuperOffice.CRM.Services.ChatAgent.SaveChatPresence*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.SaveChatPresence(SuperOffice.CRM.Services.ChatPresence[])
+  nameWithType.vb: ChatAgent.SaveChatPresence(ChatPresence())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.ChatAgent.SaveChatPresence(SuperOffice.CRM.Services.ChatPresence())
+  name.vb: SaveChatPresence(ChatPresence())
+- uid: SuperOffice.CRM.Services.ChatAgent.GetChatTopicEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.GetChatTopicEntity(System.Int32)
+  id: GetChatTopicEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: GetChatTopicEntity(Int32)
+  nameWithType: ChatAgent.GetChatTopicEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ChatAgent.GetChatTopicEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a ChatTopicEntity object.                        \n"
+  syntax:
+    content: public ChatTopicEntity GetChatTopicEntity(int chatTopicEntityId)
+    parameters:
+    - id: chatTopicEntityId
+      type: System.Int32
+      description: The identifier of the ChatTopicEntity object
+    return:
+      type: SuperOffice.CRM.Services.ChatTopicEntity
+      description: ChatTopicEntity
+    content.vb: Public Function GetChatTopicEntity(chatTopicEntityId As Integer) As ChatTopicEntity
+  overload: SuperOffice.CRM.Services.ChatAgent.GetChatTopicEntity*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.GetChatTopicEntity(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.IsWithinOpeningHours(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.IsWithinOpeningHours(System.Int32)
+  id: IsWithinOpeningHours(System.Int32)
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: IsWithinOpeningHours(Int32)
+  nameWithType: ChatAgent.IsWithinOpeningHours(Int32)
+  fullName: SuperOffice.CRM.Services.ChatAgent.IsWithinOpeningHours(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCheck if we are right now within the opening hours of the given topic. Will use timezones to calculate if configured.\n"
+  syntax:
+    content: public bool IsWithinOpeningHours(int chatTopicId)
+    parameters:
+    - id: chatTopicId
+      type: System.Int32
+      description: The id of the topic to check
+    return:
+      type: System.Boolean
+      description: True if we are within opening hours, or if the topic does not use opening hours
+    content.vb: Public Function IsWithinOpeningHours(chatTopicId As Integer) As Boolean
+  overload: SuperOffice.CRM.Services.ChatAgent.IsWithinOpeningHours*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.IsWithinOpeningHours(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.ChatTopicsForUser
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.ChatTopicsForUser
+  id: ChatTopicsForUser
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: ChatTopicsForUser()
+  nameWithType: ChatAgent.ChatTopicsForUser()
+  fullName: SuperOffice.CRM.Services.ChatAgent.ChatTopicsForUser()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet all chat topics which this user is a member of. Members means that you have at least one of: Can Respond, Notifications, Listen or Manager\n"
+  syntax:
+    content: public ChatTopicEntity[] ChatTopicsForUser()
+    return:
+      type: SuperOffice.CRM.Services.ChatTopicEntity[]
+      description: Array of chat topics the current user can access
+    content.vb: Public Function ChatTopicsForUser As ChatTopicEntity()
+  overload: SuperOffice.CRM.Services.ChatAgent.ChatTopicsForUser*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.ChatTopicsForUser
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.GetUserAgentList(System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.GetUserAgentList(System.Boolean,System.Boolean)
+  id: GetUserAgentList(System.Boolean,System.Boolean)
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: GetUserAgentList(Boolean, Boolean)
+  nameWithType: ChatAgent.GetUserAgentList(Boolean, Boolean)
+  fullName: SuperOffice.CRM.Services.ChatAgent.GetUserAgentList(System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet list of users that can be assigned to topics. Users with Chat-CALs from the MDO list &apos;chatuser&apos;\n"
+  syntax:
+    content: public MDOListItem[] GetUserAgentList(bool flat, bool onlyPresent)
+    parameters:
+    - id: flat
+      type: System.Boolean
+      description: Return flat list instead of grouping by usergroup.
+    - id: onlyPresent
+      type: System.Boolean
+      description: Only show users who are present
+    return:
+      type: SuperOffice.CRM.Services.MDOListItem[]
+      description: List of user agents that can be assigned to chat topics, possibly grouped by usergroup.
+    content.vb: Public Function GetUserAgentList(flat As Boolean, onlyPresent As Boolean) As MDOListItem()
+  overload: SuperOffice.CRM.Services.ChatAgent.GetUserAgentList*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.GetUserAgentList(System.Boolean,System.Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.GetChatTopicUserAgentList(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.GetChatTopicUserAgentList(System.Int32)
+  id: GetChatTopicUserAgentList(System.Int32)
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: GetChatTopicUserAgentList(Int32)
+  nameWithType: ChatAgent.GetChatTopicUserAgentList(Int32)
+  fullName: SuperOffice.CRM.Services.ChatAgent.GetChatTopicUserAgentList(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet list of users assigned to a topic\n"
+  syntax:
+    content: public ChatTopicAgent[] GetChatTopicUserAgentList(int chatTopicId)
+    parameters:
+    - id: chatTopicId
+      type: System.Int32
+      description: Id of the chat topic
+    return:
+      type: SuperOffice.CRM.Services.ChatTopicAgent[]
+      description: List of user agents assigned to chat topic.
+    content.vb: Public Function GetChatTopicUserAgentList(chatTopicId As Integer) As ChatTopicAgent()
+  overload: SuperOffice.CRM.Services.ChatAgent.GetChatTopicUserAgentList*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.GetChatTopicUserAgentList(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.GetChatTopicUserAgent(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.GetChatTopicUserAgent(System.Int32,System.String)
+  id: GetChatTopicUserAgent(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: GetChatTopicUserAgent(Int32, String)
+  nameWithType: ChatAgent.GetChatTopicUserAgent(Int32, String)
+  fullName: SuperOffice.CRM.Services.ChatAgent.GetChatTopicUserAgent(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a user assigned to a topic\n"
+  syntax:
+    content: public ChatTopicAgent GetChatTopicUserAgent(int chatTopicId, string username)
+    parameters:
+    - id: chatTopicId
+      type: System.Int32
+      description: Id of the chat topic
+    - id: username
+      type: System.String
+      description: Associate username or associate id to get.
+    return:
+      type: SuperOffice.CRM.Services.ChatTopicAgent
+      description: The user&apos;s role within the chat topic.
+    content.vb: Public Function GetChatTopicUserAgent(chatTopicId As Integer, username As String) As ChatTopicAgent
+  overload: SuperOffice.CRM.Services.ChatAgent.GetChatTopicUserAgent*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.GetChatTopicUserAgent(System.Int32,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.AddChatTopicUserAgent(System.Int32,SuperOffice.CRM.Services.ChatTopicAgent)
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.AddChatTopicUserAgent(System.Int32,SuperOffice.CRM.Services.ChatTopicAgent)
+  id: AddChatTopicUserAgent(System.Int32,SuperOffice.CRM.Services.ChatTopicAgent)
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: AddChatTopicUserAgent(Int32, ChatTopicAgent)
+  nameWithType: ChatAgent.AddChatTopicUserAgent(Int32, ChatTopicAgent)
+  fullName: SuperOffice.CRM.Services.ChatAgent.AddChatTopicUserAgent(System.Int32, SuperOffice.CRM.Services.ChatTopicAgent)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAdd a user to a chat topic\n"
+  syntax:
+    content: public ChatTopicAgent AddChatTopicUserAgent(int chatTopicId, ChatTopicAgent useragent)
+    parameters:
+    - id: chatTopicId
+      type: System.Int32
+      description: Id of the chat topic
+    - id: useragent
+      type: SuperOffice.CRM.Services.ChatTopicAgent
+      description: User&apos;s role within the chat topic to add to topic.
+    return:
+      type: SuperOffice.CRM.Services.ChatTopicAgent
+      description: The user&apos;s role within the chat topic.
+    content.vb: Public Function AddChatTopicUserAgent(chatTopicId As Integer, useragent As ChatTopicAgent) As ChatTopicAgent
+  overload: SuperOffice.CRM.Services.ChatAgent.AddChatTopicUserAgent*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.AddChatTopicUserAgent(System.Int32,SuperOffice.CRM.Services.ChatTopicAgent)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.UpdateChatTopicUserAgent(System.Int32,System.String,SuperOffice.CRM.Services.ChatTopicAgent)
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.UpdateChatTopicUserAgent(System.Int32,System.String,SuperOffice.CRM.Services.ChatTopicAgent)
+  id: UpdateChatTopicUserAgent(System.Int32,System.String,SuperOffice.CRM.Services.ChatTopicAgent)
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: UpdateChatTopicUserAgent(Int32, String, ChatTopicAgent)
+  nameWithType: ChatAgent.UpdateChatTopicUserAgent(Int32, String, ChatTopicAgent)
+  fullName: SuperOffice.CRM.Services.ChatAgent.UpdateChatTopicUserAgent(System.Int32, System.String, SuperOffice.CRM.Services.ChatTopicAgent)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdate a user&apos;s role in a chat topic\n"
+  syntax:
+    content: public ChatTopicAgent UpdateChatTopicUserAgent(int chatTopicId, string username, ChatTopicAgent useragent)
+    parameters:
+    - id: chatTopicId
+      type: System.Int32
+      description: Id of the chat topic
+    - id: username
+      type: System.String
+      description: Associate username or associate id to get.
+    - id: useragent
+      type: SuperOffice.CRM.Services.ChatTopicAgent
+      description: User&apos;s updated role within the chat topic.
+    return:
+      type: SuperOffice.CRM.Services.ChatTopicAgent
+      description: The user&apos;s role within the chat topic.
+    content.vb: Public Function UpdateChatTopicUserAgent(chatTopicId As Integer, username As String, useragent As ChatTopicAgent) As ChatTopicAgent
+  overload: SuperOffice.CRM.Services.ChatAgent.UpdateChatTopicUserAgent*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.UpdateChatTopicUserAgent(System.Int32,System.String,SuperOffice.CRM.Services.ChatTopicAgent)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.DeleteChatTopicUserAgent(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.DeleteChatTopicUserAgent(System.Int32,System.String)
+  id: DeleteChatTopicUserAgent(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteChatTopicUserAgent(Int32, String)
+  nameWithType: ChatAgent.DeleteChatTopicUserAgent(Int32, String)
+  fullName: SuperOffice.CRM.Services.ChatAgent.DeleteChatTopicUserAgent(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRemove a user from a topic\n"
+  syntax:
+    content: public void DeleteChatTopicUserAgent(int chatTopicId, string username)
+    parameters:
+    - id: chatTopicId
+      type: System.Int32
+      description: Id of the chat topic
+    - id: username
+      type: System.String
+      description: Associate username or associate id to delete.
+    content.vb: Public Sub DeleteChatTopicUserAgent(chatTopicId As Integer, username As String)
+  overload: SuperOffice.CRM.Services.ChatAgent.DeleteChatTopicUserAgent*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicUserAgent(System.Int32,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.GetChatSessionEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.GetChatSessionEntity(System.Int32)
+  id: GetChatSessionEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: GetChatSessionEntity(Int32)
+  nameWithType: ChatAgent.GetChatSessionEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ChatAgent.GetChatSessionEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a ChatSessionEntity object.                        \n"
+  syntax:
+    content: public ChatSessionEntity GetChatSessionEntity(int chatSessionEntityId)
+    parameters:
+    - id: chatSessionEntityId
+      type: System.Int32
+      description: The identifier of the ChatSessionEntity object
+    return:
+      type: SuperOffice.CRM.Services.ChatSessionEntity
+      description: ChatSessionEntity
+    content.vb: Public Function GetChatSessionEntity(chatSessionEntityId As Integer) As ChatSessionEntity
+  overload: SuperOffice.CRM.Services.ChatAgent.GetChatSessionEntity*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.GetChatSessionEntity(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.ChatSessionsForUser
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.ChatSessionsForUser
+  id: ChatSessionsForUser
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: ChatSessionsForUser()
+  nameWithType: ChatAgent.ChatSessionsForUser()
+  fullName: SuperOffice.CRM.Services.ChatAgent.ChatSessionsForUser()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet all chat sessions which this user is a member of. Members means that you have at least one of: Can Respond, Notifications, Listen or Manager\n"
+  syntax:
+    content: public ChatSessionEntity[] ChatSessionsForUser()
+    return:
+      type: SuperOffice.CRM.Services.ChatSessionEntity[]
+      description: Array of chat sessions the current user can access
+    content.vb: Public Function ChatSessionsForUser As ChatSessionEntity()
+  overload: SuperOffice.CRM.Services.ChatAgent.ChatSessionsForUser*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.ChatSessionsForUser
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.TransferChatSession(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.TransferChatSession(System.Int32,System.String)
+  id: TransferChatSession(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: TransferChatSession(Int32, String)
+  nameWithType: ChatAgent.TransferChatSession(Int32, String)
+  fullName: SuperOffice.CRM.Services.ChatAgent.TransferChatSession(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRequest to send the session to another user. If the session does not belong to the user, nothing happens.\n"
+  syntax:
+    content: public ChatSessionEntity TransferChatSession(int chatSessionId, string toAssociate)
+    parameters:
+    - id: chatSessionId
+      type: System.Int32
+      description: id of the chat session to send
+    - id: toAssociate
+      type: System.String
+      description: Associate username or associate id to send session to.
+    return:
+      type: SuperOffice.CRM.Services.ChatSessionEntity
+      description: The updated chat session
+    content.vb: Public Function TransferChatSession(chatSessionId As Integer, toAssociate As String) As ChatSessionEntity
+  overload: SuperOffice.CRM.Services.ChatAgent.TransferChatSession*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.TransferChatSession(System.Int32,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.AcceptChatSessionTransfer(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.AcceptChatSessionTransfer(System.Int32)
+  id: AcceptChatSessionTransfer(System.Int32)
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: AcceptChatSessionTransfer(Int32)
+  nameWithType: ChatAgent.AcceptChatSessionTransfer(Int32)
+  fullName: SuperOffice.CRM.Services.ChatAgent.AcceptChatSessionTransfer(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAccept the transfer: assign the session to the user. If the session is not being transferred, nothing happens.\n"
+  syntax:
+    content: public ChatSessionEntity AcceptChatSessionTransfer(int chatSessionId)
+    parameters:
+    - id: chatSessionId
+      type: System.Int32
+      description: id of the chat session to send
+    return:
+      type: SuperOffice.CRM.Services.ChatSessionEntity
+      description: The updated chat session
+    content.vb: Public Function AcceptChatSessionTransfer(chatSessionId As Integer) As ChatSessionEntity
+  overload: SuperOffice.CRM.Services.ChatAgent.AcceptChatSessionTransfer*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.AcceptChatSessionTransfer(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.RejectChatSessionTransfer(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.RejectChatSessionTransfer(System.Int32)
+  id: RejectChatSessionTransfer(System.Int32)
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: RejectChatSessionTransfer(Int32)
+  nameWithType: ChatAgent.RejectChatSessionTransfer(Int32)
+  fullName: SuperOffice.CRM.Services.ChatAgent.RejectChatSessionTransfer(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDo not want. Deny the transfer to the user. If the session is not being transferred, nothing happens.\n"
+  syntax:
+    content: public ChatSessionEntity RejectChatSessionTransfer(int chatSessionId)
+    parameters:
+    - id: chatSessionId
+      type: System.Int32
+      description: id of the chat session to send back
+    return:
+      type: SuperOffice.CRM.Services.ChatSessionEntity
+      description: The updated chat session
+    content.vb: Public Function RejectChatSessionTransfer(chatSessionId As Integer) As ChatSessionEntity
+  overload: SuperOffice.CRM.Services.ChatAgent.RejectChatSessionTransfer*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.RejectChatSessionTransfer(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.PickUpChatSession(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.PickUpChatSession(System.Int32)
+  id: PickUpChatSession(System.Int32)
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: PickUpChatSession(Int32)
+  nameWithType: ChatAgent.PickUpChatSession(Int32)
+  fullName: SuperOffice.CRM.Services.ChatAgent.PickUpChatSession(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n&apos;answer&apos; the session: assign the session to the user. The welcome message is sent to the customer. Returns NULL if session was not in queue.\n"
+  syntax:
+    content: public ChatSessionEntity PickUpChatSession(int chatSessionId)
+    parameters:
+    - id: chatSessionId
+      type: System.Int32
+      description: id of the chat session to answer
+    return:
+      type: SuperOffice.CRM.Services.ChatSessionEntity
+      description: The chat session
+    content.vb: Public Function PickUpChatSession(chatSessionId As Integer) As ChatSessionEntity
+  overload: SuperOffice.CRM.Services.ChatAgent.PickUpChatSession*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.PickUpChatSession(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.PickUpFirstChatSession
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.PickUpFirstChatSession
+  id: PickUpFirstChatSession
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: PickUpFirstChatSession()
+  nameWithType: ChatAgent.PickUpFirstChatSession()
+  fullName: SuperOffice.CRM.Services.ChatAgent.PickUpFirstChatSession()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n&apos;answer&apos; the first available session from the queue: assign the session to the user. The welcome message is sent to the customer.\n"
+  syntax:
+    content: public ChatSessionEntity PickUpFirstChatSession()
+    return:
+      type: SuperOffice.CRM.Services.ChatSessionEntity
+      description: The picked-up chat session
+    content.vb: Public Function PickUpFirstChatSession As ChatSessionEntity
+  overload: SuperOffice.CRM.Services.ChatAgent.PickUpFirstChatSession*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.PickUpFirstChatSession
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.ResetChatSession(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.ResetChatSession(System.Int32)
+  id: ResetChatSession(System.Int32)
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: ResetChatSession(Int32)
+  nameWithType: ChatAgent.ResetChatSession(Int32)
+  fullName: SuperOffice.CRM.Services.ChatAgent.ResetChatSession(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReset chat session, put it back on the queue for pickup. Used by bots to hand off a session to human\n"
+  syntax:
+    content: public ChatSessionEntity ResetChatSession(int chatSessionId)
+    parameters:
+    - id: chatSessionId
+      type: System.Int32
+      description: id of the chat session to reset
+    return:
+      type: SuperOffice.CRM.Services.ChatSessionEntity
+      description: The updated chat session
+    content.vb: Public Function ResetChatSession(chatSessionId As Integer) As ChatSessionEntity
+  overload: SuperOffice.CRM.Services.ChatAgent.ResetChatSession*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.ResetChatSession(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.GetChatTranscript(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.GetChatTranscript(System.Int32,System.Boolean)
+  id: GetChatTranscript(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: GetChatTranscript(Int32, Boolean)
+  nameWithType: ChatAgent.GetChatTranscript(Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.ChatAgent.GetChatTranscript(System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the chat transcript, formatted as plain text or html\n"
+  syntax:
+    content: public string GetChatTranscript(int chatSessionId, bool html)
+    parameters:
+    - id: chatSessionId
+      type: System.Int32
+      description: id of the chat session to get the transcript for
+    - id: html
+      type: System.Boolean
+      description: Get transcript as HTML
+    return:
+      type: System.String
+      description: The transcript in text or HTML
+    content.vb: Public Function GetChatTranscript(chatSessionId As Integer, html As Boolean) As String
+  overload: SuperOffice.CRM.Services.ChatAgent.GetChatTranscript*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.GetChatTranscript(System.Int32,System.Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.GetChatMessages(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.GetChatMessages(System.Int32,System.Int32)
+  id: GetChatMessages(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: GetChatMessages(Int32, Int32)
+  nameWithType: ChatAgent.GetChatMessages(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.ChatAgent.GetChatMessages(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet all or some of the messages in a chat session\n"
+  syntax:
+    content: public ChatMessage[] GetChatMessages(int chatSessionId, int after)
+    parameters:
+    - id: chatSessionId
+      type: System.Int32
+      description: id of the chat session to reset
+    - id: after
+      type: System.Int32
+      description: Return messages after this message id
+    return:
+      type: SuperOffice.CRM.Services.ChatMessage[]
+      description: Array of chat messages in the session
+    content.vb: Public Function GetChatMessages(chatSessionId As Integer, after As Integer) As ChatMessage()
+  overload: SuperOffice.CRM.Services.ChatAgent.GetChatMessages*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.GetChatMessages(System.Int32,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.AddChatMessage(System.Int32,SuperOffice.CRM.Services.ChatMessage)
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.AddChatMessage(System.Int32,SuperOffice.CRM.Services.ChatMessage)
+  id: AddChatMessage(System.Int32,SuperOffice.CRM.Services.ChatMessage)
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: AddChatMessage(Int32, ChatMessage)
+  nameWithType: ChatAgent.AddChatMessage(Int32, ChatMessage)
+  fullName: SuperOffice.CRM.Services.ChatAgent.AddChatMessage(System.Int32, SuperOffice.CRM.Services.ChatMessage)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAdd a new message to a chat session\n"
+  syntax:
+    content: public ChatMessage AddChatMessage(int chatSessionId, ChatMessage message)
+    parameters:
+    - id: chatSessionId
+      type: System.Int32
+      description: id of the chat session to add message to
+    - id: message
+      type: SuperOffice.CRM.Services.ChatMessage
+      description: Message to add
+    return:
+      type: SuperOffice.CRM.Services.ChatMessage
+      description: The chat message added to the session
+    content.vb: Public Function AddChatMessage(chatSessionId As Integer, message As ChatMessage) As ChatMessage
+  overload: SuperOffice.CRM.Services.ChatAgent.AddChatMessage*
+  implements:
+  - SuperOffice.CRM.Services.IChatAgent.AddChatMessage(System.Int32,SuperOffice.CRM.Services.ChatMessage)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatAgent.#ctor
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ChatAgent
+  langs:
+  - csharp
+  - vb
+  name: ChatAgent()
+  nameWithType: ChatAgent.ChatAgent()
+  fullName: SuperOffice.CRM.Services.ChatAgent.ChatAgent()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public ChatAgent()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ChatAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IChatAgent}
+  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IChatAgent}
+  parent: SuperOffice.CRM.Services
+  definition: SuperOffice.CRM.Services.AgentBase`1
+  name: AgentBase<IChatAgent>
+  nameWithType: AgentBase<IChatAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IChatAgent>
+  nameWithType.vb: AgentBase(Of IChatAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IChatAgent)
+  name.vb: AgentBase(Of IChatAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.IChatAgent
+    name: IChatAgent
+    nameWithType: IChatAgent
+    fullName: SuperOffice.CRM.Services.IChatAgent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.IChatAgent
+    name: IChatAgent
+    nameWithType: IChatAgent
+    fullName: SuperOffice.CRM.Services.IChatAgent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.CRM.Services.IChatAgent
+  commentId: T:SuperOffice.CRM.Services.IChatAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IChatAgent
+  nameWithType: IChatAgent
+  fullName: SuperOffice.CRM.Services.IChatAgent
+- uid: SuperOffice.CRM.Services.IAgent
+  commentId: T:SuperOffice.CRM.Services.IAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAgent
+  nameWithType: IAgent
+  fullName: SuperOffice.CRM.Services.IAgent
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IChatAgent}.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IChatAgent}.Dispose
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IChatAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  name: Dispose()
+  nameWithType: AgentBase<IChatAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IChatAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of IChatAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IChatAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<IChatAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IChatAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of IChatAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IChatAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IChatAgent}.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IChatAgent}.InnerAgent
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IChatAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  name: InnerAgent
+  nameWithType: AgentBase<IChatAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IChatAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of IChatAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IChatAgent).InnerAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AgentBase`1
+  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+  isExternal: true
+  name: AgentBase<TAgent>
+  nameWithType: AgentBase<TAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
+  nameWithType.vb: AgentBase(Of TAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
+  name.vb: AgentBase(Of TAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase<TAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of TAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  isExternal: true
+  name: InnerAgent
+  nameWithType: AgentBase<TAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
+- uid: SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatTopicEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatTopicEntity
+  isExternal: true
+  name: CreateDefaultChatTopicEntity
+  nameWithType: ChatAgent.CreateDefaultChatTopicEntity
+  fullName: SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatTopicEntity
+- uid: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicEntity
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicEntity
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: CreateDefaultChatTopicEntity()
+  nameWithType: IChatAgent.CreateDefaultChatTopicEntity()
+  fullName: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicEntity()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicEntity
+    name: CreateDefaultChatTopicEntity
+    nameWithType: IChatAgent.CreateDefaultChatTopicEntity
+    fullName: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicEntity
+    name: CreateDefaultChatTopicEntity
+    nameWithType: IChatAgent.CreateDefaultChatTopicEntity
+    fullName: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatTopicEntity
+  commentId: T:SuperOffice.CRM.Services.ChatTopicEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ChatTopicEntity
+  nameWithType: ChatTopicEntity
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity
+- uid: SuperOffice.CRM.Services.ChatAgent.SaveChatTopicEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.SaveChatTopicEntity
+  isExternal: true
+  name: SaveChatTopicEntity
+  nameWithType: ChatAgent.SaveChatTopicEntity
+  fullName: SuperOffice.CRM.Services.ChatAgent.SaveChatTopicEntity
+- uid: SuperOffice.CRM.Services.IChatAgent.SaveChatTopicEntity(SuperOffice.CRM.Services.ChatTopicEntity)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.SaveChatTopicEntity(SuperOffice.CRM.Services.ChatTopicEntity)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: SaveChatTopicEntity(ChatTopicEntity)
+  nameWithType: IChatAgent.SaveChatTopicEntity(ChatTopicEntity)
+  fullName: SuperOffice.CRM.Services.IChatAgent.SaveChatTopicEntity(SuperOffice.CRM.Services.ChatTopicEntity)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.SaveChatTopicEntity(SuperOffice.CRM.Services.ChatTopicEntity)
+    name: SaveChatTopicEntity
+    nameWithType: IChatAgent.SaveChatTopicEntity
+    fullName: SuperOffice.CRM.Services.IChatAgent.SaveChatTopicEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ChatTopicEntity
+    name: ChatTopicEntity
+    nameWithType: ChatTopicEntity
+    fullName: SuperOffice.CRM.Services.ChatTopicEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.SaveChatTopicEntity(SuperOffice.CRM.Services.ChatTopicEntity)
+    name: SaveChatTopicEntity
+    nameWithType: IChatAgent.SaveChatTopicEntity
+    fullName: SuperOffice.CRM.Services.IChatAgent.SaveChatTopicEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ChatTopicEntity
+    name: ChatTopicEntity
+    nameWithType: ChatTopicEntity
+    fullName: SuperOffice.CRM.Services.ChatTopicEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatAgent.DeleteChatTopicEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.DeleteChatTopicEntity
+  isExternal: true
+  name: DeleteChatTopicEntity
+  nameWithType: ChatAgent.DeleteChatTopicEntity
+  fullName: SuperOffice.CRM.Services.ChatAgent.DeleteChatTopicEntity
+- uid: SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: DeleteChatTopicEntity(Int32)
+  nameWithType: IChatAgent.DeleteChatTopicEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicEntity(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicEntity(System.Int32)
+    name: DeleteChatTopicEntity
+    nameWithType: IChatAgent.DeleteChatTopicEntity
+    fullName: SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicEntity(System.Int32)
+    name: DeleteChatTopicEntity
+    nameWithType: IChatAgent.DeleteChatTopicEntity
+    fullName: SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatTopicAgent*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatTopicAgent
+  isExternal: true
+  name: CreateDefaultChatTopicAgent
+  nameWithType: ChatAgent.CreateDefaultChatTopicAgent
+  fullName: SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatTopicAgent
+- uid: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicAgent
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicAgent
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: CreateDefaultChatTopicAgent()
+  nameWithType: IChatAgent.CreateDefaultChatTopicAgent()
+  fullName: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicAgent()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicAgent
+    name: CreateDefaultChatTopicAgent
+    nameWithType: IChatAgent.CreateDefaultChatTopicAgent
+    fullName: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicAgent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicAgent
+    name: CreateDefaultChatTopicAgent
+    nameWithType: IChatAgent.CreateDefaultChatTopicAgent
+    fullName: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicAgent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatTopicAgent
+  commentId: T:SuperOffice.CRM.Services.ChatTopicAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ChatTopicAgent
+  nameWithType: ChatTopicAgent
+  fullName: SuperOffice.CRM.Services.ChatTopicAgent
+- uid: SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatSessionEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatSessionEntity
+  isExternal: true
+  name: CreateDefaultChatSessionEntity
+  nameWithType: ChatAgent.CreateDefaultChatSessionEntity
+  fullName: SuperOffice.CRM.Services.ChatAgent.CreateDefaultChatSessionEntity
+- uid: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatSessionEntity
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatSessionEntity
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: CreateDefaultChatSessionEntity()
+  nameWithType: IChatAgent.CreateDefaultChatSessionEntity()
+  fullName: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatSessionEntity()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatSessionEntity
+    name: CreateDefaultChatSessionEntity
+    nameWithType: IChatAgent.CreateDefaultChatSessionEntity
+    fullName: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatSessionEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatSessionEntity
+    name: CreateDefaultChatSessionEntity
+    nameWithType: IChatAgent.CreateDefaultChatSessionEntity
+    fullName: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatSessionEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatSessionEntity
+  commentId: T:SuperOffice.CRM.Services.ChatSessionEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ChatSessionEntity
+  nameWithType: ChatSessionEntity
+  fullName: SuperOffice.CRM.Services.ChatSessionEntity
+- uid: SuperOffice.CRM.Services.ChatAgent.SaveChatSessionEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.SaveChatSessionEntity
+  isExternal: true
+  name: SaveChatSessionEntity
+  nameWithType: ChatAgent.SaveChatSessionEntity
+  fullName: SuperOffice.CRM.Services.ChatAgent.SaveChatSessionEntity
+- uid: SuperOffice.CRM.Services.IChatAgent.SaveChatSessionEntity(SuperOffice.CRM.Services.ChatSessionEntity)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.SaveChatSessionEntity(SuperOffice.CRM.Services.ChatSessionEntity)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: SaveChatSessionEntity(ChatSessionEntity)
+  nameWithType: IChatAgent.SaveChatSessionEntity(ChatSessionEntity)
+  fullName: SuperOffice.CRM.Services.IChatAgent.SaveChatSessionEntity(SuperOffice.CRM.Services.ChatSessionEntity)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.SaveChatSessionEntity(SuperOffice.CRM.Services.ChatSessionEntity)
+    name: SaveChatSessionEntity
+    nameWithType: IChatAgent.SaveChatSessionEntity
+    fullName: SuperOffice.CRM.Services.IChatAgent.SaveChatSessionEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ChatSessionEntity
+    name: ChatSessionEntity
+    nameWithType: ChatSessionEntity
+    fullName: SuperOffice.CRM.Services.ChatSessionEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.SaveChatSessionEntity(SuperOffice.CRM.Services.ChatSessionEntity)
+    name: SaveChatSessionEntity
+    nameWithType: IChatAgent.SaveChatSessionEntity
+    fullName: SuperOffice.CRM.Services.IChatAgent.SaveChatSessionEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ChatSessionEntity
+    name: ChatSessionEntity
+    nameWithType: ChatSessionEntity
+    fullName: SuperOffice.CRM.Services.ChatSessionEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatAgent.DeleteChatSessionEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.DeleteChatSessionEntity
+  isExternal: true
+  name: DeleteChatSessionEntity
+  nameWithType: ChatAgent.DeleteChatSessionEntity
+  fullName: SuperOffice.CRM.Services.ChatAgent.DeleteChatSessionEntity
+- uid: SuperOffice.CRM.Services.IChatAgent.DeleteChatSessionEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.DeleteChatSessionEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: DeleteChatSessionEntity(Int32)
+  nameWithType: IChatAgent.DeleteChatSessionEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IChatAgent.DeleteChatSessionEntity(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.DeleteChatSessionEntity(System.Int32)
+    name: DeleteChatSessionEntity
+    nameWithType: IChatAgent.DeleteChatSessionEntity
+    fullName: SuperOffice.CRM.Services.IChatAgent.DeleteChatSessionEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.DeleteChatSessionEntity(System.Int32)
+    name: DeleteChatSessionEntity
+    nameWithType: IChatAgent.DeleteChatSessionEntity
+    fullName: SuperOffice.CRM.Services.IChatAgent.DeleteChatSessionEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatAgent.GetChatPresence*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.GetChatPresence
+  isExternal: true
+  name: GetChatPresence
+  nameWithType: ChatAgent.GetChatPresence
+  fullName: SuperOffice.CRM.Services.ChatAgent.GetChatPresence
+- uid: SuperOffice.CRM.Services.IChatAgent.GetChatPresence
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.GetChatPresence
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: GetChatPresence()
+  nameWithType: IChatAgent.GetChatPresence()
+  fullName: SuperOffice.CRM.Services.IChatAgent.GetChatPresence()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.GetChatPresence
+    name: GetChatPresence
+    nameWithType: IChatAgent.GetChatPresence
+    fullName: SuperOffice.CRM.Services.IChatAgent.GetChatPresence
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.GetChatPresence
+    name: GetChatPresence
+    nameWithType: IChatAgent.GetChatPresence
+    fullName: SuperOffice.CRM.Services.IChatAgent.GetChatPresence
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatPresence[]
+  isExternal: true
+  name: ChatPresence[]
+  nameWithType: ChatPresence[]
+  fullName: SuperOffice.CRM.Services.ChatPresence[]
+  nameWithType.vb: ChatPresence()
+  fullName.vb: SuperOffice.CRM.Services.ChatPresence()
+  name.vb: ChatPresence()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ChatPresence
+    name: ChatPresence
+    nameWithType: ChatPresence
+    fullName: SuperOffice.CRM.Services.ChatPresence
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ChatPresence
+    name: ChatPresence
+    nameWithType: ChatPresence
+    fullName: SuperOffice.CRM.Services.ChatPresence
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ChatAgent.SaveChatPresence*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.SaveChatPresence
+  isExternal: true
+  name: SaveChatPresence
+  nameWithType: ChatAgent.SaveChatPresence
+  fullName: SuperOffice.CRM.Services.ChatAgent.SaveChatPresence
+- uid: SuperOffice.CRM.Services.IChatAgent.SaveChatPresence(SuperOffice.CRM.Services.ChatPresence[])
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.SaveChatPresence(SuperOffice.CRM.Services.ChatPresence[])
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: SaveChatPresence(ChatPresence[])
+  nameWithType: IChatAgent.SaveChatPresence(ChatPresence[])
+  fullName: SuperOffice.CRM.Services.IChatAgent.SaveChatPresence(SuperOffice.CRM.Services.ChatPresence[])
+  nameWithType.vb: IChatAgent.SaveChatPresence(ChatPresence())
+  fullName.vb: SuperOffice.CRM.Services.IChatAgent.SaveChatPresence(SuperOffice.CRM.Services.ChatPresence())
+  name.vb: SaveChatPresence(ChatPresence())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.SaveChatPresence(SuperOffice.CRM.Services.ChatPresence[])
+    name: SaveChatPresence
+    nameWithType: IChatAgent.SaveChatPresence
+    fullName: SuperOffice.CRM.Services.IChatAgent.SaveChatPresence
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ChatPresence
+    name: ChatPresence
+    nameWithType: ChatPresence
+    fullName: SuperOffice.CRM.Services.ChatPresence
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.SaveChatPresence(SuperOffice.CRM.Services.ChatPresence[])
+    name: SaveChatPresence
+    nameWithType: IChatAgent.SaveChatPresence
+    fullName: SuperOffice.CRM.Services.IChatAgent.SaveChatPresence
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ChatPresence
+    name: ChatPresence
+    nameWithType: ChatPresence
+    fullName: SuperOffice.CRM.Services.ChatPresence
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatAgent.GetChatTopicEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.GetChatTopicEntity
+  isExternal: true
+  name: GetChatTopicEntity
+  nameWithType: ChatAgent.GetChatTopicEntity
+  fullName: SuperOffice.CRM.Services.ChatAgent.GetChatTopicEntity
+- uid: SuperOffice.CRM.Services.IChatAgent.GetChatTopicEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.GetChatTopicEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: GetChatTopicEntity(Int32)
+  nameWithType: IChatAgent.GetChatTopicEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IChatAgent.GetChatTopicEntity(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.GetChatTopicEntity(System.Int32)
+    name: GetChatTopicEntity
+    nameWithType: IChatAgent.GetChatTopicEntity
+    fullName: SuperOffice.CRM.Services.IChatAgent.GetChatTopicEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.GetChatTopicEntity(System.Int32)
+    name: GetChatTopicEntity
+    nameWithType: IChatAgent.GetChatTopicEntity
+    fullName: SuperOffice.CRM.Services.IChatAgent.GetChatTopicEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatAgent.IsWithinOpeningHours*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.IsWithinOpeningHours
+  isExternal: true
+  name: IsWithinOpeningHours
+  nameWithType: ChatAgent.IsWithinOpeningHours
+  fullName: SuperOffice.CRM.Services.ChatAgent.IsWithinOpeningHours
+- uid: SuperOffice.CRM.Services.IChatAgent.IsWithinOpeningHours(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.IsWithinOpeningHours(System.Int32)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: IsWithinOpeningHours(Int32)
+  nameWithType: IChatAgent.IsWithinOpeningHours(Int32)
+  fullName: SuperOffice.CRM.Services.IChatAgent.IsWithinOpeningHours(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.IsWithinOpeningHours(System.Int32)
+    name: IsWithinOpeningHours
+    nameWithType: IChatAgent.IsWithinOpeningHours
+    fullName: SuperOffice.CRM.Services.IChatAgent.IsWithinOpeningHours
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.IsWithinOpeningHours(System.Int32)
+    name: IsWithinOpeningHours
+    nameWithType: IChatAgent.IsWithinOpeningHours
+    fullName: SuperOffice.CRM.Services.IChatAgent.IsWithinOpeningHours
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.ChatAgent.ChatTopicsForUser*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.ChatTopicsForUser
+  isExternal: true
+  name: ChatTopicsForUser
+  nameWithType: ChatAgent.ChatTopicsForUser
+  fullName: SuperOffice.CRM.Services.ChatAgent.ChatTopicsForUser
+- uid: SuperOffice.CRM.Services.IChatAgent.ChatTopicsForUser
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.ChatTopicsForUser
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: ChatTopicsForUser()
+  nameWithType: IChatAgent.ChatTopicsForUser()
+  fullName: SuperOffice.CRM.Services.IChatAgent.ChatTopicsForUser()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.ChatTopicsForUser
+    name: ChatTopicsForUser
+    nameWithType: IChatAgent.ChatTopicsForUser
+    fullName: SuperOffice.CRM.Services.IChatAgent.ChatTopicsForUser
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.ChatTopicsForUser
+    name: ChatTopicsForUser
+    nameWithType: IChatAgent.ChatTopicsForUser
+    fullName: SuperOffice.CRM.Services.IChatAgent.ChatTopicsForUser
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatTopicEntity[]
+  isExternal: true
+  name: ChatTopicEntity[]
+  nameWithType: ChatTopicEntity[]
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity[]
+  nameWithType.vb: ChatTopicEntity()
+  fullName.vb: SuperOffice.CRM.Services.ChatTopicEntity()
+  name.vb: ChatTopicEntity()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ChatTopicEntity
+    name: ChatTopicEntity
+    nameWithType: ChatTopicEntity
+    fullName: SuperOffice.CRM.Services.ChatTopicEntity
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ChatTopicEntity
+    name: ChatTopicEntity
+    nameWithType: ChatTopicEntity
+    fullName: SuperOffice.CRM.Services.ChatTopicEntity
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ChatAgent.GetUserAgentList*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.GetUserAgentList
+  isExternal: true
+  name: GetUserAgentList
+  nameWithType: ChatAgent.GetUserAgentList
+  fullName: SuperOffice.CRM.Services.ChatAgent.GetUserAgentList
+- uid: SuperOffice.CRM.Services.IChatAgent.GetUserAgentList(System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.GetUserAgentList(System.Boolean,System.Boolean)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: GetUserAgentList(Boolean, Boolean)
+  nameWithType: IChatAgent.GetUserAgentList(Boolean, Boolean)
+  fullName: SuperOffice.CRM.Services.IChatAgent.GetUserAgentList(System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.GetUserAgentList(System.Boolean,System.Boolean)
+    name: GetUserAgentList
+    nameWithType: IChatAgent.GetUserAgentList
+    fullName: SuperOffice.CRM.Services.IChatAgent.GetUserAgentList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.GetUserAgentList(System.Boolean,System.Boolean)
+    name: GetUserAgentList
+    nameWithType: IChatAgent.GetUserAgentList
+    fullName: SuperOffice.CRM.Services.IChatAgent.GetUserAgentList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.MDOListItem[]
+  isExternal: true
+  name: MDOListItem[]
+  nameWithType: MDOListItem[]
+  fullName: SuperOffice.CRM.Services.MDOListItem[]
+  nameWithType.vb: MDOListItem()
+  fullName.vb: SuperOffice.CRM.Services.MDOListItem()
+  name.vb: MDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ChatAgent.GetChatTopicUserAgentList*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.GetChatTopicUserAgentList
+  isExternal: true
+  name: GetChatTopicUserAgentList
+  nameWithType: ChatAgent.GetChatTopicUserAgentList
+  fullName: SuperOffice.CRM.Services.ChatAgent.GetChatTopicUserAgentList
+- uid: SuperOffice.CRM.Services.IChatAgent.GetChatTopicUserAgentList(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.GetChatTopicUserAgentList(System.Int32)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: GetChatTopicUserAgentList(Int32)
+  nameWithType: IChatAgent.GetChatTopicUserAgentList(Int32)
+  fullName: SuperOffice.CRM.Services.IChatAgent.GetChatTopicUserAgentList(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.GetChatTopicUserAgentList(System.Int32)
+    name: GetChatTopicUserAgentList
+    nameWithType: IChatAgent.GetChatTopicUserAgentList
+    fullName: SuperOffice.CRM.Services.IChatAgent.GetChatTopicUserAgentList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.GetChatTopicUserAgentList(System.Int32)
+    name: GetChatTopicUserAgentList
+    nameWithType: IChatAgent.GetChatTopicUserAgentList
+    fullName: SuperOffice.CRM.Services.IChatAgent.GetChatTopicUserAgentList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatTopicAgent[]
+  isExternal: true
+  name: ChatTopicAgent[]
+  nameWithType: ChatTopicAgent[]
+  fullName: SuperOffice.CRM.Services.ChatTopicAgent[]
+  nameWithType.vb: ChatTopicAgent()
+  fullName.vb: SuperOffice.CRM.Services.ChatTopicAgent()
+  name.vb: ChatTopicAgent()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ChatTopicAgent
+    name: ChatTopicAgent
+    nameWithType: ChatTopicAgent
+    fullName: SuperOffice.CRM.Services.ChatTopicAgent
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ChatTopicAgent
+    name: ChatTopicAgent
+    nameWithType: ChatTopicAgent
+    fullName: SuperOffice.CRM.Services.ChatTopicAgent
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ChatAgent.GetChatTopicUserAgent*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.GetChatTopicUserAgent
+  isExternal: true
+  name: GetChatTopicUserAgent
+  nameWithType: ChatAgent.GetChatTopicUserAgent
+  fullName: SuperOffice.CRM.Services.ChatAgent.GetChatTopicUserAgent
+- uid: SuperOffice.CRM.Services.IChatAgent.GetChatTopicUserAgent(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.GetChatTopicUserAgent(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: GetChatTopicUserAgent(Int32, String)
+  nameWithType: IChatAgent.GetChatTopicUserAgent(Int32, String)
+  fullName: SuperOffice.CRM.Services.IChatAgent.GetChatTopicUserAgent(System.Int32, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.GetChatTopicUserAgent(System.Int32,System.String)
+    name: GetChatTopicUserAgent
+    nameWithType: IChatAgent.GetChatTopicUserAgent
+    fullName: SuperOffice.CRM.Services.IChatAgent.GetChatTopicUserAgent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.GetChatTopicUserAgent(System.Int32,System.String)
+    name: GetChatTopicUserAgent
+    nameWithType: IChatAgent.GetChatTopicUserAgent
+    fullName: SuperOffice.CRM.Services.IChatAgent.GetChatTopicUserAgent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ChatAgent.AddChatTopicUserAgent*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.AddChatTopicUserAgent
+  isExternal: true
+  name: AddChatTopicUserAgent
+  nameWithType: ChatAgent.AddChatTopicUserAgent
+  fullName: SuperOffice.CRM.Services.ChatAgent.AddChatTopicUserAgent
+- uid: SuperOffice.CRM.Services.IChatAgent.AddChatTopicUserAgent(System.Int32,SuperOffice.CRM.Services.ChatTopicAgent)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.AddChatTopicUserAgent(System.Int32,SuperOffice.CRM.Services.ChatTopicAgent)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: AddChatTopicUserAgent(Int32, ChatTopicAgent)
+  nameWithType: IChatAgent.AddChatTopicUserAgent(Int32, ChatTopicAgent)
+  fullName: SuperOffice.CRM.Services.IChatAgent.AddChatTopicUserAgent(System.Int32, SuperOffice.CRM.Services.ChatTopicAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.AddChatTopicUserAgent(System.Int32,SuperOffice.CRM.Services.ChatTopicAgent)
+    name: AddChatTopicUserAgent
+    nameWithType: IChatAgent.AddChatTopicUserAgent
+    fullName: SuperOffice.CRM.Services.IChatAgent.AddChatTopicUserAgent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.ChatTopicAgent
+    name: ChatTopicAgent
+    nameWithType: ChatTopicAgent
+    fullName: SuperOffice.CRM.Services.ChatTopicAgent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.AddChatTopicUserAgent(System.Int32,SuperOffice.CRM.Services.ChatTopicAgent)
+    name: AddChatTopicUserAgent
+    nameWithType: IChatAgent.AddChatTopicUserAgent
+    fullName: SuperOffice.CRM.Services.IChatAgent.AddChatTopicUserAgent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.ChatTopicAgent
+    name: ChatTopicAgent
+    nameWithType: ChatTopicAgent
+    fullName: SuperOffice.CRM.Services.ChatTopicAgent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatAgent.UpdateChatTopicUserAgent*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.UpdateChatTopicUserAgent
+  isExternal: true
+  name: UpdateChatTopicUserAgent
+  nameWithType: ChatAgent.UpdateChatTopicUserAgent
+  fullName: SuperOffice.CRM.Services.ChatAgent.UpdateChatTopicUserAgent
+- uid: SuperOffice.CRM.Services.IChatAgent.UpdateChatTopicUserAgent(System.Int32,System.String,SuperOffice.CRM.Services.ChatTopicAgent)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.UpdateChatTopicUserAgent(System.Int32,System.String,SuperOffice.CRM.Services.ChatTopicAgent)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: UpdateChatTopicUserAgent(Int32, String, ChatTopicAgent)
+  nameWithType: IChatAgent.UpdateChatTopicUserAgent(Int32, String, ChatTopicAgent)
+  fullName: SuperOffice.CRM.Services.IChatAgent.UpdateChatTopicUserAgent(System.Int32, System.String, SuperOffice.CRM.Services.ChatTopicAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.UpdateChatTopicUserAgent(System.Int32,System.String,SuperOffice.CRM.Services.ChatTopicAgent)
+    name: UpdateChatTopicUserAgent
+    nameWithType: IChatAgent.UpdateChatTopicUserAgent
+    fullName: SuperOffice.CRM.Services.IChatAgent.UpdateChatTopicUserAgent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.ChatTopicAgent
+    name: ChatTopicAgent
+    nameWithType: ChatTopicAgent
+    fullName: SuperOffice.CRM.Services.ChatTopicAgent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.UpdateChatTopicUserAgent(System.Int32,System.String,SuperOffice.CRM.Services.ChatTopicAgent)
+    name: UpdateChatTopicUserAgent
+    nameWithType: IChatAgent.UpdateChatTopicUserAgent
+    fullName: SuperOffice.CRM.Services.IChatAgent.UpdateChatTopicUserAgent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.ChatTopicAgent
+    name: ChatTopicAgent
+    nameWithType: ChatTopicAgent
+    fullName: SuperOffice.CRM.Services.ChatTopicAgent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatAgent.DeleteChatTopicUserAgent*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.DeleteChatTopicUserAgent
+  isExternal: true
+  name: DeleteChatTopicUserAgent
+  nameWithType: ChatAgent.DeleteChatTopicUserAgent
+  fullName: SuperOffice.CRM.Services.ChatAgent.DeleteChatTopicUserAgent
+- uid: SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicUserAgent(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicUserAgent(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: DeleteChatTopicUserAgent(Int32, String)
+  nameWithType: IChatAgent.DeleteChatTopicUserAgent(Int32, String)
+  fullName: SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicUserAgent(System.Int32, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicUserAgent(System.Int32,System.String)
+    name: DeleteChatTopicUserAgent
+    nameWithType: IChatAgent.DeleteChatTopicUserAgent
+    fullName: SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicUserAgent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicUserAgent(System.Int32,System.String)
+    name: DeleteChatTopicUserAgent
+    nameWithType: IChatAgent.DeleteChatTopicUserAgent
+    fullName: SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicUserAgent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatAgent.GetChatSessionEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.GetChatSessionEntity
+  isExternal: true
+  name: GetChatSessionEntity
+  nameWithType: ChatAgent.GetChatSessionEntity
+  fullName: SuperOffice.CRM.Services.ChatAgent.GetChatSessionEntity
+- uid: SuperOffice.CRM.Services.IChatAgent.GetChatSessionEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.GetChatSessionEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: GetChatSessionEntity(Int32)
+  nameWithType: IChatAgent.GetChatSessionEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IChatAgent.GetChatSessionEntity(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.GetChatSessionEntity(System.Int32)
+    name: GetChatSessionEntity
+    nameWithType: IChatAgent.GetChatSessionEntity
+    fullName: SuperOffice.CRM.Services.IChatAgent.GetChatSessionEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.GetChatSessionEntity(System.Int32)
+    name: GetChatSessionEntity
+    nameWithType: IChatAgent.GetChatSessionEntity
+    fullName: SuperOffice.CRM.Services.IChatAgent.GetChatSessionEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatAgent.ChatSessionsForUser*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.ChatSessionsForUser
+  isExternal: true
+  name: ChatSessionsForUser
+  nameWithType: ChatAgent.ChatSessionsForUser
+  fullName: SuperOffice.CRM.Services.ChatAgent.ChatSessionsForUser
+- uid: SuperOffice.CRM.Services.IChatAgent.ChatSessionsForUser
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.ChatSessionsForUser
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: ChatSessionsForUser()
+  nameWithType: IChatAgent.ChatSessionsForUser()
+  fullName: SuperOffice.CRM.Services.IChatAgent.ChatSessionsForUser()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.ChatSessionsForUser
+    name: ChatSessionsForUser
+    nameWithType: IChatAgent.ChatSessionsForUser
+    fullName: SuperOffice.CRM.Services.IChatAgent.ChatSessionsForUser
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.ChatSessionsForUser
+    name: ChatSessionsForUser
+    nameWithType: IChatAgent.ChatSessionsForUser
+    fullName: SuperOffice.CRM.Services.IChatAgent.ChatSessionsForUser
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatSessionEntity[]
+  isExternal: true
+  name: ChatSessionEntity[]
+  nameWithType: ChatSessionEntity[]
+  fullName: SuperOffice.CRM.Services.ChatSessionEntity[]
+  nameWithType.vb: ChatSessionEntity()
+  fullName.vb: SuperOffice.CRM.Services.ChatSessionEntity()
+  name.vb: ChatSessionEntity()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ChatSessionEntity
+    name: ChatSessionEntity
+    nameWithType: ChatSessionEntity
+    fullName: SuperOffice.CRM.Services.ChatSessionEntity
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ChatSessionEntity
+    name: ChatSessionEntity
+    nameWithType: ChatSessionEntity
+    fullName: SuperOffice.CRM.Services.ChatSessionEntity
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ChatAgent.TransferChatSession*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.TransferChatSession
+  isExternal: true
+  name: TransferChatSession
+  nameWithType: ChatAgent.TransferChatSession
+  fullName: SuperOffice.CRM.Services.ChatAgent.TransferChatSession
+- uid: SuperOffice.CRM.Services.IChatAgent.TransferChatSession(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.TransferChatSession(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: TransferChatSession(Int32, String)
+  nameWithType: IChatAgent.TransferChatSession(Int32, String)
+  fullName: SuperOffice.CRM.Services.IChatAgent.TransferChatSession(System.Int32, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.TransferChatSession(System.Int32,System.String)
+    name: TransferChatSession
+    nameWithType: IChatAgent.TransferChatSession
+    fullName: SuperOffice.CRM.Services.IChatAgent.TransferChatSession
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.TransferChatSession(System.Int32,System.String)
+    name: TransferChatSession
+    nameWithType: IChatAgent.TransferChatSession
+    fullName: SuperOffice.CRM.Services.IChatAgent.TransferChatSession
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatAgent.AcceptChatSessionTransfer*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.AcceptChatSessionTransfer
+  isExternal: true
+  name: AcceptChatSessionTransfer
+  nameWithType: ChatAgent.AcceptChatSessionTransfer
+  fullName: SuperOffice.CRM.Services.ChatAgent.AcceptChatSessionTransfer
+- uid: SuperOffice.CRM.Services.IChatAgent.AcceptChatSessionTransfer(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.AcceptChatSessionTransfer(System.Int32)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: AcceptChatSessionTransfer(Int32)
+  nameWithType: IChatAgent.AcceptChatSessionTransfer(Int32)
+  fullName: SuperOffice.CRM.Services.IChatAgent.AcceptChatSessionTransfer(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.AcceptChatSessionTransfer(System.Int32)
+    name: AcceptChatSessionTransfer
+    nameWithType: IChatAgent.AcceptChatSessionTransfer
+    fullName: SuperOffice.CRM.Services.IChatAgent.AcceptChatSessionTransfer
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.AcceptChatSessionTransfer(System.Int32)
+    name: AcceptChatSessionTransfer
+    nameWithType: IChatAgent.AcceptChatSessionTransfer
+    fullName: SuperOffice.CRM.Services.IChatAgent.AcceptChatSessionTransfer
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatAgent.RejectChatSessionTransfer*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.RejectChatSessionTransfer
+  isExternal: true
+  name: RejectChatSessionTransfer
+  nameWithType: ChatAgent.RejectChatSessionTransfer
+  fullName: SuperOffice.CRM.Services.ChatAgent.RejectChatSessionTransfer
+- uid: SuperOffice.CRM.Services.IChatAgent.RejectChatSessionTransfer(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.RejectChatSessionTransfer(System.Int32)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: RejectChatSessionTransfer(Int32)
+  nameWithType: IChatAgent.RejectChatSessionTransfer(Int32)
+  fullName: SuperOffice.CRM.Services.IChatAgent.RejectChatSessionTransfer(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.RejectChatSessionTransfer(System.Int32)
+    name: RejectChatSessionTransfer
+    nameWithType: IChatAgent.RejectChatSessionTransfer
+    fullName: SuperOffice.CRM.Services.IChatAgent.RejectChatSessionTransfer
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.RejectChatSessionTransfer(System.Int32)
+    name: RejectChatSessionTransfer
+    nameWithType: IChatAgent.RejectChatSessionTransfer
+    fullName: SuperOffice.CRM.Services.IChatAgent.RejectChatSessionTransfer
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatAgent.PickUpChatSession*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.PickUpChatSession
+  isExternal: true
+  name: PickUpChatSession
+  nameWithType: ChatAgent.PickUpChatSession
+  fullName: SuperOffice.CRM.Services.ChatAgent.PickUpChatSession
+- uid: SuperOffice.CRM.Services.IChatAgent.PickUpChatSession(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.PickUpChatSession(System.Int32)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: PickUpChatSession(Int32)
+  nameWithType: IChatAgent.PickUpChatSession(Int32)
+  fullName: SuperOffice.CRM.Services.IChatAgent.PickUpChatSession(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.PickUpChatSession(System.Int32)
+    name: PickUpChatSession
+    nameWithType: IChatAgent.PickUpChatSession
+    fullName: SuperOffice.CRM.Services.IChatAgent.PickUpChatSession
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.PickUpChatSession(System.Int32)
+    name: PickUpChatSession
+    nameWithType: IChatAgent.PickUpChatSession
+    fullName: SuperOffice.CRM.Services.IChatAgent.PickUpChatSession
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatAgent.PickUpFirstChatSession*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.PickUpFirstChatSession
+  isExternal: true
+  name: PickUpFirstChatSession
+  nameWithType: ChatAgent.PickUpFirstChatSession
+  fullName: SuperOffice.CRM.Services.ChatAgent.PickUpFirstChatSession
+- uid: SuperOffice.CRM.Services.IChatAgent.PickUpFirstChatSession
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.PickUpFirstChatSession
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: PickUpFirstChatSession()
+  nameWithType: IChatAgent.PickUpFirstChatSession()
+  fullName: SuperOffice.CRM.Services.IChatAgent.PickUpFirstChatSession()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.PickUpFirstChatSession
+    name: PickUpFirstChatSession
+    nameWithType: IChatAgent.PickUpFirstChatSession
+    fullName: SuperOffice.CRM.Services.IChatAgent.PickUpFirstChatSession
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.PickUpFirstChatSession
+    name: PickUpFirstChatSession
+    nameWithType: IChatAgent.PickUpFirstChatSession
+    fullName: SuperOffice.CRM.Services.IChatAgent.PickUpFirstChatSession
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatAgent.ResetChatSession*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.ResetChatSession
+  isExternal: true
+  name: ResetChatSession
+  nameWithType: ChatAgent.ResetChatSession
+  fullName: SuperOffice.CRM.Services.ChatAgent.ResetChatSession
+- uid: SuperOffice.CRM.Services.IChatAgent.ResetChatSession(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.ResetChatSession(System.Int32)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: ResetChatSession(Int32)
+  nameWithType: IChatAgent.ResetChatSession(Int32)
+  fullName: SuperOffice.CRM.Services.IChatAgent.ResetChatSession(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.ResetChatSession(System.Int32)
+    name: ResetChatSession
+    nameWithType: IChatAgent.ResetChatSession
+    fullName: SuperOffice.CRM.Services.IChatAgent.ResetChatSession
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.ResetChatSession(System.Int32)
+    name: ResetChatSession
+    nameWithType: IChatAgent.ResetChatSession
+    fullName: SuperOffice.CRM.Services.IChatAgent.ResetChatSession
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatAgent.GetChatTranscript*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.GetChatTranscript
+  isExternal: true
+  name: GetChatTranscript
+  nameWithType: ChatAgent.GetChatTranscript
+  fullName: SuperOffice.CRM.Services.ChatAgent.GetChatTranscript
+- uid: SuperOffice.CRM.Services.IChatAgent.GetChatTranscript(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.GetChatTranscript(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: GetChatTranscript(Int32, Boolean)
+  nameWithType: IChatAgent.GetChatTranscript(Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.IChatAgent.GetChatTranscript(System.Int32, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.GetChatTranscript(System.Int32,System.Boolean)
+    name: GetChatTranscript
+    nameWithType: IChatAgent.GetChatTranscript
+    fullName: SuperOffice.CRM.Services.IChatAgent.GetChatTranscript
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.GetChatTranscript(System.Int32,System.Boolean)
+    name: GetChatTranscript
+    nameWithType: IChatAgent.GetChatTranscript
+    fullName: SuperOffice.CRM.Services.IChatAgent.GetChatTranscript
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatAgent.GetChatMessages*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.GetChatMessages
+  isExternal: true
+  name: GetChatMessages
+  nameWithType: ChatAgent.GetChatMessages
+  fullName: SuperOffice.CRM.Services.ChatAgent.GetChatMessages
+- uid: SuperOffice.CRM.Services.IChatAgent.GetChatMessages(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.GetChatMessages(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: GetChatMessages(Int32, Int32)
+  nameWithType: IChatAgent.GetChatMessages(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IChatAgent.GetChatMessages(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.GetChatMessages(System.Int32,System.Int32)
+    name: GetChatMessages
+    nameWithType: IChatAgent.GetChatMessages
+    fullName: SuperOffice.CRM.Services.IChatAgent.GetChatMessages
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.GetChatMessages(System.Int32,System.Int32)
+    name: GetChatMessages
+    nameWithType: IChatAgent.GetChatMessages
+    fullName: SuperOffice.CRM.Services.IChatAgent.GetChatMessages
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatMessage[]
+  isExternal: true
+  name: ChatMessage[]
+  nameWithType: ChatMessage[]
+  fullName: SuperOffice.CRM.Services.ChatMessage[]
+  nameWithType.vb: ChatMessage()
+  fullName.vb: SuperOffice.CRM.Services.ChatMessage()
+  name.vb: ChatMessage()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ChatMessage
+    name: ChatMessage
+    nameWithType: ChatMessage
+    fullName: SuperOffice.CRM.Services.ChatMessage
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ChatMessage
+    name: ChatMessage
+    nameWithType: ChatMessage
+    fullName: SuperOffice.CRM.Services.ChatMessage
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ChatAgent.AddChatMessage*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.AddChatMessage
+  isExternal: true
+  name: AddChatMessage
+  nameWithType: ChatAgent.AddChatMessage
+  fullName: SuperOffice.CRM.Services.ChatAgent.AddChatMessage
+- uid: SuperOffice.CRM.Services.IChatAgent.AddChatMessage(System.Int32,SuperOffice.CRM.Services.ChatMessage)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.AddChatMessage(System.Int32,SuperOffice.CRM.Services.ChatMessage)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  isExternal: true
+  name: AddChatMessage(Int32, ChatMessage)
+  nameWithType: IChatAgent.AddChatMessage(Int32, ChatMessage)
+  fullName: SuperOffice.CRM.Services.IChatAgent.AddChatMessage(System.Int32, SuperOffice.CRM.Services.ChatMessage)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IChatAgent.AddChatMessage(System.Int32,SuperOffice.CRM.Services.ChatMessage)
+    name: AddChatMessage
+    nameWithType: IChatAgent.AddChatMessage
+    fullName: SuperOffice.CRM.Services.IChatAgent.AddChatMessage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.ChatMessage
+    name: ChatMessage
+    nameWithType: ChatMessage
+    fullName: SuperOffice.CRM.Services.ChatMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IChatAgent.AddChatMessage(System.Int32,SuperOffice.CRM.Services.ChatMessage)
+    name: AddChatMessage
+    nameWithType: IChatAgent.AddChatMessage
+    fullName: SuperOffice.CRM.Services.IChatAgent.AddChatMessage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.ChatMessage
+    name: ChatMessage
+    nameWithType: ChatMessage
+    fullName: SuperOffice.CRM.Services.ChatMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatMessage
+  commentId: T:SuperOffice.CRM.Services.ChatMessage
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ChatMessage
+  nameWithType: ChatMessage
+  fullName: SuperOffice.CRM.Services.ChatMessage
+- uid: SuperOffice.CRM.Services.ChatAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ChatAgent.#ctor
+  isExternal: true
+  name: ChatAgent
+  nameWithType: ChatAgent.ChatAgent
+  fullName: SuperOffice.CRM.Services.ChatAgent.ChatAgent

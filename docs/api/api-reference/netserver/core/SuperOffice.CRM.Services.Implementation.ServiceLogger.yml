@@ -1,0 +1,1006 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogger
+  commentId: T:SuperOffice.CRM.Services.Implementation.ServiceLogger
+  id: ServiceLogger
+  parent: SuperOffice.CRM.Services.Implementation
+  children:
+  - SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String,System.String)
+  - SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String,System.String,System.Object)
+  - SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String,System.String,System.String,System.Object)
+  - SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String,System.String,System.String,System.Object,System.Object)
+  - SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String,System.String,System.String[],System.Object[])
+  - SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String,System.String,System.String[],System.Object[],System.Object)
+  - SuperOffice.CRM.Services.Implementation.ServiceLogger.FormatServiceLogInformation(System.String,System.String,System.String[],System.Object[],System.Object,System.TimeSpan)
+  - SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String,System.String,System.String,System.Object,System.TimeSpan)
+  - SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String,System.String,System.String,System.Object,System.TimeSpan,System.Object)
+  - SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String,System.String,System.String[],System.Object[],System.TimeSpan)
+  - SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String,System.String,System.String[],System.Object[],System.TimeSpan,System.Object)
+  - SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String,System.String,System.TimeSpan)
+  - SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String,System.String,System.TimeSpan,System.Object)
+  langs:
+  - csharp
+  - vb
+  name: ServiceLogger
+  nameWithType: ServiceLogger
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  summary: "\nLogging functionality for Service layer calls; accessed from generated code\n"
+  remarks: "\nThis logging is controlled by the LogServiceCalls key (True/False) and optionally the LoggedServices key (comma-separated list of service names to log)\n"
+  syntax:
+    content: public static class ServiceLogger
+    content.vb: Public Module ServiceLogger
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String,System.String,System.String[],System.Object[],System.TimeSpan)
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String,System.String,System.String[],System.Object[],System.TimeSpan)
+  id: LogCall(System.String,System.String,System.String[],System.Object[],System.TimeSpan)
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogger
+  langs:
+  - csharp
+  - vb
+  name: LogCall(String, String, String[], Object[], TimeSpan)
+  nameWithType: ServiceLogger.LogCall(String, String, String[], Object[], TimeSpan)
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String, System.String, System.String[], System.Object[], System.TimeSpan)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  summary: "\nLog a service call that does not have a return value\n"
+  syntax:
+    content: public static void LogCall(string agentName, string methodName, string[] parameterNames, object[] parameterValues, TimeSpan executionTime)
+    parameters:
+    - id: agentName
+      type: System.String
+      description: Agent/service name
+    - id: methodName
+      type: System.String
+      description: Method name
+    - id: parameterNames
+      type: System.String[]
+      description: Array of parameters names, same length as array of parameter values; both can be null but only at the same time
+    - id: parameterValues
+      type: System.Object[]
+      description: Array of parameter values, same length as array of parameter names; both can be null but only at the same time
+    - id: executionTime
+      type: System.TimeSpan
+      description: Service execution time
+    content.vb: Public Shared Sub LogCall(agentName As String, methodName As String, parameterNames As String(), parameterValues As Object(), executionTime As TimeSpan)
+  overload: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall*
+  nameWithType.vb: ServiceLogger.LogCall(String, String, String(), Object(), TimeSpan)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String, System.String, System.String(), System.Object(), System.TimeSpan)
+  name.vb: LogCall(String, String, String(), Object(), TimeSpan)
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String,System.String,System.String[],System.Object[],System.TimeSpan,System.Object)
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String,System.String,System.String[],System.Object[],System.TimeSpan,System.Object)
+  id: LogCall(System.String,System.String,System.String[],System.Object[],System.TimeSpan,System.Object)
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogger
+  langs:
+  - csharp
+  - vb
+  name: LogCall(String, String, String[], Object[], TimeSpan, Object)
+  nameWithType: ServiceLogger.LogCall(String, String, String[], Object[], TimeSpan, Object)
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String, System.String, System.String[], System.Object[], System.TimeSpan, System.Object)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  summary: "\nLog a service call that returns a value\n"
+  syntax:
+    content: public static void LogCall(string agentName, string methodName, string[] parameterNames, object[] parameterValues, TimeSpan executionTime, object returnValue)
+    parameters:
+    - id: agentName
+      type: System.String
+      description: Agent/service name
+    - id: methodName
+      type: System.String
+      description: Method name
+    - id: parameterNames
+      type: System.String[]
+      description: Array of parameters names, same length as array of parameter values; both can be null but only at the same time
+    - id: parameterValues
+      type: System.Object[]
+      description: Array of parameter values, same length as array of parameter names; both can be null but only at the same time
+    - id: executionTime
+      type: System.TimeSpan
+      description: Service execution time
+    - id: returnValue
+      type: System.Object
+      description: Return value
+    content.vb: Public Shared Sub LogCall(agentName As String, methodName As String, parameterNames As String(), parameterValues As Object(), executionTime As TimeSpan, returnValue As Object)
+  overload: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall*
+  nameWithType.vb: ServiceLogger.LogCall(String, String, String(), Object(), TimeSpan, Object)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String, System.String, System.String(), System.Object(), System.TimeSpan, System.Object)
+  name.vb: LogCall(String, String, String(), Object(), TimeSpan, Object)
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String,System.String,System.String,System.Object,System.TimeSpan)
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String,System.String,System.String,System.Object,System.TimeSpan)
+  id: LogCall(System.String,System.String,System.String,System.Object,System.TimeSpan)
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogger
+  langs:
+  - csharp
+  - vb
+  name: LogCall(String, String, String, Object, TimeSpan)
+  nameWithType: ServiceLogger.LogCall(String, String, String, Object, TimeSpan)
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String, System.String, System.String, System.Object, System.TimeSpan)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  summary: "\nLog a service call that does not have a return value\n"
+  syntax:
+    content: public static void LogCall(string agentName, string methodName, string parameterName, object parameterValue, TimeSpan executionTime)
+    parameters:
+    - id: agentName
+      type: System.String
+      description: Agent/service name
+    - id: methodName
+      type: System.String
+      description: Method name
+    - id: parameterName
+      type: System.String
+    - id: parameterValue
+      type: System.Object
+    - id: executionTime
+      type: System.TimeSpan
+      description: Service execution time
+    content.vb: Public Shared Sub LogCall(agentName As String, methodName As String, parameterName As String, parameterValue As Object, executionTime As TimeSpan)
+  overload: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String,System.String,System.TimeSpan)
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String,System.String,System.TimeSpan)
+  id: LogCall(System.String,System.String,System.TimeSpan)
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogger
+  langs:
+  - csharp
+  - vb
+  name: LogCall(String, String, TimeSpan)
+  nameWithType: ServiceLogger.LogCall(String, String, TimeSpan)
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String, System.String, System.TimeSpan)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  summary: "\nLog a service call that does not have parameters nor a return value\n"
+  syntax:
+    content: public static void LogCall(string agentName, string methodName, TimeSpan executionTime)
+    parameters:
+    - id: agentName
+      type: System.String
+      description: Agent/service name
+    - id: methodName
+      type: System.String
+      description: Method name
+    - id: executionTime
+      type: System.TimeSpan
+      description: Service execution time
+    content.vb: Public Shared Sub LogCall(agentName As String, methodName As String, executionTime As TimeSpan)
+  overload: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String,System.String,System.String,System.Object,System.TimeSpan,System.Object)
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String,System.String,System.String,System.Object,System.TimeSpan,System.Object)
+  id: LogCall(System.String,System.String,System.String,System.Object,System.TimeSpan,System.Object)
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogger
+  langs:
+  - csharp
+  - vb
+  name: LogCall(String, String, String, Object, TimeSpan, Object)
+  nameWithType: ServiceLogger.LogCall(String, String, String, Object, TimeSpan, Object)
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String, System.String, System.String, System.Object, System.TimeSpan, System.Object)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  summary: "\nLog a service call that has a single parameter and a return value\n"
+  syntax:
+    content: public static void LogCall(string agentName, string methodName, string parameterName, object parameterValue, TimeSpan executionTime, object returnValue)
+    parameters:
+    - id: agentName
+      type: System.String
+      description: Agent/service name
+    - id: methodName
+      type: System.String
+      description: Method name
+    - id: parameterName
+      type: System.String
+    - id: parameterValue
+      type: System.Object
+    - id: executionTime
+      type: System.TimeSpan
+      description: Service execution time
+    - id: returnValue
+      type: System.Object
+    content.vb: Public Shared Sub LogCall(agentName As String, methodName As String, parameterName As String, parameterValue As Object, executionTime As TimeSpan, returnValue As Object)
+  overload: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String,System.String,System.TimeSpan,System.Object)
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String,System.String,System.TimeSpan,System.Object)
+  id: LogCall(System.String,System.String,System.TimeSpan,System.Object)
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogger
+  langs:
+  - csharp
+  - vb
+  name: LogCall(String, String, TimeSpan, Object)
+  nameWithType: ServiceLogger.LogCall(String, String, TimeSpan, Object)
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall(System.String, System.String, System.TimeSpan, System.Object)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  summary: "\nLog a service call that has no parameters, but does have a return value\n"
+  syntax:
+    content: public static void LogCall(string agentName, string methodName, TimeSpan executionTime, object returnValue)
+    parameters:
+    - id: agentName
+      type: System.String
+      description: Agent/service name
+    - id: methodName
+      type: System.String
+      description: Method name
+    - id: executionTime
+      type: System.TimeSpan
+      description: Service execution time
+    - id: returnValue
+      type: System.Object
+    content.vb: Public Shared Sub LogCall(agentName As String, methodName As String, executionTime As TimeSpan, returnValue As Object)
+  overload: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String,System.String,System.String[],System.Object[])
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String,System.String,System.String[],System.Object[])
+  id: DeferredLogCall(System.String,System.String,System.String[],System.Object[])
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogger
+  langs:
+  - csharp
+  - vb
+  name: DeferredLogCall(String, String, String[], Object[])
+  nameWithType: ServiceLogger.DeferredLogCall(String, String, String[], Object[])
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String, System.String, System.String[], System.Object[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  summary: "\nLog a service call that does not have a return value\n"
+  syntax:
+    content: public static ServiceLogContext DeferredLogCall(string agentName, string methodName, string[] parameterNames, object[] parameterValues)
+    parameters:
+    - id: agentName
+      type: System.String
+      description: Agent/service name
+    - id: methodName
+      type: System.String
+      description: Method name
+    - id: parameterNames
+      type: System.String[]
+      description: Array of parameters names, same length as array of parameter values; both can be null but only at the same time
+    - id: parameterValues
+      type: System.Object[]
+      description: Array of parameter values, same length as array of parameter names; both can be null but only at the same time
+    return:
+      type: SuperOffice.CRM.Services.Implementation.ServiceLogContext
+    content.vb: Public Shared Function DeferredLogCall(agentName As String, methodName As String, parameterNames As String(), parameterValues As Object()) As ServiceLogContext
+  overload: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall*
+  nameWithType.vb: ServiceLogger.DeferredLogCall(String, String, String(), Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String, System.String, System.String(), System.Object())
+  name.vb: DeferredLogCall(String, String, String(), Object())
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String,System.String,System.String[],System.Object[],System.Object)
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String,System.String,System.String[],System.Object[],System.Object)
+  id: DeferredLogCall(System.String,System.String,System.String[],System.Object[],System.Object)
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogger
+  langs:
+  - csharp
+  - vb
+  name: DeferredLogCall(String, String, String[], Object[], Object)
+  nameWithType: ServiceLogger.DeferredLogCall(String, String, String[], Object[], Object)
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String, System.String, System.String[], System.Object[], System.Object)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  summary: "\nLog a service call that returns a value\n"
+  syntax:
+    content: public static ServiceLogContext DeferredLogCall(string agentName, string methodName, string[] parameterNames, object[] parameterValues, object returnValue)
+    parameters:
+    - id: agentName
+      type: System.String
+      description: Agent/service name
+    - id: methodName
+      type: System.String
+      description: Method name
+    - id: parameterNames
+      type: System.String[]
+      description: Array of parameters names, same length as array of parameter values; both can be null but only at the same time
+    - id: parameterValues
+      type: System.Object[]
+      description: Array of parameter values, same length as array of parameter names; both can be null but only at the same time
+    - id: returnValue
+      type: System.Object
+      description: Return value
+    return:
+      type: SuperOffice.CRM.Services.Implementation.ServiceLogContext
+    content.vb: Public Shared Function DeferredLogCall(agentName As String, methodName As String, parameterNames As String(), parameterValues As Object(), returnValue As Object) As ServiceLogContext
+  overload: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall*
+  nameWithType.vb: ServiceLogger.DeferredLogCall(String, String, String(), Object(), Object)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String, System.String, System.String(), System.Object(), System.Object)
+  name.vb: DeferredLogCall(String, String, String(), Object(), Object)
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String,System.String,System.String,System.Object)
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String,System.String,System.String,System.Object)
+  id: DeferredLogCall(System.String,System.String,System.String,System.Object)
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogger
+  langs:
+  - csharp
+  - vb
+  name: DeferredLogCall(String, String, String, Object)
+  nameWithType: ServiceLogger.DeferredLogCall(String, String, String, Object)
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String, System.String, System.String, System.Object)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  summary: "\nLog a service call that does not have a return value\n"
+  syntax:
+    content: public static ServiceLogContext DeferredLogCall(string agentName, string methodName, string parameterName, object parameterValue)
+    parameters:
+    - id: agentName
+      type: System.String
+      description: Agent/service name
+    - id: methodName
+      type: System.String
+      description: Method name
+    - id: parameterName
+      type: System.String
+    - id: parameterValue
+      type: System.Object
+    return:
+      type: SuperOffice.CRM.Services.Implementation.ServiceLogContext
+    content.vb: Public Shared Function DeferredLogCall(agentName As String, methodName As String, parameterName As String, parameterValue As Object) As ServiceLogContext
+  overload: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String,System.String)
+  id: DeferredLogCall(System.String,System.String)
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogger
+  langs:
+  - csharp
+  - vb
+  name: DeferredLogCall(String, String)
+  nameWithType: ServiceLogger.DeferredLogCall(String, String)
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  summary: "\nLog a service call that does not have parameters nor a return value\n"
+  syntax:
+    content: public static ServiceLogContext DeferredLogCall(string agentName, string methodName)
+    parameters:
+    - id: agentName
+      type: System.String
+      description: Agent/service name
+    - id: methodName
+      type: System.String
+      description: Method name
+    return:
+      type: SuperOffice.CRM.Services.Implementation.ServiceLogContext
+    content.vb: Public Shared Function DeferredLogCall(agentName As String, methodName As String) As ServiceLogContext
+  overload: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String,System.String,System.String,System.Object,System.Object)
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String,System.String,System.String,System.Object,System.Object)
+  id: DeferredLogCall(System.String,System.String,System.String,System.Object,System.Object)
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogger
+  langs:
+  - csharp
+  - vb
+  name: DeferredLogCall(String, String, String, Object, Object)
+  nameWithType: ServiceLogger.DeferredLogCall(String, String, String, Object, Object)
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String, System.String, System.String, System.Object, System.Object)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  summary: "\nLog a service call that has a single parameter and a return value\n"
+  syntax:
+    content: public static ServiceLogContext DeferredLogCall(string agentName, string methodName, string parameterName, object parameterValue, object returnValue)
+    parameters:
+    - id: agentName
+      type: System.String
+      description: Agent/service name
+    - id: methodName
+      type: System.String
+      description: Method name
+    - id: parameterName
+      type: System.String
+    - id: parameterValue
+      type: System.Object
+    - id: returnValue
+      type: System.Object
+    return:
+      type: SuperOffice.CRM.Services.Implementation.ServiceLogContext
+    content.vb: Public Shared Function DeferredLogCall(agentName As String, methodName As String, parameterName As String, parameterValue As Object, returnValue As Object) As ServiceLogContext
+  overload: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String,System.String,System.Object)
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String,System.String,System.Object)
+  id: DeferredLogCall(System.String,System.String,System.Object)
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogger
+  langs:
+  - csharp
+  - vb
+  name: DeferredLogCall(String, String, Object)
+  nameWithType: ServiceLogger.DeferredLogCall(String, String, Object)
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall(System.String, System.String, System.Object)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  summary: "\nLog a service call that has no parameters, but does have a return value\n"
+  syntax:
+    content: public static ServiceLogContext DeferredLogCall(string agentName, string methodName, object returnValue)
+    parameters:
+    - id: agentName
+      type: System.String
+      description: Agent/service name
+    - id: methodName
+      type: System.String
+      description: Method name
+    - id: returnValue
+      type: System.Object
+    return:
+      type: SuperOffice.CRM.Services.Implementation.ServiceLogContext
+    content.vb: Public Shared Function DeferredLogCall(agentName As String, methodName As String, returnValue As Object) As ServiceLogContext
+  overload: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogger.FormatServiceLogInformation(System.String,System.String,System.String[],System.Object[],System.Object,System.TimeSpan)
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogger.FormatServiceLogInformation(System.String,System.String,System.String[],System.Object[],System.Object,System.TimeSpan)
+  id: FormatServiceLogInformation(System.String,System.String,System.String[],System.Object[],System.Object,System.TimeSpan)
+  parent: SuperOffice.CRM.Services.Implementation.ServiceLogger
+  langs:
+  - csharp
+  - vb
+  name: FormatServiceLogInformation(String, String, String[], Object[], Object, TimeSpan)
+  nameWithType: ServiceLogger.FormatServiceLogInformation(String, String, String[], Object[], Object, TimeSpan)
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.FormatServiceLogInformation(System.String, System.String, System.String[], System.Object[], System.Object, System.TimeSpan)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services.Implementation
+  syntax:
+    content: public static string FormatServiceLogInformation(string agentName, string methodName, string[] parameterNames, object[] parameterValues, object returnValue, TimeSpan executionTime)
+    parameters:
+    - id: agentName
+      type: System.String
+    - id: methodName
+      type: System.String
+    - id: parameterNames
+      type: System.String[]
+    - id: parameterValues
+      type: System.Object[]
+    - id: returnValue
+      type: System.Object
+    - id: executionTime
+      type: System.TimeSpan
+    return:
+      type: System.String
+    content.vb: Public Shared Function FormatServiceLogInformation(agentName As String, methodName As String, parameterNames As String(), parameterValues As Object(), returnValue As Object, executionTime As TimeSpan) As String
+  overload: SuperOffice.CRM.Services.Implementation.ServiceLogger.FormatServiceLogInformation*
+  nameWithType.vb: ServiceLogger.FormatServiceLogInformation(String, String, String(), Object(), Object, TimeSpan)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Services.Implementation.ServiceLogger.FormatServiceLogInformation(System.String, System.String, System.String(), System.Object(), System.Object, System.TimeSpan)
+  name.vb: FormatServiceLogInformation(String, String, String(), Object(), Object, TimeSpan)
+references:
+- uid: SuperOffice.CRM.Services.Implementation
+  commentId: N:SuperOffice.CRM.Services.Implementation
+  isExternal: true
+  name: SuperOffice.CRM.Services.Implementation
+  nameWithType: SuperOffice.CRM.Services.Implementation
+  fullName: SuperOffice.CRM.Services.Implementation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall*
+  commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall
+  isExternal: true
+  name: LogCall
+  nameWithType: ServiceLogger.LogCall
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.LogCall
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall*
+  commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall
+  isExternal: true
+  name: DeferredLogCall
+  nameWithType: ServiceLogger.DeferredLogCall
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.DeferredLogCall
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext
+  commentId: T:SuperOffice.CRM.Services.Implementation.ServiceLogContext
+  parent: SuperOffice.CRM.Services.Implementation
+  isExternal: true
+  name: ServiceLogContext
+  nameWithType: ServiceLogContext
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogger.FormatServiceLogInformation*
+  commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogger.FormatServiceLogInformation
+  isExternal: true
+  name: FormatServiceLogInformation
+  nameWithType: ServiceLogger.FormatServiceLogInformation
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger.FormatServiceLogInformation

@@ -1,0 +1,753 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol
+  commentId: T:SuperOffice.CRM.Security.Sentry`1.ResourceSymbol
+  id: Sentry`1.ResourceSymbol
+  parent: SuperOffice.CRM.Security
+  children:
+  - SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryContactBusinessIdx
+  - SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryContactCategoryIdx
+  - SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryContactName
+  - SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryContactNumber2
+  - SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryPersonFirstname
+  - SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryPersonPersonNumber
+  - SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryProjectAssociateId
+  - SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryProjectName
+  - SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryProjectProjectNumber
+  - SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryProjectTypeIdx
+  - SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatorySaleAmount
+  - SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatorySaleContactId
+  - SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatorySaleNumber1
+  langs:
+  - csharp
+  - vb
+  name: Sentry<TMainTable>.ResourceSymbol
+  nameWithType: Sentry<TMainTable>.ResourceSymbol
+  fullName: SuperOffice.CRM.Security.Sentry<TMainTable>.ResourceSymbol
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nHelper class for identifying resources\n"
+  syntax:
+    content: protected static class ResourceSymbol
+    content.vb: Protected Module ResourceSymbol
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  nameWithType.vb: Sentry(Of TMainTable).ResourceSymbol
+  modifiers.csharp:
+  - protected
+  - static
+  - class
+  modifiers.vb:
+  - Protected
+  - Module
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of TMainTable).ResourceSymbol
+  name.vb: Sentry(Of TMainTable).ResourceSymbol
+- uid: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryContactName
+  commentId: F:SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryContactName
+  id: MandatoryContactName
+  parent: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol
+  langs:
+  - csharp
+  - vb
+  name: MandatoryContactName
+  nameWithType: Sentry<TMainTable>.ResourceSymbol.MandatoryContactName
+  fullName: SuperOffice.CRM.Security.Sentry<TMainTable>.ResourceSymbol.MandatoryContactName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public const string MandatoryContactName = "[SR_MANDATORY_FIELD_1281]"
+    return:
+      type: System.String
+    content.vb: Public Const MandatoryContactName As String = "[SR_MANDATORY_FIELD_1281]"
+  nameWithType.vb: Sentry(Of TMainTable).ResourceSymbol.MandatoryContactName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of TMainTable).ResourceSymbol.MandatoryContactName
+- uid: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryContactNumber2
+  commentId: F:SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryContactNumber2
+  id: MandatoryContactNumber2
+  parent: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol
+  langs:
+  - csharp
+  - vb
+  name: MandatoryContactNumber2
+  nameWithType: Sentry<TMainTable>.ResourceSymbol.MandatoryContactNumber2
+  fullName: SuperOffice.CRM.Security.Sentry<TMainTable>.ResourceSymbol.MandatoryContactNumber2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public const string MandatoryContactNumber2 = "[SR_MANDATORY_FIELD_1285]"
+    return:
+      type: System.String
+    content.vb: Public Const MandatoryContactNumber2 As String = "[SR_MANDATORY_FIELD_1285]"
+  nameWithType.vb: Sentry(Of TMainTable).ResourceSymbol.MandatoryContactNumber2
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of TMainTable).ResourceSymbol.MandatoryContactNumber2
+- uid: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryContactBusinessIdx
+  commentId: F:SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryContactBusinessIdx
+  id: MandatoryContactBusinessIdx
+  parent: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol
+  langs:
+  - csharp
+  - vb
+  name: MandatoryContactBusinessIdx
+  nameWithType: Sentry<TMainTable>.ResourceSymbol.MandatoryContactBusinessIdx
+  fullName: SuperOffice.CRM.Security.Sentry<TMainTable>.ResourceSymbol.MandatoryContactBusinessIdx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public const string MandatoryContactBusinessIdx = "[SR_MANDATORY_FIELD_1288]"
+    return:
+      type: System.String
+    content.vb: Public Const MandatoryContactBusinessIdx As String = "[SR_MANDATORY_FIELD_1288]"
+  nameWithType.vb: Sentry(Of TMainTable).ResourceSymbol.MandatoryContactBusinessIdx
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of TMainTable).ResourceSymbol.MandatoryContactBusinessIdx
+- uid: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryContactCategoryIdx
+  commentId: F:SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryContactCategoryIdx
+  id: MandatoryContactCategoryIdx
+  parent: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol
+  langs:
+  - csharp
+  - vb
+  name: MandatoryContactCategoryIdx
+  nameWithType: Sentry<TMainTable>.ResourceSymbol.MandatoryContactCategoryIdx
+  fullName: SuperOffice.CRM.Security.Sentry<TMainTable>.ResourceSymbol.MandatoryContactCategoryIdx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public const string MandatoryContactCategoryIdx = "[SR_MANDATORY_FIELD_1289]"
+    return:
+      type: System.String
+    content.vb: Public Const MandatoryContactCategoryIdx As String = "[SR_MANDATORY_FIELD_1289]"
+  nameWithType.vb: Sentry(Of TMainTable).ResourceSymbol.MandatoryContactCategoryIdx
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of TMainTable).ResourceSymbol.MandatoryContactCategoryIdx
+- uid: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryPersonFirstname
+  commentId: F:SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryPersonFirstname
+  id: MandatoryPersonFirstname
+  parent: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol
+  langs:
+  - csharp
+  - vb
+  name: MandatoryPersonFirstname
+  nameWithType: Sentry<TMainTable>.ResourceSymbol.MandatoryPersonFirstname
+  fullName: SuperOffice.CRM.Security.Sentry<TMainTable>.ResourceSymbol.MandatoryPersonFirstname
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public const string MandatoryPersonFirstname = "[SR_MANDATORY_FIELD_1539]"
+    return:
+      type: System.String
+    content.vb: Public Const MandatoryPersonFirstname As String = "[SR_MANDATORY_FIELD_1539]"
+  nameWithType.vb: Sentry(Of TMainTable).ResourceSymbol.MandatoryPersonFirstname
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of TMainTable).ResourceSymbol.MandatoryPersonFirstname
+- uid: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryPersonPersonNumber
+  commentId: F:SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryPersonPersonNumber
+  id: MandatoryPersonPersonNumber
+  parent: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol
+  langs:
+  - csharp
+  - vb
+  name: MandatoryPersonPersonNumber
+  nameWithType: Sentry<TMainTable>.ResourceSymbol.MandatoryPersonPersonNumber
+  fullName: SuperOffice.CRM.Security.Sentry<TMainTable>.ResourceSymbol.MandatoryPersonPersonNumber
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public const string MandatoryPersonPersonNumber = "[SR_MANDATORY_FIELD_1554]"
+    return:
+      type: System.String
+    content.vb: Public Const MandatoryPersonPersonNumber As String = "[SR_MANDATORY_FIELD_1554]"
+  nameWithType.vb: Sentry(Of TMainTable).ResourceSymbol.MandatoryPersonPersonNumber
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of TMainTable).ResourceSymbol.MandatoryPersonPersonNumber
+- uid: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryProjectName
+  commentId: F:SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryProjectName
+  id: MandatoryProjectName
+  parent: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol
+  langs:
+  - csharp
+  - vb
+  name: MandatoryProjectName
+  nameWithType: Sentry<TMainTable>.ResourceSymbol.MandatoryProjectName
+  fullName: SuperOffice.CRM.Security.Sentry<TMainTable>.ResourceSymbol.MandatoryProjectName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public const string MandatoryProjectName = "[SR_MANDATORY_FIELD_2817]"
+    return:
+      type: System.String
+    content.vb: Public Const MandatoryProjectName As String = "[SR_MANDATORY_FIELD_2817]"
+  nameWithType.vb: Sentry(Of TMainTable).ResourceSymbol.MandatoryProjectName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of TMainTable).ResourceSymbol.MandatoryProjectName
+- uid: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryProjectProjectNumber
+  commentId: F:SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryProjectProjectNumber
+  id: MandatoryProjectProjectNumber
+  parent: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol
+  langs:
+  - csharp
+  - vb
+  name: MandatoryProjectProjectNumber
+  nameWithType: Sentry<TMainTable>.ResourceSymbol.MandatoryProjectProjectNumber
+  fullName: SuperOffice.CRM.Security.Sentry<TMainTable>.ResourceSymbol.MandatoryProjectProjectNumber
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public const string MandatoryProjectProjectNumber = "[SR_MANDATORY_FIELD_2818]"
+    return:
+      type: System.String
+    content.vb: Public Const MandatoryProjectProjectNumber As String = "[SR_MANDATORY_FIELD_2818]"
+  nameWithType.vb: Sentry(Of TMainTable).ResourceSymbol.MandatoryProjectProjectNumber
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of TMainTable).ResourceSymbol.MandatoryProjectProjectNumber
+- uid: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryProjectTypeIdx
+  commentId: F:SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryProjectTypeIdx
+  id: MandatoryProjectTypeIdx
+  parent: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol
+  langs:
+  - csharp
+  - vb
+  name: MandatoryProjectTypeIdx
+  nameWithType: Sentry<TMainTable>.ResourceSymbol.MandatoryProjectTypeIdx
+  fullName: SuperOffice.CRM.Security.Sentry<TMainTable>.ResourceSymbol.MandatoryProjectTypeIdx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public const string MandatoryProjectTypeIdx = "[SR_MANDATORY_FIELD_2819]"
+    return:
+      type: System.String
+    content.vb: Public Const MandatoryProjectTypeIdx As String = "[SR_MANDATORY_FIELD_2819]"
+  nameWithType.vb: Sentry(Of TMainTable).ResourceSymbol.MandatoryProjectTypeIdx
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of TMainTable).ResourceSymbol.MandatoryProjectTypeIdx
+- uid: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryProjectAssociateId
+  commentId: F:SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatoryProjectAssociateId
+  id: MandatoryProjectAssociateId
+  parent: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol
+  langs:
+  - csharp
+  - vb
+  name: MandatoryProjectAssociateId
+  nameWithType: Sentry<TMainTable>.ResourceSymbol.MandatoryProjectAssociateId
+  fullName: SuperOffice.CRM.Security.Sentry<TMainTable>.ResourceSymbol.MandatoryProjectAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public const string MandatoryProjectAssociateId = "[SR_MANDATORY_FIELD_2821]"
+    return:
+      type: System.String
+    content.vb: Public Const MandatoryProjectAssociateId As String = "[SR_MANDATORY_FIELD_2821]"
+  nameWithType.vb: Sentry(Of TMainTable).ResourceSymbol.MandatoryProjectAssociateId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of TMainTable).ResourceSymbol.MandatoryProjectAssociateId
+- uid: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatorySaleContactId
+  commentId: F:SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatorySaleContactId
+  id: MandatorySaleContactId
+  parent: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol
+  langs:
+  - csharp
+  - vb
+  name: MandatorySaleContactId
+  nameWithType: Sentry<TMainTable>.ResourceSymbol.MandatorySaleContactId
+  fullName: SuperOffice.CRM.Security.Sentry<TMainTable>.ResourceSymbol.MandatorySaleContactId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public const string MandatorySaleContactId = "[SR_MANDATORY_FIELD_3331]"
+    return:
+      type: System.String
+    content.vb: Public Const MandatorySaleContactId As String = "[SR_MANDATORY_FIELD_3331]"
+  nameWithType.vb: Sentry(Of TMainTable).ResourceSymbol.MandatorySaleContactId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of TMainTable).ResourceSymbol.MandatorySaleContactId
+- uid: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatorySaleAmount
+  commentId: F:SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatorySaleAmount
+  id: MandatorySaleAmount
+  parent: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol
+  langs:
+  - csharp
+  - vb
+  name: MandatorySaleAmount
+  nameWithType: Sentry<TMainTable>.ResourceSymbol.MandatorySaleAmount
+  fullName: SuperOffice.CRM.Security.Sentry<TMainTable>.ResourceSymbol.MandatorySaleAmount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public const string MandatorySaleAmount = "[SR_MANDATORY_FIELD_3335]"
+    return:
+      type: System.String
+    content.vb: Public Const MandatorySaleAmount As String = "[SR_MANDATORY_FIELD_3335]"
+  nameWithType.vb: Sentry(Of TMainTable).ResourceSymbol.MandatorySaleAmount
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of TMainTable).ResourceSymbol.MandatorySaleAmount
+- uid: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatorySaleNumber1
+  commentId: F:SuperOffice.CRM.Security.Sentry`1.ResourceSymbol.MandatorySaleNumber1
+  id: MandatorySaleNumber1
+  parent: SuperOffice.CRM.Security.Sentry`1.ResourceSymbol
+  langs:
+  - csharp
+  - vb
+  name: MandatorySaleNumber1
+  nameWithType: Sentry<TMainTable>.ResourceSymbol.MandatorySaleNumber1
+  fullName: SuperOffice.CRM.Security.Sentry<TMainTable>.ResourceSymbol.MandatorySaleNumber1
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public const string MandatorySaleNumber1 = "[SR_MANDATORY_FIELD_3353]"
+    return:
+      type: System.String
+    content.vb: Public Const MandatorySaleNumber1 As String = "[SR_MANDATORY_FIELD_3353]"
+  nameWithType.vb: Sentry(Of TMainTable).ResourceSymbol.MandatorySaleNumber1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+  fullName.vb: SuperOffice.CRM.Security.Sentry(Of TMainTable).ResourceSymbol.MandatorySaleNumber1
+references:
+- uid: SuperOffice.CRM.Security
+  commentId: N:SuperOffice.CRM.Security
+  isExternal: true
+  name: SuperOffice.CRM.Security
+  nameWithType: SuperOffice.CRM.Security
+  fullName: SuperOffice.CRM.Security
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

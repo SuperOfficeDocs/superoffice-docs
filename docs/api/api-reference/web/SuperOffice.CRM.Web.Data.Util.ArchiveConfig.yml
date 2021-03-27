@@ -1,0 +1,974 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig
+  commentId: T:SuperOffice.CRM.Web.Data.Util.ArchiveConfig
+  id: ArchiveConfig
+  parent: SuperOffice.CRM.Web.Data.Util
+  children:
+  - SuperOffice.CRM.Web.Data.Util.ArchiveConfig.#ctor(System.Xml.Linq.XElement)
+  - SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Columns
+  - SuperOffice.CRM.Web.Data.Util.ArchiveConfig.DefaultColumns
+  - SuperOffice.CRM.Web.Data.Util.ArchiveConfig.FlattenColumns
+  - SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Gui
+  - SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Load(System.String,System.String)
+  - SuperOffice.CRM.Web.Data.Util.ArchiveConfig.MandatoryColumns
+  - SuperOffice.CRM.Web.Data.Util.ArchiveConfig.OrderByColumns
+  - SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Provider
+  langs:
+  - csharp
+  - vb
+  name: ArchiveConfig
+  nameWithType: ArchiveConfig
+  fullName: SuperOffice.CRM.Web.Data.Util.ArchiveConfig
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: 'public class ArchiveConfig : ConfigBase'
+    content.vb: >-
+      Public Class ArchiveConfig
+          Inherits ConfigBase
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Web.Data.Util.ConfigBase
+  inheritedMembers:
+  - SuperOffice.CRM.Web.Data.Util.ConfigBase._element
+  - SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadChildren(System.Xml.Linq.XElement,SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup)
+  - SuperOffice.CRM.Web.Data.Util.ConfigBase.MakeRawXmlStackTrace
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.#ctor(System.Xml.Linq.XElement)
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ArchiveConfig.#ctor(System.Xml.Linq.XElement)
+  id: '#ctor(System.Xml.Linq.XElement)'
+  parent: SuperOffice.CRM.Web.Data.Util.ArchiveConfig
+  langs:
+  - csharp
+  - vb
+  name: ArchiveConfig(XElement)
+  nameWithType: ArchiveConfig.ArchiveConfig(XElement)
+  fullName: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.ArchiveConfig(System.Xml.Linq.XElement)
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public ArchiveConfig(XElement element)
+    parameters:
+    - id: element
+      type: System.Xml.Linq.XElement
+    content.vb: Public Sub New(element As XElement)
+  overload: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Load(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Load(System.String,System.String)
+  id: Load(System.String,System.String)
+  parent: SuperOffice.CRM.Web.Data.Util.ArchiveConfig
+  langs:
+  - csharp
+  - vb
+  name: Load(String, String)
+  nameWithType: ArchiveConfig.Load(String, String)
+  fullName: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Load(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static ArchiveConfig Load(string provider, string gui)
+    parameters:
+    - id: provider
+      type: System.String
+    - id: gui
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Web.Data.Util.ArchiveConfig
+    content.vb: Public Shared Function Load(provider As String, gui As String) As ArchiveConfig
+  overload: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Load*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.FlattenColumns
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ArchiveConfig.FlattenColumns
+  id: FlattenColumns
+  parent: SuperOffice.CRM.Web.Data.Util.ArchiveConfig
+  langs:
+  - csharp
+  - vb
+  name: FlattenColumns()
+  nameWithType: ArchiveConfig.FlattenColumns()
+  fullName: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.FlattenColumns()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public IEnumerable<ColumnConfigBase> FlattenColumns()
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Web.Data.Util.ColumnConfigBase}
+    content.vb: Public Function FlattenColumns As IEnumerable(Of ColumnConfigBase)
+  overload: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.FlattenColumns*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Provider
+  commentId: P:SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Provider
+  id: Provider
+  parent: SuperOffice.CRM.Web.Data.Util.ArchiveConfig
+  langs:
+  - csharp
+  - vb
+  name: Provider
+  nameWithType: ArchiveConfig.Provider
+  fullName: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Provider
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public string Provider { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Provider As String
+  overload: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Provider*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Gui
+  commentId: P:SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Gui
+  id: Gui
+  parent: SuperOffice.CRM.Web.Data.Util.ArchiveConfig
+  langs:
+  - csharp
+  - vb
+  name: Gui
+  nameWithType: ArchiveConfig.Gui
+  fullName: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Gui
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public string Gui { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Gui As String
+  overload: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Gui*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Columns
+  commentId: P:SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Columns
+  id: Columns
+  parent: SuperOffice.CRM.Web.Data.Util.ArchiveConfig
+  langs:
+  - csharp
+  - vb
+  name: Columns
+  nameWithType: ArchiveConfig.Columns
+  fullName: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Columns
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public IEnumerable<ColumnConfigBase> Columns { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Web.Data.Util.ColumnConfigBase}
+    content.vb: Public ReadOnly Property Columns As IEnumerable(Of ColumnConfigBase)
+  overload: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Columns*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.DefaultColumns
+  commentId: P:SuperOffice.CRM.Web.Data.Util.ArchiveConfig.DefaultColumns
+  id: DefaultColumns
+  parent: SuperOffice.CRM.Web.Data.Util.ArchiveConfig
+  langs:
+  - csharp
+  - vb
+  name: DefaultColumns
+  nameWithType: ArchiveConfig.DefaultColumns
+  fullName: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.DefaultColumns
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public IEnumerable<string> DefaultColumns { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+    content.vb: Public ReadOnly Property DefaultColumns As IEnumerable(Of String)
+  overload: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.DefaultColumns*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.MandatoryColumns
+  commentId: P:SuperOffice.CRM.Web.Data.Util.ArchiveConfig.MandatoryColumns
+  id: MandatoryColumns
+  parent: SuperOffice.CRM.Web.Data.Util.ArchiveConfig
+  langs:
+  - csharp
+  - vb
+  name: MandatoryColumns
+  nameWithType: ArchiveConfig.MandatoryColumns
+  fullName: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.MandatoryColumns
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public IEnumerable<string> MandatoryColumns { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+    content.vb: Public ReadOnly Property MandatoryColumns As IEnumerable(Of String)
+  overload: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.MandatoryColumns*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.OrderByColumns
+  commentId: P:SuperOffice.CRM.Web.Data.Util.ArchiveConfig.OrderByColumns
+  id: OrderByColumns
+  parent: SuperOffice.CRM.Web.Data.Util.ArchiveConfig
+  langs:
+  - csharp
+  - vb
+  name: OrderByColumns
+  nameWithType: ArchiveConfig.OrderByColumns
+  fullName: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.OrderByColumns
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public IEnumerable<ArchiveOrderByInfo> OrderByColumns { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo}
+    content.vb: Public ReadOnly Property OrderByColumns As IEnumerable(Of ArchiveOrderByInfo)
+  overload: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.OrderByColumns*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Web.Data.Util
+  commentId: N:SuperOffice.CRM.Web.Data.Util
+  isExternal: true
+  name: SuperOffice.CRM.Web.Data.Util
+  nameWithType: SuperOffice.CRM.Web.Data.Util
+  fullName: SuperOffice.CRM.Web.Data.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Web.Data.Util.ConfigBase
+  commentId: T:SuperOffice.CRM.Web.Data.Util.ConfigBase
+  parent: SuperOffice.CRM.Web.Data.Util
+  isExternal: true
+  name: ConfigBase
+  nameWithType: ConfigBase
+  fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase
+- uid: SuperOffice.CRM.Web.Data.Util.ConfigBase._element
+  commentId: F:SuperOffice.CRM.Web.Data.Util.ConfigBase._element
+  parent: SuperOffice.CRM.Web.Data.Util.ConfigBase
+  isExternal: true
+  name: _element
+  nameWithType: ConfigBase._element
+  fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase._element
+- uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadChildren(System.Xml.Linq.XElement,SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup)
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadChildren(System.Xml.Linq.XElement,SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup)
+  parent: SuperOffice.CRM.Web.Data.Util.ConfigBase
+  isExternal: true
+  name: LoadChildren(XElement, ColumnConfigGroup)
+  nameWithType: ConfigBase.LoadChildren(XElement, ColumnConfigGroup)
+  fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadChildren(System.Xml.Linq.XElement, SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadChildren(System.Xml.Linq.XElement,SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup)
+    name: LoadChildren
+    nameWithType: ConfigBase.LoadChildren
+    fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadChildren
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    nameWithType: XElement
+    fullName: System.Xml.Linq.XElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup
+    name: ColumnConfigGroup
+    nameWithType: ColumnConfigGroup
+    fullName: SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadChildren(System.Xml.Linq.XElement,SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup)
+    name: LoadChildren
+    nameWithType: ConfigBase.LoadChildren
+    fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.LoadChildren
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    nameWithType: XElement
+    fullName: System.Xml.Linq.XElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup
+    name: ColumnConfigGroup
+    nameWithType: ColumnConfigGroup
+    fullName: SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.MakeRawXmlStackTrace
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ConfigBase.MakeRawXmlStackTrace
+  parent: SuperOffice.CRM.Web.Data.Util.ConfigBase
+  isExternal: true
+  name: MakeRawXmlStackTrace()
+  nameWithType: ConfigBase.MakeRawXmlStackTrace()
+  fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.MakeRawXmlStackTrace()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.MakeRawXmlStackTrace
+    name: MakeRawXmlStackTrace
+    nameWithType: ConfigBase.MakeRawXmlStackTrace
+    fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.MakeRawXmlStackTrace
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Data.Util.ConfigBase.MakeRawXmlStackTrace
+    name: MakeRawXmlStackTrace
+    nameWithType: ConfigBase.MakeRawXmlStackTrace
+    fullName: SuperOffice.CRM.Web.Data.Util.ConfigBase.MakeRawXmlStackTrace
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ArchiveConfig.#ctor
+  isExternal: true
+  name: ArchiveConfig
+  nameWithType: ArchiveConfig.ArchiveConfig
+  fullName: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.ArchiveConfig
+- uid: System.Xml.Linq.XElement
+  isExternal: true
+  name: XElement
+  nameWithType: XElement
+  fullName: System.Xml.Linq.XElement
+- uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Load*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Load
+  isExternal: true
+  name: Load
+  nameWithType: ArchiveConfig.Load
+  fullName: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Load
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig
+  commentId: T:SuperOffice.CRM.Web.Data.Util.ArchiveConfig
+  parent: SuperOffice.CRM.Web.Data.Util
+  isExternal: true
+  name: ArchiveConfig
+  nameWithType: ArchiveConfig
+  fullName: SuperOffice.CRM.Web.Data.Util.ArchiveConfig
+- uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.FlattenColumns*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ArchiveConfig.FlattenColumns
+  isExternal: true
+  name: FlattenColumns
+  nameWithType: ArchiveConfig.FlattenColumns
+  fullName: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.FlattenColumns
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Web.Data.Util.ColumnConfigBase}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Web.Data.Util.ColumnConfigBase}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ColumnConfigBase>
+  nameWithType: IEnumerable<ColumnConfigBase>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Web.Data.Util.ColumnConfigBase>
+  nameWithType.vb: IEnumerable(Of ColumnConfigBase)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Web.Data.Util.ColumnConfigBase)
+  name.vb: IEnumerable(Of ColumnConfigBase)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase
+    name: ColumnConfigBase
+    nameWithType: ColumnConfigBase
+    fullName: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase
+    name: ColumnConfigBase
+    nameWithType: ColumnConfigBase
+    fullName: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Provider*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Provider
+  isExternal: true
+  name: Provider
+  nameWithType: ArchiveConfig.Provider
+  fullName: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Provider
+- uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Gui*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Gui
+  isExternal: true
+  name: Gui
+  nameWithType: ArchiveConfig.Gui
+  fullName: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Gui
+- uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Columns*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Columns
+  isExternal: true
+  name: Columns
+  nameWithType: ArchiveConfig.Columns
+  fullName: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.Columns
+- uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.DefaultColumns*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ArchiveConfig.DefaultColumns
+  isExternal: true
+  name: DefaultColumns
+  nameWithType: ArchiveConfig.DefaultColumns
+  fullName: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.DefaultColumns
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<String>
+  nameWithType: IEnumerable<String>
+  fullName: System.Collections.Generic.IEnumerable<System.String>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.MandatoryColumns*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ArchiveConfig.MandatoryColumns
+  isExternal: true
+  name: MandatoryColumns
+  nameWithType: ArchiveConfig.MandatoryColumns
+  fullName: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.MandatoryColumns
+- uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.OrderByColumns*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ArchiveConfig.OrderByColumns
+  isExternal: true
+  name: OrderByColumns
+  nameWithType: ArchiveConfig.OrderByColumns
+  fullName: SuperOffice.CRM.Web.Data.Util.ArchiveConfig.OrderByColumns
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ArchiveOrderByInfo>
+  nameWithType: IEnumerable<ArchiveOrderByInfo>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo>
+  nameWithType.vb: IEnumerable(Of ArchiveOrderByInfo)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo)
+  name.vb: IEnumerable(Of ArchiveOrderByInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

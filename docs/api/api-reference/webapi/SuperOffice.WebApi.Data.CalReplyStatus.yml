@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CalReplyStatus
+  commentId: T:SuperOffice.WebApi.Data.CalReplyStatus
+  id: CalReplyStatus
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CalReplyStatus.Accepted
+  - SuperOffice.WebApi.Data.CalReplyStatus.Declined
+  - SuperOffice.WebApi.Data.CalReplyStatus.Tentative
+  - SuperOffice.WebApi.Data.CalReplyStatus.Unknown
+  - SuperOffice.WebApi.Data.CalReplyStatus.value__
+  langs:
+  - csharp
+  - vb
+  name: CalReplyStatus
+  nameWithType: CalReplyStatus
+  fullName: SuperOffice.WebApi.Data.CalReplyStatus
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\niCal reply status\n"
+  syntax:
+    content: 'public sealed class CalReplyStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class CalReplyStatus
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.CalReplyStatus.value__
+  commentId: F:SuperOffice.WebApi.Data.CalReplyStatus.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.CalReplyStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: CalReplyStatus.value__
+  fullName: SuperOffice.WebApi.Data.CalReplyStatus.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CalReplyStatus.Unknown
+  commentId: F:SuperOffice.WebApi.Data.CalReplyStatus.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.CalReplyStatus
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: CalReplyStatus.Unknown
+  fullName: SuperOffice.WebApi.Data.CalReplyStatus.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Status is not known\n"
+  syntax:
+    content: public const CalReplyStatus Unknown
+    return:
+      type: SuperOffice.WebApi.Data.CalReplyStatus
+    content.vb: Public Const Unknown As CalReplyStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.CalReplyStatus.Accepted
+  commentId: F:SuperOffice.WebApi.Data.CalReplyStatus.Accepted
+  id: Accepted
+  parent: SuperOffice.WebApi.Data.CalReplyStatus
+  langs:
+  - csharp
+  - vb
+  name: Accepted
+  nameWithType: CalReplyStatus.Accepted
+  fullName: SuperOffice.WebApi.Data.CalReplyStatus.Accepted
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: The sender accepted the meeting.\n"
+  syntax:
+    content: public const CalReplyStatus Accepted
+    return:
+      type: SuperOffice.WebApi.Data.CalReplyStatus
+    content.vb: Public Const Accepted As CalReplyStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.CalReplyStatus.Declined
+  commentId: F:SuperOffice.WebApi.Data.CalReplyStatus.Declined
+  id: Declined
+  parent: SuperOffice.WebApi.Data.CalReplyStatus
+  langs:
+  - csharp
+  - vb
+  name: Declined
+  nameWithType: CalReplyStatus.Declined
+  fullName: SuperOffice.WebApi.Data.CalReplyStatus.Declined
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: The sender declined the meeting.\n"
+  syntax:
+    content: public const CalReplyStatus Declined
+    return:
+      type: SuperOffice.WebApi.Data.CalReplyStatus
+    content.vb: Public Const Declined As CalReplyStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.CalReplyStatus.Tentative
+  commentId: F:SuperOffice.WebApi.Data.CalReplyStatus.Tentative
+  id: Tentative
+  parent: SuperOffice.WebApi.Data.CalReplyStatus
+  langs:
+  - csharp
+  - vb
+  name: Tentative
+  nameWithType: CalReplyStatus.Tentative
+  fullName: SuperOffice.WebApi.Data.CalReplyStatus.Tentative
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: The sender tentatively accepted the meeting.\n"
+  syntax:
+    content: public const CalReplyStatus Tentative
+    return:
+      type: SuperOffice.WebApi.Data.CalReplyStatus
+    content.vb: Public Const Tentative As CalReplyStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.CalReplyStatus
+  commentId: T:SuperOffice.WebApi.Data.CalReplyStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: CalReplyStatus
+  nameWithType: CalReplyStatus
+  fullName: SuperOffice.WebApi.Data.CalReplyStatus

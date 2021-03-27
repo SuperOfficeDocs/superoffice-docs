@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest
+  commentId: T:SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest
+  id: Resource_IsResourceSubstitutionActiveRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest.#ctor
+  - SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest.Culture
+  - SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest.ResourceNames
+  langs:
+  - csharp
+  - vb
+  name: Resource_IsResourceSubstitutionActiveRequest
+  nameWithType: Resource_IsResourceSubstitutionActiveRequest
+  fullName: SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Resource_IsResourceSubstitutionActiveRequest : Object'
+    content.vb: >-
+      Public Class Resource_IsResourceSubstitutionActiveRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest
+  langs:
+  - csharp
+  - vb
+  name: Resource_IsResourceSubstitutionActiveRequest()
+  nameWithType: Resource_IsResourceSubstitutionActiveRequest.Resource_IsResourceSubstitutionActiveRequest()
+  fullName: SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest.Resource_IsResourceSubstitutionActiveRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Resource_IsResourceSubstitutionActiveRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest.ResourceNames
+  commentId: P:SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest.ResourceNames
+  id: ResourceNames
+  parent: SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest
+  langs:
+  - csharp
+  - vb
+  name: ResourceNames
+  nameWithType: Resource_IsResourceSubstitutionActiveRequest.ResourceNames
+  fullName: SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest.ResourceNames
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] ResourceNames { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property ResourceNames As String()
+  overload: SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest.ResourceNames*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest.Culture
+  commentId: P:SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest.Culture
+  id: Culture
+  parent: SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest
+  langs:
+  - csharp
+  - vb
+  name: Culture
+  nameWithType: Resource_IsResourceSubstitutionActiveRequest.Culture
+  fullName: SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest.Culture
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Culture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Culture As String
+  overload: SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest.Culture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest.#ctor
+  isExternal: true
+  name: Resource_IsResourceSubstitutionActiveRequest
+  nameWithType: Resource_IsResourceSubstitutionActiveRequest.Resource_IsResourceSubstitutionActiveRequest
+  fullName: SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest.Resource_IsResourceSubstitutionActiveRequest
+- uid: SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest.ResourceNames*
+  commentId: Overload:SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest.ResourceNames
+  isExternal: true
+  name: ResourceNames
+  nameWithType: Resource_IsResourceSubstitutionActiveRequest.ResourceNames
+  fullName: SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest.ResourceNames
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest.Culture*
+  commentId: Overload:SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest.Culture
+  isExternal: true
+  name: Culture
+  nameWithType: Resource_IsResourceSubstitutionActiveRequest.Culture
+  fullName: SuperOffice.WebApi.Data.Resource_IsResourceSubstitutionActiveRequest.Culture
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

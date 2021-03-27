@@ -1,0 +1,733 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.DatabaseAgent
+  commentId: T:SuperOffice.CRM.Services.DatabaseAgent
+  id: DatabaseAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.DatabaseAgent.#ctor
+  - SuperOffice.CRM.Services.DatabaseAgent.GetStepsFromNetServerCode
+  - SuperOffice.CRM.Services.DatabaseAgent.GetStepsInDatabase
+  langs:
+  - csharp
+  - vb
+  name: DatabaseAgent
+  nameWithType: DatabaseAgent
+  fullName: SuperOffice.CRM.Services.DatabaseAgent
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFacade for the Database Agent\nDatabase schema queries and changes\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (DatabaseAgent agent = new DatabaseAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: 'public class DatabaseAgent : AgentBase<IDatabaseAgent>, IDisposable, IDatabaseAgent, IAgent'
+    content.vb: >-
+      Public Class DatabaseAgent
+          Inherits AgentBase(Of IDatabaseAgent)
+          Implements IDisposable, IDatabaseAgent, IAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseAgent}
+  implements:
+  - System.IDisposable
+  - SuperOffice.CRM.Services.IDatabaseAgent
+  - SuperOffice.CRM.Services.IAgent
+  inheritedMembers:
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseAgent}.Dispose
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseAgent}.InnerAgent
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.DatabaseAgent.GetStepsInDatabase
+  commentId: M:SuperOffice.CRM.Services.DatabaseAgent.GetStepsInDatabase
+  id: GetStepsInDatabase
+  parent: SuperOffice.CRM.Services.DatabaseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetStepsInDatabase()
+  nameWithType: DatabaseAgent.GetStepsInDatabase()
+  fullName: SuperOffice.CRM.Services.DatabaseAgent.GetStepsInDatabase()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet information about the dictionary steps that are in the currently-loggedon database\n"
+  syntax:
+    content: public DictionaryStepInformation[] GetStepsInDatabase()
+    return:
+      type: SuperOffice.CRM.Services.DictionaryStepInformation[]
+      description: Array of dictionary steps in the database, listing only the highest number for each step
+    content.vb: Public Function GetStepsInDatabase As DictionaryStepInformation()
+  overload: SuperOffice.CRM.Services.DatabaseAgent.GetStepsInDatabase*
+  implements:
+  - SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabase
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DatabaseAgent.GetStepsFromNetServerCode
+  commentId: M:SuperOffice.CRM.Services.DatabaseAgent.GetStepsFromNetServerCode
+  id: GetStepsFromNetServerCode
+  parent: SuperOffice.CRM.Services.DatabaseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetStepsFromNetServerCode()
+  nameWithType: DatabaseAgent.GetStepsFromNetServerCode()
+  fullName: SuperOffice.CRM.Services.DatabaseAgent.GetStepsFromNetServerCode()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet information about the dictionary steps that NetServer was generated for\n"
+  syntax:
+    content: public DictionaryStepInformation[] GetStepsFromNetServerCode()
+    return:
+      type: SuperOffice.CRM.Services.DictionaryStepInformation[]
+      description: Array of dictionary steps used when NetServer was generated, listing only the highest number for each step
+    content.vb: Public Function GetStepsFromNetServerCode As DictionaryStepInformation()
+  overload: SuperOffice.CRM.Services.DatabaseAgent.GetStepsFromNetServerCode*
+  implements:
+  - SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCode
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DatabaseAgent.#ctor
+  commentId: M:SuperOffice.CRM.Services.DatabaseAgent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.DatabaseAgent
+  langs:
+  - csharp
+  - vb
+  name: DatabaseAgent()
+  nameWithType: DatabaseAgent.DatabaseAgent()
+  fullName: SuperOffice.CRM.Services.DatabaseAgent.DatabaseAgent()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public DatabaseAgent()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.DatabaseAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseAgent}
+  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseAgent}
+  parent: SuperOffice.CRM.Services
+  definition: SuperOffice.CRM.Services.AgentBase`1
+  name: AgentBase<IDatabaseAgent>
+  nameWithType: AgentBase<IDatabaseAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDatabaseAgent>
+  nameWithType.vb: AgentBase(Of IDatabaseAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IDatabaseAgent)
+  name.vb: AgentBase(Of IDatabaseAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.IDatabaseAgent
+    name: IDatabaseAgent
+    nameWithType: IDatabaseAgent
+    fullName: SuperOffice.CRM.Services.IDatabaseAgent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.IDatabaseAgent
+    name: IDatabaseAgent
+    nameWithType: IDatabaseAgent
+    fullName: SuperOffice.CRM.Services.IDatabaseAgent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.CRM.Services.IDatabaseAgent
+  commentId: T:SuperOffice.CRM.Services.IDatabaseAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IDatabaseAgent
+  nameWithType: IDatabaseAgent
+  fullName: SuperOffice.CRM.Services.IDatabaseAgent
+- uid: SuperOffice.CRM.Services.IAgent
+  commentId: T:SuperOffice.CRM.Services.IAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAgent
+  nameWithType: IAgent
+  fullName: SuperOffice.CRM.Services.IAgent
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseAgent}.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseAgent}.Dispose
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  name: Dispose()
+  nameWithType: AgentBase<IDatabaseAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDatabaseAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of IDatabaseAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IDatabaseAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<IDatabaseAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDatabaseAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of IDatabaseAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IDatabaseAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseAgent}.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseAgent}.InnerAgent
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDatabaseAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  name: InnerAgent
+  nameWithType: AgentBase<IDatabaseAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDatabaseAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of IDatabaseAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IDatabaseAgent).InnerAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AgentBase`1
+  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+  isExternal: true
+  name: AgentBase<TAgent>
+  nameWithType: AgentBase<TAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
+  nameWithType.vb: AgentBase(Of TAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
+  name.vb: AgentBase(Of TAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase<TAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of TAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  isExternal: true
+  name: InnerAgent
+  nameWithType: AgentBase<TAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
+- uid: SuperOffice.CRM.Services.DatabaseAgent.GetStepsInDatabase*
+  commentId: Overload:SuperOffice.CRM.Services.DatabaseAgent.GetStepsInDatabase
+  isExternal: true
+  name: GetStepsInDatabase
+  nameWithType: DatabaseAgent.GetStepsInDatabase
+  fullName: SuperOffice.CRM.Services.DatabaseAgent.GetStepsInDatabase
+- uid: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabase
+  commentId: M:SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabase
+  parent: SuperOffice.CRM.Services.IDatabaseAgent
+  isExternal: true
+  name: GetStepsInDatabase()
+  nameWithType: IDatabaseAgent.GetStepsInDatabase()
+  fullName: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabase()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabase
+    name: GetStepsInDatabase
+    nameWithType: IDatabaseAgent.GetStepsInDatabase
+    fullName: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabase
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabase
+    name: GetStepsInDatabase
+    nameWithType: IDatabaseAgent.GetStepsInDatabase
+    fullName: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsInDatabase
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.DictionaryStepInformation[]
+  isExternal: true
+  name: DictionaryStepInformation[]
+  nameWithType: DictionaryStepInformation[]
+  fullName: SuperOffice.CRM.Services.DictionaryStepInformation[]
+  nameWithType.vb: DictionaryStepInformation()
+  fullName.vb: SuperOffice.CRM.Services.DictionaryStepInformation()
+  name.vb: DictionaryStepInformation()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.DictionaryStepInformation
+    name: DictionaryStepInformation
+    nameWithType: DictionaryStepInformation
+    fullName: SuperOffice.CRM.Services.DictionaryStepInformation
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.DictionaryStepInformation
+    name: DictionaryStepInformation
+    nameWithType: DictionaryStepInformation
+    fullName: SuperOffice.CRM.Services.DictionaryStepInformation
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.DatabaseAgent.GetStepsFromNetServerCode*
+  commentId: Overload:SuperOffice.CRM.Services.DatabaseAgent.GetStepsFromNetServerCode
+  isExternal: true
+  name: GetStepsFromNetServerCode
+  nameWithType: DatabaseAgent.GetStepsFromNetServerCode
+  fullName: SuperOffice.CRM.Services.DatabaseAgent.GetStepsFromNetServerCode
+- uid: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCode
+  commentId: M:SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCode
+  parent: SuperOffice.CRM.Services.IDatabaseAgent
+  isExternal: true
+  name: GetStepsFromNetServerCode()
+  nameWithType: IDatabaseAgent.GetStepsFromNetServerCode()
+  fullName: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCode()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCode
+    name: GetStepsFromNetServerCode
+    nameWithType: IDatabaseAgent.GetStepsFromNetServerCode
+    fullName: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCode
+    name: GetStepsFromNetServerCode
+    nameWithType: IDatabaseAgent.GetStepsFromNetServerCode
+    fullName: SuperOffice.CRM.Services.IDatabaseAgent.GetStepsFromNetServerCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.DatabaseAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.DatabaseAgent.#ctor
+  isExternal: true
+  name: DatabaseAgent
+  nameWithType: DatabaseAgent.DatabaseAgent
+  fullName: SuperOffice.CRM.Services.DatabaseAgent.DatabaseAgent

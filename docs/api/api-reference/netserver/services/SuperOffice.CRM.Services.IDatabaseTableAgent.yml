@@ -1,0 +1,511 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent
+  commentId: T:SuperOffice.CRM.Services.IDatabaseTableAgent
+  id: IDatabaseTableAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.IDatabaseTableAgent.Delete(System.String,System.Int32[])
+  - SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRow(System.String,System.Int32)
+  - SuperOffice.CRM.Services.IDatabaseTableAgent.Insert(System.String,System.String[],System.String[][])
+  - SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRow(System.String,SuperOffice.CRM.Services.StringDictionary)
+  - SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRow(System.String,System.Int32)
+  - SuperOffice.CRM.Services.IDatabaseTableAgent.Truncate(System.String)
+  - SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRow(System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary)
+  - SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.Boolean,System.String[][])
+  langs:
+  - csharp
+  - vb
+  name: IDatabaseTableAgent
+  nameWithType: IDatabaseTableAgent
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent
+  type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInterface for the DatabaseTable Agent\nAgent used for CRUD operations on database tables. Read, add, update, delete rows in tables.\n<p></p>\n<strong>Online Restricted:</strong> This agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (DatabaseTableAgent agent = new DatabaseTableAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: >-
+      [Agent("DatabaseTable Agent", "Interface for the DatabaseTable Agent. Agent used for CRUD operations on database tables. Read, add, update, delete rows in tables.")]
+
+      public interface IDatabaseTableAgent : IAgent
+    content.vb: >-
+      <Agent("DatabaseTable Agent", "Interface for the DatabaseTable Agent. Agent used for CRUD operations on database tables. Read, add, update, delete rows in tables.")>
+
+      Public Interface IDatabaseTableAgent
+          Inherits IAgent
+  attributes:
+  - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
+    ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: DatabaseTable Agent
+    - type: System.String
+      value: Interface for the DatabaseTable Agent. Agent used for CRUD operations on database tables. Read, add, update, delete rows in tables.
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRow(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRow(System.String,System.Int32)
+  id: ReadRow(System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.IDatabaseTableAgent
+  langs:
+  - csharp
+  - vb
+  name: ReadRow(String, Int32)
+  nameWithType: IDatabaseTableAgent.ReadRow(String, Int32)
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRow(System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRead a row from a table\n<p></p>\n<strong>Online Restricted:</strong> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: TableRecord ReadRow(string tableName, int id)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: The name of the table to fetch; in the current release this must be an &apos;extratable&apos;. Use the database name, on the form y_aTable
+    - id: id
+      type: System.Int32
+      description: The id of the row to fetch
+    return:
+      type: SuperOffice.CRM.Services.TableRecord
+      description: The row from the table
+    content.vb: Function ReadRow(tableName As String, id As Integer) As TableRecord
+  overload: SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRow*
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRow(System.String,SuperOffice.CRM.Services.StringDictionary)
+  commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRow(System.String,SuperOffice.CRM.Services.StringDictionary)
+  id: InsertRow(System.String,SuperOffice.CRM.Services.StringDictionary)
+  parent: SuperOffice.CRM.Services.IDatabaseTableAgent
+  langs:
+  - csharp
+  - vb
+  name: InsertRow(String, StringDictionary)
+  nameWithType: IDatabaseTableAgent.InsertRow(String, StringDictionary)
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRow(System.String, SuperOffice.CRM.Services.StringDictionary)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInsert a row into a table\n<p></p>\n<strong>Online Restricted:</strong> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: int InsertRow(string tableName, StringDictionary values)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: The name of the table to insert into; in the current release this must be an &apos;extratable&apos;. Use the database name, on the form y_aTable
+    - id: values
+      type: SuperOffice.CRM.Services.StringDictionary
+      description: A StringDictionary with the values to insert. You do not need to specify all the values in the table. The omitted ones will get default values
+    return:
+      type: System.Int32
+      description: The id of the newly inserted row
+    content.vb: Function InsertRow(tableName As String, values As StringDictionary) As Integer
+  overload: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRow*
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRow(System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary)
+  commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRow(System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary)
+  id: UpdateRow(System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary)
+  parent: SuperOffice.CRM.Services.IDatabaseTableAgent
+  langs:
+  - csharp
+  - vb
+  name: UpdateRow(String, Int32, StringDictionary)
+  nameWithType: IDatabaseTableAgent.UpdateRow(String, Int32, StringDictionary)
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRow(System.String, System.Int32, SuperOffice.CRM.Services.StringDictionary)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdate a row in a table\n<p></p>\n<strong>Online Restricted:</strong> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: void UpdateRow(string tableName, int id, StringDictionary values)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: The name of the table to update; in the current release this must be an &apos;extratable&apos;. Use the database name, on the form y_aTable
+    - id: id
+      type: System.Int32
+      description: The id of the row to update
+    - id: values
+      type: SuperOffice.CRM.Services.StringDictionary
+      description: A StringDictionary with the values to update. You do not need to specify all the values in the table. The omitted ones will remain unchanged
+    content.vb: Sub UpdateRow(tableName As String, id As Integer, values As StringDictionary)
+  overload: SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRow*
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRow(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRow(System.String,System.Int32)
+  id: DeleteRow(System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.IDatabaseTableAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteRow(String, Int32)
+  nameWithType: IDatabaseTableAgent.DeleteRow(String, Int32)
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRow(System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDelete a row from a table\n<p></p>\n<strong>Online Restricted:</strong> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: void DeleteRow(string tableName, int id)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: The name of the table to delete from; in the current release this must be an &apos;extratable&apos;. Use the database name, on the form y_aTable
+    - id: id
+      type: System.Int32
+      description: The id of the row to delete
+    content.vb: Sub DeleteRow(tableName As String, id As Integer)
+  overload: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRow*
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Insert(System.String,System.String[],System.String[][])
+  commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.Insert(System.String,System.String[],System.String[][])
+  id: Insert(System.String,System.String[],System.String[][])
+  parent: SuperOffice.CRM.Services.IDatabaseTableAgent
+  langs:
+  - csharp
+  - vb
+  name: Insert(String, String[], String[][])
+  nameWithType: IDatabaseTableAgent.Insert(String, String[], String[][])
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Insert(System.String, System.String[], System.String[][])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMass-insert rows, with or without primary keys specified\n<p></p>\n<strong>Online Restricted:</strong> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: MassOperationResult Insert(string tableName, string[] columns, string[][] data)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: The name of the table where rows should be inserted
+    - id: columns
+      type: System.String[]
+      description: List of column names, in the same order as in the data
+    - id: data
+      type: System.String[][]
+      description: Outer array = row, inner = column in specified order; use CultureDataFormatter to format values
+    return:
+      type: SuperOffice.CRM.Services.MassOperationResult
+      description: Summary of results
+    content.vb: Function Insert(tableName As String, columns As String(), data As String()()) As MassOperationResult
+  overload: SuperOffice.CRM.Services.IDatabaseTableAgent.Insert*
+  nameWithType.vb: IDatabaseTableAgent.Insert(String, String(), String()())
+  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.Insert(System.String, System.String(), System.String()())
+  name.vb: Insert(String, String(), String()())
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Truncate(System.String)
+  commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.Truncate(System.String)
+  id: Truncate(System.String)
+  parent: SuperOffice.CRM.Services.IDatabaseTableAgent
+  langs:
+  - csharp
+  - vb
+  name: Truncate(String)
+  nameWithType: IDatabaseTableAgent.Truncate(String)
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Truncate(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDrop all rows in a table\n<p></p>\n<strong>Online Restricted:</strong> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: MassOperationResult Truncate(string tableName)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Name of table to be truncated
+    return:
+      type: SuperOffice.CRM.Services.MassOperationResult
+      description: Summary of results
+    content.vb: Function Truncate(tableName As String) As MassOperationResult
+  overload: SuperOffice.CRM.Services.IDatabaseTableAgent.Truncate*
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.Boolean,System.String[][])
+  commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.Boolean,System.String[][])
+  id: Upsert(System.String,System.String[],System.String[],System.Boolean,System.String[][])
+  parent: SuperOffice.CRM.Services.IDatabaseTableAgent
+  langs:
+  - csharp
+  - vb
+  name: Upsert(String, String[], String[], Boolean, String[][])
+  nameWithType: IDatabaseTableAgent.Upsert(String, String[], String[], Boolean, String[][])
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String, System.String[], System.String[], System.Boolean, System.String[][])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInsert or update rows\n<p></p>\n<strong>Online Restricted:</strong> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: MassOperationResult Upsert(string tableName, string[] columns, string[] keys, bool deleteUnmatched, string[][] data)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: The name of the table where rows should be inserted or updated
+    - id: columns
+      type: System.String[]
+      description: List of column names, in the same order as in the data
+    - id: keys
+      type: System.String[]
+      description: List of columns that are to be used as keys, to match any existing rows
+    - id: deleteUnmatched
+      type: System.Boolean
+      description: If true, then any rows that have NOT been matched or inserted, will be deleted. The end result is that the table will look like the incoming data
+    - id: data
+      type: System.String[][]
+      description: Outer array = row, inner = column in specified order; use CultureDataFormatter to format values
+    return:
+      type: SuperOffice.CRM.Services.MassOperationResult
+      description: Summary of results
+    content.vb: Function Upsert(tableName As String, columns As String(), keys As String(), deleteUnmatched As Boolean, data As String()()) As MassOperationResult
+  overload: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert*
+  nameWithType.vb: IDatabaseTableAgent.Upsert(String, String(), String(), Boolean, String()())
+  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String, System.String(), System.String(), System.Boolean, System.String()())
+  name.vb: Upsert(String, String(), String(), Boolean, String()())
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Delete(System.String,System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.Delete(System.String,System.Int32[])
+  id: Delete(System.String,System.Int32[])
+  parent: SuperOffice.CRM.Services.IDatabaseTableAgent
+  langs:
+  - csharp
+  - vb
+  name: Delete(String, Int32[])
+  nameWithType: IDatabaseTableAgent.Delete(String, Int32[])
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Delete(System.String, System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDelete rows, by primary key\n<p></p>\n<strong>Online Restricted:</strong> The DatabaseTable agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: MassOperationResult Delete(string tableName, int[] iDs)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: The name of the table where rows should be deleted
+    - id: iDs
+      type: System.Int32[]
+      description: Primary keys of the rows to be deleted
+    return:
+      type: SuperOffice.CRM.Services.MassOperationResult
+      description: Summary of results
+    content.vb: Function Delete(tableName As String, iDs As Integer()) As MassOperationResult
+  overload: SuperOffice.CRM.Services.IDatabaseTableAgent.Delete*
+  nameWithType.vb: IDatabaseTableAgent.Delete(String, Int32())
+  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.Delete(System.String, System.Int32())
+  name.vb: Delete(String, Int32())
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRow*
+  commentId: Overload:SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRow
+  isExternal: true
+  name: ReadRow
+  nameWithType: IDatabaseTableAgent.ReadRow
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRow
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.TableRecord
+  commentId: T:SuperOffice.CRM.Services.TableRecord
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TableRecord
+  nameWithType: TableRecord
+  fullName: SuperOffice.CRM.Services.TableRecord
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRow*
+  commentId: Overload:SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRow
+  isExternal: true
+  name: InsertRow
+  nameWithType: IDatabaseTableAgent.InsertRow
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRow
+- uid: SuperOffice.CRM.Services.StringDictionary
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRow*
+  commentId: Overload:SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRow
+  isExternal: true
+  name: UpdateRow
+  nameWithType: IDatabaseTableAgent.UpdateRow
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRow
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRow*
+  commentId: Overload:SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRow
+  isExternal: true
+  name: DeleteRow
+  nameWithType: IDatabaseTableAgent.DeleteRow
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRow
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Insert*
+  commentId: Overload:SuperOffice.CRM.Services.IDatabaseTableAgent.Insert
+  isExternal: true
+  name: Insert
+  nameWithType: IDatabaseTableAgent.Insert
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Insert
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.String[][]
+  isExternal: true
+  name: String[][]
+  nameWithType: String[][]
+  fullName: System.String[][]
+  nameWithType.vb: String()()
+  fullName.vb: System.String()()
+  name.vb: String()()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.MassOperationResult
+  commentId: T:SuperOffice.CRM.Services.MassOperationResult
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: MassOperationResult
+  nameWithType: MassOperationResult
+  fullName: SuperOffice.CRM.Services.MassOperationResult
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Truncate*
+  commentId: Overload:SuperOffice.CRM.Services.IDatabaseTableAgent.Truncate
+  isExternal: true
+  name: Truncate
+  nameWithType: IDatabaseTableAgent.Truncate
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Truncate
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert*
+  commentId: Overload:SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert
+  isExternal: true
+  name: Upsert
+  nameWithType: IDatabaseTableAgent.Upsert
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Delete*
+  commentId: Overload:SuperOffice.CRM.Services.IDatabaseTableAgent.Delete
+  isExternal: true
+  name: Delete
+  nameWithType: IDatabaseTableAgent.Delete
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Delete
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -1,0 +1,887 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields
+  commentId: T:SuperOffice.CRM.Data.DBC.PushNotificationServiceFields
+  id: DBC.PushNotificationServiceFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.AssociateId
+  - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.DeviceDisplayName
+  - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.DeviceIdentifier
+  - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.DevicePlatform
+  - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.Language
+  - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.LastNotificationDate
+  - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.OSVersion
+  - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.PNSHandle
+  - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.PNSHandleUpdateDate
+  - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.PocketVersion
+  - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.PushNotificationServiceId
+  - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.Registered
+  - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.Tags
+  - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.TotalNotificationCount
+  - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.Updated
+  - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.PushNotificationServiceFields
+  nameWithType: DBC.PushNotificationServiceFields
+  fullName: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for PushNotificationService, Used for storing handles to user devices that should receive push notifications\n"
+  syntax:
+    content: public static class PushNotificationServiceFields
+    content.vb: Public Module PushNotificationServiceFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.PushNotificationServiceId
+  commentId: F:SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.PushNotificationServiceId
+  id: PushNotificationServiceId
+  parent: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields
+  langs:
+  - csharp
+  - vb
+  name: PushNotificationServiceId
+  nameWithType: DBC.PushNotificationServiceFields.PushNotificationServiceId
+  fullName: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.PushNotificationServiceId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPushNotificationService.PushNotificationServiceId: Primary key\n"
+  syntax:
+    content: public const string PushNotificationServiceId = "pushnotificationservice_id"
+    return:
+      type: System.String
+    content.vb: Public Const PushNotificationServiceId As String = "pushnotificationservice_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.AssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: DBC.PushNotificationServiceFields.AssociateId
+  fullName: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.AssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPushNotificationService.AssociateId: To whom does this handle belong\n"
+  syntax:
+    content: public const string AssociateId = "AssociateId"
+    return:
+      type: System.String
+    content.vb: Public Const AssociateId As String = "AssociateId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.DeviceIdentifier
+  commentId: F:SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.DeviceIdentifier
+  id: DeviceIdentifier
+  parent: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields
+  langs:
+  - csharp
+  - vb
+  name: DeviceIdentifier
+  nameWithType: DBC.PushNotificationServiceFields.DeviceIdentifier
+  fullName: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.DeviceIdentifier
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPushNotificationService.DeviceIdentifier: Unique device identifier\n"
+  syntax:
+    content: public const string DeviceIdentifier = "DeviceIdentifier"
+    return:
+      type: System.String
+    content.vb: Public Const DeviceIdentifier As String = "DeviceIdentifier"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.DeviceDisplayName
+  commentId: F:SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.DeviceDisplayName
+  id: DeviceDisplayName
+  parent: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields
+  langs:
+  - csharp
+  - vb
+  name: DeviceDisplayName
+  nameWithType: DBC.PushNotificationServiceFields.DeviceDisplayName
+  fullName: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.DeviceDisplayName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPushNotificationService.DeviceDisplayName: Userfriendly name for device. Ex: &apos;My iPhone 5S&apos;\n"
+  syntax:
+    content: public const string DeviceDisplayName = "DeviceDisplayName"
+    return:
+      type: System.String
+    content.vb: Public Const DeviceDisplayName As String = "DeviceDisplayName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.DevicePlatform
+  commentId: F:SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.DevicePlatform
+  id: DevicePlatform
+  parent: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields
+  langs:
+  - csharp
+  - vb
+  name: DevicePlatform
+  nameWithType: DBC.PushNotificationServiceFields.DevicePlatform
+  fullName: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.DevicePlatform
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPushNotificationService.DevicePlatform: Device platform. Apple, Google, Microsoft, etc.\n"
+  syntax:
+    content: public const string DevicePlatform = "DevicePlatform"
+    return:
+      type: System.String
+    content.vb: Public Const DevicePlatform As String = "DevicePlatform"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.PNSHandle
+  commentId: F:SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.PNSHandle
+  id: PNSHandle
+  parent: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields
+  langs:
+  - csharp
+  - vb
+  name: PNSHandle
+  nameWithType: DBC.PushNotificationServiceFields.PNSHandle
+  fullName: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.PNSHandle
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPushNotificationService.PNSHandle: The platform specific handle needed for pushing messages directly to this device\n"
+  syntax:
+    content: public const string PNSHandle = "PNSHandle"
+    return:
+      type: System.String
+    content.vb: Public Const PNSHandle As String = "PNSHandle"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.Tags
+  commentId: F:SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.Tags
+  id: Tags
+  parent: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields
+  langs:
+  - csharp
+  - vb
+  name: Tags
+  nameWithType: DBC.PushNotificationServiceFields.Tags
+  fullName: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.Tags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPushNotificationService.Tags: Comma separated list of notification types this device should or should not receive notifications about. Ex: &apos;invitations=0,meetings=1\n"
+  syntax:
+    content: public const string Tags = "Tags"
+    return:
+      type: System.String
+    content.vb: Public Const Tags As String = "Tags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.PNSHandleUpdateDate
+  commentId: F:SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.PNSHandleUpdateDate
+  id: PNSHandleUpdateDate
+  parent: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields
+  langs:
+  - csharp
+  - vb
+  name: PNSHandleUpdateDate
+  nameWithType: DBC.PushNotificationServiceFields.PNSHandleUpdateDate
+  fullName: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.PNSHandleUpdateDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPushNotificationService.PNSHandleUpdateDate: When was the PNSHandle for this device last updated\n"
+  syntax:
+    content: public const string PNSHandleUpdateDate = "PNSHandleUpdateDate"
+    return:
+      type: System.String
+    content.vb: Public Const PNSHandleUpdateDate As String = "PNSHandleUpdateDate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.LastNotificationDate
+  commentId: F:SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.LastNotificationDate
+  id: LastNotificationDate
+  parent: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields
+  langs:
+  - csharp
+  - vb
+  name: LastNotificationDate
+  nameWithType: DBC.PushNotificationServiceFields.LastNotificationDate
+  fullName: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.LastNotificationDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPushNotificationService.LastNotificationDate: When was a notification last sent to this device\n"
+  syntax:
+    content: public const string LastNotificationDate = "LastNotificationDate"
+    return:
+      type: System.String
+    content.vb: Public Const LastNotificationDate As String = "LastNotificationDate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.TotalNotificationCount
+  commentId: F:SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.TotalNotificationCount
+  id: TotalNotificationCount
+  parent: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields
+  langs:
+  - csharp
+  - vb
+  name: TotalNotificationCount
+  nameWithType: DBC.PushNotificationServiceFields.TotalNotificationCount
+  fullName: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.TotalNotificationCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPushNotificationService.TotalNotificationCount: How many notifications have been sent to this device\n"
+  syntax:
+    content: public const string TotalNotificationCount = "TotalNotificationCount"
+    return:
+      type: System.String
+    content.vb: Public Const TotalNotificationCount As String = "TotalNotificationCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.PushNotificationServiceFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPushNotificationService.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.PushNotificationServiceFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPushNotificationService.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.PushNotificationServiceFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPushNotificationService.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.PushNotificationServiceFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPushNotificationService.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.PushNotificationServiceFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPushNotificationService.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.Language
+  commentId: F:SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.Language
+  id: Language
+  parent: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: DBC.PushNotificationServiceFields.Language
+  fullName: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.Language
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPushNotificationService.Language: The language to send translated messages in\n"
+  syntax:
+    content: public const string Language = "Language"
+    return:
+      type: System.String
+    content.vb: Public Const Language As String = "Language"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.PocketVersion
+  commentId: F:SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.PocketVersion
+  id: PocketVersion
+  parent: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields
+  langs:
+  - csharp
+  - vb
+  name: PocketVersion
+  nameWithType: DBC.PushNotificationServiceFields.PocketVersion
+  fullName: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.PocketVersion
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPushNotificationService.PocketVersion: The version of Pocket CRM this device is using\n"
+  syntax:
+    content: public const string PocketVersion = "PocketVersion"
+    return:
+      type: System.String
+    content.vb: Public Const PocketVersion As String = "PocketVersion"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.OSVersion
+  commentId: F:SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.OSVersion
+  id: OSVersion
+  parent: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields
+  langs:
+  - csharp
+  - vb
+  name: OSVersion
+  nameWithType: DBC.PushNotificationServiceFields.OSVersion
+  fullName: SuperOffice.CRM.Data.DBC.PushNotificationServiceFields.OSVersion
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPushNotificationService.OSVersion: The operating system version this device is using\n"
+  syntax:
+    content: public const string OSVersion = "OSVersion"
+    return:
+      type: System.String
+    content.vb: Public Const OSVersion As String = "OSVersion"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

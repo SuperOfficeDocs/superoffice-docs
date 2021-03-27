@@ -1,0 +1,1814 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Archives.ActivityList.FromContact
+  commentId: T:SuperOffice.CRM.Archives.ActivityList.FromContact
+  id: ActivityList.FromContact
+  parent: SuperOffice.CRM.Archives
+  children:
+  - SuperOffice.CRM.Archives.ActivityList.FromContact.#ctor(System.Int32,SuperOffice.CRM.Lists.ArchiveFilterType)
+  - SuperOffice.CRM.Archives.ActivityList.FromContact.#ctor(System.Int32,SuperOffice.CRM.Lists.ArchiveFilterType,System.DateTime,System.DateTime)
+  - SuperOffice.CRM.Archives.ActivityList.FromContact.#ctor(System.Int32,SuperOffice.CRM.Lists.ArchiveFilterType,System.DateTime,System.DateTime,System.Int32[])
+  - SuperOffice.CRM.Archives.ActivityList.FromContact.#ctor(System.Int32,SuperOffice.CRM.Lists.ArchiveFilterType,System.Int32[])
+  - SuperOffice.CRM.Archives.ActivityList.FromContact.#ctor(System.Int32,SuperOffice.Util.DateTimeSearchType,SuperOffice.CRM.Lists.ArchiveFilterType)
+  - SuperOffice.CRM.Archives.ActivityList.FromContact.#ctor(System.Int32,SuperOffice.Util.DateTimeSearchType,SuperOffice.CRM.Lists.ArchiveFilterType,System.Int32[])
+  langs:
+  - csharp
+  - vb
+  name: ActivityList.FromContact
+  nameWithType: ActivityList.FromContact
+  fullName: SuperOffice.CRM.Archives.ActivityList.FromContact
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nFromContact contains the different methods to create an ActivityList. \n"
+  syntax:
+    content: 'public sealed class FromContact : ActivityList.ActivityListQuery'
+    content.vb: >-
+      Public NotInheritable Class FromContact
+          Inherits ActivityList.ActivityListQuery
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.SQL.SqlCommand
+  - SuperOffice.Data.SQL.TableExpression
+  - SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  inheritedMembers:
+  - SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._contact_id
+  - SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._date
+  - SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._associates
+  - SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._project_id
+  - SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._type
+  - SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._dummyParameter
+  - SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._startDate
+  - SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._endDate
+  - SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._a
+  - SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._t
+  - SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._p
+  - SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._pr
+  - SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._ta
+  - SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._ass
+  - SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._assRegistered
+  - SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._personRegistered
+  - SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._d
+  - SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._dt
+  - SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._s
+  - SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._prob
+  - SuperOffice.CRM.Archives.ActivityList.ActivityListQuery.ToActivityList
+  - SuperOffice.CRM.Archives.ActivityList.ActivityListQuery.SqlType
+  - SuperOffice.Data.SQL.TableExpression.GetTableInfos
+  - SuperOffice.Data.SQL.TableExpression.Add(SuperOffice.Data.SQL.Select[])
+  - SuperOffice.Data.SQL.TableExpression.TableExp
+  - SuperOffice.Data.SQL.TableExpression.TableExpOrderBy
+  - SuperOffice.Data.SQL.SqlCommand.Origin
+  - SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo})
+  - SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.SqlCommand.ClearIgnoreAutoSentryTableInfos
+  - SuperOffice.Data.SQL.SqlCommand.IsAutoSentryIgnoredOnTableInfo(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.SqlCommand.GetPrivateSaves
+  - SuperOffice.Data.SQL.SqlCommand.GetInserts
+  - SuperOffice.Data.SQL.SqlCommand.GetUpdates
+  - SuperOffice.Data.SQL.SqlCommand.GetDeletes
+  - SuperOffice.Data.SQL.SqlCommand.GetSelect
+  - SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Archives.ActivityList.FromContact.EnumUtil.MapEnums``2
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+  - SuperOffice.CRM.Archives.ActivityList.FromContact.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Archives.ActivityList.FromContact.#ctor(System.Int32,SuperOffice.CRM.Lists.ArchiveFilterType)
+  commentId: M:SuperOffice.CRM.Archives.ActivityList.FromContact.#ctor(System.Int32,SuperOffice.CRM.Lists.ArchiveFilterType)
+  id: '#ctor(System.Int32,SuperOffice.CRM.Lists.ArchiveFilterType)'
+  parent: SuperOffice.CRM.Archives.ActivityList.FromContact
+  langs:
+  - csharp
+  - vb
+  name: FromContact(Int32, ArchiveFilterType)
+  nameWithType: ActivityList.FromContact.FromContact(Int32, ArchiveFilterType)
+  fullName: SuperOffice.CRM.Archives.ActivityList.FromContact.FromContact(System.Int32, SuperOffice.CRM.Lists.ArchiveFilterType)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nConstructor. This constructor creates an ActivityList based on the contact. \n"
+  syntax:
+    content: public FromContact(int contactid, ArchiveFilterType type)
+    parameters:
+    - id: contactid
+      type: System.Int32
+      description: The contact we want to build the list on.
+    - id: type
+      type: SuperOffice.CRM.Lists.ArchiveFilterType
+      description: The filter-settings. Which data are we going to show in the list.
+    content.vb: Public Sub New(contactid As Integer, type As ArchiveFilterType)
+  overload: SuperOffice.CRM.Archives.ActivityList.FromContact.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Archives.ActivityList.FromContact.#ctor(System.Int32,SuperOffice.CRM.Lists.ArchiveFilterType,System.Int32[])
+  commentId: M:SuperOffice.CRM.Archives.ActivityList.FromContact.#ctor(System.Int32,SuperOffice.CRM.Lists.ArchiveFilterType,System.Int32[])
+  id: '#ctor(System.Int32,SuperOffice.CRM.Lists.ArchiveFilterType,System.Int32[])'
+  parent: SuperOffice.CRM.Archives.ActivityList.FromContact
+  langs:
+  - csharp
+  - vb
+  name: FromContact(Int32, ArchiveFilterType, Int32[])
+  nameWithType: ActivityList.FromContact.FromContact(Int32, ArchiveFilterType, Int32[])
+  fullName: SuperOffice.CRM.Archives.ActivityList.FromContact.FromContact(System.Int32, SuperOffice.CRM.Lists.ArchiveFilterType, System.Int32[])
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nConstructor. This constructor creates an ActivityList based on the contact and associates. \n"
+  syntax:
+    content: public FromContact(int contactid, ArchiveFilterType type, params int[] associates)
+    parameters:
+    - id: contactid
+      type: System.Int32
+      description: The contact we want to build the list on.
+    - id: type
+      type: SuperOffice.CRM.Lists.ArchiveFilterType
+      description: The filter-settings. Which data are we going to show in the list.
+    - id: associates
+      type: System.Int32[]
+      description: The associates we want to build the list on.
+    content.vb: Public Sub New(contactid As Integer, type As ArchiveFilterType, ParamArray associates As Integer())
+  overload: SuperOffice.CRM.Archives.ActivityList.FromContact.#ctor*
+  nameWithType.vb: ActivityList.FromContact.FromContact(Int32, ArchiveFilterType, Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Archives.ActivityList.FromContact.FromContact(System.Int32, SuperOffice.CRM.Lists.ArchiveFilterType, System.Int32())
+  name.vb: FromContact(Int32, ArchiveFilterType, Int32())
+- uid: SuperOffice.CRM.Archives.ActivityList.FromContact.#ctor(System.Int32,SuperOffice.Util.DateTimeSearchType,SuperOffice.CRM.Lists.ArchiveFilterType)
+  commentId: M:SuperOffice.CRM.Archives.ActivityList.FromContact.#ctor(System.Int32,SuperOffice.Util.DateTimeSearchType,SuperOffice.CRM.Lists.ArchiveFilterType)
+  id: '#ctor(System.Int32,SuperOffice.Util.DateTimeSearchType,SuperOffice.CRM.Lists.ArchiveFilterType)'
+  parent: SuperOffice.CRM.Archives.ActivityList.FromContact
+  langs:
+  - csharp
+  - vb
+  name: FromContact(Int32, DateTimeSearchType, ArchiveFilterType)
+  nameWithType: ActivityList.FromContact.FromContact(Int32, DateTimeSearchType, ArchiveFilterType)
+  fullName: SuperOffice.CRM.Archives.ActivityList.FromContact.FromContact(System.Int32, SuperOffice.Util.DateTimeSearchType, SuperOffice.CRM.Lists.ArchiveFilterType)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nConstructor. This constructor creates an ActivityList based on the contact and date. \n"
+  syntax:
+    content: public FromContact(int contactid, DateTimeSearchType date, ArchiveFilterType type)
+    parameters:
+    - id: contactid
+      type: System.Int32
+      description: The contact we want to build the list on.
+    - id: date
+      type: SuperOffice.Util.DateTimeSearchType
+      description: The date we want to build the list on.
+    - id: type
+      type: SuperOffice.CRM.Lists.ArchiveFilterType
+      description: The filter-settings. Which data are we going to show in the list.
+    content.vb: Public Sub New(contactid As Integer, date As DateTimeSearchType, type As ArchiveFilterType)
+  overload: SuperOffice.CRM.Archives.ActivityList.FromContact.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Archives.ActivityList.FromContact.#ctor(System.Int32,SuperOffice.CRM.Lists.ArchiveFilterType,System.DateTime,System.DateTime)
+  commentId: M:SuperOffice.CRM.Archives.ActivityList.FromContact.#ctor(System.Int32,SuperOffice.CRM.Lists.ArchiveFilterType,System.DateTime,System.DateTime)
+  id: '#ctor(System.Int32,SuperOffice.CRM.Lists.ArchiveFilterType,System.DateTime,System.DateTime)'
+  parent: SuperOffice.CRM.Archives.ActivityList.FromContact
+  langs:
+  - csharp
+  - vb
+  name: FromContact(Int32, ArchiveFilterType, DateTime, DateTime)
+  nameWithType: ActivityList.FromContact.FromContact(Int32, ArchiveFilterType, DateTime, DateTime)
+  fullName: SuperOffice.CRM.Archives.ActivityList.FromContact.FromContact(System.Int32, SuperOffice.CRM.Lists.ArchiveFilterType, System.DateTime, System.DateTime)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nConstructor. This constructor creates an ActivityList based on the contact and date. \n"
+  syntax:
+    content: public FromContact(int contactid, ArchiveFilterType type, DateTime startdate, DateTime enddate)
+    parameters:
+    - id: contactid
+      type: System.Int32
+      description: The contact we want to build the list on.
+    - id: type
+      type: SuperOffice.CRM.Lists.ArchiveFilterType
+      description: The filter-settings. Which data are we going to show in the list.
+    - id: startdate
+      type: System.DateTime
+      description: The start date for the time period we want to search on.
+    - id: enddate
+      type: System.DateTime
+      description: The end date for the time period we want to search on.
+    content.vb: Public Sub New(contactid As Integer, type As ArchiveFilterType, startdate As Date, enddate As Date)
+  overload: SuperOffice.CRM.Archives.ActivityList.FromContact.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Archives.ActivityList.FromContact.#ctor(System.Int32,SuperOffice.Util.DateTimeSearchType,SuperOffice.CRM.Lists.ArchiveFilterType,System.Int32[])
+  commentId: M:SuperOffice.CRM.Archives.ActivityList.FromContact.#ctor(System.Int32,SuperOffice.Util.DateTimeSearchType,SuperOffice.CRM.Lists.ArchiveFilterType,System.Int32[])
+  id: '#ctor(System.Int32,SuperOffice.Util.DateTimeSearchType,SuperOffice.CRM.Lists.ArchiveFilterType,System.Int32[])'
+  parent: SuperOffice.CRM.Archives.ActivityList.FromContact
+  langs:
+  - csharp
+  - vb
+  name: FromContact(Int32, DateTimeSearchType, ArchiveFilterType, Int32[])
+  nameWithType: ActivityList.FromContact.FromContact(Int32, DateTimeSearchType, ArchiveFilterType, Int32[])
+  fullName: SuperOffice.CRM.Archives.ActivityList.FromContact.FromContact(System.Int32, SuperOffice.Util.DateTimeSearchType, SuperOffice.CRM.Lists.ArchiveFilterType, System.Int32[])
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nConstructor. This constructor creates an ActivityList based on the contact, date and associates. \n"
+  syntax:
+    content: public FromContact(int contactid, DateTimeSearchType date, ArchiveFilterType type, params int[] associates)
+    parameters:
+    - id: contactid
+      type: System.Int32
+      description: The contact we want to build the list on.
+    - id: date
+      type: SuperOffice.Util.DateTimeSearchType
+      description: The date we want to build the list on.
+    - id: type
+      type: SuperOffice.CRM.Lists.ArchiveFilterType
+      description: The filter-settings. Which data are we going to show in the list.
+    - id: associates
+      type: System.Int32[]
+      description: The associates we want to build the list on.
+    content.vb: Public Sub New(contactid As Integer, date As DateTimeSearchType, type As ArchiveFilterType, ParamArray associates As Integer())
+  overload: SuperOffice.CRM.Archives.ActivityList.FromContact.#ctor*
+  nameWithType.vb: ActivityList.FromContact.FromContact(Int32, DateTimeSearchType, ArchiveFilterType, Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Archives.ActivityList.FromContact.FromContact(System.Int32, SuperOffice.Util.DateTimeSearchType, SuperOffice.CRM.Lists.ArchiveFilterType, System.Int32())
+  name.vb: FromContact(Int32, DateTimeSearchType, ArchiveFilterType, Int32())
+- uid: SuperOffice.CRM.Archives.ActivityList.FromContact.#ctor(System.Int32,SuperOffice.CRM.Lists.ArchiveFilterType,System.DateTime,System.DateTime,System.Int32[])
+  commentId: M:SuperOffice.CRM.Archives.ActivityList.FromContact.#ctor(System.Int32,SuperOffice.CRM.Lists.ArchiveFilterType,System.DateTime,System.DateTime,System.Int32[])
+  id: '#ctor(System.Int32,SuperOffice.CRM.Lists.ArchiveFilterType,System.DateTime,System.DateTime,System.Int32[])'
+  parent: SuperOffice.CRM.Archives.ActivityList.FromContact
+  langs:
+  - csharp
+  - vb
+  name: FromContact(Int32, ArchiveFilterType, DateTime, DateTime, Int32[])
+  nameWithType: ActivityList.FromContact.FromContact(Int32, ArchiveFilterType, DateTime, DateTime, Int32[])
+  fullName: SuperOffice.CRM.Archives.ActivityList.FromContact.FromContact(System.Int32, SuperOffice.CRM.Lists.ArchiveFilterType, System.DateTime, System.DateTime, System.Int32[])
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Archives
+  summary: "\nConstructor. This constructor creates an ActivityList based on the contact, date and associates. \n"
+  syntax:
+    content: public FromContact(int contactid, ArchiveFilterType type, DateTime startdate, DateTime enddate, params int[] associates)
+    parameters:
+    - id: contactid
+      type: System.Int32
+      description: The contact we want to build the list on.
+    - id: type
+      type: SuperOffice.CRM.Lists.ArchiveFilterType
+      description: The filter-settings. Which data are we going to show in the list.
+    - id: startdate
+      type: System.DateTime
+      description: The start date for the time period we want to search on.
+    - id: enddate
+      type: System.DateTime
+      description: The end date for the time period we want to search on.
+    - id: associates
+      type: System.Int32[]
+      description: The associates we want to build the list on.
+    content.vb: Public Sub New(contactid As Integer, type As ArchiveFilterType, startdate As Date, enddate As Date, ParamArray associates As Integer())
+  overload: SuperOffice.CRM.Archives.ActivityList.FromContact.#ctor*
+  nameWithType.vb: ActivityList.FromContact.FromContact(Int32, ArchiveFilterType, DateTime, DateTime, Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Archives.ActivityList.FromContact.FromContact(System.Int32, SuperOffice.CRM.Lists.ArchiveFilterType, System.DateTime, System.DateTime, System.Int32())
+  name.vb: FromContact(Int32, ArchiveFilterType, DateTime, DateTime, Int32())
+references:
+- uid: SuperOffice.CRM.Archives
+  commentId: N:SuperOffice.CRM.Archives
+  isExternal: true
+  name: SuperOffice.CRM.Archives
+  nameWithType: SuperOffice.CRM.Archives
+  fullName: SuperOffice.CRM.Archives
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.SQL.SqlCommand
+  commentId: T:SuperOffice.Data.SQL.SqlCommand
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: SqlCommand
+  nameWithType: SqlCommand
+  fullName: SuperOffice.Data.SQL.SqlCommand
+- uid: SuperOffice.Data.SQL.TableExpression
+  commentId: T:SuperOffice.Data.SQL.TableExpression
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableExpression
+  nameWithType: TableExpression
+  fullName: SuperOffice.Data.SQL.TableExpression
+- uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  commentId: T:SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  parent: SuperOffice.CRM.Archives
+  isExternal: true
+  name: ActivityList.ActivityListQuery
+  nameWithType: ActivityList.ActivityListQuery
+  fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+- uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._contact_id
+  commentId: F:SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._contact_id
+  parent: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  isExternal: true
+  name: _contact_id
+  nameWithType: ActivityList.ActivityListQuery._contact_id
+  fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._contact_id
+- uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._date
+  commentId: F:SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._date
+  parent: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  isExternal: true
+  name: _date
+  nameWithType: ActivityList.ActivityListQuery._date
+  fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._date
+- uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._associates
+  commentId: F:SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._associates
+  parent: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  isExternal: true
+  name: _associates
+  nameWithType: ActivityList.ActivityListQuery._associates
+  fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._associates
+- uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._project_id
+  commentId: F:SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._project_id
+  parent: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  isExternal: true
+  name: _project_id
+  nameWithType: ActivityList.ActivityListQuery._project_id
+  fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._project_id
+- uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._type
+  commentId: F:SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._type
+  parent: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  isExternal: true
+  name: _type
+  nameWithType: ActivityList.ActivityListQuery._type
+  fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._type
+- uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._dummyParameter
+  commentId: F:SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._dummyParameter
+  parent: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  isExternal: true
+  name: _dummyParameter
+  nameWithType: ActivityList.ActivityListQuery._dummyParameter
+  fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._dummyParameter
+- uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._startDate
+  commentId: F:SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._startDate
+  parent: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  isExternal: true
+  name: _startDate
+  nameWithType: ActivityList.ActivityListQuery._startDate
+  fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._startDate
+- uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._endDate
+  commentId: F:SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._endDate
+  parent: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  isExternal: true
+  name: _endDate
+  nameWithType: ActivityList.ActivityListQuery._endDate
+  fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._endDate
+- uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._a
+  commentId: F:SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._a
+  parent: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  isExternal: true
+  name: _a
+  nameWithType: ActivityList.ActivityListQuery._a
+  fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._a
+- uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._t
+  commentId: F:SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._t
+  parent: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  isExternal: true
+  name: _t
+  nameWithType: ActivityList.ActivityListQuery._t
+  fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._t
+- uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._p
+  commentId: F:SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._p
+  parent: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  isExternal: true
+  name: _p
+  nameWithType: ActivityList.ActivityListQuery._p
+  fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._p
+- uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._pr
+  commentId: F:SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._pr
+  parent: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  isExternal: true
+  name: _pr
+  nameWithType: ActivityList.ActivityListQuery._pr
+  fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._pr
+- uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._ta
+  commentId: F:SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._ta
+  parent: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  isExternal: true
+  name: _ta
+  nameWithType: ActivityList.ActivityListQuery._ta
+  fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._ta
+- uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._ass
+  commentId: F:SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._ass
+  parent: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  isExternal: true
+  name: _ass
+  nameWithType: ActivityList.ActivityListQuery._ass
+  fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._ass
+- uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._assRegistered
+  commentId: F:SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._assRegistered
+  parent: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  isExternal: true
+  name: _assRegistered
+  nameWithType: ActivityList.ActivityListQuery._assRegistered
+  fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._assRegistered
+- uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._personRegistered
+  commentId: F:SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._personRegistered
+  parent: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  isExternal: true
+  name: _personRegistered
+  nameWithType: ActivityList.ActivityListQuery._personRegistered
+  fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._personRegistered
+- uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._d
+  commentId: F:SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._d
+  parent: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  isExternal: true
+  name: _d
+  nameWithType: ActivityList.ActivityListQuery._d
+  fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._d
+- uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._dt
+  commentId: F:SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._dt
+  parent: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  isExternal: true
+  name: _dt
+  nameWithType: ActivityList.ActivityListQuery._dt
+  fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._dt
+- uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._s
+  commentId: F:SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._s
+  parent: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  isExternal: true
+  name: _s
+  nameWithType: ActivityList.ActivityListQuery._s
+  fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._s
+- uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._prob
+  commentId: F:SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._prob
+  parent: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  isExternal: true
+  name: _prob
+  nameWithType: ActivityList.ActivityListQuery._prob
+  fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery._prob
+- uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery.ToActivityList
+  commentId: M:SuperOffice.CRM.Archives.ActivityList.ActivityListQuery.ToActivityList
+  parent: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  isExternal: true
+  name: ToActivityList()
+  nameWithType: ActivityList.ActivityListQuery.ToActivityList()
+  fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery.ToActivityList()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery.ToActivityList
+    name: ToActivityList
+    nameWithType: ActivityList.ActivityListQuery.ToActivityList
+    fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery.ToActivityList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery.ToActivityList
+    name: ToActivityList
+    nameWithType: ActivityList.ActivityListQuery.ToActivityList
+    fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery.ToActivityList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery.SqlType
+  commentId: P:SuperOffice.CRM.Archives.ActivityList.ActivityListQuery.SqlType
+  parent: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery
+  isExternal: true
+  name: SqlType
+  nameWithType: ActivityList.ActivityListQuery.SqlType
+  fullName: SuperOffice.CRM.Archives.ActivityList.ActivityListQuery.SqlType
+- uid: SuperOffice.Data.SQL.TableExpression.GetTableInfos
+  commentId: M:SuperOffice.Data.SQL.TableExpression.GetTableInfos
+  parent: SuperOffice.Data.SQL.TableExpression
+  isExternal: true
+  name: GetTableInfos()
+  nameWithType: TableExpression.GetTableInfos()
+  fullName: SuperOffice.Data.SQL.TableExpression.GetTableInfos()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableExpression.GetTableInfos
+    name: GetTableInfos
+    nameWithType: TableExpression.GetTableInfos
+    fullName: SuperOffice.Data.SQL.TableExpression.GetTableInfos
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableExpression.GetTableInfos
+    name: GetTableInfos
+    nameWithType: TableExpression.GetTableInfos
+    fullName: SuperOffice.Data.SQL.TableExpression.GetTableInfos
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableExpression.Add(SuperOffice.Data.SQL.Select[])
+  commentId: M:SuperOffice.Data.SQL.TableExpression.Add(SuperOffice.Data.SQL.Select[])
+  parent: SuperOffice.Data.SQL.TableExpression
+  isExternal: true
+  name: Add(Select[])
+  nameWithType: TableExpression.Add(Select[])
+  fullName: SuperOffice.Data.SQL.TableExpression.Add(SuperOffice.Data.SQL.Select[])
+  nameWithType.vb: TableExpression.Add(Select())
+  fullName.vb: SuperOffice.Data.SQL.TableExpression.Add(SuperOffice.Data.SQL.Select())
+  name.vb: Add(Select())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableExpression.Add(SuperOffice.Data.SQL.Select[])
+    name: Add
+    nameWithType: TableExpression.Add
+    fullName: SuperOffice.Data.SQL.TableExpression.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Select
+    name: Select
+    nameWithType: Select
+    fullName: SuperOffice.Data.SQL.Select
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableExpression.Add(SuperOffice.Data.SQL.Select[])
+    name: Add
+    nameWithType: TableExpression.Add
+    fullName: SuperOffice.Data.SQL.TableExpression.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Select
+    name: Select
+    nameWithType: Select
+    fullName: SuperOffice.Data.SQL.Select
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableExpression.TableExp
+  commentId: P:SuperOffice.Data.SQL.TableExpression.TableExp
+  parent: SuperOffice.Data.SQL.TableExpression
+  isExternal: true
+  name: TableExp
+  nameWithType: TableExpression.TableExp
+  fullName: SuperOffice.Data.SQL.TableExpression.TableExp
+- uid: SuperOffice.Data.SQL.TableExpression.TableExpOrderBy
+  commentId: P:SuperOffice.Data.SQL.TableExpression.TableExpOrderBy
+  parent: SuperOffice.Data.SQL.TableExpression
+  isExternal: true
+  name: TableExpOrderBy
+  nameWithType: TableExpression.TableExpOrderBy
+  fullName: SuperOffice.Data.SQL.TableExpression.TableExpOrderBy
+- uid: SuperOffice.Data.SQL.SqlCommand.Origin
+  commentId: F:SuperOffice.Data.SQL.SqlCommand.Origin
+  parent: SuperOffice.Data.SQL.SqlCommand
+  isExternal: true
+  name: Origin
+  nameWithType: SqlCommand.Origin
+  fullName: SuperOffice.Data.SQL.SqlCommand.Origin
+- uid: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.SqlCommand
+  isExternal: true
+  name: AddIgnoreAutoSentryTableInfo(TableInfo)
+  nameWithType: SqlCommand.AddIgnoreAutoSentryTableInfo(TableInfo)
+  fullName: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
+    name: AddIgnoreAutoSentryTableInfo
+    nameWithType: SqlCommand.AddIgnoreAutoSentryTableInfo
+    fullName: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
+    name: AddIgnoreAutoSentryTableInfo
+    nameWithType: SqlCommand.AddIgnoreAutoSentryTableInfo
+    fullName: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo})
+  commentId: M:SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo})
+  parent: SuperOffice.Data.SQL.SqlCommand
+  isExternal: true
+  name: AddIgnoreAutoSentryTableInfo(IEnumerable<TableInfo>)
+  nameWithType: SqlCommand.AddIgnoreAutoSentryTableInfo(IEnumerable<TableInfo>)
+  fullName: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.TableInfo>)
+  nameWithType.vb: SqlCommand.AddIgnoreAutoSentryTableInfo(IEnumerable(Of TableInfo))
+  fullName.vb: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.TableInfo))
+  name.vb: AddIgnoreAutoSentryTableInfo(IEnumerable(Of TableInfo))
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo})
+    name: AddIgnoreAutoSentryTableInfo
+    nameWithType: SqlCommand.AddIgnoreAutoSentryTableInfo
+    fullName: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo})
+    name: AddIgnoreAutoSentryTableInfo
+    nameWithType: SqlCommand.AddIgnoreAutoSentryTableInfo
+    fullName: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.SqlCommand
+  isExternal: true
+  name: RemoveIgnoreAutoSentryTableInfo(TableInfo)
+  nameWithType: SqlCommand.RemoveIgnoreAutoSentryTableInfo(TableInfo)
+  fullName: SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
+    name: RemoveIgnoreAutoSentryTableInfo
+    nameWithType: SqlCommand.RemoveIgnoreAutoSentryTableInfo
+    fullName: SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
+    name: RemoveIgnoreAutoSentryTableInfo
+    nameWithType: SqlCommand.RemoveIgnoreAutoSentryTableInfo
+    fullName: SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.ClearIgnoreAutoSentryTableInfos
+  commentId: M:SuperOffice.Data.SQL.SqlCommand.ClearIgnoreAutoSentryTableInfos
+  parent: SuperOffice.Data.SQL.SqlCommand
+  isExternal: true
+  name: ClearIgnoreAutoSentryTableInfos()
+  nameWithType: SqlCommand.ClearIgnoreAutoSentryTableInfos()
+  fullName: SuperOffice.Data.SQL.SqlCommand.ClearIgnoreAutoSentryTableInfos()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.SqlCommand.ClearIgnoreAutoSentryTableInfos
+    name: ClearIgnoreAutoSentryTableInfos
+    nameWithType: SqlCommand.ClearIgnoreAutoSentryTableInfos
+    fullName: SuperOffice.Data.SQL.SqlCommand.ClearIgnoreAutoSentryTableInfos
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.SqlCommand.ClearIgnoreAutoSentryTableInfos
+    name: ClearIgnoreAutoSentryTableInfos
+    nameWithType: SqlCommand.ClearIgnoreAutoSentryTableInfos
+    fullName: SuperOffice.Data.SQL.SqlCommand.ClearIgnoreAutoSentryTableInfos
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.IsAutoSentryIgnoredOnTableInfo(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.SqlCommand.IsAutoSentryIgnoredOnTableInfo(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.SqlCommand
+  isExternal: true
+  name: IsAutoSentryIgnoredOnTableInfo(TableInfo)
+  nameWithType: SqlCommand.IsAutoSentryIgnoredOnTableInfo(TableInfo)
+  fullName: SuperOffice.Data.SQL.SqlCommand.IsAutoSentryIgnoredOnTableInfo(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.SqlCommand.IsAutoSentryIgnoredOnTableInfo(SuperOffice.Data.SQL.TableInfo)
+    name: IsAutoSentryIgnoredOnTableInfo
+    nameWithType: SqlCommand.IsAutoSentryIgnoredOnTableInfo
+    fullName: SuperOffice.Data.SQL.SqlCommand.IsAutoSentryIgnoredOnTableInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.SqlCommand.IsAutoSentryIgnoredOnTableInfo(SuperOffice.Data.SQL.TableInfo)
+    name: IsAutoSentryIgnoredOnTableInfo
+    nameWithType: SqlCommand.IsAutoSentryIgnoredOnTableInfo
+    fullName: SuperOffice.Data.SQL.SqlCommand.IsAutoSentryIgnoredOnTableInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.GetPrivateSaves
+  commentId: M:SuperOffice.Data.SQL.SqlCommand.GetPrivateSaves
+  parent: SuperOffice.Data.SQL.SqlCommand
+  isExternal: true
+  name: GetPrivateSaves()
+  nameWithType: SqlCommand.GetPrivateSaves()
+  fullName: SuperOffice.Data.SQL.SqlCommand.GetPrivateSaves()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.SqlCommand.GetPrivateSaves
+    name: GetPrivateSaves
+    nameWithType: SqlCommand.GetPrivateSaves
+    fullName: SuperOffice.Data.SQL.SqlCommand.GetPrivateSaves
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.SqlCommand.GetPrivateSaves
+    name: GetPrivateSaves
+    nameWithType: SqlCommand.GetPrivateSaves
+    fullName: SuperOffice.Data.SQL.SqlCommand.GetPrivateSaves
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.GetInserts
+  commentId: M:SuperOffice.Data.SQL.SqlCommand.GetInserts
+  parent: SuperOffice.Data.SQL.SqlCommand
+  isExternal: true
+  name: GetInserts()
+  nameWithType: SqlCommand.GetInserts()
+  fullName: SuperOffice.Data.SQL.SqlCommand.GetInserts()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.SqlCommand.GetInserts
+    name: GetInserts
+    nameWithType: SqlCommand.GetInserts
+    fullName: SuperOffice.Data.SQL.SqlCommand.GetInserts
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.SqlCommand.GetInserts
+    name: GetInserts
+    nameWithType: SqlCommand.GetInserts
+    fullName: SuperOffice.Data.SQL.SqlCommand.GetInserts
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.GetUpdates
+  commentId: M:SuperOffice.Data.SQL.SqlCommand.GetUpdates
+  parent: SuperOffice.Data.SQL.SqlCommand
+  isExternal: true
+  name: GetUpdates()
+  nameWithType: SqlCommand.GetUpdates()
+  fullName: SuperOffice.Data.SQL.SqlCommand.GetUpdates()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.SqlCommand.GetUpdates
+    name: GetUpdates
+    nameWithType: SqlCommand.GetUpdates
+    fullName: SuperOffice.Data.SQL.SqlCommand.GetUpdates
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.SqlCommand.GetUpdates
+    name: GetUpdates
+    nameWithType: SqlCommand.GetUpdates
+    fullName: SuperOffice.Data.SQL.SqlCommand.GetUpdates
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.GetDeletes
+  commentId: M:SuperOffice.Data.SQL.SqlCommand.GetDeletes
+  parent: SuperOffice.Data.SQL.SqlCommand
+  isExternal: true
+  name: GetDeletes()
+  nameWithType: SqlCommand.GetDeletes()
+  fullName: SuperOffice.Data.SQL.SqlCommand.GetDeletes()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.SqlCommand.GetDeletes
+    name: GetDeletes
+    nameWithType: SqlCommand.GetDeletes
+    fullName: SuperOffice.Data.SQL.SqlCommand.GetDeletes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.SqlCommand.GetDeletes
+    name: GetDeletes
+    nameWithType: SqlCommand.GetDeletes
+    fullName: SuperOffice.Data.SQL.SqlCommand.GetDeletes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.GetSelect
+  commentId: M:SuperOffice.Data.SQL.SqlCommand.GetSelect
+  parent: SuperOffice.Data.SQL.SqlCommand
+  isExternal: true
+  name: GetSelect()
+  nameWithType: SqlCommand.GetSelect()
+  fullName: SuperOffice.Data.SQL.SqlCommand.GetSelect()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.SqlCommand.GetSelect
+    name: GetSelect
+    nameWithType: SqlCommand.GetSelect
+    fullName: SuperOffice.Data.SQL.SqlCommand.GetSelect
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.SqlCommand.GetSelect
+    name: GetSelect
+    nameWithType: SqlCommand.GetSelect
+    fullName: SuperOffice.Data.SQL.SqlCommand.GetSelect
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
+  commentId: P:SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
+  parent: SuperOffice.Data.SQL.SqlCommand
+  isExternal: true
+  name: AutoSentryIgnoredTables
+  nameWithType: SqlCommand.AutoSentryIgnoredTables
+  fullName: SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Archives.ActivityList.FromContact.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ActivityList.FromContact, To>()
+  nameWithType: EnumUtil.MapEnums<ActivityList.FromContact, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Archives.ActivityList.FromContact, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ActivityList.FromContact, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Archives.ActivityList.FromContact, To)()
+  name.vb: MapEnums(Of ActivityList.FromContact, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ActivityList.FromContact, To>
+    nameWithType: EnumUtil.MapEnums<ActivityList.FromContact, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Archives.ActivityList.FromContact, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ActivityList.FromContact, To)
+    nameWithType: EnumUtil.MapEnums(Of ActivityList.FromContact, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Archives.ActivityList.FromContact, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  name: ExecuteReader(Boolean)
+  nameWithType: QueryExectionExtensions.ExecuteReader(Boolean)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
+    name: ExecuteReader
+    nameWithType: QueryExectionExtensions.ExecuteReader
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
+    name: ExecuteReader
+    nameWithType: QueryExectionExtensions.ExecuteReader
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand)
+  name: ExecuteScalar<T>()
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>()
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>()
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)()
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)()
+  name.vb: ExecuteScalar(Of T)()
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
+    name: ExecuteScalar<T>
+    nameWithType: QueryExectionExtensions.ExecuteScalar<T>
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
+    name: ExecuteScalar(Of T)
+    nameWithType: QueryExectionExtensions.ExecuteScalar(Of T)
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+  name: ExecuteNonQuery()
+  nameWithType: QueryExectionExtensions.ExecuteNonQuery()
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery()
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+    name: ExecuteNonQuery
+    nameWithType: QueryExectionExtensions.ExecuteNonQuery
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+    name: ExecuteNonQuery
+    nameWithType: QueryExectionExtensions.ExecuteNonQuery
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Archives.ActivityList.FromContact.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ActivityList.FromContact, To>()
+  nameWithType: Converters.MapEnums<ActivityList.FromContact, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Archives.ActivityList.FromContact, To>()
+  nameWithType.vb: Converters.MapEnums(Of ActivityList.FromContact, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Archives.ActivityList.FromContact, To)()
+  name.vb: MapEnums(Of ActivityList.FromContact, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ActivityList.FromContact, To>
+    nameWithType: Converters.MapEnums<ActivityList.FromContact, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Archives.ActivityList.FromContact, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ActivityList.FromContact, To)
+    nameWithType: Converters.MapEnums(Of ActivityList.FromContact, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Archives.ActivityList.FromContact, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  isExternal: true
+  name: ExecuteReader(SqlCommand, Boolean)
+  nameWithType: QueryExectionExtensions.ExecuteReader(SqlCommand, Boolean)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteReader
+    nameWithType: QueryExectionExtensions.ExecuteReader
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteReader
+    nameWithType: QueryExectionExtensions.ExecuteReader
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.QueryExectionExtensions
+  commentId: T:SuperOffice.Data.QueryExectionExtensions
+  parent: SuperOffice.Data
+  isExternal: true
+  name: QueryExectionExtensions
+  nameWithType: QueryExectionExtensions
+  fullName: SuperOffice.Data.QueryExectionExtensions
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand)
+  isExternal: true
+  name: ExecuteScalar<T>(SqlCommand)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand)
+  name.vb: ExecuteScalar(Of T)(SqlCommand)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand)
+    name: ExecuteScalar<T>
+    nameWithType: QueryExectionExtensions.ExecuteScalar<T>
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand)
+    name: ExecuteScalar(Of T)
+    nameWithType: QueryExectionExtensions.ExecuteScalar(Of T)
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+  isExternal: true
+  name: ExecuteNonQuery(SqlCommand)
+  nameWithType: QueryExectionExtensions.ExecuteNonQuery(SqlCommand)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+    name: ExecuteNonQuery
+    nameWithType: QueryExectionExtensions.ExecuteNonQuery
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+    name: ExecuteNonQuery
+    nameWithType: QueryExectionExtensions.ExecuteNonQuery
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Archives.ActivityList.FromContact.#ctor*
+  commentId: Overload:SuperOffice.CRM.Archives.ActivityList.FromContact.#ctor
+  isExternal: true
+  name: FromContact
+  nameWithType: ActivityList.FromContact.FromContact
+  fullName: SuperOffice.CRM.Archives.ActivityList.FromContact.FromContact
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Lists.ArchiveFilterType
+  commentId: T:SuperOffice.CRM.Lists.ArchiveFilterType
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: ArchiveFilterType
+  nameWithType: ArchiveFilterType
+  fullName: SuperOffice.CRM.Lists.ArchiveFilterType
+- uid: SuperOffice.CRM.Lists
+  commentId: N:SuperOffice.CRM.Lists
+  isExternal: true
+  name: SuperOffice.CRM.Lists
+  nameWithType: SuperOffice.CRM.Lists
+  fullName: SuperOffice.CRM.Lists
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Util.DateTimeSearchType
+  commentId: T:SuperOffice.Util.DateTimeSearchType
+  parent: SuperOffice.Util
+  isExternal: true
+  name: DateTimeSearchType
+  nameWithType: DateTimeSearchType
+  fullName: SuperOffice.Util.DateTimeSearchType
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime

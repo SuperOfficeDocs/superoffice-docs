@@ -1,0 +1,1418 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense
+  commentId: T:SuperOffice.CRM.Services.GrantedModuleLicense
+  id: GrantedModuleLicense
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.GrantedModuleLicense.#ctor
+  - SuperOffice.CRM.Services.GrantedModuleLicense.Description
+  - SuperOffice.CRM.Services.GrantedModuleLicense.ExpiryDate
+  - SuperOffice.CRM.Services.GrantedModuleLicense.ExtraFlags
+  - SuperOffice.CRM.Services.GrantedModuleLicense.ExtraInfo
+  - SuperOffice.CRM.Services.GrantedModuleLicense.IsHidden
+  - SuperOffice.CRM.Services.GrantedModuleLicense.IsUnrestricted
+  - SuperOffice.CRM.Services.GrantedModuleLicense.LicenseNumber
+  - SuperOffice.CRM.Services.GrantedModuleLicense.LicenseType
+  - SuperOffice.CRM.Services.GrantedModuleLicense.ModuleId
+  - SuperOffice.CRM.Services.GrantedModuleLicense.Name
+  - SuperOffice.CRM.Services.GrantedModuleLicense.OwnerDescription
+  - SuperOffice.CRM.Services.GrantedModuleLicense.OwnerId
+  - SuperOffice.CRM.Services.GrantedModuleLicense.OwnerName
+  - SuperOffice.CRM.Services.GrantedModuleLicense.SortOrder
+  - SuperOffice.CRM.Services.GrantedModuleLicense.ToString
+  - SuperOffice.CRM.Services.GrantedModuleLicense.Version
+  langs:
+  - csharp
+  - vb
+  name: GrantedModuleLicense
+  nameWithType: GrantedModuleLicense
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRepresents a single module license granted to a user.\n"
+  syntax:
+    content: 'public class GrantedModuleLicense : Carrier'
+    content.vb: >-
+      Public Class GrantedModuleLicense
+          Inherits Carrier
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.Carrier
+  inheritedMembers:
+  - SuperOffice.CRM.Services.Carrier.TableRight
+  - SuperOffice.CRM.Services.Carrier.FieldProperties
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Services.GrantedModuleLicense.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Services.GrantedModuleLicense.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.GrantedModuleLicense)
+  - SuperOffice.CRM.Services.GrantedModuleLicense.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Services.GrantedModuleLicense.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.ToString
+  commentId: M:SuperOffice.CRM.Services.GrantedModuleLicense.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.GrantedModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: GrantedModuleLicense.ToString()
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.ToString()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nToString will return OnwerName.Name (Description)\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.Services.GrantedModuleLicense.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.#ctor
+  commentId: M:SuperOffice.CRM.Services.GrantedModuleLicense.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.GrantedModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: GrantedModuleLicense()
+  nameWithType: GrantedModuleLicense.GrantedModuleLicense()
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.GrantedModuleLicense()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public GrantedModuleLicense()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.GrantedModuleLicense.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.OwnerId
+  commentId: P:SuperOffice.CRM.Services.GrantedModuleLicense.OwnerId
+  id: OwnerId
+  parent: SuperOffice.CRM.Services.GrantedModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: OwnerId
+  nameWithType: GrantedModuleLicense.OwnerId
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.OwnerId
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key of the ModuleOwner row.\n"
+  syntax:
+    content: public virtual int OwnerId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property OwnerId As Integer
+  overload: SuperOffice.CRM.Services.GrantedModuleLicense.OwnerId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.OwnerName
+  commentId: P:SuperOffice.CRM.Services.GrantedModuleLicense.OwnerName
+  id: OwnerName
+  parent: SuperOffice.CRM.Services.GrantedModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: OwnerName
+  nameWithType: GrantedModuleLicense.OwnerName
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.OwnerName
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUnique name identifying the module owner. \nMust match primer data installed by module. e.g. &quot;SUPEROFFICE&quot; or &quot;ADWIZA&quot;\n"
+  syntax:
+    content: public virtual string OwnerName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property OwnerName As String
+  overload: SuperOffice.CRM.Services.GrantedModuleLicense.OwnerName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.OwnerDescription
+  commentId: P:SuperOffice.CRM.Services.GrantedModuleLicense.OwnerDescription
+  id: OwnerDescription
+  parent: SuperOffice.CRM.Services.GrantedModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: OwnerDescription
+  nameWithType: GrantedModuleLicense.OwnerDescription
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.OwnerDescription
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDescription of the owner module as shown in the user interface.\n"
+  syntax:
+    content: public virtual string OwnerDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property OwnerDescription As String
+  overload: SuperOffice.CRM.Services.GrantedModuleLicense.OwnerDescription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.ModuleId
+  commentId: P:SuperOffice.CRM.Services.GrantedModuleLicense.ModuleId
+  id: ModuleId
+  parent: SuperOffice.CRM.Services.GrantedModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: ModuleId
+  nameWithType: GrantedModuleLicense.ModuleId
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.ModuleId
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key for ModuleLicense row\n"
+  syntax:
+    content: public virtual int ModuleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ModuleId As Integer
+  overload: SuperOffice.CRM.Services.GrantedModuleLicense.ModuleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.Name
+  commentId: P:SuperOffice.CRM.Services.GrantedModuleLicense.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.GrantedModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: GrantedModuleLicense.Name
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.Name
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUnique name identifying the module. e.g. &quot;WINCAL&quot; or &quot;SUPERSERVER&quot;\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.GrantedModuleLicense.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.Description
+  commentId: P:SuperOffice.CRM.Services.GrantedModuleLicense.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.GrantedModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: GrantedModuleLicense.Description
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.Description
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of the module as shown in the user interface.\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.GrantedModuleLicense.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.Version
+  commentId: P:SuperOffice.CRM.Services.GrantedModuleLicense.Version
+  id: Version
+  parent: SuperOffice.CRM.Services.GrantedModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: GrantedModuleLicense.Version
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.Version
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nVersion of the module license (for future use).\n"
+  syntax:
+    content: public virtual string Version { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Version As String
+  overload: SuperOffice.CRM.Services.GrantedModuleLicense.Version*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.LicenseType
+  commentId: P:SuperOffice.CRM.Services.GrantedModuleLicense.LicenseType
+  id: LicenseType
+  parent: SuperOffice.CRM.Services.GrantedModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: LicenseType
+  nameWithType: GrantedModuleLicense.LicenseType
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.LicenseType
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nType of license: site(1), satellite(2), user(3)\n"
+  syntax:
+    content: public virtual LicenseType LicenseType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.License.LicenseType
+    content.vb: Public Overridable Property LicenseType As LicenseType
+  overload: SuperOffice.CRM.Services.GrantedModuleLicense.LicenseType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.ExtraFlags
+  commentId: P:SuperOffice.CRM.Services.GrantedModuleLicense.ExtraFlags
+  id: ExtraFlags
+  parent: SuperOffice.CRM.Services.GrantedModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: ExtraFlags
+  nameWithType: GrantedModuleLicense.ExtraFlags
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.ExtraFlags
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAny additional data the license module needs.\n"
+  syntax:
+    content: public virtual int ExtraFlags { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ExtraFlags As Integer
+  overload: SuperOffice.CRM.Services.GrantedModuleLicense.ExtraFlags*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.ExtraInfo
+  commentId: P:SuperOffice.CRM.Services.GrantedModuleLicense.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.CRM.Services.GrantedModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: GrantedModuleLicense.ExtraInfo
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.ExtraInfo
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAny additional data the license module needs.\n"
+  syntax:
+    content: public virtual string ExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraInfo As String
+  overload: SuperOffice.CRM.Services.GrantedModuleLicense.ExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.SortOrder
+  commentId: P:SuperOffice.CRM.Services.GrantedModuleLicense.SortOrder
+  id: SortOrder
+  parent: SuperOffice.CRM.Services.GrantedModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: SortOrder
+  nameWithType: GrantedModuleLicense.SortOrder
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.SortOrder
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOrder in which licenses are sorted in the license calculations.\n"
+  syntax:
+    content: public virtual int SortOrder { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SortOrder As Integer
+  overload: SuperOffice.CRM.Services.GrantedModuleLicense.SortOrder*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.LicenseNumber
+  commentId: P:SuperOffice.CRM.Services.GrantedModuleLicense.LicenseNumber
+  id: LicenseNumber
+  parent: SuperOffice.CRM.Services.GrantedModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: LicenseNumber
+  nameWithType: GrantedModuleLicense.LicenseNumber
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.LicenseNumber
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNumber of licenses granted.\n"
+  syntax:
+    content: public virtual int LicenseNumber { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property LicenseNumber As Integer
+  overload: SuperOffice.CRM.Services.GrantedModuleLicense.LicenseNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.IsHidden
+  commentId: P:SuperOffice.CRM.Services.GrantedModuleLicense.IsHidden
+  id: IsHidden
+  parent: SuperOffice.CRM.Services.GrantedModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: IsHidden
+  nameWithType: GrantedModuleLicense.IsHidden
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.IsHidden
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIs the license hidden from the user? \nHidden licenses are usually feature-specific, part of a larger bundle.\n"
+  syntax:
+    content: public virtual bool IsHidden { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsHidden As Boolean
+  overload: SuperOffice.CRM.Services.GrantedModuleLicense.IsHidden*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.IsUnrestricted
+  commentId: P:SuperOffice.CRM.Services.GrantedModuleLicense.IsUnrestricted
+  id: IsUnrestricted
+  parent: SuperOffice.CRM.Services.GrantedModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: IsUnrestricted
+  nameWithType: GrantedModuleLicense.IsUnrestricted
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.IsUnrestricted
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIs the license limited to the number of licenses?\n"
+  syntax:
+    content: public virtual bool IsUnrestricted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsUnrestricted As Boolean
+  overload: SuperOffice.CRM.Services.GrantedModuleLicense.IsUnrestricted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.ExpiryDate
+  commentId: P:SuperOffice.CRM.Services.GrantedModuleLicense.ExpiryDate
+  id: ExpiryDate
+  parent: SuperOffice.CRM.Services.GrantedModuleLicense
+  langs:
+  - csharp
+  - vb
+  name: ExpiryDate
+  nameWithType: GrantedModuleLicense.ExpiryDate
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.ExpiryDate
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nExpiry date for the license.\n"
+  syntax:
+    content: public virtual DateTime ExpiryDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property ExpiryDate As Date
+  overload: SuperOffice.CRM.Services.GrantedModuleLicense.ExpiryDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.Carrier
+  commentId: T:SuperOffice.CRM.Services.Carrier
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.CRM.Services.Carrier
+- uid: SuperOffice.CRM.Services.Carrier.TableRight
+  commentId: P:SuperOffice.CRM.Services.Carrier.TableRight
+  parent: SuperOffice.CRM.Services.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.CRM.Services.Carrier.TableRight
+- uid: SuperOffice.CRM.Services.Carrier.FieldProperties
+  commentId: P:SuperOffice.CRM.Services.Carrier.FieldProperties
+  parent: SuperOffice.CRM.Services.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.CRM.Services.Carrier.FieldProperties
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<GrantedModuleLicense, To>()
+  nameWithType: EnumUtil.MapEnums<GrantedModuleLicense, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.GrantedModuleLicense, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of GrantedModuleLicense, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.GrantedModuleLicense, To)()
+  name.vb: MapEnums(Of GrantedModuleLicense, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<GrantedModuleLicense, To>
+    nameWithType: EnumUtil.MapEnums<GrantedModuleLicense, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.GrantedModuleLicense, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of GrantedModuleLicense, To)
+    nameWithType: EnumUtil.MapEnums(Of GrantedModuleLicense, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.GrantedModuleLicense, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.GrantedModuleLicense)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<GrantedModuleLicense>(GrantedModuleLicense)
+  nameWithType: ObjectExtensions.AssignByReflection<GrantedModuleLicense>(GrantedModuleLicense)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Services.GrantedModuleLicense>(SuperOffice.CRM.Services.GrantedModuleLicense)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of GrantedModuleLicense)(GrantedModuleLicense)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Services.GrantedModuleLicense)(SuperOffice.CRM.Services.GrantedModuleLicense)
+  name.vb: AssignByReflection(Of GrantedModuleLicense)(GrantedModuleLicense)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<GrantedModuleLicense>
+    nameWithType: ObjectExtensions.AssignByReflection<GrantedModuleLicense>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Services.GrantedModuleLicense>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.GrantedModuleLicense
+    name: GrantedModuleLicense
+    nameWithType: GrantedModuleLicense
+    fullName: SuperOffice.CRM.Services.GrantedModuleLicense
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of GrantedModuleLicense)
+    nameWithType: ObjectExtensions.AssignByReflection(Of GrantedModuleLicense)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Services.GrantedModuleLicense)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.GrantedModuleLicense
+    name: GrantedModuleLicense
+    nameWithType: GrantedModuleLicense
+    fullName: SuperOffice.CRM.Services.GrantedModuleLicense
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<GrantedModuleLicense>()
+  nameWithType: ObjectExtensions.GraphCopy<GrantedModuleLicense>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Services.GrantedModuleLicense>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of GrantedModuleLicense)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Services.GrantedModuleLicense)()
+  name.vb: GraphCopy(Of GrantedModuleLicense)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<GrantedModuleLicense>
+    nameWithType: ObjectExtensions.GraphCopy<GrantedModuleLicense>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Services.GrantedModuleLicense>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of GrantedModuleLicense)
+    nameWithType: ObjectExtensions.GraphCopy(Of GrantedModuleLicense)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Services.GrantedModuleLicense)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<GrantedModuleLicense, To>()
+  nameWithType: Converters.MapEnums<GrantedModuleLicense, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.GrantedModuleLicense, To>()
+  nameWithType.vb: Converters.MapEnums(Of GrantedModuleLicense, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.GrantedModuleLicense, To)()
+  name.vb: MapEnums(Of GrantedModuleLicense, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<GrantedModuleLicense, To>
+    nameWithType: Converters.MapEnums<GrantedModuleLicense, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.GrantedModuleLicense, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of GrantedModuleLicense, To)
+    nameWithType: Converters.MapEnums(Of GrantedModuleLicense, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.GrantedModuleLicense, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.GrantedModuleLicense.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: GrantedModuleLicense.ToString
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.GrantedModuleLicense.#ctor
+  isExternal: true
+  name: GrantedModuleLicense
+  nameWithType: GrantedModuleLicense.GrantedModuleLicense
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.GrantedModuleLicense
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.OwnerId*
+  commentId: Overload:SuperOffice.CRM.Services.GrantedModuleLicense.OwnerId
+  isExternal: true
+  name: OwnerId
+  nameWithType: GrantedModuleLicense.OwnerId
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.OwnerId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.OwnerName*
+  commentId: Overload:SuperOffice.CRM.Services.GrantedModuleLicense.OwnerName
+  isExternal: true
+  name: OwnerName
+  nameWithType: GrantedModuleLicense.OwnerName
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.OwnerName
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.OwnerDescription*
+  commentId: Overload:SuperOffice.CRM.Services.GrantedModuleLicense.OwnerDescription
+  isExternal: true
+  name: OwnerDescription
+  nameWithType: GrantedModuleLicense.OwnerDescription
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.OwnerDescription
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.ModuleId*
+  commentId: Overload:SuperOffice.CRM.Services.GrantedModuleLicense.ModuleId
+  isExternal: true
+  name: ModuleId
+  nameWithType: GrantedModuleLicense.ModuleId
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.ModuleId
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.Name*
+  commentId: Overload:SuperOffice.CRM.Services.GrantedModuleLicense.Name
+  isExternal: true
+  name: Name
+  nameWithType: GrantedModuleLicense.Name
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.Name
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.Description*
+  commentId: Overload:SuperOffice.CRM.Services.GrantedModuleLicense.Description
+  isExternal: true
+  name: Description
+  nameWithType: GrantedModuleLicense.Description
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.Description
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.Version*
+  commentId: Overload:SuperOffice.CRM.Services.GrantedModuleLicense.Version
+  isExternal: true
+  name: Version
+  nameWithType: GrantedModuleLicense.Version
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.Version
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.LicenseType*
+  commentId: Overload:SuperOffice.CRM.Services.GrantedModuleLicense.LicenseType
+  isExternal: true
+  name: LicenseType
+  nameWithType: GrantedModuleLicense.LicenseType
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.LicenseType
+- uid: SuperOffice.License.LicenseType
+  isExternal: true
+  name: LicenseType
+  nameWithType: LicenseType
+  fullName: SuperOffice.License.LicenseType
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.ExtraFlags*
+  commentId: Overload:SuperOffice.CRM.Services.GrantedModuleLicense.ExtraFlags
+  isExternal: true
+  name: ExtraFlags
+  nameWithType: GrantedModuleLicense.ExtraFlags
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.ExtraFlags
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.ExtraInfo*
+  commentId: Overload:SuperOffice.CRM.Services.GrantedModuleLicense.ExtraInfo
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: GrantedModuleLicense.ExtraInfo
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.ExtraInfo
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.SortOrder*
+  commentId: Overload:SuperOffice.CRM.Services.GrantedModuleLicense.SortOrder
+  isExternal: true
+  name: SortOrder
+  nameWithType: GrantedModuleLicense.SortOrder
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.SortOrder
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.LicenseNumber*
+  commentId: Overload:SuperOffice.CRM.Services.GrantedModuleLicense.LicenseNumber
+  isExternal: true
+  name: LicenseNumber
+  nameWithType: GrantedModuleLicense.LicenseNumber
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.LicenseNumber
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.IsHidden*
+  commentId: Overload:SuperOffice.CRM.Services.GrantedModuleLicense.IsHidden
+  isExternal: true
+  name: IsHidden
+  nameWithType: GrantedModuleLicense.IsHidden
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.IsHidden
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.IsUnrestricted*
+  commentId: Overload:SuperOffice.CRM.Services.GrantedModuleLicense.IsUnrestricted
+  isExternal: true
+  name: IsUnrestricted
+  nameWithType: GrantedModuleLicense.IsUnrestricted
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.IsUnrestricted
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense.ExpiryDate*
+  commentId: Overload:SuperOffice.CRM.Services.GrantedModuleLicense.ExpiryDate
+  isExternal: true
+  name: ExpiryDate
+  nameWithType: GrantedModuleLicense.ExpiryDate
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense.ExpiryDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime

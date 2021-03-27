@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Products
+  commentId: N:SuperOffice.Products
+  id: SuperOffice.Products
+  children:
+  - SuperOffice.Products.NetServerCore
+  - SuperOffice.Products.NetServerDataBase
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Products
+  nameWithType: SuperOffice.Products
+  fullName: SuperOffice.Products
+  type: Namespace
+  assemblies:
+  - SOCore
+references:
+- uid: SuperOffice.Products.NetServerCore
+  commentId: T:SuperOffice.Products.NetServerCore
+  isExternal: true
+  name: NetServerCore
+  nameWithType: NetServerCore
+  fullName: SuperOffice.Products.NetServerCore
+- uid: SuperOffice.Products.NetServerDataBase
+  commentId: T:SuperOffice.Products.NetServerDataBase
+  isExternal: true
+  name: NetServerDataBase
+  nameWithType: NetServerDataBase
+  fullName: SuperOffice.Products.NetServerDataBase

@@ -1,0 +1,101 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ITooltipsAgent
+  commentId: T:SuperOffice.CRM.Services.ITooltipsAgent
+  id: ITooltipsAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ITooltipsAgent.GetTooltip(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ITooltipsAgent
+  nameWithType: ITooltipsAgent
+  fullName: SuperOffice.CRM.Services.ITooltipsAgent
+  type: Interface
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInterface for the Tooltips Agent\nTooltip system, hint to text transformation\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (TooltipsAgent agent = new TooltipsAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: >-
+      [Agent("Tooltips Agent", "Interface for the Tooltips Agent. Tooltip system, hint to text transformation")]
+
+      public interface ITooltipsAgent : IAgent
+    content.vb: >-
+      <Agent("Tooltips Agent", "Interface for the Tooltips Agent. Tooltip system, hint to text transformation")>
+
+      Public Interface ITooltipsAgent
+          Inherits IAgent
+  attributes:
+  - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
+    ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: Tooltips Agent
+    - type: System.String
+      value: Interface for the Tooltips Agent. Tooltip system, hint to text transformation
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Services.ITooltipsAgent.GetTooltip(System.String)
+  commentId: M:SuperOffice.CRM.Services.ITooltipsAgent.GetTooltip(System.String)
+  id: GetTooltip(System.String)
+  parent: SuperOffice.CRM.Services.ITooltipsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTooltip(String)
+  nameWithType: ITooltipsAgent.GetTooltip(String)
+  fullName: SuperOffice.CRM.Services.ITooltipsAgent.GetTooltip(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nParse a tooltip hint and return a tooltip. The returned tooltip string may contain resource string identifiers (in square brackets), to be processed by the resource manager.&lt;para />The tooltip hint is either a literal text, representing itself, or a set of key/value pairs enclosed in curly braces. Each key is separated from its value by an equals sign, and each pair from the next by an ampersand, according to usual conventions.&lt;para />A typical tooltip hint could be {contact_id=123} or {appointment_id=222&amp;amp;mode=simple}\n"
+  syntax:
+    content: string GetTooltip(string tooltipHint)
+    parameters:
+    - id: tooltipHint
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Function GetTooltip(tooltipHint As String) As String
+  overload: SuperOffice.CRM.Services.ITooltipsAgent.GetTooltip*
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.ITooltipsAgent.GetTooltip*
+  commentId: Overload:SuperOffice.CRM.Services.ITooltipsAgent.GetTooltip
+  isExternal: true
+  name: GetTooltip
+  nameWithType: ITooltipsAgent.GetTooltip
+  fullName: SuperOffice.CRM.Services.ITooltipsAgent.GetTooltip
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

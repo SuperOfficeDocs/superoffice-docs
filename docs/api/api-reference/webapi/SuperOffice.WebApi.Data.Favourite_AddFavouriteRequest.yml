@@ -1,0 +1,247 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest
+  commentId: T:SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest
+  id: Favourite_AddFavouriteRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.#ctor
+  - SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.AssociateId
+  - SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.ExtraInfo
+  - SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.RecordId
+  - SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.TableName
+  langs:
+  - csharp
+  - vb
+  name: Favourite_AddFavouriteRequest
+  nameWithType: Favourite_AddFavouriteRequest
+  fullName: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Favourite_AddFavouriteRequest : Object'
+    content.vb: >-
+      Public Class Favourite_AddFavouriteRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest
+  langs:
+  - csharp
+  - vb
+  name: Favourite_AddFavouriteRequest()
+  nameWithType: Favourite_AddFavouriteRequest.Favourite_AddFavouriteRequest()
+  fullName: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.Favourite_AddFavouriteRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Favourite_AddFavouriteRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.TableName
+  commentId: P:SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.TableName
+  id: TableName
+  parent: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: Favourite_AddFavouriteRequest.TableName
+  fullName: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.TableName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string TableName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TableName As String
+  overload: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.TableName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.RecordId
+  commentId: P:SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.RecordId
+  id: RecordId
+  parent: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest
+  langs:
+  - csharp
+  - vb
+  name: RecordId
+  nameWithType: Favourite_AddFavouriteRequest.RecordId
+  fullName: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.RecordId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int RecordId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RecordId As Integer
+  overload: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.RecordId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: Favourite_AddFavouriteRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.ExtraInfo
+  commentId: P:SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: Favourite_AddFavouriteRequest.ExtraInfo
+  fullName: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.ExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ExtraInfo As String
+  overload: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.ExtraInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.#ctor
+  isExternal: true
+  name: Favourite_AddFavouriteRequest
+  nameWithType: Favourite_AddFavouriteRequest.Favourite_AddFavouriteRequest
+  fullName: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.Favourite_AddFavouriteRequest
+- uid: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.TableName*
+  commentId: Overload:SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.TableName
+  isExternal: true
+  name: TableName
+  nameWithType: Favourite_AddFavouriteRequest.TableName
+  fullName: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.TableName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.RecordId*
+  commentId: Overload:SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.RecordId
+  isExternal: true
+  name: RecordId
+  nameWithType: Favourite_AddFavouriteRequest.RecordId
+  fullName: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.RecordId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: Favourite_AddFavouriteRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.AssociateId
+- uid: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.ExtraInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.ExtraInfo
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: Favourite_AddFavouriteRequest.ExtraInfo
+  fullName: SuperOffice.WebApi.Data.Favourite_AddFavouriteRequest.ExtraInfo

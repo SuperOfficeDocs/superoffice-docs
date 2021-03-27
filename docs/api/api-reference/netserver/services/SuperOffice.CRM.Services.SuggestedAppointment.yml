@@ -1,0 +1,767 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.SuggestedAppointment
+  commentId: T:SuperOffice.CRM.Services.SuggestedAppointment
+  id: SuggestedAppointment
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.SuggestedAppointment.#ctor
+  - SuperOffice.CRM.Services.SuggestedAppointment.Associate
+  - SuperOffice.CRM.Services.SuggestedAppointment.AutoSuggest
+  - SuperOffice.CRM.Services.SuggestedAppointment.DaysFuture
+  - SuperOffice.CRM.Services.SuggestedAppointment.Deleted
+  - SuperOffice.CRM.Services.SuggestedAppointment.Duration
+  - SuperOffice.CRM.Services.SuggestedAppointment.Name
+  - SuperOffice.CRM.Services.SuggestedAppointment.ProjectTypeStatusLinkId
+  - SuperOffice.CRM.Services.SuggestedAppointment.Rank
+  - SuperOffice.CRM.Services.SuggestedAppointment.RegisteredAssociateId
+  - SuperOffice.CRM.Services.SuggestedAppointment.SaleTypeStageLinkId
+  - SuperOffice.CRM.Services.SuggestedAppointment.SuggestedAppointmentId
+  - SuperOffice.CRM.Services.SuggestedAppointment.TaskId
+  - SuperOffice.CRM.Services.SuggestedAppointment.Text
+  - SuperOffice.CRM.Services.SuggestedAppointment.Tooltip
+  - SuperOffice.CRM.Services.SuggestedAppointment.ToString
+  - SuperOffice.CRM.Services.SuggestedAppointment.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: SuggestedAppointment
+  nameWithType: SuggestedAppointment
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for SuggestedAppointment.\nServices for the SuggestedAppointment Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IAppointmentAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet SuggestedAppointment 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new AppointmentAgent();\n    var suggestedAppointment = agent.GetSuggestedAppointment( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class SuggestedAppointment : Carrier'
+    content.vb: >-
+      Public Class SuggestedAppointment
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.AppointmentAgent
+    commentId: T:SuperOffice.CRM.Services.AppointmentAgent
+  - linkId: SuperOffice.CRM.Services.IAppointmentAgent
+    commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.#ctor
+  commentId: M:SuperOffice.CRM.Services.SuggestedAppointment.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: SuggestedAppointment()
+  nameWithType: SuggestedAppointment.SuggestedAppointment()
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.SuggestedAppointment()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public SuggestedAppointment()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.SuggestedAppointment.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.ToString
+  commentId: M:SuperOffice.CRM.Services.SuggestedAppointment.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SuggestedAppointment.ToString()
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.SuggestedAppointment.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.SuggestedAppointment.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: SuggestedAppointment.ToString(String)
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.SuggestedAppointment.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.AutoSuggest
+  commentId: P:SuperOffice.CRM.Services.SuggestedAppointment.AutoSuggest
+  id: AutoSuggest
+  parent: SuperOffice.CRM.Services.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: AutoSuggest
+  nameWithType: SuggestedAppointment.AutoSuggest
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.AutoSuggest
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nShould this appointment be auto-suggested \n"
+  syntax:
+    content: public virtual short AutoSuggest { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property AutoSuggest As Short
+  overload: SuperOffice.CRM.Services.SuggestedAppointment.AutoSuggest*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.Deleted
+  commentId: P:SuperOffice.CRM.Services.SuggestedAppointment.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Services.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: SuggestedAppointment.Deleted
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.Deleted
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists \n"
+  syntax:
+    content: public virtual short Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Deleted As Short
+  overload: SuperOffice.CRM.Services.SuggestedAppointment.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.DaysFuture
+  commentId: P:SuperOffice.CRM.Services.SuggestedAppointment.DaysFuture
+  id: DaysFuture
+  parent: SuperOffice.CRM.Services.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: DaysFuture
+  nameWithType: SuggestedAppointment.DaysFuture
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.DaysFuture
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nHow many days into the future the appointment should be scheduled \n"
+  syntax:
+    content: public virtual short DaysFuture { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property DaysFuture As Short
+  overload: SuperOffice.CRM.Services.SuggestedAppointment.DaysFuture*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.Tooltip
+  commentId: P:SuperOffice.CRM.Services.SuggestedAppointment.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Services.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: SuggestedAppointment.Tooltip
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTooltip / description \n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.CRM.Services.SuggestedAppointment.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.Text
+  commentId: P:SuperOffice.CRM.Services.SuggestedAppointment.Text
+  id: Text
+  parent: SuperOffice.CRM.Services.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: SuggestedAppointment.Text
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.Text
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe suggested text of the new appointment \n"
+  syntax:
+    content: public virtual string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Text As String
+  overload: SuperOffice.CRM.Services.SuggestedAppointment.Text*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.TaskId
+  commentId: P:SuperOffice.CRM.Services.SuggestedAppointment.TaskId
+  id: TaskId
+  parent: SuperOffice.CRM.Services.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: TaskId
+  nameWithType: SuggestedAppointment.TaskId
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.TaskId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nType of the suggested appointment \n"
+  syntax:
+    content: public virtual int TaskId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TaskId As Integer
+  overload: SuperOffice.CRM.Services.SuggestedAppointment.TaskId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.SuggestedAppointmentId
+  commentId: P:SuperOffice.CRM.Services.SuggestedAppointment.SuggestedAppointmentId
+  id: SuggestedAppointmentId
+  parent: SuperOffice.CRM.Services.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: SuggestedAppointmentId
+  nameWithType: SuggestedAppointment.SuggestedAppointmentId
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.SuggestedAppointmentId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int SuggestedAppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SuggestedAppointmentId As Integer
+  overload: SuperOffice.CRM.Services.SuggestedAppointment.SuggestedAppointmentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.SaleTypeStageLinkId
+  commentId: P:SuperOffice.CRM.Services.SuggestedAppointment.SaleTypeStageLinkId
+  id: SaleTypeStageLinkId
+  parent: SuperOffice.CRM.Services.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeStageLinkId
+  nameWithType: SuggestedAppointment.SaleTypeStageLinkId
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.SaleTypeStageLinkId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLink to saleTypeStageLink, the anchor for sale guide items. Either this OR projectAnchorId should be set, not both at the same time. \n"
+  syntax:
+    content: public virtual int SaleTypeStageLinkId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleTypeStageLinkId As Integer
+  overload: SuperOffice.CRM.Services.SuggestedAppointment.SaleTypeStageLinkId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Services.SuggestedAppointment.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Services.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: SuggestedAppointment.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.RegisteredAssociateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public virtual int RegisteredAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RegisteredAssociateId As Integer
+  overload: SuperOffice.CRM.Services.SuggestedAppointment.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.Rank
+  commentId: P:SuperOffice.CRM.Services.SuggestedAppointment.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Services.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: SuggestedAppointment.Rank
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.Rank
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRank, controls rank of non-instantiated items in Guide \n"
+  syntax:
+    content: public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Rank As Short
+  overload: SuperOffice.CRM.Services.SuggestedAppointment.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.ProjectTypeStatusLinkId
+  commentId: P:SuperOffice.CRM.Services.SuggestedAppointment.ProjectTypeStatusLinkId
+  id: ProjectTypeStatusLinkId
+  parent: SuperOffice.CRM.Services.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: ProjectTypeStatusLinkId
+  nameWithType: SuggestedAppointment.ProjectTypeStatusLinkId
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.ProjectTypeStatusLinkId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLink to projectTypeStatusLink, the anchor for project guide items. Either this OR saleAnchorId should be set, not both at the same time. \n"
+  syntax:
+    content: public virtual int ProjectTypeStatusLinkId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProjectTypeStatusLinkId As Integer
+  overload: SuperOffice.CRM.Services.SuggestedAppointment.ProjectTypeStatusLinkId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.Name
+  commentId: P:SuperOffice.CRM.Services.SuggestedAppointment.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SuggestedAppointment.Name
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nItem name, visible in Guide \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.SuggestedAppointment.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.Duration
+  commentId: P:SuperOffice.CRM.Services.SuggestedAppointment.Duration
+  id: Duration
+  parent: SuperOffice.CRM.Services.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: SuggestedAppointment.Duration
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.Duration
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDuration in minutes of suggested appointment \n"
+  syntax:
+    content: public virtual short Duration { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Duration As Short
+  overload: SuperOffice.CRM.Services.SuggestedAppointment.Duration*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.Associate
+  commentId: P:SuperOffice.CRM.Services.SuggestedAppointment.Associate
+  id: Associate
+  parent: SuperOffice.CRM.Services.SuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: SuggestedAppointment.Associate
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.Associate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe owner of the suggested activity. Always the same as the sales owner. \n"
+  syntax:
+    content: public virtual Associate Associate { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Associate
+    content.vb: Public Overridable Property Associate As Associate
+  overload: SuperOffice.CRM.Services.SuggestedAppointment.Associate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AppointmentAgent
+  commentId: T:SuperOffice.CRM.Services.AppointmentAgent
+  isExternal: true
+  name: AppointmentAgent
+  nameWithType: AppointmentAgent
+  fullName: SuperOffice.CRM.Services.AppointmentAgent
+- uid: SuperOffice.CRM.Services.IAppointmentAgent
+  commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAppointmentAgent
+  nameWithType: IAppointmentAgent
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.SuggestedAppointment.#ctor
+  isExternal: true
+  name: SuggestedAppointment
+  nameWithType: SuggestedAppointment.SuggestedAppointment
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.SuggestedAppointment
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.SuggestedAppointment.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: SuggestedAppointment.ToString
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.AutoSuggest*
+  commentId: Overload:SuperOffice.CRM.Services.SuggestedAppointment.AutoSuggest
+  isExternal: true
+  name: AutoSuggest
+  nameWithType: SuggestedAppointment.AutoSuggest
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.AutoSuggest
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.Deleted*
+  commentId: Overload:SuperOffice.CRM.Services.SuggestedAppointment.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: SuggestedAppointment.Deleted
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.Deleted
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.DaysFuture*
+  commentId: Overload:SuperOffice.CRM.Services.SuggestedAppointment.DaysFuture
+  isExternal: true
+  name: DaysFuture
+  nameWithType: SuggestedAppointment.DaysFuture
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.DaysFuture
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.Tooltip*
+  commentId: Overload:SuperOffice.CRM.Services.SuggestedAppointment.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: SuggestedAppointment.Tooltip
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.Tooltip
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.Text*
+  commentId: Overload:SuperOffice.CRM.Services.SuggestedAppointment.Text
+  isExternal: true
+  name: Text
+  nameWithType: SuggestedAppointment.Text
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.Text
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.TaskId*
+  commentId: Overload:SuperOffice.CRM.Services.SuggestedAppointment.TaskId
+  isExternal: true
+  name: TaskId
+  nameWithType: SuggestedAppointment.TaskId
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.TaskId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.SuggestedAppointmentId*
+  commentId: Overload:SuperOffice.CRM.Services.SuggestedAppointment.SuggestedAppointmentId
+  isExternal: true
+  name: SuggestedAppointmentId
+  nameWithType: SuggestedAppointment.SuggestedAppointmentId
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.SuggestedAppointmentId
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.SaleTypeStageLinkId*
+  commentId: Overload:SuperOffice.CRM.Services.SuggestedAppointment.SaleTypeStageLinkId
+  isExternal: true
+  name: SaleTypeStageLinkId
+  nameWithType: SuggestedAppointment.SaleTypeStageLinkId
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.SaleTypeStageLinkId
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.SuggestedAppointment.RegisteredAssociateId
+  isExternal: true
+  name: RegisteredAssociateId
+  nameWithType: SuggestedAppointment.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.RegisteredAssociateId
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.Rank*
+  commentId: Overload:SuperOffice.CRM.Services.SuggestedAppointment.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: SuggestedAppointment.Rank
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.Rank
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.ProjectTypeStatusLinkId*
+  commentId: Overload:SuperOffice.CRM.Services.SuggestedAppointment.ProjectTypeStatusLinkId
+  isExternal: true
+  name: ProjectTypeStatusLinkId
+  nameWithType: SuggestedAppointment.ProjectTypeStatusLinkId
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.ProjectTypeStatusLinkId
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.Name*
+  commentId: Overload:SuperOffice.CRM.Services.SuggestedAppointment.Name
+  isExternal: true
+  name: Name
+  nameWithType: SuggestedAppointment.Name
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.Name
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.Duration*
+  commentId: Overload:SuperOffice.CRM.Services.SuggestedAppointment.Duration
+  isExternal: true
+  name: Duration
+  nameWithType: SuggestedAppointment.Duration
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.Duration
+- uid: SuperOffice.CRM.Services.SuggestedAppointment.Associate*
+  commentId: Overload:SuperOffice.CRM.Services.SuggestedAppointment.Associate
+  isExternal: true
+  name: Associate
+  nameWithType: SuggestedAppointment.Associate
+  fullName: SuperOffice.CRM.Services.SuggestedAppointment.Associate
+- uid: SuperOffice.CRM.Services.Associate
+  commentId: T:SuperOffice.CRM.Services.Associate
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.CRM.Services.Associate

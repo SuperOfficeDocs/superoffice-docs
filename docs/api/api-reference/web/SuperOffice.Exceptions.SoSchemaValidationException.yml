@@ -1,0 +1,209 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Exceptions.SoSchemaValidationException
+  commentId: T:SuperOffice.Exceptions.SoSchemaValidationException
+  id: SoSchemaValidationException
+  parent: SuperOffice.Exceptions
+  children:
+  - SuperOffice.Exceptions.SoSchemaValidationException.#ctor(System.Exception)
+  - SuperOffice.Exceptions.SoSchemaValidationException.#ctor(System.String,System.String,System.String)
+  - SuperOffice.Exceptions.SoSchemaValidationException.#ctor(System.String,System.String,System.String,System.Exception)
+  - SuperOffice.Exceptions.SoSchemaValidationException.Message
+  langs:
+  - csharp
+  - vb
+  name: SoSchemaValidationException
+  nameWithType: SoSchemaValidationException
+  fullName: SuperOffice.Exceptions.SoSchemaValidationException
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Exceptions
+  syntax:
+    content: 'public class SoSchemaValidationException : SoException'
+    content.vb: >-
+      Public Class SoSchemaValidationException
+          Inherits SoException
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Exceptions.SoSchemaValidationException.#ctor(System.Exception)
+  commentId: M:SuperOffice.Exceptions.SoSchemaValidationException.#ctor(System.Exception)
+  id: '#ctor(System.Exception)'
+  parent: SuperOffice.Exceptions.SoSchemaValidationException
+  langs:
+  - csharp
+  - vb
+  name: SoSchemaValidationException(Exception)
+  nameWithType: SoSchemaValidationException.SoSchemaValidationException(Exception)
+  fullName: SuperOffice.Exceptions.SoSchemaValidationException.SoSchemaValidationException(System.Exception)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Exceptions
+  syntax:
+    content: public SoSchemaValidationException(Exception ex)
+    parameters:
+    - id: ex
+      type: System.Exception
+    content.vb: Public Sub New(ex As Exception)
+  overload: SuperOffice.Exceptions.SoSchemaValidationException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Exceptions.SoSchemaValidationException.#ctor(System.String,System.String,System.String,System.Exception)
+  commentId: M:SuperOffice.Exceptions.SoSchemaValidationException.#ctor(System.String,System.String,System.String,System.Exception)
+  id: '#ctor(System.String,System.String,System.String,System.Exception)'
+  parent: SuperOffice.Exceptions.SoSchemaValidationException
+  langs:
+  - csharp
+  - vb
+  name: SoSchemaValidationException(String, String, String, Exception)
+  nameWithType: SoSchemaValidationException.SoSchemaValidationException(String, String, String, Exception)
+  fullName: SuperOffice.Exceptions.SoSchemaValidationException.SoSchemaValidationException(System.String, System.String, System.String, System.Exception)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Exceptions
+  syntax:
+    content: public SoSchemaValidationException(string id, string type, string message, Exception ex)
+    parameters:
+    - id: id
+      type: System.String
+    - id: type
+      type: System.String
+    - id: message
+      type: System.String
+    - id: ex
+      type: System.Exception
+    content.vb: Public Sub New(id As String, type As String, message As String, ex As Exception)
+  overload: SuperOffice.Exceptions.SoSchemaValidationException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Exceptions.SoSchemaValidationException.#ctor(System.String,System.String,System.String)
+  commentId: M:SuperOffice.Exceptions.SoSchemaValidationException.#ctor(System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String)'
+  parent: SuperOffice.Exceptions.SoSchemaValidationException
+  langs:
+  - csharp
+  - vb
+  name: SoSchemaValidationException(String, String, String)
+  nameWithType: SoSchemaValidationException.SoSchemaValidationException(String, String, String)
+  fullName: SuperOffice.Exceptions.SoSchemaValidationException.SoSchemaValidationException(System.String, System.String, System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Exceptions
+  syntax:
+    content: public SoSchemaValidationException(string id, string type, string message)
+    parameters:
+    - id: id
+      type: System.String
+    - id: type
+      type: System.String
+    - id: message
+      type: System.String
+    content.vb: Public Sub New(id As String, type As String, message As String)
+  overload: SuperOffice.Exceptions.SoSchemaValidationException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Exceptions.SoSchemaValidationException.Message
+  commentId: P:SuperOffice.Exceptions.SoSchemaValidationException.Message
+  id: Message
+  parent: SuperOffice.Exceptions.SoSchemaValidationException
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: SoSchemaValidationException.Message
+  fullName: SuperOffice.Exceptions.SoSchemaValidationException.Message
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Exceptions
+  syntax:
+    content: public override string Message { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property Message As String
+  overload: SuperOffice.Exceptions.SoSchemaValidationException.Message*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+references:
+- uid: SuperOffice.Exceptions
+  commentId: N:SuperOffice.Exceptions
+  isExternal: true
+  name: SuperOffice.Exceptions
+  nameWithType: SuperOffice.Exceptions
+  fullName: SuperOffice.Exceptions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Exceptions.SoSchemaValidationException.#ctor*
+  commentId: Overload:SuperOffice.Exceptions.SoSchemaValidationException.#ctor
+  isExternal: true
+  name: SoSchemaValidationException
+  nameWithType: SoSchemaValidationException.SoSchemaValidationException
+  fullName: SuperOffice.Exceptions.SoSchemaValidationException.SoSchemaValidationException
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Exceptions.SoSchemaValidationException.Message*
+  commentId: Overload:SuperOffice.Exceptions.SoSchemaValidationException.Message
+  isExternal: true
+  name: Message
+  nameWithType: SoSchemaValidationException.Message
+  fullName: SuperOffice.Exceptions.SoSchemaValidationException.Message

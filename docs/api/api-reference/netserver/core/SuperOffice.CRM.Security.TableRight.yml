@@ -1,0 +1,2127 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Security.TableRight
+  commentId: T:SuperOffice.CRM.Security.TableRight
+  id: TableRight
+  parent: SuperOffice.CRM.Security
+  children:
+  - SuperOffice.CRM.Security.TableRight.#ctor
+  - SuperOffice.CRM.Security.TableRight.#ctor(SuperOffice.Data.ETableRight)
+  - SuperOffice.CRM.Security.TableRight.#ctor(SuperOffice.Data.ETableRight,System.String)
+  - SuperOffice.CRM.Security.TableRight._mask
+  - SuperOffice.CRM.Security.TableRight.Add(SuperOffice.Data.ETableRight,SuperOffice.Data.ETableRight)
+  - SuperOffice.CRM.Security.TableRight.And(SuperOffice.Data.ETableRight,SuperOffice.Data.ETableRight)
+  - SuperOffice.CRM.Security.TableRight.CanDelete(SuperOffice.Data.ETableRight)
+  - SuperOffice.CRM.Security.TableRight.CanDo(SuperOffice.Data.ETableRight)
+  - SuperOffice.CRM.Security.TableRight.CanDoAll(SuperOffice.Data.ETableRight)
+  - SuperOffice.CRM.Security.TableRight.CanInsert(SuperOffice.Data.ETableRight)
+  - SuperOffice.CRM.Security.TableRight.CanRead(SuperOffice.Data.ETableRight)
+  - SuperOffice.CRM.Security.TableRight.CanUpdate(SuperOffice.Data.ETableRight)
+  - SuperOffice.CRM.Security.TableRight.CanUpdateSome(SuperOffice.Data.ETableRight)
+  - SuperOffice.CRM.Security.TableRight.DemandAllRights(SuperOffice.Data.ETableRight)
+  - SuperOffice.CRM.Security.TableRight.DemandRight(SuperOffice.Data.ETableRight)
+  - SuperOffice.CRM.Security.TableRight.HasAll
+  - SuperOffice.CRM.Security.TableRight.HasAllRightBits(SuperOffice.Data.ETableRight,SuperOffice.Data.ETableRight)
+  - SuperOffice.CRM.Security.TableRight.HasDelete
+  - SuperOffice.CRM.Security.TableRight.HasInsert
+  - SuperOffice.CRM.Security.TableRight.HasNone
+  - SuperOffice.CRM.Security.TableRight.HasRead
+  - SuperOffice.CRM.Security.TableRight.HasReadFiltered
+  - SuperOffice.CRM.Security.TableRight.HasSomeRightBits(SuperOffice.Data.ETableRight,SuperOffice.Data.ETableRight)
+  - SuperOffice.CRM.Security.TableRight.HasUpdate
+  - SuperOffice.CRM.Security.TableRight.IgnoreReason
+  - SuperOffice.CRM.Security.TableRight.IsReadFiltered(SuperOffice.Data.ETableRight)
+  - SuperOffice.CRM.Security.TableRight.IsUpdateRestricted
+  - SuperOffice.CRM.Security.TableRight.Mask
+  - SuperOffice.CRM.Security.TableRight.op_BitwiseAnd(SuperOffice.CRM.Security.TableRight,SuperOffice.CRM.Security.TableRight)
+  - SuperOffice.CRM.Security.TableRight.op_BitwiseOr(SuperOffice.CRM.Security.TableRight,SuperOffice.CRM.Security.TableRight)
+  - SuperOffice.CRM.Security.TableRight.Or(SuperOffice.Data.ETableRight,SuperOffice.Data.ETableRight)
+  - SuperOffice.CRM.Security.TableRight.RawAnd(SuperOffice.CRM.Security.TableRight)
+  - SuperOffice.CRM.Security.TableRight.Subtract(SuperOffice.Data.ETableRight,SuperOffice.Data.ETableRight)
+  - SuperOffice.CRM.Security.TableRight.ToString
+  - SuperOffice.CRM.Security.TableRight.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: TableRight
+  nameWithType: TableRight
+  fullName: SuperOffice.CRM.Security.TableRight
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nWraps a table right together with an explanatory reason.\nCode can indicate why access is restricted.\n"
+  remarks: "\nUsually obtained from the SuperOffice.CRM.Security.RightsFactory rather than created directly by the client.\n"
+  syntax:
+    content: 'public class TableRight : GenericRight'
+    content.vb: >-
+      Public Class TableRight
+          Inherits GenericRight
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Security.GenericRight
+  inheritedMembers:
+  - SuperOffice.CRM.Security.GenericRight._reason
+  - SuperOffice.CRM.Security.GenericRight.Reason
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Security.TableRight.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Security.TableRight.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.TableRight)
+  - SuperOffice.CRM.Security.TableRight.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Security.TableRight.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Security.TableRight._mask
+  commentId: F:SuperOffice.CRM.Security.TableRight._mask
+  id: _mask
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: _mask
+  nameWithType: TableRight._mask
+  fullName: SuperOffice.CRM.Security.TableRight._mask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\n\n"
+  syntax:
+    content: protected ETableRight _mask
+    return:
+      type: SuperOffice.Data.ETableRight
+    content.vb: Protected _mask As ETableRight
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Security.TableRight.#ctor
+  commentId: M:SuperOffice.CRM.Security.TableRight.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: TableRight()
+  nameWithType: TableRight.TableRight()
+  fullName: SuperOffice.CRM.Security.TableRight.TableRight()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCreates a blank table right with no rights.\n"
+  syntax:
+    content: public TableRight()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Security.TableRight.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.TableRight.#ctor(SuperOffice.Data.ETableRight)
+  commentId: M:SuperOffice.CRM.Security.TableRight.#ctor(SuperOffice.Data.ETableRight)
+  id: '#ctor(SuperOffice.Data.ETableRight)'
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: TableRight(ETableRight)
+  nameWithType: TableRight.TableRight(ETableRight)
+  fullName: SuperOffice.CRM.Security.TableRight.TableRight(SuperOffice.Data.ETableRight)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCreate a table right with the given set of permissions.\n"
+  syntax:
+    content: public TableRight(ETableRight right)
+    parameters:
+    - id: right
+      type: SuperOffice.Data.ETableRight
+      description: A bitflag of table permissions
+    content.vb: Public Sub New(right As ETableRight)
+  overload: SuperOffice.CRM.Security.TableRight.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.TableRight.#ctor(SuperOffice.Data.ETableRight,System.String)
+  commentId: M:SuperOffice.CRM.Security.TableRight.#ctor(SuperOffice.Data.ETableRight,System.String)
+  id: '#ctor(SuperOffice.Data.ETableRight,System.String)'
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: TableRight(ETableRight, String)
+  nameWithType: TableRight.TableRight(ETableRight, String)
+  fullName: SuperOffice.CRM.Security.TableRight.TableRight(SuperOffice.Data.ETableRight, System.String)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCreate a table right with the given set of permissions and the given reason.\n"
+  syntax:
+    content: public TableRight(ETableRight right, string theReason)
+    parameters:
+    - id: right
+      type: SuperOffice.Data.ETableRight
+      description: Bitflag of table permissions
+    - id: theReason
+      type: System.String
+      description: Description of why permissions are restricted
+    content.vb: Public Sub New(right As ETableRight, theReason As String)
+  overload: SuperOffice.CRM.Security.TableRight.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.TableRight.CanDo(SuperOffice.Data.ETableRight)
+  commentId: M:SuperOffice.CRM.Security.TableRight.CanDo(SuperOffice.Data.ETableRight)
+  id: CanDo(SuperOffice.Data.ETableRight)
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: CanDo(ETableRight)
+  nameWithType: TableRight.CanDo(ETableRight)
+  fullName: SuperOffice.CRM.Security.TableRight.CanDo(SuperOffice.Data.ETableRight)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns true when one or more of the given permissions are available.\n"
+  syntax:
+    content: public bool CanDo(ETableRight right)
+    parameters:
+    - id: right
+      type: SuperOffice.Data.ETableRight
+      description: Bitflag of permissions
+    return:
+      type: System.Boolean
+      description: True when any of the flags are set
+    content.vb: Public Function CanDo(right As ETableRight) As Boolean
+  overload: SuperOffice.CRM.Security.TableRight.CanDo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.TableRight.CanDoAll(SuperOffice.Data.ETableRight)
+  commentId: M:SuperOffice.CRM.Security.TableRight.CanDoAll(SuperOffice.Data.ETableRight)
+  id: CanDoAll(SuperOffice.Data.ETableRight)
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: CanDoAll(ETableRight)
+  nameWithType: TableRight.CanDoAll(ETableRight)
+  fullName: SuperOffice.CRM.Security.TableRight.CanDoAll(SuperOffice.Data.ETableRight)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns true when all the given permissions are available.\n"
+  syntax:
+    content: public bool CanDoAll(ETableRight right)
+    parameters:
+    - id: right
+      type: SuperOffice.Data.ETableRight
+      description: Bitflag of permissions
+    return:
+      type: System.Boolean
+      description: True when all the flags are set
+    content.vb: Public Function CanDoAll(right As ETableRight) As Boolean
+  overload: SuperOffice.CRM.Security.TableRight.CanDoAll*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.TableRight.DemandRight(SuperOffice.Data.ETableRight)
+  commentId: M:SuperOffice.CRM.Security.TableRight.DemandRight(SuperOffice.Data.ETableRight)
+  id: DemandRight(SuperOffice.Data.ETableRight)
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: DemandRight(ETableRight)
+  nameWithType: TableRight.DemandRight(ETableRight)
+  fullName: SuperOffice.CRM.Security.TableRight.DemandRight(SuperOffice.Data.ETableRight)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nTest the permissions and throw a <xref href=\"SuperOffice.Exceptions.SoSentryException\" data-throw-if-not-resolved=\"false\"></xref> if none of the permissions are available.\n<xref href=\"SuperOffice.CRM.Security.TableRight.CanDo(SuperOffice.Data.ETableRight)\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public void DemandRight(ETableRight right)
+    parameters:
+    - id: right
+      type: SuperOffice.Data.ETableRight
+      description: Bitflag of permissions
+    content.vb: Public Sub DemandRight(right As ETableRight)
+  overload: SuperOffice.CRM.Security.TableRight.DemandRight*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.TableRight.DemandAllRights(SuperOffice.Data.ETableRight)
+  commentId: M:SuperOffice.CRM.Security.TableRight.DemandAllRights(SuperOffice.Data.ETableRight)
+  id: DemandAllRights(SuperOffice.Data.ETableRight)
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: DemandAllRights(ETableRight)
+  nameWithType: TableRight.DemandAllRights(ETableRight)
+  fullName: SuperOffice.CRM.Security.TableRight.DemandAllRights(SuperOffice.Data.ETableRight)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nTest the permissions and throw a <xref href=\"SuperOffice.Exceptions.SoSentryException\" data-throw-if-not-resolved=\"false\"></xref> if not all of the permissions are available.\n<xref href=\"SuperOffice.CRM.Security.TableRight.CanDoAll(SuperOffice.Data.ETableRight)\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public void DemandAllRights(ETableRight right)
+    parameters:
+    - id: right
+      type: SuperOffice.Data.ETableRight
+      description: Bitflag of permissions
+    content.vb: Public Sub DemandAllRights(right As ETableRight)
+  overload: SuperOffice.CRM.Security.TableRight.DemandAllRights*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.TableRight.op_BitwiseAnd(SuperOffice.CRM.Security.TableRight,SuperOffice.CRM.Security.TableRight)
+  commentId: M:SuperOffice.CRM.Security.TableRight.op_BitwiseAnd(SuperOffice.CRM.Security.TableRight,SuperOffice.CRM.Security.TableRight)
+  id: op_BitwiseAnd(SuperOffice.CRM.Security.TableRight,SuperOffice.CRM.Security.TableRight)
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: BitwiseAnd(TableRight, TableRight)
+  nameWithType: TableRight.BitwiseAnd(TableRight, TableRight)
+  fullName: SuperOffice.CRM.Security.TableRight.BitwiseAnd(SuperOffice.CRM.Security.TableRight, SuperOffice.CRM.Security.TableRight)
+  type: Operator
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCombine two table-rights into one. Permissions are logically ANDed together, giving us the lowest common denominator results.\n"
+  syntax:
+    content: public static TableRight operator &(TableRight f1, TableRight f2)
+    parameters:
+    - id: f1
+      type: SuperOffice.CRM.Security.TableRight
+    - id: f2
+      type: SuperOffice.CRM.Security.TableRight
+    return:
+      type: SuperOffice.CRM.Security.TableRight
+    content.vb: Public Shared Operator And(f1 As TableRight, f2 As TableRight) As TableRight
+  overload: SuperOffice.CRM.Security.TableRight.op_BitwiseAnd*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Security.TableRight.RawAnd(SuperOffice.CRM.Security.TableRight)
+  commentId: M:SuperOffice.CRM.Security.TableRight.RawAnd(SuperOffice.CRM.Security.TableRight)
+  id: RawAnd(SuperOffice.CRM.Security.TableRight)
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: RawAnd(TableRight)
+  nameWithType: TableRight.RawAnd(TableRight)
+  fullName: SuperOffice.CRM.Security.TableRight.RawAnd(SuperOffice.CRM.Security.TableRight)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public TableRight RawAnd(TableRight right)
+    parameters:
+    - id: right
+      type: SuperOffice.CRM.Security.TableRight
+    return:
+      type: SuperOffice.CRM.Security.TableRight
+    content.vb: Public Function RawAnd(right As TableRight) As TableRight
+  overload: SuperOffice.CRM.Security.TableRight.RawAnd*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.TableRight.op_BitwiseOr(SuperOffice.CRM.Security.TableRight,SuperOffice.CRM.Security.TableRight)
+  commentId: M:SuperOffice.CRM.Security.TableRight.op_BitwiseOr(SuperOffice.CRM.Security.TableRight,SuperOffice.CRM.Security.TableRight)
+  id: op_BitwiseOr(SuperOffice.CRM.Security.TableRight,SuperOffice.CRM.Security.TableRight)
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: BitwiseOr(TableRight, TableRight)
+  nameWithType: TableRight.BitwiseOr(TableRight, TableRight)
+  fullName: SuperOffice.CRM.Security.TableRight.BitwiseOr(SuperOffice.CRM.Security.TableRight, SuperOffice.CRM.Security.TableRight)
+  type: Operator
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCombine two table-rights into one using logical OR. \n"
+  syntax:
+    content: public static TableRight operator |(TableRight f1, TableRight f2)
+    parameters:
+    - id: f1
+      type: SuperOffice.CRM.Security.TableRight
+    - id: f2
+      type: SuperOffice.CRM.Security.TableRight
+    return:
+      type: SuperOffice.CRM.Security.TableRight
+      description: New right with combined mask and reason
+    content.vb: Public Shared Operator Or(f1 As TableRight, f2 As TableRight) As TableRight
+  overload: SuperOffice.CRM.Security.TableRight.op_BitwiseOr*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Security.TableRight.And(SuperOffice.Data.ETableRight,SuperOffice.Data.ETableRight)
+  commentId: M:SuperOffice.CRM.Security.TableRight.And(SuperOffice.Data.ETableRight,SuperOffice.Data.ETableRight)
+  id: And(SuperOffice.Data.ETableRight,SuperOffice.Data.ETableRight)
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: And(ETableRight, ETableRight)
+  nameWithType: TableRight.And(ETableRight, ETableRight)
+  fullName: SuperOffice.CRM.Security.TableRight.And(SuperOffice.Data.ETableRight, SuperOffice.Data.ETableRight)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nPerform a logical And operation between the two rights.\n"
+  remarks: The operation implements the rules required for <xref href="SuperOffice.Data.ETableRight" data-throw-if-not-resolved="false"></xref>.
+  syntax:
+    content: public static ETableRight And(ETableRight r1, ETableRight r2)
+    parameters:
+    - id: r1
+      type: SuperOffice.Data.ETableRight
+      description: First Right
+    - id: r2
+      type: SuperOffice.Data.ETableRight
+      description: Second Right
+    return:
+      type: SuperOffice.Data.ETableRight
+      description: The resulting right
+    content.vb: Public Shared Function And(r1 As ETableRight, r2 As ETableRight) As ETableRight
+  overload: SuperOffice.CRM.Security.TableRight.And*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Security.TableRight.Or(SuperOffice.Data.ETableRight,SuperOffice.Data.ETableRight)
+  commentId: M:SuperOffice.CRM.Security.TableRight.Or(SuperOffice.Data.ETableRight,SuperOffice.Data.ETableRight)
+  id: Or(SuperOffice.Data.ETableRight,SuperOffice.Data.ETableRight)
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: Or(ETableRight, ETableRight)
+  nameWithType: TableRight.Or(ETableRight, ETableRight)
+  fullName: SuperOffice.CRM.Security.TableRight.Or(SuperOffice.Data.ETableRight, SuperOffice.Data.ETableRight)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nPerform a logical Or operation between the two rights.\n"
+  remarks: The operation implements the rules required for <xref href="SuperOffice.Data.ETableRight" data-throw-if-not-resolved="false"></xref>.
+  syntax:
+    content: public static ETableRight Or(ETableRight r1, ETableRight r2)
+    parameters:
+    - id: r1
+      type: SuperOffice.Data.ETableRight
+      description: First Right
+    - id: r2
+      type: SuperOffice.Data.ETableRight
+      description: Second Right
+    return:
+      type: SuperOffice.Data.ETableRight
+      description: The resulting right
+    content.vb: Public Shared Function Or(r1 As ETableRight, r2 As ETableRight) As ETableRight
+  overload: SuperOffice.CRM.Security.TableRight.Or*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Security.TableRight.Add(SuperOffice.Data.ETableRight,SuperOffice.Data.ETableRight)
+  commentId: M:SuperOffice.CRM.Security.TableRight.Add(SuperOffice.Data.ETableRight,SuperOffice.Data.ETableRight)
+  id: Add(SuperOffice.Data.ETableRight,SuperOffice.Data.ETableRight)
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: Add(ETableRight, ETableRight)
+  nameWithType: TableRight.Add(ETableRight, ETableRight)
+  fullName: SuperOffice.CRM.Security.TableRight.Add(SuperOffice.Data.ETableRight, SuperOffice.Data.ETableRight)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nPerform a logical or operation between the two rights.\n"
+  remarks: The operation implements the rules required for <xref href="SuperOffice.Data.ETableRight" data-throw-if-not-resolved="false"></xref>.
+  syntax:
+    content: public static ETableRight Add(ETableRight r1, ETableRight r2)
+    parameters:
+    - id: r1
+      type: SuperOffice.Data.ETableRight
+      description: First Right
+    - id: r2
+      type: SuperOffice.Data.ETableRight
+      description: Second Right
+    return:
+      type: SuperOffice.Data.ETableRight
+      description: The resulting right
+    content.vb: Public Shared Function Add(r1 As ETableRight, r2 As ETableRight) As ETableRight
+  overload: SuperOffice.CRM.Security.TableRight.Add*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Security.TableRight.Subtract(SuperOffice.Data.ETableRight,SuperOffice.Data.ETableRight)
+  commentId: M:SuperOffice.CRM.Security.TableRight.Subtract(SuperOffice.Data.ETableRight,SuperOffice.Data.ETableRight)
+  id: Subtract(SuperOffice.Data.ETableRight,SuperOffice.Data.ETableRight)
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: Subtract(ETableRight, ETableRight)
+  nameWithType: TableRight.Subtract(ETableRight, ETableRight)
+  fullName: SuperOffice.CRM.Security.TableRight.Subtract(SuperOffice.Data.ETableRight, SuperOffice.Data.ETableRight)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nPerform a logical And operation between the two rights.\n"
+  remarks: "\nThe operation implements the rules required for <xref href=\"SuperOffice.Data.ETableRight\" data-throw-if-not-resolved=\"false\"></xref>.\nThis can be logically illustrated as &lt;c>r1 &amp; ~r2&lt;/c>.\n"
+  syntax:
+    content: public static ETableRight Subtract(ETableRight r1, ETableRight r2)
+    parameters:
+    - id: r1
+      type: SuperOffice.Data.ETableRight
+      description: First Right
+    - id: r2
+      type: SuperOffice.Data.ETableRight
+      description: Second Right
+    return:
+      type: SuperOffice.Data.ETableRight
+      description: The resulting right
+    content.vb: Public Shared Function Subtract(r1 As ETableRight, r2 As ETableRight) As ETableRight
+  overload: SuperOffice.CRM.Security.TableRight.Subtract*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Security.TableRight.CanRead(SuperOffice.Data.ETableRight)
+  commentId: M:SuperOffice.CRM.Security.TableRight.CanRead(SuperOffice.Data.ETableRight)
+  id: CanRead(SuperOffice.Data.ETableRight)
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: CanRead(ETableRight)
+  nameWithType: TableRight.CanRead(ETableRight)
+  fullName: SuperOffice.CRM.Security.TableRight.CanRead(SuperOffice.Data.ETableRight)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public static bool CanRead(ETableRight observed)
+    parameters:
+    - id: observed
+      type: SuperOffice.Data.ETableRight
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function CanRead(observed As ETableRight) As Boolean
+  overload: SuperOffice.CRM.Security.TableRight.CanRead*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Security.TableRight.IsReadFiltered(SuperOffice.Data.ETableRight)
+  commentId: M:SuperOffice.CRM.Security.TableRight.IsReadFiltered(SuperOffice.Data.ETableRight)
+  id: IsReadFiltered(SuperOffice.Data.ETableRight)
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: IsReadFiltered(ETableRight)
+  nameWithType: TableRight.IsReadFiltered(ETableRight)
+  fullName: SuperOffice.CRM.Security.TableRight.IsReadFiltered(SuperOffice.Data.ETableRight)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public static bool IsReadFiltered(ETableRight observed)
+    parameters:
+    - id: observed
+      type: SuperOffice.Data.ETableRight
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsReadFiltered(observed As ETableRight) As Boolean
+  overload: SuperOffice.CRM.Security.TableRight.IsReadFiltered*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Security.TableRight.CanInsert(SuperOffice.Data.ETableRight)
+  commentId: M:SuperOffice.CRM.Security.TableRight.CanInsert(SuperOffice.Data.ETableRight)
+  id: CanInsert(SuperOffice.Data.ETableRight)
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: CanInsert(ETableRight)
+  nameWithType: TableRight.CanInsert(ETableRight)
+  fullName: SuperOffice.CRM.Security.TableRight.CanInsert(SuperOffice.Data.ETableRight)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public static bool CanInsert(ETableRight observed)
+    parameters:
+    - id: observed
+      type: SuperOffice.Data.ETableRight
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function CanInsert(observed As ETableRight) As Boolean
+  overload: SuperOffice.CRM.Security.TableRight.CanInsert*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Security.TableRight.CanUpdate(SuperOffice.Data.ETableRight)
+  commentId: M:SuperOffice.CRM.Security.TableRight.CanUpdate(SuperOffice.Data.ETableRight)
+  id: CanUpdate(SuperOffice.Data.ETableRight)
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: CanUpdate(ETableRight)
+  nameWithType: TableRight.CanUpdate(ETableRight)
+  fullName: SuperOffice.CRM.Security.TableRight.CanUpdate(SuperOffice.Data.ETableRight)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public static bool CanUpdate(ETableRight observed)
+    parameters:
+    - id: observed
+      type: SuperOffice.Data.ETableRight
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function CanUpdate(observed As ETableRight) As Boolean
+  overload: SuperOffice.CRM.Security.TableRight.CanUpdate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Security.TableRight.CanUpdateSome(SuperOffice.Data.ETableRight)
+  commentId: M:SuperOffice.CRM.Security.TableRight.CanUpdateSome(SuperOffice.Data.ETableRight)
+  id: CanUpdateSome(SuperOffice.Data.ETableRight)
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: CanUpdateSome(ETableRight)
+  nameWithType: TableRight.CanUpdateSome(ETableRight)
+  fullName: SuperOffice.CRM.Security.TableRight.CanUpdateSome(SuperOffice.Data.ETableRight)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public static bool CanUpdateSome(ETableRight observed)
+    parameters:
+    - id: observed
+      type: SuperOffice.Data.ETableRight
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function CanUpdateSome(observed As ETableRight) As Boolean
+  overload: SuperOffice.CRM.Security.TableRight.CanUpdateSome*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Security.TableRight.CanDelete(SuperOffice.Data.ETableRight)
+  commentId: M:SuperOffice.CRM.Security.TableRight.CanDelete(SuperOffice.Data.ETableRight)
+  id: CanDelete(SuperOffice.Data.ETableRight)
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: CanDelete(ETableRight)
+  nameWithType: TableRight.CanDelete(ETableRight)
+  fullName: SuperOffice.CRM.Security.TableRight.CanDelete(SuperOffice.Data.ETableRight)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public static bool CanDelete(ETableRight observed)
+    parameters:
+    - id: observed
+      type: SuperOffice.Data.ETableRight
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function CanDelete(observed As ETableRight) As Boolean
+  overload: SuperOffice.CRM.Security.TableRight.CanDelete*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Security.TableRight.HasAllRightBits(SuperOffice.Data.ETableRight,SuperOffice.Data.ETableRight)
+  commentId: M:SuperOffice.CRM.Security.TableRight.HasAllRightBits(SuperOffice.Data.ETableRight,SuperOffice.Data.ETableRight)
+  id: HasAllRightBits(SuperOffice.Data.ETableRight,SuperOffice.Data.ETableRight)
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: HasAllRightBits(ETableRight, ETableRight)
+  nameWithType: TableRight.HasAllRightBits(ETableRight, ETableRight)
+  fullName: SuperOffice.CRM.Security.TableRight.HasAllRightBits(SuperOffice.Data.ETableRight, SuperOffice.Data.ETableRight)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public static bool HasAllRightBits(ETableRight observed, ETableRight required)
+    parameters:
+    - id: observed
+      type: SuperOffice.Data.ETableRight
+    - id: required
+      type: SuperOffice.Data.ETableRight
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function HasAllRightBits(observed As ETableRight, required As ETableRight) As Boolean
+  overload: SuperOffice.CRM.Security.TableRight.HasAllRightBits*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Security.TableRight.HasSomeRightBits(SuperOffice.Data.ETableRight,SuperOffice.Data.ETableRight)
+  commentId: M:SuperOffice.CRM.Security.TableRight.HasSomeRightBits(SuperOffice.Data.ETableRight,SuperOffice.Data.ETableRight)
+  id: HasSomeRightBits(SuperOffice.Data.ETableRight,SuperOffice.Data.ETableRight)
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: HasSomeRightBits(ETableRight, ETableRight)
+  nameWithType: TableRight.HasSomeRightBits(ETableRight, ETableRight)
+  fullName: SuperOffice.CRM.Security.TableRight.HasSomeRightBits(SuperOffice.Data.ETableRight, SuperOffice.Data.ETableRight)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public static bool HasSomeRightBits(ETableRight observed, ETableRight required)
+    parameters:
+    - id: observed
+      type: SuperOffice.Data.ETableRight
+    - id: required
+      type: SuperOffice.Data.ETableRight
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function HasSomeRightBits(observed As ETableRight, required As ETableRight) As Boolean
+  overload: SuperOffice.CRM.Security.TableRight.HasSomeRightBits*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Security.TableRight.ToString
+  commentId: M:SuperOffice.CRM.Security.TableRight.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TableRight.ToString()
+  fullName: SuperOffice.CRM.Security.TableRight.ToString()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.Security.TableRight.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Security.TableRight.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Security.TableRight.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: TableRight.ToString(String)
+  fullName: SuperOffice.CRM.Security.TableRight.ToString(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Security.TableRight.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.TableRight.Mask
+  commentId: P:SuperOffice.CRM.Security.TableRight.Mask
+  id: Mask
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: Mask
+  nameWithType: TableRight.Mask
+  fullName: SuperOffice.CRM.Security.TableRight.Mask
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns the bitflag of permissions.\n"
+  syntax:
+    content: public ETableRight Mask { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.ETableRight
+    content.vb: Public ReadOnly Property Mask As ETableRight
+  overload: SuperOffice.CRM.Security.TableRight.Mask*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.TableRight.HasAll
+  commentId: P:SuperOffice.CRM.Security.TableRight.HasAll
+  id: HasAll
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: HasAll
+  nameWithType: TableRight.HasAll
+  fullName: SuperOffice.CRM.Security.TableRight.HasAll
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns true when all of Read, Insert, Delete, Update permissions are available.\nFilter and RestrictedUpdate permissions are ignored.\n"
+  syntax:
+    content: public override bool HasAll { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property HasAll As Boolean
+  overridden: SuperOffice.CRM.Security.GenericRight.HasAll
+  overload: SuperOffice.CRM.Security.TableRight.HasAll*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.TableRight.IgnoreReason
+  commentId: P:SuperOffice.CRM.Security.TableRight.IgnoreReason
+  id: IgnoreReason
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: IgnoreReason
+  nameWithType: TableRight.IgnoreReason
+  fullName: SuperOffice.CRM.Security.TableRight.IgnoreReason
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: protected override bool IgnoreReason { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Protected Overrides ReadOnly Property IgnoreReason As Boolean
+  overridden: SuperOffice.CRM.Security.GenericRight.IgnoreReason
+  overload: SuperOffice.CRM.Security.TableRight.IgnoreReason*
+  modifiers.csharp:
+  - protected
+  - override
+  - get
+  modifiers.vb:
+  - Protected
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.TableRight.HasNone
+  commentId: P:SuperOffice.CRM.Security.TableRight.HasNone
+  id: HasNone
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: HasNone
+  nameWithType: TableRight.HasNone
+  fullName: SuperOffice.CRM.Security.TableRight.HasNone
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns true when no permissions are available. Filter or RestrictedUpdate permissions mean that HasNone would return false.\n"
+  syntax:
+    content: public override bool HasNone { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property HasNone As Boolean
+  overridden: SuperOffice.CRM.Security.GenericRight.HasNone
+  overload: SuperOffice.CRM.Security.TableRight.HasNone*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.TableRight.HasRead
+  commentId: P:SuperOffice.CRM.Security.TableRight.HasRead
+  id: HasRead
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: HasRead
+  nameWithType: TableRight.HasRead
+  fullName: SuperOffice.CRM.Security.TableRight.HasRead
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns true if the ETableRight.Read or ETableRight.FilteredRead permission is active.\n"
+  syntax:
+    content: public bool HasRead { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasRead As Boolean
+  overload: SuperOffice.CRM.Security.TableRight.HasRead*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.TableRight.HasReadFiltered
+  commentId: P:SuperOffice.CRM.Security.TableRight.HasReadFiltered
+  id: HasReadFiltered
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: HasReadFiltered
+  nameWithType: TableRight.HasReadFiltered
+  fullName: SuperOffice.CRM.Security.TableRight.HasReadFiltered
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public bool HasReadFiltered { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasReadFiltered As Boolean
+  overload: SuperOffice.CRM.Security.TableRight.HasReadFiltered*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.TableRight.HasInsert
+  commentId: P:SuperOffice.CRM.Security.TableRight.HasInsert
+  id: HasInsert
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: HasInsert
+  nameWithType: TableRight.HasInsert
+  fullName: SuperOffice.CRM.Security.TableRight.HasInsert
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns true if the ETableRight.Insert permission is active.\n"
+  syntax:
+    content: public bool HasInsert { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasInsert As Boolean
+  overload: SuperOffice.CRM.Security.TableRight.HasInsert*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.TableRight.HasUpdate
+  commentId: P:SuperOffice.CRM.Security.TableRight.HasUpdate
+  id: HasUpdate
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: HasUpdate
+  nameWithType: TableRight.HasUpdate
+  fullName: SuperOffice.CRM.Security.TableRight.HasUpdate
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns true if the ETableRight.Update or ETableRight.RestrictedUpdate permission is active.\n"
+  syntax:
+    content: public bool HasUpdate { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasUpdate As Boolean
+  overload: SuperOffice.CRM.Security.TableRight.HasUpdate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.TableRight.IsUpdateRestricted
+  commentId: P:SuperOffice.CRM.Security.TableRight.IsUpdateRestricted
+  id: IsUpdateRestricted
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: IsUpdateRestricted
+  nameWithType: TableRight.IsUpdateRestricted
+  fullName: SuperOffice.CRM.Security.TableRight.IsUpdateRestricted
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public bool IsUpdateRestricted { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsUpdateRestricted As Boolean
+  overload: SuperOffice.CRM.Security.TableRight.IsUpdateRestricted*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.TableRight.HasDelete
+  commentId: P:SuperOffice.CRM.Security.TableRight.HasDelete
+  id: HasDelete
+  parent: SuperOffice.CRM.Security.TableRight
+  langs:
+  - csharp
+  - vb
+  name: HasDelete
+  nameWithType: TableRight.HasDelete
+  fullName: SuperOffice.CRM.Security.TableRight.HasDelete
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns true if the ETableRight.Delete permission is active.\n"
+  syntax:
+    content: public bool HasDelete { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasDelete As Boolean
+  overload: SuperOffice.CRM.Security.TableRight.HasDelete*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Security
+  commentId: N:SuperOffice.CRM.Security
+  isExternal: true
+  name: SuperOffice.CRM.Security
+  nameWithType: SuperOffice.CRM.Security
+  fullName: SuperOffice.CRM.Security
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Security.GenericRight
+  commentId: T:SuperOffice.CRM.Security.GenericRight
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: GenericRight
+  nameWithType: GenericRight
+  fullName: SuperOffice.CRM.Security.GenericRight
+- uid: SuperOffice.CRM.Security.GenericRight._reason
+  commentId: F:SuperOffice.CRM.Security.GenericRight._reason
+  parent: SuperOffice.CRM.Security.GenericRight
+  isExternal: true
+  name: _reason
+  nameWithType: GenericRight._reason
+  fullName: SuperOffice.CRM.Security.GenericRight._reason
+- uid: SuperOffice.CRM.Security.GenericRight.Reason
+  commentId: P:SuperOffice.CRM.Security.GenericRight.Reason
+  parent: SuperOffice.CRM.Security.GenericRight
+  isExternal: true
+  name: Reason
+  nameWithType: GenericRight.Reason
+  fullName: SuperOffice.CRM.Security.GenericRight.Reason
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.TableRight.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TableRight, To>()
+  nameWithType: EnumUtil.MapEnums<TableRight, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.TableRight, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TableRight, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.TableRight, To)()
+  name.vb: MapEnums(Of TableRight, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TableRight, To>
+    nameWithType: EnumUtil.MapEnums<TableRight, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.TableRight, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TableRight, To)
+    nameWithType: EnumUtil.MapEnums(Of TableRight, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.TableRight, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.TableRight.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.TableRight)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<TableRight>(TableRight)
+  nameWithType: ObjectExtensions.AssignByReflection<TableRight>(TableRight)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Security.TableRight>(SuperOffice.CRM.Security.TableRight)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TableRight)(TableRight)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Security.TableRight)(SuperOffice.CRM.Security.TableRight)
+  name.vb: AssignByReflection(Of TableRight)(TableRight)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<TableRight>
+    nameWithType: ObjectExtensions.AssignByReflection<TableRight>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Security.TableRight>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Security.TableRight
+    name: TableRight
+    nameWithType: TableRight
+    fullName: SuperOffice.CRM.Security.TableRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of TableRight)
+    nameWithType: ObjectExtensions.AssignByReflection(Of TableRight)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Security.TableRight)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Security.TableRight
+    name: TableRight
+    nameWithType: TableRight
+    fullName: SuperOffice.CRM.Security.TableRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.TableRight.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<TableRight>()
+  nameWithType: ObjectExtensions.GraphCopy<TableRight>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Security.TableRight>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TableRight)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Security.TableRight)()
+  name.vb: GraphCopy(Of TableRight)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<TableRight>
+    nameWithType: ObjectExtensions.GraphCopy<TableRight>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Security.TableRight>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of TableRight)
+    nameWithType: ObjectExtensions.GraphCopy(Of TableRight)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Security.TableRight)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.TableRight.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TableRight, To>()
+  nameWithType: Converters.MapEnums<TableRight, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.TableRight, To>()
+  nameWithType.vb: Converters.MapEnums(Of TableRight, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.TableRight, To)()
+  name.vb: MapEnums(Of TableRight, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TableRight, To>
+    nameWithType: Converters.MapEnums<TableRight, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.TableRight, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TableRight, To)
+    nameWithType: Converters.MapEnums(Of TableRight, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.TableRight, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.ETableRight
+  commentId: T:SuperOffice.Data.ETableRight
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ETableRight
+  nameWithType: ETableRight
+  fullName: SuperOffice.Data.ETableRight
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Security.TableRight.#ctor*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.#ctor
+  isExternal: true
+  name: TableRight
+  nameWithType: TableRight.TableRight
+  fullName: SuperOffice.CRM.Security.TableRight.TableRight
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Security.TableRight.CanDo*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.CanDo
+  isExternal: true
+  name: CanDo
+  nameWithType: TableRight.CanDo
+  fullName: SuperOffice.CRM.Security.TableRight.CanDo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Security.TableRight.CanDoAll*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.CanDoAll
+  isExternal: true
+  name: CanDoAll
+  nameWithType: TableRight.CanDoAll
+  fullName: SuperOffice.CRM.Security.TableRight.CanDoAll
+- uid: SuperOffice.CRM.Security.TableRight.DemandRight*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.DemandRight
+  isExternal: true
+  name: DemandRight
+  nameWithType: TableRight.DemandRight
+  fullName: SuperOffice.CRM.Security.TableRight.DemandRight
+- uid: SuperOffice.CRM.Security.TableRight.DemandAllRights*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.DemandAllRights
+  isExternal: true
+  name: DemandAllRights
+  nameWithType: TableRight.DemandAllRights
+  fullName: SuperOffice.CRM.Security.TableRight.DemandAllRights
+- uid: SuperOffice.CRM.Security.TableRight.op_BitwiseAnd*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.op_BitwiseAnd
+  isExternal: true
+  name: BitwiseAnd
+  nameWithType: TableRight.BitwiseAnd
+  fullName: SuperOffice.CRM.Security.TableRight.BitwiseAnd
+- uid: SuperOffice.CRM.Security.TableRight
+  commentId: T:SuperOffice.CRM.Security.TableRight
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: TableRight
+  nameWithType: TableRight
+  fullName: SuperOffice.CRM.Security.TableRight
+- uid: SuperOffice.CRM.Security.TableRight.RawAnd*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.RawAnd
+  isExternal: true
+  name: RawAnd
+  nameWithType: TableRight.RawAnd
+  fullName: SuperOffice.CRM.Security.TableRight.RawAnd
+- uid: SuperOffice.CRM.Security.TableRight.op_BitwiseOr*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.op_BitwiseOr
+  isExternal: true
+  name: BitwiseOr
+  nameWithType: TableRight.BitwiseOr
+  fullName: SuperOffice.CRM.Security.TableRight.BitwiseOr
+- uid: SuperOffice.CRM.Security.TableRight.And*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.And
+  isExternal: true
+  name: And
+  nameWithType: TableRight.And
+  fullName: SuperOffice.CRM.Security.TableRight.And
+- uid: SuperOffice.CRM.Security.TableRight.Or*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.Or
+  isExternal: true
+  name: Or
+  nameWithType: TableRight.Or
+  fullName: SuperOffice.CRM.Security.TableRight.Or
+- uid: SuperOffice.CRM.Security.TableRight.Add*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.Add
+  isExternal: true
+  name: Add
+  nameWithType: TableRight.Add
+  fullName: SuperOffice.CRM.Security.TableRight.Add
+- uid: SuperOffice.CRM.Security.TableRight.Subtract*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.Subtract
+  isExternal: true
+  name: Subtract
+  nameWithType: TableRight.Subtract
+  fullName: SuperOffice.CRM.Security.TableRight.Subtract
+- uid: SuperOffice.CRM.Security.TableRight.CanRead*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.CanRead
+  isExternal: true
+  name: CanRead
+  nameWithType: TableRight.CanRead
+  fullName: SuperOffice.CRM.Security.TableRight.CanRead
+- uid: SuperOffice.CRM.Security.TableRight.IsReadFiltered*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.IsReadFiltered
+  isExternal: true
+  name: IsReadFiltered
+  nameWithType: TableRight.IsReadFiltered
+  fullName: SuperOffice.CRM.Security.TableRight.IsReadFiltered
+- uid: SuperOffice.CRM.Security.TableRight.CanInsert*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.CanInsert
+  isExternal: true
+  name: CanInsert
+  nameWithType: TableRight.CanInsert
+  fullName: SuperOffice.CRM.Security.TableRight.CanInsert
+- uid: SuperOffice.CRM.Security.TableRight.CanUpdate*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.CanUpdate
+  isExternal: true
+  name: CanUpdate
+  nameWithType: TableRight.CanUpdate
+  fullName: SuperOffice.CRM.Security.TableRight.CanUpdate
+- uid: SuperOffice.CRM.Security.TableRight.CanUpdateSome*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.CanUpdateSome
+  isExternal: true
+  name: CanUpdateSome
+  nameWithType: TableRight.CanUpdateSome
+  fullName: SuperOffice.CRM.Security.TableRight.CanUpdateSome
+- uid: SuperOffice.CRM.Security.TableRight.CanDelete*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.CanDelete
+  isExternal: true
+  name: CanDelete
+  nameWithType: TableRight.CanDelete
+  fullName: SuperOffice.CRM.Security.TableRight.CanDelete
+- uid: SuperOffice.CRM.Security.TableRight.HasAllRightBits*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.HasAllRightBits
+  isExternal: true
+  name: HasAllRightBits
+  nameWithType: TableRight.HasAllRightBits
+  fullName: SuperOffice.CRM.Security.TableRight.HasAllRightBits
+- uid: SuperOffice.CRM.Security.TableRight.HasSomeRightBits*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.HasSomeRightBits
+  isExternal: true
+  name: HasSomeRightBits
+  nameWithType: TableRight.HasSomeRightBits
+  fullName: SuperOffice.CRM.Security.TableRight.HasSomeRightBits
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.TableRight.ToString*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: TableRight.ToString
+  fullName: SuperOffice.CRM.Security.TableRight.ToString
+- uid: SuperOffice.CRM.Security.TableRight.Mask*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.Mask
+  isExternal: true
+  name: Mask
+  nameWithType: TableRight.Mask
+  fullName: SuperOffice.CRM.Security.TableRight.Mask
+- uid: SuperOffice.CRM.Security.GenericRight.HasAll
+  commentId: P:SuperOffice.CRM.Security.GenericRight.HasAll
+  parent: SuperOffice.CRM.Security.GenericRight
+  isExternal: true
+  name: HasAll
+  nameWithType: GenericRight.HasAll
+  fullName: SuperOffice.CRM.Security.GenericRight.HasAll
+- uid: SuperOffice.CRM.Security.TableRight.HasAll*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.HasAll
+  isExternal: true
+  name: HasAll
+  nameWithType: TableRight.HasAll
+  fullName: SuperOffice.CRM.Security.TableRight.HasAll
+- uid: SuperOffice.CRM.Security.GenericRight.IgnoreReason
+  commentId: P:SuperOffice.CRM.Security.GenericRight.IgnoreReason
+  parent: SuperOffice.CRM.Security.GenericRight
+  isExternal: true
+  name: IgnoreReason
+  nameWithType: GenericRight.IgnoreReason
+  fullName: SuperOffice.CRM.Security.GenericRight.IgnoreReason
+- uid: SuperOffice.CRM.Security.TableRight.IgnoreReason*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.IgnoreReason
+  isExternal: true
+  name: IgnoreReason
+  nameWithType: TableRight.IgnoreReason
+  fullName: SuperOffice.CRM.Security.TableRight.IgnoreReason
+- uid: SuperOffice.CRM.Security.GenericRight.HasNone
+  commentId: P:SuperOffice.CRM.Security.GenericRight.HasNone
+  parent: SuperOffice.CRM.Security.GenericRight
+  isExternal: true
+  name: HasNone
+  nameWithType: GenericRight.HasNone
+  fullName: SuperOffice.CRM.Security.GenericRight.HasNone
+- uid: SuperOffice.CRM.Security.TableRight.HasNone*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.HasNone
+  isExternal: true
+  name: HasNone
+  nameWithType: TableRight.HasNone
+  fullName: SuperOffice.CRM.Security.TableRight.HasNone
+- uid: SuperOffice.CRM.Security.TableRight.HasRead*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.HasRead
+  isExternal: true
+  name: HasRead
+  nameWithType: TableRight.HasRead
+  fullName: SuperOffice.CRM.Security.TableRight.HasRead
+- uid: SuperOffice.CRM.Security.TableRight.HasReadFiltered*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.HasReadFiltered
+  isExternal: true
+  name: HasReadFiltered
+  nameWithType: TableRight.HasReadFiltered
+  fullName: SuperOffice.CRM.Security.TableRight.HasReadFiltered
+- uid: SuperOffice.CRM.Security.TableRight.HasInsert*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.HasInsert
+  isExternal: true
+  name: HasInsert
+  nameWithType: TableRight.HasInsert
+  fullName: SuperOffice.CRM.Security.TableRight.HasInsert
+- uid: SuperOffice.CRM.Security.TableRight.HasUpdate*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.HasUpdate
+  isExternal: true
+  name: HasUpdate
+  nameWithType: TableRight.HasUpdate
+  fullName: SuperOffice.CRM.Security.TableRight.HasUpdate
+- uid: SuperOffice.CRM.Security.TableRight.IsUpdateRestricted*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.IsUpdateRestricted
+  isExternal: true
+  name: IsUpdateRestricted
+  nameWithType: TableRight.IsUpdateRestricted
+  fullName: SuperOffice.CRM.Security.TableRight.IsUpdateRestricted
+- uid: SuperOffice.CRM.Security.TableRight.HasDelete*
+  commentId: Overload:SuperOffice.CRM.Security.TableRight.HasDelete
+  isExternal: true
+  name: HasDelete
+  nameWithType: TableRight.HasDelete
+  fullName: SuperOffice.CRM.Security.TableRight.HasDelete

@@ -1,0 +1,620 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.DateTimeSearchType
+  commentId: T:SuperOffice.Util.DateTimeSearchType
+  id: DateTimeSearchType
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.DateTimeSearchType.Day
+  - SuperOffice.Util.DateTimeSearchType.Exact
+  - SuperOffice.Util.DateTimeSearchType.HalfYear
+  - SuperOffice.Util.DateTimeSearchType.Month
+  - SuperOffice.Util.DateTimeSearchType.None
+  - SuperOffice.Util.DateTimeSearchType.Quarter
+  - SuperOffice.Util.DateTimeSearchType.Week
+  - SuperOffice.Util.DateTimeSearchType.Year
+  langs:
+  - csharp
+  - vb
+  name: DateTimeSearchType
+  nameWithType: DateTimeSearchType
+  fullName: SuperOffice.Util.DateTimeSearchType
+  type: Enum
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public enum DateTimeSearchType
+    content.vb: Public Enum DateTimeSearchType
+  extensionMethods:
+  - SuperOffice.Util.DateTimeSearchType.EnumUtil.MapEnums``2
+  - SuperOffice.Util.DateTimeSearchType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.DateTimeSearchType)
+  - SuperOffice.Util.DateTimeSearchType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Util.DateTimeSearchType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Util.DateTimeSearchType.None
+  commentId: F:SuperOffice.Util.DateTimeSearchType.None
+  id: None
+  parent: SuperOffice.Util.DateTimeSearchType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DateTimeSearchType.None
+  fullName: SuperOffice.Util.DateTimeSearchType.None
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nNone will give the parameter between minimum and max.\n"
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.Util.DateTimeSearchType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.DateTimeSearchType.Exact
+  commentId: F:SuperOffice.Util.DateTimeSearchType.Exact
+  id: Exact
+  parent: SuperOffice.Util.DateTimeSearchType
+  langs:
+  - csharp
+  - vb
+  name: Exact
+  nameWithType: DateTimeSearchType.Exact
+  fullName: SuperOffice.Util.DateTimeSearchType.Exact
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nExact will give you a parameter that matches System.DateTime.Now.\n"
+  syntax:
+    content: Exact = 1
+    return:
+      type: SuperOffice.Util.DateTimeSearchType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.DateTimeSearchType.Day
+  commentId: F:SuperOffice.Util.DateTimeSearchType.Day
+  id: Day
+  parent: SuperOffice.Util.DateTimeSearchType
+  langs:
+  - csharp
+  - vb
+  name: Day
+  nameWithType: DateTimeSearchType.Day
+  fullName: SuperOffice.Util.DateTimeSearchType.Day
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nDay will give you parameters between start of the current day to end of the current day.\n"
+  syntax:
+    content: Day = 2
+    return:
+      type: SuperOffice.Util.DateTimeSearchType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.DateTimeSearchType.Week
+  commentId: F:SuperOffice.Util.DateTimeSearchType.Week
+  id: Week
+  parent: SuperOffice.Util.DateTimeSearchType
+  langs:
+  - csharp
+  - vb
+  name: Week
+  nameWithType: DateTimeSearchType.Week
+  fullName: SuperOffice.Util.DateTimeSearchType.Week
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nWeek will give you parameters between start of the current week (Monday) to end of the current week (Sunday).\n"
+  syntax:
+    content: Week = 3
+    return:
+      type: SuperOffice.Util.DateTimeSearchType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.DateTimeSearchType.Month
+  commentId: F:SuperOffice.Util.DateTimeSearchType.Month
+  id: Month
+  parent: SuperOffice.Util.DateTimeSearchType
+  langs:
+  - csharp
+  - vb
+  name: Month
+  nameWithType: DateTimeSearchType.Month
+  fullName: SuperOffice.Util.DateTimeSearchType.Month
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nMonth will give you parameters between start of the current month to the end of the current month.\n"
+  syntax:
+    content: Month = 4
+    return:
+      type: SuperOffice.Util.DateTimeSearchType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.DateTimeSearchType.Quarter
+  commentId: F:SuperOffice.Util.DateTimeSearchType.Quarter
+  id: Quarter
+  parent: SuperOffice.Util.DateTimeSearchType
+  langs:
+  - csharp
+  - vb
+  name: Quarter
+  nameWithType: DateTimeSearchType.Quarter
+  fullName: SuperOffice.Util.DateTimeSearchType.Quarter
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nQuarter will give you parameters between start of the current quarter to the end of the current quarter.\n"
+  syntax:
+    content: Quarter = 5
+    return:
+      type: SuperOffice.Util.DateTimeSearchType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.DateTimeSearchType.HalfYear
+  commentId: F:SuperOffice.Util.DateTimeSearchType.HalfYear
+  id: HalfYear
+  parent: SuperOffice.Util.DateTimeSearchType
+  langs:
+  - csharp
+  - vb
+  name: HalfYear
+  nameWithType: DateTimeSearchType.HalfYear
+  fullName: SuperOffice.Util.DateTimeSearchType.HalfYear
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nHalfYear will give you parameters between start of the current half year to the end of the current half year.\n"
+  syntax:
+    content: HalfYear = 6
+    return:
+      type: SuperOffice.Util.DateTimeSearchType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.DateTimeSearchType.Year
+  commentId: F:SuperOffice.Util.DateTimeSearchType.Year
+  id: Year
+  parent: SuperOffice.Util.DateTimeSearchType
+  langs:
+  - csharp
+  - vb
+  name: Year
+  nameWithType: DateTimeSearchType.Year
+  fullName: SuperOffice.Util.DateTimeSearchType.Year
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nYear will give you parameters between start of the current Year to the end of the current Year.\n"
+  syntax:
+    content: Year = 7
+    return:
+      type: SuperOffice.Util.DateTimeSearchType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.Util.DateTimeSearchType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<DateTimeSearchType, To>()
+  nameWithType: EnumUtil.MapEnums<DateTimeSearchType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.DateTimeSearchType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DateTimeSearchType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.DateTimeSearchType, To)()
+  name.vb: MapEnums(Of DateTimeSearchType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DateTimeSearchType, To>
+    nameWithType: EnumUtil.MapEnums<DateTimeSearchType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.DateTimeSearchType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DateTimeSearchType, To)
+    nameWithType: EnumUtil.MapEnums(Of DateTimeSearchType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.DateTimeSearchType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.DateTimeSearchType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.DateTimeSearchType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<DateTimeSearchType>(DateTimeSearchType)
+  nameWithType: ObjectExtensions.AssignByReflection<DateTimeSearchType>(DateTimeSearchType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.DateTimeSearchType>(SuperOffice.Util.DateTimeSearchType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DateTimeSearchType)(DateTimeSearchType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.DateTimeSearchType)(SuperOffice.Util.DateTimeSearchType)
+  name.vb: AssignByReflection(Of DateTimeSearchType)(DateTimeSearchType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<DateTimeSearchType>
+    nameWithType: ObjectExtensions.AssignByReflection<DateTimeSearchType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.DateTimeSearchType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Util.DateTimeSearchType
+    name: DateTimeSearchType
+    nameWithType: DateTimeSearchType
+    fullName: SuperOffice.Util.DateTimeSearchType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of DateTimeSearchType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of DateTimeSearchType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.DateTimeSearchType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Util.DateTimeSearchType
+    name: DateTimeSearchType
+    nameWithType: DateTimeSearchType
+    fullName: SuperOffice.Util.DateTimeSearchType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.DateTimeSearchType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<DateTimeSearchType>()
+  nameWithType: ObjectExtensions.GraphCopy<DateTimeSearchType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.DateTimeSearchType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of DateTimeSearchType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.DateTimeSearchType)()
+  name.vb: GraphCopy(Of DateTimeSearchType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<DateTimeSearchType>
+    nameWithType: ObjectExtensions.GraphCopy<DateTimeSearchType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.DateTimeSearchType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of DateTimeSearchType)
+    nameWithType: ObjectExtensions.GraphCopy(Of DateTimeSearchType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.DateTimeSearchType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.DateTimeSearchType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<DateTimeSearchType, To>()
+  nameWithType: Converters.MapEnums<DateTimeSearchType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.DateTimeSearchType, To>()
+  nameWithType.vb: Converters.MapEnums(Of DateTimeSearchType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.DateTimeSearchType, To)()
+  name.vb: MapEnums(Of DateTimeSearchType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DateTimeSearchType, To>
+    nameWithType: Converters.MapEnums<DateTimeSearchType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.DateTimeSearchType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DateTimeSearchType, To)
+    nameWithType: Converters.MapEnums(Of DateTimeSearchType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.DateTimeSearchType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Util.DateTimeSearchType
+  commentId: T:SuperOffice.Util.DateTimeSearchType
+  parent: SuperOffice.Util
+  isExternal: true
+  name: DateTimeSearchType
+  nameWithType: DateTimeSearchType
+  fullName: SuperOffice.Util.DateTimeSearchType

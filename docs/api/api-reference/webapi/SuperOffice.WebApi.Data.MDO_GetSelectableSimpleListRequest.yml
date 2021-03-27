@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.MDO_GetSelectableSimpleListRequest
+  commentId: T:SuperOffice.WebApi.Data.MDO_GetSelectableSimpleListRequest
+  id: MDO_GetSelectableSimpleListRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.MDO_GetSelectableSimpleListRequest.#ctor
+  - SuperOffice.WebApi.Data.MDO_GetSelectableSimpleListRequest.Name
+  langs:
+  - csharp
+  - vb
+  name: MDO_GetSelectableSimpleListRequest
+  nameWithType: MDO_GetSelectableSimpleListRequest
+  fullName: SuperOffice.WebApi.Data.MDO_GetSelectableSimpleListRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class MDO_GetSelectableSimpleListRequest : Object'
+    content.vb: >-
+      Public Class MDO_GetSelectableSimpleListRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.MDO_GetSelectableSimpleListRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.MDO_GetSelectableSimpleListRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.MDO_GetSelectableSimpleListRequest
+  langs:
+  - csharp
+  - vb
+  name: MDO_GetSelectableSimpleListRequest()
+  nameWithType: MDO_GetSelectableSimpleListRequest.MDO_GetSelectableSimpleListRequest()
+  fullName: SuperOffice.WebApi.Data.MDO_GetSelectableSimpleListRequest.MDO_GetSelectableSimpleListRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public MDO_GetSelectableSimpleListRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.MDO_GetSelectableSimpleListRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MDO_GetSelectableSimpleListRequest.Name
+  commentId: P:SuperOffice.WebApi.Data.MDO_GetSelectableSimpleListRequest.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.MDO_GetSelectableSimpleListRequest
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: MDO_GetSelectableSimpleListRequest.Name
+  fullName: SuperOffice.WebApi.Data.MDO_GetSelectableSimpleListRequest.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.WebApi.Data.MDO_GetSelectableSimpleListRequest.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.MDO_GetSelectableSimpleListRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_GetSelectableSimpleListRequest.#ctor
+  isExternal: true
+  name: MDO_GetSelectableSimpleListRequest
+  nameWithType: MDO_GetSelectableSimpleListRequest.MDO_GetSelectableSimpleListRequest
+  fullName: SuperOffice.WebApi.Data.MDO_GetSelectableSimpleListRequest.MDO_GetSelectableSimpleListRequest
+- uid: SuperOffice.WebApi.Data.MDO_GetSelectableSimpleListRequest.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_GetSelectableSimpleListRequest.Name
+  isExternal: true
+  name: Name
+  nameWithType: MDO_GetSelectableSimpleListRequest.Name
+  fullName: SuperOffice.WebApi.Data.MDO_GetSelectableSimpleListRequest.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

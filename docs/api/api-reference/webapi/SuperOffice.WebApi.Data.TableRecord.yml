@@ -1,0 +1,168 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TableRecord
+  commentId: T:SuperOffice.WebApi.Data.TableRecord
+  id: TableRecord
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TableRecord.#ctor
+  - SuperOffice.WebApi.Data.TableRecord.Values
+  langs:
+  - csharp
+  - vb
+  name: TableRecord
+  nameWithType: TableRecord
+  fullName: SuperOffice.WebApi.Data.TableRecord
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for TableRecord.\nThe extra table entity contains meta data for an extra table (not implemented yet)    \n"
+  syntax:
+    content: 'public class TableRecord : Carrier'
+    content.vb: >-
+      Public Class TableRecord
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DatabaseTableAgent
+    commentId: T:SuperOffice.WebApi.Agents.DatabaseTableAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TableRecord.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TableRecord.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TableRecord
+  langs:
+  - csharp
+  - vb
+  name: TableRecord()
+  nameWithType: TableRecord.TableRecord()
+  fullName: SuperOffice.WebApi.Data.TableRecord.TableRecord()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public TableRecord()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TableRecord.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TableRecord.Values
+  commentId: P:SuperOffice.WebApi.Data.TableRecord.Values
+  id: Values
+  parent: SuperOffice.WebApi.Data.TableRecord
+  langs:
+  - csharp
+  - vb
+  name: Values
+  nameWithType: TableRecord.Values
+  fullName: SuperOffice.WebApi.Data.TableRecord.Values
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nValues for the row, where the first string is the column name (e.g. x_number), and the second string is the value formatted as a DB-value, e.g. [I:42]\n"
+  syntax:
+    content: public virtual StringDictionary Values { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StringDictionary
+    content.vb: Public Overridable Property Values As StringDictionary
+  overload: SuperOffice.WebApi.Data.TableRecord.Values*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.DatabaseTableAgent
+  commentId: T:SuperOffice.WebApi.Agents.DatabaseTableAgent
+  isExternal: true
+  name: DatabaseTableAgent
+  nameWithType: DatabaseTableAgent
+  fullName: SuperOffice.WebApi.Agents.DatabaseTableAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TableRecord.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TableRecord.#ctor
+  isExternal: true
+  name: TableRecord
+  nameWithType: TableRecord.TableRecord
+  fullName: SuperOffice.WebApi.Data.TableRecord.TableRecord
+- uid: SuperOffice.WebApi.Data.TableRecord.Values*
+  commentId: Overload:SuperOffice.WebApi.Data.TableRecord.Values
+  isExternal: true
+  name: Values
+  nameWithType: TableRecord.Values
+  fullName: SuperOffice.WebApi.Data.TableRecord.Values
+- uid: SuperOffice.WebApi.Data.StringDictionary
+  commentId: T:SuperOffice.WebApi.Data.StringDictionary
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.WebApi.Data.StringDictionary

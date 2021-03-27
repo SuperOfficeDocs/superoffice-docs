@@ -1,0 +1,1185 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings
+  commentId: T:SuperOffice.WebApi.Data.ChatWidgetSettings
+  id: ChatWidgetSettings
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.#ctor
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.AutoFaqCategory
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.AutoFaqEnabled
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.Color
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.Font
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.LanguageIsoCode
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields_String
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineHeader
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineMessage
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.PostFormEnabled
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.PostFormHeader
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.PostFormMessage
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.PostTranscriptEnabled
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.PreFormEnabled
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.PreFormMessage
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.RequiredFields
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.RequiredFields_String
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.ShowAgentPhoto
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.ShowLogo
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.Theme
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.Theme_String
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.WelcomeMessage
+  - SuperOffice.WebApi.Data.ChatWidgetSettings.WelcomeTitle
+  langs:
+  - csharp
+  - vb
+  name: ChatWidgetSettings
+  nameWithType: ChatWidgetSettings
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ChatWidgetSettings.\nDefines the look of the chat widget.    \n"
+  syntax:
+    content: 'public class ChatWidgetSettings : Object'
+    content.vb: >-
+      Public Class ChatWidgetSettings
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ChatAgent
+    commentId: T:SuperOffice.WebApi.Agents.ChatAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ChatWidgetSettings.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: ChatWidgetSettings()
+  nameWithType: ChatWidgetSettings.ChatWidgetSettings()
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.ChatWidgetSettings()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ChatWidgetSettings()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.AutoFaqEnabled
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.AutoFaqEnabled
+  id: AutoFaqEnabled
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: AutoFaqEnabled
+  nameWithType: ChatWidgetSettings.AutoFaqEnabled
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.AutoFaqEnabled
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnable automatic FAQ suggestions\n"
+  syntax:
+    content: public virtual bool AutoFaqEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property AutoFaqEnabled As Boolean
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.AutoFaqEnabled*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.AutoFaqCategory
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.AutoFaqCategory
+  id: AutoFaqCategory
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: AutoFaqCategory
+  nameWithType: ChatWidgetSettings.AutoFaqCategory
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.AutoFaqCategory
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRoot folder for FAQ suggestions\n"
+  syntax:
+    content: public virtual KbCategory AutoFaqCategory { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.KbCategory
+    content.vb: Public Overridable Property AutoFaqCategory As KbCategory
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.AutoFaqCategory*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.PreFormEnabled
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.PreFormEnabled
+  id: PreFormEnabled
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: PreFormEnabled
+  nameWithType: ChatWidgetSettings.PreFormEnabled
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.PreFormEnabled
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnable pre-chat form for anonymous users\n"
+  syntax:
+    content: public virtual bool PreFormEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property PreFormEnabled As Boolean
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.PreFormEnabled*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.PreFormMessage
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.PreFormMessage
+  id: PreFormMessage
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: PreFormMessage
+  nameWithType: ChatWidgetSettings.PreFormMessage
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.PreFormMessage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMessage to be shown in a pre-chat\n"
+  syntax:
+    content: public virtual string PreFormMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PreFormMessage As String
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.PreFormMessage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.RequiredFields_String
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.RequiredFields_String
+  id: RequiredFields_String
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: RequiredFields_String
+  nameWithType: ChatWidgetSettings.RequiredFields_String
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.RequiredFields_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFields required to start a chat\nRaw string enum value.\n"
+  syntax:
+    content: public string RequiredFields_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RequiredFields_String As String
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.RequiredFields_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ChatWidgetSettings.RequiredFields
+    commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.RequiredFields
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.RequiredFields
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.RequiredFields
+  id: RequiredFields
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: RequiredFields
+  nameWithType: ChatWidgetSettings.RequiredFields
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.RequiredFields
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFields required to start a chat\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<WidgetRequiredFields> RequiredFields { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.WidgetRequiredFields}
+    content.vb: Public Property RequiredFields As Nullable(Of WidgetRequiredFields)
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.RequiredFields*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ChatWidgetSettings.RequiredFields_String
+    commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.RequiredFields_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.PostFormEnabled
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.PostFormEnabled
+  id: PostFormEnabled
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: PostFormEnabled
+  nameWithType: ChatWidgetSettings.PostFormEnabled
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.PostFormEnabled
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnable post chat form\n"
+  syntax:
+    content: public virtual bool PostFormEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property PostFormEnabled As Boolean
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.PostFormEnabled*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.PostFormHeader
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.PostFormHeader
+  id: PostFormHeader
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: PostFormHeader
+  nameWithType: ChatWidgetSettings.PostFormHeader
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.PostFormHeader
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHeader text to show in post chat form\n"
+  syntax:
+    content: public virtual string PostFormHeader { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PostFormHeader As String
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.PostFormHeader*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.PostFormMessage
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.PostFormMessage
+  id: PostFormMessage
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: PostFormMessage
+  nameWithType: ChatWidgetSettings.PostFormMessage
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.PostFormMessage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMessage text to show in post chat form\n"
+  syntax:
+    content: public virtual string PostFormMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PostFormMessage As String
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.PostFormMessage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.PostTranscriptEnabled
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.PostTranscriptEnabled
+  id: PostTranscriptEnabled
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: PostTranscriptEnabled
+  nameWithType: ChatWidgetSettings.PostTranscriptEnabled
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.PostTranscriptEnabled
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnable transcript of chat session\n"
+  syntax:
+    content: public virtual bool PostTranscriptEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property PostTranscriptEnabled As Boolean
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.PostTranscriptEnabled*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.LanguageIsoCode
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.LanguageIsoCode
+  id: LanguageIsoCode
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: LanguageIsoCode
+  nameWithType: ChatWidgetSettings.LanguageIsoCode
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.LanguageIsoCode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe language ISO code for the widget language\n"
+  syntax:
+    content: public virtual string LanguageIsoCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property LanguageIsoCode As String
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.LanguageIsoCode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.Theme_String
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.Theme_String
+  id: Theme_String
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: Theme_String
+  nameWithType: ChatWidgetSettings.Theme_String
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.Theme_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPredefined themes for the chat widget\nRaw string enum value.\n"
+  syntax:
+    content: public string Theme_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Theme_String As String
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.Theme_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ChatWidgetSettings.Theme
+    commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.Theme
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.Theme
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.Theme
+  id: Theme
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: Theme
+  nameWithType: ChatWidgetSettings.Theme
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.Theme
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPredefined themes for the chat widget\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<WidgetTheme> Theme { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.WidgetTheme}
+    content.vb: Public Property Theme As Nullable(Of WidgetTheme)
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.Theme*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ChatWidgetSettings.Theme_String
+    commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.Theme_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.Color
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.Color
+  id: Color
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: ChatWidgetSettings.Color
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.Color
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe base color of the widget\n"
+  syntax:
+    content: public virtual string Color { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Color As String
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.Color*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.Font
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.Font
+  id: Font
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: Font
+  nameWithType: ChatWidgetSettings.Font
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.Font
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe font used in the widget\n"
+  syntax:
+    content: public virtual string Font { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Font As String
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.Font*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.ShowLogo
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.ShowLogo
+  id: ShowLogo
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: ShowLogo
+  nameWithType: ChatWidgetSettings.ShowLogo
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.ShowLogo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIndicates if the logo should be shown in the widget\n"
+  syntax:
+    content: public virtual bool ShowLogo { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property ShowLogo As Boolean
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.ShowLogo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.ShowAgentPhoto
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.ShowAgentPhoto
+  id: ShowAgentPhoto
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: ShowAgentPhoto
+  nameWithType: ChatWidgetSettings.ShowAgentPhoto
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.ShowAgentPhoto
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUse agent photo and name when chatting\n"
+  syntax:
+    content: public virtual bool ShowAgentPhoto { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property ShowAgentPhoto As Boolean
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.ShowAgentPhoto*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.WelcomeTitle
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.WelcomeTitle
+  id: WelcomeTitle
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: WelcomeTitle
+  nameWithType: ChatWidgetSettings.WelcomeTitle
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.WelcomeTitle
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShort welcome message when user initiates a chat\n"
+  syntax:
+    content: public virtual string WelcomeTitle { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property WelcomeTitle As String
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.WelcomeTitle*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.WelcomeMessage
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.WelcomeMessage
+  id: WelcomeMessage
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: WelcomeMessage
+  nameWithType: ChatWidgetSettings.WelcomeMessage
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.WelcomeMessage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShort message displayed as long as the request is in queue or active\n"
+  syntax:
+    content: public virtual string WelcomeMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property WelcomeMessage As String
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.WelcomeMessage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineHeader
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineHeader
+  id: OfflineHeader
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: OfflineHeader
+  nameWithType: ChatWidgetSettings.OfflineHeader
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineHeader
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOffline text shown in widget header\n"
+  syntax:
+    content: public virtual string OfflineHeader { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property OfflineHeader As String
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineHeader*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineMessage
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineMessage
+  id: OfflineMessage
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: OfflineMessage
+  nameWithType: ChatWidgetSettings.OfflineMessage
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineMessage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOffline message shown in widget\n"
+  syntax:
+    content: public virtual string OfflineMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property OfflineMessage As String
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineMessage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields_String
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields_String
+  id: OfflineFields_String
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: OfflineFields_String
+  nameWithType: ChatWidgetSettings.OfflineFields_String
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRequired field when creating ticket in offline mode\nRaw string enum value.\n"
+  syntax:
+    content: public string OfflineFields_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OfflineFields_String As String
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields
+    commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields
+  id: OfflineFields
+  parent: SuperOffice.WebApi.Data.ChatWidgetSettings
+  langs:
+  - csharp
+  - vb
+  name: OfflineFields
+  nameWithType: ChatWidgetSettings.OfflineFields
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRequired field when creating ticket in offline mode\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<WidgetRequiredFields> OfflineFields { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.WidgetRequiredFields}
+    content.vb: Public Property OfflineFields As Nullable(Of WidgetRequiredFields)
+  overload: SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields_String
+    commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.ChatAgent
+  commentId: T:SuperOffice.WebApi.Agents.ChatAgent
+  isExternal: true
+  name: ChatAgent
+  nameWithType: ChatAgent
+  fullName: SuperOffice.WebApi.Agents.ChatAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.#ctor
+  isExternal: true
+  name: ChatWidgetSettings
+  nameWithType: ChatWidgetSettings.ChatWidgetSettings
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.ChatWidgetSettings
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.AutoFaqEnabled*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.AutoFaqEnabled
+  isExternal: true
+  name: AutoFaqEnabled
+  nameWithType: ChatWidgetSettings.AutoFaqEnabled
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.AutoFaqEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.AutoFaqCategory*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.AutoFaqCategory
+  isExternal: true
+  name: AutoFaqCategory
+  nameWithType: ChatWidgetSettings.AutoFaqCategory
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.AutoFaqCategory
+- uid: SuperOffice.WebApi.Data.KbCategory
+  commentId: T:SuperOffice.WebApi.Data.KbCategory
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: KbCategory
+  nameWithType: KbCategory
+  fullName: SuperOffice.WebApi.Data.KbCategory
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.PreFormEnabled*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.PreFormEnabled
+  isExternal: true
+  name: PreFormEnabled
+  nameWithType: ChatWidgetSettings.PreFormEnabled
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.PreFormEnabled
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.PreFormMessage*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.PreFormMessage
+  isExternal: true
+  name: PreFormMessage
+  nameWithType: ChatWidgetSettings.PreFormMessage
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.PreFormMessage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.RequiredFields_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.RequiredFields_String
+  isExternal: true
+  name: RequiredFields_String
+  nameWithType: ChatWidgetSettings.RequiredFields_String
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.RequiredFields_String
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.RequiredFields
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.RequiredFields
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.RequiredFields*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.RequiredFields
+  isExternal: true
+  name: RequiredFields
+  nameWithType: ChatWidgetSettings.RequiredFields
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.RequiredFields
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.RequiredFields_String
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.RequiredFields_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.WidgetRequiredFields}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.WidgetRequiredFields}'
+  definition: System.Nullable`1
+  name: Nullable<WidgetRequiredFields>
+  nameWithType: Nullable<WidgetRequiredFields>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.WidgetRequiredFields>
+  nameWithType.vb: Nullable(Of WidgetRequiredFields)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.WidgetRequiredFields)
+  name.vb: Nullable(Of WidgetRequiredFields)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.WidgetRequiredFields
+    name: WidgetRequiredFields
+    nameWithType: WidgetRequiredFields
+    fullName: SuperOffice.WebApi.Data.WidgetRequiredFields
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.WidgetRequiredFields
+    name: WidgetRequiredFields
+    nameWithType: WidgetRequiredFields
+    fullName: SuperOffice.WebApi.Data.WidgetRequiredFields
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.PostFormEnabled*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.PostFormEnabled
+  isExternal: true
+  name: PostFormEnabled
+  nameWithType: ChatWidgetSettings.PostFormEnabled
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.PostFormEnabled
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.PostFormHeader*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.PostFormHeader
+  isExternal: true
+  name: PostFormHeader
+  nameWithType: ChatWidgetSettings.PostFormHeader
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.PostFormHeader
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.PostFormMessage*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.PostFormMessage
+  isExternal: true
+  name: PostFormMessage
+  nameWithType: ChatWidgetSettings.PostFormMessage
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.PostFormMessage
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.PostTranscriptEnabled*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.PostTranscriptEnabled
+  isExternal: true
+  name: PostTranscriptEnabled
+  nameWithType: ChatWidgetSettings.PostTranscriptEnabled
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.PostTranscriptEnabled
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.LanguageIsoCode*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.LanguageIsoCode
+  isExternal: true
+  name: LanguageIsoCode
+  nameWithType: ChatWidgetSettings.LanguageIsoCode
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.LanguageIsoCode
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.Theme_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.Theme_String
+  isExternal: true
+  name: Theme_String
+  nameWithType: ChatWidgetSettings.Theme_String
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.Theme_String
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.Theme
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.Theme
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.Theme*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.Theme
+  isExternal: true
+  name: Theme
+  nameWithType: ChatWidgetSettings.Theme
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.Theme
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.Theme_String
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.Theme_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.WidgetTheme}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.WidgetTheme}'
+  definition: System.Nullable`1
+  name: Nullable<WidgetTheme>
+  nameWithType: Nullable<WidgetTheme>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.WidgetTheme>
+  nameWithType.vb: Nullable(Of WidgetTheme)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.WidgetTheme)
+  name.vb: Nullable(Of WidgetTheme)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.WidgetTheme
+    name: WidgetTheme
+    nameWithType: WidgetTheme
+    fullName: SuperOffice.WebApi.Data.WidgetTheme
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.WidgetTheme
+    name: WidgetTheme
+    nameWithType: WidgetTheme
+    fullName: SuperOffice.WebApi.Data.WidgetTheme
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.Color*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.Color
+  isExternal: true
+  name: Color
+  nameWithType: ChatWidgetSettings.Color
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.Color
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.Font*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.Font
+  isExternal: true
+  name: Font
+  nameWithType: ChatWidgetSettings.Font
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.Font
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.ShowLogo*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.ShowLogo
+  isExternal: true
+  name: ShowLogo
+  nameWithType: ChatWidgetSettings.ShowLogo
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.ShowLogo
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.ShowAgentPhoto*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.ShowAgentPhoto
+  isExternal: true
+  name: ShowAgentPhoto
+  nameWithType: ChatWidgetSettings.ShowAgentPhoto
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.ShowAgentPhoto
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.WelcomeTitle*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.WelcomeTitle
+  isExternal: true
+  name: WelcomeTitle
+  nameWithType: ChatWidgetSettings.WelcomeTitle
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.WelcomeTitle
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.WelcomeMessage*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.WelcomeMessage
+  isExternal: true
+  name: WelcomeMessage
+  nameWithType: ChatWidgetSettings.WelcomeMessage
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.WelcomeMessage
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineHeader*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineHeader
+  isExternal: true
+  name: OfflineHeader
+  nameWithType: ChatWidgetSettings.OfflineHeader
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineHeader
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineMessage*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineMessage
+  isExternal: true
+  name: OfflineMessage
+  nameWithType: ChatWidgetSettings.OfflineMessage
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineMessage
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields_String
+  isExternal: true
+  name: OfflineFields_String
+  nameWithType: ChatWidgetSettings.OfflineFields_String
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields_String
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields*
+  commentId: Overload:SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields
+  isExternal: true
+  name: OfflineFields
+  nameWithType: ChatWidgetSettings.OfflineFields
+  fullName: SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields
+- uid: SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields_String
+  commentId: P:SuperOffice.WebApi.Data.ChatWidgetSettings.OfflineFields_String
+  isExternal: true

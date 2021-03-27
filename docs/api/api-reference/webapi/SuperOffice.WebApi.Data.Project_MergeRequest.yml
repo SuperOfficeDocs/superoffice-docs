@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Project_MergeRequest
+  commentId: T:SuperOffice.WebApi.Data.Project_MergeRequest
+  id: Project_MergeRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Project_MergeRequest.#ctor
+  - SuperOffice.WebApi.Data.Project_MergeRequest.DestinationProjectId
+  - SuperOffice.WebApi.Data.Project_MergeRequest.ReplaceEmptyFieldsOnDestination
+  - SuperOffice.WebApi.Data.Project_MergeRequest.SourceProjectId
+  langs:
+  - csharp
+  - vb
+  name: Project_MergeRequest
+  nameWithType: Project_MergeRequest
+  fullName: SuperOffice.WebApi.Data.Project_MergeRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Project_MergeRequest : Object'
+    content.vb: >-
+      Public Class Project_MergeRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Project_MergeRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Project_MergeRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Project_MergeRequest
+  langs:
+  - csharp
+  - vb
+  name: Project_MergeRequest()
+  nameWithType: Project_MergeRequest.Project_MergeRequest()
+  fullName: SuperOffice.WebApi.Data.Project_MergeRequest.Project_MergeRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Project_MergeRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Project_MergeRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Project_MergeRequest.SourceProjectId
+  commentId: P:SuperOffice.WebApi.Data.Project_MergeRequest.SourceProjectId
+  id: SourceProjectId
+  parent: SuperOffice.WebApi.Data.Project_MergeRequest
+  langs:
+  - csharp
+  - vb
+  name: SourceProjectId
+  nameWithType: Project_MergeRequest.SourceProjectId
+  fullName: SuperOffice.WebApi.Data.Project_MergeRequest.SourceProjectId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SourceProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SourceProjectId As Integer
+  overload: SuperOffice.WebApi.Data.Project_MergeRequest.SourceProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Project_MergeRequest.DestinationProjectId
+  commentId: P:SuperOffice.WebApi.Data.Project_MergeRequest.DestinationProjectId
+  id: DestinationProjectId
+  parent: SuperOffice.WebApi.Data.Project_MergeRequest
+  langs:
+  - csharp
+  - vb
+  name: DestinationProjectId
+  nameWithType: Project_MergeRequest.DestinationProjectId
+  fullName: SuperOffice.WebApi.Data.Project_MergeRequest.DestinationProjectId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DestinationProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DestinationProjectId As Integer
+  overload: SuperOffice.WebApi.Data.Project_MergeRequest.DestinationProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Project_MergeRequest.ReplaceEmptyFieldsOnDestination
+  commentId: P:SuperOffice.WebApi.Data.Project_MergeRequest.ReplaceEmptyFieldsOnDestination
+  id: ReplaceEmptyFieldsOnDestination
+  parent: SuperOffice.WebApi.Data.Project_MergeRequest
+  langs:
+  - csharp
+  - vb
+  name: ReplaceEmptyFieldsOnDestination
+  nameWithType: Project_MergeRequest.ReplaceEmptyFieldsOnDestination
+  fullName: SuperOffice.WebApi.Data.Project_MergeRequest.ReplaceEmptyFieldsOnDestination
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool ReplaceEmptyFieldsOnDestination { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ReplaceEmptyFieldsOnDestination As Boolean
+  overload: SuperOffice.WebApi.Data.Project_MergeRequest.ReplaceEmptyFieldsOnDestination*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Project_MergeRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_MergeRequest.#ctor
+  isExternal: true
+  name: Project_MergeRequest
+  nameWithType: Project_MergeRequest.Project_MergeRequest
+  fullName: SuperOffice.WebApi.Data.Project_MergeRequest.Project_MergeRequest
+- uid: SuperOffice.WebApi.Data.Project_MergeRequest.SourceProjectId*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_MergeRequest.SourceProjectId
+  isExternal: true
+  name: SourceProjectId
+  nameWithType: Project_MergeRequest.SourceProjectId
+  fullName: SuperOffice.WebApi.Data.Project_MergeRequest.SourceProjectId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Project_MergeRequest.DestinationProjectId*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_MergeRequest.DestinationProjectId
+  isExternal: true
+  name: DestinationProjectId
+  nameWithType: Project_MergeRequest.DestinationProjectId
+  fullName: SuperOffice.WebApi.Data.Project_MergeRequest.DestinationProjectId
+- uid: SuperOffice.WebApi.Data.Project_MergeRequest.ReplaceEmptyFieldsOnDestination*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_MergeRequest.ReplaceEmptyFieldsOnDestination
+  isExternal: true
+  name: ReplaceEmptyFieldsOnDestination
+  nameWithType: Project_MergeRequest.ReplaceEmptyFieldsOnDestination
+  fullName: SuperOffice.WebApi.Data.Project_MergeRequest.ReplaceEmptyFieldsOnDestination
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

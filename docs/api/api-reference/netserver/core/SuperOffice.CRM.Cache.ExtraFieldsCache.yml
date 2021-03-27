@@ -1,0 +1,1174 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Cache.ExtraFieldsCache
+  commentId: T:SuperOffice.CRM.Cache.ExtraFieldsCache
+  id: ExtraFieldsCache
+  parent: SuperOffice.CRM.Cache
+  children:
+  - SuperOffice.CRM.Cache.ExtraFieldsCache.#ctor
+  - SuperOffice.CRM.Cache.ExtraFieldsCache.ExtraFields
+  - SuperOffice.CRM.Cache.ExtraFieldsCache.GetCachedTableNumbers
+  - SuperOffice.CRM.Cache.ExtraFieldsCache.GetCurrent
+  - SuperOffice.CRM.Cache.ExtraFieldsCache.GetExtraFieldsDefinition(System.Int32)
+  - SuperOffice.CRM.Cache.ExtraFieldsCache.GetExtraFieldsDefinition(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ExtraFieldsCache
+  nameWithType: ExtraFieldsCache
+  fullName: SuperOffice.CRM.Cache.ExtraFieldsCache
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: >-
+      [Cache(1800, "Database")]
+
+      public class ExtraFieldsCache : XCacheBase, IFlushable
+    content.vb: >-
+      <Cache(1800, "Database")>
+
+      Public Class ExtraFieldsCache
+          Inherits XCacheBase
+          Implements IFlushable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.Cache.XCacheBase
+  implements:
+  - SuperOffice.Data.Cache.IFlushable
+  inheritedMembers:
+  - SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute(System.Type)
+  - SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance``1
+  - SuperOffice.Data.Cache.XCacheBase.Flush
+  - SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+  - SuperOffice.Data.Cache.XCacheBase.Timeout
+  - SuperOffice.Data.Cache.XCacheBase.LastTouch
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Cache.ExtraFieldsCache.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Cache.ExtraFieldsCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.Cache.CacheAttribute
+    ctor: SuperOffice.Data.Cache.CacheAttribute.#ctor(System.Int32,System.String)
+    arguments:
+    - type: System.Int32
+      value: 1800
+    - type: System.String
+      value: Database
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Cache.ExtraFieldsCache.#ctor
+  commentId: M:SuperOffice.CRM.Cache.ExtraFieldsCache.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Cache.ExtraFieldsCache
+  langs:
+  - csharp
+  - vb
+  name: ExtraFieldsCache()
+  nameWithType: ExtraFieldsCache.ExtraFieldsCache()
+  fullName: SuperOffice.CRM.Cache.ExtraFieldsCache.ExtraFieldsCache()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: >-
+      [SoInjectConstructor]
+
+      protected ExtraFieldsCache()
+    content.vb: >-
+      <SoInjectConstructor>
+
+      Protected Sub New
+  overload: SuperOffice.CRM.Cache.ExtraFieldsCache.#ctor*
+  attributes:
+  - type: SuperOffice.Factory.SoInjectConstructorAttribute
+    ctor: SuperOffice.Factory.SoInjectConstructorAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Cache.ExtraFieldsCache.GetCurrent
+  commentId: M:SuperOffice.CRM.Cache.ExtraFieldsCache.GetCurrent
+  id: GetCurrent
+  parent: SuperOffice.CRM.Cache.ExtraFieldsCache
+  langs:
+  - csharp
+  - vb
+  name: GetCurrent()
+  nameWithType: ExtraFieldsCache.GetCurrent()
+  fullName: SuperOffice.CRM.Cache.ExtraFieldsCache.GetCurrent()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: public static ExtraFieldsCache GetCurrent()
+    return:
+      type: SuperOffice.CRM.Cache.ExtraFieldsCache
+    content.vb: Public Shared Function GetCurrent As ExtraFieldsCache
+  overload: SuperOffice.CRM.Cache.ExtraFieldsCache.GetCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Cache.ExtraFieldsCache.GetCachedTableNumbers
+  commentId: M:SuperOffice.CRM.Cache.ExtraFieldsCache.GetCachedTableNumbers
+  id: GetCachedTableNumbers
+  parent: SuperOffice.CRM.Cache.ExtraFieldsCache
+  langs:
+  - csharp
+  - vb
+  name: GetCachedTableNumbers()
+  nameWithType: ExtraFieldsCache.GetCachedTableNumbers()
+  fullName: SuperOffice.CRM.Cache.ExtraFieldsCache.GetCachedTableNumbers()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: public override int[] GetCachedTableNumbers()
+    return:
+      type: System.Int32[]
+    content.vb: Public Overrides Function GetCachedTableNumbers As Integer()
+  overridden: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
+  overload: SuperOffice.CRM.Cache.ExtraFieldsCache.GetCachedTableNumbers*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Cache.ExtraFieldsCache.GetExtraFieldsDefinition(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Cache.ExtraFieldsCache.GetExtraFieldsDefinition(System.String,System.String)
+  id: GetExtraFieldsDefinition(System.String,System.String)
+  parent: SuperOffice.CRM.Cache.ExtraFieldsCache
+  langs:
+  - csharp
+  - vb
+  name: GetExtraFieldsDefinition(String, String)
+  nameWithType: ExtraFieldsCache.GetExtraFieldsDefinition(String, String)
+  fullName: SuperOffice.CRM.Cache.ExtraFieldsCache.GetExtraFieldsDefinition(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: public ExtraFieldsRecordData GetExtraFieldsDefinition(string tableName, string fieldName)
+    parameters:
+    - id: tableName
+      type: System.String
+    - id: fieldName
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Rows.ExtraFieldsRecordData
+    content.vb: Public Function GetExtraFieldsDefinition(tableName As String, fieldName As String) As ExtraFieldsRecordData
+  overload: SuperOffice.CRM.Cache.ExtraFieldsCache.GetExtraFieldsDefinition*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Cache.ExtraFieldsCache.GetExtraFieldsDefinition(System.Int32)
+  commentId: M:SuperOffice.CRM.Cache.ExtraFieldsCache.GetExtraFieldsDefinition(System.Int32)
+  id: GetExtraFieldsDefinition(System.Int32)
+  parent: SuperOffice.CRM.Cache.ExtraFieldsCache
+  langs:
+  - csharp
+  - vb
+  name: GetExtraFieldsDefinition(Int32)
+  nameWithType: ExtraFieldsCache.GetExtraFieldsDefinition(Int32)
+  fullName: SuperOffice.CRM.Cache.ExtraFieldsCache.GetExtraFieldsDefinition(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: public ExtraFieldsRecordData GetExtraFieldsDefinition(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Rows.ExtraFieldsRecordData
+    content.vb: Public Function GetExtraFieldsDefinition(id As Integer) As ExtraFieldsRecordData
+  overload: SuperOffice.CRM.Cache.ExtraFieldsCache.GetExtraFieldsDefinition*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Cache.ExtraFieldsCache.ExtraFields
+  commentId: P:SuperOffice.CRM.Cache.ExtraFieldsCache.ExtraFields
+  id: ExtraFields
+  parent: SuperOffice.CRM.Cache.ExtraFieldsCache
+  langs:
+  - csharp
+  - vb
+  name: ExtraFields
+  nameWithType: ExtraFieldsCache.ExtraFields
+  fullName: SuperOffice.CRM.Cache.ExtraFieldsCache.ExtraFields
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  syntax:
+    content: public Dictionary<int, ExtraFieldsRecordData> ExtraFields { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.Int32,SuperOffice.CRM.Rows.ExtraFieldsRecordData}
+    content.vb: Public ReadOnly Property ExtraFields As Dictionary(Of Integer, ExtraFieldsRecordData)
+  overload: SuperOffice.CRM.Cache.ExtraFieldsCache.ExtraFields*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Cache
+  commentId: N:SuperOffice.CRM.Cache
+  isExternal: true
+  name: SuperOffice.CRM.Cache
+  nameWithType: SuperOffice.CRM.Cache
+  fullName: SuperOffice.CRM.Cache
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.Cache.XCacheBase
+  commentId: T:SuperOffice.Data.Cache.XCacheBase
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: XCacheBase
+  nameWithType: XCacheBase
+  fullName: SuperOffice.Data.Cache.XCacheBase
+- uid: SuperOffice.Data.Cache.IFlushable
+  commentId: T:SuperOffice.Data.Cache.IFlushable
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: IFlushable
+  nameWithType: IFlushable
+  fullName: SuperOffice.Data.Cache.IFlushable
+- uid: SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute(System.Type)
+  commentId: M:SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute(System.Type)
+  parent: SuperOffice.Data.Cache.XCacheBase
+  isExternal: true
+  name: GetCacheAttribute(Type)
+  nameWithType: XCacheBase.GetCacheAttribute(Type)
+  fullName: SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute(System.Type)
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute(System.Type)
+    name: GetCacheAttribute
+    nameWithType: XCacheBase.GetCacheAttribute
+    fullName: SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute(System.Type)
+    name: GetCacheAttribute
+    nameWithType: XCacheBase.GetCacheAttribute
+    fullName: SuperOffice.Data.Cache.XCacheBase.GetCacheAttribute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance``1
+  commentId: M:SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance``1
+  parent: SuperOffice.Data.Cache.XCacheBase
+  isExternal: true
+  name: GetCurrentInstance<CacheType>()
+  nameWithType: XCacheBase.GetCurrentInstance<CacheType>()
+  fullName: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance<CacheType>()
+  nameWithType.vb: XCacheBase.GetCurrentInstance(Of CacheType)()
+  fullName.vb: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance(Of CacheType)()
+  name.vb: GetCurrentInstance(Of CacheType)()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance``1
+    name: GetCurrentInstance<CacheType>
+    nameWithType: XCacheBase.GetCurrentInstance<CacheType>
+    fullName: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance<CacheType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance``1
+    name: GetCurrentInstance(Of CacheType)
+    nameWithType: XCacheBase.GetCurrentInstance(Of CacheType)
+    fullName: SuperOffice.Data.Cache.XCacheBase.GetCurrentInstance(Of CacheType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.XCacheBase.Flush
+  commentId: M:SuperOffice.Data.Cache.XCacheBase.Flush
+  parent: SuperOffice.Data.Cache.XCacheBase
+  isExternal: true
+  name: Flush()
+  nameWithType: XCacheBase.Flush()
+  fullName: SuperOffice.Data.Cache.XCacheBase.Flush()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.XCacheBase.Flush
+    name: Flush
+    nameWithType: XCacheBase.Flush
+    fullName: SuperOffice.Data.Cache.XCacheBase.Flush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.XCacheBase.Flush
+    name: Flush
+    nameWithType: XCacheBase.Flush
+    fullName: SuperOffice.Data.Cache.XCacheBase.Flush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+  commentId: M:SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+  parent: SuperOffice.Data.Cache.XCacheBase
+  isExternal: true
+  name: IsCacheInvalidated(Int32, SqlType, Int32)
+  nameWithType: XCacheBase.IsCacheInvalidated(Int32, SqlType, Int32)
+  fullName: SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated(System.Int32, SuperOffice.Data.SQL.SqlType, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+    name: IsCacheInvalidated
+    nameWithType: XCacheBase.IsCacheInvalidated
+    fullName: SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.SqlType
+    name: SqlType
+    nameWithType: SqlType
+    fullName: SuperOffice.Data.SQL.SqlType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+    name: IsCacheInvalidated
+    nameWithType: XCacheBase.IsCacheInvalidated
+    fullName: SuperOffice.Data.Cache.XCacheBase.IsCacheInvalidated
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.SqlType
+    name: SqlType
+    nameWithType: SqlType
+    fullName: SuperOffice.Data.SQL.SqlType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.XCacheBase.Timeout
+  commentId: P:SuperOffice.Data.Cache.XCacheBase.Timeout
+  parent: SuperOffice.Data.Cache.XCacheBase
+  isExternal: true
+  name: Timeout
+  nameWithType: XCacheBase.Timeout
+  fullName: SuperOffice.Data.Cache.XCacheBase.Timeout
+- uid: SuperOffice.Data.Cache.XCacheBase.LastTouch
+  commentId: P:SuperOffice.Data.Cache.XCacheBase.LastTouch
+  parent: SuperOffice.Data.Cache.XCacheBase
+  isExternal: true
+  name: LastTouch
+  nameWithType: XCacheBase.LastTouch
+  fullName: SuperOffice.Data.Cache.XCacheBase.LastTouch
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Cache.ExtraFieldsCache.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ExtraFieldsCache, To>()
+  nameWithType: EnumUtil.MapEnums<ExtraFieldsCache, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Cache.ExtraFieldsCache, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ExtraFieldsCache, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Cache.ExtraFieldsCache, To)()
+  name.vb: MapEnums(Of ExtraFieldsCache, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ExtraFieldsCache, To>
+    nameWithType: EnumUtil.MapEnums<ExtraFieldsCache, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Cache.ExtraFieldsCache, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ExtraFieldsCache, To)
+    nameWithType: EnumUtil.MapEnums(Of ExtraFieldsCache, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Cache.ExtraFieldsCache, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Cache.ExtraFieldsCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ExtraFieldsCache, To>()
+  nameWithType: Converters.MapEnums<ExtraFieldsCache, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Cache.ExtraFieldsCache, To>()
+  nameWithType.vb: Converters.MapEnums(Of ExtraFieldsCache, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Cache.ExtraFieldsCache, To)()
+  name.vb: MapEnums(Of ExtraFieldsCache, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ExtraFieldsCache, To>
+    nameWithType: Converters.MapEnums<ExtraFieldsCache, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Cache.ExtraFieldsCache, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ExtraFieldsCache, To)
+    nameWithType: Converters.MapEnums(Of ExtraFieldsCache, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Cache.ExtraFieldsCache, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.Cache
+  commentId: N:SuperOffice.Data.Cache
+  isExternal: true
+  name: SuperOffice.Data.Cache
+  nameWithType: SuperOffice.Data.Cache
+  fullName: SuperOffice.Data.Cache
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Cache.ExtraFieldsCache.#ctor*
+  commentId: Overload:SuperOffice.CRM.Cache.ExtraFieldsCache.#ctor
+  isExternal: true
+  name: ExtraFieldsCache
+  nameWithType: ExtraFieldsCache.ExtraFieldsCache
+  fullName: SuperOffice.CRM.Cache.ExtraFieldsCache.ExtraFieldsCache
+- uid: SuperOffice.CRM.Cache.ExtraFieldsCache.GetCurrent*
+  commentId: Overload:SuperOffice.CRM.Cache.ExtraFieldsCache.GetCurrent
+  isExternal: true
+  name: GetCurrent
+  nameWithType: ExtraFieldsCache.GetCurrent
+  fullName: SuperOffice.CRM.Cache.ExtraFieldsCache.GetCurrent
+- uid: SuperOffice.CRM.Cache.ExtraFieldsCache
+  commentId: T:SuperOffice.CRM.Cache.ExtraFieldsCache
+  parent: SuperOffice.CRM.Cache
+  isExternal: true
+  name: ExtraFieldsCache
+  nameWithType: ExtraFieldsCache
+  fullName: SuperOffice.CRM.Cache.ExtraFieldsCache
+- uid: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
+  commentId: M:SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
+  parent: SuperOffice.Data.Cache.XCacheBase
+  isExternal: true
+  name: GetCachedTableNumbers()
+  nameWithType: XCacheBase.GetCachedTableNumbers()
+  fullName: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
+    name: GetCachedTableNumbers
+    nameWithType: XCacheBase.GetCachedTableNumbers
+    fullName: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
+    name: GetCachedTableNumbers
+    nameWithType: XCacheBase.GetCachedTableNumbers
+    fullName: SuperOffice.Data.Cache.XCacheBase.GetCachedTableNumbers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Cache.ExtraFieldsCache.GetCachedTableNumbers*
+  commentId: Overload:SuperOffice.CRM.Cache.ExtraFieldsCache.GetCachedTableNumbers
+  isExternal: true
+  name: GetCachedTableNumbers
+  nameWithType: ExtraFieldsCache.GetCachedTableNumbers
+  fullName: SuperOffice.CRM.Cache.ExtraFieldsCache.GetCachedTableNumbers
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Cache.ExtraFieldsCache.GetExtraFieldsDefinition*
+  commentId: Overload:SuperOffice.CRM.Cache.ExtraFieldsCache.GetExtraFieldsDefinition
+  isExternal: true
+  name: GetExtraFieldsDefinition
+  nameWithType: ExtraFieldsCache.GetExtraFieldsDefinition
+  fullName: SuperOffice.CRM.Cache.ExtraFieldsCache.GetExtraFieldsDefinition
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
+  commentId: T:SuperOffice.CRM.Rows.ExtraFieldsRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: ExtraFieldsRecordData
+  nameWithType: ExtraFieldsRecordData
+  fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordData
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Cache.ExtraFieldsCache.ExtraFields*
+  commentId: Overload:SuperOffice.CRM.Cache.ExtraFieldsCache.ExtraFields
+  isExternal: true
+  name: ExtraFields
+  nameWithType: ExtraFieldsCache.ExtraFields
+  fullName: SuperOffice.CRM.Cache.ExtraFieldsCache.ExtraFields
+- uid: System.Collections.Generic.Dictionary{System.Int32,SuperOffice.CRM.Rows.ExtraFieldsRecordData}
+  commentId: T:System.Collections.Generic.Dictionary{System.Int32,SuperOffice.CRM.Rows.ExtraFieldsRecordData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<Int32, ExtraFieldsRecordData>
+  nameWithType: Dictionary<Int32, ExtraFieldsRecordData>
+  fullName: System.Collections.Generic.Dictionary<System.Int32, SuperOffice.CRM.Rows.ExtraFieldsRecordData>
+  nameWithType.vb: Dictionary(Of Int32, ExtraFieldsRecordData)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.Int32, SuperOffice.CRM.Rows.ExtraFieldsRecordData)
+  name.vb: Dictionary(Of Int32, ExtraFieldsRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
+    name: ExtraFieldsRecordData
+    nameWithType: ExtraFieldsRecordData
+    fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
+    name: ExtraFieldsRecordData
+    nameWithType: ExtraFieldsRecordData
+    fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

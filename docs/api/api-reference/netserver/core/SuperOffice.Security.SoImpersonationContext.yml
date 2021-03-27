@@ -1,0 +1,846 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.SoImpersonationContext
+  commentId: T:SuperOffice.Security.SoImpersonationContext
+  id: SoImpersonationContext
+  parent: SuperOffice.Security
+  children:
+  - SuperOffice.Security.SoImpersonationContext.CanImpersonate
+  - SuperOffice.Security.SoImpersonationContext.CanImpersonate(SuperOffice.Security.Principal.SoPrincipal)
+  - SuperOffice.Security.SoImpersonationContext.Dispose
+  - SuperOffice.Security.SoImpersonationContext.Impersonate(System.String)
+  - SuperOffice.Security.SoImpersonationContext.ImpersonatedPrincipal
+  - SuperOffice.Security.SoImpersonationContext.RealPrincipal
+  - SuperOffice.Security.SoImpersonationContext.Revert
+  langs:
+  - csharp
+  - vb
+  name: SoImpersonationContext
+  nameWithType: SoImpersonationContext
+  fullName: SuperOffice.Security.SoImpersonationContext
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security
+  summary: "\nUtility class assisting with impersonation.  Impersonation is only permitted if a system \nuser is logged in using CRM5 username and password and the user that is impersonated is \nan employee or external person.\n"
+  syntax:
+    content: 'public sealed class SoImpersonationContext : IDisposable'
+    content.vb: >-
+      Public NotInheritable Class SoImpersonationContext
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Security.SoImpersonationContext.EnumUtil.MapEnums``2
+  - SuperOffice.Security.SoImpersonationContext.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Security.SoImpersonationContext.CanImpersonate
+  commentId: M:SuperOffice.Security.SoImpersonationContext.CanImpersonate
+  id: CanImpersonate
+  parent: SuperOffice.Security.SoImpersonationContext
+  langs:
+  - csharp
+  - vb
+  name: CanImpersonate()
+  nameWithType: SoImpersonationContext.CanImpersonate()
+  fullName: SuperOffice.Security.SoImpersonationContext.CanImpersonate()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security
+  summary: "\nCheck if the currently logged in user is permitted to impersonate.\n"
+  syntax:
+    content: public static bool CanImpersonate()
+    return:
+      type: System.Boolean
+      description: True if the currently logged in user is permitted to impersonate.
+    content.vb: Public Shared Function CanImpersonate As Boolean
+  overload: SuperOffice.Security.SoImpersonationContext.CanImpersonate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Security.SoImpersonationContext.CanImpersonate(SuperOffice.Security.Principal.SoPrincipal)
+  commentId: M:SuperOffice.Security.SoImpersonationContext.CanImpersonate(SuperOffice.Security.Principal.SoPrincipal)
+  id: CanImpersonate(SuperOffice.Security.Principal.SoPrincipal)
+  parent: SuperOffice.Security.SoImpersonationContext
+  langs:
+  - csharp
+  - vb
+  name: CanImpersonate(SoPrincipal)
+  nameWithType: SoImpersonationContext.CanImpersonate(SoPrincipal)
+  fullName: SuperOffice.Security.SoImpersonationContext.CanImpersonate(SuperOffice.Security.Principal.SoPrincipal)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security
+  summary: "\nCheck if the user represented by the provided principle is permitted to impersonate.\n"
+  syntax:
+    content: public static bool CanImpersonate(SoPrincipal impersonator)
+    parameters:
+    - id: impersonator
+      type: SuperOffice.Security.Principal.SoPrincipal
+      description: The user to check if it has the permission to impersonate
+    return:
+      type: System.Boolean
+      description: True if the user represented by the provided principle is permitted to impersonate.
+    content.vb: Public Shared Function CanImpersonate(impersonator As SoPrincipal) As Boolean
+  overload: SuperOffice.Security.SoImpersonationContext.CanImpersonate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Security.SoImpersonationContext.Impersonate(System.String)
+  commentId: M:SuperOffice.Security.SoImpersonationContext.Impersonate(System.String)
+  id: Impersonate(System.String)
+  parent: SuperOffice.Security.SoImpersonationContext
+  langs:
+  - csharp
+  - vb
+  name: Impersonate(String)
+  nameWithType: SoImpersonationContext.Impersonate(String)
+  fullName: SuperOffice.Security.SoImpersonationContext.Impersonate(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security
+  summary: "\nImpersonate as the user with the provided user name.  Only users of type System logged in with \nusername and passwords are permitted to impersonate.  Call <xref href=\"SuperOffice.Security.SoImpersonationContext.Dispose\" data-throw-if-not-resolved=\"false\"></xref>\nor <xref href=\"SuperOffice.Security.SoImpersonationContext.Revert\" data-throw-if-not-resolved=\"false\"></xref>.  Impersonation is not supported with remote mode.\n"
+  remarks: "\nImpersonation lives in the thread scope.  Threads executed with the \n<xref href=\"SuperOffice.SoContext.SpawnThread%60%601(SuperOffice.Threading.AsyncOperation%7b%60%600%7d%2c%60%600%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref> or \n<xref href=\"SuperOffice.Threading.ThreadManager.SpawnThread%60%601(SuperOffice.Threading.AsyncOperation%7b%60%600%7d%2c%60%600%2cSystem.String%2cSystem.Boolean%2cSystem.Boolean)\" data-throw-if-not-resolved=\"false\"></xref> \nwill also be executed inside the scope of the impersonated user.\nIt is not permitted to log out using <xref href=\"SuperOffice.SoSession.Close\" data-throw-if-not-resolved=\"false\"></xref> or\nin any other way end the current session like calling \n<xref href=\"SuperOffice.SoSession.Suspend\" data-throw-if-not-resolved=\"false\"></xref> while in a impersonated state.\n"
+  syntax:
+    content: public static SoImpersonationContext Impersonate(string user)
+    parameters:
+    - id: user
+      type: System.String
+      description: Name of the user to impersonate as.
+    return:
+      type: SuperOffice.Security.SoImpersonationContext
+      description: Disposable context for the impersonation.
+    content.vb: Public Shared Function Impersonate(user As String) As SoImpersonationContext
+  overload: SuperOffice.Security.SoImpersonationContext.Impersonate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Security.SoImpersonationContext.Revert
+  commentId: M:SuperOffice.Security.SoImpersonationContext.Revert
+  id: Revert
+  parent: SuperOffice.Security.SoImpersonationContext
+  langs:
+  - csharp
+  - vb
+  name: Revert()
+  nameWithType: SoImpersonationContext.Revert()
+  fullName: SuperOffice.Security.SoImpersonationContext.Revert()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security
+  summary: "\nRevert impersonation.\n"
+  syntax:
+    content: public void Revert()
+    content.vb: Public Sub Revert
+  overload: SuperOffice.Security.SoImpersonationContext.Revert*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.SoImpersonationContext.Dispose
+  commentId: M:SuperOffice.Security.SoImpersonationContext.Dispose
+  id: Dispose
+  parent: SuperOffice.Security.SoImpersonationContext
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: SoImpersonationContext.Dispose()
+  fullName: SuperOffice.Security.SoImpersonationContext.Dispose()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security
+  summary: "\nDispose of the SoImpersonationContext and implcitly call <xref href=\"SuperOffice.Security.SoImpersonationContext.Revert\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: SuperOffice.Security.SoImpersonationContext.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.SoImpersonationContext.RealPrincipal
+  commentId: P:SuperOffice.Security.SoImpersonationContext.RealPrincipal
+  id: RealPrincipal
+  parent: SuperOffice.Security.SoImpersonationContext
+  langs:
+  - csharp
+  - vb
+  name: RealPrincipal
+  nameWithType: SoImpersonationContext.RealPrincipal
+  fullName: SuperOffice.Security.SoImpersonationContext.RealPrincipal
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security
+  summary: "\nPrinciple of the impersonating user.\n"
+  syntax:
+    content: public SoPrincipal RealPrincipal { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Security.Principal.SoPrincipal
+    content.vb: Public ReadOnly Property RealPrincipal As SoPrincipal
+  overload: SuperOffice.Security.SoImpersonationContext.RealPrincipal*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Security.SoImpersonationContext.ImpersonatedPrincipal
+  commentId: P:SuperOffice.Security.SoImpersonationContext.ImpersonatedPrincipal
+  id: ImpersonatedPrincipal
+  parent: SuperOffice.Security.SoImpersonationContext
+  langs:
+  - csharp
+  - vb
+  name: ImpersonatedPrincipal
+  nameWithType: SoImpersonationContext.ImpersonatedPrincipal
+  fullName: SuperOffice.Security.SoImpersonationContext.ImpersonatedPrincipal
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security
+  summary: "\nPrincipal of the impersonated user.\n"
+  syntax:
+    content: public SoPrincipal ImpersonatedPrincipal { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Security.Principal.SoPrincipal
+    content.vb: Public ReadOnly Property ImpersonatedPrincipal As SoPrincipal
+  overload: SuperOffice.Security.SoImpersonationContext.ImpersonatedPrincipal*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Security
+  commentId: N:SuperOffice.Security
+  isExternal: true
+  name: SuperOffice.Security
+  nameWithType: SuperOffice.Security
+  fullName: SuperOffice.Security
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.SoImpersonationContext.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoImpersonationContext, To>()
+  nameWithType: EnumUtil.MapEnums<SoImpersonationContext, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.SoImpersonationContext, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoImpersonationContext, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.SoImpersonationContext, To)()
+  name.vb: MapEnums(Of SoImpersonationContext, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoImpersonationContext, To>
+    nameWithType: EnumUtil.MapEnums<SoImpersonationContext, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.SoImpersonationContext, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoImpersonationContext, To)
+    nameWithType: EnumUtil.MapEnums(Of SoImpersonationContext, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.SoImpersonationContext, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.SoImpersonationContext.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoImpersonationContext, To>()
+  nameWithType: Converters.MapEnums<SoImpersonationContext, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.SoImpersonationContext, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoImpersonationContext, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.SoImpersonationContext, To)()
+  name.vb: MapEnums(Of SoImpersonationContext, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoImpersonationContext, To>
+    nameWithType: Converters.MapEnums<SoImpersonationContext, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.SoImpersonationContext, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoImpersonationContext, To)
+    nameWithType: Converters.MapEnums(Of SoImpersonationContext, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.SoImpersonationContext, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Security.SoImpersonationContext.CanImpersonate*
+  commentId: Overload:SuperOffice.Security.SoImpersonationContext.CanImpersonate
+  isExternal: true
+  name: CanImpersonate
+  nameWithType: SoImpersonationContext.CanImpersonate
+  fullName: SuperOffice.Security.SoImpersonationContext.CanImpersonate
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Security.Principal.SoPrincipal
+  commentId: T:SuperOffice.Security.Principal.SoPrincipal
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: SoPrincipal
+  nameWithType: SoPrincipal
+  fullName: SuperOffice.Security.Principal.SoPrincipal
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+- uid: SuperOffice.Security.SoImpersonationContext.Impersonate*
+  commentId: Overload:SuperOffice.Security.SoImpersonationContext.Impersonate
+  isExternal: true
+  name: Impersonate
+  nameWithType: SoImpersonationContext.Impersonate
+  fullName: SuperOffice.Security.SoImpersonationContext.Impersonate
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Security.SoImpersonationContext
+  commentId: T:SuperOffice.Security.SoImpersonationContext
+  parent: SuperOffice.Security
+  isExternal: true
+  name: SoImpersonationContext
+  nameWithType: SoImpersonationContext
+  fullName: SuperOffice.Security.SoImpersonationContext
+- uid: SuperOffice.Security.SoImpersonationContext.Revert*
+  commentId: Overload:SuperOffice.Security.SoImpersonationContext.Revert
+  isExternal: true
+  name: Revert
+  nameWithType: SoImpersonationContext.Revert
+  fullName: SuperOffice.Security.SoImpersonationContext.Revert
+- uid: SuperOffice.Security.SoImpersonationContext.Dispose*
+  commentId: Overload:SuperOffice.Security.SoImpersonationContext.Dispose
+  isExternal: true
+  name: Dispose
+  nameWithType: SoImpersonationContext.Dispose
+  fullName: SuperOffice.Security.SoImpersonationContext.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.SoImpersonationContext.RealPrincipal*
+  commentId: Overload:SuperOffice.Security.SoImpersonationContext.RealPrincipal
+  isExternal: true
+  name: RealPrincipal
+  nameWithType: SoImpersonationContext.RealPrincipal
+  fullName: SuperOffice.Security.SoImpersonationContext.RealPrincipal
+- uid: SuperOffice.Security.SoImpersonationContext.ImpersonatedPrincipal*
+  commentId: Overload:SuperOffice.Security.SoImpersonationContext.ImpersonatedPrincipal
+  isExternal: true
+  name: ImpersonatedPrincipal
+  nameWithType: SoImpersonationContext.ImpersonatedPrincipal
+  fullName: SuperOffice.Security.SoImpersonationContext.ImpersonatedPrincipal

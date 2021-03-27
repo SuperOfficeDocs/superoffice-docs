@@ -1,0 +1,634 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.CustomerService
+  commentId: T:SuperOffice.Configuration.ConfigFile.CustomerService
+  id: ConfigFile.CustomerService
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrl
+  - SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrlDirect
+  - SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrlInternal
+  - SuperOffice.Configuration.ConfigFile.CustomerService.CsDomain
+  - SuperOffice.Configuration.ConfigFile.CustomerService.CsPassword
+  - SuperOffice.Configuration.ConfigFile.CustomerService.CsUserName
+  - SuperOffice.Configuration.ConfigFile.CustomerService.ImpersonateCsUser
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.CustomerService
+  nameWithType: ConfigFile.CustomerService
+  fullName: SuperOffice.Configuration.ConfigFile.CustomerService
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nConfiguration values for accessing Customer Service\n"
+  syntax:
+    content: public static class CustomerService
+    content.vb: Public Module CustomerService
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Configuration.ConfigFile.CustomerService.ImpersonateCsUser
+  commentId: P:SuperOffice.Configuration.ConfigFile.CustomerService.ImpersonateCsUser
+  id: ImpersonateCsUser
+  parent: SuperOffice.Configuration.ConfigFile.CustomerService
+  langs:
+  - csharp
+  - vb
+  name: ImpersonateCsUser
+  nameWithType: ConfigFile.CustomerService.ImpersonateCsUser
+  fullName: SuperOffice.Configuration.ConfigFile.CustomerService.ImpersonateCsUser
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nImpersonate a specific (Windows Domain) user when using Customer Service API\n"
+  syntax:
+    content: public static bool ImpersonateCsUser { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property ImpersonateCsUser As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.CustomerService.ImpersonateCsUser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.CustomerService.CsUserName
+  commentId: P:SuperOffice.Configuration.ConfigFile.CustomerService.CsUserName
+  id: CsUserName
+  parent: SuperOffice.Configuration.ConfigFile.CustomerService
+  langs:
+  - csharp
+  - vb
+  name: CsUserName
+  nameWithType: ConfigFile.CustomerService.CsUserName
+  fullName: SuperOffice.Configuration.ConfigFile.CustomerService.CsUserName
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe username to impersonate\n"
+  syntax:
+    content: public static string CsUserName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property CsUserName As String
+  overload: SuperOffice.Configuration.ConfigFile.CustomerService.CsUserName*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.CustomerService.CsPassword
+  commentId: P:SuperOffice.Configuration.ConfigFile.CustomerService.CsPassword
+  id: CsPassword
+  parent: SuperOffice.Configuration.ConfigFile.CustomerService
+  langs:
+  - csharp
+  - vb
+  name: CsPassword
+  nameWithType: ConfigFile.CustomerService.CsPassword
+  fullName: SuperOffice.Configuration.ConfigFile.CustomerService.CsPassword
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe password\n"
+  syntax:
+    content: public static string CsPassword { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property CsPassword As String
+  overload: SuperOffice.Configuration.ConfigFile.CustomerService.CsPassword*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.CustomerService.CsDomain
+  commentId: P:SuperOffice.Configuration.ConfigFile.CustomerService.CsDomain
+  id: CsDomain
+  parent: SuperOffice.Configuration.ConfigFile.CustomerService
+  langs:
+  - csharp
+  - vb
+  name: CsDomain
+  nameWithType: ConfigFile.CustomerService.CsDomain
+  fullName: SuperOffice.Configuration.ConfigFile.CustomerService.CsDomain
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe Active Directory Domain this user belongs to\n"
+  syntax:
+    content: public static string CsDomain { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property CsDomain As String
+  overload: SuperOffice.Configuration.ConfigFile.CustomerService.CsDomain*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrl
+  commentId: P:SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrl
+  id: CsCgiUrl
+  parent: SuperOffice.Configuration.ConfigFile.CustomerService
+  langs:
+  - csharp
+  - vb
+  name: CsCgiUrl
+  nameWithType: ConfigFile.CustomerService.CsCgiUrl
+  fullName: SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrl
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nBase path for CustomerService as accessed from browser when accessed from internet and public urls.  Like customer center or links in mailings (Online only)\n"
+  syntax:
+    content: public static string CsCgiUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property CsCgiUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrl*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrlInternal
+  commentId: P:SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrlInternal
+  id: CsCgiUrlInternal
+  parent: SuperOffice.Configuration.ConfigFile.CustomerService
+  langs:
+  - csharp
+  - vb
+  name: CsCgiUrlInternal
+  nameWithType: ConfigFile.CustomerService.CsCgiUrlInternal
+  fullName: SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrlInternal
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nBase path for CustomerService as used by an internal employee working with service (Front-channel from associate) (Online only)\n"
+  syntax:
+    content: public static string CsCgiUrlInternal { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property CsCgiUrlInternal As String
+  overload: SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrlInternal*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrlDirect
+  commentId: P:SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrlDirect
+  id: CsCgiUrlDirect
+  parent: SuperOffice.Configuration.ConfigFile.CustomerService
+  langs:
+  - csharp
+  - vb
+  name: CsCgiUrlDirect
+  nameWithType: ConfigFile.CustomerService.CsCgiUrlDirect
+  fullName: SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrlDirect
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nBase path for CustomerService as accessed from NetServer (Back-channel) (Online only)\n"
+  syntax:
+    content: public static string CsCgiUrlDirect { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property CsCgiUrlDirect As String
+  overload: SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrlDirect*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.CustomerService.ImpersonateCsUser*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.CustomerService.ImpersonateCsUser
+  isExternal: true
+  name: ImpersonateCsUser
+  nameWithType: ConfigFile.CustomerService.ImpersonateCsUser
+  fullName: SuperOffice.Configuration.ConfigFile.CustomerService.ImpersonateCsUser
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Configuration.ConfigFile.CustomerService.CsUserName*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.CustomerService.CsUserName
+  isExternal: true
+  name: CsUserName
+  nameWithType: ConfigFile.CustomerService.CsUserName
+  fullName: SuperOffice.Configuration.ConfigFile.CustomerService.CsUserName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Configuration.ConfigFile.CustomerService.CsPassword*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.CustomerService.CsPassword
+  isExternal: true
+  name: CsPassword
+  nameWithType: ConfigFile.CustomerService.CsPassword
+  fullName: SuperOffice.Configuration.ConfigFile.CustomerService.CsPassword
+- uid: SuperOffice.Configuration.ConfigFile.CustomerService.CsDomain*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.CustomerService.CsDomain
+  isExternal: true
+  name: CsDomain
+  nameWithType: ConfigFile.CustomerService.CsDomain
+  fullName: SuperOffice.Configuration.ConfigFile.CustomerService.CsDomain
+- uid: SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrl
+  isExternal: true
+  name: CsCgiUrl
+  nameWithType: ConfigFile.CustomerService.CsCgiUrl
+  fullName: SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrl
+- uid: SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrlInternal*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrlInternal
+  isExternal: true
+  name: CsCgiUrlInternal
+  nameWithType: ConfigFile.CustomerService.CsCgiUrlInternal
+  fullName: SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrlInternal
+- uid: SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrlDirect*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrlDirect
+  isExternal: true
+  name: CsCgiUrlDirect
+  nameWithType: ConfigFile.CustomerService.CsCgiUrlDirect
+  fullName: SuperOffice.Configuration.ConfigFile.CustomerService.CsCgiUrlDirect

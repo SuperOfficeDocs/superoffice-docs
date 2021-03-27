@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles
+  commentId: T:SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles
+  id: SoButtonBase.LayoutStyles
+  parent: SuperOffice.Web.UI.Controls
+  children:
+  - SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles.ButtonBar
+  - SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles.ButtonBarWhite
+  - SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles.Normal
+  - SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles.Toolbar
+  langs:
+  - csharp
+  - vb
+  name: SoButtonBase.LayoutStyles
+  nameWithType: SoButtonBase.LayoutStyles
+  fullName: SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles
+  type: Enum
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public enum LayoutStyles
+    content.vb: Public Enum LayoutStyles
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles.Normal
+  commentId: F:SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles.Normal
+  id: Normal
+  parent: SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: SoButtonBase.LayoutStyles.Normal
+  fullName: SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles.Normal
+  type: Field
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: Normal = 0
+    return:
+      type: SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles.Toolbar
+  commentId: F:SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles.Toolbar
+  id: Toolbar
+  parent: SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles
+  langs:
+  - csharp
+  - vb
+  name: Toolbar
+  nameWithType: SoButtonBase.LayoutStyles.Toolbar
+  fullName: SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles.Toolbar
+  type: Field
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: Toolbar = 1
+    return:
+      type: SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles.ButtonBar
+  commentId: F:SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles.ButtonBar
+  id: ButtonBar
+  parent: SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles
+  langs:
+  - csharp
+  - vb
+  name: ButtonBar
+  nameWithType: SoButtonBase.LayoutStyles.ButtonBar
+  fullName: SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles.ButtonBar
+  type: Field
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: ButtonBar = 2
+    return:
+      type: SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles.ButtonBarWhite
+  commentId: F:SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles.ButtonBarWhite
+  id: ButtonBarWhite
+  parent: SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles
+  langs:
+  - csharp
+  - vb
+  name: ButtonBarWhite
+  nameWithType: SoButtonBase.LayoutStyles.ButtonBarWhite
+  fullName: SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles.ButtonBarWhite
+  type: Field
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: ButtonBarWhite = 3
+    return:
+      type: SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Web.UI.Controls
+  commentId: N:SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.Web.UI.Controls
+  nameWithType: SuperOffice.Web.UI.Controls
+  fullName: SuperOffice.Web.UI.Controls
+- uid: SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles
+  commentId: T:SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles
+  parent: SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SoButtonBase.LayoutStyles
+  nameWithType: SoButtonBase.LayoutStyles
+  fullName: SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_GetQuoteListRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_GetQuoteListRequest
+  id: Quote_GetQuoteListRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_GetQuoteListRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_GetQuoteListRequest.QuoteListType
+  langs:
+  - csharp
+  - vb
+  name: Quote_GetQuoteListRequest
+  nameWithType: Quote_GetQuoteListRequest
+  fullName: SuperOffice.WebApi.Data.Quote_GetQuoteListRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_GetQuoteListRequest : Object'
+    content.vb: >-
+      Public Class Quote_GetQuoteListRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_GetQuoteListRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_GetQuoteListRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_GetQuoteListRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_GetQuoteListRequest()
+  nameWithType: Quote_GetQuoteListRequest.Quote_GetQuoteListRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_GetQuoteListRequest.Quote_GetQuoteListRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_GetQuoteListRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_GetQuoteListRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_GetQuoteListRequest.QuoteListType
+  commentId: P:SuperOffice.WebApi.Data.Quote_GetQuoteListRequest.QuoteListType
+  id: QuoteListType
+  parent: SuperOffice.WebApi.Data.Quote_GetQuoteListRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteListType
+  nameWithType: Quote_GetQuoteListRequest.QuoteListType
+  fullName: SuperOffice.WebApi.Data.Quote_GetQuoteListRequest.QuoteListType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string QuoteListType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property QuoteListType As String
+  overload: SuperOffice.WebApi.Data.Quote_GetQuoteListRequest.QuoteListType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_GetQuoteListRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetQuoteListRequest.#ctor
+  isExternal: true
+  name: Quote_GetQuoteListRequest
+  nameWithType: Quote_GetQuoteListRequest.Quote_GetQuoteListRequest
+  fullName: SuperOffice.WebApi.Data.Quote_GetQuoteListRequest.Quote_GetQuoteListRequest
+- uid: SuperOffice.WebApi.Data.Quote_GetQuoteListRequest.QuoteListType*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetQuoteListRequest.QuoteListType
+  isExternal: true
+  name: QuoteListType
+  nameWithType: Quote_GetQuoteListRequest.QuoteListType
+  fullName: SuperOffice.WebApi.Data.Quote_GetQuoteListRequest.QuoteListType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

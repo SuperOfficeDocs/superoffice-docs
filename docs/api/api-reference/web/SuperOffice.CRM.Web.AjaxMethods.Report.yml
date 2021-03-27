@@ -1,0 +1,592 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.AjaxMethods.Report
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.Report
+  id: Report
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  children:
+  - SuperOffice.CRM.Web.AjaxMethods.Report.#ctor
+  - SuperOffice.CRM.Web.AjaxMethods.Report.GenerateReport
+  - SuperOffice.CRM.Web.AjaxMethods.Report.GenerateReportWithRestrictions(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  - SuperOffice.CRM.Web.AjaxMethods.Report.GenerateSelectionLabelsReport(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Report.GenerateSelectionMembersReport(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: Report
+  nameWithType: Report
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Report
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoWebObject("Report")]
+
+      public class Report : IWebObject, IPlugin
+    content.vb: >-
+      <SoWebObject("Report")>
+
+      Public Class Report
+          Implements IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Report
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.AjaxMethods.Report.GenerateReport
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Report.GenerateReport
+  id: GenerateReport
+  parent: SuperOffice.CRM.Web.AjaxMethods.Report
+  langs:
+  - csharp
+  - vb
+  name: GenerateReport()
+  nameWithType: Report.GenerateReport()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Report.GenerateReport()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public ReportReturn GenerateReport()
+    return:
+      type: SuperOffice.CRM.Web.AjaxMethods.ReportReturn
+    content.vb: Public Function GenerateReport As ReportReturn
+  overload: SuperOffice.CRM.Web.AjaxMethods.Report.GenerateReport*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Report.GenerateReportWithRestrictions(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Report.GenerateReportWithRestrictions(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  id: GenerateReportWithRestrictions(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  parent: SuperOffice.CRM.Web.AjaxMethods.Report
+  langs:
+  - csharp
+  - vb
+  name: GenerateReportWithRestrictions(ArchiveRestrictionInfo[])
+  nameWithType: Report.GenerateReportWithRestrictions(ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Report.GenerateReportWithRestrictions(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public ReportReturn GenerateReportWithRestrictions(ArchiveRestrictionInfo[] extraRestrictions)
+    parameters:
+    - id: extraRestrictions
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+    return:
+      type: SuperOffice.CRM.Web.AjaxMethods.ReportReturn
+    content.vb: Public Function GenerateReportWithRestrictions(extraRestrictions As ArchiveRestrictionInfo()) As ReportReturn
+  overload: SuperOffice.CRM.Web.AjaxMethods.Report.GenerateReportWithRestrictions*
+  nameWithType.vb: Report.GenerateReportWithRestrictions(ArchiveRestrictionInfo())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Web.AjaxMethods.Report.GenerateReportWithRestrictions(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: GenerateReportWithRestrictions(ArchiveRestrictionInfo())
+- uid: SuperOffice.CRM.Web.AjaxMethods.Report.GenerateSelectionLabelsReport(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Report.GenerateSelectionLabelsReport(System.Int32)
+  id: GenerateSelectionLabelsReport(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Report
+  langs:
+  - csharp
+  - vb
+  name: GenerateSelectionLabelsReport(Int32)
+  nameWithType: Report.GenerateSelectionLabelsReport(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Report.GenerateSelectionLabelsReport(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public ReportReturn GenerateSelectionLabelsReport(int selectionId)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Web.AjaxMethods.ReportReturn
+    content.vb: Public Function GenerateSelectionLabelsReport(selectionId As Integer) As ReportReturn
+  overload: SuperOffice.CRM.Web.AjaxMethods.Report.GenerateSelectionLabelsReport*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Report.GenerateSelectionMembersReport(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Report.GenerateSelectionMembersReport(System.Int32)
+  id: GenerateSelectionMembersReport(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Report
+  langs:
+  - csharp
+  - vb
+  name: GenerateSelectionMembersReport(Int32)
+  nameWithType: Report.GenerateSelectionMembersReport(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Report.GenerateSelectionMembersReport(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public ReportReturn GenerateSelectionMembersReport(int selectionId)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Web.AjaxMethods.ReportReturn
+    content.vb: Public Function GenerateSelectionMembersReport(selectionId As Integer) As ReportReturn
+  overload: SuperOffice.CRM.Web.AjaxMethods.Report.GenerateSelectionMembersReport*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Report.#ctor
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Report.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.AjaxMethods.Report
+  langs:
+  - csharp
+  - vb
+  name: Report()
+  nameWithType: Report.Report()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Report.Report()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public Report()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.AjaxMethods.Report.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.AjaxMethods
+  commentId: N:SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: SuperOffice.CRM.Web.AjaxMethods
+  nameWithType: SuperOffice.CRM.Web.AjaxMethods
+  fullName: SuperOffice.CRM.Web.AjaxMethods
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.CRM.Web.AjaxMethods.Report.GenerateReport*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Report.GenerateReport
+  isExternal: true
+  name: GenerateReport
+  nameWithType: Report.GenerateReport
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Report.GenerateReport
+- uid: SuperOffice.CRM.Web.AjaxMethods.ReportReturn
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.ReportReturn
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: ReportReturn
+  nameWithType: ReportReturn
+  fullName: SuperOffice.CRM.Web.AjaxMethods.ReportReturn
+- uid: SuperOffice.CRM.Web.AjaxMethods.Report.GenerateReportWithRestrictions*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Report.GenerateReportWithRestrictions
+  isExternal: true
+  name: GenerateReportWithRestrictions
+  nameWithType: Report.GenerateReportWithRestrictions
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Report.GenerateReportWithRestrictions
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.AjaxMethods.Report.GenerateSelectionLabelsReport*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Report.GenerateSelectionLabelsReport
+  isExternal: true
+  name: GenerateSelectionLabelsReport
+  nameWithType: Report.GenerateSelectionLabelsReport
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Report.GenerateSelectionLabelsReport
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.AjaxMethods.Report.GenerateSelectionMembersReport*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Report.GenerateSelectionMembersReport
+  isExternal: true
+  name: GenerateSelectionMembersReport
+  nameWithType: Report.GenerateSelectionMembersReport
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Report.GenerateSelectionMembersReport
+- uid: SuperOffice.CRM.Web.AjaxMethods.Report.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Report.#ctor
+  isExternal: true
+  name: Report
+  nameWithType: Report.Report
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Report.Report

@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request
+  commentId: T:SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request
+  id: Selection_SetDynamicSelectionCriteria2Request
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request.#ctor
+  - SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request.Filter
+  - SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request.SelectionId
+  langs:
+  - csharp
+  - vb
+  name: Selection_SetDynamicSelectionCriteria2Request
+  nameWithType: Selection_SetDynamicSelectionCriteria2Request
+  fullName: SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Selection_SetDynamicSelectionCriteria2Request : Object'
+    content.vb: >-
+      Public Class Selection_SetDynamicSelectionCriteria2Request
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request
+  langs:
+  - csharp
+  - vb
+  name: Selection_SetDynamicSelectionCriteria2Request()
+  nameWithType: Selection_SetDynamicSelectionCriteria2Request.Selection_SetDynamicSelectionCriteria2Request()
+  fullName: SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request.Selection_SetDynamicSelectionCriteria2Request()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Selection_SetDynamicSelectionCriteria2Request()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request.SelectionId
+  commentId: P:SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request.SelectionId
+  id: SelectionId
+  parent: SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: Selection_SetDynamicSelectionCriteria2Request.SelectionId
+  fullName: SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SelectionId As Integer
+  overload: SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request.SelectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request.Filter
+  commentId: P:SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request.Filter
+  id: Filter
+  parent: SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request
+  langs:
+  - csharp
+  - vb
+  name: Filter
+  nameWithType: Selection_SetDynamicSelectionCriteria2Request.Filter
+  fullName: SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request.Filter
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Filter { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Filter As String
+  overload: SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request.Filter*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request.#ctor
+  isExternal: true
+  name: Selection_SetDynamicSelectionCriteria2Request
+  nameWithType: Selection_SetDynamicSelectionCriteria2Request.Selection_SetDynamicSelectionCriteria2Request
+  fullName: SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request.Selection_SetDynamicSelectionCriteria2Request
+- uid: SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request.SelectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: Selection_SetDynamicSelectionCriteria2Request.SelectionId
+  fullName: SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request.SelectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request.Filter*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request.Filter
+  isExternal: true
+  name: Filter
+  nameWithType: Selection_SetDynamicSelectionCriteria2Request.Filter
+  fullName: SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request.Filter
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

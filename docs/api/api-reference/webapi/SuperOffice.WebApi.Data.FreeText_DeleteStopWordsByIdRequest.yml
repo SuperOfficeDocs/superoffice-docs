@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.FreeText_DeleteStopWordsByIdRequest
+  commentId: T:SuperOffice.WebApi.Data.FreeText_DeleteStopWordsByIdRequest
+  id: FreeText_DeleteStopWordsByIdRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.FreeText_DeleteStopWordsByIdRequest.#ctor
+  - SuperOffice.WebApi.Data.FreeText_DeleteStopWordsByIdRequest.StopWordIds
+  langs:
+  - csharp
+  - vb
+  name: FreeText_DeleteStopWordsByIdRequest
+  nameWithType: FreeText_DeleteStopWordsByIdRequest
+  fullName: SuperOffice.WebApi.Data.FreeText_DeleteStopWordsByIdRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class FreeText_DeleteStopWordsByIdRequest : Object'
+    content.vb: >-
+      Public Class FreeText_DeleteStopWordsByIdRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.FreeText_DeleteStopWordsByIdRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.FreeText_DeleteStopWordsByIdRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.FreeText_DeleteStopWordsByIdRequest
+  langs:
+  - csharp
+  - vb
+  name: FreeText_DeleteStopWordsByIdRequest()
+  nameWithType: FreeText_DeleteStopWordsByIdRequest.FreeText_DeleteStopWordsByIdRequest()
+  fullName: SuperOffice.WebApi.Data.FreeText_DeleteStopWordsByIdRequest.FreeText_DeleteStopWordsByIdRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public FreeText_DeleteStopWordsByIdRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.FreeText_DeleteStopWordsByIdRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FreeText_DeleteStopWordsByIdRequest.StopWordIds
+  commentId: P:SuperOffice.WebApi.Data.FreeText_DeleteStopWordsByIdRequest.StopWordIds
+  id: StopWordIds
+  parent: SuperOffice.WebApi.Data.FreeText_DeleteStopWordsByIdRequest
+  langs:
+  - csharp
+  - vb
+  name: StopWordIds
+  nameWithType: FreeText_DeleteStopWordsByIdRequest.StopWordIds
+  fullName: SuperOffice.WebApi.Data.FreeText_DeleteStopWordsByIdRequest.StopWordIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] StopWordIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property StopWordIds As Integer()
+  overload: SuperOffice.WebApi.Data.FreeText_DeleteStopWordsByIdRequest.StopWordIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.FreeText_DeleteStopWordsByIdRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.FreeText_DeleteStopWordsByIdRequest.#ctor
+  isExternal: true
+  name: FreeText_DeleteStopWordsByIdRequest
+  nameWithType: FreeText_DeleteStopWordsByIdRequest.FreeText_DeleteStopWordsByIdRequest
+  fullName: SuperOffice.WebApi.Data.FreeText_DeleteStopWordsByIdRequest.FreeText_DeleteStopWordsByIdRequest
+- uid: SuperOffice.WebApi.Data.FreeText_DeleteStopWordsByIdRequest.StopWordIds*
+  commentId: Overload:SuperOffice.WebApi.Data.FreeText_DeleteStopWordsByIdRequest.StopWordIds
+  isExternal: true
+  name: StopWordIds
+  nameWithType: FreeText_DeleteStopWordsByIdRequest.StopWordIds
+  fullName: SuperOffice.WebApi.Data.FreeText_DeleteStopWordsByIdRequest.StopWordIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

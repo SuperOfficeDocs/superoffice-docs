@@ -1,0 +1,398 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.IRecordSetProvider
+  commentId: T:SuperOffice.Data.IRecordSetProvider
+  id: IRecordSetProvider
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.IRecordSetProvider.GetRecordsFor``1(``0)
+  - SuperOffice.Data.IRecordSetProvider.GetRecordsFor``1(``0,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IRecordSetProvider
+  nameWithType: IRecordSetProvider
+  fullName: SuperOffice.Data.IRecordSetProvider
+  type: Interface
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nInterface for classes which can convert entities into sets of <xref href=\"SuperOffice.Data.Record\" data-throw-if-not-resolved=\"false\"></xref>-instances.\n"
+  syntax:
+    content: public interface IRecordSetProvider
+    content.vb: Public Interface IRecordSetProvider
+  extensionMethods:
+  - SuperOffice.Data.IRecordSetProvider.EnumUtil.MapEnums``2
+  - SuperOffice.Data.IRecordSetProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Data.IRecordSetProvider.GetRecordsFor``1(``0)
+  commentId: M:SuperOffice.Data.IRecordSetProvider.GetRecordsFor``1(``0)
+  id: GetRecordsFor``1(``0)
+  parent: SuperOffice.Data.IRecordSetProvider
+  langs:
+  - csharp
+  - vb
+  name: GetRecordsFor<T>(T)
+  nameWithType: IRecordSetProvider.GetRecordsFor<T>(T)
+  fullName: SuperOffice.Data.IRecordSetProvider.GetRecordsFor<T>(T)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nConverts the provided entity into a set of records.\n"
+  syntax:
+    content: IEnumerable<Record> GetRecordsFor<T>(T instance)
+    parameters:
+    - id: instance
+      type: '{T}'
+      description: The instance to convert.
+    typeParameters:
+    - id: T
+      description: The type of entity to convert.
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.Record}
+      description: A set of records.
+    content.vb: Function GetRecordsFor(Of T)(instance As T) As IEnumerable(Of Record)
+  overload: SuperOffice.Data.IRecordSetProvider.GetRecordsFor*
+  nameWithType.vb: IRecordSetProvider.GetRecordsFor(Of T)(T)
+  fullName.vb: SuperOffice.Data.IRecordSetProvider.GetRecordsFor(Of T)(T)
+  name.vb: GetRecordsFor(Of T)(T)
+- uid: SuperOffice.Data.IRecordSetProvider.GetRecordsFor``1(``0,System.String)
+  commentId: M:SuperOffice.Data.IRecordSetProvider.GetRecordsFor``1(``0,System.String)
+  id: GetRecordsFor``1(``0,System.String)
+  parent: SuperOffice.Data.IRecordSetProvider
+  langs:
+  - csharp
+  - vb
+  name: GetRecordsFor<T>(T, String)
+  nameWithType: IRecordSetProvider.GetRecordsFor<T>(T, String)
+  fullName: SuperOffice.Data.IRecordSetProvider.GetRecordsFor<T>(T, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nConverts the provided entity into a set of records.\n"
+  syntax:
+    content: IEnumerable<Record> GetRecordsFor<T>(T instance, string rootName)
+    parameters:
+    - id: instance
+      type: '{T}'
+      description: The instance to convert.
+    - id: rootName
+      type: System.String
+      description: Name of the root record.
+    typeParameters:
+    - id: T
+      description: The type of entity to convert.
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.Record}
+      description: A set of records.
+    content.vb: Function GetRecordsFor(Of T)(instance As T, rootName As String) As IEnumerable(Of Record)
+  overload: SuperOffice.Data.IRecordSetProvider.GetRecordsFor*
+  nameWithType.vb: IRecordSetProvider.GetRecordsFor(Of T)(T, String)
+  fullName.vb: SuperOffice.Data.IRecordSetProvider.GetRecordsFor(Of T)(T, System.String)
+  name.vb: GetRecordsFor(Of T)(T, String)
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.IRecordSetProvider.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IRecordSetProvider, To>()
+  nameWithType: EnumUtil.MapEnums<IRecordSetProvider, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.IRecordSetProvider, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IRecordSetProvider, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.IRecordSetProvider, To)()
+  name.vb: MapEnums(Of IRecordSetProvider, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IRecordSetProvider, To>
+    nameWithType: EnumUtil.MapEnums<IRecordSetProvider, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.IRecordSetProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IRecordSetProvider, To)
+    nameWithType: EnumUtil.MapEnums(Of IRecordSetProvider, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.IRecordSetProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.IRecordSetProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IRecordSetProvider, To>()
+  nameWithType: Converters.MapEnums<IRecordSetProvider, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.IRecordSetProvider, To>()
+  nameWithType.vb: Converters.MapEnums(Of IRecordSetProvider, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.IRecordSetProvider, To)()
+  name.vb: MapEnums(Of IRecordSetProvider, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IRecordSetProvider, To>
+    nameWithType: Converters.MapEnums<IRecordSetProvider, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.IRecordSetProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IRecordSetProvider, To)
+    nameWithType: Converters.MapEnums(Of IRecordSetProvider, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.IRecordSetProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.IRecordSetProvider.GetRecordsFor*
+  commentId: Overload:SuperOffice.Data.IRecordSetProvider.GetRecordsFor
+  isExternal: true
+  name: GetRecordsFor
+  nameWithType: IRecordSetProvider.GetRecordsFor
+  fullName: SuperOffice.Data.IRecordSetProvider.GetRecordsFor
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.Record}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.Record}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Record>
+  nameWithType: IEnumerable<Record>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.Record>
+  nameWithType.vb: IEnumerable(Of Record)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.Record)
+  name.vb: IEnumerable(Of Record)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.Record
+    name: Record
+    nameWithType: Record
+    fullName: SuperOffice.Data.Record
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.Record
+    name: Record
+    nameWithType: Record
+    fullName: SuperOffice.Data.Record
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

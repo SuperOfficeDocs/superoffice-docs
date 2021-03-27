@@ -1,0 +1,1509 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ParticipantInfo
+  commentId: T:SuperOffice.CRM.Services.ParticipantInfo
+  id: ParticipantInfo
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ParticipantInfo.#ctor
+  - SuperOffice.CRM.Services.ParticipantInfo.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  - SuperOffice.CRM.Services.ParticipantInfo.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,SuperOffice.Data.InvitationStatus)
+  - SuperOffice.CRM.Services.ParticipantInfo.AssociateId
+  - SuperOffice.CRM.Services.ParticipantInfo.ContactId
+  - SuperOffice.CRM.Services.ParticipantInfo.EmailId
+  - SuperOffice.CRM.Services.ParticipantInfo.Equals(SuperOffice.CRM.Services.ParticipantInfo)
+  - SuperOffice.CRM.Services.ParticipantInfo.Equals(System.Object)
+  - SuperOffice.CRM.Services.ParticipantInfo.GetHashCode
+  - SuperOffice.CRM.Services.ParticipantInfo.InvitationStatus
+  - SuperOffice.CRM.Services.ParticipantInfo.op_Equality(SuperOffice.CRM.Services.ParticipantInfo,SuperOffice.CRM.Services.ParticipantInfo)
+  - SuperOffice.CRM.Services.ParticipantInfo.op_Inequality(SuperOffice.CRM.Services.ParticipantInfo,SuperOffice.CRM.Services.ParticipantInfo)
+  - SuperOffice.CRM.Services.ParticipantInfo.PersonId
+  - SuperOffice.CRM.Services.ParticipantInfo.SendEmail
+  - SuperOffice.CRM.Services.ParticipantInfo.ToString
+  - SuperOffice.CRM.Services.ParticipantInfo.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ParticipantInfo
+  nameWithType: ParticipantInfo
+  fullName: SuperOffice.CRM.Services.ParticipantInfo
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nClass representing an appointment participant.\n"
+  syntax:
+    content: 'public class ParticipantInfo : IEquatable<ParticipantInfo>'
+    content.vb: >-
+      Public Class ParticipantInfo
+          Implements IEquatable(Of ParticipantInfo)
+  inheritance:
+  - System.Object
+  implements:
+  - System.IEquatable{SuperOffice.CRM.Services.ParticipantInfo}
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Services.ParticipantInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Services.ParticipantInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.ParticipantInfo)
+  - SuperOffice.CRM.Services.ParticipantInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Services.ParticipantInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ParticipantInfo.#ctor
+  commentId: M:SuperOffice.CRM.Services.ParticipantInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: ParticipantInfo()
+  nameWithType: ParticipantInfo.ParticipantInfo()
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.ParticipantInfo()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public ParticipantInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ParticipantInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ParticipantInfo.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.ParticipantInfo.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  id: '#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)'
+  parent: SuperOffice.CRM.Services.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: ParticipantInfo(Int32, Int32, Int32, Int32, Boolean)
+  nameWithType: ParticipantInfo.ParticipantInfo(Int32, Int32, Int32, Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.ParticipantInfo(System.Int32, System.Int32, System.Int32, System.Int32, System.Boolean)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public ParticipantInfo(int associateId, int personId, int contactId, int emailId, bool sendEmail)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    - id: personId
+      type: System.Int32
+    - id: contactId
+      type: System.Int32
+    - id: emailId
+      type: System.Int32
+      description: Primary key of the e-mail record.  This value is set if an e-mail is sent to this party.
+    - id: sendEmail
+      type: System.Boolean
+      description: True if the user should be sent an email
+    content.vb: Public Sub New(associateId As Integer, personId As Integer, contactId As Integer, emailId As Integer, sendEmail As Boolean)
+  overload: SuperOffice.CRM.Services.ParticipantInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ParticipantInfo.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,SuperOffice.Data.InvitationStatus)
+  commentId: M:SuperOffice.CRM.Services.ParticipantInfo.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,SuperOffice.Data.InvitationStatus)
+  id: '#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,SuperOffice.Data.InvitationStatus)'
+  parent: SuperOffice.CRM.Services.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: ParticipantInfo(Int32, Int32, Int32, Int32, Boolean, InvitationStatus)
+  nameWithType: ParticipantInfo.ParticipantInfo(Int32, Int32, Int32, Int32, Boolean, InvitationStatus)
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.ParticipantInfo(System.Int32, System.Int32, System.Int32, System.Int32, System.Boolean, SuperOffice.Data.InvitationStatus)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public ParticipantInfo(int associateId, int personId, int contactId, int emailId, bool sendEmail, InvitationStatus invitationStatus)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    - id: personId
+      type: System.Int32
+    - id: contactId
+      type: System.Int32
+    - id: emailId
+      type: System.Int32
+      description: Primary key of the e-mail record.  This value is set if an e-mail is sent to this party.
+    - id: sendEmail
+      type: System.Boolean
+      description: True if the user should be sent an email
+    - id: invitationStatus
+      type: SuperOffice.Data.InvitationStatus
+      description: Booking status
+    content.vb: Public Sub New(associateId As Integer, personId As Integer, contactId As Integer, emailId As Integer, sendEmail As Boolean, invitationStatus As InvitationStatus)
+  overload: SuperOffice.CRM.Services.ParticipantInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ParticipantInfo.GetHashCode
+  commentId: M:SuperOffice.CRM.Services.ParticipantInfo.GetHashCode
+  id: GetHashCode
+  parent: SuperOffice.CRM.Services.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: ParticipantInfo.GetHashCode()
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.GetHashCode()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGenerate a unique integer based on the associate/person id\n"
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overridden: System.Object.GetHashCode
+  overload: SuperOffice.CRM.Services.ParticipantInfo.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ParticipantInfo.Equals(SuperOffice.CRM.Services.ParticipantInfo)
+  commentId: M:SuperOffice.CRM.Services.ParticipantInfo.Equals(SuperOffice.CRM.Services.ParticipantInfo)
+  id: Equals(SuperOffice.CRM.Services.ParticipantInfo)
+  parent: SuperOffice.CRM.Services.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: Equals(ParticipantInfo)
+  nameWithType: ParticipantInfo.Equals(ParticipantInfo)
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.Equals(SuperOffice.CRM.Services.ParticipantInfo)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDetermine equality: Equal if associate_ids match or if person_ids match. Unequal otherwise\n"
+  syntax:
+    content: public bool Equals(ParticipantInfo other)
+    parameters:
+    - id: other
+      type: SuperOffice.CRM.Services.ParticipantInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As ParticipantInfo) As Boolean
+  overload: SuperOffice.CRM.Services.ParticipantInfo.Equals*
+  implements:
+  - System.IEquatable{SuperOffice.CRM.Services.ParticipantInfo}.Equals(SuperOffice.CRM.Services.ParticipantInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ParticipantInfo.op_Equality(SuperOffice.CRM.Services.ParticipantInfo,SuperOffice.CRM.Services.ParticipantInfo)
+  commentId: M:SuperOffice.CRM.Services.ParticipantInfo.op_Equality(SuperOffice.CRM.Services.ParticipantInfo,SuperOffice.CRM.Services.ParticipantInfo)
+  id: op_Equality(SuperOffice.CRM.Services.ParticipantInfo,SuperOffice.CRM.Services.ParticipantInfo)
+  parent: SuperOffice.CRM.Services.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: Equality(ParticipantInfo, ParticipantInfo)
+  nameWithType: ParticipantInfo.Equality(ParticipantInfo, ParticipantInfo)
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.Equality(SuperOffice.CRM.Services.ParticipantInfo, SuperOffice.CRM.Services.ParticipantInfo)
+  type: Operator
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDetermine if the objects are identical.\n"
+  syntax:
+    content: public static bool operator ==(ParticipantInfo a, ParticipantInfo b)
+    parameters:
+    - id: a
+      type: SuperOffice.CRM.Services.ParticipantInfo
+    - id: b
+      type: SuperOffice.CRM.Services.ParticipantInfo
+    return:
+      type: System.Boolean
+      description: True if the objects are identical
+    content.vb: Public Shared Operator =(a As ParticipantInfo, b As ParticipantInfo) As Boolean
+  overload: SuperOffice.CRM.Services.ParticipantInfo.op_Equality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Services.ParticipantInfo.op_Inequality(SuperOffice.CRM.Services.ParticipantInfo,SuperOffice.CRM.Services.ParticipantInfo)
+  commentId: M:SuperOffice.CRM.Services.ParticipantInfo.op_Inequality(SuperOffice.CRM.Services.ParticipantInfo,SuperOffice.CRM.Services.ParticipantInfo)
+  id: op_Inequality(SuperOffice.CRM.Services.ParticipantInfo,SuperOffice.CRM.Services.ParticipantInfo)
+  parent: SuperOffice.CRM.Services.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: Inequality(ParticipantInfo, ParticipantInfo)
+  nameWithType: ParticipantInfo.Inequality(ParticipantInfo, ParticipantInfo)
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.Inequality(SuperOffice.CRM.Services.ParticipantInfo, SuperOffice.CRM.Services.ParticipantInfo)
+  type: Operator
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDetermine if the objects differ.\n"
+  syntax:
+    content: public static bool operator !=(ParticipantInfo a, ParticipantInfo b)
+    parameters:
+    - id: a
+      type: SuperOffice.CRM.Services.ParticipantInfo
+    - id: b
+      type: SuperOffice.CRM.Services.ParticipantInfo
+    return:
+      type: System.Boolean
+      description: True if the objects differ
+    content.vb: Public Shared Operator <>(a As ParticipantInfo, b As ParticipantInfo) As Boolean
+  overload: SuperOffice.CRM.Services.ParticipantInfo.op_Inequality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Services.ParticipantInfo.Equals(System.Object)
+  commentId: M:SuperOffice.CRM.Services.ParticipantInfo.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: SuperOffice.CRM.Services.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: ParticipantInfo.Equals(Object)
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.Equals(System.Object)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDetermine if the provided object is identical to this one.\n"
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to determine.
+    return:
+      type: System.Boolean
+      description: True if the objects are identical.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: SuperOffice.CRM.Services.ParticipantInfo.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ParticipantInfo.ToString
+  commentId: M:SuperOffice.CRM.Services.ParticipantInfo.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ParticipantInfo.ToString()
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.ToString()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturn a string that&apos;s nice for debugging\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.Services.ParticipantInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ParticipantInfo.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ParticipantInfo.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ParticipantInfo.ToString(String)
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.ToString(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ParticipantInfo.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ParticipantInfo.AssociateId
+  commentId: P:SuperOffice.CRM.Services.ParticipantInfo.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Services.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: ParticipantInfo.AssociateId
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.AssociateId
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAssociate id of the participant if the participant is an associate (or resource)\n"
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.CRM.Services.ParticipantInfo.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ParticipantInfo.PersonId
+  commentId: P:SuperOffice.CRM.Services.ParticipantInfo.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Services.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: ParticipantInfo.PersonId
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.PersonId
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPerson id of the participant if the participant is a person\n"
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.CRM.Services.ParticipantInfo.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ParticipantInfo.ContactId
+  commentId: P:SuperOffice.CRM.Services.ParticipantInfo.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Services.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: ParticipantInfo.ContactId
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.ContactId
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContact id of the participant if the participant is an associate or person\n"
+  syntax:
+    content: public int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ContactId As Integer
+  overload: SuperOffice.CRM.Services.ParticipantInfo.ContactId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ParticipantInfo.EmailId
+  commentId: P:SuperOffice.CRM.Services.ParticipantInfo.EmailId
+  id: EmailId
+  parent: SuperOffice.CRM.Services.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: EmailId
+  nameWithType: ParticipantInfo.EmailId
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.EmailId
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe email id of the email belonging to the appointment record belonging to this person\n"
+  syntax:
+    content: public int EmailId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property EmailId As Integer
+  overload: SuperOffice.CRM.Services.ParticipantInfo.EmailId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ParticipantInfo.SendEmail
+  commentId: P:SuperOffice.CRM.Services.ParticipantInfo.SendEmail
+  id: SendEmail
+  parent: SuperOffice.CRM.Services.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: SendEmail
+  nameWithType: ParticipantInfo.SendEmail
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.SendEmail
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue if the participant has been sent an email or should be sent an email\n"
+  syntax:
+    content: public bool SendEmail { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SendEmail As Boolean
+  overload: SuperOffice.CRM.Services.ParticipantInfo.SendEmail*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ParticipantInfo.InvitationStatus
+  commentId: P:SuperOffice.CRM.Services.ParticipantInfo.InvitationStatus
+  id: InvitationStatus
+  parent: SuperOffice.CRM.Services.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: InvitationStatus
+  nameWithType: ParticipantInfo.InvitationStatus
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.InvitationStatus
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe participant status for the appointment\n"
+  syntax:
+    content: public InvitationStatus InvitationStatus { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.InvitationStatus
+    content.vb: Public Property InvitationStatus As InvitationStatus
+  overload: SuperOffice.CRM.Services.ParticipantInfo.InvitationStatus*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IEquatable{SuperOffice.CRM.Services.ParticipantInfo}
+  commentId: T:System.IEquatable{SuperOffice.CRM.Services.ParticipantInfo}
+  parent: System
+  definition: System.IEquatable`1
+  name: IEquatable<ParticipantInfo>
+  nameWithType: IEquatable<ParticipantInfo>
+  fullName: System.IEquatable<SuperOffice.CRM.Services.ParticipantInfo>
+  nameWithType.vb: IEquatable(Of ParticipantInfo)
+  fullName.vb: System.IEquatable(Of SuperOffice.CRM.Services.ParticipantInfo)
+  name.vb: IEquatable(Of ParticipantInfo)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.ParticipantInfo
+    name: ParticipantInfo
+    nameWithType: ParticipantInfo
+    fullName: SuperOffice.CRM.Services.ParticipantInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.ParticipantInfo
+    name: ParticipantInfo
+    nameWithType: ParticipantInfo
+    fullName: SuperOffice.CRM.Services.ParticipantInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ParticipantInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ParticipantInfo, To>()
+  nameWithType: EnumUtil.MapEnums<ParticipantInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.ParticipantInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ParticipantInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.ParticipantInfo, To)()
+  name.vb: MapEnums(Of ParticipantInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ParticipantInfo, To>
+    nameWithType: EnumUtil.MapEnums<ParticipantInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.ParticipantInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ParticipantInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of ParticipantInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.ParticipantInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ParticipantInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.ParticipantInfo)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ParticipantInfo>(ParticipantInfo)
+  nameWithType: ObjectExtensions.AssignByReflection<ParticipantInfo>(ParticipantInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Services.ParticipantInfo>(SuperOffice.CRM.Services.ParticipantInfo)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ParticipantInfo)(ParticipantInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Services.ParticipantInfo)(SuperOffice.CRM.Services.ParticipantInfo)
+  name.vb: AssignByReflection(Of ParticipantInfo)(ParticipantInfo)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ParticipantInfo>
+    nameWithType: ObjectExtensions.AssignByReflection<ParticipantInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Services.ParticipantInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ParticipantInfo
+    name: ParticipantInfo
+    nameWithType: ParticipantInfo
+    fullName: SuperOffice.CRM.Services.ParticipantInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ParticipantInfo)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ParticipantInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Services.ParticipantInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ParticipantInfo
+    name: ParticipantInfo
+    nameWithType: ParticipantInfo
+    fullName: SuperOffice.CRM.Services.ParticipantInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ParticipantInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ParticipantInfo>()
+  nameWithType: ObjectExtensions.GraphCopy<ParticipantInfo>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Services.ParticipantInfo>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ParticipantInfo)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Services.ParticipantInfo)()
+  name.vb: GraphCopy(Of ParticipantInfo)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ParticipantInfo>
+    nameWithType: ObjectExtensions.GraphCopy<ParticipantInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Services.ParticipantInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ParticipantInfo)
+    nameWithType: ObjectExtensions.GraphCopy(Of ParticipantInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Services.ParticipantInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ParticipantInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ParticipantInfo, To>()
+  nameWithType: Converters.MapEnums<ParticipantInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.ParticipantInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of ParticipantInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.ParticipantInfo, To)()
+  name.vb: MapEnums(Of ParticipantInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ParticipantInfo, To>
+    nameWithType: Converters.MapEnums<ParticipantInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.ParticipantInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ParticipantInfo, To)
+    nameWithType: Converters.MapEnums(Of ParticipantInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.ParticipantInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Services.ParticipantInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantInfo.#ctor
+  isExternal: true
+  name: ParticipantInfo
+  nameWithType: ParticipantInfo.ParticipantInfo
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.ParticipantInfo
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Data.InvitationStatus
+  commentId: T:SuperOffice.Data.InvitationStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: InvitationStatus
+  nameWithType: InvitationStatus
+  fullName: SuperOffice.Data.InvitationStatus
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ParticipantInfo.GetHashCode*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantInfo.GetHashCode
+  isExternal: true
+  name: GetHashCode
+  nameWithType: ParticipantInfo.GetHashCode
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.GetHashCode
+- uid: SuperOffice.CRM.Services.ParticipantInfo.Equals*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantInfo.Equals
+  isExternal: true
+  name: Equals
+  nameWithType: ParticipantInfo.Equals
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.Equals
+- uid: System.IEquatable{SuperOffice.CRM.Services.ParticipantInfo}.Equals(SuperOffice.CRM.Services.ParticipantInfo)
+  commentId: M:System.IEquatable{SuperOffice.CRM.Services.ParticipantInfo}.Equals(SuperOffice.CRM.Services.ParticipantInfo)
+  parent: System.IEquatable{SuperOffice.CRM.Services.ParticipantInfo}
+  definition: System.IEquatable`1.Equals(`0)
+  name: Equals(ParticipantInfo)
+  nameWithType: IEquatable<ParticipantInfo>.Equals(ParticipantInfo)
+  fullName: System.IEquatable<SuperOffice.CRM.Services.ParticipantInfo>.Equals(SuperOffice.CRM.Services.ParticipantInfo)
+  nameWithType.vb: IEquatable(Of ParticipantInfo).Equals(ParticipantInfo)
+  fullName.vb: System.IEquatable(Of SuperOffice.CRM.Services.ParticipantInfo).Equals(SuperOffice.CRM.Services.ParticipantInfo)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable<ParticipantInfo>.Equals
+    fullName: System.IEquatable<SuperOffice.CRM.Services.ParticipantInfo>.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ParticipantInfo
+    name: ParticipantInfo
+    nameWithType: ParticipantInfo
+    fullName: SuperOffice.CRM.Services.ParticipantInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable(Of ParticipantInfo).Equals
+    fullName: System.IEquatable(Of SuperOffice.CRM.Services.ParticipantInfo).Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ParticipantInfo
+    name: ParticipantInfo
+    nameWithType: ParticipantInfo
+    fullName: SuperOffice.CRM.Services.ParticipantInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ParticipantInfo
+  commentId: T:SuperOffice.CRM.Services.ParticipantInfo
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ParticipantInfo
+  nameWithType: ParticipantInfo
+  fullName: SuperOffice.CRM.Services.ParticipantInfo
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable<T>.Equals
+    fullName: System.IEquatable<T>.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable(Of T).Equals
+    fullName: System.IEquatable(Of T).Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ParticipantInfo.op_Equality*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantInfo.op_Equality
+  isExternal: true
+  name: Equality
+  nameWithType: ParticipantInfo.Equality
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.Equality
+- uid: SuperOffice.CRM.Services.ParticipantInfo.op_Inequality*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantInfo.op_Inequality
+  isExternal: true
+  name: Inequality
+  nameWithType: ParticipantInfo.Inequality
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.Inequality
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ParticipantInfo.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantInfo.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ParticipantInfo.ToString
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ParticipantInfo.AssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantInfo.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: ParticipantInfo.AssociateId
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.AssociateId
+- uid: SuperOffice.CRM.Services.ParticipantInfo.PersonId*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantInfo.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: ParticipantInfo.PersonId
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.PersonId
+- uid: SuperOffice.CRM.Services.ParticipantInfo.ContactId*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantInfo.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: ParticipantInfo.ContactId
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.ContactId
+- uid: SuperOffice.CRM.Services.ParticipantInfo.EmailId*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantInfo.EmailId
+  isExternal: true
+  name: EmailId
+  nameWithType: ParticipantInfo.EmailId
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.EmailId
+- uid: SuperOffice.CRM.Services.ParticipantInfo.SendEmail*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantInfo.SendEmail
+  isExternal: true
+  name: SendEmail
+  nameWithType: ParticipantInfo.SendEmail
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.SendEmail
+- uid: SuperOffice.CRM.Services.ParticipantInfo.InvitationStatus*
+  commentId: Overload:SuperOffice.CRM.Services.ParticipantInfo.InvitationStatus
+  isExternal: true
+  name: InvitationStatus
+  nameWithType: ParticipantInfo.InvitationStatus
+  fullName: SuperOffice.CRM.Services.ParticipantInfo.InvitationStatus

@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest
+  commentId: T:SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest
+  id: Selection_CreateTemporarySelectionFromIdsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest.#ctor
+  - SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest.Ids
+  - SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest.TargetTableNumber
+  langs:
+  - csharp
+  - vb
+  name: Selection_CreateTemporarySelectionFromIdsRequest
+  nameWithType: Selection_CreateTemporarySelectionFromIdsRequest
+  fullName: SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Selection_CreateTemporarySelectionFromIdsRequest : Object'
+    content.vb: >-
+      Public Class Selection_CreateTemporarySelectionFromIdsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: Selection_CreateTemporarySelectionFromIdsRequest()
+  nameWithType: Selection_CreateTemporarySelectionFromIdsRequest.Selection_CreateTemporarySelectionFromIdsRequest()
+  fullName: SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest.Selection_CreateTemporarySelectionFromIdsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Selection_CreateTemporarySelectionFromIdsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest.Ids
+  commentId: P:SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest.Ids
+  id: Ids
+  parent: SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: Ids
+  nameWithType: Selection_CreateTemporarySelectionFromIdsRequest.Ids
+  fullName: SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest.Ids
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] Ids { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property Ids As Integer()
+  overload: SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest.Ids*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest.TargetTableNumber
+  commentId: P:SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest.TargetTableNumber
+  id: TargetTableNumber
+  parent: SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: TargetTableNumber
+  nameWithType: Selection_CreateTemporarySelectionFromIdsRequest.TargetTableNumber
+  fullName: SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest.TargetTableNumber
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TargetTableNumber { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TargetTableNumber As Integer
+  overload: SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest.TargetTableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest.#ctor
+  isExternal: true
+  name: Selection_CreateTemporarySelectionFromIdsRequest
+  nameWithType: Selection_CreateTemporarySelectionFromIdsRequest.Selection_CreateTemporarySelectionFromIdsRequest
+  fullName: SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest.Selection_CreateTemporarySelectionFromIdsRequest
+- uid: SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest.Ids*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest.Ids
+  isExternal: true
+  name: Ids
+  nameWithType: Selection_CreateTemporarySelectionFromIdsRequest.Ids
+  fullName: SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest.Ids
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest.TargetTableNumber*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest.TargetTableNumber
+  isExternal: true
+  name: TargetTableNumber
+  nameWithType: Selection_CreateTemporarySelectionFromIdsRequest.TargetTableNumber
+  fullName: SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest.TargetTableNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

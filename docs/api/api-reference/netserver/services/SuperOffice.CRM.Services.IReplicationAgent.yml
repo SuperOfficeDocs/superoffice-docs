@@ -1,0 +1,449 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.IReplicationAgent
+  commentId: T:SuperOffice.CRM.Services.IReplicationAgent
+  id: IReplicationAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.IReplicationAgent.CreateDefaultSatellite
+  - SuperOffice.CRM.Services.IReplicationAgent.GetArea(System.Int32)
+  - SuperOffice.CRM.Services.IReplicationAgent.GetAreaList(System.Int32[])
+  - SuperOffice.CRM.Services.IReplicationAgent.GetCentralLicense
+  - SuperOffice.CRM.Services.IReplicationAgent.GetSatellite(System.Int32)
+  - SuperOffice.CRM.Services.IReplicationAgent.SaveCentralLicense(SuperOffice.CRM.Services.LicenseOwner[])
+  - SuperOffice.CRM.Services.IReplicationAgent.SaveSatellite(SuperOffice.CRM.Services.Satellite)
+  - SuperOffice.CRM.Services.IReplicationAgent.SetFreetextSearchEnabledOnArea(System.Int32,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: IReplicationAgent
+  nameWithType: IReplicationAgent
+  fullName: SuperOffice.CRM.Services.IReplicationAgent
+  type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInterface for the Replication Agent\nReplication/Travel administration\n<p></p>\n<strong>Online Restricted:</strong> This agent is not available in Online by default. Not available in Online. Only used on-site.\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (ReplicationAgent agent = new ReplicationAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: >-
+      [Agent("Replication Agent", "Interface for the Replication Agent. Replication/Travel administration")]
+
+      public interface IReplicationAgent : IAgent
+    content.vb: >-
+      <Agent("Replication Agent", "Interface for the Replication Agent. Replication/Travel administration")>
+
+      Public Interface IReplicationAgent
+          Inherits IAgent
+  attributes:
+  - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
+    ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: Replication Agent
+    - type: System.String
+      value: Interface for the Replication Agent. Replication/Travel administration
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Services.IReplicationAgent.CreateDefaultSatellite
+  commentId: M:SuperOffice.CRM.Services.IReplicationAgent.CreateDefaultSatellite
+  id: CreateDefaultSatellite
+  parent: SuperOffice.CRM.Services.IReplicationAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultSatellite()
+  nameWithType: IReplicationAgent.CreateDefaultSatellite()
+  fullName: SuperOffice.CRM.Services.IReplicationAgent.CreateDefaultSatellite()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new Satellite.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n<p></p>\n<strong>Online Restricted:</strong> The Replication agent is not available in Online by default. Not available in Online. Only used on-site.\n"
+  syntax:
+    content: Satellite CreateDefaultSatellite()
+    return:
+      type: SuperOffice.CRM.Services.Satellite
+      description: New Satellite with default values
+    content.vb: Function CreateDefaultSatellite As Satellite
+  overload: SuperOffice.CRM.Services.IReplicationAgent.CreateDefaultSatellite*
+- uid: SuperOffice.CRM.Services.IReplicationAgent.SaveSatellite(SuperOffice.CRM.Services.Satellite)
+  commentId: M:SuperOffice.CRM.Services.IReplicationAgent.SaveSatellite(SuperOffice.CRM.Services.Satellite)
+  id: SaveSatellite(SuperOffice.CRM.Services.Satellite)
+  parent: SuperOffice.CRM.Services.IReplicationAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveSatellite(Satellite)
+  nameWithType: IReplicationAgent.SaveSatellite(Satellite)
+  fullName: SuperOffice.CRM.Services.IReplicationAgent.SaveSatellite(SuperOffice.CRM.Services.Satellite)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing Satellite or creates a new Satellite if the id parameter is empty\n<p></p>\n<strong>Online Restricted:</strong> The Replication agent is not available in Online by default. Not available in Online. Only used on-site.\n"
+  syntax:
+    content: Satellite SaveSatellite(Satellite satellite)
+    parameters:
+    - id: satellite
+      type: SuperOffice.CRM.Services.Satellite
+      description: The Satellite that is saved.
+    return:
+      type: SuperOffice.CRM.Services.Satellite
+      description: New or updated Satellite
+    content.vb: Function SaveSatellite(satellite As Satellite) As Satellite
+  overload: SuperOffice.CRM.Services.IReplicationAgent.SaveSatellite*
+- uid: SuperOffice.CRM.Services.IReplicationAgent.GetArea(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IReplicationAgent.GetArea(System.Int32)
+  id: GetArea(System.Int32)
+  parent: SuperOffice.CRM.Services.IReplicationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArea(Int32)
+  nameWithType: IReplicationAgent.GetArea(Int32)
+  fullName: SuperOffice.CRM.Services.IReplicationAgent.GetArea(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a Area object.                        \n<p></p>\n<strong>Online Restricted:</strong> The Replication agent is not available in Online by default. Not available in Online. Only used on-site.\n"
+  syntax:
+    content: Area GetArea(int areaId)
+    parameters:
+    - id: areaId
+      type: System.Int32
+      description: The identifier of the Area object
+    return:
+      type: SuperOffice.CRM.Services.Area
+      description: Area
+    content.vb: Function GetArea(areaId As Integer) As Area
+  overload: SuperOffice.CRM.Services.IReplicationAgent.GetArea*
+- uid: SuperOffice.CRM.Services.IReplicationAgent.SetFreetextSearchEnabledOnArea(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IReplicationAgent.SetFreetextSearchEnabledOnArea(System.Int32,System.Boolean)
+  id: SetFreetextSearchEnabledOnArea(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.IReplicationAgent
+  langs:
+  - csharp
+  - vb
+  name: SetFreetextSearchEnabledOnArea(Int32, Boolean)
+  nameWithType: IReplicationAgent.SetFreetextSearchEnabledOnArea(Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.IReplicationAgent.SetFreetextSearchEnabledOnArea(System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEnable freetext search on this area\n<p></p>\n<strong>Online Restricted:</strong> The Replication agent is not available in Online by default. Not available in Online. Only used on-site.\n"
+  syntax:
+    content: void SetFreetextSearchEnabledOnArea(int areaId, bool freetextEnabled)
+    parameters:
+    - id: areaId
+      type: System.Int32
+      description: The id of the area
+    - id: freetextEnabled
+      type: System.Boolean
+      description: True if freetextSearch on this area shall be enabled
+    content.vb: Sub SetFreetextSearchEnabledOnArea(areaId As Integer, freetextEnabled As Boolean)
+  overload: SuperOffice.CRM.Services.IReplicationAgent.SetFreetextSearchEnabledOnArea*
+- uid: SuperOffice.CRM.Services.IReplicationAgent.GetAreaList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.IReplicationAgent.GetAreaList(System.Int32[])
+  id: GetAreaList(System.Int32[])
+  parent: SuperOffice.CRM.Services.IReplicationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAreaList(Int32[])
+  nameWithType: IReplicationAgent.GetAreaList(Int32[])
+  fullName: SuperOffice.CRM.Services.IReplicationAgent.GetAreaList(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets an array of Area objects.                        \n<p></p>\n<strong>Online Restricted:</strong> The Replication agent is not available in Online by default. Not available in Online. Only used on-site.\n"
+  syntax:
+    content: Area[] GetAreaList(int[] areaIds)
+    parameters:
+    - id: areaIds
+      type: System.Int32[]
+      description: The identifiers of the Area object
+    return:
+      type: SuperOffice.CRM.Services.Area[]
+      description: Array of Area objects
+    content.vb: Function GetAreaList(areaIds As Integer()) As Area()
+  overload: SuperOffice.CRM.Services.IReplicationAgent.GetAreaList*
+  nameWithType.vb: IReplicationAgent.GetAreaList(Int32())
+  fullName.vb: SuperOffice.CRM.Services.IReplicationAgent.GetAreaList(System.Int32())
+  name.vb: GetAreaList(Int32())
+- uid: SuperOffice.CRM.Services.IReplicationAgent.GetSatellite(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IReplicationAgent.GetSatellite(System.Int32)
+  id: GetSatellite(System.Int32)
+  parent: SuperOffice.CRM.Services.IReplicationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSatellite(Int32)
+  nameWithType: IReplicationAgent.GetSatellite(Int32)
+  fullName: SuperOffice.CRM.Services.IReplicationAgent.GetSatellite(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a Satellite object.                        \n<p></p>\n<strong>Online Restricted:</strong> The Replication agent is not available in Online by default. Not available in Online. Only used on-site.\n"
+  syntax:
+    content: Satellite GetSatellite(int satelliteId)
+    parameters:
+    - id: satelliteId
+      type: System.Int32
+      description: The identifier of the Satellite object
+    return:
+      type: SuperOffice.CRM.Services.Satellite
+      description: Satellite
+    content.vb: Function GetSatellite(satelliteId As Integer) As Satellite
+  overload: SuperOffice.CRM.Services.IReplicationAgent.GetSatellite*
+- uid: SuperOffice.CRM.Services.IReplicationAgent.GetCentralLicense
+  commentId: M:SuperOffice.CRM.Services.IReplicationAgent.GetCentralLicense
+  id: GetCentralLicense
+  parent: SuperOffice.CRM.Services.IReplicationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCentralLicense()
+  nameWithType: IReplicationAgent.GetCentralLicense()
+  fullName: SuperOffice.CRM.Services.IReplicationAgent.GetCentralLicense()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n<p></p>\n<strong>Online Restricted:</strong> The Replication agent is not available in Online by default. Not available in Online. Only used on-site.\n"
+  syntax:
+    content: LicenseOwner[] GetCentralLicense()
+    return:
+      type: SuperOffice.CRM.Services.LicenseOwner[]
+    content.vb: Function GetCentralLicense As LicenseOwner()
+  overload: SuperOffice.CRM.Services.IReplicationAgent.GetCentralLicense*
+- uid: SuperOffice.CRM.Services.IReplicationAgent.SaveCentralLicense(SuperOffice.CRM.Services.LicenseOwner[])
+  commentId: M:SuperOffice.CRM.Services.IReplicationAgent.SaveCentralLicense(SuperOffice.CRM.Services.LicenseOwner[])
+  id: SaveCentralLicense(SuperOffice.CRM.Services.LicenseOwner[])
+  parent: SuperOffice.CRM.Services.IReplicationAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveCentralLicense(LicenseOwner[])
+  nameWithType: IReplicationAgent.SaveCentralLicense(LicenseOwner[])
+  fullName: SuperOffice.CRM.Services.IReplicationAgent.SaveCentralLicense(SuperOffice.CRM.Services.LicenseOwner[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n<p></p>\n<strong>Online Restricted:</strong> The Replication agent is not available in Online by default. Not available in Online. Only used on-site.\n"
+  syntax:
+    content: LicenseOwner[] SaveCentralLicense(LicenseOwner[] license)
+    parameters:
+    - id: license
+      type: SuperOffice.CRM.Services.LicenseOwner[]
+    return:
+      type: SuperOffice.CRM.Services.LicenseOwner[]
+    content.vb: Function SaveCentralLicense(license As LicenseOwner()) As LicenseOwner()
+  overload: SuperOffice.CRM.Services.IReplicationAgent.SaveCentralLicense*
+  nameWithType.vb: IReplicationAgent.SaveCentralLicense(LicenseOwner())
+  fullName.vb: SuperOffice.CRM.Services.IReplicationAgent.SaveCentralLicense(SuperOffice.CRM.Services.LicenseOwner())
+  name.vb: SaveCentralLicense(LicenseOwner())
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.IReplicationAgent.CreateDefaultSatellite*
+  commentId: Overload:SuperOffice.CRM.Services.IReplicationAgent.CreateDefaultSatellite
+  isExternal: true
+  name: CreateDefaultSatellite
+  nameWithType: IReplicationAgent.CreateDefaultSatellite
+  fullName: SuperOffice.CRM.Services.IReplicationAgent.CreateDefaultSatellite
+- uid: SuperOffice.CRM.Services.Satellite
+  commentId: T:SuperOffice.CRM.Services.Satellite
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Satellite
+  nameWithType: Satellite
+  fullName: SuperOffice.CRM.Services.Satellite
+- uid: SuperOffice.CRM.Services.IReplicationAgent.SaveSatellite*
+  commentId: Overload:SuperOffice.CRM.Services.IReplicationAgent.SaveSatellite
+  isExternal: true
+  name: SaveSatellite
+  nameWithType: IReplicationAgent.SaveSatellite
+  fullName: SuperOffice.CRM.Services.IReplicationAgent.SaveSatellite
+- uid: SuperOffice.CRM.Services.IReplicationAgent.GetArea*
+  commentId: Overload:SuperOffice.CRM.Services.IReplicationAgent.GetArea
+  isExternal: true
+  name: GetArea
+  nameWithType: IReplicationAgent.GetArea
+  fullName: SuperOffice.CRM.Services.IReplicationAgent.GetArea
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.Area
+  commentId: T:SuperOffice.CRM.Services.Area
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Area
+  nameWithType: Area
+  fullName: SuperOffice.CRM.Services.Area
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.IReplicationAgent.SetFreetextSearchEnabledOnArea*
+  commentId: Overload:SuperOffice.CRM.Services.IReplicationAgent.SetFreetextSearchEnabledOnArea
+  isExternal: true
+  name: SetFreetextSearchEnabledOnArea
+  nameWithType: IReplicationAgent.SetFreetextSearchEnabledOnArea
+  fullName: SuperOffice.CRM.Services.IReplicationAgent.SetFreetextSearchEnabledOnArea
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.IReplicationAgent.GetAreaList*
+  commentId: Overload:SuperOffice.CRM.Services.IReplicationAgent.GetAreaList
+  isExternal: true
+  name: GetAreaList
+  nameWithType: IReplicationAgent.GetAreaList
+  fullName: SuperOffice.CRM.Services.IReplicationAgent.GetAreaList
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.Area[]
+  isExternal: true
+  name: Area[]
+  nameWithType: Area[]
+  fullName: SuperOffice.CRM.Services.Area[]
+  nameWithType.vb: Area()
+  fullName.vb: SuperOffice.CRM.Services.Area()
+  name.vb: Area()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Area
+    name: Area
+    nameWithType: Area
+    fullName: SuperOffice.CRM.Services.Area
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Area
+    name: Area
+    nameWithType: Area
+    fullName: SuperOffice.CRM.Services.Area
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IReplicationAgent.GetSatellite*
+  commentId: Overload:SuperOffice.CRM.Services.IReplicationAgent.GetSatellite
+  isExternal: true
+  name: GetSatellite
+  nameWithType: IReplicationAgent.GetSatellite
+  fullName: SuperOffice.CRM.Services.IReplicationAgent.GetSatellite
+- uid: SuperOffice.CRM.Services.IReplicationAgent.GetCentralLicense*
+  commentId: Overload:SuperOffice.CRM.Services.IReplicationAgent.GetCentralLicense
+  isExternal: true
+  name: GetCentralLicense
+  nameWithType: IReplicationAgent.GetCentralLicense
+  fullName: SuperOffice.CRM.Services.IReplicationAgent.GetCentralLicense
+- uid: SuperOffice.CRM.Services.LicenseOwner[]
+  isExternal: true
+  name: LicenseOwner[]
+  nameWithType: LicenseOwner[]
+  fullName: SuperOffice.CRM.Services.LicenseOwner[]
+  nameWithType.vb: LicenseOwner()
+  fullName.vb: SuperOffice.CRM.Services.LicenseOwner()
+  name.vb: LicenseOwner()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.LicenseOwner
+    name: LicenseOwner
+    nameWithType: LicenseOwner
+    fullName: SuperOffice.CRM.Services.LicenseOwner
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.LicenseOwner
+    name: LicenseOwner
+    nameWithType: LicenseOwner
+    fullName: SuperOffice.CRM.Services.LicenseOwner
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IReplicationAgent.SaveCentralLicense*
+  commentId: Overload:SuperOffice.CRM.Services.IReplicationAgent.SaveCentralLicense
+  isExternal: true
+  name: SaveCentralLicense
+  nameWithType: IReplicationAgent.SaveCentralLicense
+  fullName: SuperOffice.CRM.Services.IReplicationAgent.SaveCentralLicense

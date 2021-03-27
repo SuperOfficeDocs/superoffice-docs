@@ -1,0 +1,369 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UDefType
+  commentId: T:SuperOffice.WebApi.Data.UDefType
+  id: UDefType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UDefType.Appointment
+  - SuperOffice.WebApi.Data.UDefType.Contact
+  - SuperOffice.WebApi.Data.UDefType.Document
+  - SuperOffice.WebApi.Data.UDefType.Invalid
+  - SuperOffice.WebApi.Data.UDefType.None
+  - SuperOffice.WebApi.Data.UDefType.Person
+  - SuperOffice.WebApi.Data.UDefType.Project
+  - SuperOffice.WebApi.Data.UDefType.Sale
+  - SuperOffice.WebApi.Data.UDefType.Temp
+  - SuperOffice.WebApi.Data.UDefType.value__
+  langs:
+  - csharp
+  - vb
+  name: UDefType
+  nameWithType: UDefType
+  fullName: SuperOffice.WebApi.Data.UDefType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSame as the EUDefType enum in the C++ client, this is the DATABASE value used for udef definitions\n"
+  syntax:
+    content: 'public sealed class UDefType : Enum'
+    content.vb: >-
+      Public NotInheritable Class UDefType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.UDefType.value__
+  commentId: F:SuperOffice.WebApi.Data.UDefType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.UDefType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: UDefType.value__
+  fullName: SuperOffice.WebApi.Data.UDefType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UDefType.Invalid
+  commentId: F:SuperOffice.WebApi.Data.UDefType.Invalid
+  id: Invalid
+  parent: SuperOffice.WebApi.Data.UDefType
+  langs:
+  - csharp
+  - vb
+  name: Invalid
+  nameWithType: UDefType.Invalid
+  fullName: SuperOffice.WebApi.Data.UDefType.Invalid
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Invalid\n"
+  syntax:
+    content: public const UDefType Invalid
+    return:
+      type: SuperOffice.WebApi.Data.UDefType
+    content.vb: Public Const Invalid As UDefType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UDefType.Contact
+  commentId: F:SuperOffice.WebApi.Data.UDefType.Contact
+  id: Contact
+  parent: SuperOffice.WebApi.Data.UDefType
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: UDefType.Contact
+  fullName: SuperOffice.WebApi.Data.UDefType.Contact
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: Owner is the contact table\n"
+  syntax:
+    content: public const UDefType Contact
+    return:
+      type: SuperOffice.WebApi.Data.UDefType
+    content.vb: Public Const Contact As UDefType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UDefType.Person
+  commentId: F:SuperOffice.WebApi.Data.UDefType.Person
+  id: Person
+  parent: SuperOffice.WebApi.Data.UDefType
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: UDefType.Person
+  fullName: SuperOffice.WebApi.Data.UDefType.Person
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: Owner is the Person table\n"
+  syntax:
+    content: public const UDefType Person
+    return:
+      type: SuperOffice.WebApi.Data.UDefType
+    content.vb: Public Const Person As UDefType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UDefType.Project
+  commentId: F:SuperOffice.WebApi.Data.UDefType.Project
+  id: Project
+  parent: SuperOffice.WebApi.Data.UDefType
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: UDefType.Project
+  fullName: SuperOffice.WebApi.Data.UDefType.Project
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n9: Owner is the project table\n"
+  syntax:
+    content: public const UDefType Project
+    return:
+      type: SuperOffice.WebApi.Data.UDefType
+    content.vb: Public Const Project As UDefType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UDefType.Sale
+  commentId: F:SuperOffice.WebApi.Data.UDefType.Sale
+  id: Sale
+  parent: SuperOffice.WebApi.Data.UDefType
+  langs:
+  - csharp
+  - vb
+  name: Sale
+  nameWithType: UDefType.Sale
+  fullName: SuperOffice.WebApi.Data.UDefType.Sale
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n10: Owner is the sale table\n"
+  syntax:
+    content: public const UDefType Sale
+    return:
+      type: SuperOffice.WebApi.Data.UDefType
+    content.vb: Public Const Sale As UDefType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UDefType.Temp
+  commentId: F:SuperOffice.WebApi.Data.UDefType.Temp
+  id: Temp
+  parent: SuperOffice.WebApi.Data.UDefType
+  langs:
+  - csharp
+  - vb
+  name: Temp
+  nameWithType: UDefType.Temp
+  fullName: SuperOffice.WebApi.Data.UDefType.Temp
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n11: This is the temporary udef table pair, used during reorganizations\n"
+  syntax:
+    content: public const UDefType Temp
+    return:
+      type: SuperOffice.WebApi.Data.UDefType
+    content.vb: Public Const Temp As UDefType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UDefType.Appointment
+  commentId: F:SuperOffice.WebApi.Data.UDefType.Appointment
+  id: Appointment
+  parent: SuperOffice.WebApi.Data.UDefType
+  langs:
+  - csharp
+  - vb
+  name: Appointment
+  nameWithType: UDefType.Appointment
+  fullName: SuperOffice.WebApi.Data.UDefType.Appointment
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n12: Owner is the appointment table\n"
+  syntax:
+    content: public const UDefType Appointment
+    return:
+      type: SuperOffice.WebApi.Data.UDefType
+    content.vb: Public Const Appointment As UDefType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UDefType.Document
+  commentId: F:SuperOffice.WebApi.Data.UDefType.Document
+  id: Document
+  parent: SuperOffice.WebApi.Data.UDefType
+  langs:
+  - csharp
+  - vb
+  name: Document
+  nameWithType: UDefType.Document
+  fullName: SuperOffice.WebApi.Data.UDefType.Document
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n13: Owner is the document table\n"
+  syntax:
+    content: public const UDefType Document
+    return:
+      type: SuperOffice.WebApi.Data.UDefType
+    content.vb: Public Const Document As UDefType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UDefType.None
+  commentId: F:SuperOffice.WebApi.Data.UDefType.None
+  id: None
+  parent: SuperOffice.WebApi.Data.UDefType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: UDefType.None
+  fullName: SuperOffice.WebApi.Data.UDefType.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n14: Owner is undefined, you should not see this value in a real database\n"
+  syntax:
+    content: public const UDefType None
+    return:
+      type: SuperOffice.WebApi.Data.UDefType
+    content.vb: Public Const None As UDefType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.UDefType
+  commentId: T:SuperOffice.WebApi.Data.UDefType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: UDefType
+  nameWithType: UDefType
+  fullName: SuperOffice.WebApi.Data.UDefType

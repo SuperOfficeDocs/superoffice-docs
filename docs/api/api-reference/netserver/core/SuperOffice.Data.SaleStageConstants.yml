@@ -1,0 +1,549 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.SaleStageConstants
+  commentId: T:SuperOffice.Data.SaleStageConstants
+  id: SaleStageConstants
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.SaleStageConstants.GetDeletedStageLinks
+  - SuperOffice.Data.SaleStageConstants.GetDeletedStages
+  - SuperOffice.Data.SaleStageConstants.HideOptionalRows
+  - SuperOffice.Data.SaleStageConstants.Probability
+  - SuperOffice.Data.SaleStageConstants.SaleTypeID
+  - SuperOffice.Data.SaleStageConstants.SaleTypeStageLinkDeleted
+  - SuperOffice.Data.SaleStageConstants.SaleTypeStageLinkId
+  langs:
+  - csharp
+  - vb
+  name: SaleStageConstants
+  nameWithType: SaleStageConstants
+  fullName: SuperOffice.Data.SaleStageConstants
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static class SaleStageConstants
+    content.vb: Public Module SaleStageConstants
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Data.SaleStageConstants.GetDeletedStageLinks
+  commentId: F:SuperOffice.Data.SaleStageConstants.GetDeletedStageLinks
+  id: GetDeletedStageLinks
+  parent: SuperOffice.Data.SaleStageConstants
+  langs:
+  - csharp
+  - vb
+  name: GetDeletedStageLinks
+  nameWithType: SaleStageConstants.GetDeletedStageLinks
+  fullName: SuperOffice.Data.SaleStageConstants.GetDeletedStageLinks
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string GetDeletedStageLinks = "GetDeletedStageLinks"
+    return:
+      type: System.String
+    content.vb: Public Const GetDeletedStageLinks As String = "GetDeletedStageLinks"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.SaleStageConstants.SaleTypeID
+  commentId: F:SuperOffice.Data.SaleStageConstants.SaleTypeID
+  id: SaleTypeID
+  parent: SuperOffice.Data.SaleStageConstants
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeID
+  nameWithType: SaleStageConstants.SaleTypeID
+  fullName: SuperOffice.Data.SaleStageConstants.SaleTypeID
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string SaleTypeID = "SaleTypeID"
+    return:
+      type: System.String
+    content.vb: Public Const SaleTypeID As String = "SaleTypeID"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.SaleStageConstants.Probability
+  commentId: F:SuperOffice.Data.SaleStageConstants.Probability
+  id: Probability
+  parent: SuperOffice.Data.SaleStageConstants
+  langs:
+  - csharp
+  - vb
+  name: Probability
+  nameWithType: SaleStageConstants.Probability
+  fullName: SuperOffice.Data.SaleStageConstants.Probability
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string Probability = "Probability"
+    return:
+      type: System.String
+    content.vb: Public Const Probability As String = "Probability"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.SaleStageConstants.SaleTypeStageLinkDeleted
+  commentId: F:SuperOffice.Data.SaleStageConstants.SaleTypeStageLinkDeleted
+  id: SaleTypeStageLinkDeleted
+  parent: SuperOffice.Data.SaleStageConstants
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeStageLinkDeleted
+  nameWithType: SaleStageConstants.SaleTypeStageLinkDeleted
+  fullName: SuperOffice.Data.SaleStageConstants.SaleTypeStageLinkDeleted
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string SaleTypeStageLinkDeleted = "SaleTypeStageLinkDeleted"
+    return:
+      type: System.String
+    content.vb: Public Const SaleTypeStageLinkDeleted As String = "SaleTypeStageLinkDeleted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.SaleStageConstants.GetDeletedStages
+  commentId: F:SuperOffice.Data.SaleStageConstants.GetDeletedStages
+  id: GetDeletedStages
+  parent: SuperOffice.Data.SaleStageConstants
+  langs:
+  - csharp
+  - vb
+  name: GetDeletedStages
+  nameWithType: SaleStageConstants.GetDeletedStages
+  fullName: SuperOffice.Data.SaleStageConstants.GetDeletedStages
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string GetDeletedStages = "GetDeletedStages"
+    return:
+      type: System.String
+    content.vb: Public Const GetDeletedStages As String = "GetDeletedStages"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.SaleStageConstants.HideOptionalRows
+  commentId: F:SuperOffice.Data.SaleStageConstants.HideOptionalRows
+  id: HideOptionalRows
+  parent: SuperOffice.Data.SaleStageConstants
+  langs:
+  - csharp
+  - vb
+  name: HideOptionalRows
+  nameWithType: SaleStageConstants.HideOptionalRows
+  fullName: SuperOffice.Data.SaleStageConstants.HideOptionalRows
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string HideOptionalRows = "HideOptionalRows"
+    return:
+      type: System.String
+    content.vb: Public Const HideOptionalRows As String = "HideOptionalRows"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.SaleStageConstants.SaleTypeStageLinkId
+  commentId: F:SuperOffice.Data.SaleStageConstants.SaleTypeStageLinkId
+  id: SaleTypeStageLinkId
+  parent: SuperOffice.Data.SaleStageConstants
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeStageLinkId
+  nameWithType: SaleStageConstants.SaleTypeStageLinkId
+  fullName: SuperOffice.Data.SaleStageConstants.SaleTypeStageLinkId
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string SaleTypeStageLinkId = "SaleTypeStageLinkId"
+    return:
+      type: System.String
+    content.vb: Public Const SaleTypeStageLinkId As String = "SaleTypeStageLinkId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

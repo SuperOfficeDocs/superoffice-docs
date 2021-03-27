@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CRMScript_ValidateTriggerScriptRequest
+  commentId: T:SuperOffice.WebApi.Data.CRMScript_ValidateTriggerScriptRequest
+  id: CRMScript_ValidateTriggerScriptRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CRMScript_ValidateTriggerScriptRequest.#ctor
+  - SuperOffice.WebApi.Data.CRMScript_ValidateTriggerScriptRequest.TriggerScriptId
+  langs:
+  - csharp
+  - vb
+  name: CRMScript_ValidateTriggerScriptRequest
+  nameWithType: CRMScript_ValidateTriggerScriptRequest
+  fullName: SuperOffice.WebApi.Data.CRMScript_ValidateTriggerScriptRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class CRMScript_ValidateTriggerScriptRequest : Object'
+    content.vb: >-
+      Public Class CRMScript_ValidateTriggerScriptRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CRMScript_ValidateTriggerScriptRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CRMScript_ValidateTriggerScriptRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CRMScript_ValidateTriggerScriptRequest
+  langs:
+  - csharp
+  - vb
+  name: CRMScript_ValidateTriggerScriptRequest()
+  nameWithType: CRMScript_ValidateTriggerScriptRequest.CRMScript_ValidateTriggerScriptRequest()
+  fullName: SuperOffice.WebApi.Data.CRMScript_ValidateTriggerScriptRequest.CRMScript_ValidateTriggerScriptRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CRMScript_ValidateTriggerScriptRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CRMScript_ValidateTriggerScriptRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CRMScript_ValidateTriggerScriptRequest.TriggerScriptId
+  commentId: P:SuperOffice.WebApi.Data.CRMScript_ValidateTriggerScriptRequest.TriggerScriptId
+  id: TriggerScriptId
+  parent: SuperOffice.WebApi.Data.CRMScript_ValidateTriggerScriptRequest
+  langs:
+  - csharp
+  - vb
+  name: TriggerScriptId
+  nameWithType: CRMScript_ValidateTriggerScriptRequest.TriggerScriptId
+  fullName: SuperOffice.WebApi.Data.CRMScript_ValidateTriggerScriptRequest.TriggerScriptId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TriggerScriptId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TriggerScriptId As Integer
+  overload: SuperOffice.WebApi.Data.CRMScript_ValidateTriggerScriptRequest.TriggerScriptId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CRMScript_ValidateTriggerScriptRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScript_ValidateTriggerScriptRequest.#ctor
+  isExternal: true
+  name: CRMScript_ValidateTriggerScriptRequest
+  nameWithType: CRMScript_ValidateTriggerScriptRequest.CRMScript_ValidateTriggerScriptRequest
+  fullName: SuperOffice.WebApi.Data.CRMScript_ValidateTriggerScriptRequest.CRMScript_ValidateTriggerScriptRequest
+- uid: SuperOffice.WebApi.Data.CRMScript_ValidateTriggerScriptRequest.TriggerScriptId*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScript_ValidateTriggerScriptRequest.TriggerScriptId
+  isExternal: true
+  name: TriggerScriptId
+  nameWithType: CRMScript_ValidateTriggerScriptRequest.TriggerScriptId
+  fullName: SuperOffice.WebApi.Data.CRMScript_ValidateTriggerScriptRequest.TriggerScriptId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

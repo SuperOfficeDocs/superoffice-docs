@@ -1,0 +1,311 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.CsSessionKey
+  commentId: T:SuperOffice.CRM.Services.CsSessionKey
+  id: CsSessionKey
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.CsSessionKey.#ctor
+  - SuperOffice.CRM.Services.CsSessionKey.Key
+  - SuperOffice.CRM.Services.CsSessionKey.LoginId
+  - SuperOffice.CRM.Services.CsSessionKey.ToString
+  - SuperOffice.CRM.Services.CsSessionKey.ToString(System.String)
+  - SuperOffice.CRM.Services.CsSessionKey.UserId
+  langs:
+  - csharp
+  - vb
+  name: CsSessionKey
+  nameWithType: CsSessionKey
+  fullName: SuperOffice.CRM.Services.CsSessionKey
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for CsSessionKey.\nServices for the CsSessionKey Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ICustomerServiceAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class CsSessionKey : Carrier'
+    content.vb: >-
+      Public Class CsSessionKey
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.CustomerServiceAgent
+    commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
+  - linkId: SuperOffice.CRM.Services.ICustomerServiceAgent
+    commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.CsSessionKey.#ctor
+  commentId: M:SuperOffice.CRM.Services.CsSessionKey.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.CsSessionKey
+  langs:
+  - csharp
+  - vb
+  name: CsSessionKey()
+  nameWithType: CsSessionKey.CsSessionKey()
+  fullName: SuperOffice.CRM.Services.CsSessionKey.CsSessionKey()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public CsSessionKey()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.CsSessionKey.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CsSessionKey.ToString
+  commentId: M:SuperOffice.CRM.Services.CsSessionKey.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.CsSessionKey
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: CsSessionKey.ToString()
+  fullName: SuperOffice.CRM.Services.CsSessionKey.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.CsSessionKey.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.CsSessionKey.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.CsSessionKey.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.CsSessionKey
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: CsSessionKey.ToString(String)
+  fullName: SuperOffice.CRM.Services.CsSessionKey.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.CsSessionKey.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CsSessionKey.Key
+  commentId: P:SuperOffice.CRM.Services.CsSessionKey.Key
+  id: Key
+  parent: SuperOffice.CRM.Services.CsSessionKey
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: CsSessionKey.Key
+  fullName: SuperOffice.CRM.Services.CsSessionKey.Key
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe session key created in the login table \n"
+  syntax:
+    content: public virtual string Key { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Key As String
+  overload: SuperOffice.CRM.Services.CsSessionKey.Key*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CsSessionKey.LoginId
+  commentId: P:SuperOffice.CRM.Services.CsSessionKey.LoginId
+  id: LoginId
+  parent: SuperOffice.CRM.Services.CsSessionKey
+  langs:
+  - csharp
+  - vb
+  name: LoginId
+  nameWithType: CsSessionKey.LoginId
+  fullName: SuperOffice.CRM.Services.CsSessionKey.LoginId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe id of the login row \n"
+  syntax:
+    content: public virtual int LoginId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property LoginId As Integer
+  overload: SuperOffice.CRM.Services.CsSessionKey.LoginId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CsSessionKey.UserId
+  commentId: P:SuperOffice.CRM.Services.CsSessionKey.UserId
+  id: UserId
+  parent: SuperOffice.CRM.Services.CsSessionKey
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: CsSessionKey.UserId
+  fullName: SuperOffice.CRM.Services.CsSessionKey.UserId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe ejuser id owning this session key \n"
+  syntax:
+    content: public virtual int UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UserId As Integer
+  overload: SuperOffice.CRM.Services.CsSessionKey.UserId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.CustomerServiceAgent
+  commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
+  isExternal: true
+  name: CustomerServiceAgent
+  nameWithType: CustomerServiceAgent
+  fullName: SuperOffice.CRM.Services.CustomerServiceAgent
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent
+  commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ICustomerServiceAgent
+  nameWithType: ICustomerServiceAgent
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.CsSessionKey.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.CsSessionKey.#ctor
+  isExternal: true
+  name: CsSessionKey
+  nameWithType: CsSessionKey.CsSessionKey
+  fullName: SuperOffice.CRM.Services.CsSessionKey.CsSessionKey
+- uid: SuperOffice.CRM.Services.CsSessionKey.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.CsSessionKey.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: CsSessionKey.ToString
+  fullName: SuperOffice.CRM.Services.CsSessionKey.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.CsSessionKey.Key*
+  commentId: Overload:SuperOffice.CRM.Services.CsSessionKey.Key
+  isExternal: true
+  name: Key
+  nameWithType: CsSessionKey.Key
+  fullName: SuperOffice.CRM.Services.CsSessionKey.Key
+- uid: SuperOffice.CRM.Services.CsSessionKey.LoginId*
+  commentId: Overload:SuperOffice.CRM.Services.CsSessionKey.LoginId
+  isExternal: true
+  name: LoginId
+  nameWithType: CsSessionKey.LoginId
+  fullName: SuperOffice.CRM.Services.CsSessionKey.LoginId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.CsSessionKey.UserId*
+  commentId: Overload:SuperOffice.CRM.Services.CsSessionKey.UserId
+  isExternal: true
+  name: UserId
+  nameWithType: CsSessionKey.UserId
+  fullName: SuperOffice.CRM.Services.CsSessionKey.UserId

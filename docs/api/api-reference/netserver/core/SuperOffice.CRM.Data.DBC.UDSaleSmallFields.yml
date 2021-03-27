@@ -1,0 +1,3677 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  commentId: T:SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  id: DBC.UDSaleSmallFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double01
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double02
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double03
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double04
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double05
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double06
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double07
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double08
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double09
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double10
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long01
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long02
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long03
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long04
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long05
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long06
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long07
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long08
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long09
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long10
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long11
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long12
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long13
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long14
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long15
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long16
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long17
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long18
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long19
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long20
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long21
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long22
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long23
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long24
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long25
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long26
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long27
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long28
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long29
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long30
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long31
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long32
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long33
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long34
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long35
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long36
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long37
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long38
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long39
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long40
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long41
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long42
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long43
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long44
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long45
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long46
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long47
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long48
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long49
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long50
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long51
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long52
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long53
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long54
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long55
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long56
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long57
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long58
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long59
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long60
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String01
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String02
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String03
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String04
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String05
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String06
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String07
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String08
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String09
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String10
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String11
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String12
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String13
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String14
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String15
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String16
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String17
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String18
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String19
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String20
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String21
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String22
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String23
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String24
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String25
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String26
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String27
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String28
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String29
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String30
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String31
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String32
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String33
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String34
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String35
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String36
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String37
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String38
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String39
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String40
+  - SuperOffice.CRM.Data.DBC.UDSaleSmallFields.UdsalesmallId
+  langs:
+  - csharp
+  - vb
+  name: DBC.UDSaleSmallFields
+  nameWithType: DBC.UDSaleSmallFields
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for UDSaleSmall, User-defined fields\n"
+  syntax:
+    content: public static class UDSaleSmallFields
+    content.vb: Public Module UDSaleSmallFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.UdsalesmallId
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.UdsalesmallId
+  id: UdsalesmallId
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: UdsalesmallId
+  nameWithType: DBC.UDSaleSmallFields.UdsalesmallId
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.UdsalesmallId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.UdsalesmallId: Primary key\n"
+  syntax:
+    content: public const string UdsalesmallId = "udsalesmall_id"
+    return:
+      type: System.String
+    content.vb: Public Const UdsalesmallId As String = "udsalesmall_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long01
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long01
+  id: Long01
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long01
+  nameWithType: DBC.UDSaleSmallFields.Long01
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long01
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long01: long value 1, indexed\n"
+  syntax:
+    content: public const string Long01 = "long01"
+    return:
+      type: System.String
+    content.vb: Public Const Long01 As String = "long01"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long02
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long02
+  id: Long02
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long02
+  nameWithType: DBC.UDSaleSmallFields.Long02
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long02
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long02: long value 2, indexed\n"
+  syntax:
+    content: public const string Long02 = "long02"
+    return:
+      type: System.String
+    content.vb: Public Const Long02 As String = "long02"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long03
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long03
+  id: Long03
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long03
+  nameWithType: DBC.UDSaleSmallFields.Long03
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long03
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long03: long value 3, indexed\n"
+  syntax:
+    content: public const string Long03 = "long03"
+    return:
+      type: System.String
+    content.vb: Public Const Long03 As String = "long03"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long04
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long04
+  id: Long04
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long04
+  nameWithType: DBC.UDSaleSmallFields.Long04
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long04
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long04: long value 4, indexed\n"
+  syntax:
+    content: public const string Long04 = "long04"
+    return:
+      type: System.String
+    content.vb: Public Const Long04 As String = "long04"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long05
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long05
+  id: Long05
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long05
+  nameWithType: DBC.UDSaleSmallFields.Long05
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long05
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long05: long value 5, not indexed\n"
+  syntax:
+    content: public const string Long05 = "long05"
+    return:
+      type: System.String
+    content.vb: Public Const Long05 As String = "long05"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long06
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long06
+  id: Long06
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long06
+  nameWithType: DBC.UDSaleSmallFields.Long06
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long06
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long06: long value 6, not indexed\n"
+  syntax:
+    content: public const string Long06 = "long06"
+    return:
+      type: System.String
+    content.vb: Public Const Long06 As String = "long06"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long07
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long07
+  id: Long07
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long07
+  nameWithType: DBC.UDSaleSmallFields.Long07
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long07
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long07: long value 7, not indexed\n"
+  syntax:
+    content: public const string Long07 = "long07"
+    return:
+      type: System.String
+    content.vb: Public Const Long07 As String = "long07"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long08
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long08
+  id: Long08
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long08
+  nameWithType: DBC.UDSaleSmallFields.Long08
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long08
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long08: long value 8, not indexed\n"
+  syntax:
+    content: public const string Long08 = "long08"
+    return:
+      type: System.String
+    content.vb: Public Const Long08 As String = "long08"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long09
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long09
+  id: Long09
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long09
+  nameWithType: DBC.UDSaleSmallFields.Long09
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long09
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long09: long value 9, not indexed\n"
+  syntax:
+    content: public const string Long09 = "long09"
+    return:
+      type: System.String
+    content.vb: Public Const Long09 As String = "long09"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long10
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long10
+  id: Long10
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long10
+  nameWithType: DBC.UDSaleSmallFields.Long10
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long10
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long10: long value 10, not indexed\n"
+  syntax:
+    content: public const string Long10 = "long10"
+    return:
+      type: System.String
+    content.vb: Public Const Long10 As String = "long10"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long11
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long11
+  id: Long11
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long11
+  nameWithType: DBC.UDSaleSmallFields.Long11
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long11
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long11: long value 11, not indexed\n"
+  syntax:
+    content: public const string Long11 = "long11"
+    return:
+      type: System.String
+    content.vb: Public Const Long11 As String = "long11"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long12
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long12
+  id: Long12
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long12
+  nameWithType: DBC.UDSaleSmallFields.Long12
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long12
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long12: long value 12, not indexed\n"
+  syntax:
+    content: public const string Long12 = "long12"
+    return:
+      type: System.String
+    content.vb: Public Const Long12 As String = "long12"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long13
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long13
+  id: Long13
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long13
+  nameWithType: DBC.UDSaleSmallFields.Long13
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long13
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long13: long value 13, not indexed\n"
+  syntax:
+    content: public const string Long13 = "long13"
+    return:
+      type: System.String
+    content.vb: Public Const Long13 As String = "long13"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long14
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long14
+  id: Long14
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long14
+  nameWithType: DBC.UDSaleSmallFields.Long14
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long14
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long14: long value 14, not indexed\n"
+  syntax:
+    content: public const string Long14 = "long14"
+    return:
+      type: System.String
+    content.vb: Public Const Long14 As String = "long14"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long15
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long15
+  id: Long15
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long15
+  nameWithType: DBC.UDSaleSmallFields.Long15
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long15
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long15: long value 15, not indexed\n"
+  syntax:
+    content: public const string Long15 = "long15"
+    return:
+      type: System.String
+    content.vb: Public Const Long15 As String = "long15"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long16
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long16
+  id: Long16
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long16
+  nameWithType: DBC.UDSaleSmallFields.Long16
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long16
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long16: long value 16, not indexed\n"
+  syntax:
+    content: public const string Long16 = "long16"
+    return:
+      type: System.String
+    content.vb: Public Const Long16 As String = "long16"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long17
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long17
+  id: Long17
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long17
+  nameWithType: DBC.UDSaleSmallFields.Long17
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long17
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long17: long value 17, not indexed\n"
+  syntax:
+    content: public const string Long17 = "long17"
+    return:
+      type: System.String
+    content.vb: Public Const Long17 As String = "long17"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long18
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long18
+  id: Long18
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long18
+  nameWithType: DBC.UDSaleSmallFields.Long18
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long18
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long18: long value 18, not indexed\n"
+  syntax:
+    content: public const string Long18 = "long18"
+    return:
+      type: System.String
+    content.vb: Public Const Long18 As String = "long18"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long19
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long19
+  id: Long19
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long19
+  nameWithType: DBC.UDSaleSmallFields.Long19
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long19
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long19: long value 19, not indexed\n"
+  syntax:
+    content: public const string Long19 = "long19"
+    return:
+      type: System.String
+    content.vb: Public Const Long19 As String = "long19"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long20
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long20
+  id: Long20
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long20
+  nameWithType: DBC.UDSaleSmallFields.Long20
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long20
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long20: long value 20, not indexed\n"
+  syntax:
+    content: public const string Long20 = "long20"
+    return:
+      type: System.String
+    content.vb: Public Const Long20 As String = "long20"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long21
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long21
+  id: Long21
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long21
+  nameWithType: DBC.UDSaleSmallFields.Long21
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long21
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long21: long value 21, not indexed\n"
+  syntax:
+    content: public const string Long21 = "long21"
+    return:
+      type: System.String
+    content.vb: Public Const Long21 As String = "long21"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long22
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long22
+  id: Long22
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long22
+  nameWithType: DBC.UDSaleSmallFields.Long22
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long22
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long22: long value 22, not indexed\n"
+  syntax:
+    content: public const string Long22 = "long22"
+    return:
+      type: System.String
+    content.vb: Public Const Long22 As String = "long22"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long23
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long23
+  id: Long23
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long23
+  nameWithType: DBC.UDSaleSmallFields.Long23
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long23
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long23: long value 23, not indexed\n"
+  syntax:
+    content: public const string Long23 = "long23"
+    return:
+      type: System.String
+    content.vb: Public Const Long23 As String = "long23"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long24
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long24
+  id: Long24
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long24
+  nameWithType: DBC.UDSaleSmallFields.Long24
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long24
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long24: long value 24, not indexed\n"
+  syntax:
+    content: public const string Long24 = "long24"
+    return:
+      type: System.String
+    content.vb: Public Const Long24 As String = "long24"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long25
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long25
+  id: Long25
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long25
+  nameWithType: DBC.UDSaleSmallFields.Long25
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long25
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long25: long value 25, not indexed\n"
+  syntax:
+    content: public const string Long25 = "long25"
+    return:
+      type: System.String
+    content.vb: Public Const Long25 As String = "long25"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long26
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long26
+  id: Long26
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long26
+  nameWithType: DBC.UDSaleSmallFields.Long26
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long26
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long26: long value 26, not indexed\n"
+  syntax:
+    content: public const string Long26 = "long26"
+    return:
+      type: System.String
+    content.vb: Public Const Long26 As String = "long26"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long27
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long27
+  id: Long27
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long27
+  nameWithType: DBC.UDSaleSmallFields.Long27
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long27
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long27: long value 27, not indexed\n"
+  syntax:
+    content: public const string Long27 = "long27"
+    return:
+      type: System.String
+    content.vb: Public Const Long27 As String = "long27"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long28
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long28
+  id: Long28
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long28
+  nameWithType: DBC.UDSaleSmallFields.Long28
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long28
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long28: long value 28, not indexed\n"
+  syntax:
+    content: public const string Long28 = "long28"
+    return:
+      type: System.String
+    content.vb: Public Const Long28 As String = "long28"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long29
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long29
+  id: Long29
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long29
+  nameWithType: DBC.UDSaleSmallFields.Long29
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long29
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long29: long value 29, not indexed\n"
+  syntax:
+    content: public const string Long29 = "long29"
+    return:
+      type: System.String
+    content.vb: Public Const Long29 As String = "long29"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long30
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long30
+  id: Long30
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long30
+  nameWithType: DBC.UDSaleSmallFields.Long30
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long30
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long30: long value 30, not indexed\n"
+  syntax:
+    content: public const string Long30 = "long30"
+    return:
+      type: System.String
+    content.vb: Public Const Long30 As String = "long30"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long31
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long31
+  id: Long31
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long31
+  nameWithType: DBC.UDSaleSmallFields.Long31
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long31
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long31: long value 31, not indexed\n"
+  syntax:
+    content: public const string Long31 = "long31"
+    return:
+      type: System.String
+    content.vb: Public Const Long31 As String = "long31"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long32
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long32
+  id: Long32
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long32
+  nameWithType: DBC.UDSaleSmallFields.Long32
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long32
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long32: long value 32, not indexed\n"
+  syntax:
+    content: public const string Long32 = "long32"
+    return:
+      type: System.String
+    content.vb: Public Const Long32 As String = "long32"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long33
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long33
+  id: Long33
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long33
+  nameWithType: DBC.UDSaleSmallFields.Long33
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long33
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long33: long value 33, not indexed\n"
+  syntax:
+    content: public const string Long33 = "long33"
+    return:
+      type: System.String
+    content.vb: Public Const Long33 As String = "long33"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long34
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long34
+  id: Long34
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long34
+  nameWithType: DBC.UDSaleSmallFields.Long34
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long34
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long34: long value 34, not indexed\n"
+  syntax:
+    content: public const string Long34 = "long34"
+    return:
+      type: System.String
+    content.vb: Public Const Long34 As String = "long34"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long35
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long35
+  id: Long35
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long35
+  nameWithType: DBC.UDSaleSmallFields.Long35
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long35
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long35: long value 35, not indexed\n"
+  syntax:
+    content: public const string Long35 = "long35"
+    return:
+      type: System.String
+    content.vb: Public Const Long35 As String = "long35"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long36
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long36
+  id: Long36
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long36
+  nameWithType: DBC.UDSaleSmallFields.Long36
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long36
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long36: long value 36, not indexed\n"
+  syntax:
+    content: public const string Long36 = "long36"
+    return:
+      type: System.String
+    content.vb: Public Const Long36 As String = "long36"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long37
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long37
+  id: Long37
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long37
+  nameWithType: DBC.UDSaleSmallFields.Long37
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long37
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long37: long value 37, not indexed\n"
+  syntax:
+    content: public const string Long37 = "long37"
+    return:
+      type: System.String
+    content.vb: Public Const Long37 As String = "long37"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long38
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long38
+  id: Long38
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long38
+  nameWithType: DBC.UDSaleSmallFields.Long38
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long38
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long38: long value 38, not indexed\n"
+  syntax:
+    content: public const string Long38 = "long38"
+    return:
+      type: System.String
+    content.vb: Public Const Long38 As String = "long38"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long39
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long39
+  id: Long39
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long39
+  nameWithType: DBC.UDSaleSmallFields.Long39
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long39
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long39: long value 39, not indexed\n"
+  syntax:
+    content: public const string Long39 = "long39"
+    return:
+      type: System.String
+    content.vb: Public Const Long39 As String = "long39"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long40
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long40
+  id: Long40
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long40
+  nameWithType: DBC.UDSaleSmallFields.Long40
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long40
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long40: long value 40, not indexed\n"
+  syntax:
+    content: public const string Long40 = "long40"
+    return:
+      type: System.String
+    content.vb: Public Const Long40 As String = "long40"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long41
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long41
+  id: Long41
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long41
+  nameWithType: DBC.UDSaleSmallFields.Long41
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long41
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long41: long value 41, not indexed\n"
+  syntax:
+    content: public const string Long41 = "long41"
+    return:
+      type: System.String
+    content.vb: Public Const Long41 As String = "long41"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long42
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long42
+  id: Long42
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long42
+  nameWithType: DBC.UDSaleSmallFields.Long42
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long42
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long42: long value 42, not indexed\n"
+  syntax:
+    content: public const string Long42 = "long42"
+    return:
+      type: System.String
+    content.vb: Public Const Long42 As String = "long42"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long43
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long43
+  id: Long43
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long43
+  nameWithType: DBC.UDSaleSmallFields.Long43
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long43
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long43: long value 43, not indexed\n"
+  syntax:
+    content: public const string Long43 = "long43"
+    return:
+      type: System.String
+    content.vb: Public Const Long43 As String = "long43"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long44
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long44
+  id: Long44
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long44
+  nameWithType: DBC.UDSaleSmallFields.Long44
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long44
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long44: long value 44, not indexed\n"
+  syntax:
+    content: public const string Long44 = "long44"
+    return:
+      type: System.String
+    content.vb: Public Const Long44 As String = "long44"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long45
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long45
+  id: Long45
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long45
+  nameWithType: DBC.UDSaleSmallFields.Long45
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long45
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long45: long value 45, not indexed\n"
+  syntax:
+    content: public const string Long45 = "long45"
+    return:
+      type: System.String
+    content.vb: Public Const Long45 As String = "long45"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long46
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long46
+  id: Long46
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long46
+  nameWithType: DBC.UDSaleSmallFields.Long46
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long46
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long46: long value 46, not indexed\n"
+  syntax:
+    content: public const string Long46 = "long46"
+    return:
+      type: System.String
+    content.vb: Public Const Long46 As String = "long46"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long47
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long47
+  id: Long47
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long47
+  nameWithType: DBC.UDSaleSmallFields.Long47
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long47
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long47: long value 47, not indexed\n"
+  syntax:
+    content: public const string Long47 = "long47"
+    return:
+      type: System.String
+    content.vb: Public Const Long47 As String = "long47"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long48
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long48
+  id: Long48
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long48
+  nameWithType: DBC.UDSaleSmallFields.Long48
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long48
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long48: long value 48, not indexed\n"
+  syntax:
+    content: public const string Long48 = "long48"
+    return:
+      type: System.String
+    content.vb: Public Const Long48 As String = "long48"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long49
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long49
+  id: Long49
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long49
+  nameWithType: DBC.UDSaleSmallFields.Long49
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long49
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long49: long value 49, not indexed\n"
+  syntax:
+    content: public const string Long49 = "long49"
+    return:
+      type: System.String
+    content.vb: Public Const Long49 As String = "long49"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long50
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long50
+  id: Long50
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long50
+  nameWithType: DBC.UDSaleSmallFields.Long50
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long50
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long50: long value 50, not indexed\n"
+  syntax:
+    content: public const string Long50 = "long50"
+    return:
+      type: System.String
+    content.vb: Public Const Long50 As String = "long50"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long51
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long51
+  id: Long51
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long51
+  nameWithType: DBC.UDSaleSmallFields.Long51
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long51
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long51: long value 51, not indexed\n"
+  syntax:
+    content: public const string Long51 = "long51"
+    return:
+      type: System.String
+    content.vb: Public Const Long51 As String = "long51"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long52
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long52
+  id: Long52
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long52
+  nameWithType: DBC.UDSaleSmallFields.Long52
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long52
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long52: long value 52, not indexed\n"
+  syntax:
+    content: public const string Long52 = "long52"
+    return:
+      type: System.String
+    content.vb: Public Const Long52 As String = "long52"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long53
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long53
+  id: Long53
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long53
+  nameWithType: DBC.UDSaleSmallFields.Long53
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long53
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long53: long value 53, not indexed\n"
+  syntax:
+    content: public const string Long53 = "long53"
+    return:
+      type: System.String
+    content.vb: Public Const Long53 As String = "long53"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long54
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long54
+  id: Long54
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long54
+  nameWithType: DBC.UDSaleSmallFields.Long54
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long54
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long54: long value 54, not indexed\n"
+  syntax:
+    content: public const string Long54 = "long54"
+    return:
+      type: System.String
+    content.vb: Public Const Long54 As String = "long54"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long55
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long55
+  id: Long55
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long55
+  nameWithType: DBC.UDSaleSmallFields.Long55
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long55
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long55: long value 55, not indexed\n"
+  syntax:
+    content: public const string Long55 = "long55"
+    return:
+      type: System.String
+    content.vb: Public Const Long55 As String = "long55"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long56
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long56
+  id: Long56
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long56
+  nameWithType: DBC.UDSaleSmallFields.Long56
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long56
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long56: long value 56, not indexed\n"
+  syntax:
+    content: public const string Long56 = "long56"
+    return:
+      type: System.String
+    content.vb: Public Const Long56 As String = "long56"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long57
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long57
+  id: Long57
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long57
+  nameWithType: DBC.UDSaleSmallFields.Long57
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long57
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long57: long value 57, not indexed\n"
+  syntax:
+    content: public const string Long57 = "long57"
+    return:
+      type: System.String
+    content.vb: Public Const Long57 As String = "long57"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long58
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long58
+  id: Long58
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long58
+  nameWithType: DBC.UDSaleSmallFields.Long58
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long58
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long58: long value 58, not indexed\n"
+  syntax:
+    content: public const string Long58 = "long58"
+    return:
+      type: System.String
+    content.vb: Public Const Long58 As String = "long58"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long59
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long59
+  id: Long59
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long59
+  nameWithType: DBC.UDSaleSmallFields.Long59
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long59
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long59: long value 59, not indexed\n"
+  syntax:
+    content: public const string Long59 = "long59"
+    return:
+      type: System.String
+    content.vb: Public Const Long59 As String = "long59"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long60
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long60
+  id: Long60
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Long60
+  nameWithType: DBC.UDSaleSmallFields.Long60
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Long60
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Long60: long value 60, not indexed\n"
+  syntax:
+    content: public const string Long60 = "long60"
+    return:
+      type: System.String
+    content.vb: Public Const Long60 As String = "long60"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String01
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String01
+  id: String01
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String01
+  nameWithType: DBC.UDSaleSmallFields.String01
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String01
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String01: string value 1, indexed\n"
+  syntax:
+    content: public const string String01 = "string01"
+    return:
+      type: System.String
+    content.vb: Public Const String01 As String = "string01"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String02
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String02
+  id: String02
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String02
+  nameWithType: DBC.UDSaleSmallFields.String02
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String02
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String02: string value 2, indexed\n"
+  syntax:
+    content: public const string String02 = "string02"
+    return:
+      type: System.String
+    content.vb: Public Const String02 As String = "string02"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String03
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String03
+  id: String03
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String03
+  nameWithType: DBC.UDSaleSmallFields.String03
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String03
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String03: string value 3, indexed\n"
+  syntax:
+    content: public const string String03 = "string03"
+    return:
+      type: System.String
+    content.vb: Public Const String03 As String = "string03"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String04
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String04
+  id: String04
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String04
+  nameWithType: DBC.UDSaleSmallFields.String04
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String04
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String04: string value 4, indexed\n"
+  syntax:
+    content: public const string String04 = "string04"
+    return:
+      type: System.String
+    content.vb: Public Const String04 As String = "string04"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String05
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String05
+  id: String05
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String05
+  nameWithType: DBC.UDSaleSmallFields.String05
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String05
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String05: string value 5, not indexed\n"
+  syntax:
+    content: public const string String05 = "string05"
+    return:
+      type: System.String
+    content.vb: Public Const String05 As String = "string05"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String06
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String06
+  id: String06
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String06
+  nameWithType: DBC.UDSaleSmallFields.String06
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String06
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String06: string value 6, not indexed\n"
+  syntax:
+    content: public const string String06 = "string06"
+    return:
+      type: System.String
+    content.vb: Public Const String06 As String = "string06"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String07
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String07
+  id: String07
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String07
+  nameWithType: DBC.UDSaleSmallFields.String07
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String07
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String07: string value 7, not indexed\n"
+  syntax:
+    content: public const string String07 = "string07"
+    return:
+      type: System.String
+    content.vb: Public Const String07 As String = "string07"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String08
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String08
+  id: String08
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String08
+  nameWithType: DBC.UDSaleSmallFields.String08
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String08
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String08: string value 8, not indexed\n"
+  syntax:
+    content: public const string String08 = "string08"
+    return:
+      type: System.String
+    content.vb: Public Const String08 As String = "string08"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String09
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String09
+  id: String09
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String09
+  nameWithType: DBC.UDSaleSmallFields.String09
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String09
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String09: string value 9, not indexed\n"
+  syntax:
+    content: public const string String09 = "string09"
+    return:
+      type: System.String
+    content.vb: Public Const String09 As String = "string09"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String10
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String10
+  id: String10
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String10
+  nameWithType: DBC.UDSaleSmallFields.String10
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String10
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String10: string value 10, not indexed\n"
+  syntax:
+    content: public const string String10 = "string10"
+    return:
+      type: System.String
+    content.vb: Public Const String10 As String = "string10"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String11
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String11
+  id: String11
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String11
+  nameWithType: DBC.UDSaleSmallFields.String11
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String11
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String11: string value 11, not indexed\n"
+  syntax:
+    content: public const string String11 = "string11"
+    return:
+      type: System.String
+    content.vb: Public Const String11 As String = "string11"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String12
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String12
+  id: String12
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String12
+  nameWithType: DBC.UDSaleSmallFields.String12
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String12
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String12: string value 12, not indexed\n"
+  syntax:
+    content: public const string String12 = "string12"
+    return:
+      type: System.String
+    content.vb: Public Const String12 As String = "string12"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String13
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String13
+  id: String13
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String13
+  nameWithType: DBC.UDSaleSmallFields.String13
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String13
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String13: string value 13, not indexed\n"
+  syntax:
+    content: public const string String13 = "string13"
+    return:
+      type: System.String
+    content.vb: Public Const String13 As String = "string13"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String14
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String14
+  id: String14
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String14
+  nameWithType: DBC.UDSaleSmallFields.String14
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String14
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String14: string value 14, not indexed\n"
+  syntax:
+    content: public const string String14 = "string14"
+    return:
+      type: System.String
+    content.vb: Public Const String14 As String = "string14"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String15
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String15
+  id: String15
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String15
+  nameWithType: DBC.UDSaleSmallFields.String15
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String15
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String15: string value 15, not indexed\n"
+  syntax:
+    content: public const string String15 = "string15"
+    return:
+      type: System.String
+    content.vb: Public Const String15 As String = "string15"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String16
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String16
+  id: String16
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String16
+  nameWithType: DBC.UDSaleSmallFields.String16
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String16
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String16: string value 16, not indexed\n"
+  syntax:
+    content: public const string String16 = "string16"
+    return:
+      type: System.String
+    content.vb: Public Const String16 As String = "string16"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String17
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String17
+  id: String17
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String17
+  nameWithType: DBC.UDSaleSmallFields.String17
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String17
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String17: string value 17, not indexed\n"
+  syntax:
+    content: public const string String17 = "string17"
+    return:
+      type: System.String
+    content.vb: Public Const String17 As String = "string17"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String18
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String18
+  id: String18
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String18
+  nameWithType: DBC.UDSaleSmallFields.String18
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String18
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String18: string value 18, not indexed\n"
+  syntax:
+    content: public const string String18 = "string18"
+    return:
+      type: System.String
+    content.vb: Public Const String18 As String = "string18"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String19
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String19
+  id: String19
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String19
+  nameWithType: DBC.UDSaleSmallFields.String19
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String19
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String19: string value 19, not indexed\n"
+  syntax:
+    content: public const string String19 = "string19"
+    return:
+      type: System.String
+    content.vb: Public Const String19 As String = "string19"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String20
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String20
+  id: String20
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String20
+  nameWithType: DBC.UDSaleSmallFields.String20
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String20
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String20: string value 20, not indexed\n"
+  syntax:
+    content: public const string String20 = "string20"
+    return:
+      type: System.String
+    content.vb: Public Const String20 As String = "string20"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String21
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String21
+  id: String21
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String21
+  nameWithType: DBC.UDSaleSmallFields.String21
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String21
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String21: string value 21, not indexed\n"
+  syntax:
+    content: public const string String21 = "string21"
+    return:
+      type: System.String
+    content.vb: Public Const String21 As String = "string21"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String22
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String22
+  id: String22
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String22
+  nameWithType: DBC.UDSaleSmallFields.String22
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String22
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String22: string value 22, not indexed\n"
+  syntax:
+    content: public const string String22 = "string22"
+    return:
+      type: System.String
+    content.vb: Public Const String22 As String = "string22"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String23
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String23
+  id: String23
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String23
+  nameWithType: DBC.UDSaleSmallFields.String23
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String23
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String23: string value 23, not indexed\n"
+  syntax:
+    content: public const string String23 = "string23"
+    return:
+      type: System.String
+    content.vb: Public Const String23 As String = "string23"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String24
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String24
+  id: String24
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String24
+  nameWithType: DBC.UDSaleSmallFields.String24
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String24
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String24: string value 24, not indexed\n"
+  syntax:
+    content: public const string String24 = "string24"
+    return:
+      type: System.String
+    content.vb: Public Const String24 As String = "string24"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String25
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String25
+  id: String25
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String25
+  nameWithType: DBC.UDSaleSmallFields.String25
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String25
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String25: string value 25, not indexed\n"
+  syntax:
+    content: public const string String25 = "string25"
+    return:
+      type: System.String
+    content.vb: Public Const String25 As String = "string25"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String26
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String26
+  id: String26
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String26
+  nameWithType: DBC.UDSaleSmallFields.String26
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String26
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String26: string value 26, not indexed\n"
+  syntax:
+    content: public const string String26 = "string26"
+    return:
+      type: System.String
+    content.vb: Public Const String26 As String = "string26"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String27
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String27
+  id: String27
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String27
+  nameWithType: DBC.UDSaleSmallFields.String27
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String27
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String27: string value 27, not indexed\n"
+  syntax:
+    content: public const string String27 = "string27"
+    return:
+      type: System.String
+    content.vb: Public Const String27 As String = "string27"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String28
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String28
+  id: String28
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String28
+  nameWithType: DBC.UDSaleSmallFields.String28
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String28
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String28: string value 28, not indexed\n"
+  syntax:
+    content: public const string String28 = "string28"
+    return:
+      type: System.String
+    content.vb: Public Const String28 As String = "string28"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String29
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String29
+  id: String29
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String29
+  nameWithType: DBC.UDSaleSmallFields.String29
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String29
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String29: string value 29, not indexed\n"
+  syntax:
+    content: public const string String29 = "string29"
+    return:
+      type: System.String
+    content.vb: Public Const String29 As String = "string29"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String30
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String30
+  id: String30
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String30
+  nameWithType: DBC.UDSaleSmallFields.String30
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String30
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String30: string value 30, not indexed\n"
+  syntax:
+    content: public const string String30 = "string30"
+    return:
+      type: System.String
+    content.vb: Public Const String30 As String = "string30"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String31
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String31
+  id: String31
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String31
+  nameWithType: DBC.UDSaleSmallFields.String31
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String31
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String31: string value 31, not indexed\n"
+  syntax:
+    content: public const string String31 = "string31"
+    return:
+      type: System.String
+    content.vb: Public Const String31 As String = "string31"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String32
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String32
+  id: String32
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String32
+  nameWithType: DBC.UDSaleSmallFields.String32
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String32
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String32: string value 32, not indexed\n"
+  syntax:
+    content: public const string String32 = "string32"
+    return:
+      type: System.String
+    content.vb: Public Const String32 As String = "string32"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String33
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String33
+  id: String33
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String33
+  nameWithType: DBC.UDSaleSmallFields.String33
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String33
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String33: string value 33, not indexed\n"
+  syntax:
+    content: public const string String33 = "string33"
+    return:
+      type: System.String
+    content.vb: Public Const String33 As String = "string33"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String34
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String34
+  id: String34
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String34
+  nameWithType: DBC.UDSaleSmallFields.String34
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String34
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String34: string value 34, not indexed\n"
+  syntax:
+    content: public const string String34 = "string34"
+    return:
+      type: System.String
+    content.vb: Public Const String34 As String = "string34"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String35
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String35
+  id: String35
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String35
+  nameWithType: DBC.UDSaleSmallFields.String35
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String35
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String35: string value 35, not indexed\n"
+  syntax:
+    content: public const string String35 = "string35"
+    return:
+      type: System.String
+    content.vb: Public Const String35 As String = "string35"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String36
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String36
+  id: String36
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String36
+  nameWithType: DBC.UDSaleSmallFields.String36
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String36
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String36: string value 36, not indexed\n"
+  syntax:
+    content: public const string String36 = "string36"
+    return:
+      type: System.String
+    content.vb: Public Const String36 As String = "string36"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String37
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String37
+  id: String37
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String37
+  nameWithType: DBC.UDSaleSmallFields.String37
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String37
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String37: string value 37, not indexed\n"
+  syntax:
+    content: public const string String37 = "string37"
+    return:
+      type: System.String
+    content.vb: Public Const String37 As String = "string37"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String38
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String38
+  id: String38
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String38
+  nameWithType: DBC.UDSaleSmallFields.String38
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String38
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String38: string value 38, not indexed\n"
+  syntax:
+    content: public const string String38 = "string38"
+    return:
+      type: System.String
+    content.vb: Public Const String38 As String = "string38"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String39
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String39
+  id: String39
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String39
+  nameWithType: DBC.UDSaleSmallFields.String39
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String39
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String39: string value 39, not indexed\n"
+  syntax:
+    content: public const string String39 = "string39"
+    return:
+      type: System.String
+    content.vb: Public Const String39 As String = "string39"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String40
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String40
+  id: String40
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: String40
+  nameWithType: DBC.UDSaleSmallFields.String40
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.String40
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.String40: string value 40, not indexed\n"
+  syntax:
+    content: public const string String40 = "string40"
+    return:
+      type: System.String
+    content.vb: Public Const String40 As String = "string40"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double01
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double01
+  id: Double01
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Double01
+  nameWithType: DBC.UDSaleSmallFields.Double01
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double01
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Double01: double value 1, indexed\n"
+  syntax:
+    content: public const string Double01 = "double01"
+    return:
+      type: System.String
+    content.vb: Public Const Double01 As String = "double01"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double02
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double02
+  id: Double02
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Double02
+  nameWithType: DBC.UDSaleSmallFields.Double02
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double02
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Double02: double value 2, indexed\n"
+  syntax:
+    content: public const string Double02 = "double02"
+    return:
+      type: System.String
+    content.vb: Public Const Double02 As String = "double02"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double03
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double03
+  id: Double03
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Double03
+  nameWithType: DBC.UDSaleSmallFields.Double03
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double03
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Double03: double value 3, indexed\n"
+  syntax:
+    content: public const string Double03 = "double03"
+    return:
+      type: System.String
+    content.vb: Public Const Double03 As String = "double03"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double04
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double04
+  id: Double04
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Double04
+  nameWithType: DBC.UDSaleSmallFields.Double04
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double04
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Double04: double value 4, indexed\n"
+  syntax:
+    content: public const string Double04 = "double04"
+    return:
+      type: System.String
+    content.vb: Public Const Double04 As String = "double04"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double05
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double05
+  id: Double05
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Double05
+  nameWithType: DBC.UDSaleSmallFields.Double05
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double05
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Double05: double value 5, not indexed\n"
+  syntax:
+    content: public const string Double05 = "double05"
+    return:
+      type: System.String
+    content.vb: Public Const Double05 As String = "double05"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double06
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double06
+  id: Double06
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Double06
+  nameWithType: DBC.UDSaleSmallFields.Double06
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double06
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Double06: double value 6, not indexed\n"
+  syntax:
+    content: public const string Double06 = "double06"
+    return:
+      type: System.String
+    content.vb: Public Const Double06 As String = "double06"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double07
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double07
+  id: Double07
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Double07
+  nameWithType: DBC.UDSaleSmallFields.Double07
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double07
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Double07: double value 7, not indexed\n"
+  syntax:
+    content: public const string Double07 = "double07"
+    return:
+      type: System.String
+    content.vb: Public Const Double07 As String = "double07"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double08
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double08
+  id: Double08
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Double08
+  nameWithType: DBC.UDSaleSmallFields.Double08
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double08
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Double08: double value 8, not indexed\n"
+  syntax:
+    content: public const string Double08 = "double08"
+    return:
+      type: System.String
+    content.vb: Public Const Double08 As String = "double08"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double09
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double09
+  id: Double09
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Double09
+  nameWithType: DBC.UDSaleSmallFields.Double09
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double09
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Double09: double value 9, not indexed\n"
+  syntax:
+    content: public const string Double09 = "double09"
+    return:
+      type: System.String
+    content.vb: Public Const Double09 As String = "double09"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double10
+  commentId: F:SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double10
+  id: Double10
+  parent: SuperOffice.CRM.Data.DBC.UDSaleSmallFields
+  langs:
+  - csharp
+  - vb
+  name: Double10
+  nameWithType: DBC.UDSaleSmallFields.Double10
+  fullName: SuperOffice.CRM.Data.DBC.UDSaleSmallFields.Double10
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nUDSaleSmall.Double10: double value 10, not indexed\n"
+  syntax:
+    content: public const string Double10 = "double10"
+    return:
+      type: System.String
+    content.vb: Public Const Double10 As String = "double10"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

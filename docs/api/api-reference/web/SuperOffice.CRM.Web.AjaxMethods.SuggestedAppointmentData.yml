@@ -1,0 +1,569 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData
+  id: SuggestedAppointmentData
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  children:
+  - SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.#ctor
+  - SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.AppointmentTitle
+  - SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.Date
+  - SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.SaleId
+  - SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.SalesGuideName
+  - SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.SuggestedAppointmentId
+  langs:
+  - csharp
+  - vb
+  name: SuggestedAppointmentData
+  nameWithType: SuggestedAppointmentData
+  fullName: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public class SuggestedAppointmentData
+    content.vb: Public Class SuggestedAppointmentData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.#ctor
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData
+  langs:
+  - csharp
+  - vb
+  name: SuggestedAppointmentData()
+  nameWithType: SuggestedAppointmentData.SuggestedAppointmentData()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.SuggestedAppointmentData()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public SuggestedAppointmentData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.SalesGuideName
+  commentId: P:SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.SalesGuideName
+  id: SalesGuideName
+  parent: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData
+  langs:
+  - csharp
+  - vb
+  name: SalesGuideName
+  nameWithType: SuggestedAppointmentData.SalesGuideName
+  fullName: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.SalesGuideName
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string SalesGuideName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SalesGuideName As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.SalesGuideName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.AppointmentTitle
+  commentId: P:SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.AppointmentTitle
+  id: AppointmentTitle
+  parent: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData
+  langs:
+  - csharp
+  - vb
+  name: AppointmentTitle
+  nameWithType: SuggestedAppointmentData.AppointmentTitle
+  fullName: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.AppointmentTitle
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string AppointmentTitle { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AppointmentTitle As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.AppointmentTitle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.Date
+  commentId: P:SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.Date
+  id: Date
+  parent: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: SuggestedAppointmentData.Date
+  fullName: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.Date
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string Date { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Date As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.Date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.SuggestedAppointmentId
+  commentId: P:SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.SuggestedAppointmentId
+  id: SuggestedAppointmentId
+  parent: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData
+  langs:
+  - csharp
+  - vb
+  name: SuggestedAppointmentId
+  nameWithType: SuggestedAppointmentData.SuggestedAppointmentId
+  fullName: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.SuggestedAppointmentId
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public int SuggestedAppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SuggestedAppointmentId As Integer
+  overload: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.SuggestedAppointmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.SaleId
+  commentId: P:SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.SaleId
+  id: SaleId
+  parent: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: SuggestedAppointmentData.SaleId
+  fullName: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.SaleId
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SaleId As Integer
+  overload: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.SaleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.AjaxMethods
+  commentId: N:SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: SuperOffice.CRM.Web.AjaxMethods
+  nameWithType: SuperOffice.CRM.Web.AjaxMethods
+  fullName: SuperOffice.CRM.Web.AjaxMethods
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.#ctor
+  isExternal: true
+  name: SuggestedAppointmentData
+  nameWithType: SuggestedAppointmentData.SuggestedAppointmentData
+  fullName: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.SuggestedAppointmentData
+- uid: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.SalesGuideName*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.SalesGuideName
+  isExternal: true
+  name: SalesGuideName
+  nameWithType: SuggestedAppointmentData.SalesGuideName
+  fullName: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.SalesGuideName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.AppointmentTitle*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.AppointmentTitle
+  isExternal: true
+  name: AppointmentTitle
+  nameWithType: SuggestedAppointmentData.AppointmentTitle
+  fullName: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.AppointmentTitle
+- uid: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.Date*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.Date
+  isExternal: true
+  name: Date
+  nameWithType: SuggestedAppointmentData.Date
+  fullName: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.Date
+- uid: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.SuggestedAppointmentId*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.SuggestedAppointmentId
+  isExternal: true
+  name: SuggestedAppointmentId
+  nameWithType: SuggestedAppointmentData.SuggestedAppointmentId
+  fullName: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.SuggestedAppointmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.SaleId*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: SuggestedAppointmentData.SaleId
+  fullName: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData.SaleId

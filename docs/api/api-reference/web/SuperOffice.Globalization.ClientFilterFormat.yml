@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Globalization.ClientFilterFormat
+  commentId: T:SuperOffice.Globalization.ClientFilterFormat
+  id: ClientFilterFormat
+  parent: SuperOffice.Globalization
+  children:
+  - SuperOffice.Globalization.ClientFilterFormat.JSON
+  - SuperOffice.Globalization.ClientFilterFormat.None
+  - SuperOffice.Globalization.ClientFilterFormat.Web
+  langs:
+  - csharp
+  - vb
+  name: ClientFilterFormat
+  nameWithType: ClientFilterFormat
+  fullName: SuperOffice.Globalization.ClientFilterFormat
+  type: Enum
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nEnumeration used to decide the client filtering of the resource string\nEssentially to avoid too many nasty overload issues with bool and default input parameters\n"
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum ClientFilterFormat
+    content.vb: >-
+      <Flags>
+
+      Public Enum ClientFilterFormat
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Globalization.ClientFilterFormat.None
+  commentId: F:SuperOffice.Globalization.ClientFilterFormat.None
+  id: None
+  parent: SuperOffice.Globalization.ClientFilterFormat
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ClientFilterFormat.None
+  fullName: SuperOffice.Globalization.ClientFilterFormat.None
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nNo client filtering\n"
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.Globalization.ClientFilterFormat
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Globalization.ClientFilterFormat.Web
+  commentId: F:SuperOffice.Globalization.ClientFilterFormat.Web
+  id: Web
+  parent: SuperOffice.Globalization.ClientFilterFormat
+  langs:
+  - csharp
+  - vb
+  name: Web
+  nameWithType: ClientFilterFormat.Web
+  fullName: SuperOffice.Globalization.ClientFilterFormat.Web
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nWeb client filtering\n"
+  syntax:
+    content: Web = 1
+    return:
+      type: SuperOffice.Globalization.ClientFilterFormat
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Globalization.ClientFilterFormat.JSON
+  commentId: F:SuperOffice.Globalization.ClientFilterFormat.JSON
+  id: JSON
+  parent: SuperOffice.Globalization.ClientFilterFormat
+  langs:
+  - csharp
+  - vb
+  name: JSON
+  nameWithType: ClientFilterFormat.JSON
+  fullName: SuperOffice.Globalization.ClientFilterFormat.JSON
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nJSON client filtering\n"
+  syntax:
+    content: JSON = 2
+    return:
+      type: SuperOffice.Globalization.ClientFilterFormat
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Globalization
+  commentId: N:SuperOffice.Globalization
+  isExternal: true
+  name: SuperOffice.Globalization
+  nameWithType: SuperOffice.Globalization
+  fullName: SuperOffice.Globalization
+- uid: SuperOffice.Globalization.ClientFilterFormat
+  commentId: T:SuperOffice.Globalization.ClientFilterFormat
+  parent: SuperOffice.Globalization
+  isExternal: true
+  name: ClientFilterFormat
+  nameWithType: ClientFilterFormat
+  fullName: SuperOffice.Globalization.ClientFilterFormat

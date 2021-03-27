@@ -1,0 +1,804 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.PreviewMailing
+  commentId: T:SuperOffice.CRM.Services.PreviewMailing
+  id: PreviewMailing
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.PreviewMailing.#ctor
+  - SuperOffice.CRM.Services.PreviewMailing.ContactId
+  - SuperOffice.CRM.Services.PreviewMailing.ContactName
+  - SuperOffice.CRM.Services.PreviewMailing.DocumentMessage
+  - SuperOffice.CRM.Services.PreviewMailing.FromAddress
+  - SuperOffice.CRM.Services.PreviewMailing.LinkClicks
+  - SuperOffice.CRM.Services.PreviewMailing.MessageId
+  - SuperOffice.CRM.Services.PreviewMailing.MessageSubject
+  - SuperOffice.CRM.Services.PreviewMailing.Opened
+  - SuperOffice.CRM.Services.PreviewMailing.PersonFullName
+  - SuperOffice.CRM.Services.PreviewMailing.PersonId
+  - SuperOffice.CRM.Services.PreviewMailing.SendingTime
+  - SuperOffice.CRM.Services.PreviewMailing.ShipmentDescription
+  - SuperOffice.CRM.Services.PreviewMailing.ShipmentId
+  - SuperOffice.CRM.Services.PreviewMailing.ShipmentType
+  - SuperOffice.CRM.Services.PreviewMailing.Status
+  - SuperOffice.CRM.Services.PreviewMailing.ToString
+  - SuperOffice.CRM.Services.PreviewMailing.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: PreviewMailing
+  nameWithType: PreviewMailing
+  fullName: SuperOffice.CRM.Services.PreviewMailing
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA shipment message with information about the recipient it was sent to.\n<p></p>\nCarrier object for PreviewMailing.\nServices for the PreviewMailing Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IMarketingAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class PreviewMailing : Carrier'
+    content.vb: >-
+      Public Class PreviewMailing
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.MarketingAgent
+    commentId: T:SuperOffice.CRM.Services.MarketingAgent
+  - linkId: SuperOffice.CRM.Services.IMarketingAgent
+    commentId: T:SuperOffice.CRM.Services.IMarketingAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.PreviewMailing.#ctor
+  commentId: M:SuperOffice.CRM.Services.PreviewMailing.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: PreviewMailing()
+  nameWithType: PreviewMailing.PreviewMailing()
+  fullName: SuperOffice.CRM.Services.PreviewMailing.PreviewMailing()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public PreviewMailing()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.PreviewMailing.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreviewMailing.ToString
+  commentId: M:SuperOffice.CRM.Services.PreviewMailing.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: PreviewMailing.ToString()
+  fullName: SuperOffice.CRM.Services.PreviewMailing.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.PreviewMailing.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.PreviewMailing.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.PreviewMailing.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: PreviewMailing.ToString(String)
+  fullName: SuperOffice.CRM.Services.PreviewMailing.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.PreviewMailing.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreviewMailing.SendingTime
+  commentId: P:SuperOffice.CRM.Services.PreviewMailing.SendingTime
+  id: SendingTime
+  parent: SuperOffice.CRM.Services.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: SendingTime
+  nameWithType: PreviewMailing.SendingTime
+  fullName: SuperOffice.CRM.Services.PreviewMailing.SendingTime
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEstimated or actual sent time (depends on status) \n"
+  syntax:
+    content: public virtual DateTime SendingTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property SendingTime As Date
+  overload: SuperOffice.CRM.Services.PreviewMailing.SendingTime*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreviewMailing.Status
+  commentId: P:SuperOffice.CRM.Services.PreviewMailing.Status
+  id: Status
+  parent: SuperOffice.CRM.Services.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: PreviewMailing.Status
+  fullName: SuperOffice.CRM.Services.PreviewMailing.Status
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStatus for sending to this particular recipient \n"
+  syntax:
+    content: public virtual ShipmentAddrStatus Status { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.ShipmentAddrStatus
+    content.vb: Public Overridable Property Status As ShipmentAddrStatus
+  overload: SuperOffice.CRM.Services.PreviewMailing.Status*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreviewMailing.ShipmentId
+  commentId: P:SuperOffice.CRM.Services.PreviewMailing.ShipmentId
+  id: ShipmentId
+  parent: SuperOffice.CRM.Services.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: ShipmentId
+  nameWithType: PreviewMailing.ShipmentId
+  fullName: SuperOffice.CRM.Services.PreviewMailing.ShipmentId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int ShipmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ShipmentId As Integer
+  overload: SuperOffice.CRM.Services.PreviewMailing.ShipmentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreviewMailing.ShipmentDescription
+  commentId: P:SuperOffice.CRM.Services.PreviewMailing.ShipmentDescription
+  id: ShipmentDescription
+  parent: SuperOffice.CRM.Services.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: ShipmentDescription
+  nameWithType: PreviewMailing.ShipmentDescription
+  fullName: SuperOffice.CRM.Services.PreviewMailing.ShipmentDescription
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDescribes the shipment \n"
+  syntax:
+    content: public virtual string ShipmentDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ShipmentDescription As String
+  overload: SuperOffice.CRM.Services.PreviewMailing.ShipmentDescription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreviewMailing.FromAddress
+  commentId: P:SuperOffice.CRM.Services.PreviewMailing.FromAddress
+  id: FromAddress
+  parent: SuperOffice.CRM.Services.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: FromAddress
+  nameWithType: PreviewMailing.FromAddress
+  fullName: SuperOffice.CRM.Services.PreviewMailing.FromAddress
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEmail address to put in the From header of the messages \n"
+  syntax:
+    content: public virtual string FromAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FromAddress As String
+  overload: SuperOffice.CRM.Services.PreviewMailing.FromAddress*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreviewMailing.ContactId
+  commentId: P:SuperOffice.CRM.Services.PreviewMailing.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Services.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: PreviewMailing.ContactId
+  fullName: SuperOffice.CRM.Services.PreviewMailing.ContactId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOwning contact ID \n"
+  syntax:
+    content: public virtual int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.CRM.Services.PreviewMailing.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreviewMailing.ContactName
+  commentId: P:SuperOffice.CRM.Services.PreviewMailing.ContactName
+  id: ContactName
+  parent: SuperOffice.CRM.Services.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: ContactName
+  nameWithType: PreviewMailing.ContactName
+  fullName: SuperOffice.CRM.Services.PreviewMailing.ContactName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContact name \n"
+  syntax:
+    content: public virtual string ContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactName As String
+  overload: SuperOffice.CRM.Services.PreviewMailing.ContactName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreviewMailing.PersonId
+  commentId: P:SuperOffice.CRM.Services.PreviewMailing.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Services.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: PreviewMailing.PersonId
+  fullName: SuperOffice.CRM.Services.PreviewMailing.PersonId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.CRM.Services.PreviewMailing.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreviewMailing.PersonFullName
+  commentId: P:SuperOffice.CRM.Services.PreviewMailing.PersonFullName
+  id: PersonFullName
+  parent: SuperOffice.CRM.Services.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: PersonFullName
+  nameWithType: PreviewMailing.PersonFullName
+  fullName: SuperOffice.CRM.Services.PreviewMailing.PersonFullName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the persons full name (internal name used in clients for employees).  \n"
+  syntax:
+    content: public virtual string PersonFullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonFullName As String
+  overload: SuperOffice.CRM.Services.PreviewMailing.PersonFullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreviewMailing.ShipmentType
+  commentId: P:SuperOffice.CRM.Services.PreviewMailing.ShipmentType
+  id: ShipmentType
+  parent: SuperOffice.CRM.Services.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: ShipmentType
+  nameWithType: PreviewMailing.ShipmentType
+  fullName: SuperOffice.CRM.Services.PreviewMailing.ShipmentType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe list item \n"
+  syntax:
+    content: public virtual string ShipmentType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ShipmentType As String
+  overload: SuperOffice.CRM.Services.PreviewMailing.ShipmentType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreviewMailing.MessageId
+  commentId: P:SuperOffice.CRM.Services.PreviewMailing.MessageId
+  id: MessageId
+  parent: SuperOffice.CRM.Services.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: MessageId
+  nameWithType: PreviewMailing.MessageId
+  fullName: SuperOffice.CRM.Services.PreviewMailing.MessageId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int MessageId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property MessageId As Integer
+  overload: SuperOffice.CRM.Services.PreviewMailing.MessageId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreviewMailing.MessageSubject
+  commentId: P:SuperOffice.CRM.Services.PreviewMailing.MessageSubject
+  id: MessageSubject
+  parent: SuperOffice.CRM.Services.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: MessageSubject
+  nameWithType: PreviewMailing.MessageSubject
+  fullName: SuperOffice.CRM.Services.PreviewMailing.MessageSubject
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe mail subject field of the message \n"
+  syntax:
+    content: public virtual string MessageSubject { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property MessageSubject As String
+  overload: SuperOffice.CRM.Services.PreviewMailing.MessageSubject*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreviewMailing.DocumentMessage
+  commentId: P:SuperOffice.CRM.Services.PreviewMailing.DocumentMessage
+  id: DocumentMessage
+  parent: SuperOffice.CRM.Services.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: DocumentMessage
+  nameWithType: PreviewMailing.DocumentMessage
+  fullName: SuperOffice.CRM.Services.PreviewMailing.DocumentMessage
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIf a document was used as the message this is the document ID. \n"
+  syntax:
+    content: public virtual int DocumentMessage { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DocumentMessage As Integer
+  overload: SuperOffice.CRM.Services.PreviewMailing.DocumentMessage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreviewMailing.Opened
+  commentId: P:SuperOffice.CRM.Services.PreviewMailing.Opened
+  id: Opened
+  parent: SuperOffice.CRM.Services.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: Opened
+  nameWithType: PreviewMailing.Opened
+  fullName: SuperOffice.CRM.Services.PreviewMailing.Opened
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDate/time the customer read the mailing. \n"
+  syntax:
+    content: public virtual DateTime Opened { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Opened As Date
+  overload: SuperOffice.CRM.Services.PreviewMailing.Opened*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreviewMailing.LinkClicks
+  commentId: P:SuperOffice.CRM.Services.PreviewMailing.LinkClicks
+  id: LinkClicks
+  parent: SuperOffice.CRM.Services.PreviewMailing
+  langs:
+  - csharp
+  - vb
+  name: LinkClicks
+  nameWithType: PreviewMailing.LinkClicks
+  fullName: SuperOffice.CRM.Services.PreviewMailing.LinkClicks
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe number of links clicked in the mailing. \n"
+  syntax:
+    content: public virtual int LinkClicks { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property LinkClicks As Integer
+  overload: SuperOffice.CRM.Services.PreviewMailing.LinkClicks*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.MarketingAgent
+  commentId: T:SuperOffice.CRM.Services.MarketingAgent
+  isExternal: true
+  name: MarketingAgent
+  nameWithType: MarketingAgent
+  fullName: SuperOffice.CRM.Services.MarketingAgent
+- uid: SuperOffice.CRM.Services.IMarketingAgent
+  commentId: T:SuperOffice.CRM.Services.IMarketingAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IMarketingAgent
+  nameWithType: IMarketingAgent
+  fullName: SuperOffice.CRM.Services.IMarketingAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.PreviewMailing.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewMailing.#ctor
+  isExternal: true
+  name: PreviewMailing
+  nameWithType: PreviewMailing.PreviewMailing
+  fullName: SuperOffice.CRM.Services.PreviewMailing.PreviewMailing
+- uid: SuperOffice.CRM.Services.PreviewMailing.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewMailing.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: PreviewMailing.ToString
+  fullName: SuperOffice.CRM.Services.PreviewMailing.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.PreviewMailing.SendingTime*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewMailing.SendingTime
+  isExternal: true
+  name: SendingTime
+  nameWithType: PreviewMailing.SendingTime
+  fullName: SuperOffice.CRM.Services.PreviewMailing.SendingTime
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.PreviewMailing.Status*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewMailing.Status
+  isExternal: true
+  name: Status
+  nameWithType: PreviewMailing.Status
+  fullName: SuperOffice.CRM.Services.PreviewMailing.Status
+- uid: SuperOffice.Data.ShipmentAddrStatus
+  commentId: '!:SuperOffice.Data.ShipmentAddrStatus'
+  isExternal: true
+  name: ShipmentAddrStatus
+  nameWithType: ShipmentAddrStatus
+  fullName: SuperOffice.Data.ShipmentAddrStatus
+- uid: SuperOffice.CRM.Services.PreviewMailing.ShipmentId*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewMailing.ShipmentId
+  isExternal: true
+  name: ShipmentId
+  nameWithType: PreviewMailing.ShipmentId
+  fullName: SuperOffice.CRM.Services.PreviewMailing.ShipmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.PreviewMailing.ShipmentDescription*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewMailing.ShipmentDescription
+  isExternal: true
+  name: ShipmentDescription
+  nameWithType: PreviewMailing.ShipmentDescription
+  fullName: SuperOffice.CRM.Services.PreviewMailing.ShipmentDescription
+- uid: SuperOffice.CRM.Services.PreviewMailing.FromAddress*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewMailing.FromAddress
+  isExternal: true
+  name: FromAddress
+  nameWithType: PreviewMailing.FromAddress
+  fullName: SuperOffice.CRM.Services.PreviewMailing.FromAddress
+- uid: SuperOffice.CRM.Services.PreviewMailing.ContactId*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewMailing.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: PreviewMailing.ContactId
+  fullName: SuperOffice.CRM.Services.PreviewMailing.ContactId
+- uid: SuperOffice.CRM.Services.PreviewMailing.ContactName*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewMailing.ContactName
+  isExternal: true
+  name: ContactName
+  nameWithType: PreviewMailing.ContactName
+  fullName: SuperOffice.CRM.Services.PreviewMailing.ContactName
+- uid: SuperOffice.CRM.Services.PreviewMailing.PersonId*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewMailing.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: PreviewMailing.PersonId
+  fullName: SuperOffice.CRM.Services.PreviewMailing.PersonId
+- uid: SuperOffice.CRM.Services.PreviewMailing.PersonFullName*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewMailing.PersonFullName
+  isExternal: true
+  name: PersonFullName
+  nameWithType: PreviewMailing.PersonFullName
+  fullName: SuperOffice.CRM.Services.PreviewMailing.PersonFullName
+- uid: SuperOffice.CRM.Services.PreviewMailing.ShipmentType*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewMailing.ShipmentType
+  isExternal: true
+  name: ShipmentType
+  nameWithType: PreviewMailing.ShipmentType
+  fullName: SuperOffice.CRM.Services.PreviewMailing.ShipmentType
+- uid: SuperOffice.CRM.Services.PreviewMailing.MessageId*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewMailing.MessageId
+  isExternal: true
+  name: MessageId
+  nameWithType: PreviewMailing.MessageId
+  fullName: SuperOffice.CRM.Services.PreviewMailing.MessageId
+- uid: SuperOffice.CRM.Services.PreviewMailing.MessageSubject*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewMailing.MessageSubject
+  isExternal: true
+  name: MessageSubject
+  nameWithType: PreviewMailing.MessageSubject
+  fullName: SuperOffice.CRM.Services.PreviewMailing.MessageSubject
+- uid: SuperOffice.CRM.Services.PreviewMailing.DocumentMessage*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewMailing.DocumentMessage
+  isExternal: true
+  name: DocumentMessage
+  nameWithType: PreviewMailing.DocumentMessage
+  fullName: SuperOffice.CRM.Services.PreviewMailing.DocumentMessage
+- uid: SuperOffice.CRM.Services.PreviewMailing.Opened*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewMailing.Opened
+  isExternal: true
+  name: Opened
+  nameWithType: PreviewMailing.Opened
+  fullName: SuperOffice.CRM.Services.PreviewMailing.Opened
+- uid: SuperOffice.CRM.Services.PreviewMailing.LinkClicks*
+  commentId: Overload:SuperOffice.CRM.Services.PreviewMailing.LinkClicks
+  isExternal: true
+  name: LinkClicks
+  nameWithType: PreviewMailing.LinkClicks
+  fullName: SuperOffice.CRM.Services.PreviewMailing.LinkClicks

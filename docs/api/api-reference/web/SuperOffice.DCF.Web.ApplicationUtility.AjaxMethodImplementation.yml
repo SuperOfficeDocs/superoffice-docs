@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation
+  commentId: T:SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation
+  id: ApplicationUtility.AjaxMethodImplementation
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.BeginInvoke(System.AsyncCallback,System.Object)
+  - SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.EndInvoke(System.IAsyncResult)
+  - SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.Invoke
+  langs:
+  - csharp
+  - vb
+  name: ApplicationUtility.AjaxMethodImplementation
+  nameWithType: ApplicationUtility.AjaxMethodImplementation
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation
+  type: Delegate
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public delegate void AjaxMethodImplementation();
+    content.vb: Public Delegate Sub AjaxMethodImplementation
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+- uid: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation
+  langs:
+  - csharp
+  - vb
+  name: AjaxMethodImplementation(Object, IntPtr)
+  nameWithType: ApplicationUtility.AjaxMethodImplementation.AjaxMethodImplementation(Object, IntPtr)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.AjaxMethodImplementation(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public AjaxMethodImplementation(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.Invoke
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.Invoke
+  id: Invoke
+  parent: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation
+  langs:
+  - csharp
+  - vb
+  name: Invoke()
+  nameWithType: ApplicationUtility.AjaxMethodImplementation.Invoke()
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.Invoke()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public virtual void Invoke()
+    content.vb: Public Overridable Sub Invoke
+  overload: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.Invoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.BeginInvoke(System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.BeginInvoke(System.AsyncCallback,System.Object)
+  id: BeginInvoke(System.AsyncCallback,System.Object)
+  parent: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(AsyncCallback, Object)
+  nameWithType: ApplicationUtility.AjaxMethodImplementation.BeginInvoke(AsyncCallback, Object)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.BeginInvoke(System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object object)
+    parameters:
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.BeginInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: ApplicationUtility.AjaxMethodImplementation.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.EndInvoke(System.IAsyncResult)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public virtual void EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
+  overload: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.EndInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.#ctor
+  isExternal: true
+  name: AjaxMethodImplementation
+  nameWithType: ApplicationUtility.AjaxMethodImplementation.AjaxMethodImplementation
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.AjaxMethodImplementation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.Invoke*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: ApplicationUtility.AjaxMethodImplementation.Invoke
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.Invoke
+- uid: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.BeginInvoke*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: ApplicationUtility.AjaxMethodImplementation.BeginInvoke
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.EndInvoke*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: ApplicationUtility.AjaxMethodImplementation.EndInvoke
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation.EndInvoke

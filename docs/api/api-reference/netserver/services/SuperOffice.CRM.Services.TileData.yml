@@ -1,0 +1,582 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.TileData
+  commentId: T:SuperOffice.CRM.Services.TileData
+  id: TileData
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.TileData.#ctor
+  - SuperOffice.CRM.Services.TileData.Columns
+  - SuperOffice.CRM.Services.TileData.Result
+  - SuperOffice.CRM.Services.TileData.ToString
+  - SuperOffice.CRM.Services.TileData.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: TileData
+  nameWithType: TileData
+  fullName: SuperOffice.CRM.Services.TileData
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nClass representing data to be visualized in a dashboard tile.\n<p></p>\nCarrier object for TileData.\nServices for the TileData Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IDashboardAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public class TileData
+    content.vb: Public Class TileData
+  seealso:
+  - linkId: SuperOffice.CRM.Services.DashboardAgent
+    commentId: T:SuperOffice.CRM.Services.DashboardAgent
+  - linkId: SuperOffice.CRM.Services.IDashboardAgent
+    commentId: T:SuperOffice.CRM.Services.IDashboardAgent
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.TileData.#ctor
+  commentId: M:SuperOffice.CRM.Services.TileData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.TileData
+  langs:
+  - csharp
+  - vb
+  name: TileData()
+  nameWithType: TileData.TileData()
+  fullName: SuperOffice.CRM.Services.TileData.TileData()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public TileData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.TileData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TileData.ToString
+  commentId: M:SuperOffice.CRM.Services.TileData.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.TileData
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TileData.ToString()
+  fullName: SuperOffice.CRM.Services.TileData.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.Services.TileData.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.TileData.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.TileData.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.TileData
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: TileData.ToString(String)
+  fullName: SuperOffice.CRM.Services.TileData.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.TileData.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TileData.Columns
+  commentId: P:SuperOffice.CRM.Services.TileData.Columns
+  id: Columns
+  parent: SuperOffice.CRM.Services.TileData
+  langs:
+  - csharp
+  - vb
+  name: Columns
+  nameWithType: TileData.Columns
+  fullName: SuperOffice.CRM.Services.TileData.Columns
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nColumn information \n"
+  syntax:
+    content: public virtual ArchiveColumnInfo[] Columns { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+    content.vb: Public Overridable Property Columns As ArchiveColumnInfo()
+  overload: SuperOffice.CRM.Services.TileData.Columns*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TileData.Result
+  commentId: P:SuperOffice.CRM.Services.TileData.Result
+  id: Result
+  parent: SuperOffice.CRM.Services.TileData
+  langs:
+  - csharp
+  - vb
+  name: Result
+  nameWithType: TileData.Result
+  fullName: SuperOffice.CRM.Services.TileData.Result
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe result set \n"
+  syntax:
+    content: public virtual ArchiveListResult Result { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.ArchiveListResult
+    content.vb: Public Overridable Property Result As ArchiveListResult
+  overload: SuperOffice.CRM.Services.TileData.Result*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.DashboardAgent
+  commentId: T:SuperOffice.CRM.Services.DashboardAgent
+  isExternal: true
+  name: DashboardAgent
+  nameWithType: DashboardAgent
+  fullName: SuperOffice.CRM.Services.DashboardAgent
+- uid: SuperOffice.CRM.Services.IDashboardAgent
+  commentId: T:SuperOffice.CRM.Services.IDashboardAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IDashboardAgent
+  nameWithType: IDashboardAgent
+  fullName: SuperOffice.CRM.Services.IDashboardAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.TileData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.TileData.#ctor
+  isExternal: true
+  name: TileData
+  nameWithType: TileData.TileData
+  fullName: SuperOffice.CRM.Services.TileData.TileData
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.TileData.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.TileData.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: TileData.ToString
+  fullName: SuperOffice.CRM.Services.TileData.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.TileData.Columns*
+  commentId: Overload:SuperOffice.CRM.Services.TileData.Columns
+  isExternal: true
+  name: Columns
+  nameWithType: TileData.Columns
+  fullName: SuperOffice.CRM.Services.TileData.Columns
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+  isExternal: true
+  name: ArchiveColumnInfo[]
+  nameWithType: ArchiveColumnInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+  nameWithType.vb: ArchiveColumnInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo()
+  name.vb: ArchiveColumnInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.TileData.Result*
+  commentId: Overload:SuperOffice.CRM.Services.TileData.Result
+  isExternal: true
+  name: Result
+  nameWithType: TileData.Result
+  fullName: SuperOffice.CRM.Services.TileData.Result
+- uid: SuperOffice.CRM.Services.ArchiveListResult
+  commentId: T:SuperOffice.CRM.Services.ArchiveListResult
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ArchiveListResult
+  nameWithType: ArchiveListResult
+  fullName: SuperOffice.CRM.Services.ArchiveListResult

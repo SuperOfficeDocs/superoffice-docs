@@ -1,0 +1,3855 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  commentId: T:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  id: ApplicationDefs.CurrentNames
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminAllowPageOnePerGroup
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminCredentialGroup
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminCredentialUser
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminErpConnection
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminErpField
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminErpSearchLog
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminExcessLicense
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminExcessMath
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminImportEntityType
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminLabel
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminLabelsSearchBox
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminLicenseOwner
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminPageOneGroup
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminPreferenceSearchBox
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminPriceList
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminProduct
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminProductImage
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminSaintCriteriaGroup
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminSaintImage
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminTargetLanguage
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminTimeZonesFilter
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminUserGroups
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Appointment
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Associate
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AssociateRole
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Chat
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ChatSession
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Contact
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Dashboard
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.DashboardTile
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.DashboardTileChartType
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.DashboardTileEntityType
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.DashboardTileLanguage
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Day
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Diary
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.DiaryOwner
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Document
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ExternalRole
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Form
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.FormSubmission
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.GroupView
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.GuideAppointment
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.GuideCreatedOnly
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.GuideDocument
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.GuideMilestoneOnly
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.List
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ListHeadingsSearchbox
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ListItem
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ListItemHeading
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ListItemsSearchbox
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ListItemUserGroup
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ListUserGroupsSearchbox
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailBcc
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailCc
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailDocumentItem
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailFolder
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Mailing
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailItem
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailSubject
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailTo
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MiniMonthStart
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MiniSelection
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Month
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Orphan
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ParticipantAppointment
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Person
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.PreviewContact
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.PreviewMailing
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.PreviewPerson
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.PreviewSelection
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Product
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Project
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectGuideStage
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectMember
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectMembers
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectMoveToStage
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectShowAllStages
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectStatus
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectType
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectTypeStatusLink
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Quote
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteAlternative
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteConnection
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteDeliveryCountry
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteDocLanguage
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteEmailBodyTemplate
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteLine
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteLinesTemplate
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuotePaymentCountry
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteVersion
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Relation
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Report
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ReportCategory
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ReportLabelLayout
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Resource
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Sale
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleGuideStage
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleMoveToStage
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleShowAllStage
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleStage
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleStakeholder
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleStakeholderRole
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleType
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleTypeStageLink
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SelectedStakeholders
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Selection
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SelectionMiniCard
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ShowDeleted
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.StatusMonitor
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.StatusMonitorContact
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.StatusMonitorPerson
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.StatusMonitorProject
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SuggestedAppointment
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SystemEvent
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.TemplateLanguage
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Ticket
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.TimeZone
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.UnsavedFavourite
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.UserDefinedFieldEntityType
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.UserPreference
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Week
+  langs:
+  - csharp
+  - vb
+  name: ApplicationDefs.CurrentNames
+  nameWithType: ApplicationDefs.CurrentNames
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static class CurrentNames
+    content.vb: Public Module CurrentNames
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Contact
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Contact
+  id: Contact
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: ApplicationDefs.CurrentNames.Contact
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Contact
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string Contact = "contact"
+    return:
+      type: System.String
+    content.vb: Public Const Contact As String = "contact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Person
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Person
+  id: Person
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: ApplicationDefs.CurrentNames.Person
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Person
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string Person = "person"
+    return:
+      type: System.String
+    content.vb: Public Const Person As String = "person"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Diary
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Diary
+  id: Diary
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Diary
+  nameWithType: ApplicationDefs.CurrentNames.Diary
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Diary
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string Diary = "diary"
+    return:
+      type: System.String
+    content.vb: Public Const Diary As String = "diary"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.DiaryOwner
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.DiaryOwner
+  id: DiaryOwner
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: DiaryOwner
+  nameWithType: ApplicationDefs.CurrentNames.DiaryOwner
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.DiaryOwner
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string DiaryOwner = "diaryowner"
+    return:
+      type: System.String
+    content.vb: Public Const DiaryOwner As String = "diaryowner"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Project
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Project
+  id: Project
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: ApplicationDefs.CurrentNames.Project
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Project
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string Project = "project"
+    return:
+      type: System.String
+    content.vb: Public Const Project As String = "project"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectMember
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectMember
+  id: ProjectMember
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ProjectMember
+  nameWithType: ApplicationDefs.CurrentNames.ProjectMember
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectMember
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ProjectMember = "projectmember"
+    return:
+      type: System.String
+    content.vb: Public Const ProjectMember As String = "projectmember"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectMembers
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectMembers
+  id: ProjectMembers
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ProjectMembers
+  nameWithType: ApplicationDefs.CurrentNames.ProjectMembers
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectMembers
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ProjectMembers = "projectmembers"
+    return:
+      type: System.String
+    content.vb: Public Const ProjectMembers As String = "projectmembers"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Selection
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Selection
+  id: Selection
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Selection
+  nameWithType: ApplicationDefs.CurrentNames.Selection
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Selection
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string Selection = "selection"
+    return:
+      type: System.String
+    content.vb: Public Const Selection As String = "selection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MiniSelection
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MiniSelection
+  id: MiniSelection
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: MiniSelection
+  nameWithType: ApplicationDefs.CurrentNames.MiniSelection
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MiniSelection
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string MiniSelection = "miniselection"
+    return:
+      type: System.String
+    content.vb: Public Const MiniSelection As String = "miniselection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SelectionMiniCard
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SelectionMiniCard
+  id: SelectionMiniCard
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: SelectionMiniCard
+  nameWithType: ApplicationDefs.CurrentNames.SelectionMiniCard
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SelectionMiniCard
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string SelectionMiniCard = "selectionminicard"
+    return:
+      type: System.String
+    content.vb: Public Const SelectionMiniCard As String = "selectionminicard"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Appointment
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Appointment
+  id: Appointment
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Appointment
+  nameWithType: ApplicationDefs.CurrentNames.Appointment
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Appointment
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string Appointment = "appointment"
+    return:
+      type: System.String
+    content.vb: Public Const Appointment As String = "appointment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ParticipantAppointment
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ParticipantAppointment
+  id: ParticipantAppointment
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ParticipantAppointment
+  nameWithType: ApplicationDefs.CurrentNames.ParticipantAppointment
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ParticipantAppointment
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ParticipantAppointment = "participantappointment"
+    return:
+      type: System.String
+    content.vb: Public Const ParticipantAppointment As String = "participantappointment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Sale
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Sale
+  id: Sale
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Sale
+  nameWithType: ApplicationDefs.CurrentNames.Sale
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Sale
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string Sale = "sale"
+    return:
+      type: System.String
+    content.vb: Public Const Sale As String = "sale"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Document
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Document
+  id: Document
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Document
+  nameWithType: ApplicationDefs.CurrentNames.Document
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Document
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string Document = "document"
+    return:
+      type: System.String
+    content.vb: Public Const Document As String = "document"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Relation
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Relation
+  id: Relation
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Relation
+  nameWithType: ApplicationDefs.CurrentNames.Relation
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Relation
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string Relation = "relation"
+    return:
+      type: System.String
+    content.vb: Public Const Relation As String = "relation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Resource
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Resource
+  id: Resource
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Resource
+  nameWithType: ApplicationDefs.CurrentNames.Resource
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Resource
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string Resource = "resource"
+    return:
+      type: System.String
+    content.vb: Public Const Resource As String = "resource"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Associate
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Associate
+  id: Associate
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: ApplicationDefs.CurrentNames.Associate
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Associate
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string Associate = "associate"
+    return:
+      type: System.String
+    content.vb: Public Const Associate As String = "associate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.PreviewPerson
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.PreviewPerson
+  id: PreviewPerson
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: PreviewPerson
+  nameWithType: ApplicationDefs.CurrentNames.PreviewPerson
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.PreviewPerson
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string PreviewPerson = "previewperson"
+    return:
+      type: System.String
+    content.vb: Public Const PreviewPerson As String = "previewperson"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.PreviewContact
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.PreviewContact
+  id: PreviewContact
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: PreviewContact
+  nameWithType: ApplicationDefs.CurrentNames.PreviewContact
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.PreviewContact
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string PreviewContact = "previewcontact"
+    return:
+      type: System.String
+    content.vb: Public Const PreviewContact As String = "previewcontact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.PreviewSelection
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.PreviewSelection
+  id: PreviewSelection
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: PreviewSelection
+  nameWithType: ApplicationDefs.CurrentNames.PreviewSelection
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.PreviewSelection
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string PreviewSelection = "previewselection"
+    return:
+      type: System.String
+    content.vb: Public Const PreviewSelection As String = "previewselection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailItem
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailItem
+  id: MailItem
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: MailItem
+  nameWithType: ApplicationDefs.CurrentNames.MailItem
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailItem
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string MailItem = "mailitem"
+    return:
+      type: System.String
+    content.vb: Public Const MailItem As String = "mailitem"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailFolder
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailFolder
+  id: MailFolder
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: MailFolder
+  nameWithType: ApplicationDefs.CurrentNames.MailFolder
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailFolder
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string MailFolder = "mailfolder"
+    return:
+      type: System.String
+    content.vb: Public Const MailFolder As String = "mailfolder"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailDocumentItem
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailDocumentItem
+  id: MailDocumentItem
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: MailDocumentItem
+  nameWithType: ApplicationDefs.CurrentNames.MailDocumentItem
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailDocumentItem
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string MailDocumentItem = "maildocument"
+    return:
+      type: System.String
+    content.vb: Public Const MailDocumentItem As String = "maildocument"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Mailing
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Mailing
+  id: Mailing
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Mailing
+  nameWithType: ApplicationDefs.CurrentNames.Mailing
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Mailing
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string Mailing = "mailing"
+    return:
+      type: System.String
+    content.vb: Public Const Mailing As String = "mailing"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Chat
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Chat
+  id: Chat
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Chat
+  nameWithType: ApplicationDefs.CurrentNames.Chat
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Chat
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string Chat = "chat"
+    return:
+      type: System.String
+    content.vb: Public Const Chat As String = "chat"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ChatSession
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ChatSession
+  id: ChatSession
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ChatSession
+  nameWithType: ApplicationDefs.CurrentNames.ChatSession
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ChatSession
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ChatSession = "chatsession"
+    return:
+      type: System.String
+    content.vb: Public Const ChatSession As String = "chatsession"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Day
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Day
+  id: Day
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Day
+  nameWithType: ApplicationDefs.CurrentNames.Day
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Day
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string Day = "day"
+    return:
+      type: System.String
+    content.vb: Public Const Day As String = "day"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Week
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Week
+  id: Week
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Week
+  nameWithType: ApplicationDefs.CurrentNames.Week
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Week
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string Week = "week"
+    return:
+      type: System.String
+    content.vb: Public Const Week As String = "week"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Month
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Month
+  id: Month
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Month
+  nameWithType: ApplicationDefs.CurrentNames.Month
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Month
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string Month = "month"
+    return:
+      type: System.String
+    content.vb: Public Const Month As String = "month"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MiniMonthStart
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MiniMonthStart
+  id: MiniMonthStart
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: MiniMonthStart
+  nameWithType: ApplicationDefs.CurrentNames.MiniMonthStart
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MiniMonthStart
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string MiniMonthStart = "minimonthstart"
+    return:
+      type: System.String
+    content.vb: Public Const MiniMonthStart As String = "minimonthstart"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.GroupView
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.GroupView
+  id: GroupView
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: GroupView
+  nameWithType: ApplicationDefs.CurrentNames.GroupView
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.GroupView
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string GroupView = "groupview"
+    return:
+      type: System.String
+    content.vb: Public Const GroupView As String = "groupview"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.StatusMonitor
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.StatusMonitor
+  id: StatusMonitor
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: StatusMonitor
+  nameWithType: ApplicationDefs.CurrentNames.StatusMonitor
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.StatusMonitor
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string StatusMonitor = "statusmonitor"
+    return:
+      type: System.String
+    content.vb: Public Const StatusMonitor As String = "statusmonitor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Report
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Report
+  id: Report
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Report
+  nameWithType: ApplicationDefs.CurrentNames.Report
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Report
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string Report = "report"
+    return:
+      type: System.String
+    content.vb: Public Const Report As String = "report"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ReportCategory
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ReportCategory
+  id: ReportCategory
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ReportCategory
+  nameWithType: ApplicationDefs.CurrentNames.ReportCategory
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ReportCategory
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ReportCategory = "reportcategory"
+    return:
+      type: System.String
+    content.vb: Public Const ReportCategory As String = "reportcategory"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ReportLabelLayout
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ReportLabelLayout
+  id: ReportLabelLayout
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ReportLabelLayout
+  nameWithType: ApplicationDefs.CurrentNames.ReportLabelLayout
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ReportLabelLayout
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ReportLabelLayout = "reportlabellayout"
+    return:
+      type: System.String
+    content.vb: Public Const ReportLabelLayout As String = "reportlabellayout"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.TimeZone
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.TimeZone
+  id: TimeZone
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: TimeZone
+  nameWithType: ApplicationDefs.CurrentNames.TimeZone
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.TimeZone
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string TimeZone = "tzlocation"
+    return:
+      type: System.String
+    content.vb: Public Const TimeZone As String = "tzlocation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleGuideStage
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleGuideStage
+  id: SaleGuideStage
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: SaleGuideStage
+  nameWithType: ApplicationDefs.CurrentNames.SaleGuideStage
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleGuideStage
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string SaleGuideStage = "saleguidestage"
+    return:
+      type: System.String
+    content.vb: Public Const SaleGuideStage As String = "saleguidestage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleShowAllStage
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleShowAllStage
+  id: SaleShowAllStage
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: SaleShowAllStage
+  nameWithType: ApplicationDefs.CurrentNames.SaleShowAllStage
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleShowAllStage
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string SaleShowAllStage = "saleshowallstages"
+    return:
+      type: System.String
+    content.vb: Public Const SaleShowAllStage As String = "saleshowallstages"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleMoveToStage
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleMoveToStage
+  id: SaleMoveToStage
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: SaleMoveToStage
+  nameWithType: ApplicationDefs.CurrentNames.SaleMoveToStage
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleMoveToStage
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string SaleMoveToStage = "salemovetostage"
+    return:
+      type: System.String
+    content.vb: Public Const SaleMoveToStage As String = "salemovetostage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleStakeholder
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleStakeholder
+  id: SaleStakeholder
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: SaleStakeholder
+  nameWithType: ApplicationDefs.CurrentNames.SaleStakeholder
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleStakeholder
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string SaleStakeholder = "salestakeholder"
+    return:
+      type: System.String
+    content.vb: Public Const SaleStakeholder As String = "salestakeholder"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.UserPreference
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.UserPreference
+  id: UserPreference
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: UserPreference
+  nameWithType: ApplicationDefs.CurrentNames.UserPreference
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.UserPreference
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string UserPreference = "adminuserpreference"
+    return:
+      type: System.String
+    content.vb: Public Const UserPreference As String = "adminuserpreference"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SystemEvent
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SystemEvent
+  id: SystemEvent
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: SystemEvent
+  nameWithType: ApplicationDefs.CurrentNames.SystemEvent
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SystemEvent
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string SystemEvent = "adminsystemevent"
+    return:
+      type: System.String
+    content.vb: Public Const SystemEvent As String = "adminsystemevent"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailTo
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailTo
+  id: MailTo
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: MailTo
+  nameWithType: ApplicationDefs.CurrentNames.MailTo
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailTo
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string MailTo = "mailto"
+    return:
+      type: System.String
+    content.vb: Public Const MailTo As String = "mailto"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailCc
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailCc
+  id: MailCc
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: MailCc
+  nameWithType: ApplicationDefs.CurrentNames.MailCc
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailCc
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string MailCc = "mailcc"
+    return:
+      type: System.String
+    content.vb: Public Const MailCc As String = "mailcc"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailBcc
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailBcc
+  id: MailBcc
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: MailBcc
+  nameWithType: ApplicationDefs.CurrentNames.MailBcc
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailBcc
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string MailBcc = "mailbcc"
+    return:
+      type: System.String
+    content.vb: Public Const MailBcc As String = "mailbcc"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailSubject
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailSubject
+  id: MailSubject
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: MailSubject
+  nameWithType: ApplicationDefs.CurrentNames.MailSubject
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.MailSubject
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string MailSubject = "mailsubject"
+    return:
+      type: System.String
+    content.vb: Public Const MailSubject As String = "mailsubject"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleStakeholderRole
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleStakeholderRole
+  id: SaleStakeholderRole
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: SaleStakeholderRole
+  nameWithType: ApplicationDefs.CurrentNames.SaleStakeholderRole
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleStakeholderRole
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string SaleStakeholderRole = "salestakeholderrole"
+    return:
+      type: System.String
+    content.vb: Public Const SaleStakeholderRole As String = "salestakeholderrole"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SelectedStakeholders
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SelectedStakeholders
+  id: SelectedStakeholders
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: SelectedStakeholders
+  nameWithType: ApplicationDefs.CurrentNames.SelectedStakeholders
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SelectedStakeholders
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string SelectedStakeholders = "selectedstakeholders"
+    return:
+      type: System.String
+    content.vb: Public Const SelectedStakeholders As String = "selectedstakeholders"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SuggestedAppointment
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SuggestedAppointment
+  id: SuggestedAppointment
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: SuggestedAppointment
+  nameWithType: ApplicationDefs.CurrentNames.SuggestedAppointment
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SuggestedAppointment
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string SuggestedAppointment = "suggestedappointment"
+    return:
+      type: System.String
+    content.vb: Public Const SuggestedAppointment As String = "suggestedappointment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectGuideStage
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectGuideStage
+  id: ProjectGuideStage
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ProjectGuideStage
+  nameWithType: ApplicationDefs.CurrentNames.ProjectGuideStage
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectGuideStage
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ProjectGuideStage = "projectguidestage"
+    return:
+      type: System.String
+    content.vb: Public Const ProjectGuideStage As String = "projectguidestage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectShowAllStages
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectShowAllStages
+  id: ProjectShowAllStages
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ProjectShowAllStages
+  nameWithType: ApplicationDefs.CurrentNames.ProjectShowAllStages
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectShowAllStages
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ProjectShowAllStages = "projectshowallstages"
+    return:
+      type: System.String
+    content.vb: Public Const ProjectShowAllStages As String = "projectshowallstages"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.GuideDocument
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.GuideDocument
+  id: GuideDocument
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: GuideDocument
+  nameWithType: ApplicationDefs.CurrentNames.GuideDocument
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.GuideDocument
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string GuideDocument = "guidedocument"
+    return:
+      type: System.String
+    content.vb: Public Const GuideDocument As String = "guidedocument"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.GuideAppointment
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.GuideAppointment
+  id: GuideAppointment
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: GuideAppointment
+  nameWithType: ApplicationDefs.CurrentNames.GuideAppointment
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.GuideAppointment
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string GuideAppointment = "guideappointment"
+    return:
+      type: System.String
+    content.vb: Public Const GuideAppointment As String = "guideappointment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.GuideMilestoneOnly
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.GuideMilestoneOnly
+  id: GuideMilestoneOnly
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: GuideMilestoneOnly
+  nameWithType: ApplicationDefs.CurrentNames.GuideMilestoneOnly
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.GuideMilestoneOnly
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string GuideMilestoneOnly = "guidemilestoneonly"
+    return:
+      type: System.String
+    content.vb: Public Const GuideMilestoneOnly As String = "guidemilestoneonly"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.GuideCreatedOnly
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.GuideCreatedOnly
+  id: GuideCreatedOnly
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: GuideCreatedOnly
+  nameWithType: ApplicationDefs.CurrentNames.GuideCreatedOnly
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.GuideCreatedOnly
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string GuideCreatedOnly = "guidecreatedonly"
+    return:
+      type: System.String
+    content.vb: Public Const GuideCreatedOnly As String = "guidecreatedonly"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectMoveToStage
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectMoveToStage
+  id: ProjectMoveToStage
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ProjectMoveToStage
+  nameWithType: ApplicationDefs.CurrentNames.ProjectMoveToStage
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectMoveToStage
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ProjectMoveToStage = "projectmovetostage"
+    return:
+      type: System.String
+    content.vb: Public Const ProjectMoveToStage As String = "projectmovetostage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AssociateRole
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AssociateRole
+  id: AssociateRole
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AssociateRole
+  nameWithType: ApplicationDefs.CurrentNames.AssociateRole
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AssociateRole
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string AssociateRole = "adminassociaterole"
+    return:
+      type: System.String
+    content.vb: Public Const AssociateRole As String = "adminassociaterole"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ExternalRole
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ExternalRole
+  id: ExternalRole
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ExternalRole
+  nameWithType: ApplicationDefs.CurrentNames.ExternalRole
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ExternalRole
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ExternalRole = "adminexternalrole"
+    return:
+      type: System.String
+    content.vb: Public Const ExternalRole As String = "adminexternalrole"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.List
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.List
+  id: List
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: List
+  nameWithType: ApplicationDefs.CurrentNames.List
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.List
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string List = "adminlist"
+    return:
+      type: System.String
+    content.vb: Public Const List As String = "adminlist"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ListItem
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ListItem
+  id: ListItem
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ListItem
+  nameWithType: ApplicationDefs.CurrentNames.ListItem
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ListItem
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ListItem = "adminlistitem"
+    return:
+      type: System.String
+    content.vb: Public Const ListItem As String = "adminlistitem"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ListItemUserGroup
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ListItemUserGroup
+  id: ListItemUserGroup
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ListItemUserGroup
+  nameWithType: ApplicationDefs.CurrentNames.ListItemUserGroup
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ListItemUserGroup
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ListItemUserGroup = "adminlistitemusergroup"
+    return:
+      type: System.String
+    content.vb: Public Const ListItemUserGroup As String = "adminlistitemusergroup"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ListItemsSearchbox
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ListItemsSearchbox
+  id: ListItemsSearchbox
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ListItemsSearchbox
+  nameWithType: ApplicationDefs.CurrentNames.ListItemsSearchbox
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ListItemsSearchbox
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ListItemsSearchbox = "adminlistitemssearchbox"
+    return:
+      type: System.String
+    content.vb: Public Const ListItemsSearchbox As String = "adminlistitemssearchbox"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ListUserGroupsSearchbox
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ListUserGroupsSearchbox
+  id: ListUserGroupsSearchbox
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ListUserGroupsSearchbox
+  nameWithType: ApplicationDefs.CurrentNames.ListUserGroupsSearchbox
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ListUserGroupsSearchbox
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ListUserGroupsSearchbox = "adminlistusergroupssearchbox"
+    return:
+      type: System.String
+    content.vb: Public Const ListUserGroupsSearchbox As String = "adminlistusergroupssearchbox"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ListItemHeading
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ListItemHeading
+  id: ListItemHeading
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ListItemHeading
+  nameWithType: ApplicationDefs.CurrentNames.ListItemHeading
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ListItemHeading
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ListItemHeading = "adminlistitemheading"
+    return:
+      type: System.String
+    content.vb: Public Const ListItemHeading As String = "adminlistitemheading"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ListHeadingsSearchbox
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ListHeadingsSearchbox
+  id: ListHeadingsSearchbox
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ListHeadingsSearchbox
+  nameWithType: ApplicationDefs.CurrentNames.ListHeadingsSearchbox
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ListHeadingsSearchbox
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ListHeadingsSearchbox = "adminlistheadingssearchbox"
+    return:
+      type: System.String
+    content.vb: Public Const ListHeadingsSearchbox As String = "adminlistheadingssearchbox"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.TemplateLanguage
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.TemplateLanguage
+  id: TemplateLanguage
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: TemplateLanguage
+  nameWithType: ApplicationDefs.CurrentNames.TemplateLanguage
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.TemplateLanguage
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string TemplateLanguage = "admintemplatelanguage"
+    return:
+      type: System.String
+    content.vb: Public Const TemplateLanguage As String = "admintemplatelanguage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleType
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleType
+  id: SaleType
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: SaleType
+  nameWithType: ApplicationDefs.CurrentNames.SaleType
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleType
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string SaleType = "adminsaletype"
+    return:
+      type: System.String
+    content.vb: Public Const SaleType As String = "adminsaletype"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleStage
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleStage
+  id: SaleStage
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: SaleStage
+  nameWithType: ApplicationDefs.CurrentNames.SaleStage
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleStage
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string SaleStage = "adminsalestage"
+    return:
+      type: System.String
+    content.vb: Public Const SaleStage As String = "adminsalestage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleTypeStageLink
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleTypeStageLink
+  id: SaleTypeStageLink
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeStageLink
+  nameWithType: ApplicationDefs.CurrentNames.SaleTypeStageLink
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.SaleTypeStageLink
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string SaleTypeStageLink = "adminsaletypestagelink"
+    return:
+      type: System.String
+    content.vb: Public Const SaleTypeStageLink As String = "adminsaletypestagelink"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ShowDeleted
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ShowDeleted
+  id: ShowDeleted
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ShowDeleted
+  nameWithType: ApplicationDefs.CurrentNames.ShowDeleted
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ShowDeleted
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ShowDeleted = "adminshowdeleted"
+    return:
+      type: System.String
+    content.vb: Public Const ShowDeleted As String = "adminshowdeleted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectType
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectType
+  id: ProjectType
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ProjectType
+  nameWithType: ApplicationDefs.CurrentNames.ProjectType
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectType
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ProjectType = "adminprojecttype"
+    return:
+      type: System.String
+    content.vb: Public Const ProjectType As String = "adminprojecttype"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectStatus
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectStatus
+  id: ProjectStatus
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ProjectStatus
+  nameWithType: ApplicationDefs.CurrentNames.ProjectStatus
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectStatus
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ProjectStatus = "adminprojectstatus"
+    return:
+      type: System.String
+    content.vb: Public Const ProjectStatus As String = "adminprojectstatus"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectTypeStatusLink
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectTypeStatusLink
+  id: ProjectTypeStatusLink
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: ProjectTypeStatusLink
+  nameWithType: ApplicationDefs.CurrentNames.ProjectTypeStatusLink
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.ProjectTypeStatusLink
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ProjectTypeStatusLink = "adminprojecttypestatuslink"
+    return:
+      type: System.String
+    content.vb: Public Const ProjectTypeStatusLink As String = "adminprojecttypestatuslink"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminPageOneGroup
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminPageOneGroup
+  id: AdminPageOneGroup
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminPageOneGroup
+  nameWithType: ApplicationDefs.CurrentNames.AdminPageOneGroup
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminPageOneGroup
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string AdminPageOneGroup = "adminpageonegroup"
+    return:
+      type: System.String
+    content.vb: Public Const AdminPageOneGroup As String = "adminpageonegroup"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminAllowPageOnePerGroup
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminAllowPageOnePerGroup
+  id: AdminAllowPageOnePerGroup
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminAllowPageOnePerGroup
+  nameWithType: ApplicationDefs.CurrentNames.AdminAllowPageOnePerGroup
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminAllowPageOnePerGroup
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string AdminAllowPageOnePerGroup = "adminallowpageonepergroup"
+    return:
+      type: System.String
+    content.vb: Public Const AdminAllowPageOnePerGroup As String = "adminallowpageonepergroup"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.UserDefinedFieldEntityType
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.UserDefinedFieldEntityType
+  id: UserDefinedFieldEntityType
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldEntityType
+  nameWithType: ApplicationDefs.CurrentNames.UserDefinedFieldEntityType
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.UserDefinedFieldEntityType
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string UserDefinedFieldEntityType = "adminuserdefinedfieldentitytype"
+    return:
+      type: System.String
+    content.vb: Public Const UserDefinedFieldEntityType As String = "adminuserdefinedfieldentitytype"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminSaintImage
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminSaintImage
+  id: AdminSaintImage
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminSaintImage
+  nameWithType: ApplicationDefs.CurrentNames.AdminSaintImage
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminSaintImage
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string AdminSaintImage = "adminsaintimage"
+    return:
+      type: System.String
+    content.vb: Public Const AdminSaintImage As String = "adminsaintimage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminSaintCriteriaGroup
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminSaintCriteriaGroup
+  id: AdminSaintCriteriaGroup
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminSaintCriteriaGroup
+  nameWithType: ApplicationDefs.CurrentNames.AdminSaintCriteriaGroup
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminSaintCriteriaGroup
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string AdminSaintCriteriaGroup = "adminsaintcriteriagroup"
+    return:
+      type: System.String
+    content.vb: Public Const AdminSaintCriteriaGroup As String = "adminsaintcriteriagroup"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.StatusMonitorPerson
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.StatusMonitorPerson
+  id: StatusMonitorPerson
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: StatusMonitorPerson
+  nameWithType: ApplicationDefs.CurrentNames.StatusMonitorPerson
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.StatusMonitorPerson
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string StatusMonitorPerson = "statusmonitorperson"
+    return:
+      type: System.String
+    content.vb: Public Const StatusMonitorPerson As String = "statusmonitorperson"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.StatusMonitorProject
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.StatusMonitorProject
+  id: StatusMonitorProject
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: StatusMonitorProject
+  nameWithType: ApplicationDefs.CurrentNames.StatusMonitorProject
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.StatusMonitorProject
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string StatusMonitorProject = "statusmonitorproject"
+    return:
+      type: System.String
+    content.vb: Public Const StatusMonitorProject As String = "statusmonitorproject"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.StatusMonitorContact
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.StatusMonitorContact
+  id: StatusMonitorContact
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: StatusMonitorContact
+  nameWithType: ApplicationDefs.CurrentNames.StatusMonitorContact
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.StatusMonitorContact
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string StatusMonitorContact = "statusmonitorcontact"
+    return:
+      type: System.String
+    content.vb: Public Const StatusMonitorContact As String = "statusmonitorcontact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminExcessLicense
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminExcessLicense
+  id: AdminExcessLicense
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminExcessLicense
+  nameWithType: ApplicationDefs.CurrentNames.AdminExcessLicense
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminExcessLicense
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string AdminExcessLicense = "adminexcesslicense"
+    return:
+      type: System.String
+    content.vb: Public Const AdminExcessLicense As String = "adminexcesslicense"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminExcessMath
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminExcessMath
+  id: AdminExcessMath
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminExcessMath
+  nameWithType: ApplicationDefs.CurrentNames.AdminExcessMath
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminExcessMath
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string AdminExcessMath = "adminexcessmath"
+    return:
+      type: System.String
+    content.vb: Public Const AdminExcessMath As String = "adminexcessmath"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminLicenseOwner
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminLicenseOwner
+  id: AdminLicenseOwner
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminLicenseOwner
+  nameWithType: ApplicationDefs.CurrentNames.AdminLicenseOwner
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminLicenseOwner
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string AdminLicenseOwner = "adminlicenseowner"
+    return:
+      type: System.String
+    content.vb: Public Const AdminLicenseOwner As String = "adminlicenseowner"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminPreferenceSearchBox
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminPreferenceSearchBox
+  id: AdminPreferenceSearchBox
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminPreferenceSearchBox
+  nameWithType: ApplicationDefs.CurrentNames.AdminPreferenceSearchBox
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminPreferenceSearchBox
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string AdminPreferenceSearchBox = "adminpreferencesearchbox"
+    return:
+      type: System.String
+    content.vb: Public Const AdminPreferenceSearchBox As String = "adminpreferencesearchbox"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminTargetLanguage
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminTargetLanguage
+  id: AdminTargetLanguage
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminTargetLanguage
+  nameWithType: ApplicationDefs.CurrentNames.AdminTargetLanguage
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminTargetLanguage
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string AdminTargetLanguage = "admintargetlanguage"
+    return:
+      type: System.String
+    content.vb: Public Const AdminTargetLanguage As String = "admintargetlanguage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminLabelsSearchBox
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminLabelsSearchBox
+  id: AdminLabelsSearchBox
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminLabelsSearchBox
+  nameWithType: ApplicationDefs.CurrentNames.AdminLabelsSearchBox
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminLabelsSearchBox
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string AdminLabelsSearchBox = "adminlabelssearchbox"
+    return:
+      type: System.String
+    content.vb: Public Const AdminLabelsSearchBox As String = "adminlabelssearchbox"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminLabel
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminLabel
+  id: AdminLabel
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminLabel
+  nameWithType: ApplicationDefs.CurrentNames.AdminLabel
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminLabel
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string AdminLabel = "adminlabel"
+    return:
+      type: System.String
+    content.vb: Public Const AdminLabel As String = "adminlabel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminUserGroups
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminUserGroups
+  id: AdminUserGroups
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminUserGroups
+  nameWithType: ApplicationDefs.CurrentNames.AdminUserGroups
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminUserGroups
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string AdminUserGroups = "adminusergroups"
+    return:
+      type: System.String
+    content.vb: Public Const AdminUserGroups As String = "adminusergroups"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminTimeZonesFilter
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminTimeZonesFilter
+  id: AdminTimeZonesFilter
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminTimeZonesFilter
+  nameWithType: ApplicationDefs.CurrentNames.AdminTimeZonesFilter
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminTimeZonesFilter
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string AdminTimeZonesFilter = "admintimezonesfilter"
+    return:
+      type: System.String
+    content.vb: Public Const AdminTimeZonesFilter As String = "admintimezonesfilter"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminErpConnection
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminErpConnection
+  id: AdminErpConnection
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminErpConnection
+  nameWithType: ApplicationDefs.CurrentNames.AdminErpConnection
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminErpConnection
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string AdminErpConnection = "adminerpconnection"
+    return:
+      type: System.String
+    content.vb: Public Const AdminErpConnection As String = "adminerpconnection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminErpField
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminErpField
+  id: AdminErpField
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminErpField
+  nameWithType: ApplicationDefs.CurrentNames.AdminErpField
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminErpField
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string AdminErpField = "adminerpfield"
+    return:
+      type: System.String
+    content.vb: Public Const AdminErpField As String = "adminerpfield"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminErpSearchLog
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminErpSearchLog
+  id: AdminErpSearchLog
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminErpSearchLog
+  nameWithType: ApplicationDefs.CurrentNames.AdminErpSearchLog
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminErpSearchLog
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string AdminErpSearchLog = "adminerpsearchlog"
+    return:
+      type: System.String
+    content.vb: Public Const AdminErpSearchLog As String = "adminerpsearchlog"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteDocLanguage
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteDocLanguage
+  id: QuoteDocLanguage
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: QuoteDocLanguage
+  nameWithType: ApplicationDefs.CurrentNames.QuoteDocLanguage
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteDocLanguage
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string QuoteDocLanguage = "quotedoclanguage"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteDocLanguage As String = "quotedoclanguage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteEmailBodyTemplate
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteEmailBodyTemplate
+  id: QuoteEmailBodyTemplate
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: QuoteEmailBodyTemplate
+  nameWithType: ApplicationDefs.CurrentNames.QuoteEmailBodyTemplate
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteEmailBodyTemplate
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string QuoteEmailBodyTemplate = "quoteemailbodytemplate"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteEmailBodyTemplate As String = "quoteemailbodytemplate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteLinesTemplate
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteLinesTemplate
+  id: QuoteLinesTemplate
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: QuoteLinesTemplate
+  nameWithType: ApplicationDefs.CurrentNames.QuoteLinesTemplate
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteLinesTemplate
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string QuoteLinesTemplate = "quotelinestemplate"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteLinesTemplate As String = "quotelinestemplate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteConnection
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteConnection
+  id: QuoteConnection
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: QuoteConnection
+  nameWithType: ApplicationDefs.CurrentNames.QuoteConnection
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteConnection
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string QuoteConnection = "quoteconnection"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteConnection As String = "quoteconnection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteLine
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteLine
+  id: QuoteLine
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: QuoteLine
+  nameWithType: ApplicationDefs.CurrentNames.QuoteLine
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteLine
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string QuoteLine = "quoteline"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteLine As String = "quoteline"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteAlternative
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteAlternative
+  id: QuoteAlternative
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: QuoteAlternative
+  nameWithType: ApplicationDefs.CurrentNames.QuoteAlternative
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteAlternative
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string QuoteAlternative = "quotealternative"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteAlternative As String = "quotealternative"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteVersion
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteVersion
+  id: QuoteVersion
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersion
+  nameWithType: ApplicationDefs.CurrentNames.QuoteVersion
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteVersion
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string QuoteVersion = "quoteversion"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteVersion As String = "quoteversion"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Quote
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Quote
+  id: Quote
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Quote
+  nameWithType: ApplicationDefs.CurrentNames.Quote
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Quote
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string Quote = "quote"
+    return:
+      type: System.String
+    content.vb: Public Const Quote As String = "quote"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteDeliveryCountry
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteDeliveryCountry
+  id: QuoteDeliveryCountry
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: QuoteDeliveryCountry
+  nameWithType: ApplicationDefs.CurrentNames.QuoteDeliveryCountry
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuoteDeliveryCountry
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string QuoteDeliveryCountry = "quotedeliverycountry"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteDeliveryCountry As String = "quotedeliverycountry"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuotePaymentCountry
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuotePaymentCountry
+  id: QuotePaymentCountry
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: QuotePaymentCountry
+  nameWithType: ApplicationDefs.CurrentNames.QuotePaymentCountry
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.QuotePaymentCountry
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string QuotePaymentCountry = "quotepaymentcountry"
+    return:
+      type: System.String
+    content.vb: Public Const QuotePaymentCountry As String = "quotepaymentcountry"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Product
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Product
+  id: Product
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Product
+  nameWithType: ApplicationDefs.CurrentNames.Product
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Product
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string Product = "product"
+    return:
+      type: System.String
+    content.vb: Public Const Product As String = "product"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminProduct
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminProduct
+  id: AdminProduct
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminProduct
+  nameWithType: ApplicationDefs.CurrentNames.AdminProduct
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminProduct
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string AdminProduct = "adminproduct"
+    return:
+      type: System.String
+    content.vb: Public Const AdminProduct As String = "adminproduct"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminProductImage
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminProductImage
+  id: AdminProductImage
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminProductImage
+  nameWithType: ApplicationDefs.CurrentNames.AdminProductImage
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminProductImage
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string AdminProductImage = "adminproductimage"
+    return:
+      type: System.String
+    content.vb: Public Const AdminProductImage As String = "adminproductimage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminCredentialGroup
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminCredentialGroup
+  id: AdminCredentialGroup
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminCredentialGroup
+  nameWithType: ApplicationDefs.CurrentNames.AdminCredentialGroup
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminCredentialGroup
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string AdminCredentialGroup = "admincredentialgroup"
+    return:
+      type: System.String
+    content.vb: Public Const AdminCredentialGroup As String = "admincredentialgroup"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminCredentialUser
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminCredentialUser
+  id: AdminCredentialUser
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminCredentialUser
+  nameWithType: ApplicationDefs.CurrentNames.AdminCredentialUser
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminCredentialUser
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string AdminCredentialUser = "admincredentialuser"
+    return:
+      type: System.String
+    content.vb: Public Const AdminCredentialUser As String = "admincredentialuser"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminImportEntityType
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminImportEntityType
+  id: AdminImportEntityType
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminImportEntityType
+  nameWithType: ApplicationDefs.CurrentNames.AdminImportEntityType
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminImportEntityType
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string AdminImportEntityType = "adminimportentitytype"
+    return:
+      type: System.String
+    content.vb: Public Const AdminImportEntityType As String = "adminimportentitytype"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminPriceList
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminPriceList
+  id: AdminPriceList
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: AdminPriceList
+  nameWithType: ApplicationDefs.CurrentNames.AdminPriceList
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.AdminPriceList
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string AdminPriceList = "adminpricelist"
+    return:
+      type: System.String
+    content.vb: Public Const AdminPriceList As String = "adminpricelist"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Dashboard
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Dashboard
+  id: Dashboard
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Dashboard
+  nameWithType: ApplicationDefs.CurrentNames.Dashboard
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Dashboard
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string Dashboard = "dashboard"
+    return:
+      type: System.String
+    content.vb: Public Const Dashboard As String = "dashboard"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.DashboardTile
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.DashboardTile
+  id: DashboardTile
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: DashboardTile
+  nameWithType: ApplicationDefs.CurrentNames.DashboardTile
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.DashboardTile
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string DashboardTile = "dashboardtile"
+    return:
+      type: System.String
+    content.vb: Public Const DashboardTile As String = "dashboardtile"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.DashboardTileLanguage
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.DashboardTileLanguage
+  id: DashboardTileLanguage
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileLanguage
+  nameWithType: ApplicationDefs.CurrentNames.DashboardTileLanguage
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.DashboardTileLanguage
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string DashboardTileLanguage = "dashboardtilelanguage"
+    return:
+      type: System.String
+    content.vb: Public Const DashboardTileLanguage As String = "dashboardtilelanguage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.DashboardTileEntityType
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.DashboardTileEntityType
+  id: DashboardTileEntityType
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileEntityType
+  nameWithType: ApplicationDefs.CurrentNames.DashboardTileEntityType
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.DashboardTileEntityType
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string DashboardTileEntityType = "dashboardtileentitytype"
+    return:
+      type: System.String
+    content.vb: Public Const DashboardTileEntityType As String = "dashboardtileentitytype"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.DashboardTileChartType
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.DashboardTileChartType
+  id: DashboardTileChartType
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileChartType
+  nameWithType: ApplicationDefs.CurrentNames.DashboardTileChartType
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.DashboardTileChartType
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string DashboardTileChartType = "dashboardtilecharttype"
+    return:
+      type: System.String
+    content.vb: Public Const DashboardTileChartType As String = "dashboardtilecharttype"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.UnsavedFavourite
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.UnsavedFavourite
+  id: UnsavedFavourite
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: UnsavedFavourite
+  nameWithType: ApplicationDefs.CurrentNames.UnsavedFavourite
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.UnsavedFavourite
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string UnsavedFavourite = "unsavedfavourite"
+    return:
+      type: System.String
+    content.vb: Public Const UnsavedFavourite As String = "unsavedfavourite"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Orphan
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Orphan
+  id: Orphan
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Orphan
+  nameWithType: ApplicationDefs.CurrentNames.Orphan
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Orphan
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string Orphan = "orphan"
+    return:
+      type: System.String
+    content.vb: Public Const Orphan As String = "orphan"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Form
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Form
+  id: Form
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Form
+  nameWithType: ApplicationDefs.CurrentNames.Form
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Form
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string Form = "form"
+    return:
+      type: System.String
+    content.vb: Public Const Form As String = "form"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.FormSubmission
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.FormSubmission
+  id: FormSubmission
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: FormSubmission
+  nameWithType: ApplicationDefs.CurrentNames.FormSubmission
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.FormSubmission
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string FormSubmission = "formsubmission"
+    return:
+      type: System.String
+    content.vb: Public Const FormSubmission As String = "formsubmission"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.PreviewMailing
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.PreviewMailing
+  id: PreviewMailing
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: PreviewMailing
+  nameWithType: ApplicationDefs.CurrentNames.PreviewMailing
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.PreviewMailing
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string PreviewMailing = "previewmailing"
+    return:
+      type: System.String
+    content.vb: Public Const PreviewMailing As String = "previewmailing"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Ticket
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Ticket
+  id: Ticket
+  parent: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+  langs:
+  - csharp
+  - vb
+  name: Ticket
+  nameWithType: ApplicationDefs.CurrentNames.Ticket
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames.Ticket
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string Ticket = "ticket"
+    return:
+      type: System.String
+    content.vb: Public Const Ticket As String = "ticket"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

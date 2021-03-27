@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_GetPublishedAppointmentsRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_GetPublishedAppointmentsRequest
+  id: Appointment_GetPublishedAppointmentsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_GetPublishedAppointmentsRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_GetPublishedAppointmentsRequest.AppointmentIds
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetPublishedAppointmentsRequest
+  nameWithType: Appointment_GetPublishedAppointmentsRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetPublishedAppointmentsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_GetPublishedAppointmentsRequest : Object'
+    content.vb: >-
+      Public Class Appointment_GetPublishedAppointmentsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_GetPublishedAppointmentsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_GetPublishedAppointmentsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_GetPublishedAppointmentsRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetPublishedAppointmentsRequest()
+  nameWithType: Appointment_GetPublishedAppointmentsRequest.Appointment_GetPublishedAppointmentsRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_GetPublishedAppointmentsRequest.Appointment_GetPublishedAppointmentsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_GetPublishedAppointmentsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_GetPublishedAppointmentsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetPublishedAppointmentsRequest.AppointmentIds
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetPublishedAppointmentsRequest.AppointmentIds
+  id: AppointmentIds
+  parent: SuperOffice.WebApi.Data.Appointment_GetPublishedAppointmentsRequest
+  langs:
+  - csharp
+  - vb
+  name: AppointmentIds
+  nameWithType: Appointment_GetPublishedAppointmentsRequest.AppointmentIds
+  fullName: SuperOffice.WebApi.Data.Appointment_GetPublishedAppointmentsRequest.AppointmentIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] AppointmentIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property AppointmentIds As Integer()
+  overload: SuperOffice.WebApi.Data.Appointment_GetPublishedAppointmentsRequest.AppointmentIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_GetPublishedAppointmentsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetPublishedAppointmentsRequest.#ctor
+  isExternal: true
+  name: Appointment_GetPublishedAppointmentsRequest
+  nameWithType: Appointment_GetPublishedAppointmentsRequest.Appointment_GetPublishedAppointmentsRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetPublishedAppointmentsRequest.Appointment_GetPublishedAppointmentsRequest
+- uid: SuperOffice.WebApi.Data.Appointment_GetPublishedAppointmentsRequest.AppointmentIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetPublishedAppointmentsRequest.AppointmentIds
+  isExternal: true
+  name: AppointmentIds
+  nameWithType: Appointment_GetPublishedAppointmentsRequest.AppointmentIds
+  fullName: SuperOffice.WebApi.Data.Appointment_GetPublishedAppointmentsRequest.AppointmentIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

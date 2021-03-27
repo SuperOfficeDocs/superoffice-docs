@@ -1,0 +1,550 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.DataObject
+  commentId: T:SuperOffice.Data.DataObject
+  id: DataObject
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.DataObject.#ctor(System.Object,SuperOffice.CRM.Security.FieldRight,SuperOffice.CRM.Security.TableRight,System.Int32)
+  - SuperOffice.Data.DataObject.Data
+  - SuperOffice.Data.DataObject.FieldLength
+  - SuperOffice.Data.DataObject.FieldRight
+  - SuperOffice.Data.DataObject.TableRight
+  langs:
+  - csharp
+  - vb
+  name: DataObject
+  nameWithType: DataObject
+  fullName: SuperOffice.Data.DataObject
+  type: Class
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nThe DataObject holds the data, fieldrights, tablerights and length.\nWhen the Pagebuilder databinds its controls the DataDispatcher provides a DataObject that contains \ndata, fieldrights and tablerights information.\n"
+  syntax:
+    content: public class DataObject
+    content.vb: Public Class DataObject
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Data.DataObject.#ctor(System.Object,SuperOffice.CRM.Security.FieldRight,SuperOffice.CRM.Security.TableRight,System.Int32)
+  commentId: M:SuperOffice.Data.DataObject.#ctor(System.Object,SuperOffice.CRM.Security.FieldRight,SuperOffice.CRM.Security.TableRight,System.Int32)
+  id: '#ctor(System.Object,SuperOffice.CRM.Security.FieldRight,SuperOffice.CRM.Security.TableRight,System.Int32)'
+  parent: SuperOffice.Data.DataObject
+  langs:
+  - csharp
+  - vb
+  name: DataObject(Object, FieldRight, TableRight, Int32)
+  nameWithType: DataObject.DataObject(Object, FieldRight, TableRight, Int32)
+  fullName: SuperOffice.Data.DataObject.DataObject(System.Object, SuperOffice.CRM.Security.FieldRight, SuperOffice.CRM.Security.TableRight, System.Int32)
+  type: Constructor
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nConstructor\n"
+  syntax:
+    content: public DataObject(object Data, FieldRight FieldRight, TableRight TableRight, int FieldLength)
+    parameters:
+    - id: Data
+      type: System.Object
+    - id: FieldRight
+      type: SuperOffice.CRM.Security.FieldRight
+    - id: TableRight
+      type: SuperOffice.CRM.Security.TableRight
+    - id: FieldLength
+      type: System.Int32
+    content.vb: Public Sub New(Data As Object, FieldRight As FieldRight, TableRight As TableRight, FieldLength As Integer)
+  overload: SuperOffice.Data.DataObject.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.DataObject.Data
+  commentId: P:SuperOffice.Data.DataObject.Data
+  id: Data
+  parent: SuperOffice.Data.DataObject
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: DataObject.Data
+  fullName: SuperOffice.Data.DataObject.Data
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nThe data object\n"
+  syntax:
+    content: public object Data { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Data As Object
+  overload: SuperOffice.Data.DataObject.Data*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.DataObject.FieldRight
+  commentId: P:SuperOffice.Data.DataObject.FieldRight
+  id: FieldRight
+  parent: SuperOffice.Data.DataObject
+  langs:
+  - csharp
+  - vb
+  name: FieldRight
+  nameWithType: DataObject.FieldRight
+  fullName: SuperOffice.Data.DataObject.FieldRight
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nThe data objects field rights. Null if the data object is of type carrier\n"
+  syntax:
+    content: public FieldRight FieldRight { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Security.FieldRight
+    content.vb: Public ReadOnly Property FieldRight As FieldRight
+  overload: SuperOffice.Data.DataObject.FieldRight*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.DataObject.TableRight
+  commentId: P:SuperOffice.Data.DataObject.TableRight
+  id: TableRight
+  parent: SuperOffice.Data.DataObject
+  langs:
+  - csharp
+  - vb
+  name: TableRight
+  nameWithType: DataObject.TableRight
+  fullName: SuperOffice.Data.DataObject.TableRight
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nThe table rights\n"
+  syntax:
+    content: public TableRight TableRight { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Security.TableRight
+    content.vb: Public ReadOnly Property TableRight As TableRight
+  overload: SuperOffice.Data.DataObject.TableRight*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.DataObject.FieldLength
+  commentId: P:SuperOffice.Data.DataObject.FieldLength
+  id: FieldLength
+  parent: SuperOffice.Data.DataObject
+  langs:
+  - csharp
+  - vb
+  name: FieldLength
+  nameWithType: DataObject.FieldLength
+  fullName: SuperOffice.Data.DataObject.FieldLength
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nThe data objects field length. 0 if no length is set.\n"
+  syntax:
+    content: public int FieldLength { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property FieldLength As Integer
+  overload: SuperOffice.Data.DataObject.FieldLength*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.DataObject.#ctor*
+  commentId: Overload:SuperOffice.Data.DataObject.#ctor
+  isExternal: true
+  name: DataObject
+  nameWithType: DataObject.DataObject
+  fullName: SuperOffice.Data.DataObject.DataObject
+- uid: SuperOffice.CRM.Security.FieldRight
+  isExternal: true
+  name: FieldRight
+  nameWithType: FieldRight
+  fullName: SuperOffice.CRM.Security.FieldRight
+- uid: SuperOffice.CRM.Security.TableRight
+  isExternal: true
+  name: TableRight
+  nameWithType: TableRight
+  fullName: SuperOffice.CRM.Security.TableRight
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.DataObject.Data*
+  commentId: Overload:SuperOffice.Data.DataObject.Data
+  isExternal: true
+  name: Data
+  nameWithType: DataObject.Data
+  fullName: SuperOffice.Data.DataObject.Data
+- uid: SuperOffice.Data.DataObject.FieldRight*
+  commentId: Overload:SuperOffice.Data.DataObject.FieldRight
+  isExternal: true
+  name: FieldRight
+  nameWithType: DataObject.FieldRight
+  fullName: SuperOffice.Data.DataObject.FieldRight
+- uid: SuperOffice.Data.DataObject.TableRight*
+  commentId: Overload:SuperOffice.Data.DataObject.TableRight
+  isExternal: true
+  name: TableRight
+  nameWithType: DataObject.TableRight
+  fullName: SuperOffice.Data.DataObject.TableRight
+- uid: SuperOffice.Data.DataObject.FieldLength*
+  commentId: Overload:SuperOffice.Data.DataObject.FieldLength
+  isExternal: true
+  name: FieldLength
+  nameWithType: DataObject.FieldLength
+  fullName: SuperOffice.Data.DataObject.FieldLength

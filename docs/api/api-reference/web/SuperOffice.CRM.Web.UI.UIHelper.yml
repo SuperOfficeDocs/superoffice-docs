@@ -1,0 +1,540 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.UIHelper
+  commentId: T:SuperOffice.CRM.Web.UI.UIHelper
+  id: UIHelper
+  parent: SuperOffice.CRM.Web.UI
+  children:
+  - SuperOffice.CRM.Web.UI.UIHelper.#ctor
+  - SuperOffice.CRM.Web.UI.UIHelper.ApplicationTitle
+  - SuperOffice.CRM.Web.UI.UIHelper.CompanyToTitleCase(System.String)
+  - SuperOffice.CRM.Web.UI.UIHelper.GetViewContainerSize(System.Web.UI.Control)
+  - SuperOffice.CRM.Web.UI.UIHelper.PersonToTitleCase(System.String)
+  langs:
+  - csharp
+  - vb
+  name: UIHelper
+  nameWithType: UIHelper
+  fullName: SuperOffice.CRM.Web.UI.UIHelper
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI
+  syntax:
+    content: public class UIHelper
+    content.vb: Public Class UIHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.UIHelper.GetViewContainerSize(System.Web.UI.Control)
+  commentId: M:SuperOffice.CRM.Web.UI.UIHelper.GetViewContainerSize(System.Web.UI.Control)
+  id: GetViewContainerSize(System.Web.UI.Control)
+  parent: SuperOffice.CRM.Web.UI.UIHelper
+  langs:
+  - csharp
+  - vb
+  name: GetViewContainerSize(Control)
+  nameWithType: UIHelper.GetViewContainerSize(Control)
+  fullName: SuperOffice.CRM.Web.UI.UIHelper.GetViewContainerSize(System.Web.UI.Control)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI
+  syntax:
+    content: public static Size GetViewContainerSize(Control control)
+    parameters:
+    - id: control
+      type: System.Web.UI.Control
+    return:
+      type: System.Drawing.Size
+    content.vb: Public Shared Function GetViewContainerSize(control As Control) As Size
+  overload: SuperOffice.CRM.Web.UI.UIHelper.GetViewContainerSize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.UIHelper.ApplicationTitle
+  commentId: M:SuperOffice.CRM.Web.UI.UIHelper.ApplicationTitle
+  id: ApplicationTitle
+  parent: SuperOffice.CRM.Web.UI.UIHelper
+  langs:
+  - csharp
+  - vb
+  name: ApplicationTitle()
+  nameWithType: UIHelper.ApplicationTitle()
+  fullName: SuperOffice.CRM.Web.UI.UIHelper.ApplicationTitle()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI
+  syntax:
+    content: public static string ApplicationTitle()
+    return:
+      type: System.String
+    content.vb: Public Shared Function ApplicationTitle As String
+  overload: SuperOffice.CRM.Web.UI.UIHelper.ApplicationTitle*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.UIHelper.CompanyToTitleCase(System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.UIHelper.CompanyToTitleCase(System.String)
+  id: CompanyToTitleCase(System.String)
+  parent: SuperOffice.CRM.Web.UI.UIHelper
+  langs:
+  - csharp
+  - vb
+  name: CompanyToTitleCase(String)
+  nameWithType: UIHelper.CompanyToTitleCase(String)
+  fullName: SuperOffice.CRM.Web.UI.UIHelper.CompanyToTitleCase(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI
+  syntax:
+    content: public static string CompanyToTitleCase(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function CompanyToTitleCase(name As String) As String
+  overload: SuperOffice.CRM.Web.UI.UIHelper.CompanyToTitleCase*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.UIHelper.PersonToTitleCase(System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.UIHelper.PersonToTitleCase(System.String)
+  id: PersonToTitleCase(System.String)
+  parent: SuperOffice.CRM.Web.UI.UIHelper
+  langs:
+  - csharp
+  - vb
+  name: PersonToTitleCase(String)
+  nameWithType: UIHelper.PersonToTitleCase(String)
+  fullName: SuperOffice.CRM.Web.UI.UIHelper.PersonToTitleCase(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI
+  syntax:
+    content: public static string PersonToTitleCase(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function PersonToTitleCase(name As String) As String
+  overload: SuperOffice.CRM.Web.UI.UIHelper.PersonToTitleCase*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.UIHelper.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.UIHelper.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.UIHelper
+  langs:
+  - csharp
+  - vb
+  name: UIHelper()
+  nameWithType: UIHelper.UIHelper()
+  fullName: SuperOffice.CRM.Web.UI.UIHelper.UIHelper()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI
+  syntax:
+    content: public UIHelper()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.UIHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI
+  commentId: N:SuperOffice.CRM.Web.UI
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI
+  nameWithType: SuperOffice.CRM.Web.UI
+  fullName: SuperOffice.CRM.Web.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.UIHelper.GetViewContainerSize*
+  commentId: Overload:SuperOffice.CRM.Web.UI.UIHelper.GetViewContainerSize
+  isExternal: true
+  name: GetViewContainerSize
+  nameWithType: UIHelper.GetViewContainerSize
+  fullName: SuperOffice.CRM.Web.UI.UIHelper.GetViewContainerSize
+- uid: System.Web.UI.Control
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: System.Drawing.Size
+  isExternal: true
+  name: Size
+  nameWithType: Size
+  fullName: System.Drawing.Size
+- uid: SuperOffice.CRM.Web.UI.UIHelper.ApplicationTitle*
+  commentId: Overload:SuperOffice.CRM.Web.UI.UIHelper.ApplicationTitle
+  isExternal: true
+  name: ApplicationTitle
+  nameWithType: UIHelper.ApplicationTitle
+  fullName: SuperOffice.CRM.Web.UI.UIHelper.ApplicationTitle
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.UIHelper.CompanyToTitleCase*
+  commentId: Overload:SuperOffice.CRM.Web.UI.UIHelper.CompanyToTitleCase
+  isExternal: true
+  name: CompanyToTitleCase
+  nameWithType: UIHelper.CompanyToTitleCase
+  fullName: SuperOffice.CRM.Web.UI.UIHelper.CompanyToTitleCase
+- uid: SuperOffice.CRM.Web.UI.UIHelper.PersonToTitleCase*
+  commentId: Overload:SuperOffice.CRM.Web.UI.UIHelper.PersonToTitleCase
+  isExternal: true
+  name: PersonToTitleCase
+  nameWithType: UIHelper.PersonToTitleCase
+  fullName: SuperOffice.CRM.Web.UI.UIHelper.PersonToTitleCase
+- uid: SuperOffice.CRM.Web.UI.UIHelper.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.UIHelper.#ctor
+  isExternal: true
+  name: UIHelper
+  nameWithType: UIHelper.UIHelper
+  fullName: SuperOffice.CRM.Web.UI.UIHelper.UIHelper

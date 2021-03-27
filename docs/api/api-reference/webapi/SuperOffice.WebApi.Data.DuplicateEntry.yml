@@ -1,0 +1,326 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DuplicateEntry
+  commentId: T:SuperOffice.WebApi.Data.DuplicateEntry
+  id: DuplicateEntry
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DuplicateEntry.#ctor
+  - SuperOffice.WebApi.Data.DuplicateEntry.EntryIdentifier
+  - SuperOffice.WebApi.Data.DuplicateEntry.EntryName
+  - SuperOffice.WebApi.Data.DuplicateEntry.RuleDisplayName
+  - SuperOffice.WebApi.Data.DuplicateEntry.RuleName
+  - SuperOffice.WebApi.Data.DuplicateEntry.SoPrimaryKey
+  langs:
+  - csharp
+  - vb
+  name: DuplicateEntry
+  nameWithType: DuplicateEntry
+  fullName: SuperOffice.WebApi.Data.DuplicateEntry
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for DuplicateEntry.\nA duplicate entry    \n"
+  syntax:
+    content: 'public class DuplicateEntry : Carrier'
+    content.vb: >-
+      Public Class DuplicateEntry
+          Inherits Carrier
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.DuplicateEntry.#ctor
+  commentId: M:SuperOffice.WebApi.Data.DuplicateEntry.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.DuplicateEntry
+  langs:
+  - csharp
+  - vb
+  name: DuplicateEntry()
+  nameWithType: DuplicateEntry.DuplicateEntry()
+  fullName: SuperOffice.WebApi.Data.DuplicateEntry.DuplicateEntry()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public DuplicateEntry()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.DuplicateEntry.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DuplicateEntry.RuleName
+  commentId: P:SuperOffice.WebApi.Data.DuplicateEntry.RuleName
+  id: RuleName
+  parent: SuperOffice.WebApi.Data.DuplicateEntry
+  langs:
+  - csharp
+  - vb
+  name: RuleName
+  nameWithType: DuplicateEntry.RuleName
+  fullName: SuperOffice.WebApi.Data.DuplicateEntry.RuleName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIdentifying name for rule\n\n"
+  syntax:
+    content: public virtual string RuleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RuleName As String
+  overload: SuperOffice.WebApi.Data.DuplicateEntry.RuleName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DuplicateEntry.SoPrimaryKey
+  commentId: P:SuperOffice.WebApi.Data.DuplicateEntry.SoPrimaryKey
+  id: SoPrimaryKey
+  parent: SuperOffice.WebApi.Data.DuplicateEntry
+  langs:
+  - csharp
+  - vb
+  name: SoPrimaryKey
+  nameWithType: DuplicateEntry.SoPrimaryKey
+  fullName: SuperOffice.WebApi.Data.DuplicateEntry.SoPrimaryKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIdentity of an entry in the SuperOffice database. Should be 0 for matches from external systems.\n"
+  syntax:
+    content: public virtual int SoPrimaryKey { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SoPrimaryKey As Integer
+  overload: SuperOffice.WebApi.Data.DuplicateEntry.SoPrimaryKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DuplicateEntry.EntryName
+  commentId: P:SuperOffice.WebApi.Data.DuplicateEntry.EntryName
+  id: EntryName
+  parent: SuperOffice.WebApi.Data.DuplicateEntry
+  langs:
+  - csharp
+  - vb
+  name: EntryName
+  nameWithType: DuplicateEntry.EntryName
+  fullName: SuperOffice.WebApi.Data.DuplicateEntry.EntryName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of duplicate entry\n"
+  syntax:
+    content: public virtual string EntryName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EntryName As String
+  overload: SuperOffice.WebApi.Data.DuplicateEntry.EntryName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DuplicateEntry.EntryIdentifier
+  commentId: P:SuperOffice.WebApi.Data.DuplicateEntry.EntryIdentifier
+  id: EntryIdentifier
+  parent: SuperOffice.WebApi.Data.DuplicateEntry
+  langs:
+  - csharp
+  - vb
+  name: EntryIdentifier
+  nameWithType: DuplicateEntry.EntryIdentifier
+  fullName: SuperOffice.WebApi.Data.DuplicateEntry.EntryIdentifier
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nString identifier for entry. Typically used to identify an entry in an external system.\n"
+  syntax:
+    content: public virtual string EntryIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EntryIdentifier As String
+  overload: SuperOffice.WebApi.Data.DuplicateEntry.EntryIdentifier*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.DuplicateEntry.RuleDisplayName
+  commentId: P:SuperOffice.WebApi.Data.DuplicateEntry.RuleDisplayName
+  id: RuleDisplayName
+  parent: SuperOffice.WebApi.Data.DuplicateEntry
+  langs:
+  - csharp
+  - vb
+  name: RuleDisplayName
+  nameWithType: DuplicateEntry.RuleDisplayName
+  fullName: SuperOffice.WebApi.Data.DuplicateEntry.RuleDisplayName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShort name of rule to display to user\n"
+  syntax:
+    content: public virtual string RuleDisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RuleDisplayName As String
+  overload: SuperOffice.WebApi.Data.DuplicateEntry.RuleDisplayName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.DuplicateEntry.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.DuplicateEntry.#ctor
+  isExternal: true
+  name: DuplicateEntry
+  nameWithType: DuplicateEntry.DuplicateEntry
+  fullName: SuperOffice.WebApi.Data.DuplicateEntry.DuplicateEntry
+- uid: SuperOffice.WebApi.Data.DuplicateEntry.RuleName*
+  commentId: Overload:SuperOffice.WebApi.Data.DuplicateEntry.RuleName
+  isExternal: true
+  name: RuleName
+  nameWithType: DuplicateEntry.RuleName
+  fullName: SuperOffice.WebApi.Data.DuplicateEntry.RuleName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.DuplicateEntry.SoPrimaryKey*
+  commentId: Overload:SuperOffice.WebApi.Data.DuplicateEntry.SoPrimaryKey
+  isExternal: true
+  name: SoPrimaryKey
+  nameWithType: DuplicateEntry.SoPrimaryKey
+  fullName: SuperOffice.WebApi.Data.DuplicateEntry.SoPrimaryKey
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.DuplicateEntry.EntryName*
+  commentId: Overload:SuperOffice.WebApi.Data.DuplicateEntry.EntryName
+  isExternal: true
+  name: EntryName
+  nameWithType: DuplicateEntry.EntryName
+  fullName: SuperOffice.WebApi.Data.DuplicateEntry.EntryName
+- uid: SuperOffice.WebApi.Data.DuplicateEntry.EntryIdentifier*
+  commentId: Overload:SuperOffice.WebApi.Data.DuplicateEntry.EntryIdentifier
+  isExternal: true
+  name: EntryIdentifier
+  nameWithType: DuplicateEntry.EntryIdentifier
+  fullName: SuperOffice.WebApi.Data.DuplicateEntry.EntryIdentifier
+- uid: SuperOffice.WebApi.Data.DuplicateEntry.RuleDisplayName*
+  commentId: Overload:SuperOffice.WebApi.Data.DuplicateEntry.RuleDisplayName
+  isExternal: true
+  name: RuleDisplayName
+  nameWithType: DuplicateEntry.RuleDisplayName
+  fullName: SuperOffice.WebApi.Data.DuplicateEntry.RuleDisplayName

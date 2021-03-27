@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Project_GetMyProjectsRequest
+  commentId: T:SuperOffice.WebApi.Data.Project_GetMyProjectsRequest
+  id: Project_GetMyProjectsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Project_GetMyProjectsRequest.#ctor
+  - SuperOffice.WebApi.Data.Project_GetMyProjectsRequest.IncludeMemberProjects
+  langs:
+  - csharp
+  - vb
+  name: Project_GetMyProjectsRequest
+  nameWithType: Project_GetMyProjectsRequest
+  fullName: SuperOffice.WebApi.Data.Project_GetMyProjectsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Project_GetMyProjectsRequest : Object'
+    content.vb: >-
+      Public Class Project_GetMyProjectsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Project_GetMyProjectsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Project_GetMyProjectsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Project_GetMyProjectsRequest
+  langs:
+  - csharp
+  - vb
+  name: Project_GetMyProjectsRequest()
+  nameWithType: Project_GetMyProjectsRequest.Project_GetMyProjectsRequest()
+  fullName: SuperOffice.WebApi.Data.Project_GetMyProjectsRequest.Project_GetMyProjectsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Project_GetMyProjectsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Project_GetMyProjectsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Project_GetMyProjectsRequest.IncludeMemberProjects
+  commentId: P:SuperOffice.WebApi.Data.Project_GetMyProjectsRequest.IncludeMemberProjects
+  id: IncludeMemberProjects
+  parent: SuperOffice.WebApi.Data.Project_GetMyProjectsRequest
+  langs:
+  - csharp
+  - vb
+  name: IncludeMemberProjects
+  nameWithType: Project_GetMyProjectsRequest.IncludeMemberProjects
+  fullName: SuperOffice.WebApi.Data.Project_GetMyProjectsRequest.IncludeMemberProjects
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool IncludeMemberProjects { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeMemberProjects As Boolean
+  overload: SuperOffice.WebApi.Data.Project_GetMyProjectsRequest.IncludeMemberProjects*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Project_GetMyProjectsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_GetMyProjectsRequest.#ctor
+  isExternal: true
+  name: Project_GetMyProjectsRequest
+  nameWithType: Project_GetMyProjectsRequest.Project_GetMyProjectsRequest
+  fullName: SuperOffice.WebApi.Data.Project_GetMyProjectsRequest.Project_GetMyProjectsRequest
+- uid: SuperOffice.WebApi.Data.Project_GetMyProjectsRequest.IncludeMemberProjects*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_GetMyProjectsRequest.IncludeMemberProjects
+  isExternal: true
+  name: IncludeMemberProjects
+  nameWithType: Project_GetMyProjectsRequest.IncludeMemberProjects
+  fullName: SuperOffice.WebApi.Data.Project_GetMyProjectsRequest.IncludeMemberProjects
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

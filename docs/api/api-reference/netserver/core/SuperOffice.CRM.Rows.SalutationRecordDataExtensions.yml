@@ -1,0 +1,853 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.SalutationRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.SalutationRecordDataExtensions
+  id: SalutationRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.SalutationRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SalutationTableInfo})
+  - SuperOffice.CRM.Rows.SalutationRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SalutationTableInfo})
+  - SuperOffice.CRM.Rows.SalutationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SalutationRecordData)
+  - SuperOffice.CRM.Rows.SalutationRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SalutationRecordData})
+  langs:
+  - csharp
+  - vb
+  name: SalutationRecordDataExtensions
+  nameWithType: SalutationRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.SalutationRecordDataExtensions
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nExtension methods to make it easy to fetch <xref href=\"SuperOffice.CRM.Rows.SalutationRecordData\" data-throw-if-not-resolved=\"false\"></xref> objects from the database,\nusing the <see cref=\"!:TargetedSelect\"></see> infrastructure\n"
+  syntax:
+    content: public static class SalutationRecordDataExtensions
+    content.vb: Public Module SalutationRecordDataExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Rows.SalutationRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SalutationTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.SalutationRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SalutationTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SalutationTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.SalutationRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<SalutationTableInfo>)
+  nameWithType: SalutationRecordDataExtensions.FromSelect(TargetedSelect<SalutationTableInfo>)
+  fullName: SuperOffice.CRM.Rows.SalutationRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SalutationTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedSelect&lt;SalutationTableInfo>, execute it and return an IEnumerable&lt;SalutationRecordData> with the results\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<SalutationRecordData> FromSelect(this TargetedSelect<SalutationTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SalutationTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SalutationRecordData}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of SalutationTableInfo)) As IEnumerable(Of SalutationRecordData)
+  overload: SuperOffice.CRM.Rows.SalutationRecordDataExtensions.FromSelect*
+  nameWithType.vb: SalutationRecordDataExtensions.FromSelect(TargetedSelect(Of SalutationTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.SalutationRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.SalutationTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of SalutationTableInfo))
+- uid: SuperOffice.CRM.Rows.SalutationRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SalutationTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.SalutationRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SalutationTableInfo})
+  id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SalutationTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.SalutationRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromRecord(TargetedDataRecord<SalutationTableInfo>)
+  nameWithType: SalutationRecordDataExtensions.FromRecord(TargetedDataRecord<SalutationTableInfo>)
+  fullName: SuperOffice.CRM.Rows.SalutationRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.SalutationTableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFrom a TargetedDataRecord&lt;SalutationTableInfo>, create and populate a <xref href=\"SuperOffice.CRM.Rows.SalutationRecordData\" data-throw-if-not-resolved=\"false\"></xref> POCO object\n"
+  example:
+  - >-
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                /* add joins, return fields etc. as you wish */
+                s.ReturnFields.Add(s.Table.All);
+                var result = s.Records().Select(r => new { SalutationItem = r.FromRecord(), /* fetch other fields here */ });</code></pre>
+  syntax:
+    content: public static SalutationRecordData FromRecord(this TargetedDataRecord<SalutationTableInfo> record)
+    parameters:
+    - id: record
+      type: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SalutationTableInfo}
+    return:
+      type: SuperOffice.CRM.Rows.SalutationRecordData
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromRecord(record As TargetedDataRecord(Of SalutationTableInfo)) As SalutationRecordData
+  overload: SuperOffice.CRM.Rows.SalutationRecordDataExtensions.FromRecord*
+  nameWithType.vb: SalutationRecordDataExtensions.FromRecord(TargetedDataRecord(Of SalutationTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.SalutationRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.SalutationTableInfo))
+  name.vb: FromRecord(TargetedDataRecord(Of SalutationTableInfo))
+- uid: SuperOffice.CRM.Rows.SalutationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SalutationRecordData)
+  commentId: M:SuperOffice.CRM.Rows.SalutationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SalutationRecordData)
+  id: ToInsert(SuperOffice.CRM.Rows.SalutationRecordData)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.SalutationRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInsert(SalutationRecordData)
+  nameWithType: SalutationRecordDataExtensions.ToInsert(SalutationRecordData)
+  fullName: SuperOffice.CRM.Rows.SalutationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SalutationRecordData)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static Insert ToInsert(this SalutationRecordData record)
+    parameters:
+    - id: record
+      type: SuperOffice.CRM.Rows.SalutationRecordData
+    return:
+      type: SuperOffice.Data.SQL.Insert
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInsert(record As SalutationRecordData) As Insert
+  overload: SuperOffice.CRM.Rows.SalutationRecordDataExtensions.ToInsert*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.SalutationRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SalutationRecordData})
+  commentId: M:SuperOffice.CRM.Rows.SalutationRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SalutationRecordData})
+  id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SalutationRecordData})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.SalutationRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInserts(IEnumerable<SalutationRecordData>)
+  nameWithType: SalutationRecordDataExtensions.ToInserts(IEnumerable<SalutationRecordData>)
+  fullName: SuperOffice.CRM.Rows.SalutationRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SalutationRecordData>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static IEnumerable<Insert> ToInserts(this IEnumerable<SalutationRecordData> records)
+    parameters:
+    - id: records
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SalutationRecordData}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInserts(records As IEnumerable(Of SalutationRecordData)) As IEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.SalutationRecordDataExtensions.ToInserts*
+  nameWithType.vb: SalutationRecordDataExtensions.ToInserts(IEnumerable(Of SalutationRecordData))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.SalutationRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SalutationRecordData))
+  name.vb: ToInserts(IEnumerable(Of SalutationRecordData))
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Rows.SalutationRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.SalutationRecordDataExtensions.FromSelect
+  isExternal: true
+  name: FromSelect
+  nameWithType: SalutationRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.SalutationRecordDataExtensions.FromSelect
+- uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SalutationTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.SalutationTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedSelect`1
+  name: TargetedSelect<SalutationTableInfo>
+  nameWithType: TargetedSelect<SalutationTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.SalutationTableInfo>
+  nameWithType.vb: TargetedSelect(Of SalutationTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.SalutationTableInfo)
+  name.vb: TargetedSelect(Of SalutationTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.SalutationTableInfo
+    name: SalutationTableInfo
+    nameWithType: SalutationTableInfo
+    fullName: SuperOffice.CRM.Data.SalutationTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.SalutationTableInfo
+    name: SalutationTableInfo
+    nameWithType: SalutationTableInfo
+    fullName: SuperOffice.CRM.Data.SalutationTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SalutationRecordData}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.SalutationRecordData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<SalutationRecordData>
+  nameWithType: IEnumerable<SalutationRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.SalutationRecordData>
+  nameWithType.vb: IEnumerable(Of SalutationRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.SalutationRecordData)
+  name.vb: IEnumerable(Of SalutationRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.SalutationRecordData
+    name: SalutationRecordData
+    nameWithType: SalutationRecordData
+    fullName: SuperOffice.CRM.Rows.SalutationRecordData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.SalutationRecordData
+    name: SalutationRecordData
+    nameWithType: SalutationRecordData
+    fullName: SuperOffice.CRM.Rows.SalutationRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedSelect`1
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect`1
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TargetedSelect<MainTableInfo>
+  nameWithType: TargetedSelect<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<MainTableInfo>
+  nameWithType.vb: TargetedSelect(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of MainTableInfo)
+  name.vb: TargetedSelect(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Rows.SalutationRecordDataExtensions.FromRecord*
+  commentId: Overload:SuperOffice.CRM.Rows.SalutationRecordDataExtensions.FromRecord
+  isExternal: true
+  name: FromRecord
+  nameWithType: SalutationRecordDataExtensions.FromRecord
+  fullName: SuperOffice.CRM.Rows.SalutationRecordDataExtensions.FromRecord
+- uid: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SalutationTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.SalutationTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedDataRecord`1
+  name: TargetedDataRecord<SalutationTableInfo>
+  nameWithType: TargetedDataRecord<SalutationTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.SalutationTableInfo>
+  nameWithType.vb: TargetedDataRecord(Of SalutationTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.SalutationTableInfo)
+  name.vb: TargetedDataRecord(Of SalutationTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.SalutationTableInfo
+    name: SalutationTableInfo
+    nameWithType: SalutationTableInfo
+    fullName: SuperOffice.CRM.Data.SalutationTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.SalutationTableInfo
+    name: SalutationTableInfo
+    nameWithType: SalutationTableInfo
+    fullName: SuperOffice.CRM.Data.SalutationTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SalutationRecordData
+  commentId: T:SuperOffice.CRM.Rows.SalutationRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: SalutationRecordData
+  nameWithType: SalutationRecordData
+  fullName: SuperOffice.CRM.Rows.SalutationRecordData
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord`1
+  isExternal: true
+  name: TargetedDataRecord<MainTableInfo>
+  nameWithType: TargetedDataRecord<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo)
+  name.vb: TargetedDataRecord(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SalutationRecordDataExtensions.ToInsert*
+  commentId: Overload:SuperOffice.CRM.Rows.SalutationRecordDataExtensions.ToInsert
+  isExternal: true
+  name: ToInsert
+  nameWithType: SalutationRecordDataExtensions.ToInsert
+  fullName: SuperOffice.CRM.Rows.SalutationRecordDataExtensions.ToInsert
+- uid: SuperOffice.Data.SQL.Insert
+  commentId: T:SuperOffice.Data.SQL.Insert
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Insert
+  nameWithType: Insert
+  fullName: SuperOffice.Data.SQL.Insert
+- uid: SuperOffice.CRM.Rows.SalutationRecordDataExtensions.ToInserts*
+  commentId: Overload:SuperOffice.CRM.Rows.SalutationRecordDataExtensions.ToInserts
+  isExternal: true
+  name: ToInserts
+  nameWithType: SalutationRecordDataExtensions.ToInserts
+  fullName: SuperOffice.CRM.Rows.SalutationRecordDataExtensions.ToInserts
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Insert>
+  nameWithType: IEnumerable<Insert>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

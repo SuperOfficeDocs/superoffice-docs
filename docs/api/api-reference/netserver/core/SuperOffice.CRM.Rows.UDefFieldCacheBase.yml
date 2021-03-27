@@ -1,0 +1,2596 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  commentId: T:SuperOffice.CRM.Rows.UDefFieldCacheBase
+  id: UDefFieldCacheBase
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.#ctor(System.String,SuperOffice.Data.Cache.CacheType,System.Int32)
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevision
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetAllPageOneFieldsFromType(SuperOffice.Data.UDefType)
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetCachedTableNumbers
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetDefaultValue(SuperOffice.CRM.Rows.UDefFieldRow)
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabel(SuperOffice.Data.UDefType,System.String)
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabelWithCulture(SuperOffice.Data.UDefType,System.String,System.String)
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(SuperOffice.Data.Dictionary.SoField)
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(System.Int32)
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromFieldLabel(System.String,SuperOffice.Data.UDefType)
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromId(System.Int32)
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromProgId(System.String,SuperOffice.Data.UDefType)
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromProgId(System.String,System.Int32,System.Int32)
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromType(SuperOffice.Data.UDefType)
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUdefIdentity(System.Int32,SuperOffice.Data.UDefType)
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUdefIdentity(System.Int32,System.Int32,System.Int32)
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUDListDefinitionId(System.Int32)
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetLineNo(System.Int32)
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetListName(SuperOffice.CRM.Rows.UDefFieldRow)
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType(SuperOffice.Data.UDefType)
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType(SuperOffice.Data.UDefType,System.Int32)
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersions
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDO(SuperOffice.Data.UDefType)
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.OnFlush
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.OnRefresh
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.UserPreferenceHasChanged(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: UDefFieldCacheBase
+  nameWithType: UDefFieldCacheBase
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSummary description for UDefFieldCache.\n"
+  syntax:
+    content: 'public abstract class UDefFieldCacheBase : CacheBase, IDisposable, IFlushable'
+    content.vb: >-
+      Public MustInherit Class UDefFieldCacheBase
+          Inherits CacheBase
+          Implements IDisposable, IFlushable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.Cache.CacheBase
+  derivedClasses:
+  - SuperOffice.CRM.Rows.UDefFieldAdminCache
+  - SuperOffice.CRM.Rows.UDefFieldCache
+  implements:
+  - System.IDisposable
+  - SuperOffice.Data.Cache.IFlushable
+  inheritedMembers:
+  - SuperOffice.Data.Cache.CacheBase._lastUpdated
+  - SuperOffice.Data.Cache.CacheBase._cacheState
+  - SuperOffice.Data.Cache.CacheBase.Dispose
+  - SuperOffice.Data.Cache.CacheBase.Validate
+  - SuperOffice.Data.Cache.CacheBase.Refresh
+  - SuperOffice.Data.Cache.CacheBase.Flush
+  - SuperOffice.Data.Cache.CacheBase.OnExpired
+  - SuperOffice.Data.Cache.CacheBase.OnRefreshed
+  - SuperOffice.Data.Cache.CacheBase.OnFlushed
+  - SuperOffice.Data.Cache.CacheBase.OnDisposed
+  - SuperOffice.Data.Cache.CacheBase.Lock
+  - SuperOffice.Data.Cache.CacheBase.Name
+  - SuperOffice.Data.Cache.CacheBase.CacheType
+  - SuperOffice.Data.Cache.CacheBase.Timeout
+  - SuperOffice.Data.Cache.CacheBase.State
+  - SuperOffice.Data.Cache.CacheBase.IsValid
+  - SuperOffice.Data.Cache.CacheBase.Expired
+  - SuperOffice.Data.Cache.CacheBase.Refreshed
+  - SuperOffice.Data.Cache.CacheBase.Flushed
+  - SuperOffice.Data.Cache.CacheBase.Disposed
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.UDefFieldCacheBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.#ctor(System.String,SuperOffice.Data.Cache.CacheType,System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.#ctor(System.String,SuperOffice.Data.Cache.CacheType,System.Int32)
+  id: '#ctor(System.String,SuperOffice.Data.Cache.CacheType,System.Int32)'
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: UDefFieldCacheBase(String, CacheType, Int32)
+  nameWithType: UDefFieldCacheBase.UDefFieldCacheBase(String, CacheType, Int32)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.UDefFieldCacheBase(System.String, SuperOffice.Data.Cache.CacheType, System.Int32)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrivate instance constructor, sets up the cache dictionaries\n"
+  syntax:
+    content: protected UDefFieldCacheBase(string name, CacheType cacheType, int timeOut)
+    parameters:
+    - id: name
+      type: System.String
+    - id: cacheType
+      type: SuperOffice.Data.Cache.CacheType
+    - id: timeOut
+      type: System.Int32
+    content.vb: Protected Sub New(name As String, cacheType As CacheType, timeOut As Integer)
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.UserPreferenceHasChanged(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.UserPreferenceHasChanged(System.String,System.String)
+  id: UserPreferenceHasChanged(System.String,System.String)
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceHasChanged(String, String)
+  nameWithType: UDefFieldCacheBase.UserPreferenceHasChanged(String, String)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.UserPreferenceHasChanged(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected virtual bool UserPreferenceHasChanged(string section, string key)
+    parameters:
+    - id: section
+      type: System.String
+    - id: key
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Protected Overridable Function UserPreferenceHasChanged(section As String, key As String) As Boolean
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.UserPreferenceHasChanged*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromId(System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromId(System.Int32)
+  id: GetFromId(System.Int32)
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: GetFromId(Int32)
+  nameWithType: UDefFieldCacheBase.GetFromId(Int32)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromId(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nGet a <xref href=\"SuperOffice.CRM.Rows.UDefFieldRow\" data-throw-if-not-resolved=\"false\"></xref> from its primary key.\n"
+  syntax:
+    content: public UDefFieldRow GetFromId(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: Primary key of the row.
+    return:
+      type: SuperOffice.CRM.Rows.UDefFieldRow
+      description: "Row with the primary key.  &apos;null&apos; (vb &apos;Nothing&apos;) is \nreturned if there are no rows with this primary key."
+    content.vb: Public Function GetFromId(id As Integer) As UDefFieldRow
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(SuperOffice.Data.SQL.FieldInfo)
+  id: GetFromField(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: GetFromField(FieldInfo)
+  nameWithType: UDefFieldCacheBase.GetFromField(FieldInfo)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nGet a <xref href=\"SuperOffice.CRM.Rows.UDefFieldRow\" data-throw-if-not-resolved=\"false\"></xref> from the field the user-defined value is stored in.\n"
+  syntax:
+    content: public UDefFieldRow GetFromField(FieldInfo fieldInfo)
+    parameters:
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+      description: Information about the field
+    return:
+      type: SuperOffice.CRM.Rows.UDefFieldRow
+      description: "Row holding the definition of the field.  &apos;null&apos; (vb &apos;Nothing&apos;) is \nreturned if there are no rows defined for this field.  This would mean that this\nfield does not hold a value for a user-defined field."
+    content.vb: Public Function GetFromField(fieldInfo As FieldInfo) As UDefFieldRow
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(SuperOffice.Data.Dictionary.SoField)
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(SuperOffice.Data.Dictionary.SoField)
+  id: GetFromField(SuperOffice.Data.Dictionary.SoField)
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: GetFromField(SoField)
+  nameWithType: UDefFieldCacheBase.GetFromField(SoField)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(SuperOffice.Data.Dictionary.SoField)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nGet a <xref href=\"SuperOffice.CRM.Rows.UDefFieldRow\" data-throw-if-not-resolved=\"false\"></xref> from the field the user-defined value is stored in.\n"
+  syntax:
+    content: public UDefFieldRow GetFromField(SoField field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.Dictionary.SoField
+      description: Information about the field
+    return:
+      type: SuperOffice.CRM.Rows.UDefFieldRow
+      description: "Row holding the definition of the field.  &apos;null&apos; (vb &apos;Nothing&apos;) is \nreturned if there are no rows defined for this field.  This would mean that this\nfield does not hold a value for a user-defined field."
+    content.vb: Public Function GetFromField(field As SoField) As UDefFieldRow
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(System.Int32)
+  id: GetFromField(System.Int32)
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: GetFromField(Int32)
+  nameWithType: UDefFieldCacheBase.GetFromField(Int32)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nGet a <xref href=\"SuperOffice.CRM.Rows.UDefFieldRow\" data-throw-if-not-resolved=\"false\"></xref> from the field the user-defined value is stored in.\n"
+  syntax:
+    content: public UDefFieldRow GetFromField(int fieldNumber)
+    parameters:
+    - id: fieldNumber
+      type: System.Int32
+      description: Information about the field
+    return:
+      type: SuperOffice.CRM.Rows.UDefFieldRow
+      description: "Row holding the definition of the field.  &apos;null&apos; (vb &apos;Nothing&apos;) is \nreturned if there are no rows defined for this field.  This would mean that this\nfield does not hold a value for a user-defined field."
+    content.vb: Public Function GetFromField(fieldNumber As Integer) As UDefFieldRow
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUdefIdentity(System.Int32,SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUdefIdentity(System.Int32,SuperOffice.Data.UDefType)
+  id: GetFromUdefIdentity(System.Int32,SuperOffice.Data.UDefType)
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: GetFromUdefIdentity(Int32, UDefType)
+  nameWithType: UDefFieldCacheBase.GetFromUdefIdentity(Int32, UDefType)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUdefIdentity(System.Int32, SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nGet a <xref href=\"SuperOffice.CRM.Rows.UDefFieldRow\" data-throw-if-not-resolved=\"false\"></xref> from its udefIdentity.\n"
+  syntax:
+    content: public UDefFieldRow GetFromUdefIdentity(int udefIdentity, UDefType type)
+    parameters:
+    - id: udefIdentity
+      type: System.Int32
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: SuperOffice.CRM.Rows.UDefFieldRow
+      description: "Row with the matching udefIdentity and type.  &apos;null&apos; (vb &apos;Nothing&apos;) is \nreturned if there are no rows matching."
+    content.vb: Public Function GetFromUdefIdentity(udefIdentity As Integer, type As UDefType) As UDefFieldRow
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUdefIdentity*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUdefIdentity(System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUdefIdentity(System.Int32,System.Int32,System.Int32)
+  id: GetFromUdefIdentity(System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: GetFromUdefIdentity(Int32, Int32, Int32)
+  nameWithType: UDefFieldCacheBase.GetFromUdefIdentity(Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUdefIdentity(System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: >-
+      [Obsolete("This method is obsolete, please use the overload that takes a UDefType instead", true)]
+
+      public static UDefFieldRow GetFromUdefIdentity(int udefIdentity, int smallTableNumber, int largeTableNumber)
+    parameters:
+    - id: udefIdentity
+      type: System.Int32
+    - id: smallTableNumber
+      type: System.Int32
+    - id: largeTableNumber
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Rows.UDefFieldRow
+    content.vb: >-
+      <Obsolete("This method is obsolete, please use the overload that takes a UDefType instead", True)>
+
+      Public Shared Function GetFromUdefIdentity(udefIdentity As Integer, smallTableNumber As Integer, largeTableNumber As Integer) As UDefFieldRow
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUdefIdentity*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: This method is obsolete, please use the overload that takes a UDefType instead
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromProgId(System.String,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromProgId(System.String,System.Int32,System.Int32)
+  id: GetFromProgId(System.String,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: GetFromProgId(String, Int32, Int32)
+  nameWithType: UDefFieldCacheBase.GetFromProgId(String, Int32, Int32)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromProgId(System.String, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: >-
+      [Obsolete("This method is obsolete, please use the overload that takes a UDefType instead", true)]
+
+      public static UDefFieldRow GetFromProgId(string progId, int smallTableNumber, int largeTableNumber)
+    parameters:
+    - id: progId
+      type: System.String
+    - id: smallTableNumber
+      type: System.Int32
+    - id: largeTableNumber
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Rows.UDefFieldRow
+    content.vb: >-
+      <Obsolete("This method is obsolete, please use the overload that takes a UDefType instead", True)>
+
+      Public Shared Function GetFromProgId(progId As String, smallTableNumber As Integer, largeTableNumber As Integer) As UDefFieldRow
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromProgId*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: This method is obsolete, please use the overload that takes a UDefType instead
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromProgId(System.String,SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromProgId(System.String,SuperOffice.Data.UDefType)
+  id: GetFromProgId(System.String,SuperOffice.Data.UDefType)
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: GetFromProgId(String, UDefType)
+  nameWithType: UDefFieldCacheBase.GetFromProgId(String, UDefType)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromProgId(System.String, SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nGet a <xref href=\"SuperOffice.CRM.Rows.UDefFieldRow\" data-throw-if-not-resolved=\"false\"></xref> from its progid\n"
+  syntax:
+    content: public UDefFieldRow GetFromProgId(string progId, UDefType type)
+    parameters:
+    - id: progId
+      type: System.String
+      description: >-
+        ProgId is composed of an identifier and udefidentity; &apos;[identifier]:[udefIdentity]&apos;
+
+        Note that a colon is generally used as the separator, and not a dot; this is because the web client
+
+        (and other applications) tend to use the dot as an indirection operator, like C# does.
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: SuperOffice.CRM.Rows.UDefFieldRow
+      description: "Row with the matching progid.  &apos;null&apos; (vb &apos;Nothing&apos;) is \nreturned if there are no rows matching."
+    content.vb: Public Function GetFromProgId(progId As String, type As UDefType) As UDefFieldRow
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromProgId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUDListDefinitionId(System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUDListDefinitionId(System.Int32)
+  id: GetFromUDListDefinitionId(System.Int32)
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: GetFromUDListDefinitionId(Int32)
+  nameWithType: UDefFieldCacheBase.GetFromUDListDefinitionId(Int32)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUDListDefinitionId(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public UDefFieldRows GetFromUDListDefinitionId(int udListDefinitionId)
+    parameters:
+    - id: udListDefinitionId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Rows.UDefFieldRows
+    content.vb: Public Function GetFromUDListDefinitionId(udListDefinitionId As Integer) As UDefFieldRows
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUDListDefinitionId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromFieldLabel(System.String,SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromFieldLabel(System.String,SuperOffice.Data.UDefType)
+  id: GetFromFieldLabel(System.String,SuperOffice.Data.UDefType)
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: GetFromFieldLabel(String, UDefType)
+  nameWithType: UDefFieldCacheBase.GetFromFieldLabel(String, UDefType)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromFieldLabel(System.String, SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nGet a <xref href=\"SuperOffice.CRM.Rows.UDefFieldRow\" data-throw-if-not-resolved=\"false\"></xref> based on its label.\n"
+  remarks: "\nThe label match is fuzzy and not-exact, unlike a prog-id.\nLeading and trailing spaces are removed, as is trailing punctuation (&quot;:&quot; and &quot;.&quot;).\nMulti-language strings (i.e. US:&quot;foo&quot;;NO:&quot;bar&quot;) are parsed according to the \ncurrent ui-culture before being matched.\n"
+  syntax:
+    content: public UDefFieldRow GetFromFieldLabel(string fieldlabel, UDefType type)
+    parameters:
+    - id: fieldlabel
+      type: System.String
+      description: 'Label is '
+    - id: type
+      type: SuperOffice.Data.UDefType
+    return:
+      type: SuperOffice.CRM.Rows.UDefFieldRow
+      description: "Row with the matching progid.  &apos;null&apos; (vb &apos;Nothing&apos;) is \nreturned if there are no rows matching."
+    content.vb: Public Function GetFromFieldLabel(fieldlabel As String, type As UDefType) As UDefFieldRow
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromFieldLabel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromType(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromType(SuperOffice.Data.UDefType)
+  id: GetFromType(SuperOffice.Data.UDefType)
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: GetFromType(UDefType)
+  nameWithType: UDefFieldCacheBase.GetFromType(UDefType)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromType(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nGet a <xref href=\"SuperOffice.CRM.Rows.UDefFieldRows\" data-throw-if-not-resolved=\"false\"></xref> collection of definitions for a given udef type\n"
+  syntax:
+    content: public UDefFieldRows GetFromType(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+      description: Udef type
+    return:
+      type: SuperOffice.CRM.Rows.UDefFieldRows
+      description: Field definitions; the collection might be empty if there are no fields defined
+    content.vb: Public Function GetFromType(type As UDefType) As UDefFieldRows
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromType*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType(SuperOffice.Data.UDefType,System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType(SuperOffice.Data.UDefType,System.Int32)
+  id: GetPageOneFieldsFromType(SuperOffice.Data.UDefType,System.Int32)
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: GetPageOneFieldsFromType(UDefType, Int32)
+  nameWithType: UDefFieldCacheBase.GetPageOneFieldsFromType(UDefType, Int32)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType(SuperOffice.Data.UDefType, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nGet a list of page one fields for given Udef type and user group. The list may be empty if no fields have been defined.\nnull will be returned if the Udef type is not supported for page one (Appointment, Document).\n"
+  syntax:
+    content: public List<UDefFieldCacheBase.PageOneFieldInfo> GetPageOneFieldsFromType(UDefType type, int userGroupId)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+      description: Udef type
+    - id: userGroupId
+      type: System.Int32
+      description: User group to get for
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Rows.UDefFieldCacheBase.PageOneFieldInfo}
+      description: List of <xref href="SuperOffice.CRM.Rows.UDefFieldCacheBase.PageOneFieldInfo" data-throw-if-not-resolved="false"></xref> elements containing user-defined field definitions and line number (1-based)
+    content.vb: Public Function GetPageOneFieldsFromType(type As UDefType, userGroupId As Integer) As List(Of UDefFieldCacheBase.PageOneFieldInfo)
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType(SuperOffice.Data.UDefType)
+  id: GetPageOneFieldsFromType(SuperOffice.Data.UDefType)
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: GetPageOneFieldsFromType(UDefType)
+  nameWithType: UDefFieldCacheBase.GetPageOneFieldsFromType(UDefType)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nGet a list of page one fields for given Udef type and current user group. The list may be empty if no fields have been defined.\nnull will be returned if the Udef type is not supported for page one (Appointment, Document).\n"
+  syntax:
+    content: public List<UDefFieldCacheBase.PageOneFieldInfo> GetPageOneFieldsFromType(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+      description: Udef type
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Rows.UDefFieldCacheBase.PageOneFieldInfo}
+      description: List of <xref href="SuperOffice.CRM.Rows.UDefFieldCacheBase.PageOneFieldInfo" data-throw-if-not-resolved="false"></xref> elements containing user-defined field definitions and line number (1-based)
+    content.vb: Public Function GetPageOneFieldsFromType(type As UDefType) As List(Of UDefFieldCacheBase.PageOneFieldInfo)
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetAllPageOneFieldsFromType(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetAllPageOneFieldsFromType(SuperOffice.Data.UDefType)
+  id: GetAllPageOneFieldsFromType(SuperOffice.Data.UDefType)
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: GetAllPageOneFieldsFromType(UDefType)
+  nameWithType: UDefFieldCacheBase.GetAllPageOneFieldsFromType(UDefType)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetAllPageOneFieldsFromType(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nGet ALL page one fields from an udef type\n"
+  syntax:
+    content: public Dictionary<int, List<UDefFieldCacheBase.PageOneFieldInfo>> GetAllPageOneFieldsFromType(UDefType type)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+      description: Udef type
+    return:
+      type: System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{SuperOffice.CRM.Rows.UDefFieldCacheBase.PageOneFieldInfo}}
+      description: Lists of <xref href="SuperOffice.CRM.Rows.UDefFieldCacheBase.PageOneFieldInfo" data-throw-if-not-resolved="false"></xref> elements containing user-defined field definitions and line number (1-based)
+    content.vb: Public Function GetAllPageOneFieldsFromType(type As UDefType) As Dictionary(Of Integer, List(Of UDefFieldCacheBase.PageOneFieldInfo))
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetAllPageOneFieldsFromType*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabel(SuperOffice.Data.UDefType,System.String)
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabel(SuperOffice.Data.UDefType,System.String)
+  id: GetFirstFromLabel(SuperOffice.Data.UDefType,System.String)
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: GetFirstFromLabel(UDefType, String)
+  nameWithType: UDefFieldCacheBase.GetFirstFromLabel(UDefType, String)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabel(SuperOffice.Data.UDefType, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nGet a field definition based on the field label. This method is <strong>not safe</strong> as field labels are easily\nchanged through the Admin client, and therefore not guaranteed to be constant. Labels are also not enforced unique.\n"
+  remarks: "\nTo improve reliability, this method will strip colon, semicolon, blank, newline, carriage return, tab and minus\ncharacters from the front and back of labels, as well as convert to lower case for comparison. The &apos;label&apos; in-parameter\nis also treated this way. A sequential search is then made, and the first field found to match is returned.\n"
+  syntax:
+    content: public UDefFieldRow GetFirstFromLabel(UDefType type, string label)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+      description: Type of udef field to search
+    - id: label
+      type: System.String
+      description: Label to look for
+    return:
+      type: SuperOffice.CRM.Rows.UDefFieldRow
+      description: Row definition, or null if no match
+    content.vb: Public Function GetFirstFromLabel(type As UDefType, label As String) As UDefFieldRow
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabelWithCulture(SuperOffice.Data.UDefType,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabelWithCulture(SuperOffice.Data.UDefType,System.String,System.String)
+  id: GetFirstFromLabelWithCulture(SuperOffice.Data.UDefType,System.String,System.String)
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: GetFirstFromLabelWithCulture(UDefType, String, String)
+  nameWithType: UDefFieldCacheBase.GetFirstFromLabelWithCulture(UDefType, String, String)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabelWithCulture(SuperOffice.Data.UDefType, System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nGet a field definition based on the field label, parsed according to a specified culture. \nThis method is <strong>not safe</strong> as field labels are easily\nchanged through the Admin client, and therefore not guaranteed to be constant. Labels are also not enforced unique.\n"
+  remarks: "\nInitially, all labels are parsed according to the given culture (labels that do not follow multi-language\nlayout are not touched). Then, this method will strip colon, semicolon, blank, newline, carriage return, tab and minus\ncharacters from the front and back of labels, as well as convert to lower case for comparison. The &apos;label&apos; in-parameter\nis also treated this way (but not multi-language parsed). \nA sequential search is then made, and the first field found to match is returned.\n"
+  syntax:
+    content: public UDefFieldRow GetFirstFromLabelWithCulture(UDefType type, string label, string culture)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.UDefType
+      description: Type of udef field to search
+    - id: label
+      type: System.String
+      description: Label to look for
+    - id: culture
+      type: System.String
+      description: Culture to apply to labels during parsing
+    return:
+      type: SuperOffice.CRM.Rows.UDefFieldRow
+      description: Row definition, or null if no match
+    content.vb: Public Function GetFirstFromLabelWithCulture(type As UDefType, label As String, culture As String) As UDefFieldRow
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabelWithCulture*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetDefaultValue(SuperOffice.CRM.Rows.UDefFieldRow)
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetDefaultValue(SuperOffice.CRM.Rows.UDefFieldRow)
+  id: GetDefaultValue(SuperOffice.CRM.Rows.UDefFieldRow)
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultValue(UDefFieldRow)
+  nameWithType: UDefFieldCacheBase.GetDefaultValue(UDefFieldRow)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetDefaultValue(SuperOffice.CRM.Rows.UDefFieldRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nGet a field&apos;s default value as a typed (parsed) object: an int, a date, or whatever. There are\nno parsing exceptions thrown by this method. Multi-language parsing is performed for all\nkinds of values prior to other parsing, as in the windows client.\n"
+  syntax:
+    content: public static object GetDefaultValue(UDefFieldRow definition)
+    parameters:
+    - id: definition
+      type: SuperOffice.CRM.Rows.UDefFieldRow
+      description: Udef field definition
+    return:
+      type: System.Object
+      description: "An object of the correct type for the database type of the udef field (so a \ndropdown list field will get an int, which is the list item id). If the stored default is\nnot parseable as the target type, an &apos;empty&apos; object of the correct type is returned\n(0 for ints, etc.)"
+    content.vb: Public Shared Function GetDefaultValue(definition As UDefFieldRow) As Object
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetDefaultValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetListName(SuperOffice.CRM.Rows.UDefFieldRow)
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetListName(SuperOffice.CRM.Rows.UDefFieldRow)
+  id: GetListName(SuperOffice.CRM.Rows.UDefFieldRow)
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: GetListName(UDefFieldRow)
+  nameWithType: UDefFieldCacheBase.GetListName(UDefFieldRow)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetListName(SuperOffice.CRM.Rows.UDefFieldRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nGet the name of the MDO list associate with the given udef field. An empty string is returned\nif the field is not a list field.\n"
+  remarks: "\nThe list associated with a udef field is generally given by the <xref href=\"SuperOffice.CRM.Rows.UDefFieldRow.ListTableId\" data-throw-if-not-resolved=\"false\"></xref> property\nof the definition. However, there is some special treatment:\n\n"
+  syntax:
+    content: public static string GetListName(UDefFieldRow definition)
+    parameters:
+    - id: definition
+      type: SuperOffice.CRM.Rows.UDefFieldRow
+      description: User-defined field to get list name for
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetListName(definition As UDefFieldRow) As String
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetListName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.OnFlush
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.OnFlush
+  id: OnFlush
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: OnFlush()
+  nameWithType: UDefFieldCacheBase.OnFlush()
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.OnFlush()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEmpty the cache\n"
+  syntax:
+    content: protected override void OnFlush()
+    content.vb: Protected Overrides Sub OnFlush
+  overridden: SuperOffice.Data.Cache.CacheBase.OnFlush
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.OnFlush*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+  id: IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: IsCacheInvalidated(Int32, SqlType, Int32)
+  nameWithType: UDefFieldCacheBase.IsCacheInvalidated(Int32, SqlType, Int32)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsCacheInvalidated(System.Int32, SuperOffice.Data.SQL.SqlType, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDo not invalidate us if we are in a refresh, and are writing the progId&apos;s back to the definition rows\n"
+  syntax:
+    content: protected override bool IsCacheInvalidated(int tableNumber, SqlType sqlType, int primaryKey)
+    parameters:
+    - id: tableNumber
+      type: System.Int32
+    - id: sqlType
+      type: SuperOffice.Data.SQL.SqlType
+    - id: primaryKey
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Protected Overrides Function IsCacheInvalidated(tableNumber As Integer, sqlType As SqlType, primaryKey As Integer) As Boolean
+  overridden: SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsCacheInvalidated*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersions
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersions
+  id: GetVersions
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: GetVersions()
+  nameWithType: UDefFieldCacheBase.GetVersions()
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersions()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nGet the current udef version array. Override to get either the Admin version or some specific set of versions\n"
+  syntax:
+    content: protected virtual Dictionary<UDefType, int> GetVersions()
+    return:
+      type: System.Collections.Generic.Dictionary{SuperOffice.Data.UDefType,System.Int32}
+    content.vb: Protected Overridable Function GetVersions As Dictionary(Of UDefType, Integer)
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersions*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDO(SuperOffice.Data.UDefType)
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDO(SuperOffice.Data.UDefType)
+  id: IsPageOneMDO(SuperOffice.Data.UDefType)
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: IsPageOneMDO(UDefType)
+  nameWithType: UDefFieldCacheBase.IsPageOneMDO(UDefType)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDO(SuperOffice.Data.UDefType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected virtual bool IsPageOneMDO(UDefType udefType)
+    parameters:
+    - id: udefType
+      type: SuperOffice.Data.UDefType
+    return:
+      type: System.Boolean
+    content.vb: Protected Overridable Function IsPageOneMDO(udefType As UDefType) As Boolean
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDO*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetCachedTableNumbers
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetCachedTableNumbers
+  id: GetCachedTableNumbers
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: GetCachedTableNumbers()
+  nameWithType: UDefFieldCacheBase.GetCachedTableNumbers()
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetCachedTableNumbers()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public override int[] GetCachedTableNumbers()
+    return:
+      type: System.Int32[]
+    content.vb: Public Overrides Function GetCachedTableNumbers As Integer()
+  overridden: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetCachedTableNumbers*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevision
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevision
+  id: CheckRevision
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: CheckRevision()
+  nameWithType: UDefFieldCacheBase.CheckRevision()
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevision()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected virtual void CheckRevision()
+    content.vb: Protected Overridable Sub CheckRevision
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevision*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.OnRefresh
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.OnRefresh
+  id: OnRefresh
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: OnRefresh()
+  nameWithType: UDefFieldCacheBase.OnRefresh()
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.OnRefresh()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFill the cache with data\n"
+  remarks: "\nIn stage one, we fetch all the udeffield rows for the given version (override <xref href=\"SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersions\" data-throw-if-not-resolved=\"false\"></xref> to\nchange which versions are fetched). Then each row is referenced from the various index dictionaries. Finally,\nthe page one dictionary is created, taking into account MDO mode if set.\n<p></p>If the progId field is blank, it is generated AND SAVED to the database as &apos;SuperOffice:[udefIdentity]&apos;.\n"
+  syntax:
+    content: protected override void OnRefresh()
+    content.vb: Protected Overrides Sub OnRefresh
+  overridden: SuperOffice.Data.Cache.CacheBase.OnRefresh
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.OnRefresh*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetLineNo(System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetLineNo(System.Int32)
+  id: GetLineNo(System.Int32)
+  parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
+  langs:
+  - csharp
+  - vb
+  name: GetLineNo(Int32)
+  nameWithType: UDefFieldCacheBase.GetLineNo(Int32)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetLineNo(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLine number could need some recalculation.\n"
+  syntax:
+    content: protected virtual int GetLineNo(int lineNo)
+    parameters:
+    - id: lineNo
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Protected Overridable Function GetLineNo(lineNo As Integer) As Integer
+  overload: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetLineNo*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.Cache.CacheBase
+  commentId: T:SuperOffice.Data.Cache.CacheBase
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: CacheBase
+  nameWithType: CacheBase
+  fullName: SuperOffice.Data.Cache.CacheBase
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.Data.Cache.IFlushable
+  commentId: T:SuperOffice.Data.Cache.IFlushable
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: IFlushable
+  nameWithType: IFlushable
+  fullName: SuperOffice.Data.Cache.IFlushable
+- uid: SuperOffice.Data.Cache.CacheBase._lastUpdated
+  commentId: F:SuperOffice.Data.Cache.CacheBase._lastUpdated
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: _lastUpdated
+  nameWithType: CacheBase._lastUpdated
+  fullName: SuperOffice.Data.Cache.CacheBase._lastUpdated
+- uid: SuperOffice.Data.Cache.CacheBase._cacheState
+  commentId: F:SuperOffice.Data.Cache.CacheBase._cacheState
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: _cacheState
+  nameWithType: CacheBase._cacheState
+  fullName: SuperOffice.Data.Cache.CacheBase._cacheState
+- uid: SuperOffice.Data.Cache.CacheBase.Dispose
+  commentId: M:SuperOffice.Data.Cache.CacheBase.Dispose
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Dispose()
+  nameWithType: CacheBase.Dispose()
+  fullName: SuperOffice.Data.Cache.CacheBase.Dispose()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.Dispose
+    name: Dispose
+    nameWithType: CacheBase.Dispose
+    fullName: SuperOffice.Data.Cache.CacheBase.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.Dispose
+    name: Dispose
+    nameWithType: CacheBase.Dispose
+    fullName: SuperOffice.Data.Cache.CacheBase.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.Validate
+  commentId: M:SuperOffice.Data.Cache.CacheBase.Validate
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Validate()
+  nameWithType: CacheBase.Validate()
+  fullName: SuperOffice.Data.Cache.CacheBase.Validate()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.Validate
+    name: Validate
+    nameWithType: CacheBase.Validate
+    fullName: SuperOffice.Data.Cache.CacheBase.Validate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.Validate
+    name: Validate
+    nameWithType: CacheBase.Validate
+    fullName: SuperOffice.Data.Cache.CacheBase.Validate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.Refresh
+  commentId: M:SuperOffice.Data.Cache.CacheBase.Refresh
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Refresh()
+  nameWithType: CacheBase.Refresh()
+  fullName: SuperOffice.Data.Cache.CacheBase.Refresh()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.Refresh
+    name: Refresh
+    nameWithType: CacheBase.Refresh
+    fullName: SuperOffice.Data.Cache.CacheBase.Refresh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.Refresh
+    name: Refresh
+    nameWithType: CacheBase.Refresh
+    fullName: SuperOffice.Data.Cache.CacheBase.Refresh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.Flush
+  commentId: M:SuperOffice.Data.Cache.CacheBase.Flush
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Flush()
+  nameWithType: CacheBase.Flush()
+  fullName: SuperOffice.Data.Cache.CacheBase.Flush()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.Flush
+    name: Flush
+    nameWithType: CacheBase.Flush
+    fullName: SuperOffice.Data.Cache.CacheBase.Flush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.Flush
+    name: Flush
+    nameWithType: CacheBase.Flush
+    fullName: SuperOffice.Data.Cache.CacheBase.Flush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.OnExpired
+  commentId: M:SuperOffice.Data.Cache.CacheBase.OnExpired
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: OnExpired()
+  nameWithType: CacheBase.OnExpired()
+  fullName: SuperOffice.Data.Cache.CacheBase.OnExpired()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnExpired
+    name: OnExpired
+    nameWithType: CacheBase.OnExpired
+    fullName: SuperOffice.Data.Cache.CacheBase.OnExpired
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnExpired
+    name: OnExpired
+    nameWithType: CacheBase.OnExpired
+    fullName: SuperOffice.Data.Cache.CacheBase.OnExpired
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.OnRefreshed
+  commentId: M:SuperOffice.Data.Cache.CacheBase.OnRefreshed
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: OnRefreshed()
+  nameWithType: CacheBase.OnRefreshed()
+  fullName: SuperOffice.Data.Cache.CacheBase.OnRefreshed()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnRefreshed
+    name: OnRefreshed
+    nameWithType: CacheBase.OnRefreshed
+    fullName: SuperOffice.Data.Cache.CacheBase.OnRefreshed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnRefreshed
+    name: OnRefreshed
+    nameWithType: CacheBase.OnRefreshed
+    fullName: SuperOffice.Data.Cache.CacheBase.OnRefreshed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.OnFlushed
+  commentId: M:SuperOffice.Data.Cache.CacheBase.OnFlushed
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: OnFlushed()
+  nameWithType: CacheBase.OnFlushed()
+  fullName: SuperOffice.Data.Cache.CacheBase.OnFlushed()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnFlushed
+    name: OnFlushed
+    nameWithType: CacheBase.OnFlushed
+    fullName: SuperOffice.Data.Cache.CacheBase.OnFlushed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnFlushed
+    name: OnFlushed
+    nameWithType: CacheBase.OnFlushed
+    fullName: SuperOffice.Data.Cache.CacheBase.OnFlushed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.OnDisposed
+  commentId: M:SuperOffice.Data.Cache.CacheBase.OnDisposed
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: OnDisposed()
+  nameWithType: CacheBase.OnDisposed()
+  fullName: SuperOffice.Data.Cache.CacheBase.OnDisposed()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnDisposed
+    name: OnDisposed
+    nameWithType: CacheBase.OnDisposed
+    fullName: SuperOffice.Data.Cache.CacheBase.OnDisposed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnDisposed
+    name: OnDisposed
+    nameWithType: CacheBase.OnDisposed
+    fullName: SuperOffice.Data.Cache.CacheBase.OnDisposed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.Lock
+  commentId: P:SuperOffice.Data.Cache.CacheBase.Lock
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Lock
+  nameWithType: CacheBase.Lock
+  fullName: SuperOffice.Data.Cache.CacheBase.Lock
+- uid: SuperOffice.Data.Cache.CacheBase.Name
+  commentId: P:SuperOffice.Data.Cache.CacheBase.Name
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Name
+  nameWithType: CacheBase.Name
+  fullName: SuperOffice.Data.Cache.CacheBase.Name
+- uid: SuperOffice.Data.Cache.CacheBase.CacheType
+  commentId: P:SuperOffice.Data.Cache.CacheBase.CacheType
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: CacheType
+  nameWithType: CacheBase.CacheType
+  fullName: SuperOffice.Data.Cache.CacheBase.CacheType
+- uid: SuperOffice.Data.Cache.CacheBase.Timeout
+  commentId: P:SuperOffice.Data.Cache.CacheBase.Timeout
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Timeout
+  nameWithType: CacheBase.Timeout
+  fullName: SuperOffice.Data.Cache.CacheBase.Timeout
+- uid: SuperOffice.Data.Cache.CacheBase.State
+  commentId: P:SuperOffice.Data.Cache.CacheBase.State
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: State
+  nameWithType: CacheBase.State
+  fullName: SuperOffice.Data.Cache.CacheBase.State
+- uid: SuperOffice.Data.Cache.CacheBase.IsValid
+  commentId: P:SuperOffice.Data.Cache.CacheBase.IsValid
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: IsValid
+  nameWithType: CacheBase.IsValid
+  fullName: SuperOffice.Data.Cache.CacheBase.IsValid
+- uid: SuperOffice.Data.Cache.CacheBase.Expired
+  commentId: E:SuperOffice.Data.Cache.CacheBase.Expired
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Expired
+  nameWithType: CacheBase.Expired
+  fullName: SuperOffice.Data.Cache.CacheBase.Expired
+- uid: SuperOffice.Data.Cache.CacheBase.Refreshed
+  commentId: E:SuperOffice.Data.Cache.CacheBase.Refreshed
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Refreshed
+  nameWithType: CacheBase.Refreshed
+  fullName: SuperOffice.Data.Cache.CacheBase.Refreshed
+- uid: SuperOffice.Data.Cache.CacheBase.Flushed
+  commentId: E:SuperOffice.Data.Cache.CacheBase.Flushed
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Flushed
+  nameWithType: CacheBase.Flushed
+  fullName: SuperOffice.Data.Cache.CacheBase.Flushed
+- uid: SuperOffice.Data.Cache.CacheBase.Disposed
+  commentId: E:SuperOffice.Data.Cache.CacheBase.Disposed
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Disposed
+  nameWithType: CacheBase.Disposed
+  fullName: SuperOffice.Data.Cache.CacheBase.Disposed
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<UDefFieldCacheBase, To>()
+  nameWithType: EnumUtil.MapEnums<UDefFieldCacheBase, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.UDefFieldCacheBase, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of UDefFieldCacheBase, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.UDefFieldCacheBase, To)()
+  name.vb: MapEnums(Of UDefFieldCacheBase, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<UDefFieldCacheBase, To>
+    nameWithType: EnumUtil.MapEnums<UDefFieldCacheBase, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.UDefFieldCacheBase, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of UDefFieldCacheBase, To)
+    nameWithType: EnumUtil.MapEnums(Of UDefFieldCacheBase, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.UDefFieldCacheBase, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<UDefFieldCacheBase, To>()
+  nameWithType: Converters.MapEnums<UDefFieldCacheBase, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.UDefFieldCacheBase, To>()
+  nameWithType.vb: Converters.MapEnums(Of UDefFieldCacheBase, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.UDefFieldCacheBase, To)()
+  name.vb: MapEnums(Of UDefFieldCacheBase, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<UDefFieldCacheBase, To>
+    nameWithType: Converters.MapEnums<UDefFieldCacheBase, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.UDefFieldCacheBase, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of UDefFieldCacheBase, To)
+    nameWithType: Converters.MapEnums(Of UDefFieldCacheBase, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.UDefFieldCacheBase, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.Cache
+  commentId: N:SuperOffice.Data.Cache
+  isExternal: true
+  name: SuperOffice.Data.Cache
+  nameWithType: SuperOffice.Data.Cache
+  fullName: SuperOffice.Data.Cache
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldCacheBase.#ctor
+  isExternal: true
+  name: UDefFieldCacheBase
+  nameWithType: UDefFieldCacheBase.UDefFieldCacheBase
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.UDefFieldCacheBase
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.Cache.CacheType
+  commentId: T:SuperOffice.Data.Cache.CacheType
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: CacheType
+  nameWithType: CacheType
+  fullName: SuperOffice.Data.Cache.CacheType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.UserPreferenceHasChanged*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldCacheBase.UserPreferenceHasChanged
+  isExternal: true
+  name: UserPreferenceHasChanged
+  nameWithType: UDefFieldCacheBase.UserPreferenceHasChanged
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.UserPreferenceHasChanged
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromId*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromId
+  isExternal: true
+  name: GetFromId
+  nameWithType: UDefFieldCacheBase.GetFromId
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromId
+- uid: SuperOffice.CRM.Rows.UDefFieldRow
+  commentId: T:SuperOffice.CRM.Rows.UDefFieldRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: UDefFieldRow
+  nameWithType: UDefFieldRow
+  fullName: SuperOffice.CRM.Rows.UDefFieldRow
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField
+  isExternal: true
+  name: GetFromField
+  nameWithType: UDefFieldCacheBase.GetFromField
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.Data.Dictionary.SoField
+  commentId: T:SuperOffice.Data.Dictionary.SoField
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoField
+  nameWithType: SoField
+  fullName: SuperOffice.Data.Dictionary.SoField
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUdefIdentity*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUdefIdentity
+  isExternal: true
+  name: GetFromUdefIdentity
+  nameWithType: UDefFieldCacheBase.GetFromUdefIdentity
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUdefIdentity
+- uid: SuperOffice.Data.UDefType
+  commentId: T:SuperOffice.Data.UDefType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: UDefType
+  nameWithType: UDefType
+  fullName: SuperOffice.Data.UDefType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromProgId*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromProgId
+  isExternal: true
+  name: GetFromProgId
+  nameWithType: UDefFieldCacheBase.GetFromProgId
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromProgId
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUDListDefinitionId*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUDListDefinitionId
+  isExternal: true
+  name: GetFromUDListDefinitionId
+  nameWithType: UDefFieldCacheBase.GetFromUDListDefinitionId
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUDListDefinitionId
+- uid: SuperOffice.CRM.Rows.UDefFieldRows
+  commentId: T:SuperOffice.CRM.Rows.UDefFieldRows
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: UDefFieldRows
+  nameWithType: UDefFieldRows
+  fullName: SuperOffice.CRM.Rows.UDefFieldRows
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromFieldLabel*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromFieldLabel
+  isExternal: true
+  name: GetFromFieldLabel
+  nameWithType: UDefFieldCacheBase.GetFromFieldLabel
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromFieldLabel
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromType*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromType
+  isExternal: true
+  name: GetFromType
+  nameWithType: UDefFieldCacheBase.GetFromType
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromType
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType
+  isExternal: true
+  name: GetPageOneFieldsFromType
+  nameWithType: UDefFieldCacheBase.GetPageOneFieldsFromType
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Rows.UDefFieldCacheBase.PageOneFieldInfo}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Rows.UDefFieldCacheBase.PageOneFieldInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<UDefFieldCacheBase.PageOneFieldInfo>
+  nameWithType: List<UDefFieldCacheBase.PageOneFieldInfo>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Rows.UDefFieldCacheBase.PageOneFieldInfo>
+  nameWithType.vb: List(Of UDefFieldCacheBase.PageOneFieldInfo)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Rows.UDefFieldCacheBase.PageOneFieldInfo)
+  name.vb: List(Of UDefFieldCacheBase.PageOneFieldInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.PageOneFieldInfo
+    name: UDefFieldCacheBase.PageOneFieldInfo
+    nameWithType: UDefFieldCacheBase.PageOneFieldInfo
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.PageOneFieldInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.PageOneFieldInfo
+    name: UDefFieldCacheBase.PageOneFieldInfo
+    nameWithType: UDefFieldCacheBase.PageOneFieldInfo
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.PageOneFieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetAllPageOneFieldsFromType*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetAllPageOneFieldsFromType
+  isExternal: true
+  name: GetAllPageOneFieldsFromType
+  nameWithType: UDefFieldCacheBase.GetAllPageOneFieldsFromType
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetAllPageOneFieldsFromType
+- uid: System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{SuperOffice.CRM.Rows.UDefFieldCacheBase.PageOneFieldInfo}}
+  commentId: T:System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{SuperOffice.CRM.Rows.UDefFieldCacheBase.PageOneFieldInfo}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<Int32, List<UDefFieldCacheBase.PageOneFieldInfo>>
+  nameWithType: Dictionary<Int32, List<UDefFieldCacheBase.PageOneFieldInfo>>
+  fullName: System.Collections.Generic.Dictionary<System.Int32, System.Collections.Generic.List<SuperOffice.CRM.Rows.UDefFieldCacheBase.PageOneFieldInfo>>
+  nameWithType.vb: Dictionary(Of Int32, List(Of UDefFieldCacheBase.PageOneFieldInfo))
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.Int32, System.Collections.Generic.List(Of SuperOffice.CRM.Rows.UDefFieldCacheBase.PageOneFieldInfo))
+  name.vb: Dictionary(Of Int32, List(Of UDefFieldCacheBase.PageOneFieldInfo))
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.PageOneFieldInfo
+    name: UDefFieldCacheBase.PageOneFieldInfo
+    nameWithType: UDefFieldCacheBase.PageOneFieldInfo
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.PageOneFieldInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.PageOneFieldInfo
+    name: UDefFieldCacheBase.PageOneFieldInfo
+    nameWithType: UDefFieldCacheBase.PageOneFieldInfo
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.PageOneFieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabel*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabel
+  isExternal: true
+  name: GetFirstFromLabel
+  nameWithType: UDefFieldCacheBase.GetFirstFromLabel
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabel
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabelWithCulture*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabelWithCulture
+  isExternal: true
+  name: GetFirstFromLabelWithCulture
+  nameWithType: UDefFieldCacheBase.GetFirstFromLabelWithCulture
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabelWithCulture
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetDefaultValue*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetDefaultValue
+  isExternal: true
+  name: GetDefaultValue
+  nameWithType: UDefFieldCacheBase.GetDefaultValue
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetDefaultValue
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetListName*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetListName
+  isExternal: true
+  name: GetListName
+  nameWithType: UDefFieldCacheBase.GetListName
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetListName
+- uid: SuperOffice.Data.Cache.CacheBase.OnFlush
+  commentId: M:SuperOffice.Data.Cache.CacheBase.OnFlush
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: OnFlush()
+  nameWithType: CacheBase.OnFlush()
+  fullName: SuperOffice.Data.Cache.CacheBase.OnFlush()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnFlush
+    name: OnFlush
+    nameWithType: CacheBase.OnFlush
+    fullName: SuperOffice.Data.Cache.CacheBase.OnFlush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnFlush
+    name: OnFlush
+    nameWithType: CacheBase.OnFlush
+    fullName: SuperOffice.Data.Cache.CacheBase.OnFlush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.OnFlush*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldCacheBase.OnFlush
+  isExternal: true
+  name: OnFlush
+  nameWithType: UDefFieldCacheBase.OnFlush
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.OnFlush
+- uid: SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+  commentId: M:SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: IsCacheInvalidated(Int32, SqlType, Int32)
+  nameWithType: CacheBase.IsCacheInvalidated(Int32, SqlType, Int32)
+  fullName: SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated(System.Int32, SuperOffice.Data.SQL.SqlType, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+    name: IsCacheInvalidated
+    nameWithType: CacheBase.IsCacheInvalidated
+    fullName: SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.SqlType
+    name: SqlType
+    nameWithType: SqlType
+    fullName: SuperOffice.Data.SQL.SqlType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+    name: IsCacheInvalidated
+    nameWithType: CacheBase.IsCacheInvalidated
+    fullName: SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.SqlType
+    name: SqlType
+    nameWithType: SqlType
+    fullName: SuperOffice.Data.SQL.SqlType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsCacheInvalidated*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldCacheBase.IsCacheInvalidated
+  isExternal: true
+  name: IsCacheInvalidated
+  nameWithType: UDefFieldCacheBase.IsCacheInvalidated
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsCacheInvalidated
+- uid: SuperOffice.Data.SQL.SqlType
+  commentId: T:SuperOffice.Data.SQL.SqlType
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: SqlType
+  nameWithType: SqlType
+  fullName: SuperOffice.Data.SQL.SqlType
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersions*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersions
+  isExternal: true
+  name: GetVersions
+  nameWithType: UDefFieldCacheBase.GetVersions
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersions
+- uid: System.Collections.Generic.Dictionary{SuperOffice.Data.UDefType,System.Int32}
+  commentId: T:System.Collections.Generic.Dictionary{SuperOffice.Data.UDefType,System.Int32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<UDefType, Int32>
+  nameWithType: Dictionary<UDefType, Int32>
+  fullName: System.Collections.Generic.Dictionary<SuperOffice.Data.UDefType, System.Int32>
+  nameWithType.vb: Dictionary(Of UDefType, Int32)
+  fullName.vb: System.Collections.Generic.Dictionary(Of SuperOffice.Data.UDefType, System.Int32)
+  name.vb: Dictionary(Of UDefType, Int32)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.UDefType
+    name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.UDefType
+    name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDO*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDO
+  isExternal: true
+  name: IsPageOneMDO
+  nameWithType: UDefFieldCacheBase.IsPageOneMDO
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDO
+- uid: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
+  commentId: M:SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: GetCachedTableNumbers()
+  nameWithType: CacheBase.GetCachedTableNumbers()
+  fullName: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
+    name: GetCachedTableNumbers
+    nameWithType: CacheBase.GetCachedTableNumbers
+    fullName: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
+    name: GetCachedTableNumbers
+    nameWithType: CacheBase.GetCachedTableNumbers
+    fullName: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetCachedTableNumbers*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetCachedTableNumbers
+  isExternal: true
+  name: GetCachedTableNumbers
+  nameWithType: UDefFieldCacheBase.GetCachedTableNumbers
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetCachedTableNumbers
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevision*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevision
+  isExternal: true
+  name: CheckRevision
+  nameWithType: UDefFieldCacheBase.CheckRevision
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevision
+- uid: SuperOffice.Data.Cache.CacheBase.OnRefresh
+  commentId: M:SuperOffice.Data.Cache.CacheBase.OnRefresh
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: OnRefresh()
+  nameWithType: CacheBase.OnRefresh()
+  fullName: SuperOffice.Data.Cache.CacheBase.OnRefresh()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnRefresh
+    name: OnRefresh
+    nameWithType: CacheBase.OnRefresh
+    fullName: SuperOffice.Data.Cache.CacheBase.OnRefresh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnRefresh
+    name: OnRefresh
+    nameWithType: CacheBase.OnRefresh
+    fullName: SuperOffice.Data.Cache.CacheBase.OnRefresh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.OnRefresh*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldCacheBase.OnRefresh
+  isExternal: true
+  name: OnRefresh
+  nameWithType: UDefFieldCacheBase.OnRefresh
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.OnRefresh
+- uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetLineNo*
+  commentId: Overload:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetLineNo
+  isExternal: true
+  name: GetLineNo
+  nameWithType: UDefFieldCacheBase.GetLineNo
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetLineNo

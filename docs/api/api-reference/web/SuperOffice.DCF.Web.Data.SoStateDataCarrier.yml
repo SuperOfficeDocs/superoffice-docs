@@ -1,0 +1,525 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.Data.SoStateDataCarrier
+  commentId: T:SuperOffice.DCF.Web.Data.SoStateDataCarrier
+  id: SoStateDataCarrier
+  parent: SuperOffice.DCF.Web.Data
+  children:
+  - SuperOffice.DCF.Web.Data.SoStateDataCarrier.#ctor
+  - SuperOffice.DCF.Web.Data.SoStateDataCarrier.#ctor(System.String,System.Boolean,System.String)
+  - SuperOffice.DCF.Web.Data.SoStateDataCarrier.AssemblyQualifiedName
+  - SuperOffice.DCF.Web.Data.SoStateDataCarrier.Data
+  - SuperOffice.DCF.Web.Data.SoStateDataCarrier.DataCarrierId
+  - SuperOffice.DCF.Web.Data.SoStateDataCarrier.UpdateServerState
+  langs:
+  - csharp
+  - vb
+  name: SoStateDataCarrier
+  nameWithType: SoStateDataCarrier
+  fullName: SuperOffice.DCF.Web.Data.SoStateDataCarrier
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Data
+  syntax:
+    content: public class SoStateDataCarrier
+    content.vb: Public Class SoStateDataCarrier
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.Data.SoStateDataCarrier.DataCarrierId
+  commentId: F:SuperOffice.DCF.Web.Data.SoStateDataCarrier.DataCarrierId
+  id: DataCarrierId
+  parent: SuperOffice.DCF.Web.Data.SoStateDataCarrier
+  langs:
+  - csharp
+  - vb
+  name: DataCarrierId
+  nameWithType: SoStateDataCarrier.DataCarrierId
+  fullName: SuperOffice.DCF.Web.Data.SoStateDataCarrier.DataCarrierId
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Data
+  syntax:
+    content: public string DataCarrierId
+    return:
+      type: System.String
+    content.vb: Public DataCarrierId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.Data.SoStateDataCarrier.UpdateServerState
+  commentId: F:SuperOffice.DCF.Web.Data.SoStateDataCarrier.UpdateServerState
+  id: UpdateServerState
+  parent: SuperOffice.DCF.Web.Data.SoStateDataCarrier
+  langs:
+  - csharp
+  - vb
+  name: UpdateServerState
+  nameWithType: SoStateDataCarrier.UpdateServerState
+  fullName: SuperOffice.DCF.Web.Data.SoStateDataCarrier.UpdateServerState
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Data
+  syntax:
+    content: public bool UpdateServerState
+    return:
+      type: System.Boolean
+    content.vb: Public UpdateServerState As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.Data.SoStateDataCarrier.Data
+  commentId: F:SuperOffice.DCF.Web.Data.SoStateDataCarrier.Data
+  id: Data
+  parent: SuperOffice.DCF.Web.Data.SoStateDataCarrier
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: SoStateDataCarrier.Data
+  fullName: SuperOffice.DCF.Web.Data.SoStateDataCarrier.Data
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Data
+  syntax:
+    content: public object Data
+    return:
+      type: System.Object
+    content.vb: Public Data As Object
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.Data.SoStateDataCarrier.AssemblyQualifiedName
+  commentId: F:SuperOffice.DCF.Web.Data.SoStateDataCarrier.AssemblyQualifiedName
+  id: AssemblyQualifiedName
+  parent: SuperOffice.DCF.Web.Data.SoStateDataCarrier
+  langs:
+  - csharp
+  - vb
+  name: AssemblyQualifiedName
+  nameWithType: SoStateDataCarrier.AssemblyQualifiedName
+  fullName: SuperOffice.DCF.Web.Data.SoStateDataCarrier.AssemblyQualifiedName
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Data
+  syntax:
+    content: public string AssemblyQualifiedName
+    return:
+      type: System.String
+    content.vb: Public AssemblyQualifiedName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.Data.SoStateDataCarrier.#ctor
+  commentId: M:SuperOffice.DCF.Web.Data.SoStateDataCarrier.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.Data.SoStateDataCarrier
+  langs:
+  - csharp
+  - vb
+  name: SoStateDataCarrier()
+  nameWithType: SoStateDataCarrier.SoStateDataCarrier()
+  fullName: SuperOffice.DCF.Web.Data.SoStateDataCarrier.SoStateDataCarrier()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Data
+  syntax:
+    content: public SoStateDataCarrier()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.Data.SoStateDataCarrier.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.Data.SoStateDataCarrier.#ctor(System.String,System.Boolean,System.String)
+  commentId: M:SuperOffice.DCF.Web.Data.SoStateDataCarrier.#ctor(System.String,System.Boolean,System.String)
+  id: '#ctor(System.String,System.Boolean,System.String)'
+  parent: SuperOffice.DCF.Web.Data.SoStateDataCarrier
+  langs:
+  - csharp
+  - vb
+  name: SoStateDataCarrier(String, Boolean, String)
+  nameWithType: SoStateDataCarrier.SoStateDataCarrier(String, Boolean, String)
+  fullName: SuperOffice.DCF.Web.Data.SoStateDataCarrier.SoStateDataCarrier(System.String, System.Boolean, System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Data
+  syntax:
+    content: public SoStateDataCarrier(string dataCarrierId, bool updateServerState, string assemblyQualifiedName)
+    parameters:
+    - id: dataCarrierId
+      type: System.String
+    - id: updateServerState
+      type: System.Boolean
+    - id: assemblyQualifiedName
+      type: System.String
+    content.vb: Public Sub New(dataCarrierId As String, updateServerState As Boolean, assemblyQualifiedName As String)
+  overload: SuperOffice.DCF.Web.Data.SoStateDataCarrier.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.Data
+  commentId: N:SuperOffice.DCF.Web.Data
+  isExternal: true
+  name: SuperOffice.DCF.Web.Data
+  nameWithType: SuperOffice.DCF.Web.Data
+  fullName: SuperOffice.DCF.Web.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.DCF.Web.Data.SoStateDataCarrier.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.Data.SoStateDataCarrier.#ctor
+  isExternal: true
+  name: SoStateDataCarrier
+  nameWithType: SoStateDataCarrier.SoStateDataCarrier
+  fullName: SuperOffice.DCF.Web.Data.SoStateDataCarrier.SoStateDataCarrier

@@ -1,0 +1,997 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Administration.SoResource
+  commentId: T:SuperOffice.CRM.Administration.SoResource
+  id: SoResource
+  parent: SuperOffice.CRM.Administration
+  children:
+  - SuperOffice.CRM.Administration.SoResource.#ctor(System.Int32)
+  - SuperOffice.CRM.Administration.SoResource._associateRow
+  - SuperOffice.CRM.Administration.SoResource.CreateNew
+  - SuperOffice.CRM.Administration.SoResource.Deleted
+  - SuperOffice.CRM.Administration.SoResource.GetFromId(System.Int32)
+  - SuperOffice.CRM.Administration.SoResource.IsLocation
+  - SuperOffice.CRM.Administration.SoResource.LocationAddress
+  - SuperOffice.CRM.Administration.SoResource.Name
+  - SuperOffice.CRM.Administration.SoResource.Rank
+  - SuperOffice.CRM.Administration.SoResource.ResourceId
+  - SuperOffice.CRM.Administration.SoResource.Save
+  - SuperOffice.CRM.Administration.SoResource.Tooltip
+  langs:
+  - csharp
+  - vb
+  name: SoResource
+  nameWithType: SoResource
+  fullName: SuperOffice.CRM.Administration.SoResource
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nSuperOffice CRM Resource Administration.  Use static (VB: shared) methods to to \ninstantiate objects.\n"
+  remarks: "\n<p>\n	Only users with administrative privileges is permitted to work \n	with other users than the currently logged on user.  This means \n	that SuperOffice CRM administrators can manage all users.\n</p>\n"
+  syntax:
+    content: public sealed class SoResource
+    content.vb: Public NotInheritable Class SoResource
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Administration.SoResource.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Administration.SoResource.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Administration.SoResource._associateRow
+  commentId: F:SuperOffice.CRM.Administration.SoResource._associateRow
+  id: _associateRow
+  parent: SuperOffice.CRM.Administration.SoResource
+  langs:
+  - csharp
+  - vb
+  name: _associateRow
+  nameWithType: SoResource._associateRow
+  fullName: SuperOffice.CRM.Administration.SoResource._associateRow
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nThe associate row to be saved\n"
+  syntax:
+    content: public AssociateRow _associateRow
+    return:
+      type: SuperOffice.CRM.Rows.AssociateRow
+    content.vb: Public _associateRow As AssociateRow
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Administration.SoResource.#ctor(System.Int32)
+  commentId: M:SuperOffice.CRM.Administration.SoResource.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: SuperOffice.CRM.Administration.SoResource
+  langs:
+  - csharp
+  - vb
+  name: SoResource(Int32)
+  nameWithType: SoResource.SoResource(Int32)
+  fullName: SuperOffice.CRM.Administration.SoResource.SoResource(System.Int32)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  syntax:
+    content: public SoResource(int assId)
+    parameters:
+    - id: assId
+      type: System.Int32
+    content.vb: Public Sub New(assId As Integer)
+  overload: SuperOffice.CRM.Administration.SoResource.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Administration.SoResource.CreateNew
+  commentId: M:SuperOffice.CRM.Administration.SoResource.CreateNew
+  id: CreateNew
+  parent: SuperOffice.CRM.Administration.SoResource
+  langs:
+  - csharp
+  - vb
+  name: CreateNew()
+  nameWithType: SoResource.CreateNew()
+  fullName: SuperOffice.CRM.Administration.SoResource.CreateNew()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nCreate a new user\n"
+  remarks: "\nAdministration priviledges is required for creating new users.\n"
+  syntax:
+    content: public static SoResource CreateNew()
+    return:
+      type: SuperOffice.CRM.Administration.SoResource
+      description: "\nA new instance of a user object.  This object needs to be primed with appropriate data before saving\n"
+    content.vb: Public Shared Function CreateNew As SoResource
+  overload: SuperOffice.CRM.Administration.SoResource.CreateNew*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Administration.SoResource.GetFromId(System.Int32)
+  commentId: M:SuperOffice.CRM.Administration.SoResource.GetFromId(System.Int32)
+  id: GetFromId(System.Int32)
+  parent: SuperOffice.CRM.Administration.SoResource
+  langs:
+  - csharp
+  - vb
+  name: GetFromId(Int32)
+  nameWithType: SoResource.GetFromId(Int32)
+  fullName: SuperOffice.CRM.Administration.SoResource.GetFromId(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  syntax:
+    content: public static SoResource GetFromId(int resourceId)
+    parameters:
+    - id: resourceId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Administration.SoResource
+    content.vb: Public Shared Function GetFromId(resourceId As Integer) As SoResource
+  overload: SuperOffice.CRM.Administration.SoResource.GetFromId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Administration.SoResource.Save
+  commentId: M:SuperOffice.CRM.Administration.SoResource.Save
+  id: Save
+  parent: SuperOffice.CRM.Administration.SoResource
+  langs:
+  - csharp
+  - vb
+  name: Save()
+  nameWithType: SoResource.Save()
+  fullName: SuperOffice.CRM.Administration.SoResource.Save()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  syntax:
+    content: public void Save()
+    content.vb: Public Sub Save
+  overload: SuperOffice.CRM.Administration.SoResource.Save*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Administration.SoResource.ResourceId
+  commentId: P:SuperOffice.CRM.Administration.SoResource.ResourceId
+  id: ResourceId
+  parent: SuperOffice.CRM.Administration.SoResource
+  langs:
+  - csharp
+  - vb
+  name: ResourceId
+  nameWithType: SoResource.ResourceId
+  fullName: SuperOffice.CRM.Administration.SoResource.ResourceId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nAssociateId of the user.  This value is &apos;0&apos; until the user is created.\n"
+  syntax:
+    content: public int ResourceId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ResourceId As Integer
+  overload: SuperOffice.CRM.Administration.SoResource.ResourceId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Administration.SoResource.Name
+  commentId: P:SuperOffice.CRM.Administration.SoResource.Name
+  id: Name
+  parent: SuperOffice.CRM.Administration.SoResource
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SoResource.Name
+  fullName: SuperOffice.CRM.Administration.SoResource.Name
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nName. \n"
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.CRM.Administration.SoResource.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Administration.SoResource.LocationAddress
+  commentId: P:SuperOffice.CRM.Administration.SoResource.LocationAddress
+  id: LocationAddress
+  parent: SuperOffice.CRM.Administration.SoResource
+  langs:
+  - csharp
+  - vb
+  name: LocationAddress
+  nameWithType: SoResource.LocationAddress
+  fullName: SuperOffice.CRM.Administration.SoResource.LocationAddress
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nLoactionAddress\n"
+  syntax:
+    content: public string LocationAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LocationAddress As String
+  overload: SuperOffice.CRM.Administration.SoResource.LocationAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Administration.SoResource.IsLocation
+  commentId: P:SuperOffice.CRM.Administration.SoResource.IsLocation
+  id: IsLocation
+  parent: SuperOffice.CRM.Administration.SoResource
+  langs:
+  - csharp
+  - vb
+  name: IsLocation
+  nameWithType: SoResource.IsLocation
+  fullName: SuperOffice.CRM.Administration.SoResource.IsLocation
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nIsLocation\n"
+  syntax:
+    content: public bool IsLocation { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsLocation As Boolean
+  overload: SuperOffice.CRM.Administration.SoResource.IsLocation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Administration.SoResource.Deleted
+  commentId: P:SuperOffice.CRM.Administration.SoResource.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Administration.SoResource
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: SoResource.Deleted
+  fullName: SuperOffice.CRM.Administration.SoResource.Deleted
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nis the user deleted.\n"
+  syntax:
+    content: public bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Deleted As Boolean
+  overload: SuperOffice.CRM.Administration.SoResource.Deleted*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Administration.SoResource.Rank
+  commentId: P:SuperOffice.CRM.Administration.SoResource.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Administration.SoResource
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: SoResource.Rank
+  fullName: SuperOffice.CRM.Administration.SoResource.Rank
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nSort order rank. Only administrators can set.\n"
+  syntax:
+    content: public short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Property Rank As Short
+  overload: SuperOffice.CRM.Administration.SoResource.Rank*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Administration.SoResource.Tooltip
+  commentId: P:SuperOffice.CRM.Administration.SoResource.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Administration.SoResource
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: SoResource.Tooltip
+  fullName: SuperOffice.CRM.Administration.SoResource.Tooltip
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Administration
+  summary: "\nDescription / Tooltip. Only administrators can set.\n"
+  syntax:
+    content: public string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Tooltip As String
+  overload: SuperOffice.CRM.Administration.SoResource.Tooltip*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Administration
+  commentId: N:SuperOffice.CRM.Administration
+  isExternal: true
+  name: SuperOffice.CRM.Administration
+  nameWithType: SuperOffice.CRM.Administration
+  fullName: SuperOffice.CRM.Administration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Administration.SoResource.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoResource, To>()
+  nameWithType: EnumUtil.MapEnums<SoResource, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Administration.SoResource, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoResource, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Administration.SoResource, To)()
+  name.vb: MapEnums(Of SoResource, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoResource, To>
+    nameWithType: EnumUtil.MapEnums<SoResource, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Administration.SoResource, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoResource, To)
+    nameWithType: EnumUtil.MapEnums(Of SoResource, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Administration.SoResource, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Administration.SoResource.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoResource, To>()
+  nameWithType: Converters.MapEnums<SoResource, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Administration.SoResource, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoResource, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Administration.SoResource, To)()
+  name.vb: MapEnums(Of SoResource, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoResource, To>
+    nameWithType: Converters.MapEnums<SoResource, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Administration.SoResource, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoResource, To)
+    nameWithType: Converters.MapEnums(Of SoResource, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Administration.SoResource, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Rows.AssociateRow
+  commentId: T:SuperOffice.CRM.Rows.AssociateRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: AssociateRow
+  nameWithType: AssociateRow
+  fullName: SuperOffice.CRM.Rows.AssociateRow
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.CRM.Administration.SoResource.#ctor*
+  commentId: Overload:SuperOffice.CRM.Administration.SoResource.#ctor
+  isExternal: true
+  name: SoResource
+  nameWithType: SoResource.SoResource
+  fullName: SuperOffice.CRM.Administration.SoResource.SoResource
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Administration.SoResource.CreateNew*
+  commentId: Overload:SuperOffice.CRM.Administration.SoResource.CreateNew
+  isExternal: true
+  name: CreateNew
+  nameWithType: SoResource.CreateNew
+  fullName: SuperOffice.CRM.Administration.SoResource.CreateNew
+- uid: SuperOffice.CRM.Administration.SoResource
+  commentId: T:SuperOffice.CRM.Administration.SoResource
+  parent: SuperOffice.CRM.Administration
+  isExternal: true
+  name: SoResource
+  nameWithType: SoResource
+  fullName: SuperOffice.CRM.Administration.SoResource
+- uid: SuperOffice.CRM.Administration.SoResource.GetFromId*
+  commentId: Overload:SuperOffice.CRM.Administration.SoResource.GetFromId
+  isExternal: true
+  name: GetFromId
+  nameWithType: SoResource.GetFromId
+  fullName: SuperOffice.CRM.Administration.SoResource.GetFromId
+- uid: SuperOffice.CRM.Administration.SoResource.Save*
+  commentId: Overload:SuperOffice.CRM.Administration.SoResource.Save
+  isExternal: true
+  name: Save
+  nameWithType: SoResource.Save
+  fullName: SuperOffice.CRM.Administration.SoResource.Save
+- uid: SuperOffice.CRM.Administration.SoResource.ResourceId*
+  commentId: Overload:SuperOffice.CRM.Administration.SoResource.ResourceId
+  isExternal: true
+  name: ResourceId
+  nameWithType: SoResource.ResourceId
+  fullName: SuperOffice.CRM.Administration.SoResource.ResourceId
+- uid: SuperOffice.CRM.Administration.SoResource.Name*
+  commentId: Overload:SuperOffice.CRM.Administration.SoResource.Name
+  isExternal: true
+  name: Name
+  nameWithType: SoResource.Name
+  fullName: SuperOffice.CRM.Administration.SoResource.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Administration.SoResource.LocationAddress*
+  commentId: Overload:SuperOffice.CRM.Administration.SoResource.LocationAddress
+  isExternal: true
+  name: LocationAddress
+  nameWithType: SoResource.LocationAddress
+  fullName: SuperOffice.CRM.Administration.SoResource.LocationAddress
+- uid: SuperOffice.CRM.Administration.SoResource.IsLocation*
+  commentId: Overload:SuperOffice.CRM.Administration.SoResource.IsLocation
+  isExternal: true
+  name: IsLocation
+  nameWithType: SoResource.IsLocation
+  fullName: SuperOffice.CRM.Administration.SoResource.IsLocation
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Administration.SoResource.Deleted*
+  commentId: Overload:SuperOffice.CRM.Administration.SoResource.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: SoResource.Deleted
+  fullName: SuperOffice.CRM.Administration.SoResource.Deleted
+- uid: SuperOffice.CRM.Administration.SoResource.Rank*
+  commentId: Overload:SuperOffice.CRM.Administration.SoResource.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: SoResource.Rank
+  fullName: SuperOffice.CRM.Administration.SoResource.Rank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Administration.SoResource.Tooltip*
+  commentId: Overload:SuperOffice.CRM.Administration.SoResource.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: SoResource.Tooltip
+  fullName: SuperOffice.CRM.Administration.SoResource.Tooltip

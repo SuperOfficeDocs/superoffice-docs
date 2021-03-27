@@ -1,0 +1,308 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest
+  id: Appointment_GetProjectAppointmentsByTasksRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.Count
+  - SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.EndTime
+  - SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.ProjectId
+  - SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.StartTime
+  - SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.TaskIds
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetProjectAppointmentsByTasksRequest
+  nameWithType: Appointment_GetProjectAppointmentsByTasksRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_GetProjectAppointmentsByTasksRequest : Object'
+    content.vb: >-
+      Public Class Appointment_GetProjectAppointmentsByTasksRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetProjectAppointmentsByTasksRequest()
+  nameWithType: Appointment_GetProjectAppointmentsByTasksRequest.Appointment_GetProjectAppointmentsByTasksRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.Appointment_GetProjectAppointmentsByTasksRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_GetProjectAppointmentsByTasksRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.ProjectId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.ProjectId
+  id: ProjectId
+  parent: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: Appointment_GetProjectAppointmentsByTasksRequest.ProjectId
+  fullName: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ProjectId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.ProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.StartTime
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.StartTime
+  id: StartTime
+  parent: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest
+  langs:
+  - csharp
+  - vb
+  name: StartTime
+  nameWithType: Appointment_GetProjectAppointmentsByTasksRequest.StartTime
+  fullName: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.StartTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime StartTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property StartTime As DateTime
+  overload: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.StartTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.EndTime
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.EndTime
+  id: EndTime
+  parent: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest
+  langs:
+  - csharp
+  - vb
+  name: EndTime
+  nameWithType: Appointment_GetProjectAppointmentsByTasksRequest.EndTime
+  fullName: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.EndTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime EndTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property EndTime As DateTime
+  overload: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.EndTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.Count
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.Count
+  id: Count
+  parent: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: Appointment_GetProjectAppointmentsByTasksRequest.Count
+  fullName: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.Count
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Count { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Count As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.Count*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.TaskIds
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.TaskIds
+  id: TaskIds
+  parent: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest
+  langs:
+  - csharp
+  - vb
+  name: TaskIds
+  nameWithType: Appointment_GetProjectAppointmentsByTasksRequest.TaskIds
+  fullName: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.TaskIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] TaskIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property TaskIds As Integer()
+  overload: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.TaskIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.#ctor
+  isExternal: true
+  name: Appointment_GetProjectAppointmentsByTasksRequest
+  nameWithType: Appointment_GetProjectAppointmentsByTasksRequest.Appointment_GetProjectAppointmentsByTasksRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.Appointment_GetProjectAppointmentsByTasksRequest
+- uid: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.ProjectId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: Appointment_GetProjectAppointmentsByTasksRequest.ProjectId
+  fullName: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.ProjectId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.StartTime*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.StartTime
+  isExternal: true
+  name: StartTime
+  nameWithType: Appointment_GetProjectAppointmentsByTasksRequest.StartTime
+  fullName: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.StartTime
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.EndTime*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.EndTime
+  isExternal: true
+  name: EndTime
+  nameWithType: Appointment_GetProjectAppointmentsByTasksRequest.EndTime
+  fullName: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.EndTime
+- uid: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.Count*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.Count
+  isExternal: true
+  name: Count
+  nameWithType: Appointment_GetProjectAppointmentsByTasksRequest.Count
+  fullName: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.Count
+- uid: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.TaskIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.TaskIds
+  isExternal: true
+  name: TaskIds
+  nameWithType: Appointment_GetProjectAppointmentsByTasksRequest.TaskIds
+  fullName: SuperOffice.WebApi.Data.Appointment_GetProjectAppointmentsByTasksRequest.TaskIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest
+  id: Quote_CreateAndSaveQuoteRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.ConnectionId
+  - SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.FirstAlternativeName
+  - SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.SaleId
+  langs:
+  - csharp
+  - vb
+  name: Quote_CreateAndSaveQuoteRequest
+  nameWithType: Quote_CreateAndSaveQuoteRequest
+  fullName: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_CreateAndSaveQuoteRequest : Object'
+    content.vb: >-
+      Public Class Quote_CreateAndSaveQuoteRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_CreateAndSaveQuoteRequest()
+  nameWithType: Quote_CreateAndSaveQuoteRequest.Quote_CreateAndSaveQuoteRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.Quote_CreateAndSaveQuoteRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_CreateAndSaveQuoteRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.SaleId
+  commentId: P:SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.SaleId
+  id: SaleId
+  parent: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: Quote_CreateAndSaveQuoteRequest.SaleId
+  fullName: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.SaleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SaleId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.SaleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.ConnectionId
+  commentId: P:SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.ConnectionId
+  id: ConnectionId
+  parent: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest
+  langs:
+  - csharp
+  - vb
+  name: ConnectionId
+  nameWithType: Quote_CreateAndSaveQuoteRequest.ConnectionId
+  fullName: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.ConnectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ConnectionId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.ConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.FirstAlternativeName
+  commentId: P:SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.FirstAlternativeName
+  id: FirstAlternativeName
+  parent: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest
+  langs:
+  - csharp
+  - vb
+  name: FirstAlternativeName
+  nameWithType: Quote_CreateAndSaveQuoteRequest.FirstAlternativeName
+  fullName: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.FirstAlternativeName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string FirstAlternativeName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FirstAlternativeName As String
+  overload: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.FirstAlternativeName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.#ctor
+  isExternal: true
+  name: Quote_CreateAndSaveQuoteRequest
+  nameWithType: Quote_CreateAndSaveQuoteRequest.Quote_CreateAndSaveQuoteRequest
+  fullName: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.Quote_CreateAndSaveQuoteRequest
+- uid: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.SaleId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: Quote_CreateAndSaveQuoteRequest.SaleId
+  fullName: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.SaleId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.ConnectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.ConnectionId
+  isExternal: true
+  name: ConnectionId
+  nameWithType: Quote_CreateAndSaveQuoteRequest.ConnectionId
+  fullName: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.ConnectionId
+- uid: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.FirstAlternativeName*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.FirstAlternativeName
+  isExternal: true
+  name: FirstAlternativeName
+  nameWithType: Quote_CreateAndSaveQuoteRequest.FirstAlternativeName
+  fullName: SuperOffice.WebApi.Data.Quote_CreateAndSaveQuoteRequest.FirstAlternativeName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

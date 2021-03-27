@@ -1,0 +1,3884 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.ApplicationDefs
+  commentId: T:SuperOffice.DCF.Web.ApplicationDefs
+  id: ApplicationDefs
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.ApplicationDefs.#ctor
+  - SuperOffice.DCF.Web.ApplicationDefs.AdminImportColsKey
+  - SuperOffice.DCF.Web.ApplicationDefs.AdminImportContext
+  - SuperOffice.DCF.Web.ApplicationDefs.AdminImportDataKey
+  - SuperOffice.DCF.Web.ApplicationDefs.AdminImportNameKey
+  - SuperOffice.DCF.Web.ApplicationDefs.AdminImportPreviewDataKey
+  - SuperOffice.DCF.Web.ApplicationDefs.AdminImportValidation
+  - SuperOffice.DCF.Web.ApplicationDefs.AlignmentBottom
+  - SuperOffice.DCF.Web.ApplicationDefs.AlignmentCenter
+  - SuperOffice.DCF.Web.ApplicationDefs.AlignmentLeft
+  - SuperOffice.DCF.Web.ApplicationDefs.AlignmentRight
+  - SuperOffice.DCF.Web.ApplicationDefs.AlignmentTop
+  - SuperOffice.DCF.Web.ApplicationDefs.ApplicationConfigXml
+  - SuperOffice.DCF.Web.ApplicationDefs.ArchiveColumnListXml
+  - SuperOffice.DCF.Web.ApplicationDefs.ArchiveColumnListXmlV2
+  - SuperOffice.DCF.Web.ApplicationDefs.ArchiveControlLinkInfoXml
+  - SuperOffice.DCF.Web.ApplicationDefs.ArchiveFragmentListXml
+  - SuperOffice.DCF.Web.ApplicationDefs.ArchiveMDOListPrefix
+  - SuperOffice.DCF.Web.ApplicationDefs.ArchiveRestrictionMDOListPrefix
+  - SuperOffice.DCF.Web.ApplicationDefs.AuthenticationFailure
+  - SuperOffice.DCF.Web.ApplicationDefs.CachedUserPreferences
+  - SuperOffice.DCF.Web.ApplicationDefs.CallbackParamValue
+  - SuperOffice.DCF.Web.ApplicationDefs.ChangedUserPreferences
+  - SuperOffice.DCF.Web.ApplicationDefs.ClearParamKey
+  - SuperOffice.DCF.Web.ApplicationDefs.ClearParamValue
+  - SuperOffice.DCF.Web.ApplicationDefs.ConfigXml
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentUserCulture
+  - SuperOffice.DCF.Web.ApplicationDefs.CurrentUserUICulture
+  - SuperOffice.DCF.Web.ApplicationDefs.DataDispatcher
+  - SuperOffice.DCF.Web.ApplicationDefs.DeleteModeParamValue
+  - SuperOffice.DCF.Web.ApplicationDefs.DialogParamKey
+  - SuperOffice.DCF.Web.ApplicationDefs.DialogWinNameParamKey
+  - SuperOffice.DCF.Web.ApplicationDefs.DisplayParamKey
+  - SuperOffice.DCF.Web.ApplicationDefs.EditModeParamValue
+  - SuperOffice.DCF.Web.ApplicationDefs.ExecuteScript
+  - SuperOffice.DCF.Web.ApplicationDefs.ExecuteScriptArguments
+  - SuperOffice.DCF.Web.ApplicationDefs.FilterConfigXml
+  - SuperOffice.DCF.Web.ApplicationDefs.FindCriteria
+  - SuperOffice.DCF.Web.ApplicationDefs.FindCriteriaListXml
+  - SuperOffice.DCF.Web.ApplicationDefs.FindCriterionEntity
+  - SuperOffice.DCF.Web.ApplicationDefs.FindCriterionField
+  - SuperOffice.DCF.Web.ApplicationDefs.FindInlineCriteriaMDOControlDataFetcher
+  - SuperOffice.DCF.Web.ApplicationDefs.FindInlineRestrictionCache
+  - SuperOffice.DCF.Web.ApplicationDefs.FindReport
+  - SuperOffice.DCF.Web.ApplicationDefs.FindStaticFieldListXml
+  - SuperOffice.DCF.Web.ApplicationDefs.FlushParamValue
+  - SuperOffice.DCF.Web.ApplicationDefs.HistoryLenghtPreference
+  - SuperOffice.DCF.Web.ApplicationDefs.MailAuthenticated
+  - SuperOffice.DCF.Web.ApplicationDefs.MailIncomingPassword
+  - SuperOffice.DCF.Web.ApplicationDefs.MailIncomingServername
+  - SuperOffice.DCF.Web.ApplicationDefs.MailIncomingSSL
+  - SuperOffice.DCF.Web.ApplicationDefs.MailIncomingUsername
+  - SuperOffice.DCF.Web.ApplicationDefs.MailLoggedOut
+  - SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingAuthenticated
+  - SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingPassword
+  - SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingServername
+  - SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingSSL
+  - SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingUsername
+  - SuperOffice.DCF.Web.ApplicationDefs.MailPreviewHeaderExpanded
+  - SuperOffice.DCF.Web.ApplicationDefs.MailPreviewOn
+  - SuperOffice.DCF.Web.ApplicationDefs.MailRememberSettings
+  - SuperOffice.DCF.Web.ApplicationDefs.MailShowSMTPSettings
+  - SuperOffice.DCF.Web.ApplicationDefs.MainPageParamKey
+  - SuperOffice.DCF.Web.ApplicationDefs.MiniPreview
+  - SuperOffice.DCF.Web.ApplicationDefs.ModeParamKey
+  - SuperOffice.DCF.Web.ApplicationDefs.NewParamKey
+  - SuperOffice.DCF.Web.ApplicationDefs.NewParamValue
+  - SuperOffice.DCF.Web.ApplicationDefs.NoUpdateParamKey
+  - SuperOffice.DCF.Web.ApplicationDefs.ObjectMappingXml
+  - SuperOffice.DCF.Web.ApplicationDefs.OpenParamValue
+  - SuperOffice.DCF.Web.ApplicationDefs.PageConfigXml
+  - SuperOffice.DCF.Web.ApplicationDefs.ReadOnlyParamValue
+  - SuperOffice.DCF.Web.ApplicationDefs.RefreshParamValue
+  - SuperOffice.DCF.Web.ApplicationDefs.RequestParamKey
+  - SuperOffice.DCF.Web.ApplicationDefs.ResponseModeParamKey
+  - SuperOffice.DCF.Web.ApplicationDefs.SaveModeParamValue
+  - SuperOffice.DCF.Web.ApplicationDefs.ServerEventConfigurationXml
+  - SuperOffice.DCF.Web.ApplicationDefs.SessionId
+  - SuperOffice.DCF.Web.ApplicationDefs.SingleViewEditParamKey
+  - SuperOffice.DCF.Web.ApplicationDefs.SoException
+  - SuperOffice.DCF.Web.ApplicationDefs.StateParamKey
+  - SuperOffice.DCF.Web.ApplicationDefs.StopParamValue
+  - SuperOffice.DCF.Web.ApplicationDefs.StorageKeyAssociateName
+  - SuperOffice.DCF.Web.ApplicationDefs.StorageKeyDynamicSelectionName
+  - SuperOffice.DCF.Web.ApplicationDefs.StorageKeyReport
+  - SuperOffice.DCF.Web.ApplicationDefs.StorageKeyStatusMonitor
+  - SuperOffice.DCF.Web.ApplicationDefs.SuperState
+  - SuperOffice.DCF.Web.ApplicationDefs.SuperStateCopyKey
+  - SuperOffice.DCF.Web.ApplicationDefs.TabOrders
+  - SuperOffice.DCF.Web.ApplicationDefs.UniqueNumberValidator
+  - SuperOffice.DCF.Web.ApplicationDefs.UpdatedTabOrders
+  - SuperOffice.DCF.Web.ApplicationDefs.UserFunctionRights
+  - SuperOffice.DCF.Web.ApplicationDefs.UseSuperStateCopyKey
+  - SuperOffice.DCF.Web.ApplicationDefs.WebToolsLatestVersion
+  langs:
+  - csharp
+  - vb
+  name: ApplicationDefs
+  nameWithType: ApplicationDefs
+  fullName: SuperOffice.DCF.Web.ApplicationDefs
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public class ApplicationDefs
+    content.vb: Public Class ApplicationDefs
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ApplicationConfigXml
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.ApplicationConfigXml
+  id: ApplicationConfigXml
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: ApplicationConfigXml
+  nameWithType: ApplicationDefs.ApplicationConfigXml
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ApplicationConfigXml
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ApplicationConfigXml = "SoCrmApplicationConfigXml"
+    return:
+      type: System.String
+    content.vb: Public Const ApplicationConfigXml As String = "SoCrmApplicationConfigXml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.FilterConfigXml
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.FilterConfigXml
+  id: FilterConfigXml
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: FilterConfigXml
+  nameWithType: ApplicationDefs.FilterConfigXml
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.FilterConfigXml
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string FilterConfigXml = "SoCrmFilterConfigXml"
+    return:
+      type: System.String
+    content.vb: Public Const FilterConfigXml As String = "SoCrmFilterConfigXml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ObjectMappingXml
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.ObjectMappingXml
+  id: ObjectMappingXml
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: ObjectMappingXml
+  nameWithType: ApplicationDefs.ObjectMappingXml
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ObjectMappingXml
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ObjectMappingXml = "SoCrmObjectMappingXml"
+    return:
+      type: System.String
+    content.vb: Public Const ObjectMappingXml As String = "SoCrmObjectMappingXml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ServerEventConfigurationXml
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.ServerEventConfigurationXml
+  id: ServerEventConfigurationXml
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: ServerEventConfigurationXml
+  nameWithType: ApplicationDefs.ServerEventConfigurationXml
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ServerEventConfigurationXml
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ServerEventConfigurationXml = "SoCrmServerEventConfigurationXml"
+    return:
+      type: System.String
+    content.vb: Public Const ServerEventConfigurationXml As String = "SoCrmServerEventConfigurationXml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.PageConfigXml
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.PageConfigXml
+  id: PageConfigXml
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: PageConfigXml
+  nameWithType: ApplicationDefs.PageConfigXml
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.PageConfigXml
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string PageConfigXml = "SoCrmPageConfigXml"
+    return:
+      type: System.String
+    content.vb: Public Const PageConfigXml As String = "SoCrmPageConfigXml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ConfigXml
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.ConfigXml
+  id: ConfigXml
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: ConfigXml
+  nameWithType: ApplicationDefs.ConfigXml
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ConfigXml
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ConfigXml = "SoCrmConfigXml"
+    return:
+      type: System.String
+    content.vb: Public Const ConfigXml As String = "SoCrmConfigXml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ArchiveControlLinkInfoXml
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.ArchiveControlLinkInfoXml
+  id: ArchiveControlLinkInfoXml
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: ArchiveControlLinkInfoXml
+  nameWithType: ApplicationDefs.ArchiveControlLinkInfoXml
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ArchiveControlLinkInfoXml
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ArchiveControlLinkInfoXml = "SoCrmArchiveControlLinkInfoXml"
+    return:
+      type: System.String
+    content.vb: Public Const ArchiveControlLinkInfoXml As String = "SoCrmArchiveControlLinkInfoXml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ArchiveColumnListXml
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.ArchiveColumnListXml
+  id: ArchiveColumnListXml
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: ArchiveColumnListXml
+  nameWithType: ApplicationDefs.ArchiveColumnListXml
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ArchiveColumnListXml
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ArchiveColumnListXml = "SoCrmArchiveColumnListXml"
+    return:
+      type: System.String
+    content.vb: Public Const ArchiveColumnListXml As String = "SoCrmArchiveColumnListXml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ArchiveColumnListXmlV2
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.ArchiveColumnListXmlV2
+  id: ArchiveColumnListXmlV2
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: ArchiveColumnListXmlV2
+  nameWithType: ApplicationDefs.ArchiveColumnListXmlV2
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ArchiveColumnListXmlV2
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ArchiveColumnListXmlV2 = "SoCrmArchiveColumnListXmlV2"
+    return:
+      type: System.String
+    content.vb: Public Const ArchiveColumnListXmlV2 As String = "SoCrmArchiveColumnListXmlV2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ArchiveFragmentListXml
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.ArchiveFragmentListXml
+  id: ArchiveFragmentListXml
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: ArchiveFragmentListXml
+  nameWithType: ApplicationDefs.ArchiveFragmentListXml
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ArchiveFragmentListXml
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string ArchiveFragmentListXml = "SoCrmArchiveFragmentListXml"
+    return:
+      type: System.String
+    content.vb: Public Const ArchiveFragmentListXml As String = "SoCrmArchiveFragmentListXml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.FindStaticFieldListXml
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.FindStaticFieldListXml
+  id: FindStaticFieldListXml
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: FindStaticFieldListXml
+  nameWithType: ApplicationDefs.FindStaticFieldListXml
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.FindStaticFieldListXml
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string FindStaticFieldListXml = "SoCrmFindStaticFieldListXml"
+    return:
+      type: System.String
+    content.vb: Public Const FindStaticFieldListXml As String = "SoCrmFindStaticFieldListXml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.FindCriteriaListXml
+  commentId: F:SuperOffice.DCF.Web.ApplicationDefs.FindCriteriaListXml
+  id: FindCriteriaListXml
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: FindCriteriaListXml
+  nameWithType: ApplicationDefs.FindCriteriaListXml
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.FindCriteriaListXml
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string FindCriteriaListXml = "SoCrmFindCriteriaListXml"
+    return:
+      type: System.String
+    content.vb: Public Const FindCriteriaListXml As String = "SoCrmFindCriteriaListXml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationDefs.#ctor
+  commentId: M:SuperOffice.DCF.Web.ApplicationDefs.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: ApplicationDefs()
+  nameWithType: ApplicationDefs.ApplicationDefs()
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ApplicationDefs()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public ApplicationDefs()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.ApplicationDefs.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.ApplicationDefs.SuperState
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.SuperState
+  id: SuperState
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: SuperState
+  nameWithType: ApplicationDefs.SuperState
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.SuperState
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string SuperState { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SuperState As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.SuperState*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentUserCulture
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.CurrentUserCulture
+  id: CurrentUserCulture
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: CurrentUserCulture
+  nameWithType: ApplicationDefs.CurrentUserCulture
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentUserCulture
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string CurrentUserCulture { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property CurrentUserCulture As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.CurrentUserCulture*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentUserUICulture
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.CurrentUserUICulture
+  id: CurrentUserUICulture
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: CurrentUserUICulture
+  nameWithType: ApplicationDefs.CurrentUserUICulture
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentUserUICulture
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string CurrentUserUICulture { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property CurrentUserUICulture As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.CurrentUserUICulture*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.WebToolsLatestVersion
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.WebToolsLatestVersion
+  id: WebToolsLatestVersion
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: WebToolsLatestVersion
+  nameWithType: ApplicationDefs.WebToolsLatestVersion
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.WebToolsLatestVersion
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string WebToolsLatestVersion { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property WebToolsLatestVersion As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.WebToolsLatestVersion*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.SessionId
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.SessionId
+  id: SessionId
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: SessionId
+  nameWithType: ApplicationDefs.SessionId
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.SessionId
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string SessionId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SessionId As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.SessionId*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CachedUserPreferences
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.CachedUserPreferences
+  id: CachedUserPreferences
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: CachedUserPreferences
+  nameWithType: ApplicationDefs.CachedUserPreferences
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CachedUserPreferences
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string CachedUserPreferences { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property CachedUserPreferences As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.CachedUserPreferences*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ChangedUserPreferences
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.ChangedUserPreferences
+  id: ChangedUserPreferences
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: ChangedUserPreferences
+  nameWithType: ApplicationDefs.ChangedUserPreferences
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ChangedUserPreferences
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string ChangedUserPreferences { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property ChangedUserPreferences As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.ChangedUserPreferences*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.HistoryLenghtPreference
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.HistoryLenghtPreference
+  id: HistoryLenghtPreference
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: HistoryLenghtPreference
+  nameWithType: ApplicationDefs.HistoryLenghtPreference
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.HistoryLenghtPreference
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string HistoryLenghtPreference { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property HistoryLenghtPreference As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.HistoryLenghtPreference*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.UserFunctionRights
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.UserFunctionRights
+  id: UserFunctionRights
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: UserFunctionRights
+  nameWithType: ApplicationDefs.UserFunctionRights
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.UserFunctionRights
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string UserFunctionRights { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property UserFunctionRights As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.UserFunctionRights*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.TabOrders
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.TabOrders
+  id: TabOrders
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: TabOrders
+  nameWithType: ApplicationDefs.TabOrders
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.TabOrders
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string TabOrders { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property TabOrders As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.TabOrders*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.UpdatedTabOrders
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.UpdatedTabOrders
+  id: UpdatedTabOrders
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: UpdatedTabOrders
+  nameWithType: ApplicationDefs.UpdatedTabOrders
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.UpdatedTabOrders
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string UpdatedTabOrders { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property UpdatedTabOrders As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.UpdatedTabOrders*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.UniqueNumberValidator
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.UniqueNumberValidator
+  id: UniqueNumberValidator
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: UniqueNumberValidator
+  nameWithType: ApplicationDefs.UniqueNumberValidator
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.UniqueNumberValidator
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string UniqueNumberValidator { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property UniqueNumberValidator As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.UniqueNumberValidator*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.DataDispatcher
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.DataDispatcher
+  id: DataDispatcher
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: DataDispatcher
+  nameWithType: ApplicationDefs.DataDispatcher
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.DataDispatcher
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string DataDispatcher { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property DataDispatcher As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.DataDispatcher*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ArchiveMDOListPrefix
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.ArchiveMDOListPrefix
+  id: ArchiveMDOListPrefix
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: ArchiveMDOListPrefix
+  nameWithType: ApplicationDefs.ArchiveMDOListPrefix
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ArchiveMDOListPrefix
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string ArchiveMDOListPrefix { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property ArchiveMDOListPrefix As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.ArchiveMDOListPrefix*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ArchiveRestrictionMDOListPrefix
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.ArchiveRestrictionMDOListPrefix
+  id: ArchiveRestrictionMDOListPrefix
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: ArchiveRestrictionMDOListPrefix
+  nameWithType: ApplicationDefs.ArchiveRestrictionMDOListPrefix
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ArchiveRestrictionMDOListPrefix
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string ArchiveRestrictionMDOListPrefix { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property ArchiveRestrictionMDOListPrefix As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.ArchiveRestrictionMDOListPrefix*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.SoException
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.SoException
+  id: SoException
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: SoException
+  nameWithType: ApplicationDefs.SoException
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.SoException
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string SoException { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SoException As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.SoException*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.AuthenticationFailure
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.AuthenticationFailure
+  id: AuthenticationFailure
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: AuthenticationFailure
+  nameWithType: ApplicationDefs.AuthenticationFailure
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.AuthenticationFailure
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string AuthenticationFailure { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property AuthenticationFailure As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.AuthenticationFailure*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.SuperStateCopyKey
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.SuperStateCopyKey
+  id: SuperStateCopyKey
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: SuperStateCopyKey
+  nameWithType: ApplicationDefs.SuperStateCopyKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.SuperStateCopyKey
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string SuperStateCopyKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SuperStateCopyKey As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.SuperStateCopyKey*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.UseSuperStateCopyKey
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.UseSuperStateCopyKey
+  id: UseSuperStateCopyKey
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: UseSuperStateCopyKey
+  nameWithType: ApplicationDefs.UseSuperStateCopyKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.UseSuperStateCopyKey
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string UseSuperStateCopyKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property UseSuperStateCopyKey As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.UseSuperStateCopyKey*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ResponseModeParamKey
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.ResponseModeParamKey
+  id: ResponseModeParamKey
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: ResponseModeParamKey
+  nameWithType: ApplicationDefs.ResponseModeParamKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ResponseModeParamKey
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string ResponseModeParamKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property ResponseModeParamKey As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.ResponseModeParamKey*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ModeParamKey
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.ModeParamKey
+  id: ModeParamKey
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: ModeParamKey
+  nameWithType: ApplicationDefs.ModeParamKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ModeParamKey
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string ModeParamKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property ModeParamKey As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.ModeParamKey*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.EditModeParamValue
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.EditModeParamValue
+  id: EditModeParamValue
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: EditModeParamValue
+  nameWithType: ApplicationDefs.EditModeParamValue
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.EditModeParamValue
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string EditModeParamValue { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property EditModeParamValue As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.EditModeParamValue*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.SaveModeParamValue
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.SaveModeParamValue
+  id: SaveModeParamValue
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: SaveModeParamValue
+  nameWithType: ApplicationDefs.SaveModeParamValue
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.SaveModeParamValue
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string SaveModeParamValue { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SaveModeParamValue As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.SaveModeParamValue*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.DeleteModeParamValue
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.DeleteModeParamValue
+  id: DeleteModeParamValue
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: DeleteModeParamValue
+  nameWithType: ApplicationDefs.DeleteModeParamValue
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.DeleteModeParamValue
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string DeleteModeParamValue { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property DeleteModeParamValue As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.DeleteModeParamValue*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.NewParamKey
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.NewParamKey
+  id: NewParamKey
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: NewParamKey
+  nameWithType: ApplicationDefs.NewParamKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.NewParamKey
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string NewParamKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property NewParamKey As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.NewParamKey*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ClearParamKey
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.ClearParamKey
+  id: ClearParamKey
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: ClearParamKey
+  nameWithType: ApplicationDefs.ClearParamKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ClearParamKey
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string ClearParamKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property ClearParamKey As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.ClearParamKey*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ClearParamValue
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.ClearParamValue
+  id: ClearParamValue
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: ClearParamValue
+  nameWithType: ApplicationDefs.ClearParamValue
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ClearParamValue
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string ClearParamValue { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property ClearParamValue As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.ClearParamValue*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.NewParamValue
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.NewParamValue
+  id: NewParamValue
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: NewParamValue
+  nameWithType: ApplicationDefs.NewParamValue
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.NewParamValue
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string NewParamValue { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property NewParamValue As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.NewParamValue*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.DisplayParamKey
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.DisplayParamKey
+  id: DisplayParamKey
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: DisplayParamKey
+  nameWithType: ApplicationDefs.DisplayParamKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.DisplayParamKey
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string DisplayParamKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property DisplayParamKey As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.DisplayParamKey*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ReadOnlyParamValue
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.ReadOnlyParamValue
+  id: ReadOnlyParamValue
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: ReadOnlyParamValue
+  nameWithType: ApplicationDefs.ReadOnlyParamValue
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ReadOnlyParamValue
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string ReadOnlyParamValue { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property ReadOnlyParamValue As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.ReadOnlyParamValue*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.RequestParamKey
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.RequestParamKey
+  id: RequestParamKey
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: RequestParamKey
+  nameWithType: ApplicationDefs.RequestParamKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.RequestParamKey
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string RequestParamKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property RequestParamKey As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.RequestParamKey*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CallbackParamValue
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.CallbackParamValue
+  id: CallbackParamValue
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: CallbackParamValue
+  nameWithType: ApplicationDefs.CallbackParamValue
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CallbackParamValue
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string CallbackParamValue { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property CallbackParamValue As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.CallbackParamValue*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.StateParamKey
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.StateParamKey
+  id: StateParamKey
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: StateParamKey
+  nameWithType: ApplicationDefs.StateParamKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.StateParamKey
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string StateParamKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property StateParamKey As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.StateParamKey*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.RefreshParamValue
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.RefreshParamValue
+  id: RefreshParamValue
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: RefreshParamValue
+  nameWithType: ApplicationDefs.RefreshParamValue
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.RefreshParamValue
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string RefreshParamValue { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property RefreshParamValue As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.RefreshParamValue*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.FlushParamValue
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.FlushParamValue
+  id: FlushParamValue
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: FlushParamValue
+  nameWithType: ApplicationDefs.FlushParamValue
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.FlushParamValue
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string FlushParamValue { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property FlushParamValue As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.FlushParamValue*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ExecuteScript
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.ExecuteScript
+  id: ExecuteScript
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: ExecuteScript
+  nameWithType: ApplicationDefs.ExecuteScript
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ExecuteScript
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string ExecuteScript { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property ExecuteScript As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.ExecuteScript*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ExecuteScriptArguments
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.ExecuteScriptArguments
+  id: ExecuteScriptArguments
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: ExecuteScriptArguments
+  nameWithType: ApplicationDefs.ExecuteScriptArguments
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ExecuteScriptArguments
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string ExecuteScriptArguments { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property ExecuteScriptArguments As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.ExecuteScriptArguments*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.DialogParamKey
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.DialogParamKey
+  id: DialogParamKey
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: DialogParamKey
+  nameWithType: ApplicationDefs.DialogParamKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.DialogParamKey
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string DialogParamKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property DialogParamKey As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.DialogParamKey*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.DialogWinNameParamKey
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.DialogWinNameParamKey
+  id: DialogWinNameParamKey
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: DialogWinNameParamKey
+  nameWithType: ApplicationDefs.DialogWinNameParamKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.DialogWinNameParamKey
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string DialogWinNameParamKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property DialogWinNameParamKey As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.DialogWinNameParamKey*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MainPageParamKey
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.MainPageParamKey
+  id: MainPageParamKey
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: MainPageParamKey
+  nameWithType: ApplicationDefs.MainPageParamKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MainPageParamKey
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string MainPageParamKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MainPageParamKey As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.MainPageParamKey*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.StopParamValue
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.StopParamValue
+  id: StopParamValue
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: StopParamValue
+  nameWithType: ApplicationDefs.StopParamValue
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.StopParamValue
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string StopParamValue { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property StopParamValue As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.StopParamValue*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.OpenParamValue
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.OpenParamValue
+  id: OpenParamValue
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: OpenParamValue
+  nameWithType: ApplicationDefs.OpenParamValue
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.OpenParamValue
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string OpenParamValue { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property OpenParamValue As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.OpenParamValue*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.SingleViewEditParamKey
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.SingleViewEditParamKey
+  id: SingleViewEditParamKey
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: SingleViewEditParamKey
+  nameWithType: ApplicationDefs.SingleViewEditParamKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.SingleViewEditParamKey
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string SingleViewEditParamKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SingleViewEditParamKey As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.SingleViewEditParamKey*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.NoUpdateParamKey
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.NoUpdateParamKey
+  id: NoUpdateParamKey
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: NoUpdateParamKey
+  nameWithType: ApplicationDefs.NoUpdateParamKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.NoUpdateParamKey
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string NoUpdateParamKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property NoUpdateParamKey As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.NoUpdateParamKey*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.AlignmentTop
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.AlignmentTop
+  id: AlignmentTop
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: AlignmentTop
+  nameWithType: ApplicationDefs.AlignmentTop
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.AlignmentTop
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string AlignmentTop { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property AlignmentTop As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.AlignmentTop*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.AlignmentRight
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.AlignmentRight
+  id: AlignmentRight
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: AlignmentRight
+  nameWithType: ApplicationDefs.AlignmentRight
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.AlignmentRight
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string AlignmentRight { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property AlignmentRight As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.AlignmentRight*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.AlignmentBottom
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.AlignmentBottom
+  id: AlignmentBottom
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: AlignmentBottom
+  nameWithType: ApplicationDefs.AlignmentBottom
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.AlignmentBottom
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string AlignmentBottom { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property AlignmentBottom As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.AlignmentBottom*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.AlignmentLeft
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.AlignmentLeft
+  id: AlignmentLeft
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: AlignmentLeft
+  nameWithType: ApplicationDefs.AlignmentLeft
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.AlignmentLeft
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string AlignmentLeft { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property AlignmentLeft As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.AlignmentLeft*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.AlignmentCenter
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.AlignmentCenter
+  id: AlignmentCenter
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: AlignmentCenter
+  nameWithType: ApplicationDefs.AlignmentCenter
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.AlignmentCenter
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string AlignmentCenter { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property AlignmentCenter As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.AlignmentCenter*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MiniPreview
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.MiniPreview
+  id: MiniPreview
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: MiniPreview
+  nameWithType: ApplicationDefs.MiniPreview
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MiniPreview
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string MiniPreview { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MiniPreview As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.MiniPreview*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.FindCriteria
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.FindCriteria
+  id: FindCriteria
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: FindCriteria
+  nameWithType: ApplicationDefs.FindCriteria
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.FindCriteria
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string FindCriteria { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property FindCriteria As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.FindCriteria*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.FindCriterionEntity
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.FindCriterionEntity
+  id: FindCriterionEntity
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: FindCriterionEntity
+  nameWithType: ApplicationDefs.FindCriterionEntity
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.FindCriterionEntity
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string FindCriterionEntity { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property FindCriterionEntity As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.FindCriterionEntity*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.FindCriterionField
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.FindCriterionField
+  id: FindCriterionField
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: FindCriterionField
+  nameWithType: ApplicationDefs.FindCriterionField
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.FindCriterionField
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string FindCriterionField { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property FindCriterionField As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.FindCriterionField*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.FindReport
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.FindReport
+  id: FindReport
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: FindReport
+  nameWithType: ApplicationDefs.FindReport
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.FindReport
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string FindReport { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property FindReport As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.FindReport*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.StorageKeyAssociateName
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.StorageKeyAssociateName
+  id: StorageKeyAssociateName
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: StorageKeyAssociateName
+  nameWithType: ApplicationDefs.StorageKeyAssociateName
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.StorageKeyAssociateName
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string StorageKeyAssociateName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property StorageKeyAssociateName As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.StorageKeyAssociateName*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.StorageKeyDynamicSelectionName
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.StorageKeyDynamicSelectionName
+  id: StorageKeyDynamicSelectionName
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: StorageKeyDynamicSelectionName
+  nameWithType: ApplicationDefs.StorageKeyDynamicSelectionName
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.StorageKeyDynamicSelectionName
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string StorageKeyDynamicSelectionName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property StorageKeyDynamicSelectionName As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.StorageKeyDynamicSelectionName*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.StorageKeyReport
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.StorageKeyReport
+  id: StorageKeyReport
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: StorageKeyReport
+  nameWithType: ApplicationDefs.StorageKeyReport
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.StorageKeyReport
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string StorageKeyReport { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property StorageKeyReport As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.StorageKeyReport*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.StorageKeyStatusMonitor
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.StorageKeyStatusMonitor
+  id: StorageKeyStatusMonitor
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: StorageKeyStatusMonitor
+  nameWithType: ApplicationDefs.StorageKeyStatusMonitor
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.StorageKeyStatusMonitor
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string StorageKeyStatusMonitor { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property StorageKeyStatusMonitor As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.StorageKeyStatusMonitor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.FindInlineRestrictionCache
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.FindInlineRestrictionCache
+  id: FindInlineRestrictionCache
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: FindInlineRestrictionCache
+  nameWithType: ApplicationDefs.FindInlineRestrictionCache
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.FindInlineRestrictionCache
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string FindInlineRestrictionCache { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property FindInlineRestrictionCache As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.FindInlineRestrictionCache*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.FindInlineCriteriaMDOControlDataFetcher
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.FindInlineCriteriaMDOControlDataFetcher
+  id: FindInlineCriteriaMDOControlDataFetcher
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: FindInlineCriteriaMDOControlDataFetcher
+  nameWithType: ApplicationDefs.FindInlineCriteriaMDOControlDataFetcher
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.FindInlineCriteriaMDOControlDataFetcher
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string FindInlineCriteriaMDOControlDataFetcher { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property FindInlineCriteriaMDOControlDataFetcher As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.FindInlineCriteriaMDOControlDataFetcher*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailAuthenticated
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.MailAuthenticated
+  id: MailAuthenticated
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: MailAuthenticated
+  nameWithType: ApplicationDefs.MailAuthenticated
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailAuthenticated
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string MailAuthenticated { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MailAuthenticated As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.MailAuthenticated*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingAuthenticated
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingAuthenticated
+  id: MailOutgoingAuthenticated
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: MailOutgoingAuthenticated
+  nameWithType: ApplicationDefs.MailOutgoingAuthenticated
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingAuthenticated
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string MailOutgoingAuthenticated { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MailOutgoingAuthenticated As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingAuthenticated*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailPreviewOn
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.MailPreviewOn
+  id: MailPreviewOn
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: MailPreviewOn
+  nameWithType: ApplicationDefs.MailPreviewOn
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailPreviewOn
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string MailPreviewOn { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MailPreviewOn As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.MailPreviewOn*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailIncomingServername
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.MailIncomingServername
+  id: MailIncomingServername
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: MailIncomingServername
+  nameWithType: ApplicationDefs.MailIncomingServername
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailIncomingServername
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string MailIncomingServername { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MailIncomingServername As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.MailIncomingServername*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailIncomingUsername
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.MailIncomingUsername
+  id: MailIncomingUsername
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: MailIncomingUsername
+  nameWithType: ApplicationDefs.MailIncomingUsername
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailIncomingUsername
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string MailIncomingUsername { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MailIncomingUsername As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.MailIncomingUsername*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailIncomingPassword
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.MailIncomingPassword
+  id: MailIncomingPassword
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: MailIncomingPassword
+  nameWithType: ApplicationDefs.MailIncomingPassword
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailIncomingPassword
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string MailIncomingPassword { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MailIncomingPassword As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.MailIncomingPassword*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailIncomingSSL
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.MailIncomingSSL
+  id: MailIncomingSSL
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: MailIncomingSSL
+  nameWithType: ApplicationDefs.MailIncomingSSL
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailIncomingSSL
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string MailIncomingSSL { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MailIncomingSSL As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.MailIncomingSSL*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailRememberSettings
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.MailRememberSettings
+  id: MailRememberSettings
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: MailRememberSettings
+  nameWithType: ApplicationDefs.MailRememberSettings
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailRememberSettings
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string MailRememberSettings { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MailRememberSettings As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.MailRememberSettings*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailShowSMTPSettings
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.MailShowSMTPSettings
+  id: MailShowSMTPSettings
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: MailShowSMTPSettings
+  nameWithType: ApplicationDefs.MailShowSMTPSettings
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailShowSMTPSettings
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string MailShowSMTPSettings { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MailShowSMTPSettings As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.MailShowSMTPSettings*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingServername
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingServername
+  id: MailOutgoingServername
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: MailOutgoingServername
+  nameWithType: ApplicationDefs.MailOutgoingServername
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingServername
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string MailOutgoingServername { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MailOutgoingServername As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingServername*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingUsername
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingUsername
+  id: MailOutgoingUsername
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: MailOutgoingUsername
+  nameWithType: ApplicationDefs.MailOutgoingUsername
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingUsername
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string MailOutgoingUsername { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MailOutgoingUsername As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingUsername*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingPassword
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingPassword
+  id: MailOutgoingPassword
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: MailOutgoingPassword
+  nameWithType: ApplicationDefs.MailOutgoingPassword
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingPassword
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string MailOutgoingPassword { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MailOutgoingPassword As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingPassword*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingSSL
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingSSL
+  id: MailOutgoingSSL
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: MailOutgoingSSL
+  nameWithType: ApplicationDefs.MailOutgoingSSL
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingSSL
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string MailOutgoingSSL { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MailOutgoingSSL As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingSSL*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailPreviewHeaderExpanded
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.MailPreviewHeaderExpanded
+  id: MailPreviewHeaderExpanded
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: MailPreviewHeaderExpanded
+  nameWithType: ApplicationDefs.MailPreviewHeaderExpanded
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailPreviewHeaderExpanded
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string MailPreviewHeaderExpanded { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MailPreviewHeaderExpanded As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.MailPreviewHeaderExpanded*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailLoggedOut
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.MailLoggedOut
+  id: MailLoggedOut
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: MailLoggedOut
+  nameWithType: ApplicationDefs.MailLoggedOut
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailLoggedOut
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string MailLoggedOut { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MailLoggedOut As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.MailLoggedOut*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.AdminImportValidation
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.AdminImportValidation
+  id: AdminImportValidation
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: AdminImportValidation
+  nameWithType: ApplicationDefs.AdminImportValidation
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.AdminImportValidation
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string AdminImportValidation { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property AdminImportValidation As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.AdminImportValidation*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.AdminImportNameKey
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.AdminImportNameKey
+  id: AdminImportNameKey
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: AdminImportNameKey
+  nameWithType: ApplicationDefs.AdminImportNameKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.AdminImportNameKey
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string AdminImportNameKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property AdminImportNameKey As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.AdminImportNameKey*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.AdminImportDataKey
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.AdminImportDataKey
+  id: AdminImportDataKey
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: AdminImportDataKey
+  nameWithType: ApplicationDefs.AdminImportDataKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.AdminImportDataKey
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string AdminImportDataKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property AdminImportDataKey As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.AdminImportDataKey*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.AdminImportContext
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.AdminImportContext
+  id: AdminImportContext
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: AdminImportContext
+  nameWithType: ApplicationDefs.AdminImportContext
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.AdminImportContext
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string AdminImportContext { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property AdminImportContext As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.AdminImportContext*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.AdminImportPreviewDataKey
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.AdminImportPreviewDataKey
+  id: AdminImportPreviewDataKey
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: AdminImportPreviewDataKey
+  nameWithType: ApplicationDefs.AdminImportPreviewDataKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.AdminImportPreviewDataKey
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string AdminImportPreviewDataKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property AdminImportPreviewDataKey As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.AdminImportPreviewDataKey*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationDefs.AdminImportColsKey
+  commentId: P:SuperOffice.DCF.Web.ApplicationDefs.AdminImportColsKey
+  id: AdminImportColsKey
+  parent: SuperOffice.DCF.Web.ApplicationDefs
+  langs:
+  - csharp
+  - vb
+  name: AdminImportColsKey
+  nameWithType: ApplicationDefs.AdminImportColsKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.AdminImportColsKey
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string AdminImportColsKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property AdminImportColsKey As String
+  overload: SuperOffice.DCF.Web.ApplicationDefs.AdminImportColsKey*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.ApplicationDefs.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.#ctor
+  isExternal: true
+  name: ApplicationDefs
+  nameWithType: ApplicationDefs.ApplicationDefs
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ApplicationDefs
+- uid: SuperOffice.DCF.Web.ApplicationDefs.SuperState*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.SuperState
+  isExternal: true
+  name: SuperState
+  nameWithType: ApplicationDefs.SuperState
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.SuperState
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentUserCulture*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.CurrentUserCulture
+  isExternal: true
+  name: CurrentUserCulture
+  nameWithType: ApplicationDefs.CurrentUserCulture
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentUserCulture
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentUserUICulture*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.CurrentUserUICulture
+  isExternal: true
+  name: CurrentUserUICulture
+  nameWithType: ApplicationDefs.CurrentUserUICulture
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CurrentUserUICulture
+- uid: SuperOffice.DCF.Web.ApplicationDefs.WebToolsLatestVersion*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.WebToolsLatestVersion
+  isExternal: true
+  name: WebToolsLatestVersion
+  nameWithType: ApplicationDefs.WebToolsLatestVersion
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.WebToolsLatestVersion
+- uid: SuperOffice.DCF.Web.ApplicationDefs.SessionId*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.SessionId
+  isExternal: true
+  name: SessionId
+  nameWithType: ApplicationDefs.SessionId
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.SessionId
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CachedUserPreferences*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.CachedUserPreferences
+  isExternal: true
+  name: CachedUserPreferences
+  nameWithType: ApplicationDefs.CachedUserPreferences
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CachedUserPreferences
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ChangedUserPreferences*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.ChangedUserPreferences
+  isExternal: true
+  name: ChangedUserPreferences
+  nameWithType: ApplicationDefs.ChangedUserPreferences
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ChangedUserPreferences
+- uid: SuperOffice.DCF.Web.ApplicationDefs.HistoryLenghtPreference*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.HistoryLenghtPreference
+  isExternal: true
+  name: HistoryLenghtPreference
+  nameWithType: ApplicationDefs.HistoryLenghtPreference
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.HistoryLenghtPreference
+- uid: SuperOffice.DCF.Web.ApplicationDefs.UserFunctionRights*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.UserFunctionRights
+  isExternal: true
+  name: UserFunctionRights
+  nameWithType: ApplicationDefs.UserFunctionRights
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.UserFunctionRights
+- uid: SuperOffice.DCF.Web.ApplicationDefs.TabOrders*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.TabOrders
+  isExternal: true
+  name: TabOrders
+  nameWithType: ApplicationDefs.TabOrders
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.TabOrders
+- uid: SuperOffice.DCF.Web.ApplicationDefs.UpdatedTabOrders*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.UpdatedTabOrders
+  isExternal: true
+  name: UpdatedTabOrders
+  nameWithType: ApplicationDefs.UpdatedTabOrders
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.UpdatedTabOrders
+- uid: SuperOffice.DCF.Web.ApplicationDefs.UniqueNumberValidator*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.UniqueNumberValidator
+  isExternal: true
+  name: UniqueNumberValidator
+  nameWithType: ApplicationDefs.UniqueNumberValidator
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.UniqueNumberValidator
+- uid: SuperOffice.DCF.Web.ApplicationDefs.DataDispatcher*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.DataDispatcher
+  isExternal: true
+  name: DataDispatcher
+  nameWithType: ApplicationDefs.DataDispatcher
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.DataDispatcher
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ArchiveMDOListPrefix*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.ArchiveMDOListPrefix
+  isExternal: true
+  name: ArchiveMDOListPrefix
+  nameWithType: ApplicationDefs.ArchiveMDOListPrefix
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ArchiveMDOListPrefix
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ArchiveRestrictionMDOListPrefix*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.ArchiveRestrictionMDOListPrefix
+  isExternal: true
+  name: ArchiveRestrictionMDOListPrefix
+  nameWithType: ApplicationDefs.ArchiveRestrictionMDOListPrefix
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ArchiveRestrictionMDOListPrefix
+- uid: SuperOffice.DCF.Web.ApplicationDefs.SoException*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.SoException
+  isExternal: true
+  name: SoException
+  nameWithType: ApplicationDefs.SoException
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.SoException
+- uid: SuperOffice.DCF.Web.ApplicationDefs.AuthenticationFailure*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.AuthenticationFailure
+  isExternal: true
+  name: AuthenticationFailure
+  nameWithType: ApplicationDefs.AuthenticationFailure
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.AuthenticationFailure
+- uid: SuperOffice.DCF.Web.ApplicationDefs.SuperStateCopyKey*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.SuperStateCopyKey
+  isExternal: true
+  name: SuperStateCopyKey
+  nameWithType: ApplicationDefs.SuperStateCopyKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.SuperStateCopyKey
+- uid: SuperOffice.DCF.Web.ApplicationDefs.UseSuperStateCopyKey*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.UseSuperStateCopyKey
+  isExternal: true
+  name: UseSuperStateCopyKey
+  nameWithType: ApplicationDefs.UseSuperStateCopyKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.UseSuperStateCopyKey
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ResponseModeParamKey*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.ResponseModeParamKey
+  isExternal: true
+  name: ResponseModeParamKey
+  nameWithType: ApplicationDefs.ResponseModeParamKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ResponseModeParamKey
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ModeParamKey*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.ModeParamKey
+  isExternal: true
+  name: ModeParamKey
+  nameWithType: ApplicationDefs.ModeParamKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ModeParamKey
+- uid: SuperOffice.DCF.Web.ApplicationDefs.EditModeParamValue*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.EditModeParamValue
+  isExternal: true
+  name: EditModeParamValue
+  nameWithType: ApplicationDefs.EditModeParamValue
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.EditModeParamValue
+- uid: SuperOffice.DCF.Web.ApplicationDefs.SaveModeParamValue*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.SaveModeParamValue
+  isExternal: true
+  name: SaveModeParamValue
+  nameWithType: ApplicationDefs.SaveModeParamValue
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.SaveModeParamValue
+- uid: SuperOffice.DCF.Web.ApplicationDefs.DeleteModeParamValue*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.DeleteModeParamValue
+  isExternal: true
+  name: DeleteModeParamValue
+  nameWithType: ApplicationDefs.DeleteModeParamValue
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.DeleteModeParamValue
+- uid: SuperOffice.DCF.Web.ApplicationDefs.NewParamKey*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.NewParamKey
+  isExternal: true
+  name: NewParamKey
+  nameWithType: ApplicationDefs.NewParamKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.NewParamKey
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ClearParamKey*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.ClearParamKey
+  isExternal: true
+  name: ClearParamKey
+  nameWithType: ApplicationDefs.ClearParamKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ClearParamKey
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ClearParamValue*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.ClearParamValue
+  isExternal: true
+  name: ClearParamValue
+  nameWithType: ApplicationDefs.ClearParamValue
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ClearParamValue
+- uid: SuperOffice.DCF.Web.ApplicationDefs.NewParamValue*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.NewParamValue
+  isExternal: true
+  name: NewParamValue
+  nameWithType: ApplicationDefs.NewParamValue
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.NewParamValue
+- uid: SuperOffice.DCF.Web.ApplicationDefs.DisplayParamKey*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.DisplayParamKey
+  isExternal: true
+  name: DisplayParamKey
+  nameWithType: ApplicationDefs.DisplayParamKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.DisplayParamKey
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ReadOnlyParamValue*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.ReadOnlyParamValue
+  isExternal: true
+  name: ReadOnlyParamValue
+  nameWithType: ApplicationDefs.ReadOnlyParamValue
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ReadOnlyParamValue
+- uid: SuperOffice.DCF.Web.ApplicationDefs.RequestParamKey*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.RequestParamKey
+  isExternal: true
+  name: RequestParamKey
+  nameWithType: ApplicationDefs.RequestParamKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.RequestParamKey
+- uid: SuperOffice.DCF.Web.ApplicationDefs.CallbackParamValue*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.CallbackParamValue
+  isExternal: true
+  name: CallbackParamValue
+  nameWithType: ApplicationDefs.CallbackParamValue
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.CallbackParamValue
+- uid: SuperOffice.DCF.Web.ApplicationDefs.StateParamKey*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.StateParamKey
+  isExternal: true
+  name: StateParamKey
+  nameWithType: ApplicationDefs.StateParamKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.StateParamKey
+- uid: SuperOffice.DCF.Web.ApplicationDefs.RefreshParamValue*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.RefreshParamValue
+  isExternal: true
+  name: RefreshParamValue
+  nameWithType: ApplicationDefs.RefreshParamValue
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.RefreshParamValue
+- uid: SuperOffice.DCF.Web.ApplicationDefs.FlushParamValue*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.FlushParamValue
+  isExternal: true
+  name: FlushParamValue
+  nameWithType: ApplicationDefs.FlushParamValue
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.FlushParamValue
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ExecuteScript*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.ExecuteScript
+  isExternal: true
+  name: ExecuteScript
+  nameWithType: ApplicationDefs.ExecuteScript
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ExecuteScript
+- uid: SuperOffice.DCF.Web.ApplicationDefs.ExecuteScriptArguments*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.ExecuteScriptArguments
+  isExternal: true
+  name: ExecuteScriptArguments
+  nameWithType: ApplicationDefs.ExecuteScriptArguments
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.ExecuteScriptArguments
+- uid: SuperOffice.DCF.Web.ApplicationDefs.DialogParamKey*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.DialogParamKey
+  isExternal: true
+  name: DialogParamKey
+  nameWithType: ApplicationDefs.DialogParamKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.DialogParamKey
+- uid: SuperOffice.DCF.Web.ApplicationDefs.DialogWinNameParamKey*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.DialogWinNameParamKey
+  isExternal: true
+  name: DialogWinNameParamKey
+  nameWithType: ApplicationDefs.DialogWinNameParamKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.DialogWinNameParamKey
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MainPageParamKey*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.MainPageParamKey
+  isExternal: true
+  name: MainPageParamKey
+  nameWithType: ApplicationDefs.MainPageParamKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MainPageParamKey
+- uid: SuperOffice.DCF.Web.ApplicationDefs.StopParamValue*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.StopParamValue
+  isExternal: true
+  name: StopParamValue
+  nameWithType: ApplicationDefs.StopParamValue
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.StopParamValue
+- uid: SuperOffice.DCF.Web.ApplicationDefs.OpenParamValue*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.OpenParamValue
+  isExternal: true
+  name: OpenParamValue
+  nameWithType: ApplicationDefs.OpenParamValue
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.OpenParamValue
+- uid: SuperOffice.DCF.Web.ApplicationDefs.SingleViewEditParamKey*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.SingleViewEditParamKey
+  isExternal: true
+  name: SingleViewEditParamKey
+  nameWithType: ApplicationDefs.SingleViewEditParamKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.SingleViewEditParamKey
+- uid: SuperOffice.DCF.Web.ApplicationDefs.NoUpdateParamKey*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.NoUpdateParamKey
+  isExternal: true
+  name: NoUpdateParamKey
+  nameWithType: ApplicationDefs.NoUpdateParamKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.NoUpdateParamKey
+- uid: SuperOffice.DCF.Web.ApplicationDefs.AlignmentTop*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.AlignmentTop
+  isExternal: true
+  name: AlignmentTop
+  nameWithType: ApplicationDefs.AlignmentTop
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.AlignmentTop
+- uid: SuperOffice.DCF.Web.ApplicationDefs.AlignmentRight*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.AlignmentRight
+  isExternal: true
+  name: AlignmentRight
+  nameWithType: ApplicationDefs.AlignmentRight
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.AlignmentRight
+- uid: SuperOffice.DCF.Web.ApplicationDefs.AlignmentBottom*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.AlignmentBottom
+  isExternal: true
+  name: AlignmentBottom
+  nameWithType: ApplicationDefs.AlignmentBottom
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.AlignmentBottom
+- uid: SuperOffice.DCF.Web.ApplicationDefs.AlignmentLeft*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.AlignmentLeft
+  isExternal: true
+  name: AlignmentLeft
+  nameWithType: ApplicationDefs.AlignmentLeft
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.AlignmentLeft
+- uid: SuperOffice.DCF.Web.ApplicationDefs.AlignmentCenter*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.AlignmentCenter
+  isExternal: true
+  name: AlignmentCenter
+  nameWithType: ApplicationDefs.AlignmentCenter
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.AlignmentCenter
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MiniPreview*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.MiniPreview
+  isExternal: true
+  name: MiniPreview
+  nameWithType: ApplicationDefs.MiniPreview
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MiniPreview
+- uid: SuperOffice.DCF.Web.ApplicationDefs.FindCriteria*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.FindCriteria
+  isExternal: true
+  name: FindCriteria
+  nameWithType: ApplicationDefs.FindCriteria
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.FindCriteria
+- uid: SuperOffice.DCF.Web.ApplicationDefs.FindCriterionEntity*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.FindCriterionEntity
+  isExternal: true
+  name: FindCriterionEntity
+  nameWithType: ApplicationDefs.FindCriterionEntity
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.FindCriterionEntity
+- uid: SuperOffice.DCF.Web.ApplicationDefs.FindCriterionField*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.FindCriterionField
+  isExternal: true
+  name: FindCriterionField
+  nameWithType: ApplicationDefs.FindCriterionField
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.FindCriterionField
+- uid: SuperOffice.DCF.Web.ApplicationDefs.FindReport*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.FindReport
+  isExternal: true
+  name: FindReport
+  nameWithType: ApplicationDefs.FindReport
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.FindReport
+- uid: SuperOffice.DCF.Web.ApplicationDefs.StorageKeyAssociateName*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.StorageKeyAssociateName
+  isExternal: true
+  name: StorageKeyAssociateName
+  nameWithType: ApplicationDefs.StorageKeyAssociateName
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.StorageKeyAssociateName
+- uid: SuperOffice.DCF.Web.ApplicationDefs.StorageKeyDynamicSelectionName*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.StorageKeyDynamicSelectionName
+  isExternal: true
+  name: StorageKeyDynamicSelectionName
+  nameWithType: ApplicationDefs.StorageKeyDynamicSelectionName
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.StorageKeyDynamicSelectionName
+- uid: SuperOffice.DCF.Web.ApplicationDefs.StorageKeyReport*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.StorageKeyReport
+  isExternal: true
+  name: StorageKeyReport
+  nameWithType: ApplicationDefs.StorageKeyReport
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.StorageKeyReport
+- uid: SuperOffice.DCF.Web.ApplicationDefs.StorageKeyStatusMonitor*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.StorageKeyStatusMonitor
+  isExternal: true
+  name: StorageKeyStatusMonitor
+  nameWithType: ApplicationDefs.StorageKeyStatusMonitor
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.StorageKeyStatusMonitor
+- uid: SuperOffice.DCF.Web.ApplicationDefs.FindInlineRestrictionCache*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.FindInlineRestrictionCache
+  isExternal: true
+  name: FindInlineRestrictionCache
+  nameWithType: ApplicationDefs.FindInlineRestrictionCache
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.FindInlineRestrictionCache
+- uid: SuperOffice.DCF.Web.ApplicationDefs.FindInlineCriteriaMDOControlDataFetcher*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.FindInlineCriteriaMDOControlDataFetcher
+  isExternal: true
+  name: FindInlineCriteriaMDOControlDataFetcher
+  nameWithType: ApplicationDefs.FindInlineCriteriaMDOControlDataFetcher
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.FindInlineCriteriaMDOControlDataFetcher
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailAuthenticated*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.MailAuthenticated
+  isExternal: true
+  name: MailAuthenticated
+  nameWithType: ApplicationDefs.MailAuthenticated
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailAuthenticated
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingAuthenticated*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingAuthenticated
+  isExternal: true
+  name: MailOutgoingAuthenticated
+  nameWithType: ApplicationDefs.MailOutgoingAuthenticated
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingAuthenticated
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailPreviewOn*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.MailPreviewOn
+  isExternal: true
+  name: MailPreviewOn
+  nameWithType: ApplicationDefs.MailPreviewOn
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailPreviewOn
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailIncomingServername*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.MailIncomingServername
+  isExternal: true
+  name: MailIncomingServername
+  nameWithType: ApplicationDefs.MailIncomingServername
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailIncomingServername
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailIncomingUsername*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.MailIncomingUsername
+  isExternal: true
+  name: MailIncomingUsername
+  nameWithType: ApplicationDefs.MailIncomingUsername
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailIncomingUsername
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailIncomingPassword*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.MailIncomingPassword
+  isExternal: true
+  name: MailIncomingPassword
+  nameWithType: ApplicationDefs.MailIncomingPassword
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailIncomingPassword
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailIncomingSSL*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.MailIncomingSSL
+  isExternal: true
+  name: MailIncomingSSL
+  nameWithType: ApplicationDefs.MailIncomingSSL
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailIncomingSSL
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailRememberSettings*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.MailRememberSettings
+  isExternal: true
+  name: MailRememberSettings
+  nameWithType: ApplicationDefs.MailRememberSettings
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailRememberSettings
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailShowSMTPSettings*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.MailShowSMTPSettings
+  isExternal: true
+  name: MailShowSMTPSettings
+  nameWithType: ApplicationDefs.MailShowSMTPSettings
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailShowSMTPSettings
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingServername*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingServername
+  isExternal: true
+  name: MailOutgoingServername
+  nameWithType: ApplicationDefs.MailOutgoingServername
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingServername
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingUsername*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingUsername
+  isExternal: true
+  name: MailOutgoingUsername
+  nameWithType: ApplicationDefs.MailOutgoingUsername
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingUsername
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingPassword*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingPassword
+  isExternal: true
+  name: MailOutgoingPassword
+  nameWithType: ApplicationDefs.MailOutgoingPassword
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingPassword
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingSSL*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingSSL
+  isExternal: true
+  name: MailOutgoingSSL
+  nameWithType: ApplicationDefs.MailOutgoingSSL
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailOutgoingSSL
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailPreviewHeaderExpanded*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.MailPreviewHeaderExpanded
+  isExternal: true
+  name: MailPreviewHeaderExpanded
+  nameWithType: ApplicationDefs.MailPreviewHeaderExpanded
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailPreviewHeaderExpanded
+- uid: SuperOffice.DCF.Web.ApplicationDefs.MailLoggedOut*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.MailLoggedOut
+  isExternal: true
+  name: MailLoggedOut
+  nameWithType: ApplicationDefs.MailLoggedOut
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.MailLoggedOut
+- uid: SuperOffice.DCF.Web.ApplicationDefs.AdminImportValidation*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.AdminImportValidation
+  isExternal: true
+  name: AdminImportValidation
+  nameWithType: ApplicationDefs.AdminImportValidation
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.AdminImportValidation
+- uid: SuperOffice.DCF.Web.ApplicationDefs.AdminImportNameKey*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.AdminImportNameKey
+  isExternal: true
+  name: AdminImportNameKey
+  nameWithType: ApplicationDefs.AdminImportNameKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.AdminImportNameKey
+- uid: SuperOffice.DCF.Web.ApplicationDefs.AdminImportDataKey*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.AdminImportDataKey
+  isExternal: true
+  name: AdminImportDataKey
+  nameWithType: ApplicationDefs.AdminImportDataKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.AdminImportDataKey
+- uid: SuperOffice.DCF.Web.ApplicationDefs.AdminImportContext*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.AdminImportContext
+  isExternal: true
+  name: AdminImportContext
+  nameWithType: ApplicationDefs.AdminImportContext
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.AdminImportContext
+- uid: SuperOffice.DCF.Web.ApplicationDefs.AdminImportPreviewDataKey*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.AdminImportPreviewDataKey
+  isExternal: true
+  name: AdminImportPreviewDataKey
+  nameWithType: ApplicationDefs.AdminImportPreviewDataKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.AdminImportPreviewDataKey
+- uid: SuperOffice.DCF.Web.ApplicationDefs.AdminImportColsKey*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationDefs.AdminImportColsKey
+  isExternal: true
+  name: AdminImportColsKey
+  nameWithType: ApplicationDefs.AdminImportColsKey
+  fullName: SuperOffice.DCF.Web.ApplicationDefs.AdminImportColsKey

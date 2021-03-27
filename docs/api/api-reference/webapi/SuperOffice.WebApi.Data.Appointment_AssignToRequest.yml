@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_AssignToRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_AssignToRequest
+  id: Appointment_AssignToRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_AssignToRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_AssignToRequest.AppointmentId
+  - SuperOffice.WebApi.Data.Appointment_AssignToRequest.Participant
+  - SuperOffice.WebApi.Data.Appointment_AssignToRequest.UpdateMode
+  langs:
+  - csharp
+  - vb
+  name: Appointment_AssignToRequest
+  nameWithType: Appointment_AssignToRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_AssignToRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_AssignToRequest : Object'
+    content.vb: >-
+      Public Class Appointment_AssignToRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_AssignToRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_AssignToRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_AssignToRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_AssignToRequest()
+  nameWithType: Appointment_AssignToRequest.Appointment_AssignToRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_AssignToRequest.Appointment_AssignToRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_AssignToRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_AssignToRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_AssignToRequest.AppointmentId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_AssignToRequest.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.WebApi.Data.Appointment_AssignToRequest
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: Appointment_AssignToRequest.AppointmentId
+  fullName: SuperOffice.WebApi.Data.Appointment_AssignToRequest.AppointmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AppointmentId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_AssignToRequest.AppointmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_AssignToRequest.Participant
+  commentId: P:SuperOffice.WebApi.Data.Appointment_AssignToRequest.Participant
+  id: Participant
+  parent: SuperOffice.WebApi.Data.Appointment_AssignToRequest
+  langs:
+  - csharp
+  - vb
+  name: Participant
+  nameWithType: Appointment_AssignToRequest.Participant
+  fullName: SuperOffice.WebApi.Data.Appointment_AssignToRequest.Participant
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ParticipantInfo Participant { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ParticipantInfo
+    content.vb: Public Property Participant As ParticipantInfo
+  overload: SuperOffice.WebApi.Data.Appointment_AssignToRequest.Participant*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_AssignToRequest.UpdateMode
+  commentId: P:SuperOffice.WebApi.Data.Appointment_AssignToRequest.UpdateMode
+  id: UpdateMode
+  parent: SuperOffice.WebApi.Data.Appointment_AssignToRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateMode
+  nameWithType: Appointment_AssignToRequest.UpdateMode
+  fullName: SuperOffice.WebApi.Data.Appointment_AssignToRequest.UpdateMode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public RecurrenceUpdateMode UpdateMode { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+    content.vb: Public Property UpdateMode As RecurrenceUpdateMode
+  overload: SuperOffice.WebApi.Data.Appointment_AssignToRequest.UpdateMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_AssignToRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_AssignToRequest.#ctor
+  isExternal: true
+  name: Appointment_AssignToRequest
+  nameWithType: Appointment_AssignToRequest.Appointment_AssignToRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_AssignToRequest.Appointment_AssignToRequest
+- uid: SuperOffice.WebApi.Data.Appointment_AssignToRequest.AppointmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_AssignToRequest.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: Appointment_AssignToRequest.AppointmentId
+  fullName: SuperOffice.WebApi.Data.Appointment_AssignToRequest.AppointmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Appointment_AssignToRequest.Participant*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_AssignToRequest.Participant
+  isExternal: true
+  name: Participant
+  nameWithType: Appointment_AssignToRequest.Participant
+  fullName: SuperOffice.WebApi.Data.Appointment_AssignToRequest.Participant
+- uid: SuperOffice.WebApi.Data.ParticipantInfo
+  commentId: T:SuperOffice.WebApi.Data.ParticipantInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ParticipantInfo
+  nameWithType: ParticipantInfo
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo
+- uid: SuperOffice.WebApi.Data.Appointment_AssignToRequest.UpdateMode*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_AssignToRequest.UpdateMode
+  isExternal: true
+  name: UpdateMode
+  nameWithType: Appointment_AssignToRequest.UpdateMode
+  fullName: SuperOffice.WebApi.Data.Appointment_AssignToRequest.UpdateMode
+- uid: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  commentId: T:SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: RecurrenceUpdateMode
+  nameWithType: RecurrenceUpdateMode
+  fullName: SuperOffice.WebApi.Data.RecurrenceUpdateMode

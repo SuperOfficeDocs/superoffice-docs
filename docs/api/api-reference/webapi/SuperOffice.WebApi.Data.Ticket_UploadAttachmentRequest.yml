@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest
+  id: Ticket_UploadAttachmentRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest.#ctor
+  - SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest.AttachmentId
+  - SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest.Content
+  langs:
+  - csharp
+  - vb
+  name: Ticket_UploadAttachmentRequest
+  nameWithType: Ticket_UploadAttachmentRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Ticket_UploadAttachmentRequest : Object'
+    content.vb: >-
+      Public Class Ticket_UploadAttachmentRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest
+  langs:
+  - csharp
+  - vb
+  name: Ticket_UploadAttachmentRequest()
+  nameWithType: Ticket_UploadAttachmentRequest.Ticket_UploadAttachmentRequest()
+  fullName: SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest.Ticket_UploadAttachmentRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Ticket_UploadAttachmentRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest.AttachmentId
+  commentId: P:SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest.AttachmentId
+  id: AttachmentId
+  parent: SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest
+  langs:
+  - csharp
+  - vb
+  name: AttachmentId
+  nameWithType: Ticket_UploadAttachmentRequest.AttachmentId
+  fullName: SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest.AttachmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AttachmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AttachmentId As Integer
+  overload: SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest.AttachmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest.Content
+  commentId: P:SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest.Content
+  id: Content
+  parent: SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest
+  langs:
+  - csharp
+  - vb
+  name: Content
+  nameWithType: Ticket_UploadAttachmentRequest.Content
+  fullName: SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest.Content
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public byte[] Content { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Content As Byte()
+  overload: SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest.Content*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest.#ctor
+  isExternal: true
+  name: Ticket_UploadAttachmentRequest
+  nameWithType: Ticket_UploadAttachmentRequest.Ticket_UploadAttachmentRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest.Ticket_UploadAttachmentRequest
+- uid: SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest.AttachmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest.AttachmentId
+  isExternal: true
+  name: AttachmentId
+  nameWithType: Ticket_UploadAttachmentRequest.AttachmentId
+  fullName: SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest.AttachmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest.Content*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest.Content
+  isExternal: true
+  name: Content
+  nameWithType: Ticket_UploadAttachmentRequest.Content
+  fullName: SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest.Content
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

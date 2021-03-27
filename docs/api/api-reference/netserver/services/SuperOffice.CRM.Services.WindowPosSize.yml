@@ -1,0 +1,639 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.WindowPosSize
+  commentId: T:SuperOffice.CRM.Services.WindowPosSize
+  id: WindowPosSize
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.WindowPosSize.#ctor
+  - SuperOffice.CRM.Services.WindowPosSize.AssociateId
+  - SuperOffice.CRM.Services.WindowPosSize.ExtraId
+  - SuperOffice.CRM.Services.WindowPosSize.ExtraInfo
+  - SuperOffice.CRM.Services.WindowPosSize.Height
+  - SuperOffice.CRM.Services.WindowPosSize.LeftX
+  - SuperOffice.CRM.Services.WindowPosSize.OwnerWindow
+  - SuperOffice.CRM.Services.WindowPosSize.PersonId
+  - SuperOffice.CRM.Services.WindowPosSize.State
+  - SuperOffice.CRM.Services.WindowPosSize.ToString
+  - SuperOffice.CRM.Services.WindowPosSize.ToString(System.String)
+  - SuperOffice.CRM.Services.WindowPosSize.UpperY
+  - SuperOffice.CRM.Services.WindowPosSize.Width
+  - SuperOffice.CRM.Services.WindowPosSize.WindowPosSizeId
+  langs:
+  - csharp
+  - vb
+  name: WindowPosSize
+  nameWithType: WindowPosSize
+  fullName: SuperOffice.CRM.Services.WindowPosSize
+  type: Class
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWindow and dialog position and size settings\n<p></p>\nCarrier object for WindowPosSize.\nServices for the WindowPosSize Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IConfigurationAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet WindowPosSize 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ConfigurationAgent();\n    var windowPosSize = agent.GetWindowPosSize( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class WindowPosSize : Carrier'
+    content.vb: >-
+      Public Class WindowPosSize
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ConfigurationAgent
+    commentId: T:SuperOffice.CRM.Services.ConfigurationAgent
+  - linkId: SuperOffice.CRM.Services.IConfigurationAgent
+    commentId: T:SuperOffice.CRM.Services.IConfigurationAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.WindowPosSize.#ctor
+  commentId: M:SuperOffice.CRM.Services.WindowPosSize.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: WindowPosSize()
+  nameWithType: WindowPosSize.WindowPosSize()
+  fullName: SuperOffice.CRM.Services.WindowPosSize.WindowPosSize()
+  type: Constructor
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public WindowPosSize()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.WindowPosSize.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.WindowPosSize.ToString
+  commentId: M:SuperOffice.CRM.Services.WindowPosSize.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: WindowPosSize.ToString()
+  fullName: SuperOffice.CRM.Services.WindowPosSize.ToString()
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.WindowPosSize.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.WindowPosSize.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.WindowPosSize.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: WindowPosSize.ToString(String)
+  fullName: SuperOffice.CRM.Services.WindowPosSize.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.WindowPosSize.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.WindowPosSize.OwnerWindow
+  commentId: P:SuperOffice.CRM.Services.WindowPosSize.OwnerWindow
+  id: OwnerWindow
+  parent: SuperOffice.CRM.Services.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: OwnerWindow
+  nameWithType: WindowPosSize.OwnerWindow
+  fullName: SuperOffice.CRM.Services.WindowPosSize.OwnerWindow
+  type: Property
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe dialog, panel or whatever that owns this record \n"
+  syntax:
+    content: public virtual string OwnerWindow { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property OwnerWindow As String
+  overload: SuperOffice.CRM.Services.WindowPosSize.OwnerWindow*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WindowPosSize.PersonId
+  commentId: P:SuperOffice.CRM.Services.WindowPosSize.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Services.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: WindowPosSize.PersonId
+  fullName: SuperOffice.CRM.Services.WindowPosSize.PersonId
+  type: Property
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPerson id of the associate owning this window setting \n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.CRM.Services.WindowPosSize.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WindowPosSize.AssociateId
+  commentId: P:SuperOffice.CRM.Services.WindowPosSize.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Services.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: WindowPosSize.AssociateId
+  fullName: SuperOffice.CRM.Services.WindowPosSize.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAssociate id of the Associate/Person owning this window setting \n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.CRM.Services.WindowPosSize.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WindowPosSize.ExtraId
+  commentId: P:SuperOffice.CRM.Services.WindowPosSize.ExtraId
+  id: ExtraId
+  parent: SuperOffice.CRM.Services.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: ExtraId
+  nameWithType: WindowPosSize.ExtraId
+  fullName: SuperOffice.CRM.Services.WindowPosSize.ExtraId
+  type: Property
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSpare ID, not yet in use \n"
+  syntax:
+    content: public virtual int ExtraId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ExtraId As Integer
+  overload: SuperOffice.CRM.Services.WindowPosSize.ExtraId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WindowPosSize.ExtraInfo
+  commentId: P:SuperOffice.CRM.Services.WindowPosSize.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.CRM.Services.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: WindowPosSize.ExtraInfo
+  fullName: SuperOffice.CRM.Services.WindowPosSize.ExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nExtra information - show state, or whatever is required \n"
+  syntax:
+    content: public virtual string ExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraInfo As String
+  overload: SuperOffice.CRM.Services.WindowPosSize.ExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WindowPosSize.Height
+  commentId: P:SuperOffice.CRM.Services.WindowPosSize.Height
+  id: Height
+  parent: SuperOffice.CRM.Services.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: WindowPosSize.Height
+  fullName: SuperOffice.CRM.Services.WindowPosSize.Height
+  type: Property
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe height of the widget \n"
+  syntax:
+    content: public virtual int Height { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Height As Integer
+  overload: SuperOffice.CRM.Services.WindowPosSize.Height*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WindowPosSize.LeftX
+  commentId: P:SuperOffice.CRM.Services.WindowPosSize.LeftX
+  id: LeftX
+  parent: SuperOffice.CRM.Services.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: LeftX
+  nameWithType: WindowPosSize.LeftX
+  fullName: SuperOffice.CRM.Services.WindowPosSize.LeftX
+  type: Property
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nX of origin, left edge of widget \n"
+  syntax:
+    content: public virtual int LeftX { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property LeftX As Integer
+  overload: SuperOffice.CRM.Services.WindowPosSize.LeftX*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WindowPosSize.State
+  commentId: P:SuperOffice.CRM.Services.WindowPosSize.State
+  id: State
+  parent: SuperOffice.CRM.Services.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: WindowPosSize.State
+  fullName: SuperOffice.CRM.Services.WindowPosSize.State
+  type: Property
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNormal = 0, Maximized = 1, Minimized = 2 \n"
+  syntax:
+    content: public virtual ShowWindowState State { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.ShowWindowState
+    content.vb: Public Overridable Property State As ShowWindowState
+  overload: SuperOffice.CRM.Services.WindowPosSize.State*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WindowPosSize.UpperY
+  commentId: P:SuperOffice.CRM.Services.WindowPosSize.UpperY
+  id: UpperY
+  parent: SuperOffice.CRM.Services.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: UpperY
+  nameWithType: WindowPosSize.UpperY
+  fullName: SuperOffice.CRM.Services.WindowPosSize.UpperY
+  type: Property
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nY of origin, upper edge of widget \n"
+  syntax:
+    content: public virtual int UpperY { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UpperY As Integer
+  overload: SuperOffice.CRM.Services.WindowPosSize.UpperY*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WindowPosSize.Width
+  commentId: P:SuperOffice.CRM.Services.WindowPosSize.Width
+  id: Width
+  parent: SuperOffice.CRM.Services.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: WindowPosSize.Width
+  fullName: SuperOffice.CRM.Services.WindowPosSize.Width
+  type: Property
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe width of the widget \n"
+  syntax:
+    content: public virtual int Width { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Width As Integer
+  overload: SuperOffice.CRM.Services.WindowPosSize.Width*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WindowPosSize.WindowPosSizeId
+  commentId: P:SuperOffice.CRM.Services.WindowPosSize.WindowPosSizeId
+  id: WindowPosSizeId
+  parent: SuperOffice.CRM.Services.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: WindowPosSizeId
+  nameWithType: WindowPosSize.WindowPosSizeId
+  fullName: SuperOffice.CRM.Services.WindowPosSize.WindowPosSizeId
+  type: Property
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int WindowPosSizeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property WindowPosSizeId As Integer
+  overload: SuperOffice.CRM.Services.WindowPosSize.WindowPosSizeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.ConfigurationAgent
+  commentId: T:SuperOffice.CRM.Services.ConfigurationAgent
+  isExternal: true
+  name: ConfigurationAgent
+  nameWithType: ConfigurationAgent
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent
+- uid: SuperOffice.CRM.Services.IConfigurationAgent
+  commentId: T:SuperOffice.CRM.Services.IConfigurationAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IConfigurationAgent
+  nameWithType: IConfigurationAgent
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.WindowPosSize.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.WindowPosSize.#ctor
+  isExternal: true
+  name: WindowPosSize
+  nameWithType: WindowPosSize.WindowPosSize
+  fullName: SuperOffice.CRM.Services.WindowPosSize.WindowPosSize
+- uid: SuperOffice.CRM.Services.WindowPosSize.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.WindowPosSize.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: WindowPosSize.ToString
+  fullName: SuperOffice.CRM.Services.WindowPosSize.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.WindowPosSize.OwnerWindow*
+  commentId: Overload:SuperOffice.CRM.Services.WindowPosSize.OwnerWindow
+  isExternal: true
+  name: OwnerWindow
+  nameWithType: WindowPosSize.OwnerWindow
+  fullName: SuperOffice.CRM.Services.WindowPosSize.OwnerWindow
+- uid: SuperOffice.CRM.Services.WindowPosSize.PersonId*
+  commentId: Overload:SuperOffice.CRM.Services.WindowPosSize.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: WindowPosSize.PersonId
+  fullName: SuperOffice.CRM.Services.WindowPosSize.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.WindowPosSize.AssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.WindowPosSize.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: WindowPosSize.AssociateId
+  fullName: SuperOffice.CRM.Services.WindowPosSize.AssociateId
+- uid: SuperOffice.CRM.Services.WindowPosSize.ExtraId*
+  commentId: Overload:SuperOffice.CRM.Services.WindowPosSize.ExtraId
+  isExternal: true
+  name: ExtraId
+  nameWithType: WindowPosSize.ExtraId
+  fullName: SuperOffice.CRM.Services.WindowPosSize.ExtraId
+- uid: SuperOffice.CRM.Services.WindowPosSize.ExtraInfo*
+  commentId: Overload:SuperOffice.CRM.Services.WindowPosSize.ExtraInfo
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: WindowPosSize.ExtraInfo
+  fullName: SuperOffice.CRM.Services.WindowPosSize.ExtraInfo
+- uid: SuperOffice.CRM.Services.WindowPosSize.Height*
+  commentId: Overload:SuperOffice.CRM.Services.WindowPosSize.Height
+  isExternal: true
+  name: Height
+  nameWithType: WindowPosSize.Height
+  fullName: SuperOffice.CRM.Services.WindowPosSize.Height
+- uid: SuperOffice.CRM.Services.WindowPosSize.LeftX*
+  commentId: Overload:SuperOffice.CRM.Services.WindowPosSize.LeftX
+  isExternal: true
+  name: LeftX
+  nameWithType: WindowPosSize.LeftX
+  fullName: SuperOffice.CRM.Services.WindowPosSize.LeftX
+- uid: SuperOffice.CRM.Services.WindowPosSize.State*
+  commentId: Overload:SuperOffice.CRM.Services.WindowPosSize.State
+  isExternal: true
+  name: State
+  nameWithType: WindowPosSize.State
+  fullName: SuperOffice.CRM.Services.WindowPosSize.State
+- uid: SuperOffice.Data.ShowWindowState
+  commentId: '!:SuperOffice.Data.ShowWindowState'
+  isExternal: true
+  name: ShowWindowState
+  nameWithType: ShowWindowState
+  fullName: SuperOffice.Data.ShowWindowState
+- uid: SuperOffice.CRM.Services.WindowPosSize.UpperY*
+  commentId: Overload:SuperOffice.CRM.Services.WindowPosSize.UpperY
+  isExternal: true
+  name: UpperY
+  nameWithType: WindowPosSize.UpperY
+  fullName: SuperOffice.CRM.Services.WindowPosSize.UpperY
+- uid: SuperOffice.CRM.Services.WindowPosSize.Width*
+  commentId: Overload:SuperOffice.CRM.Services.WindowPosSize.Width
+  isExternal: true
+  name: Width
+  nameWithType: WindowPosSize.Width
+  fullName: SuperOffice.CRM.Services.WindowPosSize.Width
+- uid: SuperOffice.CRM.Services.WindowPosSize.WindowPosSizeId*
+  commentId: Overload:SuperOffice.CRM.Services.WindowPosSize.WindowPosSizeId
+  isExternal: true
+  name: WindowPosSizeId
+  nameWithType: WindowPosSize.WindowPosSizeId
+  fullName: SuperOffice.CRM.Services.WindowPosSize.WindowPosSizeId

@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest
+  id: EMail_MoveEmailsToFolderRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest.EmailItemIds
+  - SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest.FolderId
+  langs:
+  - csharp
+  - vb
+  name: EMail_MoveEmailsToFolderRequest
+  nameWithType: EMail_MoveEmailsToFolderRequest
+  fullName: SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_MoveEmailsToFolderRequest : Object'
+    content.vb: >-
+      Public Class EMail_MoveEmailsToFolderRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_MoveEmailsToFolderRequest()
+  nameWithType: EMail_MoveEmailsToFolderRequest.EMail_MoveEmailsToFolderRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest.EMail_MoveEmailsToFolderRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_MoveEmailsToFolderRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest.FolderId
+  commentId: P:SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest.FolderId
+  id: FolderId
+  parent: SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest
+  langs:
+  - csharp
+  - vb
+  name: FolderId
+  nameWithType: EMail_MoveEmailsToFolderRequest.FolderId
+  fullName: SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest.FolderId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int FolderId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FolderId As Integer
+  overload: SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest.FolderId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest.EmailItemIds
+  commentId: P:SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest.EmailItemIds
+  id: EmailItemIds
+  parent: SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest
+  langs:
+  - csharp
+  - vb
+  name: EmailItemIds
+  nameWithType: EMail_MoveEmailsToFolderRequest.EmailItemIds
+  fullName: SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest.EmailItemIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] EmailItemIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property EmailItemIds As Integer()
+  overload: SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest.EmailItemIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest.#ctor
+  isExternal: true
+  name: EMail_MoveEmailsToFolderRequest
+  nameWithType: EMail_MoveEmailsToFolderRequest.EMail_MoveEmailsToFolderRequest
+  fullName: SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest.EMail_MoveEmailsToFolderRequest
+- uid: SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest.FolderId*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest.FolderId
+  isExternal: true
+  name: FolderId
+  nameWithType: EMail_MoveEmailsToFolderRequest.FolderId
+  fullName: SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest.FolderId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest.EmailItemIds*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest.EmailItemIds
+  isExternal: true
+  name: EmailItemIds
+  nameWithType: EMail_MoveEmailsToFolderRequest.EmailItemIds
+  fullName: SuperOffice.WebApi.Data.EMail_MoveEmailsToFolderRequest.EmailItemIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

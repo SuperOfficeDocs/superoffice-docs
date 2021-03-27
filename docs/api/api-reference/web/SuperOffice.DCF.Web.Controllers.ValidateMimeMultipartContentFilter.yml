@@ -1,0 +1,171 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter
+  commentId: T:SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter
+  id: ValidateMimeMultipartContentFilter
+  parent: SuperOffice.DCF.Web.Controllers
+  children:
+  - SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.#ctor
+  - SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.OnActionExecuted(System.Web.Http.Filters.HttpActionExecutedContext)
+  - SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.OnActionExecuting(System.Web.Http.Controllers.HttpActionContext)
+  langs:
+  - csharp
+  - vb
+  name: ValidateMimeMultipartContentFilter
+  nameWithType: ValidateMimeMultipartContentFilter
+  fullName: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Controllers
+  syntax:
+    content: 'public class ValidateMimeMultipartContentFilter : ActionFilterAttribute'
+    content.vb: >-
+      Public Class ValidateMimeMultipartContentFilter
+          Inherits ActionFilterAttribute
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.OnActionExecuting(System.Web.Http.Controllers.HttpActionContext)
+  commentId: M:SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.OnActionExecuting(System.Web.Http.Controllers.HttpActionContext)
+  id: OnActionExecuting(System.Web.Http.Controllers.HttpActionContext)
+  parent: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter
+  langs:
+  - csharp
+  - vb
+  name: OnActionExecuting(HttpActionContext)
+  nameWithType: ValidateMimeMultipartContentFilter.OnActionExecuting(HttpActionContext)
+  fullName: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.OnActionExecuting(System.Web.Http.Controllers.HttpActionContext)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Controllers
+  syntax:
+    content: public override void OnActionExecuting(HttpActionContext actionContext)
+    parameters:
+    - id: actionContext
+      type: System.Web.Http.Controllers.HttpActionContext
+    content.vb: Public Overrides Sub OnActionExecuting(actionContext As HttpActionContext)
+  overload: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.OnActionExecuting*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.OnActionExecuted(System.Web.Http.Filters.HttpActionExecutedContext)
+  commentId: M:SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.OnActionExecuted(System.Web.Http.Filters.HttpActionExecutedContext)
+  id: OnActionExecuted(System.Web.Http.Filters.HttpActionExecutedContext)
+  parent: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter
+  langs:
+  - csharp
+  - vb
+  name: OnActionExecuted(HttpActionExecutedContext)
+  nameWithType: ValidateMimeMultipartContentFilter.OnActionExecuted(HttpActionExecutedContext)
+  fullName: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.OnActionExecuted(System.Web.Http.Filters.HttpActionExecutedContext)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Controllers
+  syntax:
+    content: public override void OnActionExecuted(HttpActionExecutedContext actionExecutedContext)
+    parameters:
+    - id: actionExecutedContext
+      type: System.Web.Http.Filters.HttpActionExecutedContext
+    content.vb: Public Overrides Sub OnActionExecuted(actionExecutedContext As HttpActionExecutedContext)
+  overload: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.OnActionExecuted*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.#ctor
+  commentId: M:SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter
+  langs:
+  - csharp
+  - vb
+  name: ValidateMimeMultipartContentFilter()
+  nameWithType: ValidateMimeMultipartContentFilter.ValidateMimeMultipartContentFilter()
+  fullName: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.ValidateMimeMultipartContentFilter()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Controllers
+  syntax:
+    content: public ValidateMimeMultipartContentFilter()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.Controllers
+  commentId: N:SuperOffice.DCF.Web.Controllers
+  isExternal: true
+  name: SuperOffice.DCF.Web.Controllers
+  nameWithType: SuperOffice.DCF.Web.Controllers
+  fullName: SuperOffice.DCF.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.OnActionExecuting*
+  commentId: Overload:SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.OnActionExecuting
+  isExternal: true
+  name: OnActionExecuting
+  nameWithType: ValidateMimeMultipartContentFilter.OnActionExecuting
+  fullName: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.OnActionExecuting
+- uid: System.Web.Http.Controllers.HttpActionContext
+  commentId: '!:System.Web.Http.Controllers.HttpActionContext'
+  isExternal: true
+  name: HttpActionContext
+  nameWithType: HttpActionContext
+  fullName: System.Web.Http.Controllers.HttpActionContext
+- uid: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.OnActionExecuted*
+  commentId: Overload:SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.OnActionExecuted
+  isExternal: true
+  name: OnActionExecuted
+  nameWithType: ValidateMimeMultipartContentFilter.OnActionExecuted
+  fullName: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.OnActionExecuted
+- uid: System.Web.Http.Filters.HttpActionExecutedContext
+  commentId: '!:System.Web.Http.Filters.HttpActionExecutedContext'
+  isExternal: true
+  name: HttpActionExecutedContext
+  nameWithType: HttpActionExecutedContext
+  fullName: System.Web.Http.Filters.HttpActionExecutedContext
+- uid: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.#ctor
+  isExternal: true
+  name: ValidateMimeMultipartContentFilter
+  nameWithType: ValidateMimeMultipartContentFilter.ValidateMimeMultipartContentFilter
+  fullName: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter.ValidateMimeMultipartContentFilter

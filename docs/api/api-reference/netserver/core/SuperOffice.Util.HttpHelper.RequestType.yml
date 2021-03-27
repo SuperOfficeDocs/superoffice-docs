@@ -1,0 +1,500 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.HttpHelper.RequestType
+  commentId: T:SuperOffice.Util.HttpHelper.RequestType
+  id: HttpHelper.RequestType
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.HttpHelper.RequestType.DELETE
+  - SuperOffice.Util.HttpHelper.RequestType.GET
+  - SuperOffice.Util.HttpHelper.RequestType.POST
+  - SuperOffice.Util.HttpHelper.RequestType.PUT
+  langs:
+  - csharp
+  - vb
+  name: HttpHelper.RequestType
+  nameWithType: HttpHelper.RequestType
+  fullName: SuperOffice.Util.HttpHelper.RequestType
+  type: Enum
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public enum RequestType
+    content.vb: Public Enum RequestType
+  extensionMethods:
+  - SuperOffice.Util.HttpHelper.RequestType.EnumUtil.MapEnums``2
+  - SuperOffice.Util.HttpHelper.RequestType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.HttpHelper.RequestType)
+  - SuperOffice.Util.HttpHelper.RequestType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Util.HttpHelper.RequestType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Util.HttpHelper.RequestType.GET
+  commentId: F:SuperOffice.Util.HttpHelper.RequestType.GET
+  id: GET
+  parent: SuperOffice.Util.HttpHelper.RequestType
+  langs:
+  - csharp
+  - vb
+  name: GET
+  nameWithType: HttpHelper.RequestType.GET
+  fullName: SuperOffice.Util.HttpHelper.RequestType.GET
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: GET = 0
+    return:
+      type: SuperOffice.Util.HttpHelper.RequestType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.HttpHelper.RequestType.PUT
+  commentId: F:SuperOffice.Util.HttpHelper.RequestType.PUT
+  id: PUT
+  parent: SuperOffice.Util.HttpHelper.RequestType
+  langs:
+  - csharp
+  - vb
+  name: PUT
+  nameWithType: HttpHelper.RequestType.PUT
+  fullName: SuperOffice.Util.HttpHelper.RequestType.PUT
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: PUT = 1
+    return:
+      type: SuperOffice.Util.HttpHelper.RequestType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.HttpHelper.RequestType.POST
+  commentId: F:SuperOffice.Util.HttpHelper.RequestType.POST
+  id: POST
+  parent: SuperOffice.Util.HttpHelper.RequestType
+  langs:
+  - csharp
+  - vb
+  name: POST
+  nameWithType: HttpHelper.RequestType.POST
+  fullName: SuperOffice.Util.HttpHelper.RequestType.POST
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: POST = 2
+    return:
+      type: SuperOffice.Util.HttpHelper.RequestType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.HttpHelper.RequestType.DELETE
+  commentId: F:SuperOffice.Util.HttpHelper.RequestType.DELETE
+  id: DELETE
+  parent: SuperOffice.Util.HttpHelper.RequestType
+  langs:
+  - csharp
+  - vb
+  name: DELETE
+  nameWithType: HttpHelper.RequestType.DELETE
+  fullName: SuperOffice.Util.HttpHelper.RequestType.DELETE
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: DELETE = 3
+    return:
+      type: SuperOffice.Util.HttpHelper.RequestType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.Util.HttpHelper.RequestType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<HttpHelper.RequestType, To>()
+  nameWithType: EnumUtil.MapEnums<HttpHelper.RequestType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.HttpHelper.RequestType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of HttpHelper.RequestType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.HttpHelper.RequestType, To)()
+  name.vb: MapEnums(Of HttpHelper.RequestType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<HttpHelper.RequestType, To>
+    nameWithType: EnumUtil.MapEnums<HttpHelper.RequestType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.HttpHelper.RequestType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of HttpHelper.RequestType, To)
+    nameWithType: EnumUtil.MapEnums(Of HttpHelper.RequestType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.HttpHelper.RequestType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.HttpHelper.RequestType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.HttpHelper.RequestType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<HttpHelper.RequestType>(HttpHelper.RequestType)
+  nameWithType: ObjectExtensions.AssignByReflection<HttpHelper.RequestType>(HttpHelper.RequestType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.HttpHelper.RequestType>(SuperOffice.Util.HttpHelper.RequestType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of HttpHelper.RequestType)(HttpHelper.RequestType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.HttpHelper.RequestType)(SuperOffice.Util.HttpHelper.RequestType)
+  name.vb: AssignByReflection(Of HttpHelper.RequestType)(HttpHelper.RequestType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<HttpHelper.RequestType>
+    nameWithType: ObjectExtensions.AssignByReflection<HttpHelper.RequestType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.HttpHelper.RequestType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Util.HttpHelper.RequestType
+    name: HttpHelper.RequestType
+    nameWithType: HttpHelper.RequestType
+    fullName: SuperOffice.Util.HttpHelper.RequestType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of HttpHelper.RequestType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of HttpHelper.RequestType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.HttpHelper.RequestType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Util.HttpHelper.RequestType
+    name: HttpHelper.RequestType
+    nameWithType: HttpHelper.RequestType
+    fullName: SuperOffice.Util.HttpHelper.RequestType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.HttpHelper.RequestType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<HttpHelper.RequestType>()
+  nameWithType: ObjectExtensions.GraphCopy<HttpHelper.RequestType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.HttpHelper.RequestType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of HttpHelper.RequestType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.HttpHelper.RequestType)()
+  name.vb: GraphCopy(Of HttpHelper.RequestType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<HttpHelper.RequestType>
+    nameWithType: ObjectExtensions.GraphCopy<HttpHelper.RequestType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.HttpHelper.RequestType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of HttpHelper.RequestType)
+    nameWithType: ObjectExtensions.GraphCopy(Of HttpHelper.RequestType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.HttpHelper.RequestType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.HttpHelper.RequestType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<HttpHelper.RequestType, To>()
+  nameWithType: Converters.MapEnums<HttpHelper.RequestType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.HttpHelper.RequestType, To>()
+  nameWithType.vb: Converters.MapEnums(Of HttpHelper.RequestType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.HttpHelper.RequestType, To)()
+  name.vb: MapEnums(Of HttpHelper.RequestType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<HttpHelper.RequestType, To>
+    nameWithType: Converters.MapEnums<HttpHelper.RequestType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.HttpHelper.RequestType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of HttpHelper.RequestType, To)
+    nameWithType: Converters.MapEnums(Of HttpHelper.RequestType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.HttpHelper.RequestType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Util.HttpHelper.RequestType
+  commentId: T:SuperOffice.Util.HttpHelper.RequestType
+  parent: SuperOffice.Util
+  isExternal: true
+  name: HttpHelper.RequestType
+  nameWithType: HttpHelper.RequestType
+  fullName: SuperOffice.Util.HttpHelper.RequestType

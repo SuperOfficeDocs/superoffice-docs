@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_SaveQuoteEntityRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_SaveQuoteEntityRequest
+  id: Quote_SaveQuoteEntityRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_SaveQuoteEntityRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_SaveQuoteEntityRequest.QuoteEntity
+  langs:
+  - csharp
+  - vb
+  name: Quote_SaveQuoteEntityRequest
+  nameWithType: Quote_SaveQuoteEntityRequest
+  fullName: SuperOffice.WebApi.Data.Quote_SaveQuoteEntityRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_SaveQuoteEntityRequest : Object'
+    content.vb: >-
+      Public Class Quote_SaveQuoteEntityRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_SaveQuoteEntityRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_SaveQuoteEntityRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_SaveQuoteEntityRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_SaveQuoteEntityRequest()
+  nameWithType: Quote_SaveQuoteEntityRequest.Quote_SaveQuoteEntityRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_SaveQuoteEntityRequest.Quote_SaveQuoteEntityRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_SaveQuoteEntityRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_SaveQuoteEntityRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_SaveQuoteEntityRequest.QuoteEntity
+  commentId: P:SuperOffice.WebApi.Data.Quote_SaveQuoteEntityRequest.QuoteEntity
+  id: QuoteEntity
+  parent: SuperOffice.WebApi.Data.Quote_SaveQuoteEntityRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteEntity
+  nameWithType: Quote_SaveQuoteEntityRequest.QuoteEntity
+  fullName: SuperOffice.WebApi.Data.Quote_SaveQuoteEntityRequest.QuoteEntity
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public QuoteEntity QuoteEntity { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.QuoteEntity
+    content.vb: Public Property QuoteEntity As QuoteEntity
+  overload: SuperOffice.WebApi.Data.Quote_SaveQuoteEntityRequest.QuoteEntity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_SaveQuoteEntityRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_SaveQuoteEntityRequest.#ctor
+  isExternal: true
+  name: Quote_SaveQuoteEntityRequest
+  nameWithType: Quote_SaveQuoteEntityRequest.Quote_SaveQuoteEntityRequest
+  fullName: SuperOffice.WebApi.Data.Quote_SaveQuoteEntityRequest.Quote_SaveQuoteEntityRequest
+- uid: SuperOffice.WebApi.Data.Quote_SaveQuoteEntityRequest.QuoteEntity*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_SaveQuoteEntityRequest.QuoteEntity
+  isExternal: true
+  name: QuoteEntity
+  nameWithType: Quote_SaveQuoteEntityRequest.QuoteEntity
+  fullName: SuperOffice.WebApi.Data.Quote_SaveQuoteEntityRequest.QuoteEntity
+- uid: SuperOffice.WebApi.Data.QuoteEntity
+  commentId: T:SuperOffice.WebApi.Data.QuoteEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: QuoteEntity
+  nameWithType: QuoteEntity
+  fullName: SuperOffice.WebApi.Data.QuoteEntity

@@ -1,0 +1,1016 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  commentId: T:SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  id: SoToolButtonSimple
+  parent: SuperOffice.Web.UI.Controls
+  children:
+  - SuperOffice.Web.UI.Controls.SoToolButtonSimple.#ctor
+  - SuperOffice.Web.UI.Controls.SoToolButtonSimple.Attributes
+  - SuperOffice.Web.UI.Controls.SoToolButtonSimple.Caption
+  - SuperOffice.Web.UI.Controls.SoToolButtonSimple.Disabled
+  - SuperOffice.Web.UI.Controls.SoToolButtonSimple.HyperLinkAttributes
+  - SuperOffice.Web.UI.Controls.SoToolButtonSimple.HypertextClientID
+  - SuperOffice.Web.UI.Controls.SoToolButtonSimple.Icon
+  - SuperOffice.Web.UI.Controls.SoToolButtonSimple.IconDisabled
+  - SuperOffice.Web.UI.Controls.SoToolButtonSimple.IconHover
+  - SuperOffice.Web.UI.Controls.SoToolButtonSimple.IconSelected
+  - SuperOffice.Web.UI.Controls.SoToolButtonSimple.ImageAttributes
+  - SuperOffice.Web.UI.Controls.SoToolButtonSimple.ImageClientID
+  - SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnClick
+  - SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnLoad(System.EventArgs)
+  - SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnServerClick(System.EventArgs)
+  - SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnTextClick
+  - SuperOffice.Web.UI.Controls.SoToolButtonSimple.ReadOnly
+  - SuperOffice.Web.UI.Controls.SoToolButtonSimple.Render(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoToolButtonSimple.ServerClick
+  - SuperOffice.Web.UI.Controls.SoToolButtonSimple.TableAttributes
+  - SuperOffice.Web.UI.Controls.SoToolButtonSimple.TextAlignment
+  - SuperOffice.Web.UI.Controls.SoToolButtonSimple.TextTooltip
+  - SuperOffice.Web.UI.Controls.SoToolButtonSimple.Tooltip
+  - SuperOffice.Web.UI.Controls.SoToolButtonSimple.Width
+  langs:
+  - csharp
+  - vb
+  name: SoToolButtonSimple
+  nameWithType: SoToolButtonSimple
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  type: Class
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: 'public class SoToolButtonSimple : Control'
+    content.vb: >-
+      Public Class SoToolButtonSimple
+          Inherits Control
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnLoad(System.EventArgs)
+  commentId: M:SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnLoad(System.EventArgs)
+  id: OnLoad(System.EventArgs)
+  parent: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  langs:
+  - csharp
+  - vb
+  name: OnLoad(EventArgs)
+  nameWithType: SoToolButtonSimple.OnLoad(EventArgs)
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnLoad(System.EventArgs)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected override void OnLoad(EventArgs e)
+    parameters:
+    - id: e
+      type: System.EventArgs
+    content.vb: Protected Overrides Sub OnLoad(e As EventArgs)
+  overload: SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnLoad*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoToolButtonSimple.Render(System.Web.UI.HtmlTextWriter)
+  id: Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  langs:
+  - csharp
+  - vb
+  name: Render(HtmlTextWriter)
+  nameWithType: SoToolButtonSimple.Render(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Render(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected override void Render(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overrides Sub Render(writer As HtmlTextWriter)
+  overload: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Render*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnServerClick(System.EventArgs)
+  commentId: M:SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnServerClick(System.EventArgs)
+  id: OnServerClick(System.EventArgs)
+  parent: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  langs:
+  - csharp
+  - vb
+  name: OnServerClick(EventArgs)
+  nameWithType: SoToolButtonSimple.OnServerClick(EventArgs)
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnServerClick(System.EventArgs)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected virtual void OnServerClick(EventArgs e)
+    parameters:
+    - id: e
+      type: System.EventArgs
+    content.vb: Protected Overridable Sub OnServerClick(e As EventArgs)
+  overload: SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnServerClick*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.#ctor
+  commentId: M:SuperOffice.Web.UI.Controls.SoToolButtonSimple.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  langs:
+  - csharp
+  - vb
+  name: SoToolButtonSimple()
+  nameWithType: SoToolButtonSimple.SoToolButtonSimple()
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.SoToolButtonSimple()
+  type: Constructor
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public SoToolButtonSimple()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.UI.Controls.SoToolButtonSimple.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.ImageAttributes
+  commentId: P:SuperOffice.Web.UI.Controls.SoToolButtonSimple.ImageAttributes
+  id: ImageAttributes
+  parent: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  langs:
+  - csharp
+  - vb
+  name: ImageAttributes
+  nameWithType: SoToolButtonSimple.ImageAttributes
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.ImageAttributes
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual AttributeCollection ImageAttributes { get; }
+    parameters: []
+    return:
+      type: System.Web.UI.AttributeCollection
+    content.vb: Public Overridable ReadOnly Property ImageAttributes As AttributeCollection
+  overload: SuperOffice.Web.UI.Controls.SoToolButtonSimple.ImageAttributes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.HyperLinkAttributes
+  commentId: P:SuperOffice.Web.UI.Controls.SoToolButtonSimple.HyperLinkAttributes
+  id: HyperLinkAttributes
+  parent: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  langs:
+  - csharp
+  - vb
+  name: HyperLinkAttributes
+  nameWithType: SoToolButtonSimple.HyperLinkAttributes
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.HyperLinkAttributes
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual AttributeCollection HyperLinkAttributes { get; }
+    parameters: []
+    return:
+      type: System.Web.UI.AttributeCollection
+    content.vb: Public Overridable ReadOnly Property HyperLinkAttributes As AttributeCollection
+  overload: SuperOffice.Web.UI.Controls.SoToolButtonSimple.HyperLinkAttributes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Attributes
+  commentId: P:SuperOffice.Web.UI.Controls.SoToolButtonSimple.Attributes
+  id: Attributes
+  parent: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  langs:
+  - csharp
+  - vb
+  name: Attributes
+  nameWithType: SoToolButtonSimple.Attributes
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Attributes
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual AttributeCollection Attributes { get; }
+    parameters: []
+    return:
+      type: System.Web.UI.AttributeCollection
+    content.vb: Public Overridable ReadOnly Property Attributes As AttributeCollection
+  overload: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Attributes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.TableAttributes
+  commentId: P:SuperOffice.Web.UI.Controls.SoToolButtonSimple.TableAttributes
+  id: TableAttributes
+  parent: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  langs:
+  - csharp
+  - vb
+  name: TableAttributes
+  nameWithType: SoToolButtonSimple.TableAttributes
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.TableAttributes
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual AttributeCollection TableAttributes { get; }
+    parameters: []
+    return:
+      type: System.Web.UI.AttributeCollection
+    content.vb: Public Overridable ReadOnly Property TableAttributes As AttributeCollection
+  overload: SuperOffice.Web.UI.Controls.SoToolButtonSimple.TableAttributes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.TextAlignment
+  commentId: P:SuperOffice.Web.UI.Controls.SoToolButtonSimple.TextAlignment
+  id: TextAlignment
+  parent: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  langs:
+  - csharp
+  - vb
+  name: TextAlignment
+  nameWithType: SoToolButtonSimple.TextAlignment
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.TextAlignment
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual SoToolButtonSimple.TextAlign TextAlignment { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Web.UI.Controls.SoToolButtonSimple.TextAlign
+    content.vb: Public Overridable Property TextAlignment As SoToolButtonSimple.TextAlign
+  overload: SuperOffice.Web.UI.Controls.SoToolButtonSimple.TextAlignment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Width
+  commentId: P:SuperOffice.Web.UI.Controls.SoToolButtonSimple.Width
+  id: Width
+  parent: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: SoToolButtonSimple.Width
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Width
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual int Width { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Width As Integer
+  overload: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Width*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Disabled
+  commentId: P:SuperOffice.Web.UI.Controls.SoToolButtonSimple.Disabled
+  id: Disabled
+  parent: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  langs:
+  - csharp
+  - vb
+  name: Disabled
+  nameWithType: SoToolButtonSimple.Disabled
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Disabled
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual bool Disabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Disabled As Boolean
+  overload: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Disabled*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.ReadOnly
+  commentId: P:SuperOffice.Web.UI.Controls.SoToolButtonSimple.ReadOnly
+  id: ReadOnly
+  parent: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  langs:
+  - csharp
+  - vb
+  name: ReadOnly
+  nameWithType: SoToolButtonSimple.ReadOnly
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.ReadOnly
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual bool ReadOnly { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property ReadOnly As Boolean
+  overload: SuperOffice.Web.UI.Controls.SoToolButtonSimple.ReadOnly*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Icon
+  commentId: P:SuperOffice.Web.UI.Controls.SoToolButtonSimple.Icon
+  id: Icon
+  parent: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  langs:
+  - csharp
+  - vb
+  name: Icon
+  nameWithType: SoToolButtonSimple.Icon
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Icon
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual string Icon { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Icon As String
+  overload: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Icon*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.IconHover
+  commentId: P:SuperOffice.Web.UI.Controls.SoToolButtonSimple.IconHover
+  id: IconHover
+  parent: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  langs:
+  - csharp
+  - vb
+  name: IconHover
+  nameWithType: SoToolButtonSimple.IconHover
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.IconHover
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual string IconHover { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property IconHover As String
+  overload: SuperOffice.Web.UI.Controls.SoToolButtonSimple.IconHover*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.IconSelected
+  commentId: P:SuperOffice.Web.UI.Controls.SoToolButtonSimple.IconSelected
+  id: IconSelected
+  parent: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  langs:
+  - csharp
+  - vb
+  name: IconSelected
+  nameWithType: SoToolButtonSimple.IconSelected
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.IconSelected
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual string IconSelected { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property IconSelected As String
+  overload: SuperOffice.Web.UI.Controls.SoToolButtonSimple.IconSelected*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.IconDisabled
+  commentId: P:SuperOffice.Web.UI.Controls.SoToolButtonSimple.IconDisabled
+  id: IconDisabled
+  parent: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  langs:
+  - csharp
+  - vb
+  name: IconDisabled
+  nameWithType: SoToolButtonSimple.IconDisabled
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.IconDisabled
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual string IconDisabled { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property IconDisabled As String
+  overload: SuperOffice.Web.UI.Controls.SoToolButtonSimple.IconDisabled*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Caption
+  commentId: P:SuperOffice.Web.UI.Controls.SoToolButtonSimple.Caption
+  id: Caption
+  parent: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  langs:
+  - csharp
+  - vb
+  name: Caption
+  nameWithType: SoToolButtonSimple.Caption
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Caption
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual string Caption { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Caption As String
+  overload: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Caption*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Tooltip
+  commentId: P:SuperOffice.Web.UI.Controls.SoToolButtonSimple.Tooltip
+  id: Tooltip
+  parent: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: SoToolButtonSimple.Tooltip
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.TextTooltip
+  commentId: P:SuperOffice.Web.UI.Controls.SoToolButtonSimple.TextTooltip
+  id: TextTooltip
+  parent: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  langs:
+  - csharp
+  - vb
+  name: TextTooltip
+  nameWithType: SoToolButtonSimple.TextTooltip
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.TextTooltip
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual string TextTooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TextTooltip As String
+  overload: SuperOffice.Web.UI.Controls.SoToolButtonSimple.TextTooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnClick
+  commentId: P:SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnClick
+  id: OnClick
+  parent: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  langs:
+  - csharp
+  - vb
+  name: OnClick
+  nameWithType: SoToolButtonSimple.OnClick
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnClick
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual string OnClick { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property OnClick As String
+  overload: SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnClick*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnTextClick
+  commentId: P:SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnTextClick
+  id: OnTextClick
+  parent: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  langs:
+  - csharp
+  - vb
+  name: OnTextClick
+  nameWithType: SoToolButtonSimple.OnTextClick
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnTextClick
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual string OnTextClick { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property OnTextClick As String
+  overload: SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnTextClick*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.HypertextClientID
+  commentId: P:SuperOffice.Web.UI.Controls.SoToolButtonSimple.HypertextClientID
+  id: HypertextClientID
+  parent: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  langs:
+  - csharp
+  - vb
+  name: HypertextClientID
+  nameWithType: SoToolButtonSimple.HypertextClientID
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.HypertextClientID
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual string HypertextClientID { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable ReadOnly Property HypertextClientID As String
+  overload: SuperOffice.Web.UI.Controls.SoToolButtonSimple.HypertextClientID*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.ImageClientID
+  commentId: P:SuperOffice.Web.UI.Controls.SoToolButtonSimple.ImageClientID
+  id: ImageClientID
+  parent: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  langs:
+  - csharp
+  - vb
+  name: ImageClientID
+  nameWithType: SoToolButtonSimple.ImageClientID
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.ImageClientID
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual string ImageClientID { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable ReadOnly Property ImageClientID As String
+  overload: SuperOffice.Web.UI.Controls.SoToolButtonSimple.ImageClientID*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.ServerClick
+  commentId: E:SuperOffice.Web.UI.Controls.SoToolButtonSimple.ServerClick
+  id: ServerClick
+  parent: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+  langs:
+  - csharp
+  - vb
+  name: ServerClick
+  nameWithType: SoToolButtonSimple.ServerClick
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.ServerClick
+  type: Event
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public event SoToolButtonSimple.ServerClickEventHandler ServerClick
+    return:
+      type: SuperOffice.Web.UI.Controls.SoToolButtonSimple.ServerClickEventHandler
+    content.vb: Public Event ServerClick As SoToolButtonSimple.ServerClickEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Web.UI.Controls
+  commentId: N:SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.Web.UI.Controls
+  nameWithType: SuperOffice.Web.UI.Controls
+  fullName: SuperOffice.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnLoad*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnLoad
+  isExternal: true
+  name: OnLoad
+  nameWithType: SoToolButtonSimple.OnLoad
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnLoad
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Render*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolButtonSimple.Render
+  isExternal: true
+  name: Render
+  nameWithType: SoToolButtonSimple.Render
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Render
+- uid: System.Web.UI.HtmlTextWriter
+  isExternal: true
+  name: HtmlTextWriter
+  nameWithType: HtmlTextWriter
+  fullName: System.Web.UI.HtmlTextWriter
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnServerClick*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnServerClick
+  isExternal: true
+  name: OnServerClick
+  nameWithType: SoToolButtonSimple.OnServerClick
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnServerClick
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.#ctor*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolButtonSimple.#ctor
+  isExternal: true
+  name: SoToolButtonSimple
+  nameWithType: SoToolButtonSimple.SoToolButtonSimple
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.SoToolButtonSimple
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.ImageAttributes*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolButtonSimple.ImageAttributes
+  isExternal: true
+  name: ImageAttributes
+  nameWithType: SoToolButtonSimple.ImageAttributes
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.ImageAttributes
+- uid: System.Web.UI.AttributeCollection
+  isExternal: true
+  name: AttributeCollection
+  nameWithType: AttributeCollection
+  fullName: System.Web.UI.AttributeCollection
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.HyperLinkAttributes*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolButtonSimple.HyperLinkAttributes
+  isExternal: true
+  name: HyperLinkAttributes
+  nameWithType: SoToolButtonSimple.HyperLinkAttributes
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.HyperLinkAttributes
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Attributes*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolButtonSimple.Attributes
+  isExternal: true
+  name: Attributes
+  nameWithType: SoToolButtonSimple.Attributes
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Attributes
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.TableAttributes*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolButtonSimple.TableAttributes
+  isExternal: true
+  name: TableAttributes
+  nameWithType: SoToolButtonSimple.TableAttributes
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.TableAttributes
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.TextAlignment*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolButtonSimple.TextAlignment
+  isExternal: true
+  name: TextAlignment
+  nameWithType: SoToolButtonSimple.TextAlignment
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.TextAlignment
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.TextAlign
+  commentId: T:SuperOffice.Web.UI.Controls.SoToolButtonSimple.TextAlign
+  parent: SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SoToolButtonSimple.TextAlign
+  nameWithType: SoToolButtonSimple.TextAlign
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.TextAlign
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Width*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolButtonSimple.Width
+  isExternal: true
+  name: Width
+  nameWithType: SoToolButtonSimple.Width
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Width
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Disabled*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolButtonSimple.Disabled
+  isExternal: true
+  name: Disabled
+  nameWithType: SoToolButtonSimple.Disabled
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Disabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.ReadOnly*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolButtonSimple.ReadOnly
+  isExternal: true
+  name: ReadOnly
+  nameWithType: SoToolButtonSimple.ReadOnly
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.ReadOnly
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Icon*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolButtonSimple.Icon
+  isExternal: true
+  name: Icon
+  nameWithType: SoToolButtonSimple.Icon
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Icon
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.IconHover*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolButtonSimple.IconHover
+  isExternal: true
+  name: IconHover
+  nameWithType: SoToolButtonSimple.IconHover
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.IconHover
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.IconSelected*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolButtonSimple.IconSelected
+  isExternal: true
+  name: IconSelected
+  nameWithType: SoToolButtonSimple.IconSelected
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.IconSelected
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.IconDisabled*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolButtonSimple.IconDisabled
+  isExternal: true
+  name: IconDisabled
+  nameWithType: SoToolButtonSimple.IconDisabled
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.IconDisabled
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Caption*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolButtonSimple.Caption
+  isExternal: true
+  name: Caption
+  nameWithType: SoToolButtonSimple.Caption
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Caption
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Tooltip*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolButtonSimple.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: SoToolButtonSimple.Tooltip
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.Tooltip
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.TextTooltip*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolButtonSimple.TextTooltip
+  isExternal: true
+  name: TextTooltip
+  nameWithType: SoToolButtonSimple.TextTooltip
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.TextTooltip
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnClick*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnClick
+  isExternal: true
+  name: OnClick
+  nameWithType: SoToolButtonSimple.OnClick
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnClick
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnTextClick*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnTextClick
+  isExternal: true
+  name: OnTextClick
+  nameWithType: SoToolButtonSimple.OnTextClick
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.OnTextClick
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.HypertextClientID*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolButtonSimple.HypertextClientID
+  isExternal: true
+  name: HypertextClientID
+  nameWithType: SoToolButtonSimple.HypertextClientID
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.HypertextClientID
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.ImageClientID*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoToolButtonSimple.ImageClientID
+  isExternal: true
+  name: ImageClientID
+  nameWithType: SoToolButtonSimple.ImageClientID
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.ImageClientID
+- uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.ServerClickEventHandler
+  commentId: T:SuperOffice.Web.UI.Controls.SoToolButtonSimple.ServerClickEventHandler
+  parent: SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SoToolButtonSimple.ServerClickEventHandler
+  nameWithType: SoToolButtonSimple.ServerClickEventHandler
+  fullName: SuperOffice.Web.UI.Controls.SoToolButtonSimple.ServerClickEventHandler

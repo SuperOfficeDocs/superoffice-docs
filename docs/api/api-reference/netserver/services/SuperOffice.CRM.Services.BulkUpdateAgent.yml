@@ -1,0 +1,1524 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent
+  commentId: T:SuperOffice.CRM.Services.BulkUpdateAgent
+  id: BulkUpdateAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.BulkUpdateAgent.#ctor
+  - SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String)
+  - SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean)
+  - SuperOffice.CRM.Services.BulkUpdateAgent.GetAvailableFields(System.String)
+  - SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(System.String,System.Int32)
+  - SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultsFromStorageAsJson
+  - SuperOffice.CRM.Services.BulkUpdateAgent.GetStoredFields(System.String,System.String)
+  - SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFields(System.String,System.String)
+  - SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: BulkUpdateAgent
+  nameWithType: BulkUpdateAgent
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFacade for the BulkUpdate Agent\nAgent used for bulk update methods\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (BulkUpdateAgent agent = new BulkUpdateAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: 'public class BulkUpdateAgent : AgentBase<IBulkUpdateAgent>, IDisposable, IBulkUpdateAgent, IAgent'
+    content.vb: >-
+      Public Class BulkUpdateAgent
+          Inherits AgentBase(Of IBulkUpdateAgent)
+          Implements IDisposable, IBulkUpdateAgent, IAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBulkUpdateAgent}
+  implements:
+  - System.IDisposable
+  - SuperOffice.CRM.Services.IBulkUpdateAgent
+  - SuperOffice.CRM.Services.IAgent
+  inheritedMembers:
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBulkUpdateAgent}.Dispose
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBulkUpdateAgent}.InnerAgent
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.GetAvailableFields(System.String)
+  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.GetAvailableFields(System.String)
+  id: GetAvailableFields(System.String)
+  parent: SuperOffice.CRM.Services.BulkUpdateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAvailableFields(String)
+  nameWithType: BulkUpdateAgent.GetAvailableFields(String)
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.GetAvailableFields(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet all available fields for a given tablename/entity\n"
+  syntax:
+    content: public FieldValueInfo[] GetAvailableFields(string tablename)
+    parameters:
+    - id: tablename
+      type: System.String
+      description: The name of the wanted tablename
+    return:
+      type: SuperOffice.CRM.Services.FieldValueInfo[]
+      description: Returns array of the available fields for the given entity
+    content.vb: Public Function GetAvailableFields(tablename As String) As FieldValueInfo()
+  overload: SuperOffice.CRM.Services.BulkUpdateAgent.GetAvailableFields*
+  implements:
+  - SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFields(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.GetStoredFields(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.GetStoredFields(System.String,System.String)
+  id: GetStoredFields(System.String,System.String)
+  parent: SuperOffice.CRM.Services.BulkUpdateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetStoredFields(String, String)
+  nameWithType: BulkUpdateAgent.GetStoredFields(String, String)
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.GetStoredFields(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet all stored fields for a given tablename/entity and context\n"
+  syntax:
+    content: public FieldValueInfo[] GetStoredFields(string tablename, string context)
+    parameters:
+    - id: tablename
+      type: System.String
+      description: The name of the wanted tablename
+    - id: context
+      type: System.String
+      description: Where is the function called for
+    return:
+      type: SuperOffice.CRM.Services.FieldValueInfo[]
+      description: Returns array of the stored or default fields for the given entity
+    content.vb: Public Function GetStoredFields(tablename As String, context As String) As FieldValueInfo()
+  overload: SuperOffice.CRM.Services.BulkUpdateAgent.GetStoredFields*
+  implements:
+  - SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFields(System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean)
+  id: ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.BulkUpdateAgent
+  langs:
+  - csharp
+  - vb
+  name: ExecuteBySelectionId(FieldValueInfo[], String, String, Int32, Boolean)
+  nameWithType: BulkUpdateAgent.ExecuteBySelectionId(FieldValueInfo[], String, String, Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[], System.String, System.String, System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDo the batchupdate on this selection\n"
+  syntax:
+    content: public int ExecuteBySelectionId(FieldValueInfo[] fieldValueInfos, string tableName, string context, int selectionId, bool isShadow)
+    parameters:
+    - id: fieldValueInfos
+      type: SuperOffice.CRM.Services.FieldValueInfo[]
+      description: The name of the wanted tablename
+    - id: tableName
+      type: System.String
+      description: The name of the table to bulk update
+    - id: context
+      type: System.String
+      description: Where is the function called for
+    - id: selectionId
+      type: System.Int32
+      description: The id of the selection
+    - id: isShadow
+      type: System.Boolean
+      description: Use the shadow selection
+    return:
+      type: System.Int32
+      description: Return batchtaskinfoid
+    content.vb: Public Function ExecuteBySelectionId(fieldValueInfos As FieldValueInfo(), tableName As String, context As String, selectionId As Integer, isShadow As Boolean) As Integer
+  overload: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionId*
+  implements:
+  - SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean)
+  nameWithType.vb: BulkUpdateAgent.ExecuteBySelectionId(FieldValueInfo(), String, String, Int32, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo(), System.String, System.String, System.Int32, System.Boolean)
+  name.vb: ExecuteBySelectionId(FieldValueInfo(), String, String, Int32, Boolean)
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String)
+  id: ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.BulkUpdateAgent
+  langs:
+  - csharp
+  - vb
+  name: ExecuteByEntityIds(FieldValueInfo[], String, String, String)
+  nameWithType: BulkUpdateAgent.ExecuteByEntityIds(FieldValueInfo[], String, String, String)
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[], System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDo the batchupdate on selected\n"
+  syntax:
+    content: public int ExecuteByEntityIds(FieldValueInfo[] fieldValueInfos, string tableName, string context, string ids)
+    parameters:
+    - id: fieldValueInfos
+      type: SuperOffice.CRM.Services.FieldValueInfo[]
+      description: The name of the wanted tablename
+    - id: tableName
+      type: System.String
+      description: The name of the table to bulk update
+    - id: context
+      type: System.String
+      description: Where is the function called from
+    - id: ids
+      type: System.String
+      description: Comma separated string of the ids of the entities to update
+    return:
+      type: System.Int32
+      description: Return batchtaskinfoid
+    content.vb: Public Function ExecuteByEntityIds(fieldValueInfos As FieldValueInfo(), tableName As String, context As String, ids As String) As Integer
+  overload: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIds*
+  implements:
+  - SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String)
+  nameWithType.vb: BulkUpdateAgent.ExecuteByEntityIds(FieldValueInfo(), String, String, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo(), System.String, System.String, System.String)
+  name.vb: ExecuteByEntityIds(FieldValueInfo(), String, String, String)
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultsFromStorageAsJson
+  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultsFromStorageAsJson
+  id: GetJobResultsFromStorageAsJson
+  parent: SuperOffice.CRM.Services.BulkUpdateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetJobResultsFromStorageAsJson()
+  nameWithType: BulkUpdateAgent.GetJobResultsFromStorageAsJson()
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultsFromStorageAsJson()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet result of the batchupdate job\n"
+  syntax:
+    content: public string[] GetJobResultsFromStorageAsJson()
+    return:
+      type: System.String[]
+      description: Result of job as json
+    content.vb: Public Function GetJobResultsFromStorageAsJson As String()
+  overload: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultsFromStorageAsJson*
+  implements:
+  - SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJson
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFields(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFields(System.String,System.String)
+  id: RemoveStoredFields(System.String,System.String)
+  parent: SuperOffice.CRM.Services.BulkUpdateAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveStoredFields(String, String)
+  nameWithType: BulkUpdateAgent.RemoveStoredFields(String, String)
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFields(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRemove the stored settings of the bulk update for this table from this context\n"
+  syntax:
+    content: public bool RemoveStoredFields(string tableName, string context)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: The name of the table to remove stored settings from
+    - id: context
+      type: System.String
+      description: Where is the function called from that we will remove the settings from
+    return:
+      type: System.Boolean
+    content.vb: Public Function RemoveStoredFields(tableName As String, context As String) As Boolean
+  overload: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFields*
+  implements:
+  - SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFields(System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(System.String,System.String)
+  id: RemoveStoredFieldsAndGetDefaultFields(System.String,System.String)
+  parent: SuperOffice.CRM.Services.BulkUpdateAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveStoredFieldsAndGetDefaultFields(String, String)
+  nameWithType: BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(String, String)
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRemove the stored settings of the bulk update for this table from this context, to get the default settings instead\n"
+  syntax:
+    content: public FieldValueInfo[] RemoveStoredFieldsAndGetDefaultFields(string tableName, string context)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: The name of the table to remove stored settings from
+    - id: context
+      type: System.String
+      description: Where is the function called from that we will remove the settings from
+    return:
+      type: SuperOffice.CRM.Services.FieldValueInfo[]
+      description: Returns array of the available fields for the given tablename
+    content.vb: Public Function RemoveStoredFieldsAndGetDefaultFields(tableName As String, context As String) As FieldValueInfo()
+  overload: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields*
+  implements:
+  - SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(System.String,System.Int32)
+  id: GetJobResultAsJsonFromBinaryObjectId(System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.BulkUpdateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetJobResultAsJsonFromBinaryObjectId(String, Int32)
+  nameWithType: BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(String, Int32)
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet result of the batchupdate job\n"
+  syntax:
+    content: public string GetJobResultAsJsonFromBinaryObjectId(string tableName, int binaryObjectId)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: The name of the table that was updated to show the log from
+    - id: binaryObjectId
+      type: System.Int32
+      description: Which binaryobject id has stored the job result
+    return:
+      type: System.String
+      description: Result of job as json
+    content.vb: Public Function GetJobResultAsJsonFromBinaryObjectId(tableName As String, binaryObjectId As Integer) As String
+  overload: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId*
+  implements:
+  - SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(System.String,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.#ctor
+  commentId: M:SuperOffice.CRM.Services.BulkUpdateAgent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.BulkUpdateAgent
+  langs:
+  - csharp
+  - vb
+  name: BulkUpdateAgent()
+  nameWithType: BulkUpdateAgent.BulkUpdateAgent()
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.BulkUpdateAgent()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public BulkUpdateAgent()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.BulkUpdateAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBulkUpdateAgent}
+  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBulkUpdateAgent}
+  parent: SuperOffice.CRM.Services
+  definition: SuperOffice.CRM.Services.AgentBase`1
+  name: AgentBase<IBulkUpdateAgent>
+  nameWithType: AgentBase<IBulkUpdateAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IBulkUpdateAgent>
+  nameWithType.vb: AgentBase(Of IBulkUpdateAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IBulkUpdateAgent)
+  name.vb: AgentBase(Of IBulkUpdateAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent
+    name: IBulkUpdateAgent
+    nameWithType: IBulkUpdateAgent
+    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent
+    name: IBulkUpdateAgent
+    nameWithType: IBulkUpdateAgent
+    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.CRM.Services.IBulkUpdateAgent
+  commentId: T:SuperOffice.CRM.Services.IBulkUpdateAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IBulkUpdateAgent
+  nameWithType: IBulkUpdateAgent
+  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent
+- uid: SuperOffice.CRM.Services.IAgent
+  commentId: T:SuperOffice.CRM.Services.IAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAgent
+  nameWithType: IAgent
+  fullName: SuperOffice.CRM.Services.IAgent
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBulkUpdateAgent}.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBulkUpdateAgent}.Dispose
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBulkUpdateAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  name: Dispose()
+  nameWithType: AgentBase<IBulkUpdateAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IBulkUpdateAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of IBulkUpdateAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IBulkUpdateAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<IBulkUpdateAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IBulkUpdateAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of IBulkUpdateAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IBulkUpdateAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBulkUpdateAgent}.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBulkUpdateAgent}.InnerAgent
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBulkUpdateAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  name: InnerAgent
+  nameWithType: AgentBase<IBulkUpdateAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IBulkUpdateAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of IBulkUpdateAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IBulkUpdateAgent).InnerAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AgentBase`1
+  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+  isExternal: true
+  name: AgentBase<TAgent>
+  nameWithType: AgentBase<TAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
+  nameWithType.vb: AgentBase(Of TAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
+  name.vb: AgentBase(Of TAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase<TAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of TAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  isExternal: true
+  name: InnerAgent
+  nameWithType: AgentBase<TAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.GetAvailableFields*
+  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.GetAvailableFields
+  isExternal: true
+  name: GetAvailableFields
+  nameWithType: BulkUpdateAgent.GetAvailableFields
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.GetAvailableFields
+- uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFields(System.String)
+  commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFields(System.String)
+  parent: SuperOffice.CRM.Services.IBulkUpdateAgent
+  isExternal: true
+  name: GetAvailableFields(String)
+  nameWithType: IBulkUpdateAgent.GetAvailableFields(String)
+  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFields(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFields(System.String)
+    name: GetAvailableFields
+    nameWithType: IBulkUpdateAgent.GetAvailableFields
+    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFields(System.String)
+    name: GetAvailableFields
+    nameWithType: IBulkUpdateAgent.GetAvailableFields
+    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.FieldValueInfo[]
+  isExternal: true
+  name: FieldValueInfo[]
+  nameWithType: FieldValueInfo[]
+  fullName: SuperOffice.CRM.Services.FieldValueInfo[]
+  nameWithType.vb: FieldValueInfo()
+  fullName.vb: SuperOffice.CRM.Services.FieldValueInfo()
+  name.vb: FieldValueInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.FieldValueInfo
+    name: FieldValueInfo
+    nameWithType: FieldValueInfo
+    fullName: SuperOffice.CRM.Services.FieldValueInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.FieldValueInfo
+    name: FieldValueInfo
+    nameWithType: FieldValueInfo
+    fullName: SuperOffice.CRM.Services.FieldValueInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.GetStoredFields*
+  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.GetStoredFields
+  isExternal: true
+  name: GetStoredFields
+  nameWithType: BulkUpdateAgent.GetStoredFields
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.GetStoredFields
+- uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFields(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFields(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IBulkUpdateAgent
+  isExternal: true
+  name: GetStoredFields(String, String)
+  nameWithType: IBulkUpdateAgent.GetStoredFields(String, String)
+  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFields(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFields(System.String,System.String)
+    name: GetStoredFields
+    nameWithType: IBulkUpdateAgent.GetStoredFields
+    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFields(System.String,System.String)
+    name: GetStoredFields
+    nameWithType: IBulkUpdateAgent.GetStoredFields
+    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionId*
+  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionId
+  isExternal: true
+  name: ExecuteBySelectionId
+  nameWithType: BulkUpdateAgent.ExecuteBySelectionId
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteBySelectionId
+- uid: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.IBulkUpdateAgent
+  isExternal: true
+  name: ExecuteBySelectionId(FieldValueInfo[], String, String, Int32, Boolean)
+  nameWithType: IBulkUpdateAgent.ExecuteBySelectionId(FieldValueInfo[], String, String, Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[], System.String, System.String, System.Int32, System.Boolean)
+  nameWithType.vb: IBulkUpdateAgent.ExecuteBySelectionId(FieldValueInfo(), String, String, Int32, Boolean)
+  fullName.vb: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo(), System.String, System.String, System.Int32, System.Boolean)
+  name.vb: ExecuteBySelectionId(FieldValueInfo(), String, String, Int32, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean)
+    name: ExecuteBySelectionId
+    nameWithType: IBulkUpdateAgent.ExecuteBySelectionId
+    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.FieldValueInfo
+    name: FieldValueInfo
+    nameWithType: FieldValueInfo
+    fullName: SuperOffice.CRM.Services.FieldValueInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean)
+    name: ExecuteBySelectionId
+    nameWithType: IBulkUpdateAgent.ExecuteBySelectionId
+    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.FieldValueInfo
+    name: FieldValueInfo
+    nameWithType: FieldValueInfo
+    fullName: SuperOffice.CRM.Services.FieldValueInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIds*
+  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIds
+  isExternal: true
+  name: ExecuteByEntityIds
+  nameWithType: BulkUpdateAgent.ExecuteByEntityIds
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.ExecuteByEntityIds
+- uid: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IBulkUpdateAgent
+  isExternal: true
+  name: ExecuteByEntityIds(FieldValueInfo[], String, String, String)
+  nameWithType: IBulkUpdateAgent.ExecuteByEntityIds(FieldValueInfo[], String, String, String)
+  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[], System.String, System.String, System.String)
+  nameWithType.vb: IBulkUpdateAgent.ExecuteByEntityIds(FieldValueInfo(), String, String, String)
+  fullName.vb: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo(), System.String, System.String, System.String)
+  name.vb: ExecuteByEntityIds(FieldValueInfo(), String, String, String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String)
+    name: ExecuteByEntityIds
+    nameWithType: IBulkUpdateAgent.ExecuteByEntityIds
+    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.FieldValueInfo
+    name: FieldValueInfo
+    nameWithType: FieldValueInfo
+    fullName: SuperOffice.CRM.Services.FieldValueInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String)
+    name: ExecuteByEntityIds
+    nameWithType: IBulkUpdateAgent.ExecuteByEntityIds
+    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.FieldValueInfo
+    name: FieldValueInfo
+    nameWithType: FieldValueInfo
+    fullName: SuperOffice.CRM.Services.FieldValueInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultsFromStorageAsJson*
+  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultsFromStorageAsJson
+  isExternal: true
+  name: GetJobResultsFromStorageAsJson
+  nameWithType: BulkUpdateAgent.GetJobResultsFromStorageAsJson
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultsFromStorageAsJson
+- uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJson
+  commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJson
+  parent: SuperOffice.CRM.Services.IBulkUpdateAgent
+  isExternal: true
+  name: GetJobResultsFromStorageAsJson()
+  nameWithType: IBulkUpdateAgent.GetJobResultsFromStorageAsJson()
+  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJson()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJson
+    name: GetJobResultsFromStorageAsJson
+    nameWithType: IBulkUpdateAgent.GetJobResultsFromStorageAsJson
+    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJson
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJson
+    name: GetJobResultsFromStorageAsJson
+    nameWithType: IBulkUpdateAgent.GetJobResultsFromStorageAsJson
+    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJson
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFields*
+  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFields
+  isExternal: true
+  name: RemoveStoredFields
+  nameWithType: BulkUpdateAgent.RemoveStoredFields
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFields
+- uid: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFields(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFields(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IBulkUpdateAgent
+  isExternal: true
+  name: RemoveStoredFields(String, String)
+  nameWithType: IBulkUpdateAgent.RemoveStoredFields(String, String)
+  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFields(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFields(System.String,System.String)
+    name: RemoveStoredFields
+    nameWithType: IBulkUpdateAgent.RemoveStoredFields
+    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFields(System.String,System.String)
+    name: RemoveStoredFields
+    nameWithType: IBulkUpdateAgent.RemoveStoredFields
+    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields*
+  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields
+  isExternal: true
+  name: RemoveStoredFieldsAndGetDefaultFields
+  nameWithType: BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields
+- uid: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IBulkUpdateAgent
+  isExternal: true
+  name: RemoveStoredFieldsAndGetDefaultFields(String, String)
+  nameWithType: IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(String, String)
+  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(System.String,System.String)
+    name: RemoveStoredFieldsAndGetDefaultFields
+    nameWithType: IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields
+    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(System.String,System.String)
+    name: RemoveStoredFieldsAndGetDefaultFields
+    nameWithType: IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields
+    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId*
+  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId
+  isExternal: true
+  name: GetJobResultAsJsonFromBinaryObjectId
+  nameWithType: BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId
+- uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.IBulkUpdateAgent
+  isExternal: true
+  name: GetJobResultAsJsonFromBinaryObjectId(String, Int32)
+  nameWithType: IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(String, Int32)
+  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(System.String, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(System.String,System.Int32)
+    name: GetJobResultAsJsonFromBinaryObjectId
+    nameWithType: IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId
+    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(System.String,System.Int32)
+    name: GetJobResultAsJsonFromBinaryObjectId
+    nameWithType: IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId
+    fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.BulkUpdateAgent.#ctor
+  isExternal: true
+  name: BulkUpdateAgent
+  nameWithType: BulkUpdateAgent.BulkUpdateAgent
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent.BulkUpdateAgent

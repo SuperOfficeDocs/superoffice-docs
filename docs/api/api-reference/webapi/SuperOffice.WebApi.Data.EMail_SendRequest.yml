@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_SendRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_SendRequest
+  id: EMail_SendRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_SendRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_SendRequest.Emails
+  langs:
+  - csharp
+  - vb
+  name: EMail_SendRequest
+  nameWithType: EMail_SendRequest
+  fullName: SuperOffice.WebApi.Data.EMail_SendRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_SendRequest : Object'
+    content.vb: >-
+      Public Class EMail_SendRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_SendRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_SendRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_SendRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_SendRequest()
+  nameWithType: EMail_SendRequest.EMail_SendRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_SendRequest.EMail_SendRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_SendRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_SendRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_SendRequest.Emails
+  commentId: P:SuperOffice.WebApi.Data.EMail_SendRequest.Emails
+  id: Emails
+  parent: SuperOffice.WebApi.Data.EMail_SendRequest
+  langs:
+  - csharp
+  - vb
+  name: Emails
+  nameWithType: EMail_SendRequest.Emails
+  fullName: SuperOffice.WebApi.Data.EMail_SendRequest.Emails
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMailEntity[] Emails { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EMailEntity[]
+    content.vb: Public Property Emails As EMailEntity()
+  overload: SuperOffice.WebApi.Data.EMail_SendRequest.Emails*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_SendRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_SendRequest.#ctor
+  isExternal: true
+  name: EMail_SendRequest
+  nameWithType: EMail_SendRequest.EMail_SendRequest
+  fullName: SuperOffice.WebApi.Data.EMail_SendRequest.EMail_SendRequest
+- uid: SuperOffice.WebApi.Data.EMail_SendRequest.Emails*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_SendRequest.Emails
+  isExternal: true
+  name: Emails
+  nameWithType: EMail_SendRequest.Emails
+  fullName: SuperOffice.WebApi.Data.EMail_SendRequest.Emails
+- uid: SuperOffice.WebApi.Data.EMailEntity[]
+  isExternal: true
+  name: EMailEntity[]
+  nameWithType: EMailEntity[]
+  fullName: SuperOffice.WebApi.Data.EMailEntity[]
+  nameWithType.vb: EMailEntity()
+  fullName.vb: SuperOffice.WebApi.Data.EMailEntity()
+  name.vb: EMailEntity()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.EMailEntity
+    name: EMailEntity
+    nameWithType: EMailEntity
+    fullName: SuperOffice.WebApi.Data.EMailEntity
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.EMailEntity
+    name: EMailEntity
+    nameWithType: EMailEntity
+    fullName: SuperOffice.WebApi.Data.EMailEntity
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

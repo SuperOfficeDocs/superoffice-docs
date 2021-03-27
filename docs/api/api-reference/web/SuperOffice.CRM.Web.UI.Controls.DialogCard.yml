@@ -1,0 +1,2414 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.DialogCard
+  id: DialogCard
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.DialogCard.#ctor
+  - SuperOffice.CRM.Web.UI.Controls.DialogCard._container
+  - SuperOffice.CRM.Web.UI.Controls.DialogCard._dialogCard
+  - SuperOffice.CRM.Web.UI.Controls.DialogCard._footerContainer
+  - SuperOffice.CRM.Web.UI.Controls.DialogCard._headerContainer
+  - SuperOffice.CRM.Web.UI.Controls.DialogCard._tabbedContainer
+  - SuperOffice.CRM.Web.UI.Controls.DialogCard._tabBottom
+  - SuperOffice.CRM.Web.UI.Controls.DialogCard._tabLeft
+  - SuperOffice.CRM.Web.UI.Controls.DialogCard._tabRight
+  - SuperOffice.CRM.Web.UI.Controls.DialogCard._tabTop
+  - SuperOffice.CRM.Web.UI.Controls.DialogCard.CardBodyResize
+  - SuperOffice.CRM.Web.UI.Controls.DialogCard.CardHeadResize
+  - SuperOffice.CRM.Web.UI.Controls.DialogCard.CardResize
+  - SuperOffice.CRM.Web.UI.Controls.DialogCard.Initialize(System.Xml.XmlNode,System.String)
+  - SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeAbsoluteViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  - SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeFooterViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  - SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeHeaderViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView},System.Web.UI.WebControls.Panel,System.Web.UI.WebControls.Panel)
+  - SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeTabbedViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  - SuperOffice.CRM.Web.UI.Controls.DialogCard.OnLoad(System.EventArgs)
+  - SuperOffice.CRM.Web.UI.Controls.DialogCard.ReadOnly
+  langs:
+  - csharp
+  - vb
+  name: DialogCard
+  nameWithType: DialogCard
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: 'public class DialogCard : TabbedCard, ICard, ISave, ILayout, IHasSchema'
+    content.vb: >-
+      Public Class DialogCard
+          Inherits TabbedCard
+          Implements ICard, ISave, ILayout, IHasSchema
+  inheritance:
+  - System.Object
+  - SuperOffice.DCF.Web.UI.Controls.CardBase
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  derivedClasses:
+  - SuperOffice.CRM.Web.UI.Controls.FindCard
+  implements:
+  - SuperOffice.DCF.Web.UI.ICard
+  - SuperOffice.DCF.Web.UI.ISave
+  - SuperOffice.DCF.Web.UI.ILayout
+  - SuperOffice.Configuration.IHasSchema
+  inheritedMembers:
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard._headerViews
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard._footerViews
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard._tabbedViews
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard._customButtons
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard.tabBar
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard.sideBar
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard.theCard
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardHead
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardHeadContainer
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardBody
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard.tableCell1
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard.tableCell2
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard.addAllView
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard._tabMode
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard._dragDrop
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard._viewListSet
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard._mdoControl
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard._mdoControlDataList
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard._systemViewId
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard._sidebarWidth
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard._onTabDblClick
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard.Render(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard.GetSortedViewCollection(System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard.AddTabItem(SuperOffice.DCF.Web.UI.IView)
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard.CalculateViews(System.Xml.XmlNode,System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard.AddViews(System.Web.UI.WebControls.Panel,System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard.OnSave
+  - SuperOffice.CRM.Web.UI.Controls.TabbedCard.TabMode
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.ParseConfiguration(System.Xml.XmlNode)
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.InitializeViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Page_LoadComplete(System.Object,System.EventArgs)
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.ViewCollection
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Style
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.PlaceholderId
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.PlaceholderClientId
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Size
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Id
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.hasEditMode
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.EditMode
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.HasReadOnly
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.KeepParamsOnSave
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.MenuObject
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.ParentPanel
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.LayoutPosition
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Position
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Top
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.BackgroundColor
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Left
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Right
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Bottom
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Width
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Height
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.ZIndex
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Overflow
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Visibility
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Column
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.Row
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.RowSpan
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.ColSpan
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.ConfigurationSchema
+  - SuperOffice.DCF.Web.UI.Controls.CardBase.VisibilityBinding
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard._dialogCard
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.DialogCard._dialogCard
+  id: _dialogCard
+  parent: SuperOffice.CRM.Web.UI.Controls.DialogCard
+  langs:
+  - csharp
+  - vb
+  name: _dialogCard
+  nameWithType: DialogCard._dialogCard
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard._dialogCard
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected Panel _dialogCard
+    return:
+      type: System.Web.UI.WebControls.Panel
+    content.vb: Protected _dialogCard As Panel
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard._container
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.DialogCard._container
+  id: _container
+  parent: SuperOffice.CRM.Web.UI.Controls.DialogCard
+  langs:
+  - csharp
+  - vb
+  name: _container
+  nameWithType: DialogCard._container
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard._container
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected Panel _container
+    return:
+      type: System.Web.UI.WebControls.Panel
+    content.vb: Protected _container As Panel
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard._headerContainer
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.DialogCard._headerContainer
+  id: _headerContainer
+  parent: SuperOffice.CRM.Web.UI.Controls.DialogCard
+  langs:
+  - csharp
+  - vb
+  name: _headerContainer
+  nameWithType: DialogCard._headerContainer
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard._headerContainer
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected Panel _headerContainer
+    return:
+      type: System.Web.UI.WebControls.Panel
+    content.vb: Protected _headerContainer As Panel
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard._tabbedContainer
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.DialogCard._tabbedContainer
+  id: _tabbedContainer
+  parent: SuperOffice.CRM.Web.UI.Controls.DialogCard
+  langs:
+  - csharp
+  - vb
+  name: _tabbedContainer
+  nameWithType: DialogCard._tabbedContainer
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard._tabbedContainer
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected Panel _tabbedContainer
+    return:
+      type: System.Web.UI.WebControls.Panel
+    content.vb: Protected _tabbedContainer As Panel
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard._footerContainer
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.DialogCard._footerContainer
+  id: _footerContainer
+  parent: SuperOffice.CRM.Web.UI.Controls.DialogCard
+  langs:
+  - csharp
+  - vb
+  name: _footerContainer
+  nameWithType: DialogCard._footerContainer
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard._footerContainer
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected Panel _footerContainer
+    return:
+      type: System.Web.UI.WebControls.Panel
+    content.vb: Protected _footerContainer As Panel
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard._tabTop
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.DialogCard._tabTop
+  id: _tabTop
+  parent: SuperOffice.CRM.Web.UI.Controls.DialogCard
+  langs:
+  - csharp
+  - vb
+  name: _tabTop
+  nameWithType: DialogCard._tabTop
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard._tabTop
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected string _tabTop
+    return:
+      type: System.String
+    content.vb: Protected _tabTop As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard._tabBottom
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.DialogCard._tabBottom
+  id: _tabBottom
+  parent: SuperOffice.CRM.Web.UI.Controls.DialogCard
+  langs:
+  - csharp
+  - vb
+  name: _tabBottom
+  nameWithType: DialogCard._tabBottom
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard._tabBottom
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected string _tabBottom
+    return:
+      type: System.String
+    content.vb: Protected _tabBottom As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard._tabLeft
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.DialogCard._tabLeft
+  id: _tabLeft
+  parent: SuperOffice.CRM.Web.UI.Controls.DialogCard
+  langs:
+  - csharp
+  - vb
+  name: _tabLeft
+  nameWithType: DialogCard._tabLeft
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard._tabLeft
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected string _tabLeft
+    return:
+      type: System.String
+    content.vb: Protected _tabLeft As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard._tabRight
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.DialogCard._tabRight
+  id: _tabRight
+  parent: SuperOffice.CRM.Web.UI.Controls.DialogCard
+  langs:
+  - csharp
+  - vb
+  name: _tabRight
+  nameWithType: DialogCard._tabRight
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard._tabRight
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected string _tabRight
+    return:
+      type: System.String
+    content.vb: Protected _tabRight As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard.OnLoad(System.EventArgs)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.DialogCard.OnLoad(System.EventArgs)
+  id: OnLoad(System.EventArgs)
+  parent: SuperOffice.CRM.Web.UI.Controls.DialogCard
+  langs:
+  - csharp
+  - vb
+  name: OnLoad(EventArgs)
+  nameWithType: DialogCard.OnLoad(EventArgs)
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard.OnLoad(System.EventArgs)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override void OnLoad(EventArgs e)
+    parameters:
+    - id: e
+      type: System.EventArgs
+    content.vb: Protected Overrides Sub OnLoad(e As EventArgs)
+  overridden: SuperOffice.CRM.Web.UI.Controls.TabbedCard.OnLoad(System.EventArgs)
+  overload: SuperOffice.CRM.Web.UI.Controls.DialogCard.OnLoad*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard.Initialize(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.DialogCard.Initialize(System.Xml.XmlNode,System.String)
+  id: Initialize(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.DialogCard
+  langs:
+  - csharp
+  - vb
+  name: Initialize(XmlNode, String)
+  nameWithType: DialogCard.Initialize(XmlNode, String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard.Initialize(System.Xml.XmlNode, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public override void Initialize(XmlNode config, string id)
+    parameters:
+    - id: config
+      type: System.Xml.XmlNode
+    - id: id
+      type: System.String
+    content.vb: Public Overrides Sub Initialize(config As XmlNode, id As String)
+  overridden: SuperOffice.CRM.Web.UI.Controls.TabbedCard.Initialize(System.Xml.XmlNode,System.String)
+  overload: SuperOffice.CRM.Web.UI.Controls.DialogCard.Initialize*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeHeaderViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView},System.Web.UI.WebControls.Panel,System.Web.UI.WebControls.Panel)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeHeaderViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView},System.Web.UI.WebControls.Panel,System.Web.UI.WebControls.Panel)
+  id: InitializeHeaderViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView},System.Web.UI.WebControls.Panel,System.Web.UI.WebControls.Panel)
+  parent: SuperOffice.CRM.Web.UI.Controls.DialogCard
+  langs:
+  - csharp
+  - vb
+  name: InitializeHeaderViews(XmlNode, Dictionary<String, IView>, Panel, Panel)
+  nameWithType: DialogCard.InitializeHeaderViews(XmlNode, Dictionary<String, IView>, Panel, Panel)
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeHeaderViews(System.Xml.XmlNode, System.Collections.Generic.Dictionary<System.String, SuperOffice.DCF.Web.UI.IView>, System.Web.UI.WebControls.Panel, System.Web.UI.WebControls.Panel)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override void InitializeHeaderViews(XmlNode config, Dictionary<string, IView> views, Panel container, Panel headerContainer)
+    parameters:
+    - id: config
+      type: System.Xml.XmlNode
+    - id: views
+      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView}
+    - id: container
+      type: System.Web.UI.WebControls.Panel
+    - id: headerContainer
+      type: System.Web.UI.WebControls.Panel
+    content.vb: Protected Overrides Sub InitializeHeaderViews(config As XmlNode, views As Dictionary(Of String, IView), container As Panel, headerContainer As Panel)
+  overridden: SuperOffice.CRM.Web.UI.Controls.TabbedCard.InitializeHeaderViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView},System.Web.UI.WebControls.Panel,System.Web.UI.WebControls.Panel)
+  overload: SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeHeaderViews*
+  nameWithType.vb: DialogCard.InitializeHeaderViews(XmlNode, Dictionary(Of String, IView), Panel, Panel)
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+  fullName.vb: SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeHeaderViews(System.Xml.XmlNode, System.Collections.Generic.Dictionary(Of System.String, SuperOffice.DCF.Web.UI.IView), System.Web.UI.WebControls.Panel, System.Web.UI.WebControls.Panel)
+  name.vb: InitializeHeaderViews(XmlNode, Dictionary(Of String, IView), Panel, Panel)
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeAbsoluteViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeAbsoluteViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  id: InitializeAbsoluteViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  parent: SuperOffice.CRM.Web.UI.Controls.DialogCard
+  langs:
+  - csharp
+  - vb
+  name: InitializeAbsoluteViews(XmlNode, Dictionary<String, IView>)
+  nameWithType: DialogCard.InitializeAbsoluteViews(XmlNode, Dictionary<String, IView>)
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeAbsoluteViews(System.Xml.XmlNode, System.Collections.Generic.Dictionary<System.String, SuperOffice.DCF.Web.UI.IView>)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected virtual void InitializeAbsoluteViews(XmlNode config, Dictionary<string, IView> views)
+    parameters:
+    - id: config
+      type: System.Xml.XmlNode
+    - id: views
+      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView}
+    content.vb: Protected Overridable Sub InitializeAbsoluteViews(config As XmlNode, views As Dictionary(Of String, IView))
+  overload: SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeAbsoluteViews*
+  nameWithType.vb: DialogCard.InitializeAbsoluteViews(XmlNode, Dictionary(Of String, IView))
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeAbsoluteViews(System.Xml.XmlNode, System.Collections.Generic.Dictionary(Of System.String, SuperOffice.DCF.Web.UI.IView))
+  name.vb: InitializeAbsoluteViews(XmlNode, Dictionary(Of String, IView))
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeFooterViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeFooterViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  id: InitializeFooterViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  parent: SuperOffice.CRM.Web.UI.Controls.DialogCard
+  langs:
+  - csharp
+  - vb
+  name: InitializeFooterViews(XmlNode, Dictionary<String, IView>)
+  nameWithType: DialogCard.InitializeFooterViews(XmlNode, Dictionary<String, IView>)
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeFooterViews(System.Xml.XmlNode, System.Collections.Generic.Dictionary<System.String, SuperOffice.DCF.Web.UI.IView>)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected virtual void InitializeFooterViews(XmlNode config, Dictionary<string, IView> views)
+    parameters:
+    - id: config
+      type: System.Xml.XmlNode
+    - id: views
+      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView}
+    content.vb: Protected Overridable Sub InitializeFooterViews(config As XmlNode, views As Dictionary(Of String, IView))
+  overload: SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeFooterViews*
+  nameWithType.vb: DialogCard.InitializeFooterViews(XmlNode, Dictionary(Of String, IView))
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeFooterViews(System.Xml.XmlNode, System.Collections.Generic.Dictionary(Of System.String, SuperOffice.DCF.Web.UI.IView))
+  name.vb: InitializeFooterViews(XmlNode, Dictionary(Of String, IView))
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeTabbedViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeTabbedViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  id: InitializeTabbedViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  parent: SuperOffice.CRM.Web.UI.Controls.DialogCard
+  langs:
+  - csharp
+  - vb
+  name: InitializeTabbedViews(XmlNode, Dictionary<String, IView>)
+  nameWithType: DialogCard.InitializeTabbedViews(XmlNode, Dictionary<String, IView>)
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeTabbedViews(System.Xml.XmlNode, System.Collections.Generic.Dictionary<System.String, SuperOffice.DCF.Web.UI.IView>)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override void InitializeTabbedViews(XmlNode config, Dictionary<string, IView> views)
+    parameters:
+    - id: config
+      type: System.Xml.XmlNode
+    - id: views
+      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView}
+    content.vb: Protected Overrides Sub InitializeTabbedViews(config As XmlNode, views As Dictionary(Of String, IView))
+  overridden: SuperOffice.CRM.Web.UI.Controls.TabbedCard.InitializeTabbedViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  overload: SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeTabbedViews*
+  nameWithType.vb: DialogCard.InitializeTabbedViews(XmlNode, Dictionary(Of String, IView))
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+  fullName.vb: SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeTabbedViews(System.Xml.XmlNode, System.Collections.Generic.Dictionary(Of System.String, SuperOffice.DCF.Web.UI.IView))
+  name.vb: InitializeTabbedViews(XmlNode, Dictionary(Of String, IView))
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard.CardResize
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.DialogCard.CardResize
+  id: CardResize
+  parent: SuperOffice.CRM.Web.UI.Controls.DialogCard
+  langs:
+  - csharp
+  - vb
+  name: CardResize()
+  nameWithType: DialogCard.CardResize()
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard.CardResize()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override void CardResize()
+    content.vb: Protected Overrides Sub CardResize
+  overridden: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardResize
+  overload: SuperOffice.CRM.Web.UI.Controls.DialogCard.CardResize*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard.CardBodyResize
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.DialogCard.CardBodyResize
+  id: CardBodyResize
+  parent: SuperOffice.CRM.Web.UI.Controls.DialogCard
+  langs:
+  - csharp
+  - vb
+  name: CardBodyResize()
+  nameWithType: DialogCard.CardBodyResize()
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard.CardBodyResize()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override void CardBodyResize()
+    content.vb: Protected Overrides Sub CardBodyResize
+  overridden: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardBodyResize
+  overload: SuperOffice.CRM.Web.UI.Controls.DialogCard.CardBodyResize*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard.CardHeadResize
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.DialogCard.CardHeadResize
+  id: CardHeadResize
+  parent: SuperOffice.CRM.Web.UI.Controls.DialogCard
+  langs:
+  - csharp
+  - vb
+  name: CardHeadResize()
+  nameWithType: DialogCard.CardHeadResize()
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard.CardHeadResize()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override void CardHeadResize()
+    content.vb: Protected Overrides Sub CardHeadResize
+  overridden: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardHeadResize
+  overload: SuperOffice.CRM.Web.UI.Controls.DialogCard.CardHeadResize*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.DialogCard.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.Controls.DialogCard
+  langs:
+  - csharp
+  - vb
+  name: DialogCard()
+  nameWithType: DialogCard.DialogCard()
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard.DialogCard()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public DialogCard()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.Controls.DialogCard.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard.ReadOnly
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.DialogCard.ReadOnly
+  id: ReadOnly
+  parent: SuperOffice.CRM.Web.UI.Controls.DialogCard
+  langs:
+  - csharp
+  - vb
+  name: ReadOnly
+  nameWithType: DialogCard.ReadOnly
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard.ReadOnly
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public override bool ReadOnly { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Property ReadOnly As Boolean
+  overridden: SuperOffice.DCF.Web.UI.Controls.CardBase.ReadOnly
+  overload: SuperOffice.CRM.Web.UI.Controls.DialogCard.ReadOnly*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.CardBase
+  parent: SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: CardBase
+  nameWithType: CardBase
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: TabbedCard
+  nameWithType: TabbedCard
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+- uid: SuperOffice.DCF.Web.UI.ICard
+  commentId: T:SuperOffice.DCF.Web.UI.ICard
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: ICard
+  nameWithType: ICard
+  fullName: SuperOffice.DCF.Web.UI.ICard
+- uid: SuperOffice.DCF.Web.UI.ISave
+  commentId: T:SuperOffice.DCF.Web.UI.ISave
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: ISave
+  nameWithType: ISave
+  fullName: SuperOffice.DCF.Web.UI.ISave
+- uid: SuperOffice.DCF.Web.UI.ILayout
+  commentId: T:SuperOffice.DCF.Web.UI.ILayout
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: ILayout
+  nameWithType: ILayout
+  fullName: SuperOffice.DCF.Web.UI.ILayout
+- uid: SuperOffice.Configuration.IHasSchema
+  commentId: T:SuperOffice.Configuration.IHasSchema
+  parent: SuperOffice.Configuration
+  isExternal: true
+  name: IHasSchema
+  nameWithType: IHasSchema
+  fullName: SuperOffice.Configuration.IHasSchema
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard._headerViews
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabbedCard._headerViews
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: _headerViews
+  nameWithType: TabbedCard._headerViews
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard._headerViews
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard._footerViews
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabbedCard._footerViews
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: _footerViews
+  nameWithType: TabbedCard._footerViews
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard._footerViews
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard._tabbedViews
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabbedCard._tabbedViews
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: _tabbedViews
+  nameWithType: TabbedCard._tabbedViews
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard._tabbedViews
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard._customButtons
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabbedCard._customButtons
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: _customButtons
+  nameWithType: TabbedCard._customButtons
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard._customButtons
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.tabBar
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabbedCard.tabBar
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: tabBar
+  nameWithType: TabbedCard.tabBar
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.tabBar
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.sideBar
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabbedCard.sideBar
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: sideBar
+  nameWithType: TabbedCard.sideBar
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.sideBar
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.theCard
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabbedCard.theCard
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: theCard
+  nameWithType: TabbedCard.theCard
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.theCard
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardHead
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardHead
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: CardHead
+  nameWithType: TabbedCard.CardHead
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardHead
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardHeadContainer
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardHeadContainer
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: CardHeadContainer
+  nameWithType: TabbedCard.CardHeadContainer
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardHeadContainer
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardBody
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardBody
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: CardBody
+  nameWithType: TabbedCard.CardBody
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardBody
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.tableCell1
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabbedCard.tableCell1
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: tableCell1
+  nameWithType: TabbedCard.tableCell1
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.tableCell1
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.tableCell2
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabbedCard.tableCell2
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: tableCell2
+  nameWithType: TabbedCard.tableCell2
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.tableCell2
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.addAllView
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabbedCard.addAllView
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: addAllView
+  nameWithType: TabbedCard.addAllView
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.addAllView
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard._tabMode
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabbedCard._tabMode
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: _tabMode
+  nameWithType: TabbedCard._tabMode
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard._tabMode
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard._dragDrop
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabbedCard._dragDrop
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: _dragDrop
+  nameWithType: TabbedCard._dragDrop
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard._dragDrop
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard._viewListSet
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabbedCard._viewListSet
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: _viewListSet
+  nameWithType: TabbedCard._viewListSet
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard._viewListSet
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard._mdoControl
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabbedCard._mdoControl
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: _mdoControl
+  nameWithType: TabbedCard._mdoControl
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard._mdoControl
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard._mdoControlDataList
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabbedCard._mdoControlDataList
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: _mdoControlDataList
+  nameWithType: TabbedCard._mdoControlDataList
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard._mdoControlDataList
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard._systemViewId
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabbedCard._systemViewId
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: _systemViewId
+  nameWithType: TabbedCard._systemViewId
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard._systemViewId
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard._sidebarWidth
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabbedCard._sidebarWidth
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: _sidebarWidth
+  nameWithType: TabbedCard._sidebarWidth
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard._sidebarWidth
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard._onTabDblClick
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabbedCard._onTabDblClick
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: _onTabDblClick
+  nameWithType: TabbedCard._onTabDblClick
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard._onTabDblClick
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.TabbedCard.Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: Render(HtmlTextWriter)
+  nameWithType: TabbedCard.Render(HtmlTextWriter)
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.Render(System.Web.UI.HtmlTextWriter)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.Render(System.Web.UI.HtmlTextWriter)
+    name: Render
+    nameWithType: TabbedCard.Render
+    fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.Render
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.Render(System.Web.UI.HtmlTextWriter)
+    name: Render
+    nameWithType: TabbedCard.Render
+    fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.Render
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.GetSortedViewCollection(System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.TabbedCard.GetSortedViewCollection(System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: GetSortedViewCollection(Dictionary<String, IView>)
+  nameWithType: TabbedCard.GetSortedViewCollection(Dictionary<String, IView>)
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.GetSortedViewCollection(System.Collections.Generic.Dictionary<System.String, SuperOffice.DCF.Web.UI.IView>)
+  nameWithType.vb: TabbedCard.GetSortedViewCollection(Dictionary(Of String, IView))
+  fullName.vb: SuperOffice.CRM.Web.UI.Controls.TabbedCard.GetSortedViewCollection(System.Collections.Generic.Dictionary(Of System.String, SuperOffice.DCF.Web.UI.IView))
+  name.vb: GetSortedViewCollection(Dictionary(Of String, IView))
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.GetSortedViewCollection(System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+    name: GetSortedViewCollection
+    nameWithType: TabbedCard.GetSortedViewCollection
+    fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.GetSortedViewCollection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.DCF.Web.UI.IView
+    name: IView
+    nameWithType: IView
+    fullName: SuperOffice.DCF.Web.UI.IView
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.GetSortedViewCollection(System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+    name: GetSortedViewCollection
+    nameWithType: TabbedCard.GetSortedViewCollection
+    fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.GetSortedViewCollection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.DCF.Web.UI.IView
+    name: IView
+    nameWithType: IView
+    fullName: SuperOffice.DCF.Web.UI.IView
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.AddTabItem(SuperOffice.DCF.Web.UI.IView)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.TabbedCard.AddTabItem(SuperOffice.DCF.Web.UI.IView)
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: AddTabItem(IView)
+  nameWithType: TabbedCard.AddTabItem(IView)
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.AddTabItem(SuperOffice.DCF.Web.UI.IView)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.AddTabItem(SuperOffice.DCF.Web.UI.IView)
+    name: AddTabItem
+    nameWithType: TabbedCard.AddTabItem
+    fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.AddTabItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.DCF.Web.UI.IView
+    name: IView
+    nameWithType: IView
+    fullName: SuperOffice.DCF.Web.UI.IView
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.AddTabItem(SuperOffice.DCF.Web.UI.IView)
+    name: AddTabItem
+    nameWithType: TabbedCard.AddTabItem
+    fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.AddTabItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.DCF.Web.UI.IView
+    name: IView
+    nameWithType: IView
+    fullName: SuperOffice.DCF.Web.UI.IView
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CalculateViews(System.Xml.XmlNode,System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.TabbedCard.CalculateViews(System.Xml.XmlNode,System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: CalculateViews(XmlNode, String, Dictionary<String, IView>)
+  nameWithType: TabbedCard.CalculateViews(XmlNode, String, Dictionary<String, IView>)
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CalculateViews(System.Xml.XmlNode, System.String, System.Collections.Generic.Dictionary<System.String, SuperOffice.DCF.Web.UI.IView>)
+  nameWithType.vb: TabbedCard.CalculateViews(XmlNode, String, Dictionary(Of String, IView))
+  fullName.vb: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CalculateViews(System.Xml.XmlNode, System.String, System.Collections.Generic.Dictionary(Of System.String, SuperOffice.DCF.Web.UI.IView))
+  name.vb: CalculateViews(XmlNode, String, Dictionary(Of String, IView))
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CalculateViews(System.Xml.XmlNode,System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+    name: CalculateViews
+    nameWithType: TabbedCard.CalculateViews
+    fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CalculateViews
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.DCF.Web.UI.IView
+    name: IView
+    nameWithType: IView
+    fullName: SuperOffice.DCF.Web.UI.IView
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CalculateViews(System.Xml.XmlNode,System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+    name: CalculateViews
+    nameWithType: TabbedCard.CalculateViews
+    fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CalculateViews
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.DCF.Web.UI.IView
+    name: IView
+    nameWithType: IView
+    fullName: SuperOffice.DCF.Web.UI.IView
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.AddViews(System.Web.UI.WebControls.Panel,System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.TabbedCard.AddViews(System.Web.UI.WebControls.Panel,System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: AddViews(Panel, String, Dictionary<String, IView>)
+  nameWithType: TabbedCard.AddViews(Panel, String, Dictionary<String, IView>)
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.AddViews(System.Web.UI.WebControls.Panel, System.String, System.Collections.Generic.Dictionary<System.String, SuperOffice.DCF.Web.UI.IView>)
+  nameWithType.vb: TabbedCard.AddViews(Panel, String, Dictionary(Of String, IView))
+  fullName.vb: SuperOffice.CRM.Web.UI.Controls.TabbedCard.AddViews(System.Web.UI.WebControls.Panel, System.String, System.Collections.Generic.Dictionary(Of System.String, SuperOffice.DCF.Web.UI.IView))
+  name.vb: AddViews(Panel, String, Dictionary(Of String, IView))
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.AddViews(System.Web.UI.WebControls.Panel,System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+    name: AddViews
+    nameWithType: TabbedCard.AddViews
+    fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.AddViews
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.WebControls.Panel
+    name: Panel
+    nameWithType: Panel
+    fullName: System.Web.UI.WebControls.Panel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.DCF.Web.UI.IView
+    name: IView
+    nameWithType: IView
+    fullName: SuperOffice.DCF.Web.UI.IView
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.AddViews(System.Web.UI.WebControls.Panel,System.String,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+    name: AddViews
+    nameWithType: TabbedCard.AddViews
+    fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.AddViews
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.WebControls.Panel
+    name: Panel
+    nameWithType: Panel
+    fullName: System.Web.UI.WebControls.Panel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.DCF.Web.UI.IView
+    name: IView
+    nameWithType: IView
+    fullName: SuperOffice.DCF.Web.UI.IView
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.OnSave
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.TabbedCard.OnSave
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: OnSave()
+  nameWithType: TabbedCard.OnSave()
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.OnSave()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.OnSave
+    name: OnSave
+    nameWithType: TabbedCard.OnSave
+    fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.OnSave
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.OnSave
+    name: OnSave
+    nameWithType: TabbedCard.OnSave
+    fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.OnSave
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.TabMode
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.TabbedCard.TabMode
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: TabMode
+  nameWithType: TabbedCard.TabMode
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.TabMode
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.ParseConfiguration(System.Xml.XmlNode)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.CardBase.ParseConfiguration(System.Xml.XmlNode)
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: ParseConfiguration(XmlNode)
+  nameWithType: CardBase.ParseConfiguration(XmlNode)
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.ParseConfiguration(System.Xml.XmlNode)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.CardBase.ParseConfiguration(System.Xml.XmlNode)
+    name: ParseConfiguration
+    nameWithType: CardBase.ParseConfiguration
+    fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.ParseConfiguration
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.CardBase.ParseConfiguration(System.Xml.XmlNode)
+    name: ParseConfiguration
+    nameWithType: CardBase.ParseConfiguration
+    fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.ParseConfiguration
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.InitializeViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.CardBase.InitializeViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: InitializeViews(XmlNode, Dictionary<String, IView>)
+  nameWithType: CardBase.InitializeViews(XmlNode, Dictionary<String, IView>)
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.InitializeViews(System.Xml.XmlNode, System.Collections.Generic.Dictionary<System.String, SuperOffice.DCF.Web.UI.IView>)
+  nameWithType.vb: CardBase.InitializeViews(XmlNode, Dictionary(Of String, IView))
+  fullName.vb: SuperOffice.DCF.Web.UI.Controls.CardBase.InitializeViews(System.Xml.XmlNode, System.Collections.Generic.Dictionary(Of System.String, SuperOffice.DCF.Web.UI.IView))
+  name.vb: InitializeViews(XmlNode, Dictionary(Of String, IView))
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.CardBase.InitializeViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+    name: InitializeViews
+    nameWithType: CardBase.InitializeViews
+    fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.InitializeViews
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.DCF.Web.UI.IView
+    name: IView
+    nameWithType: IView
+    fullName: SuperOffice.DCF.Web.UI.IView
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.CardBase.InitializeViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+    name: InitializeViews
+    nameWithType: CardBase.InitializeViews
+    fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.InitializeViews
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.DCF.Web.UI.IView
+    name: IView
+    nameWithType: IView
+    fullName: SuperOffice.DCF.Web.UI.IView
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Page_LoadComplete(System.Object,System.EventArgs)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.CardBase.Page_LoadComplete(System.Object,System.EventArgs)
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: Page_LoadComplete(Object, EventArgs)
+  nameWithType: CardBase.Page_LoadComplete(Object, EventArgs)
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Page_LoadComplete(System.Object, System.EventArgs)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Page_LoadComplete(System.Object,System.EventArgs)
+    name: Page_LoadComplete
+    nameWithType: CardBase.Page_LoadComplete
+    fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Page_LoadComplete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Page_LoadComplete(System.Object,System.EventArgs)
+    name: Page_LoadComplete
+    nameWithType: CardBase.Page_LoadComplete
+    fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Page_LoadComplete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.ViewCollection
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.ViewCollection
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: ViewCollection
+  nameWithType: CardBase.ViewCollection
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.ViewCollection
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Style
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Style
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: Style
+  nameWithType: CardBase.Style
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Style
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.PlaceholderId
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.PlaceholderId
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: PlaceholderId
+  nameWithType: CardBase.PlaceholderId
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.PlaceholderId
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.PlaceholderClientId
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.PlaceholderClientId
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: PlaceholderClientId
+  nameWithType: CardBase.PlaceholderClientId
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.PlaceholderClientId
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Size
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Size
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: Size
+  nameWithType: CardBase.Size
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Size
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Id
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Id
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: Id
+  nameWithType: CardBase.Id
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Id
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.hasEditMode
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.hasEditMode
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: hasEditMode
+  nameWithType: CardBase.hasEditMode
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.hasEditMode
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.EditMode
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.EditMode
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: EditMode
+  nameWithType: CardBase.EditMode
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.EditMode
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.HasReadOnly
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.HasReadOnly
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: HasReadOnly
+  nameWithType: CardBase.HasReadOnly
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.HasReadOnly
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.KeepParamsOnSave
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.KeepParamsOnSave
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: KeepParamsOnSave
+  nameWithType: CardBase.KeepParamsOnSave
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.KeepParamsOnSave
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.MenuObject
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.MenuObject
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: MenuObject
+  nameWithType: CardBase.MenuObject
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.MenuObject
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.ParentPanel
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.ParentPanel
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: ParentPanel
+  nameWithType: CardBase.ParentPanel
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.ParentPanel
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.LayoutPosition
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.LayoutPosition
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: LayoutPosition
+  nameWithType: CardBase.LayoutPosition
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.LayoutPosition
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Position
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Position
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: Position
+  nameWithType: CardBase.Position
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Position
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Top
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Top
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: Top
+  nameWithType: CardBase.Top
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Top
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.BackgroundColor
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.BackgroundColor
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: BackgroundColor
+  nameWithType: CardBase.BackgroundColor
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.BackgroundColor
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Left
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Left
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: Left
+  nameWithType: CardBase.Left
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Left
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Right
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Right
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: Right
+  nameWithType: CardBase.Right
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Right
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Bottom
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Bottom
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: Bottom
+  nameWithType: CardBase.Bottom
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Bottom
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Width
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Width
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: Width
+  nameWithType: CardBase.Width
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Width
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Height
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Height
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: Height
+  nameWithType: CardBase.Height
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Height
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.ZIndex
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.ZIndex
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: ZIndex
+  nameWithType: CardBase.ZIndex
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.ZIndex
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Overflow
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Overflow
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: Overflow
+  nameWithType: CardBase.Overflow
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Overflow
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Visibility
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Visibility
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: Visibility
+  nameWithType: CardBase.Visibility
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Visibility
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Column
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Column
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: Column
+  nameWithType: CardBase.Column
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Column
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.Row
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.Row
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: Row
+  nameWithType: CardBase.Row
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.Row
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.RowSpan
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.RowSpan
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: RowSpan
+  nameWithType: CardBase.RowSpan
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.RowSpan
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.ColSpan
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.ColSpan
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: ColSpan
+  nameWithType: CardBase.ColSpan
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.ColSpan
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.ConfigurationSchema
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.ConfigurationSchema
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: ConfigurationSchema
+  nameWithType: CardBase.ConfigurationSchema
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.ConfigurationSchema
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.VisibilityBinding
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.VisibilityBinding
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: VisibilityBinding
+  nameWithType: CardBase.VisibilityBinding
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.VisibilityBinding
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.Controls
+  commentId: N:SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Controls
+  nameWithType: SuperOffice.DCF.Web.UI.Controls
+  fullName: SuperOffice.DCF.Web.UI.Controls
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Web.UI.WebControls.Panel
+  isExternal: true
+  name: Panel
+  nameWithType: Panel
+  fullName: System.Web.UI.WebControls.Panel
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.OnLoad(System.EventArgs)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.TabbedCard.OnLoad(System.EventArgs)
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: OnLoad(EventArgs)
+  nameWithType: TabbedCard.OnLoad(EventArgs)
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.OnLoad(System.EventArgs)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.OnLoad(System.EventArgs)
+    name: OnLoad
+    nameWithType: TabbedCard.OnLoad
+    fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.OnLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.OnLoad(System.EventArgs)
+    name: OnLoad
+    nameWithType: TabbedCard.OnLoad
+    fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.OnLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard.OnLoad*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.DialogCard.OnLoad
+  isExternal: true
+  name: OnLoad
+  nameWithType: DialogCard.OnLoad
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard.OnLoad
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.Initialize(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.TabbedCard.Initialize(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: Initialize(XmlNode, String)
+  nameWithType: TabbedCard.Initialize(XmlNode, String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.Initialize(System.Xml.XmlNode, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.Initialize(System.Xml.XmlNode,System.String)
+    name: Initialize
+    nameWithType: TabbedCard.Initialize
+    fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.Initialize(System.Xml.XmlNode,System.String)
+    name: Initialize
+    nameWithType: TabbedCard.Initialize
+    fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard.Initialize*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.DialogCard.Initialize
+  isExternal: true
+  name: Initialize
+  nameWithType: DialogCard.Initialize
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard.Initialize
+- uid: System.Xml.XmlNode
+  isExternal: true
+  name: XmlNode
+  nameWithType: XmlNode
+  fullName: System.Xml.XmlNode
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.InitializeHeaderViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView},System.Web.UI.WebControls.Panel,System.Web.UI.WebControls.Panel)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.TabbedCard.InitializeHeaderViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView},System.Web.UI.WebControls.Panel,System.Web.UI.WebControls.Panel)
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: InitializeHeaderViews(XmlNode, Dictionary<String, IView>, Panel, Panel)
+  nameWithType: TabbedCard.InitializeHeaderViews(XmlNode, Dictionary<String, IView>, Panel, Panel)
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.InitializeHeaderViews(System.Xml.XmlNode, System.Collections.Generic.Dictionary<System.String, SuperOffice.DCF.Web.UI.IView>, System.Web.UI.WebControls.Panel, System.Web.UI.WebControls.Panel)
+  nameWithType.vb: TabbedCard.InitializeHeaderViews(XmlNode, Dictionary(Of String, IView), Panel, Panel)
+  fullName.vb: SuperOffice.CRM.Web.UI.Controls.TabbedCard.InitializeHeaderViews(System.Xml.XmlNode, System.Collections.Generic.Dictionary(Of System.String, SuperOffice.DCF.Web.UI.IView), System.Web.UI.WebControls.Panel, System.Web.UI.WebControls.Panel)
+  name.vb: InitializeHeaderViews(XmlNode, Dictionary(Of String, IView), Panel, Panel)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.InitializeHeaderViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView},System.Web.UI.WebControls.Panel,System.Web.UI.WebControls.Panel)
+    name: InitializeHeaderViews
+    nameWithType: TabbedCard.InitializeHeaderViews
+    fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.InitializeHeaderViews
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.DCF.Web.UI.IView
+    name: IView
+    nameWithType: IView
+    fullName: SuperOffice.DCF.Web.UI.IView
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Web.UI.WebControls.Panel
+    name: Panel
+    nameWithType: Panel
+    fullName: System.Web.UI.WebControls.Panel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Web.UI.WebControls.Panel
+    name: Panel
+    nameWithType: Panel
+    fullName: System.Web.UI.WebControls.Panel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.InitializeHeaderViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView},System.Web.UI.WebControls.Panel,System.Web.UI.WebControls.Panel)
+    name: InitializeHeaderViews
+    nameWithType: TabbedCard.InitializeHeaderViews
+    fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.InitializeHeaderViews
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.DCF.Web.UI.IView
+    name: IView
+    nameWithType: IView
+    fullName: SuperOffice.DCF.Web.UI.IView
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Web.UI.WebControls.Panel
+    name: Panel
+    nameWithType: Panel
+    fullName: System.Web.UI.WebControls.Panel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Web.UI.WebControls.Panel
+    name: Panel
+    nameWithType: Panel
+    fullName: System.Web.UI.WebControls.Panel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeHeaderViews*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeHeaderViews
+  isExternal: true
+  name: InitializeHeaderViews
+  nameWithType: DialogCard.InitializeHeaderViews
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeHeaderViews
+- uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, IView>
+  nameWithType: Dictionary<String, IView>
+  fullName: System.Collections.Generic.Dictionary<System.String, SuperOffice.DCF.Web.UI.IView>
+  nameWithType.vb: Dictionary(Of String, IView)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, SuperOffice.DCF.Web.UI.IView)
+  name.vb: Dictionary(Of String, IView)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.DCF.Web.UI.IView
+    name: IView
+    nameWithType: IView
+    fullName: SuperOffice.DCF.Web.UI.IView
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.DCF.Web.UI.IView
+    name: IView
+    nameWithType: IView
+    fullName: SuperOffice.DCF.Web.UI.IView
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeAbsoluteViews*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeAbsoluteViews
+  isExternal: true
+  name: InitializeAbsoluteViews
+  nameWithType: DialogCard.InitializeAbsoluteViews
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeAbsoluteViews
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeFooterViews*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeFooterViews
+  isExternal: true
+  name: InitializeFooterViews
+  nameWithType: DialogCard.InitializeFooterViews
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeFooterViews
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.InitializeTabbedViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.TabbedCard.InitializeTabbedViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: InitializeTabbedViews(XmlNode, Dictionary<String, IView>)
+  nameWithType: TabbedCard.InitializeTabbedViews(XmlNode, Dictionary<String, IView>)
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.InitializeTabbedViews(System.Xml.XmlNode, System.Collections.Generic.Dictionary<System.String, SuperOffice.DCF.Web.UI.IView>)
+  nameWithType.vb: TabbedCard.InitializeTabbedViews(XmlNode, Dictionary(Of String, IView))
+  fullName.vb: SuperOffice.CRM.Web.UI.Controls.TabbedCard.InitializeTabbedViews(System.Xml.XmlNode, System.Collections.Generic.Dictionary(Of System.String, SuperOffice.DCF.Web.UI.IView))
+  name.vb: InitializeTabbedViews(XmlNode, Dictionary(Of String, IView))
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.InitializeTabbedViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+    name: InitializeTabbedViews
+    nameWithType: TabbedCard.InitializeTabbedViews
+    fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.InitializeTabbedViews
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.DCF.Web.UI.IView
+    name: IView
+    nameWithType: IView
+    fullName: SuperOffice.DCF.Web.UI.IView
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.InitializeTabbedViews(System.Xml.XmlNode,System.Collections.Generic.Dictionary{System.String,SuperOffice.DCF.Web.UI.IView})
+    name: InitializeTabbedViews
+    nameWithType: TabbedCard.InitializeTabbedViews
+    fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.InitializeTabbedViews
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.DCF.Web.UI.IView
+    name: IView
+    nameWithType: IView
+    fullName: SuperOffice.DCF.Web.UI.IView
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeTabbedViews*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeTabbedViews
+  isExternal: true
+  name: InitializeTabbedViews
+  nameWithType: DialogCard.InitializeTabbedViews
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard.InitializeTabbedViews
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardResize
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardResize
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: CardResize()
+  nameWithType: TabbedCard.CardResize()
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardResize()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardResize
+    name: CardResize
+    nameWithType: TabbedCard.CardResize
+    fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardResize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardResize
+    name: CardResize
+    nameWithType: TabbedCard.CardResize
+    fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardResize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard.CardResize*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.DialogCard.CardResize
+  isExternal: true
+  name: CardResize
+  nameWithType: DialogCard.CardResize
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard.CardResize
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardBodyResize
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardBodyResize
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: CardBodyResize()
+  nameWithType: TabbedCard.CardBodyResize()
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardBodyResize()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardBodyResize
+    name: CardBodyResize
+    nameWithType: TabbedCard.CardBodyResize
+    fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardBodyResize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardBodyResize
+    name: CardBodyResize
+    nameWithType: TabbedCard.CardBodyResize
+    fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardBodyResize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard.CardBodyResize*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.DialogCard.CardBodyResize
+  isExternal: true
+  name: CardBodyResize
+  nameWithType: DialogCard.CardBodyResize
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard.CardBodyResize
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardHeadResize
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardHeadResize
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+  isExternal: true
+  name: CardHeadResize()
+  nameWithType: TabbedCard.CardHeadResize()
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardHeadResize()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardHeadResize
+    name: CardHeadResize
+    nameWithType: TabbedCard.CardHeadResize
+    fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardHeadResize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardHeadResize
+    name: CardHeadResize
+    nameWithType: TabbedCard.CardHeadResize
+    fullName: SuperOffice.CRM.Web.UI.Controls.TabbedCard.CardHeadResize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard.CardHeadResize*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.DialogCard.CardHeadResize
+  isExternal: true
+  name: CardHeadResize
+  nameWithType: DialogCard.CardHeadResize
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard.CardHeadResize
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.DialogCard.#ctor
+  isExternal: true
+  name: DialogCard
+  nameWithType: DialogCard.DialogCard
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard.DialogCard
+- uid: SuperOffice.DCF.Web.UI.Controls.CardBase.ReadOnly
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.CardBase.ReadOnly
+  parent: SuperOffice.DCF.Web.UI.Controls.CardBase
+  isExternal: true
+  name: ReadOnly
+  nameWithType: CardBase.ReadOnly
+  fullName: SuperOffice.DCF.Web.UI.Controls.CardBase.ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.DialogCard.ReadOnly*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.DialogCard.ReadOnly
+  isExternal: true
+  name: ReadOnly
+  nameWithType: DialogCard.ReadOnly
+  fullName: SuperOffice.CRM.Web.UI.Controls.DialogCard.ReadOnly
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

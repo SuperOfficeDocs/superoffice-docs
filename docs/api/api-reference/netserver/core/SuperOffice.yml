@@ -1,0 +1,280 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice
+  commentId: N:SuperOffice
+  id: SuperOffice
+  children:
+  - SuperOffice.CurrentPrincipalEnvironmentInfoPlugin
+  - SuperOffice.DoneNotDoneSplitter`2
+  - SuperOffice.HistoryStrings
+  - SuperOffice.ListNameConstants
+  - SuperOffice.NetServerBuildType
+  - SuperOffice.NetServerVersion
+  - SuperOffice.OperationContextType
+  - SuperOffice.Pair`2
+  - SuperOffice.SoContext
+  - SuperOffice.SoDatabaseContext
+  - SuperOffice.SoDatabaseContext.DatabaseContext
+  - SuperOffice.SoDatabaseContextStatic`1
+  - SuperOffice.SoDatabaseLogOut
+  - SuperOffice.SoOperationContext
+  - SuperOffice.SoSession
+  - SuperOffice.SoSystemInfo
+  - SuperOffice.UpgradeStatus
+  - SuperOffice.UserPreferenceDefaults
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice
+  nameWithType: SuperOffice
+  fullName: SuperOffice
+  type: Namespace
+  assemblies:
+  - SOCore
+references:
+- uid: SuperOffice.NetServerVersion
+  commentId: T:SuperOffice.NetServerVersion
+  isExternal: true
+  name: NetServerVersion
+  nameWithType: NetServerVersion
+  fullName: SuperOffice.NetServerVersion
+- uid: SuperOffice.OperationContextType
+  commentId: T:SuperOffice.OperationContextType
+  parent: SuperOffice
+  isExternal: true
+  name: OperationContextType
+  nameWithType: OperationContextType
+  fullName: SuperOffice.OperationContextType
+- uid: SuperOffice.SoOperationContext
+  commentId: T:SuperOffice.SoOperationContext
+  parent: SuperOffice
+  isExternal: true
+  name: SoOperationContext
+  nameWithType: SoOperationContext
+  fullName: SuperOffice.SoOperationContext
+- uid: SuperOffice.ListNameConstants
+  commentId: T:SuperOffice.ListNameConstants
+  isExternal: true
+  name: ListNameConstants
+  nameWithType: ListNameConstants
+  fullName: SuperOffice.ListNameConstants
+- uid: SuperOffice.HistoryStrings
+  commentId: T:SuperOffice.HistoryStrings
+  isExternal: true
+  name: HistoryStrings
+  nameWithType: HistoryStrings
+  fullName: SuperOffice.HistoryStrings
+- uid: SuperOffice.Pair`2
+  commentId: T:SuperOffice.Pair`2
+  isExternal: true
+  name: Pair<TFirst, TSecond>
+  nameWithType: Pair<TFirst, TSecond>
+  fullName: SuperOffice.Pair<TFirst, TSecond>
+  nameWithType.vb: Pair(Of TFirst, TSecond)
+  fullName.vb: SuperOffice.Pair(Of TFirst, TSecond)
+  name.vb: Pair(Of TFirst, TSecond)
+  spec.csharp:
+  - uid: SuperOffice.Pair`2
+    name: Pair
+    nameWithType: Pair
+    fullName: SuperOffice.Pair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TFirst
+    nameWithType: TFirst
+    fullName: TFirst
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSecond
+    nameWithType: TSecond
+    fullName: TSecond
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Pair`2
+    name: Pair
+    nameWithType: Pair
+    fullName: SuperOffice.Pair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TFirst
+    nameWithType: TFirst
+    fullName: TFirst
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TSecond
+    nameWithType: TSecond
+    fullName: TSecond
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.SoContext
+  commentId: T:SuperOffice.SoContext
+  isExternal: true
+  name: SoContext
+  nameWithType: SoContext
+  fullName: SuperOffice.SoContext
+- uid: SuperOffice.CurrentPrincipalEnvironmentInfoPlugin
+  commentId: T:SuperOffice.CurrentPrincipalEnvironmentInfoPlugin
+  isExternal: true
+  name: CurrentPrincipalEnvironmentInfoPlugin
+  nameWithType: CurrentPrincipalEnvironmentInfoPlugin
+  fullName: SuperOffice.CurrentPrincipalEnvironmentInfoPlugin
+- uid: SuperOffice.SoDatabaseLogOut
+  commentId: T:SuperOffice.SoDatabaseLogOut
+  parent: SuperOffice
+  isExternal: true
+  name: SoDatabaseLogOut
+  nameWithType: SoDatabaseLogOut
+  fullName: SuperOffice.SoDatabaseLogOut
+- uid: SuperOffice.SoDatabaseContext
+  commentId: T:SuperOffice.SoDatabaseContext
+  parent: SuperOffice
+  isExternal: true
+  name: SoDatabaseContext
+  nameWithType: SoDatabaseContext
+  fullName: SuperOffice.SoDatabaseContext
+- uid: SuperOffice.SoDatabaseContext.DatabaseContext
+  commentId: T:SuperOffice.SoDatabaseContext.DatabaseContext
+  parent: SuperOffice
+  isExternal: true
+  name: SoDatabaseContext.DatabaseContext
+  nameWithType: SoDatabaseContext.DatabaseContext
+  fullName: SuperOffice.SoDatabaseContext.DatabaseContext
+- uid: SuperOffice.SoDatabaseContextStatic`1
+  commentId: T:SuperOffice.SoDatabaseContextStatic`1
+  isExternal: true
+  name: SoDatabaseContextStatic<T>
+  nameWithType: SoDatabaseContextStatic<T>
+  fullName: SuperOffice.SoDatabaseContextStatic<T>
+  nameWithType.vb: SoDatabaseContextStatic(Of T)
+  fullName.vb: SuperOffice.SoDatabaseContextStatic(Of T)
+  name.vb: SoDatabaseContextStatic(Of T)
+  spec.csharp:
+  - uid: SuperOffice.SoDatabaseContextStatic`1
+    name: SoDatabaseContextStatic
+    nameWithType: SoDatabaseContextStatic
+    fullName: SuperOffice.SoDatabaseContextStatic
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.SoDatabaseContextStatic`1
+    name: SoDatabaseContextStatic
+    nameWithType: SoDatabaseContextStatic
+    fullName: SuperOffice.SoDatabaseContextStatic
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.SoSession
+  commentId: T:SuperOffice.SoSession
+  parent: SuperOffice
+  isExternal: true
+  name: SoSession
+  nameWithType: SoSession
+  fullName: SuperOffice.SoSession
+- uid: SuperOffice.SoSystemInfo
+  commentId: T:SuperOffice.SoSystemInfo
+  parent: SuperOffice
+  isExternal: true
+  name: SoSystemInfo
+  nameWithType: SoSystemInfo
+  fullName: SuperOffice.SoSystemInfo
+- uid: SuperOffice.UserPreferenceDefaults
+  commentId: T:SuperOffice.UserPreferenceDefaults
+  isExternal: true
+  name: UserPreferenceDefaults
+  nameWithType: UserPreferenceDefaults
+  fullName: SuperOffice.UserPreferenceDefaults
+- uid: SuperOffice.NetServerBuildType
+  commentId: T:SuperOffice.NetServerBuildType
+  parent: SuperOffice
+  isExternal: true
+  name: NetServerBuildType
+  nameWithType: NetServerBuildType
+  fullName: SuperOffice.NetServerBuildType
+- uid: SuperOffice.UpgradeStatus
+  commentId: T:SuperOffice.UpgradeStatus
+  parent: SuperOffice
+  isExternal: true
+  name: UpgradeStatus
+  nameWithType: UpgradeStatus
+  fullName: SuperOffice.UpgradeStatus
+- uid: SuperOffice.DoneNotDoneSplitter`2
+  commentId: T:SuperOffice.DoneNotDoneSplitter`2
+  isExternal: true
+  name: DoneNotDoneSplitter<InnerProvider, RootExtender>
+  nameWithType: DoneNotDoneSplitter<InnerProvider, RootExtender>
+  fullName: SuperOffice.DoneNotDoneSplitter<InnerProvider, RootExtender>
+  nameWithType.vb: DoneNotDoneSplitter(Of InnerProvider, RootExtender)
+  fullName.vb: SuperOffice.DoneNotDoneSplitter(Of InnerProvider, RootExtender)
+  name.vb: DoneNotDoneSplitter(Of InnerProvider, RootExtender)
+  spec.csharp:
+  - uid: SuperOffice.DoneNotDoneSplitter`2
+    name: DoneNotDoneSplitter
+    nameWithType: DoneNotDoneSplitter
+    fullName: SuperOffice.DoneNotDoneSplitter
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: InnerProvider
+    nameWithType: InnerProvider
+    fullName: InnerProvider
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: RootExtender
+    nameWithType: RootExtender
+    fullName: RootExtender
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.DoneNotDoneSplitter`2
+    name: DoneNotDoneSplitter
+    nameWithType: DoneNotDoneSplitter
+    fullName: SuperOffice.DoneNotDoneSplitter
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: InnerProvider
+    nameWithType: InnerProvider
+    fullName: InnerProvider
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: RootExtender
+    nameWithType: RootExtender
+    fullName: RootExtender
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice
+  commentId: N:SuperOffice
+  isExternal: true
+  name: SuperOffice
+  nameWithType: SuperOffice
+  fullName: SuperOffice

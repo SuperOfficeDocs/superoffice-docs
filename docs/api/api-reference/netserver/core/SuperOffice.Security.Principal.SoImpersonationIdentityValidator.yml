@@ -1,0 +1,1036 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Principal.SoImpersonationIdentityValidator
+  commentId: T:SuperOffice.Security.Principal.SoImpersonationIdentityValidator
+  id: SoImpersonationIdentityValidator
+  parent: SuperOffice.Security.Principal
+  children:
+  - SuperOffice.Security.Principal.SoImpersonationIdentityValidator.#ctor
+  - SuperOffice.Security.Principal.SoImpersonationIdentityValidator.TryValidateIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Security.Principal.ISoIdentity,SuperOffice.Data.SoConnection,System.String@)
+  langs:
+  - csharp
+  - vb
+  name: SoImpersonationIdentityValidator
+  nameWithType: SoImpersonationIdentityValidator
+  fullName: SuperOffice.Security.Principal.SoImpersonationIdentityValidator
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: >-
+      [SoIdentityValidator("SoImpersonationIdentityValidator")]
+
+      public sealed class SoImpersonationIdentityValidator : ISoIdentityValidator, IPlugin
+    content.vb: >-
+      <SoIdentityValidator("SoImpersonationIdentityValidator")>
+
+      Public NotInheritable Class SoImpersonationIdentityValidator
+          Implements ISoIdentityValidator, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Security.Principal.ISoIdentityValidator
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Security.Principal.SoImpersonationIdentityValidator.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Principal.SoImpersonationIdentityValidator.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Principal.SoImpersonationIdentityValidator)
+  - SuperOffice.Security.Principal.SoImpersonationIdentityValidator.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Security.Principal.SoImpersonationIdentityValidator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Security.Principal.SoIdentityValidatorAttribute
+    ctor: SuperOffice.Security.Principal.SoIdentityValidatorAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SoImpersonationIdentityValidator
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Security.Principal.SoImpersonationIdentityValidator.TryValidateIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Security.Principal.ISoIdentity,SuperOffice.Data.SoConnection,System.String@)
+  commentId: M:SuperOffice.Security.Principal.SoImpersonationIdentityValidator.TryValidateIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Security.Principal.ISoIdentity,SuperOffice.Data.SoConnection,System.String@)
+  id: TryValidateIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Security.Principal.ISoIdentity,SuperOffice.Data.SoConnection,System.String@)
+  parent: SuperOffice.Security.Principal.SoImpersonationIdentityValidator
+  langs:
+  - csharp
+  - vb
+  name: TryValidateIdentity(IList<SecurityToken>, ISoIdentity, SoConnection, out String)
+  nameWithType: SoImpersonationIdentityValidator.TryValidateIdentity(IList<SecurityToken>, ISoIdentity, SoConnection, out String)
+  fullName: SuperOffice.Security.Principal.SoImpersonationIdentityValidator.TryValidateIdentity(System.Collections.Generic.IList<System.IdentityModel.Tokens.SecurityToken>, SuperOffice.Security.Principal.ISoIdentity, SuperOffice.Data.SoConnection, out System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public TokenValidationResult TryValidateIdentity(IList<SecurityToken> tokens, ISoIdentity identity, SoConnection dbConnection, out string reason)
+    parameters:
+    - id: tokens
+      type: System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken}
+    - id: identity
+      type: SuperOffice.Security.Principal.ISoIdentity
+    - id: dbConnection
+      type: SuperOffice.Data.SoConnection
+    - id: reason
+      type: System.String
+    return:
+      type: SuperOffice.Security.TokenValidationResult
+    content.vb: Public Function TryValidateIdentity(tokens As IList(Of SecurityToken), identity As ISoIdentity, dbConnection As SoConnection, ByRef reason As String) As TokenValidationResult
+  overload: SuperOffice.Security.Principal.SoImpersonationIdentityValidator.TryValidateIdentity*
+  implements:
+  - SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Security.Principal.ISoIdentity,SuperOffice.Data.SoConnection,System.String@)
+  nameWithType.vb: SoImpersonationIdentityValidator.TryValidateIdentity(IList(Of SecurityToken), ISoIdentity, SoConnection, ByRef String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Security.Principal.SoImpersonationIdentityValidator.TryValidateIdentity(System.Collections.Generic.IList(Of System.IdentityModel.Tokens.SecurityToken), SuperOffice.Security.Principal.ISoIdentity, SuperOffice.Data.SoConnection, ByRef System.String)
+  name.vb: TryValidateIdentity(IList(Of SecurityToken), ISoIdentity, SoConnection, ByRef String)
+- uid: SuperOffice.Security.Principal.SoImpersonationIdentityValidator.#ctor
+  commentId: M:SuperOffice.Security.Principal.SoImpersonationIdentityValidator.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Security.Principal.SoImpersonationIdentityValidator
+  langs:
+  - csharp
+  - vb
+  name: SoImpersonationIdentityValidator()
+  nameWithType: SoImpersonationIdentityValidator.SoImpersonationIdentityValidator()
+  fullName: SuperOffice.Security.Principal.SoImpersonationIdentityValidator.SoImpersonationIdentityValidator()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public SoImpersonationIdentityValidator()
+    content.vb: Public Sub New
+  overload: SuperOffice.Security.Principal.SoImpersonationIdentityValidator.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Security.Principal.ISoIdentityValidator
+  commentId: T:SuperOffice.Security.Principal.ISoIdentityValidator
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: ISoIdentityValidator
+  nameWithType: ISoIdentityValidator
+  fullName: SuperOffice.Security.Principal.ISoIdentityValidator
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoImpersonationIdentityValidator.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoImpersonationIdentityValidator, To>()
+  nameWithType: EnumUtil.MapEnums<SoImpersonationIdentityValidator, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.SoImpersonationIdentityValidator, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoImpersonationIdentityValidator, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.SoImpersonationIdentityValidator, To)()
+  name.vb: MapEnums(Of SoImpersonationIdentityValidator, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoImpersonationIdentityValidator, To>
+    nameWithType: EnumUtil.MapEnums<SoImpersonationIdentityValidator, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.SoImpersonationIdentityValidator, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoImpersonationIdentityValidator, To)
+    nameWithType: EnumUtil.MapEnums(Of SoImpersonationIdentityValidator, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.SoImpersonationIdentityValidator, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoImpersonationIdentityValidator.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Principal.SoImpersonationIdentityValidator)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SoImpersonationIdentityValidator>(SoImpersonationIdentityValidator)
+  nameWithType: ObjectExtensions.AssignByReflection<SoImpersonationIdentityValidator>(SoImpersonationIdentityValidator)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Principal.SoImpersonationIdentityValidator>(SuperOffice.Security.Principal.SoImpersonationIdentityValidator)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoImpersonationIdentityValidator)(SoImpersonationIdentityValidator)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Principal.SoImpersonationIdentityValidator)(SuperOffice.Security.Principal.SoImpersonationIdentityValidator)
+  name.vb: AssignByReflection(Of SoImpersonationIdentityValidator)(SoImpersonationIdentityValidator)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SoImpersonationIdentityValidator>
+    nameWithType: ObjectExtensions.AssignByReflection<SoImpersonationIdentityValidator>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Principal.SoImpersonationIdentityValidator>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Security.Principal.SoImpersonationIdentityValidator
+    name: SoImpersonationIdentityValidator
+    nameWithType: SoImpersonationIdentityValidator
+    fullName: SuperOffice.Security.Principal.SoImpersonationIdentityValidator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SoImpersonationIdentityValidator)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SoImpersonationIdentityValidator)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Principal.SoImpersonationIdentityValidator)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Security.Principal.SoImpersonationIdentityValidator
+    name: SoImpersonationIdentityValidator
+    nameWithType: SoImpersonationIdentityValidator
+    fullName: SuperOffice.Security.Principal.SoImpersonationIdentityValidator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoImpersonationIdentityValidator.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SoImpersonationIdentityValidator>()
+  nameWithType: ObjectExtensions.GraphCopy<SoImpersonationIdentityValidator>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Principal.SoImpersonationIdentityValidator>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoImpersonationIdentityValidator)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Principal.SoImpersonationIdentityValidator)()
+  name.vb: GraphCopy(Of SoImpersonationIdentityValidator)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SoImpersonationIdentityValidator>
+    nameWithType: ObjectExtensions.GraphCopy<SoImpersonationIdentityValidator>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Principal.SoImpersonationIdentityValidator>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SoImpersonationIdentityValidator)
+    nameWithType: ObjectExtensions.GraphCopy(Of SoImpersonationIdentityValidator)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Principal.SoImpersonationIdentityValidator)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoImpersonationIdentityValidator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoImpersonationIdentityValidator, To>()
+  nameWithType: Converters.MapEnums<SoImpersonationIdentityValidator, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.SoImpersonationIdentityValidator, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoImpersonationIdentityValidator, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.SoImpersonationIdentityValidator, To)()
+  name.vb: MapEnums(Of SoImpersonationIdentityValidator, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoImpersonationIdentityValidator, To>
+    nameWithType: Converters.MapEnums<SoImpersonationIdentityValidator, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.SoImpersonationIdentityValidator, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoImpersonationIdentityValidator, To)
+    nameWithType: Converters.MapEnums(Of SoImpersonationIdentityValidator, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.SoImpersonationIdentityValidator, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Security.Principal.SoImpersonationIdentityValidator.TryValidateIdentity*
+  commentId: Overload:SuperOffice.Security.Principal.SoImpersonationIdentityValidator.TryValidateIdentity
+  isExternal: true
+  name: TryValidateIdentity
+  nameWithType: SoImpersonationIdentityValidator.TryValidateIdentity
+  fullName: SuperOffice.Security.Principal.SoImpersonationIdentityValidator.TryValidateIdentity
+- uid: SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Security.Principal.ISoIdentity,SuperOffice.Data.SoConnection,System.String@)
+  commentId: M:SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Security.Principal.ISoIdentity,SuperOffice.Data.SoConnection,System.String@)
+  parent: SuperOffice.Security.Principal.ISoIdentityValidator
+  isExternal: true
+  name: TryValidateIdentity(IList<SecurityToken>, ISoIdentity, SoConnection, String)
+  nameWithType: ISoIdentityValidator.TryValidateIdentity(IList<SecurityToken>, ISoIdentity, SoConnection, String)
+  fullName: SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity(System.Collections.Generic.IList<System.IdentityModel.Tokens.SecurityToken>, SuperOffice.Security.Principal.ISoIdentity, SuperOffice.Data.SoConnection, System.String)
+  nameWithType.vb: ISoIdentityValidator.TryValidateIdentity(IList(Of SecurityToken), ISoIdentity, SoConnection, String)
+  fullName.vb: SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity(System.Collections.Generic.IList(Of System.IdentityModel.Tokens.SecurityToken), SuperOffice.Security.Principal.ISoIdentity, SuperOffice.Data.SoConnection, System.String)
+  name.vb: TryValidateIdentity(IList(Of SecurityToken), ISoIdentity, SoConnection, String)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Security.Principal.ISoIdentity,SuperOffice.Data.SoConnection,System.String@)
+    name: TryValidateIdentity
+    nameWithType: ISoIdentityValidator.TryValidateIdentity
+    fullName: SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.IdentityModel.Tokens.SecurityToken
+    name: SecurityToken
+    nameWithType: SecurityToken
+    fullName: System.IdentityModel.Tokens.SecurityToken
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Security.Principal.ISoIdentity
+    name: ISoIdentity
+    nameWithType: ISoIdentity
+    fullName: SuperOffice.Security.Principal.ISoIdentity
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoConnection
+    name: SoConnection
+    nameWithType: SoConnection
+    fullName: SuperOffice.Data.SoConnection
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Security.Principal.ISoIdentity,SuperOffice.Data.SoConnection,System.String@)
+    name: TryValidateIdentity
+    nameWithType: ISoIdentityValidator.TryValidateIdentity
+    fullName: SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.IdentityModel.Tokens.SecurityToken
+    name: SecurityToken
+    nameWithType: SecurityToken
+    fullName: System.IdentityModel.Tokens.SecurityToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Security.Principal.ISoIdentity
+    name: ISoIdentity
+    nameWithType: ISoIdentity
+    fullName: SuperOffice.Security.Principal.ISoIdentity
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoConnection
+    name: SoConnection
+    nameWithType: SoConnection
+    fullName: SuperOffice.Data.SoConnection
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken}
+  commentId: T:System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<SecurityToken>
+  nameWithType: IList<SecurityToken>
+  fullName: System.Collections.Generic.IList<System.IdentityModel.Tokens.SecurityToken>
+  nameWithType.vb: IList(Of SecurityToken)
+  fullName.vb: System.Collections.Generic.IList(Of System.IdentityModel.Tokens.SecurityToken)
+  name.vb: IList(Of SecurityToken)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.IdentityModel.Tokens.SecurityToken
+    name: SecurityToken
+    nameWithType: SecurityToken
+    fullName: System.IdentityModel.Tokens.SecurityToken
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.IdentityModel.Tokens.SecurityToken
+    name: SecurityToken
+    nameWithType: SecurityToken
+    fullName: System.IdentityModel.Tokens.SecurityToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.ISoIdentity
+  commentId: T:SuperOffice.Security.Principal.ISoIdentity
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: ISoIdentity
+  nameWithType: ISoIdentity
+  fullName: SuperOffice.Security.Principal.ISoIdentity
+- uid: SuperOffice.Data.SoConnection
+  commentId: T:SuperOffice.Data.SoConnection
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoConnection
+  nameWithType: SoConnection
+  fullName: SuperOffice.Data.SoConnection
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Security.TokenValidationResult
+  commentId: T:SuperOffice.Security.TokenValidationResult
+  parent: SuperOffice.Security
+  isExternal: true
+  name: TokenValidationResult
+  nameWithType: TokenValidationResult
+  fullName: SuperOffice.Security.TokenValidationResult
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Security
+  commentId: N:SuperOffice.Security
+  isExternal: true
+  name: SuperOffice.Security
+  nameWithType: SuperOffice.Security
+  fullName: SuperOffice.Security
+- uid: SuperOffice.Security.Principal.SoImpersonationIdentityValidator.#ctor*
+  commentId: Overload:SuperOffice.Security.Principal.SoImpersonationIdentityValidator.#ctor
+  isExternal: true
+  name: SoImpersonationIdentityValidator
+  nameWithType: SoImpersonationIdentityValidator.SoImpersonationIdentityValidator
+  fullName: SuperOffice.Security.Principal.SoImpersonationIdentityValidator.SoImpersonationIdentityValidator

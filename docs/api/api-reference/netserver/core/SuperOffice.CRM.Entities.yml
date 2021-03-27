@@ -1,0 +1,2217 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  id: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.ActiveInterestsChanged
+  - SuperOffice.CRM.Entities.ActivityLinksHelper
+  - SuperOffice.CRM.Entities.Appointment
+  - SuperOffice.CRM.Entities.Appointment.AppointmentIdx
+  - SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1
+  - SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
+  - SuperOffice.CRM.Entities.Appointment.CustomSearch
+  - SuperOffice.CRM.Entities.Appointment.IdxActiveDateAssociateIdAppointmentIdMotherId
+  - SuperOffice.CRM.Entities.Appointment.IdxActiveDateMotherIdTypeDocumentIdAppointmentIdAssignedByAssociateIdProjectIdGroupIdxRegisteredRegisteredAssociateId
+  - SuperOffice.CRM.Entities.Appointment.IdxAppointmentId
+  - SuperOffice.CRM.Entities.Appointment.IdxAssociateIdGroupIdxActiveDateTypeRegisteredMotherIdAppointmentIdAssignedByStatusRegisteredAssociateId
+  - SuperOffice.CRM.Entities.AppointmentCollection
+  - SuperOffice.CRM.Entities.AppointmentCollection.AppointmentCollectionIdx
+  - SuperOffice.CRM.Entities.AppointmentCollection.AppointmentCollectionIdx`1
+  - SuperOffice.CRM.Entities.AppointmentCollection.CustomSearch
+  - SuperOffice.CRM.Entities.AppointmentCollection.IdxActiveDate
+  - SuperOffice.CRM.Entities.AppointmentCollection.IdxActiveDateMotherIdRecurrenceRuleId
+  - SuperOffice.CRM.Entities.AppointmentCollection.IdxActiveDateStatusTypeAssociateId
+  - SuperOffice.CRM.Entities.AppointmentCollection.IdxAssociateIdDoByStatusType
+  - SuperOffice.CRM.Entities.AppointmentCollection.IdxAssociateIdRecurrenceRuleIdActiveDate
+  - SuperOffice.CRM.Entities.AppointmentCollection.IdxAssociateIdStatusDoneType
+  - SuperOffice.CRM.Entities.AppointmentCollection.IdxContactId
+  - SuperOffice.CRM.Entities.AppointmentCollection.IdxContactIdType
+  - SuperOffice.CRM.Entities.AppointmentCollection.IdxDoBy
+  - SuperOffice.CRM.Entities.AppointmentCollection.IdxDoByTypeEndDateAssociateId
+  - SuperOffice.CRM.Entities.AppointmentCollection.IdxDocumentId
+  - SuperOffice.CRM.Entities.AppointmentCollection.IdxDone
+  - SuperOffice.CRM.Entities.AppointmentCollection.IdxGroupIdx
+  - SuperOffice.CRM.Entities.AppointmentCollection.IdxMotherId
+  - SuperOffice.CRM.Entities.AppointmentCollection.IdxPersonId
+  - SuperOffice.CRM.Entities.AppointmentCollection.IdxProjectId
+  - SuperOffice.CRM.Entities.AppointmentCollection.IdxProjectIdType
+  - SuperOffice.CRM.Entities.AppointmentCollection.IdxSource
+  - SuperOffice.CRM.Entities.AppointmentCollection.IdxTextId
+  - SuperOffice.CRM.Entities.AppointmentCollection.IdxUserdef2Id
+  - SuperOffice.CRM.Entities.AppointmentCollection.IdxUserdefId
+  - SuperOffice.CRM.Entities.AppointmentDeleteAction
+  - SuperOffice.CRM.Entities.AppointmentMatrix
+  - SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
+  - SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+  - SuperOffice.CRM.Entities.AppointmentMatrix.RowModification
+  - SuperOffice.CRM.Entities.AppointmentMatrix.SendMails
+  - SuperOffice.CRM.Entities.BookingManager
+  - SuperOffice.CRM.Entities.BookingManagerModified
+  - SuperOffice.CRM.Entities.ConflictDetector
+  - SuperOffice.CRM.Entities.ConflictDetector.ConflictTime
+  - SuperOffice.CRM.Entities.ConsentInfo
+  - SuperOffice.CRM.Entities.ConsentManagement
+  - SuperOffice.CRM.Entities.ConsentManagementEmail
+  - SuperOffice.CRM.Entities.Contact
+  - SuperOffice.CRM.Entities.Contact.ContactIdx
+  - SuperOffice.CRM.Entities.Contact.ContactIdx`1
+  - SuperOffice.CRM.Entities.Contact.ContactIdxBase
+  - SuperOffice.CRM.Entities.Contact.CustomSearch
+  - SuperOffice.CRM.Entities.Contact.IdxContactId
+  - SuperOffice.CRM.Entities.ContactCollection
+  - SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx
+  - SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx`1
+  - SuperOffice.CRM.Entities.ContactCollection.CustomSearch
+  - SuperOffice.CRM.Entities.ContactCollection.IdxBusinessIdx
+  - SuperOffice.CRM.Entities.ContactCollection.IdxCategoryIdx
+  - SuperOffice.CRM.Entities.ContactCollection.IdxDepartment
+  - SuperOffice.CRM.Entities.ContactCollection.IdxKananame
+  - SuperOffice.CRM.Entities.ContactCollection.IdxMotherId
+  - SuperOffice.CRM.Entities.ContactCollection.IdxName
+  - SuperOffice.CRM.Entities.ContactCollection.IdxNameDepartment
+  - SuperOffice.CRM.Entities.ContactCollection.IdxNumber1
+  - SuperOffice.CRM.Entities.ContactCollection.IdxNumber2
+  - SuperOffice.CRM.Entities.ContactCollection.IdxOrgNr
+  - SuperOffice.CRM.Entities.ContactCollection.IdxSoundEx
+  - SuperOffice.CRM.Entities.ContactCollection.IdxSource
+  - SuperOffice.CRM.Entities.ContactCollection.IdxUserdef2Id
+  - SuperOffice.CRM.Entities.ContactCollection.IdxUserdefId
+  - SuperOffice.CRM.Entities.ContactInterestHelper
+  - SuperOffice.CRM.Entities.Defaulter
+  - SuperOffice.CRM.Entities.Document
+  - SuperOffice.CRM.Entities.Document.CustomSearch
+  - SuperOffice.CRM.Entities.Document.DocumentIdx
+  - SuperOffice.CRM.Entities.Document.DocumentIdx`1
+  - SuperOffice.CRM.Entities.Document.DocumentIdxBase
+  - SuperOffice.CRM.Entities.Document.IdxDocumentId
+  - SuperOffice.CRM.Entities.DocumentCollection
+  - SuperOffice.CRM.Entities.DocumentCollection.CustomSearch
+  - SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx
+  - SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx`1
+  - SuperOffice.CRM.Entities.DocumentCollection.IdxArchiveProvider
+  - SuperOffice.CRM.Entities.DocumentCollection.IdxExtref
+  - SuperOffice.CRM.Entities.DocumentCollection.IdxHeader
+  - SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef
+  - SuperOffice.CRM.Entities.DocumentCollection.IdxSearchname
+  - SuperOffice.CRM.Entities.DocumentCollection.IdxUserdef2Id
+  - SuperOffice.CRM.Entities.DocumentCollection.IdxUserdefId
+  - SuperOffice.CRM.Entities.EntityBase
+  - SuperOffice.CRM.Entities.EntityCollectionBase
+  - SuperOffice.CRM.Entities.EntityCustomFieldsHelper
+  - SuperOffice.CRM.Entities.EntityDetailsHelper`2
+  - SuperOffice.CRM.Entities.EntityDetailsHelperModified`2
+  - SuperOffice.CRM.Entities.EntityExtraFieldsHelper
+  - SuperOffice.CRM.Entities.EntityIdxBase
+  - SuperOffice.CRM.Entities.EntityIdxBase`2
+  - SuperOffice.CRM.Entities.EntityManagementFunctions
+  - SuperOffice.CRM.Entities.EntityPublishHelper
+  - SuperOffice.CRM.Entities.EntityPublishHelper.PublishSaveState
+  - SuperOffice.CRM.Entities.EntityUdefHelper
+  - SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange
+  - SuperOffice.CRM.Entities.EntityVisibleForHelper
+  - SuperOffice.CRM.Entities.GetRelatedObjects
+  - SuperOffice.CRM.Entities.IEntityUdefHelperContainer
+  - SuperOffice.CRM.Entities.InterestHelper
+  - SuperOffice.CRM.Entities.LinksHelper
+  - SuperOffice.CRM.Entities.Person
+  - SuperOffice.CRM.Entities.Person.CustomSearch
+  - SuperOffice.CRM.Entities.Person.IdxPersonId
+  - SuperOffice.CRM.Entities.Person.PersonIdx
+  - SuperOffice.CRM.Entities.Person.PersonIdx`1
+  - SuperOffice.CRM.Entities.Person.PersonIdxBase
+  - SuperOffice.CRM.Entities.PersonCollection
+  - SuperOffice.CRM.Entities.PersonCollection.CustomSearch
+  - SuperOffice.CRM.Entities.PersonCollection.IdxBusinessIdx
+  - SuperOffice.CRM.Entities.PersonCollection.IdxCategoryIdx
+  - SuperOffice.CRM.Entities.PersonCollection.IdxContactId
+  - SuperOffice.CRM.Entities.PersonCollection.IdxContactIdRank
+  - SuperOffice.CRM.Entities.PersonCollection.IdxFirstname
+  - SuperOffice.CRM.Entities.PersonCollection.IdxKanafname
+  - SuperOffice.CRM.Entities.PersonCollection.IdxKanalname
+  - SuperOffice.CRM.Entities.PersonCollection.IdxLastname
+  - SuperOffice.CRM.Entities.PersonCollection.IdxPersonNumber
+  - SuperOffice.CRM.Entities.PersonCollection.IdxSource
+  - SuperOffice.CRM.Entities.PersonCollection.IdxUserdef2Id
+  - SuperOffice.CRM.Entities.PersonCollection.IdxUserdefId
+  - SuperOffice.CRM.Entities.PersonCollection.PersonCollectionIdx
+  - SuperOffice.CRM.Entities.PersonCollection.PersonCollectionIdx`1
+  - SuperOffice.CRM.Entities.PersonInterestHelper
+  - SuperOffice.CRM.Entities.ProgressCallback
+  - SuperOffice.CRM.Entities.Project
+  - SuperOffice.CRM.Entities.Project.CustomSearch
+  - SuperOffice.CRM.Entities.Project.IdxProjectId
+  - SuperOffice.CRM.Entities.Project.ProjectIdx
+  - SuperOffice.CRM.Entities.Project.ProjectIdx`1
+  - SuperOffice.CRM.Entities.Project.ProjectIdxBase
+  - SuperOffice.CRM.Entities.ProjectCollection
+  - SuperOffice.CRM.Entities.ProjectCollection.CustomSearch
+  - SuperOffice.CRM.Entities.ProjectCollection.IdxName
+  - SuperOffice.CRM.Entities.ProjectCollection.IdxProjectNumber
+  - SuperOffice.CRM.Entities.ProjectCollection.IdxSoundEx
+  - SuperOffice.CRM.Entities.ProjectCollection.IdxSource
+  - SuperOffice.CRM.Entities.ProjectCollection.IdxUserdef2Id
+  - SuperOffice.CRM.Entities.ProjectCollection.ProjectCollectionIdx
+  - SuperOffice.CRM.Entities.ProjectCollection.ProjectCollectionIdx`1
+  - SuperOffice.CRM.Entities.ProjectMember
+  - SuperOffice.CRM.Entities.ProjectMember.CustomSearch
+  - SuperOffice.CRM.Entities.ProjectMember.IdxProjectmemberId
+  - SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdx
+  - SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdx`1
+  - SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase
+  - SuperOffice.CRM.Entities.ProjectMemberCollection
+  - SuperOffice.CRM.Entities.ProjectMemberCollection.CustomSearch
+  - SuperOffice.CRM.Entities.ProjectMemberCollection.IdxContactId
+  - SuperOffice.CRM.Entities.ProjectMemberCollection.IdxPersonId
+  - SuperOffice.CRM.Entities.ProjectMemberCollection.IdxProjectIdRank
+  - SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx
+  - SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx`1
+  - SuperOffice.CRM.Entities.RecurrenceManager
+  - SuperOffice.CRM.Entities.SaintConfigurationCache
+  - SuperOffice.CRM.Entities.SaintRegenerator
+  - SuperOffice.CRM.Entities.Sale
+  - SuperOffice.CRM.Entities.Sale.CustomSearch
+  - SuperOffice.CRM.Entities.Sale.IdxSaleId
+  - SuperOffice.CRM.Entities.Sale.SaleIdx
+  - SuperOffice.CRM.Entities.Sale.SaleIdx`1
+  - SuperOffice.CRM.Entities.Sale.SaleIdxBase
+  - SuperOffice.CRM.Entities.SaleCollection
+  - SuperOffice.CRM.Entities.SaleCollection.CustomSearch
+  - SuperOffice.CRM.Entities.SaleCollection.IdxAssociateIdContactIdSaledate
+  - SuperOffice.CRM.Entities.SaleCollection.IdxAssociateIdDoneSaledate
+  - SuperOffice.CRM.Entities.SaleCollection.IdxContactId
+  - SuperOffice.CRM.Entities.SaleCollection.IdxDone
+  - SuperOffice.CRM.Entities.SaleCollection.IdxHeading
+  - SuperOffice.CRM.Entities.SaleCollection.IdxNumber1
+  - SuperOffice.CRM.Entities.SaleCollection.IdxPersonId
+  - SuperOffice.CRM.Entities.SaleCollection.IdxProjectId
+  - SuperOffice.CRM.Entities.SaleCollection.IdxProjectIdAssociateIdSaledate
+  - SuperOffice.CRM.Entities.SaleCollection.IdxSaledate
+  - SuperOffice.CRM.Entities.SaleCollection.IdxSource
+  - SuperOffice.CRM.Entities.SaleCollection.IdxStatus
+  - SuperOffice.CRM.Entities.SaleCollection.IdxUserdef2Id
+  - SuperOffice.CRM.Entities.SaleCollection.IdxUserdefId
+  - SuperOffice.CRM.Entities.SaleCollection.SaleCollectionIdx
+  - SuperOffice.CRM.Entities.SaleCollection.SaleCollectionIdx`1
+  - SuperOffice.CRM.Entities.Selection
+  - SuperOffice.CRM.Entities.Selection.CustomSearch
+  - SuperOffice.CRM.Entities.Selection.IdxSelectionId
+  - SuperOffice.CRM.Entities.Selection.SelectionIdx
+  - SuperOffice.CRM.Entities.Selection.SelectionIdx`1
+  - SuperOffice.CRM.Entities.Selection.SelectionIdxBase
+  - SuperOffice.CRM.Entities.SelectionCollection
+  - SuperOffice.CRM.Entities.SelectionCollection.CustomSearch
+  - SuperOffice.CRM.Entities.SelectionCollection.IdxAssociateId
+  - SuperOffice.CRM.Entities.SelectionCollection.IdxGroupIdx
+  - SuperOffice.CRM.Entities.SelectionCollection.IdxName
+  - SuperOffice.CRM.Entities.SelectionCollection.IdxSoundEx
+  - SuperOffice.CRM.Entities.SelectionCollection.IdxSource
+  - SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx
+  - SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx`1
+  - SuperOffice.CRM.Entities.SelectionTypeInfo
+  - SuperOffice.CRM.Entities.SelectionTypeManager
+  - SuperOffice.CRM.Entities.ValidatorHelper
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+  type: Namespace
+  assemblies:
+  - SoDataBase
+references:
+- uid: SuperOffice.CRM.Entities.ConsentManagement
+  commentId: T:SuperOffice.CRM.Entities.ConsentManagement
+  isExternal: true
+  name: ConsentManagement
+  nameWithType: ConsentManagement
+  fullName: SuperOffice.CRM.Entities.ConsentManagement
+- uid: SuperOffice.CRM.Entities.ConsentInfo
+  commentId: T:SuperOffice.CRM.Entities.ConsentInfo
+  isExternal: true
+  name: ConsentInfo
+  nameWithType: ConsentInfo
+  fullName: SuperOffice.CRM.Entities.ConsentInfo
+- uid: SuperOffice.CRM.Entities.ConsentManagementEmail
+  commentId: T:SuperOffice.CRM.Entities.ConsentManagementEmail
+  isExternal: true
+  name: ConsentManagementEmail
+  nameWithType: ConsentManagementEmail
+  fullName: SuperOffice.CRM.Entities.ConsentManagementEmail
+- uid: SuperOffice.CRM.Entities.EntityCustomFieldsHelper
+  commentId: T:SuperOffice.CRM.Entities.EntityCustomFieldsHelper
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: EntityCustomFieldsHelper
+  nameWithType: EntityCustomFieldsHelper
+  fullName: SuperOffice.CRM.Entities.EntityCustomFieldsHelper
+- uid: SuperOffice.CRM.Entities.SelectionTypeManager
+  commentId: T:SuperOffice.CRM.Entities.SelectionTypeManager
+  isExternal: true
+  name: SelectionTypeManager
+  nameWithType: SelectionTypeManager
+  fullName: SuperOffice.CRM.Entities.SelectionTypeManager
+- uid: SuperOffice.CRM.Entities.SelectionTypeInfo
+  commentId: T:SuperOffice.CRM.Entities.SelectionTypeInfo
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: SelectionTypeInfo
+  nameWithType: SelectionTypeInfo
+  fullName: SuperOffice.CRM.Entities.SelectionTypeInfo
+- uid: SuperOffice.CRM.Entities.ValidatorHelper
+  commentId: T:SuperOffice.CRM.Entities.ValidatorHelper
+  isExternal: true
+  name: ValidatorHelper
+  nameWithType: ValidatorHelper
+  fullName: SuperOffice.CRM.Entities.ValidatorHelper
+- uid: SuperOffice.CRM.Entities.EntityManagementFunctions
+  commentId: T:SuperOffice.CRM.Entities.EntityManagementFunctions
+  isExternal: true
+  name: EntityManagementFunctions
+  nameWithType: EntityManagementFunctions
+  fullName: SuperOffice.CRM.Entities.EntityManagementFunctions
+- uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
+  commentId: T:SuperOffice.CRM.Entities.EntityExtraFieldsHelper
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: EntityExtraFieldsHelper
+  nameWithType: EntityExtraFieldsHelper
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
+- uid: SuperOffice.CRM.Entities.SaintConfigurationCache
+  commentId: T:SuperOffice.CRM.Entities.SaintConfigurationCache
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: SaintConfigurationCache
+  nameWithType: SaintConfigurationCache
+  fullName: SuperOffice.CRM.Entities.SaintConfigurationCache
+- uid: SuperOffice.CRM.Entities.ProgressCallback
+  commentId: T:SuperOffice.CRM.Entities.ProgressCallback
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: ProgressCallback
+  nameWithType: ProgressCallback
+  fullName: SuperOffice.CRM.Entities.ProgressCallback
+- uid: SuperOffice.CRM.Entities.SaintRegenerator
+  commentId: T:SuperOffice.CRM.Entities.SaintRegenerator
+  isExternal: true
+  name: SaintRegenerator
+  nameWithType: SaintRegenerator
+  fullName: SuperOffice.CRM.Entities.SaintRegenerator
+- uid: SuperOffice.CRM.Entities.AppointmentCollection
+  commentId: T:SuperOffice.CRM.Entities.AppointmentCollection
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: AppointmentCollection
+  nameWithType: AppointmentCollection
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.AppointmentCollectionIdx
+  commentId: T:SuperOffice.CRM.Entities.AppointmentCollection.AppointmentCollectionIdx
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: AppointmentCollection.AppointmentCollectionIdx
+  nameWithType: AppointmentCollection.AppointmentCollectionIdx
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.AppointmentCollectionIdx
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.AppointmentCollectionIdx`1
+  commentId: T:SuperOffice.CRM.Entities.AppointmentCollection.AppointmentCollectionIdx`1
+  isExternal: true
+  name: AppointmentCollection.AppointmentCollectionIdx<TIdx>
+  nameWithType: AppointmentCollection.AppointmentCollectionIdx<TIdx>
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.AppointmentCollectionIdx<TIdx>
+  nameWithType.vb: AppointmentCollection.AppointmentCollectionIdx(Of TIdx)
+  fullName.vb: SuperOffice.CRM.Entities.AppointmentCollection.AppointmentCollectionIdx(Of TIdx)
+  name.vb: AppointmentCollection.AppointmentCollectionIdx(Of TIdx)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.AppointmentCollection.AppointmentCollectionIdx`1
+    name: AppointmentCollection.AppointmentCollectionIdx
+    nameWithType: AppointmentCollection.AppointmentCollectionIdx
+    fullName: SuperOffice.CRM.Entities.AppointmentCollection.AppointmentCollectionIdx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.AppointmentCollection.AppointmentCollectionIdx`1
+    name: AppointmentCollection.AppointmentCollectionIdx
+    nameWithType: AppointmentCollection.AppointmentCollectionIdx
+    fullName: SuperOffice.CRM.Entities.AppointmentCollection.AppointmentCollectionIdx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.IdxActiveDateStatusTypeAssociateId
+  commentId: T:SuperOffice.CRM.Entities.AppointmentCollection.IdxActiveDateStatusTypeAssociateId
+  isExternal: true
+  name: AppointmentCollection.IdxActiveDateStatusTypeAssociateId
+  nameWithType: AppointmentCollection.IdxActiveDateStatusTypeAssociateId
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.IdxActiveDateStatusTypeAssociateId
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.IdxContactIdType
+  commentId: T:SuperOffice.CRM.Entities.AppointmentCollection.IdxContactIdType
+  isExternal: true
+  name: AppointmentCollection.IdxContactIdType
+  nameWithType: AppointmentCollection.IdxContactIdType
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.IdxContactIdType
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.IdxProjectIdType
+  commentId: T:SuperOffice.CRM.Entities.AppointmentCollection.IdxProjectIdType
+  isExternal: true
+  name: AppointmentCollection.IdxProjectIdType
+  nameWithType: AppointmentCollection.IdxProjectIdType
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.IdxProjectIdType
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.IdxMotherId
+  commentId: T:SuperOffice.CRM.Entities.AppointmentCollection.IdxMotherId
+  isExternal: true
+  name: AppointmentCollection.IdxMotherId
+  nameWithType: AppointmentCollection.IdxMotherId
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.IdxMotherId
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.IdxDoByTypeEndDateAssociateId
+  commentId: T:SuperOffice.CRM.Entities.AppointmentCollection.IdxDoByTypeEndDateAssociateId
+  isExternal: true
+  name: AppointmentCollection.IdxDoByTypeEndDateAssociateId
+  nameWithType: AppointmentCollection.IdxDoByTypeEndDateAssociateId
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.IdxDoByTypeEndDateAssociateId
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.IdxActiveDate
+  commentId: T:SuperOffice.CRM.Entities.AppointmentCollection.IdxActiveDate
+  isExternal: true
+  name: AppointmentCollection.IdxActiveDate
+  nameWithType: AppointmentCollection.IdxActiveDate
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.IdxActiveDate
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.IdxAssociateIdDoByStatusType
+  commentId: T:SuperOffice.CRM.Entities.AppointmentCollection.IdxAssociateIdDoByStatusType
+  isExternal: true
+  name: AppointmentCollection.IdxAssociateIdDoByStatusType
+  nameWithType: AppointmentCollection.IdxAssociateIdDoByStatusType
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.IdxAssociateIdDoByStatusType
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.IdxActiveDateMotherIdRecurrenceRuleId
+  commentId: T:SuperOffice.CRM.Entities.AppointmentCollection.IdxActiveDateMotherIdRecurrenceRuleId
+  isExternal: true
+  name: AppointmentCollection.IdxActiveDateMotherIdRecurrenceRuleId
+  nameWithType: AppointmentCollection.IdxActiveDateMotherIdRecurrenceRuleId
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.IdxActiveDateMotherIdRecurrenceRuleId
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.IdxSource
+  commentId: T:SuperOffice.CRM.Entities.AppointmentCollection.IdxSource
+  isExternal: true
+  name: AppointmentCollection.IdxSource
+  nameWithType: AppointmentCollection.IdxSource
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.IdxSource
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.IdxContactId
+  commentId: T:SuperOffice.CRM.Entities.AppointmentCollection.IdxContactId
+  isExternal: true
+  name: AppointmentCollection.IdxContactId
+  nameWithType: AppointmentCollection.IdxContactId
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.IdxContactId
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.IdxProjectId
+  commentId: T:SuperOffice.CRM.Entities.AppointmentCollection.IdxProjectId
+  isExternal: true
+  name: AppointmentCollection.IdxProjectId
+  nameWithType: AppointmentCollection.IdxProjectId
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.IdxProjectId
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.IdxDocumentId
+  commentId: T:SuperOffice.CRM.Entities.AppointmentCollection.IdxDocumentId
+  isExternal: true
+  name: AppointmentCollection.IdxDocumentId
+  nameWithType: AppointmentCollection.IdxDocumentId
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.IdxDocumentId
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.IdxAssociateIdStatusDoneType
+  commentId: T:SuperOffice.CRM.Entities.AppointmentCollection.IdxAssociateIdStatusDoneType
+  isExternal: true
+  name: AppointmentCollection.IdxAssociateIdStatusDoneType
+  nameWithType: AppointmentCollection.IdxAssociateIdStatusDoneType
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.IdxAssociateIdStatusDoneType
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.IdxPersonId
+  commentId: T:SuperOffice.CRM.Entities.AppointmentCollection.IdxPersonId
+  isExternal: true
+  name: AppointmentCollection.IdxPersonId
+  nameWithType: AppointmentCollection.IdxPersonId
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.IdxPersonId
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.IdxAssociateIdRecurrenceRuleIdActiveDate
+  commentId: T:SuperOffice.CRM.Entities.AppointmentCollection.IdxAssociateIdRecurrenceRuleIdActiveDate
+  isExternal: true
+  name: AppointmentCollection.IdxAssociateIdRecurrenceRuleIdActiveDate
+  nameWithType: AppointmentCollection.IdxAssociateIdRecurrenceRuleIdActiveDate
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.IdxAssociateIdRecurrenceRuleIdActiveDate
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.IdxGroupIdx
+  commentId: T:SuperOffice.CRM.Entities.AppointmentCollection.IdxGroupIdx
+  isExternal: true
+  name: AppointmentCollection.IdxGroupIdx
+  nameWithType: AppointmentCollection.IdxGroupIdx
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.IdxGroupIdx
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.IdxUserdefId
+  commentId: T:SuperOffice.CRM.Entities.AppointmentCollection.IdxUserdefId
+  isExternal: true
+  name: AppointmentCollection.IdxUserdefId
+  nameWithType: AppointmentCollection.IdxUserdefId
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.IdxUserdefId
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.IdxDoBy
+  commentId: T:SuperOffice.CRM.Entities.AppointmentCollection.IdxDoBy
+  isExternal: true
+  name: AppointmentCollection.IdxDoBy
+  nameWithType: AppointmentCollection.IdxDoBy
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.IdxDoBy
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.IdxTextId
+  commentId: T:SuperOffice.CRM.Entities.AppointmentCollection.IdxTextId
+  isExternal: true
+  name: AppointmentCollection.IdxTextId
+  nameWithType: AppointmentCollection.IdxTextId
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.IdxTextId
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.IdxUserdef2Id
+  commentId: T:SuperOffice.CRM.Entities.AppointmentCollection.IdxUserdef2Id
+  isExternal: true
+  name: AppointmentCollection.IdxUserdef2Id
+  nameWithType: AppointmentCollection.IdxUserdef2Id
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.IdxUserdef2Id
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.IdxDone
+  commentId: T:SuperOffice.CRM.Entities.AppointmentCollection.IdxDone
+  isExternal: true
+  name: AppointmentCollection.IdxDone
+  nameWithType: AppointmentCollection.IdxDone
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.IdxDone
+- uid: SuperOffice.CRM.Entities.AppointmentCollection.CustomSearch
+  commentId: T:SuperOffice.CRM.Entities.AppointmentCollection.CustomSearch
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: AppointmentCollection.CustomSearch
+  nameWithType: AppointmentCollection.CustomSearch
+  fullName: SuperOffice.CRM.Entities.AppointmentCollection.CustomSearch
+- uid: SuperOffice.CRM.Entities.Appointment
+  commentId: T:SuperOffice.CRM.Entities.Appointment
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Appointment
+  nameWithType: Appointment
+  fullName: SuperOffice.CRM.Entities.Appointment
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
+  commentId: T:SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Appointment.AppointmentIdxBase
+  nameWithType: Appointment.AppointmentIdxBase
+  fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdx
+  commentId: T:SuperOffice.CRM.Entities.Appointment.AppointmentIdx
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Appointment.AppointmentIdx
+  nameWithType: Appointment.AppointmentIdx
+  fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdx
+- uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1
+  commentId: T:SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1
+  isExternal: true
+  name: Appointment.AppointmentIdx<TIdx>
+  nameWithType: Appointment.AppointmentIdx<TIdx>
+  fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdx<TIdx>
+  nameWithType.vb: Appointment.AppointmentIdx(Of TIdx)
+  fullName.vb: SuperOffice.CRM.Entities.Appointment.AppointmentIdx(Of TIdx)
+  name.vb: Appointment.AppointmentIdx(Of TIdx)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1
+    name: Appointment.AppointmentIdx
+    nameWithType: Appointment.AppointmentIdx
+    fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1
+    name: Appointment.AppointmentIdx
+    nameWithType: Appointment.AppointmentIdx
+    fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId
+  commentId: T:SuperOffice.CRM.Entities.Appointment.IdxAppointmentId
+  isExternal: true
+  name: Appointment.IdxAppointmentId
+  nameWithType: Appointment.IdxAppointmentId
+  fullName: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId
+- uid: SuperOffice.CRM.Entities.Appointment.IdxActiveDateMotherIdTypeDocumentIdAppointmentIdAssignedByAssociateIdProjectIdGroupIdxRegisteredRegisteredAssociateId
+  commentId: T:SuperOffice.CRM.Entities.Appointment.IdxActiveDateMotherIdTypeDocumentIdAppointmentIdAssignedByAssociateIdProjectIdGroupIdxRegisteredRegisteredAssociateId
+  isExternal: true
+  name: Appointment.IdxActiveDateMotherIdTypeDocumentIdAppointmentIdAssignedByAssociateIdProjectIdGroupIdxRegisteredRegisteredAssociateId
+  nameWithType: Appointment.IdxActiveDateMotherIdTypeDocumentIdAppointmentIdAssignedByAssociateIdProjectIdGroupIdxRegisteredRegisteredAssociateId
+  fullName: SuperOffice.CRM.Entities.Appointment.IdxActiveDateMotherIdTypeDocumentIdAppointmentIdAssignedByAssociateIdProjectIdGroupIdxRegisteredRegisteredAssociateId
+- uid: SuperOffice.CRM.Entities.Appointment.IdxActiveDateAssociateIdAppointmentIdMotherId
+  commentId: T:SuperOffice.CRM.Entities.Appointment.IdxActiveDateAssociateIdAppointmentIdMotherId
+  isExternal: true
+  name: Appointment.IdxActiveDateAssociateIdAppointmentIdMotherId
+  nameWithType: Appointment.IdxActiveDateAssociateIdAppointmentIdMotherId
+  fullName: SuperOffice.CRM.Entities.Appointment.IdxActiveDateAssociateIdAppointmentIdMotherId
+- uid: SuperOffice.CRM.Entities.Appointment.IdxAssociateIdGroupIdxActiveDateTypeRegisteredMotherIdAppointmentIdAssignedByStatusRegisteredAssociateId
+  commentId: T:SuperOffice.CRM.Entities.Appointment.IdxAssociateIdGroupIdxActiveDateTypeRegisteredMotherIdAppointmentIdAssignedByStatusRegisteredAssociateId
+  isExternal: true
+  name: Appointment.IdxAssociateIdGroupIdxActiveDateTypeRegisteredMotherIdAppointmentIdAssignedByStatusRegisteredAssociateId
+  nameWithType: Appointment.IdxAssociateIdGroupIdxActiveDateTypeRegisteredMotherIdAppointmentIdAssignedByStatusRegisteredAssociateId
+  fullName: SuperOffice.CRM.Entities.Appointment.IdxAssociateIdGroupIdxActiveDateTypeRegisteredMotherIdAppointmentIdAssignedByStatusRegisteredAssociateId
+- uid: SuperOffice.CRM.Entities.Appointment.CustomSearch
+  commentId: T:SuperOffice.CRM.Entities.Appointment.CustomSearch
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Appointment.CustomSearch
+  nameWithType: Appointment.CustomSearch
+  fullName: SuperOffice.CRM.Entities.Appointment.CustomSearch
+- uid: SuperOffice.CRM.Entities.AppointmentDeleteAction
+  commentId: T:SuperOffice.CRM.Entities.AppointmentDeleteAction
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: AppointmentDeleteAction
+  nameWithType: AppointmentDeleteAction
+  fullName: SuperOffice.CRM.Entities.AppointmentDeleteAction
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix
+  commentId: T:SuperOffice.CRM.Entities.AppointmentMatrix
+  isExternal: true
+  name: AppointmentMatrix
+  nameWithType: AppointmentMatrix
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.RowModification
+  commentId: T:SuperOffice.CRM.Entities.AppointmentMatrix.RowModification
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: AppointmentMatrix.RowModification
+  nameWithType: AppointmentMatrix.RowModification
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.RowModification
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails
+  commentId: T:SuperOffice.CRM.Entities.AppointmentMatrix.SendMails
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: AppointmentMatrix.SendMails
+  nameWithType: AppointmentMatrix.SendMails
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.SendMails
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
+  commentId: T:SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: AppointmentMatrix.OwnershipIndex
+  nameWithType: AppointmentMatrix.OwnershipIndex
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+  commentId: T:SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: AppointmentMatrix.RecurrenceModification
+  nameWithType: AppointmentMatrix.RecurrenceModification
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.RecurrenceModification
+- uid: SuperOffice.CRM.Entities.BookingManagerModified
+  commentId: T:SuperOffice.CRM.Entities.BookingManagerModified
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: BookingManagerModified
+  nameWithType: BookingManagerModified
+  fullName: SuperOffice.CRM.Entities.BookingManagerModified
+- uid: SuperOffice.CRM.Entities.BookingManager
+  commentId: T:SuperOffice.CRM.Entities.BookingManager
+  isExternal: true
+  name: BookingManager
+  nameWithType: BookingManager
+  fullName: SuperOffice.CRM.Entities.BookingManager
+- uid: SuperOffice.CRM.Entities.ConflictDetector
+  commentId: T:SuperOffice.CRM.Entities.ConflictDetector
+  isExternal: true
+  name: ConflictDetector
+  nameWithType: ConflictDetector
+  fullName: SuperOffice.CRM.Entities.ConflictDetector
+- uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime
+  commentId: T:SuperOffice.CRM.Entities.ConflictDetector.ConflictTime
+  isExternal: true
+  name: ConflictDetector.ConflictTime
+  nameWithType: ConflictDetector.ConflictTime
+  fullName: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime
+- uid: SuperOffice.CRM.Entities.ContactCollection
+  commentId: T:SuperOffice.CRM.Entities.ContactCollection
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: ContactCollection
+  nameWithType: ContactCollection
+  fullName: SuperOffice.CRM.Entities.ContactCollection
+- uid: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx
+  commentId: T:SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: ContactCollection.ContactCollectionIdx
+  nameWithType: ContactCollection.ContactCollectionIdx
+  fullName: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx
+- uid: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx`1
+  commentId: T:SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx`1
+  isExternal: true
+  name: ContactCollection.ContactCollectionIdx<TIdx>
+  nameWithType: ContactCollection.ContactCollectionIdx<TIdx>
+  fullName: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx<TIdx>
+  nameWithType.vb: ContactCollection.ContactCollectionIdx(Of TIdx)
+  fullName.vb: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx(Of TIdx)
+  name.vb: ContactCollection.ContactCollectionIdx(Of TIdx)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx`1
+    name: ContactCollection.ContactCollectionIdx
+    nameWithType: ContactCollection.ContactCollectionIdx
+    fullName: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx`1
+    name: ContactCollection.ContactCollectionIdx
+    nameWithType: ContactCollection.ContactCollectionIdx
+    fullName: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ContactCollection.IdxSoundEx
+  commentId: T:SuperOffice.CRM.Entities.ContactCollection.IdxSoundEx
+  isExternal: true
+  name: ContactCollection.IdxSoundEx
+  nameWithType: ContactCollection.IdxSoundEx
+  fullName: SuperOffice.CRM.Entities.ContactCollection.IdxSoundEx
+- uid: SuperOffice.CRM.Entities.ContactCollection.IdxKananame
+  commentId: T:SuperOffice.CRM.Entities.ContactCollection.IdxKananame
+  isExternal: true
+  name: ContactCollection.IdxKananame
+  nameWithType: ContactCollection.IdxKananame
+  fullName: SuperOffice.CRM.Entities.ContactCollection.IdxKananame
+- uid: SuperOffice.CRM.Entities.ContactCollection.IdxMotherId
+  commentId: T:SuperOffice.CRM.Entities.ContactCollection.IdxMotherId
+  isExternal: true
+  name: ContactCollection.IdxMotherId
+  nameWithType: ContactCollection.IdxMotherId
+  fullName: SuperOffice.CRM.Entities.ContactCollection.IdxMotherId
+- uid: SuperOffice.CRM.Entities.ContactCollection.IdxBusinessIdx
+  commentId: T:SuperOffice.CRM.Entities.ContactCollection.IdxBusinessIdx
+  isExternal: true
+  name: ContactCollection.IdxBusinessIdx
+  nameWithType: ContactCollection.IdxBusinessIdx
+  fullName: SuperOffice.CRM.Entities.ContactCollection.IdxBusinessIdx
+- uid: SuperOffice.CRM.Entities.ContactCollection.IdxName
+  commentId: T:SuperOffice.CRM.Entities.ContactCollection.IdxName
+  isExternal: true
+  name: ContactCollection.IdxName
+  nameWithType: ContactCollection.IdxName
+  fullName: SuperOffice.CRM.Entities.ContactCollection.IdxName
+- uid: SuperOffice.CRM.Entities.ContactCollection.IdxUserdefId
+  commentId: T:SuperOffice.CRM.Entities.ContactCollection.IdxUserdefId
+  isExternal: true
+  name: ContactCollection.IdxUserdefId
+  nameWithType: ContactCollection.IdxUserdefId
+  fullName: SuperOffice.CRM.Entities.ContactCollection.IdxUserdefId
+- uid: SuperOffice.CRM.Entities.ContactCollection.IdxOrgNr
+  commentId: T:SuperOffice.CRM.Entities.ContactCollection.IdxOrgNr
+  isExternal: true
+  name: ContactCollection.IdxOrgNr
+  nameWithType: ContactCollection.IdxOrgNr
+  fullName: SuperOffice.CRM.Entities.ContactCollection.IdxOrgNr
+- uid: SuperOffice.CRM.Entities.ContactCollection.IdxNumber1
+  commentId: T:SuperOffice.CRM.Entities.ContactCollection.IdxNumber1
+  isExternal: true
+  name: ContactCollection.IdxNumber1
+  nameWithType: ContactCollection.IdxNumber1
+  fullName: SuperOffice.CRM.Entities.ContactCollection.IdxNumber1
+- uid: SuperOffice.CRM.Entities.ContactCollection.IdxNumber2
+  commentId: T:SuperOffice.CRM.Entities.ContactCollection.IdxNumber2
+  isExternal: true
+  name: ContactCollection.IdxNumber2
+  nameWithType: ContactCollection.IdxNumber2
+  fullName: SuperOffice.CRM.Entities.ContactCollection.IdxNumber2
+- uid: SuperOffice.CRM.Entities.ContactCollection.IdxUserdef2Id
+  commentId: T:SuperOffice.CRM.Entities.ContactCollection.IdxUserdef2Id
+  isExternal: true
+  name: ContactCollection.IdxUserdef2Id
+  nameWithType: ContactCollection.IdxUserdef2Id
+  fullName: SuperOffice.CRM.Entities.ContactCollection.IdxUserdef2Id
+- uid: SuperOffice.CRM.Entities.ContactCollection.IdxDepartment
+  commentId: T:SuperOffice.CRM.Entities.ContactCollection.IdxDepartment
+  isExternal: true
+  name: ContactCollection.IdxDepartment
+  nameWithType: ContactCollection.IdxDepartment
+  fullName: SuperOffice.CRM.Entities.ContactCollection.IdxDepartment
+- uid: SuperOffice.CRM.Entities.ContactCollection.IdxNameDepartment
+  commentId: T:SuperOffice.CRM.Entities.ContactCollection.IdxNameDepartment
+  isExternal: true
+  name: ContactCollection.IdxNameDepartment
+  nameWithType: ContactCollection.IdxNameDepartment
+  fullName: SuperOffice.CRM.Entities.ContactCollection.IdxNameDepartment
+- uid: SuperOffice.CRM.Entities.ContactCollection.IdxCategoryIdx
+  commentId: T:SuperOffice.CRM.Entities.ContactCollection.IdxCategoryIdx
+  isExternal: true
+  name: ContactCollection.IdxCategoryIdx
+  nameWithType: ContactCollection.IdxCategoryIdx
+  fullName: SuperOffice.CRM.Entities.ContactCollection.IdxCategoryIdx
+- uid: SuperOffice.CRM.Entities.ContactCollection.IdxSource
+  commentId: T:SuperOffice.CRM.Entities.ContactCollection.IdxSource
+  isExternal: true
+  name: ContactCollection.IdxSource
+  nameWithType: ContactCollection.IdxSource
+  fullName: SuperOffice.CRM.Entities.ContactCollection.IdxSource
+- uid: SuperOffice.CRM.Entities.ContactCollection.CustomSearch
+  commentId: T:SuperOffice.CRM.Entities.ContactCollection.CustomSearch
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: ContactCollection.CustomSearch
+  nameWithType: ContactCollection.CustomSearch
+  fullName: SuperOffice.CRM.Entities.ContactCollection.CustomSearch
+- uid: SuperOffice.CRM.Entities.Contact
+  commentId: T:SuperOffice.CRM.Entities.Contact
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Contact
+  nameWithType: Contact
+  fullName: SuperOffice.CRM.Entities.Contact
+- uid: SuperOffice.CRM.Entities.Contact.ContactIdxBase
+  commentId: T:SuperOffice.CRM.Entities.Contact.ContactIdxBase
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Contact.ContactIdxBase
+  nameWithType: Contact.ContactIdxBase
+  fullName: SuperOffice.CRM.Entities.Contact.ContactIdxBase
+- uid: SuperOffice.CRM.Entities.Contact.ContactIdx
+  commentId: T:SuperOffice.CRM.Entities.Contact.ContactIdx
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Contact.ContactIdx
+  nameWithType: Contact.ContactIdx
+  fullName: SuperOffice.CRM.Entities.Contact.ContactIdx
+- uid: SuperOffice.CRM.Entities.Contact.ContactIdx`1
+  commentId: T:SuperOffice.CRM.Entities.Contact.ContactIdx`1
+  isExternal: true
+  name: Contact.ContactIdx<TIdx>
+  nameWithType: Contact.ContactIdx<TIdx>
+  fullName: SuperOffice.CRM.Entities.Contact.ContactIdx<TIdx>
+  nameWithType.vb: Contact.ContactIdx(Of TIdx)
+  fullName.vb: SuperOffice.CRM.Entities.Contact.ContactIdx(Of TIdx)
+  name.vb: Contact.ContactIdx(Of TIdx)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.Contact.ContactIdx`1
+    name: Contact.ContactIdx
+    nameWithType: Contact.ContactIdx
+    fullName: SuperOffice.CRM.Entities.Contact.ContactIdx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.Contact.ContactIdx`1
+    name: Contact.ContactIdx
+    nameWithType: Contact.ContactIdx
+    fullName: SuperOffice.CRM.Entities.Contact.ContactIdx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Contact.IdxContactId
+  commentId: T:SuperOffice.CRM.Entities.Contact.IdxContactId
+  isExternal: true
+  name: Contact.IdxContactId
+  nameWithType: Contact.IdxContactId
+  fullName: SuperOffice.CRM.Entities.Contact.IdxContactId
+- uid: SuperOffice.CRM.Entities.Contact.CustomSearch
+  commentId: T:SuperOffice.CRM.Entities.Contact.CustomSearch
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Contact.CustomSearch
+  nameWithType: Contact.CustomSearch
+  fullName: SuperOffice.CRM.Entities.Contact.CustomSearch
+- uid: SuperOffice.CRM.Entities.Defaulter
+  commentId: T:SuperOffice.CRM.Entities.Defaulter
+  isExternal: true
+  name: Defaulter
+  nameWithType: Defaulter
+  fullName: SuperOffice.CRM.Entities.Defaulter
+- uid: SuperOffice.CRM.Entities.DocumentCollection
+  commentId: T:SuperOffice.CRM.Entities.DocumentCollection
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: DocumentCollection
+  nameWithType: DocumentCollection
+  fullName: SuperOffice.CRM.Entities.DocumentCollection
+- uid: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx
+  commentId: T:SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: DocumentCollection.DocumentCollectionIdx
+  nameWithType: DocumentCollection.DocumentCollectionIdx
+  fullName: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx
+- uid: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx`1
+  commentId: T:SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx`1
+  isExternal: true
+  name: DocumentCollection.DocumentCollectionIdx<TIdx>
+  nameWithType: DocumentCollection.DocumentCollectionIdx<TIdx>
+  fullName: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx<TIdx>
+  nameWithType.vb: DocumentCollection.DocumentCollectionIdx(Of TIdx)
+  fullName.vb: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx(Of TIdx)
+  name.vb: DocumentCollection.DocumentCollectionIdx(Of TIdx)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx`1
+    name: DocumentCollection.DocumentCollectionIdx
+    nameWithType: DocumentCollection.DocumentCollectionIdx
+    fullName: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx`1
+    name: DocumentCollection.DocumentCollectionIdx
+    nameWithType: DocumentCollection.DocumentCollectionIdx
+    fullName: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef
+  commentId: T:SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef
+  isExternal: true
+  name: DocumentCollection.IdxOurRef
+  nameWithType: DocumentCollection.IdxOurRef
+  fullName: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef
+- uid: SuperOffice.CRM.Entities.DocumentCollection.IdxUserdef2Id
+  commentId: T:SuperOffice.CRM.Entities.DocumentCollection.IdxUserdef2Id
+  isExternal: true
+  name: DocumentCollection.IdxUserdef2Id
+  nameWithType: DocumentCollection.IdxUserdef2Id
+  fullName: SuperOffice.CRM.Entities.DocumentCollection.IdxUserdef2Id
+- uid: SuperOffice.CRM.Entities.DocumentCollection.IdxUserdefId
+  commentId: T:SuperOffice.CRM.Entities.DocumentCollection.IdxUserdefId
+  isExternal: true
+  name: DocumentCollection.IdxUserdefId
+  nameWithType: DocumentCollection.IdxUserdefId
+  fullName: SuperOffice.CRM.Entities.DocumentCollection.IdxUserdefId
+- uid: SuperOffice.CRM.Entities.DocumentCollection.IdxExtref
+  commentId: T:SuperOffice.CRM.Entities.DocumentCollection.IdxExtref
+  isExternal: true
+  name: DocumentCollection.IdxExtref
+  nameWithType: DocumentCollection.IdxExtref
+  fullName: SuperOffice.CRM.Entities.DocumentCollection.IdxExtref
+- uid: SuperOffice.CRM.Entities.DocumentCollection.IdxHeader
+  commentId: T:SuperOffice.CRM.Entities.DocumentCollection.IdxHeader
+  isExternal: true
+  name: DocumentCollection.IdxHeader
+  nameWithType: DocumentCollection.IdxHeader
+  fullName: SuperOffice.CRM.Entities.DocumentCollection.IdxHeader
+- uid: SuperOffice.CRM.Entities.DocumentCollection.IdxSearchname
+  commentId: T:SuperOffice.CRM.Entities.DocumentCollection.IdxSearchname
+  isExternal: true
+  name: DocumentCollection.IdxSearchname
+  nameWithType: DocumentCollection.IdxSearchname
+  fullName: SuperOffice.CRM.Entities.DocumentCollection.IdxSearchname
+- uid: SuperOffice.CRM.Entities.DocumentCollection.IdxArchiveProvider
+  commentId: T:SuperOffice.CRM.Entities.DocumentCollection.IdxArchiveProvider
+  isExternal: true
+  name: DocumentCollection.IdxArchiveProvider
+  nameWithType: DocumentCollection.IdxArchiveProvider
+  fullName: SuperOffice.CRM.Entities.DocumentCollection.IdxArchiveProvider
+- uid: SuperOffice.CRM.Entities.DocumentCollection.CustomSearch
+  commentId: T:SuperOffice.CRM.Entities.DocumentCollection.CustomSearch
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: DocumentCollection.CustomSearch
+  nameWithType: DocumentCollection.CustomSearch
+  fullName: SuperOffice.CRM.Entities.DocumentCollection.CustomSearch
+- uid: SuperOffice.CRM.Entities.Document
+  commentId: T:SuperOffice.CRM.Entities.Document
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Document
+  nameWithType: Document
+  fullName: SuperOffice.CRM.Entities.Document
+- uid: SuperOffice.CRM.Entities.Document.DocumentIdxBase
+  commentId: T:SuperOffice.CRM.Entities.Document.DocumentIdxBase
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Document.DocumentIdxBase
+  nameWithType: Document.DocumentIdxBase
+  fullName: SuperOffice.CRM.Entities.Document.DocumentIdxBase
+- uid: SuperOffice.CRM.Entities.Document.DocumentIdx
+  commentId: T:SuperOffice.CRM.Entities.Document.DocumentIdx
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Document.DocumentIdx
+  nameWithType: Document.DocumentIdx
+  fullName: SuperOffice.CRM.Entities.Document.DocumentIdx
+- uid: SuperOffice.CRM.Entities.Document.DocumentIdx`1
+  commentId: T:SuperOffice.CRM.Entities.Document.DocumentIdx`1
+  isExternal: true
+  name: Document.DocumentIdx<TIdx>
+  nameWithType: Document.DocumentIdx<TIdx>
+  fullName: SuperOffice.CRM.Entities.Document.DocumentIdx<TIdx>
+  nameWithType.vb: Document.DocumentIdx(Of TIdx)
+  fullName.vb: SuperOffice.CRM.Entities.Document.DocumentIdx(Of TIdx)
+  name.vb: Document.DocumentIdx(Of TIdx)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.Document.DocumentIdx`1
+    name: Document.DocumentIdx
+    nameWithType: Document.DocumentIdx
+    fullName: SuperOffice.CRM.Entities.Document.DocumentIdx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.Document.DocumentIdx`1
+    name: Document.DocumentIdx
+    nameWithType: Document.DocumentIdx
+    fullName: SuperOffice.CRM.Entities.Document.DocumentIdx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Document.IdxDocumentId
+  commentId: T:SuperOffice.CRM.Entities.Document.IdxDocumentId
+  isExternal: true
+  name: Document.IdxDocumentId
+  nameWithType: Document.IdxDocumentId
+  fullName: SuperOffice.CRM.Entities.Document.IdxDocumentId
+- uid: SuperOffice.CRM.Entities.Document.CustomSearch
+  commentId: T:SuperOffice.CRM.Entities.Document.CustomSearch
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Document.CustomSearch
+  nameWithType: Document.CustomSearch
+  fullName: SuperOffice.CRM.Entities.Document.CustomSearch
+- uid: SuperOffice.CRM.Entities.GetRelatedObjects
+  commentId: T:SuperOffice.CRM.Entities.GetRelatedObjects
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: GetRelatedObjects
+  nameWithType: GetRelatedObjects
+  fullName: SuperOffice.CRM.Entities.GetRelatedObjects
+- uid: SuperOffice.CRM.Entities.EntityBase
+  commentId: T:SuperOffice.CRM.Entities.EntityBase
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: EntityBase
+  nameWithType: EntityBase
+  fullName: SuperOffice.CRM.Entities.EntityBase
+- uid: SuperOffice.CRM.Entities.EntityCollectionBase
+  commentId: T:SuperOffice.CRM.Entities.EntityCollectionBase
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: EntityCollectionBase
+  nameWithType: EntityCollectionBase
+  fullName: SuperOffice.CRM.Entities.EntityCollectionBase
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2
+  commentId: T:SuperOffice.CRM.Entities.EntityDetailsHelperModified`2
+  isExternal: true
+  name: EntityDetailsHelperModified<TParent, TChild>
+  nameWithType: EntityDetailsHelperModified<TParent, TChild>
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelperModified<TParent, TChild>
+  nameWithType.vb: EntityDetailsHelperModified(Of TParent, TChild)
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelperModified(Of TParent, TChild)
+  name.vb: EntityDetailsHelperModified(Of TParent, TChild)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2
+    name: EntityDetailsHelperModified
+    nameWithType: EntityDetailsHelperModified
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelperModified
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TParent
+    nameWithType: TParent
+    fullName: TParent
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TChild
+    nameWithType: TChild
+    fullName: TChild
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelperModified`2
+    name: EntityDetailsHelperModified
+    nameWithType: EntityDetailsHelperModified
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelperModified
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TParent
+    nameWithType: TParent
+    fullName: TParent
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TChild
+    nameWithType: TChild
+    fullName: TChild
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2
+  commentId: T:SuperOffice.CRM.Entities.EntityDetailsHelper`2
+  isExternal: true
+  name: EntityDetailsHelper<TParent, TChild>
+  nameWithType: EntityDetailsHelper<TParent, TChild>
+  fullName: SuperOffice.CRM.Entities.EntityDetailsHelper<TParent, TChild>
+  nameWithType.vb: EntityDetailsHelper(Of TParent, TChild)
+  fullName.vb: SuperOffice.CRM.Entities.EntityDetailsHelper(Of TParent, TChild)
+  name.vb: EntityDetailsHelper(Of TParent, TChild)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2
+    name: EntityDetailsHelper
+    nameWithType: EntityDetailsHelper
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TParent
+    nameWithType: TParent
+    fullName: TParent
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TChild
+    nameWithType: TChild
+    fullName: TChild
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityDetailsHelper`2
+    name: EntityDetailsHelper
+    nameWithType: EntityDetailsHelper
+    fullName: SuperOffice.CRM.Entities.EntityDetailsHelper
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TParent
+    nameWithType: TParent
+    fullName: TParent
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TChild
+    nameWithType: TChild
+    fullName: TChild
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityIdxBase
+  commentId: T:SuperOffice.CRM.Entities.EntityIdxBase
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: EntityIdxBase
+  nameWithType: EntityIdxBase
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase
+- uid: SuperOffice.CRM.Entities.EntityIdxBase`2
+  commentId: T:SuperOffice.CRM.Entities.EntityIdxBase`2
+  isExternal: true
+  name: EntityIdxBase<TTableInfo, TIdx>
+  nameWithType: EntityIdxBase<TTableInfo, TIdx>
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>
+  nameWithType.vb: EntityIdxBase(Of TTableInfo, TIdx)
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx)
+  name.vb: EntityIdxBase(Of TTableInfo, TIdx)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
+    name: EntityIdxBase
+    nameWithType: EntityIdxBase
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TTableInfo
+    nameWithType: TTableInfo
+    fullName: TTableInfo
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
+    name: EntityIdxBase
+    nameWithType: EntityIdxBase
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TTableInfo
+    nameWithType: TTableInfo
+    fullName: TTableInfo
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityPublishHelper
+  commentId: T:SuperOffice.CRM.Entities.EntityPublishHelper
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: EntityPublishHelper
+  nameWithType: EntityPublishHelper
+  fullName: SuperOffice.CRM.Entities.EntityPublishHelper
+- uid: SuperOffice.CRM.Entities.EntityPublishHelper.PublishSaveState
+  commentId: T:SuperOffice.CRM.Entities.EntityPublishHelper.PublishSaveState
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: EntityPublishHelper.PublishSaveState
+  nameWithType: EntityPublishHelper.PublishSaveState
+  fullName: SuperOffice.CRM.Entities.EntityPublishHelper.PublishSaveState
+- uid: SuperOffice.CRM.Entities.IEntityUdefHelperContainer
+  commentId: T:SuperOffice.CRM.Entities.IEntityUdefHelperContainer
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: IEntityUdefHelperContainer
+  nameWithType: IEntityUdefHelperContainer
+  fullName: SuperOffice.CRM.Entities.IEntityUdefHelperContainer
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper
+  commentId: T:SuperOffice.CRM.Entities.EntityUdefHelper
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: EntityUdefHelper
+  nameWithType: EntityUdefHelper
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange
+  commentId: T:SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: EntityUdefHelper.UdefValueChange
+  nameWithType: EntityUdefHelper.UdefValueChange
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange
+- uid: SuperOffice.CRM.Entities.EntityVisibleForHelper
+  commentId: T:SuperOffice.CRM.Entities.EntityVisibleForHelper
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: EntityVisibleForHelper
+  nameWithType: EntityVisibleForHelper
+  fullName: SuperOffice.CRM.Entities.EntityVisibleForHelper
+- uid: SuperOffice.CRM.Entities.PersonCollection
+  commentId: T:SuperOffice.CRM.Entities.PersonCollection
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: PersonCollection
+  nameWithType: PersonCollection
+  fullName: SuperOffice.CRM.Entities.PersonCollection
+- uid: SuperOffice.CRM.Entities.PersonCollection.PersonCollectionIdx
+  commentId: T:SuperOffice.CRM.Entities.PersonCollection.PersonCollectionIdx
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: PersonCollection.PersonCollectionIdx
+  nameWithType: PersonCollection.PersonCollectionIdx
+  fullName: SuperOffice.CRM.Entities.PersonCollection.PersonCollectionIdx
+- uid: SuperOffice.CRM.Entities.PersonCollection.PersonCollectionIdx`1
+  commentId: T:SuperOffice.CRM.Entities.PersonCollection.PersonCollectionIdx`1
+  isExternal: true
+  name: PersonCollection.PersonCollectionIdx<TIdx>
+  nameWithType: PersonCollection.PersonCollectionIdx<TIdx>
+  fullName: SuperOffice.CRM.Entities.PersonCollection.PersonCollectionIdx<TIdx>
+  nameWithType.vb: PersonCollection.PersonCollectionIdx(Of TIdx)
+  fullName.vb: SuperOffice.CRM.Entities.PersonCollection.PersonCollectionIdx(Of TIdx)
+  name.vb: PersonCollection.PersonCollectionIdx(Of TIdx)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.PersonCollection.PersonCollectionIdx`1
+    name: PersonCollection.PersonCollectionIdx
+    nameWithType: PersonCollection.PersonCollectionIdx
+    fullName: SuperOffice.CRM.Entities.PersonCollection.PersonCollectionIdx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.PersonCollection.PersonCollectionIdx`1
+    name: PersonCollection.PersonCollectionIdx
+    nameWithType: PersonCollection.PersonCollectionIdx
+    fullName: SuperOffice.CRM.Entities.PersonCollection.PersonCollectionIdx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.PersonCollection.IdxCategoryIdx
+  commentId: T:SuperOffice.CRM.Entities.PersonCollection.IdxCategoryIdx
+  isExternal: true
+  name: PersonCollection.IdxCategoryIdx
+  nameWithType: PersonCollection.IdxCategoryIdx
+  fullName: SuperOffice.CRM.Entities.PersonCollection.IdxCategoryIdx
+- uid: SuperOffice.CRM.Entities.PersonCollection.IdxPersonNumber
+  commentId: T:SuperOffice.CRM.Entities.PersonCollection.IdxPersonNumber
+  isExternal: true
+  name: PersonCollection.IdxPersonNumber
+  nameWithType: PersonCollection.IdxPersonNumber
+  fullName: SuperOffice.CRM.Entities.PersonCollection.IdxPersonNumber
+- uid: SuperOffice.CRM.Entities.PersonCollection.IdxBusinessIdx
+  commentId: T:SuperOffice.CRM.Entities.PersonCollection.IdxBusinessIdx
+  isExternal: true
+  name: PersonCollection.IdxBusinessIdx
+  nameWithType: PersonCollection.IdxBusinessIdx
+  fullName: SuperOffice.CRM.Entities.PersonCollection.IdxBusinessIdx
+- uid: SuperOffice.CRM.Entities.PersonCollection.IdxUserdefId
+  commentId: T:SuperOffice.CRM.Entities.PersonCollection.IdxUserdefId
+  isExternal: true
+  name: PersonCollection.IdxUserdefId
+  nameWithType: PersonCollection.IdxUserdefId
+  fullName: SuperOffice.CRM.Entities.PersonCollection.IdxUserdefId
+- uid: SuperOffice.CRM.Entities.PersonCollection.IdxKanalname
+  commentId: T:SuperOffice.CRM.Entities.PersonCollection.IdxKanalname
+  isExternal: true
+  name: PersonCollection.IdxKanalname
+  nameWithType: PersonCollection.IdxKanalname
+  fullName: SuperOffice.CRM.Entities.PersonCollection.IdxKanalname
+- uid: SuperOffice.CRM.Entities.PersonCollection.IdxLastname
+  commentId: T:SuperOffice.CRM.Entities.PersonCollection.IdxLastname
+  isExternal: true
+  name: PersonCollection.IdxLastname
+  nameWithType: PersonCollection.IdxLastname
+  fullName: SuperOffice.CRM.Entities.PersonCollection.IdxLastname
+- uid: SuperOffice.CRM.Entities.PersonCollection.IdxContactId
+  commentId: T:SuperOffice.CRM.Entities.PersonCollection.IdxContactId
+  isExternal: true
+  name: PersonCollection.IdxContactId
+  nameWithType: PersonCollection.IdxContactId
+  fullName: SuperOffice.CRM.Entities.PersonCollection.IdxContactId
+- uid: SuperOffice.CRM.Entities.PersonCollection.IdxUserdef2Id
+  commentId: T:SuperOffice.CRM.Entities.PersonCollection.IdxUserdef2Id
+  isExternal: true
+  name: PersonCollection.IdxUserdef2Id
+  nameWithType: PersonCollection.IdxUserdef2Id
+  fullName: SuperOffice.CRM.Entities.PersonCollection.IdxUserdef2Id
+- uid: SuperOffice.CRM.Entities.PersonCollection.IdxFirstname
+  commentId: T:SuperOffice.CRM.Entities.PersonCollection.IdxFirstname
+  isExternal: true
+  name: PersonCollection.IdxFirstname
+  nameWithType: PersonCollection.IdxFirstname
+  fullName: SuperOffice.CRM.Entities.PersonCollection.IdxFirstname
+- uid: SuperOffice.CRM.Entities.PersonCollection.IdxSource
+  commentId: T:SuperOffice.CRM.Entities.PersonCollection.IdxSource
+  isExternal: true
+  name: PersonCollection.IdxSource
+  nameWithType: PersonCollection.IdxSource
+  fullName: SuperOffice.CRM.Entities.PersonCollection.IdxSource
+- uid: SuperOffice.CRM.Entities.PersonCollection.IdxKanafname
+  commentId: T:SuperOffice.CRM.Entities.PersonCollection.IdxKanafname
+  isExternal: true
+  name: PersonCollection.IdxKanafname
+  nameWithType: PersonCollection.IdxKanafname
+  fullName: SuperOffice.CRM.Entities.PersonCollection.IdxKanafname
+- uid: SuperOffice.CRM.Entities.PersonCollection.IdxContactIdRank
+  commentId: T:SuperOffice.CRM.Entities.PersonCollection.IdxContactIdRank
+  isExternal: true
+  name: PersonCollection.IdxContactIdRank
+  nameWithType: PersonCollection.IdxContactIdRank
+  fullName: SuperOffice.CRM.Entities.PersonCollection.IdxContactIdRank
+- uid: SuperOffice.CRM.Entities.PersonCollection.CustomSearch
+  commentId: T:SuperOffice.CRM.Entities.PersonCollection.CustomSearch
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: PersonCollection.CustomSearch
+  nameWithType: PersonCollection.CustomSearch
+  fullName: SuperOffice.CRM.Entities.PersonCollection.CustomSearch
+- uid: SuperOffice.CRM.Entities.Person
+  commentId: T:SuperOffice.CRM.Entities.Person
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Person
+  nameWithType: Person
+  fullName: SuperOffice.CRM.Entities.Person
+- uid: SuperOffice.CRM.Entities.Person.PersonIdxBase
+  commentId: T:SuperOffice.CRM.Entities.Person.PersonIdxBase
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Person.PersonIdxBase
+  nameWithType: Person.PersonIdxBase
+  fullName: SuperOffice.CRM.Entities.Person.PersonIdxBase
+- uid: SuperOffice.CRM.Entities.Person.PersonIdx
+  commentId: T:SuperOffice.CRM.Entities.Person.PersonIdx
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Person.PersonIdx
+  nameWithType: Person.PersonIdx
+  fullName: SuperOffice.CRM.Entities.Person.PersonIdx
+- uid: SuperOffice.CRM.Entities.Person.PersonIdx`1
+  commentId: T:SuperOffice.CRM.Entities.Person.PersonIdx`1
+  isExternal: true
+  name: Person.PersonIdx<TIdx>
+  nameWithType: Person.PersonIdx<TIdx>
+  fullName: SuperOffice.CRM.Entities.Person.PersonIdx<TIdx>
+  nameWithType.vb: Person.PersonIdx(Of TIdx)
+  fullName.vb: SuperOffice.CRM.Entities.Person.PersonIdx(Of TIdx)
+  name.vb: Person.PersonIdx(Of TIdx)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.Person.PersonIdx`1
+    name: Person.PersonIdx
+    nameWithType: Person.PersonIdx
+    fullName: SuperOffice.CRM.Entities.Person.PersonIdx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.Person.PersonIdx`1
+    name: Person.PersonIdx
+    nameWithType: Person.PersonIdx
+    fullName: SuperOffice.CRM.Entities.Person.PersonIdx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Person.IdxPersonId
+  commentId: T:SuperOffice.CRM.Entities.Person.IdxPersonId
+  isExternal: true
+  name: Person.IdxPersonId
+  nameWithType: Person.IdxPersonId
+  fullName: SuperOffice.CRM.Entities.Person.IdxPersonId
+- uid: SuperOffice.CRM.Entities.Person.CustomSearch
+  commentId: T:SuperOffice.CRM.Entities.Person.CustomSearch
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Person.CustomSearch
+  nameWithType: Person.CustomSearch
+  fullName: SuperOffice.CRM.Entities.Person.CustomSearch
+- uid: SuperOffice.CRM.Entities.ProjectCollection
+  commentId: T:SuperOffice.CRM.Entities.ProjectCollection
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: ProjectCollection
+  nameWithType: ProjectCollection
+  fullName: SuperOffice.CRM.Entities.ProjectCollection
+- uid: SuperOffice.CRM.Entities.ProjectCollection.ProjectCollectionIdx
+  commentId: T:SuperOffice.CRM.Entities.ProjectCollection.ProjectCollectionIdx
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: ProjectCollection.ProjectCollectionIdx
+  nameWithType: ProjectCollection.ProjectCollectionIdx
+  fullName: SuperOffice.CRM.Entities.ProjectCollection.ProjectCollectionIdx
+- uid: SuperOffice.CRM.Entities.ProjectCollection.ProjectCollectionIdx`1
+  commentId: T:SuperOffice.CRM.Entities.ProjectCollection.ProjectCollectionIdx`1
+  isExternal: true
+  name: ProjectCollection.ProjectCollectionIdx<TIdx>
+  nameWithType: ProjectCollection.ProjectCollectionIdx<TIdx>
+  fullName: SuperOffice.CRM.Entities.ProjectCollection.ProjectCollectionIdx<TIdx>
+  nameWithType.vb: ProjectCollection.ProjectCollectionIdx(Of TIdx)
+  fullName.vb: SuperOffice.CRM.Entities.ProjectCollection.ProjectCollectionIdx(Of TIdx)
+  name.vb: ProjectCollection.ProjectCollectionIdx(Of TIdx)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.ProjectCollection.ProjectCollectionIdx`1
+    name: ProjectCollection.ProjectCollectionIdx
+    nameWithType: ProjectCollection.ProjectCollectionIdx
+    fullName: SuperOffice.CRM.Entities.ProjectCollection.ProjectCollectionIdx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.ProjectCollection.ProjectCollectionIdx`1
+    name: ProjectCollection.ProjectCollectionIdx
+    nameWithType: ProjectCollection.ProjectCollectionIdx
+    fullName: SuperOffice.CRM.Entities.ProjectCollection.ProjectCollectionIdx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ProjectCollection.IdxSoundEx
+  commentId: T:SuperOffice.CRM.Entities.ProjectCollection.IdxSoundEx
+  isExternal: true
+  name: ProjectCollection.IdxSoundEx
+  nameWithType: ProjectCollection.IdxSoundEx
+  fullName: SuperOffice.CRM.Entities.ProjectCollection.IdxSoundEx
+- uid: SuperOffice.CRM.Entities.ProjectCollection.IdxSource
+  commentId: T:SuperOffice.CRM.Entities.ProjectCollection.IdxSource
+  isExternal: true
+  name: ProjectCollection.IdxSource
+  nameWithType: ProjectCollection.IdxSource
+  fullName: SuperOffice.CRM.Entities.ProjectCollection.IdxSource
+- uid: SuperOffice.CRM.Entities.ProjectCollection.IdxProjectNumber
+  commentId: T:SuperOffice.CRM.Entities.ProjectCollection.IdxProjectNumber
+  isExternal: true
+  name: ProjectCollection.IdxProjectNumber
+  nameWithType: ProjectCollection.IdxProjectNumber
+  fullName: SuperOffice.CRM.Entities.ProjectCollection.IdxProjectNumber
+- uid: SuperOffice.CRM.Entities.ProjectCollection.IdxUserdef2Id
+  commentId: T:SuperOffice.CRM.Entities.ProjectCollection.IdxUserdef2Id
+  isExternal: true
+  name: ProjectCollection.IdxUserdef2Id
+  nameWithType: ProjectCollection.IdxUserdef2Id
+  fullName: SuperOffice.CRM.Entities.ProjectCollection.IdxUserdef2Id
+- uid: SuperOffice.CRM.Entities.ProjectCollection.IdxName
+  commentId: T:SuperOffice.CRM.Entities.ProjectCollection.IdxName
+  isExternal: true
+  name: ProjectCollection.IdxName
+  nameWithType: ProjectCollection.IdxName
+  fullName: SuperOffice.CRM.Entities.ProjectCollection.IdxName
+- uid: SuperOffice.CRM.Entities.ProjectCollection.CustomSearch
+  commentId: T:SuperOffice.CRM.Entities.ProjectCollection.CustomSearch
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: ProjectCollection.CustomSearch
+  nameWithType: ProjectCollection.CustomSearch
+  fullName: SuperOffice.CRM.Entities.ProjectCollection.CustomSearch
+- uid: SuperOffice.CRM.Entities.Project
+  commentId: T:SuperOffice.CRM.Entities.Project
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Project
+  nameWithType: Project
+  fullName: SuperOffice.CRM.Entities.Project
+- uid: SuperOffice.CRM.Entities.Project.ProjectIdxBase
+  commentId: T:SuperOffice.CRM.Entities.Project.ProjectIdxBase
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Project.ProjectIdxBase
+  nameWithType: Project.ProjectIdxBase
+  fullName: SuperOffice.CRM.Entities.Project.ProjectIdxBase
+- uid: SuperOffice.CRM.Entities.Project.ProjectIdx
+  commentId: T:SuperOffice.CRM.Entities.Project.ProjectIdx
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Project.ProjectIdx
+  nameWithType: Project.ProjectIdx
+  fullName: SuperOffice.CRM.Entities.Project.ProjectIdx
+- uid: SuperOffice.CRM.Entities.Project.ProjectIdx`1
+  commentId: T:SuperOffice.CRM.Entities.Project.ProjectIdx`1
+  isExternal: true
+  name: Project.ProjectIdx<TIdx>
+  nameWithType: Project.ProjectIdx<TIdx>
+  fullName: SuperOffice.CRM.Entities.Project.ProjectIdx<TIdx>
+  nameWithType.vb: Project.ProjectIdx(Of TIdx)
+  fullName.vb: SuperOffice.CRM.Entities.Project.ProjectIdx(Of TIdx)
+  name.vb: Project.ProjectIdx(Of TIdx)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.Project.ProjectIdx`1
+    name: Project.ProjectIdx
+    nameWithType: Project.ProjectIdx
+    fullName: SuperOffice.CRM.Entities.Project.ProjectIdx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.Project.ProjectIdx`1
+    name: Project.ProjectIdx
+    nameWithType: Project.ProjectIdx
+    fullName: SuperOffice.CRM.Entities.Project.ProjectIdx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Project.IdxProjectId
+  commentId: T:SuperOffice.CRM.Entities.Project.IdxProjectId
+  isExternal: true
+  name: Project.IdxProjectId
+  nameWithType: Project.IdxProjectId
+  fullName: SuperOffice.CRM.Entities.Project.IdxProjectId
+- uid: SuperOffice.CRM.Entities.Project.CustomSearch
+  commentId: T:SuperOffice.CRM.Entities.Project.CustomSearch
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Project.CustomSearch
+  nameWithType: Project.CustomSearch
+  fullName: SuperOffice.CRM.Entities.Project.CustomSearch
+- uid: SuperOffice.CRM.Entities.ProjectMemberCollection
+  commentId: T:SuperOffice.CRM.Entities.ProjectMemberCollection
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: ProjectMemberCollection
+  nameWithType: ProjectMemberCollection
+  fullName: SuperOffice.CRM.Entities.ProjectMemberCollection
+- uid: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx
+  commentId: T:SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: ProjectMemberCollection.ProjectMemberCollectionIdx
+  nameWithType: ProjectMemberCollection.ProjectMemberCollectionIdx
+  fullName: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx
+- uid: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx`1
+  commentId: T:SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx`1
+  isExternal: true
+  name: ProjectMemberCollection.ProjectMemberCollectionIdx<TIdx>
+  nameWithType: ProjectMemberCollection.ProjectMemberCollectionIdx<TIdx>
+  fullName: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx<TIdx>
+  nameWithType.vb: ProjectMemberCollection.ProjectMemberCollectionIdx(Of TIdx)
+  fullName.vb: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx(Of TIdx)
+  name.vb: ProjectMemberCollection.ProjectMemberCollectionIdx(Of TIdx)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx`1
+    name: ProjectMemberCollection.ProjectMemberCollectionIdx
+    nameWithType: ProjectMemberCollection.ProjectMemberCollectionIdx
+    fullName: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx`1
+    name: ProjectMemberCollection.ProjectMemberCollectionIdx
+    nameWithType: ProjectMemberCollection.ProjectMemberCollectionIdx
+    fullName: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ProjectMemberCollection.IdxPersonId
+  commentId: T:SuperOffice.CRM.Entities.ProjectMemberCollection.IdxPersonId
+  isExternal: true
+  name: ProjectMemberCollection.IdxPersonId
+  nameWithType: ProjectMemberCollection.IdxPersonId
+  fullName: SuperOffice.CRM.Entities.ProjectMemberCollection.IdxPersonId
+- uid: SuperOffice.CRM.Entities.ProjectMemberCollection.IdxContactId
+  commentId: T:SuperOffice.CRM.Entities.ProjectMemberCollection.IdxContactId
+  isExternal: true
+  name: ProjectMemberCollection.IdxContactId
+  nameWithType: ProjectMemberCollection.IdxContactId
+  fullName: SuperOffice.CRM.Entities.ProjectMemberCollection.IdxContactId
+- uid: SuperOffice.CRM.Entities.ProjectMemberCollection.IdxProjectIdRank
+  commentId: T:SuperOffice.CRM.Entities.ProjectMemberCollection.IdxProjectIdRank
+  isExternal: true
+  name: ProjectMemberCollection.IdxProjectIdRank
+  nameWithType: ProjectMemberCollection.IdxProjectIdRank
+  fullName: SuperOffice.CRM.Entities.ProjectMemberCollection.IdxProjectIdRank
+- uid: SuperOffice.CRM.Entities.ProjectMemberCollection.CustomSearch
+  commentId: T:SuperOffice.CRM.Entities.ProjectMemberCollection.CustomSearch
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: ProjectMemberCollection.CustomSearch
+  nameWithType: ProjectMemberCollection.CustomSearch
+  fullName: SuperOffice.CRM.Entities.ProjectMemberCollection.CustomSearch
+- uid: SuperOffice.CRM.Entities.ProjectMember
+  commentId: T:SuperOffice.CRM.Entities.ProjectMember
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: ProjectMember
+  nameWithType: ProjectMember
+  fullName: SuperOffice.CRM.Entities.ProjectMember
+- uid: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase
+  commentId: T:SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: ProjectMember.ProjectMemberIdxBase
+  nameWithType: ProjectMember.ProjectMemberIdxBase
+  fullName: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase
+- uid: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdx
+  commentId: T:SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdx
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: ProjectMember.ProjectMemberIdx
+  nameWithType: ProjectMember.ProjectMemberIdx
+  fullName: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdx
+- uid: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdx`1
+  commentId: T:SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdx`1
+  isExternal: true
+  name: ProjectMember.ProjectMemberIdx<TIdx>
+  nameWithType: ProjectMember.ProjectMemberIdx<TIdx>
+  fullName: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdx<TIdx>
+  nameWithType.vb: ProjectMember.ProjectMemberIdx(Of TIdx)
+  fullName.vb: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdx(Of TIdx)
+  name.vb: ProjectMember.ProjectMemberIdx(Of TIdx)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdx`1
+    name: ProjectMember.ProjectMemberIdx
+    nameWithType: ProjectMember.ProjectMemberIdx
+    fullName: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdx`1
+    name: ProjectMember.ProjectMemberIdx
+    nameWithType: ProjectMember.ProjectMemberIdx
+    fullName: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ProjectMember.IdxProjectmemberId
+  commentId: T:SuperOffice.CRM.Entities.ProjectMember.IdxProjectmemberId
+  isExternal: true
+  name: ProjectMember.IdxProjectmemberId
+  nameWithType: ProjectMember.IdxProjectmemberId
+  fullName: SuperOffice.CRM.Entities.ProjectMember.IdxProjectmemberId
+- uid: SuperOffice.CRM.Entities.ProjectMember.CustomSearch
+  commentId: T:SuperOffice.CRM.Entities.ProjectMember.CustomSearch
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: ProjectMember.CustomSearch
+  nameWithType: ProjectMember.CustomSearch
+  fullName: SuperOffice.CRM.Entities.ProjectMember.CustomSearch
+- uid: SuperOffice.CRM.Entities.SaleCollection
+  commentId: T:SuperOffice.CRM.Entities.SaleCollection
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: SaleCollection
+  nameWithType: SaleCollection
+  fullName: SuperOffice.CRM.Entities.SaleCollection
+- uid: SuperOffice.CRM.Entities.SaleCollection.SaleCollectionIdx
+  commentId: T:SuperOffice.CRM.Entities.SaleCollection.SaleCollectionIdx
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: SaleCollection.SaleCollectionIdx
+  nameWithType: SaleCollection.SaleCollectionIdx
+  fullName: SuperOffice.CRM.Entities.SaleCollection.SaleCollectionIdx
+- uid: SuperOffice.CRM.Entities.SaleCollection.SaleCollectionIdx`1
+  commentId: T:SuperOffice.CRM.Entities.SaleCollection.SaleCollectionIdx`1
+  isExternal: true
+  name: SaleCollection.SaleCollectionIdx<TIdx>
+  nameWithType: SaleCollection.SaleCollectionIdx<TIdx>
+  fullName: SuperOffice.CRM.Entities.SaleCollection.SaleCollectionIdx<TIdx>
+  nameWithType.vb: SaleCollection.SaleCollectionIdx(Of TIdx)
+  fullName.vb: SuperOffice.CRM.Entities.SaleCollection.SaleCollectionIdx(Of TIdx)
+  name.vb: SaleCollection.SaleCollectionIdx(Of TIdx)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.SaleCollection.SaleCollectionIdx`1
+    name: SaleCollection.SaleCollectionIdx
+    nameWithType: SaleCollection.SaleCollectionIdx
+    fullName: SuperOffice.CRM.Entities.SaleCollection.SaleCollectionIdx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.SaleCollection.SaleCollectionIdx`1
+    name: SaleCollection.SaleCollectionIdx
+    nameWithType: SaleCollection.SaleCollectionIdx
+    fullName: SuperOffice.CRM.Entities.SaleCollection.SaleCollectionIdx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.SaleCollection.IdxStatus
+  commentId: T:SuperOffice.CRM.Entities.SaleCollection.IdxStatus
+  isExternal: true
+  name: SaleCollection.IdxStatus
+  nameWithType: SaleCollection.IdxStatus
+  fullName: SuperOffice.CRM.Entities.SaleCollection.IdxStatus
+- uid: SuperOffice.CRM.Entities.SaleCollection.IdxDone
+  commentId: T:SuperOffice.CRM.Entities.SaleCollection.IdxDone
+  isExternal: true
+  name: SaleCollection.IdxDone
+  nameWithType: SaleCollection.IdxDone
+  fullName: SuperOffice.CRM.Entities.SaleCollection.IdxDone
+- uid: SuperOffice.CRM.Entities.SaleCollection.IdxUserdefId
+  commentId: T:SuperOffice.CRM.Entities.SaleCollection.IdxUserdefId
+  isExternal: true
+  name: SaleCollection.IdxUserdefId
+  nameWithType: SaleCollection.IdxUserdefId
+  fullName: SuperOffice.CRM.Entities.SaleCollection.IdxUserdefId
+- uid: SuperOffice.CRM.Entities.SaleCollection.IdxUserdef2Id
+  commentId: T:SuperOffice.CRM.Entities.SaleCollection.IdxUserdef2Id
+  isExternal: true
+  name: SaleCollection.IdxUserdef2Id
+  nameWithType: SaleCollection.IdxUserdef2Id
+  fullName: SuperOffice.CRM.Entities.SaleCollection.IdxUserdef2Id
+- uid: SuperOffice.CRM.Entities.SaleCollection.IdxProjectId
+  commentId: T:SuperOffice.CRM.Entities.SaleCollection.IdxProjectId
+  isExternal: true
+  name: SaleCollection.IdxProjectId
+  nameWithType: SaleCollection.IdxProjectId
+  fullName: SuperOffice.CRM.Entities.SaleCollection.IdxProjectId
+- uid: SuperOffice.CRM.Entities.SaleCollection.IdxSource
+  commentId: T:SuperOffice.CRM.Entities.SaleCollection.IdxSource
+  isExternal: true
+  name: SaleCollection.IdxSource
+  nameWithType: SaleCollection.IdxSource
+  fullName: SuperOffice.CRM.Entities.SaleCollection.IdxSource
+- uid: SuperOffice.CRM.Entities.SaleCollection.IdxHeading
+  commentId: T:SuperOffice.CRM.Entities.SaleCollection.IdxHeading
+  isExternal: true
+  name: SaleCollection.IdxHeading
+  nameWithType: SaleCollection.IdxHeading
+  fullName: SuperOffice.CRM.Entities.SaleCollection.IdxHeading
+- uid: SuperOffice.CRM.Entities.SaleCollection.IdxProjectIdAssociateIdSaledate
+  commentId: T:SuperOffice.CRM.Entities.SaleCollection.IdxProjectIdAssociateIdSaledate
+  isExternal: true
+  name: SaleCollection.IdxProjectIdAssociateIdSaledate
+  nameWithType: SaleCollection.IdxProjectIdAssociateIdSaledate
+  fullName: SuperOffice.CRM.Entities.SaleCollection.IdxProjectIdAssociateIdSaledate
+- uid: SuperOffice.CRM.Entities.SaleCollection.IdxPersonId
+  commentId: T:SuperOffice.CRM.Entities.SaleCollection.IdxPersonId
+  isExternal: true
+  name: SaleCollection.IdxPersonId
+  nameWithType: SaleCollection.IdxPersonId
+  fullName: SuperOffice.CRM.Entities.SaleCollection.IdxPersonId
+- uid: SuperOffice.CRM.Entities.SaleCollection.IdxAssociateIdDoneSaledate
+  commentId: T:SuperOffice.CRM.Entities.SaleCollection.IdxAssociateIdDoneSaledate
+  isExternal: true
+  name: SaleCollection.IdxAssociateIdDoneSaledate
+  nameWithType: SaleCollection.IdxAssociateIdDoneSaledate
+  fullName: SuperOffice.CRM.Entities.SaleCollection.IdxAssociateIdDoneSaledate
+- uid: SuperOffice.CRM.Entities.SaleCollection.IdxContactId
+  commentId: T:SuperOffice.CRM.Entities.SaleCollection.IdxContactId
+  isExternal: true
+  name: SaleCollection.IdxContactId
+  nameWithType: SaleCollection.IdxContactId
+  fullName: SuperOffice.CRM.Entities.SaleCollection.IdxContactId
+- uid: SuperOffice.CRM.Entities.SaleCollection.IdxSaledate
+  commentId: T:SuperOffice.CRM.Entities.SaleCollection.IdxSaledate
+  isExternal: true
+  name: SaleCollection.IdxSaledate
+  nameWithType: SaleCollection.IdxSaledate
+  fullName: SuperOffice.CRM.Entities.SaleCollection.IdxSaledate
+- uid: SuperOffice.CRM.Entities.SaleCollection.IdxNumber1
+  commentId: T:SuperOffice.CRM.Entities.SaleCollection.IdxNumber1
+  isExternal: true
+  name: SaleCollection.IdxNumber1
+  nameWithType: SaleCollection.IdxNumber1
+  fullName: SuperOffice.CRM.Entities.SaleCollection.IdxNumber1
+- uid: SuperOffice.CRM.Entities.SaleCollection.IdxAssociateIdContactIdSaledate
+  commentId: T:SuperOffice.CRM.Entities.SaleCollection.IdxAssociateIdContactIdSaledate
+  isExternal: true
+  name: SaleCollection.IdxAssociateIdContactIdSaledate
+  nameWithType: SaleCollection.IdxAssociateIdContactIdSaledate
+  fullName: SuperOffice.CRM.Entities.SaleCollection.IdxAssociateIdContactIdSaledate
+- uid: SuperOffice.CRM.Entities.SaleCollection.CustomSearch
+  commentId: T:SuperOffice.CRM.Entities.SaleCollection.CustomSearch
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: SaleCollection.CustomSearch
+  nameWithType: SaleCollection.CustomSearch
+  fullName: SuperOffice.CRM.Entities.SaleCollection.CustomSearch
+- uid: SuperOffice.CRM.Entities.Sale
+  commentId: T:SuperOffice.CRM.Entities.Sale
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Sale
+  nameWithType: Sale
+  fullName: SuperOffice.CRM.Entities.Sale
+- uid: SuperOffice.CRM.Entities.Sale.SaleIdxBase
+  commentId: T:SuperOffice.CRM.Entities.Sale.SaleIdxBase
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Sale.SaleIdxBase
+  nameWithType: Sale.SaleIdxBase
+  fullName: SuperOffice.CRM.Entities.Sale.SaleIdxBase
+- uid: SuperOffice.CRM.Entities.Sale.SaleIdx
+  commentId: T:SuperOffice.CRM.Entities.Sale.SaleIdx
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Sale.SaleIdx
+  nameWithType: Sale.SaleIdx
+  fullName: SuperOffice.CRM.Entities.Sale.SaleIdx
+- uid: SuperOffice.CRM.Entities.Sale.SaleIdx`1
+  commentId: T:SuperOffice.CRM.Entities.Sale.SaleIdx`1
+  isExternal: true
+  name: Sale.SaleIdx<TIdx>
+  nameWithType: Sale.SaleIdx<TIdx>
+  fullName: SuperOffice.CRM.Entities.Sale.SaleIdx<TIdx>
+  nameWithType.vb: Sale.SaleIdx(Of TIdx)
+  fullName.vb: SuperOffice.CRM.Entities.Sale.SaleIdx(Of TIdx)
+  name.vb: Sale.SaleIdx(Of TIdx)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.Sale.SaleIdx`1
+    name: Sale.SaleIdx
+    nameWithType: Sale.SaleIdx
+    fullName: SuperOffice.CRM.Entities.Sale.SaleIdx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.Sale.SaleIdx`1
+    name: Sale.SaleIdx
+    nameWithType: Sale.SaleIdx
+    fullName: SuperOffice.CRM.Entities.Sale.SaleIdx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Sale.IdxSaleId
+  commentId: T:SuperOffice.CRM.Entities.Sale.IdxSaleId
+  isExternal: true
+  name: Sale.IdxSaleId
+  nameWithType: Sale.IdxSaleId
+  fullName: SuperOffice.CRM.Entities.Sale.IdxSaleId
+- uid: SuperOffice.CRM.Entities.Sale.CustomSearch
+  commentId: T:SuperOffice.CRM.Entities.Sale.CustomSearch
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Sale.CustomSearch
+  nameWithType: Sale.CustomSearch
+  fullName: SuperOffice.CRM.Entities.Sale.CustomSearch
+- uid: SuperOffice.CRM.Entities.SelectionCollection
+  commentId: T:SuperOffice.CRM.Entities.SelectionCollection
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: SelectionCollection
+  nameWithType: SelectionCollection
+  fullName: SuperOffice.CRM.Entities.SelectionCollection
+- uid: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx
+  commentId: T:SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: SelectionCollection.SelectionCollectionIdx
+  nameWithType: SelectionCollection.SelectionCollectionIdx
+  fullName: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx
+- uid: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx`1
+  commentId: T:SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx`1
+  isExternal: true
+  name: SelectionCollection.SelectionCollectionIdx<TIdx>
+  nameWithType: SelectionCollection.SelectionCollectionIdx<TIdx>
+  fullName: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx<TIdx>
+  nameWithType.vb: SelectionCollection.SelectionCollectionIdx(Of TIdx)
+  fullName.vb: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx(Of TIdx)
+  name.vb: SelectionCollection.SelectionCollectionIdx(Of TIdx)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx`1
+    name: SelectionCollection.SelectionCollectionIdx
+    nameWithType: SelectionCollection.SelectionCollectionIdx
+    fullName: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx`1
+    name: SelectionCollection.SelectionCollectionIdx
+    nameWithType: SelectionCollection.SelectionCollectionIdx
+    fullName: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.SelectionCollection.IdxName
+  commentId: T:SuperOffice.CRM.Entities.SelectionCollection.IdxName
+  isExternal: true
+  name: SelectionCollection.IdxName
+  nameWithType: SelectionCollection.IdxName
+  fullName: SuperOffice.CRM.Entities.SelectionCollection.IdxName
+- uid: SuperOffice.CRM.Entities.SelectionCollection.IdxAssociateId
+  commentId: T:SuperOffice.CRM.Entities.SelectionCollection.IdxAssociateId
+  isExternal: true
+  name: SelectionCollection.IdxAssociateId
+  nameWithType: SelectionCollection.IdxAssociateId
+  fullName: SuperOffice.CRM.Entities.SelectionCollection.IdxAssociateId
+- uid: SuperOffice.CRM.Entities.SelectionCollection.IdxSoundEx
+  commentId: T:SuperOffice.CRM.Entities.SelectionCollection.IdxSoundEx
+  isExternal: true
+  name: SelectionCollection.IdxSoundEx
+  nameWithType: SelectionCollection.IdxSoundEx
+  fullName: SuperOffice.CRM.Entities.SelectionCollection.IdxSoundEx
+- uid: SuperOffice.CRM.Entities.SelectionCollection.IdxGroupIdx
+  commentId: T:SuperOffice.CRM.Entities.SelectionCollection.IdxGroupIdx
+  isExternal: true
+  name: SelectionCollection.IdxGroupIdx
+  nameWithType: SelectionCollection.IdxGroupIdx
+  fullName: SuperOffice.CRM.Entities.SelectionCollection.IdxGroupIdx
+- uid: SuperOffice.CRM.Entities.SelectionCollection.IdxSource
+  commentId: T:SuperOffice.CRM.Entities.SelectionCollection.IdxSource
+  isExternal: true
+  name: SelectionCollection.IdxSource
+  nameWithType: SelectionCollection.IdxSource
+  fullName: SuperOffice.CRM.Entities.SelectionCollection.IdxSource
+- uid: SuperOffice.CRM.Entities.SelectionCollection.CustomSearch
+  commentId: T:SuperOffice.CRM.Entities.SelectionCollection.CustomSearch
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: SelectionCollection.CustomSearch
+  nameWithType: SelectionCollection.CustomSearch
+  fullName: SuperOffice.CRM.Entities.SelectionCollection.CustomSearch
+- uid: SuperOffice.CRM.Entities.Selection
+  commentId: T:SuperOffice.CRM.Entities.Selection
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Selection
+  nameWithType: Selection
+  fullName: SuperOffice.CRM.Entities.Selection
+- uid: SuperOffice.CRM.Entities.Selection.SelectionIdxBase
+  commentId: T:SuperOffice.CRM.Entities.Selection.SelectionIdxBase
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Selection.SelectionIdxBase
+  nameWithType: Selection.SelectionIdxBase
+  fullName: SuperOffice.CRM.Entities.Selection.SelectionIdxBase
+- uid: SuperOffice.CRM.Entities.Selection.SelectionIdx
+  commentId: T:SuperOffice.CRM.Entities.Selection.SelectionIdx
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Selection.SelectionIdx
+  nameWithType: Selection.SelectionIdx
+  fullName: SuperOffice.CRM.Entities.Selection.SelectionIdx
+- uid: SuperOffice.CRM.Entities.Selection.SelectionIdx`1
+  commentId: T:SuperOffice.CRM.Entities.Selection.SelectionIdx`1
+  isExternal: true
+  name: Selection.SelectionIdx<TIdx>
+  nameWithType: Selection.SelectionIdx<TIdx>
+  fullName: SuperOffice.CRM.Entities.Selection.SelectionIdx<TIdx>
+  nameWithType.vb: Selection.SelectionIdx(Of TIdx)
+  fullName.vb: SuperOffice.CRM.Entities.Selection.SelectionIdx(Of TIdx)
+  name.vb: Selection.SelectionIdx(Of TIdx)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.Selection.SelectionIdx`1
+    name: Selection.SelectionIdx
+    nameWithType: Selection.SelectionIdx
+    fullName: SuperOffice.CRM.Entities.Selection.SelectionIdx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.Selection.SelectionIdx`1
+    name: Selection.SelectionIdx
+    nameWithType: Selection.SelectionIdx
+    fullName: SuperOffice.CRM.Entities.Selection.SelectionIdx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Selection.IdxSelectionId
+  commentId: T:SuperOffice.CRM.Entities.Selection.IdxSelectionId
+  isExternal: true
+  name: Selection.IdxSelectionId
+  nameWithType: Selection.IdxSelectionId
+  fullName: SuperOffice.CRM.Entities.Selection.IdxSelectionId
+- uid: SuperOffice.CRM.Entities.Selection.CustomSearch
+  commentId: T:SuperOffice.CRM.Entities.Selection.CustomSearch
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Selection.CustomSearch
+  nameWithType: Selection.CustomSearch
+  fullName: SuperOffice.CRM.Entities.Selection.CustomSearch
+- uid: SuperOffice.CRM.Entities.ActiveInterestsChanged
+  commentId: T:SuperOffice.CRM.Entities.ActiveInterestsChanged
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: ActiveInterestsChanged
+  nameWithType: ActiveInterestsChanged
+  fullName: SuperOffice.CRM.Entities.ActiveInterestsChanged
+- uid: SuperOffice.CRM.Entities.InterestHelper
+  commentId: T:SuperOffice.CRM.Entities.InterestHelper
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: InterestHelper
+  nameWithType: InterestHelper
+  fullName: SuperOffice.CRM.Entities.InterestHelper
+- uid: SuperOffice.CRM.Entities.ContactInterestHelper
+  commentId: T:SuperOffice.CRM.Entities.ContactInterestHelper
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: ContactInterestHelper
+  nameWithType: ContactInterestHelper
+  fullName: SuperOffice.CRM.Entities.ContactInterestHelper
+- uid: SuperOffice.CRM.Entities.PersonInterestHelper
+  commentId: T:SuperOffice.CRM.Entities.PersonInterestHelper
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: PersonInterestHelper
+  nameWithType: PersonInterestHelper
+  fullName: SuperOffice.CRM.Entities.PersonInterestHelper
+- uid: SuperOffice.CRM.Entities.ActivityLinksHelper
+  commentId: T:SuperOffice.CRM.Entities.ActivityLinksHelper
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: ActivityLinksHelper
+  nameWithType: ActivityLinksHelper
+  fullName: SuperOffice.CRM.Entities.ActivityLinksHelper
+- uid: SuperOffice.CRM.Entities.LinksHelper
+  commentId: T:SuperOffice.CRM.Entities.LinksHelper
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: LinksHelper
+  nameWithType: LinksHelper
+  fullName: SuperOffice.CRM.Entities.LinksHelper
+- uid: SuperOffice.CRM.Entities.RecurrenceManager
+  commentId: T:SuperOffice.CRM.Entities.RecurrenceManager
+  isExternal: true
+  name: RecurrenceManager
+  nameWithType: RecurrenceManager
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities

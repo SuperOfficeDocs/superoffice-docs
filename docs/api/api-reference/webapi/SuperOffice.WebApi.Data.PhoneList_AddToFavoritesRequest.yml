@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.PhoneList_AddToFavoritesRequest
+  commentId: T:SuperOffice.WebApi.Data.PhoneList_AddToFavoritesRequest
+  id: PhoneList_AddToFavoritesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.PhoneList_AddToFavoritesRequest.#ctor
+  - SuperOffice.WebApi.Data.PhoneList_AddToFavoritesRequest.ContactId
+  langs:
+  - csharp
+  - vb
+  name: PhoneList_AddToFavoritesRequest
+  nameWithType: PhoneList_AddToFavoritesRequest
+  fullName: SuperOffice.WebApi.Data.PhoneList_AddToFavoritesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class PhoneList_AddToFavoritesRequest : Object'
+    content.vb: >-
+      Public Class PhoneList_AddToFavoritesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.PhoneList_AddToFavoritesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.PhoneList_AddToFavoritesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.PhoneList_AddToFavoritesRequest
+  langs:
+  - csharp
+  - vb
+  name: PhoneList_AddToFavoritesRequest()
+  nameWithType: PhoneList_AddToFavoritesRequest.PhoneList_AddToFavoritesRequest()
+  fullName: SuperOffice.WebApi.Data.PhoneList_AddToFavoritesRequest.PhoneList_AddToFavoritesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public PhoneList_AddToFavoritesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.PhoneList_AddToFavoritesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PhoneList_AddToFavoritesRequest.ContactId
+  commentId: P:SuperOffice.WebApi.Data.PhoneList_AddToFavoritesRequest.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.PhoneList_AddToFavoritesRequest
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: PhoneList_AddToFavoritesRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.PhoneList_AddToFavoritesRequest.ContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.PhoneList_AddToFavoritesRequest.ContactId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.PhoneList_AddToFavoritesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneList_AddToFavoritesRequest.#ctor
+  isExternal: true
+  name: PhoneList_AddToFavoritesRequest
+  nameWithType: PhoneList_AddToFavoritesRequest.PhoneList_AddToFavoritesRequest
+  fullName: SuperOffice.WebApi.Data.PhoneList_AddToFavoritesRequest.PhoneList_AddToFavoritesRequest
+- uid: SuperOffice.WebApi.Data.PhoneList_AddToFavoritesRequest.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneList_AddToFavoritesRequest.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: PhoneList_AddToFavoritesRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.PhoneList_AddToFavoritesRequest.ContactId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

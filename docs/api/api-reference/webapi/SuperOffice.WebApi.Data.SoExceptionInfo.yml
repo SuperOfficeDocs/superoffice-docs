@@ -1,0 +1,388 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.SoExceptionInfo
+  commentId: T:SuperOffice.WebApi.Data.SoExceptionInfo
+  id: SoExceptionInfo
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.SoExceptionInfo.#ctor
+  - SuperOffice.WebApi.Data.SoExceptionInfo.ExceptionType
+  - SuperOffice.WebApi.Data.SoExceptionInfo.FriendlyText
+  - SuperOffice.WebApi.Data.SoExceptionInfo.InnerException
+  - SuperOffice.WebApi.Data.SoExceptionInfo.Message
+  - SuperOffice.WebApi.Data.SoExceptionInfo.Parameters
+  - SuperOffice.WebApi.Data.SoExceptionInfo.Source
+  - SuperOffice.WebApi.Data.SoExceptionInfo.StackTrace
+  langs:
+  - csharp
+  - vb
+  name: SoExceptionInfo
+  nameWithType: SoExceptionInfo
+  fullName: SuperOffice.WebApi.Data.SoExceptionInfo
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for SoExceptionInfo.\nRepresentation of a serialized exception that can be communicatyed over web services    \n"
+  syntax:
+    content: 'public class SoExceptionInfo : Object'
+    content.vb: >-
+      Public Class SoExceptionInfo
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.SoExceptionInfo.#ctor
+  commentId: M:SuperOffice.WebApi.Data.SoExceptionInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.SoExceptionInfo
+  langs:
+  - csharp
+  - vb
+  name: SoExceptionInfo()
+  nameWithType: SoExceptionInfo.SoExceptionInfo()
+  fullName: SuperOffice.WebApi.Data.SoExceptionInfo.SoExceptionInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public SoExceptionInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.SoExceptionInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SoExceptionInfo.Message
+  commentId: P:SuperOffice.WebApi.Data.SoExceptionInfo.Message
+  id: Message
+  parent: SuperOffice.WebApi.Data.SoExceptionInfo
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: SoExceptionInfo.Message
+  fullName: SuperOffice.WebApi.Data.SoExceptionInfo.Message
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe message that describes the error.\n"
+  syntax:
+    content: public virtual string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Message As String
+  overload: SuperOffice.WebApi.Data.SoExceptionInfo.Message*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoExceptionInfo.StackTrace
+  commentId: P:SuperOffice.WebApi.Data.SoExceptionInfo.StackTrace
+  id: StackTrace
+  parent: SuperOffice.WebApi.Data.SoExceptionInfo
+  langs:
+  - csharp
+  - vb
+  name: StackTrace
+  nameWithType: SoExceptionInfo.StackTrace
+  fullName: SuperOffice.WebApi.Data.SoExceptionInfo.StackTrace
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA string that describes the contents of the call stack, with the most recent method call appearing first.\n"
+  syntax:
+    content: public virtual string StackTrace { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property StackTrace As String
+  overload: SuperOffice.WebApi.Data.SoExceptionInfo.StackTrace*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoExceptionInfo.FriendlyText
+  commentId: P:SuperOffice.WebApi.Data.SoExceptionInfo.FriendlyText
+  id: FriendlyText
+  parent: SuperOffice.WebApi.Data.SoExceptionInfo
+  langs:
+  - csharp
+  - vb
+  name: FriendlyText
+  nameWithType: SoExceptionInfo.FriendlyText
+  fullName: SuperOffice.WebApi.Data.SoExceptionInfo.FriendlyText
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFriendly name.\n"
+  syntax:
+    content: public virtual string FriendlyText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FriendlyText As String
+  overload: SuperOffice.WebApi.Data.SoExceptionInfo.FriendlyText*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoExceptionInfo.ExceptionType
+  commentId: P:SuperOffice.WebApi.Data.SoExceptionInfo.ExceptionType
+  id: ExceptionType
+  parent: SuperOffice.WebApi.Data.SoExceptionInfo
+  langs:
+  - csharp
+  - vb
+  name: ExceptionType
+  nameWithType: SoExceptionInfo.ExceptionType
+  fullName: SuperOffice.WebApi.Data.SoExceptionInfo.ExceptionType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nType of Exception.\n"
+  syntax:
+    content: public virtual string ExceptionType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExceptionType As String
+  overload: SuperOffice.WebApi.Data.SoExceptionInfo.ExceptionType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoExceptionInfo.Source
+  commentId: P:SuperOffice.WebApi.Data.SoExceptionInfo.Source
+  id: Source
+  parent: SuperOffice.WebApi.Data.SoExceptionInfo
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: SoExceptionInfo.Source
+  fullName: SuperOffice.WebApi.Data.SoExceptionInfo.Source
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the application or the object that causes the error.\n"
+  syntax:
+    content: public virtual string Source { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Source As String
+  overload: SuperOffice.WebApi.Data.SoExceptionInfo.Source*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoExceptionInfo.InnerException
+  commentId: P:SuperOffice.WebApi.Data.SoExceptionInfo.InnerException
+  id: InnerException
+  parent: SuperOffice.WebApi.Data.SoExceptionInfo
+  langs:
+  - csharp
+  - vb
+  name: InnerException
+  nameWithType: SoExceptionInfo.InnerException
+  fullName: SuperOffice.WebApi.Data.SoExceptionInfo.InnerException
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nInner Exception.\n"
+  syntax:
+    content: public virtual SoExceptionInfo InnerException { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.SoExceptionInfo
+    content.vb: Public Overridable Property InnerException As SoExceptionInfo
+  overload: SuperOffice.WebApi.Data.SoExceptionInfo.InnerException*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SoExceptionInfo.Parameters
+  commentId: P:SuperOffice.WebApi.Data.SoExceptionInfo.Parameters
+  id: Parameters
+  parent: SuperOffice.WebApi.Data.SoExceptionInfo
+  langs:
+  - csharp
+  - vb
+  name: Parameters
+  nameWithType: SoExceptionInfo.Parameters
+  fullName: SuperOffice.WebApi.Data.SoExceptionInfo.Parameters
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAdditional parameters relevant to describe the exception.\n"
+  syntax:
+    content: public virtual SoExceptionInfoParameters Parameters { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.SoExceptionInfoParameters
+    content.vb: Public Overridable Property Parameters As SoExceptionInfoParameters
+  overload: SuperOffice.WebApi.Data.SoExceptionInfo.Parameters*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.SoExceptionInfo.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.SoExceptionInfo.#ctor
+  isExternal: true
+  name: SoExceptionInfo
+  nameWithType: SoExceptionInfo.SoExceptionInfo
+  fullName: SuperOffice.WebApi.Data.SoExceptionInfo.SoExceptionInfo
+- uid: SuperOffice.WebApi.Data.SoExceptionInfo.Message*
+  commentId: Overload:SuperOffice.WebApi.Data.SoExceptionInfo.Message
+  isExternal: true
+  name: Message
+  nameWithType: SoExceptionInfo.Message
+  fullName: SuperOffice.WebApi.Data.SoExceptionInfo.Message
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.SoExceptionInfo.StackTrace*
+  commentId: Overload:SuperOffice.WebApi.Data.SoExceptionInfo.StackTrace
+  isExternal: true
+  name: StackTrace
+  nameWithType: SoExceptionInfo.StackTrace
+  fullName: SuperOffice.WebApi.Data.SoExceptionInfo.StackTrace
+- uid: SuperOffice.WebApi.Data.SoExceptionInfo.FriendlyText*
+  commentId: Overload:SuperOffice.WebApi.Data.SoExceptionInfo.FriendlyText
+  isExternal: true
+  name: FriendlyText
+  nameWithType: SoExceptionInfo.FriendlyText
+  fullName: SuperOffice.WebApi.Data.SoExceptionInfo.FriendlyText
+- uid: SuperOffice.WebApi.Data.SoExceptionInfo.ExceptionType*
+  commentId: Overload:SuperOffice.WebApi.Data.SoExceptionInfo.ExceptionType
+  isExternal: true
+  name: ExceptionType
+  nameWithType: SoExceptionInfo.ExceptionType
+  fullName: SuperOffice.WebApi.Data.SoExceptionInfo.ExceptionType
+- uid: SuperOffice.WebApi.Data.SoExceptionInfo.Source*
+  commentId: Overload:SuperOffice.WebApi.Data.SoExceptionInfo.Source
+  isExternal: true
+  name: Source
+  nameWithType: SoExceptionInfo.Source
+  fullName: SuperOffice.WebApi.Data.SoExceptionInfo.Source
+- uid: SuperOffice.WebApi.Data.SoExceptionInfo.InnerException*
+  commentId: Overload:SuperOffice.WebApi.Data.SoExceptionInfo.InnerException
+  isExternal: true
+  name: InnerException
+  nameWithType: SoExceptionInfo.InnerException
+  fullName: SuperOffice.WebApi.Data.SoExceptionInfo.InnerException
+- uid: SuperOffice.WebApi.Data.SoExceptionInfo
+  commentId: T:SuperOffice.WebApi.Data.SoExceptionInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: SoExceptionInfo
+  nameWithType: SoExceptionInfo
+  fullName: SuperOffice.WebApi.Data.SoExceptionInfo
+- uid: SuperOffice.WebApi.Data.SoExceptionInfo.Parameters*
+  commentId: Overload:SuperOffice.WebApi.Data.SoExceptionInfo.Parameters
+  isExternal: true
+  name: Parameters
+  nameWithType: SoExceptionInfo.Parameters
+  fullName: SuperOffice.WebApi.Data.SoExceptionInfo.Parameters
+- uid: SuperOffice.WebApi.Data.SoExceptionInfoParameters
+  commentId: T:SuperOffice.WebApi.Data.SoExceptionInfoParameters
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: SoExceptionInfoParameters
+  nameWithType: SoExceptionInfoParameters
+  fullName: SuperOffice.WebApi.Data.SoExceptionInfoParameters

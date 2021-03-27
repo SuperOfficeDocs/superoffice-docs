@@ -1,0 +1,438 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CurrencyEntity
+  commentId: T:SuperOffice.WebApi.Data.CurrencyEntity
+  id: CurrencyEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CurrencyEntity.#ctor
+  - SuperOffice.WebApi.Data.CurrencyEntity.CurrencyId
+  - SuperOffice.WebApi.Data.CurrencyEntity.Deleted
+  - SuperOffice.WebApi.Data.CurrencyEntity.Name
+  - SuperOffice.WebApi.Data.CurrencyEntity.Rank
+  - SuperOffice.WebApi.Data.CurrencyEntity.Rate
+  - SuperOffice.WebApi.Data.CurrencyEntity.Tooltip
+  - SuperOffice.WebApi.Data.CurrencyEntity.Units
+  langs:
+  - csharp
+  - vb
+  name: CurrencyEntity
+  nameWithType: CurrencyEntity
+  fullName: SuperOffice.WebApi.Data.CurrencyEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for CurrencyEntity.\n\n"
+  example:
+  - "\nGet CurrencyEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ListAgent(configuration);\nvar currencyEntity = agent.GetCurrencyEntity( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class CurrencyEntity : Carrier'
+    content.vb: >-
+      Public Class CurrencyEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ListAgent
+    commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CurrencyEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CurrencyEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CurrencyEntity
+  langs:
+  - csharp
+  - vb
+  name: CurrencyEntity()
+  nameWithType: CurrencyEntity.CurrencyEntity()
+  fullName: SuperOffice.WebApi.Data.CurrencyEntity.CurrencyEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public CurrencyEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CurrencyEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CurrencyEntity.CurrencyId
+  commentId: P:SuperOffice.WebApi.Data.CurrencyEntity.CurrencyId
+  id: CurrencyId
+  parent: SuperOffice.WebApi.Data.CurrencyEntity
+  langs:
+  - csharp
+  - vb
+  name: CurrencyId
+  nameWithType: CurrencyEntity.CurrencyId
+  fullName: SuperOffice.WebApi.Data.CurrencyEntity.CurrencyId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int CurrencyId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CurrencyId As Integer
+  overload: SuperOffice.WebApi.Data.CurrencyEntity.CurrencyId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CurrencyEntity.Name
+  commentId: P:SuperOffice.WebApi.Data.CurrencyEntity.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.CurrencyEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: CurrencyEntity.Name
+  fullName: SuperOffice.WebApi.Data.CurrencyEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe list item\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.CurrencyEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CurrencyEntity.Tooltip
+  commentId: P:SuperOffice.WebApi.Data.CurrencyEntity.Tooltip
+  id: Tooltip
+  parent: SuperOffice.WebApi.Data.CurrencyEntity
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: CurrencyEntity.Tooltip
+  fullName: SuperOffice.WebApi.Data.CurrencyEntity.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip or other description\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.WebApi.Data.CurrencyEntity.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CurrencyEntity.Rank
+  commentId: P:SuperOffice.WebApi.Data.CurrencyEntity.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.CurrencyEntity
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: CurrencyEntity.Rank
+  fullName: SuperOffice.WebApi.Data.CurrencyEntity.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRank order\n"
+  syntax:
+    content: public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Rank As Short
+  overload: SuperOffice.WebApi.Data.CurrencyEntity.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CurrencyEntity.Rate
+  commentId: P:SuperOffice.WebApi.Data.CurrencyEntity.Rate
+  id: Rate
+  parent: SuperOffice.WebApi.Data.CurrencyEntity
+  langs:
+  - csharp
+  - vb
+  name: Rate
+  nameWithType: CurrencyEntity.Rate
+  fullName: SuperOffice.WebApi.Data.CurrencyEntity.Rate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nExchange rate\n"
+  syntax:
+    content: public virtual double Rate { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property Rate As Double
+  overload: SuperOffice.WebApi.Data.CurrencyEntity.Rate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CurrencyEntity.Units
+  commentId: P:SuperOffice.WebApi.Data.CurrencyEntity.Units
+  id: Units
+  parent: SuperOffice.WebApi.Data.CurrencyEntity
+  langs:
+  - csharp
+  - vb
+  name: Units
+  nameWithType: CurrencyEntity.Units
+  fullName: SuperOffice.WebApi.Data.CurrencyEntity.Units
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nExchange unit scale (0.01, 0.1, 1, 10, 100 etc)\n"
+  syntax:
+    content: public virtual double Units { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property Units As Double
+  overload: SuperOffice.WebApi.Data.CurrencyEntity.Units*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CurrencyEntity.Deleted
+  commentId: P:SuperOffice.WebApi.Data.CurrencyEntity.Deleted
+  id: Deleted
+  parent: SuperOffice.WebApi.Data.CurrencyEntity
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: CurrencyEntity.Deleted
+  fullName: SuperOffice.WebApi.Data.CurrencyEntity.Deleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists\n"
+  syntax:
+    content: public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.WebApi.Data.CurrencyEntity.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CurrencyEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CurrencyEntity.#ctor
+  isExternal: true
+  name: CurrencyEntity
+  nameWithType: CurrencyEntity.CurrencyEntity
+  fullName: SuperOffice.WebApi.Data.CurrencyEntity.CurrencyEntity
+- uid: SuperOffice.WebApi.Data.CurrencyEntity.CurrencyId*
+  commentId: Overload:SuperOffice.WebApi.Data.CurrencyEntity.CurrencyId
+  isExternal: true
+  name: CurrencyId
+  nameWithType: CurrencyEntity.CurrencyId
+  fullName: SuperOffice.WebApi.Data.CurrencyEntity.CurrencyId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.CurrencyEntity.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.CurrencyEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: CurrencyEntity.Name
+  fullName: SuperOffice.WebApi.Data.CurrencyEntity.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.CurrencyEntity.Tooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.CurrencyEntity.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: CurrencyEntity.Tooltip
+  fullName: SuperOffice.WebApi.Data.CurrencyEntity.Tooltip
+- uid: SuperOffice.WebApi.Data.CurrencyEntity.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.CurrencyEntity.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: CurrencyEntity.Rank
+  fullName: SuperOffice.WebApi.Data.CurrencyEntity.Rank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.CurrencyEntity.Rate*
+  commentId: Overload:SuperOffice.WebApi.Data.CurrencyEntity.Rate
+  isExternal: true
+  name: Rate
+  nameWithType: CurrencyEntity.Rate
+  fullName: SuperOffice.WebApi.Data.CurrencyEntity.Rate
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.WebApi.Data.CurrencyEntity.Units*
+  commentId: Overload:SuperOffice.WebApi.Data.CurrencyEntity.Units
+  isExternal: true
+  name: Units
+  nameWithType: CurrencyEntity.Units
+  fullName: SuperOffice.WebApi.Data.CurrencyEntity.Units
+- uid: SuperOffice.WebApi.Data.CurrencyEntity.Deleted*
+  commentId: Overload:SuperOffice.WebApi.Data.CurrencyEntity.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: CurrencyEntity.Deleted
+  fullName: SuperOffice.WebApi.Data.CurrencyEntity.Deleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

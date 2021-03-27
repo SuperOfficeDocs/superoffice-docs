@@ -1,0 +1,520 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.IConfiguration
+  commentId: T:SuperOffice.CRM.IConfiguration
+  id: IConfiguration
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.IConfiguration.DatabaseOwnerName
+  - SuperOffice.CRM.IConfiguration.DatabaseSerialNumber
+  - SuperOffice.CRM.IConfiguration.DatabaseType
+  - SuperOffice.CRM.IConfiguration.GetConfigBool(System.String)
+  - SuperOffice.CRM.IConfiguration.GetConfigInt(System.String)
+  - SuperOffice.CRM.IConfiguration.GetConfigString(System.String)
+  - SuperOffice.CRM.IConfiguration.HasLicense(System.String)
+  - SuperOffice.CRM.IConfiguration.NetServerVersionFullName
+  langs:
+  - csharp
+  - vb
+  name: IConfiguration
+  nameWithType: IConfiguration
+  fullName: SuperOffice.CRM.IConfiguration
+  type: Interface
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nGet values from the SuperOffice config section. \n"
+  syntax:
+    content: public interface IConfiguration
+    content.vb: Public Interface IConfiguration
+  extensionMethods:
+  - SuperOffice.CRM.IConfiguration.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.IConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.IConfiguration.HasLicense(System.String)
+  commentId: M:SuperOffice.CRM.IConfiguration.HasLicense(System.String)
+  id: HasLicense(System.String)
+  parent: SuperOffice.CRM.IConfiguration
+  langs:
+  - csharp
+  - vb
+  name: HasLicense(String)
+  nameWithType: IConfiguration.HasLicense(String)
+  fullName: SuperOffice.CRM.IConfiguration.HasLicense(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nDoes the system have the given license?\n"
+  syntax:
+    content: bool HasLicense(string licenseName)
+    parameters:
+    - id: licenseName
+      type: System.String
+      description: 'License code name: &quot;superoffice.server&quot; or &quot;superoffice.quote&quot;.  Per user CAL licenses are not useful to check here.'
+    return:
+      type: System.Boolean
+      description: true if the system has the given license
+    content.vb: Function HasLicense(licenseName As String) As Boolean
+  overload: SuperOffice.CRM.IConfiguration.HasLicense*
+- uid: SuperOffice.CRM.IConfiguration.GetConfigString(System.String)
+  commentId: M:SuperOffice.CRM.IConfiguration.GetConfigString(System.String)
+  id: GetConfigString(System.String)
+  parent: SuperOffice.CRM.IConfiguration
+  langs:
+  - csharp
+  - vb
+  name: GetConfigString(String)
+  nameWithType: IConfiguration.GetConfigString(String)
+  fullName: SuperOffice.CRM.IConfiguration.GetConfigString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nString value from the application configuration file (web.config or superoffice.config)\n"
+  syntax:
+    content: string GetConfigString(string path)
+    parameters:
+    - id: path
+      type: System.String
+      description: '&quot;SuperOffice/Database/Server&quot;'
+    return:
+      type: System.String
+      description: '&quot;123&quot; from the web.config or superoffice.config file'
+    content.vb: Function GetConfigString(path As String) As String
+  overload: SuperOffice.CRM.IConfiguration.GetConfigString*
+- uid: SuperOffice.CRM.IConfiguration.GetConfigInt(System.String)
+  commentId: M:SuperOffice.CRM.IConfiguration.GetConfigInt(System.String)
+  id: GetConfigInt(System.String)
+  parent: SuperOffice.CRM.IConfiguration
+  langs:
+  - csharp
+  - vb
+  name: GetConfigInt(String)
+  nameWithType: IConfiguration.GetConfigInt(String)
+  fullName: SuperOffice.CRM.IConfiguration.GetConfigInt(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nNumber value from the application configuration file (web.config or superoffice.config)\n"
+  syntax:
+    content: int GetConfigInt(string path)
+    parameters:
+    - id: path
+      type: System.String
+      description: '&quot;SuperOffice/Database/Major&quot;'
+    return:
+      type: System.Int32
+      description: 123 from the web.config or superoffice.config file
+    content.vb: Function GetConfigInt(path As String) As Integer
+  overload: SuperOffice.CRM.IConfiguration.GetConfigInt*
+- uid: SuperOffice.CRM.IConfiguration.GetConfigBool(System.String)
+  commentId: M:SuperOffice.CRM.IConfiguration.GetConfigBool(System.String)
+  id: GetConfigBool(System.String)
+  parent: SuperOffice.CRM.IConfiguration
+  langs:
+  - csharp
+  - vb
+  name: GetConfigBool(String)
+  nameWithType: IConfiguration.GetConfigBool(String)
+  fullName: SuperOffice.CRM.IConfiguration.GetConfigBool(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nTrue/False value from the application configuration file (web.config or superoffice.config)\n"
+  syntax:
+    content: bool GetConfigBool(string path)
+    parameters:
+    - id: path
+      type: System.String
+      description: '&quot;SuperOffice/Diagnostics/LogError&quot;'
+    return:
+      type: System.Boolean
+      description: true or false from the web.config or superoffice.config file
+    content.vb: Function GetConfigBool(path As String) As Boolean
+  overload: SuperOffice.CRM.IConfiguration.GetConfigBool*
+- uid: SuperOffice.CRM.IConfiguration.NetServerVersionFullName
+  commentId: P:SuperOffice.CRM.IConfiguration.NetServerVersionFullName
+  id: NetServerVersionFullName
+  parent: SuperOffice.CRM.IConfiguration
+  langs:
+  - csharp
+  - vb
+  name: NetServerVersionFullName
+  nameWithType: IConfiguration.NetServerVersionFullName
+  fullName: SuperOffice.CRM.IConfiguration.NetServerVersionFullName
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nFull name of this version of NetServer: &quot;SuperOffice NetServer 7.1 Release (Build: 7.1.200.300.TEST})&quot;\n"
+  syntax:
+    content: string NetServerVersionFullName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property NetServerVersionFullName As String
+  overload: SuperOffice.CRM.IConfiguration.NetServerVersionFullName*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IConfiguration.DatabaseOwnerName
+  commentId: P:SuperOffice.CRM.IConfiguration.DatabaseOwnerName
+  id: DatabaseOwnerName
+  parent: SuperOffice.CRM.IConfiguration
+  langs:
+  - csharp
+  - vb
+  name: DatabaseOwnerName
+  nameWithType: IConfiguration.DatabaseOwnerName
+  fullName: SuperOffice.CRM.IConfiguration.DatabaseOwnerName
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nCompany name of the database owner. &quot;Example AS&quot;\n"
+  syntax:
+    content: string DatabaseOwnerName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property DatabaseOwnerName As String
+  overload: SuperOffice.CRM.IConfiguration.DatabaseOwnerName*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IConfiguration.DatabaseSerialNumber
+  commentId: P:SuperOffice.CRM.IConfiguration.DatabaseSerialNumber
+  id: DatabaseSerialNumber
+  parent: SuperOffice.CRM.IConfiguration
+  langs:
+  - csharp
+  - vb
+  name: DatabaseSerialNumber
+  nameWithType: IConfiguration.DatabaseSerialNumber
+  fullName: SuperOffice.CRM.IConfiguration.DatabaseSerialNumber
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nSerial Number. &quot;1230004569&quot;\n"
+  syntax:
+    content: string DatabaseSerialNumber { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property DatabaseSerialNumber As String
+  overload: SuperOffice.CRM.IConfiguration.DatabaseSerialNumber*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.IConfiguration.DatabaseType
+  commentId: P:SuperOffice.CRM.IConfiguration.DatabaseType
+  id: DatabaseType
+  parent: SuperOffice.CRM.IConfiguration
+  langs:
+  - csharp
+  - vb
+  name: DatabaseType
+  nameWithType: IConfiguration.DatabaseType
+  fullName: SuperOffice.CRM.IConfiguration.DatabaseType
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\n&quot;central&quot;, &quot;satellite&quot;, or &quot;travel&quot;\n"
+  syntax:
+    content: string DatabaseType { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property DatabaseType As String
+  overload: SuperOffice.CRM.IConfiguration.DatabaseType*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: SuperOffice.CRM.IConfiguration.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IConfiguration, To>()
+  nameWithType: EnumUtil.MapEnums<IConfiguration, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.IConfiguration, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IConfiguration, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.IConfiguration, To)()
+  name.vb: MapEnums(Of IConfiguration, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IConfiguration, To>
+    nameWithType: EnumUtil.MapEnums<IConfiguration, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.IConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IConfiguration, To)
+    nameWithType: EnumUtil.MapEnums(Of IConfiguration, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.IConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.IConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IConfiguration, To>()
+  nameWithType: Converters.MapEnums<IConfiguration, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IConfiguration, To>()
+  nameWithType.vb: Converters.MapEnums(Of IConfiguration, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IConfiguration, To)()
+  name.vb: MapEnums(Of IConfiguration, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IConfiguration, To>
+    nameWithType: Converters.MapEnums<IConfiguration, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IConfiguration, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IConfiguration, To)
+    nameWithType: Converters.MapEnums(Of IConfiguration, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.IConfiguration.HasLicense*
+  commentId: Overload:SuperOffice.CRM.IConfiguration.HasLicense
+  isExternal: true
+  name: HasLicense
+  nameWithType: IConfiguration.HasLicense
+  fullName: SuperOffice.CRM.IConfiguration.HasLicense
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.IConfiguration.GetConfigString*
+  commentId: Overload:SuperOffice.CRM.IConfiguration.GetConfigString
+  isExternal: true
+  name: GetConfigString
+  nameWithType: IConfiguration.GetConfigString
+  fullName: SuperOffice.CRM.IConfiguration.GetConfigString
+- uid: SuperOffice.CRM.IConfiguration.GetConfigInt*
+  commentId: Overload:SuperOffice.CRM.IConfiguration.GetConfigInt
+  isExternal: true
+  name: GetConfigInt
+  nameWithType: IConfiguration.GetConfigInt
+  fullName: SuperOffice.CRM.IConfiguration.GetConfigInt
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.IConfiguration.GetConfigBool*
+  commentId: Overload:SuperOffice.CRM.IConfiguration.GetConfigBool
+  isExternal: true
+  name: GetConfigBool
+  nameWithType: IConfiguration.GetConfigBool
+  fullName: SuperOffice.CRM.IConfiguration.GetConfigBool
+- uid: SuperOffice.CRM.IConfiguration.NetServerVersionFullName*
+  commentId: Overload:SuperOffice.CRM.IConfiguration.NetServerVersionFullName
+  isExternal: true
+  name: NetServerVersionFullName
+  nameWithType: IConfiguration.NetServerVersionFullName
+  fullName: SuperOffice.CRM.IConfiguration.NetServerVersionFullName
+- uid: SuperOffice.CRM.IConfiguration.DatabaseOwnerName*
+  commentId: Overload:SuperOffice.CRM.IConfiguration.DatabaseOwnerName
+  isExternal: true
+  name: DatabaseOwnerName
+  nameWithType: IConfiguration.DatabaseOwnerName
+  fullName: SuperOffice.CRM.IConfiguration.DatabaseOwnerName
+- uid: SuperOffice.CRM.IConfiguration.DatabaseSerialNumber*
+  commentId: Overload:SuperOffice.CRM.IConfiguration.DatabaseSerialNumber
+  isExternal: true
+  name: DatabaseSerialNumber
+  nameWithType: IConfiguration.DatabaseSerialNumber
+  fullName: SuperOffice.CRM.IConfiguration.DatabaseSerialNumber
+- uid: SuperOffice.CRM.IConfiguration.DatabaseType*
+  commentId: Overload:SuperOffice.CRM.IConfiguration.DatabaseType
+  isExternal: true
+  name: DatabaseType
+  nameWithType: IConfiguration.DatabaseType
+  fullName: SuperOffice.CRM.IConfiguration.DatabaseType

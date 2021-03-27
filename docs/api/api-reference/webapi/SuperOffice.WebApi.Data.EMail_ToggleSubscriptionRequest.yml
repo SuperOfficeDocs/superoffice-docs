@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest
+  id: EMail_ToggleSubscriptionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest.FolderId
+  - SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest.SubscriptionStatus
+  langs:
+  - csharp
+  - vb
+  name: EMail_ToggleSubscriptionRequest
+  nameWithType: EMail_ToggleSubscriptionRequest
+  fullName: SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_ToggleSubscriptionRequest : Object'
+    content.vb: >-
+      Public Class EMail_ToggleSubscriptionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_ToggleSubscriptionRequest()
+  nameWithType: EMail_ToggleSubscriptionRequest.EMail_ToggleSubscriptionRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest.EMail_ToggleSubscriptionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_ToggleSubscriptionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest.FolderId
+  commentId: P:SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest.FolderId
+  id: FolderId
+  parent: SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest
+  langs:
+  - csharp
+  - vb
+  name: FolderId
+  nameWithType: EMail_ToggleSubscriptionRequest.FolderId
+  fullName: SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest.FolderId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int FolderId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FolderId As Integer
+  overload: SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest.FolderId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest.SubscriptionStatus
+  commentId: P:SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest.SubscriptionStatus
+  id: SubscriptionStatus
+  parent: SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionStatus
+  nameWithType: EMail_ToggleSubscriptionRequest.SubscriptionStatus
+  fullName: SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest.SubscriptionStatus
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool SubscriptionStatus { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SubscriptionStatus As Boolean
+  overload: SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest.SubscriptionStatus*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest.#ctor
+  isExternal: true
+  name: EMail_ToggleSubscriptionRequest
+  nameWithType: EMail_ToggleSubscriptionRequest.EMail_ToggleSubscriptionRequest
+  fullName: SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest.EMail_ToggleSubscriptionRequest
+- uid: SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest.FolderId*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest.FolderId
+  isExternal: true
+  name: FolderId
+  nameWithType: EMail_ToggleSubscriptionRequest.FolderId
+  fullName: SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest.FolderId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest.SubscriptionStatus*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest.SubscriptionStatus
+  isExternal: true
+  name: SubscriptionStatus
+  nameWithType: EMail_ToggleSubscriptionRequest.SubscriptionStatus
+  fullName: SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest.SubscriptionStatus
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

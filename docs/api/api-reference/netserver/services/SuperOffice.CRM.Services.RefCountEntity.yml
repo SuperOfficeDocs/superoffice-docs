@@ -1,0 +1,673 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.RefCountEntity
+  commentId: T:SuperOffice.CRM.Services.RefCountEntity
+  id: RefCountEntity
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.RefCountEntity.#ctor
+  - SuperOffice.CRM.Services.RefCountEntity.Allocate
+  - SuperOffice.CRM.Services.RefCountEntity.AllowBlank
+  - SuperOffice.CRM.Services.RefCountEntity.CurrentValue
+  - SuperOffice.CRM.Services.RefCountEntity.Field
+  - SuperOffice.CRM.Services.RefCountEntity.ReadOnly
+  - SuperOffice.CRM.Services.RefCountEntity.RecordId
+  - SuperOffice.CRM.Services.RefCountEntity.RefCountsId
+  - SuperOffice.CRM.Services.RefCountEntity.SatPrefix
+  - SuperOffice.CRM.Services.RefCountEntity.SuggestedRecords
+  - SuperOffice.CRM.Services.RefCountEntity.ToString
+  - SuperOffice.CRM.Services.RefCountEntity.ToString(System.String)
+  - SuperOffice.CRM.Services.RefCountEntity.TravelPrefix
+  - SuperOffice.CRM.Services.RefCountEntity.Unique
+  langs:
+  - csharp
+  - vb
+  name: RefCountEntity
+  nameWithType: RefCountEntity
+  fullName: SuperOffice.CRM.Services.RefCountEntity
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA refcount entity for a number allocation\n<p></p>\nCarrier object for RefCountEntity.\nServices for the RefCountEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.INumberAllocationAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet RefCountEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new NumberAllocationAgent();\n    var refCountEntity = agent.GetRefCountEntity( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class RefCountEntity : Carrier'
+    content.vb: >-
+      Public Class RefCountEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.NumberAllocationAgent
+    commentId: T:SuperOffice.CRM.Services.NumberAllocationAgent
+  - linkId: SuperOffice.CRM.Services.INumberAllocationAgent
+    commentId: T:SuperOffice.CRM.Services.INumberAllocationAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.RefCountEntity.#ctor
+  commentId: M:SuperOffice.CRM.Services.RefCountEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.RefCountEntity
+  langs:
+  - csharp
+  - vb
+  name: RefCountEntity()
+  nameWithType: RefCountEntity.RefCountEntity()
+  fullName: SuperOffice.CRM.Services.RefCountEntity.RefCountEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public RefCountEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.RefCountEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.RefCountEntity.ToString
+  commentId: M:SuperOffice.CRM.Services.RefCountEntity.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.RefCountEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: RefCountEntity.ToString()
+  fullName: SuperOffice.CRM.Services.RefCountEntity.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.RefCountEntity.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.RefCountEntity.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.RefCountEntity.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.RefCountEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: RefCountEntity.ToString(String)
+  fullName: SuperOffice.CRM.Services.RefCountEntity.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.RefCountEntity.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.RefCountEntity.RefCountsId
+  commentId: P:SuperOffice.CRM.Services.RefCountEntity.RefCountsId
+  id: RefCountsId
+  parent: SuperOffice.CRM.Services.RefCountEntity
+  langs:
+  - csharp
+  - vb
+  name: RefCountsId
+  nameWithType: RefCountEntity.RefCountsId
+  fullName: SuperOffice.CRM.Services.RefCountEntity.RefCountsId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int RefCountsId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RefCountsId As Integer
+  overload: SuperOffice.CRM.Services.RefCountEntity.RefCountsId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.RefCountEntity.Field
+  commentId: P:SuperOffice.CRM.Services.RefCountEntity.Field
+  id: Field
+  parent: SuperOffice.CRM.Services.RefCountEntity
+  langs:
+  - csharp
+  - vb
+  name: Field
+  nameWithType: RefCountEntity.Field
+  fullName: SuperOffice.CRM.Services.RefCountEntity.Field
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nField identifier in string format table.field \n"
+  syntax:
+    content: public virtual string Field { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Field As String
+  overload: SuperOffice.CRM.Services.RefCountEntity.Field*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.RefCountEntity.RecordId
+  commentId: P:SuperOffice.CRM.Services.RefCountEntity.RecordId
+  id: RecordId
+  parent: SuperOffice.CRM.Services.RefCountEntity
+  langs:
+  - csharp
+  - vb
+  name: RecordId
+  nameWithType: RefCountEntity.RecordId
+  fullName: SuperOffice.CRM.Services.RefCountEntity.RecordId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRecord id in target table, used when there are separate counters for each target record \n"
+  syntax:
+    content: public virtual int RecordId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RecordId As Integer
+  overload: SuperOffice.CRM.Services.RefCountEntity.RecordId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.RefCountEntity.SuggestedRecords
+  commentId: P:SuperOffice.CRM.Services.RefCountEntity.SuggestedRecords
+  id: SuggestedRecords
+  parent: SuperOffice.CRM.Services.RefCountEntity
+  langs:
+  - csharp
+  - vb
+  name: SuggestedRecords
+  nameWithType: RefCountEntity.SuggestedRecords
+  fullName: SuperOffice.CRM.Services.RefCountEntity.SuggestedRecords
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nList of valid entities, the associated record is selected in the list, used records are filtered out \n"
+  syntax:
+    content: public virtual MDOListItem[] SuggestedRecords { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.MDOListItem[]
+    content.vb: Public Overridable Property SuggestedRecords As MDOListItem()
+  overload: SuperOffice.CRM.Services.RefCountEntity.SuggestedRecords*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.RefCountEntity.CurrentValue
+  commentId: P:SuperOffice.CRM.Services.RefCountEntity.CurrentValue
+  id: CurrentValue
+  parent: SuperOffice.CRM.Services.RefCountEntity
+  langs:
+  - csharp
+  - vb
+  name: CurrentValue
+  nameWithType: RefCountEntity.CurrentValue
+  fullName: SuperOffice.CRM.Services.RefCountEntity.CurrentValue
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCurrent value of counter \n"
+  syntax:
+    content: public virtual int CurrentValue { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CurrentValue As Integer
+  overload: SuperOffice.CRM.Services.RefCountEntity.CurrentValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.RefCountEntity.TravelPrefix
+  commentId: P:SuperOffice.CRM.Services.RefCountEntity.TravelPrefix
+  id: TravelPrefix
+  parent: SuperOffice.CRM.Services.RefCountEntity
+  langs:
+  - csharp
+  - vb
+  name: TravelPrefix
+  nameWithType: RefCountEntity.TravelPrefix
+  fullName: SuperOffice.CRM.Services.RefCountEntity.TravelPrefix
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nsize of prefix for Travel use of ths counter \n"
+  syntax:
+    content: public virtual uint TravelPrefix { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Overridable Property TravelPrefix As UInteger
+  overload: SuperOffice.CRM.Services.RefCountEntity.TravelPrefix*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.RefCountEntity.SatPrefix
+  commentId: P:SuperOffice.CRM.Services.RefCountEntity.SatPrefix
+  id: SatPrefix
+  parent: SuperOffice.CRM.Services.RefCountEntity
+  langs:
+  - csharp
+  - vb
+  name: SatPrefix
+  nameWithType: RefCountEntity.SatPrefix
+  fullName: SuperOffice.CRM.Services.RefCountEntity.SatPrefix
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nsize of prefix for Satellite use of this counter \n"
+  syntax:
+    content: public virtual uint SatPrefix { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Overridable Property SatPrefix As UInteger
+  overload: SuperOffice.CRM.Services.RefCountEntity.SatPrefix*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.RefCountEntity.Allocate
+  commentId: P:SuperOffice.CRM.Services.RefCountEntity.Allocate
+  id: Allocate
+  parent: SuperOffice.CRM.Services.RefCountEntity
+  langs:
+  - csharp
+  - vb
+  name: Allocate
+  nameWithType: RefCountEntity.Allocate
+  fullName: SuperOffice.CRM.Services.RefCountEntity.Allocate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAllocate numbers automatically \n"
+  syntax:
+    content: public virtual bool Allocate { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Allocate As Boolean
+  overload: SuperOffice.CRM.Services.RefCountEntity.Allocate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.RefCountEntity.Unique
+  commentId: P:SuperOffice.CRM.Services.RefCountEntity.Unique
+  id: Unique
+  parent: SuperOffice.CRM.Services.RefCountEntity
+  langs:
+  - csharp
+  - vb
+  name: Unique
+  nameWithType: RefCountEntity.Unique
+  fullName: SuperOffice.CRM.Services.RefCountEntity.Unique
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCheck that entered value is unique \n"
+  syntax:
+    content: public virtual bool Unique { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Unique As Boolean
+  overload: SuperOffice.CRM.Services.RefCountEntity.Unique*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.RefCountEntity.ReadOnly
+  commentId: P:SuperOffice.CRM.Services.RefCountEntity.ReadOnly
+  id: ReadOnly
+  parent: SuperOffice.CRM.Services.RefCountEntity
+  langs:
+  - csharp
+  - vb
+  name: ReadOnly
+  nameWithType: RefCountEntity.ReadOnly
+  fullName: SuperOffice.CRM.Services.RefCountEntity.ReadOnly
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTarget field is read only in GUI \n"
+  syntax:
+    content: public virtual bool ReadOnly { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property ReadOnly As Boolean
+  overload: SuperOffice.CRM.Services.RefCountEntity.ReadOnly*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.RefCountEntity.AllowBlank
+  commentId: P:SuperOffice.CRM.Services.RefCountEntity.AllowBlank
+  id: AllowBlank
+  parent: SuperOffice.CRM.Services.RefCountEntity
+  langs:
+  - csharp
+  - vb
+  name: AllowBlank
+  nameWithType: RefCountEntity.AllowBlank
+  fullName: SuperOffice.CRM.Services.RefCountEntity.AllowBlank
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAllow blank  as a valid value \n"
+  syntax:
+    content: public virtual bool AllowBlank { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property AllowBlank As Boolean
+  overload: SuperOffice.CRM.Services.RefCountEntity.AllowBlank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent
+  commentId: T:SuperOffice.CRM.Services.NumberAllocationAgent
+  isExternal: true
+  name: NumberAllocationAgent
+  nameWithType: NumberAllocationAgent
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent
+  commentId: T:SuperOffice.CRM.Services.INumberAllocationAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: INumberAllocationAgent
+  nameWithType: INumberAllocationAgent
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.RefCountEntity.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.RefCountEntity.#ctor
+  isExternal: true
+  name: RefCountEntity
+  nameWithType: RefCountEntity.RefCountEntity
+  fullName: SuperOffice.CRM.Services.RefCountEntity.RefCountEntity
+- uid: SuperOffice.CRM.Services.RefCountEntity.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.RefCountEntity.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: RefCountEntity.ToString
+  fullName: SuperOffice.CRM.Services.RefCountEntity.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.RefCountEntity.RefCountsId*
+  commentId: Overload:SuperOffice.CRM.Services.RefCountEntity.RefCountsId
+  isExternal: true
+  name: RefCountsId
+  nameWithType: RefCountEntity.RefCountsId
+  fullName: SuperOffice.CRM.Services.RefCountEntity.RefCountsId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.RefCountEntity.Field*
+  commentId: Overload:SuperOffice.CRM.Services.RefCountEntity.Field
+  isExternal: true
+  name: Field
+  nameWithType: RefCountEntity.Field
+  fullName: SuperOffice.CRM.Services.RefCountEntity.Field
+- uid: SuperOffice.CRM.Services.RefCountEntity.RecordId*
+  commentId: Overload:SuperOffice.CRM.Services.RefCountEntity.RecordId
+  isExternal: true
+  name: RecordId
+  nameWithType: RefCountEntity.RecordId
+  fullName: SuperOffice.CRM.Services.RefCountEntity.RecordId
+- uid: SuperOffice.CRM.Services.RefCountEntity.SuggestedRecords*
+  commentId: Overload:SuperOffice.CRM.Services.RefCountEntity.SuggestedRecords
+  isExternal: true
+  name: SuggestedRecords
+  nameWithType: RefCountEntity.SuggestedRecords
+  fullName: SuperOffice.CRM.Services.RefCountEntity.SuggestedRecords
+- uid: SuperOffice.CRM.Services.MDOListItem[]
+  isExternal: true
+  name: MDOListItem[]
+  nameWithType: MDOListItem[]
+  fullName: SuperOffice.CRM.Services.MDOListItem[]
+  nameWithType.vb: MDOListItem()
+  fullName.vb: SuperOffice.CRM.Services.MDOListItem()
+  name.vb: MDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.RefCountEntity.CurrentValue*
+  commentId: Overload:SuperOffice.CRM.Services.RefCountEntity.CurrentValue
+  isExternal: true
+  name: CurrentValue
+  nameWithType: RefCountEntity.CurrentValue
+  fullName: SuperOffice.CRM.Services.RefCountEntity.CurrentValue
+- uid: SuperOffice.CRM.Services.RefCountEntity.TravelPrefix*
+  commentId: Overload:SuperOffice.CRM.Services.RefCountEntity.TravelPrefix
+  isExternal: true
+  name: TravelPrefix
+  nameWithType: RefCountEntity.TravelPrefix
+  fullName: SuperOffice.CRM.Services.RefCountEntity.TravelPrefix
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: SuperOffice.CRM.Services.RefCountEntity.SatPrefix*
+  commentId: Overload:SuperOffice.CRM.Services.RefCountEntity.SatPrefix
+  isExternal: true
+  name: SatPrefix
+  nameWithType: RefCountEntity.SatPrefix
+  fullName: SuperOffice.CRM.Services.RefCountEntity.SatPrefix
+- uid: SuperOffice.CRM.Services.RefCountEntity.Allocate*
+  commentId: Overload:SuperOffice.CRM.Services.RefCountEntity.Allocate
+  isExternal: true
+  name: Allocate
+  nameWithType: RefCountEntity.Allocate
+  fullName: SuperOffice.CRM.Services.RefCountEntity.Allocate
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.RefCountEntity.Unique*
+  commentId: Overload:SuperOffice.CRM.Services.RefCountEntity.Unique
+  isExternal: true
+  name: Unique
+  nameWithType: RefCountEntity.Unique
+  fullName: SuperOffice.CRM.Services.RefCountEntity.Unique
+- uid: SuperOffice.CRM.Services.RefCountEntity.ReadOnly*
+  commentId: Overload:SuperOffice.CRM.Services.RefCountEntity.ReadOnly
+  isExternal: true
+  name: ReadOnly
+  nameWithType: RefCountEntity.ReadOnly
+  fullName: SuperOffice.CRM.Services.RefCountEntity.ReadOnly
+- uid: SuperOffice.CRM.Services.RefCountEntity.AllowBlank*
+  commentId: Overload:SuperOffice.CRM.Services.RefCountEntity.AllowBlank
+  isExternal: true
+  name: AllowBlank
+  nameWithType: RefCountEntity.AllowBlank
+  fullName: SuperOffice.CRM.Services.RefCountEntity.AllowBlank

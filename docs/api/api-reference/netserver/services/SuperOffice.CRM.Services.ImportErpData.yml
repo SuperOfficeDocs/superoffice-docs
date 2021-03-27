@@ -1,0 +1,316 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ImportErpData
+  commentId: T:SuperOffice.CRM.Services.ImportErpData
+  id: ImportErpData
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ImportErpData.#ctor
+  - SuperOffice.CRM.Services.ImportErpData.ColumnInfos
+  - SuperOffice.CRM.Services.ImportErpData.ImportLines
+  - SuperOffice.CRM.Services.ImportErpData.ToString
+  - SuperOffice.CRM.Services.ImportErpData.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ImportErpData
+  nameWithType: ImportErpData
+  fullName: SuperOffice.CRM.Services.ImportErpData
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUsed to import data into the system. Representing one entity that will be imported.\n<p></p>\nCarrier object for ImportErpData.\nServices for the ImportErpData Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IImportAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class ImportErpData : Carrier'
+    content.vb: >-
+      Public Class ImportErpData
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ImportAgent
+    commentId: T:SuperOffice.CRM.Services.ImportAgent
+  - linkId: SuperOffice.CRM.Services.IImportAgent
+    commentId: T:SuperOffice.CRM.Services.IImportAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ImportErpData.#ctor
+  commentId: M:SuperOffice.CRM.Services.ImportErpData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ImportErpData
+  langs:
+  - csharp
+  - vb
+  name: ImportErpData()
+  nameWithType: ImportErpData.ImportErpData()
+  fullName: SuperOffice.CRM.Services.ImportErpData.ImportErpData()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ImportErpData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ImportErpData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ImportErpData.ToString
+  commentId: M:SuperOffice.CRM.Services.ImportErpData.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ImportErpData
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ImportErpData.ToString()
+  fullName: SuperOffice.CRM.Services.ImportErpData.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.ImportErpData.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ImportErpData.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ImportErpData.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ImportErpData
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ImportErpData.ToString(String)
+  fullName: SuperOffice.CRM.Services.ImportErpData.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ImportErpData.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ImportErpData.ImportLines
+  commentId: P:SuperOffice.CRM.Services.ImportErpData.ImportLines
+  id: ImportLines
+  parent: SuperOffice.CRM.Services.ImportErpData
+  langs:
+  - csharp
+  - vb
+  name: ImportLines
+  nameWithType: ImportErpData.ImportLines
+  fullName: SuperOffice.CRM.Services.ImportErpData.ImportLines
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAn array of Import lines \n"
+  syntax:
+    content: public virtual ImportLine[] ImportLines { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.ImportLine[]
+    content.vb: Public Overridable Property ImportLines As ImportLine()
+  overload: SuperOffice.CRM.Services.ImportErpData.ImportLines*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ImportErpData.ColumnInfos
+  commentId: P:SuperOffice.CRM.Services.ImportErpData.ColumnInfos
+  id: ColumnInfos
+  parent: SuperOffice.CRM.Services.ImportErpData
+  langs:
+  - csharp
+  - vb
+  name: ColumnInfos
+  nameWithType: ImportErpData.ColumnInfos
+  fullName: SuperOffice.CRM.Services.ImportErpData.ColumnInfos
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nArray of column definitions \n"
+  syntax:
+    content: public virtual ImportColumnInfo[] ColumnInfos { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.ImportColumnInfo[]
+    content.vb: Public Overridable Property ColumnInfos As ImportColumnInfo()
+  overload: SuperOffice.CRM.Services.ImportErpData.ColumnInfos*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.ImportAgent
+  commentId: T:SuperOffice.CRM.Services.ImportAgent
+  isExternal: true
+  name: ImportAgent
+  nameWithType: ImportAgent
+  fullName: SuperOffice.CRM.Services.ImportAgent
+- uid: SuperOffice.CRM.Services.IImportAgent
+  commentId: T:SuperOffice.CRM.Services.IImportAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IImportAgent
+  nameWithType: IImportAgent
+  fullName: SuperOffice.CRM.Services.IImportAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ImportErpData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ImportErpData.#ctor
+  isExternal: true
+  name: ImportErpData
+  nameWithType: ImportErpData.ImportErpData
+  fullName: SuperOffice.CRM.Services.ImportErpData.ImportErpData
+- uid: SuperOffice.CRM.Services.ImportErpData.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ImportErpData.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ImportErpData.ToString
+  fullName: SuperOffice.CRM.Services.ImportErpData.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ImportErpData.ImportLines*
+  commentId: Overload:SuperOffice.CRM.Services.ImportErpData.ImportLines
+  isExternal: true
+  name: ImportLines
+  nameWithType: ImportErpData.ImportLines
+  fullName: SuperOffice.CRM.Services.ImportErpData.ImportLines
+- uid: SuperOffice.CRM.Services.ImportLine[]
+  isExternal: true
+  name: ImportLine[]
+  nameWithType: ImportLine[]
+  fullName: SuperOffice.CRM.Services.ImportLine[]
+  nameWithType.vb: ImportLine()
+  fullName.vb: SuperOffice.CRM.Services.ImportLine()
+  name.vb: ImportLine()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ImportLine
+    name: ImportLine
+    nameWithType: ImportLine
+    fullName: SuperOffice.CRM.Services.ImportLine
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ImportLine
+    name: ImportLine
+    nameWithType: ImportLine
+    fullName: SuperOffice.CRM.Services.ImportLine
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ImportErpData.ColumnInfos*
+  commentId: Overload:SuperOffice.CRM.Services.ImportErpData.ColumnInfos
+  isExternal: true
+  name: ColumnInfos
+  nameWithType: ImportErpData.ColumnInfos
+  fullName: SuperOffice.CRM.Services.ImportErpData.ColumnInfos
+- uid: SuperOffice.CRM.Services.ImportColumnInfo[]
+  isExternal: true
+  name: ImportColumnInfo[]
+  nameWithType: ImportColumnInfo[]
+  fullName: SuperOffice.CRM.Services.ImportColumnInfo[]
+  nameWithType.vb: ImportColumnInfo()
+  fullName.vb: SuperOffice.CRM.Services.ImportColumnInfo()
+  name.vb: ImportColumnInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ImportColumnInfo
+    name: ImportColumnInfo
+    nameWithType: ImportColumnInfo
+    fullName: SuperOffice.CRM.Services.ImportColumnInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ImportColumnInfo
+    name: ImportColumnInfo
+    nameWithType: ImportColumnInfo
+    fullName: SuperOffice.CRM.Services.ImportColumnInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

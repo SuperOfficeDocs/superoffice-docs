@@ -1,0 +1,312 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+  commentId: T:SuperOffice.WebApi.Data.ArchiveOrderByInfo
+  id: ArchiveOrderByInfo
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ArchiveOrderByInfo.#ctor
+  - SuperOffice.WebApi.Data.ArchiveOrderByInfo.Direction
+  - SuperOffice.WebApi.Data.ArchiveOrderByInfo.Direction_String
+  - SuperOffice.WebApi.Data.ArchiveOrderByInfo.Name
+  langs:
+  - csharp
+  - vb
+  name: ArchiveOrderByInfo
+  nameWithType: ArchiveOrderByInfo
+  fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ArchiveOrderByInfo.\nThis class carries information about an ordering criterion for an archive.    \n"
+  syntax:
+    content: 'public class ArchiveOrderByInfo : Object'
+    content.vb: >-
+      Public Class ArchiveOrderByInfo
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ArchiveAgent
+    commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ArchiveOrderByInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+  langs:
+  - csharp
+  - vb
+  name: ArchiveOrderByInfo()
+  nameWithType: ArchiveOrderByInfo.ArchiveOrderByInfo()
+  fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo.ArchiveOrderByInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ArchiveOrderByInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ArchiveOrderByInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo.Name
+  commentId: P:SuperOffice.WebApi.Data.ArchiveOrderByInfo.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ArchiveOrderByInfo.Name
+  fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nProgrammatic name of the column to order by, semantically the same as the ArchiveColumnInfo.Name.\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.ArchiveOrderByInfo.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo.Direction_String
+  commentId: P:SuperOffice.WebApi.Data.ArchiveOrderByInfo.Direction_String
+  id: Direction_String
+  parent: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+  langs:
+  - csharp
+  - vb
+  name: Direction_String
+  nameWithType: ArchiveOrderByInfo.Direction_String
+  fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo.Direction_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDirection to order.\nRaw string enum value.\n"
+  syntax:
+    content: public string Direction_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Direction_String As String
+  overload: SuperOffice.WebApi.Data.ArchiveOrderByInfo.Direction_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ArchiveOrderByInfo.Direction
+    commentId: P:SuperOffice.WebApi.Data.ArchiveOrderByInfo.Direction
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo.Direction
+  commentId: P:SuperOffice.WebApi.Data.ArchiveOrderByInfo.Direction
+  id: Direction
+  parent: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+  langs:
+  - csharp
+  - vb
+  name: Direction
+  nameWithType: ArchiveOrderByInfo.Direction
+  fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo.Direction
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDirection to order.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<OrderBySortType> Direction { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.OrderBySortType}
+    content.vb: Public Property Direction As Nullable(Of OrderBySortType)
+  overload: SuperOffice.WebApi.Data.ArchiveOrderByInfo.Direction*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ArchiveOrderByInfo.Direction_String
+    commentId: P:SuperOffice.WebApi.Data.ArchiveOrderByInfo.Direction_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveOrderByInfo.#ctor
+  isExternal: true
+  name: ArchiveOrderByInfo
+  nameWithType: ArchiveOrderByInfo.ArchiveOrderByInfo
+  fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo.ArchiveOrderByInfo
+- uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveOrderByInfo.Name
+  isExternal: true
+  name: Name
+  nameWithType: ArchiveOrderByInfo.Name
+  fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo.Direction_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveOrderByInfo.Direction_String
+  isExternal: true
+  name: Direction_String
+  nameWithType: ArchiveOrderByInfo.Direction_String
+  fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo.Direction_String
+- uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo.Direction
+  commentId: P:SuperOffice.WebApi.Data.ArchiveOrderByInfo.Direction
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo.Direction*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveOrderByInfo.Direction
+  isExternal: true
+  name: Direction
+  nameWithType: ArchiveOrderByInfo.Direction
+  fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo.Direction
+- uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo.Direction_String
+  commentId: P:SuperOffice.WebApi.Data.ArchiveOrderByInfo.Direction_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.OrderBySortType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.OrderBySortType}'
+  definition: System.Nullable`1
+  name: Nullable<OrderBySortType>
+  nameWithType: Nullable<OrderBySortType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.OrderBySortType>
+  nameWithType.vb: Nullable(Of OrderBySortType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.OrderBySortType)
+  name.vb: Nullable(Of OrderBySortType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.OrderBySortType
+    name: OrderBySortType
+    nameWithType: OrderBySortType
+    fullName: SuperOffice.WebApi.Data.OrderBySortType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.OrderBySortType
+    name: OrderBySortType
+    nameWithType: OrderBySortType
+    fullName: SuperOffice.WebApi.Data.OrderBySortType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

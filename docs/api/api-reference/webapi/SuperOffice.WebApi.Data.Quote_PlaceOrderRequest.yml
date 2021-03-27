@@ -1,0 +1,291 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_PlaceOrderRequest
+  id: Quote_PlaceOrderRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.Culture
+  - SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.MarkSaleAsSold
+  - SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.OrderComment
+  - SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.PoNumber
+  - SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.QuoteAlternativeId
+  langs:
+  - csharp
+  - vb
+  name: Quote_PlaceOrderRequest
+  nameWithType: Quote_PlaceOrderRequest
+  fullName: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_PlaceOrderRequest : Object'
+    content.vb: >-
+      Public Class Quote_PlaceOrderRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_PlaceOrderRequest()
+  nameWithType: Quote_PlaceOrderRequest.Quote_PlaceOrderRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.Quote_PlaceOrderRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_PlaceOrderRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.QuoteAlternativeId
+  commentId: P:SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.QuoteAlternativeId
+  id: QuoteAlternativeId
+  parent: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteAlternativeId
+  nameWithType: Quote_PlaceOrderRequest.QuoteAlternativeId
+  fullName: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.QuoteAlternativeId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int QuoteAlternativeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteAlternativeId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.QuoteAlternativeId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.MarkSaleAsSold
+  commentId: P:SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.MarkSaleAsSold
+  id: MarkSaleAsSold
+  parent: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest
+  langs:
+  - csharp
+  - vb
+  name: MarkSaleAsSold
+  nameWithType: Quote_PlaceOrderRequest.MarkSaleAsSold
+  fullName: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.MarkSaleAsSold
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool MarkSaleAsSold { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property MarkSaleAsSold As Boolean
+  overload: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.MarkSaleAsSold*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.PoNumber
+  commentId: P:SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.PoNumber
+  id: PoNumber
+  parent: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest
+  langs:
+  - csharp
+  - vb
+  name: PoNumber
+  nameWithType: Quote_PlaceOrderRequest.PoNumber
+  fullName: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.PoNumber
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string PoNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PoNumber As String
+  overload: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.PoNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.OrderComment
+  commentId: P:SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.OrderComment
+  id: OrderComment
+  parent: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest
+  langs:
+  - csharp
+  - vb
+  name: OrderComment
+  nameWithType: Quote_PlaceOrderRequest.OrderComment
+  fullName: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.OrderComment
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string OrderComment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OrderComment As String
+  overload: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.OrderComment*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.Culture
+  commentId: P:SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.Culture
+  id: Culture
+  parent: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest
+  langs:
+  - csharp
+  - vb
+  name: Culture
+  nameWithType: Quote_PlaceOrderRequest.Culture
+  fullName: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.Culture
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Culture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Culture As String
+  overload: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.Culture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.#ctor
+  isExternal: true
+  name: Quote_PlaceOrderRequest
+  nameWithType: Quote_PlaceOrderRequest.Quote_PlaceOrderRequest
+  fullName: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.Quote_PlaceOrderRequest
+- uid: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.QuoteAlternativeId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.QuoteAlternativeId
+  isExternal: true
+  name: QuoteAlternativeId
+  nameWithType: Quote_PlaceOrderRequest.QuoteAlternativeId
+  fullName: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.QuoteAlternativeId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.MarkSaleAsSold*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.MarkSaleAsSold
+  isExternal: true
+  name: MarkSaleAsSold
+  nameWithType: Quote_PlaceOrderRequest.MarkSaleAsSold
+  fullName: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.MarkSaleAsSold
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.PoNumber*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.PoNumber
+  isExternal: true
+  name: PoNumber
+  nameWithType: Quote_PlaceOrderRequest.PoNumber
+  fullName: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.PoNumber
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.OrderComment*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.OrderComment
+  isExternal: true
+  name: OrderComment
+  nameWithType: Quote_PlaceOrderRequest.OrderComment
+  fullName: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.OrderComment
+- uid: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.Culture*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.Culture
+  isExternal: true
+  name: Culture
+  nameWithType: Quote_PlaceOrderRequest.Culture
+  fullName: SuperOffice.WebApi.Data.Quote_PlaceOrderRequest.Culture

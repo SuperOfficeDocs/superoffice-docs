@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest
+  id: Person_AddBounceWithCountRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest.#ctor
+  - SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest.Counts
+  - SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest.EmailAddress
+  langs:
+  - csharp
+  - vb
+  name: Person_AddBounceWithCountRequest
+  nameWithType: Person_AddBounceWithCountRequest
+  fullName: SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Person_AddBounceWithCountRequest : Object'
+    content.vb: >-
+      Public Class Person_AddBounceWithCountRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest
+  langs:
+  - csharp
+  - vb
+  name: Person_AddBounceWithCountRequest()
+  nameWithType: Person_AddBounceWithCountRequest.Person_AddBounceWithCountRequest()
+  fullName: SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest.Person_AddBounceWithCountRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Person_AddBounceWithCountRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest.EmailAddress
+  commentId: P:SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest.EmailAddress
+  id: EmailAddress
+  parent: SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: Person_AddBounceWithCountRequest.EmailAddress
+  fullName: SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest.EmailAddress
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string EmailAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EmailAddress As String
+  overload: SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest.EmailAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest.Counts
+  commentId: P:SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest.Counts
+  id: Counts
+  parent: SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest
+  langs:
+  - csharp
+  - vb
+  name: Counts
+  nameWithType: Person_AddBounceWithCountRequest.Counts
+  fullName: SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest.Counts
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Counts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Counts As Integer
+  overload: SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest.Counts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest.#ctor
+  isExternal: true
+  name: Person_AddBounceWithCountRequest
+  nameWithType: Person_AddBounceWithCountRequest.Person_AddBounceWithCountRequest
+  fullName: SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest.Person_AddBounceWithCountRequest
+- uid: SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest.EmailAddress*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest.EmailAddress
+  isExternal: true
+  name: EmailAddress
+  nameWithType: Person_AddBounceWithCountRequest.EmailAddress
+  fullName: SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest.EmailAddress
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest.Counts*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest.Counts
+  isExternal: true
+  name: Counts
+  nameWithType: Person_AddBounceWithCountRequest.Counts
+  fullName: SuperOffice.WebApi.Data.Person_AddBounceWithCountRequest.Counts
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

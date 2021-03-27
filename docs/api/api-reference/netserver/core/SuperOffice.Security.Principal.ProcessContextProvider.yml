@@ -1,0 +1,898 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Principal.ProcessContextProvider
+  commentId: T:SuperOffice.Security.Principal.ProcessContextProvider
+  id: ProcessContextProvider
+  parent: SuperOffice.Security.Principal
+  children:
+  - SuperOffice.Security.Principal.ProcessContextProvider.#ctor
+  - SuperOffice.Security.Principal.ProcessContextProvider.SuperOffice#Security#Principal#ISoContextProvider#GetCurrenContext
+  - SuperOffice.Security.Principal.ProcessContextProvider.SuperOffice#Security#Principal#ISoContextProvider#SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
+  langs:
+  - csharp
+  - vb
+  name: ProcessContextProvider
+  nameWithType: ProcessContextProvider
+  fullName: SuperOffice.Security.Principal.ProcessContextProvider
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nPlug-in for storing the internal state of NetServer in a process-static variable\n"
+  syntax:
+    content: >-
+      [SoContextProvider("Process")]
+
+      public class ProcessContextProvider : ISoContextProvider, IPlugin
+    content.vb: >-
+      <SoContextProvider("Process")>
+
+      Public Class ProcessContextProvider
+          Implements ISoContextProvider, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Security.Principal.ISoContextProvider
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Security.Principal.ProcessContextProvider.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Principal.ProcessContextProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Principal.ProcessContextProvider)
+  - SuperOffice.Security.Principal.ProcessContextProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Security.Principal.ProcessContextProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Security.Principal.SoContextProviderAttribute
+    ctor: SuperOffice.Security.Principal.SoContextProviderAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Process
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Security.Principal.ProcessContextProvider.SuperOffice#Security#Principal#ISoContextProvider#SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
+  commentId: M:SuperOffice.Security.Principal.ProcessContextProvider.SuperOffice#Security#Principal#ISoContextProvider#SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
+  id: SuperOffice#Security#Principal#ISoContextProvider#SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
+  isEii: true
+  parent: SuperOffice.Security.Principal.ProcessContextProvider
+  langs:
+  - csharp
+  - vb
+  name: ISoContextProvider.SetCurrentContext(SoContextContainer)
+  nameWithType: ProcessContextProvider.ISoContextProvider.SetCurrentContext(SoContextContainer)
+  fullName: SuperOffice.Security.Principal.ProcessContextProvider.SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: void ISoContextProvider.SetCurrentContext(SoContextContainer context)
+    parameters:
+    - id: context
+      type: SuperOffice.Security.Principal.SoContextContainer
+    content.vb: Sub SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext(context As SoContextContainer) Implements ISoContextProvider.SetCurrentContext
+  overload: SuperOffice.Security.Principal.ProcessContextProvider.SuperOffice#Security#Principal#ISoContextProvider#SetCurrentContext*
+  implements:
+  - SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
+  nameWithType.vb: ProcessContextProvider.SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext(SoContextContainer)
+  name.vb: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext(SoContextContainer)
+- uid: SuperOffice.Security.Principal.ProcessContextProvider.SuperOffice#Security#Principal#ISoContextProvider#GetCurrenContext
+  commentId: M:SuperOffice.Security.Principal.ProcessContextProvider.SuperOffice#Security#Principal#ISoContextProvider#GetCurrenContext
+  id: SuperOffice#Security#Principal#ISoContextProvider#GetCurrenContext
+  isEii: true
+  parent: SuperOffice.Security.Principal.ProcessContextProvider
+  langs:
+  - csharp
+  - vb
+  name: ISoContextProvider.GetCurrenContext()
+  nameWithType: ProcessContextProvider.ISoContextProvider.GetCurrenContext()
+  fullName: SuperOffice.Security.Principal.ProcessContextProvider.SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: SoContextContainer ISoContextProvider.GetCurrenContext()
+    return:
+      type: SuperOffice.Security.Principal.SoContextContainer
+    content.vb: Function SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext As SoContextContainer Implements ISoContextProvider.GetCurrenContext
+  overload: SuperOffice.Security.Principal.ProcessContextProvider.SuperOffice#Security#Principal#ISoContextProvider#GetCurrenContext*
+  implements:
+  - SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext
+  nameWithType.vb: ProcessContextProvider.SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext()
+  name.vb: SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext()
+- uid: SuperOffice.Security.Principal.ProcessContextProvider.#ctor
+  commentId: M:SuperOffice.Security.Principal.ProcessContextProvider.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Security.Principal.ProcessContextProvider
+  langs:
+  - csharp
+  - vb
+  name: ProcessContextProvider()
+  nameWithType: ProcessContextProvider.ProcessContextProvider()
+  fullName: SuperOffice.Security.Principal.ProcessContextProvider.ProcessContextProvider()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public ProcessContextProvider()
+    content.vb: Public Sub New
+  overload: SuperOffice.Security.Principal.ProcessContextProvider.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Security.Principal.ISoContextProvider
+  commentId: T:SuperOffice.Security.Principal.ISoContextProvider
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: ISoContextProvider
+  nameWithType: ISoContextProvider
+  fullName: SuperOffice.Security.Principal.ISoContextProvider
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.ProcessContextProvider.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ProcessContextProvider, To>()
+  nameWithType: EnumUtil.MapEnums<ProcessContextProvider, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.ProcessContextProvider, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ProcessContextProvider, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.ProcessContextProvider, To)()
+  name.vb: MapEnums(Of ProcessContextProvider, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ProcessContextProvider, To>
+    nameWithType: EnumUtil.MapEnums<ProcessContextProvider, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.ProcessContextProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ProcessContextProvider, To)
+    nameWithType: EnumUtil.MapEnums(Of ProcessContextProvider, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.ProcessContextProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.ProcessContextProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Principal.ProcessContextProvider)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ProcessContextProvider>(ProcessContextProvider)
+  nameWithType: ObjectExtensions.AssignByReflection<ProcessContextProvider>(ProcessContextProvider)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Principal.ProcessContextProvider>(SuperOffice.Security.Principal.ProcessContextProvider)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ProcessContextProvider)(ProcessContextProvider)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Principal.ProcessContextProvider)(SuperOffice.Security.Principal.ProcessContextProvider)
+  name.vb: AssignByReflection(Of ProcessContextProvider)(ProcessContextProvider)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ProcessContextProvider>
+    nameWithType: ObjectExtensions.AssignByReflection<ProcessContextProvider>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Principal.ProcessContextProvider>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Security.Principal.ProcessContextProvider
+    name: ProcessContextProvider
+    nameWithType: ProcessContextProvider
+    fullName: SuperOffice.Security.Principal.ProcessContextProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ProcessContextProvider)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ProcessContextProvider)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Principal.ProcessContextProvider)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Security.Principal.ProcessContextProvider
+    name: ProcessContextProvider
+    nameWithType: ProcessContextProvider
+    fullName: SuperOffice.Security.Principal.ProcessContextProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.ProcessContextProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ProcessContextProvider>()
+  nameWithType: ObjectExtensions.GraphCopy<ProcessContextProvider>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Principal.ProcessContextProvider>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ProcessContextProvider)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Principal.ProcessContextProvider)()
+  name.vb: GraphCopy(Of ProcessContextProvider)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ProcessContextProvider>
+    nameWithType: ObjectExtensions.GraphCopy<ProcessContextProvider>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Principal.ProcessContextProvider>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ProcessContextProvider)
+    nameWithType: ObjectExtensions.GraphCopy(Of ProcessContextProvider)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Principal.ProcessContextProvider)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.ProcessContextProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ProcessContextProvider, To>()
+  nameWithType: Converters.MapEnums<ProcessContextProvider, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.ProcessContextProvider, To>()
+  nameWithType.vb: Converters.MapEnums(Of ProcessContextProvider, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.ProcessContextProvider, To)()
+  name.vb: MapEnums(Of ProcessContextProvider, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ProcessContextProvider, To>
+    nameWithType: Converters.MapEnums<ProcessContextProvider, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.ProcessContextProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ProcessContextProvider, To)
+    nameWithType: Converters.MapEnums(Of ProcessContextProvider, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.ProcessContextProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Security.Principal.ProcessContextProvider.SuperOffice#Security#Principal#ISoContextProvider#SetCurrentContext*
+  commentId: Overload:SuperOffice.Security.Principal.ProcessContextProvider.SuperOffice#Security#Principal#ISoContextProvider#SetCurrentContext
+  isExternal: true
+  name: ISoContextProvider.SetCurrentContext
+  nameWithType: ProcessContextProvider.ISoContextProvider.SetCurrentContext
+  fullName: SuperOffice.Security.Principal.ProcessContextProvider.SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext
+  nameWithType.vb: ProcessContextProvider.SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext
+  name.vb: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext
+- uid: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
+  commentId: M:SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
+  parent: SuperOffice.Security.Principal.ISoContextProvider
+  isExternal: true
+  name: SetCurrentContext(SoContextContainer)
+  nameWithType: ISoContextProvider.SetCurrentContext(SoContextContainer)
+  fullName: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
+    name: SetCurrentContext
+    nameWithType: ISoContextProvider.SetCurrentContext
+    fullName: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Security.Principal.SoContextContainer
+    name: SoContextContainer
+    nameWithType: SoContextContainer
+    fullName: SuperOffice.Security.Principal.SoContextContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
+    name: SetCurrentContext
+    nameWithType: ISoContextProvider.SetCurrentContext
+    fullName: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Security.Principal.SoContextContainer
+    name: SoContextContainer
+    nameWithType: SoContextContainer
+    fullName: SuperOffice.Security.Principal.SoContextContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoContextContainer
+  commentId: T:SuperOffice.Security.Principal.SoContextContainer
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: SoContextContainer
+  nameWithType: SoContextContainer
+  fullName: SuperOffice.Security.Principal.SoContextContainer
+- uid: SuperOffice.Security.Principal.ProcessContextProvider.SuperOffice#Security#Principal#ISoContextProvider#GetCurrenContext*
+  commentId: Overload:SuperOffice.Security.Principal.ProcessContextProvider.SuperOffice#Security#Principal#ISoContextProvider#GetCurrenContext
+  isExternal: true
+  name: ISoContextProvider.GetCurrenContext
+  nameWithType: ProcessContextProvider.ISoContextProvider.GetCurrenContext
+  fullName: SuperOffice.Security.Principal.ProcessContextProvider.SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext
+  nameWithType.vb: ProcessContextProvider.SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext
+  name.vb: SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext
+- uid: SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext
+  commentId: M:SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext
+  parent: SuperOffice.Security.Principal.ISoContextProvider
+  isExternal: true
+  name: GetCurrenContext()
+  nameWithType: ISoContextProvider.GetCurrenContext()
+  fullName: SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext()
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext
+    name: GetCurrenContext
+    nameWithType: ISoContextProvider.GetCurrenContext
+    fullName: SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext
+    name: GetCurrenContext
+    nameWithType: ISoContextProvider.GetCurrenContext
+    fullName: SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.ProcessContextProvider.#ctor*
+  commentId: Overload:SuperOffice.Security.Principal.ProcessContextProvider.#ctor
+  isExternal: true
+  name: ProcessContextProvider
+  nameWithType: ProcessContextProvider.ProcessContextProvider
+  fullName: SuperOffice.Security.Principal.ProcessContextProvider.ProcessContextProvider

@@ -1,0 +1,506 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.UpgradeStatus
+  commentId: T:SuperOffice.UpgradeStatus
+  id: UpgradeStatus
+  parent: SuperOffice
+  children:
+  - SuperOffice.UpgradeStatus.DowngradeRequired
+  - SuperOffice.UpgradeStatus.NoUpgrade
+  - SuperOffice.UpgradeStatus.Optional
+  - SuperOffice.UpgradeStatus.Required
+  langs:
+  - csharp
+  - vb
+  name: UpgradeStatus
+  nameWithType: UpgradeStatus
+  fullName: SuperOffice.UpgradeStatus
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public enum UpgradeStatus
+    content.vb: Public Enum UpgradeStatus
+  extensionMethods:
+  - SuperOffice.UpgradeStatus.EnumUtil.MapEnums``2
+  - SuperOffice.UpgradeStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.UpgradeStatus)
+  - SuperOffice.UpgradeStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.UpgradeStatus.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.UpgradeStatus.NoUpgrade
+  commentId: F:SuperOffice.UpgradeStatus.NoUpgrade
+  id: NoUpgrade
+  parent: SuperOffice.UpgradeStatus
+  langs:
+  - csharp
+  - vb
+  name: NoUpgrade
+  nameWithType: UpgradeStatus.NoUpgrade
+  fullName: SuperOffice.UpgradeStatus.NoUpgrade
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: NoUpgrade = 0
+    return:
+      type: SuperOffice.UpgradeStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.UpgradeStatus.Optional
+  commentId: F:SuperOffice.UpgradeStatus.Optional
+  id: Optional
+  parent: SuperOffice.UpgradeStatus
+  langs:
+  - csharp
+  - vb
+  name: Optional
+  nameWithType: UpgradeStatus.Optional
+  fullName: SuperOffice.UpgradeStatus.Optional
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: Optional = 1
+    return:
+      type: SuperOffice.UpgradeStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.UpgradeStatus.Required
+  commentId: F:SuperOffice.UpgradeStatus.Required
+  id: Required
+  parent: SuperOffice.UpgradeStatus
+  langs:
+  - csharp
+  - vb
+  name: Required
+  nameWithType: UpgradeStatus.Required
+  fullName: SuperOffice.UpgradeStatus.Required
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: Required = 2
+    return:
+      type: SuperOffice.UpgradeStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.UpgradeStatus.DowngradeRequired
+  commentId: F:SuperOffice.UpgradeStatus.DowngradeRequired
+  id: DowngradeRequired
+  parent: SuperOffice.UpgradeStatus
+  langs:
+  - csharp
+  - vb
+  name: DowngradeRequired
+  nameWithType: UpgradeStatus.DowngradeRequired
+  fullName: SuperOffice.UpgradeStatus.DowngradeRequired
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: DowngradeRequired = 3
+    return:
+      type: SuperOffice.UpgradeStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice
+  commentId: N:SuperOffice
+  isExternal: true
+  name: SuperOffice
+  nameWithType: SuperOffice
+  fullName: SuperOffice
+- uid: SuperOffice.UpgradeStatus.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<UpgradeStatus, To>()
+  nameWithType: EnumUtil.MapEnums<UpgradeStatus, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.UpgradeStatus, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of UpgradeStatus, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.UpgradeStatus, To)()
+  name.vb: MapEnums(Of UpgradeStatus, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<UpgradeStatus, To>
+    nameWithType: EnumUtil.MapEnums<UpgradeStatus, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.UpgradeStatus, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of UpgradeStatus, To)
+    nameWithType: EnumUtil.MapEnums(Of UpgradeStatus, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.UpgradeStatus, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.UpgradeStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.UpgradeStatus)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<UpgradeStatus>(UpgradeStatus)
+  nameWithType: ObjectExtensions.AssignByReflection<UpgradeStatus>(UpgradeStatus)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.UpgradeStatus>(SuperOffice.UpgradeStatus)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of UpgradeStatus)(UpgradeStatus)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.UpgradeStatus)(SuperOffice.UpgradeStatus)
+  name.vb: AssignByReflection(Of UpgradeStatus)(UpgradeStatus)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<UpgradeStatus>
+    nameWithType: ObjectExtensions.AssignByReflection<UpgradeStatus>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.UpgradeStatus>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.UpgradeStatus
+    name: UpgradeStatus
+    nameWithType: UpgradeStatus
+    fullName: SuperOffice.UpgradeStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of UpgradeStatus)
+    nameWithType: ObjectExtensions.AssignByReflection(Of UpgradeStatus)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.UpgradeStatus)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.UpgradeStatus
+    name: UpgradeStatus
+    nameWithType: UpgradeStatus
+    fullName: SuperOffice.UpgradeStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.UpgradeStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<UpgradeStatus>()
+  nameWithType: ObjectExtensions.GraphCopy<UpgradeStatus>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.UpgradeStatus>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of UpgradeStatus)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.UpgradeStatus)()
+  name.vb: GraphCopy(Of UpgradeStatus)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<UpgradeStatus>
+    nameWithType: ObjectExtensions.GraphCopy<UpgradeStatus>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.UpgradeStatus>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of UpgradeStatus)
+    nameWithType: ObjectExtensions.GraphCopy(Of UpgradeStatus)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.UpgradeStatus)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.UpgradeStatus.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<UpgradeStatus, To>()
+  nameWithType: Converters.MapEnums<UpgradeStatus, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.UpgradeStatus, To>()
+  nameWithType.vb: Converters.MapEnums(Of UpgradeStatus, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.UpgradeStatus, To)()
+  name.vb: MapEnums(Of UpgradeStatus, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<UpgradeStatus, To>
+    nameWithType: Converters.MapEnums<UpgradeStatus, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.UpgradeStatus, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of UpgradeStatus, To)
+    nameWithType: Converters.MapEnums(Of UpgradeStatus, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.UpgradeStatus, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.UpgradeStatus
+  commentId: T:SuperOffice.UpgradeStatus
+  parent: SuperOffice
+  isExternal: true
+  name: UpgradeStatus
+  nameWithType: UpgradeStatus
+  fullName: SuperOffice.UpgradeStatus

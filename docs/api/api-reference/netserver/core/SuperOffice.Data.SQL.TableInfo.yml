@@ -1,0 +1,1837 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  id: TableInfo
+  parent: SuperOffice.Data.SQL
+  children:
+  - SuperOffice.Data.SQL.TableInfo.#ctor(System.String)
+  - SuperOffice.Data.SQL.TableInfo.All
+  - SuperOffice.Data.SQL.TableInfo.Clone
+  - SuperOffice.Data.SQL.TableInfo.DbName
+  - SuperOffice.Data.SQL.TableInfo.Definition
+  - SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  - SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - SuperOffice.Data.SQL.TableInfo.ProtAll
+  - SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  - SuperOffice.Data.SQL.TableInfo.TableName
+  - SuperOffice.Data.SQL.TableInfo.ToString
+  langs:
+  - csharp
+  - vb
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nBase class for typed table information classes. Each typed subclass represents a table; each instance of a subclass\nrepresents one instance of a table in a query (multiple instances are automatically assigned unique correlation\nidentifiers in the generated SQL, and must be explicitly joined to avoid a colossal cross product).\n<p></p>\nTyped subclasses for each known table are available through the <xref href=\"SuperOffice.Data.TablesInfo\" data-throw-if-not-resolved=\"false\"></xref> class and its various static\nfactory methods. Typed table info instances are also available from Rows and Entities objects and their corresponding\nCustomSearch nested classes.\n"
+  syntax:
+    content: 'public abstract class TableInfo : ICloneable'
+    content.vb: >-
+      Public MustInherit Class TableInfo
+          Implements ICloneable
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.CRM.Data.AccessScriptTableInfo
+  - SuperOffice.CRM.Data.ActiveUserTableInfo
+  - SuperOffice.CRM.Data.AddressFormatTableInfo
+  - SuperOffice.CRM.Data.AddressTableInfo
+  - SuperOffice.CRM.Data.AmountClassGroupLinkTableInfo
+  - SuperOffice.CRM.Data.AmountClassHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.AmountClassTableInfo
+  - SuperOffice.CRM.Data.AppointmentTableInfo
+  - SuperOffice.CRM.Data.AreaTableInfo
+  - SuperOffice.CRM.Data.AreaUserAssignmentTableInfo
+  - SuperOffice.CRM.Data.AreaUserInclusionTableInfo
+  - SuperOffice.CRM.Data.AssociateGroupLinkTableInfo
+  - SuperOffice.CRM.Data.AssociateHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.AssociateHistoryTableInfo
+  - SuperOffice.CRM.Data.AssociateTableInfo
+  - SuperOffice.CRM.Data.AttachmentLocationTableInfo
+  - SuperOffice.CRM.Data.AttachmentTableInfo
+  - SuperOffice.CRM.Data.AudienceConfigTableInfo
+  - SuperOffice.CRM.Data.AudienceLayoutLinkTableInfo
+  - SuperOffice.CRM.Data.AudienceLayoutTableInfo
+  - SuperOffice.CRM.Data.AudienceVisibilityTableInfo
+  - SuperOffice.CRM.Data.AutosaveTableInfo
+  - SuperOffice.CRM.Data.BaseTZLocationTableInfo
+  - SuperOffice.CRM.Data.BatchTaskDefinitionTableInfo
+  - SuperOffice.CRM.Data.BatchTaskTableInfo
+  - SuperOffice.CRM.Data.BinaryObjectLinkTableInfo
+  - SuperOffice.CRM.Data.BinaryObjectTableInfo
+  - SuperOffice.CRM.Data.BusinessGroupLinkTableInfo
+  - SuperOffice.CRM.Data.BusinessHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.BusinessTableInfo
+  - SuperOffice.CRM.Data.CacheTablesTableInfo
+  - SuperOffice.CRM.Data.CacheTabsTableInfo
+  - SuperOffice.CRM.Data.CategoryFamilyTableInfo
+  - SuperOffice.CRM.Data.CategoryGroupLinkTableInfo
+  - SuperOffice.CRM.Data.CategoryHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.CategoryMembershipTableInfo
+  - SuperOffice.CRM.Data.CategoryTableInfo
+  - SuperOffice.CRM.Data.ChatMessageTableInfo
+  - SuperOffice.CRM.Data.ChatSessionTableInfo
+  - SuperOffice.CRM.Data.ChatTopicTableInfo
+  - SuperOffice.CRM.Data.ChatTopicUserTableInfo
+  - SuperOffice.CRM.Data.CompanyDomainTableInfo
+  - SuperOffice.CRM.Data.CompanyTableInfo
+  - SuperOffice.CRM.Data.ComptrGroupLinkTableInfo
+  - SuperOffice.CRM.Data.ComptrHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.ComptrTableInfo
+  - SuperOffice.CRM.Data.ConfigTableInfo
+  - SuperOffice.CRM.Data.ConnectionConfigFieldTableInfo
+  - SuperOffice.CRM.Data.ConsentPersonTableInfo
+  - SuperOffice.CRM.Data.ConsentPurposeTableInfo
+  - SuperOffice.CRM.Data.ConsentSourceTableInfo
+  - SuperOffice.CRM.Data.ContactInterestTableInfo
+  - SuperOffice.CRM.Data.ContactTableInfo
+  - SuperOffice.CRM.Data.ContIntGroupLinkTableInfo
+  - SuperOffice.CRM.Data.ContIntHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.ContIntListTableInfo
+  - SuperOffice.CRM.Data.ContIntTableInfo
+  - SuperOffice.CRM.Data.CounterValueTableInfo
+  - SuperOffice.CRM.Data.CountryGroupLinkTableInfo
+  - SuperOffice.CRM.Data.CountryHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.CountryTableInfo
+  - SuperOffice.CRM.Data.CredentialsTableInfo
+  - SuperOffice.CRM.Data.CreditedGroupLinkTableInfo
+  - SuperOffice.CRM.Data.CreditedHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.CreditedTableInfo
+  - SuperOffice.CRM.Data.CurrencyGroupLinkTableInfo
+  - SuperOffice.CRM.Data.CurrencyHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.CurrencyTableInfo
+  - SuperOffice.CRM.Data.CustCategoryTableInfo
+  - SuperOffice.CRM.Data.CustConfigTableInfo
+  - SuperOffice.CRM.Data.CustLangTableInfo
+  - SuperOffice.CRM.Data.DatabaseModelTableInfo
+  - SuperOffice.CRM.Data.DataRightTableInfo
+  - SuperOffice.CRM.Data.DateTestTableInfo
+  - SuperOffice.CRM.Data.DbiAgentFieldTableInfo
+  - SuperOffice.CRM.Data.DbiAgentScheduleTableInfo
+  - SuperOffice.CRM.Data.DbiAgentTableInfo
+  - SuperOffice.CRM.Data.DeliveryTermsGroupLinkTableInfo
+  - SuperOffice.CRM.Data.DeliveryTermsHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.DeliveryTermsTableInfo
+  - SuperOffice.CRM.Data.DeliveryTypeGroupLinkTableInfo
+  - SuperOffice.CRM.Data.DeliveryTypeHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.DeliveryTypeTableInfo
+  - SuperOffice.CRM.Data.DiaryViewRowTableInfo
+  - SuperOffice.CRM.Data.DiaryViewTableInfo
+  - SuperOffice.CRM.Data.DictionaryBaseTableInfo
+  - SuperOffice.CRM.Data.DictionaryTableInfo
+  - SuperOffice.CRM.Data.DocDocumentTableInfo
+  - SuperOffice.CRM.Data.DocFolderTableInfo
+  - SuperOffice.CRM.Data.DocTmplGroupLinkTableInfo
+  - SuperOffice.CRM.Data.DocTmplHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.DocTmplTableInfo
+  - SuperOffice.CRM.Data.DocumentTableInfo
+  - SuperOffice.CRM.Data.EabEntryTableInfo
+  - SuperOffice.CRM.Data.EabFolderTableInfo
+  - SuperOffice.CRM.Data.EjCategoryGroupLinkTableInfo
+  - SuperOffice.CRM.Data.EjCategoryTableInfo
+  - SuperOffice.CRM.Data.EjMessageTableInfo
+  - SuperOffice.CRM.Data.EjpackageItemTableInfo
+  - SuperOffice.CRM.Data.EjpackageTableInfo
+  - SuperOffice.CRM.Data.EjRoleTableInfo
+  - SuperOffice.CRM.Data.EjscriptDebugTableInfo
+  - SuperOffice.CRM.Data.EjscriptTableInfo
+  - SuperOffice.CRM.Data.EjselectionTableInfo
+  - SuperOffice.CRM.Data.EjselEjselTableInfo
+  - SuperOffice.CRM.Data.EjselMetaResultTableInfo
+  - SuperOffice.CRM.Data.EjselResultSetTableInfo
+  - SuperOffice.CRM.Data.EjselSourceIdlistTableInfo
+  - SuperOffice.CRM.Data.EjselSourceScriptTableInfo
+  - SuperOffice.CRM.Data.EjselSourceXmlTableInfo
+  - SuperOffice.CRM.Data.EjuserTableInfo
+  - SuperOffice.CRM.Data.ElementProfileTableInfo
+  - SuperOffice.CRM.Data.EmailAccountTableInfo
+  - SuperOffice.CRM.Data.EmailAttachmentTableInfo
+  - SuperOffice.CRM.Data.EmailFolderTableInfo
+  - SuperOffice.CRM.Data.EmailItemTableInfo
+  - SuperOffice.CRM.Data.EmailTableInfo
+  - SuperOffice.CRM.Data.ErpConfigurationTableInfo
+  - SuperOffice.CRM.Data.ErpConnectionAccessTableInfo
+  - SuperOffice.CRM.Data.ErpConnectionActorTypeTableInfo
+  - SuperOffice.CRM.Data.ErpConnectionTableInfo
+  - SuperOffice.CRM.Data.ErpConnectorTableInfo
+  - SuperOffice.CRM.Data.ErpExternalKeyTableInfo
+  - SuperOffice.CRM.Data.ErpFieldTableInfo
+  - SuperOffice.CRM.Data.ErpInternalKeyTableInfo
+  - SuperOffice.CRM.Data.ErpListItemMappingTableInfo
+  - SuperOffice.CRM.Data.ErpSyncLogTableInfo
+  - SuperOffice.CRM.Data.ExtAppGroupLinkTableInfo
+  - SuperOffice.CRM.Data.ExtAppHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.ExtAppTableInfo
+  - SuperOffice.CRM.Data.ExtDatasourceTableInfo
+  - SuperOffice.CRM.Data.ExternalDocumentTableInfo
+  - SuperOffice.CRM.Data.ExternalEventTableInfo
+  - SuperOffice.CRM.Data.ExtFieldTableInfo
+  - SuperOffice.CRM.Data.ExtraFieldsTableInfo
+  - SuperOffice.CRM.Data.ExtraMenusTableInfo
+  - SuperOffice.CRM.Data.ExtraTablesEntryTableInfo
+  - SuperOffice.CRM.Data.ExtraTablesResultTableInfo
+  - SuperOffice.CRM.Data.ExtraTablesTableInfo
+  - SuperOffice.CRM.Data.ExtTableTableInfo
+  - SuperOffice.CRM.Data.FavouriteTableInfo
+  - SuperOffice.CRM.Data.FieldLabelTableInfo
+  - SuperOffice.CRM.Data.ForeignAppTableInfo
+  - SuperOffice.CRM.Data.ForeignDeviceTableInfo
+  - SuperOffice.CRM.Data.ForeignKeyTableInfo
+  - SuperOffice.CRM.Data.FormKeysTableInfo
+  - SuperOffice.CRM.Data.FormSubmissionTableInfo
+  - SuperOffice.CRM.Data.FormTableInfo
+  - SuperOffice.CRM.Data.FreeTextIndexTableInfo
+  - SuperOffice.CRM.Data.FreeTextStopWordsTableInfo
+  - SuperOffice.CRM.Data.FreeTextWordsTableInfo
+  - SuperOffice.CRM.Data.FunctionRightRoleLinkTableInfo
+  - SuperOffice.CRM.Data.FunctionRightTableInfo
+  - SuperOffice.CRM.Data.GenericTableInfo
+  - SuperOffice.CRM.Data.HeadingTableInfo
+  - SuperOffice.CRM.Data.HelpTableInfo
+  - SuperOffice.CRM.Data.HierarchyTableInfo
+  - SuperOffice.CRM.Data.HistoryTableInfo
+  - SuperOffice.CRM.Data.HistTableInfo
+  - SuperOffice.CRM.Data.HotlistTableInfo
+  - SuperOffice.CRM.Data.ImportDefaultTableInfo
+  - SuperOffice.CRM.Data.ImportFieldTableInfo
+  - SuperOffice.CRM.Data.ImportObjectTableInfo
+  - SuperOffice.CRM.Data.ImportRelationTableInfo
+  - SuperOffice.CRM.Data.InboxTableInfo
+  - SuperOffice.CRM.Data.IntentGroupLinkTableInfo
+  - SuperOffice.CRM.Data.IntentHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.IntentTableInfo
+  - SuperOffice.CRM.Data.InvitationTableInfo
+  - SuperOffice.CRM.Data.InvoiceEntryTableInfo
+  - SuperOffice.CRM.Data.InvoiceSumTableInfo
+  - SuperOffice.CRM.Data.InvoiceTableInfo
+  - SuperOffice.CRM.Data.InvoiceTypeTableInfo
+  - SuperOffice.CRM.Data.ItemConfigTableInfo
+  - SuperOffice.CRM.Data.KbAttachmentTableInfo
+  - SuperOffice.CRM.Data.KbCategoryLogTableInfo
+  - SuperOffice.CRM.Data.KbCategoryTableInfo
+  - SuperOffice.CRM.Data.KbEntryCommentTableInfo
+  - SuperOffice.CRM.Data.KbEntryKeywordTableInfo
+  - SuperOffice.CRM.Data.KbEntryLogTableInfo
+  - SuperOffice.CRM.Data.KbEntryTableInfo
+  - SuperOffice.CRM.Data.KbEntryWordsTableInfo
+  - SuperOffice.CRM.Data.KbGroupEntryTableInfo
+  - SuperOffice.CRM.Data.KbGroupTableInfo
+  - SuperOffice.CRM.Data.KbHttpLinkTableInfo
+  - SuperOffice.CRM.Data.KbSolutionFinderEntryTableInfo
+  - SuperOffice.CRM.Data.KbSolutionFinderTableInfo
+  - SuperOffice.CRM.Data.KbWorkflowAccessTableInfo
+  - SuperOffice.CRM.Data.KbWorkflowTableInfo
+  - SuperOffice.CRM.Data.LanguageInfoCountryTableInfo
+  - SuperOffice.CRM.Data.LanguageInfoTableInfo
+  - SuperOffice.CRM.Data.LegalBaseTableInfo
+  - SuperOffice.CRM.Data.LegalHtmlTagsTableInfo
+  - SuperOffice.CRM.Data.LicenseAssocLinkTableInfo
+  - SuperOffice.CRM.Data.LicenseSatlLinkTableInfo
+  - SuperOffice.CRM.Data.LocaleTextTableInfo
+  - SuperOffice.CRM.Data.LockingTableInfo
+  - SuperOffice.CRM.Data.LogDebugTableInfo
+  - SuperOffice.CRM.Data.LogEventsTableInfo
+  - SuperOffice.CRM.Data.LoginCustomerTableInfo
+  - SuperOffice.CRM.Data.LoginTableInfo
+  - SuperOffice.CRM.Data.MailAliasTableInfo
+  - SuperOffice.CRM.Data.MailBlockTableInfo
+  - SuperOffice.CRM.Data.MailInFilterTableInfo
+  - SuperOffice.CRM.Data.MailInUidlTableInfo
+  - SuperOffice.CRM.Data.MergeMoveLogTableInfo
+  - SuperOffice.CRM.Data.MessageCustomersTableInfo
+  - SuperOffice.CRM.Data.MessageHandlerTableInfo
+  - SuperOffice.CRM.Data.MessageHeaderTableInfo
+  - SuperOffice.CRM.Data.MessageIdTableInfo
+  - SuperOffice.CRM.Data.MessageTableInfo
+  - SuperOffice.CRM.Data.ModuleLicenseTableInfo
+  - SuperOffice.CRM.Data.ModuleOwnerTableInfo
+  - SuperOffice.CRM.Data.MrMrsGroupLinkTableInfo
+  - SuperOffice.CRM.Data.MrMrsHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.MrMrsTableInfo
+  - SuperOffice.CRM.Data.MsFilterMailTableInfo
+  - SuperOffice.CRM.Data.MsFilterTableInfo
+  - SuperOffice.CRM.Data.MsSubstituteTableInfo
+  - SuperOffice.CRM.Data.MsTrashbinTableInfo
+  - SuperOffice.CRM.Data.NoticeFrameTableInfo
+  - SuperOffice.CRM.Data.NotifyTableInfo
+  - SuperOffice.CRM.Data.OLEFieldTableInfo
+  - SuperOffice.CRM.Data.OLEFieldTextTableInfo
+  - SuperOffice.CRM.Data.OLESubjectTableInfo
+  - SuperOffice.CRM.Data.OLESubjectTextTableInfo
+  - SuperOffice.CRM.Data.OLEViewTableInfo
+  - SuperOffice.CRM.Data.OLEViewTextTableInfo
+  - SuperOffice.CRM.Data.OnlineAppTableInfo
+  - SuperOffice.CRM.Data.OutboxTableInfo
+  - SuperOffice.CRM.Data.OutgoingMessageTableInfo
+  - SuperOffice.CRM.Data.OwnerContactLinkTableInfo
+  - SuperOffice.CRM.Data.PasswordRulesTableInfo
+  - SuperOffice.CRM.Data.PaymentTermsGroupLinkTableInfo
+  - SuperOffice.CRM.Data.PaymentTermsHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.PaymentTermsTableInfo
+  - SuperOffice.CRM.Data.PaymentTypeGroupLinkTableInfo
+  - SuperOffice.CRM.Data.PaymentTypeHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.PaymentTypeTableInfo
+  - SuperOffice.CRM.Data.PersIntGroupLinkTableInfo
+  - SuperOffice.CRM.Data.PersIntHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.PersIntListTableInfo
+  - SuperOffice.CRM.Data.PersIntTableInfo
+  - SuperOffice.CRM.Data.PersonInterestTableInfo
+  - SuperOffice.CRM.Data.PersonTableInfo
+  - SuperOffice.CRM.Data.PersPosGroupLinkTableInfo
+  - SuperOffice.CRM.Data.PersPosHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.PersPosTableInfo
+  - SuperOffice.CRM.Data.PhoneFormatTableInfo
+  - SuperOffice.CRM.Data.PhoneTableInfo
+  - SuperOffice.CRM.Data.PMembTypeGroupLinkTableInfo
+  - SuperOffice.CRM.Data.PMembTypeHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.PMembTypeTableInfo
+  - SuperOffice.CRM.Data.PrefDescLineTableInfo
+  - SuperOffice.CRM.Data.PrefDescTableInfo
+  - SuperOffice.CRM.Data.PreferenceTableInfo
+  - SuperOffice.CRM.Data.PreferenTableInfo
+  - SuperOffice.CRM.Data.PriceListTableInfo
+  - SuperOffice.CRM.Data.PriceUnitGroupLinkTableInfo
+  - SuperOffice.CRM.Data.PriceUnitHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.PriceUnitTableInfo
+  - SuperOffice.CRM.Data.PriorityGroupLinkTableInfo
+  - SuperOffice.CRM.Data.PriorityHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.PriorityTableInfo
+  - SuperOffice.CRM.Data.ProbGroupLinkTableInfo
+  - SuperOffice.CRM.Data.ProbHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.ProbTableInfo
+  - SuperOffice.CRM.Data.ProductCategoryGroupLinkTableInfo
+  - SuperOffice.CRM.Data.ProductCategoryHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.ProductCategoryTableInfo
+  - SuperOffice.CRM.Data.ProductFamilyGroupLinkTableInfo
+  - SuperOffice.CRM.Data.ProductFamilyHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.ProductFamilyTableInfo
+  - SuperOffice.CRM.Data.ProductTableInfo
+  - SuperOffice.CRM.Data.ProductTypeGroupLinkTableInfo
+  - SuperOffice.CRM.Data.ProductTypeHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.ProductTypeTableInfo
+  - SuperOffice.CRM.Data.ProductVersionTableInfo
+  - SuperOffice.CRM.Data.ProfileTableInfo
+  - SuperOffice.CRM.Data.ProjectMemberTableInfo
+  - SuperOffice.CRM.Data.ProjectTableInfo
+  - SuperOffice.CRM.Data.ProjectTypeStatusLinkTableInfo
+  - SuperOffice.CRM.Data.ProjStatusGroupLinkTableInfo
+  - SuperOffice.CRM.Data.ProjStatusHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.ProjStatusTableInfo
+  - SuperOffice.CRM.Data.ProjTypeGroupLinkTableInfo
+  - SuperOffice.CRM.Data.ProjTypeHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.ProjTypeTableInfo
+  - SuperOffice.CRM.Data.PublishTableInfo
+  - SuperOffice.CRM.Data.PushNotificationServiceTableInfo
+  - SuperOffice.CRM.Data.QuickReplyTableInfo
+  - SuperOffice.CRM.Data.QuoteAlternativeTableInfo
+  - SuperOffice.CRM.Data.QuoteConnectionAccessTableInfo
+  - SuperOffice.CRM.Data.QuoteConnectionTableInfo
+  - SuperOffice.CRM.Data.QuoteLineConfigurationTableInfo
+  - SuperOffice.CRM.Data.QuoteLineTableInfo
+  - SuperOffice.CRM.Data.QuoteTableInfo
+  - SuperOffice.CRM.Data.QuoteVersionAttachmentTableInfo
+  - SuperOffice.CRM.Data.QuoteVersionTableInfo
+  - SuperOffice.CRM.Data.ReasonGroupLinkTableInfo
+  - SuperOffice.CRM.Data.ReasonHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.ReasonSoldGroupLinkTableInfo
+  - SuperOffice.CRM.Data.ReasonSoldHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.ReasonSoldTableInfo
+  - SuperOffice.CRM.Data.ReasonStalledGroupLinkTableInfo
+  - SuperOffice.CRM.Data.ReasonStalledHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.ReasonStalledTableInfo
+  - SuperOffice.CRM.Data.ReasonTableInfo
+  - SuperOffice.CRM.Data.RecurrenceRuleTableInfo
+  - SuperOffice.CRM.Data.RedLetterDayTableInfo
+  - SuperOffice.CRM.Data.RefCountRangeTableInfo
+  - SuperOffice.CRM.Data.RefCountsTableInfo
+  - SuperOffice.CRM.Data.RegistryTableInfo
+  - SuperOffice.CRM.Data.RejectReasonGroupLinkTableInfo
+  - SuperOffice.CRM.Data.RejectReasonHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.RejectReasonTableInfo
+  - SuperOffice.CRM.Data.RelationDefinitionGroupLinkTableInfo
+  - SuperOffice.CRM.Data.RelationDefinitionHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.RelationDefinitionTableInfo
+  - SuperOffice.CRM.Data.RelationsTableInfo
+  - SuperOffice.CRM.Data.RelationTargetTableInfo
+  - SuperOffice.CRM.Data.ReplyTemplateAttachmentTableInfo
+  - SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo
+  - SuperOffice.CRM.Data.ReplyTemplateFolderTableInfo
+  - SuperOffice.CRM.Data.ReplyTemplateTableInfo
+  - SuperOffice.CRM.Data.ReporterListDefTableInfo
+  - SuperOffice.CRM.Data.ResourceOverrideTableInfo
+  - SuperOffice.CRM.Data.RoleCategoryTableInfo
+  - SuperOffice.CRM.Data.RoleElementTableInfo
+  - SuperOffice.CRM.Data.RoleMemberTableInfo
+  - SuperOffice.CRM.Data.RoleTableInfo
+  - SuperOffice.CRM.Data.RoleWorkflowTableInfo
+  - SuperOffice.CRM.Data.SaintConfigurationTableInfo
+  - SuperOffice.CRM.Data.SaleHistTableInfo
+  - SuperOffice.CRM.Data.SaleStakeholderTableInfo
+  - SuperOffice.CRM.Data.SaleTableInfo
+  - SuperOffice.CRM.Data.SaleTypeCatGroupLinkTableInfo
+  - SuperOffice.CRM.Data.SaleTypeCatHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.SaleTypeCatTableInfo
+  - SuperOffice.CRM.Data.SaleTypeGroupLinkTableInfo
+  - SuperOffice.CRM.Data.SaleTypeHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.SaleTypeQuoteAttachmentTableInfo
+  - SuperOffice.CRM.Data.SaleTypeStageLinkTableInfo
+  - SuperOffice.CRM.Data.SaleTypeTableInfo
+  - SuperOffice.CRM.Data.SalutationGroupLinkTableInfo
+  - SuperOffice.CRM.Data.SalutationHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.SalutationTableInfo
+  - SuperOffice.CRM.Data.SatelliteTableInfo
+  - SuperOffice.CRM.Data.SAttachmentTableInfo
+  - SuperOffice.CRM.Data.SBounceShipmentTableInfo
+  - SuperOffice.CRM.Data.ScheduledTaskTableInfo
+  - SuperOffice.CRM.Data.ScheduleTableInfo
+  - SuperOffice.CRM.Data.ScreenChooserTableInfo
+  - SuperOffice.CRM.Data.ScreenDefinitionActionTableInfo
+  - SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo
+  - SuperOffice.CRM.Data.ScreenDefinitionHiddenTableInfo
+  - SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo
+  - SuperOffice.CRM.Data.ScreenDefinitionTableInfo
+  - SuperOffice.CRM.Data.ScriptTraceRunTableInfo
+  - SuperOffice.CRM.Data.ScriptTraceTableInfo
+  - SuperOffice.CRM.Data.SDynCriteriaTableInfo
+  - SuperOffice.CRM.Data.SearchCatGroupLinkTableInfo
+  - SuperOffice.CRM.Data.SearchCatHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.SearchCatTableInfo
+  - SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo
+  - SuperOffice.CRM.Data.SearchCriteriaTableInfo
+  - SuperOffice.CRM.Data.SearchCriterionTableInfo
+  - SuperOffice.CRM.Data.SearchCriterionValueTableInfo
+  - SuperOffice.CRM.Data.SelectionMemberTableInfo
+  - SuperOffice.CRM.Data.SelectionTableInfo
+  - SuperOffice.CRM.Data.SequenceTableInfo
+  - SuperOffice.CRM.Data.ServiceAuthTableInfo
+  - SuperOffice.CRM.Data.SessionObjectTableInfo
+  - SuperOffice.CRM.Data.ShipmentTypeReservationTableInfo
+  - SuperOffice.CRM.Data.ShipmentTypeTableInfo
+  - SuperOffice.CRM.Data.SLinkCustomerStaticalTableInfo
+  - SuperOffice.CRM.Data.SLinkCustomerTableInfo
+  - SuperOffice.CRM.Data.SLinkTableInfo
+  - SuperOffice.CRM.Data.SListCustomerTableInfo
+  - SuperOffice.CRM.Data.SListElementTableInfo
+  - SuperOffice.CRM.Data.SListShipmentTableInfo
+  - SuperOffice.CRM.Data.SListTableInfo
+  - SuperOffice.CRM.Data.SMessageblockTableInfo
+  - SuperOffice.CRM.Data.SMessageTableInfo
+  - SuperOffice.CRM.Data.SmsHysteriaTableInfo
+  - SuperOffice.CRM.Data.SmsTableInfo
+  - SuperOffice.CRM.Data.SnapshotTableInfo
+  - SuperOffice.CRM.Data.SoapAccessTableInfo
+  - SuperOffice.CRM.Data.SORCriteriaTableInfo
+  - SuperOffice.CRM.Data.SORFCTTableInfo
+  - SuperOffice.CRM.Data.SORFieldTableInfo
+  - SuperOffice.CRM.Data.SORLabelLayoutTableInfo
+  - SuperOffice.CRM.Data.SOROperatorsTableInfo
+  - SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo
+  - SuperOffice.CRM.Data.SORPublishTableInfo
+  - SuperOffice.CRM.Data.SORSectionTableInfo
+  - SuperOffice.CRM.Data.SORTemplateTableInfo
+  - SuperOffice.CRM.Data.SourceGroupLinkTableInfo
+  - SuperOffice.CRM.Data.SourceHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.SourceTableInfo
+  - SuperOffice.CRM.Data.SPictureEntryTableInfo
+  - SuperOffice.CRM.Data.SPictureFolderTableInfo
+  - SuperOffice.CRM.Data.SSentMessageTableInfo
+  - SuperOffice.CRM.Data.SShipmentAddrTableInfo
+  - SuperOffice.CRM.Data.SShipmentTableInfo
+  - SuperOffice.CRM.Data.SSmtpServersTableInfo
+  - SuperOffice.CRM.Data.StakeholderRoleGroupLinkTableInfo
+  - SuperOffice.CRM.Data.StakeholderRoleHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.StakeholderRoleTableInfo
+  - SuperOffice.CRM.Data.StaticListRefTableInfo
+  - SuperOffice.CRM.Data.StatusDefTableInfo
+  - SuperOffice.CRM.Data.StatusValueTableInfo
+  - SuperOffice.CRM.Data.SubscriptionUnitGroupLinkTableInfo
+  - SuperOffice.CRM.Data.SubscriptionUnitHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.SubscriptionUnitTableInfo
+  - SuperOffice.CRM.Data.SuggestedAppointmentTableInfo
+  - SuperOffice.CRM.Data.SuggestedDocumentTableInfo
+  - SuperOffice.CRM.Data.SuperListColumnSizeTableInfo
+  - SuperOffice.CRM.Data.SWashingListTableInfo
+  - SuperOffice.CRM.Data.SWashingTableInfo
+  - SuperOffice.CRM.Data.SystemEventTableInfo
+  - SuperOffice.CRM.Data.SystemScriptTableInfo
+  - SuperOffice.CRM.Data.TabOrderTableInfo
+  - SuperOffice.CRM.Data.TagsGroupLinkTableInfo
+  - SuperOffice.CRM.Data.TagsHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.TagsTableInfo
+  - SuperOffice.CRM.Data.TaskGroupLinkTableInfo
+  - SuperOffice.CRM.Data.TaskHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.TaskTableInfo
+  - SuperOffice.CRM.Data.TemporaryKeyTableInfo
+  - SuperOffice.CRM.Data.TemporaryWordsTableInfo
+  - SuperOffice.CRM.Data.TextTableInfo
+  - SuperOffice.CRM.Data.TicketAlertTableInfo
+  - SuperOffice.CRM.Data.TicketAttachmentTableInfo
+  - SuperOffice.CRM.Data.TicketCustomersTableInfo
+  - SuperOffice.CRM.Data.TicketLogActionTableInfo
+  - SuperOffice.CRM.Data.TicketLogChangeTableInfo
+  - SuperOffice.CRM.Data.TicketLogTableInfo
+  - SuperOffice.CRM.Data.TicketPriorityTableInfo
+  - SuperOffice.CRM.Data.TicketRelationActionTableInfo
+  - SuperOffice.CRM.Data.TicketRelationTableInfo
+  - SuperOffice.CRM.Data.TicketRelationTypeTableInfo
+  - SuperOffice.CRM.Data.TicketStatusHistoryTableInfo
+  - SuperOffice.CRM.Data.TicketStatusTableInfo
+  - SuperOffice.CRM.Data.TicketTableInfo
+  - SuperOffice.CRM.Data.TicketTypeTableInfo
+  - SuperOffice.CRM.Data.TimestampsTableInfo
+  - SuperOffice.CRM.Data.TravelCurrentTableInfo
+  - SuperOffice.CRM.Data.TravelGeneratedDatabaseTableInfo
+  - SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo
+  - SuperOffice.CRM.Data.TravelIDMappingTableInfo
+  - SuperOffice.CRM.Data.TravellerTableInfo
+  - SuperOffice.CRM.Data.TravelTransactionLogTableInfo
+  - SuperOffice.CRM.Data.TrayAppTableInfo
+  - SuperOffice.CRM.Data.TreeExplorerEntryTableInfo
+  - SuperOffice.CRM.Data.TreeExplorerLinkTableInfo
+  - SuperOffice.CRM.Data.TypicalSearchTableInfo
+  - SuperOffice.CRM.Data.TZDstRuleTableInfo
+  - SuperOffice.CRM.Data.TZLocationTableInfo
+  - SuperOffice.CRM.Data.TZStdRuleTableInfo
+  - SuperOffice.CRM.Data.UDAppntLargeTableInfo
+  - SuperOffice.CRM.Data.UDAppntSmallTableInfo
+  - SuperOffice.CRM.Data.UDContactLargeTableInfo
+  - SuperOffice.CRM.Data.UDContactSmallTableInfo
+  - SuperOffice.CRM.Data.UDDocLargeTableInfo
+  - SuperOffice.CRM.Data.UDDocSmallTableInfo
+  - SuperOffice.CRM.Data.UDefFieldGLTableInfo
+  - SuperOffice.CRM.Data.UDefFieldTableInfo
+  - SuperOffice.CRM.Data.UDListDefinitionTableInfo
+  - SuperOffice.CRM.Data.UDListGroupLinkTableInfo
+  - SuperOffice.CRM.Data.UDListHeadingLinkTableInfo
+  - SuperOffice.CRM.Data.UDListTableInfo
+  - SuperOffice.CRM.Data.UDPersonLargeTableInfo
+  - SuperOffice.CRM.Data.UDPersonSmallTableInfo
+  - SuperOffice.CRM.Data.UDProjectLargeTableInfo
+  - SuperOffice.CRM.Data.UDProjectSmallTableInfo
+  - SuperOffice.CRM.Data.UDSaleLargeTableInfo
+  - SuperOffice.CRM.Data.UDSaleSmallTableInfo
+  - SuperOffice.CRM.Data.UDTempLargeTableInfo
+  - SuperOffice.CRM.Data.UDTempSmallTableInfo
+  - SuperOffice.CRM.Data.URLTableInfo
+  - SuperOffice.CRM.Data.UsageStatsTableInfo
+  - SuperOffice.CRM.Data.UserAttributeTableInfo
+  - SuperOffice.CRM.Data.UserCandidateTableInfo
+  - SuperOffice.CRM.Data.UserGroupLinkTableInfo
+  - SuperOffice.CRM.Data.UserGroupTableInfo
+  - SuperOffice.CRM.Data.UserPreferenceTableInfo
+  - SuperOffice.CRM.Data.UserRoleLinkTableInfo
+  - SuperOffice.CRM.Data.VisibleForTableInfo
+  - SuperOffice.CRM.Data.WebAppUsageTableInfo
+  - SuperOffice.CRM.Data.WebhookTableInfo
+  - SuperOffice.CRM.Data.WebhookUsageTableInfo
+  - SuperOffice.CRM.Data.WinPosSizeTableInfo
+  - SuperOffice.CRM.Data.WordRelationsTableInfo
+  - SuperOffice.CRM.Data.WsdlDescriptionTableInfo
+  - SuperOffice.CRM.Data.ZipToCityTableInfo
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Data.SQL.TableInfo.EnumUtil.MapEnums``2
+  - SuperOffice.Data.SQL.TableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.Data.SQL.TableInfo.ToString
+  commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
+  id: ToString
+  parent: SuperOffice.Data.SQL.TableInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TableInfo.ToString()
+  fullName: SuperOffice.Data.SQL.TableInfo.ToString()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nReturn just the NetServer table name as the debug string\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.Data.SQL.TableInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Data.SQL.TableInfo.#ctor(System.String)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.Data.SQL.TableInfo
+  langs:
+  - csharp
+  - vb
+  name: TableInfo(String)
+  nameWithType: TableInfo.TableInfo(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.TableInfo(System.String)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nConstructor for class TableInfo\n"
+  syntax:
+    content: public TableInfo(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: The conceptual name of the table in the database.
+    content.vb: Public Sub New(name As String)
+  overload: SuperOffice.Data.SQL.TableInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  id: RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.Data.SQL.TableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisterFields(FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: protected void RegisterFields(params FieldInfo[] fields)
+    parameters:
+    - id: fields
+      type: SuperOffice.Data.SQL.FieldInfo[]
+    content.vb: Protected Sub RegisterFields(ParamArray fields As FieldInfo())
+  overload: SuperOffice.Data.SQL.TableInfo.RegisterFields*
+  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(FieldInfo())
+- uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  id: FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  parent: SuperOffice.Data.SQL.TableInfo
+  langs:
+  - csharp
+  - vb
+  name: FieldInfoFromSoField(SoField)
+  nameWithType: TableInfo.FieldInfoFromSoField(SoField)
+  fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: protected FieldInfo FieldInfoFromSoField(SoField defField)
+    parameters:
+    - id: defField
+      type: SuperOffice.Data.Dictionary.SoField
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Protected Function FieldInfoFromSoField(defField As SoField) As FieldInfo
+  overload: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Data.SQL.TableInfo.Clone
+  commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
+  id: Clone
+  parent: SuperOffice.Data.SQL.TableInfo
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: TableInfo.Clone()
+  fullName: SuperOffice.Data.SQL.TableInfo.Clone()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nClone a table info object, via the create-from-type factory method\n"
+  syntax:
+    content: public object Clone()
+    return:
+      type: System.Object
+      description: Clone of self, as object
+    content.vb: Public Function Clone As Object
+  overload: SuperOffice.Data.SQL.TableInfo.Clone*
+  implements:
+  - System.ICloneable.Clone
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  id: IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.TableInfo
+  langs:
+  - csharp
+  - vb
+  name: IsSameTable(TableInfo)
+  nameWithType: TableInfo.IsSameTable(TableInfo)
+  fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nCheck if this table is the same (dictionary-wise) as the incoming table\n"
+  remarks: "\nFor better performance, comparison of table numbers is used if possible; otherwise a name match is attempted.\n"
+  syntax:
+    content: public bool IsSameTable(TableInfo rightHand)
+    parameters:
+    - id: rightHand
+      type: SuperOffice.Data.SQL.TableInfo
+      description: Table to compare with
+    return:
+      type: System.Boolean
+      description: true if both tables represent the same table in the dictionary
+    content.vb: Public Function IsSameTable(rightHand As TableInfo) As Boolean
+  overload: SuperOffice.Data.SQL.TableInfo.IsSameTable*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  id: FindField(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  langs:
+  - csharp
+  - vb
+  name: FindField(String)
+  nameWithType: TableInfo.FindField(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nReturns a field-info using a case-insensitive search on the field name.\n"
+  remarks: Does a linear search across the All array. Could be speeded up.
+  syntax:
+    content: public virtual FieldInfo FindField(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public Overridable Function FindField(name As String) As FieldInfo
+  overload: SuperOffice.Data.SQL.TableInfo.FindField*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
+  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
+  id: ProtAll
+  parent: SuperOffice.Data.SQL.TableInfo
+  langs:
+  - csharp
+  - vb
+  name: ProtAll
+  nameWithType: TableInfo.ProtAll
+  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: protected FieldInfo[] ProtAll { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo[]
+    content.vb: Protected ReadOnly Property ProtAll As FieldInfo()
+  overload: SuperOffice.Data.SQL.TableInfo.ProtAll*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  id: HashCheckFields
+  parent: SuperOffice.Data.SQL.TableInfo
+  langs:
+  - csharp
+  - vb
+  name: HashCheckFields
+  nameWithType: TableInfo.HashCheckFields
+  fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nGet an enumeration of all fields involved in hash checks, either as source or as the checksum\n"
+  syntax:
+    content: public IEnumerable<FieldInfo> HashCheckFields { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.FieldInfo}
+    content.vb: Public ReadOnly Property HashCheckFields As IEnumerable(Of FieldInfo)
+  overload: SuperOffice.Data.SQL.TableInfo.HashCheckFields*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.SQL.TableInfo.TableName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
+  id: TableName
+  parent: SuperOffice.Data.SQL.TableInfo
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: TableInfo.TableName
+  fullName: SuperOffice.Data.SQL.TableInfo.TableName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nThe conceptual name of the table\n"
+  syntax:
+    content: public string TableName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property TableName As String
+  overload: SuperOffice.Data.SQL.TableInfo.TableName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.SQL.TableInfo.DbName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
+  id: DbName
+  parent: SuperOffice.Data.SQL.TableInfo
+  langs:
+  - csharp
+  - vb
+  name: DbName
+  nameWithType: TableInfo.DbName
+  fullName: SuperOffice.Data.SQL.TableInfo.DbName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nName of the table in the database\n"
+  syntax:
+    content: public string DbName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property DbName As String
+  overload: SuperOffice.Data.SQL.TableInfo.DbName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.SQL.TableInfo.Definition
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
+  id: Definition
+  parent: SuperOffice.Data.SQL.TableInfo
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: TableInfo.Definition
+  fullName: SuperOffice.Data.SQL.TableInfo.Definition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nGet definition\n"
+  syntax:
+    content: public virtual SoTable Definition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: Public Overridable ReadOnly Property Definition As SoTable
+  overload: SuperOffice.Data.SQL.TableInfo.Definition*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  id: IsDictionaryTable
+  parent: SuperOffice.Data.SQL.TableInfo
+  langs:
+  - csharp
+  - vb
+  name: IsDictionaryTable
+  nameWithType: TableInfo.IsDictionaryTable
+  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nGet IsDictionaryTable\n"
+  syntax:
+    content: public bool IsDictionaryTable { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsDictionaryTable As Boolean
+  overload: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.SQL.TableInfo.All
+  commentId: P:SuperOffice.Data.SQL.TableInfo.All
+  id: All
+  parent: SuperOffice.Data.SQL.TableInfo
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: TableInfo.All
+  fullName: SuperOffice.Data.SQL.TableInfo.All
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nA collection of all the fields in the table, where the first is the primary key.\n"
+  syntax:
+    content: public virtual FieldInfo[] All { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo[]
+    content.vb: Public Overridable ReadOnly Property All As FieldInfo()
+  overload: SuperOffice.Data.SQL.TableInfo.All*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  id: Item(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  langs:
+  - csharp
+  - vb
+  name: Item[String]
+  nameWithType: TableInfo.Item[String]
+  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nFind field by name - this is an efficient lookup\n"
+  syntax:
+    content: public FieldInfo this[string name] { get; }
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public ReadOnly Property Item(name As String) As FieldInfo
+  overload: SuperOffice.Data.SQL.TableInfo.Item*
+  nameWithType.vb: TableInfo.Item(String)
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  name.vb: Item(String)
+- uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  id: PrimaryKeyField
+  parent: SuperOffice.Data.SQL.TableInfo
+  langs:
+  - csharp
+  - vb
+  name: PrimaryKeyField
+  nameWithType: TableInfo.PrimaryKeyField
+  fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nReturns a reference to the primarykey FieldInfo object in the tableinfo\n"
+  syntax:
+    content: public Int32FieldInfo PrimaryKeyField { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property PrimaryKeyField As Int32FieldInfo
+  overload: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<TableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.TableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.TableInfo, To)()
+  name.vb: MapEnums(Of TableInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TableInfo, To>
+    nameWithType: EnumUtil.MapEnums<TableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.TableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of TableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.TableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TableInfo, To>()
+  nameWithType: Converters.MapEnums<TableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.TableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of TableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.TableInfo, To)()
+  name.vb: MapEnums(Of TableInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TableInfo, To>
+    nameWithType: Converters.MapEnums<TableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.TableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TableInfo, To)
+    nameWithType: Converters.MapEnums(Of TableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.TableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.ToString*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfo.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: TableInfo.ToString
+  fullName: SuperOffice.Data.SQL.TableInfo.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.SQL.TableInfo.#ctor*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfo.#ctor
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo.TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo.TableInfo
+- uid: SuperOffice.Data.SQL.TableInfo.RegisterFields*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfo.RegisterFields
+  isExternal: true
+  name: RegisterFields
+  nameWithType: TableInfo.RegisterFields
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+- uid: SuperOffice.Data.SQL.FieldInfo[]
+  isExternal: true
+  name: FieldInfo[]
+  nameWithType: FieldInfo[]
+  fullName: SuperOffice.Data.SQL.FieldInfo[]
+  nameWithType.vb: FieldInfo()
+  fullName.vb: SuperOffice.Data.SQL.FieldInfo()
+  name.vb: FieldInfo()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+  isExternal: true
+  name: FieldInfoFromSoField
+  nameWithType: TableInfo.FieldInfoFromSoField
+  fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+- uid: SuperOffice.Data.Dictionary.SoField
+  commentId: T:SuperOffice.Data.Dictionary.SoField
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoField
+  nameWithType: SoField
+  fullName: SuperOffice.Data.Dictionary.SoField
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: SuperOffice.Data.SQL.TableInfo.Clone*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfo.Clone
+  isExternal: true
+  name: Clone
+  nameWithType: TableInfo.Clone
+  fullName: SuperOffice.Data.SQL.TableInfo.Clone
+- uid: System.ICloneable.Clone
+  commentId: M:System.ICloneable.Clone
+  parent: System.ICloneable
+  isExternal: true
+  name: Clone()
+  nameWithType: ICloneable.Clone()
+  fullName: System.ICloneable.Clone()
+  spec.csharp:
+  - uid: System.ICloneable.Clone
+    name: Clone
+    nameWithType: ICloneable.Clone
+    fullName: System.ICloneable.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ICloneable.Clone
+    name: Clone
+    nameWithType: ICloneable.Clone
+    fullName: System.ICloneable.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.IsSameTable*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfo.IsSameTable
+  isExternal: true
+  name: IsSameTable
+  nameWithType: TableInfo.IsSameTable
+  fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Data.SQL.TableInfo.FindField*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfo.FindField
+  isExternal: true
+  name: FindField
+  nameWithType: TableInfo.FindField
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField
+- uid: SuperOffice.Data.SQL.TableInfo.ProtAll*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfo.ProtAll
+  isExternal: true
+  name: ProtAll
+  nameWithType: TableInfo.ProtAll
+  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+- uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  isExternal: true
+  name: HashCheckFields
+  nameWithType: TableInfo.HashCheckFields
+  fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.FieldInfo}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.FieldInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<FieldInfo>
+  nameWithType: IEnumerable<FieldInfo>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.FieldInfo>
+  nameWithType.vb: IEnumerable(Of FieldInfo)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.FieldInfo)
+  name.vb: IEnumerable(Of FieldInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Data.SQL.TableInfo.TableName*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfo.TableName
+  isExternal: true
+  name: TableName
+  nameWithType: TableInfo.TableName
+  fullName: SuperOffice.Data.SQL.TableInfo.TableName
+- uid: SuperOffice.Data.SQL.TableInfo.DbName*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfo.DbName
+  isExternal: true
+  name: DbName
+  nameWithType: TableInfo.DbName
+  fullName: SuperOffice.Data.SQL.TableInfo.DbName
+- uid: SuperOffice.Data.SQL.TableInfo.Definition*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfo.Definition
+  isExternal: true
+  name: Definition
+  nameWithType: TableInfo.Definition
+  fullName: SuperOffice.Data.SQL.TableInfo.Definition
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  isExternal: true
+  name: IsDictionaryTable
+  nameWithType: TableInfo.IsDictionaryTable
+  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+- uid: SuperOffice.Data.SQL.TableInfo.All*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfo.All
+  isExternal: true
+  name: All
+  nameWithType: TableInfo.All
+  fullName: SuperOffice.Data.SQL.TableInfo.All
+- uid: SuperOffice.Data.SQL.TableInfo.Item*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfo.Item
+  isExternal: true
+  name: Item
+  nameWithType: TableInfo.Item
+  fullName: SuperOffice.Data.SQL.TableInfo.Item
+- uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField*
+  commentId: Overload:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  isExternal: true
+  name: PrimaryKeyField
+  nameWithType: TableInfo.PrimaryKeyField
+  fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: SuperOffice.Data.SQL.Int32FieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Int32FieldInfo
+  nameWithType: Int32FieldInfo
+  fullName: SuperOffice.Data.SQL.Int32FieldInfo

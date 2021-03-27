@@ -1,0 +1,429 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AudienceLayoutEntity
+  commentId: T:SuperOffice.WebApi.Data.AudienceLayoutEntity
+  id: AudienceLayoutEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AudienceLayoutEntity.#ctor
+  - SuperOffice.WebApi.Data.AudienceLayoutEntity.AudienceLayoutId
+  - SuperOffice.WebApi.Data.AudienceLayoutEntity.CreatedBy
+  - SuperOffice.WebApi.Data.AudienceLayoutEntity.CreatedDate
+  - SuperOffice.WebApi.Data.AudienceLayoutEntity.InstanceLayout
+  - SuperOffice.WebApi.Data.AudienceLayoutEntity.InstanceName
+  - SuperOffice.WebApi.Data.AudienceLayoutEntity.UpdatedBy
+  - SuperOffice.WebApi.Data.AudienceLayoutEntity.UpdatedDate
+  langs:
+  - csharp
+  - vb
+  name: AudienceLayoutEntity
+  nameWithType: AudienceLayoutEntity
+  fullName: SuperOffice.WebApi.Data.AudienceLayoutEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for AudienceLayoutEntity.\nAudience layout. Each instance of Audience has at least one layout. The layout is connected to the instance by it&apos;s instance name or is linked to the currently logged on user. The web part layout and the Audience configuration parameters belongs to an Audience layout    \n"
+  example:
+  - "\nGet AudienceLayoutEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new AudienceAgent(configuration);\nvar audienceLayoutEntity = agent.GetAudienceLayoutEntity( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class AudienceLayoutEntity : Carrier'
+    content.vb: >-
+      Public Class AudienceLayoutEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AudienceAgent
+    commentId: T:SuperOffice.WebApi.Agents.AudienceAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.AudienceLayoutEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.AudienceLayoutEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.AudienceLayoutEntity
+  langs:
+  - csharp
+  - vb
+  name: AudienceLayoutEntity()
+  nameWithType: AudienceLayoutEntity.AudienceLayoutEntity()
+  fullName: SuperOffice.WebApi.Data.AudienceLayoutEntity.AudienceLayoutEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public AudienceLayoutEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.AudienceLayoutEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AudienceLayoutEntity.AudienceLayoutId
+  commentId: P:SuperOffice.WebApi.Data.AudienceLayoutEntity.AudienceLayoutId
+  id: AudienceLayoutId
+  parent: SuperOffice.WebApi.Data.AudienceLayoutEntity
+  langs:
+  - csharp
+  - vb
+  name: AudienceLayoutId
+  nameWithType: AudienceLayoutEntity.AudienceLayoutId
+  fullName: SuperOffice.WebApi.Data.AudienceLayoutEntity.AudienceLayoutId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe Id of the Audience layout\n"
+  syntax:
+    content: public virtual int AudienceLayoutId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AudienceLayoutId As Integer
+  overload: SuperOffice.WebApi.Data.AudienceLayoutEntity.AudienceLayoutId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AudienceLayoutEntity.InstanceLayout
+  commentId: P:SuperOffice.WebApi.Data.AudienceLayoutEntity.InstanceLayout
+  id: InstanceLayout
+  parent: SuperOffice.WebApi.Data.AudienceLayoutEntity
+  langs:
+  - csharp
+  - vb
+  name: InstanceLayout
+  nameWithType: AudienceLayoutEntity.InstanceLayout
+  fullName: SuperOffice.WebApi.Data.AudienceLayoutEntity.InstanceLayout
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe web part layout as a serialized string\n"
+  syntax:
+    content: public virtual string InstanceLayout { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property InstanceLayout As String
+  overload: SuperOffice.WebApi.Data.AudienceLayoutEntity.InstanceLayout*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AudienceLayoutEntity.InstanceName
+  commentId: P:SuperOffice.WebApi.Data.AudienceLayoutEntity.InstanceName
+  id: InstanceName
+  parent: SuperOffice.WebApi.Data.AudienceLayoutEntity
+  langs:
+  - csharp
+  - vb
+  name: InstanceName
+  nameWithType: AudienceLayoutEntity.InstanceName
+  fullName: SuperOffice.WebApi.Data.AudienceLayoutEntity.InstanceName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the layout instance\n"
+  syntax:
+    content: public virtual string InstanceName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property InstanceName As String
+  overload: SuperOffice.WebApi.Data.AudienceLayoutEntity.InstanceName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AudienceLayoutEntity.CreatedDate
+  commentId: P:SuperOffice.WebApi.Data.AudienceLayoutEntity.CreatedDate
+  id: CreatedDate
+  parent: SuperOffice.WebApi.Data.AudienceLayoutEntity
+  langs:
+  - csharp
+  - vb
+  name: CreatedDate
+  nameWithType: AudienceLayoutEntity.CreatedDate
+  fullName: SuperOffice.WebApi.Data.AudienceLayoutEntity.CreatedDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe date and time the Audience layout was created\n"
+  syntax:
+    content: public virtual DateTime CreatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property CreatedDate As DateTime
+  overload: SuperOffice.WebApi.Data.AudienceLayoutEntity.CreatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AudienceLayoutEntity.UpdatedDate
+  commentId: P:SuperOffice.WebApi.Data.AudienceLayoutEntity.UpdatedDate
+  id: UpdatedDate
+  parent: SuperOffice.WebApi.Data.AudienceLayoutEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedDate
+  nameWithType: AudienceLayoutEntity.UpdatedDate
+  fullName: SuperOffice.WebApi.Data.AudienceLayoutEntity.UpdatedDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe date and time the Audience layout was last updated\n"
+  syntax:
+    content: public virtual DateTime UpdatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property UpdatedDate As DateTime
+  overload: SuperOffice.WebApi.Data.AudienceLayoutEntity.UpdatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AudienceLayoutEntity.CreatedBy
+  commentId: P:SuperOffice.WebApi.Data.AudienceLayoutEntity.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.WebApi.Data.AudienceLayoutEntity
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: AudienceLayoutEntity.CreatedBy
+  fullName: SuperOffice.WebApi.Data.AudienceLayoutEntity.CreatedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the person that created the Audience layout\n"
+  syntax:
+    content: public virtual Associate CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property CreatedBy As Associate
+  overload: SuperOffice.WebApi.Data.AudienceLayoutEntity.CreatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AudienceLayoutEntity.UpdatedBy
+  commentId: P:SuperOffice.WebApi.Data.AudienceLayoutEntity.UpdatedBy
+  id: UpdatedBy
+  parent: SuperOffice.WebApi.Data.AudienceLayoutEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedBy
+  nameWithType: AudienceLayoutEntity.UpdatedBy
+  fullName: SuperOffice.WebApi.Data.AudienceLayoutEntity.UpdatedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the person that last updated the Audience layout\n"
+  syntax:
+    content: public virtual Associate UpdatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property UpdatedBy As Associate
+  overload: SuperOffice.WebApi.Data.AudienceLayoutEntity.UpdatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.AudienceAgent
+  commentId: T:SuperOffice.WebApi.Agents.AudienceAgent
+  isExternal: true
+  name: AudienceAgent
+  nameWithType: AudienceAgent
+  fullName: SuperOffice.WebApi.Agents.AudienceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.AudienceLayoutEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.AudienceLayoutEntity.#ctor
+  isExternal: true
+  name: AudienceLayoutEntity
+  nameWithType: AudienceLayoutEntity.AudienceLayoutEntity
+  fullName: SuperOffice.WebApi.Data.AudienceLayoutEntity.AudienceLayoutEntity
+- uid: SuperOffice.WebApi.Data.AudienceLayoutEntity.AudienceLayoutId*
+  commentId: Overload:SuperOffice.WebApi.Data.AudienceLayoutEntity.AudienceLayoutId
+  isExternal: true
+  name: AudienceLayoutId
+  nameWithType: AudienceLayoutEntity.AudienceLayoutId
+  fullName: SuperOffice.WebApi.Data.AudienceLayoutEntity.AudienceLayoutId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.AudienceLayoutEntity.InstanceLayout*
+  commentId: Overload:SuperOffice.WebApi.Data.AudienceLayoutEntity.InstanceLayout
+  isExternal: true
+  name: InstanceLayout
+  nameWithType: AudienceLayoutEntity.InstanceLayout
+  fullName: SuperOffice.WebApi.Data.AudienceLayoutEntity.InstanceLayout
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.AudienceLayoutEntity.InstanceName*
+  commentId: Overload:SuperOffice.WebApi.Data.AudienceLayoutEntity.InstanceName
+  isExternal: true
+  name: InstanceName
+  nameWithType: AudienceLayoutEntity.InstanceName
+  fullName: SuperOffice.WebApi.Data.AudienceLayoutEntity.InstanceName
+- uid: SuperOffice.WebApi.Data.AudienceLayoutEntity.CreatedDate*
+  commentId: Overload:SuperOffice.WebApi.Data.AudienceLayoutEntity.CreatedDate
+  isExternal: true
+  name: CreatedDate
+  nameWithType: AudienceLayoutEntity.CreatedDate
+  fullName: SuperOffice.WebApi.Data.AudienceLayoutEntity.CreatedDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.AudienceLayoutEntity.UpdatedDate*
+  commentId: Overload:SuperOffice.WebApi.Data.AudienceLayoutEntity.UpdatedDate
+  isExternal: true
+  name: UpdatedDate
+  nameWithType: AudienceLayoutEntity.UpdatedDate
+  fullName: SuperOffice.WebApi.Data.AudienceLayoutEntity.UpdatedDate
+- uid: SuperOffice.WebApi.Data.AudienceLayoutEntity.CreatedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.AudienceLayoutEntity.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: AudienceLayoutEntity.CreatedBy
+  fullName: SuperOffice.WebApi.Data.AudienceLayoutEntity.CreatedBy
+- uid: SuperOffice.WebApi.Data.Associate
+  commentId: T:SuperOffice.WebApi.Data.Associate
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.WebApi.Data.Associate
+- uid: SuperOffice.WebApi.Data.AudienceLayoutEntity.UpdatedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.AudienceLayoutEntity.UpdatedBy
+  isExternal: true
+  name: UpdatedBy
+  nameWithType: AudienceLayoutEntity.UpdatedBy
+  fullName: SuperOffice.WebApi.Data.AudienceLayoutEntity.UpdatedBy

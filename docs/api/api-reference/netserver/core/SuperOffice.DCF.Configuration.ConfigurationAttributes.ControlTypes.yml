@@ -1,0 +1,617 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes
+  commentId: T:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes
+  id: ConfigurationAttributes.ControlTypes
+  parent: SuperOffice.DCF.Configuration
+  children:
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Checkbox
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Date
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.DateSelector
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Label
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.MDO
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.PlainLabel
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.RadioButton
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.TextField
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Type
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationAttributes.ControlTypes
+  nameWithType: ConfigurationAttributes.ControlTypes
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public static class ControlTypes
+    content.vb: Public Module ControlTypes
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Type
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Type
+  id: Type
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: ConfigurationAttributes.ControlTypes.Type
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Type
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Type = "type"
+    return:
+      type: System.String
+    content.vb: Public Const Type As String = "type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Label
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Label
+  id: Label
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: ConfigurationAttributes.ControlTypes.Label
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Label
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Label = "SoLabel"
+    return:
+      type: System.String
+    content.vb: Public Const Label As String = "SoLabel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.PlainLabel
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.PlainLabel
+  id: PlainLabel
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes
+  langs:
+  - csharp
+  - vb
+  name: PlainLabel
+  nameWithType: ConfigurationAttributes.ControlTypes.PlainLabel
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.PlainLabel
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string PlainLabel = "SoPlainLabel"
+    return:
+      type: System.String
+    content.vb: Public Const PlainLabel As String = "SoPlainLabel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.TextField
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.TextField
+  id: TextField
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes
+  langs:
+  - csharp
+  - vb
+  name: TextField
+  nameWithType: ConfigurationAttributes.ControlTypes.TextField
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.TextField
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string TextField = "SoTextBox"
+    return:
+      type: System.String
+    content.vb: Public Const TextField As String = "SoTextBox"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Date
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Date
+  id: Date
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: ConfigurationAttributes.ControlTypes.Date
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Date
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Date = "SoDate"
+    return:
+      type: System.String
+    content.vb: Public Const Date As String = "SoDate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Checkbox
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Checkbox
+  id: Checkbox
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes
+  langs:
+  - csharp
+  - vb
+  name: Checkbox
+  nameWithType: ConfigurationAttributes.ControlTypes.Checkbox
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Checkbox
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Checkbox = "SoCheckBox"
+    return:
+      type: System.String
+    content.vb: Public Const Checkbox As String = "SoCheckBox"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.MDO
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.MDO
+  id: MDO
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes
+  langs:
+  - csharp
+  - vb
+  name: MDO
+  nameWithType: ConfigurationAttributes.ControlTypes.MDO
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.MDO
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string MDO = "SoMDOControl"
+    return:
+      type: System.String
+    content.vb: Public Const MDO As String = "SoMDOControl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.RadioButton
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.RadioButton
+  id: RadioButton
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes
+  langs:
+  - csharp
+  - vb
+  name: RadioButton
+  nameWithType: ConfigurationAttributes.ControlTypes.RadioButton
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.RadioButton
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string RadioButton = "SoRadioButton"
+    return:
+      type: System.String
+    content.vb: Public Const RadioButton As String = "SoRadioButton"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.DateSelector
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.DateSelector
+  id: DateSelector
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes
+  langs:
+  - csharp
+  - vb
+  name: DateSelector
+  nameWithType: ConfigurationAttributes.ControlTypes.DateSelector
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.DateSelector
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string DateSelector = "SoDateSelector"
+    return:
+      type: System.String
+    content.vb: Public Const DateSelector As String = "SoDateSelector"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.DCF.Configuration
+  commentId: N:SuperOffice.DCF.Configuration
+  isExternal: true
+  name: SuperOffice.DCF.Configuration
+  nameWithType: SuperOffice.DCF.Configuration
+  fullName: SuperOffice.DCF.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,1247 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields
+  commentId: T:SuperOffice.CRM.Data.DBC.ConfigFields
+  id: DBC.ConfigFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.ConfigFields.AdminMail
+  - SuperOffice.CRM.Data.DBC.ConfigFields.AttachmentPath
+  - SuperOffice.CRM.Data.DBC.ConfigFields.Autologout
+  - SuperOffice.CRM.Data.DBC.ConfigFields.CgiBin
+  - SuperOffice.CRM.Data.DBC.ConfigFields.CgiUrl
+  - SuperOffice.CRM.Data.DBC.ConfigFields.CgiUrlInternal
+  - SuperOffice.CRM.Data.DBC.ConfigFields.ConfigId
+  - SuperOffice.CRM.Data.DBC.ConfigFields.DebugFlags
+  - SuperOffice.CRM.Data.DBC.ConfigFields.DefaultMail
+  - SuperOffice.CRM.Data.DBC.ConfigFields.FeatureToggle
+  - SuperOffice.CRM.Data.DBC.ConfigFields.Flags
+  - SuperOffice.CRM.Data.DBC.ConfigFields.GfxUrl
+  - SuperOffice.CRM.Data.DBC.ConfigFields.InstalledAt
+  - SuperOffice.CRM.Data.DBC.ConfigFields.InstalledBy
+  - SuperOffice.CRM.Data.DBC.ConfigFields.Language
+  - SuperOffice.CRM.Data.DBC.ConfigFields.Mailheader
+  - SuperOffice.CRM.Data.DBC.ConfigFields.MbMaxValue
+  - SuperOffice.CRM.Data.DBC.ConfigFields.MbModifier
+  - SuperOffice.CRM.Data.DBC.ConfigFields.MbThreshold
+  - SuperOffice.CRM.Data.DBC.ConfigFields.PanicMail
+  - SuperOffice.CRM.Data.DBC.ConfigFields.Simautologout
+  - SuperOffice.CRM.Data.DBC.ConfigFields.SmtpHost
+  - SuperOffice.CRM.Data.DBC.ConfigFields.SmtpPort
+  - SuperOffice.CRM.Data.DBC.ConfigFields.Tag
+  - SuperOffice.CRM.Data.DBC.ConfigFields.TemplatePath
+  - SuperOffice.CRM.Data.DBC.ConfigFields.TempLicense
+  - SuperOffice.CRM.Data.DBC.ConfigFields.TextPath
+  - SuperOffice.CRM.Data.DBC.ConfigFields.UniqueId
+  - SuperOffice.CRM.Data.DBC.ConfigFields.Version
+  - SuperOffice.CRM.Data.DBC.ConfigFields.Warning
+  langs:
+  - csharp
+  - vb
+  name: DBC.ConfigFields
+  nameWithType: DBC.ConfigFields
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for Config, This table contains certain system-wide configuration values.\n"
+  syntax:
+    content: public static class ConfigFields
+    content.vb: Public Module ConfigFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.ConfigId
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.ConfigId
+  id: ConfigId
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: ConfigId
+  nameWithType: DBC.ConfigFields.ConfigId
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.ConfigId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.ConfigId: The primary key (auto-incremented)\n"
+  syntax:
+    content: public const string ConfigId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const ConfigId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.TextPath
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.TextPath
+  id: TextPath
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: TextPath
+  nameWithType: DBC.ConfigFields.TextPath
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.TextPath
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.TextPath: The path to the text-folder containing the emailBackup, trashbin, etc. subfolders.\n"
+  syntax:
+    content: public const string TextPath = "text_path"
+    return:
+      type: System.String
+    content.vb: Public Const TextPath As String = "text_path"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.AttachmentPath
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.AttachmentPath
+  id: AttachmentPath
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: AttachmentPath
+  nameWithType: DBC.ConfigFields.AttachmentPath
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.AttachmentPath
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.AttachmentPath: The path to the folder containing the attachments.\n"
+  syntax:
+    content: public const string AttachmentPath = "attachment_path"
+    return:
+      type: System.String
+    content.vb: Public Const AttachmentPath As String = "attachment_path"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.TemplatePath
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.TemplatePath
+  id: TemplatePath
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: TemplatePath
+  nameWithType: DBC.ConfigFields.TemplatePath
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.TemplatePath
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.TemplatePath: The path to the templates used for the customer front-end.\n"
+  syntax:
+    content: public const string TemplatePath = "template_path"
+    return:
+      type: System.String
+    content.vb: Public Const TemplatePath As String = "template_path"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.AdminMail
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.AdminMail
+  id: AdminMail
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: AdminMail
+  nameWithType: DBC.ConfigFields.AdminMail
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.AdminMail
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.AdminMail: The email address to the administrator of the system. E.g. ejournal-admin@company.com.\n"
+  syntax:
+    content: public const string AdminMail = "admin_mail"
+    return:
+      type: System.String
+    content.vb: Public Const AdminMail As String = "admin_mail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.DefaultMail
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.DefaultMail
+  id: DefaultMail
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: DefaultMail
+  nameWithType: DBC.ConfigFields.DefaultMail
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.DefaultMail
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.DefaultMail: The default from address in emails being sent from the system. E.g. support@company.com.\n"
+  syntax:
+    content: public const string DefaultMail = "default_mail"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultMail As String = "default_mail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.PanicMail
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.PanicMail
+  id: PanicMail
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: PanicMail
+  nameWithType: DBC.ConfigFields.PanicMail
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.PanicMail
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.PanicMail: The email address to where error messages are sent. Normally error@superoffice.com.\n"
+  syntax:
+    content: public const string PanicMail = "panic_mail"
+    return:
+      type: System.String
+    content.vb: Public Const PanicMail As String = "panic_mail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.SmtpHost
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.SmtpHost
+  id: SmtpHost
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: SmtpHost
+  nameWithType: DBC.ConfigFields.SmtpHost
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.SmtpHost
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.SmtpHost: The hostname or IP-address of the SMTP server used for sending email.\n"
+  syntax:
+    content: public const string SmtpHost = "smtp_host"
+    return:
+      type: System.String
+    content.vb: Public Const SmtpHost As String = "smtp_host"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.SmtpPort
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.SmtpPort
+  id: SmtpPort
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: SmtpPort
+  nameWithType: DBC.ConfigFields.SmtpPort
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.SmtpPort
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.SmtpPort: The port of the SMTP server used for sending email.\n"
+  syntax:
+    content: public const string SmtpPort = "smtp_port"
+    return:
+      type: System.String
+    content.vb: Public Const SmtpPort As String = "smtp_port"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.CgiBin
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.CgiBin
+  id: CgiBin
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: CgiBin
+  nameWithType: DBC.ConfigFields.CgiBin
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.CgiBin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.CgiBin: The cgi-bin alias used to access the executables through HTTP. E.g. &apos;/bin&apos;\n"
+  syntax:
+    content: public const string CgiBin = "cgi_bin"
+    return:
+      type: System.String
+    content.vb: Public Const CgiBin As String = "cgi_bin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.CgiUrl
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.CgiUrl
+  id: CgiUrl
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: CgiUrl
+  nameWithType: DBC.ConfigFields.CgiUrl
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.CgiUrl
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.CgiUrl: The base URL to the system. E.g. &apos;http://ejournal.company.com&apos;.\n"
+  syntax:
+    content: public const string CgiUrl = "cgi_url"
+    return:
+      type: System.String
+    content.vb: Public Const CgiUrl As String = "cgi_url"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.GfxUrl
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.GfxUrl
+  id: GfxUrl
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: GfxUrl
+  nameWithType: DBC.ConfigFields.GfxUrl
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.GfxUrl
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.GfxUrl: The base URL to the graphics files.\n"
+  syntax:
+    content: public const string GfxUrl = "gfx_url"
+    return:
+      type: System.String
+    content.vb: Public Const GfxUrl As String = "gfx_url"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.Warning
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.Warning
+  id: Warning
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: Warning
+  nameWithType: DBC.ConfigFields.Warning
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.Warning
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.Warning: The path + leading filename for the warning logfiles.\n"
+  syntax:
+    content: public const string Warning = "warning"
+    return:
+      type: System.String
+    content.vb: Public Const Warning As String = "warning"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.Tag
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.Tag
+  id: Tag
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: Tag
+  nameWithType: DBC.ConfigFields.Tag
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.Tag
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.Tag: The tag used as ticket id identificator in the subject of emails.\n"
+  syntax:
+    content: public const string Tag = "tag"
+    return:
+      type: System.String
+    content.vb: Public Const Tag As String = "tag"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.Mailheader
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.Mailheader
+  id: Mailheader
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: Mailheader
+  nameWithType: DBC.ConfigFields.Mailheader
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.Mailheader
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.Mailheader: The default header used (i.e. line 1) in outbound email.\n"
+  syntax:
+    content: public const string Mailheader = "mailheader"
+    return:
+      type: System.String
+    content.vb: Public Const Mailheader As String = "mailheader"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.Autologout
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.Autologout
+  id: Autologout
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: Autologout
+  nameWithType: DBC.ConfigFields.Autologout
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.Autologout
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.Autologout: The number of minutes if idle time before a user is logged ut. A zero value means no autologout.\n"
+  syntax:
+    content: public const string Autologout = "autologout"
+    return:
+      type: System.String
+    content.vb: Public Const Autologout As String = "autologout"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.Simautologout
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.Simautologout
+  id: Simautologout
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: Simautologout
+  nameWithType: DBC.ConfigFields.Simautologout
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.Simautologout
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.Simautologout: The number of minutes if idle time before a simultaneus user is logged ut. A zero value means no autologout.\n"
+  syntax:
+    content: public const string Simautologout = "simautologout"
+    return:
+      type: System.String
+    content.vb: Public Const Simautologout As String = "simautologout"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.Flags
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.Flags
+  id: Flags
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: DBC.ConfigFields.Flags
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.Flags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.Flags: A bitmask of flags controlling various options.\n"
+  syntax:
+    content: public const string Flags = "flags"
+    return:
+      type: System.String
+    content.vb: Public Const Flags As String = "flags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.DebugFlags
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.DebugFlags
+  id: DebugFlags
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: DebugFlags
+  nameWithType: DBC.ConfigFields.DebugFlags
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.DebugFlags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.DebugFlags: A default bitmask of flags controlling debug logging.\n"
+  syntax:
+    content: public const string DebugFlags = "debug_flags"
+    return:
+      type: System.String
+    content.vb: Public Const DebugFlags As String = "debug_flags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.Language
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.Language
+  id: Language
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: DBC.ConfigFields.Language
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.Language
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.Language: The systemlanguage. &apos;no&apos; or &apos;en&apos;.\n"
+  syntax:
+    content: public const string Language = "language"
+    return:
+      type: System.String
+    content.vb: Public Const Language As String = "language"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.MbMaxValue
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.MbMaxValue
+  id: MbMaxValue
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: MbMaxValue
+  nameWithType: DBC.ConfigFields.MbMaxValue
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.MbMaxValue
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.MbMaxValue: This is the upper (initial) value for the spam-control algorithm, which makes sure that a single email address does not recieve too many emails.\n"
+  syntax:
+    content: public const string MbMaxValue = "mb_max_value"
+    return:
+      type: System.String
+    content.vb: Public Const MbMaxValue As String = "mb_max_value"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.MbThreshold
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.MbThreshold
+  id: MbThreshold
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: MbThreshold
+  nameWithType: DBC.ConfigFields.MbThreshold
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.MbThreshold
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.MbThreshold: This is the treshold value for the spam-contol algorithm. When the value for a given email address is below this value, emails will be blocked.\n"
+  syntax:
+    content: public const string MbThreshold = "mb_threshold"
+    return:
+      type: System.String
+    content.vb: Public Const MbThreshold As String = "mb_threshold"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.MbModifier
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.MbModifier
+  id: MbModifier
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: MbModifier
+  nameWithType: DBC.ConfigFields.MbModifier
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.MbModifier
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.MbModifier: This is the &apos;cost&apos; of sending an email, which is subtracted from the mb-value for the given email address. The mb-value is increased with 1 every second.\n"
+  syntax:
+    content: public const string MbModifier = "mb_modifier"
+    return:
+      type: System.String
+    content.vb: Public Const MbModifier As String = "mb_modifier"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.Version
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.Version
+  id: Version
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: DBC.ConfigFields.Version
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.Version
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.Version: The version of the installed software.\n"
+  syntax:
+    content: public const string Version = "version"
+    return:
+      type: System.String
+    content.vb: Public Const Version As String = "version"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.InstalledAt
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.InstalledAt
+  id: InstalledAt
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: InstalledAt
+  nameWithType: DBC.ConfigFields.InstalledAt
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.InstalledAt
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.InstalledAt: The timestamp of when the system was installed, or last upgraded.\n"
+  syntax:
+    content: public const string InstalledAt = "installed_at"
+    return:
+      type: System.String
+    content.vb: Public Const InstalledAt As String = "installed_at"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.InstalledBy
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.InstalledBy
+  id: InstalledBy
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: InstalledBy
+  nameWithType: DBC.ConfigFields.InstalledBy
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.InstalledBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.InstalledBy: Whoever installed the software.\n"
+  syntax:
+    content: public const string InstalledBy = "installed_by"
+    return:
+      type: System.String
+    content.vb: Public Const InstalledBy As String = "installed_by"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.UniqueId
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.UniqueId
+  id: UniqueId
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: UniqueId
+  nameWithType: DBC.ConfigFields.UniqueId
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.UniqueId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.UniqueId: An ID that should be unique for all eJournal installations.\n"
+  syntax:
+    content: public const string UniqueId = "unique_id"
+    return:
+      type: System.String
+    content.vb: Public Const UniqueId As String = "unique_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.CgiUrlInternal
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.CgiUrlInternal
+  id: CgiUrlInternal
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: CgiUrlInternal
+  nameWithType: DBC.ConfigFields.CgiUrlInternal
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.CgiUrlInternal
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.CgiUrlInternal: The internal base URL to the system. E.g. &apos;http://ejournal.company.com&apos;.\n"
+  syntax:
+    content: public const string CgiUrlInternal = "cgi_url_internal"
+    return:
+      type: System.String
+    content.vb: Public Const CgiUrlInternal As String = "cgi_url_internal"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.TempLicense
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.TempLicense
+  id: TempLicense
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: TempLicense
+  nameWithType: DBC.ConfigFields.TempLicense
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.TempLicense
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.TempLicense: Temporary license key created for this session.\n"
+  syntax:
+    content: public const string TempLicense = "temp_license"
+    return:
+      type: System.String
+    content.vb: Public Const TempLicense As String = "temp_license"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConfigFields.FeatureToggle
+  commentId: F:SuperOffice.CRM.Data.DBC.ConfigFields.FeatureToggle
+  id: FeatureToggle
+  parent: SuperOffice.CRM.Data.DBC.ConfigFields
+  langs:
+  - csharp
+  - vb
+  name: FeatureToggle
+  nameWithType: DBC.ConfigFields.FeatureToggle
+  fullName: SuperOffice.CRM.Data.DBC.ConfigFields.FeatureToggle
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConfig.FeatureToggle: Temporary values used for feature toggles\n"
+  syntax:
+    content: public const string FeatureToggle = "feature_toggle"
+    return:
+      type: System.String
+    content.vb: Public Const FeatureToggle As String = "feature_toggle"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person_MoveRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_MoveRequest
+  id: Person_MoveRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person_MoveRequest.#ctor
+  - SuperOffice.WebApi.Data.Person_MoveRequest.DestinationContactId
+  - SuperOffice.WebApi.Data.Person_MoveRequest.MoveAfterDate
+  - SuperOffice.WebApi.Data.Person_MoveRequest.PersonId
+  langs:
+  - csharp
+  - vb
+  name: Person_MoveRequest
+  nameWithType: Person_MoveRequest
+  fullName: SuperOffice.WebApi.Data.Person_MoveRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Person_MoveRequest : Object'
+    content.vb: >-
+      Public Class Person_MoveRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person_MoveRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person_MoveRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person_MoveRequest
+  langs:
+  - csharp
+  - vb
+  name: Person_MoveRequest()
+  nameWithType: Person_MoveRequest.Person_MoveRequest()
+  fullName: SuperOffice.WebApi.Data.Person_MoveRequest.Person_MoveRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Person_MoveRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person_MoveRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_MoveRequest.PersonId
+  commentId: P:SuperOffice.WebApi.Data.Person_MoveRequest.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.Person_MoveRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: Person_MoveRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Person_MoveRequest.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.Person_MoveRequest.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_MoveRequest.DestinationContactId
+  commentId: P:SuperOffice.WebApi.Data.Person_MoveRequest.DestinationContactId
+  id: DestinationContactId
+  parent: SuperOffice.WebApi.Data.Person_MoveRequest
+  langs:
+  - csharp
+  - vb
+  name: DestinationContactId
+  nameWithType: Person_MoveRequest.DestinationContactId
+  fullName: SuperOffice.WebApi.Data.Person_MoveRequest.DestinationContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DestinationContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DestinationContactId As Integer
+  overload: SuperOffice.WebApi.Data.Person_MoveRequest.DestinationContactId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_MoveRequest.MoveAfterDate
+  commentId: P:SuperOffice.WebApi.Data.Person_MoveRequest.MoveAfterDate
+  id: MoveAfterDate
+  parent: SuperOffice.WebApi.Data.Person_MoveRequest
+  langs:
+  - csharp
+  - vb
+  name: MoveAfterDate
+  nameWithType: Person_MoveRequest.MoveAfterDate
+  fullName: SuperOffice.WebApi.Data.Person_MoveRequest.MoveAfterDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime MoveAfterDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property MoveAfterDate As DateTime
+  overload: SuperOffice.WebApi.Data.Person_MoveRequest.MoveAfterDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person_MoveRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_MoveRequest.#ctor
+  isExternal: true
+  name: Person_MoveRequest
+  nameWithType: Person_MoveRequest.Person_MoveRequest
+  fullName: SuperOffice.WebApi.Data.Person_MoveRequest.Person_MoveRequest
+- uid: SuperOffice.WebApi.Data.Person_MoveRequest.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_MoveRequest.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: Person_MoveRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Person_MoveRequest.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Person_MoveRequest.DestinationContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_MoveRequest.DestinationContactId
+  isExternal: true
+  name: DestinationContactId
+  nameWithType: Person_MoveRequest.DestinationContactId
+  fullName: SuperOffice.WebApi.Data.Person_MoveRequest.DestinationContactId
+- uid: SuperOffice.WebApi.Data.Person_MoveRequest.MoveAfterDate*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_MoveRequest.MoveAfterDate
+  isExternal: true
+  name: MoveAfterDate
+  nameWithType: Person_MoveRequest.MoveAfterDate
+  fullName: SuperOffice.WebApi.Data.Person_MoveRequest.MoveAfterDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime

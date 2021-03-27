@@ -1,0 +1,532 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ReportEntity
+  commentId: T:SuperOffice.CRM.Services.ReportEntity
+  id: ReportEntity
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ReportEntity.#ctor
+  - SuperOffice.CRM.Services.ReportEntity.AssociateId
+  - SuperOffice.CRM.Services.ReportEntity.Description
+  - SuperOffice.CRM.Services.ReportEntity.Name
+  - SuperOffice.CRM.Services.ReportEntity.Published
+  - SuperOffice.CRM.Services.ReportEntity.ReportCategory
+  - SuperOffice.CRM.Services.ReportEntity.ReportId
+  - SuperOffice.CRM.Services.ReportEntity.ReportLayout
+  - SuperOffice.CRM.Services.ReportEntity.TemplateId
+  - SuperOffice.CRM.Services.ReportEntity.ToString
+  - SuperOffice.CRM.Services.ReportEntity.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ReportEntity
+  nameWithType: ReportEntity
+  fullName: SuperOffice.CRM.Services.ReportEntity
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for ReportEntity.\nServices for the ReportEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IReportAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet ReportEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ReportAgent();\n    var reportEntity = agent.GetReportEntity( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class ReportEntity : Carrier'
+    content.vb: >-
+      Public Class ReportEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ReportAgent
+    commentId: T:SuperOffice.CRM.Services.ReportAgent
+  - linkId: SuperOffice.CRM.Services.IReportAgent
+    commentId: T:SuperOffice.CRM.Services.IReportAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ReportEntity.#ctor
+  commentId: M:SuperOffice.CRM.Services.ReportEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ReportEntity
+  langs:
+  - csharp
+  - vb
+  name: ReportEntity()
+  nameWithType: ReportEntity.ReportEntity()
+  fullName: SuperOffice.CRM.Services.ReportEntity.ReportEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ReportEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ReportEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ReportEntity.ToString
+  commentId: M:SuperOffice.CRM.Services.ReportEntity.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ReportEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ReportEntity.ToString()
+  fullName: SuperOffice.CRM.Services.ReportEntity.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.ReportEntity.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ReportEntity.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ReportEntity.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ReportEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ReportEntity.ToString(String)
+  fullName: SuperOffice.CRM.Services.ReportEntity.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ReportEntity.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ReportEntity.ReportId
+  commentId: P:SuperOffice.CRM.Services.ReportEntity.ReportId
+  id: ReportId
+  parent: SuperOffice.CRM.Services.ReportEntity
+  langs:
+  - csharp
+  - vb
+  name: ReportId
+  nameWithType: ReportEntity.ReportId
+  fullName: SuperOffice.CRM.Services.ReportEntity.ReportId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe id of the report.\n\n"
+  syntax:
+    content: public virtual int ReportId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ReportId As Integer
+  overload: SuperOffice.CRM.Services.ReportEntity.ReportId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ReportEntity.ReportCategory
+  commentId: P:SuperOffice.CRM.Services.ReportEntity.ReportCategory
+  id: ReportCategory
+  parent: SuperOffice.CRM.Services.ReportEntity
+  langs:
+  - csharp
+  - vb
+  name: ReportCategory
+  nameWithType: ReportEntity.ReportCategory
+  fullName: SuperOffice.CRM.Services.ReportEntity.ReportCategory
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe category of the report. \n"
+  syntax:
+    content: public virtual ReportCategory ReportCategory { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.ReportCategory
+    content.vb: Public Overridable Property ReportCategory As ReportCategory
+  overload: SuperOffice.CRM.Services.ReportEntity.ReportCategory*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ReportEntity.Description
+  commentId: P:SuperOffice.CRM.Services.ReportEntity.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.ReportEntity
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: ReportEntity.Description
+  fullName: SuperOffice.CRM.Services.ReportEntity.Description
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe description of the report. \n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.ReportEntity.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ReportEntity.ReportLayout
+  commentId: P:SuperOffice.CRM.Services.ReportEntity.ReportLayout
+  id: ReportLayout
+  parent: SuperOffice.CRM.Services.ReportEntity
+  langs:
+  - csharp
+  - vb
+  name: ReportLayout
+  nameWithType: ReportEntity.ReportLayout
+  fullName: SuperOffice.CRM.Services.ReportEntity.ReportLayout
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe layout of the report. \n"
+  syntax:
+    content: public virtual ReportLayout ReportLayout { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.ReportLayout
+    content.vb: Public Overridable Property ReportLayout As ReportLayout
+  overload: SuperOffice.CRM.Services.ReportEntity.ReportLayout*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ReportEntity.Name
+  commentId: P:SuperOffice.CRM.Services.ReportEntity.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.ReportEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ReportEntity.Name
+  fullName: SuperOffice.CRM.Services.ReportEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe name of the report \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.ReportEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ReportEntity.AssociateId
+  commentId: P:SuperOffice.CRM.Services.ReportEntity.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Services.ReportEntity
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: ReportEntity.AssociateId
+  fullName: SuperOffice.CRM.Services.ReportEntity.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe owner of the report. \n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.CRM.Services.ReportEntity.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ReportEntity.TemplateId
+  commentId: P:SuperOffice.CRM.Services.ReportEntity.TemplateId
+  id: TemplateId
+  parent: SuperOffice.CRM.Services.ReportEntity
+  langs:
+  - csharp
+  - vb
+  name: TemplateId
+  nameWithType: ReportEntity.TemplateId
+  fullName: SuperOffice.CRM.Services.ReportEntity.TemplateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe id of report template. \n"
+  syntax:
+    content: public virtual int TemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TemplateId As Integer
+  overload: SuperOffice.CRM.Services.ReportEntity.TemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ReportEntity.Published
+  commentId: P:SuperOffice.CRM.Services.ReportEntity.Published
+  id: Published
+  parent: SuperOffice.CRM.Services.ReportEntity
+  langs:
+  - csharp
+  - vb
+  name: Published
+  nameWithType: ReportEntity.Published
+  fullName: SuperOffice.CRM.Services.ReportEntity.Published
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIs the report published? \n"
+  syntax:
+    content: public virtual bool Published { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Published As Boolean
+  overload: SuperOffice.CRM.Services.ReportEntity.Published*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.ReportAgent
+  commentId: T:SuperOffice.CRM.Services.ReportAgent
+  isExternal: true
+  name: ReportAgent
+  nameWithType: ReportAgent
+  fullName: SuperOffice.CRM.Services.ReportAgent
+- uid: SuperOffice.CRM.Services.IReportAgent
+  commentId: T:SuperOffice.CRM.Services.IReportAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IReportAgent
+  nameWithType: IReportAgent
+  fullName: SuperOffice.CRM.Services.IReportAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ReportEntity.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ReportEntity.#ctor
+  isExternal: true
+  name: ReportEntity
+  nameWithType: ReportEntity.ReportEntity
+  fullName: SuperOffice.CRM.Services.ReportEntity.ReportEntity
+- uid: SuperOffice.CRM.Services.ReportEntity.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ReportEntity.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ReportEntity.ToString
+  fullName: SuperOffice.CRM.Services.ReportEntity.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ReportEntity.ReportId*
+  commentId: Overload:SuperOffice.CRM.Services.ReportEntity.ReportId
+  isExternal: true
+  name: ReportId
+  nameWithType: ReportEntity.ReportId
+  fullName: SuperOffice.CRM.Services.ReportEntity.ReportId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ReportEntity.ReportCategory*
+  commentId: Overload:SuperOffice.CRM.Services.ReportEntity.ReportCategory
+  isExternal: true
+  name: ReportCategory
+  nameWithType: ReportEntity.ReportCategory
+  fullName: SuperOffice.CRM.Services.ReportEntity.ReportCategory
+- uid: SuperOffice.Data.ReportCategory
+  commentId: '!:SuperOffice.Data.ReportCategory'
+  isExternal: true
+  name: ReportCategory
+  nameWithType: ReportCategory
+  fullName: SuperOffice.Data.ReportCategory
+- uid: SuperOffice.CRM.Services.ReportEntity.Description*
+  commentId: Overload:SuperOffice.CRM.Services.ReportEntity.Description
+  isExternal: true
+  name: Description
+  nameWithType: ReportEntity.Description
+  fullName: SuperOffice.CRM.Services.ReportEntity.Description
+- uid: SuperOffice.CRM.Services.ReportEntity.ReportLayout*
+  commentId: Overload:SuperOffice.CRM.Services.ReportEntity.ReportLayout
+  isExternal: true
+  name: ReportLayout
+  nameWithType: ReportEntity.ReportLayout
+  fullName: SuperOffice.CRM.Services.ReportEntity.ReportLayout
+- uid: SuperOffice.Data.ReportLayout
+  commentId: '!:SuperOffice.Data.ReportLayout'
+  isExternal: true
+  name: ReportLayout
+  nameWithType: ReportLayout
+  fullName: SuperOffice.Data.ReportLayout
+- uid: SuperOffice.CRM.Services.ReportEntity.Name*
+  commentId: Overload:SuperOffice.CRM.Services.ReportEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: ReportEntity.Name
+  fullName: SuperOffice.CRM.Services.ReportEntity.Name
+- uid: SuperOffice.CRM.Services.ReportEntity.AssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.ReportEntity.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: ReportEntity.AssociateId
+  fullName: SuperOffice.CRM.Services.ReportEntity.AssociateId
+- uid: SuperOffice.CRM.Services.ReportEntity.TemplateId*
+  commentId: Overload:SuperOffice.CRM.Services.ReportEntity.TemplateId
+  isExternal: true
+  name: TemplateId
+  nameWithType: ReportEntity.TemplateId
+  fullName: SuperOffice.CRM.Services.ReportEntity.TemplateId
+- uid: SuperOffice.CRM.Services.ReportEntity.Published*
+  commentId: Overload:SuperOffice.CRM.Services.ReportEntity.Published
+  isExternal: true
+  name: Published
+  nameWithType: ReportEntity.Published
+  fullName: SuperOffice.CRM.Services.ReportEntity.Published
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

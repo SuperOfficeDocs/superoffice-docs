@@ -1,0 +1,507 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.ResourceHandlers.ResourceTagProvider
+  commentId: T:SuperOffice.Web.ResourceHandlers.ResourceTagProvider
+  id: ResourceTagProvider
+  parent: SuperOffice.Web.ResourceHandlers
+  children:
+  - SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderCssTags(System.Web.UI.Page)
+  - SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderJavascriptTags(System.Web.UI.Page)
+  - SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilAppTags(System.Web.UI.Page)
+  - SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilVendorTags(System.Web.UI.Page)
+  langs:
+  - csharp
+  - vb
+  name: ResourceTagProvider
+  nameWithType: ResourceTagProvider
+  fullName: SuperOffice.Web.ResourceHandlers.ResourceTagProvider
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.ResourceHandlers
+  syntax:
+    content: public static class ResourceTagProvider
+    content.vb: Public Module ResourceTagProvider
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderCssTags(System.Web.UI.Page)
+  commentId: M:SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderCssTags(System.Web.UI.Page)
+  id: RenderCssTags(System.Web.UI.Page)
+  parent: SuperOffice.Web.ResourceHandlers.ResourceTagProvider
+  langs:
+  - csharp
+  - vb
+  name: RenderCssTags(Page)
+  nameWithType: ResourceTagProvider.RenderCssTags(Page)
+  fullName: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderCssTags(System.Web.UI.Page)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.ResourceHandlers
+  syntax:
+    content: public static string RenderCssTags(Page page)
+    parameters:
+    - id: page
+      type: System.Web.UI.Page
+    return:
+      type: System.String
+    content.vb: Public Shared Function RenderCssTags(page As Page) As String
+  overload: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderCssTags*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderJavascriptTags(System.Web.UI.Page)
+  commentId: M:SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderJavascriptTags(System.Web.UI.Page)
+  id: RenderJavascriptTags(System.Web.UI.Page)
+  parent: SuperOffice.Web.ResourceHandlers.ResourceTagProvider
+  langs:
+  - csharp
+  - vb
+  name: RenderJavascriptTags(Page)
+  nameWithType: ResourceTagProvider.RenderJavascriptTags(Page)
+  fullName: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderJavascriptTags(System.Web.UI.Page)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.ResourceHandlers
+  syntax:
+    content: public static string RenderJavascriptTags(Page page)
+    parameters:
+    - id: page
+      type: System.Web.UI.Page
+    return:
+      type: System.String
+    content.vb: Public Shared Function RenderJavascriptTags(page As Page) As String
+  overload: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderJavascriptTags*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilVendorTags(System.Web.UI.Page)
+  commentId: M:SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilVendorTags(System.Web.UI.Page)
+  id: RenderScilVendorTags(System.Web.UI.Page)
+  parent: SuperOffice.Web.ResourceHandlers.ResourceTagProvider
+  langs:
+  - csharp
+  - vb
+  name: RenderScilVendorTags(Page)
+  nameWithType: ResourceTagProvider.RenderScilVendorTags(Page)
+  fullName: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilVendorTags(System.Web.UI.Page)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.ResourceHandlers
+  syntax:
+    content: public static string RenderScilVendorTags(Page page)
+    parameters:
+    - id: page
+      type: System.Web.UI.Page
+    return:
+      type: System.String
+    content.vb: Public Shared Function RenderScilVendorTags(page As Page) As String
+  overload: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilVendorTags*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilAppTags(System.Web.UI.Page)
+  commentId: M:SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilAppTags(System.Web.UI.Page)
+  id: RenderScilAppTags(System.Web.UI.Page)
+  parent: SuperOffice.Web.ResourceHandlers.ResourceTagProvider
+  langs:
+  - csharp
+  - vb
+  name: RenderScilAppTags(Page)
+  nameWithType: ResourceTagProvider.RenderScilAppTags(Page)
+  fullName: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilAppTags(System.Web.UI.Page)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.ResourceHandlers
+  syntax:
+    content: public static string RenderScilAppTags(Page page)
+    parameters:
+    - id: page
+      type: System.Web.UI.Page
+    return:
+      type: System.String
+    content.vb: Public Shared Function RenderScilAppTags(page As Page) As String
+  overload: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilAppTags*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Web.ResourceHandlers
+  commentId: N:SuperOffice.Web.ResourceHandlers
+  isExternal: true
+  name: SuperOffice.Web.ResourceHandlers
+  nameWithType: SuperOffice.Web.ResourceHandlers
+  fullName: SuperOffice.Web.ResourceHandlers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderCssTags*
+  commentId: Overload:SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderCssTags
+  isExternal: true
+  name: RenderCssTags
+  nameWithType: ResourceTagProvider.RenderCssTags
+  fullName: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderCssTags
+- uid: System.Web.UI.Page
+  isExternal: true
+  name: Page
+  nameWithType: Page
+  fullName: System.Web.UI.Page
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderJavascriptTags*
+  commentId: Overload:SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderJavascriptTags
+  isExternal: true
+  name: RenderJavascriptTags
+  nameWithType: ResourceTagProvider.RenderJavascriptTags
+  fullName: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderJavascriptTags
+- uid: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilVendorTags*
+  commentId: Overload:SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilVendorTags
+  isExternal: true
+  name: RenderScilVendorTags
+  nameWithType: ResourceTagProvider.RenderScilVendorTags
+  fullName: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilVendorTags
+- uid: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilAppTags*
+  commentId: Overload:SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilAppTags
+  isExternal: true
+  name: RenderScilAppTags
+  nameWithType: ResourceTagProvider.RenderScilAppTags
+  fullName: SuperOffice.Web.ResourceHandlers.ResourceTagProvider.RenderScilAppTags

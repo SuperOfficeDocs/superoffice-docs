@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Project_GetProjectEventsOnPersonRequest
+  commentId: T:SuperOffice.WebApi.Data.Project_GetProjectEventsOnPersonRequest
+  id: Project_GetProjectEventsOnPersonRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Project_GetProjectEventsOnPersonRequest.#ctor
+  - SuperOffice.WebApi.Data.Project_GetProjectEventsOnPersonRequest.PersonId
+  langs:
+  - csharp
+  - vb
+  name: Project_GetProjectEventsOnPersonRequest
+  nameWithType: Project_GetProjectEventsOnPersonRequest
+  fullName: SuperOffice.WebApi.Data.Project_GetProjectEventsOnPersonRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Project_GetProjectEventsOnPersonRequest : Object'
+    content.vb: >-
+      Public Class Project_GetProjectEventsOnPersonRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Project_GetProjectEventsOnPersonRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Project_GetProjectEventsOnPersonRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Project_GetProjectEventsOnPersonRequest
+  langs:
+  - csharp
+  - vb
+  name: Project_GetProjectEventsOnPersonRequest()
+  nameWithType: Project_GetProjectEventsOnPersonRequest.Project_GetProjectEventsOnPersonRequest()
+  fullName: SuperOffice.WebApi.Data.Project_GetProjectEventsOnPersonRequest.Project_GetProjectEventsOnPersonRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Project_GetProjectEventsOnPersonRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Project_GetProjectEventsOnPersonRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Project_GetProjectEventsOnPersonRequest.PersonId
+  commentId: P:SuperOffice.WebApi.Data.Project_GetProjectEventsOnPersonRequest.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.Project_GetProjectEventsOnPersonRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: Project_GetProjectEventsOnPersonRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Project_GetProjectEventsOnPersonRequest.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.Project_GetProjectEventsOnPersonRequest.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Project_GetProjectEventsOnPersonRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_GetProjectEventsOnPersonRequest.#ctor
+  isExternal: true
+  name: Project_GetProjectEventsOnPersonRequest
+  nameWithType: Project_GetProjectEventsOnPersonRequest.Project_GetProjectEventsOnPersonRequest
+  fullName: SuperOffice.WebApi.Data.Project_GetProjectEventsOnPersonRequest.Project_GetProjectEventsOnPersonRequest
+- uid: SuperOffice.WebApi.Data.Project_GetProjectEventsOnPersonRequest.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_GetProjectEventsOnPersonRequest.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: Project_GetProjectEventsOnPersonRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Project_GetProjectEventsOnPersonRequest.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

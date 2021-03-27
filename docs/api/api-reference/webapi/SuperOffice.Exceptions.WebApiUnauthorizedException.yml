@@ -1,0 +1,242 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Exceptions.WebApiUnauthorizedException
+  commentId: T:SuperOffice.Exceptions.WebApiUnauthorizedException
+  id: WebApiUnauthorizedException
+  parent: SuperOffice.Exceptions
+  children:
+  - SuperOffice.Exceptions.WebApiUnauthorizedException.#ctor
+  - SuperOffice.Exceptions.WebApiUnauthorizedException.#ctor(System.String)
+  - SuperOffice.Exceptions.WebApiUnauthorizedException.#ctor(System.String,System.Exception)
+  - SuperOffice.Exceptions.WebApiUnauthorizedException.#ctor(System.String,System.String,System.Net.Http.Headers.HttpResponseHeaders,System.String)
+  langs:
+  - csharp
+  - vb
+  name: WebApiUnauthorizedException
+  nameWithType: WebApiUnauthorizedException
+  fullName: SuperOffice.Exceptions.WebApiUnauthorizedException
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.Exceptions
+  summary: "\nThrown when auth not accepted. Contains the HTTP error and headers and any body we can read.\n"
+  syntax:
+    content: 'public class WebApiUnauthorizedException : WebApiException'
+    content.vb: >-
+      Public Class WebApiUnauthorizedException
+          Inherits WebApiException
+  inheritance:
+  - System.Object
+  - SuperOffice.Exceptions.WebApiException
+  inheritedMembers:
+  - SuperOffice.Exceptions.WebApiException.Request
+  - SuperOffice.Exceptions.WebApiException.Headers
+  - SuperOffice.Exceptions.WebApiException.Body
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Exceptions.WebApiUnauthorizedException.#ctor
+  commentId: M:SuperOffice.Exceptions.WebApiUnauthorizedException.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Exceptions.WebApiUnauthorizedException
+  langs:
+  - csharp
+  - vb
+  name: WebApiUnauthorizedException()
+  nameWithType: WebApiUnauthorizedException.WebApiUnauthorizedException()
+  fullName: SuperOffice.Exceptions.WebApiUnauthorizedException.WebApiUnauthorizedException()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.Exceptions
+  summary: "\nDefault - all blank\n"
+  syntax:
+    content: public WebApiUnauthorizedException()
+    content.vb: Public Sub New
+  overload: SuperOffice.Exceptions.WebApiUnauthorizedException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Exceptions.WebApiUnauthorizedException.#ctor(System.String)
+  commentId: M:SuperOffice.Exceptions.WebApiUnauthorizedException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.Exceptions.WebApiUnauthorizedException
+  langs:
+  - csharp
+  - vb
+  name: WebApiUnauthorizedException(String)
+  nameWithType: WebApiUnauthorizedException.WebApiUnauthorizedException(String)
+  fullName: SuperOffice.Exceptions.WebApiUnauthorizedException.WebApiUnauthorizedException(System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.Exceptions
+  summary: "\nMessage\n"
+  syntax:
+    content: public WebApiUnauthorizedException(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: '&quot;halp!&quot;'
+    content.vb: Public Sub New(message As String)
+  overload: SuperOffice.Exceptions.WebApiUnauthorizedException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Exceptions.WebApiUnauthorizedException.#ctor(System.String,System.Exception)
+  commentId: M:SuperOffice.Exceptions.WebApiUnauthorizedException.#ctor(System.String,System.Exception)
+  id: '#ctor(System.String,System.Exception)'
+  parent: SuperOffice.Exceptions.WebApiUnauthorizedException
+  langs:
+  - csharp
+  - vb
+  name: WebApiUnauthorizedException(String, Exception)
+  nameWithType: WebApiUnauthorizedException.WebApiUnauthorizedException(String, Exception)
+  fullName: SuperOffice.Exceptions.WebApiUnauthorizedException.WebApiUnauthorizedException(System.String, System.Exception)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.Exceptions
+  summary: "\nWrapper\n"
+  syntax:
+    content: public WebApiUnauthorizedException(string message, Exception innerException)
+    parameters:
+    - id: message
+      type: System.String
+      description: '&quot;Halp!&quot;'
+    - id: innerException
+      type: System.Exception
+      description: the real problem
+    content.vb: Public Sub New(message As String, innerException As Exception)
+  overload: SuperOffice.Exceptions.WebApiUnauthorizedException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Exceptions.WebApiUnauthorizedException.#ctor(System.String,System.String,System.Net.Http.Headers.HttpResponseHeaders,System.String)
+  commentId: M:SuperOffice.Exceptions.WebApiUnauthorizedException.#ctor(System.String,System.String,System.Net.Http.Headers.HttpResponseHeaders,System.String)
+  id: '#ctor(System.String,System.String,System.Net.Http.Headers.HttpResponseHeaders,System.String)'
+  parent: SuperOffice.Exceptions.WebApiUnauthorizedException
+  langs:
+  - csharp
+  - vb
+  name: WebApiUnauthorizedException(String, String, HttpResponseHeaders, String)
+  nameWithType: WebApiUnauthorizedException.WebApiUnauthorizedException(String, String, HttpResponseHeaders, String)
+  fullName: SuperOffice.Exceptions.WebApiUnauthorizedException.WebApiUnauthorizedException(System.String, System.String, System.Net.Http.Headers.HttpResponseHeaders, System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.Exceptions
+  summary: "\nDetails\n"
+  syntax:
+    content: public WebApiUnauthorizedException(string message, string request, HttpResponseHeaders responseHeaders, string body)
+    parameters:
+    - id: message
+      type: System.String
+      description: '&quot;Halp!&quot;'
+    - id: request
+      type: System.String
+      description: HTTP Request that triggered problem
+    - id: responseHeaders
+      type: System.Net.Http.Headers.HttpResponseHeaders
+      description: HTTP Response headers from failed request. Might contain clues.
+    - id: body
+      type: System.String
+      description: body (if any) of response. Might contain JSON
+    content.vb: Public Sub New(message As String, request As String, responseHeaders As HttpResponseHeaders, body As String)
+  overload: SuperOffice.Exceptions.WebApiUnauthorizedException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Exceptions
+  commentId: N:SuperOffice.Exceptions
+  isExternal: true
+  name: SuperOffice.Exceptions
+  nameWithType: SuperOffice.Exceptions
+  fullName: SuperOffice.Exceptions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Exceptions.WebApiException
+  commentId: T:SuperOffice.Exceptions.WebApiException
+  parent: SuperOffice.Exceptions
+  isExternal: true
+  name: WebApiException
+  nameWithType: WebApiException
+  fullName: SuperOffice.Exceptions.WebApiException
+- uid: SuperOffice.Exceptions.WebApiException.Request
+  commentId: P:SuperOffice.Exceptions.WebApiException.Request
+  parent: SuperOffice.Exceptions.WebApiException
+  isExternal: true
+  name: Request
+  nameWithType: WebApiException.Request
+  fullName: SuperOffice.Exceptions.WebApiException.Request
+- uid: SuperOffice.Exceptions.WebApiException.Headers
+  commentId: P:SuperOffice.Exceptions.WebApiException.Headers
+  parent: SuperOffice.Exceptions.WebApiException
+  isExternal: true
+  name: Headers
+  nameWithType: WebApiException.Headers
+  fullName: SuperOffice.Exceptions.WebApiException.Headers
+- uid: SuperOffice.Exceptions.WebApiException.Body
+  commentId: P:SuperOffice.Exceptions.WebApiException.Body
+  parent: SuperOffice.Exceptions.WebApiException
+  isExternal: true
+  name: Body
+  nameWithType: WebApiException.Body
+  fullName: SuperOffice.Exceptions.WebApiException.Body
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Exceptions.WebApiUnauthorizedException.#ctor*
+  commentId: Overload:SuperOffice.Exceptions.WebApiUnauthorizedException.#ctor
+  isExternal: true
+  name: WebApiUnauthorizedException
+  nameWithType: WebApiUnauthorizedException.WebApiUnauthorizedException
+  fullName: SuperOffice.Exceptions.WebApiUnauthorizedException.WebApiUnauthorizedException
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Exception
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.Net.Http.Headers.HttpResponseHeaders
+  isExternal: true
+  name: HttpResponseHeaders
+  nameWithType: HttpResponseHeaders
+  fullName: System.Net.Http.Headers.HttpResponseHeaders

@@ -1,0 +1,546 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.DiaryViewEntity
+  commentId: T:SuperOffice.CRM.Services.DiaryViewEntity
+  id: DiaryViewEntity
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.DiaryViewEntity.#ctor
+  - SuperOffice.CRM.Services.DiaryViewEntity.AssociateList
+  - SuperOffice.CRM.Services.DiaryViewEntity.AssocId
+  - SuperOffice.CRM.Services.DiaryViewEntity.DiaryViewId
+  - SuperOffice.CRM.Services.DiaryViewEntity.Name
+  - SuperOffice.CRM.Services.DiaryViewEntity.Rank
+  - SuperOffice.CRM.Services.DiaryViewEntity.Tooltip
+  - SuperOffice.CRM.Services.DiaryViewEntity.ToString
+  - SuperOffice.CRM.Services.DiaryViewEntity.ToString(System.String)
+  - SuperOffice.CRM.Services.DiaryViewEntity.TzLocationId
+  - SuperOffice.CRM.Services.DiaryViewEntity.VisibleColumns
+  langs:
+  - csharp
+  - vb
+  name: DiaryViewEntity
+  nameWithType: DiaryViewEntity
+  fullName: SuperOffice.CRM.Services.DiaryViewEntity
+  type: Class
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe DiaryView Service. The service implements all services working with the DiaryView object.\n<p></p>\nCarrier object for DiaryViewEntity.\nServices for the DiaryViewEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IConfigurationAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet DiaryViewEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ConfigurationAgent();\n    var diaryViewEntity = agent.GetDiaryViewEntity( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class DiaryViewEntity : Carrier'
+    content.vb: >-
+      Public Class DiaryViewEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ConfigurationAgent
+    commentId: T:SuperOffice.CRM.Services.ConfigurationAgent
+  - linkId: SuperOffice.CRM.Services.IConfigurationAgent
+    commentId: T:SuperOffice.CRM.Services.IConfigurationAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.DiaryViewEntity.#ctor
+  commentId: M:SuperOffice.CRM.Services.DiaryViewEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.DiaryViewEntity
+  langs:
+  - csharp
+  - vb
+  name: DiaryViewEntity()
+  nameWithType: DiaryViewEntity.DiaryViewEntity()
+  fullName: SuperOffice.CRM.Services.DiaryViewEntity.DiaryViewEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public DiaryViewEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.DiaryViewEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DiaryViewEntity.ToString
+  commentId: M:SuperOffice.CRM.Services.DiaryViewEntity.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.DiaryViewEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: DiaryViewEntity.ToString()
+  fullName: SuperOffice.CRM.Services.DiaryViewEntity.ToString()
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.DiaryViewEntity.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.DiaryViewEntity.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.DiaryViewEntity.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.DiaryViewEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: DiaryViewEntity.ToString(String)
+  fullName: SuperOffice.CRM.Services.DiaryViewEntity.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.DiaryViewEntity.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DiaryViewEntity.DiaryViewId
+  commentId: P:SuperOffice.CRM.Services.DiaryViewEntity.DiaryViewId
+  id: DiaryViewId
+  parent: SuperOffice.CRM.Services.DiaryViewEntity
+  langs:
+  - csharp
+  - vb
+  name: DiaryViewId
+  nameWithType: DiaryViewEntity.DiaryViewId
+  fullName: SuperOffice.CRM.Services.DiaryViewEntity.DiaryViewId
+  type: Property
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nId of the DiaryView \n"
+  syntax:
+    content: public virtual int DiaryViewId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DiaryViewId As Integer
+  overload: SuperOffice.CRM.Services.DiaryViewEntity.DiaryViewId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DiaryViewEntity.Name
+  commentId: P:SuperOffice.CRM.Services.DiaryViewEntity.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.DiaryViewEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DiaryViewEntity.Name
+  fullName: SuperOffice.CRM.Services.DiaryViewEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of the DiaryView. \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.DiaryViewEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DiaryViewEntity.Tooltip
+  commentId: P:SuperOffice.CRM.Services.DiaryViewEntity.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Services.DiaryViewEntity
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: DiaryViewEntity.Tooltip
+  fullName: SuperOffice.CRM.Services.DiaryViewEntity.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTooltip/description of the DiaryView \n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.CRM.Services.DiaryViewEntity.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DiaryViewEntity.VisibleColumns
+  commentId: P:SuperOffice.CRM.Services.DiaryViewEntity.VisibleColumns
+  id: VisibleColumns
+  parent: SuperOffice.CRM.Services.DiaryViewEntity
+  langs:
+  - csharp
+  - vb
+  name: VisibleColumns
+  nameWithType: DiaryViewEntity.VisibleColumns
+  fullName: SuperOffice.CRM.Services.DiaryViewEntity.VisibleColumns
+  type: Property
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNumber of columns that should be visible simultanously. \n"
+  syntax:
+    content: public virtual short VisibleColumns { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property VisibleColumns As Short
+  overload: SuperOffice.CRM.Services.DiaryViewEntity.VisibleColumns*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DiaryViewEntity.Rank
+  commentId: P:SuperOffice.CRM.Services.DiaryViewEntity.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Services.DiaryViewEntity
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DiaryViewEntity.Rank
+  fullName: SuperOffice.CRM.Services.DiaryViewEntity.Rank
+  type: Property
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDiaryView rank. \n"
+  syntax:
+    content: public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Rank As Short
+  overload: SuperOffice.CRM.Services.DiaryViewEntity.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DiaryViewEntity.AssocId
+  commentId: P:SuperOffice.CRM.Services.DiaryViewEntity.AssocId
+  id: AssocId
+  parent: SuperOffice.CRM.Services.DiaryViewEntity
+  langs:
+  - csharp
+  - vb
+  name: AssocId
+  nameWithType: DiaryViewEntity.AssocId
+  fullName: SuperOffice.CRM.Services.DiaryViewEntity.AssocId
+  type: Property
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOwning associate id for the DiaryView. \n"
+  syntax:
+    content: public virtual int AssocId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssocId As Integer
+  overload: SuperOffice.CRM.Services.DiaryViewEntity.AssocId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DiaryViewEntity.AssociateList
+  commentId: P:SuperOffice.CRM.Services.DiaryViewEntity.AssociateList
+  id: AssociateList
+  parent: SuperOffice.CRM.Services.DiaryViewEntity
+  langs:
+  - csharp
+  - vb
+  name: AssociateList
+  nameWithType: DiaryViewEntity.AssociateList
+  fullName: SuperOffice.CRM.Services.DiaryViewEntity.AssociateList
+  type: Property
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual SelectableMDOListItem[] AssociateList { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+    content.vb: Public Overridable Property AssociateList As SelectableMDOListItem()
+  overload: SuperOffice.CRM.Services.DiaryViewEntity.AssociateList*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DiaryViewEntity.TzLocationId
+  commentId: P:SuperOffice.CRM.Services.DiaryViewEntity.TzLocationId
+  id: TzLocationId
+  parent: SuperOffice.CRM.Services.DiaryViewEntity
+  langs:
+  - csharp
+  - vb
+  name: TzLocationId
+  nameWithType: DiaryViewEntity.TzLocationId
+  fullName: SuperOffice.CRM.Services.DiaryViewEntity.TzLocationId
+  type: Property
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault timezone location for this view \n"
+  syntax:
+    content: public virtual int TzLocationId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TzLocationId As Integer
+  overload: SuperOffice.CRM.Services.DiaryViewEntity.TzLocationId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.ConfigurationAgent
+  commentId: T:SuperOffice.CRM.Services.ConfigurationAgent
+  isExternal: true
+  name: ConfigurationAgent
+  nameWithType: ConfigurationAgent
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent
+- uid: SuperOffice.CRM.Services.IConfigurationAgent
+  commentId: T:SuperOffice.CRM.Services.IConfigurationAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IConfigurationAgent
+  nameWithType: IConfigurationAgent
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.DiaryViewEntity.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.DiaryViewEntity.#ctor
+  isExternal: true
+  name: DiaryViewEntity
+  nameWithType: DiaryViewEntity.DiaryViewEntity
+  fullName: SuperOffice.CRM.Services.DiaryViewEntity.DiaryViewEntity
+- uid: SuperOffice.CRM.Services.DiaryViewEntity.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.DiaryViewEntity.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: DiaryViewEntity.ToString
+  fullName: SuperOffice.CRM.Services.DiaryViewEntity.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.DiaryViewEntity.DiaryViewId*
+  commentId: Overload:SuperOffice.CRM.Services.DiaryViewEntity.DiaryViewId
+  isExternal: true
+  name: DiaryViewId
+  nameWithType: DiaryViewEntity.DiaryViewId
+  fullName: SuperOffice.CRM.Services.DiaryViewEntity.DiaryViewId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.DiaryViewEntity.Name*
+  commentId: Overload:SuperOffice.CRM.Services.DiaryViewEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: DiaryViewEntity.Name
+  fullName: SuperOffice.CRM.Services.DiaryViewEntity.Name
+- uid: SuperOffice.CRM.Services.DiaryViewEntity.Tooltip*
+  commentId: Overload:SuperOffice.CRM.Services.DiaryViewEntity.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: DiaryViewEntity.Tooltip
+  fullName: SuperOffice.CRM.Services.DiaryViewEntity.Tooltip
+- uid: SuperOffice.CRM.Services.DiaryViewEntity.VisibleColumns*
+  commentId: Overload:SuperOffice.CRM.Services.DiaryViewEntity.VisibleColumns
+  isExternal: true
+  name: VisibleColumns
+  nameWithType: DiaryViewEntity.VisibleColumns
+  fullName: SuperOffice.CRM.Services.DiaryViewEntity.VisibleColumns
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Services.DiaryViewEntity.Rank*
+  commentId: Overload:SuperOffice.CRM.Services.DiaryViewEntity.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: DiaryViewEntity.Rank
+  fullName: SuperOffice.CRM.Services.DiaryViewEntity.Rank
+- uid: SuperOffice.CRM.Services.DiaryViewEntity.AssocId*
+  commentId: Overload:SuperOffice.CRM.Services.DiaryViewEntity.AssocId
+  isExternal: true
+  name: AssocId
+  nameWithType: DiaryViewEntity.AssocId
+  fullName: SuperOffice.CRM.Services.DiaryViewEntity.AssocId
+- uid: SuperOffice.CRM.Services.DiaryViewEntity.AssociateList*
+  commentId: Overload:SuperOffice.CRM.Services.DiaryViewEntity.AssociateList
+  isExternal: true
+  name: AssociateList
+  nameWithType: DiaryViewEntity.AssociateList
+  fullName: SuperOffice.CRM.Services.DiaryViewEntity.AssociateList
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem[]
+  isExternal: true
+  name: SelectableMDOListItem[]
+  nameWithType: SelectableMDOListItem[]
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem[]
+  nameWithType.vb: SelectableMDOListItem()
+  fullName.vb: SuperOffice.CRM.Services.SelectableMDOListItem()
+  name.vb: SelectableMDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.DiaryViewEntity.TzLocationId*
+  commentId: Overload:SuperOffice.CRM.Services.DiaryViewEntity.TzLocationId
+  isExternal: true
+  name: TzLocationId
+  nameWithType: DiaryViewEntity.TzLocationId
+  fullName: SuperOffice.CRM.Services.DiaryViewEntity.TzLocationId

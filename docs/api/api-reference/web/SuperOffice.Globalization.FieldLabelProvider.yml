@@ -1,0 +1,793 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Globalization.FieldLabelProvider
+  commentId: T:SuperOffice.Globalization.FieldLabelProvider
+  id: FieldLabelProvider
+  parent: SuperOffice.Globalization
+  children:
+  - SuperOffice.Globalization.FieldLabelProvider.#ctor
+  - SuperOffice.Globalization.FieldLabelProvider.CanInitialize
+  - SuperOffice.Globalization.FieldLabelProvider.FindResourceStrings(System.String,System.String)
+  - SuperOffice.Globalization.FieldLabelProvider.GetAllTranslatedResourceStrings(System.String)
+  - SuperOffice.Globalization.FieldLabelProvider.GetResource(System.String)
+  - SuperOffice.Globalization.FieldLabelProvider.GetResource(System.String,System.String)
+  - SuperOffice.Globalization.FieldLabelProvider.GetSupportedLanguages
+  - SuperOffice.Globalization.FieldLabelProvider.Initialize
+  - SuperOffice.Globalization.FieldLabelProvider.IsActive
+  - SuperOffice.Globalization.FieldLabelProvider.Refresh
+  langs:
+  - csharp
+  - vb
+  name: FieldLabelProvider
+  nameWithType: FieldLabelProvider
+  fullName: SuperOffice.Globalization.FieldLabelProvider
+  type: Class
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nProvider class reading resources from the CRM database&apos;s Field label system.\nWhen defined in the Client section of the config file, classes of this type will be loaded as providers for text resources\n"
+  syntax:
+    content: 'public class FieldLabelProvider : IResourceProvider, IPlugin, ISearchableResourceProvider, ITranslatedResourceProvider'
+    content.vb: >-
+      Public Class FieldLabelProvider
+          Implements IResourceProvider, IPlugin, ISearchableResourceProvider, ITranslatedResourceProvider
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Globalization.IResourceProvider
+  - SuperOffice.Factory.IPlugin
+  - SuperOffice.Globalization.ISearchableResourceProvider
+  - SuperOffice.Globalization.ITranslatedResourceProvider
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Globalization.FieldLabelProvider.CanInitialize
+  commentId: M:SuperOffice.Globalization.FieldLabelProvider.CanInitialize
+  id: CanInitialize
+  parent: SuperOffice.Globalization.FieldLabelProvider
+  langs:
+  - csharp
+  - vb
+  name: CanInitialize()
+  nameWithType: FieldLabelProvider.CanInitialize()
+  fullName: SuperOffice.Globalization.FieldLabelProvider.CanInitialize()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nThis provider can be initialized and put into use once we are authenticated and\nhave a valid conenction to the database; calling it earlier would force an implicit\nlogin (anonymous maybe) and that is not something we want to happen.\n"
+  syntax:
+    content: public bool CanInitialize()
+    return:
+      type: System.Boolean
+    content.vb: Public Function CanInitialize As Boolean
+  overload: SuperOffice.Globalization.FieldLabelProvider.CanInitialize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Globalization.FieldLabelProvider.Initialize
+  commentId: M:SuperOffice.Globalization.FieldLabelProvider.Initialize
+  id: Initialize
+  parent: SuperOffice.Globalization.FieldLabelProvider
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: FieldLabelProvider.Initialize()
+  fullName: SuperOffice.Globalization.FieldLabelProvider.Initialize()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nInitializes the provider\nThis method is called when the provider is loaded by the ResourceManager. \nTo improve performance frequently used data should be loaded into memory here.\n"
+  syntax:
+    content: public void Initialize()
+    content.vb: Public Sub Initialize
+  overload: SuperOffice.Globalization.FieldLabelProvider.Initialize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Globalization.FieldLabelProvider.GetSupportedLanguages
+  commentId: M:SuperOffice.Globalization.FieldLabelProvider.GetSupportedLanguages
+  id: GetSupportedLanguages
+  parent: SuperOffice.Globalization.FieldLabelProvider
+  langs:
+  - csharp
+  - vb
+  name: GetSupportedLanguages()
+  nameWithType: FieldLabelProvider.GetSupportedLanguages()
+  fullName: SuperOffice.Globalization.FieldLabelProvider.GetSupportedLanguages()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  syntax:
+    content: public CultureInfo[] GetSupportedLanguages()
+    return:
+      type: System.Globalization.CultureInfo[]
+    content.vb: Public Function GetSupportedLanguages As CultureInfo()
+  overload: SuperOffice.Globalization.FieldLabelProvider.GetSupportedLanguages*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Globalization.FieldLabelProvider.GetResource(System.String)
+  commentId: M:SuperOffice.Globalization.FieldLabelProvider.GetResource(System.String)
+  id: GetResource(System.String)
+  parent: SuperOffice.Globalization.FieldLabelProvider
+  langs:
+  - csharp
+  - vb
+  name: GetResource(String)
+  nameWithType: FieldLabelProvider.GetResource(String)
+  fullName: SuperOffice.Globalization.FieldLabelProvider.GetResource(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nReturns a string from this provider in the current culture\n"
+  syntax:
+    content: public string GetResource(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the resource/resource symbol
+    return:
+      type: System.String
+      description: The resource string
+    content.vb: Public Function GetResource(name As String) As String
+  overload: SuperOffice.Globalization.FieldLabelProvider.GetResource*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Globalization.FieldLabelProvider.GetResource(System.String,System.String)
+  commentId: M:SuperOffice.Globalization.FieldLabelProvider.GetResource(System.String,System.String)
+  id: GetResource(System.String,System.String)
+  parent: SuperOffice.Globalization.FieldLabelProvider
+  langs:
+  - csharp
+  - vb
+  name: GetResource(String, String)
+  nameWithType: FieldLabelProvider.GetResource(String, String)
+  fullName: SuperOffice.Globalization.FieldLabelProvider.GetResource(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nReturns a string from this provider in the specified culture\n"
+  syntax:
+    content: public string GetResource(string name, string cultureName)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the resource/resource symbol
+    - id: cultureName
+      type: System.String
+      description: The name of the culture in the form en-US, nb-NO
+    return:
+      type: System.String
+      description: The resource string
+    content.vb: Public Function GetResource(name As String, cultureName As String) As String
+  overload: SuperOffice.Globalization.FieldLabelProvider.GetResource*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Globalization.FieldLabelProvider.FindResourceStrings(System.String,System.String)
+  commentId: M:SuperOffice.Globalization.FieldLabelProvider.FindResourceStrings(System.String,System.String)
+  id: FindResourceStrings(System.String,System.String)
+  parent: SuperOffice.Globalization.FieldLabelProvider
+  langs:
+  - csharp
+  - vb
+  name: FindResourceStrings(String, String)
+  nameWithType: FieldLabelProvider.FindResourceStrings(String, String)
+  fullName: SuperOffice.Globalization.FieldLabelProvider.FindResourceStrings(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  syntax:
+    content: public string[] FindResourceStrings(string searchString, string cultureName)
+    parameters:
+    - id: searchString
+      type: System.String
+    - id: cultureName
+      type: System.String
+    return:
+      type: System.String[]
+    content.vb: Public Function FindResourceStrings(searchString As String, cultureName As String) As String()
+  overload: SuperOffice.Globalization.FieldLabelProvider.FindResourceStrings*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Globalization.FieldLabelProvider.GetAllTranslatedResourceStrings(System.String)
+  commentId: M:SuperOffice.Globalization.FieldLabelProvider.GetAllTranslatedResourceStrings(System.String)
+  id: GetAllTranslatedResourceStrings(System.String)
+  parent: SuperOffice.Globalization.FieldLabelProvider
+  langs:
+  - csharp
+  - vb
+  name: GetAllTranslatedResourceStrings(String)
+  nameWithType: FieldLabelProvider.GetAllTranslatedResourceStrings(String)
+  fullName: SuperOffice.Globalization.FieldLabelProvider.GetAllTranslatedResourceStrings(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  syntax:
+    content: public string[] GetAllTranslatedResourceStrings(string cultureName)
+    parameters:
+    - id: cultureName
+      type: System.String
+    return:
+      type: System.String[]
+    content.vb: Public Function GetAllTranslatedResourceStrings(cultureName As String) As String()
+  overload: SuperOffice.Globalization.FieldLabelProvider.GetAllTranslatedResourceStrings*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Globalization.FieldLabelProvider.Refresh
+  commentId: M:SuperOffice.Globalization.FieldLabelProvider.Refresh
+  id: Refresh
+  parent: SuperOffice.Globalization.FieldLabelProvider
+  langs:
+  - csharp
+  - vb
+  name: Refresh()
+  nameWithType: FieldLabelProvider.Refresh()
+  fullName: SuperOffice.Globalization.FieldLabelProvider.Refresh()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  syntax:
+    content: public void Refresh()
+    content.vb: Public Sub Refresh
+  overload: SuperOffice.Globalization.FieldLabelProvider.Refresh*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Globalization.FieldLabelProvider.#ctor
+  commentId: M:SuperOffice.Globalization.FieldLabelProvider.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Globalization.FieldLabelProvider
+  langs:
+  - csharp
+  - vb
+  name: FieldLabelProvider()
+  nameWithType: FieldLabelProvider.FieldLabelProvider()
+  fullName: SuperOffice.Globalization.FieldLabelProvider.FieldLabelProvider()
+  type: Constructor
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  syntax:
+    content: public FieldLabelProvider()
+    content.vb: Public Sub New
+  overload: SuperOffice.Globalization.FieldLabelProvider.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Globalization.FieldLabelProvider.IsActive
+  commentId: P:SuperOffice.Globalization.FieldLabelProvider.IsActive
+  id: IsActive
+  parent: SuperOffice.Globalization.FieldLabelProvider
+  langs:
+  - csharp
+  - vb
+  name: IsActive
+  nameWithType: FieldLabelProvider.IsActive
+  fullName: SuperOffice.Globalization.FieldLabelProvider.IsActive
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Globalization
+  summary: "\nWhen false, the field label provider will not look up anything. Always returns NULL.\nDefault TRUE.\n"
+  syntax:
+    content: public static bool IsActive { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared WriteOnly Property IsActive As Boolean
+  overload: SuperOffice.Globalization.FieldLabelProvider.IsActive*
+  modifiers.csharp:
+  - public
+  - static
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+  - WriteOnly
+references:
+- uid: SuperOffice.Globalization
+  commentId: N:SuperOffice.Globalization
+  isExternal: true
+  name: SuperOffice.Globalization
+  nameWithType: SuperOffice.Globalization
+  fullName: SuperOffice.Globalization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Globalization.IResourceProvider
+  isExternal: true
+  name: IResourceProvider
+  nameWithType: IResourceProvider
+  fullName: SuperOffice.Globalization.IResourceProvider
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: SuperOffice.Globalization.ISearchableResourceProvider
+  commentId: '!:SuperOffice.Globalization.ISearchableResourceProvider'
+  isExternal: true
+  name: ISearchableResourceProvider
+  nameWithType: ISearchableResourceProvider
+  fullName: SuperOffice.Globalization.ISearchableResourceProvider
+- uid: SuperOffice.Globalization.ITranslatedResourceProvider
+  commentId: '!:SuperOffice.Globalization.ITranslatedResourceProvider'
+  isExternal: true
+  name: ITranslatedResourceProvider
+  nameWithType: ITranslatedResourceProvider
+  fullName: SuperOffice.Globalization.ITranslatedResourceProvider
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Globalization.FieldLabelProvider.CanInitialize*
+  commentId: Overload:SuperOffice.Globalization.FieldLabelProvider.CanInitialize
+  isExternal: true
+  name: CanInitialize
+  nameWithType: FieldLabelProvider.CanInitialize
+  fullName: SuperOffice.Globalization.FieldLabelProvider.CanInitialize
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Globalization.FieldLabelProvider.Initialize*
+  commentId: Overload:SuperOffice.Globalization.FieldLabelProvider.Initialize
+  isExternal: true
+  name: Initialize
+  nameWithType: FieldLabelProvider.Initialize
+  fullName: SuperOffice.Globalization.FieldLabelProvider.Initialize
+- uid: SuperOffice.Globalization.FieldLabelProvider.GetSupportedLanguages*
+  commentId: Overload:SuperOffice.Globalization.FieldLabelProvider.GetSupportedLanguages
+  isExternal: true
+  name: GetSupportedLanguages
+  nameWithType: FieldLabelProvider.GetSupportedLanguages
+  fullName: SuperOffice.Globalization.FieldLabelProvider.GetSupportedLanguages
+- uid: System.Globalization.CultureInfo[]
+  isExternal: true
+  name: CultureInfo[]
+  nameWithType: CultureInfo[]
+  fullName: System.Globalization.CultureInfo[]
+  nameWithType.vb: CultureInfo()
+  fullName.vb: System.Globalization.CultureInfo()
+  name.vb: CultureInfo()
+  spec.csharp:
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Globalization.FieldLabelProvider.GetResource*
+  commentId: Overload:SuperOffice.Globalization.FieldLabelProvider.GetResource
+  isExternal: true
+  name: GetResource
+  nameWithType: FieldLabelProvider.GetResource
+  fullName: SuperOffice.Globalization.FieldLabelProvider.GetResource
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Globalization.FieldLabelProvider.FindResourceStrings*
+  commentId: Overload:SuperOffice.Globalization.FieldLabelProvider.FindResourceStrings
+  isExternal: true
+  name: FindResourceStrings
+  nameWithType: FieldLabelProvider.FindResourceStrings
+  fullName: SuperOffice.Globalization.FieldLabelProvider.FindResourceStrings
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Globalization.FieldLabelProvider.GetAllTranslatedResourceStrings*
+  commentId: Overload:SuperOffice.Globalization.FieldLabelProvider.GetAllTranslatedResourceStrings
+  isExternal: true
+  name: GetAllTranslatedResourceStrings
+  nameWithType: FieldLabelProvider.GetAllTranslatedResourceStrings
+  fullName: SuperOffice.Globalization.FieldLabelProvider.GetAllTranslatedResourceStrings
+- uid: SuperOffice.Globalization.FieldLabelProvider.Refresh*
+  commentId: Overload:SuperOffice.Globalization.FieldLabelProvider.Refresh
+  isExternal: true
+  name: Refresh
+  nameWithType: FieldLabelProvider.Refresh
+  fullName: SuperOffice.Globalization.FieldLabelProvider.Refresh
+- uid: SuperOffice.Globalization.FieldLabelProvider.#ctor*
+  commentId: Overload:SuperOffice.Globalization.FieldLabelProvider.#ctor
+  isExternal: true
+  name: FieldLabelProvider
+  nameWithType: FieldLabelProvider.FieldLabelProvider
+  fullName: SuperOffice.Globalization.FieldLabelProvider.FieldLabelProvider
+- uid: SuperOffice.Globalization.FieldLabelProvider.IsActive*
+  commentId: Overload:SuperOffice.Globalization.FieldLabelProvider.IsActive
+  isExternal: true
+  name: IsActive
+  nameWithType: FieldLabelProvider.IsActive
+  fullName: SuperOffice.Globalization.FieldLabelProvider.IsActive

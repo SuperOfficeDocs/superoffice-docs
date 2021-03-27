@@ -1,0 +1,567 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.Satellite
+  commentId: T:SuperOffice.CRM.Services.Satellite
+  id: Satellite
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.Satellite.#ctor
+  - SuperOffice.CRM.Services.Satellite.Area
+  - SuperOffice.CRM.Services.Satellite.Contact
+  - SuperOffice.CRM.Services.Satellite.Created
+  - SuperOffice.CRM.Services.Satellite.CreatedBy
+  - SuperOffice.CRM.Services.Satellite.LicenseOwners
+  - SuperOffice.CRM.Services.Satellite.SatelliteId
+  - SuperOffice.CRM.Services.Satellite.ToString
+  - SuperOffice.CRM.Services.Satellite.ToString(System.String)
+  - SuperOffice.CRM.Services.Satellite.Updated
+  - SuperOffice.CRM.Services.Satellite.UpdatedBy
+  langs:
+  - csharp
+  - vb
+  name: Satellite
+  nameWithType: Satellite
+  fullName: SuperOffice.CRM.Services.Satellite
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for Satellite.\nServices for the Satellite Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IReplicationAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet Satellite 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ReplicationAgent();\n    var satellite = agent.GetSatellite( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class Satellite : Carrier'
+    content.vb: >-
+      Public Class Satellite
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ReplicationAgent
+    commentId: T:SuperOffice.CRM.Services.ReplicationAgent
+  - linkId: SuperOffice.CRM.Services.IReplicationAgent
+    commentId: T:SuperOffice.CRM.Services.IReplicationAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.Satellite.#ctor
+  commentId: M:SuperOffice.CRM.Services.Satellite.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.Satellite
+  langs:
+  - csharp
+  - vb
+  name: Satellite()
+  nameWithType: Satellite.Satellite()
+  fullName: SuperOffice.CRM.Services.Satellite.Satellite()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public Satellite()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.Satellite.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Satellite.ToString
+  commentId: M:SuperOffice.CRM.Services.Satellite.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.Satellite
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Satellite.ToString()
+  fullName: SuperOffice.CRM.Services.Satellite.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.Satellite.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.Satellite.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.Satellite.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.Satellite
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: Satellite.ToString(String)
+  fullName: SuperOffice.CRM.Services.Satellite.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.Satellite.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Satellite.SatelliteId
+  commentId: P:SuperOffice.CRM.Services.Satellite.SatelliteId
+  id: SatelliteId
+  parent: SuperOffice.CRM.Services.Satellite
+  langs:
+  - csharp
+  - vb
+  name: SatelliteId
+  nameWithType: Satellite.SatelliteId
+  fullName: SuperOffice.CRM.Services.Satellite.SatelliteId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int SatelliteId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SatelliteId As Integer
+  overload: SuperOffice.CRM.Services.Satellite.SatelliteId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Satellite.Created
+  commentId: P:SuperOffice.CRM.Services.Satellite.Created
+  id: Created
+  parent: SuperOffice.CRM.Services.Satellite
+  langs:
+  - csharp
+  - vb
+  name: Created
+  nameWithType: Satellite.Created
+  fullName: SuperOffice.CRM.Services.Satellite.Created
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRegistered when  in UTC.\n"
+  syntax:
+    content: public virtual DateTime Created { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Created As Date
+  overload: SuperOffice.CRM.Services.Satellite.Created*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Satellite.CreatedBy
+  commentId: P:SuperOffice.CRM.Services.Satellite.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.CRM.Services.Satellite
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: Satellite.CreatedBy
+  fullName: SuperOffice.CRM.Services.Satellite.CreatedBy
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual Associate CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Associate
+    content.vb: Public Overridable Property CreatedBy As Associate
+  overload: SuperOffice.CRM.Services.Satellite.CreatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Satellite.Updated
+  commentId: P:SuperOffice.CRM.Services.Satellite.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Services.Satellite
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: Satellite.Updated
+  fullName: SuperOffice.CRM.Services.Satellite.Updated
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLast updated when  in UTC.\n"
+  syntax:
+    content: public virtual DateTime Updated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Updated As Date
+  overload: SuperOffice.CRM.Services.Satellite.Updated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Satellite.UpdatedBy
+  commentId: P:SuperOffice.CRM.Services.Satellite.UpdatedBy
+  id: UpdatedBy
+  parent: SuperOffice.CRM.Services.Satellite
+  langs:
+  - csharp
+  - vb
+  name: UpdatedBy
+  nameWithType: Satellite.UpdatedBy
+  fullName: SuperOffice.CRM.Services.Satellite.UpdatedBy
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual Associate UpdatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Associate
+    content.vb: Public Overridable Property UpdatedBy As Associate
+  overload: SuperOffice.CRM.Services.Satellite.UpdatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Satellite.Contact
+  commentId: P:SuperOffice.CRM.Services.Satellite.Contact
+  id: Contact
+  parent: SuperOffice.CRM.Services.Satellite
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: Satellite.Contact
+  fullName: SuperOffice.CRM.Services.Satellite.Contact
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual Contact Contact { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Contact
+    content.vb: Public Overridable Property Contact As Contact
+  overload: SuperOffice.CRM.Services.Satellite.Contact*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Satellite.Area
+  commentId: P:SuperOffice.CRM.Services.Satellite.Area
+  id: Area
+  parent: SuperOffice.CRM.Services.Satellite
+  langs:
+  - csharp
+  - vb
+  name: Area
+  nameWithType: Satellite.Area
+  fullName: SuperOffice.CRM.Services.Satellite.Area
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual Area Area { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Area
+    content.vb: Public Overridable Property Area As Area
+  overload: SuperOffice.CRM.Services.Satellite.Area*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Satellite.LicenseOwners
+  commentId: P:SuperOffice.CRM.Services.Satellite.LicenseOwners
+  id: LicenseOwners
+  parent: SuperOffice.CRM.Services.Satellite
+  langs:
+  - csharp
+  - vb
+  name: LicenseOwners
+  nameWithType: Satellite.LicenseOwners
+  fullName: SuperOffice.CRM.Services.Satellite.LicenseOwners
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user \n"
+  syntax:
+    content: public virtual LicenseOwner[] LicenseOwners { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.LicenseOwner[]
+    content.vb: Public Overridable Property LicenseOwners As LicenseOwner()
+  overload: SuperOffice.CRM.Services.Satellite.LicenseOwners*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.ReplicationAgent
+  commentId: T:SuperOffice.CRM.Services.ReplicationAgent
+  isExternal: true
+  name: ReplicationAgent
+  nameWithType: ReplicationAgent
+  fullName: SuperOffice.CRM.Services.ReplicationAgent
+- uid: SuperOffice.CRM.Services.IReplicationAgent
+  commentId: T:SuperOffice.CRM.Services.IReplicationAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IReplicationAgent
+  nameWithType: IReplicationAgent
+  fullName: SuperOffice.CRM.Services.IReplicationAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.Satellite.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.Satellite.#ctor
+  isExternal: true
+  name: Satellite
+  nameWithType: Satellite.Satellite
+  fullName: SuperOffice.CRM.Services.Satellite.Satellite
+- uid: SuperOffice.CRM.Services.Satellite.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.Satellite.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: Satellite.ToString
+  fullName: SuperOffice.CRM.Services.Satellite.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.Satellite.SatelliteId*
+  commentId: Overload:SuperOffice.CRM.Services.Satellite.SatelliteId
+  isExternal: true
+  name: SatelliteId
+  nameWithType: Satellite.SatelliteId
+  fullName: SuperOffice.CRM.Services.Satellite.SatelliteId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.Satellite.Created*
+  commentId: Overload:SuperOffice.CRM.Services.Satellite.Created
+  isExternal: true
+  name: Created
+  nameWithType: Satellite.Created
+  fullName: SuperOffice.CRM.Services.Satellite.Created
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.Satellite.CreatedBy*
+  commentId: Overload:SuperOffice.CRM.Services.Satellite.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: Satellite.CreatedBy
+  fullName: SuperOffice.CRM.Services.Satellite.CreatedBy
+- uid: SuperOffice.CRM.Services.Associate
+  commentId: T:SuperOffice.CRM.Services.Associate
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.CRM.Services.Associate
+- uid: SuperOffice.CRM.Services.Satellite.Updated*
+  commentId: Overload:SuperOffice.CRM.Services.Satellite.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: Satellite.Updated
+  fullName: SuperOffice.CRM.Services.Satellite.Updated
+- uid: SuperOffice.CRM.Services.Satellite.UpdatedBy*
+  commentId: Overload:SuperOffice.CRM.Services.Satellite.UpdatedBy
+  isExternal: true
+  name: UpdatedBy
+  nameWithType: Satellite.UpdatedBy
+  fullName: SuperOffice.CRM.Services.Satellite.UpdatedBy
+- uid: SuperOffice.CRM.Services.Satellite.Contact*
+  commentId: Overload:SuperOffice.CRM.Services.Satellite.Contact
+  isExternal: true
+  name: Contact
+  nameWithType: Satellite.Contact
+  fullName: SuperOffice.CRM.Services.Satellite.Contact
+- uid: SuperOffice.CRM.Services.Contact
+  commentId: T:SuperOffice.CRM.Services.Contact
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Contact
+  nameWithType: Contact
+  fullName: SuperOffice.CRM.Services.Contact
+- uid: SuperOffice.CRM.Services.Satellite.Area*
+  commentId: Overload:SuperOffice.CRM.Services.Satellite.Area
+  isExternal: true
+  name: Area
+  nameWithType: Satellite.Area
+  fullName: SuperOffice.CRM.Services.Satellite.Area
+- uid: SuperOffice.CRM.Services.Area
+  commentId: T:SuperOffice.CRM.Services.Area
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Area
+  nameWithType: Area
+  fullName: SuperOffice.CRM.Services.Area
+- uid: SuperOffice.CRM.Services.Satellite.LicenseOwners*
+  commentId: Overload:SuperOffice.CRM.Services.Satellite.LicenseOwners
+  isExternal: true
+  name: LicenseOwners
+  nameWithType: Satellite.LicenseOwners
+  fullName: SuperOffice.CRM.Services.Satellite.LicenseOwners
+- uid: SuperOffice.CRM.Services.LicenseOwner[]
+  isExternal: true
+  name: LicenseOwner[]
+  nameWithType: LicenseOwner[]
+  fullName: SuperOffice.CRM.Services.LicenseOwner[]
+  nameWithType.vb: LicenseOwner()
+  fullName.vb: SuperOffice.CRM.Services.LicenseOwner()
+  name.vb: LicenseOwner()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.LicenseOwner
+    name: LicenseOwner
+    nameWithType: LicenseOwner
+    fullName: SuperOffice.CRM.Services.LicenseOwner
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.LicenseOwner
+    name: LicenseOwner
+    nameWithType: LicenseOwner
+    fullName: SuperOffice.CRM.Services.LicenseOwner
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

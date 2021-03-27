@@ -1,0 +1,419 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient
+  commentId: T:SuperOffice.WebApi.IdentityModel.SystemUserClient
+  id: SystemUserClient
+  parent: SuperOffice.WebApi.IdentityModel
+  children:
+  - SuperOffice.WebApi.IdentityModel.SystemUserClient.#ctor(Microsoft.Extensions.Logging.ILogger)
+  - SuperOffice.WebApi.IdentityModel.SystemUserClient.#ctor(SuperOffice.WebApi.IdentityModel.SystemUserInfo,Microsoft.Extensions.Logging.ILogger)
+  - SuperOffice.WebApi.IdentityModel.SystemUserClient.#ctor(SuperOffice.WebApi.IdentityModel.SystemUserInfo,System.Net.Http.HttpClient,Microsoft.Extensions.Logging.ILogger)
+  - SuperOffice.WebApi.IdentityModel.SystemUserClient.ClaimsIdentity
+  - SuperOffice.WebApi.IdentityModel.SystemUserClient.Deserialize``1(System.String)
+  - SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserJwt
+  - SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserTicket
+  - SuperOffice.WebApi.IdentityModel.SystemUserClient.ValidateSystemUserResult(SuperOffice.WebApi.IdentityModel.SystemUserResult)
+  langs:
+  - csharp
+  - vb
+  name: SystemUserClient
+  nameWithType: SystemUserClient
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  summary: "\nClient used to get system user tokens.\n"
+  syntax:
+    content: 'public class SystemUserClient : Object'
+    content.vb: >-
+      Public Class SystemUserClient
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.#ctor(Microsoft.Extensions.Logging.ILogger)
+  commentId: M:SuperOffice.WebApi.IdentityModel.SystemUserClient.#ctor(Microsoft.Extensions.Logging.ILogger)
+  id: '#ctor(Microsoft.Extensions.Logging.ILogger)'
+  parent: SuperOffice.WebApi.IdentityModel.SystemUserClient
+  langs:
+  - csharp
+  - vb
+  name: SystemUserClient(ILogger)
+  nameWithType: SystemUserClient.SystemUserClient(ILogger)
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.SystemUserClient(Microsoft.Extensions.Logging.ILogger)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  summary: "\nConstructor.\n"
+  syntax:
+    content: public SystemUserClient(ILogger logger = null)
+    parameters:
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger
+      description: Used to hook into DI Logger.
+    content.vb: Public Sub New(logger As ILogger = Nothing)
+  overload: SuperOffice.WebApi.IdentityModel.SystemUserClient.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.#ctor(SuperOffice.WebApi.IdentityModel.SystemUserInfo,System.Net.Http.HttpClient,Microsoft.Extensions.Logging.ILogger)
+  commentId: M:SuperOffice.WebApi.IdentityModel.SystemUserClient.#ctor(SuperOffice.WebApi.IdentityModel.SystemUserInfo,System.Net.Http.HttpClient,Microsoft.Extensions.Logging.ILogger)
+  id: '#ctor(SuperOffice.WebApi.IdentityModel.SystemUserInfo,System.Net.Http.HttpClient,Microsoft.Extensions.Logging.ILogger)'
+  parent: SuperOffice.WebApi.IdentityModel.SystemUserClient
+  langs:
+  - csharp
+  - vb
+  name: SystemUserClient(SystemUserInfo, HttpClient, ILogger)
+  nameWithType: SystemUserClient.SystemUserClient(SystemUserInfo, HttpClient, ILogger)
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.SystemUserClient(SuperOffice.WebApi.IdentityModel.SystemUserInfo, System.Net.Http.HttpClient, Microsoft.Extensions.Logging.ILogger)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  summary: "\nConstructor.\n"
+  syntax:
+    content: public SystemUserClient(SystemUserInfo systemUserInfo, HttpClient client, ILogger logger = null)
+    parameters:
+    - id: systemUserInfo
+      type: SuperOffice.WebApi.IdentityModel.SystemUserInfo
+      description: Contains required application parameters to get system user JWT.
+    - id: client
+      type: System.Net.Http.HttpClient
+      description: Required HttpClient to send requests.
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger
+      description: Used to hook into DI Logger.
+    content.vb: Public Sub New(systemUserInfo As SystemUserInfo, client As HttpClient, logger As ILogger = Nothing)
+  overload: SuperOffice.WebApi.IdentityModel.SystemUserClient.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.#ctor(SuperOffice.WebApi.IdentityModel.SystemUserInfo,Microsoft.Extensions.Logging.ILogger)
+  commentId: M:SuperOffice.WebApi.IdentityModel.SystemUserClient.#ctor(SuperOffice.WebApi.IdentityModel.SystemUserInfo,Microsoft.Extensions.Logging.ILogger)
+  id: '#ctor(SuperOffice.WebApi.IdentityModel.SystemUserInfo,Microsoft.Extensions.Logging.ILogger)'
+  parent: SuperOffice.WebApi.IdentityModel.SystemUserClient
+  langs:
+  - csharp
+  - vb
+  name: SystemUserClient(SystemUserInfo, ILogger)
+  nameWithType: SystemUserClient.SystemUserClient(SystemUserInfo, ILogger)
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.SystemUserClient(SuperOffice.WebApi.IdentityModel.SystemUserInfo, Microsoft.Extensions.Logging.ILogger)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  summary: "\nConstructor.\n"
+  syntax:
+    content: public SystemUserClient(SystemUserInfo systemUserInfo, ILogger logger = null)
+    parameters:
+    - id: systemUserInfo
+      type: SuperOffice.WebApi.IdentityModel.SystemUserInfo
+      description: Contains required application parameters to get system user JWT.
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger
+      description: Used to hook into DI Logger.
+    content.vb: Public Sub New(systemUserInfo As SystemUserInfo, logger As ILogger = Nothing)
+  overload: SuperOffice.WebApi.IdentityModel.SystemUserClient.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserTicket
+  commentId: M:SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserTicket
+  id: GetSystemUserTicket
+  parent: SuperOffice.WebApi.IdentityModel.SystemUserClient
+  langs:
+  - csharp
+  - vb
+  name: GetSystemUserTicket()
+  nameWithType: SystemUserClient.GetSystemUserTicket()
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserTicket()
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  summary: "\nPerforms the exchange that get&apos;s the system user ticket from the system user token.\nThis calls GetSystemUserJwt and ValidateSystemUserResult and returned the ticket claim.\n"
+  syntax:
+    content: public string GetSystemUserTicket()
+    return:
+      type: System.String
+      description: System user ticket.
+    content.vb: Public Function GetSystemUserTicket As String
+  overload: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserTicket*
+  exceptions:
+  - type: Microsoft.IdentityModel.Tokens.SecurityTokenValidationException
+    commentId: T:Microsoft.IdentityModel.Tokens.SecurityTokenValidationException
+    description: Thrown if JWT token validation fails.
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserJwt
+  commentId: M:SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserJwt
+  id: GetSystemUserJwt
+  parent: SuperOffice.WebApi.IdentityModel.SystemUserClient
+  langs:
+  - csharp
+  - vb
+  name: GetSystemUserJwt()
+  nameWithType: SystemUserClient.GetSystemUserJwt()
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserJwt()
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  summary: "\nPerforms sending System User token request to SuperOffice.\n"
+  syntax:
+    content: public SystemUserResult GetSystemUserJwt()
+    return:
+      type: SuperOffice.WebApi.IdentityModel.SystemUserResult
+      description: The <xref href="SuperOffice.WebApi.IdentityModel.SystemUserResult" data-throw-if-not-resolved="false"></xref> which, if successful, contains System User JWT.
+    content.vb: Public Function GetSystemUserJwt As SystemUserResult
+  overload: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserJwt*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.ValidateSystemUserResult(SuperOffice.WebApi.IdentityModel.SystemUserResult)
+  commentId: M:SuperOffice.WebApi.IdentityModel.SystemUserClient.ValidateSystemUserResult(SuperOffice.WebApi.IdentityModel.SystemUserResult)
+  id: ValidateSystemUserResult(SuperOffice.WebApi.IdentityModel.SystemUserResult)
+  parent: SuperOffice.WebApi.IdentityModel.SystemUserClient
+  langs:
+  - csharp
+  - vb
+  name: ValidateSystemUserResult(SystemUserResult)
+  nameWithType: SystemUserClient.ValidateSystemUserResult(SystemUserResult)
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.ValidateSystemUserResult(SuperOffice.WebApi.IdentityModel.SystemUserResult)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  summary: "\nValidates the SystemUserResult.\n"
+  syntax:
+    content: public TokenValidationResult ValidateSystemUserResult(SystemUserResult systemUserResult)
+    parameters:
+    - id: systemUserResult
+      type: SuperOffice.WebApi.IdentityModel.SystemUserResult
+      description: Contains JWT to validate.
+    return:
+      type: Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult
+      description: TokenValidationResult instance.
+    content.vb: Public Function ValidateSystemUserResult(systemUserResult As SystemUserResult) As TokenValidationResult
+  overload: SuperOffice.WebApi.IdentityModel.SystemUserClient.ValidateSystemUserResult*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.Deserialize``1(System.String)
+  commentId: M:SuperOffice.WebApi.IdentityModel.SystemUserClient.Deserialize``1(System.String)
+  id: Deserialize``1(System.String)
+  parent: SuperOffice.WebApi.IdentityModel.SystemUserClient
+  langs:
+  - csharp
+  - vb
+  name: Deserialize<T>(String)
+  nameWithType: SystemUserClient.Deserialize<T>(String)
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.Deserialize<T>(System.String)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  summary: "\nGeneric Deserializer \n"
+  syntax:
+    content: public T Deserialize<T>(string xmlString)
+    parameters:
+    - id: xmlString
+      type: System.String
+      description: XML representation of the type.
+    typeParameters:
+    - id: T
+      description: Type to deserialize
+    return:
+      type: '{T}'
+      description: Typed class instance.
+    content.vb: Public Function Deserialize(Of T)(xmlString As String) As T
+  overload: SuperOffice.WebApi.IdentityModel.SystemUserClient.Deserialize*
+  nameWithType.vb: SystemUserClient.Deserialize(Of T)(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.IdentityModel.SystemUserClient.Deserialize(Of T)(System.String)
+  name.vb: Deserialize(Of T)(String)
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.ClaimsIdentity
+  commentId: P:SuperOffice.WebApi.IdentityModel.SystemUserClient.ClaimsIdentity
+  id: ClaimsIdentity
+  parent: SuperOffice.WebApi.IdentityModel.SystemUserClient
+  langs:
+  - csharp
+  - vb
+  name: ClaimsIdentity
+  nameWithType: SystemUserClient.ClaimsIdentity
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.ClaimsIdentity
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  summary: "\nPopulated when the System User Ticket is validated, this property represents the claims identity.\n"
+  syntax:
+    content: public ClaimsIdentity ClaimsIdentity { get; }
+    parameters: []
+    return:
+      type: System.Security.Claims.ClaimsIdentity
+    content.vb: Public ReadOnly Property ClaimsIdentity As ClaimsIdentity
+  overload: SuperOffice.WebApi.IdentityModel.SystemUserClient.ClaimsIdentity*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.WebApi.IdentityModel
+  commentId: N:SuperOffice.WebApi.IdentityModel
+  isExternal: true
+  name: SuperOffice.WebApi.IdentityModel
+  nameWithType: SuperOffice.WebApi.IdentityModel
+  fullName: SuperOffice.WebApi.IdentityModel
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.#ctor*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.SystemUserClient.#ctor
+  isExternal: true
+  name: SystemUserClient
+  nameWithType: SystemUserClient.SystemUserClient
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.SystemUserClient
+- uid: Microsoft.Extensions.Logging.ILogger
+  isExternal: true
+  name: ILogger
+  nameWithType: ILogger
+  fullName: Microsoft.Extensions.Logging.ILogger
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserInfo
+  commentId: T:SuperOffice.WebApi.IdentityModel.SystemUserInfo
+  parent: SuperOffice.WebApi.IdentityModel
+  isExternal: true
+  name: SystemUserInfo
+  nameWithType: SystemUserInfo
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserInfo
+- uid: System.Net.Http.HttpClient
+  isExternal: true
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: System.Net.Http.HttpClient
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserTicket*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserTicket
+  isExternal: true
+  name: GetSystemUserTicket
+  nameWithType: SystemUserClient.GetSystemUserTicket
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserTicket
+- uid: Microsoft.IdentityModel.Tokens.SecurityTokenValidationException
+  commentId: T:Microsoft.IdentityModel.Tokens.SecurityTokenValidationException
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserJwt*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserJwt
+  isExternal: true
+  name: GetSystemUserJwt
+  nameWithType: SystemUserClient.GetSystemUserJwt
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.GetSystemUserJwt
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserResult
+  commentId: T:SuperOffice.WebApi.IdentityModel.SystemUserResult
+  parent: SuperOffice.WebApi.IdentityModel
+  isExternal: true
+  name: SystemUserResult
+  nameWithType: SystemUserResult
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserResult
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.ValidateSystemUserResult*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.SystemUserClient.ValidateSystemUserResult
+  isExternal: true
+  name: ValidateSystemUserResult
+  nameWithType: SystemUserClient.ValidateSystemUserResult
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.ValidateSystemUserResult
+- uid: Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult
+  commentId: '!:Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult'
+  isExternal: true
+  name: TokenValidationResult
+  nameWithType: TokenValidationResult
+  fullName: Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.Deserialize*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.SystemUserClient.Deserialize
+  isExternal: true
+  name: Deserialize
+  nameWithType: SystemUserClient.Deserialize
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.Deserialize
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  commentId: '!:T'
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserClient.ClaimsIdentity*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.SystemUserClient.ClaimsIdentity
+  isExternal: true
+  name: ClaimsIdentity
+  nameWithType: SystemUserClient.ClaimsIdentity
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserClient.ClaimsIdentity
+- uid: System.Security.Claims.ClaimsIdentity
+  commentId: '!:System.Security.Claims.ClaimsIdentity'
+  isExternal: true
+  name: ClaimsIdentity
+  nameWithType: ClaimsIdentity
+  fullName: System.Security.Claims.ClaimsIdentity

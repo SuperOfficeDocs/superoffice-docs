@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest
+  id: Appointment_GetActivityInformationListByDatesAndAssociateRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.AssociateId
+  - SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.EndDate
+  - SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.StartDate
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetActivityInformationListByDatesAndAssociateRequest
+  nameWithType: Appointment_GetActivityInformationListByDatesAndAssociateRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_GetActivityInformationListByDatesAndAssociateRequest : Object'
+    content.vb: >-
+      Public Class Appointment_GetActivityInformationListByDatesAndAssociateRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetActivityInformationListByDatesAndAssociateRequest()
+  nameWithType: Appointment_GetActivityInformationListByDatesAndAssociateRequest.Appointment_GetActivityInformationListByDatesAndAssociateRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.Appointment_GetActivityInformationListByDatesAndAssociateRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_GetActivityInformationListByDatesAndAssociateRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.StartDate
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.StartDate
+  id: StartDate
+  parent: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: Appointment_GetActivityInformationListByDatesAndAssociateRequest.StartDate
+  fullName: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.StartDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime StartDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property StartDate As DateTime
+  overload: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.StartDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.EndDate
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.EndDate
+  id: EndDate
+  parent: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest
+  langs:
+  - csharp
+  - vb
+  name: EndDate
+  nameWithType: Appointment_GetActivityInformationListByDatesAndAssociateRequest.EndDate
+  fullName: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.EndDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime EndDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property EndDate As DateTime
+  overload: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.EndDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: Appointment_GetActivityInformationListByDatesAndAssociateRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.#ctor
+  isExternal: true
+  name: Appointment_GetActivityInformationListByDatesAndAssociateRequest
+  nameWithType: Appointment_GetActivityInformationListByDatesAndAssociateRequest.Appointment_GetActivityInformationListByDatesAndAssociateRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.Appointment_GetActivityInformationListByDatesAndAssociateRequest
+- uid: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.StartDate*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.StartDate
+  isExternal: true
+  name: StartDate
+  nameWithType: Appointment_GetActivityInformationListByDatesAndAssociateRequest.StartDate
+  fullName: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.StartDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.EndDate*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.EndDate
+  isExternal: true
+  name: EndDate
+  nameWithType: Appointment_GetActivityInformationListByDatesAndAssociateRequest.EndDate
+  fullName: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.EndDate
+- uid: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: Appointment_GetActivityInformationListByDatesAndAssociateRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

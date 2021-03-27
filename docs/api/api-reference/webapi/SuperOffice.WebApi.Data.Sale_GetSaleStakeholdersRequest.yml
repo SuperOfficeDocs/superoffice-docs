@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Sale_GetSaleStakeholdersRequest
+  commentId: T:SuperOffice.WebApi.Data.Sale_GetSaleStakeholdersRequest
+  id: Sale_GetSaleStakeholdersRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Sale_GetSaleStakeholdersRequest.#ctor
+  - SuperOffice.WebApi.Data.Sale_GetSaleStakeholdersRequest.SaleId
+  langs:
+  - csharp
+  - vb
+  name: Sale_GetSaleStakeholdersRequest
+  nameWithType: Sale_GetSaleStakeholdersRequest
+  fullName: SuperOffice.WebApi.Data.Sale_GetSaleStakeholdersRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Sale_GetSaleStakeholdersRequest : Object'
+    content.vb: >-
+      Public Class Sale_GetSaleStakeholdersRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Sale_GetSaleStakeholdersRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Sale_GetSaleStakeholdersRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Sale_GetSaleStakeholdersRequest
+  langs:
+  - csharp
+  - vb
+  name: Sale_GetSaleStakeholdersRequest()
+  nameWithType: Sale_GetSaleStakeholdersRequest.Sale_GetSaleStakeholdersRequest()
+  fullName: SuperOffice.WebApi.Data.Sale_GetSaleStakeholdersRequest.Sale_GetSaleStakeholdersRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Sale_GetSaleStakeholdersRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Sale_GetSaleStakeholdersRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sale_GetSaleStakeholdersRequest.SaleId
+  commentId: P:SuperOffice.WebApi.Data.Sale_GetSaleStakeholdersRequest.SaleId
+  id: SaleId
+  parent: SuperOffice.WebApi.Data.Sale_GetSaleStakeholdersRequest
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: Sale_GetSaleStakeholdersRequest.SaleId
+  fullName: SuperOffice.WebApi.Data.Sale_GetSaleStakeholdersRequest.SaleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SaleId As Integer
+  overload: SuperOffice.WebApi.Data.Sale_GetSaleStakeholdersRequest.SaleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Sale_GetSaleStakeholdersRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetSaleStakeholdersRequest.#ctor
+  isExternal: true
+  name: Sale_GetSaleStakeholdersRequest
+  nameWithType: Sale_GetSaleStakeholdersRequest.Sale_GetSaleStakeholdersRequest
+  fullName: SuperOffice.WebApi.Data.Sale_GetSaleStakeholdersRequest.Sale_GetSaleStakeholdersRequest
+- uid: SuperOffice.WebApi.Data.Sale_GetSaleStakeholdersRequest.SaleId*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetSaleStakeholdersRequest.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: Sale_GetSaleStakeholdersRequest.SaleId
+  fullName: SuperOffice.WebApi.Data.Sale_GetSaleStakeholdersRequest.SaleId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

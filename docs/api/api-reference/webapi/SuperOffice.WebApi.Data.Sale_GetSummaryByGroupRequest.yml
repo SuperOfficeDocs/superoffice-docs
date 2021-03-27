@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest
+  commentId: T:SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest
+  id: Sale_GetSummaryByGroupRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.#ctor
+  - SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.FromDate
+  - SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.GroupId
+  - SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.ToDate
+  langs:
+  - csharp
+  - vb
+  name: Sale_GetSummaryByGroupRequest
+  nameWithType: Sale_GetSummaryByGroupRequest
+  fullName: SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Sale_GetSummaryByGroupRequest : Object'
+    content.vb: >-
+      Public Class Sale_GetSummaryByGroupRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: Sale_GetSummaryByGroupRequest()
+  nameWithType: Sale_GetSummaryByGroupRequest.Sale_GetSummaryByGroupRequest()
+  fullName: SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.Sale_GetSummaryByGroupRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Sale_GetSummaryByGroupRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.GroupId
+  commentId: P:SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.GroupId
+  id: GroupId
+  parent: SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: GroupId
+  nameWithType: Sale_GetSummaryByGroupRequest.GroupId
+  fullName: SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.GroupId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int GroupId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property GroupId As Integer
+  overload: SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.GroupId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.FromDate
+  commentId: P:SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.FromDate
+  id: FromDate
+  parent: SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: FromDate
+  nameWithType: Sale_GetSummaryByGroupRequest.FromDate
+  fullName: SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.FromDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime FromDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property FromDate As DateTime
+  overload: SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.FromDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.ToDate
+  commentId: P:SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.ToDate
+  id: ToDate
+  parent: SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: ToDate
+  nameWithType: Sale_GetSummaryByGroupRequest.ToDate
+  fullName: SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.ToDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime ToDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property ToDate As DateTime
+  overload: SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.ToDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.#ctor
+  isExternal: true
+  name: Sale_GetSummaryByGroupRequest
+  nameWithType: Sale_GetSummaryByGroupRequest.Sale_GetSummaryByGroupRequest
+  fullName: SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.Sale_GetSummaryByGroupRequest
+- uid: SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.GroupId*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.GroupId
+  isExternal: true
+  name: GroupId
+  nameWithType: Sale_GetSummaryByGroupRequest.GroupId
+  fullName: SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.GroupId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.FromDate*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.FromDate
+  isExternal: true
+  name: FromDate
+  nameWithType: Sale_GetSummaryByGroupRequest.FromDate
+  fullName: SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.FromDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.ToDate*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.ToDate
+  isExternal: true
+  name: ToDate
+  nameWithType: Sale_GetSummaryByGroupRequest.ToDate
+  fullName: SuperOffice.WebApi.Data.Sale_GetSummaryByGroupRequest.ToDate

@@ -1,0 +1,1083 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.Selection
+  id: Selection
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  children:
+  - SuperOffice.CRM.Web.AjaxMethods.Selection.#ctor
+  - SuperOffice.CRM.Web.AjaxMethods.Selection.AddSelectionMembers(System.Int32,System.Int32[])
+  - SuperOffice.CRM.Web.AjaxMethods.Selection.CopySelection(System.Int32,System.Boolean)
+  - SuperOffice.CRM.Web.AjaxMethods.Selection.CreateTemporaryGenericSelection(System.Int32,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Selection.CreateTemporaryGenericSelectionFromTableName(System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Selection.CreateTemporarySelection(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Selection.DeleteCompaniesFromSelection(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Selection.DeleteEntitiesFromSelection(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Selection.DeletePersonsFromSelection(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Selection.DeleteSelection(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Selection.GetParentCombinedSelections(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Selection.RemoveStaticMembersOnCurrentSelection(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Selection.SetCompleted(System.Boolean)
+  - SuperOffice.CRM.Web.AjaxMethods.Selection.SetCusomtTagsForMailMergePreview(System.String,System.Boolean)
+  - SuperOffice.CRM.Web.AjaxMethods.Selection.SetIncludePerson(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Selection.SetMiniCardSelectionLock(System.Boolean)
+  - SuperOffice.CRM.Web.AjaxMethods.Selection.SetMiniSelectionCurrent(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Selection.StartMailMerge(SuperOffice.CRM.Services.MailMergeSettings)
+  langs:
+  - csharp
+  - vb
+  name: Selection
+  nameWithType: Selection
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoWebObject("Selection")]
+
+      public class Selection : IWebObject, IPlugin
+    content.vb: >-
+      <SoWebObject("Selection")>
+
+      Public Class Selection
+          Implements IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Selection
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.RemoveStaticMembersOnCurrentSelection(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Selection.RemoveStaticMembersOnCurrentSelection(System.String)
+  id: RemoveStaticMembersOnCurrentSelection(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Selection
+  langs:
+  - csharp
+  - vb
+  name: RemoveStaticMembersOnCurrentSelection(String)
+  nameWithType: Selection.RemoveStaticMembersOnCurrentSelection(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.RemoveStaticMembersOnCurrentSelection(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string RemoveStaticMembersOnCurrentSelection(string ids)
+    parameters:
+    - id: ids
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function RemoveStaticMembersOnCurrentSelection(ids As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Selection.RemoveStaticMembersOnCurrentSelection*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.SetIncludePerson(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Selection.SetIncludePerson(System.Int32)
+  id: SetIncludePerson(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Selection
+  langs:
+  - csharp
+  - vb
+  name: SetIncludePerson(Int32)
+  nameWithType: Selection.SetIncludePerson(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.SetIncludePerson(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string SetIncludePerson(int include)
+    parameters:
+    - id: include
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function SetIncludePerson(include As Integer) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Selection.SetIncludePerson*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.SetCompleted(System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Selection.SetCompleted(System.Boolean)
+  id: SetCompleted(System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Selection
+  langs:
+  - csharp
+  - vb
+  name: SetCompleted(Boolean)
+  nameWithType: Selection.SetCompleted(Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.SetCompleted(System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void SetCompleted(bool isCompleted)
+    parameters:
+    - id: isCompleted
+      type: System.Boolean
+    content.vb: Public Sub SetCompleted(isCompleted As Boolean)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Selection.SetCompleted*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.CopySelection(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Selection.CopySelection(System.Int32,System.Boolean)
+  id: CopySelection(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Selection
+  langs:
+  - csharp
+  - vb
+  name: CopySelection(Int32, Boolean)
+  nameWithType: Selection.CopySelection(Int32, Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.CopySelection(System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public int CopySelection(int selectionId, bool useShadow)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+    - id: useShadow
+      type: System.Boolean
+    return:
+      type: System.Int32
+    content.vb: Public Function CopySelection(selectionId As Integer, useShadow As Boolean) As Integer
+  overload: SuperOffice.CRM.Web.AjaxMethods.Selection.CopySelection*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.CreateTemporarySelection(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Selection.CreateTemporarySelection(System.String)
+  id: CreateTemporarySelection(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Selection
+  langs:
+  - csharp
+  - vb
+  name: CreateTemporarySelection(String)
+  nameWithType: Selection.CreateTemporarySelection(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.CreateTemporarySelection(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public int CreateTemporarySelection(string ids)
+    parameters:
+    - id: ids
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Function CreateTemporarySelection(ids As String) As Integer
+  overload: SuperOffice.CRM.Web.AjaxMethods.Selection.CreateTemporarySelection*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.CreateTemporaryGenericSelection(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Selection.CreateTemporaryGenericSelection(System.Int32,System.String)
+  id: CreateTemporaryGenericSelection(System.Int32,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Selection
+  langs:
+  - csharp
+  - vb
+  name: CreateTemporaryGenericSelection(Int32, String)
+  nameWithType: Selection.CreateTemporaryGenericSelection(Int32, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.CreateTemporaryGenericSelection(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public int CreateTemporaryGenericSelection(int targetTableNumber, string ids)
+    parameters:
+    - id: targetTableNumber
+      type: System.Int32
+    - id: ids
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Function CreateTemporaryGenericSelection(targetTableNumber As Integer, ids As String) As Integer
+  overload: SuperOffice.CRM.Web.AjaxMethods.Selection.CreateTemporaryGenericSelection*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.CreateTemporaryGenericSelectionFromTableName(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Selection.CreateTemporaryGenericSelectionFromTableName(System.String,System.String)
+  id: CreateTemporaryGenericSelectionFromTableName(System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Selection
+  langs:
+  - csharp
+  - vb
+  name: CreateTemporaryGenericSelectionFromTableName(String, String)
+  nameWithType: Selection.CreateTemporaryGenericSelectionFromTableName(String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.CreateTemporaryGenericSelectionFromTableName(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public int CreateTemporaryGenericSelectionFromTableName(string tableName, string ids)
+    parameters:
+    - id: tableName
+      type: System.String
+    - id: ids
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Function CreateTemporaryGenericSelectionFromTableName(tableName As String, ids As String) As Integer
+  overload: SuperOffice.CRM.Web.AjaxMethods.Selection.CreateTemporaryGenericSelectionFromTableName*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.DeleteSelection(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Selection.DeleteSelection(System.Int32)
+  id: DeleteSelection(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Selection
+  langs:
+  - csharp
+  - vb
+  name: DeleteSelection(Int32)
+  nameWithType: Selection.DeleteSelection(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.DeleteSelection(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void DeleteSelection(int selectionId)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+    content.vb: Public Sub DeleteSelection(selectionId As Integer)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Selection.DeleteSelection*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.GetParentCombinedSelections(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Selection.GetParentCombinedSelections(System.Int32)
+  id: GetParentCombinedSelections(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Selection
+  langs:
+  - csharp
+  - vb
+  name: GetParentCombinedSelections(Int32)
+  nameWithType: Selection.GetParentCombinedSelections(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.GetParentCombinedSelections(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public bool GetParentCombinedSelections(int selectionId)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetParentCombinedSelections(selectionId As Integer) As Boolean
+  overload: SuperOffice.CRM.Web.AjaxMethods.Selection.GetParentCombinedSelections*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.SetCusomtTagsForMailMergePreview(System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Selection.SetCusomtTagsForMailMergePreview(System.String,System.Boolean)
+  id: SetCusomtTagsForMailMergePreview(System.String,System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Selection
+  langs:
+  - csharp
+  - vb
+  name: SetCusomtTagsForMailMergePreview(String, Boolean)
+  nameWithType: Selection.SetCusomtTagsForMailMergePreview(String, Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.SetCusomtTagsForMailMergePreview(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void SetCusomtTagsForMailMergePreview(string customAttention, bool useCustomAttentionAlways)
+    parameters:
+    - id: customAttention
+      type: System.String
+    - id: useCustomAttentionAlways
+      type: System.Boolean
+    content.vb: Public Sub SetCusomtTagsForMailMergePreview(customAttention As String, useCustomAttentionAlways As Boolean)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Selection.SetCusomtTagsForMailMergePreview*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.StartMailMerge(SuperOffice.CRM.Services.MailMergeSettings)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Selection.StartMailMerge(SuperOffice.CRM.Services.MailMergeSettings)
+  id: StartMailMerge(SuperOffice.CRM.Services.MailMergeSettings)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Selection
+  langs:
+  - csharp
+  - vb
+  name: StartMailMerge(MailMergeSettings)
+  nameWithType: Selection.StartMailMerge(MailMergeSettings)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.StartMailMerge(SuperOffice.CRM.Services.MailMergeSettings)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string StartMailMerge(MailMergeSettings settings)
+    parameters:
+    - id: settings
+      type: SuperOffice.CRM.Services.MailMergeSettings
+    return:
+      type: System.String
+    content.vb: Public Function StartMailMerge(settings As MailMergeSettings) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Selection.StartMailMerge*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.DeleteCompaniesFromSelection(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Selection.DeleteCompaniesFromSelection(System.Int32)
+  id: DeleteCompaniesFromSelection(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Selection
+  langs:
+  - csharp
+  - vb
+  name: DeleteCompaniesFromSelection(Int32)
+  nameWithType: Selection.DeleteCompaniesFromSelection(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.DeleteCompaniesFromSelection(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void DeleteCompaniesFromSelection(int selectionId)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+    content.vb: Public Sub DeleteCompaniesFromSelection(selectionId As Integer)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Selection.DeleteCompaniesFromSelection*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.DeletePersonsFromSelection(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Selection.DeletePersonsFromSelection(System.Int32)
+  id: DeletePersonsFromSelection(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Selection
+  langs:
+  - csharp
+  - vb
+  name: DeletePersonsFromSelection(Int32)
+  nameWithType: Selection.DeletePersonsFromSelection(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.DeletePersonsFromSelection(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void DeletePersonsFromSelection(int selectionId)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+    content.vb: Public Sub DeletePersonsFromSelection(selectionId As Integer)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Selection.DeletePersonsFromSelection*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.DeleteEntitiesFromSelection(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Selection.DeleteEntitiesFromSelection(System.Int32)
+  id: DeleteEntitiesFromSelection(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Selection
+  langs:
+  - csharp
+  - vb
+  name: DeleteEntitiesFromSelection(Int32)
+  nameWithType: Selection.DeleteEntitiesFromSelection(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.DeleteEntitiesFromSelection(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void DeleteEntitiesFromSelection(int selectionId)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+    content.vb: Public Sub DeleteEntitiesFromSelection(selectionId As Integer)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Selection.DeleteEntitiesFromSelection*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.AddSelectionMembers(System.Int32,System.Int32[])
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Selection.AddSelectionMembers(System.Int32,System.Int32[])
+  id: AddSelectionMembers(System.Int32,System.Int32[])
+  parent: SuperOffice.CRM.Web.AjaxMethods.Selection
+  langs:
+  - csharp
+  - vb
+  name: AddSelectionMembers(Int32, Int32[])
+  nameWithType: Selection.AddSelectionMembers(Int32, Int32[])
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.AddSelectionMembers(System.Int32, System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public int AddSelectionMembers(int selectionId, int[] idArray)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+    - id: idArray
+      type: System.Int32[]
+    return:
+      type: System.Int32
+    content.vb: Public Function AddSelectionMembers(selectionId As Integer, idArray As Integer()) As Integer
+  overload: SuperOffice.CRM.Web.AjaxMethods.Selection.AddSelectionMembers*
+  nameWithType.vb: Selection.AddSelectionMembers(Int32, Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Web.AjaxMethods.Selection.AddSelectionMembers(System.Int32, System.Int32())
+  name.vb: AddSelectionMembers(Int32, Int32())
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.SetMiniCardSelectionLock(System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Selection.SetMiniCardSelectionLock(System.Boolean)
+  id: SetMiniCardSelectionLock(System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Selection
+  langs:
+  - csharp
+  - vb
+  name: SetMiniCardSelectionLock(Boolean)
+  nameWithType: Selection.SetMiniCardSelectionLock(Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.SetMiniCardSelectionLock(System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void SetMiniCardSelectionLock(bool setLock)
+    parameters:
+    - id: setLock
+      type: System.Boolean
+    content.vb: Public Sub SetMiniCardSelectionLock(setLock As Boolean)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Selection.SetMiniCardSelectionLock*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.SetMiniSelectionCurrent(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Selection.SetMiniSelectionCurrent(System.Int32)
+  id: SetMiniSelectionCurrent(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Selection
+  langs:
+  - csharp
+  - vb
+  name: SetMiniSelectionCurrent(Int32)
+  nameWithType: Selection.SetMiniSelectionCurrent(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.SetMiniSelectionCurrent(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void SetMiniSelectionCurrent(int selectionId)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+    content.vb: Public Sub SetMiniSelectionCurrent(selectionId As Integer)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Selection.SetMiniSelectionCurrent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.#ctor
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Selection.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.AjaxMethods.Selection
+  langs:
+  - csharp
+  - vb
+  name: Selection()
+  nameWithType: Selection.Selection()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.Selection()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public Selection()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.AjaxMethods.Selection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.AjaxMethods
+  commentId: N:SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: SuperOffice.CRM.Web.AjaxMethods
+  nameWithType: SuperOffice.CRM.Web.AjaxMethods
+  fullName: SuperOffice.CRM.Web.AjaxMethods
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.RemoveStaticMembersOnCurrentSelection*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Selection.RemoveStaticMembersOnCurrentSelection
+  isExternal: true
+  name: RemoveStaticMembersOnCurrentSelection
+  nameWithType: Selection.RemoveStaticMembersOnCurrentSelection
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.RemoveStaticMembersOnCurrentSelection
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.SetIncludePerson*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Selection.SetIncludePerson
+  isExternal: true
+  name: SetIncludePerson
+  nameWithType: Selection.SetIncludePerson
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.SetIncludePerson
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.SetCompleted*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Selection.SetCompleted
+  isExternal: true
+  name: SetCompleted
+  nameWithType: Selection.SetCompleted
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.SetCompleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.CopySelection*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Selection.CopySelection
+  isExternal: true
+  name: CopySelection
+  nameWithType: Selection.CopySelection
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.CopySelection
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.CreateTemporarySelection*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Selection.CreateTemporarySelection
+  isExternal: true
+  name: CreateTemporarySelection
+  nameWithType: Selection.CreateTemporarySelection
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.CreateTemporarySelection
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.CreateTemporaryGenericSelection*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Selection.CreateTemporaryGenericSelection
+  isExternal: true
+  name: CreateTemporaryGenericSelection
+  nameWithType: Selection.CreateTemporaryGenericSelection
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.CreateTemporaryGenericSelection
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.CreateTemporaryGenericSelectionFromTableName*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Selection.CreateTemporaryGenericSelectionFromTableName
+  isExternal: true
+  name: CreateTemporaryGenericSelectionFromTableName
+  nameWithType: Selection.CreateTemporaryGenericSelectionFromTableName
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.CreateTemporaryGenericSelectionFromTableName
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.DeleteSelection*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Selection.DeleteSelection
+  isExternal: true
+  name: DeleteSelection
+  nameWithType: Selection.DeleteSelection
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.DeleteSelection
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.GetParentCombinedSelections*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Selection.GetParentCombinedSelections
+  isExternal: true
+  name: GetParentCombinedSelections
+  nameWithType: Selection.GetParentCombinedSelections
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.GetParentCombinedSelections
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.SetCusomtTagsForMailMergePreview*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Selection.SetCusomtTagsForMailMergePreview
+  isExternal: true
+  name: SetCusomtTagsForMailMergePreview
+  nameWithType: Selection.SetCusomtTagsForMailMergePreview
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.SetCusomtTagsForMailMergePreview
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.StartMailMerge*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Selection.StartMailMerge
+  isExternal: true
+  name: StartMailMerge
+  nameWithType: Selection.StartMailMerge
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.StartMailMerge
+- uid: SuperOffice.CRM.Services.MailMergeSettings
+  commentId: '!:SuperOffice.CRM.Services.MailMergeSettings'
+  isExternal: true
+  name: MailMergeSettings
+  nameWithType: MailMergeSettings
+  fullName: SuperOffice.CRM.Services.MailMergeSettings
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.DeleteCompaniesFromSelection*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Selection.DeleteCompaniesFromSelection
+  isExternal: true
+  name: DeleteCompaniesFromSelection
+  nameWithType: Selection.DeleteCompaniesFromSelection
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.DeleteCompaniesFromSelection
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.DeletePersonsFromSelection*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Selection.DeletePersonsFromSelection
+  isExternal: true
+  name: DeletePersonsFromSelection
+  nameWithType: Selection.DeletePersonsFromSelection
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.DeletePersonsFromSelection
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.DeleteEntitiesFromSelection*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Selection.DeleteEntitiesFromSelection
+  isExternal: true
+  name: DeleteEntitiesFromSelection
+  nameWithType: Selection.DeleteEntitiesFromSelection
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.DeleteEntitiesFromSelection
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.AddSelectionMembers*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Selection.AddSelectionMembers
+  isExternal: true
+  name: AddSelectionMembers
+  nameWithType: Selection.AddSelectionMembers
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.AddSelectionMembers
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.SetMiniCardSelectionLock*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Selection.SetMiniCardSelectionLock
+  isExternal: true
+  name: SetMiniCardSelectionLock
+  nameWithType: Selection.SetMiniCardSelectionLock
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.SetMiniCardSelectionLock
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.SetMiniSelectionCurrent*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Selection.SetMiniSelectionCurrent
+  isExternal: true
+  name: SetMiniSelectionCurrent
+  nameWithType: Selection.SetMiniSelectionCurrent
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.SetMiniSelectionCurrent
+- uid: SuperOffice.CRM.Web.AjaxMethods.Selection.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Selection.#ctor
+  isExternal: true
+  name: Selection
+  nameWithType: Selection.Selection
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Selection.Selection

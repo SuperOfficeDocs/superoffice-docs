@@ -1,0 +1,665 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Util.VideoMeetingHelper
+  commentId: T:SuperOffice.CRM.Web.Util.VideoMeetingHelper
+  id: VideoMeetingHelper
+  parent: SuperOffice.CRM.Web.Util
+  children:
+  - SuperOffice.CRM.Web.Util.VideoMeetingHelper.#ctor
+  - SuperOffice.CRM.Web.Util.VideoMeetingHelper.#ctor(System.String)
+  - SuperOffice.CRM.Web.Util.VideoMeetingHelper.AdminUrl
+  - SuperOffice.CRM.Web.Util.VideoMeetingHelper.CreateMeetingUrl
+  - SuperOffice.CRM.Web.Util.VideoMeetingHelper.DeleteMeetingUrl(System.String)
+  - SuperOffice.CRM.Web.Util.VideoMeetingHelper.ReserveMeetingUrl
+  - SuperOffice.CRM.Web.Util.VideoMeetingHelper.TenantInfoUrl
+  - SuperOffice.CRM.Web.Util.VideoMeetingHelper.UnreserveMeetingUrl(System.String)
+  - SuperOffice.CRM.Web.Util.VideoMeetingHelper.UserConnectedStateUrl
+  langs:
+  - csharp
+  - vb
+  name: VideoMeetingHelper
+  nameWithType: VideoMeetingHelper
+  fullName: SuperOffice.CRM.Web.Util.VideoMeetingHelper
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public class VideoMeetingHelper
+    content.vb: Public Class VideoMeetingHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Util.VideoMeetingHelper.#ctor
+  commentId: M:SuperOffice.CRM.Web.Util.VideoMeetingHelper.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Util.VideoMeetingHelper
+  langs:
+  - csharp
+  - vb
+  name: VideoMeetingHelper()
+  nameWithType: VideoMeetingHelper.VideoMeetingHelper()
+  fullName: SuperOffice.CRM.Web.Util.VideoMeetingHelper.VideoMeetingHelper()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public VideoMeetingHelper()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Util.VideoMeetingHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.VideoMeetingHelper.#ctor(System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.VideoMeetingHelper.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.CRM.Web.Util.VideoMeetingHelper
+  langs:
+  - csharp
+  - vb
+  name: VideoMeetingHelper(String)
+  nameWithType: VideoMeetingHelper.VideoMeetingHelper(String)
+  fullName: SuperOffice.CRM.Web.Util.VideoMeetingHelper.VideoMeetingHelper(System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public VideoMeetingHelper(string videoMeetingEndpoint)
+    parameters:
+    - id: videoMeetingEndpoint
+      type: System.String
+    content.vb: Public Sub New(videoMeetingEndpoint As String)
+  overload: SuperOffice.CRM.Web.Util.VideoMeetingHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.VideoMeetingHelper.UnreserveMeetingUrl(System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.VideoMeetingHelper.UnreserveMeetingUrl(System.String)
+  id: UnreserveMeetingUrl(System.String)
+  parent: SuperOffice.CRM.Web.Util.VideoMeetingHelper
+  langs:
+  - csharp
+  - vb
+  name: UnreserveMeetingUrl(String)
+  nameWithType: VideoMeetingHelper.UnreserveMeetingUrl(String)
+  fullName: SuperOffice.CRM.Web.Util.VideoMeetingHelper.UnreserveMeetingUrl(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public string UnreserveMeetingUrl(string meetingId)
+    parameters:
+    - id: meetingId
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function UnreserveMeetingUrl(meetingId As String) As String
+  overload: SuperOffice.CRM.Web.Util.VideoMeetingHelper.UnreserveMeetingUrl*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.VideoMeetingHelper.DeleteMeetingUrl(System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.VideoMeetingHelper.DeleteMeetingUrl(System.String)
+  id: DeleteMeetingUrl(System.String)
+  parent: SuperOffice.CRM.Web.Util.VideoMeetingHelper
+  langs:
+  - csharp
+  - vb
+  name: DeleteMeetingUrl(String)
+  nameWithType: VideoMeetingHelper.DeleteMeetingUrl(String)
+  fullName: SuperOffice.CRM.Web.Util.VideoMeetingHelper.DeleteMeetingUrl(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public string DeleteMeetingUrl(string meetingId)
+    parameters:
+    - id: meetingId
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function DeleteMeetingUrl(meetingId As String) As String
+  overload: SuperOffice.CRM.Web.Util.VideoMeetingHelper.DeleteMeetingUrl*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.VideoMeetingHelper.AdminUrl
+  commentId: P:SuperOffice.CRM.Web.Util.VideoMeetingHelper.AdminUrl
+  id: AdminUrl
+  parent: SuperOffice.CRM.Web.Util.VideoMeetingHelper
+  langs:
+  - csharp
+  - vb
+  name: AdminUrl
+  nameWithType: VideoMeetingHelper.AdminUrl
+  fullName: SuperOffice.CRM.Web.Util.VideoMeetingHelper.AdminUrl
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public string AdminUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property AdminUrl As String
+  overload: SuperOffice.CRM.Web.Util.VideoMeetingHelper.AdminUrl*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.Util.VideoMeetingHelper.TenantInfoUrl
+  commentId: P:SuperOffice.CRM.Web.Util.VideoMeetingHelper.TenantInfoUrl
+  id: TenantInfoUrl
+  parent: SuperOffice.CRM.Web.Util.VideoMeetingHelper
+  langs:
+  - csharp
+  - vb
+  name: TenantInfoUrl
+  nameWithType: VideoMeetingHelper.TenantInfoUrl
+  fullName: SuperOffice.CRM.Web.Util.VideoMeetingHelper.TenantInfoUrl
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public string TenantInfoUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property TenantInfoUrl As String
+  overload: SuperOffice.CRM.Web.Util.VideoMeetingHelper.TenantInfoUrl*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.Util.VideoMeetingHelper.UserConnectedStateUrl
+  commentId: P:SuperOffice.CRM.Web.Util.VideoMeetingHelper.UserConnectedStateUrl
+  id: UserConnectedStateUrl
+  parent: SuperOffice.CRM.Web.Util.VideoMeetingHelper
+  langs:
+  - csharp
+  - vb
+  name: UserConnectedStateUrl
+  nameWithType: VideoMeetingHelper.UserConnectedStateUrl
+  fullName: SuperOffice.CRM.Web.Util.VideoMeetingHelper.UserConnectedStateUrl
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public string UserConnectedStateUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property UserConnectedStateUrl As String
+  overload: SuperOffice.CRM.Web.Util.VideoMeetingHelper.UserConnectedStateUrl*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.Util.VideoMeetingHelper.ReserveMeetingUrl
+  commentId: P:SuperOffice.CRM.Web.Util.VideoMeetingHelper.ReserveMeetingUrl
+  id: ReserveMeetingUrl
+  parent: SuperOffice.CRM.Web.Util.VideoMeetingHelper
+  langs:
+  - csharp
+  - vb
+  name: ReserveMeetingUrl
+  nameWithType: VideoMeetingHelper.ReserveMeetingUrl
+  fullName: SuperOffice.CRM.Web.Util.VideoMeetingHelper.ReserveMeetingUrl
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public string ReserveMeetingUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ReserveMeetingUrl As String
+  overload: SuperOffice.CRM.Web.Util.VideoMeetingHelper.ReserveMeetingUrl*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.Util.VideoMeetingHelper.CreateMeetingUrl
+  commentId: P:SuperOffice.CRM.Web.Util.VideoMeetingHelper.CreateMeetingUrl
+  id: CreateMeetingUrl
+  parent: SuperOffice.CRM.Web.Util.VideoMeetingHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateMeetingUrl
+  nameWithType: VideoMeetingHelper.CreateMeetingUrl
+  fullName: SuperOffice.CRM.Web.Util.VideoMeetingHelper.CreateMeetingUrl
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public string CreateMeetingUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property CreateMeetingUrl As String
+  overload: SuperOffice.CRM.Web.Util.VideoMeetingHelper.CreateMeetingUrl*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Web.Util
+  commentId: N:SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: SuperOffice.CRM.Web.Util
+  nameWithType: SuperOffice.CRM.Web.Util
+  fullName: SuperOffice.CRM.Web.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Util.VideoMeetingHelper.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Util.VideoMeetingHelper.#ctor
+  isExternal: true
+  name: VideoMeetingHelper
+  nameWithType: VideoMeetingHelper.VideoMeetingHelper
+  fullName: SuperOffice.CRM.Web.Util.VideoMeetingHelper.VideoMeetingHelper
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Util.VideoMeetingHelper.UnreserveMeetingUrl*
+  commentId: Overload:SuperOffice.CRM.Web.Util.VideoMeetingHelper.UnreserveMeetingUrl
+  isExternal: true
+  name: UnreserveMeetingUrl
+  nameWithType: VideoMeetingHelper.UnreserveMeetingUrl
+  fullName: SuperOffice.CRM.Web.Util.VideoMeetingHelper.UnreserveMeetingUrl
+- uid: SuperOffice.CRM.Web.Util.VideoMeetingHelper.DeleteMeetingUrl*
+  commentId: Overload:SuperOffice.CRM.Web.Util.VideoMeetingHelper.DeleteMeetingUrl
+  isExternal: true
+  name: DeleteMeetingUrl
+  nameWithType: VideoMeetingHelper.DeleteMeetingUrl
+  fullName: SuperOffice.CRM.Web.Util.VideoMeetingHelper.DeleteMeetingUrl
+- uid: SuperOffice.CRM.Web.Util.VideoMeetingHelper.AdminUrl*
+  commentId: Overload:SuperOffice.CRM.Web.Util.VideoMeetingHelper.AdminUrl
+  isExternal: true
+  name: AdminUrl
+  nameWithType: VideoMeetingHelper.AdminUrl
+  fullName: SuperOffice.CRM.Web.Util.VideoMeetingHelper.AdminUrl
+- uid: SuperOffice.CRM.Web.Util.VideoMeetingHelper.TenantInfoUrl*
+  commentId: Overload:SuperOffice.CRM.Web.Util.VideoMeetingHelper.TenantInfoUrl
+  isExternal: true
+  name: TenantInfoUrl
+  nameWithType: VideoMeetingHelper.TenantInfoUrl
+  fullName: SuperOffice.CRM.Web.Util.VideoMeetingHelper.TenantInfoUrl
+- uid: SuperOffice.CRM.Web.Util.VideoMeetingHelper.UserConnectedStateUrl*
+  commentId: Overload:SuperOffice.CRM.Web.Util.VideoMeetingHelper.UserConnectedStateUrl
+  isExternal: true
+  name: UserConnectedStateUrl
+  nameWithType: VideoMeetingHelper.UserConnectedStateUrl
+  fullName: SuperOffice.CRM.Web.Util.VideoMeetingHelper.UserConnectedStateUrl
+- uid: SuperOffice.CRM.Web.Util.VideoMeetingHelper.ReserveMeetingUrl*
+  commentId: Overload:SuperOffice.CRM.Web.Util.VideoMeetingHelper.ReserveMeetingUrl
+  isExternal: true
+  name: ReserveMeetingUrl
+  nameWithType: VideoMeetingHelper.ReserveMeetingUrl
+  fullName: SuperOffice.CRM.Web.Util.VideoMeetingHelper.ReserveMeetingUrl
+- uid: SuperOffice.CRM.Web.Util.VideoMeetingHelper.CreateMeetingUrl*
+  commentId: Overload:SuperOffice.CRM.Web.Util.VideoMeetingHelper.CreateMeetingUrl
+  isExternal: true
+  name: CreateMeetingUrl
+  nameWithType: VideoMeetingHelper.CreateMeetingUrl
+  fullName: SuperOffice.CRM.Web.Util.VideoMeetingHelper.CreateMeetingUrl

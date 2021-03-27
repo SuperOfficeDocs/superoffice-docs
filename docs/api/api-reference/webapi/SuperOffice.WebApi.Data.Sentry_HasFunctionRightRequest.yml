@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Sentry_HasFunctionRightRequest
+  commentId: T:SuperOffice.WebApi.Data.Sentry_HasFunctionRightRequest
+  id: Sentry_HasFunctionRightRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Sentry_HasFunctionRightRequest.#ctor
+  - SuperOffice.WebApi.Data.Sentry_HasFunctionRightRequest.FunctionRight
+  langs:
+  - csharp
+  - vb
+  name: Sentry_HasFunctionRightRequest
+  nameWithType: Sentry_HasFunctionRightRequest
+  fullName: SuperOffice.WebApi.Data.Sentry_HasFunctionRightRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Sentry_HasFunctionRightRequest : Object'
+    content.vb: >-
+      Public Class Sentry_HasFunctionRightRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Sentry_HasFunctionRightRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Sentry_HasFunctionRightRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Sentry_HasFunctionRightRequest
+  langs:
+  - csharp
+  - vb
+  name: Sentry_HasFunctionRightRequest()
+  nameWithType: Sentry_HasFunctionRightRequest.Sentry_HasFunctionRightRequest()
+  fullName: SuperOffice.WebApi.Data.Sentry_HasFunctionRightRequest.Sentry_HasFunctionRightRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Sentry_HasFunctionRightRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Sentry_HasFunctionRightRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sentry_HasFunctionRightRequest.FunctionRight
+  commentId: P:SuperOffice.WebApi.Data.Sentry_HasFunctionRightRequest.FunctionRight
+  id: FunctionRight
+  parent: SuperOffice.WebApi.Data.Sentry_HasFunctionRightRequest
+  langs:
+  - csharp
+  - vb
+  name: FunctionRight
+  nameWithType: Sentry_HasFunctionRightRequest.FunctionRight
+  fullName: SuperOffice.WebApi.Data.Sentry_HasFunctionRightRequest.FunctionRight
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string FunctionRight { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FunctionRight As String
+  overload: SuperOffice.WebApi.Data.Sentry_HasFunctionRightRequest.FunctionRight*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Sentry_HasFunctionRightRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Sentry_HasFunctionRightRequest.#ctor
+  isExternal: true
+  name: Sentry_HasFunctionRightRequest
+  nameWithType: Sentry_HasFunctionRightRequest.Sentry_HasFunctionRightRequest
+  fullName: SuperOffice.WebApi.Data.Sentry_HasFunctionRightRequest.Sentry_HasFunctionRightRequest
+- uid: SuperOffice.WebApi.Data.Sentry_HasFunctionRightRequest.FunctionRight*
+  commentId: Overload:SuperOffice.WebApi.Data.Sentry_HasFunctionRightRequest.FunctionRight
+  isExternal: true
+  name: FunctionRight
+  nameWithType: Sentry_HasFunctionRightRequest.FunctionRight
+  fullName: SuperOffice.WebApi.Data.Sentry_HasFunctionRightRequest.FunctionRight
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

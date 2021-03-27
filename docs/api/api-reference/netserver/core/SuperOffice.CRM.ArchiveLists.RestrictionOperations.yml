@@ -1,0 +1,1688 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  commentId: T:SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  id: RestrictionOperations
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.AllOf
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.BuildPeriodReturnValues(System.DateTime[],System.Int32[])
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.CalculateAndValidateNumberOfValues(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,System.Boolean)
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.ConvertOperatorType(System.String)
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.CreateListAllRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,SuperOffice.CRM.ArchiveLists.ArchiveSelect,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.CreateSqlRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.DatePair(SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.DatePair(System.String[],SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetExpandedValueHint(SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo)
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetNumRequiredValues(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,System.Boolean)
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetOperatorInfo(System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetOperatorsForType(System.String)
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.IsNotNull
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.IsNull
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.IsPK
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.NoneOf
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.NotOneOf
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.OneOf
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.OpEquals
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorNameToReporterOperatorName(System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.PhoneBegins
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.PhoneContains
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.PhoneEquals
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.PopulateCalculatedRestrictionValues(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.PopulateColumnInfo(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.PopulateDisplayValues(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.ReporterOperatorNameToOperatorName(System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.RestrictionTypeToOperatorType(System.String)
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.Set
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.SetDefaults(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  - SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueHintDelimiter
+  langs:
+  - csharp
+  - vb
+  name: RestrictionOperations
+  nameWithType: RestrictionOperations
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nThis class provides basic restriction handling for Archive lists. It knows the allowable operators\nfor each column type, can provide a list of them for the SoList system, and can parse a restriction\n(that is, the value part of the restriction). It also (re)calculates values that are relative to the\ncurrent date/time or some other changeable quantity.\n"
+  remarks: "\nThe remarks on the static constructor document the naming conventions for the reflection-based method lookup,\nthat controls much of the functionality of this class.\n"
+  syntax:
+    content: public static class RestrictionOperations
+    content.vb: Public Module RestrictionOperations
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OpEquals
+  commentId: F:SuperOffice.CRM.ArchiveLists.RestrictionOperations.OpEquals
+  id: OpEquals
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: OpEquals
+  nameWithType: RestrictionOperations.OpEquals
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OpEquals
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string OpEquals = "equals"
+    return:
+      type: System.String
+    content.vb: Public Const OpEquals As String = "equals"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.PhoneBegins
+  commentId: F:SuperOffice.CRM.ArchiveLists.RestrictionOperations.PhoneBegins
+  id: PhoneBegins
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: PhoneBegins
+  nameWithType: RestrictionOperations.PhoneBegins
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.PhoneBegins
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PhoneBegins = "begins"
+    return:
+      type: System.String
+    content.vb: Public Const PhoneBegins As String = "begins"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.PhoneContains
+  commentId: F:SuperOffice.CRM.ArchiveLists.RestrictionOperations.PhoneContains
+  id: PhoneContains
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: PhoneContains
+  nameWithType: RestrictionOperations.PhoneContains
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.PhoneContains
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PhoneContains = "contains"
+    return:
+      type: System.String
+    content.vb: Public Const PhoneContains As String = "contains"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.PhoneEquals
+  commentId: F:SuperOffice.CRM.ArchiveLists.RestrictionOperations.PhoneEquals
+  id: PhoneEquals
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: PhoneEquals
+  nameWithType: RestrictionOperations.PhoneEquals
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.PhoneEquals
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string PhoneEquals = "is"
+    return:
+      type: System.String
+    content.vb: Public Const PhoneEquals As String = "is"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.AllOf
+  commentId: F:SuperOffice.CRM.ArchiveLists.RestrictionOperations.AllOf
+  id: AllOf
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: AllOf
+  nameWithType: RestrictionOperations.AllOf
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.AllOf
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string AllOf = "allOf"
+    return:
+      type: System.String
+    content.vb: Public Const AllOf As String = "allOf"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.NoneOf
+  commentId: F:SuperOffice.CRM.ArchiveLists.RestrictionOperations.NoneOf
+  id: NoneOf
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: NoneOf
+  nameWithType: RestrictionOperations.NoneOf
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.NoneOf
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string NoneOf = "noneOf"
+    return:
+      type: System.String
+    content.vb: Public Const NoneOf As String = "noneOf"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.NotOneOf
+  commentId: F:SuperOffice.CRM.ArchiveLists.RestrictionOperations.NotOneOf
+  id: NotOneOf
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: NotOneOf
+  nameWithType: RestrictionOperations.NotOneOf
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.NotOneOf
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string NotOneOf = "notOneOf"
+    return:
+      type: System.String
+    content.vb: Public Const NotOneOf As String = "notOneOf"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OneOf
+  commentId: F:SuperOffice.CRM.ArchiveLists.RestrictionOperations.OneOf
+  id: OneOf
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: OneOf
+  nameWithType: RestrictionOperations.OneOf
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OneOf
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string OneOf = "oneOf"
+    return:
+      type: System.String
+    content.vb: Public Const OneOf As String = "oneOf"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.IsNull
+  commentId: F:SuperOffice.CRM.ArchiveLists.RestrictionOperations.IsNull
+  id: IsNull
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: IsNull
+  nameWithType: RestrictionOperations.IsNull
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.IsNull
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string IsNull = "isNull"
+    return:
+      type: System.String
+    content.vb: Public Const IsNull As String = "isNull"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.IsNotNull
+  commentId: F:SuperOffice.CRM.ArchiveLists.RestrictionOperations.IsNotNull
+  id: IsNotNull
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: IsNotNull
+  nameWithType: RestrictionOperations.IsNotNull
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.IsNotNull
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string IsNotNull = "isNotNull"
+    return:
+      type: System.String
+    content.vb: Public Const IsNotNull As String = "isNotNull"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.IsPK
+  commentId: F:SuperOffice.CRM.ArchiveLists.RestrictionOperations.IsPK
+  id: IsPK
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: IsPK
+  nameWithType: RestrictionOperations.IsPK
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.IsPK
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string IsPK = "isPK"
+    return:
+      type: System.String
+    content.vb: Public Const IsPK As String = "isPK"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.Set
+  commentId: F:SuperOffice.CRM.ArchiveLists.RestrictionOperations.Set
+  id: Set
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: Set
+  nameWithType: RestrictionOperations.Set
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.Set
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Set = "set"
+    return:
+      type: System.String
+    content.vb: Public Const Set As String = "set"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueHintDelimiter
+  commentId: F:SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueHintDelimiter
+  id: ValueHintDelimiter
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: ValueHintDelimiter
+  nameWithType: RestrictionOperations.ValueHintDelimiter
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueHintDelimiter
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ValueHintDelimiter = ";"
+    return:
+      type: System.String
+    content.vb: Public Const ValueHintDelimiter As String = ";"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetOperatorsForType(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetOperatorsForType(System.String)
+  id: GetOperatorsForType(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: GetOperatorsForType(String)
+  nameWithType: RestrictionOperations.GetOperatorsForType(String)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetOperatorsForType(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nReturn an array of <xref href=\"SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo\" data-throw-if-not-resolved=\"false\"></xref> elements describing valid operators for the given data type.\nAn array of length 0 is returned if the data type is unknown.\n"
+  syntax:
+    content: public static RestrictionOperations.OperatorInfo[] GetOperatorsForType(string dataType)
+    parameters:
+    - id: dataType
+      type: System.String
+      description: Case-insensitive name of data type
+    return:
+      type: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo[]
+      description: Array of operators, or empty array
+    content.vb: Public Shared Function GetOperatorsForType(dataType As String) As RestrictionOperations.OperatorInfo()
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetOperatorsForType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetExpandedValueHint(SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetExpandedValueHint(SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo)
+  id: GetExpandedValueHint(SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo)
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: GetExpandedValueHint(RestrictionOperations.OperatorInfo)
+  nameWithType: RestrictionOperations.GetExpandedValueHint(RestrictionOperations.OperatorInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetExpandedValueHint(SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nReturn an expanded value hint (containing default values) for the given operator.\n"
+  remarks: "\nThis method invokes the appropriate ValueCalculator method to calculate values, such as \n&quot;next week&quot;. Some operators do not have such values defined (or meaningful), in those cases the original\nvalue hint is returned unchanged.\n"
+  syntax:
+    content: public static string GetExpandedValueHint(RestrictionOperations.OperatorInfo operatorInfo)
+    parameters:
+    - id: operatorInfo
+      type: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo
+      description: Operator information
+    return:
+      type: System.String
+      description: Expanded value hint
+    content.vb: Public Shared Function GetExpandedValueHint(operatorInfo As RestrictionOperations.OperatorInfo) As String
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetExpandedValueHint*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoIllegalOperationException
+    commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
+    description: "\nThrown if the number of placeholders in the value hint does not correspond to the\nnumber of values returned by the value calculator; this is a fairly serious internal inconsistency since \nit will propagate to parsing.\n"
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.PopulateCalculatedRestrictionValues(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionOperations.PopulateCalculatedRestrictionValues(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  id: PopulateCalculatedRestrictionValues(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: PopulateCalculatedRestrictionValues(ArchiveRestrictionInfo)
+  nameWithType: RestrictionOperations.PopulateCalculatedRestrictionValues(ArchiveRestrictionInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.PopulateCalculatedRestrictionValues(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nTake an ArchiveRestrictionInfo, and populate its values. Values that are calculated are set to their\ncurrent value (i.e., &apos;this week&apos; is expanded to two values, denoting the start and end of the week enclosing the time\nwhen the PopulateRestrictionValues was called). \n"
+  syntax:
+    content: public static void PopulateCalculatedRestrictionValues(ArchiveRestrictionInfo restriction)
+    parameters:
+    - id: restriction
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+      description: restriction to populate
+    content.vb: Public Shared Sub PopulateCalculatedRestrictionValues(restriction As ArchiveRestrictionInfo)
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionOperations.PopulateCalculatedRestrictionValues*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.PopulateColumnInfo(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionOperations.PopulateColumnInfo(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  id: PopulateColumnInfo(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: PopulateColumnInfo(String, String, ArchiveRestrictionInfo[])
+  nameWithType: RestrictionOperations.PopulateColumnInfo(String, String, ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.PopulateColumnInfo(System.String, System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nPopulate the ColumnInfo part of an array of ArchiveRestrictionInfo, based on the given provider name. Existing ColumnInfo \nobjects with nonempty names will be left untouched, others will be populated\n"
+  syntax:
+    content: public static void PopulateColumnInfo(string providerName, string context, params ArchiveRestrictionInfo[] restrictions)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: Name of archive provider to use
+    - id: context
+      type: System.String
+    - id: restrictions
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+      description: Restrictions to populate
+    content.vb: Public Shared Sub PopulateColumnInfo(providerName As String, context As String, ParamArray restrictions As ArchiveRestrictionInfo())
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionOperations.PopulateColumnInfo*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoIllegalOperationException
+    commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
+    description: Thrown if a restriction name does not match any column name of the given provider
+  nameWithType.vb: RestrictionOperations.PopulateColumnInfo(String, String, ArchiveRestrictionInfo())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionOperations.PopulateColumnInfo(System.String, System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: PopulateColumnInfo(String, String, ArchiveRestrictionInfo())
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetNumRequiredValues(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,System.Boolean)
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetNumRequiredValues(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,System.Boolean)
+  id: GetNumRequiredValues(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,System.Boolean)
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: GetNumRequiredValues(ArchiveRestrictionInfo, Boolean)
+  nameWithType: RestrictionOperations.GetNumRequiredValues(ArchiveRestrictionInfo, Boolean)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetNumRequiredValues(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nReturn the number of values required by this restriction, with or without counting calculated values.\nThe algorithm is based on the ValueHints, and takes both the restriction type and operator into account.\nA negative result means &apos;at least this number&apos; of values.\n"
+  syntax:
+    content: public static int GetNumRequiredValues(ArchiveRestrictionInfo restriction, bool includeCalculatedInCount)
+    parameters:
+    - id: restriction
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+      description: Restriction to parse
+    - id: includeCalculatedInCount
+      type: System.Boolean
+      description: Should calculated (read-only) values be included
+    return:
+      type: System.Int32
+      description: Number of values required; if positive then this is an absoute number, if negative, then the smallest number (more values are legal)
+    content.vb: Public Shared Function GetNumRequiredValues(restriction As ArchiveRestrictionInfo, includeCalculatedInCount As Boolean) As Integer
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetNumRequiredValues*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.CalculateAndValidateNumberOfValues(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,System.Boolean)
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionOperations.CalculateAndValidateNumberOfValues(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,System.Boolean)
+  id: CalculateAndValidateNumberOfValues(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,System.Boolean)
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: CalculateAndValidateNumberOfValues(ArchiveRestrictionInfo, Boolean)
+  nameWithType: RestrictionOperations.CalculateAndValidateNumberOfValues(ArchiveRestrictionInfo, Boolean)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.CalculateAndValidateNumberOfValues(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static int CalculateAndValidateNumberOfValues(ArchiveRestrictionInfo restriction, bool throwException)
+    parameters:
+    - id: restriction
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    - id: throwException
+      type: System.Boolean
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function CalculateAndValidateNumberOfValues(restriction As ArchiveRestrictionInfo, throwException As Boolean) As Integer
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionOperations.CalculateAndValidateNumberOfValues*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.PopulateDisplayValues(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionOperations.PopulateDisplayValues(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  id: PopulateDisplayValues(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: PopulateDisplayValues(ArchiveRestrictionInfo[])
+  nameWithType: RestrictionOperations.PopulateDisplayValues(ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.PopulateDisplayValues(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nTake the current Values of the restrictions, and use them to set the corresponding DisplayValues. This\ndepends on the restriction types (for instance, lists); operator (such as IsPK), or possibly other\nmetadata or context.\n"
+  syntax:
+    content: public static void PopulateDisplayValues(params ArchiveRestrictionInfo[] restrictions)
+    parameters:
+    - id: restrictions
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+      description: Restrictions to inspect and update
+    content.vb: Public Shared Sub PopulateDisplayValues(ParamArray restrictions As ArchiveRestrictionInfo())
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionOperations.PopulateDisplayValues*
+  nameWithType.vb: RestrictionOperations.PopulateDisplayValues(ArchiveRestrictionInfo())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionOperations.PopulateDisplayValues(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: PopulateDisplayValues(ArchiveRestrictionInfo())
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetOperatorInfo(System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetOperatorInfo(System.String,System.String)
+  id: GetOperatorInfo(System.String,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: GetOperatorInfo(String, String)
+  nameWithType: RestrictionOperations.GetOperatorInfo(String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetOperatorInfo(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nLocate the OperatorInfo corresponding to the given operator name and restriction type. If the operator\ncannot be found for the given restriction type, try to find it using the static prefix and the\nrestriction type.\n"
+  syntax:
+    content: public static RestrictionOperations.OperatorInfo GetOperatorInfo(string operatorName, string restrictionType)
+    parameters:
+    - id: operatorName
+      type: System.String
+      description: Operator to find
+    - id: restrictionType
+      type: System.String
+      description: Rrestriction type, will be used alone and with static prefix
+    return:
+      type: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo
+      description: Operator information, or null
+    content.vb: Public Shared Function GetOperatorInfo(operatorName As String, restrictionType As String) As RestrictionOperations.OperatorInfo
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetOperatorInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.CreateSqlRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionOperations.CreateSqlRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,SuperOffice.Data.SQL.FieldInfo)
+  id: CreateSqlRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: CreateSqlRestriction(ArchiveRestrictionInfo, FieldInfo)
+  nameWithType: RestrictionOperations.CreateSqlRestriction(ArchiveRestrictionInfo, FieldInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.CreateSqlRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nGiven a restriction information object and a target database field, create the corresponding\nSQL restriction, based on the field&apos;s data type, the restriction operator and any relevant values.\nNOTE that this method BY DESIGN does not take subrestrictions into account.\n"
+  remarks: "\nThe implementation of this method must be able to handle all known operators. If you add an operator,\nyou need to add its handling by declaring a method with the following signature:\n<pre><code>public Restriction Parse[OperatorName]( ArchiveRestrictionInfo restriction, FieldInfo targetField )</code></pre>\nSubstitute the name of your operator for the [OperatorName] above. Since operator names do not have\nto be unique across data type, you need to check the data type of the FieldInfo and be prepared to \naccept any meaningful type. The method lookup is reflection-based and you do not have to anything except declare\nthe parse method.\n"
+  syntax:
+    content: public static Restriction CreateSqlRestriction(ArchiveRestrictionInfo restriction, FieldInfo targetField)
+    parameters:
+    - id: restriction
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+      description: Restriction to parse
+    - id: targetField
+      type: SuperOffice.Data.SQL.FieldInfo
+      description: Target field in database
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Shared Function CreateSqlRestriction(restriction As ArchiveRestrictionInfo, targetField As FieldInfo) As Restriction
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionOperations.CreateSqlRestriction*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.CreateListAllRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,SuperOffice.CRM.ArchiveLists.ArchiveSelect,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionOperations.CreateListAllRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,SuperOffice.CRM.ArchiveLists.ArchiveSelect,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
+  id: CreateListAllRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo,SuperOffice.CRM.ArchiveLists.ArchiveSelect,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: CreateListAllRestriction(ArchiveRestrictionInfo, ArchiveSelect, FieldInfo, FieldInfo, FieldInfo)
+  nameWithType: RestrictionOperations.CreateListAllRestriction(ArchiveRestrictionInfo, ArchiveSelect, FieldInfo, FieldInfo, FieldInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.CreateListAllRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo, SuperOffice.CRM.ArchiveLists.ArchiveSelect, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nHandle restrictions for ListAll type columns, which require multiple aliased joins\n"
+  remarks: "\n"
+  syntax:
+    content: public static void CreateListAllRestriction(ArchiveRestrictionInfo restriction, ArchiveSelect targetQuery, FieldInfo leftField, FieldInfo rightField, FieldInfo valueField)
+    parameters:
+    - id: restriction
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    - id: targetQuery
+      type: SuperOffice.CRM.ArchiveLists.ArchiveSelect
+    - id: leftField
+      type: SuperOffice.Data.SQL.FieldInfo
+    - id: rightField
+      type: SuperOffice.Data.SQL.FieldInfo
+    - id: valueField
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public Shared Sub CreateListAllRestriction(restriction As ArchiveRestrictionInfo, targetQuery As ArchiveSelect, leftField As FieldInfo, rightField As FieldInfo, valueField As FieldInfo)
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionOperations.CreateListAllRestriction*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.SetDefaults(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionOperations.SetDefaults(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  id: SetDefaults(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults(ArchiveRestrictionInfo)
+  nameWithType: RestrictionOperations.SetDefaults(ArchiveRestrictionInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.SetDefaults(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static void SetDefaults(ArchiveRestrictionInfo restriction)
+    parameters:
+    - id: restriction
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    content.vb: Public Shared Sub SetDefaults(restriction As ArchiveRestrictionInfo)
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionOperations.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.DatePair(System.String[],SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionOperations.DatePair(System.String[],SuperOffice.Data.SQL.FieldInfo)
+  id: DatePair(System.String[],SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: DatePair(String[], FieldInfo)
+  nameWithType: RestrictionOperations.DatePair(String[], FieldInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.DatePair(System.String[], SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static Restriction DatePair(string[] values, FieldInfo targetField)
+    parameters:
+    - id: values
+      type: System.String[]
+    - id: targetField
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Shared Function DatePair(values As String(), targetField As FieldInfo) As Restriction
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionOperations.DatePair*
+  nameWithType.vb: RestrictionOperations.DatePair(String(), FieldInfo)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionOperations.DatePair(System.String(), SuperOffice.Data.SQL.FieldInfo)
+  name.vb: DatePair(String(), FieldInfo)
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.DatePair(SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionOperations.DatePair(SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator,SuperOffice.Data.SQL.FieldInfo)
+  id: DatePair(SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: DatePair(RestrictionOperations.ValueCalculator, FieldInfo)
+  nameWithType: RestrictionOperations.DatePair(RestrictionOperations.ValueCalculator, FieldInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.DatePair(SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static Restriction DatePair(RestrictionOperations.ValueCalculator calculator, FieldInfo targetField)
+    parameters:
+    - id: calculator
+      type: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator
+    - id: targetField
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Shared Function DatePair(calculator As RestrictionOperations.ValueCalculator, targetField As FieldInfo) As Restriction
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionOperations.DatePair*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.BuildPeriodReturnValues(System.DateTime[],System.Int32[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionOperations.BuildPeriodReturnValues(System.DateTime[],System.Int32[])
+  id: BuildPeriodReturnValues(System.DateTime[],System.Int32[])
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: BuildPeriodReturnValues(DateTime[], Int32[])
+  nameWithType: RestrictionOperations.BuildPeriodReturnValues(DateTime[], Int32[])
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.BuildPeriodReturnValues(System.DateTime[], System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nCombines the two parameter-arrays into a single array, encoded as their datatype.\n"
+  syntax:
+    content: public static string[] BuildPeriodReturnValues(DateTime[] calculatedValues, params int[] inputValues)
+    parameters:
+    - id: calculatedValues
+      type: System.DateTime[]
+    - id: inputValues
+      type: System.Int32[]
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function BuildPeriodReturnValues(calculatedValues As Date(), ParamArray inputValues As Integer()) As String()
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionOperations.BuildPeriodReturnValues*
+  nameWithType.vb: RestrictionOperations.BuildPeriodReturnValues(DateTime(), Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionOperations.BuildPeriodReturnValues(System.DateTime(), System.Int32())
+  name.vb: BuildPeriodReturnValues(DateTime(), Int32())
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorNameToReporterOperatorName(System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorNameToReporterOperatorName(System.String,System.String)
+  id: OperatorNameToReporterOperatorName(System.String,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: OperatorNameToReporterOperatorName(String, String)
+  nameWithType: RestrictionOperations.OperatorNameToReporterOperatorName(String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorNameToReporterOperatorName(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static string OperatorNameToReporterOperatorName(string operatorName, string operatorType)
+    parameters:
+    - id: operatorName
+      type: System.String
+    - id: operatorType
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function OperatorNameToReporterOperatorName(operatorName As String, operatorType As String) As String
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorNameToReporterOperatorName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ReporterOperatorNameToOperatorName(System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionOperations.ReporterOperatorNameToOperatorName(System.String,System.String)
+  id: ReporterOperatorNameToOperatorName(System.String,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: ReporterOperatorNameToOperatorName(String, String)
+  nameWithType: RestrictionOperations.ReporterOperatorNameToOperatorName(String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ReporterOperatorNameToOperatorName(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static string ReporterOperatorNameToOperatorName(string reporterOperatorName, string restrictionType)
+    parameters:
+    - id: reporterOperatorName
+      type: System.String
+    - id: restrictionType
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function ReporterOperatorNameToOperatorName(reporterOperatorName As String, restrictionType As String) As String
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ReporterOperatorNameToOperatorName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ConvertOperatorType(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionOperations.ConvertOperatorType(System.String)
+  id: ConvertOperatorType(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: ConvertOperatorType(String)
+  nameWithType: RestrictionOperations.ConvertOperatorType(String)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ConvertOperatorType(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static string ConvertOperatorType(string operatorType)
+    parameters:
+    - id: operatorType
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function ConvertOperatorType(operatorType As String) As String
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ConvertOperatorType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.RestrictionTypeToOperatorType(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionOperations.RestrictionTypeToOperatorType(System.String)
+  id: RestrictionTypeToOperatorType(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionOperations
+  langs:
+  - csharp
+  - vb
+  name: RestrictionTypeToOperatorType(String)
+  nameWithType: RestrictionOperations.RestrictionTypeToOperatorType(String)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.RestrictionTypeToOperatorType(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static string RestrictionTypeToOperatorType(string restrictionType)
+    parameters:
+    - id: restrictionType
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function RestrictionTypeToOperatorType(restrictionType As String) As String
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionOperations.RestrictionTypeToOperatorType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetOperatorsForType*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetOperatorsForType
+  isExternal: true
+  name: GetOperatorsForType
+  nameWithType: RestrictionOperations.GetOperatorsForType
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetOperatorsForType
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo[]
+  isExternal: true
+  name: RestrictionOperations.OperatorInfo[]
+  nameWithType: RestrictionOperations.OperatorInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo[]
+  nameWithType.vb: RestrictionOperations.OperatorInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo()
+  name.vb: RestrictionOperations.OperatorInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo
+    name: RestrictionOperations.OperatorInfo
+    nameWithType: RestrictionOperations.OperatorInfo
+    fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo
+    name: RestrictionOperations.OperatorInfo
+    nameWithType: RestrictionOperations.OperatorInfo
+    fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetExpandedValueHint*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetExpandedValueHint
+  isExternal: true
+  name: GetExpandedValueHint
+  nameWithType: RestrictionOperations.GetExpandedValueHint
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetExpandedValueHint
+- uid: SuperOffice.Exceptions.SoIllegalOperationException
+  commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
+  isExternal: true
+  name: SoIllegalOperationException
+  nameWithType: SoIllegalOperationException
+  fullName: SuperOffice.Exceptions.SoIllegalOperationException
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo
+  commentId: T:SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: RestrictionOperations.OperatorInfo
+  nameWithType: RestrictionOperations.OperatorInfo
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorInfo
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.PopulateCalculatedRestrictionValues*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionOperations.PopulateCalculatedRestrictionValues
+  isExternal: true
+  name: PopulateCalculatedRestrictionValues
+  nameWithType: RestrictionOperations.PopulateCalculatedRestrictionValues
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.PopulateCalculatedRestrictionValues
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveRestrictionInfo
+  nameWithType: ArchiveRestrictionInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.PopulateColumnInfo*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionOperations.PopulateColumnInfo
+  isExternal: true
+  name: PopulateColumnInfo
+  nameWithType: RestrictionOperations.PopulateColumnInfo
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.PopulateColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetNumRequiredValues*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetNumRequiredValues
+  isExternal: true
+  name: GetNumRequiredValues
+  nameWithType: RestrictionOperations.GetNumRequiredValues
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetNumRequiredValues
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.CalculateAndValidateNumberOfValues*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionOperations.CalculateAndValidateNumberOfValues
+  isExternal: true
+  name: CalculateAndValidateNumberOfValues
+  nameWithType: RestrictionOperations.CalculateAndValidateNumberOfValues
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.CalculateAndValidateNumberOfValues
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.PopulateDisplayValues*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionOperations.PopulateDisplayValues
+  isExternal: true
+  name: PopulateDisplayValues
+  nameWithType: RestrictionOperations.PopulateDisplayValues
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.PopulateDisplayValues
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetOperatorInfo*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetOperatorInfo
+  isExternal: true
+  name: GetOperatorInfo
+  nameWithType: RestrictionOperations.GetOperatorInfo
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.GetOperatorInfo
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.CreateSqlRestriction*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionOperations.CreateSqlRestriction
+  isExternal: true
+  name: CreateSqlRestriction
+  nameWithType: RestrictionOperations.CreateSqlRestriction
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.CreateSqlRestriction
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: SuperOffice.Data.SQL.Restriction
+  commentId: T:SuperOffice.Data.SQL.Restriction
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Restriction
+  nameWithType: Restriction
+  fullName: SuperOffice.Data.SQL.Restriction
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.CreateListAllRestriction*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionOperations.CreateListAllRestriction
+  isExternal: true
+  name: CreateListAllRestriction
+  nameWithType: RestrictionOperations.CreateListAllRestriction
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.CreateListAllRestriction
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveSelect
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveSelect
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveSelect
+  nameWithType: ArchiveSelect
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveSelect
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.SetDefaults*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionOperations.SetDefaults
+  isExternal: true
+  name: SetDefaults
+  nameWithType: RestrictionOperations.SetDefaults
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.SetDefaults
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.DatePair*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionOperations.DatePair
+  isExternal: true
+  name: DatePair
+  nameWithType: RestrictionOperations.DatePair
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.DatePair
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator
+  commentId: T:SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: RestrictionOperations.ValueCalculator
+  nameWithType: RestrictionOperations.ValueCalculator
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ValueCalculator
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.BuildPeriodReturnValues*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionOperations.BuildPeriodReturnValues
+  isExternal: true
+  name: BuildPeriodReturnValues
+  nameWithType: RestrictionOperations.BuildPeriodReturnValues
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.BuildPeriodReturnValues
+- uid: System.DateTime[]
+  isExternal: true
+  name: DateTime[]
+  nameWithType: DateTime[]
+  fullName: System.DateTime[]
+  nameWithType.vb: DateTime()
+  fullName.vb: System.DateTime()
+  name.vb: DateTime()
+  spec.csharp:
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorNameToReporterOperatorName*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorNameToReporterOperatorName
+  isExternal: true
+  name: OperatorNameToReporterOperatorName
+  nameWithType: RestrictionOperations.OperatorNameToReporterOperatorName
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.OperatorNameToReporterOperatorName
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ReporterOperatorNameToOperatorName*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionOperations.ReporterOperatorNameToOperatorName
+  isExternal: true
+  name: ReporterOperatorNameToOperatorName
+  nameWithType: RestrictionOperations.ReporterOperatorNameToOperatorName
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ReporterOperatorNameToOperatorName
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ConvertOperatorType*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionOperations.ConvertOperatorType
+  isExternal: true
+  name: ConvertOperatorType
+  nameWithType: RestrictionOperations.ConvertOperatorType
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.ConvertOperatorType
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionOperations.RestrictionTypeToOperatorType*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionOperations.RestrictionTypeToOperatorType
+  isExternal: true
+  name: RestrictionTypeToOperatorType
+  nameWithType: RestrictionOperations.RestrictionTypeToOperatorType
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionOperations.RestrictionTypeToOperatorType

@@ -1,0 +1,1093 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ITicketAgent
+  commentId: T:SuperOffice.CRM.Services.ITicketAgent
+  id: ITicketAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ITicketAgent.AddAttachments(System.Int32,System.Int32[])
+  - SuperOffice.CRM.Services.ITicketAgent.CreateDefaultAttachmentEntity
+  - SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketEntity
+  - SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketMessageEntity
+  - SuperOffice.CRM.Services.ITicketAgent.DeleteTicketEntity(System.Int32)
+  - SuperOffice.CRM.Services.ITicketAgent.DeleteTicketMessageEntity(System.Int32)
+  - SuperOffice.CRM.Services.ITicketAgent.GetAttachmentEntity(System.Int32)
+  - SuperOffice.CRM.Services.ITicketAgent.GetAttachmentInfo(System.Int32)
+  - SuperOffice.CRM.Services.ITicketAgent.GetAttachmentStream(System.Int32)
+  - SuperOffice.CRM.Services.ITicketAgent.GetTicket(System.Int32)
+  - SuperOffice.CRM.Services.ITicketAgent.GetTicketEntity(System.Int32)
+  - SuperOffice.CRM.Services.ITicketAgent.GetTicketMessage(System.Int32)
+  - SuperOffice.CRM.Services.ITicketAgent.GetTicketMessageEntity(System.Int32)
+  - SuperOffice.CRM.Services.ITicketAgent.GetTickets(System.Int32[])
+  - SuperOffice.CRM.Services.ITicketAgent.Html2Text(System.String)
+  - SuperOffice.CRM.Services.ITicketAgent.NotifyNewTicket(System.Int32)
+  - SuperOffice.CRM.Services.ITicketAgent.NotifyNewTicketMessage(System.Int32)
+  - SuperOffice.CRM.Services.ITicketAgent.SanitizeMailContent(System.String)
+  - SuperOffice.CRM.Services.ITicketAgent.SanitizeMailContents(System.String[])
+  - SuperOffice.CRM.Services.ITicketAgent.SaveAttachmentEntity(SuperOffice.CRM.Services.AttachmentEntity)
+  - SuperOffice.CRM.Services.ITicketAgent.SaveTicketEntity(SuperOffice.CRM.Services.TicketEntity)
+  - SuperOffice.CRM.Services.ITicketAgent.SaveTicketMessageEntity(SuperOffice.CRM.Services.TicketMessageEntity)
+  - SuperOffice.CRM.Services.ITicketAgent.SendTicketMessage(System.Int32,System.String[],System.String[],System.String[],System.String,System.Int32,System.String)
+  - SuperOffice.CRM.Services.ITicketAgent.UploadAttachment(System.Int32,System.IO.Stream)
+  langs:
+  - csharp
+  - vb
+  name: ITicketAgent
+  nameWithType: ITicketAgent
+  fullName: SuperOffice.CRM.Services.ITicketAgent
+  type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInterface for the Ticket Agent\nAgent used for Ticket functions\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (TicketAgent agent = new TicketAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: >-
+      [Agent("Ticket Agent", "Interface for the Ticket Agent. Agent used for Ticket functions")]
+
+      public interface ITicketAgent : IAgent
+    content.vb: >-
+      <Agent("Ticket Agent", "Interface for the Ticket Agent. Agent used for Ticket functions")>
+
+      Public Interface ITicketAgent
+          Inherits IAgent
+  attributes:
+  - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
+    ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: Ticket Agent
+    - type: System.String
+      value: Interface for the Ticket Agent. Agent used for Ticket functions
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketEntity
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketEntity
+  id: CreateDefaultTicketEntity
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTicketEntity()
+  nameWithType: ITicketAgent.CreateDefaultTicketEntity()
+  fullName: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketEntity()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new TicketEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: TicketEntity CreateDefaultTicketEntity()
+    return:
+      type: SuperOffice.CRM.Services.TicketEntity
+      description: New TicketEntity with default values
+    content.vb: Function CreateDefaultTicketEntity As TicketEntity
+  overload: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketEntity*
+- uid: SuperOffice.CRM.Services.ITicketAgent.SaveTicketEntity(SuperOffice.CRM.Services.TicketEntity)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.SaveTicketEntity(SuperOffice.CRM.Services.TicketEntity)
+  id: SaveTicketEntity(SuperOffice.CRM.Services.TicketEntity)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveTicketEntity(TicketEntity)
+  nameWithType: ITicketAgent.SaveTicketEntity(TicketEntity)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.SaveTicketEntity(SuperOffice.CRM.Services.TicketEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing TicketEntity or creates a new TicketEntity if the id parameter is empty\n"
+  syntax:
+    content: TicketEntity SaveTicketEntity(TicketEntity ticketEntity)
+    parameters:
+    - id: ticketEntity
+      type: SuperOffice.CRM.Services.TicketEntity
+      description: The TicketEntity that is saved.
+    return:
+      type: SuperOffice.CRM.Services.TicketEntity
+      description: New or updated TicketEntity
+    content.vb: Function SaveTicketEntity(ticketEntity As TicketEntity) As TicketEntity
+  overload: SuperOffice.CRM.Services.ITicketAgent.SaveTicketEntity*
+- uid: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketMessageEntity
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketMessageEntity
+  id: CreateDefaultTicketMessageEntity
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTicketMessageEntity()
+  nameWithType: ITicketAgent.CreateDefaultTicketMessageEntity()
+  fullName: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketMessageEntity()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new TicketMessageEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: TicketMessageEntity CreateDefaultTicketMessageEntity()
+    return:
+      type: SuperOffice.CRM.Services.TicketMessageEntity
+      description: New TicketMessageEntity with default values
+    content.vb: Function CreateDefaultTicketMessageEntity As TicketMessageEntity
+  overload: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketMessageEntity*
+- uid: SuperOffice.CRM.Services.ITicketAgent.SaveTicketMessageEntity(SuperOffice.CRM.Services.TicketMessageEntity)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.SaveTicketMessageEntity(SuperOffice.CRM.Services.TicketMessageEntity)
+  id: SaveTicketMessageEntity(SuperOffice.CRM.Services.TicketMessageEntity)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveTicketMessageEntity(TicketMessageEntity)
+  nameWithType: ITicketAgent.SaveTicketMessageEntity(TicketMessageEntity)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.SaveTicketMessageEntity(SuperOffice.CRM.Services.TicketMessageEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing TicketMessageEntity or creates a new TicketMessageEntity if the id parameter is empty\n"
+  syntax:
+    content: TicketMessageEntity SaveTicketMessageEntity(TicketMessageEntity ticketMessageEntity)
+    parameters:
+    - id: ticketMessageEntity
+      type: SuperOffice.CRM.Services.TicketMessageEntity
+      description: The TicketMessageEntity that is saved.
+    return:
+      type: SuperOffice.CRM.Services.TicketMessageEntity
+      description: New or updated TicketMessageEntity
+    content.vb: Function SaveTicketMessageEntity(ticketMessageEntity As TicketMessageEntity) As TicketMessageEntity
+  overload: SuperOffice.CRM.Services.ITicketAgent.SaveTicketMessageEntity*
+- uid: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultAttachmentEntity
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.CreateDefaultAttachmentEntity
+  id: CreateDefaultAttachmentEntity
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultAttachmentEntity()
+  nameWithType: ITicketAgent.CreateDefaultAttachmentEntity()
+  fullName: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultAttachmentEntity()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new AttachmentEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: AttachmentEntity CreateDefaultAttachmentEntity()
+    return:
+      type: SuperOffice.CRM.Services.AttachmentEntity
+      description: New AttachmentEntity with default values
+    content.vb: Function CreateDefaultAttachmentEntity As AttachmentEntity
+  overload: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultAttachmentEntity*
+- uid: SuperOffice.CRM.Services.ITicketAgent.SaveAttachmentEntity(SuperOffice.CRM.Services.AttachmentEntity)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.SaveAttachmentEntity(SuperOffice.CRM.Services.AttachmentEntity)
+  id: SaveAttachmentEntity(SuperOffice.CRM.Services.AttachmentEntity)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveAttachmentEntity(AttachmentEntity)
+  nameWithType: ITicketAgent.SaveAttachmentEntity(AttachmentEntity)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.SaveAttachmentEntity(SuperOffice.CRM.Services.AttachmentEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing AttachmentEntity or creates a new AttachmentEntity if the id parameter is empty\n"
+  syntax:
+    content: AttachmentEntity SaveAttachmentEntity(AttachmentEntity attachmentEntity)
+    parameters:
+    - id: attachmentEntity
+      type: SuperOffice.CRM.Services.AttachmentEntity
+      description: The AttachmentEntity that is saved.
+    return:
+      type: SuperOffice.CRM.Services.AttachmentEntity
+      description: New or updated AttachmentEntity
+    content.vb: Function SaveAttachmentEntity(attachmentEntity As AttachmentEntity) As AttachmentEntity
+  overload: SuperOffice.CRM.Services.ITicketAgent.SaveAttachmentEntity*
+- uid: SuperOffice.CRM.Services.ITicketAgent.GetTicketEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.GetTicketEntity(System.Int32)
+  id: GetTicketEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTicketEntity(Int32)
+  nameWithType: ITicketAgent.GetTicketEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.GetTicketEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a TicketEntity object.                        \n"
+  syntax:
+    content: TicketEntity GetTicketEntity(int ticketEntityId)
+    parameters:
+    - id: ticketEntityId
+      type: System.Int32
+      description: The identifier of the TicketEntity object
+    return:
+      type: SuperOffice.CRM.Services.TicketEntity
+      description: TicketEntity
+    content.vb: Function GetTicketEntity(ticketEntityId As Integer) As TicketEntity
+  overload: SuperOffice.CRM.Services.ITicketAgent.GetTicketEntity*
+- uid: SuperOffice.CRM.Services.ITicketAgent.DeleteTicketEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.DeleteTicketEntity(System.Int32)
+  id: DeleteTicketEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteTicketEntity(Int32)
+  nameWithType: ITicketAgent.DeleteTicketEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.DeleteTicketEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDelete a ticket\n"
+  syntax:
+    content: void DeleteTicketEntity(int ticketEntityId)
+    parameters:
+    - id: ticketEntityId
+      type: System.Int32
+      description: The ticket to delete
+    content.vb: Sub DeleteTicketEntity(ticketEntityId As Integer)
+  overload: SuperOffice.CRM.Services.ITicketAgent.DeleteTicketEntity*
+- uid: SuperOffice.CRM.Services.ITicketAgent.NotifyNewTicket(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.NotifyNewTicket(System.Int32)
+  id: NotifyNewTicket(System.Int32)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: NotifyNewTicket(Int32)
+  nameWithType: ITicketAgent.NotifyNewTicket(Int32)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.NotifyNewTicket(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNotify user agents about the creation of a new ticket\n"
+  syntax:
+    content: void NotifyNewTicket(int ticketEntityId)
+    parameters:
+    - id: ticketEntityId
+      type: System.Int32
+      description: The id of the ticket to notify about
+    content.vb: Sub NotifyNewTicket(ticketEntityId As Integer)
+  overload: SuperOffice.CRM.Services.ITicketAgent.NotifyNewTicket*
+- uid: SuperOffice.CRM.Services.ITicketAgent.NotifyNewTicketMessage(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.NotifyNewTicketMessage(System.Int32)
+  id: NotifyNewTicketMessage(System.Int32)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: NotifyNewTicketMessage(Int32)
+  nameWithType: ITicketAgent.NotifyNewTicketMessage(Int32)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.NotifyNewTicketMessage(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNotify user agents about the creation of a new message on a ticket\n"
+  syntax:
+    content: void NotifyNewTicketMessage(int ticketEntityId)
+    parameters:
+    - id: ticketEntityId
+      type: System.Int32
+      description: The id of the ticket to notify about
+    content.vb: Sub NotifyNewTicketMessage(ticketEntityId As Integer)
+  overload: SuperOffice.CRM.Services.ITicketAgent.NotifyNewTicketMessage*
+- uid: SuperOffice.CRM.Services.ITicketAgent.GetTicketMessageEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.GetTicketMessageEntity(System.Int32)
+  id: GetTicketMessageEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTicketMessageEntity(Int32)
+  nameWithType: ITicketAgent.GetTicketMessageEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.GetTicketMessageEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a TicketMessageEntity object.                        \n"
+  syntax:
+    content: TicketMessageEntity GetTicketMessageEntity(int ticketMessageEntityId)
+    parameters:
+    - id: ticketMessageEntityId
+      type: System.Int32
+      description: The identifier of the TicketMessageEntity object
+    return:
+      type: SuperOffice.CRM.Services.TicketMessageEntity
+      description: TicketMessageEntity
+    content.vb: Function GetTicketMessageEntity(ticketMessageEntityId As Integer) As TicketMessageEntity
+  overload: SuperOffice.CRM.Services.ITicketAgent.GetTicketMessageEntity*
+- uid: SuperOffice.CRM.Services.ITicketAgent.DeleteTicketMessageEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.DeleteTicketMessageEntity(System.Int32)
+  id: DeleteTicketMessageEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteTicketMessageEntity(Int32)
+  nameWithType: ITicketAgent.DeleteTicketMessageEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.DeleteTicketMessageEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDelete a ticket message\n"
+  syntax:
+    content: void DeleteTicketMessageEntity(int ticketMessageEntityId)
+    parameters:
+    - id: ticketMessageEntityId
+      type: System.Int32
+      description: The ticket message to delete
+    content.vb: Sub DeleteTicketMessageEntity(ticketMessageEntityId As Integer)
+  overload: SuperOffice.CRM.Services.ITicketAgent.DeleteTicketMessageEntity*
+- uid: SuperOffice.CRM.Services.ITicketAgent.SanitizeMailContent(System.String)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.SanitizeMailContent(System.String)
+  id: SanitizeMailContent(System.String)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: SanitizeMailContent(String)
+  nameWithType: ITicketAgent.SanitizeMailContent(String)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.SanitizeMailContent(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRemove harmful HTML tags and attributes from an email\n"
+  syntax:
+    content: string SanitizeMailContent(string content)
+    parameters:
+    - id: content
+      type: System.String
+      description: The email content to sanitize
+    return:
+      type: System.String
+      description: The sanitized email content
+    content.vb: Function SanitizeMailContent(content As String) As String
+  overload: SuperOffice.CRM.Services.ITicketAgent.SanitizeMailContent*
+- uid: SuperOffice.CRM.Services.ITicketAgent.SanitizeMailContents(System.String[])
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.SanitizeMailContents(System.String[])
+  id: SanitizeMailContents(System.String[])
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: SanitizeMailContents(String[])
+  nameWithType: ITicketAgent.SanitizeMailContents(String[])
+  fullName: SuperOffice.CRM.Services.ITicketAgent.SanitizeMailContents(System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRemove harmful HTML tags and attributes from an email\n"
+  syntax:
+    content: string[] SanitizeMailContents(string[] contents)
+    parameters:
+    - id: contents
+      type: System.String[]
+      description: The email contents to sanitize
+    return:
+      type: System.String[]
+      description: The sanitized email contents
+    content.vb: Function SanitizeMailContents(contents As String()) As String()
+  overload: SuperOffice.CRM.Services.ITicketAgent.SanitizeMailContents*
+  nameWithType.vb: ITicketAgent.SanitizeMailContents(String())
+  fullName.vb: SuperOffice.CRM.Services.ITicketAgent.SanitizeMailContents(System.String())
+  name.vb: SanitizeMailContents(String())
+- uid: SuperOffice.CRM.Services.ITicketAgent.Html2Text(System.String)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.Html2Text(System.String)
+  id: Html2Text(System.String)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: Html2Text(String)
+  nameWithType: ITicketAgent.Html2Text(String)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.Html2Text(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreate a plain text version of the html, suitable for email\n"
+  syntax:
+    content: string Html2Text(string content)
+    parameters:
+    - id: content
+      type: System.String
+      description: The html version
+    return:
+      type: System.String
+      description: The plain text version
+    content.vb: Function Html2Text(content As String) As String
+  overload: SuperOffice.CRM.Services.ITicketAgent.Html2Text*
+- uid: SuperOffice.CRM.Services.ITicketAgent.GetAttachmentInfo(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.GetAttachmentInfo(System.Int32)
+  id: GetAttachmentInfo(System.Int32)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAttachmentInfo(Int32)
+  nameWithType: ITicketAgent.GetAttachmentInfo(Int32)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.GetAttachmentInfo(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a list with meta data for all attached attachments\n"
+  syntax:
+    content: AttachmentEntity[] GetAttachmentInfo(int ticketMessageEntityId)
+    parameters:
+    - id: ticketMessageEntityId
+      type: System.Int32
+      description: The id of the ticket message to get attachment infos
+    return:
+      type: SuperOffice.CRM.Services.AttachmentEntity[]
+      description: An array with AttachmentEntity objects, describing each attachment
+    content.vb: Function GetAttachmentInfo(ticketMessageEntityId As Integer) As AttachmentEntity()
+  overload: SuperOffice.CRM.Services.ITicketAgent.GetAttachmentInfo*
+- uid: SuperOffice.CRM.Services.ITicketAgent.AddAttachments(System.Int32,System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.AddAttachments(System.Int32,System.Int32[])
+  id: AddAttachments(System.Int32,System.Int32[])
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: AddAttachments(Int32, Int32[])
+  nameWithType: ITicketAgent.AddAttachments(Int32, Int32[])
+  fullName: SuperOffice.CRM.Services.ITicketAgent.AddAttachments(System.Int32, System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nConnect existing attachments with this TicketMessage. Can connect multiple attachments\n"
+  syntax:
+    content: void AddAttachments(int ticketMessageEntityId, int[] attachmentIds)
+    parameters:
+    - id: ticketMessageEntityId
+      type: System.Int32
+      description: The id of the ticket message to connect the attachments to
+    - id: attachmentIds
+      type: System.Int32[]
+      description: An array of attachments to connect to this TicketMessage
+    content.vb: Sub AddAttachments(ticketMessageEntityId As Integer, attachmentIds As Integer())
+  overload: SuperOffice.CRM.Services.ITicketAgent.AddAttachments*
+  nameWithType.vb: ITicketAgent.AddAttachments(Int32, Int32())
+  fullName.vb: SuperOffice.CRM.Services.ITicketAgent.AddAttachments(System.Int32, System.Int32())
+  name.vb: AddAttachments(Int32, Int32())
+- uid: SuperOffice.CRM.Services.ITicketAgent.SendTicketMessage(System.Int32,System.String[],System.String[],System.String[],System.String,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.SendTicketMessage(System.Int32,System.String[],System.String[],System.String[],System.String,System.Int32,System.String)
+  id: SendTicketMessage(System.Int32,System.String[],System.String[],System.String[],System.String,System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: SendTicketMessage(Int32, String[], String[], String[], String, Int32, String)
+  nameWithType: ITicketAgent.SendTicketMessage(Int32, String[], String[], String[], String, Int32, String)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.SendTicketMessage(System.Int32, System.String[], System.String[], System.String[], System.String, System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSend a message to recipients, e.g. by email or sms\n"
+  syntax:
+    content: void SendTicketMessage(int ticketMessageEntityId, string[] to, string[] cc, string[] bcc, string subject, int replyTemplateId, string gdprSource)
+    parameters:
+    - id: ticketMessageEntityId
+      type: System.Int32
+      description: The id of the ticket message to send
+    - id: to
+      type: System.String[]
+      description: The To-recipients. Each recipient must be in correct format
+    - id: cc
+      type: System.String[]
+      description: The Cc-recipients. Each recipient must be in correct format
+    - id: bcc
+      type: System.String[]
+      description: The Bcc-recipients. Each recipient must be in correct format
+    - id: subject
+      type: System.String
+      description: The subject
+    - id: replyTemplateId
+      type: System.Int32
+      description: Optional ID of reply template to merge message with. &lt;= 0 to skip.
+    - id: gdprSource
+      type: System.String
+      description: 'Optional GdprSource string which will be stored for newly created Persons. Blank value will give Gdpr source: API.'
+    content.vb: Sub SendTicketMessage(ticketMessageEntityId As Integer, to As String(), cc As String(), bcc As String(), subject As String, replyTemplateId As Integer, gdprSource As String)
+  overload: SuperOffice.CRM.Services.ITicketAgent.SendTicketMessage*
+  nameWithType.vb: ITicketAgent.SendTicketMessage(Int32, String(), String(), String(), String, Int32, String)
+  fullName.vb: SuperOffice.CRM.Services.ITicketAgent.SendTicketMessage(System.Int32, System.String(), System.String(), System.String(), System.String, System.Int32, System.String)
+  name.vb: SendTicketMessage(Int32, String(), String(), String(), String, Int32, String)
+- uid: SuperOffice.CRM.Services.ITicketAgent.GetTicket(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.GetTicket(System.Int32)
+  id: GetTicket(System.Int32)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTicket(Int32)
+  nameWithType: ITicketAgent.GetTicket(Int32)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.GetTicket(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a Ticket object.                        \n"
+  syntax:
+    content: Ticket GetTicket(int ticketId)
+    parameters:
+    - id: ticketId
+      type: System.Int32
+      description: The identifier of the Ticket object
+    return:
+      type: SuperOffice.CRM.Services.Ticket
+      description: Ticket
+    content.vb: Function GetTicket(ticketId As Integer) As Ticket
+  overload: SuperOffice.CRM.Services.ITicketAgent.GetTicket*
+- uid: SuperOffice.CRM.Services.ITicketAgent.GetTickets(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.GetTickets(System.Int32[])
+  id: GetTickets(System.Int32[])
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTickets(Int32[])
+  nameWithType: ITicketAgent.GetTickets(Int32[])
+  fullName: SuperOffice.CRM.Services.ITicketAgent.GetTickets(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet multiple tickets\n"
+  syntax:
+    content: Ticket[] GetTickets(int[] ticketIds)
+    parameters:
+    - id: ticketIds
+      type: System.Int32[]
+      description: The ids of tickets to get
+    return:
+      type: SuperOffice.CRM.Services.Ticket[]
+      description: Returns array of tickets in same order as input ids
+    content.vb: Function GetTickets(ticketIds As Integer()) As Ticket()
+  overload: SuperOffice.CRM.Services.ITicketAgent.GetTickets*
+  nameWithType.vb: ITicketAgent.GetTickets(Int32())
+  fullName.vb: SuperOffice.CRM.Services.ITicketAgent.GetTickets(System.Int32())
+  name.vb: GetTickets(Int32())
+- uid: SuperOffice.CRM.Services.ITicketAgent.GetTicketMessage(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.GetTicketMessage(System.Int32)
+  id: GetTicketMessage(System.Int32)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTicketMessage(Int32)
+  nameWithType: ITicketAgent.GetTicketMessage(Int32)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.GetTicketMessage(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a TicketMessage object.                        \n"
+  syntax:
+    content: TicketMessage GetTicketMessage(int ticketMessageId)
+    parameters:
+    - id: ticketMessageId
+      type: System.Int32
+      description: The identifier of the TicketMessage object
+    return:
+      type: SuperOffice.CRM.Services.TicketMessage
+      description: TicketMessage
+    content.vb: Function GetTicketMessage(ticketMessageId As Integer) As TicketMessage
+  overload: SuperOffice.CRM.Services.ITicketAgent.GetTicketMessage*
+- uid: SuperOffice.CRM.Services.ITicketAgent.GetAttachmentEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.GetAttachmentEntity(System.Int32)
+  id: GetAttachmentEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAttachmentEntity(Int32)
+  nameWithType: ITicketAgent.GetAttachmentEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.GetAttachmentEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a AttachmentEntity object.                        \n"
+  syntax:
+    content: AttachmentEntity GetAttachmentEntity(int attachmentEntityId)
+    parameters:
+    - id: attachmentEntityId
+      type: System.Int32
+      description: The identifier of the AttachmentEntity object
+    return:
+      type: SuperOffice.CRM.Services.AttachmentEntity
+      description: AttachmentEntity
+    content.vb: Function GetAttachmentEntity(attachmentEntityId As Integer) As AttachmentEntity
+  overload: SuperOffice.CRM.Services.ITicketAgent.GetAttachmentEntity*
+- uid: SuperOffice.CRM.Services.ITicketAgent.UploadAttachment(System.Int32,System.IO.Stream)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.UploadAttachment(System.Int32,System.IO.Stream)
+  id: UploadAttachment(System.Int32,System.IO.Stream)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: UploadAttachment(Int32, Stream)
+  nameWithType: ITicketAgent.UploadAttachment(Int32, Stream)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.UploadAttachment(System.Int32, System.IO.Stream)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpload an attachment and return the attachment id\n"
+  syntax:
+    content: void UploadAttachment(int attachmentId, Stream content)
+    parameters:
+    - id: attachmentId
+      type: System.Int32
+      description: The id of the attachment row, for which to attach the upload data
+    - id: content
+      type: System.IO.Stream
+      description: A stream to the content to be uploaded
+    content.vb: Sub UploadAttachment(attachmentId As Integer, content As Stream)
+  overload: SuperOffice.CRM.Services.ITicketAgent.UploadAttachment*
+- uid: SuperOffice.CRM.Services.ITicketAgent.GetAttachmentStream(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.GetAttachmentStream(System.Int32)
+  id: GetAttachmentStream(System.Int32)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAttachmentStream(Int32)
+  nameWithType: ITicketAgent.GetAttachmentStream(Int32)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.GetAttachmentStream(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the content of an attachment\n"
+  syntax:
+    content: Stream GetAttachmentStream(int attachmentId)
+    parameters:
+    - id: attachmentId
+      type: System.Int32
+      description: The id of the attachment to retrieve
+    return:
+      type: System.IO.Stream
+      description: A stream to the attachment content
+    content.vb: Function GetAttachmentStream(attachmentId As Integer) As Stream
+  overload: SuperOffice.CRM.Services.ITicketAgent.GetAttachmentStream*
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketEntity
+  isExternal: true
+  name: CreateDefaultTicketEntity
+  nameWithType: ITicketAgent.CreateDefaultTicketEntity
+  fullName: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketEntity
+- uid: SuperOffice.CRM.Services.TicketEntity
+  commentId: T:SuperOffice.CRM.Services.TicketEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TicketEntity
+  nameWithType: TicketEntity
+  fullName: SuperOffice.CRM.Services.TicketEntity
+- uid: SuperOffice.CRM.Services.ITicketAgent.SaveTicketEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.SaveTicketEntity
+  isExternal: true
+  name: SaveTicketEntity
+  nameWithType: ITicketAgent.SaveTicketEntity
+  fullName: SuperOffice.CRM.Services.ITicketAgent.SaveTicketEntity
+- uid: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketMessageEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketMessageEntity
+  isExternal: true
+  name: CreateDefaultTicketMessageEntity
+  nameWithType: ITicketAgent.CreateDefaultTicketMessageEntity
+  fullName: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketMessageEntity
+- uid: SuperOffice.CRM.Services.TicketMessageEntity
+  commentId: T:SuperOffice.CRM.Services.TicketMessageEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TicketMessageEntity
+  nameWithType: TicketMessageEntity
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity
+- uid: SuperOffice.CRM.Services.ITicketAgent.SaveTicketMessageEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.SaveTicketMessageEntity
+  isExternal: true
+  name: SaveTicketMessageEntity
+  nameWithType: ITicketAgent.SaveTicketMessageEntity
+  fullName: SuperOffice.CRM.Services.ITicketAgent.SaveTicketMessageEntity
+- uid: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultAttachmentEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.CreateDefaultAttachmentEntity
+  isExternal: true
+  name: CreateDefaultAttachmentEntity
+  nameWithType: ITicketAgent.CreateDefaultAttachmentEntity
+  fullName: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultAttachmentEntity
+- uid: SuperOffice.CRM.Services.AttachmentEntity
+  commentId: T:SuperOffice.CRM.Services.AttachmentEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: AttachmentEntity
+  nameWithType: AttachmentEntity
+  fullName: SuperOffice.CRM.Services.AttachmentEntity
+- uid: SuperOffice.CRM.Services.ITicketAgent.SaveAttachmentEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.SaveAttachmentEntity
+  isExternal: true
+  name: SaveAttachmentEntity
+  nameWithType: ITicketAgent.SaveAttachmentEntity
+  fullName: SuperOffice.CRM.Services.ITicketAgent.SaveAttachmentEntity
+- uid: SuperOffice.CRM.Services.ITicketAgent.GetTicketEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.GetTicketEntity
+  isExternal: true
+  name: GetTicketEntity
+  nameWithType: ITicketAgent.GetTicketEntity
+  fullName: SuperOffice.CRM.Services.ITicketAgent.GetTicketEntity
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ITicketAgent.DeleteTicketEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.DeleteTicketEntity
+  isExternal: true
+  name: DeleteTicketEntity
+  nameWithType: ITicketAgent.DeleteTicketEntity
+  fullName: SuperOffice.CRM.Services.ITicketAgent.DeleteTicketEntity
+- uid: SuperOffice.CRM.Services.ITicketAgent.NotifyNewTicket*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.NotifyNewTicket
+  isExternal: true
+  name: NotifyNewTicket
+  nameWithType: ITicketAgent.NotifyNewTicket
+  fullName: SuperOffice.CRM.Services.ITicketAgent.NotifyNewTicket
+- uid: SuperOffice.CRM.Services.ITicketAgent.NotifyNewTicketMessage*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.NotifyNewTicketMessage
+  isExternal: true
+  name: NotifyNewTicketMessage
+  nameWithType: ITicketAgent.NotifyNewTicketMessage
+  fullName: SuperOffice.CRM.Services.ITicketAgent.NotifyNewTicketMessage
+- uid: SuperOffice.CRM.Services.ITicketAgent.GetTicketMessageEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.GetTicketMessageEntity
+  isExternal: true
+  name: GetTicketMessageEntity
+  nameWithType: ITicketAgent.GetTicketMessageEntity
+  fullName: SuperOffice.CRM.Services.ITicketAgent.GetTicketMessageEntity
+- uid: SuperOffice.CRM.Services.ITicketAgent.DeleteTicketMessageEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.DeleteTicketMessageEntity
+  isExternal: true
+  name: DeleteTicketMessageEntity
+  nameWithType: ITicketAgent.DeleteTicketMessageEntity
+  fullName: SuperOffice.CRM.Services.ITicketAgent.DeleteTicketMessageEntity
+- uid: SuperOffice.CRM.Services.ITicketAgent.SanitizeMailContent*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.SanitizeMailContent
+  isExternal: true
+  name: SanitizeMailContent
+  nameWithType: ITicketAgent.SanitizeMailContent
+  fullName: SuperOffice.CRM.Services.ITicketAgent.SanitizeMailContent
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ITicketAgent.SanitizeMailContents*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.SanitizeMailContents
+  isExternal: true
+  name: SanitizeMailContents
+  nameWithType: ITicketAgent.SanitizeMailContents
+  fullName: SuperOffice.CRM.Services.ITicketAgent.SanitizeMailContents
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ITicketAgent.Html2Text*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.Html2Text
+  isExternal: true
+  name: Html2Text
+  nameWithType: ITicketAgent.Html2Text
+  fullName: SuperOffice.CRM.Services.ITicketAgent.Html2Text
+- uid: SuperOffice.CRM.Services.ITicketAgent.GetAttachmentInfo*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.GetAttachmentInfo
+  isExternal: true
+  name: GetAttachmentInfo
+  nameWithType: ITicketAgent.GetAttachmentInfo
+  fullName: SuperOffice.CRM.Services.ITicketAgent.GetAttachmentInfo
+- uid: SuperOffice.CRM.Services.AttachmentEntity[]
+  isExternal: true
+  name: AttachmentEntity[]
+  nameWithType: AttachmentEntity[]
+  fullName: SuperOffice.CRM.Services.AttachmentEntity[]
+  nameWithType.vb: AttachmentEntity()
+  fullName.vb: SuperOffice.CRM.Services.AttachmentEntity()
+  name.vb: AttachmentEntity()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AttachmentEntity
+    name: AttachmentEntity
+    nameWithType: AttachmentEntity
+    fullName: SuperOffice.CRM.Services.AttachmentEntity
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AttachmentEntity
+    name: AttachmentEntity
+    nameWithType: AttachmentEntity
+    fullName: SuperOffice.CRM.Services.AttachmentEntity
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ITicketAgent.AddAttachments*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.AddAttachments
+  isExternal: true
+  name: AddAttachments
+  nameWithType: ITicketAgent.AddAttachments
+  fullName: SuperOffice.CRM.Services.ITicketAgent.AddAttachments
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ITicketAgent.SendTicketMessage*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.SendTicketMessage
+  isExternal: true
+  name: SendTicketMessage
+  nameWithType: ITicketAgent.SendTicketMessage
+  fullName: SuperOffice.CRM.Services.ITicketAgent.SendTicketMessage
+- uid: SuperOffice.CRM.Services.ITicketAgent.GetTicket*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.GetTicket
+  isExternal: true
+  name: GetTicket
+  nameWithType: ITicketAgent.GetTicket
+  fullName: SuperOffice.CRM.Services.ITicketAgent.GetTicket
+- uid: SuperOffice.CRM.Services.Ticket
+  commentId: T:SuperOffice.CRM.Services.Ticket
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Ticket
+  nameWithType: Ticket
+  fullName: SuperOffice.CRM.Services.Ticket
+- uid: SuperOffice.CRM.Services.ITicketAgent.GetTickets*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.GetTickets
+  isExternal: true
+  name: GetTickets
+  nameWithType: ITicketAgent.GetTickets
+  fullName: SuperOffice.CRM.Services.ITicketAgent.GetTickets
+- uid: SuperOffice.CRM.Services.Ticket[]
+  isExternal: true
+  name: Ticket[]
+  nameWithType: Ticket[]
+  fullName: SuperOffice.CRM.Services.Ticket[]
+  nameWithType.vb: Ticket()
+  fullName.vb: SuperOffice.CRM.Services.Ticket()
+  name.vb: Ticket()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Ticket
+    name: Ticket
+    nameWithType: Ticket
+    fullName: SuperOffice.CRM.Services.Ticket
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Ticket
+    name: Ticket
+    nameWithType: Ticket
+    fullName: SuperOffice.CRM.Services.Ticket
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ITicketAgent.GetTicketMessage*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.GetTicketMessage
+  isExternal: true
+  name: GetTicketMessage
+  nameWithType: ITicketAgent.GetTicketMessage
+  fullName: SuperOffice.CRM.Services.ITicketAgent.GetTicketMessage
+- uid: SuperOffice.CRM.Services.TicketMessage
+  commentId: T:SuperOffice.CRM.Services.TicketMessage
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TicketMessage
+  nameWithType: TicketMessage
+  fullName: SuperOffice.CRM.Services.TicketMessage
+- uid: SuperOffice.CRM.Services.ITicketAgent.GetAttachmentEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.GetAttachmentEntity
+  isExternal: true
+  name: GetAttachmentEntity
+  nameWithType: ITicketAgent.GetAttachmentEntity
+  fullName: SuperOffice.CRM.Services.ITicketAgent.GetAttachmentEntity
+- uid: SuperOffice.CRM.Services.ITicketAgent.UploadAttachment*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.UploadAttachment
+  isExternal: true
+  name: UploadAttachment
+  nameWithType: ITicketAgent.UploadAttachment
+  fullName: SuperOffice.CRM.Services.ITicketAgent.UploadAttachment
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: SuperOffice.CRM.Services.ITicketAgent.GetAttachmentStream*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.GetAttachmentStream
+  isExternal: true
+  name: GetAttachmentStream
+  nameWithType: ITicketAgent.GetAttachmentStream
+  fullName: SuperOffice.CRM.Services.ITicketAgent.GetAttachmentStream

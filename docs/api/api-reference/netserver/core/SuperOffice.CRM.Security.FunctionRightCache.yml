@@ -1,0 +1,1523 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Security.FunctionRightCache
+  commentId: T:SuperOffice.CRM.Security.FunctionRightCache
+  id: FunctionRightCache
+  parent: SuperOffice.CRM.Security
+  children:
+  - SuperOffice.CRM.Security.FunctionRightCache.GetCachedTableNumbers
+  - SuperOffice.CRM.Security.FunctionRightCache.GetCurrent
+  - SuperOffice.CRM.Security.FunctionRightCache.GetFunctionRightNameById(System.Int32)
+  - SuperOffice.CRM.Security.FunctionRightCache.GetFunctionRights
+  - SuperOffice.CRM.Security.FunctionRightCache.GetFunctionRights(System.Int32)
+  - SuperOffice.CRM.Security.FunctionRightCache.GetRoleType(System.Int32)
+  - SuperOffice.CRM.Security.FunctionRightCache.HasFunctionRight(System.String)
+  - SuperOffice.CRM.Security.FunctionRightCache.HasFunctionRight(System.String,System.Int32)
+  - SuperOffice.CRM.Security.FunctionRightCache.OnFlush
+  - SuperOffice.CRM.Security.FunctionRightCache.OnRefresh
+  langs:
+  - csharp
+  - vb
+  name: FunctionRightCache
+  nameWithType: FunctionRightCache
+  fullName: SuperOffice.CRM.Security.FunctionRightCache
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nSummary description for FunctionRightCache.\n"
+  syntax:
+    content: 'public class FunctionRightCache : CacheBase, IDisposable, IFlushable'
+    content.vb: >-
+      Public Class FunctionRightCache
+          Inherits CacheBase
+          Implements IDisposable, IFlushable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.Cache.CacheBase
+  implements:
+  - System.IDisposable
+  - SuperOffice.Data.Cache.IFlushable
+  inheritedMembers:
+  - SuperOffice.Data.Cache.CacheBase._lastUpdated
+  - SuperOffice.Data.Cache.CacheBase._cacheState
+  - SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+  - SuperOffice.Data.Cache.CacheBase.Dispose
+  - SuperOffice.Data.Cache.CacheBase.Validate
+  - SuperOffice.Data.Cache.CacheBase.Refresh
+  - SuperOffice.Data.Cache.CacheBase.Flush
+  - SuperOffice.Data.Cache.CacheBase.OnExpired
+  - SuperOffice.Data.Cache.CacheBase.OnRefreshed
+  - SuperOffice.Data.Cache.CacheBase.OnFlushed
+  - SuperOffice.Data.Cache.CacheBase.OnDisposed
+  - SuperOffice.Data.Cache.CacheBase.Lock
+  - SuperOffice.Data.Cache.CacheBase.Name
+  - SuperOffice.Data.Cache.CacheBase.CacheType
+  - SuperOffice.Data.Cache.CacheBase.Timeout
+  - SuperOffice.Data.Cache.CacheBase.State
+  - SuperOffice.Data.Cache.CacheBase.IsValid
+  - SuperOffice.Data.Cache.CacheBase.Expired
+  - SuperOffice.Data.Cache.CacheBase.Refreshed
+  - SuperOffice.Data.Cache.CacheBase.Flushed
+  - SuperOffice.Data.Cache.CacheBase.Disposed
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Security.FunctionRightCache.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Security.FunctionRightCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Security.FunctionRightCache.GetRoleType(System.Int32)
+  commentId: M:SuperOffice.CRM.Security.FunctionRightCache.GetRoleType(System.Int32)
+  id: GetRoleType(System.Int32)
+  parent: SuperOffice.CRM.Security.FunctionRightCache
+  langs:
+  - csharp
+  - vb
+  name: GetRoleType(Int32)
+  nameWithType: FunctionRightCache.GetRoleType(Int32)
+  fullName: SuperOffice.CRM.Security.FunctionRightCache.GetRoleType(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturn the role type based on the role id.\nRole Type maps to UserType.\n"
+  syntax:
+    content: public RoleType GetRoleType(int roleId)
+    parameters:
+    - id: roleId
+      type: System.Int32
+      description: primary key
+    return:
+      type: SuperOffice.Data.RoleType
+      description: 'Assoc/ System / Anon / Extern '
+    content.vb: Public Function GetRoleType(roleId As Integer) As RoleType
+  overload: SuperOffice.CRM.Security.FunctionRightCache.GetRoleType*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.FunctionRightCache.HasFunctionRight(System.String)
+  commentId: M:SuperOffice.CRM.Security.FunctionRightCache.HasFunctionRight(System.String)
+  id: HasFunctionRight(System.String)
+  parent: SuperOffice.CRM.Security.FunctionRightCache
+  langs:
+  - csharp
+  - vb
+  name: HasFunctionRight(String)
+  nameWithType: FunctionRightCache.HasFunctionRight(String)
+  fullName: SuperOffice.CRM.Security.FunctionRightCache.HasFunctionRight(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCheck if the logged on user has the given right.\n"
+  syntax:
+    content: public bool HasFunctionRight(string functionRight)
+    parameters:
+    - id: functionRight
+      type: System.String
+      description: Name of the right like &apos;amin-all&apos;.
+    return:
+      type: System.Boolean
+      description: True if the logged on user has the functional right.
+    content.vb: Public Function HasFunctionRight(functionRight As String) As Boolean
+  overload: SuperOffice.CRM.Security.FunctionRightCache.HasFunctionRight*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.FunctionRightCache.HasFunctionRight(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Security.FunctionRightCache.HasFunctionRight(System.String,System.Int32)
+  id: HasFunctionRight(System.String,System.Int32)
+  parent: SuperOffice.CRM.Security.FunctionRightCache
+  langs:
+  - csharp
+  - vb
+  name: HasFunctionRight(String, Int32)
+  nameWithType: FunctionRightCache.HasFunctionRight(String, Int32)
+  fullName: SuperOffice.CRM.Security.FunctionRightCache.HasFunctionRight(System.String, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nDoes the given role have the given right\n"
+  syntax:
+    content: public bool HasFunctionRight(string functionRight, int roleId)
+    parameters:
+    - id: functionRight
+      type: System.String
+      description: Name of the right like &apos;amin-all&apos;.
+    - id: roleId
+      type: System.Int32
+      description: Id of the role.
+    return:
+      type: System.Boolean
+      description: True if the role has the functional right.
+    content.vb: Public Function HasFunctionRight(functionRight As String, roleId As Integer) As Boolean
+  overload: SuperOffice.CRM.Security.FunctionRightCache.HasFunctionRight*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.FunctionRightCache.GetFunctionRights
+  commentId: M:SuperOffice.CRM.Security.FunctionRightCache.GetFunctionRights
+  id: GetFunctionRights
+  parent: SuperOffice.CRM.Security.FunctionRightCache
+  langs:
+  - csharp
+  - vb
+  name: GetFunctionRights()
+  nameWithType: FunctionRightCache.GetFunctionRights()
+  fullName: SuperOffice.CRM.Security.FunctionRightCache.GetFunctionRights()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nGet the functional rights for the currently logged on user.\n"
+  syntax:
+    content: public string[] GetFunctionRights()
+    return:
+      type: System.String[]
+      description: Array with the list of the names for all the rights.
+    content.vb: Public Function GetFunctionRights As String()
+  overload: SuperOffice.CRM.Security.FunctionRightCache.GetFunctionRights*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.FunctionRightCache.GetFunctionRightNameById(System.Int32)
+  commentId: M:SuperOffice.CRM.Security.FunctionRightCache.GetFunctionRightNameById(System.Int32)
+  id: GetFunctionRightNameById(System.Int32)
+  parent: SuperOffice.CRM.Security.FunctionRightCache
+  langs:
+  - csharp
+  - vb
+  name: GetFunctionRightNameById(Int32)
+  nameWithType: FunctionRightCache.GetFunctionRightNameById(Int32)
+  fullName: SuperOffice.CRM.Security.FunctionRightCache.GetFunctionRightNameById(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nGet the functional right identified by the primary key.\n"
+  syntax:
+    content: public string GetFunctionRightNameById(int functionRightId)
+    parameters:
+    - id: functionRightId
+      type: System.Int32
+    return:
+      type: System.String
+      description: 'The function right name if found; null if it does not exist. '
+    content.vb: Public Function GetFunctionRightNameById(functionRightId As Integer) As String
+  overload: SuperOffice.CRM.Security.FunctionRightCache.GetFunctionRightNameById*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.FunctionRightCache.GetFunctionRights(System.Int32)
+  commentId: M:SuperOffice.CRM.Security.FunctionRightCache.GetFunctionRights(System.Int32)
+  id: GetFunctionRights(System.Int32)
+  parent: SuperOffice.CRM.Security.FunctionRightCache
+  langs:
+  - csharp
+  - vb
+  name: GetFunctionRights(Int32)
+  nameWithType: FunctionRightCache.GetFunctionRights(Int32)
+  fullName: SuperOffice.CRM.Security.FunctionRightCache.GetFunctionRights(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nGet the functional rights for the roler.\n"
+  syntax:
+    content: public string[] GetFunctionRights(int roleId)
+    parameters:
+    - id: roleId
+      type: System.Int32
+      description: Id of the role.
+    return:
+      type: System.String[]
+      description: Array with the list of the names for all the rights.
+    content.vb: Public Function GetFunctionRights(roleId As Integer) As String()
+  overload: SuperOffice.CRM.Security.FunctionRightCache.GetFunctionRights*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.FunctionRightCache.GetCachedTableNumbers
+  commentId: M:SuperOffice.CRM.Security.FunctionRightCache.GetCachedTableNumbers
+  id: GetCachedTableNumbers
+  parent: SuperOffice.CRM.Security.FunctionRightCache
+  langs:
+  - csharp
+  - vb
+  name: GetCachedTableNumbers()
+  nameWithType: FunctionRightCache.GetCachedTableNumbers()
+  fullName: SuperOffice.CRM.Security.FunctionRightCache.GetCachedTableNumbers()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public override int[] GetCachedTableNumbers()
+    return:
+      type: System.Int32[]
+    content.vb: Public Overrides Function GetCachedTableNumbers As Integer()
+  overridden: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
+  overload: SuperOffice.CRM.Security.FunctionRightCache.GetCachedTableNumbers*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Security.FunctionRightCache.OnFlush
+  commentId: M:SuperOffice.CRM.Security.FunctionRightCache.OnFlush
+  id: OnFlush
+  parent: SuperOffice.CRM.Security.FunctionRightCache
+  langs:
+  - csharp
+  - vb
+  name: OnFlush()
+  nameWithType: FunctionRightCache.OnFlush()
+  fullName: SuperOffice.CRM.Security.FunctionRightCache.OnFlush()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: protected override void OnFlush()
+    content.vb: Protected Overrides Sub OnFlush
+  overridden: SuperOffice.Data.Cache.CacheBase.OnFlush
+  overload: SuperOffice.CRM.Security.FunctionRightCache.OnFlush*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Security.FunctionRightCache.OnRefresh
+  commentId: M:SuperOffice.CRM.Security.FunctionRightCache.OnRefresh
+  id: OnRefresh
+  parent: SuperOffice.CRM.Security.FunctionRightCache
+  langs:
+  - csharp
+  - vb
+  name: OnRefresh()
+  nameWithType: FunctionRightCache.OnRefresh()
+  fullName: SuperOffice.CRM.Security.FunctionRightCache.OnRefresh()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: protected override void OnRefresh()
+    content.vb: Protected Overrides Sub OnRefresh
+  overridden: SuperOffice.Data.Cache.CacheBase.OnRefresh
+  overload: SuperOffice.CRM.Security.FunctionRightCache.OnRefresh*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Security.FunctionRightCache.GetCurrent
+  commentId: M:SuperOffice.CRM.Security.FunctionRightCache.GetCurrent
+  id: GetCurrent
+  parent: SuperOffice.CRM.Security.FunctionRightCache
+  langs:
+  - csharp
+  - vb
+  name: GetCurrent()
+  nameWithType: FunctionRightCache.GetCurrent()
+  fullName: SuperOffice.CRM.Security.FunctionRightCache.GetCurrent()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nObtain an instance of the cache\n"
+  syntax:
+    content: public static FunctionRightCache GetCurrent()
+    return:
+      type: SuperOffice.CRM.Security.FunctionRightCache
+    content.vb: Public Shared Function GetCurrent As FunctionRightCache
+  overload: SuperOffice.CRM.Security.FunctionRightCache.GetCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Security
+  commentId: N:SuperOffice.CRM.Security
+  isExternal: true
+  name: SuperOffice.CRM.Security
+  nameWithType: SuperOffice.CRM.Security
+  fullName: SuperOffice.CRM.Security
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.Cache.CacheBase
+  commentId: T:SuperOffice.Data.Cache.CacheBase
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: CacheBase
+  nameWithType: CacheBase
+  fullName: SuperOffice.Data.Cache.CacheBase
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.Data.Cache.IFlushable
+  commentId: T:SuperOffice.Data.Cache.IFlushable
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: IFlushable
+  nameWithType: IFlushable
+  fullName: SuperOffice.Data.Cache.IFlushable
+- uid: SuperOffice.Data.Cache.CacheBase._lastUpdated
+  commentId: F:SuperOffice.Data.Cache.CacheBase._lastUpdated
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: _lastUpdated
+  nameWithType: CacheBase._lastUpdated
+  fullName: SuperOffice.Data.Cache.CacheBase._lastUpdated
+- uid: SuperOffice.Data.Cache.CacheBase._cacheState
+  commentId: F:SuperOffice.Data.Cache.CacheBase._cacheState
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: _cacheState
+  nameWithType: CacheBase._cacheState
+  fullName: SuperOffice.Data.Cache.CacheBase._cacheState
+- uid: SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+  commentId: M:SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: IsCacheInvalidated(Int32, SqlType, Int32)
+  nameWithType: CacheBase.IsCacheInvalidated(Int32, SqlType, Int32)
+  fullName: SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated(System.Int32, SuperOffice.Data.SQL.SqlType, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+    name: IsCacheInvalidated
+    nameWithType: CacheBase.IsCacheInvalidated
+    fullName: SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.SqlType
+    name: SqlType
+    nameWithType: SqlType
+    fullName: SuperOffice.Data.SQL.SqlType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+    name: IsCacheInvalidated
+    nameWithType: CacheBase.IsCacheInvalidated
+    fullName: SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.SqlType
+    name: SqlType
+    nameWithType: SqlType
+    fullName: SuperOffice.Data.SQL.SqlType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.Dispose
+  commentId: M:SuperOffice.Data.Cache.CacheBase.Dispose
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Dispose()
+  nameWithType: CacheBase.Dispose()
+  fullName: SuperOffice.Data.Cache.CacheBase.Dispose()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.Dispose
+    name: Dispose
+    nameWithType: CacheBase.Dispose
+    fullName: SuperOffice.Data.Cache.CacheBase.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.Dispose
+    name: Dispose
+    nameWithType: CacheBase.Dispose
+    fullName: SuperOffice.Data.Cache.CacheBase.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.Validate
+  commentId: M:SuperOffice.Data.Cache.CacheBase.Validate
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Validate()
+  nameWithType: CacheBase.Validate()
+  fullName: SuperOffice.Data.Cache.CacheBase.Validate()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.Validate
+    name: Validate
+    nameWithType: CacheBase.Validate
+    fullName: SuperOffice.Data.Cache.CacheBase.Validate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.Validate
+    name: Validate
+    nameWithType: CacheBase.Validate
+    fullName: SuperOffice.Data.Cache.CacheBase.Validate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.Refresh
+  commentId: M:SuperOffice.Data.Cache.CacheBase.Refresh
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Refresh()
+  nameWithType: CacheBase.Refresh()
+  fullName: SuperOffice.Data.Cache.CacheBase.Refresh()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.Refresh
+    name: Refresh
+    nameWithType: CacheBase.Refresh
+    fullName: SuperOffice.Data.Cache.CacheBase.Refresh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.Refresh
+    name: Refresh
+    nameWithType: CacheBase.Refresh
+    fullName: SuperOffice.Data.Cache.CacheBase.Refresh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.Flush
+  commentId: M:SuperOffice.Data.Cache.CacheBase.Flush
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Flush()
+  nameWithType: CacheBase.Flush()
+  fullName: SuperOffice.Data.Cache.CacheBase.Flush()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.Flush
+    name: Flush
+    nameWithType: CacheBase.Flush
+    fullName: SuperOffice.Data.Cache.CacheBase.Flush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.Flush
+    name: Flush
+    nameWithType: CacheBase.Flush
+    fullName: SuperOffice.Data.Cache.CacheBase.Flush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.OnExpired
+  commentId: M:SuperOffice.Data.Cache.CacheBase.OnExpired
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: OnExpired()
+  nameWithType: CacheBase.OnExpired()
+  fullName: SuperOffice.Data.Cache.CacheBase.OnExpired()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnExpired
+    name: OnExpired
+    nameWithType: CacheBase.OnExpired
+    fullName: SuperOffice.Data.Cache.CacheBase.OnExpired
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnExpired
+    name: OnExpired
+    nameWithType: CacheBase.OnExpired
+    fullName: SuperOffice.Data.Cache.CacheBase.OnExpired
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.OnRefreshed
+  commentId: M:SuperOffice.Data.Cache.CacheBase.OnRefreshed
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: OnRefreshed()
+  nameWithType: CacheBase.OnRefreshed()
+  fullName: SuperOffice.Data.Cache.CacheBase.OnRefreshed()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnRefreshed
+    name: OnRefreshed
+    nameWithType: CacheBase.OnRefreshed
+    fullName: SuperOffice.Data.Cache.CacheBase.OnRefreshed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnRefreshed
+    name: OnRefreshed
+    nameWithType: CacheBase.OnRefreshed
+    fullName: SuperOffice.Data.Cache.CacheBase.OnRefreshed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.OnFlushed
+  commentId: M:SuperOffice.Data.Cache.CacheBase.OnFlushed
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: OnFlushed()
+  nameWithType: CacheBase.OnFlushed()
+  fullName: SuperOffice.Data.Cache.CacheBase.OnFlushed()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnFlushed
+    name: OnFlushed
+    nameWithType: CacheBase.OnFlushed
+    fullName: SuperOffice.Data.Cache.CacheBase.OnFlushed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnFlushed
+    name: OnFlushed
+    nameWithType: CacheBase.OnFlushed
+    fullName: SuperOffice.Data.Cache.CacheBase.OnFlushed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.OnDisposed
+  commentId: M:SuperOffice.Data.Cache.CacheBase.OnDisposed
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: OnDisposed()
+  nameWithType: CacheBase.OnDisposed()
+  fullName: SuperOffice.Data.Cache.CacheBase.OnDisposed()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnDisposed
+    name: OnDisposed
+    nameWithType: CacheBase.OnDisposed
+    fullName: SuperOffice.Data.Cache.CacheBase.OnDisposed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnDisposed
+    name: OnDisposed
+    nameWithType: CacheBase.OnDisposed
+    fullName: SuperOffice.Data.Cache.CacheBase.OnDisposed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.Lock
+  commentId: P:SuperOffice.Data.Cache.CacheBase.Lock
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Lock
+  nameWithType: CacheBase.Lock
+  fullName: SuperOffice.Data.Cache.CacheBase.Lock
+- uid: SuperOffice.Data.Cache.CacheBase.Name
+  commentId: P:SuperOffice.Data.Cache.CacheBase.Name
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Name
+  nameWithType: CacheBase.Name
+  fullName: SuperOffice.Data.Cache.CacheBase.Name
+- uid: SuperOffice.Data.Cache.CacheBase.CacheType
+  commentId: P:SuperOffice.Data.Cache.CacheBase.CacheType
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: CacheType
+  nameWithType: CacheBase.CacheType
+  fullName: SuperOffice.Data.Cache.CacheBase.CacheType
+- uid: SuperOffice.Data.Cache.CacheBase.Timeout
+  commentId: P:SuperOffice.Data.Cache.CacheBase.Timeout
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Timeout
+  nameWithType: CacheBase.Timeout
+  fullName: SuperOffice.Data.Cache.CacheBase.Timeout
+- uid: SuperOffice.Data.Cache.CacheBase.State
+  commentId: P:SuperOffice.Data.Cache.CacheBase.State
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: State
+  nameWithType: CacheBase.State
+  fullName: SuperOffice.Data.Cache.CacheBase.State
+- uid: SuperOffice.Data.Cache.CacheBase.IsValid
+  commentId: P:SuperOffice.Data.Cache.CacheBase.IsValid
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: IsValid
+  nameWithType: CacheBase.IsValid
+  fullName: SuperOffice.Data.Cache.CacheBase.IsValid
+- uid: SuperOffice.Data.Cache.CacheBase.Expired
+  commentId: E:SuperOffice.Data.Cache.CacheBase.Expired
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Expired
+  nameWithType: CacheBase.Expired
+  fullName: SuperOffice.Data.Cache.CacheBase.Expired
+- uid: SuperOffice.Data.Cache.CacheBase.Refreshed
+  commentId: E:SuperOffice.Data.Cache.CacheBase.Refreshed
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Refreshed
+  nameWithType: CacheBase.Refreshed
+  fullName: SuperOffice.Data.Cache.CacheBase.Refreshed
+- uid: SuperOffice.Data.Cache.CacheBase.Flushed
+  commentId: E:SuperOffice.Data.Cache.CacheBase.Flushed
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Flushed
+  nameWithType: CacheBase.Flushed
+  fullName: SuperOffice.Data.Cache.CacheBase.Flushed
+- uid: SuperOffice.Data.Cache.CacheBase.Disposed
+  commentId: E:SuperOffice.Data.Cache.CacheBase.Disposed
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Disposed
+  nameWithType: CacheBase.Disposed
+  fullName: SuperOffice.Data.Cache.CacheBase.Disposed
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.FunctionRightCache.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<FunctionRightCache, To>()
+  nameWithType: EnumUtil.MapEnums<FunctionRightCache, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.FunctionRightCache, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of FunctionRightCache, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.FunctionRightCache, To)()
+  name.vb: MapEnums(Of FunctionRightCache, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<FunctionRightCache, To>
+    nameWithType: EnumUtil.MapEnums<FunctionRightCache, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.FunctionRightCache, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of FunctionRightCache, To)
+    nameWithType: EnumUtil.MapEnums(Of FunctionRightCache, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.FunctionRightCache, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.FunctionRightCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<FunctionRightCache, To>()
+  nameWithType: Converters.MapEnums<FunctionRightCache, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.FunctionRightCache, To>()
+  nameWithType.vb: Converters.MapEnums(Of FunctionRightCache, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.FunctionRightCache, To)()
+  name.vb: MapEnums(Of FunctionRightCache, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<FunctionRightCache, To>
+    nameWithType: Converters.MapEnums<FunctionRightCache, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.FunctionRightCache, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of FunctionRightCache, To)
+    nameWithType: Converters.MapEnums(Of FunctionRightCache, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.FunctionRightCache, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.Cache
+  commentId: N:SuperOffice.Data.Cache
+  isExternal: true
+  name: SuperOffice.Data.Cache
+  nameWithType: SuperOffice.Data.Cache
+  fullName: SuperOffice.Data.Cache
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Security.FunctionRightCache.GetRoleType*
+  commentId: Overload:SuperOffice.CRM.Security.FunctionRightCache.GetRoleType
+  isExternal: true
+  name: GetRoleType
+  nameWithType: FunctionRightCache.GetRoleType
+  fullName: SuperOffice.CRM.Security.FunctionRightCache.GetRoleType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.RoleType
+  commentId: T:SuperOffice.Data.RoleType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: RoleType
+  nameWithType: RoleType
+  fullName: SuperOffice.Data.RoleType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Security.FunctionRightCache.HasFunctionRight*
+  commentId: Overload:SuperOffice.CRM.Security.FunctionRightCache.HasFunctionRight
+  isExternal: true
+  name: HasFunctionRight
+  nameWithType: FunctionRightCache.HasFunctionRight
+  fullName: SuperOffice.CRM.Security.FunctionRightCache.HasFunctionRight
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Security.FunctionRightCache.GetFunctionRights*
+  commentId: Overload:SuperOffice.CRM.Security.FunctionRightCache.GetFunctionRights
+  isExternal: true
+  name: GetFunctionRights
+  nameWithType: FunctionRightCache.GetFunctionRights
+  fullName: SuperOffice.CRM.Security.FunctionRightCache.GetFunctionRights
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Security.FunctionRightCache.GetFunctionRightNameById*
+  commentId: Overload:SuperOffice.CRM.Security.FunctionRightCache.GetFunctionRightNameById
+  isExternal: true
+  name: GetFunctionRightNameById
+  nameWithType: FunctionRightCache.GetFunctionRightNameById
+  fullName: SuperOffice.CRM.Security.FunctionRightCache.GetFunctionRightNameById
+- uid: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
+  commentId: M:SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: GetCachedTableNumbers()
+  nameWithType: CacheBase.GetCachedTableNumbers()
+  fullName: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
+    name: GetCachedTableNumbers
+    nameWithType: CacheBase.GetCachedTableNumbers
+    fullName: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
+    name: GetCachedTableNumbers
+    nameWithType: CacheBase.GetCachedTableNumbers
+    fullName: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.FunctionRightCache.GetCachedTableNumbers*
+  commentId: Overload:SuperOffice.CRM.Security.FunctionRightCache.GetCachedTableNumbers
+  isExternal: true
+  name: GetCachedTableNumbers
+  nameWithType: FunctionRightCache.GetCachedTableNumbers
+  fullName: SuperOffice.CRM.Security.FunctionRightCache.GetCachedTableNumbers
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.Cache.CacheBase.OnFlush
+  commentId: M:SuperOffice.Data.Cache.CacheBase.OnFlush
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: OnFlush()
+  nameWithType: CacheBase.OnFlush()
+  fullName: SuperOffice.Data.Cache.CacheBase.OnFlush()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnFlush
+    name: OnFlush
+    nameWithType: CacheBase.OnFlush
+    fullName: SuperOffice.Data.Cache.CacheBase.OnFlush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnFlush
+    name: OnFlush
+    nameWithType: CacheBase.OnFlush
+    fullName: SuperOffice.Data.Cache.CacheBase.OnFlush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.FunctionRightCache.OnFlush*
+  commentId: Overload:SuperOffice.CRM.Security.FunctionRightCache.OnFlush
+  isExternal: true
+  name: OnFlush
+  nameWithType: FunctionRightCache.OnFlush
+  fullName: SuperOffice.CRM.Security.FunctionRightCache.OnFlush
+- uid: SuperOffice.Data.Cache.CacheBase.OnRefresh
+  commentId: M:SuperOffice.Data.Cache.CacheBase.OnRefresh
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: OnRefresh()
+  nameWithType: CacheBase.OnRefresh()
+  fullName: SuperOffice.Data.Cache.CacheBase.OnRefresh()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnRefresh
+    name: OnRefresh
+    nameWithType: CacheBase.OnRefresh
+    fullName: SuperOffice.Data.Cache.CacheBase.OnRefresh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnRefresh
+    name: OnRefresh
+    nameWithType: CacheBase.OnRefresh
+    fullName: SuperOffice.Data.Cache.CacheBase.OnRefresh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.FunctionRightCache.OnRefresh*
+  commentId: Overload:SuperOffice.CRM.Security.FunctionRightCache.OnRefresh
+  isExternal: true
+  name: OnRefresh
+  nameWithType: FunctionRightCache.OnRefresh
+  fullName: SuperOffice.CRM.Security.FunctionRightCache.OnRefresh
+- uid: SuperOffice.CRM.Security.FunctionRightCache.GetCurrent*
+  commentId: Overload:SuperOffice.CRM.Security.FunctionRightCache.GetCurrent
+  isExternal: true
+  name: GetCurrent
+  nameWithType: FunctionRightCache.GetCurrent
+  fullName: SuperOffice.CRM.Security.FunctionRightCache.GetCurrent
+- uid: SuperOffice.CRM.Security.FunctionRightCache
+  commentId: T:SuperOffice.CRM.Security.FunctionRightCache
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: FunctionRightCache
+  nameWithType: FunctionRightCache
+  fullName: SuperOffice.CRM.Security.FunctionRightCache

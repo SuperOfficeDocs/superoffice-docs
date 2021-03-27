@@ -1,0 +1,755 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.EisFieldMapping
+  commentId: T:SuperOffice.CRM.Services.EisFieldMapping
+  id: EisFieldMapping
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.EisFieldMapping.#ctor
+  - SuperOffice.CRM.Services.EisFieldMapping.AlreadyMapped
+  - SuperOffice.CRM.Services.EisFieldMapping.CrmDisplayName
+  - SuperOffice.CRM.Services.EisFieldMapping.CrmDisplayTooltip
+  - SuperOffice.CRM.Services.EisFieldMapping.CrmFieldKey
+  - SuperOffice.CRM.Services.EisFieldMapping.ErpDisplayName
+  - SuperOffice.CRM.Services.EisFieldMapping.ErpDisplayTooltip
+  - SuperOffice.CRM.Services.EisFieldMapping.ErpFieldId
+  - SuperOffice.CRM.Services.EisFieldMapping.ErpFieldKey
+  - SuperOffice.CRM.Services.EisFieldMapping.FieldType
+  - SuperOffice.CRM.Services.EisFieldMapping.MissingInCRM
+  - SuperOffice.CRM.Services.EisFieldMapping.MissingInERP
+  - SuperOffice.CRM.Services.EisFieldMapping.ShowInGui
+  - SuperOffice.CRM.Services.EisFieldMapping.ShowInSearch
+  - SuperOffice.CRM.Services.EisFieldMapping.SyncToCrm
+  - SuperOffice.CRM.Services.EisFieldMapping.SyncToErp
+  - SuperOffice.CRM.Services.EisFieldMapping.ToString
+  - SuperOffice.CRM.Services.EisFieldMapping.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: EisFieldMapping
+  nameWithType: EisFieldMapping
+  fullName: SuperOffice.CRM.Services.EisFieldMapping
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for EisFieldMapping.\nServices for the EisFieldMapping Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IErpSyncAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class EisFieldMapping : Carrier'
+    content.vb: >-
+      Public Class EisFieldMapping
+          Inherits Carrier
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.EisFieldMapping.#ctor
+  commentId: M:SuperOffice.CRM.Services.EisFieldMapping.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.EisFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: EisFieldMapping()
+  nameWithType: EisFieldMapping.EisFieldMapping()
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.EisFieldMapping()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public EisFieldMapping()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.EisFieldMapping.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EisFieldMapping.ToString
+  commentId: M:SuperOffice.CRM.Services.EisFieldMapping.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.EisFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: EisFieldMapping.ToString()
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.EisFieldMapping.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.EisFieldMapping.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.EisFieldMapping.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.EisFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: EisFieldMapping.ToString(String)
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.EisFieldMapping.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EisFieldMapping.ErpFieldId
+  commentId: P:SuperOffice.CRM.Services.EisFieldMapping.ErpFieldId
+  id: ErpFieldId
+  parent: SuperOffice.CRM.Services.EisFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: ErpFieldId
+  nameWithType: EisFieldMapping.ErpFieldId
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.ErpFieldId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public int ErpFieldId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ErpFieldId As Integer
+  overload: SuperOffice.CRM.Services.EisFieldMapping.ErpFieldId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EisFieldMapping.CrmFieldKey
+  commentId: P:SuperOffice.CRM.Services.EisFieldMapping.CrmFieldKey
+  id: CrmFieldKey
+  parent: SuperOffice.CRM.Services.EisFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: CrmFieldKey
+  nameWithType: EisFieldMapping.CrmFieldKey
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.CrmFieldKey
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe CRM field name, as implemented by the Sync entities\n"
+  syntax:
+    content: public string CrmFieldKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CrmFieldKey As String
+  overload: SuperOffice.CRM.Services.EisFieldMapping.CrmFieldKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EisFieldMapping.CrmDisplayName
+  commentId: P:SuperOffice.CRM.Services.EisFieldMapping.CrmDisplayName
+  id: CrmDisplayName
+  parent: SuperOffice.CRM.Services.EisFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: CrmDisplayName
+  nameWithType: EisFieldMapping.CrmDisplayName
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.CrmDisplayName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDisplay name of CRM field; ignored on Save\n"
+  syntax:
+    content: public string CrmDisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CrmDisplayName As String
+  overload: SuperOffice.CRM.Services.EisFieldMapping.CrmDisplayName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EisFieldMapping.CrmDisplayTooltip
+  commentId: P:SuperOffice.CRM.Services.EisFieldMapping.CrmDisplayTooltip
+  id: CrmDisplayTooltip
+  parent: SuperOffice.CRM.Services.EisFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: CrmDisplayTooltip
+  nameWithType: EisFieldMapping.CrmDisplayTooltip
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.CrmDisplayTooltip
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTooltip text for CRM field; ignored on Save\n"
+  syntax:
+    content: public string CrmDisplayTooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CrmDisplayTooltip As String
+  overload: SuperOffice.CRM.Services.EisFieldMapping.CrmDisplayTooltip*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EisFieldMapping.ErpFieldKey
+  commentId: P:SuperOffice.CRM.Services.EisFieldMapping.ErpFieldKey
+  id: ErpFieldKey
+  parent: SuperOffice.CRM.Services.EisFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: ErpFieldKey
+  nameWithType: EisFieldMapping.ErpFieldKey
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.ErpFieldKey
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe ERP field key\n"
+  syntax:
+    content: public string ErpFieldKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ErpFieldKey As String
+  overload: SuperOffice.CRM.Services.EisFieldMapping.ErpFieldKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EisFieldMapping.FieldType
+  commentId: P:SuperOffice.CRM.Services.EisFieldMapping.FieldType
+  id: FieldType
+  parent: SuperOffice.CRM.Services.EisFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: FieldType
+  nameWithType: EisFieldMapping.FieldType
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.FieldType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nField type\n"
+  syntax:
+    content: public FieldMetadataType FieldType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.FieldMetadataType
+    content.vb: Public Property FieldType As FieldMetadataType
+  overload: SuperOffice.CRM.Services.EisFieldMapping.FieldType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EisFieldMapping.ErpDisplayName
+  commentId: P:SuperOffice.CRM.Services.EisFieldMapping.ErpDisplayName
+  id: ErpDisplayName
+  parent: SuperOffice.CRM.Services.EisFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: ErpDisplayName
+  nameWithType: EisFieldMapping.ErpDisplayName
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.ErpDisplayName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDisplay name of ERP field; ignored on Save\n"
+  syntax:
+    content: public string ErpDisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ErpDisplayName As String
+  overload: SuperOffice.CRM.Services.EisFieldMapping.ErpDisplayName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EisFieldMapping.ErpDisplayTooltip
+  commentId: P:SuperOffice.CRM.Services.EisFieldMapping.ErpDisplayTooltip
+  id: ErpDisplayTooltip
+  parent: SuperOffice.CRM.Services.EisFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: ErpDisplayTooltip
+  nameWithType: EisFieldMapping.ErpDisplayTooltip
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.ErpDisplayTooltip
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTooltip text for ERP field; ignored on Save\n"
+  syntax:
+    content: public string ErpDisplayTooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ErpDisplayTooltip As String
+  overload: SuperOffice.CRM.Services.EisFieldMapping.ErpDisplayTooltip*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EisFieldMapping.SyncToCrm
+  commentId: P:SuperOffice.CRM.Services.EisFieldMapping.SyncToCrm
+  id: SyncToCrm
+  parent: SuperOffice.CRM.Services.EisFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: SyncToCrm
+  nameWithType: EisFieldMapping.SyncToCrm
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.SyncToCrm
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nShould value changes in ERP be automatically transferred to CRM\n"
+  syntax:
+    content: public bool SyncToCrm { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SyncToCrm As Boolean
+  overload: SuperOffice.CRM.Services.EisFieldMapping.SyncToCrm*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EisFieldMapping.SyncToErp
+  commentId: P:SuperOffice.CRM.Services.EisFieldMapping.SyncToErp
+  id: SyncToErp
+  parent: SuperOffice.CRM.Services.EisFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: SyncToErp
+  nameWithType: EisFieldMapping.SyncToErp
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.SyncToErp
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nShould value changes in CRM be automatically transferred to ERP\n"
+  syntax:
+    content: public bool SyncToErp { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SyncToErp As Boolean
+  overload: SuperOffice.CRM.Services.EisFieldMapping.SyncToErp*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EisFieldMapping.ShowInGui
+  commentId: P:SuperOffice.CRM.Services.EisFieldMapping.ShowInGui
+  id: ShowInGui
+  parent: SuperOffice.CRM.Services.EisFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: ShowInGui
+  nameWithType: EisFieldMapping.ShowInGui
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.ShowInGui
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nShould this field be shown as a (read-only!) field in the CRM Gui\n"
+  syntax:
+    content: public bool ShowInGui { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ShowInGui As Boolean
+  overload: SuperOffice.CRM.Services.EisFieldMapping.ShowInGui*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EisFieldMapping.ShowInSearch
+  commentId: P:SuperOffice.CRM.Services.EisFieldMapping.ShowInSearch
+  id: ShowInSearch
+  parent: SuperOffice.CRM.Services.EisFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: ShowInSearch
+  nameWithType: EisFieldMapping.ShowInSearch
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.ShowInSearch
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nShould this field be shown in searches\n"
+  syntax:
+    content: public bool ShowInSearch { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ShowInSearch As Boolean
+  overload: SuperOffice.CRM.Services.EisFieldMapping.ShowInSearch*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EisFieldMapping.AlreadyMapped
+  commentId: P:SuperOffice.CRM.Services.EisFieldMapping.AlreadyMapped
+  id: AlreadyMapped
+  parent: SuperOffice.CRM.Services.EisFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: AlreadyMapped
+  nameWithType: EisFieldMapping.AlreadyMapped
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.AlreadyMapped
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIs this ERPField already mapped in some other connection? If so, then it cannot be one-way mapped TO SuperOffice here\n"
+  syntax:
+    content: public bool AlreadyMapped { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AlreadyMapped As Boolean
+  overload: SuperOffice.CRM.Services.EisFieldMapping.AlreadyMapped*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EisFieldMapping.MissingInERP
+  commentId: P:SuperOffice.CRM.Services.EisFieldMapping.MissingInERP
+  id: MissingInERP
+  parent: SuperOffice.CRM.Services.EisFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: MissingInERP
+  nameWithType: EisFieldMapping.MissingInERP
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.MissingInERP
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis field existed previously, but now the connection no longer supports it. Probably not a good sign, unmap it...\n"
+  syntax:
+    content: public bool MissingInERP { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property MissingInERP As Boolean
+  overload: SuperOffice.CRM.Services.EisFieldMapping.MissingInERP*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EisFieldMapping.MissingInCRM
+  commentId: P:SuperOffice.CRM.Services.EisFieldMapping.MissingInCRM
+  id: MissingInCRM
+  parent: SuperOffice.CRM.Services.EisFieldMapping
+  langs:
+  - csharp
+  - vb
+  name: MissingInCRM
+  nameWithType: EisFieldMapping.MissingInCRM
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.MissingInCRM
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis field existed previously, but now CRM no longer supports it (udef change?). Probably not a good sign, unmap it...\n"
+  syntax:
+    content: public bool MissingInCRM { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property MissingInCRM As Boolean
+  overload: SuperOffice.CRM.Services.EisFieldMapping.MissingInCRM*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.EisFieldMapping.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.EisFieldMapping.#ctor
+  isExternal: true
+  name: EisFieldMapping
+  nameWithType: EisFieldMapping.EisFieldMapping
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.EisFieldMapping
+- uid: SuperOffice.CRM.Services.EisFieldMapping.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.EisFieldMapping.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: EisFieldMapping.ToString
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.EisFieldMapping.ErpFieldId*
+  commentId: Overload:SuperOffice.CRM.Services.EisFieldMapping.ErpFieldId
+  isExternal: true
+  name: ErpFieldId
+  nameWithType: EisFieldMapping.ErpFieldId
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.ErpFieldId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.EisFieldMapping.CrmFieldKey*
+  commentId: Overload:SuperOffice.CRM.Services.EisFieldMapping.CrmFieldKey
+  isExternal: true
+  name: CrmFieldKey
+  nameWithType: EisFieldMapping.CrmFieldKey
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.CrmFieldKey
+- uid: SuperOffice.CRM.Services.EisFieldMapping.CrmDisplayName*
+  commentId: Overload:SuperOffice.CRM.Services.EisFieldMapping.CrmDisplayName
+  isExternal: true
+  name: CrmDisplayName
+  nameWithType: EisFieldMapping.CrmDisplayName
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.CrmDisplayName
+- uid: SuperOffice.CRM.Services.EisFieldMapping.CrmDisplayTooltip*
+  commentId: Overload:SuperOffice.CRM.Services.EisFieldMapping.CrmDisplayTooltip
+  isExternal: true
+  name: CrmDisplayTooltip
+  nameWithType: EisFieldMapping.CrmDisplayTooltip
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.CrmDisplayTooltip
+- uid: SuperOffice.CRM.Services.EisFieldMapping.ErpFieldKey*
+  commentId: Overload:SuperOffice.CRM.Services.EisFieldMapping.ErpFieldKey
+  isExternal: true
+  name: ErpFieldKey
+  nameWithType: EisFieldMapping.ErpFieldKey
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.ErpFieldKey
+- uid: SuperOffice.CRM.Services.EisFieldMapping.FieldType*
+  commentId: Overload:SuperOffice.CRM.Services.EisFieldMapping.FieldType
+  isExternal: true
+  name: FieldType
+  nameWithType: EisFieldMapping.FieldType
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.FieldType
+- uid: SuperOffice.Data.FieldMetadataType
+  isExternal: true
+  name: FieldMetadataType
+  nameWithType: FieldMetadataType
+  fullName: SuperOffice.Data.FieldMetadataType
+- uid: SuperOffice.CRM.Services.EisFieldMapping.ErpDisplayName*
+  commentId: Overload:SuperOffice.CRM.Services.EisFieldMapping.ErpDisplayName
+  isExternal: true
+  name: ErpDisplayName
+  nameWithType: EisFieldMapping.ErpDisplayName
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.ErpDisplayName
+- uid: SuperOffice.CRM.Services.EisFieldMapping.ErpDisplayTooltip*
+  commentId: Overload:SuperOffice.CRM.Services.EisFieldMapping.ErpDisplayTooltip
+  isExternal: true
+  name: ErpDisplayTooltip
+  nameWithType: EisFieldMapping.ErpDisplayTooltip
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.ErpDisplayTooltip
+- uid: SuperOffice.CRM.Services.EisFieldMapping.SyncToCrm*
+  commentId: Overload:SuperOffice.CRM.Services.EisFieldMapping.SyncToCrm
+  isExternal: true
+  name: SyncToCrm
+  nameWithType: EisFieldMapping.SyncToCrm
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.SyncToCrm
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.EisFieldMapping.SyncToErp*
+  commentId: Overload:SuperOffice.CRM.Services.EisFieldMapping.SyncToErp
+  isExternal: true
+  name: SyncToErp
+  nameWithType: EisFieldMapping.SyncToErp
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.SyncToErp
+- uid: SuperOffice.CRM.Services.EisFieldMapping.ShowInGui*
+  commentId: Overload:SuperOffice.CRM.Services.EisFieldMapping.ShowInGui
+  isExternal: true
+  name: ShowInGui
+  nameWithType: EisFieldMapping.ShowInGui
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.ShowInGui
+- uid: SuperOffice.CRM.Services.EisFieldMapping.ShowInSearch*
+  commentId: Overload:SuperOffice.CRM.Services.EisFieldMapping.ShowInSearch
+  isExternal: true
+  name: ShowInSearch
+  nameWithType: EisFieldMapping.ShowInSearch
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.ShowInSearch
+- uid: SuperOffice.CRM.Services.EisFieldMapping.AlreadyMapped*
+  commentId: Overload:SuperOffice.CRM.Services.EisFieldMapping.AlreadyMapped
+  isExternal: true
+  name: AlreadyMapped
+  nameWithType: EisFieldMapping.AlreadyMapped
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.AlreadyMapped
+- uid: SuperOffice.CRM.Services.EisFieldMapping.MissingInERP*
+  commentId: Overload:SuperOffice.CRM.Services.EisFieldMapping.MissingInERP
+  isExternal: true
+  name: MissingInERP
+  nameWithType: EisFieldMapping.MissingInERP
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.MissingInERP
+- uid: SuperOffice.CRM.Services.EisFieldMapping.MissingInCRM*
+  commentId: Overload:SuperOffice.CRM.Services.EisFieldMapping.MissingInCRM
+  isExternal: true
+  name: MissingInCRM
+  nameWithType: EisFieldMapping.MissingInCRM
+  fullName: SuperOffice.CRM.Services.EisFieldMapping.MissingInCRM

@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest
+  id: EMail_GetEMailEnvelopesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest.ConnectionInfo
+  - SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest.MessageServerIds
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetEMailEnvelopesRequest
+  nameWithType: EMail_GetEMailEnvelopesRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_GetEMailEnvelopesRequest : Object'
+    content.vb: >-
+      Public Class EMail_GetEMailEnvelopesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetEMailEnvelopesRequest()
+  nameWithType: EMail_GetEMailEnvelopesRequest.EMail_GetEMailEnvelopesRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest.EMail_GetEMailEnvelopesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_GetEMailEnvelopesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest.ConnectionInfo
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest.ConnectionInfo
+  id: ConnectionInfo
+  parent: SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest
+  langs:
+  - csharp
+  - vb
+  name: ConnectionInfo
+  nameWithType: EMail_GetEMailEnvelopesRequest.ConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest.ConnectionInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMailConnectionInfo ConnectionInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EMailConnectionInfo
+    content.vb: Public Property ConnectionInfo As EMailConnectionInfo
+  overload: SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest.ConnectionInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest.MessageServerIds
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest.MessageServerIds
+  id: MessageServerIds
+  parent: SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest
+  langs:
+  - csharp
+  - vb
+  name: MessageServerIds
+  nameWithType: EMail_GetEMailEnvelopesRequest.MessageServerIds
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest.MessageServerIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] MessageServerIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property MessageServerIds As Integer()
+  overload: SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest.MessageServerIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest.#ctor
+  isExternal: true
+  name: EMail_GetEMailEnvelopesRequest
+  nameWithType: EMail_GetEMailEnvelopesRequest.EMail_GetEMailEnvelopesRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest.EMail_GetEMailEnvelopesRequest
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest.ConnectionInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest.ConnectionInfo
+  isExternal: true
+  name: ConnectionInfo
+  nameWithType: EMail_GetEMailEnvelopesRequest.ConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest.ConnectionInfo
+- uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+  commentId: T:SuperOffice.WebApi.Data.EMailConnectionInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EMailConnectionInfo
+  nameWithType: EMailConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMailConnectionInfo
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest.MessageServerIds*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest.MessageServerIds
+  isExternal: true
+  name: MessageServerIds
+  nameWithType: EMail_GetEMailEnvelopesRequest.MessageServerIds
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailEnvelopesRequest.MessageServerIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

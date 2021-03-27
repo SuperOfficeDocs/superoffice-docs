@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailAddressesRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_GetEMailAddressesRequest
+  id: EMail_GetEMailAddressesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_GetEMailAddressesRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_GetEMailAddressesRequest.EmailIds
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetEMailAddressesRequest
+  nameWithType: EMail_GetEMailAddressesRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailAddressesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_GetEMailAddressesRequest : Object'
+    content.vb: >-
+      Public Class EMail_GetEMailAddressesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailAddressesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_GetEMailAddressesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_GetEMailAddressesRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetEMailAddressesRequest()
+  nameWithType: EMail_GetEMailAddressesRequest.EMail_GetEMailAddressesRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailAddressesRequest.EMail_GetEMailAddressesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_GetEMailAddressesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_GetEMailAddressesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailAddressesRequest.EmailIds
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetEMailAddressesRequest.EmailIds
+  id: EmailIds
+  parent: SuperOffice.WebApi.Data.EMail_GetEMailAddressesRequest
+  langs:
+  - csharp
+  - vb
+  name: EmailIds
+  nameWithType: EMail_GetEMailAddressesRequest.EmailIds
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailAddressesRequest.EmailIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] EmailIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property EmailIds As Integer()
+  overload: SuperOffice.WebApi.Data.EMail_GetEMailAddressesRequest.EmailIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailAddressesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetEMailAddressesRequest.#ctor
+  isExternal: true
+  name: EMail_GetEMailAddressesRequest
+  nameWithType: EMail_GetEMailAddressesRequest.EMail_GetEMailAddressesRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailAddressesRequest.EMail_GetEMailAddressesRequest
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailAddressesRequest.EmailIds*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetEMailAddressesRequest.EmailIds
+  isExternal: true
+  name: EmailIds
+  nameWithType: EMail_GetEMailAddressesRequest.EmailIds
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailAddressesRequest.EmailIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

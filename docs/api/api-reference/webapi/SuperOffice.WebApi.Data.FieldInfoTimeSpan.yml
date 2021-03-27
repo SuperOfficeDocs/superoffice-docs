@@ -1,0 +1,391 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.FieldInfoTimeSpan
+  commentId: T:SuperOffice.WebApi.Data.FieldInfoTimeSpan
+  id: FieldInfoTimeSpan
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.FieldInfoTimeSpan.#ctor
+  - SuperOffice.WebApi.Data.FieldInfoTimeSpan.DefaultValue
+  - SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseDays
+  - SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseHours
+  - SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseMinutes
+  langs:
+  - csharp
+  - vb
+  name: FieldInfoTimeSpan
+  nameWithType: FieldInfoTimeSpan
+  fullName: SuperOffice.WebApi.Data.FieldInfoTimeSpan
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for FieldInfoTimeSpan.\nTimespan custom database field. Number of minutes, represented as days/hours/minutes.    \n"
+  syntax:
+    content: 'public class FieldInfoTimeSpan : FieldInfoBase'
+    content.vb: >-
+      Public Class FieldInfoTimeSpan
+          Inherits FieldInfoBase
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
+    commentId: T:SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.FieldInfoBase
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.FieldInfoBase.FieldType_String
+  - SuperOffice.WebApi.Data.FieldInfoBase.FieldType
+  - SuperOffice.WebApi.Data.FieldInfoBase.FieldName
+  - SuperOffice.WebApi.Data.FieldInfoBase.DisplayName
+  - SuperOffice.WebApi.Data.FieldInfoBase.Description
+  - SuperOffice.WebApi.Data.FieldInfoBase.ShortLabel
+  - SuperOffice.WebApi.Data.FieldInfoBase.HideLabel
+  - SuperOffice.WebApi.Data.FieldInfoBase.HideField
+  - SuperOffice.WebApi.Data.FieldInfoBase.IsIndexed
+  - SuperOffice.WebApi.Data.FieldInfoBase.IsMandatory
+  - SuperOffice.WebApi.Data.FieldInfoBase.IsReadOnly
+  - SuperOffice.WebApi.Data.FieldInfoBase.IsExternal
+  - SuperOffice.WebApi.Data.FieldInfoBase.Rank
+  - SuperOffice.WebApi.Data.FieldInfoBase.TemplateVariableName
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.FieldInfoTimeSpan.#ctor
+  commentId: M:SuperOffice.WebApi.Data.FieldInfoTimeSpan.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.FieldInfoTimeSpan
+  langs:
+  - csharp
+  - vb
+  name: FieldInfoTimeSpan()
+  nameWithType: FieldInfoTimeSpan.FieldInfoTimeSpan()
+  fullName: SuperOffice.WebApi.Data.FieldInfoTimeSpan.FieldInfoTimeSpan()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public FieldInfoTimeSpan()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.FieldInfoTimeSpan.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FieldInfoTimeSpan.DefaultValue
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoTimeSpan.DefaultValue
+  id: DefaultValue
+  parent: SuperOffice.WebApi.Data.FieldInfoTimeSpan
+  langs:
+  - csharp
+  - vb
+  name: DefaultValue
+  nameWithType: FieldInfoTimeSpan.DefaultValue
+  fullName: SuperOffice.WebApi.Data.FieldInfoTimeSpan.DefaultValue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault Timespan value - number of minutes.\n"
+  syntax:
+    content: public virtual int DefaultValue { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DefaultValue As Integer
+  overload: SuperOffice.WebApi.Data.FieldInfoTimeSpan.DefaultValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseDays
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseDays
+  id: UseDays
+  parent: SuperOffice.WebApi.Data.FieldInfoTimeSpan
+  langs:
+  - csharp
+  - vb
+  name: UseDays
+  nameWithType: FieldInfoTimeSpan.UseDays
+  fullName: SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseDays
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the time-span be counted in days?\n"
+  syntax:
+    content: public virtual bool UseDays { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property UseDays As Boolean
+  overload: SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseDays*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseHours
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseHours
+  id: UseHours
+  parent: SuperOffice.WebApi.Data.FieldInfoTimeSpan
+  langs:
+  - csharp
+  - vb
+  name: UseHours
+  nameWithType: FieldInfoTimeSpan.UseHours
+  fullName: SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseHours
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the time-span be counted in hours?\n"
+  syntax:
+    content: public virtual bool UseHours { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property UseHours As Boolean
+  overload: SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseHours*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseMinutes
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseMinutes
+  id: UseMinutes
+  parent: SuperOffice.WebApi.Data.FieldInfoTimeSpan
+  langs:
+  - csharp
+  - vb
+  name: UseMinutes
+  nameWithType: FieldInfoTimeSpan.UseMinutes
+  fullName: SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseMinutes
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the time-span be counted in minutes?\n"
+  syntax:
+    content: public virtual bool UseMinutes { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property UseMinutes As Boolean
+  overload: SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseMinutes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.FieldInfoBase
+  commentId: T:SuperOffice.WebApi.Data.FieldInfoBase
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: FieldInfoBase
+  nameWithType: FieldInfoBase
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.FieldType_String
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.FieldType_String
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: FieldType_String
+  nameWithType: FieldInfoBase.FieldType_String
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.FieldType_String
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.FieldType
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.FieldType
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: FieldType
+  nameWithType: FieldInfoBase.FieldType
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.FieldType
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.FieldName
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.FieldName
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: FieldName
+  nameWithType: FieldInfoBase.FieldName
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.FieldName
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.DisplayName
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.DisplayName
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: DisplayName
+  nameWithType: FieldInfoBase.DisplayName
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.DisplayName
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.Description
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.Description
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: Description
+  nameWithType: FieldInfoBase.Description
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.Description
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.ShortLabel
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.ShortLabel
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: ShortLabel
+  nameWithType: FieldInfoBase.ShortLabel
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.ShortLabel
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.HideLabel
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.HideLabel
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: HideLabel
+  nameWithType: FieldInfoBase.HideLabel
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.HideLabel
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.HideField
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.HideField
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: HideField
+  nameWithType: FieldInfoBase.HideField
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.HideField
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.IsIndexed
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.IsIndexed
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: IsIndexed
+  nameWithType: FieldInfoBase.IsIndexed
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.IsIndexed
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.IsMandatory
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.IsMandatory
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: IsMandatory
+  nameWithType: FieldInfoBase.IsMandatory
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.IsMandatory
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.IsReadOnly
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.IsReadOnly
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: IsReadOnly
+  nameWithType: FieldInfoBase.IsReadOnly
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.IsReadOnly
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.IsExternal
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.IsExternal
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: IsExternal
+  nameWithType: FieldInfoBase.IsExternal
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.IsExternal
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.Rank
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.Rank
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: Rank
+  nameWithType: FieldInfoBase.Rank
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.Rank
+- uid: SuperOffice.WebApi.Data.FieldInfoBase.TemplateVariableName
+  commentId: P:SuperOffice.WebApi.Data.FieldInfoBase.TemplateVariableName
+  parent: SuperOffice.WebApi.Data.FieldInfoBase
+  isExternal: true
+  name: TemplateVariableName
+  nameWithType: FieldInfoBase.TemplateVariableName
+  fullName: SuperOffice.WebApi.Data.FieldInfoBase.TemplateVariableName
+- uid: SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
+  commentId: T:SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
+  isExternal: true
+  name: UserDefinedFieldInfoAgent
+  nameWithType: UserDefinedFieldInfoAgent
+  fullName: SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.FieldInfoTimeSpan.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldInfoTimeSpan.#ctor
+  isExternal: true
+  name: FieldInfoTimeSpan
+  nameWithType: FieldInfoTimeSpan.FieldInfoTimeSpan
+  fullName: SuperOffice.WebApi.Data.FieldInfoTimeSpan.FieldInfoTimeSpan
+- uid: SuperOffice.WebApi.Data.FieldInfoTimeSpan.DefaultValue*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldInfoTimeSpan.DefaultValue
+  isExternal: true
+  name: DefaultValue
+  nameWithType: FieldInfoTimeSpan.DefaultValue
+  fullName: SuperOffice.WebApi.Data.FieldInfoTimeSpan.DefaultValue
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseDays*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseDays
+  isExternal: true
+  name: UseDays
+  nameWithType: FieldInfoTimeSpan.UseDays
+  fullName: SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseDays
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseHours*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseHours
+  isExternal: true
+  name: UseHours
+  nameWithType: FieldInfoTimeSpan.UseHours
+  fullName: SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseHours
+- uid: SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseMinutes*
+  commentId: Overload:SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseMinutes
+  isExternal: true
+  name: UseMinutes
+  nameWithType: FieldInfoTimeSpan.UseMinutes
+  fullName: SuperOffice.WebApi.Data.FieldInfoTimeSpan.UseMinutes

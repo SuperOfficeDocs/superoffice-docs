@@ -1,0 +1,721 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.BatchService
+  commentId: T:SuperOffice.Configuration.ConfigFile.BatchService
+  id: ConfigFile.BatchService
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.BatchService.CPUThreshold
+  - SuperOffice.Configuration.ConfigFile.BatchService.DiagnosticsWebUri
+  - SuperOffice.Configuration.ConfigFile.BatchService.ImpersonateReporterPlugin
+  - SuperOffice.Configuration.ConfigFile.BatchService.MaxTasks
+  - SuperOffice.Configuration.ConfigFile.BatchService.PollingInterval
+  - SuperOffice.Configuration.ConfigFile.BatchService.ReporterPath
+  - SuperOffice.Configuration.ConfigFile.BatchService.RunTasksInProcess
+  - SuperOffice.Configuration.ConfigFile.BatchService.ServiceName
+  - SuperOffice.Configuration.ConfigFile.BatchService.TaskTimeout
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.BatchService
+  nameWithType: ConfigFile.BatchService
+  fullName: SuperOffice.Configuration.ConfigFile.BatchService
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nConfiguration values for the Windows batch task service (SoBatchService)\n"
+  syntax:
+    content: public static class BatchService
+    content.vb: Public Module BatchService
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Configuration.ConfigFile.BatchService.ServiceName
+  commentId: P:SuperOffice.Configuration.ConfigFile.BatchService.ServiceName
+  id: ServiceName
+  parent: SuperOffice.Configuration.ConfigFile.BatchService
+  langs:
+  - csharp
+  - vb
+  name: ServiceName
+  nameWithType: ConfigFile.BatchService.ServiceName
+  fullName: SuperOffice.Configuration.ConfigFile.BatchService.ServiceName
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nReturns the name of the service. This name is the one used to install the service under the service control manager in windows. If you want more than one of this service installed on the same machine, this setting must be unique for each service.\n"
+  syntax:
+    content: public static string ServiceName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property ServiceName As String
+  overload: SuperOffice.Configuration.ConfigFile.BatchService.ServiceName*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.BatchService.MaxTasks
+  commentId: P:SuperOffice.Configuration.ConfigFile.BatchService.MaxTasks
+  id: MaxTasks
+  parent: SuperOffice.Configuration.ConfigFile.BatchService
+  langs:
+  - csharp
+  - vb
+  name: MaxTasks
+  nameWithType: ConfigFile.BatchService.MaxTasks
+  fullName: SuperOffice.Configuration.ConfigFile.BatchService.MaxTasks
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nMaximum number of tasks to spawn simultaneously.\n"
+  syntax:
+    content: public static int MaxTasks { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property MaxTasks As Integer
+  overload: SuperOffice.Configuration.ConfigFile.BatchService.MaxTasks*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.BatchService.CPUThreshold
+  commentId: P:SuperOffice.Configuration.ConfigFile.BatchService.CPUThreshold
+  id: CPUThreshold
+  parent: SuperOffice.Configuration.ConfigFile.BatchService
+  langs:
+  - csharp
+  - vb
+  name: CPUThreshold
+  nameWithType: ConfigFile.BatchService.CPUThreshold
+  fullName: SuperOffice.Configuration.ConfigFile.BatchService.CPUThreshold
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nCPU Threshold value in percentage. This value is used to check the computer&apos;s cpu load when spawning a new task. If the total cpu usage is above this value, no more tasks will be started even though max tasks has not been reached.\n"
+  syntax:
+    content: public static int CPUThreshold { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property CPUThreshold As Integer
+  overload: SuperOffice.Configuration.ConfigFile.BatchService.CPUThreshold*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.BatchService.PollingInterval
+  commentId: P:SuperOffice.Configuration.ConfigFile.BatchService.PollingInterval
+  id: PollingInterval
+  parent: SuperOffice.Configuration.ConfigFile.BatchService
+  langs:
+  - csharp
+  - vb
+  name: PollingInterval
+  nameWithType: ConfigFile.BatchService.PollingInterval
+  fullName: SuperOffice.Configuration.ConfigFile.BatchService.PollingInterval
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nReturns the number of seconds to sleep between each time the service checks for new tasks.\n"
+  syntax:
+    content: public static int PollingInterval { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property PollingInterval As Integer
+  overload: SuperOffice.Configuration.ConfigFile.BatchService.PollingInterval*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.BatchService.DiagnosticsWebUri
+  commentId: P:SuperOffice.Configuration.ConfigFile.BatchService.DiagnosticsWebUri
+  id: DiagnosticsWebUri
+  parent: SuperOffice.Configuration.ConfigFile.BatchService
+  langs:
+  - csharp
+  - vb
+  name: DiagnosticsWebUri
+  nameWithType: ConfigFile.BatchService.DiagnosticsWebUri
+  fullName: SuperOffice.Configuration.ConfigFile.BatchService.DiagnosticsWebUri
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nReturns the url that the machine should bind against when starting the http monitor utility that displays the current state and log in a browser.\n"
+  syntax:
+    content: public static string DiagnosticsWebUri { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property DiagnosticsWebUri As String
+  overload: SuperOffice.Configuration.ConfigFile.BatchService.DiagnosticsWebUri*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.BatchService.ImpersonateReporterPlugin
+  commentId: P:SuperOffice.Configuration.ConfigFile.BatchService.ImpersonateReporterPlugin
+  id: ImpersonateReporterPlugin
+  parent: SuperOffice.Configuration.ConfigFile.BatchService
+  langs:
+  - csharp
+  - vb
+  name: ImpersonateReporterPlugin
+  nameWithType: ConfigFile.BatchService.ImpersonateReporterPlugin
+  fullName: SuperOffice.Configuration.ConfigFile.BatchService.ImpersonateReporterPlugin
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nReturns true/false if the batch service should impersonate the reporter executor with the document identity.\n"
+  syntax:
+    content: public static bool ImpersonateReporterPlugin { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property ImpersonateReporterPlugin As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.BatchService.ImpersonateReporterPlugin*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.BatchService.ReporterPath
+  commentId: P:SuperOffice.Configuration.ConfigFile.BatchService.ReporterPath
+  id: ReporterPath
+  parent: SuperOffice.Configuration.ConfigFile.BatchService
+  langs:
+  - csharp
+  - vb
+  name: ReporterPath
+  nameWithType: ConfigFile.BatchService.ReporterPath
+  fullName: SuperOffice.Configuration.ConfigFile.BatchService.ReporterPath
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nReturns the path to the reporter executer file. This can be left blank to try the default paths. If the batch service is located in the default location (same location as CRM.Web), there should be no need to change this value. Also note that CRM.Web has a similar field in it&apos;s configuration. This specific configuration field should only be used when CRM.Web and the Batch Service are located on different machines.\n"
+  syntax:
+    content: public static string ReporterPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property ReporterPath As String
+  overload: SuperOffice.Configuration.ConfigFile.BatchService.ReporterPath*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.BatchService.TaskTimeout
+  commentId: P:SuperOffice.Configuration.ConfigFile.BatchService.TaskTimeout
+  id: TaskTimeout
+  parent: SuperOffice.Configuration.ConfigFile.BatchService
+  langs:
+  - csharp
+  - vb
+  name: TaskTimeout
+  nameWithType: ConfigFile.BatchService.TaskTimeout
+  fullName: SuperOffice.Configuration.ConfigFile.BatchService.TaskTimeout
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nReturns the timeout in seconds for spawned tasks. -1 is infinity.\n"
+  syntax:
+    content: public static int TaskTimeout { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property TaskTimeout As Integer
+  overload: SuperOffice.Configuration.ConfigFile.BatchService.TaskTimeout*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.BatchService.RunTasksInProcess
+  commentId: P:SuperOffice.Configuration.ConfigFile.BatchService.RunTasksInProcess
+  id: RunTasksInProcess
+  parent: SuperOffice.Configuration.ConfigFile.BatchService
+  langs:
+  - csharp
+  - vb
+  name: RunTasksInProcess
+  nameWithType: ConfigFile.BatchService.RunTasksInProcess
+  fullName: SuperOffice.Configuration.ConfigFile.BatchService.RunTasksInProcess
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nSet this property to true if batch tasks should be run inprocess (as an asynchron operation) or if it should run under the batch service. Default value is false.\n"
+  syntax:
+    content: public static bool RunTasksInProcess { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property RunTasksInProcess As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.BatchService.RunTasksInProcess*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.BatchService.ServiceName*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.BatchService.ServiceName
+  isExternal: true
+  name: ServiceName
+  nameWithType: ConfigFile.BatchService.ServiceName
+  fullName: SuperOffice.Configuration.ConfigFile.BatchService.ServiceName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Configuration.ConfigFile.BatchService.MaxTasks*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.BatchService.MaxTasks
+  isExternal: true
+  name: MaxTasks
+  nameWithType: ConfigFile.BatchService.MaxTasks
+  fullName: SuperOffice.Configuration.ConfigFile.BatchService.MaxTasks
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Configuration.ConfigFile.BatchService.CPUThreshold*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.BatchService.CPUThreshold
+  isExternal: true
+  name: CPUThreshold
+  nameWithType: ConfigFile.BatchService.CPUThreshold
+  fullName: SuperOffice.Configuration.ConfigFile.BatchService.CPUThreshold
+- uid: SuperOffice.Configuration.ConfigFile.BatchService.PollingInterval*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.BatchService.PollingInterval
+  isExternal: true
+  name: PollingInterval
+  nameWithType: ConfigFile.BatchService.PollingInterval
+  fullName: SuperOffice.Configuration.ConfigFile.BatchService.PollingInterval
+- uid: SuperOffice.Configuration.ConfigFile.BatchService.DiagnosticsWebUri*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.BatchService.DiagnosticsWebUri
+  isExternal: true
+  name: DiagnosticsWebUri
+  nameWithType: ConfigFile.BatchService.DiagnosticsWebUri
+  fullName: SuperOffice.Configuration.ConfigFile.BatchService.DiagnosticsWebUri
+- uid: SuperOffice.Configuration.ConfigFile.BatchService.ImpersonateReporterPlugin*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.BatchService.ImpersonateReporterPlugin
+  isExternal: true
+  name: ImpersonateReporterPlugin
+  nameWithType: ConfigFile.BatchService.ImpersonateReporterPlugin
+  fullName: SuperOffice.Configuration.ConfigFile.BatchService.ImpersonateReporterPlugin
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Configuration.ConfigFile.BatchService.ReporterPath*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.BatchService.ReporterPath
+  isExternal: true
+  name: ReporterPath
+  nameWithType: ConfigFile.BatchService.ReporterPath
+  fullName: SuperOffice.Configuration.ConfigFile.BatchService.ReporterPath
+- uid: SuperOffice.Configuration.ConfigFile.BatchService.TaskTimeout*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.BatchService.TaskTimeout
+  isExternal: true
+  name: TaskTimeout
+  nameWithType: ConfigFile.BatchService.TaskTimeout
+  fullName: SuperOffice.Configuration.ConfigFile.BatchService.TaskTimeout
+- uid: SuperOffice.Configuration.ConfigFile.BatchService.RunTasksInProcess*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.BatchService.RunTasksInProcess
+  isExternal: true
+  name: RunTasksInProcess
+  nameWithType: ConfigFile.BatchService.RunTasksInProcess
+  fullName: SuperOffice.Configuration.ConfigFile.BatchService.RunTasksInProcess

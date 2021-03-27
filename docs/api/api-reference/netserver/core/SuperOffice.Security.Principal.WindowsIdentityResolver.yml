@@ -1,0 +1,2061 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Principal.WindowsIdentityResolver
+  commentId: T:SuperOffice.Security.Principal.WindowsIdentityResolver
+  id: WindowsIdentityResolver
+  parent: SuperOffice.Security.Principal
+  children:
+  - SuperOffice.Security.Principal.WindowsIdentityResolver.#ctor
+  - SuperOffice.Security.Principal.WindowsIdentityResolver.DbCredentialType
+  - SuperOffice.Security.Principal.WindowsIdentityResolver.IsAPerson(System.Security.Principal.WindowsIdentity)
+  - SuperOffice.Security.Principal.WindowsIdentityResolver.ResolveFilteredIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Data.SoConnection,SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken)
+  langs:
+  - csharp
+  - vb
+  name: WindowsIdentityResolver
+  nameWithType: WindowsIdentityResolver
+  fullName: SuperOffice.Security.Principal.WindowsIdentityResolver
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: 'public abstract class WindowsIdentityResolver : AssociateResolver<WindowsSecurityToken>, ISoIdentityResolver, IPlugin'
+    content.vb: >-
+      Public MustInherit Class WindowsIdentityResolver
+          Inherits AssociateResolver(Of WindowsSecurityToken)
+          Implements ISoIdentityResolver, IPlugin
+  inheritance:
+  - System.Object
+  - SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}
+  derivedClasses:
+  - SuperOffice.Security.Principal.UserNameAsWindowsIdentityResolver
+  - SuperOffice.Security.Principal.WindowsOtherIdentityResolver
+  - SuperOffice.Security.Principal.WindowsPersonIdentityResolver
+  implements:
+  - SuperOffice.Security.ISoIdentityResolver
+  inheritedMembers:
+  - SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}.GetInfoAboutUser
+  - SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}.UpdateCredentialsLastUsed(SuperOffice.CRM.Data.CredentialsTableInfo,System.Int32,SuperOffice.Data.SoConnection,System.DateTime)
+  - SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}.UpdateRoleId(System.Int32,System.Int32)
+  - SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}.ResolveFromUsernamePassword(System.String@,System.String,SuperOffice.Data.SoConnection,System.String,System.Int32@)
+  - SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}.ResolveAssociateFromName(System.String@,SuperOffice.Data.AssociateType@,SuperOffice.Data.SoConnection)
+  - SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}.IsPasswordValid(System.Int32,System.String,System.String)
+  - SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}.SecretFromPassword(System.Int32,System.String)
+  - SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}.ResolveIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Data.SoConnection)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Security.Principal.WindowsIdentityResolver.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Principal.WindowsIdentityResolver.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.Security.Principal.WindowsIdentityResolver.DbCredentialType
+  commentId: F:SuperOffice.Security.Principal.WindowsIdentityResolver.DbCredentialType
+  id: DbCredentialType
+  parent: SuperOffice.Security.Principal.WindowsIdentityResolver
+  langs:
+  - csharp
+  - vb
+  name: DbCredentialType
+  nameWithType: WindowsIdentityResolver.DbCredentialType
+  fullName: SuperOffice.Security.Principal.WindowsIdentityResolver.DbCredentialType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public const string DbCredentialType = "ActiveDirectory"
+    return:
+      type: System.String
+    content.vb: Public Const DbCredentialType As String = "ActiveDirectory"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Principal.WindowsIdentityResolver.ResolveFilteredIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Data.SoConnection,SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken)
+  commentId: M:SuperOffice.Security.Principal.WindowsIdentityResolver.ResolveFilteredIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Data.SoConnection,SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken)
+  id: ResolveFilteredIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Data.SoConnection,SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken)
+  parent: SuperOffice.Security.Principal.WindowsIdentityResolver
+  langs:
+  - csharp
+  - vb
+  name: ResolveFilteredIdentity(IList<SecurityToken>, SoConnection, WindowsIdentityResolver.AcceptToken)
+  nameWithType: WindowsIdentityResolver.ResolveFilteredIdentity(IList<SecurityToken>, SoConnection, WindowsIdentityResolver.AcceptToken)
+  fullName: SuperOffice.Security.Principal.WindowsIdentityResolver.ResolveFilteredIdentity(System.Collections.Generic.IList<System.IdentityModel.Tokens.SecurityToken>, SuperOffice.Data.SoConnection, SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: protected ISoIdentity ResolveFilteredIdentity(IList<SecurityToken> tokens, SoConnection dbConnection, WindowsIdentityResolver.AcceptToken tokenFilter)
+    parameters:
+    - id: tokens
+      type: System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken}
+    - id: dbConnection
+      type: SuperOffice.Data.SoConnection
+    - id: tokenFilter
+      type: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken
+    return:
+      type: SuperOffice.Security.Principal.ISoIdentity
+    content.vb: Protected Function ResolveFilteredIdentity(tokens As IList(Of SecurityToken), dbConnection As SoConnection, tokenFilter As WindowsIdentityResolver.AcceptToken) As ISoIdentity
+  overload: SuperOffice.Security.Principal.WindowsIdentityResolver.ResolveFilteredIdentity*
+  nameWithType.vb: WindowsIdentityResolver.ResolveFilteredIdentity(IList(Of SecurityToken), SoConnection, WindowsIdentityResolver.AcceptToken)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.Security.Principal.WindowsIdentityResolver.ResolveFilteredIdentity(System.Collections.Generic.IList(Of System.IdentityModel.Tokens.SecurityToken), SuperOffice.Data.SoConnection, SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken)
+  name.vb: ResolveFilteredIdentity(IList(Of SecurityToken), SoConnection, WindowsIdentityResolver.AcceptToken)
+- uid: SuperOffice.Security.Principal.WindowsIdentityResolver.IsAPerson(System.Security.Principal.WindowsIdentity)
+  commentId: M:SuperOffice.Security.Principal.WindowsIdentityResolver.IsAPerson(System.Security.Principal.WindowsIdentity)
+  id: IsAPerson(System.Security.Principal.WindowsIdentity)
+  parent: SuperOffice.Security.Principal.WindowsIdentityResolver
+  langs:
+  - csharp
+  - vb
+  name: IsAPerson(WindowsIdentity)
+  nameWithType: WindowsIdentityResolver.IsAPerson(WindowsIdentity)
+  fullName: SuperOffice.Security.Principal.WindowsIdentityResolver.IsAPerson(System.Security.Principal.WindowsIdentity)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: protected bool IsAPerson(WindowsIdentity wsi)
+    parameters:
+    - id: wsi
+      type: System.Security.Principal.WindowsIdentity
+    return:
+      type: System.Boolean
+    content.vb: Protected Function IsAPerson(wsi As WindowsIdentity) As Boolean
+  overload: SuperOffice.Security.Principal.WindowsIdentityResolver.IsAPerson*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Security.Principal.WindowsIdentityResolver.#ctor
+  commentId: M:SuperOffice.Security.Principal.WindowsIdentityResolver.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Security.Principal.WindowsIdentityResolver
+  langs:
+  - csharp
+  - vb
+  name: WindowsIdentityResolver()
+  nameWithType: WindowsIdentityResolver.WindowsIdentityResolver()
+  fullName: SuperOffice.Security.Principal.WindowsIdentityResolver.WindowsIdentityResolver()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: protected WindowsIdentityResolver()
+    content.vb: Protected Sub New
+  overload: SuperOffice.Security.Principal.WindowsIdentityResolver.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}
+  commentId: T:SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}
+  parent: SuperOffice.Security.Principal
+  definition: SuperOffice.Security.Principal.AssociateResolver`1
+  name: AssociateResolver<WindowsSecurityToken>
+  nameWithType: AssociateResolver<WindowsSecurityToken>
+  fullName: SuperOffice.Security.Principal.AssociateResolver<System.IdentityModel.Tokens.WindowsSecurityToken>
+  nameWithType.vb: AssociateResolver(Of WindowsSecurityToken)
+  fullName.vb: SuperOffice.Security.Principal.AssociateResolver(Of System.IdentityModel.Tokens.WindowsSecurityToken)
+  name.vb: AssociateResolver(Of WindowsSecurityToken)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1
+    name: AssociateResolver
+    nameWithType: AssociateResolver
+    fullName: SuperOffice.Security.Principal.AssociateResolver
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.IdentityModel.Tokens.WindowsSecurityToken
+    name: WindowsSecurityToken
+    nameWithType: WindowsSecurityToken
+    fullName: System.IdentityModel.Tokens.WindowsSecurityToken
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1
+    name: AssociateResolver
+    nameWithType: AssociateResolver
+    fullName: SuperOffice.Security.Principal.AssociateResolver
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.IdentityModel.Tokens.WindowsSecurityToken
+    name: WindowsSecurityToken
+    nameWithType: WindowsSecurityToken
+    fullName: System.IdentityModel.Tokens.WindowsSecurityToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.ISoIdentityResolver
+  commentId: T:SuperOffice.Security.ISoIdentityResolver
+  parent: SuperOffice.Security
+  isExternal: true
+  name: ISoIdentityResolver
+  nameWithType: ISoIdentityResolver
+  fullName: SuperOffice.Security.ISoIdentityResolver
+- uid: SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}.GetInfoAboutUser
+  commentId: M:SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}.GetInfoAboutUser
+  parent: SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}
+  definition: SuperOffice.Security.Principal.AssociateResolver`1.GetInfoAboutUser
+  name: GetInfoAboutUser()
+  nameWithType: AssociateResolver<WindowsSecurityToken>.GetInfoAboutUser()
+  fullName: SuperOffice.Security.Principal.AssociateResolver<System.IdentityModel.Tokens.WindowsSecurityToken>.GetInfoAboutUser()
+  nameWithType.vb: AssociateResolver(Of WindowsSecurityToken).GetInfoAboutUser()
+  fullName.vb: SuperOffice.Security.Principal.AssociateResolver(Of System.IdentityModel.Tokens.WindowsSecurityToken).GetInfoAboutUser()
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.GetInfoAboutUser
+    name: GetInfoAboutUser
+    nameWithType: AssociateResolver<WindowsSecurityToken>.GetInfoAboutUser
+    fullName: SuperOffice.Security.Principal.AssociateResolver<System.IdentityModel.Tokens.WindowsSecurityToken>.GetInfoAboutUser
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.GetInfoAboutUser
+    name: GetInfoAboutUser
+    nameWithType: AssociateResolver(Of WindowsSecurityToken).GetInfoAboutUser
+    fullName: SuperOffice.Security.Principal.AssociateResolver(Of System.IdentityModel.Tokens.WindowsSecurityToken).GetInfoAboutUser
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}.UpdateCredentialsLastUsed(SuperOffice.CRM.Data.CredentialsTableInfo,System.Int32,SuperOffice.Data.SoConnection,System.DateTime)
+  commentId: M:SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}.UpdateCredentialsLastUsed(SuperOffice.CRM.Data.CredentialsTableInfo,System.Int32,SuperOffice.Data.SoConnection,System.DateTime)
+  parent: SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}
+  definition: SuperOffice.Security.Principal.AssociateResolver`1.UpdateCredentialsLastUsed(SuperOffice.CRM.Data.CredentialsTableInfo,System.Int32,SuperOffice.Data.SoConnection,System.DateTime)
+  name: UpdateCredentialsLastUsed(CredentialsTableInfo, Int32, SoConnection, DateTime)
+  nameWithType: AssociateResolver<WindowsSecurityToken>.UpdateCredentialsLastUsed(CredentialsTableInfo, Int32, SoConnection, DateTime)
+  fullName: SuperOffice.Security.Principal.AssociateResolver<System.IdentityModel.Tokens.WindowsSecurityToken>.UpdateCredentialsLastUsed(SuperOffice.CRM.Data.CredentialsTableInfo, System.Int32, SuperOffice.Data.SoConnection, System.DateTime)
+  nameWithType.vb: AssociateResolver(Of WindowsSecurityToken).UpdateCredentialsLastUsed(CredentialsTableInfo, Int32, SoConnection, DateTime)
+  fullName.vb: SuperOffice.Security.Principal.AssociateResolver(Of System.IdentityModel.Tokens.WindowsSecurityToken).UpdateCredentialsLastUsed(SuperOffice.CRM.Data.CredentialsTableInfo, System.Int32, SuperOffice.Data.SoConnection, System.DateTime)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.UpdateCredentialsLastUsed(SuperOffice.CRM.Data.CredentialsTableInfo,System.Int32,SuperOffice.Data.SoConnection,System.DateTime)
+    name: UpdateCredentialsLastUsed
+    nameWithType: AssociateResolver<WindowsSecurityToken>.UpdateCredentialsLastUsed
+    fullName: SuperOffice.Security.Principal.AssociateResolver<System.IdentityModel.Tokens.WindowsSecurityToken>.UpdateCredentialsLastUsed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Data.CredentialsTableInfo
+    name: CredentialsTableInfo
+    nameWithType: CredentialsTableInfo
+    fullName: SuperOffice.CRM.Data.CredentialsTableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoConnection
+    name: SoConnection
+    nameWithType: SoConnection
+    fullName: SuperOffice.Data.SoConnection
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.UpdateCredentialsLastUsed(SuperOffice.CRM.Data.CredentialsTableInfo,System.Int32,SuperOffice.Data.SoConnection,System.DateTime)
+    name: UpdateCredentialsLastUsed
+    nameWithType: AssociateResolver(Of WindowsSecurityToken).UpdateCredentialsLastUsed
+    fullName: SuperOffice.Security.Principal.AssociateResolver(Of System.IdentityModel.Tokens.WindowsSecurityToken).UpdateCredentialsLastUsed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Data.CredentialsTableInfo
+    name: CredentialsTableInfo
+    nameWithType: CredentialsTableInfo
+    fullName: SuperOffice.CRM.Data.CredentialsTableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoConnection
+    name: SoConnection
+    nameWithType: SoConnection
+    fullName: SuperOffice.Data.SoConnection
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}.UpdateRoleId(System.Int32,System.Int32)
+  commentId: M:SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}.UpdateRoleId(System.Int32,System.Int32)
+  parent: SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}
+  definition: SuperOffice.Security.Principal.AssociateResolver`1.UpdateRoleId(System.Int32,System.Int32)
+  name: UpdateRoleId(Int32, Int32)
+  nameWithType: AssociateResolver<WindowsSecurityToken>.UpdateRoleId(Int32, Int32)
+  fullName: SuperOffice.Security.Principal.AssociateResolver<System.IdentityModel.Tokens.WindowsSecurityToken>.UpdateRoleId(System.Int32, System.Int32)
+  nameWithType.vb: AssociateResolver(Of WindowsSecurityToken).UpdateRoleId(Int32, Int32)
+  fullName.vb: SuperOffice.Security.Principal.AssociateResolver(Of System.IdentityModel.Tokens.WindowsSecurityToken).UpdateRoleId(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.UpdateRoleId(System.Int32,System.Int32)
+    name: UpdateRoleId
+    nameWithType: AssociateResolver<WindowsSecurityToken>.UpdateRoleId
+    fullName: SuperOffice.Security.Principal.AssociateResolver<System.IdentityModel.Tokens.WindowsSecurityToken>.UpdateRoleId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.UpdateRoleId(System.Int32,System.Int32)
+    name: UpdateRoleId
+    nameWithType: AssociateResolver(Of WindowsSecurityToken).UpdateRoleId
+    fullName: SuperOffice.Security.Principal.AssociateResolver(Of System.IdentityModel.Tokens.WindowsSecurityToken).UpdateRoleId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}.ResolveFromUsernamePassword(System.String@,System.String,SuperOffice.Data.SoConnection,System.String,System.Int32@)
+  commentId: M:SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}.ResolveFromUsernamePassword(System.String@,System.String,SuperOffice.Data.SoConnection,System.String,System.Int32@)
+  parent: SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}
+  definition: SuperOffice.Security.Principal.AssociateResolver`1.ResolveFromUsernamePassword(System.String@,System.String,SuperOffice.Data.SoConnection,System.String,System.Int32@)
+  name: ResolveFromUsernamePassword(String, String, SoConnection, String, Int32)
+  nameWithType: AssociateResolver<WindowsSecurityToken>.ResolveFromUsernamePassword(String, String, SoConnection, String, Int32)
+  fullName: SuperOffice.Security.Principal.AssociateResolver<System.IdentityModel.Tokens.WindowsSecurityToken>.ResolveFromUsernamePassword(System.String, System.String, SuperOffice.Data.SoConnection, System.String, System.Int32)
+  nameWithType.vb: AssociateResolver(Of WindowsSecurityToken).ResolveFromUsernamePassword(String, String, SoConnection, String, Int32)
+  fullName.vb: SuperOffice.Security.Principal.AssociateResolver(Of System.IdentityModel.Tokens.WindowsSecurityToken).ResolveFromUsernamePassword(System.String, System.String, SuperOffice.Data.SoConnection, System.String, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.ResolveFromUsernamePassword(System.String@,System.String,SuperOffice.Data.SoConnection,System.String,System.Int32@)
+    name: ResolveFromUsernamePassword
+    nameWithType: AssociateResolver<WindowsSecurityToken>.ResolveFromUsernamePassword
+    fullName: SuperOffice.Security.Principal.AssociateResolver<System.IdentityModel.Tokens.WindowsSecurityToken>.ResolveFromUsernamePassword
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoConnection
+    name: SoConnection
+    nameWithType: SoConnection
+    fullName: SuperOffice.Data.SoConnection
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.ResolveFromUsernamePassword(System.String@,System.String,SuperOffice.Data.SoConnection,System.String,System.Int32@)
+    name: ResolveFromUsernamePassword
+    nameWithType: AssociateResolver(Of WindowsSecurityToken).ResolveFromUsernamePassword
+    fullName: SuperOffice.Security.Principal.AssociateResolver(Of System.IdentityModel.Tokens.WindowsSecurityToken).ResolveFromUsernamePassword
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoConnection
+    name: SoConnection
+    nameWithType: SoConnection
+    fullName: SuperOffice.Data.SoConnection
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}.ResolveAssociateFromName(System.String@,SuperOffice.Data.AssociateType@,SuperOffice.Data.SoConnection)
+  commentId: M:SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}.ResolveAssociateFromName(System.String@,SuperOffice.Data.AssociateType@,SuperOffice.Data.SoConnection)
+  parent: SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}
+  definition: SuperOffice.Security.Principal.AssociateResolver`1.ResolveAssociateFromName(System.String@,SuperOffice.Data.AssociateType@,SuperOffice.Data.SoConnection)
+  name: ResolveAssociateFromName(String, AssociateType, SoConnection)
+  nameWithType: AssociateResolver<WindowsSecurityToken>.ResolveAssociateFromName(String, AssociateType, SoConnection)
+  fullName: SuperOffice.Security.Principal.AssociateResolver<System.IdentityModel.Tokens.WindowsSecurityToken>.ResolveAssociateFromName(System.String, SuperOffice.Data.AssociateType, SuperOffice.Data.SoConnection)
+  nameWithType.vb: AssociateResolver(Of WindowsSecurityToken).ResolveAssociateFromName(String, AssociateType, SoConnection)
+  fullName.vb: SuperOffice.Security.Principal.AssociateResolver(Of System.IdentityModel.Tokens.WindowsSecurityToken).ResolveAssociateFromName(System.String, SuperOffice.Data.AssociateType, SuperOffice.Data.SoConnection)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.ResolveAssociateFromName(System.String@,SuperOffice.Data.AssociateType@,SuperOffice.Data.SoConnection)
+    name: ResolveAssociateFromName
+    nameWithType: AssociateResolver<WindowsSecurityToken>.ResolveAssociateFromName
+    fullName: SuperOffice.Security.Principal.AssociateResolver<System.IdentityModel.Tokens.WindowsSecurityToken>.ResolveAssociateFromName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.AssociateType
+    name: AssociateType
+    nameWithType: AssociateType
+    fullName: SuperOffice.Data.AssociateType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoConnection
+    name: SoConnection
+    nameWithType: SoConnection
+    fullName: SuperOffice.Data.SoConnection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.ResolveAssociateFromName(System.String@,SuperOffice.Data.AssociateType@,SuperOffice.Data.SoConnection)
+    name: ResolveAssociateFromName
+    nameWithType: AssociateResolver(Of WindowsSecurityToken).ResolveAssociateFromName
+    fullName: SuperOffice.Security.Principal.AssociateResolver(Of System.IdentityModel.Tokens.WindowsSecurityToken).ResolveAssociateFromName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.AssociateType
+    name: AssociateType
+    nameWithType: AssociateType
+    fullName: SuperOffice.Data.AssociateType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoConnection
+    name: SoConnection
+    nameWithType: SoConnection
+    fullName: SuperOffice.Data.SoConnection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}.IsPasswordValid(System.Int32,System.String,System.String)
+  commentId: M:SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}.IsPasswordValid(System.Int32,System.String,System.String)
+  parent: SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}
+  definition: SuperOffice.Security.Principal.AssociateResolver`1.IsPasswordValid(System.Int32,System.String,System.String)
+  name: IsPasswordValid(Int32, String, String)
+  nameWithType: AssociateResolver<WindowsSecurityToken>.IsPasswordValid(Int32, String, String)
+  fullName: SuperOffice.Security.Principal.AssociateResolver<System.IdentityModel.Tokens.WindowsSecurityToken>.IsPasswordValid(System.Int32, System.String, System.String)
+  nameWithType.vb: AssociateResolver(Of WindowsSecurityToken).IsPasswordValid(Int32, String, String)
+  fullName.vb: SuperOffice.Security.Principal.AssociateResolver(Of System.IdentityModel.Tokens.WindowsSecurityToken).IsPasswordValid(System.Int32, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.IsPasswordValid(System.Int32,System.String,System.String)
+    name: IsPasswordValid
+    nameWithType: AssociateResolver<WindowsSecurityToken>.IsPasswordValid
+    fullName: SuperOffice.Security.Principal.AssociateResolver<System.IdentityModel.Tokens.WindowsSecurityToken>.IsPasswordValid
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.IsPasswordValid(System.Int32,System.String,System.String)
+    name: IsPasswordValid
+    nameWithType: AssociateResolver(Of WindowsSecurityToken).IsPasswordValid
+    fullName: SuperOffice.Security.Principal.AssociateResolver(Of System.IdentityModel.Tokens.WindowsSecurityToken).IsPasswordValid
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}.SecretFromPassword(System.Int32,System.String)
+  commentId: M:SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}.SecretFromPassword(System.Int32,System.String)
+  parent: SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}
+  definition: SuperOffice.Security.Principal.AssociateResolver`1.SecretFromPassword(System.Int32,System.String)
+  name: SecretFromPassword(Int32, String)
+  nameWithType: AssociateResolver<WindowsSecurityToken>.SecretFromPassword(Int32, String)
+  fullName: SuperOffice.Security.Principal.AssociateResolver<System.IdentityModel.Tokens.WindowsSecurityToken>.SecretFromPassword(System.Int32, System.String)
+  nameWithType.vb: AssociateResolver(Of WindowsSecurityToken).SecretFromPassword(Int32, String)
+  fullName.vb: SuperOffice.Security.Principal.AssociateResolver(Of System.IdentityModel.Tokens.WindowsSecurityToken).SecretFromPassword(System.Int32, System.String)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.SecretFromPassword(System.Int32,System.String)
+    name: SecretFromPassword
+    nameWithType: AssociateResolver<WindowsSecurityToken>.SecretFromPassword
+    fullName: SuperOffice.Security.Principal.AssociateResolver<System.IdentityModel.Tokens.WindowsSecurityToken>.SecretFromPassword
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.SecretFromPassword(System.Int32,System.String)
+    name: SecretFromPassword
+    nameWithType: AssociateResolver(Of WindowsSecurityToken).SecretFromPassword
+    fullName: SuperOffice.Security.Principal.AssociateResolver(Of System.IdentityModel.Tokens.WindowsSecurityToken).SecretFromPassword
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}.ResolveIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Data.SoConnection)
+  commentId: M:SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}.ResolveIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Data.SoConnection)
+  parent: SuperOffice.Security.Principal.AssociateResolver{System.IdentityModel.Tokens.WindowsSecurityToken}
+  definition: SuperOffice.Security.Principal.AssociateResolver`1.ResolveIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Data.SoConnection)
+  name: ResolveIdentity(IList<SecurityToken>, SoConnection)
+  nameWithType: AssociateResolver<WindowsSecurityToken>.ResolveIdentity(IList<SecurityToken>, SoConnection)
+  fullName: SuperOffice.Security.Principal.AssociateResolver<System.IdentityModel.Tokens.WindowsSecurityToken>.ResolveIdentity(System.Collections.Generic.IList<System.IdentityModel.Tokens.SecurityToken>, SuperOffice.Data.SoConnection)
+  nameWithType.vb: AssociateResolver(Of WindowsSecurityToken).ResolveIdentity(IList(Of SecurityToken), SoConnection)
+  fullName.vb: SuperOffice.Security.Principal.AssociateResolver(Of System.IdentityModel.Tokens.WindowsSecurityToken).ResolveIdentity(System.Collections.Generic.IList(Of System.IdentityModel.Tokens.SecurityToken), SuperOffice.Data.SoConnection)
+  name.vb: ResolveIdentity(IList(Of SecurityToken), SoConnection)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.ResolveIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Data.SoConnection)
+    name: ResolveIdentity
+    nameWithType: AssociateResolver<WindowsSecurityToken>.ResolveIdentity
+    fullName: SuperOffice.Security.Principal.AssociateResolver<System.IdentityModel.Tokens.WindowsSecurityToken>.ResolveIdentity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.IdentityModel.Tokens.SecurityToken
+    name: SecurityToken
+    nameWithType: SecurityToken
+    fullName: System.IdentityModel.Tokens.SecurityToken
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoConnection
+    name: SoConnection
+    nameWithType: SoConnection
+    fullName: SuperOffice.Data.SoConnection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.ResolveIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Data.SoConnection)
+    name: ResolveIdentity
+    nameWithType: AssociateResolver(Of WindowsSecurityToken).ResolveIdentity
+    fullName: SuperOffice.Security.Principal.AssociateResolver(Of System.IdentityModel.Tokens.WindowsSecurityToken).ResolveIdentity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.IdentityModel.Tokens.SecurityToken
+    name: SecurityToken
+    nameWithType: SecurityToken
+    fullName: System.IdentityModel.Tokens.SecurityToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoConnection
+    name: SoConnection
+    nameWithType: SoConnection
+    fullName: SuperOffice.Data.SoConnection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.WindowsIdentityResolver.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WindowsIdentityResolver, To>()
+  nameWithType: EnumUtil.MapEnums<WindowsIdentityResolver, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.WindowsIdentityResolver, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WindowsIdentityResolver, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.WindowsIdentityResolver, To)()
+  name.vb: MapEnums(Of WindowsIdentityResolver, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WindowsIdentityResolver, To>
+    nameWithType: EnumUtil.MapEnums<WindowsIdentityResolver, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.WindowsIdentityResolver, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WindowsIdentityResolver, To)
+    nameWithType: EnumUtil.MapEnums(Of WindowsIdentityResolver, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.WindowsIdentityResolver, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.WindowsIdentityResolver.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WindowsIdentityResolver, To>()
+  nameWithType: Converters.MapEnums<WindowsIdentityResolver, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.WindowsIdentityResolver, To>()
+  nameWithType.vb: Converters.MapEnums(Of WindowsIdentityResolver, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.WindowsIdentityResolver, To)()
+  name.vb: MapEnums(Of WindowsIdentityResolver, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WindowsIdentityResolver, To>
+    nameWithType: Converters.MapEnums<WindowsIdentityResolver, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.WindowsIdentityResolver, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WindowsIdentityResolver, To)
+    nameWithType: Converters.MapEnums(Of WindowsIdentityResolver, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.WindowsIdentityResolver, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Security.Principal.AssociateResolver`1
+  commentId: T:SuperOffice.Security.Principal.AssociateResolver`1
+  isExternal: true
+  name: AssociateResolver<TToken>
+  nameWithType: AssociateResolver<TToken>
+  fullName: SuperOffice.Security.Principal.AssociateResolver<TToken>
+  nameWithType.vb: AssociateResolver(Of TToken)
+  fullName.vb: SuperOffice.Security.Principal.AssociateResolver(Of TToken)
+  name.vb: AssociateResolver(Of TToken)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1
+    name: AssociateResolver
+    nameWithType: AssociateResolver
+    fullName: SuperOffice.Security.Principal.AssociateResolver
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TToken
+    nameWithType: TToken
+    fullName: TToken
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1
+    name: AssociateResolver
+    nameWithType: AssociateResolver
+    fullName: SuperOffice.Security.Principal.AssociateResolver
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TToken
+    nameWithType: TToken
+    fullName: TToken
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security
+  commentId: N:SuperOffice.Security
+  isExternal: true
+  name: SuperOffice.Security
+  nameWithType: SuperOffice.Security
+  fullName: SuperOffice.Security
+- uid: SuperOffice.Security.Principal.AssociateResolver`1.GetInfoAboutUser
+  commentId: M:SuperOffice.Security.Principal.AssociateResolver`1.GetInfoAboutUser
+  isExternal: true
+  name: GetInfoAboutUser()
+  nameWithType: AssociateResolver<TToken>.GetInfoAboutUser()
+  fullName: SuperOffice.Security.Principal.AssociateResolver<TToken>.GetInfoAboutUser()
+  nameWithType.vb: AssociateResolver(Of TToken).GetInfoAboutUser()
+  fullName.vb: SuperOffice.Security.Principal.AssociateResolver(Of TToken).GetInfoAboutUser()
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.GetInfoAboutUser
+    name: GetInfoAboutUser
+    nameWithType: AssociateResolver<TToken>.GetInfoAboutUser
+    fullName: SuperOffice.Security.Principal.AssociateResolver<TToken>.GetInfoAboutUser
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.GetInfoAboutUser
+    name: GetInfoAboutUser
+    nameWithType: AssociateResolver(Of TToken).GetInfoAboutUser
+    fullName: SuperOffice.Security.Principal.AssociateResolver(Of TToken).GetInfoAboutUser
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.AssociateResolver`1.UpdateCredentialsLastUsed(SuperOffice.CRM.Data.CredentialsTableInfo,System.Int32,SuperOffice.Data.SoConnection,System.DateTime)
+  commentId: M:SuperOffice.Security.Principal.AssociateResolver`1.UpdateCredentialsLastUsed(SuperOffice.CRM.Data.CredentialsTableInfo,System.Int32,SuperOffice.Data.SoConnection,System.DateTime)
+  isExternal: true
+  name: UpdateCredentialsLastUsed(CredentialsTableInfo, Int32, SoConnection, DateTime)
+  nameWithType: AssociateResolver<TToken>.UpdateCredentialsLastUsed(CredentialsTableInfo, Int32, SoConnection, DateTime)
+  fullName: SuperOffice.Security.Principal.AssociateResolver<TToken>.UpdateCredentialsLastUsed(SuperOffice.CRM.Data.CredentialsTableInfo, System.Int32, SuperOffice.Data.SoConnection, System.DateTime)
+  nameWithType.vb: AssociateResolver(Of TToken).UpdateCredentialsLastUsed(CredentialsTableInfo, Int32, SoConnection, DateTime)
+  fullName.vb: SuperOffice.Security.Principal.AssociateResolver(Of TToken).UpdateCredentialsLastUsed(SuperOffice.CRM.Data.CredentialsTableInfo, System.Int32, SuperOffice.Data.SoConnection, System.DateTime)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.UpdateCredentialsLastUsed(SuperOffice.CRM.Data.CredentialsTableInfo,System.Int32,SuperOffice.Data.SoConnection,System.DateTime)
+    name: UpdateCredentialsLastUsed
+    nameWithType: AssociateResolver<TToken>.UpdateCredentialsLastUsed
+    fullName: SuperOffice.Security.Principal.AssociateResolver<TToken>.UpdateCredentialsLastUsed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Data.CredentialsTableInfo
+    name: CredentialsTableInfo
+    nameWithType: CredentialsTableInfo
+    fullName: SuperOffice.CRM.Data.CredentialsTableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoConnection
+    name: SoConnection
+    nameWithType: SoConnection
+    fullName: SuperOffice.Data.SoConnection
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.UpdateCredentialsLastUsed(SuperOffice.CRM.Data.CredentialsTableInfo,System.Int32,SuperOffice.Data.SoConnection,System.DateTime)
+    name: UpdateCredentialsLastUsed
+    nameWithType: AssociateResolver(Of TToken).UpdateCredentialsLastUsed
+    fullName: SuperOffice.Security.Principal.AssociateResolver(Of TToken).UpdateCredentialsLastUsed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Data.CredentialsTableInfo
+    name: CredentialsTableInfo
+    nameWithType: CredentialsTableInfo
+    fullName: SuperOffice.CRM.Data.CredentialsTableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoConnection
+    name: SoConnection
+    nameWithType: SoConnection
+    fullName: SuperOffice.Data.SoConnection
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.AssociateResolver`1.UpdateRoleId(System.Int32,System.Int32)
+  commentId: M:SuperOffice.Security.Principal.AssociateResolver`1.UpdateRoleId(System.Int32,System.Int32)
+  isExternal: true
+  name: UpdateRoleId(Int32, Int32)
+  nameWithType: AssociateResolver<TToken>.UpdateRoleId(Int32, Int32)
+  fullName: SuperOffice.Security.Principal.AssociateResolver<TToken>.UpdateRoleId(System.Int32, System.Int32)
+  nameWithType.vb: AssociateResolver(Of TToken).UpdateRoleId(Int32, Int32)
+  fullName.vb: SuperOffice.Security.Principal.AssociateResolver(Of TToken).UpdateRoleId(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.UpdateRoleId(System.Int32,System.Int32)
+    name: UpdateRoleId
+    nameWithType: AssociateResolver<TToken>.UpdateRoleId
+    fullName: SuperOffice.Security.Principal.AssociateResolver<TToken>.UpdateRoleId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.UpdateRoleId(System.Int32,System.Int32)
+    name: UpdateRoleId
+    nameWithType: AssociateResolver(Of TToken).UpdateRoleId
+    fullName: SuperOffice.Security.Principal.AssociateResolver(Of TToken).UpdateRoleId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.AssociateResolver`1.ResolveFromUsernamePassword(System.String@,System.String,SuperOffice.Data.SoConnection,System.String,System.Int32@)
+  commentId: M:SuperOffice.Security.Principal.AssociateResolver`1.ResolveFromUsernamePassword(System.String@,System.String,SuperOffice.Data.SoConnection,System.String,System.Int32@)
+  isExternal: true
+  name: ResolveFromUsernamePassword(String, String, SoConnection, String, Int32)
+  nameWithType: AssociateResolver<TToken>.ResolveFromUsernamePassword(String, String, SoConnection, String, Int32)
+  fullName: SuperOffice.Security.Principal.AssociateResolver<TToken>.ResolveFromUsernamePassword(System.String, System.String, SuperOffice.Data.SoConnection, System.String, System.Int32)
+  nameWithType.vb: AssociateResolver(Of TToken).ResolveFromUsernamePassword(String, String, SoConnection, String, Int32)
+  fullName.vb: SuperOffice.Security.Principal.AssociateResolver(Of TToken).ResolveFromUsernamePassword(System.String, System.String, SuperOffice.Data.SoConnection, System.String, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.ResolveFromUsernamePassword(System.String@,System.String,SuperOffice.Data.SoConnection,System.String,System.Int32@)
+    name: ResolveFromUsernamePassword
+    nameWithType: AssociateResolver<TToken>.ResolveFromUsernamePassword
+    fullName: SuperOffice.Security.Principal.AssociateResolver<TToken>.ResolveFromUsernamePassword
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoConnection
+    name: SoConnection
+    nameWithType: SoConnection
+    fullName: SuperOffice.Data.SoConnection
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.ResolveFromUsernamePassword(System.String@,System.String,SuperOffice.Data.SoConnection,System.String,System.Int32@)
+    name: ResolveFromUsernamePassword
+    nameWithType: AssociateResolver(Of TToken).ResolveFromUsernamePassword
+    fullName: SuperOffice.Security.Principal.AssociateResolver(Of TToken).ResolveFromUsernamePassword
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoConnection
+    name: SoConnection
+    nameWithType: SoConnection
+    fullName: SuperOffice.Data.SoConnection
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.AssociateResolver`1.ResolveAssociateFromName(System.String@,SuperOffice.Data.AssociateType@,SuperOffice.Data.SoConnection)
+  commentId: M:SuperOffice.Security.Principal.AssociateResolver`1.ResolveAssociateFromName(System.String@,SuperOffice.Data.AssociateType@,SuperOffice.Data.SoConnection)
+  isExternal: true
+  name: ResolveAssociateFromName(String, AssociateType, SoConnection)
+  nameWithType: AssociateResolver<TToken>.ResolveAssociateFromName(String, AssociateType, SoConnection)
+  fullName: SuperOffice.Security.Principal.AssociateResolver<TToken>.ResolveAssociateFromName(System.String, SuperOffice.Data.AssociateType, SuperOffice.Data.SoConnection)
+  nameWithType.vb: AssociateResolver(Of TToken).ResolveAssociateFromName(String, AssociateType, SoConnection)
+  fullName.vb: SuperOffice.Security.Principal.AssociateResolver(Of TToken).ResolveAssociateFromName(System.String, SuperOffice.Data.AssociateType, SuperOffice.Data.SoConnection)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.ResolveAssociateFromName(System.String@,SuperOffice.Data.AssociateType@,SuperOffice.Data.SoConnection)
+    name: ResolveAssociateFromName
+    nameWithType: AssociateResolver<TToken>.ResolveAssociateFromName
+    fullName: SuperOffice.Security.Principal.AssociateResolver<TToken>.ResolveAssociateFromName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.AssociateType
+    name: AssociateType
+    nameWithType: AssociateType
+    fullName: SuperOffice.Data.AssociateType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoConnection
+    name: SoConnection
+    nameWithType: SoConnection
+    fullName: SuperOffice.Data.SoConnection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.ResolveAssociateFromName(System.String@,SuperOffice.Data.AssociateType@,SuperOffice.Data.SoConnection)
+    name: ResolveAssociateFromName
+    nameWithType: AssociateResolver(Of TToken).ResolveAssociateFromName
+    fullName: SuperOffice.Security.Principal.AssociateResolver(Of TToken).ResolveAssociateFromName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.AssociateType
+    name: AssociateType
+    nameWithType: AssociateType
+    fullName: SuperOffice.Data.AssociateType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoConnection
+    name: SoConnection
+    nameWithType: SoConnection
+    fullName: SuperOffice.Data.SoConnection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.AssociateResolver`1.IsPasswordValid(System.Int32,System.String,System.String)
+  commentId: M:SuperOffice.Security.Principal.AssociateResolver`1.IsPasswordValid(System.Int32,System.String,System.String)
+  isExternal: true
+  name: IsPasswordValid(Int32, String, String)
+  nameWithType: AssociateResolver<TToken>.IsPasswordValid(Int32, String, String)
+  fullName: SuperOffice.Security.Principal.AssociateResolver<TToken>.IsPasswordValid(System.Int32, System.String, System.String)
+  nameWithType.vb: AssociateResolver(Of TToken).IsPasswordValid(Int32, String, String)
+  fullName.vb: SuperOffice.Security.Principal.AssociateResolver(Of TToken).IsPasswordValid(System.Int32, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.IsPasswordValid(System.Int32,System.String,System.String)
+    name: IsPasswordValid
+    nameWithType: AssociateResolver<TToken>.IsPasswordValid
+    fullName: SuperOffice.Security.Principal.AssociateResolver<TToken>.IsPasswordValid
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.IsPasswordValid(System.Int32,System.String,System.String)
+    name: IsPasswordValid
+    nameWithType: AssociateResolver(Of TToken).IsPasswordValid
+    fullName: SuperOffice.Security.Principal.AssociateResolver(Of TToken).IsPasswordValid
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.AssociateResolver`1.SecretFromPassword(System.Int32,System.String)
+  commentId: M:SuperOffice.Security.Principal.AssociateResolver`1.SecretFromPassword(System.Int32,System.String)
+  isExternal: true
+  name: SecretFromPassword(Int32, String)
+  nameWithType: AssociateResolver<TToken>.SecretFromPassword(Int32, String)
+  fullName: SuperOffice.Security.Principal.AssociateResolver<TToken>.SecretFromPassword(System.Int32, System.String)
+  nameWithType.vb: AssociateResolver(Of TToken).SecretFromPassword(Int32, String)
+  fullName.vb: SuperOffice.Security.Principal.AssociateResolver(Of TToken).SecretFromPassword(System.Int32, System.String)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.SecretFromPassword(System.Int32,System.String)
+    name: SecretFromPassword
+    nameWithType: AssociateResolver<TToken>.SecretFromPassword
+    fullName: SuperOffice.Security.Principal.AssociateResolver<TToken>.SecretFromPassword
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.SecretFromPassword(System.Int32,System.String)
+    name: SecretFromPassword
+    nameWithType: AssociateResolver(Of TToken).SecretFromPassword
+    fullName: SuperOffice.Security.Principal.AssociateResolver(Of TToken).SecretFromPassword
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.AssociateResolver`1.ResolveIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Data.SoConnection)
+  commentId: M:SuperOffice.Security.Principal.AssociateResolver`1.ResolveIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Data.SoConnection)
+  isExternal: true
+  name: ResolveIdentity(IList<SecurityToken>, SoConnection)
+  nameWithType: AssociateResolver<TToken>.ResolveIdentity(IList<SecurityToken>, SoConnection)
+  fullName: SuperOffice.Security.Principal.AssociateResolver<TToken>.ResolveIdentity(System.Collections.Generic.IList<System.IdentityModel.Tokens.SecurityToken>, SuperOffice.Data.SoConnection)
+  nameWithType.vb: AssociateResolver(Of TToken).ResolveIdentity(IList(Of SecurityToken), SoConnection)
+  fullName.vb: SuperOffice.Security.Principal.AssociateResolver(Of TToken).ResolveIdentity(System.Collections.Generic.IList(Of System.IdentityModel.Tokens.SecurityToken), SuperOffice.Data.SoConnection)
+  name.vb: ResolveIdentity(IList(Of SecurityToken), SoConnection)
+  spec.csharp:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.ResolveIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Data.SoConnection)
+    name: ResolveIdentity
+    nameWithType: AssociateResolver<TToken>.ResolveIdentity
+    fullName: SuperOffice.Security.Principal.AssociateResolver<TToken>.ResolveIdentity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.IdentityModel.Tokens.SecurityToken
+    name: SecurityToken
+    nameWithType: SecurityToken
+    fullName: System.IdentityModel.Tokens.SecurityToken
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoConnection
+    name: SoConnection
+    nameWithType: SoConnection
+    fullName: SuperOffice.Data.SoConnection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.Principal.AssociateResolver`1.ResolveIdentity(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken},SuperOffice.Data.SoConnection)
+    name: ResolveIdentity
+    nameWithType: AssociateResolver(Of TToken).ResolveIdentity
+    fullName: SuperOffice.Security.Principal.AssociateResolver(Of TToken).ResolveIdentity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.IdentityModel.Tokens.SecurityToken
+    name: SecurityToken
+    nameWithType: SecurityToken
+    fullName: System.IdentityModel.Tokens.SecurityToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoConnection
+    name: SoConnection
+    nameWithType: SoConnection
+    fullName: SuperOffice.Data.SoConnection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Security.Principal.WindowsIdentityResolver.ResolveFilteredIdentity*
+  commentId: Overload:SuperOffice.Security.Principal.WindowsIdentityResolver.ResolveFilteredIdentity
+  isExternal: true
+  name: ResolveFilteredIdentity
+  nameWithType: WindowsIdentityResolver.ResolveFilteredIdentity
+  fullName: SuperOffice.Security.Principal.WindowsIdentityResolver.ResolveFilteredIdentity
+- uid: System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken}
+  commentId: T:System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<SecurityToken>
+  nameWithType: IList<SecurityToken>
+  fullName: System.Collections.Generic.IList<System.IdentityModel.Tokens.SecurityToken>
+  nameWithType.vb: IList(Of SecurityToken)
+  fullName.vb: System.Collections.Generic.IList(Of System.IdentityModel.Tokens.SecurityToken)
+  name.vb: IList(Of SecurityToken)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.IdentityModel.Tokens.SecurityToken
+    name: SecurityToken
+    nameWithType: SecurityToken
+    fullName: System.IdentityModel.Tokens.SecurityToken
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.IdentityModel.Tokens.SecurityToken
+    name: SecurityToken
+    nameWithType: SecurityToken
+    fullName: System.IdentityModel.Tokens.SecurityToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SoConnection
+  commentId: T:SuperOffice.Data.SoConnection
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoConnection
+  nameWithType: SoConnection
+  fullName: SuperOffice.Data.SoConnection
+- uid: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken
+  commentId: T:SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: WindowsIdentityResolver.AcceptToken
+  nameWithType: WindowsIdentityResolver.AcceptToken
+  fullName: SuperOffice.Security.Principal.WindowsIdentityResolver.AcceptToken
+- uid: SuperOffice.Security.Principal.ISoIdentity
+  commentId: T:SuperOffice.Security.Principal.ISoIdentity
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: ISoIdentity
+  nameWithType: ISoIdentity
+  fullName: SuperOffice.Security.Principal.ISoIdentity
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Security.Principal.WindowsIdentityResolver.IsAPerson*
+  commentId: Overload:SuperOffice.Security.Principal.WindowsIdentityResolver.IsAPerson
+  isExternal: true
+  name: IsAPerson
+  nameWithType: WindowsIdentityResolver.IsAPerson
+  fullName: SuperOffice.Security.Principal.WindowsIdentityResolver.IsAPerson
+- uid: System.Security.Principal.WindowsIdentity
+  commentId: T:System.Security.Principal.WindowsIdentity
+  parent: System.Security.Principal
+  isExternal: true
+  name: WindowsIdentity
+  nameWithType: WindowsIdentity
+  fullName: System.Security.Principal.WindowsIdentity
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Security.Principal
+  commentId: N:System.Security.Principal
+  isExternal: true
+  name: System.Security.Principal
+  nameWithType: System.Security.Principal
+  fullName: System.Security.Principal
+- uid: SuperOffice.Security.Principal.WindowsIdentityResolver.#ctor*
+  commentId: Overload:SuperOffice.Security.Principal.WindowsIdentityResolver.#ctor
+  isExternal: true
+  name: WindowsIdentityResolver
+  nameWithType: WindowsIdentityResolver.WindowsIdentityResolver
+  fullName: SuperOffice.Security.Principal.WindowsIdentityResolver.WindowsIdentityResolver

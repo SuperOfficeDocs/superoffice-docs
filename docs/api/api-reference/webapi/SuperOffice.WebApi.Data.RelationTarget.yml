@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.RelationTarget
+  commentId: T:SuperOffice.WebApi.Data.RelationTarget
+  id: RelationTarget
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.RelationTarget.Both
+  - SuperOffice.WebApi.Data.RelationTarget.Contact
+  - SuperOffice.WebApi.Data.RelationTarget.None
+  - SuperOffice.WebApi.Data.RelationTarget.Person
+  - SuperOffice.WebApi.Data.RelationTarget.value__
+  langs:
+  - csharp
+  - vb
+  name: RelationTarget
+  nameWithType: RelationTarget
+  fullName: SuperOffice.WebApi.Data.RelationTarget
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTarget type of relation. (Contact, person or both)\n"
+  syntax:
+    content: 'public sealed class RelationTarget : Enum'
+    content.vb: >-
+      Public NotInheritable Class RelationTarget
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.RelationTarget.value__
+  commentId: F:SuperOffice.WebApi.Data.RelationTarget.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.RelationTarget
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: RelationTarget.value__
+  fullName: SuperOffice.WebApi.Data.RelationTarget.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RelationTarget.None
+  commentId: F:SuperOffice.WebApi.Data.RelationTarget.None
+  id: None
+  parent: SuperOffice.WebApi.Data.RelationTarget
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: RelationTarget.None
+  fullName: SuperOffice.WebApi.Data.RelationTarget.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: None\n"
+  syntax:
+    content: public const RelationTarget None
+    return:
+      type: SuperOffice.WebApi.Data.RelationTarget
+    content.vb: Public Const None As RelationTarget
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.RelationTarget.Contact
+  commentId: F:SuperOffice.WebApi.Data.RelationTarget.Contact
+  id: Contact
+  parent: SuperOffice.WebApi.Data.RelationTarget
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: RelationTarget.Contact
+  fullName: SuperOffice.WebApi.Data.RelationTarget.Contact
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Contact\n"
+  syntax:
+    content: public const RelationTarget Contact
+    return:
+      type: SuperOffice.WebApi.Data.RelationTarget
+    content.vb: Public Const Contact As RelationTarget
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.RelationTarget.Person
+  commentId: F:SuperOffice.WebApi.Data.RelationTarget.Person
+  id: Person
+  parent: SuperOffice.WebApi.Data.RelationTarget
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: RelationTarget.Person
+  fullName: SuperOffice.WebApi.Data.RelationTarget.Person
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Person\n"
+  syntax:
+    content: public const RelationTarget Person
+    return:
+      type: SuperOffice.WebApi.Data.RelationTarget
+    content.vb: Public Const Person As RelationTarget
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.RelationTarget.Both
+  commentId: F:SuperOffice.WebApi.Data.RelationTarget.Both
+  id: Both
+  parent: SuperOffice.WebApi.Data.RelationTarget
+  langs:
+  - csharp
+  - vb
+  name: Both
+  nameWithType: RelationTarget.Both
+  fullName: SuperOffice.WebApi.Data.RelationTarget.Both
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Both\n"
+  syntax:
+    content: public const RelationTarget Both
+    return:
+      type: SuperOffice.WebApi.Data.RelationTarget
+    content.vb: Public Const Both As RelationTarget
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.RelationTarget
+  commentId: T:SuperOffice.WebApi.Data.RelationTarget
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: RelationTarget
+  nameWithType: RelationTarget
+  fullName: SuperOffice.WebApi.Data.RelationTarget

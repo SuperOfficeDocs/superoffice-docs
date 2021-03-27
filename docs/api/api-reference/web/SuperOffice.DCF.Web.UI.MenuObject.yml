@@ -1,0 +1,762 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.MenuObject
+  commentId: T:SuperOffice.DCF.Web.UI.MenuObject
+  id: MenuObject
+  parent: SuperOffice.DCF.Web.UI
+  children:
+  - SuperOffice.DCF.Web.UI.MenuObject.#ctor(System.String,System.String,System.String,SuperOffice.DCF.Web.UI.MenuObjectPosition,SuperOffice.DCF.Web.UI.MenuObjectMouseClick)
+  - SuperOffice.DCF.Web.UI.MenuObject.#ctor(System.String,System.String,System.String,SuperOffice.DCF.Web.UI.MenuObjectPosition,SuperOffice.DCF.Web.UI.MenuObjectMouseClick,System.String)
+  - SuperOffice.DCF.Web.UI.MenuObject.#ctor(System.Xml.XmlNode)
+  - SuperOffice.DCF.Web.UI.MenuObject.Context
+  - SuperOffice.DCF.Web.UI.MenuObject.Id
+  - SuperOffice.DCF.Web.UI.MenuObject.MenuCallback
+  - SuperOffice.DCF.Web.UI.MenuObject.MouseClick
+  - SuperOffice.DCF.Web.UI.MenuObject.Position
+  - SuperOffice.DCF.Web.UI.MenuObject.SubContext
+  langs:
+  - csharp
+  - vb
+  name: MenuObject
+  nameWithType: MenuObject
+  fullName: SuperOffice.DCF.Web.UI.MenuObject
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: 'public class MenuObject : IMenuObject'
+    content.vb: >-
+      Public Class MenuObject
+          Implements IMenuObject
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.DCF.Web.UI.IMenuObject
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.UI.MenuObject.#ctor(System.String,System.String,System.String,SuperOffice.DCF.Web.UI.MenuObjectPosition,SuperOffice.DCF.Web.UI.MenuObjectMouseClick)
+  commentId: M:SuperOffice.DCF.Web.UI.MenuObject.#ctor(System.String,System.String,System.String,SuperOffice.DCF.Web.UI.MenuObjectPosition,SuperOffice.DCF.Web.UI.MenuObjectMouseClick)
+  id: '#ctor(System.String,System.String,System.String,SuperOffice.DCF.Web.UI.MenuObjectPosition,SuperOffice.DCF.Web.UI.MenuObjectMouseClick)'
+  parent: SuperOffice.DCF.Web.UI.MenuObject
+  langs:
+  - csharp
+  - vb
+  name: MenuObject(String, String, String, MenuObjectPosition, MenuObjectMouseClick)
+  nameWithType: MenuObject.MenuObject(String, String, String, MenuObjectPosition, MenuObjectMouseClick)
+  fullName: SuperOffice.DCF.Web.UI.MenuObject.MenuObject(System.String, System.String, System.String, SuperOffice.DCF.Web.UI.MenuObjectPosition, SuperOffice.DCF.Web.UI.MenuObjectMouseClick)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public MenuObject(string context, string subcontext, string id, MenuObjectPosition position, MenuObjectMouseClick click)
+    parameters:
+    - id: context
+      type: System.String
+    - id: subcontext
+      type: System.String
+    - id: id
+      type: System.String
+    - id: position
+      type: SuperOffice.DCF.Web.UI.MenuObjectPosition
+    - id: click
+      type: SuperOffice.DCF.Web.UI.MenuObjectMouseClick
+    content.vb: Public Sub New(context As String, subcontext As String, id As String, position As MenuObjectPosition, click As MenuObjectMouseClick)
+  overload: SuperOffice.DCF.Web.UI.MenuObject.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.MenuObject.#ctor(System.String,System.String,System.String,SuperOffice.DCF.Web.UI.MenuObjectPosition,SuperOffice.DCF.Web.UI.MenuObjectMouseClick,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.MenuObject.#ctor(System.String,System.String,System.String,SuperOffice.DCF.Web.UI.MenuObjectPosition,SuperOffice.DCF.Web.UI.MenuObjectMouseClick,System.String)
+  id: '#ctor(System.String,System.String,System.String,SuperOffice.DCF.Web.UI.MenuObjectPosition,SuperOffice.DCF.Web.UI.MenuObjectMouseClick,System.String)'
+  parent: SuperOffice.DCF.Web.UI.MenuObject
+  langs:
+  - csharp
+  - vb
+  name: MenuObject(String, String, String, MenuObjectPosition, MenuObjectMouseClick, String)
+  nameWithType: MenuObject.MenuObject(String, String, String, MenuObjectPosition, MenuObjectMouseClick, String)
+  fullName: SuperOffice.DCF.Web.UI.MenuObject.MenuObject(System.String, System.String, System.String, SuperOffice.DCF.Web.UI.MenuObjectPosition, SuperOffice.DCF.Web.UI.MenuObjectMouseClick, System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public MenuObject(string context, string subcontext, string id, MenuObjectPosition position, MenuObjectMouseClick click, string menucallback)
+    parameters:
+    - id: context
+      type: System.String
+    - id: subcontext
+      type: System.String
+    - id: id
+      type: System.String
+    - id: position
+      type: SuperOffice.DCF.Web.UI.MenuObjectPosition
+    - id: click
+      type: SuperOffice.DCF.Web.UI.MenuObjectMouseClick
+    - id: menucallback
+      type: System.String
+    content.vb: Public Sub New(context As String, subcontext As String, id As String, position As MenuObjectPosition, click As MenuObjectMouseClick, menucallback As String)
+  overload: SuperOffice.DCF.Web.UI.MenuObject.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.MenuObject.#ctor(System.Xml.XmlNode)
+  commentId: M:SuperOffice.DCF.Web.UI.MenuObject.#ctor(System.Xml.XmlNode)
+  id: '#ctor(System.Xml.XmlNode)'
+  parent: SuperOffice.DCF.Web.UI.MenuObject
+  langs:
+  - csharp
+  - vb
+  name: MenuObject(XmlNode)
+  nameWithType: MenuObject.MenuObject(XmlNode)
+  fullName: SuperOffice.DCF.Web.UI.MenuObject.MenuObject(System.Xml.XmlNode)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public MenuObject(XmlNode menuNode)
+    parameters:
+    - id: menuNode
+      type: System.Xml.XmlNode
+    content.vb: Public Sub New(menuNode As XmlNode)
+  overload: SuperOffice.DCF.Web.UI.MenuObject.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.MenuObject.Context
+  commentId: P:SuperOffice.DCF.Web.UI.MenuObject.Context
+  id: Context
+  parent: SuperOffice.DCF.Web.UI.MenuObject
+  langs:
+  - csharp
+  - vb
+  name: Context
+  nameWithType: MenuObject.Context
+  fullName: SuperOffice.DCF.Web.UI.MenuObject.Context
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public string Context { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Context As String
+  overload: SuperOffice.DCF.Web.UI.MenuObject.Context*
+  implements:
+  - SuperOffice.DCF.Web.UI.IMenuObject.Context
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.MenuObject.SubContext
+  commentId: P:SuperOffice.DCF.Web.UI.MenuObject.SubContext
+  id: SubContext
+  parent: SuperOffice.DCF.Web.UI.MenuObject
+  langs:
+  - csharp
+  - vb
+  name: SubContext
+  nameWithType: MenuObject.SubContext
+  fullName: SuperOffice.DCF.Web.UI.MenuObject.SubContext
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public string SubContext { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property SubContext As String
+  overload: SuperOffice.DCF.Web.UI.MenuObject.SubContext*
+  implements:
+  - SuperOffice.DCF.Web.UI.IMenuObject.SubContext
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.MenuObject.Id
+  commentId: P:SuperOffice.DCF.Web.UI.MenuObject.Id
+  id: Id
+  parent: SuperOffice.DCF.Web.UI.MenuObject
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: MenuObject.Id
+  fullName: SuperOffice.DCF.Web.UI.MenuObject.Id
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public string Id { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Id As String
+  overload: SuperOffice.DCF.Web.UI.MenuObject.Id*
+  implements:
+  - SuperOffice.DCF.Web.UI.IMenuObject.Id
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.MenuObject.Position
+  commentId: P:SuperOffice.DCF.Web.UI.MenuObject.Position
+  id: Position
+  parent: SuperOffice.DCF.Web.UI.MenuObject
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: MenuObject.Position
+  fullName: SuperOffice.DCF.Web.UI.MenuObject.Position
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public MenuObjectPosition Position { get; }
+    parameters: []
+    return:
+      type: SuperOffice.DCF.Web.UI.MenuObjectPosition
+    content.vb: Public ReadOnly Property Position As MenuObjectPosition
+  overload: SuperOffice.DCF.Web.UI.MenuObject.Position*
+  implements:
+  - SuperOffice.DCF.Web.UI.IMenuObject.Position
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.MenuObject.MouseClick
+  commentId: P:SuperOffice.DCF.Web.UI.MenuObject.MouseClick
+  id: MouseClick
+  parent: SuperOffice.DCF.Web.UI.MenuObject
+  langs:
+  - csharp
+  - vb
+  name: MouseClick
+  nameWithType: MenuObject.MouseClick
+  fullName: SuperOffice.DCF.Web.UI.MenuObject.MouseClick
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public MenuObjectMouseClick MouseClick { get; }
+    parameters: []
+    return:
+      type: SuperOffice.DCF.Web.UI.MenuObjectMouseClick
+    content.vb: Public ReadOnly Property MouseClick As MenuObjectMouseClick
+  overload: SuperOffice.DCF.Web.UI.MenuObject.MouseClick*
+  implements:
+  - SuperOffice.DCF.Web.UI.IMenuObject.MouseClick
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.MenuObject.MenuCallback
+  commentId: P:SuperOffice.DCF.Web.UI.MenuObject.MenuCallback
+  id: MenuCallback
+  parent: SuperOffice.DCF.Web.UI.MenuObject
+  langs:
+  - csharp
+  - vb
+  name: MenuCallback
+  nameWithType: MenuObject.MenuCallback
+  fullName: SuperOffice.DCF.Web.UI.MenuObject.MenuCallback
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public string MenuCallback { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property MenuCallback As String
+  overload: SuperOffice.DCF.Web.UI.MenuObject.MenuCallback*
+  implements:
+  - SuperOffice.DCF.Web.UI.IMenuObject.MenuCallback
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.UI.IMenuObject
+  commentId: T:SuperOffice.DCF.Web.UI.IMenuObject
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: IMenuObject
+  nameWithType: IMenuObject
+  fullName: SuperOffice.DCF.Web.UI.IMenuObject
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.MenuObject.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.UI.MenuObject.#ctor
+  isExternal: true
+  name: MenuObject
+  nameWithType: MenuObject.MenuObject
+  fullName: SuperOffice.DCF.Web.UI.MenuObject.MenuObject
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.UI.MenuObjectPosition
+  commentId: T:SuperOffice.DCF.Web.UI.MenuObjectPosition
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: MenuObjectPosition
+  nameWithType: MenuObjectPosition
+  fullName: SuperOffice.DCF.Web.UI.MenuObjectPosition
+- uid: SuperOffice.DCF.Web.UI.MenuObjectMouseClick
+  commentId: T:SuperOffice.DCF.Web.UI.MenuObjectMouseClick
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: MenuObjectMouseClick
+  nameWithType: MenuObjectMouseClick
+  fullName: SuperOffice.DCF.Web.UI.MenuObjectMouseClick
+- uid: System.Xml.XmlNode
+  isExternal: true
+  name: XmlNode
+  nameWithType: XmlNode
+  fullName: System.Xml.XmlNode
+- uid: SuperOffice.DCF.Web.UI.MenuObject.Context*
+  commentId: Overload:SuperOffice.DCF.Web.UI.MenuObject.Context
+  isExternal: true
+  name: Context
+  nameWithType: MenuObject.Context
+  fullName: SuperOffice.DCF.Web.UI.MenuObject.Context
+- uid: SuperOffice.DCF.Web.UI.IMenuObject.Context
+  commentId: P:SuperOffice.DCF.Web.UI.IMenuObject.Context
+  parent: SuperOffice.DCF.Web.UI.IMenuObject
+  isExternal: true
+  name: Context
+  nameWithType: IMenuObject.Context
+  fullName: SuperOffice.DCF.Web.UI.IMenuObject.Context
+- uid: SuperOffice.DCF.Web.UI.MenuObject.SubContext*
+  commentId: Overload:SuperOffice.DCF.Web.UI.MenuObject.SubContext
+  isExternal: true
+  name: SubContext
+  nameWithType: MenuObject.SubContext
+  fullName: SuperOffice.DCF.Web.UI.MenuObject.SubContext
+- uid: SuperOffice.DCF.Web.UI.IMenuObject.SubContext
+  commentId: P:SuperOffice.DCF.Web.UI.IMenuObject.SubContext
+  parent: SuperOffice.DCF.Web.UI.IMenuObject
+  isExternal: true
+  name: SubContext
+  nameWithType: IMenuObject.SubContext
+  fullName: SuperOffice.DCF.Web.UI.IMenuObject.SubContext
+- uid: SuperOffice.DCF.Web.UI.MenuObject.Id*
+  commentId: Overload:SuperOffice.DCF.Web.UI.MenuObject.Id
+  isExternal: true
+  name: Id
+  nameWithType: MenuObject.Id
+  fullName: SuperOffice.DCF.Web.UI.MenuObject.Id
+- uid: SuperOffice.DCF.Web.UI.IMenuObject.Id
+  commentId: P:SuperOffice.DCF.Web.UI.IMenuObject.Id
+  parent: SuperOffice.DCF.Web.UI.IMenuObject
+  isExternal: true
+  name: Id
+  nameWithType: IMenuObject.Id
+  fullName: SuperOffice.DCF.Web.UI.IMenuObject.Id
+- uid: SuperOffice.DCF.Web.UI.MenuObject.Position*
+  commentId: Overload:SuperOffice.DCF.Web.UI.MenuObject.Position
+  isExternal: true
+  name: Position
+  nameWithType: MenuObject.Position
+  fullName: SuperOffice.DCF.Web.UI.MenuObject.Position
+- uid: SuperOffice.DCF.Web.UI.IMenuObject.Position
+  commentId: P:SuperOffice.DCF.Web.UI.IMenuObject.Position
+  parent: SuperOffice.DCF.Web.UI.IMenuObject
+  isExternal: true
+  name: Position
+  nameWithType: IMenuObject.Position
+  fullName: SuperOffice.DCF.Web.UI.IMenuObject.Position
+- uid: SuperOffice.DCF.Web.UI.MenuObject.MouseClick*
+  commentId: Overload:SuperOffice.DCF.Web.UI.MenuObject.MouseClick
+  isExternal: true
+  name: MouseClick
+  nameWithType: MenuObject.MouseClick
+  fullName: SuperOffice.DCF.Web.UI.MenuObject.MouseClick
+- uid: SuperOffice.DCF.Web.UI.IMenuObject.MouseClick
+  commentId: P:SuperOffice.DCF.Web.UI.IMenuObject.MouseClick
+  parent: SuperOffice.DCF.Web.UI.IMenuObject
+  isExternal: true
+  name: MouseClick
+  nameWithType: IMenuObject.MouseClick
+  fullName: SuperOffice.DCF.Web.UI.IMenuObject.MouseClick
+- uid: SuperOffice.DCF.Web.UI.MenuObject.MenuCallback*
+  commentId: Overload:SuperOffice.DCF.Web.UI.MenuObject.MenuCallback
+  isExternal: true
+  name: MenuCallback
+  nameWithType: MenuObject.MenuCallback
+  fullName: SuperOffice.DCF.Web.UI.MenuObject.MenuCallback
+- uid: SuperOffice.DCF.Web.UI.IMenuObject.MenuCallback
+  commentId: P:SuperOffice.DCF.Web.UI.IMenuObject.MenuCallback
+  parent: SuperOffice.DCF.Web.UI.IMenuObject
+  isExternal: true
+  name: MenuCallback
+  nameWithType: IMenuObject.MenuCallback
+  fullName: SuperOffice.DCF.Web.UI.IMenuObject.MenuCallback

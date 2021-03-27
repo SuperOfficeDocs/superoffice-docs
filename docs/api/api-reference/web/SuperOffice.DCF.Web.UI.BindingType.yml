@@ -1,0 +1,351 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.BindingType
+  commentId: T:SuperOffice.DCF.Web.UI.BindingType
+  id: BindingType
+  parent: SuperOffice.DCF.Web.UI
+  children:
+  - SuperOffice.DCF.Web.UI.BindingType.Current
+  - SuperOffice.DCF.Web.UI.BindingType.CurrentName
+  - SuperOffice.DCF.Web.UI.BindingType.CurrentType
+  - SuperOffice.DCF.Web.UI.BindingType.Data
+  - SuperOffice.DCF.Web.UI.BindingType.HasFunctionalRight
+  - SuperOffice.DCF.Web.UI.BindingType.HasNotFunctionalRight
+  - SuperOffice.DCF.Web.UI.BindingType.MultiLanguageString
+  - SuperOffice.DCF.Web.UI.BindingType.None
+  - SuperOffice.DCF.Web.UI.BindingType.Preferences
+  - SuperOffice.DCF.Web.UI.BindingType.Request
+  - SuperOffice.DCF.Web.UI.BindingType.Resources
+  langs:
+  - csharp
+  - vb
+  name: BindingType
+  nameWithType: BindingType
+  fullName: SuperOffice.DCF.Web.UI.BindingType
+  type: Enum
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public enum BindingType
+    content.vb: Public Enum BindingType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.DCF.Web.UI.BindingType.None
+  commentId: F:SuperOffice.DCF.Web.UI.BindingType.None
+  id: None
+  parent: SuperOffice.DCF.Web.UI.BindingType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: BindingType.None
+  fullName: SuperOffice.DCF.Web.UI.BindingType.None
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.DCF.Web.UI.BindingType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.BindingType.Data
+  commentId: F:SuperOffice.DCF.Web.UI.BindingType.Data
+  id: Data
+  parent: SuperOffice.DCF.Web.UI.BindingType
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: BindingType.Data
+  fullName: SuperOffice.DCF.Web.UI.BindingType.Data
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Data = 1
+    return:
+      type: SuperOffice.DCF.Web.UI.BindingType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.BindingType.Current
+  commentId: F:SuperOffice.DCF.Web.UI.BindingType.Current
+  id: Current
+  parent: SuperOffice.DCF.Web.UI.BindingType
+  langs:
+  - csharp
+  - vb
+  name: Current
+  nameWithType: BindingType.Current
+  fullName: SuperOffice.DCF.Web.UI.BindingType.Current
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Current = 2
+    return:
+      type: SuperOffice.DCF.Web.UI.BindingType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.BindingType.CurrentName
+  commentId: F:SuperOffice.DCF.Web.UI.BindingType.CurrentName
+  id: CurrentName
+  parent: SuperOffice.DCF.Web.UI.BindingType
+  langs:
+  - csharp
+  - vb
+  name: CurrentName
+  nameWithType: BindingType.CurrentName
+  fullName: SuperOffice.DCF.Web.UI.BindingType.CurrentName
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: CurrentName = 3
+    return:
+      type: SuperOffice.DCF.Web.UI.BindingType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.BindingType.CurrentType
+  commentId: F:SuperOffice.DCF.Web.UI.BindingType.CurrentType
+  id: CurrentType
+  parent: SuperOffice.DCF.Web.UI.BindingType
+  langs:
+  - csharp
+  - vb
+  name: CurrentType
+  nameWithType: BindingType.CurrentType
+  fullName: SuperOffice.DCF.Web.UI.BindingType.CurrentType
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: CurrentType = 4
+    return:
+      type: SuperOffice.DCF.Web.UI.BindingType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.BindingType.Preferences
+  commentId: F:SuperOffice.DCF.Web.UI.BindingType.Preferences
+  id: Preferences
+  parent: SuperOffice.DCF.Web.UI.BindingType
+  langs:
+  - csharp
+  - vb
+  name: Preferences
+  nameWithType: BindingType.Preferences
+  fullName: SuperOffice.DCF.Web.UI.BindingType.Preferences
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Preferences = 5
+    return:
+      type: SuperOffice.DCF.Web.UI.BindingType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.BindingType.HasFunctionalRight
+  commentId: F:SuperOffice.DCF.Web.UI.BindingType.HasFunctionalRight
+  id: HasFunctionalRight
+  parent: SuperOffice.DCF.Web.UI.BindingType
+  langs:
+  - csharp
+  - vb
+  name: HasFunctionalRight
+  nameWithType: BindingType.HasFunctionalRight
+  fullName: SuperOffice.DCF.Web.UI.BindingType.HasFunctionalRight
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: HasFunctionalRight = 6
+    return:
+      type: SuperOffice.DCF.Web.UI.BindingType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.BindingType.HasNotFunctionalRight
+  commentId: F:SuperOffice.DCF.Web.UI.BindingType.HasNotFunctionalRight
+  id: HasNotFunctionalRight
+  parent: SuperOffice.DCF.Web.UI.BindingType
+  langs:
+  - csharp
+  - vb
+  name: HasNotFunctionalRight
+  nameWithType: BindingType.HasNotFunctionalRight
+  fullName: SuperOffice.DCF.Web.UI.BindingType.HasNotFunctionalRight
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: HasNotFunctionalRight = 7
+    return:
+      type: SuperOffice.DCF.Web.UI.BindingType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.BindingType.Resources
+  commentId: F:SuperOffice.DCF.Web.UI.BindingType.Resources
+  id: Resources
+  parent: SuperOffice.DCF.Web.UI.BindingType
+  langs:
+  - csharp
+  - vb
+  name: Resources
+  nameWithType: BindingType.Resources
+  fullName: SuperOffice.DCF.Web.UI.BindingType.Resources
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Resources = 8
+    return:
+      type: SuperOffice.DCF.Web.UI.BindingType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.BindingType.MultiLanguageString
+  commentId: F:SuperOffice.DCF.Web.UI.BindingType.MultiLanguageString
+  id: MultiLanguageString
+  parent: SuperOffice.DCF.Web.UI.BindingType
+  langs:
+  - csharp
+  - vb
+  name: MultiLanguageString
+  nameWithType: BindingType.MultiLanguageString
+  fullName: SuperOffice.DCF.Web.UI.BindingType.MultiLanguageString
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: MultiLanguageString = 9
+    return:
+      type: SuperOffice.DCF.Web.UI.BindingType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.BindingType.Request
+  commentId: F:SuperOffice.DCF.Web.UI.BindingType.Request
+  id: Request
+  parent: SuperOffice.DCF.Web.UI.BindingType
+  langs:
+  - csharp
+  - vb
+  name: Request
+  nameWithType: BindingType.Request
+  fullName: SuperOffice.DCF.Web.UI.BindingType.Request
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Request = 10
+    return:
+      type: SuperOffice.DCF.Web.UI.BindingType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: SuperOffice.DCF.Web.UI.BindingType
+  commentId: T:SuperOffice.DCF.Web.UI.BindingType
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: BindingType
+  nameWithType: BindingType
+  fullName: SuperOffice.DCF.Web.UI.BindingType

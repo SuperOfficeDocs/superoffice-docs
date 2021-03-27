@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest
+  commentId: T:SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest
+  id: Resource_DeleteResourceSubstitutionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest.#ctor
+  - SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest.Culture
+  - SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest.ResourceName
+  langs:
+  - csharp
+  - vb
+  name: Resource_DeleteResourceSubstitutionRequest
+  nameWithType: Resource_DeleteResourceSubstitutionRequest
+  fullName: SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Resource_DeleteResourceSubstitutionRequest : Object'
+    content.vb: >-
+      Public Class Resource_DeleteResourceSubstitutionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest
+  langs:
+  - csharp
+  - vb
+  name: Resource_DeleteResourceSubstitutionRequest()
+  nameWithType: Resource_DeleteResourceSubstitutionRequest.Resource_DeleteResourceSubstitutionRequest()
+  fullName: SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest.Resource_DeleteResourceSubstitutionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Resource_DeleteResourceSubstitutionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest.ResourceName
+  commentId: P:SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest.ResourceName
+  id: ResourceName
+  parent: SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest
+  langs:
+  - csharp
+  - vb
+  name: ResourceName
+  nameWithType: Resource_DeleteResourceSubstitutionRequest.ResourceName
+  fullName: SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest.ResourceName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ResourceName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ResourceName As String
+  overload: SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest.ResourceName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest.Culture
+  commentId: P:SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest.Culture
+  id: Culture
+  parent: SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest
+  langs:
+  - csharp
+  - vb
+  name: Culture
+  nameWithType: Resource_DeleteResourceSubstitutionRequest.Culture
+  fullName: SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest.Culture
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Culture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Culture As String
+  overload: SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest.Culture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest.#ctor
+  isExternal: true
+  name: Resource_DeleteResourceSubstitutionRequest
+  nameWithType: Resource_DeleteResourceSubstitutionRequest.Resource_DeleteResourceSubstitutionRequest
+  fullName: SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest.Resource_DeleteResourceSubstitutionRequest
+- uid: SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest.ResourceName*
+  commentId: Overload:SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest.ResourceName
+  isExternal: true
+  name: ResourceName
+  nameWithType: Resource_DeleteResourceSubstitutionRequest.ResourceName
+  fullName: SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest.ResourceName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest.Culture*
+  commentId: Overload:SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest.Culture
+  isExternal: true
+  name: Culture
+  nameWithType: Resource_DeleteResourceSubstitutionRequest.Culture
+  fullName: SuperOffice.WebApi.Data.Resource_DeleteResourceSubstitutionRequest.Culture

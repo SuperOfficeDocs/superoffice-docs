@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest
+  commentId: T:SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest
+  id: Associate_GetAssociatesByGroupRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest.#ctor
+  - SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest.GroupId
+  - SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest.Type
+  langs:
+  - csharp
+  - vb
+  name: Associate_GetAssociatesByGroupRequest
+  nameWithType: Associate_GetAssociatesByGroupRequest
+  fullName: SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Associate_GetAssociatesByGroupRequest : Object'
+    content.vb: >-
+      Public Class Associate_GetAssociatesByGroupRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: Associate_GetAssociatesByGroupRequest()
+  nameWithType: Associate_GetAssociatesByGroupRequest.Associate_GetAssociatesByGroupRequest()
+  fullName: SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest.Associate_GetAssociatesByGroupRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Associate_GetAssociatesByGroupRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest.GroupId
+  commentId: P:SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest.GroupId
+  id: GroupId
+  parent: SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: GroupId
+  nameWithType: Associate_GetAssociatesByGroupRequest.GroupId
+  fullName: SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest.GroupId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int GroupId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property GroupId As Integer
+  overload: SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest.GroupId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest.Type
+  commentId: P:SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Associate_GetAssociatesByGroupRequest.Type
+  fullName: SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Type { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Type As Integer
+  overload: SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest.#ctor
+  isExternal: true
+  name: Associate_GetAssociatesByGroupRequest
+  nameWithType: Associate_GetAssociatesByGroupRequest.Associate_GetAssociatesByGroupRequest
+  fullName: SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest.Associate_GetAssociatesByGroupRequest
+- uid: SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest.GroupId*
+  commentId: Overload:SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest.GroupId
+  isExternal: true
+  name: GroupId
+  nameWithType: Associate_GetAssociatesByGroupRequest.GroupId
+  fullName: SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest.GroupId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest.Type
+  isExternal: true
+  name: Type
+  nameWithType: Associate_GetAssociatesByGroupRequest.Type
+  fullName: SuperOffice.WebApi.Data.Associate_GetAssociatesByGroupRequest.Type

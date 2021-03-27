@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.ServerEvent
+  commentId: N:SuperOffice.DCF.Web.ServerEvent
+  id: SuperOffice.DCF.Web.ServerEvent
+  children:
+  - SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin
+  - SuperOffice.DCF.Web.ServerEvent.ServerEventObject
+  - SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult
+  - SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.DCF.Web.ServerEvent
+  nameWithType: SuperOffice.DCF.Web.ServerEvent
+  fullName: SuperOffice.DCF.Web.ServerEvent
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCFWeb
+references:
+- uid: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin
+  commentId: T:SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin
+  parent: SuperOffice.DCF.Web.ServerEvent
+  isExternal: true
+  name: IServerEventPlugin
+  nameWithType: IServerEventPlugin
+  fullName: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventObject
+  commentId: T:SuperOffice.DCF.Web.ServerEvent.ServerEventObject
+  parent: SuperOffice.DCF.Web.ServerEvent
+  isExternal: true
+  name: ServerEventObject
+  nameWithType: ServerEventObject
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventObject
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult
+  commentId: T:SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult
+  parent: SuperOffice.DCF.Web.ServerEvent
+  isExternal: true
+  name: ServerEventObjResult
+  nameWithType: ServerEventObjResult
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo
+  commentId: T:SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo
+  parent: SuperOffice.DCF.Web.ServerEvent
+  isExternal: true
+  name: ServerEventPluginInfo
+  nameWithType: ServerEventPluginInfo
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo
+- uid: SuperOffice.DCF.Web.ServerEvent
+  commentId: N:SuperOffice.DCF.Web.ServerEvent
+  isExternal: true
+  name: SuperOffice.DCF.Web.ServerEvent
+  nameWithType: SuperOffice.DCF.Web.ServerEvent
+  fullName: SuperOffice.DCF.Web.ServerEvent

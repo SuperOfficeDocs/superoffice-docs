@@ -1,0 +1,1350 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Util.MailEntity
+  commentId: T:SuperOffice.CRM.Web.Util.MailEntity
+  id: MailEntity
+  parent: SuperOffice.CRM.Web.Util
+  children:
+  - SuperOffice.CRM.Web.Util.MailEntity.#ctor(SuperOffice.CRM.Services.EMailEntity)
+  - SuperOffice.CRM.Web.Util.MailEntity.#ctor(System.Int32,SuperOffice.CRM.Web.Util.EMailEntityType)
+  - SuperOffice.CRM.Web.Util.MailEntity.#ctor(System.Int32,System.String,SuperOffice.CRM.Web.Util.EMailEntityType,SuperOffice.Data.EMailFlags,System.Boolean)
+  - SuperOffice.CRM.Web.Util.MailEntity.#ctor(System.Int32,System.String[],System.Boolean,System.Boolean)
+  - SuperOffice.CRM.Web.Util.MailEntity.AddAttachment(System.String)
+  - SuperOffice.CRM.Web.Util.MailEntity.AddAttachment(System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.Util.MailEntity.CloseAttachmentStreams(System.Boolean)
+  - SuperOffice.CRM.Web.Util.MailEntity.CreateInlineHtmlHeader(System.String)
+  - SuperOffice.CRM.Web.Util.MailEntity.Data
+  - SuperOffice.CRM.Web.Util.MailEntity.Delete
+  - SuperOffice.CRM.Web.Util.MailEntity.Dispose
+  - SuperOffice.CRM.Web.Util.MailEntity.GetAddressDelimeter
+  - SuperOffice.CRM.Web.Util.MailEntity.GetAddressObject(System.String)
+  - SuperOffice.CRM.Web.Util.MailEntity.GetAddressObjects(System.String)
+  - SuperOffice.CRM.Web.Util.MailEntity.GetAddressString(SuperOffice.CRM.Services.EMailAddress[])
+  - SuperOffice.CRM.Web.Util.MailEntity.GetAttachmentFilename(SuperOffice.CRM.Services.EMailAttachment)
+  - SuperOffice.CRM.Web.Util.MailEntity.GetCleanAddress(System.String,System.String)
+  - SuperOffice.CRM.Web.Util.MailEntity.GetFirstRecipientAddress(SuperOffice.CRM.Services.EMailEntity)
+  - SuperOffice.CRM.Web.Util.MailEntity.GetForwardEntity
+  - SuperOffice.CRM.Web.Util.MailEntity.GetHtmlBody(System.Boolean,System.Boolean,System.Boolean)
+  - SuperOffice.CRM.Web.Util.MailEntity.GetReplyToEntity(System.Boolean)
+  - SuperOffice.CRM.Web.Util.MailEntity.GetReplyToEntity(System.Boolean,SuperOffice.CRM.Web.Util.MailEntity,System.String)
+  - SuperOffice.CRM.Web.Util.MailEntity.GetResolvedRecipientId(SuperOffice.CRM.Services.EMailEntity,System.Boolean)
+  - SuperOffice.CRM.Web.Util.MailEntity.GetResolvedRecipientId(SuperOffice.CRM.Services.EMailEnvelope,System.Boolean)
+  - SuperOffice.CRM.Web.Util.MailEntity.ParseAttachments
+  - SuperOffice.CRM.Web.Util.MailEntity.PrepareForSend(System.Boolean)
+  - SuperOffice.CRM.Web.Util.MailEntity.Save
+  - SuperOffice.CRM.Web.Util.MailEntity.Send(System.Boolean)
+  - SuperOffice.CRM.Web.Util.MailEntity.SetHtmlBody(System.String)
+  - SuperOffice.CRM.Web.Util.MailEntity.ShowInlineImages(System.Int32,System.String)
+  - SuperOffice.CRM.Web.Util.MailEntity.Type
+  langs:
+  - csharp
+  - vb
+  name: MailEntity
+  nameWithType: MailEntity
+  fullName: SuperOffice.CRM.Web.Util.MailEntity
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: 'public class MailEntity : Carrier, IDisposable'
+    content.vb: >-
+      Public Class MailEntity
+          Inherits Carrier
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Util.MailEntity.#ctor(SuperOffice.CRM.Services.EMailEntity)
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.#ctor(SuperOffice.CRM.Services.EMailEntity)
+  id: '#ctor(SuperOffice.CRM.Services.EMailEntity)'
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: MailEntity(EMailEntity)
+  nameWithType: MailEntity.MailEntity(EMailEntity)
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.MailEntity(SuperOffice.CRM.Services.EMailEntity)
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public MailEntity(EMailEntity entity)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Services.EMailEntity
+    content.vb: Public Sub New(entity As EMailEntity)
+  overload: SuperOffice.CRM.Web.Util.MailEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailEntity.#ctor(System.Int32,SuperOffice.CRM.Web.Util.EMailEntityType)
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.#ctor(System.Int32,SuperOffice.CRM.Web.Util.EMailEntityType)
+  id: '#ctor(System.Int32,SuperOffice.CRM.Web.Util.EMailEntityType)'
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: MailEntity(Int32, EMailEntityType)
+  nameWithType: MailEntity.MailEntity(Int32, EMailEntityType)
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.MailEntity(System.Int32, SuperOffice.CRM.Web.Util.EMailEntityType)
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public MailEntity(int id, EMailEntityType type)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: type
+      type: SuperOffice.CRM.Web.Util.EMailEntityType
+    content.vb: Public Sub New(id As Integer, type As EMailEntityType)
+  overload: SuperOffice.CRM.Web.Util.MailEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailEntity.#ctor(System.Int32,System.String[],System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.#ctor(System.Int32,System.String[],System.Boolean,System.Boolean)
+  id: '#ctor(System.Int32,System.String[],System.Boolean,System.Boolean)'
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: MailEntity(Int32, String[], Boolean, Boolean)
+  nameWithType: MailEntity.MailEntity(Int32, String[], Boolean, Boolean)
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.MailEntity(System.Int32, System.String[], System.Boolean, System.Boolean)
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public MailEntity(int id, string[] attachmentIds, bool document, bool includeStreams = false)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: attachmentIds
+      type: System.String[]
+    - id: document
+      type: System.Boolean
+    - id: includeStreams
+      type: System.Boolean
+    content.vb: Public Sub New(id As Integer, attachmentIds As String(), document As Boolean, includeStreams As Boolean = False)
+  overload: SuperOffice.CRM.Web.Util.MailEntity.#ctor*
+  nameWithType.vb: MailEntity.MailEntity(Int32, String(), Boolean, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Web.Util.MailEntity.MailEntity(System.Int32, System.String(), System.Boolean, System.Boolean)
+  name.vb: MailEntity(Int32, String(), Boolean, Boolean)
+- uid: SuperOffice.CRM.Web.Util.MailEntity.#ctor(System.Int32,System.String,SuperOffice.CRM.Web.Util.EMailEntityType,SuperOffice.Data.EMailFlags,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.#ctor(System.Int32,System.String,SuperOffice.CRM.Web.Util.EMailEntityType,SuperOffice.Data.EMailFlags,System.Boolean)
+  id: '#ctor(System.Int32,System.String,SuperOffice.CRM.Web.Util.EMailEntityType,SuperOffice.Data.EMailFlags,System.Boolean)'
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: MailEntity(Int32, String, EMailEntityType, EMailFlags, Boolean)
+  nameWithType: MailEntity.MailEntity(Int32, String, EMailEntityType, EMailFlags, Boolean)
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.MailEntity(System.Int32, System.String, SuperOffice.CRM.Web.Util.EMailEntityType, SuperOffice.Data.EMailFlags, System.Boolean)
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public MailEntity(int id, string folder, EMailEntityType type, EMailFlags flags, bool includeStreams = false)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: folder
+      type: System.String
+    - id: type
+      type: SuperOffice.CRM.Web.Util.EMailEntityType
+    - id: flags
+      type: SuperOffice.Data.EMailFlags
+    - id: includeStreams
+      type: System.Boolean
+    content.vb: Public Sub New(id As Integer, folder As String, type As EMailEntityType, flags As EMailFlags, includeStreams As Boolean = False)
+  overload: SuperOffice.CRM.Web.Util.MailEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailEntity.ShowInlineImages(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.ShowInlineImages(System.Int32,System.String)
+  id: ShowInlineImages(System.Int32,System.String)
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: ShowInlineImages(Int32, String)
+  nameWithType: MailEntity.ShowInlineImages(Int32, String)
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.ShowInlineImages(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static bool ShowInlineImages(int id, string folder)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: folder
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ShowInlineImages(id As Integer, folder As String) As Boolean
+  overload: SuperOffice.CRM.Web.Util.MailEntity.ShowInlineImages*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.MailEntity.Delete
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.Delete
+  id: Delete
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: Delete()
+  nameWithType: MailEntity.Delete()
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.Delete()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public void Delete()
+    content.vb: Public Sub Delete
+  overload: SuperOffice.CRM.Web.Util.MailEntity.Delete*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailEntity.Save
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.Save
+  id: Save
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: Save()
+  nameWithType: MailEntity.Save()
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.Save()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public MailEntity Save()
+    return:
+      type: SuperOffice.CRM.Web.Util.MailEntity
+    content.vb: Public Function Save As MailEntity
+  overload: SuperOffice.CRM.Web.Util.MailEntity.Save*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailEntity.PrepareForSend(System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.PrepareForSend(System.Boolean)
+  id: PrepareForSend(System.Boolean)
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: PrepareForSend(Boolean)
+  nameWithType: MailEntity.PrepareForSend(Boolean)
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.PrepareForSend(System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public MailEntity PrepareForSend(bool archive)
+    parameters:
+    - id: archive
+      type: System.Boolean
+    return:
+      type: SuperOffice.CRM.Web.Util.MailEntity
+    content.vb: Public Function PrepareForSend(archive As Boolean) As MailEntity
+  overload: SuperOffice.CRM.Web.Util.MailEntity.PrepareForSend*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailEntity.Send(System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.Send(System.Boolean)
+  id: Send(System.Boolean)
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: Send(Boolean)
+  nameWithType: MailEntity.Send(Boolean)
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.Send(System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public MailEntity Send(bool archive)
+    parameters:
+    - id: archive
+      type: System.Boolean
+    return:
+      type: SuperOffice.CRM.Web.Util.MailEntity
+    content.vb: Public Function Send(archive As Boolean) As MailEntity
+  overload: SuperOffice.CRM.Web.Util.MailEntity.Send*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailEntity.GetForwardEntity
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.GetForwardEntity
+  id: GetForwardEntity
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: GetForwardEntity()
+  nameWithType: MailEntity.GetForwardEntity()
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.GetForwardEntity()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public MailEntity GetForwardEntity()
+    return:
+      type: SuperOffice.CRM.Web.Util.MailEntity
+    content.vb: Public Function GetForwardEntity As MailEntity
+  overload: SuperOffice.CRM.Web.Util.MailEntity.GetForwardEntity*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailEntity.ParseAttachments
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.ParseAttachments
+  id: ParseAttachments
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: ParseAttachments()
+  nameWithType: MailEntity.ParseAttachments()
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.ParseAttachments()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public void ParseAttachments()
+    content.vb: Public Sub ParseAttachments
+  overload: SuperOffice.CRM.Web.Util.MailEntity.ParseAttachments*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailEntity.GetReplyToEntity(System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.GetReplyToEntity(System.Boolean)
+  id: GetReplyToEntity(System.Boolean)
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: GetReplyToEntity(Boolean)
+  nameWithType: MailEntity.GetReplyToEntity(Boolean)
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.GetReplyToEntity(System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public MailEntity GetReplyToEntity(bool replyToAll)
+    parameters:
+    - id: replyToAll
+      type: System.Boolean
+    return:
+      type: SuperOffice.CRM.Web.Util.MailEntity
+    content.vb: Public Function GetReplyToEntity(replyToAll As Boolean) As MailEntity
+  overload: SuperOffice.CRM.Web.Util.MailEntity.GetReplyToEntity*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailEntity.GetReplyToEntity(System.Boolean,SuperOffice.CRM.Web.Util.MailEntity,System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.GetReplyToEntity(System.Boolean,SuperOffice.CRM.Web.Util.MailEntity,System.String)
+  id: GetReplyToEntity(System.Boolean,SuperOffice.CRM.Web.Util.MailEntity,System.String)
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: GetReplyToEntity(Boolean, MailEntity, String)
+  nameWithType: MailEntity.GetReplyToEntity(Boolean, MailEntity, String)
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.GetReplyToEntity(System.Boolean, SuperOffice.CRM.Web.Util.MailEntity, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public MailEntity GetReplyToEntity(bool replyToAll, MailEntity retval, string delimeter)
+    parameters:
+    - id: replyToAll
+      type: System.Boolean
+    - id: retval
+      type: SuperOffice.CRM.Web.Util.MailEntity
+    - id: delimeter
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Web.Util.MailEntity
+    content.vb: Public Function GetReplyToEntity(replyToAll As Boolean, retval As MailEntity, delimeter As String) As MailEntity
+  overload: SuperOffice.CRM.Web.Util.MailEntity.GetReplyToEntity*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailEntity.GetHtmlBody(System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.GetHtmlBody(System.Boolean,System.Boolean,System.Boolean)
+  id: GetHtmlBody(System.Boolean,System.Boolean,System.Boolean)
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: GetHtmlBody(Boolean, Boolean, Boolean)
+  nameWithType: MailEntity.GetHtmlBody(Boolean, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.GetHtmlBody(System.Boolean, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public string GetHtmlBody(bool blockExternalImages, bool blockInlineImages, bool appendCustomStyle)
+    parameters:
+    - id: blockExternalImages
+      type: System.Boolean
+    - id: blockInlineImages
+      type: System.Boolean
+    - id: appendCustomStyle
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Function GetHtmlBody(blockExternalImages As Boolean, blockInlineImages As Boolean, appendCustomStyle As Boolean) As String
+  overload: SuperOffice.CRM.Web.Util.MailEntity.GetHtmlBody*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailEntity.SetHtmlBody(System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.SetHtmlBody(System.String)
+  id: SetHtmlBody(System.String)
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: SetHtmlBody(String)
+  nameWithType: MailEntity.SetHtmlBody(String)
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.SetHtmlBody(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public void SetHtmlBody(string body)
+    parameters:
+    - id: body
+      type: System.String
+    content.vb: Public Sub SetHtmlBody(body As String)
+  overload: SuperOffice.CRM.Web.Util.MailEntity.SetHtmlBody*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailEntity.CreateInlineHtmlHeader(System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.CreateInlineHtmlHeader(System.String)
+  id: CreateInlineHtmlHeader(System.String)
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: CreateInlineHtmlHeader(String)
+  nameWithType: MailEntity.CreateInlineHtmlHeader(String)
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.CreateInlineHtmlHeader(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public string CreateInlineHtmlHeader(string delimeter)
+    parameters:
+    - id: delimeter
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function CreateInlineHtmlHeader(delimeter As String) As String
+  overload: SuperOffice.CRM.Web.Util.MailEntity.CreateInlineHtmlHeader*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailEntity.AddAttachment(System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.AddAttachment(System.String)
+  id: AddAttachment(System.String)
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: AddAttachment(String)
+  nameWithType: MailEntity.AddAttachment(String)
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.AddAttachment(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public void AddAttachment(string filename)
+    parameters:
+    - id: filename
+      type: System.String
+    content.vb: Public Sub AddAttachment(filename As String)
+  overload: SuperOffice.CRM.Web.Util.MailEntity.AddAttachment*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailEntity.AddAttachment(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.AddAttachment(System.String,System.String,System.String)
+  id: AddAttachment(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: AddAttachment(String, String, String)
+  nameWithType: MailEntity.AddAttachment(String, String, String)
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.AddAttachment(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public void AddAttachment(string id, string filename, string disposition)
+    parameters:
+    - id: id
+      type: System.String
+    - id: filename
+      type: System.String
+    - id: disposition
+      type: System.String
+    content.vb: Public Sub AddAttachment(id As String, filename As String, disposition As String)
+  overload: SuperOffice.CRM.Web.Util.MailEntity.AddAttachment*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailEntity.CloseAttachmentStreams(System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.CloseAttachmentStreams(System.Boolean)
+  id: CloseAttachmentStreams(System.Boolean)
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: CloseAttachmentStreams(Boolean)
+  nameWithType: MailEntity.CloseAttachmentStreams(Boolean)
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.CloseAttachmentStreams(System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public void CloseAttachmentStreams(bool deleteTempFiles)
+    parameters:
+    - id: deleteTempFiles
+      type: System.Boolean
+    content.vb: Public Sub CloseAttachmentStreams(deleteTempFiles As Boolean)
+  overload: SuperOffice.CRM.Web.Util.MailEntity.CloseAttachmentStreams*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailEntity.GetCleanAddress(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.GetCleanAddress(System.String,System.String)
+  id: GetCleanAddress(System.String,System.String)
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: GetCleanAddress(String, String)
+  nameWithType: MailEntity.GetCleanAddress(String, String)
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.GetCleanAddress(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static string GetCleanAddress(string name, string address)
+    parameters:
+    - id: name
+      type: System.String
+    - id: address
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetCleanAddress(name As String, address As String) As String
+  overload: SuperOffice.CRM.Web.Util.MailEntity.GetCleanAddress*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.MailEntity.GetAddressObject(System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.GetAddressObject(System.String)
+  id: GetAddressObject(System.String)
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: GetAddressObject(String)
+  nameWithType: MailEntity.GetAddressObject(String)
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.GetAddressObject(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static EMailAddress GetAddressObject(string address)
+    parameters:
+    - id: address
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Services.EMailAddress
+    content.vb: Public Shared Function GetAddressObject(address As String) As EMailAddress
+  overload: SuperOffice.CRM.Web.Util.MailEntity.GetAddressObject*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.MailEntity.GetAddressString(SuperOffice.CRM.Services.EMailAddress[])
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.GetAddressString(SuperOffice.CRM.Services.EMailAddress[])
+  id: GetAddressString(SuperOffice.CRM.Services.EMailAddress[])
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: GetAddressString(EMailAddress[])
+  nameWithType: MailEntity.GetAddressString(EMailAddress[])
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.GetAddressString(SuperOffice.CRM.Services.EMailAddress[])
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static string GetAddressString(params EMailAddress[] addresses)
+    parameters:
+    - id: addresses
+      type: SuperOffice.CRM.Services.EMailAddress[]
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetAddressString(ParamArray addresses As EMailAddress()) As String
+  overload: SuperOffice.CRM.Web.Util.MailEntity.GetAddressString*
+  nameWithType.vb: MailEntity.GetAddressString(EMailAddress())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Web.Util.MailEntity.GetAddressString(SuperOffice.CRM.Services.EMailAddress())
+  name.vb: GetAddressString(EMailAddress())
+- uid: SuperOffice.CRM.Web.Util.MailEntity.GetAddressObjects(System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.GetAddressObjects(System.String)
+  id: GetAddressObjects(System.String)
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: GetAddressObjects(String)
+  nameWithType: MailEntity.GetAddressObjects(String)
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.GetAddressObjects(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static EMailAddress[] GetAddressObjects(string addresses)
+    parameters:
+    - id: addresses
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Services.EMailAddress[]
+    content.vb: Public Shared Function GetAddressObjects(addresses As String) As EMailAddress()
+  overload: SuperOffice.CRM.Web.Util.MailEntity.GetAddressObjects*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.MailEntity.GetAttachmentFilename(SuperOffice.CRM.Services.EMailAttachment)
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.GetAttachmentFilename(SuperOffice.CRM.Services.EMailAttachment)
+  id: GetAttachmentFilename(SuperOffice.CRM.Services.EMailAttachment)
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: GetAttachmentFilename(EMailAttachment)
+  nameWithType: MailEntity.GetAttachmentFilename(EMailAttachment)
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.GetAttachmentFilename(SuperOffice.CRM.Services.EMailAttachment)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static string GetAttachmentFilename(EMailAttachment attachment)
+    parameters:
+    - id: attachment
+      type: SuperOffice.CRM.Services.EMailAttachment
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetAttachmentFilename(attachment As EMailAttachment) As String
+  overload: SuperOffice.CRM.Web.Util.MailEntity.GetAttachmentFilename*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.MailEntity.GetAddressDelimeter
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.GetAddressDelimeter
+  id: GetAddressDelimeter
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: GetAddressDelimeter()
+  nameWithType: MailEntity.GetAddressDelimeter()
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.GetAddressDelimeter()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static char GetAddressDelimeter()
+    return:
+      type: System.Char
+    content.vb: Public Shared Function GetAddressDelimeter As Char
+  overload: SuperOffice.CRM.Web.Util.MailEntity.GetAddressDelimeter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.MailEntity.GetFirstRecipientAddress(SuperOffice.CRM.Services.EMailEntity)
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.GetFirstRecipientAddress(SuperOffice.CRM.Services.EMailEntity)
+  id: GetFirstRecipientAddress(SuperOffice.CRM.Services.EMailEntity)
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: GetFirstRecipientAddress(EMailEntity)
+  nameWithType: MailEntity.GetFirstRecipientAddress(EMailEntity)
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.GetFirstRecipientAddress(SuperOffice.CRM.Services.EMailEntity)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static string GetFirstRecipientAddress(EMailEntity entity)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Services.EMailEntity
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetFirstRecipientAddress(entity As EMailEntity) As String
+  overload: SuperOffice.CRM.Web.Util.MailEntity.GetFirstRecipientAddress*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.MailEntity.GetResolvedRecipientId(SuperOffice.CRM.Services.EMailEnvelope,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.GetResolvedRecipientId(SuperOffice.CRM.Services.EMailEnvelope,System.Boolean)
+  id: GetResolvedRecipientId(SuperOffice.CRM.Services.EMailEnvelope,System.Boolean)
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: GetResolvedRecipientId(EMailEnvelope, Boolean)
+  nameWithType: MailEntity.GetResolvedRecipientId(EMailEnvelope, Boolean)
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.GetResolvedRecipientId(SuperOffice.CRM.Services.EMailEnvelope, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static int GetResolvedRecipientId(EMailEnvelope envelope, bool person)
+    parameters:
+    - id: envelope
+      type: SuperOffice.CRM.Services.EMailEnvelope
+    - id: person
+      type: System.Boolean
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetResolvedRecipientId(envelope As EMailEnvelope, person As Boolean) As Integer
+  overload: SuperOffice.CRM.Web.Util.MailEntity.GetResolvedRecipientId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.MailEntity.GetResolvedRecipientId(SuperOffice.CRM.Services.EMailEntity,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.GetResolvedRecipientId(SuperOffice.CRM.Services.EMailEntity,System.Boolean)
+  id: GetResolvedRecipientId(SuperOffice.CRM.Services.EMailEntity,System.Boolean)
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: GetResolvedRecipientId(EMailEntity, Boolean)
+  nameWithType: MailEntity.GetResolvedRecipientId(EMailEntity, Boolean)
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.GetResolvedRecipientId(SuperOffice.CRM.Services.EMailEntity, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static int GetResolvedRecipientId(EMailEntity entity, bool person)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Services.EMailEntity
+    - id: person
+      type: System.Boolean
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetResolvedRecipientId(entity As EMailEntity, person As Boolean) As Integer
+  overload: SuperOffice.CRM.Web.Util.MailEntity.GetResolvedRecipientId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.MailEntity.Dispose
+  commentId: M:SuperOffice.CRM.Web.Util.MailEntity.Dispose
+  id: Dispose
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: MailEntity.Dispose()
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.Dispose()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: SuperOffice.CRM.Web.Util.MailEntity.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailEntity.Data
+  commentId: P:SuperOffice.CRM.Web.Util.MailEntity.Data
+  id: Data
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: MailEntity.Data
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.Data
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public EMailEntity Data { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.EMailEntity
+    content.vb: Public Property Data As EMailEntity
+  overload: SuperOffice.CRM.Web.Util.MailEntity.Data*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailEntity.Type
+  commentId: P:SuperOffice.CRM.Web.Util.MailEntity.Type
+  id: Type
+  parent: SuperOffice.CRM.Web.Util.MailEntity
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: MailEntity.Type
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.Type
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public EMailEntityType Type { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Web.Util.EMailEntityType
+    content.vb: Public Property Type As EMailEntityType
+  overload: SuperOffice.CRM.Web.Util.MailEntity.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Util
+  commentId: N:SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: SuperOffice.CRM.Web.Util
+  nameWithType: SuperOffice.CRM.Web.Util
+  fullName: SuperOffice.CRM.Web.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Util.MailEntity.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailEntity.#ctor
+  isExternal: true
+  name: MailEntity
+  nameWithType: MailEntity.MailEntity
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.MailEntity
+- uid: SuperOffice.CRM.Services.EMailEntity
+  isExternal: true
+  name: EMailEntity
+  nameWithType: EMailEntity
+  fullName: SuperOffice.CRM.Services.EMailEntity
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.Util.EMailEntityType
+  commentId: T:SuperOffice.CRM.Web.Util.EMailEntityType
+  parent: SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: EMailEntityType
+  nameWithType: EMailEntityType
+  fullName: SuperOffice.CRM.Web.Util.EMailEntityType
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.EMailFlags
+  commentId: '!:SuperOffice.Data.EMailFlags'
+  isExternal: true
+  name: EMailFlags
+  nameWithType: EMailFlags
+  fullName: SuperOffice.Data.EMailFlags
+- uid: SuperOffice.CRM.Web.Util.MailEntity.ShowInlineImages*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailEntity.ShowInlineImages
+  isExternal: true
+  name: ShowInlineImages
+  nameWithType: MailEntity.ShowInlineImages
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.ShowInlineImages
+- uid: SuperOffice.CRM.Web.Util.MailEntity.Delete*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailEntity.Delete
+  isExternal: true
+  name: Delete
+  nameWithType: MailEntity.Delete
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.Delete
+- uid: SuperOffice.CRM.Web.Util.MailEntity.Save*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailEntity.Save
+  isExternal: true
+  name: Save
+  nameWithType: MailEntity.Save
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.Save
+- uid: SuperOffice.CRM.Web.Util.MailEntity
+  commentId: T:SuperOffice.CRM.Web.Util.MailEntity
+  parent: SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: MailEntity
+  nameWithType: MailEntity
+  fullName: SuperOffice.CRM.Web.Util.MailEntity
+- uid: SuperOffice.CRM.Web.Util.MailEntity.PrepareForSend*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailEntity.PrepareForSend
+  isExternal: true
+  name: PrepareForSend
+  nameWithType: MailEntity.PrepareForSend
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.PrepareForSend
+- uid: SuperOffice.CRM.Web.Util.MailEntity.Send*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailEntity.Send
+  isExternal: true
+  name: Send
+  nameWithType: MailEntity.Send
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.Send
+- uid: SuperOffice.CRM.Web.Util.MailEntity.GetForwardEntity*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailEntity.GetForwardEntity
+  isExternal: true
+  name: GetForwardEntity
+  nameWithType: MailEntity.GetForwardEntity
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.GetForwardEntity
+- uid: SuperOffice.CRM.Web.Util.MailEntity.ParseAttachments*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailEntity.ParseAttachments
+  isExternal: true
+  name: ParseAttachments
+  nameWithType: MailEntity.ParseAttachments
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.ParseAttachments
+- uid: SuperOffice.CRM.Web.Util.MailEntity.GetReplyToEntity*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailEntity.GetReplyToEntity
+  isExternal: true
+  name: GetReplyToEntity
+  nameWithType: MailEntity.GetReplyToEntity
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.GetReplyToEntity
+- uid: SuperOffice.CRM.Web.Util.MailEntity.GetHtmlBody*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailEntity.GetHtmlBody
+  isExternal: true
+  name: GetHtmlBody
+  nameWithType: MailEntity.GetHtmlBody
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.GetHtmlBody
+- uid: SuperOffice.CRM.Web.Util.MailEntity.SetHtmlBody*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailEntity.SetHtmlBody
+  isExternal: true
+  name: SetHtmlBody
+  nameWithType: MailEntity.SetHtmlBody
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.SetHtmlBody
+- uid: SuperOffice.CRM.Web.Util.MailEntity.CreateInlineHtmlHeader*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailEntity.CreateInlineHtmlHeader
+  isExternal: true
+  name: CreateInlineHtmlHeader
+  nameWithType: MailEntity.CreateInlineHtmlHeader
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.CreateInlineHtmlHeader
+- uid: SuperOffice.CRM.Web.Util.MailEntity.AddAttachment*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailEntity.AddAttachment
+  isExternal: true
+  name: AddAttachment
+  nameWithType: MailEntity.AddAttachment
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.AddAttachment
+- uid: SuperOffice.CRM.Web.Util.MailEntity.CloseAttachmentStreams*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailEntity.CloseAttachmentStreams
+  isExternal: true
+  name: CloseAttachmentStreams
+  nameWithType: MailEntity.CloseAttachmentStreams
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.CloseAttachmentStreams
+- uid: SuperOffice.CRM.Web.Util.MailEntity.GetCleanAddress*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailEntity.GetCleanAddress
+  isExternal: true
+  name: GetCleanAddress
+  nameWithType: MailEntity.GetCleanAddress
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.GetCleanAddress
+- uid: SuperOffice.CRM.Web.Util.MailEntity.GetAddressObject*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailEntity.GetAddressObject
+  isExternal: true
+  name: GetAddressObject
+  nameWithType: MailEntity.GetAddressObject
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.GetAddressObject
+- uid: SuperOffice.CRM.Services.EMailAddress
+  isExternal: true
+  name: EMailAddress
+  nameWithType: EMailAddress
+  fullName: SuperOffice.CRM.Services.EMailAddress
+- uid: SuperOffice.CRM.Web.Util.MailEntity.GetAddressString*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailEntity.GetAddressString
+  isExternal: true
+  name: GetAddressString
+  nameWithType: MailEntity.GetAddressString
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.GetAddressString
+- uid: SuperOffice.CRM.Services.EMailAddress[]
+  isExternal: true
+  name: EMailAddress[]
+  nameWithType: EMailAddress[]
+  fullName: SuperOffice.CRM.Services.EMailAddress[]
+  nameWithType.vb: EMailAddress()
+  fullName.vb: SuperOffice.CRM.Services.EMailAddress()
+  name.vb: EMailAddress()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.EMailAddress
+    name: EMailAddress
+    nameWithType: EMailAddress
+    fullName: SuperOffice.CRM.Services.EMailAddress
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.EMailAddress
+    name: EMailAddress
+    nameWithType: EMailAddress
+    fullName: SuperOffice.CRM.Services.EMailAddress
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.Util.MailEntity.GetAddressObjects*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailEntity.GetAddressObjects
+  isExternal: true
+  name: GetAddressObjects
+  nameWithType: MailEntity.GetAddressObjects
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.GetAddressObjects
+- uid: SuperOffice.CRM.Web.Util.MailEntity.GetAttachmentFilename*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailEntity.GetAttachmentFilename
+  isExternal: true
+  name: GetAttachmentFilename
+  nameWithType: MailEntity.GetAttachmentFilename
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.GetAttachmentFilename
+- uid: SuperOffice.CRM.Services.EMailAttachment
+  isExternal: true
+  name: EMailAttachment
+  nameWithType: EMailAttachment
+  fullName: SuperOffice.CRM.Services.EMailAttachment
+- uid: SuperOffice.CRM.Web.Util.MailEntity.GetAddressDelimeter*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailEntity.GetAddressDelimeter
+  isExternal: true
+  name: GetAddressDelimeter
+  nameWithType: MailEntity.GetAddressDelimeter
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.GetAddressDelimeter
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  name: Char
+  nameWithType: Char
+  fullName: System.Char
+- uid: SuperOffice.CRM.Web.Util.MailEntity.GetFirstRecipientAddress*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailEntity.GetFirstRecipientAddress
+  isExternal: true
+  name: GetFirstRecipientAddress
+  nameWithType: MailEntity.GetFirstRecipientAddress
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.GetFirstRecipientAddress
+- uid: SuperOffice.CRM.Web.Util.MailEntity.GetResolvedRecipientId*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailEntity.GetResolvedRecipientId
+  isExternal: true
+  name: GetResolvedRecipientId
+  nameWithType: MailEntity.GetResolvedRecipientId
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.GetResolvedRecipientId
+- uid: SuperOffice.CRM.Services.EMailEnvelope
+  commentId: '!:SuperOffice.CRM.Services.EMailEnvelope'
+  isExternal: true
+  name: EMailEnvelope
+  nameWithType: EMailEnvelope
+  fullName: SuperOffice.CRM.Services.EMailEnvelope
+- uid: SuperOffice.CRM.Web.Util.MailEntity.Dispose*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailEntity.Dispose
+  isExternal: true
+  name: Dispose
+  nameWithType: MailEntity.Dispose
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Util.MailEntity.Data*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailEntity.Data
+  isExternal: true
+  name: Data
+  nameWithType: MailEntity.Data
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.Data
+- uid: SuperOffice.CRM.Web.Util.MailEntity.Type*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailEntity.Type
+  isExternal: true
+  name: Type
+  nameWithType: MailEntity.Type
+  fullName: SuperOffice.CRM.Web.Util.MailEntity.Type

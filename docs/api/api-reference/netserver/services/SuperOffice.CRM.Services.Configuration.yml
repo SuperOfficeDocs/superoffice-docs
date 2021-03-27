@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.Configuration
+  commentId: T:SuperOffice.CRM.Services.Configuration
+  id: Configuration
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.Configuration.#ctor
+  - SuperOffice.CRM.Services.Configuration.ToString
+  - SuperOffice.CRM.Services.Configuration.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Configuration
+  nameWithType: Configuration
+  fullName: SuperOffice.CRM.Services.Configuration
+  type: Class
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis service support fetching of client interface configuration data.\n&lt;para/>\nClient configuration data include Application configuration, which defines how an application is composed out of pages; and page configuration that defines how a page is built out of panels, cards, views and controls.\n&lt;para/>\nSeparate access points also exist for fetching object mappings and filter lists.\n<p></p>\nCarrier object for Configuration.\nServices for the Configuration Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IConfigurationAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class Configuration : Carrier'
+    content.vb: >-
+      Public Class Configuration
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ConfigurationAgent
+    commentId: T:SuperOffice.CRM.Services.ConfigurationAgent
+  - linkId: SuperOffice.CRM.Services.IConfigurationAgent
+    commentId: T:SuperOffice.CRM.Services.IConfigurationAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.Configuration.#ctor
+  commentId: M:SuperOffice.CRM.Services.Configuration.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.Configuration
+  langs:
+  - csharp
+  - vb
+  name: Configuration()
+  nameWithType: Configuration.Configuration()
+  fullName: SuperOffice.CRM.Services.Configuration.Configuration()
+  type: Constructor
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public Configuration()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.Configuration.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Configuration.ToString
+  commentId: M:SuperOffice.CRM.Services.Configuration.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.Configuration
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Configuration.ToString()
+  fullName: SuperOffice.CRM.Services.Configuration.ToString()
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.Configuration.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.Configuration.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.Configuration.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.Configuration
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: Configuration.ToString(String)
+  fullName: SuperOffice.CRM.Services.Configuration.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.Configuration.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.ConfigurationAgent
+  commentId: T:SuperOffice.CRM.Services.ConfigurationAgent
+  isExternal: true
+  name: ConfigurationAgent
+  nameWithType: ConfigurationAgent
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent
+- uid: SuperOffice.CRM.Services.IConfigurationAgent
+  commentId: T:SuperOffice.CRM.Services.IConfigurationAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IConfigurationAgent
+  nameWithType: IConfigurationAgent
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.Configuration.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.Configuration.#ctor
+  isExternal: true
+  name: Configuration
+  nameWithType: Configuration.Configuration
+  fullName: SuperOffice.CRM.Services.Configuration.Configuration
+- uid: SuperOffice.CRM.Services.Configuration.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.Configuration.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: Configuration.ToString
+  fullName: SuperOffice.CRM.Services.Configuration.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,569 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.WeekOfMonth
+  commentId: T:SuperOffice.Data.WeekOfMonth
+  id: WeekOfMonth
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.WeekOfMonth.First
+  - SuperOffice.Data.WeekOfMonth.Fourth
+  - SuperOffice.Data.WeekOfMonth.Last
+  - SuperOffice.Data.WeekOfMonth.Second
+  - SuperOffice.Data.WeekOfMonth.Third
+  - SuperOffice.Data.WeekOfMonth.Unknown
+  langs:
+  - csharp
+  - vb
+  name: WeekOfMonth
+  nameWithType: WeekOfMonth
+  fullName: SuperOffice.Data.WeekOfMonth
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nEnumerator representing a week of the month\n"
+  syntax:
+    content: public enum WeekOfMonth
+    content.vb: Public Enum WeekOfMonth
+  extensionMethods:
+  - SuperOffice.Data.WeekOfMonth.EnumUtil.MapEnums``2
+  - SuperOffice.Data.WeekOfMonth.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.WeekOfMonth)
+  - SuperOffice.Data.WeekOfMonth.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.WeekOfMonth.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.WeekOfMonth.Unknown
+  commentId: F:SuperOffice.Data.WeekOfMonth.Unknown
+  id: Unknown
+  parent: SuperOffice.Data.WeekOfMonth
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: WeekOfMonth.Unknown
+  fullName: SuperOffice.Data.WeekOfMonth.Unknown
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: 0: Unknown/undecided type\n"
+  syntax:
+    content: Unknown = 0
+    return:
+      type: SuperOffice.Data.WeekOfMonth
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WeekOfMonth.First
+  commentId: F:SuperOffice.Data.WeekOfMonth.First
+  id: First
+  parent: SuperOffice.Data.WeekOfMonth
+  langs:
+  - csharp
+  - vb
+  name: First
+  nameWithType: WeekOfMonth.First
+  fullName: SuperOffice.Data.WeekOfMonth.First
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: The first week of the month\n"
+  syntax:
+    content: First = 1
+    return:
+      type: SuperOffice.Data.WeekOfMonth
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WeekOfMonth.Second
+  commentId: F:SuperOffice.Data.WeekOfMonth.Second
+  id: Second
+  parent: SuperOffice.Data.WeekOfMonth
+  langs:
+  - csharp
+  - vb
+  name: Second
+  nameWithType: WeekOfMonth.Second
+  fullName: SuperOffice.Data.WeekOfMonth.Second
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: The second week of the month\n"
+  syntax:
+    content: Second = 2
+    return:
+      type: SuperOffice.Data.WeekOfMonth
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WeekOfMonth.Third
+  commentId: F:SuperOffice.Data.WeekOfMonth.Third
+  id: Third
+  parent: SuperOffice.Data.WeekOfMonth
+  langs:
+  - csharp
+  - vb
+  name: Third
+  nameWithType: WeekOfMonth.Third
+  fullName: SuperOffice.Data.WeekOfMonth.Third
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n3: The third week of the month\n"
+  syntax:
+    content: Third = 3
+    return:
+      type: SuperOffice.Data.WeekOfMonth
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WeekOfMonth.Fourth
+  commentId: F:SuperOffice.Data.WeekOfMonth.Fourth
+  id: Fourth
+  parent: SuperOffice.Data.WeekOfMonth
+  langs:
+  - csharp
+  - vb
+  name: Fourth
+  nameWithType: WeekOfMonth.Fourth
+  fullName: SuperOffice.Data.WeekOfMonth.Fourth
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4: The fourth week of the month\n"
+  syntax:
+    content: Fourth = 4
+    return:
+      type: SuperOffice.Data.WeekOfMonth
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WeekOfMonth.Last
+  commentId: F:SuperOffice.Data.WeekOfMonth.Last
+  id: Last
+  parent: SuperOffice.Data.WeekOfMonth
+  langs:
+  - csharp
+  - vb
+  name: Last
+  nameWithType: WeekOfMonth.Last
+  fullName: SuperOffice.Data.WeekOfMonth.Last
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n5: The last week of the month\n"
+  syntax:
+    content: Last = 5
+    return:
+      type: SuperOffice.Data.WeekOfMonth
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.WeekOfMonth.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WeekOfMonth, To>()
+  nameWithType: EnumUtil.MapEnums<WeekOfMonth, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.WeekOfMonth, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WeekOfMonth, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.WeekOfMonth, To)()
+  name.vb: MapEnums(Of WeekOfMonth, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WeekOfMonth, To>
+    nameWithType: EnumUtil.MapEnums<WeekOfMonth, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.WeekOfMonth, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WeekOfMonth, To)
+    nameWithType: EnumUtil.MapEnums(Of WeekOfMonth, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.WeekOfMonth, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.WeekOfMonth.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.WeekOfMonth)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<WeekOfMonth>(WeekOfMonth)
+  nameWithType: ObjectExtensions.AssignByReflection<WeekOfMonth>(WeekOfMonth)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.WeekOfMonth>(SuperOffice.Data.WeekOfMonth)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of WeekOfMonth)(WeekOfMonth)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.WeekOfMonth)(SuperOffice.Data.WeekOfMonth)
+  name.vb: AssignByReflection(Of WeekOfMonth)(WeekOfMonth)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<WeekOfMonth>
+    nameWithType: ObjectExtensions.AssignByReflection<WeekOfMonth>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.WeekOfMonth>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.WeekOfMonth
+    name: WeekOfMonth
+    nameWithType: WeekOfMonth
+    fullName: SuperOffice.Data.WeekOfMonth
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of WeekOfMonth)
+    nameWithType: ObjectExtensions.AssignByReflection(Of WeekOfMonth)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.WeekOfMonth)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.WeekOfMonth
+    name: WeekOfMonth
+    nameWithType: WeekOfMonth
+    fullName: SuperOffice.Data.WeekOfMonth
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.WeekOfMonth.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<WeekOfMonth>()
+  nameWithType: ObjectExtensions.GraphCopy<WeekOfMonth>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.WeekOfMonth>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of WeekOfMonth)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.WeekOfMonth)()
+  name.vb: GraphCopy(Of WeekOfMonth)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<WeekOfMonth>
+    nameWithType: ObjectExtensions.GraphCopy<WeekOfMonth>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.WeekOfMonth>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of WeekOfMonth)
+    nameWithType: ObjectExtensions.GraphCopy(Of WeekOfMonth)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.WeekOfMonth)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.WeekOfMonth.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WeekOfMonth, To>()
+  nameWithType: Converters.MapEnums<WeekOfMonth, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.WeekOfMonth, To>()
+  nameWithType.vb: Converters.MapEnums(Of WeekOfMonth, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.WeekOfMonth, To)()
+  name.vb: MapEnums(Of WeekOfMonth, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WeekOfMonth, To>
+    nameWithType: Converters.MapEnums<WeekOfMonth, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.WeekOfMonth, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WeekOfMonth, To)
+    nameWithType: Converters.MapEnums(Of WeekOfMonth, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.WeekOfMonth, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.WeekOfMonth
+  commentId: T:SuperOffice.Data.WeekOfMonth
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WeekOfMonth
+  nameWithType: WeekOfMonth
+  fullName: SuperOffice.Data.WeekOfMonth

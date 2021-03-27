@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.PhoneList_GetFavoritesPhonesRequest
+  commentId: T:SuperOffice.WebApi.Data.PhoneList_GetFavoritesPhonesRequest
+  id: PhoneList_GetFavoritesPhonesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.PhoneList_GetFavoritesPhonesRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: PhoneList_GetFavoritesPhonesRequest
+  nameWithType: PhoneList_GetFavoritesPhonesRequest
+  fullName: SuperOffice.WebApi.Data.PhoneList_GetFavoritesPhonesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class PhoneList_GetFavoritesPhonesRequest : Object'
+    content.vb: >-
+      Public Class PhoneList_GetFavoritesPhonesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.PhoneList_GetFavoritesPhonesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.PhoneList_GetFavoritesPhonesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.PhoneList_GetFavoritesPhonesRequest
+  langs:
+  - csharp
+  - vb
+  name: PhoneList_GetFavoritesPhonesRequest()
+  nameWithType: PhoneList_GetFavoritesPhonesRequest.PhoneList_GetFavoritesPhonesRequest()
+  fullName: SuperOffice.WebApi.Data.PhoneList_GetFavoritesPhonesRequest.PhoneList_GetFavoritesPhonesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public PhoneList_GetFavoritesPhonesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.PhoneList_GetFavoritesPhonesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.PhoneList_GetFavoritesPhonesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneList_GetFavoritesPhonesRequest.#ctor
+  isExternal: true
+  name: PhoneList_GetFavoritesPhonesRequest
+  nameWithType: PhoneList_GetFavoritesPhonesRequest.PhoneList_GetFavoritesPhonesRequest
+  fullName: SuperOffice.WebApi.Data.PhoneList_GetFavoritesPhonesRequest.PhoneList_GetFavoritesPhonesRequest

@@ -1,0 +1,554 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.Webhooks
+  commentId: T:SuperOffice.Configuration.ConfigFile.Webhooks
+  id: ConfigFile.Webhooks
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.Webhooks.EnableWebhooks
+  - SuperOffice.Configuration.ConfigFile.Webhooks.NumThreads
+  - SuperOffice.Configuration.ConfigFile.Webhooks.RequireHttps
+  - SuperOffice.Configuration.ConfigFile.Webhooks.Timeout
+  - SuperOffice.Configuration.ConfigFile.Webhooks.ValidateHttps
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.Webhooks
+  nameWithType: ConfigFile.Webhooks
+  fullName: SuperOffice.Configuration.ConfigFile.Webhooks
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nConfigure webhooks - broadcast events to remote servers.\n"
+  syntax:
+    content: public static class Webhooks
+    content.vb: Public Module Webhooks
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Configuration.ConfigFile.Webhooks.EnableWebhooks
+  commentId: P:SuperOffice.Configuration.ConfigFile.Webhooks.EnableWebhooks
+  id: EnableWebhooks
+  parent: SuperOffice.Configuration.ConfigFile.Webhooks
+  langs:
+  - csharp
+  - vb
+  name: EnableWebhooks
+  nameWithType: ConfigFile.Webhooks.EnableWebhooks
+  fullName: SuperOffice.Configuration.ConfigFile.Webhooks.EnableWebhooks
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nBroadcast events to remote servers. Default false.\n"
+  syntax:
+    content: public static bool EnableWebhooks { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property EnableWebhooks As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Webhooks.EnableWebhooks*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Webhooks.RequireHttps
+  commentId: P:SuperOffice.Configuration.ConfigFile.Webhooks.RequireHttps
+  id: RequireHttps
+  parent: SuperOffice.Configuration.ConfigFile.Webhooks
+  langs:
+  - csharp
+  - vb
+  name: RequireHttps
+  nameWithType: ConfigFile.Webhooks.RequireHttps
+  fullName: SuperOffice.Configuration.ConfigFile.Webhooks.RequireHttps
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nRequire webhooks target URLs use HTTPS protocol. Should only be turned off during development. Default true.\n"
+  syntax:
+    content: public static bool RequireHttps { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property RequireHttps As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Webhooks.RequireHttps*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Webhooks.ValidateHttps
+  commentId: P:SuperOffice.Configuration.ConfigFile.Webhooks.ValidateHttps
+  id: ValidateHttps
+  parent: SuperOffice.Configuration.ConfigFile.Webhooks
+  langs:
+  - csharp
+  - vb
+  name: ValidateHttps
+  nameWithType: ConfigFile.Webhooks.ValidateHttps
+  fullName: SuperOffice.Configuration.ConfigFile.Webhooks.ValidateHttps
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nRequire valid public HTTPS certificates. Self-signed or expired certs on webhook target URLs are refused. Should only be turned off during development. Default true.\n"
+  syntax:
+    content: public static bool ValidateHttps { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property ValidateHttps As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Webhooks.ValidateHttps*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Webhooks.NumThreads
+  commentId: P:SuperOffice.Configuration.ConfigFile.Webhooks.NumThreads
+  id: NumThreads
+  parent: SuperOffice.Configuration.ConfigFile.Webhooks
+  langs:
+  - csharp
+  - vb
+  name: NumThreads
+  nameWithType: ConfigFile.Webhooks.NumThreads
+  fullName: SuperOffice.Configuration.ConfigFile.Webhooks.NumThreads
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nHow many background threads to run for dispatching webhooks. Default 0 = scale automatically according to demand.\n"
+  syntax:
+    content: public static int NumThreads { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property NumThreads As Integer
+  overload: SuperOffice.Configuration.ConfigFile.Webhooks.NumThreads*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Webhooks.Timeout
+  commentId: P:SuperOffice.Configuration.ConfigFile.Webhooks.Timeout
+  id: Timeout
+  parent: SuperOffice.Configuration.ConfigFile.Webhooks
+  langs:
+  - csharp
+  - vb
+  name: Timeout
+  nameWithType: ConfigFile.Webhooks.Timeout
+  fullName: SuperOffice.Configuration.ConfigFile.Webhooks.Timeout
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nStop background threads after X number of seconds of idle time. Default 30 seconds.\n"
+  syntax:
+    content: public static int Timeout { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property Timeout As Integer
+  overload: SuperOffice.Configuration.ConfigFile.Webhooks.Timeout*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.Webhooks.EnableWebhooks*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Webhooks.EnableWebhooks
+  isExternal: true
+  name: EnableWebhooks
+  nameWithType: ConfigFile.Webhooks.EnableWebhooks
+  fullName: SuperOffice.Configuration.ConfigFile.Webhooks.EnableWebhooks
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Configuration.ConfigFile.Webhooks.RequireHttps*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Webhooks.RequireHttps
+  isExternal: true
+  name: RequireHttps
+  nameWithType: ConfigFile.Webhooks.RequireHttps
+  fullName: SuperOffice.Configuration.ConfigFile.Webhooks.RequireHttps
+- uid: SuperOffice.Configuration.ConfigFile.Webhooks.ValidateHttps*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Webhooks.ValidateHttps
+  isExternal: true
+  name: ValidateHttps
+  nameWithType: ConfigFile.Webhooks.ValidateHttps
+  fullName: SuperOffice.Configuration.ConfigFile.Webhooks.ValidateHttps
+- uid: SuperOffice.Configuration.ConfigFile.Webhooks.NumThreads*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Webhooks.NumThreads
+  isExternal: true
+  name: NumThreads
+  nameWithType: ConfigFile.Webhooks.NumThreads
+  fullName: SuperOffice.Configuration.ConfigFile.Webhooks.NumThreads
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Configuration.ConfigFile.Webhooks.Timeout*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Webhooks.Timeout
+  isExternal: true
+  name: Timeout
+  nameWithType: ConfigFile.Webhooks.Timeout
+  fullName: SuperOffice.Configuration.ConfigFile.Webhooks.Timeout

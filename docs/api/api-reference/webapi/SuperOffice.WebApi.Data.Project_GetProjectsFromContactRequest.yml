@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Project_GetProjectsFromContactRequest
+  commentId: T:SuperOffice.WebApi.Data.Project_GetProjectsFromContactRequest
+  id: Project_GetProjectsFromContactRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Project_GetProjectsFromContactRequest.#ctor
+  - SuperOffice.WebApi.Data.Project_GetProjectsFromContactRequest.ContactId
+  langs:
+  - csharp
+  - vb
+  name: Project_GetProjectsFromContactRequest
+  nameWithType: Project_GetProjectsFromContactRequest
+  fullName: SuperOffice.WebApi.Data.Project_GetProjectsFromContactRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Project_GetProjectsFromContactRequest : Object'
+    content.vb: >-
+      Public Class Project_GetProjectsFromContactRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Project_GetProjectsFromContactRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Project_GetProjectsFromContactRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Project_GetProjectsFromContactRequest
+  langs:
+  - csharp
+  - vb
+  name: Project_GetProjectsFromContactRequest()
+  nameWithType: Project_GetProjectsFromContactRequest.Project_GetProjectsFromContactRequest()
+  fullName: SuperOffice.WebApi.Data.Project_GetProjectsFromContactRequest.Project_GetProjectsFromContactRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Project_GetProjectsFromContactRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Project_GetProjectsFromContactRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Project_GetProjectsFromContactRequest.ContactId
+  commentId: P:SuperOffice.WebApi.Data.Project_GetProjectsFromContactRequest.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.Project_GetProjectsFromContactRequest
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: Project_GetProjectsFromContactRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.Project_GetProjectsFromContactRequest.ContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.Project_GetProjectsFromContactRequest.ContactId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Project_GetProjectsFromContactRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_GetProjectsFromContactRequest.#ctor
+  isExternal: true
+  name: Project_GetProjectsFromContactRequest
+  nameWithType: Project_GetProjectsFromContactRequest.Project_GetProjectsFromContactRequest
+  fullName: SuperOffice.WebApi.Data.Project_GetProjectsFromContactRequest.Project_GetProjectsFromContactRequest
+- uid: SuperOffice.WebApi.Data.Project_GetProjectsFromContactRequest.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_GetProjectsFromContactRequest.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: Project_GetProjectsFromContactRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.Project_GetProjectsFromContactRequest.ContactId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

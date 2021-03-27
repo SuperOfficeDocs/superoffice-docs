@@ -1,0 +1,835 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters
+  commentId: T:SuperOffice.CRM.Services.TemplateVariablesParameters
+  id: TemplateVariablesParameters
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.TemplateVariablesParameters.#ctor
+  - SuperOffice.CRM.Services.TemplateVariablesParameters.AppointmentId
+  - SuperOffice.CRM.Services.TemplateVariablesParameters.ContactId
+  - SuperOffice.CRM.Services.TemplateVariablesParameters.CultureName
+  - SuperOffice.CRM.Services.TemplateVariablesParameters.CustomTags
+  - SuperOffice.CRM.Services.TemplateVariablesParameters.DocumentEntity
+  - SuperOffice.CRM.Services.TemplateVariablesParameters.DocumentId
+  - SuperOffice.CRM.Services.TemplateVariablesParameters.Encoding
+  - SuperOffice.CRM.Services.TemplateVariablesParameters.PersonId
+  - SuperOffice.CRM.Services.TemplateVariablesParameters.ProductKey
+  - SuperOffice.CRM.Services.TemplateVariablesParameters.ProjectId
+  - SuperOffice.CRM.Services.TemplateVariablesParameters.QuoteAlternativeId
+  - SuperOffice.CRM.Services.TemplateVariablesParameters.QuoteLineId
+  - SuperOffice.CRM.Services.TemplateVariablesParameters.SaleId
+  - SuperOffice.CRM.Services.TemplateVariablesParameters.SelectionId
+  - SuperOffice.CRM.Services.TemplateVariablesParameters.SourceInput
+  - SuperOffice.CRM.Services.TemplateVariablesParameters.ToString
+  - SuperOffice.CRM.Services.TemplateVariablesParameters.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: TemplateVariablesParameters
+  nameWithType: TemplateVariablesParameters
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nParameters specifying source and properties for template variable substitution.\n<p></p>\nCarrier object for TemplateVariablesParameters.\nServices for the TemplateVariablesParameters Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IDocumentAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class TemplateVariablesParameters : Carrier'
+    content.vb: >-
+      Public Class TemplateVariablesParameters
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.DocumentAgent
+    commentId: T:SuperOffice.CRM.Services.DocumentAgent
+  - linkId: SuperOffice.CRM.Services.IDocumentAgent
+    commentId: T:SuperOffice.CRM.Services.IDocumentAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.#ctor
+  commentId: M:SuperOffice.CRM.Services.TemplateVariablesParameters.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: TemplateVariablesParameters()
+  nameWithType: TemplateVariablesParameters.TemplateVariablesParameters()
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.TemplateVariablesParameters()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public TemplateVariablesParameters()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.TemplateVariablesParameters.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.ToString
+  commentId: M:SuperOffice.CRM.Services.TemplateVariablesParameters.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TemplateVariablesParameters.ToString()
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.TemplateVariablesParameters.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.TemplateVariablesParameters.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: TemplateVariablesParameters.ToString(String)
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.TemplateVariablesParameters.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.SourceInput
+  commentId: P:SuperOffice.CRM.Services.TemplateVariablesParameters.SourceInput
+  id: SourceInput
+  parent: SuperOffice.CRM.Services.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: SourceInput
+  nameWithType: TemplateVariablesParameters.SourceInput
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.SourceInput
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSource string to parse for template variables. Such variables must have delimiters corresponding to the standard for the given generator encoding.Non-text source data (such as the binary content of a .doc file) should be passed in as Base64. \n"
+  syntax:
+    content: public virtual string SourceInput { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SourceInput As String
+  overload: SuperOffice.CRM.Services.TemplateVariablesParameters.SourceInput*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.Encoding
+  commentId: P:SuperOffice.CRM.Services.TemplateVariablesParameters.Encoding
+  id: Encoding
+  parent: SuperOffice.CRM.Services.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: Encoding
+  nameWithType: TemplateVariablesParameters.Encoding
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.Encoding
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEncoding of source string. Non-text formats such as MsWord or Excel should be Base64 encoded in the source string. \n"
+  syntax:
+    content: public virtual GeneratorEncoding Encoding { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.GeneratorEncoding
+    content.vb: Public Overridable Property Encoding As GeneratorEncoding
+  overload: SuperOffice.CRM.Services.TemplateVariablesParameters.Encoding*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.CultureName
+  commentId: P:SuperOffice.CRM.Services.TemplateVariablesParameters.CultureName
+  id: CultureName
+  parent: SuperOffice.CRM.Services.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: CultureName
+  nameWithType: TemplateVariablesParameters.CultureName
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.CultureName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of culture to be used for culture-sensitive data, such as dates or multi-language texts. Use a blank string to accept current culture that is set on the server. \n"
+  syntax:
+    content: public virtual string CultureName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CultureName As String
+  overload: SuperOffice.CRM.Services.TemplateVariablesParameters.CultureName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.ContactId
+  commentId: P:SuperOffice.CRM.Services.TemplateVariablesParameters.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Services.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: TemplateVariablesParameters.ContactId
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.ContactId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIdentifier for a contact \n"
+  syntax:
+    content: public virtual int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.CRM.Services.TemplateVariablesParameters.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.PersonId
+  commentId: P:SuperOffice.CRM.Services.TemplateVariablesParameters.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Services.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: TemplateVariablesParameters.PersonId
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.PersonId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIdentifier for a person \n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.CRM.Services.TemplateVariablesParameters.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.ProjectId
+  commentId: P:SuperOffice.CRM.Services.TemplateVariablesParameters.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.Services.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: TemplateVariablesParameters.ProjectId
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIdentifier for a project \n"
+  syntax:
+    content: public virtual int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProjectId As Integer
+  overload: SuperOffice.CRM.Services.TemplateVariablesParameters.ProjectId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.SelectionId
+  commentId: P:SuperOffice.CRM.Services.TemplateVariablesParameters.SelectionId
+  id: SelectionId
+  parent: SuperOffice.CRM.Services.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: TemplateVariablesParameters.SelectionId
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIdentifier for a selection \n"
+  syntax:
+    content: public virtual int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SelectionId As Integer
+  overload: SuperOffice.CRM.Services.TemplateVariablesParameters.SelectionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.AppointmentId
+  commentId: P:SuperOffice.CRM.Services.TemplateVariablesParameters.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.CRM.Services.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: TemplateVariablesParameters.AppointmentId
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.AppointmentId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIdentifier for an appointment \n"
+  syntax:
+    content: public virtual int AppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AppointmentId As Integer
+  overload: SuperOffice.CRM.Services.TemplateVariablesParameters.AppointmentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.DocumentId
+  commentId: P:SuperOffice.CRM.Services.TemplateVariablesParameters.DocumentId
+  id: DocumentId
+  parent: SuperOffice.CRM.Services.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: TemplateVariablesParameters.DocumentId
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.DocumentId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIdentifier for a document \n"
+  syntax:
+    content: public virtual int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DocumentId As Integer
+  overload: SuperOffice.CRM.Services.TemplateVariablesParameters.DocumentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.SaleId
+  commentId: P:SuperOffice.CRM.Services.TemplateVariablesParameters.SaleId
+  id: SaleId
+  parent: SuperOffice.CRM.Services.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: TemplateVariablesParameters.SaleId
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.SaleId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIdentifier for a sale \n"
+  syntax:
+    content: public virtual int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleId As Integer
+  overload: SuperOffice.CRM.Services.TemplateVariablesParameters.SaleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.QuoteLineId
+  commentId: P:SuperOffice.CRM.Services.TemplateVariablesParameters.QuoteLineId
+  id: QuoteLineId
+  parent: SuperOffice.CRM.Services.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineId
+  nameWithType: TemplateVariablesParameters.QuoteLineId
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.QuoteLineId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nQuote line id \n"
+  syntax:
+    content: public virtual int QuoteLineId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property QuoteLineId As Integer
+  overload: SuperOffice.CRM.Services.TemplateVariablesParameters.QuoteLineId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.QuoteAlternativeId
+  commentId: P:SuperOffice.CRM.Services.TemplateVariablesParameters.QuoteAlternativeId
+  id: QuoteAlternativeId
+  parent: SuperOffice.CRM.Services.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: QuoteAlternativeId
+  nameWithType: TemplateVariablesParameters.QuoteAlternativeId
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.QuoteAlternativeId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nQuote alternative id \n"
+  syntax:
+    content: public virtual int QuoteAlternativeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property QuoteAlternativeId As Integer
+  overload: SuperOffice.CRM.Services.TemplateVariablesParameters.QuoteAlternativeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.ProductKey
+  commentId: P:SuperOffice.CRM.Services.TemplateVariablesParameters.ProductKey
+  id: ProductKey
+  parent: SuperOffice.CRM.Services.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: ProductKey
+  nameWithType: TemplateVariablesParameters.ProductKey
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.ProductKey
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nProduct key \n"
+  syntax:
+    content: public virtual string ProductKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProductKey As String
+  overload: SuperOffice.CRM.Services.TemplateVariablesParameters.ProductKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.CustomTags
+  commentId: P:SuperOffice.CRM.Services.TemplateVariablesParameters.CustomTags
+  id: CustomTags
+  parent: SuperOffice.CRM.Services.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: CustomTags
+  nameWithType: TemplateVariablesParameters.CustomTags
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.CustomTags
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nArray with custom tags and values. Array may be of unlimited height, but need to be exactly 2 in width. \n"
+  syntax:
+    content: public virtual string[][] CustomTags { get; set; }
+    parameters: []
+    return:
+      type: System.String[][]
+    content.vb: Public Overridable Property CustomTags As String()()
+  overload: SuperOffice.CRM.Services.TemplateVariablesParameters.CustomTags*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.DocumentEntity
+  commentId: P:SuperOffice.CRM.Services.TemplateVariablesParameters.DocumentEntity
+  id: DocumentEntity
+  parent: SuperOffice.CRM.Services.TemplateVariablesParameters
+  langs:
+  - csharp
+  - vb
+  name: DocumentEntity
+  nameWithType: TemplateVariablesParameters.DocumentEntity
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.DocumentEntity
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCustom document entity to use for data retrieval. Useful for unsaved data.  DocumentEntity.DocumentId need to match the DocumentId specified in separate property. \n"
+  syntax:
+    content: public virtual DocumentEntity DocumentEntity { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.DocumentEntity
+    content.vb: Public Overridable Property DocumentEntity As DocumentEntity
+  overload: SuperOffice.CRM.Services.TemplateVariablesParameters.DocumentEntity*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.DocumentAgent
+  commentId: T:SuperOffice.CRM.Services.DocumentAgent
+  isExternal: true
+  name: DocumentAgent
+  nameWithType: DocumentAgent
+  fullName: SuperOffice.CRM.Services.DocumentAgent
+- uid: SuperOffice.CRM.Services.IDocumentAgent
+  commentId: T:SuperOffice.CRM.Services.IDocumentAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IDocumentAgent
+  nameWithType: IDocumentAgent
+  fullName: SuperOffice.CRM.Services.IDocumentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.TemplateVariablesParameters.#ctor
+  isExternal: true
+  name: TemplateVariablesParameters
+  nameWithType: TemplateVariablesParameters.TemplateVariablesParameters
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.TemplateVariablesParameters
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.TemplateVariablesParameters.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: TemplateVariablesParameters.ToString
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.SourceInput*
+  commentId: Overload:SuperOffice.CRM.Services.TemplateVariablesParameters.SourceInput
+  isExternal: true
+  name: SourceInput
+  nameWithType: TemplateVariablesParameters.SourceInput
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.SourceInput
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.Encoding*
+  commentId: Overload:SuperOffice.CRM.Services.TemplateVariablesParameters.Encoding
+  isExternal: true
+  name: Encoding
+  nameWithType: TemplateVariablesParameters.Encoding
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.Encoding
+- uid: SuperOffice.Data.GeneratorEncoding
+  isExternal: true
+  name: GeneratorEncoding
+  nameWithType: GeneratorEncoding
+  fullName: SuperOffice.Data.GeneratorEncoding
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.CultureName*
+  commentId: Overload:SuperOffice.CRM.Services.TemplateVariablesParameters.CultureName
+  isExternal: true
+  name: CultureName
+  nameWithType: TemplateVariablesParameters.CultureName
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.CultureName
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.ContactId*
+  commentId: Overload:SuperOffice.CRM.Services.TemplateVariablesParameters.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: TemplateVariablesParameters.ContactId
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.ContactId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.PersonId*
+  commentId: Overload:SuperOffice.CRM.Services.TemplateVariablesParameters.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: TemplateVariablesParameters.PersonId
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.PersonId
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.ProjectId*
+  commentId: Overload:SuperOffice.CRM.Services.TemplateVariablesParameters.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: TemplateVariablesParameters.ProjectId
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.ProjectId
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.SelectionId*
+  commentId: Overload:SuperOffice.CRM.Services.TemplateVariablesParameters.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: TemplateVariablesParameters.SelectionId
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.SelectionId
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.AppointmentId*
+  commentId: Overload:SuperOffice.CRM.Services.TemplateVariablesParameters.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: TemplateVariablesParameters.AppointmentId
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.AppointmentId
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.DocumentId*
+  commentId: Overload:SuperOffice.CRM.Services.TemplateVariablesParameters.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: TemplateVariablesParameters.DocumentId
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.DocumentId
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.SaleId*
+  commentId: Overload:SuperOffice.CRM.Services.TemplateVariablesParameters.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: TemplateVariablesParameters.SaleId
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.SaleId
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.QuoteLineId*
+  commentId: Overload:SuperOffice.CRM.Services.TemplateVariablesParameters.QuoteLineId
+  isExternal: true
+  name: QuoteLineId
+  nameWithType: TemplateVariablesParameters.QuoteLineId
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.QuoteLineId
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.QuoteAlternativeId*
+  commentId: Overload:SuperOffice.CRM.Services.TemplateVariablesParameters.QuoteAlternativeId
+  isExternal: true
+  name: QuoteAlternativeId
+  nameWithType: TemplateVariablesParameters.QuoteAlternativeId
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.QuoteAlternativeId
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.ProductKey*
+  commentId: Overload:SuperOffice.CRM.Services.TemplateVariablesParameters.ProductKey
+  isExternal: true
+  name: ProductKey
+  nameWithType: TemplateVariablesParameters.ProductKey
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.ProductKey
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.CustomTags*
+  commentId: Overload:SuperOffice.CRM.Services.TemplateVariablesParameters.CustomTags
+  isExternal: true
+  name: CustomTags
+  nameWithType: TemplateVariablesParameters.CustomTags
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.CustomTags
+- uid: System.String[][]
+  isExternal: true
+  name: String[][]
+  nameWithType: String[][]
+  fullName: System.String[][]
+  nameWithType.vb: String()()
+  fullName.vb: System.String()()
+  name.vb: String()()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.TemplateVariablesParameters.DocumentEntity*
+  commentId: Overload:SuperOffice.CRM.Services.TemplateVariablesParameters.DocumentEntity
+  isExternal: true
+  name: DocumentEntity
+  nameWithType: TemplateVariablesParameters.DocumentEntity
+  fullName: SuperOffice.CRM.Services.TemplateVariablesParameters.DocumentEntity
+- uid: SuperOffice.CRM.Services.DocumentEntity
+  commentId: T:SuperOffice.CRM.Services.DocumentEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: DocumentEntity
+  nameWithType: DocumentEntity
+  fullName: SuperOffice.CRM.Services.DocumentEntity

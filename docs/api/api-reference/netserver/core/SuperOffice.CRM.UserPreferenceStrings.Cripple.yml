@@ -1,0 +1,781 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.UserPreferenceStrings.Cripple
+  commentId: T:SuperOffice.CRM.UserPreferenceStrings.Cripple
+  id: UserPreferenceStrings.Cripple
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.UserPreferenceStrings.Cripple.Application
+  - SuperOffice.CRM.UserPreferenceStrings.Cripple.Appointment
+  - SuperOffice.CRM.UserPreferenceStrings.Cripple.Contact
+  - SuperOffice.CRM.UserPreferenceStrings.Cripple.Diary
+  - SuperOffice.CRM.UserPreferenceStrings.Cripple.Document
+  - SuperOffice.CRM.UserPreferenceStrings.Cripple.Email
+  - SuperOffice.CRM.UserPreferenceStrings.Cripple.Person
+  - SuperOffice.CRM.UserPreferenceStrings.Cripple.Project
+  - SuperOffice.CRM.UserPreferenceStrings.Cripple.Relation
+  - SuperOffice.CRM.UserPreferenceStrings.Cripple.Reporter
+  - SuperOffice.CRM.UserPreferenceStrings.Cripple.Sale
+  - SuperOffice.CRM.UserPreferenceStrings.Cripple.Section
+  - SuperOffice.CRM.UserPreferenceStrings.Cripple.Selection
+  - SuperOffice.CRM.UserPreferenceStrings.Cripple.Travel
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.Cripple
+  nameWithType: UserPreferenceStrings.Cripple
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Cripple
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nRemove groups of functionality from CRM.\n"
+  syntax:
+    content: >-
+      [Obsolete("These preferences are now covered by functional rights", false)]
+
+      public static class Cripple
+    content.vb: >-
+      <Obsolete("These preferences are now covered by functional rights", False)>
+
+      Public Module Cripple
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: These preferences are now covered by functional rights
+    - type: System.Boolean
+      value: false
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.UserPreferenceStrings.Cripple.Section
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Cripple.Section
+  id: Section
+  parent: SuperOffice.CRM.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.Cripple.Section
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Cripple.Section
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "Cripple"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "Cripple"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Cripple.Application
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Cripple.Application
+  id: Application
+  parent: SuperOffice.CRM.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Application
+  nameWithType: UserPreferenceStrings.Cripple.Application
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Cripple.Application
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nRemoves all external applications and user-defined buttons from SuperOffice CRM.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Application = "Application"
+    return:
+      type: System.String
+    content.vb: Public Const Application As String = "Application"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Cripple.Appointment
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Cripple.Appointment
+  id: Appointment
+  parent: SuperOffice.CRM.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Appointment
+  nameWithType: UserPreferenceStrings.Cripple.Appointment
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Cripple.Appointment
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nRemoves the follow-ups dialog from CRM. Follow-ups will still be visible in lists, but the dialog will be completely removed, making it impossible to add or edit appointments, tasks and sales in CRM.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Appointment = "Appointment"
+    return:
+      type: System.String
+    content.vb: Public Const Appointment As String = "Appointment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Cripple.Contact
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Cripple.Contact
+  id: Contact
+  parent: SuperOffice.CRM.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: UserPreferenceStrings.Cripple.Contact
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Cripple.Contact
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nRemoves the entire Company screen from CRM. Company names will still be visible in dialogs etc., but the screen itself (and the Navigator button for it) will be completely removed, making it impossible to edit Companies in CRM.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Contact = "Contact"
+    return:
+      type: System.String
+    content.vb: Public Const Contact As String = "Contact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Cripple.Diary
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Cripple.Diary
+  id: Diary
+  parent: SuperOffice.CRM.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Diary
+  nameWithType: UserPreferenceStrings.Cripple.Diary
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Cripple.Diary
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nRemoves the entire Diary screen from CRM. All diary-related functionality will be removed.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Diary = "Diary"
+    return:
+      type: System.String
+    content.vb: Public Const Diary As String = "Diary"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Cripple.Document
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Cripple.Document
+  id: Document
+  parent: SuperOffice.CRM.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Document
+  nameWithType: UserPreferenceStrings.Cripple.Document
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Cripple.Document
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nRemoves the Document dialog from CRM. Documents will still be visible in lists, but the dialog itself will be completely removed, making it impossible to create or edit documents in CRM.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Document = "Document"
+    return:
+      type: System.String
+    content.vb: Public Const Document As String = "Document"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Cripple.Email
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Cripple.Email
+  id: Email
+  parent: SuperOffice.CRM.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: UserPreferenceStrings.Cripple.Email
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Cripple.Email
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nRemoves the entire E-mail screen from CRM. All e-mail functionality will be removed.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Email = "Email"
+    return:
+      type: System.String
+    content.vb: Public Const Email As String = "Email"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Cripple.Person
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Cripple.Person
+  id: Person
+  parent: SuperOffice.CRM.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: UserPreferenceStrings.Cripple.Person
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Cripple.Person
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nRemoves the Contact dialog from CRM. Contact names will still be visible in lists, but the dialog itself will be completely removed, making it impossible to add or edit contacts in CRM.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Person = "Person"
+    return:
+      type: System.String
+    content.vb: Public Const Person As String = "Person"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Cripple.Project
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Cripple.Project
+  id: Project
+  parent: SuperOffice.CRM.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: UserPreferenceStrings.Cripple.Project
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Cripple.Project
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nRemoves the entire Project screen from CRM. Project names will still be visible in dialogs and lists, but the screen itself (and the Navigator button for it) will be completely removed, making it impossible to edit projects in CRM.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Project = "Project"
+    return:
+      type: System.String
+    content.vb: Public Const Project As String = "Project"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Cripple.Relation
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Cripple.Relation
+  id: Relation
+  parent: SuperOffice.CRM.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Relation
+  nameWithType: UserPreferenceStrings.Cripple.Relation
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Cripple.Relation
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nRemoves the Relations section tab from the Company screen\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Relation = "Relation"
+    return:
+      type: System.String
+    content.vb: Public Const Relation As String = "Relation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Cripple.Reporter
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Cripple.Reporter
+  id: Reporter
+  parent: SuperOffice.CRM.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Reporter
+  nameWithType: UserPreferenceStrings.Cripple.Reporter
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Cripple.Reporter
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nRemoves the Reports button and the Reports screen from CRM. Print buttons will still be available at various points in CRM.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Reporter = "Reporter"
+    return:
+      type: System.String
+    content.vb: Public Const Reporter As String = "Reporter"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Cripple.Sale
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Cripple.Sale
+  id: Sale
+  parent: SuperOffice.CRM.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Sale
+  nameWithType: UserPreferenceStrings.Cripple.Sale
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Cripple.Sale
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nRemoves the Sale dialog from CRM. Sales will still be visible in lists, but the dialog itself will be completely removed, making it impossible to add or edit sales in CRM.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Sale = "Sale"
+    return:
+      type: System.String
+    content.vb: Public Const Sale As String = "Sale"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Cripple.Selection
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Cripple.Selection
+  id: Selection
+  parent: SuperOffice.CRM.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Selection
+  nameWithType: UserPreferenceStrings.Cripple.Selection
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Cripple.Selection
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nRemoves the entire Selection screen from CRM. All selection-related functionality will be removed.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Selection = "Selection"
+    return:
+      type: System.String
+    content.vb: Public Const Selection As String = "Selection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Cripple.Travel
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Cripple.Travel
+  id: Travel
+  parent: SuperOffice.CRM.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Travel
+  nameWithType: UserPreferenceStrings.Cripple.Travel
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Cripple.Travel
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nRemoves all Travel functionality from CRM.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Travel = "Travel"
+    return:
+      type: System.String
+    content.vb: Public Const Travel As String = "Travel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

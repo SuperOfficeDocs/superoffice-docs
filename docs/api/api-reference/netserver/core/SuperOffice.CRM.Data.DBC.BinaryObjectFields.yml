@@ -1,0 +1,797 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectFields
+  commentId: T:SuperOffice.CRM.Data.DBC.BinaryObjectFields
+  id: DBC.BinaryObjectFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.BinaryObjectFields.BinaryData
+  - SuperOffice.CRM.Data.DBC.BinaryObjectFields.BinaryObjectId
+  - SuperOffice.CRM.Data.DBC.BinaryObjectFields.BlobSize
+  - SuperOffice.CRM.Data.DBC.BinaryObjectFields.ConceptualType
+  - SuperOffice.CRM.Data.DBC.BinaryObjectFields.Description
+  - SuperOffice.CRM.Data.DBC.BinaryObjectFields.ExtraInfo
+  - SuperOffice.CRM.Data.DBC.BinaryObjectFields.IsEncrypted
+  - SuperOffice.CRM.Data.DBC.BinaryObjectFields.IsZipped
+  - SuperOffice.CRM.Data.DBC.BinaryObjectFields.MimeType
+  - SuperOffice.CRM.Data.DBC.BinaryObjectFields.OriginalSize
+  - SuperOffice.CRM.Data.DBC.BinaryObjectFields.Registered
+  - SuperOffice.CRM.Data.DBC.BinaryObjectFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.BinaryObjectFields.Updated
+  - SuperOffice.CRM.Data.DBC.BinaryObjectFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.BinaryObjectFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.BinaryObjectFields
+  nameWithType: DBC.BinaryObjectFields
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for BinaryObject, Binary objects, i.e., blobs. Used for images, documents, SuperOffice inbox mail  and other large binary items\n"
+  syntax:
+    content: public static class BinaryObjectFields
+    content.vb: Public Module BinaryObjectFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectFields.BinaryObjectId
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectFields.BinaryObjectId
+  id: BinaryObjectId
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectFields
+  langs:
+  - csharp
+  - vb
+  name: BinaryObjectId
+  nameWithType: DBC.BinaryObjectFields.BinaryObjectId
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectFields.BinaryObjectId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObject.BinaryObjectId: Primary key\n"
+  syntax:
+    content: public const string BinaryObjectId = "BinaryObject_id"
+    return:
+      type: System.String
+    content.vb: Public Const BinaryObjectId As String = "BinaryObject_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectFields.ConceptualType
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectFields.ConceptualType
+  id: ConceptualType
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectFields
+  langs:
+  - csharp
+  - vb
+  name: ConceptualType
+  nameWithType: DBC.BinaryObjectFields.ConceptualType
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectFields.ConceptualType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObject.ConceptualType: The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is\n"
+  syntax:
+    content: public const string ConceptualType = "conceptualType"
+    return:
+      type: System.String
+    content.vb: Public Const ConceptualType As String = "conceptualType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectFields.MimeType
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectFields.MimeType
+  id: MimeType
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectFields
+  langs:
+  - csharp
+  - vb
+  name: MimeType
+  nameWithType: DBC.BinaryObjectFields.MimeType
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectFields.MimeType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObject.MimeType: Mime type, describing the technical type (image/jpeg) of the data\n"
+  syntax:
+    content: public const string MimeType = "mimeType"
+    return:
+      type: System.String
+    content.vb: Public Const MimeType As String = "mimeType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectFields.Description
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectFields.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectFields
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DBC.BinaryObjectFields.Description
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectFields.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObject.Description: A description that is entered by the user, and visible to the user\n"
+  syntax:
+    content: public const string Description = "description"
+    return:
+      type: System.String
+    content.vb: Public Const Description As String = "description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectFields.OriginalSize
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectFields.OriginalSize
+  id: OriginalSize
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectFields
+  langs:
+  - csharp
+  - vb
+  name: OriginalSize
+  nameWithType: DBC.BinaryObjectFields.OriginalSize
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectFields.OriginalSize
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObject.OriginalSize: Original size of the binary data, before encryption and/or zipping. This is what the ultimate client will get\n"
+  syntax:
+    content: public const string OriginalSize = "originalSize"
+    return:
+      type: System.String
+    content.vb: Public Const OriginalSize As String = "originalSize"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectFields.BlobSize
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectFields.BlobSize
+  id: BlobSize
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectFields
+  langs:
+  - csharp
+  - vb
+  name: BlobSize
+  nameWithType: DBC.BinaryObjectFields.BlobSize
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectFields.BlobSize
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObject.BlobSize: The length, in bytes, of the binary data AS STORED after any encryption and/or zipping. Important to get right, since some databases will not tell us just based on the blob itself!\n"
+  syntax:
+    content: public const string BlobSize = "blobSize"
+    return:
+      type: System.String
+    content.vb: Public Const BlobSize As String = "blobSize"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectFields.IsZipped
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectFields.IsZipped
+  id: IsZipped
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectFields
+  langs:
+  - csharp
+  - vb
+  name: IsZipped
+  nameWithType: DBC.BinaryObjectFields.IsZipped
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectFields.IsZipped
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObject.IsZipped: Has the data been zipped (support for this will come in HDB)\n"
+  syntax:
+    content: public const string IsZipped = "isZipped"
+    return:
+      type: System.String
+    content.vb: Public Const IsZipped As String = "isZipped"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectFields.IsEncrypted
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectFields.IsEncrypted
+  id: IsEncrypted
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectFields
+  langs:
+  - csharp
+  - vb
+  name: IsEncrypted
+  nameWithType: DBC.BinaryObjectFields.IsEncrypted
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectFields.IsEncrypted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObject.IsEncrypted: Has the data been encrypted (support for this will come in HDB)\n"
+  syntax:
+    content: public const string IsEncrypted = "isEncrypted"
+    return:
+      type: System.String
+    content.vb: Public Const IsEncrypted As String = "isEncrypted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectFields.ExtraInfo
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectFields.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: DBC.BinaryObjectFields.ExtraInfo
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectFields.ExtraInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObject.ExtraInfo: Extra information, spare field, can be used for anything that makes sense. Should not refer to any particular context, that is something for the BinaryObjectLInk\n"
+  syntax:
+    content: public const string ExtraInfo = "extraInfo"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraInfo As String = "extraInfo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectFields.BinaryData
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectFields.BinaryData
+  id: BinaryData
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectFields
+  langs:
+  - csharp
+  - vb
+  name: BinaryData
+  nameWithType: DBC.BinaryObjectFields.BinaryData
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectFields.BinaryData
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObject.BinaryData: The binary data itself. Length is limited by the database, generally 1GB seems to be reliably available. Beyond that is database dependent.\n"
+  syntax:
+    content: public const string BinaryData = "binaryData"
+    return:
+      type: System.String
+    content.vb: Public Const BinaryData As String = "binaryData"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.BinaryObjectFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObject.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.BinaryObjectFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObject.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.BinaryObjectFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObject.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.BinaryObjectFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObject.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.BinaryObjectFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.BinaryObjectFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.BinaryObjectFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.BinaryObjectFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.BinaryObjectFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nBinaryObject.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

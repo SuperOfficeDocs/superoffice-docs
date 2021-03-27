@@ -1,0 +1,460 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ForeignKey
+  commentId: T:SuperOffice.WebApi.Data.ForeignKey
+  id: ForeignKey
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ForeignKey.#ctor
+  - SuperOffice.WebApi.Data.ForeignKey.CreatedBy
+  - SuperOffice.WebApi.Data.ForeignKey.CreatedDate
+  - SuperOffice.WebApi.Data.ForeignKey.Key
+  - SuperOffice.WebApi.Data.ForeignKey.RecordId
+  - SuperOffice.WebApi.Data.ForeignKey.TableName
+  - SuperOffice.WebApi.Data.ForeignKey.UpdatedBy
+  - SuperOffice.WebApi.Data.ForeignKey.UpdatedDate
+  - SuperOffice.WebApi.Data.ForeignKey.Value
+  langs:
+  - csharp
+  - vb
+  name: ForeignKey
+  nameWithType: ForeignKey
+  fullName: SuperOffice.WebApi.Data.ForeignKey
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ForeignKey.\n\n"
+  syntax:
+    content: 'public class ForeignKey : Carrier'
+    content.vb: >-
+      Public Class ForeignKey
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ForeignSystemAgent
+    commentId: T:SuperOffice.WebApi.Agents.ForeignSystemAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ForeignKey.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ForeignKey.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ForeignKey
+  langs:
+  - csharp
+  - vb
+  name: ForeignKey()
+  nameWithType: ForeignKey.ForeignKey()
+  fullName: SuperOffice.WebApi.Data.ForeignKey.ForeignKey()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ForeignKey()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ForeignKey.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ForeignKey.Key
+  commentId: P:SuperOffice.WebApi.Data.ForeignKey.Key
+  id: Key
+  parent: SuperOffice.WebApi.Data.ForeignKey
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: ForeignKey.Key
+  fullName: SuperOffice.WebApi.Data.ForeignKey.Key
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSubkey (optional)\n"
+  syntax:
+    content: public virtual string Key { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Key As String
+  overload: SuperOffice.WebApi.Data.ForeignKey.Key*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ForeignKey.Value
+  commentId: P:SuperOffice.WebApi.Data.ForeignKey.Value
+  id: Value
+  parent: SuperOffice.WebApi.Data.ForeignKey
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: ForeignKey.Value
+  fullName: SuperOffice.WebApi.Data.ForeignKey.Value
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nKey value\n"
+  syntax:
+    content: public virtual string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Value As String
+  overload: SuperOffice.WebApi.Data.ForeignKey.Value*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ForeignKey.RecordId
+  commentId: P:SuperOffice.WebApi.Data.ForeignKey.RecordId
+  id: RecordId
+  parent: SuperOffice.WebApi.Data.ForeignKey
+  langs:
+  - csharp
+  - vb
+  name: RecordId
+  nameWithType: ForeignKey.RecordId
+  fullName: SuperOffice.WebApi.Data.ForeignKey.RecordId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRecord in the referenced table\n"
+  syntax:
+    content: public virtual int RecordId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RecordId As Integer
+  overload: SuperOffice.WebApi.Data.ForeignKey.RecordId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ForeignKey.CreatedDate
+  commentId: P:SuperOffice.WebApi.Data.ForeignKey.CreatedDate
+  id: CreatedDate
+  parent: SuperOffice.WebApi.Data.ForeignKey
+  langs:
+  - csharp
+  - vb
+  name: CreatedDate
+  nameWithType: ForeignKey.CreatedDate
+  fullName: SuperOffice.WebApi.Data.ForeignKey.CreatedDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRegistered when\n"
+  syntax:
+    content: public virtual DateTime CreatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property CreatedDate As DateTime
+  overload: SuperOffice.WebApi.Data.ForeignKey.CreatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ForeignKey.UpdatedDate
+  commentId: P:SuperOffice.WebApi.Data.ForeignKey.UpdatedDate
+  id: UpdatedDate
+  parent: SuperOffice.WebApi.Data.ForeignKey
+  langs:
+  - csharp
+  - vb
+  name: UpdatedDate
+  nameWithType: ForeignKey.UpdatedDate
+  fullName: SuperOffice.WebApi.Data.ForeignKey.UpdatedDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast updated when\n"
+  syntax:
+    content: public virtual DateTime UpdatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property UpdatedDate As DateTime
+  overload: SuperOffice.WebApi.Data.ForeignKey.UpdatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ForeignKey.UpdatedBy
+  commentId: P:SuperOffice.WebApi.Data.ForeignKey.UpdatedBy
+  id: UpdatedBy
+  parent: SuperOffice.WebApi.Data.ForeignKey
+  langs:
+  - csharp
+  - vb
+  name: UpdatedBy
+  nameWithType: ForeignKey.UpdatedBy
+  fullName: SuperOffice.WebApi.Data.ForeignKey.UpdatedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the person that last updated the foreign key\n"
+  syntax:
+    content: public virtual string UpdatedBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property UpdatedBy As String
+  overload: SuperOffice.WebApi.Data.ForeignKey.UpdatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ForeignKey.CreatedBy
+  commentId: P:SuperOffice.WebApi.Data.ForeignKey.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.WebApi.Data.ForeignKey
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: ForeignKey.CreatedBy
+  fullName: SuperOffice.WebApi.Data.ForeignKey.CreatedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the person that created the foreign key\n"
+  syntax:
+    content: public virtual string CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CreatedBy As String
+  overload: SuperOffice.WebApi.Data.ForeignKey.CreatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ForeignKey.TableName
+  commentId: P:SuperOffice.WebApi.Data.ForeignKey.TableName
+  id: TableName
+  parent: SuperOffice.WebApi.Data.ForeignKey
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: ForeignKey.TableName
+  fullName: SuperOffice.WebApi.Data.ForeignKey.TableName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTable name, transformed to and from numeric table id by the service layer\n"
+  syntax:
+    content: public virtual string TableName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TableName As String
+  overload: SuperOffice.WebApi.Data.ForeignKey.TableName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ForeignSystemAgent
+  commentId: T:SuperOffice.WebApi.Agents.ForeignSystemAgent
+  isExternal: true
+  name: ForeignSystemAgent
+  nameWithType: ForeignSystemAgent
+  fullName: SuperOffice.WebApi.Agents.ForeignSystemAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ForeignKey.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignKey.#ctor
+  isExternal: true
+  name: ForeignKey
+  nameWithType: ForeignKey.ForeignKey
+  fullName: SuperOffice.WebApi.Data.ForeignKey.ForeignKey
+- uid: SuperOffice.WebApi.Data.ForeignKey.Key*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignKey.Key
+  isExternal: true
+  name: Key
+  nameWithType: ForeignKey.Key
+  fullName: SuperOffice.WebApi.Data.ForeignKey.Key
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ForeignKey.Value*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignKey.Value
+  isExternal: true
+  name: Value
+  nameWithType: ForeignKey.Value
+  fullName: SuperOffice.WebApi.Data.ForeignKey.Value
+- uid: SuperOffice.WebApi.Data.ForeignKey.RecordId*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignKey.RecordId
+  isExternal: true
+  name: RecordId
+  nameWithType: ForeignKey.RecordId
+  fullName: SuperOffice.WebApi.Data.ForeignKey.RecordId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ForeignKey.CreatedDate*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignKey.CreatedDate
+  isExternal: true
+  name: CreatedDate
+  nameWithType: ForeignKey.CreatedDate
+  fullName: SuperOffice.WebApi.Data.ForeignKey.CreatedDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.ForeignKey.UpdatedDate*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignKey.UpdatedDate
+  isExternal: true
+  name: UpdatedDate
+  nameWithType: ForeignKey.UpdatedDate
+  fullName: SuperOffice.WebApi.Data.ForeignKey.UpdatedDate
+- uid: SuperOffice.WebApi.Data.ForeignKey.UpdatedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignKey.UpdatedBy
+  isExternal: true
+  name: UpdatedBy
+  nameWithType: ForeignKey.UpdatedBy
+  fullName: SuperOffice.WebApi.Data.ForeignKey.UpdatedBy
+- uid: SuperOffice.WebApi.Data.ForeignKey.CreatedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignKey.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: ForeignKey.CreatedBy
+  fullName: SuperOffice.WebApi.Data.ForeignKey.CreatedBy
+- uid: SuperOffice.WebApi.Data.ForeignKey.TableName*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignKey.TableName
+  isExternal: true
+  name: TableName
+  nameWithType: ForeignKey.TableName
+  fullName: SuperOffice.WebApi.Data.ForeignKey.TableName

@@ -1,0 +1,1295 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation
+  commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation
+  id: CurrencyAggregation
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation
+  children:
+  - SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.#ctor
+  - SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  - SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
+  - SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.GetAggregatedValue
+  - SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.PluginName
+  - SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.ToString
+  langs:
+  - csharp
+  - vb
+  name: CurrencyAggregation
+  nameWithType: CurrencyAggregation
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Aggregation
+  summary: "\nThis aggregator expects two fields, first is the amount (without currency), \nthe second the currency to convert to. \nUse like this: CurrencyConvert(valueField;currencyIdField):Own\n"
+  syntax:
+    content: >-
+      [AggregationPlugin("CurrencyConvert")]
+
+      public class CurrencyAggregation : AggregationPluginBase, IAggregationScalarPlugin, IAggregationPlugin, IPlugin
+    content.vb: >-
+      <AggregationPlugin("CurrencyConvert")>
+
+      Public Class CurrencyAggregation
+          Inherits AggregationPluginBase
+          Implements IAggregationScalarPlugin, IAggregationPlugin, IPlugin
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase
+  implements:
+  - SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationScalarPlugin
+  - SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin
+  inheritedMembers:
+  - SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.HasModifier(System.String)
+  - SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.SetModifiers(System.String[])
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation)
+  - SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginAttribute
+    ctor: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CurrencyConvert
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.PluginName
+  commentId: F:SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.PluginName
+  id: PluginName
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation
+  langs:
+  - csharp
+  - vb
+  name: PluginName
+  nameWithType: CurrencyAggregation.PluginName
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.PluginName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Aggregation
+  syntax:
+    content: public const string PluginName = "CurrencyConvert"
+    return:
+      type: System.String
+    content.vb: Public Const PluginName As String = "CurrencyConvert"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  id: AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation
+  langs:
+  - csharp
+  - vb
+  name: AddItem(ArchiveColumnData)
+  nameWithType: CurrencyAggregation.AddItem(ArchiveColumnData)
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Aggregation
+  syntax:
+    content: public override ArchiveColumnData AddItem(ArchiveColumnData item)
+    parameters:
+    - id: item
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    content.vb: Public Overrides Function AddItem(item As ArchiveColumnData) As ArchiveColumnData
+  overridden: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  overload: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.AddItem*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
+  id: AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation
+  langs:
+  - csharp
+  - vb
+  name: AddItem(ArchiveColumnData[])
+  nameWithType: CurrencyAggregation.AddItem(ArchiveColumnData[])
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Aggregation
+  syntax:
+    content: public override ArchiveColumnData AddItem(ArchiveColumnData[] items)
+    parameters:
+    - id: items
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData[]
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    content.vb: Public Overrides Function AddItem(items As ArchiveColumnData()) As ArchiveColumnData
+  overridden: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
+  overload: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.AddItem*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
+  nameWithType.vb: CurrencyAggregation.AddItem(ArchiveColumnData())
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData())
+  name.vb: AddItem(ArchiveColumnData())
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.GetAggregatedValue
+  commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.GetAggregatedValue
+  id: GetAggregatedValue
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation
+  langs:
+  - csharp
+  - vb
+  name: GetAggregatedValue()
+  nameWithType: CurrencyAggregation.GetAggregatedValue()
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.GetAggregatedValue()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Aggregation
+  syntax:
+    content: public override ArchiveColumnData GetAggregatedValue()
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    content.vb: Public Overrides Function GetAggregatedValue As ArchiveColumnData
+  overridden: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.GetAggregatedValue
+  overload: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.GetAggregatedValue*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.GetAggregatedValue
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.ToString
+  commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.ToString
+  id: ToString
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: CurrencyAggregation.ToString()
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.ToString()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Aggregation
+  syntax:
+    content: public string ToString()
+    return:
+      type: System.String
+    content.vb: Public Function ToString As String
+  overload: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.#ctor
+  commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation
+  langs:
+  - csharp
+  - vb
+  name: CurrencyAggregation()
+  nameWithType: CurrencyAggregation.CurrencyAggregation()
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.CurrencyAggregation()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Aggregation
+  syntax:
+    content: public CurrencyAggregation()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation
+  commentId: N:SuperOffice.CRM.ArchiveLists.Aggregation
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists.Aggregation
+  nameWithType: SuperOffice.CRM.ArchiveLists.Aggregation
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation
+  isExternal: true
+  name: AggregationPluginBase
+  nameWithType: AggregationPluginBase
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationScalarPlugin
+  commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationScalarPlugin
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation
+  isExternal: true
+  name: IAggregationScalarPlugin
+  nameWithType: IAggregationScalarPlugin
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationScalarPlugin
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin
+  commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation
+  isExternal: true
+  name: IAggregationPlugin
+  nameWithType: IAggregationPlugin
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.HasModifier(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.HasModifier(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase
+  isExternal: true
+  name: HasModifier(String)
+  nameWithType: AggregationPluginBase.HasModifier(String)
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.HasModifier(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.HasModifier(System.String)
+    name: HasModifier
+    nameWithType: AggregationPluginBase.HasModifier
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.HasModifier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.HasModifier(System.String)
+    name: HasModifier
+    nameWithType: AggregationPluginBase.HasModifier
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.HasModifier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.SetModifiers(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.SetModifiers(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase
+  isExternal: true
+  name: SetModifiers(String[])
+  nameWithType: AggregationPluginBase.SetModifiers(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.SetModifiers(System.String[])
+  nameWithType.vb: AggregationPluginBase.SetModifiers(String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.SetModifiers(System.String())
+  name.vb: SetModifiers(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.SetModifiers(System.String[])
+    name: SetModifiers
+    nameWithType: AggregationPluginBase.SetModifiers
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.SetModifiers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.SetModifiers(System.String[])
+    name: SetModifiers
+    nameWithType: AggregationPluginBase.SetModifiers
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.SetModifiers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<CurrencyAggregation, To>()
+  nameWithType: EnumUtil.MapEnums<CurrencyAggregation, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CurrencyAggregation, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation, To)()
+  name.vb: MapEnums(Of CurrencyAggregation, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CurrencyAggregation, To>
+    nameWithType: EnumUtil.MapEnums<CurrencyAggregation, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CurrencyAggregation, To)
+    nameWithType: EnumUtil.MapEnums(Of CurrencyAggregation, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<CurrencyAggregation>(CurrencyAggregation)
+  nameWithType: ObjectExtensions.AssignByReflection<CurrencyAggregation>(CurrencyAggregation)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation>(SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CurrencyAggregation)(CurrencyAggregation)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation)(SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation)
+  name.vb: AssignByReflection(Of CurrencyAggregation)(CurrencyAggregation)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<CurrencyAggregation>
+    nameWithType: ObjectExtensions.AssignByReflection<CurrencyAggregation>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation
+    name: CurrencyAggregation
+    nameWithType: CurrencyAggregation
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of CurrencyAggregation)
+    nameWithType: ObjectExtensions.AssignByReflection(Of CurrencyAggregation)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation
+    name: CurrencyAggregation
+    nameWithType: CurrencyAggregation
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<CurrencyAggregation>()
+  nameWithType: ObjectExtensions.GraphCopy<CurrencyAggregation>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of CurrencyAggregation)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation)()
+  name.vb: GraphCopy(Of CurrencyAggregation)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<CurrencyAggregation>
+    nameWithType: ObjectExtensions.GraphCopy<CurrencyAggregation>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of CurrencyAggregation)
+    nameWithType: ObjectExtensions.GraphCopy(Of CurrencyAggregation)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CurrencyAggregation, To>()
+  nameWithType: Converters.MapEnums<CurrencyAggregation, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation, To>()
+  nameWithType.vb: Converters.MapEnums(Of CurrencyAggregation, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation, To)()
+  name.vb: MapEnums(Of CurrencyAggregation, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CurrencyAggregation, To>
+    nameWithType: Converters.MapEnums<CurrencyAggregation, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CurrencyAggregation, To)
+    nameWithType: Converters.MapEnums(Of CurrencyAggregation, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase
+  isExternal: true
+  name: AddItem(ArchiveColumnData)
+  nameWithType: AggregationPluginBase.AddItem(ArchiveColumnData)
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+    name: AddItem
+    nameWithType: AggregationPluginBase.AddItem
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    name: ArchiveColumnData
+    nameWithType: ArchiveColumnData
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+    name: AddItem
+    nameWithType: AggregationPluginBase.AddItem
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    name: ArchiveColumnData
+    nameWithType: ArchiveColumnData
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.AddItem*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.AddItem
+  isExternal: true
+  name: AddItem
+  nameWithType: CurrencyAggregation.AddItem
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.AddItem
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin
+  isExternal: true
+  name: AddItem(ArchiveColumnData)
+  nameWithType: IAggregationPlugin.AddItem(ArchiveColumnData)
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+    name: AddItem
+    nameWithType: IAggregationPlugin.AddItem
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    name: ArchiveColumnData
+    nameWithType: ArchiveColumnData
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+    name: AddItem
+    nameWithType: IAggregationPlugin.AddItem
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    name: ArchiveColumnData
+    nameWithType: ArchiveColumnData
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveColumnData
+  nameWithType: ArchiveColumnData
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase
+  isExternal: true
+  name: AddItem(ArchiveColumnData[])
+  nameWithType: AggregationPluginBase.AddItem(ArchiveColumnData[])
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
+  nameWithType.vb: AggregationPluginBase.AddItem(ArchiveColumnData())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData())
+  name.vb: AddItem(ArchiveColumnData())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
+    name: AddItem
+    nameWithType: AggregationPluginBase.AddItem
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    name: ArchiveColumnData
+    nameWithType: ArchiveColumnData
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
+    name: AddItem
+    nameWithType: AggregationPluginBase.AddItem
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    name: ArchiveColumnData
+    nameWithType: ArchiveColumnData
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin
+  isExternal: true
+  name: AddItem(ArchiveColumnData[])
+  nameWithType: IAggregationPlugin.AddItem(ArchiveColumnData[])
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
+  nameWithType.vb: IAggregationPlugin.AddItem(ArchiveColumnData())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData())
+  name.vb: AddItem(ArchiveColumnData())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
+    name: AddItem
+    nameWithType: IAggregationPlugin.AddItem
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    name: ArchiveColumnData
+    nameWithType: ArchiveColumnData
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
+    name: AddItem
+    nameWithType: IAggregationPlugin.AddItem
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    name: ArchiveColumnData
+    nameWithType: ArchiveColumnData
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData[]
+  isExternal: true
+  name: ArchiveColumnData[]
+  nameWithType: ArchiveColumnData[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData[]
+  nameWithType.vb: ArchiveColumnData()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveColumnData()
+  name.vb: ArchiveColumnData()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    name: ArchiveColumnData
+    nameWithType: ArchiveColumnData
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    name: ArchiveColumnData
+    nameWithType: ArchiveColumnData
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.GetAggregatedValue
+  commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.GetAggregatedValue
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase
+  isExternal: true
+  name: GetAggregatedValue()
+  nameWithType: AggregationPluginBase.GetAggregatedValue()
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.GetAggregatedValue()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.GetAggregatedValue
+    name: GetAggregatedValue
+    nameWithType: AggregationPluginBase.GetAggregatedValue
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.GetAggregatedValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.GetAggregatedValue
+    name: GetAggregatedValue
+    nameWithType: AggregationPluginBase.GetAggregatedValue
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.GetAggregatedValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.GetAggregatedValue*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.GetAggregatedValue
+  isExternal: true
+  name: GetAggregatedValue
+  nameWithType: CurrencyAggregation.GetAggregatedValue
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.GetAggregatedValue
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.GetAggregatedValue
+  commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.GetAggregatedValue
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin
+  isExternal: true
+  name: GetAggregatedValue()
+  nameWithType: IAggregationPlugin.GetAggregatedValue()
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.GetAggregatedValue()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.GetAggregatedValue
+    name: GetAggregatedValue
+    nameWithType: IAggregationPlugin.GetAggregatedValue
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.GetAggregatedValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.GetAggregatedValue
+    name: GetAggregatedValue
+    nameWithType: IAggregationPlugin.GetAggregatedValue
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.GetAggregatedValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.ToString*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: CurrencyAggregation.ToString
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.ToString
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.#ctor
+  isExternal: true
+  name: CurrencyAggregation
+  nameWithType: CurrencyAggregation.CurrencyAggregation
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.CurrencyAggregation.CurrencyAggregation

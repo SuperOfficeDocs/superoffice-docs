@@ -1,0 +1,2349 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  commentId: T:SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  id: EditQuoteDataHandler
+  parent: SuperOffice.CRM.Web.Data
+  children:
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.#ctor
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.AddAlternative(System.String,System.Int32)
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.AddQuoteLines(System.String)
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.ChangeQuoteDocument(System.Int32)
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.CloneVersion(System.Int32)
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.DeleteCurrentAlternative
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.DeleteQuoteLine(System.String)
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.DeleteSaleQuote
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.EnsureQuoteVersionCurrent
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.GetAlternativeUserValueOverride
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.GetFavouriteAlternativeId
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.GetOrderState(System.Int32)
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.Initialize(System.Xml.XmlNode,System.String)
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.IsQuoteEditable
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.Load(System.String)
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.MoveQuoteLine(System.Int32,System.Boolean)
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.OnBeforeDataBind
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.Save
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveDeliveryTerms(System.String)
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveDeliveryType(System.String)
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SavePaymentTerms(System.String)
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SavePaymentType(System.String)
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveQuoteDeliveryAddress
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveQuoteNumber(System.String)
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveQuotePaymentAddress
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SendConfirmation(System.Int32,System.Int32)
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SendQuoteVersion(System.Int32,System.String,System.String,System.Boolean,System.String)
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetAlternativeDiscountAmount(System.Int32,System.String)
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetAlternativeDiscountPercent(System.Int32,System.String)
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetLikelyAlternative(System.Int32)
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetToDraft(System.Int32)
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.ToggleQuoteVersionAttachmentIncluded(System.Int32)
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.UpdateQuoteVersionPrices(System.Int32)
+  - SuperOffice.CRM.Web.Data.EditQuoteDataHandler.ValidateVersion(System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: EditQuoteDataHandler
+  nameWithType: EditQuoteDataHandler
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: 'public class EditQuoteDataHandler : DataHandlerBase, IDataHandler, IWebObject, IPlugin'
+    content.vb: >-
+      Public Class EditQuoteDataHandler
+          Inherits DataHandlerBase
+          Implements IDataHandler, IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  - SuperOffice.DCF.Web.Data.DataHandlerBase
+  implements:
+  - SuperOffice.Data.IDataHandler
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.isPreLoadMode
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._dataCarriers
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._mandatoryDataCarriers
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._primaryCurrent
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._currentHistoryItem
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._config
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._id
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._hasLoaded
+  - SuperOffice.DCF.Web.Data.DataHandlerBase._isNew
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String,System.String)
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String)
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.New
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.New(System.String)
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData(System.String@)
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriersToExpose
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.ExposeToClient
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.Id
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.HasLoaded
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.IsNew
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriers
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.PrimaryCurrent
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.CurrentHistoryItem
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.EventArgument
+  - SuperOffice.DCF.Web.Data.DataHandlerBase.EventTarget
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.#ctor
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: EditQuoteDataHandler()
+  nameWithType: EditQuoteDataHandler.EditQuoteDataHandler()
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.EditQuoteDataHandler()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public EditQuoteDataHandler()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.Initialize(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.Initialize(System.Xml.XmlNode,System.String)
+  id: Initialize(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: Initialize(XmlNode, String)
+  nameWithType: EditQuoteDataHandler.Initialize(XmlNode, String)
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.Initialize(System.Xml.XmlNode, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public override void Initialize(XmlNode config, string id)
+    parameters:
+    - id: config
+      type: System.Xml.XmlNode
+    - id: id
+      type: System.String
+    content.vb: Public Overrides Sub Initialize(config As XmlNode, id As String)
+  overridden: SuperOffice.DCF.Web.Data.DataHandlerBase.Initialize(System.Xml.XmlNode,System.String)
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.Initialize*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.Load(System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.Load(System.String)
+  id: Load(System.String)
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: Load(String)
+  nameWithType: EditQuoteDataHandler.Load(String)
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.Load(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public override void Load(string carrierId)
+    parameters:
+    - id: carrierId
+      type: System.String
+    content.vb: Public Overrides Sub Load(carrierId As String)
+  overridden: SuperOffice.DCF.Web.Data.DataHandlerBase.Load(System.String)
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.Load*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.Save
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.Save
+  id: Save
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: Save()
+  nameWithType: EditQuoteDataHandler.Save()
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.Save()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public override object Save()
+    return:
+      type: System.Object
+    content.vb: Public Overrides Function Save As Object
+  overridden: SuperOffice.DCF.Web.Data.DataHandlerBase.Save
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.Save*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveQuoteNumber(System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveQuoteNumber(System.String)
+  id: SaveQuoteNumber(System.String)
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: SaveQuoteNumber(String)
+  nameWithType: EditQuoteDataHandler.SaveQuoteNumber(String)
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveQuoteNumber(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static bool SaveQuoteNumber(string quoteNumber)
+    parameters:
+    - id: quoteNumber
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function SaveQuoteNumber(quoteNumber As String) As Boolean
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveQuoteNumber*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SavePaymentTerms(System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SavePaymentTerms(System.String)
+  id: SavePaymentTerms(System.String)
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: SavePaymentTerms(String)
+  nameWithType: EditQuoteDataHandler.SavePaymentTerms(String)
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SavePaymentTerms(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static void SavePaymentTerms(string paymentTerms)
+    parameters:
+    - id: paymentTerms
+      type: System.String
+    content.vb: Public Shared Sub SavePaymentTerms(paymentTerms As String)
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SavePaymentTerms*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SavePaymentType(System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SavePaymentType(System.String)
+  id: SavePaymentType(System.String)
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: SavePaymentType(String)
+  nameWithType: EditQuoteDataHandler.SavePaymentType(String)
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SavePaymentType(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static void SavePaymentType(string paymentType)
+    parameters:
+    - id: paymentType
+      type: System.String
+    content.vb: Public Shared Sub SavePaymentType(paymentType As String)
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SavePaymentType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveDeliveryTerms(System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveDeliveryTerms(System.String)
+  id: SaveDeliveryTerms(System.String)
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: SaveDeliveryTerms(String)
+  nameWithType: EditQuoteDataHandler.SaveDeliveryTerms(String)
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveDeliveryTerms(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static void SaveDeliveryTerms(string DeliveryTerms)
+    parameters:
+    - id: DeliveryTerms
+      type: System.String
+    content.vb: Public Shared Sub SaveDeliveryTerms(DeliveryTerms As String)
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveDeliveryTerms*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveDeliveryType(System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveDeliveryType(System.String)
+  id: SaveDeliveryType(System.String)
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: SaveDeliveryType(String)
+  nameWithType: EditQuoteDataHandler.SaveDeliveryType(String)
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveDeliveryType(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static void SaveDeliveryType(string DeliveryType)
+    parameters:
+    - id: DeliveryType
+      type: System.String
+    content.vb: Public Shared Sub SaveDeliveryType(DeliveryType As String)
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveDeliveryType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.AddAlternative(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.AddAlternative(System.String,System.Int32)
+  id: AddAlternative(System.String,System.Int32)
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: AddAlternative(String, Int32)
+  nameWithType: EditQuoteDataHandler.AddAlternative(String, Int32)
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.AddAlternative(System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static int AddAlternative(string newAlternativeName, int copyAlternativeId)
+    parameters:
+    - id: newAlternativeName
+      type: System.String
+    - id: copyAlternativeId
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function AddAlternative(newAlternativeName As String, copyAlternativeId As Integer) As Integer
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.AddAlternative*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.ChangeQuoteDocument(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.ChangeQuoteDocument(System.Int32)
+  id: ChangeQuoteDocument(System.Int32)
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: ChangeQuoteDocument(Int32)
+  nameWithType: EditQuoteDataHandler.ChangeQuoteDocument(Int32)
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.ChangeQuoteDocument(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static bool ChangeQuoteDocument(int docId)
+    parameters:
+    - id: docId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ChangeQuoteDocument(docId As Integer) As Boolean
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.ChangeQuoteDocument*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.EnsureQuoteVersionCurrent
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.EnsureQuoteVersionCurrent
+  id: EnsureQuoteVersionCurrent
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: EnsureQuoteVersionCurrent()
+  nameWithType: EditQuoteDataHandler.EnsureQuoteVersionCurrent()
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.EnsureQuoteVersionCurrent()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static void EnsureQuoteVersionCurrent()
+    content.vb: Public Shared Sub EnsureQuoteVersionCurrent
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.EnsureQuoteVersionCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.ToggleQuoteVersionAttachmentIncluded(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.ToggleQuoteVersionAttachmentIncluded(System.Int32)
+  id: ToggleQuoteVersionAttachmentIncluded(System.Int32)
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: ToggleQuoteVersionAttachmentIncluded(Int32)
+  nameWithType: EditQuoteDataHandler.ToggleQuoteVersionAttachmentIncluded(Int32)
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.ToggleQuoteVersionAttachmentIncluded(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static void ToggleQuoteVersionAttachmentIncluded(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    content.vb: Public Shared Sub ToggleQuoteVersionAttachmentIncluded(id As Integer)
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.ToggleQuoteVersionAttachmentIncluded*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.UpdateQuoteVersionPrices(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.UpdateQuoteVersionPrices(System.Int32)
+  id: UpdateQuoteVersionPrices(System.Int32)
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: UpdateQuoteVersionPrices(Int32)
+  nameWithType: EditQuoteDataHandler.UpdateQuoteVersionPrices(Int32)
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.UpdateQuoteVersionPrices(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static QuoteVersionStatusInformation UpdateQuoteVersionPrices(int quoteVersionId)
+    parameters:
+    - id: quoteVersionId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Services.QuoteVersionStatusInformation
+    content.vb: Public Shared Function UpdateQuoteVersionPrices(quoteVersionId As Integer) As QuoteVersionStatusInformation
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.UpdateQuoteVersionPrices*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.ValidateVersion(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.ValidateVersion(System.Int32,System.Int32)
+  id: ValidateVersion(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: ValidateVersion(Int32, Int32)
+  nameWithType: EditQuoteDataHandler.ValidateVersion(Int32, Int32)
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.ValidateVersion(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public QuoteVersionStatusInformation ValidateVersion(int quoteVersionId, int buttonAction)
+    parameters:
+    - id: quoteVersionId
+      type: System.Int32
+    - id: buttonAction
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Services.QuoteVersionStatusInformation
+    content.vb: Public Function ValidateVersion(quoteVersionId As Integer, buttonAction As Integer) As QuoteVersionStatusInformation
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.ValidateVersion*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SendQuoteVersion(System.Int32,System.String,System.String,System.Boolean,System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SendQuoteVersion(System.Int32,System.String,System.String,System.Boolean,System.String)
+  id: SendQuoteVersion(System.Int32,System.String,System.String,System.Boolean,System.String)
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: SendQuoteVersion(Int32, String, String, Boolean, String)
+  nameWithType: EditQuoteDataHandler.SendQuoteVersion(Int32, String, String, Boolean, String)
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SendQuoteVersion(System.Int32, System.String, System.String, System.Boolean, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static bool SendQuoteVersion(int quoteVersionId, string validTo, string followupDate, bool createFollowUp, string followupText)
+    parameters:
+    - id: quoteVersionId
+      type: System.Int32
+    - id: validTo
+      type: System.String
+    - id: followupDate
+      type: System.String
+    - id: createFollowUp
+      type: System.Boolean
+    - id: followupText
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function SendQuoteVersion(quoteVersionId As Integer, validTo As String, followupDate As String, createFollowUp As Boolean, followupText As String) As Boolean
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SendQuoteVersion*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SendConfirmation(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SendConfirmation(System.Int32,System.Int32)
+  id: SendConfirmation(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: SendConfirmation(Int32, Int32)
+  nameWithType: EditQuoteDataHandler.SendConfirmation(Int32, Int32)
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SendConfirmation(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static object SendConfirmation(int quoteVersionId, int templateId)
+    parameters:
+    - id: quoteVersionId
+      type: System.Int32
+    - id: templateId
+      type: System.Int32
+    return:
+      type: System.Object
+    content.vb: Public Shared Function SendConfirmation(quoteVersionId As Integer, templateId As Integer) As Object
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SendConfirmation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.CloneVersion(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.CloneVersion(System.Int32)
+  id: CloneVersion(System.Int32)
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: CloneVersion(Int32)
+  nameWithType: EditQuoteDataHandler.CloneVersion(Int32)
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.CloneVersion(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static int CloneVersion(int quoteVersionId)
+    parameters:
+    - id: quoteVersionId
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function CloneVersion(quoteVersionId As Integer) As Integer
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.CloneVersion*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetAlternativeDiscountAmount(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetAlternativeDiscountAmount(System.Int32,System.String)
+  id: SetAlternativeDiscountAmount(System.Int32,System.String)
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: SetAlternativeDiscountAmount(Int32, String)
+  nameWithType: EditQuoteDataHandler.SetAlternativeDiscountAmount(Int32, String)
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetAlternativeDiscountAmount(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static bool SetAlternativeDiscountAmount(int id, string value)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: value
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function SetAlternativeDiscountAmount(id As Integer, value As String) As Boolean
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetAlternativeDiscountAmount*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetAlternativeDiscountPercent(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetAlternativeDiscountPercent(System.Int32,System.String)
+  id: SetAlternativeDiscountPercent(System.Int32,System.String)
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: SetAlternativeDiscountPercent(Int32, String)
+  nameWithType: EditQuoteDataHandler.SetAlternativeDiscountPercent(Int32, String)
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetAlternativeDiscountPercent(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static bool SetAlternativeDiscountPercent(int id, string value)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: value
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function SetAlternativeDiscountPercent(id As Integer, value As String) As Boolean
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetAlternativeDiscountPercent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetLikelyAlternative(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetLikelyAlternative(System.Int32)
+  id: SetLikelyAlternative(System.Int32)
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: SetLikelyAlternative(Int32)
+  nameWithType: EditQuoteDataHandler.SetLikelyAlternative(Int32)
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetLikelyAlternative(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static bool SetLikelyAlternative(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function SetLikelyAlternative(id As Integer) As Boolean
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetLikelyAlternative*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.GetOrderState(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.GetOrderState(System.Int32)
+  id: GetOrderState(System.Int32)
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: GetOrderState(Int32)
+  nameWithType: EditQuoteDataHandler.GetOrderState(Int32)
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.GetOrderState(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static ClientQuoteVersionStatus GetOrderState(int quoteVersionId)
+    parameters:
+    - id: quoteVersionId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Web.Data.ClientQuoteVersionStatus
+    content.vb: Public Shared Function GetOrderState(quoteVersionId As Integer) As ClientQuoteVersionStatus
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.GetOrderState*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetToDraft(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetToDraft(System.Int32)
+  id: SetToDraft(System.Int32)
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: SetToDraft(Int32)
+  nameWithType: EditQuoteDataHandler.SetToDraft(Int32)
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetToDraft(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static void SetToDraft(int quoteVersionId)
+    parameters:
+    - id: quoteVersionId
+      type: System.Int32
+    content.vb: Public Shared Sub SetToDraft(quoteVersionId As Integer)
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetToDraft*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.GetFavouriteAlternativeId
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.GetFavouriteAlternativeId
+  id: GetFavouriteAlternativeId
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: GetFavouriteAlternativeId()
+  nameWithType: EditQuoteDataHandler.GetFavouriteAlternativeId()
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.GetFavouriteAlternativeId()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static int GetFavouriteAlternativeId()
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetFavouriteAlternativeId As Integer
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.GetFavouriteAlternativeId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.DeleteQuoteLine(System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.DeleteQuoteLine(System.String)
+  id: DeleteQuoteLine(System.String)
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: DeleteQuoteLine(String)
+  nameWithType: EditQuoteDataHandler.DeleteQuoteLine(String)
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.DeleteQuoteLine(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static void DeleteQuoteLine(string quoteLineIdToDelete)
+    parameters:
+    - id: quoteLineIdToDelete
+      type: System.String
+    content.vb: Public Shared Sub DeleteQuoteLine(quoteLineIdToDelete As String)
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.DeleteQuoteLine*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.AddQuoteLines(System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.AddQuoteLines(System.String)
+  id: AddQuoteLines(System.String)
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: AddQuoteLines(String)
+  nameWithType: EditQuoteDataHandler.AddQuoteLines(String)
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.AddQuoteLines(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static string AddQuoteLines(string idstring)
+    parameters:
+    - id: idstring
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function AddQuoteLines(idstring As String) As String
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.AddQuoteLines*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.MoveQuoteLine(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.MoveQuoteLine(System.Int32,System.Boolean)
+  id: MoveQuoteLine(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: MoveQuoteLine(Int32, Boolean)
+  nameWithType: EditQuoteDataHandler.MoveQuoteLine(Int32, Boolean)
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.MoveQuoteLine(System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static void MoveQuoteLine(int id, bool direction)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: direction
+      type: System.Boolean
+    content.vb: Public Shared Sub MoveQuoteLine(id As Integer, direction As Boolean)
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.MoveQuoteLine*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.DeleteSaleQuote
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.DeleteSaleQuote
+  id: DeleteSaleQuote
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: DeleteSaleQuote()
+  nameWithType: EditQuoteDataHandler.DeleteSaleQuote()
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.DeleteSaleQuote()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static void DeleteSaleQuote()
+    content.vb: Public Shared Sub DeleteSaleQuote
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.DeleteSaleQuote*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.DeleteCurrentAlternative
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.DeleteCurrentAlternative
+  id: DeleteCurrentAlternative
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: DeleteCurrentAlternative()
+  nameWithType: EditQuoteDataHandler.DeleteCurrentAlternative()
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.DeleteCurrentAlternative()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static void DeleteCurrentAlternative()
+    content.vb: Public Shared Sub DeleteCurrentAlternative
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.DeleteCurrentAlternative*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.OnBeforeDataBind
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.OnBeforeDataBind
+  id: OnBeforeDataBind
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: OnBeforeDataBind()
+  nameWithType: EditQuoteDataHandler.OnBeforeDataBind()
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.OnBeforeDataBind()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public override void OnBeforeDataBind()
+    content.vb: Public Overrides Sub OnBeforeDataBind
+  overridden: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.OnBeforeDataBind*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveQuotePaymentAddress
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveQuotePaymentAddress
+  id: SaveQuotePaymentAddress
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: SaveQuotePaymentAddress()
+  nameWithType: EditQuoteDataHandler.SaveQuotePaymentAddress()
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveQuotePaymentAddress()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: >-
+      [DataHandlerClientMethod]
+
+      public void SaveQuotePaymentAddress()
+    content.vb: >-
+      <DataHandlerClientMethod>
+
+      Public Sub SaveQuotePaymentAddress
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveQuotePaymentAddress*
+  attributes:
+  - type: SuperOffice.DCF.Web.Data.DataHandlerClientMethodAttribute
+    ctor: SuperOffice.DCF.Web.Data.DataHandlerClientMethodAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveQuoteDeliveryAddress
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveQuoteDeliveryAddress
+  id: SaveQuoteDeliveryAddress
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: SaveQuoteDeliveryAddress()
+  nameWithType: EditQuoteDataHandler.SaveQuoteDeliveryAddress()
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveQuoteDeliveryAddress()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: >-
+      [DataHandlerClientMethod]
+
+      public void SaveQuoteDeliveryAddress()
+    content.vb: >-
+      <DataHandlerClientMethod>
+
+      Public Sub SaveQuoteDeliveryAddress
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveQuoteDeliveryAddress*
+  attributes:
+  - type: SuperOffice.DCF.Web.Data.DataHandlerClientMethodAttribute
+    ctor: SuperOffice.DCF.Web.Data.DataHandlerClientMethodAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.IsQuoteEditable
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.IsQuoteEditable
+  id: IsQuoteEditable
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: IsQuoteEditable()
+  nameWithType: EditQuoteDataHandler.IsQuoteEditable()
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.IsQuoteEditable()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static bool IsQuoteEditable()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsQuoteEditable As Boolean
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.IsQuoteEditable*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.GetAlternativeUserValueOverride
+  commentId: M:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.GetAlternativeUserValueOverride
+  id: GetAlternativeUserValueOverride
+  parent: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+  langs:
+  - csharp
+  - vb
+  name: GetAlternativeUserValueOverride()
+  nameWithType: EditQuoteDataHandler.GetAlternativeUserValueOverride()
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.GetAlternativeUserValueOverride()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public static string GetAlternativeUserValueOverride()
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetAlternativeUserValueOverride As String
+  overload: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.GetAlternativeUserValueOverride*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Web.Data
+  commentId: N:SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: SuperOffice.CRM.Web.Data
+  nameWithType: SuperOffice.CRM.Web.Data
+  fullName: SuperOffice.CRM.Web.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase
+  commentId: T:SuperOffice.DCF.Web.Data.DataHandlerBase
+  parent: SuperOffice.DCF.Web.Data
+  isExternal: true
+  name: DataHandlerBase
+  nameWithType: DataHandlerBase
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase
+- uid: SuperOffice.Data.IDataHandler
+  commentId: T:SuperOffice.Data.IDataHandler
+  parent: SuperOffice.Data
+  isExternal: true
+  name: IDataHandler
+  nameWithType: IDataHandler
+  fullName: SuperOffice.Data.IDataHandler
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.isPreLoadMode
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase.isPreLoadMode
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: isPreLoadMode
+  nameWithType: DataHandlerBase.isPreLoadMode
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.isPreLoadMode
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._dataCarriers
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._dataCarriers
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _dataCarriers
+  nameWithType: DataHandlerBase._dataCarriers
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._dataCarriers
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._mandatoryDataCarriers
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._mandatoryDataCarriers
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _mandatoryDataCarriers
+  nameWithType: DataHandlerBase._mandatoryDataCarriers
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._mandatoryDataCarriers
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._primaryCurrent
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._primaryCurrent
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _primaryCurrent
+  nameWithType: DataHandlerBase._primaryCurrent
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._primaryCurrent
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._currentHistoryItem
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._currentHistoryItem
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _currentHistoryItem
+  nameWithType: DataHandlerBase._currentHistoryItem
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._currentHistoryItem
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._config
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._config
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _config
+  nameWithType: DataHandlerBase._config
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._config
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._id
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._id
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _id
+  nameWithType: DataHandlerBase._id
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._id
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._hasLoaded
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._hasLoaded
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _hasLoaded
+  nameWithType: DataHandlerBase._hasLoaded
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._hasLoaded
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase._isNew
+  commentId: F:SuperOffice.DCF.Web.Data.DataHandlerBase._isNew
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: _isNew
+  nameWithType: DataHandlerBase._isNew
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase._isNew
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String,System.String)
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: GetRawDataValue(String, String)
+  nameWithType: DataHandlerBase.GetRawDataValue(String, String)
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String,System.String)
+    name: GetRawDataValue
+    nameWithType: DataHandlerBase.GetRawDataValue
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String,System.String)
+    name: GetRawDataValue
+    nameWithType: DataHandlerBase.GetRawDataValue
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String)
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String)
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: GetRawDataValue(String)
+  nameWithType: DataHandlerBase.GetRawDataValue(String)
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String)
+    name: GetRawDataValue
+    nameWithType: DataHandlerBase.GetRawDataValue
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue(System.String)
+    name: GetRawDataValue
+    nameWithType: DataHandlerBase.GetRawDataValue
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.GetRawDataValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: Clear()
+  nameWithType: DataHandlerBase.Clear()
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Clear()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+    name: Clear
+    nameWithType: DataHandlerBase.Clear
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+    name: Clear
+    nameWithType: DataHandlerBase.Clear
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Clear
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.New
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: New()
+  nameWithType: DataHandlerBase.New()
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.New()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+    name: New
+    nameWithType: DataHandlerBase.New
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+    name: New
+    nameWithType: DataHandlerBase.New
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.New(System.String)
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.New(System.String)
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: New(String)
+  nameWithType: DataHandlerBase.New(String)
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.New(System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.New(System.String)
+    name: New
+    nameWithType: DataHandlerBase.New
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.New(System.String)
+    name: New
+    nameWithType: DataHandlerBase.New
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.New
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: Delete()
+  nameWithType: DataHandlerBase.Delete()
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Delete()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+    name: Delete
+    nameWithType: DataHandlerBase.Delete
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+    name: Delete
+    nameWithType: DataHandlerBase.Delete
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Delete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: OnBeforeValidate()
+  nameWithType: DataHandlerBase.OnBeforeValidate()
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+    name: OnBeforeValidate
+    nameWithType: DataHandlerBase.OnBeforeValidate
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+    name: OnBeforeValidate
+    nameWithType: DataHandlerBase.OnBeforeValidate
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeValidate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData(System.String@)
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData(System.String@)
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: CheckMandatoryData(String)
+  nameWithType: DataHandlerBase.CheckMandatoryData(String)
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData(System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData(System.String@)
+    name: CheckMandatoryData
+    nameWithType: DataHandlerBase.CheckMandatoryData
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData(System.String@)
+    name: CheckMandatoryData
+    nameWithType: DataHandlerBase.CheckMandatoryData
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.CheckMandatoryData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriersToExpose
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriersToExpose
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: DataCarriersToExpose
+  nameWithType: DataHandlerBase.DataCarriersToExpose
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriersToExpose
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.ExposeToClient
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.ExposeToClient
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: ExposeToClient
+  nameWithType: DataHandlerBase.ExposeToClient
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.ExposeToClient
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Id
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.Id
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: Id
+  nameWithType: DataHandlerBase.Id
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Id
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.HasLoaded
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.HasLoaded
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: HasLoaded
+  nameWithType: DataHandlerBase.HasLoaded
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.HasLoaded
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.IsNew
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.IsNew
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: IsNew
+  nameWithType: DataHandlerBase.IsNew
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.IsNew
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriers
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriers
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: DataCarriers
+  nameWithType: DataHandlerBase.DataCarriers
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.DataCarriers
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.PrimaryCurrent
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.PrimaryCurrent
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: PrimaryCurrent
+  nameWithType: DataHandlerBase.PrimaryCurrent
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.PrimaryCurrent
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.CurrentHistoryItem
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.CurrentHistoryItem
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: CurrentHistoryItem
+  nameWithType: DataHandlerBase.CurrentHistoryItem
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.CurrentHistoryItem
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.EventArgument
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.EventArgument
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: EventArgument
+  nameWithType: DataHandlerBase.EventArgument
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.EventArgument
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.EventTarget
+  commentId: P:SuperOffice.DCF.Web.Data.DataHandlerBase.EventTarget
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: EventTarget
+  nameWithType: DataHandlerBase.EventTarget
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.EventTarget
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Data
+  commentId: N:SuperOffice.DCF.Web.Data
+  isExternal: true
+  name: SuperOffice.DCF.Web.Data
+  nameWithType: SuperOffice.DCF.Web.Data
+  fullName: SuperOffice.DCF.Web.Data
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.#ctor
+  isExternal: true
+  name: EditQuoteDataHandler
+  nameWithType: EditQuoteDataHandler.EditQuoteDataHandler
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.EditQuoteDataHandler
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Initialize(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.Initialize(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: Initialize(XmlNode, String)
+  nameWithType: DataHandlerBase.Initialize(XmlNode, String)
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Initialize(System.Xml.XmlNode, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Initialize(System.Xml.XmlNode,System.String)
+    name: Initialize
+    nameWithType: DataHandlerBase.Initialize
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Initialize(System.Xml.XmlNode,System.String)
+    name: Initialize
+    nameWithType: DataHandlerBase.Initialize
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.Initialize*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.Initialize
+  isExternal: true
+  name: Initialize
+  nameWithType: EditQuoteDataHandler.Initialize
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.Initialize
+- uid: System.Xml.XmlNode
+  isExternal: true
+  name: XmlNode
+  nameWithType: XmlNode
+  fullName: System.Xml.XmlNode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Load(System.String)
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.Load(System.String)
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: Load(String)
+  nameWithType: DataHandlerBase.Load(String)
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Load(System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Load(System.String)
+    name: Load
+    nameWithType: DataHandlerBase.Load
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Load
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Load(System.String)
+    name: Load
+    nameWithType: DataHandlerBase.Load
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Load
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.Load*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.Load
+  isExternal: true
+  name: Load
+  nameWithType: EditQuoteDataHandler.Load
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.Load
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Save
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.Save
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: Save()
+  nameWithType: DataHandlerBase.Save()
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Save()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Save
+    name: Save
+    nameWithType: DataHandlerBase.Save
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Save
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.Save
+    name: Save
+    nameWithType: DataHandlerBase.Save
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.Save
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.Save*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.Save
+  isExternal: true
+  name: Save
+  nameWithType: EditQuoteDataHandler.Save
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.Save
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveQuoteNumber*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveQuoteNumber
+  isExternal: true
+  name: SaveQuoteNumber
+  nameWithType: EditQuoteDataHandler.SaveQuoteNumber
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveQuoteNumber
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SavePaymentTerms*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SavePaymentTerms
+  isExternal: true
+  name: SavePaymentTerms
+  nameWithType: EditQuoteDataHandler.SavePaymentTerms
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SavePaymentTerms
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SavePaymentType*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SavePaymentType
+  isExternal: true
+  name: SavePaymentType
+  nameWithType: EditQuoteDataHandler.SavePaymentType
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SavePaymentType
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveDeliveryTerms*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveDeliveryTerms
+  isExternal: true
+  name: SaveDeliveryTerms
+  nameWithType: EditQuoteDataHandler.SaveDeliveryTerms
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveDeliveryTerms
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveDeliveryType*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveDeliveryType
+  isExternal: true
+  name: SaveDeliveryType
+  nameWithType: EditQuoteDataHandler.SaveDeliveryType
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveDeliveryType
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.AddAlternative*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.AddAlternative
+  isExternal: true
+  name: AddAlternative
+  nameWithType: EditQuoteDataHandler.AddAlternative
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.AddAlternative
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.ChangeQuoteDocument*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.ChangeQuoteDocument
+  isExternal: true
+  name: ChangeQuoteDocument
+  nameWithType: EditQuoteDataHandler.ChangeQuoteDocument
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.ChangeQuoteDocument
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.EnsureQuoteVersionCurrent*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.EnsureQuoteVersionCurrent
+  isExternal: true
+  name: EnsureQuoteVersionCurrent
+  nameWithType: EditQuoteDataHandler.EnsureQuoteVersionCurrent
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.EnsureQuoteVersionCurrent
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.ToggleQuoteVersionAttachmentIncluded*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.ToggleQuoteVersionAttachmentIncluded
+  isExternal: true
+  name: ToggleQuoteVersionAttachmentIncluded
+  nameWithType: EditQuoteDataHandler.ToggleQuoteVersionAttachmentIncluded
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.ToggleQuoteVersionAttachmentIncluded
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.UpdateQuoteVersionPrices*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.UpdateQuoteVersionPrices
+  isExternal: true
+  name: UpdateQuoteVersionPrices
+  nameWithType: EditQuoteDataHandler.UpdateQuoteVersionPrices
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.UpdateQuoteVersionPrices
+- uid: SuperOffice.CRM.Services.QuoteVersionStatusInformation
+  isExternal: true
+  name: QuoteVersionStatusInformation
+  nameWithType: QuoteVersionStatusInformation
+  fullName: SuperOffice.CRM.Services.QuoteVersionStatusInformation
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.ValidateVersion*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.ValidateVersion
+  isExternal: true
+  name: ValidateVersion
+  nameWithType: EditQuoteDataHandler.ValidateVersion
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.ValidateVersion
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SendQuoteVersion*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SendQuoteVersion
+  isExternal: true
+  name: SendQuoteVersion
+  nameWithType: EditQuoteDataHandler.SendQuoteVersion
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SendQuoteVersion
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SendConfirmation*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SendConfirmation
+  isExternal: true
+  name: SendConfirmation
+  nameWithType: EditQuoteDataHandler.SendConfirmation
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SendConfirmation
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.CloneVersion*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.CloneVersion
+  isExternal: true
+  name: CloneVersion
+  nameWithType: EditQuoteDataHandler.CloneVersion
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.CloneVersion
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetAlternativeDiscountAmount*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetAlternativeDiscountAmount
+  isExternal: true
+  name: SetAlternativeDiscountAmount
+  nameWithType: EditQuoteDataHandler.SetAlternativeDiscountAmount
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetAlternativeDiscountAmount
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetAlternativeDiscountPercent*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetAlternativeDiscountPercent
+  isExternal: true
+  name: SetAlternativeDiscountPercent
+  nameWithType: EditQuoteDataHandler.SetAlternativeDiscountPercent
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetAlternativeDiscountPercent
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetLikelyAlternative*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetLikelyAlternative
+  isExternal: true
+  name: SetLikelyAlternative
+  nameWithType: EditQuoteDataHandler.SetLikelyAlternative
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetLikelyAlternative
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.GetOrderState*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.GetOrderState
+  isExternal: true
+  name: GetOrderState
+  nameWithType: EditQuoteDataHandler.GetOrderState
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.GetOrderState
+- uid: SuperOffice.CRM.Web.Data.ClientQuoteVersionStatus
+  commentId: T:SuperOffice.CRM.Web.Data.ClientQuoteVersionStatus
+  parent: SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: ClientQuoteVersionStatus
+  nameWithType: ClientQuoteVersionStatus
+  fullName: SuperOffice.CRM.Web.Data.ClientQuoteVersionStatus
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetToDraft*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetToDraft
+  isExternal: true
+  name: SetToDraft
+  nameWithType: EditQuoteDataHandler.SetToDraft
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SetToDraft
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.GetFavouriteAlternativeId*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.GetFavouriteAlternativeId
+  isExternal: true
+  name: GetFavouriteAlternativeId
+  nameWithType: EditQuoteDataHandler.GetFavouriteAlternativeId
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.GetFavouriteAlternativeId
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.DeleteQuoteLine*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.DeleteQuoteLine
+  isExternal: true
+  name: DeleteQuoteLine
+  nameWithType: EditQuoteDataHandler.DeleteQuoteLine
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.DeleteQuoteLine
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.AddQuoteLines*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.AddQuoteLines
+  isExternal: true
+  name: AddQuoteLines
+  nameWithType: EditQuoteDataHandler.AddQuoteLines
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.AddQuoteLines
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.MoveQuoteLine*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.MoveQuoteLine
+  isExternal: true
+  name: MoveQuoteLine
+  nameWithType: EditQuoteDataHandler.MoveQuoteLine
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.MoveQuoteLine
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.DeleteSaleQuote*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.DeleteSaleQuote
+  isExternal: true
+  name: DeleteSaleQuote
+  nameWithType: EditQuoteDataHandler.DeleteSaleQuote
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.DeleteSaleQuote
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.DeleteCurrentAlternative*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.DeleteCurrentAlternative
+  isExternal: true
+  name: DeleteCurrentAlternative
+  nameWithType: EditQuoteDataHandler.DeleteCurrentAlternative
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.DeleteCurrentAlternative
+- uid: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+  commentId: M:SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+  parent: SuperOffice.DCF.Web.Data.DataHandlerBase
+  isExternal: true
+  name: OnBeforeDataBind()
+  nameWithType: DataHandlerBase.OnBeforeDataBind()
+  fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+    name: OnBeforeDataBind
+    nameWithType: DataHandlerBase.OnBeforeDataBind
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+    name: OnBeforeDataBind
+    nameWithType: DataHandlerBase.OnBeforeDataBind
+    fullName: SuperOffice.DCF.Web.Data.DataHandlerBase.OnBeforeDataBind
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.OnBeforeDataBind*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.OnBeforeDataBind
+  isExternal: true
+  name: OnBeforeDataBind
+  nameWithType: EditQuoteDataHandler.OnBeforeDataBind
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.OnBeforeDataBind
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveQuotePaymentAddress*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveQuotePaymentAddress
+  isExternal: true
+  name: SaveQuotePaymentAddress
+  nameWithType: EditQuoteDataHandler.SaveQuotePaymentAddress
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveQuotePaymentAddress
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveQuoteDeliveryAddress*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveQuoteDeliveryAddress
+  isExternal: true
+  name: SaveQuoteDeliveryAddress
+  nameWithType: EditQuoteDataHandler.SaveQuoteDeliveryAddress
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.SaveQuoteDeliveryAddress
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.IsQuoteEditable*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.IsQuoteEditable
+  isExternal: true
+  name: IsQuoteEditable
+  nameWithType: EditQuoteDataHandler.IsQuoteEditable
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.IsQuoteEditable
+- uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.GetAlternativeUserValueOverride*
+  commentId: Overload:SuperOffice.CRM.Web.Data.EditQuoteDataHandler.GetAlternativeUserValueOverride
+  isExternal: true
+  name: GetAlternativeUserValueOverride
+  nameWithType: EditQuoteDataHandler.GetAlternativeUserValueOverride
+  fullName: SuperOffice.CRM.Web.Data.EditQuoteDataHandler.GetAlternativeUserValueOverride

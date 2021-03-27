@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Drawing.ScaleStrategy
+  commentId: T:SuperOffice.DCF.Drawing.ScaleStrategy
+  id: ScaleStrategy
+  parent: SuperOffice.DCF.Drawing
+  children:
+  - SuperOffice.DCF.Drawing.ScaleStrategy.NoScaling
+  - SuperOffice.DCF.Drawing.ScaleStrategy.ScaleToLargest
+  - SuperOffice.DCF.Drawing.ScaleStrategy.ScaleToSmallest
+  - SuperOffice.DCF.Drawing.ScaleStrategy.Stretch
+  - SuperOffice.DCF.Drawing.ScaleStrategy.Trim
+  langs:
+  - csharp
+  - vb
+  name: ScaleStrategy
+  nameWithType: ScaleStrategy
+  fullName: SuperOffice.DCF.Drawing.ScaleStrategy
+  type: Enum
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nStrategy for scaling the image.\n"
+  syntax:
+    content: public enum ScaleStrategy
+    content.vb: Public Enum ScaleStrategy
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.DCF.Drawing.ScaleStrategy.NoScaling
+  commentId: F:SuperOffice.DCF.Drawing.ScaleStrategy.NoScaling
+  id: NoScaling
+  parent: SuperOffice.DCF.Drawing.ScaleStrategy
+  langs:
+  - csharp
+  - vb
+  name: NoScaling
+  nameWithType: ScaleStrategy.NoScaling
+  fullName: SuperOffice.DCF.Drawing.ScaleStrategy.NoScaling
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nDont perform any scaling at all.\n"
+  syntax:
+    content: NoScaling = 0
+    return:
+      type: SuperOffice.DCF.Drawing.ScaleStrategy
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Drawing.ScaleStrategy.Trim
+  commentId: F:SuperOffice.DCF.Drawing.ScaleStrategy.Trim
+  id: Trim
+  parent: SuperOffice.DCF.Drawing.ScaleStrategy
+  langs:
+  - csharp
+  - vb
+  name: Trim
+  nameWithType: ScaleStrategy.Trim
+  fullName: SuperOffice.DCF.Drawing.ScaleStrategy.Trim
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nUse the original size of the image, areas outside of the requested \nbounds are clipped.  Areas inside the requested bounds are filled.\n"
+  syntax:
+    content: Trim = 1
+    return:
+      type: SuperOffice.DCF.Drawing.ScaleStrategy
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Drawing.ScaleStrategy.ScaleToSmallest
+  commentId: F:SuperOffice.DCF.Drawing.ScaleStrategy.ScaleToSmallest
+  id: ScaleToSmallest
+  parent: SuperOffice.DCF.Drawing.ScaleStrategy
+  langs:
+  - csharp
+  - vb
+  name: ScaleToSmallest
+  nameWithType: ScaleStrategy.ScaleToSmallest
+  fullName: SuperOffice.DCF.Drawing.ScaleStrategy.ScaleToSmallest
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nThe image is scaled so the entire image fits within the requested bounds.  \nAreas within the requested bounds not ocupied by the image is filled.\n"
+  syntax:
+    content: ScaleToSmallest = 2
+    return:
+      type: SuperOffice.DCF.Drawing.ScaleStrategy
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Drawing.ScaleStrategy.ScaleToLargest
+  commentId: F:SuperOffice.DCF.Drawing.ScaleStrategy.ScaleToLargest
+  id: ScaleToLargest
+  parent: SuperOffice.DCF.Drawing.ScaleStrategy
+  langs:
+  - csharp
+  - vb
+  name: ScaleToLargest
+  nameWithType: ScaleStrategy.ScaleToLargest
+  fullName: SuperOffice.DCF.Drawing.ScaleStrategy.ScaleToLargest
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nScale the image so the entire area of the requested \nbounds are filled.  Exceeding areas are clipped\n"
+  syntax:
+    content: ScaleToLargest = 3
+    return:
+      type: SuperOffice.DCF.Drawing.ScaleStrategy
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Drawing.ScaleStrategy.Stretch
+  commentId: F:SuperOffice.DCF.Drawing.ScaleStrategy.Stretch
+  id: Stretch
+  parent: SuperOffice.DCF.Drawing.ScaleStrategy
+  langs:
+  - csharp
+  - vb
+  name: Stretch
+  nameWithType: ScaleStrategy.Stretch
+  fullName: SuperOffice.DCF.Drawing.ScaleStrategy.Stretch
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.DCF.Drawing
+  summary: "\nThe image is scaled to fit and aspect ratio is not maintained.\n"
+  syntax:
+    content: Stretch = 4
+    return:
+      type: SuperOffice.DCF.Drawing.ScaleStrategy
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.DCF.Drawing
+  commentId: N:SuperOffice.DCF.Drawing
+  isExternal: true
+  name: SuperOffice.DCF.Drawing
+  nameWithType: SuperOffice.DCF.Drawing
+  fullName: SuperOffice.DCF.Drawing
+- uid: SuperOffice.DCF.Drawing.ScaleStrategy
+  commentId: T:SuperOffice.DCF.Drawing.ScaleStrategy
+  parent: SuperOffice.DCF.Drawing
+  isExternal: true
+  name: ScaleStrategy
+  nameWithType: ScaleStrategy
+  fullName: SuperOffice.DCF.Drawing.ScaleStrategy

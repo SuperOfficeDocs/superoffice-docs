@@ -1,0 +1,2055 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo
+  commentId: T:SuperOffice.CRM.Data.ScreenDefinitionTableInfo
+  id: ScreenDefinitionTableInfo
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Autosave
+  - SuperOffice.CRM.Data.ScreenDefinitionTableInfo.CreationScript
+  - SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Definition
+  - SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Description
+  - SuperOffice.CRM.Data.ScreenDefinitionTableInfo.DictionaryTableName
+  - SuperOffice.CRM.Data.ScreenDefinitionTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.ScreenDefinitionTableInfo.HierarchyId
+  - SuperOffice.CRM.Data.ScreenDefinitionTableInfo.HierarchyId_InnerJoin_Hierarchy
+  - SuperOffice.CRM.Data.ScreenDefinitionTableInfo.IdString
+  - SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LayoutModel
+  - SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionAction_ScreenDefinition
+  - SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionElement_ScreenDefinition
+  - SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionHidden_ScreenDefinition
+  - SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionLanguage_ScreenDefinition
+  - SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LoadFinalScriptBody
+  - SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LoadPostCgiScriptBody
+  - SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LoadScriptBody
+  - SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Name
+  - SuperOffice.CRM.Data.ScreenDefinitionTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.ScreenDefinitionTableInfo.ScreenDefinitionId
+  - SuperOffice.CRM.Data.ScreenDefinitionTableInfo.ScreenKey
+  - SuperOffice.CRM.Data.ScreenDefinitionTableInfo.WarnOnNavigate
+  langs:
+  - csharp
+  - vb
+  name: ScreenDefinitionTableInfo
+  nameWithType: ScreenDefinitionTableInfo
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable &apos;screen_definition&apos;: A configurable screen\n"
+  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetScreenDefinitionInfo()\"></see>.\n"
+  syntax:
+    content: >-
+      [DatabaseTable("screen_definition")]
+
+      public class ScreenDefinitionTableInfo : TableInfo, ICloneable
+    content.vb: >-
+      <DatabaseTable("screen_definition")>
+
+      Public Class ScreenDefinitionTableInfo
+          Inherits TableInfo
+          Implements ICloneable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.SQL.TableInfo
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - SuperOffice.Data.SQL.TableInfo.ToString
+  - SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  - SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  - SuperOffice.Data.SQL.TableInfo.Clone
+  - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  - SuperOffice.Data.SQL.TableInfo.ProtAll
+  - SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  - SuperOffice.Data.SQL.TableInfo.TableName
+  - SuperOffice.Data.SQL.TableInfo.DbName
+  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  - SuperOffice.Data.SQL.TableInfo.All
+  - SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Data.ScreenDefinitionTableInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Data.ScreenDefinitionTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.SQL.DatabaseTableAttribute
+    ctor: SuperOffice.Data.SQL.DatabaseTableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: screen_definition
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.DictionaryTableName
+  commentId: F:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.DictionaryTableName
+  id: DictionaryTableName
+  parent: SuperOffice.CRM.Data.ScreenDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableName
+  nameWithType: ScreenDefinitionTableInfo.DictionaryTableName
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.DictionaryTableName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConceptual name of table ScreenDefinition in the database dictionary: screen_definition\n"
+  syntax:
+    content: public const string DictionaryTableName = "screen_definition"
+    return:
+      type: System.String
+    content.vb: Public Const DictionaryTableName As String = "screen_definition"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.DictionaryTableNumber
+  commentId: P:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.DictionaryTableNumber
+  id: DictionaryTableNumber
+  parent: SuperOffice.CRM.Data.ScreenDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableNumber
+  nameWithType: ScreenDefinitionTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.DictionaryTableNumber
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable number for table ScreenDefinition in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
+  syntax:
+    content: public int DictionaryTableNumber { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
+  overload: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.DictionaryTableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.RuntimeDefinition
+  commentId: P:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.RuntimeDefinition
+  id: RuntimeDefinition
+  parent: SuperOffice.CRM.Data.ScreenDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RuntimeDefinition
+  nameWithType: ScreenDefinitionTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.RuntimeDefinition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: >-
+      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
+
+      public static SoTable RuntimeDefinition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: >-
+      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
+
+      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+  overload: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.RuntimeDefinition*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use instance property Definition or static member DictionaryTableNumber
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Definition
+  commentId: P:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Definition
+  id: Definition
+  parent: SuperOffice.CRM.Data.ScreenDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: ScreenDefinitionTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Definition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: public override SoTable Definition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: Public Overrides ReadOnly Property Definition As SoTable
+  overridden: SuperOffice.Data.SQL.TableInfo.Definition
+  overload: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Definition*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.ScreenDefinitionId
+  commentId: P:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.ScreenDefinitionId
+  id: ScreenDefinitionId
+  parent: SuperOffice.CRM.Data.ScreenDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ScreenDefinitionId
+  nameWithType: ScreenDefinitionTableInfo.ScreenDefinitionId
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.ScreenDefinitionId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;id&apos; in table &apos;screen_definition&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrimary key\n"
+  syntax:
+    content: public Int32FieldInfo ScreenDefinitionId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property ScreenDefinitionId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.ScreenDefinitionId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Name
+  commentId: P:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.ScreenDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ScreenDefinitionTableInfo.Name
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Name
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;name&apos; in table &apos;screen_definition&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nA field for entering the name of this entry\n"
+  syntax:
+    content: public StringFieldInfo Name { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Name As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.IdString
+  commentId: P:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.IdString
+  id: IdString
+  parent: SuperOffice.CRM.Data.ScreenDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IdString
+  nameWithType: ScreenDefinitionTableInfo.IdString
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.IdString
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;id_string&apos; in table &apos;screen_definition&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nA field for an id_string which may be used to access the screen\n"
+  syntax:
+    content: public StringFieldInfo IdString { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property IdString As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.IdString*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.HierarchyId
+  commentId: P:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.HierarchyId
+  id: HierarchyId
+  parent: SuperOffice.CRM.Data.ScreenDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: HierarchyId
+  nameWithType: ScreenDefinitionTableInfo.HierarchyId
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.HierarchyId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;hierarchy_id&apos; in table &apos;screen_definition&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe screen definition is inside this hierarchy folder\n"
+  syntax:
+    content: public Int32FieldInfo HierarchyId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property HierarchyId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.HierarchyId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.ScreenKey
+  commentId: P:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.ScreenKey
+  id: ScreenKey
+  parent: SuperOffice.CRM.Data.ScreenDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ScreenKey
+  nameWithType: ScreenDefinitionTableInfo.ScreenKey
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.ScreenKey
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;screen_key&apos; in table &apos;screen_definition&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThis field holds the authentication key if used\n"
+  syntax:
+    content: public StringFieldInfo ScreenKey { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property ScreenKey As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.ScreenKey*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LayoutModel
+  commentId: P:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LayoutModel
+  id: LayoutModel
+  parent: SuperOffice.CRM.Data.ScreenDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LayoutModel
+  nameWithType: ScreenDefinitionTableInfo.LayoutModel
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LayoutModel
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;layout_model&apos; in table &apos;screen_definition&apos;: Dictionary type Enum, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nAn enum for which layout model this screen is using.\n"
+  syntax:
+    content: public UInt16FieldInfo LayoutModel { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property LayoutModel As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LayoutModel*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LoadScriptBody
+  commentId: P:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LoadScriptBody
+  id: LoadScriptBody
+  parent: SuperOffice.CRM.Data.ScreenDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LoadScriptBody
+  nameWithType: ScreenDefinitionTableInfo.LoadScriptBody
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LoadScriptBody
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;load_script_body&apos; in table &apos;screen_definition&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe ejscript to execute the first time this screen is loaded, e.g. for form loading\n"
+  syntax:
+    content: public StringFieldInfo LoadScriptBody { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property LoadScriptBody As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LoadScriptBody*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LoadPostCgiScriptBody
+  commentId: P:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LoadPostCgiScriptBody
+  id: LoadPostCgiScriptBody
+  parent: SuperOffice.CRM.Data.ScreenDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LoadPostCgiScriptBody
+  nameWithType: ScreenDefinitionTableInfo.LoadPostCgiScriptBody
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LoadPostCgiScriptBody
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;load_post_cgi_script_body&apos; in table &apos;screen_definition&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe ejscript to execute after setFromCgi, e.g. when the page is submitted\n"
+  syntax:
+    content: public StringFieldInfo LoadPostCgiScriptBody { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property LoadPostCgiScriptBody As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LoadPostCgiScriptBody*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LoadFinalScriptBody
+  commentId: P:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LoadFinalScriptBody
+  id: LoadFinalScriptBody
+  parent: SuperOffice.CRM.Data.ScreenDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LoadFinalScriptBody
+  nameWithType: ScreenDefinitionTableInfo.LoadFinalScriptBody
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LoadFinalScriptBody
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;load_final_script_body&apos; in table &apos;screen_definition&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe ejscript to execute just before the page is printed, after button/action scripts have been run\n"
+  syntax:
+    content: public StringFieldInfo LoadFinalScriptBody { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property LoadFinalScriptBody As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LoadFinalScriptBody*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.CreationScript
+  commentId: P:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.CreationScript
+  id: CreationScript
+  parent: SuperOffice.CRM.Data.ScreenDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CreationScript
+  nameWithType: ScreenDefinitionTableInfo.CreationScript
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.CreationScript
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;creation_script&apos; in table &apos;screen_definition&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe script used at the top of all other creation scripts on this page\n"
+  syntax:
+    content: public StringFieldInfo CreationScript { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property CreationScript As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.CreationScript*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.WarnOnNavigate
+  commentId: P:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.WarnOnNavigate
+  id: WarnOnNavigate
+  parent: SuperOffice.CRM.Data.ScreenDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: WarnOnNavigate
+  nameWithType: ScreenDefinitionTableInfo.WarnOnNavigate
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.WarnOnNavigate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;warn_on_navigate&apos; in table &apos;screen_definition&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDecides if user will get a warning if he accidentally navigates away from unsaved changes for this screen\n"
+  syntax:
+    content: public UInt16FieldInfo WarnOnNavigate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property WarnOnNavigate As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.WarnOnNavigate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Description
+  commentId: P:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.ScreenDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: ScreenDefinitionTableInfo.Description
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Description
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;description&apos; in table &apos;screen_definition&apos;: Dictionary type String[2048], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOptional description of what this screen is used for\n"
+  syntax:
+    content: public StringFieldInfo Description { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Description As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Description*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Autosave
+  commentId: P:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Autosave
+  id: Autosave
+  parent: SuperOffice.CRM.Data.ScreenDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Autosave
+  nameWithType: ScreenDefinitionTableInfo.Autosave
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Autosave
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;autosave&apos; in table &apos;screen_definition&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWhether this screen uses autosave or not\n"
+  syntax:
+    content: public UInt16FieldInfo Autosave { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property Autosave As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Autosave*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.HierarchyId_InnerJoin_Hierarchy
+  commentId: P:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.HierarchyId_InnerJoin_Hierarchy
+  id: HierarchyId_InnerJoin_Hierarchy
+  parent: SuperOffice.CRM.Data.ScreenDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: HierarchyId_InnerJoin_Hierarchy
+  nameWithType: ScreenDefinitionTableInfo.HierarchyId_InnerJoin_Hierarchy
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.HierarchyId_InnerJoin_Hierarchy
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key HierarchyId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.HierarchyTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<HierarchyTableInfo> HierarchyId_InnerJoin_Hierarchy { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.HierarchyTableInfo}
+    content.vb: Public ReadOnly Property HierarchyId_InnerJoin_Hierarchy As TargetedInnerJoin(Of HierarchyTableInfo)
+  overload: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.HierarchyId_InnerJoin_Hierarchy*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionAction_ScreenDefinition
+  commentId: P:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionAction_ScreenDefinition
+  id: LeftOuterJoin_ScreenDefinitionAction_ScreenDefinition
+  parent: SuperOffice.CRM.Data.ScreenDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_ScreenDefinitionAction_ScreenDefinition
+  nameWithType: ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionAction_ScreenDefinition
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionAction_ScreenDefinition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key ScreenDefinitionId on this table, to ScreenDefinitionAction.<xref href=\"SuperOffice.CRM.Data.ScreenDefinitionActionTableInfo.ScreenDefinition\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<ScreenDefinitionActionTableInfo> LeftOuterJoin_ScreenDefinitionAction_ScreenDefinition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ScreenDefinitionActionTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_ScreenDefinitionAction_ScreenDefinition As TargetedLeftOuterJoin(Of ScreenDefinitionActionTableInfo)
+  overload: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionAction_ScreenDefinition*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionElement_ScreenDefinition
+  commentId: P:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionElement_ScreenDefinition
+  id: LeftOuterJoin_ScreenDefinitionElement_ScreenDefinition
+  parent: SuperOffice.CRM.Data.ScreenDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_ScreenDefinitionElement_ScreenDefinition
+  nameWithType: ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionElement_ScreenDefinition
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionElement_ScreenDefinition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key ScreenDefinitionId on this table, to ScreenDefinitionElement.<xref href=\"SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo.ScreenDefinition\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<ScreenDefinitionElementTableInfo> LeftOuterJoin_ScreenDefinitionElement_ScreenDefinition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_ScreenDefinitionElement_ScreenDefinition As TargetedLeftOuterJoin(Of ScreenDefinitionElementTableInfo)
+  overload: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionElement_ScreenDefinition*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionHidden_ScreenDefinition
+  commentId: P:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionHidden_ScreenDefinition
+  id: LeftOuterJoin_ScreenDefinitionHidden_ScreenDefinition
+  parent: SuperOffice.CRM.Data.ScreenDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_ScreenDefinitionHidden_ScreenDefinition
+  nameWithType: ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionHidden_ScreenDefinition
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionHidden_ScreenDefinition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key ScreenDefinitionId on this table, to ScreenDefinitionHidden.<xref href=\"SuperOffice.CRM.Data.ScreenDefinitionHiddenTableInfo.ScreenDefinition\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<ScreenDefinitionHiddenTableInfo> LeftOuterJoin_ScreenDefinitionHidden_ScreenDefinition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ScreenDefinitionHiddenTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_ScreenDefinitionHidden_ScreenDefinition As TargetedLeftOuterJoin(Of ScreenDefinitionHiddenTableInfo)
+  overload: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionHidden_ScreenDefinition*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionLanguage_ScreenDefinition
+  commentId: P:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionLanguage_ScreenDefinition
+  id: LeftOuterJoin_ScreenDefinitionLanguage_ScreenDefinition
+  parent: SuperOffice.CRM.Data.ScreenDefinitionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_ScreenDefinitionLanguage_ScreenDefinition
+  nameWithType: ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionLanguage_ScreenDefinition
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionLanguage_ScreenDefinition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key ScreenDefinitionId on this table, to ScreenDefinitionLanguage.<xref href=\"SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo.ScreenDefinition\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<ScreenDefinitionLanguageTableInfo> LeftOuterJoin_ScreenDefinitionLanguage_ScreenDefinition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_ScreenDefinitionLanguage_ScreenDefinition As TargetedLeftOuterJoin(Of ScreenDefinitionLanguageTableInfo)
+  overload: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionLanguage_ScreenDefinition*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: SuperOffice.Data.SQL.TableInfo.ToString
+  commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ToString()
+  nameWithType: TableInfo.ToString()
+  fullName: SuperOffice.Data.SQL.TableInfo.ToString()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: RegisterFields(FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(FieldInfo())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FieldInfoFromSoField(SoField)
+  nameWithType: TableInfo.FieldInfoFromSoField(SoField)
+  fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.Clone
+  commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Clone()
+  nameWithType: TableInfo.Clone()
+  fullName: SuperOffice.Data.SQL.TableInfo.Clone()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsSameTable(TableInfo)
+  nameWithType: TableInfo.IsSameTable(TableInfo)
+  fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FindField(String)
+  nameWithType: TableInfo.FindField(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
+  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ProtAll
+  nameWithType: TableInfo.ProtAll
+  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+- uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: HashCheckFields
+  nameWithType: TableInfo.HashCheckFields
+  fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+- uid: SuperOffice.Data.SQL.TableInfo.TableName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: TableName
+  nameWithType: TableInfo.TableName
+  fullName: SuperOffice.Data.SQL.TableInfo.TableName
+- uid: SuperOffice.Data.SQL.TableInfo.DbName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: DbName
+  nameWithType: TableInfo.DbName
+  fullName: SuperOffice.Data.SQL.TableInfo.DbName
+- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsDictionaryTable
+  nameWithType: TableInfo.IsDictionaryTable
+  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+- uid: SuperOffice.Data.SQL.TableInfo.All
+  commentId: P:SuperOffice.Data.SQL.TableInfo.All
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: All
+  nameWithType: TableInfo.All
+  fullName: SuperOffice.Data.SQL.TableInfo.All
+- uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Item[String]
+  nameWithType: TableInfo.Item[String]
+  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
+  nameWithType.vb: TableInfo.Item(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  name.vb: Item(String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: PrimaryKeyField
+  nameWithType: TableInfo.PrimaryKeyField
+  fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ScreenDefinitionTableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<ScreenDefinitionTableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.ScreenDefinitionTableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ScreenDefinitionTableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.ScreenDefinitionTableInfo, To)()
+  name.vb: MapEnums(Of ScreenDefinitionTableInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ScreenDefinitionTableInfo, To>
+    nameWithType: EnumUtil.MapEnums<ScreenDefinitionTableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.ScreenDefinitionTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ScreenDefinitionTableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of ScreenDefinitionTableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.ScreenDefinitionTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ScreenDefinitionTableInfo, To>()
+  nameWithType: Converters.MapEnums<ScreenDefinitionTableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.ScreenDefinitionTableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of ScreenDefinitionTableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.ScreenDefinitionTableInfo, To)()
+  name.vb: MapEnums(Of ScreenDefinitionTableInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ScreenDefinitionTableInfo, To>
+    nameWithType: Converters.MapEnums<ScreenDefinitionTableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.ScreenDefinitionTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ScreenDefinitionTableInfo, To)
+    nameWithType: Converters.MapEnums(Of ScreenDefinitionTableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.ScreenDefinitionTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.DictionaryTableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.DictionaryTableNumber
+  isExternal: true
+  name: DictionaryTableNumber
+  nameWithType: ScreenDefinitionTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.DictionaryTableNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.RuntimeDefinition*
+  commentId: Overload:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.RuntimeDefinition
+  isExternal: true
+  name: RuntimeDefinition
+  nameWithType: ScreenDefinitionTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.RuntimeDefinition
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: SuperOffice.Data.SQL.TableInfo.Definition
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Definition
+  nameWithType: TableInfo.Definition
+  fullName: SuperOffice.Data.SQL.TableInfo.Definition
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Definition*
+  commentId: Overload:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Definition
+  isExternal: true
+  name: Definition
+  nameWithType: ScreenDefinitionTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Definition
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.ScreenDefinitionId*
+  commentId: Overload:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.ScreenDefinitionId
+  isExternal: true
+  name: ScreenDefinitionId
+  nameWithType: ScreenDefinitionTableInfo.ScreenDefinitionId
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.ScreenDefinitionId
+- uid: SuperOffice.Data.SQL.Int32FieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Int32FieldInfo
+  nameWithType: Int32FieldInfo
+  fullName: SuperOffice.Data.SQL.Int32FieldInfo
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Name*
+  commentId: Overload:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Name
+  isExternal: true
+  name: Name
+  nameWithType: ScreenDefinitionTableInfo.Name
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Name
+- uid: SuperOffice.Data.SQL.StringFieldInfo
+  commentId: T:SuperOffice.Data.SQL.StringFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: StringFieldInfo
+  nameWithType: StringFieldInfo
+  fullName: SuperOffice.Data.SQL.StringFieldInfo
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.IdString*
+  commentId: Overload:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.IdString
+  isExternal: true
+  name: IdString
+  nameWithType: ScreenDefinitionTableInfo.IdString
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.IdString
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.HierarchyId*
+  commentId: Overload:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.HierarchyId
+  isExternal: true
+  name: HierarchyId
+  nameWithType: ScreenDefinitionTableInfo.HierarchyId
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.HierarchyId
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.ScreenKey*
+  commentId: Overload:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.ScreenKey
+  isExternal: true
+  name: ScreenKey
+  nameWithType: ScreenDefinitionTableInfo.ScreenKey
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.ScreenKey
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LayoutModel*
+  commentId: Overload:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LayoutModel
+  isExternal: true
+  name: LayoutModel
+  nameWithType: ScreenDefinitionTableInfo.LayoutModel
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LayoutModel
+- uid: SuperOffice.Data.SQL.UInt16FieldInfo
+  commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: UInt16FieldInfo
+  nameWithType: UInt16FieldInfo
+  fullName: SuperOffice.Data.SQL.UInt16FieldInfo
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LoadScriptBody*
+  commentId: Overload:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LoadScriptBody
+  isExternal: true
+  name: LoadScriptBody
+  nameWithType: ScreenDefinitionTableInfo.LoadScriptBody
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LoadScriptBody
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LoadPostCgiScriptBody*
+  commentId: Overload:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LoadPostCgiScriptBody
+  isExternal: true
+  name: LoadPostCgiScriptBody
+  nameWithType: ScreenDefinitionTableInfo.LoadPostCgiScriptBody
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LoadPostCgiScriptBody
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LoadFinalScriptBody*
+  commentId: Overload:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LoadFinalScriptBody
+  isExternal: true
+  name: LoadFinalScriptBody
+  nameWithType: ScreenDefinitionTableInfo.LoadFinalScriptBody
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LoadFinalScriptBody
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.CreationScript*
+  commentId: Overload:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.CreationScript
+  isExternal: true
+  name: CreationScript
+  nameWithType: ScreenDefinitionTableInfo.CreationScript
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.CreationScript
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.WarnOnNavigate*
+  commentId: Overload:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.WarnOnNavigate
+  isExternal: true
+  name: WarnOnNavigate
+  nameWithType: ScreenDefinitionTableInfo.WarnOnNavigate
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.WarnOnNavigate
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Description*
+  commentId: Overload:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Description
+  isExternal: true
+  name: Description
+  nameWithType: ScreenDefinitionTableInfo.Description
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Description
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Autosave*
+  commentId: Overload:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Autosave
+  isExternal: true
+  name: Autosave
+  nameWithType: ScreenDefinitionTableInfo.Autosave
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.Autosave
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.HierarchyId_InnerJoin_Hierarchy*
+  commentId: Overload:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.HierarchyId_InnerJoin_Hierarchy
+  isExternal: true
+  name: HierarchyId_InnerJoin_Hierarchy
+  nameWithType: ScreenDefinitionTableInfo.HierarchyId_InnerJoin_Hierarchy
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.HierarchyId_InnerJoin_Hierarchy
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.HierarchyTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.HierarchyTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<HierarchyTableInfo>
+  nameWithType: TargetedInnerJoin<HierarchyTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.HierarchyTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of HierarchyTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.HierarchyTableInfo)
+  name.vb: TargetedInnerJoin(Of HierarchyTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.HierarchyTableInfo
+    name: HierarchyTableInfo
+    nameWithType: HierarchyTableInfo
+    fullName: SuperOffice.CRM.Data.HierarchyTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.HierarchyTableInfo
+    name: HierarchyTableInfo
+    nameWithType: HierarchyTableInfo
+    fullName: SuperOffice.CRM.Data.HierarchyTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
+  isExternal: true
+  name: TargetedInnerJoin<TargetTableInfo>
+  nameWithType: TargetedInnerJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of TargetTableInfo)
+  name.vb: TargetedInnerJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionAction_ScreenDefinition*
+  commentId: Overload:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionAction_ScreenDefinition
+  isExternal: true
+  name: LeftOuterJoin_ScreenDefinitionAction_ScreenDefinition
+  nameWithType: ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionAction_ScreenDefinition
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionAction_ScreenDefinition
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ScreenDefinitionActionTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ScreenDefinitionActionTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<ScreenDefinitionActionTableInfo>
+  nameWithType: TargetedLeftOuterJoin<ScreenDefinitionActionTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.ScreenDefinitionActionTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of ScreenDefinitionActionTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.ScreenDefinitionActionTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of ScreenDefinitionActionTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.ScreenDefinitionActionTableInfo
+    name: ScreenDefinitionActionTableInfo
+    nameWithType: ScreenDefinitionActionTableInfo
+    fullName: SuperOffice.CRM.Data.ScreenDefinitionActionTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.ScreenDefinitionActionTableInfo
+    name: ScreenDefinitionActionTableInfo
+    nameWithType: ScreenDefinitionActionTableInfo
+    fullName: SuperOffice.CRM.Data.ScreenDefinitionActionTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  isExternal: true
+  name: TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of TargetTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionElement_ScreenDefinition*
+  commentId: Overload:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionElement_ScreenDefinition
+  isExternal: true
+  name: LeftOuterJoin_ScreenDefinitionElement_ScreenDefinition
+  nameWithType: ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionElement_ScreenDefinition
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionElement_ScreenDefinition
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<ScreenDefinitionElementTableInfo>
+  nameWithType: TargetedLeftOuterJoin<ScreenDefinitionElementTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of ScreenDefinitionElementTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of ScreenDefinitionElementTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo
+    name: ScreenDefinitionElementTableInfo
+    nameWithType: ScreenDefinitionElementTableInfo
+    fullName: SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo
+    name: ScreenDefinitionElementTableInfo
+    nameWithType: ScreenDefinitionElementTableInfo
+    fullName: SuperOffice.CRM.Data.ScreenDefinitionElementTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionHidden_ScreenDefinition*
+  commentId: Overload:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionHidden_ScreenDefinition
+  isExternal: true
+  name: LeftOuterJoin_ScreenDefinitionHidden_ScreenDefinition
+  nameWithType: ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionHidden_ScreenDefinition
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionHidden_ScreenDefinition
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ScreenDefinitionHiddenTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ScreenDefinitionHiddenTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<ScreenDefinitionHiddenTableInfo>
+  nameWithType: TargetedLeftOuterJoin<ScreenDefinitionHiddenTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.ScreenDefinitionHiddenTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of ScreenDefinitionHiddenTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.ScreenDefinitionHiddenTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of ScreenDefinitionHiddenTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.ScreenDefinitionHiddenTableInfo
+    name: ScreenDefinitionHiddenTableInfo
+    nameWithType: ScreenDefinitionHiddenTableInfo
+    fullName: SuperOffice.CRM.Data.ScreenDefinitionHiddenTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.ScreenDefinitionHiddenTableInfo
+    name: ScreenDefinitionHiddenTableInfo
+    nameWithType: ScreenDefinitionHiddenTableInfo
+    fullName: SuperOffice.CRM.Data.ScreenDefinitionHiddenTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionLanguage_ScreenDefinition*
+  commentId: Overload:SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionLanguage_ScreenDefinition
+  isExternal: true
+  name: LeftOuterJoin_ScreenDefinitionLanguage_ScreenDefinition
+  nameWithType: ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionLanguage_ScreenDefinition
+  fullName: SuperOffice.CRM.Data.ScreenDefinitionTableInfo.LeftOuterJoin_ScreenDefinitionLanguage_ScreenDefinition
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<ScreenDefinitionLanguageTableInfo>
+  nameWithType: TargetedLeftOuterJoin<ScreenDefinitionLanguageTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of ScreenDefinitionLanguageTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of ScreenDefinitionLanguageTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo
+    name: ScreenDefinitionLanguageTableInfo
+    nameWithType: ScreenDefinitionLanguageTableInfo
+    fullName: SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo
+    name: ScreenDefinitionLanguageTableInfo
+    nameWithType: ScreenDefinitionLanguageTableInfo
+    fullName: SuperOffice.CRM.Data.ScreenDefinitionLanguageTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

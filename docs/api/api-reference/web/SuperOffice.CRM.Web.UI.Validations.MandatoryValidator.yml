@@ -1,0 +1,705 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator
+  commentId: T:SuperOffice.CRM.Web.UI.Validations.MandatoryValidator
+  id: MandatoryValidator
+  parent: SuperOffice.CRM.Web.UI.Validations
+  children:
+  - SuperOffice.CRM.Web.UI.Validations.MandatoryValidator.#ctor
+  - SuperOffice.CRM.Web.UI.Validations.MandatoryValidator._validate(System.Object,System.String@)
+  - SuperOffice.CRM.Web.UI.Validations.MandatoryValidator.Initialize(System.Xml.XmlNode)
+  - SuperOffice.CRM.Web.UI.Validations.MandatoryValidator.Type
+  langs:
+  - csharp
+  - vb
+  name: MandatoryValidator
+  nameWithType: MandatoryValidator
+  fullName: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Validations
+  syntax:
+    content: 'public class MandatoryValidator : ValidationBase, IValidation'
+    content.vb: >-
+      Public Class MandatoryValidator
+          Inherits ValidationBase
+          Implements IValidation
+  inheritance:
+  - System.Object
+  - SuperOffice.DCF.Web.UI.Validations.ValidationBase
+  implements:
+  - SuperOffice.DCF.Web.UI.IValidation
+  inheritedMembers:
+  - SuperOffice.DCF.Web.UI.Validations.ValidationBase.Validate(System.Object,System.String@)
+  - SuperOffice.DCF.Web.UI.Validations.ValidationBase.Condition
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator.Initialize(System.Xml.XmlNode)
+  commentId: M:SuperOffice.CRM.Web.UI.Validations.MandatoryValidator.Initialize(System.Xml.XmlNode)
+  id: Initialize(System.Xml.XmlNode)
+  parent: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator
+  langs:
+  - csharp
+  - vb
+  name: Initialize(XmlNode)
+  nameWithType: MandatoryValidator.Initialize(XmlNode)
+  fullName: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator.Initialize(System.Xml.XmlNode)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Validations
+  syntax:
+    content: public override void Initialize(XmlNode config)
+    parameters:
+    - id: config
+      type: System.Xml.XmlNode
+    content.vb: Public Overrides Sub Initialize(config As XmlNode)
+  overridden: SuperOffice.DCF.Web.UI.Validations.ValidationBase.Initialize(System.Xml.XmlNode)
+  overload: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator.Initialize*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator._validate(System.Object,System.String@)
+  commentId: M:SuperOffice.CRM.Web.UI.Validations.MandatoryValidator._validate(System.Object,System.String@)
+  id: _validate(System.Object,System.String@)
+  parent: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator
+  langs:
+  - csharp
+  - vb
+  name: _validate(Object, out String)
+  nameWithType: MandatoryValidator._validate(Object, out String)
+  fullName: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator._validate(System.Object, out System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Validations
+  syntax:
+    content: protected override bool _validate(object value, out string ValidationMessage)
+    parameters:
+    - id: value
+      type: System.Object
+    - id: ValidationMessage
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Protected Overrides Function _validate(value As Object, ByRef ValidationMessage As String) As Boolean
+  overridden: SuperOffice.DCF.Web.UI.Validations.ValidationBase._validate(System.Object,System.String@)
+  overload: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator._validate*
+  nameWithType.vb: MandatoryValidator._validate(Object, ByRef String)
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+  fullName.vb: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator._validate(System.Object, ByRef System.String)
+  name.vb: _validate(Object, ByRef String)
+- uid: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.Validations.MandatoryValidator.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator
+  langs:
+  - csharp
+  - vb
+  name: MandatoryValidator()
+  nameWithType: MandatoryValidator.MandatoryValidator()
+  fullName: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator.MandatoryValidator()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Validations
+  syntax:
+    content: public MandatoryValidator()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator.Type
+  commentId: P:SuperOffice.CRM.Web.UI.Validations.MandatoryValidator.Type
+  id: Type
+  parent: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: MandatoryValidator.Type
+  fullName: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator.Type
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Validations
+  syntax:
+    content: public string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type As String
+  overload: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.Validations
+  commentId: N:SuperOffice.CRM.Web.UI.Validations
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Validations
+  nameWithType: SuperOffice.CRM.Web.UI.Validations
+  fullName: SuperOffice.CRM.Web.UI.Validations
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.UI.Validations.ValidationBase
+  commentId: T:SuperOffice.DCF.Web.UI.Validations.ValidationBase
+  parent: SuperOffice.DCF.Web.UI.Validations
+  isExternal: true
+  name: ValidationBase
+  nameWithType: ValidationBase
+  fullName: SuperOffice.DCF.Web.UI.Validations.ValidationBase
+- uid: SuperOffice.DCF.Web.UI.IValidation
+  commentId: T:SuperOffice.DCF.Web.UI.IValidation
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: IValidation
+  nameWithType: IValidation
+  fullName: SuperOffice.DCF.Web.UI.IValidation
+- uid: SuperOffice.DCF.Web.UI.Validations.ValidationBase.Validate(System.Object,System.String@)
+  commentId: M:SuperOffice.DCF.Web.UI.Validations.ValidationBase.Validate(System.Object,System.String@)
+  parent: SuperOffice.DCF.Web.UI.Validations.ValidationBase
+  isExternal: true
+  name: Validate(Object, String)
+  nameWithType: ValidationBase.Validate(Object, String)
+  fullName: SuperOffice.DCF.Web.UI.Validations.ValidationBase.Validate(System.Object, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Validations.ValidationBase.Validate(System.Object,System.String@)
+    name: Validate
+    nameWithType: ValidationBase.Validate
+    fullName: SuperOffice.DCF.Web.UI.Validations.ValidationBase.Validate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Validations.ValidationBase.Validate(System.Object,System.String@)
+    name: Validate
+    nameWithType: ValidationBase.Validate
+    fullName: SuperOffice.DCF.Web.UI.Validations.ValidationBase.Validate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Validations.ValidationBase.Condition
+  commentId: P:SuperOffice.DCF.Web.UI.Validations.ValidationBase.Condition
+  parent: SuperOffice.DCF.Web.UI.Validations.ValidationBase
+  isExternal: true
+  name: Condition
+  nameWithType: ValidationBase.Condition
+  fullName: SuperOffice.DCF.Web.UI.Validations.ValidationBase.Condition
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.Validations
+  commentId: N:SuperOffice.DCF.Web.UI.Validations
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Validations
+  nameWithType: SuperOffice.DCF.Web.UI.Validations
+  fullName: SuperOffice.DCF.Web.UI.Validations
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: SuperOffice.DCF.Web.UI.Validations.ValidationBase.Initialize(System.Xml.XmlNode)
+  commentId: M:SuperOffice.DCF.Web.UI.Validations.ValidationBase.Initialize(System.Xml.XmlNode)
+  parent: SuperOffice.DCF.Web.UI.Validations.ValidationBase
+  isExternal: true
+  name: Initialize(XmlNode)
+  nameWithType: ValidationBase.Initialize(XmlNode)
+  fullName: SuperOffice.DCF.Web.UI.Validations.ValidationBase.Initialize(System.Xml.XmlNode)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Validations.ValidationBase.Initialize(System.Xml.XmlNode)
+    name: Initialize
+    nameWithType: ValidationBase.Initialize
+    fullName: SuperOffice.DCF.Web.UI.Validations.ValidationBase.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Validations.ValidationBase.Initialize(System.Xml.XmlNode)
+    name: Initialize
+    nameWithType: ValidationBase.Initialize
+    fullName: SuperOffice.DCF.Web.UI.Validations.ValidationBase.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator.Initialize*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Validations.MandatoryValidator.Initialize
+  isExternal: true
+  name: Initialize
+  nameWithType: MandatoryValidator.Initialize
+  fullName: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator.Initialize
+- uid: System.Xml.XmlNode
+  isExternal: true
+  name: XmlNode
+  nameWithType: XmlNode
+  fullName: System.Xml.XmlNode
+- uid: SuperOffice.DCF.Web.UI.Validations.ValidationBase._validate(System.Object,System.String@)
+  commentId: M:SuperOffice.DCF.Web.UI.Validations.ValidationBase._validate(System.Object,System.String@)
+  parent: SuperOffice.DCF.Web.UI.Validations.ValidationBase
+  isExternal: true
+  name: _validate(Object, String)
+  nameWithType: ValidationBase._validate(Object, String)
+  fullName: SuperOffice.DCF.Web.UI.Validations.ValidationBase._validate(System.Object, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Validations.ValidationBase._validate(System.Object,System.String@)
+    name: _validate
+    nameWithType: ValidationBase._validate
+    fullName: SuperOffice.DCF.Web.UI.Validations.ValidationBase._validate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Validations.ValidationBase._validate(System.Object,System.String@)
+    name: _validate
+    nameWithType: ValidationBase._validate
+    fullName: SuperOffice.DCF.Web.UI.Validations.ValidationBase._validate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator._validate*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Validations.MandatoryValidator._validate
+  isExternal: true
+  name: _validate
+  nameWithType: MandatoryValidator._validate
+  fullName: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator._validate
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Validations.MandatoryValidator.#ctor
+  isExternal: true
+  name: MandatoryValidator
+  nameWithType: MandatoryValidator.MandatoryValidator
+  fullName: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator.MandatoryValidator
+- uid: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator.Type*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Validations.MandatoryValidator.Type
+  isExternal: true
+  name: Type
+  nameWithType: MandatoryValidator.Type
+  fullName: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator.Type

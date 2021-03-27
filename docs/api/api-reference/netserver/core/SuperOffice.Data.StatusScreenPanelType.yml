@@ -1,0 +1,917 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.StatusScreenPanelType
+  commentId: T:SuperOffice.Data.StatusScreenPanelType
+  id: StatusScreenPanelType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.StatusScreenPanelType.Hotlist
+  - SuperOffice.Data.StatusScreenPanelType.None
+  - SuperOffice.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerDay
+  - SuperOffice.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerMonth
+  - SuperOffice.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerWeek
+  - SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerCategory
+  - SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerOrigin
+  - SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerPriority
+  - SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerStatus
+  - SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerTopCategory
+  - SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerUser
+  - SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerUserGroup
+  - SuperOffice.Data.StatusScreenPanelType.OwnOpenRequests
+  - SuperOffice.Data.StatusScreenPanelType.StatusScreen
+  - SuperOffice.Data.StatusScreenPanelType.UnassignedRequests
+  - SuperOffice.Data.StatusScreenPanelType.UserReponseTimePerWeek
+  - SuperOffice.Data.StatusScreenPanelType.UserResponseTimePerDay
+  - SuperOffice.Data.StatusScreenPanelType.UserResponseTimePerMonth
+  langs:
+  - csharp
+  - vb
+  name: StatusScreenPanelType
+  nameWithType: StatusScreenPanelType
+  fullName: SuperOffice.Data.StatusScreenPanelType
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n\n"
+  syntax:
+    content: public enum StatusScreenPanelType
+    content.vb: Public Enum StatusScreenPanelType
+  extensionMethods:
+  - SuperOffice.Data.StatusScreenPanelType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.StatusScreenPanelType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.StatusScreenPanelType)
+  - SuperOffice.Data.StatusScreenPanelType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.StatusScreenPanelType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.StatusScreenPanelType.None
+  commentId: F:SuperOffice.Data.StatusScreenPanelType.None
+  id: None
+  parent: SuperOffice.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: StatusScreenPanelType.None
+  fullName: SuperOffice.Data.StatusScreenPanelType.None
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: \n"
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.Data.StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerCategory
+  commentId: F:SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerCategory
+  id: OpenRequestsPerCategory
+  parent: SuperOffice.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: OpenRequestsPerCategory
+  nameWithType: StatusScreenPanelType.OpenRequestsPerCategory
+  fullName: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerCategory
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: \n"
+  syntax:
+    content: OpenRequestsPerCategory = 1
+    return:
+      type: SuperOffice.Data.StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerTopCategory
+  commentId: F:SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerTopCategory
+  id: OpenRequestsPerTopCategory
+  parent: SuperOffice.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: OpenRequestsPerTopCategory
+  nameWithType: StatusScreenPanelType.OpenRequestsPerTopCategory
+  fullName: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerTopCategory
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: \n"
+  syntax:
+    content: OpenRequestsPerTopCategory = 2
+    return:
+      type: SuperOffice.Data.StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerUser
+  commentId: F:SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerUser
+  id: OpenRequestsPerUser
+  parent: SuperOffice.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: OpenRequestsPerUser
+  nameWithType: StatusScreenPanelType.OpenRequestsPerUser
+  fullName: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerUser
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n3: \n"
+  syntax:
+    content: OpenRequestsPerUser = 3
+    return:
+      type: SuperOffice.Data.StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerUserGroup
+  commentId: F:SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerUserGroup
+  id: OpenRequestsPerUserGroup
+  parent: SuperOffice.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: OpenRequestsPerUserGroup
+  nameWithType: StatusScreenPanelType.OpenRequestsPerUserGroup
+  fullName: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerUserGroup
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4: \n"
+  syntax:
+    content: OpenRequestsPerUserGroup = 4
+    return:
+      type: SuperOffice.Data.StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerPriority
+  commentId: F:SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerPriority
+  id: OpenRequestsPerPriority
+  parent: SuperOffice.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: OpenRequestsPerPriority
+  nameWithType: StatusScreenPanelType.OpenRequestsPerPriority
+  fullName: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerPriority
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n5: \n"
+  syntax:
+    content: OpenRequestsPerPriority = 5
+    return:
+      type: SuperOffice.Data.StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerStatus
+  commentId: F:SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerStatus
+  id: OpenRequestsPerStatus
+  parent: SuperOffice.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: OpenRequestsPerStatus
+  nameWithType: StatusScreenPanelType.OpenRequestsPerStatus
+  fullName: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerStatus
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n6: \n"
+  syntax:
+    content: OpenRequestsPerStatus = 6
+    return:
+      type: SuperOffice.Data.StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerOrigin
+  commentId: F:SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerOrigin
+  id: OpenRequestsPerOrigin
+  parent: SuperOffice.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: OpenRequestsPerOrigin
+  nameWithType: StatusScreenPanelType.OpenRequestsPerOrigin
+  fullName: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerOrigin
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n7: \n"
+  syntax:
+    content: OpenRequestsPerOrigin = 7
+    return:
+      type: SuperOffice.Data.StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerDay
+  commentId: F:SuperOffice.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerDay
+  id: NumberOfCreatedRequestsPerDay
+  parent: SuperOffice.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: NumberOfCreatedRequestsPerDay
+  nameWithType: StatusScreenPanelType.NumberOfCreatedRequestsPerDay
+  fullName: SuperOffice.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerDay
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n11: \n"
+  syntax:
+    content: NumberOfCreatedRequestsPerDay = 11
+    return:
+      type: SuperOffice.Data.StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerWeek
+  commentId: F:SuperOffice.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerWeek
+  id: NumberOfCreatedRequestsPerWeek
+  parent: SuperOffice.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: NumberOfCreatedRequestsPerWeek
+  nameWithType: StatusScreenPanelType.NumberOfCreatedRequestsPerWeek
+  fullName: SuperOffice.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerWeek
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n12: \n"
+  syntax:
+    content: NumberOfCreatedRequestsPerWeek = 12
+    return:
+      type: SuperOffice.Data.StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerMonth
+  commentId: F:SuperOffice.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerMonth
+  id: NumberOfCreatedRequestsPerMonth
+  parent: SuperOffice.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: NumberOfCreatedRequestsPerMonth
+  nameWithType: StatusScreenPanelType.NumberOfCreatedRequestsPerMonth
+  fullName: SuperOffice.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerMonth
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n13: \n"
+  syntax:
+    content: NumberOfCreatedRequestsPerMonth = 13
+    return:
+      type: SuperOffice.Data.StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.StatusScreenPanelType.UserResponseTimePerDay
+  commentId: F:SuperOffice.Data.StatusScreenPanelType.UserResponseTimePerDay
+  id: UserResponseTimePerDay
+  parent: SuperOffice.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: UserResponseTimePerDay
+  nameWithType: StatusScreenPanelType.UserResponseTimePerDay
+  fullName: SuperOffice.Data.StatusScreenPanelType.UserResponseTimePerDay
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n21: \n"
+  syntax:
+    content: UserResponseTimePerDay = 21
+    return:
+      type: SuperOffice.Data.StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.StatusScreenPanelType.UserReponseTimePerWeek
+  commentId: F:SuperOffice.Data.StatusScreenPanelType.UserReponseTimePerWeek
+  id: UserReponseTimePerWeek
+  parent: SuperOffice.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: UserReponseTimePerWeek
+  nameWithType: StatusScreenPanelType.UserReponseTimePerWeek
+  fullName: SuperOffice.Data.StatusScreenPanelType.UserReponseTimePerWeek
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n22: \n"
+  syntax:
+    content: UserReponseTimePerWeek = 22
+    return:
+      type: SuperOffice.Data.StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.StatusScreenPanelType.UserResponseTimePerMonth
+  commentId: F:SuperOffice.Data.StatusScreenPanelType.UserResponseTimePerMonth
+  id: UserResponseTimePerMonth
+  parent: SuperOffice.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: UserResponseTimePerMonth
+  nameWithType: StatusScreenPanelType.UserResponseTimePerMonth
+  fullName: SuperOffice.Data.StatusScreenPanelType.UserResponseTimePerMonth
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n23: \n"
+  syntax:
+    content: UserResponseTimePerMonth = 23
+    return:
+      type: SuperOffice.Data.StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.StatusScreenPanelType.OwnOpenRequests
+  commentId: F:SuperOffice.Data.StatusScreenPanelType.OwnOpenRequests
+  id: OwnOpenRequests
+  parent: SuperOffice.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: OwnOpenRequests
+  nameWithType: StatusScreenPanelType.OwnOpenRequests
+  fullName: SuperOffice.Data.StatusScreenPanelType.OwnOpenRequests
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n101: \n"
+  syntax:
+    content: OwnOpenRequests = 101
+    return:
+      type: SuperOffice.Data.StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.StatusScreenPanelType.UnassignedRequests
+  commentId: F:SuperOffice.Data.StatusScreenPanelType.UnassignedRequests
+  id: UnassignedRequests
+  parent: SuperOffice.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: UnassignedRequests
+  nameWithType: StatusScreenPanelType.UnassignedRequests
+  fullName: SuperOffice.Data.StatusScreenPanelType.UnassignedRequests
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n102: \n"
+  syntax:
+    content: UnassignedRequests = 102
+    return:
+      type: SuperOffice.Data.StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.StatusScreenPanelType.Hotlist
+  commentId: F:SuperOffice.Data.StatusScreenPanelType.Hotlist
+  id: Hotlist
+  parent: SuperOffice.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: Hotlist
+  nameWithType: StatusScreenPanelType.Hotlist
+  fullName: SuperOffice.Data.StatusScreenPanelType.Hotlist
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n103: \n"
+  syntax:
+    content: Hotlist = 103
+    return:
+      type: SuperOffice.Data.StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.StatusScreenPanelType.StatusScreen
+  commentId: F:SuperOffice.Data.StatusScreenPanelType.StatusScreen
+  id: StatusScreen
+  parent: SuperOffice.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: StatusScreen
+  nameWithType: StatusScreenPanelType.StatusScreen
+  fullName: SuperOffice.Data.StatusScreenPanelType.StatusScreen
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n111: \n"
+  syntax:
+    content: StatusScreen = 111
+    return:
+      type: SuperOffice.Data.StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.StatusScreenPanelType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<StatusScreenPanelType, To>()
+  nameWithType: EnumUtil.MapEnums<StatusScreenPanelType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.StatusScreenPanelType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of StatusScreenPanelType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.StatusScreenPanelType, To)()
+  name.vb: MapEnums(Of StatusScreenPanelType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<StatusScreenPanelType, To>
+    nameWithType: EnumUtil.MapEnums<StatusScreenPanelType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.StatusScreenPanelType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of StatusScreenPanelType, To)
+    nameWithType: EnumUtil.MapEnums(Of StatusScreenPanelType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.StatusScreenPanelType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.StatusScreenPanelType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.StatusScreenPanelType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<StatusScreenPanelType>(StatusScreenPanelType)
+  nameWithType: ObjectExtensions.AssignByReflection<StatusScreenPanelType>(StatusScreenPanelType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.StatusScreenPanelType>(SuperOffice.Data.StatusScreenPanelType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of StatusScreenPanelType)(StatusScreenPanelType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.StatusScreenPanelType)(SuperOffice.Data.StatusScreenPanelType)
+  name.vb: AssignByReflection(Of StatusScreenPanelType)(StatusScreenPanelType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<StatusScreenPanelType>
+    nameWithType: ObjectExtensions.AssignByReflection<StatusScreenPanelType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.StatusScreenPanelType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.StatusScreenPanelType
+    name: StatusScreenPanelType
+    nameWithType: StatusScreenPanelType
+    fullName: SuperOffice.Data.StatusScreenPanelType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of StatusScreenPanelType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of StatusScreenPanelType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.StatusScreenPanelType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.StatusScreenPanelType
+    name: StatusScreenPanelType
+    nameWithType: StatusScreenPanelType
+    fullName: SuperOffice.Data.StatusScreenPanelType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.StatusScreenPanelType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<StatusScreenPanelType>()
+  nameWithType: ObjectExtensions.GraphCopy<StatusScreenPanelType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.StatusScreenPanelType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of StatusScreenPanelType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.StatusScreenPanelType)()
+  name.vb: GraphCopy(Of StatusScreenPanelType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<StatusScreenPanelType>
+    nameWithType: ObjectExtensions.GraphCopy<StatusScreenPanelType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.StatusScreenPanelType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of StatusScreenPanelType)
+    nameWithType: ObjectExtensions.GraphCopy(Of StatusScreenPanelType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.StatusScreenPanelType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.StatusScreenPanelType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<StatusScreenPanelType, To>()
+  nameWithType: Converters.MapEnums<StatusScreenPanelType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.StatusScreenPanelType, To>()
+  nameWithType.vb: Converters.MapEnums(Of StatusScreenPanelType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.StatusScreenPanelType, To)()
+  name.vb: MapEnums(Of StatusScreenPanelType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<StatusScreenPanelType, To>
+    nameWithType: Converters.MapEnums<StatusScreenPanelType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.StatusScreenPanelType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of StatusScreenPanelType, To)
+    nameWithType: Converters.MapEnums(Of StatusScreenPanelType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.StatusScreenPanelType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.StatusScreenPanelType
+  commentId: T:SuperOffice.Data.StatusScreenPanelType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: StatusScreenPanelType
+  nameWithType: StatusScreenPanelType
+  fullName: SuperOffice.Data.StatusScreenPanelType

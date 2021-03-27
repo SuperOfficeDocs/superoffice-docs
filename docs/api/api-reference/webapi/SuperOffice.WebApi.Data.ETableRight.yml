@@ -1,0 +1,519 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ETableRight
+  commentId: T:SuperOffice.WebApi.Data.ETableRight
+  id: ETableRight
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ETableRight.Delete
+  - SuperOffice.WebApi.Data.ETableRight.FI
+  - SuperOffice.WebApi.Data.ETableRight.Filtering
+  - SuperOffice.WebApi.Data.ETableRight.FULL
+  - SuperOffice.WebApi.Data.ETableRight.Insert
+  - SuperOffice.WebApi.Data.ETableRight.None
+  - SuperOffice.WebApi.Data.ETableRight.RestrictedUpdate
+  - SuperOffice.WebApi.Data.ETableRight.RF
+  - SuperOffice.WebApi.Data.ETableRight.RI
+  - SuperOffice.WebApi.Data.ETableRight.Select
+  - SuperOffice.WebApi.Data.ETableRight.UDR
+  - SuperOffice.WebApi.Data.ETableRight.Update
+  - SuperOffice.WebApi.Data.ETableRight.UR
+  - SuperOffice.WebApi.Data.ETableRight.URI
+  - SuperOffice.WebApi.Data.ETableRight.value__
+  langs:
+  - csharp
+  - vb
+  name: ETableRight
+  nameWithType: ETableRight
+  fullName: SuperOffice.WebApi.Data.ETableRight
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTable right is a combination of bits representing permissions on a row.\nThis Enum consists of flag values that can be combined.\n"
+  syntax:
+    content: 'public sealed class ETableRight : Enum'
+    content.vb: >-
+      Public NotInheritable Class ETableRight
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ETableRight.value__
+  commentId: F:SuperOffice.WebApi.Data.ETableRight.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ETableRight
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ETableRight.value__
+  fullName: SuperOffice.WebApi.Data.ETableRight.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ETableRight.None
+  commentId: F:SuperOffice.WebApi.Data.ETableRight.None
+  id: None
+  parent: SuperOffice.WebApi.Data.ETableRight
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ETableRight.None
+  fullName: SuperOffice.WebApi.Data.ETableRight.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: The row should be hidden from the user.\n"
+  syntax:
+    content: public const ETableRight None
+    return:
+      type: SuperOffice.WebApi.Data.ETableRight
+    content.vb: Public Const None As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ETableRight.Select
+  commentId: F:SuperOffice.WebApi.Data.ETableRight.Select
+  id: Select
+  parent: SuperOffice.WebApi.Data.ETableRight
+  langs:
+  - csharp
+  - vb
+  name: Select
+  nameWithType: ETableRight.Select
+  fullName: SuperOffice.WebApi.Data.ETableRight.Select
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: The user is allowed to see the row.\n"
+  syntax:
+    content: public const ETableRight Select
+    return:
+      type: SuperOffice.WebApi.Data.ETableRight
+    content.vb: Public Const Select As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ETableRight.Update
+  commentId: F:SuperOffice.WebApi.Data.ETableRight.Update
+  id: Update
+  parent: SuperOffice.WebApi.Data.ETableRight
+  langs:
+  - csharp
+  - vb
+  name: Update
+  nameWithType: ETableRight.Update
+  fullName: SuperOffice.WebApi.Data.ETableRight.Update
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: The user is allowed to modify the values in this row.\n"
+  syntax:
+    content: public const ETableRight Update
+    return:
+      type: SuperOffice.WebApi.Data.ETableRight
+    content.vb: Public Const Update As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ETableRight.UR
+  commentId: F:SuperOffice.WebApi.Data.ETableRight.UR
+  id: UR
+  parent: SuperOffice.WebApi.Data.ETableRight
+  langs:
+  - csharp
+  - vb
+  name: UR
+  nameWithType: ETableRight.UR
+  fullName: SuperOffice.WebApi.Data.ETableRight.UR
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Select or Update\n"
+  syntax:
+    content: public const ETableRight UR
+    return:
+      type: SuperOffice.WebApi.Data.ETableRight
+    content.vb: Public Const UR As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ETableRight.Insert
+  commentId: F:SuperOffice.WebApi.Data.ETableRight.Insert
+  id: Insert
+  parent: SuperOffice.WebApi.Data.ETableRight
+  langs:
+  - csharp
+  - vb
+  name: Insert
+  nameWithType: ETableRight.Insert
+  fullName: SuperOffice.WebApi.Data.ETableRight.Insert
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: The user is allowed to add new rows to the table.\n"
+  syntax:
+    content: public const ETableRight Insert
+    return:
+      type: SuperOffice.WebApi.Data.ETableRight
+    content.vb: Public Const Insert As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ETableRight.RI
+  commentId: F:SuperOffice.WebApi.Data.ETableRight.RI
+  id: RI
+  parent: SuperOffice.WebApi.Data.ETableRight
+  langs:
+  - csharp
+  - vb
+  name: RI
+  nameWithType: ETableRight.RI
+  fullName: SuperOffice.WebApi.Data.ETableRight.RI
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Select and Insert (Anonymous)\n"
+  syntax:
+    content: public const ETableRight RI
+    return:
+      type: SuperOffice.WebApi.Data.ETableRight
+    content.vb: Public Const RI As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ETableRight.URI
+  commentId: F:SuperOffice.WebApi.Data.ETableRight.URI
+  id: URI
+  parent: SuperOffice.WebApi.Data.ETableRight
+  langs:
+  - csharp
+  - vb
+  name: URI
+  nameWithType: ETableRight.URI
+  fullName: SuperOffice.WebApi.Data.ETableRight.URI
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: Select, Update, Insert\n"
+  syntax:
+    content: public const ETableRight URI
+    return:
+      type: SuperOffice.WebApi.Data.ETableRight
+    content.vb: Public Const URI As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ETableRight.Delete
+  commentId: F:SuperOffice.WebApi.Data.ETableRight.Delete
+  id: Delete
+  parent: SuperOffice.WebApi.Data.ETableRight
+  langs:
+  - csharp
+  - vb
+  name: Delete
+  nameWithType: ETableRight.Delete
+  fullName: SuperOffice.WebApi.Data.ETableRight.Delete
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: The user is allowed to delete this row.\n"
+  syntax:
+    content: public const ETableRight Delete
+    return:
+      type: SuperOffice.WebApi.Data.ETableRight
+    content.vb: Public Const Delete As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ETableRight.UDR
+  commentId: F:SuperOffice.WebApi.Data.ETableRight.UDR
+  id: UDR
+  parent: SuperOffice.WebApi.Data.ETableRight
+  langs:
+  - csharp
+  - vb
+  name: UDR
+  nameWithType: ETableRight.UDR
+  fullName: SuperOffice.WebApi.Data.ETableRight.UDR
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n11: Select, Update, Delete\n"
+  syntax:
+    content: public const ETableRight UDR
+    return:
+      type: SuperOffice.WebApi.Data.ETableRight
+    content.vb: Public Const UDR As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ETableRight.FULL
+  commentId: F:SuperOffice.WebApi.Data.ETableRight.FULL
+  id: FULL
+  parent: SuperOffice.WebApi.Data.ETableRight
+  langs:
+  - csharp
+  - vb
+  name: FULL
+  nameWithType: ETableRight.FULL
+  fullName: SuperOffice.WebApi.Data.ETableRight.FULL
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n15: Select, Update, Insert, Delete - no restrictions\n"
+  syntax:
+    content: public const ETableRight FULL
+    return:
+      type: SuperOffice.WebApi.Data.ETableRight
+    content.vb: Public Const FULL As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ETableRight.Filtering
+  commentId: F:SuperOffice.WebApi.Data.ETableRight.Filtering
+  id: Filtering
+  parent: SuperOffice.WebApi.Data.ETableRight
+  langs:
+  - csharp
+  - vb
+  name: Filtering
+  nameWithType: ETableRight.Filtering
+  fullName: SuperOffice.WebApi.Data.ETableRight.Filtering
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n16: A flag used to indicate that some fields may be hidden.\n"
+  syntax:
+    content: public const ETableRight Filtering
+    return:
+      type: SuperOffice.WebApi.Data.ETableRight
+    content.vb: Public Const Filtering As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ETableRight.RF
+  commentId: F:SuperOffice.WebApi.Data.ETableRight.RF
+  id: RF
+  parent: SuperOffice.WebApi.Data.ETableRight
+  langs:
+  - csharp
+  - vb
+  name: RF
+  nameWithType: ETableRight.RF
+  fullName: SuperOffice.WebApi.Data.ETableRight.RF
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n17: Select or Filter\n"
+  syntax:
+    content: public const ETableRight RF
+    return:
+      type: SuperOffice.WebApi.Data.ETableRight
+    content.vb: Public Const RF As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ETableRight.FI
+  commentId: F:SuperOffice.WebApi.Data.ETableRight.FI
+  id: FI
+  parent: SuperOffice.WebApi.Data.ETableRight
+  langs:
+  - csharp
+  - vb
+  name: FI
+  nameWithType: ETableRight.FI
+  fullName: SuperOffice.WebApi.Data.ETableRight.FI
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n20: Filtering and Insert (Anonymous)\n"
+  syntax:
+    content: public const ETableRight FI
+    return:
+      type: SuperOffice.WebApi.Data.ETableRight
+    content.vb: Public Const FI As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ETableRight.RestrictedUpdate
+  commentId: F:SuperOffice.WebApi.Data.ETableRight.RestrictedUpdate
+  id: RestrictedUpdate
+  parent: SuperOffice.WebApi.Data.ETableRight
+  langs:
+  - csharp
+  - vb
+  name: RestrictedUpdate
+  nameWithType: ETableRight.RestrictedUpdate
+  fullName: SuperOffice.WebApi.Data.ETableRight.RestrictedUpdate
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n32: A hint flag used to indicate that some fields may not be updateable, even though the user has update access to the row.\n"
+  syntax:
+    content: public const ETableRight RestrictedUpdate
+    return:
+      type: SuperOffice.WebApi.Data.ETableRight
+    content.vb: Public Const RestrictedUpdate As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ETableRight
+  commentId: T:SuperOffice.WebApi.Data.ETableRight
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ETableRight
+  nameWithType: ETableRight
+  fullName: SuperOffice.WebApi.Data.ETableRight

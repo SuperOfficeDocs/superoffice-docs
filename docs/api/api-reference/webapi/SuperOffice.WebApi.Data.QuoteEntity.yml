@@ -1,0 +1,688 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.QuoteEntity
+  commentId: T:SuperOffice.WebApi.Data.QuoteEntity
+  id: QuoteEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.QuoteEntity.#ctor
+  - SuperOffice.WebApi.Data.QuoteEntity.AcceptedQuoteAlternativeId
+  - SuperOffice.WebApi.Data.QuoteEntity.ActiveQuoteVersionId
+  - SuperOffice.WebApi.Data.QuoteEntity.DocumentId
+  - SuperOffice.WebApi.Data.QuoteEntity.ERPOrderKey
+  - SuperOffice.WebApi.Data.QuoteEntity.ERPQuoteKey
+  - SuperOffice.WebApi.Data.QuoteEntity.OrderComment
+  - SuperOffice.WebApi.Data.QuoteEntity.PoNumber
+  - SuperOffice.WebApi.Data.QuoteEntity.PreferredEmailCulture
+  - SuperOffice.WebApi.Data.QuoteEntity.QuoteConnectionId
+  - SuperOffice.WebApi.Data.QuoteEntity.QuoteId
+  - SuperOffice.WebApi.Data.QuoteEntity.QuoteVersions
+  - SuperOffice.WebApi.Data.QuoteEntity.SaleId
+  - SuperOffice.WebApi.Data.QuoteEntity.UseValuesFromQuote
+  langs:
+  - csharp
+  - vb
+  name: QuoteEntity
+  nameWithType: QuoteEntity
+  fullName: SuperOffice.WebApi.Data.QuoteEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for QuoteEntity.\nQuote methods    \n"
+  syntax:
+    content: 'public class QuoteEntity : Carrier'
+    content.vb: >-
+      Public Class QuoteEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.QuoteAgent
+    commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.QuoteEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.QuoteEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.QuoteEntity
+  langs:
+  - csharp
+  - vb
+  name: QuoteEntity()
+  nameWithType: QuoteEntity.QuoteEntity()
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.QuoteEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public QuoteEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.QuoteEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.QuoteEntity.QuoteId
+  commentId: P:SuperOffice.WebApi.Data.QuoteEntity.QuoteId
+  id: QuoteId
+  parent: SuperOffice.WebApi.Data.QuoteEntity
+  langs:
+  - csharp
+  - vb
+  name: QuoteId
+  nameWithType: QuoteEntity.QuoteId
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.QuoteId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int QuoteId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property QuoteId As Integer
+  overload: SuperOffice.WebApi.Data.QuoteEntity.QuoteId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteEntity.SaleId
+  commentId: P:SuperOffice.WebApi.Data.QuoteEntity.SaleId
+  id: SaleId
+  parent: SuperOffice.WebApi.Data.QuoteEntity
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: QuoteEntity.SaleId
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.SaleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe foreign key to the corresponding sale\n"
+  syntax:
+    content: public virtual int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleId As Integer
+  overload: SuperOffice.WebApi.Data.QuoteEntity.SaleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteEntity.QuoteConnectionId
+  commentId: P:SuperOffice.WebApi.Data.QuoteEntity.QuoteConnectionId
+  id: QuoteConnectionId
+  parent: SuperOffice.WebApi.Data.QuoteEntity
+  langs:
+  - csharp
+  - vb
+  name: QuoteConnectionId
+  nameWithType: QuoteEntity.QuoteConnectionId
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.QuoteConnectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe connection in the CRM system to where this quote came from. Identifies the ERP connection used for this quote. Each quote is bound to one and only one connection.\n"
+  syntax:
+    content: public virtual int QuoteConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property QuoteConnectionId As Integer
+  overload: SuperOffice.WebApi.Data.QuoteEntity.QuoteConnectionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteEntity.ERPQuoteKey
+  commentId: P:SuperOffice.WebApi.Data.QuoteEntity.ERPQuoteKey
+  id: ERPQuoteKey
+  parent: SuperOffice.WebApi.Data.QuoteEntity
+  langs:
+  - csharp
+  - vb
+  name: ERPQuoteKey
+  nameWithType: QuoteEntity.ERPQuoteKey
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.ERPQuoteKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nForeign key of quote (if available). The key in the ERP system that identifies this sale&apos;s Quote (as opposed to the later Order information)\n"
+  syntax:
+    content: public virtual string ERPQuoteKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ERPQuoteKey As String
+  overload: SuperOffice.WebApi.Data.QuoteEntity.ERPQuoteKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteEntity.ERPOrderKey
+  commentId: P:SuperOffice.WebApi.Data.QuoteEntity.ERPOrderKey
+  id: ERPOrderKey
+  parent: SuperOffice.WebApi.Data.QuoteEntity
+  langs:
+  - csharp
+  - vb
+  name: ERPOrderKey
+  nameWithType: QuoteEntity.ERPOrderKey
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.ERPOrderKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe key in the ERP system that identifies this sale&apos;s Order, as transferred and possibly later edited in the ERP system.  Only filled out if there exists a corresponding order representation of the quote in the ERP system.\n"
+  syntax:
+    content: public virtual string ERPOrderKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ERPOrderKey As String
+  overload: SuperOffice.WebApi.Data.QuoteEntity.ERPOrderKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteEntity.ActiveQuoteVersionId
+  commentId: P:SuperOffice.WebApi.Data.QuoteEntity.ActiveQuoteVersionId
+  id: ActiveQuoteVersionId
+  parent: SuperOffice.WebApi.Data.QuoteEntity
+  langs:
+  - csharp
+  - vb
+  name: ActiveQuoteVersionId
+  nameWithType: QuoteEntity.ActiveQuoteVersionId
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.ActiveQuoteVersionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe primary key of the Quote Version that is currently active. (The active version will always be the latest version.)\n"
+  syntax:
+    content: public virtual int ActiveQuoteVersionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ActiveQuoteVersionId As Integer
+  overload: SuperOffice.WebApi.Data.QuoteEntity.ActiveQuoteVersionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteEntity.AcceptedQuoteAlternativeId
+  commentId: P:SuperOffice.WebApi.Data.QuoteEntity.AcceptedQuoteAlternativeId
+  id: AcceptedQuoteAlternativeId
+  parent: SuperOffice.WebApi.Data.QuoteEntity
+  langs:
+  - csharp
+  - vb
+  name: AcceptedQuoteAlternativeId
+  nameWithType: QuoteEntity.AcceptedQuoteAlternativeId
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.AcceptedQuoteAlternativeId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe primary key of the Quote Alternative which was finally accepted by the customer. Set when the user is marking a quote as accepted.\n"
+  syntax:
+    content: public virtual int AcceptedQuoteAlternativeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AcceptedQuoteAlternativeId As Integer
+  overload: SuperOffice.WebApi.Data.QuoteEntity.AcceptedQuoteAlternativeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteEntity.UseValuesFromQuote
+  commentId: P:SuperOffice.WebApi.Data.QuoteEntity.UseValuesFromQuote
+  id: UseValuesFromQuote
+  parent: SuperOffice.WebApi.Data.QuoteEntity
+  langs:
+  - csharp
+  - vb
+  name: UseValuesFromQuote
+  nameWithType: QuoteEntity.UseValuesFromQuote
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.UseValuesFromQuote
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf true, then the Earning, Earning_Percent and Amount fields are populated from the QuoteVersion.QuoteAlternative (current revision, most-likely alternative).\n"
+  syntax:
+    content: public virtual short UseValuesFromQuote { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property UseValuesFromQuote As Short
+  overload: SuperOffice.WebApi.Data.QuoteEntity.UseValuesFromQuote*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteEntity.DocumentId
+  commentId: P:SuperOffice.WebApi.Data.QuoteEntity.DocumentId
+  id: DocumentId
+  parent: SuperOffice.WebApi.Data.QuoteEntity
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: QuoteEntity.DocumentId
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.DocumentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe ID of the main Quote Document\n"
+  syntax:
+    content: public virtual int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DocumentId As Integer
+  overload: SuperOffice.WebApi.Data.QuoteEntity.DocumentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteEntity.PoNumber
+  commentId: P:SuperOffice.WebApi.Data.QuoteEntity.PoNumber
+  id: PoNumber
+  parent: SuperOffice.WebApi.Data.QuoteEntity
+  langs:
+  - csharp
+  - vb
+  name: PoNumber
+  nameWithType: QuoteEntity.PoNumber
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.PoNumber
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCustomer&apos;s Purchase order number\n"
+  syntax:
+    content: public virtual string PoNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PoNumber As String
+  overload: SuperOffice.WebApi.Data.QuoteEntity.PoNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteEntity.OrderComment
+  commentId: P:SuperOffice.WebApi.Data.QuoteEntity.OrderComment
+  id: OrderComment
+  parent: SuperOffice.WebApi.Data.QuoteEntity
+  langs:
+  - csharp
+  - vb
+  name: OrderComment
+  nameWithType: QuoteEntity.OrderComment
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.OrderComment
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA comment that is intended for the Invoice, Order, Packing list and similar stages - AFTER the quote has become an order and goes to ERP for processing\n"
+  syntax:
+    content: public virtual string OrderComment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property OrderComment As String
+  overload: SuperOffice.WebApi.Data.QuoteEntity.OrderComment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteEntity.PreferredEmailCulture
+  commentId: P:SuperOffice.WebApi.Data.QuoteEntity.PreferredEmailCulture
+  id: PreferredEmailCulture
+  parent: SuperOffice.WebApi.Data.QuoteEntity
+  langs:
+  - csharp
+  - vb
+  name: PreferredEmailCulture
+  nameWithType: QuoteEntity.PreferredEmailCulture
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.PreferredEmailCulture
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhen emails are sent (offer or confirmation), a language can be chosen in the GUI; this field saves the most recent choice and can be used to default the next such choice. Default-default is user&apos;s current language\n"
+  syntax:
+    content: public virtual string PreferredEmailCulture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PreferredEmailCulture As String
+  overload: SuperOffice.WebApi.Data.QuoteEntity.PreferredEmailCulture*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteEntity.QuoteVersions
+  commentId: P:SuperOffice.WebApi.Data.QuoteEntity.QuoteVersions
+  id: QuoteVersions
+  parent: SuperOffice.WebApi.Data.QuoteEntity
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersions
+  nameWithType: QuoteEntity.QuoteVersions
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.QuoteVersions
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nArray og QuoteVersions connected to the quote.\n"
+  syntax:
+    content: public virtual QuoteVersion[] QuoteVersions { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.QuoteVersion[]
+    content.vb: Public Overridable Property QuoteVersions As QuoteVersion()
+  overload: SuperOffice.WebApi.Data.QuoteEntity.QuoteVersions*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.QuoteAgent
+  commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  isExternal: true
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.WebApi.Agents.QuoteAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.QuoteEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteEntity.#ctor
+  isExternal: true
+  name: QuoteEntity
+  nameWithType: QuoteEntity.QuoteEntity
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.QuoteEntity
+- uid: SuperOffice.WebApi.Data.QuoteEntity.QuoteId*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteEntity.QuoteId
+  isExternal: true
+  name: QuoteId
+  nameWithType: QuoteEntity.QuoteId
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.QuoteId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.QuoteEntity.SaleId*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteEntity.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: QuoteEntity.SaleId
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.SaleId
+- uid: SuperOffice.WebApi.Data.QuoteEntity.QuoteConnectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteEntity.QuoteConnectionId
+  isExternal: true
+  name: QuoteConnectionId
+  nameWithType: QuoteEntity.QuoteConnectionId
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.QuoteConnectionId
+- uid: SuperOffice.WebApi.Data.QuoteEntity.ERPQuoteKey*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteEntity.ERPQuoteKey
+  isExternal: true
+  name: ERPQuoteKey
+  nameWithType: QuoteEntity.ERPQuoteKey
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.ERPQuoteKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.QuoteEntity.ERPOrderKey*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteEntity.ERPOrderKey
+  isExternal: true
+  name: ERPOrderKey
+  nameWithType: QuoteEntity.ERPOrderKey
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.ERPOrderKey
+- uid: SuperOffice.WebApi.Data.QuoteEntity.ActiveQuoteVersionId*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteEntity.ActiveQuoteVersionId
+  isExternal: true
+  name: ActiveQuoteVersionId
+  nameWithType: QuoteEntity.ActiveQuoteVersionId
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.ActiveQuoteVersionId
+- uid: SuperOffice.WebApi.Data.QuoteEntity.AcceptedQuoteAlternativeId*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteEntity.AcceptedQuoteAlternativeId
+  isExternal: true
+  name: AcceptedQuoteAlternativeId
+  nameWithType: QuoteEntity.AcceptedQuoteAlternativeId
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.AcceptedQuoteAlternativeId
+- uid: SuperOffice.WebApi.Data.QuoteEntity.UseValuesFromQuote*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteEntity.UseValuesFromQuote
+  isExternal: true
+  name: UseValuesFromQuote
+  nameWithType: QuoteEntity.UseValuesFromQuote
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.UseValuesFromQuote
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.QuoteEntity.DocumentId*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteEntity.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: QuoteEntity.DocumentId
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.DocumentId
+- uid: SuperOffice.WebApi.Data.QuoteEntity.PoNumber*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteEntity.PoNumber
+  isExternal: true
+  name: PoNumber
+  nameWithType: QuoteEntity.PoNumber
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.PoNumber
+- uid: SuperOffice.WebApi.Data.QuoteEntity.OrderComment*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteEntity.OrderComment
+  isExternal: true
+  name: OrderComment
+  nameWithType: QuoteEntity.OrderComment
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.OrderComment
+- uid: SuperOffice.WebApi.Data.QuoteEntity.PreferredEmailCulture*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteEntity.PreferredEmailCulture
+  isExternal: true
+  name: PreferredEmailCulture
+  nameWithType: QuoteEntity.PreferredEmailCulture
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.PreferredEmailCulture
+- uid: SuperOffice.WebApi.Data.QuoteEntity.QuoteVersions*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteEntity.QuoteVersions
+  isExternal: true
+  name: QuoteVersions
+  nameWithType: QuoteEntity.QuoteVersions
+  fullName: SuperOffice.WebApi.Data.QuoteEntity.QuoteVersions
+- uid: SuperOffice.WebApi.Data.QuoteVersion[]
+  isExternal: true
+  name: QuoteVersion[]
+  nameWithType: QuoteVersion[]
+  fullName: SuperOffice.WebApi.Data.QuoteVersion[]
+  nameWithType.vb: QuoteVersion()
+  fullName.vb: SuperOffice.WebApi.Data.QuoteVersion()
+  name.vb: QuoteVersion()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.QuoteVersion
+    name: QuoteVersion
+    nameWithType: QuoteVersion
+    fullName: SuperOffice.WebApi.Data.QuoteVersion
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.QuoteVersion
+    name: QuoteVersion
+    nameWithType: QuoteVersion
+    fullName: SuperOffice.WebApi.Data.QuoteVersion
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -1,0 +1,1261 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Diagnostics.SoTimer
+  commentId: T:SuperOffice.Diagnostics.SoTimer
+  id: SoTimer
+  parent: SuperOffice.Diagnostics
+  children:
+  - SuperOffice.Diagnostics.SoTimer.#ctor(SuperOffice.Diagnostics.SoTimerType,System.String,SuperOffice.Diagnostics.DeferredToString)
+  - SuperOffice.Diagnostics.SoTimer.#ctor(SuperOffice.Diagnostics.SoTimerType,System.String,System.Func{System.String})
+  - SuperOffice.Diagnostics.SoTimer.#ctor(SuperOffice.Diagnostics.SoTimerType,System.String,System.String)
+  - SuperOffice.Diagnostics.SoTimer.Count
+  - SuperOffice.Diagnostics.SoTimer.Dispose
+  - SuperOffice.Diagnostics.SoTimer.Elapsed
+  - SuperOffice.Diagnostics.SoTimer.End
+  - SuperOffice.Diagnostics.SoTimer.Increment
+  - SuperOffice.Diagnostics.SoTimer.Lap(System.Func{System.String})
+  - SuperOffice.Diagnostics.SoTimer.Lap(System.String)
+  - SuperOffice.Diagnostics.SoTimer.Split(System.Func{System.String})
+  - SuperOffice.Diagnostics.SoTimer.Split(System.String)
+  - SuperOffice.Diagnostics.SoTimer.Start(SuperOffice.Diagnostics.SoTimerType,System.String,SuperOffice.Diagnostics.DeferredToString)
+  - SuperOffice.Diagnostics.SoTimer.Start(SuperOffice.Diagnostics.SoTimerType,System.String,System.Func{System.String})
+  - SuperOffice.Diagnostics.SoTimer.Start(SuperOffice.Diagnostics.SoTimerType,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: SoTimer
+  nameWithType: SoTimer
+  fullName: SuperOffice.Diagnostics.SoTimer
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nDisposable class used for timing operations being carried out by NetServer\n"
+  syntax:
+    content: 'public sealed class SoTimer : IDisposable'
+    content.vb: >-
+      Public NotInheritable Class SoTimer
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Diagnostics.SoTimer.EnumUtil.MapEnums``2
+  - SuperOffice.Diagnostics.SoTimer.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Diagnostics.SoTimer.#ctor(SuperOffice.Diagnostics.SoTimerType,System.String,SuperOffice.Diagnostics.DeferredToString)
+  commentId: M:SuperOffice.Diagnostics.SoTimer.#ctor(SuperOffice.Diagnostics.SoTimerType,System.String,SuperOffice.Diagnostics.DeferredToString)
+  id: '#ctor(SuperOffice.Diagnostics.SoTimerType,System.String,SuperOffice.Diagnostics.DeferredToString)'
+  parent: SuperOffice.Diagnostics.SoTimer
+  langs:
+  - csharp
+  - vb
+  name: SoTimer(SoTimerType, String, DeferredToString)
+  nameWithType: SoTimer.SoTimer(SoTimerType, String, DeferredToString)
+  fullName: SuperOffice.Diagnostics.SoTimer.SoTimer(SuperOffice.Diagnostics.SoTimerType, System.String, SuperOffice.Diagnostics.DeferredToString)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nCreate a new instance of SoTimer and start timing.  Dispose will stop timing.\n"
+  syntax:
+    content: public SoTimer(SoTimerType type, string category, DeferredToString description)
+    parameters:
+    - id: type
+      type: SuperOffice.Diagnostics.SoTimerType
+      description: Type of item to time
+    - id: category
+      type: System.String
+      description: Category
+    - id: description
+      type: SuperOffice.Diagnostics.DeferredToString
+      description: "Description.  This can be coslty to calculate (like a select statement), \nhence it is only calculated when needed."
+    content.vb: Public Sub New(type As SoTimerType, category As String, description As DeferredToString)
+  overload: SuperOffice.Diagnostics.SoTimer.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.SoTimer.#ctor(SuperOffice.Diagnostics.SoTimerType,System.String,System.Func{System.String})
+  commentId: M:SuperOffice.Diagnostics.SoTimer.#ctor(SuperOffice.Diagnostics.SoTimerType,System.String,System.Func{System.String})
+  id: '#ctor(SuperOffice.Diagnostics.SoTimerType,System.String,System.Func{System.String})'
+  parent: SuperOffice.Diagnostics.SoTimer
+  langs:
+  - csharp
+  - vb
+  name: SoTimer(SoTimerType, String, Func<String>)
+  nameWithType: SoTimer.SoTimer(SoTimerType, String, Func<String>)
+  fullName: SuperOffice.Diagnostics.SoTimer.SoTimer(SuperOffice.Diagnostics.SoTimerType, System.String, System.Func<System.String>)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nCreate a new instance of SoTimer and start timing.  Dispose will stop timing.\n"
+  syntax:
+    content: public SoTimer(SoTimerType type, string category, Func<string> description)
+    parameters:
+    - id: type
+      type: SuperOffice.Diagnostics.SoTimerType
+      description: Type of item to time
+    - id: category
+      type: System.String
+      description: Category
+    - id: description
+      type: System.Func{System.String}
+      description: "Description.  This can be coslty to calculate (like a select statement), \nhence it is only calculated when needed."
+    content.vb: Public Sub New(type As SoTimerType, category As String, description As Func(Of String))
+  overload: SuperOffice.Diagnostics.SoTimer.#ctor*
+  nameWithType.vb: SoTimer.SoTimer(SoTimerType, String, Func(Of String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Diagnostics.SoTimer.SoTimer(SuperOffice.Diagnostics.SoTimerType, System.String, System.Func(Of System.String))
+  name.vb: SoTimer(SoTimerType, String, Func(Of String))
+- uid: SuperOffice.Diagnostics.SoTimer.#ctor(SuperOffice.Diagnostics.SoTimerType,System.String,System.String)
+  commentId: M:SuperOffice.Diagnostics.SoTimer.#ctor(SuperOffice.Diagnostics.SoTimerType,System.String,System.String)
+  id: '#ctor(SuperOffice.Diagnostics.SoTimerType,System.String,System.String)'
+  parent: SuperOffice.Diagnostics.SoTimer
+  langs:
+  - csharp
+  - vb
+  name: SoTimer(SoTimerType, String, String)
+  nameWithType: SoTimer.SoTimer(SoTimerType, String, String)
+  fullName: SuperOffice.Diagnostics.SoTimer.SoTimer(SuperOffice.Diagnostics.SoTimerType, System.String, System.String)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nCreate a new instance of SoTimer and start timing.  Dispose will stop timing.\n"
+  syntax:
+    content: public SoTimer(SoTimerType type, string category, string description)
+    parameters:
+    - id: type
+      type: SuperOffice.Diagnostics.SoTimerType
+      description: Type of item to time
+    - id: category
+      type: System.String
+      description: Category
+    - id: description
+      type: System.String
+      description: Description, use one of the other constructors if the description is costly to calculate.
+    content.vb: Public Sub New(type As SoTimerType, category As String, description As String)
+  overload: SuperOffice.Diagnostics.SoTimer.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.SoTimer.Start(SuperOffice.Diagnostics.SoTimerType,System.String,SuperOffice.Diagnostics.DeferredToString)
+  commentId: M:SuperOffice.Diagnostics.SoTimer.Start(SuperOffice.Diagnostics.SoTimerType,System.String,SuperOffice.Diagnostics.DeferredToString)
+  id: Start(SuperOffice.Diagnostics.SoTimerType,System.String,SuperOffice.Diagnostics.DeferredToString)
+  parent: SuperOffice.Diagnostics.SoTimer
+  langs:
+  - csharp
+  - vb
+  name: Start(SoTimerType, String, DeferredToString)
+  nameWithType: SoTimer.Start(SoTimerType, String, DeferredToString)
+  fullName: SuperOffice.Diagnostics.SoTimer.Start(SuperOffice.Diagnostics.SoTimerType, System.String, SuperOffice.Diagnostics.DeferredToString)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nStart a timing operation.\n"
+  syntax:
+    content: public static SoTimer Start(SoTimerType type, string category, DeferredToString description)
+    parameters:
+    - id: type
+      type: SuperOffice.Diagnostics.SoTimerType
+      description: Type of item to time
+    - id: category
+      type: System.String
+      description: 'Category like: Database, Services, WebRequest, etc.'
+    - id: description
+      type: SuperOffice.Diagnostics.DeferredToString
+      description: Brief information about what is being timed.
+    return:
+      type: SuperOffice.Diagnostics.SoTimer
+      description: Timer object
+    content.vb: Public Shared Function Start(type As SoTimerType, category As String, description As DeferredToString) As SoTimer
+  overload: SuperOffice.Diagnostics.SoTimer.Start*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Diagnostics.SoTimer.Start(SuperOffice.Diagnostics.SoTimerType,System.String,System.String)
+  commentId: M:SuperOffice.Diagnostics.SoTimer.Start(SuperOffice.Diagnostics.SoTimerType,System.String,System.String)
+  id: Start(SuperOffice.Diagnostics.SoTimerType,System.String,System.String)
+  parent: SuperOffice.Diagnostics.SoTimer
+  langs:
+  - csharp
+  - vb
+  name: Start(SoTimerType, String, String)
+  nameWithType: SoTimer.Start(SoTimerType, String, String)
+  fullName: SuperOffice.Diagnostics.SoTimer.Start(SuperOffice.Diagnostics.SoTimerType, System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nStart a timing operation.\n"
+  syntax:
+    content: public static SoTimer Start(SoTimerType type, string category, string description)
+    parameters:
+    - id: type
+      type: SuperOffice.Diagnostics.SoTimerType
+      description: Type of item to time
+    - id: category
+      type: System.String
+      description: 'Category like: Database, Services, WebRequest, etc.'
+    - id: description
+      type: System.String
+      description: Brief information about what is being timed.
+    return:
+      type: SuperOffice.Diagnostics.SoTimer
+      description: Timer object
+    content.vb: Public Shared Function Start(type As SoTimerType, category As String, description As String) As SoTimer
+  overload: SuperOffice.Diagnostics.SoTimer.Start*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Diagnostics.SoTimer.Start(SuperOffice.Diagnostics.SoTimerType,System.String,System.Func{System.String})
+  commentId: M:SuperOffice.Diagnostics.SoTimer.Start(SuperOffice.Diagnostics.SoTimerType,System.String,System.Func{System.String})
+  id: Start(SuperOffice.Diagnostics.SoTimerType,System.String,System.Func{System.String})
+  parent: SuperOffice.Diagnostics.SoTimer
+  langs:
+  - csharp
+  - vb
+  name: Start(SoTimerType, String, Func<String>)
+  nameWithType: SoTimer.Start(SoTimerType, String, Func<String>)
+  fullName: SuperOffice.Diagnostics.SoTimer.Start(SuperOffice.Diagnostics.SoTimerType, System.String, System.Func<System.String>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nStart a timing operation.\n"
+  syntax:
+    content: public static SoTimer Start(SoTimerType type, string category, Func<string> description)
+    parameters:
+    - id: type
+      type: SuperOffice.Diagnostics.SoTimerType
+      description: Type of item to time
+    - id: category
+      type: System.String
+      description: 'Category like: Database, Services, WebRequest, etc.'
+    - id: description
+      type: System.Func{System.String}
+      description: Brief information about what is being timed.
+    return:
+      type: SuperOffice.Diagnostics.SoTimer
+      description: Timer object
+    content.vb: Public Shared Function Start(type As SoTimerType, category As String, description As Func(Of String)) As SoTimer
+  overload: SuperOffice.Diagnostics.SoTimer.Start*
+  nameWithType.vb: SoTimer.Start(SoTimerType, String, Func(Of String))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Diagnostics.SoTimer.Start(SuperOffice.Diagnostics.SoTimerType, System.String, System.Func(Of System.String))
+  name.vb: Start(SoTimerType, String, Func(Of String))
+- uid: SuperOffice.Diagnostics.SoTimer.Split(System.String)
+  commentId: M:SuperOffice.Diagnostics.SoTimer.Split(System.String)
+  id: Split(System.String)
+  parent: SuperOffice.Diagnostics.SoTimer
+  langs:
+  - csharp
+  - vb
+  name: Split(String)
+  nameWithType: SoTimer.Split(String)
+  fullName: SuperOffice.Diagnostics.SoTimer.Split(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nGet a split timer: time since start time.\n"
+  syntax:
+    content: public TimeSpan Split(string description)
+    parameters:
+    - id: description
+      type: System.String
+      description: Description of what the split time is for.
+    return:
+      type: System.TimeSpan
+      description: Duration since start time
+    content.vb: Public Function Split(description As String) As TimeSpan
+  overload: SuperOffice.Diagnostics.SoTimer.Split*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.SoTimer.Split(System.Func{System.String})
+  commentId: M:SuperOffice.Diagnostics.SoTimer.Split(System.Func{System.String})
+  id: Split(System.Func{System.String})
+  parent: SuperOffice.Diagnostics.SoTimer
+  langs:
+  - csharp
+  - vb
+  name: Split(Func<String>)
+  nameWithType: SoTimer.Split(Func<String>)
+  fullName: SuperOffice.Diagnostics.SoTimer.Split(System.Func<System.String>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nGet a split timer: time since start time.\n"
+  syntax:
+    content: public TimeSpan Split(Func<string> description)
+    parameters:
+    - id: description
+      type: System.Func{System.String}
+      description: Description of what the split time is for.
+    return:
+      type: System.TimeSpan
+      description: Duration since start time
+    content.vb: Public Function Split(description As Func(Of String)) As TimeSpan
+  overload: SuperOffice.Diagnostics.SoTimer.Split*
+  nameWithType.vb: SoTimer.Split(Func(Of String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Diagnostics.SoTimer.Split(System.Func(Of System.String))
+  name.vb: Split(Func(Of String))
+- uid: SuperOffice.Diagnostics.SoTimer.Lap(System.String)
+  commentId: M:SuperOffice.Diagnostics.SoTimer.Lap(System.String)
+  id: Lap(System.String)
+  parent: SuperOffice.Diagnostics.SoTimer
+  langs:
+  - csharp
+  - vb
+  name: Lap(String)
+  nameWithType: SoTimer.Lap(String)
+  fullName: SuperOffice.Diagnostics.SoTimer.Lap(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nGet lap time: time since last time Lap time is obtained, or start if no lap time is previously obtained\n"
+  syntax:
+    content: public TimeSpan Lap(string description)
+    parameters:
+    - id: description
+      type: System.String
+      description: Description of what the lap time is for.
+    return:
+      type: System.TimeSpan
+      description: Duration since last lap (or start on the first lap)
+    content.vb: Public Function Lap(description As String) As TimeSpan
+  overload: SuperOffice.Diagnostics.SoTimer.Lap*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.SoTimer.Lap(System.Func{System.String})
+  commentId: M:SuperOffice.Diagnostics.SoTimer.Lap(System.Func{System.String})
+  id: Lap(System.Func{System.String})
+  parent: SuperOffice.Diagnostics.SoTimer
+  langs:
+  - csharp
+  - vb
+  name: Lap(Func<String>)
+  nameWithType: SoTimer.Lap(Func<String>)
+  fullName: SuperOffice.Diagnostics.SoTimer.Lap(System.Func<System.String>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nGet lap time: time since last time Lap time is obtained, or start if no lap time is previously obtained\n"
+  syntax:
+    content: public TimeSpan Lap(Func<string> description)
+    parameters:
+    - id: description
+      type: System.Func{System.String}
+      description: Description of what the lap time is for.
+    return:
+      type: System.TimeSpan
+      description: Duration since last lap (or start on the first lap)
+    content.vb: Public Function Lap(description As Func(Of String)) As TimeSpan
+  overload: SuperOffice.Diagnostics.SoTimer.Lap*
+  nameWithType.vb: SoTimer.Lap(Func(Of String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Diagnostics.SoTimer.Lap(System.Func(Of System.String))
+  name.vb: Lap(Func(Of String))
+- uid: SuperOffice.Diagnostics.SoTimer.End
+  commentId: M:SuperOffice.Diagnostics.SoTimer.End
+  id: End
+  parent: SuperOffice.Diagnostics.SoTimer
+  langs:
+  - csharp
+  - vb
+  name: End()
+  nameWithType: SoTimer.End()
+  fullName: SuperOffice.Diagnostics.SoTimer.End()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public TimeSpan End()
+    return:
+      type: System.TimeSpan
+    content.vb: Public Function End As TimeSpan
+  overload: SuperOffice.Diagnostics.SoTimer.End*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.SoTimer.Dispose
+  commentId: M:SuperOffice.Diagnostics.SoTimer.Dispose
+  id: Dispose
+  parent: SuperOffice.Diagnostics.SoTimer
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: SoTimer.Dispose()
+  fullName: SuperOffice.Diagnostics.SoTimer.Dispose()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nStop the timing.\n"
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: SuperOffice.Diagnostics.SoTimer.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.SoTimer.Increment
+  commentId: M:SuperOffice.Diagnostics.SoTimer.Increment
+  id: Increment
+  parent: SuperOffice.Diagnostics.SoTimer
+  langs:
+  - csharp
+  - vb
+  name: Increment()
+  nameWithType: SoTimer.Increment()
+  fullName: SuperOffice.Diagnostics.SoTimer.Increment()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public void Increment()
+    content.vb: Public Sub Increment
+  overload: SuperOffice.Diagnostics.SoTimer.Increment*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.SoTimer.Count
+  commentId: P:SuperOffice.Diagnostics.SoTimer.Count
+  id: Count
+  parent: SuperOffice.Diagnostics.SoTimer
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: SoTimer.Count
+  fullName: SuperOffice.Diagnostics.SoTimer.Count
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Count As Integer
+  overload: SuperOffice.Diagnostics.SoTimer.Count*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Diagnostics.SoTimer.Elapsed
+  commentId: P:SuperOffice.Diagnostics.SoTimer.Elapsed
+  id: Elapsed
+  parent: SuperOffice.Diagnostics.SoTimer
+  langs:
+  - csharp
+  - vb
+  name: Elapsed
+  nameWithType: SoTimer.Elapsed
+  fullName: SuperOffice.Diagnostics.SoTimer.Elapsed
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nGet the elapsed time without further ado.\n"
+  syntax:
+    content: public TimeSpan Elapsed { get; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: Public ReadOnly Property Elapsed As TimeSpan
+  overload: SuperOffice.Diagnostics.SoTimer.Elapsed*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.SoTimer.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoTimer, To>()
+  nameWithType: EnumUtil.MapEnums<SoTimer, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.SoTimer, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoTimer, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.SoTimer, To)()
+  name.vb: MapEnums(Of SoTimer, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoTimer, To>
+    nameWithType: EnumUtil.MapEnums<SoTimer, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.SoTimer, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoTimer, To)
+    nameWithType: EnumUtil.MapEnums(Of SoTimer, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.SoTimer, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.SoTimer.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoTimer, To>()
+  nameWithType: Converters.MapEnums<SoTimer, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.SoTimer, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoTimer, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.SoTimer, To)()
+  name.vb: MapEnums(Of SoTimer, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoTimer, To>
+    nameWithType: Converters.MapEnums<SoTimer, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.SoTimer, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoTimer, To)
+    nameWithType: Converters.MapEnums(Of SoTimer, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.SoTimer, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Diagnostics.SoTimer.#ctor*
+  commentId: Overload:SuperOffice.Diagnostics.SoTimer.#ctor
+  isExternal: true
+  name: SoTimer
+  nameWithType: SoTimer.SoTimer
+  fullName: SuperOffice.Diagnostics.SoTimer.SoTimer
+- uid: SuperOffice.Diagnostics.SoTimerType
+  commentId: T:SuperOffice.Diagnostics.SoTimerType
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: SoTimerType
+  nameWithType: SoTimerType
+  fullName: SuperOffice.Diagnostics.SoTimerType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Diagnostics.DeferredToString
+  commentId: T:SuperOffice.Diagnostics.DeferredToString
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: DeferredToString
+  nameWithType: DeferredToString
+  fullName: SuperOffice.Diagnostics.DeferredToString
+- uid: System.Func{System.String}
+  commentId: T:System.Func{System.String}
+  parent: System
+  definition: System.Func`1
+  name: Func<String>
+  nameWithType: Func<String>
+  fullName: System.Func<System.String>
+  nameWithType.vb: Func(Of String)
+  fullName.vb: System.Func(Of System.String)
+  name.vb: Func(Of String)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.SoTimer.Start*
+  commentId: Overload:SuperOffice.Diagnostics.SoTimer.Start
+  isExternal: true
+  name: Start
+  nameWithType: SoTimer.Start
+  fullName: SuperOffice.Diagnostics.SoTimer.Start
+- uid: SuperOffice.Diagnostics.SoTimer
+  commentId: T:SuperOffice.Diagnostics.SoTimer
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: SoTimer
+  nameWithType: SoTimer
+  fullName: SuperOffice.Diagnostics.SoTimer
+- uid: SuperOffice.Diagnostics.SoTimer.Split*
+  commentId: Overload:SuperOffice.Diagnostics.SoTimer.Split
+  isExternal: true
+  name: Split
+  nameWithType: SoTimer.Split
+  fullName: SuperOffice.Diagnostics.SoTimer.Split
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: SuperOffice.Diagnostics.SoTimer.Lap*
+  commentId: Overload:SuperOffice.Diagnostics.SoTimer.Lap
+  isExternal: true
+  name: Lap
+  nameWithType: SoTimer.Lap
+  fullName: SuperOffice.Diagnostics.SoTimer.Lap
+- uid: SuperOffice.Diagnostics.SoTimer.End*
+  commentId: Overload:SuperOffice.Diagnostics.SoTimer.End
+  isExternal: true
+  name: End
+  nameWithType: SoTimer.End
+  fullName: SuperOffice.Diagnostics.SoTimer.End
+- uid: SuperOffice.Diagnostics.SoTimer.Dispose*
+  commentId: Overload:SuperOffice.Diagnostics.SoTimer.Dispose
+  isExternal: true
+  name: Dispose
+  nameWithType: SoTimer.Dispose
+  fullName: SuperOffice.Diagnostics.SoTimer.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.SoTimer.Increment*
+  commentId: Overload:SuperOffice.Diagnostics.SoTimer.Increment
+  isExternal: true
+  name: Increment
+  nameWithType: SoTimer.Increment
+  fullName: SuperOffice.Diagnostics.SoTimer.Increment
+- uid: SuperOffice.Diagnostics.SoTimer.Count*
+  commentId: Overload:SuperOffice.Diagnostics.SoTimer.Count
+  isExternal: true
+  name: Count
+  nameWithType: SoTimer.Count
+  fullName: SuperOffice.Diagnostics.SoTimer.Count
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Diagnostics.SoTimer.Elapsed*
+  commentId: Overload:SuperOffice.Diagnostics.SoTimer.Elapsed
+  isExternal: true
+  name: Elapsed
+  nameWithType: SoTimer.Elapsed
+  fullName: SuperOffice.Diagnostics.SoTimer.Elapsed

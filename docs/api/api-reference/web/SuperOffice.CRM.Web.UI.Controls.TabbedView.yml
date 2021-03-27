@@ -1,0 +1,1157 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedView
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.TabbedView
+  id: TabbedView
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.TabbedView.#ctor
+  - SuperOffice.CRM.Web.UI.Controls.TabbedView._renderTabs
+  - SuperOffice.CRM.Web.UI.Controls.TabbedView._tabBar
+  - SuperOffice.CRM.Web.UI.Controls.TabbedView._tabMode
+  - SuperOffice.CRM.Web.UI.Controls.TabbedView.AddTabItem(System.Web.UI.Control)
+  - SuperOffice.CRM.Web.UI.Controls.TabbedView.DataBind
+  - SuperOffice.CRM.Web.UI.Controls.TabbedView.Initialize(System.Xml.XmlNode,System.String)
+  - SuperOffice.CRM.Web.UI.Controls.TabbedView.OnLoad(System.EventArgs)
+  - SuperOffice.CRM.Web.UI.Controls.TabbedView.TabItemClicked(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: TabbedView
+  nameWithType: TabbedView
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedView
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: >-
+      [SoWebObject("TabbedView")]
+
+      public class TabbedView : PlainView, IView, ILayout, IHasSchema
+    content.vb: >-
+      <SoWebObject("TabbedView")>
+
+      Public Class TabbedView
+          Inherits PlainView
+          Implements IView, ILayout, IHasSchema
+  inheritance:
+  - System.Object
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase
+  - SuperOffice.CRM.Web.UI.Controls.PlainView
+  implements:
+  - SuperOffice.DCF.Web.UI.IView
+  - SuperOffice.DCF.Web.UI.ILayout
+  - SuperOffice.Configuration.IHasSchema
+  inheritedMembers:
+  - SuperOffice.CRM.Web.UI.Controls.PlainView.SoProtocol
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase._hasNoEntityLink
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.AddBorders
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.ResizeView(System.Web.UI.WebControls.Panel,System.Web.UI.WebControls.Panel)
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.HasTabGroups(System.Xml.XmlNode)
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.TabGroupControls(System.Xml.XmlNode)
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.PrimaryCurrentChanged
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.ControlGroups
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.TheView
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.ControlGroupCollection
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.Caption
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.CaptionBinding
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.Tooltip
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.TooltipBinding
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.IconHint
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.ID
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.SoProtocolName
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.Current
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.SetCurrent
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.Size
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.ContainerSize
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.Selected
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.Visible
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.ReadOnly
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.RenderMode
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.DisableOnEdit
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.EditMode
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.DataSourceName
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.DataSource
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.ParentCard
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.MinWidth
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.LayoutPosition
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.Position
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.Top
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.BackgroundColor
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.Left
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.Right
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.Bottom
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.Width
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.Height
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.ZIndex
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.Overflow
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.Visibility
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.Column
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.Row
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.RowSpan
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.ColSpan
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.ConfigurationSchema
+  - SuperOffice.DCF.Web.UI.Controls.ViewBase.VisibilityBinding
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: TabbedView
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedView._tabMode
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabbedView._tabMode
+  id: _tabMode
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedView
+  langs:
+  - csharp
+  - vb
+  name: _tabMode
+  nameWithType: TabbedView._tabMode
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedView._tabMode
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected TabMode _tabMode
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.TabMode
+    content.vb: Protected _tabMode As TabMode
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedView._tabBar
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabbedView._tabBar
+  id: _tabBar
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedView
+  langs:
+  - csharp
+  - vb
+  name: _tabBar
+  nameWithType: TabbedView._tabBar
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedView._tabBar
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected Tab _tabBar
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.Tab
+    content.vb: Protected _tabBar As Tab
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedView._renderTabs
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.TabbedView._renderTabs
+  id: _renderTabs
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedView
+  langs:
+  - csharp
+  - vb
+  name: _renderTabs
+  nameWithType: TabbedView._renderTabs
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedView._renderTabs
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected bool _renderTabs
+    return:
+      type: System.Boolean
+    content.vb: Protected _renderTabs As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedView.Initialize(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.TabbedView.Initialize(System.Xml.XmlNode,System.String)
+  id: Initialize(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedView
+  langs:
+  - csharp
+  - vb
+  name: Initialize(XmlNode, String)
+  nameWithType: TabbedView.Initialize(XmlNode, String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedView.Initialize(System.Xml.XmlNode, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public override void Initialize(XmlNode config, string id)
+    parameters:
+    - id: config
+      type: System.Xml.XmlNode
+    - id: id
+      type: System.String
+    content.vb: Public Overrides Sub Initialize(config As XmlNode, id As String)
+  overridden: SuperOffice.CRM.Web.UI.Controls.PlainView.Initialize(System.Xml.XmlNode,System.String)
+  overload: SuperOffice.CRM.Web.UI.Controls.TabbedView.Initialize*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedView.TabItemClicked(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.TabbedView.TabItemClicked(System.String,System.String)
+  id: TabItemClicked(System.String,System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedView
+  langs:
+  - csharp
+  - vb
+  name: TabItemClicked(String, String)
+  nameWithType: TabbedView.TabItemClicked(String, String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedView.TabItemClicked(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public void TabItemClicked(string tabControlName, string viewId)
+    parameters:
+    - id: tabControlName
+      type: System.String
+    - id: viewId
+      type: System.String
+    content.vb: Public Sub TabItemClicked(tabControlName As String, viewId As String)
+  overload: SuperOffice.CRM.Web.UI.Controls.TabbedView.TabItemClicked*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedView.OnLoad(System.EventArgs)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.TabbedView.OnLoad(System.EventArgs)
+  id: OnLoad(System.EventArgs)
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedView
+  langs:
+  - csharp
+  - vb
+  name: OnLoad(EventArgs)
+  nameWithType: TabbedView.OnLoad(EventArgs)
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedView.OnLoad(System.EventArgs)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override void OnLoad(EventArgs e)
+    parameters:
+    - id: e
+      type: System.EventArgs
+    content.vb: Protected Overrides Sub OnLoad(e As EventArgs)
+  overridden: SuperOffice.CRM.Web.UI.Controls.PlainView.OnLoad(System.EventArgs)
+  overload: SuperOffice.CRM.Web.UI.Controls.TabbedView.OnLoad*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedView.DataBind
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.TabbedView.DataBind
+  id: DataBind
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedView
+  langs:
+  - csharp
+  - vb
+  name: DataBind()
+  nameWithType: TabbedView.DataBind()
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedView.DataBind()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public override void DataBind()
+    content.vb: Public Overrides Sub DataBind
+  overridden: SuperOffice.DCF.Web.UI.Controls.ViewBase.DataBind
+  overload: SuperOffice.CRM.Web.UI.Controls.TabbedView.DataBind*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedView.AddTabItem(System.Web.UI.Control)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.TabbedView.AddTabItem(System.Web.UI.Control)
+  id: AddTabItem(System.Web.UI.Control)
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedView
+  langs:
+  - csharp
+  - vb
+  name: AddTabItem(Control)
+  nameWithType: TabbedView.AddTabItem(Control)
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedView.AddTabItem(System.Web.UI.Control)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected virtual void AddTabItem(Control controlGroup)
+    parameters:
+    - id: controlGroup
+      type: System.Web.UI.Control
+    content.vb: Protected Overridable Sub AddTabItem(controlGroup As Control)
+  overload: SuperOffice.CRM.Web.UI.Controls.TabbedView.AddTabItem*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedView.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.TabbedView.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.Controls.TabbedView
+  langs:
+  - csharp
+  - vb
+  name: TabbedView()
+  nameWithType: TabbedView.TabbedView()
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedView.TabbedView()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public TabbedView()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.Controls.TabbedView.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.ViewBase
+  parent: SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: ViewBase
+  nameWithType: ViewBase
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase
+- uid: SuperOffice.CRM.Web.UI.Controls.PlainView
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.PlainView
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: PlainView
+  nameWithType: PlainView
+  fullName: SuperOffice.CRM.Web.UI.Controls.PlainView
+- uid: SuperOffice.DCF.Web.UI.IView
+  commentId: T:SuperOffice.DCF.Web.UI.IView
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: IView
+  nameWithType: IView
+  fullName: SuperOffice.DCF.Web.UI.IView
+- uid: SuperOffice.DCF.Web.UI.ILayout
+  commentId: T:SuperOffice.DCF.Web.UI.ILayout
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: ILayout
+  nameWithType: ILayout
+  fullName: SuperOffice.DCF.Web.UI.ILayout
+- uid: SuperOffice.Configuration.IHasSchema
+  commentId: T:SuperOffice.Configuration.IHasSchema
+  parent: SuperOffice.Configuration
+  isExternal: true
+  name: IHasSchema
+  nameWithType: IHasSchema
+  fullName: SuperOffice.Configuration.IHasSchema
+- uid: SuperOffice.CRM.Web.UI.Controls.PlainView.SoProtocol
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.PlainView.SoProtocol
+  parent: SuperOffice.CRM.Web.UI.Controls.PlainView
+  isExternal: true
+  name: SoProtocol
+  nameWithType: PlainView.SoProtocol
+  fullName: SuperOffice.CRM.Web.UI.Controls.PlainView.SoProtocol
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase._hasNoEntityLink
+  commentId: F:SuperOffice.DCF.Web.UI.Controls.ViewBase._hasNoEntityLink
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: _hasNoEntityLink
+  nameWithType: ViewBase._hasNoEntityLink
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase._hasNoEntityLink
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.AddBorders
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ViewBase.AddBorders
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: AddBorders()
+  nameWithType: ViewBase.AddBorders()
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.AddBorders()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.AddBorders
+    name: AddBorders
+    nameWithType: ViewBase.AddBorders
+    fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.AddBorders
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.AddBorders
+    name: AddBorders
+    nameWithType: ViewBase.AddBorders
+    fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.AddBorders
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.ResizeView(System.Web.UI.WebControls.Panel,System.Web.UI.WebControls.Panel)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ViewBase.ResizeView(System.Web.UI.WebControls.Panel,System.Web.UI.WebControls.Panel)
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: ResizeView(Panel, Panel)
+  nameWithType: ViewBase.ResizeView(Panel, Panel)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.ResizeView(System.Web.UI.WebControls.Panel, System.Web.UI.WebControls.Panel)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.ResizeView(System.Web.UI.WebControls.Panel,System.Web.UI.WebControls.Panel)
+    name: ResizeView
+    nameWithType: ViewBase.ResizeView
+    fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.ResizeView
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.WebControls.Panel
+    name: Panel
+    nameWithType: Panel
+    fullName: System.Web.UI.WebControls.Panel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Web.UI.WebControls.Panel
+    name: Panel
+    nameWithType: Panel
+    fullName: System.Web.UI.WebControls.Panel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.ResizeView(System.Web.UI.WebControls.Panel,System.Web.UI.WebControls.Panel)
+    name: ResizeView
+    nameWithType: ViewBase.ResizeView
+    fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.ResizeView
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.WebControls.Panel
+    name: Panel
+    nameWithType: Panel
+    fullName: System.Web.UI.WebControls.Panel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Web.UI.WebControls.Panel
+    name: Panel
+    nameWithType: Panel
+    fullName: System.Web.UI.WebControls.Panel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.HasTabGroups(System.Xml.XmlNode)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ViewBase.HasTabGroups(System.Xml.XmlNode)
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: HasTabGroups(XmlNode)
+  nameWithType: ViewBase.HasTabGroups(XmlNode)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.HasTabGroups(System.Xml.XmlNode)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.HasTabGroups(System.Xml.XmlNode)
+    name: HasTabGroups
+    nameWithType: ViewBase.HasTabGroups
+    fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.HasTabGroups
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.HasTabGroups(System.Xml.XmlNode)
+    name: HasTabGroups
+    nameWithType: ViewBase.HasTabGroups
+    fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.HasTabGroups
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.TabGroupControls(System.Xml.XmlNode)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ViewBase.TabGroupControls(System.Xml.XmlNode)
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: TabGroupControls(XmlNode)
+  nameWithType: ViewBase.TabGroupControls(XmlNode)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.TabGroupControls(System.Xml.XmlNode)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.TabGroupControls(System.Xml.XmlNode)
+    name: TabGroupControls
+    nameWithType: ViewBase.TabGroupControls
+    fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.TabGroupControls
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.TabGroupControls(System.Xml.XmlNode)
+    name: TabGroupControls
+    nameWithType: ViewBase.TabGroupControls
+    fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.TabGroupControls
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.PrimaryCurrentChanged
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ViewBase.PrimaryCurrentChanged
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: PrimaryCurrentChanged()
+  nameWithType: ViewBase.PrimaryCurrentChanged()
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.PrimaryCurrentChanged()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.PrimaryCurrentChanged
+    name: PrimaryCurrentChanged
+    nameWithType: ViewBase.PrimaryCurrentChanged
+    fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.PrimaryCurrentChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.PrimaryCurrentChanged
+    name: PrimaryCurrentChanged
+    nameWithType: ViewBase.PrimaryCurrentChanged
+    fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.PrimaryCurrentChanged
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.ControlGroups
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.ControlGroups
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: ControlGroups
+  nameWithType: ViewBase.ControlGroups
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.ControlGroups
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.TheView
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.TheView
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: TheView
+  nameWithType: ViewBase.TheView
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.TheView
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.ControlGroupCollection
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.ControlGroupCollection
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: ControlGroupCollection
+  nameWithType: ViewBase.ControlGroupCollection
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.ControlGroupCollection
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.Caption
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.Caption
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: Caption
+  nameWithType: ViewBase.Caption
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.Caption
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.CaptionBinding
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.CaptionBinding
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: CaptionBinding
+  nameWithType: ViewBase.CaptionBinding
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.CaptionBinding
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.Tooltip
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.Tooltip
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: Tooltip
+  nameWithType: ViewBase.Tooltip
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.Tooltip
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.TooltipBinding
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.TooltipBinding
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: TooltipBinding
+  nameWithType: ViewBase.TooltipBinding
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.TooltipBinding
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.IconHint
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.IconHint
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: IconHint
+  nameWithType: ViewBase.IconHint
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.IconHint
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.ID
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.ID
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: ID
+  nameWithType: ViewBase.ID
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.ID
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.SoProtocolName
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.SoProtocolName
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: SoProtocolName
+  nameWithType: ViewBase.SoProtocolName
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.SoProtocolName
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.Current
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.Current
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: Current
+  nameWithType: ViewBase.Current
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.Current
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.SetCurrent
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.SetCurrent
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: SetCurrent
+  nameWithType: ViewBase.SetCurrent
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.SetCurrent
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.Size
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.Size
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: Size
+  nameWithType: ViewBase.Size
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.Size
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.ContainerSize
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.ContainerSize
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: ContainerSize
+  nameWithType: ViewBase.ContainerSize
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.ContainerSize
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.Selected
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.Selected
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: Selected
+  nameWithType: ViewBase.Selected
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.Selected
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.Visible
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.Visible
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: Visible
+  nameWithType: ViewBase.Visible
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.Visible
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.ReadOnly
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.ReadOnly
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: ReadOnly
+  nameWithType: ViewBase.ReadOnly
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.ReadOnly
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.RenderMode
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.RenderMode
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: RenderMode
+  nameWithType: ViewBase.RenderMode
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.RenderMode
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.DisableOnEdit
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.DisableOnEdit
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: DisableOnEdit
+  nameWithType: ViewBase.DisableOnEdit
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.DisableOnEdit
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.EditMode
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.EditMode
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: EditMode
+  nameWithType: ViewBase.EditMode
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.EditMode
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.DataSourceName
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.DataSourceName
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: DataSourceName
+  nameWithType: ViewBase.DataSourceName
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.DataSourceName
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.DataSource
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.DataSource
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: DataSource
+  nameWithType: ViewBase.DataSource
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.DataSource
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.ParentCard
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.ParentCard
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: ParentCard
+  nameWithType: ViewBase.ParentCard
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.ParentCard
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.MinWidth
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.MinWidth
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: MinWidth
+  nameWithType: ViewBase.MinWidth
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.MinWidth
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.LayoutPosition
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.LayoutPosition
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: LayoutPosition
+  nameWithType: ViewBase.LayoutPosition
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.LayoutPosition
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.Position
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.Position
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: Position
+  nameWithType: ViewBase.Position
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.Position
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.Top
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.Top
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: Top
+  nameWithType: ViewBase.Top
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.Top
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.BackgroundColor
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.BackgroundColor
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: BackgroundColor
+  nameWithType: ViewBase.BackgroundColor
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.BackgroundColor
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.Left
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.Left
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: Left
+  nameWithType: ViewBase.Left
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.Left
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.Right
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.Right
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: Right
+  nameWithType: ViewBase.Right
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.Right
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.Bottom
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.Bottom
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: Bottom
+  nameWithType: ViewBase.Bottom
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.Bottom
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.Width
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.Width
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: Width
+  nameWithType: ViewBase.Width
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.Width
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.Height
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.Height
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: Height
+  nameWithType: ViewBase.Height
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.Height
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.ZIndex
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.ZIndex
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: ZIndex
+  nameWithType: ViewBase.ZIndex
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.ZIndex
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.Overflow
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.Overflow
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: Overflow
+  nameWithType: ViewBase.Overflow
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.Overflow
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.Visibility
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.Visibility
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: Visibility
+  nameWithType: ViewBase.Visibility
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.Visibility
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.Column
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.Column
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: Column
+  nameWithType: ViewBase.Column
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.Column
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.Row
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.Row
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: Row
+  nameWithType: ViewBase.Row
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.Row
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.RowSpan
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.RowSpan
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: RowSpan
+  nameWithType: ViewBase.RowSpan
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.RowSpan
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.ColSpan
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.ColSpan
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: ColSpan
+  nameWithType: ViewBase.ColSpan
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.ColSpan
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.ConfigurationSchema
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.ConfigurationSchema
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: ConfigurationSchema
+  nameWithType: ViewBase.ConfigurationSchema
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.ConfigurationSchema
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.VisibilityBinding
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ViewBase.VisibilityBinding
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: VisibilityBinding
+  nameWithType: ViewBase.VisibilityBinding
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.VisibilityBinding
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.Controls
+  commentId: N:SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Controls
+  nameWithType: SuperOffice.DCF.Web.UI.Controls
+  fullName: SuperOffice.DCF.Web.UI.Controls
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: SuperOffice.CRM.Web.UI.Controls.TabMode
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.TabMode
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: TabMode
+  nameWithType: TabMode
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabMode
+- uid: SuperOffice.CRM.Web.UI.Controls.Tab
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.Tab
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: Tab
+  nameWithType: Tab
+  fullName: SuperOffice.CRM.Web.UI.Controls.Tab
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.UI.Controls.PlainView.Initialize(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.PlainView.Initialize(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.PlainView
+  isExternal: true
+  name: Initialize(XmlNode, String)
+  nameWithType: PlainView.Initialize(XmlNode, String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.PlainView.Initialize(System.Xml.XmlNode, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.PlainView.Initialize(System.Xml.XmlNode,System.String)
+    name: Initialize
+    nameWithType: PlainView.Initialize
+    fullName: SuperOffice.CRM.Web.UI.Controls.PlainView.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.PlainView.Initialize(System.Xml.XmlNode,System.String)
+    name: Initialize
+    nameWithType: PlainView.Initialize
+    fullName: SuperOffice.CRM.Web.UI.Controls.PlainView.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedView.Initialize*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.TabbedView.Initialize
+  isExternal: true
+  name: Initialize
+  nameWithType: TabbedView.Initialize
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedView.Initialize
+- uid: System.Xml.XmlNode
+  isExternal: true
+  name: XmlNode
+  nameWithType: XmlNode
+  fullName: System.Xml.XmlNode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedView.TabItemClicked*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.TabbedView.TabItemClicked
+  isExternal: true
+  name: TabItemClicked
+  nameWithType: TabbedView.TabItemClicked
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedView.TabItemClicked
+- uid: SuperOffice.CRM.Web.UI.Controls.PlainView.OnLoad(System.EventArgs)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.PlainView.OnLoad(System.EventArgs)
+  parent: SuperOffice.CRM.Web.UI.Controls.PlainView
+  isExternal: true
+  name: OnLoad(EventArgs)
+  nameWithType: PlainView.OnLoad(EventArgs)
+  fullName: SuperOffice.CRM.Web.UI.Controls.PlainView.OnLoad(System.EventArgs)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.PlainView.OnLoad(System.EventArgs)
+    name: OnLoad
+    nameWithType: PlainView.OnLoad
+    fullName: SuperOffice.CRM.Web.UI.Controls.PlainView.OnLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.PlainView.OnLoad(System.EventArgs)
+    name: OnLoad
+    nameWithType: PlainView.OnLoad
+    fullName: SuperOffice.CRM.Web.UI.Controls.PlainView.OnLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedView.OnLoad*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.TabbedView.OnLoad
+  isExternal: true
+  name: OnLoad
+  nameWithType: TabbedView.OnLoad
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedView.OnLoad
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.DataBind
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ViewBase.DataBind
+  parent: SuperOffice.DCF.Web.UI.Controls.ViewBase
+  isExternal: true
+  name: DataBind()
+  nameWithType: ViewBase.DataBind()
+  fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.DataBind()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.DataBind
+    name: DataBind
+    nameWithType: ViewBase.DataBind
+    fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.DataBind
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ViewBase.DataBind
+    name: DataBind
+    nameWithType: ViewBase.DataBind
+    fullName: SuperOffice.DCF.Web.UI.Controls.ViewBase.DataBind
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedView.DataBind*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.TabbedView.DataBind
+  isExternal: true
+  name: DataBind
+  nameWithType: TabbedView.DataBind
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedView.DataBind
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedView.AddTabItem*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.TabbedView.AddTabItem
+  isExternal: true
+  name: AddTabItem
+  nameWithType: TabbedView.AddTabItem
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedView.AddTabItem
+- uid: System.Web.UI.Control
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: SuperOffice.CRM.Web.UI.Controls.TabbedView.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.TabbedView.#ctor
+  isExternal: true
+  name: TabbedView
+  nameWithType: TabbedView.TabbedView
+  fullName: SuperOffice.CRM.Web.UI.Controls.TabbedView.TabbedView

@@ -1,0 +1,497 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields
+  commentId: T:SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields
+  id: DBC.ScreenDefinitionLanguageFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields.Language
+  - SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields.ScreenDefinition
+  - SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields.ScreenDefinitionLanguageId
+  - SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields.VariableName
+  - SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields.VariableValue
+  langs:
+  - csharp
+  - vb
+  name: DBC.ScreenDefinitionLanguageFields
+  nameWithType: DBC.ScreenDefinitionLanguageFields
+  fullName: SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for ScreenDefinitionLanguage, Custom language variables used for screens\n"
+  syntax:
+    content: public static class ScreenDefinitionLanguageFields
+    content.vb: Public Module ScreenDefinitionLanguageFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields.ScreenDefinitionLanguageId
+  commentId: F:SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields.ScreenDefinitionLanguageId
+  id: ScreenDefinitionLanguageId
+  parent: SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields
+  langs:
+  - csharp
+  - vb
+  name: ScreenDefinitionLanguageId
+  nameWithType: DBC.ScreenDefinitionLanguageFields.ScreenDefinitionLanguageId
+  fullName: SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields.ScreenDefinitionLanguageId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScreenDefinitionLanguage.ScreenDefinitionLanguageId: Primary key\n"
+  syntax:
+    content: public const string ScreenDefinitionLanguageId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const ScreenDefinitionLanguageId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields.ScreenDefinition
+  commentId: F:SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields.ScreenDefinition
+  id: ScreenDefinition
+  parent: SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields
+  langs:
+  - csharp
+  - vb
+  name: ScreenDefinition
+  nameWithType: DBC.ScreenDefinitionLanguageFields.ScreenDefinition
+  fullName: SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields.ScreenDefinition
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScreenDefinitionLanguage.ScreenDefinition: The screen-definition this element belongs to\n"
+  syntax:
+    content: public const string ScreenDefinition = "screen_definition"
+    return:
+      type: System.String
+    content.vb: Public Const ScreenDefinition As String = "screen_definition"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields.Language
+  commentId: F:SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields.Language
+  id: Language
+  parent: SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: DBC.ScreenDefinitionLanguageFields.Language
+  fullName: SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields.Language
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScreenDefinitionLanguage.Language: Language &apos;no&apos;, &apos;en&apos;, etc\n"
+  syntax:
+    content: public const string Language = "language"
+    return:
+      type: System.String
+    content.vb: Public Const Language As String = "language"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields.VariableName
+  commentId: F:SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields.VariableName
+  id: VariableName
+  parent: SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields
+  langs:
+  - csharp
+  - vb
+  name: VariableName
+  nameWithType: DBC.ScreenDefinitionLanguageFields.VariableName
+  fullName: SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields.VariableName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScreenDefinitionLanguage.VariableName: Variable name\n"
+  syntax:
+    content: public const string VariableName = "variable_name"
+    return:
+      type: System.String
+    content.vb: Public Const VariableName As String = "variable_name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields.VariableValue
+  commentId: F:SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields.VariableValue
+  id: VariableValue
+  parent: SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields
+  langs:
+  - csharp
+  - vb
+  name: VariableValue
+  nameWithType: DBC.ScreenDefinitionLanguageFields.VariableValue
+  fullName: SuperOffice.CRM.Data.DBC.ScreenDefinitionLanguageFields.VariableValue
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScreenDefinitionLanguage.VariableValue: Variable value\n"
+  syntax:
+    content: public const string VariableValue = "variable_value"
+    return:
+      type: System.String
+    content.vb: Public Const VariableValue As String = "variable_value"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

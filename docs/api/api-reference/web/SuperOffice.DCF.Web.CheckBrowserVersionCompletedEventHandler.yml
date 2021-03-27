@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler
+  commentId: T:SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler
+  id: CheckBrowserVersionCompletedEventHandler
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.BeginInvoke(System.Object,SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs,System.AsyncCallback,System.Object)
+  - SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.EndInvoke(System.IAsyncResult)
+  - SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.Invoke(System.Object,SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs)
+  langs:
+  - csharp
+  - vb
+  name: CheckBrowserVersionCompletedEventHandler
+  nameWithType: CheckBrowserVersionCompletedEventHandler
+  fullName: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler
+  type: Delegate
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public delegate void CheckBrowserVersionCompletedEventHandler(object sender, CheckBrowserVersionCompletedEventArgs e);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs
+    content.vb: Public Delegate Sub CheckBrowserVersionCompletedEventHandler(sender As Object, e As CheckBrowserVersionCompletedEventArgs)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+- uid: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler
+  langs:
+  - csharp
+  - vb
+  name: CheckBrowserVersionCompletedEventHandler(Object, IntPtr)
+  nameWithType: CheckBrowserVersionCompletedEventHandler.CheckBrowserVersionCompletedEventHandler(Object, IntPtr)
+  fullName: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.CheckBrowserVersionCompletedEventHandler(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public CheckBrowserVersionCompletedEventHandler(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.Invoke(System.Object,SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs)
+  commentId: M:SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.Invoke(System.Object,SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs)
+  id: Invoke(System.Object,SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs)
+  parent: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler
+  langs:
+  - csharp
+  - vb
+  name: Invoke(Object, CheckBrowserVersionCompletedEventArgs)
+  nameWithType: CheckBrowserVersionCompletedEventHandler.Invoke(Object, CheckBrowserVersionCompletedEventArgs)
+  fullName: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.Invoke(System.Object, SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public virtual void Invoke(object sender, CheckBrowserVersionCompletedEventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs
+    content.vb: Public Overridable Sub Invoke(sender As Object, e As CheckBrowserVersionCompletedEventArgs)
+  overload: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.Invoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.BeginInvoke(System.Object,SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs,System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.BeginInvoke(System.Object,SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs,System.AsyncCallback,System.Object)
+  id: BeginInvoke(System.Object,SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs,System.AsyncCallback,System.Object)
+  parent: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(Object, CheckBrowserVersionCompletedEventArgs, AsyncCallback, Object)
+  nameWithType: CheckBrowserVersionCompletedEventHandler.BeginInvoke(Object, CheckBrowserVersionCompletedEventArgs, AsyncCallback, Object)
+  fullName: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.BeginInvoke(System.Object, SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs, System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(object sender, CheckBrowserVersionCompletedEventArgs e, AsyncCallback callback, object object)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(sender As Object, e As CheckBrowserVersionCompletedEventArgs, callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.BeginInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: CheckBrowserVersionCompletedEventHandler.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.EndInvoke(System.IAsyncResult)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public virtual void EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
+  overload: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.EndInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs
+  commentId: T:SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs
+  parent: SuperOffice.DCF.Web
+  isExternal: true
+  name: CheckBrowserVersionCompletedEventArgs
+  nameWithType: CheckBrowserVersionCompletedEventArgs
+  fullName: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.#ctor
+  isExternal: true
+  name: CheckBrowserVersionCompletedEventHandler
+  nameWithType: CheckBrowserVersionCompletedEventHandler.CheckBrowserVersionCompletedEventHandler
+  fullName: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.CheckBrowserVersionCompletedEventHandler
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.Invoke*
+  commentId: Overload:SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: CheckBrowserVersionCompletedEventHandler.Invoke
+  fullName: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.Invoke
+- uid: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.BeginInvoke*
+  commentId: Overload:SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: CheckBrowserVersionCompletedEventHandler.BeginInvoke
+  fullName: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.EndInvoke*
+  commentId: Overload:SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: CheckBrowserVersionCompletedEventHandler.EndInvoke
+  fullName: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler.EndInvoke

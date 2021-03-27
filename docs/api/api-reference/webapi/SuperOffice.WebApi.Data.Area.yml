@@ -1,0 +1,391 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Area
+  commentId: T:SuperOffice.WebApi.Data.Area
+  id: Area
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Area.#ctor
+  - SuperOffice.WebApi.Data.Area.AreaId
+  - SuperOffice.WebApi.Data.Area.FreetextEnabeled
+  - SuperOffice.WebApi.Data.Area.MaxDataAge
+  - SuperOffice.WebApi.Data.Area.Name
+  - SuperOffice.WebApi.Data.Area.NumberOfLogins
+  - SuperOffice.WebApi.Data.Area.NumberOfUsers
+  langs:
+  - csharp
+  - vb
+  name: Area
+  nameWithType: Area
+  fullName: SuperOffice.WebApi.Data.Area
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for Area.\n\n"
+  example:
+  - "\nGet Area 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ReplicationAgent(configuration);\nvar area = agent.GetArea( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class Area : Carrier'
+    content.vb: >-
+      Public Class Area
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ReplicationAgent
+    commentId: T:SuperOffice.WebApi.Agents.ReplicationAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Area.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Area.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Area
+  langs:
+  - csharp
+  - vb
+  name: Area()
+  nameWithType: Area.Area()
+  fullName: SuperOffice.WebApi.Data.Area.Area()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public Area()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Area.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Area.AreaId
+  commentId: P:SuperOffice.WebApi.Data.Area.AreaId
+  id: AreaId
+  parent: SuperOffice.WebApi.Data.Area
+  langs:
+  - csharp
+  - vb
+  name: AreaId
+  nameWithType: Area.AreaId
+  fullName: SuperOffice.WebApi.Data.Area.AreaId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int AreaId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AreaId As Integer
+  overload: SuperOffice.WebApi.Data.Area.AreaId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Area.Name
+  commentId: P:SuperOffice.WebApi.Data.Area.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.Area
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Area.Name
+  fullName: SuperOffice.WebApi.Data.Area.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nArea name\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.Area.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Area.MaxDataAge
+  commentId: P:SuperOffice.WebApi.Data.Area.MaxDataAge
+  id: MaxDataAge
+  parent: SuperOffice.WebApi.Data.Area
+  langs:
+  - csharp
+  - vb
+  name: MaxDataAge
+  nameWithType: Area.MaxDataAge
+  fullName: SuperOffice.WebApi.Data.Area.MaxDataAge
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMax age of data when generating db&apos;s based on this area\n"
+  syntax:
+    content: public virtual short MaxDataAge { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property MaxDataAge As Short
+  overload: SuperOffice.WebApi.Data.Area.MaxDataAge*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Area.NumberOfUsers
+  commentId: P:SuperOffice.WebApi.Data.Area.NumberOfUsers
+  id: NumberOfUsers
+  parent: SuperOffice.WebApi.Data.Area
+  langs:
+  - csharp
+  - vb
+  name: NumberOfUsers
+  nameWithType: Area.NumberOfUsers
+  fullName: SuperOffice.WebApi.Data.Area.NumberOfUsers
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual int NumberOfUsers { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NumberOfUsers As Integer
+  overload: SuperOffice.WebApi.Data.Area.NumberOfUsers*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Area.NumberOfLogins
+  commentId: P:SuperOffice.WebApi.Data.Area.NumberOfLogins
+  id: NumberOfLogins
+  parent: SuperOffice.WebApi.Data.Area
+  langs:
+  - csharp
+  - vb
+  name: NumberOfLogins
+  nameWithType: Area.NumberOfLogins
+  fullName: SuperOffice.WebApi.Data.Area.NumberOfLogins
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual int NumberOfLogins { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NumberOfLogins As Integer
+  overload: SuperOffice.WebApi.Data.Area.NumberOfLogins*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Area.FreetextEnabeled
+  commentId: P:SuperOffice.WebApi.Data.Area.FreetextEnabeled
+  id: FreetextEnabeled
+  parent: SuperOffice.WebApi.Data.Area
+  langs:
+  - csharp
+  - vb
+  name: FreetextEnabeled
+  nameWithType: Area.FreetextEnabeled
+  fullName: SuperOffice.WebApi.Data.Area.FreetextEnabeled
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual bool FreetextEnabeled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property FreetextEnabeled As Boolean
+  overload: SuperOffice.WebApi.Data.Area.FreetextEnabeled*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ReplicationAgent
+  commentId: T:SuperOffice.WebApi.Agents.ReplicationAgent
+  isExternal: true
+  name: ReplicationAgent
+  nameWithType: ReplicationAgent
+  fullName: SuperOffice.WebApi.Agents.ReplicationAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Area.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Area.#ctor
+  isExternal: true
+  name: Area
+  nameWithType: Area.Area
+  fullName: SuperOffice.WebApi.Data.Area.Area
+- uid: SuperOffice.WebApi.Data.Area.AreaId*
+  commentId: Overload:SuperOffice.WebApi.Data.Area.AreaId
+  isExternal: true
+  name: AreaId
+  nameWithType: Area.AreaId
+  fullName: SuperOffice.WebApi.Data.Area.AreaId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Area.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.Area.Name
+  isExternal: true
+  name: Name
+  nameWithType: Area.Name
+  fullName: SuperOffice.WebApi.Data.Area.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Area.MaxDataAge*
+  commentId: Overload:SuperOffice.WebApi.Data.Area.MaxDataAge
+  isExternal: true
+  name: MaxDataAge
+  nameWithType: Area.MaxDataAge
+  fullName: SuperOffice.WebApi.Data.Area.MaxDataAge
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.Area.NumberOfUsers*
+  commentId: Overload:SuperOffice.WebApi.Data.Area.NumberOfUsers
+  isExternal: true
+  name: NumberOfUsers
+  nameWithType: Area.NumberOfUsers
+  fullName: SuperOffice.WebApi.Data.Area.NumberOfUsers
+- uid: SuperOffice.WebApi.Data.Area.NumberOfLogins*
+  commentId: Overload:SuperOffice.WebApi.Data.Area.NumberOfLogins
+  isExternal: true
+  name: NumberOfLogins
+  nameWithType: Area.NumberOfLogins
+  fullName: SuperOffice.WebApi.Data.Area.NumberOfLogins
+- uid: SuperOffice.WebApi.Data.Area.FreetextEnabeled*
+  commentId: Overload:SuperOffice.WebApi.Data.Area.FreetextEnabeled
+  isExternal: true
+  name: FreetextEnabeled
+  nameWithType: Area.FreetextEnabeled
+  fullName: SuperOffice.WebApi.Data.Area.FreetextEnabeled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

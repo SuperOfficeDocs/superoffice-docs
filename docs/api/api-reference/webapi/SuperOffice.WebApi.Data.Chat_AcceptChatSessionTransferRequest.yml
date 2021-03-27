@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Chat_AcceptChatSessionTransferRequest
+  commentId: T:SuperOffice.WebApi.Data.Chat_AcceptChatSessionTransferRequest
+  id: Chat_AcceptChatSessionTransferRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Chat_AcceptChatSessionTransferRequest.#ctor
+  - SuperOffice.WebApi.Data.Chat_AcceptChatSessionTransferRequest.ChatSessionId
+  langs:
+  - csharp
+  - vb
+  name: Chat_AcceptChatSessionTransferRequest
+  nameWithType: Chat_AcceptChatSessionTransferRequest
+  fullName: SuperOffice.WebApi.Data.Chat_AcceptChatSessionTransferRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Chat_AcceptChatSessionTransferRequest : Object'
+    content.vb: >-
+      Public Class Chat_AcceptChatSessionTransferRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Chat_AcceptChatSessionTransferRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Chat_AcceptChatSessionTransferRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Chat_AcceptChatSessionTransferRequest
+  langs:
+  - csharp
+  - vb
+  name: Chat_AcceptChatSessionTransferRequest()
+  nameWithType: Chat_AcceptChatSessionTransferRequest.Chat_AcceptChatSessionTransferRequest()
+  fullName: SuperOffice.WebApi.Data.Chat_AcceptChatSessionTransferRequest.Chat_AcceptChatSessionTransferRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Chat_AcceptChatSessionTransferRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Chat_AcceptChatSessionTransferRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Chat_AcceptChatSessionTransferRequest.ChatSessionId
+  commentId: P:SuperOffice.WebApi.Data.Chat_AcceptChatSessionTransferRequest.ChatSessionId
+  id: ChatSessionId
+  parent: SuperOffice.WebApi.Data.Chat_AcceptChatSessionTransferRequest
+  langs:
+  - csharp
+  - vb
+  name: ChatSessionId
+  nameWithType: Chat_AcceptChatSessionTransferRequest.ChatSessionId
+  fullName: SuperOffice.WebApi.Data.Chat_AcceptChatSessionTransferRequest.ChatSessionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ChatSessionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChatSessionId As Integer
+  overload: SuperOffice.WebApi.Data.Chat_AcceptChatSessionTransferRequest.ChatSessionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Chat_AcceptChatSessionTransferRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Chat_AcceptChatSessionTransferRequest.#ctor
+  isExternal: true
+  name: Chat_AcceptChatSessionTransferRequest
+  nameWithType: Chat_AcceptChatSessionTransferRequest.Chat_AcceptChatSessionTransferRequest
+  fullName: SuperOffice.WebApi.Data.Chat_AcceptChatSessionTransferRequest.Chat_AcceptChatSessionTransferRequest
+- uid: SuperOffice.WebApi.Data.Chat_AcceptChatSessionTransferRequest.ChatSessionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Chat_AcceptChatSessionTransferRequest.ChatSessionId
+  isExternal: true
+  name: ChatSessionId
+  nameWithType: Chat_AcceptChatSessionTransferRequest.ChatSessionId
+  fullName: SuperOffice.WebApi.Data.Chat_AcceptChatSessionTransferRequest.ChatSessionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

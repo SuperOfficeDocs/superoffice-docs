@@ -1,0 +1,647 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.FormSubmissionFields
+  commentId: T:SuperOffice.CRM.Data.DBC.FormSubmissionFields
+  id: DBC.FormSubmissionFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.FormSubmissionFields.ContactId
+  - SuperOffice.CRM.Data.DBC.FormSubmissionFields.EmailAddress
+  - SuperOffice.CRM.Data.DBC.FormSubmissionFields.FormId
+  - SuperOffice.CRM.Data.DBC.FormSubmissionFields.FormSubmissionId
+  - SuperOffice.CRM.Data.DBC.FormSubmissionFields.PersonId
+  - SuperOffice.CRM.Data.DBC.FormSubmissionFields.ProcessingLog
+  - SuperOffice.CRM.Data.DBC.FormSubmissionFields.Response
+  - SuperOffice.CRM.Data.DBC.FormSubmissionFields.ResponseShipmentAddrId
+  - SuperOffice.CRM.Data.DBC.FormSubmissionFields.Status
+  - SuperOffice.CRM.Data.DBC.FormSubmissionFields.WhenSubmitted
+  langs:
+  - csharp
+  - vb
+  name: DBC.FormSubmissionFields
+  nameWithType: DBC.FormSubmissionFields
+  fullName: SuperOffice.CRM.Data.DBC.FormSubmissionFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for FormSubmission, A form submission\n"
+  syntax:
+    content: public static class FormSubmissionFields
+    content.vb: Public Module FormSubmissionFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.FormSubmissionFields.FormSubmissionId
+  commentId: F:SuperOffice.CRM.Data.DBC.FormSubmissionFields.FormSubmissionId
+  id: FormSubmissionId
+  parent: SuperOffice.CRM.Data.DBC.FormSubmissionFields
+  langs:
+  - csharp
+  - vb
+  name: FormSubmissionId
+  nameWithType: DBC.FormSubmissionFields.FormSubmissionId
+  fullName: SuperOffice.CRM.Data.DBC.FormSubmissionFields.FormSubmissionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFormSubmission.FormSubmissionId: Primary key\n"
+  syntax:
+    content: public const string FormSubmissionId = "form_submission_id"
+    return:
+      type: System.String
+    content.vb: Public Const FormSubmissionId As String = "form_submission_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.FormSubmissionFields.FormId
+  commentId: F:SuperOffice.CRM.Data.DBC.FormSubmissionFields.FormId
+  id: FormId
+  parent: SuperOffice.CRM.Data.DBC.FormSubmissionFields
+  langs:
+  - csharp
+  - vb
+  name: FormId
+  nameWithType: DBC.FormSubmissionFields.FormId
+  fullName: SuperOffice.CRM.Data.DBC.FormSubmissionFields.FormId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFormSubmission.FormId: The id of the parent form.\n"
+  syntax:
+    content: public const string FormId = "form_id"
+    return:
+      type: System.String
+    content.vb: Public Const FormId As String = "form_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.FormSubmissionFields.WhenSubmitted
+  commentId: F:SuperOffice.CRM.Data.DBC.FormSubmissionFields.WhenSubmitted
+  id: WhenSubmitted
+  parent: SuperOffice.CRM.Data.DBC.FormSubmissionFields
+  langs:
+  - csharp
+  - vb
+  name: WhenSubmitted
+  nameWithType: DBC.FormSubmissionFields.WhenSubmitted
+  fullName: SuperOffice.CRM.Data.DBC.FormSubmissionFields.WhenSubmitted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFormSubmission.WhenSubmitted: The time of the submit.\n"
+  syntax:
+    content: public const string WhenSubmitted = "when_submitted"
+    return:
+      type: System.String
+    content.vb: Public Const WhenSubmitted As String = "when_submitted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.FormSubmissionFields.ContactId
+  commentId: F:SuperOffice.CRM.Data.DBC.FormSubmissionFields.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Data.DBC.FormSubmissionFields
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: DBC.FormSubmissionFields.ContactId
+  fullName: SuperOffice.CRM.Data.DBC.FormSubmissionFields.ContactId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFormSubmission.ContactId: The optional id of the contact of the person who submitted.\n"
+  syntax:
+    content: public const string ContactId = "contact_id"
+    return:
+      type: System.String
+    content.vb: Public Const ContactId As String = "contact_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.FormSubmissionFields.PersonId
+  commentId: F:SuperOffice.CRM.Data.DBC.FormSubmissionFields.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Data.DBC.FormSubmissionFields
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: DBC.FormSubmissionFields.PersonId
+  fullName: SuperOffice.CRM.Data.DBC.FormSubmissionFields.PersonId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFormSubmission.PersonId: The optional id of the person who submitted.\n"
+  syntax:
+    content: public const string PersonId = "person_id"
+    return:
+      type: System.String
+    content.vb: Public Const PersonId As String = "person_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.FormSubmissionFields.EmailAddress
+  commentId: F:SuperOffice.CRM.Data.DBC.FormSubmissionFields.EmailAddress
+  id: EmailAddress
+  parent: SuperOffice.CRM.Data.DBC.FormSubmissionFields
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: DBC.FormSubmissionFields.EmailAddress
+  fullName: SuperOffice.CRM.Data.DBC.FormSubmissionFields.EmailAddress
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFormSubmission.EmailAddress: The email address of the person who submitted\n"
+  syntax:
+    content: public const string EmailAddress = "email_address"
+    return:
+      type: System.String
+    content.vb: Public Const EmailAddress As String = "email_address"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.FormSubmissionFields.ResponseShipmentAddrId
+  commentId: F:SuperOffice.CRM.Data.DBC.FormSubmissionFields.ResponseShipmentAddrId
+  id: ResponseShipmentAddrId
+  parent: SuperOffice.CRM.Data.DBC.FormSubmissionFields
+  langs:
+  - csharp
+  - vb
+  name: ResponseShipmentAddrId
+  nameWithType: DBC.FormSubmissionFields.ResponseShipmentAddrId
+  fullName: SuperOffice.CRM.Data.DBC.FormSubmissionFields.ResponseShipmentAddrId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFormSubmission.ResponseShipmentAddrId: The id of the s_shipment_addr that is the response mail\n"
+  syntax:
+    content: public const string ResponseShipmentAddrId = "response_shipment_addr_id"
+    return:
+      type: System.String
+    content.vb: Public Const ResponseShipmentAddrId As String = "response_shipment_addr_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.FormSubmissionFields.Response
+  commentId: F:SuperOffice.CRM.Data.DBC.FormSubmissionFields.Response
+  id: Response
+  parent: SuperOffice.CRM.Data.DBC.FormSubmissionFields
+  langs:
+  - csharp
+  - vb
+  name: Response
+  nameWithType: DBC.FormSubmissionFields.Response
+  fullName: SuperOffice.CRM.Data.DBC.FormSubmissionFields.Response
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFormSubmission.Response: The JSON-formatted response from this form\n"
+  syntax:
+    content: public const string Response = "response"
+    return:
+      type: System.String
+    content.vb: Public Const Response As String = "response"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.FormSubmissionFields.Status
+  commentId: F:SuperOffice.CRM.Data.DBC.FormSubmissionFields.Status
+  id: Status
+  parent: SuperOffice.CRM.Data.DBC.FormSubmissionFields
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: DBC.FormSubmissionFields.Status
+  fullName: SuperOffice.CRM.Data.DBC.FormSubmissionFields.Status
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFormSubmission.Status: What is the status of this submission\n"
+  syntax:
+    content: public const string Status = "status"
+    return:
+      type: System.String
+    content.vb: Public Const Status As String = "status"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.FormSubmissionFields.ProcessingLog
+  commentId: F:SuperOffice.CRM.Data.DBC.FormSubmissionFields.ProcessingLog
+  id: ProcessingLog
+  parent: SuperOffice.CRM.Data.DBC.FormSubmissionFields
+  langs:
+  - csharp
+  - vb
+  name: ProcessingLog
+  nameWithType: DBC.FormSubmissionFields.ProcessingLog
+  fullName: SuperOffice.CRM.Data.DBC.FormSubmissionFields.ProcessingLog
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFormSubmission.ProcessingLog: A log of what happened during processing\n"
+  syntax:
+    content: public const string ProcessingLog = "processing_log"
+    return:
+      type: System.String
+    content.vb: Public Const ProcessingLog As String = "processing_log"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

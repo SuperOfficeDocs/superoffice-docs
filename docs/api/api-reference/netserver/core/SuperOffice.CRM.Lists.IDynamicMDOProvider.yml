@@ -1,0 +1,447 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Lists.IDynamicMDOProvider
+  commentId: T:SuperOffice.CRM.Lists.IDynamicMDOProvider
+  id: IDynamicMDOProvider
+  parent: SuperOffice.CRM.Lists
+  children:
+  - SuperOffice.CRM.Lists.IDynamicMDOProvider.SupportedLists
+  langs:
+  - csharp
+  - vb
+  name: IDynamicMDOProvider
+  nameWithType: IDynamicMDOProvider
+  fullName: SuperOffice.CRM.Lists.IDynamicMDOProvider
+  type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nInterface defining an MDO list provider whose supported list names (can be more than one)\nare known at runtime. To qualify as a plugin, a class implementing this interface (or a subclass of it) should \nalso implement the <xref href=\"SuperOffice.Factory.IPlugin\" data-throw-if-not-resolved=\"false\"></xref> interface and the <see cref=\"!:DynamicMDOProviderAttribute\"></see>\nattribute. Interface implementation requirements\ncan be satisifed by base classes, while the attribute must be on the derived class.\n"
+  syntax:
+    content: 'public interface IDynamicMDOProvider : ISoListProvider, ISoList'
+    content.vb: >-
+      Public Interface IDynamicMDOProvider
+          Inherits ISoListProvider, ISoList
+  inheritedMembers:
+  - SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  - SuperOffice.CRM.Lists.ISoListProvider.HistoryInfo
+  - SuperOffice.CRM.Lists.ISoList.HistoryItems
+  - SuperOffice.CRM.Lists.ISoList.RootItems
+  - SuperOffice.CRM.Lists.ISoList.HeadingItems
+  extensionMethods:
+  - SuperOffice.CRM.Lists.IDynamicMDOProvider.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Lists.IDynamicMDOProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Lists.IDynamicMDOProvider.SupportedLists
+  commentId: P:SuperOffice.CRM.Lists.IDynamicMDOProvider.SupportedLists
+  id: SupportedLists
+  parent: SuperOffice.CRM.Lists.IDynamicMDOProvider
+  langs:
+  - csharp
+  - vb
+  name: SupportedLists
+  nameWithType: IDynamicMDOProvider.SupportedLists
+  fullName: SuperOffice.CRM.Lists.IDynamicMDOProvider.SupportedLists
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nReturn information about all supported lists\n"
+  syntax:
+    content: HistoryInfo[] SupportedLists { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Lists.HistoryInfo[]
+    content.vb: ReadOnly Property SupportedLists As HistoryInfo()
+  overload: SuperOffice.CRM.Lists.IDynamicMDOProvider.SupportedLists*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Lists
+  commentId: N:SuperOffice.CRM.Lists
+  isExternal: true
+  name: SuperOffice.CRM.Lists
+  nameWithType: SuperOffice.CRM.Lists
+  fullName: SuperOffice.CRM.Lists
+- uid: SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Lists.ISoListProvider
+  isExternal: true
+  name: Construct(String, String, Int32[], Boolean, String, Boolean)
+  nameWithType: ISoListProvider.Construct(String, String, Int32[], Boolean, String, Boolean)
+  fullName: SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String, System.String, System.Int32[], System.Boolean, System.String, System.Boolean)
+  nameWithType.vb: ISoListProvider.Construct(String, String, Int32(), Boolean, String, Boolean)
+  fullName.vb: SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String, System.String, System.Int32(), System.Boolean, System.String, System.Boolean)
+  name.vb: Construct(String, String, Int32(), Boolean, String, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+    name: Construct
+    nameWithType: ISoListProvider.Construct
+    fullName: SuperOffice.CRM.Lists.ISoListProvider.Construct
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+    name: Construct
+    nameWithType: ISoListProvider.Construct
+    fullName: SuperOffice.CRM.Lists.ISoListProvider.Construct
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ISoListProvider.HistoryInfo
+  commentId: P:SuperOffice.CRM.Lists.ISoListProvider.HistoryInfo
+  parent: SuperOffice.CRM.Lists.ISoListProvider
+  isExternal: true
+  name: HistoryInfo
+  nameWithType: ISoListProvider.HistoryInfo
+  fullName: SuperOffice.CRM.Lists.ISoListProvider.HistoryInfo
+- uid: SuperOffice.CRM.Lists.ISoList.HistoryItems
+  commentId: P:SuperOffice.CRM.Lists.ISoList.HistoryItems
+  parent: SuperOffice.CRM.Lists.ISoList
+  isExternal: true
+  name: HistoryItems
+  nameWithType: ISoList.HistoryItems
+  fullName: SuperOffice.CRM.Lists.ISoList.HistoryItems
+- uid: SuperOffice.CRM.Lists.ISoList.RootItems
+  commentId: P:SuperOffice.CRM.Lists.ISoList.RootItems
+  parent: SuperOffice.CRM.Lists.ISoList
+  isExternal: true
+  name: RootItems
+  nameWithType: ISoList.RootItems
+  fullName: SuperOffice.CRM.Lists.ISoList.RootItems
+- uid: SuperOffice.CRM.Lists.ISoList.HeadingItems
+  commentId: P:SuperOffice.CRM.Lists.ISoList.HeadingItems
+  parent: SuperOffice.CRM.Lists.ISoList
+  isExternal: true
+  name: HeadingItems
+  nameWithType: ISoList.HeadingItems
+  fullName: SuperOffice.CRM.Lists.ISoList.HeadingItems
+- uid: SuperOffice.CRM.Lists.IDynamicMDOProvider.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IDynamicMDOProvider, To>()
+  nameWithType: EnumUtil.MapEnums<IDynamicMDOProvider, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.IDynamicMDOProvider, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IDynamicMDOProvider, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.IDynamicMDOProvider, To)()
+  name.vb: MapEnums(Of IDynamicMDOProvider, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IDynamicMDOProvider, To>
+    nameWithType: EnumUtil.MapEnums<IDynamicMDOProvider, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.IDynamicMDOProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IDynamicMDOProvider, To)
+    nameWithType: EnumUtil.MapEnums(Of IDynamicMDOProvider, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.IDynamicMDOProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.IDynamicMDOProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IDynamicMDOProvider, To>()
+  nameWithType: Converters.MapEnums<IDynamicMDOProvider, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.IDynamicMDOProvider, To>()
+  nameWithType.vb: Converters.MapEnums(Of IDynamicMDOProvider, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.IDynamicMDOProvider, To)()
+  name.vb: MapEnums(Of IDynamicMDOProvider, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IDynamicMDOProvider, To>
+    nameWithType: Converters.MapEnums<IDynamicMDOProvider, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.IDynamicMDOProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IDynamicMDOProvider, To)
+    nameWithType: Converters.MapEnums(Of IDynamicMDOProvider, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.IDynamicMDOProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ISoListProvider
+  commentId: T:SuperOffice.CRM.Lists.ISoListProvider
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: ISoListProvider
+  nameWithType: ISoListProvider
+  fullName: SuperOffice.CRM.Lists.ISoListProvider
+- uid: SuperOffice.CRM.Lists.ISoList
+  commentId: T:SuperOffice.CRM.Lists.ISoList
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: ISoList
+  nameWithType: ISoList
+  fullName: SuperOffice.CRM.Lists.ISoList
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Lists.IDynamicMDOProvider.SupportedLists*
+  commentId: Overload:SuperOffice.CRM.Lists.IDynamicMDOProvider.SupportedLists
+  isExternal: true
+  name: SupportedLists
+  nameWithType: IDynamicMDOProvider.SupportedLists
+  fullName: SuperOffice.CRM.Lists.IDynamicMDOProvider.SupportedLists
+- uid: SuperOffice.CRM.Lists.HistoryInfo[]
+  isExternal: true
+  name: HistoryInfo[]
+  nameWithType: HistoryInfo[]
+  fullName: SuperOffice.CRM.Lists.HistoryInfo[]
+  nameWithType.vb: HistoryInfo()
+  fullName.vb: SuperOffice.CRM.Lists.HistoryInfo()
+  name.vb: HistoryInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.HistoryInfo
+    name: HistoryInfo
+    nameWithType: HistoryInfo
+    fullName: SuperOffice.CRM.Lists.HistoryInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.HistoryInfo
+    name: HistoryInfo
+    nameWithType: HistoryInfo
+    fullName: SuperOffice.CRM.Lists.HistoryInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

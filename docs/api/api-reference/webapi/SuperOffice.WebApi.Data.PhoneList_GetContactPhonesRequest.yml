@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.PhoneList_GetContactPhonesRequest
+  commentId: T:SuperOffice.WebApi.Data.PhoneList_GetContactPhonesRequest
+  id: PhoneList_GetContactPhonesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.PhoneList_GetContactPhonesRequest.#ctor
+  - SuperOffice.WebApi.Data.PhoneList_GetContactPhonesRequest.ContactId
+  langs:
+  - csharp
+  - vb
+  name: PhoneList_GetContactPhonesRequest
+  nameWithType: PhoneList_GetContactPhonesRequest
+  fullName: SuperOffice.WebApi.Data.PhoneList_GetContactPhonesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class PhoneList_GetContactPhonesRequest : Object'
+    content.vb: >-
+      Public Class PhoneList_GetContactPhonesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.PhoneList_GetContactPhonesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.PhoneList_GetContactPhonesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.PhoneList_GetContactPhonesRequest
+  langs:
+  - csharp
+  - vb
+  name: PhoneList_GetContactPhonesRequest()
+  nameWithType: PhoneList_GetContactPhonesRequest.PhoneList_GetContactPhonesRequest()
+  fullName: SuperOffice.WebApi.Data.PhoneList_GetContactPhonesRequest.PhoneList_GetContactPhonesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public PhoneList_GetContactPhonesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.PhoneList_GetContactPhonesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PhoneList_GetContactPhonesRequest.ContactId
+  commentId: P:SuperOffice.WebApi.Data.PhoneList_GetContactPhonesRequest.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.PhoneList_GetContactPhonesRequest
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: PhoneList_GetContactPhonesRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.PhoneList_GetContactPhonesRequest.ContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.PhoneList_GetContactPhonesRequest.ContactId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.PhoneList_GetContactPhonesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneList_GetContactPhonesRequest.#ctor
+  isExternal: true
+  name: PhoneList_GetContactPhonesRequest
+  nameWithType: PhoneList_GetContactPhonesRequest.PhoneList_GetContactPhonesRequest
+  fullName: SuperOffice.WebApi.Data.PhoneList_GetContactPhonesRequest.PhoneList_GetContactPhonesRequest
+- uid: SuperOffice.WebApi.Data.PhoneList_GetContactPhonesRequest.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneList_GetContactPhonesRequest.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: PhoneList_GetContactPhonesRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.PhoneList_GetContactPhonesRequest.ContactId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

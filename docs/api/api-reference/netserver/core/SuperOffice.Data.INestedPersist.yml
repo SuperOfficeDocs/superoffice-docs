@@ -1,0 +1,678 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.INestedPersist
+  commentId: T:SuperOffice.Data.INestedPersist
+  id: INestedPersist
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.INestedPersist.IsDeleted
+  - SuperOffice.Data.INestedPersist.IsDirty
+  - SuperOffice.Data.INestedPersist.IsMarkedForDelete
+  - SuperOffice.Data.INestedPersist.IsSaving
+  - SuperOffice.Data.INestedPersist.OnElementIdUpdate
+  - SuperOffice.Data.INestedPersist.OnIdUpdate
+  - SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  - SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+  - SuperOffice.Data.INestedPersist.Save
+  - SuperOffice.Data.INestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+  langs:
+  - csharp
+  - vb
+  name: INestedPersist
+  nameWithType: INestedPersist
+  fullName: SuperOffice.Data.INestedPersist
+  type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nInterface to be implemented by objects that are to take place in a nested persist \n(INSERT/UPDATE to the database).\n"
+  remarks: "\n<p>\n    This interface support rather complex save operations.  Through a 6-step process a \n    set of related objects can take part of a save operation.  All objects taking part \n    of the nested save process should implement this interface.\n</p>\n<ol></ol>\n<p>\n    In addition to exposing the 6-step save process, this interface also expose a method \n    for the save process itself, and a property to check if the object is dirty (in need \n    of an SQL UPDATE).\n</p>\n"
+  syntax:
+    content: public interface INestedPersist
+    content.vb: Public Interface INestedPersist
+  extensionMethods:
+  - SuperOffice.Data.INestedPersist.EnumUtil.MapEnums``2
+  - SuperOffice.Data.INestedPersist.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Data.INestedPersist.Save
+  commentId: M:SuperOffice.Data.INestedPersist.Save
+  id: Save
+  parent: SuperOffice.Data.INestedPersist
+  langs:
+  - csharp
+  - vb
+  name: Save()
+  nameWithType: INestedPersist.Save()
+  fullName: SuperOffice.Data.INestedPersist.Save()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nSave all the contained objects to the database.\n"
+  remarks: "\n<p>\nSave contained objects to the database:\n</p>\n<ol></ol>\n"
+  syntax:
+    content: void Save()
+    content.vb: Sub Save
+  overload: SuperOffice.Data.INestedPersist.Save*
+- uid: SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  commentId: M:SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  id: OnPreIdUpdate
+  parent: SuperOffice.Data.INestedPersist
+  langs:
+  - csharp
+  - vb
+  name: OnPreIdUpdate()
+  nameWithType: INestedPersist.OnPreIdUpdate()
+  fullName: SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nAllow for &quot;fake id&apos;s&quot; to be forced upon related objects.\n"
+  remarks: "\nIn order to figure out which objects taking part of the nested save operation that\nactually needs to be saved, this method allows for &quot;fake id&apos;s&quot; to be\nforced upon related objects. Upon receiving the &quot;fake id&quot;, the\nobjects receiving such an id can determine if they needs to be persisted (e.g.\nsaved) to the database.  However, the fake id&apos;s forced upon related objects must\nbe set to correct id&apos;s in the OnIdUpdate method taking place later in the save\noperation.\n"
+  syntax:
+    content: void OnPreIdUpdate()
+    content.vb: Sub OnPreIdUpdate
+  overload: SuperOffice.Data.INestedPersist.OnPreIdUpdate*
+- uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  id: OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  parent: SuperOffice.Data.INestedPersist
+  langs:
+  - csharp
+  - vb
+  name: OnPrimaryKeyRequest(PKContainer)
+  nameWithType: INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nAllow the object to add itself to a collection of requests for primary keys.\n"
+  remarks: "\nWhen implementing this method, add yourself to the collection if you need a new\nprimary key.\n"
+  syntax:
+    content: void OnPrimaryKeyRequest(PKContainer pkContainer)
+    parameters:
+    - id: pkContainer
+      type: SuperOffice.Data.PKContainer
+      description: Collection of objects getting a primary key.
+    content.vb: Sub OnPrimaryKeyRequest(pkContainer As PKContainer)
+  overload: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest*
+- uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  id: OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  parent: SuperOffice.Data.INestedPersist
+  langs:
+  - csharp
+  - vb
+  name: OnPrimaryKeyUpdate(PKContainer)
+  nameWithType: INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nUpdate primary key.\n"
+  syntax:
+    content: void OnPrimaryKeyUpdate(PKContainer pkContainer)
+    parameters:
+    - id: pkContainer
+      type: SuperOffice.Data.PKContainer
+      description: Collection of objects getting a primary key.
+    content.vb: Sub OnPrimaryKeyUpdate(pkContainer As PKContainer)
+  overload: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate*
+- uid: SuperOffice.Data.INestedPersist.OnIdUpdate
+  commentId: M:SuperOffice.Data.INestedPersist.OnIdUpdate
+  id: OnIdUpdate
+  parent: SuperOffice.Data.INestedPersist
+  langs:
+  - csharp
+  - vb
+  name: OnIdUpdate()
+  nameWithType: INestedPersist.OnIdUpdate()
+  fullName: SuperOffice.Data.INestedPersist.OnIdUpdate()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nUpdate related objects with correct id&apos;s to make sure that relations are consistent\nbefore saving to the database.\n"
+  syntax:
+    content: void OnIdUpdate()
+    content.vb: Sub OnIdUpdate
+  overload: SuperOffice.Data.INestedPersist.OnIdUpdate*
+- uid: SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+  id: OnSave(SuperOffice.Data.SQL.BatchSave)
+  parent: SuperOffice.Data.INestedPersist
+  langs:
+  - csharp
+  - vb
+  name: OnSave(BatchSave)
+  nameWithType: INestedPersist.OnSave(BatchSave)
+  fullName: SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nAdd the object to the collection of objects that are to be saved within the transaction.\n"
+  syntax:
+    content: void OnSave(BatchSave batchSave)
+    parameters:
+    - id: batchSave
+      type: SuperOffice.Data.SQL.BatchSave
+      description: An object holding all the objects that needs to be persisted.
+    content.vb: Sub OnSave(batchSave As BatchSave)
+  overload: SuperOffice.Data.INestedPersist.OnSave*
+- uid: SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+  commentId: M:SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+  id: OnSaved(System.Boolean)
+  parent: SuperOffice.Data.INestedPersist
+  langs:
+  - csharp
+  - vb
+  name: OnSaved(Boolean)
+  nameWithType: INestedPersist.OnSaved(Boolean)
+  fullName: SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nCalled after the save operation has completed.  A boolean value is passed to\nnotify whether or not the save operation succeeded.  The complete save operation\nis rolled back if Save operation failed.\n"
+  syntax:
+    content: void OnSaved(bool bSucceeded)
+    parameters:
+    - id: bSucceeded
+      type: System.Boolean
+      description: True if the save operation succeeded and false if the save operation failed and rolled back.
+    content.vb: Sub OnSaved(bSucceeded As Boolean)
+  overload: SuperOffice.Data.INestedPersist.OnSaved*
+- uid: SuperOffice.Data.INestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+  commentId: M:SuperOffice.Data.INestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+  id: SetSaveOwner(SuperOffice.Data.INestedPersist)
+  parent: SuperOffice.Data.INestedPersist
+  langs:
+  - csharp
+  - vb
+  name: SetSaveOwner(INestedPersist)
+  nameWithType: INestedPersist.SetSaveOwner(INestedPersist)
+  fullName: SuperOffice.Data.INestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nForce the save operation to be handled by someone else.\n"
+  syntax:
+    content: void SetSaveOwner(INestedPersist saveOwner)
+    parameters:
+    - id: saveOwner
+      type: SuperOffice.Data.INestedPersist
+      description: The object to handle the save operation.
+    content.vb: Sub SetSaveOwner(saveOwner As INestedPersist)
+  overload: SuperOffice.Data.INestedPersist.SetSaveOwner*
+- uid: SuperOffice.Data.INestedPersist.IsDirty
+  commentId: P:SuperOffice.Data.INestedPersist.IsDirty
+  id: IsDirty
+  parent: SuperOffice.Data.INestedPersist
+  langs:
+  - csharp
+  - vb
+  name: IsDirty
+  nameWithType: INestedPersist.IsDirty
+  fullName: SuperOffice.Data.INestedPersist.IsDirty
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nIs the object dirty?\n"
+  syntax:
+    content: bool IsDirty { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: <code>true</code> if dirty; otherwise, <code>false</code>.
+    content.vb: ReadOnly Property IsDirty As Boolean
+  overload: SuperOffice.Data.INestedPersist.IsDirty*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.Data.INestedPersist.IsSaving
+  commentId: P:SuperOffice.Data.INestedPersist.IsSaving
+  id: IsSaving
+  parent: SuperOffice.Data.INestedPersist
+  langs:
+  - csharp
+  - vb
+  name: IsSaving
+  nameWithType: INestedPersist.IsSaving
+  fullName: SuperOffice.Data.INestedPersist.IsSaving
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nIs the nested persist in a saving state, hence disable Sentry when reading id&apos;s\n"
+  syntax:
+    content: bool IsSaving { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: <code>true</code> if this instance is saving; otherwise, <code>false</code>.
+    content.vb: ReadOnly Property IsSaving As Boolean
+  overload: SuperOffice.Data.INestedPersist.IsSaving*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.Data.INestedPersist.IsDeleted
+  commentId: P:SuperOffice.Data.INestedPersist.IsDeleted
+  id: IsDeleted
+  parent: SuperOffice.Data.INestedPersist
+  langs:
+  - csharp
+  - vb
+  name: IsDeleted
+  nameWithType: INestedPersist.IsDeleted
+  fullName: SuperOffice.Data.INestedPersist.IsDeleted
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nGets a value indicating whether this instance is deleted.\n"
+  syntax:
+    content: bool IsDeleted { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: "\n<code>true</code> if this instance is deleted; otherwise, <code>false</code>.\n"
+    content.vb: ReadOnly Property IsDeleted As Boolean
+  overload: SuperOffice.Data.INestedPersist.IsDeleted*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.Data.INestedPersist.IsMarkedForDelete
+  commentId: P:SuperOffice.Data.INestedPersist.IsMarkedForDelete
+  id: IsMarkedForDelete
+  parent: SuperOffice.Data.INestedPersist
+  langs:
+  - csharp
+  - vb
+  name: IsMarkedForDelete
+  nameWithType: INestedPersist.IsMarkedForDelete
+  fullName: SuperOffice.Data.INestedPersist.IsMarkedForDelete
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nGets or sets a value indicating whether this instance is marked for delete.\n"
+  syntax:
+    content: bool IsMarkedForDelete { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: "\n<code>true</code> if this instance is marked for delete; otherwise, <code>false</code>.\n"
+    content.vb: Property IsMarkedForDelete As Boolean
+  overload: SuperOffice.Data.INestedPersist.IsMarkedForDelete*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.Data.INestedPersist.OnElementIdUpdate
+  commentId: E:SuperOffice.Data.INestedPersist.OnElementIdUpdate
+  id: OnElementIdUpdate
+  parent: SuperOffice.Data.INestedPersist
+  langs:
+  - csharp
+  - vb
+  name: OnElementIdUpdate
+  nameWithType: INestedPersist.OnElementIdUpdate
+  fullName: SuperOffice.Data.INestedPersist.OnElementIdUpdate
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: event OnIdUpdate OnElementIdUpdate
+    return:
+      type: SuperOffice.Data.OnIdUpdate
+    content.vb: Event OnElementIdUpdate As OnIdUpdate
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.INestedPersist.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<INestedPersist, To>()
+  nameWithType: EnumUtil.MapEnums<INestedPersist, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.INestedPersist, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of INestedPersist, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.INestedPersist, To)()
+  name.vb: MapEnums(Of INestedPersist, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<INestedPersist, To>
+    nameWithType: EnumUtil.MapEnums<INestedPersist, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.INestedPersist, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of INestedPersist, To)
+    nameWithType: EnumUtil.MapEnums(Of INestedPersist, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.INestedPersist, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.INestedPersist.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<INestedPersist, To>()
+  nameWithType: Converters.MapEnums<INestedPersist, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.INestedPersist, To>()
+  nameWithType.vb: Converters.MapEnums(Of INestedPersist, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.INestedPersist, To)()
+  name.vb: MapEnums(Of INestedPersist, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<INestedPersist, To>
+    nameWithType: Converters.MapEnums<INestedPersist, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.INestedPersist, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of INestedPersist, To)
+    nameWithType: Converters.MapEnums(Of INestedPersist, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.INestedPersist, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.INestedPersist.Save*
+  commentId: Overload:SuperOffice.Data.INestedPersist.Save
+  isExternal: true
+  name: Save
+  nameWithType: INestedPersist.Save
+  fullName: SuperOffice.Data.INestedPersist.Save
+- uid: SuperOffice.Data.INestedPersist.OnPreIdUpdate*
+  commentId: Overload:SuperOffice.Data.INestedPersist.OnPreIdUpdate
+  isExternal: true
+  name: OnPreIdUpdate
+  nameWithType: INestedPersist.OnPreIdUpdate
+  fullName: SuperOffice.Data.INestedPersist.OnPreIdUpdate
+- uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest*
+  commentId: Overload:SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+  isExternal: true
+  name: OnPrimaryKeyRequest
+  nameWithType: INestedPersist.OnPrimaryKeyRequest
+  fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+- uid: SuperOffice.Data.PKContainer
+  commentId: T:SuperOffice.Data.PKContainer
+  parent: SuperOffice.Data
+  isExternal: true
+  name: PKContainer
+  nameWithType: PKContainer
+  fullName: SuperOffice.Data.PKContainer
+- uid: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate*
+  commentId: Overload:SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+  isExternal: true
+  name: OnPrimaryKeyUpdate
+  nameWithType: INestedPersist.OnPrimaryKeyUpdate
+  fullName: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+- uid: SuperOffice.Data.INestedPersist.OnIdUpdate*
+  commentId: Overload:SuperOffice.Data.INestedPersist.OnIdUpdate
+  isExternal: true
+  name: OnIdUpdate
+  nameWithType: INestedPersist.OnIdUpdate
+  fullName: SuperOffice.Data.INestedPersist.OnIdUpdate
+- uid: SuperOffice.Data.INestedPersist.OnSave*
+  commentId: Overload:SuperOffice.Data.INestedPersist.OnSave
+  isExternal: true
+  name: OnSave
+  nameWithType: INestedPersist.OnSave
+  fullName: SuperOffice.Data.INestedPersist.OnSave
+- uid: SuperOffice.Data.SQL.BatchSave
+  commentId: T:SuperOffice.Data.SQL.BatchSave
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: BatchSave
+  nameWithType: BatchSave
+  fullName: SuperOffice.Data.SQL.BatchSave
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.Data.INestedPersist.OnSaved*
+  commentId: Overload:SuperOffice.Data.INestedPersist.OnSaved
+  isExternal: true
+  name: OnSaved
+  nameWithType: INestedPersist.OnSaved
+  fullName: SuperOffice.Data.INestedPersist.OnSaved
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.INestedPersist.SetSaveOwner*
+  commentId: Overload:SuperOffice.Data.INestedPersist.SetSaveOwner
+  isExternal: true
+  name: SetSaveOwner
+  nameWithType: INestedPersist.SetSaveOwner
+  fullName: SuperOffice.Data.INestedPersist.SetSaveOwner
+- uid: SuperOffice.Data.INestedPersist
+  commentId: T:SuperOffice.Data.INestedPersist
+  parent: SuperOffice.Data
+  isExternal: true
+  name: INestedPersist
+  nameWithType: INestedPersist
+  fullName: SuperOffice.Data.INestedPersist
+- uid: SuperOffice.Data.INestedPersist.IsDirty*
+  commentId: Overload:SuperOffice.Data.INestedPersist.IsDirty
+  isExternal: true
+  name: IsDirty
+  nameWithType: INestedPersist.IsDirty
+  fullName: SuperOffice.Data.INestedPersist.IsDirty
+- uid: SuperOffice.Data.INestedPersist.IsSaving*
+  commentId: Overload:SuperOffice.Data.INestedPersist.IsSaving
+  isExternal: true
+  name: IsSaving
+  nameWithType: INestedPersist.IsSaving
+  fullName: SuperOffice.Data.INestedPersist.IsSaving
+- uid: SuperOffice.Data.INestedPersist.IsDeleted*
+  commentId: Overload:SuperOffice.Data.INestedPersist.IsDeleted
+  isExternal: true
+  name: IsDeleted
+  nameWithType: INestedPersist.IsDeleted
+  fullName: SuperOffice.Data.INestedPersist.IsDeleted
+- uid: SuperOffice.Data.INestedPersist.IsMarkedForDelete*
+  commentId: Overload:SuperOffice.Data.INestedPersist.IsMarkedForDelete
+  isExternal: true
+  name: IsMarkedForDelete
+  nameWithType: INestedPersist.IsMarkedForDelete
+  fullName: SuperOffice.Data.INestedPersist.IsMarkedForDelete
+- uid: SuperOffice.Data.OnIdUpdate
+  commentId: T:SuperOffice.Data.OnIdUpdate
+  parent: SuperOffice.Data
+  isExternal: true
+  name: OnIdUpdate
+  nameWithType: OnIdUpdate
+  fullName: SuperOffice.Data.OnIdUpdate

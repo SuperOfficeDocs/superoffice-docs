@@ -1,0 +1,337 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.MultiAlarmData
+  commentId: T:SuperOffice.CRM.Services.MultiAlarmData
+  id: MultiAlarmData
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.MultiAlarmData.#ctor
+  - SuperOffice.CRM.Services.MultiAlarmData.Alarms
+  - SuperOffice.CRM.Services.MultiAlarmData.PollingInterval
+  - SuperOffice.CRM.Services.MultiAlarmData.SilentAfter
+  - SuperOffice.CRM.Services.MultiAlarmData.ToString
+  - SuperOffice.CRM.Services.MultiAlarmData.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: MultiAlarmData
+  nameWithType: MultiAlarmData
+  fullName: SuperOffice.CRM.Services.MultiAlarmData
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for MultiAlarmData.\nServices for the MultiAlarmData Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IAppointmentAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class MultiAlarmData : Carrier'
+    content.vb: >-
+      Public Class MultiAlarmData
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.AppointmentAgent
+    commentId: T:SuperOffice.CRM.Services.AppointmentAgent
+  - linkId: SuperOffice.CRM.Services.IAppointmentAgent
+    commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.MultiAlarmData.#ctor
+  commentId: M:SuperOffice.CRM.Services.MultiAlarmData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.MultiAlarmData
+  langs:
+  - csharp
+  - vb
+  name: MultiAlarmData()
+  nameWithType: MultiAlarmData.MultiAlarmData()
+  fullName: SuperOffice.CRM.Services.MultiAlarmData.MultiAlarmData()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public MultiAlarmData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.MultiAlarmData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.MultiAlarmData.ToString
+  commentId: M:SuperOffice.CRM.Services.MultiAlarmData.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.MultiAlarmData
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: MultiAlarmData.ToString()
+  fullName: SuperOffice.CRM.Services.MultiAlarmData.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.MultiAlarmData.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.MultiAlarmData.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.MultiAlarmData.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.MultiAlarmData
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: MultiAlarmData.ToString(String)
+  fullName: SuperOffice.CRM.Services.MultiAlarmData.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.MultiAlarmData.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.MultiAlarmData.Alarms
+  commentId: P:SuperOffice.CRM.Services.MultiAlarmData.Alarms
+  id: Alarms
+  parent: SuperOffice.CRM.Services.MultiAlarmData
+  langs:
+  - csharp
+  - vb
+  name: Alarms
+  nameWithType: MultiAlarmData.Alarms
+  fullName: SuperOffice.CRM.Services.MultiAlarmData.Alarms
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual AlarmData[] Alarms { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.AlarmData[]
+    content.vb: Public Overridable Property Alarms As AlarmData()
+  overload: SuperOffice.CRM.Services.MultiAlarmData.Alarms*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.MultiAlarmData.PollingInterval
+  commentId: P:SuperOffice.CRM.Services.MultiAlarmData.PollingInterval
+  id: PollingInterval
+  parent: SuperOffice.CRM.Services.MultiAlarmData
+  langs:
+  - csharp
+  - vb
+  name: PollingInterval
+  nameWithType: MultiAlarmData.PollingInterval
+  fullName: SuperOffice.CRM.Services.MultiAlarmData.PollingInterval
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual int PollingInterval { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PollingInterval As Integer
+  overload: SuperOffice.CRM.Services.MultiAlarmData.PollingInterval*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.MultiAlarmData.SilentAfter
+  commentId: P:SuperOffice.CRM.Services.MultiAlarmData.SilentAfter
+  id: SilentAfter
+  parent: SuperOffice.CRM.Services.MultiAlarmData
+  langs:
+  - csharp
+  - vb
+  name: SilentAfter
+  nameWithType: MultiAlarmData.SilentAfter
+  fullName: SuperOffice.CRM.Services.MultiAlarmData.SilentAfter
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual int SilentAfter { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SilentAfter As Integer
+  overload: SuperOffice.CRM.Services.MultiAlarmData.SilentAfter*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AppointmentAgent
+  commentId: T:SuperOffice.CRM.Services.AppointmentAgent
+  isExternal: true
+  name: AppointmentAgent
+  nameWithType: AppointmentAgent
+  fullName: SuperOffice.CRM.Services.AppointmentAgent
+- uid: SuperOffice.CRM.Services.IAppointmentAgent
+  commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAppointmentAgent
+  nameWithType: IAppointmentAgent
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.MultiAlarmData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.MultiAlarmData.#ctor
+  isExternal: true
+  name: MultiAlarmData
+  nameWithType: MultiAlarmData.MultiAlarmData
+  fullName: SuperOffice.CRM.Services.MultiAlarmData.MultiAlarmData
+- uid: SuperOffice.CRM.Services.MultiAlarmData.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.MultiAlarmData.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: MultiAlarmData.ToString
+  fullName: SuperOffice.CRM.Services.MultiAlarmData.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.MultiAlarmData.Alarms*
+  commentId: Overload:SuperOffice.CRM.Services.MultiAlarmData.Alarms
+  isExternal: true
+  name: Alarms
+  nameWithType: MultiAlarmData.Alarms
+  fullName: SuperOffice.CRM.Services.MultiAlarmData.Alarms
+- uid: SuperOffice.CRM.Services.AlarmData[]
+  isExternal: true
+  name: AlarmData[]
+  nameWithType: AlarmData[]
+  fullName: SuperOffice.CRM.Services.AlarmData[]
+  nameWithType.vb: AlarmData()
+  fullName.vb: SuperOffice.CRM.Services.AlarmData()
+  name.vb: AlarmData()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AlarmData
+    name: AlarmData
+    nameWithType: AlarmData
+    fullName: SuperOffice.CRM.Services.AlarmData
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AlarmData
+    name: AlarmData
+    nameWithType: AlarmData
+    fullName: SuperOffice.CRM.Services.AlarmData
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.MultiAlarmData.PollingInterval*
+  commentId: Overload:SuperOffice.CRM.Services.MultiAlarmData.PollingInterval
+  isExternal: true
+  name: PollingInterval
+  nameWithType: MultiAlarmData.PollingInterval
+  fullName: SuperOffice.CRM.Services.MultiAlarmData.PollingInterval
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.MultiAlarmData.SilentAfter*
+  commentId: Overload:SuperOffice.CRM.Services.MultiAlarmData.SilentAfter
+  isExternal: true
+  name: SilentAfter
+  nameWithType: MultiAlarmData.SilentAfter
+  fullName: SuperOffice.CRM.Services.MultiAlarmData.SilentAfter

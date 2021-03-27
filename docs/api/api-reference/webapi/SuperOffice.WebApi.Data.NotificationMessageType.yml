@@ -1,0 +1,249 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.NotificationMessageType
+  commentId: T:SuperOffice.WebApi.Data.NotificationMessageType
+  id: NotificationMessageType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.NotificationMessageType.ImportantMessage
+  - SuperOffice.WebApi.Data.NotificationMessageType.Message
+  - SuperOffice.WebApi.Data.NotificationMessageType.RemoteAction
+  - SuperOffice.WebApi.Data.NotificationMessageType.ShowWebPage
+  - SuperOffice.WebApi.Data.NotificationMessageType.value__
+  - SuperOffice.WebApi.Data.NotificationMessageType.YesNoQuestion
+  langs:
+  - csharp
+  - vb
+  name: NotificationMessageType
+  nameWithType: NotificationMessageType
+  fullName: SuperOffice.WebApi.Data.NotificationMessageType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefines what type of content the notification contains\n"
+  syntax:
+    content: 'public sealed class NotificationMessageType : Enum'
+    content.vb: >-
+      Public NotInheritable Class NotificationMessageType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.NotificationMessageType.value__
+  commentId: F:SuperOffice.WebApi.Data.NotificationMessageType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.NotificationMessageType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: NotificationMessageType.value__
+  fullName: SuperOffice.WebApi.Data.NotificationMessageType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.NotificationMessageType.Message
+  commentId: F:SuperOffice.WebApi.Data.NotificationMessageType.Message
+  id: Message
+  parent: SuperOffice.WebApi.Data.NotificationMessageType
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: NotificationMessageType.Message
+  fullName: SuperOffice.WebApi.Data.NotificationMessageType.Message
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: A plain message\n"
+  syntax:
+    content: public const NotificationMessageType Message
+    return:
+      type: SuperOffice.WebApi.Data.NotificationMessageType
+    content.vb: Public Const Message As NotificationMessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.NotificationMessageType.ImportantMessage
+  commentId: F:SuperOffice.WebApi.Data.NotificationMessageType.ImportantMessage
+  id: ImportantMessage
+  parent: SuperOffice.WebApi.Data.NotificationMessageType
+  langs:
+  - csharp
+  - vb
+  name: ImportantMessage
+  nameWithType: NotificationMessageType.ImportantMessage
+  fullName: SuperOffice.WebApi.Data.NotificationMessageType.ImportantMessage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: A message with high priority\n"
+  syntax:
+    content: public const NotificationMessageType ImportantMessage
+    return:
+      type: SuperOffice.WebApi.Data.NotificationMessageType
+    content.vb: Public Const ImportantMessage As NotificationMessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.NotificationMessageType.RemoteAction
+  commentId: F:SuperOffice.WebApi.Data.NotificationMessageType.RemoteAction
+  id: RemoteAction
+  parent: SuperOffice.WebApi.Data.NotificationMessageType
+  langs:
+  - csharp
+  - vb
+  name: RemoteAction
+  nameWithType: NotificationMessageType.RemoteAction
+  fullName: SuperOffice.WebApi.Data.NotificationMessageType.RemoteAction
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Trigger an action\n"
+  syntax:
+    content: public const NotificationMessageType RemoteAction
+    return:
+      type: SuperOffice.WebApi.Data.NotificationMessageType
+    content.vb: Public Const RemoteAction As NotificationMessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.NotificationMessageType.YesNoQuestion
+  commentId: F:SuperOffice.WebApi.Data.NotificationMessageType.YesNoQuestion
+  id: YesNoQuestion
+  parent: SuperOffice.WebApi.Data.NotificationMessageType
+  langs:
+  - csharp
+  - vb
+  name: YesNoQuestion
+  nameWithType: NotificationMessageType.YesNoQuestion
+  fullName: SuperOffice.WebApi.Data.NotificationMessageType.YesNoQuestion
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Ask user a yes or no question\n"
+  syntax:
+    content: public const NotificationMessageType YesNoQuestion
+    return:
+      type: SuperOffice.WebApi.Data.NotificationMessageType
+    content.vb: Public Const YesNoQuestion As NotificationMessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.NotificationMessageType.ShowWebPage
+  commentId: F:SuperOffice.WebApi.Data.NotificationMessageType.ShowWebPage
+  id: ShowWebPage
+  parent: SuperOffice.WebApi.Data.NotificationMessageType
+  langs:
+  - csharp
+  - vb
+  name: ShowWebPage
+  nameWithType: NotificationMessageType.ShowWebPage
+  fullName: SuperOffice.WebApi.Data.NotificationMessageType.ShowWebPage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Show a web page\n"
+  syntax:
+    content: public const NotificationMessageType ShowWebPage
+    return:
+      type: SuperOffice.WebApi.Data.NotificationMessageType
+    content.vb: Public Const ShowWebPage As NotificationMessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.NotificationMessageType
+  commentId: T:SuperOffice.WebApi.Data.NotificationMessageType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: NotificationMessageType
+  nameWithType: NotificationMessageType
+  fullName: SuperOffice.WebApi.Data.NotificationMessageType

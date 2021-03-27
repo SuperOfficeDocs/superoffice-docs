@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest
+  id: Quote_SaveConnectionConfigFieldsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest.ConnectionConfigFields
+  - SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest.QuoteConnectionId
+  langs:
+  - csharp
+  - vb
+  name: Quote_SaveConnectionConfigFieldsRequest
+  nameWithType: Quote_SaveConnectionConfigFieldsRequest
+  fullName: SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_SaveConnectionConfigFieldsRequest : Object'
+    content.vb: >-
+      Public Class Quote_SaveConnectionConfigFieldsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_SaveConnectionConfigFieldsRequest()
+  nameWithType: Quote_SaveConnectionConfigFieldsRequest.Quote_SaveConnectionConfigFieldsRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest.Quote_SaveConnectionConfigFieldsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_SaveConnectionConfigFieldsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest.QuoteConnectionId
+  commentId: P:SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest.QuoteConnectionId
+  id: QuoteConnectionId
+  parent: SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteConnectionId
+  nameWithType: Quote_SaveConnectionConfigFieldsRequest.QuoteConnectionId
+  fullName: SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest.QuoteConnectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int QuoteConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteConnectionId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest.QuoteConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest.ConnectionConfigFields
+  commentId: P:SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest.ConnectionConfigFields
+  id: ConnectionConfigFields
+  parent: SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest
+  langs:
+  - csharp
+  - vb
+  name: ConnectionConfigFields
+  nameWithType: Quote_SaveConnectionConfigFieldsRequest.ConnectionConfigFields
+  fullName: SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest.ConnectionConfigFields
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public StringDictionary ConnectionConfigFields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StringDictionary
+    content.vb: Public Property ConnectionConfigFields As StringDictionary
+  overload: SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest.ConnectionConfigFields*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest.#ctor
+  isExternal: true
+  name: Quote_SaveConnectionConfigFieldsRequest
+  nameWithType: Quote_SaveConnectionConfigFieldsRequest.Quote_SaveConnectionConfigFieldsRequest
+  fullName: SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest.Quote_SaveConnectionConfigFieldsRequest
+- uid: SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest.QuoteConnectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest.QuoteConnectionId
+  isExternal: true
+  name: QuoteConnectionId
+  nameWithType: Quote_SaveConnectionConfigFieldsRequest.QuoteConnectionId
+  fullName: SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest.QuoteConnectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest.ConnectionConfigFields*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest.ConnectionConfigFields
+  isExternal: true
+  name: ConnectionConfigFields
+  nameWithType: Quote_SaveConnectionConfigFieldsRequest.ConnectionConfigFields
+  fullName: SuperOffice.WebApi.Data.Quote_SaveConnectionConfigFieldsRequest.ConnectionConfigFields
+- uid: SuperOffice.WebApi.Data.StringDictionary
+  commentId: T:SuperOffice.WebApi.Data.StringDictionary
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.WebApi.Data.StringDictionary

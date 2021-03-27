@@ -1,0 +1,1134 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent
+  commentId: T:SuperOffice.CRM.Services.NumberAllocationAgent
+  id: NumberAllocationAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.NumberAllocationAgent.#ctor
+  - SuperOffice.CRM.Services.NumberAllocationAgent.CreateDefaultRefCountEntity
+  - SuperOffice.CRM.Services.NumberAllocationAgent.DeleteRefCountEntity(System.Int32)
+  - SuperOffice.CRM.Services.NumberAllocationAgent.GetNumberEachTemplate
+  - SuperOffice.CRM.Services.NumberAllocationAgent.GetRefCountEntity(System.Int32)
+  - SuperOffice.CRM.Services.NumberAllocationAgent.SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
+  - SuperOffice.CRM.Services.NumberAllocationAgent.SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
+  - SuperOffice.CRM.Services.NumberAllocationAgent.SetNumberEachTemplate(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: NumberAllocationAgent
+  nameWithType: NumberAllocationAgent
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFacade for the NumberAllocation Agent\nThis agent can be used to manage number allocation\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (NumberAllocationAgent agent = new NumberAllocationAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: 'public class NumberAllocationAgent : AgentBase<INumberAllocationAgent>, IDisposable, INumberAllocationAgent, IAgent'
+    content.vb: >-
+      Public Class NumberAllocationAgent
+          Inherits AgentBase(Of INumberAllocationAgent)
+          Implements IDisposable, INumberAllocationAgent, IAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INumberAllocationAgent}
+  implements:
+  - System.IDisposable
+  - SuperOffice.CRM.Services.INumberAllocationAgent
+  - SuperOffice.CRM.Services.IAgent
+  inheritedMembers:
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INumberAllocationAgent}.Dispose
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INumberAllocationAgent}.InnerAgent
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.CreateDefaultRefCountEntity
+  commentId: M:SuperOffice.CRM.Services.NumberAllocationAgent.CreateDefaultRefCountEntity
+  id: CreateDefaultRefCountEntity
+  parent: SuperOffice.CRM.Services.NumberAllocationAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultRefCountEntity()
+  nameWithType: NumberAllocationAgent.CreateDefaultRefCountEntity()
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.CreateDefaultRefCountEntity()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new RefCountEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public RefCountEntity CreateDefaultRefCountEntity()
+    return:
+      type: SuperOffice.CRM.Services.RefCountEntity
+      description: New RefCountEntity with default values
+    content.vb: Public Function CreateDefaultRefCountEntity As RefCountEntity
+  overload: SuperOffice.CRM.Services.NumberAllocationAgent.CreateDefaultRefCountEntity*
+  implements:
+  - SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntity
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
+  commentId: M:SuperOffice.CRM.Services.NumberAllocationAgent.SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
+  id: SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
+  parent: SuperOffice.CRM.Services.NumberAllocationAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveRefCountEntity(RefCountEntity)
+  nameWithType: NumberAllocationAgent.SaveRefCountEntity(RefCountEntity)
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing RefCountEntity or creates a new RefCountEntity if the id parameter is empty\n"
+  syntax:
+    content: public RefCountEntity SaveRefCountEntity(RefCountEntity refCountEntity)
+    parameters:
+    - id: refCountEntity
+      type: SuperOffice.CRM.Services.RefCountEntity
+      description: The RefCountEntity that is saved.
+    return:
+      type: SuperOffice.CRM.Services.RefCountEntity
+      description: New or updated RefCountEntity
+    content.vb: Public Function SaveRefCountEntity(refCountEntity As RefCountEntity) As RefCountEntity
+  overload: SuperOffice.CRM.Services.NumberAllocationAgent.SaveRefCountEntity*
+  implements:
+  - SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.DeleteRefCountEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.NumberAllocationAgent.DeleteRefCountEntity(System.Int32)
+  id: DeleteRefCountEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.NumberAllocationAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteRefCountEntity(Int32)
+  nameWithType: NumberAllocationAgent.DeleteRefCountEntity(Int32)
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.DeleteRefCountEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the RefCountEntity\n"
+  syntax:
+    content: public void DeleteRefCountEntity(int refCountEntityId)
+    parameters:
+    - id: refCountEntityId
+      type: System.Int32
+      description: The identity of the RefCountEntity
+    content.vb: Public Sub DeleteRefCountEntity(refCountEntityId As Integer)
+  overload: SuperOffice.CRM.Services.NumberAllocationAgent.DeleteRefCountEntity*
+  implements:
+  - SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntity(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.GetRefCountEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.NumberAllocationAgent.GetRefCountEntity(System.Int32)
+  id: GetRefCountEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.NumberAllocationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetRefCountEntity(Int32)
+  nameWithType: NumberAllocationAgent.GetRefCountEntity(Int32)
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.GetRefCountEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a RefCountEntity object.                        \n"
+  syntax:
+    content: public RefCountEntity GetRefCountEntity(int refCountEntityId)
+    parameters:
+    - id: refCountEntityId
+      type: System.Int32
+      description: The identifier of the RefCountEntity object
+    return:
+      type: SuperOffice.CRM.Services.RefCountEntity
+      description: RefCountEntity
+    content.vb: Public Function GetRefCountEntity(refCountEntityId As Integer) As RefCountEntity
+  overload: SuperOffice.CRM.Services.NumberAllocationAgent.GetRefCountEntity*
+  implements:
+  - SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntity(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
+  commentId: M:SuperOffice.CRM.Services.NumberAllocationAgent.SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
+  id: SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
+  parent: SuperOffice.CRM.Services.NumberAllocationAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveDefaultNumbering(RefCountEntity)
+  nameWithType: NumberAllocationAgent.SaveDefaultNumbering(RefCountEntity)
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSaves default numbering values in preferences\n"
+  syntax:
+    content: public void SaveDefaultNumbering(RefCountEntity refCountEntity)
+    parameters:
+    - id: refCountEntity
+      type: SuperOffice.CRM.Services.RefCountEntity
+      description: The refCountEntity that holds the values that will be saved
+    content.vb: Public Sub SaveDefaultNumbering(refCountEntity As RefCountEntity)
+  overload: SuperOffice.CRM.Services.NumberAllocationAgent.SaveDefaultNumbering*
+  implements:
+  - SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.GetNumberEachTemplate
+  commentId: M:SuperOffice.CRM.Services.NumberAllocationAgent.GetNumberEachTemplate
+  id: GetNumberEachTemplate
+  parent: SuperOffice.CRM.Services.NumberAllocationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNumberEachTemplate()
+  nameWithType: NumberAllocationAgent.GetNumberEachTemplate()
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.GetNumberEachTemplate()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns true or false if Automatically create new counters for new document templates\n"
+  syntax:
+    content: public bool GetNumberEachTemplate()
+    return:
+      type: System.Boolean
+      description: Is NumberEachTemplate?
+    content.vb: Public Function GetNumberEachTemplate As Boolean
+  overload: SuperOffice.CRM.Services.NumberAllocationAgent.GetNumberEachTemplate*
+  implements:
+  - SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplate
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.SetNumberEachTemplate(System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.NumberAllocationAgent.SetNumberEachTemplate(System.Boolean)
+  id: SetNumberEachTemplate(System.Boolean)
+  parent: SuperOffice.CRM.Services.NumberAllocationAgent
+  langs:
+  - csharp
+  - vb
+  name: SetNumberEachTemplate(Boolean)
+  nameWithType: NumberAllocationAgent.SetNumberEachTemplate(Boolean)
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.SetNumberEachTemplate(System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSaves true or false if Automatically create new counters for new document templates\n"
+  syntax:
+    content: public void SetNumberEachTemplate(bool setValue)
+    parameters:
+    - id: setValue
+      type: System.Boolean
+      description: true or false if Automatically create new counters for new document templates
+    content.vb: Public Sub SetNumberEachTemplate(setValue As Boolean)
+  overload: SuperOffice.CRM.Services.NumberAllocationAgent.SetNumberEachTemplate*
+  implements:
+  - SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplate(System.Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.#ctor
+  commentId: M:SuperOffice.CRM.Services.NumberAllocationAgent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.NumberAllocationAgent
+  langs:
+  - csharp
+  - vb
+  name: NumberAllocationAgent()
+  nameWithType: NumberAllocationAgent.NumberAllocationAgent()
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.NumberAllocationAgent()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public NumberAllocationAgent()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.NumberAllocationAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INumberAllocationAgent}
+  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INumberAllocationAgent}
+  parent: SuperOffice.CRM.Services
+  definition: SuperOffice.CRM.Services.AgentBase`1
+  name: AgentBase<INumberAllocationAgent>
+  nameWithType: AgentBase<INumberAllocationAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.INumberAllocationAgent>
+  nameWithType.vb: AgentBase(Of INumberAllocationAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.INumberAllocationAgent)
+  name.vb: AgentBase(Of INumberAllocationAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent
+    name: INumberAllocationAgent
+    nameWithType: INumberAllocationAgent
+    fullName: SuperOffice.CRM.Services.INumberAllocationAgent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent
+    name: INumberAllocationAgent
+    nameWithType: INumberAllocationAgent
+    fullName: SuperOffice.CRM.Services.INumberAllocationAgent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent
+  commentId: T:SuperOffice.CRM.Services.INumberAllocationAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: INumberAllocationAgent
+  nameWithType: INumberAllocationAgent
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent
+- uid: SuperOffice.CRM.Services.IAgent
+  commentId: T:SuperOffice.CRM.Services.IAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAgent
+  nameWithType: IAgent
+  fullName: SuperOffice.CRM.Services.IAgent
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INumberAllocationAgent}.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INumberAllocationAgent}.Dispose
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INumberAllocationAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  name: Dispose()
+  nameWithType: AgentBase<INumberAllocationAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.INumberAllocationAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of INumberAllocationAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.INumberAllocationAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<INumberAllocationAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.INumberAllocationAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of INumberAllocationAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.INumberAllocationAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INumberAllocationAgent}.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INumberAllocationAgent}.InnerAgent
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INumberAllocationAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  name: InnerAgent
+  nameWithType: AgentBase<INumberAllocationAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.INumberAllocationAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of INumberAllocationAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.INumberAllocationAgent).InnerAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AgentBase`1
+  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+  isExternal: true
+  name: AgentBase<TAgent>
+  nameWithType: AgentBase<TAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
+  nameWithType.vb: AgentBase(Of TAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
+  name.vb: AgentBase(Of TAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase<TAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of TAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  isExternal: true
+  name: InnerAgent
+  nameWithType: AgentBase<TAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.CreateDefaultRefCountEntity*
+  commentId: Overload:SuperOffice.CRM.Services.NumberAllocationAgent.CreateDefaultRefCountEntity
+  isExternal: true
+  name: CreateDefaultRefCountEntity
+  nameWithType: NumberAllocationAgent.CreateDefaultRefCountEntity
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.CreateDefaultRefCountEntity
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntity
+  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntity
+  parent: SuperOffice.CRM.Services.INumberAllocationAgent
+  isExternal: true
+  name: CreateDefaultRefCountEntity()
+  nameWithType: INumberAllocationAgent.CreateDefaultRefCountEntity()
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntity()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntity
+    name: CreateDefaultRefCountEntity
+    nameWithType: INumberAllocationAgent.CreateDefaultRefCountEntity
+    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntity
+    name: CreateDefaultRefCountEntity
+    nameWithType: INumberAllocationAgent.CreateDefaultRefCountEntity
+    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.RefCountEntity
+  commentId: T:SuperOffice.CRM.Services.RefCountEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: RefCountEntity
+  nameWithType: RefCountEntity
+  fullName: SuperOffice.CRM.Services.RefCountEntity
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.SaveRefCountEntity*
+  commentId: Overload:SuperOffice.CRM.Services.NumberAllocationAgent.SaveRefCountEntity
+  isExternal: true
+  name: SaveRefCountEntity
+  nameWithType: NumberAllocationAgent.SaveRefCountEntity
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.SaveRefCountEntity
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
+  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
+  parent: SuperOffice.CRM.Services.INumberAllocationAgent
+  isExternal: true
+  name: SaveRefCountEntity(RefCountEntity)
+  nameWithType: INumberAllocationAgent.SaveRefCountEntity(RefCountEntity)
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
+    name: SaveRefCountEntity
+    nameWithType: INumberAllocationAgent.SaveRefCountEntity
+    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.RefCountEntity
+    name: RefCountEntity
+    nameWithType: RefCountEntity
+    fullName: SuperOffice.CRM.Services.RefCountEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
+    name: SaveRefCountEntity
+    nameWithType: INumberAllocationAgent.SaveRefCountEntity
+    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.RefCountEntity
+    name: RefCountEntity
+    nameWithType: RefCountEntity
+    fullName: SuperOffice.CRM.Services.RefCountEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.DeleteRefCountEntity*
+  commentId: Overload:SuperOffice.CRM.Services.NumberAllocationAgent.DeleteRefCountEntity
+  isExternal: true
+  name: DeleteRefCountEntity
+  nameWithType: NumberAllocationAgent.DeleteRefCountEntity
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.DeleteRefCountEntity
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.INumberAllocationAgent
+  isExternal: true
+  name: DeleteRefCountEntity(Int32)
+  nameWithType: INumberAllocationAgent.DeleteRefCountEntity(Int32)
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntity(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntity(System.Int32)
+    name: DeleteRefCountEntity
+    nameWithType: INumberAllocationAgent.DeleteRefCountEntity
+    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntity(System.Int32)
+    name: DeleteRefCountEntity
+    nameWithType: INumberAllocationAgent.DeleteRefCountEntity
+    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.GetRefCountEntity*
+  commentId: Overload:SuperOffice.CRM.Services.NumberAllocationAgent.GetRefCountEntity
+  isExternal: true
+  name: GetRefCountEntity
+  nameWithType: NumberAllocationAgent.GetRefCountEntity
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.GetRefCountEntity
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.INumberAllocationAgent
+  isExternal: true
+  name: GetRefCountEntity(Int32)
+  nameWithType: INumberAllocationAgent.GetRefCountEntity(Int32)
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntity(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntity(System.Int32)
+    name: GetRefCountEntity
+    nameWithType: INumberAllocationAgent.GetRefCountEntity
+    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntity(System.Int32)
+    name: GetRefCountEntity
+    nameWithType: INumberAllocationAgent.GetRefCountEntity
+    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.SaveDefaultNumbering*
+  commentId: Overload:SuperOffice.CRM.Services.NumberAllocationAgent.SaveDefaultNumbering
+  isExternal: true
+  name: SaveDefaultNumbering
+  nameWithType: NumberAllocationAgent.SaveDefaultNumbering
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.SaveDefaultNumbering
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
+  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
+  parent: SuperOffice.CRM.Services.INumberAllocationAgent
+  isExternal: true
+  name: SaveDefaultNumbering(RefCountEntity)
+  nameWithType: INumberAllocationAgent.SaveDefaultNumbering(RefCountEntity)
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
+    name: SaveDefaultNumbering
+    nameWithType: INumberAllocationAgent.SaveDefaultNumbering
+    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumbering
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.RefCountEntity
+    name: RefCountEntity
+    nameWithType: RefCountEntity
+    fullName: SuperOffice.CRM.Services.RefCountEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
+    name: SaveDefaultNumbering
+    nameWithType: INumberAllocationAgent.SaveDefaultNumbering
+    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumbering
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.RefCountEntity
+    name: RefCountEntity
+    nameWithType: RefCountEntity
+    fullName: SuperOffice.CRM.Services.RefCountEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.GetNumberEachTemplate*
+  commentId: Overload:SuperOffice.CRM.Services.NumberAllocationAgent.GetNumberEachTemplate
+  isExternal: true
+  name: GetNumberEachTemplate
+  nameWithType: NumberAllocationAgent.GetNumberEachTemplate
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.GetNumberEachTemplate
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplate
+  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplate
+  parent: SuperOffice.CRM.Services.INumberAllocationAgent
+  isExternal: true
+  name: GetNumberEachTemplate()
+  nameWithType: INumberAllocationAgent.GetNumberEachTemplate()
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplate()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplate
+    name: GetNumberEachTemplate
+    nameWithType: INumberAllocationAgent.GetNumberEachTemplate
+    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplate
+    name: GetNumberEachTemplate
+    nameWithType: INumberAllocationAgent.GetNumberEachTemplate
+    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.SetNumberEachTemplate*
+  commentId: Overload:SuperOffice.CRM.Services.NumberAllocationAgent.SetNumberEachTemplate
+  isExternal: true
+  name: SetNumberEachTemplate
+  nameWithType: NumberAllocationAgent.SetNumberEachTemplate
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.SetNumberEachTemplate
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplate(System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplate(System.Boolean)
+  parent: SuperOffice.CRM.Services.INumberAllocationAgent
+  isExternal: true
+  name: SetNumberEachTemplate(Boolean)
+  nameWithType: INumberAllocationAgent.SetNumberEachTemplate(Boolean)
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplate(System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplate(System.Boolean)
+    name: SetNumberEachTemplate
+    nameWithType: INumberAllocationAgent.SetNumberEachTemplate
+    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplate(System.Boolean)
+    name: SetNumberEachTemplate
+    nameWithType: INumberAllocationAgent.SetNumberEachTemplate
+    fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.NumberAllocationAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.NumberAllocationAgent.#ctor
+  isExternal: true
+  name: NumberAllocationAgent
+  nameWithType: NumberAllocationAgent.NumberAllocationAgent
+  fullName: SuperOffice.CRM.Services.NumberAllocationAgent.NumberAllocationAgent

@@ -1,0 +1,770 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ActivityStatusHelper
+  commentId: T:SuperOffice.CRM.ActivityStatusHelper
+  id: ActivityStatusHelper
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.ActivityStatusHelper.ExtractKeyAndValue(System.String,System.String@,System.Int32@)
+  - SuperOffice.CRM.ActivityStatusHelper.SetCompleted(System.String,SuperOffice.Data.ActivityStatus)
+  - SuperOffice.CRM.ActivityStatusHelper.SetCompleted(System.String,System.Int32,SuperOffice.Data.ActivityStatus)
+  - SuperOffice.CRM.ActivityStatusHelper.ToggleActivity(System.String,System.Boolean,System.Boolean@)
+  - SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String)
+  - SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String,System.Boolean)
+  - SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String,System.Int32)
+  - SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String,System.Int32,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: ActivityStatusHelper
+  nameWithType: ActivityStatusHelper
+  fullName: SuperOffice.CRM.ActivityStatusHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nThis class implements the logic behind the &quot;toggle completed&quot; checkboxes for activities. The public\nentrypoint <xref href=\"SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String)\" data-throw-if-not-resolved=\"false\"></xref> will toggle the completed status for an activity, i.e., \na document, appointment or sale. Appointments may have three state logic enabled through a preference.\nThe changes are saved immediately.\n"
+  syntax:
+    content: public static class ActivityStatusHelper
+    content.vb: Public Module ActivityStatusHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String)
+  commentId: M:SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String)
+  id: ToggleCompleted(System.String)
+  parent: SuperOffice.CRM.ActivityStatusHelper
+  langs:
+  - csharp
+  - vb
+  name: ToggleCompleted(String)
+  nameWithType: ActivityStatusHelper.ToggleCompleted(String)
+  fullName: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nToggle the completed status for an activity, i.e., \na document, appointment or sale. Appointments may have three state logic enabled through a preference.\nThe changes are saved immediately. If an invalid id is passed in (nonexistent record), no changes will be\nmade and the value NotStarted will be returned. If there is no write access to the record being changed,\na Sentry exception will be thrown in the usual manner.\n"
+  syntax:
+    content: public static ActivityStatus ToggleCompleted(string keyAndValue)
+    parameters:
+    - id: keyAndValue
+      type: System.String
+      description: >-
+        Activity identifier, in the form &lt;key>=&lt;value>, where the key is
+
+        one of sale_id, appointment_id or document_id; and the value is an integer primary key.
+    return:
+      type: SuperOffice.Data.ActivityStatus
+      description: New status
+    content.vb: Public Shared Function ToggleCompleted(keyAndValue As String) As ActivityStatus
+  overload: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoIllegalOperationException
+    commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
+    description: Thrown if an unknown key string is passed in.
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if you do not have WRITE access to the record you&apos;re trying to update
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String,System.Boolean)
+  id: ToggleCompleted(System.String,System.Boolean)
+  parent: SuperOffice.CRM.ActivityStatusHelper
+  langs:
+  - csharp
+  - vb
+  name: ToggleCompleted(String, Boolean)
+  nameWithType: ActivityStatusHelper.ToggleCompleted(String, Boolean)
+  fullName: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nToggle the completed status for an activity, i.e., \na document, appointment or sale. Appointments may have three state logic enabled through a preference.\nThe changes are saved immediately. If an invalid id is passed in (nonexistent record), no changes will be\nmade and the value NotStarted will be returned. If there is no write access to the record being changed,\na Sentry exception will be thrown in the usual manner.\n"
+  syntax:
+    content: public static ActivityStatus ToggleCompleted(string keyAndValue, bool canSetComplete)
+    parameters:
+    - id: keyAndValue
+      type: System.String
+      description: >-
+        Activity identifier, in the form &lt;key>=&lt;value>, where the key is
+
+        one of sale_id, appointment_id or document_id; and the value is an integer primary key.
+    - id: canSetComplete
+      type: System.Boolean
+      description: "Specifies whether or not we should check if the activity you want to toggle\ntriggers a suggestion. If the activity triggers a suggestion, and the toggle action is from an un-complete\nto a complete state, this action is not executed. If you are unsure what value this parameter should have, \nuse the ToggleCompleted method without this parameter. The default value is true."
+    return:
+      type: SuperOffice.Data.ActivityStatus
+      description: The new status
+    content.vb: Public Shared Function ToggleCompleted(keyAndValue As String, canSetComplete As Boolean) As ActivityStatus
+  overload: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoIllegalOperationException
+    commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
+    description: Thrown if an unknown key string is passed in.
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if you do not have WRITE access to the record you&apos;re trying to update
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String,System.Int32)
+  id: ToggleCompleted(System.String,System.Int32)
+  parent: SuperOffice.CRM.ActivityStatusHelper
+  langs:
+  - csharp
+  - vb
+  name: ToggleCompleted(String, Int32)
+  nameWithType: ActivityStatusHelper.ToggleCompleted(String, Int32)
+  fullName: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nToggle the completed status for an activity, i.e., \na document, appointment or sale. Appointments may have three state logic enabled through a preference.\nThe changes are saved immediately. If an invalid id is passed in (nonexistent record), no changes will be\nmade and the value NotStarted will be returned. If there is no write access to the record being changed,\na Sentry exception will be thrown in the usual manner.\n"
+  syntax:
+    content: public static ActivityStatus ToggleCompleted(string keyName, int id)
+    parameters:
+    - id: keyName
+      type: System.String
+      description: One of appointment_id, sale_id or document_id
+    - id: id
+      type: System.Int32
+      description: Integer primary key of record to toggle
+    return:
+      type: SuperOffice.Data.ActivityStatus
+      description: New status
+    content.vb: Public Shared Function ToggleCompleted(keyName As String, id As Integer) As ActivityStatus
+  overload: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoIllegalOperationException
+    commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
+    description: Thrown if an unknown key string is passed in.
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if you do not have WRITE access to the record you&apos;re trying to update
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String,System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String,System.Int32,System.Boolean)
+  id: ToggleCompleted(System.String,System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.ActivityStatusHelper
+  langs:
+  - csharp
+  - vb
+  name: ToggleCompleted(String, Int32, Boolean)
+  nameWithType: ActivityStatusHelper.ToggleCompleted(String, Int32, Boolean)
+  fullName: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted(System.String, System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nToggle the completed status for an activity, i.e., \na document, appointment or sale. Appointments may have three state logic enabled through a preference.\nThe changes are saved immediately. If an invalid id is passed in (nonexistent record), no changes will be\nmade and the value NotStarted will be returned. If there is no write access to the record being changed,\na Sentry exception will be thrown in the usual manner.\n"
+  syntax:
+    content: public static ActivityStatus ToggleCompleted(string keyName, int id, bool canSetComplete)
+    parameters:
+    - id: keyName
+      type: System.String
+      description: One of appointment_id, sale_id or document_id
+    - id: id
+      type: System.Int32
+      description: Integer primary key of record to toggle
+    - id: canSetComplete
+      type: System.Boolean
+      description: "Specifies whether or not we should check if the activity you want to toggle\ntriggers a suggestion. If the activity triggers a suggestion, and the toggle action is from an un-complete\nto a complete state, this action is not executed. If you are unsure what value this parameter should have, \nuse the ToggleCompleted method without this parameter. The default value is true."
+    return:
+      type: SuperOffice.Data.ActivityStatus
+      description: New status
+    content.vb: Public Shared Function ToggleCompleted(keyName As String, id As Integer, canSetComplete As Boolean) As ActivityStatus
+  overload: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoIllegalOperationException
+    commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
+    description: Thrown if an unknown key string is passed in.
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if you do not have WRITE access to the record you&apos;re trying to update
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ActivityStatusHelper.SetCompleted(System.String,SuperOffice.Data.ActivityStatus)
+  commentId: M:SuperOffice.CRM.ActivityStatusHelper.SetCompleted(System.String,SuperOffice.Data.ActivityStatus)
+  id: SetCompleted(System.String,SuperOffice.Data.ActivityStatus)
+  parent: SuperOffice.CRM.ActivityStatusHelper
+  langs:
+  - csharp
+  - vb
+  name: SetCompleted(String, ActivityStatus)
+  nameWithType: ActivityStatusHelper.SetCompleted(String, ActivityStatus)
+  fullName: SuperOffice.CRM.ActivityStatusHelper.SetCompleted(System.String, SuperOffice.Data.ActivityStatus)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nSets the completed status for an activity, i.e., \na document, appointment or sale. Appointments may have three state logic enabled through a preference.\nThe changes are saved immediately. If an invalid id is passed in (nonexistent record), no changes will be\nmade. If there is no write access to the record being changed,\na Sentry exception will be thrown in the usual manner.\n"
+  syntax:
+    content: public static void SetCompleted(string keyAndValue, ActivityStatus activityStatus)
+    parameters:
+    - id: keyAndValue
+      type: System.String
+      description: >-
+        Activity identifier, in the form &lt;key>=&lt;value>, where the key is
+
+        one of sale_id, appointment_id or document_id; and the value is an integer primary key.
+    - id: activityStatus
+      type: SuperOffice.Data.ActivityStatus
+      description: The status to apply.
+    content.vb: Public Shared Sub SetCompleted(keyAndValue As String, activityStatus As ActivityStatus)
+  overload: SuperOffice.CRM.ActivityStatusHelper.SetCompleted*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoIllegalOperationException
+    commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
+    description: Thrown if an unknown key string is passed in.
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if you do not have WRITE access to the record you&apos;re trying to update
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ActivityStatusHelper.ExtractKeyAndValue(System.String,System.String@,System.Int32@)
+  commentId: M:SuperOffice.CRM.ActivityStatusHelper.ExtractKeyAndValue(System.String,System.String@,System.Int32@)
+  id: ExtractKeyAndValue(System.String,System.String@,System.Int32@)
+  parent: SuperOffice.CRM.ActivityStatusHelper
+  langs:
+  - csharp
+  - vb
+  name: ExtractKeyAndValue(String, out String, out Int32)
+  nameWithType: ActivityStatusHelper.ExtractKeyAndValue(String, out String, out Int32)
+  fullName: SuperOffice.CRM.ActivityStatusHelper.ExtractKeyAndValue(System.String, out System.String, out System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static void ExtractKeyAndValue(string keyAndValue, out string key, out int value)
+    parameters:
+    - id: keyAndValue
+      type: System.String
+    - id: key
+      type: System.String
+    - id: value
+      type: System.Int32
+    content.vb: Public Shared Sub ExtractKeyAndValue(keyAndValue As String, ByRef key As String, ByRef value As Integer)
+  overload: SuperOffice.CRM.ActivityStatusHelper.ExtractKeyAndValue*
+  nameWithType.vb: ActivityStatusHelper.ExtractKeyAndValue(String, ByRef String, ByRef Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ActivityStatusHelper.ExtractKeyAndValue(System.String, ByRef System.String, ByRef System.Int32)
+  name.vb: ExtractKeyAndValue(String, ByRef String, ByRef Int32)
+- uid: SuperOffice.CRM.ActivityStatusHelper.SetCompleted(System.String,System.Int32,SuperOffice.Data.ActivityStatus)
+  commentId: M:SuperOffice.CRM.ActivityStatusHelper.SetCompleted(System.String,System.Int32,SuperOffice.Data.ActivityStatus)
+  id: SetCompleted(System.String,System.Int32,SuperOffice.Data.ActivityStatus)
+  parent: SuperOffice.CRM.ActivityStatusHelper
+  langs:
+  - csharp
+  - vb
+  name: SetCompleted(String, Int32, ActivityStatus)
+  nameWithType: ActivityStatusHelper.SetCompleted(String, Int32, ActivityStatus)
+  fullName: SuperOffice.CRM.ActivityStatusHelper.SetCompleted(System.String, System.Int32, SuperOffice.Data.ActivityStatus)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: "\nSets the completed status for an activity, i.e., \na document, appointment or sale. Appointments may have three state logic enabled through a preference.\nThe changes are saved immediately. If an invalid id is passed in (nonexistent record), no changes will be\nmade. If there is no write access to the record being changed,\na Sentry exception will be thrown in the usual manner.\n"
+  syntax:
+    content: public static void SetCompleted(string keyName, int id, ActivityStatus activityStatus)
+    parameters:
+    - id: keyName
+      type: System.String
+      description: One of appointment_id, sale_id or document_id
+    - id: id
+      type: System.Int32
+      description: Integer primary key of record to toggle
+    - id: activityStatus
+      type: SuperOffice.Data.ActivityStatus
+      description: The status to apply
+    content.vb: Public Shared Sub SetCompleted(keyName As String, id As Integer, activityStatus As ActivityStatus)
+  overload: SuperOffice.CRM.ActivityStatusHelper.SetCompleted*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoIllegalOperationException
+    commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
+    description: Thrown if an unknown key string is passed in.
+  - type: SuperOffice.Exceptions.SoSentryException
+    commentId: T:SuperOffice.Exceptions.SoSentryException
+    description: Thrown if you do not have WRITE access to the record you&apos;re trying to update
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ActivityStatusHelper.ToggleActivity(System.String,System.Boolean,System.Boolean@)
+  commentId: M:SuperOffice.CRM.ActivityStatusHelper.ToggleActivity(System.String,System.Boolean,System.Boolean@)
+  id: ToggleActivity(System.String,System.Boolean,System.Boolean@)
+  parent: SuperOffice.CRM.ActivityStatusHelper
+  langs:
+  - csharp
+  - vb
+  name: ToggleActivity(String, Boolean, ref Boolean)
+  nameWithType: ActivityStatusHelper.ToggleActivity(String, Boolean, ref Boolean)
+  fullName: SuperOffice.CRM.ActivityStatusHelper.ToggleActivity(System.String, System.Boolean, ref System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static ActivityStatus ToggleActivity(string activityIdentifier, bool canSetComplete, ref bool hasChanged)
+    parameters:
+    - id: activityIdentifier
+      type: System.String
+    - id: canSetComplete
+      type: System.Boolean
+    - id: hasChanged
+      type: System.Boolean
+    return:
+      type: SuperOffice.Data.ActivityStatus
+    content.vb: Public Shared Function ToggleActivity(activityIdentifier As String, canSetComplete As Boolean, ByRef hasChanged As Boolean) As ActivityStatus
+  overload: SuperOffice.CRM.ActivityStatusHelper.ToggleActivity*
+  nameWithType.vb: ActivityStatusHelper.ToggleActivity(String, Boolean, ByRef Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ActivityStatusHelper.ToggleActivity(System.String, System.Boolean, ByRef System.Boolean)
+  name.vb: ToggleActivity(String, Boolean, ByRef Boolean)
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted*
+  commentId: Overload:SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted
+  isExternal: true
+  name: ToggleCompleted
+  nameWithType: ActivityStatusHelper.ToggleCompleted
+  fullName: SuperOffice.CRM.ActivityStatusHelper.ToggleCompleted
+- uid: SuperOffice.Exceptions.SoIllegalOperationException
+  commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
+  isExternal: true
+  name: SoIllegalOperationException
+  nameWithType: SoIllegalOperationException
+  fullName: SuperOffice.Exceptions.SoIllegalOperationException
+- uid: SuperOffice.Exceptions.SoSentryException
+  commentId: T:SuperOffice.Exceptions.SoSentryException
+  isExternal: true
+  name: SoSentryException
+  nameWithType: SoSentryException
+  fullName: SuperOffice.Exceptions.SoSentryException
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.ActivityStatus
+  commentId: T:SuperOffice.Data.ActivityStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ActivityStatus
+  nameWithType: ActivityStatus
+  fullName: SuperOffice.Data.ActivityStatus
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.ActivityStatusHelper.SetCompleted*
+  commentId: Overload:SuperOffice.CRM.ActivityStatusHelper.SetCompleted
+  isExternal: true
+  name: SetCompleted
+  nameWithType: ActivityStatusHelper.SetCompleted
+  fullName: SuperOffice.CRM.ActivityStatusHelper.SetCompleted
+- uid: SuperOffice.CRM.ActivityStatusHelper.ExtractKeyAndValue*
+  commentId: Overload:SuperOffice.CRM.ActivityStatusHelper.ExtractKeyAndValue
+  isExternal: true
+  name: ExtractKeyAndValue
+  nameWithType: ActivityStatusHelper.ExtractKeyAndValue
+  fullName: SuperOffice.CRM.ActivityStatusHelper.ExtractKeyAndValue
+- uid: SuperOffice.CRM.ActivityStatusHelper.ToggleActivity*
+  commentId: Overload:SuperOffice.CRM.ActivityStatusHelper.ToggleActivity
+  isExternal: true
+  name: ToggleActivity
+  nameWithType: ActivityStatusHelper.ToggleActivity
+  fullName: SuperOffice.CRM.ActivityStatusHelper.ToggleActivity

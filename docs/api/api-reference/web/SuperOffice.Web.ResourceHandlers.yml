@@ -1,0 +1,73 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.ResourceHandlers
+  commentId: N:SuperOffice.Web.ResourceHandlers
+  id: SuperOffice.Web.ResourceHandlers
+  children:
+  - SuperOffice.Web.ResourceHandlers.CacheContainer
+  - SuperOffice.Web.ResourceHandlers.CssIncludeFromApplicationCachePlugin
+  - SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin
+  - SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin
+  - SuperOffice.Web.ResourceHandlers.ResourceCacheBuilder
+  - SuperOffice.Web.ResourceHandlers.ResourceTagProvider
+  - SuperOffice.Web.ResourceHandlers.SoResourceHandlerPluginAttribute
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Web.ResourceHandlers
+  nameWithType: SuperOffice.Web.ResourceHandlers
+  fullName: SuperOffice.Web.ResourceHandlers
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCFWeb
+references:
+- uid: SuperOffice.Web.ResourceHandlers.CssIncludeFromApplicationCachePlugin
+  commentId: T:SuperOffice.Web.ResourceHandlers.CssIncludeFromApplicationCachePlugin
+  isExternal: true
+  name: CssIncludeFromApplicationCachePlugin
+  nameWithType: CssIncludeFromApplicationCachePlugin
+  fullName: SuperOffice.Web.ResourceHandlers.CssIncludeFromApplicationCachePlugin
+- uid: SuperOffice.Web.ResourceHandlers.SoResourceHandlerPluginAttribute
+  commentId: T:SuperOffice.Web.ResourceHandlers.SoResourceHandlerPluginAttribute
+  parent: SuperOffice.Web.ResourceHandlers
+  isExternal: true
+  name: SoResourceHandlerPluginAttribute
+  nameWithType: SoResourceHandlerPluginAttribute
+  fullName: SuperOffice.Web.ResourceHandlers.SoResourceHandlerPluginAttribute
+- uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin
+  commentId: T:SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin
+  parent: SuperOffice.Web.ResourceHandlers
+  isExternal: true
+  name: ISoResourceHandlerProviderPlugin
+  nameWithType: ISoResourceHandlerProviderPlugin
+  fullName: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin
+- uid: SuperOffice.Web.ResourceHandlers.CacheContainer
+  commentId: T:SuperOffice.Web.ResourceHandlers.CacheContainer
+  isExternal: true
+  name: CacheContainer
+  nameWithType: CacheContainer
+  fullName: SuperOffice.Web.ResourceHandlers.CacheContainer
+- uid: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin
+  commentId: T:SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin
+  isExternal: true
+  name: JsIncludeFromApplicationCachePlugin
+  nameWithType: JsIncludeFromApplicationCachePlugin
+  fullName: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin
+- uid: SuperOffice.Web.ResourceHandlers.ResourceCacheBuilder
+  commentId: T:SuperOffice.Web.ResourceHandlers.ResourceCacheBuilder
+  isExternal: true
+  name: ResourceCacheBuilder
+  nameWithType: ResourceCacheBuilder
+  fullName: SuperOffice.Web.ResourceHandlers.ResourceCacheBuilder
+- uid: SuperOffice.Web.ResourceHandlers.ResourceTagProvider
+  commentId: T:SuperOffice.Web.ResourceHandlers.ResourceTagProvider
+  isExternal: true
+  name: ResourceTagProvider
+  nameWithType: ResourceTagProvider
+  fullName: SuperOffice.Web.ResourceHandlers.ResourceTagProvider
+- uid: SuperOffice.Web.ResourceHandlers
+  commentId: N:SuperOffice.Web.ResourceHandlers
+  isExternal: true
+  name: SuperOffice.Web.ResourceHandlers
+  nameWithType: SuperOffice.Web.ResourceHandlers
+  fullName: SuperOffice.Web.ResourceHandlers

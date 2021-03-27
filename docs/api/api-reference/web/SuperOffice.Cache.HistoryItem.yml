@@ -1,0 +1,802 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Cache.HistoryItem
+  commentId: T:SuperOffice.Cache.HistoryItem
+  id: HistoryItem
+  parent: SuperOffice.Cache
+  children:
+  - SuperOffice.Cache.HistoryItem.#ctor
+  - SuperOffice.Cache.HistoryItem.#ctor(System.Int32,System.String,System.String)
+  - SuperOffice.Cache.HistoryItem.GetFieldRight(System.String)
+  - SuperOffice.Cache.HistoryItem.HasChanged
+  - SuperOffice.Cache.HistoryItem.Id
+  - SuperOffice.Cache.HistoryItem.Name
+  - SuperOffice.Cache.HistoryItem.SetSentryInformation(SuperOffice.CRM.Security.TableRight,System.String[],SuperOffice.CRM.Security.FieldRight[])
+  - SuperOffice.Cache.HistoryItem.TableRight
+  - SuperOffice.Cache.HistoryItem.ToString
+  - SuperOffice.Cache.HistoryItem.Type
+  langs:
+  - csharp
+  - vb
+  name: HistoryItem
+  nameWithType: HistoryItem
+  fullName: SuperOffice.Cache.HistoryItem
+  type: Class
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nRepresents a history item, i.e. a contact or project from the history list.\n"
+  syntax:
+    content: public class HistoryItem
+    content.vb: Public Class HistoryItem
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Cache.HistoryItem.#ctor
+  commentId: M:SuperOffice.Cache.HistoryItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Cache.HistoryItem
+  langs:
+  - csharp
+  - vb
+  name: HistoryItem()
+  nameWithType: HistoryItem.HistoryItem()
+  fullName: SuperOffice.Cache.HistoryItem.HistoryItem()
+  type: Constructor
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public HistoryItem()
+    content.vb: Public Sub New
+  overload: SuperOffice.Cache.HistoryItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.HistoryItem.#ctor(System.Int32,System.String,System.String)
+  commentId: M:SuperOffice.Cache.HistoryItem.#ctor(System.Int32,System.String,System.String)
+  id: '#ctor(System.Int32,System.String,System.String)'
+  parent: SuperOffice.Cache.HistoryItem
+  langs:
+  - csharp
+  - vb
+  name: HistoryItem(Int32, String, String)
+  nameWithType: HistoryItem.HistoryItem(Int32, String, String)
+  fullName: SuperOffice.Cache.HistoryItem.HistoryItem(System.Int32, System.String, System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nInit constructor\n"
+  syntax:
+    content: public HistoryItem(int id, string name, string type)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: The history item id, e.g. company id
+    - id: name
+      type: System.String
+      description: The history item name, e.g company name
+    - id: type
+      type: System.String
+      description: Extra info for the history item
+    content.vb: Public Sub New(id As Integer, name As String, type As String)
+  overload: SuperOffice.Cache.HistoryItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.HistoryItem.GetFieldRight(System.String)
+  commentId: M:SuperOffice.Cache.HistoryItem.GetFieldRight(System.String)
+  id: GetFieldRight(System.String)
+  parent: SuperOffice.Cache.HistoryItem
+  langs:
+  - csharp
+  - vb
+  name: GetFieldRight(String)
+  nameWithType: HistoryItem.GetFieldRight(String)
+  fullName: SuperOffice.Cache.HistoryItem.GetFieldRight(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nGet the field right for a certain field; null is returned if the field does not exist or we just don&apos;t know\n(for instance, after <xref href=\"SuperOffice.Cache.HistoryItem.HasChanged\" data-throw-if-not-resolved=\"false\"></xref> being set to true). This is a fast lookup.\n"
+  syntax:
+    content: public FieldRight GetFieldRight(string fieldName)
+    parameters:
+    - id: fieldName
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Security.FieldRight
+    content.vb: Public Function GetFieldRight(fieldName As String) As FieldRight
+  overload: SuperOffice.Cache.HistoryItem.GetFieldRight*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.HistoryItem.SetSentryInformation(SuperOffice.CRM.Security.TableRight,System.String[],SuperOffice.CRM.Security.FieldRight[])
+  commentId: M:SuperOffice.Cache.HistoryItem.SetSentryInformation(SuperOffice.CRM.Security.TableRight,System.String[],SuperOffice.CRM.Security.FieldRight[])
+  id: SetSentryInformation(SuperOffice.CRM.Security.TableRight,System.String[],SuperOffice.CRM.Security.FieldRight[])
+  parent: SuperOffice.Cache.HistoryItem
+  langs:
+  - csharp
+  - vb
+  name: SetSentryInformation(TableRight, String[], FieldRight[])
+  nameWithType: HistoryItem.SetSentryInformation(TableRight, String[], FieldRight[])
+  fullName: SuperOffice.Cache.HistoryItem.SetSentryInformation(SuperOffice.CRM.Security.TableRight, System.String[], SuperOffice.CRM.Security.FieldRight[])
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nSet the Sentry information\n"
+  syntax:
+    content: public void SetSentryInformation(TableRight tableRight, string[] fieldNames, FieldRight[] fieldRights)
+    parameters:
+    - id: tableRight
+      type: SuperOffice.CRM.Security.TableRight
+      description: Table rights of entity
+    - id: fieldNames
+      type: System.String[]
+      description: Names of fields
+    - id: fieldRights
+      type: SuperOffice.CRM.Security.FieldRight[]
+      description: Rights of fields, corresponding to names by position
+    content.vb: Public Sub SetSentryInformation(tableRight As TableRight, fieldNames As String(), fieldRights As FieldRight())
+  overload: SuperOffice.Cache.HistoryItem.SetSentryInformation*
+  nameWithType.vb: HistoryItem.SetSentryInformation(TableRight, String(), FieldRight())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Cache.HistoryItem.SetSentryInformation(SuperOffice.CRM.Security.TableRight, System.String(), SuperOffice.CRM.Security.FieldRight())
+  name.vb: SetSentryInformation(TableRight, String(), FieldRight())
+- uid: SuperOffice.Cache.HistoryItem.ToString
+  commentId: M:SuperOffice.Cache.HistoryItem.ToString
+  id: ToString
+  parent: SuperOffice.Cache.HistoryItem
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: HistoryItem.ToString()
+  fullName: SuperOffice.Cache.HistoryItem.ToString()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.Cache.HistoryItem.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Cache.HistoryItem.Id
+  commentId: P:SuperOffice.Cache.HistoryItem.Id
+  id: Id
+  parent: SuperOffice.Cache.HistoryItem
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: HistoryItem.Id
+  fullName: SuperOffice.Cache.HistoryItem.Id
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nThe history item&apos;s id\n"
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: SuperOffice.Cache.HistoryItem.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.HistoryItem.Name
+  commentId: P:SuperOffice.Cache.HistoryItem.Name
+  id: Name
+  parent: SuperOffice.Cache.HistoryItem
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: HistoryItem.Name
+  fullName: SuperOffice.Cache.HistoryItem.Name
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nThe history item&apos;s name\n"
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.Cache.HistoryItem.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.HistoryItem.Type
+  commentId: P:SuperOffice.Cache.HistoryItem.Type
+  id: Type
+  parent: SuperOffice.Cache.HistoryItem
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: HistoryItem.Type
+  fullName: SuperOffice.Cache.HistoryItem.Type
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nExtra type information on the history item\n"
+  syntax:
+    content: public string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type As String
+  overload: SuperOffice.Cache.HistoryItem.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.HistoryItem.HasChanged
+  commentId: P:SuperOffice.Cache.HistoryItem.HasChanged
+  id: HasChanged
+  parent: SuperOffice.Cache.HistoryItem
+  langs:
+  - csharp
+  - vb
+  name: HasChanged
+  nameWithType: HistoryItem.HasChanged
+  fullName: SuperOffice.Cache.HistoryItem.HasChanged
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nTrue if the history item has changed since the last request. When updated to &apos;true&apos;, sentry information will evaporate.\n"
+  syntax:
+    content: public bool HasChanged { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HasChanged As Boolean
+  overload: SuperOffice.Cache.HistoryItem.HasChanged*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Cache.HistoryItem.TableRight
+  commentId: P:SuperOffice.Cache.HistoryItem.TableRight
+  id: TableRight
+  parent: SuperOffice.Cache.HistoryItem
+  langs:
+  - csharp
+  - vb
+  name: TableRight
+  nameWithType: HistoryItem.TableRight
+  fullName: SuperOffice.Cache.HistoryItem.TableRight
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Cache
+  summary: "\nGet the table rights for the entity, if available (you may get a null return value here)\n"
+  syntax:
+    content: public TableRight TableRight { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Security.TableRight
+    content.vb: Public ReadOnly Property TableRight As TableRight
+  overload: SuperOffice.Cache.HistoryItem.TableRight*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Cache
+  commentId: N:SuperOffice.Cache
+  isExternal: true
+  name: SuperOffice.Cache
+  nameWithType: SuperOffice.Cache
+  fullName: SuperOffice.Cache
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Cache.HistoryItem.#ctor*
+  commentId: Overload:SuperOffice.Cache.HistoryItem.#ctor
+  isExternal: true
+  name: HistoryItem
+  nameWithType: HistoryItem.HistoryItem
+  fullName: SuperOffice.Cache.HistoryItem.HistoryItem
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Cache.HistoryItem.GetFieldRight*
+  commentId: Overload:SuperOffice.Cache.HistoryItem.GetFieldRight
+  isExternal: true
+  name: GetFieldRight
+  nameWithType: HistoryItem.GetFieldRight
+  fullName: SuperOffice.Cache.HistoryItem.GetFieldRight
+- uid: SuperOffice.CRM.Security.FieldRight
+  isExternal: true
+  name: FieldRight
+  nameWithType: FieldRight
+  fullName: SuperOffice.CRM.Security.FieldRight
+- uid: SuperOffice.Cache.HistoryItem.SetSentryInformation*
+  commentId: Overload:SuperOffice.Cache.HistoryItem.SetSentryInformation
+  isExternal: true
+  name: SetSentryInformation
+  nameWithType: HistoryItem.SetSentryInformation
+  fullName: SuperOffice.Cache.HistoryItem.SetSentryInformation
+- uid: SuperOffice.CRM.Security.TableRight
+  isExternal: true
+  name: TableRight
+  nameWithType: TableRight
+  fullName: SuperOffice.CRM.Security.TableRight
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Security.FieldRight[]
+  isExternal: true
+  name: FieldRight[]
+  nameWithType: FieldRight[]
+  fullName: SuperOffice.CRM.Security.FieldRight[]
+  nameWithType.vb: FieldRight()
+  fullName.vb: SuperOffice.CRM.Security.FieldRight()
+  name.vb: FieldRight()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Cache.HistoryItem.ToString*
+  commentId: Overload:SuperOffice.Cache.HistoryItem.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: HistoryItem.ToString
+  fullName: SuperOffice.Cache.HistoryItem.ToString
+- uid: SuperOffice.Cache.HistoryItem.Id*
+  commentId: Overload:SuperOffice.Cache.HistoryItem.Id
+  isExternal: true
+  name: Id
+  nameWithType: HistoryItem.Id
+  fullName: SuperOffice.Cache.HistoryItem.Id
+- uid: SuperOffice.Cache.HistoryItem.Name*
+  commentId: Overload:SuperOffice.Cache.HistoryItem.Name
+  isExternal: true
+  name: Name
+  nameWithType: HistoryItem.Name
+  fullName: SuperOffice.Cache.HistoryItem.Name
+- uid: SuperOffice.Cache.HistoryItem.Type*
+  commentId: Overload:SuperOffice.Cache.HistoryItem.Type
+  isExternal: true
+  name: Type
+  nameWithType: HistoryItem.Type
+  fullName: SuperOffice.Cache.HistoryItem.Type
+- uid: SuperOffice.Cache.HistoryItem.HasChanged*
+  commentId: Overload:SuperOffice.Cache.HistoryItem.HasChanged
+  isExternal: true
+  name: HasChanged
+  nameWithType: HistoryItem.HasChanged
+  fullName: SuperOffice.Cache.HistoryItem.HasChanged
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Cache.HistoryItem.TableRight*
+  commentId: Overload:SuperOffice.Cache.HistoryItem.TableRight
+  isExternal: true
+  name: TableRight
+  nameWithType: HistoryItem.TableRight
+  fullName: SuperOffice.Cache.HistoryItem.TableRight

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest
+  commentId: T:SuperOffice.WebApi.Data.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest
+  id: CRMScript_DeleteCRMScriptByUniqueIdentifierRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest.#ctor
+  - SuperOffice.WebApi.Data.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest.UniqueIdentifier
+  langs:
+  - csharp
+  - vb
+  name: CRMScript_DeleteCRMScriptByUniqueIdentifierRequest
+  nameWithType: CRMScript_DeleteCRMScriptByUniqueIdentifierRequest
+  fullName: SuperOffice.WebApi.Data.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class CRMScript_DeleteCRMScriptByUniqueIdentifierRequest : Object'
+    content.vb: >-
+      Public Class CRMScript_DeleteCRMScriptByUniqueIdentifierRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest
+  langs:
+  - csharp
+  - vb
+  name: CRMScript_DeleteCRMScriptByUniqueIdentifierRequest()
+  nameWithType: CRMScript_DeleteCRMScriptByUniqueIdentifierRequest.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest()
+  fullName: SuperOffice.WebApi.Data.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CRMScript_DeleteCRMScriptByUniqueIdentifierRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest.UniqueIdentifier
+  commentId: P:SuperOffice.WebApi.Data.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest.UniqueIdentifier
+  id: UniqueIdentifier
+  parent: SuperOffice.WebApi.Data.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest
+  langs:
+  - csharp
+  - vb
+  name: UniqueIdentifier
+  nameWithType: CRMScript_DeleteCRMScriptByUniqueIdentifierRequest.UniqueIdentifier
+  fullName: SuperOffice.WebApi.Data.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest.UniqueIdentifier
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string UniqueIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UniqueIdentifier As String
+  overload: SuperOffice.WebApi.Data.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest.UniqueIdentifier*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest.#ctor
+  isExternal: true
+  name: CRMScript_DeleteCRMScriptByUniqueIdentifierRequest
+  nameWithType: CRMScript_DeleteCRMScriptByUniqueIdentifierRequest.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest
+  fullName: SuperOffice.WebApi.Data.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest
+- uid: SuperOffice.WebApi.Data.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest.UniqueIdentifier*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest.UniqueIdentifier
+  isExternal: true
+  name: UniqueIdentifier
+  nameWithType: CRMScript_DeleteCRMScriptByUniqueIdentifierRequest.UniqueIdentifier
+  fullName: SuperOffice.WebApi.Data.CRMScript_DeleteCRMScriptByUniqueIdentifierRequest.UniqueIdentifier
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

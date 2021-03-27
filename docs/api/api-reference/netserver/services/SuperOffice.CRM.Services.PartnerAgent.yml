@@ -1,0 +1,1210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.PartnerAgent
+  commentId: T:SuperOffice.CRM.Services.PartnerAgent
+  id: PartnerAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.PartnerAgent.#ctor
+  - SuperOffice.CRM.Services.PartnerAgent.CreateOrUpdateWebPanel(System.String,System.String,System.String,System.String,SuperOffice.Data.Navigation,SuperOffice.Data.UrlEncoding,System.Boolean,System.Boolean)
+  - SuperOffice.CRM.Services.PartnerAgent.DeleteMyWebPanels
+  - SuperOffice.CRM.Services.PartnerAgent.DeleteWebPanel(System.String)
+  - SuperOffice.CRM.Services.PartnerAgent.GetMyWebPanels
+  - SuperOffice.CRM.Services.PartnerAgent.ResumeWebPanel(System.String)
+  - SuperOffice.CRM.Services.PartnerAgent.SuspendWebPanel(System.String)
+  langs:
+  - csharp
+  - vb
+  name: PartnerAgent
+  nameWithType: PartnerAgent
+  fullName: SuperOffice.CRM.Services.PartnerAgent
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFacade for the Partner Agent\nAgent with functionality specific for SuperOffice Partners\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (PartnerAgent agent = new PartnerAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: 'public class PartnerAgent : AgentBase<IPartnerAgent>, IDisposable, IPartnerAgent, IAgent'
+    content.vb: >-
+      Public Class PartnerAgent
+          Inherits AgentBase(Of IPartnerAgent)
+          Implements IDisposable, IPartnerAgent, IAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPartnerAgent}
+  implements:
+  - System.IDisposable
+  - SuperOffice.CRM.Services.IPartnerAgent
+  - SuperOffice.CRM.Services.IAgent
+  inheritedMembers:
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPartnerAgent}.Dispose
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPartnerAgent}.InnerAgent
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.PartnerAgent.CreateOrUpdateWebPanel(System.String,System.String,System.String,System.String,SuperOffice.Data.Navigation,SuperOffice.Data.UrlEncoding,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.PartnerAgent.CreateOrUpdateWebPanel(System.String,System.String,System.String,System.String,SuperOffice.Data.Navigation,SuperOffice.Data.UrlEncoding,System.Boolean,System.Boolean)
+  id: CreateOrUpdateWebPanel(System.String,System.String,System.String,System.String,SuperOffice.Data.Navigation,SuperOffice.Data.UrlEncoding,System.Boolean,System.Boolean)
+  parent: SuperOffice.CRM.Services.PartnerAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateOrUpdateWebPanel(String, String, String, String, Navigation, UrlEncoding, Boolean, Boolean)
+  nameWithType: PartnerAgent.CreateOrUpdateWebPanel(String, String, String, String, Navigation, UrlEncoding, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Services.PartnerAgent.CreateOrUpdateWebPanel(System.String, System.String, System.String, System.String, SuperOffice.Data.Navigation, SuperOffice.Data.UrlEncoding, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreate a web panel in the logged in users&apos; installation of SuperOffice CRM online. The panel will automatically be registered to the currently authenticated ApplicationId.\n"
+  syntax:
+    content: public string CreateOrUpdateWebPanel(string identifier, string displayName, string displayDescription, string url, Navigation visibleIn, UrlEncoding urlEncoding, bool onSalesMarketingWeb, bool onSalesMarketingPocket)
+    parameters:
+    - id: identifier
+      type: System.String
+      description: The string constant used by the Partner Application to identify this web panel
+    - id: displayName
+      type: System.String
+      description: The name of the panel as displayed in the GUI; may be multi-language syntax
+    - id: displayDescription
+      type: System.String
+      description: The tooltip of the panel as displayed in the GUI; may be multi-language syntax
+    - id: url
+      type: System.String
+      description: The url (target) of the panel; may contain merge tags
+    - id: visibleIn
+      type: SuperOffice.Data.Navigation
+      description: Where should the URL appear
+    - id: urlEncoding
+      type: SuperOffice.Data.UrlEncoding
+      description: The encoding of the URL
+    - id: onSalesMarketingWeb
+      type: System.Boolean
+      description: Is the webpanel visible when user is on the SM Web client
+    - id: onSalesMarketingPocket
+      type: System.Boolean
+      description: Is the webpanel visible when user is on the SM Pocket client
+    return:
+      type: System.String
+      description: The &apos;window name&apos; of the panel, which can be used as part of the soprotocol string to navigate to the web panel
+    content.vb: Public Function CreateOrUpdateWebPanel(identifier As String, displayName As String, displayDescription As String, url As String, visibleIn As Navigation, urlEncoding As UrlEncoding, onSalesMarketingWeb As Boolean, onSalesMarketingPocket As Boolean) As String
+  overload: SuperOffice.CRM.Services.PartnerAgent.CreateOrUpdateWebPanel*
+  implements:
+  - SuperOffice.CRM.Services.IPartnerAgent.CreateOrUpdateWebPanel(System.String,System.String,System.String,System.String,SuperOffice.Data.Navigation,SuperOffice.Data.UrlEncoding,System.Boolean,System.Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PartnerAgent.SuspendWebPanel(System.String)
+  commentId: M:SuperOffice.CRM.Services.PartnerAgent.SuspendWebPanel(System.String)
+  id: SuspendWebPanel(System.String)
+  parent: SuperOffice.CRM.Services.PartnerAgent
+  langs:
+  - csharp
+  - vb
+  name: SuspendWebPanel(String)
+  nameWithType: PartnerAgent.SuspendWebPanel(String)
+  fullName: SuperOffice.CRM.Services.PartnerAgent.SuspendWebPanel(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe web panel is no longer visible to the users, but all settings are kept\n"
+  syntax:
+    content: public void SuspendWebPanel(string identifier)
+    parameters:
+    - id: identifier
+      type: System.String
+      description: The string constant used by the Partner Application to identify this web panel
+    content.vb: Public Sub SuspendWebPanel(identifier As String)
+  overload: SuperOffice.CRM.Services.PartnerAgent.SuspendWebPanel*
+  implements:
+  - SuperOffice.CRM.Services.IPartnerAgent.SuspendWebPanel(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PartnerAgent.ResumeWebPanel(System.String)
+  commentId: M:SuperOffice.CRM.Services.PartnerAgent.ResumeWebPanel(System.String)
+  id: ResumeWebPanel(System.String)
+  parent: SuperOffice.CRM.Services.PartnerAgent
+  langs:
+  - csharp
+  - vb
+  name: ResumeWebPanel(String)
+  nameWithType: PartnerAgent.ResumeWebPanel(String)
+  fullName: SuperOffice.CRM.Services.PartnerAgent.ResumeWebPanel(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUndo a Suspend, so that the Web Panel is visible to users again\n"
+  syntax:
+    content: public void ResumeWebPanel(string identifier)
+    parameters:
+    - id: identifier
+      type: System.String
+      description: The string constant used by the Partner Application to identify this web panel
+    content.vb: Public Sub ResumeWebPanel(identifier As String)
+  overload: SuperOffice.CRM.Services.PartnerAgent.ResumeWebPanel*
+  implements:
+  - SuperOffice.CRM.Services.IPartnerAgent.ResumeWebPanel(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PartnerAgent.GetMyWebPanels
+  commentId: M:SuperOffice.CRM.Services.PartnerAgent.GetMyWebPanels
+  id: GetMyWebPanels
+  parent: SuperOffice.CRM.Services.PartnerAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyWebPanels()
+  nameWithType: PartnerAgent.GetMyWebPanels()
+  fullName: SuperOffice.CRM.Services.PartnerAgent.GetMyWebPanels()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet all web panels registered by this ApplicationId\n"
+  syntax:
+    content: public PartnerWebPanel[] GetMyWebPanels()
+    return:
+      type: SuperOffice.CRM.Services.PartnerWebPanel[]
+      description: Array of PartnerWebPanel entities
+    content.vb: Public Function GetMyWebPanels As PartnerWebPanel()
+  overload: SuperOffice.CRM.Services.PartnerAgent.GetMyWebPanels*
+  implements:
+  - SuperOffice.CRM.Services.IPartnerAgent.GetMyWebPanels
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PartnerAgent.DeleteWebPanel(System.String)
+  commentId: M:SuperOffice.CRM.Services.PartnerAgent.DeleteWebPanel(System.String)
+  id: DeleteWebPanel(System.String)
+  parent: SuperOffice.CRM.Services.PartnerAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteWebPanel(String)
+  nameWithType: PartnerAgent.DeleteWebPanel(String)
+  fullName: SuperOffice.CRM.Services.PartnerAgent.DeleteWebPanel(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIrrevocably delete all information related to this web panel; no undo\n"
+  syntax:
+    content: public void DeleteWebPanel(string identifier)
+    parameters:
+    - id: identifier
+      type: System.String
+      description: The string constant used by the Partner Application to identify this web panel
+    content.vb: Public Sub DeleteWebPanel(identifier As String)
+  overload: SuperOffice.CRM.Services.PartnerAgent.DeleteWebPanel*
+  implements:
+  - SuperOffice.CRM.Services.IPartnerAgent.DeleteWebPanel(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PartnerAgent.DeleteMyWebPanels
+  commentId: M:SuperOffice.CRM.Services.PartnerAgent.DeleteMyWebPanels
+  id: DeleteMyWebPanels
+  parent: SuperOffice.CRM.Services.PartnerAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteMyWebPanels()
+  nameWithType: PartnerAgent.DeleteMyWebPanels()
+  fullName: SuperOffice.CRM.Services.PartnerAgent.DeleteMyWebPanels()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIrrevocably delete all web panels registered by this ApplicationId\n"
+  syntax:
+    content: public void DeleteMyWebPanels()
+    content.vb: Public Sub DeleteMyWebPanels
+  overload: SuperOffice.CRM.Services.PartnerAgent.DeleteMyWebPanels*
+  implements:
+  - SuperOffice.CRM.Services.IPartnerAgent.DeleteMyWebPanels
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PartnerAgent.#ctor
+  commentId: M:SuperOffice.CRM.Services.PartnerAgent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.PartnerAgent
+  langs:
+  - csharp
+  - vb
+  name: PartnerAgent()
+  nameWithType: PartnerAgent.PartnerAgent()
+  fullName: SuperOffice.CRM.Services.PartnerAgent.PartnerAgent()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public PartnerAgent()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.PartnerAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPartnerAgent}
+  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPartnerAgent}
+  parent: SuperOffice.CRM.Services
+  definition: SuperOffice.CRM.Services.AgentBase`1
+  name: AgentBase<IPartnerAgent>
+  nameWithType: AgentBase<IPartnerAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IPartnerAgent>
+  nameWithType.vb: AgentBase(Of IPartnerAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IPartnerAgent)
+  name.vb: AgentBase(Of IPartnerAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.IPartnerAgent
+    name: IPartnerAgent
+    nameWithType: IPartnerAgent
+    fullName: SuperOffice.CRM.Services.IPartnerAgent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.IPartnerAgent
+    name: IPartnerAgent
+    nameWithType: IPartnerAgent
+    fullName: SuperOffice.CRM.Services.IPartnerAgent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.CRM.Services.IPartnerAgent
+  commentId: T:SuperOffice.CRM.Services.IPartnerAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IPartnerAgent
+  nameWithType: IPartnerAgent
+  fullName: SuperOffice.CRM.Services.IPartnerAgent
+- uid: SuperOffice.CRM.Services.IAgent
+  commentId: T:SuperOffice.CRM.Services.IAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAgent
+  nameWithType: IAgent
+  fullName: SuperOffice.CRM.Services.IAgent
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPartnerAgent}.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPartnerAgent}.Dispose
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPartnerAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  name: Dispose()
+  nameWithType: AgentBase<IPartnerAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IPartnerAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of IPartnerAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IPartnerAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<IPartnerAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IPartnerAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of IPartnerAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IPartnerAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPartnerAgent}.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPartnerAgent}.InnerAgent
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPartnerAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  name: InnerAgent
+  nameWithType: AgentBase<IPartnerAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IPartnerAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of IPartnerAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IPartnerAgent).InnerAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AgentBase`1
+  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+  isExternal: true
+  name: AgentBase<TAgent>
+  nameWithType: AgentBase<TAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
+  nameWithType.vb: AgentBase(Of TAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
+  name.vb: AgentBase(Of TAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase<TAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of TAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  isExternal: true
+  name: InnerAgent
+  nameWithType: AgentBase<TAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
+- uid: SuperOffice.CRM.Services.PartnerAgent.CreateOrUpdateWebPanel*
+  commentId: Overload:SuperOffice.CRM.Services.PartnerAgent.CreateOrUpdateWebPanel
+  isExternal: true
+  name: CreateOrUpdateWebPanel
+  nameWithType: PartnerAgent.CreateOrUpdateWebPanel
+  fullName: SuperOffice.CRM.Services.PartnerAgent.CreateOrUpdateWebPanel
+- uid: SuperOffice.CRM.Services.IPartnerAgent.CreateOrUpdateWebPanel(System.String,System.String,System.String,System.String,SuperOffice.Data.Navigation,SuperOffice.Data.UrlEncoding,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IPartnerAgent.CreateOrUpdateWebPanel(System.String,System.String,System.String,System.String,SuperOffice.Data.Navigation,SuperOffice.Data.UrlEncoding,System.Boolean,System.Boolean)
+  parent: SuperOffice.CRM.Services.IPartnerAgent
+  isExternal: true
+  name: CreateOrUpdateWebPanel(String, String, String, String, Navigation, UrlEncoding, Boolean, Boolean)
+  nameWithType: IPartnerAgent.CreateOrUpdateWebPanel(String, String, String, String, Navigation, UrlEncoding, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Services.IPartnerAgent.CreateOrUpdateWebPanel(System.String, System.String, System.String, System.String, SuperOffice.Data.Navigation, SuperOffice.Data.UrlEncoding, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPartnerAgent.CreateOrUpdateWebPanel(System.String,System.String,System.String,System.String,SuperOffice.Data.Navigation,SuperOffice.Data.UrlEncoding,System.Boolean,System.Boolean)
+    name: CreateOrUpdateWebPanel
+    nameWithType: IPartnerAgent.CreateOrUpdateWebPanel
+    fullName: SuperOffice.CRM.Services.IPartnerAgent.CreateOrUpdateWebPanel
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.Navigation
+    name: Navigation
+    nameWithType: Navigation
+    fullName: SuperOffice.Data.Navigation
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.UrlEncoding
+    name: UrlEncoding
+    nameWithType: UrlEncoding
+    fullName: SuperOffice.Data.UrlEncoding
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPartnerAgent.CreateOrUpdateWebPanel(System.String,System.String,System.String,System.String,SuperOffice.Data.Navigation,SuperOffice.Data.UrlEncoding,System.Boolean,System.Boolean)
+    name: CreateOrUpdateWebPanel
+    nameWithType: IPartnerAgent.CreateOrUpdateWebPanel
+    fullName: SuperOffice.CRM.Services.IPartnerAgent.CreateOrUpdateWebPanel
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.Navigation
+    name: Navigation
+    nameWithType: Navigation
+    fullName: SuperOffice.Data.Navigation
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.UrlEncoding
+    name: UrlEncoding
+    nameWithType: UrlEncoding
+    fullName: SuperOffice.Data.UrlEncoding
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.Navigation
+  isExternal: true
+  name: Navigation
+  nameWithType: Navigation
+  fullName: SuperOffice.Data.Navigation
+- uid: SuperOffice.Data.UrlEncoding
+  isExternal: true
+  name: UrlEncoding
+  nameWithType: UrlEncoding
+  fullName: SuperOffice.Data.UrlEncoding
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.PartnerAgent.SuspendWebPanel*
+  commentId: Overload:SuperOffice.CRM.Services.PartnerAgent.SuspendWebPanel
+  isExternal: true
+  name: SuspendWebPanel
+  nameWithType: PartnerAgent.SuspendWebPanel
+  fullName: SuperOffice.CRM.Services.PartnerAgent.SuspendWebPanel
+- uid: SuperOffice.CRM.Services.IPartnerAgent.SuspendWebPanel(System.String)
+  commentId: M:SuperOffice.CRM.Services.IPartnerAgent.SuspendWebPanel(System.String)
+  parent: SuperOffice.CRM.Services.IPartnerAgent
+  isExternal: true
+  name: SuspendWebPanel(String)
+  nameWithType: IPartnerAgent.SuspendWebPanel(String)
+  fullName: SuperOffice.CRM.Services.IPartnerAgent.SuspendWebPanel(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPartnerAgent.SuspendWebPanel(System.String)
+    name: SuspendWebPanel
+    nameWithType: IPartnerAgent.SuspendWebPanel
+    fullName: SuperOffice.CRM.Services.IPartnerAgent.SuspendWebPanel
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPartnerAgent.SuspendWebPanel(System.String)
+    name: SuspendWebPanel
+    nameWithType: IPartnerAgent.SuspendWebPanel
+    fullName: SuperOffice.CRM.Services.IPartnerAgent.SuspendWebPanel
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PartnerAgent.ResumeWebPanel*
+  commentId: Overload:SuperOffice.CRM.Services.PartnerAgent.ResumeWebPanel
+  isExternal: true
+  name: ResumeWebPanel
+  nameWithType: PartnerAgent.ResumeWebPanel
+  fullName: SuperOffice.CRM.Services.PartnerAgent.ResumeWebPanel
+- uid: SuperOffice.CRM.Services.IPartnerAgent.ResumeWebPanel(System.String)
+  commentId: M:SuperOffice.CRM.Services.IPartnerAgent.ResumeWebPanel(System.String)
+  parent: SuperOffice.CRM.Services.IPartnerAgent
+  isExternal: true
+  name: ResumeWebPanel(String)
+  nameWithType: IPartnerAgent.ResumeWebPanel(String)
+  fullName: SuperOffice.CRM.Services.IPartnerAgent.ResumeWebPanel(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPartnerAgent.ResumeWebPanel(System.String)
+    name: ResumeWebPanel
+    nameWithType: IPartnerAgent.ResumeWebPanel
+    fullName: SuperOffice.CRM.Services.IPartnerAgent.ResumeWebPanel
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPartnerAgent.ResumeWebPanel(System.String)
+    name: ResumeWebPanel
+    nameWithType: IPartnerAgent.ResumeWebPanel
+    fullName: SuperOffice.CRM.Services.IPartnerAgent.ResumeWebPanel
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PartnerAgent.GetMyWebPanels*
+  commentId: Overload:SuperOffice.CRM.Services.PartnerAgent.GetMyWebPanels
+  isExternal: true
+  name: GetMyWebPanels
+  nameWithType: PartnerAgent.GetMyWebPanels
+  fullName: SuperOffice.CRM.Services.PartnerAgent.GetMyWebPanels
+- uid: SuperOffice.CRM.Services.IPartnerAgent.GetMyWebPanels
+  commentId: M:SuperOffice.CRM.Services.IPartnerAgent.GetMyWebPanels
+  parent: SuperOffice.CRM.Services.IPartnerAgent
+  isExternal: true
+  name: GetMyWebPanels()
+  nameWithType: IPartnerAgent.GetMyWebPanels()
+  fullName: SuperOffice.CRM.Services.IPartnerAgent.GetMyWebPanels()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPartnerAgent.GetMyWebPanels
+    name: GetMyWebPanels
+    nameWithType: IPartnerAgent.GetMyWebPanels
+    fullName: SuperOffice.CRM.Services.IPartnerAgent.GetMyWebPanels
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPartnerAgent.GetMyWebPanels
+    name: GetMyWebPanels
+    nameWithType: IPartnerAgent.GetMyWebPanels
+    fullName: SuperOffice.CRM.Services.IPartnerAgent.GetMyWebPanels
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PartnerWebPanel[]
+  isExternal: true
+  name: PartnerWebPanel[]
+  nameWithType: PartnerWebPanel[]
+  fullName: SuperOffice.CRM.Services.PartnerWebPanel[]
+  nameWithType.vb: PartnerWebPanel()
+  fullName.vb: SuperOffice.CRM.Services.PartnerWebPanel()
+  name.vb: PartnerWebPanel()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.PartnerWebPanel
+    name: PartnerWebPanel
+    nameWithType: PartnerWebPanel
+    fullName: SuperOffice.CRM.Services.PartnerWebPanel
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.PartnerWebPanel
+    name: PartnerWebPanel
+    nameWithType: PartnerWebPanel
+    fullName: SuperOffice.CRM.Services.PartnerWebPanel
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.PartnerAgent.DeleteWebPanel*
+  commentId: Overload:SuperOffice.CRM.Services.PartnerAgent.DeleteWebPanel
+  isExternal: true
+  name: DeleteWebPanel
+  nameWithType: PartnerAgent.DeleteWebPanel
+  fullName: SuperOffice.CRM.Services.PartnerAgent.DeleteWebPanel
+- uid: SuperOffice.CRM.Services.IPartnerAgent.DeleteWebPanel(System.String)
+  commentId: M:SuperOffice.CRM.Services.IPartnerAgent.DeleteWebPanel(System.String)
+  parent: SuperOffice.CRM.Services.IPartnerAgent
+  isExternal: true
+  name: DeleteWebPanel(String)
+  nameWithType: IPartnerAgent.DeleteWebPanel(String)
+  fullName: SuperOffice.CRM.Services.IPartnerAgent.DeleteWebPanel(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPartnerAgent.DeleteWebPanel(System.String)
+    name: DeleteWebPanel
+    nameWithType: IPartnerAgent.DeleteWebPanel
+    fullName: SuperOffice.CRM.Services.IPartnerAgent.DeleteWebPanel
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPartnerAgent.DeleteWebPanel(System.String)
+    name: DeleteWebPanel
+    nameWithType: IPartnerAgent.DeleteWebPanel
+    fullName: SuperOffice.CRM.Services.IPartnerAgent.DeleteWebPanel
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PartnerAgent.DeleteMyWebPanels*
+  commentId: Overload:SuperOffice.CRM.Services.PartnerAgent.DeleteMyWebPanels
+  isExternal: true
+  name: DeleteMyWebPanels
+  nameWithType: PartnerAgent.DeleteMyWebPanels
+  fullName: SuperOffice.CRM.Services.PartnerAgent.DeleteMyWebPanels
+- uid: SuperOffice.CRM.Services.IPartnerAgent.DeleteMyWebPanels
+  commentId: M:SuperOffice.CRM.Services.IPartnerAgent.DeleteMyWebPanels
+  parent: SuperOffice.CRM.Services.IPartnerAgent
+  isExternal: true
+  name: DeleteMyWebPanels()
+  nameWithType: IPartnerAgent.DeleteMyWebPanels()
+  fullName: SuperOffice.CRM.Services.IPartnerAgent.DeleteMyWebPanels()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPartnerAgent.DeleteMyWebPanels
+    name: DeleteMyWebPanels
+    nameWithType: IPartnerAgent.DeleteMyWebPanels
+    fullName: SuperOffice.CRM.Services.IPartnerAgent.DeleteMyWebPanels
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPartnerAgent.DeleteMyWebPanels
+    name: DeleteMyWebPanels
+    nameWithType: IPartnerAgent.DeleteMyWebPanels
+    fullName: SuperOffice.CRM.Services.IPartnerAgent.DeleteMyWebPanels
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PartnerAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.PartnerAgent.#ctor
+  isExternal: true
+  name: PartnerAgent
+  nameWithType: PartnerAgent.PartnerAgent
+  fullName: SuperOffice.CRM.Services.PartnerAgent.PartnerAgent

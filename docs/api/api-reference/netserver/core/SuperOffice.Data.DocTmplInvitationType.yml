@@ -1,0 +1,511 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.DocTmplInvitationType
+  commentId: T:SuperOffice.Data.DocTmplInvitationType
+  id: DocTmplInvitationType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.DocTmplInvitationType.Cancelled
+  - SuperOffice.Data.DocTmplInvitationType.Changed
+  - SuperOffice.Data.DocTmplInvitationType.New
+  - SuperOffice.Data.DocTmplInvitationType.None
+  langs:
+  - csharp
+  - vb
+  name: DocTmplInvitationType
+  nameWithType: DocTmplInvitationType
+  fullName: SuperOffice.Data.DocTmplInvitationType
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nIs this document template some kind of appointment document, and if so what\nThis Enum is used by:  DocTmpl.invitationDocType\n"
+  syntax:
+    content: 'public enum DocTmplInvitationType : short'
+    content.vb: Public Enum DocTmplInvitationType As Short
+  extensionMethods:
+  - SuperOffice.Data.DocTmplInvitationType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.DocTmplInvitationType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.DocTmplInvitationType)
+  - SuperOffice.Data.DocTmplInvitationType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.DocTmplInvitationType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.DocTmplInvitationType.None
+  commentId: F:SuperOffice.Data.DocTmplInvitationType.None
+  id: None
+  parent: SuperOffice.Data.DocTmplInvitationType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DocTmplInvitationType.None
+  fullName: SuperOffice.Data.DocTmplInvitationType.None
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: None - Not an appointment type\n"
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.Data.DocTmplInvitationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DocTmplInvitationType.New
+  commentId: F:SuperOffice.Data.DocTmplInvitationType.New
+  id: New
+  parent: SuperOffice.Data.DocTmplInvitationType
+  langs:
+  - csharp
+  - vb
+  name: New
+  nameWithType: DocTmplInvitationType.New
+  fullName: SuperOffice.Data.DocTmplInvitationType.New
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: 1 - New appointment\n"
+  syntax:
+    content: New = 1
+    return:
+      type: SuperOffice.Data.DocTmplInvitationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DocTmplInvitationType.Changed
+  commentId: F:SuperOffice.Data.DocTmplInvitationType.Changed
+  id: Changed
+  parent: SuperOffice.Data.DocTmplInvitationType
+  langs:
+  - csharp
+  - vb
+  name: Changed
+  nameWithType: DocTmplInvitationType.Changed
+  fullName: SuperOffice.Data.DocTmplInvitationType.Changed
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: 2 - Changed appointment\n"
+  syntax:
+    content: Changed = 2
+    return:
+      type: SuperOffice.Data.DocTmplInvitationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DocTmplInvitationType.Cancelled
+  commentId: F:SuperOffice.Data.DocTmplInvitationType.Cancelled
+  id: Cancelled
+  parent: SuperOffice.Data.DocTmplInvitationType
+  langs:
+  - csharp
+  - vb
+  name: Cancelled
+  nameWithType: DocTmplInvitationType.Cancelled
+  fullName: SuperOffice.Data.DocTmplInvitationType.Cancelled
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n3: 3 - Cancelled appointment\n"
+  syntax:
+    content: Cancelled = 3
+    return:
+      type: SuperOffice.Data.DocTmplInvitationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.DocTmplInvitationType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<DocTmplInvitationType, To>()
+  nameWithType: EnumUtil.MapEnums<DocTmplInvitationType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.DocTmplInvitationType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DocTmplInvitationType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.DocTmplInvitationType, To)()
+  name.vb: MapEnums(Of DocTmplInvitationType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DocTmplInvitationType, To>
+    nameWithType: EnumUtil.MapEnums<DocTmplInvitationType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.DocTmplInvitationType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DocTmplInvitationType, To)
+    nameWithType: EnumUtil.MapEnums(Of DocTmplInvitationType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.DocTmplInvitationType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.DocTmplInvitationType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.DocTmplInvitationType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<DocTmplInvitationType>(DocTmplInvitationType)
+  nameWithType: ObjectExtensions.AssignByReflection<DocTmplInvitationType>(DocTmplInvitationType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.DocTmplInvitationType>(SuperOffice.Data.DocTmplInvitationType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DocTmplInvitationType)(DocTmplInvitationType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.DocTmplInvitationType)(SuperOffice.Data.DocTmplInvitationType)
+  name.vb: AssignByReflection(Of DocTmplInvitationType)(DocTmplInvitationType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<DocTmplInvitationType>
+    nameWithType: ObjectExtensions.AssignByReflection<DocTmplInvitationType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.DocTmplInvitationType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.DocTmplInvitationType
+    name: DocTmplInvitationType
+    nameWithType: DocTmplInvitationType
+    fullName: SuperOffice.Data.DocTmplInvitationType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of DocTmplInvitationType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of DocTmplInvitationType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.DocTmplInvitationType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.DocTmplInvitationType
+    name: DocTmplInvitationType
+    nameWithType: DocTmplInvitationType
+    fullName: SuperOffice.Data.DocTmplInvitationType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.DocTmplInvitationType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<DocTmplInvitationType>()
+  nameWithType: ObjectExtensions.GraphCopy<DocTmplInvitationType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.DocTmplInvitationType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of DocTmplInvitationType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.DocTmplInvitationType)()
+  name.vb: GraphCopy(Of DocTmplInvitationType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<DocTmplInvitationType>
+    nameWithType: ObjectExtensions.GraphCopy<DocTmplInvitationType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.DocTmplInvitationType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of DocTmplInvitationType)
+    nameWithType: ObjectExtensions.GraphCopy(Of DocTmplInvitationType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.DocTmplInvitationType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.DocTmplInvitationType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<DocTmplInvitationType, To>()
+  nameWithType: Converters.MapEnums<DocTmplInvitationType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.DocTmplInvitationType, To>()
+  nameWithType.vb: Converters.MapEnums(Of DocTmplInvitationType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.DocTmplInvitationType, To)()
+  name.vb: MapEnums(Of DocTmplInvitationType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DocTmplInvitationType, To>
+    nameWithType: Converters.MapEnums<DocTmplInvitationType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.DocTmplInvitationType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DocTmplInvitationType, To)
+    nameWithType: Converters.MapEnums(Of DocTmplInvitationType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.DocTmplInvitationType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.DocTmplInvitationType
+  commentId: T:SuperOffice.Data.DocTmplInvitationType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: DocTmplInvitationType
+  nameWithType: DocTmplInvitationType
+  fullName: SuperOffice.Data.DocTmplInvitationType

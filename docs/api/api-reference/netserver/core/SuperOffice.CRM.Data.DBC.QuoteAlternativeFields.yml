@@ -1,0 +1,1157 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  commentId: T:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  id: DBC.QuoteAlternativeFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.Description
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.DiscountAmount
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.DiscountPercent
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.EarningAmount
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.EarningPercent
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ERPDiscountAmount
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ERPDiscountPercent
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ERPQuoteAlternativeKey
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ExtraField1
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ExtraField2
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ExtraField3
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ExtraField4
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ExtraField5
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.Name
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.QuoteAlternativeId
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.QuoteVersionId
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.Reason
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.Registered
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.Status
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.TotalPrice
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.Updated
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.UserValueOverride
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.VAT
+  - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.VATInfo
+  langs:
+  - csharp
+  - vb
+  name: DBC.QuoteAlternativeFields
+  nameWithType: DBC.QuoteAlternativeFields
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for QuoteAlternative, Quote Version is made up of one or more Alternatives. One of 1..n possible alternatives in a Quote Version. The reason we have alternatives is that a quote can say to a customer, “we can solve you problem in two (or more) different ways, with different technology and sideeffects (and price)”. An Alternative may have discounts on the total amount. The Alternative tracks whether the user on the order level entered the Discount , Earning amount or the TotalPrice fields so that the discount and earning and total can be re-calculated correctly when Quote Lines are added or changed.\n"
+  syntax:
+    content: public static class QuoteAlternativeFields
+    content.vb: Public Module QuoteAlternativeFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.QuoteAlternativeId
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.QuoteAlternativeId
+  id: QuoteAlternativeId
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: QuoteAlternativeId
+  nameWithType: DBC.QuoteAlternativeFields.QuoteAlternativeId
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.QuoteAlternativeId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.QuoteAlternativeId: Primary key\n"
+  syntax:
+    content: public const string QuoteAlternativeId = "quotealternative_id"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteAlternativeId As String = "quotealternative_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ERPQuoteAlternativeKey
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ERPQuoteAlternativeKey
+  id: ERPQuoteAlternativeKey
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: ERPQuoteAlternativeKey
+  nameWithType: DBC.QuoteAlternativeFields.ERPQuoteAlternativeKey
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ERPQuoteAlternativeKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.ERPQuoteAlternativeKey: Key that identifies this alternative in the ERP system, if it exists there.\n"
+  syntax:
+    content: public const string ERPQuoteAlternativeKey = "ERPQuoteAlternativeKey"
+    return:
+      type: System.String
+    content.vb: Public Const ERPQuoteAlternativeKey As String = "ERPQuoteAlternativeKey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.QuoteVersionId
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.QuoteVersionId
+  id: QuoteVersionId
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionId
+  nameWithType: DBC.QuoteAlternativeFields.QuoteVersionId
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.QuoteVersionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.QuoteVersionId: The version that owns this alternative (the chain is Sale 1->1 Quote 1->+ QuoteVersion 1->+ QuoteAlternative.\n"
+  syntax:
+    content: public const string QuoteVersionId = "QuoteVersionId"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteVersionId As String = "QuoteVersionId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.QuoteAlternativeFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.Name: Name of Alternative. Shown in tab in user interface, intentionally kept short\n"
+  syntax:
+    content: public const string Name = "Name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "Name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.Description
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DBC.QuoteAlternativeFields.Description
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.Description: The tool-tip to use in the user interface (on the tab, for instance).\n"
+  syntax:
+    content: public const string Description = "Description"
+    return:
+      type: System.String
+    content.vb: Public Const Description As String = "Description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.Status
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.Status
+  id: Status
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: DBC.QuoteAlternativeFields.Status
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.Status
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.Status: If there was a problem with for instance calculation, this field is set to warning or error.\n"
+  syntax:
+    content: public const string Status = "Status"
+    return:
+      type: System.String
+    content.vb: Public Const Status As String = "Status"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.Reason
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.Reason
+  id: Reason
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: Reason
+  nameWithType: DBC.QuoteAlternativeFields.Reason
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.Reason
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.Reason: If there was a problem, this field contains a localized explanation of the problem and possible steps to fix it that the user can be shown.\n"
+  syntax:
+    content: public const string Reason = "Reason"
+    return:
+      type: System.String
+    content.vb: Public Const Reason As String = "Reason"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ERPDiscountPercent
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ERPDiscountPercent
+  id: ERPDiscountPercent
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: ERPDiscountPercent
+  nameWithType: DBC.QuoteAlternativeFields.ERPDiscountPercent
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ERPDiscountPercent
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.ERPDiscountPercent: The discount the system calculates based on customer /amount / whatever. Can be overridden by the sales rep in the field ‘DiscountPercent’ or ‘DiscountAmount’. Both the two ‘ERPDiscountPercent’ and ‘ERPDiscountAmount’ shall be filled out. If UserValueOverride is &apos;None&apos;, then the ERPDiscountAmount shall be copied into DiscountAmount and ERPDiscountPercent into DiscountPercent. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’.\n"
+  syntax:
+    content: public const string ERPDiscountPercent = "ERPDiscountPercent"
+    return:
+      type: System.String
+    content.vb: Public Const ERPDiscountPercent As String = "ERPDiscountPercent"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ERPDiscountAmount
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ERPDiscountAmount
+  id: ERPDiscountAmount
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: ERPDiscountAmount
+  nameWithType: DBC.QuoteAlternativeFields.ERPDiscountAmount
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ERPDiscountAmount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.ERPDiscountAmount: The discount the system calculates based on customer /amount / whatever. Can be overridden by the user in the field ‘DiscountPercent’ or ‘DiscountAmount’. Both the two ‘ERPDiscountPercent’ and ‘ERPDiscountAmount’ shall be filled out. If UserValueOverride is &apos;None&apos;, then the ERPDiscountAmount shall be copied into DiscountAmount and ERPDiscountPercent into DiscountPercent.\n"
+  syntax:
+    content: public const string ERPDiscountAmount = "ERPDiscountAmount"
+    return:
+      type: System.String
+    content.vb: Public Const ERPDiscountAmount As String = "ERPDiscountAmount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.DiscountPercent
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.DiscountPercent
+  id: DiscountPercent
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: DiscountPercent
+  nameWithType: DBC.QuoteAlternativeFields.DiscountPercent
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.DiscountPercent
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.DiscountPercent: The discount the sales rep specifies, in percent. Both the two ‘DiscountPercent’ and ‘DiscountAmount’ shall be filled out, but the UserValueOverride field must be set to the field the user actually changed. If this field is filled out by the user, it overrides the discount suggested by the connector. If the user has not filled any values, the system will copy the ERP discount percent value into this field. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’.\n"
+  syntax:
+    content: public const string DiscountPercent = "DiscountPercent"
+    return:
+      type: System.String
+    content.vb: Public Const DiscountPercent As String = "DiscountPercent"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.DiscountAmount
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.DiscountAmount
+  id: DiscountAmount
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: DiscountAmount
+  nameWithType: DBC.QuoteAlternativeFields.DiscountAmount
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.DiscountAmount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.DiscountAmount: The discount the sales rep specifies, in whatever currency the sale is in. Both the two ‘DiscountPercent’ and ‘DiscountAmount’ shall be filled out, but the UserValueOverride field must be set to the field the user actually changed. If this field is filled out by the user, it overrides the discount suggested by the connector. If the user has not filled any values, the system will copy the ERP discount amount value into this field.\n"
+  syntax:
+    content: public const string DiscountAmount = "DiscountAmount"
+    return:
+      type: System.String
+    content.vb: Public Const DiscountAmount As String = "DiscountAmount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.UserValueOverride
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.UserValueOverride
+  id: UserValueOverride
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: UserValueOverride
+  nameWithType: DBC.QuoteAlternativeFields.UserValueOverride
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.UserValueOverride
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.UserValueOverride: Has the pre-calculated (from ERP) price information been overridden, and how. If the user has filled out the discountpercentage field, then the UserValueOverride field is set to OverridePercent. (The DiscountAmount, EarningPercent, EarningAmount and TotalPrice fields are calculated based on the discountPercent.)\n"
+  syntax:
+    content: public const string UserValueOverride = "UserValueOverride"
+    return:
+      type: System.String
+    content.vb: Public Const UserValueOverride As String = "UserValueOverride"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.VATInfo
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.VATInfo
+  id: VATInfo
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: VATInfo
+  nameWithType: DBC.QuoteAlternativeFields.VATInfo
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.VATInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.VATInfo: Extra info about VAT that the connector might insert. This field has no business logic in the CRM code, but is available as a merge field in the quote documents.\n"
+  syntax:
+    content: public const string VATInfo = "VATInfo"
+    return:
+      type: System.String
+    content.vb: Public Const VATInfo As String = "VATInfo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.VAT
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.VAT
+  id: VAT
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: VAT
+  nameWithType: DBC.QuoteAlternativeFields.VAT
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.VAT
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.VAT: Tax/VAT - THIS IS AN AMOUNT, available as a merge field in the quote document. The SuperOffice quote connector will calculate this field based on the vat PERCENTAGES on the individual lines; other connectors may implement other algorithms at will.\n"
+  syntax:
+    content: public const string VAT = "VAT"
+    return:
+      type: System.String
+    content.vb: Public Const VAT As String = "VAT"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.EarningPercent
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.EarningPercent
+  id: EarningPercent
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: EarningPercent
+  nameWithType: DBC.QuoteAlternativeFields.EarningPercent
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.EarningPercent
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.EarningPercent: The earning on this alternative, in percent of total. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’.\n"
+  syntax:
+    content: public const string EarningPercent = "EarningPercent"
+    return:
+      type: System.String
+    content.vb: Public Const EarningPercent As String = "EarningPercent"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.EarningAmount
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.EarningAmount
+  id: EarningAmount
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: EarningAmount
+  nameWithType: DBC.QuoteAlternativeFields.EarningAmount
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.EarningAmount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.EarningAmount: Earning on this alternative, as an absolute amount\n"
+  syntax:
+    content: public const string EarningAmount = "EarningAmount"
+    return:
+      type: System.String
+    content.vb: Public Const EarningAmount As String = "EarningAmount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.TotalPrice
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.TotalPrice
+  id: TotalPrice
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: TotalPrice
+  nameWithType: DBC.QuoteAlternativeFields.TotalPrice
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.TotalPrice
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.TotalPrice: Sum of the QuoteLines.TotalPrice - AlternativeDiscount or QuoteLines.TotalCost + Earning based on what, if anything, the user has entered last. Shall be calculated by the connector.\n"
+  syntax:
+    content: public const string TotalPrice = "TotalPrice"
+    return:
+      type: System.String
+    content.vb: Public Const TotalPrice As String = "TotalPrice"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ExtraField1
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ExtraField1
+  id: ExtraField1
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraField1
+  nameWithType: DBC.QuoteAlternativeFields.ExtraField1
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ExtraField1
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.ExtraField1: Optional information added by Quote Connector; usable in the quote document merge process\n"
+  syntax:
+    content: public const string ExtraField1 = "extraField1"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraField1 As String = "extraField1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ExtraField2
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ExtraField2
+  id: ExtraField2
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraField2
+  nameWithType: DBC.QuoteAlternativeFields.ExtraField2
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ExtraField2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.ExtraField2: Optional information added by Quote Connector; usable in the quote document merge process\n"
+  syntax:
+    content: public const string ExtraField2 = "extraField2"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraField2 As String = "extraField2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ExtraField3
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ExtraField3
+  id: ExtraField3
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraField3
+  nameWithType: DBC.QuoteAlternativeFields.ExtraField3
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ExtraField3
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.ExtraField3: Optional information added by Quote Connector; usable in the quote document merge process\n"
+  syntax:
+    content: public const string ExtraField3 = "extraField3"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraField3 As String = "extraField3"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ExtraField4
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ExtraField4
+  id: ExtraField4
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraField4
+  nameWithType: DBC.QuoteAlternativeFields.ExtraField4
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ExtraField4
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.ExtraField4: Optional information added by Quote Connector; usable in the quote document merge process\n"
+  syntax:
+    content: public const string ExtraField4 = "extraField4"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraField4 As String = "extraField4"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ExtraField5
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ExtraField5
+  id: ExtraField5
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraField5
+  nameWithType: DBC.QuoteAlternativeFields.ExtraField5
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.ExtraField5
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.ExtraField5: Optional information added by Quote Connector; usable in the quote document merge process\n"
+  syntax:
+    content: public const string ExtraField5 = "extraField5"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraField5 As String = "extraField5"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.QuoteAlternativeFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.QuoteAlternativeFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.QuoteAlternativeFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.QuoteAlternativeFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.QuoteAlternativeFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.QuoteAlternativeFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nQuoteAlternative.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

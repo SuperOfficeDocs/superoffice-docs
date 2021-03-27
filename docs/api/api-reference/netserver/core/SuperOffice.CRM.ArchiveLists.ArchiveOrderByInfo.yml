@@ -1,0 +1,1089 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+  id: ArchiveOrderByInfo
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.#ctor
+  - SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.#ctor(System.String)
+  - SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.#ctor(System.String,SuperOffice.Data.OrderBySortType)
+  - SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.Direction
+  - SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.FromDelimitedString(System.String)
+  - SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.Name
+  - SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  - SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ToString
+  - SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ArchiveOrderByInfo
+  nameWithType: ArchiveOrderByInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nThis class carries information about an ordering criterion for an archive\n"
+  syntax:
+    content: public class ArchiveOrderByInfo
+    content.vb: Public Class ArchiveOrderByInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo)
+  - SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.#ctor
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+  langs:
+  - csharp
+  - vb
+  name: ArchiveOrderByInfo()
+  nameWithType: ArchiveOrderByInfo.ArchiveOrderByInfo()
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ArchiveOrderByInfo()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nConstruct the object with a blank name and ascending sort\n"
+  syntax:
+    content: public ArchiveOrderByInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.#ctor(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+  langs:
+  - csharp
+  - vb
+  name: ArchiveOrderByInfo(String)
+  nameWithType: ArchiveOrderByInfo.ArchiveOrderByInfo(String)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ArchiveOrderByInfo(System.String)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nConstruct the object with the given name and ascending sort\n"
+  syntax:
+    content: public ArchiveOrderByInfo(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Programmatic name of the column to order by, semantically the same as the ArchiveColumnInfo <xref href="SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.Name" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Sub New(name As String)
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.#ctor(System.String,SuperOffice.Data.OrderBySortType)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.#ctor(System.String,SuperOffice.Data.OrderBySortType)
+  id: '#ctor(System.String,SuperOffice.Data.OrderBySortType)'
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+  langs:
+  - csharp
+  - vb
+  name: ArchiveOrderByInfo(String, OrderBySortType)
+  nameWithType: ArchiveOrderByInfo.ArchiveOrderByInfo(String, OrderBySortType)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ArchiveOrderByInfo(System.String, SuperOffice.Data.OrderBySortType)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nConstruct the object with the given name and sort order\n"
+  syntax:
+    content: public ArchiveOrderByInfo(string name, OrderBySortType direction)
+    parameters:
+    - id: name
+      type: System.String
+      description: Programmatic name of the column to order by, semantically the same as the ArchiveColumnInfo <xref href="SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.Name" data-throw-if-not-resolved="false"></xref>
+    - id: direction
+      type: SuperOffice.Data.OrderBySortType
+      description: Direction of sort
+    content.vb: Public Sub New(name As String, direction As OrderBySortType)
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ToString
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ToString
+  id: ToString
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ArchiveOrderByInfo.ToString()
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ToString()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nConvert this instance to a string for debug display\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ToString(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ArchiveOrderByInfo.ToString(String)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ToString(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  id: ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+  langs:
+  - csharp
+  - vb
+  name: ToNameArray(ArchiveOrderByInfo[])
+  nameWithType: ArchiveOrderByInfo.ToNameArray(ArchiveOrderByInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nUtility method to convert an array of ArchiveRestrictionInfo into a string array containing the names only\n"
+  syntax:
+    content: public static string[] ToNameArray(params ArchiveOrderByInfo[] orderByInfos)
+    parameters:
+    - id: orderByInfos
+      type: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+    return:
+      type: System.String[]
+      description: Array of names, in original order
+    content.vb: Public Shared Function ToNameArray(ParamArray orderByInfos As ArchiveOrderByInfo()) As String()
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ToNameArray*
+  nameWithType.vb: ArchiveOrderByInfo.ToNameArray(ArchiveOrderByInfo())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo())
+  name.vb: ToNameArray(ArchiveOrderByInfo())
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.FromDelimitedString(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.FromDelimitedString(System.String)
+  id: FromDelimitedString(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+  langs:
+  - csharp
+  - vb
+  name: FromDelimitedString(String)
+  nameWithType: ArchiveOrderByInfo.FromDelimitedString(String)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.FromDelimitedString(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nConverts a string with format: columnName,direction1;columnName2,direction2 to an enumerable of ArchiveOrderByInfo\n"
+  syntax:
+    content: public static ArchiveOrderByInfo[] FromDelimitedString(string s)
+    parameters:
+    - id: s
+      type: System.String
+      description: Delimited string
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+    content.vb: Public Shared Function FromDelimitedString(s As String) As ArchiveOrderByInfo()
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.FromDelimitedString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.Name
+  commentId: P:SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.Name
+  id: Name
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ArchiveOrderByInfo.Name
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.Name
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nProgrammatic name of the column to order by, semantically the same as the ArchiveColumnInfo <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.Name\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.Direction
+  commentId: P:SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.Direction
+  id: Direction
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+  langs:
+  - csharp
+  - vb
+  name: Direction
+  nameWithType: ArchiveOrderByInfo.Direction
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.Direction
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDirection to order\n"
+  syntax:
+    content: public OrderBySortType Direction { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.OrderBySortType
+    content.vb: Public Property Direction As OrderBySortType
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.Direction*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ArchiveOrderByInfo, To>()
+  nameWithType: EnumUtil.MapEnums<ArchiveOrderByInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ArchiveOrderByInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo, To)()
+  name.vb: MapEnums(Of ArchiveOrderByInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ArchiveOrderByInfo, To>
+    nameWithType: EnumUtil.MapEnums<ArchiveOrderByInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ArchiveOrderByInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of ArchiveOrderByInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ArchiveOrderByInfo>(ArchiveOrderByInfo)
+  nameWithType: ObjectExtensions.AssignByReflection<ArchiveOrderByInfo>(ArchiveOrderByInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo>(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ArchiveOrderByInfo)(ArchiveOrderByInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo)(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo)
+  name.vb: AssignByReflection(Of ArchiveOrderByInfo)(ArchiveOrderByInfo)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ArchiveOrderByInfo>
+    nameWithType: ObjectExtensions.AssignByReflection<ArchiveOrderByInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ArchiveOrderByInfo)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ArchiveOrderByInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ArchiveOrderByInfo>()
+  nameWithType: ObjectExtensions.GraphCopy<ArchiveOrderByInfo>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ArchiveOrderByInfo)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo)()
+  name.vb: GraphCopy(Of ArchiveOrderByInfo)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ArchiveOrderByInfo>
+    nameWithType: ObjectExtensions.GraphCopy<ArchiveOrderByInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ArchiveOrderByInfo)
+    nameWithType: ObjectExtensions.GraphCopy(Of ArchiveOrderByInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ArchiveOrderByInfo, To>()
+  nameWithType: Converters.MapEnums<ArchiveOrderByInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of ArchiveOrderByInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo, To)()
+  name.vb: MapEnums(Of ArchiveOrderByInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ArchiveOrderByInfo, To>
+    nameWithType: Converters.MapEnums<ArchiveOrderByInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ArchiveOrderByInfo, To)
+    nameWithType: Converters.MapEnums(Of ArchiveOrderByInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.#ctor
+  isExternal: true
+  name: ArchiveOrderByInfo
+  nameWithType: ArchiveOrderByInfo.ArchiveOrderByInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ArchiveOrderByInfo
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.OrderBySortType
+  commentId: T:SuperOffice.Data.OrderBySortType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: OrderBySortType
+  nameWithType: OrderBySortType
+  fullName: SuperOffice.Data.OrderBySortType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ToString*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ArchiveOrderByInfo.ToString
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ToString
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ToNameArray*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ToNameArray
+  isExternal: true
+  name: ToNameArray
+  nameWithType: ArchiveOrderByInfo.ToNameArray
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.ToNameArray
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+  isExternal: true
+  name: ArchiveOrderByInfo[]
+  nameWithType: ArchiveOrderByInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+  nameWithType.vb: ArchiveOrderByInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo()
+  name.vb: ArchiveOrderByInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.FromDelimitedString*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.FromDelimitedString
+  isExternal: true
+  name: FromDelimitedString
+  nameWithType: ArchiveOrderByInfo.FromDelimitedString
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.FromDelimitedString
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.Name*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.Name
+  isExternal: true
+  name: Name
+  nameWithType: ArchiveOrderByInfo.Name
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.Name
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.Direction*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.Direction
+  isExternal: true
+  name: Direction
+  nameWithType: ArchiveOrderByInfo.Direction
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.Direction

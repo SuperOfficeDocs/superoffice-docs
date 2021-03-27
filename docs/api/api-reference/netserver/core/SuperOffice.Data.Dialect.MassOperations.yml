@@ -1,0 +1,886 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Dialect.MassOperations
+  commentId: T:SuperOffice.Data.Dialect.MassOperations
+  id: MassOperations
+  parent: SuperOffice.Data.Dialect
+  children:
+  - SuperOffice.Data.Dialect.MassOperations.#ctor
+  - SuperOffice.Data.Dialect.MassOperations.Delete(System.String,System.Int32[])
+  - SuperOffice.Data.Dialect.MassOperations.GetCurrent
+  - SuperOffice.Data.Dialect.MassOperations.Insert(System.String,System.String[],System.String[][])
+  - SuperOffice.Data.Dialect.MassOperations.Truncate(System.String)
+  - SuperOffice.Data.Dialect.MassOperations.Upsert(System.String,System.String[],System.String[],System.Boolean,System.String[][])
+  langs:
+  - csharp
+  - vb
+  name: MassOperations
+  nameWithType: MassOperations
+  fullName: SuperOffice.Data.Dialect.MassOperations
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: public abstract class MassOperations
+    content.vb: Public MustInherit Class MassOperations
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.Data.Dialect.OracleMassOperations
+  - SuperOffice.Data.Dialect.SqlServerMassOperations
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Data.Dialect.MassOperations.EnumUtil.MapEnums``2
+  - SuperOffice.Data.Dialect.MassOperations.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.Data.Dialect.MassOperations.GetCurrent
+  commentId: M:SuperOffice.Data.Dialect.MassOperations.GetCurrent
+  id: GetCurrent
+  parent: SuperOffice.Data.Dialect.MassOperations
+  langs:
+  - csharp
+  - vb
+  name: GetCurrent()
+  nameWithType: MassOperations.GetCurrent()
+  fullName: SuperOffice.Data.Dialect.MassOperations.GetCurrent()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: public static MassOperations GetCurrent()
+    return:
+      type: SuperOffice.Data.Dialect.MassOperations
+    content.vb: Public Shared Function GetCurrent As MassOperations
+  overload: SuperOffice.Data.Dialect.MassOperations.GetCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.Dialect.MassOperations.#ctor
+  commentId: M:SuperOffice.Data.Dialect.MassOperations.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Data.Dialect.MassOperations
+  langs:
+  - csharp
+  - vb
+  name: MassOperations()
+  nameWithType: MassOperations.MassOperations()
+  fullName: SuperOffice.Data.Dialect.MassOperations.MassOperations()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: protected MassOperations()
+    content.vb: Protected Sub New
+  overload: SuperOffice.Data.Dialect.MassOperations.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Data.Dialect.MassOperations.Insert(System.String,System.String[],System.String[][])
+  commentId: M:SuperOffice.Data.Dialect.MassOperations.Insert(System.String,System.String[],System.String[][])
+  id: Insert(System.String,System.String[],System.String[][])
+  parent: SuperOffice.Data.Dialect.MassOperations
+  langs:
+  - csharp
+  - vb
+  name: Insert(String, String[], String[][])
+  nameWithType: MassOperations.Insert(String, String[], String[][])
+  fullName: SuperOffice.Data.Dialect.MassOperations.Insert(System.String, System.String[], System.String[][])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nMass-insert rows, with or without primary keys specified\n"
+  syntax:
+    content: public virtual MassResult Insert(string tableName, string[] columns, string[][] data)
+    parameters:
+    - id: tableName
+      type: System.String
+    - id: columns
+      type: System.String[]
+      description: List of column names, in the same order as in the data
+    - id: data
+      type: System.String[][]
+      description: Outer array = row, inner = column in specified order; use CultureDataFormatter to format values
+    return:
+      type: SuperOffice.Data.Dialect.MassResult
+      description: Summary of results
+    content.vb: Public Overridable Function Insert(tableName As String, columns As String(), data As String()()) As MassResult
+  overload: SuperOffice.Data.Dialect.MassOperations.Insert*
+  nameWithType.vb: MassOperations.Insert(String, String(), String()())
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.Data.Dialect.MassOperations.Insert(System.String, System.String(), System.String()())
+  name.vb: Insert(String, String(), String()())
+- uid: SuperOffice.Data.Dialect.MassOperations.Truncate(System.String)
+  commentId: M:SuperOffice.Data.Dialect.MassOperations.Truncate(System.String)
+  id: Truncate(System.String)
+  parent: SuperOffice.Data.Dialect.MassOperations
+  langs:
+  - csharp
+  - vb
+  name: Truncate(String)
+  nameWithType: MassOperations.Truncate(String)
+  fullName: SuperOffice.Data.Dialect.MassOperations.Truncate(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nDrop all rows in a table\n"
+  syntax:
+    content: public virtual MassResult Truncate(string tableName)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Name of table to be truncated
+    return:
+      type: SuperOffice.Data.Dialect.MassResult
+      description: Summary of results
+    content.vb: Public Overridable Function Truncate(tableName As String) As MassResult
+  overload: SuperOffice.Data.Dialect.MassOperations.Truncate*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Data.Dialect.MassOperations.Upsert(System.String,System.String[],System.String[],System.Boolean,System.String[][])
+  commentId: M:SuperOffice.Data.Dialect.MassOperations.Upsert(System.String,System.String[],System.String[],System.Boolean,System.String[][])
+  id: Upsert(System.String,System.String[],System.String[],System.Boolean,System.String[][])
+  parent: SuperOffice.Data.Dialect.MassOperations
+  langs:
+  - csharp
+  - vb
+  name: Upsert(String, String[], String[], Boolean, String[][])
+  nameWithType: MassOperations.Upsert(String, String[], String[], Boolean, String[][])
+  fullName: SuperOffice.Data.Dialect.MassOperations.Upsert(System.String, System.String[], System.String[], System.Boolean, System.String[][])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nInsert or update rows\n"
+  syntax:
+    content: public virtual MassResult Upsert(string tableName, string[] columns, string[] keys, bool deleteUnmatched, string[][] data)
+    parameters:
+    - id: tableName
+      type: System.String
+    - id: columns
+      type: System.String[]
+      description: List of column names, in the same order as in the data
+    - id: keys
+      type: System.String[]
+      description: List of columns that are to be used as keys, to match any existing rows
+    - id: deleteUnmatched
+      type: System.Boolean
+      description: If true, then any rows that have NOT been matched or inserted, will be deleted. The end result is that the table will look like the incoming data
+    - id: data
+      type: System.String[][]
+      description: Outer array = row, inner = column in specified order; use CultureDataFormatter to format values
+    return:
+      type: SuperOffice.Data.Dialect.MassResult
+      description: Summary of results
+    content.vb: Public Overridable Function Upsert(tableName As String, columns As String(), keys As String(), deleteUnmatched As Boolean, data As String()()) As MassResult
+  overload: SuperOffice.Data.Dialect.MassOperations.Upsert*
+  nameWithType.vb: MassOperations.Upsert(String, String(), String(), Boolean, String()())
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.Data.Dialect.MassOperations.Upsert(System.String, System.String(), System.String(), System.Boolean, System.String()())
+  name.vb: Upsert(String, String(), String(), Boolean, String()())
+- uid: SuperOffice.Data.Dialect.MassOperations.Delete(System.String,System.Int32[])
+  commentId: M:SuperOffice.Data.Dialect.MassOperations.Delete(System.String,System.Int32[])
+  id: Delete(System.String,System.Int32[])
+  parent: SuperOffice.Data.Dialect.MassOperations
+  langs:
+  - csharp
+  - vb
+  name: Delete(String, Int32[])
+  nameWithType: MassOperations.Delete(String, Int32[])
+  fullName: SuperOffice.Data.Dialect.MassOperations.Delete(System.String, System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nDelete rows, by primary key\n"
+  syntax:
+    content: public virtual MassResult Delete(string tableName, int[] iDs)
+    parameters:
+    - id: tableName
+      type: System.String
+    - id: iDs
+      type: System.Int32[]
+      description: Primary keys of the rows to be deleted
+    return:
+      type: SuperOffice.Data.Dialect.MassResult
+      description: Summary of results
+    content.vb: Public Overridable Function Delete(tableName As String, iDs As Integer()) As MassResult
+  overload: SuperOffice.Data.Dialect.MassOperations.Delete*
+  nameWithType.vb: MassOperations.Delete(String, Int32())
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.Data.Dialect.MassOperations.Delete(System.String, System.Int32())
+  name.vb: Delete(String, Int32())
+references:
+- uid: SuperOffice.Data.Dialect
+  commentId: N:SuperOffice.Data.Dialect
+  isExternal: true
+  name: SuperOffice.Data.Dialect
+  nameWithType: SuperOffice.Data.Dialect
+  fullName: SuperOffice.Data.Dialect
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dialect.MassOperations.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<MassOperations, To>()
+  nameWithType: EnumUtil.MapEnums<MassOperations, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Dialect.MassOperations, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of MassOperations, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Dialect.MassOperations, To)()
+  name.vb: MapEnums(Of MassOperations, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<MassOperations, To>
+    nameWithType: EnumUtil.MapEnums<MassOperations, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.Dialect.MassOperations, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of MassOperations, To)
+    nameWithType: EnumUtil.MapEnums(Of MassOperations, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.Dialect.MassOperations, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dialect.MassOperations.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<MassOperations, To>()
+  nameWithType: Converters.MapEnums<MassOperations, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dialect.MassOperations, To>()
+  nameWithType.vb: Converters.MapEnums(Of MassOperations, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dialect.MassOperations, To)()
+  name.vb: MapEnums(Of MassOperations, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<MassOperations, To>
+    nameWithType: Converters.MapEnums<MassOperations, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dialect.MassOperations, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of MassOperations, To)
+    nameWithType: Converters.MapEnums(Of MassOperations, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dialect.MassOperations, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.Dialect.MassOperations.GetCurrent*
+  commentId: Overload:SuperOffice.Data.Dialect.MassOperations.GetCurrent
+  isExternal: true
+  name: GetCurrent
+  nameWithType: MassOperations.GetCurrent
+  fullName: SuperOffice.Data.Dialect.MassOperations.GetCurrent
+- uid: SuperOffice.Data.Dialect.MassOperations
+  commentId: T:SuperOffice.Data.Dialect.MassOperations
+  parent: SuperOffice.Data.Dialect
+  isExternal: true
+  name: MassOperations
+  nameWithType: MassOperations
+  fullName: SuperOffice.Data.Dialect.MassOperations
+- uid: SuperOffice.Data.Dialect.MassOperations.#ctor*
+  commentId: Overload:SuperOffice.Data.Dialect.MassOperations.#ctor
+  isExternal: true
+  name: MassOperations
+  nameWithType: MassOperations.MassOperations
+  fullName: SuperOffice.Data.Dialect.MassOperations.MassOperations
+- uid: SuperOffice.Data.Dialect.MassOperations.Insert*
+  commentId: Overload:SuperOffice.Data.Dialect.MassOperations.Insert
+  isExternal: true
+  name: Insert
+  nameWithType: MassOperations.Insert
+  fullName: SuperOffice.Data.Dialect.MassOperations.Insert
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.String[][]
+  isExternal: true
+  name: String[][]
+  nameWithType: String[][]
+  fullName: System.String[][]
+  nameWithType.vb: String()()
+  fullName.vb: System.String()()
+  name.vb: String()()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.Dialect.MassResult
+  commentId: T:SuperOffice.Data.Dialect.MassResult
+  parent: SuperOffice.Data.Dialect
+  isExternal: true
+  name: MassResult
+  nameWithType: MassResult
+  fullName: SuperOffice.Data.Dialect.MassResult
+- uid: SuperOffice.Data.Dialect.MassOperations.Truncate*
+  commentId: Overload:SuperOffice.Data.Dialect.MassOperations.Truncate
+  isExternal: true
+  name: Truncate
+  nameWithType: MassOperations.Truncate
+  fullName: SuperOffice.Data.Dialect.MassOperations.Truncate
+- uid: SuperOffice.Data.Dialect.MassOperations.Upsert*
+  commentId: Overload:SuperOffice.Data.Dialect.MassOperations.Upsert
+  isExternal: true
+  name: Upsert
+  nameWithType: MassOperations.Upsert
+  fullName: SuperOffice.Data.Dialect.MassOperations.Upsert
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Data.Dialect.MassOperations.Delete*
+  commentId: Overload:SuperOffice.Data.Dialect.MassOperations.Delete
+  isExternal: true
+  name: Delete
+  nameWithType: MassOperations.Delete
+  fullName: SuperOffice.Data.Dialect.MassOperations.Delete
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

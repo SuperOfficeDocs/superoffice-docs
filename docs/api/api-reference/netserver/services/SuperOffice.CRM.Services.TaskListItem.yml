@@ -1,0 +1,750 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.TaskListItem
+  commentId: T:SuperOffice.CRM.Services.TaskListItem
+  id: TaskListItem
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.TaskListItem.#ctor
+  - SuperOffice.CRM.Services.TaskListItem.ColorIndex
+  - SuperOffice.CRM.Services.TaskListItem.DefaultVideomeetingStatus
+  - SuperOffice.CRM.Services.TaskListItem.Deleted
+  - SuperOffice.CRM.Services.TaskListItem.Direction
+  - SuperOffice.CRM.Services.TaskListItem.IntentId
+  - SuperOffice.CRM.Services.TaskListItem.IsDefaultAlldayEvent
+  - SuperOffice.CRM.Services.TaskListItem.IsDefaultFree
+  - SuperOffice.CRM.Services.TaskListItem.IsDefaultPublished
+  - SuperOffice.CRM.Services.TaskListItem.Rank
+  - SuperOffice.CRM.Services.TaskListItem.TaskListItemId
+  - SuperOffice.CRM.Services.TaskListItem.Tooltip
+  - SuperOffice.CRM.Services.TaskListItem.ToString
+  - SuperOffice.CRM.Services.TaskListItem.ToString(System.String)
+  - SuperOffice.CRM.Services.TaskListItem.Type
+  - SuperOffice.CRM.Services.TaskListItem.Value
+  langs:
+  - csharp
+  - vb
+  name: TaskListItem
+  nameWithType: TaskListItem
+  fullName: SuperOffice.CRM.Services.TaskListItem
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for TaskListItem.\nServices for the TaskListItem Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IAppointmentAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet TaskListItem 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new AppointmentAgent();\n    var taskListItem = agent.GetTaskListItem( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class TaskListItem : Carrier'
+    content.vb: >-
+      Public Class TaskListItem
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.AppointmentAgent
+    commentId: T:SuperOffice.CRM.Services.AppointmentAgent
+  - linkId: SuperOffice.CRM.Services.IAppointmentAgent
+    commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.TaskListItem.#ctor
+  commentId: M:SuperOffice.CRM.Services.TaskListItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.TaskListItem
+  langs:
+  - csharp
+  - vb
+  name: TaskListItem()
+  nameWithType: TaskListItem.TaskListItem()
+  fullName: SuperOffice.CRM.Services.TaskListItem.TaskListItem()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public TaskListItem()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.TaskListItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TaskListItem.ToString
+  commentId: M:SuperOffice.CRM.Services.TaskListItem.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.TaskListItem
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TaskListItem.ToString()
+  fullName: SuperOffice.CRM.Services.TaskListItem.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.TaskListItem.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.TaskListItem.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.TaskListItem.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.TaskListItem
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: TaskListItem.ToString(String)
+  fullName: SuperOffice.CRM.Services.TaskListItem.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.TaskListItem.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TaskListItem.TaskListItemId
+  commentId: P:SuperOffice.CRM.Services.TaskListItem.TaskListItemId
+  id: TaskListItemId
+  parent: SuperOffice.CRM.Services.TaskListItem
+  langs:
+  - csharp
+  - vb
+  name: TaskListItemId
+  nameWithType: TaskListItem.TaskListItemId
+  fullName: SuperOffice.CRM.Services.TaskListItem.TaskListItemId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int TaskListItemId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TaskListItemId As Integer
+  overload: SuperOffice.CRM.Services.TaskListItem.TaskListItemId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TaskListItem.Value
+  commentId: P:SuperOffice.CRM.Services.TaskListItem.Value
+  id: Value
+  parent: SuperOffice.CRM.Services.TaskListItem
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: TaskListItem.Value
+  fullName: SuperOffice.CRM.Services.TaskListItem.Value
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe list item \n"
+  syntax:
+    content: public virtual string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Value As String
+  overload: SuperOffice.CRM.Services.TaskListItem.Value*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TaskListItem.Direction
+  commentId: P:SuperOffice.CRM.Services.TaskListItem.Direction
+  id: Direction
+  parent: SuperOffice.CRM.Services.TaskListItem
+  langs:
+  - csharp
+  - vb
+  name: Direction
+  nameWithType: TaskListItem.Direction
+  fullName: SuperOffice.CRM.Services.TaskListItem.Direction
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n1 = incoming, 2 = outgoing, see EAppntDirection \n"
+  syntax:
+    content: public virtual TaskDirection Direction { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.TaskDirection
+    content.vb: Public Overridable Property Direction As TaskDirection
+  overload: SuperOffice.CRM.Services.TaskListItem.Direction*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TaskListItem.Type
+  commentId: P:SuperOffice.CRM.Services.TaskListItem.Type
+  id: Type
+  parent: SuperOffice.CRM.Services.TaskListItem
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: TaskListItem.Type
+  fullName: SuperOffice.CRM.Services.TaskListItem.Type
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes \n"
+  syntax:
+    content: public virtual TaskType Type { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.TaskType
+    content.vb: Public Overridable Property Type As TaskType
+  overload: SuperOffice.CRM.Services.TaskListItem.Type*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TaskListItem.Tooltip
+  commentId: P:SuperOffice.CRM.Services.TaskListItem.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Services.TaskListItem
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: TaskListItem.Tooltip
+  fullName: SuperOffice.CRM.Services.TaskListItem.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTooltip or other description \n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.CRM.Services.TaskListItem.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TaskListItem.Deleted
+  commentId: P:SuperOffice.CRM.Services.TaskListItem.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Services.TaskListItem
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: TaskListItem.Deleted
+  fullName: SuperOffice.CRM.Services.TaskListItem.Deleted
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIf true, the Task list item is deleted \n"
+  syntax:
+    content: public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.CRM.Services.TaskListItem.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TaskListItem.IntentId
+  commentId: P:SuperOffice.CRM.Services.TaskListItem.IntentId
+  id: IntentId
+  parent: SuperOffice.CRM.Services.TaskListItem
+  langs:
+  - csharp
+  - vb
+  name: IntentId
+  nameWithType: TaskListItem.IntentId
+  fullName: SuperOffice.CRM.Services.TaskListItem.IntentId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLink to the intention of this kind of task (used by SAINT) \n"
+  syntax:
+    content: public virtual int IntentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property IntentId As Integer
+  overload: SuperOffice.CRM.Services.TaskListItem.IntentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TaskListItem.Rank
+  commentId: P:SuperOffice.CRM.Services.TaskListItem.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Services.TaskListItem
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: TaskListItem.Rank
+  fullName: SuperOffice.CRM.Services.TaskListItem.Rank
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRank order \n"
+  syntax:
+    content: public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Rank As Short
+  overload: SuperOffice.CRM.Services.TaskListItem.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TaskListItem.IsDefaultAlldayEvent
+  commentId: P:SuperOffice.CRM.Services.TaskListItem.IsDefaultAlldayEvent
+  id: IsDefaultAlldayEvent
+  parent: SuperOffice.CRM.Services.TaskListItem
+  langs:
+  - csharp
+  - vb
+  name: IsDefaultAlldayEvent
+  nameWithType: TaskListItem.IsDefaultAlldayEvent
+  fullName: SuperOffice.CRM.Services.TaskListItem.IsDefaultAlldayEvent
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue if all day event \n"
+  syntax:
+    content: public virtual bool IsDefaultAlldayEvent { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsDefaultAlldayEvent As Boolean
+  overload: SuperOffice.CRM.Services.TaskListItem.IsDefaultAlldayEvent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TaskListItem.IsDefaultFree
+  commentId: P:SuperOffice.CRM.Services.TaskListItem.IsDefaultFree
+  id: IsDefaultFree
+  parent: SuperOffice.CRM.Services.TaskListItem
+  langs:
+  - csharp
+  - vb
+  name: IsDefaultFree
+  nameWithType: TaskListItem.IsDefaultFree
+  fullName: SuperOffice.CRM.Services.TaskListItem.IsDefaultFree
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue if free, false if busy \n"
+  syntax:
+    content: public virtual bool IsDefaultFree { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsDefaultFree As Boolean
+  overload: SuperOffice.CRM.Services.TaskListItem.IsDefaultFree*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TaskListItem.IsDefaultPublished
+  commentId: P:SuperOffice.CRM.Services.TaskListItem.IsDefaultPublished
+  id: IsDefaultPublished
+  parent: SuperOffice.CRM.Services.TaskListItem
+  langs:
+  - csharp
+  - vb
+  name: IsDefaultPublished
+  nameWithType: TaskListItem.IsDefaultPublished
+  fullName: SuperOffice.CRM.Services.TaskListItem.IsDefaultPublished
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPublished to external persons \n"
+  syntax:
+    content: public virtual bool IsDefaultPublished { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsDefaultPublished As Boolean
+  overload: SuperOffice.CRM.Services.TaskListItem.IsDefaultPublished*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TaskListItem.ColorIndex
+  commentId: P:SuperOffice.CRM.Services.TaskListItem.ColorIndex
+  id: ColorIndex
+  parent: SuperOffice.CRM.Services.TaskListItem
+  langs:
+  - csharp
+  - vb
+  name: ColorIndex
+  nameWithType: TaskListItem.ColorIndex
+  fullName: SuperOffice.CRM.Services.TaskListItem.ColorIndex
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nJAP \n"
+  syntax:
+    content: public virtual ColorIndex ColorIndex { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.ColorIndex
+    content.vb: Public Overridable Property ColorIndex As ColorIndex
+  overload: SuperOffice.CRM.Services.TaskListItem.ColorIndex*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TaskListItem.DefaultVideomeetingStatus
+  commentId: P:SuperOffice.CRM.Services.TaskListItem.DefaultVideomeetingStatus
+  id: DefaultVideomeetingStatus
+  parent: SuperOffice.CRM.Services.TaskListItem
+  langs:
+  - csharp
+  - vb
+  name: DefaultVideomeetingStatus
+  nameWithType: TaskListItem.DefaultVideomeetingStatus
+  fullName: SuperOffice.CRM.Services.TaskListItem.DefaultVideomeetingStatus
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault video-meeting status for meetings created in SuperOffice CRM. \n"
+  syntax:
+    content: public virtual VideoMeetingStatus DefaultVideomeetingStatus { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.VideoMeetingStatus
+    content.vb: Public Overridable Property DefaultVideomeetingStatus As VideoMeetingStatus
+  overload: SuperOffice.CRM.Services.TaskListItem.DefaultVideomeetingStatus*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AppointmentAgent
+  commentId: T:SuperOffice.CRM.Services.AppointmentAgent
+  isExternal: true
+  name: AppointmentAgent
+  nameWithType: AppointmentAgent
+  fullName: SuperOffice.CRM.Services.AppointmentAgent
+- uid: SuperOffice.CRM.Services.IAppointmentAgent
+  commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAppointmentAgent
+  nameWithType: IAppointmentAgent
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.TaskListItem.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.TaskListItem.#ctor
+  isExternal: true
+  name: TaskListItem
+  nameWithType: TaskListItem.TaskListItem
+  fullName: SuperOffice.CRM.Services.TaskListItem.TaskListItem
+- uid: SuperOffice.CRM.Services.TaskListItem.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.TaskListItem.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: TaskListItem.ToString
+  fullName: SuperOffice.CRM.Services.TaskListItem.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.TaskListItem.TaskListItemId*
+  commentId: Overload:SuperOffice.CRM.Services.TaskListItem.TaskListItemId
+  isExternal: true
+  name: TaskListItemId
+  nameWithType: TaskListItem.TaskListItemId
+  fullName: SuperOffice.CRM.Services.TaskListItem.TaskListItemId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.TaskListItem.Value*
+  commentId: Overload:SuperOffice.CRM.Services.TaskListItem.Value
+  isExternal: true
+  name: Value
+  nameWithType: TaskListItem.Value
+  fullName: SuperOffice.CRM.Services.TaskListItem.Value
+- uid: SuperOffice.CRM.Services.TaskListItem.Direction*
+  commentId: Overload:SuperOffice.CRM.Services.TaskListItem.Direction
+  isExternal: true
+  name: Direction
+  nameWithType: TaskListItem.Direction
+  fullName: SuperOffice.CRM.Services.TaskListItem.Direction
+- uid: SuperOffice.Data.TaskDirection
+  commentId: '!:SuperOffice.Data.TaskDirection'
+  isExternal: true
+  name: TaskDirection
+  nameWithType: TaskDirection
+  fullName: SuperOffice.Data.TaskDirection
+- uid: SuperOffice.CRM.Services.TaskListItem.Type*
+  commentId: Overload:SuperOffice.CRM.Services.TaskListItem.Type
+  isExternal: true
+  name: Type
+  nameWithType: TaskListItem.Type
+  fullName: SuperOffice.CRM.Services.TaskListItem.Type
+- uid: SuperOffice.Data.TaskType
+  isExternal: true
+  name: TaskType
+  nameWithType: TaskType
+  fullName: SuperOffice.Data.TaskType
+- uid: SuperOffice.CRM.Services.TaskListItem.Tooltip*
+  commentId: Overload:SuperOffice.CRM.Services.TaskListItem.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: TaskListItem.Tooltip
+  fullName: SuperOffice.CRM.Services.TaskListItem.Tooltip
+- uid: SuperOffice.CRM.Services.TaskListItem.Deleted*
+  commentId: Overload:SuperOffice.CRM.Services.TaskListItem.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: TaskListItem.Deleted
+  fullName: SuperOffice.CRM.Services.TaskListItem.Deleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.TaskListItem.IntentId*
+  commentId: Overload:SuperOffice.CRM.Services.TaskListItem.IntentId
+  isExternal: true
+  name: IntentId
+  nameWithType: TaskListItem.IntentId
+  fullName: SuperOffice.CRM.Services.TaskListItem.IntentId
+- uid: SuperOffice.CRM.Services.TaskListItem.Rank*
+  commentId: Overload:SuperOffice.CRM.Services.TaskListItem.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: TaskListItem.Rank
+  fullName: SuperOffice.CRM.Services.TaskListItem.Rank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Services.TaskListItem.IsDefaultAlldayEvent*
+  commentId: Overload:SuperOffice.CRM.Services.TaskListItem.IsDefaultAlldayEvent
+  isExternal: true
+  name: IsDefaultAlldayEvent
+  nameWithType: TaskListItem.IsDefaultAlldayEvent
+  fullName: SuperOffice.CRM.Services.TaskListItem.IsDefaultAlldayEvent
+- uid: SuperOffice.CRM.Services.TaskListItem.IsDefaultFree*
+  commentId: Overload:SuperOffice.CRM.Services.TaskListItem.IsDefaultFree
+  isExternal: true
+  name: IsDefaultFree
+  nameWithType: TaskListItem.IsDefaultFree
+  fullName: SuperOffice.CRM.Services.TaskListItem.IsDefaultFree
+- uid: SuperOffice.CRM.Services.TaskListItem.IsDefaultPublished*
+  commentId: Overload:SuperOffice.CRM.Services.TaskListItem.IsDefaultPublished
+  isExternal: true
+  name: IsDefaultPublished
+  nameWithType: TaskListItem.IsDefaultPublished
+  fullName: SuperOffice.CRM.Services.TaskListItem.IsDefaultPublished
+- uid: SuperOffice.CRM.Services.TaskListItem.ColorIndex*
+  commentId: Overload:SuperOffice.CRM.Services.TaskListItem.ColorIndex
+  isExternal: true
+  name: ColorIndex
+  nameWithType: TaskListItem.ColorIndex
+  fullName: SuperOffice.CRM.Services.TaskListItem.ColorIndex
+- uid: SuperOffice.Data.ColorIndex
+  commentId: '!:SuperOffice.Data.ColorIndex'
+  isExternal: true
+  name: ColorIndex
+  nameWithType: ColorIndex
+  fullName: SuperOffice.Data.ColorIndex
+- uid: SuperOffice.CRM.Services.TaskListItem.DefaultVideomeetingStatus*
+  commentId: Overload:SuperOffice.CRM.Services.TaskListItem.DefaultVideomeetingStatus
+  isExternal: true
+  name: DefaultVideomeetingStatus
+  nameWithType: TaskListItem.DefaultVideomeetingStatus
+  fullName: SuperOffice.CRM.Services.TaskListItem.DefaultVideomeetingStatus
+- uid: SuperOffice.Data.VideoMeetingStatus
+  commentId: '!:SuperOffice.Data.VideoMeetingStatus'
+  isExternal: true
+  name: VideoMeetingStatus
+  nameWithType: VideoMeetingStatus
+  fullName: SuperOffice.Data.VideoMeetingStatus

@@ -1,0 +1,386 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.IdentityModel.TokenHandlerBase
+  commentId: T:SuperOffice.WebApi.IdentityModel.TokenHandlerBase
+  id: TokenHandlerBase
+  parent: SuperOffice.WebApi.IdentityModel
+  children:
+  - SuperOffice.WebApi.IdentityModel.TokenHandlerBase.#ctor(System.Net.Http.HttpClient,SuperOffice.WebApi.Data.OnlineEnvironment)
+  - SuperOffice.WebApi.IdentityModel.TokenHandlerBase.ConfigurationManager
+  - SuperOffice.WebApi.IdentityModel.TokenHandlerBase.SecurityTokenHandler
+  - SuperOffice.WebApi.IdentityModel.TokenHandlerBase.ValidateAsync(System.String)
+  - SuperOffice.WebApi.IdentityModel.TokenHandlerBase.ValidationParameters
+  langs:
+  - csharp
+  - vb
+  name: TokenHandlerBase
+  nameWithType: TokenHandlerBase
+  fullName: SuperOffice.WebApi.IdentityModel.TokenHandlerBase
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  summary: "\nBase class for all token handlers.\n"
+  syntax:
+    content: 'public abstract class TokenHandlerBase : Object, ITokenHandler'
+    content.vb: >-
+      Public MustInherit Class TokenHandlerBase
+          Inherits Object
+          Implements ITokenHandler
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.WebApi.IdentityModel.JwtTokenHandler
+  - SuperOffice.WebApi.IdentityModel.SystemUserTokenHandler
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.WebApi.IdentityModel.TokenHandlerBase.#ctor(System.Net.Http.HttpClient,SuperOffice.WebApi.Data.OnlineEnvironment)
+  commentId: M:SuperOffice.WebApi.IdentityModel.TokenHandlerBase.#ctor(System.Net.Http.HttpClient,SuperOffice.WebApi.Data.OnlineEnvironment)
+  id: '#ctor(System.Net.Http.HttpClient,SuperOffice.WebApi.Data.OnlineEnvironment)'
+  parent: SuperOffice.WebApi.IdentityModel.TokenHandlerBase
+  langs:
+  - csharp
+  - vb
+  name: TokenHandlerBase(HttpClient, OnlineEnvironment)
+  nameWithType: TokenHandlerBase.TokenHandlerBase(HttpClient, OnlineEnvironment)
+  fullName: SuperOffice.WebApi.IdentityModel.TokenHandlerBase.TokenHandlerBase(System.Net.Http.HttpClient, SuperOffice.WebApi.Data.OnlineEnvironment)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  summary: "\nContructor for TokenHandlerBase class.\n"
+  syntax:
+    content: protected TokenHandlerBase(HttpClient client, OnlineEnvironment environment)
+    parameters:
+    - id: client
+      type: System.Net.Http.HttpClient
+      description: HttpClient for issuing HTTP requests.
+    - id: environment
+      type: SuperOffice.WebApi.Data.OnlineEnvironment
+      description: SuperOffice CRM online environment.
+    content.vb: Protected Sub New(client As HttpClient, environment As OnlineEnvironment)
+  overload: SuperOffice.WebApi.IdentityModel.TokenHandlerBase.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.WebApi.IdentityModel.TokenHandlerBase.ValidateAsync(System.String)
+  commentId: M:SuperOffice.WebApi.IdentityModel.TokenHandlerBase.ValidateAsync(System.String)
+  id: ValidateAsync(System.String)
+  parent: SuperOffice.WebApi.IdentityModel.TokenHandlerBase
+  langs:
+  - csharp
+  - vb
+  name: ValidateAsync(String)
+  nameWithType: TokenHandlerBase.ValidateAsync(String)
+  fullName: SuperOffice.WebApi.IdentityModel.TokenHandlerBase.ValidateAsync(System.String)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  summary: "\nValidates an identity token.\n"
+  syntax:
+    content: public abstract Task<TokenValidationResult> ValidateAsync(string token)
+    parameters:
+    - id: token
+      type: System.String
+      description: The identity token.
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult}
+      description: Task of type <xref href="Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult" data-throw-if-not-resolved="false"></xref> with results of validation.
+    content.vb: Public MustOverride Function ValidateAsync(token As String) As Task(Of TokenValidationResult)
+  overload: SuperOffice.WebApi.IdentityModel.TokenHandlerBase.ValidateAsync*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: SuperOffice.WebApi.IdentityModel.TokenHandlerBase.ConfigurationManager
+  commentId: P:SuperOffice.WebApi.IdentityModel.TokenHandlerBase.ConfigurationManager
+  id: ConfigurationManager
+  parent: SuperOffice.WebApi.IdentityModel.TokenHandlerBase
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationManager
+  nameWithType: TokenHandlerBase.ConfigurationManager
+  fullName: SuperOffice.WebApi.IdentityModel.TokenHandlerBase.ConfigurationManager
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  summary: "\nConfiguration manager responsible for getting OIDC configuration from metadata Uri.\n"
+  syntax:
+    content: protected ConfigurationManager ConfigurationManager { get; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.IdentityModel.ConfigurationManager
+    content.vb: Protected ReadOnly Property ConfigurationManager As ConfigurationManager
+  overload: SuperOffice.WebApi.IdentityModel.TokenHandlerBase.ConfigurationManager*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: SuperOffice.WebApi.IdentityModel.TokenHandlerBase.SecurityTokenHandler
+  commentId: P:SuperOffice.WebApi.IdentityModel.TokenHandlerBase.SecurityTokenHandler
+  id: SecurityTokenHandler
+  parent: SuperOffice.WebApi.IdentityModel.TokenHandlerBase
+  langs:
+  - csharp
+  - vb
+  name: SecurityTokenHandler
+  nameWithType: TokenHandlerBase.SecurityTokenHandler
+  fullName: SuperOffice.WebApi.IdentityModel.TokenHandlerBase.SecurityTokenHandler
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  summary: "\nA Microsoft.IdentityModel.Tokens.SecurityTokenHandler designed for creating and\nvalidating Json Web Tokens.\n"
+  syntax:
+    content: protected virtual JsonWebTokenHandler SecurityTokenHandler { get; }
+    parameters: []
+    return:
+      type: Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler
+    content.vb: Protected Overridable ReadOnly Property SecurityTokenHandler As JsonWebTokenHandler
+  overload: SuperOffice.WebApi.IdentityModel.TokenHandlerBase.SecurityTokenHandler*
+  modifiers.csharp:
+  - protected
+  - virtual
+  - get
+  modifiers.vb:
+  - Protected
+  - Overridable
+  - ReadOnly
+- uid: SuperOffice.WebApi.IdentityModel.TokenHandlerBase.ValidationParameters
+  commentId: P:SuperOffice.WebApi.IdentityModel.TokenHandlerBase.ValidationParameters
+  id: ValidationParameters
+  parent: SuperOffice.WebApi.IdentityModel.TokenHandlerBase
+  langs:
+  - csharp
+  - vb
+  name: ValidationParameters
+  nameWithType: TokenHandlerBase.ValidationParameters
+  fullName: SuperOffice.WebApi.IdentityModel.TokenHandlerBase.ValidationParameters
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.IdentityModel
+  summary: "\nGets or sets the parameters used to validate identity tokens.\n"
+  remarks: Contains the types and definitions required for validating a token.
+  syntax:
+    content: protected virtual TokenValidationParameters ValidationParameters { get; }
+    parameters: []
+    return:
+      type: Microsoft.IdentityModel.Tokens.TokenValidationParameters
+    content.vb: Protected Overridable ReadOnly Property ValidationParameters As TokenValidationParameters
+  overload: SuperOffice.WebApi.IdentityModel.TokenHandlerBase.ValidationParameters*
+  modifiers.csharp:
+  - protected
+  - virtual
+  - get
+  modifiers.vb:
+  - Protected
+  - Overridable
+  - ReadOnly
+references:
+- uid: SuperOffice.WebApi.IdentityModel
+  commentId: N:SuperOffice.WebApi.IdentityModel
+  isExternal: true
+  name: SuperOffice.WebApi.IdentityModel
+  nameWithType: SuperOffice.WebApi.IdentityModel
+  fullName: SuperOffice.WebApi.IdentityModel
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.IdentityModel.TokenHandlerBase.#ctor*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.TokenHandlerBase.#ctor
+  isExternal: true
+  name: TokenHandlerBase
+  nameWithType: TokenHandlerBase.TokenHandlerBase
+  fullName: SuperOffice.WebApi.IdentityModel.TokenHandlerBase.TokenHandlerBase
+- uid: System.Net.Http.HttpClient
+  isExternal: true
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: System.Net.Http.HttpClient
+- uid: SuperOffice.WebApi.Data.OnlineEnvironment
+  commentId: T:SuperOffice.WebApi.Data.OnlineEnvironment
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: OnlineEnvironment
+  nameWithType: OnlineEnvironment
+  fullName: SuperOffice.WebApi.Data.OnlineEnvironment
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: SuperOffice.WebApi.IdentityModel.TokenHandlerBase.ValidateAsync*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.TokenHandlerBase.ValidateAsync
+  isExternal: true
+  name: ValidateAsync
+  nameWithType: TokenHandlerBase.ValidateAsync
+  fullName: SuperOffice.WebApi.IdentityModel.TokenHandlerBase.ValidateAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.Tasks.Task{Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult}
+  commentId: '!:System.Threading.Tasks.Task{Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TokenValidationResult>
+  nameWithType: Task<TokenValidationResult>
+  fullName: System.Threading.Tasks.Task<Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult>
+  nameWithType.vb: Task(Of TokenValidationResult)
+  fullName.vb: System.Threading.Tasks.Task(Of Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult)
+  name.vb: Task(Of TokenValidationResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult
+    name: TokenValidationResult
+    nameWithType: TokenValidationResult
+    fullName: Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult
+    name: TokenValidationResult
+    nameWithType: TokenValidationResult
+    fullName: Microsoft.IdentityModel.JsonWebTokens.TokenValidationResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.IdentityModel.TokenHandlerBase.ConfigurationManager*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.TokenHandlerBase.ConfigurationManager
+  isExternal: true
+  name: ConfigurationManager
+  nameWithType: TokenHandlerBase.ConfigurationManager
+  fullName: SuperOffice.WebApi.IdentityModel.TokenHandlerBase.ConfigurationManager
+- uid: SuperOffice.WebApi.IdentityModel.ConfigurationManager
+  commentId: T:SuperOffice.WebApi.IdentityModel.ConfigurationManager
+  parent: SuperOffice.WebApi.IdentityModel
+  isExternal: true
+  name: ConfigurationManager
+  nameWithType: ConfigurationManager
+  fullName: SuperOffice.WebApi.IdentityModel.ConfigurationManager
+- uid: SuperOffice.WebApi.IdentityModel.TokenHandlerBase.SecurityTokenHandler*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.TokenHandlerBase.SecurityTokenHandler
+  isExternal: true
+  name: SecurityTokenHandler
+  nameWithType: TokenHandlerBase.SecurityTokenHandler
+  fullName: SuperOffice.WebApi.IdentityModel.TokenHandlerBase.SecurityTokenHandler
+- uid: Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler
+  commentId: '!:Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler'
+  isExternal: true
+  name: JsonWebTokenHandler
+  nameWithType: JsonWebTokenHandler
+  fullName: Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler
+- uid: SuperOffice.WebApi.IdentityModel.TokenHandlerBase.ValidationParameters*
+  commentId: Overload:SuperOffice.WebApi.IdentityModel.TokenHandlerBase.ValidationParameters
+  isExternal: true
+  name: ValidationParameters
+  nameWithType: TokenHandlerBase.ValidationParameters
+  fullName: SuperOffice.WebApi.IdentityModel.TokenHandlerBase.ValidationParameters
+- uid: Microsoft.IdentityModel.Tokens.TokenValidationParameters
+  commentId: '!:Microsoft.IdentityModel.Tokens.TokenValidationParameters'
+  isExternal: true
+  name: TokenValidationParameters
+  nameWithType: TokenValidationParameters
+  fullName: Microsoft.IdentityModel.Tokens.TokenValidationParameters

@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person_SetPersonRankRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_SetPersonRankRequest
+  id: Person_SetPersonRankRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person_SetPersonRankRequest.#ctor
+  - SuperOffice.WebApi.Data.Person_SetPersonRankRequest.DesiredRank
+  - SuperOffice.WebApi.Data.Person_SetPersonRankRequest.PersonId
+  langs:
+  - csharp
+  - vb
+  name: Person_SetPersonRankRequest
+  nameWithType: Person_SetPersonRankRequest
+  fullName: SuperOffice.WebApi.Data.Person_SetPersonRankRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Person_SetPersonRankRequest : Object'
+    content.vb: >-
+      Public Class Person_SetPersonRankRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person_SetPersonRankRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person_SetPersonRankRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person_SetPersonRankRequest
+  langs:
+  - csharp
+  - vb
+  name: Person_SetPersonRankRequest()
+  nameWithType: Person_SetPersonRankRequest.Person_SetPersonRankRequest()
+  fullName: SuperOffice.WebApi.Data.Person_SetPersonRankRequest.Person_SetPersonRankRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Person_SetPersonRankRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person_SetPersonRankRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_SetPersonRankRequest.PersonId
+  commentId: P:SuperOffice.WebApi.Data.Person_SetPersonRankRequest.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.Person_SetPersonRankRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: Person_SetPersonRankRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Person_SetPersonRankRequest.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.Person_SetPersonRankRequest.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_SetPersonRankRequest.DesiredRank
+  commentId: P:SuperOffice.WebApi.Data.Person_SetPersonRankRequest.DesiredRank
+  id: DesiredRank
+  parent: SuperOffice.WebApi.Data.Person_SetPersonRankRequest
+  langs:
+  - csharp
+  - vb
+  name: DesiredRank
+  nameWithType: Person_SetPersonRankRequest.DesiredRank
+  fullName: SuperOffice.WebApi.Data.Person_SetPersonRankRequest.DesiredRank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short DesiredRank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Property DesiredRank As Short
+  overload: SuperOffice.WebApi.Data.Person_SetPersonRankRequest.DesiredRank*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person_SetPersonRankRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_SetPersonRankRequest.#ctor
+  isExternal: true
+  name: Person_SetPersonRankRequest
+  nameWithType: Person_SetPersonRankRequest.Person_SetPersonRankRequest
+  fullName: SuperOffice.WebApi.Data.Person_SetPersonRankRequest.Person_SetPersonRankRequest
+- uid: SuperOffice.WebApi.Data.Person_SetPersonRankRequest.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_SetPersonRankRequest.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: Person_SetPersonRankRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Person_SetPersonRankRequest.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Person_SetPersonRankRequest.DesiredRank*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_SetPersonRankRequest.DesiredRank
+  isExternal: true
+  name: DesiredRank
+  nameWithType: Person_SetPersonRankRequest.DesiredRank
+  fullName: SuperOffice.WebApi.Data.Person_SetPersonRankRequest.DesiredRank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16

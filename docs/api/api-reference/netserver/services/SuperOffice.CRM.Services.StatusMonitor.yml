@@ -1,0 +1,805 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.StatusMonitor
+  commentId: T:SuperOffice.CRM.Services.StatusMonitor
+  id: StatusMonitor
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.StatusMonitor.#ctor
+  - SuperOffice.CRM.Services.StatusMonitor.DefaultTask
+  - SuperOffice.CRM.Services.StatusMonitor.DefaultTaskText
+  - SuperOffice.CRM.Services.StatusMonitor.Deleted
+  - SuperOffice.CRM.Services.StatusMonitor.Description
+  - SuperOffice.CRM.Services.StatusMonitor.GenerationStart
+  - SuperOffice.CRM.Services.StatusMonitor.IsVisual
+  - SuperOffice.CRM.Services.StatusMonitor.LastGenerated
+  - SuperOffice.CRM.Services.StatusMonitor.Name
+  - SuperOffice.CRM.Services.StatusMonitor.NeedsUpdate
+  - SuperOffice.CRM.Services.StatusMonitor.NumMatches
+  - SuperOffice.CRM.Services.StatusMonitor.NumNeedUpdate
+  - SuperOffice.CRM.Services.StatusMonitor.OwnerTable
+  - SuperOffice.CRM.Services.StatusMonitor.PictureId
+  - SuperOffice.CRM.Services.StatusMonitor.Rank
+  - SuperOffice.CRM.Services.StatusMonitor.StatusMonitorId
+  - SuperOffice.CRM.Services.StatusMonitor.ToString
+  - SuperOffice.CRM.Services.StatusMonitor.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: StatusMonitor
+  nameWithType: StatusMonitor
+  fullName: SuperOffice.CRM.Services.StatusMonitor
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefinition of all properties for a status monitor\n<p></p>\nCarrier object for StatusMonitor.\nServices for the StatusMonitor Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ISaintAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class StatusMonitor : Carrier'
+    content.vb: >-
+      Public Class StatusMonitor
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.SaintAgent
+    commentId: T:SuperOffice.CRM.Services.SaintAgent
+  - linkId: SuperOffice.CRM.Services.ISaintAgent
+    commentId: T:SuperOffice.CRM.Services.ISaintAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.StatusMonitor.#ctor
+  commentId: M:SuperOffice.CRM.Services.StatusMonitor.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: StatusMonitor()
+  nameWithType: StatusMonitor.StatusMonitor()
+  fullName: SuperOffice.CRM.Services.StatusMonitor.StatusMonitor()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public StatusMonitor()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.StatusMonitor.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.StatusMonitor.ToString
+  commentId: M:SuperOffice.CRM.Services.StatusMonitor.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: StatusMonitor.ToString()
+  fullName: SuperOffice.CRM.Services.StatusMonitor.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.StatusMonitor.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.StatusMonitor.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.StatusMonitor.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: StatusMonitor.ToString(String)
+  fullName: SuperOffice.CRM.Services.StatusMonitor.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.StatusMonitor.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.StatusMonitor.OwnerTable
+  commentId: P:SuperOffice.CRM.Services.StatusMonitor.OwnerTable
+  id: OwnerTable
+  parent: SuperOffice.CRM.Services.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: OwnerTable
+  nameWithType: StatusMonitor.OwnerTable
+  fullName: SuperOffice.CRM.Services.StatusMonitor.OwnerTable
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nId of table that owns the status monitor \n"
+  syntax:
+    content: public virtual int OwnerTable { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property OwnerTable As Integer
+  overload: SuperOffice.CRM.Services.StatusMonitor.OwnerTable*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.StatusMonitor.Rank
+  commentId: P:SuperOffice.CRM.Services.StatusMonitor.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Services.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: StatusMonitor.Rank
+  fullName: SuperOffice.CRM.Services.StatusMonitor.Rank
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPriority rank, in case more than one status is signalled. Lowest wins \n"
+  syntax:
+    content: public virtual int Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Rank As Integer
+  overload: SuperOffice.CRM.Services.StatusMonitor.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.StatusMonitor.DefaultTask
+  commentId: P:SuperOffice.CRM.Services.StatusMonitor.DefaultTask
+  id: DefaultTask
+  parent: SuperOffice.CRM.Services.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: DefaultTask
+  nameWithType: StatusMonitor.DefaultTask
+  fullName: SuperOffice.CRM.Services.StatusMonitor.DefaultTask
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n&quot;Default task type for this status; the default task text is in the text table (since it can be long), and may contain template variables&quot; \n"
+  syntax:
+    content: public virtual int DefaultTask { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DefaultTask As Integer
+  overload: SuperOffice.CRM.Services.StatusMonitor.DefaultTask*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.StatusMonitor.DefaultTaskText
+  commentId: P:SuperOffice.CRM.Services.StatusMonitor.DefaultTaskText
+  id: DefaultTaskText
+  parent: SuperOffice.CRM.Services.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: DefaultTaskText
+  nameWithType: StatusMonitor.DefaultTaskText
+  fullName: SuperOffice.CRM.Services.StatusMonitor.DefaultTaskText
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault task text for this status \n"
+  syntax:
+    content: public virtual string DefaultTaskText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DefaultTaskText As String
+  overload: SuperOffice.CRM.Services.StatusMonitor.DefaultTaskText*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.StatusMonitor.IsVisual
+  commentId: P:SuperOffice.CRM.Services.StatusMonitor.IsVisual
+  id: IsVisual
+  parent: SuperOffice.CRM.Services.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: IsVisual
+  nameWithType: StatusMonitor.IsVisual
+  fullName: SuperOffice.CRM.Services.StatusMonitor.IsVisual
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nShould the status be visualized (active) in the client \n"
+  syntax:
+    content: public virtual bool IsVisual { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsVisual As Boolean
+  overload: SuperOffice.CRM.Services.StatusMonitor.IsVisual*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.StatusMonitor.LastGenerated
+  commentId: P:SuperOffice.CRM.Services.StatusMonitor.LastGenerated
+  id: LastGenerated
+  parent: SuperOffice.CRM.Services.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: LastGenerated
+  nameWithType: StatusMonitor.LastGenerated
+  fullName: SuperOffice.CRM.Services.StatusMonitor.LastGenerated
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhen was this status last generated (i.e., statusValue rows created) \n"
+  syntax:
+    content: public virtual DateTime LastGenerated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property LastGenerated As Date
+  overload: SuperOffice.CRM.Services.StatusMonitor.LastGenerated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.StatusMonitor.Description
+  commentId: P:SuperOffice.CRM.Services.StatusMonitor.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: StatusMonitor.Description
+  fullName: SuperOffice.CRM.Services.StatusMonitor.Description
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDescription of the status monitor \n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.StatusMonitor.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.StatusMonitor.Name
+  commentId: P:SuperOffice.CRM.Services.StatusMonitor.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: StatusMonitor.Name
+  fullName: SuperOffice.CRM.Services.StatusMonitor.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of status monitor \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.StatusMonitor.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.StatusMonitor.StatusMonitorId
+  commentId: P:SuperOffice.CRM.Services.StatusMonitor.StatusMonitorId
+  id: StatusMonitorId
+  parent: SuperOffice.CRM.Services.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: StatusMonitorId
+  nameWithType: StatusMonitor.StatusMonitorId
+  fullName: SuperOffice.CRM.Services.StatusMonitor.StatusMonitorId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int StatusMonitorId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property StatusMonitorId As Integer
+  overload: SuperOffice.CRM.Services.StatusMonitor.StatusMonitorId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.StatusMonitor.PictureId
+  commentId: P:SuperOffice.CRM.Services.StatusMonitor.PictureId
+  id: PictureId
+  parent: SuperOffice.CRM.Services.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: PictureId
+  nameWithType: StatusMonitor.PictureId
+  fullName: SuperOffice.CRM.Services.StatusMonitor.PictureId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nId of BinaryObject row that contains image for status monitor \n"
+  syntax:
+    content: public virtual int PictureId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PictureId As Integer
+  overload: SuperOffice.CRM.Services.StatusMonitor.PictureId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.StatusMonitor.NeedsUpdate
+  commentId: P:SuperOffice.CRM.Services.StatusMonitor.NeedsUpdate
+  id: NeedsUpdate
+  parent: SuperOffice.CRM.Services.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: NeedsUpdate
+  nameWithType: StatusMonitor.NeedsUpdate
+  fullName: SuperOffice.CRM.Services.StatusMonitor.NeedsUpdate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIs the definition dirty, ie., ALL values are invalid until a recalculation; this flag is set when the status DEFINITION is changed, as opposed to the flag on StatusValue \n"
+  syntax:
+    content: public virtual bool NeedsUpdate { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property NeedsUpdate As Boolean
+  overload: SuperOffice.CRM.Services.StatusMonitor.NeedsUpdate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.StatusMonitor.Deleted
+  commentId: P:SuperOffice.CRM.Services.StatusMonitor.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Services.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: StatusMonitor.Deleted
+  fullName: SuperOffice.CRM.Services.StatusMonitor.Deleted
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeleted flag, 1 if this record is deleted (never from the database) \n"
+  syntax:
+    content: public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.CRM.Services.StatusMonitor.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.StatusMonitor.NumMatches
+  commentId: P:SuperOffice.CRM.Services.StatusMonitor.NumMatches
+  id: NumMatches
+  parent: SuperOffice.CRM.Services.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: NumMatches
+  nameWithType: StatusMonitor.NumMatches
+  fullName: SuperOffice.CRM.Services.StatusMonitor.NumMatches
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNumber of targets that have this status, this should be the number of rows in StatusValue pointing to this definition, and that have isSignalled set to 1 \n"
+  syntax:
+    content: public virtual int NumMatches { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NumMatches As Integer
+  overload: SuperOffice.CRM.Services.StatusMonitor.NumMatches*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.StatusMonitor.NumNeedUpdate
+  commentId: P:SuperOffice.CRM.Services.StatusMonitor.NumNeedUpdate
+  id: NumNeedUpdate
+  parent: SuperOffice.CRM.Services.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: NumNeedUpdate
+  nameWithType: StatusMonitor.NumNeedUpdate
+  fullName: SuperOffice.CRM.Services.StatusMonitor.NumNeedUpdate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNumber of targets that had this status, but have their needsUpdate bit set due to some change \n"
+  syntax:
+    content: public virtual int NumNeedUpdate { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NumNeedUpdate As Integer
+  overload: SuperOffice.CRM.Services.StatusMonitor.NumNeedUpdate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.StatusMonitor.GenerationStart
+  commentId: P:SuperOffice.CRM.Services.StatusMonitor.GenerationStart
+  id: GenerationStart
+  parent: SuperOffice.CRM.Services.StatusMonitor
+  langs:
+  - csharp
+  - vb
+  name: GenerationStart
+  nameWithType: StatusMonitor.GenerationStart
+  fullName: SuperOffice.CRM.Services.StatusMonitor.GenerationStart
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhen was the last regeneration started \n"
+  syntax:
+    content: public virtual DateTime GenerationStart { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property GenerationStart As Date
+  overload: SuperOffice.CRM.Services.StatusMonitor.GenerationStart*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.SaintAgent
+  commentId: T:SuperOffice.CRM.Services.SaintAgent
+  isExternal: true
+  name: SaintAgent
+  nameWithType: SaintAgent
+  fullName: SuperOffice.CRM.Services.SaintAgent
+- uid: SuperOffice.CRM.Services.ISaintAgent
+  commentId: T:SuperOffice.CRM.Services.ISaintAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ISaintAgent
+  nameWithType: ISaintAgent
+  fullName: SuperOffice.CRM.Services.ISaintAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.StatusMonitor.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.StatusMonitor.#ctor
+  isExternal: true
+  name: StatusMonitor
+  nameWithType: StatusMonitor.StatusMonitor
+  fullName: SuperOffice.CRM.Services.StatusMonitor.StatusMonitor
+- uid: SuperOffice.CRM.Services.StatusMonitor.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.StatusMonitor.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: StatusMonitor.ToString
+  fullName: SuperOffice.CRM.Services.StatusMonitor.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.StatusMonitor.OwnerTable*
+  commentId: Overload:SuperOffice.CRM.Services.StatusMonitor.OwnerTable
+  isExternal: true
+  name: OwnerTable
+  nameWithType: StatusMonitor.OwnerTable
+  fullName: SuperOffice.CRM.Services.StatusMonitor.OwnerTable
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.StatusMonitor.Rank*
+  commentId: Overload:SuperOffice.CRM.Services.StatusMonitor.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: StatusMonitor.Rank
+  fullName: SuperOffice.CRM.Services.StatusMonitor.Rank
+- uid: SuperOffice.CRM.Services.StatusMonitor.DefaultTask*
+  commentId: Overload:SuperOffice.CRM.Services.StatusMonitor.DefaultTask
+  isExternal: true
+  name: DefaultTask
+  nameWithType: StatusMonitor.DefaultTask
+  fullName: SuperOffice.CRM.Services.StatusMonitor.DefaultTask
+- uid: SuperOffice.CRM.Services.StatusMonitor.DefaultTaskText*
+  commentId: Overload:SuperOffice.CRM.Services.StatusMonitor.DefaultTaskText
+  isExternal: true
+  name: DefaultTaskText
+  nameWithType: StatusMonitor.DefaultTaskText
+  fullName: SuperOffice.CRM.Services.StatusMonitor.DefaultTaskText
+- uid: SuperOffice.CRM.Services.StatusMonitor.IsVisual*
+  commentId: Overload:SuperOffice.CRM.Services.StatusMonitor.IsVisual
+  isExternal: true
+  name: IsVisual
+  nameWithType: StatusMonitor.IsVisual
+  fullName: SuperOffice.CRM.Services.StatusMonitor.IsVisual
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.StatusMonitor.LastGenerated*
+  commentId: Overload:SuperOffice.CRM.Services.StatusMonitor.LastGenerated
+  isExternal: true
+  name: LastGenerated
+  nameWithType: StatusMonitor.LastGenerated
+  fullName: SuperOffice.CRM.Services.StatusMonitor.LastGenerated
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.StatusMonitor.Description*
+  commentId: Overload:SuperOffice.CRM.Services.StatusMonitor.Description
+  isExternal: true
+  name: Description
+  nameWithType: StatusMonitor.Description
+  fullName: SuperOffice.CRM.Services.StatusMonitor.Description
+- uid: SuperOffice.CRM.Services.StatusMonitor.Name*
+  commentId: Overload:SuperOffice.CRM.Services.StatusMonitor.Name
+  isExternal: true
+  name: Name
+  nameWithType: StatusMonitor.Name
+  fullName: SuperOffice.CRM.Services.StatusMonitor.Name
+- uid: SuperOffice.CRM.Services.StatusMonitor.StatusMonitorId*
+  commentId: Overload:SuperOffice.CRM.Services.StatusMonitor.StatusMonitorId
+  isExternal: true
+  name: StatusMonitorId
+  nameWithType: StatusMonitor.StatusMonitorId
+  fullName: SuperOffice.CRM.Services.StatusMonitor.StatusMonitorId
+- uid: SuperOffice.CRM.Services.StatusMonitor.PictureId*
+  commentId: Overload:SuperOffice.CRM.Services.StatusMonitor.PictureId
+  isExternal: true
+  name: PictureId
+  nameWithType: StatusMonitor.PictureId
+  fullName: SuperOffice.CRM.Services.StatusMonitor.PictureId
+- uid: SuperOffice.CRM.Services.StatusMonitor.NeedsUpdate*
+  commentId: Overload:SuperOffice.CRM.Services.StatusMonitor.NeedsUpdate
+  isExternal: true
+  name: NeedsUpdate
+  nameWithType: StatusMonitor.NeedsUpdate
+  fullName: SuperOffice.CRM.Services.StatusMonitor.NeedsUpdate
+- uid: SuperOffice.CRM.Services.StatusMonitor.Deleted*
+  commentId: Overload:SuperOffice.CRM.Services.StatusMonitor.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: StatusMonitor.Deleted
+  fullName: SuperOffice.CRM.Services.StatusMonitor.Deleted
+- uid: SuperOffice.CRM.Services.StatusMonitor.NumMatches*
+  commentId: Overload:SuperOffice.CRM.Services.StatusMonitor.NumMatches
+  isExternal: true
+  name: NumMatches
+  nameWithType: StatusMonitor.NumMatches
+  fullName: SuperOffice.CRM.Services.StatusMonitor.NumMatches
+- uid: SuperOffice.CRM.Services.StatusMonitor.NumNeedUpdate*
+  commentId: Overload:SuperOffice.CRM.Services.StatusMonitor.NumNeedUpdate
+  isExternal: true
+  name: NumNeedUpdate
+  nameWithType: StatusMonitor.NumNeedUpdate
+  fullName: SuperOffice.CRM.Services.StatusMonitor.NumNeedUpdate
+- uid: SuperOffice.CRM.Services.StatusMonitor.GenerationStart*
+  commentId: Overload:SuperOffice.CRM.Services.StatusMonitor.GenerationStart
+  isExternal: true
+  name: GenerationStart
+  nameWithType: StatusMonitor.GenerationStart
+  fullName: SuperOffice.CRM.Services.StatusMonitor.GenerationStart

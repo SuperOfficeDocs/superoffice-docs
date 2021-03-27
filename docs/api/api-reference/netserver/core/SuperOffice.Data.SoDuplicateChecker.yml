@@ -1,0 +1,497 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.SoDuplicateChecker
+  commentId: T:SuperOffice.Data.SoDuplicateChecker
+  id: SoDuplicateChecker
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue(SuperOffice.Data.SQL.FieldInfo,System.Object,System.Int32[])
+  - SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey(SuperOffice.Data.SQL.FieldInfo,System.Object,System.Int32@,System.Int32[])
+  langs:
+  - csharp
+  - vb
+  name: SoDuplicateChecker
+  nameWithType: SoDuplicateChecker
+  fullName: SuperOffice.Data.SoDuplicateChecker
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\n\n"
+  syntax:
+    content: public static class SoDuplicateChecker
+    content.vb: Public Module SoDuplicateChecker
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue(SuperOffice.Data.SQL.FieldInfo,System.Object,System.Int32[])
+  commentId: M:SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue(SuperOffice.Data.SQL.FieldInfo,System.Object,System.Int32[])
+  id: CheckIfFieldHasValue(SuperOffice.Data.SQL.FieldInfo,System.Object,System.Int32[])
+  isExtensionMethod: true
+  parent: SuperOffice.Data.SoDuplicateChecker
+  langs:
+  - csharp
+  - vb
+  name: CheckIfFieldHasValue(FieldInfo, Object, Int32[])
+  nameWithType: SoDuplicateChecker.CheckIfFieldHasValue(FieldInfo, Object, Int32[])
+  fullName: SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue(SuperOffice.Data.SQL.FieldInfo, System.Object, System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\n\n"
+  syntax:
+    content: public static bool CheckIfFieldHasValue(this FieldInfo field, object value, params int[] excludedPrimaryKeys)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    - id: value
+      type: System.Object
+    - id: excludedPrimaryKeys
+      type: System.Int32[]
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CheckIfFieldHasValue(field As FieldInfo, value As Object, ParamArray excludedPrimaryKeys As Integer()) As Boolean
+  overload: SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue*
+  nameWithType.vb: SoDuplicateChecker.CheckIfFieldHasValue(FieldInfo, Object, Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue(SuperOffice.Data.SQL.FieldInfo, System.Object, System.Int32())
+  name.vb: CheckIfFieldHasValue(FieldInfo, Object, Int32())
+- uid: SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey(SuperOffice.Data.SQL.FieldInfo,System.Object,System.Int32@,System.Int32[])
+  commentId: M:SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey(SuperOffice.Data.SQL.FieldInfo,System.Object,System.Int32@,System.Int32[])
+  id: TryGetPrimaryKey(SuperOffice.Data.SQL.FieldInfo,System.Object,System.Int32@,System.Int32[])
+  isExtensionMethod: true
+  parent: SuperOffice.Data.SoDuplicateChecker
+  langs:
+  - csharp
+  - vb
+  name: TryGetPrimaryKey(FieldInfo, Object, out Int32, Int32[])
+  nameWithType: SoDuplicateChecker.TryGetPrimaryKey(FieldInfo, Object, out Int32, Int32[])
+  fullName: SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey(SuperOffice.Data.SQL.FieldInfo, System.Object, out System.Int32, System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\n\n"
+  syntax:
+    content: public static bool TryGetPrimaryKey(this FieldInfo field, object value, out int primaryKey, params int[] excludedPrimaryKeys)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    - id: value
+      type: System.Object
+    - id: primaryKey
+      type: System.Int32
+    - id: excludedPrimaryKeys
+      type: System.Int32[]
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TryGetPrimaryKey(field As FieldInfo, value As Object, ByRef primaryKey As Integer, ParamArray excludedPrimaryKeys As Integer()) As Boolean
+  overload: SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey*
+  nameWithType.vb: SoDuplicateChecker.TryGetPrimaryKey(FieldInfo, Object, ByRef Int32, Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey(SuperOffice.Data.SQL.FieldInfo, System.Object, ByRef System.Int32, System.Int32())
+  name.vb: TryGetPrimaryKey(FieldInfo, Object, ByRef Int32, Int32())
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue*
+  commentId: Overload:SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue
+  isExternal: true
+  name: CheckIfFieldHasValue
+  nameWithType: SoDuplicateChecker.CheckIfFieldHasValue
+  fullName: SuperOffice.Data.SoDuplicateChecker.CheckIfFieldHasValue
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey*
+  commentId: Overload:SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey
+  isExternal: true
+  name: TryGetPrimaryKey
+  nameWithType: SoDuplicateChecker.TryGetPrimaryKey
+  fullName: SuperOffice.Data.SoDuplicateChecker.TryGetPrimaryKey
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,4376 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent
+  commentId: T:SuperOffice.CRM.Services.ForeignSystemAgent
+  id: ForeignSystemAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ForeignSystemAgent.#ctor
+  - SuperOffice.CRM.Services.ForeignSystemAgent.AddDeviceByIdentifier(System.String,System.String,System.String)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.AddForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.CreateDefaultForeignAppEntity
+  - SuperOffice.CRM.Services.ForeignSystemAgent.DeleteDeviceByIdentifier(System.String,System.String,System.String)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignAppEntity(System.Int32)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignDevice(SuperOffice.CRM.Services.ForeignDevice,System.String)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String,System.String,System.Int32)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignKeyOnName(System.String,System.String,System.String,System.String,System.String,System.Int32)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.GetAllForeignKeysOnEntity(System.String,System.Int32)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.GetAppByName(System.String)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.GetApplicationDevices(System.String)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.GetApplicationKeys(System.String)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceByIdentifier(System.String,System.String,System.String)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceByName(System.String,System.String)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeys(System.String,System.String)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier(System.String,System.String,System.String)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId(System.String,System.String,System.String,System.String,System.Int32)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.GetForeignAppEntity(System.Int32)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.GetForeignDevice(System.Int32)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.GetKey(System.String,System.String,System.String,System.String,System.Int32)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyByValue(System.String,System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyByValueAndIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyOnDeviceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyValue(System.String,System.String,System.String,System.String,System.Int32)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyValueOnDeviceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.SaveDeviceByIdentifier(System.String,System.String,System.String,SuperOffice.CRM.Services.ForeignDevice)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.SaveForeignAppEntity(SuperOffice.CRM.Services.ForeignAppEntity)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.SaveForeignDevice(SuperOffice.CRM.Services.ForeignDevice,System.String)
+  - SuperOffice.CRM.Services.ForeignSystemAgent.SaveForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ForeignSystemAgent
+  nameWithType: ForeignSystemAgent
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFacade for the ForeignSystem Agent\nCollection of all services that works with Foreign key data (Key/Value pairs)\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (ForeignSystemAgent agent = new ForeignSystemAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: 'public class ForeignSystemAgent : AgentBase<IForeignSystemAgent>, IDisposable, IForeignSystemAgent, IAgent'
+    content.vb: >-
+      Public Class ForeignSystemAgent
+          Inherits AgentBase(Of IForeignSystemAgent)
+          Implements IDisposable, IForeignSystemAgent, IAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IForeignSystemAgent}
+  implements:
+  - System.IDisposable
+  - SuperOffice.CRM.Services.IForeignSystemAgent
+  - SuperOffice.CRM.Services.IAgent
+  inheritedMembers:
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IForeignSystemAgent}.Dispose
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IForeignSystemAgent}.InnerAgent
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.CreateDefaultForeignAppEntity
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.CreateDefaultForeignAppEntity
+  id: CreateDefaultForeignAppEntity
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultForeignAppEntity()
+  nameWithType: ForeignSystemAgent.CreateDefaultForeignAppEntity()
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.CreateDefaultForeignAppEntity()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new ForeignAppEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public ForeignAppEntity CreateDefaultForeignAppEntity()
+    return:
+      type: SuperOffice.CRM.Services.ForeignAppEntity
+      description: New ForeignAppEntity with default values
+    content.vb: Public Function CreateDefaultForeignAppEntity As ForeignAppEntity
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.CreateDefaultForeignAppEntity*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.CreateDefaultForeignAppEntity
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.SaveForeignAppEntity(SuperOffice.CRM.Services.ForeignAppEntity)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.SaveForeignAppEntity(SuperOffice.CRM.Services.ForeignAppEntity)
+  id: SaveForeignAppEntity(SuperOffice.CRM.Services.ForeignAppEntity)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveForeignAppEntity(ForeignAppEntity)
+  nameWithType: ForeignSystemAgent.SaveForeignAppEntity(ForeignAppEntity)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.SaveForeignAppEntity(SuperOffice.CRM.Services.ForeignAppEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing ForeignAppEntity or creates a new ForeignAppEntity if the id parameter is empty\n"
+  syntax:
+    content: public ForeignAppEntity SaveForeignAppEntity(ForeignAppEntity foreignAppEntity)
+    parameters:
+    - id: foreignAppEntity
+      type: SuperOffice.CRM.Services.ForeignAppEntity
+      description: The ForeignAppEntity that is saved.
+    return:
+      type: SuperOffice.CRM.Services.ForeignAppEntity
+      description: New or updated ForeignAppEntity
+    content.vb: Public Function SaveForeignAppEntity(foreignAppEntity As ForeignAppEntity) As ForeignAppEntity
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.SaveForeignAppEntity*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignAppEntity(SuperOffice.CRM.Services.ForeignAppEntity)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignAppEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignAppEntity(System.Int32)
+  id: DeleteForeignAppEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteForeignAppEntity(Int32)
+  nameWithType: ForeignSystemAgent.DeleteForeignAppEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignAppEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the ForeignAppEntity\n"
+  syntax:
+    content: public void DeleteForeignAppEntity(int foreignAppEntityId)
+    parameters:
+    - id: foreignAppEntityId
+      type: System.Int32
+      description: The identity of the ForeignAppEntity
+    content.vb: Public Sub DeleteForeignAppEntity(foreignAppEntityId As Integer)
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignAppEntity*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignAppEntity(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetForeignAppEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.GetForeignAppEntity(System.Int32)
+  id: GetForeignAppEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetForeignAppEntity(Int32)
+  nameWithType: ForeignSystemAgent.GetForeignAppEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetForeignAppEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a ForeignAppEntity object.                        \n"
+  syntax:
+    content: public ForeignAppEntity GetForeignAppEntity(int foreignAppEntityId)
+    parameters:
+    - id: foreignAppEntityId
+      type: System.Int32
+      description: The identifier of the ForeignAppEntity object
+    return:
+      type: SuperOffice.CRM.Services.ForeignAppEntity
+      description: ForeignAppEntity
+    content.vb: Public Function GetForeignAppEntity(foreignAppEntityId As Integer) As ForeignAppEntity
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.GetForeignAppEntity*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignAppEntity(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetAppByName(System.String)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.GetAppByName(System.String)
+  id: GetAppByName(System.String)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAppByName(String)
+  nameWithType: ForeignSystemAgent.GetAppByName(String)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetAppByName(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the ForeignApp with the given name.\n"
+  syntax:
+    content: public ForeignAppEntity GetAppByName(string applicationName)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    return:
+      type: SuperOffice.CRM.Services.ForeignAppEntity
+      description: The ForeignApp that matches the name.
+    content.vb: Public Function GetAppByName(applicationName As String) As ForeignAppEntity
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.GetAppByName*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.GetAppByName(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetApplicationDevices(System.String)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.GetApplicationDevices(System.String)
+  id: GetApplicationDevices(System.String)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetApplicationDevices(String)
+  nameWithType: ForeignSystemAgent.GetApplicationDevices(String)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetApplicationDevices(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets all devices that belong to a foreign application.\n"
+  syntax:
+    content: public ForeignDevice[] GetApplicationDevices(string applicationName)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The foreign application name
+    return:
+      type: SuperOffice.CRM.Services.ForeignDevice[]
+      description: Array of ForeignDevices
+    content.vb: Public Function GetApplicationDevices(applicationName As String) As ForeignDevice()
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.GetApplicationDevices*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationDevices(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceByName(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceByName(System.String,System.String)
+  id: GetDeviceByName(System.String,System.String)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDeviceByName(String, String)
+  nameWithType: ForeignSystemAgent.GetDeviceByName(String, String)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceByName(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a ForeignDevice with deviceName that belongs to the application with applicationName.\n"
+  syntax:
+    content: public ForeignDevice GetDeviceByName(string applicationName, string deviceName)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    return:
+      type: SuperOffice.CRM.Services.ForeignDevice
+      description: The ForeignDevice.
+    content.vb: Public Function GetDeviceByName(applicationName As String, deviceName As String) As ForeignDevice
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceByName*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByName(System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceByIdentifier(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceByIdentifier(System.String,System.String,System.String)
+  id: GetDeviceByIdentifier(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDeviceByIdentifier(String, String, String)
+  nameWithType: ForeignSystemAgent.GetDeviceByIdentifier(String, String, String)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceByIdentifier(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a ForeignDevice with deviceName and deviceIdentifier that belongs to the application with applicationName.\n"
+  syntax:
+    content: public ForeignDevice GetDeviceByIdentifier(string applicationName, string deviceName, string deviceIdentifier)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: Optional unique id of device (Palm pilot device ID, version number, etc)
+    return:
+      type: SuperOffice.CRM.Services.ForeignDevice
+      description: The ForeignDevice.
+    content.vb: Public Function GetDeviceByIdentifier(applicationName As String, deviceName As String, deviceIdentifier As String) As ForeignDevice
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceByIdentifier*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByIdentifier(System.String,System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.AddDeviceByIdentifier(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.AddDeviceByIdentifier(System.String,System.String,System.String)
+  id: AddDeviceByIdentifier(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: AddDeviceByIdentifier(String, String, String)
+  nameWithType: ForeignSystemAgent.AddDeviceByIdentifier(String, String, String)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.AddDeviceByIdentifier(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAdds a new ForeignDevice with deviceName that belongs to the application with applicationName, with an optional device-specific identifier.\n"
+  syntax:
+    content: public ForeignDevice AddDeviceByIdentifier(string applicationName, string deviceName, string deviceIdentifier)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: Unique id of device (Palm pilot device ID, version number, etc)
+    return:
+      type: SuperOffice.CRM.Services.ForeignDevice
+      description: The ForeignDevice.
+    content.vb: Public Function AddDeviceByIdentifier(applicationName As String, deviceName As String, deviceIdentifier As String) As ForeignDevice
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.AddDeviceByIdentifier*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.AddDeviceByIdentifier(System.String,System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.SaveDeviceByIdentifier(System.String,System.String,System.String,SuperOffice.CRM.Services.ForeignDevice)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.SaveDeviceByIdentifier(System.String,System.String,System.String,SuperOffice.CRM.Services.ForeignDevice)
+  id: SaveDeviceByIdentifier(System.String,System.String,System.String,SuperOffice.CRM.Services.ForeignDevice)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveDeviceByIdentifier(String, String, String, ForeignDevice)
+  nameWithType: ForeignSystemAgent.SaveDeviceByIdentifier(String, String, String, ForeignDevice)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.SaveDeviceByIdentifier(System.String, System.String, System.String, SuperOffice.CRM.Services.ForeignDevice)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates a ForeignDevice with deviceName that belongs to the application with applicationName.\n"
+  syntax:
+    content: public ForeignDevice SaveDeviceByIdentifier(string applicationName, string deviceName, string deviceIdentifier, ForeignDevice foreignDevice)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: Unique id of device (Palm pilot device ID, version number, etc)
+    - id: foreignDevice
+      type: SuperOffice.CRM.Services.ForeignDevice
+      description: Foreign device to save. Can be null if adding new device.
+    return:
+      type: SuperOffice.CRM.Services.ForeignDevice
+      description: The ForeignDevice.
+    content.vb: Public Function SaveDeviceByIdentifier(applicationName As String, deviceName As String, deviceIdentifier As String, foreignDevice As ForeignDevice) As ForeignDevice
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.SaveDeviceByIdentifier*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.SaveDeviceByIdentifier(System.String,System.String,System.String,SuperOffice.CRM.Services.ForeignDevice)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.DeleteDeviceByIdentifier(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.DeleteDeviceByIdentifier(System.String,System.String,System.String)
+  id: DeleteDeviceByIdentifier(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteDeviceByIdentifier(String, String, String)
+  nameWithType: ForeignSystemAgent.DeleteDeviceByIdentifier(String, String, String)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.DeleteDeviceByIdentifier(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDelete a ForeignDevice with deviceName and deviceIdentifier that belongs to the application with applicationName.\n"
+  syntax:
+    content: public void DeleteDeviceByIdentifier(string applicationName, string deviceName, string deviceIdentifier)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: Unique id of device (Palm pilot device ID, version number, etc)
+    content.vb: Public Sub DeleteDeviceByIdentifier(applicationName As String, deviceName As String, deviceIdentifier As String)
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.DeleteDeviceByIdentifier*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.DeleteDeviceByIdentifier(System.String,System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetKey(System.String,System.String,System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.GetKey(System.String,System.String,System.String,System.String,System.Int32)
+  id: GetKey(System.String,System.String,System.String,System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetKey(String, String, String, String, Int32)
+  nameWithType: ForeignSystemAgent.GetKey(String, String, String, String, Int32)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetKey(System.String, System.String, System.String, System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturning a foreign key by its key name, that belongs to the specified device and application. A table name and record ID can also be specified.\n"
+  syntax:
+    content: public ForeignKey GetKey(string applicationName, string deviceName, string keyName, string tableName, int recordId)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: keyName
+      type: System.String
+      description: The name of the foreign key.
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to indicate that your key is not bound to any specific table.
+    - id: recordId
+      type: System.Int32
+      description: Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.
+    return:
+      type: SuperOffice.CRM.Services.ForeignKey
+      description: The ForeignKey.
+    content.vb: Public Function GetKey(applicationName As String, deviceName As String, keyName As String, tableName As String, recordId As Integer) As ForeignKey
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.GetKey*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.GetKey(System.String,System.String,System.String,System.String,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyValue(System.String,System.String,System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyValue(System.String,System.String,System.String,System.String,System.Int32)
+  id: GetKeyValue(System.String,System.String,System.String,System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetKeyValue(String, String, String, String, Int32)
+  nameWithType: ForeignSystemAgent.GetKeyValue(String, String, String, String, Int32)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyValue(System.String, System.String, System.String, System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the string value of a ForeignKey, that belongs to the specified device and application. The table name and record ID must also be specified.\n"
+  syntax:
+    content: public string GetKeyValue(string applicationName, string deviceName, string keyName, string tableName, int recordId)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: keyName
+      type: System.String
+      description: The name of the foreign key.
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to indicate that your key is not bound to any specific table.
+    - id: recordId
+      type: System.Int32
+      description: Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.
+    return:
+      type: System.String
+      description: The ForeignKey value as string.
+    content.vb: Public Function GetKeyValue(applicationName As String, deviceName As String, keyName As String, tableName As String, recordId As Integer) As String
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyValue*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValue(System.String,System.String,System.String,System.String,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyOnDeviceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyOnDeviceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32)
+  id: GetKeyOnDeviceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetKeyOnDeviceIdentifier(String, String, String, String, String, Int32)
+  nameWithType: ForeignSystemAgent.GetKeyOnDeviceIdentifier(String, String, String, String, String, Int32)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyOnDeviceIdentifier(System.String, System.String, System.String, System.String, System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturning a foreign key by its key name and device identifier, that belongs to the specified device and application. A table name and record ID can also be specified.\n"
+  syntax:
+    content: public ForeignKey GetKeyOnDeviceIdentifier(string applicationName, string deviceName, string deviceIdentifier, string keyName, string tableName, int recordId)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: The device identifier.
+    - id: keyName
+      type: System.String
+      description: The name of the foreign key.
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to indicate that your key is not bound to any specific table.
+    - id: recordId
+      type: System.Int32
+      description: Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.
+    return:
+      type: SuperOffice.CRM.Services.ForeignKey
+      description: The ForeignKey.
+    content.vb: Public Function GetKeyOnDeviceIdentifier(applicationName As String, deviceName As String, deviceIdentifier As String, keyName As String, tableName As String, recordId As Integer) As ForeignKey
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyOnDeviceIdentifier*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyOnDeviceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyValueOnDeviceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyValueOnDeviceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32)
+  id: GetKeyValueOnDeviceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetKeyValueOnDeviceIdentifier(String, String, String, String, String, Int32)
+  nameWithType: ForeignSystemAgent.GetKeyValueOnDeviceIdentifier(String, String, String, String, String, Int32)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyValueOnDeviceIdentifier(System.String, System.String, System.String, System.String, System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturning a foreign key string value by its key name and device identifier, that belongs to the specified device and application. A table name and record ID can also be specified.\n"
+  syntax:
+    content: public string GetKeyValueOnDeviceIdentifier(string applicationName, string deviceName, string deviceIdentifier, string keyName, string tableName, int recordId)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: The device identifier.
+    - id: keyName
+      type: System.String
+      description: The name of the foreign key.
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to indicate that your key is not bound to any specific table.
+    - id: recordId
+      type: System.Int32
+      description: Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.
+    return:
+      type: System.String
+      description: The ForeignKey&apos;s string value.
+    content.vb: Public Function GetKeyValueOnDeviceIdentifier(applicationName As String, deviceName As String, deviceIdentifier As String, keyName As String, tableName As String, recordId As Integer) As String
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyValueOnDeviceIdentifier*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValueOnDeviceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.AddForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.AddForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String)
+  id: AddForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: AddForeignKey(ForeignKey, String, String, String)
+  nameWithType: ForeignSystemAgent.AddForeignKey(ForeignKey, String, String, String)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.AddForeignKey(SuperOffice.CRM.Services.ForeignKey, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAdd a new key belonging to the ForeignApp and ForeignDevice specified.\n"
+  syntax:
+    content: public ForeignKey AddForeignKey(ForeignKey foreignKey, string applicationName, string deviceName, string deviceIdentifier)
+    parameters:
+    - id: foreignKey
+      type: SuperOffice.CRM.Services.ForeignKey
+      description: Foreign key to save
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: The device identifier. Optional if device identifier is not used.
+    return:
+      type: SuperOffice.CRM.Services.ForeignKey
+      description: The new or updated ForeignKey
+    content.vb: Public Function AddForeignKey(foreignKey As ForeignKey, applicationName As String, deviceName As String, deviceIdentifier As String) As ForeignKey
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.AddForeignKey*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.AddForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.SaveForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.SaveForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String)
+  id: SaveForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveForeignKey(ForeignKey, String, String, String)
+  nameWithType: ForeignSystemAgent.SaveForeignKey(ForeignKey, String, String, String)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.SaveForeignKey(SuperOffice.CRM.Services.ForeignKey, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSaves a key belonging to the ForeignApp and ForeignDevice specified.\n"
+  syntax:
+    content: public ForeignKey SaveForeignKey(ForeignKey foreignKey, string applicationName, string deviceName, string deviceIdentifier)
+    parameters:
+    - id: foreignKey
+      type: SuperOffice.CRM.Services.ForeignKey
+      description: Foreign key to save
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: The device identifier. Optional if device identifier is not used.
+    return:
+      type: SuperOffice.CRM.Services.ForeignKey
+      description: The new or updated ForeignKey
+    content.vb: Public Function SaveForeignKey(foreignKey As ForeignKey, applicationName As String, deviceName As String, deviceIdentifier As String) As ForeignKey
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.SaveForeignKey*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignKeyOnName(System.String,System.String,System.String,System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignKeyOnName(System.String,System.String,System.String,System.String,System.String,System.Int32)
+  id: DeleteForeignKeyOnName(System.String,System.String,System.String,System.String,System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteForeignKeyOnName(String, String, String, String, String, Int32)
+  nameWithType: ForeignSystemAgent.DeleteForeignKeyOnName(String, String, String, String, String, Int32)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignKeyOnName(System.String, System.String, System.String, System.String, System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes all specified occurrences of a key, belonging to the ForeignApp and ForeignDevice, table and record specified. Specifying a blank table name will delete ALL keys of the given name; specifying a recordId of 0 will delete ALL keys of the given name for the given table.\n"
+  syntax:
+    content: public void DeleteForeignKeyOnName(string applicationName, string deviceName, string deviceIdentifier, string keyName, string tableName, int recordId)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: The device identifier. Optional if device identifier is not used.
+    - id: keyName
+      type: System.String
+      description: The name of the foreign key to delete.
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to delete ALL keys that otherwise match; this may be dangerous and can take a long time if there are many items to delete.
+    - id: recordId
+      type: System.Int32
+      description: Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.&lt;p/>Specifying a zero recordId will remove the recordId restriction and delete all keys that otherwise match.
+    content.vb: Public Sub DeleteForeignKeyOnName(applicationName As String, deviceName As String, deviceIdentifier As String, keyName As String, tableName As String, recordId As Integer)
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignKeyOnName*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKeyOnName(System.String,System.String,System.String,System.String,System.String,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyByValue(System.String,System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyByValue(System.String,System.String,System.String,System.String,System.String)
+  id: GetKeyByValue(System.String,System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetKeyByValue(String, String, String, String, String)
+  nameWithType: ForeignSystemAgent.GetKeyByValue(String, String, String, String, String)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyByValue(System.String, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a foreignkey based on its name and value, that belongs to the specified device and application.\n"
+  syntax:
+    content: public ForeignKey GetKeyByValue(string applicationName, string deviceName, string keyName, string keyValue, string tableName)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: keyName
+      type: System.String
+      description: The name of the foreign key.
+    - id: keyValue
+      type: System.String
+      description: Foreignkey value
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to indicate that your key is not bound to any specific table.
+    return:
+      type: SuperOffice.CRM.Services.ForeignKey
+      description: The ForeignKey.
+    content.vb: Public Function GetKeyByValue(applicationName As String, deviceName As String, keyName As String, keyValue As String, tableName As String) As ForeignKey
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyByValue*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValue(System.String,System.String,System.String,System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyByValueAndIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyByValueAndIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)
+  id: GetKeyByValueAndIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetKeyByValueAndIdentifier(String, String, String, String, String, String)
+  nameWithType: ForeignSystemAgent.GetKeyByValueAndIdentifier(String, String, String, String, String, String)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyByValueAndIdentifier(System.String, System.String, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a foreignkey based on its name and value, that belongs to the specified deviceId, device, and application.\n"
+  syntax:
+    content: public ForeignKey GetKeyByValueAndIdentifier(string applicationName, string deviceName, string deviceIdentifier, string keyName, string keyValue, string tableName)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: The device identifier. Optional if device identifier is not used.
+    - id: keyName
+      type: System.String
+      description: The name of the foreign key.
+    - id: keyValue
+      type: System.String
+      description: Foreignkey value
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to indicate that your key is not bound to any specific table.
+    return:
+      type: SuperOffice.CRM.Services.ForeignKey
+      description: The ForeignKey.
+    content.vb: Public Function GetKeyByValueAndIdentifier(applicationName As String, deviceName As String, deviceIdentifier As String, keyName As String, keyValue As String, tableName As String) As ForeignKey
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyByValueAndIdentifier*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValueAndIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetAllForeignKeysOnEntity(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.GetAllForeignKeysOnEntity(System.String,System.Int32)
+  id: GetAllForeignKeysOnEntity(System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAllForeignKeysOnEntity(String, Int32)
+  nameWithType: ForeignSystemAgent.GetAllForeignKeysOnEntity(String, Int32)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetAllForeignKeysOnEntity(System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a list of foreignkeys (&apos;app.device.key&apos;) and their values (&apos;123&apos;) that belong to the specified entity.\n"
+  syntax:
+    content: public StringDictionary GetAllForeignKeysOnEntity(string entityType, int entityId)
+    parameters:
+    - id: entityType
+      type: System.String
+      description: 'Entity type (table name): &apos;contact&apos;, &apos;project&apos; etc.'
+    - id: entityId
+      type: System.Int32
+      description: Primary key of Entity
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+      description: Dictionary of &apos;appname.deviceid.keyname&apos; = &apos;123&apos; key values
+    content.vb: Public Function GetAllForeignKeysOnEntity(entityType As String, entityId As Integer) As StringDictionary
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.GetAllForeignKeysOnEntity*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.GetAllForeignKeysOnEntity(System.String,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetForeignDevice(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.GetForeignDevice(System.Int32)
+  id: GetForeignDevice(System.Int32)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetForeignDevice(Int32)
+  nameWithType: ForeignSystemAgent.GetForeignDevice(Int32)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetForeignDevice(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a ForeignDevice object.                        \n"
+  syntax:
+    content: public ForeignDevice GetForeignDevice(int foreignDeviceId)
+    parameters:
+    - id: foreignDeviceId
+      type: System.Int32
+      description: The identifier of the ForeignDevice object
+    return:
+      type: SuperOffice.CRM.Services.ForeignDevice
+      description: ForeignDevice
+    content.vb: Public Function GetForeignDevice(foreignDeviceId As Integer) As ForeignDevice
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.GetForeignDevice*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignDevice(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.SaveForeignDevice(SuperOffice.CRM.Services.ForeignDevice,System.String)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.SaveForeignDevice(SuperOffice.CRM.Services.ForeignDevice,System.String)
+  id: SaveForeignDevice(SuperOffice.CRM.Services.ForeignDevice,System.String)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveForeignDevice(ForeignDevice, String)
+  nameWithType: ForeignSystemAgent.SaveForeignDevice(ForeignDevice, String)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.SaveForeignDevice(SuperOffice.CRM.Services.ForeignDevice, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSaves a foreign device for an foreign application\n"
+  syntax:
+    content: public ForeignDevice SaveForeignDevice(ForeignDevice foreignDevice, string applicationName)
+    parameters:
+    - id: foreignDevice
+      type: SuperOffice.CRM.Services.ForeignDevice
+      description: Foreign device to save
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    return:
+      type: SuperOffice.CRM.Services.ForeignDevice
+      description: Returns the saved foreign device
+    content.vb: Public Function SaveForeignDevice(foreignDevice As ForeignDevice, applicationName As String) As ForeignDevice
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.SaveForeignDevice*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignDevice(SuperOffice.CRM.Services.ForeignDevice,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignDevice(SuperOffice.CRM.Services.ForeignDevice,System.String)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignDevice(SuperOffice.CRM.Services.ForeignDevice,System.String)
+  id: DeleteForeignDevice(SuperOffice.CRM.Services.ForeignDevice,System.String)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteForeignDevice(ForeignDevice, String)
+  nameWithType: ForeignSystemAgent.DeleteForeignDevice(ForeignDevice, String)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignDevice(SuperOffice.CRM.Services.ForeignDevice, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes a foreign device from an application\n"
+  syntax:
+    content: public void DeleteForeignDevice(ForeignDevice foreignDevice, string applicationName)
+    parameters:
+    - id: foreignDevice
+      type: SuperOffice.CRM.Services.ForeignDevice
+      description: foreign device to delete
+    - id: applicationName
+      type: System.String
+      description: Name of application to delete from
+    content.vb: Public Sub DeleteForeignDevice(foreignDevice As ForeignDevice, applicationName As String)
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignDevice*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignDevice(SuperOffice.CRM.Services.ForeignDevice,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String,System.String,System.Int32)
+  id: DeleteForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String,System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteForeignKey(ForeignKey, String, String, String, String, Int32)
+  nameWithType: ForeignSystemAgent.DeleteForeignKey(ForeignKey, String, String, String, String, Int32)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignKey(SuperOffice.CRM.Services.ForeignKey, System.String, System.String, System.String, System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes all specified occurrences of a key, belonging to the ForeignApp and ForeignDevice, table and record specified. Specifying a blank table name will delete ALL keys of the given name; specifying a recordId of 0 will delete ALL keys of the given name for the given table.\n"
+  syntax:
+    content: public void DeleteForeignKey(ForeignKey foreignKey, string applicationName, string deviceName, string deviceIdentifier, string tableName, int recordId)
+    parameters:
+    - id: foreignKey
+      type: SuperOffice.CRM.Services.ForeignKey
+      description: Key name to delete.
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: The device identifier. Optional if device identifier is not used.
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to delete ALL keys that otherwise match; this may be dangerous and can take a long time if there are many items to delete.
+    - id: recordId
+      type: System.Int32
+      description: Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.&lt;p/>Specifying a zero recordId will remove the recordId restriction and delete all keys that otherwise match.
+    content.vb: Public Sub DeleteForeignKey(foreignKey As ForeignKey, applicationName As String, deviceName As String, deviceIdentifier As String, tableName As String, recordId As Integer)
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignKey*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String,System.String,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeys(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeys(System.String,System.String)
+  id: GetDeviceKeys(System.String,System.String)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDeviceKeys(String, String)
+  nameWithType: ForeignSystemAgent.GetDeviceKeys(String, String)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeys(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns all ForeignKeys that belong to a device.\n"
+  syntax:
+    content: public ForeignKey[] GetDeviceKeys(string applicationName, string deviceName)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    return:
+      type: SuperOffice.CRM.Services.ForeignKey[]
+      description: Array of all ForeignKeys in the ForeignDevice.
+    content.vb: Public Function GetDeviceKeys(applicationName As String, deviceName As String) As ForeignKey()
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeys*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeys(System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetApplicationKeys(System.String)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.GetApplicationKeys(System.String)
+  id: GetApplicationKeys(System.String)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetApplicationKeys(String)
+  nameWithType: ForeignSystemAgent.GetApplicationKeys(String)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetApplicationKeys(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns all ForeignKeys that belong to an application.\n"
+  syntax:
+    content: public ForeignKey[] GetApplicationKeys(string applicationName)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    return:
+      type: SuperOffice.CRM.Services.ForeignKey[]
+      description: Array of all ForeignKeys in the ForeignApp.
+    content.vb: Public Function GetApplicationKeys(applicationName As String) As ForeignKey()
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.GetApplicationKeys*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationKeys(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier(System.String,System.String,System.String)
+  id: GetDeviceKeysOnDeviceIdentifier(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDeviceKeysOnDeviceIdentifier(String, String, String)
+  nameWithType: ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier(String, String, String)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns all ForeignKeys that belong to a device with a given deviceIdentifier.\n"
+  syntax:
+    content: public ForeignKey[] GetDeviceKeysOnDeviceIdentifier(string applicationName, string deviceName, string deviceIdentifier)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: Identifier for a unique grouping of keys within a device.
+    return:
+      type: SuperOffice.CRM.Services.ForeignKey[]
+      description: Array of all ForeignKeys in the ForeignDevice that belong to the DeviceIdentifier.
+    content.vb: Public Function GetDeviceKeysOnDeviceIdentifier(applicationName As String, deviceName As String, deviceIdentifier As String) As ForeignKey()
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier(System.String,System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(System.String,System.String,System.String,System.String)
+  id: GetDeviceKeysOnDeviceIdentifierTable(System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDeviceKeysOnDeviceIdentifierTable(String, String, String, String)
+  nameWithType: ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(String, String, String, String)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns all ForeignKeys that belong to a device with a given deviceIdentifier and table name.\n"
+  syntax:
+    content: public ForeignKey[] GetDeviceKeysOnDeviceIdentifierTable(string applicationName, string deviceName, string deviceIdentifier, string tableName)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: Identifier for a unique grouping of keys within a device.
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to indicate that your key is not bound to any specific table.
+    return:
+      type: SuperOffice.CRM.Services.ForeignKey[]
+      description: Array of all ForeignKeys in the ForeignDevice that belong to the DeviceIdentifier.
+    content.vb: Public Function GetDeviceKeysOnDeviceIdentifierTable(applicationName As String, deviceName As String, deviceIdentifier As String, tableName As String) As ForeignKey()
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(System.String,System.String,System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId(System.String,System.String,System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId(System.String,System.String,System.String,System.String,System.Int32)
+  id: GetDeviceKeysOnDeviceIdentifierTableRecordId(System.String,System.String,System.String,System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDeviceKeysOnDeviceIdentifierTableRecordId(String, String, String, String, Int32)
+  nameWithType: ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId(String, String, String, String, Int32)
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId(System.String, System.String, System.String, System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns all ForeignKeys that belong to a device with a given deviceIdentifier and table name, as well as record id.\n"
+  syntax:
+    content: public ForeignKey[] GetDeviceKeysOnDeviceIdentifierTableRecordId(string applicationName, string deviceName, string deviceIdentifier, string tableName, int recordId)
+    parameters:
+    - id: applicationName
+      type: System.String
+      description: The name of the foreign application.
+    - id: deviceName
+      type: System.String
+      description: The name of the foreign device.
+    - id: deviceIdentifier
+      type: System.String
+      description: Identifier for a unique grouping of keys within a device.
+    - id: tableName
+      type: System.String
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to indicate that your key is not bound to any specific table.
+    - id: recordId
+      type: System.Int32
+      description: Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.
+    return:
+      type: SuperOffice.CRM.Services.ForeignKey[]
+      description: Array of all ForeignKeys in the ForeignDevice that match the criteria
+    content.vb: Public Function GetDeviceKeysOnDeviceIdentifierTableRecordId(applicationName As String, deviceName As String, deviceIdentifier As String, tableName As String, recordId As Integer) As ForeignKey()
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId*
+  implements:
+  - SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId(System.String,System.String,System.String,System.String,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.#ctor
+  commentId: M:SuperOffice.CRM.Services.ForeignSystemAgent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ForeignSystemAgent
+  langs:
+  - csharp
+  - vb
+  name: ForeignSystemAgent()
+  nameWithType: ForeignSystemAgent.ForeignSystemAgent()
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.ForeignSystemAgent()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public ForeignSystemAgent()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ForeignSystemAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IForeignSystemAgent}
+  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IForeignSystemAgent}
+  parent: SuperOffice.CRM.Services
+  definition: SuperOffice.CRM.Services.AgentBase`1
+  name: AgentBase<IForeignSystemAgent>
+  nameWithType: AgentBase<IForeignSystemAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IForeignSystemAgent>
+  nameWithType.vb: AgentBase(Of IForeignSystemAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IForeignSystemAgent)
+  name.vb: AgentBase(Of IForeignSystemAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent
+    name: IForeignSystemAgent
+    nameWithType: IForeignSystemAgent
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent
+    name: IForeignSystemAgent
+    nameWithType: IForeignSystemAgent
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent
+  commentId: T:SuperOffice.CRM.Services.IForeignSystemAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IForeignSystemAgent
+  nameWithType: IForeignSystemAgent
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent
+- uid: SuperOffice.CRM.Services.IAgent
+  commentId: T:SuperOffice.CRM.Services.IAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAgent
+  nameWithType: IAgent
+  fullName: SuperOffice.CRM.Services.IAgent
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IForeignSystemAgent}.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IForeignSystemAgent}.Dispose
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IForeignSystemAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  name: Dispose()
+  nameWithType: AgentBase<IForeignSystemAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IForeignSystemAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of IForeignSystemAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IForeignSystemAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<IForeignSystemAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IForeignSystemAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of IForeignSystemAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IForeignSystemAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IForeignSystemAgent}.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IForeignSystemAgent}.InnerAgent
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IForeignSystemAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  name: InnerAgent
+  nameWithType: AgentBase<IForeignSystemAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IForeignSystemAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of IForeignSystemAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IForeignSystemAgent).InnerAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AgentBase`1
+  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+  isExternal: true
+  name: AgentBase<TAgent>
+  nameWithType: AgentBase<TAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
+  nameWithType.vb: AgentBase(Of TAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
+  name.vb: AgentBase(Of TAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase<TAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of TAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  isExternal: true
+  name: InnerAgent
+  nameWithType: AgentBase<TAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.CreateDefaultForeignAppEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.CreateDefaultForeignAppEntity
+  isExternal: true
+  name: CreateDefaultForeignAppEntity
+  nameWithType: ForeignSystemAgent.CreateDefaultForeignAppEntity
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.CreateDefaultForeignAppEntity
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.CreateDefaultForeignAppEntity
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.CreateDefaultForeignAppEntity
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: CreateDefaultForeignAppEntity()
+  nameWithType: IForeignSystemAgent.CreateDefaultForeignAppEntity()
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.CreateDefaultForeignAppEntity()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.CreateDefaultForeignAppEntity
+    name: CreateDefaultForeignAppEntity
+    nameWithType: IForeignSystemAgent.CreateDefaultForeignAppEntity
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.CreateDefaultForeignAppEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.CreateDefaultForeignAppEntity
+    name: CreateDefaultForeignAppEntity
+    nameWithType: IForeignSystemAgent.CreateDefaultForeignAppEntity
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.CreateDefaultForeignAppEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignAppEntity
+  commentId: T:SuperOffice.CRM.Services.ForeignAppEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ForeignAppEntity
+  nameWithType: ForeignAppEntity
+  fullName: SuperOffice.CRM.Services.ForeignAppEntity
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.SaveForeignAppEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.SaveForeignAppEntity
+  isExternal: true
+  name: SaveForeignAppEntity
+  nameWithType: ForeignSystemAgent.SaveForeignAppEntity
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.SaveForeignAppEntity
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignAppEntity(SuperOffice.CRM.Services.ForeignAppEntity)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignAppEntity(SuperOffice.CRM.Services.ForeignAppEntity)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: SaveForeignAppEntity(ForeignAppEntity)
+  nameWithType: IForeignSystemAgent.SaveForeignAppEntity(ForeignAppEntity)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignAppEntity(SuperOffice.CRM.Services.ForeignAppEntity)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignAppEntity(SuperOffice.CRM.Services.ForeignAppEntity)
+    name: SaveForeignAppEntity
+    nameWithType: IForeignSystemAgent.SaveForeignAppEntity
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignAppEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ForeignAppEntity
+    name: ForeignAppEntity
+    nameWithType: ForeignAppEntity
+    fullName: SuperOffice.CRM.Services.ForeignAppEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignAppEntity(SuperOffice.CRM.Services.ForeignAppEntity)
+    name: SaveForeignAppEntity
+    nameWithType: IForeignSystemAgent.SaveForeignAppEntity
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignAppEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ForeignAppEntity
+    name: ForeignAppEntity
+    nameWithType: ForeignAppEntity
+    fullName: SuperOffice.CRM.Services.ForeignAppEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignAppEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignAppEntity
+  isExternal: true
+  name: DeleteForeignAppEntity
+  nameWithType: ForeignSystemAgent.DeleteForeignAppEntity
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignAppEntity
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignAppEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignAppEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: DeleteForeignAppEntity(Int32)
+  nameWithType: IForeignSystemAgent.DeleteForeignAppEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignAppEntity(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignAppEntity(System.Int32)
+    name: DeleteForeignAppEntity
+    nameWithType: IForeignSystemAgent.DeleteForeignAppEntity
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignAppEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignAppEntity(System.Int32)
+    name: DeleteForeignAppEntity
+    nameWithType: IForeignSystemAgent.DeleteForeignAppEntity
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignAppEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetForeignAppEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.GetForeignAppEntity
+  isExternal: true
+  name: GetForeignAppEntity
+  nameWithType: ForeignSystemAgent.GetForeignAppEntity
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetForeignAppEntity
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignAppEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignAppEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: GetForeignAppEntity(Int32)
+  nameWithType: IForeignSystemAgent.GetForeignAppEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignAppEntity(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignAppEntity(System.Int32)
+    name: GetForeignAppEntity
+    nameWithType: IForeignSystemAgent.GetForeignAppEntity
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignAppEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignAppEntity(System.Int32)
+    name: GetForeignAppEntity
+    nameWithType: IForeignSystemAgent.GetForeignAppEntity
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignAppEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetAppByName*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.GetAppByName
+  isExternal: true
+  name: GetAppByName
+  nameWithType: ForeignSystemAgent.GetAppByName
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetAppByName
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetAppByName(System.String)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetAppByName(System.String)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: GetAppByName(String)
+  nameWithType: IForeignSystemAgent.GetAppByName(String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetAppByName(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetAppByName(System.String)
+    name: GetAppByName
+    nameWithType: IForeignSystemAgent.GetAppByName
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetAppByName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetAppByName(System.String)
+    name: GetAppByName
+    nameWithType: IForeignSystemAgent.GetAppByName
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetAppByName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetApplicationDevices*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.GetApplicationDevices
+  isExternal: true
+  name: GetApplicationDevices
+  nameWithType: ForeignSystemAgent.GetApplicationDevices
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetApplicationDevices
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationDevices(System.String)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationDevices(System.String)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: GetApplicationDevices(String)
+  nameWithType: IForeignSystemAgent.GetApplicationDevices(String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationDevices(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationDevices(System.String)
+    name: GetApplicationDevices
+    nameWithType: IForeignSystemAgent.GetApplicationDevices
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationDevices
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationDevices(System.String)
+    name: GetApplicationDevices
+    nameWithType: IForeignSystemAgent.GetApplicationDevices
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationDevices
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignDevice[]
+  isExternal: true
+  name: ForeignDevice[]
+  nameWithType: ForeignDevice[]
+  fullName: SuperOffice.CRM.Services.ForeignDevice[]
+  nameWithType.vb: ForeignDevice()
+  fullName.vb: SuperOffice.CRM.Services.ForeignDevice()
+  name.vb: ForeignDevice()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ForeignDevice
+    name: ForeignDevice
+    nameWithType: ForeignDevice
+    fullName: SuperOffice.CRM.Services.ForeignDevice
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ForeignDevice
+    name: ForeignDevice
+    nameWithType: ForeignDevice
+    fullName: SuperOffice.CRM.Services.ForeignDevice
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceByName*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceByName
+  isExternal: true
+  name: GetDeviceByName
+  nameWithType: ForeignSystemAgent.GetDeviceByName
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceByName
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByName(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByName(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: GetDeviceByName(String, String)
+  nameWithType: IForeignSystemAgent.GetDeviceByName(String, String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByName(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByName(System.String,System.String)
+    name: GetDeviceByName
+    nameWithType: IForeignSystemAgent.GetDeviceByName
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByName(System.String,System.String)
+    name: GetDeviceByName
+    nameWithType: IForeignSystemAgent.GetDeviceByName
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignDevice
+  commentId: T:SuperOffice.CRM.Services.ForeignDevice
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ForeignDevice
+  nameWithType: ForeignDevice
+  fullName: SuperOffice.CRM.Services.ForeignDevice
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceByIdentifier*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceByIdentifier
+  isExternal: true
+  name: GetDeviceByIdentifier
+  nameWithType: ForeignSystemAgent.GetDeviceByIdentifier
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceByIdentifier
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByIdentifier(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByIdentifier(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: GetDeviceByIdentifier(String, String, String)
+  nameWithType: IForeignSystemAgent.GetDeviceByIdentifier(String, String, String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByIdentifier(System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByIdentifier(System.String,System.String,System.String)
+    name: GetDeviceByIdentifier
+    nameWithType: IForeignSystemAgent.GetDeviceByIdentifier
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByIdentifier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByIdentifier(System.String,System.String,System.String)
+    name: GetDeviceByIdentifier
+    nameWithType: IForeignSystemAgent.GetDeviceByIdentifier
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByIdentifier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.AddDeviceByIdentifier*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.AddDeviceByIdentifier
+  isExternal: true
+  name: AddDeviceByIdentifier
+  nameWithType: ForeignSystemAgent.AddDeviceByIdentifier
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.AddDeviceByIdentifier
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.AddDeviceByIdentifier(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.AddDeviceByIdentifier(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: AddDeviceByIdentifier(String, String, String)
+  nameWithType: IForeignSystemAgent.AddDeviceByIdentifier(String, String, String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.AddDeviceByIdentifier(System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.AddDeviceByIdentifier(System.String,System.String,System.String)
+    name: AddDeviceByIdentifier
+    nameWithType: IForeignSystemAgent.AddDeviceByIdentifier
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.AddDeviceByIdentifier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.AddDeviceByIdentifier(System.String,System.String,System.String)
+    name: AddDeviceByIdentifier
+    nameWithType: IForeignSystemAgent.AddDeviceByIdentifier
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.AddDeviceByIdentifier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.SaveDeviceByIdentifier*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.SaveDeviceByIdentifier
+  isExternal: true
+  name: SaveDeviceByIdentifier
+  nameWithType: ForeignSystemAgent.SaveDeviceByIdentifier
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.SaveDeviceByIdentifier
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.SaveDeviceByIdentifier(System.String,System.String,System.String,SuperOffice.CRM.Services.ForeignDevice)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.SaveDeviceByIdentifier(System.String,System.String,System.String,SuperOffice.CRM.Services.ForeignDevice)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: SaveDeviceByIdentifier(String, String, String, ForeignDevice)
+  nameWithType: IForeignSystemAgent.SaveDeviceByIdentifier(String, String, String, ForeignDevice)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.SaveDeviceByIdentifier(System.String, System.String, System.String, SuperOffice.CRM.Services.ForeignDevice)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.SaveDeviceByIdentifier(System.String,System.String,System.String,SuperOffice.CRM.Services.ForeignDevice)
+    name: SaveDeviceByIdentifier
+    nameWithType: IForeignSystemAgent.SaveDeviceByIdentifier
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.SaveDeviceByIdentifier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.ForeignDevice
+    name: ForeignDevice
+    nameWithType: ForeignDevice
+    fullName: SuperOffice.CRM.Services.ForeignDevice
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.SaveDeviceByIdentifier(System.String,System.String,System.String,SuperOffice.CRM.Services.ForeignDevice)
+    name: SaveDeviceByIdentifier
+    nameWithType: IForeignSystemAgent.SaveDeviceByIdentifier
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.SaveDeviceByIdentifier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.ForeignDevice
+    name: ForeignDevice
+    nameWithType: ForeignDevice
+    fullName: SuperOffice.CRM.Services.ForeignDevice
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.DeleteDeviceByIdentifier*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.DeleteDeviceByIdentifier
+  isExternal: true
+  name: DeleteDeviceByIdentifier
+  nameWithType: ForeignSystemAgent.DeleteDeviceByIdentifier
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.DeleteDeviceByIdentifier
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteDeviceByIdentifier(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.DeleteDeviceByIdentifier(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: DeleteDeviceByIdentifier(String, String, String)
+  nameWithType: IForeignSystemAgent.DeleteDeviceByIdentifier(String, String, String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteDeviceByIdentifier(System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteDeviceByIdentifier(System.String,System.String,System.String)
+    name: DeleteDeviceByIdentifier
+    nameWithType: IForeignSystemAgent.DeleteDeviceByIdentifier
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteDeviceByIdentifier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteDeviceByIdentifier(System.String,System.String,System.String)
+    name: DeleteDeviceByIdentifier
+    nameWithType: IForeignSystemAgent.DeleteDeviceByIdentifier
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteDeviceByIdentifier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetKey*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.GetKey
+  isExternal: true
+  name: GetKey
+  nameWithType: ForeignSystemAgent.GetKey
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetKey
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKey(System.String,System.String,System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetKey(System.String,System.String,System.String,System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: GetKey(String, String, String, String, Int32)
+  nameWithType: IForeignSystemAgent.GetKey(String, String, String, String, Int32)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKey(System.String, System.String, System.String, System.String, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKey(System.String,System.String,System.String,System.String,System.Int32)
+    name: GetKey
+    nameWithType: IForeignSystemAgent.GetKey
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKey(System.String,System.String,System.String,System.String,System.Int32)
+    name: GetKey
+    nameWithType: IForeignSystemAgent.GetKey
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignKey
+  commentId: T:SuperOffice.CRM.Services.ForeignKey
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ForeignKey
+  nameWithType: ForeignKey
+  fullName: SuperOffice.CRM.Services.ForeignKey
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyValue*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyValue
+  isExternal: true
+  name: GetKeyValue
+  nameWithType: ForeignSystemAgent.GetKeyValue
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyValue
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValue(System.String,System.String,System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValue(System.String,System.String,System.String,System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: GetKeyValue(String, String, String, String, Int32)
+  nameWithType: IForeignSystemAgent.GetKeyValue(String, String, String, String, Int32)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValue(System.String, System.String, System.String, System.String, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValue(System.String,System.String,System.String,System.String,System.Int32)
+    name: GetKeyValue
+    nameWithType: IForeignSystemAgent.GetKeyValue
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValue(System.String,System.String,System.String,System.String,System.Int32)
+    name: GetKeyValue
+    nameWithType: IForeignSystemAgent.GetKeyValue
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyOnDeviceIdentifier*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyOnDeviceIdentifier
+  isExternal: true
+  name: GetKeyOnDeviceIdentifier
+  nameWithType: ForeignSystemAgent.GetKeyOnDeviceIdentifier
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyOnDeviceIdentifier
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyOnDeviceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyOnDeviceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: GetKeyOnDeviceIdentifier(String, String, String, String, String, Int32)
+  nameWithType: IForeignSystemAgent.GetKeyOnDeviceIdentifier(String, String, String, String, String, Int32)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyOnDeviceIdentifier(System.String, System.String, System.String, System.String, System.String, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyOnDeviceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32)
+    name: GetKeyOnDeviceIdentifier
+    nameWithType: IForeignSystemAgent.GetKeyOnDeviceIdentifier
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyOnDeviceIdentifier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyOnDeviceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32)
+    name: GetKeyOnDeviceIdentifier
+    nameWithType: IForeignSystemAgent.GetKeyOnDeviceIdentifier
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyOnDeviceIdentifier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyValueOnDeviceIdentifier*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyValueOnDeviceIdentifier
+  isExternal: true
+  name: GetKeyValueOnDeviceIdentifier
+  nameWithType: ForeignSystemAgent.GetKeyValueOnDeviceIdentifier
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyValueOnDeviceIdentifier
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValueOnDeviceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValueOnDeviceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: GetKeyValueOnDeviceIdentifier(String, String, String, String, String, Int32)
+  nameWithType: IForeignSystemAgent.GetKeyValueOnDeviceIdentifier(String, String, String, String, String, Int32)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValueOnDeviceIdentifier(System.String, System.String, System.String, System.String, System.String, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValueOnDeviceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32)
+    name: GetKeyValueOnDeviceIdentifier
+    nameWithType: IForeignSystemAgent.GetKeyValueOnDeviceIdentifier
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValueOnDeviceIdentifier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValueOnDeviceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32)
+    name: GetKeyValueOnDeviceIdentifier
+    nameWithType: IForeignSystemAgent.GetKeyValueOnDeviceIdentifier
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValueOnDeviceIdentifier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.AddForeignKey*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.AddForeignKey
+  isExternal: true
+  name: AddForeignKey
+  nameWithType: ForeignSystemAgent.AddForeignKey
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.AddForeignKey
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.AddForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.AddForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: AddForeignKey(ForeignKey, String, String, String)
+  nameWithType: IForeignSystemAgent.AddForeignKey(ForeignKey, String, String, String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.AddForeignKey(SuperOffice.CRM.Services.ForeignKey, System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.AddForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String)
+    name: AddForeignKey
+    nameWithType: IForeignSystemAgent.AddForeignKey
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.AddForeignKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ForeignKey
+    name: ForeignKey
+    nameWithType: ForeignKey
+    fullName: SuperOffice.CRM.Services.ForeignKey
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.AddForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String)
+    name: AddForeignKey
+    nameWithType: IForeignSystemAgent.AddForeignKey
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.AddForeignKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ForeignKey
+    name: ForeignKey
+    nameWithType: ForeignKey
+    fullName: SuperOffice.CRM.Services.ForeignKey
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.SaveForeignKey*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.SaveForeignKey
+  isExternal: true
+  name: SaveForeignKey
+  nameWithType: ForeignSystemAgent.SaveForeignKey
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.SaveForeignKey
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: SaveForeignKey(ForeignKey, String, String, String)
+  nameWithType: IForeignSystemAgent.SaveForeignKey(ForeignKey, String, String, String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignKey(SuperOffice.CRM.Services.ForeignKey, System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String)
+    name: SaveForeignKey
+    nameWithType: IForeignSystemAgent.SaveForeignKey
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ForeignKey
+    name: ForeignKey
+    nameWithType: ForeignKey
+    fullName: SuperOffice.CRM.Services.ForeignKey
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String)
+    name: SaveForeignKey
+    nameWithType: IForeignSystemAgent.SaveForeignKey
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ForeignKey
+    name: ForeignKey
+    nameWithType: ForeignKey
+    fullName: SuperOffice.CRM.Services.ForeignKey
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignKeyOnName*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignKeyOnName
+  isExternal: true
+  name: DeleteForeignKeyOnName
+  nameWithType: ForeignSystemAgent.DeleteForeignKeyOnName
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignKeyOnName
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKeyOnName(System.String,System.String,System.String,System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKeyOnName(System.String,System.String,System.String,System.String,System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: DeleteForeignKeyOnName(String, String, String, String, String, Int32)
+  nameWithType: IForeignSystemAgent.DeleteForeignKeyOnName(String, String, String, String, String, Int32)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKeyOnName(System.String, System.String, System.String, System.String, System.String, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKeyOnName(System.String,System.String,System.String,System.String,System.String,System.Int32)
+    name: DeleteForeignKeyOnName
+    nameWithType: IForeignSystemAgent.DeleteForeignKeyOnName
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKeyOnName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKeyOnName(System.String,System.String,System.String,System.String,System.String,System.Int32)
+    name: DeleteForeignKeyOnName
+    nameWithType: IForeignSystemAgent.DeleteForeignKeyOnName
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKeyOnName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyByValue*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyByValue
+  isExternal: true
+  name: GetKeyByValue
+  nameWithType: ForeignSystemAgent.GetKeyByValue
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyByValue
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValue(System.String,System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValue(System.String,System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: GetKeyByValue(String, String, String, String, String)
+  nameWithType: IForeignSystemAgent.GetKeyByValue(String, String, String, String, String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValue(System.String, System.String, System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValue(System.String,System.String,System.String,System.String,System.String)
+    name: GetKeyByValue
+    nameWithType: IForeignSystemAgent.GetKeyByValue
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValue(System.String,System.String,System.String,System.String,System.String)
+    name: GetKeyByValue
+    nameWithType: IForeignSystemAgent.GetKeyByValue
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyByValueAndIdentifier*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyByValueAndIdentifier
+  isExternal: true
+  name: GetKeyByValueAndIdentifier
+  nameWithType: ForeignSystemAgent.GetKeyByValueAndIdentifier
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetKeyByValueAndIdentifier
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValueAndIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValueAndIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: GetKeyByValueAndIdentifier(String, String, String, String, String, String)
+  nameWithType: IForeignSystemAgent.GetKeyByValueAndIdentifier(String, String, String, String, String, String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValueAndIdentifier(System.String, System.String, System.String, System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValueAndIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)
+    name: GetKeyByValueAndIdentifier
+    nameWithType: IForeignSystemAgent.GetKeyByValueAndIdentifier
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValueAndIdentifier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValueAndIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)
+    name: GetKeyByValueAndIdentifier
+    nameWithType: IForeignSystemAgent.GetKeyByValueAndIdentifier
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValueAndIdentifier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetAllForeignKeysOnEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.GetAllForeignKeysOnEntity
+  isExternal: true
+  name: GetAllForeignKeysOnEntity
+  nameWithType: ForeignSystemAgent.GetAllForeignKeysOnEntity
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetAllForeignKeysOnEntity
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetAllForeignKeysOnEntity(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetAllForeignKeysOnEntity(System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: GetAllForeignKeysOnEntity(String, Int32)
+  nameWithType: IForeignSystemAgent.GetAllForeignKeysOnEntity(String, Int32)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetAllForeignKeysOnEntity(System.String, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetAllForeignKeysOnEntity(System.String,System.Int32)
+    name: GetAllForeignKeysOnEntity
+    nameWithType: IForeignSystemAgent.GetAllForeignKeysOnEntity
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetAllForeignKeysOnEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetAllForeignKeysOnEntity(System.String,System.Int32)
+    name: GetAllForeignKeysOnEntity
+    nameWithType: IForeignSystemAgent.GetAllForeignKeysOnEntity
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetAllForeignKeysOnEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.StringDictionary
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetForeignDevice*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.GetForeignDevice
+  isExternal: true
+  name: GetForeignDevice
+  nameWithType: ForeignSystemAgent.GetForeignDevice
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetForeignDevice
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignDevice(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignDevice(System.Int32)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: GetForeignDevice(Int32)
+  nameWithType: IForeignSystemAgent.GetForeignDevice(Int32)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignDevice(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignDevice(System.Int32)
+    name: GetForeignDevice
+    nameWithType: IForeignSystemAgent.GetForeignDevice
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignDevice
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignDevice(System.Int32)
+    name: GetForeignDevice
+    nameWithType: IForeignSystemAgent.GetForeignDevice
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignDevice
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.SaveForeignDevice*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.SaveForeignDevice
+  isExternal: true
+  name: SaveForeignDevice
+  nameWithType: ForeignSystemAgent.SaveForeignDevice
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.SaveForeignDevice
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignDevice(SuperOffice.CRM.Services.ForeignDevice,System.String)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignDevice(SuperOffice.CRM.Services.ForeignDevice,System.String)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: SaveForeignDevice(ForeignDevice, String)
+  nameWithType: IForeignSystemAgent.SaveForeignDevice(ForeignDevice, String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignDevice(SuperOffice.CRM.Services.ForeignDevice, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignDevice(SuperOffice.CRM.Services.ForeignDevice,System.String)
+    name: SaveForeignDevice
+    nameWithType: IForeignSystemAgent.SaveForeignDevice
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignDevice
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ForeignDevice
+    name: ForeignDevice
+    nameWithType: ForeignDevice
+    fullName: SuperOffice.CRM.Services.ForeignDevice
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignDevice(SuperOffice.CRM.Services.ForeignDevice,System.String)
+    name: SaveForeignDevice
+    nameWithType: IForeignSystemAgent.SaveForeignDevice
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignDevice
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ForeignDevice
+    name: ForeignDevice
+    nameWithType: ForeignDevice
+    fullName: SuperOffice.CRM.Services.ForeignDevice
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignDevice*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignDevice
+  isExternal: true
+  name: DeleteForeignDevice
+  nameWithType: ForeignSystemAgent.DeleteForeignDevice
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignDevice
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignDevice(SuperOffice.CRM.Services.ForeignDevice,System.String)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignDevice(SuperOffice.CRM.Services.ForeignDevice,System.String)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: DeleteForeignDevice(ForeignDevice, String)
+  nameWithType: IForeignSystemAgent.DeleteForeignDevice(ForeignDevice, String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignDevice(SuperOffice.CRM.Services.ForeignDevice, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignDevice(SuperOffice.CRM.Services.ForeignDevice,System.String)
+    name: DeleteForeignDevice
+    nameWithType: IForeignSystemAgent.DeleteForeignDevice
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignDevice
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ForeignDevice
+    name: ForeignDevice
+    nameWithType: ForeignDevice
+    fullName: SuperOffice.CRM.Services.ForeignDevice
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignDevice(SuperOffice.CRM.Services.ForeignDevice,System.String)
+    name: DeleteForeignDevice
+    nameWithType: IForeignSystemAgent.DeleteForeignDevice
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignDevice
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ForeignDevice
+    name: ForeignDevice
+    nameWithType: ForeignDevice
+    fullName: SuperOffice.CRM.Services.ForeignDevice
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignKey*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignKey
+  isExternal: true
+  name: DeleteForeignKey
+  nameWithType: ForeignSystemAgent.DeleteForeignKey
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.DeleteForeignKey
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String,System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: DeleteForeignKey(ForeignKey, String, String, String, String, Int32)
+  nameWithType: IForeignSystemAgent.DeleteForeignKey(ForeignKey, String, String, String, String, Int32)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKey(SuperOffice.CRM.Services.ForeignKey, System.String, System.String, System.String, System.String, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String,System.String,System.Int32)
+    name: DeleteForeignKey
+    nameWithType: IForeignSystemAgent.DeleteForeignKey
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ForeignKey
+    name: ForeignKey
+    nameWithType: ForeignKey
+    fullName: SuperOffice.CRM.Services.ForeignKey
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String,System.String,System.Int32)
+    name: DeleteForeignKey
+    nameWithType: IForeignSystemAgent.DeleteForeignKey
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ForeignKey
+    name: ForeignKey
+    nameWithType: ForeignKey
+    fullName: SuperOffice.CRM.Services.ForeignKey
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeys*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeys
+  isExternal: true
+  name: GetDeviceKeys
+  nameWithType: ForeignSystemAgent.GetDeviceKeys
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeys
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeys(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeys(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: GetDeviceKeys(String, String)
+  nameWithType: IForeignSystemAgent.GetDeviceKeys(String, String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeys(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeys(System.String,System.String)
+    name: GetDeviceKeys
+    nameWithType: IForeignSystemAgent.GetDeviceKeys
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeys
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeys(System.String,System.String)
+    name: GetDeviceKeys
+    nameWithType: IForeignSystemAgent.GetDeviceKeys
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeys
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignKey[]
+  isExternal: true
+  name: ForeignKey[]
+  nameWithType: ForeignKey[]
+  fullName: SuperOffice.CRM.Services.ForeignKey[]
+  nameWithType.vb: ForeignKey()
+  fullName.vb: SuperOffice.CRM.Services.ForeignKey()
+  name.vb: ForeignKey()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ForeignKey
+    name: ForeignKey
+    nameWithType: ForeignKey
+    fullName: SuperOffice.CRM.Services.ForeignKey
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ForeignKey
+    name: ForeignKey
+    nameWithType: ForeignKey
+    fullName: SuperOffice.CRM.Services.ForeignKey
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetApplicationKeys*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.GetApplicationKeys
+  isExternal: true
+  name: GetApplicationKeys
+  nameWithType: ForeignSystemAgent.GetApplicationKeys
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetApplicationKeys
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationKeys(System.String)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationKeys(System.String)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: GetApplicationKeys(String)
+  nameWithType: IForeignSystemAgent.GetApplicationKeys(String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationKeys(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationKeys(System.String)
+    name: GetApplicationKeys
+    nameWithType: IForeignSystemAgent.GetApplicationKeys
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationKeys
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationKeys(System.String)
+    name: GetApplicationKeys
+    nameWithType: IForeignSystemAgent.GetApplicationKeys
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationKeys
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier
+  isExternal: true
+  name: GetDeviceKeysOnDeviceIdentifier
+  nameWithType: ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: GetDeviceKeysOnDeviceIdentifier(String, String, String)
+  nameWithType: IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier(String, String, String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier(System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier(System.String,System.String,System.String)
+    name: GetDeviceKeysOnDeviceIdentifier
+    nameWithType: IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier(System.String,System.String,System.String)
+    name: GetDeviceKeysOnDeviceIdentifier
+    nameWithType: IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable
+  isExternal: true
+  name: GetDeviceKeysOnDeviceIdentifierTable
+  nameWithType: ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: GetDeviceKeysOnDeviceIdentifierTable(String, String, String, String)
+  nameWithType: IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(String, String, String, String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(System.String, System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(System.String,System.String,System.String,System.String)
+    name: GetDeviceKeysOnDeviceIdentifierTable
+    nameWithType: IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(System.String,System.String,System.String,System.String)
+    name: GetDeviceKeysOnDeviceIdentifierTable
+    nameWithType: IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId
+  isExternal: true
+  name: GetDeviceKeysOnDeviceIdentifierTableRecordId
+  nameWithType: ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId(System.String,System.String,System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId(System.String,System.String,System.String,System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.IForeignSystemAgent
+  isExternal: true
+  name: GetDeviceKeysOnDeviceIdentifierTableRecordId(String, String, String, String, Int32)
+  nameWithType: IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId(String, String, String, String, Int32)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId(System.String, System.String, System.String, System.String, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId(System.String,System.String,System.String,System.String,System.Int32)
+    name: GetDeviceKeysOnDeviceIdentifierTableRecordId
+    nameWithType: IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId(System.String,System.String,System.String,System.String,System.Int32)
+    name: GetDeviceKeysOnDeviceIdentifierTableRecordId
+    nameWithType: IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId
+    fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignSystemAgent.#ctor
+  isExternal: true
+  name: ForeignSystemAgent
+  nameWithType: ForeignSystemAgent.ForeignSystemAgent
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent.ForeignSystemAgent

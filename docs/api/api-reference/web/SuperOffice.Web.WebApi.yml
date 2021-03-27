@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.WebApi
+  commentId: N:SuperOffice.Web.WebApi
+  id: SuperOffice.Web.WebApi
+  children:
+  - SuperOffice.Web.WebApi.EnableJsonTypeAnnotationsAttribute
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Web.WebApi
+  nameWithType: SuperOffice.Web.WebApi
+  fullName: SuperOffice.Web.WebApi
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCFWeb
+references:
+- uid: SuperOffice.Web.WebApi.EnableJsonTypeAnnotationsAttribute
+  commentId: T:SuperOffice.Web.WebApi.EnableJsonTypeAnnotationsAttribute
+  parent: SuperOffice.Web.WebApi
+  isExternal: true
+  name: EnableJsonTypeAnnotationsAttribute
+  nameWithType: EnableJsonTypeAnnotationsAttribute
+  fullName: SuperOffice.Web.WebApi.EnableJsonTypeAnnotationsAttribute
+- uid: SuperOffice.Web.WebApi
+  commentId: N:SuperOffice.Web.WebApi
+  isExternal: true
+  name: SuperOffice.Web.WebApi
+  nameWithType: SuperOffice.Web.WebApi
+  fullName: SuperOffice.Web.WebApi

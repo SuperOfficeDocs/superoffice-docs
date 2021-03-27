@@ -1,0 +1,912 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager
+  commentId: T:SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager
+  id: DialogManager
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects
+  children:
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.#ctor
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.DialogReturnTextPrefix
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.ErrorIcon
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.ErrorReturnText
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.ForceConfirmationReturnText
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.GetIconString(SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.Information(System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.OpenNewActivityDialog(System.Int32)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.QuestionIcon
+  - SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.WarningIcon
+  langs:
+  - csharp
+  - vb
+  name: DialogManager
+  nameWithType: DialogManager
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: 'public class DialogManager : ScriptObjectBase'
+    content.vb: >-
+      Public Class DialogManager
+          Inherits ScriptObjectBase
+  inheritance:
+  - System.Object
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  inheritedMembers:
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.DialogReturnTextPrefix
+  commentId: F:SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.DialogReturnTextPrefix
+  id: DialogReturnTextPrefix
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager
+  langs:
+  - csharp
+  - vb
+  name: DialogReturnTextPrefix
+  nameWithType: DialogManager.DialogReturnTextPrefix
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.DialogReturnTextPrefix
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string DialogReturnTextPrefix
+    return:
+      type: System.String
+    content.vb: Public Shared DialogReturnTextPrefix As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.ForceConfirmationReturnText
+  commentId: F:SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.ForceConfirmationReturnText
+  id: ForceConfirmationReturnText
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager
+  langs:
+  - csharp
+  - vb
+  name: ForceConfirmationReturnText
+  nameWithType: DialogManager.ForceConfirmationReturnText
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.ForceConfirmationReturnText
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string ForceConfirmationReturnText
+    return:
+      type: System.String
+    content.vb: Public Shared ForceConfirmationReturnText As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.ErrorReturnText
+  commentId: F:SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.ErrorReturnText
+  id: ErrorReturnText
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager
+  langs:
+  - csharp
+  - vb
+  name: ErrorReturnText
+  nameWithType: DialogManager.ErrorReturnText
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.ErrorReturnText
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string ErrorReturnText
+    return:
+      type: System.String
+    content.vb: Public Shared ErrorReturnText As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.GetIconString(SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.GetIconString(SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum)
+  id: GetIconString(SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager
+  langs:
+  - csharp
+  - vb
+  name: GetIconString(SoDialogBase.DialogTypeEnum)
+  nameWithType: DialogManager.GetIconString(SoDialogBase.DialogTypeEnum)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.GetIconString(SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string GetIconString(SoDialogBase.DialogTypeEnum dialogType)
+    parameters:
+    - id: dialogType
+      type: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetIconString(dialogType As SoDialogBase.DialogTypeEnum) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.GetIconString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.Information(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.Information(System.String,System.String,System.String)
+  id: Information(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager
+  langs:
+  - csharp
+  - vb
+  name: Information(String, String, String)
+  nameWithType: DialogManager.Information(String, String, String)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.Information(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string Information(string title, string text, string dialogType)
+    parameters:
+    - id: title
+      type: System.String
+    - id: text
+      type: System.String
+    - id: dialogType
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function Information(title As String, text As String, dialogType As String) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.Information*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.OpenNewActivityDialog(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.OpenNewActivityDialog(System.Int32)
+  id: OpenNewActivityDialog(System.Int32)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager
+  langs:
+  - csharp
+  - vb
+  name: OpenNewActivityDialog(Int32)
+  nameWithType: DialogManager.OpenNewActivityDialog(Int32)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.OpenNewActivityDialog(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string OpenNewActivityDialog(int type)
+    parameters:
+    - id: type
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function OpenNewActivityDialog(type As Integer) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.OpenNewActivityDialog*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager
+  langs:
+  - csharp
+  - vb
+  name: DialogManager()
+  nameWithType: DialogManager.DialogManager()
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.DialogManager()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public DialogManager()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.WarningIcon
+  commentId: P:SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.WarningIcon
+  id: WarningIcon
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager
+  langs:
+  - csharp
+  - vb
+  name: WarningIcon
+  nameWithType: DialogManager.WarningIcon
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.WarningIcon
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string WarningIcon { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property WarningIcon As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.WarningIcon*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.ErrorIcon
+  commentId: P:SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.ErrorIcon
+  id: ErrorIcon
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager
+  langs:
+  - csharp
+  - vb
+  name: ErrorIcon
+  nameWithType: DialogManager.ErrorIcon
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.ErrorIcon
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string ErrorIcon { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property ErrorIcon As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.ErrorIcon*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.QuestionIcon
+  commentId: P:SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.QuestionIcon
+  id: QuestionIcon
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager
+  langs:
+  - csharp
+  - vb
+  name: QuestionIcon
+  nameWithType: DialogManager.QuestionIcon
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.QuestionIcon
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string QuestionIcon { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property QuestionIcon As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.QuestionIcon*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects
+  commentId: N:SuperOffice.CRM.Web.UI.ScriptObjects
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.ScriptObjects
+  nameWithType: SuperOffice.CRM.Web.UI.ScriptObjects
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  commentId: T:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects
+  isExternal: true
+  name: ScriptObjectBase
+  nameWithType: ScriptObjectBase
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  isExternal: true
+  name: SoIdSelector(String)
+  nameWithType: ScriptObjectBase.SoIdSelector(String)
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+    name: SoIdSelector
+    nameWithType: ScriptObjectBase.SoIdSelector
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+    name: SoIdSelector
+    nameWithType: ScriptObjectBase.SoIdSelector
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  isExternal: true
+  name: CreateClickFunctionForSoId(String, String)
+  nameWithType: ScriptObjectBase.CreateClickFunctionForSoId(String, String)
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+    name: CreateClickFunctionForSoId
+    nameWithType: ScriptObjectBase.CreateClickFunctionForSoId
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+    name: CreateClickFunctionForSoId
+    nameWithType: ScriptObjectBase.CreateClickFunctionForSoId
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  isExternal: true
+  name: CreateHoverFunctionForSoId(String, String, String)
+  nameWithType: ScriptObjectBase.CreateHoverFunctionForSoId(String, String, String)
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+    name: CreateHoverFunctionForSoId
+    nameWithType: ScriptObjectBase.CreateHoverFunctionForSoId
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+    name: CreateHoverFunctionForSoId
+    nameWithType: ScriptObjectBase.CreateHoverFunctionForSoId
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects
+  commentId: N:SuperOffice.DCF.Web.UI.ScriptObjects
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.ScriptObjects
+  nameWithType: SuperOffice.DCF.Web.UI.ScriptObjects
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.GetIconString*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.GetIconString
+  isExternal: true
+  name: GetIconString
+  nameWithType: DialogManager.GetIconString
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.GetIconString
+- uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum
+  parent: SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: SoDialogBase.DialogTypeEnum
+  nameWithType: SoDialogBase.DialogTypeEnum
+  fullName: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum
+- uid: SuperOffice.DCF.Web.UI.Controls
+  commentId: N:SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Controls
+  nameWithType: SuperOffice.DCF.Web.UI.Controls
+  fullName: SuperOffice.DCF.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.Information*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.Information
+  isExternal: true
+  name: Information
+  nameWithType: DialogManager.Information
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.Information
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.OpenNewActivityDialog*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.OpenNewActivityDialog
+  isExternal: true
+  name: OpenNewActivityDialog
+  nameWithType: DialogManager.OpenNewActivityDialog
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.OpenNewActivityDialog
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.#ctor
+  isExternal: true
+  name: DialogManager
+  nameWithType: DialogManager.DialogManager
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.DialogManager
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.WarningIcon*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.WarningIcon
+  isExternal: true
+  name: WarningIcon
+  nameWithType: DialogManager.WarningIcon
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.WarningIcon
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.ErrorIcon*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.ErrorIcon
+  isExternal: true
+  name: ErrorIcon
+  nameWithType: DialogManager.ErrorIcon
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.ErrorIcon
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.QuestionIcon*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.QuestionIcon
+  isExternal: true
+  name: QuestionIcon
+  nameWithType: DialogManager.QuestionIcon
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager.QuestionIcon

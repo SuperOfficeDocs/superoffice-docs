@@ -1,0 +1,384 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.TypicalSearches
+  commentId: T:SuperOffice.CRM.Services.TypicalSearches
+  id: TypicalSearches
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.TypicalSearches.#ctor
+  - SuperOffice.CRM.Services.TypicalSearches.DeleteLeftovers
+  - SuperOffice.CRM.Services.TypicalSearches.MasterVersion
+  - SuperOffice.CRM.Services.TypicalSearches.Searches
+  - SuperOffice.CRM.Services.TypicalSearches.Source
+  - SuperOffice.CRM.Services.TypicalSearches.ToString
+  - SuperOffice.CRM.Services.TypicalSearches.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: TypicalSearches
+  nameWithType: TypicalSearches
+  fullName: SuperOffice.CRM.Services.TypicalSearches
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFull set of all TypicalSearch elements maintained by one source (including criteria)\n<p></p>\nCarrier object for TypicalSearches.\nServices for the TypicalSearches Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ISelectionAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class TypicalSearches : Carrier'
+    content.vb: >-
+      Public Class TypicalSearches
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.SelectionAgent
+    commentId: T:SuperOffice.CRM.Services.SelectionAgent
+  - linkId: SuperOffice.CRM.Services.ISelectionAgent
+    commentId: T:SuperOffice.CRM.Services.ISelectionAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.TypicalSearches.#ctor
+  commentId: M:SuperOffice.CRM.Services.TypicalSearches.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.TypicalSearches
+  langs:
+  - csharp
+  - vb
+  name: TypicalSearches()
+  nameWithType: TypicalSearches.TypicalSearches()
+  fullName: SuperOffice.CRM.Services.TypicalSearches.TypicalSearches()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public TypicalSearches()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.TypicalSearches.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TypicalSearches.ToString
+  commentId: M:SuperOffice.CRM.Services.TypicalSearches.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.TypicalSearches
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TypicalSearches.ToString()
+  fullName: SuperOffice.CRM.Services.TypicalSearches.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.TypicalSearches.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.TypicalSearches.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.TypicalSearches.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.TypicalSearches
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: TypicalSearches.ToString(String)
+  fullName: SuperOffice.CRM.Services.TypicalSearches.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.TypicalSearches.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TypicalSearches.Source
+  commentId: P:SuperOffice.CRM.Services.TypicalSearches.Source
+  id: Source
+  parent: SuperOffice.CRM.Services.TypicalSearches
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: TypicalSearches.Source
+  fullName: SuperOffice.CRM.Services.TypicalSearches.Source
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of organisation that sources and maintains this TypicalSearch. Allows for both SuperOffice and partners to maintain sets of typical searches without conflict \n"
+  syntax:
+    content: public virtual string Source { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Source As String
+  overload: SuperOffice.CRM.Services.TypicalSearches.Source*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TypicalSearches.MasterVersion
+  commentId: P:SuperOffice.CRM.Services.TypicalSearches.MasterVersion
+  id: MasterVersion
+  parent: SuperOffice.CRM.Services.TypicalSearches
+  langs:
+  - csharp
+  - vb
+  name: MasterVersion
+  nameWithType: TypicalSearches.MasterVersion
+  fullName: SuperOffice.CRM.Services.TypicalSearches.MasterVersion
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe master version number in this update, at least the highest of those in the searches, but can be higher to force an update (and delete of missing elements) \n"
+  syntax:
+    content: public virtual int MasterVersion { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property MasterVersion As Integer
+  overload: SuperOffice.CRM.Services.TypicalSearches.MasterVersion*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TypicalSearches.DeleteLeftovers
+  commentId: P:SuperOffice.CRM.Services.TypicalSearches.DeleteLeftovers
+  id: DeleteLeftovers
+  parent: SuperOffice.CRM.Services.TypicalSearches
+  langs:
+  - csharp
+  - vb
+  name: DeleteLeftovers
+  nameWithType: TypicalSearches.DeleteLeftovers
+  fullName: SuperOffice.CRM.Services.TypicalSearches.DeleteLeftovers
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIf true, then any TypicalSearch records in the database that are NOT referenced in this call, should be deleted \n"
+  syntax:
+    content: public virtual bool DeleteLeftovers { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property DeleteLeftovers As Boolean
+  overload: SuperOffice.CRM.Services.TypicalSearches.DeleteLeftovers*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TypicalSearches.Searches
+  commentId: P:SuperOffice.CRM.Services.TypicalSearches.Searches
+  id: Searches
+  parent: SuperOffice.CRM.Services.TypicalSearches
+  langs:
+  - csharp
+  - vb
+  name: Searches
+  nameWithType: TypicalSearches.Searches
+  fullName: SuperOffice.CRM.Services.TypicalSearches.Searches
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe TypicalSearch structures (including criteria) to import \n"
+  syntax:
+    content: public virtual TypicalSearch[] Searches { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.TypicalSearch[]
+    content.vb: Public Overridable Property Searches As TypicalSearch()
+  overload: SuperOffice.CRM.Services.TypicalSearches.Searches*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.SelectionAgent
+  commentId: T:SuperOffice.CRM.Services.SelectionAgent
+  isExternal: true
+  name: SelectionAgent
+  nameWithType: SelectionAgent
+  fullName: SuperOffice.CRM.Services.SelectionAgent
+- uid: SuperOffice.CRM.Services.ISelectionAgent
+  commentId: T:SuperOffice.CRM.Services.ISelectionAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ISelectionAgent
+  nameWithType: ISelectionAgent
+  fullName: SuperOffice.CRM.Services.ISelectionAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.TypicalSearches.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.TypicalSearches.#ctor
+  isExternal: true
+  name: TypicalSearches
+  nameWithType: TypicalSearches.TypicalSearches
+  fullName: SuperOffice.CRM.Services.TypicalSearches.TypicalSearches
+- uid: SuperOffice.CRM.Services.TypicalSearches.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.TypicalSearches.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: TypicalSearches.ToString
+  fullName: SuperOffice.CRM.Services.TypicalSearches.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.TypicalSearches.Source*
+  commentId: Overload:SuperOffice.CRM.Services.TypicalSearches.Source
+  isExternal: true
+  name: Source
+  nameWithType: TypicalSearches.Source
+  fullName: SuperOffice.CRM.Services.TypicalSearches.Source
+- uid: SuperOffice.CRM.Services.TypicalSearches.MasterVersion*
+  commentId: Overload:SuperOffice.CRM.Services.TypicalSearches.MasterVersion
+  isExternal: true
+  name: MasterVersion
+  nameWithType: TypicalSearches.MasterVersion
+  fullName: SuperOffice.CRM.Services.TypicalSearches.MasterVersion
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.TypicalSearches.DeleteLeftovers*
+  commentId: Overload:SuperOffice.CRM.Services.TypicalSearches.DeleteLeftovers
+  isExternal: true
+  name: DeleteLeftovers
+  nameWithType: TypicalSearches.DeleteLeftovers
+  fullName: SuperOffice.CRM.Services.TypicalSearches.DeleteLeftovers
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.TypicalSearches.Searches*
+  commentId: Overload:SuperOffice.CRM.Services.TypicalSearches.Searches
+  isExternal: true
+  name: Searches
+  nameWithType: TypicalSearches.Searches
+  fullName: SuperOffice.CRM.Services.TypicalSearches.Searches
+- uid: SuperOffice.CRM.Services.TypicalSearch[]
+  isExternal: true
+  name: TypicalSearch[]
+  nameWithType: TypicalSearch[]
+  fullName: SuperOffice.CRM.Services.TypicalSearch[]
+  nameWithType.vb: TypicalSearch()
+  fullName.vb: SuperOffice.CRM.Services.TypicalSearch()
+  name.vb: TypicalSearch()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.TypicalSearch
+    name: TypicalSearch
+    nameWithType: TypicalSearch
+    fullName: SuperOffice.CRM.Services.TypicalSearch
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.TypicalSearch
+    name: TypicalSearch
+    nameWithType: TypicalSearch
+    fullName: SuperOffice.CRM.Services.TypicalSearch
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

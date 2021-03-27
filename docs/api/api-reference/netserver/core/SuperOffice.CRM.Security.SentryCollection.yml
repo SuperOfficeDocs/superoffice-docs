@@ -1,0 +1,2048 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Security.SentryCollection
+  commentId: T:SuperOffice.CRM.Security.SentryCollection
+  id: SentryCollection
+  parent: SuperOffice.CRM.Security
+  children:
+  - SuperOffice.CRM.Security.SentryCollection.#ctor
+  - SuperOffice.CRM.Security.SentryCollection.Add(SuperOffice.CRM.Security.Sentry)
+  - SuperOffice.CRM.Security.SentryCollection.Add(SuperOffice.CRM.Security.SentryCollection)
+  - SuperOffice.CRM.Security.SentryCollection.AddLookup(SuperOffice.CRM.Security.ISoDataLookup)
+  - SuperOffice.CRM.Security.SentryCollection.BeginIgnoreSentryCheck
+  - SuperOffice.CRM.Security.SentryCollection.CanFieldDo(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.EFieldRight)
+  - SuperOffice.CRM.Security.SentryCollection.CanFieldDoAll(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.EFieldRight)
+  - SuperOffice.CRM.Security.SentryCollection.CanTableDo(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.ETableRight)
+  - SuperOffice.CRM.Security.SentryCollection.CanTableDoAll(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.ETableRight)
+  - SuperOffice.CRM.Security.SentryCollection.ClearRights
+  - SuperOffice.CRM.Security.SentryCollection.Count
+  - SuperOffice.CRM.Security.SentryCollection.EndIgnoreSentryCheck
+  - SuperOffice.CRM.Security.SentryCollection.FieldRight(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Security.SentryCollection.GetEnumerator
+  - SuperOffice.CRM.Security.SentryCollection.GetRowSentry
+  - SuperOffice.CRM.Security.SentryCollection.GetSentryCollectionForTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.CRM.Security.SentryCollection.GetSentryForTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.CRM.Security.SentryCollection.GetTableSentries(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.CRM.Security.SentryCollection.IsSentryIgnored
+  - SuperOffice.CRM.Security.SentryCollection.Item(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.CRM.Security.SentryCollection.Item(System.Int32)
+  - SuperOffice.CRM.Security.SentryCollection.Remove(SuperOffice.CRM.Security.Sentry)
+  - SuperOffice.CRM.Security.SentryCollection.RemoveLookup(SuperOffice.CRM.Security.ISoDataLookup)
+  - SuperOffice.CRM.Security.SentryCollection.System#ICloneable#Clone
+  - SuperOffice.CRM.Security.SentryCollection.TableRight(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.CRM.Security.SentryCollection.ToString
+  langs:
+  - csharp
+  - vb
+  name: SentryCollection
+  nameWithType: SentryCollection
+  fullName: SuperOffice.CRM.Security.SentryCollection
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCollects zero or more sentries together in an group. \nMakes it easy to perform aggregated queries across the collection.\n"
+  syntax:
+    content: 'public class SentryCollection : IEnumerable, ICloneable, ISentryIgnorable'
+    content.vb: >-
+      Public Class SentryCollection
+          Implements IEnumerable, ICloneable, ISentryIgnorable
+  inheritance:
+  - System.Object
+  implements:
+  - System.Collections.IEnumerable
+  - System.ICloneable
+  - SuperOffice.CRM.Security.ISentryIgnorable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Security.SentryCollection.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Security.SentryCollection.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.SentryCollection)
+  - SuperOffice.CRM.Security.SentryCollection.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Security.SentryCollection.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Security.SentryCollection.#ctor
+  commentId: M:SuperOffice.CRM.Security.SentryCollection.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Security.SentryCollection
+  langs:
+  - csharp
+  - vb
+  name: SentryCollection()
+  nameWithType: SentryCollection.SentryCollection()
+  fullName: SuperOffice.CRM.Security.SentryCollection.SentryCollection()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public SentryCollection()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Security.SentryCollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.SentryCollection.GetEnumerator
+  commentId: M:SuperOffice.CRM.Security.SentryCollection.GetEnumerator
+  id: GetEnumerator
+  parent: SuperOffice.CRM.Security.SentryCollection
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: SentryCollection.GetEnumerator()
+  fullName: SuperOffice.CRM.Security.SentryCollection.GetEnumerator()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nSee MSDN-documentation for IEnumerator.\n"
+  syntax:
+    content: public IEnumerator GetEnumerator()
+    return:
+      type: System.Collections.IEnumerator
+      description: a new enumerator
+    content.vb: Public Function GetEnumerator As IEnumerator
+  overload: SuperOffice.CRM.Security.SentryCollection.GetEnumerator*
+  implements:
+  - System.Collections.IEnumerable.GetEnumerator
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.SentryCollection.ClearRights
+  commentId: M:SuperOffice.CRM.Security.SentryCollection.ClearRights
+  id: ClearRights
+  parent: SuperOffice.CRM.Security.SentryCollection
+  langs:
+  - csharp
+  - vb
+  name: ClearRights()
+  nameWithType: SentryCollection.ClearRights()
+  fullName: SuperOffice.CRM.Security.SentryCollection.ClearRights()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nClear old data from the sentries, resetting the field-rights.\nForces a recomputation of the rights using the new row-data.\n"
+  syntax:
+    content: public void ClearRights()
+    content.vb: Public Sub ClearRights
+  overload: SuperOffice.CRM.Security.SentryCollection.ClearRights*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.SentryCollection.Add(SuperOffice.CRM.Security.Sentry)
+  commentId: M:SuperOffice.CRM.Security.SentryCollection.Add(SuperOffice.CRM.Security.Sentry)
+  id: Add(SuperOffice.CRM.Security.Sentry)
+  parent: SuperOffice.CRM.Security.SentryCollection
+  langs:
+  - csharp
+  - vb
+  name: Add(Sentry)
+  nameWithType: SentryCollection.Add(Sentry)
+  fullName: SuperOffice.CRM.Security.SentryCollection.Add(SuperOffice.CRM.Security.Sentry)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nAdds a sentry to the collection, ex. \n<pre><code>	SentryCollection sc = new SentryCollection;\n	sc.Add( new ContactSentry() );\n	sc.Add( new ProjectSentry() );\n	sc.Add( new ContactSentry() );  // will be ignored - can&apos;t add same sentry type twice</code></pre>\n"
+  syntax:
+    content: public void Add(Sentry sentry)
+    parameters:
+    - id: sentry
+      type: SuperOffice.CRM.Security.Sentry
+    content.vb: Public Sub Add(sentry As Sentry)
+  overload: SuperOffice.CRM.Security.SentryCollection.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.SentryCollection.Add(SuperOffice.CRM.Security.SentryCollection)
+  commentId: M:SuperOffice.CRM.Security.SentryCollection.Add(SuperOffice.CRM.Security.SentryCollection)
+  id: Add(SuperOffice.CRM.Security.SentryCollection)
+  parent: SuperOffice.CRM.Security.SentryCollection
+  langs:
+  - csharp
+  - vb
+  name: Add(SentryCollection)
+  nameWithType: SentryCollection.Add(SentryCollection)
+  fullName: SuperOffice.CRM.Security.SentryCollection.Add(SuperOffice.CRM.Security.SentryCollection)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nAdds all the sentries in the collection to the collection, ex. \n<pre><code>	SentryCollection sc1 = new SentryCollection;\n	SentryCollection sc2 = new SentryCollection;\n	sc1.Add( new ContactSentry() );\n	sc2.Add( new ProjectSentry() );\n	sc1.Add( sc2 );</code></pre>\n"
+  syntax:
+    content: public void Add(SentryCollection sentries)
+    parameters:
+    - id: sentries
+      type: SuperOffice.CRM.Security.SentryCollection
+    content.vb: Public Sub Add(sentries As SentryCollection)
+  overload: SuperOffice.CRM.Security.SentryCollection.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.SentryCollection.Remove(SuperOffice.CRM.Security.Sentry)
+  commentId: M:SuperOffice.CRM.Security.SentryCollection.Remove(SuperOffice.CRM.Security.Sentry)
+  id: Remove(SuperOffice.CRM.Security.Sentry)
+  parent: SuperOffice.CRM.Security.SentryCollection
+  langs:
+  - csharp
+  - vb
+  name: Remove(Sentry)
+  nameWithType: SentryCollection.Remove(Sentry)
+  fullName: SuperOffice.CRM.Security.SentryCollection.Remove(SuperOffice.CRM.Security.Sentry)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nRemove the sentries from the collection\n"
+  syntax:
+    content: public void Remove(Sentry sentry)
+    parameters:
+    - id: sentry
+      type: SuperOffice.CRM.Security.Sentry
+    content.vb: Public Sub Remove(sentry As Sentry)
+  overload: SuperOffice.CRM.Security.SentryCollection.Remove*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.SentryCollection.AddLookup(SuperOffice.CRM.Security.ISoDataLookup)
+  commentId: M:SuperOffice.CRM.Security.SentryCollection.AddLookup(SuperOffice.CRM.Security.ISoDataLookup)
+  id: AddLookup(SuperOffice.CRM.Security.ISoDataLookup)
+  parent: SuperOffice.CRM.Security.SentryCollection
+  langs:
+  - csharp
+  - vb
+  name: AddLookup(ISoDataLookup)
+  nameWithType: SentryCollection.AddLookup(ISoDataLookup)
+  fullName: SuperOffice.CRM.Security.SentryCollection.AddLookup(SuperOffice.CRM.Security.ISoDataLookup)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nAdd the lookup to all the sentries in the collection \n"
+  syntax:
+    content: public void AddLookup(ISoDataLookup lookup)
+    parameters:
+    - id: lookup
+      type: SuperOffice.CRM.Security.ISoDataLookup
+    content.vb: Public Sub AddLookup(lookup As ISoDataLookup)
+  overload: SuperOffice.CRM.Security.SentryCollection.AddLookup*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.SentryCollection.RemoveLookup(SuperOffice.CRM.Security.ISoDataLookup)
+  commentId: M:SuperOffice.CRM.Security.SentryCollection.RemoveLookup(SuperOffice.CRM.Security.ISoDataLookup)
+  id: RemoveLookup(SuperOffice.CRM.Security.ISoDataLookup)
+  parent: SuperOffice.CRM.Security.SentryCollection
+  langs:
+  - csharp
+  - vb
+  name: RemoveLookup(ISoDataLookup)
+  nameWithType: SentryCollection.RemoveLookup(ISoDataLookup)
+  fullName: SuperOffice.CRM.Security.SentryCollection.RemoveLookup(SuperOffice.CRM.Security.ISoDataLookup)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nRemove the lookup from all the sentries in the collection \n"
+  syntax:
+    content: public void RemoveLookup(ISoDataLookup lookup)
+    parameters:
+    - id: lookup
+      type: SuperOffice.CRM.Security.ISoDataLookup
+    content.vb: Public Sub RemoveLookup(lookup As ISoDataLookup)
+  overload: SuperOffice.CRM.Security.SentryCollection.RemoveLookup*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.SentryCollection.CanTableDo(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.ETableRight)
+  commentId: M:SuperOffice.CRM.Security.SentryCollection.CanTableDo(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.ETableRight)
+  id: CanTableDo(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.ETableRight)
+  parent: SuperOffice.CRM.Security.SentryCollection
+  langs:
+  - csharp
+  - vb
+  name: CanTableDo(TableInfo, ETableRight)
+  nameWithType: SentryCollection.CanTableDo(TableInfo, ETableRight)
+  fullName: SuperOffice.CRM.Security.SentryCollection.CanTableDo(SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.ETableRight)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nDetermine if the current user has at least one of the required access rights to the row this sentry is protecting. \nCall each sentry in turn to see if it covers this table, and if so, ask its opinion and \ncombine the results using the AND operation.\n"
+  example:
+  - "\nSentryCollection c = new SentryCollection();\nc.Add( new ContactSentry() );\nc.Add( new PersonSentry() );\nbool canModify = c.CanTableDo( ETableRight.Insert &amp; ETableRight.Update, false );\n"
+  syntax:
+    content: public virtual bool CanTableDo(TableInfo table, ETableRight rights)
+    parameters:
+    - id: table
+      type: SuperOffice.Data.SQL.TableInfo
+      description: the table we are interested in checking the rights to
+    - id: rights
+      type: SuperOffice.Data.ETableRight
+      description: 'one or more of the <xref href="SuperOffice.Data.ETableRight" data-throw-if-not-resolved="false"></xref> values combined as bitflags '
+    return:
+      type: System.Boolean
+      description: True if the user has at least one of the required access rights to the table.
+    content.vb: Public Overridable Function CanTableDo(table As TableInfo, rights As ETableRight) As Boolean
+  overload: SuperOffice.CRM.Security.SentryCollection.CanTableDo*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Security.SentryCollection.CanTableDoAll(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.ETableRight)
+  commentId: M:SuperOffice.CRM.Security.SentryCollection.CanTableDoAll(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.ETableRight)
+  id: CanTableDoAll(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.ETableRight)
+  parent: SuperOffice.CRM.Security.SentryCollection
+  langs:
+  - csharp
+  - vb
+  name: CanTableDoAll(TableInfo, ETableRight)
+  nameWithType: SentryCollection.CanTableDoAll(TableInfo, ETableRight)
+  fullName: SuperOffice.CRM.Security.SentryCollection.CanTableDoAll(SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.ETableRight)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nDetermine if the current user has all of the required access rights to the row this sentry is protecting. \nCall each sentry in turn to see if it covers this table, and if so, ask its opinion and \ncombine the results using the AND operation.\n"
+  example:
+  - "\nSentryCollection c = new SentryCollection();\nc.Add( new ContactSentry() );\nc.Add( new PersonSentry() );\nbool canModify = c.CanTableDoAll( ETableRight.Insert &amp; ETableRight.Update );\n"
+  syntax:
+    content: public virtual bool CanTableDoAll(TableInfo table, ETableRight rights)
+    parameters:
+    - id: table
+      type: SuperOffice.Data.SQL.TableInfo
+      description: the table we are interested in checking the rights to
+    - id: rights
+      type: SuperOffice.Data.ETableRight
+      description: 'one or more of the <xref href="SuperOffice.Data.ETableRight" data-throw-if-not-resolved="false"></xref> values combined as bitflags '
+    return:
+      type: System.Boolean
+      description: True if the user has all of the required access rights to the table.
+    content.vb: Public Overridable Function CanTableDoAll(table As TableInfo, rights As ETableRight) As Boolean
+  overload: SuperOffice.CRM.Security.SentryCollection.CanTableDoAll*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Security.SentryCollection.CanFieldDo(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.EFieldRight)
+  commentId: M:SuperOffice.CRM.Security.SentryCollection.CanFieldDo(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.EFieldRight)
+  id: CanFieldDo(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.EFieldRight)
+  parent: SuperOffice.CRM.Security.SentryCollection
+  langs:
+  - csharp
+  - vb
+  name: CanFieldDo(FieldInfo, EFieldRight)
+  nameWithType: SentryCollection.CanFieldDo(FieldInfo, EFieldRight)
+  fullName: SuperOffice.CRM.Security.SentryCollection.CanFieldDo(SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.EFieldRight)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nDetermine if the current user has at least one of the required access rights to a field \nbelonging to the row this collection of sentries is protecting.\n<p>\nChecks each sentry in the collection to see if they have an opinion on the matter.\n</p>\n"
+  syntax:
+    content: public virtual bool CanFieldDo(FieldInfo field, EFieldRight rights)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+      description: field we want to know about
+    - id: rights
+      type: SuperOffice.Data.EFieldRight
+      description: Rights we want to have to field
+    return:
+      type: System.Boolean
+      description: True if we have at least one of the rights to the field.
+    content.vb: Public Overridable Function CanFieldDo(field As FieldInfo, rights As EFieldRight) As Boolean
+  overload: SuperOffice.CRM.Security.SentryCollection.CanFieldDo*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Security.SentryCollection.CanFieldDoAll(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.EFieldRight)
+  commentId: M:SuperOffice.CRM.Security.SentryCollection.CanFieldDoAll(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.EFieldRight)
+  id: CanFieldDoAll(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.EFieldRight)
+  parent: SuperOffice.CRM.Security.SentryCollection
+  langs:
+  - csharp
+  - vb
+  name: CanFieldDoAll(FieldInfo, EFieldRight)
+  nameWithType: SentryCollection.CanFieldDoAll(FieldInfo, EFieldRight)
+  fullName: SuperOffice.CRM.Security.SentryCollection.CanFieldDoAll(SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.EFieldRight)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nDetermine if the current user has all of the required access rights to a field \nbelonging to the row this collection of sentries is protecting.\n<p>\nChecks each sentry in the collection to see if they have an opinion on the matter.\n</p>\n"
+  syntax:
+    content: public virtual bool CanFieldDoAll(FieldInfo field, EFieldRight rights)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+      description: field we want to know about
+    - id: rights
+      type: SuperOffice.Data.EFieldRight
+      description: Rights we want to have to field
+    return:
+      type: System.Boolean
+      description: True if we have all of the rights to the field.
+    content.vb: Public Overridable Function CanFieldDoAll(field As FieldInfo, rights As EFieldRight) As Boolean
+  overload: SuperOffice.CRM.Security.SentryCollection.CanFieldDoAll*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Security.SentryCollection.TableRight(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.CRM.Security.SentryCollection.TableRight(SuperOffice.Data.SQL.TableInfo)
+  id: TableRight(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.CRM.Security.SentryCollection
+  langs:
+  - csharp
+  - vb
+  name: TableRight(TableInfo)
+  nameWithType: SentryCollection.TableRight(TableInfo)
+  fullName: SuperOffice.CRM.Security.SentryCollection.TableRight(SuperOffice.Data.SQL.TableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns the tableright for the given table, based on combining the rights from all the sentries in the collection.\nThe most restrictive right is returned (the bitmasks are ANDed together).\n<p>\nThe table right contains the rights mask and a reason why some rights are restricted.\n</p>\n"
+  syntax:
+    content: public TableRight TableRight(TableInfo table)
+    parameters:
+    - id: table
+      type: SuperOffice.Data.SQL.TableInfo
+    return:
+      type: SuperOffice.CRM.Security.TableRight
+      description: Will return a new tableright with full rights if the table is not covered by this sentry.
+    content.vb: Public Function TableRight(table As TableInfo) As TableRight
+  overload: SuperOffice.CRM.Security.SentryCollection.TableRight*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.SentryCollection.GetTableSentries(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.CRM.Security.SentryCollection.GetTableSentries(SuperOffice.Data.SQL.TableInfo)
+  id: GetTableSentries(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.CRM.Security.SentryCollection
+  langs:
+  - csharp
+  - vb
+  name: GetTableSentries(TableInfo)
+  nameWithType: SentryCollection.GetTableSentries(TableInfo)
+  fullName: SuperOffice.CRM.Security.SentryCollection.GetTableSentries(SuperOffice.Data.SQL.TableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nGet all the sentries involved in the provided table. <strong>See remarks!</strong>\n"
+  remarks: "\nThe primary task is to a) find the sentry that covers <strong>this instance</strong>, i.e., this particular <xref href=\"SuperOffice.Data.SQL.TableInfo\" data-throw-if-not-resolved=\"false\"></xref> object.\nAs a fallback for historical reasons, if no such match can be found, we then b) go on to match on the <xref href=\"SuperOffice.Data.SQL.TableInfo.Definition\" data-throw-if-not-resolved=\"false\"></xref>,\nwhich ignores instances in the query and aliasing and just looks for the &apos;same&apos; table by number. <p></p>\nIf that also fails, c) a further search is made using the <xref href=\"SuperOffice.CRM.Security.Sentry.CanCoverTable(SuperOffice.Data.SQL.TableInfo)\" data-throw-if-not-resolved=\"false\"></xref> method, looking\nfor sentries that do not have this table as their primary, but still have opinions about the table. This is an important\nmechanism to cover dependent table (email dependent on person, for instance).<p></p>\nIn each case, multiple sentries can theoretically be present for a single table (don&apos;t think that happens in practice,\nbut the design allows for it). However, once case a, b or c yields at least one sentry, the search stops.\n"
+  syntax:
+    content: public IEnumerable<Sentry> GetTableSentries(TableInfo table)
+    parameters:
+    - id: table
+      type: SuperOffice.Data.SQL.TableInfo
+      description: Table to find sentries for.
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Security.Sentry}
+      description: Enumerator for sentries covering a given table.
+    content.vb: Public Function GetTableSentries(table As TableInfo) As IEnumerable(Of Sentry)
+  overload: SuperOffice.CRM.Security.SentryCollection.GetTableSentries*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.SentryCollection.FieldRight(SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Security.SentryCollection.FieldRight(SuperOffice.Data.SQL.FieldInfo)
+  id: FieldRight(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Security.SentryCollection
+  langs:
+  - csharp
+  - vb
+  name: FieldRight(FieldInfo)
+  nameWithType: SentryCollection.FieldRight(FieldInfo)
+  fullName: SuperOffice.CRM.Security.SentryCollection.FieldRight(SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns the fieldright for the given table.\n"
+  remarks: "\nAlways returns Update right (Read+Write) when IgnoreSentry is set.\n"
+  syntax:
+    content: public FieldRight FieldRight(FieldInfo field)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+      description: Field we want sentry information about
+    return:
+      type: SuperOffice.CRM.Security.FieldRight
+      description: Returns a new fieldright with full rights if the field is not covered by this sentry.
+    content.vb: Public Function FieldRight(field As FieldInfo) As FieldRight
+  overload: SuperOffice.CRM.Security.SentryCollection.FieldRight*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.SentryCollection.GetRowSentry
+  commentId: M:SuperOffice.CRM.Security.SentryCollection.GetRowSentry
+  id: GetRowSentry
+  parent: SuperOffice.CRM.Security.SentryCollection
+  langs:
+  - csharp
+  - vb
+  name: GetRowSentry()
+  nameWithType: SentryCollection.GetRowSentry()
+  fullName: SuperOffice.CRM.Security.SentryCollection.GetRowSentry()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nGet a copy of the sentries holding the same references to table and field info.\n"
+  syntax:
+    content: public SentryCollection GetRowSentry()
+    return:
+      type: SuperOffice.CRM.Security.SentryCollection
+      description: Copy of the sentry collection with new sentries holding the original table and field infos.
+    content.vb: Public Function GetRowSentry As SentryCollection
+  overload: SuperOffice.CRM.Security.SentryCollection.GetRowSentry*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.SentryCollection.GetSentryForTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.CRM.Security.SentryCollection.GetSentryForTable(SuperOffice.Data.SQL.TableInfo)
+  id: GetSentryForTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.CRM.Security.SentryCollection
+  langs:
+  - csharp
+  - vb
+  name: GetSentryForTable(TableInfo)
+  nameWithType: SentryCollection.GetSentryForTable(TableInfo)
+  fullName: SuperOffice.CRM.Security.SentryCollection.GetSentryForTable(SuperOffice.Data.SQL.TableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public Sentry GetSentryForTable(TableInfo tableInfo)
+    parameters:
+    - id: tableInfo
+      type: SuperOffice.Data.SQL.TableInfo
+    return:
+      type: SuperOffice.CRM.Security.Sentry
+    content.vb: Public Function GetSentryForTable(tableInfo As TableInfo) As Sentry
+  overload: SuperOffice.CRM.Security.SentryCollection.GetSentryForTable*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.SentryCollection.GetSentryCollectionForTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.CRM.Security.SentryCollection.GetSentryCollectionForTable(SuperOffice.Data.SQL.TableInfo)
+  id: GetSentryCollectionForTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.CRM.Security.SentryCollection
+  langs:
+  - csharp
+  - vb
+  name: GetSentryCollectionForTable(TableInfo)
+  nameWithType: SentryCollection.GetSentryCollectionForTable(TableInfo)
+  fullName: SuperOffice.CRM.Security.SentryCollection.GetSentryCollectionForTable(SuperOffice.Data.SQL.TableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public SentryCollection GetSentryCollectionForTable(TableInfo tableInfo)
+    parameters:
+    - id: tableInfo
+      type: SuperOffice.Data.SQL.TableInfo
+    return:
+      type: SuperOffice.CRM.Security.SentryCollection
+    content.vb: Public Function GetSentryCollectionForTable(tableInfo As TableInfo) As SentryCollection
+  overload: SuperOffice.CRM.Security.SentryCollection.GetSentryCollectionForTable*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.SentryCollection.System#ICloneable#Clone
+  commentId: M:SuperOffice.CRM.Security.SentryCollection.System#ICloneable#Clone
+  id: System#ICloneable#Clone
+  isEii: true
+  parent: SuperOffice.CRM.Security.SentryCollection
+  langs:
+  - csharp
+  - vb
+  name: ICloneable.Clone()
+  nameWithType: SentryCollection.ICloneable.Clone()
+  fullName: SuperOffice.CRM.Security.SentryCollection.System.ICloneable.Clone()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: object ICloneable.Clone()
+    return:
+      type: System.Object
+    content.vb: Function System.ICloneable.Clone As Object Implements ICloneable.Clone
+  overload: SuperOffice.CRM.Security.SentryCollection.System#ICloneable#Clone*
+  implements:
+  - System.ICloneable.Clone
+  nameWithType.vb: SentryCollection.System.ICloneable.Clone()
+  name.vb: System.ICloneable.Clone()
+- uid: SuperOffice.CRM.Security.SentryCollection.BeginIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Security.SentryCollection.BeginIgnoreSentryCheck
+  id: BeginIgnoreSentryCheck
+  parent: SuperOffice.CRM.Security.SentryCollection
+  langs:
+  - csharp
+  - vb
+  name: BeginIgnoreSentryCheck()
+  nameWithType: SentryCollection.BeginIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Security.SentryCollection.BeginIgnoreSentryCheck()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public IgnoreSentryCheck BeginIgnoreSentryCheck()
+    return:
+      type: SuperOffice.CRM.Security.IgnoreSentryCheck
+    content.vb: Public Function BeginIgnoreSentryCheck As IgnoreSentryCheck
+  overload: SuperOffice.CRM.Security.SentryCollection.BeginIgnoreSentryCheck*
+  implements:
+  - SuperOffice.CRM.Security.ISentryIgnorable.BeginIgnoreSentryCheck
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.SentryCollection.EndIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Security.SentryCollection.EndIgnoreSentryCheck
+  id: EndIgnoreSentryCheck
+  parent: SuperOffice.CRM.Security.SentryCollection
+  langs:
+  - csharp
+  - vb
+  name: EndIgnoreSentryCheck()
+  nameWithType: SentryCollection.EndIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Security.SentryCollection.EndIgnoreSentryCheck()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public void EndIgnoreSentryCheck()
+    content.vb: Public Sub
+  overload: SuperOffice.CRM.Security.SentryCollection.EndIgnoreSentryCheck*
+  implements:
+  - SuperOffice.CRM.Security.ISentryIgnorable.EndIgnoreSentryCheck
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.SentryCollection.ToString
+  commentId: M:SuperOffice.CRM.Security.SentryCollection.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Security.SentryCollection
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SentryCollection.ToString()
+  fullName: SuperOffice.CRM.Security.SentryCollection.ToString()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.Security.SentryCollection.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Security.SentryCollection.Item(System.Int32)
+  commentId: P:SuperOffice.CRM.Security.SentryCollection.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: SuperOffice.CRM.Security.SentryCollection
+  langs:
+  - csharp
+  - vb
+  name: Item[Int32]
+  nameWithType: SentryCollection.Item[Int32]
+  fullName: SuperOffice.CRM.Security.SentryCollection.Item[System.Int32]
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns the correct Sentry-object based on the index (0-based). \n"
+  syntax:
+    content: public Sentry this[int pos] { get; set; }
+    parameters:
+    - id: pos
+      type: System.Int32
+      description: index of the sentry int he collection.
+    return:
+      type: SuperOffice.CRM.Security.Sentry
+      description: Sentry at this index.
+    content.vb: Public Property Item(pos As Integer) As Sentry
+  overload: SuperOffice.CRM.Security.SentryCollection.Item*
+  nameWithType.vb: SentryCollection.Item(Int32)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Security.SentryCollection.Item(System.Int32)
+  name.vb: Item(Int32)
+- uid: SuperOffice.CRM.Security.SentryCollection.Item(SuperOffice.Data.SQL.TableInfo)
+  commentId: P:SuperOffice.CRM.Security.SentryCollection.Item(SuperOffice.Data.SQL.TableInfo)
+  id: Item(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.CRM.Security.SentryCollection
+  langs:
+  - csharp
+  - vb
+  name: Item[TableInfo]
+  nameWithType: SentryCollection.Item[TableInfo]
+  fullName: SuperOffice.CRM.Security.SentryCollection.Item[SuperOffice.Data.SQL.TableInfo]
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nGet Sentry from a TableInfo.\n"
+  syntax:
+    content: public Sentry this[TableInfo tableInfo] { get; }
+    parameters:
+    - id: tableInfo
+      type: SuperOffice.Data.SQL.TableInfo
+    return:
+      type: SuperOffice.CRM.Security.Sentry
+      description: Sentry for this TableInfo.  If this sentry does not exist, null is returned.
+    content.vb: Public ReadOnly Property Item(tableInfo As TableInfo) As Sentry
+  overload: SuperOffice.CRM.Security.SentryCollection.Item*
+  nameWithType.vb: SentryCollection.Item(TableInfo)
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.CRM.Security.SentryCollection.Item(SuperOffice.Data.SQL.TableInfo)
+  name.vb: Item(TableInfo)
+- uid: SuperOffice.CRM.Security.SentryCollection.Count
+  commentId: P:SuperOffice.CRM.Security.SentryCollection.Count
+  id: Count
+  parent: SuperOffice.CRM.Security.SentryCollection
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: SentryCollection.Count
+  fullName: SuperOffice.CRM.Security.SentryCollection.Count
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns the number of sentries in the collection.\n"
+  syntax:
+    content: public int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Count As Integer
+  overload: SuperOffice.CRM.Security.SentryCollection.Count*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.SentryCollection.IsSentryIgnored
+  commentId: P:SuperOffice.CRM.Security.SentryCollection.IsSentryIgnored
+  id: IsSentryIgnored
+  parent: SuperOffice.CRM.Security.SentryCollection
+  langs:
+  - csharp
+  - vb
+  name: IsSentryIgnored
+  nameWithType: SentryCollection.IsSentryIgnored
+  fullName: SuperOffice.CRM.Security.SentryCollection.IsSentryIgnored
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public bool IsSentryIgnored { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsSentryIgnored As Boolean
+  overload: SuperOffice.CRM.Security.SentryCollection.IsSentryIgnored*
+  implements:
+  - SuperOffice.CRM.Security.ISentryIgnorable.IsSentryIgnored
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Security
+  commentId: N:SuperOffice.CRM.Security
+  isExternal: true
+  name: SuperOffice.CRM.Security
+  nameWithType: SuperOffice.CRM.Security
+  fullName: SuperOffice.CRM.Security
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: SuperOffice.CRM.Security.ISentryIgnorable
+  commentId: T:SuperOffice.CRM.Security.ISentryIgnorable
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: ISentryIgnorable
+  nameWithType: ISentryIgnorable
+  fullName: SuperOffice.CRM.Security.ISentryIgnorable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryCollection.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SentryCollection, To>()
+  nameWithType: EnumUtil.MapEnums<SentryCollection, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.SentryCollection, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SentryCollection, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.SentryCollection, To)()
+  name.vb: MapEnums(Of SentryCollection, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SentryCollection, To>
+    nameWithType: EnumUtil.MapEnums<SentryCollection, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.SentryCollection, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SentryCollection, To)
+    nameWithType: EnumUtil.MapEnums(Of SentryCollection, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.SentryCollection, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryCollection.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.SentryCollection)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SentryCollection>(SentryCollection)
+  nameWithType: ObjectExtensions.AssignByReflection<SentryCollection>(SentryCollection)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Security.SentryCollection>(SuperOffice.CRM.Security.SentryCollection)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SentryCollection)(SentryCollection)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Security.SentryCollection)(SuperOffice.CRM.Security.SentryCollection)
+  name.vb: AssignByReflection(Of SentryCollection)(SentryCollection)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SentryCollection>
+    nameWithType: ObjectExtensions.AssignByReflection<SentryCollection>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Security.SentryCollection>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Security.SentryCollection
+    name: SentryCollection
+    nameWithType: SentryCollection
+    fullName: SuperOffice.CRM.Security.SentryCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SentryCollection)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SentryCollection)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Security.SentryCollection)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Security.SentryCollection
+    name: SentryCollection
+    nameWithType: SentryCollection
+    fullName: SuperOffice.CRM.Security.SentryCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryCollection.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SentryCollection>()
+  nameWithType: ObjectExtensions.GraphCopy<SentryCollection>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Security.SentryCollection>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SentryCollection)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Security.SentryCollection)()
+  name.vb: GraphCopy(Of SentryCollection)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SentryCollection>
+    nameWithType: ObjectExtensions.GraphCopy<SentryCollection>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Security.SentryCollection>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SentryCollection)
+    nameWithType: ObjectExtensions.GraphCopy(Of SentryCollection)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Security.SentryCollection)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryCollection.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SentryCollection, To>()
+  nameWithType: Converters.MapEnums<SentryCollection, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.SentryCollection, To>()
+  nameWithType.vb: Converters.MapEnums(Of SentryCollection, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.SentryCollection, To)()
+  name.vb: MapEnums(Of SentryCollection, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SentryCollection, To>
+    nameWithType: Converters.MapEnums<SentryCollection, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.SentryCollection, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SentryCollection, To)
+    nameWithType: Converters.MapEnums(Of SentryCollection, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.SentryCollection, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Security.SentryCollection.#ctor*
+  commentId: Overload:SuperOffice.CRM.Security.SentryCollection.#ctor
+  isExternal: true
+  name: SentryCollection
+  nameWithType: SentryCollection.SentryCollection
+  fullName: SuperOffice.CRM.Security.SentryCollection.SentryCollection
+- uid: SuperOffice.CRM.Security.SentryCollection.GetEnumerator*
+  commentId: Overload:SuperOffice.CRM.Security.SentryCollection.GetEnumerator
+  isExternal: true
+  name: GetEnumerator
+  nameWithType: SentryCollection.GetEnumerator
+  fullName: SuperOffice.CRM.Security.SentryCollection.GetEnumerator
+- uid: System.Collections.IEnumerable.GetEnumerator
+  commentId: M:System.Collections.IEnumerable.GetEnumerator
+  parent: System.Collections.IEnumerable
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: IEnumerable.GetEnumerator()
+  fullName: System.Collections.IEnumerable.GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.IEnumerable.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable.GetEnumerator
+    fullName: System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IEnumerable.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable.GetEnumerator
+    fullName: System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: SuperOffice.CRM.Security.SentryCollection.ClearRights*
+  commentId: Overload:SuperOffice.CRM.Security.SentryCollection.ClearRights
+  isExternal: true
+  name: ClearRights
+  nameWithType: SentryCollection.ClearRights
+  fullName: SuperOffice.CRM.Security.SentryCollection.ClearRights
+- uid: SuperOffice.CRM.Security.SentryCollection.Add*
+  commentId: Overload:SuperOffice.CRM.Security.SentryCollection.Add
+  isExternal: true
+  name: Add
+  nameWithType: SentryCollection.Add
+  fullName: SuperOffice.CRM.Security.SentryCollection.Add
+- uid: SuperOffice.CRM.Security.Sentry
+  commentId: T:SuperOffice.CRM.Security.Sentry
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: Sentry
+  nameWithType: Sentry
+  fullName: SuperOffice.CRM.Security.Sentry
+- uid: SuperOffice.CRM.Security.SentryCollection
+  commentId: T:SuperOffice.CRM.Security.SentryCollection
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: SentryCollection
+  nameWithType: SentryCollection
+  fullName: SuperOffice.CRM.Security.SentryCollection
+- uid: SuperOffice.CRM.Security.SentryCollection.Remove*
+  commentId: Overload:SuperOffice.CRM.Security.SentryCollection.Remove
+  isExternal: true
+  name: Remove
+  nameWithType: SentryCollection.Remove
+  fullName: SuperOffice.CRM.Security.SentryCollection.Remove
+- uid: SuperOffice.CRM.Security.SentryCollection.AddLookup*
+  commentId: Overload:SuperOffice.CRM.Security.SentryCollection.AddLookup
+  isExternal: true
+  name: AddLookup
+  nameWithType: SentryCollection.AddLookup
+  fullName: SuperOffice.CRM.Security.SentryCollection.AddLookup
+- uid: SuperOffice.CRM.Security.ISoDataLookup
+  commentId: T:SuperOffice.CRM.Security.ISoDataLookup
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: ISoDataLookup
+  nameWithType: ISoDataLookup
+  fullName: SuperOffice.CRM.Security.ISoDataLookup
+- uid: SuperOffice.CRM.Security.SentryCollection.RemoveLookup*
+  commentId: Overload:SuperOffice.CRM.Security.SentryCollection.RemoveLookup
+  isExternal: true
+  name: RemoveLookup
+  nameWithType: SentryCollection.RemoveLookup
+  fullName: SuperOffice.CRM.Security.SentryCollection.RemoveLookup
+- uid: SuperOffice.CRM.Security.SentryCollection.CanTableDo*
+  commentId: Overload:SuperOffice.CRM.Security.SentryCollection.CanTableDo
+  isExternal: true
+  name: CanTableDo
+  nameWithType: SentryCollection.CanTableDo
+  fullName: SuperOffice.CRM.Security.SentryCollection.CanTableDo
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: SuperOffice.Data.ETableRight
+  commentId: T:SuperOffice.Data.ETableRight
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ETableRight
+  nameWithType: ETableRight
+  fullName: SuperOffice.Data.ETableRight
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Security.SentryCollection.CanTableDoAll*
+  commentId: Overload:SuperOffice.CRM.Security.SentryCollection.CanTableDoAll
+  isExternal: true
+  name: CanTableDoAll
+  nameWithType: SentryCollection.CanTableDoAll
+  fullName: SuperOffice.CRM.Security.SentryCollection.CanTableDoAll
+- uid: SuperOffice.CRM.Security.SentryCollection.CanFieldDo*
+  commentId: Overload:SuperOffice.CRM.Security.SentryCollection.CanFieldDo
+  isExternal: true
+  name: CanFieldDo
+  nameWithType: SentryCollection.CanFieldDo
+  fullName: SuperOffice.CRM.Security.SentryCollection.CanFieldDo
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: SuperOffice.Data.EFieldRight
+  commentId: T:SuperOffice.Data.EFieldRight
+  parent: SuperOffice.Data
+  isExternal: true
+  name: EFieldRight
+  nameWithType: EFieldRight
+  fullName: SuperOffice.Data.EFieldRight
+- uid: SuperOffice.CRM.Security.SentryCollection.CanFieldDoAll*
+  commentId: Overload:SuperOffice.CRM.Security.SentryCollection.CanFieldDoAll
+  isExternal: true
+  name: CanFieldDoAll
+  nameWithType: SentryCollection.CanFieldDoAll
+  fullName: SuperOffice.CRM.Security.SentryCollection.CanFieldDoAll
+- uid: SuperOffice.CRM.Security.SentryCollection.TableRight*
+  commentId: Overload:SuperOffice.CRM.Security.SentryCollection.TableRight
+  isExternal: true
+  name: TableRight
+  nameWithType: SentryCollection.TableRight
+  fullName: SuperOffice.CRM.Security.SentryCollection.TableRight
+- uid: SuperOffice.CRM.Security.TableRight
+  commentId: T:SuperOffice.CRM.Security.TableRight
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: TableRight
+  nameWithType: TableRight
+  fullName: SuperOffice.CRM.Security.TableRight
+- uid: SuperOffice.CRM.Security.SentryCollection.GetTableSentries*
+  commentId: Overload:SuperOffice.CRM.Security.SentryCollection.GetTableSentries
+  isExternal: true
+  name: GetTableSentries
+  nameWithType: SentryCollection.GetTableSentries
+  fullName: SuperOffice.CRM.Security.SentryCollection.GetTableSentries
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Security.Sentry}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Security.Sentry}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Sentry>
+  nameWithType: IEnumerable<Sentry>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Security.Sentry>
+  nameWithType.vb: IEnumerable(Of Sentry)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Security.Sentry)
+  name.vb: IEnumerable(Of Sentry)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Security.Sentry
+    name: Sentry
+    nameWithType: Sentry
+    fullName: SuperOffice.CRM.Security.Sentry
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Security.Sentry
+    name: Sentry
+    nameWithType: Sentry
+    fullName: SuperOffice.CRM.Security.Sentry
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Security.SentryCollection.FieldRight*
+  commentId: Overload:SuperOffice.CRM.Security.SentryCollection.FieldRight
+  isExternal: true
+  name: FieldRight
+  nameWithType: SentryCollection.FieldRight
+  fullName: SuperOffice.CRM.Security.SentryCollection.FieldRight
+- uid: SuperOffice.CRM.Security.FieldRight
+  commentId: T:SuperOffice.CRM.Security.FieldRight
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: FieldRight
+  nameWithType: FieldRight
+  fullName: SuperOffice.CRM.Security.FieldRight
+- uid: SuperOffice.CRM.Security.SentryCollection.GetRowSentry*
+  commentId: Overload:SuperOffice.CRM.Security.SentryCollection.GetRowSentry
+  isExternal: true
+  name: GetRowSentry
+  nameWithType: SentryCollection.GetRowSentry
+  fullName: SuperOffice.CRM.Security.SentryCollection.GetRowSentry
+- uid: SuperOffice.CRM.Security.SentryCollection.GetSentryForTable*
+  commentId: Overload:SuperOffice.CRM.Security.SentryCollection.GetSentryForTable
+  isExternal: true
+  name: GetSentryForTable
+  nameWithType: SentryCollection.GetSentryForTable
+  fullName: SuperOffice.CRM.Security.SentryCollection.GetSentryForTable
+- uid: SuperOffice.CRM.Security.SentryCollection.GetSentryCollectionForTable*
+  commentId: Overload:SuperOffice.CRM.Security.SentryCollection.GetSentryCollectionForTable
+  isExternal: true
+  name: GetSentryCollectionForTable
+  nameWithType: SentryCollection.GetSentryCollectionForTable
+  fullName: SuperOffice.CRM.Security.SentryCollection.GetSentryCollectionForTable
+- uid: SuperOffice.CRM.Security.SentryCollection.System#ICloneable#Clone*
+  commentId: Overload:SuperOffice.CRM.Security.SentryCollection.System#ICloneable#Clone
+  isExternal: true
+  name: ICloneable.Clone
+  nameWithType: SentryCollection.ICloneable.Clone
+  fullName: SuperOffice.CRM.Security.SentryCollection.System.ICloneable.Clone
+  nameWithType.vb: SentryCollection.System.ICloneable.Clone
+  name.vb: System.ICloneable.Clone
+- uid: System.ICloneable.Clone
+  commentId: M:System.ICloneable.Clone
+  parent: System.ICloneable
+  isExternal: true
+  name: Clone()
+  nameWithType: ICloneable.Clone()
+  fullName: System.ICloneable.Clone()
+  spec.csharp:
+  - uid: System.ICloneable.Clone
+    name: Clone
+    nameWithType: ICloneable.Clone
+    fullName: System.ICloneable.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ICloneable.Clone
+    name: Clone
+    nameWithType: ICloneable.Clone
+    fullName: System.ICloneable.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryCollection.BeginIgnoreSentryCheck*
+  commentId: Overload:SuperOffice.CRM.Security.SentryCollection.BeginIgnoreSentryCheck
+  isExternal: true
+  name: BeginIgnoreSentryCheck
+  nameWithType: SentryCollection.BeginIgnoreSentryCheck
+  fullName: SuperOffice.CRM.Security.SentryCollection.BeginIgnoreSentryCheck
+- uid: SuperOffice.CRM.Security.ISentryIgnorable.BeginIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Security.ISentryIgnorable.BeginIgnoreSentryCheck
+  parent: SuperOffice.CRM.Security.ISentryIgnorable
+  isExternal: true
+  name: BeginIgnoreSentryCheck()
+  nameWithType: ISentryIgnorable.BeginIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Security.ISentryIgnorable.BeginIgnoreSentryCheck()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.ISentryIgnorable.BeginIgnoreSentryCheck
+    name: BeginIgnoreSentryCheck
+    nameWithType: ISentryIgnorable.BeginIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Security.ISentryIgnorable.BeginIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.ISentryIgnorable.BeginIgnoreSentryCheck
+    name: BeginIgnoreSentryCheck
+    nameWithType: ISentryIgnorable.BeginIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Security.ISentryIgnorable.BeginIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.IgnoreSentryCheck
+  commentId: T:SuperOffice.CRM.Security.IgnoreSentryCheck
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: IgnoreSentryCheck
+  nameWithType: IgnoreSentryCheck
+  fullName: SuperOffice.CRM.Security.IgnoreSentryCheck
+- uid: SuperOffice.CRM.Security.SentryCollection.EndIgnoreSentryCheck*
+  commentId: Overload:SuperOffice.CRM.Security.SentryCollection.EndIgnoreSentryCheck
+  isExternal: true
+  name: EndIgnoreSentryCheck
+  nameWithType: SentryCollection.EndIgnoreSentryCheck
+  fullName: SuperOffice.CRM.Security.SentryCollection.EndIgnoreSentryCheck
+- uid: SuperOffice.CRM.Security.ISentryIgnorable.EndIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Security.ISentryIgnorable.EndIgnoreSentryCheck
+  parent: SuperOffice.CRM.Security.ISentryIgnorable
+  isExternal: true
+  name: EndIgnoreSentryCheck()
+  nameWithType: ISentryIgnorable.EndIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Security.ISentryIgnorable.EndIgnoreSentryCheck()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.ISentryIgnorable.EndIgnoreSentryCheck
+    name: EndIgnoreSentryCheck
+    nameWithType: ISentryIgnorable.EndIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Security.ISentryIgnorable.EndIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.ISentryIgnorable.EndIgnoreSentryCheck
+    name: EndIgnoreSentryCheck
+    nameWithType: ISentryIgnorable.EndIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Security.ISentryIgnorable.EndIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryCollection.ToString*
+  commentId: Overload:SuperOffice.CRM.Security.SentryCollection.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: SentryCollection.ToString
+  fullName: SuperOffice.CRM.Security.SentryCollection.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Security.SentryCollection.Item*
+  commentId: Overload:SuperOffice.CRM.Security.SentryCollection.Item
+  isExternal: true
+  name: Item
+  nameWithType: SentryCollection.Item
+  fullName: SuperOffice.CRM.Security.SentryCollection.Item
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Security.SentryCollection.Count*
+  commentId: Overload:SuperOffice.CRM.Security.SentryCollection.Count
+  isExternal: true
+  name: Count
+  nameWithType: SentryCollection.Count
+  fullName: SuperOffice.CRM.Security.SentryCollection.Count
+- uid: SuperOffice.CRM.Security.SentryCollection.IsSentryIgnored*
+  commentId: Overload:SuperOffice.CRM.Security.SentryCollection.IsSentryIgnored
+  isExternal: true
+  name: IsSentryIgnored
+  nameWithType: SentryCollection.IsSentryIgnored
+  fullName: SuperOffice.CRM.Security.SentryCollection.IsSentryIgnored
+- uid: SuperOffice.CRM.Security.ISentryIgnorable.IsSentryIgnored
+  commentId: P:SuperOffice.CRM.Security.ISentryIgnorable.IsSentryIgnored
+  parent: SuperOffice.CRM.Security.ISentryIgnorable
+  isExternal: true
+  name: IsSentryIgnored
+  nameWithType: ISentryIgnorable.IsSentryIgnored
+  fullName: SuperOffice.CRM.Security.ISentryIgnorable.IsSentryIgnored

@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_GetEMailRequest
+  id: EMail_GetEMailRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_GetEMailRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_GetEMailRequest.Id
+  - SuperOffice.WebApi.Data.EMail_GetEMailRequest.IncludeAttachments
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetEMailRequest
+  nameWithType: EMail_GetEMailRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_GetEMailRequest : Object'
+    content.vb: >-
+      Public Class EMail_GetEMailRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_GetEMailRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_GetEMailRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetEMailRequest()
+  nameWithType: EMail_GetEMailRequest.EMail_GetEMailRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailRequest.EMail_GetEMailRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_GetEMailRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_GetEMailRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailRequest.Id
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetEMailRequest.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.EMail_GetEMailRequest
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: EMail_GetEMailRequest.Id
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailRequest.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: SuperOffice.WebApi.Data.EMail_GetEMailRequest.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailRequest.IncludeAttachments
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetEMailRequest.IncludeAttachments
+  id: IncludeAttachments
+  parent: SuperOffice.WebApi.Data.EMail_GetEMailRequest
+  langs:
+  - csharp
+  - vb
+  name: IncludeAttachments
+  nameWithType: EMail_GetEMailRequest.IncludeAttachments
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailRequest.IncludeAttachments
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool IncludeAttachments { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeAttachments As Boolean
+  overload: SuperOffice.WebApi.Data.EMail_GetEMailRequest.IncludeAttachments*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetEMailRequest.#ctor
+  isExternal: true
+  name: EMail_GetEMailRequest
+  nameWithType: EMail_GetEMailRequest.EMail_GetEMailRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailRequest.EMail_GetEMailRequest
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailRequest.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetEMailRequest.Id
+  isExternal: true
+  name: Id
+  nameWithType: EMail_GetEMailRequest.Id
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailRequest.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailRequest.IncludeAttachments*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetEMailRequest.IncludeAttachments
+  isExternal: true
+  name: IncludeAttachments
+  nameWithType: EMail_GetEMailRequest.IncludeAttachments
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailRequest.IncludeAttachments
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

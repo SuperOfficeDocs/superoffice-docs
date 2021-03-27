@@ -1,0 +1,1067 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.PluginResponseInfo
+  commentId: T:SuperOffice.CRM.PluginResponseInfo
+  id: PluginResponseInfo
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.PluginResponseInfo.#ctor
+  - SuperOffice.CRM.PluginResponseInfo.ErrorCode
+  - SuperOffice.CRM.PluginResponseInfo.IsOk
+  - SuperOffice.CRM.PluginResponseInfo.Merge(SuperOffice.CRM.PluginResponseInfo)
+  - SuperOffice.CRM.PluginResponseInfo.SetErrorAndUserExplanation(System.String,System.String)
+  - SuperOffice.CRM.PluginResponseInfo.State
+  - SuperOffice.CRM.PluginResponseInfo.TechExplanation
+  - SuperOffice.CRM.PluginResponseInfo.ToString
+  - SuperOffice.CRM.PluginResponseInfo.UserExplanation
+  langs:
+  - csharp
+  - vb
+  name: PluginResponseInfo
+  nameWithType: PluginResponseInfo
+  fullName: SuperOffice.CRM.PluginResponseInfo
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nResponse object used by plugin/connector actions, to tell the caller how well the call went.\n"
+  syntax:
+    content: public class PluginResponseInfo
+    content.vb: Public Class PluginResponseInfo
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.CRM.ActorArrayPluginResponse
+  - SuperOffice.CRM.ActorPluginResponse
+  - SuperOffice.CRM.FieldMetadataInfoArrayPluginResponse
+  - SuperOffice.CRM.ListItemArrayPluginResponse
+  - SuperOffice.CRM.OrderResponseInfo
+  - SuperOffice.CRM.QuoteAlternativeResponseInfo
+  - SuperOffice.CRM.QuoteVersionValidatedInfo
+  - SuperOffice.CRM.Sale.PluginResponseInfoWithChanges
+  - SuperOffice.CRM.StringArrayPluginResponse
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.PluginResponseInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.PluginResponseInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.PluginResponseInfo)
+  - SuperOffice.CRM.PluginResponseInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.PluginResponseInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.PluginResponseInfo.#ctor
+  commentId: M:SuperOffice.CRM.PluginResponseInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.PluginResponseInfo
+  langs:
+  - csharp
+  - vb
+  name: PluginResponseInfo()
+  nameWithType: PluginResponseInfo.PluginResponseInfo()
+  fullName: SuperOffice.CRM.PluginResponseInfo.PluginResponseInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nDefault constructor, creates an Ok response\n"
+  syntax:
+    content: public PluginResponseInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.PluginResponseInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.PluginResponseInfo.ToString
+  commentId: M:SuperOffice.CRM.PluginResponseInfo.ToString
+  id: ToString
+  parent: SuperOffice.CRM.PluginResponseInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: PluginResponseInfo.ToString()
+  fullName: SuperOffice.CRM.PluginResponseInfo.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nToString override. Returns a readable PluginResponseInfo representation\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.PluginResponseInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.PluginResponseInfo.Merge(SuperOffice.CRM.PluginResponseInfo)
+  commentId: M:SuperOffice.CRM.PluginResponseInfo.Merge(SuperOffice.CRM.PluginResponseInfo)
+  id: Merge(SuperOffice.CRM.PluginResponseInfo)
+  parent: SuperOffice.CRM.PluginResponseInfo
+  langs:
+  - csharp
+  - vb
+  name: Merge(PluginResponseInfo)
+  nameWithType: PluginResponseInfo.Merge(PluginResponseInfo)
+  fullName: SuperOffice.CRM.PluginResponseInfo.Merge(SuperOffice.CRM.PluginResponseInfo)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nConcatenates two response object into one. If one is ok and the other not, then the &apos;not&apos; wins.\nThe text is concatenated with lineends.\n"
+  syntax:
+    content: public virtual PluginResponseInfo Merge(PluginResponseInfo rhs)
+    parameters:
+    - id: rhs
+      type: SuperOffice.CRM.PluginResponseInfo
+      description: The object to merge into this.
+    return:
+      type: SuperOffice.CRM.PluginResponseInfo
+    content.vb: Public Overridable Function Merge(rhs As PluginResponseInfo) As PluginResponseInfo
+  overload: SuperOffice.CRM.PluginResponseInfo.Merge*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.PluginResponseInfo.SetErrorAndUserExplanation(System.String,System.String)
+  commentId: M:SuperOffice.CRM.PluginResponseInfo.SetErrorAndUserExplanation(System.String,System.String)
+  id: SetErrorAndUserExplanation(System.String,System.String)
+  parent: SuperOffice.CRM.PluginResponseInfo
+  langs:
+  - csharp
+  - vb
+  name: SetErrorAndUserExplanation(String, String)
+  nameWithType: PluginResponseInfo.SetErrorAndUserExplanation(String, String)
+  fullName: SuperOffice.CRM.PluginResponseInfo.SetErrorAndUserExplanation(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nSets the IsOk to false and the user exp to the expl argument\n"
+  syntax:
+    content: public void SetErrorAndUserExplanation(string expl, string tech = "")
+    parameters:
+    - id: expl
+      type: System.String
+    - id: tech
+      type: System.String
+    content.vb: Public Sub SetErrorAndUserExplanation(expl As String, tech As String = "")
+  overload: SuperOffice.CRM.PluginResponseInfo.SetErrorAndUserExplanation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.PluginResponseInfo.State
+  commentId: P:SuperOffice.CRM.PluginResponseInfo.State
+  id: State
+  parent: SuperOffice.CRM.PluginResponseInfo
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: PluginResponseInfo.State
+  fullName: SuperOffice.CRM.PluginResponseInfo.State
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nFull response state: Ok, OkWithInfo, Warning or Error.  Summarized in the <xref href=\"SuperOffice.CRM.PluginResponseInfo.IsOk\" data-throw-if-not-resolved=\"false\"></xref> property: true as long as State is not Error.\n"
+  syntax:
+    content: public ResponseState State { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ResponseState
+    content.vb: Public Property State As ResponseState
+  overload: SuperOffice.CRM.PluginResponseInfo.State*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.PluginResponseInfo.IsOk
+  commentId: P:SuperOffice.CRM.PluginResponseInfo.IsOk
+  id: IsOk
+  parent: SuperOffice.CRM.PluginResponseInfo
+  langs:
+  - csharp
+  - vb
+  name: IsOk
+  nameWithType: PluginResponseInfo.IsOk
+  fullName: SuperOffice.CRM.PluginResponseInfo.IsOk
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nA bool simplification of the response state: Return true if the <xref href=\"SuperOffice.CRM.PluginResponseInfo.State\" data-throw-if-not-resolved=\"false\"></xref> is not ResponseState.Error.\n"
+  syntax:
+    content: public bool IsOk { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsOk As Boolean
+  overload: SuperOffice.CRM.PluginResponseInfo.IsOk*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.PluginResponseInfo.UserExplanation
+  commentId: P:SuperOffice.CRM.PluginResponseInfo.UserExplanation
+  id: UserExplanation
+  parent: SuperOffice.CRM.PluginResponseInfo
+  langs:
+  - csharp
+  - vb
+  name: UserExplanation
+  nameWithType: PluginResponseInfo.UserExplanation
+  fullName: SuperOffice.CRM.PluginResponseInfo.UserExplanation
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nA localized explanation to the answer.\n"
+  syntax:
+    content: public string UserExplanation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserExplanation As String
+  overload: SuperOffice.CRM.PluginResponseInfo.UserExplanation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.PluginResponseInfo.TechExplanation
+  commentId: P:SuperOffice.CRM.PluginResponseInfo.TechExplanation
+  id: TechExplanation
+  parent: SuperOffice.CRM.PluginResponseInfo
+  langs:
+  - csharp
+  - vb
+  name: TechExplanation
+  nameWithType: PluginResponseInfo.TechExplanation
+  fullName: SuperOffice.CRM.PluginResponseInfo.TechExplanation
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nAlways in English\n"
+  syntax:
+    content: public string TechExplanation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TechExplanation As String
+  overload: SuperOffice.CRM.PluginResponseInfo.TechExplanation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.PluginResponseInfo.ErrorCode
+  commentId: P:SuperOffice.CRM.PluginResponseInfo.ErrorCode
+  id: ErrorCode
+  parent: SuperOffice.CRM.PluginResponseInfo
+  langs:
+  - csharp
+  - vb
+  name: ErrorCode
+  nameWithType: PluginResponseInfo.ErrorCode
+  fullName: SuperOffice.CRM.PluginResponseInfo.ErrorCode
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nAn error code, if available.\n"
+  syntax:
+    content: public string ErrorCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ErrorCode As String
+  overload: SuperOffice.CRM.PluginResponseInfo.ErrorCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.PluginResponseInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<PluginResponseInfo, To>()
+  nameWithType: EnumUtil.MapEnums<PluginResponseInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.PluginResponseInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of PluginResponseInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.PluginResponseInfo, To)()
+  name.vb: MapEnums(Of PluginResponseInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<PluginResponseInfo, To>
+    nameWithType: EnumUtil.MapEnums<PluginResponseInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.PluginResponseInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of PluginResponseInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of PluginResponseInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.PluginResponseInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.PluginResponseInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.PluginResponseInfo)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<PluginResponseInfo>(PluginResponseInfo)
+  nameWithType: ObjectExtensions.AssignByReflection<PluginResponseInfo>(PluginResponseInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.PluginResponseInfo>(SuperOffice.CRM.PluginResponseInfo)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of PluginResponseInfo)(PluginResponseInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.PluginResponseInfo)(SuperOffice.CRM.PluginResponseInfo)
+  name.vb: AssignByReflection(Of PluginResponseInfo)(PluginResponseInfo)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<PluginResponseInfo>
+    nameWithType: ObjectExtensions.AssignByReflection<PluginResponseInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.PluginResponseInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.PluginResponseInfo
+    name: PluginResponseInfo
+    nameWithType: PluginResponseInfo
+    fullName: SuperOffice.CRM.PluginResponseInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of PluginResponseInfo)
+    nameWithType: ObjectExtensions.AssignByReflection(Of PluginResponseInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.PluginResponseInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.PluginResponseInfo
+    name: PluginResponseInfo
+    nameWithType: PluginResponseInfo
+    fullName: SuperOffice.CRM.PluginResponseInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.PluginResponseInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<PluginResponseInfo>()
+  nameWithType: ObjectExtensions.GraphCopy<PluginResponseInfo>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.PluginResponseInfo>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of PluginResponseInfo)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.PluginResponseInfo)()
+  name.vb: GraphCopy(Of PluginResponseInfo)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<PluginResponseInfo>
+    nameWithType: ObjectExtensions.GraphCopy<PluginResponseInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.PluginResponseInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of PluginResponseInfo)
+    nameWithType: ObjectExtensions.GraphCopy(Of PluginResponseInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.PluginResponseInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.PluginResponseInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<PluginResponseInfo, To>()
+  nameWithType: Converters.MapEnums<PluginResponseInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.PluginResponseInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of PluginResponseInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.PluginResponseInfo, To)()
+  name.vb: MapEnums(Of PluginResponseInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<PluginResponseInfo, To>
+    nameWithType: Converters.MapEnums<PluginResponseInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.PluginResponseInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of PluginResponseInfo, To)
+    nameWithType: Converters.MapEnums(Of PluginResponseInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.PluginResponseInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.PluginResponseInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.PluginResponseInfo.#ctor
+  isExternal: true
+  name: PluginResponseInfo
+  nameWithType: PluginResponseInfo.PluginResponseInfo
+  fullName: SuperOffice.CRM.PluginResponseInfo.PluginResponseInfo
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.PluginResponseInfo.ToString*
+  commentId: Overload:SuperOffice.CRM.PluginResponseInfo.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: PluginResponseInfo.ToString
+  fullName: SuperOffice.CRM.PluginResponseInfo.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.PluginResponseInfo.Merge*
+  commentId: Overload:SuperOffice.CRM.PluginResponseInfo.Merge
+  isExternal: true
+  name: Merge
+  nameWithType: PluginResponseInfo.Merge
+  fullName: SuperOffice.CRM.PluginResponseInfo.Merge
+- uid: SuperOffice.CRM.PluginResponseInfo
+  commentId: T:SuperOffice.CRM.PluginResponseInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: PluginResponseInfo
+  nameWithType: PluginResponseInfo
+  fullName: SuperOffice.CRM.PluginResponseInfo
+- uid: SuperOffice.CRM.PluginResponseInfo.SetErrorAndUserExplanation*
+  commentId: Overload:SuperOffice.CRM.PluginResponseInfo.SetErrorAndUserExplanation
+  isExternal: true
+  name: SetErrorAndUserExplanation
+  nameWithType: PluginResponseInfo.SetErrorAndUserExplanation
+  fullName: SuperOffice.CRM.PluginResponseInfo.SetErrorAndUserExplanation
+- uid: SuperOffice.CRM.PluginResponseInfo.State*
+  commentId: Overload:SuperOffice.CRM.PluginResponseInfo.State
+  isExternal: true
+  name: State
+  nameWithType: PluginResponseInfo.State
+  fullName: SuperOffice.CRM.PluginResponseInfo.State
+- uid: SuperOffice.CRM.ResponseState
+  commentId: T:SuperOffice.CRM.ResponseState
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ResponseState
+  nameWithType: ResponseState
+  fullName: SuperOffice.CRM.ResponseState
+- uid: SuperOffice.CRM.PluginResponseInfo.IsOk*
+  commentId: Overload:SuperOffice.CRM.PluginResponseInfo.IsOk
+  isExternal: true
+  name: IsOk
+  nameWithType: PluginResponseInfo.IsOk
+  fullName: SuperOffice.CRM.PluginResponseInfo.IsOk
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.PluginResponseInfo.UserExplanation*
+  commentId: Overload:SuperOffice.CRM.PluginResponseInfo.UserExplanation
+  isExternal: true
+  name: UserExplanation
+  nameWithType: PluginResponseInfo.UserExplanation
+  fullName: SuperOffice.CRM.PluginResponseInfo.UserExplanation
+- uid: SuperOffice.CRM.PluginResponseInfo.TechExplanation*
+  commentId: Overload:SuperOffice.CRM.PluginResponseInfo.TechExplanation
+  isExternal: true
+  name: TechExplanation
+  nameWithType: PluginResponseInfo.TechExplanation
+  fullName: SuperOffice.CRM.PluginResponseInfo.TechExplanation
+- uid: SuperOffice.CRM.PluginResponseInfo.ErrorCode*
+  commentId: Overload:SuperOffice.CRM.PluginResponseInfo.ErrorCode
+  isExternal: true
+  name: ErrorCode
+  nameWithType: PluginResponseInfo.ErrorCode
+  fullName: SuperOffice.CRM.PluginResponseInfo.ErrorCode

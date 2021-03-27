@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Ticket_GetTicketAttachmentsRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_GetTicketAttachmentsRequest
+  id: Ticket_GetTicketAttachmentsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Ticket_GetTicketAttachmentsRequest.#ctor
+  - SuperOffice.WebApi.Data.Ticket_GetTicketAttachmentsRequest.TicketEntityId
+  langs:
+  - csharp
+  - vb
+  name: Ticket_GetTicketAttachmentsRequest
+  nameWithType: Ticket_GetTicketAttachmentsRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_GetTicketAttachmentsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Ticket_GetTicketAttachmentsRequest : Object'
+    content.vb: >-
+      Public Class Ticket_GetTicketAttachmentsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Ticket_GetTicketAttachmentsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Ticket_GetTicketAttachmentsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Ticket_GetTicketAttachmentsRequest
+  langs:
+  - csharp
+  - vb
+  name: Ticket_GetTicketAttachmentsRequest()
+  nameWithType: Ticket_GetTicketAttachmentsRequest.Ticket_GetTicketAttachmentsRequest()
+  fullName: SuperOffice.WebApi.Data.Ticket_GetTicketAttachmentsRequest.Ticket_GetTicketAttachmentsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Ticket_GetTicketAttachmentsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Ticket_GetTicketAttachmentsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_GetTicketAttachmentsRequest.TicketEntityId
+  commentId: P:SuperOffice.WebApi.Data.Ticket_GetTicketAttachmentsRequest.TicketEntityId
+  id: TicketEntityId
+  parent: SuperOffice.WebApi.Data.Ticket_GetTicketAttachmentsRequest
+  langs:
+  - csharp
+  - vb
+  name: TicketEntityId
+  nameWithType: Ticket_GetTicketAttachmentsRequest.TicketEntityId
+  fullName: SuperOffice.WebApi.Data.Ticket_GetTicketAttachmentsRequest.TicketEntityId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TicketEntityId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TicketEntityId As Integer
+  overload: SuperOffice.WebApi.Data.Ticket_GetTicketAttachmentsRequest.TicketEntityId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Ticket_GetTicketAttachmentsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_GetTicketAttachmentsRequest.#ctor
+  isExternal: true
+  name: Ticket_GetTicketAttachmentsRequest
+  nameWithType: Ticket_GetTicketAttachmentsRequest.Ticket_GetTicketAttachmentsRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_GetTicketAttachmentsRequest.Ticket_GetTicketAttachmentsRequest
+- uid: SuperOffice.WebApi.Data.Ticket_GetTicketAttachmentsRequest.TicketEntityId*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_GetTicketAttachmentsRequest.TicketEntityId
+  isExternal: true
+  name: TicketEntityId
+  nameWithType: Ticket_GetTicketAttachmentsRequest.TicketEntityId
+  fullName: SuperOffice.WebApi.Data.Ticket_GetTicketAttachmentsRequest.TicketEntityId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

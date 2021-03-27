@@ -1,0 +1,448 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.CriteriaInformation
+  commentId: T:SuperOffice.CRM.Services.CriteriaInformation
+  id: CriteriaInformation
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.CriteriaInformation.#ctor
+  - SuperOffice.CRM.Services.CriteriaInformation.CriteriaArchiveColumns
+  - SuperOffice.CRM.Services.CriteriaInformation.CriteriaArchiveRows
+  - SuperOffice.CRM.Services.CriteriaInformation.RestrictionGroups
+  - SuperOffice.CRM.Services.CriteriaInformation.Restrictions
+  - SuperOffice.CRM.Services.CriteriaInformation.ToString
+  - SuperOffice.CRM.Services.CriteriaInformation.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: CriteriaInformation
+  nameWithType: CriteriaInformation
+  fullName: SuperOffice.CRM.Services.CriteriaInformation
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier for criteria information. It contains all the search criteria - that is, ArchiveRestrictionInfo - objects, including a  column specification. In addition, it contains the same criteria expressed as an archive, with an array of ArchiveColumnInfo specifications and a set of ArchiveRow rows. The rows of the archive form a subset of the restriction array.\n<p></p>\nCarrier object for CriteriaInformation.\nServices for the CriteriaInformation Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IFindAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class CriteriaInformation : Carrier'
+    content.vb: >-
+      Public Class CriteriaInformation
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.FindAgent
+    commentId: T:SuperOffice.CRM.Services.FindAgent
+  - linkId: SuperOffice.CRM.Services.IFindAgent
+    commentId: T:SuperOffice.CRM.Services.IFindAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.CriteriaInformation.#ctor
+  commentId: M:SuperOffice.CRM.Services.CriteriaInformation.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.CriteriaInformation
+  langs:
+  - csharp
+  - vb
+  name: CriteriaInformation()
+  nameWithType: CriteriaInformation.CriteriaInformation()
+  fullName: SuperOffice.CRM.Services.CriteriaInformation.CriteriaInformation()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public CriteriaInformation()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.CriteriaInformation.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CriteriaInformation.ToString
+  commentId: M:SuperOffice.CRM.Services.CriteriaInformation.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.CriteriaInformation
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: CriteriaInformation.ToString()
+  fullName: SuperOffice.CRM.Services.CriteriaInformation.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.CriteriaInformation.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.CriteriaInformation.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.CriteriaInformation.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.CriteriaInformation
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: CriteriaInformation.ToString(String)
+  fullName: SuperOffice.CRM.Services.CriteriaInformation.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.CriteriaInformation.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CriteriaInformation.Restrictions
+  commentId: P:SuperOffice.CRM.Services.CriteriaInformation.Restrictions
+  id: Restrictions
+  parent: SuperOffice.CRM.Services.CriteriaInformation
+  langs:
+  - csharp
+  - vb
+  name: Restrictions
+  nameWithType: CriteriaInformation.Restrictions
+  fullName: SuperOffice.CRM.Services.CriteriaInformation.Restrictions
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nArray of ArchiveRestrictionInfo restriction specifications (for the first restrictiongroup if there are more than one group \n"
+  syntax:
+    content: public virtual ArchiveRestrictionInfo[] Restrictions { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+    content.vb: Public Overridable Property Restrictions As ArchiveRestrictionInfo()
+  overload: SuperOffice.CRM.Services.CriteriaInformation.Restrictions*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CriteriaInformation.CriteriaArchiveColumns
+  commentId: P:SuperOffice.CRM.Services.CriteriaInformation.CriteriaArchiveColumns
+  id: CriteriaArchiveColumns
+  parent: SuperOffice.CRM.Services.CriteriaInformation
+  langs:
+  - csharp
+  - vb
+  name: CriteriaArchiveColumns
+  nameWithType: CriteriaInformation.CriteriaArchiveColumns
+  fullName: SuperOffice.CRM.Services.CriteriaInformation.CriteriaArchiveColumns
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nArray of ColumnInfo column specifications \n"
+  syntax:
+    content: public virtual ArchiveColumnInfo[] CriteriaArchiveColumns { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+    content.vb: Public Overridable Property CriteriaArchiveColumns As ArchiveColumnInfo()
+  overload: SuperOffice.CRM.Services.CriteriaInformation.CriteriaArchiveColumns*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CriteriaInformation.CriteriaArchiveRows
+  commentId: P:SuperOffice.CRM.Services.CriteriaInformation.CriteriaArchiveRows
+  id: CriteriaArchiveRows
+  parent: SuperOffice.CRM.Services.CriteriaInformation
+  langs:
+  - csharp
+  - vb
+  name: CriteriaArchiveRows
+  nameWithType: CriteriaInformation.CriteriaArchiveRows
+  fullName: SuperOffice.CRM.Services.CriteriaInformation.CriteriaArchiveRows
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nArray of archive list items, i.e., the service layer carrier for archive rows. These are the criteria, represented as archive rows. \n"
+  syntax:
+    content: public virtual ArchiveListItem[] CriteriaArchiveRows { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.ArchiveListItem[]
+    content.vb: Public Overridable Property CriteriaArchiveRows As ArchiveListItem()
+  overload: SuperOffice.CRM.Services.CriteriaInformation.CriteriaArchiveRows*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CriteriaInformation.RestrictionGroups
+  commentId: P:SuperOffice.CRM.Services.CriteriaInformation.RestrictionGroups
+  id: RestrictionGroups
+  parent: SuperOffice.CRM.Services.CriteriaInformation
+  langs:
+  - csharp
+  - vb
+  name: RestrictionGroups
+  nameWithType: CriteriaInformation.RestrictionGroups
+  fullName: SuperOffice.CRM.Services.CriteriaInformation.RestrictionGroups
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nArray of restrictiongroups, including the default first group of restrictions \n"
+  syntax:
+    content: public virtual ArchiveRestrictionGroup[] RestrictionGroups { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup[]
+    content.vb: Public Overridable Property RestrictionGroups As ArchiveRestrictionGroup()
+  overload: SuperOffice.CRM.Services.CriteriaInformation.RestrictionGroups*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.FindAgent
+  commentId: T:SuperOffice.CRM.Services.FindAgent
+  isExternal: true
+  name: FindAgent
+  nameWithType: FindAgent
+  fullName: SuperOffice.CRM.Services.FindAgent
+- uid: SuperOffice.CRM.Services.IFindAgent
+  commentId: T:SuperOffice.CRM.Services.IFindAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IFindAgent
+  nameWithType: IFindAgent
+  fullName: SuperOffice.CRM.Services.IFindAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.CriteriaInformation.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.CriteriaInformation.#ctor
+  isExternal: true
+  name: CriteriaInformation
+  nameWithType: CriteriaInformation.CriteriaInformation
+  fullName: SuperOffice.CRM.Services.CriteriaInformation.CriteriaInformation
+- uid: SuperOffice.CRM.Services.CriteriaInformation.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.CriteriaInformation.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: CriteriaInformation.ToString
+  fullName: SuperOffice.CRM.Services.CriteriaInformation.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.CriteriaInformation.Restrictions*
+  commentId: Overload:SuperOffice.CRM.Services.CriteriaInformation.Restrictions
+  isExternal: true
+  name: Restrictions
+  nameWithType: CriteriaInformation.Restrictions
+  fullName: SuperOffice.CRM.Services.CriteriaInformation.Restrictions
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.CriteriaInformation.CriteriaArchiveColumns*
+  commentId: Overload:SuperOffice.CRM.Services.CriteriaInformation.CriteriaArchiveColumns
+  isExternal: true
+  name: CriteriaArchiveColumns
+  nameWithType: CriteriaInformation.CriteriaArchiveColumns
+  fullName: SuperOffice.CRM.Services.CriteriaInformation.CriteriaArchiveColumns
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+  isExternal: true
+  name: ArchiveColumnInfo[]
+  nameWithType: ArchiveColumnInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+  nameWithType.vb: ArchiveColumnInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo()
+  name.vb: ArchiveColumnInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.CriteriaInformation.CriteriaArchiveRows*
+  commentId: Overload:SuperOffice.CRM.Services.CriteriaInformation.CriteriaArchiveRows
+  isExternal: true
+  name: CriteriaArchiveRows
+  nameWithType: CriteriaInformation.CriteriaArchiveRows
+  fullName: SuperOffice.CRM.Services.CriteriaInformation.CriteriaArchiveRows
+- uid: SuperOffice.CRM.Services.ArchiveListItem[]
+  isExternal: true
+  name: ArchiveListItem[]
+  nameWithType: ArchiveListItem[]
+  fullName: SuperOffice.CRM.Services.ArchiveListItem[]
+  nameWithType.vb: ArchiveListItem()
+  fullName.vb: SuperOffice.CRM.Services.ArchiveListItem()
+  name.vb: ArchiveListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ArchiveListItem
+    name: ArchiveListItem
+    nameWithType: ArchiveListItem
+    fullName: SuperOffice.CRM.Services.ArchiveListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ArchiveListItem
+    name: ArchiveListItem
+    nameWithType: ArchiveListItem
+    fullName: SuperOffice.CRM.Services.ArchiveListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.CriteriaInformation.RestrictionGroups*
+  commentId: Overload:SuperOffice.CRM.Services.CriteriaInformation.RestrictionGroups
+  isExternal: true
+  name: RestrictionGroups
+  nameWithType: CriteriaInformation.RestrictionGroups
+  fullName: SuperOffice.CRM.Services.CriteriaInformation.RestrictionGroups
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup[]
+  isExternal: true
+  name: ArchiveRestrictionGroup[]
+  nameWithType: ArchiveRestrictionGroup[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup[]
+  nameWithType.vb: ArchiveRestrictionGroup()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup()
+  name.vb: ArchiveRestrictionGroup()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
+    name: ArchiveRestrictionGroup
+    nameWithType: ArchiveRestrictionGroup
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
+    name: ArchiveRestrictionGroup
+    nameWithType: ArchiveRestrictionGroup
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

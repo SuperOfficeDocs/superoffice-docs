@@ -1,0 +1,1118 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.MailMergeSettings
+  commentId: T:SuperOffice.WebApi.Data.MailMergeSettings
+  id: MailMergeSettings
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.MailMergeSettings.#ctor
+  - SuperOffice.WebApi.Data.MailMergeSettings.AddCompanyInterest
+  - SuperOffice.WebApi.Data.MailMergeSettings.AddPersonInterest
+  - SuperOffice.WebApi.Data.MailMergeSettings.AlwaysUseCustomAttention
+  - SuperOffice.WebApi.Data.MailMergeSettings.CustomAttention
+  - SuperOffice.WebApi.Data.MailMergeSettings.CustomMailBody
+  - SuperOffice.WebApi.Data.MailMergeSettings.CustomMailSubject
+  - SuperOffice.WebApi.Data.MailMergeSettings.DocumentId
+  - SuperOffice.WebApi.Data.MailMergeSettings.ExtraInfo
+  - SuperOffice.WebApi.Data.MailMergeSettings.IncludeNoMailingsRecipient
+  - SuperOffice.WebApi.Data.MailMergeSettings.IncludeRetiredRecipients
+  - SuperOffice.WebApi.Data.MailMergeSettings.IncludeStoppedRecipients
+  - SuperOffice.WebApi.Data.MailMergeSettings.IsTemporarySelection
+  - SuperOffice.WebApi.Data.MailMergeSettings.MailMergeDeliveryType
+  - SuperOffice.WebApi.Data.MailMergeSettings.MailMergeDeliveryType_String
+  - SuperOffice.WebApi.Data.MailMergeSettings.ProjectId
+  - SuperOffice.WebApi.Data.MailMergeSettings.RemoveCompanyInterest
+  - SuperOffice.WebApi.Data.MailMergeSettings.RemovePersonInterest
+  - SuperOffice.WebApi.Data.MailMergeSettings.SaveDocument
+  - SuperOffice.WebApi.Data.MailMergeSettings.SelectionId
+  - SuperOffice.WebApi.Data.MailMergeSettings.Synchronous
+  - SuperOffice.WebApi.Data.MailMergeSettings.TaskEntity
+  - SuperOffice.WebApi.Data.MailMergeSettings.TestOnly
+  langs:
+  - csharp
+  - vb
+  name: MailMergeSettings
+  nameWithType: MailMergeSettings
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for MailMergeSettings.\nSettings specifying what selection to perform the mailmerge on, what merge document to use etc.    \n"
+  syntax:
+    content: 'public class MailMergeSettings : Carrier'
+    content.vb: >-
+      Public Class MailMergeSettings
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.SelectionAgent
+    commentId: T:SuperOffice.WebApi.Agents.SelectionAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.#ctor
+  commentId: M:SuperOffice.WebApi.Data.MailMergeSettings.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: MailMergeSettings()
+  nameWithType: MailMergeSettings.MailMergeSettings()
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.MailMergeSettings()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public MailMergeSettings()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.MailMergeSettings.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.SelectionId
+  commentId: P:SuperOffice.WebApi.Data.MailMergeSettings.SelectionId
+  id: SelectionId
+  parent: SuperOffice.WebApi.Data.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: MailMergeSettings.SelectionId
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIdentity of selection to use as source for recipients.\n"
+  syntax:
+    content: public virtual int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SelectionId As Integer
+  overload: SuperOffice.WebApi.Data.MailMergeSettings.SelectionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.DocumentId
+  commentId: P:SuperOffice.WebApi.Data.MailMergeSettings.DocumentId
+  id: DocumentId
+  parent: SuperOffice.WebApi.Data.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: MailMergeSettings.DocumentId
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.DocumentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIdentity of document to be used as merge draft.\n"
+  syntax:
+    content: public virtual int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DocumentId As Integer
+  overload: SuperOffice.WebApi.Data.MailMergeSettings.DocumentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.MailMergeDeliveryType_String
+  commentId: P:SuperOffice.WebApi.Data.MailMergeSettings.MailMergeDeliveryType_String
+  id: MailMergeDeliveryType_String
+  parent: SuperOffice.WebApi.Data.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: MailMergeDeliveryType_String
+  nameWithType: MailMergeSettings.MailMergeDeliveryType_String
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.MailMergeDeliveryType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHow the merged document is delivered to the recipients.\nRaw string enum value.\n"
+  syntax:
+    content: public string MailMergeDeliveryType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MailMergeDeliveryType_String As String
+  overload: SuperOffice.WebApi.Data.MailMergeSettings.MailMergeDeliveryType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.MailMergeSettings.MailMergeDeliveryType
+    commentId: P:SuperOffice.WebApi.Data.MailMergeSettings.MailMergeDeliveryType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.MailMergeDeliveryType
+  commentId: P:SuperOffice.WebApi.Data.MailMergeSettings.MailMergeDeliveryType
+  id: MailMergeDeliveryType
+  parent: SuperOffice.WebApi.Data.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: MailMergeDeliveryType
+  nameWithType: MailMergeSettings.MailMergeDeliveryType
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.MailMergeDeliveryType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHow the merged document is delivered to the recipients.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<EMailMergeTargetType> MailMergeDeliveryType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.EMailMergeTargetType}
+    content.vb: Public Property MailMergeDeliveryType As Nullable(Of EMailMergeTargetType)
+  overload: SuperOffice.WebApi.Data.MailMergeSettings.MailMergeDeliveryType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.MailMergeSettings.MailMergeDeliveryType_String
+    commentId: P:SuperOffice.WebApi.Data.MailMergeSettings.MailMergeDeliveryType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.CustomAttention
+  commentId: P:SuperOffice.WebApi.Data.MailMergeSettings.CustomAttention
+  id: CustomAttention
+  parent: SuperOffice.WebApi.Data.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: CustomAttention
+  nameWithType: MailMergeSettings.CustomAttention
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.CustomAttention
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCustom value for attention.\n"
+  syntax:
+    content: public virtual string CustomAttention { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CustomAttention As String
+  overload: SuperOffice.WebApi.Data.MailMergeSettings.CustomAttention*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.AlwaysUseCustomAttention
+  commentId: P:SuperOffice.WebApi.Data.MailMergeSettings.AlwaysUseCustomAttention
+  id: AlwaysUseCustomAttention
+  parent: SuperOffice.WebApi.Data.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: AlwaysUseCustomAttention
+  nameWithType: MailMergeSettings.AlwaysUseCustomAttention
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.AlwaysUseCustomAttention
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould custom attention always be used? If false, only use custom attention where there is no default.\n"
+  syntax:
+    content: public virtual bool AlwaysUseCustomAttention { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property AlwaysUseCustomAttention As Boolean
+  overload: SuperOffice.WebApi.Data.MailMergeSettings.AlwaysUseCustomAttention*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.SaveDocument
+  commentId: P:SuperOffice.WebApi.Data.MailMergeSettings.SaveDocument
+  id: SaveDocument
+  parent: SuperOffice.WebApi.Data.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: SaveDocument
+  nameWithType: MailMergeSettings.SaveDocument
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.SaveDocument
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould we save a reference to the merge document on each recipient.\n"
+  syntax:
+    content: public virtual bool SaveDocument { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property SaveDocument As Boolean
+  overload: SuperOffice.WebApi.Data.MailMergeSettings.SaveDocument*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.CustomMailBody
+  commentId: P:SuperOffice.WebApi.Data.MailMergeSettings.CustomMailBody
+  id: CustomMailBody
+  parent: SuperOffice.WebApi.Data.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: CustomMailBody
+  nameWithType: MailMergeSettings.CustomMailBody
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.CustomMailBody
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf specified, use this value as default mail body.\n"
+  syntax:
+    content: public virtual string CustomMailBody { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CustomMailBody As String
+  overload: SuperOffice.WebApi.Data.MailMergeSettings.CustomMailBody*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.TaskEntity
+  commentId: P:SuperOffice.WebApi.Data.MailMergeSettings.TaskEntity
+  id: TaskEntity
+  parent: SuperOffice.WebApi.Data.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: TaskEntity
+  nameWithType: MailMergeSettings.TaskEntity
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.TaskEntity
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf specified, register a task on recipients using properties from this object.\n"
+  syntax:
+    content: public virtual MailMergeTask TaskEntity { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.MailMergeTask
+    content.vb: Public Overridable Property TaskEntity As MailMergeTask
+  overload: SuperOffice.WebApi.Data.MailMergeSettings.TaskEntity*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.AddCompanyInterest
+  commentId: P:SuperOffice.WebApi.Data.MailMergeSettings.AddCompanyInterest
+  id: AddCompanyInterest
+  parent: SuperOffice.WebApi.Data.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: AddCompanyInterest
+  nameWithType: MailMergeSettings.AddCompanyInterest
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.AddCompanyInterest
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAdd this company interest to each company recipient.\n"
+  syntax:
+    content: public virtual int AddCompanyInterest { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AddCompanyInterest As Integer
+  overload: SuperOffice.WebApi.Data.MailMergeSettings.AddCompanyInterest*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.AddPersonInterest
+  commentId: P:SuperOffice.WebApi.Data.MailMergeSettings.AddPersonInterest
+  id: AddPersonInterest
+  parent: SuperOffice.WebApi.Data.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: AddPersonInterest
+  nameWithType: MailMergeSettings.AddPersonInterest
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.AddPersonInterest
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAdd this person interest to each person recipient.\n"
+  syntax:
+    content: public virtual int AddPersonInterest { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AddPersonInterest As Integer
+  overload: SuperOffice.WebApi.Data.MailMergeSettings.AddPersonInterest*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.RemoveCompanyInterest
+  commentId: P:SuperOffice.WebApi.Data.MailMergeSettings.RemoveCompanyInterest
+  id: RemoveCompanyInterest
+  parent: SuperOffice.WebApi.Data.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: RemoveCompanyInterest
+  nameWithType: MailMergeSettings.RemoveCompanyInterest
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.RemoveCompanyInterest
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRemove this company interest on each company recipient.\n"
+  syntax:
+    content: public virtual int RemoveCompanyInterest { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RemoveCompanyInterest As Integer
+  overload: SuperOffice.WebApi.Data.MailMergeSettings.RemoveCompanyInterest*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.RemovePersonInterest
+  commentId: P:SuperOffice.WebApi.Data.MailMergeSettings.RemovePersonInterest
+  id: RemovePersonInterest
+  parent: SuperOffice.WebApi.Data.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: RemovePersonInterest
+  nameWithType: MailMergeSettings.RemovePersonInterest
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.RemovePersonInterest
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRemove this person interest on each person recipient.\n"
+  syntax:
+    content: public virtual int RemovePersonInterest { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RemovePersonInterest As Integer
+  overload: SuperOffice.WebApi.Data.MailMergeSettings.RemovePersonInterest*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.IncludeNoMailingsRecipient
+  commentId: P:SuperOffice.WebApi.Data.MailMergeSettings.IncludeNoMailingsRecipient
+  id: IncludeNoMailingsRecipient
+  parent: SuperOffice.WebApi.Data.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: IncludeNoMailingsRecipient
+  nameWithType: MailMergeSettings.IncludeNoMailingsRecipient
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.IncludeNoMailingsRecipient
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nInclude recipients that are marked with NoMailings\n"
+  syntax:
+    content: public virtual bool IncludeNoMailingsRecipient { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IncludeNoMailingsRecipient As Boolean
+  overload: SuperOffice.WebApi.Data.MailMergeSettings.IncludeNoMailingsRecipient*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.TestOnly
+  commentId: P:SuperOffice.WebApi.Data.MailMergeSettings.TestOnly
+  id: TestOnly
+  parent: SuperOffice.WebApi.Data.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: TestOnly
+  nameWithType: MailMergeSettings.TestOnly
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.TestOnly
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf true, do the merge task, but use current user as target, instead of selection members\n"
+  syntax:
+    content: public virtual bool TestOnly { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property TestOnly As Boolean
+  overload: SuperOffice.WebApi.Data.MailMergeSettings.TestOnly*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.ProjectId
+  commentId: P:SuperOffice.WebApi.Data.MailMergeSettings.ProjectId
+  id: ProjectId
+  parent: SuperOffice.WebApi.Data.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: MailMergeSettings.ProjectId
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIdentity of project to use as source for recipients.\n"
+  syntax:
+    content: public virtual int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProjectId As Integer
+  overload: SuperOffice.WebApi.Data.MailMergeSettings.ProjectId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.IncludeRetiredRecipients
+  commentId: P:SuperOffice.WebApi.Data.MailMergeSettings.IncludeRetiredRecipients
+  id: IncludeRetiredRecipients
+  parent: SuperOffice.WebApi.Data.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: IncludeRetiredRecipients
+  nameWithType: MailMergeSettings.IncludeRetiredRecipients
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.IncludeRetiredRecipients
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nInclude recipients that are marked as retired\n"
+  syntax:
+    content: public virtual bool IncludeRetiredRecipients { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IncludeRetiredRecipients As Boolean
+  overload: SuperOffice.WebApi.Data.MailMergeSettings.IncludeRetiredRecipients*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.IncludeStoppedRecipients
+  commentId: P:SuperOffice.WebApi.Data.MailMergeSettings.IncludeStoppedRecipients
+  id: IncludeStoppedRecipients
+  parent: SuperOffice.WebApi.Data.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: IncludeStoppedRecipients
+  nameWithType: MailMergeSettings.IncludeStoppedRecipients
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.IncludeStoppedRecipients
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nInclude recipients that are marked with stop\n"
+  syntax:
+    content: public virtual bool IncludeStoppedRecipients { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IncludeStoppedRecipients As Boolean
+  overload: SuperOffice.WebApi.Data.MailMergeSettings.IncludeStoppedRecipients*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.CustomMailSubject
+  commentId: P:SuperOffice.WebApi.Data.MailMergeSettings.CustomMailSubject
+  id: CustomMailSubject
+  parent: SuperOffice.WebApi.Data.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: CustomMailSubject
+  nameWithType: MailMergeSettings.CustomMailSubject
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.CustomMailSubject
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf specified, use this value as default mail subject.\n"
+  syntax:
+    content: public virtual string CustomMailSubject { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CustomMailSubject As String
+  overload: SuperOffice.WebApi.Data.MailMergeSettings.CustomMailSubject*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.ExtraInfo
+  commentId: P:SuperOffice.WebApi.Data.MailMergeSettings.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.WebApi.Data.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: MailMergeSettings.ExtraInfo
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.ExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUsed to store additional information for the delivery systems.\n\n"
+  syntax:
+    content: public virtual string ExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraInfo As String
+  overload: SuperOffice.WebApi.Data.MailMergeSettings.ExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.Synchronous
+  commentId: P:SuperOffice.WebApi.Data.MailMergeSettings.Synchronous
+  id: Synchronous
+  parent: SuperOffice.WebApi.Data.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: Synchronous
+  nameWithType: MailMergeSettings.Synchronous
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.Synchronous
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual bool Synchronous { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Synchronous As Boolean
+  overload: SuperOffice.WebApi.Data.MailMergeSettings.Synchronous*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.IsTemporarySelection
+  commentId: P:SuperOffice.WebApi.Data.MailMergeSettings.IsTemporarySelection
+  id: IsTemporarySelection
+  parent: SuperOffice.WebApi.Data.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: IsTemporarySelection
+  nameWithType: MailMergeSettings.IsTemporarySelection
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.IsTemporarySelection
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf true, the selection is a temporary selection that can be deleted later.\n"
+  syntax:
+    content: public virtual bool IsTemporarySelection { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsTemporarySelection As Boolean
+  overload: SuperOffice.WebApi.Data.MailMergeSettings.IsTemporarySelection*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.SelectionAgent
+  commentId: T:SuperOffice.WebApi.Agents.SelectionAgent
+  isExternal: true
+  name: SelectionAgent
+  nameWithType: SelectionAgent
+  fullName: SuperOffice.WebApi.Agents.SelectionAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeSettings.#ctor
+  isExternal: true
+  name: MailMergeSettings
+  nameWithType: MailMergeSettings.MailMergeSettings
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.MailMergeSettings
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.SelectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeSettings.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: MailMergeSettings.SelectionId
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.SelectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.DocumentId*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeSettings.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: MailMergeSettings.DocumentId
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.DocumentId
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.MailMergeDeliveryType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeSettings.MailMergeDeliveryType_String
+  isExternal: true
+  name: MailMergeDeliveryType_String
+  nameWithType: MailMergeSettings.MailMergeDeliveryType_String
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.MailMergeDeliveryType_String
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.MailMergeDeliveryType
+  commentId: P:SuperOffice.WebApi.Data.MailMergeSettings.MailMergeDeliveryType
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.MailMergeDeliveryType*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeSettings.MailMergeDeliveryType
+  isExternal: true
+  name: MailMergeDeliveryType
+  nameWithType: MailMergeSettings.MailMergeDeliveryType
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.MailMergeDeliveryType
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.MailMergeDeliveryType_String
+  commentId: P:SuperOffice.WebApi.Data.MailMergeSettings.MailMergeDeliveryType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.EMailMergeTargetType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.EMailMergeTargetType}'
+  definition: System.Nullable`1
+  name: Nullable<EMailMergeTargetType>
+  nameWithType: Nullable<EMailMergeTargetType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.EMailMergeTargetType>
+  nameWithType.vb: Nullable(Of EMailMergeTargetType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.EMailMergeTargetType)
+  name.vb: Nullable(Of EMailMergeTargetType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.EMailMergeTargetType
+    name: EMailMergeTargetType
+    nameWithType: EMailMergeTargetType
+    fullName: SuperOffice.WebApi.Data.EMailMergeTargetType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.EMailMergeTargetType
+    name: EMailMergeTargetType
+    nameWithType: EMailMergeTargetType
+    fullName: SuperOffice.WebApi.Data.EMailMergeTargetType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.CustomAttention*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeSettings.CustomAttention
+  isExternal: true
+  name: CustomAttention
+  nameWithType: MailMergeSettings.CustomAttention
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.CustomAttention
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.AlwaysUseCustomAttention*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeSettings.AlwaysUseCustomAttention
+  isExternal: true
+  name: AlwaysUseCustomAttention
+  nameWithType: MailMergeSettings.AlwaysUseCustomAttention
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.AlwaysUseCustomAttention
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.SaveDocument*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeSettings.SaveDocument
+  isExternal: true
+  name: SaveDocument
+  nameWithType: MailMergeSettings.SaveDocument
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.SaveDocument
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.CustomMailBody*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeSettings.CustomMailBody
+  isExternal: true
+  name: CustomMailBody
+  nameWithType: MailMergeSettings.CustomMailBody
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.CustomMailBody
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.TaskEntity*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeSettings.TaskEntity
+  isExternal: true
+  name: TaskEntity
+  nameWithType: MailMergeSettings.TaskEntity
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.TaskEntity
+- uid: SuperOffice.WebApi.Data.MailMergeTask
+  commentId: T:SuperOffice.WebApi.Data.MailMergeTask
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: MailMergeTask
+  nameWithType: MailMergeTask
+  fullName: SuperOffice.WebApi.Data.MailMergeTask
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.AddCompanyInterest*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeSettings.AddCompanyInterest
+  isExternal: true
+  name: AddCompanyInterest
+  nameWithType: MailMergeSettings.AddCompanyInterest
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.AddCompanyInterest
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.AddPersonInterest*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeSettings.AddPersonInterest
+  isExternal: true
+  name: AddPersonInterest
+  nameWithType: MailMergeSettings.AddPersonInterest
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.AddPersonInterest
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.RemoveCompanyInterest*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeSettings.RemoveCompanyInterest
+  isExternal: true
+  name: RemoveCompanyInterest
+  nameWithType: MailMergeSettings.RemoveCompanyInterest
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.RemoveCompanyInterest
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.RemovePersonInterest*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeSettings.RemovePersonInterest
+  isExternal: true
+  name: RemovePersonInterest
+  nameWithType: MailMergeSettings.RemovePersonInterest
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.RemovePersonInterest
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.IncludeNoMailingsRecipient*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeSettings.IncludeNoMailingsRecipient
+  isExternal: true
+  name: IncludeNoMailingsRecipient
+  nameWithType: MailMergeSettings.IncludeNoMailingsRecipient
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.IncludeNoMailingsRecipient
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.TestOnly*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeSettings.TestOnly
+  isExternal: true
+  name: TestOnly
+  nameWithType: MailMergeSettings.TestOnly
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.TestOnly
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.ProjectId*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeSettings.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: MailMergeSettings.ProjectId
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.ProjectId
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.IncludeRetiredRecipients*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeSettings.IncludeRetiredRecipients
+  isExternal: true
+  name: IncludeRetiredRecipients
+  nameWithType: MailMergeSettings.IncludeRetiredRecipients
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.IncludeRetiredRecipients
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.IncludeStoppedRecipients*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeSettings.IncludeStoppedRecipients
+  isExternal: true
+  name: IncludeStoppedRecipients
+  nameWithType: MailMergeSettings.IncludeStoppedRecipients
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.IncludeStoppedRecipients
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.CustomMailSubject*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeSettings.CustomMailSubject
+  isExternal: true
+  name: CustomMailSubject
+  nameWithType: MailMergeSettings.CustomMailSubject
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.CustomMailSubject
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.ExtraInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeSettings.ExtraInfo
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: MailMergeSettings.ExtraInfo
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.ExtraInfo
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.Synchronous*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeSettings.Synchronous
+  isExternal: true
+  name: Synchronous
+  nameWithType: MailMergeSettings.Synchronous
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.Synchronous
+- uid: SuperOffice.WebApi.Data.MailMergeSettings.IsTemporarySelection*
+  commentId: Overload:SuperOffice.WebApi.Data.MailMergeSettings.IsTemporarySelection
+  isExternal: true
+  name: IsTemporarySelection
+  nameWithType: MailMergeSettings.IsTemporarySelection
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings.IsTemporarySelection

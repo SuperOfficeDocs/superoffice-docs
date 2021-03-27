@@ -1,0 +1,814 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher
+  id: SoArchiveSelectionMembersFetcher
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher.#ctor
+  - SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher.GetColumnData(System.String[])
+  - SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher.GetLinkHint(System.String[])
+  langs:
+  - csharp
+  - vb
+  name: SoArchiveSelectionMembersFetcher
+  nameWithType: SoArchiveSelectionMembersFetcher
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: 'public class SoArchiveSelectionMembersFetcher : SoArchiveMembersFetcher, IArchiveControlDataFetcher'
+    content.vb: >-
+      Public Class SoArchiveSelectionMembersFetcher
+          Inherits SoArchiveMembersFetcher
+          Implements IArchiveControlDataFetcher
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Web.UI.Controls.SoArchiveFetcherBase
+  - SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher
+  implements:
+  - SuperOffice.CRM.Web.UI.Controls.IArchiveControlDataFetcher
+  inheritedMembers:
+  - SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetPrimaryKey(System.String[])
+  - SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetData(System.Int32,System.Int32,SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  - SuperOffice.CRM.Web.UI.Controls.SoArchiveFetcherBase.getColumnArray(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher.GetColumnData(System.String[])
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher.GetColumnData(System.String[])
+  id: GetColumnData(System.String[])
+  parent: SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher
+  langs:
+  - csharp
+  - vb
+  name: GetColumnData(String[])
+  nameWithType: SoArchiveSelectionMembersFetcher.GetColumnData(String[])
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher.GetColumnData(System.String[])
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override ColumnDataDictionary GetColumnData(string[] items)
+    parameters:
+    - id: items
+      type: System.String[]
+    return:
+      type: SuperOffice.CRM.Services.ColumnDataDictionary
+    content.vb: Protected Overrides Function GetColumnData(items As String()) As ColumnDataDictionary
+  overridden: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetColumnData(System.String[])
+  overload: SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher.GetColumnData*
+  nameWithType.vb: SoArchiveSelectionMembersFetcher.GetColumnData(String())
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+  fullName.vb: SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher.GetColumnData(System.String())
+  name.vb: GetColumnData(String())
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher.GetLinkHint(System.String[])
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher.GetLinkHint(System.String[])
+  id: GetLinkHint(System.String[])
+  parent: SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher
+  langs:
+  - csharp
+  - vb
+  name: GetLinkHint(String[])
+  nameWithType: SoArchiveSelectionMembersFetcher.GetLinkHint(String[])
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher.GetLinkHint(System.String[])
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override string GetLinkHint(string[] items)
+    parameters:
+    - id: items
+      type: System.String[]
+    return:
+      type: System.String
+    content.vb: Protected Overrides Function GetLinkHint(items As String()) As String
+  overridden: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetLinkHint(System.String[])
+  overload: SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher.GetLinkHint*
+  nameWithType.vb: SoArchiveSelectionMembersFetcher.GetLinkHint(String())
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+  fullName.vb: SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher.GetLinkHint(System.String())
+  name.vb: GetLinkHint(String())
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher
+  langs:
+  - csharp
+  - vb
+  name: SoArchiveSelectionMembersFetcher()
+  nameWithType: SoArchiveSelectionMembersFetcher.SoArchiveSelectionMembersFetcher()
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher.SoArchiveSelectionMembersFetcher()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public SoArchiveSelectionMembersFetcher()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveFetcherBase
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoArchiveFetcherBase
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SoArchiveFetcherBase
+  nameWithType: SoArchiveFetcherBase
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveFetcherBase
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SoArchiveMembersFetcher
+  nameWithType: SoArchiveMembersFetcher
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher
+- uid: SuperOffice.CRM.Web.UI.Controls.IArchiveControlDataFetcher
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.IArchiveControlDataFetcher
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: IArchiveControlDataFetcher
+  nameWithType: IArchiveControlDataFetcher
+  fullName: SuperOffice.CRM.Web.UI.Controls.IArchiveControlDataFetcher
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetPrimaryKey(System.String[])
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetPrimaryKey(System.String[])
+  parent: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher
+  isExternal: true
+  name: GetPrimaryKey(String[])
+  nameWithType: SoArchiveMembersFetcher.GetPrimaryKey(String[])
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetPrimaryKey(System.String[])
+  nameWithType.vb: SoArchiveMembersFetcher.GetPrimaryKey(String())
+  fullName.vb: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetPrimaryKey(System.String())
+  name.vb: GetPrimaryKey(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetPrimaryKey(System.String[])
+    name: GetPrimaryKey
+    nameWithType: SoArchiveMembersFetcher.GetPrimaryKey
+    fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetPrimaryKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetPrimaryKey(System.String[])
+    name: GetPrimaryKey
+    nameWithType: SoArchiveMembersFetcher.GetPrimaryKey
+    fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetPrimaryKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetData(System.Int32,System.Int32,SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetData(System.Int32,System.Int32,SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  parent: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher
+  isExternal: true
+  name: GetData(Int32, Int32, ArchiveControlContext, ArchiveRestrictionInfo[])
+  nameWithType: SoArchiveMembersFetcher.GetData(Int32, Int32, ArchiveControlContext, ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetData(System.Int32, System.Int32, SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  nameWithType.vb: SoArchiveMembersFetcher.GetData(Int32, Int32, ArchiveControlContext, ArchiveRestrictionInfo())
+  fullName.vb: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetData(System.Int32, System.Int32, SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: GetData(Int32, Int32, ArchiveControlContext, ArchiveRestrictionInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetData(System.Int32,System.Int32,SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+    name: GetData
+    nameWithType: SoArchiveMembersFetcher.GetData
+    fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+    name: ArchiveControlContext
+    nameWithType: ArchiveControlContext
+    fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetData(System.Int32,System.Int32,SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+    name: GetData
+    nameWithType: SoArchiveMembersFetcher.GetData
+    fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+    name: ArchiveControlContext
+    nameWithType: ArchiveControlContext
+    fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveFetcherBase.getColumnArray(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoArchiveFetcherBase.getColumnArray(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoArchiveFetcherBase
+  isExternal: true
+  name: getColumnArray(ArchiveControlContext)
+  nameWithType: SoArchiveFetcherBase.getColumnArray(ArchiveControlContext)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveFetcherBase.getColumnArray(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveFetcherBase.getColumnArray(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext)
+    name: getColumnArray
+    nameWithType: SoArchiveFetcherBase.getColumnArray
+    fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveFetcherBase.getColumnArray
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+    name: ArchiveControlContext
+    nameWithType: ArchiveControlContext
+    fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveFetcherBase.getColumnArray(SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext)
+    name: getColumnArray
+    nameWithType: SoArchiveFetcherBase.getColumnArray
+    fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveFetcherBase.getColumnArray
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+    name: ArchiveControlContext
+    nameWithType: ArchiveControlContext
+    fullName: SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetColumnData(System.String[])
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetColumnData(System.String[])
+  parent: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher
+  isExternal: true
+  name: GetColumnData(String[])
+  nameWithType: SoArchiveMembersFetcher.GetColumnData(String[])
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetColumnData(System.String[])
+  nameWithType.vb: SoArchiveMembersFetcher.GetColumnData(String())
+  fullName.vb: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetColumnData(System.String())
+  name.vb: GetColumnData(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetColumnData(System.String[])
+    name: GetColumnData
+    nameWithType: SoArchiveMembersFetcher.GetColumnData
+    fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetColumnData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetColumnData(System.String[])
+    name: GetColumnData
+    nameWithType: SoArchiveMembersFetcher.GetColumnData
+    fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetColumnData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher.GetColumnData*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher.GetColumnData
+  isExternal: true
+  name: GetColumnData
+  nameWithType: SoArchiveSelectionMembersFetcher.GetColumnData
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher.GetColumnData
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ColumnDataDictionary
+  isExternal: true
+  name: ColumnDataDictionary
+  nameWithType: ColumnDataDictionary
+  fullName: SuperOffice.CRM.Services.ColumnDataDictionary
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetLinkHint(System.String[])
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetLinkHint(System.String[])
+  parent: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher
+  isExternal: true
+  name: GetLinkHint(String[])
+  nameWithType: SoArchiveMembersFetcher.GetLinkHint(String[])
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetLinkHint(System.String[])
+  nameWithType.vb: SoArchiveMembersFetcher.GetLinkHint(String())
+  fullName.vb: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetLinkHint(System.String())
+  name.vb: GetLinkHint(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetLinkHint(System.String[])
+    name: GetLinkHint
+    nameWithType: SoArchiveMembersFetcher.GetLinkHint
+    fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetLinkHint
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetLinkHint(System.String[])
+    name: GetLinkHint
+    nameWithType: SoArchiveMembersFetcher.GetLinkHint
+    fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher.GetLinkHint
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher.GetLinkHint*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher.GetLinkHint
+  isExternal: true
+  name: GetLinkHint
+  nameWithType: SoArchiveSelectionMembersFetcher.GetLinkHint
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher.GetLinkHint
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher.#ctor
+  isExternal: true
+  name: SoArchiveSelectionMembersFetcher
+  nameWithType: SoArchiveSelectionMembersFetcher.SoArchiveSelectionMembersFetcher
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher.SoArchiveSelectionMembersFetcher

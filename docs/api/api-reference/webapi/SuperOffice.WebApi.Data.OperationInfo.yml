@@ -1,0 +1,274 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.OperationInfo
+  commentId: T:SuperOffice.WebApi.Data.OperationInfo
+  id: OperationInfo
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.OperationInfo.#ctor
+  - SuperOffice.WebApi.Data.OperationInfo.EncodedDisplayName
+  - SuperOffice.WebApi.Data.OperationInfo.EncodedLeadTexts
+  - SuperOffice.WebApi.Data.OperationInfo.Key
+  langs:
+  - csharp
+  - vb
+  name: OperationInfo
+  nameWithType: OperationInfo
+  fullName: SuperOffice.WebApi.Data.OperationInfo
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for OperationInfo.\nThis class carries information about the definition and properties of an field used in bulk update system. The class is serializable and used on both the application and Web server sides.    \n"
+  syntax:
+    content: 'public class OperationInfo : Carrier'
+    content.vb: >-
+      Public Class OperationInfo
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.BulkUpdateAgent
+    commentId: T:SuperOffice.WebApi.Agents.BulkUpdateAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.OperationInfo.#ctor
+  commentId: M:SuperOffice.WebApi.Data.OperationInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.OperationInfo
+  langs:
+  - csharp
+  - vb
+  name: OperationInfo()
+  nameWithType: OperationInfo.OperationInfo()
+  fullName: SuperOffice.WebApi.Data.OperationInfo.OperationInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public OperationInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.OperationInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.OperationInfo.Key
+  commentId: P:SuperOffice.WebApi.Data.OperationInfo.Key
+  id: Key
+  parent: SuperOffice.WebApi.Data.OperationInfo
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: OperationInfo.Key
+  fullName: SuperOffice.WebApi.Data.OperationInfo.Key
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string Key { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Key As String
+  overload: SuperOffice.WebApi.Data.OperationInfo.Key*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.OperationInfo.EncodedDisplayName
+  commentId: P:SuperOffice.WebApi.Data.OperationInfo.EncodedDisplayName
+  id: EncodedDisplayName
+  parent: SuperOffice.WebApi.Data.OperationInfo
+  langs:
+  - csharp
+  - vb
+  name: EncodedDisplayName
+  nameWithType: OperationInfo.EncodedDisplayName
+  fullName: SuperOffice.WebApi.Data.OperationInfo.EncodedDisplayName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string EncodedDisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EncodedDisplayName As String
+  overload: SuperOffice.WebApi.Data.OperationInfo.EncodedDisplayName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.OperationInfo.EncodedLeadTexts
+  commentId: P:SuperOffice.WebApi.Data.OperationInfo.EncodedLeadTexts
+  id: EncodedLeadTexts
+  parent: SuperOffice.WebApi.Data.OperationInfo
+  langs:
+  - csharp
+  - vb
+  name: EncodedLeadTexts
+  nameWithType: OperationInfo.EncodedLeadTexts
+  fullName: SuperOffice.WebApi.Data.OperationInfo.EncodedLeadTexts
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string[] EncodedLeadTexts { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property EncodedLeadTexts As String()
+  overload: SuperOffice.WebApi.Data.OperationInfo.EncodedLeadTexts*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.BulkUpdateAgent
+  commentId: T:SuperOffice.WebApi.Agents.BulkUpdateAgent
+  isExternal: true
+  name: BulkUpdateAgent
+  nameWithType: BulkUpdateAgent
+  fullName: SuperOffice.WebApi.Agents.BulkUpdateAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.OperationInfo.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.OperationInfo.#ctor
+  isExternal: true
+  name: OperationInfo
+  nameWithType: OperationInfo.OperationInfo
+  fullName: SuperOffice.WebApi.Data.OperationInfo.OperationInfo
+- uid: SuperOffice.WebApi.Data.OperationInfo.Key*
+  commentId: Overload:SuperOffice.WebApi.Data.OperationInfo.Key
+  isExternal: true
+  name: Key
+  nameWithType: OperationInfo.Key
+  fullName: SuperOffice.WebApi.Data.OperationInfo.Key
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.OperationInfo.EncodedDisplayName*
+  commentId: Overload:SuperOffice.WebApi.Data.OperationInfo.EncodedDisplayName
+  isExternal: true
+  name: EncodedDisplayName
+  nameWithType: OperationInfo.EncodedDisplayName
+  fullName: SuperOffice.WebApi.Data.OperationInfo.EncodedDisplayName
+- uid: SuperOffice.WebApi.Data.OperationInfo.EncodedLeadTexts*
+  commentId: Overload:SuperOffice.WebApi.Data.OperationInfo.EncodedLeadTexts
+  isExternal: true
+  name: EncodedLeadTexts
+  nameWithType: OperationInfo.EncodedLeadTexts
+  fullName: SuperOffice.WebApi.Data.OperationInfo.EncodedLeadTexts
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

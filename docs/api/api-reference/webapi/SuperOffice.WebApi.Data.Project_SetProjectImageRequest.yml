@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Project_SetProjectImageRequest
+  commentId: T:SuperOffice.WebApi.Data.Project_SetProjectImageRequest
+  id: Project_SetProjectImageRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Project_SetProjectImageRequest.#ctor
+  - SuperOffice.WebApi.Data.Project_SetProjectImageRequest.Image
+  - SuperOffice.WebApi.Data.Project_SetProjectImageRequest.ProjectId
+  langs:
+  - csharp
+  - vb
+  name: Project_SetProjectImageRequest
+  nameWithType: Project_SetProjectImageRequest
+  fullName: SuperOffice.WebApi.Data.Project_SetProjectImageRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Project_SetProjectImageRequest : Object'
+    content.vb: >-
+      Public Class Project_SetProjectImageRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Project_SetProjectImageRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Project_SetProjectImageRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Project_SetProjectImageRequest
+  langs:
+  - csharp
+  - vb
+  name: Project_SetProjectImageRequest()
+  nameWithType: Project_SetProjectImageRequest.Project_SetProjectImageRequest()
+  fullName: SuperOffice.WebApi.Data.Project_SetProjectImageRequest.Project_SetProjectImageRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Project_SetProjectImageRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Project_SetProjectImageRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Project_SetProjectImageRequest.ProjectId
+  commentId: P:SuperOffice.WebApi.Data.Project_SetProjectImageRequest.ProjectId
+  id: ProjectId
+  parent: SuperOffice.WebApi.Data.Project_SetProjectImageRequest
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: Project_SetProjectImageRequest.ProjectId
+  fullName: SuperOffice.WebApi.Data.Project_SetProjectImageRequest.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ProjectId As Integer
+  overload: SuperOffice.WebApi.Data.Project_SetProjectImageRequest.ProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Project_SetProjectImageRequest.Image
+  commentId: P:SuperOffice.WebApi.Data.Project_SetProjectImageRequest.Image
+  id: Image
+  parent: SuperOffice.WebApi.Data.Project_SetProjectImageRequest
+  langs:
+  - csharp
+  - vb
+  name: Image
+  nameWithType: Project_SetProjectImageRequest.Image
+  fullName: SuperOffice.WebApi.Data.Project_SetProjectImageRequest.Image
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public byte[] Image { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Image As Byte()
+  overload: SuperOffice.WebApi.Data.Project_SetProjectImageRequest.Image*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Project_SetProjectImageRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_SetProjectImageRequest.#ctor
+  isExternal: true
+  name: Project_SetProjectImageRequest
+  nameWithType: Project_SetProjectImageRequest.Project_SetProjectImageRequest
+  fullName: SuperOffice.WebApi.Data.Project_SetProjectImageRequest.Project_SetProjectImageRequest
+- uid: SuperOffice.WebApi.Data.Project_SetProjectImageRequest.ProjectId*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_SetProjectImageRequest.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: Project_SetProjectImageRequest.ProjectId
+  fullName: SuperOffice.WebApi.Data.Project_SetProjectImageRequest.ProjectId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Project_SetProjectImageRequest.Image*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_SetProjectImageRequest.Image
+  isExternal: true
+  name: Image
+  nameWithType: Project_SetProjectImageRequest.Image
+  fullName: SuperOffice.WebApi.Data.Project_SetProjectImageRequest.Image
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

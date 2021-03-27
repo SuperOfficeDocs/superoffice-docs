@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest
+  id: EMail_GetFolderEMailCountRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest.ConnectionInfo
+  - SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest.OnlyUnread
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetFolderEMailCountRequest
+  nameWithType: EMail_GetFolderEMailCountRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_GetFolderEMailCountRequest : Object'
+    content.vb: >-
+      Public Class EMail_GetFolderEMailCountRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetFolderEMailCountRequest()
+  nameWithType: EMail_GetFolderEMailCountRequest.EMail_GetFolderEMailCountRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest.EMail_GetFolderEMailCountRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_GetFolderEMailCountRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest.ConnectionInfo
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest.ConnectionInfo
+  id: ConnectionInfo
+  parent: SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest
+  langs:
+  - csharp
+  - vb
+  name: ConnectionInfo
+  nameWithType: EMail_GetFolderEMailCountRequest.ConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest.ConnectionInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMailConnectionInfo ConnectionInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EMailConnectionInfo
+    content.vb: Public Property ConnectionInfo As EMailConnectionInfo
+  overload: SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest.ConnectionInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest.OnlyUnread
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest.OnlyUnread
+  id: OnlyUnread
+  parent: SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest
+  langs:
+  - csharp
+  - vb
+  name: OnlyUnread
+  nameWithType: EMail_GetFolderEMailCountRequest.OnlyUnread
+  fullName: SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest.OnlyUnread
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool OnlyUnread { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property OnlyUnread As Boolean
+  overload: SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest.OnlyUnread*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest.#ctor
+  isExternal: true
+  name: EMail_GetFolderEMailCountRequest
+  nameWithType: EMail_GetFolderEMailCountRequest.EMail_GetFolderEMailCountRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest.EMail_GetFolderEMailCountRequest
+- uid: SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest.ConnectionInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest.ConnectionInfo
+  isExternal: true
+  name: ConnectionInfo
+  nameWithType: EMail_GetFolderEMailCountRequest.ConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest.ConnectionInfo
+- uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+  commentId: T:SuperOffice.WebApi.Data.EMailConnectionInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EMailConnectionInfo
+  nameWithType: EMailConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMailConnectionInfo
+- uid: SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest.OnlyUnread*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest.OnlyUnread
+  isExternal: true
+  name: OnlyUnread
+  nameWithType: EMail_GetFolderEMailCountRequest.OnlyUnread
+  fullName: SuperOffice.WebApi.Data.EMail_GetFolderEMailCountRequest.OnlyUnread
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

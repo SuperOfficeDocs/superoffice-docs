@@ -1,0 +1,654 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.UserHelper
+  commentId: T:SuperOffice.CRM.Services.UserHelper
+  id: UserHelper
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.UserHelper.FromName(SuperOffice.CRM.Services.LicenseOwner[],System.String)
+  - SuperOffice.CRM.Services.UserHelper.FromName(SuperOffice.CRM.Services.ModuleLicenseLink[],System.String)
+  - SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner,System.String)
+  - SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.User,System.String)
+  - SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.User,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: UserHelper
+  nameWithType: UserHelper
+  fullName: SuperOffice.CRM.Services.UserHelper
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public static class UserHelper
+    content.vb: Public Module UserHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Services.UserHelper.FromName(SuperOffice.CRM.Services.LicenseOwner[],System.String)
+  commentId: M:SuperOffice.CRM.Services.UserHelper.FromName(SuperOffice.CRM.Services.LicenseOwner[],System.String)
+  id: FromName(SuperOffice.CRM.Services.LicenseOwner[],System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Services.UserHelper
+  langs:
+  - csharp
+  - vb
+  name: FromName(LicenseOwner[], String)
+  nameWithType: UserHelper.FromName(LicenseOwner[], String)
+  fullName: SuperOffice.CRM.Services.UserHelper.FromName(SuperOffice.CRM.Services.LicenseOwner[], System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the license owner from an array of license owners\n"
+  syntax:
+    content: public static LicenseOwner FromName(this LicenseOwner[] owners, string ownerName)
+    parameters:
+    - id: owners
+      type: SuperOffice.CRM.Services.LicenseOwner[]
+    - id: ownerName
+      type: System.String
+      description: Name of the module owner.
+    return:
+      type: SuperOffice.CRM.Services.LicenseOwner
+      description: License owner with provided name.  Null (VB Nothing) is returned if there are no license owners with this name.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromName(owners As LicenseOwner(), ownerName As String) As LicenseOwner
+  overload: SuperOffice.CRM.Services.UserHelper.FromName*
+  nameWithType.vb: UserHelper.FromName(LicenseOwner(), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Services.UserHelper.FromName(SuperOffice.CRM.Services.LicenseOwner(), System.String)
+  name.vb: FromName(LicenseOwner(), String)
+- uid: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.User,System.String)
+  commentId: M:SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.User,System.String)
+  id: GetModuleLicenseLink(SuperOffice.CRM.Services.User,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Services.UserHelper
+  langs:
+  - csharp
+  - vb
+  name: GetModuleLicenseLink(User, String)
+  nameWithType: UserHelper.GetModuleLicenseLink(User, String)
+  fullName: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.User, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a module license for a user.\n"
+  syntax:
+    content: public static ModuleLicenseLink GetModuleLicenseLink(this User user, string fullName)
+    parameters:
+    - id: user
+      type: SuperOffice.CRM.Services.User
+      description: User object holding license
+    - id: fullName
+      type: System.String
+      description: Full name of the license formatted like [OwnerName].[LicenseName].
+    return:
+      type: SuperOffice.CRM.Services.ModuleLicenseLink
+      description: Module license link available for a user. Null (VB Nothing) is returned if there are no modules with this name.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetModuleLicenseLink(user As User, fullName As String) As ModuleLicenseLink
+  overload: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.User,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.User,System.String,System.String)
+  id: GetModuleLicenseLink(SuperOffice.CRM.Services.User,System.String,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Services.UserHelper
+  langs:
+  - csharp
+  - vb
+  name: GetModuleLicenseLink(User, String, String)
+  nameWithType: UserHelper.GetModuleLicenseLink(User, String, String)
+  fullName: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.User, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a module license for a user.\n"
+  syntax:
+    content: public static ModuleLicenseLink GetModuleLicenseLink(this User user, string ownerName, string moduleName)
+    parameters:
+    - id: user
+      type: SuperOffice.CRM.Services.User
+      description: User object holding license
+    - id: ownerName
+      type: System.String
+      description: Name of the module owner
+    - id: moduleName
+      type: System.String
+      description: Name of the module
+    return:
+      type: SuperOffice.CRM.Services.ModuleLicenseLink
+      description: Module license link available for a user. Null (VB Nothing) is returned if there are no modules with this name.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetModuleLicenseLink(user As User, ownerName As String, moduleName As String) As ModuleLicenseLink
+  overload: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner,System.String)
+  commentId: M:SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner,System.String)
+  id: GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Services.UserHelper
+  langs:
+  - csharp
+  - vb
+  name: GetModuleLicenseLink(LicenseOwner, String)
+  nameWithType: UserHelper.GetModuleLicenseLink(LicenseOwner, String)
+  fullName: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink(SuperOffice.CRM.Services.LicenseOwner, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFind a module license link from a LicenseOwner.\n"
+  syntax:
+    content: public static ModuleLicenseLink GetModuleLicenseLink(this LicenseOwner owner, string moduleName)
+    parameters:
+    - id: owner
+      type: SuperOffice.CRM.Services.LicenseOwner
+      description: Owner to get module license link.
+    - id: moduleName
+      type: System.String
+      description: Name of to module to get.
+    return:
+      type: SuperOffice.CRM.Services.ModuleLicenseLink
+      description: ModuleLicenseLink mathcing module name.  Null if nothing is found.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetModuleLicenseLink(owner As LicenseOwner, moduleName As String) As ModuleLicenseLink
+  overload: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Services.UserHelper.FromName(SuperOffice.CRM.Services.ModuleLicenseLink[],System.String)
+  commentId: M:SuperOffice.CRM.Services.UserHelper.FromName(SuperOffice.CRM.Services.ModuleLicenseLink[],System.String)
+  id: FromName(SuperOffice.CRM.Services.ModuleLicenseLink[],System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Services.UserHelper
+  langs:
+  - csharp
+  - vb
+  name: FromName(ModuleLicenseLink[], String)
+  nameWithType: UserHelper.FromName(ModuleLicenseLink[], String)
+  fullName: SuperOffice.CRM.Services.UserHelper.FromName(SuperOffice.CRM.Services.ModuleLicenseLink[], System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFind a module license link from an array of module license links.\n"
+  syntax:
+    content: public static ModuleLicenseLink FromName(this ModuleLicenseLink[] modules, string moduleName)
+    parameters:
+    - id: modules
+      type: SuperOffice.CRM.Services.ModuleLicenseLink[]
+      description: Array of module license links
+    - id: moduleName
+      type: System.String
+      description: Name of the module to find
+    return:
+      type: SuperOffice.CRM.Services.ModuleLicenseLink
+      description: Module license link found from an array of module license links. Null (VB Nothing) is returned if there are no modules with this name.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromName(modules As ModuleLicenseLink(), moduleName As String) As ModuleLicenseLink
+  overload: SuperOffice.CRM.Services.UserHelper.FromName*
+  nameWithType.vb: UserHelper.FromName(ModuleLicenseLink(), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Services.UserHelper.FromName(SuperOffice.CRM.Services.ModuleLicenseLink(), System.String)
+  name.vb: FromName(ModuleLicenseLink(), String)
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.UserHelper.FromName*
+  commentId: Overload:SuperOffice.CRM.Services.UserHelper.FromName
+  isExternal: true
+  name: FromName
+  nameWithType: UserHelper.FromName
+  fullName: SuperOffice.CRM.Services.UserHelper.FromName
+- uid: SuperOffice.CRM.Services.LicenseOwner[]
+  isExternal: true
+  name: LicenseOwner[]
+  nameWithType: LicenseOwner[]
+  fullName: SuperOffice.CRM.Services.LicenseOwner[]
+  nameWithType.vb: LicenseOwner()
+  fullName.vb: SuperOffice.CRM.Services.LicenseOwner()
+  name.vb: LicenseOwner()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.LicenseOwner
+    name: LicenseOwner
+    nameWithType: LicenseOwner
+    fullName: SuperOffice.CRM.Services.LicenseOwner
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.LicenseOwner
+    name: LicenseOwner
+    nameWithType: LicenseOwner
+    fullName: SuperOffice.CRM.Services.LicenseOwner
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.LicenseOwner
+  commentId: T:SuperOffice.CRM.Services.LicenseOwner
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: LicenseOwner
+  nameWithType: LicenseOwner
+  fullName: SuperOffice.CRM.Services.LicenseOwner
+- uid: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink*
+  commentId: Overload:SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink
+  isExternal: true
+  name: GetModuleLicenseLink
+  nameWithType: UserHelper.GetModuleLicenseLink
+  fullName: SuperOffice.CRM.Services.UserHelper.GetModuleLicenseLink
+- uid: SuperOffice.CRM.Services.User
+  commentId: T:SuperOffice.CRM.Services.User
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: User
+  nameWithType: User
+  fullName: SuperOffice.CRM.Services.User
+- uid: SuperOffice.CRM.Services.ModuleLicenseLink
+  commentId: T:SuperOffice.CRM.Services.ModuleLicenseLink
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ModuleLicenseLink
+  nameWithType: ModuleLicenseLink
+  fullName: SuperOffice.CRM.Services.ModuleLicenseLink
+- uid: SuperOffice.CRM.Services.ModuleLicenseLink[]
+  isExternal: true
+  name: ModuleLicenseLink[]
+  nameWithType: ModuleLicenseLink[]
+  fullName: SuperOffice.CRM.Services.ModuleLicenseLink[]
+  nameWithType.vb: ModuleLicenseLink()
+  fullName.vb: SuperOffice.CRM.Services.ModuleLicenseLink()
+  name.vb: ModuleLicenseLink()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ModuleLicenseLink
+    name: ModuleLicenseLink
+    nameWithType: ModuleLicenseLink
+    fullName: SuperOffice.CRM.Services.ModuleLicenseLink
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ModuleLicenseLink
+    name: ModuleLicenseLink
+    nameWithType: ModuleLicenseLink
+    fullName: SuperOffice.CRM.Services.ModuleLicenseLink
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

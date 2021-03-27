@@ -1,0 +1,1921 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Lists.TicketListProvider
+  commentId: T:SuperOffice.CRM.Lists.TicketListProvider
+  id: TicketListProvider
+  parent: SuperOffice.CRM.Lists
+  children:
+  - SuperOffice.CRM.Lists.TicketListProvider.#ctor
+  - SuperOffice.CRM.Lists.TicketListProvider.GetMainQuery
+  - SuperOffice.CRM.Lists.TicketListProvider.GetRootItems
+  - SuperOffice.CRM.Lists.TicketListProvider.Init
+  - SuperOffice.CRM.Lists.TicketListProvider.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
+  - SuperOffice.CRM.Lists.TicketListProvider.ProviderName
+  - SuperOffice.CRM.Lists.TicketListProvider.SetSearchRestriction(SuperOffice.Data.SQL.Select,System.String)
+  - SuperOffice.CRM.Lists.TicketListProvider.TableInfo
+  langs:
+  - csharp
+  - vb
+  name: TicketListProvider
+  nameWithType: TicketListProvider
+  fullName: SuperOffice.CRM.Lists.TicketListProvider
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: >-
+      [MDOProviderPlugin("Ticket")]
+
+      public class TicketListProvider : AnyTableListProviderBase, ISoListProvider, ISoList, IPlugin
+    content.vb: >-
+      <MDOProviderPlugin("Ticket")>
+
+      Public Class TicketListProvider
+          Inherits AnyTableListProviderBase
+          Implements ISoListProvider, ISoList, IPlugin
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase
+  implements:
+  - SuperOffice.CRM.Lists.ISoListProvider
+  - SuperOffice.CRM.Lists.ISoList
+  inheritedMembers:
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItems
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryRestriction(SuperOffice.Data.SQL.Select)
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.ListName
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.AdditionalInfo
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryIDs
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.OnlyReadHistory
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.SearchValue
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.ForceFlatList
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryInfo
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryItems
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.RootItems
+  - SuperOffice.CRM.Lists.AnyTableListProviderBase.HeadingItems
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Lists.TicketListProvider.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Lists.TicketListProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.TicketListProvider)
+  - SuperOffice.CRM.Lists.TicketListProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Lists.TicketListProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.CRM.Lists.MDOProviderPluginAttribute
+    ctor: SuperOffice.CRM.Lists.MDOProviderPluginAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Ticket
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Lists.TicketListProvider.ProviderName
+  commentId: F:SuperOffice.CRM.Lists.TicketListProvider.ProviderName
+  id: ProviderName
+  parent: SuperOffice.CRM.Lists.TicketListProvider
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: TicketListProvider.ProviderName
+  fullName: SuperOffice.CRM.Lists.TicketListProvider.ProviderName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public const string ProviderName = "Ticket"
+    return:
+      type: System.String
+    content.vb: Public Const ProviderName As String = "Ticket"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Lists.TicketListProvider.Init
+  commentId: M:SuperOffice.CRM.Lists.TicketListProvider.Init
+  id: Init
+  parent: SuperOffice.CRM.Lists.TicketListProvider
+  langs:
+  - csharp
+  - vb
+  name: Init()
+  nameWithType: TicketListProvider.Init()
+  fullName: SuperOffice.CRM.Lists.TicketListProvider.Init()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected override void Init()
+    content.vb: Protected Overrides Sub Init
+  overridden: SuperOffice.CRM.Lists.AnyTableListProviderBase.Init
+  overload: SuperOffice.CRM.Lists.TicketListProvider.Init*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Lists.TicketListProvider.GetMainQuery
+  commentId: M:SuperOffice.CRM.Lists.TicketListProvider.GetMainQuery
+  id: GetMainQuery
+  parent: SuperOffice.CRM.Lists.TicketListProvider
+  langs:
+  - csharp
+  - vb
+  name: GetMainQuery()
+  nameWithType: TicketListProvider.GetMainQuery()
+  fullName: SuperOffice.CRM.Lists.TicketListProvider.GetMainQuery()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected override Select GetMainQuery()
+    return:
+      type: SuperOffice.Data.SQL.Select
+    content.vb: 'Protected Overrides Function GetMainQuery As '
+  overridden: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetMainQuery
+  overload: SuperOffice.CRM.Lists.TicketListProvider.GetMainQuery*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Lists.TicketListProvider.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
+  commentId: M:SuperOffice.CRM.Lists.TicketListProvider.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
+  id: OnRead(SuperOffice.Data.SoDataReader,System.Int16)
+  parent: SuperOffice.CRM.Lists.TicketListProvider
+  langs:
+  - csharp
+  - vb
+  name: OnRead(SoDataReader, Int16)
+  nameWithType: TicketListProvider.OnRead(SoDataReader, Int16)
+  fullName: SuperOffice.CRM.Lists.TicketListProvider.OnRead(SuperOffice.Data.SoDataReader, System.Int16)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected override ISoListItem OnRead(SoDataReader reader, short lastRank)
+    parameters:
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+    - id: lastRank
+      type: System.Int16
+    return:
+      type: SuperOffice.CRM.Lists.ISoListItem
+    content.vb: Protected Overrides Function OnRead(reader As SoDataReader, lastRank As Short) As ISoListItem
+  overridden: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
+  overload: SuperOffice.CRM.Lists.TicketListProvider.OnRead*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Lists.TicketListProvider.SetSearchRestriction(SuperOffice.Data.SQL.Select,System.String)
+  commentId: M:SuperOffice.CRM.Lists.TicketListProvider.SetSearchRestriction(SuperOffice.Data.SQL.Select,System.String)
+  id: SetSearchRestriction(SuperOffice.Data.SQL.Select,System.String)
+  parent: SuperOffice.CRM.Lists.TicketListProvider
+  langs:
+  - csharp
+  - vb
+  name: SetSearchRestriction(Select, String)
+  nameWithType: TicketListProvider.SetSearchRestriction(Select, String)
+  fullName: SuperOffice.CRM.Lists.TicketListProvider.SetSearchRestriction(SuperOffice.Data.SQL.Select, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected override void SetSearchRestriction(Select sql, string searchValue)
+    parameters:
+    - id: sql
+      type: SuperOffice.Data.SQL.Select
+    - id: searchValue
+      type: System.String
+    content.vb: Protected Overrides Sub SetSearchRestriction(sql As  Select, searchValue As String)
+  overridden: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetSearchRestriction(SuperOffice.Data.SQL.Select,System.String)
+  overload: SuperOffice.CRM.Lists.TicketListProvider.SetSearchRestriction*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Lists.TicketListProvider.GetRootItems
+  commentId: M:SuperOffice.CRM.Lists.TicketListProvider.GetRootItems
+  id: GetRootItems
+  parent: SuperOffice.CRM.Lists.TicketListProvider
+  langs:
+  - csharp
+  - vb
+  name: GetRootItems()
+  nameWithType: TicketListProvider.GetRootItems()
+  fullName: SuperOffice.CRM.Lists.TicketListProvider.GetRootItems()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected override List<ISoListItem> GetRootItems()
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
+    content.vb: Protected Overrides Function GetRootItems As List(Of ISoListItem)
+  overridden: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems
+  overload: SuperOffice.CRM.Lists.TicketListProvider.GetRootItems*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Lists.TicketListProvider.#ctor
+  commentId: M:SuperOffice.CRM.Lists.TicketListProvider.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Lists.TicketListProvider
+  langs:
+  - csharp
+  - vb
+  name: TicketListProvider()
+  nameWithType: TicketListProvider.TicketListProvider()
+  fullName: SuperOffice.CRM.Lists.TicketListProvider.TicketListProvider()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public TicketListProvider()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Lists.TicketListProvider.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Lists.TicketListProvider.TableInfo
+  commentId: P:SuperOffice.CRM.Lists.TicketListProvider.TableInfo
+  id: TableInfo
+  parent: SuperOffice.CRM.Lists.TicketListProvider
+  langs:
+  - csharp
+  - vb
+  name: TableInfo
+  nameWithType: TicketListProvider.TableInfo
+  fullName: SuperOffice.CRM.Lists.TicketListProvider.TableInfo
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected override TableInfo TableInfo { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TableInfo
+    content.vb: Protected Overrides ReadOnly Property TableInfo As TableInfo
+  overridden: SuperOffice.CRM.Lists.AnyTableListProviderBase.TableInfo
+  overload: SuperOffice.CRM.Lists.TicketListProvider.TableInfo*
+  modifiers.csharp:
+  - protected
+  - override
+  - get
+  modifiers.vb:
+  - Protected
+  - Overrides
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Lists
+  commentId: N:SuperOffice.CRM.Lists
+  isExternal: true
+  name: SuperOffice.CRM.Lists
+  nameWithType: SuperOffice.CRM.Lists
+  fullName: SuperOffice.CRM.Lists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  commentId: T:SuperOffice.CRM.Lists.AnyTableListProviderBase
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: AnyTableListProviderBase
+  nameWithType: AnyTableListProviderBase
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase
+- uid: SuperOffice.CRM.Lists.ISoListProvider
+  commentId: T:SuperOffice.CRM.Lists.ISoListProvider
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: ISoListProvider
+  nameWithType: ISoListProvider
+  fullName: SuperOffice.CRM.Lists.ISoListProvider
+- uid: SuperOffice.CRM.Lists.ISoList
+  commentId: T:SuperOffice.CRM.Lists.ISoList
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: ISoList
+  nameWithType: ISoList
+  fullName: SuperOffice.CRM.Lists.ISoList
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: Construct(String, String, Int32[], Boolean, String, Boolean)
+  nameWithType: AnyTableListProviderBase.Construct(String, String, Int32[], Boolean, String, Boolean)
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct(System.String, System.String, System.Int32[], System.Boolean, System.String, System.Boolean)
+  nameWithType.vb: AnyTableListProviderBase.Construct(String, String, Int32(), Boolean, String, Boolean)
+  fullName.vb: SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct(System.String, System.String, System.Int32(), System.Boolean, System.String, System.Boolean)
+  name.vb: Construct(String, String, Int32(), Boolean, String, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+    name: Construct
+    nameWithType: AnyTableListProviderBase.Construct
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+    name: Construct
+    nameWithType: AnyTableListProviderBase.Construct
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItems
+  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItems
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: GetHistoryItems()
+  nameWithType: AnyTableListProviderBase.GetHistoryItems()
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItems()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItems
+    name: GetHistoryItems
+    nameWithType: AnyTableListProviderBase.GetHistoryItems
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItems
+    name: GetHistoryItems
+    nameWithType: AnyTableListProviderBase.GetHistoryItems
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: OnPreGetRootItems(List<ISoListItem>)
+  nameWithType: AnyTableListProviderBase.OnPreGetRootItems(List<ISoListItem>)
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItems(System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>)
+  nameWithType.vb: AnyTableListProviderBase.OnPreGetRootItems(List(Of ISoListItem))
+  fullName.vb: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItems(System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem))
+  name.vb: OnPreGetRootItems(List(Of ISoListItem))
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+    name: OnPreGetRootItems
+    nameWithType: AnyTableListProviderBase.OnPreGetRootItems
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+    name: OnPreGetRootItems
+    nameWithType: AnyTableListProviderBase.OnPreGetRootItems
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: OnPostGetRootItems(List<ISoListItem>)
+  nameWithType: AnyTableListProviderBase.OnPostGetRootItems(List<ISoListItem>)
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItems(System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>)
+  nameWithType.vb: AnyTableListProviderBase.OnPostGetRootItems(List(Of ISoListItem))
+  fullName.vb: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItems(System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem))
+  name.vb: OnPostGetRootItems(List(Of ISoListItem))
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+    name: OnPostGetRootItems
+    nameWithType: AnyTableListProviderBase.OnPostGetRootItems
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+    name: OnPostGetRootItems
+    nameWithType: AnyTableListProviderBase.OnPostGetRootItems
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryRestriction(SuperOffice.Data.SQL.Select)
+  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryRestriction(SuperOffice.Data.SQL.Select)
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: SetHistoryRestriction(Select)
+  nameWithType: AnyTableListProviderBase.SetHistoryRestriction(Select)
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryRestriction(SuperOffice.Data.SQL.Select)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryRestriction(SuperOffice.Data.SQL.Select)
+    name: SetHistoryRestriction
+    nameWithType: AnyTableListProviderBase.SetHistoryRestriction
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryRestriction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Select
+    name: Select
+    nameWithType: Select
+    fullName: SuperOffice.Data.SQL.Select
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryRestriction(SuperOffice.Data.SQL.Select)
+    name: SetHistoryRestriction
+    nameWithType: AnyTableListProviderBase.SetHistoryRestriction
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryRestriction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Select
+    name: Select
+    nameWithType: Select
+    fullName: SuperOffice.Data.SQL.Select
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: ExecuteQuery(Select, List<ISoListItem>)
+  nameWithType: AnyTableListProviderBase.ExecuteQuery(Select, List<ISoListItem>)
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select, System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>)
+  nameWithType.vb: AnyTableListProviderBase.ExecuteQuery(Select, List(Of ISoListItem))
+  fullName.vb: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select, System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem))
+  name.vb: ExecuteQuery(Select, List(Of ISoListItem))
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+    name: ExecuteQuery
+    nameWithType: AnyTableListProviderBase.ExecuteQuery
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Select
+    name: Select
+    nameWithType: Select
+    fullName: SuperOffice.Data.SQL.Select
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+    name: ExecuteQuery
+    nameWithType: AnyTableListProviderBase.ExecuteQuery
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Select
+    name: Select
+    nameWithType: Select
+    fullName: SuperOffice.Data.SQL.Select
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
+  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: ExecuteReader(SoCommand)
+  nameWithType: AnyTableListProviderBase.ExecuteReader(SoCommand)
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
+    name: ExecuteReader
+    nameWithType: AnyTableListProviderBase.ExecuteReader
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoCommand
+    name: SoCommand
+    nameWithType: SoCommand
+    fullName: SuperOffice.Data.SoCommand
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
+    name: ExecuteReader
+    nameWithType: AnyTableListProviderBase.ExecuteReader
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoCommand
+    name: SoCommand
+    nameWithType: SoCommand
+    fullName: SuperOffice.Data.SoCommand
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ListName
+  commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.ListName
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: ListName
+  nameWithType: AnyTableListProviderBase.ListName
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ListName
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.AdditionalInfo
+  commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.AdditionalInfo
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: AdditionalInfo
+  nameWithType: AnyTableListProviderBase.AdditionalInfo
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.AdditionalInfo
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryIDs
+  commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryIDs
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: HistoryIDs
+  nameWithType: AnyTableListProviderBase.HistoryIDs
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryIDs
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnlyReadHistory
+  commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.OnlyReadHistory
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: OnlyReadHistory
+  nameWithType: AnyTableListProviderBase.OnlyReadHistory
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnlyReadHistory
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.SearchValue
+  commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.SearchValue
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: SearchValue
+  nameWithType: AnyTableListProviderBase.SearchValue
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.SearchValue
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ForceFlatList
+  commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.ForceFlatList
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: ForceFlatList
+  nameWithType: AnyTableListProviderBase.ForceFlatList
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ForceFlatList
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryInfo
+  commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryInfo
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: HistoryInfo
+  nameWithType: AnyTableListProviderBase.HistoryInfo
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryInfo
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryItems
+  commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryItems
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: HistoryItems
+  nameWithType: AnyTableListProviderBase.HistoryItems
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryItems
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.RootItems
+  commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.RootItems
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: RootItems
+  nameWithType: AnyTableListProviderBase.RootItems
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.RootItems
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.HeadingItems
+  commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.HeadingItems
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: HeadingItems
+  nameWithType: AnyTableListProviderBase.HeadingItems
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.HeadingItems
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.TicketListProvider.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TicketListProvider, To>()
+  nameWithType: EnumUtil.MapEnums<TicketListProvider, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.TicketListProvider, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TicketListProvider, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.TicketListProvider, To)()
+  name.vb: MapEnums(Of TicketListProvider, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TicketListProvider, To>
+    nameWithType: EnumUtil.MapEnums<TicketListProvider, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.TicketListProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TicketListProvider, To)
+    nameWithType: EnumUtil.MapEnums(Of TicketListProvider, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.TicketListProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.TicketListProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.TicketListProvider)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<TicketListProvider>(TicketListProvider)
+  nameWithType: ObjectExtensions.AssignByReflection<TicketListProvider>(TicketListProvider)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.TicketListProvider>(SuperOffice.CRM.Lists.TicketListProvider)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TicketListProvider)(TicketListProvider)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.TicketListProvider)(SuperOffice.CRM.Lists.TicketListProvider)
+  name.vb: AssignByReflection(Of TicketListProvider)(TicketListProvider)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<TicketListProvider>
+    nameWithType: ObjectExtensions.AssignByReflection<TicketListProvider>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.TicketListProvider>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.TicketListProvider
+    name: TicketListProvider
+    nameWithType: TicketListProvider
+    fullName: SuperOffice.CRM.Lists.TicketListProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of TicketListProvider)
+    nameWithType: ObjectExtensions.AssignByReflection(Of TicketListProvider)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.TicketListProvider)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.TicketListProvider
+    name: TicketListProvider
+    nameWithType: TicketListProvider
+    fullName: SuperOffice.CRM.Lists.TicketListProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.TicketListProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<TicketListProvider>()
+  nameWithType: ObjectExtensions.GraphCopy<TicketListProvider>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.TicketListProvider>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TicketListProvider)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.TicketListProvider)()
+  name.vb: GraphCopy(Of TicketListProvider)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<TicketListProvider>
+    nameWithType: ObjectExtensions.GraphCopy<TicketListProvider>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.TicketListProvider>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of TicketListProvider)
+    nameWithType: ObjectExtensions.GraphCopy(Of TicketListProvider)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.TicketListProvider)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.TicketListProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TicketListProvider, To>()
+  nameWithType: Converters.MapEnums<TicketListProvider, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.TicketListProvider, To>()
+  nameWithType.vb: Converters.MapEnums(Of TicketListProvider, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.TicketListProvider, To)()
+  name.vb: MapEnums(Of TicketListProvider, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TicketListProvider, To>
+    nameWithType: Converters.MapEnums<TicketListProvider, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.TicketListProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TicketListProvider, To)
+    nameWithType: Converters.MapEnums(Of TicketListProvider, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.TicketListProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.Init
+  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.Init
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: Init()
+  nameWithType: AnyTableListProviderBase.Init()
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.Init()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.Init
+    name: Init
+    nameWithType: AnyTableListProviderBase.Init
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.Init
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.Init
+    name: Init
+    nameWithType: AnyTableListProviderBase.Init
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.Init
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.TicketListProvider.Init*
+  commentId: Overload:SuperOffice.CRM.Lists.TicketListProvider.Init
+  isExternal: true
+  name: Init
+  nameWithType: TicketListProvider.Init
+  fullName: SuperOffice.CRM.Lists.TicketListProvider.Init
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetMainQuery
+  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.GetMainQuery
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: GetMainQuery()
+  nameWithType: AnyTableListProviderBase.GetMainQuery()
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetMainQuery()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetMainQuery
+    name: GetMainQuery
+    nameWithType: AnyTableListProviderBase.GetMainQuery
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetMainQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetMainQuery
+    name: GetMainQuery
+    nameWithType: AnyTableListProviderBase.GetMainQuery
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetMainQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.TicketListProvider.GetMainQuery*
+  commentId: Overload:SuperOffice.CRM.Lists.TicketListProvider.GetMainQuery
+  isExternal: true
+  name: GetMainQuery
+  nameWithType: TicketListProvider.GetMainQuery
+  fullName: SuperOffice.CRM.Lists.TicketListProvider.GetMainQuery
+- uid: SuperOffice.Data.SQL.Select
+  commentId: T:SuperOffice.Data.SQL.Select
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Select
+  nameWithType: Select
+  fullName: SuperOffice.Data.SQL.Select
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
+  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: OnRead(SoDataReader, Int16)
+  nameWithType: AnyTableListProviderBase.OnRead(SoDataReader, Int16)
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnRead(SuperOffice.Data.SoDataReader, System.Int16)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
+    name: OnRead
+    nameWithType: AnyTableListProviderBase.OnRead
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnRead
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int16
+    name: Int16
+    nameWithType: Int16
+    fullName: System.Int16
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
+    name: OnRead
+    nameWithType: AnyTableListProviderBase.OnRead
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnRead
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int16
+    name: Int16
+    nameWithType: Int16
+    fullName: System.Int16
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.TicketListProvider.OnRead*
+  commentId: Overload:SuperOffice.CRM.Lists.TicketListProvider.OnRead
+  isExternal: true
+  name: OnRead
+  nameWithType: TicketListProvider.OnRead
+  fullName: SuperOffice.CRM.Lists.TicketListProvider.OnRead
+- uid: SuperOffice.Data.SoDataReader
+  commentId: T:SuperOffice.Data.SoDataReader
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoDataReader
+  nameWithType: SoDataReader
+  fullName: SuperOffice.Data.SoDataReader
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Lists.ISoListItem
+  commentId: T:SuperOffice.CRM.Lists.ISoListItem
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: ISoListItem
+  nameWithType: ISoListItem
+  fullName: SuperOffice.CRM.Lists.ISoListItem
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetSearchRestriction(SuperOffice.Data.SQL.Select,System.String)
+  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.SetSearchRestriction(SuperOffice.Data.SQL.Select,System.String)
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: SetSearchRestriction(Select, String)
+  nameWithType: AnyTableListProviderBase.SetSearchRestriction(Select, String)
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetSearchRestriction(SuperOffice.Data.SQL.Select, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetSearchRestriction(SuperOffice.Data.SQL.Select,System.String)
+    name: SetSearchRestriction
+    nameWithType: AnyTableListProviderBase.SetSearchRestriction
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetSearchRestriction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Select
+    name: Select
+    nameWithType: Select
+    fullName: SuperOffice.Data.SQL.Select
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetSearchRestriction(SuperOffice.Data.SQL.Select,System.String)
+    name: SetSearchRestriction
+    nameWithType: AnyTableListProviderBase.SetSearchRestriction
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetSearchRestriction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Select
+    name: Select
+    nameWithType: Select
+    fullName: SuperOffice.Data.SQL.Select
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.TicketListProvider.SetSearchRestriction*
+  commentId: Overload:SuperOffice.CRM.Lists.TicketListProvider.SetSearchRestriction
+  isExternal: true
+  name: SetSearchRestriction
+  nameWithType: TicketListProvider.SetSearchRestriction
+  fullName: SuperOffice.CRM.Lists.TicketListProvider.SetSearchRestriction
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems
+  commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: GetRootItems()
+  nameWithType: AnyTableListProviderBase.GetRootItems()
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems
+    name: GetRootItems
+    nameWithType: AnyTableListProviderBase.GetRootItems
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems
+    name: GetRootItems
+    nameWithType: AnyTableListProviderBase.GetRootItems
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.TicketListProvider.GetRootItems*
+  commentId: Overload:SuperOffice.CRM.Lists.TicketListProvider.GetRootItems
+  isExternal: true
+  name: GetRootItems
+  nameWithType: TicketListProvider.GetRootItems
+  fullName: SuperOffice.CRM.Lists.TicketListProvider.GetRootItems
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ISoListItem>
+  nameWithType: List<ISoListItem>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>
+  nameWithType.vb: List(Of ISoListItem)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem)
+  name.vb: List(Of ISoListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Lists.TicketListProvider.#ctor*
+  commentId: Overload:SuperOffice.CRM.Lists.TicketListProvider.#ctor
+  isExternal: true
+  name: TicketListProvider
+  nameWithType: TicketListProvider.TicketListProvider
+  fullName: SuperOffice.CRM.Lists.TicketListProvider.TicketListProvider
+- uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.TableInfo
+  commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.TableInfo
+  parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
+  isExternal: true
+  name: TableInfo
+  nameWithType: AnyTableListProviderBase.TableInfo
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.TableInfo
+- uid: SuperOffice.CRM.Lists.TicketListProvider.TableInfo*
+  commentId: Overload:SuperOffice.CRM.Lists.TicketListProvider.TableInfo
+  isExternal: true
+  name: TableInfo
+  nameWithType: TicketListProvider.TableInfo
+  fullName: SuperOffice.CRM.Lists.TicketListProvider.TableInfo
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo

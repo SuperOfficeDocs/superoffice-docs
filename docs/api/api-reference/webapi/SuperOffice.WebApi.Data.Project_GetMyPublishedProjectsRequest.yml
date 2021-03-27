@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Project_GetMyPublishedProjectsRequest
+  commentId: T:SuperOffice.WebApi.Data.Project_GetMyPublishedProjectsRequest
+  id: Project_GetMyPublishedProjectsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Project_GetMyPublishedProjectsRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: Project_GetMyPublishedProjectsRequest
+  nameWithType: Project_GetMyPublishedProjectsRequest
+  fullName: SuperOffice.WebApi.Data.Project_GetMyPublishedProjectsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Project_GetMyPublishedProjectsRequest : Object'
+    content.vb: >-
+      Public Class Project_GetMyPublishedProjectsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Project_GetMyPublishedProjectsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Project_GetMyPublishedProjectsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Project_GetMyPublishedProjectsRequest
+  langs:
+  - csharp
+  - vb
+  name: Project_GetMyPublishedProjectsRequest()
+  nameWithType: Project_GetMyPublishedProjectsRequest.Project_GetMyPublishedProjectsRequest()
+  fullName: SuperOffice.WebApi.Data.Project_GetMyPublishedProjectsRequest.Project_GetMyPublishedProjectsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Project_GetMyPublishedProjectsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Project_GetMyPublishedProjectsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Project_GetMyPublishedProjectsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_GetMyPublishedProjectsRequest.#ctor
+  isExternal: true
+  name: Project_GetMyPublishedProjectsRequest
+  nameWithType: Project_GetMyPublishedProjectsRequest.Project_GetMyPublishedProjectsRequest
+  fullName: SuperOffice.WebApi.Data.Project_GetMyPublishedProjectsRequest.Project_GetMyPublishedProjectsRequest

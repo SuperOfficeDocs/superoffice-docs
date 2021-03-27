@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest
+  commentId: T:SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest
+  id: Selection_RemoveSelectionMembersFromSearchRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest.#ctor
+  - SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest.SelectionId
+  - SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest.StorageKey
+  langs:
+  - csharp
+  - vb
+  name: Selection_RemoveSelectionMembersFromSearchRequest
+  nameWithType: Selection_RemoveSelectionMembersFromSearchRequest
+  fullName: SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Selection_RemoveSelectionMembersFromSearchRequest : Object'
+    content.vb: >-
+      Public Class Selection_RemoveSelectionMembersFromSearchRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest
+  langs:
+  - csharp
+  - vb
+  name: Selection_RemoveSelectionMembersFromSearchRequest()
+  nameWithType: Selection_RemoveSelectionMembersFromSearchRequest.Selection_RemoveSelectionMembersFromSearchRequest()
+  fullName: SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest.Selection_RemoveSelectionMembersFromSearchRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Selection_RemoveSelectionMembersFromSearchRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest.SelectionId
+  commentId: P:SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest.SelectionId
+  id: SelectionId
+  parent: SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: Selection_RemoveSelectionMembersFromSearchRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SelectionId As Integer
+  overload: SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest.SelectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest.StorageKey
+  commentId: P:SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest.StorageKey
+  id: StorageKey
+  parent: SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest
+  langs:
+  - csharp
+  - vb
+  name: StorageKey
+  nameWithType: Selection_RemoveSelectionMembersFromSearchRequest.StorageKey
+  fullName: SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest.StorageKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string StorageKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StorageKey As String
+  overload: SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest.StorageKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest.#ctor
+  isExternal: true
+  name: Selection_RemoveSelectionMembersFromSearchRequest
+  nameWithType: Selection_RemoveSelectionMembersFromSearchRequest.Selection_RemoveSelectionMembersFromSearchRequest
+  fullName: SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest.Selection_RemoveSelectionMembersFromSearchRequest
+- uid: SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest.SelectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: Selection_RemoveSelectionMembersFromSearchRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest.SelectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest.StorageKey*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest.StorageKey
+  isExternal: true
+  name: StorageKey
+  nameWithType: Selection_RemoveSelectionMembersFromSearchRequest.StorageKey
+  fullName: SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest.StorageKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

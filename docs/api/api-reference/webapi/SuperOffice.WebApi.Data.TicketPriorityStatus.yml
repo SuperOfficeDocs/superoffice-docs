@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TicketPriorityStatus
+  commentId: T:SuperOffice.WebApi.Data.TicketPriorityStatus
+  id: TicketPriorityStatus
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TicketPriorityStatus.Deleted
+  - SuperOffice.WebApi.Data.TicketPriorityStatus.Normal
+  - SuperOffice.WebApi.Data.TicketPriorityStatus.Unknown
+  - SuperOffice.WebApi.Data.TicketPriorityStatus.value__
+  langs:
+  - csharp
+  - vb
+  name: TicketPriorityStatus
+  nameWithType: TicketPriorityStatus
+  fullName: SuperOffice.WebApi.Data.TicketPriorityStatus
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStatus of the ticket priority\nThis Enum is used by:  ticket_priority.status\n"
+  syntax:
+    content: 'public sealed class TicketPriorityStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class TicketPriorityStatus
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.TicketPriorityStatus.value__
+  commentId: F:SuperOffice.WebApi.Data.TicketPriorityStatus.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.TicketPriorityStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TicketPriorityStatus.value__
+  fullName: SuperOffice.WebApi.Data.TicketPriorityStatus.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketPriorityStatus.Unknown
+  commentId: F:SuperOffice.WebApi.Data.TicketPriorityStatus.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.TicketPriorityStatus
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: TicketPriorityStatus.Unknown
+  fullName: SuperOffice.WebApi.Data.TicketPriorityStatus.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: The status is unknown, should normally not occure in the database\n"
+  syntax:
+    content: public const TicketPriorityStatus Unknown
+    return:
+      type: SuperOffice.WebApi.Data.TicketPriorityStatus
+    content.vb: Public Const Unknown As TicketPriorityStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketPriorityStatus.Normal
+  commentId: F:SuperOffice.WebApi.Data.TicketPriorityStatus.Normal
+  id: Normal
+  parent: SuperOffice.WebApi.Data.TicketPriorityStatus
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: TicketPriorityStatus.Normal
+  fullName: SuperOffice.WebApi.Data.TicketPriorityStatus.Normal
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: The status is normal\n"
+  syntax:
+    content: public const TicketPriorityStatus Normal
+    return:
+      type: SuperOffice.WebApi.Data.TicketPriorityStatus
+    content.vb: Public Const Normal As TicketPriorityStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketPriorityStatus.Deleted
+  commentId: F:SuperOffice.WebApi.Data.TicketPriorityStatus.Deleted
+  id: Deleted
+  parent: SuperOffice.WebApi.Data.TicketPriorityStatus
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: TicketPriorityStatus.Deleted
+  fullName: SuperOffice.WebApi.Data.TicketPriorityStatus.Deleted
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: The status is marked as deleted\n"
+  syntax:
+    content: public const TicketPriorityStatus Deleted
+    return:
+      type: SuperOffice.WebApi.Data.TicketPriorityStatus
+    content.vb: Public Const Deleted As TicketPriorityStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.TicketPriorityStatus
+  commentId: T:SuperOffice.WebApi.Data.TicketPriorityStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TicketPriorityStatus
+  nameWithType: TicketPriorityStatus
+  fullName: SuperOffice.WebApi.Data.TicketPriorityStatus

@@ -1,0 +1,647 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.RedLetterDayFields
+  commentId: T:SuperOffice.CRM.Data.DBC.RedLetterDayFields
+  id: DBC.RedLetterDayFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.RedLetterDayFields.Color
+  - SuperOffice.CRM.Data.DBC.RedLetterDayFields.Colored
+  - SuperOffice.CRM.Data.DBC.RedLetterDayFields.CountryId
+  - SuperOffice.CRM.Data.DBC.RedLetterDayFields.ExtraFlags
+  - SuperOffice.CRM.Data.DBC.RedLetterDayFields.Reddate
+  - SuperOffice.CRM.Data.DBC.RedLetterDayFields.RedletterdayId
+  - SuperOffice.CRM.Data.DBC.RedLetterDayFields.Reds
+  - SuperOffice.CRM.Data.DBC.RedLetterDayFields.RgbColour
+  - SuperOffice.CRM.Data.DBC.RedLetterDayFields.Text
+  - SuperOffice.CRM.Data.DBC.RedLetterDayFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.RedLetterDayFields
+  nameWithType: DBC.RedLetterDayFields
+  fullName: SuperOffice.CRM.Data.DBC.RedLetterDayFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for RedLetterDay, Red letter days for calendar (holidays, birthday of king etc)\n"
+  syntax:
+    content: public static class RedLetterDayFields
+    content.vb: Public Module RedLetterDayFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.RedLetterDayFields.RedletterdayId
+  commentId: F:SuperOffice.CRM.Data.DBC.RedLetterDayFields.RedletterdayId
+  id: RedletterdayId
+  parent: SuperOffice.CRM.Data.DBC.RedLetterDayFields
+  langs:
+  - csharp
+  - vb
+  name: RedletterdayId
+  nameWithType: DBC.RedLetterDayFields.RedletterdayId
+  fullName: SuperOffice.CRM.Data.DBC.RedLetterDayFields.RedletterdayId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRedLetterDay.RedletterdayId: Primary key\n"
+  syntax:
+    content: public const string RedletterdayId = "redletterday_id"
+    return:
+      type: System.String
+    content.vb: Public Const RedletterdayId As String = "redletterday_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RedLetterDayFields.Reddate
+  commentId: F:SuperOffice.CRM.Data.DBC.RedLetterDayFields.Reddate
+  id: Reddate
+  parent: SuperOffice.CRM.Data.DBC.RedLetterDayFields
+  langs:
+  - csharp
+  - vb
+  name: Reddate
+  nameWithType: DBC.RedLetterDayFields.Reddate
+  fullName: SuperOffice.CRM.Data.DBC.RedLetterDayFields.Reddate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRedLetterDay.Reddate: The date \n"
+  syntax:
+    content: public const string Reddate = "reddate"
+    return:
+      type: System.String
+    content.vb: Public Const Reddate As String = "reddate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RedLetterDayFields.CountryId
+  commentId: F:SuperOffice.CRM.Data.DBC.RedLetterDayFields.CountryId
+  id: CountryId
+  parent: SuperOffice.CRM.Data.DBC.RedLetterDayFields
+  langs:
+  - csharp
+  - vb
+  name: CountryId
+  nameWithType: DBC.RedLetterDayFields.CountryId
+  fullName: SuperOffice.CRM.Data.DBC.RedLetterDayFields.CountryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRedLetterDay.CountryId: Which country does this red letter day belong to. It will show up in the diary for associates with this country as homecountry.\n"
+  syntax:
+    content: public const string CountryId = "country_id"
+    return:
+      type: System.String
+    content.vb: Public Const CountryId As String = "country_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RedLetterDayFields.Reds
+  commentId: F:SuperOffice.CRM.Data.DBC.RedLetterDayFields.Reds
+  id: Reds
+  parent: SuperOffice.CRM.Data.DBC.RedLetterDayFields
+  langs:
+  - csharp
+  - vb
+  name: Reds
+  nameWithType: DBC.RedLetterDayFields.Reds
+  fullName: SuperOffice.CRM.Data.DBC.RedLetterDayFields.Reds
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRedLetterDay.Reds: The n´th bit corresponding to the date in dates month, is true if the color is active.\n"
+  syntax:
+    content: public const string Reds = "reds"
+    return:
+      type: System.String
+    content.vb: Public Const Reds As String = "reds"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RedLetterDayFields.Colored
+  commentId: F:SuperOffice.CRM.Data.DBC.RedLetterDayFields.Colored
+  id: Colored
+  parent: SuperOffice.CRM.Data.DBC.RedLetterDayFields
+  langs:
+  - csharp
+  - vb
+  name: Colored
+  nameWithType: DBC.RedLetterDayFields.Colored
+  fullName: SuperOffice.CRM.Data.DBC.RedLetterDayFields.Colored
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRedLetterDay.Colored: The n´th bit corresponding to the date in dates month, is true if the color is active.\n"
+  syntax:
+    content: public const string Colored = "colored"
+    return:
+      type: System.String
+    content.vb: Public Const Colored As String = "colored"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RedLetterDayFields.Color
+  commentId: F:SuperOffice.CRM.Data.DBC.RedLetterDayFields.Color
+  id: Color
+  parent: SuperOffice.CRM.Data.DBC.RedLetterDayFields
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: DBC.RedLetterDayFields.Color
+  fullName: SuperOffice.CRM.Data.DBC.RedLetterDayFields.Color
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRedLetterDay.Color: color can be one of the following: RLD_COLOR_BLACK, RLD_COLOR_RED, RLD_COLOR_SPES\n"
+  syntax:
+    content: public const string Color = "color"
+    return:
+      type: System.String
+    content.vb: Public Const Color As String = "color"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RedLetterDayFields.Text
+  commentId: F:SuperOffice.CRM.Data.DBC.RedLetterDayFields.Text
+  id: Text
+  parent: SuperOffice.CRM.Data.DBC.RedLetterDayFields
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: DBC.RedLetterDayFields.Text
+  fullName: SuperOffice.CRM.Data.DBC.RedLetterDayFields.Text
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRedLetterDay.Text: Text to show on the date\n"
+  syntax:
+    content: public const string Text = "text"
+    return:
+      type: System.String
+    content.vb: Public Const Text As String = "text"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RedLetterDayFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.RedLetterDayFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.RedLetterDayFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.RedLetterDayFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.RedLetterDayFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRedLetterDay.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RedLetterDayFields.RgbColour
+  commentId: F:SuperOffice.CRM.Data.DBC.RedLetterDayFields.RgbColour
+  id: RgbColour
+  parent: SuperOffice.CRM.Data.DBC.RedLetterDayFields
+  langs:
+  - csharp
+  - vb
+  name: RgbColour
+  nameWithType: DBC.RedLetterDayFields.RgbColour
+  fullName: SuperOffice.CRM.Data.DBC.RedLetterDayFields.RgbColour
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRedLetterDay.RgbColour: Actual RGB colour index\n"
+  syntax:
+    content: public const string RgbColour = "rgbColour"
+    return:
+      type: System.String
+    content.vb: Public Const RgbColour As String = "rgbColour"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RedLetterDayFields.ExtraFlags
+  commentId: F:SuperOffice.CRM.Data.DBC.RedLetterDayFields.ExtraFlags
+  id: ExtraFlags
+  parent: SuperOffice.CRM.Data.DBC.RedLetterDayFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraFlags
+  nameWithType: DBC.RedLetterDayFields.ExtraFlags
+  fullName: SuperOffice.CRM.Data.DBC.RedLetterDayFields.ExtraFlags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRedLetterDay.ExtraFlags: Extra flags, spare field\n"
+  syntax:
+    content: public const string ExtraFlags = "extraFlags"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraFlags As String = "extraFlags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

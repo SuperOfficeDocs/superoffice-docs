@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Protocol
+  commentId: N:SuperOffice.CRM.Web.Protocol
+  id: SuperOffice.CRM.Web.Protocol
+  children:
+  - SuperOffice.CRM.Web.Protocol.InitFilterStream
+  - SuperOffice.CRM.Web.Protocol.SoAdminContactProvider
+  - SuperOffice.CRM.Web.Protocol.SoAdminListProvider
+  - SuperOffice.CRM.Web.Protocol.SoAdminProjectTypeProvider
+  - SuperOffice.CRM.Web.Protocol.SoAdminSaleTypeProvider
+  - SuperOffice.CRM.Web.Protocol.SoMiniPreviewProvider
+  - SuperOffice.CRM.Web.Protocol.SoOurContactProvider
+  - SuperOffice.CRM.Web.Protocol.SoProtocolValidator
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.Web.Protocol
+  nameWithType: SuperOffice.CRM.Web.Protocol
+  fullName: SuperOffice.CRM.Web.Protocol
+  type: Namespace
+  assemblies:
+  - SuperOffice.CRMWeb
+references:
+- uid: SuperOffice.CRM.Web.Protocol.SoOurContactProvider
+  commentId: T:SuperOffice.CRM.Web.Protocol.SoOurContactProvider
+  isExternal: true
+  name: SoOurContactProvider
+  nameWithType: SoOurContactProvider
+  fullName: SuperOffice.CRM.Web.Protocol.SoOurContactProvider
+- uid: SuperOffice.CRM.Web.Protocol.SoAdminListProvider
+  commentId: T:SuperOffice.CRM.Web.Protocol.SoAdminListProvider
+  isExternal: true
+  name: SoAdminListProvider
+  nameWithType: SoAdminListProvider
+  fullName: SuperOffice.CRM.Web.Protocol.SoAdminListProvider
+- uid: SuperOffice.CRM.Web.Protocol.InitFilterStream
+  commentId: T:SuperOffice.CRM.Web.Protocol.InitFilterStream
+  isExternal: true
+  name: InitFilterStream
+  nameWithType: InitFilterStream
+  fullName: SuperOffice.CRM.Web.Protocol.InitFilterStream
+- uid: SuperOffice.CRM.Web.Protocol.SoAdminContactProvider
+  commentId: T:SuperOffice.CRM.Web.Protocol.SoAdminContactProvider
+  isExternal: true
+  name: SoAdminContactProvider
+  nameWithType: SoAdminContactProvider
+  fullName: SuperOffice.CRM.Web.Protocol.SoAdminContactProvider
+- uid: SuperOffice.CRM.Web.Protocol.SoAdminProjectTypeProvider
+  commentId: T:SuperOffice.CRM.Web.Protocol.SoAdminProjectTypeProvider
+  isExternal: true
+  name: SoAdminProjectTypeProvider
+  nameWithType: SoAdminProjectTypeProvider
+  fullName: SuperOffice.CRM.Web.Protocol.SoAdminProjectTypeProvider
+- uid: SuperOffice.CRM.Web.Protocol.SoAdminSaleTypeProvider
+  commentId: T:SuperOffice.CRM.Web.Protocol.SoAdminSaleTypeProvider
+  isExternal: true
+  name: SoAdminSaleTypeProvider
+  nameWithType: SoAdminSaleTypeProvider
+  fullName: SuperOffice.CRM.Web.Protocol.SoAdminSaleTypeProvider
+- uid: SuperOffice.CRM.Web.Protocol.SoMiniPreviewProvider
+  commentId: T:SuperOffice.CRM.Web.Protocol.SoMiniPreviewProvider
+  isExternal: true
+  name: SoMiniPreviewProvider
+  nameWithType: SoMiniPreviewProvider
+  fullName: SuperOffice.CRM.Web.Protocol.SoMiniPreviewProvider
+- uid: SuperOffice.CRM.Web.Protocol.SoProtocolValidator
+  commentId: T:SuperOffice.CRM.Web.Protocol.SoProtocolValidator
+  isExternal: true
+  name: SoProtocolValidator
+  nameWithType: SoProtocolValidator
+  fullName: SuperOffice.CRM.Web.Protocol.SoProtocolValidator

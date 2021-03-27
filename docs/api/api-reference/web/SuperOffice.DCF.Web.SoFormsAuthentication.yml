@@ -1,0 +1,1676 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication
+  commentId: T:SuperOffice.DCF.Web.SoFormsAuthentication
+  id: SoFormsAuthentication
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.SoFormsAuthentication.CallbackRedirectString
+  - SuperOffice.DCF.Web.SoFormsAuthentication.CheckLicense(SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure)
+  - SuperOffice.DCF.Web.SoFormsAuthentication.CloseExistingSession(System.Boolean)
+  - SuperOffice.DCF.Web.SoFormsAuthentication.ComputeReturnUrl(System.Web.HttpRequest,System.String,System.String,System.String)
+  - SuperOffice.DCF.Web.SoFormsAuthentication.CreateCsSessionCookies
+  - SuperOffice.DCF.Web.SoFormsAuthentication.CreateCultureInfo
+  - SuperOffice.DCF.Web.SoFormsAuthentication.CreateCultureInfoString
+  - SuperOffice.DCF.Web.SoFormsAuthentication.CreateXSRFToken
+  - SuperOffice.DCF.Web.SoFormsAuthentication.DefaultUrl
+  - SuperOffice.DCF.Web.SoFormsAuthentication.FullDefaultUrl
+  - SuperOffice.DCF.Web.SoFormsAuthentication.FullInternalLogoutUrl
+  - SuperOffice.DCF.Web.SoFormsAuthentication.FullLoginUrl
+  - SuperOffice.DCF.Web.SoFormsAuthentication.FullLogoutUrl
+  - SuperOffice.DCF.Web.SoFormsAuthentication.InitSession
+  - SuperOffice.DCF.Web.SoFormsAuthentication.InternalLogoutUrl
+  - SuperOffice.DCF.Web.SoFormsAuthentication.IsAbsoluteUrl(System.String)
+  - SuperOffice.DCF.Web.SoFormsAuthentication.IsAuthorized
+  - SuperOffice.DCF.Web.SoFormsAuthentication.IsAuthorized(System.String@)
+  - SuperOffice.DCF.Web.SoFormsAuthentication.IsCsSessionValid
+  - SuperOffice.DCF.Web.SoFormsAuthentication.LogIn(SuperOffice.SoSession@,SuperOffice.Security.Principal.SoCredentials)
+  - SuperOffice.DCF.Web.SoFormsAuthentication.LogIn(SuperOffice.SoSession@,System.Security.Principal.WindowsIdentity)
+  - SuperOffice.DCF.Web.SoFormsAuthentication.LogIn(SuperOffice.SoSession@,System.String,System.String)
+  - SuperOffice.DCF.Web.SoFormsAuthentication.LoginUrl
+  - SuperOffice.DCF.Web.SoFormsAuthentication.LogOut
+  - SuperOffice.DCF.Web.SoFormsAuthentication.LogoutUrl
+  - SuperOffice.DCF.Web.SoFormsAuthentication.RedirectFromLoginPage(System.String,System.Boolean)
+  - SuperOffice.DCF.Web.SoFormsAuthentication.RedirectIfNotAuthenticated(System.Boolean)
+  - SuperOffice.DCF.Web.SoFormsAuthentication.RedirectToLoginPage(System.Boolean)
+  - SuperOffice.DCF.Web.SoFormsAuthentication.ResetSession
+  - SuperOffice.DCF.Web.SoFormsAuthentication.SelfTestUrl
+  - SuperOffice.DCF.Web.SoFormsAuthentication.SignOut
+  - SuperOffice.DCF.Web.SoFormsAuthentication.Suspend(SuperOffice.SoSession@)
+  - SuperOffice.DCF.Web.SoFormsAuthentication.TryAutomatedLogin(SuperOffice.SoSession@,SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure,System.Boolean,SuperOffice.DCF.Web.SoFormsAuthentication.AutomatedLoginAction)
+  langs:
+  - csharp
+  - vb
+  name: SoFormsAuthentication
+  nameWithType: SoFormsAuthentication
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static class SoFormsAuthentication
+    content.vb: Public Module SoFormsAuthentication
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.RedirectIfNotAuthenticated(System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.RedirectIfNotAuthenticated(System.Boolean)
+  id: RedirectIfNotAuthenticated(System.Boolean)
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: RedirectIfNotAuthenticated(Boolean)
+  nameWithType: SoFormsAuthentication.RedirectIfNotAuthenticated(Boolean)
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.RedirectIfNotAuthenticated(System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool RedirectIfNotAuthenticated(bool allowExceptions)
+    parameters:
+    - id: allowExceptions
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function RedirectIfNotAuthenticated(allowExceptions As Boolean) As Boolean
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.RedirectIfNotAuthenticated*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.TryAutomatedLogin(SuperOffice.SoSession@,SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure,System.Boolean,SuperOffice.DCF.Web.SoFormsAuthentication.AutomatedLoginAction)
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.TryAutomatedLogin(SuperOffice.SoSession@,SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure,System.Boolean,SuperOffice.DCF.Web.SoFormsAuthentication.AutomatedLoginAction)
+  id: TryAutomatedLogin(SuperOffice.SoSession@,SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure,System.Boolean,SuperOffice.DCF.Web.SoFormsAuthentication.AutomatedLoginAction)
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: TryAutomatedLogin(ref SoSession, SoFormsAuthentication.SetLicenseFailure, Boolean, SoFormsAuthentication.AutomatedLoginAction)
+  nameWithType: SoFormsAuthentication.TryAutomatedLogin(ref SoSession, SoFormsAuthentication.SetLicenseFailure, Boolean, SoFormsAuthentication.AutomatedLoginAction)
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.TryAutomatedLogin(ref SuperOffice.SoSession, SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure, System.Boolean, SuperOffice.DCF.Web.SoFormsAuthentication.AutomatedLoginAction)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool TryAutomatedLogin(ref SoSession session, SoFormsAuthentication.SetLicenseFailure licenseFailure, bool testForImplicitLogin, SoFormsAuthentication.AutomatedLoginAction action)
+    parameters:
+    - id: session
+      type: SuperOffice.SoSession
+    - id: licenseFailure
+      type: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure
+    - id: testForImplicitLogin
+      type: System.Boolean
+    - id: action
+      type: SuperOffice.DCF.Web.SoFormsAuthentication.AutomatedLoginAction
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function TryAutomatedLogin(ByRef session As SoSession, licenseFailure As SoFormsAuthentication.SetLicenseFailure, testForImplicitLogin As Boolean, action As SoFormsAuthentication.AutomatedLoginAction) As Boolean
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.TryAutomatedLogin*
+  nameWithType.vb: SoFormsAuthentication.TryAutomatedLogin(ByRef SoSession, SoFormsAuthentication.SetLicenseFailure, Boolean, SoFormsAuthentication.AutomatedLoginAction)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.SoFormsAuthentication.TryAutomatedLogin(ByRef SuperOffice.SoSession, SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure, System.Boolean, SuperOffice.DCF.Web.SoFormsAuthentication.AutomatedLoginAction)
+  name.vb: TryAutomatedLogin(ByRef SoSession, SoFormsAuthentication.SetLicenseFailure, Boolean, SoFormsAuthentication.AutomatedLoginAction)
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.CheckLicense(SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure)
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.CheckLicense(SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure)
+  id: CheckLicense(SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure)
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: CheckLicense(SoFormsAuthentication.SetLicenseFailure)
+  nameWithType: SoFormsAuthentication.CheckLicense(SoFormsAuthentication.SetLicenseFailure)
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.CheckLicense(SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool CheckLicense(SoFormsAuthentication.SetLicenseFailure licenseFailure)
+    parameters:
+    - id: licenseFailure
+      type: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function CheckLicense(licenseFailure As SoFormsAuthentication.SetLicenseFailure) As Boolean
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.CheckLicense*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.IsAbsoluteUrl(System.String)
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.IsAbsoluteUrl(System.String)
+  id: IsAbsoluteUrl(System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: IsAbsoluteUrl(String)
+  nameWithType: SoFormsAuthentication.IsAbsoluteUrl(String)
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.IsAbsoluteUrl(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsAbsoluteUrl(this string url)
+    parameters:
+    - id: url
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsAbsoluteUrl(url As String) As Boolean
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.IsAbsoluteUrl*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.SignOut
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.SignOut
+  id: SignOut
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: SignOut()
+  nameWithType: SoFormsAuthentication.SignOut()
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.SignOut()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void SignOut()
+    content.vb: Public Shared Sub SignOut
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.SignOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.RedirectFromLoginPage(System.String,System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.RedirectFromLoginPage(System.String,System.Boolean)
+  id: RedirectFromLoginPage(System.String,System.Boolean)
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: RedirectFromLoginPage(String, Boolean)
+  nameWithType: SoFormsAuthentication.RedirectFromLoginPage(String, Boolean)
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.RedirectFromLoginPage(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void RedirectFromLoginPage(string userName, bool createPersistentCookie)
+    parameters:
+    - id: userName
+      type: System.String
+    - id: createPersistentCookie
+      type: System.Boolean
+    content.vb: Public Shared Sub RedirectFromLoginPage(userName As String, createPersistentCookie As Boolean)
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.RedirectFromLoginPage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.ComputeReturnUrl(System.Web.HttpRequest,System.String,System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.ComputeReturnUrl(System.Web.HttpRequest,System.String,System.String,System.String)
+  id: ComputeReturnUrl(System.Web.HttpRequest,System.String,System.String,System.String)
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: ComputeReturnUrl(HttpRequest, String, String, String)
+  nameWithType: SoFormsAuthentication.ComputeReturnUrl(HttpRequest, String, String, String)
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.ComputeReturnUrl(System.Web.HttpRequest, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string ComputeReturnUrl(HttpRequest request, string requestedReturnUrl, string defaultUrl, string applicationPath)
+    parameters:
+    - id: request
+      type: System.Web.HttpRequest
+    - id: requestedReturnUrl
+      type: System.String
+    - id: defaultUrl
+      type: System.String
+    - id: applicationPath
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function ComputeReturnUrl(request As HttpRequest, requestedReturnUrl As String, defaultUrl As String, applicationPath As String) As String
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.ComputeReturnUrl*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.RedirectToLoginPage(System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.RedirectToLoginPage(System.Boolean)
+  id: RedirectToLoginPage(System.Boolean)
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: RedirectToLoginPage(Boolean)
+  nameWithType: SoFormsAuthentication.RedirectToLoginPage(Boolean)
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.RedirectToLoginPage(System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool RedirectToLoginPage(bool allowExceptions)
+    parameters:
+    - id: allowExceptions
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function RedirectToLoginPage(allowExceptions As Boolean) As Boolean
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.RedirectToLoginPage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.LogOut
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.LogOut
+  id: LogOut
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: LogOut()
+  nameWithType: SoFormsAuthentication.LogOut()
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.LogOut()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void LogOut()
+    content.vb: Public Shared Sub LogOut
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.LogOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.CreateCsSessionCookies
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.CreateCsSessionCookies
+  id: CreateCsSessionCookies
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: CreateCsSessionCookies()
+  nameWithType: SoFormsAuthentication.CreateCsSessionCookies()
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.CreateCsSessionCookies()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void CreateCsSessionCookies()
+    content.vb: Public Shared Sub CreateCsSessionCookies
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.CreateCsSessionCookies*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.IsCsSessionValid
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.IsCsSessionValid
+  id: IsCsSessionValid
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: IsCsSessionValid()
+  nameWithType: SoFormsAuthentication.IsCsSessionValid()
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.IsCsSessionValid()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsCsSessionValid()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsCsSessionValid As Boolean
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.IsCsSessionValid*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.ResetSession
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.ResetSession
+  id: ResetSession
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: ResetSession()
+  nameWithType: SoFormsAuthentication.ResetSession()
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.ResetSession()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void ResetSession()
+    content.vb: Public Shared Sub ResetSession
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.ResetSession*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.LogIn(SuperOffice.SoSession@,System.Security.Principal.WindowsIdentity)
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.LogIn(SuperOffice.SoSession@,System.Security.Principal.WindowsIdentity)
+  id: LogIn(SuperOffice.SoSession@,System.Security.Principal.WindowsIdentity)
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: LogIn(ref SoSession, WindowsIdentity)
+  nameWithType: SoFormsAuthentication.LogIn(ref SoSession, WindowsIdentity)
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.LogIn(ref SuperOffice.SoSession, System.Security.Principal.WindowsIdentity)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool LogIn(ref SoSession soSession, WindowsIdentity windowsIdentity)
+    parameters:
+    - id: soSession
+      type: SuperOffice.SoSession
+    - id: windowsIdentity
+      type: System.Security.Principal.WindowsIdentity
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function LogIn(ByRef soSession As SoSession, windowsIdentity As WindowsIdentity) As Boolean
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.LogIn*
+  nameWithType.vb: SoFormsAuthentication.LogIn(ByRef SoSession, WindowsIdentity)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.SoFormsAuthentication.LogIn(ByRef SuperOffice.SoSession, System.Security.Principal.WindowsIdentity)
+  name.vb: LogIn(ByRef SoSession, WindowsIdentity)
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.LogIn(SuperOffice.SoSession@,SuperOffice.Security.Principal.SoCredentials)
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.LogIn(SuperOffice.SoSession@,SuperOffice.Security.Principal.SoCredentials)
+  id: LogIn(SuperOffice.SoSession@,SuperOffice.Security.Principal.SoCredentials)
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: LogIn(ref SoSession, SoCredentials)
+  nameWithType: SoFormsAuthentication.LogIn(ref SoSession, SoCredentials)
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.LogIn(ref SuperOffice.SoSession, SuperOffice.Security.Principal.SoCredentials)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool LogIn(ref SoSession soSession, SoCredentials cred)
+    parameters:
+    - id: soSession
+      type: SuperOffice.SoSession
+    - id: cred
+      type: SuperOffice.Security.Principal.SoCredentials
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function LogIn(ByRef soSession As SoSession, cred As SoCredentials) As Boolean
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.LogIn*
+  nameWithType.vb: SoFormsAuthentication.LogIn(ByRef SoSession, SoCredentials)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.SoFormsAuthentication.LogIn(ByRef SuperOffice.SoSession, SuperOffice.Security.Principal.SoCredentials)
+  name.vb: LogIn(ByRef SoSession, SoCredentials)
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.LogIn(SuperOffice.SoSession@,System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.LogIn(SuperOffice.SoSession@,System.String,System.String)
+  id: LogIn(SuperOffice.SoSession@,System.String,System.String)
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: LogIn(ref SoSession, String, String)
+  nameWithType: SoFormsAuthentication.LogIn(ref SoSession, String, String)
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.LogIn(ref SuperOffice.SoSession, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool LogIn(ref SoSession soSession, string username, string password)
+    parameters:
+    - id: soSession
+      type: SuperOffice.SoSession
+    - id: username
+      type: System.String
+    - id: password
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function LogIn(ByRef soSession As SoSession, username As String, password As String) As Boolean
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.LogIn*
+  nameWithType.vb: SoFormsAuthentication.LogIn(ByRef SoSession, String, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.SoFormsAuthentication.LogIn(ByRef SuperOffice.SoSession, System.String, System.String)
+  name.vb: LogIn(ByRef SoSession, String, String)
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.Suspend(SuperOffice.SoSession@)
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.Suspend(SuperOffice.SoSession@)
+  id: Suspend(SuperOffice.SoSession@)
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: Suspend(ref SoSession)
+  nameWithType: SoFormsAuthentication.Suspend(ref SoSession)
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.Suspend(ref SuperOffice.SoSession)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void Suspend(ref SoSession soSession)
+    parameters:
+    - id: soSession
+      type: SuperOffice.SoSession
+    content.vb: Public Shared Sub Suspend(ByRef soSession As SoSession)
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.Suspend*
+  nameWithType.vb: SoFormsAuthentication.Suspend(ByRef SoSession)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.SoFormsAuthentication.Suspend(ByRef SuperOffice.SoSession)
+  name.vb: Suspend(ByRef SoSession)
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.InitSession
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.InitSession
+  id: InitSession
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: InitSession()
+  nameWithType: SoFormsAuthentication.InitSession()
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.InitSession()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static WebSession InitSession()
+    return:
+      type: SuperOffice.DCF.Web.WebSession
+    content.vb: Public Shared Function InitSession As WebSession
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.InitSession*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.CloseExistingSession(System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.CloseExistingSession(System.Boolean)
+  id: CloseExistingSession(System.Boolean)
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: CloseExistingSession(Boolean)
+  nameWithType: SoFormsAuthentication.CloseExistingSession(Boolean)
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.CloseExistingSession(System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void CloseExistingSession(bool bForceLogout)
+    parameters:
+    - id: bForceLogout
+      type: System.Boolean
+    content.vb: Public Shared Sub CloseExistingSession(bForceLogout As Boolean)
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.CloseExistingSession*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.IsAuthorized
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.IsAuthorized
+  id: IsAuthorized
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: IsAuthorized()
+  nameWithType: SoFormsAuthentication.IsAuthorized()
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.IsAuthorized()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsAuthorized()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsAuthorized As Boolean
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.IsAuthorized*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.IsAuthorized(System.String@)
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.IsAuthorized(System.String@)
+  id: IsAuthorized(System.String@)
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: IsAuthorized(ref String)
+  nameWithType: SoFormsAuthentication.IsAuthorized(ref String)
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.IsAuthorized(ref System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsAuthorized(ref string loginName)
+    parameters:
+    - id: loginName
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsAuthorized(ByRef loginName As String) As Boolean
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.IsAuthorized*
+  nameWithType.vb: SoFormsAuthentication.IsAuthorized(ByRef String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.SoFormsAuthentication.IsAuthorized(ByRef System.String)
+  name.vb: IsAuthorized(ByRef String)
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.CreateXSRFToken
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.CreateXSRFToken
+  id: CreateXSRFToken
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: CreateXSRFToken()
+  nameWithType: SoFormsAuthentication.CreateXSRFToken()
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.CreateXSRFToken()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void CreateXSRFToken()
+    content.vb: Public Shared Sub CreateXSRFToken
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.CreateXSRFToken*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.CreateCultureInfoString
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.CreateCultureInfoString
+  id: CreateCultureInfoString
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: CreateCultureInfoString()
+  nameWithType: SoFormsAuthentication.CreateCultureInfoString()
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.CreateCultureInfoString()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string CreateCultureInfoString()
+    return:
+      type: System.String
+    content.vb: Public Shared Function CreateCultureInfoString As String
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.CreateCultureInfoString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.CreateCultureInfo
+  commentId: M:SuperOffice.DCF.Web.SoFormsAuthentication.CreateCultureInfo
+  id: CreateCultureInfo
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: CreateCultureInfo()
+  nameWithType: SoFormsAuthentication.CreateCultureInfo()
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.CreateCultureInfo()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static LocalizationParameters CreateCultureInfo()
+    return:
+      type: SuperOffice.DCF.Web.LocalizationParameters
+    content.vb: Public Shared Function CreateCultureInfo As LocalizationParameters
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.CreateCultureInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.FullDefaultUrl
+  commentId: P:SuperOffice.DCF.Web.SoFormsAuthentication.FullDefaultUrl
+  id: FullDefaultUrl
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: FullDefaultUrl
+  nameWithType: SoFormsAuthentication.FullDefaultUrl
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.FullDefaultUrl
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string FullDefaultUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property FullDefaultUrl As String
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.FullDefaultUrl*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.FullLoginUrl
+  commentId: P:SuperOffice.DCF.Web.SoFormsAuthentication.FullLoginUrl
+  id: FullLoginUrl
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: FullLoginUrl
+  nameWithType: SoFormsAuthentication.FullLoginUrl
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.FullLoginUrl
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string FullLoginUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property FullLoginUrl As String
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.FullLoginUrl*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.FullLogoutUrl
+  commentId: P:SuperOffice.DCF.Web.SoFormsAuthentication.FullLogoutUrl
+  id: FullLogoutUrl
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: FullLogoutUrl
+  nameWithType: SoFormsAuthentication.FullLogoutUrl
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.FullLogoutUrl
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string FullLogoutUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property FullLogoutUrl As String
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.FullLogoutUrl*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.FullInternalLogoutUrl
+  commentId: P:SuperOffice.DCF.Web.SoFormsAuthentication.FullInternalLogoutUrl
+  id: FullInternalLogoutUrl
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: FullInternalLogoutUrl
+  nameWithType: SoFormsAuthentication.FullInternalLogoutUrl
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.FullInternalLogoutUrl
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string FullInternalLogoutUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property FullInternalLogoutUrl As String
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.FullInternalLogoutUrl*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.CallbackRedirectString
+  commentId: P:SuperOffice.DCF.Web.SoFormsAuthentication.CallbackRedirectString
+  id: CallbackRedirectString
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: CallbackRedirectString
+  nameWithType: SoFormsAuthentication.CallbackRedirectString
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.CallbackRedirectString
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string CallbackRedirectString { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property CallbackRedirectString As String
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.CallbackRedirectString*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.DefaultUrl
+  commentId: P:SuperOffice.DCF.Web.SoFormsAuthentication.DefaultUrl
+  id: DefaultUrl
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: DefaultUrl
+  nameWithType: SoFormsAuthentication.DefaultUrl
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.DefaultUrl
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string DefaultUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property DefaultUrl As String
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.DefaultUrl*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.LoginUrl
+  commentId: P:SuperOffice.DCF.Web.SoFormsAuthentication.LoginUrl
+  id: LoginUrl
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: LoginUrl
+  nameWithType: SoFormsAuthentication.LoginUrl
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.LoginUrl
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string LoginUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property LoginUrl As String
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.LoginUrl*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.SelfTestUrl
+  commentId: P:SuperOffice.DCF.Web.SoFormsAuthentication.SelfTestUrl
+  id: SelfTestUrl
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: SelfTestUrl
+  nameWithType: SoFormsAuthentication.SelfTestUrl
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.SelfTestUrl
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string SelfTestUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SelfTestUrl As String
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.SelfTestUrl*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.LogoutUrl
+  commentId: P:SuperOffice.DCF.Web.SoFormsAuthentication.LogoutUrl
+  id: LogoutUrl
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: LogoutUrl
+  nameWithType: SoFormsAuthentication.LogoutUrl
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.LogoutUrl
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string LogoutUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property LogoutUrl As String
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.LogoutUrl*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.InternalLogoutUrl
+  commentId: P:SuperOffice.DCF.Web.SoFormsAuthentication.InternalLogoutUrl
+  id: InternalLogoutUrl
+  parent: SuperOffice.DCF.Web.SoFormsAuthentication
+  langs:
+  - csharp
+  - vb
+  name: InternalLogoutUrl
+  nameWithType: SoFormsAuthentication.InternalLogoutUrl
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.InternalLogoutUrl
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string InternalLogoutUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property InternalLogoutUrl As String
+  overload: SuperOffice.DCF.Web.SoFormsAuthentication.InternalLogoutUrl*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.RedirectIfNotAuthenticated*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.RedirectIfNotAuthenticated
+  isExternal: true
+  name: RedirectIfNotAuthenticated
+  nameWithType: SoFormsAuthentication.RedirectIfNotAuthenticated
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.RedirectIfNotAuthenticated
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.TryAutomatedLogin*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.TryAutomatedLogin
+  isExternal: true
+  name: TryAutomatedLogin
+  nameWithType: SoFormsAuthentication.TryAutomatedLogin
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.TryAutomatedLogin
+- uid: SuperOffice.SoSession
+  isExternal: true
+  name: SoSession
+  nameWithType: SoSession
+  fullName: SuperOffice.SoSession
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure
+  commentId: T:SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure
+  parent: SuperOffice.DCF.Web
+  isExternal: true
+  name: SoFormsAuthentication.SetLicenseFailure
+  nameWithType: SoFormsAuthentication.SetLicenseFailure
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.AutomatedLoginAction
+  commentId: T:SuperOffice.DCF.Web.SoFormsAuthentication.AutomatedLoginAction
+  parent: SuperOffice.DCF.Web
+  isExternal: true
+  name: SoFormsAuthentication.AutomatedLoginAction
+  nameWithType: SoFormsAuthentication.AutomatedLoginAction
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.AutomatedLoginAction
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.CheckLicense*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.CheckLicense
+  isExternal: true
+  name: CheckLicense
+  nameWithType: SoFormsAuthentication.CheckLicense
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.CheckLicense
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.IsAbsoluteUrl*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.IsAbsoluteUrl
+  isExternal: true
+  name: IsAbsoluteUrl
+  nameWithType: SoFormsAuthentication.IsAbsoluteUrl
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.IsAbsoluteUrl
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.SignOut*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.SignOut
+  isExternal: true
+  name: SignOut
+  nameWithType: SoFormsAuthentication.SignOut
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.SignOut
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.RedirectFromLoginPage*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.RedirectFromLoginPage
+  isExternal: true
+  name: RedirectFromLoginPage
+  nameWithType: SoFormsAuthentication.RedirectFromLoginPage
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.RedirectFromLoginPage
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.ComputeReturnUrl*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.ComputeReturnUrl
+  isExternal: true
+  name: ComputeReturnUrl
+  nameWithType: SoFormsAuthentication.ComputeReturnUrl
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.ComputeReturnUrl
+- uid: System.Web.HttpRequest
+  isExternal: true
+  name: HttpRequest
+  nameWithType: HttpRequest
+  fullName: System.Web.HttpRequest
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.RedirectToLoginPage*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.RedirectToLoginPage
+  isExternal: true
+  name: RedirectToLoginPage
+  nameWithType: SoFormsAuthentication.RedirectToLoginPage
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.RedirectToLoginPage
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.LogOut*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.LogOut
+  isExternal: true
+  name: LogOut
+  nameWithType: SoFormsAuthentication.LogOut
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.LogOut
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.CreateCsSessionCookies*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.CreateCsSessionCookies
+  isExternal: true
+  name: CreateCsSessionCookies
+  nameWithType: SoFormsAuthentication.CreateCsSessionCookies
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.CreateCsSessionCookies
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.IsCsSessionValid*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.IsCsSessionValid
+  isExternal: true
+  name: IsCsSessionValid
+  nameWithType: SoFormsAuthentication.IsCsSessionValid
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.IsCsSessionValid
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.ResetSession*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.ResetSession
+  isExternal: true
+  name: ResetSession
+  nameWithType: SoFormsAuthentication.ResetSession
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.ResetSession
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.LogIn*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.LogIn
+  isExternal: true
+  name: LogIn
+  nameWithType: SoFormsAuthentication.LogIn
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.LogIn
+- uid: System.Security.Principal.WindowsIdentity
+  commentId: T:System.Security.Principal.WindowsIdentity
+  parent: System.Security.Principal
+  isExternal: true
+  name: WindowsIdentity
+  nameWithType: WindowsIdentity
+  fullName: System.Security.Principal.WindowsIdentity
+- uid: System.Security.Principal
+  commentId: N:System.Security.Principal
+  isExternal: true
+  name: System.Security.Principal
+  nameWithType: System.Security.Principal
+  fullName: System.Security.Principal
+- uid: SuperOffice.Security.Principal.SoCredentials
+  isExternal: true
+  name: SoCredentials
+  nameWithType: SoCredentials
+  fullName: SuperOffice.Security.Principal.SoCredentials
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.Suspend*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.Suspend
+  isExternal: true
+  name: Suspend
+  nameWithType: SoFormsAuthentication.Suspend
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.Suspend
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.InitSession*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.InitSession
+  isExternal: true
+  name: InitSession
+  nameWithType: SoFormsAuthentication.InitSession
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.InitSession
+- uid: SuperOffice.DCF.Web.WebSession
+  commentId: T:SuperOffice.DCF.Web.WebSession
+  parent: SuperOffice.DCF.Web
+  isExternal: true
+  name: WebSession
+  nameWithType: WebSession
+  fullName: SuperOffice.DCF.Web.WebSession
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.CloseExistingSession*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.CloseExistingSession
+  isExternal: true
+  name: CloseExistingSession
+  nameWithType: SoFormsAuthentication.CloseExistingSession
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.CloseExistingSession
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.IsAuthorized*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.IsAuthorized
+  isExternal: true
+  name: IsAuthorized
+  nameWithType: SoFormsAuthentication.IsAuthorized
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.IsAuthorized
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.CreateXSRFToken*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.CreateXSRFToken
+  isExternal: true
+  name: CreateXSRFToken
+  nameWithType: SoFormsAuthentication.CreateXSRFToken
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.CreateXSRFToken
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.CreateCultureInfoString*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.CreateCultureInfoString
+  isExternal: true
+  name: CreateCultureInfoString
+  nameWithType: SoFormsAuthentication.CreateCultureInfoString
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.CreateCultureInfoString
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.CreateCultureInfo*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.CreateCultureInfo
+  isExternal: true
+  name: CreateCultureInfo
+  nameWithType: SoFormsAuthentication.CreateCultureInfo
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.CreateCultureInfo
+- uid: SuperOffice.DCF.Web.LocalizationParameters
+  commentId: T:SuperOffice.DCF.Web.LocalizationParameters
+  parent: SuperOffice.DCF.Web
+  isExternal: true
+  name: LocalizationParameters
+  nameWithType: LocalizationParameters
+  fullName: SuperOffice.DCF.Web.LocalizationParameters
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.FullDefaultUrl*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.FullDefaultUrl
+  isExternal: true
+  name: FullDefaultUrl
+  nameWithType: SoFormsAuthentication.FullDefaultUrl
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.FullDefaultUrl
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.FullLoginUrl*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.FullLoginUrl
+  isExternal: true
+  name: FullLoginUrl
+  nameWithType: SoFormsAuthentication.FullLoginUrl
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.FullLoginUrl
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.FullLogoutUrl*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.FullLogoutUrl
+  isExternal: true
+  name: FullLogoutUrl
+  nameWithType: SoFormsAuthentication.FullLogoutUrl
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.FullLogoutUrl
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.FullInternalLogoutUrl*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.FullInternalLogoutUrl
+  isExternal: true
+  name: FullInternalLogoutUrl
+  nameWithType: SoFormsAuthentication.FullInternalLogoutUrl
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.FullInternalLogoutUrl
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.CallbackRedirectString*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.CallbackRedirectString
+  isExternal: true
+  name: CallbackRedirectString
+  nameWithType: SoFormsAuthentication.CallbackRedirectString
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.CallbackRedirectString
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.DefaultUrl*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.DefaultUrl
+  isExternal: true
+  name: DefaultUrl
+  nameWithType: SoFormsAuthentication.DefaultUrl
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.DefaultUrl
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.LoginUrl*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.LoginUrl
+  isExternal: true
+  name: LoginUrl
+  nameWithType: SoFormsAuthentication.LoginUrl
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.LoginUrl
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.SelfTestUrl*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.SelfTestUrl
+  isExternal: true
+  name: SelfTestUrl
+  nameWithType: SoFormsAuthentication.SelfTestUrl
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.SelfTestUrl
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.LogoutUrl*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.LogoutUrl
+  isExternal: true
+  name: LogoutUrl
+  nameWithType: SoFormsAuthentication.LogoutUrl
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.LogoutUrl
+- uid: SuperOffice.DCF.Web.SoFormsAuthentication.InternalLogoutUrl*
+  commentId: Overload:SuperOffice.DCF.Web.SoFormsAuthentication.InternalLogoutUrl
+  isExternal: true
+  name: InternalLogoutUrl
+  nameWithType: SoFormsAuthentication.InternalLogoutUrl
+  fullName: SuperOffice.DCF.Web.SoFormsAuthentication.InternalLogoutUrl

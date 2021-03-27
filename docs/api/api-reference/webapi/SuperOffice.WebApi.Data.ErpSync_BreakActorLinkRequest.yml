@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest
+  commentId: T:SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest
+  id: ErpSync_BreakActorLinkRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.#ctor
+  - SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.CrmActorType
+  - SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.CrmRecordId
+  - SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.ErpConnectionId
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_BreakActorLinkRequest
+  nameWithType: ErpSync_BreakActorLinkRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ErpSync_BreakActorLinkRequest : Object'
+    content.vb: >-
+      Public Class ErpSync_BreakActorLinkRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_BreakActorLinkRequest()
+  nameWithType: ErpSync_BreakActorLinkRequest.ErpSync_BreakActorLinkRequest()
+  fullName: SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.ErpSync_BreakActorLinkRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpSync_BreakActorLinkRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.ErpConnectionId
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.ErpConnectionId
+  id: ErpConnectionId
+  parent: SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectionId
+  nameWithType: ErpSync_BreakActorLinkRequest.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.ErpConnectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ErpConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ErpConnectionId As Integer
+  overload: SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.ErpConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.CrmRecordId
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.CrmRecordId
+  id: CrmRecordId
+  parent: SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest
+  langs:
+  - csharp
+  - vb
+  name: CrmRecordId
+  nameWithType: ErpSync_BreakActorLinkRequest.CrmRecordId
+  fullName: SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.CrmRecordId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int CrmRecordId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CrmRecordId As Integer
+  overload: SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.CrmRecordId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.CrmActorType
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.CrmActorType
+  id: CrmActorType
+  parent: SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest
+  langs:
+  - csharp
+  - vb
+  name: CrmActorType
+  nameWithType: ErpSync_BreakActorLinkRequest.CrmActorType
+  fullName: SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.CrmActorType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CrmActorType CrmActorType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.CrmActorType
+    content.vb: Public Property CrmActorType As CrmActorType
+  overload: SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.CrmActorType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.#ctor
+  isExternal: true
+  name: ErpSync_BreakActorLinkRequest
+  nameWithType: ErpSync_BreakActorLinkRequest.ErpSync_BreakActorLinkRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.ErpSync_BreakActorLinkRequest
+- uid: SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.ErpConnectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.ErpConnectionId
+  isExternal: true
+  name: ErpConnectionId
+  nameWithType: ErpSync_BreakActorLinkRequest.ErpConnectionId
+  fullName: SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.ErpConnectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.CrmRecordId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.CrmRecordId
+  isExternal: true
+  name: CrmRecordId
+  nameWithType: ErpSync_BreakActorLinkRequest.CrmRecordId
+  fullName: SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.CrmRecordId
+- uid: SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.CrmActorType*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.CrmActorType
+  isExternal: true
+  name: CrmActorType
+  nameWithType: ErpSync_BreakActorLinkRequest.CrmActorType
+  fullName: SuperOffice.WebApi.Data.ErpSync_BreakActorLinkRequest.CrmActorType
+- uid: SuperOffice.WebApi.Data.CrmActorType
+  commentId: T:SuperOffice.WebApi.Data.CrmActorType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: CrmActorType
+  nameWithType: CrmActorType
+  fullName: SuperOffice.WebApi.Data.CrmActorType

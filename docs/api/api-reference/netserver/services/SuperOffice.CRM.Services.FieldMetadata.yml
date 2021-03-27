@@ -1,0 +1,608 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.FieldMetadata
+  commentId: T:SuperOffice.CRM.Services.FieldMetadata
+  id: FieldMetadata
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.FieldMetadata.#ctor
+  - SuperOffice.CRM.Services.FieldMetadata.Access
+  - SuperOffice.CRM.Services.FieldMetadata.DefaultValue
+  - SuperOffice.CRM.Services.FieldMetadata.DisplayDescription
+  - SuperOffice.CRM.Services.FieldMetadata.DisplayName
+  - SuperOffice.CRM.Services.FieldMetadata.FieldKey
+  - SuperOffice.CRM.Services.FieldMetadata.FieldType
+  - SuperOffice.CRM.Services.FieldMetadata.ListName
+  - SuperOffice.CRM.Services.FieldMetadata.MaxLength
+  - SuperOffice.CRM.Services.FieldMetadata.Rank
+  - SuperOffice.CRM.Services.FieldMetadata.ShowInSearch
+  - SuperOffice.CRM.Services.FieldMetadata.ToString
+  - SuperOffice.CRM.Services.FieldMetadata.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: FieldMetadata
+  nameWithType: FieldMetadata
+  fullName: SuperOffice.CRM.Services.FieldMetadata
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis is used to populate the Admin configuration dialog for a connection. The call to the ERP Connector’s GetConfigurationFields method returns a list of fields and field types. The Admin client builds a dialog with these fields\n<p></p>\nCarrier object for FieldMetadata.\nServices for the FieldMetadata Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IQuoteAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class FieldMetadata : Carrier'
+    content.vb: >-
+      Public Class FieldMetadata
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.QuoteAgent
+    commentId: T:SuperOffice.CRM.Services.QuoteAgent
+  - linkId: SuperOffice.CRM.Services.IQuoteAgent
+    commentId: T:SuperOffice.CRM.Services.IQuoteAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.FieldMetadata.#ctor
+  commentId: M:SuperOffice.CRM.Services.FieldMetadata.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.FieldMetadata
+  langs:
+  - csharp
+  - vb
+  name: FieldMetadata()
+  nameWithType: FieldMetadata.FieldMetadata()
+  fullName: SuperOffice.CRM.Services.FieldMetadata.FieldMetadata()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public FieldMetadata()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.FieldMetadata.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.FieldMetadata.ToString
+  commentId: M:SuperOffice.CRM.Services.FieldMetadata.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.FieldMetadata
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: FieldMetadata.ToString()
+  fullName: SuperOffice.CRM.Services.FieldMetadata.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.FieldMetadata.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.FieldMetadata.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.FieldMetadata.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.FieldMetadata
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: FieldMetadata.ToString(String)
+  fullName: SuperOffice.CRM.Services.FieldMetadata.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.FieldMetadata.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.FieldMetadata.FieldKey
+  commentId: P:SuperOffice.CRM.Services.FieldMetadata.FieldKey
+  id: FieldKey
+  parent: SuperOffice.CRM.Services.FieldMetadata
+  langs:
+  - csharp
+  - vb
+  name: FieldKey
+  nameWithType: FieldMetadata.FieldKey
+  fullName: SuperOffice.CRM.Services.FieldMetadata.FieldKey
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInternal key/name of the field. Used as the key in the ConnectionConfigField values when TestConnection is called. \n"
+  syntax:
+    content: public virtual string FieldKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FieldKey As String
+  overload: SuperOffice.CRM.Services.FieldMetadata.FieldKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldMetadata.Rank
+  commentId: P:SuperOffice.CRM.Services.FieldMetadata.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Services.FieldMetadata
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: FieldMetadata.Rank
+  fullName: SuperOffice.CRM.Services.FieldMetadata.Rank
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA way to set the order of the fields. Lowest value will be displayed first/over the fields with other values. \n"
+  syntax:
+    content: public virtual int Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Rank As Integer
+  overload: SuperOffice.CRM.Services.FieldMetadata.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldMetadata.DisplayName
+  commentId: P:SuperOffice.CRM.Services.FieldMetadata.DisplayName
+  id: DisplayName
+  parent: SuperOffice.CRM.Services.FieldMetadata
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: FieldMetadata.DisplayName
+  fullName: SuperOffice.CRM.Services.FieldMetadata.DisplayName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLocalized field name – shown in the GUI \n"
+  syntax:
+    content: public virtual string DisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayName As String
+  overload: SuperOffice.CRM.Services.FieldMetadata.DisplayName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldMetadata.DisplayDescription
+  commentId: P:SuperOffice.CRM.Services.FieldMetadata.DisplayDescription
+  id: DisplayDescription
+  parent: SuperOffice.CRM.Services.FieldMetadata
+  langs:
+  - csharp
+  - vb
+  name: DisplayDescription
+  nameWithType: FieldMetadata.DisplayDescription
+  fullName: SuperOffice.CRM.Services.FieldMetadata.DisplayDescription
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTooltip for the field name. \n"
+  syntax:
+    content: public virtual string DisplayDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayDescription As String
+  overload: SuperOffice.CRM.Services.FieldMetadata.DisplayDescription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldMetadata.FieldType
+  commentId: P:SuperOffice.CRM.Services.FieldMetadata.FieldType
+  id: FieldType
+  parent: SuperOffice.CRM.Services.FieldMetadata
+  langs:
+  - csharp
+  - vb
+  name: FieldType
+  nameWithType: FieldMetadata.FieldType
+  fullName: SuperOffice.CRM.Services.FieldMetadata.FieldType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nString, int, decimal, etc. \n"
+  syntax:
+    content: public virtual FieldMetadataType FieldType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.FieldMetadataType
+    content.vb: Public Overridable Property FieldType As FieldMetadataType
+  overload: SuperOffice.CRM.Services.FieldMetadata.FieldType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldMetadata.ListName
+  commentId: P:SuperOffice.CRM.Services.FieldMetadata.ListName
+  id: ListName
+  parent: SuperOffice.CRM.Services.FieldMetadata
+  langs:
+  - csharp
+  - vb
+  name: ListName
+  nameWithType: FieldMetadata.ListName
+  fullName: SuperOffice.CRM.Services.FieldMetadata.ListName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMDO List provider name for list fields \n"
+  syntax:
+    content: public virtual string ListName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ListName As String
+  overload: SuperOffice.CRM.Services.FieldMetadata.ListName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldMetadata.DefaultValue
+  commentId: P:SuperOffice.CRM.Services.FieldMetadata.DefaultValue
+  id: DefaultValue
+  parent: SuperOffice.CRM.Services.FieldMetadata
+  langs:
+  - csharp
+  - vb
+  name: DefaultValue
+  nameWithType: FieldMetadata.DefaultValue
+  fullName: SuperOffice.CRM.Services.FieldMetadata.DefaultValue
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA default value for the field. \n"
+  syntax:
+    content: public virtual string DefaultValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DefaultValue As String
+  overload: SuperOffice.CRM.Services.FieldMetadata.DefaultValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldMetadata.MaxLength
+  commentId: P:SuperOffice.CRM.Services.FieldMetadata.MaxLength
+  id: MaxLength
+  parent: SuperOffice.CRM.Services.FieldMetadata
+  langs:
+  - csharp
+  - vb
+  name: MaxLength
+  nameWithType: FieldMetadata.MaxLength
+  fullName: SuperOffice.CRM.Services.FieldMetadata.MaxLength
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMaximum length for strings, if set. 0 means no restriction. (Though sooner or later something will no doubt overflow if you pile on the gigabytes.) \n"
+  syntax:
+    content: public virtual int MaxLength { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property MaxLength As Integer
+  overload: SuperOffice.CRM.Services.FieldMetadata.MaxLength*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldMetadata.Access
+  commentId: P:SuperOffice.CRM.Services.FieldMetadata.Access
+  id: Access
+  parent: SuperOffice.CRM.Services.FieldMetadata
+  langs:
+  - csharp
+  - vb
+  name: Access
+  nameWithType: FieldMetadata.Access
+  fullName: SuperOffice.CRM.Services.FieldMetadata.Access
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAccess restrictions on the field \n"
+  syntax:
+    content: public virtual FieldAccess Access { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.FieldAccess
+    content.vb: Public Overridable Property Access As FieldAccess
+  overload: SuperOffice.CRM.Services.FieldMetadata.Access*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldMetadata.ShowInSearch
+  commentId: P:SuperOffice.CRM.Services.FieldMetadata.ShowInSearch
+  id: ShowInSearch
+  parent: SuperOffice.CRM.Services.FieldMetadata
+  langs:
+  - csharp
+  - vb
+  name: ShowInSearch
+  nameWithType: FieldMetadata.ShowInSearch
+  fullName: SuperOffice.CRM.Services.FieldMetadata.ShowInSearch
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue if this field is displayed in search result \n"
+  syntax:
+    content: public virtual bool ShowInSearch { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property ShowInSearch As Boolean
+  overload: SuperOffice.CRM.Services.FieldMetadata.ShowInSearch*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.QuoteAgent
+  commentId: T:SuperOffice.CRM.Services.QuoteAgent
+  isExternal: true
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.CRM.Services.QuoteAgent
+- uid: SuperOffice.CRM.Services.IQuoteAgent
+  commentId: T:SuperOffice.CRM.Services.IQuoteAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IQuoteAgent
+  nameWithType: IQuoteAgent
+  fullName: SuperOffice.CRM.Services.IQuoteAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.FieldMetadata.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.FieldMetadata.#ctor
+  isExternal: true
+  name: FieldMetadata
+  nameWithType: FieldMetadata.FieldMetadata
+  fullName: SuperOffice.CRM.Services.FieldMetadata.FieldMetadata
+- uid: SuperOffice.CRM.Services.FieldMetadata.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.FieldMetadata.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: FieldMetadata.ToString
+  fullName: SuperOffice.CRM.Services.FieldMetadata.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.FieldMetadata.FieldKey*
+  commentId: Overload:SuperOffice.CRM.Services.FieldMetadata.FieldKey
+  isExternal: true
+  name: FieldKey
+  nameWithType: FieldMetadata.FieldKey
+  fullName: SuperOffice.CRM.Services.FieldMetadata.FieldKey
+- uid: SuperOffice.CRM.Services.FieldMetadata.Rank*
+  commentId: Overload:SuperOffice.CRM.Services.FieldMetadata.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: FieldMetadata.Rank
+  fullName: SuperOffice.CRM.Services.FieldMetadata.Rank
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.FieldMetadata.DisplayName*
+  commentId: Overload:SuperOffice.CRM.Services.FieldMetadata.DisplayName
+  isExternal: true
+  name: DisplayName
+  nameWithType: FieldMetadata.DisplayName
+  fullName: SuperOffice.CRM.Services.FieldMetadata.DisplayName
+- uid: SuperOffice.CRM.Services.FieldMetadata.DisplayDescription*
+  commentId: Overload:SuperOffice.CRM.Services.FieldMetadata.DisplayDescription
+  isExternal: true
+  name: DisplayDescription
+  nameWithType: FieldMetadata.DisplayDescription
+  fullName: SuperOffice.CRM.Services.FieldMetadata.DisplayDescription
+- uid: SuperOffice.CRM.Services.FieldMetadata.FieldType*
+  commentId: Overload:SuperOffice.CRM.Services.FieldMetadata.FieldType
+  isExternal: true
+  name: FieldType
+  nameWithType: FieldMetadata.FieldType
+  fullName: SuperOffice.CRM.Services.FieldMetadata.FieldType
+- uid: SuperOffice.Data.FieldMetadataType
+  isExternal: true
+  name: FieldMetadataType
+  nameWithType: FieldMetadataType
+  fullName: SuperOffice.Data.FieldMetadataType
+- uid: SuperOffice.CRM.Services.FieldMetadata.ListName*
+  commentId: Overload:SuperOffice.CRM.Services.FieldMetadata.ListName
+  isExternal: true
+  name: ListName
+  nameWithType: FieldMetadata.ListName
+  fullName: SuperOffice.CRM.Services.FieldMetadata.ListName
+- uid: SuperOffice.CRM.Services.FieldMetadata.DefaultValue*
+  commentId: Overload:SuperOffice.CRM.Services.FieldMetadata.DefaultValue
+  isExternal: true
+  name: DefaultValue
+  nameWithType: FieldMetadata.DefaultValue
+  fullName: SuperOffice.CRM.Services.FieldMetadata.DefaultValue
+- uid: SuperOffice.CRM.Services.FieldMetadata.MaxLength*
+  commentId: Overload:SuperOffice.CRM.Services.FieldMetadata.MaxLength
+  isExternal: true
+  name: MaxLength
+  nameWithType: FieldMetadata.MaxLength
+  fullName: SuperOffice.CRM.Services.FieldMetadata.MaxLength
+- uid: SuperOffice.CRM.Services.FieldMetadata.Access*
+  commentId: Overload:SuperOffice.CRM.Services.FieldMetadata.Access
+  isExternal: true
+  name: Access
+  nameWithType: FieldMetadata.Access
+  fullName: SuperOffice.CRM.Services.FieldMetadata.Access
+- uid: SuperOffice.Data.FieldAccess
+  isExternal: true
+  name: FieldAccess
+  nameWithType: FieldAccess
+  fullName: SuperOffice.Data.FieldAccess
+- uid: SuperOffice.CRM.Services.FieldMetadata.ShowInSearch*
+  commentId: Overload:SuperOffice.CRM.Services.FieldMetadata.ShowInSearch
+  isExternal: true
+  name: ShowInSearch
+  nameWithType: FieldMetadata.ShowInSearch
+  fullName: SuperOffice.CRM.Services.FieldMetadata.ShowInSearch
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

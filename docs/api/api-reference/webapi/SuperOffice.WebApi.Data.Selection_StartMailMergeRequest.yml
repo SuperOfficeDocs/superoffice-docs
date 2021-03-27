@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Selection_StartMailMergeRequest
+  commentId: T:SuperOffice.WebApi.Data.Selection_StartMailMergeRequest
+  id: Selection_StartMailMergeRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Selection_StartMailMergeRequest.#ctor
+  - SuperOffice.WebApi.Data.Selection_StartMailMergeRequest.Settings
+  langs:
+  - csharp
+  - vb
+  name: Selection_StartMailMergeRequest
+  nameWithType: Selection_StartMailMergeRequest
+  fullName: SuperOffice.WebApi.Data.Selection_StartMailMergeRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Selection_StartMailMergeRequest : Object'
+    content.vb: >-
+      Public Class Selection_StartMailMergeRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Selection_StartMailMergeRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Selection_StartMailMergeRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Selection_StartMailMergeRequest
+  langs:
+  - csharp
+  - vb
+  name: Selection_StartMailMergeRequest()
+  nameWithType: Selection_StartMailMergeRequest.Selection_StartMailMergeRequest()
+  fullName: SuperOffice.WebApi.Data.Selection_StartMailMergeRequest.Selection_StartMailMergeRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Selection_StartMailMergeRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Selection_StartMailMergeRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_StartMailMergeRequest.Settings
+  commentId: P:SuperOffice.WebApi.Data.Selection_StartMailMergeRequest.Settings
+  id: Settings
+  parent: SuperOffice.WebApi.Data.Selection_StartMailMergeRequest
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: Selection_StartMailMergeRequest.Settings
+  fullName: SuperOffice.WebApi.Data.Selection_StartMailMergeRequest.Settings
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public MailMergeSettings Settings { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.MailMergeSettings
+    content.vb: Public Property Settings As MailMergeSettings
+  overload: SuperOffice.WebApi.Data.Selection_StartMailMergeRequest.Settings*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Selection_StartMailMergeRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_StartMailMergeRequest.#ctor
+  isExternal: true
+  name: Selection_StartMailMergeRequest
+  nameWithType: Selection_StartMailMergeRequest.Selection_StartMailMergeRequest
+  fullName: SuperOffice.WebApi.Data.Selection_StartMailMergeRequest.Selection_StartMailMergeRequest
+- uid: SuperOffice.WebApi.Data.Selection_StartMailMergeRequest.Settings*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_StartMailMergeRequest.Settings
+  isExternal: true
+  name: Settings
+  nameWithType: Selection_StartMailMergeRequest.Settings
+  fullName: SuperOffice.WebApi.Data.Selection_StartMailMergeRequest.Settings
+- uid: SuperOffice.WebApi.Data.MailMergeSettings
+  commentId: T:SuperOffice.WebApi.Data.MailMergeSettings
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: MailMergeSettings
+  nameWithType: MailMergeSettings
+  fullName: SuperOffice.WebApi.Data.MailMergeSettings

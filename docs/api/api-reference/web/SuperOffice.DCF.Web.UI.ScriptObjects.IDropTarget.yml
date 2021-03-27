@@ -1,0 +1,296 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget
+  commentId: T:SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget
+  id: IDropTarget
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects
+  children:
+  - SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.AllowDrop
+  - SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.ClientID
+  - SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.ContextObject
+  - SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.ContextTypes
+  - SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.OnDropCallbackFunction
+  - SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.OnMouseEnterCallbackFunction
+  langs:
+  - csharp
+  - vb
+  name: IDropTarget
+  nameWithType: IDropTarget
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget
+  type: Interface
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: public interface IDropTarget
+    content.vb: Public Interface IDropTarget
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.AllowDrop
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.AllowDrop
+  id: AllowDrop
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget
+  langs:
+  - csharp
+  - vb
+  name: AllowDrop
+  nameWithType: IDropTarget.AllowDrop
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.AllowDrop
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: bool AllowDrop { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property AllowDrop As Boolean
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.AllowDrop*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.ContextTypes
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.ContextTypes
+  id: ContextTypes
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget
+  langs:
+  - csharp
+  - vb
+  name: ContextTypes
+  nameWithType: IDropTarget.ContextTypes
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.ContextTypes
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: string[] ContextTypes { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Property ContextTypes As String()
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.ContextTypes*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.ClientID
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.ClientID
+  id: ClientID
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget
+  langs:
+  - csharp
+  - vb
+  name: ClientID
+  nameWithType: IDropTarget.ClientID
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.ClientID
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: string ClientID { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property ClientID As String
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.ClientID*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.ContextObject
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.ContextObject
+  id: ContextObject
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget
+  langs:
+  - csharp
+  - vb
+  name: ContextObject
+  nameWithType: IDropTarget.ContextObject
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.ContextObject
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: ContextBase ContextObject { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+    content.vb: Property ContextObject As ContextBase
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.ContextObject*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.OnDropCallbackFunction
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.OnDropCallbackFunction
+  id: OnDropCallbackFunction
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget
+  langs:
+  - csharp
+  - vb
+  name: OnDropCallbackFunction
+  nameWithType: IDropTarget.OnDropCallbackFunction
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.OnDropCallbackFunction
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: string OnDropCallbackFunction { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property OnDropCallbackFunction As String
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.OnDropCallbackFunction*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.OnMouseEnterCallbackFunction
+  commentId: P:SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.OnMouseEnterCallbackFunction
+  id: OnMouseEnterCallbackFunction
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget
+  langs:
+  - csharp
+  - vb
+  name: OnMouseEnterCallbackFunction
+  nameWithType: IDropTarget.OnMouseEnterCallbackFunction
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.OnMouseEnterCallbackFunction
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.ScriptObjects
+  syntax:
+    content: string OnMouseEnterCallbackFunction { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property OnMouseEnterCallbackFunction As String
+  overload: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.OnMouseEnterCallbackFunction*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects
+  commentId: N:SuperOffice.DCF.Web.UI.ScriptObjects
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.ScriptObjects
+  nameWithType: SuperOffice.DCF.Web.UI.ScriptObjects
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.AllowDrop*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.AllowDrop
+  isExternal: true
+  name: AllowDrop
+  nameWithType: IDropTarget.AllowDrop
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.AllowDrop
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.ContextTypes*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.ContextTypes
+  isExternal: true
+  name: ContextTypes
+  nameWithType: IDropTarget.ContextTypes
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.ContextTypes
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.ClientID*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.ClientID
+  isExternal: true
+  name: ClientID
+  nameWithType: IDropTarget.ClientID
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.ClientID
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.ContextObject*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.ContextObject
+  isExternal: true
+  name: ContextObject
+  nameWithType: IDropTarget.ContextObject
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.ContextObject
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  commentId: T:SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects
+  isExternal: true
+  name: ContextBase
+  nameWithType: ContextBase
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.OnDropCallbackFunction*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.OnDropCallbackFunction
+  isExternal: true
+  name: OnDropCallbackFunction
+  nameWithType: IDropTarget.OnDropCallbackFunction
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.OnDropCallbackFunction
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.OnMouseEnterCallbackFunction*
+  commentId: Overload:SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.OnMouseEnterCallbackFunction
+  isExternal: true
+  name: OnMouseEnterCallbackFunction
+  nameWithType: IDropTarget.OnMouseEnterCallbackFunction
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget.OnMouseEnterCallbackFunction

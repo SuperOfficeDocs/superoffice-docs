@@ -1,0 +1,1460 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.SoSystemInfo
+  commentId: T:SuperOffice.SoSystemInfo
+  id: SoSystemInfo
+  parent: SuperOffice
+  children:
+  - SuperOffice.SoSystemInfo.#ctor
+  - SuperOffice.SoSystemInfo.AssemblyVersion
+  - SuperOffice.SoSystemInfo.BranchName
+  - SuperOffice.SoSystemInfo.BuildLabel
+  - SuperOffice.SoSystemInfo.BuildType
+  - SuperOffice.SoSystemInfo.Carrier
+  - SuperOffice.SoSystemInfo.CompanyId
+  - SuperOffice.SoSystemInfo.CompanyName
+  - SuperOffice.SoSystemInfo.DatabaseMinor
+  - SuperOffice.SoSystemInfo.DatabaseName
+  - SuperOffice.SoSystemInfo.DatabaseType
+  - SuperOffice.SoSystemInfo.DatabaseVersion
+  - SuperOffice.SoSystemInfo.DaysUntilNetServerExpiry
+  - SuperOffice.SoSystemInfo.Description
+  - SuperOffice.SoSystemInfo.FileVersion
+  - SuperOffice.SoSystemInfo.Flush
+  - SuperOffice.SoSystemInfo.GetCurrent
+  - SuperOffice.SoSystemInfo.IsOnTravel
+  - SuperOffice.SoSystemInfo.IsSatellite
+  - SuperOffice.SoSystemInfo.IsUnicode
+  - SuperOffice.SoSystemInfo.License
+  - SuperOffice.SoSystemInfo.PrivateGetCarrier
+  - SuperOffice.SoSystemInfo.WarningEnglish
+  - SuperOffice.SoSystemInfo.WarningResource
+  langs:
+  - csharp
+  - vb
+  name: SoSystemInfo
+  nameWithType: SoSystemInfo
+  fullName: SuperOffice.SoSystemInfo
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nGet information about the current system.\n"
+  syntax:
+    content: public abstract class SoSystemInfo
+    content.vb: Public MustInherit Class SoSystemInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.SoSystemInfo.EnumUtil.MapEnums``2
+  - SuperOffice.SoSystemInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.SoSystemInfo.GetCurrent
+  commentId: M:SuperOffice.SoSystemInfo.GetCurrent
+  id: GetCurrent
+  parent: SuperOffice.SoSystemInfo
+  langs:
+  - csharp
+  - vb
+  name: GetCurrent()
+  nameWithType: SoSystemInfo.GetCurrent()
+  fullName: SuperOffice.SoSystemInfo.GetCurrent()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public static SoSystemInfo GetCurrent()
+    return:
+      type: SuperOffice.SoSystemInfo
+    content.vb: Public Shared Function GetCurrent As SoSystemInfo
+  overload: SuperOffice.SoSystemInfo.GetCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.SoSystemInfo.Flush
+  commentId: M:SuperOffice.SoSystemInfo.Flush
+  id: Flush
+  parent: SuperOffice.SoSystemInfo
+  langs:
+  - csharp
+  - vb
+  name: Flush()
+  nameWithType: SoSystemInfo.Flush()
+  fullName: SuperOffice.SoSystemInfo.Flush()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public abstract void Flush()
+    content.vb: Public MustOverride Sub Flush
+  overload: SuperOffice.SoSystemInfo.Flush*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: SuperOffice.SoSystemInfo.PrivateGetCarrier
+  commentId: M:SuperOffice.SoSystemInfo.PrivateGetCarrier
+  id: PrivateGetCarrier
+  parent: SuperOffice.SoSystemInfo
+  langs:
+  - csharp
+  - vb
+  name: PrivateGetCarrier()
+  nameWithType: SoSystemInfo.PrivateGetCarrier()
+  fullName: SuperOffice.SoSystemInfo.PrivateGetCarrier()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public SoSystemInfoCarrier PrivateGetCarrier()
+    return:
+      type: SuperOffice.CRM.Services.SoSystemInfoCarrier
+    content.vb: Public Function PrivateGetCarrier As SoSystemInfoCarrier
+  overload: SuperOffice.SoSystemInfo.PrivateGetCarrier*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.SoSystemInfo.#ctor
+  commentId: M:SuperOffice.SoSystemInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.SoSystemInfo
+  langs:
+  - csharp
+  - vb
+  name: SoSystemInfo()
+  nameWithType: SoSystemInfo.SoSystemInfo()
+  fullName: SuperOffice.SoSystemInfo.SoSystemInfo()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: protected SoSystemInfo()
+    content.vb: Protected Sub New
+  overload: SuperOffice.SoSystemInfo.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.SoSystemInfo.Carrier
+  commentId: P:SuperOffice.SoSystemInfo.Carrier
+  id: Carrier
+  parent: SuperOffice.SoSystemInfo
+  langs:
+  - csharp
+  - vb
+  name: Carrier
+  nameWithType: SoSystemInfo.Carrier
+  fullName: SuperOffice.SoSystemInfo.Carrier
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: protected abstract SoSystemInfoCarrier Carrier { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.SoSystemInfoCarrier
+    content.vb: Protected MustOverride ReadOnly Property Carrier As SoSystemInfoCarrier
+  overload: SuperOffice.SoSystemInfo.Carrier*
+  modifiers.csharp:
+  - protected
+  - abstract
+  - get
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  - ReadOnly
+- uid: SuperOffice.SoSystemInfo.License
+  commentId: P:SuperOffice.SoSystemInfo.License
+  id: License
+  parent: SuperOffice.SoSystemInfo
+  langs:
+  - csharp
+  - vb
+  name: License
+  nameWithType: SoSystemInfo.License
+  fullName: SuperOffice.SoSystemInfo.License
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nLicense issued by SuperOffice\n"
+  syntax:
+    content: public LicenseInfo License { get; }
+    parameters: []
+    return:
+      type: SuperOffice.License.LicenseInfo
+    content.vb: Public ReadOnly Property License As LicenseInfo
+  overload: SuperOffice.SoSystemInfo.License*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.SoSystemInfo.WarningEnglish
+  commentId: P:SuperOffice.SoSystemInfo.WarningEnglish
+  id: WarningEnglish
+  parent: SuperOffice.SoSystemInfo
+  langs:
+  - csharp
+  - vb
+  name: WarningEnglish
+  nameWithType: SoSystemInfo.WarningEnglish
+  fullName: SuperOffice.SoSystemInfo.WarningEnglish
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nWarning information to be displayed to the user in plain English\n"
+  syntax:
+    content: public string WarningEnglish { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property WarningEnglish As String
+  overload: SuperOffice.SoSystemInfo.WarningEnglish*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.SoSystemInfo.WarningResource
+  commentId: P:SuperOffice.SoSystemInfo.WarningResource
+  id: WarningResource
+  parent: SuperOffice.SoSystemInfo
+  langs:
+  - csharp
+  - vb
+  name: WarningResource
+  nameWithType: SoSystemInfo.WarningResource
+  fullName: SuperOffice.SoSystemInfo.WarningResource
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nWarning information to be displayed to the user in resource format.\n"
+  syntax:
+    content: public string WarningResource { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property WarningResource As String
+  overload: SuperOffice.SoSystemInfo.WarningResource*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.SoSystemInfo.BranchName
+  commentId: P:SuperOffice.SoSystemInfo.BranchName
+  id: BranchName
+  parent: SuperOffice.SoSystemInfo
+  langs:
+  - csharp
+  - vb
+  name: BranchName
+  nameWithType: SoSystemInfo.BranchName
+  fullName: SuperOffice.SoSystemInfo.BranchName
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nName of the branch the NetServer is built from.\n"
+  syntax:
+    content: public string BranchName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property BranchName As String
+  overload: SuperOffice.SoSystemInfo.BranchName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.SoSystemInfo.BuildLabel
+  commentId: P:SuperOffice.SoSystemInfo.BuildLabel
+  id: BuildLabel
+  parent: SuperOffice.SoSystemInfo
+  langs:
+  - csharp
+  - vb
+  name: BuildLabel
+  nameWithType: SoSystemInfo.BuildLabel
+  fullName: SuperOffice.SoSystemInfo.BuildLabel
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nBuild label for NetServer.\n"
+  syntax:
+    content: public string BuildLabel { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property BuildLabel As String
+  overload: SuperOffice.SoSystemInfo.BuildLabel*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.SoSystemInfo.AssemblyVersion
+  commentId: P:SuperOffice.SoSystemInfo.AssemblyVersion
+  id: AssemblyVersion
+  parent: SuperOffice.SoSystemInfo
+  langs:
+  - csharp
+  - vb
+  name: AssemblyVersion
+  nameWithType: SoSystemInfo.AssemblyVersion
+  fullName: SuperOffice.SoSystemInfo.AssemblyVersion
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nAssemblyVersion of NetServer\n"
+  syntax:
+    content: public string AssemblyVersion { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property AssemblyVersion As String
+  overload: SuperOffice.SoSystemInfo.AssemblyVersion*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.SoSystemInfo.FileVersion
+  commentId: P:SuperOffice.SoSystemInfo.FileVersion
+  id: FileVersion
+  parent: SuperOffice.SoSystemInfo
+  langs:
+  - csharp
+  - vb
+  name: FileVersion
+  nameWithType: SoSystemInfo.FileVersion
+  fullName: SuperOffice.SoSystemInfo.FileVersion
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nFileVersion of NetServer.\n"
+  syntax:
+    content: public string FileVersion { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property FileVersion As String
+  overload: SuperOffice.SoSystemInfo.FileVersion*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.SoSystemInfo.Description
+  commentId: P:SuperOffice.SoSystemInfo.Description
+  id: Description
+  parent: SuperOffice.SoSystemInfo
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: SoSystemInfo.Description
+  fullName: SuperOffice.SoSystemInfo.Description
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nDescription of the NetServer version.\n"
+  syntax:
+    content: public string Description { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Description As String
+  overload: SuperOffice.SoSystemInfo.Description*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.SoSystemInfo.DaysUntilNetServerExpiry
+  commentId: P:SuperOffice.SoSystemInfo.DaysUntilNetServerExpiry
+  id: DaysUntilNetServerExpiry
+  parent: SuperOffice.SoSystemInfo
+  langs:
+  - csharp
+  - vb
+  name: DaysUntilNetServerExpiry
+  nameWithType: SoSystemInfo.DaysUntilNetServerExpiry
+  fullName: SuperOffice.SoSystemInfo.DaysUntilNetServerExpiry
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nDays until this version of NetServer expires\n"
+  syntax:
+    content: public int DaysUntilNetServerExpiry { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DaysUntilNetServerExpiry As Integer
+  overload: SuperOffice.SoSystemInfo.DaysUntilNetServerExpiry*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.SoSystemInfo.BuildType
+  commentId: P:SuperOffice.SoSystemInfo.BuildType
+  id: BuildType
+  parent: SuperOffice.SoSystemInfo
+  langs:
+  - csharp
+  - vb
+  name: BuildType
+  nameWithType: SoSystemInfo.BuildType
+  fullName: SuperOffice.SoSystemInfo.BuildType
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nType of build.\n"
+  syntax:
+    content: public NetServerBuildType BuildType { get; }
+    parameters: []
+    return:
+      type: SuperOffice.NetServerBuildType
+    content.vb: Public ReadOnly Property BuildType As NetServerBuildType
+  overload: SuperOffice.SoSystemInfo.BuildType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.SoSystemInfo.DatabaseVersion
+  commentId: P:SuperOffice.SoSystemInfo.DatabaseVersion
+  id: DatabaseVersion
+  parent: SuperOffice.SoSystemInfo
+  langs:
+  - csharp
+  - vb
+  name: DatabaseVersion
+  nameWithType: SoSystemInfo.DatabaseVersion
+  fullName: SuperOffice.SoSystemInfo.DatabaseVersion
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nDatabase version number\n"
+  syntax:
+    content: public int DatabaseVersion { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DatabaseVersion As Integer
+  overload: SuperOffice.SoSystemInfo.DatabaseVersion*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.SoSystemInfo.IsUnicode
+  commentId: P:SuperOffice.SoSystemInfo.IsUnicode
+  id: IsUnicode
+  parent: SuperOffice.SoSystemInfo
+  langs:
+  - csharp
+  - vb
+  name: IsUnicode
+  nameWithType: SoSystemInfo.IsUnicode
+  fullName: SuperOffice.SoSystemInfo.IsUnicode
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nIs the database strings formatted as Unicode (i.e. NVARCHAR)\n"
+  syntax:
+    content: public bool IsUnicode { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsUnicode As Boolean
+  overload: SuperOffice.SoSystemInfo.IsUnicode*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.SoSystemInfo.CompanyName
+  commentId: P:SuperOffice.SoSystemInfo.CompanyName
+  id: CompanyName
+  parent: SuperOffice.SoSystemInfo
+  langs:
+  - csharp
+  - vb
+  name: CompanyName
+  nameWithType: SoSystemInfo.CompanyName
+  fullName: SuperOffice.SoSystemInfo.CompanyName
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nLicense Info: Company name associated with license.\n"
+  syntax:
+    content: public string CompanyName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property CompanyName As String
+  overload: SuperOffice.SoSystemInfo.CompanyName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.SoSystemInfo.CompanyId
+  commentId: P:SuperOffice.SoSystemInfo.CompanyId
+  id: CompanyId
+  parent: SuperOffice.SoSystemInfo
+  langs:
+  - csharp
+  - vb
+  name: CompanyId
+  nameWithType: SoSystemInfo.CompanyId
+  fullName: SuperOffice.SoSystemInfo.CompanyId
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nLicense Info: Company id associated with license.\n"
+  syntax:
+    content: public int CompanyId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property CompanyId As Integer
+  overload: SuperOffice.SoSystemInfo.CompanyId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.SoSystemInfo.DatabaseType
+  commentId: P:SuperOffice.SoSystemInfo.DatabaseType
+  id: DatabaseType
+  parent: SuperOffice.SoSystemInfo
+  langs:
+  - csharp
+  - vb
+  name: DatabaseType
+  nameWithType: SoSystemInfo.DatabaseType
+  fullName: SuperOffice.SoSystemInfo.DatabaseType
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nMajor name of database provider\n"
+  syntax:
+    content: public string DatabaseType { get; }
+    parameters: []
+    return:
+      type: System.String
+      description: "\nMSSQL | Oracle | Sybase | DB2 | Custom...\n"
+    content.vb: Public ReadOnly Property DatabaseType As String
+  overload: SuperOffice.SoSystemInfo.DatabaseType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.SoSystemInfo.DatabaseMinor
+  commentId: P:SuperOffice.SoSystemInfo.DatabaseMinor
+  id: DatabaseMinor
+  parent: SuperOffice.SoSystemInfo
+  langs:
+  - csharp
+  - vb
+  name: DatabaseMinor
+  nameWithType: SoSystemInfo.DatabaseMinor
+  fullName: SuperOffice.SoSystemInfo.DatabaseMinor
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nMinor name of database provider\n"
+  syntax:
+    content: public string DatabaseMinor { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property DatabaseMinor As String
+  overload: SuperOffice.SoSystemInfo.DatabaseMinor*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.SoSystemInfo.DatabaseName
+  commentId: P:SuperOffice.SoSystemInfo.DatabaseName
+  id: DatabaseName
+  parent: SuperOffice.SoSystemInfo
+  langs:
+  - csharp
+  - vb
+  name: DatabaseName
+  nameWithType: SoSystemInfo.DatabaseName
+  fullName: SuperOffice.SoSystemInfo.DatabaseName
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nName of database\n"
+  syntax:
+    content: public string DatabaseName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property DatabaseName As String
+  overload: SuperOffice.SoSystemInfo.DatabaseName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.SoSystemInfo.IsOnTravel
+  commentId: P:SuperOffice.SoSystemInfo.IsOnTravel
+  id: IsOnTravel
+  parent: SuperOffice.SoSystemInfo
+  langs:
+  - csharp
+  - vb
+  name: IsOnTravel
+  nameWithType: SoSystemInfo.IsOnTravel
+  fullName: SuperOffice.SoSystemInfo.IsOnTravel
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nIs the current database on travel.\n"
+  syntax:
+    content: public bool IsOnTravel { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsOnTravel As Boolean
+  overload: SuperOffice.SoSystemInfo.IsOnTravel*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.SoSystemInfo.IsSatellite
+  commentId: P:SuperOffice.SoSystemInfo.IsSatellite
+  id: IsSatellite
+  parent: SuperOffice.SoSystemInfo
+  langs:
+  - csharp
+  - vb
+  name: IsSatellite
+  nameWithType: SoSystemInfo.IsSatellite
+  fullName: SuperOffice.SoSystemInfo.IsSatellite
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nIs the current database a Satellite\n"
+  syntax:
+    content: public bool IsSatellite { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsSatellite As Boolean
+  overload: SuperOffice.SoSystemInfo.IsSatellite*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice
+  commentId: N:SuperOffice
+  isExternal: true
+  name: SuperOffice
+  nameWithType: SuperOffice
+  fullName: SuperOffice
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.SoSystemInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoSystemInfo, To>()
+  nameWithType: EnumUtil.MapEnums<SoSystemInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.SoSystemInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoSystemInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.SoSystemInfo, To)()
+  name.vb: MapEnums(Of SoSystemInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoSystemInfo, To>
+    nameWithType: EnumUtil.MapEnums<SoSystemInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.SoSystemInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoSystemInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of SoSystemInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.SoSystemInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.SoSystemInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoSystemInfo, To>()
+  nameWithType: Converters.MapEnums<SoSystemInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.SoSystemInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoSystemInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.SoSystemInfo, To)()
+  name.vb: MapEnums(Of SoSystemInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoSystemInfo, To>
+    nameWithType: Converters.MapEnums<SoSystemInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.SoSystemInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoSystemInfo, To)
+    nameWithType: Converters.MapEnums(Of SoSystemInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.SoSystemInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.SoSystemInfo.GetCurrent*
+  commentId: Overload:SuperOffice.SoSystemInfo.GetCurrent
+  isExternal: true
+  name: GetCurrent
+  nameWithType: SoSystemInfo.GetCurrent
+  fullName: SuperOffice.SoSystemInfo.GetCurrent
+- uid: SuperOffice.SoSystemInfo
+  commentId: T:SuperOffice.SoSystemInfo
+  parent: SuperOffice
+  isExternal: true
+  name: SoSystemInfo
+  nameWithType: SoSystemInfo
+  fullName: SuperOffice.SoSystemInfo
+- uid: SuperOffice.SoSystemInfo.Flush*
+  commentId: Overload:SuperOffice.SoSystemInfo.Flush
+  isExternal: true
+  name: Flush
+  nameWithType: SoSystemInfo.Flush
+  fullName: SuperOffice.SoSystemInfo.Flush
+- uid: SuperOffice.SoSystemInfo.PrivateGetCarrier*
+  commentId: Overload:SuperOffice.SoSystemInfo.PrivateGetCarrier
+  isExternal: true
+  name: PrivateGetCarrier
+  nameWithType: SoSystemInfo.PrivateGetCarrier
+  fullName: SuperOffice.SoSystemInfo.PrivateGetCarrier
+- uid: SuperOffice.CRM.Services.SoSystemInfoCarrier
+  commentId: T:SuperOffice.CRM.Services.SoSystemInfoCarrier
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: SoSystemInfoCarrier
+  nameWithType: SoSystemInfoCarrier
+  fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.SoSystemInfo.#ctor*
+  commentId: Overload:SuperOffice.SoSystemInfo.#ctor
+  isExternal: true
+  name: SoSystemInfo
+  nameWithType: SoSystemInfo.SoSystemInfo
+  fullName: SuperOffice.SoSystemInfo.SoSystemInfo
+- uid: SuperOffice.SoSystemInfo.Carrier*
+  commentId: Overload:SuperOffice.SoSystemInfo.Carrier
+  isExternal: true
+  name: Carrier
+  nameWithType: SoSystemInfo.Carrier
+  fullName: SuperOffice.SoSystemInfo.Carrier
+- uid: SuperOffice.SoSystemInfo.License*
+  commentId: Overload:SuperOffice.SoSystemInfo.License
+  isExternal: true
+  name: License
+  nameWithType: SoSystemInfo.License
+  fullName: SuperOffice.SoSystemInfo.License
+- uid: SuperOffice.License.LicenseInfo
+  isExternal: true
+  name: LicenseInfo
+  nameWithType: LicenseInfo
+  fullName: SuperOffice.License.LicenseInfo
+- uid: SuperOffice.SoSystemInfo.WarningEnglish*
+  commentId: Overload:SuperOffice.SoSystemInfo.WarningEnglish
+  isExternal: true
+  name: WarningEnglish
+  nameWithType: SoSystemInfo.WarningEnglish
+  fullName: SuperOffice.SoSystemInfo.WarningEnglish
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.SoSystemInfo.WarningResource*
+  commentId: Overload:SuperOffice.SoSystemInfo.WarningResource
+  isExternal: true
+  name: WarningResource
+  nameWithType: SoSystemInfo.WarningResource
+  fullName: SuperOffice.SoSystemInfo.WarningResource
+- uid: SuperOffice.SoSystemInfo.BranchName*
+  commentId: Overload:SuperOffice.SoSystemInfo.BranchName
+  isExternal: true
+  name: BranchName
+  nameWithType: SoSystemInfo.BranchName
+  fullName: SuperOffice.SoSystemInfo.BranchName
+- uid: SuperOffice.SoSystemInfo.BuildLabel*
+  commentId: Overload:SuperOffice.SoSystemInfo.BuildLabel
+  isExternal: true
+  name: BuildLabel
+  nameWithType: SoSystemInfo.BuildLabel
+  fullName: SuperOffice.SoSystemInfo.BuildLabel
+- uid: SuperOffice.SoSystemInfo.AssemblyVersion*
+  commentId: Overload:SuperOffice.SoSystemInfo.AssemblyVersion
+  isExternal: true
+  name: AssemblyVersion
+  nameWithType: SoSystemInfo.AssemblyVersion
+  fullName: SuperOffice.SoSystemInfo.AssemblyVersion
+- uid: SuperOffice.SoSystemInfo.FileVersion*
+  commentId: Overload:SuperOffice.SoSystemInfo.FileVersion
+  isExternal: true
+  name: FileVersion
+  nameWithType: SoSystemInfo.FileVersion
+  fullName: SuperOffice.SoSystemInfo.FileVersion
+- uid: SuperOffice.SoSystemInfo.Description*
+  commentId: Overload:SuperOffice.SoSystemInfo.Description
+  isExternal: true
+  name: Description
+  nameWithType: SoSystemInfo.Description
+  fullName: SuperOffice.SoSystemInfo.Description
+- uid: SuperOffice.SoSystemInfo.DaysUntilNetServerExpiry*
+  commentId: Overload:SuperOffice.SoSystemInfo.DaysUntilNetServerExpiry
+  isExternal: true
+  name: DaysUntilNetServerExpiry
+  nameWithType: SoSystemInfo.DaysUntilNetServerExpiry
+  fullName: SuperOffice.SoSystemInfo.DaysUntilNetServerExpiry
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.SoSystemInfo.BuildType*
+  commentId: Overload:SuperOffice.SoSystemInfo.BuildType
+  isExternal: true
+  name: BuildType
+  nameWithType: SoSystemInfo.BuildType
+  fullName: SuperOffice.SoSystemInfo.BuildType
+- uid: SuperOffice.NetServerBuildType
+  commentId: T:SuperOffice.NetServerBuildType
+  parent: SuperOffice
+  isExternal: true
+  name: NetServerBuildType
+  nameWithType: NetServerBuildType
+  fullName: SuperOffice.NetServerBuildType
+- uid: SuperOffice.SoSystemInfo.DatabaseVersion*
+  commentId: Overload:SuperOffice.SoSystemInfo.DatabaseVersion
+  isExternal: true
+  name: DatabaseVersion
+  nameWithType: SoSystemInfo.DatabaseVersion
+  fullName: SuperOffice.SoSystemInfo.DatabaseVersion
+- uid: SuperOffice.SoSystemInfo.IsUnicode*
+  commentId: Overload:SuperOffice.SoSystemInfo.IsUnicode
+  isExternal: true
+  name: IsUnicode
+  nameWithType: SoSystemInfo.IsUnicode
+  fullName: SuperOffice.SoSystemInfo.IsUnicode
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.SoSystemInfo.CompanyName*
+  commentId: Overload:SuperOffice.SoSystemInfo.CompanyName
+  isExternal: true
+  name: CompanyName
+  nameWithType: SoSystemInfo.CompanyName
+  fullName: SuperOffice.SoSystemInfo.CompanyName
+- uid: SuperOffice.SoSystemInfo.CompanyId*
+  commentId: Overload:SuperOffice.SoSystemInfo.CompanyId
+  isExternal: true
+  name: CompanyId
+  nameWithType: SoSystemInfo.CompanyId
+  fullName: SuperOffice.SoSystemInfo.CompanyId
+- uid: SuperOffice.SoSystemInfo.DatabaseType*
+  commentId: Overload:SuperOffice.SoSystemInfo.DatabaseType
+  isExternal: true
+  name: DatabaseType
+  nameWithType: SoSystemInfo.DatabaseType
+  fullName: SuperOffice.SoSystemInfo.DatabaseType
+- uid: SuperOffice.SoSystemInfo.DatabaseMinor*
+  commentId: Overload:SuperOffice.SoSystemInfo.DatabaseMinor
+  isExternal: true
+  name: DatabaseMinor
+  nameWithType: SoSystemInfo.DatabaseMinor
+  fullName: SuperOffice.SoSystemInfo.DatabaseMinor
+- uid: SuperOffice.SoSystemInfo.DatabaseName*
+  commentId: Overload:SuperOffice.SoSystemInfo.DatabaseName
+  isExternal: true
+  name: DatabaseName
+  nameWithType: SoSystemInfo.DatabaseName
+  fullName: SuperOffice.SoSystemInfo.DatabaseName
+- uid: SuperOffice.SoSystemInfo.IsOnTravel*
+  commentId: Overload:SuperOffice.SoSystemInfo.IsOnTravel
+  isExternal: true
+  name: IsOnTravel
+  nameWithType: SoSystemInfo.IsOnTravel
+  fullName: SuperOffice.SoSystemInfo.IsOnTravel
+- uid: SuperOffice.SoSystemInfo.IsSatellite*
+  commentId: Overload:SuperOffice.SoSystemInfo.IsSatellite
+  isExternal: true
+  name: IsSatellite
+  nameWithType: SoSystemInfo.IsSatellite
+  fullName: SuperOffice.SoSystemInfo.IsSatellite

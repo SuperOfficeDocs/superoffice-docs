@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler
+  commentId: T:SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler
+  id: SoTabbedBox.TabCommandEventHandler
+  parent: SuperOffice.Web.UI.Controls
+  children:
+  - SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.BeginInvoke(System.Object,SuperOffice.Web.UI.Controls.TabCommandEventArgs,System.AsyncCallback,System.Object)
+  - SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.EndInvoke(System.IAsyncResult)
+  - SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.Invoke(System.Object,SuperOffice.Web.UI.Controls.TabCommandEventArgs)
+  langs:
+  - csharp
+  - vb
+  name: SoTabbedBox.TabCommandEventHandler
+  nameWithType: SoTabbedBox.TabCommandEventHandler
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler
+  type: Delegate
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public delegate void TabCommandEventHandler(object sender, TabCommandEventArgs e);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: SuperOffice.Web.UI.Controls.TabCommandEventArgs
+    content.vb: Public Delegate Sub TabCommandEventHandler(sender As Object, e As TabCommandEventArgs)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler
+  langs:
+  - csharp
+  - vb
+  name: TabCommandEventHandler(Object, IntPtr)
+  nameWithType: SoTabbedBox.TabCommandEventHandler.TabCommandEventHandler(Object, IntPtr)
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.TabCommandEventHandler(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public TabCommandEventHandler(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.Invoke(System.Object,SuperOffice.Web.UI.Controls.TabCommandEventArgs)
+  commentId: M:SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.Invoke(System.Object,SuperOffice.Web.UI.Controls.TabCommandEventArgs)
+  id: Invoke(System.Object,SuperOffice.Web.UI.Controls.TabCommandEventArgs)
+  parent: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler
+  langs:
+  - csharp
+  - vb
+  name: Invoke(Object, TabCommandEventArgs)
+  nameWithType: SoTabbedBox.TabCommandEventHandler.Invoke(Object, TabCommandEventArgs)
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.Invoke(System.Object, SuperOffice.Web.UI.Controls.TabCommandEventArgs)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual void Invoke(object sender, TabCommandEventArgs e)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: SuperOffice.Web.UI.Controls.TabCommandEventArgs
+    content.vb: Public Overridable Sub Invoke(sender As Object, e As TabCommandEventArgs)
+  overload: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.Invoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.BeginInvoke(System.Object,SuperOffice.Web.UI.Controls.TabCommandEventArgs,System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.BeginInvoke(System.Object,SuperOffice.Web.UI.Controls.TabCommandEventArgs,System.AsyncCallback,System.Object)
+  id: BeginInvoke(System.Object,SuperOffice.Web.UI.Controls.TabCommandEventArgs,System.AsyncCallback,System.Object)
+  parent: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(Object, TabCommandEventArgs, AsyncCallback, Object)
+  nameWithType: SoTabbedBox.TabCommandEventHandler.BeginInvoke(Object, TabCommandEventArgs, AsyncCallback, Object)
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.BeginInvoke(System.Object, SuperOffice.Web.UI.Controls.TabCommandEventArgs, System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(object sender, TabCommandEventArgs e, AsyncCallback callback, object object)
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: SuperOffice.Web.UI.Controls.TabCommandEventArgs
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(sender As Object, e As TabCommandEventArgs, callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.BeginInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: SoTabbedBox.TabCommandEventHandler.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.EndInvoke(System.IAsyncResult)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual void EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
+  overload: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.EndInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.Web.UI.Controls
+  commentId: N:SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.Web.UI.Controls
+  nameWithType: SuperOffice.Web.UI.Controls
+  fullName: SuperOffice.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Web.UI.Controls.TabCommandEventArgs
+  commentId: T:SuperOffice.Web.UI.Controls.TabCommandEventArgs
+  parent: SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: TabCommandEventArgs
+  nameWithType: TabCommandEventArgs
+  fullName: SuperOffice.Web.UI.Controls.TabCommandEventArgs
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.#ctor*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.#ctor
+  isExternal: true
+  name: TabCommandEventHandler
+  nameWithType: SoTabbedBox.TabCommandEventHandler.TabCommandEventHandler
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.TabCommandEventHandler
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.Invoke*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: SoTabbedBox.TabCommandEventHandler.Invoke
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.Invoke
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.BeginInvoke*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: SoTabbedBox.TabCommandEventHandler.BeginInvoke
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.EndInvoke*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: SoTabbedBox.TabCommandEventHandler.EndInvoke
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler.EndInvoke

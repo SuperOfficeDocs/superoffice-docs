@@ -1,0 +1,1522 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings
+  commentId: T:SuperOffice.CRM.MailMerge.MailMergeSettings
+  id: MailMergeSettings
+  parent: SuperOffice.CRM.MailMerge
+  children:
+  - SuperOffice.CRM.MailMerge.MailMergeSettings.#ctor
+  - SuperOffice.CRM.MailMerge.MailMergeSettings.AddCompanyInterest
+  - SuperOffice.CRM.MailMerge.MailMergeSettings.AddPersonInterest
+  - SuperOffice.CRM.MailMerge.MailMergeSettings.AlwaysUseCustomAttention
+  - SuperOffice.CRM.MailMerge.MailMergeSettings.CustomAttention
+  - SuperOffice.CRM.MailMerge.MailMergeSettings.CustomMailBody
+  - SuperOffice.CRM.MailMerge.MailMergeSettings.CustomMailSubject
+  - SuperOffice.CRM.MailMerge.MailMergeSettings.DocumentId
+  - SuperOffice.CRM.MailMerge.MailMergeSettings.ExtraInfo
+  - SuperOffice.CRM.MailMerge.MailMergeSettings.IncludeNoMailingsRecipients
+  - SuperOffice.CRM.MailMerge.MailMergeSettings.IncludeRetiredRecipients
+  - SuperOffice.CRM.MailMerge.MailMergeSettings.IncludeStoppedRecipients
+  - SuperOffice.CRM.MailMerge.MailMergeSettings.IsTemporarySelection
+  - SuperOffice.CRM.MailMerge.MailMergeSettings.MailMergeDeliveryType
+  - SuperOffice.CRM.MailMerge.MailMergeSettings.ProjectId
+  - SuperOffice.CRM.MailMerge.MailMergeSettings.RemoveCompanyInterest
+  - SuperOffice.CRM.MailMerge.MailMergeSettings.RemovePersonInterest
+  - SuperOffice.CRM.MailMerge.MailMergeSettings.SaveDocument
+  - SuperOffice.CRM.MailMerge.MailMergeSettings.SelectionId
+  - SuperOffice.CRM.MailMerge.MailMergeSettings.TaskEntity
+  - SuperOffice.CRM.MailMerge.MailMergeSettings.TestOnly
+  langs:
+  - csharp
+  - vb
+  name: MailMergeSettings
+  nameWithType: MailMergeSettings
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  summary: "\nThis class holds all settings needed to perform a document merge operation\n"
+  syntax:
+    content: public class MailMergeSettings
+    content.vb: Public Class MailMergeSettings
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.MailMerge.MailMergeSettings.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.MailMerge.MailMergeSettings.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.MailMerge.MailMergeSettings)
+  - SuperOffice.CRM.MailMerge.MailMergeSettings.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.MailMerge.MailMergeSettings.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.#ctor
+  commentId: M:SuperOffice.CRM.MailMerge.MailMergeSettings.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.MailMerge.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: MailMergeSettings()
+  nameWithType: MailMergeSettings.MailMergeSettings()
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.MailMergeSettings()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  syntax:
+    content: public MailMergeSettings()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.MailMerge.MailMergeSettings.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.SelectionId
+  commentId: P:SuperOffice.CRM.MailMerge.MailMergeSettings.SelectionId
+  id: SelectionId
+  parent: SuperOffice.CRM.MailMerge.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: MailMergeSettings.SelectionId
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.SelectionId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  summary: "\nIdentity of selection to use as source for recipients.\n"
+  syntax:
+    content: public int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SelectionId As Integer
+  overload: SuperOffice.CRM.MailMerge.MailMergeSettings.SelectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.ProjectId
+  commentId: P:SuperOffice.CRM.MailMerge.MailMergeSettings.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.MailMerge.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: MailMergeSettings.ProjectId
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.ProjectId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  summary: "\nIdentity of project to use as source for recipients.\n"
+  syntax:
+    content: public int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ProjectId As Integer
+  overload: SuperOffice.CRM.MailMerge.MailMergeSettings.ProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.DocumentId
+  commentId: P:SuperOffice.CRM.MailMerge.MailMergeSettings.DocumentId
+  id: DocumentId
+  parent: SuperOffice.CRM.MailMerge.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: MailMergeSettings.DocumentId
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.DocumentId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  summary: "\nIdentity of document to be used as merge draft.\n"
+  syntax:
+    content: public int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DocumentId As Integer
+  overload: SuperOffice.CRM.MailMerge.MailMergeSettings.DocumentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.MailMergeDeliveryType
+  commentId: P:SuperOffice.CRM.MailMerge.MailMergeSettings.MailMergeDeliveryType
+  id: MailMergeDeliveryType
+  parent: SuperOffice.CRM.MailMerge.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: MailMergeDeliveryType
+  nameWithType: MailMergeSettings.MailMergeDeliveryType
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.MailMergeDeliveryType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  summary: "\nHow the merged document is delivered to the recipients.\n"
+  syntax:
+    content: public EMailMergeTargetType MailMergeDeliveryType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.EMailMergeTargetType
+    content.vb: Public Property MailMergeDeliveryType As EMailMergeTargetType
+  overload: SuperOffice.CRM.MailMerge.MailMergeSettings.MailMergeDeliveryType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.IncludeNoMailingsRecipients
+  commentId: P:SuperOffice.CRM.MailMerge.MailMergeSettings.IncludeNoMailingsRecipients
+  id: IncludeNoMailingsRecipients
+  parent: SuperOffice.CRM.MailMerge.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: IncludeNoMailingsRecipients
+  nameWithType: MailMergeSettings.IncludeNoMailingsRecipients
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.IncludeNoMailingsRecipients
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  summary: "\nInclude recipients with no NoMailings\n"
+  syntax:
+    content: public bool IncludeNoMailingsRecipients { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeNoMailingsRecipients As Boolean
+  overload: SuperOffice.CRM.MailMerge.MailMergeSettings.IncludeNoMailingsRecipients*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.IncludeRetiredRecipients
+  commentId: P:SuperOffice.CRM.MailMerge.MailMergeSettings.IncludeRetiredRecipients
+  id: IncludeRetiredRecipients
+  parent: SuperOffice.CRM.MailMerge.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: IncludeRetiredRecipients
+  nameWithType: MailMergeSettings.IncludeRetiredRecipients
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.IncludeRetiredRecipients
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  summary: "\nInclude recipients marked as retired\n"
+  syntax:
+    content: public bool IncludeRetiredRecipients { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeRetiredRecipients As Boolean
+  overload: SuperOffice.CRM.MailMerge.MailMergeSettings.IncludeRetiredRecipients*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.IncludeStoppedRecipients
+  commentId: P:SuperOffice.CRM.MailMerge.MailMergeSettings.IncludeStoppedRecipients
+  id: IncludeStoppedRecipients
+  parent: SuperOffice.CRM.MailMerge.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: IncludeStoppedRecipients
+  nameWithType: MailMergeSettings.IncludeStoppedRecipients
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.IncludeStoppedRecipients
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  summary: "\nInclude recipients that are marked with stop\n"
+  syntax:
+    content: public bool IncludeStoppedRecipients { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeStoppedRecipients As Boolean
+  overload: SuperOffice.CRM.MailMerge.MailMergeSettings.IncludeStoppedRecipients*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.CustomAttention
+  commentId: P:SuperOffice.CRM.MailMerge.MailMergeSettings.CustomAttention
+  id: CustomAttention
+  parent: SuperOffice.CRM.MailMerge.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: CustomAttention
+  nameWithType: MailMergeSettings.CustomAttention
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.CustomAttention
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  summary: "\nCustom value for attention.\n"
+  syntax:
+    content: public string CustomAttention { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CustomAttention As String
+  overload: SuperOffice.CRM.MailMerge.MailMergeSettings.CustomAttention*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.AlwaysUseCustomAttention
+  commentId: P:SuperOffice.CRM.MailMerge.MailMergeSettings.AlwaysUseCustomAttention
+  id: AlwaysUseCustomAttention
+  parent: SuperOffice.CRM.MailMerge.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: AlwaysUseCustomAttention
+  nameWithType: MailMergeSettings.AlwaysUseCustomAttention
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.AlwaysUseCustomAttention
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  summary: "\nShould custom attention always be used? If false, only use custom attention where there is no default.\n"
+  syntax:
+    content: public bool AlwaysUseCustomAttention { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AlwaysUseCustomAttention As Boolean
+  overload: SuperOffice.CRM.MailMerge.MailMergeSettings.AlwaysUseCustomAttention*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.SaveDocument
+  commentId: P:SuperOffice.CRM.MailMerge.MailMergeSettings.SaveDocument
+  id: SaveDocument
+  parent: SuperOffice.CRM.MailMerge.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: SaveDocument
+  nameWithType: MailMergeSettings.SaveDocument
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.SaveDocument
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  summary: "\nShould we save a reference to the merge document on each recipient.\n"
+  syntax:
+    content: public bool SaveDocument { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SaveDocument As Boolean
+  overload: SuperOffice.CRM.MailMerge.MailMergeSettings.SaveDocument*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.CustomMailBody
+  commentId: P:SuperOffice.CRM.MailMerge.MailMergeSettings.CustomMailBody
+  id: CustomMailBody
+  parent: SuperOffice.CRM.MailMerge.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: CustomMailBody
+  nameWithType: MailMergeSettings.CustomMailBody
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.CustomMailBody
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  summary: "\nIf specified, use this value as default mail body.\n"
+  syntax:
+    content: public string CustomMailBody { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CustomMailBody As String
+  overload: SuperOffice.CRM.MailMerge.MailMergeSettings.CustomMailBody*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.CustomMailSubject
+  commentId: P:SuperOffice.CRM.MailMerge.MailMergeSettings.CustomMailSubject
+  id: CustomMailSubject
+  parent: SuperOffice.CRM.MailMerge.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: CustomMailSubject
+  nameWithType: MailMergeSettings.CustomMailSubject
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.CustomMailSubject
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  summary: "\nIf specified, use this value as default mail body.\n"
+  syntax:
+    content: public string CustomMailSubject { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CustomMailSubject As String
+  overload: SuperOffice.CRM.MailMerge.MailMergeSettings.CustomMailSubject*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.TaskEntity
+  commentId: P:SuperOffice.CRM.MailMerge.MailMergeSettings.TaskEntity
+  id: TaskEntity
+  parent: SuperOffice.CRM.MailMerge.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: TaskEntity
+  nameWithType: MailMergeSettings.TaskEntity
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.TaskEntity
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  summary: "\nIf specified, register a task on recipients using properties from this object.\n"
+  syntax:
+    content: public MailMergeTask TaskEntity { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.MailMerge.MailMergeTask
+    content.vb: Public Property TaskEntity As MailMergeTask
+  overload: SuperOffice.CRM.MailMerge.MailMergeSettings.TaskEntity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.AddCompanyInterest
+  commentId: P:SuperOffice.CRM.MailMerge.MailMergeSettings.AddCompanyInterest
+  id: AddCompanyInterest
+  parent: SuperOffice.CRM.MailMerge.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: AddCompanyInterest
+  nameWithType: MailMergeSettings.AddCompanyInterest
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.AddCompanyInterest
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  summary: "\nAdd this company interest to each company recipient.\n"
+  syntax:
+    content: public int AddCompanyInterest { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AddCompanyInterest As Integer
+  overload: SuperOffice.CRM.MailMerge.MailMergeSettings.AddCompanyInterest*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.AddPersonInterest
+  commentId: P:SuperOffice.CRM.MailMerge.MailMergeSettings.AddPersonInterest
+  id: AddPersonInterest
+  parent: SuperOffice.CRM.MailMerge.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: AddPersonInterest
+  nameWithType: MailMergeSettings.AddPersonInterest
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.AddPersonInterest
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  summary: "\nAdd this person interest to each person recipient.\n"
+  syntax:
+    content: public int AddPersonInterest { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AddPersonInterest As Integer
+  overload: SuperOffice.CRM.MailMerge.MailMergeSettings.AddPersonInterest*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.RemoveCompanyInterest
+  commentId: P:SuperOffice.CRM.MailMerge.MailMergeSettings.RemoveCompanyInterest
+  id: RemoveCompanyInterest
+  parent: SuperOffice.CRM.MailMerge.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: RemoveCompanyInterest
+  nameWithType: MailMergeSettings.RemoveCompanyInterest
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.RemoveCompanyInterest
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  summary: "\nRemove this company interest on each company recipient.\n"
+  syntax:
+    content: public int RemoveCompanyInterest { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RemoveCompanyInterest As Integer
+  overload: SuperOffice.CRM.MailMerge.MailMergeSettings.RemoveCompanyInterest*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.RemovePersonInterest
+  commentId: P:SuperOffice.CRM.MailMerge.MailMergeSettings.RemovePersonInterest
+  id: RemovePersonInterest
+  parent: SuperOffice.CRM.MailMerge.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: RemovePersonInterest
+  nameWithType: MailMergeSettings.RemovePersonInterest
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.RemovePersonInterest
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  summary: "\nRemove this person interest on each person recipient.\n"
+  syntax:
+    content: public int RemovePersonInterest { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RemovePersonInterest As Integer
+  overload: SuperOffice.CRM.MailMerge.MailMergeSettings.RemovePersonInterest*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.IsTemporarySelection
+  commentId: P:SuperOffice.CRM.MailMerge.MailMergeSettings.IsTemporarySelection
+  id: IsTemporarySelection
+  parent: SuperOffice.CRM.MailMerge.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: IsTemporarySelection
+  nameWithType: MailMergeSettings.IsTemporarySelection
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.IsTemporarySelection
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  summary: "\nIf true, the selection is a temporary selection that can be deleted later.\n"
+  syntax:
+    content: public bool IsTemporarySelection { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsTemporarySelection As Boolean
+  overload: SuperOffice.CRM.MailMerge.MailMergeSettings.IsTemporarySelection*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.TestOnly
+  commentId: P:SuperOffice.CRM.MailMerge.MailMergeSettings.TestOnly
+  id: TestOnly
+  parent: SuperOffice.CRM.MailMerge.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: TestOnly
+  nameWithType: MailMergeSettings.TestOnly
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.TestOnly
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  summary: "\nIf true, do the merge task, but use only current user as recipient, not selection members\n"
+  syntax:
+    content: public bool TestOnly { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property TestOnly As Boolean
+  overload: SuperOffice.CRM.MailMerge.MailMergeSettings.TestOnly*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.ExtraInfo
+  commentId: P:SuperOffice.CRM.MailMerge.MailMergeSettings.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.CRM.MailMerge.MailMergeSettings
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: MailMergeSettings.ExtraInfo
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.ExtraInfo
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.MailMerge
+  syntax:
+    content: public string ExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ExtraInfo As String
+  overload: SuperOffice.CRM.MailMerge.MailMergeSettings.ExtraInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.MailMerge
+  commentId: N:SuperOffice.CRM.MailMerge
+  isExternal: true
+  name: SuperOffice.CRM.MailMerge
+  nameWithType: SuperOffice.CRM.MailMerge
+  fullName: SuperOffice.CRM.MailMerge
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<MailMergeSettings, To>()
+  nameWithType: EnumUtil.MapEnums<MailMergeSettings, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.MailMerge.MailMergeSettings, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of MailMergeSettings, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.MailMerge.MailMergeSettings, To)()
+  name.vb: MapEnums(Of MailMergeSettings, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<MailMergeSettings, To>
+    nameWithType: EnumUtil.MapEnums<MailMergeSettings, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.MailMerge.MailMergeSettings, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of MailMergeSettings, To)
+    nameWithType: EnumUtil.MapEnums(Of MailMergeSettings, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.MailMerge.MailMergeSettings, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.MailMerge.MailMergeSettings)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<MailMergeSettings>(MailMergeSettings)
+  nameWithType: ObjectExtensions.AssignByReflection<MailMergeSettings>(MailMergeSettings)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.MailMerge.MailMergeSettings>(SuperOffice.CRM.MailMerge.MailMergeSettings)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of MailMergeSettings)(MailMergeSettings)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.MailMerge.MailMergeSettings)(SuperOffice.CRM.MailMerge.MailMergeSettings)
+  name.vb: AssignByReflection(Of MailMergeSettings)(MailMergeSettings)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<MailMergeSettings>
+    nameWithType: ObjectExtensions.AssignByReflection<MailMergeSettings>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.MailMerge.MailMergeSettings>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.MailMerge.MailMergeSettings
+    name: MailMergeSettings
+    nameWithType: MailMergeSettings
+    fullName: SuperOffice.CRM.MailMerge.MailMergeSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of MailMergeSettings)
+    nameWithType: ObjectExtensions.AssignByReflection(Of MailMergeSettings)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.MailMerge.MailMergeSettings)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.MailMerge.MailMergeSettings
+    name: MailMergeSettings
+    nameWithType: MailMergeSettings
+    fullName: SuperOffice.CRM.MailMerge.MailMergeSettings
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<MailMergeSettings>()
+  nameWithType: ObjectExtensions.GraphCopy<MailMergeSettings>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.MailMerge.MailMergeSettings>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of MailMergeSettings)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.MailMerge.MailMergeSettings)()
+  name.vb: GraphCopy(Of MailMergeSettings)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<MailMergeSettings>
+    nameWithType: ObjectExtensions.GraphCopy<MailMergeSettings>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.MailMerge.MailMergeSettings>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of MailMergeSettings)
+    nameWithType: ObjectExtensions.GraphCopy(Of MailMergeSettings)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.MailMerge.MailMergeSettings)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<MailMergeSettings, To>()
+  nameWithType: Converters.MapEnums<MailMergeSettings, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.MailMerge.MailMergeSettings, To>()
+  nameWithType.vb: Converters.MapEnums(Of MailMergeSettings, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.MailMerge.MailMergeSettings, To)()
+  name.vb: MapEnums(Of MailMergeSettings, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<MailMergeSettings, To>
+    nameWithType: Converters.MapEnums<MailMergeSettings, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.MailMerge.MailMergeSettings, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of MailMergeSettings, To)
+    nameWithType: Converters.MapEnums(Of MailMergeSettings, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.MailMerge.MailMergeSettings, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.#ctor*
+  commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettings.#ctor
+  isExternal: true
+  name: MailMergeSettings
+  nameWithType: MailMergeSettings.MailMergeSettings
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.MailMergeSettings
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.SelectionId*
+  commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettings.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: MailMergeSettings.SelectionId
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.SelectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.ProjectId*
+  commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettings.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: MailMergeSettings.ProjectId
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.ProjectId
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.DocumentId*
+  commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettings.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: MailMergeSettings.DocumentId
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.DocumentId
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.MailMergeDeliveryType*
+  commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettings.MailMergeDeliveryType
+  isExternal: true
+  name: MailMergeDeliveryType
+  nameWithType: MailMergeSettings.MailMergeDeliveryType
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.MailMergeDeliveryType
+- uid: SuperOffice.Data.EMailMergeTargetType
+  commentId: T:SuperOffice.Data.EMailMergeTargetType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: EMailMergeTargetType
+  nameWithType: EMailMergeTargetType
+  fullName: SuperOffice.Data.EMailMergeTargetType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.IncludeNoMailingsRecipients*
+  commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettings.IncludeNoMailingsRecipients
+  isExternal: true
+  name: IncludeNoMailingsRecipients
+  nameWithType: MailMergeSettings.IncludeNoMailingsRecipients
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.IncludeNoMailingsRecipients
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.IncludeRetiredRecipients*
+  commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettings.IncludeRetiredRecipients
+  isExternal: true
+  name: IncludeRetiredRecipients
+  nameWithType: MailMergeSettings.IncludeRetiredRecipients
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.IncludeRetiredRecipients
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.IncludeStoppedRecipients*
+  commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettings.IncludeStoppedRecipients
+  isExternal: true
+  name: IncludeStoppedRecipients
+  nameWithType: MailMergeSettings.IncludeStoppedRecipients
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.IncludeStoppedRecipients
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.CustomAttention*
+  commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettings.CustomAttention
+  isExternal: true
+  name: CustomAttention
+  nameWithType: MailMergeSettings.CustomAttention
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.CustomAttention
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.AlwaysUseCustomAttention*
+  commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettings.AlwaysUseCustomAttention
+  isExternal: true
+  name: AlwaysUseCustomAttention
+  nameWithType: MailMergeSettings.AlwaysUseCustomAttention
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.AlwaysUseCustomAttention
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.SaveDocument*
+  commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettings.SaveDocument
+  isExternal: true
+  name: SaveDocument
+  nameWithType: MailMergeSettings.SaveDocument
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.SaveDocument
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.CustomMailBody*
+  commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettings.CustomMailBody
+  isExternal: true
+  name: CustomMailBody
+  nameWithType: MailMergeSettings.CustomMailBody
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.CustomMailBody
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.CustomMailSubject*
+  commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettings.CustomMailSubject
+  isExternal: true
+  name: CustomMailSubject
+  nameWithType: MailMergeSettings.CustomMailSubject
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.CustomMailSubject
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.TaskEntity*
+  commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettings.TaskEntity
+  isExternal: true
+  name: TaskEntity
+  nameWithType: MailMergeSettings.TaskEntity
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.TaskEntity
+- uid: SuperOffice.CRM.MailMerge.MailMergeTask
+  commentId: T:SuperOffice.CRM.MailMerge.MailMergeTask
+  parent: SuperOffice.CRM.MailMerge
+  isExternal: true
+  name: MailMergeTask
+  nameWithType: MailMergeTask
+  fullName: SuperOffice.CRM.MailMerge.MailMergeTask
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.AddCompanyInterest*
+  commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettings.AddCompanyInterest
+  isExternal: true
+  name: AddCompanyInterest
+  nameWithType: MailMergeSettings.AddCompanyInterest
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.AddCompanyInterest
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.AddPersonInterest*
+  commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettings.AddPersonInterest
+  isExternal: true
+  name: AddPersonInterest
+  nameWithType: MailMergeSettings.AddPersonInterest
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.AddPersonInterest
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.RemoveCompanyInterest*
+  commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettings.RemoveCompanyInterest
+  isExternal: true
+  name: RemoveCompanyInterest
+  nameWithType: MailMergeSettings.RemoveCompanyInterest
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.RemoveCompanyInterest
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.RemovePersonInterest*
+  commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettings.RemovePersonInterest
+  isExternal: true
+  name: RemovePersonInterest
+  nameWithType: MailMergeSettings.RemovePersonInterest
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.RemovePersonInterest
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.IsTemporarySelection*
+  commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettings.IsTemporarySelection
+  isExternal: true
+  name: IsTemporarySelection
+  nameWithType: MailMergeSettings.IsTemporarySelection
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.IsTemporarySelection
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.TestOnly*
+  commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettings.TestOnly
+  isExternal: true
+  name: TestOnly
+  nameWithType: MailMergeSettings.TestOnly
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.TestOnly
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettings.ExtraInfo*
+  commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettings.ExtraInfo
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: MailMergeSettings.ExtraInfo
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettings.ExtraInfo

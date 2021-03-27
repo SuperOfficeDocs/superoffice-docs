@@ -1,0 +1,330 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.EisActorSummary
+  commentId: T:SuperOffice.CRM.Services.EisActorSummary
+  id: EisActorSummary
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.EisActorSummary.#ctor
+  - SuperOffice.CRM.Services.EisActorSummary.ActorType
+  - SuperOffice.CRM.Services.EisActorSummary.Defaults
+  - SuperOffice.CRM.Services.EisActorSummary.HasMappings
+  - SuperOffice.CRM.Services.EisActorSummary.Mappings
+  - SuperOffice.CRM.Services.EisActorSummary.ToString
+  - SuperOffice.CRM.Services.EisActorSummary.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: EisActorSummary
+  nameWithType: EisActorSummary
+  fullName: SuperOffice.CRM.Services.EisActorSummary
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for EisActorSummary.\nServices for the EisActorSummary Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IErpSyncAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class EisActorSummary : Carrier'
+    content.vb: >-
+      Public Class EisActorSummary
+          Inherits Carrier
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.EisActorSummary.#ctor
+  commentId: M:SuperOffice.CRM.Services.EisActorSummary.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.EisActorSummary
+  langs:
+  - csharp
+  - vb
+  name: EisActorSummary()
+  nameWithType: EisActorSummary.EisActorSummary()
+  fullName: SuperOffice.CRM.Services.EisActorSummary.EisActorSummary()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public EisActorSummary()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.EisActorSummary.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EisActorSummary.ToString
+  commentId: M:SuperOffice.CRM.Services.EisActorSummary.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.EisActorSummary
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: EisActorSummary.ToString()
+  fullName: SuperOffice.CRM.Services.EisActorSummary.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.EisActorSummary.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.EisActorSummary.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.EisActorSummary.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.EisActorSummary
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: EisActorSummary.ToString(String)
+  fullName: SuperOffice.CRM.Services.EisActorSummary.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.EisActorSummary.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EisActorSummary.ActorType
+  commentId: P:SuperOffice.CRM.Services.EisActorSummary.ActorType
+  id: ActorType
+  parent: SuperOffice.CRM.Services.EisActorSummary
+  langs:
+  - csharp
+  - vb
+  name: ActorType
+  nameWithType: EisActorSummary.ActorType
+  fullName: SuperOffice.CRM.Services.EisActorSummary.ActorType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nActor type\n"
+  syntax:
+    content: public ErpActorType ActorType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.ErpActorType
+    content.vb: Public Property ActorType As ErpActorType
+  overload: SuperOffice.CRM.Services.EisActorSummary.ActorType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EisActorSummary.HasMappings
+  commentId: P:SuperOffice.CRM.Services.EisActorSummary.HasMappings
+  id: HasMappings
+  parent: SuperOffice.CRM.Services.EisActorSummary
+  langs:
+  - csharp
+  - vb
+  name: HasMappings
+  nameWithType: EisActorSummary.HasMappings
+  fullName: SuperOffice.CRM.Services.EisActorSummary.HasMappings
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDoes this actor type have field mappings\n"
+  syntax:
+    content: public bool HasMappings { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HasMappings As Boolean
+  overload: SuperOffice.CRM.Services.EisActorSummary.HasMappings*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EisActorSummary.Defaults
+  commentId: P:SuperOffice.CRM.Services.EisActorSummary.Defaults
+  id: Defaults
+  parent: SuperOffice.CRM.Services.EisActorSummary
+  langs:
+  - csharp
+  - vb
+  name: Defaults
+  nameWithType: EisActorSummary.Defaults
+  fullName: SuperOffice.CRM.Services.EisActorSummary.Defaults
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA summary of fields that have defaults/rules for link creation\n"
+  syntax:
+    content: public string Defaults { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Defaults As String
+  overload: SuperOffice.CRM.Services.EisActorSummary.Defaults*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EisActorSummary.Mappings
+  commentId: P:SuperOffice.CRM.Services.EisActorSummary.Mappings
+  id: Mappings
+  parent: SuperOffice.CRM.Services.EisActorSummary
+  langs:
+  - csharp
+  - vb
+  name: Mappings
+  nameWithType: EisActorSummary.Mappings
+  fullName: SuperOffice.CRM.Services.EisActorSummary.Mappings
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA summary of fields that have mappings to or from the ERP system\n"
+  syntax:
+    content: public string Mappings { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Mappings As String
+  overload: SuperOffice.CRM.Services.EisActorSummary.Mappings*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.EisActorSummary.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.EisActorSummary.#ctor
+  isExternal: true
+  name: EisActorSummary
+  nameWithType: EisActorSummary.EisActorSummary
+  fullName: SuperOffice.CRM.Services.EisActorSummary.EisActorSummary
+- uid: SuperOffice.CRM.Services.EisActorSummary.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.EisActorSummary.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: EisActorSummary.ToString
+  fullName: SuperOffice.CRM.Services.EisActorSummary.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.EisActorSummary.ActorType*
+  commentId: Overload:SuperOffice.CRM.Services.EisActorSummary.ActorType
+  isExternal: true
+  name: ActorType
+  nameWithType: EisActorSummary.ActorType
+  fullName: SuperOffice.CRM.Services.EisActorSummary.ActorType
+- uid: SuperOffice.Data.ErpActorType
+  isExternal: true
+  name: ErpActorType
+  nameWithType: ErpActorType
+  fullName: SuperOffice.Data.ErpActorType
+- uid: SuperOffice.CRM.Services.EisActorSummary.HasMappings*
+  commentId: Overload:SuperOffice.CRM.Services.EisActorSummary.HasMappings
+  isExternal: true
+  name: HasMappings
+  nameWithType: EisActorSummary.HasMappings
+  fullName: SuperOffice.CRM.Services.EisActorSummary.HasMappings
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.EisActorSummary.Defaults*
+  commentId: Overload:SuperOffice.CRM.Services.EisActorSummary.Defaults
+  isExternal: true
+  name: Defaults
+  nameWithType: EisActorSummary.Defaults
+  fullName: SuperOffice.CRM.Services.EisActorSummary.Defaults
+- uid: SuperOffice.CRM.Services.EisActorSummary.Mappings*
+  commentId: Overload:SuperOffice.CRM.Services.EisActorSummary.Mappings
+  isExternal: true
+  name: Mappings
+  nameWithType: EisActorSummary.Mappings
+  fullName: SuperOffice.CRM.Services.EisActorSummary.Mappings

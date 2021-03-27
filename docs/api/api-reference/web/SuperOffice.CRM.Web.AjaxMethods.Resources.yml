@@ -1,0 +1,587 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.AjaxMethods.Resources
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.Resources
+  id: Resources
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  children:
+  - SuperOffice.CRM.Web.AjaxMethods.Resources.#ctor
+  - SuperOffice.CRM.Web.AjaxMethods.Resources.GetExtAppUrl(System.String,System.Boolean,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Resources.GetResourceText(System.String,System.Boolean)
+  - SuperOffice.CRM.Web.AjaxMethods.Resources.GetResourceTexts(System.String,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: Resources
+  nameWithType: Resources
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Resources
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoWebObject("Resources")]
+
+      public class Resources : IWebObject, IPlugin
+    content.vb: >-
+      <SoWebObject("Resources")>
+
+      Public Class Resources
+          Implements IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Resources
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.AjaxMethods.Resources.GetResourceText(System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Resources.GetResourceText(System.String,System.Boolean)
+  id: GetResourceText(System.String,System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Resources
+  langs:
+  - csharp
+  - vb
+  name: GetResourceText(String, Boolean)
+  nameWithType: Resources.GetResourceText(String, Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Resources.GetResourceText(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoAjaxMethod(SoAjaxMethodType.ThreatErrorAsWarning)]
+
+      public string GetResourceText(string resourceString, bool replaceNewlineWithBr)
+    parameters:
+    - id: resourceString
+      type: System.String
+    - id: replaceNewlineWithBr
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: >-
+      <SoAjaxMethod(SoAjaxMethodType.ThreatErrorAsWarning)>
+
+      Public Function GetResourceText(resourceString As String, replaceNewlineWithBr As Boolean) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Resources.GetResourceText*
+  attributes:
+  - type: SuperOffice.DCF.Web.SoAjaxMethodAttribute
+    ctor: SuperOffice.DCF.Web.SoAjaxMethodAttribute.#ctor(SuperOffice.DCF.Web.SoAjaxMethodType)
+    arguments:
+    - type: SuperOffice.DCF.Web.SoAjaxMethodType
+      value: 2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Resources.GetResourceTexts(System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Resources.GetResourceTexts(System.String,System.Boolean)
+  id: GetResourceTexts(System.String,System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Resources
+  langs:
+  - csharp
+  - vb
+  name: GetResourceTexts(String, Boolean)
+  nameWithType: Resources.GetResourceTexts(String, Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Resources.GetResourceTexts(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoAjaxMethod(SoAjaxMethodType.ThreatErrorAsWarning)]
+
+      public string[] GetResourceTexts(string resourceStringsStr, bool replaceNewlineWithBr)
+    parameters:
+    - id: resourceStringsStr
+      type: System.String
+    - id: replaceNewlineWithBr
+      type: System.Boolean
+    return:
+      type: System.String[]
+    content.vb: >-
+      <SoAjaxMethod(SoAjaxMethodType.ThreatErrorAsWarning)>
+
+      Public Function GetResourceTexts(resourceStringsStr As String, replaceNewlineWithBr As Boolean) As String()
+  overload: SuperOffice.CRM.Web.AjaxMethods.Resources.GetResourceTexts*
+  attributes:
+  - type: SuperOffice.DCF.Web.SoAjaxMethodAttribute
+    ctor: SuperOffice.DCF.Web.SoAjaxMethodAttribute.#ctor(SuperOffice.DCF.Web.SoAjaxMethodType)
+    arguments:
+    - type: SuperOffice.DCF.Web.SoAjaxMethodType
+      value: 2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Resources.GetExtAppUrl(System.String,System.Boolean,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Resources.GetExtAppUrl(System.String,System.Boolean,System.String)
+  id: GetExtAppUrl(System.String,System.Boolean,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Resources
+  langs:
+  - csharp
+  - vb
+  name: GetExtAppUrl(String, Boolean, String)
+  nameWithType: Resources.GetExtAppUrl(String, Boolean, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Resources.GetExtAppUrl(System.String, System.Boolean, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetExtAppUrl(string urlString, bool replaceNewlineWithBr, string encoding)
+    parameters:
+    - id: urlString
+      type: System.String
+    - id: replaceNewlineWithBr
+      type: System.Boolean
+    - id: encoding
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetExtAppUrl(urlString As String, replaceNewlineWithBr As Boolean, encoding As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Resources.GetExtAppUrl*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Resources.#ctor
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Resources.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.AjaxMethods.Resources
+  langs:
+  - csharp
+  - vb
+  name: Resources()
+  nameWithType: Resources.Resources()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Resources.Resources()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public Resources()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.AjaxMethods.Resources.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.AjaxMethods
+  commentId: N:SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: SuperOffice.CRM.Web.AjaxMethods
+  nameWithType: SuperOffice.CRM.Web.AjaxMethods
+  fullName: SuperOffice.CRM.Web.AjaxMethods
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.CRM.Web.AjaxMethods.Resources.GetResourceText*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Resources.GetResourceText
+  isExternal: true
+  name: GetResourceText
+  nameWithType: Resources.GetResourceText
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Resources.GetResourceText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.AjaxMethods.Resources.GetResourceTexts*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Resources.GetResourceTexts
+  isExternal: true
+  name: GetResourceTexts
+  nameWithType: Resources.GetResourceTexts
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Resources.GetResourceTexts
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.AjaxMethods.Resources.GetExtAppUrl*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Resources.GetExtAppUrl
+  isExternal: true
+  name: GetExtAppUrl
+  nameWithType: Resources.GetExtAppUrl
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Resources.GetExtAppUrl
+- uid: SuperOffice.CRM.Web.AjaxMethods.Resources.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Resources.#ctor
+  isExternal: true
+  name: Resources
+  nameWithType: Resources.Resources
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Resources.Resources

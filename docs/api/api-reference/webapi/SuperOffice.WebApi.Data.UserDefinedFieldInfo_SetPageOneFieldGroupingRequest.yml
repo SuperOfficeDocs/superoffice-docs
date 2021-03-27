@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest
+  commentId: T:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest
+  id: UserDefinedFieldInfo_SetPageOneFieldGroupingRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.#ctor
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.Active
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.OwnerType
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldInfo_SetPageOneFieldGroupingRequest
+  nameWithType: UserDefinedFieldInfo_SetPageOneFieldGroupingRequest
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class UserDefinedFieldInfo_SetPageOneFieldGroupingRequest : Object'
+    content.vb: >-
+      Public Class UserDefinedFieldInfo_SetPageOneFieldGroupingRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldInfo_SetPageOneFieldGroupingRequest()
+  nameWithType: UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest()
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UserDefinedFieldInfo_SetPageOneFieldGroupingRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.OwnerType
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.OwnerType
+  id: OwnerType
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest
+  langs:
+  - csharp
+  - vb
+  name: OwnerType
+  nameWithType: UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.OwnerType
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.OwnerType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UDefType OwnerType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.UDefType
+    content.vb: Public Property OwnerType As UDefType
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.OwnerType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.Active
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.Active
+  id: Active
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.Active
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.Active
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool Active { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Active As Boolean
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.Active*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.#ctor
+  isExternal: true
+  name: UserDefinedFieldInfo_SetPageOneFieldGroupingRequest
+  nameWithType: UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.OwnerType*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.OwnerType
+  isExternal: true
+  name: OwnerType
+  nameWithType: UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.OwnerType
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.OwnerType
+- uid: SuperOffice.WebApi.Data.UDefType
+  commentId: T:SuperOffice.WebApi.Data.UDefType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: UDefType
+  nameWithType: UDefType
+  fullName: SuperOffice.WebApi.Data.UDefType
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.Active*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.Active
+  isExternal: true
+  name: Active
+  nameWithType: UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.Active
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetPageOneFieldGroupingRequest.Active
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

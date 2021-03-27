@@ -1,0 +1,347 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.INextDueDatePlugin
+  commentId: T:SuperOffice.CRM.INextDueDatePlugin
+  id: INextDueDatePlugin
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.INextDueDatePlugin.BatchUpdateNextDueDate(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  - SuperOffice.CRM.INextDueDatePlugin.CalculateNextDueDate(System.Int32)
+  - SuperOffice.CRM.INextDueDatePlugin.GetNextDueAppointmentDate(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: INextDueDatePlugin
+  nameWithType: INextDueDatePlugin
+  fullName: SuperOffice.CRM.INextDueDatePlugin
+  type: Interface
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nContains the algorithm for calculating the next due date for a given sale or all sales.\n"
+  syntax:
+    content: 'public interface INextDueDatePlugin : IPlugin'
+    content.vb: >-
+      Public Interface INextDueDatePlugin
+          Inherits IPlugin
+  extensionMethods:
+  - SuperOffice.CRM.INextDueDatePlugin.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.INextDueDatePlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.INextDueDatePlugin.CalculateNextDueDate(System.Int32)
+  commentId: M:SuperOffice.CRM.INextDueDatePlugin.CalculateNextDueDate(System.Int32)
+  id: CalculateNextDueDate(System.Int32)
+  parent: SuperOffice.CRM.INextDueDatePlugin
+  langs:
+  - csharp
+  - vb
+  name: CalculateNextDueDate(Int32)
+  nameWithType: INextDueDatePlugin.CalculateNextDueDate(Int32)
+  fullName: SuperOffice.CRM.INextDueDatePlugin.CalculateNextDueDate(System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nCalculates the next due date for a given sale. This method takes into account the status of the sale. \n"
+  syntax:
+    content: NextDateInfo CalculateNextDueDate(int saleId)
+    parameters:
+    - id: saleId
+      type: System.Int32
+      description: Identifies the sale for which you want to calculate the next due date
+    return:
+      type: SuperOffice.CRM.NextDateInfo
+      description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> representing the next due date for the supplied sale identifier
+    content.vb: Function CalculateNextDueDate(saleId As Integer) As NextDateInfo
+  overload: SuperOffice.CRM.INextDueDatePlugin.CalculateNextDueDate*
+- uid: SuperOffice.CRM.INextDueDatePlugin.BatchUpdateNextDueDate(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  commentId: M:SuperOffice.CRM.INextDueDatePlugin.BatchUpdateNextDueDate(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  id: BatchUpdateNextDueDate(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  parent: SuperOffice.CRM.INextDueDatePlugin
+  langs:
+  - csharp
+  - vb
+  name: BatchUpdateNextDueDate(ProgressEstimateCallback, ProgressStepCallback)
+  nameWithType: INextDueDatePlugin.BatchUpdateNextDueDate(ProgressEstimateCallback, ProgressStepCallback)
+  fullName: SuperOffice.CRM.INextDueDatePlugin.BatchUpdateNextDueDate(SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nUpdates the next due date for all sales. The callback is called for each 1/1000th step of the total, with the current value (0-1000)\n"
+  syntax:
+    content: void BatchUpdateNextDueDate(ProgressEstimateCallback estimate, ProgressStepCallback step)
+    parameters:
+    - id: estimate
+      type: SuperOffice.CRM.ProgressEstimateCallback
+    - id: step
+      type: SuperOffice.CRM.ProgressStepCallback
+    content.vb: Sub BatchUpdateNextDueDate(estimate As ProgressEstimateCallback, step As ProgressStepCallback)
+  overload: SuperOffice.CRM.INextDueDatePlugin.BatchUpdateNextDueDate*
+- uid: SuperOffice.CRM.INextDueDatePlugin.GetNextDueAppointmentDate(System.Int32)
+  commentId: M:SuperOffice.CRM.INextDueDatePlugin.GetNextDueAppointmentDate(System.Int32)
+  id: GetNextDueAppointmentDate(System.Int32)
+  parent: SuperOffice.CRM.INextDueDatePlugin
+  langs:
+  - csharp
+  - vb
+  name: GetNextDueAppointmentDate(Int32)
+  nameWithType: INextDueDatePlugin.GetNextDueAppointmentDate(Int32)
+  fullName: SuperOffice.CRM.INextDueDatePlugin.GetNextDueAppointmentDate(System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nGets the active date from the first appointment associated with the specified sale.\nThis method does not take into account the status of the sale. \n"
+  syntax:
+    content: NextDateInfo GetNextDueAppointmentDate(int saleId)
+    parameters:
+    - id: saleId
+      type: System.Int32
+      description: Identifies the sale for which you want to calculate the next due date
+    return:
+      type: SuperOffice.CRM.NextDateInfo
+      description: The <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> representing the next due date for the supplied sale identifier
+    content.vb: Function GetNextDueAppointmentDate(saleId As Integer) As NextDateInfo
+  overload: SuperOffice.CRM.INextDueDatePlugin.GetNextDueAppointmentDate*
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: SuperOffice.CRM.INextDueDatePlugin.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<INextDueDatePlugin, To>()
+  nameWithType: EnumUtil.MapEnums<INextDueDatePlugin, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.INextDueDatePlugin, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of INextDueDatePlugin, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.INextDueDatePlugin, To)()
+  name.vb: MapEnums(Of INextDueDatePlugin, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<INextDueDatePlugin, To>
+    nameWithType: EnumUtil.MapEnums<INextDueDatePlugin, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.INextDueDatePlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of INextDueDatePlugin, To)
+    nameWithType: EnumUtil.MapEnums(Of INextDueDatePlugin, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.INextDueDatePlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.INextDueDatePlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<INextDueDatePlugin, To>()
+  nameWithType: Converters.MapEnums<INextDueDatePlugin, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.INextDueDatePlugin, To>()
+  nameWithType.vb: Converters.MapEnums(Of INextDueDatePlugin, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.INextDueDatePlugin, To)()
+  name.vb: MapEnums(Of INextDueDatePlugin, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<INextDueDatePlugin, To>
+    nameWithType: Converters.MapEnums<INextDueDatePlugin, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.INextDueDatePlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of INextDueDatePlugin, To)
+    nameWithType: Converters.MapEnums(Of INextDueDatePlugin, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.INextDueDatePlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.INextDueDatePlugin.CalculateNextDueDate*
+  commentId: Overload:SuperOffice.CRM.INextDueDatePlugin.CalculateNextDueDate
+  isExternal: true
+  name: CalculateNextDueDate
+  nameWithType: INextDueDatePlugin.CalculateNextDueDate
+  fullName: SuperOffice.CRM.INextDueDatePlugin.CalculateNextDueDate
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.NextDateInfo
+  commentId: T:SuperOffice.CRM.NextDateInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: NextDateInfo
+  nameWithType: NextDateInfo
+  fullName: SuperOffice.CRM.NextDateInfo
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.INextDueDatePlugin.BatchUpdateNextDueDate*
+  commentId: Overload:SuperOffice.CRM.INextDueDatePlugin.BatchUpdateNextDueDate
+  isExternal: true
+  name: BatchUpdateNextDueDate
+  nameWithType: INextDueDatePlugin.BatchUpdateNextDueDate
+  fullName: SuperOffice.CRM.INextDueDatePlugin.BatchUpdateNextDueDate
+- uid: SuperOffice.CRM.ProgressEstimateCallback
+  commentId: T:SuperOffice.CRM.ProgressEstimateCallback
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ProgressEstimateCallback
+  nameWithType: ProgressEstimateCallback
+  fullName: SuperOffice.CRM.ProgressEstimateCallback
+- uid: SuperOffice.CRM.ProgressStepCallback
+  commentId: T:SuperOffice.CRM.ProgressStepCallback
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ProgressStepCallback
+  nameWithType: ProgressStepCallback
+  fullName: SuperOffice.CRM.ProgressStepCallback
+- uid: SuperOffice.CRM.INextDueDatePlugin.GetNextDueAppointmentDate*
+  commentId: Overload:SuperOffice.CRM.INextDueDatePlugin.GetNextDueAppointmentDate
+  isExternal: true
+  name: GetNextDueAppointmentDate
+  nameWithType: INextDueDatePlugin.GetNextDueAppointmentDate
+  fullName: SuperOffice.CRM.INextDueDatePlugin.GetNextDueAppointmentDate

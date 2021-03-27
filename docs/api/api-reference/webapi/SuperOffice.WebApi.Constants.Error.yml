@@ -1,0 +1,236 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Constants.Error
+  commentId: T:SuperOffice.WebApi.Constants.Error
+  id: Constants.Error
+  parent: SuperOffice.WebApi
+  children:
+  - SuperOffice.WebApi.Constants.Error.ArgNullException
+  - SuperOffice.WebApi.Constants.Error.ConfigCannotBeNull
+  - SuperOffice.WebApi.Constants.Error.ContentTooLarge
+  - SuperOffice.WebApi.Constants.Error.FailedAccessTokenValidation
+  - SuperOffice.WebApi.Constants.Error.FailedSystemUserTokenValidation
+  - SuperOffice.WebApi.Constants.Error.HttpClientCannotBeNull
+  langs:
+  - csharp
+  - vb
+  name: Constants.Error
+  nameWithType: Constants.Error
+  fullName: SuperOffice.WebApi.Constants.Error
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nError constants.\n"
+  syntax:
+    content: 'public static class Error : Object'
+    content.vb: >-
+      Public Module Error
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Constants.Error.ArgNullException
+  commentId: F:SuperOffice.WebApi.Constants.Error.ArgNullException
+  id: ArgNullException
+  parent: SuperOffice.WebApi.Constants.Error
+  langs:
+  - csharp
+  - vb
+  name: ArgNullException
+  nameWithType: Constants.Error.ArgNullException
+  fullName: SuperOffice.WebApi.Constants.Error.ArgNullException
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string ArgNullException = "'{0}' cannot be null or empty"
+    return:
+      type: System.String
+    content.vb: Public Const ArgNullException As String = "'{0}' cannot be null or empty"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.Error.ConfigCannotBeNull
+  commentId: F:SuperOffice.WebApi.Constants.Error.ConfigCannotBeNull
+  id: ConfigCannotBeNull
+  parent: SuperOffice.WebApi.Constants.Error
+  langs:
+  - csharp
+  - vb
+  name: ConfigCannotBeNull
+  nameWithType: Constants.Error.ConfigCannotBeNull
+  fullName: SuperOffice.WebApi.Constants.Error.ConfigCannotBeNull
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string ConfigCannotBeNull = "Configuration cannot be null"
+    return:
+      type: System.String
+    content.vb: Public Const ConfigCannotBeNull As String = "Configuration cannot be null"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.Error.HttpClientCannotBeNull
+  commentId: F:SuperOffice.WebApi.Constants.Error.HttpClientCannotBeNull
+  id: HttpClientCannotBeNull
+  parent: SuperOffice.WebApi.Constants.Error
+  langs:
+  - csharp
+  - vb
+  name: HttpClientCannotBeNull
+  nameWithType: Constants.Error.HttpClientCannotBeNull
+  fullName: SuperOffice.WebApi.Constants.Error.HttpClientCannotBeNull
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string HttpClientCannotBeNull = "HttpClient cannot be null if config.BaseURL is NULL."
+    return:
+      type: System.String
+    content.vb: Public Const HttpClientCannotBeNull As String = "HttpClient cannot be null if config.BaseURL is NULL."
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.Error.ContentTooLarge
+  commentId: F:SuperOffice.WebApi.Constants.Error.ContentTooLarge
+  id: ContentTooLarge
+  parent: SuperOffice.WebApi.Constants.Error
+  langs:
+  - csharp
+  - vb
+  name: ContentTooLarge
+  nameWithType: Constants.Error.ContentTooLarge
+  fullName: SuperOffice.WebApi.Constants.Error.ContentTooLarge
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: 'public const string ContentTooLarge = "Returned Content Length too large: "'
+    return:
+      type: System.String
+    content.vb: 'Public Const ContentTooLarge As String = "Returned Content Length too large: "'
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.Error.FailedAccessTokenValidation
+  commentId: F:SuperOffice.WebApi.Constants.Error.FailedAccessTokenValidation
+  id: FailedAccessTokenValidation
+  parent: SuperOffice.WebApi.Constants.Error
+  langs:
+  - csharp
+  - vb
+  name: FailedAccessTokenValidation
+  nameWithType: Constants.Error.FailedAccessTokenValidation
+  fullName: SuperOffice.WebApi.Constants.Error.FailedAccessTokenValidation
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string FailedAccessTokenValidation = "Access token validation failed."
+    return:
+      type: System.String
+    content.vb: Public Const FailedAccessTokenValidation As String = "Access token validation failed."
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.Error.FailedSystemUserTokenValidation
+  commentId: F:SuperOffice.WebApi.Constants.Error.FailedSystemUserTokenValidation
+  id: FailedSystemUserTokenValidation
+  parent: SuperOffice.WebApi.Constants.Error
+  langs:
+  - csharp
+  - vb
+  name: FailedSystemUserTokenValidation
+  nameWithType: Constants.Error.FailedSystemUserTokenValidation
+  fullName: SuperOffice.WebApi.Constants.Error.FailedSystemUserTokenValidation
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string FailedSystemUserTokenValidation = "System User token validation failed."
+    return:
+      type: System.String
+    content.vb: Public Const FailedSystemUserTokenValidation As String = "System User token validation failed."
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

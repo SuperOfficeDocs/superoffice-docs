@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSync_ChangeEngineStatusRequest
+  commentId: T:SuperOffice.WebApi.Data.ErpSync_ChangeEngineStatusRequest
+  id: ErpSync_ChangeEngineStatusRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSync_ChangeEngineStatusRequest.#ctor
+  - SuperOffice.WebApi.Data.ErpSync_ChangeEngineStatusRequest.Run
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_ChangeEngineStatusRequest
+  nameWithType: ErpSync_ChangeEngineStatusRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_ChangeEngineStatusRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ErpSync_ChangeEngineStatusRequest : Object'
+    content.vb: >-
+      Public Class ErpSync_ChangeEngineStatusRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSync_ChangeEngineStatusRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSync_ChangeEngineStatusRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSync_ChangeEngineStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_ChangeEngineStatusRequest()
+  nameWithType: ErpSync_ChangeEngineStatusRequest.ErpSync_ChangeEngineStatusRequest()
+  fullName: SuperOffice.WebApi.Data.ErpSync_ChangeEngineStatusRequest.ErpSync_ChangeEngineStatusRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpSync_ChangeEngineStatusRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSync_ChangeEngineStatusRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_ChangeEngineStatusRequest.Run
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_ChangeEngineStatusRequest.Run
+  id: Run
+  parent: SuperOffice.WebApi.Data.ErpSync_ChangeEngineStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: Run
+  nameWithType: ErpSync_ChangeEngineStatusRequest.Run
+  fullName: SuperOffice.WebApi.Data.ErpSync_ChangeEngineStatusRequest.Run
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool Run { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Run As Boolean
+  overload: SuperOffice.WebApi.Data.ErpSync_ChangeEngineStatusRequest.Run*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSync_ChangeEngineStatusRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_ChangeEngineStatusRequest.#ctor
+  isExternal: true
+  name: ErpSync_ChangeEngineStatusRequest
+  nameWithType: ErpSync_ChangeEngineStatusRequest.ErpSync_ChangeEngineStatusRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_ChangeEngineStatusRequest.ErpSync_ChangeEngineStatusRequest
+- uid: SuperOffice.WebApi.Data.ErpSync_ChangeEngineStatusRequest.Run*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_ChangeEngineStatusRequest.Run
+  isExternal: true
+  name: Run
+  nameWithType: ErpSync_ChangeEngineStatusRequest.Run
+  fullName: SuperOffice.WebApi.Data.ErpSync_ChangeEngineStatusRequest.Run
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -1,0 +1,1272 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  commentId: T:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  id: ContactExtenderBase.Features
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Activity
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.All
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Appointment
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Associate
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.DisableOverlappingColumnsWithPerson
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.DisableRestrictions
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Document
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Email
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Fax
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.FindActivity
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.FindOrSelection
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Interests
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.NavigationLinks
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.None
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.NoRightJoin
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Phone
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.PostalAddress
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.PostalSearchAddress
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.PrefixEmailWithContact
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.ProjectMember
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Relation
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Saint
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Sale
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.SearchAddress
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.SearchPhone
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.SelectionMemberInfo
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Shallow
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.StreetAddress
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.SupportFields
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Udef
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Url
+  langs:
+  - csharp
+  - vb
+  name: ContactExtenderBase.Features
+  nameWithType: ContactExtenderBase.Features
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  type: Enum
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum Features
+    content.vb: >-
+      <Flags>
+
+      Public Enum Features
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features)
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.None
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.None
+  id: None
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ContactExtenderBase.Features.None
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.None
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Udef
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Udef
+  id: Udef
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: Udef
+  nameWithType: ContactExtenderBase.Features.Udef
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Udef
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Udef = 1
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Email
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Email
+  id: Email
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: ContactExtenderBase.Features.Email
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Email
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Email = 2
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Url
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Url
+  id: Url
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: ContactExtenderBase.Features.Url
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Url
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Url = 4
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Phone
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Phone
+  id: Phone
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: Phone
+  nameWithType: ContactExtenderBase.Features.Phone
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Phone
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Phone = 8
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Fax
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Fax
+  id: Fax
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: Fax
+  nameWithType: ContactExtenderBase.Features.Fax
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Fax
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Fax = 16
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Associate
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Associate
+  id: Associate
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: ContactExtenderBase.Features.Associate
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Associate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Associate = 32
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.PostalAddress
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.PostalAddress
+  id: PostalAddress
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: PostalAddress
+  nameWithType: ContactExtenderBase.Features.PostalAddress
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.PostalAddress
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: PostalAddress = 64
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.StreetAddress
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.StreetAddress
+  id: StreetAddress
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: StreetAddress
+  nameWithType: ContactExtenderBase.Features.StreetAddress
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.StreetAddress
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: StreetAddress = 128
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.NoRightJoin
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.NoRightJoin
+  id: NoRightJoin
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: NoRightJoin
+  nameWithType: ContactExtenderBase.Features.NoRightJoin
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.NoRightJoin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: NoRightJoin = 256
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Relation
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Relation
+  id: Relation
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: Relation
+  nameWithType: ContactExtenderBase.Features.Relation
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Relation
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Relation = 262144
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Sale
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Sale
+  id: Sale
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: Sale
+  nameWithType: ContactExtenderBase.Features.Sale
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Sale
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Sale = 524288
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Document
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Document
+  id: Document
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: Document
+  nameWithType: ContactExtenderBase.Features.Document
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Document
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Document = 1048576
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Appointment
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Appointment
+  id: Appointment
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: Appointment
+  nameWithType: ContactExtenderBase.Features.Appointment
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Appointment
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Appointment = 4194304
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.ProjectMember
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.ProjectMember
+  id: ProjectMember
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: ProjectMember
+  nameWithType: ContactExtenderBase.Features.ProjectMember
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.ProjectMember
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: ProjectMember = 16777216
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.NavigationLinks
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.NavigationLinks
+  id: NavigationLinks
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: NavigationLinks
+  nameWithType: ContactExtenderBase.Features.NavigationLinks
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.NavigationLinks
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: NavigationLinks = 256
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Interests
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Interests
+  id: Interests
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: Interests
+  nameWithType: ContactExtenderBase.Features.Interests
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Interests
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Interests = 512
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Saint
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Saint
+  id: Saint
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: Saint
+  nameWithType: ContactExtenderBase.Features.Saint
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Saint
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Saint = 1024
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.DisableRestrictions
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.DisableRestrictions
+  id: DisableRestrictions
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: DisableRestrictions
+  nameWithType: ContactExtenderBase.Features.DisableRestrictions
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.DisableRestrictions
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: DisableRestrictions = 2048
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.SearchPhone
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.SearchPhone
+  id: SearchPhone
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: SearchPhone
+  nameWithType: ContactExtenderBase.Features.SearchPhone
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.SearchPhone
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: SearchPhone = 4096
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.SearchAddress
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.SearchAddress
+  id: SearchAddress
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: SearchAddress
+  nameWithType: ContactExtenderBase.Features.SearchAddress
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.SearchAddress
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: SearchAddress = 8192
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.SelectionMemberInfo
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.SelectionMemberInfo
+  id: SelectionMemberInfo
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: SelectionMemberInfo
+  nameWithType: ContactExtenderBase.Features.SelectionMemberInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.SelectionMemberInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: SelectionMemberInfo = 16384
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.PostalSearchAddress
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.PostalSearchAddress
+  id: PostalSearchAddress
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: PostalSearchAddress
+  nameWithType: ContactExtenderBase.Features.PostalSearchAddress
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.PostalSearchAddress
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: PostalSearchAddress = 32768
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.DisableOverlappingColumnsWithPerson
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.DisableOverlappingColumnsWithPerson
+  id: DisableOverlappingColumnsWithPerson
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: DisableOverlappingColumnsWithPerson
+  nameWithType: ContactExtenderBase.Features.DisableOverlappingColumnsWithPerson
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.DisableOverlappingColumnsWithPerson
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: DisableOverlappingColumnsWithPerson = 65536
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.SupportFields
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.SupportFields
+  id: SupportFields
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: SupportFields
+  nameWithType: ContactExtenderBase.Features.SupportFields
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.SupportFields
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: SupportFields = 131072
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.PrefixEmailWithContact
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.PrefixEmailWithContact
+  id: PrefixEmailWithContact
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: PrefixEmailWithContact
+  nameWithType: ContactExtenderBase.Features.PrefixEmailWithContact
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.PrefixEmailWithContact
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: PrefixEmailWithContact = 33554432
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Shallow
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Shallow
+  id: Shallow
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: Shallow
+  nameWithType: ContactExtenderBase.Features.Shallow
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Shallow
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Shallow = 14079
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.All
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.All
+  id: All
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: ContactExtenderBase.Features.All
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.All
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: All = 194559
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.FindOrSelection
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.FindOrSelection
+  id: FindOrSelection
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: FindOrSelection
+  nameWithType: ContactExtenderBase.Features.FindOrSelection
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.FindOrSelection
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: FindOrSelection = 22820607
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Activity
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Activity
+  id: Activity
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: Activity
+  nameWithType: ContactExtenderBase.Features.Activity
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.Activity
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Activity = 479
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.FindActivity
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.FindActivity
+  id: FindActivity
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: FindActivity
+  nameWithType: ContactExtenderBase.Features.FindActivity
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.FindActivity
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: FindActivity = 131367
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ContactExtenderBase.Features, To>()
+  nameWithType: EnumUtil.MapEnums<ContactExtenderBase.Features, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ContactExtenderBase.Features, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features, To)()
+  name.vb: MapEnums(Of ContactExtenderBase.Features, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ContactExtenderBase.Features, To>
+    nameWithType: EnumUtil.MapEnums<ContactExtenderBase.Features, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ContactExtenderBase.Features, To)
+    nameWithType: EnumUtil.MapEnums(Of ContactExtenderBase.Features, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ContactExtenderBase.Features>(ContactExtenderBase.Features)
+  nameWithType: ObjectExtensions.AssignByReflection<ContactExtenderBase.Features>(ContactExtenderBase.Features)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features>(SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ContactExtenderBase.Features)(ContactExtenderBase.Features)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features)(SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features)
+  name.vb: AssignByReflection(Of ContactExtenderBase.Features)(ContactExtenderBase.Features)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ContactExtenderBase.Features>
+    nameWithType: ObjectExtensions.AssignByReflection<ContactExtenderBase.Features>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+    name: ContactExtenderBase.Features
+    nameWithType: ContactExtenderBase.Features
+    fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ContactExtenderBase.Features)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ContactExtenderBase.Features)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+    name: ContactExtenderBase.Features
+    nameWithType: ContactExtenderBase.Features
+    fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ContactExtenderBase.Features>()
+  nameWithType: ObjectExtensions.GraphCopy<ContactExtenderBase.Features>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ContactExtenderBase.Features)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features)()
+  name.vb: GraphCopy(Of ContactExtenderBase.Features)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ContactExtenderBase.Features>
+    nameWithType: ObjectExtensions.GraphCopy<ContactExtenderBase.Features>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ContactExtenderBase.Features)
+    nameWithType: ObjectExtensions.GraphCopy(Of ContactExtenderBase.Features)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ContactExtenderBase.Features, To>()
+  nameWithType: Converters.MapEnums<ContactExtenderBase.Features, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features, To>()
+  nameWithType.vb: Converters.MapEnums(Of ContactExtenderBase.Features, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features, To)()
+  name.vb: MapEnums(Of ContactExtenderBase.Features, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ContactExtenderBase.Features, To>
+    nameWithType: Converters.MapEnums<ContactExtenderBase.Features, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ContactExtenderBase.Features, To)
+    nameWithType: Converters.MapEnums(Of ContactExtenderBase.Features, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  commentId: T:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ContactExtenderBase.Features
+  nameWithType: ContactExtenderBase.Features
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features

@@ -1,0 +1,410 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.License.TimeZone.TimeZoneService
+  commentId: T:SuperOffice.License.TimeZone.TimeZoneService
+  id: TimeZoneService
+  parent: SuperOffice.License.TimeZone
+  children:
+  - SuperOffice.License.TimeZone.TimeZoneService.#ctor(System.String)
+  - SuperOffice.License.TimeZone.TimeZoneService.CheckHasNewTimeZoneData(SuperOffice.License.TimeZone.TimeZoneCheckHasNewDataRequest)
+  - SuperOffice.License.TimeZone.TimeZoneService.GetTimeZoneData(SuperOffice.License.TimeZone.TimeZoneGetDataRequest)
+  - SuperOffice.License.TimeZone.TimeZoneService.InitBinding(System.ServiceModel.BasicHttpBinding)
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneService
+  nameWithType: TimeZoneService
+  fullName: SuperOffice.License.TimeZone.TimeZoneService
+  type: Class
+  source:
+    path: SoLicense
+    isExternal: true
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License.TimeZone
+  summary: "\nFacade for TimeZone service hosted by SuperOffice (or one of the partners)\n"
+  syntax:
+    content: 'public class TimeZoneService : WcfClientBase<ITimeZoneService>'
+    content.vb: >-
+      Public Class TimeZoneService
+          Inherits WcfClientBase(Of ITimeZoneService)
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.License.TimeZone.TimeZoneService.EnumUtil.MapEnums``2
+  - SuperOffice.License.TimeZone.TimeZoneService.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.License.TimeZone.TimeZoneService.#ctor(System.String)
+  commentId: M:SuperOffice.License.TimeZone.TimeZoneService.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.License.TimeZone.TimeZoneService
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneService(String)
+  nameWithType: TimeZoneService.TimeZoneService(String)
+  fullName: SuperOffice.License.TimeZone.TimeZoneService.TimeZoneService(System.String)
+  type: Constructor
+  source:
+    path: SoLicense
+    isExternal: true
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License.TimeZone
+  syntax:
+    content: public TimeZoneService(string url)
+    parameters:
+    - id: url
+      type: System.String
+    content.vb: Public Sub New(url As String)
+  overload: SuperOffice.License.TimeZone.TimeZoneService.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.License.TimeZone.TimeZoneService.InitBinding(System.ServiceModel.BasicHttpBinding)
+  commentId: M:SuperOffice.License.TimeZone.TimeZoneService.InitBinding(System.ServiceModel.BasicHttpBinding)
+  id: InitBinding(System.ServiceModel.BasicHttpBinding)
+  parent: SuperOffice.License.TimeZone.TimeZoneService
+  langs:
+  - csharp
+  - vb
+  name: InitBinding(BasicHttpBinding)
+  nameWithType: TimeZoneService.InitBinding(BasicHttpBinding)
+  fullName: SuperOffice.License.TimeZone.TimeZoneService.InitBinding(System.ServiceModel.BasicHttpBinding)
+  type: Method
+  source:
+    path: SoLicense
+    isExternal: true
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License.TimeZone
+  syntax:
+    content: protected override void InitBinding(BasicHttpBinding binding)
+    parameters:
+    - id: binding
+      type: System.ServiceModel.BasicHttpBinding
+    content.vb: Protected Overrides Sub InitBinding(binding As BasicHttpBinding)
+  overload: SuperOffice.License.TimeZone.TimeZoneService.InitBinding*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.License.TimeZone.TimeZoneService.GetTimeZoneData(SuperOffice.License.TimeZone.TimeZoneGetDataRequest)
+  commentId: M:SuperOffice.License.TimeZone.TimeZoneService.GetTimeZoneData(SuperOffice.License.TimeZone.TimeZoneGetDataRequest)
+  id: GetTimeZoneData(SuperOffice.License.TimeZone.TimeZoneGetDataRequest)
+  parent: SuperOffice.License.TimeZone.TimeZoneService
+  langs:
+  - csharp
+  - vb
+  name: GetTimeZoneData(TimeZoneGetDataRequest)
+  nameWithType: TimeZoneService.GetTimeZoneData(TimeZoneGetDataRequest)
+  fullName: SuperOffice.License.TimeZone.TimeZoneService.GetTimeZoneData(SuperOffice.License.TimeZone.TimeZoneGetDataRequest)
+  type: Method
+  source:
+    path: SoLicense
+    isExternal: true
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License.TimeZone
+  summary: "\nPing the TimeZone service\n"
+  syntax:
+    content: public GetTimeZoneDataResult GetTimeZoneData(TimeZoneGetDataRequest req)
+    parameters:
+    - id: req
+      type: SuperOffice.License.TimeZone.TimeZoneGetDataRequest
+      description: 'Request '
+    return:
+      type: SuperOffice.License.TimeZone.GetTimeZoneDataResult
+      description: Ping response
+    content.vb: Public Function GetTimeZoneData(req As TimeZoneGetDataRequest) As GetTimeZoneDataResult
+  overload: SuperOffice.License.TimeZone.TimeZoneService.GetTimeZoneData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.License.TimeZone.TimeZoneService.CheckHasNewTimeZoneData(SuperOffice.License.TimeZone.TimeZoneCheckHasNewDataRequest)
+  commentId: M:SuperOffice.License.TimeZone.TimeZoneService.CheckHasNewTimeZoneData(SuperOffice.License.TimeZone.TimeZoneCheckHasNewDataRequest)
+  id: CheckHasNewTimeZoneData(SuperOffice.License.TimeZone.TimeZoneCheckHasNewDataRequest)
+  parent: SuperOffice.License.TimeZone.TimeZoneService
+  langs:
+  - csharp
+  - vb
+  name: CheckHasNewTimeZoneData(TimeZoneCheckHasNewDataRequest)
+  nameWithType: TimeZoneService.CheckHasNewTimeZoneData(TimeZoneCheckHasNewDataRequest)
+  fullName: SuperOffice.License.TimeZone.TimeZoneService.CheckHasNewTimeZoneData(SuperOffice.License.TimeZone.TimeZoneCheckHasNewDataRequest)
+  type: Method
+  source:
+    path: SoLicense
+    isExternal: true
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License.TimeZone
+  summary: "\nPing the TimeZone service\n"
+  syntax:
+    content: public HasNewTimeZoneDataResult CheckHasNewTimeZoneData(TimeZoneCheckHasNewDataRequest req)
+    parameters:
+    - id: req
+      type: SuperOffice.License.TimeZone.TimeZoneCheckHasNewDataRequest
+      description: 'Request '
+    return:
+      type: SuperOffice.License.TimeZone.HasNewTimeZoneDataResult
+      description: Ping response
+    content.vb: Public Function CheckHasNewTimeZoneData(req As TimeZoneCheckHasNewDataRequest) As HasNewTimeZoneDataResult
+  overload: SuperOffice.License.TimeZone.TimeZoneService.CheckHasNewTimeZoneData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.License.TimeZone
+  commentId: N:SuperOffice.License.TimeZone
+  isExternal: true
+  name: SuperOffice.License.TimeZone
+  nameWithType: SuperOffice.License.TimeZone
+  fullName: SuperOffice.License.TimeZone
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.License.TimeZone.TimeZoneService.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TimeZoneService, To>()
+  nameWithType: EnumUtil.MapEnums<TimeZoneService, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.License.TimeZone.TimeZoneService, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TimeZoneService, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.License.TimeZone.TimeZoneService, To)()
+  name.vb: MapEnums(Of TimeZoneService, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TimeZoneService, To>
+    nameWithType: EnumUtil.MapEnums<TimeZoneService, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.License.TimeZone.TimeZoneService, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TimeZoneService, To)
+    nameWithType: EnumUtil.MapEnums(Of TimeZoneService, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.License.TimeZone.TimeZoneService, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.License.TimeZone.TimeZoneService.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TimeZoneService, To>()
+  nameWithType: Converters.MapEnums<TimeZoneService, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.License.TimeZone.TimeZoneService, To>()
+  nameWithType.vb: Converters.MapEnums(Of TimeZoneService, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.License.TimeZone.TimeZoneService, To)()
+  name.vb: MapEnums(Of TimeZoneService, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TimeZoneService, To>
+    nameWithType: Converters.MapEnums<TimeZoneService, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.License.TimeZone.TimeZoneService, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TimeZoneService, To)
+    nameWithType: Converters.MapEnums(Of TimeZoneService, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.License.TimeZone.TimeZoneService, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.License.TimeZone.TimeZoneService.#ctor*
+  commentId: Overload:SuperOffice.License.TimeZone.TimeZoneService.#ctor
+  isExternal: true
+  name: TimeZoneService
+  nameWithType: TimeZoneService.TimeZoneService
+  fullName: SuperOffice.License.TimeZone.TimeZoneService.TimeZoneService
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.License.TimeZone.TimeZoneService.InitBinding*
+  commentId: Overload:SuperOffice.License.TimeZone.TimeZoneService.InitBinding
+  isExternal: true
+  name: InitBinding
+  nameWithType: TimeZoneService.InitBinding
+  fullName: SuperOffice.License.TimeZone.TimeZoneService.InitBinding
+- uid: System.ServiceModel.BasicHttpBinding
+  isExternal: true
+  name: BasicHttpBinding
+  nameWithType: BasicHttpBinding
+  fullName: System.ServiceModel.BasicHttpBinding
+- uid: SuperOffice.License.TimeZone.TimeZoneService.GetTimeZoneData*
+  commentId: Overload:SuperOffice.License.TimeZone.TimeZoneService.GetTimeZoneData
+  isExternal: true
+  name: GetTimeZoneData
+  nameWithType: TimeZoneService.GetTimeZoneData
+  fullName: SuperOffice.License.TimeZone.TimeZoneService.GetTimeZoneData
+- uid: SuperOffice.License.TimeZone.TimeZoneGetDataRequest
+  commentId: '!:SuperOffice.License.TimeZone.TimeZoneGetDataRequest'
+  isExternal: true
+  name: TimeZoneGetDataRequest
+  nameWithType: TimeZoneGetDataRequest
+  fullName: SuperOffice.License.TimeZone.TimeZoneGetDataRequest
+- uid: SuperOffice.License.TimeZone.GetTimeZoneDataResult
+  commentId: '!:SuperOffice.License.TimeZone.GetTimeZoneDataResult'
+  isExternal: true
+  name: GetTimeZoneDataResult
+  nameWithType: GetTimeZoneDataResult
+  fullName: SuperOffice.License.TimeZone.GetTimeZoneDataResult
+- uid: SuperOffice.License.TimeZone.TimeZoneService.CheckHasNewTimeZoneData*
+  commentId: Overload:SuperOffice.License.TimeZone.TimeZoneService.CheckHasNewTimeZoneData
+  isExternal: true
+  name: CheckHasNewTimeZoneData
+  nameWithType: TimeZoneService.CheckHasNewTimeZoneData
+  fullName: SuperOffice.License.TimeZone.TimeZoneService.CheckHasNewTimeZoneData
+- uid: SuperOffice.License.TimeZone.TimeZoneCheckHasNewDataRequest
+  commentId: '!:SuperOffice.License.TimeZone.TimeZoneCheckHasNewDataRequest'
+  isExternal: true
+  name: TimeZoneCheckHasNewDataRequest
+  nameWithType: TimeZoneCheckHasNewDataRequest
+  fullName: SuperOffice.License.TimeZone.TimeZoneCheckHasNewDataRequest
+- uid: SuperOffice.License.TimeZone.HasNewTimeZoneDataResult
+  commentId: '!:SuperOffice.License.TimeZone.HasNewTimeZoneDataResult'
+  isExternal: true
+  name: HasNewTimeZoneDataResult
+  nameWithType: HasNewTimeZoneDataResult
+  fullName: SuperOffice.License.TimeZone.HasNewTimeZoneDataResult

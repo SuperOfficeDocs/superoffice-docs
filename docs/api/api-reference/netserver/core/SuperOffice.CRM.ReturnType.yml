@@ -1,0 +1,570 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ReturnType
+  commentId: T:SuperOffice.CRM.ReturnType
+  id: ReturnType
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.ReturnType.CustomGui
+  - SuperOffice.CRM.ReturnType.Message
+  - SuperOffice.CRM.ReturnType.None
+  - SuperOffice.CRM.ReturnType.Other
+  - SuperOffice.CRM.ReturnType.SoProtocol
+  - SuperOffice.CRM.ReturnType.URL
+  langs:
+  - csharp
+  - vb
+  name: ReturnType
+  nameWithType: ReturnType
+  fullName: SuperOffice.CRM.ReturnType
+  type: Enum
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\nHow should a return value from an API call or command be interpreted by the caller\n"
+  remarks: "\nTogether with the <xref href=\"SuperOffice.CRM.ReturnInfo\" data-throw-if-not-resolved=\"false\"></xref> data class, this type opens the possibility\nfor programming fairly complex workflows, with multiple roundtrips chained from one \nreturn to the next.\n<p></p>\nThe disadvantage is that it places a responsibility on the author for choosing which\nclients to support, and to what extent - noting that the number of clients is always\nincreasing, and that clients can have vastly different capabilities; from server-room\nsync processes that have no user interaction at all, to full-featured web or windows\nclients.\n"
+  syntax:
+    content: public enum ReturnType
+    content.vb: Public Enum ReturnType
+  extensionMethods:
+  - SuperOffice.CRM.ReturnType.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ReturnType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ReturnType)
+  - SuperOffice.CRM.ReturnType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.ReturnType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.ReturnType.None
+  commentId: F:SuperOffice.CRM.ReturnType.None
+  id: None
+  parent: SuperOffice.CRM.ReturnType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ReturnType.None
+  fullName: SuperOffice.CRM.ReturnType.None
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\n0: There is no return value to be parsed.\n"
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.CRM.ReturnType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ReturnType.Message
+  commentId: F:SuperOffice.CRM.ReturnType.Message
+  id: Message
+  parent: SuperOffice.CRM.ReturnType
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: ReturnType.Message
+  fullName: SuperOffice.CRM.ReturnType.Message
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\n1: The return value is a string, to be shown to the user as a message. A modal dialog box for example.\n"
+  syntax:
+    content: Message = 1
+    return:
+      type: SuperOffice.CRM.ReturnType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ReturnType.SoProtocol
+  commentId: F:SuperOffice.CRM.ReturnType.SoProtocol
+  id: SoProtocol
+  parent: SuperOffice.CRM.ReturnType
+  langs:
+  - csharp
+  - vb
+  name: SoProtocol
+  nameWithType: ReturnType.SoProtocol
+  fullName: SuperOffice.CRM.ReturnType.SoProtocol
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\n2: SoProtocol. The return value is an soprotocol-compliant navigation string, to be parsed\naccording to the rules for soprotocol strings. e.g. &quot;contact.main?contact_id=123&quot;\n"
+  syntax:
+    content: SoProtocol = 2
+    return:
+      type: SuperOffice.CRM.ReturnType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ReturnType.CustomGui
+  commentId: F:SuperOffice.CRM.ReturnType.CustomGui
+  id: CustomGui
+  parent: SuperOffice.CRM.ReturnType
+  langs:
+  - csharp
+  - vb
+  name: CustomGui
+  nameWithType: ReturnType.CustomGui
+  fullName: SuperOffice.CRM.ReturnType.CustomGui
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\n3: The return value is the name of a custom GUI. The GetCustomGui method on the \ndocument plugin will be invoked, and the resulting GUI rendered.\n"
+  syntax:
+    content: CustomGui = 3
+    return:
+      type: SuperOffice.CRM.ReturnType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ReturnType.Other
+  commentId: F:SuperOffice.CRM.ReturnType.Other
+  id: Other
+  parent: SuperOffice.CRM.ReturnType
+  langs:
+  - csharp
+  - vb
+  name: Other
+  nameWithType: ReturnType.Other
+  fullName: SuperOffice.CRM.ReturnType.Other
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\n4: The return value is intended for custom processing; this implies that the document plugin\nhas installed some component on the intended client that will intercept and handle\nthis return value. \n<br />Note that this requires advanced knowledge of the client and its\nconstruction and navigation. Also note that this will make the functionality client-specific,\nso that it may not be available or work as intended on clients not specifically\nsupported or known.\n"
+  syntax:
+    content: Other = 4
+    return:
+      type: SuperOffice.CRM.ReturnType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ReturnType.URL
+  commentId: F:SuperOffice.CRM.ReturnType.URL
+  id: URL
+  parent: SuperOffice.CRM.ReturnType
+  langs:
+  - csharp
+  - vb
+  name: URL
+  nameWithType: ReturnType.URL
+  fullName: SuperOffice.CRM.ReturnType.URL
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  summary: "\n5: The return value is a URL that should be opened in a new window.\n"
+  syntax:
+    content: URL = 5
+    return:
+      type: SuperOffice.CRM.ReturnType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: SuperOffice.CRM.ReturnType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ReturnType, To>()
+  nameWithType: EnumUtil.MapEnums<ReturnType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ReturnType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ReturnType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ReturnType, To)()
+  name.vb: MapEnums(Of ReturnType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ReturnType, To>
+    nameWithType: EnumUtil.MapEnums<ReturnType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ReturnType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ReturnType, To)
+    nameWithType: EnumUtil.MapEnums(Of ReturnType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ReturnType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ReturnType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ReturnType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ReturnType>(ReturnType)
+  nameWithType: ObjectExtensions.AssignByReflection<ReturnType>(ReturnType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ReturnType>(SuperOffice.CRM.ReturnType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ReturnType)(ReturnType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ReturnType)(SuperOffice.CRM.ReturnType)
+  name.vb: AssignByReflection(Of ReturnType)(ReturnType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ReturnType>
+    nameWithType: ObjectExtensions.AssignByReflection<ReturnType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ReturnType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ReturnType
+    name: ReturnType
+    nameWithType: ReturnType
+    fullName: SuperOffice.CRM.ReturnType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ReturnType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ReturnType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ReturnType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ReturnType
+    name: ReturnType
+    nameWithType: ReturnType
+    fullName: SuperOffice.CRM.ReturnType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ReturnType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ReturnType>()
+  nameWithType: ObjectExtensions.GraphCopy<ReturnType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ReturnType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ReturnType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ReturnType)()
+  name.vb: GraphCopy(Of ReturnType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ReturnType>
+    nameWithType: ObjectExtensions.GraphCopy<ReturnType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ReturnType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ReturnType)
+    nameWithType: ObjectExtensions.GraphCopy(Of ReturnType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ReturnType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ReturnType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ReturnType, To>()
+  nameWithType: Converters.MapEnums<ReturnType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ReturnType, To>()
+  nameWithType.vb: Converters.MapEnums(Of ReturnType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ReturnType, To)()
+  name.vb: MapEnums(Of ReturnType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ReturnType, To>
+    nameWithType: Converters.MapEnums<ReturnType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ReturnType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ReturnType, To)
+    nameWithType: Converters.MapEnums(Of ReturnType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ReturnType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.ReturnType
+  commentId: T:SuperOffice.CRM.ReturnType
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ReturnType
+  nameWithType: ReturnType
+  fullName: SuperOffice.CRM.ReturnType

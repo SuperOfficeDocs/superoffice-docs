@@ -1,0 +1,936 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.PreferenceDescription
+  commentId: T:SuperOffice.CRM.Services.PreferenceDescription
+  id: PreferenceDescription
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.PreferenceDescription.#ctor
+  - SuperOffice.CRM.Services.PreferenceDescription.AccessFlags
+  - SuperOffice.CRM.Services.PreferenceDescription.Description
+  - SuperOffice.CRM.Services.PreferenceDescription.IsBuiltin
+  - SuperOffice.CRM.Services.PreferenceDescription.Key
+  - SuperOffice.CRM.Services.PreferenceDescription.MaxLevel
+  - SuperOffice.CRM.Services.PreferenceDescription.MaxValue
+  - SuperOffice.CRM.Services.PreferenceDescription.MinLevel
+  - SuperOffice.CRM.Services.PreferenceDescription.MinValue
+  - SuperOffice.CRM.Services.PreferenceDescription.Name
+  - SuperOffice.CRM.Services.PreferenceDescription.PrefDescId
+  - SuperOffice.CRM.Services.PreferenceDescription.Rank
+  - SuperOffice.CRM.Services.PreferenceDescription.RequiredLicense
+  - SuperOffice.CRM.Services.PreferenceDescription.Section
+  - SuperOffice.CRM.Services.PreferenceDescription.SubGroup
+  - SuperOffice.CRM.Services.PreferenceDescription.SysMaxLevel
+  - SuperOffice.CRM.Services.PreferenceDescription.TableName
+  - SuperOffice.CRM.Services.PreferenceDescription.ToString
+  - SuperOffice.CRM.Services.PreferenceDescription.ToString(System.String)
+  - SuperOffice.CRM.Services.PreferenceDescription.UserDefinedListId
+  - SuperOffice.CRM.Services.PreferenceDescription.ValueType
+  langs:
+  - csharp
+  - vb
+  name: PreferenceDescription
+  nameWithType: PreferenceDescription
+  fullName: SuperOffice.CRM.Services.PreferenceDescription
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPreference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice.\n<p></p>\nCarrier object for PreferenceDescription.\nServices for the PreferenceDescription Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IPreferenceAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet PreferenceDescription 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new PreferenceAgent();\n    var preferenceDescription = agent.GetPreferenceDescription( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class PreferenceDescription : Carrier'
+    content.vb: >-
+      Public Class PreferenceDescription
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.PreferenceAgent
+    commentId: T:SuperOffice.CRM.Services.PreferenceAgent
+  - linkId: SuperOffice.CRM.Services.IPreferenceAgent
+    commentId: T:SuperOffice.CRM.Services.IPreferenceAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.PreferenceDescription.#ctor
+  commentId: M:SuperOffice.CRM.Services.PreferenceDescription.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.PreferenceDescription
+  langs:
+  - csharp
+  - vb
+  name: PreferenceDescription()
+  nameWithType: PreferenceDescription.PreferenceDescription()
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.PreferenceDescription()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public PreferenceDescription()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.PreferenceDescription.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferenceDescription.ToString
+  commentId: M:SuperOffice.CRM.Services.PreferenceDescription.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.PreferenceDescription
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: PreferenceDescription.ToString()
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.PreferenceDescription.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.PreferenceDescription.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.PreferenceDescription.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.PreferenceDescription
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: PreferenceDescription.ToString(String)
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.PreferenceDescription.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferenceDescription.PrefDescId
+  commentId: P:SuperOffice.CRM.Services.PreferenceDescription.PrefDescId
+  id: PrefDescId
+  parent: SuperOffice.CRM.Services.PreferenceDescription
+  langs:
+  - csharp
+  - vb
+  name: PrefDescId
+  nameWithType: PreferenceDescription.PrefDescId
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.PrefDescId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int PrefDescId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PrefDescId As Integer
+  overload: SuperOffice.CRM.Services.PreferenceDescription.PrefDescId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreferenceDescription.Section
+  commentId: P:SuperOffice.CRM.Services.PreferenceDescription.Section
+  id: Section
+  parent: SuperOffice.CRM.Services.PreferenceDescription
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: PreferenceDescription.Section
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.Section
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPreference section name \n"
+  syntax:
+    content: public virtual string Section { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Section As String
+  overload: SuperOffice.CRM.Services.PreferenceDescription.Section*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreferenceDescription.Key
+  commentId: P:SuperOffice.CRM.Services.PreferenceDescription.Key
+  id: Key
+  parent: SuperOffice.CRM.Services.PreferenceDescription
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: PreferenceDescription.Key
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.Key
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPreference key name \n"
+  syntax:
+    content: public virtual string Key { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Key As String
+  overload: SuperOffice.CRM.Services.PreferenceDescription.Key*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreferenceDescription.Name
+  commentId: P:SuperOffice.CRM.Services.PreferenceDescription.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.PreferenceDescription
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: PreferenceDescription.Name
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMulti-language name \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.PreferenceDescription.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreferenceDescription.ValueType
+  commentId: P:SuperOffice.CRM.Services.PreferenceDescription.ValueType
+  id: ValueType
+  parent: SuperOffice.CRM.Services.PreferenceDescription
+  langs:
+  - csharp
+  - vb
+  name: ValueType
+  nameWithType: PreferenceDescription.ValueType
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.ValueType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n1=number, 2=text, 3=bool, 4=list of values; 5=list table ref; 6=contact ID, 7=Person ID, 8=Project ID, 9=Selection ID \n"
+  syntax:
+    content: public virtual PrefDescValueType ValueType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.PrefDescValueType
+    content.vb: Public Overridable Property ValueType As PrefDescValueType
+  overload: SuperOffice.CRM.Services.PreferenceDescription.ValueType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreferenceDescription.MaxLevel
+  commentId: P:SuperOffice.CRM.Services.PreferenceDescription.MaxLevel
+  id: MaxLevel
+  parent: SuperOffice.CRM.Services.PreferenceDescription
+  langs:
+  - csharp
+  - vb
+  name: MaxLevel
+  nameWithType: PreferenceDescription.MaxLevel
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.MaxLevel
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLowest allowed setting level, set by user, but not lower than sysMaxLevel \n"
+  syntax:
+    content: public virtual PreferenceLevel MaxLevel { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.PreferenceLevel
+    content.vb: Public Overridable Property MaxLevel As PreferenceLevel
+  overload: SuperOffice.CRM.Services.PreferenceDescription.MaxLevel*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreferenceDescription.SysMaxLevel
+  commentId: P:SuperOffice.CRM.Services.PreferenceDescription.SysMaxLevel
+  id: SysMaxLevel
+  parent: SuperOffice.CRM.Services.PreferenceDescription
+  langs:
+  - csharp
+  - vb
+  name: SysMaxLevel
+  nameWithType: PreferenceDescription.SysMaxLevel
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.SysMaxLevel
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLowest allowed setting level, set by SuperOffice \n"
+  syntax:
+    content: public virtual PreferenceLevel SysMaxLevel { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.PreferenceLevel
+    content.vb: Public Overridable Property SysMaxLevel As PreferenceLevel
+  overload: SuperOffice.CRM.Services.PreferenceDescription.SysMaxLevel*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreferenceDescription.AccessFlags
+  commentId: P:SuperOffice.CRM.Services.PreferenceDescription.AccessFlags
+  id: AccessFlags
+  parent: SuperOffice.CRM.Services.PreferenceDescription
+  langs:
+  - csharp
+  - vb
+  name: AccessFlags
+  nameWithType: PreferenceDescription.AccessFlags
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.AccessFlags
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n1=wizard mode, 2=level 0, 4=admin gui, 8=crm gui \n"
+  syntax:
+    content: public virtual PrefDescAccessFlags AccessFlags { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.PrefDescAccessFlags
+    content.vb: Public Overridable Property AccessFlags As PrefDescAccessFlags
+  overload: SuperOffice.CRM.Services.PreferenceDescription.AccessFlags*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreferenceDescription.Description
+  commentId: P:SuperOffice.CRM.Services.PreferenceDescription.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.PreferenceDescription
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: PreferenceDescription.Description
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.Description
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDescription of preference, multi-language parsed \n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.PreferenceDescription.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreferenceDescription.IsBuiltin
+  commentId: P:SuperOffice.CRM.Services.PreferenceDescription.IsBuiltin
+  id: IsBuiltin
+  parent: SuperOffice.CRM.Services.PreferenceDescription
+  langs:
+  - csharp
+  - vb
+  name: IsBuiltin
+  nameWithType: PreferenceDescription.IsBuiltin
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.IsBuiltin
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n1 = This row populated and maintained by SuperOffice \n"
+  syntax:
+    content: public virtual bool IsBuiltin { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsBuiltin As Boolean
+  overload: SuperOffice.CRM.Services.PreferenceDescription.IsBuiltin*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreferenceDescription.TableName
+  commentId: P:SuperOffice.CRM.Services.PreferenceDescription.TableName
+  id: TableName
+  parent: SuperOffice.CRM.Services.PreferenceDescription
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: PreferenceDescription.TableName
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.TableName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIf valueType = 5, then TableName contains the table referenced by the preference \n"
+  syntax:
+    content: public virtual string TableName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TableName As String
+  overload: SuperOffice.CRM.Services.PreferenceDescription.TableName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreferenceDescription.UserDefinedListId
+  commentId: P:SuperOffice.CRM.Services.PreferenceDescription.UserDefinedListId
+  id: UserDefinedListId
+  parent: SuperOffice.CRM.Services.PreferenceDescription
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedListId
+  nameWithType: PreferenceDescription.UserDefinedListId
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.UserDefinedListId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRead-only field, If valueType = 5, and TableName is UDList, then UserdefinedLIstId contains the id of the list referenced by the preference \n"
+  syntax:
+    content: public virtual int UserDefinedListId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UserDefinedListId As Integer
+  overload: SuperOffice.CRM.Services.PreferenceDescription.UserDefinedListId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreferenceDescription.Rank
+  commentId: P:SuperOffice.CRM.Services.PreferenceDescription.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Services.PreferenceDescription
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: PreferenceDescription.Rank
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.Rank
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRank field for ordering sections, and keys within sections \n"
+  syntax:
+    content: public virtual int Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Rank As Integer
+  overload: SuperOffice.CRM.Services.PreferenceDescription.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreferenceDescription.SubGroup
+  commentId: P:SuperOffice.CRM.Services.PreferenceDescription.SubGroup
+  id: SubGroup
+  parent: SuperOffice.CRM.Services.PreferenceDescription
+  langs:
+  - csharp
+  - vb
+  name: SubGroup
+  nameWithType: PreferenceDescription.SubGroup
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.SubGroup
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nKeys that share a value (including NULL) in this field are shown together; a visual spacer is shown between groups \n"
+  syntax:
+    content: public virtual string SubGroup { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SubGroup As String
+  overload: SuperOffice.CRM.Services.PreferenceDescription.SubGroup*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreferenceDescription.MinLevel
+  commentId: P:SuperOffice.CRM.Services.PreferenceDescription.MinLevel
+  id: MinLevel
+  parent: SuperOffice.CRM.Services.PreferenceDescription
+  langs:
+  - csharp
+  - vb
+  name: MinLevel
+  nameWithType: PreferenceDescription.MinLevel
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.MinLevel
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe minimum (furthest away from User) level this preference can be set for \n"
+  syntax:
+    content: public virtual int MinLevel { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property MinLevel As Integer
+  overload: SuperOffice.CRM.Services.PreferenceDescription.MinLevel*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreferenceDescription.MaxValue
+  commentId: P:SuperOffice.CRM.Services.PreferenceDescription.MaxValue
+  id: MaxValue
+  parent: SuperOffice.CRM.Services.PreferenceDescription
+  langs:
+  - csharp
+  - vb
+  name: MaxValue
+  nameWithType: PreferenceDescription.MaxValue
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.MaxValue
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMax value (if type 1); list table ID (if type 5) \n"
+  syntax:
+    content: public virtual int MaxValue { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property MaxValue As Integer
+  overload: SuperOffice.CRM.Services.PreferenceDescription.MaxValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreferenceDescription.MinValue
+  commentId: P:SuperOffice.CRM.Services.PreferenceDescription.MinValue
+  id: MinValue
+  parent: SuperOffice.CRM.Services.PreferenceDescription
+  langs:
+  - csharp
+  - vb
+  name: MinValue
+  nameWithType: PreferenceDescription.MinValue
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.MinValue
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMin value (if type 1); list extra id (if type 5) \n"
+  syntax:
+    content: public virtual int MinValue { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property MinValue As Integer
+  overload: SuperOffice.CRM.Services.PreferenceDescription.MinValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PreferenceDescription.RequiredLicense
+  commentId: P:SuperOffice.CRM.Services.PreferenceDescription.RequiredLicense
+  id: RequiredLicense
+  parent: SuperOffice.CRM.Services.PreferenceDescription
+  langs:
+  - csharp
+  - vb
+  name: RequiredLicense
+  nameWithType: PreferenceDescription.RequiredLicense
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.RequiredLicense
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLicenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs \n"
+  syntax:
+    content: public virtual string RequiredLicense { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RequiredLicense As String
+  overload: SuperOffice.CRM.Services.PreferenceDescription.RequiredLicense*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.PreferenceAgent
+  commentId: T:SuperOffice.CRM.Services.PreferenceAgent
+  isExternal: true
+  name: PreferenceAgent
+  nameWithType: PreferenceAgent
+  fullName: SuperOffice.CRM.Services.PreferenceAgent
+- uid: SuperOffice.CRM.Services.IPreferenceAgent
+  commentId: T:SuperOffice.CRM.Services.IPreferenceAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IPreferenceAgent
+  nameWithType: IPreferenceAgent
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.PreferenceDescription.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceDescription.#ctor
+  isExternal: true
+  name: PreferenceDescription
+  nameWithType: PreferenceDescription.PreferenceDescription
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.PreferenceDescription
+- uid: SuperOffice.CRM.Services.PreferenceDescription.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceDescription.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: PreferenceDescription.ToString
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.PreferenceDescription.PrefDescId*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceDescription.PrefDescId
+  isExternal: true
+  name: PrefDescId
+  nameWithType: PreferenceDescription.PrefDescId
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.PrefDescId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.PreferenceDescription.Section*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceDescription.Section
+  isExternal: true
+  name: Section
+  nameWithType: PreferenceDescription.Section
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.Section
+- uid: SuperOffice.CRM.Services.PreferenceDescription.Key*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceDescription.Key
+  isExternal: true
+  name: Key
+  nameWithType: PreferenceDescription.Key
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.Key
+- uid: SuperOffice.CRM.Services.PreferenceDescription.Name*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceDescription.Name
+  isExternal: true
+  name: Name
+  nameWithType: PreferenceDescription.Name
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.Name
+- uid: SuperOffice.CRM.Services.PreferenceDescription.ValueType*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceDescription.ValueType
+  isExternal: true
+  name: ValueType
+  nameWithType: PreferenceDescription.ValueType
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.ValueType
+- uid: SuperOffice.Data.PrefDescValueType
+  isExternal: true
+  name: PrefDescValueType
+  nameWithType: PrefDescValueType
+  fullName: SuperOffice.Data.PrefDescValueType
+- uid: SuperOffice.CRM.Services.PreferenceDescription.MaxLevel*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceDescription.MaxLevel
+  isExternal: true
+  name: MaxLevel
+  nameWithType: PreferenceDescription.MaxLevel
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.MaxLevel
+- uid: SuperOffice.Data.PreferenceLevel
+  isExternal: true
+  name: PreferenceLevel
+  nameWithType: PreferenceLevel
+  fullName: SuperOffice.Data.PreferenceLevel
+- uid: SuperOffice.CRM.Services.PreferenceDescription.SysMaxLevel*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceDescription.SysMaxLevel
+  isExternal: true
+  name: SysMaxLevel
+  nameWithType: PreferenceDescription.SysMaxLevel
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.SysMaxLevel
+- uid: SuperOffice.CRM.Services.PreferenceDescription.AccessFlags*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceDescription.AccessFlags
+  isExternal: true
+  name: AccessFlags
+  nameWithType: PreferenceDescription.AccessFlags
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.AccessFlags
+- uid: SuperOffice.Data.PrefDescAccessFlags
+  commentId: '!:SuperOffice.Data.PrefDescAccessFlags'
+  isExternal: true
+  name: PrefDescAccessFlags
+  nameWithType: PrefDescAccessFlags
+  fullName: SuperOffice.Data.PrefDescAccessFlags
+- uid: SuperOffice.CRM.Services.PreferenceDescription.Description*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceDescription.Description
+  isExternal: true
+  name: Description
+  nameWithType: PreferenceDescription.Description
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.Description
+- uid: SuperOffice.CRM.Services.PreferenceDescription.IsBuiltin*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceDescription.IsBuiltin
+  isExternal: true
+  name: IsBuiltin
+  nameWithType: PreferenceDescription.IsBuiltin
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.IsBuiltin
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.PreferenceDescription.TableName*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceDescription.TableName
+  isExternal: true
+  name: TableName
+  nameWithType: PreferenceDescription.TableName
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.TableName
+- uid: SuperOffice.CRM.Services.PreferenceDescription.UserDefinedListId*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceDescription.UserDefinedListId
+  isExternal: true
+  name: UserDefinedListId
+  nameWithType: PreferenceDescription.UserDefinedListId
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.UserDefinedListId
+- uid: SuperOffice.CRM.Services.PreferenceDescription.Rank*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceDescription.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: PreferenceDescription.Rank
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.Rank
+- uid: SuperOffice.CRM.Services.PreferenceDescription.SubGroup*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceDescription.SubGroup
+  isExternal: true
+  name: SubGroup
+  nameWithType: PreferenceDescription.SubGroup
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.SubGroup
+- uid: SuperOffice.CRM.Services.PreferenceDescription.MinLevel*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceDescription.MinLevel
+  isExternal: true
+  name: MinLevel
+  nameWithType: PreferenceDescription.MinLevel
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.MinLevel
+- uid: SuperOffice.CRM.Services.PreferenceDescription.MaxValue*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceDescription.MaxValue
+  isExternal: true
+  name: MaxValue
+  nameWithType: PreferenceDescription.MaxValue
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.MaxValue
+- uid: SuperOffice.CRM.Services.PreferenceDescription.MinValue*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceDescription.MinValue
+  isExternal: true
+  name: MinValue
+  nameWithType: PreferenceDescription.MinValue
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.MinValue
+- uid: SuperOffice.CRM.Services.PreferenceDescription.RequiredLicense*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceDescription.RequiredLicense
+  isExternal: true
+  name: RequiredLicense
+  nameWithType: PreferenceDescription.RequiredLicense
+  fullName: SuperOffice.CRM.Services.PreferenceDescription.RequiredLicense

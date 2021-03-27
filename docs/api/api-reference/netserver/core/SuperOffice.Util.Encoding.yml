@@ -1,0 +1,619 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.Encoding
+  commentId: T:SuperOffice.Util.Encoding
+  id: Encoding
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.Encoding.EscapeForJavascript(System.String)
+  - SuperOffice.Util.Encoding.HtmlDecode(System.String)
+  - SuperOffice.Util.Encoding.HtmlEncode(System.String)
+  - SuperOffice.Util.Encoding.HtmlEncode(System.String,System.Boolean)
+  - SuperOffice.Util.Encoding.UrlDecode(System.String)
+  - SuperOffice.Util.Encoding.UrlEncode(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Encoding
+  nameWithType: Encoding
+  fullName: SuperOffice.Util.Encoding
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static class Encoding
+    content.vb: Public Module Encoding
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Util.Encoding.UrlEncode(System.String)
+  commentId: M:SuperOffice.Util.Encoding.UrlEncode(System.String)
+  id: UrlEncode(System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.Encoding
+  langs:
+  - csharp
+  - vb
+  name: UrlEncode(String)
+  nameWithType: Encoding.UrlEncode(String)
+  fullName: SuperOffice.Util.Encoding.UrlEncode(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nUrl encode the string, including the &apos; character\n"
+  syntax:
+    content: public static string UrlEncode(this string input)
+    parameters:
+    - id: input
+      type: System.String
+      description: Text to encode
+    return:
+      type: System.String
+      description: Url encoded version of input string
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function UrlEncode(input As String) As String
+  overload: SuperOffice.Util.Encoding.UrlEncode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.Encoding.UrlDecode(System.String)
+  commentId: M:SuperOffice.Util.Encoding.UrlDecode(System.String)
+  id: UrlDecode(System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.Encoding
+  langs:
+  - csharp
+  - vb
+  name: UrlDecode(String)
+  nameWithType: Encoding.UrlDecode(String)
+  fullName: SuperOffice.Util.Encoding.UrlDecode(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nUrl decode the string\n"
+  syntax:
+    content: public static string UrlDecode(this string input)
+    parameters:
+    - id: input
+      type: System.String
+      description: Text to decode
+    return:
+      type: System.String
+      description: Decoded version of input string
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function UrlDecode(input As String) As String
+  overload: SuperOffice.Util.Encoding.UrlDecode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.Encoding.HtmlEncode(System.String)
+  commentId: M:SuperOffice.Util.Encoding.HtmlEncode(System.String)
+  id: HtmlEncode(System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.Encoding
+  langs:
+  - csharp
+  - vb
+  name: HtmlEncode(String)
+  nameWithType: Encoding.HtmlEncode(String)
+  fullName: SuperOffice.Util.Encoding.HtmlEncode(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nHtml encode the string\n"
+  syntax:
+    content: public static string HtmlEncode(this string input)
+    parameters:
+    - id: input
+      type: System.String
+      description: Text to encode
+    return:
+      type: System.String
+      description: Encoded version of input string
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HtmlEncode(input As String) As String
+  overload: SuperOffice.Util.Encoding.HtmlEncode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.Encoding.HtmlEncode(System.String,System.Boolean)
+  commentId: M:SuperOffice.Util.Encoding.HtmlEncode(System.String,System.Boolean)
+  id: HtmlEncode(System.String,System.Boolean)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.Encoding
+  langs:
+  - csharp
+  - vb
+  name: HtmlEncode(String, Boolean)
+  nameWithType: Encoding.HtmlEncode(String, Boolean)
+  fullName: SuperOffice.Util.Encoding.HtmlEncode(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nHtml encode the string and encode quotes to &apos;\n"
+  syntax:
+    content: public static string HtmlEncode(this string input, bool encodeQuotes)
+    parameters:
+    - id: input
+      type: System.String
+      description: Text to encode
+    - id: encodeQuotes
+      type: System.Boolean
+    return:
+      type: System.String
+      description: Encoded version of input string
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HtmlEncode(input As String, encodeQuotes As Boolean) As String
+  overload: SuperOffice.Util.Encoding.HtmlEncode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.Encoding.HtmlDecode(System.String)
+  commentId: M:SuperOffice.Util.Encoding.HtmlDecode(System.String)
+  id: HtmlDecode(System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.Encoding
+  langs:
+  - csharp
+  - vb
+  name: HtmlDecode(String)
+  nameWithType: Encoding.HtmlDecode(String)
+  fullName: SuperOffice.Util.Encoding.HtmlDecode(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nHtml decode the string\n"
+  syntax:
+    content: public static string HtmlDecode(this string input)
+    parameters:
+    - id: input
+      type: System.String
+      description: Text to decode
+    return:
+      type: System.String
+      description: Decoded version of input string
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HtmlDecode(input As String) As String
+  overload: SuperOffice.Util.Encoding.HtmlDecode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.Encoding.EscapeForJavascript(System.String)
+  commentId: M:SuperOffice.Util.Encoding.EscapeForJavascript(System.String)
+  id: EscapeForJavascript(System.String)
+  parent: SuperOffice.Util.Encoding
+  langs:
+  - csharp
+  - vb
+  name: EscapeForJavascript(String)
+  nameWithType: Encoding.EscapeForJavascript(String)
+  fullName: SuperOffice.Util.Encoding.EscapeForJavascript(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nTakes a string-value and ensures it is safe to insert into\na javascript string.\n"
+  syntax:
+    content: public static string EscapeForJavascript(string input)
+    parameters:
+    - id: input
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function EscapeForJavascript(input As String) As String
+  overload: SuperOffice.Util.Encoding.EscapeForJavascript*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Util.Encoding.UrlEncode*
+  commentId: Overload:SuperOffice.Util.Encoding.UrlEncode
+  isExternal: true
+  name: UrlEncode
+  nameWithType: Encoding.UrlEncode
+  fullName: SuperOffice.Util.Encoding.UrlEncode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Util.Encoding.UrlDecode*
+  commentId: Overload:SuperOffice.Util.Encoding.UrlDecode
+  isExternal: true
+  name: UrlDecode
+  nameWithType: Encoding.UrlDecode
+  fullName: SuperOffice.Util.Encoding.UrlDecode
+- uid: SuperOffice.Util.Encoding.HtmlEncode*
+  commentId: Overload:SuperOffice.Util.Encoding.HtmlEncode
+  isExternal: true
+  name: HtmlEncode
+  nameWithType: Encoding.HtmlEncode
+  fullName: SuperOffice.Util.Encoding.HtmlEncode
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Util.Encoding.HtmlDecode*
+  commentId: Overload:SuperOffice.Util.Encoding.HtmlDecode
+  isExternal: true
+  name: HtmlDecode
+  nameWithType: Encoding.HtmlDecode
+  fullName: SuperOffice.Util.Encoding.HtmlDecode
+- uid: SuperOffice.Util.Encoding.EscapeForJavascript*
+  commentId: Overload:SuperOffice.Util.Encoding.EscapeForJavascript
+  isExternal: true
+  name: EscapeForJavascript
+  nameWithType: Encoding.EscapeForJavascript
+  fullName: SuperOffice.Util.Encoding.EscapeForJavascript

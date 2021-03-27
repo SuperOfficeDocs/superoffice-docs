@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.Validations
+  commentId: N:SuperOffice.DCF.Web.UI.Validations
+  id: SuperOffice.DCF.Web.UI.Validations
+  children:
+  - SuperOffice.DCF.Web.UI.Validations.ValidationBase
+  - SuperOffice.DCF.Web.UI.Validations.ValidationCondition
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.DCF.Web.UI.Validations
+  nameWithType: SuperOffice.DCF.Web.UI.Validations
+  fullName: SuperOffice.DCF.Web.UI.Validations
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCFWeb
+references:
+- uid: SuperOffice.DCF.Web.UI.Validations.ValidationCondition
+  commentId: T:SuperOffice.DCF.Web.UI.Validations.ValidationCondition
+  parent: SuperOffice.DCF.Web.UI.Validations
+  isExternal: true
+  name: ValidationCondition
+  nameWithType: ValidationCondition
+  fullName: SuperOffice.DCF.Web.UI.Validations.ValidationCondition
+- uid: SuperOffice.DCF.Web.UI.Validations.ValidationBase
+  commentId: T:SuperOffice.DCF.Web.UI.Validations.ValidationBase
+  parent: SuperOffice.DCF.Web.UI.Validations
+  isExternal: true
+  name: ValidationBase
+  nameWithType: ValidationBase
+  fullName: SuperOffice.DCF.Web.UI.Validations.ValidationBase
+- uid: SuperOffice.DCF.Web.UI.Validations
+  commentId: N:SuperOffice.DCF.Web.UI.Validations
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Validations
+  nameWithType: SuperOffice.DCF.Web.UI.Validations
+  fullName: SuperOffice.DCF.Web.UI.Validations

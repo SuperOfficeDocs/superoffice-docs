@@ -1,0 +1,45 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  id: SuperOffice.DCF.Web.Factory
+  children:
+  - SuperOffice.DCF.Web.Factory.ClassFactory
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCFWeb
+references:
+- uid: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+  commentId: T:SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SoWebObjectAttribute
+  nameWithType: SoWebObjectAttribute
+  fullName: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.DCF.Web.Factory.ClassFactory
+  commentId: T:SuperOffice.DCF.Web.Factory.ClassFactory
+  isExternal: true
+  name: ClassFactory
+  nameWithType: ClassFactory
+  fullName: SuperOffice.DCF.Web.Factory.ClassFactory
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory

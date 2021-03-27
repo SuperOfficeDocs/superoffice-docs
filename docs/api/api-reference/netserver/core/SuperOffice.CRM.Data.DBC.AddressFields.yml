@@ -1,0 +1,917 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.AddressFields
+  commentId: T:SuperOffice.CRM.Data.DBC.AddressFields
+  id: DBC.AddressFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.AddressFields.Address1
+  - SuperOffice.CRM.Data.DBC.AddressFields.Address2
+  - SuperOffice.CRM.Data.DBC.AddressFields.Address3
+  - SuperOffice.CRM.Data.DBC.AddressFields.AddressId
+  - SuperOffice.CRM.Data.DBC.AddressFields.AtypeIdx
+  - SuperOffice.CRM.Data.DBC.AddressFields.City
+  - SuperOffice.CRM.Data.DBC.AddressFields.County
+  - SuperOffice.CRM.Data.DBC.AddressFields.OwnerId
+  - SuperOffice.CRM.Data.DBC.AddressFields.Registered
+  - SuperOffice.CRM.Data.DBC.AddressFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.AddressFields.State
+  - SuperOffice.CRM.Data.DBC.AddressFields.Updated
+  - SuperOffice.CRM.Data.DBC.AddressFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.AddressFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.AddressFields.ValidFrom
+  - SuperOffice.CRM.Data.DBC.AddressFields.ValidTo
+  - SuperOffice.CRM.Data.DBC.AddressFields.Wgs84Latitude
+  - SuperOffice.CRM.Data.DBC.AddressFields.Wgs84Longitude
+  - SuperOffice.CRM.Data.DBC.AddressFields.Zipcode
+  langs:
+  - csharp
+  - vb
+  name: DBC.AddressFields
+  nameWithType: DBC.AddressFields
+  fullName: SuperOffice.CRM.Data.DBC.AddressFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for Address, Contact and Person addresses\n"
+  syntax:
+    content: public static class AddressFields
+    content.vb: Public Module AddressFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.AddressFields.AddressId
+  commentId: F:SuperOffice.CRM.Data.DBC.AddressFields.AddressId
+  id: AddressId
+  parent: SuperOffice.CRM.Data.DBC.AddressFields
+  langs:
+  - csharp
+  - vb
+  name: AddressId
+  nameWithType: DBC.AddressFields.AddressId
+  fullName: SuperOffice.CRM.Data.DBC.AddressFields.AddressId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAddress.AddressId: Primary key\n"
+  syntax:
+    content: public const string AddressId = "address_id"
+    return:
+      type: System.String
+    content.vb: Public Const AddressId As String = "address_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AddressFields.OwnerId
+  commentId: F:SuperOffice.CRM.Data.DBC.AddressFields.OwnerId
+  id: OwnerId
+  parent: SuperOffice.CRM.Data.DBC.AddressFields
+  langs:
+  - csharp
+  - vb
+  name: OwnerId
+  nameWithType: DBC.AddressFields.OwnerId
+  fullName: SuperOffice.CRM.Data.DBC.AddressFields.OwnerId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAddress.OwnerId: Record id of owner: Contact or Person\n"
+  syntax:
+    content: public const string OwnerId = "owner_id"
+    return:
+      type: System.String
+    content.vb: Public Const OwnerId As String = "owner_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AddressFields.AtypeIdx
+  commentId: F:SuperOffice.CRM.Data.DBC.AddressFields.AtypeIdx
+  id: AtypeIdx
+  parent: SuperOffice.CRM.Data.DBC.AddressFields
+  langs:
+  - csharp
+  - vb
+  name: AtypeIdx
+  nameWithType: DBC.AddressFields.AtypeIdx
+  fullName: SuperOffice.CRM.Data.DBC.AddressFields.AtypeIdx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAddress.AtypeIdx: Bit mask, combines address type (EAddressType) and owner type (EOwnerType)\n"
+  syntax:
+    content: public const string AtypeIdx = "atype_idx"
+    return:
+      type: System.String
+    content.vb: Public Const AtypeIdx As String = "atype_idx"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AddressFields.Zipcode
+  commentId: F:SuperOffice.CRM.Data.DBC.AddressFields.Zipcode
+  id: Zipcode
+  parent: SuperOffice.CRM.Data.DBC.AddressFields
+  langs:
+  - csharp
+  - vb
+  name: Zipcode
+  nameWithType: DBC.AddressFields.Zipcode
+  fullName: SuperOffice.CRM.Data.DBC.AddressFields.Zipcode
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAddress.Zipcode: Zip code, alphanumeric\n"
+  syntax:
+    content: public const string Zipcode = "zipcode"
+    return:
+      type: System.String
+    content.vb: Public Const Zipcode As String = "zipcode"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AddressFields.City
+  commentId: F:SuperOffice.CRM.Data.DBC.AddressFields.City
+  id: City
+  parent: SuperOffice.CRM.Data.DBC.AddressFields
+  langs:
+  - csharp
+  - vb
+  name: City
+  nameWithType: DBC.AddressFields.City
+  fullName: SuperOffice.CRM.Data.DBC.AddressFields.City
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAddress.City: City corresponding to zip code\n"
+  syntax:
+    content: public const string City = "city"
+    return:
+      type: System.String
+    content.vb: Public Const City As String = "city"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AddressFields.State
+  commentId: F:SuperOffice.CRM.Data.DBC.AddressFields.State
+  id: State
+  parent: SuperOffice.CRM.Data.DBC.AddressFields
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: DBC.AddressFields.State
+  fullName: SuperOffice.CRM.Data.DBC.AddressFields.State
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAddress.State: State\n"
+  syntax:
+    content: public const string State = "state"
+    return:
+      type: System.String
+    content.vb: Public Const State As String = "state"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AddressFields.County
+  commentId: F:SuperOffice.CRM.Data.DBC.AddressFields.County
+  id: County
+  parent: SuperOffice.CRM.Data.DBC.AddressFields
+  langs:
+  - csharp
+  - vb
+  name: County
+  nameWithType: DBC.AddressFields.County
+  fullName: SuperOffice.CRM.Data.DBC.AddressFields.County
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAddress.County: County (not country)\n"
+  syntax:
+    content: public const string County = "county"
+    return:
+      type: System.String
+    content.vb: Public Const County As String = "county"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AddressFields.Address1
+  commentId: F:SuperOffice.CRM.Data.DBC.AddressFields.Address1
+  id: Address1
+  parent: SuperOffice.CRM.Data.DBC.AddressFields
+  langs:
+  - csharp
+  - vb
+  name: Address1
+  nameWithType: DBC.AddressFields.Address1
+  fullName: SuperOffice.CRM.Data.DBC.AddressFields.Address1
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAddress.Address1: Address line 1\n"
+  syntax:
+    content: public const string Address1 = "address1"
+    return:
+      type: System.String
+    content.vb: Public Const Address1 As String = "address1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AddressFields.Address2
+  commentId: F:SuperOffice.CRM.Data.DBC.AddressFields.Address2
+  id: Address2
+  parent: SuperOffice.CRM.Data.DBC.AddressFields
+  langs:
+  - csharp
+  - vb
+  name: Address2
+  nameWithType: DBC.AddressFields.Address2
+  fullName: SuperOffice.CRM.Data.DBC.AddressFields.Address2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAddress.Address2: Address line 2\n"
+  syntax:
+    content: public const string Address2 = "address2"
+    return:
+      type: System.String
+    content.vb: Public Const Address2 As String = "address2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AddressFields.Address3
+  commentId: F:SuperOffice.CRM.Data.DBC.AddressFields.Address3
+  id: Address3
+  parent: SuperOffice.CRM.Data.DBC.AddressFields
+  langs:
+  - csharp
+  - vb
+  name: Address3
+  nameWithType: DBC.AddressFields.Address3
+  fullName: SuperOffice.CRM.Data.DBC.AddressFields.Address3
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAddress.Address3: Address line 3\n"
+  syntax:
+    content: public const string Address3 = "address3"
+    return:
+      type: System.String
+    content.vb: Public Const Address3 As String = "address3"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AddressFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.AddressFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.AddressFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.AddressFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.AddressFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAddress.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AddressFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.AddressFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.AddressFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.AddressFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.AddressFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAddress.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AddressFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.AddressFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.AddressFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.AddressFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.AddressFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAddress.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AddressFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.AddressFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.AddressFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.AddressFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.AddressFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAddress.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AddressFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.AddressFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.AddressFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.AddressFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.AddressFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAddress.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AddressFields.ValidFrom
+  commentId: F:SuperOffice.CRM.Data.DBC.AddressFields.ValidFrom
+  id: ValidFrom
+  parent: SuperOffice.CRM.Data.DBC.AddressFields
+  langs:
+  - csharp
+  - vb
+  name: ValidFrom
+  nameWithType: DBC.AddressFields.ValidFrom
+  fullName: SuperOffice.CRM.Data.DBC.AddressFields.ValidFrom
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAddress.ValidFrom: Valid from date for this record\n"
+  syntax:
+    content: public const string ValidFrom = "validFrom"
+    return:
+      type: System.String
+    content.vb: Public Const ValidFrom As String = "validFrom"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AddressFields.ValidTo
+  commentId: F:SuperOffice.CRM.Data.DBC.AddressFields.ValidTo
+  id: ValidTo
+  parent: SuperOffice.CRM.Data.DBC.AddressFields
+  langs:
+  - csharp
+  - vb
+  name: ValidTo
+  nameWithType: DBC.AddressFields.ValidTo
+  fullName: SuperOffice.CRM.Data.DBC.AddressFields.ValidTo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAddress.ValidTo: Valid to date for this record\n"
+  syntax:
+    content: public const string ValidTo = "validTo"
+    return:
+      type: System.String
+    content.vb: Public Const ValidTo As String = "validTo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AddressFields.Wgs84Latitude
+  commentId: F:SuperOffice.CRM.Data.DBC.AddressFields.Wgs84Latitude
+  id: Wgs84Latitude
+  parent: SuperOffice.CRM.Data.DBC.AddressFields
+  langs:
+  - csharp
+  - vb
+  name: Wgs84Latitude
+  nameWithType: DBC.AddressFields.Wgs84Latitude
+  fullName: SuperOffice.CRM.Data.DBC.AddressFields.Wgs84Latitude
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAddress.Wgs84Latitude: Latitude (that&apos;s north/south), decimal degrees, relative to WGS 84 ellipsoid. SuperOffice ASA is at 59.91892. This value needs no further grid reference or other qualifying information.\n"
+  syntax:
+    content: public const string Wgs84Latitude = "wgs84latitude"
+    return:
+      type: System.String
+    content.vb: Public Const Wgs84Latitude As String = "wgs84latitude"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AddressFields.Wgs84Longitude
+  commentId: F:SuperOffice.CRM.Data.DBC.AddressFields.Wgs84Longitude
+  id: Wgs84Longitude
+  parent: SuperOffice.CRM.Data.DBC.AddressFields
+  langs:
+  - csharp
+  - vb
+  name: Wgs84Longitude
+  nameWithType: DBC.AddressFields.Wgs84Longitude
+  fullName: SuperOffice.CRM.Data.DBC.AddressFields.Wgs84Longitude
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAddress.Wgs84Longitude: Longitude (that&apos;s East/west), decimal degrees, relative to WGS 84 ellipsoid. SuperOffice ASA is at 10.73159. This value needs no further grid reference or other qualifying information.\n"
+  syntax:
+    content: public const string Wgs84Longitude = "wgs84longitude"
+    return:
+      type: System.String
+    content.vb: Public Const Wgs84Longitude As String = "wgs84longitude"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

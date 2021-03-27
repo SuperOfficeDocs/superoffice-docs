@@ -1,0 +1,195 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  id: SuperOffice.Data
+  children:
+  - SuperOffice.Data.ArchiveView
+  - SuperOffice.Data.CarrierUtility
+  - SuperOffice.Data.DataDispatcher
+  - SuperOffice.Data.DataObject
+  - SuperOffice.Data.DataRight
+  - SuperOffice.Data.EventAction`5
+  - SuperOffice.Data.IDataHandler
+  - SuperOffice.Data.LicenseHelper
+  - SuperOffice.Data.MainView
+  - SuperOffice.Data.MiniPanelView
+  - SuperOffice.Data.Panel
+  - SuperOffice.Data.SoStateObjectInfo
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  type: Namespace
+  assemblies:
+  - SuperOffice.CRMWeb
+references:
+- uid: SuperOffice.Data.LicenseHelper
+  commentId: T:SuperOffice.Data.LicenseHelper
+  isExternal: true
+  name: LicenseHelper
+  nameWithType: LicenseHelper
+  fullName: SuperOffice.Data.LicenseHelper
+- uid: SuperOffice.Data.CarrierUtility
+  commentId: T:SuperOffice.Data.CarrierUtility
+  isExternal: true
+  name: CarrierUtility
+  nameWithType: CarrierUtility
+  fullName: SuperOffice.Data.CarrierUtility
+- uid: SuperOffice.Data.DataObject
+  commentId: T:SuperOffice.Data.DataObject
+  parent: SuperOffice.Data
+  isExternal: true
+  name: DataObject
+  nameWithType: DataObject
+  fullName: SuperOffice.Data.DataObject
+- uid: SuperOffice.Data.EventAction`5
+  commentId: T:SuperOffice.Data.EventAction`5
+  isExternal: true
+  name: EventAction<T1, T2, T3, T4, T5>
+  nameWithType: EventAction<T1, T2, T3, T4, T5>
+  fullName: SuperOffice.Data.EventAction<T1, T2, T3, T4, T5>
+  nameWithType.vb: EventAction(Of T1, T2, T3, T4, T5)
+  fullName.vb: SuperOffice.Data.EventAction(Of T1, T2, T3, T4, T5)
+  name.vb: EventAction(Of T1, T2, T3, T4, T5)
+  spec.csharp:
+  - uid: SuperOffice.Data.EventAction`5
+    name: EventAction
+    nameWithType: EventAction
+    fullName: SuperOffice.Data.EventAction
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T3
+    nameWithType: T3
+    fullName: T3
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T4
+    nameWithType: T4
+    fullName: T4
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T5
+    nameWithType: T5
+    fullName: T5
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.EventAction`5
+    name: EventAction
+    nameWithType: EventAction
+    fullName: SuperOffice.Data.EventAction
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T3
+    nameWithType: T3
+    fullName: T3
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T4
+    nameWithType: T4
+    fullName: T4
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T5
+    nameWithType: T5
+    fullName: T5
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.DataDispatcher
+  commentId: T:SuperOffice.Data.DataDispatcher
+  parent: SuperOffice.Data
+  isExternal: true
+  name: DataDispatcher
+  nameWithType: DataDispatcher
+  fullName: SuperOffice.Data.DataDispatcher
+- uid: SuperOffice.Data.DataRight
+  commentId: T:SuperOffice.Data.DataRight
+  parent: SuperOffice.Data
+  isExternal: true
+  name: DataRight
+  nameWithType: DataRight
+  fullName: SuperOffice.Data.DataRight
+- uid: SuperOffice.Data.Panel
+  commentId: T:SuperOffice.Data.Panel
+  parent: SuperOffice.Data
+  isExternal: true
+  name: Panel
+  nameWithType: Panel
+  fullName: SuperOffice.Data.Panel
+- uid: SuperOffice.Data.MainView
+  commentId: T:SuperOffice.Data.MainView
+  parent: SuperOffice.Data
+  isExternal: true
+  name: MainView
+  nameWithType: MainView
+  fullName: SuperOffice.Data.MainView
+- uid: SuperOffice.Data.ArchiveView
+  commentId: T:SuperOffice.Data.ArchiveView
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ArchiveView
+  nameWithType: ArchiveView
+  fullName: SuperOffice.Data.ArchiveView
+- uid: SuperOffice.Data.MiniPanelView
+  commentId: T:SuperOffice.Data.MiniPanelView
+  parent: SuperOffice.Data
+  isExternal: true
+  name: MiniPanelView
+  nameWithType: MiniPanelView
+  fullName: SuperOffice.Data.MiniPanelView
+- uid: SuperOffice.Data.SoStateObjectInfo
+  commentId: T:SuperOffice.Data.SoStateObjectInfo
+  isExternal: true
+  name: SoStateObjectInfo
+  nameWithType: SoStateObjectInfo
+  fullName: SuperOffice.Data.SoStateObjectInfo
+- uid: SuperOffice.Data.IDataHandler
+  commentId: T:SuperOffice.Data.IDataHandler
+  parent: SuperOffice.Data
+  isExternal: true
+  name: IDataHandler
+  nameWithType: IDataHandler
+  fullName: SuperOffice.Data.IDataHandler
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data

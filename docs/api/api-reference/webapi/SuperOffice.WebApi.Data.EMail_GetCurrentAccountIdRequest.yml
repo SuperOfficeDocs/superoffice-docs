@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_GetCurrentAccountIdRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_GetCurrentAccountIdRequest
+  id: EMail_GetCurrentAccountIdRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_GetCurrentAccountIdRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetCurrentAccountIdRequest
+  nameWithType: EMail_GetCurrentAccountIdRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetCurrentAccountIdRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_GetCurrentAccountIdRequest : Object'
+    content.vb: >-
+      Public Class EMail_GetCurrentAccountIdRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_GetCurrentAccountIdRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_GetCurrentAccountIdRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_GetCurrentAccountIdRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetCurrentAccountIdRequest()
+  nameWithType: EMail_GetCurrentAccountIdRequest.EMail_GetCurrentAccountIdRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_GetCurrentAccountIdRequest.EMail_GetCurrentAccountIdRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_GetCurrentAccountIdRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_GetCurrentAccountIdRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_GetCurrentAccountIdRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetCurrentAccountIdRequest.#ctor
+  isExternal: true
+  name: EMail_GetCurrentAccountIdRequest
+  nameWithType: EMail_GetCurrentAccountIdRequest.EMail_GetCurrentAccountIdRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetCurrentAccountIdRequest.EMail_GetCurrentAccountIdRequest

@@ -1,0 +1,447 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.Area
+  commentId: T:SuperOffice.CRM.Services.Area
+  id: Area
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.Area.#ctor
+  - SuperOffice.CRM.Services.Area.AreaId
+  - SuperOffice.CRM.Services.Area.FreetextEnabeled
+  - SuperOffice.CRM.Services.Area.MaxDataAge
+  - SuperOffice.CRM.Services.Area.Name
+  - SuperOffice.CRM.Services.Area.NumberOfLogins
+  - SuperOffice.CRM.Services.Area.NumberOfUsers
+  - SuperOffice.CRM.Services.Area.ToString
+  - SuperOffice.CRM.Services.Area.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Area
+  nameWithType: Area
+  fullName: SuperOffice.CRM.Services.Area
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for Area.\nServices for the Area Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IReplicationAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet Area 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ReplicationAgent();\n    var area = agent.GetArea( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class Area : Carrier'
+    content.vb: >-
+      Public Class Area
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ReplicationAgent
+    commentId: T:SuperOffice.CRM.Services.ReplicationAgent
+  - linkId: SuperOffice.CRM.Services.IReplicationAgent
+    commentId: T:SuperOffice.CRM.Services.IReplicationAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.Area.#ctor
+  commentId: M:SuperOffice.CRM.Services.Area.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.Area
+  langs:
+  - csharp
+  - vb
+  name: Area()
+  nameWithType: Area.Area()
+  fullName: SuperOffice.CRM.Services.Area.Area()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public Area()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.Area.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Area.ToString
+  commentId: M:SuperOffice.CRM.Services.Area.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.Area
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Area.ToString()
+  fullName: SuperOffice.CRM.Services.Area.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.Area.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.Area.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.Area.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.Area
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: Area.ToString(String)
+  fullName: SuperOffice.CRM.Services.Area.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.Area.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Area.AreaId
+  commentId: P:SuperOffice.CRM.Services.Area.AreaId
+  id: AreaId
+  parent: SuperOffice.CRM.Services.Area
+  langs:
+  - csharp
+  - vb
+  name: AreaId
+  nameWithType: Area.AreaId
+  fullName: SuperOffice.CRM.Services.Area.AreaId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int AreaId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AreaId As Integer
+  overload: SuperOffice.CRM.Services.Area.AreaId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Area.Name
+  commentId: P:SuperOffice.CRM.Services.Area.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.Area
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Area.Name
+  fullName: SuperOffice.CRM.Services.Area.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nArea name \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.Area.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Area.MaxDataAge
+  commentId: P:SuperOffice.CRM.Services.Area.MaxDataAge
+  id: MaxDataAge
+  parent: SuperOffice.CRM.Services.Area
+  langs:
+  - csharp
+  - vb
+  name: MaxDataAge
+  nameWithType: Area.MaxDataAge
+  fullName: SuperOffice.CRM.Services.Area.MaxDataAge
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMax age of data when generating db&apos;s based on this area \n"
+  syntax:
+    content: public virtual short MaxDataAge { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property MaxDataAge As Short
+  overload: SuperOffice.CRM.Services.Area.MaxDataAge*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Area.NumberOfUsers
+  commentId: P:SuperOffice.CRM.Services.Area.NumberOfUsers
+  id: NumberOfUsers
+  parent: SuperOffice.CRM.Services.Area
+  langs:
+  - csharp
+  - vb
+  name: NumberOfUsers
+  nameWithType: Area.NumberOfUsers
+  fullName: SuperOffice.CRM.Services.Area.NumberOfUsers
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual int NumberOfUsers { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NumberOfUsers As Integer
+  overload: SuperOffice.CRM.Services.Area.NumberOfUsers*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Area.NumberOfLogins
+  commentId: P:SuperOffice.CRM.Services.Area.NumberOfLogins
+  id: NumberOfLogins
+  parent: SuperOffice.CRM.Services.Area
+  langs:
+  - csharp
+  - vb
+  name: NumberOfLogins
+  nameWithType: Area.NumberOfLogins
+  fullName: SuperOffice.CRM.Services.Area.NumberOfLogins
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual int NumberOfLogins { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NumberOfLogins As Integer
+  overload: SuperOffice.CRM.Services.Area.NumberOfLogins*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Area.FreetextEnabeled
+  commentId: P:SuperOffice.CRM.Services.Area.FreetextEnabeled
+  id: FreetextEnabeled
+  parent: SuperOffice.CRM.Services.Area
+  langs:
+  - csharp
+  - vb
+  name: FreetextEnabeled
+  nameWithType: Area.FreetextEnabeled
+  fullName: SuperOffice.CRM.Services.Area.FreetextEnabeled
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual bool FreetextEnabeled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property FreetextEnabeled As Boolean
+  overload: SuperOffice.CRM.Services.Area.FreetextEnabeled*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.ReplicationAgent
+  commentId: T:SuperOffice.CRM.Services.ReplicationAgent
+  isExternal: true
+  name: ReplicationAgent
+  nameWithType: ReplicationAgent
+  fullName: SuperOffice.CRM.Services.ReplicationAgent
+- uid: SuperOffice.CRM.Services.IReplicationAgent
+  commentId: T:SuperOffice.CRM.Services.IReplicationAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IReplicationAgent
+  nameWithType: IReplicationAgent
+  fullName: SuperOffice.CRM.Services.IReplicationAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.Area.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.Area.#ctor
+  isExternal: true
+  name: Area
+  nameWithType: Area.Area
+  fullName: SuperOffice.CRM.Services.Area.Area
+- uid: SuperOffice.CRM.Services.Area.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.Area.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: Area.ToString
+  fullName: SuperOffice.CRM.Services.Area.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.Area.AreaId*
+  commentId: Overload:SuperOffice.CRM.Services.Area.AreaId
+  isExternal: true
+  name: AreaId
+  nameWithType: Area.AreaId
+  fullName: SuperOffice.CRM.Services.Area.AreaId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.Area.Name*
+  commentId: Overload:SuperOffice.CRM.Services.Area.Name
+  isExternal: true
+  name: Name
+  nameWithType: Area.Name
+  fullName: SuperOffice.CRM.Services.Area.Name
+- uid: SuperOffice.CRM.Services.Area.MaxDataAge*
+  commentId: Overload:SuperOffice.CRM.Services.Area.MaxDataAge
+  isExternal: true
+  name: MaxDataAge
+  nameWithType: Area.MaxDataAge
+  fullName: SuperOffice.CRM.Services.Area.MaxDataAge
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Services.Area.NumberOfUsers*
+  commentId: Overload:SuperOffice.CRM.Services.Area.NumberOfUsers
+  isExternal: true
+  name: NumberOfUsers
+  nameWithType: Area.NumberOfUsers
+  fullName: SuperOffice.CRM.Services.Area.NumberOfUsers
+- uid: SuperOffice.CRM.Services.Area.NumberOfLogins*
+  commentId: Overload:SuperOffice.CRM.Services.Area.NumberOfLogins
+  isExternal: true
+  name: NumberOfLogins
+  nameWithType: Area.NumberOfLogins
+  fullName: SuperOffice.CRM.Services.Area.NumberOfLogins
+- uid: SuperOffice.CRM.Services.Area.FreetextEnabeled*
+  commentId: Overload:SuperOffice.CRM.Services.Area.FreetextEnabeled
+  isExternal: true
+  name: FreetextEnabeled
+  nameWithType: Area.FreetextEnabeled
+  fullName: SuperOffice.CRM.Services.Area.FreetextEnabeled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

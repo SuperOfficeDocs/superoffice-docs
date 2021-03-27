@@ -1,0 +1,512 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.PocketDeviceInfo
+  commentId: T:SuperOffice.WebApi.Data.PocketDeviceInfo
+  id: PocketDeviceInfo
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.PocketDeviceInfo.#ctor
+  - SuperOffice.WebApi.Data.PocketDeviceInfo.DeviceIdentifier
+  - SuperOffice.WebApi.Data.PocketDeviceInfo.DeviceName
+  - SuperOffice.WebApi.Data.PocketDeviceInfo.Language
+  - SuperOffice.WebApi.Data.PocketDeviceInfo.OSVersion
+  - SuperOffice.WebApi.Data.PocketDeviceInfo.Platform
+  - SuperOffice.WebApi.Data.PocketDeviceInfo.Platform_String
+  - SuperOffice.WebApi.Data.PocketDeviceInfo.PNSHandle
+  - SuperOffice.WebApi.Data.PocketDeviceInfo.PocketVersion
+  langs:
+  - csharp
+  - vb
+  name: PocketDeviceInfo
+  nameWithType: PocketDeviceInfo
+  fullName: SuperOffice.WebApi.Data.PocketDeviceInfo
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for PocketDeviceInfo.\nDescribes a device running Pocket CRM    \n"
+  syntax:
+    content: 'public class PocketDeviceInfo : Object'
+    content.vb: >-
+      Public Class PocketDeviceInfo
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.PocketAgent
+    commentId: T:SuperOffice.WebApi.Agents.PocketAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.PocketDeviceInfo.#ctor
+  commentId: M:SuperOffice.WebApi.Data.PocketDeviceInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.PocketDeviceInfo
+  langs:
+  - csharp
+  - vb
+  name: PocketDeviceInfo()
+  nameWithType: PocketDeviceInfo.PocketDeviceInfo()
+  fullName: SuperOffice.WebApi.Data.PocketDeviceInfo.PocketDeviceInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public PocketDeviceInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.PocketDeviceInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PocketDeviceInfo.DeviceName
+  commentId: P:SuperOffice.WebApi.Data.PocketDeviceInfo.DeviceName
+  id: DeviceName
+  parent: SuperOffice.WebApi.Data.PocketDeviceInfo
+  langs:
+  - csharp
+  - vb
+  name: DeviceName
+  nameWithType: PocketDeviceInfo.DeviceName
+  fullName: SuperOffice.WebApi.Data.PocketDeviceInfo.DeviceName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA friendly display name for the device. Ex: &apos;Bobbys iPhone 5S&apos;\n"
+  syntax:
+    content: public virtual string DeviceName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DeviceName As String
+  overload: SuperOffice.WebApi.Data.PocketDeviceInfo.DeviceName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PocketDeviceInfo.DeviceIdentifier
+  commentId: P:SuperOffice.WebApi.Data.PocketDeviceInfo.DeviceIdentifier
+  id: DeviceIdentifier
+  parent: SuperOffice.WebApi.Data.PocketDeviceInfo
+  langs:
+  - csharp
+  - vb
+  name: DeviceIdentifier
+  nameWithType: PocketDeviceInfo.DeviceIdentifier
+  fullName: SuperOffice.WebApi.Data.PocketDeviceInfo.DeviceIdentifier
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA unique identifier of this device. This value should always be the same for the same device\n"
+  syntax:
+    content: public virtual string DeviceIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DeviceIdentifier As String
+  overload: SuperOffice.WebApi.Data.PocketDeviceInfo.DeviceIdentifier*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PocketDeviceInfo.PocketVersion
+  commentId: P:SuperOffice.WebApi.Data.PocketDeviceInfo.PocketVersion
+  id: PocketVersion
+  parent: SuperOffice.WebApi.Data.PocketDeviceInfo
+  langs:
+  - csharp
+  - vb
+  name: PocketVersion
+  nameWithType: PocketDeviceInfo.PocketVersion
+  fullName: SuperOffice.WebApi.Data.PocketDeviceInfo.PocketVersion
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhat version of Pocket CRM this device is running. Ex: &apos;8.0.37&apos;\n"
+  syntax:
+    content: public virtual string PocketVersion { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PocketVersion As String
+  overload: SuperOffice.WebApi.Data.PocketDeviceInfo.PocketVersion*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PocketDeviceInfo.Language
+  commentId: P:SuperOffice.WebApi.Data.PocketDeviceInfo.Language
+  id: Language
+  parent: SuperOffice.WebApi.Data.PocketDeviceInfo
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: PocketDeviceInfo.Language
+  fullName: SuperOffice.WebApi.Data.PocketDeviceInfo.Language
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe language which this device will receive notifications translated in\n"
+  syntax:
+    content: public virtual string Language { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Language As String
+  overload: SuperOffice.WebApi.Data.PocketDeviceInfo.Language*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PocketDeviceInfo.PNSHandle
+  commentId: P:SuperOffice.WebApi.Data.PocketDeviceInfo.PNSHandle
+  id: PNSHandle
+  parent: SuperOffice.WebApi.Data.PocketDeviceInfo
+  langs:
+  - csharp
+  - vb
+  name: PNSHandle
+  nameWithType: PocketDeviceInfo.PNSHandle
+  fullName: SuperOffice.WebApi.Data.PocketDeviceInfo.PNSHandle
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe identifier associated with the device that will be used when talking with vendors push services\n"
+  syntax:
+    content: public virtual string PNSHandle { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PNSHandle As String
+  overload: SuperOffice.WebApi.Data.PocketDeviceInfo.PNSHandle*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PocketDeviceInfo.Platform_String
+  commentId: P:SuperOffice.WebApi.Data.PocketDeviceInfo.Platform_String
+  id: Platform_String
+  parent: SuperOffice.WebApi.Data.PocketDeviceInfo
+  langs:
+  - csharp
+  - vb
+  name: Platform_String
+  nameWithType: PocketDeviceInfo.Platform_String
+  fullName: SuperOffice.WebApi.Data.PocketDeviceInfo.Platform_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhat platform does this device belong to\nRaw string enum value.\n"
+  syntax:
+    content: public string Platform_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Platform_String As String
+  overload: SuperOffice.WebApi.Data.PocketDeviceInfo.Platform_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.PocketDeviceInfo.Platform
+    commentId: P:SuperOffice.WebApi.Data.PocketDeviceInfo.Platform
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PocketDeviceInfo.Platform
+  commentId: P:SuperOffice.WebApi.Data.PocketDeviceInfo.Platform
+  id: Platform
+  parent: SuperOffice.WebApi.Data.PocketDeviceInfo
+  langs:
+  - csharp
+  - vb
+  name: Platform
+  nameWithType: PocketDeviceInfo.Platform
+  fullName: SuperOffice.WebApi.Data.PocketDeviceInfo.Platform
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhat platform does this device belong to\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<NotificationPlatform> Platform { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.NotificationPlatform}
+    content.vb: Public Property Platform As Nullable(Of NotificationPlatform)
+  overload: SuperOffice.WebApi.Data.PocketDeviceInfo.Platform*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.PocketDeviceInfo.Platform_String
+    commentId: P:SuperOffice.WebApi.Data.PocketDeviceInfo.Platform_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PocketDeviceInfo.OSVersion
+  commentId: P:SuperOffice.WebApi.Data.PocketDeviceInfo.OSVersion
+  id: OSVersion
+  parent: SuperOffice.WebApi.Data.PocketDeviceInfo
+  langs:
+  - csharp
+  - vb
+  name: OSVersion
+  nameWithType: PocketDeviceInfo.OSVersion
+  fullName: SuperOffice.WebApi.Data.PocketDeviceInfo.OSVersion
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe operating system version. Ex: &apos;iOS v10.2&apos;\n"
+  syntax:
+    content: public virtual string OSVersion { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property OSVersion As String
+  overload: SuperOffice.WebApi.Data.PocketDeviceInfo.OSVersion*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.PocketAgent
+  commentId: T:SuperOffice.WebApi.Agents.PocketAgent
+  isExternal: true
+  name: PocketAgent
+  nameWithType: PocketAgent
+  fullName: SuperOffice.WebApi.Agents.PocketAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.PocketDeviceInfo.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketDeviceInfo.#ctor
+  isExternal: true
+  name: PocketDeviceInfo
+  nameWithType: PocketDeviceInfo.PocketDeviceInfo
+  fullName: SuperOffice.WebApi.Data.PocketDeviceInfo.PocketDeviceInfo
+- uid: SuperOffice.WebApi.Data.PocketDeviceInfo.DeviceName*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketDeviceInfo.DeviceName
+  isExternal: true
+  name: DeviceName
+  nameWithType: PocketDeviceInfo.DeviceName
+  fullName: SuperOffice.WebApi.Data.PocketDeviceInfo.DeviceName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.PocketDeviceInfo.DeviceIdentifier*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketDeviceInfo.DeviceIdentifier
+  isExternal: true
+  name: DeviceIdentifier
+  nameWithType: PocketDeviceInfo.DeviceIdentifier
+  fullName: SuperOffice.WebApi.Data.PocketDeviceInfo.DeviceIdentifier
+- uid: SuperOffice.WebApi.Data.PocketDeviceInfo.PocketVersion*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketDeviceInfo.PocketVersion
+  isExternal: true
+  name: PocketVersion
+  nameWithType: PocketDeviceInfo.PocketVersion
+  fullName: SuperOffice.WebApi.Data.PocketDeviceInfo.PocketVersion
+- uid: SuperOffice.WebApi.Data.PocketDeviceInfo.Language*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketDeviceInfo.Language
+  isExternal: true
+  name: Language
+  nameWithType: PocketDeviceInfo.Language
+  fullName: SuperOffice.WebApi.Data.PocketDeviceInfo.Language
+- uid: SuperOffice.WebApi.Data.PocketDeviceInfo.PNSHandle*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketDeviceInfo.PNSHandle
+  isExternal: true
+  name: PNSHandle
+  nameWithType: PocketDeviceInfo.PNSHandle
+  fullName: SuperOffice.WebApi.Data.PocketDeviceInfo.PNSHandle
+- uid: SuperOffice.WebApi.Data.PocketDeviceInfo.Platform_String*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketDeviceInfo.Platform_String
+  isExternal: true
+  name: Platform_String
+  nameWithType: PocketDeviceInfo.Platform_String
+  fullName: SuperOffice.WebApi.Data.PocketDeviceInfo.Platform_String
+- uid: SuperOffice.WebApi.Data.PocketDeviceInfo.Platform
+  commentId: P:SuperOffice.WebApi.Data.PocketDeviceInfo.Platform
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.PocketDeviceInfo.Platform*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketDeviceInfo.Platform
+  isExternal: true
+  name: Platform
+  nameWithType: PocketDeviceInfo.Platform
+  fullName: SuperOffice.WebApi.Data.PocketDeviceInfo.Platform
+- uid: SuperOffice.WebApi.Data.PocketDeviceInfo.Platform_String
+  commentId: P:SuperOffice.WebApi.Data.PocketDeviceInfo.Platform_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.NotificationPlatform}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.NotificationPlatform}'
+  definition: System.Nullable`1
+  name: Nullable<NotificationPlatform>
+  nameWithType: Nullable<NotificationPlatform>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.NotificationPlatform>
+  nameWithType.vb: Nullable(Of NotificationPlatform)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.NotificationPlatform)
+  name.vb: Nullable(Of NotificationPlatform)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.NotificationPlatform
+    name: NotificationPlatform
+    nameWithType: NotificationPlatform
+    fullName: SuperOffice.WebApi.Data.NotificationPlatform
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.NotificationPlatform
+    name: NotificationPlatform
+    nameWithType: NotificationPlatform
+    fullName: SuperOffice.WebApi.Data.NotificationPlatform
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.PocketDeviceInfo.OSVersion*
+  commentId: Overload:SuperOffice.WebApi.Data.PocketDeviceInfo.OSVersion
+  isExternal: true
+  name: OSVersion
+  nameWithType: PocketDeviceInfo.OSVersion
+  fullName: SuperOffice.WebApi.Data.PocketDeviceInfo.OSVersion

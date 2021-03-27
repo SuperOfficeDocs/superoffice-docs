@@ -1,0 +1,894 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Mail.RecipentList
+  commentId: T:SuperOffice.CRM.Mail.RecipentList
+  id: RecipentList
+  parent: SuperOffice.CRM.Mail
+  children:
+  - SuperOffice.CRM.Mail.RecipentList.#ctor
+  - SuperOffice.CRM.Mail.RecipentList.GetMostRecentRecipients(System.String,System.Int32)
+  - SuperOffice.CRM.Mail.RecipentList.UpdateListWithRecipients(SuperOffice.CRM.Mail.MailAddress,System.DateTime)
+  - SuperOffice.CRM.Mail.RecipentList.UpdateListWithRecipients(SuperOffice.CRM.Mail.MailEnvelope)
+  langs:
+  - csharp
+  - vb
+  name: RecipentList
+  nameWithType: RecipentList
+  fullName: SuperOffice.CRM.Mail.RecipentList
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nThis class is stored as a blob and therefor any changes to this class is a breaking change\n"
+  syntax:
+    content: public class RecipentList
+    content.vb: Public Class RecipentList
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Mail.RecipentList.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Mail.RecipentList.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Mail.RecipentList)
+  - SuperOffice.CRM.Mail.RecipentList.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Mail.RecipentList.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Mail.RecipentList.#ctor
+  commentId: M:SuperOffice.CRM.Mail.RecipentList.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Mail.RecipentList
+  langs:
+  - csharp
+  - vb
+  name: RecipentList()
+  nameWithType: RecipentList.RecipentList()
+  fullName: SuperOffice.CRM.Mail.RecipentList.RecipentList()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nCreates a dictionary with SentEMailInfo objects - these are sorted by date and updated based on the e-mail address\n"
+  syntax:
+    content: public RecipentList()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Mail.RecipentList.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.RecipentList.UpdateListWithRecipients(SuperOffice.CRM.Mail.MailEnvelope)
+  commentId: M:SuperOffice.CRM.Mail.RecipentList.UpdateListWithRecipients(SuperOffice.CRM.Mail.MailEnvelope)
+  id: UpdateListWithRecipients(SuperOffice.CRM.Mail.MailEnvelope)
+  parent: SuperOffice.CRM.Mail.RecipentList
+  langs:
+  - csharp
+  - vb
+  name: UpdateListWithRecipients(MailEnvelope)
+  nameWithType: RecipentList.UpdateListWithRecipients(MailEnvelope)
+  fullName: SuperOffice.CRM.Mail.RecipentList.UpdateListWithRecipients(SuperOffice.CRM.Mail.MailEnvelope)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nAdds all the e-mail addresses in a <xref href=\"SuperOffice.CRM.Mail.MailEnvelope\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public void UpdateListWithRecipients(MailEnvelope mail)
+    parameters:
+    - id: mail
+      type: SuperOffice.CRM.Mail.MailEnvelope
+      description: The mail envelope containing a list of e-mail addresses. These addresses will be added to our recipient cache
+    content.vb: Public Sub UpdateListWithRecipients(mail As MailEnvelope)
+  overload: SuperOffice.CRM.Mail.RecipentList.UpdateListWithRecipients*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.RecipentList.UpdateListWithRecipients(SuperOffice.CRM.Mail.MailAddress,System.DateTime)
+  commentId: M:SuperOffice.CRM.Mail.RecipentList.UpdateListWithRecipients(SuperOffice.CRM.Mail.MailAddress,System.DateTime)
+  id: UpdateListWithRecipients(SuperOffice.CRM.Mail.MailAddress,System.DateTime)
+  parent: SuperOffice.CRM.Mail.RecipentList
+  langs:
+  - csharp
+  - vb
+  name: UpdateListWithRecipients(MailAddress, DateTime)
+  nameWithType: RecipentList.UpdateListWithRecipients(MailAddress, DateTime)
+  fullName: SuperOffice.CRM.Mail.RecipentList.UpdateListWithRecipients(SuperOffice.CRM.Mail.MailAddress, System.DateTime)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nAdds a single MailAddress if it is not present in our cache, otherwise it updates the date stamp for the one we have.\nThis ensures that the list is sorted correctly\n"
+  syntax:
+    content: public void UpdateListWithRecipients(MailAddress address, DateTime timeStamp)
+    parameters:
+    - id: address
+      type: SuperOffice.CRM.Mail.MailAddress
+      description: The address to add to the cache
+    - id: timeStamp
+      type: System.DateTime
+      description: The time stamp indicating when it was sent. This is used for sorting the auto-complete list
+    content.vb: Public Sub UpdateListWithRecipients(address As MailAddress, timeStamp As Date)
+  overload: SuperOffice.CRM.Mail.RecipentList.UpdateListWithRecipients*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.RecipentList.GetMostRecentRecipients(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Mail.RecipentList.GetMostRecentRecipients(System.String,System.Int32)
+  id: GetMostRecentRecipients(System.String,System.Int32)
+  parent: SuperOffice.CRM.Mail.RecipentList
+  langs:
+  - csharp
+  - vb
+  name: GetMostRecentRecipients(String, Int32)
+  nameWithType: RecipentList.GetMostRecentRecipients(String, Int32)
+  fullName: SuperOffice.CRM.Mail.RecipentList.GetMostRecentRecipients(System.String, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nGets a sorted array of <xref href=\"SuperOffice.CRM.Mail.MailAddress\" data-throw-if-not-resolved=\"false\"></xref> objects\n"
+  syntax:
+    content: public MailAddress[] GetMostRecentRecipients(string searchString, int numberOfRecipients)
+    parameters:
+    - id: searchString
+      type: System.String
+      description: The string from which we try to find a match. The operator of this search is &quot;starts with&quot; and the search is case insensitive
+    - id: numberOfRecipients
+      type: System.Int32
+      description: The number of recipients in the returned array
+    return:
+      type: SuperOffice.CRM.Mail.MailAddress[]
+      description: An array of <xref href="SuperOffice.CRM.Mail.MailAddress" data-throw-if-not-resolved="false"></xref> objects, sorted according to the time stamp whence it was sent
+    content.vb: Public Function GetMostRecentRecipients(searchString As String, numberOfRecipients As Integer) As MailAddress()
+  overload: SuperOffice.CRM.Mail.RecipentList.GetMostRecentRecipients*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Mail
+  commentId: N:SuperOffice.CRM.Mail
+  isExternal: true
+  name: SuperOffice.CRM.Mail
+  nameWithType: SuperOffice.CRM.Mail
+  fullName: SuperOffice.CRM.Mail
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Mail.RecipentList.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<RecipentList, To>()
+  nameWithType: EnumUtil.MapEnums<RecipentList, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Mail.RecipentList, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of RecipentList, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Mail.RecipentList, To)()
+  name.vb: MapEnums(Of RecipentList, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<RecipentList, To>
+    nameWithType: EnumUtil.MapEnums<RecipentList, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Mail.RecipentList, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of RecipentList, To)
+    nameWithType: EnumUtil.MapEnums(Of RecipentList, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Mail.RecipentList, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Mail.RecipentList.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Mail.RecipentList)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<RecipentList>(RecipentList)
+  nameWithType: ObjectExtensions.AssignByReflection<RecipentList>(RecipentList)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Mail.RecipentList>(SuperOffice.CRM.Mail.RecipentList)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of RecipentList)(RecipentList)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Mail.RecipentList)(SuperOffice.CRM.Mail.RecipentList)
+  name.vb: AssignByReflection(Of RecipentList)(RecipentList)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<RecipentList>
+    nameWithType: ObjectExtensions.AssignByReflection<RecipentList>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Mail.RecipentList>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Mail.RecipentList
+    name: RecipentList
+    nameWithType: RecipentList
+    fullName: SuperOffice.CRM.Mail.RecipentList
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of RecipentList)
+    nameWithType: ObjectExtensions.AssignByReflection(Of RecipentList)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Mail.RecipentList)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Mail.RecipentList
+    name: RecipentList
+    nameWithType: RecipentList
+    fullName: SuperOffice.CRM.Mail.RecipentList
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Mail.RecipentList.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<RecipentList>()
+  nameWithType: ObjectExtensions.GraphCopy<RecipentList>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Mail.RecipentList>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of RecipentList)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Mail.RecipentList)()
+  name.vb: GraphCopy(Of RecipentList)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<RecipentList>
+    nameWithType: ObjectExtensions.GraphCopy<RecipentList>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Mail.RecipentList>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of RecipentList)
+    nameWithType: ObjectExtensions.GraphCopy(Of RecipentList)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Mail.RecipentList)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Mail.RecipentList.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<RecipentList, To>()
+  nameWithType: Converters.MapEnums<RecipentList, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Mail.RecipentList, To>()
+  nameWithType.vb: Converters.MapEnums(Of RecipentList, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Mail.RecipentList, To)()
+  name.vb: MapEnums(Of RecipentList, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<RecipentList, To>
+    nameWithType: Converters.MapEnums<RecipentList, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Mail.RecipentList, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of RecipentList, To)
+    nameWithType: Converters.MapEnums(Of RecipentList, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Mail.RecipentList, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Mail.RecipentList.#ctor*
+  commentId: Overload:SuperOffice.CRM.Mail.RecipentList.#ctor
+  isExternal: true
+  name: RecipentList
+  nameWithType: RecipentList.RecipentList
+  fullName: SuperOffice.CRM.Mail.RecipentList.RecipentList
+- uid: SuperOffice.CRM.Mail.RecipentList.UpdateListWithRecipients*
+  commentId: Overload:SuperOffice.CRM.Mail.RecipentList.UpdateListWithRecipients
+  isExternal: true
+  name: UpdateListWithRecipients
+  nameWithType: RecipentList.UpdateListWithRecipients
+  fullName: SuperOffice.CRM.Mail.RecipentList.UpdateListWithRecipients
+- uid: SuperOffice.CRM.Mail.MailEnvelope
+  isExternal: true
+  name: MailEnvelope
+  nameWithType: MailEnvelope
+  fullName: SuperOffice.CRM.Mail.MailEnvelope
+- uid: SuperOffice.CRM.Mail.MailAddress
+  isExternal: true
+  name: MailAddress
+  nameWithType: MailAddress
+  fullName: SuperOffice.CRM.Mail.MailAddress
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Mail.RecipentList.GetMostRecentRecipients*
+  commentId: Overload:SuperOffice.CRM.Mail.RecipentList.GetMostRecentRecipients
+  isExternal: true
+  name: GetMostRecentRecipients
+  nameWithType: RecipentList.GetMostRecentRecipients
+  fullName: SuperOffice.CRM.Mail.RecipentList.GetMostRecentRecipients
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Mail.MailAddress[]
+  isExternal: true
+  name: MailAddress[]
+  nameWithType: MailAddress[]
+  fullName: SuperOffice.CRM.Mail.MailAddress[]
+  nameWithType.vb: MailAddress()
+  fullName.vb: SuperOffice.CRM.Mail.MailAddress()
+  name.vb: MailAddress()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Mail.MailAddress
+    name: MailAddress
+    nameWithType: MailAddress
+    fullName: SuperOffice.CRM.Mail.MailAddress
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Mail.MailAddress
+    name: MailAddress
+    nameWithType: MailAddress
+    fullName: SuperOffice.CRM.Mail.MailAddress
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

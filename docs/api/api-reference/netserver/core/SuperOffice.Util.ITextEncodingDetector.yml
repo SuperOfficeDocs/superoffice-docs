@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.ITextEncodingDetector
+  commentId: T:SuperOffice.Util.ITextEncodingDetector
+  id: ITextEncodingDetector
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.ITextEncodingDetector.DetectFrom(System.Byte[])
+  langs:
+  - csharp
+  - vb
+  name: ITextEncodingDetector
+  nameWithType: ITextEncodingDetector
+  fullName: SuperOffice.Util.ITextEncodingDetector
+  type: Interface
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public interface ITextEncodingDetector
+    content.vb: Public Interface ITextEncodingDetector
+  extensionMethods:
+  - SuperOffice.Util.ITextEncodingDetector.EnumUtil.MapEnums``2
+  - SuperOffice.Util.ITextEncodingDetector.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Util.ITextEncodingDetector.DetectFrom(System.Byte[])
+  commentId: M:SuperOffice.Util.ITextEncodingDetector.DetectFrom(System.Byte[])
+  id: DetectFrom(System.Byte[])
+  parent: SuperOffice.Util.ITextEncodingDetector
+  langs:
+  - csharp
+  - vb
+  name: DetectFrom(Byte[])
+  nameWithType: ITextEncodingDetector.DetectFrom(Byte[])
+  fullName: SuperOffice.Util.ITextEncodingDetector.DetectFrom(System.Byte[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: Encoding DetectFrom(byte[] bytes)
+    parameters:
+    - id: bytes
+      type: System.Byte[]
+    return:
+      type: System.Text.Encoding
+    content.vb: Function DetectFrom(bytes As Byte()) As Encoding
+  overload: SuperOffice.Util.ITextEncodingDetector.DetectFrom*
+  nameWithType.vb: ITextEncodingDetector.DetectFrom(Byte())
+  fullName.vb: SuperOffice.Util.ITextEncodingDetector.DetectFrom(System.Byte())
+  name.vb: DetectFrom(Byte())
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.Util.ITextEncodingDetector.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ITextEncodingDetector, To>()
+  nameWithType: EnumUtil.MapEnums<ITextEncodingDetector, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.ITextEncodingDetector, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ITextEncodingDetector, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.ITextEncodingDetector, To)()
+  name.vb: MapEnums(Of ITextEncodingDetector, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ITextEncodingDetector, To>
+    nameWithType: EnumUtil.MapEnums<ITextEncodingDetector, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.ITextEncodingDetector, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ITextEncodingDetector, To)
+    nameWithType: EnumUtil.MapEnums(Of ITextEncodingDetector, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.ITextEncodingDetector, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ITextEncodingDetector.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ITextEncodingDetector, To>()
+  nameWithType: Converters.MapEnums<ITextEncodingDetector, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.ITextEncodingDetector, To>()
+  nameWithType.vb: Converters.MapEnums(Of ITextEncodingDetector, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.ITextEncodingDetector, To)()
+  name.vb: MapEnums(Of ITextEncodingDetector, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ITextEncodingDetector, To>
+    nameWithType: Converters.MapEnums<ITextEncodingDetector, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.ITextEncodingDetector, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ITextEncodingDetector, To)
+    nameWithType: Converters.MapEnums(Of ITextEncodingDetector, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.ITextEncodingDetector, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Util.ITextEncodingDetector.DetectFrom*
+  commentId: Overload:SuperOffice.Util.ITextEncodingDetector.DetectFrom
+  isExternal: true
+  name: DetectFrom
+  nameWithType: ITextEncodingDetector.DetectFrom
+  fullName: SuperOffice.Util.ITextEncodingDetector.DetectFrom
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Text.Encoding
+  commentId: T:System.Text.Encoding
+  parent: System.Text
+  isExternal: true
+  name: Encoding
+  nameWithType: Encoding
+  fullName: System.Text.Encoding
+- uid: System.Text
+  commentId: N:System.Text
+  isExternal: true
+  name: System.Text
+  nameWithType: System.Text
+  fullName: System.Text

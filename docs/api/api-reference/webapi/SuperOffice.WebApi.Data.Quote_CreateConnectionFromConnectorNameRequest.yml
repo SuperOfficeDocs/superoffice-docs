@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_CreateConnectionFromConnectorNameRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_CreateConnectionFromConnectorNameRequest
+  id: Quote_CreateConnectionFromConnectorNameRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_CreateConnectionFromConnectorNameRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_CreateConnectionFromConnectorNameRequest.ConnectorName
+  langs:
+  - csharp
+  - vb
+  name: Quote_CreateConnectionFromConnectorNameRequest
+  nameWithType: Quote_CreateConnectionFromConnectorNameRequest
+  fullName: SuperOffice.WebApi.Data.Quote_CreateConnectionFromConnectorNameRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_CreateConnectionFromConnectorNameRequest : Object'
+    content.vb: >-
+      Public Class Quote_CreateConnectionFromConnectorNameRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_CreateConnectionFromConnectorNameRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_CreateConnectionFromConnectorNameRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_CreateConnectionFromConnectorNameRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_CreateConnectionFromConnectorNameRequest()
+  nameWithType: Quote_CreateConnectionFromConnectorNameRequest.Quote_CreateConnectionFromConnectorNameRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_CreateConnectionFromConnectorNameRequest.Quote_CreateConnectionFromConnectorNameRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_CreateConnectionFromConnectorNameRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_CreateConnectionFromConnectorNameRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_CreateConnectionFromConnectorNameRequest.ConnectorName
+  commentId: P:SuperOffice.WebApi.Data.Quote_CreateConnectionFromConnectorNameRequest.ConnectorName
+  id: ConnectorName
+  parent: SuperOffice.WebApi.Data.Quote_CreateConnectionFromConnectorNameRequest
+  langs:
+  - csharp
+  - vb
+  name: ConnectorName
+  nameWithType: Quote_CreateConnectionFromConnectorNameRequest.ConnectorName
+  fullName: SuperOffice.WebApi.Data.Quote_CreateConnectionFromConnectorNameRequest.ConnectorName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ConnectorName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ConnectorName As String
+  overload: SuperOffice.WebApi.Data.Quote_CreateConnectionFromConnectorNameRequest.ConnectorName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_CreateConnectionFromConnectorNameRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CreateConnectionFromConnectorNameRequest.#ctor
+  isExternal: true
+  name: Quote_CreateConnectionFromConnectorNameRequest
+  nameWithType: Quote_CreateConnectionFromConnectorNameRequest.Quote_CreateConnectionFromConnectorNameRequest
+  fullName: SuperOffice.WebApi.Data.Quote_CreateConnectionFromConnectorNameRequest.Quote_CreateConnectionFromConnectorNameRequest
+- uid: SuperOffice.WebApi.Data.Quote_CreateConnectionFromConnectorNameRequest.ConnectorName*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CreateConnectionFromConnectorNameRequest.ConnectorName
+  isExternal: true
+  name: ConnectorName
+  nameWithType: Quote_CreateConnectionFromConnectorNameRequest.ConnectorName
+  fullName: SuperOffice.WebApi.Data.Quote_CreateConnectionFromConnectorNameRequest.ConnectorName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

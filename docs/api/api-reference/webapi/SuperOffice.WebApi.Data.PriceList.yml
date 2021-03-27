@@ -1,0 +1,568 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.PriceList
+  commentId: T:SuperOffice.WebApi.Data.PriceList
+  id: PriceList
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.PriceList.#ctor
+  - SuperOffice.WebApi.Data.PriceList.Currency
+  - SuperOffice.WebApi.Data.PriceList.CurrencyName
+  - SuperOffice.WebApi.Data.PriceList.Description
+  - SuperOffice.WebApi.Data.PriceList.ERPPriceListKey
+  - SuperOffice.WebApi.Data.PriceList.IsActive
+  - SuperOffice.WebApi.Data.PriceList.Name
+  - SuperOffice.WebApi.Data.PriceList.PriceListId
+  - SuperOffice.WebApi.Data.PriceList.QuoteConnectionId
+  - SuperOffice.WebApi.Data.PriceList.ValidFrom
+  - SuperOffice.WebApi.Data.PriceList.ValidTo
+  langs:
+  - csharp
+  - vb
+  name: PriceList
+  nameWithType: PriceList
+  fullName: SuperOffice.WebApi.Data.PriceList
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for PriceList.\nA pricelist is basically a collection of products. It can be valid in a time period, and outright deactivated. All prices in the product list is in a specific currency. We have decieded not to separate prices and products, which means that we get a simpler data model, but some redundancy.    \n"
+  remarks: >
+    Use <xref href="SuperOffice.CRM.Services.ArchiveAgent" data-throw-if-not-resolved="false"></xref>:
+
+    All PriceList: <pre><code>&quot;PriceList&quot;</code></pre>
+
+    Products: <pre><code>&quot;Product&quot;</code></pre> with restriction <pre><code>&quot;priceListId eq &quot; + id</code></pre>.
+  example:
+  - "\nGet PriceList 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new QuoteAgent(configuration);\nvar priceList = agent.GetPriceList( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class PriceList : Carrier'
+    content.vb: >-
+      Public Class PriceList
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.QuoteAgent
+    commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  - linkId: SuperOffice.WebApi.Agents.ArchiveAgent
+    commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  - linkId: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+    commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.PriceList.#ctor
+  commentId: M:SuperOffice.WebApi.Data.PriceList.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.PriceList
+  langs:
+  - csharp
+  - vb
+  name: PriceList()
+  nameWithType: PriceList.PriceList()
+  fullName: SuperOffice.WebApi.Data.PriceList.PriceList()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public PriceList()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.PriceList.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PriceList.PriceListId
+  commentId: P:SuperOffice.WebApi.Data.PriceList.PriceListId
+  id: PriceListId
+  parent: SuperOffice.WebApi.Data.PriceList
+  langs:
+  - csharp
+  - vb
+  name: PriceListId
+  nameWithType: PriceList.PriceListId
+  fullName: SuperOffice.WebApi.Data.PriceList.PriceListId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int PriceListId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PriceListId As Integer
+  overload: SuperOffice.WebApi.Data.PriceList.PriceListId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PriceList.ERPPriceListKey
+  commentId: P:SuperOffice.WebApi.Data.PriceList.ERPPriceListKey
+  id: ERPPriceListKey
+  parent: SuperOffice.WebApi.Data.PriceList
+  langs:
+  - csharp
+  - vb
+  name: ERPPriceListKey
+  nameWithType: PriceList.ERPPriceListKey
+  fullName: SuperOffice.WebApi.Data.PriceList.ERPPriceListKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe key that uniquely identifies this pricelist in the ERP system\n"
+  syntax:
+    content: public virtual string ERPPriceListKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ERPPriceListKey As String
+  overload: SuperOffice.WebApi.Data.PriceList.ERPPriceListKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PriceList.QuoteConnectionId
+  commentId: P:SuperOffice.WebApi.Data.PriceList.QuoteConnectionId
+  id: QuoteConnectionId
+  parent: SuperOffice.WebApi.Data.PriceList
+  langs:
+  - csharp
+  - vb
+  name: QuoteConnectionId
+  nameWithType: PriceList.QuoteConnectionId
+  fullName: SuperOffice.WebApi.Data.PriceList.QuoteConnectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(Reserved for future use) The connection to the ERP system used for this pricelist\n"
+  syntax:
+    content: public virtual int QuoteConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property QuoteConnectionId As Integer
+  overload: SuperOffice.WebApi.Data.PriceList.QuoteConnectionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PriceList.Name
+  commentId: P:SuperOffice.WebApi.Data.PriceList.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.PriceList
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: PriceList.Name
+  fullName: SuperOffice.WebApi.Data.PriceList.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of this pricelist to use in the user interface.\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.PriceList.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PriceList.Description
+  commentId: P:SuperOffice.WebApi.Data.PriceList.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.PriceList
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: PriceList.Description
+  fullName: SuperOffice.WebApi.Data.PriceList.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDescription of this pricelist , will be used as tool-tip in the user interface.\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.PriceList.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PriceList.Currency
+  commentId: P:SuperOffice.WebApi.Data.PriceList.Currency
+  id: Currency
+  parent: SuperOffice.WebApi.Data.PriceList
+  langs:
+  - csharp
+  - vb
+  name: Currency
+  nameWithType: PriceList.Currency
+  fullName: SuperOffice.WebApi.Data.PriceList.Currency
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe iso currency code, like &apos;USD&apos; or &apos;NOK&apos;.\n"
+  syntax:
+    content: public virtual string Currency { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Currency As String
+  overload: SuperOffice.WebApi.Data.PriceList.Currency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PriceList.CurrencyName
+  commentId: P:SuperOffice.WebApi.Data.PriceList.CurrencyName
+  id: CurrencyName
+  parent: SuperOffice.WebApi.Data.PriceList
+  langs:
+  - csharp
+  - vb
+  name: CurrencyName
+  nameWithType: PriceList.CurrencyName
+  fullName: SuperOffice.WebApi.Data.PriceList.CurrencyName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name to use in the user interface, like perhaps &apos;US dollar&apos; or &apos;$&apos;\n"
+  syntax:
+    content: public virtual string CurrencyName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CurrencyName As String
+  overload: SuperOffice.WebApi.Data.PriceList.CurrencyName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PriceList.ValidFrom
+  commentId: P:SuperOffice.WebApi.Data.PriceList.ValidFrom
+  id: ValidFrom
+  parent: SuperOffice.WebApi.Data.PriceList
+  langs:
+  - csharp
+  - vb
+  name: ValidFrom
+  nameWithType: PriceList.ValidFrom
+  fullName: SuperOffice.WebApi.Data.PriceList.ValidFrom
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn&apos;t have a specific start date.\n"
+  syntax:
+    content: public virtual DateTime ValidFrom { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property ValidFrom As DateTime
+  overload: SuperOffice.WebApi.Data.PriceList.ValidFrom*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PriceList.ValidTo
+  commentId: P:SuperOffice.WebApi.Data.PriceList.ValidTo
+  id: ValidTo
+  parent: SuperOffice.WebApi.Data.PriceList
+  langs:
+  - csharp
+  - vb
+  name: ValidTo
+  nameWithType: PriceList.ValidTo
+  fullName: SuperOffice.WebApi.Data.PriceList.ValidTo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn&apos;t have a specific end date.\n"
+  syntax:
+    content: public virtual DateTime ValidTo { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property ValidTo As DateTime
+  overload: SuperOffice.WebApi.Data.PriceList.ValidTo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PriceList.IsActive
+  commentId: P:SuperOffice.WebApi.Data.PriceList.IsActive
+  id: IsActive
+  parent: SuperOffice.WebApi.Data.PriceList
+  langs:
+  - csharp
+  - vb
+  name: IsActive
+  nameWithType: PriceList.IsActive
+  fullName: SuperOffice.WebApi.Data.PriceList.IsActive
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs the list active (as opposed to being worked on, suddenly canceled, etc.\n"
+  syntax:
+    content: public virtual bool IsActive { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsActive As Boolean
+  overload: SuperOffice.WebApi.Data.PriceList.IsActive*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.QuoteAgent
+  commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  isExternal: true
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.WebApi.Agents.QuoteAgent
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+- uid: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  isExternal: true
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.PriceList.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.PriceList.#ctor
+  isExternal: true
+  name: PriceList
+  nameWithType: PriceList.PriceList
+  fullName: SuperOffice.WebApi.Data.PriceList.PriceList
+- uid: SuperOffice.WebApi.Data.PriceList.PriceListId*
+  commentId: Overload:SuperOffice.WebApi.Data.PriceList.PriceListId
+  isExternal: true
+  name: PriceListId
+  nameWithType: PriceList.PriceListId
+  fullName: SuperOffice.WebApi.Data.PriceList.PriceListId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.PriceList.ERPPriceListKey*
+  commentId: Overload:SuperOffice.WebApi.Data.PriceList.ERPPriceListKey
+  isExternal: true
+  name: ERPPriceListKey
+  nameWithType: PriceList.ERPPriceListKey
+  fullName: SuperOffice.WebApi.Data.PriceList.ERPPriceListKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.PriceList.QuoteConnectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.PriceList.QuoteConnectionId
+  isExternal: true
+  name: QuoteConnectionId
+  nameWithType: PriceList.QuoteConnectionId
+  fullName: SuperOffice.WebApi.Data.PriceList.QuoteConnectionId
+- uid: SuperOffice.WebApi.Data.PriceList.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.PriceList.Name
+  isExternal: true
+  name: Name
+  nameWithType: PriceList.Name
+  fullName: SuperOffice.WebApi.Data.PriceList.Name
+- uid: SuperOffice.WebApi.Data.PriceList.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.PriceList.Description
+  isExternal: true
+  name: Description
+  nameWithType: PriceList.Description
+  fullName: SuperOffice.WebApi.Data.PriceList.Description
+- uid: SuperOffice.WebApi.Data.PriceList.Currency*
+  commentId: Overload:SuperOffice.WebApi.Data.PriceList.Currency
+  isExternal: true
+  name: Currency
+  nameWithType: PriceList.Currency
+  fullName: SuperOffice.WebApi.Data.PriceList.Currency
+- uid: SuperOffice.WebApi.Data.PriceList.CurrencyName*
+  commentId: Overload:SuperOffice.WebApi.Data.PriceList.CurrencyName
+  isExternal: true
+  name: CurrencyName
+  nameWithType: PriceList.CurrencyName
+  fullName: SuperOffice.WebApi.Data.PriceList.CurrencyName
+- uid: SuperOffice.WebApi.Data.PriceList.ValidFrom*
+  commentId: Overload:SuperOffice.WebApi.Data.PriceList.ValidFrom
+  isExternal: true
+  name: ValidFrom
+  nameWithType: PriceList.ValidFrom
+  fullName: SuperOffice.WebApi.Data.PriceList.ValidFrom
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.PriceList.ValidTo*
+  commentId: Overload:SuperOffice.WebApi.Data.PriceList.ValidTo
+  isExternal: true
+  name: ValidTo
+  nameWithType: PriceList.ValidTo
+  fullName: SuperOffice.WebApi.Data.PriceList.ValidTo
+- uid: SuperOffice.WebApi.Data.PriceList.IsActive*
+  commentId: Overload:SuperOffice.WebApi.Data.PriceList.IsActive
+  isExternal: true
+  name: IsActive
+  nameWithType: PriceList.IsActive
+  fullName: SuperOffice.WebApi.Data.PriceList.IsActive
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

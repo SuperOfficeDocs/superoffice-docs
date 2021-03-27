@@ -1,0 +1,199 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TicketMessageHeader
+  commentId: T:SuperOffice.WebApi.Data.TicketMessageHeader
+  id: TicketMessageHeader
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TicketMessageHeader.#ctor
+  - SuperOffice.WebApi.Data.TicketMessageHeader.Name
+  - SuperOffice.WebApi.Data.TicketMessageHeader.Value
+  langs:
+  - csharp
+  - vb
+  name: TicketMessageHeader
+  nameWithType: TicketMessageHeader
+  fullName: SuperOffice.WebApi.Data.TicketMessageHeader
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for TicketMessageHeader.\nContains information about a header connected to a ticket message    \n"
+  syntax:
+    content: 'public class TicketMessageHeader : Carrier'
+    content.vb: >-
+      Public Class TicketMessageHeader
+          Inherits Carrier
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TicketMessageHeader.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TicketMessageHeader.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TicketMessageHeader
+  langs:
+  - csharp
+  - vb
+  name: TicketMessageHeader()
+  nameWithType: TicketMessageHeader.TicketMessageHeader()
+  fullName: SuperOffice.WebApi.Data.TicketMessageHeader.TicketMessageHeader()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public TicketMessageHeader()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TicketMessageHeader.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketMessageHeader.Name
+  commentId: P:SuperOffice.WebApi.Data.TicketMessageHeader.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.TicketMessageHeader
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: TicketMessageHeader.Name
+  fullName: SuperOffice.WebApi.Data.TicketMessageHeader.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the header. This can for example be To, Cc or other custom headers that is set up in Service\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.TicketMessageHeader.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TicketMessageHeader.Value
+  commentId: P:SuperOffice.WebApi.Data.TicketMessageHeader.Value
+  id: Value
+  parent: SuperOffice.WebApi.Data.TicketMessageHeader
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: TicketMessageHeader.Value
+  fullName: SuperOffice.WebApi.Data.TicketMessageHeader.Value
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe value of the header. Can for example be an email address, or a custom header extracted from emails\n"
+  syntax:
+    content: public virtual string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Value As String
+  overload: SuperOffice.WebApi.Data.TicketMessageHeader.Value*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TicketMessageHeader.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketMessageHeader.#ctor
+  isExternal: true
+  name: TicketMessageHeader
+  nameWithType: TicketMessageHeader.TicketMessageHeader
+  fullName: SuperOffice.WebApi.Data.TicketMessageHeader.TicketMessageHeader
+- uid: SuperOffice.WebApi.Data.TicketMessageHeader.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketMessageHeader.Name
+  isExternal: true
+  name: Name
+  nameWithType: TicketMessageHeader.Name
+  fullName: SuperOffice.WebApi.Data.TicketMessageHeader.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.TicketMessageHeader.Value*
+  commentId: Overload:SuperOffice.WebApi.Data.TicketMessageHeader.Value
+  isExternal: true
+  name: Value
+  nameWithType: TicketMessageHeader.Value
+  fullName: SuperOffice.WebApi.Data.TicketMessageHeader.Value

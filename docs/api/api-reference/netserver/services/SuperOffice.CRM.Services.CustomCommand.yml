@@ -1,0 +1,412 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.CustomCommand
+  commentId: T:SuperOffice.CRM.Services.CustomCommand
+  id: CustomCommand
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.CustomCommand.#ctor
+  - SuperOffice.CRM.Services.CustomCommand.ActionData
+  - SuperOffice.CRM.Services.CustomCommand.Actions
+  - SuperOffice.CRM.Services.CustomCommand.Description
+  - SuperOffice.CRM.Services.CustomCommand.DisplayName
+  - SuperOffice.CRM.Services.CustomCommand.Name
+  - SuperOffice.CRM.Services.CustomCommand.ToolTip
+  - SuperOffice.CRM.Services.CustomCommand.ToString
+  - SuperOffice.CRM.Services.CustomCommand.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: CustomCommand
+  nameWithType: CustomCommand
+  fullName: SuperOffice.CRM.Services.CustomCommand
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGeneric carrier object for entity commands.\n<p></p>\nCarrier object for CustomCommand.\n"
+  syntax:
+    content: 'public class CustomCommand : Carrier'
+    content.vb: >-
+      Public Class CustomCommand
+          Inherits Carrier
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.CustomCommand.#ctor
+  commentId: M:SuperOffice.CRM.Services.CustomCommand.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.CustomCommand
+  langs:
+  - csharp
+  - vb
+  name: CustomCommand()
+  nameWithType: CustomCommand.CustomCommand()
+  fullName: SuperOffice.CRM.Services.CustomCommand.CustomCommand()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public CustomCommand()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.CustomCommand.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CustomCommand.ToString
+  commentId: M:SuperOffice.CRM.Services.CustomCommand.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.CustomCommand
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: CustomCommand.ToString()
+  fullName: SuperOffice.CRM.Services.CustomCommand.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.CustomCommand.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.CustomCommand.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.CustomCommand.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.CustomCommand
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: CustomCommand.ToString(String)
+  fullName: SuperOffice.CRM.Services.CustomCommand.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.CustomCommand.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CustomCommand.Name
+  commentId: P:SuperOffice.CRM.Services.CustomCommand.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.CustomCommand
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: CustomCommand.Name
+  fullName: SuperOffice.CRM.Services.CustomCommand.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUnique name of the command \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.CustomCommand.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CustomCommand.DisplayName
+  commentId: P:SuperOffice.CRM.Services.CustomCommand.DisplayName
+  id: DisplayName
+  parent: SuperOffice.CRM.Services.CustomCommand
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: CustomCommand.DisplayName
+  fullName: SuperOffice.CRM.Services.CustomCommand.DisplayName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe name to show in GUI \n"
+  syntax:
+    content: public virtual string DisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayName As String
+  overload: SuperOffice.CRM.Services.CustomCommand.DisplayName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CustomCommand.Description
+  commentId: P:SuperOffice.CRM.Services.CustomCommand.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.CustomCommand
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: CustomCommand.Description
+  fullName: SuperOffice.CRM.Services.CustomCommand.Description
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDescription of the command. \n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.CustomCommand.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CustomCommand.ToolTip
+  commentId: P:SuperOffice.CRM.Services.CustomCommand.ToolTip
+  id: ToolTip
+  parent: SuperOffice.CRM.Services.CustomCommand
+  langs:
+  - csharp
+  - vb
+  name: ToolTip
+  nameWithType: CustomCommand.ToolTip
+  fullName: SuperOffice.CRM.Services.CustomCommand.ToolTip
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTooltip to be used in the GUI \n"
+  syntax:
+    content: public virtual string ToolTip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ToolTip As String
+  overload: SuperOffice.CRM.Services.CustomCommand.ToolTip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CustomCommand.Actions
+  commentId: P:SuperOffice.CRM.Services.CustomCommand.Actions
+  id: Actions
+  parent: SuperOffice.CRM.Services.CustomCommand
+  langs:
+  - csharp
+  - vb
+  name: Actions
+  nameWithType: CustomCommand.Actions
+  fullName: SuperOffice.CRM.Services.CustomCommand.Actions
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe actions to call when invoked \n"
+  syntax:
+    content: public virtual CommandAction Actions { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.CommandAction
+    content.vb: Public Overridable Property Actions As CommandAction
+  overload: SuperOffice.CRM.Services.CustomCommand.Actions*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CustomCommand.ActionData
+  commentId: P:SuperOffice.CRM.Services.CustomCommand.ActionData
+  id: ActionData
+  parent: SuperOffice.CRM.Services.CustomCommand
+  langs:
+  - csharp
+  - vb
+  name: ActionData
+  nameWithType: CustomCommand.ActionData
+  fullName: SuperOffice.CRM.Services.CustomCommand.ActionData
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe data to be used when the command is invoked \n"
+  syntax:
+    content: public virtual string ActionData { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ActionData As String
+  overload: SuperOffice.CRM.Services.CustomCommand.ActionData*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.CustomCommand.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.CustomCommand.#ctor
+  isExternal: true
+  name: CustomCommand
+  nameWithType: CustomCommand.CustomCommand
+  fullName: SuperOffice.CRM.Services.CustomCommand.CustomCommand
+- uid: SuperOffice.CRM.Services.CustomCommand.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.CustomCommand.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: CustomCommand.ToString
+  fullName: SuperOffice.CRM.Services.CustomCommand.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.CustomCommand.Name*
+  commentId: Overload:SuperOffice.CRM.Services.CustomCommand.Name
+  isExternal: true
+  name: Name
+  nameWithType: CustomCommand.Name
+  fullName: SuperOffice.CRM.Services.CustomCommand.Name
+- uid: SuperOffice.CRM.Services.CustomCommand.DisplayName*
+  commentId: Overload:SuperOffice.CRM.Services.CustomCommand.DisplayName
+  isExternal: true
+  name: DisplayName
+  nameWithType: CustomCommand.DisplayName
+  fullName: SuperOffice.CRM.Services.CustomCommand.DisplayName
+- uid: SuperOffice.CRM.Services.CustomCommand.Description*
+  commentId: Overload:SuperOffice.CRM.Services.CustomCommand.Description
+  isExternal: true
+  name: Description
+  nameWithType: CustomCommand.Description
+  fullName: SuperOffice.CRM.Services.CustomCommand.Description
+- uid: SuperOffice.CRM.Services.CustomCommand.ToolTip*
+  commentId: Overload:SuperOffice.CRM.Services.CustomCommand.ToolTip
+  isExternal: true
+  name: ToolTip
+  nameWithType: CustomCommand.ToolTip
+  fullName: SuperOffice.CRM.Services.CustomCommand.ToolTip
+- uid: SuperOffice.CRM.Services.CustomCommand.Actions*
+  commentId: Overload:SuperOffice.CRM.Services.CustomCommand.Actions
+  isExternal: true
+  name: Actions
+  nameWithType: CustomCommand.Actions
+  fullName: SuperOffice.CRM.Services.CustomCommand.Actions
+- uid: SuperOffice.Data.CommandAction
+  commentId: '!:SuperOffice.Data.CommandAction'
+  isExternal: true
+  name: CommandAction
+  nameWithType: CommandAction
+  fullName: SuperOffice.Data.CommandAction
+- uid: SuperOffice.CRM.Services.CustomCommand.ActionData*
+  commentId: Overload:SuperOffice.CRM.Services.CustomCommand.ActionData
+  isExternal: true
+  name: ActionData
+  nameWithType: CustomCommand.ActionData
+  fullName: SuperOffice.CRM.Services.CustomCommand.ActionData

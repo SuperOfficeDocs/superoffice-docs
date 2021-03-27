@@ -1,0 +1,569 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.ApplicationType
+  commentId: T:SuperOffice.Data.ApplicationType
+  id: ApplicationType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.ApplicationType.ExtApplication
+  - SuperOffice.Data.ApplicationType.ExtURL
+  - SuperOffice.Data.ApplicationType.IntegratedHTML
+  - SuperOffice.Data.ApplicationType.IntegratedURL
+  - SuperOffice.Data.ApplicationType.Unknown
+  - SuperOffice.Data.ApplicationType.URL
+  langs:
+  - csharp
+  - vb
+  name: ApplicationType
+  nameWithType: ApplicationType
+  fullName: SuperOffice.Data.ApplicationType
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n"
+  syntax:
+    content: public enum ApplicationType
+    content.vb: Public Enum ApplicationType
+  extensionMethods:
+  - SuperOffice.Data.ApplicationType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.ApplicationType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ApplicationType)
+  - SuperOffice.Data.ApplicationType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.ApplicationType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.ApplicationType.Unknown
+  commentId: F:SuperOffice.Data.ApplicationType.Unknown
+  id: Unknown
+  parent: SuperOffice.Data.ApplicationType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: ApplicationType.Unknown
+  fullName: SuperOffice.Data.ApplicationType.Unknown
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nUnknown - used when initializing \n"
+  syntax:
+    content: Unknown = 0
+    return:
+      type: SuperOffice.Data.ApplicationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ApplicationType.ExtApplication
+  commentId: F:SuperOffice.Data.ApplicationType.ExtApplication
+  id: ExtApplication
+  parent: SuperOffice.Data.ApplicationType
+  langs:
+  - csharp
+  - vb
+  name: ExtApplication
+  nameWithType: ApplicationType.ExtApplication
+  fullName: SuperOffice.Data.ApplicationType.ExtApplication
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: EXE file of some kind, corresponds to the &apos;External application&apos; radio button\n"
+  syntax:
+    content: ExtApplication = 1
+    return:
+      type: SuperOffice.Data.ApplicationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ApplicationType.IntegratedHTML
+  commentId: F:SuperOffice.Data.ApplicationType.IntegratedHTML
+  id: IntegratedHTML
+  parent: SuperOffice.Data.ApplicationType
+  langs:
+  - csharp
+  - vb
+  name: IntegratedHTML
+  nameWithType: ApplicationType.IntegratedHTML
+  fullName: SuperOffice.Data.ApplicationType.IntegratedHTML
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: HTML output from someplace (does not seem to be implemented in SOCRM)\n"
+  syntax:
+    content: IntegratedHTML = 2
+    return:
+      type: SuperOffice.Data.ApplicationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ApplicationType.IntegratedURL
+  commentId: F:SuperOffice.Data.ApplicationType.IntegratedURL
+  id: IntegratedURL
+  parent: SuperOffice.Data.ApplicationType
+  langs:
+  - csharp
+  - vb
+  name: IntegratedURL
+  nameWithType: ApplicationType.IntegratedURL
+  fullName: SuperOffice.Data.ApplicationType.IntegratedURL
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n3: URL, content to be shown using integrated browser (does not seem to be implemented in SOCRM)\n"
+  syntax:
+    content: IntegratedURL = 3
+    return:
+      type: SuperOffice.Data.ApplicationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ApplicationType.URL
+  commentId: F:SuperOffice.Data.ApplicationType.URL
+  id: URL
+  parent: SuperOffice.Data.ApplicationType
+  langs:
+  - csharp
+  - vb
+  name: URL
+  nameWithType: ApplicationType.URL
+  fullName: SuperOffice.Data.ApplicationType.URL
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4: URL, to be shown using whatever installed browser, correponds to the &apos;URL&apos; radio button\n"
+  syntax:
+    content: URL = 4
+    return:
+      type: SuperOffice.Data.ApplicationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ApplicationType.ExtURL
+  commentId: F:SuperOffice.Data.ApplicationType.ExtURL
+  id: ExtURL
+  parent: SuperOffice.Data.ApplicationType
+  langs:
+  - csharp
+  - vb
+  name: ExtURL
+  nameWithType: ApplicationType.ExtURL
+  fullName: SuperOffice.Data.ApplicationType.ExtURL
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n5: URL, to be shown externally (start new browser window) (does not seem to be implemented in SOCRM)\n"
+  syntax:
+    content: ExtURL = 5
+    return:
+      type: SuperOffice.Data.ApplicationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.ApplicationType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ApplicationType, To>()
+  nameWithType: EnumUtil.MapEnums<ApplicationType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ApplicationType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ApplicationType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ApplicationType, To)()
+  name.vb: MapEnums(Of ApplicationType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ApplicationType, To>
+    nameWithType: EnumUtil.MapEnums<ApplicationType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ApplicationType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ApplicationType, To)
+    nameWithType: EnumUtil.MapEnums(Of ApplicationType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ApplicationType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ApplicationType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ApplicationType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ApplicationType>(ApplicationType)
+  nameWithType: ObjectExtensions.AssignByReflection<ApplicationType>(ApplicationType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ApplicationType>(SuperOffice.Data.ApplicationType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ApplicationType)(ApplicationType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ApplicationType)(SuperOffice.Data.ApplicationType)
+  name.vb: AssignByReflection(Of ApplicationType)(ApplicationType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ApplicationType>
+    nameWithType: ObjectExtensions.AssignByReflection<ApplicationType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ApplicationType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.ApplicationType
+    name: ApplicationType
+    nameWithType: ApplicationType
+    fullName: SuperOffice.Data.ApplicationType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ApplicationType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ApplicationType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ApplicationType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.ApplicationType
+    name: ApplicationType
+    nameWithType: ApplicationType
+    fullName: SuperOffice.Data.ApplicationType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ApplicationType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ApplicationType>()
+  nameWithType: ObjectExtensions.GraphCopy<ApplicationType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ApplicationType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ApplicationType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ApplicationType)()
+  name.vb: GraphCopy(Of ApplicationType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ApplicationType>
+    nameWithType: ObjectExtensions.GraphCopy<ApplicationType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ApplicationType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ApplicationType)
+    nameWithType: ObjectExtensions.GraphCopy(Of ApplicationType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ApplicationType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ApplicationType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ApplicationType, To>()
+  nameWithType: Converters.MapEnums<ApplicationType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ApplicationType, To>()
+  nameWithType.vb: Converters.MapEnums(Of ApplicationType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ApplicationType, To)()
+  name.vb: MapEnums(Of ApplicationType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ApplicationType, To>
+    nameWithType: Converters.MapEnums<ApplicationType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ApplicationType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ApplicationType, To)
+    nameWithType: Converters.MapEnums(Of ApplicationType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ApplicationType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.ApplicationType
+  commentId: T:SuperOffice.Data.ApplicationType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ApplicationType
+  nameWithType: ApplicationType
+  fullName: SuperOffice.Data.ApplicationType

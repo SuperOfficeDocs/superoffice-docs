@@ -1,0 +1,2430 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.TicketRecordData
+  commentId: T:SuperOffice.CRM.Rows.TicketRecordData
+  id: TicketRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.TicketRecordData.#ctor
+  - SuperOffice.CRM.Rows.TicketRecordData.Activate
+  - SuperOffice.CRM.Rows.TicketRecordData.AlertLevel
+  - SuperOffice.CRM.Rows.TicketRecordData.AlertStop
+  - SuperOffice.CRM.Rows.TicketRecordData.AlertTimeout
+  - SuperOffice.CRM.Rows.TicketRecordData.Author
+  - SuperOffice.CRM.Rows.TicketRecordData.Category
+  - SuperOffice.CRM.Rows.TicketRecordData.ClosedAt
+  - SuperOffice.CRM.Rows.TicketRecordData.ConnectId
+  - SuperOffice.CRM.Rows.TicketRecordData.ContactId
+  - SuperOffice.CRM.Rows.TicketRecordData.CreatedAt
+  - SuperOffice.CRM.Rows.TicketRecordData.CreatedBy
+  - SuperOffice.CRM.Rows.TicketRecordData.CustId
+  - SuperOffice.CRM.Rows.TicketRecordData.DbiAgentId
+  - SuperOffice.CRM.Rows.TicketRecordData.DbiKey
+  - SuperOffice.CRM.Rows.TicketRecordData.DbiLastModified
+  - SuperOffice.CRM.Rows.TicketRecordData.DbiLastSyncronized
+  - SuperOffice.CRM.Rows.TicketRecordData.Deadline
+  - SuperOffice.CRM.Rows.TicketRecordData.DisplayFilter
+  - SuperOffice.CRM.Rows.TicketRecordData.FilterAddress
+  - SuperOffice.CRM.Rows.TicketRecordData.FilterId
+  - SuperOffice.CRM.Rows.TicketRecordData.FirstReadByOwner
+  - SuperOffice.CRM.Rows.TicketRecordData.FirstReadByUser
+  - SuperOffice.CRM.Rows.TicketRecordData.FormSubmissionId
+  - SuperOffice.CRM.Rows.TicketRecordData.FromAddress
+  - SuperOffice.CRM.Rows.TicketRecordData.HasAttachment
+  - SuperOffice.CRM.Rows.TicketRecordData.LastChanged
+  - SuperOffice.CRM.Rows.TicketRecordData.NumMessages
+  - SuperOffice.CRM.Rows.TicketRecordData.NumReplies
+  - SuperOffice.CRM.Rows.TicketRecordData.OrigCategory
+  - SuperOffice.CRM.Rows.TicketRecordData.Origin
+  - SuperOffice.CRM.Rows.TicketRecordData.OrigPriority
+  - SuperOffice.CRM.Rows.TicketRecordData.OwnedBy
+  - SuperOffice.CRM.Rows.TicketRecordData.Priority
+  - SuperOffice.CRM.Rows.TicketRecordData.ReadByCustomer
+  - SuperOffice.CRM.Rows.TicketRecordData.ReadByOwner
+  - SuperOffice.CRM.Rows.TicketRecordData.ReadStatus
+  - SuperOffice.CRM.Rows.TicketRecordData.RealTimeSpentExternally
+  - SuperOffice.CRM.Rows.TicketRecordData.RealTimeSpentInternally
+  - SuperOffice.CRM.Rows.TicketRecordData.RealTimeSpentQueue
+  - SuperOffice.CRM.Rows.TicketRecordData.RealTimeToClose
+  - SuperOffice.CRM.Rows.TicketRecordData.RealTimeToReply
+  - SuperOffice.CRM.Rows.TicketRecordData.RepliedAt
+  - SuperOffice.CRM.Rows.TicketRecordData.Slevel
+  - SuperOffice.CRM.Rows.TicketRecordData.Status
+  - SuperOffice.CRM.Rows.TicketRecordData.Tags
+  - SuperOffice.CRM.Rows.TicketRecordData.TicketId
+  - SuperOffice.CRM.Rows.TicketRecordData.TicketStatus
+  - SuperOffice.CRM.Rows.TicketRecordData.TicketType
+  - SuperOffice.CRM.Rows.TicketRecordData.TimeSpentCalculated
+  - SuperOffice.CRM.Rows.TicketRecordData.TimeSpentExternally
+  - SuperOffice.CRM.Rows.TicketRecordData.TimeSpentInternally
+  - SuperOffice.CRM.Rows.TicketRecordData.TimeSpentQueue
+  - SuperOffice.CRM.Rows.TicketRecordData.TimeToClose
+  - SuperOffice.CRM.Rows.TicketRecordData.TimeToReply
+  - SuperOffice.CRM.Rows.TicketRecordData.Title
+  langs:
+  - csharp
+  - vb
+  name: TicketRecordData
+  nameWithType: TicketRecordData
+  fullName: SuperOffice.CRM.Rows.TicketRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the ticket table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.TicketRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.TicketTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class TicketRecordData
+    content.vb: Public Class TicketRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.TicketRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.TicketRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TicketRecordData)
+  - SuperOffice.CRM.Rows.TicketRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.TicketRecordData.SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.TicketRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.TicketRecordData.TicketId
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.TicketId
+  id: TicketId
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: TicketId
+  nameWithType: TicketRecordData.TicketId
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.TicketId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe primary key (auto-incremented) \n"
+  syntax:
+    content: public int TicketId
+    return:
+      type: System.Int32
+    content.vb: Public TicketId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.ConnectId
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.ConnectId
+  id: ConnectId
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: ConnectId
+  nameWithType: TicketRecordData.ConnectId
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.ConnectId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIf a ticket is connected to another ticket, this field is set to the id of the &apos;master&apos; ticket. \n"
+  syntax:
+    content: public int ConnectId
+    return:
+      type: System.Int32
+    content.vb: Public ConnectId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.Title
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.Title
+  id: Title
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: TicketRecordData.Title
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.Title
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe title of the ticket. \n"
+  syntax:
+    content: public string Title
+    return:
+      type: System.String
+    content.vb: Public Title As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.CreatedAt
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.CreatedAt
+  id: CreatedAt
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: CreatedAt
+  nameWithType: TicketRecordData.CreatedAt
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.CreatedAt
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen the ticket was created. \n"
+  syntax:
+    content: public DateTime CreatedAt
+    return:
+      type: System.DateTime
+    content.vb: Public CreatedAt As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.LastChanged
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.LastChanged
+  id: LastChanged
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: LastChanged
+  nameWithType: TicketRecordData.LastChanged
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.LastChanged
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe last time the ticket was modified. \n"
+  syntax:
+    content: public DateTime LastChanged
+    return:
+      type: System.DateTime
+    content.vb: Public LastChanged As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.Activate
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.Activate
+  id: Activate
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: Activate
+  nameWithType: TicketRecordData.Activate
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.Activate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen the ticket should be activated, if it is postponed. \n"
+  syntax:
+    content: public DateTime Activate
+    return:
+      type: System.DateTime
+    content.vb: Public Activate As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.ClosedAt
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.ClosedAt
+  id: ClosedAt
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: ClosedAt
+  nameWithType: TicketRecordData.ClosedAt
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.ClosedAt
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen the ticket was closed. \n"
+  syntax:
+    content: public DateTime ClosedAt
+    return:
+      type: System.DateTime
+    content.vb: Public ClosedAt As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.CreatedBy
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: TicketRecordData.CreatedBy
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.CreatedBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe id of the user who created the ticket. 1 (system user) if the ticket was created externally \n"
+  syntax:
+    content: public int CreatedBy
+    return:
+      type: System.Int32
+    content.vb: Public CreatedBy As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.Author
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.Author
+  id: Author
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: Author
+  nameWithType: TicketRecordData.Author
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.Author
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nA string representing the author of the ticket (same as author of first message). \n"
+  syntax:
+    content: public string Author
+    return:
+      type: System.String
+    content.vb: Public Author As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.OwnedBy
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.OwnedBy
+  id: OwnedBy
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: OwnedBy
+  nameWithType: TicketRecordData.OwnedBy
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.OwnedBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe id of the user who owns the ticket. 1 (system user) if the ticket is unassigned. \n"
+  syntax:
+    content: public int OwnedBy
+    return:
+      type: System.Int32
+    content.vb: Public OwnedBy As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.Category
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.Category
+  id: Category
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: Category
+  nameWithType: TicketRecordData.Category
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.Category
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe id of the category a ticket is in. \n"
+  syntax:
+    content: public int Category
+    return:
+      type: System.Int32
+    content.vb: Public Category As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.OrigCategory
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.OrigCategory
+  id: OrigCategory
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: OrigCategory
+  nameWithType: TicketRecordData.OrigCategory
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.OrigCategory
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe id of the category the ticket was posted to. \n"
+  syntax:
+    content: public int OrigCategory
+    return:
+      type: System.Int32
+    content.vb: Public OrigCategory As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.Slevel
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.Slevel
+  id: Slevel
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: Slevel
+  nameWithType: TicketRecordData.Slevel
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.Slevel
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe securitylevel of the ticket. \n"
+  syntax:
+    content: public TicketSecurityLevel Slevel
+    return:
+      type: SuperOffice.Data.TicketSecurityLevel
+    content.vb: Public Slevel As TicketSecurityLevel
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.Status
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.Status
+  id: Status
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: TicketRecordData.Status
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.Status
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe status of the ticket. I.e. active/closed/postponed/deleted \n"
+  syntax:
+    content: public TicketBaseStatus Status
+    return:
+      type: SuperOffice.Data.TicketBaseStatus
+    content.vb: Public Status As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.TicketStatus
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.TicketStatus
+  id: TicketStatus
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: TicketStatus
+  nameWithType: TicketRecordData.TicketStatus
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.TicketStatus
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nUser defined ticket status \n"
+  syntax:
+    content: public int TicketStatus
+    return:
+      type: System.Int32
+    content.vb: Public TicketStatus As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.CustId
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.CustId
+  id: CustId
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: CustId
+  nameWithType: TicketRecordData.CustId
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.CustId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe reference to the customer. NULL or -1 if ticket is not connected to customer. \n"
+  syntax:
+    content: public int CustId
+    return:
+      type: System.Int32
+    content.vb: Public CustId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.Priority
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.Priority
+  id: Priority
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: TicketRecordData.Priority
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.Priority
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe reference to the ticket_priority table. \n"
+  syntax:
+    content: public int Priority
+    return:
+      type: System.Int32
+    content.vb: Public Priority As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.OrigPriority
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.OrigPriority
+  id: OrigPriority
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: OrigPriority
+  nameWithType: TicketRecordData.OrigPriority
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.OrigPriority
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe reference to the initial priority for the ticket. \n"
+  syntax:
+    content: public int OrigPriority
+    return:
+      type: System.Int32
+    content.vb: Public OrigPriority As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.AlertLevel
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.AlertLevel
+  id: AlertLevel
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: AlertLevel
+  nameWithType: TicketRecordData.AlertLevel
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.AlertLevel
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe alert level for the ticket. Matches the level value of the ticket_alert table. \n"
+  syntax:
+    content: public short AlertLevel
+    return:
+      type: System.Int16
+    content.vb: Public AlertLevel As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.AlertTimeout
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.AlertTimeout
+  id: AlertTimeout
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: AlertTimeout
+  nameWithType: TicketRecordData.AlertTimeout
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.AlertTimeout
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe datetime for when the ticket should jump to the next alert_level. \n"
+  syntax:
+    content: public DateTime AlertTimeout
+    return:
+      type: System.DateTime
+    content.vb: Public AlertTimeout As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.AlertStop
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.AlertStop
+  id: AlertStop
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: AlertStop
+  nameWithType: TicketRecordData.AlertStop
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.AlertStop
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIf the esclatation was stopped, this fields indicates how many seconds left before the next escalation level. -1 if escalation is running. \n"
+  syntax:
+    content: public int AlertStop
+    return:
+      type: System.Int32
+    content.vb: Public AlertStop As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.ReadByOwner
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.ReadByOwner
+  id: ReadByOwner
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: ReadByOwner
+  nameWithType: TicketRecordData.ReadByOwner
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.ReadByOwner
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe datetime for when the ticket last was read by the owner. \n"
+  syntax:
+    content: public DateTime ReadByOwner
+    return:
+      type: System.DateTime
+    content.vb: Public ReadByOwner As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.FirstReadByOwner
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.FirstReadByOwner
+  id: FirstReadByOwner
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: FirstReadByOwner
+  nameWithType: TicketRecordData.FirstReadByOwner
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.FirstReadByOwner
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe datetime for when the ticket first was read by the current owner. \n"
+  syntax:
+    content: public DateTime FirstReadByOwner
+    return:
+      type: System.DateTime
+    content.vb: Public FirstReadByOwner As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.FirstReadByUser
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.FirstReadByUser
+  id: FirstReadByUser
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: FirstReadByUser
+  nameWithType: TicketRecordData.FirstReadByUser
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.FirstReadByUser
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe datetime for when the ticket first was read by a user. \n"
+  syntax:
+    content: public DateTime FirstReadByUser
+    return:
+      type: System.DateTime
+    content.vb: Public FirstReadByUser As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.ReadByCustomer
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.ReadByCustomer
+  id: ReadByCustomer
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: ReadByCustomer
+  nameWithType: TicketRecordData.ReadByCustomer
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.ReadByCustomer
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe datetime for when the ticket was read by the customer. \n"
+  syntax:
+    content: public DateTime ReadByCustomer
+    return:
+      type: System.DateTime
+    content.vb: Public ReadByCustomer As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.FilterId
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.FilterId
+  id: FilterId
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: FilterId
+  nameWithType: TicketRecordData.FilterId
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.FilterId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe reference to the mailbox from which the ticket was created. NULL or -1 if the ticket was not created by a mailbox. \n"
+  syntax:
+    content: public int FilterId
+    return:
+      type: System.Int32
+    content.vb: Public FilterId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.DisplayFilter
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.DisplayFilter
+  id: DisplayFilter
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: DisplayFilter
+  nameWithType: TicketRecordData.DisplayFilter
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.DisplayFilter
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe name of the mailbox from which the ticket was created. Only for displaypurposes \n"
+  syntax:
+    content: public string DisplayFilter
+    return:
+      type: System.String
+    content.vb: Public DisplayFilter As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.RepliedAt
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.RepliedAt
+  id: RepliedAt
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: RepliedAt
+  nameWithType: TicketRecordData.RepliedAt
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.RepliedAt
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe datetime for when the ticket was replied to. I.e. the first external message added to the ticket. \n"
+  syntax:
+    content: public DateTime RepliedAt
+    return:
+      type: System.DateTime
+    content.vb: Public RepliedAt As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.TimeToReply
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.TimeToReply
+  id: TimeToReply
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: TimeToReply
+  nameWithType: TicketRecordData.TimeToReply
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.TimeToReply
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe time (minutes) between when the ticket was created and when it was replied to. Calculated based on priority&apos;s timeframe. \n"
+  syntax:
+    content: public int TimeToReply
+    return:
+      type: System.Int32
+    content.vb: Public TimeToReply As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.TimeToClose
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.TimeToClose
+  id: TimeToClose
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: TimeToClose
+  nameWithType: TicketRecordData.TimeToClose
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.TimeToClose
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe time (minutes) between when the ticket was created and when it was closed. Calculated based on priority&apos;s timeframe. \n"
+  syntax:
+    content: public int TimeToClose
+    return:
+      type: System.Int32
+    content.vb: Public TimeToClose As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.RealTimeToReply
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.RealTimeToReply
+  id: RealTimeToReply
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: RealTimeToReply
+  nameWithType: TicketRecordData.RealTimeToReply
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.RealTimeToReply
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSame as time_to_reply, but not calculated based on priority. \n"
+  syntax:
+    content: public int RealTimeToReply
+    return:
+      type: System.Int32
+    content.vb: Public RealTimeToReply As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.RealTimeToClose
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.RealTimeToClose
+  id: RealTimeToClose
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: RealTimeToClose
+  nameWithType: TicketRecordData.RealTimeToClose
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.RealTimeToClose
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSame as time_to_close, but not calculated based on priority. \n"
+  syntax:
+    content: public int RealTimeToClose
+    return:
+      type: System.Int32
+    content.vb: Public RealTimeToClose As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.ReadStatus
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.ReadStatus
+  id: ReadStatus
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: ReadStatus
+  nameWithType: TicketRecordData.ReadStatus
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.ReadStatus
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhether the owner has read the ticket or not (red, yellow, green). \n"
+  syntax:
+    content: public TicketReadStatus ReadStatus
+    return:
+      type: SuperOffice.Data.TicketReadStatus
+    content.vb: Public ReadStatus As TicketReadStatus
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.HasAttachment
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.HasAttachment
+  id: HasAttachment
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: HasAttachment
+  nameWithType: TicketRecordData.HasAttachment
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.HasAttachment
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nBoolean indicating if this ticket has one or more attachments. \n"
+  syntax:
+    content: public short HasAttachment
+    return:
+      type: System.Int16
+    content.vb: Public HasAttachment As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.Deadline
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.Deadline
+  id: Deadline
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: Deadline
+  nameWithType: TicketRecordData.Deadline
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.Deadline
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDeadline for ticket. \n"
+  syntax:
+    content: public DateTime Deadline
+    return:
+      type: System.DateTime
+    content.vb: Public Deadline As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.FilterAddress
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.FilterAddress
+  id: FilterAddress
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: FilterAddress
+  nameWithType: TicketRecordData.FilterAddress
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.FilterAddress
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nAddress of receiving filter (mail box) \n"
+  syntax:
+    content: public string FilterAddress
+    return:
+      type: System.String
+    content.vb: Public FilterAddress As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.DbiAgentId
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.DbiAgentId
+  id: DbiAgentId
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: DbiAgentId
+  nameWithType: TicketRecordData.DbiAgentId
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.DbiAgentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIntegration agent (eJournal) \n"
+  syntax:
+    content: public int DbiAgentId
+    return:
+      type: System.Int32
+    content.vb: Public DbiAgentId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.DbiKey
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.DbiKey
+  id: DbiKey
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: DbiKey
+  nameWithType: TicketRecordData.DbiKey
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.DbiKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe primary key for the integrated entry in the external datasource. \n"
+  syntax:
+    content: public string DbiKey
+    return:
+      type: System.String
+    content.vb: Public DbiKey As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.DbiLastSyncronized
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.DbiLastSyncronized
+  id: DbiLastSyncronized
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: DbiLastSyncronized
+  nameWithType: TicketRecordData.DbiLastSyncronized
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.DbiLastSyncronized
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast external synchronization. \n"
+  syntax:
+    content: public DateTime DbiLastSyncronized
+    return:
+      type: System.DateTime
+    content.vb: Public DbiLastSyncronized As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.DbiLastModified
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.DbiLastModified
+  id: DbiLastModified
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: DbiLastModified
+  nameWithType: TicketRecordData.DbiLastModified
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.DbiLastModified
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen the entry was last modified. \n"
+  syntax:
+    content: public DateTime DbiLastModified
+    return:
+      type: System.DateTime
+    content.vb: Public DbiLastModified As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.Origin
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.Origin
+  id: Origin
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: Origin
+  nameWithType: TicketRecordData.Origin
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.Origin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhat is the origin of this ticket \n"
+  syntax:
+    content: public TicketOrigin Origin
+    return:
+      type: SuperOffice.Data.TicketOrigin
+    content.vb: Public Origin As TicketOrigin
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.TimeSpentInternally
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.TimeSpentInternally
+  id: TimeSpentInternally
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: TimeSpentInternally
+  nameWithType: TicketRecordData.TimeSpentInternally
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.TimeSpentInternally
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe total time (seconds) within the priority&apos;s office hours the ticket has been in an open status (configurable), not including current state \n"
+  syntax:
+    content: public int TimeSpentInternally
+    return:
+      type: System.Int32
+    content.vb: Public TimeSpentInternally As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.TimeSpentExternally
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.TimeSpentExternally
+  id: TimeSpentExternally
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: TimeSpentExternally
+  nameWithType: TicketRecordData.TimeSpentExternally
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.TimeSpentExternally
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe total time (seconds) within the priority&apos;s office hours the ticket has been in a external waiting status (configurable), not including current state \n"
+  syntax:
+    content: public int TimeSpentExternally
+    return:
+      type: System.Int32
+    content.vb: Public TimeSpentExternally As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.TimeSpentQueue
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.TimeSpentQueue
+  id: TimeSpentQueue
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: TimeSpentQueue
+  nameWithType: TicketRecordData.TimeSpentQueue
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.TimeSpentQueue
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe total time (seconds) within the priority&apos;s office hours the ticket has been in a queue status, not including current state \n"
+  syntax:
+    content: public int TimeSpentQueue
+    return:
+      type: System.Int32
+    content.vb: Public TimeSpentQueue As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.RealTimeSpentInternally
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.RealTimeSpentInternally
+  id: RealTimeSpentInternally
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: RealTimeSpentInternally
+  nameWithType: TicketRecordData.RealTimeSpentInternally
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.RealTimeSpentInternally
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe total time (seconds) within 24x7 the ticket has been in an open status (configurable), not including current state \n"
+  syntax:
+    content: public int RealTimeSpentInternally
+    return:
+      type: System.Int32
+    content.vb: Public RealTimeSpentInternally As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.RealTimeSpentExternally
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.RealTimeSpentExternally
+  id: RealTimeSpentExternally
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: RealTimeSpentExternally
+  nameWithType: TicketRecordData.RealTimeSpentExternally
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.RealTimeSpentExternally
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe total time (seconds) within 24x7 the ticket has been in a external waiting status (configurable), not including current state \n"
+  syntax:
+    content: public int RealTimeSpentExternally
+    return:
+      type: System.Int32
+    content.vb: Public RealTimeSpentExternally As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.RealTimeSpentQueue
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.RealTimeSpentQueue
+  id: RealTimeSpentQueue
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: RealTimeSpentQueue
+  nameWithType: TicketRecordData.RealTimeSpentQueue
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.RealTimeSpentQueue
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe total time (seconds) within 24x7 hours the ticket has been in a queue status, not including current state \n"
+  syntax:
+    content: public int RealTimeSpentQueue
+    return:
+      type: System.Int32
+    content.vb: Public RealTimeSpentQueue As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.TimeSpentCalculated
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.TimeSpentCalculated
+  id: TimeSpentCalculated
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: TimeSpentCalculated
+  nameWithType: TicketRecordData.TimeSpentCalculated
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.TimeSpentCalculated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen the time_spent value was last calculated. \n"
+  syntax:
+    content: public DateTime TimeSpentCalculated
+    return:
+      type: System.DateTime
+    content.vb: Public TimeSpentCalculated As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.NumReplies
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.NumReplies
+  id: NumReplies
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: NumReplies
+  nameWithType: TicketRecordData.NumReplies
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.NumReplies
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe number of replies (messages) to the customer for this request. \n"
+  syntax:
+    content: public int NumReplies
+    return:
+      type: System.Int32
+    content.vb: Public NumReplies As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.NumMessages
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.NumMessages
+  id: NumMessages
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: NumMessages
+  nameWithType: TicketRecordData.NumMessages
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.NumMessages
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe total number of messages for this request. \n"
+  syntax:
+    content: public int NumMessages
+    return:
+      type: System.Int32
+    content.vb: Public NumMessages As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.TicketType
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.TicketType
+  id: TicketType
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: TicketType
+  nameWithType: TicketRecordData.TicketType
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.TicketType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTicket type \n"
+  syntax:
+    content: public int TicketType
+    return:
+      type: System.Int32
+    content.vb: Public TicketType As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.FromAddress
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.FromAddress
+  id: FromAddress
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: FromAddress
+  nameWithType: TicketRecordData.FromAddress
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.FromAddress
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe from-address used when this ticket got created, e.g. by email \n"
+  syntax:
+    content: public string FromAddress
+    return:
+      type: System.String
+    content.vb: Public FromAddress As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.Tags
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.Tags
+  id: Tags
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: Tags
+  nameWithType: TicketRecordData.Tags
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.Tags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nArray of references to the Tags records \n"
+  syntax:
+    content: public int[] Tags
+    return:
+      type: System.Int32[]
+    content.vb: Public Tags As Integer()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.ContactId
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: TicketRecordData.ContactId
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.ContactId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe company of the person in the cust_id field, if that person belongs to a company \n"
+  syntax:
+    content: public int ContactId
+    return:
+      type: System.Int32
+    content.vb: Public ContactId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.FormSubmissionId
+  commentId: F:SuperOffice.CRM.Rows.TicketRecordData.FormSubmissionId
+  id: FormSubmissionId
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: FormSubmissionId
+  nameWithType: TicketRecordData.FormSubmissionId
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.FormSubmissionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIf this ticket was created from a form submission, this field will point to that record \n"
+  syntax:
+    content: public int FormSubmissionId
+    return:
+      type: System.Int32
+    content.vb: Public FormSubmissionId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TicketRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.TicketRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.TicketRecordData
+  langs:
+  - csharp
+  - vb
+  name: TicketRecordData()
+  nameWithType: TicketRecordData.TicketRecordData()
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.TicketRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public TicketRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.TicketRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TicketRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TicketRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<TicketRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.TicketRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TicketRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.TicketRecordData, To)()
+  name.vb: MapEnums(Of TicketRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TicketRecordData, To>
+    nameWithType: EnumUtil.MapEnums<TicketRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.TicketRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TicketRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of TicketRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.TicketRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TicketRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TicketRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<TicketRecordData>(TicketRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<TicketRecordData>(TicketRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.TicketRecordData>(SuperOffice.CRM.Rows.TicketRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TicketRecordData)(TicketRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.TicketRecordData)(SuperOffice.CRM.Rows.TicketRecordData)
+  name.vb: AssignByReflection(Of TicketRecordData)(TicketRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<TicketRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<TicketRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.TicketRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TicketRecordData
+    name: TicketRecordData
+    nameWithType: TicketRecordData
+    fullName: SuperOffice.CRM.Rows.TicketRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of TicketRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of TicketRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.TicketRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TicketRecordData
+    name: TicketRecordData
+    nameWithType: TicketRecordData
+    fullName: SuperOffice.CRM.Rows.TicketRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TicketRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<TicketRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<TicketRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.TicketRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TicketRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.TicketRecordData)()
+  name.vb: GraphCopy(Of TicketRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<TicketRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<TicketRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.TicketRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of TicketRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of TicketRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.TicketRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TicketRecordData.SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketRecordData)
+  parent: SuperOffice.CRM.Rows.TicketRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketRecordData)
+  name: ToInsert()
+  nameWithType: TicketRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: TicketRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: TicketRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TicketRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TicketRecordData, To>()
+  nameWithType: Converters.MapEnums<TicketRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.TicketRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of TicketRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.TicketRecordData, To)()
+  name.vb: MapEnums(Of TicketRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TicketRecordData, To>
+    nameWithType: Converters.MapEnums<TicketRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.TicketRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TicketRecordData, To)
+    nameWithType: Converters.MapEnums(Of TicketRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.TicketRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketRecordData)
+  commentId: M:SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketRecordData)
+  isExternal: true
+  name: ToInsert(TicketRecordData)
+  nameWithType: TicketRecordDataExtensions.ToInsert(TicketRecordData)
+  fullName: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketRecordData)
+    name: ToInsert
+    nameWithType: TicketRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TicketRecordData
+    name: TicketRecordData
+    nameWithType: TicketRecordData
+    fullName: SuperOffice.CRM.Rows.TicketRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketRecordData)
+    name: ToInsert
+    nameWithType: TicketRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TicketRecordData
+    name: TicketRecordData
+    nameWithType: TicketRecordData
+    fullName: SuperOffice.CRM.Rows.TicketRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TicketRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.TicketRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TicketRecordDataExtensions
+  nameWithType: TicketRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.TicketRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.Data.TicketSecurityLevel
+  commentId: T:SuperOffice.Data.TicketSecurityLevel
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TicketSecurityLevel
+  nameWithType: TicketSecurityLevel
+  fullName: SuperOffice.Data.TicketSecurityLevel
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.TicketBaseStatus
+  commentId: T:SuperOffice.Data.TicketBaseStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TicketBaseStatus
+  nameWithType: TicketBaseStatus
+  fullName: SuperOffice.Data.TicketBaseStatus
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.Data.TicketReadStatus
+  commentId: T:SuperOffice.Data.TicketReadStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TicketReadStatus
+  nameWithType: TicketReadStatus
+  fullName: SuperOffice.Data.TicketReadStatus
+- uid: SuperOffice.Data.TicketOrigin
+  commentId: T:SuperOffice.Data.TicketOrigin
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TicketOrigin
+  nameWithType: TicketOrigin
+  fullName: SuperOffice.Data.TicketOrigin
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Rows.TicketRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.TicketRecordData.#ctor
+  isExternal: true
+  name: TicketRecordData
+  nameWithType: TicketRecordData.TicketRecordData
+  fullName: SuperOffice.CRM.Rows.TicketRecordData.TicketRecordData

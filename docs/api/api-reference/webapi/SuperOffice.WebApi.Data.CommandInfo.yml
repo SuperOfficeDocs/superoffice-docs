@@ -1,0 +1,432 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CommandInfo
+  commentId: T:SuperOffice.WebApi.Data.CommandInfo
+  id: CommandInfo
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CommandInfo.#ctor
+  - SuperOffice.WebApi.Data.CommandInfo.DisplayName
+  - SuperOffice.WebApi.Data.CommandInfo.DisplayTooltip
+  - SuperOffice.WebApi.Data.CommandInfo.IconHint
+  - SuperOffice.WebApi.Data.CommandInfo.Name
+  - SuperOffice.WebApi.Data.CommandInfo.ReturnType
+  - SuperOffice.WebApi.Data.CommandInfo.ReturnType_String
+  langs:
+  - csharp
+  - vb
+  name: CommandInfo
+  nameWithType: CommandInfo
+  fullName: SuperOffice.WebApi.Data.CommandInfo
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for CommandInfo.\nAn instance of this class describes a custom command, declared and implemented by a document plugin    \n"
+  syntax:
+    content: 'public class CommandInfo : Object'
+    content.vb: >-
+      Public Class CommandInfo
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DocumentAgent
+    commentId: T:SuperOffice.WebApi.Agents.DocumentAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CommandInfo.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CommandInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CommandInfo
+  langs:
+  - csharp
+  - vb
+  name: CommandInfo()
+  nameWithType: CommandInfo.CommandInfo()
+  fullName: SuperOffice.WebApi.Data.CommandInfo.CommandInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public CommandInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CommandInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CommandInfo.Name
+  commentId: P:SuperOffice.WebApi.Data.CommandInfo.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.CommandInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: CommandInfo.Name
+  fullName: SuperOffice.WebApi.Data.CommandInfo.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe programmatic name of the command, uniquely identifying this command for the document plugin.\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.CommandInfo.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CommandInfo.DisplayName
+  commentId: P:SuperOffice.WebApi.Data.CommandInfo.DisplayName
+  id: DisplayName
+  parent: SuperOffice.WebApi.Data.CommandInfo
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: CommandInfo.DisplayName
+  fullName: SuperOffice.WebApi.Data.CommandInfo.DisplayName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDisplay name, shown in menus, command lists and similar GUI elements.\n"
+  syntax:
+    content: public virtual string DisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayName As String
+  overload: SuperOffice.WebApi.Data.CommandInfo.DisplayName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CommandInfo.DisplayTooltip
+  commentId: P:SuperOffice.WebApi.Data.CommandInfo.DisplayTooltip
+  id: DisplayTooltip
+  parent: SuperOffice.WebApi.Data.CommandInfo
+  langs:
+  - csharp
+  - vb
+  name: DisplayTooltip
+  nameWithType: CommandInfo.DisplayTooltip
+  fullName: SuperOffice.WebApi.Data.CommandInfo.DisplayTooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTooltip string associate with the command - can be a literal or a tooltip hint.\n"
+  syntax:
+    content: public virtual string DisplayTooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayTooltip As String
+  overload: SuperOffice.WebApi.Data.CommandInfo.DisplayTooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CommandInfo.IconHint
+  commentId: P:SuperOffice.WebApi.Data.CommandInfo.IconHint
+  id: IconHint
+  parent: SuperOffice.WebApi.Data.CommandInfo
+  langs:
+  - csharp
+  - vb
+  name: IconHint
+  nameWithType: CommandInfo.IconHint
+  fullName: SuperOffice.WebApi.Data.CommandInfo.IconHint
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIcon hint, which should resolve to an icon that is compatible in size with a standard menu or dropdown list font. May be blank.\n"
+  syntax:
+    content: public virtual string IconHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property IconHint As String
+  overload: SuperOffice.WebApi.Data.CommandInfo.IconHint*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CommandInfo.ReturnType_String
+  commentId: P:SuperOffice.WebApi.Data.CommandInfo.ReturnType_String
+  id: ReturnType_String
+  parent: SuperOffice.WebApi.Data.CommandInfo
+  langs:
+  - csharp
+  - vb
+  name: ReturnType_String
+  nameWithType: CommandInfo.ReturnType_String
+  fullName: SuperOffice.WebApi.Data.CommandInfo.ReturnType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDeclaration of what kind of return type the execution of this command will give.\nRaw string enum value.\n"
+  syntax:
+    content: public string ReturnType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ReturnType_String As String
+  overload: SuperOffice.WebApi.Data.CommandInfo.ReturnType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.CommandInfo.ReturnType
+    commentId: P:SuperOffice.WebApi.Data.CommandInfo.ReturnType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CommandInfo.ReturnType
+  commentId: P:SuperOffice.WebApi.Data.CommandInfo.ReturnType
+  id: ReturnType
+  parent: SuperOffice.WebApi.Data.CommandInfo
+  langs:
+  - csharp
+  - vb
+  name: ReturnType
+  nameWithType: CommandInfo.ReturnType
+  fullName: SuperOffice.WebApi.Data.CommandInfo.ReturnType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDeclaration of what kind of return type the execution of this command will give.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ReturnType> ReturnType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ReturnType}
+    content.vb: Public Property ReturnType As Nullable(Of ReturnType)
+  overload: SuperOffice.WebApi.Data.CommandInfo.ReturnType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.CommandInfo.ReturnType_String
+    commentId: P:SuperOffice.WebApi.Data.CommandInfo.ReturnType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.DocumentAgent
+  commentId: T:SuperOffice.WebApi.Agents.DocumentAgent
+  isExternal: true
+  name: DocumentAgent
+  nameWithType: DocumentAgent
+  fullName: SuperOffice.WebApi.Agents.DocumentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CommandInfo.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CommandInfo.#ctor
+  isExternal: true
+  name: CommandInfo
+  nameWithType: CommandInfo.CommandInfo
+  fullName: SuperOffice.WebApi.Data.CommandInfo.CommandInfo
+- uid: SuperOffice.WebApi.Data.CommandInfo.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.CommandInfo.Name
+  isExternal: true
+  name: Name
+  nameWithType: CommandInfo.Name
+  fullName: SuperOffice.WebApi.Data.CommandInfo.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.CommandInfo.DisplayName*
+  commentId: Overload:SuperOffice.WebApi.Data.CommandInfo.DisplayName
+  isExternal: true
+  name: DisplayName
+  nameWithType: CommandInfo.DisplayName
+  fullName: SuperOffice.WebApi.Data.CommandInfo.DisplayName
+- uid: SuperOffice.WebApi.Data.CommandInfo.DisplayTooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.CommandInfo.DisplayTooltip
+  isExternal: true
+  name: DisplayTooltip
+  nameWithType: CommandInfo.DisplayTooltip
+  fullName: SuperOffice.WebApi.Data.CommandInfo.DisplayTooltip
+- uid: SuperOffice.WebApi.Data.CommandInfo.IconHint*
+  commentId: Overload:SuperOffice.WebApi.Data.CommandInfo.IconHint
+  isExternal: true
+  name: IconHint
+  nameWithType: CommandInfo.IconHint
+  fullName: SuperOffice.WebApi.Data.CommandInfo.IconHint
+- uid: SuperOffice.WebApi.Data.CommandInfo.ReturnType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.CommandInfo.ReturnType_String
+  isExternal: true
+  name: ReturnType_String
+  nameWithType: CommandInfo.ReturnType_String
+  fullName: SuperOffice.WebApi.Data.CommandInfo.ReturnType_String
+- uid: SuperOffice.WebApi.Data.CommandInfo.ReturnType
+  commentId: P:SuperOffice.WebApi.Data.CommandInfo.ReturnType
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.CommandInfo.ReturnType*
+  commentId: Overload:SuperOffice.WebApi.Data.CommandInfo.ReturnType
+  isExternal: true
+  name: ReturnType
+  nameWithType: CommandInfo.ReturnType
+  fullName: SuperOffice.WebApi.Data.CommandInfo.ReturnType
+- uid: SuperOffice.WebApi.Data.CommandInfo.ReturnType_String
+  commentId: P:SuperOffice.WebApi.Data.CommandInfo.ReturnType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ReturnType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ReturnType}'
+  definition: System.Nullable`1
+  name: Nullable<ReturnType>
+  nameWithType: Nullable<ReturnType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ReturnType>
+  nameWithType.vb: Nullable(Of ReturnType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ReturnType)
+  name.vb: Nullable(Of ReturnType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ReturnType
+    name: ReturnType
+    nameWithType: ReturnType
+    fullName: SuperOffice.WebApi.Data.ReturnType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ReturnType
+    name: ReturnType
+    nameWithType: ReturnType
+    fullName: SuperOffice.WebApi.Data.ReturnType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

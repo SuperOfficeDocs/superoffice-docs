@@ -1,0 +1,557 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields
+  id: DBC.TicketStatusHistoryFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.FromDatetime
+  - SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.RealTimespan
+  - SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.TicketId
+  - SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.TicketStatus
+  - SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.TicketStatusHistoryId
+  - SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.Timespan
+  - SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.ToDatetime
+  langs:
+  - csharp
+  - vb
+  name: DBC.TicketStatusHistoryFields
+  nameWithType: DBC.TicketStatusHistoryFields
+  fullName: SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for TicketStatusHistory, This table contains the history of a tickets statuses. Each time a ticket changes status a copy of the previous status of the record will be saved \n"
+  syntax:
+    content: public static class TicketStatusHistoryFields
+    content.vb: Public Module TicketStatusHistoryFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.TicketStatusHistoryId
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.TicketStatusHistoryId
+  id: TicketStatusHistoryId
+  parent: SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields
+  langs:
+  - csharp
+  - vb
+  name: TicketStatusHistoryId
+  nameWithType: DBC.TicketStatusHistoryFields.TicketStatusHistoryId
+  fullName: SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.TicketStatusHistoryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketStatusHistory.TicketStatusHistoryId: The primary key (auto-incremented)\n"
+  syntax:
+    content: public const string TicketStatusHistoryId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const TicketStatusHistoryId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.TicketId
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.TicketId
+  id: TicketId
+  parent: SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields
+  langs:
+  - csharp
+  - vb
+  name: TicketId
+  nameWithType: DBC.TicketStatusHistoryFields.TicketId
+  fullName: SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.TicketId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketStatusHistory.TicketId: Reference to a ticket\n"
+  syntax:
+    content: public const string TicketId = "ticket_id"
+    return:
+      type: System.String
+    content.vb: Public Const TicketId As String = "ticket_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.TicketStatus
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.TicketStatus
+  id: TicketStatus
+  parent: SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields
+  langs:
+  - csharp
+  - vb
+  name: TicketStatus
+  nameWithType: DBC.TicketStatusHistoryFields.TicketStatus
+  fullName: SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.TicketStatus
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketStatusHistory.TicketStatus: User defined ticket status\n"
+  syntax:
+    content: public const string TicketStatus = "ticket_status"
+    return:
+      type: System.String
+    content.vb: Public Const TicketStatus As String = "ticket_status"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.Timespan
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.Timespan
+  id: Timespan
+  parent: SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields
+  langs:
+  - csharp
+  - vb
+  name: Timespan
+  nameWithType: DBC.TicketStatusHistoryFields.Timespan
+  fullName: SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.Timespan
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketStatusHistory.Timespan: The time (seconds) the ticket was in that status. Calculated based on priority&apos;s timeframe.\n"
+  syntax:
+    content: public const string Timespan = "timespan"
+    return:
+      type: System.String
+    content.vb: Public Const Timespan As String = "timespan"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.RealTimespan
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.RealTimespan
+  id: RealTimespan
+  parent: SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields
+  langs:
+  - csharp
+  - vb
+  name: RealTimespan
+  nameWithType: DBC.TicketStatusHistoryFields.RealTimespan
+  fullName: SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.RealTimespan
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketStatusHistory.RealTimespan: The time (seconds) the ticket was in that status. Not calculated based on priority&apos;s timeframe.\n"
+  syntax:
+    content: public const string RealTimespan = "real_timespan"
+    return:
+      type: System.String
+    content.vb: Public Const RealTimespan As String = "real_timespan"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.FromDatetime
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.FromDatetime
+  id: FromDatetime
+  parent: SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields
+  langs:
+  - csharp
+  - vb
+  name: FromDatetime
+  nameWithType: DBC.TicketStatusHistoryFields.FromDatetime
+  fullName: SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.FromDatetime
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketStatusHistory.FromDatetime: \n"
+  syntax:
+    content: public const string FromDatetime = "from_datetime"
+    return:
+      type: System.String
+    content.vb: Public Const FromDatetime As String = "from_datetime"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.ToDatetime
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.ToDatetime
+  id: ToDatetime
+  parent: SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields
+  langs:
+  - csharp
+  - vb
+  name: ToDatetime
+  nameWithType: DBC.TicketStatusHistoryFields.ToDatetime
+  fullName: SuperOffice.CRM.Data.DBC.TicketStatusHistoryFields.ToDatetime
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicketStatusHistory.ToDatetime: \n"
+  syntax:
+    content: public const string ToDatetime = "to_datetime"
+    return:
+      type: System.String
+    content.vb: Public Const ToDatetime As String = "to_datetime"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

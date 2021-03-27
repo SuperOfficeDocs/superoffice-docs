@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.ServerEventContext
+  commentId: T:SuperOffice.DCF.Web.ServerEventContext
+  id: ServerEventContext
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.ServerEventContext.Ajax
+  - SuperOffice.DCF.Web.ServerEventContext.Get
+  - SuperOffice.DCF.Web.ServerEventContext.Post
+  langs:
+  - csharp
+  - vb
+  name: ServerEventContext
+  nameWithType: ServerEventContext
+  fullName: SuperOffice.DCF.Web.ServerEventContext
+  type: Enum
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public enum ServerEventContext
+    content.vb: Public Enum ServerEventContext
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.DCF.Web.ServerEventContext.Get
+  commentId: F:SuperOffice.DCF.Web.ServerEventContext.Get
+  id: Get
+  parent: SuperOffice.DCF.Web.ServerEventContext
+  langs:
+  - csharp
+  - vb
+  name: Get
+  nameWithType: ServerEventContext.Get
+  fullName: SuperOffice.DCF.Web.ServerEventContext.Get
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: Get = 0
+    return:
+      type: SuperOffice.DCF.Web.ServerEventContext
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ServerEventContext.Post
+  commentId: F:SuperOffice.DCF.Web.ServerEventContext.Post
+  id: Post
+  parent: SuperOffice.DCF.Web.ServerEventContext
+  langs:
+  - csharp
+  - vb
+  name: Post
+  nameWithType: ServerEventContext.Post
+  fullName: SuperOffice.DCF.Web.ServerEventContext.Post
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: Post = 1
+    return:
+      type: SuperOffice.DCF.Web.ServerEventContext
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ServerEventContext.Ajax
+  commentId: F:SuperOffice.DCF.Web.ServerEventContext.Ajax
+  id: Ajax
+  parent: SuperOffice.DCF.Web.ServerEventContext
+  langs:
+  - csharp
+  - vb
+  name: Ajax
+  nameWithType: ServerEventContext.Ajax
+  fullName: SuperOffice.DCF.Web.ServerEventContext.Ajax
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: Ajax = 2
+    return:
+      type: SuperOffice.DCF.Web.ServerEventContext
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: SuperOffice.DCF.Web.ServerEventContext
+  commentId: T:SuperOffice.DCF.Web.ServerEventContext
+  parent: SuperOffice.DCF.Web
+  isExternal: true
+  name: ServerEventContext
+  nameWithType: ServerEventContext
+  fullName: SuperOffice.DCF.Web.ServerEventContext

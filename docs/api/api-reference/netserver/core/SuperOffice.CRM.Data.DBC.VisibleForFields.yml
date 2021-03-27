@@ -1,0 +1,827 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.VisibleForFields
+  commentId: T:SuperOffice.CRM.Data.DBC.VisibleForFields
+  id: DBC.VisibleForFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.VisibleForFields.AppointmentId
+  - SuperOffice.CRM.Data.DBC.VisibleForFields.EncryptedCheck
+  - SuperOffice.CRM.Data.DBC.VisibleForFields.ForAll
+  - SuperOffice.CRM.Data.DBC.VisibleForFields.ForAssocId
+  - SuperOffice.CRM.Data.DBC.VisibleForFields.ForGroupId
+  - SuperOffice.CRM.Data.DBC.VisibleForFields.RecordId
+  - SuperOffice.CRM.Data.DBC.VisibleForFields.Registered
+  - SuperOffice.CRM.Data.DBC.VisibleForFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.VisibleForFields.SaleHistId
+  - SuperOffice.CRM.Data.DBC.VisibleForFields.SaleId
+  - SuperOffice.CRM.Data.DBC.VisibleForFields.SelectionId
+  - SuperOffice.CRM.Data.DBC.VisibleForFields.TableId
+  - SuperOffice.CRM.Data.DBC.VisibleForFields.Updated
+  - SuperOffice.CRM.Data.DBC.VisibleForFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.VisibleForFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.VisibleForFields.VisibleForId
+  langs:
+  - csharp
+  - vb
+  name: DBC.VisibleForFields
+  nameWithType: DBC.VisibleForFields
+  fullName: SuperOffice.CRM.Data.DBC.VisibleForFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for VisibleFor, Visible for rights, who may see this appointment/document, sale,  salehist or selection\n"
+  syntax:
+    content: public static class VisibleForFields
+    content.vb: Public Module VisibleForFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.VisibleForFields.VisibleForId
+  commentId: F:SuperOffice.CRM.Data.DBC.VisibleForFields.VisibleForId
+  id: VisibleForId
+  parent: SuperOffice.CRM.Data.DBC.VisibleForFields
+  langs:
+  - csharp
+  - vb
+  name: VisibleForId
+  nameWithType: DBC.VisibleForFields.VisibleForId
+  fullName: SuperOffice.CRM.Data.DBC.VisibleForFields.VisibleForId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nVisibleFor.VisibleForId: Primary key\n"
+  syntax:
+    content: public const string VisibleForId = "VisibleFor_id"
+    return:
+      type: System.String
+    content.vb: Public Const VisibleForId As String = "VisibleFor_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.VisibleForFields.TableId
+  commentId: F:SuperOffice.CRM.Data.DBC.VisibleForFields.TableId
+  id: TableId
+  parent: SuperOffice.CRM.Data.DBC.VisibleForFields
+  langs:
+  - csharp
+  - vb
+  name: TableId
+  nameWithType: DBC.VisibleForFields.TableId
+  fullName: SuperOffice.CRM.Data.DBC.VisibleForFields.TableId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nVisibleFor.TableId: ID of table this right is valid for\n"
+  syntax:
+    content: public const string TableId = "tableId"
+    return:
+      type: System.String
+    content.vb: Public Const TableId As String = "tableId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.VisibleForFields.RecordId
+  commentId: F:SuperOffice.CRM.Data.DBC.VisibleForFields.RecordId
+  id: RecordId
+  parent: SuperOffice.CRM.Data.DBC.VisibleForFields
+  langs:
+  - csharp
+  - vb
+  name: RecordId
+  nameWithType: DBC.VisibleForFields.RecordId
+  fullName: SuperOffice.CRM.Data.DBC.VisibleForFields.RecordId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nVisibleFor.RecordId: ID of row this right applies to\n"
+  syntax:
+    content: public const string RecordId = "recordId"
+    return:
+      type: System.String
+    content.vb: Public Const RecordId As String = "recordId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.VisibleForFields.ForAll
+  commentId: F:SuperOffice.CRM.Data.DBC.VisibleForFields.ForAll
+  id: ForAll
+  parent: SuperOffice.CRM.Data.DBC.VisibleForFields
+  langs:
+  - csharp
+  - vb
+  name: ForAll
+  nameWithType: DBC.VisibleForFields.ForAll
+  fullName: SuperOffice.CRM.Data.DBC.VisibleForFields.ForAll
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nVisibleFor.ForAll: 1 = visible to all, 0 = not visible to all\n"
+  syntax:
+    content: public const string ForAll = "forAll"
+    return:
+      type: System.String
+    content.vb: Public Const ForAll As String = "forAll"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.VisibleForFields.ForGroupId
+  commentId: F:SuperOffice.CRM.Data.DBC.VisibleForFields.ForGroupId
+  id: ForGroupId
+  parent: SuperOffice.CRM.Data.DBC.VisibleForFields
+  langs:
+  - csharp
+  - vb
+  name: ForGroupId
+  nameWithType: DBC.VisibleForFields.ForGroupId
+  fullName: SuperOffice.CRM.Data.DBC.VisibleForFields.ForGroupId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nVisibleFor.ForGroupId: 0 = not visible to any particular group, or ID of group\n"
+  syntax:
+    content: public const string ForGroupId = "forGroupId"
+    return:
+      type: System.String
+    content.vb: Public Const ForGroupId As String = "forGroupId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.VisibleForFields.ForAssocId
+  commentId: F:SuperOffice.CRM.Data.DBC.VisibleForFields.ForAssocId
+  id: ForAssocId
+  parent: SuperOffice.CRM.Data.DBC.VisibleForFields
+  langs:
+  - csharp
+  - vb
+  name: ForAssocId
+  nameWithType: DBC.VisibleForFields.ForAssocId
+  fullName: SuperOffice.CRM.Data.DBC.VisibleForFields.ForAssocId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nVisibleFor.ForAssocId: 0 = not visible to any particular associate, or ID of associate\n"
+  syntax:
+    content: public const string ForAssocId = "forAssocId"
+    return:
+      type: System.String
+    content.vb: Public Const ForAssocId As String = "forAssocId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.VisibleForFields.EncryptedCheck
+  commentId: F:SuperOffice.CRM.Data.DBC.VisibleForFields.EncryptedCheck
+  id: EncryptedCheck
+  parent: SuperOffice.CRM.Data.DBC.VisibleForFields
+  langs:
+  - csharp
+  - vb
+  name: EncryptedCheck
+  nameWithType: DBC.VisibleForFields.EncryptedCheck
+  fullName: SuperOffice.CRM.Data.DBC.VisibleForFields.EncryptedCheck
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nVisibleFor.EncryptedCheck: Encrypted checksum field, to prevent tampering\n"
+  syntax:
+    content: public const string EncryptedCheck = "encryptedCheck"
+    return:
+      type: System.String
+    content.vb: Public Const EncryptedCheck As String = "encryptedCheck"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.VisibleForFields.AppointmentId
+  commentId: F:SuperOffice.CRM.Data.DBC.VisibleForFields.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.CRM.Data.DBC.VisibleForFields
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: DBC.VisibleForFields.AppointmentId
+  fullName: SuperOffice.CRM.Data.DBC.VisibleForFields.AppointmentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nVisibleFor.AppointmentId: Shortcut: appointment id, if tableId = appointment; to give faster joins\n"
+  syntax:
+    content: public const string AppointmentId = "appointmentId"
+    return:
+      type: System.String
+    content.vb: Public Const AppointmentId As String = "appointmentId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.VisibleForFields.SaleId
+  commentId: F:SuperOffice.CRM.Data.DBC.VisibleForFields.SaleId
+  id: SaleId
+  parent: SuperOffice.CRM.Data.DBC.VisibleForFields
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: DBC.VisibleForFields.SaleId
+  fullName: SuperOffice.CRM.Data.DBC.VisibleForFields.SaleId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nVisibleFor.SaleId: Shortcut: sale id, if tableId = sale to give faster joins\n"
+  syntax:
+    content: public const string SaleId = "saleId"
+    return:
+      type: System.String
+    content.vb: Public Const SaleId As String = "saleId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.VisibleForFields.SaleHistId
+  commentId: F:SuperOffice.CRM.Data.DBC.VisibleForFields.SaleHistId
+  id: SaleHistId
+  parent: SuperOffice.CRM.Data.DBC.VisibleForFields
+  langs:
+  - csharp
+  - vb
+  name: SaleHistId
+  nameWithType: DBC.VisibleForFields.SaleHistId
+  fullName: SuperOffice.CRM.Data.DBC.VisibleForFields.SaleHistId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nVisibleFor.SaleHistId: Shortcut: salehist id, if tableId = salehist to give faster joins\n"
+  syntax:
+    content: public const string SaleHistId = "saleHistId"
+    return:
+      type: System.String
+    content.vb: Public Const SaleHistId As String = "saleHistId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.VisibleForFields.SelectionId
+  commentId: F:SuperOffice.CRM.Data.DBC.VisibleForFields.SelectionId
+  id: SelectionId
+  parent: SuperOffice.CRM.Data.DBC.VisibleForFields
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: DBC.VisibleForFields.SelectionId
+  fullName: SuperOffice.CRM.Data.DBC.VisibleForFields.SelectionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nVisibleFor.SelectionId: Shortcut: selection id, if tableId = selection to give faster joins\n"
+  syntax:
+    content: public const string SelectionId = "selectionId"
+    return:
+      type: System.String
+    content.vb: Public Const SelectionId As String = "selectionId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.VisibleForFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.VisibleForFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.VisibleForFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.VisibleForFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.VisibleForFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nVisibleFor.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.VisibleForFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.VisibleForFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.VisibleForFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.VisibleForFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.VisibleForFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nVisibleFor.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.VisibleForFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.VisibleForFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.VisibleForFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.VisibleForFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.VisibleForFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nVisibleFor.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.VisibleForFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.VisibleForFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.VisibleForFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.VisibleForFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.VisibleForFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nVisibleFor.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.VisibleForFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.VisibleForFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.VisibleForFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.VisibleForFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.VisibleForFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nVisibleFor.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

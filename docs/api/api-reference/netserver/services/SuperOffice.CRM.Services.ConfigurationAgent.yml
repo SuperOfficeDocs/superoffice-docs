@@ -1,0 +1,3915 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ConfigurationAgent
+  commentId: T:SuperOffice.CRM.Services.ConfigurationAgent
+  id: ConfigurationAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ConfigurationAgent.#ctor
+  - SuperOffice.CRM.Services.ConfigurationAgent.ClearConfigurationCache(System.String,System.String,System.Boolean)
+  - SuperOffice.CRM.Services.ConfigurationAgent.CreateDefaultDiaryViewEntity
+  - SuperOffice.CRM.Services.ConfigurationAgent.CreateDefaultSystemEventEntity
+  - SuperOffice.CRM.Services.ConfigurationAgent.DeleteDiaryViewEntity(System.Int32)
+  - SuperOffice.CRM.Services.ConfigurationAgent.DeleteSystemEventEntity(System.Int32)
+  - SuperOffice.CRM.Services.ConfigurationAgent.DeleteWindowPosSize(System.Int32)
+  - SuperOffice.CRM.Services.ConfigurationAgent.ExistsSystemEvent(System.String)
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetAnyConfiguration(System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetApplicationConfiguration(System.String,System.String)
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetCRMUrl(System.String,System.String,System.Boolean)
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetCSAuthUrl(System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetCsCgiUrlInternal
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetCsProgramUrl(System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetCSRegistryValue(System.Int32)
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetCSWwwFolder
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetCustomerUrl
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetDiaryViewEntity(System.Int32)
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetEmailNumberOfDays
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetEMarketingUrl(System.String)
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetFilterList(System.String,System.String)
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetHelpDispatcherUrl
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetMyWindowPosSizes
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetObjectMapping(System.String,System.String)
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetPageConfiguration(System.String,System.String,System.String)
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetRefreshedPageConfiguration(System.String,System.String,System.String)
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetSystemEventEntity(System.Int32)
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSize(System.Int32)
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizeList(System.Int32[])
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizesOnAssociateId(System.Int32)
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizesOnPersonId(System.Int32)
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetWwwUrl(System.String)
+  - SuperOffice.CRM.Services.ConfigurationAgent.GetWwwUrlForSMWeb
+  - SuperOffice.CRM.Services.ConfigurationAgent.SaveDiaryViewEntity(SuperOffice.CRM.Services.DiaryViewEntity)
+  - SuperOffice.CRM.Services.ConfigurationAgent.SaveSystemEventEntity(SuperOffice.CRM.Services.SystemEventEntity)
+  - SuperOffice.CRM.Services.ConfigurationAgent.SaveWindowPosSize(SuperOffice.CRM.Services.WindowPosSize)
+  - SuperOffice.CRM.Services.ConfigurationAgent.SaveWindowPosSizes(SuperOffice.CRM.Services.WindowPosSize[])
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationAgent
+  nameWithType: ConfigurationAgent
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent
+  type: Class
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFacade for the Configuration Agent\nUser interface configuration - XMLs and other elements such as inter-client URLs\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (ConfigurationAgent agent = new ConfigurationAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: 'public class ConfigurationAgent : AgentBase<IConfigurationAgent>, IDisposable, IConfigurationAgent, IAgent'
+    content.vb: >-
+      Public Class ConfigurationAgent
+          Inherits AgentBase(Of IConfigurationAgent)
+          Implements IDisposable, IConfigurationAgent, IAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IConfigurationAgent}
+  implements:
+  - System.IDisposable
+  - SuperOffice.CRM.Services.IConfigurationAgent
+  - SuperOffice.CRM.Services.IAgent
+  inheritedMembers:
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IConfigurationAgent}.Dispose
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IConfigurationAgent}.InnerAgent
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.CreateDefaultDiaryViewEntity
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.CreateDefaultDiaryViewEntity
+  id: CreateDefaultDiaryViewEntity
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultDiaryViewEntity()
+  nameWithType: ConfigurationAgent.CreateDefaultDiaryViewEntity()
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.CreateDefaultDiaryViewEntity()
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new DiaryViewEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public DiaryViewEntity CreateDefaultDiaryViewEntity()
+    return:
+      type: SuperOffice.CRM.Services.DiaryViewEntity
+      description: New DiaryViewEntity with default values
+    content.vb: Public Function CreateDefaultDiaryViewEntity As DiaryViewEntity
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.CreateDefaultDiaryViewEntity*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.CreateDefaultDiaryViewEntity
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.SaveDiaryViewEntity(SuperOffice.CRM.Services.DiaryViewEntity)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.SaveDiaryViewEntity(SuperOffice.CRM.Services.DiaryViewEntity)
+  id: SaveDiaryViewEntity(SuperOffice.CRM.Services.DiaryViewEntity)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveDiaryViewEntity(DiaryViewEntity)
+  nameWithType: ConfigurationAgent.SaveDiaryViewEntity(DiaryViewEntity)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.SaveDiaryViewEntity(SuperOffice.CRM.Services.DiaryViewEntity)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing DiaryViewEntity or creates a new DiaryViewEntity if the id parameter is empty\n"
+  syntax:
+    content: public DiaryViewEntity SaveDiaryViewEntity(DiaryViewEntity diaryViewEntity)
+    parameters:
+    - id: diaryViewEntity
+      type: SuperOffice.CRM.Services.DiaryViewEntity
+      description: The DiaryViewEntity that is saved.
+    return:
+      type: SuperOffice.CRM.Services.DiaryViewEntity
+      description: New or updated DiaryViewEntity
+    content.vb: Public Function SaveDiaryViewEntity(diaryViewEntity As DiaryViewEntity) As DiaryViewEntity
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.SaveDiaryViewEntity*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.SaveDiaryViewEntity(SuperOffice.CRM.Services.DiaryViewEntity)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.DeleteDiaryViewEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.DeleteDiaryViewEntity(System.Int32)
+  id: DeleteDiaryViewEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteDiaryViewEntity(Int32)
+  nameWithType: ConfigurationAgent.DeleteDiaryViewEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.DeleteDiaryViewEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the DiaryViewEntity\n"
+  syntax:
+    content: public void DeleteDiaryViewEntity(int diaryViewEntityId)
+    parameters:
+    - id: diaryViewEntityId
+      type: System.Int32
+      description: The identity of the DiaryViewEntity
+    content.vb: Public Sub DeleteDiaryViewEntity(diaryViewEntityId As Integer)
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.DeleteDiaryViewEntity*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.DeleteDiaryViewEntity(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.CreateDefaultSystemEventEntity
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.CreateDefaultSystemEventEntity
+  id: CreateDefaultSystemEventEntity
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultSystemEventEntity()
+  nameWithType: ConfigurationAgent.CreateDefaultSystemEventEntity()
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.CreateDefaultSystemEventEntity()
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new SystemEventEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public SystemEventEntity CreateDefaultSystemEventEntity()
+    return:
+      type: SuperOffice.CRM.Services.SystemEventEntity
+      description: New SystemEventEntity with default values
+    content.vb: Public Function CreateDefaultSystemEventEntity As SystemEventEntity
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.CreateDefaultSystemEventEntity*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.CreateDefaultSystemEventEntity
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.SaveSystemEventEntity(SuperOffice.CRM.Services.SystemEventEntity)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.SaveSystemEventEntity(SuperOffice.CRM.Services.SystemEventEntity)
+  id: SaveSystemEventEntity(SuperOffice.CRM.Services.SystemEventEntity)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveSystemEventEntity(SystemEventEntity)
+  nameWithType: ConfigurationAgent.SaveSystemEventEntity(SystemEventEntity)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.SaveSystemEventEntity(SuperOffice.CRM.Services.SystemEventEntity)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing SystemEventEntity or creates a new SystemEventEntity if the id parameter is empty\n"
+  syntax:
+    content: public SystemEventEntity SaveSystemEventEntity(SystemEventEntity systemEventEntity)
+    parameters:
+    - id: systemEventEntity
+      type: SuperOffice.CRM.Services.SystemEventEntity
+      description: The SystemEventEntity that is saved.
+    return:
+      type: SuperOffice.CRM.Services.SystemEventEntity
+      description: New or updated SystemEventEntity
+    content.vb: Public Function SaveSystemEventEntity(systemEventEntity As SystemEventEntity) As SystemEventEntity
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.SaveSystemEventEntity*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.SaveSystemEventEntity(SuperOffice.CRM.Services.SystemEventEntity)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.DeleteSystemEventEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.DeleteSystemEventEntity(System.Int32)
+  id: DeleteSystemEventEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteSystemEventEntity(Int32)
+  nameWithType: ConfigurationAgent.DeleteSystemEventEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.DeleteSystemEventEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the SystemEventEntity\n"
+  syntax:
+    content: public void DeleteSystemEventEntity(int systemEventEntityId)
+    parameters:
+    - id: systemEventEntityId
+      type: System.Int32
+      description: The identity of the SystemEventEntity
+    content.vb: Public Sub DeleteSystemEventEntity(systemEventEntityId As Integer)
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.DeleteSystemEventEntity*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.DeleteSystemEventEntity(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetApplicationConfiguration(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetApplicationConfiguration(System.String,System.String)
+  id: GetApplicationConfiguration(System.String,System.String)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetApplicationConfiguration(String, String)
+  nameWithType: ConfigurationAgent.GetApplicationConfiguration(String, String)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetApplicationConfiguration(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturn the application configuration. This is a list of pages, with information about the name, main panel and preference mappings of each page.\n"
+  syntax:
+    content: public string GetApplicationConfiguration(string application, string instance)
+    parameters:
+    - id: application
+      type: System.String
+      description: The application name, for instance &apos;SixWeb&apos;
+    - id: instance
+      type: System.String
+      description: The instance name for the application, like &apos;MainInstance&apos;
+    return:
+      type: System.String
+      description: XML structure containing the application configuration
+    content.vb: Public Function GetApplicationConfiguration(application As String, instance As String) As String
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetApplicationConfiguration*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetApplicationConfiguration(System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetPageConfiguration(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetPageConfiguration(System.String,System.String,System.String)
+  id: GetPageConfiguration(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPageConfiguration(String, String, String)
+  nameWithType: ConfigurationAgent.GetPageConfiguration(String, String, String)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetPageConfiguration(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the configuration for one whole web page, including all its panels etc.  totally asynchronous items like menus are not included, but all references are resolved and all special processing is applied.\n"
+  syntax:
+    content: public string GetPageConfiguration(string application, string instance, string page)
+    parameters:
+    - id: application
+      type: System.String
+      description: The application name, for instance &apos;SixWeb
+    - id: instance
+      type: System.String
+      description: The instance name for the application, like &apos;MainInstance&apos;
+    - id: page
+      type: System.String
+      description: Page name, must correspond to one of the pages in the Application Configuration
+    return:
+      type: System.String
+      description: XML containing the configuration for the given page, from the page down to the control level.
+    content.vb: Public Function GetPageConfiguration(application As String, instance As String, page As String) As String
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetPageConfiguration*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetPageConfiguration(System.String,System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetObjectMapping(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetObjectMapping(System.String,System.String)
+  id: GetObjectMapping(System.String,System.String)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetObjectMapping(String, String)
+  nameWithType: ConfigurationAgent.GetObjectMapping(String, String)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetObjectMapping(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the object mappings, i.e., the what code objects should be instantiated to handle the entities of the client configuration.\n"
+  syntax:
+    content: public string GetObjectMapping(string application, string instance)
+    parameters:
+    - id: application
+      type: System.String
+      description: The application name, for instance &apos;SixWeb&apos;
+    - id: instance
+      type: System.String
+      description: The instance name for the application, like &apos;MainInstance&apos;
+    return:
+      type: System.String
+      description: XML containing the object mappings, including assembly and class names
+    content.vb: Public Function GetObjectMapping(application As String, instance As String) As String
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetObjectMapping*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetObjectMapping(System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetFilterList(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetFilterList(System.String,System.String)
+  id: GetFilterList(System.String,System.String)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetFilterList(String, String)
+  nameWithType: ConfigurationAgent.GetFilterList(String, String)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetFilterList(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the list of filters to be used for processing the configuration data for this application.\n"
+  syntax:
+    content: public string GetFilterList(string application, string instance)
+    parameters:
+    - id: application
+      type: System.String
+      description: The application name, for instance &apos;SixWeb&apos;
+    - id: instance
+      type: System.String
+      description: The instance name for the application, like &apos;MainInstance&apos;
+    return:
+      type: System.String
+      description: XML representing the list of filters and any configuration data they may need.
+    content.vb: Public Function GetFilterList(application As String, instance As String) As String
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetFilterList*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetFilterList(System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.ClearConfigurationCache(System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.ClearConfigurationCache(System.String,System.String,System.Boolean)
+  id: ClearConfigurationCache(System.String,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: ClearConfigurationCache(String, String, Boolean)
+  nameWithType: ConfigurationAgent.ClearConfigurationCache(String, String, Boolean)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.ClearConfigurationCache(System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nConfiguration XML&apos;s may be expensive to build and parse, and are therefore cached to the database. &lt;para/>Cahcing is per application/instance/associate, and can be turned off through the config file. &lt;para/>If caching is on, and the configuration is changed, it is necessary to clear the cached configurations from the database, through this call.&lt;para/>Note that changes to the externalapplication table require cache invalidation. SoAdmin will do so automatically.\n"
+  syntax:
+    content: public void ClearConfigurationCache(string application, string instance, bool forAllAssociates)
+    parameters:
+    - id: application
+      type: System.String
+      description: The application name, for instance &apos;SixWeb&apos;
+    - id: instance
+      type: System.String
+      description: The instance name for the application, like &apos;MainInstance&apos;
+    - id: forAllAssociates
+      type: System.Boolean
+      description: If false, only the current associate&apos;s configuration is cleared. If true, configurations are cleared for all associates.
+    content.vb: Public Sub ClearConfigurationCache(application As String, instance As String, forAllAssociates As Boolean)
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.ClearConfigurationCache*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.ClearConfigurationCache(System.String,System.String,System.Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetAnyConfiguration(System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetAnyConfiguration(System.String,System.String,System.String,System.String)
+  id: GetAnyConfiguration(System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAnyConfiguration(String, String, String, String)
+  nameWithType: ConfigurationAgent.GetAnyConfiguration(String, String, String, String)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetAnyConfiguration(System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet one defined configuration fragment, with full reference resolution and parsing applied. This is essentially the same service as the GetPageConfiguration, except that this service is not locked to objects of type Page.\n"
+  syntax:
+    content: public string GetAnyConfiguration(string application, string instance, string item, string type)
+    parameters:
+    - id: application
+      type: System.String
+      description: The application name, for instance Six.Web
+    - id: instance
+      type: System.String
+      description: The instance name, for instance Main
+    - id: item
+      type: System.String
+      description: The configuration item name (first component of file name)
+    - id: type
+      type: System.String
+      description: The configuration item type (second component of file name)
+    return:
+      type: System.String
+      description: Fully resolved and parsed configuration XML, as string.
+    content.vb: Public Function GetAnyConfiguration(application As String, instance As String, item As String, type As String) As String
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetAnyConfiguration*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetAnyConfiguration(System.String,System.String,System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetEMarketingUrl(System.String)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetEMarketingUrl(System.String)
+  id: GetEMarketingUrl(System.String)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetEMarketingUrl(String)
+  nameWithType: ConfigurationAgent.GetEMarketingUrl(String)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetEMarketingUrl(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public string GetEMarketingUrl(string language)
+    parameters:
+    - id: language
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetEMarketingUrl(language As String) As String
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetEMarketingUrl*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetEMarketingUrl(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetCsProgramUrl(System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetCsProgramUrl(System.String,System.String,System.String,System.String)
+  id: GetCsProgramUrl(System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCsProgramUrl(String, String, String, String)
+  nameWithType: ConfigurationAgent.GetCsProgramUrl(String, String, String, String)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetCsProgramUrl(System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis method will convert a module name into a CS URL.\n"
+  syntax:
+    content: public string GetCsProgramUrl(string language, string programName, string action, string extraParameters)
+    parameters:
+    - id: language
+      type: System.String
+      description: By setting this parameter, you can change the CS language for the current user.
+    - id: programName
+      type: System.String
+      description: In this parameter you must specify which CS program you want to create an URL for. Valid examples are &quot;ticket&quot;, &quot;rms&quot;, &quot;spm&quot; etc.
+    - id: action
+      type: System.String
+      description: Here you can optionally specify the action for the current program. This will enable you to go to a specific screen.
+    - id: extraParameters
+      type: System.String
+      description: If an action is specified, you can specify extra parameters here. This can be used to set specific behaviour for the chosen screen/action. If an empty action is supplied, this parameter will be ignored.
+    return:
+      type: System.String
+      description: Returns a valid CS URL composed of the give parameters.
+    content.vb: Public Function GetCsProgramUrl(language As String, programName As String, action As String, extraParameters As String) As String
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetCsProgramUrl*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetCsProgramUrl(System.String,System.String,System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetCSAuthUrl(System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetCSAuthUrl(System.String,System.String,System.String,System.String)
+  id: GetCSAuthUrl(System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCSAuthUrl(String, String, String, String)
+  nameWithType: ConfigurationAgent.GetCSAuthUrl(String, String, String, String)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetCSAuthUrl(System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWill generate an url to the emarketing module\n"
+  syntax:
+    content: public string GetCSAuthUrl(string language, string programName, string action, string extraParameters)
+    parameters:
+    - id: language
+      type: System.String
+      description: By setting this parameter, you can change the CS language for the current user.
+    - id: programName
+      type: System.String
+      description: In this parameter you must specify which CS program you want to create an URL for. Valid examples are &quot;ticket&quot;, &quot;rms&quot;, &quot;spm&quot; etc.
+    - id: action
+      type: System.String
+      description: Here you can optionally specify the action for the current program. This will enable you to go to a specific screen.
+    - id: extraParameters
+      type: System.String
+      description: If an action is specified, you can specify extra parameters here. This can be used to set specific behaviour for the chosen screen/action. If an empty action is supplied, this parameter will be ignored.
+    return:
+      type: System.String
+      description: Returns a valid CS URL composed of the give parameters.
+    content.vb: Public Function GetCSAuthUrl(language As String, programName As String, action As String, extraParameters As String) As String
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetCSAuthUrl*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetCSAuthUrl(System.String,System.String,System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetCSRegistryValue(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetCSRegistryValue(System.Int32)
+  id: GetCSRegistryValue(System.Int32)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCSRegistryValue(Int32)
+  nameWithType: ConfigurationAgent.GetCSRegistryValue(Int32)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetCSRegistryValue(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis method will get a value from the CS Registry table.\n"
+  syntax:
+    content: public string GetCSRegistryValue(int entry)
+    parameters:
+    - id: entry
+      type: System.Int32
+      description: The Registry entry to get
+    return:
+      type: System.String
+      description: The value of the specified Registry entry
+    content.vb: Public Function GetCSRegistryValue(entry As Integer) As String
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetCSRegistryValue*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetCSRegistryValue(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetCSWwwFolder
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetCSWwwFolder
+  id: GetCSWwwFolder
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCSWwwFolder()
+  nameWithType: ConfigurationAgent.GetCSWwwFolder()
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetCSWwwFolder()
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis method will get the www folder for CS\n"
+  syntax:
+    content: public string GetCSWwwFolder()
+    return:
+      type: System.String
+      description: The www folder for CS
+    content.vb: Public Function GetCSWwwFolder As String
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetCSWwwFolder*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetCSWwwFolder
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetRefreshedPageConfiguration(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetRefreshedPageConfiguration(System.String,System.String,System.String)
+  id: GetRefreshedPageConfiguration(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetRefreshedPageConfiguration(String, String, String)
+  nameWithType: ConfigurationAgent.GetRefreshedPageConfiguration(String, String, String)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetRefreshedPageConfiguration(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the configuration for one whole web page, including all its panels etc.  totally asynchronous items like menus are not included, but all references are resolved and all special processing is applied. Does not use cache for fetching, but updates the cache with refreshed configuration.\n"
+  syntax:
+    content: public string GetRefreshedPageConfiguration(string application, string instance, string page)
+    parameters:
+    - id: application
+      type: System.String
+      description: The application name, for instance &apos;SixWeb
+    - id: instance
+      type: System.String
+      description: The instance name for the application, like &apos;MainInstance&apos;
+    - id: page
+      type: System.String
+      description: Page name, must correspond to one of the pages in the Application Configuration
+    return:
+      type: System.String
+      description: XML containing the configuration for the given page, from the page down to the control level.
+    content.vb: Public Function GetRefreshedPageConfiguration(application As String, instance As String, page As String) As String
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetRefreshedPageConfiguration*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetRefreshedPageConfiguration(System.String,System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetWwwUrl(System.String)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetWwwUrl(System.String)
+  id: GetWwwUrl(System.String)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetWwwUrl(String)
+  nameWithType: ConfigurationAgent.GetWwwUrl(String)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetWwwUrl(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWill get the default URL used for the logo, from the [NetServices] PageUrl preferencec, with tags substituted.\n"
+  syntax:
+    content: public string GetWwwUrl(string client)
+    parameters:
+    - id: client
+      type: System.String
+      description: The name for the client application, like &apos;CS&apos; or &apos;SM.web&apos;, used for the &lt;clie> variable
+    return:
+      type: System.String
+      description: URL to be used when clicking the logo
+    content.vb: Public Function GetWwwUrl(client As String) As String
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetWwwUrl*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetWwwUrl(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetHelpDispatcherUrl
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetHelpDispatcherUrl
+  id: GetHelpDispatcherUrl
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetHelpDispatcherUrl()
+  nameWithType: ConfigurationAgent.GetHelpDispatcherUrl()
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetHelpDispatcherUrl()
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWill get the GetHelpDispatcherUrl used by the help system\n"
+  syntax:
+    content: public string GetHelpDispatcherUrl()
+    return:
+      type: System.String
+      description: URL to be used by the help system
+    content.vb: Public Function GetHelpDispatcherUrl As String
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetHelpDispatcherUrl*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetHelpDispatcherUrl
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetWwwUrlForSMWeb
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetWwwUrlForSMWeb
+  id: GetWwwUrlForSMWeb
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetWwwUrlForSMWeb()
+  nameWithType: ConfigurationAgent.GetWwwUrlForSMWeb()
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetWwwUrlForSMWeb()
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the URL used for the logo by the SM.web client. Uses urldispatch.aspx\n"
+  syntax:
+    content: public string GetWwwUrlForSMWeb()
+    return:
+      type: System.String
+      description: Link to urldispatch.aspx tagged with [SOSITEURL]
+    content.vb: Public Function GetWwwUrlForSMWeb As String
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetWwwUrlForSMWeb*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetWwwUrlForSMWeb
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetCsCgiUrlInternal
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetCsCgiUrlInternal
+  id: GetCsCgiUrlInternal
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCsCgiUrlInternal()
+  nameWithType: ConfigurationAgent.GetCsCgiUrlInternal()
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetCsCgiUrlInternal()
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis method will get the host name for CS\n"
+  syntax:
+    content: public string GetCsCgiUrlInternal()
+    return:
+      type: System.String
+      description: Will get the host name for where CS is installed
+    content.vb: Public Function GetCsCgiUrlInternal As String
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetCsCgiUrlInternal*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetCsCgiUrlInternal
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetCRMUrl(System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetCRMUrl(System.String,System.String,System.Boolean)
+  id: GetCRMUrl(System.String,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCRMUrl(String, String, Boolean)
+  nameWithType: ConfigurationAgent.GetCRMUrl(String, String, Boolean)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetCRMUrl(System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns a valid url based in the soprotocol provided\n"
+  syntax:
+    content: public string GetCRMUrl(string soProtocol, string currents, bool frameless)
+    parameters:
+    - id: soProtocol
+      type: System.String
+      description: SoProtocol to display. Eg. contact.activityarchive.minipreview
+    - id: currents
+      type: System.String
+      description: currents to set. Eg. contact_id=100&amp;person_id=299
+    - id: frameless
+      type: System.Boolean
+      description: If true frame is not rendered( Navigationbar, buttonbar and menu )
+    return:
+      type: System.String
+      description: Url with soprotocol
+    content.vb: Public Function GetCRMUrl(soProtocol As String, currents As String, frameless As Boolean) As String
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetCRMUrl*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetCRMUrl(System.String,System.String,System.Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetEmailNumberOfDays
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetEmailNumberOfDays
+  id: GetEmailNumberOfDays
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetEmailNumberOfDays()
+  nameWithType: ConfigurationAgent.GetEmailNumberOfDays()
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetEmailNumberOfDays()
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public int GetEmailNumberOfDays()
+    return:
+      type: System.Int32
+      description: Number of days in the past for which we are fetching email
+    content.vb: Public Function GetEmailNumberOfDays As Integer
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetEmailNumberOfDays*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetEmailNumberOfDays
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetCustomerUrl
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetCustomerUrl
+  id: GetCustomerUrl
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCustomerUrl()
+  nameWithType: ConfigurationAgent.GetCustomerUrl()
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetCustomerUrl()
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis method will get the URL for the external access to the customer center\n"
+  syntax:
+    content: public string GetCustomerUrl()
+    return:
+      type: System.String
+      description: The URL to the customer center, without any actions
+    content.vb: Public Function GetCustomerUrl As String
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetCustomerUrl*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetCustomerUrl
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetDiaryViewEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetDiaryViewEntity(System.Int32)
+  id: GetDiaryViewEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDiaryViewEntity(Int32)
+  nameWithType: ConfigurationAgent.GetDiaryViewEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetDiaryViewEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a DiaryViewEntity object.                        \n"
+  syntax:
+    content: public DiaryViewEntity GetDiaryViewEntity(int diaryViewEntityId)
+    parameters:
+    - id: diaryViewEntityId
+      type: System.Int32
+      description: The identifier of the DiaryViewEntity object
+    return:
+      type: SuperOffice.CRM.Services.DiaryViewEntity
+      description: DiaryViewEntity
+    content.vb: Public Function GetDiaryViewEntity(diaryViewEntityId As Integer) As DiaryViewEntity
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetDiaryViewEntity*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetDiaryViewEntity(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSize(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSize(System.Int32)
+  id: GetWindowPosSize(System.Int32)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetWindowPosSize(Int32)
+  nameWithType: ConfigurationAgent.GetWindowPosSize(Int32)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSize(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a WindowPosSize object.                        \n"
+  syntax:
+    content: public WindowPosSize GetWindowPosSize(int windowPosSizeId)
+    parameters:
+    - id: windowPosSizeId
+      type: System.Int32
+      description: The identifier of the WindowPosSize object
+    return:
+      type: SuperOffice.CRM.Services.WindowPosSize
+      description: WindowPosSize
+    content.vb: Public Function GetWindowPosSize(windowPosSizeId As Integer) As WindowPosSize
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSize*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSize(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.SaveWindowPosSize(SuperOffice.CRM.Services.WindowPosSize)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.SaveWindowPosSize(SuperOffice.CRM.Services.WindowPosSize)
+  id: SaveWindowPosSize(SuperOffice.CRM.Services.WindowPosSize)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveWindowPosSize(WindowPosSize)
+  nameWithType: ConfigurationAgent.SaveWindowPosSize(WindowPosSize)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.SaveWindowPosSize(SuperOffice.CRM.Services.WindowPosSize)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSaves a window and dialog position and size setting.\n"
+  syntax:
+    content: public WindowPosSize SaveWindowPosSize(WindowPosSize windowPosSize)
+    parameters:
+    - id: windowPosSize
+      type: SuperOffice.CRM.Services.WindowPosSize
+      description: The item that is saved
+    return:
+      type: SuperOffice.CRM.Services.WindowPosSize
+      description: The saved item
+    content.vb: Public Function SaveWindowPosSize(windowPosSize As WindowPosSize) As WindowPosSize
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.SaveWindowPosSize*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.SaveWindowPosSize(SuperOffice.CRM.Services.WindowPosSize)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.DeleteWindowPosSize(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.DeleteWindowPosSize(System.Int32)
+  id: DeleteWindowPosSize(System.Int32)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteWindowPosSize(Int32)
+  nameWithType: ConfigurationAgent.DeleteWindowPosSize(Int32)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.DeleteWindowPosSize(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes a window and dialog position and size setting.\n"
+  syntax:
+    content: public void DeleteWindowPosSize(int windowPosSizeId)
+    parameters:
+    - id: windowPosSizeId
+      type: System.Int32
+      description: Id of the window and dialog position and size settings item.
+    content.vb: Public Sub DeleteWindowPosSize(windowPosSizeId As Integer)
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.DeleteWindowPosSize*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.DeleteWindowPosSize(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizeList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizeList(System.Int32[])
+  id: GetWindowPosSizeList(System.Int32[])
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetWindowPosSizeList(Int32[])
+  nameWithType: ConfigurationAgent.GetWindowPosSizeList(Int32[])
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizeList(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets an array of WindowPosSize objects.                        \n"
+  syntax:
+    content: public WindowPosSize[] GetWindowPosSizeList(int[] windowPosSizeIds)
+    parameters:
+    - id: windowPosSizeIds
+      type: System.Int32[]
+      description: The identifiers of the WindowPosSize object
+    return:
+      type: SuperOffice.CRM.Services.WindowPosSize[]
+      description: Array of WindowPosSize objects
+    content.vb: Public Function GetWindowPosSizeList(windowPosSizeIds As Integer()) As WindowPosSize()
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizeList*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSizeList(System.Int32[])
+  nameWithType.vb: ConfigurationAgent.GetWindowPosSizeList(Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizeList(System.Int32())
+  name.vb: GetWindowPosSizeList(Int32())
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetMyWindowPosSizes
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetMyWindowPosSizes
+  id: GetMyWindowPosSizes
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyWindowPosSizes()
+  nameWithType: ConfigurationAgent.GetMyWindowPosSizes()
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetMyWindowPosSizes()
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the window and dialog position and size settings belonging to the currently logged on user\n"
+  syntax:
+    content: public WindowPosSize[] GetMyWindowPosSizes()
+    return:
+      type: SuperOffice.CRM.Services.WindowPosSize[]
+      description: Array of window and dialog position and size settings
+    content.vb: Public Function GetMyWindowPosSizes As WindowPosSize()
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetMyWindowPosSizes*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetMyWindowPosSizes
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizesOnPersonId(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizesOnPersonId(System.Int32)
+  id: GetWindowPosSizesOnPersonId(System.Int32)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetWindowPosSizesOnPersonId(Int32)
+  nameWithType: ConfigurationAgent.GetWindowPosSizesOnPersonId(Int32)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizesOnPersonId(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the window and dialog position and size settings belonging to the specified person\n"
+  syntax:
+    content: public WindowPosSize[] GetWindowPosSizesOnPersonId(int personId)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: Person id of the associate owning these window settings
+    return:
+      type: SuperOffice.CRM.Services.WindowPosSize[]
+      description: Array of window and dialog position and size settings
+    content.vb: Public Function GetWindowPosSizesOnPersonId(personId As Integer) As WindowPosSize()
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizesOnPersonId*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSizesOnPersonId(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizesOnAssociateId(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizesOnAssociateId(System.Int32)
+  id: GetWindowPosSizesOnAssociateId(System.Int32)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetWindowPosSizesOnAssociateId(Int32)
+  nameWithType: ConfigurationAgent.GetWindowPosSizesOnAssociateId(Int32)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizesOnAssociateId(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the window and dialog position and size settings belonging to the specified associate\n"
+  syntax:
+    content: public WindowPosSize[] GetWindowPosSizesOnAssociateId(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: Associate id of the Associate/Person owning these window settings
+    return:
+      type: SuperOffice.CRM.Services.WindowPosSize[]
+      description: Array of window and dialog position and size settings
+    content.vb: Public Function GetWindowPosSizesOnAssociateId(associateId As Integer) As WindowPosSize()
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizesOnAssociateId*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSizesOnAssociateId(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.SaveWindowPosSizes(SuperOffice.CRM.Services.WindowPosSize[])
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.SaveWindowPosSizes(SuperOffice.CRM.Services.WindowPosSize[])
+  id: SaveWindowPosSizes(SuperOffice.CRM.Services.WindowPosSize[])
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveWindowPosSizes(WindowPosSize[])
+  nameWithType: ConfigurationAgent.SaveWindowPosSizes(WindowPosSize[])
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.SaveWindowPosSizes(SuperOffice.CRM.Services.WindowPosSize[])
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSaves a set of window and dialog position and size settings.\n"
+  syntax:
+    content: public WindowPosSize[] SaveWindowPosSizes(WindowPosSize[] windowPosSizes)
+    parameters:
+    - id: windowPosSizes
+      type: SuperOffice.CRM.Services.WindowPosSize[]
+      description: The items that are saved
+    return:
+      type: SuperOffice.CRM.Services.WindowPosSize[]
+      description: The saved items
+    content.vb: Public Function SaveWindowPosSizes(windowPosSizes As WindowPosSize()) As WindowPosSize()
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.SaveWindowPosSizes*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.SaveWindowPosSizes(SuperOffice.CRM.Services.WindowPosSize[])
+  nameWithType.vb: ConfigurationAgent.SaveWindowPosSizes(WindowPosSize())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.ConfigurationAgent.SaveWindowPosSizes(SuperOffice.CRM.Services.WindowPosSize())
+  name.vb: SaveWindowPosSizes(WindowPosSize())
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetSystemEventEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.GetSystemEventEntity(System.Int32)
+  id: GetSystemEventEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSystemEventEntity(Int32)
+  nameWithType: ConfigurationAgent.GetSystemEventEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetSystemEventEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a SystemEventEntity object.                        \n"
+  syntax:
+    content: public SystemEventEntity GetSystemEventEntity(int systemEventEntityId)
+    parameters:
+    - id: systemEventEntityId
+      type: System.Int32
+      description: The identifier of the SystemEventEntity object
+    return:
+      type: SuperOffice.CRM.Services.SystemEventEntity
+      description: SystemEventEntity
+    content.vb: Public Function GetSystemEventEntity(systemEventEntityId As Integer) As SystemEventEntity
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.GetSystemEventEntity*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.GetSystemEventEntity(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.ExistsSystemEvent(System.String)
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.ExistsSystemEvent(System.String)
+  id: ExistsSystemEvent(System.String)
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: ExistsSystemEvent(String)
+  nameWithType: ConfigurationAgent.ExistsSystemEvent(String)
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.ExistsSystemEvent(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIs there a system event with the given key?\n"
+  syntax:
+    content: public bool ExistsSystemEvent(string key)
+    parameters:
+    - id: key
+      type: System.String
+      description: The key to match on
+    return:
+      type: System.Boolean
+      description: The system event
+    content.vb: Public Function ExistsSystemEvent(key As String) As Boolean
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.ExistsSystemEvent*
+  implements:
+  - SuperOffice.CRM.Services.IConfigurationAgent.ExistsSystemEvent(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.#ctor
+  commentId: M:SuperOffice.CRM.Services.ConfigurationAgent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ConfigurationAgent
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationAgent()
+  nameWithType: ConfigurationAgent.ConfigurationAgent()
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.ConfigurationAgent()
+  type: Constructor
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public ConfigurationAgent()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ConfigurationAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IConfigurationAgent}
+  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IConfigurationAgent}
+  parent: SuperOffice.CRM.Services
+  definition: SuperOffice.CRM.Services.AgentBase`1
+  name: AgentBase<IConfigurationAgent>
+  nameWithType: AgentBase<IConfigurationAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IConfigurationAgent>
+  nameWithType.vb: AgentBase(Of IConfigurationAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IConfigurationAgent)
+  name.vb: AgentBase(Of IConfigurationAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent
+    name: IConfigurationAgent
+    nameWithType: IConfigurationAgent
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent
+    name: IConfigurationAgent
+    nameWithType: IConfigurationAgent
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.CRM.Services.IConfigurationAgent
+  commentId: T:SuperOffice.CRM.Services.IConfigurationAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IConfigurationAgent
+  nameWithType: IConfigurationAgent
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent
+- uid: SuperOffice.CRM.Services.IAgent
+  commentId: T:SuperOffice.CRM.Services.IAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAgent
+  nameWithType: IAgent
+  fullName: SuperOffice.CRM.Services.IAgent
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IConfigurationAgent}.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IConfigurationAgent}.Dispose
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IConfigurationAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  name: Dispose()
+  nameWithType: AgentBase<IConfigurationAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IConfigurationAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of IConfigurationAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IConfigurationAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<IConfigurationAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IConfigurationAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of IConfigurationAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IConfigurationAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IConfigurationAgent}.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IConfigurationAgent}.InnerAgent
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IConfigurationAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  name: InnerAgent
+  nameWithType: AgentBase<IConfigurationAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IConfigurationAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of IConfigurationAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IConfigurationAgent).InnerAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AgentBase`1
+  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+  isExternal: true
+  name: AgentBase<TAgent>
+  nameWithType: AgentBase<TAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
+  nameWithType.vb: AgentBase(Of TAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
+  name.vb: AgentBase(Of TAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase<TAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of TAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  isExternal: true
+  name: InnerAgent
+  nameWithType: AgentBase<TAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.CreateDefaultDiaryViewEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.CreateDefaultDiaryViewEntity
+  isExternal: true
+  name: CreateDefaultDiaryViewEntity
+  nameWithType: ConfigurationAgent.CreateDefaultDiaryViewEntity
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.CreateDefaultDiaryViewEntity
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.CreateDefaultDiaryViewEntity
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.CreateDefaultDiaryViewEntity
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: CreateDefaultDiaryViewEntity()
+  nameWithType: IConfigurationAgent.CreateDefaultDiaryViewEntity()
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.CreateDefaultDiaryViewEntity()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.CreateDefaultDiaryViewEntity
+    name: CreateDefaultDiaryViewEntity
+    nameWithType: IConfigurationAgent.CreateDefaultDiaryViewEntity
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.CreateDefaultDiaryViewEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.CreateDefaultDiaryViewEntity
+    name: CreateDefaultDiaryViewEntity
+    nameWithType: IConfigurationAgent.CreateDefaultDiaryViewEntity
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.CreateDefaultDiaryViewEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.DiaryViewEntity
+  commentId: T:SuperOffice.CRM.Services.DiaryViewEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: DiaryViewEntity
+  nameWithType: DiaryViewEntity
+  fullName: SuperOffice.CRM.Services.DiaryViewEntity
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.SaveDiaryViewEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.SaveDiaryViewEntity
+  isExternal: true
+  name: SaveDiaryViewEntity
+  nameWithType: ConfigurationAgent.SaveDiaryViewEntity
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.SaveDiaryViewEntity
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.SaveDiaryViewEntity(SuperOffice.CRM.Services.DiaryViewEntity)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.SaveDiaryViewEntity(SuperOffice.CRM.Services.DiaryViewEntity)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: SaveDiaryViewEntity(DiaryViewEntity)
+  nameWithType: IConfigurationAgent.SaveDiaryViewEntity(DiaryViewEntity)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.SaveDiaryViewEntity(SuperOffice.CRM.Services.DiaryViewEntity)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.SaveDiaryViewEntity(SuperOffice.CRM.Services.DiaryViewEntity)
+    name: SaveDiaryViewEntity
+    nameWithType: IConfigurationAgent.SaveDiaryViewEntity
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.SaveDiaryViewEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.DiaryViewEntity
+    name: DiaryViewEntity
+    nameWithType: DiaryViewEntity
+    fullName: SuperOffice.CRM.Services.DiaryViewEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.SaveDiaryViewEntity(SuperOffice.CRM.Services.DiaryViewEntity)
+    name: SaveDiaryViewEntity
+    nameWithType: IConfigurationAgent.SaveDiaryViewEntity
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.SaveDiaryViewEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.DiaryViewEntity
+    name: DiaryViewEntity
+    nameWithType: DiaryViewEntity
+    fullName: SuperOffice.CRM.Services.DiaryViewEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.DeleteDiaryViewEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.DeleteDiaryViewEntity
+  isExternal: true
+  name: DeleteDiaryViewEntity
+  nameWithType: ConfigurationAgent.DeleteDiaryViewEntity
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.DeleteDiaryViewEntity
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.DeleteDiaryViewEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.DeleteDiaryViewEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: DeleteDiaryViewEntity(Int32)
+  nameWithType: IConfigurationAgent.DeleteDiaryViewEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.DeleteDiaryViewEntity(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.DeleteDiaryViewEntity(System.Int32)
+    name: DeleteDiaryViewEntity
+    nameWithType: IConfigurationAgent.DeleteDiaryViewEntity
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.DeleteDiaryViewEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.DeleteDiaryViewEntity(System.Int32)
+    name: DeleteDiaryViewEntity
+    nameWithType: IConfigurationAgent.DeleteDiaryViewEntity
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.DeleteDiaryViewEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.CreateDefaultSystemEventEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.CreateDefaultSystemEventEntity
+  isExternal: true
+  name: CreateDefaultSystemEventEntity
+  nameWithType: ConfigurationAgent.CreateDefaultSystemEventEntity
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.CreateDefaultSystemEventEntity
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.CreateDefaultSystemEventEntity
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.CreateDefaultSystemEventEntity
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: CreateDefaultSystemEventEntity()
+  nameWithType: IConfigurationAgent.CreateDefaultSystemEventEntity()
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.CreateDefaultSystemEventEntity()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.CreateDefaultSystemEventEntity
+    name: CreateDefaultSystemEventEntity
+    nameWithType: IConfigurationAgent.CreateDefaultSystemEventEntity
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.CreateDefaultSystemEventEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.CreateDefaultSystemEventEntity
+    name: CreateDefaultSystemEventEntity
+    nameWithType: IConfigurationAgent.CreateDefaultSystemEventEntity
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.CreateDefaultSystemEventEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SystemEventEntity
+  commentId: T:SuperOffice.CRM.Services.SystemEventEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: SystemEventEntity
+  nameWithType: SystemEventEntity
+  fullName: SuperOffice.CRM.Services.SystemEventEntity
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.SaveSystemEventEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.SaveSystemEventEntity
+  isExternal: true
+  name: SaveSystemEventEntity
+  nameWithType: ConfigurationAgent.SaveSystemEventEntity
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.SaveSystemEventEntity
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.SaveSystemEventEntity(SuperOffice.CRM.Services.SystemEventEntity)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.SaveSystemEventEntity(SuperOffice.CRM.Services.SystemEventEntity)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: SaveSystemEventEntity(SystemEventEntity)
+  nameWithType: IConfigurationAgent.SaveSystemEventEntity(SystemEventEntity)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.SaveSystemEventEntity(SuperOffice.CRM.Services.SystemEventEntity)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.SaveSystemEventEntity(SuperOffice.CRM.Services.SystemEventEntity)
+    name: SaveSystemEventEntity
+    nameWithType: IConfigurationAgent.SaveSystemEventEntity
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.SaveSystemEventEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.SystemEventEntity
+    name: SystemEventEntity
+    nameWithType: SystemEventEntity
+    fullName: SuperOffice.CRM.Services.SystemEventEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.SaveSystemEventEntity(SuperOffice.CRM.Services.SystemEventEntity)
+    name: SaveSystemEventEntity
+    nameWithType: IConfigurationAgent.SaveSystemEventEntity
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.SaveSystemEventEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.SystemEventEntity
+    name: SystemEventEntity
+    nameWithType: SystemEventEntity
+    fullName: SuperOffice.CRM.Services.SystemEventEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.DeleteSystemEventEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.DeleteSystemEventEntity
+  isExternal: true
+  name: DeleteSystemEventEntity
+  nameWithType: ConfigurationAgent.DeleteSystemEventEntity
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.DeleteSystemEventEntity
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.DeleteSystemEventEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.DeleteSystemEventEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: DeleteSystemEventEntity(Int32)
+  nameWithType: IConfigurationAgent.DeleteSystemEventEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.DeleteSystemEventEntity(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.DeleteSystemEventEntity(System.Int32)
+    name: DeleteSystemEventEntity
+    nameWithType: IConfigurationAgent.DeleteSystemEventEntity
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.DeleteSystemEventEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.DeleteSystemEventEntity(System.Int32)
+    name: DeleteSystemEventEntity
+    nameWithType: IConfigurationAgent.DeleteSystemEventEntity
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.DeleteSystemEventEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetApplicationConfiguration*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetApplicationConfiguration
+  isExternal: true
+  name: GetApplicationConfiguration
+  nameWithType: ConfigurationAgent.GetApplicationConfiguration
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetApplicationConfiguration
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetApplicationConfiguration(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetApplicationConfiguration(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetApplicationConfiguration(String, String)
+  nameWithType: IConfigurationAgent.GetApplicationConfiguration(String, String)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetApplicationConfiguration(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetApplicationConfiguration(System.String,System.String)
+    name: GetApplicationConfiguration
+    nameWithType: IConfigurationAgent.GetApplicationConfiguration
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetApplicationConfiguration
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetApplicationConfiguration(System.String,System.String)
+    name: GetApplicationConfiguration
+    nameWithType: IConfigurationAgent.GetApplicationConfiguration
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetApplicationConfiguration
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetPageConfiguration*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetPageConfiguration
+  isExternal: true
+  name: GetPageConfiguration
+  nameWithType: ConfigurationAgent.GetPageConfiguration
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetPageConfiguration
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetPageConfiguration(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetPageConfiguration(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetPageConfiguration(String, String, String)
+  nameWithType: IConfigurationAgent.GetPageConfiguration(String, String, String)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetPageConfiguration(System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetPageConfiguration(System.String,System.String,System.String)
+    name: GetPageConfiguration
+    nameWithType: IConfigurationAgent.GetPageConfiguration
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetPageConfiguration
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetPageConfiguration(System.String,System.String,System.String)
+    name: GetPageConfiguration
+    nameWithType: IConfigurationAgent.GetPageConfiguration
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetPageConfiguration
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetObjectMapping*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetObjectMapping
+  isExternal: true
+  name: GetObjectMapping
+  nameWithType: ConfigurationAgent.GetObjectMapping
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetObjectMapping
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetObjectMapping(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetObjectMapping(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetObjectMapping(String, String)
+  nameWithType: IConfigurationAgent.GetObjectMapping(String, String)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetObjectMapping(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetObjectMapping(System.String,System.String)
+    name: GetObjectMapping
+    nameWithType: IConfigurationAgent.GetObjectMapping
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetObjectMapping
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetObjectMapping(System.String,System.String)
+    name: GetObjectMapping
+    nameWithType: IConfigurationAgent.GetObjectMapping
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetObjectMapping
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetFilterList*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetFilterList
+  isExternal: true
+  name: GetFilterList
+  nameWithType: ConfigurationAgent.GetFilterList
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetFilterList
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetFilterList(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetFilterList(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetFilterList(String, String)
+  nameWithType: IConfigurationAgent.GetFilterList(String, String)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetFilterList(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetFilterList(System.String,System.String)
+    name: GetFilterList
+    nameWithType: IConfigurationAgent.GetFilterList
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetFilterList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetFilterList(System.String,System.String)
+    name: GetFilterList
+    nameWithType: IConfigurationAgent.GetFilterList
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetFilterList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.ClearConfigurationCache*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.ClearConfigurationCache
+  isExternal: true
+  name: ClearConfigurationCache
+  nameWithType: ConfigurationAgent.ClearConfigurationCache
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.ClearConfigurationCache
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.ClearConfigurationCache(System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.ClearConfigurationCache(System.String,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: ClearConfigurationCache(String, String, Boolean)
+  nameWithType: IConfigurationAgent.ClearConfigurationCache(String, String, Boolean)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.ClearConfigurationCache(System.String, System.String, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.ClearConfigurationCache(System.String,System.String,System.Boolean)
+    name: ClearConfigurationCache
+    nameWithType: IConfigurationAgent.ClearConfigurationCache
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.ClearConfigurationCache
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.ClearConfigurationCache(System.String,System.String,System.Boolean)
+    name: ClearConfigurationCache
+    nameWithType: IConfigurationAgent.ClearConfigurationCache
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.ClearConfigurationCache
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetAnyConfiguration*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetAnyConfiguration
+  isExternal: true
+  name: GetAnyConfiguration
+  nameWithType: ConfigurationAgent.GetAnyConfiguration
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetAnyConfiguration
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetAnyConfiguration(System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetAnyConfiguration(System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetAnyConfiguration(String, String, String, String)
+  nameWithType: IConfigurationAgent.GetAnyConfiguration(String, String, String, String)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetAnyConfiguration(System.String, System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetAnyConfiguration(System.String,System.String,System.String,System.String)
+    name: GetAnyConfiguration
+    nameWithType: IConfigurationAgent.GetAnyConfiguration
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetAnyConfiguration
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetAnyConfiguration(System.String,System.String,System.String,System.String)
+    name: GetAnyConfiguration
+    nameWithType: IConfigurationAgent.GetAnyConfiguration
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetAnyConfiguration
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetEMarketingUrl*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetEMarketingUrl
+  isExternal: true
+  name: GetEMarketingUrl
+  nameWithType: ConfigurationAgent.GetEMarketingUrl
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetEMarketingUrl
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetEMarketingUrl(System.String)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetEMarketingUrl(System.String)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetEMarketingUrl(String)
+  nameWithType: IConfigurationAgent.GetEMarketingUrl(String)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetEMarketingUrl(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetEMarketingUrl(System.String)
+    name: GetEMarketingUrl
+    nameWithType: IConfigurationAgent.GetEMarketingUrl
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetEMarketingUrl
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetEMarketingUrl(System.String)
+    name: GetEMarketingUrl
+    nameWithType: IConfigurationAgent.GetEMarketingUrl
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetEMarketingUrl
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetCsProgramUrl*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetCsProgramUrl
+  isExternal: true
+  name: GetCsProgramUrl
+  nameWithType: ConfigurationAgent.GetCsProgramUrl
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetCsProgramUrl
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetCsProgramUrl(System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetCsProgramUrl(System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetCsProgramUrl(String, String, String, String)
+  nameWithType: IConfigurationAgent.GetCsProgramUrl(String, String, String, String)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetCsProgramUrl(System.String, System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetCsProgramUrl(System.String,System.String,System.String,System.String)
+    name: GetCsProgramUrl
+    nameWithType: IConfigurationAgent.GetCsProgramUrl
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetCsProgramUrl
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetCsProgramUrl(System.String,System.String,System.String,System.String)
+    name: GetCsProgramUrl
+    nameWithType: IConfigurationAgent.GetCsProgramUrl
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetCsProgramUrl
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetCSAuthUrl*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetCSAuthUrl
+  isExternal: true
+  name: GetCSAuthUrl
+  nameWithType: ConfigurationAgent.GetCSAuthUrl
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetCSAuthUrl
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetCSAuthUrl(System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetCSAuthUrl(System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetCSAuthUrl(String, String, String, String)
+  nameWithType: IConfigurationAgent.GetCSAuthUrl(String, String, String, String)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetCSAuthUrl(System.String, System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetCSAuthUrl(System.String,System.String,System.String,System.String)
+    name: GetCSAuthUrl
+    nameWithType: IConfigurationAgent.GetCSAuthUrl
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetCSAuthUrl
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetCSAuthUrl(System.String,System.String,System.String,System.String)
+    name: GetCSAuthUrl
+    nameWithType: IConfigurationAgent.GetCSAuthUrl
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetCSAuthUrl
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetCSRegistryValue*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetCSRegistryValue
+  isExternal: true
+  name: GetCSRegistryValue
+  nameWithType: ConfigurationAgent.GetCSRegistryValue
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetCSRegistryValue
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetCSRegistryValue(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetCSRegistryValue(System.Int32)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetCSRegistryValue(Int32)
+  nameWithType: IConfigurationAgent.GetCSRegistryValue(Int32)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetCSRegistryValue(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetCSRegistryValue(System.Int32)
+    name: GetCSRegistryValue
+    nameWithType: IConfigurationAgent.GetCSRegistryValue
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetCSRegistryValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetCSRegistryValue(System.Int32)
+    name: GetCSRegistryValue
+    nameWithType: IConfigurationAgent.GetCSRegistryValue
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetCSRegistryValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetCSWwwFolder*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetCSWwwFolder
+  isExternal: true
+  name: GetCSWwwFolder
+  nameWithType: ConfigurationAgent.GetCSWwwFolder
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetCSWwwFolder
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetCSWwwFolder
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetCSWwwFolder
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetCSWwwFolder()
+  nameWithType: IConfigurationAgent.GetCSWwwFolder()
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetCSWwwFolder()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetCSWwwFolder
+    name: GetCSWwwFolder
+    nameWithType: IConfigurationAgent.GetCSWwwFolder
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetCSWwwFolder
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetCSWwwFolder
+    name: GetCSWwwFolder
+    nameWithType: IConfigurationAgent.GetCSWwwFolder
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetCSWwwFolder
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetRefreshedPageConfiguration*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetRefreshedPageConfiguration
+  isExternal: true
+  name: GetRefreshedPageConfiguration
+  nameWithType: ConfigurationAgent.GetRefreshedPageConfiguration
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetRefreshedPageConfiguration
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetRefreshedPageConfiguration(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetRefreshedPageConfiguration(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetRefreshedPageConfiguration(String, String, String)
+  nameWithType: IConfigurationAgent.GetRefreshedPageConfiguration(String, String, String)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetRefreshedPageConfiguration(System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetRefreshedPageConfiguration(System.String,System.String,System.String)
+    name: GetRefreshedPageConfiguration
+    nameWithType: IConfigurationAgent.GetRefreshedPageConfiguration
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetRefreshedPageConfiguration
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetRefreshedPageConfiguration(System.String,System.String,System.String)
+    name: GetRefreshedPageConfiguration
+    nameWithType: IConfigurationAgent.GetRefreshedPageConfiguration
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetRefreshedPageConfiguration
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetWwwUrl*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetWwwUrl
+  isExternal: true
+  name: GetWwwUrl
+  nameWithType: ConfigurationAgent.GetWwwUrl
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetWwwUrl
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetWwwUrl(System.String)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetWwwUrl(System.String)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetWwwUrl(String)
+  nameWithType: IConfigurationAgent.GetWwwUrl(String)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetWwwUrl(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetWwwUrl(System.String)
+    name: GetWwwUrl
+    nameWithType: IConfigurationAgent.GetWwwUrl
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetWwwUrl
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetWwwUrl(System.String)
+    name: GetWwwUrl
+    nameWithType: IConfigurationAgent.GetWwwUrl
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetWwwUrl
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetHelpDispatcherUrl*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetHelpDispatcherUrl
+  isExternal: true
+  name: GetHelpDispatcherUrl
+  nameWithType: ConfigurationAgent.GetHelpDispatcherUrl
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetHelpDispatcherUrl
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetHelpDispatcherUrl
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetHelpDispatcherUrl
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetHelpDispatcherUrl()
+  nameWithType: IConfigurationAgent.GetHelpDispatcherUrl()
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetHelpDispatcherUrl()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetHelpDispatcherUrl
+    name: GetHelpDispatcherUrl
+    nameWithType: IConfigurationAgent.GetHelpDispatcherUrl
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetHelpDispatcherUrl
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetHelpDispatcherUrl
+    name: GetHelpDispatcherUrl
+    nameWithType: IConfigurationAgent.GetHelpDispatcherUrl
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetHelpDispatcherUrl
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetWwwUrlForSMWeb*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetWwwUrlForSMWeb
+  isExternal: true
+  name: GetWwwUrlForSMWeb
+  nameWithType: ConfigurationAgent.GetWwwUrlForSMWeb
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetWwwUrlForSMWeb
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetWwwUrlForSMWeb
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetWwwUrlForSMWeb
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetWwwUrlForSMWeb()
+  nameWithType: IConfigurationAgent.GetWwwUrlForSMWeb()
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetWwwUrlForSMWeb()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetWwwUrlForSMWeb
+    name: GetWwwUrlForSMWeb
+    nameWithType: IConfigurationAgent.GetWwwUrlForSMWeb
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetWwwUrlForSMWeb
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetWwwUrlForSMWeb
+    name: GetWwwUrlForSMWeb
+    nameWithType: IConfigurationAgent.GetWwwUrlForSMWeb
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetWwwUrlForSMWeb
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetCsCgiUrlInternal*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetCsCgiUrlInternal
+  isExternal: true
+  name: GetCsCgiUrlInternal
+  nameWithType: ConfigurationAgent.GetCsCgiUrlInternal
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetCsCgiUrlInternal
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetCsCgiUrlInternal
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetCsCgiUrlInternal
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetCsCgiUrlInternal()
+  nameWithType: IConfigurationAgent.GetCsCgiUrlInternal()
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetCsCgiUrlInternal()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetCsCgiUrlInternal
+    name: GetCsCgiUrlInternal
+    nameWithType: IConfigurationAgent.GetCsCgiUrlInternal
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetCsCgiUrlInternal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetCsCgiUrlInternal
+    name: GetCsCgiUrlInternal
+    nameWithType: IConfigurationAgent.GetCsCgiUrlInternal
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetCsCgiUrlInternal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetCRMUrl*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetCRMUrl
+  isExternal: true
+  name: GetCRMUrl
+  nameWithType: ConfigurationAgent.GetCRMUrl
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetCRMUrl
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetCRMUrl(System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetCRMUrl(System.String,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetCRMUrl(String, String, Boolean)
+  nameWithType: IConfigurationAgent.GetCRMUrl(String, String, Boolean)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetCRMUrl(System.String, System.String, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetCRMUrl(System.String,System.String,System.Boolean)
+    name: GetCRMUrl
+    nameWithType: IConfigurationAgent.GetCRMUrl
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetCRMUrl
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetCRMUrl(System.String,System.String,System.Boolean)
+    name: GetCRMUrl
+    nameWithType: IConfigurationAgent.GetCRMUrl
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetCRMUrl
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetEmailNumberOfDays*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetEmailNumberOfDays
+  isExternal: true
+  name: GetEmailNumberOfDays
+  nameWithType: ConfigurationAgent.GetEmailNumberOfDays
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetEmailNumberOfDays
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetEmailNumberOfDays
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetEmailNumberOfDays
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetEmailNumberOfDays()
+  nameWithType: IConfigurationAgent.GetEmailNumberOfDays()
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetEmailNumberOfDays()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetEmailNumberOfDays
+    name: GetEmailNumberOfDays
+    nameWithType: IConfigurationAgent.GetEmailNumberOfDays
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetEmailNumberOfDays
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetEmailNumberOfDays
+    name: GetEmailNumberOfDays
+    nameWithType: IConfigurationAgent.GetEmailNumberOfDays
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetEmailNumberOfDays
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetCustomerUrl*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetCustomerUrl
+  isExternal: true
+  name: GetCustomerUrl
+  nameWithType: ConfigurationAgent.GetCustomerUrl
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetCustomerUrl
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetCustomerUrl
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetCustomerUrl
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetCustomerUrl()
+  nameWithType: IConfigurationAgent.GetCustomerUrl()
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetCustomerUrl()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetCustomerUrl
+    name: GetCustomerUrl
+    nameWithType: IConfigurationAgent.GetCustomerUrl
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetCustomerUrl
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetCustomerUrl
+    name: GetCustomerUrl
+    nameWithType: IConfigurationAgent.GetCustomerUrl
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetCustomerUrl
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetDiaryViewEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetDiaryViewEntity
+  isExternal: true
+  name: GetDiaryViewEntity
+  nameWithType: ConfigurationAgent.GetDiaryViewEntity
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetDiaryViewEntity
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetDiaryViewEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetDiaryViewEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetDiaryViewEntity(Int32)
+  nameWithType: IConfigurationAgent.GetDiaryViewEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetDiaryViewEntity(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetDiaryViewEntity(System.Int32)
+    name: GetDiaryViewEntity
+    nameWithType: IConfigurationAgent.GetDiaryViewEntity
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetDiaryViewEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetDiaryViewEntity(System.Int32)
+    name: GetDiaryViewEntity
+    nameWithType: IConfigurationAgent.GetDiaryViewEntity
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetDiaryViewEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSize*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSize
+  isExternal: true
+  name: GetWindowPosSize
+  nameWithType: ConfigurationAgent.GetWindowPosSize
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSize
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSize(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSize(System.Int32)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetWindowPosSize(Int32)
+  nameWithType: IConfigurationAgent.GetWindowPosSize(Int32)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSize(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSize(System.Int32)
+    name: GetWindowPosSize
+    nameWithType: IConfigurationAgent.GetWindowPosSize
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSize(System.Int32)
+    name: GetWindowPosSize
+    nameWithType: IConfigurationAgent.GetWindowPosSize
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.WindowPosSize
+  commentId: T:SuperOffice.CRM.Services.WindowPosSize
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: WindowPosSize
+  nameWithType: WindowPosSize
+  fullName: SuperOffice.CRM.Services.WindowPosSize
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.SaveWindowPosSize*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.SaveWindowPosSize
+  isExternal: true
+  name: SaveWindowPosSize
+  nameWithType: ConfigurationAgent.SaveWindowPosSize
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.SaveWindowPosSize
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.SaveWindowPosSize(SuperOffice.CRM.Services.WindowPosSize)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.SaveWindowPosSize(SuperOffice.CRM.Services.WindowPosSize)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: SaveWindowPosSize(WindowPosSize)
+  nameWithType: IConfigurationAgent.SaveWindowPosSize(WindowPosSize)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.SaveWindowPosSize(SuperOffice.CRM.Services.WindowPosSize)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.SaveWindowPosSize(SuperOffice.CRM.Services.WindowPosSize)
+    name: SaveWindowPosSize
+    nameWithType: IConfigurationAgent.SaveWindowPosSize
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.SaveWindowPosSize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.WindowPosSize
+    name: WindowPosSize
+    nameWithType: WindowPosSize
+    fullName: SuperOffice.CRM.Services.WindowPosSize
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.SaveWindowPosSize(SuperOffice.CRM.Services.WindowPosSize)
+    name: SaveWindowPosSize
+    nameWithType: IConfigurationAgent.SaveWindowPosSize
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.SaveWindowPosSize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.WindowPosSize
+    name: WindowPosSize
+    nameWithType: WindowPosSize
+    fullName: SuperOffice.CRM.Services.WindowPosSize
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.DeleteWindowPosSize*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.DeleteWindowPosSize
+  isExternal: true
+  name: DeleteWindowPosSize
+  nameWithType: ConfigurationAgent.DeleteWindowPosSize
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.DeleteWindowPosSize
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.DeleteWindowPosSize(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.DeleteWindowPosSize(System.Int32)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: DeleteWindowPosSize(Int32)
+  nameWithType: IConfigurationAgent.DeleteWindowPosSize(Int32)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.DeleteWindowPosSize(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.DeleteWindowPosSize(System.Int32)
+    name: DeleteWindowPosSize
+    nameWithType: IConfigurationAgent.DeleteWindowPosSize
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.DeleteWindowPosSize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.DeleteWindowPosSize(System.Int32)
+    name: DeleteWindowPosSize
+    nameWithType: IConfigurationAgent.DeleteWindowPosSize
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.DeleteWindowPosSize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizeList*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizeList
+  isExternal: true
+  name: GetWindowPosSizeList
+  nameWithType: ConfigurationAgent.GetWindowPosSizeList
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizeList
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSizeList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSizeList(System.Int32[])
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetWindowPosSizeList(Int32[])
+  nameWithType: IConfigurationAgent.GetWindowPosSizeList(Int32[])
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSizeList(System.Int32[])
+  nameWithType.vb: IConfigurationAgent.GetWindowPosSizeList(Int32())
+  fullName.vb: SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSizeList(System.Int32())
+  name.vb: GetWindowPosSizeList(Int32())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSizeList(System.Int32[])
+    name: GetWindowPosSizeList
+    nameWithType: IConfigurationAgent.GetWindowPosSizeList
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSizeList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSizeList(System.Int32[])
+    name: GetWindowPosSizeList
+    nameWithType: IConfigurationAgent.GetWindowPosSizeList
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSizeList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.WindowPosSize[]
+  isExternal: true
+  name: WindowPosSize[]
+  nameWithType: WindowPosSize[]
+  fullName: SuperOffice.CRM.Services.WindowPosSize[]
+  nameWithType.vb: WindowPosSize()
+  fullName.vb: SuperOffice.CRM.Services.WindowPosSize()
+  name.vb: WindowPosSize()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.WindowPosSize
+    name: WindowPosSize
+    nameWithType: WindowPosSize
+    fullName: SuperOffice.CRM.Services.WindowPosSize
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.WindowPosSize
+    name: WindowPosSize
+    nameWithType: WindowPosSize
+    fullName: SuperOffice.CRM.Services.WindowPosSize
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetMyWindowPosSizes*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetMyWindowPosSizes
+  isExternal: true
+  name: GetMyWindowPosSizes
+  nameWithType: ConfigurationAgent.GetMyWindowPosSizes
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetMyWindowPosSizes
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetMyWindowPosSizes
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetMyWindowPosSizes
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetMyWindowPosSizes()
+  nameWithType: IConfigurationAgent.GetMyWindowPosSizes()
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetMyWindowPosSizes()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetMyWindowPosSizes
+    name: GetMyWindowPosSizes
+    nameWithType: IConfigurationAgent.GetMyWindowPosSizes
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetMyWindowPosSizes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetMyWindowPosSizes
+    name: GetMyWindowPosSizes
+    nameWithType: IConfigurationAgent.GetMyWindowPosSizes
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetMyWindowPosSizes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizesOnPersonId*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizesOnPersonId
+  isExternal: true
+  name: GetWindowPosSizesOnPersonId
+  nameWithType: ConfigurationAgent.GetWindowPosSizesOnPersonId
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizesOnPersonId
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSizesOnPersonId(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSizesOnPersonId(System.Int32)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetWindowPosSizesOnPersonId(Int32)
+  nameWithType: IConfigurationAgent.GetWindowPosSizesOnPersonId(Int32)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSizesOnPersonId(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSizesOnPersonId(System.Int32)
+    name: GetWindowPosSizesOnPersonId
+    nameWithType: IConfigurationAgent.GetWindowPosSizesOnPersonId
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSizesOnPersonId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSizesOnPersonId(System.Int32)
+    name: GetWindowPosSizesOnPersonId
+    nameWithType: IConfigurationAgent.GetWindowPosSizesOnPersonId
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSizesOnPersonId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizesOnAssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizesOnAssociateId
+  isExternal: true
+  name: GetWindowPosSizesOnAssociateId
+  nameWithType: ConfigurationAgent.GetWindowPosSizesOnAssociateId
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetWindowPosSizesOnAssociateId
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSizesOnAssociateId(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSizesOnAssociateId(System.Int32)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetWindowPosSizesOnAssociateId(Int32)
+  nameWithType: IConfigurationAgent.GetWindowPosSizesOnAssociateId(Int32)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSizesOnAssociateId(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSizesOnAssociateId(System.Int32)
+    name: GetWindowPosSizesOnAssociateId
+    nameWithType: IConfigurationAgent.GetWindowPosSizesOnAssociateId
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSizesOnAssociateId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSizesOnAssociateId(System.Int32)
+    name: GetWindowPosSizesOnAssociateId
+    nameWithType: IConfigurationAgent.GetWindowPosSizesOnAssociateId
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetWindowPosSizesOnAssociateId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.SaveWindowPosSizes*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.SaveWindowPosSizes
+  isExternal: true
+  name: SaveWindowPosSizes
+  nameWithType: ConfigurationAgent.SaveWindowPosSizes
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.SaveWindowPosSizes
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.SaveWindowPosSizes(SuperOffice.CRM.Services.WindowPosSize[])
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.SaveWindowPosSizes(SuperOffice.CRM.Services.WindowPosSize[])
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: SaveWindowPosSizes(WindowPosSize[])
+  nameWithType: IConfigurationAgent.SaveWindowPosSizes(WindowPosSize[])
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.SaveWindowPosSizes(SuperOffice.CRM.Services.WindowPosSize[])
+  nameWithType.vb: IConfigurationAgent.SaveWindowPosSizes(WindowPosSize())
+  fullName.vb: SuperOffice.CRM.Services.IConfigurationAgent.SaveWindowPosSizes(SuperOffice.CRM.Services.WindowPosSize())
+  name.vb: SaveWindowPosSizes(WindowPosSize())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.SaveWindowPosSizes(SuperOffice.CRM.Services.WindowPosSize[])
+    name: SaveWindowPosSizes
+    nameWithType: IConfigurationAgent.SaveWindowPosSizes
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.SaveWindowPosSizes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.WindowPosSize
+    name: WindowPosSize
+    nameWithType: WindowPosSize
+    fullName: SuperOffice.CRM.Services.WindowPosSize
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.SaveWindowPosSizes(SuperOffice.CRM.Services.WindowPosSize[])
+    name: SaveWindowPosSizes
+    nameWithType: IConfigurationAgent.SaveWindowPosSizes
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.SaveWindowPosSizes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.WindowPosSize
+    name: WindowPosSize
+    nameWithType: WindowPosSize
+    fullName: SuperOffice.CRM.Services.WindowPosSize
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.GetSystemEventEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.GetSystemEventEntity
+  isExternal: true
+  name: GetSystemEventEntity
+  nameWithType: ConfigurationAgent.GetSystemEventEntity
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.GetSystemEventEntity
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.GetSystemEventEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.GetSystemEventEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: GetSystemEventEntity(Int32)
+  nameWithType: IConfigurationAgent.GetSystemEventEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetSystemEventEntity(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetSystemEventEntity(System.Int32)
+    name: GetSystemEventEntity
+    nameWithType: IConfigurationAgent.GetSystemEventEntity
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetSystemEventEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.GetSystemEventEntity(System.Int32)
+    name: GetSystemEventEntity
+    nameWithType: IConfigurationAgent.GetSystemEventEntity
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.GetSystemEventEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.ExistsSystemEvent*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.ExistsSystemEvent
+  isExternal: true
+  name: ExistsSystemEvent
+  nameWithType: ConfigurationAgent.ExistsSystemEvent
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.ExistsSystemEvent
+- uid: SuperOffice.CRM.Services.IConfigurationAgent.ExistsSystemEvent(System.String)
+  commentId: M:SuperOffice.CRM.Services.IConfigurationAgent.ExistsSystemEvent(System.String)
+  parent: SuperOffice.CRM.Services.IConfigurationAgent
+  isExternal: true
+  name: ExistsSystemEvent(String)
+  nameWithType: IConfigurationAgent.ExistsSystemEvent(String)
+  fullName: SuperOffice.CRM.Services.IConfigurationAgent.ExistsSystemEvent(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.ExistsSystemEvent(System.String)
+    name: ExistsSystemEvent
+    nameWithType: IConfigurationAgent.ExistsSystemEvent
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.ExistsSystemEvent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IConfigurationAgent.ExistsSystemEvent(System.String)
+    name: ExistsSystemEvent
+    nameWithType: IConfigurationAgent.ExistsSystemEvent
+    fullName: SuperOffice.CRM.Services.IConfigurationAgent.ExistsSystemEvent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ConfigurationAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ConfigurationAgent.#ctor
+  isExternal: true
+  name: ConfigurationAgent
+  nameWithType: ConfigurationAgent.ConfigurationAgent
+  fullName: SuperOffice.CRM.Services.ConfigurationAgent.ConfigurationAgent

@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes
+  id: SoWwwPhone.DisplayModes
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes.Email
+  - SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes.Fax
+  - SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes.Telephone
+  - SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes.WebSite
+  langs:
+  - csharp
+  - vb
+  name: SoWwwPhone.DisplayModes
+  nameWithType: SoWwwPhone.DisplayModes
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public enum DisplayModes
+    content.vb: Public Enum DisplayModes
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes.Telephone
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes.Telephone
+  id: Telephone
+  parent: SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes
+  langs:
+  - csharp
+  - vb
+  name: Telephone
+  nameWithType: SoWwwPhone.DisplayModes.Telephone
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes.Telephone
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Telephone = 0
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes.Fax
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes.Fax
+  id: Fax
+  parent: SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes
+  langs:
+  - csharp
+  - vb
+  name: Fax
+  nameWithType: SoWwwPhone.DisplayModes.Fax
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes.Fax
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Fax = 1
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes.Email
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes.Email
+  id: Email
+  parent: SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: SoWwwPhone.DisplayModes.Email
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes.Email
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Email = 2
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes.WebSite
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes.WebSite
+  id: WebSite
+  parent: SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes
+  langs:
+  - csharp
+  - vb
+  name: WebSite
+  nameWithType: SoWwwPhone.DisplayModes.WebSite
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes.WebSite
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: WebSite = 3
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SoWwwPhone.DisplayModes
+  nameWithType: SoWwwPhone.DisplayModes
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes

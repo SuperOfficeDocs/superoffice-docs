@@ -1,0 +1,1053 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+  commentId: T:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+  id: ConfigurationManager.ApplicationSettings.PageDefinition
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.#ctor(System.Xml.XmlNode)
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.ClientCache
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.CustomFileName
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.ForceSize
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.FunctionRight
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Height
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Id
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.IsDialog
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.LicenseCheck
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Minimizable
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.PrefKey
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.PrefSection
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.SubClients
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.ToString
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Type
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.UICache
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.UserLevelCache
+  - SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Width
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationManager.ApplicationSettings.PageDefinition
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public class PageDefinition
+    content.vb: Public Class PageDefinition
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.#ctor(System.Xml.XmlNode)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.#ctor(System.Xml.XmlNode)
+  id: '#ctor(System.Xml.XmlNode)'
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+  langs:
+  - csharp
+  - vb
+  name: PageDefinition(XmlNode)
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.PageDefinition(XmlNode)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.PageDefinition(System.Xml.XmlNode)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public PageDefinition(XmlNode configXml)
+    parameters:
+    - id: configXml
+      type: System.Xml.XmlNode
+    content.vb: Public Sub New(configXml As XmlNode)
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.ToString
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.ToString
+  id: ToString
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.ToString()
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.ToString()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Id
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Id
+  id: Id
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.Id
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Id
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string Id { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Id As String
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Id*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Type
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Type
+  id: Type
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.Type
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Type
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string Type { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Type As String
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Type*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.PrefSection
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.PrefSection
+  id: PrefSection
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+  langs:
+  - csharp
+  - vb
+  name: PrefSection
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.PrefSection
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.PrefSection
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string PrefSection { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property PrefSection As String
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.PrefSection*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.PrefKey
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.PrefKey
+  id: PrefKey
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+  langs:
+  - csharp
+  - vb
+  name: PrefKey
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.PrefKey
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.PrefKey
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string PrefKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property PrefKey As String
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.PrefKey*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Height
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Height
+  id: Height
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.Height
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Height
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public int Height { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Height As Integer
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Height*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Width
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Width
+  id: Width
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.Width
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Width
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public int Width { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Width As Integer
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Width*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.IsDialog
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.IsDialog
+  id: IsDialog
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+  langs:
+  - csharp
+  - vb
+  name: IsDialog
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.IsDialog
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.IsDialog
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public bool IsDialog { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsDialog As Boolean
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.IsDialog*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.FunctionRight
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.FunctionRight
+  id: FunctionRight
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+  langs:
+  - csharp
+  - vb
+  name: FunctionRight
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.FunctionRight
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.FunctionRight
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string FunctionRight { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property FunctionRight As String
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.FunctionRight*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.LicenseCheck
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.LicenseCheck
+  id: LicenseCheck
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+  langs:
+  - csharp
+  - vb
+  name: LicenseCheck
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.LicenseCheck
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.LicenseCheck
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string LicenseCheck { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property LicenseCheck As String
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.LicenseCheck*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.SubClients
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.SubClients
+  id: SubClients
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+  langs:
+  - csharp
+  - vb
+  name: SubClients
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.SubClients
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.SubClients
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string[] SubClients { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public ReadOnly Property SubClients As String()
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.SubClients*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.ForceSize
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.ForceSize
+  id: ForceSize
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+  langs:
+  - csharp
+  - vb
+  name: ForceSize
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.ForceSize
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.ForceSize
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public bool ForceSize { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property ForceSize As Boolean
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.ForceSize*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.ClientCache
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.ClientCache
+  id: ClientCache
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+  langs:
+  - csharp
+  - vb
+  name: ClientCache
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.ClientCache
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.ClientCache
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public bool ClientCache { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property ClientCache As Boolean
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.ClientCache*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Minimizable
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Minimizable
+  id: Minimizable
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+  langs:
+  - csharp
+  - vb
+  name: Minimizable
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.Minimizable
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Minimizable
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public bool Minimizable { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Minimizable As Boolean
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Minimizable*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.UICache
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.UICache
+  id: UICache
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+  langs:
+  - csharp
+  - vb
+  name: UICache
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.UICache
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.UICache
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public bool UICache { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property UICache As Boolean
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.UICache*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.UserLevelCache
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.UserLevelCache
+  id: UserLevelCache
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+  langs:
+  - csharp
+  - vb
+  name: UserLevelCache
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.UserLevelCache
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.UserLevelCache
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public bool UserLevelCache { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property UserLevelCache As Boolean
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.UserLevelCache*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.CustomFileName
+  commentId: P:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.CustomFileName
+  id: CustomFileName
+  parent: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+  langs:
+  - csharp
+  - vb
+  name: CustomFileName
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.CustomFileName
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.CustomFileName
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public string CustomFileName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property CustomFileName As String
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.CustomFileName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.#ctor
+  isExternal: true
+  name: PageDefinition
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.PageDefinition
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.PageDefinition
+- uid: System.Xml.XmlNode
+  isExternal: true
+  name: XmlNode
+  nameWithType: XmlNode
+  fullName: System.Xml.XmlNode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.ToString*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.ToString
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Id*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Id
+  isExternal: true
+  name: Id
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.Id
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Id
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Type*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Type
+  isExternal: true
+  name: Type
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.Type
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Type
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.PrefSection*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.PrefSection
+  isExternal: true
+  name: PrefSection
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.PrefSection
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.PrefSection
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.PrefKey*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.PrefKey
+  isExternal: true
+  name: PrefKey
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.PrefKey
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.PrefKey
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Height*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Height
+  isExternal: true
+  name: Height
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.Height
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Height
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Width*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Width
+  isExternal: true
+  name: Width
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.Width
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Width
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.IsDialog*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.IsDialog
+  isExternal: true
+  name: IsDialog
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.IsDialog
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.IsDialog
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.FunctionRight*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.FunctionRight
+  isExternal: true
+  name: FunctionRight
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.FunctionRight
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.FunctionRight
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.LicenseCheck*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.LicenseCheck
+  isExternal: true
+  name: LicenseCheck
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.LicenseCheck
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.LicenseCheck
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.SubClients*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.SubClients
+  isExternal: true
+  name: SubClients
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.SubClients
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.SubClients
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.ForceSize*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.ForceSize
+  isExternal: true
+  name: ForceSize
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.ForceSize
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.ForceSize
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.ClientCache*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.ClientCache
+  isExternal: true
+  name: ClientCache
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.ClientCache
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.ClientCache
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Minimizable*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Minimizable
+  isExternal: true
+  name: Minimizable
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.Minimizable
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.Minimizable
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.UICache*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.UICache
+  isExternal: true
+  name: UICache
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.UICache
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.UICache
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.UserLevelCache*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.UserLevelCache
+  isExternal: true
+  name: UserLevelCache
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.UserLevelCache
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.UserLevelCache
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.CustomFileName*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.CustomFileName
+  isExternal: true
+  name: CustomFileName
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition.CustomFileName
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition.CustomFileName

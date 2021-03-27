@@ -1,0 +1,930 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ILicenseAgent
+  commentId: T:SuperOffice.CRM.Services.ILicenseAgent
+  id: ILicenseAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ILicenseAgent.ActivateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo)
+  - SuperOffice.CRM.Services.ILicenseAgent.AddLicenseFromFile(System.String)
+  - SuperOffice.CRM.Services.ILicenseAgent.AssignThirdPartyLicenses(System.Int32,System.String,System.String[])
+  - SuperOffice.CRM.Services.ILicenseAgent.ChangeSerialNumber(System.String,System.String)
+  - SuperOffice.CRM.Services.ILicenseAgent.GetLicenseForAllOwnersFromDB
+  - SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromDB(System.String)
+  - SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromFile(System.String)
+  - SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromLicenseServer(System.String)
+  - SuperOffice.CRM.Services.ILicenseAgent.GetLicenseStatusFromLicenseServer(System.String)
+  - SuperOffice.CRM.Services.ILicenseAgent.GetModuleLicenseFromDB(System.String,System.String)
+  - SuperOffice.CRM.Services.ILicenseAgent.GetModuleLicenseHistoryFromLicenseServer(SuperOffice.License.ExtendedLicenseInfo,SuperOffice.License.ExtendedModuleLicense)
+  - SuperOffice.CRM.Services.ILicenseAgent.GetSatelliteLicenses(System.Int32)
+  - SuperOffice.CRM.Services.ILicenseAgent.GetShopUrl(System.String)
+  - SuperOffice.CRM.Services.ILicenseAgent.GetThirdPartyLicenseAssignments(System.Int32,System.String)
+  - SuperOffice.CRM.Services.ILicenseAgent.GetUserLicenses(System.Int32)
+  - SuperOffice.CRM.Services.ILicenseAgent.GetUserLicensesMDOList
+  - SuperOffice.CRM.Services.ILicenseAgent.RemoveLicenseFromDB(System.String)
+  - SuperOffice.CRM.Services.ILicenseAgent.UnassignThirdPartyLicenses(System.Int32,System.String,System.String[])
+  - SuperOffice.CRM.Services.ILicenseAgent.ValidateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo)
+  langs:
+  - csharp
+  - vb
+  name: ILicenseAgent
+  nameWithType: ILicenseAgent
+  fullName: SuperOffice.CRM.Services.ILicenseAgent
+  type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInterface for the License Agent\nLicense query, download, activation\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (LicenseAgent agent = new LicenseAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: >-
+      [Agent("License Agent", "Interface for the License Agent. License query, download, activation")]
+
+      public interface ILicenseAgent : IAgent
+    content.vb: >-
+      <Agent("License Agent", "Interface for the License Agent. License query, download, activation")>
+
+      Public Interface ILicenseAgent
+          Inherits IAgent
+  attributes:
+  - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
+    ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: License Agent
+    - type: System.String
+      value: Interface for the License Agent. License query, download, activation
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetLicenseForAllOwnersFromDB
+  commentId: M:SuperOffice.CRM.Services.ILicenseAgent.GetLicenseForAllOwnersFromDB
+  id: GetLicenseForAllOwnersFromDB
+  parent: SuperOffice.CRM.Services.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetLicenseForAllOwnersFromDB()
+  nameWithType: ILicenseAgent.GetLicenseForAllOwnersFromDB()
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetLicenseForAllOwnersFromDB()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet all licenses, with usage, from all module owners as they are stored in the database\n"
+  syntax:
+    content: ExtendedLicenseInfo[] GetLicenseForAllOwnersFromDB()
+    return:
+      type: SuperOffice.License.ExtendedLicenseInfo[]
+    content.vb: Function GetLicenseForAllOwnersFromDB As ExtendedLicenseInfo()
+  overload: SuperOffice.CRM.Services.ILicenseAgent.GetLicenseForAllOwnersFromDB*
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromLicenseServer(System.String)
+  commentId: M:SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromLicenseServer(System.String)
+  id: GetLicenseFromLicenseServer(System.String)
+  parent: SuperOffice.CRM.Services.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetLicenseFromLicenseServer(String)
+  nameWithType: ILicenseAgent.GetLicenseFromLicenseServer(String)
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromLicenseServer(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: ExtendedLicenseInfo GetLicenseFromLicenseServer(string ownerName)
+    parameters:
+    - id: ownerName
+      type: System.String
+    return:
+      type: SuperOffice.License.ExtendedLicenseInfo
+    content.vb: Function GetLicenseFromLicenseServer(ownerName As String) As ExtendedLicenseInfo
+  overload: SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromLicenseServer*
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetModuleLicenseHistoryFromLicenseServer(SuperOffice.License.ExtendedLicenseInfo,SuperOffice.License.ExtendedModuleLicense)
+  commentId: M:SuperOffice.CRM.Services.ILicenseAgent.GetModuleLicenseHistoryFromLicenseServer(SuperOffice.License.ExtendedLicenseInfo,SuperOffice.License.ExtendedModuleLicense)
+  id: GetModuleLicenseHistoryFromLicenseServer(SuperOffice.License.ExtendedLicenseInfo,SuperOffice.License.ExtendedModuleLicense)
+  parent: SuperOffice.CRM.Services.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetModuleLicenseHistoryFromLicenseServer(ExtendedLicenseInfo, ExtendedModuleLicense)
+  nameWithType: ILicenseAgent.GetModuleLicenseHistoryFromLicenseServer(ExtendedLicenseInfo, ExtendedModuleLicense)
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetModuleLicenseHistoryFromLicenseServer(SuperOffice.License.ExtendedLicenseInfo, SuperOffice.License.ExtendedModuleLicense)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet details about a license from the license server.\n"
+  syntax:
+    content: string GetModuleLicenseHistoryFromLicenseServer(ExtendedLicenseInfo licenseInfo, ExtendedModuleLicense moduleLicense)
+    parameters:
+    - id: licenseInfo
+      type: SuperOffice.License.ExtendedLicenseInfo
+      description: Description of the license
+    - id: moduleLicense
+      type: SuperOffice.License.ExtendedModuleLicense
+      description: Information about a particular module to get information for.
+    return:
+      type: System.String
+      description: Information about a particular license module.
+    content.vb: Function GetModuleLicenseHistoryFromLicenseServer(licenseInfo As ExtendedLicenseInfo, moduleLicense As ExtendedModuleLicense) As String
+  overload: SuperOffice.CRM.Services.ILicenseAgent.GetModuleLicenseHistoryFromLicenseServer*
+- uid: SuperOffice.CRM.Services.ILicenseAgent.ValidateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo)
+  commentId: M:SuperOffice.CRM.Services.ILicenseAgent.ValidateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo)
+  id: ValidateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo)
+  parent: SuperOffice.CRM.Services.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: ValidateLicenseInfo(ExtendedLicenseInfo)
+  nameWithType: ILicenseAgent.ValidateLicenseInfo(ExtendedLicenseInfo)
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.ValidateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nValidate that a license is consistant.\n"
+  syntax:
+    content: LicenseResult ValidateLicenseInfo(ExtendedLicenseInfo licenseInfo)
+    parameters:
+    - id: licenseInfo
+      type: SuperOffice.License.ExtendedLicenseInfo
+      description: License to validate consistancy for
+    return:
+      type: SuperOffice.CRM.Services.LicenseResult
+    content.vb: Function ValidateLicenseInfo(licenseInfo As ExtendedLicenseInfo) As LicenseResult
+  overload: SuperOffice.CRM.Services.ILicenseAgent.ValidateLicenseInfo*
+- uid: SuperOffice.CRM.Services.ILicenseAgent.ActivateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo)
+  commentId: M:SuperOffice.CRM.Services.ILicenseAgent.ActivateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo)
+  id: ActivateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo)
+  parent: SuperOffice.CRM.Services.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: ActivateLicenseInfo(ExtendedLicenseInfo)
+  nameWithType: ILicenseAgent.ActivateLicenseInfo(ExtendedLicenseInfo)
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.ActivateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSave a new license to the database.\n"
+  syntax:
+    content: LicenseResult ActivateLicenseInfo(ExtendedLicenseInfo newLicense)
+    parameters:
+    - id: newLicense
+      type: SuperOffice.License.ExtendedLicenseInfo
+      description: New license to save to the database.
+    return:
+      type: SuperOffice.CRM.Services.LicenseResult
+    content.vb: Function ActivateLicenseInfo(newLicense As ExtendedLicenseInfo) As LicenseResult
+  overload: SuperOffice.CRM.Services.ILicenseAgent.ActivateLicenseInfo*
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetLicenseStatusFromLicenseServer(System.String)
+  commentId: M:SuperOffice.CRM.Services.ILicenseAgent.GetLicenseStatusFromLicenseServer(System.String)
+  id: GetLicenseStatusFromLicenseServer(System.String)
+  parent: SuperOffice.CRM.Services.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetLicenseStatusFromLicenseServer(String)
+  nameWithType: ILicenseAgent.GetLicenseStatusFromLicenseServer(String)
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetLicenseStatusFromLicenseServer(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet License from the license server for a particular module owner.\n"
+  syntax:
+    content: CheckLicenseStatusResult GetLicenseStatusFromLicenseServer(string ownerName)
+    parameters:
+    - id: ownerName
+      type: System.String
+      description: Name of the module owner to get license from.
+    return:
+      type: SuperOffice.License.CheckLicenseStatusResult
+      description: License from the database, from the license server and with usage.
+    content.vb: Function GetLicenseStatusFromLicenseServer(ownerName As String) As CheckLicenseStatusResult
+  overload: SuperOffice.CRM.Services.ILicenseAgent.GetLicenseStatusFromLicenseServer*
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromDB(System.String)
+  commentId: M:SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromDB(System.String)
+  id: GetLicenseFromDB(System.String)
+  parent: SuperOffice.CRM.Services.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetLicenseFromDB(String)
+  nameWithType: ILicenseAgent.GetLicenseFromDB(String)
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromDB(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet license, with usage, as it is stored in the database for one particular module owner.\n"
+  syntax:
+    content: ExtendedLicenseInfo GetLicenseFromDB(string ownerName)
+    parameters:
+    - id: ownerName
+      type: System.String
+      description: Name of the module owner.
+    return:
+      type: SuperOffice.License.ExtendedLicenseInfo
+      description: License, with usage, as it is stored in the database.
+    content.vb: Function GetLicenseFromDB(ownerName As String) As ExtendedLicenseInfo
+  overload: SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromDB*
+- uid: SuperOffice.CRM.Services.ILicenseAgent.ChangeSerialNumber(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.ILicenseAgent.ChangeSerialNumber(System.String,System.String)
+  id: ChangeSerialNumber(System.String,System.String)
+  parent: SuperOffice.CRM.Services.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: ChangeSerialNumber(String, String)
+  nameWithType: ILicenseAgent.ChangeSerialNumber(String, String)
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.ChangeSerialNumber(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nChange the new serial number for the installation. Requests a new license from SuperLicense, checks if change is authorized.\n"
+  syntax:
+    content: LicenseResult ChangeSerialNumber(string newCompanyName, string newSerialNumber)
+    parameters:
+    - id: newCompanyName
+      type: System.String
+      description: The new company name
+    - id: newSerialNumber
+      type: System.String
+      description: New serial number to change to.
+    return:
+      type: SuperOffice.CRM.Services.LicenseResult
+      description: License after serial number/name change
+    content.vb: Function ChangeSerialNumber(newCompanyName As String, newSerialNumber As String) As LicenseResult
+  overload: SuperOffice.CRM.Services.ILicenseAgent.ChangeSerialNumber*
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetUserLicenses(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ILicenseAgent.GetUserLicenses(System.Int32)
+  id: GetUserLicenses(System.Int32)
+  parent: SuperOffice.CRM.Services.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetUserLicenses(Int32)
+  nameWithType: ILicenseAgent.GetUserLicenses(Int32)
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetUserLicenses(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nObtain information about associate module licenses\n"
+  syntax:
+    content: LicenseOwner[] GetUserLicenses(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: Associate id to check for associate module licenses
+    return:
+      type: SuperOffice.CRM.Services.LicenseOwner[]
+      description: Associate module licenses grouped by owners.
+    content.vb: Function GetUserLicenses(associateId As Integer) As LicenseOwner()
+  overload: SuperOffice.CRM.Services.ILicenseAgent.GetUserLicenses*
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetSatelliteLicenses(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ILicenseAgent.GetSatelliteLicenses(System.Int32)
+  id: GetSatelliteLicenses(System.Int32)
+  parent: SuperOffice.CRM.Services.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSatelliteLicenses(Int32)
+  nameWithType: ILicenseAgent.GetSatelliteLicenses(Int32)
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetSatelliteLicenses(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nObtain information about satellite module licenses\n"
+  syntax:
+    content: LicenseOwner[] GetSatelliteLicenses(int satelliteId)
+    parameters:
+    - id: satelliteId
+      type: System.Int32
+      description: Satellite id to check for satellite module licenses
+    return:
+      type: SuperOffice.CRM.Services.LicenseOwner[]
+      description: Satellite module licenses grouped by owners.
+    content.vb: Function GetSatelliteLicenses(satelliteId As Integer) As LicenseOwner()
+  overload: SuperOffice.CRM.Services.ILicenseAgent.GetSatelliteLicenses*
+- uid: SuperOffice.CRM.Services.ILicenseAgent.RemoveLicenseFromDB(System.String)
+  commentId: M:SuperOffice.CRM.Services.ILicenseAgent.RemoveLicenseFromDB(System.String)
+  id: RemoveLicenseFromDB(System.String)
+  parent: SuperOffice.CRM.Services.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveLicenseFromDB(String)
+  nameWithType: ILicenseAgent.RemoveLicenseFromDB(String)
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.RemoveLicenseFromDB(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRemove the license from a particular module owner from the database.  It is not permitted to remove licenses from SuperOffice\n"
+  syntax:
+    content: LicenseResult RemoveLicenseFromDB(string moduleOwner)
+    parameters:
+    - id: moduleOwner
+      type: System.String
+      description: Name of the module owner to remove license from.
+    return:
+      type: SuperOffice.CRM.Services.LicenseResult
+    content.vb: Function RemoveLicenseFromDB(moduleOwner As String) As LicenseResult
+  overload: SuperOffice.CRM.Services.ILicenseAgent.RemoveLicenseFromDB*
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromFile(System.String)
+  commentId: M:SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromFile(System.String)
+  id: GetLicenseFromFile(System.String)
+  parent: SuperOffice.CRM.Services.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetLicenseFromFile(String)
+  nameWithType: ILicenseAgent.GetLicenseFromFile(String)
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromFile(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoad a new license from file\n"
+  syntax:
+    content: ExtendedLicenseInfo GetLicenseFromFile(string fileContent)
+    parameters:
+    - id: fileContent
+      type: System.String
+      description: Content of the license file as read.
+    return:
+      type: SuperOffice.License.ExtendedLicenseInfo
+    content.vb: Function GetLicenseFromFile(fileContent As String) As ExtendedLicenseInfo
+  overload: SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromFile*
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetShopUrl(System.String)
+  commentId: M:SuperOffice.CRM.Services.ILicenseAgent.GetShopUrl(System.String)
+  id: GetShopUrl(System.String)
+  parent: SuperOffice.CRM.Services.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetShopUrl(String)
+  nameWithType: ILicenseAgent.GetShopUrl(String)
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetShopUrl(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the shop URL for the specified module owner. This can be used to redirect user to the web shop.\n"
+  syntax:
+    content: string GetShopUrl(string ownerName)
+    parameters:
+    - id: ownerName
+      type: System.String
+      description: Name of the module owner.
+    return:
+      type: System.String
+      description: The URL which contains the shop for the specified module owner.
+    content.vb: Function GetShopUrl(ownerName As String) As String
+  overload: SuperOffice.CRM.Services.ILicenseAgent.GetShopUrl*
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetUserLicensesMDOList
+  commentId: M:SuperOffice.CRM.Services.ILicenseAgent.GetUserLicensesMDOList
+  id: GetUserLicensesMDOList
+  parent: SuperOffice.CRM.Services.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetUserLicensesMDOList()
+  nameWithType: ILicenseAgent.GetUserLicensesMDOList()
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetUserLicensesMDOList()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet all licenses in a MDOListItem structure.\n"
+  syntax:
+    content: SelectableMDOListItem[] GetUserLicensesMDOList()
+    return:
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+      description: Hierarchical structure of user licenses.
+    content.vb: Function GetUserLicensesMDOList As SelectableMDOListItem()
+  overload: SuperOffice.CRM.Services.ILicenseAgent.GetUserLicensesMDOList*
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetModuleLicenseFromDB(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.ILicenseAgent.GetModuleLicenseFromDB(System.String,System.String)
+  id: GetModuleLicenseFromDB(System.String,System.String)
+  parent: SuperOffice.CRM.Services.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetModuleLicenseFromDB(String, String)
+  nameWithType: ILicenseAgent.GetModuleLicenseFromDB(String, String)
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetModuleLicenseFromDB(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet license information for one particular license module.\n"
+  syntax:
+    content: ModuleLicense GetModuleLicenseFromDB(string ownerName, string moduleName)
+    parameters:
+    - id: ownerName
+      type: System.String
+      description: Name of the module owner.
+    - id: moduleName
+      type: System.String
+      description: Name of the license module.
+    return:
+      type: SuperOffice.License.ModuleLicense
+      description: Module License details, as it is stored in the database. NULL if not found.
+    content.vb: Function GetModuleLicenseFromDB(ownerName As String, moduleName As String) As ModuleLicense
+  overload: SuperOffice.CRM.Services.ILicenseAgent.GetModuleLicenseFromDB*
+- uid: SuperOffice.CRM.Services.ILicenseAgent.AddLicenseFromFile(System.String)
+  commentId: M:SuperOffice.CRM.Services.ILicenseAgent.AddLicenseFromFile(System.String)
+  id: AddLicenseFromFile(System.String)
+  parent: SuperOffice.CRM.Services.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: AddLicenseFromFile(String)
+  nameWithType: ILicenseAgent.AddLicenseFromFile(String)
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.AddLicenseFromFile(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoad and activate a new license from file/string if the new license is valid.\n"
+  syntax:
+    content: ExtendedLicenseInfo AddLicenseFromFile(string fileContent)
+    parameters:
+    - id: fileContent
+      type: System.String
+      description: Content of the license file as XML.
+    return:
+      type: SuperOffice.License.ExtendedLicenseInfo
+      description: Activated license
+    content.vb: Function AddLicenseFromFile(fileContent As String) As ExtendedLicenseInfo
+  overload: SuperOffice.CRM.Services.ILicenseAgent.AddLicenseFromFile*
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetThirdPartyLicenseAssignments(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.ILicenseAgent.GetThirdPartyLicenseAssignments(System.Int32,System.String)
+  id: GetThirdPartyLicenseAssignments(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetThirdPartyLicenseAssignments(Int32, String)
+  nameWithType: ILicenseAgent.GetThirdPartyLicenseAssignments(Int32, String)
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetThirdPartyLicenseAssignments(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet license assignments for an associate for licenses belonging to an other module owner than SuperOffice\n"
+  syntax:
+    content: ModuleLicenseLink[] GetThirdPartyLicenseAssignments(int associateId, string moduleOwner)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: User to get third party license assignments for
+    - id: moduleOwner
+      type: System.String
+      description: Name of the module owner to get license assignments for
+    return:
+      type: SuperOffice.CRM.Services.ModuleLicenseLink[]
+      description: Module license names
+    content.vb: Function GetThirdPartyLicenseAssignments(associateId As Integer, moduleOwner As String) As ModuleLicenseLink()
+  overload: SuperOffice.CRM.Services.ILicenseAgent.GetThirdPartyLicenseAssignments*
+- uid: SuperOffice.CRM.Services.ILicenseAgent.AssignThirdPartyLicenses(System.Int32,System.String,System.String[])
+  commentId: M:SuperOffice.CRM.Services.ILicenseAgent.AssignThirdPartyLicenses(System.Int32,System.String,System.String[])
+  id: AssignThirdPartyLicenses(System.Int32,System.String,System.String[])
+  parent: SuperOffice.CRM.Services.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: AssignThirdPartyLicenses(Int32, String, String[])
+  nameWithType: ILicenseAgent.AssignThirdPartyLicenses(Int32, String, String[])
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.AssignThirdPartyLicenses(System.Int32, System.String, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAssign third party licenses\n"
+  syntax:
+    content: ModuleLicenseLink[] AssignThirdPartyLicenses(int associateId, string moduleOwner, string[] moduleLicenseNames)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: User to assign third party licenses for
+    - id: moduleOwner
+      type: System.String
+      description: Name of the module owner to assign license for
+    - id: moduleLicenseNames
+      type: System.String[]
+      description: Name of module licenses to assign
+    return:
+      type: SuperOffice.CRM.Services.ModuleLicenseLink[]
+      description: All module license names assigned
+    content.vb: Function AssignThirdPartyLicenses(associateId As Integer, moduleOwner As String, moduleLicenseNames As String()) As ModuleLicenseLink()
+  overload: SuperOffice.CRM.Services.ILicenseAgent.AssignThirdPartyLicenses*
+  nameWithType.vb: ILicenseAgent.AssignThirdPartyLicenses(Int32, String, String())
+  fullName.vb: SuperOffice.CRM.Services.ILicenseAgent.AssignThirdPartyLicenses(System.Int32, System.String, System.String())
+  name.vb: AssignThirdPartyLicenses(Int32, String, String())
+- uid: SuperOffice.CRM.Services.ILicenseAgent.UnassignThirdPartyLicenses(System.Int32,System.String,System.String[])
+  commentId: M:SuperOffice.CRM.Services.ILicenseAgent.UnassignThirdPartyLicenses(System.Int32,System.String,System.String[])
+  id: UnassignThirdPartyLicenses(System.Int32,System.String,System.String[])
+  parent: SuperOffice.CRM.Services.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: UnassignThirdPartyLicenses(Int32, String, String[])
+  nameWithType: ILicenseAgent.UnassignThirdPartyLicenses(Int32, String, String[])
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.UnassignThirdPartyLicenses(System.Int32, System.String, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUnassign (remove) third party licenses\n"
+  syntax:
+    content: ModuleLicenseLink[] UnassignThirdPartyLicenses(int associateId, string moduleOwner, string[] moduleLicenseNames)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: User to unassign third party licenses for
+    - id: moduleOwner
+      type: System.String
+      description: Name of the module owner to unassign license for
+    - id: moduleLicenseNames
+      type: System.String[]
+      description: Name of module licenses to unassign (remove)
+    return:
+      type: SuperOffice.CRM.Services.ModuleLicenseLink[]
+      description: All module license names assigned
+    content.vb: Function UnassignThirdPartyLicenses(associateId As Integer, moduleOwner As String, moduleLicenseNames As String()) As ModuleLicenseLink()
+  overload: SuperOffice.CRM.Services.ILicenseAgent.UnassignThirdPartyLicenses*
+  nameWithType.vb: ILicenseAgent.UnassignThirdPartyLicenses(Int32, String, String())
+  fullName.vb: SuperOffice.CRM.Services.ILicenseAgent.UnassignThirdPartyLicenses(System.Int32, System.String, System.String())
+  name.vb: UnassignThirdPartyLicenses(Int32, String, String())
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetLicenseForAllOwnersFromDB*
+  commentId: Overload:SuperOffice.CRM.Services.ILicenseAgent.GetLicenseForAllOwnersFromDB
+  isExternal: true
+  name: GetLicenseForAllOwnersFromDB
+  nameWithType: ILicenseAgent.GetLicenseForAllOwnersFromDB
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetLicenseForAllOwnersFromDB
+- uid: SuperOffice.License.ExtendedLicenseInfo[]
+  isExternal: true
+  name: ExtendedLicenseInfo[]
+  nameWithType: ExtendedLicenseInfo[]
+  fullName: SuperOffice.License.ExtendedLicenseInfo[]
+  nameWithType.vb: ExtendedLicenseInfo()
+  fullName.vb: SuperOffice.License.ExtendedLicenseInfo()
+  name.vb: ExtendedLicenseInfo()
+  spec.csharp:
+  - uid: SuperOffice.License.ExtendedLicenseInfo
+    name: ExtendedLicenseInfo
+    nameWithType: ExtendedLicenseInfo
+    fullName: SuperOffice.License.ExtendedLicenseInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.License.ExtendedLicenseInfo
+    name: ExtendedLicenseInfo
+    nameWithType: ExtendedLicenseInfo
+    fullName: SuperOffice.License.ExtendedLicenseInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromLicenseServer*
+  commentId: Overload:SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromLicenseServer
+  isExternal: true
+  name: GetLicenseFromLicenseServer
+  nameWithType: ILicenseAgent.GetLicenseFromLicenseServer
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromLicenseServer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.License.ExtendedLicenseInfo
+  isExternal: true
+  name: ExtendedLicenseInfo
+  nameWithType: ExtendedLicenseInfo
+  fullName: SuperOffice.License.ExtendedLicenseInfo
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetModuleLicenseHistoryFromLicenseServer*
+  commentId: Overload:SuperOffice.CRM.Services.ILicenseAgent.GetModuleLicenseHistoryFromLicenseServer
+  isExternal: true
+  name: GetModuleLicenseHistoryFromLicenseServer
+  nameWithType: ILicenseAgent.GetModuleLicenseHistoryFromLicenseServer
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetModuleLicenseHistoryFromLicenseServer
+- uid: SuperOffice.License.ExtendedModuleLicense
+  isExternal: true
+  name: ExtendedModuleLicense
+  nameWithType: ExtendedModuleLicense
+  fullName: SuperOffice.License.ExtendedModuleLicense
+- uid: SuperOffice.CRM.Services.ILicenseAgent.ValidateLicenseInfo*
+  commentId: Overload:SuperOffice.CRM.Services.ILicenseAgent.ValidateLicenseInfo
+  isExternal: true
+  name: ValidateLicenseInfo
+  nameWithType: ILicenseAgent.ValidateLicenseInfo
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.ValidateLicenseInfo
+- uid: SuperOffice.CRM.Services.LicenseResult
+  commentId: T:SuperOffice.CRM.Services.LicenseResult
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: LicenseResult
+  nameWithType: LicenseResult
+  fullName: SuperOffice.CRM.Services.LicenseResult
+- uid: SuperOffice.CRM.Services.ILicenseAgent.ActivateLicenseInfo*
+  commentId: Overload:SuperOffice.CRM.Services.ILicenseAgent.ActivateLicenseInfo
+  isExternal: true
+  name: ActivateLicenseInfo
+  nameWithType: ILicenseAgent.ActivateLicenseInfo
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.ActivateLicenseInfo
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetLicenseStatusFromLicenseServer*
+  commentId: Overload:SuperOffice.CRM.Services.ILicenseAgent.GetLicenseStatusFromLicenseServer
+  isExternal: true
+  name: GetLicenseStatusFromLicenseServer
+  nameWithType: ILicenseAgent.GetLicenseStatusFromLicenseServer
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetLicenseStatusFromLicenseServer
+- uid: SuperOffice.License.CheckLicenseStatusResult
+  isExternal: true
+  name: CheckLicenseStatusResult
+  nameWithType: CheckLicenseStatusResult
+  fullName: SuperOffice.License.CheckLicenseStatusResult
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromDB*
+  commentId: Overload:SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromDB
+  isExternal: true
+  name: GetLicenseFromDB
+  nameWithType: ILicenseAgent.GetLicenseFromDB
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromDB
+- uid: SuperOffice.CRM.Services.ILicenseAgent.ChangeSerialNumber*
+  commentId: Overload:SuperOffice.CRM.Services.ILicenseAgent.ChangeSerialNumber
+  isExternal: true
+  name: ChangeSerialNumber
+  nameWithType: ILicenseAgent.ChangeSerialNumber
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.ChangeSerialNumber
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetUserLicenses*
+  commentId: Overload:SuperOffice.CRM.Services.ILicenseAgent.GetUserLicenses
+  isExternal: true
+  name: GetUserLicenses
+  nameWithType: ILicenseAgent.GetUserLicenses
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetUserLicenses
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.LicenseOwner[]
+  isExternal: true
+  name: LicenseOwner[]
+  nameWithType: LicenseOwner[]
+  fullName: SuperOffice.CRM.Services.LicenseOwner[]
+  nameWithType.vb: LicenseOwner()
+  fullName.vb: SuperOffice.CRM.Services.LicenseOwner()
+  name.vb: LicenseOwner()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.LicenseOwner
+    name: LicenseOwner
+    nameWithType: LicenseOwner
+    fullName: SuperOffice.CRM.Services.LicenseOwner
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.LicenseOwner
+    name: LicenseOwner
+    nameWithType: LicenseOwner
+    fullName: SuperOffice.CRM.Services.LicenseOwner
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetSatelliteLicenses*
+  commentId: Overload:SuperOffice.CRM.Services.ILicenseAgent.GetSatelliteLicenses
+  isExternal: true
+  name: GetSatelliteLicenses
+  nameWithType: ILicenseAgent.GetSatelliteLicenses
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetSatelliteLicenses
+- uid: SuperOffice.CRM.Services.ILicenseAgent.RemoveLicenseFromDB*
+  commentId: Overload:SuperOffice.CRM.Services.ILicenseAgent.RemoveLicenseFromDB
+  isExternal: true
+  name: RemoveLicenseFromDB
+  nameWithType: ILicenseAgent.RemoveLicenseFromDB
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.RemoveLicenseFromDB
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromFile*
+  commentId: Overload:SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromFile
+  isExternal: true
+  name: GetLicenseFromFile
+  nameWithType: ILicenseAgent.GetLicenseFromFile
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromFile
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetShopUrl*
+  commentId: Overload:SuperOffice.CRM.Services.ILicenseAgent.GetShopUrl
+  isExternal: true
+  name: GetShopUrl
+  nameWithType: ILicenseAgent.GetShopUrl
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetShopUrl
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetUserLicensesMDOList*
+  commentId: Overload:SuperOffice.CRM.Services.ILicenseAgent.GetUserLicensesMDOList
+  isExternal: true
+  name: GetUserLicensesMDOList
+  nameWithType: ILicenseAgent.GetUserLicensesMDOList
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetUserLicensesMDOList
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem[]
+  isExternal: true
+  name: SelectableMDOListItem[]
+  nameWithType: SelectableMDOListItem[]
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem[]
+  nameWithType.vb: SelectableMDOListItem()
+  fullName.vb: SuperOffice.CRM.Services.SelectableMDOListItem()
+  name.vb: SelectableMDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetModuleLicenseFromDB*
+  commentId: Overload:SuperOffice.CRM.Services.ILicenseAgent.GetModuleLicenseFromDB
+  isExternal: true
+  name: GetModuleLicenseFromDB
+  nameWithType: ILicenseAgent.GetModuleLicenseFromDB
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetModuleLicenseFromDB
+- uid: SuperOffice.License.ModuleLicense
+  isExternal: true
+  name: ModuleLicense
+  nameWithType: ModuleLicense
+  fullName: SuperOffice.License.ModuleLicense
+- uid: SuperOffice.CRM.Services.ILicenseAgent.AddLicenseFromFile*
+  commentId: Overload:SuperOffice.CRM.Services.ILicenseAgent.AddLicenseFromFile
+  isExternal: true
+  name: AddLicenseFromFile
+  nameWithType: ILicenseAgent.AddLicenseFromFile
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.AddLicenseFromFile
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetThirdPartyLicenseAssignments*
+  commentId: Overload:SuperOffice.CRM.Services.ILicenseAgent.GetThirdPartyLicenseAssignments
+  isExternal: true
+  name: GetThirdPartyLicenseAssignments
+  nameWithType: ILicenseAgent.GetThirdPartyLicenseAssignments
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetThirdPartyLicenseAssignments
+- uid: SuperOffice.CRM.Services.ModuleLicenseLink[]
+  isExternal: true
+  name: ModuleLicenseLink[]
+  nameWithType: ModuleLicenseLink[]
+  fullName: SuperOffice.CRM.Services.ModuleLicenseLink[]
+  nameWithType.vb: ModuleLicenseLink()
+  fullName.vb: SuperOffice.CRM.Services.ModuleLicenseLink()
+  name.vb: ModuleLicenseLink()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ModuleLicenseLink
+    name: ModuleLicenseLink
+    nameWithType: ModuleLicenseLink
+    fullName: SuperOffice.CRM.Services.ModuleLicenseLink
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ModuleLicenseLink
+    name: ModuleLicenseLink
+    nameWithType: ModuleLicenseLink
+    fullName: SuperOffice.CRM.Services.ModuleLicenseLink
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ILicenseAgent.AssignThirdPartyLicenses*
+  commentId: Overload:SuperOffice.CRM.Services.ILicenseAgent.AssignThirdPartyLicenses
+  isExternal: true
+  name: AssignThirdPartyLicenses
+  nameWithType: ILicenseAgent.AssignThirdPartyLicenses
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.AssignThirdPartyLicenses
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ILicenseAgent.UnassignThirdPartyLicenses*
+  commentId: Overload:SuperOffice.CRM.Services.ILicenseAgent.UnassignThirdPartyLicenses
+  isExternal: true
+  name: UnassignThirdPartyLicenses
+  nameWithType: ILicenseAgent.UnassignThirdPartyLicenses
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.UnassignThirdPartyLicenses

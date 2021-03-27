@@ -1,0 +1,2532 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.TwoWayDictionary`2
+  commentId: T:SuperOffice.Util.TwoWayDictionary`2
+  id: TwoWayDictionary`2
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.TwoWayDictionary`2.#ctor
+  - SuperOffice.Util.TwoWayDictionary`2.#ctor(System.Int32)
+  - SuperOffice.Util.TwoWayDictionary`2.#ctor(System.Int32,System.Collections.Generic.IEqualityComparer{`0})
+  - SuperOffice.Util.TwoWayDictionary`2.#ctor(System.Int32,System.Collections.Generic.IEqualityComparer{`0},System.Collections.Generic.IEqualityComparer{`1})
+  - SuperOffice.Util.TwoWayDictionary`2.Add(`0,`1)
+  - SuperOffice.Util.TwoWayDictionary`2.AddOverwrite(`0,`1)
+  - SuperOffice.Util.TwoWayDictionary`2.Clear
+  - SuperOffice.Util.TwoWayDictionary`2.ContainsKey(`0)
+  - SuperOffice.Util.TwoWayDictionary`2.Count
+  - SuperOffice.Util.TwoWayDictionary`2.Item(`0)
+  - SuperOffice.Util.TwoWayDictionary`2.Keys
+  - SuperOffice.Util.TwoWayDictionary`2.LeftContainsKey(`0)
+  - SuperOffice.Util.TwoWayDictionary`2.LeftGetValue(`0)
+  - SuperOffice.Util.TwoWayDictionary`2.LeftGetValue(`1)
+  - SuperOffice.Util.TwoWayDictionary`2.LeftKeys
+  - SuperOffice.Util.TwoWayDictionary`2.LeftRemove(`0)
+  - SuperOffice.Util.TwoWayDictionary`2.LeftToArray
+  - SuperOffice.Util.TwoWayDictionary`2.LeftTryGetValue(`0,`1@)
+  - SuperOffice.Util.TwoWayDictionary`2.LeftValues
+  - SuperOffice.Util.TwoWayDictionary`2.Remove(`0)
+  - SuperOffice.Util.TwoWayDictionary`2.RightContainsKey(`1)
+  - SuperOffice.Util.TwoWayDictionary`2.RightGetValue(`0)
+  - SuperOffice.Util.TwoWayDictionary`2.RightGetValue(`1)
+  - SuperOffice.Util.TwoWayDictionary`2.RightKeys
+  - SuperOffice.Util.TwoWayDictionary`2.RightRemove(`1)
+  - SuperOffice.Util.TwoWayDictionary`2.RightToArray
+  - SuperOffice.Util.TwoWayDictionary`2.RightTryGetValue(`1,`0@)
+  - SuperOffice.Util.TwoWayDictionary`2.RightValues
+  - SuperOffice.Util.TwoWayDictionary`2.TryGetValue(`0,`1@)
+  - SuperOffice.Util.TwoWayDictionary`2.Values
+  langs:
+  - csharp
+  - vb
+  name: TwoWayDictionary<LeftType, RightType>
+  nameWithType: TwoWayDictionary<LeftType, RightType>
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nThis class implements a two-way associate container, that is, a dictionary-like collection that is indexable\nboth by the left and right-hand values. This places key-like constraints on both sides (they must be\ncomparable, hasheable, and unique), but provides fast lookup in both directions.\n"
+  remarks: "\nThe implementation internally uses two generic dictionaries, so that all constraints, performance characteristics\nand other properties of the generic <see cref=\"!:System.Collections.Generic.Dictionary\"></see> class apply. LeftType and\nRightType can be the same type, which incidentally requires things like the TryGetValue methods to have different\nnames for left and right...\n"
+  syntax:
+    content: public class TwoWayDictionary<LeftType, RightType>
+    typeParameters:
+    - id: LeftType
+      description: Left-hand type
+    - id: RightType
+      description: Right-hand type
+    content.vb: Public Class TwoWayDictionary(Of LeftType, RightType)
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Util.TwoWayDictionary`2.EnumUtil.MapEnums``2
+  - SuperOffice.Util.TwoWayDictionary`2.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.TwoWayDictionary{{LeftType},{RightType}})
+  - SuperOffice.Util.TwoWayDictionary`2.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Util.TwoWayDictionary`2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType)
+  name.vb: TwoWayDictionary(Of LeftType, RightType)
+- uid: SuperOffice.Util.TwoWayDictionary`2.#ctor
+  commentId: M:SuperOffice.Util.TwoWayDictionary`2.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: TwoWayDictionary()
+  nameWithType: TwoWayDictionary<LeftType, RightType>.TwoWayDictionary()
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.TwoWayDictionary()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nDefault constructor, allocates empty dictionaries. Insertions will take O(n) where n is the number of items \nalready in the container; note that if you&apos;re populating in a loop that would give\na total performance of O(n^2), worth avoiding by preallocating if at all possible.\n"
+  syntax:
+    content: public TwoWayDictionary()
+    content.vb: Public Sub New
+  overload: SuperOffice.Util.TwoWayDictionary`2.#ctor*
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).TwoWayDictionary()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).TwoWayDictionary()
+- uid: SuperOffice.Util.TwoWayDictionary`2.#ctor(System.Int32)
+  commentId: M:SuperOffice.Util.TwoWayDictionary`2.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: TwoWayDictionary(Int32)
+  nameWithType: TwoWayDictionary<LeftType, RightType>.TwoWayDictionary(Int32)
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.TwoWayDictionary(System.Int32)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConstructor that preallocates the given number of slots. Insertions will take O(1) up to this initial\ncapacity, O(n^2) beyond.\n"
+  syntax:
+    content: public TwoWayDictionary(int initialCapacity)
+    parameters:
+    - id: initialCapacity
+      type: System.Int32
+      description: Initial capacity to allocate, this reserves memory but is not a hard limit
+    content.vb: Public Sub New(initialCapacity As Integer)
+  overload: SuperOffice.Util.TwoWayDictionary`2.#ctor*
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).TwoWayDictionary(Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).TwoWayDictionary(System.Int32)
+- uid: SuperOffice.Util.TwoWayDictionary`2.#ctor(System.Int32,System.Collections.Generic.IEqualityComparer{`0})
+  commentId: M:SuperOffice.Util.TwoWayDictionary`2.#ctor(System.Int32,System.Collections.Generic.IEqualityComparer{`0})
+  id: '#ctor(System.Int32,System.Collections.Generic.IEqualityComparer{`0})'
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: TwoWayDictionary(Int32, IEqualityComparer<LeftType>)
+  nameWithType: TwoWayDictionary<LeftType, RightType>.TwoWayDictionary(Int32, IEqualityComparer<LeftType>)
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.TwoWayDictionary(System.Int32, System.Collections.Generic.IEqualityComparer<LeftType>)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConstructor that preallocates the given number of items, and uses the given comparer for the left-hand\nkey type. Insertions will take O(1) up to this initial\ncapacity, O(n^2) beyond.\n"
+  syntax:
+    content: public TwoWayDictionary(int initialCapacity, IEqualityComparer<LeftType> LeftTypeEquality)
+    parameters:
+    - id: initialCapacity
+      type: System.Int32
+      description: Initial capacity to allocate, this reserves memory but is not a hard limit
+    - id: LeftTypeEquality
+      type: System.Collections.Generic.IEqualityComparer{{LeftType}}
+      description: Equality comparer for the given key type
+    content.vb: Public Sub New(initialCapacity As Integer, LeftTypeEquality As IEqualityComparer(Of LeftType))
+  overload: SuperOffice.Util.TwoWayDictionary`2.#ctor*
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).TwoWayDictionary(Int32, IEqualityComparer(Of LeftType))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).TwoWayDictionary(System.Int32, System.Collections.Generic.IEqualityComparer(Of LeftType))
+  name.vb: TwoWayDictionary(Int32, IEqualityComparer(Of LeftType))
+- uid: SuperOffice.Util.TwoWayDictionary`2.#ctor(System.Int32,System.Collections.Generic.IEqualityComparer{`0},System.Collections.Generic.IEqualityComparer{`1})
+  commentId: M:SuperOffice.Util.TwoWayDictionary`2.#ctor(System.Int32,System.Collections.Generic.IEqualityComparer{`0},System.Collections.Generic.IEqualityComparer{`1})
+  id: '#ctor(System.Int32,System.Collections.Generic.IEqualityComparer{`0},System.Collections.Generic.IEqualityComparer{`1})'
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: TwoWayDictionary(Int32, IEqualityComparer<LeftType>, IEqualityComparer<RightType>)
+  nameWithType: TwoWayDictionary<LeftType, RightType>.TwoWayDictionary(Int32, IEqualityComparer<LeftType>, IEqualityComparer<RightType>)
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.TwoWayDictionary(System.Int32, System.Collections.Generic.IEqualityComparer<LeftType>, System.Collections.Generic.IEqualityComparer<RightType>)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConstructor that preallocates the given number of items, and uses the given comparers for the left-hand\nand right-hand key types. Insertions will take O(1) up to this initial\ncapacity, O(n^2) beyond.\n"
+  syntax:
+    content: public TwoWayDictionary(int initialCapacity, IEqualityComparer<LeftType> LeftTypeEquality, IEqualityComparer<RightType> RightTypeEquality)
+    parameters:
+    - id: initialCapacity
+      type: System.Int32
+      description: Initial capacity to allocate, this reserves memory but is not a hard limit
+    - id: LeftTypeEquality
+      type: System.Collections.Generic.IEqualityComparer{{LeftType}}
+      description: Equality comparer for the left-hand key type
+    - id: RightTypeEquality
+      type: System.Collections.Generic.IEqualityComparer{{RightType}}
+      description: Equality comparer for the right-hand key type
+    content.vb: Public Sub New(initialCapacity As Integer, LeftTypeEquality As IEqualityComparer(Of LeftType), RightTypeEquality As IEqualityComparer(Of RightType))
+  overload: SuperOffice.Util.TwoWayDictionary`2.#ctor*
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).TwoWayDictionary(Int32, IEqualityComparer(Of LeftType), IEqualityComparer(Of RightType))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).TwoWayDictionary(System.Int32, System.Collections.Generic.IEqualityComparer(Of LeftType), System.Collections.Generic.IEqualityComparer(Of RightType))
+  name.vb: TwoWayDictionary(Int32, IEqualityComparer(Of LeftType), IEqualityComparer(Of RightType))
+- uid: SuperOffice.Util.TwoWayDictionary`2.LeftGetValue(`0)
+  commentId: M:SuperOffice.Util.TwoWayDictionary`2.LeftGetValue(`0)
+  id: LeftGetValue(`0)
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: LeftGetValue(LeftType)
+  nameWithType: TwoWayDictionary<LeftType, RightType>.LeftGetValue(LeftType)
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.LeftGetValue(LeftType)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nGet the value using the left key.\n"
+  syntax:
+    content: public RightType LeftGetValue(LeftType left)
+    parameters:
+    - id: left
+      type: '{LeftType}'
+      description: The left key.
+    return:
+      type: '{RightType}'
+      description: The right value
+    content.vb: Public Function LeftGetValue(left As LeftType) As RightType
+  overload: SuperOffice.Util.TwoWayDictionary`2.LeftGetValue*
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).LeftGetValue(LeftType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).LeftGetValue(LeftType)
+- uid: SuperOffice.Util.TwoWayDictionary`2.RightGetValue(`1)
+  commentId: M:SuperOffice.Util.TwoWayDictionary`2.RightGetValue(`1)
+  id: RightGetValue(`1)
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: RightGetValue(RightType)
+  nameWithType: TwoWayDictionary<LeftType, RightType>.RightGetValue(RightType)
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.RightGetValue(RightType)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nGet the value using the right key.\n"
+  syntax:
+    content: public LeftType RightGetValue(RightType right)
+    parameters:
+    - id: right
+      type: '{RightType}'
+      description: The right key.
+    return:
+      type: '{LeftType}'
+      description: The left value.
+    content.vb: Public Function RightGetValue(right As RightType) As LeftType
+  overload: SuperOffice.Util.TwoWayDictionary`2.RightGetValue*
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).RightGetValue(RightType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).RightGetValue(RightType)
+- uid: SuperOffice.Util.TwoWayDictionary`2.Add(`0,`1)
+  commentId: M:SuperOffice.Util.TwoWayDictionary`2.Add(`0,`1)
+  id: Add(`0,`1)
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Add(LeftType, RightType)
+  nameWithType: TwoWayDictionary<LeftType, RightType>.Add(LeftType, RightType)
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.Add(LeftType, RightType)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nAdd a new pair of values. An exception will be thrown if either the left or right value already exists, or if any of the \nvalues is null.\n"
+  syntax:
+    content: public void Add(LeftType left, RightType right)
+    parameters:
+    - id: left
+      type: '{LeftType}'
+      description: Left-hand value
+    - id: right
+      type: '{RightType}'
+      description: Right-hand value
+    content.vb: Public Sub Add(left As LeftType, right As RightType)
+  overload: SuperOffice.Util.TwoWayDictionary`2.Add*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: An element with the same key (left- or right-hand) already exists
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Either one of the values is null
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).Add(LeftType, RightType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).Add(LeftType, RightType)
+- uid: SuperOffice.Util.TwoWayDictionary`2.AddOverwrite(`0,`1)
+  commentId: M:SuperOffice.Util.TwoWayDictionary`2.AddOverwrite(`0,`1)
+  id: AddOverwrite(`0,`1)
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: AddOverwrite(LeftType, RightType)
+  nameWithType: TwoWayDictionary<LeftType, RightType>.AddOverwrite(LeftType, RightType)
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.AddOverwrite(LeftType, RightType)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nAdd or overwrite an existing pair of values. After this operation, the new values will be associated\nand any previous associations any of them might have will be lost. Both values must be non-null.\n"
+  syntax:
+    content: public void AddOverwrite(LeftType left, RightType right)
+    parameters:
+    - id: left
+      type: '{LeftType}'
+      description: Left-hand value
+    - id: right
+      type: '{RightType}'
+      description: Right-hand value
+    content.vb: Public Sub AddOverwrite(left As LeftType, right As RightType)
+  overload: SuperOffice.Util.TwoWayDictionary`2.AddOverwrite*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Either one of the values is null
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).AddOverwrite(LeftType, RightType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).AddOverwrite(LeftType, RightType)
+- uid: SuperOffice.Util.TwoWayDictionary`2.Remove(`0)
+  commentId: M:SuperOffice.Util.TwoWayDictionary`2.Remove(`0)
+  id: Remove(`0)
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Remove(LeftType)
+  nameWithType: TwoWayDictionary<LeftType, RightType>.Remove(LeftType)
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.Remove(LeftType)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nWrapper for <xref href=\"SuperOffice.Util.TwoWayDictionary%602.LeftRemove(%600)\" data-throw-if-not-resolved=\"false\"></xref>, so <see cref=\"!:TwoWayDictionary\"></see> can be used like a <see cref=\"!:Dictionary\"></see>.\n"
+  syntax:
+    content: public bool Remove(LeftType left)
+    parameters:
+    - id: left
+      type: '{LeftType}'
+      description: Key of item to remove.
+    return:
+      type: System.Boolean
+      description: True if the item is successfully removed.
+    content.vb: Public Function Remove(left As LeftType) As Boolean
+  overload: SuperOffice.Util.TwoWayDictionary`2.Remove*
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).Remove(LeftType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).Remove(LeftType)
+- uid: SuperOffice.Util.TwoWayDictionary`2.LeftRemove(`0)
+  commentId: M:SuperOffice.Util.TwoWayDictionary`2.LeftRemove(`0)
+  id: LeftRemove(`0)
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: LeftRemove(LeftType)
+  nameWithType: TwoWayDictionary<LeftType, RightType>.LeftRemove(LeftType)
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.LeftRemove(LeftType)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nRemove item from the dictionary using the left key.\n"
+  syntax:
+    content: public bool LeftRemove(LeftType left)
+    parameters:
+    - id: left
+      type: '{LeftType}'
+      description: Key of item to remove.
+    return:
+      type: System.Boolean
+      description: True if the item is successfully removed.
+    content.vb: Public Function LeftRemove(left As LeftType) As Boolean
+  overload: SuperOffice.Util.TwoWayDictionary`2.LeftRemove*
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).LeftRemove(LeftType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).LeftRemove(LeftType)
+- uid: SuperOffice.Util.TwoWayDictionary`2.RightRemove(`1)
+  commentId: M:SuperOffice.Util.TwoWayDictionary`2.RightRemove(`1)
+  id: RightRemove(`1)
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: RightRemove(RightType)
+  nameWithType: TwoWayDictionary<LeftType, RightType>.RightRemove(RightType)
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.RightRemove(RightType)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nRemove item from the dictionary using the right key.\n"
+  syntax:
+    content: public bool RightRemove(RightType right)
+    parameters:
+    - id: right
+      type: '{RightType}'
+      description: Key of item to remove.
+    return:
+      type: System.Boolean
+      description: True if the item is successfully removed.
+    content.vb: Public Function RightRemove(right As RightType) As Boolean
+  overload: SuperOffice.Util.TwoWayDictionary`2.RightRemove*
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).RightRemove(RightType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).RightRemove(RightType)
+- uid: SuperOffice.Util.TwoWayDictionary`2.Clear
+  commentId: M:SuperOffice.Util.TwoWayDictionary`2.Clear
+  id: Clear
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: TwoWayDictionary<LeftType, RightType>.Clear()
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.Clear()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nClear the dictionary.\n"
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear
+  overload: SuperOffice.Util.TwoWayDictionary`2.Clear*
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).Clear()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).Clear()
+- uid: SuperOffice.Util.TwoWayDictionary`2.TryGetValue(`0,`1@)
+  commentId: M:SuperOffice.Util.TwoWayDictionary`2.TryGetValue(`0,`1@)
+  id: TryGetValue(`0,`1@)
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: TryGetValue(LeftType, out RightType)
+  nameWithType: TwoWayDictionary<LeftType, RightType>.TryGetValue(LeftType, out RightType)
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.TryGetValue(LeftType, out RightType)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nWrapper for <xref href=\"SuperOffice.Util.TwoWayDictionary%602.LeftTryGetValue(%600%2c%601%40)\" data-throw-if-not-resolved=\"false\"></xref>, so <see cref=\"!:TwoWayDictionary\"></see> can be used like a <see cref=\"!:Dictionary\"></see>.\n"
+  syntax:
+    content: public bool TryGetValue(LeftType left, out RightType right)
+    parameters:
+    - id: left
+      type: '{LeftType}'
+    - id: right
+      type: '{RightType}'
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryGetValue(left As LeftType, ByRef right As RightType) As Boolean
+  overload: SuperOffice.Util.TwoWayDictionary`2.TryGetValue*
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).TryGetValue(LeftType, ByRef RightType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).TryGetValue(LeftType, ByRef RightType)
+  name.vb: TryGetValue(LeftType, ByRef RightType)
+- uid: SuperOffice.Util.TwoWayDictionary`2.LeftTryGetValue(`0,`1@)
+  commentId: M:SuperOffice.Util.TwoWayDictionary`2.LeftTryGetValue(`0,`1@)
+  id: LeftTryGetValue(`0,`1@)
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: LeftTryGetValue(LeftType, out RightType)
+  nameWithType: TwoWayDictionary<LeftType, RightType>.LeftTryGetValue(LeftType, out RightType)
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.LeftTryGetValue(LeftType, out RightType)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nGet the right-hand value for the given left-hand key if it exists\n"
+  syntax:
+    content: public bool LeftTryGetValue(LeftType left, out RightType right)
+    parameters:
+    - id: left
+      type: '{LeftType}'
+      description: Left-hand key
+    - id: right
+      type: '{RightType}'
+      description: 'Output: Right-hand value, or null/default if key was not found'
+    return:
+      type: System.Boolean
+      description: true if the left-hand key existed
+    content.vb: Public Function LeftTryGetValue(left As LeftType, ByRef right As RightType) As Boolean
+  overload: SuperOffice.Util.TwoWayDictionary`2.LeftTryGetValue*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Left-hand key is null
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).LeftTryGetValue(LeftType, ByRef RightType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).LeftTryGetValue(LeftType, ByRef RightType)
+  name.vb: LeftTryGetValue(LeftType, ByRef RightType)
+- uid: SuperOffice.Util.TwoWayDictionary`2.LeftGetValue(`1)
+  commentId: M:SuperOffice.Util.TwoWayDictionary`2.LeftGetValue(`1)
+  id: LeftGetValue(`1)
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: LeftGetValue(RightType)
+  nameWithType: TwoWayDictionary<LeftType, RightType>.LeftGetValue(RightType)
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.LeftGetValue(RightType)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nGet the left-hand value corresponding to the given right-hand key.\n"
+  syntax:
+    content: public LeftType LeftGetValue(RightType right)
+    parameters:
+    - id: right
+      type: '{RightType}'
+      description: Right-hand key to look for
+    return:
+      type: '{LeftType}'
+      description: Left-hand value corresponding to key
+    content.vb: Public Function LeftGetValue(right As RightType) As LeftType
+  overload: SuperOffice.Util.TwoWayDictionary`2.LeftGetValue*
+  exceptions:
+  - type: System.Collections.Generic.KeyNotFoundException
+    commentId: T:System.Collections.Generic.KeyNotFoundException
+    description: Thrown if the right-hand key does not exist
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Thrown if the right-hand key is null
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).LeftGetValue(RightType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).LeftGetValue(RightType)
+- uid: SuperOffice.Util.TwoWayDictionary`2.RightTryGetValue(`1,`0@)
+  commentId: M:SuperOffice.Util.TwoWayDictionary`2.RightTryGetValue(`1,`0@)
+  id: RightTryGetValue(`1,`0@)
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: RightTryGetValue(RightType, out LeftType)
+  nameWithType: TwoWayDictionary<LeftType, RightType>.RightTryGetValue(RightType, out LeftType)
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.RightTryGetValue(RightType, out LeftType)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nGet the left-hand value for the given right-hand key if it exists\n"
+  syntax:
+    content: public bool RightTryGetValue(RightType right, out LeftType left)
+    parameters:
+    - id: right
+      type: '{RightType}'
+      description: Right-hand key
+    - id: left
+      type: '{LeftType}'
+      description: 'Output: left-hand value, or null/default if key was not found'
+    return:
+      type: System.Boolean
+      description: true if the right-hand key existed
+    content.vb: Public Function RightTryGetValue(right As RightType, ByRef left As LeftType) As Boolean
+  overload: SuperOffice.Util.TwoWayDictionary`2.RightTryGetValue*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Right-hand key is null
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).RightTryGetValue(RightType, ByRef LeftType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).RightTryGetValue(RightType, ByRef LeftType)
+  name.vb: RightTryGetValue(RightType, ByRef LeftType)
+- uid: SuperOffice.Util.TwoWayDictionary`2.RightGetValue(`0)
+  commentId: M:SuperOffice.Util.TwoWayDictionary`2.RightGetValue(`0)
+  id: RightGetValue(`0)
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: RightGetValue(LeftType)
+  nameWithType: TwoWayDictionary<LeftType, RightType>.RightGetValue(LeftType)
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.RightGetValue(LeftType)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nGet the right-hand value corresponding to the given left-hand key.\n"
+  syntax:
+    content: public RightType RightGetValue(LeftType left)
+    parameters:
+    - id: left
+      type: '{LeftType}'
+      description: Left-hand key to look for
+    return:
+      type: '{RightType}'
+      description: Right-hand value corresponding to key
+    content.vb: Public Function RightGetValue(left As LeftType) As RightType
+  overload: SuperOffice.Util.TwoWayDictionary`2.RightGetValue*
+  exceptions:
+  - type: System.Collections.Generic.KeyNotFoundException
+    commentId: T:System.Collections.Generic.KeyNotFoundException
+    description: Thrown if the left-hand key does not exist
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Thrown if the left-hand key is null
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).RightGetValue(LeftType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).RightGetValue(LeftType)
+- uid: SuperOffice.Util.TwoWayDictionary`2.ContainsKey(`0)
+  commentId: M:SuperOffice.Util.TwoWayDictionary`2.ContainsKey(`0)
+  id: ContainsKey(`0)
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: ContainsKey(LeftType)
+  nameWithType: TwoWayDictionary<LeftType, RightType>.ContainsKey(LeftType)
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.ContainsKey(LeftType)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nWrapper for <xref href=\"SuperOffice.Util.TwoWayDictionary%602.LeftContainsKey(%600)\" data-throw-if-not-resolved=\"false\"></xref>, so <see cref=\"!:TwoWayDictionary\"></see> can be used like a <see cref=\"!:Dictionary\"></see>.\n"
+  syntax:
+    content: public bool ContainsKey(LeftType left)
+    parameters:
+    - id: left
+      type: '{LeftType}'
+      description: Left-hand key to look for
+    return:
+      type: System.Boolean
+      description: true if left-hand key was found
+    content.vb: Public Function ContainsKey(left As LeftType) As Boolean
+  overload: SuperOffice.Util.TwoWayDictionary`2.ContainsKey*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Left-hand key is null
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).ContainsKey(LeftType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).ContainsKey(LeftType)
+- uid: SuperOffice.Util.TwoWayDictionary`2.LeftContainsKey(`0)
+  commentId: M:SuperOffice.Util.TwoWayDictionary`2.LeftContainsKey(`0)
+  id: LeftContainsKey(`0)
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: LeftContainsKey(LeftType)
+  nameWithType: TwoWayDictionary<LeftType, RightType>.LeftContainsKey(LeftType)
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.LeftContainsKey(LeftType)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nTest if a left-hand key exists\n"
+  syntax:
+    content: public bool LeftContainsKey(LeftType left)
+    parameters:
+    - id: left
+      type: '{LeftType}'
+      description: Left-hand key to look for
+    return:
+      type: System.Boolean
+      description: true if left-hand key was found
+    content.vb: Public Function LeftContainsKey(left As LeftType) As Boolean
+  overload: SuperOffice.Util.TwoWayDictionary`2.LeftContainsKey*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Left-hand key is null
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).LeftContainsKey(LeftType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).LeftContainsKey(LeftType)
+- uid: SuperOffice.Util.TwoWayDictionary`2.RightContainsKey(`1)
+  commentId: M:SuperOffice.Util.TwoWayDictionary`2.RightContainsKey(`1)
+  id: RightContainsKey(`1)
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: RightContainsKey(RightType)
+  nameWithType: TwoWayDictionary<LeftType, RightType>.RightContainsKey(RightType)
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.RightContainsKey(RightType)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nTest if a right-hand key exists\n"
+  syntax:
+    content: public bool RightContainsKey(RightType right)
+    parameters:
+    - id: right
+      type: '{RightType}'
+      description: Right-hand key to look for
+    return:
+      type: System.Boolean
+      description: true if the right-hand key was found
+    content.vb: Public Function RightContainsKey(right As RightType) As Boolean
+  overload: SuperOffice.Util.TwoWayDictionary`2.RightContainsKey*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Left-hand key is null
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).RightContainsKey(RightType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).RightContainsKey(RightType)
+- uid: SuperOffice.Util.TwoWayDictionary`2.LeftToArray
+  commentId: M:SuperOffice.Util.TwoWayDictionary`2.LeftToArray
+  id: LeftToArray
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: LeftToArray()
+  nameWithType: TwoWayDictionary<LeftType, RightType>.LeftToArray()
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.LeftToArray()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nReturn the left-hand values as an array\n"
+  syntax:
+    content: public LeftType[] LeftToArray()
+    return:
+      type: '{LeftType}[]'
+      description: Array of left-hand values
+    content.vb: Public Function LeftToArray As LeftType()
+  overload: SuperOffice.Util.TwoWayDictionary`2.LeftToArray*
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).LeftToArray()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).LeftToArray()
+- uid: SuperOffice.Util.TwoWayDictionary`2.RightToArray
+  commentId: M:SuperOffice.Util.TwoWayDictionary`2.RightToArray
+  id: RightToArray
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: RightToArray()
+  nameWithType: TwoWayDictionary<LeftType, RightType>.RightToArray()
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.RightToArray()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nReturn the right-hand values as an array\n"
+  syntax:
+    content: public RightType[] RightToArray()
+    return:
+      type: '{RightType}[]'
+      description: Array of right-hand values
+    content.vb: Public Function RightToArray As RightType()
+  overload: SuperOffice.Util.TwoWayDictionary`2.RightToArray*
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).RightToArray()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).RightToArray()
+- uid: SuperOffice.Util.TwoWayDictionary`2.Item(`0)
+  commentId: P:SuperOffice.Util.TwoWayDictionary`2.Item(`0)
+  id: Item(`0)
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Item[LeftType]
+  nameWithType: TwoWayDictionary<LeftType, RightType>.Item[LeftType]
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.Item[LeftType]
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nGet and set items similar to <see cref=\"!:Dictionary\"></see> using the first type as a key.\n"
+  syntax:
+    content: public RightType this[LeftType left] { get; set; }
+    parameters:
+    - id: left
+      type: '{LeftType}'
+      description: Key to use when looking up.
+    return:
+      type: '{RightType}'
+      description: Value from the given key.
+    content.vb: Public Property Item(left As LeftType) As RightType
+  overload: SuperOffice.Util.TwoWayDictionary`2.Item*
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).Item(LeftType)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).Item(LeftType)
+  name.vb: Item(LeftType)
+- uid: SuperOffice.Util.TwoWayDictionary`2.Keys
+  commentId: P:SuperOffice.Util.TwoWayDictionary`2.Keys
+  id: Keys
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Keys
+  nameWithType: TwoWayDictionary<LeftType, RightType>.Keys
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.Keys
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nWrapper for <xref href=\"SuperOffice.Util.TwoWayDictionary%602.LeftKeys\" data-throw-if-not-resolved=\"false\"></xref>, so <see cref=\"!:TwoWayDictionary\"></see> can be used like a <see cref=\"!:Dictionary\"></see>.\n"
+  syntax:
+    content: public Dictionary<LeftType, RightType>.KeyCollection Keys { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{{LeftType},{RightType}}.KeyCollection
+    content.vb: Public ReadOnly Property Keys As Dictionary(Of LeftType, RightType).KeyCollection
+  overload: SuperOffice.Util.TwoWayDictionary`2.Keys*
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).Keys
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).Keys
+- uid: SuperOffice.Util.TwoWayDictionary`2.LeftKeys
+  commentId: P:SuperOffice.Util.TwoWayDictionary`2.LeftKeys
+  id: LeftKeys
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: LeftKeys
+  nameWithType: TwoWayDictionary<LeftType, RightType>.LeftKeys
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.LeftKeys
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nGet Left keys.\n"
+  syntax:
+    content: public Dictionary<LeftType, RightType>.KeyCollection LeftKeys { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{{LeftType},{RightType}}.KeyCollection
+    content.vb: Public ReadOnly Property LeftKeys As Dictionary(Of LeftType, RightType).KeyCollection
+  overload: SuperOffice.Util.TwoWayDictionary`2.LeftKeys*
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).LeftKeys
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).LeftKeys
+- uid: SuperOffice.Util.TwoWayDictionary`2.RightKeys
+  commentId: P:SuperOffice.Util.TwoWayDictionary`2.RightKeys
+  id: RightKeys
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: RightKeys
+  nameWithType: TwoWayDictionary<LeftType, RightType>.RightKeys
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.RightKeys
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nGet right keys.\n"
+  syntax:
+    content: public Dictionary<RightType, LeftType>.KeyCollection RightKeys { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{{RightType},{LeftType}}.KeyCollection
+    content.vb: Public ReadOnly Property RightKeys As Dictionary(Of RightType, LeftType).KeyCollection
+  overload: SuperOffice.Util.TwoWayDictionary`2.RightKeys*
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).RightKeys
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).RightKeys
+- uid: SuperOffice.Util.TwoWayDictionary`2.Count
+  commentId: P:SuperOffice.Util.TwoWayDictionary`2.Count
+  id: Count
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: TwoWayDictionary<LeftType, RightType>.Count
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.Count
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nReturn the number of elements currently in the two-way dictionary\n"
+  syntax:
+    content: public int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Count As Integer
+  overload: SuperOffice.Util.TwoWayDictionary`2.Count*
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).Count
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).Count
+- uid: SuperOffice.Util.TwoWayDictionary`2.LeftValues
+  commentId: P:SuperOffice.Util.TwoWayDictionary`2.LeftValues
+  id: LeftValues
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: LeftValues
+  nameWithType: TwoWayDictionary<LeftType, RightType>.LeftValues
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.LeftValues
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nReturn an enumerator over the left-hand value type\n"
+  syntax:
+    content: public IEnumerable<LeftType> LeftValues { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{{LeftType}}
+    content.vb: Public ReadOnly Property LeftValues As IEnumerable(Of LeftType)
+  overload: SuperOffice.Util.TwoWayDictionary`2.LeftValues*
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).LeftValues
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).LeftValues
+- uid: SuperOffice.Util.TwoWayDictionary`2.RightValues
+  commentId: P:SuperOffice.Util.TwoWayDictionary`2.RightValues
+  id: RightValues
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: RightValues
+  nameWithType: TwoWayDictionary<LeftType, RightType>.RightValues
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.RightValues
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nReturn an enumerator over the right-hand value type\n"
+  syntax:
+    content: public IEnumerable<RightType> RightValues { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{{RightType}}
+    content.vb: Public ReadOnly Property RightValues As IEnumerable(Of RightType)
+  overload: SuperOffice.Util.TwoWayDictionary`2.RightValues*
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).RightValues
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).RightValues
+- uid: SuperOffice.Util.TwoWayDictionary`2.Values
+  commentId: P:SuperOffice.Util.TwoWayDictionary`2.Values
+  id: Values
+  parent: SuperOffice.Util.TwoWayDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Values
+  nameWithType: TwoWayDictionary<LeftType, RightType>.Values
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.Values
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nReturn an enumerator over the value pairs, with the left-hand value as the Key and the right-hand value as the Value element of the KeyValuePair\n"
+  syntax:
+    content: public IEnumerable<KeyValuePair<LeftType, RightType>> Values { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{{LeftType},{RightType}}}
+    content.vb: Public ReadOnly Property Values As IEnumerable(Of KeyValuePair(Of LeftType, RightType))
+  overload: SuperOffice.Util.TwoWayDictionary`2.Values*
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).Values
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).Values
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.TwoWayDictionary`2.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TwoWayDictionary<LeftType, RightType>, To>()
+  nameWithType: EnumUtil.MapEnums<TwoWayDictionary<LeftType, RightType>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.TwoWayDictionary<LeftType, RightType>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TwoWayDictionary(Of LeftType, RightType), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType), To)()
+  name.vb: MapEnums(Of TwoWayDictionary(Of LeftType, RightType), To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TwoWayDictionary<LeftType, RightType>, To>
+    nameWithType: EnumUtil.MapEnums<TwoWayDictionary<LeftType, RightType>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.TwoWayDictionary<LeftType, RightType>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TwoWayDictionary(Of LeftType, RightType), To)
+    nameWithType: EnumUtil.MapEnums(Of TwoWayDictionary(Of LeftType, RightType), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.TwoWayDictionary`2.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.TwoWayDictionary{{LeftType},{RightType}})
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<TwoWayDictionary<LeftType, RightType>>(TwoWayDictionary<LeftType, RightType>)
+  nameWithType: ObjectExtensions.AssignByReflection<TwoWayDictionary<LeftType, RightType>>(TwoWayDictionary<LeftType, RightType>)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.TwoWayDictionary<LeftType, RightType>>(SuperOffice.Util.TwoWayDictionary<LeftType, RightType>)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TwoWayDictionary(Of LeftType, RightType))(TwoWayDictionary(Of LeftType, RightType))
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType))(SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType))
+  name.vb: AssignByReflection(Of TwoWayDictionary(Of LeftType, RightType))(TwoWayDictionary(Of LeftType, RightType))
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<TwoWayDictionary<LeftType, RightType>>
+    nameWithType: ObjectExtensions.AssignByReflection<TwoWayDictionary<LeftType, RightType>>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.TwoWayDictionary<LeftType, RightType>>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Util.TwoWayDictionary`2
+    name: TwoWayDictionary
+    nameWithType: TwoWayDictionary
+    fullName: SuperOffice.Util.TwoWayDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: LeftType
+    nameWithType: LeftType
+    fullName: LeftType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: RightType
+    nameWithType: RightType
+    fullName: RightType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of TwoWayDictionary(Of LeftType, RightType))
+    nameWithType: ObjectExtensions.AssignByReflection(Of TwoWayDictionary(Of LeftType, RightType))
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType))
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Util.TwoWayDictionary`2
+    name: TwoWayDictionary
+    nameWithType: TwoWayDictionary
+    fullName: SuperOffice.Util.TwoWayDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: LeftType
+    nameWithType: LeftType
+    fullName: LeftType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: RightType
+    nameWithType: RightType
+    fullName: RightType
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.TwoWayDictionary`2.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<TwoWayDictionary<LeftType, RightType>>()
+  nameWithType: ObjectExtensions.GraphCopy<TwoWayDictionary<LeftType, RightType>>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.TwoWayDictionary<LeftType, RightType>>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TwoWayDictionary(Of LeftType, RightType))()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType))()
+  name.vb: GraphCopy(Of TwoWayDictionary(Of LeftType, RightType))()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<TwoWayDictionary<LeftType, RightType>>
+    nameWithType: ObjectExtensions.GraphCopy<TwoWayDictionary<LeftType, RightType>>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.TwoWayDictionary<LeftType, RightType>>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of TwoWayDictionary(Of LeftType, RightType))
+    nameWithType: ObjectExtensions.GraphCopy(Of TwoWayDictionary(Of LeftType, RightType))
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType))
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.TwoWayDictionary`2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TwoWayDictionary<LeftType, RightType>, To>()
+  nameWithType: Converters.MapEnums<TwoWayDictionary<LeftType, RightType>, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.TwoWayDictionary<LeftType, RightType>, To>()
+  nameWithType.vb: Converters.MapEnums(Of TwoWayDictionary(Of LeftType, RightType), To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType), To)()
+  name.vb: MapEnums(Of TwoWayDictionary(Of LeftType, RightType), To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TwoWayDictionary<LeftType, RightType>, To>
+    nameWithType: Converters.MapEnums<TwoWayDictionary<LeftType, RightType>, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.TwoWayDictionary<LeftType, RightType>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TwoWayDictionary(Of LeftType, RightType), To)
+    nameWithType: Converters.MapEnums(Of TwoWayDictionary(Of LeftType, RightType), To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Util.TwoWayDictionary`2.#ctor*
+  commentId: Overload:SuperOffice.Util.TwoWayDictionary`2.#ctor
+  isExternal: true
+  name: TwoWayDictionary
+  nameWithType: TwoWayDictionary<LeftType, RightType>.TwoWayDictionary
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.TwoWayDictionary
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).TwoWayDictionary
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).TwoWayDictionary
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.IEqualityComparer{{LeftType}}
+  commentId: T:System.Collections.Generic.IEqualityComparer{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEqualityComparer`1
+  name: IEqualityComparer<LeftType>
+  nameWithType: IEqualityComparer<LeftType>
+  fullName: System.Collections.Generic.IEqualityComparer<LeftType>
+  nameWithType.vb: IEqualityComparer(Of LeftType)
+  fullName.vb: System.Collections.Generic.IEqualityComparer(Of LeftType)
+  name.vb: IEqualityComparer(Of LeftType)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: LeftType
+    nameWithType: LeftType
+    fullName: LeftType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: LeftType
+    nameWithType: LeftType
+    fullName: LeftType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEqualityComparer`1
+  commentId: T:System.Collections.Generic.IEqualityComparer`1
+  isExternal: true
+  name: IEqualityComparer<T>
+  nameWithType: IEqualityComparer<T>
+  fullName: System.Collections.Generic.IEqualityComparer<T>
+  nameWithType.vb: IEqualityComparer(Of T)
+  fullName.vb: System.Collections.Generic.IEqualityComparer(Of T)
+  name.vb: IEqualityComparer(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.IEqualityComparer{{RightType}}
+  commentId: T:System.Collections.Generic.IEqualityComparer{`1}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEqualityComparer`1
+  name: IEqualityComparer<RightType>
+  nameWithType: IEqualityComparer<RightType>
+  fullName: System.Collections.Generic.IEqualityComparer<RightType>
+  nameWithType.vb: IEqualityComparer(Of RightType)
+  fullName.vb: System.Collections.Generic.IEqualityComparer(Of RightType)
+  name.vb: IEqualityComparer(Of RightType)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: RightType
+    nameWithType: RightType
+    fullName: RightType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: RightType
+    nameWithType: RightType
+    fullName: RightType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.TwoWayDictionary`2.LeftGetValue*
+  commentId: Overload:SuperOffice.Util.TwoWayDictionary`2.LeftGetValue
+  isExternal: true
+  name: LeftGetValue
+  nameWithType: TwoWayDictionary<LeftType, RightType>.LeftGetValue
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.LeftGetValue
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).LeftGetValue
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).LeftGetValue
+- uid: '{LeftType}'
+  commentId: '!:LeftType'
+  definition: LeftType
+  name: LeftType
+  nameWithType: LeftType
+  fullName: LeftType
+- uid: '{RightType}'
+  commentId: '!:RightType'
+  definition: RightType
+  name: RightType
+  nameWithType: RightType
+  fullName: RightType
+- uid: LeftType
+  name: LeftType
+  nameWithType: LeftType
+  fullName: LeftType
+- uid: RightType
+  name: RightType
+  nameWithType: RightType
+  fullName: RightType
+- uid: SuperOffice.Util.TwoWayDictionary`2.RightGetValue*
+  commentId: Overload:SuperOffice.Util.TwoWayDictionary`2.RightGetValue
+  isExternal: true
+  name: RightGetValue
+  nameWithType: TwoWayDictionary<LeftType, RightType>.RightGetValue
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.RightGetValue
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).RightGetValue
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).RightGetValue
+- uid: SuperOffice.Util.TwoWayDictionary`2.Add*
+  commentId: Overload:SuperOffice.Util.TwoWayDictionary`2.Add
+  isExternal: true
+  name: Add
+  nameWithType: TwoWayDictionary<LeftType, RightType>.Add
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.Add
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).Add
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).Add
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  isExternal: true
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+- uid: SuperOffice.Util.TwoWayDictionary`2.AddOverwrite*
+  commentId: Overload:SuperOffice.Util.TwoWayDictionary`2.AddOverwrite
+  isExternal: true
+  name: AddOverwrite
+  nameWithType: TwoWayDictionary<LeftType, RightType>.AddOverwrite
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.AddOverwrite
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).AddOverwrite
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).AddOverwrite
+- uid: SuperOffice.Util.TwoWayDictionary`2.Remove*
+  commentId: Overload:SuperOffice.Util.TwoWayDictionary`2.Remove
+  isExternal: true
+  name: Remove
+  nameWithType: TwoWayDictionary<LeftType, RightType>.Remove
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.Remove
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).Remove
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).Remove
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Util.TwoWayDictionary`2.LeftRemove*
+  commentId: Overload:SuperOffice.Util.TwoWayDictionary`2.LeftRemove
+  isExternal: true
+  name: LeftRemove
+  nameWithType: TwoWayDictionary<LeftType, RightType>.LeftRemove
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.LeftRemove
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).LeftRemove
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).LeftRemove
+- uid: SuperOffice.Util.TwoWayDictionary`2.RightRemove*
+  commentId: Overload:SuperOffice.Util.TwoWayDictionary`2.RightRemove
+  isExternal: true
+  name: RightRemove
+  nameWithType: TwoWayDictionary<LeftType, RightType>.RightRemove
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.RightRemove
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).RightRemove
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).RightRemove
+- uid: SuperOffice.Util.TwoWayDictionary`2.Clear*
+  commentId: Overload:SuperOffice.Util.TwoWayDictionary`2.Clear
+  isExternal: true
+  name: Clear
+  nameWithType: TwoWayDictionary<LeftType, RightType>.Clear
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.Clear
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).Clear
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).Clear
+- uid: SuperOffice.Util.TwoWayDictionary`2.TryGetValue*
+  commentId: Overload:SuperOffice.Util.TwoWayDictionary`2.TryGetValue
+  isExternal: true
+  name: TryGetValue
+  nameWithType: TwoWayDictionary<LeftType, RightType>.TryGetValue
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.TryGetValue
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).TryGetValue
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).TryGetValue
+- uid: SuperOffice.Util.TwoWayDictionary`2.LeftTryGetValue*
+  commentId: Overload:SuperOffice.Util.TwoWayDictionary`2.LeftTryGetValue
+  isExternal: true
+  name: LeftTryGetValue
+  nameWithType: TwoWayDictionary<LeftType, RightType>.LeftTryGetValue
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.LeftTryGetValue
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).LeftTryGetValue
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).LeftTryGetValue
+- uid: System.Collections.Generic.KeyNotFoundException
+  commentId: T:System.Collections.Generic.KeyNotFoundException
+  isExternal: true
+- uid: SuperOffice.Util.TwoWayDictionary`2.RightTryGetValue*
+  commentId: Overload:SuperOffice.Util.TwoWayDictionary`2.RightTryGetValue
+  isExternal: true
+  name: RightTryGetValue
+  nameWithType: TwoWayDictionary<LeftType, RightType>.RightTryGetValue
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.RightTryGetValue
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).RightTryGetValue
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).RightTryGetValue
+- uid: SuperOffice.Util.TwoWayDictionary`2.ContainsKey*
+  commentId: Overload:SuperOffice.Util.TwoWayDictionary`2.ContainsKey
+  isExternal: true
+  name: ContainsKey
+  nameWithType: TwoWayDictionary<LeftType, RightType>.ContainsKey
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.ContainsKey
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).ContainsKey
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).ContainsKey
+- uid: SuperOffice.Util.TwoWayDictionary`2.LeftContainsKey*
+  commentId: Overload:SuperOffice.Util.TwoWayDictionary`2.LeftContainsKey
+  isExternal: true
+  name: LeftContainsKey
+  nameWithType: TwoWayDictionary<LeftType, RightType>.LeftContainsKey
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.LeftContainsKey
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).LeftContainsKey
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).LeftContainsKey
+- uid: SuperOffice.Util.TwoWayDictionary`2.RightContainsKey*
+  commentId: Overload:SuperOffice.Util.TwoWayDictionary`2.RightContainsKey
+  isExternal: true
+  name: RightContainsKey
+  nameWithType: TwoWayDictionary<LeftType, RightType>.RightContainsKey
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.RightContainsKey
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).RightContainsKey
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).RightContainsKey
+- uid: SuperOffice.Util.TwoWayDictionary`2.LeftToArray*
+  commentId: Overload:SuperOffice.Util.TwoWayDictionary`2.LeftToArray
+  isExternal: true
+  name: LeftToArray
+  nameWithType: TwoWayDictionary<LeftType, RightType>.LeftToArray
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.LeftToArray
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).LeftToArray
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).LeftToArray
+- uid: '{LeftType}[]'
+  isExternal: true
+  name: LeftType[]
+  nameWithType: LeftType[]
+  fullName: LeftType[]
+  nameWithType.vb: LeftType()
+  fullName.vb: LeftType()
+  name.vb: LeftType()
+  spec.csharp:
+  - name: LeftType
+    nameWithType: LeftType
+    fullName: LeftType
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - name: LeftType
+    nameWithType: LeftType
+    fullName: LeftType
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Util.TwoWayDictionary`2.RightToArray*
+  commentId: Overload:SuperOffice.Util.TwoWayDictionary`2.RightToArray
+  isExternal: true
+  name: RightToArray
+  nameWithType: TwoWayDictionary<LeftType, RightType>.RightToArray
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.RightToArray
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).RightToArray
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).RightToArray
+- uid: '{RightType}[]'
+  isExternal: true
+  name: RightType[]
+  nameWithType: RightType[]
+  fullName: RightType[]
+  nameWithType.vb: RightType()
+  fullName.vb: RightType()
+  name.vb: RightType()
+  spec.csharp:
+  - name: RightType
+    nameWithType: RightType
+    fullName: RightType
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - name: RightType
+    nameWithType: RightType
+    fullName: RightType
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Util.TwoWayDictionary`2.Item*
+  commentId: Overload:SuperOffice.Util.TwoWayDictionary`2.Item
+  isExternal: true
+  name: Item
+  nameWithType: TwoWayDictionary<LeftType, RightType>.Item
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.Item
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).Item
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).Item
+- uid: SuperOffice.Util.TwoWayDictionary`2.Keys*
+  commentId: Overload:SuperOffice.Util.TwoWayDictionary`2.Keys
+  isExternal: true
+  name: Keys
+  nameWithType: TwoWayDictionary<LeftType, RightType>.Keys
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.Keys
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).Keys
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).Keys
+- uid: System.Collections.Generic.Dictionary{{LeftType},{RightType}}.KeyCollection
+  commentId: T:System.Collections.Generic.Dictionary{`0,`1}.KeyCollection
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2.KeyCollection
+  name: Dictionary.KeyCollection<>
+  nameWithType: Dictionary.KeyCollection<>
+  fullName: System.Collections.Generic.Dictionary.KeyCollection<>
+  nameWithType.vb: Dictionary.KeyCollection(Of )
+  fullName.vb: System.Collections.Generic.Dictionary.KeyCollection(Of )
+  name.vb: Dictionary.KeyCollection(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2.KeyCollection
+    name: Dictionary.KeyCollection
+    nameWithType: Dictionary.KeyCollection
+    fullName: System.Collections.Generic.Dictionary.KeyCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2.KeyCollection
+    name: Dictionary.KeyCollection
+    nameWithType: Dictionary.KeyCollection
+    fullName: System.Collections.Generic.Dictionary.KeyCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2.KeyCollection
+  commentId: T:System.Collections.Generic.Dictionary`2.KeyCollection
+  isExternal: true
+  name: Dictionary.KeyCollection<>
+  nameWithType: Dictionary.KeyCollection<>
+  fullName: System.Collections.Generic.Dictionary.KeyCollection<>
+  nameWithType.vb: Dictionary.KeyCollection(Of )
+  fullName.vb: System.Collections.Generic.Dictionary.KeyCollection(Of )
+  name.vb: Dictionary.KeyCollection(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2.KeyCollection
+    name: Dictionary.KeyCollection
+    nameWithType: Dictionary.KeyCollection
+    fullName: System.Collections.Generic.Dictionary.KeyCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2.KeyCollection
+    name: Dictionary.KeyCollection
+    nameWithType: Dictionary.KeyCollection
+    fullName: System.Collections.Generic.Dictionary.KeyCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.TwoWayDictionary`2.LeftKeys*
+  commentId: Overload:SuperOffice.Util.TwoWayDictionary`2.LeftKeys
+  isExternal: true
+  name: LeftKeys
+  nameWithType: TwoWayDictionary<LeftType, RightType>.LeftKeys
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.LeftKeys
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).LeftKeys
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).LeftKeys
+- uid: SuperOffice.Util.TwoWayDictionary`2.RightKeys*
+  commentId: Overload:SuperOffice.Util.TwoWayDictionary`2.RightKeys
+  isExternal: true
+  name: RightKeys
+  nameWithType: TwoWayDictionary<LeftType, RightType>.RightKeys
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.RightKeys
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).RightKeys
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).RightKeys
+- uid: System.Collections.Generic.Dictionary{{RightType},{LeftType}}.KeyCollection
+  commentId: T:System.Collections.Generic.Dictionary{`1,`0}.KeyCollection
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2.KeyCollection
+  name: Dictionary.KeyCollection<>
+  nameWithType: Dictionary.KeyCollection<>
+  fullName: System.Collections.Generic.Dictionary.KeyCollection<>
+  nameWithType.vb: Dictionary.KeyCollection(Of )
+  fullName.vb: System.Collections.Generic.Dictionary.KeyCollection(Of )
+  name.vb: Dictionary.KeyCollection(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2.KeyCollection
+    name: Dictionary.KeyCollection
+    nameWithType: Dictionary.KeyCollection
+    fullName: System.Collections.Generic.Dictionary.KeyCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2.KeyCollection
+    name: Dictionary.KeyCollection
+    nameWithType: Dictionary.KeyCollection
+    fullName: System.Collections.Generic.Dictionary.KeyCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.TwoWayDictionary`2.Count*
+  commentId: Overload:SuperOffice.Util.TwoWayDictionary`2.Count
+  isExternal: true
+  name: Count
+  nameWithType: TwoWayDictionary<LeftType, RightType>.Count
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.Count
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).Count
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).Count
+- uid: SuperOffice.Util.TwoWayDictionary`2.LeftValues*
+  commentId: Overload:SuperOffice.Util.TwoWayDictionary`2.LeftValues
+  isExternal: true
+  name: LeftValues
+  nameWithType: TwoWayDictionary<LeftType, RightType>.LeftValues
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.LeftValues
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).LeftValues
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).LeftValues
+- uid: System.Collections.Generic.IEnumerable{{LeftType}}
+  commentId: T:System.Collections.Generic.IEnumerable{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<LeftType>
+  nameWithType: IEnumerable<LeftType>
+  fullName: System.Collections.Generic.IEnumerable<LeftType>
+  nameWithType.vb: IEnumerable(Of LeftType)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of LeftType)
+  name.vb: IEnumerable(Of LeftType)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: LeftType
+    nameWithType: LeftType
+    fullName: LeftType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: LeftType
+    nameWithType: LeftType
+    fullName: LeftType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.TwoWayDictionary`2.RightValues*
+  commentId: Overload:SuperOffice.Util.TwoWayDictionary`2.RightValues
+  isExternal: true
+  name: RightValues
+  nameWithType: TwoWayDictionary<LeftType, RightType>.RightValues
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.RightValues
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).RightValues
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).RightValues
+- uid: System.Collections.Generic.IEnumerable{{RightType}}
+  commentId: T:System.Collections.Generic.IEnumerable{`1}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<RightType>
+  nameWithType: IEnumerable<RightType>
+  fullName: System.Collections.Generic.IEnumerable<RightType>
+  nameWithType.vb: IEnumerable(Of RightType)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of RightType)
+  name.vb: IEnumerable(Of RightType)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: RightType
+    nameWithType: RightType
+    fullName: RightType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: RightType
+    nameWithType: RightType
+    fullName: RightType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.TwoWayDictionary`2.Values*
+  commentId: Overload:SuperOffice.Util.TwoWayDictionary`2.Values
+  isExternal: true
+  name: Values
+  nameWithType: TwoWayDictionary<LeftType, RightType>.Values
+  fullName: SuperOffice.Util.TwoWayDictionary<LeftType, RightType>.Values
+  nameWithType.vb: TwoWayDictionary(Of LeftType, RightType).Values
+  fullName.vb: SuperOffice.Util.TwoWayDictionary(Of LeftType, RightType).Values
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{{LeftType},{RightType}}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<KeyValuePair<LeftType, RightType>>
+  nameWithType: IEnumerable<KeyValuePair<LeftType, RightType>>
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<LeftType, RightType>>
+  nameWithType.vb: IEnumerable(Of KeyValuePair(Of LeftType, RightType))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of LeftType, RightType))
+  name.vb: IEnumerable(Of KeyValuePair(Of LeftType, RightType))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: LeftType
+    nameWithType: LeftType
+    fullName: LeftType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: RightType
+    nameWithType: RightType
+    fullName: RightType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: LeftType
+    nameWithType: LeftType
+    fullName: LeftType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: RightType
+    nameWithType: RightType
+    fullName: RightType
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )

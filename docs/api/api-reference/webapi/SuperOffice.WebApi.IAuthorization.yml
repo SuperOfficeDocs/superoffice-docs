@@ -1,0 +1,322 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.IAuthorization
+  commentId: T:SuperOffice.WebApi.IAuthorization
+  id: IAuthorization
+  parent: SuperOffice.WebApi
+  children:
+  - SuperOffice.WebApi.IAuthorization.GetAuthorization
+  - SuperOffice.WebApi.IAuthorization.RefreshAuthorization
+  langs:
+  - csharp
+  - vb
+  name: IAuthorization
+  nameWithType: IAuthorization
+  fullName: SuperOffice.WebApi.IAuthorization
+  type: Interface
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nDefines a method to construct the Authorization header scheme and parameter for Http Requests.\n<xref href=\"SuperOffice.WebApi.AuthorizationAccessToken\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"SuperOffice.WebApi.AuthorizationUsernamePassword\" data-throw-if-not-resolved=\"false\"></xref>,\n<xref href=\"SuperOffice.WebApi.AuthorizationTicket\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"SuperOffice.WebApi.AuthorizationImplicit\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public interface IAuthorization
+    content.vb: Public Interface IAuthorization
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.WebApi.IAuthorization.GetAuthorization
+  commentId: M:SuperOffice.WebApi.IAuthorization.GetAuthorization
+  id: GetAuthorization
+  parent: SuperOffice.WebApi.IAuthorization
+  langs:
+  - csharp
+  - vb
+  name: GetAuthorization()
+  nameWithType: IAuthorization.GetAuthorization()
+  fullName: SuperOffice.WebApi.IAuthorization.GetAuthorization()
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nReturn the HTTP Authorization scheme and parameters to use.\n"
+  syntax:
+    content: ValueTuple<string, string> GetAuthorization()
+    return:
+      type: System.ValueTuple{System.String,System.String}
+      description: (scheme, parameter). e.g. (&quot;Basic&quot;, &quot;Base64encoded==&quot;)
+    content.vb: Function GetAuthorization As ValueTuple(Of String, String)
+  overload: SuperOffice.WebApi.IAuthorization.GetAuthorization*
+- uid: SuperOffice.WebApi.IAuthorization.RefreshAuthorization
+  commentId: P:SuperOffice.WebApi.IAuthorization.RefreshAuthorization
+  id: RefreshAuthorization
+  parent: SuperOffice.WebApi.IAuthorization
+  langs:
+  - csharp
+  - vb
+  name: RefreshAuthorization
+  nameWithType: IAuthorization.RefreshAuthorization
+  fullName: SuperOffice.WebApi.IAuthorization.RefreshAuthorization
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nDelegate called when authentication fails. Use to acquire and return a new authentication header value.\n"
+  syntax:
+    content: Func<ReAuthorizationArgs, IAuthorization> RefreshAuthorization { get; set; }
+    parameters: []
+    return:
+      type: System.Func{SuperOffice.WebApi.ReAuthorizationArgs,SuperOffice.WebApi.IAuthorization}
+    content.vb: Property RefreshAuthorization As Func(Of ReAuthorizationArgs, IAuthorization)
+  overload: SuperOffice.WebApi.IAuthorization.RefreshAuthorization*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: SuperOffice.WebApi.IAuthorization.GetAuthorization*
+  commentId: Overload:SuperOffice.WebApi.IAuthorization.GetAuthorization
+  isExternal: true
+  name: GetAuthorization
+  nameWithType: IAuthorization.GetAuthorization
+  fullName: SuperOffice.WebApi.IAuthorization.GetAuthorization
+- uid: System.ValueTuple{System.String,System.String}
+  commentId: '!:System.ValueTuple{System.String,System.String}'
+  definition: System.ValueTuple`2
+  name: ValueTuple<String, String>
+  nameWithType: ValueTuple<String, String>
+  fullName: System.ValueTuple<System.String, System.String>
+  nameWithType.vb: ValueTuple(Of String, String)
+  fullName.vb: System.ValueTuple(Of System.String, System.String)
+  name.vb: ValueTuple(Of String, String)
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueTuple`2
+  isExternal: true
+  name: ValueTuple<, >
+  nameWithType: ValueTuple<, >
+  fullName: System.ValueTuple<, >
+  nameWithType.vb: ValueTuple(Of , )
+  fullName.vb: System.ValueTuple(Of , )
+  name.vb: ValueTuple(Of , )
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.IAuthorization.RefreshAuthorization*
+  commentId: Overload:SuperOffice.WebApi.IAuthorization.RefreshAuthorization
+  isExternal: true
+  name: RefreshAuthorization
+  nameWithType: IAuthorization.RefreshAuthorization
+  fullName: SuperOffice.WebApi.IAuthorization.RefreshAuthorization
+- uid: System.Func{SuperOffice.WebApi.ReAuthorizationArgs,SuperOffice.WebApi.IAuthorization}
+  commentId: '!:System.Func{SuperOffice.WebApi.ReAuthorizationArgs,SuperOffice.WebApi.IAuthorization}'
+  definition: System.Func`2
+  name: Func<ReAuthorizationArgs, IAuthorization>
+  nameWithType: Func<ReAuthorizationArgs, IAuthorization>
+  fullName: System.Func<SuperOffice.WebApi.ReAuthorizationArgs, SuperOffice.WebApi.IAuthorization>
+  nameWithType.vb: Func(Of ReAuthorizationArgs, IAuthorization)
+  fullName.vb: System.Func(Of SuperOffice.WebApi.ReAuthorizationArgs, SuperOffice.WebApi.IAuthorization)
+  name.vb: Func(Of ReAuthorizationArgs, IAuthorization)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.ReAuthorizationArgs
+    name: ReAuthorizationArgs
+    nameWithType: ReAuthorizationArgs
+    fullName: SuperOffice.WebApi.ReAuthorizationArgs
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.IAuthorization
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.ReAuthorizationArgs
+    name: ReAuthorizationArgs
+    nameWithType: ReAuthorizationArgs
+    fullName: SuperOffice.WebApi.ReAuthorizationArgs
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`2
+  isExternal: true
+  name: Func<, >
+  nameWithType: Func<, >
+  fullName: System.Func<, >
+  nameWithType.vb: Func(Of , )
+  fullName.vb: System.Func(Of , )
+  name.vb: Func(Of , )
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

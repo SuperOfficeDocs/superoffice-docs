@@ -1,0 +1,885 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Import.ContactToDictionaryConverter
+  commentId: T:SuperOffice.CRM.Import.ContactToDictionaryConverter
+  id: ContactToDictionaryConverter
+  parent: SuperOffice.CRM.Import
+  children:
+  - SuperOffice.CRM.Import.ContactToDictionaryConverter.ContactDictionary(System.String,System.String,System.String,SuperOffice.Data.ErpActorType,System.Int32)
+  - SuperOffice.CRM.Import.ContactToDictionaryConverter.ContactToDictionary(SuperOffice.CRM.Rows.ContactRow)
+  - SuperOffice.CRM.Import.ContactToDictionaryConverter.GetRelatedFieldValue(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object})
+  - SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonDictionary(System.Int32,System.String,System.String,SuperOffice.Data.ErpActorType,System.Int32)
+  - SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonDictionary(System.String,System.String,SuperOffice.Data.ErpActorType,System.Int32)
+  - SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonReaderToDictionary(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.PersonTableInfo)
+  - SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonToDictionary(SuperOffice.CRM.Rows.PersonRow)
+  - SuperOffice.CRM.Import.ContactToDictionaryConverter.SetRelatedFieldValue(System.Object,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object})
+  langs:
+  - csharp
+  - vb
+  name: ContactToDictionaryConverter
+  nameWithType: ContactToDictionaryConverter
+  fullName: SuperOffice.CRM.Import.ContactToDictionaryConverter
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Import
+  summary: "\nConverter methods for converting a contact entity to a dictionary\n"
+  syntax:
+    content: public static class ContactToDictionaryConverter
+    content.vb: Public Module ContactToDictionaryConverter
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Import.ContactToDictionaryConverter.ContactToDictionary(SuperOffice.CRM.Rows.ContactRow)
+  commentId: M:SuperOffice.CRM.Import.ContactToDictionaryConverter.ContactToDictionary(SuperOffice.CRM.Rows.ContactRow)
+  id: ContactToDictionary(SuperOffice.CRM.Rows.ContactRow)
+  parent: SuperOffice.CRM.Import.ContactToDictionaryConverter
+  langs:
+  - csharp
+  - vb
+  name: ContactToDictionary(ContactRow)
+  nameWithType: ContactToDictionaryConverter.ContactToDictionary(ContactRow)
+  fullName: SuperOffice.CRM.Import.ContactToDictionaryConverter.ContactToDictionary(SuperOffice.CRM.Rows.ContactRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Import
+  summary: "\nConverts a contact entity to a dictionary representation\n"
+  syntax:
+    content: public static Dictionary<string, object> ContactToDictionary(ContactRow contact)
+    parameters:
+    - id: contact
+      type: SuperOffice.CRM.Rows.ContactRow
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+    content.vb: Public Shared Function ContactToDictionary(contact As ContactRow) As Dictionary(Of String, Object)
+  overload: SuperOffice.CRM.Import.ContactToDictionaryConverter.ContactToDictionary*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonToDictionary(SuperOffice.CRM.Rows.PersonRow)
+  commentId: M:SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonToDictionary(SuperOffice.CRM.Rows.PersonRow)
+  id: PersonToDictionary(SuperOffice.CRM.Rows.PersonRow)
+  parent: SuperOffice.CRM.Import.ContactToDictionaryConverter
+  langs:
+  - csharp
+  - vb
+  name: PersonToDictionary(PersonRow)
+  nameWithType: ContactToDictionaryConverter.PersonToDictionary(PersonRow)
+  fullName: SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonToDictionary(SuperOffice.CRM.Rows.PersonRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Import
+  summary: "\nConverts a person entity to a dictionary representation\n"
+  syntax:
+    content: public static Dictionary<string, object> PersonToDictionary(PersonRow person)
+    parameters:
+    - id: person
+      type: SuperOffice.CRM.Rows.PersonRow
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+    content.vb: Public Shared Function PersonToDictionary(person As PersonRow) As Dictionary(Of String, Object)
+  overload: SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonToDictionary*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonReaderToDictionary(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.PersonTableInfo)
+  commentId: M:SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonReaderToDictionary(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.PersonTableInfo)
+  id: PersonReaderToDictionary(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.PersonTableInfo)
+  parent: SuperOffice.CRM.Import.ContactToDictionaryConverter
+  langs:
+  - csharp
+  - vb
+  name: PersonReaderToDictionary(SoDataReader, PersonTableInfo)
+  nameWithType: ContactToDictionaryConverter.PersonReaderToDictionary(SoDataReader, PersonTableInfo)
+  fullName: SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonReaderToDictionary(SuperOffice.Data.SoDataReader, SuperOffice.CRM.Data.PersonTableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Import
+  summary: "\nConverts a person entity to a dictionary representation\n"
+  syntax:
+    content: public static Dictionary<string, object> PersonReaderToDictionary(SoDataReader reader, PersonTableInfo pt)
+    parameters:
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+    - id: pt
+      type: SuperOffice.CRM.Data.PersonTableInfo
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+    content.vb: Public Shared Function PersonReaderToDictionary(reader As SoDataReader, pt As PersonTableInfo) As Dictionary(Of String, Object)
+  overload: SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonReaderToDictionary*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Import.ContactToDictionaryConverter.GetRelatedFieldValue(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object})
+  commentId: M:SuperOffice.CRM.Import.ContactToDictionaryConverter.GetRelatedFieldValue(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object})
+  id: GetRelatedFieldValue(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object})
+  parent: SuperOffice.CRM.Import.ContactToDictionaryConverter
+  langs:
+  - csharp
+  - vb
+  name: GetRelatedFieldValue(String, String, Dictionary<String, Object>)
+  nameWithType: ContactToDictionaryConverter.GetRelatedFieldValue(String, String, Dictionary<String, Object>)
+  fullName: SuperOffice.CRM.Import.ContactToDictionaryConverter.GetRelatedFieldValue(System.String, System.String, System.Collections.Generic.Dictionary<System.String, System.Object>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Import
+  summary: "\nReturn the related field value in an array of dictionaries \n"
+  syntax:
+    content: public static object GetRelatedFieldValue(string relatedTableName, string relatedFieldName, Dictionary<string, object> entity)
+    parameters:
+    - id: relatedTableName
+      type: System.String
+    - id: relatedFieldName
+      type: System.String
+    - id: entity
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+    return:
+      type: System.Object
+    content.vb: Public Shared Function GetRelatedFieldValue(relatedTableName As String, relatedFieldName As String, entity As Dictionary(Of String, Object)) As Object
+  overload: SuperOffice.CRM.Import.ContactToDictionaryConverter.GetRelatedFieldValue*
+  nameWithType.vb: ContactToDictionaryConverter.GetRelatedFieldValue(String, String, Dictionary(Of String, Object))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Import.ContactToDictionaryConverter.GetRelatedFieldValue(System.String, System.String, System.Collections.Generic.Dictionary(Of System.String, System.Object))
+  name.vb: GetRelatedFieldValue(String, String, Dictionary(Of String, Object))
+- uid: SuperOffice.CRM.Import.ContactToDictionaryConverter.SetRelatedFieldValue(System.Object,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object})
+  commentId: M:SuperOffice.CRM.Import.ContactToDictionaryConverter.SetRelatedFieldValue(System.Object,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object})
+  id: SetRelatedFieldValue(System.Object,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object})
+  parent: SuperOffice.CRM.Import.ContactToDictionaryConverter
+  langs:
+  - csharp
+  - vb
+  name: SetRelatedFieldValue(Object, String, String, Dictionary<String, Object>)
+  nameWithType: ContactToDictionaryConverter.SetRelatedFieldValue(Object, String, String, Dictionary<String, Object>)
+  fullName: SuperOffice.CRM.Import.ContactToDictionaryConverter.SetRelatedFieldValue(System.Object, System.String, System.String, System.Collections.Generic.Dictionary<System.String, System.Object>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Import
+  summary: "\nSets the related field value in an array of dictionarys\n"
+  syntax:
+    content: public static bool SetRelatedFieldValue(object value, string relatedTableName, string relatedFieldName, Dictionary<string, object> entity)
+    parameters:
+    - id: value
+      type: System.Object
+    - id: relatedTableName
+      type: System.String
+    - id: relatedFieldName
+      type: System.String
+    - id: entity
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function SetRelatedFieldValue(value As Object, relatedTableName As String, relatedFieldName As String, entity As Dictionary(Of String, Object)) As Boolean
+  overload: SuperOffice.CRM.Import.ContactToDictionaryConverter.SetRelatedFieldValue*
+  nameWithType.vb: ContactToDictionaryConverter.SetRelatedFieldValue(Object, String, String, Dictionary(Of String, Object))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Import.ContactToDictionaryConverter.SetRelatedFieldValue(System.Object, System.String, System.String, System.Collections.Generic.Dictionary(Of System.String, System.Object))
+  name.vb: SetRelatedFieldValue(Object, String, String, Dictionary(Of String, Object))
+- uid: SuperOffice.CRM.Import.ContactToDictionaryConverter.ContactDictionary(System.String,System.String,System.String,SuperOffice.Data.ErpActorType,System.Int32)
+  commentId: M:SuperOffice.CRM.Import.ContactToDictionaryConverter.ContactDictionary(System.String,System.String,System.String,SuperOffice.Data.ErpActorType,System.Int32)
+  id: ContactDictionary(System.String,System.String,System.String,SuperOffice.Data.ErpActorType,System.Int32)
+  parent: SuperOffice.CRM.Import.ContactToDictionaryConverter
+  langs:
+  - csharp
+  - vb
+  name: ContactDictionary(String, String, String, ErpActorType, Int32)
+  nameWithType: ContactToDictionaryConverter.ContactDictionary(String, String, String, ErpActorType, Int32)
+  fullName: SuperOffice.CRM.Import.ContactToDictionaryConverter.ContactDictionary(System.String, System.String, System.String, SuperOffice.Data.ErpActorType, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Import
+  summary: "\nCreates a new contact dictionary from the given name and departement\n"
+  syntax:
+    content: public static Dictionary<string, object> ContactDictionary(string name, string departement, string erpKey, ErpActorType actorType, int erpConnectionId)
+    parameters:
+    - id: name
+      type: System.String
+    - id: departement
+      type: System.String
+    - id: erpKey
+      type: System.String
+    - id: actorType
+      type: SuperOffice.Data.ErpActorType
+    - id: erpConnectionId
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+    content.vb: Public Shared Function ContactDictionary(name As String, departement As String, erpKey As String, actorType As ErpActorType, erpConnectionId As Integer) As Dictionary(Of String, Object)
+  overload: SuperOffice.CRM.Import.ContactToDictionaryConverter.ContactDictionary*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonDictionary(System.Int32,System.String,System.String,SuperOffice.Data.ErpActorType,System.Int32)
+  commentId: M:SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonDictionary(System.Int32,System.String,System.String,SuperOffice.Data.ErpActorType,System.Int32)
+  id: PersonDictionary(System.Int32,System.String,System.String,SuperOffice.Data.ErpActorType,System.Int32)
+  parent: SuperOffice.CRM.Import.ContactToDictionaryConverter
+  langs:
+  - csharp
+  - vb
+  name: PersonDictionary(Int32, String, String, ErpActorType, Int32)
+  nameWithType: ContactToDictionaryConverter.PersonDictionary(Int32, String, String, ErpActorType, Int32)
+  fullName: SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonDictionary(System.Int32, System.String, System.String, SuperOffice.Data.ErpActorType, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Import
+  summary: "\nCreates a new person dictionary from the given rank\n"
+  syntax:
+    content: public static Dictionary<string, object> PersonDictionary(int rank, string erpKey, string parentErpKey, ErpActorType actorType, int erpConnectionId)
+    parameters:
+    - id: rank
+      type: System.Int32
+    - id: erpKey
+      type: System.String
+    - id: parentErpKey
+      type: System.String
+    - id: actorType
+      type: SuperOffice.Data.ErpActorType
+    - id: erpConnectionId
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+    content.vb: Public Shared Function PersonDictionary(rank As Integer, erpKey As String, parentErpKey As String, actorType As ErpActorType, erpConnectionId As Integer) As Dictionary(Of String, Object)
+  overload: SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonDictionary*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonDictionary(System.String,System.String,SuperOffice.Data.ErpActorType,System.Int32)
+  commentId: M:SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonDictionary(System.String,System.String,SuperOffice.Data.ErpActorType,System.Int32)
+  id: PersonDictionary(System.String,System.String,SuperOffice.Data.ErpActorType,System.Int32)
+  parent: SuperOffice.CRM.Import.ContactToDictionaryConverter
+  langs:
+  - csharp
+  - vb
+  name: PersonDictionary(String, String, ErpActorType, Int32)
+  nameWithType: ContactToDictionaryConverter.PersonDictionary(String, String, ErpActorType, Int32)
+  fullName: SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonDictionary(System.String, System.String, SuperOffice.Data.ErpActorType, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Import
+  summary: "\nCreates a new person dictionary \n"
+  syntax:
+    content: public static Dictionary<string, object> PersonDictionary(string erpKey, string parentErpKey, ErpActorType actorType, int erpConnectionId)
+    parameters:
+    - id: erpKey
+      type: System.String
+    - id: parentErpKey
+      type: System.String
+    - id: actorType
+      type: SuperOffice.Data.ErpActorType
+    - id: erpConnectionId
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+    content.vb: Public Shared Function PersonDictionary(erpKey As String, parentErpKey As String, actorType As ErpActorType, erpConnectionId As Integer) As Dictionary(Of String, Object)
+  overload: SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonDictionary*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Import
+  commentId: N:SuperOffice.CRM.Import
+  isExternal: true
+  name: SuperOffice.CRM.Import
+  nameWithType: SuperOffice.CRM.Import
+  fullName: SuperOffice.CRM.Import
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Import.ContactToDictionaryConverter.ContactToDictionary*
+  commentId: Overload:SuperOffice.CRM.Import.ContactToDictionaryConverter.ContactToDictionary
+  isExternal: true
+  name: ContactToDictionary
+  nameWithType: ContactToDictionaryConverter.ContactToDictionary
+  fullName: SuperOffice.CRM.Import.ContactToDictionaryConverter.ContactToDictionary
+- uid: SuperOffice.CRM.Rows.ContactRow
+  commentId: T:SuperOffice.CRM.Rows.ContactRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: ContactRow
+  nameWithType: ContactRow
+  fullName: SuperOffice.CRM.Rows.ContactRow
+- uid: System.Collections.Generic.Dictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, Object>
+  nameWithType: Dictionary<String, Object>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.Object>
+  nameWithType.vb: Dictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.Object)
+  name.vb: Dictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonToDictionary*
+  commentId: Overload:SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonToDictionary
+  isExternal: true
+  name: PersonToDictionary
+  nameWithType: ContactToDictionaryConverter.PersonToDictionary
+  fullName: SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonToDictionary
+- uid: SuperOffice.CRM.Rows.PersonRow
+  commentId: T:SuperOffice.CRM.Rows.PersonRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: PersonRow
+  nameWithType: PersonRow
+  fullName: SuperOffice.CRM.Rows.PersonRow
+- uid: SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonReaderToDictionary*
+  commentId: Overload:SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonReaderToDictionary
+  isExternal: true
+  name: PersonReaderToDictionary
+  nameWithType: ContactToDictionaryConverter.PersonReaderToDictionary
+  fullName: SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonReaderToDictionary
+- uid: SuperOffice.Data.SoDataReader
+  commentId: T:SuperOffice.Data.SoDataReader
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoDataReader
+  nameWithType: SoDataReader
+  fullName: SuperOffice.Data.SoDataReader
+- uid: SuperOffice.CRM.Data.PersonTableInfo
+  commentId: T:SuperOffice.CRM.Data.PersonTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: PersonTableInfo
+  nameWithType: PersonTableInfo
+  fullName: SuperOffice.CRM.Data.PersonTableInfo
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: SuperOffice.CRM.Import.ContactToDictionaryConverter.GetRelatedFieldValue*
+  commentId: Overload:SuperOffice.CRM.Import.ContactToDictionaryConverter.GetRelatedFieldValue
+  isExternal: true
+  name: GetRelatedFieldValue
+  nameWithType: ContactToDictionaryConverter.GetRelatedFieldValue
+  fullName: SuperOffice.CRM.Import.ContactToDictionaryConverter.GetRelatedFieldValue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Import.ContactToDictionaryConverter.SetRelatedFieldValue*
+  commentId: Overload:SuperOffice.CRM.Import.ContactToDictionaryConverter.SetRelatedFieldValue
+  isExternal: true
+  name: SetRelatedFieldValue
+  nameWithType: ContactToDictionaryConverter.SetRelatedFieldValue
+  fullName: SuperOffice.CRM.Import.ContactToDictionaryConverter.SetRelatedFieldValue
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Import.ContactToDictionaryConverter.ContactDictionary*
+  commentId: Overload:SuperOffice.CRM.Import.ContactToDictionaryConverter.ContactDictionary
+  isExternal: true
+  name: ContactDictionary
+  nameWithType: ContactToDictionaryConverter.ContactDictionary
+  fullName: SuperOffice.CRM.Import.ContactToDictionaryConverter.ContactDictionary
+- uid: SuperOffice.Data.ErpActorType
+  commentId: T:SuperOffice.Data.ErpActorType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ErpActorType
+  nameWithType: ErpActorType
+  fullName: SuperOffice.Data.ErpActorType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonDictionary*
+  commentId: Overload:SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonDictionary
+  isExternal: true
+  name: PersonDictionary
+  nameWithType: ContactToDictionaryConverter.PersonDictionary
+  fullName: SuperOffice.CRM.Import.ContactToDictionaryConverter.PersonDictionary

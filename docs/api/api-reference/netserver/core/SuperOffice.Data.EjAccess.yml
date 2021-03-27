@@ -1,0 +1,1189 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.EjAccess
+  commentId: T:SuperOffice.Data.EjAccess
+  id: EjAccess
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.EjAccess.AccessCategoryAdministration
+  - SuperOffice.Data.EjAccess.AccessChat
+  - SuperOffice.Data.EjAccess.AccessChatAdmin
+  - SuperOffice.Data.EjAccess.AccessDocuments
+  - SuperOffice.Data.EjAccess.AccessEditExtraTablesContent
+  - SuperOffice.Data.EjAccess.AccessEditFaq
+  - SuperOffice.Data.EjAccess.AccessEditOnlyOwn
+  - SuperOffice.Data.EjAccess.AccessEditOthers
+  - SuperOffice.Data.EjAccess.AccessEditOwnPref
+  - SuperOffice.Data.EjAccess.AccessEditProfile
+  - SuperOffice.Data.EjAccess.AccessEditSelections
+  - SuperOffice.Data.EjAccess.AccessEjournalAdministration
+  - SuperOffice.Data.EjAccess.AccessEverything
+  - SuperOffice.Data.EjAccess.AccessFaqAdmin
+  - SuperOffice.Data.EjAccess.AccessJustCategory
+  - SuperOffice.Data.EjAccess.AccessListAdmin
+  - SuperOffice.Data.EjAccess.AccessListExtraTablesContent
+  - SuperOffice.Data.EjAccess.AccessListOnlyOwn
+  - SuperOffice.Data.EjAccess.AccessListOthers
+  - SuperOffice.Data.EjAccess.AccessNone
+  - SuperOffice.Data.EjAccess.AccessPostToFacebook
+  - SuperOffice.Data.EjAccess.AccessReadOnlyOwn
+  - SuperOffice.Data.EjAccess.AccessReadOthers
+  - SuperOffice.Data.EjAccess.AccessReadSelections
+  - SuperOffice.Data.EjAccess.AccessRoleAdmin
+  - SuperOffice.Data.EjAccess.AccessSpm
+  - SuperOffice.Data.EjAccess.AccessStatistics
+  - SuperOffice.Data.EjAccess.AccessUserAdministration
+  langs:
+  - csharp
+  - vb
+  name: EjAccess
+  nameWithType: EjAccess
+  fullName: SuperOffice.Data.EjAccess
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nDefined in Clients\\CS\\lib\\rms\\UserLib.h, any changes must be kept in sync!\n"
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum EjAccess
+    content.vb: >-
+      <Flags>
+
+      Public Enum EjAccess
+  extensionMethods:
+  - SuperOffice.Data.EjAccess.EnumUtil.MapEnums``2
+  - SuperOffice.Data.EjAccess.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EjAccess)
+  - SuperOffice.Data.EjAccess.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.EjAccess.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.EjAccess.AccessNone
+  commentId: F:SuperOffice.Data.EjAccess.AccessNone
+  id: AccessNone
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessNone
+  nameWithType: EjAccess.AccessNone
+  fullName: SuperOffice.Data.EjAccess.AccessNone
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessNone = 0
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessListOthers
+  commentId: F:SuperOffice.Data.EjAccess.AccessListOthers
+  id: AccessListOthers
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessListOthers
+  nameWithType: EjAccess.AccessListOthers
+  fullName: SuperOffice.Data.EjAccess.AccessListOthers
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessListOthers = 1
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessReadOthers
+  commentId: F:SuperOffice.Data.EjAccess.AccessReadOthers
+  id: AccessReadOthers
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessReadOthers
+  nameWithType: EjAccess.AccessReadOthers
+  fullName: SuperOffice.Data.EjAccess.AccessReadOthers
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessReadOthers = 2
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessEditOthers
+  commentId: F:SuperOffice.Data.EjAccess.AccessEditOthers
+  id: AccessEditOthers
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessEditOthers
+  nameWithType: EjAccess.AccessEditOthers
+  fullName: SuperOffice.Data.EjAccess.AccessEditOthers
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessEditOthers = 4
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessEditOwnPref
+  commentId: F:SuperOffice.Data.EjAccess.AccessEditOwnPref
+  id: AccessEditOwnPref
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessEditOwnPref
+  nameWithType: EjAccess.AccessEditOwnPref
+  fullName: SuperOffice.Data.EjAccess.AccessEditOwnPref
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessEditOwnPref = 8
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessCategoryAdministration
+  commentId: F:SuperOffice.Data.EjAccess.AccessCategoryAdministration
+  id: AccessCategoryAdministration
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessCategoryAdministration
+  nameWithType: EjAccess.AccessCategoryAdministration
+  fullName: SuperOffice.Data.EjAccess.AccessCategoryAdministration
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessCategoryAdministration = 16
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessUserAdministration
+  commentId: F:SuperOffice.Data.EjAccess.AccessUserAdministration
+  id: AccessUserAdministration
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessUserAdministration
+  nameWithType: EjAccess.AccessUserAdministration
+  fullName: SuperOffice.Data.EjAccess.AccessUserAdministration
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessUserAdministration = 32
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessEjournalAdministration
+  commentId: F:SuperOffice.Data.EjAccess.AccessEjournalAdministration
+  id: AccessEjournalAdministration
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessEjournalAdministration
+  nameWithType: EjAccess.AccessEjournalAdministration
+  fullName: SuperOffice.Data.EjAccess.AccessEjournalAdministration
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessEjournalAdministration = 64
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessStatistics
+  commentId: F:SuperOffice.Data.EjAccess.AccessStatistics
+  id: AccessStatistics
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessStatistics
+  nameWithType: EjAccess.AccessStatistics
+  fullName: SuperOffice.Data.EjAccess.AccessStatistics
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessStatistics = 128
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessDocuments
+  commentId: F:SuperOffice.Data.EjAccess.AccessDocuments
+  id: AccessDocuments
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessDocuments
+  nameWithType: EjAccess.AccessDocuments
+  fullName: SuperOffice.Data.EjAccess.AccessDocuments
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessDocuments = 256
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessJustCategory
+  commentId: F:SuperOffice.Data.EjAccess.AccessJustCategory
+  id: AccessJustCategory
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessJustCategory
+  nameWithType: EjAccess.AccessJustCategory
+  fullName: SuperOffice.Data.EjAccess.AccessJustCategory
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessJustCategory = 512
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessEditProfile
+  commentId: F:SuperOffice.Data.EjAccess.AccessEditProfile
+  id: AccessEditProfile
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessEditProfile
+  nameWithType: EjAccess.AccessEditProfile
+  fullName: SuperOffice.Data.EjAccess.AccessEditProfile
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessEditProfile = 1024
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessListOnlyOwn
+  commentId: F:SuperOffice.Data.EjAccess.AccessListOnlyOwn
+  id: AccessListOnlyOwn
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessListOnlyOwn
+  nameWithType: EjAccess.AccessListOnlyOwn
+  fullName: SuperOffice.Data.EjAccess.AccessListOnlyOwn
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessListOnlyOwn = 2048
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessReadOnlyOwn
+  commentId: F:SuperOffice.Data.EjAccess.AccessReadOnlyOwn
+  id: AccessReadOnlyOwn
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessReadOnlyOwn
+  nameWithType: EjAccess.AccessReadOnlyOwn
+  fullName: SuperOffice.Data.EjAccess.AccessReadOnlyOwn
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessReadOnlyOwn = 4096
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessEditOnlyOwn
+  commentId: F:SuperOffice.Data.EjAccess.AccessEditOnlyOwn
+  id: AccessEditOnlyOwn
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessEditOnlyOwn
+  nameWithType: EjAccess.AccessEditOnlyOwn
+  fullName: SuperOffice.Data.EjAccess.AccessEditOnlyOwn
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessEditOnlyOwn = 8192
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessChat
+  commentId: F:SuperOffice.Data.EjAccess.AccessChat
+  id: AccessChat
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessChat
+  nameWithType: EjAccess.AccessChat
+  fullName: SuperOffice.Data.EjAccess.AccessChat
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessChat = 16384
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessChatAdmin
+  commentId: F:SuperOffice.Data.EjAccess.AccessChatAdmin
+  id: AccessChatAdmin
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessChatAdmin
+  nameWithType: EjAccess.AccessChatAdmin
+  fullName: SuperOffice.Data.EjAccess.AccessChatAdmin
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessChatAdmin = 32768
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessSpm
+  commentId: F:SuperOffice.Data.EjAccess.AccessSpm
+  id: AccessSpm
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessSpm
+  nameWithType: EjAccess.AccessSpm
+  fullName: SuperOffice.Data.EjAccess.AccessSpm
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessSpm = 65536
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessEditFaq
+  commentId: F:SuperOffice.Data.EjAccess.AccessEditFaq
+  id: AccessEditFaq
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessEditFaq
+  nameWithType: EjAccess.AccessEditFaq
+  fullName: SuperOffice.Data.EjAccess.AccessEditFaq
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessEditFaq = 131072
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessFaqAdmin
+  commentId: F:SuperOffice.Data.EjAccess.AccessFaqAdmin
+  id: AccessFaqAdmin
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessFaqAdmin
+  nameWithType: EjAccess.AccessFaqAdmin
+  fullName: SuperOffice.Data.EjAccess.AccessFaqAdmin
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessFaqAdmin = 262144
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessListExtraTablesContent
+  commentId: F:SuperOffice.Data.EjAccess.AccessListExtraTablesContent
+  id: AccessListExtraTablesContent
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessListExtraTablesContent
+  nameWithType: EjAccess.AccessListExtraTablesContent
+  fullName: SuperOffice.Data.EjAccess.AccessListExtraTablesContent
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessListExtraTablesContent = 524288
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessEditExtraTablesContent
+  commentId: F:SuperOffice.Data.EjAccess.AccessEditExtraTablesContent
+  id: AccessEditExtraTablesContent
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessEditExtraTablesContent
+  nameWithType: EjAccess.AccessEditExtraTablesContent
+  fullName: SuperOffice.Data.EjAccess.AccessEditExtraTablesContent
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessEditExtraTablesContent = 1048576
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessReadSelections
+  commentId: F:SuperOffice.Data.EjAccess.AccessReadSelections
+  id: AccessReadSelections
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessReadSelections
+  nameWithType: EjAccess.AccessReadSelections
+  fullName: SuperOffice.Data.EjAccess.AccessReadSelections
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessReadSelections = 2097152
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessEditSelections
+  commentId: F:SuperOffice.Data.EjAccess.AccessEditSelections
+  id: AccessEditSelections
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessEditSelections
+  nameWithType: EjAccess.AccessEditSelections
+  fullName: SuperOffice.Data.EjAccess.AccessEditSelections
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessEditSelections = 4194304
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessPostToFacebook
+  commentId: F:SuperOffice.Data.EjAccess.AccessPostToFacebook
+  id: AccessPostToFacebook
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessPostToFacebook
+  nameWithType: EjAccess.AccessPostToFacebook
+  fullName: SuperOffice.Data.EjAccess.AccessPostToFacebook
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessPostToFacebook = 8388608
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessListAdmin
+  commentId: F:SuperOffice.Data.EjAccess.AccessListAdmin
+  id: AccessListAdmin
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessListAdmin
+  nameWithType: EjAccess.AccessListAdmin
+  fullName: SuperOffice.Data.EjAccess.AccessListAdmin
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessListAdmin = 16777216
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessRoleAdmin
+  commentId: F:SuperOffice.Data.EjAccess.AccessRoleAdmin
+  id: AccessRoleAdmin
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessRoleAdmin
+  nameWithType: EjAccess.AccessRoleAdmin
+  fullName: SuperOffice.Data.EjAccess.AccessRoleAdmin
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessRoleAdmin = 33554432
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EjAccess.AccessEverything
+  commentId: F:SuperOffice.Data.EjAccess.AccessEverything
+  id: AccessEverything
+  parent: SuperOffice.Data.EjAccess
+  langs:
+  - csharp
+  - vb
+  name: AccessEverything
+  nameWithType: EjAccess.AccessEverything
+  fullName: SuperOffice.Data.EjAccess.AccessEverything
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: AccessEverything = 268355583
+    return:
+      type: SuperOffice.Data.EjAccess
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.EjAccess.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<EjAccess, To>()
+  nameWithType: EnumUtil.MapEnums<EjAccess, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.EjAccess, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of EjAccess, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.EjAccess, To)()
+  name.vb: MapEnums(Of EjAccess, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<EjAccess, To>
+    nameWithType: EnumUtil.MapEnums<EjAccess, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.EjAccess, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of EjAccess, To)
+    nameWithType: EnumUtil.MapEnums(Of EjAccess, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.EjAccess, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.EjAccess.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EjAccess)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<EjAccess>(EjAccess)
+  nameWithType: ObjectExtensions.AssignByReflection<EjAccess>(EjAccess)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.EjAccess>(SuperOffice.Data.EjAccess)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of EjAccess)(EjAccess)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.EjAccess)(SuperOffice.Data.EjAccess)
+  name.vb: AssignByReflection(Of EjAccess)(EjAccess)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<EjAccess>
+    nameWithType: ObjectExtensions.AssignByReflection<EjAccess>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.EjAccess>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.EjAccess
+    name: EjAccess
+    nameWithType: EjAccess
+    fullName: SuperOffice.Data.EjAccess
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of EjAccess)
+    nameWithType: ObjectExtensions.AssignByReflection(Of EjAccess)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.EjAccess)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.EjAccess
+    name: EjAccess
+    nameWithType: EjAccess
+    fullName: SuperOffice.Data.EjAccess
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.EjAccess.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<EjAccess>()
+  nameWithType: ObjectExtensions.GraphCopy<EjAccess>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.EjAccess>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of EjAccess)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.EjAccess)()
+  name.vb: GraphCopy(Of EjAccess)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<EjAccess>
+    nameWithType: ObjectExtensions.GraphCopy<EjAccess>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.EjAccess>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of EjAccess)
+    nameWithType: ObjectExtensions.GraphCopy(Of EjAccess)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.EjAccess)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.EjAccess.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<EjAccess, To>()
+  nameWithType: Converters.MapEnums<EjAccess, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.EjAccess, To>()
+  nameWithType.vb: Converters.MapEnums(Of EjAccess, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.EjAccess, To)()
+  name.vb: MapEnums(Of EjAccess, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<EjAccess, To>
+    nameWithType: Converters.MapEnums<EjAccess, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.EjAccess, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of EjAccess, To)
+    nameWithType: Converters.MapEnums(Of EjAccess, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.EjAccess, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.EjAccess
+  commentId: T:SuperOffice.Data.EjAccess
+  parent: SuperOffice.Data
+  isExternal: true
+  name: EjAccess
+  nameWithType: EjAccess
+  fullName: SuperOffice.Data.EjAccess

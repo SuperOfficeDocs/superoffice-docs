@@ -1,0 +1,768 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  id: AppointmentExtenderBase.Features
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.All
+  - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Associate
+  - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Contact
+  - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Document
+  - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.FindOrSelection
+  - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.None
+  - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Person
+  - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Project
+  - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Publish
+  - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Sale
+  - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.ShadowSelectionMode
+  - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Shallow
+  - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Udef
+  langs:
+  - csharp
+  - vb
+  name: AppointmentExtenderBase.Features
+  nameWithType: AppointmentExtenderBase.Features
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  type: Enum
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum Features
+    content.vb: >-
+      <Flags>
+
+      Public Enum Features
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features)
+  - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.None
+  commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.None
+  id: None
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: AppointmentExtenderBase.Features.None
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.None
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Associate
+  commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Associate
+  id: Associate
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: AppointmentExtenderBase.Features.Associate
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Associate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Associate = 1
+    return:
+      type: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Contact
+  commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Contact
+  id: Contact
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: AppointmentExtenderBase.Features.Contact
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Contact
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Contact = 2
+    return:
+      type: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Person
+  commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Person
+  id: Person
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: AppointmentExtenderBase.Features.Person
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Person
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Person = 4
+    return:
+      type: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Project
+  commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Project
+  id: Project
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: AppointmentExtenderBase.Features.Project
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Project
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Project = 8
+    return:
+      type: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Sale
+  commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Sale
+  id: Sale
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: Sale
+  nameWithType: AppointmentExtenderBase.Features.Sale
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Sale
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Sale = 16
+    return:
+      type: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Udef
+  commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Udef
+  id: Udef
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: Udef
+  nameWithType: AppointmentExtenderBase.Features.Udef
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Udef
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Udef = 32
+    return:
+      type: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Document
+  commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Document
+  id: Document
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: Document
+  nameWithType: AppointmentExtenderBase.Features.Document
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Document
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Document = 64
+    return:
+      type: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Publish
+  commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Publish
+  id: Publish
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: Publish
+  nameWithType: AppointmentExtenderBase.Features.Publish
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Publish
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Publish = 128
+    return:
+      type: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Shallow
+  commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Shallow
+  id: Shallow
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: Shallow
+  nameWithType: AppointmentExtenderBase.Features.Shallow
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.Shallow
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: Shallow = 161
+    return:
+      type: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.All
+  commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.All
+  id: All
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: AppointmentExtenderBase.Features.All
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.All
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: All = 191
+    return:
+      type: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.FindOrSelection
+  commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.FindOrSelection
+  id: FindOrSelection
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: FindOrSelection
+  nameWithType: AppointmentExtenderBase.Features.FindOrSelection
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.FindOrSelection
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: FindOrSelection = 191
+    return:
+      type: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.ShadowSelectionMode
+  commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.ShadowSelectionMode
+  id: ShadowSelectionMode
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: ShadowSelectionMode
+  nameWithType: AppointmentExtenderBase.Features.ShadowSelectionMode
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.ShadowSelectionMode
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: ShadowSelectionMode = 6
+    return:
+      type: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<AppointmentExtenderBase.Features, To>()
+  nameWithType: EnumUtil.MapEnums<AppointmentExtenderBase.Features, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AppointmentExtenderBase.Features, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features, To)()
+  name.vb: MapEnums(Of AppointmentExtenderBase.Features, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AppointmentExtenderBase.Features, To>
+    nameWithType: EnumUtil.MapEnums<AppointmentExtenderBase.Features, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AppointmentExtenderBase.Features, To)
+    nameWithType: EnumUtil.MapEnums(Of AppointmentExtenderBase.Features, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<AppointmentExtenderBase.Features>(AppointmentExtenderBase.Features)
+  nameWithType: ObjectExtensions.AssignByReflection<AppointmentExtenderBase.Features>(AppointmentExtenderBase.Features)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features>(SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of AppointmentExtenderBase.Features)(AppointmentExtenderBase.Features)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features)(SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features)
+  name.vb: AssignByReflection(Of AppointmentExtenderBase.Features)(AppointmentExtenderBase.Features)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<AppointmentExtenderBase.Features>
+    nameWithType: ObjectExtensions.AssignByReflection<AppointmentExtenderBase.Features>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+    name: AppointmentExtenderBase.Features
+    nameWithType: AppointmentExtenderBase.Features
+    fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of AppointmentExtenderBase.Features)
+    nameWithType: ObjectExtensions.AssignByReflection(Of AppointmentExtenderBase.Features)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+    name: AppointmentExtenderBase.Features
+    nameWithType: AppointmentExtenderBase.Features
+    fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<AppointmentExtenderBase.Features>()
+  nameWithType: ObjectExtensions.GraphCopy<AppointmentExtenderBase.Features>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of AppointmentExtenderBase.Features)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features)()
+  name.vb: GraphCopy(Of AppointmentExtenderBase.Features)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<AppointmentExtenderBase.Features>
+    nameWithType: ObjectExtensions.GraphCopy<AppointmentExtenderBase.Features>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of AppointmentExtenderBase.Features)
+    nameWithType: ObjectExtensions.GraphCopy(Of AppointmentExtenderBase.Features)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<AppointmentExtenderBase.Features, To>()
+  nameWithType: Converters.MapEnums<AppointmentExtenderBase.Features, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features, To>()
+  nameWithType.vb: Converters.MapEnums(Of AppointmentExtenderBase.Features, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features, To)()
+  name.vb: MapEnums(Of AppointmentExtenderBase.Features, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AppointmentExtenderBase.Features, To>
+    nameWithType: Converters.MapEnums<AppointmentExtenderBase.Features, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AppointmentExtenderBase.Features, To)
+    nameWithType: Converters.MapEnums(Of AppointmentExtenderBase.Features, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  commentId: T:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: AppointmentExtenderBase.Features
+  nameWithType: AppointmentExtenderBase.Features
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase.Features

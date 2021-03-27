@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.Tooltips
+  commentId: T:SuperOffice.CRM.Services.Tooltips
+  id: Tooltips
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.Tooltips.#ctor
+  - SuperOffice.CRM.Services.Tooltips.ToString
+  - SuperOffice.CRM.Services.Tooltips.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Tooltips
+  nameWithType: Tooltips
+  fullName: SuperOffice.CRM.Services.Tooltips
+  type: Class
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis service provides tooltips. It is based on &apos;tooltip hints&apos;, strings that may eiehter be a tooltip text (if provided by someone else), or a set of key/value pairs or other specification.&lt;para />The tooltip implementation is plugin based, and tooltip hints are passed to all registered plugin providers according to certain rules. It is therefore up to providers to parse and process tooltip hints as they see fit.\n<p></p>\nCarrier object for Tooltips.\nServices for the Tooltips Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ITooltipsAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class Tooltips : Carrier'
+    content.vb: >-
+      Public Class Tooltips
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.TooltipsAgent
+    commentId: T:SuperOffice.CRM.Services.TooltipsAgent
+  - linkId: SuperOffice.CRM.Services.ITooltipsAgent
+    commentId: T:SuperOffice.CRM.Services.ITooltipsAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.Tooltips.#ctor
+  commentId: M:SuperOffice.CRM.Services.Tooltips.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.Tooltips
+  langs:
+  - csharp
+  - vb
+  name: Tooltips()
+  nameWithType: Tooltips.Tooltips()
+  fullName: SuperOffice.CRM.Services.Tooltips.Tooltips()
+  type: Constructor
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public Tooltips()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.Tooltips.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Tooltips.ToString
+  commentId: M:SuperOffice.CRM.Services.Tooltips.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.Tooltips
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Tooltips.ToString()
+  fullName: SuperOffice.CRM.Services.Tooltips.ToString()
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.Tooltips.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.Tooltips.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.Tooltips.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.Tooltips
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: Tooltips.ToString(String)
+  fullName: SuperOffice.CRM.Services.Tooltips.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.Tooltips.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.TooltipsAgent
+  commentId: T:SuperOffice.CRM.Services.TooltipsAgent
+  isExternal: true
+  name: TooltipsAgent
+  nameWithType: TooltipsAgent
+  fullName: SuperOffice.CRM.Services.TooltipsAgent
+- uid: SuperOffice.CRM.Services.ITooltipsAgent
+  commentId: T:SuperOffice.CRM.Services.ITooltipsAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ITooltipsAgent
+  nameWithType: ITooltipsAgent
+  fullName: SuperOffice.CRM.Services.ITooltipsAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.Tooltips.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.Tooltips.#ctor
+  isExternal: true
+  name: Tooltips
+  nameWithType: Tooltips.Tooltips
+  fullName: SuperOffice.CRM.Services.Tooltips.Tooltips
+- uid: SuperOffice.CRM.Services.Tooltips.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.Tooltips.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: Tooltips.ToString
+  fullName: SuperOffice.CRM.Services.Tooltips.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

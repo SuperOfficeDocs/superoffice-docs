@@ -1,0 +1,2074 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier
+  commentId: T:SuperOffice.CRM.Services.SoPrincipalCarrier
+  id: SoPrincipalCarrier
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.#ctor
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.Associate
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.AssociateId
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.BusinessId
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.CategoryId
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.ContactId
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.ContactOwner
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.CountryId
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.CRM5Secret
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.DatabaseContextIdentifier
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.EjAccessLevel
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.EjUserId
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.EjUserStatus
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.EMailAddress
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.FullName
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.FunctionRights
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.GroupId
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.HomeCountryId
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.IsPerson
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.License
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.Licenses
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.PersonId
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.ProvidedCredentials
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.RoleDescription
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.RoleId
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.RoleName
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.RoleType
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.SecondaryGroups
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.UserName
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.UserType
+  langs:
+  - csharp
+  - vb
+  name: SoPrincipalCarrier
+  nameWithType: SoPrincipalCarrier
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSummary description for SoPrincipalCarrier.\n"
+  syntax:
+    content: public class SoPrincipalCarrier
+    content.vb: Public Class SoPrincipalCarrier
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.SoPrincipalCarrier)
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Services.SoPrincipalCarrier.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.#ctor
+  commentId: M:SuperOffice.CRM.Services.SoPrincipalCarrier.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: SoPrincipalCarrier()
+  nameWithType: SoPrincipalCarrier.SoPrincipalCarrier()
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.SoPrincipalCarrier()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public SoPrincipalCarrier()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.UserType
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.UserType
+  id: UserType
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: UserType
+  nameWithType: SoPrincipalCarrier.UserType
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.UserType
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nType of user\n"
+  syntax:
+    content: public virtual UserType UserType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.License.UserType
+    content.vb: Public Overridable Property UserType As UserType
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.UserType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.Associate
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.Associate
+  id: Associate
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: SoPrincipalCarrier.Associate
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.Associate
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAssociate name (e.g. logon name) for the user\n"
+  syntax:
+    content: public virtual string Associate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Associate As String
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.Associate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.CRM5Secret
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.CRM5Secret
+  id: CRM5Secret
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: CRM5Secret
+  nameWithType: SoPrincipalCarrier.CRM5Secret
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.CRM5Secret
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSecret used with type <xref href=\"SuperOffice.CRM.Services.SoPrincipalCarrier.UserType\" data-throw-if-not-resolved=\"false\"></xref> CRM5 in <xref href=\"SuperOffice.Security.Principal.SoCredentials\" data-throw-if-not-resolved=\"false\"></xref>.\nOnly valid 24 hours after it was created.\n"
+  syntax:
+    content: >-
+      [Obsolete("CRM5Secret is no longer in use. Ask for SoCredentials if you need a session ticket", true)]
+
+      public virtual string CRM5Secret { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Obsolete("CRM5Secret is no longer in use. Ask for SoCredentials if you need a session ticket", True)>
+
+      Public Overridable Property CRM5Secret As String
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.CRM5Secret*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: CRM5Secret is no longer in use. Ask for SoCredentials if you need a session ticket
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.AssociateId
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: SoPrincipalCarrier.AssociateId
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.AssociateId
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAssociateId for the user.\n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.IsPerson
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.IsPerson
+  id: IsPerson
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: IsPerson
+  nameWithType: SoPrincipalCarrier.IsPerson
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.IsPerson
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIs this associate a person, and not a resource?\n"
+  syntax:
+    content: public virtual bool IsPerson { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsPerson As Boolean
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.IsPerson*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.PersonId
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: SoPrincipalCarrier.PersonId
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.PersonId
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAssociate&apos;s person id\n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.CountryId
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.CountryId
+  id: CountryId
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: CountryId
+  nameWithType: SoPrincipalCarrier.CountryId
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.CountryId
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCountry id for the user.\n"
+  syntax:
+    content: public virtual int CountryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CountryId As Integer
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.CountryId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.HomeCountryId
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.HomeCountryId
+  id: HomeCountryId
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: HomeCountryId
+  nameWithType: SoPrincipalCarrier.HomeCountryId
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.HomeCountryId
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCountry id for the user&apos;s home country.  This is the default country id when creating new items.\n"
+  syntax:
+    content: public virtual int HomeCountryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property HomeCountryId As Integer
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.HomeCountryId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.ContactId
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: SoPrincipalCarrier.ContactId
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.ContactId
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCompany of the associate&apos;s person\n"
+  syntax:
+    content: public virtual int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.GroupId
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.GroupId
+  id: GroupId
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: GroupId
+  nameWithType: SoPrincipalCarrier.GroupId
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.GroupId
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAssociate&apos;s group_idx\n"
+  syntax:
+    content: public virtual int GroupId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property GroupId As Integer
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.GroupId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.BusinessId
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.BusinessId
+  id: BusinessId
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: BusinessId
+  nameWithType: SoPrincipalCarrier.BusinessId
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.BusinessId
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nBusinessIdx for the company that the user belongs to.\n"
+  syntax:
+    content: public virtual int BusinessId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property BusinessId As Integer
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.BusinessId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.CategoryId
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.CategoryId
+  id: CategoryId
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: CategoryId
+  nameWithType: SoPrincipalCarrier.CategoryId
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.CategoryId
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCategoryIdx of the company that the user belongs to.\n"
+  syntax:
+    content: public virtual int CategoryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CategoryId As Integer
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.CategoryId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.ContactOwner
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.ContactOwner
+  id: ContactOwner
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: ContactOwner
+  nameWithType: SoPrincipalCarrier.ContactOwner
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.ContactOwner
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOwner (AssocaiteId) of the company that the user belongs to.\n"
+  syntax:
+    content: public virtual int ContactOwner { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactOwner As Integer
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.ContactOwner*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.RoleId
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.RoleId
+  id: RoleId
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: RoleId
+  nameWithType: SoPrincipalCarrier.RoleId
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.RoleId
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nId of the users role\n"
+  syntax:
+    content: public virtual int RoleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RoleId As Integer
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.RoleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.RoleName
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.RoleName
+  id: RoleName
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: RoleName
+  nameWithType: SoPrincipalCarrier.RoleName
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.RoleName
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of the users role\n"
+  syntax:
+    content: public virtual string RoleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RoleName As String
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.RoleName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.RoleDescription
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.RoleDescription
+  id: RoleDescription
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: RoleDescription
+  nameWithType: SoPrincipalCarrier.RoleDescription
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.RoleDescription
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDescrtiption (e.g. tooltip) for the users role\n"
+  syntax:
+    content: public virtual string RoleDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RoleDescription As String
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.RoleDescription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.RoleType
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.RoleType
+  id: RoleType
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: RoleType
+  nameWithType: SoPrincipalCarrier.RoleType
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.RoleType
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nType of user.\n"
+  syntax:
+    content: public virtual RoleType RoleType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.RoleType
+    content.vb: Public Overridable Property RoleType As RoleType
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.RoleType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.License
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.License
+  id: License
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: License
+  nameWithType: SoPrincipalCarrier.License
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.License
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLicense granted to the site and user.\n"
+  syntax:
+    content: >-
+      [Obsolete("Not relevant for the new license system", false)]
+
+      public virtual ProductLicense License { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.License.ProductLicense
+    content.vb: >-
+      <Obsolete("Not relevant for the new license system", False)>
+
+      Public Overridable Property License As ProductLicense
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.License*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Not relevant for the new license system
+    - type: System.Boolean
+      value: false
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.Licenses
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.Licenses
+  id: Licenses
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: Licenses
+  nameWithType: SoPrincipalCarrier.Licenses
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.Licenses
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLicense granted to the site and user.\n"
+  syntax:
+    content: public virtual GrantedModuleLicense[] Licenses { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.GrantedModuleLicense[]
+    content.vb: Public Overridable Property Licenses As GrantedModuleLicense()
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.Licenses*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.FullName
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.FullName
+  id: FullName
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: SoPrincipalCarrier.FullName
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.FullName
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe Person full name if the associate is a person. Use IsPerson to check\n"
+  syntax:
+    content: public virtual string FullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FullName As String
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.FullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.EMailAddress
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.EMailAddress
+  id: EMailAddress
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: EMailAddress
+  nameWithType: SoPrincipalCarrier.EMailAddress
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.EMailAddress
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe Person e-mail address if the associate is a person. Use IsPerson to check\n"
+  syntax:
+    content: public virtual string EMailAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EMailAddress As String
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.EMailAddress*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.FunctionRights
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.FunctionRights
+  id: FunctionRights
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: FunctionRights
+  nameWithType: SoPrincipalCarrier.FunctionRights
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.FunctionRights
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFunctional rights for the user.  This array is sorted so a lookup can be performed using <xref href=\"System.Array.BinarySearch(System.Array%2cSystem.Object)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public virtual string[] FunctionRights { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property FunctionRights As String()
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.FunctionRights*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.EjUserId
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.EjUserId
+  id: EjUserId
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: EjUserId
+  nameWithType: SoPrincipalCarrier.EjUserId
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.EjUserId
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key in eJournal&apos;s old user table.\n"
+  syntax:
+    content: public virtual int EjUserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property EjUserId As Integer
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.EjUserId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.EjAccessLevel
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.EjAccessLevel
+  id: EjAccessLevel
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: EjAccessLevel
+  nameWithType: SoPrincipalCarrier.EjAccessLevel
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.EjAccessLevel
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\neJournal user access level\n"
+  syntax:
+    content: public virtual int EjAccessLevel { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property EjAccessLevel As Integer
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.EjAccessLevel*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.EjUserStatus
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.EjUserStatus
+  id: EjUserStatus
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: EjUserStatus
+  nameWithType: SoPrincipalCarrier.EjUserStatus
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.EjUserStatus
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\neJournal user status\n"
+  syntax:
+    content: public virtual EjUserStatus EjUserStatus { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.EjUserStatus
+    content.vb: Public Overridable Property EjUserStatus As EjUserStatus
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.EjUserStatus*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.ProvidedCredentials
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.ProvidedCredentials
+  id: ProvidedCredentials
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: ProvidedCredentials
+  nameWithType: SoPrincipalCarrier.ProvidedCredentials
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.ProvidedCredentials
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe credentials used for authenticating this user.\n"
+  syntax:
+    content: public virtual ProvidedCredential[] ProvidedCredentials { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.ProvidedCredential[]
+    content.vb: Public Overridable Property ProvidedCredentials As ProvidedCredential()
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.ProvidedCredentials*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.SecondaryGroups
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.SecondaryGroups
+  id: SecondaryGroups
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: SecondaryGroups
+  nameWithType: SoPrincipalCarrier.SecondaryGroups
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.SecondaryGroups
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSecondary user groups\n"
+  syntax:
+    content: public virtual int[] SecondaryGroups { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Overridable Property SecondaryGroups As Integer()
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.SecondaryGroups*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.DatabaseContextIdentifier
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.DatabaseContextIdentifier
+  id: DatabaseContextIdentifier
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: DatabaseContextIdentifier
+  nameWithType: SoPrincipalCarrier.DatabaseContextIdentifier
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.DatabaseContextIdentifier
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of the database context\n"
+  syntax:
+    content: public virtual string DatabaseContextIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DatabaseContextIdentifier As String
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.DatabaseContextIdentifier*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.UserName
+  commentId: P:SuperOffice.CRM.Services.SoPrincipalCarrier.UserName
+  id: UserName
+  parent: SuperOffice.CRM.Services.SoPrincipalCarrier
+  langs:
+  - csharp
+  - vb
+  name: UserName
+  nameWithType: SoPrincipalCarrier.UserName
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.UserName
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUserName on associatetable. Same as SuperId from Online\n"
+  syntax:
+    content: public virtual string UserName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property UserName As String
+  overload: SuperOffice.CRM.Services.SoPrincipalCarrier.UserName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoPrincipalCarrier, To>()
+  nameWithType: EnumUtil.MapEnums<SoPrincipalCarrier, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.SoPrincipalCarrier, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoPrincipalCarrier, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.SoPrincipalCarrier, To)()
+  name.vb: MapEnums(Of SoPrincipalCarrier, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoPrincipalCarrier, To>
+    nameWithType: EnumUtil.MapEnums<SoPrincipalCarrier, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.SoPrincipalCarrier, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoPrincipalCarrier, To)
+    nameWithType: EnumUtil.MapEnums(Of SoPrincipalCarrier, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.SoPrincipalCarrier, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.SoPrincipalCarrier)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SoPrincipalCarrier>(SoPrincipalCarrier)
+  nameWithType: ObjectExtensions.AssignByReflection<SoPrincipalCarrier>(SoPrincipalCarrier)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Services.SoPrincipalCarrier>(SuperOffice.CRM.Services.SoPrincipalCarrier)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoPrincipalCarrier)(SoPrincipalCarrier)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Services.SoPrincipalCarrier)(SuperOffice.CRM.Services.SoPrincipalCarrier)
+  name.vb: AssignByReflection(Of SoPrincipalCarrier)(SoPrincipalCarrier)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SoPrincipalCarrier>
+    nameWithType: ObjectExtensions.AssignByReflection<SoPrincipalCarrier>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Services.SoPrincipalCarrier>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.SoPrincipalCarrier
+    name: SoPrincipalCarrier
+    nameWithType: SoPrincipalCarrier
+    fullName: SuperOffice.CRM.Services.SoPrincipalCarrier
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SoPrincipalCarrier)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SoPrincipalCarrier)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Services.SoPrincipalCarrier)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.SoPrincipalCarrier
+    name: SoPrincipalCarrier
+    nameWithType: SoPrincipalCarrier
+    fullName: SuperOffice.CRM.Services.SoPrincipalCarrier
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SoPrincipalCarrier>()
+  nameWithType: ObjectExtensions.GraphCopy<SoPrincipalCarrier>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Services.SoPrincipalCarrier>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoPrincipalCarrier)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Services.SoPrincipalCarrier)()
+  name.vb: GraphCopy(Of SoPrincipalCarrier)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SoPrincipalCarrier>
+    nameWithType: ObjectExtensions.GraphCopy<SoPrincipalCarrier>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Services.SoPrincipalCarrier>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SoPrincipalCarrier)
+    nameWithType: ObjectExtensions.GraphCopy(Of SoPrincipalCarrier)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Services.SoPrincipalCarrier)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoPrincipalCarrier, To>()
+  nameWithType: Converters.MapEnums<SoPrincipalCarrier, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.SoPrincipalCarrier, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoPrincipalCarrier, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.SoPrincipalCarrier, To)()
+  name.vb: MapEnums(Of SoPrincipalCarrier, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoPrincipalCarrier, To>
+    nameWithType: Converters.MapEnums<SoPrincipalCarrier, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.SoPrincipalCarrier, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoPrincipalCarrier, To)
+    nameWithType: Converters.MapEnums(Of SoPrincipalCarrier, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.SoPrincipalCarrier, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.#ctor
+  isExternal: true
+  name: SoPrincipalCarrier
+  nameWithType: SoPrincipalCarrier.SoPrincipalCarrier
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.SoPrincipalCarrier
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.UserType*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.UserType
+  isExternal: true
+  name: UserType
+  nameWithType: SoPrincipalCarrier.UserType
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.UserType
+- uid: SuperOffice.License.UserType
+  isExternal: true
+  name: UserType
+  nameWithType: UserType
+  fullName: SuperOffice.License.UserType
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.Associate*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.Associate
+  isExternal: true
+  name: Associate
+  nameWithType: SoPrincipalCarrier.Associate
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.Associate
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.CRM5Secret*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.CRM5Secret
+  isExternal: true
+  name: CRM5Secret
+  nameWithType: SoPrincipalCarrier.CRM5Secret
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.CRM5Secret
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.AssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: SoPrincipalCarrier.AssociateId
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.IsPerson*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.IsPerson
+  isExternal: true
+  name: IsPerson
+  nameWithType: SoPrincipalCarrier.IsPerson
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.IsPerson
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.PersonId*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: SoPrincipalCarrier.PersonId
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.PersonId
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.CountryId*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.CountryId
+  isExternal: true
+  name: CountryId
+  nameWithType: SoPrincipalCarrier.CountryId
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.CountryId
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.HomeCountryId*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.HomeCountryId
+  isExternal: true
+  name: HomeCountryId
+  nameWithType: SoPrincipalCarrier.HomeCountryId
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.HomeCountryId
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.ContactId*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: SoPrincipalCarrier.ContactId
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.ContactId
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.GroupId*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.GroupId
+  isExternal: true
+  name: GroupId
+  nameWithType: SoPrincipalCarrier.GroupId
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.GroupId
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.BusinessId*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.BusinessId
+  isExternal: true
+  name: BusinessId
+  nameWithType: SoPrincipalCarrier.BusinessId
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.BusinessId
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.CategoryId*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.CategoryId
+  isExternal: true
+  name: CategoryId
+  nameWithType: SoPrincipalCarrier.CategoryId
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.CategoryId
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.ContactOwner*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.ContactOwner
+  isExternal: true
+  name: ContactOwner
+  nameWithType: SoPrincipalCarrier.ContactOwner
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.ContactOwner
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.RoleId*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.RoleId
+  isExternal: true
+  name: RoleId
+  nameWithType: SoPrincipalCarrier.RoleId
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.RoleId
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.RoleName*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.RoleName
+  isExternal: true
+  name: RoleName
+  nameWithType: SoPrincipalCarrier.RoleName
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.RoleName
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.RoleDescription*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.RoleDescription
+  isExternal: true
+  name: RoleDescription
+  nameWithType: SoPrincipalCarrier.RoleDescription
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.RoleDescription
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.RoleType*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.RoleType
+  isExternal: true
+  name: RoleType
+  nameWithType: SoPrincipalCarrier.RoleType
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.RoleType
+- uid: SuperOffice.Data.RoleType
+  commentId: T:SuperOffice.Data.RoleType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: RoleType
+  nameWithType: RoleType
+  fullName: SuperOffice.Data.RoleType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.License*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.License
+  isExternal: true
+  name: License
+  nameWithType: SoPrincipalCarrier.License
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.License
+- uid: SuperOffice.License.ProductLicense
+  commentId: T:SuperOffice.License.ProductLicense
+  parent: SuperOffice.License
+  isExternal: true
+  name: ProductLicense
+  nameWithType: ProductLicense
+  fullName: SuperOffice.License.ProductLicense
+- uid: SuperOffice.License
+  commentId: N:SuperOffice.License
+  isExternal: true
+  name: SuperOffice.License
+  nameWithType: SuperOffice.License
+  fullName: SuperOffice.License
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.Licenses*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.Licenses
+  isExternal: true
+  name: Licenses
+  nameWithType: SoPrincipalCarrier.Licenses
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.Licenses
+- uid: SuperOffice.CRM.Services.GrantedModuleLicense[]
+  isExternal: true
+  name: GrantedModuleLicense[]
+  nameWithType: GrantedModuleLicense[]
+  fullName: SuperOffice.CRM.Services.GrantedModuleLicense[]
+  nameWithType.vb: GrantedModuleLicense()
+  fullName.vb: SuperOffice.CRM.Services.GrantedModuleLicense()
+  name.vb: GrantedModuleLicense()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.GrantedModuleLicense
+    name: GrantedModuleLicense
+    nameWithType: GrantedModuleLicense
+    fullName: SuperOffice.CRM.Services.GrantedModuleLicense
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.GrantedModuleLicense
+    name: GrantedModuleLicense
+    nameWithType: GrantedModuleLicense
+    fullName: SuperOffice.CRM.Services.GrantedModuleLicense
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.FullName*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.FullName
+  isExternal: true
+  name: FullName
+  nameWithType: SoPrincipalCarrier.FullName
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.FullName
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.EMailAddress*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.EMailAddress
+  isExternal: true
+  name: EMailAddress
+  nameWithType: SoPrincipalCarrier.EMailAddress
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.EMailAddress
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.FunctionRights*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.FunctionRights
+  isExternal: true
+  name: FunctionRights
+  nameWithType: SoPrincipalCarrier.FunctionRights
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.FunctionRights
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.EjUserId*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.EjUserId
+  isExternal: true
+  name: EjUserId
+  nameWithType: SoPrincipalCarrier.EjUserId
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.EjUserId
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.EjAccessLevel*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.EjAccessLevel
+  isExternal: true
+  name: EjAccessLevel
+  nameWithType: SoPrincipalCarrier.EjAccessLevel
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.EjAccessLevel
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.EjUserStatus*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.EjUserStatus
+  isExternal: true
+  name: EjUserStatus
+  nameWithType: SoPrincipalCarrier.EjUserStatus
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.EjUserStatus
+- uid: SuperOffice.Data.EjUserStatus
+  commentId: T:SuperOffice.Data.EjUserStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: EjUserStatus
+  nameWithType: EjUserStatus
+  fullName: SuperOffice.Data.EjUserStatus
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.ProvidedCredentials*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.ProvidedCredentials
+  isExternal: true
+  name: ProvidedCredentials
+  nameWithType: SoPrincipalCarrier.ProvidedCredentials
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.ProvidedCredentials
+- uid: SuperOffice.CRM.Services.ProvidedCredential[]
+  isExternal: true
+  name: ProvidedCredential[]
+  nameWithType: ProvidedCredential[]
+  fullName: SuperOffice.CRM.Services.ProvidedCredential[]
+  nameWithType.vb: ProvidedCredential()
+  fullName.vb: SuperOffice.CRM.Services.ProvidedCredential()
+  name.vb: ProvidedCredential()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ProvidedCredential
+    name: ProvidedCredential
+    nameWithType: ProvidedCredential
+    fullName: SuperOffice.CRM.Services.ProvidedCredential
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ProvidedCredential
+    name: ProvidedCredential
+    nameWithType: ProvidedCredential
+    fullName: SuperOffice.CRM.Services.ProvidedCredential
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.SecondaryGroups*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.SecondaryGroups
+  isExternal: true
+  name: SecondaryGroups
+  nameWithType: SoPrincipalCarrier.SecondaryGroups
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.SecondaryGroups
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.DatabaseContextIdentifier*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.DatabaseContextIdentifier
+  isExternal: true
+  name: DatabaseContextIdentifier
+  nameWithType: SoPrincipalCarrier.DatabaseContextIdentifier
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.DatabaseContextIdentifier
+- uid: SuperOffice.CRM.Services.SoPrincipalCarrier.UserName*
+  commentId: Overload:SuperOffice.CRM.Services.SoPrincipalCarrier.UserName
+  isExternal: true
+  name: UserName
+  nameWithType: SoPrincipalCarrier.UserName
+  fullName: SuperOffice.CRM.Services.SoPrincipalCarrier.UserName

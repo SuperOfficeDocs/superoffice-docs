@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest
+  commentId: T:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest
+  id: UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest.#ctor
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest.Infos
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest
+  nameWithType: UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest : Object'
+    content.vb: >-
+      Public Class UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest()
+  nameWithType: UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest.UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest()
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest.UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest.Infos
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest.Infos
+  id: Infos
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest
+  langs:
+  - csharp
+  - vb
+  name: Infos
+  nameWithType: UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest.Infos
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest.Infos
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UserDefinedFieldInfo[] Infos { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.UserDefinedFieldInfo[]
+    content.vb: Public Property Infos As UserDefinedFieldInfo()
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest.Infos*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest.#ctor
+  isExternal: true
+  name: UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest
+  nameWithType: UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest.UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest.UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest.Infos*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest.Infos
+  isExternal: true
+  name: Infos
+  nameWithType: UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest.Infos
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SaveUserDefinedFieldInfosRequest.Infos
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo[]
+  isExternal: true
+  name: UserDefinedFieldInfo[]
+  nameWithType: UserDefinedFieldInfo[]
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo[]
+  nameWithType.vb: UserDefinedFieldInfo()
+  fullName.vb: SuperOffice.WebApi.Data.UserDefinedFieldInfo()
+  name.vb: UserDefinedFieldInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+    name: UserDefinedFieldInfo
+    nameWithType: UserDefinedFieldInfo
+    fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+    name: UserDefinedFieldInfo
+    nameWithType: UserDefinedFieldInfo
+    fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

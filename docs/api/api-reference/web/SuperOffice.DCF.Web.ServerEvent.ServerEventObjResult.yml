@@ -1,0 +1,433 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult
+  commentId: T:SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult
+  id: ServerEventObjResult
+  parent: SuperOffice.DCF.Web.ServerEvent
+  children:
+  - SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult.#ctor
+  - SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult.ServerEvents
+  langs:
+  - csharp
+  - vb
+  name: ServerEventObjResult
+  nameWithType: ServerEventObjResult
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.ServerEvent
+  syntax:
+    content: public class ServerEventObjResult
+    content.vb: Public Class ServerEventObjResult
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult.#ctor
+  commentId: M:SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult
+  langs:
+  - csharp
+  - vb
+  name: ServerEventObjResult()
+  nameWithType: ServerEventObjResult.ServerEventObjResult()
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult.ServerEventObjResult()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.ServerEvent
+  syntax:
+    content: public ServerEventObjResult()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult.ServerEvents
+  commentId: P:SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult.ServerEvents
+  id: ServerEvents
+  parent: SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult
+  langs:
+  - csharp
+  - vb
+  name: ServerEvents
+  nameWithType: ServerEventObjResult.ServerEvents
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult.ServerEvents
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.ServerEvent
+  syntax:
+    content: public ServerEventObject[] ServerEvents { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.DCF.Web.ServerEvent.ServerEventObject[]
+    content.vb: Public Property ServerEvents As ServerEventObject()
+  overload: SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult.ServerEvents*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.ServerEvent
+  commentId: N:SuperOffice.DCF.Web.ServerEvent
+  isExternal: true
+  name: SuperOffice.DCF.Web.ServerEvent
+  nameWithType: SuperOffice.DCF.Web.ServerEvent
+  fullName: SuperOffice.DCF.Web.ServerEvent
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult.#ctor
+  isExternal: true
+  name: ServerEventObjResult
+  nameWithType: ServerEventObjResult.ServerEventObjResult
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult.ServerEventObjResult
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult.ServerEvents*
+  commentId: Overload:SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult.ServerEvents
+  isExternal: true
+  name: ServerEvents
+  nameWithType: ServerEventObjResult.ServerEvents
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult.ServerEvents
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventObject[]
+  isExternal: true
+  name: ServerEventObject[]
+  nameWithType: ServerEventObject[]
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventObject[]
+  nameWithType.vb: ServerEventObject()
+  fullName.vb: SuperOffice.DCF.Web.ServerEvent.ServerEventObject()
+  name.vb: ServerEventObject()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.ServerEvent.ServerEventObject
+    name: ServerEventObject
+    nameWithType: ServerEventObject
+    fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventObject
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.ServerEvent.ServerEventObject
+    name: ServerEventObject
+    nameWithType: ServerEventObject
+    fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventObject
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

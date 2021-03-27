@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest
+  commentId: T:SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest
+  id: ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.#ctor
+  - SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.ApplicationName
+  - SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.DeviceIdentifier
+  - SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.DeviceName
+  - SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.TableName
+  langs:
+  - csharp
+  - vb
+  name: ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest
+  nameWithType: ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest : Object'
+    content.vb: >-
+      Public Class ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest
+  langs:
+  - csharp
+  - vb
+  name: ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest()
+  nameWithType: ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest()
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.ApplicationName
+  commentId: P:SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.ApplicationName
+  id: ApplicationName
+  parent: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest
+  langs:
+  - csharp
+  - vb
+  name: ApplicationName
+  nameWithType: ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.ApplicationName
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.ApplicationName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ApplicationName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ApplicationName As String
+  overload: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.ApplicationName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.DeviceName
+  commentId: P:SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.DeviceName
+  id: DeviceName
+  parent: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest
+  langs:
+  - csharp
+  - vb
+  name: DeviceName
+  nameWithType: ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.DeviceName
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.DeviceName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string DeviceName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DeviceName As String
+  overload: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.DeviceName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.DeviceIdentifier
+  commentId: P:SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.DeviceIdentifier
+  id: DeviceIdentifier
+  parent: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest
+  langs:
+  - csharp
+  - vb
+  name: DeviceIdentifier
+  nameWithType: ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.DeviceIdentifier
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.DeviceIdentifier
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string DeviceIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DeviceIdentifier As String
+  overload: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.DeviceIdentifier*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.TableName
+  commentId: P:SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.TableName
+  id: TableName
+  parent: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.TableName
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.TableName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string TableName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TableName As String
+  overload: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.TableName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.#ctor
+  isExternal: true
+  name: ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest
+  nameWithType: ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest
+- uid: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.ApplicationName*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.ApplicationName
+  isExternal: true
+  name: ApplicationName
+  nameWithType: ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.ApplicationName
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.ApplicationName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.DeviceName*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.DeviceName
+  isExternal: true
+  name: DeviceName
+  nameWithType: ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.DeviceName
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.DeviceName
+- uid: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.DeviceIdentifier*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.DeviceIdentifier
+  isExternal: true
+  name: DeviceIdentifier
+  nameWithType: ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.DeviceIdentifier
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.DeviceIdentifier
+- uid: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.TableName*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.TableName
+  isExternal: true
+  name: TableName
+  nameWithType: ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.TableName
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_GetDeviceKeysOnDeviceIdentifierTableRequest.TableName

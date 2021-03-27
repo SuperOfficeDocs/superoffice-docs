@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Permissions
+  commentId: N:SuperOffice.Security.Permissions
+  id: SuperOffice.Security.Permissions
+  children:
+  - SuperOffice.Security.Permissions.SoStrongName
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Security.Permissions
+  nameWithType: SuperOffice.Security.Permissions
+  fullName: SuperOffice.Security.Permissions
+  type: Namespace
+  assemblies:
+  - SOCore
+references:
+- uid: SuperOffice.Security.Permissions.SoStrongName
+  commentId: T:SuperOffice.Security.Permissions.SoStrongName
+  isExternal: true
+  name: SoStrongName
+  nameWithType: SoStrongName
+  fullName: SuperOffice.Security.Permissions.SoStrongName

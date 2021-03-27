@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UpsertNomatchAction
+  commentId: T:SuperOffice.WebApi.Data.UpsertNomatchAction
+  id: UpsertNomatchAction
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UpsertNomatchAction.DeleteRow
+  - SuperOffice.WebApi.Data.UpsertNomatchAction.NoChange
+  - SuperOffice.WebApi.Data.UpsertNomatchAction.value__
+  - SuperOffice.WebApi.Data.UpsertNomatchAction.ZeroColumns
+  langs:
+  - csharp
+  - vb
+  name: UpsertNomatchAction
+  nameWithType: UpsertNomatchAction
+  fullName: SuperOffice.WebApi.Data.UpsertNomatchAction
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUpsert: Action to take on target table rows that do not match any incoming keys\n"
+  syntax:
+    content: 'public sealed class UpsertNomatchAction : Enum'
+    content.vb: >-
+      Public NotInheritable Class UpsertNomatchAction
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.UpsertNomatchAction.value__
+  commentId: F:SuperOffice.WebApi.Data.UpsertNomatchAction.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.UpsertNomatchAction
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: UpsertNomatchAction.value__
+  fullName: SuperOffice.WebApi.Data.UpsertNomatchAction.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UpsertNomatchAction.NoChange
+  commentId: F:SuperOffice.WebApi.Data.UpsertNomatchAction.NoChange
+  id: NoChange
+  parent: SuperOffice.WebApi.Data.UpsertNomatchAction
+  langs:
+  - csharp
+  - vb
+  name: NoChange
+  nameWithType: UpsertNomatchAction.NoChange
+  fullName: SuperOffice.WebApi.Data.UpsertNomatchAction.NoChange
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: No action, leave target table row unchanged\n"
+  syntax:
+    content: public const UpsertNomatchAction NoChange
+    return:
+      type: SuperOffice.WebApi.Data.UpsertNomatchAction
+    content.vb: Public Const NoChange As UpsertNomatchAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UpsertNomatchAction.ZeroColumns
+  commentId: F:SuperOffice.WebApi.Data.UpsertNomatchAction.ZeroColumns
+  id: ZeroColumns
+  parent: SuperOffice.WebApi.Data.UpsertNomatchAction
+  langs:
+  - csharp
+  - vb
+  name: ZeroColumns
+  nameWithType: UpsertNomatchAction.ZeroColumns
+  fullName: SuperOffice.WebApi.Data.UpsertNomatchAction.ZeroColumns
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Zero/default-value the targeted &apos;columns&apos; in all non-matching rows\n"
+  syntax:
+    content: public const UpsertNomatchAction ZeroColumns
+    return:
+      type: SuperOffice.WebApi.Data.UpsertNomatchAction
+    content.vb: Public Const ZeroColumns As UpsertNomatchAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UpsertNomatchAction.DeleteRow
+  commentId: F:SuperOffice.WebApi.Data.UpsertNomatchAction.DeleteRow
+  id: DeleteRow
+  parent: SuperOffice.WebApi.Data.UpsertNomatchAction
+  langs:
+  - csharp
+  - vb
+  name: DeleteRow
+  nameWithType: UpsertNomatchAction.DeleteRow
+  fullName: SuperOffice.WebApi.Data.UpsertNomatchAction.DeleteRow
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Delete the entire row, for all non-matching-row\n"
+  syntax:
+    content: public const UpsertNomatchAction DeleteRow
+    return:
+      type: SuperOffice.WebApi.Data.UpsertNomatchAction
+    content.vb: Public Const DeleteRow As UpsertNomatchAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.UpsertNomatchAction
+  commentId: T:SuperOffice.WebApi.Data.UpsertNomatchAction
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: UpsertNomatchAction
+  nameWithType: UpsertNomatchAction
+  fullName: SuperOffice.WebApi.Data.UpsertNomatchAction

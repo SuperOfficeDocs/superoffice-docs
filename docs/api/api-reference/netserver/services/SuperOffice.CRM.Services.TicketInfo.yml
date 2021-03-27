@@ -1,0 +1,511 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.TicketInfo
+  commentId: T:SuperOffice.CRM.Services.TicketInfo
+  id: TicketInfo
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.TicketInfo.#ctor
+  - SuperOffice.CRM.Services.TicketInfo.CategoryName
+  - SuperOffice.CRM.Services.TicketInfo.ContactName
+  - SuperOffice.CRM.Services.TicketInfo.OwnerName
+  - SuperOffice.CRM.Services.TicketInfo.PersonName
+  - SuperOffice.CRM.Services.TicketInfo.PriorityName
+  - SuperOffice.CRM.Services.TicketInfo.TicketId
+  - SuperOffice.CRM.Services.TicketInfo.TicketUrl
+  - SuperOffice.CRM.Services.TicketInfo.Title
+  - SuperOffice.CRM.Services.TicketInfo.ToString
+  - SuperOffice.CRM.Services.TicketInfo.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: TicketInfo
+  nameWithType: TicketInfo
+  fullName: SuperOffice.CRM.Services.TicketInfo
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA small carrier that contains information about a ticket\n<p></p>\nCarrier object for TicketInfo.\nServices for the TicketInfo Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ICustomerServiceAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class TicketInfo : Carrier'
+    content.vb: >-
+      Public Class TicketInfo
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.CustomerServiceAgent
+    commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
+  - linkId: SuperOffice.CRM.Services.ICustomerServiceAgent
+    commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.TicketInfo.#ctor
+  commentId: M:SuperOffice.CRM.Services.TicketInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.TicketInfo
+  langs:
+  - csharp
+  - vb
+  name: TicketInfo()
+  nameWithType: TicketInfo.TicketInfo()
+  fullName: SuperOffice.CRM.Services.TicketInfo.TicketInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public TicketInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.TicketInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TicketInfo.ToString
+  commentId: M:SuperOffice.CRM.Services.TicketInfo.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.TicketInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TicketInfo.ToString()
+  fullName: SuperOffice.CRM.Services.TicketInfo.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.TicketInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.TicketInfo.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.TicketInfo.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.TicketInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: TicketInfo.ToString(String)
+  fullName: SuperOffice.CRM.Services.TicketInfo.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.TicketInfo.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TicketInfo.TicketId
+  commentId: P:SuperOffice.CRM.Services.TicketInfo.TicketId
+  id: TicketId
+  parent: SuperOffice.CRM.Services.TicketInfo
+  langs:
+  - csharp
+  - vb
+  name: TicketId
+  nameWithType: TicketInfo.TicketId
+  fullName: SuperOffice.CRM.Services.TicketInfo.TicketId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe id of the created ticket \n"
+  syntax:
+    content: public virtual int TicketId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TicketId As Integer
+  overload: SuperOffice.CRM.Services.TicketInfo.TicketId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketInfo.Title
+  commentId: P:SuperOffice.CRM.Services.TicketInfo.Title
+  id: Title
+  parent: SuperOffice.CRM.Services.TicketInfo
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: TicketInfo.Title
+  fullName: SuperOffice.CRM.Services.TicketInfo.Title
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe title/subject of the created ticket \n"
+  syntax:
+    content: public virtual string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Title As String
+  overload: SuperOffice.CRM.Services.TicketInfo.Title*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketInfo.OwnerName
+  commentId: P:SuperOffice.CRM.Services.TicketInfo.OwnerName
+  id: OwnerName
+  parent: SuperOffice.CRM.Services.TicketInfo
+  langs:
+  - csharp
+  - vb
+  name: OwnerName
+  nameWithType: TicketInfo.OwnerName
+  fullName: SuperOffice.CRM.Services.TicketInfo.OwnerName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe name of the owner which the request was assigned to \n"
+  syntax:
+    content: public virtual string OwnerName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property OwnerName As String
+  overload: SuperOffice.CRM.Services.TicketInfo.OwnerName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketInfo.CategoryName
+  commentId: P:SuperOffice.CRM.Services.TicketInfo.CategoryName
+  id: CategoryName
+  parent: SuperOffice.CRM.Services.TicketInfo
+  langs:
+  - csharp
+  - vb
+  name: CategoryName
+  nameWithType: TicketInfo.CategoryName
+  fullName: SuperOffice.CRM.Services.TicketInfo.CategoryName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe name of the category for the request \n"
+  syntax:
+    content: public virtual string CategoryName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CategoryName As String
+  overload: SuperOffice.CRM.Services.TicketInfo.CategoryName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketInfo.PriorityName
+  commentId: P:SuperOffice.CRM.Services.TicketInfo.PriorityName
+  id: PriorityName
+  parent: SuperOffice.CRM.Services.TicketInfo
+  langs:
+  - csharp
+  - vb
+  name: PriorityName
+  nameWithType: TicketInfo.PriorityName
+  fullName: SuperOffice.CRM.Services.TicketInfo.PriorityName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe name of the priority for the request \n"
+  syntax:
+    content: public virtual string PriorityName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PriorityName As String
+  overload: SuperOffice.CRM.Services.TicketInfo.PriorityName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketInfo.TicketUrl
+  commentId: P:SuperOffice.CRM.Services.TicketInfo.TicketUrl
+  id: TicketUrl
+  parent: SuperOffice.CRM.Services.TicketInfo
+  langs:
+  - csharp
+  - vb
+  name: TicketUrl
+  nameWithType: TicketInfo.TicketUrl
+  fullName: SuperOffice.CRM.Services.TicketInfo.TicketUrl
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA URL leading directly to the created request. This is a URL ment to be used by a Service user \n"
+  syntax:
+    content: public virtual string TicketUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TicketUrl As String
+  overload: SuperOffice.CRM.Services.TicketInfo.TicketUrl*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketInfo.PersonName
+  commentId: P:SuperOffice.CRM.Services.TicketInfo.PersonName
+  id: PersonName
+  parent: SuperOffice.CRM.Services.TicketInfo
+  langs:
+  - csharp
+  - vb
+  name: PersonName
+  nameWithType: TicketInfo.PersonName
+  fullName: SuperOffice.CRM.Services.TicketInfo.PersonName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe name of the person/customer connected to the ticket \n"
+  syntax:
+    content: public virtual string PersonName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonName As String
+  overload: SuperOffice.CRM.Services.TicketInfo.PersonName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketInfo.ContactName
+  commentId: P:SuperOffice.CRM.Services.TicketInfo.ContactName
+  id: ContactName
+  parent: SuperOffice.CRM.Services.TicketInfo
+  langs:
+  - csharp
+  - vb
+  name: ContactName
+  nameWithType: TicketInfo.ContactName
+  fullName: SuperOffice.CRM.Services.TicketInfo.ContactName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe name of the contact/company connected to the ticket \n"
+  syntax:
+    content: public virtual string ContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactName As String
+  overload: SuperOffice.CRM.Services.TicketInfo.ContactName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.CustomerServiceAgent
+  commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
+  isExternal: true
+  name: CustomerServiceAgent
+  nameWithType: CustomerServiceAgent
+  fullName: SuperOffice.CRM.Services.CustomerServiceAgent
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent
+  commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ICustomerServiceAgent
+  nameWithType: ICustomerServiceAgent
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.TicketInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.TicketInfo.#ctor
+  isExternal: true
+  name: TicketInfo
+  nameWithType: TicketInfo.TicketInfo
+  fullName: SuperOffice.CRM.Services.TicketInfo.TicketInfo
+- uid: SuperOffice.CRM.Services.TicketInfo.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.TicketInfo.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: TicketInfo.ToString
+  fullName: SuperOffice.CRM.Services.TicketInfo.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.TicketInfo.TicketId*
+  commentId: Overload:SuperOffice.CRM.Services.TicketInfo.TicketId
+  isExternal: true
+  name: TicketId
+  nameWithType: TicketInfo.TicketId
+  fullName: SuperOffice.CRM.Services.TicketInfo.TicketId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.TicketInfo.Title*
+  commentId: Overload:SuperOffice.CRM.Services.TicketInfo.Title
+  isExternal: true
+  name: Title
+  nameWithType: TicketInfo.Title
+  fullName: SuperOffice.CRM.Services.TicketInfo.Title
+- uid: SuperOffice.CRM.Services.TicketInfo.OwnerName*
+  commentId: Overload:SuperOffice.CRM.Services.TicketInfo.OwnerName
+  isExternal: true
+  name: OwnerName
+  nameWithType: TicketInfo.OwnerName
+  fullName: SuperOffice.CRM.Services.TicketInfo.OwnerName
+- uid: SuperOffice.CRM.Services.TicketInfo.CategoryName*
+  commentId: Overload:SuperOffice.CRM.Services.TicketInfo.CategoryName
+  isExternal: true
+  name: CategoryName
+  nameWithType: TicketInfo.CategoryName
+  fullName: SuperOffice.CRM.Services.TicketInfo.CategoryName
+- uid: SuperOffice.CRM.Services.TicketInfo.PriorityName*
+  commentId: Overload:SuperOffice.CRM.Services.TicketInfo.PriorityName
+  isExternal: true
+  name: PriorityName
+  nameWithType: TicketInfo.PriorityName
+  fullName: SuperOffice.CRM.Services.TicketInfo.PriorityName
+- uid: SuperOffice.CRM.Services.TicketInfo.TicketUrl*
+  commentId: Overload:SuperOffice.CRM.Services.TicketInfo.TicketUrl
+  isExternal: true
+  name: TicketUrl
+  nameWithType: TicketInfo.TicketUrl
+  fullName: SuperOffice.CRM.Services.TicketInfo.TicketUrl
+- uid: SuperOffice.CRM.Services.TicketInfo.PersonName*
+  commentId: Overload:SuperOffice.CRM.Services.TicketInfo.PersonName
+  isExternal: true
+  name: PersonName
+  nameWithType: TicketInfo.PersonName
+  fullName: SuperOffice.CRM.Services.TicketInfo.PersonName
+- uid: SuperOffice.CRM.Services.TicketInfo.ContactName*
+  commentId: Overload:SuperOffice.CRM.Services.TicketInfo.ContactName
+  isExternal: true
+  name: ContactName
+  nameWithType: TicketInfo.ContactName
+  fullName: SuperOffice.CRM.Services.TicketInfo.ContactName

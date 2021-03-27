@@ -1,0 +1,485 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.WebAppUsage
+  commentId: T:SuperOffice.CRM.Services.WebAppUsage
+  id: WebAppUsage
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.WebAppUsage.#ctor
+  - SuperOffice.CRM.Services.WebAppUsage.AggregateBin
+  - SuperOffice.CRM.Services.WebAppUsage.AggregateCount
+  - SuperOffice.CRM.Services.WebAppUsage.AssocId
+  - SuperOffice.CRM.Services.WebAppUsage.Timestamp
+  - SuperOffice.CRM.Services.WebAppUsage.ToString
+  - SuperOffice.CRM.Services.WebAppUsage.ToString(System.String)
+  - SuperOffice.CRM.Services.WebAppUsage.Version
+  - SuperOffice.CRM.Services.WebAppUsage.ViewState
+  - SuperOffice.CRM.Services.WebAppUsage.WebAppUsageId
+  langs:
+  - csharp
+  - vb
+  name: WebAppUsage
+  nameWithType: WebAppUsage
+  fullName: SuperOffice.CRM.Services.WebAppUsage
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for WebAppUsage.\nServices for the WebAppUsage Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IDiagnosticsAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class WebAppUsage : Carrier'
+    content.vb: >-
+      Public Class WebAppUsage
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.DiagnosticsAgent
+    commentId: T:SuperOffice.CRM.Services.DiagnosticsAgent
+  - linkId: SuperOffice.CRM.Services.IDiagnosticsAgent
+    commentId: T:SuperOffice.CRM.Services.IDiagnosticsAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.WebAppUsage.#ctor
+  commentId: M:SuperOffice.CRM.Services.WebAppUsage.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.WebAppUsage
+  langs:
+  - csharp
+  - vb
+  name: WebAppUsage()
+  nameWithType: WebAppUsage.WebAppUsage()
+  fullName: SuperOffice.CRM.Services.WebAppUsage.WebAppUsage()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public WebAppUsage()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.WebAppUsage.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.WebAppUsage.ToString
+  commentId: M:SuperOffice.CRM.Services.WebAppUsage.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.WebAppUsage
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: WebAppUsage.ToString()
+  fullName: SuperOffice.CRM.Services.WebAppUsage.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.WebAppUsage.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.WebAppUsage.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.WebAppUsage.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.WebAppUsage
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: WebAppUsage.ToString(String)
+  fullName: SuperOffice.CRM.Services.WebAppUsage.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.WebAppUsage.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.WebAppUsage.WebAppUsageId
+  commentId: P:SuperOffice.CRM.Services.WebAppUsage.WebAppUsageId
+  id: WebAppUsageId
+  parent: SuperOffice.CRM.Services.WebAppUsage
+  langs:
+  - csharp
+  - vb
+  name: WebAppUsageId
+  nameWithType: WebAppUsage.WebAppUsageId
+  fullName: SuperOffice.CRM.Services.WebAppUsage.WebAppUsageId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary Key \n"
+  syntax:
+    content: public virtual int WebAppUsageId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property WebAppUsageId As Integer
+  overload: SuperOffice.CRM.Services.WebAppUsage.WebAppUsageId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WebAppUsage.AssocId
+  commentId: P:SuperOffice.CRM.Services.WebAppUsage.AssocId
+  id: AssocId
+  parent: SuperOffice.CRM.Services.WebAppUsage
+  langs:
+  - csharp
+  - vb
+  name: AssocId
+  nameWithType: WebAppUsage.AssocId
+  fullName: SuperOffice.CRM.Services.WebAppUsage.AssocId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAssociate Id \n"
+  syntax:
+    content: public virtual int AssocId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssocId As Integer
+  overload: SuperOffice.CRM.Services.WebAppUsage.AssocId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WebAppUsage.Timestamp
+  commentId: P:SuperOffice.CRM.Services.WebAppUsage.Timestamp
+  id: Timestamp
+  parent: SuperOffice.CRM.Services.WebAppUsage
+  langs:
+  - csharp
+  - vb
+  name: Timestamp
+  nameWithType: WebAppUsage.Timestamp
+  fullName: SuperOffice.CRM.Services.WebAppUsage.Timestamp
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhich day the usage was logged \n"
+  syntax:
+    content: public virtual DateTime Timestamp { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Timestamp As Date
+  overload: SuperOffice.CRM.Services.WebAppUsage.Timestamp*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WebAppUsage.ViewState
+  commentId: P:SuperOffice.CRM.Services.WebAppUsage.ViewState
+  id: ViewState
+  parent: SuperOffice.CRM.Services.WebAppUsage
+  langs:
+  - csharp
+  - vb
+  name: ViewState
+  nameWithType: WebAppUsage.ViewState
+  fullName: SuperOffice.CRM.Services.WebAppUsage.ViewState
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe SoProtocol(ViewState) \n"
+  syntax:
+    content: public virtual string ViewState { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ViewState As String
+  overload: SuperOffice.CRM.Services.WebAppUsage.ViewState*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WebAppUsage.AggregateCount
+  commentId: P:SuperOffice.CRM.Services.WebAppUsage.AggregateCount
+  id: AggregateCount
+  parent: SuperOffice.CRM.Services.WebAppUsage
+  langs:
+  - csharp
+  - vb
+  name: AggregateCount
+  nameWithType: WebAppUsage.AggregateCount
+  fullName: SuperOffice.CRM.Services.WebAppUsage.AggregateCount
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNumber of times the specific soprotocol is accessed \n"
+  syntax:
+    content: public virtual uint AggregateCount { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Overridable Property AggregateCount As UInteger
+  overload: SuperOffice.CRM.Services.WebAppUsage.AggregateCount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WebAppUsage.AggregateBin
+  commentId: P:SuperOffice.CRM.Services.WebAppUsage.AggregateBin
+  id: AggregateBin
+  parent: SuperOffice.CRM.Services.WebAppUsage
+  langs:
+  - csharp
+  - vb
+  name: AggregateBin
+  nameWithType: WebAppUsage.AggregateBin
+  fullName: SuperOffice.CRM.Services.WebAppUsage.AggregateBin
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n?? \n"
+  syntax:
+    content: public virtual uint AggregateBin { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Overridable Property AggregateBin As UInteger
+  overload: SuperOffice.CRM.Services.WebAppUsage.AggregateBin*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.WebAppUsage.Version
+  commentId: P:SuperOffice.CRM.Services.WebAppUsage.Version
+  id: Version
+  parent: SuperOffice.CRM.Services.WebAppUsage
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: WebAppUsage.Version
+  fullName: SuperOffice.CRM.Services.WebAppUsage.Version
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n?? \n"
+  syntax:
+    content: public virtual uint Version { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Overridable Property Version As UInteger
+  overload: SuperOffice.CRM.Services.WebAppUsage.Version*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.DiagnosticsAgent
+  commentId: T:SuperOffice.CRM.Services.DiagnosticsAgent
+  isExternal: true
+  name: DiagnosticsAgent
+  nameWithType: DiagnosticsAgent
+  fullName: SuperOffice.CRM.Services.DiagnosticsAgent
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent
+  commentId: T:SuperOffice.CRM.Services.IDiagnosticsAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IDiagnosticsAgent
+  nameWithType: IDiagnosticsAgent
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.WebAppUsage.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.WebAppUsage.#ctor
+  isExternal: true
+  name: WebAppUsage
+  nameWithType: WebAppUsage.WebAppUsage
+  fullName: SuperOffice.CRM.Services.WebAppUsage.WebAppUsage
+- uid: SuperOffice.CRM.Services.WebAppUsage.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.WebAppUsage.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: WebAppUsage.ToString
+  fullName: SuperOffice.CRM.Services.WebAppUsage.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.WebAppUsage.WebAppUsageId*
+  commentId: Overload:SuperOffice.CRM.Services.WebAppUsage.WebAppUsageId
+  isExternal: true
+  name: WebAppUsageId
+  nameWithType: WebAppUsage.WebAppUsageId
+  fullName: SuperOffice.CRM.Services.WebAppUsage.WebAppUsageId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.WebAppUsage.AssocId*
+  commentId: Overload:SuperOffice.CRM.Services.WebAppUsage.AssocId
+  isExternal: true
+  name: AssocId
+  nameWithType: WebAppUsage.AssocId
+  fullName: SuperOffice.CRM.Services.WebAppUsage.AssocId
+- uid: SuperOffice.CRM.Services.WebAppUsage.Timestamp*
+  commentId: Overload:SuperOffice.CRM.Services.WebAppUsage.Timestamp
+  isExternal: true
+  name: Timestamp
+  nameWithType: WebAppUsage.Timestamp
+  fullName: SuperOffice.CRM.Services.WebAppUsage.Timestamp
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.WebAppUsage.ViewState*
+  commentId: Overload:SuperOffice.CRM.Services.WebAppUsage.ViewState
+  isExternal: true
+  name: ViewState
+  nameWithType: WebAppUsage.ViewState
+  fullName: SuperOffice.CRM.Services.WebAppUsage.ViewState
+- uid: SuperOffice.CRM.Services.WebAppUsage.AggregateCount*
+  commentId: Overload:SuperOffice.CRM.Services.WebAppUsage.AggregateCount
+  isExternal: true
+  name: AggregateCount
+  nameWithType: WebAppUsage.AggregateCount
+  fullName: SuperOffice.CRM.Services.WebAppUsage.AggregateCount
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: SuperOffice.CRM.Services.WebAppUsage.AggregateBin*
+  commentId: Overload:SuperOffice.CRM.Services.WebAppUsage.AggregateBin
+  isExternal: true
+  name: AggregateBin
+  nameWithType: WebAppUsage.AggregateBin
+  fullName: SuperOffice.CRM.Services.WebAppUsage.AggregateBin
+- uid: SuperOffice.CRM.Services.WebAppUsage.Version*
+  commentId: Overload:SuperOffice.CRM.Services.WebAppUsage.Version
+  isExternal: true
+  name: Version
+  nameWithType: WebAppUsage.Version
+  fullName: SuperOffice.CRM.Services.WebAppUsage.Version

@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest
+  commentId: T:SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest
+  id: Sentry_GetTableRightByOwnershipRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.#ctor
+  - SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.ContactAssociateId
+  - SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.ContactGroupId
+  - SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.TableName
+  langs:
+  - csharp
+  - vb
+  name: Sentry_GetTableRightByOwnershipRequest
+  nameWithType: Sentry_GetTableRightByOwnershipRequest
+  fullName: SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Sentry_GetTableRightByOwnershipRequest : Object'
+    content.vb: >-
+      Public Class Sentry_GetTableRightByOwnershipRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest
+  langs:
+  - csharp
+  - vb
+  name: Sentry_GetTableRightByOwnershipRequest()
+  nameWithType: Sentry_GetTableRightByOwnershipRequest.Sentry_GetTableRightByOwnershipRequest()
+  fullName: SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.Sentry_GetTableRightByOwnershipRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Sentry_GetTableRightByOwnershipRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.TableName
+  commentId: P:SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.TableName
+  id: TableName
+  parent: SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: Sentry_GetTableRightByOwnershipRequest.TableName
+  fullName: SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.TableName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string TableName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TableName As String
+  overload: SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.TableName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.ContactGroupId
+  commentId: P:SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.ContactGroupId
+  id: ContactGroupId
+  parent: SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest
+  langs:
+  - csharp
+  - vb
+  name: ContactGroupId
+  nameWithType: Sentry_GetTableRightByOwnershipRequest.ContactGroupId
+  fullName: SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.ContactGroupId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ContactGroupId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ContactGroupId As Integer
+  overload: SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.ContactGroupId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.ContactAssociateId
+  commentId: P:SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.ContactAssociateId
+  id: ContactAssociateId
+  parent: SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest
+  langs:
+  - csharp
+  - vb
+  name: ContactAssociateId
+  nameWithType: Sentry_GetTableRightByOwnershipRequest.ContactAssociateId
+  fullName: SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.ContactAssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ContactAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ContactAssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.ContactAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.#ctor
+  isExternal: true
+  name: Sentry_GetTableRightByOwnershipRequest
+  nameWithType: Sentry_GetTableRightByOwnershipRequest.Sentry_GetTableRightByOwnershipRequest
+  fullName: SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.Sentry_GetTableRightByOwnershipRequest
+- uid: SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.TableName*
+  commentId: Overload:SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.TableName
+  isExternal: true
+  name: TableName
+  nameWithType: Sentry_GetTableRightByOwnershipRequest.TableName
+  fullName: SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.TableName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.ContactGroupId*
+  commentId: Overload:SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.ContactGroupId
+  isExternal: true
+  name: ContactGroupId
+  nameWithType: Sentry_GetTableRightByOwnershipRequest.ContactGroupId
+  fullName: SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.ContactGroupId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.ContactAssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.ContactAssociateId
+  isExternal: true
+  name: ContactAssociateId
+  nameWithType: Sentry_GetTableRightByOwnershipRequest.ContactAssociateId
+  fullName: SuperOffice.WebApi.Data.Sentry_GetTableRightByOwnershipRequest.ContactAssociateId

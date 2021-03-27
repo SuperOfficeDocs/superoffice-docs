@@ -1,0 +1,1243 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ApplicationDomain.SoRemoteLoader
+  commentId: T:SuperOffice.ApplicationDomain.SoRemoteLoader
+  id: SoRemoteLoader
+  parent: SuperOffice.ApplicationDomain
+  children:
+  - SuperOffice.ApplicationDomain.SoRemoteLoader.#ctor
+  - SuperOffice.ApplicationDomain.SoRemoteLoader._assemblyList
+  - SuperOffice.ApplicationDomain.SoRemoteLoader._typeList
+  - SuperOffice.ApplicationDomain.SoRemoteLoader.CallStaticMethod(System.String,System.String,System.Type[],System.Object[])
+  - SuperOffice.ApplicationDomain.SoRemoteLoader.CallStaticMethodByRefParams(System.String,System.String,System.Type[],System.Object[]@)
+  - SuperOffice.ApplicationDomain.SoRemoteLoader.CreateInstance(System.String,System.Reflection.BindingFlags,System.Object[])
+  - SuperOffice.ApplicationDomain.SoRemoteLoader.InitializeLifetimeService
+  - SuperOffice.ApplicationDomain.SoRemoteLoader.LoadAssembly(System.String)
+  langs:
+  - csharp
+  - vb
+  name: SoRemoteLoader
+  nameWithType: SoRemoteLoader
+  fullName: SuperOffice.ApplicationDomain.SoRemoteLoader
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.ApplicationDomain
+  summary: "\nThe remote loader handles calling into a remote <xref href=\"System.AppDomain\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class SoRemoteLoader : MarshalByRefObject'
+    content.vb: >-
+      Public Class SoRemoteLoader
+          Inherits MarshalByRefObject
+  inheritance:
+  - System.Object
+  - System.MarshalByRefObject
+  inheritedMembers:
+  - System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  - System.MarshalByRefObject.GetLifetimeService
+  - System.MarshalByRefObject.CreateObjRef(System.Type)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.ApplicationDomain.SoRemoteLoader.EnumUtil.MapEnums``2
+  - SuperOffice.ApplicationDomain.SoRemoteLoader.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ApplicationDomain.SoRemoteLoader)
+  - SuperOffice.ApplicationDomain.SoRemoteLoader.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.ApplicationDomain.SoRemoteLoader.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.ApplicationDomain.SoRemoteLoader._typeList
+  commentId: F:SuperOffice.ApplicationDomain.SoRemoteLoader._typeList
+  id: _typeList
+  parent: SuperOffice.ApplicationDomain.SoRemoteLoader
+  langs:
+  - csharp
+  - vb
+  name: _typeList
+  nameWithType: SoRemoteLoader._typeList
+  fullName: SuperOffice.ApplicationDomain.SoRemoteLoader._typeList
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.ApplicationDomain
+  syntax:
+    content: protected ArrayList _typeList
+    return:
+      type: System.Collections.ArrayList
+    content.vb: Protected _typeList As ArrayList
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.ApplicationDomain.SoRemoteLoader._assemblyList
+  commentId: F:SuperOffice.ApplicationDomain.SoRemoteLoader._assemblyList
+  id: _assemblyList
+  parent: SuperOffice.ApplicationDomain.SoRemoteLoader
+  langs:
+  - csharp
+  - vb
+  name: _assemblyList
+  nameWithType: SoRemoteLoader._assemblyList
+  fullName: SuperOffice.ApplicationDomain.SoRemoteLoader._assemblyList
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.ApplicationDomain
+  syntax:
+    content: protected ArrayList _assemblyList
+    return:
+      type: System.Collections.ArrayList
+    content.vb: Protected _assemblyList As ArrayList
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.ApplicationDomain.SoRemoteLoader.CallStaticMethod(System.String,System.String,System.Type[],System.Object[])
+  commentId: M:SuperOffice.ApplicationDomain.SoRemoteLoader.CallStaticMethod(System.String,System.String,System.Type[],System.Object[])
+  id: CallStaticMethod(System.String,System.String,System.Type[],System.Object[])
+  parent: SuperOffice.ApplicationDomain.SoRemoteLoader
+  langs:
+  - csharp
+  - vb
+  name: CallStaticMethod(String, String, Type[], Object[])
+  nameWithType: SoRemoteLoader.CallStaticMethod(String, String, Type[], Object[])
+  fullName: SuperOffice.ApplicationDomain.SoRemoteLoader.CallStaticMethod(System.String, System.String, System.Type[], System.Object[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.ApplicationDomain
+  summary: "\nReturns the result of a static method call\n"
+  syntax:
+    content: public object CallStaticMethod(string typeName, string methodName, Type[] parameterTypes, object[] methodParams)
+    parameters:
+    - id: typeName
+      type: System.String
+      description: The type to call the static method on
+    - id: methodName
+      type: System.String
+    - id: parameterTypes
+      type: System.Type[]
+      description: Type array containing the type of the parameters.
+    - id: methodParams
+      type: System.Object[]
+      description: The parameters to pass to the method
+    return:
+      type: System.Object
+      description: The return value of the method
+    content.vb: Public Function CallStaticMethod(typeName As String, methodName As String, parameterTypes As Type(), methodParams As Object()) As Object
+  overload: SuperOffice.ApplicationDomain.SoRemoteLoader.CallStaticMethod*
+  nameWithType.vb: SoRemoteLoader.CallStaticMethod(String, String, Type(), Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.ApplicationDomain.SoRemoteLoader.CallStaticMethod(System.String, System.String, System.Type(), System.Object())
+  name.vb: CallStaticMethod(String, String, Type(), Object())
+- uid: SuperOffice.ApplicationDomain.SoRemoteLoader.CallStaticMethodByRefParams(System.String,System.String,System.Type[],System.Object[]@)
+  commentId: M:SuperOffice.ApplicationDomain.SoRemoteLoader.CallStaticMethodByRefParams(System.String,System.String,System.Type[],System.Object[]@)
+  id: CallStaticMethodByRefParams(System.String,System.String,System.Type[],System.Object[]@)
+  parent: SuperOffice.ApplicationDomain.SoRemoteLoader
+  langs:
+  - csharp
+  - vb
+  name: CallStaticMethodByRefParams(String, String, Type[], ref Object[])
+  nameWithType: SoRemoteLoader.CallStaticMethodByRefParams(String, String, Type[], ref Object[])
+  fullName: SuperOffice.ApplicationDomain.SoRemoteLoader.CallStaticMethodByRefParams(System.String, System.String, System.Type[], ref System.Object[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.ApplicationDomain
+  summary: "\nReturns the result of a static method call\n"
+  syntax:
+    content: public object CallStaticMethodByRefParams(string typeName, string methodName, Type[] parameterTypes, ref object[] methodParams)
+    parameters:
+    - id: typeName
+      type: System.String
+      description: The type to call the static method on
+    - id: methodName
+      type: System.String
+    - id: parameterTypes
+      type: System.Type[]
+      description: Type array containing the type of the parameters.
+    - id: methodParams
+      type: System.Object[]
+      description: The parameters to pass to the method
+    return:
+      type: System.Object
+      description: The return value of the method
+    content.vb: Public Function CallStaticMethodByRefParams(typeName As String, methodName As String, parameterTypes As Type(), ByRef methodParams As Object()) As Object
+  overload: SuperOffice.ApplicationDomain.SoRemoteLoader.CallStaticMethodByRefParams*
+  nameWithType.vb: SoRemoteLoader.CallStaticMethodByRefParams(String, String, Type(), ByRef Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.ApplicationDomain.SoRemoteLoader.CallStaticMethodByRefParams(System.String, System.String, System.Type(), ByRef System.Object())
+  name.vb: CallStaticMethodByRefParams(String, String, Type(), ByRef Object())
+- uid: SuperOffice.ApplicationDomain.SoRemoteLoader.CreateInstance(System.String,System.Reflection.BindingFlags,System.Object[])
+  commentId: M:SuperOffice.ApplicationDomain.SoRemoteLoader.CreateInstance(System.String,System.Reflection.BindingFlags,System.Object[])
+  id: CreateInstance(System.String,System.Reflection.BindingFlags,System.Object[])
+  parent: SuperOffice.ApplicationDomain.SoRemoteLoader
+  langs:
+  - csharp
+  - vb
+  name: CreateInstance(String, BindingFlags, Object[])
+  nameWithType: SoRemoteLoader.CreateInstance(String, BindingFlags, Object[])
+  fullName: SuperOffice.ApplicationDomain.SoRemoteLoader.CreateInstance(System.String, System.Reflection.BindingFlags, System.Object[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.ApplicationDomain
+  summary: "\nReturns a proxy to an instance of the specified plugin type\n"
+  syntax:
+    content: public MarshalByRefObject CreateInstance(string typeName, BindingFlags bindingFlags, object[] constructorParams)
+    parameters:
+    - id: typeName
+      type: System.String
+      description: The name of the type to create an instance of
+    - id: bindingFlags
+      type: System.Reflection.BindingFlags
+      description: The binding flags for the constructor
+    - id: constructorParams
+      type: System.Object[]
+      description: The parameters to pass to the constructor
+    return:
+      type: System.MarshalByRefObject
+      description: The constructed object
+    content.vb: Public Function CreateInstance(typeName As String, bindingFlags As BindingFlags, constructorParams As Object()) As MarshalByRefObject
+  overload: SuperOffice.ApplicationDomain.SoRemoteLoader.CreateInstance*
+  nameWithType.vb: SoRemoteLoader.CreateInstance(String, BindingFlags, Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.ApplicationDomain.SoRemoteLoader.CreateInstance(System.String, System.Reflection.BindingFlags, System.Object())
+  name.vb: CreateInstance(String, BindingFlags, Object())
+- uid: SuperOffice.ApplicationDomain.SoRemoteLoader.LoadAssembly(System.String)
+  commentId: M:SuperOffice.ApplicationDomain.SoRemoteLoader.LoadAssembly(System.String)
+  id: LoadAssembly(System.String)
+  parent: SuperOffice.ApplicationDomain.SoRemoteLoader
+  langs:
+  - csharp
+  - vb
+  name: LoadAssembly(String)
+  nameWithType: SoRemoteLoader.LoadAssembly(String)
+  fullName: SuperOffice.ApplicationDomain.SoRemoteLoader.LoadAssembly(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.ApplicationDomain
+  summary: "\nLoads the assembly into the remote domain\n"
+  syntax:
+    content: public void LoadAssembly(string fullname)
+    parameters:
+    - id: fullname
+      type: System.String
+      description: The full filename of the assembly to load
+    content.vb: Public Sub LoadAssembly(fullname As String)
+  overload: SuperOffice.ApplicationDomain.SoRemoteLoader.LoadAssembly*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.ApplicationDomain.SoRemoteLoader.InitializeLifetimeService
+  commentId: M:SuperOffice.ApplicationDomain.SoRemoteLoader.InitializeLifetimeService
+  id: InitializeLifetimeService
+  parent: SuperOffice.ApplicationDomain.SoRemoteLoader
+  langs:
+  - csharp
+  - vb
+  name: InitializeLifetimeService()
+  nameWithType: SoRemoteLoader.InitializeLifetimeService()
+  fullName: SuperOffice.ApplicationDomain.SoRemoteLoader.InitializeLifetimeService()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.ApplicationDomain
+  syntax:
+    content: public override object InitializeLifetimeService()
+    return:
+      type: System.Object
+    content.vb: Public Overrides Function InitializeLifetimeService As Object
+  overridden: System.MarshalByRefObject.InitializeLifetimeService
+  overload: SuperOffice.ApplicationDomain.SoRemoteLoader.InitializeLifetimeService*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.ApplicationDomain.SoRemoteLoader.#ctor
+  commentId: M:SuperOffice.ApplicationDomain.SoRemoteLoader.#ctor
+  id: '#ctor'
+  parent: SuperOffice.ApplicationDomain.SoRemoteLoader
+  langs:
+  - csharp
+  - vb
+  name: SoRemoteLoader()
+  nameWithType: SoRemoteLoader.SoRemoteLoader()
+  fullName: SuperOffice.ApplicationDomain.SoRemoteLoader.SoRemoteLoader()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.ApplicationDomain
+  syntax:
+    content: public SoRemoteLoader()
+    content.vb: Public Sub New
+  overload: SuperOffice.ApplicationDomain.SoRemoteLoader.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.ApplicationDomain
+  commentId: N:SuperOffice.ApplicationDomain
+  isExternal: true
+  name: SuperOffice.ApplicationDomain
+  nameWithType: SuperOffice.ApplicationDomain
+  fullName: SuperOffice.ApplicationDomain
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.MarshalByRefObject
+  commentId: T:System.MarshalByRefObject
+  parent: System
+  isExternal: true
+  name: MarshalByRefObject
+  nameWithType: MarshalByRefObject
+  fullName: System.MarshalByRefObject
+- uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  commentId: M:System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  parent: System.MarshalByRefObject
+  isExternal: true
+  name: MemberwiseClone(Boolean)
+  nameWithType: MarshalByRefObject.MemberwiseClone(Boolean)
+  fullName: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  spec.csharp:
+  - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+    name: MemberwiseClone
+    nameWithType: MarshalByRefObject.MemberwiseClone
+    fullName: System.MarshalByRefObject.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+    name: MemberwiseClone
+    nameWithType: MarshalByRefObject.MemberwiseClone
+    fullName: System.MarshalByRefObject.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.MarshalByRefObject.GetLifetimeService
+  commentId: M:System.MarshalByRefObject.GetLifetimeService
+  parent: System.MarshalByRefObject
+  isExternal: true
+  name: GetLifetimeService()
+  nameWithType: MarshalByRefObject.GetLifetimeService()
+  fullName: System.MarshalByRefObject.GetLifetimeService()
+  spec.csharp:
+  - uid: System.MarshalByRefObject.GetLifetimeService
+    name: GetLifetimeService
+    nameWithType: MarshalByRefObject.GetLifetimeService
+    fullName: System.MarshalByRefObject.GetLifetimeService
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.GetLifetimeService
+    name: GetLifetimeService
+    nameWithType: MarshalByRefObject.GetLifetimeService
+    fullName: System.MarshalByRefObject.GetLifetimeService
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.MarshalByRefObject.CreateObjRef(System.Type)
+  commentId: M:System.MarshalByRefObject.CreateObjRef(System.Type)
+  parent: System.MarshalByRefObject
+  isExternal: true
+  name: CreateObjRef(Type)
+  nameWithType: MarshalByRefObject.CreateObjRef(Type)
+  fullName: System.MarshalByRefObject.CreateObjRef(System.Type)
+  spec.csharp:
+  - uid: System.MarshalByRefObject.CreateObjRef(System.Type)
+    name: CreateObjRef
+    nameWithType: MarshalByRefObject.CreateObjRef
+    fullName: System.MarshalByRefObject.CreateObjRef
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.CreateObjRef(System.Type)
+    name: CreateObjRef
+    nameWithType: MarshalByRefObject.CreateObjRef
+    fullName: System.MarshalByRefObject.CreateObjRef
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ApplicationDomain.SoRemoteLoader.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoRemoteLoader, To>()
+  nameWithType: EnumUtil.MapEnums<SoRemoteLoader, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.ApplicationDomain.SoRemoteLoader, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoRemoteLoader, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.ApplicationDomain.SoRemoteLoader, To)()
+  name.vb: MapEnums(Of SoRemoteLoader, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoRemoteLoader, To>
+    nameWithType: EnumUtil.MapEnums<SoRemoteLoader, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.ApplicationDomain.SoRemoteLoader, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoRemoteLoader, To)
+    nameWithType: EnumUtil.MapEnums(Of SoRemoteLoader, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.ApplicationDomain.SoRemoteLoader, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ApplicationDomain.SoRemoteLoader.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ApplicationDomain.SoRemoteLoader)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SoRemoteLoader>(SoRemoteLoader)
+  nameWithType: ObjectExtensions.AssignByReflection<SoRemoteLoader>(SoRemoteLoader)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.ApplicationDomain.SoRemoteLoader>(SuperOffice.ApplicationDomain.SoRemoteLoader)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoRemoteLoader)(SoRemoteLoader)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.ApplicationDomain.SoRemoteLoader)(SuperOffice.ApplicationDomain.SoRemoteLoader)
+  name.vb: AssignByReflection(Of SoRemoteLoader)(SoRemoteLoader)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SoRemoteLoader>
+    nameWithType: ObjectExtensions.AssignByReflection<SoRemoteLoader>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.ApplicationDomain.SoRemoteLoader>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.ApplicationDomain.SoRemoteLoader
+    name: SoRemoteLoader
+    nameWithType: SoRemoteLoader
+    fullName: SuperOffice.ApplicationDomain.SoRemoteLoader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SoRemoteLoader)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SoRemoteLoader)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.ApplicationDomain.SoRemoteLoader)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.ApplicationDomain.SoRemoteLoader
+    name: SoRemoteLoader
+    nameWithType: SoRemoteLoader
+    fullName: SuperOffice.ApplicationDomain.SoRemoteLoader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ApplicationDomain.SoRemoteLoader.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SoRemoteLoader>()
+  nameWithType: ObjectExtensions.GraphCopy<SoRemoteLoader>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.ApplicationDomain.SoRemoteLoader>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoRemoteLoader)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.ApplicationDomain.SoRemoteLoader)()
+  name.vb: GraphCopy(Of SoRemoteLoader)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SoRemoteLoader>
+    nameWithType: ObjectExtensions.GraphCopy<SoRemoteLoader>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.ApplicationDomain.SoRemoteLoader>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SoRemoteLoader)
+    nameWithType: ObjectExtensions.GraphCopy(Of SoRemoteLoader)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.ApplicationDomain.SoRemoteLoader)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ApplicationDomain.SoRemoteLoader.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoRemoteLoader, To>()
+  nameWithType: Converters.MapEnums<SoRemoteLoader, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ApplicationDomain.SoRemoteLoader, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoRemoteLoader, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ApplicationDomain.SoRemoteLoader, To)()
+  name.vb: MapEnums(Of SoRemoteLoader, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoRemoteLoader, To>
+    nameWithType: Converters.MapEnums<SoRemoteLoader, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ApplicationDomain.SoRemoteLoader, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoRemoteLoader, To)
+    nameWithType: Converters.MapEnums(Of SoRemoteLoader, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ApplicationDomain.SoRemoteLoader, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Collections.ArrayList
+  commentId: T:System.Collections.ArrayList
+  parent: System.Collections
+  isExternal: true
+  name: ArrayList
+  nameWithType: ArrayList
+  fullName: System.Collections.ArrayList
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: SuperOffice.ApplicationDomain.SoRemoteLoader.CallStaticMethod*
+  commentId: Overload:SuperOffice.ApplicationDomain.SoRemoteLoader.CallStaticMethod
+  isExternal: true
+  name: CallStaticMethod
+  nameWithType: SoRemoteLoader.CallStaticMethod
+  fullName: SuperOffice.ApplicationDomain.SoRemoteLoader.CallStaticMethod
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Type[]
+  isExternal: true
+  name: Type[]
+  nameWithType: Type[]
+  fullName: System.Type[]
+  nameWithType.vb: Type()
+  fullName.vb: System.Type()
+  name.vb: Type()
+  spec.csharp:
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.ApplicationDomain.SoRemoteLoader.CallStaticMethodByRefParams*
+  commentId: Overload:SuperOffice.ApplicationDomain.SoRemoteLoader.CallStaticMethodByRefParams
+  isExternal: true
+  name: CallStaticMethodByRefParams
+  nameWithType: SoRemoteLoader.CallStaticMethodByRefParams
+  fullName: SuperOffice.ApplicationDomain.SoRemoteLoader.CallStaticMethodByRefParams
+- uid: SuperOffice.ApplicationDomain.SoRemoteLoader.CreateInstance*
+  commentId: Overload:SuperOffice.ApplicationDomain.SoRemoteLoader.CreateInstance
+  isExternal: true
+  name: CreateInstance
+  nameWithType: SoRemoteLoader.CreateInstance
+  fullName: SuperOffice.ApplicationDomain.SoRemoteLoader.CreateInstance
+- uid: System.Reflection.BindingFlags
+  commentId: T:System.Reflection.BindingFlags
+  parent: System.Reflection
+  isExternal: true
+  name: BindingFlags
+  nameWithType: BindingFlags
+  fullName: System.Reflection.BindingFlags
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+- uid: SuperOffice.ApplicationDomain.SoRemoteLoader.LoadAssembly*
+  commentId: Overload:SuperOffice.ApplicationDomain.SoRemoteLoader.LoadAssembly
+  isExternal: true
+  name: LoadAssembly
+  nameWithType: SoRemoteLoader.LoadAssembly
+  fullName: SuperOffice.ApplicationDomain.SoRemoteLoader.LoadAssembly
+- uid: System.MarshalByRefObject.InitializeLifetimeService
+  commentId: M:System.MarshalByRefObject.InitializeLifetimeService
+  parent: System.MarshalByRefObject
+  isExternal: true
+  name: InitializeLifetimeService()
+  nameWithType: MarshalByRefObject.InitializeLifetimeService()
+  fullName: System.MarshalByRefObject.InitializeLifetimeService()
+  spec.csharp:
+  - uid: System.MarshalByRefObject.InitializeLifetimeService
+    name: InitializeLifetimeService
+    nameWithType: MarshalByRefObject.InitializeLifetimeService
+    fullName: System.MarshalByRefObject.InitializeLifetimeService
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.InitializeLifetimeService
+    name: InitializeLifetimeService
+    nameWithType: MarshalByRefObject.InitializeLifetimeService
+    fullName: System.MarshalByRefObject.InitializeLifetimeService
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ApplicationDomain.SoRemoteLoader.InitializeLifetimeService*
+  commentId: Overload:SuperOffice.ApplicationDomain.SoRemoteLoader.InitializeLifetimeService
+  isExternal: true
+  name: InitializeLifetimeService
+  nameWithType: SoRemoteLoader.InitializeLifetimeService
+  fullName: SuperOffice.ApplicationDomain.SoRemoteLoader.InitializeLifetimeService
+- uid: SuperOffice.ApplicationDomain.SoRemoteLoader.#ctor*
+  commentId: Overload:SuperOffice.ApplicationDomain.SoRemoteLoader.#ctor
+  isExternal: true
+  name: SoRemoteLoader
+  nameWithType: SoRemoteLoader.SoRemoteLoader
+  fullName: SuperOffice.ApplicationDomain.SoRemoteLoader.SoRemoteLoader

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.User_GetUserFromNameRequest
+  commentId: T:SuperOffice.WebApi.Data.User_GetUserFromNameRequest
+  id: User_GetUserFromNameRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.User_GetUserFromNameRequest.#ctor
+  - SuperOffice.WebApi.Data.User_GetUserFromNameRequest.UserName
+  langs:
+  - csharp
+  - vb
+  name: User_GetUserFromNameRequest
+  nameWithType: User_GetUserFromNameRequest
+  fullName: SuperOffice.WebApi.Data.User_GetUserFromNameRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class User_GetUserFromNameRequest : Object'
+    content.vb: >-
+      Public Class User_GetUserFromNameRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.User_GetUserFromNameRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.User_GetUserFromNameRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.User_GetUserFromNameRequest
+  langs:
+  - csharp
+  - vb
+  name: User_GetUserFromNameRequest()
+  nameWithType: User_GetUserFromNameRequest.User_GetUserFromNameRequest()
+  fullName: SuperOffice.WebApi.Data.User_GetUserFromNameRequest.User_GetUserFromNameRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User_GetUserFromNameRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.User_GetUserFromNameRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_GetUserFromNameRequest.UserName
+  commentId: P:SuperOffice.WebApi.Data.User_GetUserFromNameRequest.UserName
+  id: UserName
+  parent: SuperOffice.WebApi.Data.User_GetUserFromNameRequest
+  langs:
+  - csharp
+  - vb
+  name: UserName
+  nameWithType: User_GetUserFromNameRequest.UserName
+  fullName: SuperOffice.WebApi.Data.User_GetUserFromNameRequest.UserName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string UserName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserName As String
+  overload: SuperOffice.WebApi.Data.User_GetUserFromNameRequest.UserName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.User_GetUserFromNameRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.User_GetUserFromNameRequest.#ctor
+  isExternal: true
+  name: User_GetUserFromNameRequest
+  nameWithType: User_GetUserFromNameRequest.User_GetUserFromNameRequest
+  fullName: SuperOffice.WebApi.Data.User_GetUserFromNameRequest.User_GetUserFromNameRequest
+- uid: SuperOffice.WebApi.Data.User_GetUserFromNameRequest.UserName*
+  commentId: Overload:SuperOffice.WebApi.Data.User_GetUserFromNameRequest.UserName
+  isExternal: true
+  name: UserName
+  nameWithType: User_GetUserFromNameRequest.UserName
+  fullName: SuperOffice.WebApi.Data.User_GetUserFromNameRequest.UserName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

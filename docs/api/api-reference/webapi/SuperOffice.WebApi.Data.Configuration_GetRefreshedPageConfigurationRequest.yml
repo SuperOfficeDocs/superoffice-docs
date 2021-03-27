@@ -1,0 +1,203 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest
+  commentId: T:SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest
+  id: Configuration_GetRefreshedPageConfigurationRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.#ctor
+  - SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.Application
+  - SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.Instance
+  - SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.Page
+  langs:
+  - csharp
+  - vb
+  name: Configuration_GetRefreshedPageConfigurationRequest
+  nameWithType: Configuration_GetRefreshedPageConfigurationRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Configuration_GetRefreshedPageConfigurationRequest : Object'
+    content.vb: >-
+      Public Class Configuration_GetRefreshedPageConfigurationRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest
+  langs:
+  - csharp
+  - vb
+  name: Configuration_GetRefreshedPageConfigurationRequest()
+  nameWithType: Configuration_GetRefreshedPageConfigurationRequest.Configuration_GetRefreshedPageConfigurationRequest()
+  fullName: SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.Configuration_GetRefreshedPageConfigurationRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Configuration_GetRefreshedPageConfigurationRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.Application
+  commentId: P:SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.Application
+  id: Application
+  parent: SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest
+  langs:
+  - csharp
+  - vb
+  name: Application
+  nameWithType: Configuration_GetRefreshedPageConfigurationRequest.Application
+  fullName: SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.Application
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Application { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Application As String
+  overload: SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.Application*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.Instance
+  commentId: P:SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.Instance
+  id: Instance
+  parent: SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: Configuration_GetRefreshedPageConfigurationRequest.Instance
+  fullName: SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.Instance
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Instance { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Instance As String
+  overload: SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.Instance*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.Page
+  commentId: P:SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.Page
+  id: Page
+  parent: SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest
+  langs:
+  - csharp
+  - vb
+  name: Page
+  nameWithType: Configuration_GetRefreshedPageConfigurationRequest.Page
+  fullName: SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.Page
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Page { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Page As String
+  overload: SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.Page*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.#ctor
+  isExternal: true
+  name: Configuration_GetRefreshedPageConfigurationRequest
+  nameWithType: Configuration_GetRefreshedPageConfigurationRequest.Configuration_GetRefreshedPageConfigurationRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.Configuration_GetRefreshedPageConfigurationRequest
+- uid: SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.Application*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.Application
+  isExternal: true
+  name: Application
+  nameWithType: Configuration_GetRefreshedPageConfigurationRequest.Application
+  fullName: SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.Application
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.Instance*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.Instance
+  isExternal: true
+  name: Instance
+  nameWithType: Configuration_GetRefreshedPageConfigurationRequest.Instance
+  fullName: SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.Instance
+- uid: SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.Page*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.Page
+  isExternal: true
+  name: Page
+  nameWithType: Configuration_GetRefreshedPageConfigurationRequest.Page
+  fullName: SuperOffice.WebApi.Data.Configuration_GetRefreshedPageConfigurationRequest.Page

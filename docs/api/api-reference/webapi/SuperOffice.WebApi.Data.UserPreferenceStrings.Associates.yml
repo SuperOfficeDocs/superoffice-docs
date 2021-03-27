@@ -1,0 +1,302 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.Associates
+  id: UserPreferenceStrings.Associates
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.AssocHomeCountry
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.AssocSubListWeb
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainDeleteDialog
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainEmailInvitationDialog
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainRelationDialog
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainUdefPage1
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.ResourceSubListWeb
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.Section
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.Associates
+  nameWithType: UserPreferenceStrings.Associates
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAssociate preferences like which radiobutton did I select the last time I used this dialog/control\nor which item did I select last time I used this dropdownlist\n"
+  syntax:
+    content: 'public static class Associates : Object'
+    content.vb: >-
+      Public Module Associates
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.Associates.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "Associates"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "Associates"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.AssocSubListWeb
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.AssocSubListWeb
+  id: AssocSubListWeb
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates
+  langs:
+  - csharp
+  - vb
+  name: AssocSubListWeb
+  nameWithType: UserPreferenceStrings.Associates.AssocSubListWeb
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.AssocSubListWeb
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPreference used to remember what sublist in the associate selector that was last used\nValue -2    = All users\nValue -1    = History\nValue > 0   = Id of department\n<p></p>Control type: Number, access: crm\n"
+  syntax:
+    content: public const string AssocSubListWeb = "AssocSubListWeb"
+    return:
+      type: System.String
+    content.vb: Public Const AssocSubListWeb As String = "AssocSubListWeb"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.ResourceSubListWeb
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.ResourceSubListWeb
+  id: ResourceSubListWeb
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates
+  langs:
+  - csharp
+  - vb
+  name: ResourceSubListWeb
+  nameWithType: UserPreferenceStrings.Associates.ResourceSubListWeb
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.ResourceSubListWeb
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPreference used to remember the setup/state of the Filter dialog\nValue -2    = All resources\nValue -1    = History\nValue > 0   = Id of resource heading\n<p></p>Control type: Number, access: crm\n"
+  syntax:
+    content: public const string ResourceSubListWeb = "ResourceSubListWeb"
+    return:
+      type: System.String
+    content.vb: Public Const ResourceSubListWeb As String = "ResourceSubListWeb"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.AssocHomeCountry
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.AssocHomeCountry
+  id: AssocHomeCountry
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates
+  langs:
+  - csharp
+  - vb
+  name: AssocHomeCountry
+  nameWithType: UserPreferenceStrings.Associates.AssocHomeCountry
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.AssocHomeCountry
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHome country of associate if it differ from company\n<p></p>\n"
+  syntax:
+    content: public const string AssocHomeCountry = "AssocHomeCountry"
+    return:
+      type: System.String
+    content.vb: Public Const AssocHomeCountry As String = "AssocHomeCountry"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainDeleteDialog
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainDeleteDialog
+  id: DontAskAgainDeleteDialog
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates
+  langs:
+  - csharp
+  - vb
+  name: DontAskAgainDeleteDialog
+  nameWithType: UserPreferenceStrings.Associates.DontAskAgainDeleteDialog
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainDeleteDialog
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public const string DontAskAgainDeleteDialog = "DontAskAgainDeleteDialog"
+    return:
+      type: System.String
+    content.vb: Public Const DontAskAgainDeleteDialog As String = "DontAskAgainDeleteDialog"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainRelationDialog
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainRelationDialog
+  id: DontAskAgainRelationDialog
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates
+  langs:
+  - csharp
+  - vb
+  name: DontAskAgainRelationDialog
+  nameWithType: UserPreferenceStrings.Associates.DontAskAgainRelationDialog
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainRelationDialog
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public const string DontAskAgainRelationDialog = "DontAskAgainRelationDlg"
+    return:
+      type: System.String
+    content.vb: Public Const DontAskAgainRelationDialog As String = "DontAskAgainRelationDlg"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainUdefPage1
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainUdefPage1
+  id: DontAskAgainUdefPage1
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates
+  langs:
+  - csharp
+  - vb
+  name: DontAskAgainUdefPage1
+  nameWithType: UserPreferenceStrings.Associates.DontAskAgainUdefPage1
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainUdefPage1
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public const string DontAskAgainUdefPage1 = "DontAskAgainUdefPage1"
+    return:
+      type: System.String
+    content.vb: Public Const DontAskAgainUdefPage1 As String = "DontAskAgainUdefPage1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainEmailInvitationDialog
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainEmailInvitationDialog
+  id: DontAskAgainEmailInvitationDialog
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates
+  langs:
+  - csharp
+  - vb
+  name: DontAskAgainEmailInvitationDialog
+  nameWithType: UserPreferenceStrings.Associates.DontAskAgainEmailInvitationDialog
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Associates.DontAskAgainEmailInvitationDialog
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public const string DontAskAgainEmailInvitationDialog = "DontAskAgainEmailInvitationDialog"
+    return:
+      type: System.String
+    content.vb: Public Const DontAskAgainEmailInvitationDialog As String = "DontAskAgainEmailInvitationDialog"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

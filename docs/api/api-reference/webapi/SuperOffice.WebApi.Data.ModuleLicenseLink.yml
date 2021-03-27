@@ -1,0 +1,662 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink
+  commentId: T:SuperOffice.WebApi.Data.ModuleLicenseLink
+  id: ModuleLicenseLink
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ModuleLicenseLink.#ctor
+  - SuperOffice.WebApi.Data.ModuleLicenseLink.Assigned
+  - SuperOffice.WebApi.Data.ModuleLicenseLink.CanAssign
+  - SuperOffice.WebApi.Data.ModuleLicenseLink.Description
+  - SuperOffice.WebApi.Data.ModuleLicenseLink.Free
+  - SuperOffice.WebApi.Data.ModuleLicenseLink.InUse
+  - SuperOffice.WebApi.Data.ModuleLicenseLink.IsHidden
+  - SuperOffice.WebApi.Data.ModuleLicenseLink.ModuleLicenseId
+  - SuperOffice.WebApi.Data.ModuleLicenseLink.Name
+  - SuperOffice.WebApi.Data.ModuleLicenseLink.PrerequisiteModuleName
+  - SuperOffice.WebApi.Data.ModuleLicenseLink.SortOrder
+  - SuperOffice.WebApi.Data.ModuleLicenseLink.Tooltip
+  - SuperOffice.WebApi.Data.ModuleLicenseLink.Total
+  - SuperOffice.WebApi.Data.ModuleLicenseLink.Unrestricted
+  langs:
+  - csharp
+  - vb
+  name: ModuleLicenseLink
+  nameWithType: ModuleLicenseLink
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ModuleLicenseLink.\n\n"
+  syntax:
+    content: 'public class ModuleLicenseLink : Carrier'
+    content.vb: >-
+      Public Class ModuleLicenseLink
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.LicenseAgent
+    commentId: T:SuperOffice.WebApi.Agents.LicenseAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ModuleLicenseLink.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ModuleLicenseLink
+  langs:
+  - csharp
+  - vb
+  name: ModuleLicenseLink()
+  nameWithType: ModuleLicenseLink.ModuleLicenseLink()
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.ModuleLicenseLink()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ModuleLicenseLink()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ModuleLicenseLink.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.Unrestricted
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicenseLink.Unrestricted
+  id: Unrestricted
+  parent: SuperOffice.WebApi.Data.ModuleLicenseLink
+  langs:
+  - csharp
+  - vb
+  name: Unrestricted
+  nameWithType: ModuleLicenseLink.Unrestricted
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.Unrestricted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs this module license restricted or unrestricted\n"
+  syntax:
+    content: public virtual bool Unrestricted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Unrestricted As Boolean
+  overload: SuperOffice.WebApi.Data.ModuleLicenseLink.Unrestricted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.Total
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicenseLink.Total
+  id: Total
+  parent: SuperOffice.WebApi.Data.ModuleLicenseLink
+  langs:
+  - csharp
+  - vb
+  name: Total
+  nameWithType: ModuleLicenseLink.Total
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.Total
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe total number of module licenses. In other words the number of free license added to the number of licenses in use equals the total number of licenses\n"
+  syntax:
+    content: public virtual int Total { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Total As Integer
+  overload: SuperOffice.WebApi.Data.ModuleLicenseLink.Total*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.Tooltip
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicenseLink.Tooltip
+  id: Tooltip
+  parent: SuperOffice.WebApi.Data.ModuleLicenseLink
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: ModuleLicenseLink.Tooltip
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe tooltip to be shown in some gui with details on the module license\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.WebApi.Data.ModuleLicenseLink.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.CanAssign
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicenseLink.CanAssign
+  id: CanAssign
+  parent: SuperOffice.WebApi.Data.ModuleLicenseLink
+  langs:
+  - csharp
+  - vb
+  name: CanAssign
+  nameWithType: ModuleLicenseLink.CanAssign
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.CanAssign
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCan a specific user assign this module license\n"
+  syntax:
+    content: public virtual bool CanAssign { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property CanAssign As Boolean
+  overload: SuperOffice.WebApi.Data.ModuleLicenseLink.CanAssign*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.Free
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicenseLink.Free
+  id: Free
+  parent: SuperOffice.WebApi.Data.ModuleLicenseLink
+  langs:
+  - csharp
+  - vb
+  name: Free
+  nameWithType: ModuleLicenseLink.Free
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.Free
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe number of licenses that are free to be assigned\n"
+  syntax:
+    content: public virtual int Free { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Free As Integer
+  overload: SuperOffice.WebApi.Data.ModuleLicenseLink.Free*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.InUse
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicenseLink.InUse
+  id: InUse
+  parent: SuperOffice.WebApi.Data.ModuleLicenseLink
+  langs:
+  - csharp
+  - vb
+  name: InUse
+  nameWithType: ModuleLicenseLink.InUse
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.InUse
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe total number of licenses (of a given license module) that are occupied\n"
+  syntax:
+    content: public virtual int InUse { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property InUse As Integer
+  overload: SuperOffice.WebApi.Data.ModuleLicenseLink.InUse*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.IsHidden
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicenseLink.IsHidden
+  id: IsHidden
+  parent: SuperOffice.WebApi.Data.ModuleLicenseLink
+  langs:
+  - csharp
+  - vb
+  name: IsHidden
+  nameWithType: ModuleLicenseLink.IsHidden
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.IsHidden
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs hidden from UI\n"
+  syntax:
+    content: public virtual bool IsHidden { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsHidden As Boolean
+  overload: SuperOffice.WebApi.Data.ModuleLicenseLink.IsHidden*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.Assigned
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicenseLink.Assigned
+  id: Assigned
+  parent: SuperOffice.WebApi.Data.ModuleLicenseLink
+  langs:
+  - csharp
+  - vb
+  name: Assigned
+  nameWithType: ModuleLicenseLink.Assigned
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.Assigned
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs the module license assigned to a given user\n"
+  syntax:
+    content: public virtual bool Assigned { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Assigned As Boolean
+  overload: SuperOffice.WebApi.Data.ModuleLicenseLink.Assigned*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.ModuleLicenseId
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicenseLink.ModuleLicenseId
+  id: ModuleLicenseId
+  parent: SuperOffice.WebApi.Data.ModuleLicenseLink
+  langs:
+  - csharp
+  - vb
+  name: ModuleLicenseId
+  nameWithType: ModuleLicenseLink.ModuleLicenseId
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.ModuleLicenseId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe identifier of the module license\n"
+  syntax:
+    content: public virtual int ModuleLicenseId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ModuleLicenseId As Integer
+  overload: SuperOffice.WebApi.Data.ModuleLicenseLink.ModuleLicenseId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.Name
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicenseLink.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.ModuleLicenseLink
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ModuleLicenseLink.Name
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the module license\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.ModuleLicenseLink.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.Description
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicenseLink.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.ModuleLicenseLink
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: ModuleLicenseLink.Description
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe description of the module license\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.ModuleLicenseLink.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.PrerequisiteModuleName
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicenseLink.PrerequisiteModuleName
+  id: PrerequisiteModuleName
+  parent: SuperOffice.WebApi.Data.ModuleLicenseLink
+  langs:
+  - csharp
+  - vb
+  name: PrerequisiteModuleName
+  nameWithType: ModuleLicenseLink.PrerequisiteModuleName
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.PrerequisiteModuleName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string PrerequisiteModuleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PrerequisiteModuleName As String
+  overload: SuperOffice.WebApi.Data.ModuleLicenseLink.PrerequisiteModuleName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.SortOrder
+  commentId: P:SuperOffice.WebApi.Data.ModuleLicenseLink.SortOrder
+  id: SortOrder
+  parent: SuperOffice.WebApi.Data.ModuleLicenseLink
+  langs:
+  - csharp
+  - vb
+  name: SortOrder
+  nameWithType: ModuleLicenseLink.SortOrder
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.SortOrder
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual int SortOrder { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SortOrder As Integer
+  overload: SuperOffice.WebApi.Data.ModuleLicenseLink.SortOrder*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.LicenseAgent
+  commentId: T:SuperOffice.WebApi.Agents.LicenseAgent
+  isExternal: true
+  name: LicenseAgent
+  nameWithType: LicenseAgent
+  fullName: SuperOffice.WebApi.Agents.LicenseAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicenseLink.#ctor
+  isExternal: true
+  name: ModuleLicenseLink
+  nameWithType: ModuleLicenseLink.ModuleLicenseLink
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.ModuleLicenseLink
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.Unrestricted*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicenseLink.Unrestricted
+  isExternal: true
+  name: Unrestricted
+  nameWithType: ModuleLicenseLink.Unrestricted
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.Unrestricted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.Total*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicenseLink.Total
+  isExternal: true
+  name: Total
+  nameWithType: ModuleLicenseLink.Total
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.Total
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.Tooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicenseLink.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: ModuleLicenseLink.Tooltip
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.Tooltip
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.CanAssign*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicenseLink.CanAssign
+  isExternal: true
+  name: CanAssign
+  nameWithType: ModuleLicenseLink.CanAssign
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.CanAssign
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.Free*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicenseLink.Free
+  isExternal: true
+  name: Free
+  nameWithType: ModuleLicenseLink.Free
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.Free
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.InUse*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicenseLink.InUse
+  isExternal: true
+  name: InUse
+  nameWithType: ModuleLicenseLink.InUse
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.InUse
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.IsHidden*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicenseLink.IsHidden
+  isExternal: true
+  name: IsHidden
+  nameWithType: ModuleLicenseLink.IsHidden
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.IsHidden
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.Assigned*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicenseLink.Assigned
+  isExternal: true
+  name: Assigned
+  nameWithType: ModuleLicenseLink.Assigned
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.Assigned
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.ModuleLicenseId*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicenseLink.ModuleLicenseId
+  isExternal: true
+  name: ModuleLicenseId
+  nameWithType: ModuleLicenseLink.ModuleLicenseId
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.ModuleLicenseId
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicenseLink.Name
+  isExternal: true
+  name: Name
+  nameWithType: ModuleLicenseLink.Name
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.Name
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicenseLink.Description
+  isExternal: true
+  name: Description
+  nameWithType: ModuleLicenseLink.Description
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.Description
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.PrerequisiteModuleName*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicenseLink.PrerequisiteModuleName
+  isExternal: true
+  name: PrerequisiteModuleName
+  nameWithType: ModuleLicenseLink.PrerequisiteModuleName
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.PrerequisiteModuleName
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink.SortOrder*
+  commentId: Overload:SuperOffice.WebApi.Data.ModuleLicenseLink.SortOrder
+  isExternal: true
+  name: SortOrder
+  nameWithType: ModuleLicenseLink.SortOrder
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink.SortOrder

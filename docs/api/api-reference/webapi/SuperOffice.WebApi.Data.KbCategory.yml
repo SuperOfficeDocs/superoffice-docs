@@ -1,0 +1,350 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.KbCategory
+  commentId: T:SuperOffice.WebApi.Data.KbCategory
+  id: KbCategory
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.KbCategory.#ctor
+  - SuperOffice.WebApi.Data.KbCategory.Description
+  - SuperOffice.WebApi.Data.KbCategory.Fullname
+  - SuperOffice.WebApi.Data.KbCategory.KbCategoryId
+  - SuperOffice.WebApi.Data.KbCategory.Name
+  - SuperOffice.WebApi.Data.KbCategory.ParentId
+  - SuperOffice.WebApi.Data.KbCategory.SortOrder
+  langs:
+  - csharp
+  - vb
+  name: KbCategory
+  nameWithType: KbCategory
+  fullName: SuperOffice.WebApi.Data.KbCategory
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for KbCategory.\nKnowledge base category. Groups knowledge base articles into hierarchy.    \n"
+  syntax:
+    content: 'public class KbCategory : Object'
+    content.vb: >-
+      Public Class KbCategory
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.CustomerServiceAgent
+    commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.KbCategory.#ctor
+  commentId: M:SuperOffice.WebApi.Data.KbCategory.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.KbCategory
+  langs:
+  - csharp
+  - vb
+  name: KbCategory()
+  nameWithType: KbCategory.KbCategory()
+  fullName: SuperOffice.WebApi.Data.KbCategory.KbCategory()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public KbCategory()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.KbCategory.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.KbCategory.KbCategoryId
+  commentId: P:SuperOffice.WebApi.Data.KbCategory.KbCategoryId
+  id: KbCategoryId
+  parent: SuperOffice.WebApi.Data.KbCategory
+  langs:
+  - csharp
+  - vb
+  name: KbCategoryId
+  nameWithType: KbCategory.KbCategoryId
+  fullName: SuperOffice.WebApi.Data.KbCategory.KbCategoryId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe primary key (auto-incremented)\n"
+  syntax:
+    content: public virtual int KbCategoryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property KbCategoryId As Integer
+  overload: SuperOffice.WebApi.Data.KbCategory.KbCategoryId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.KbCategory.Name
+  commentId: P:SuperOffice.WebApi.Data.KbCategory.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.KbCategory
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: KbCategory.Name
+  fullName: SuperOffice.WebApi.Data.KbCategory.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of this category.\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.KbCategory.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.KbCategory.Description
+  commentId: P:SuperOffice.WebApi.Data.KbCategory.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.KbCategory
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: KbCategory.Description
+  fullName: SuperOffice.WebApi.Data.KbCategory.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe description of this category.\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.KbCategory.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.KbCategory.Fullname
+  commentId: P:SuperOffice.WebApi.Data.KbCategory.Fullname
+  id: Fullname
+  parent: SuperOffice.WebApi.Data.KbCategory
+  langs:
+  - csharp
+  - vb
+  name: Fullname
+  nameWithType: KbCategory.Fullname
+  fullName: SuperOffice.WebApi.Data.KbCategory.Fullname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe full name of this category, i.e. Foo/bar/test.\n"
+  syntax:
+    content: public virtual string Fullname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Fullname As String
+  overload: SuperOffice.WebApi.Data.KbCategory.Fullname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.KbCategory.ParentId
+  commentId: P:SuperOffice.WebApi.Data.KbCategory.ParentId
+  id: ParentId
+  parent: SuperOffice.WebApi.Data.KbCategory
+  langs:
+  - csharp
+  - vb
+  name: ParentId
+  nameWithType: KbCategory.ParentId
+  fullName: SuperOffice.WebApi.Data.KbCategory.ParentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis entry contains a reference to the parent category. NULL or -1 if this is a toplevel category.\n"
+  syntax:
+    content: public virtual int ParentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ParentId As Integer
+  overload: SuperOffice.WebApi.Data.KbCategory.ParentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.KbCategory.SortOrder
+  commentId: P:SuperOffice.WebApi.Data.KbCategory.SortOrder
+  id: SortOrder
+  parent: SuperOffice.WebApi.Data.KbCategory
+  langs:
+  - csharp
+  - vb
+  name: SortOrder
+  nameWithType: KbCategory.SortOrder
+  fullName: SuperOffice.WebApi.Data.KbCategory.SortOrder
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA strictly ascending number used for sorting categories when they are listed.\n"
+  syntax:
+    content: public virtual int SortOrder { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SortOrder As Integer
+  overload: SuperOffice.WebApi.Data.KbCategory.SortOrder*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  isExternal: true
+  name: CustomerServiceAgent
+  nameWithType: CustomerServiceAgent
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.KbCategory.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.KbCategory.#ctor
+  isExternal: true
+  name: KbCategory
+  nameWithType: KbCategory.KbCategory
+  fullName: SuperOffice.WebApi.Data.KbCategory.KbCategory
+- uid: SuperOffice.WebApi.Data.KbCategory.KbCategoryId*
+  commentId: Overload:SuperOffice.WebApi.Data.KbCategory.KbCategoryId
+  isExternal: true
+  name: KbCategoryId
+  nameWithType: KbCategory.KbCategoryId
+  fullName: SuperOffice.WebApi.Data.KbCategory.KbCategoryId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.KbCategory.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.KbCategory.Name
+  isExternal: true
+  name: Name
+  nameWithType: KbCategory.Name
+  fullName: SuperOffice.WebApi.Data.KbCategory.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.KbCategory.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.KbCategory.Description
+  isExternal: true
+  name: Description
+  nameWithType: KbCategory.Description
+  fullName: SuperOffice.WebApi.Data.KbCategory.Description
+- uid: SuperOffice.WebApi.Data.KbCategory.Fullname*
+  commentId: Overload:SuperOffice.WebApi.Data.KbCategory.Fullname
+  isExternal: true
+  name: Fullname
+  nameWithType: KbCategory.Fullname
+  fullName: SuperOffice.WebApi.Data.KbCategory.Fullname
+- uid: SuperOffice.WebApi.Data.KbCategory.ParentId*
+  commentId: Overload:SuperOffice.WebApi.Data.KbCategory.ParentId
+  isExternal: true
+  name: ParentId
+  nameWithType: KbCategory.ParentId
+  fullName: SuperOffice.WebApi.Data.KbCategory.ParentId
+- uid: SuperOffice.WebApi.Data.KbCategory.SortOrder*
+  commentId: Overload:SuperOffice.WebApi.Data.KbCategory.SortOrder
+  isExternal: true
+  name: SortOrder
+  nameWithType: KbCategory.SortOrder
+  fullName: SuperOffice.WebApi.Data.KbCategory.SortOrder

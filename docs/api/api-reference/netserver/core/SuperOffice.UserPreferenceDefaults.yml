@@ -1,0 +1,715 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.UserPreferenceDefaults
+  commentId: T:SuperOffice.UserPreferenceDefaults
+  id: UserPreferenceDefaults
+  parent: SuperOffice
+  children:
+  - SuperOffice.UserPreferenceDefaults.AllDayEndTime
+  - SuperOffice.UserPreferenceDefaults.AllDayStartTime
+  - SuperOffice.UserPreferenceDefaults.DefaultHistoryListSize
+  - SuperOffice.UserPreferenceDefaults.FilterCompletedFromTodo
+  - SuperOffice.UserPreferenceDefaults.GetAdvanceDays
+  - SuperOffice.UserPreferenceDefaults.LunchEndTime
+  - SuperOffice.UserPreferenceDefaults.LunchStartTime
+  - SuperOffice.UserPreferenceDefaults.PollingInterval
+  - SuperOffice.UserPreferenceDefaults.SilentAfter
+  - SuperOffice.UserPreferenceDefaults.ValueOrDefault(System.Int32,System.Int32)
+  - SuperOffice.UserPreferenceDefaults.ValueOrDefault(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceDefaults
+  nameWithType: UserPreferenceDefaults
+  fullName: SuperOffice.UserPreferenceDefaults
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nDefines user preference default values\n"
+  syntax:
+    content: public static class UserPreferenceDefaults
+    content.vb: Public Module UserPreferenceDefaults
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.UserPreferenceDefaults.DefaultHistoryListSize
+  commentId: F:SuperOffice.UserPreferenceDefaults.DefaultHistoryListSize
+  id: DefaultHistoryListSize
+  parent: SuperOffice.UserPreferenceDefaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultHistoryListSize
+  nameWithType: UserPreferenceDefaults.DefaultHistoryListSize
+  fullName: SuperOffice.UserPreferenceDefaults.DefaultHistoryListSize
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nThe default value of the History list length\n"
+  syntax:
+    content: public const int DefaultHistoryListSize = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const DefaultHistoryListSize As Integer = 7
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.UserPreferenceDefaults.AllDayStartTime
+  commentId: F:SuperOffice.UserPreferenceDefaults.AllDayStartTime
+  id: AllDayStartTime
+  parent: SuperOffice.UserPreferenceDefaults
+  langs:
+  - csharp
+  - vb
+  name: AllDayStartTime
+  nameWithType: UserPreferenceDefaults.AllDayStartTime
+  fullName: SuperOffice.UserPreferenceDefaults.AllDayStartTime
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nAll day/work day starts at 08:00\n"
+  syntax:
+    content: public const int AllDayStartTime = 28800
+    return:
+      type: System.Int32
+    content.vb: Public Const AllDayStartTime As Integer = 28800
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.UserPreferenceDefaults.AllDayEndTime
+  commentId: F:SuperOffice.UserPreferenceDefaults.AllDayEndTime
+  id: AllDayEndTime
+  parent: SuperOffice.UserPreferenceDefaults
+  langs:
+  - csharp
+  - vb
+  name: AllDayEndTime
+  nameWithType: UserPreferenceDefaults.AllDayEndTime
+  fullName: SuperOffice.UserPreferenceDefaults.AllDayEndTime
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nAll day/work day ends at 16:00\n"
+  syntax:
+    content: public const int AllDayEndTime = 57600
+    return:
+      type: System.Int32
+    content.vb: Public Const AllDayEndTime As Integer = 57600
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.UserPreferenceDefaults.LunchStartTime
+  commentId: F:SuperOffice.UserPreferenceDefaults.LunchStartTime
+  id: LunchStartTime
+  parent: SuperOffice.UserPreferenceDefaults
+  langs:
+  - csharp
+  - vb
+  name: LunchStartTime
+  nameWithType: UserPreferenceDefaults.LunchStartTime
+  fullName: SuperOffice.UserPreferenceDefaults.LunchStartTime
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nLunch starts at 12:00\n"
+  syntax:
+    content: public const int LunchStartTime = 43200
+    return:
+      type: System.Int32
+    content.vb: Public Const LunchStartTime As Integer = 43200
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.UserPreferenceDefaults.LunchEndTime
+  commentId: F:SuperOffice.UserPreferenceDefaults.LunchEndTime
+  id: LunchEndTime
+  parent: SuperOffice.UserPreferenceDefaults
+  langs:
+  - csharp
+  - vb
+  name: LunchEndTime
+  nameWithType: UserPreferenceDefaults.LunchEndTime
+  fullName: SuperOffice.UserPreferenceDefaults.LunchEndTime
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nLunch ends at 13:00\n"
+  syntax:
+    content: public const int LunchEndTime = 46800
+    return:
+      type: System.Int32
+    content.vb: Public Const LunchEndTime As Integer = 46800
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.UserPreferenceDefaults.SilentAfter
+  commentId: F:SuperOffice.UserPreferenceDefaults.SilentAfter
+  id: SilentAfter
+  parent: SuperOffice.UserPreferenceDefaults
+  langs:
+  - csharp
+  - vb
+  name: SilentAfter
+  nameWithType: UserPreferenceDefaults.SilentAfter
+  fullName: SuperOffice.UserPreferenceDefaults.SilentAfter
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHow long an alarm should sound\n"
+  syntax:
+    content: public const int SilentAfter = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const SilentAfter As Integer = 5
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.UserPreferenceDefaults.PollingInterval
+  commentId: F:SuperOffice.UserPreferenceDefaults.PollingInterval
+  id: PollingInterval
+  parent: SuperOffice.UserPreferenceDefaults
+  langs:
+  - csharp
+  - vb
+  name: PollingInterval
+  nameWithType: UserPreferenceDefaults.PollingInterval
+  fullName: SuperOffice.UserPreferenceDefaults.PollingInterval
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nPolling interval for invitations and alarm checks\n"
+  syntax:
+    content: public const int PollingInterval = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const PollingInterval As Integer = 10
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.UserPreferenceDefaults.FilterCompletedFromTodo
+  commentId: F:SuperOffice.UserPreferenceDefaults.FilterCompletedFromTodo
+  id: FilterCompletedFromTodo
+  parent: SuperOffice.UserPreferenceDefaults
+  langs:
+  - csharp
+  - vb
+  name: FilterCompletedFromTodo
+  nameWithType: UserPreferenceDefaults.FilterCompletedFromTodo
+  fullName: SuperOffice.UserPreferenceDefaults.FilterCompletedFromTodo
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nFilter: Removes completed activities from the checklist\n"
+  syntax:
+    content: public const bool FilterCompletedFromTodo = false
+    return:
+      type: System.Boolean
+    content.vb: Public Const FilterCompletedFromTodo As Boolean = False
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.UserPreferenceDefaults.GetAdvanceDays
+  commentId: F:SuperOffice.UserPreferenceDefaults.GetAdvanceDays
+  id: GetAdvanceDays
+  parent: SuperOffice.UserPreferenceDefaults
+  langs:
+  - csharp
+  - vb
+  name: GetAdvanceDays
+  nameWithType: UserPreferenceDefaults.GetAdvanceDays
+  fullName: SuperOffice.UserPreferenceDefaults.GetAdvanceDays
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nNumber of days ahead to display tasks in the checklist. Default is 21 days\n"
+  syntax:
+    content: public const int GetAdvanceDays = 21
+    return:
+      type: System.Int32
+    content.vb: Public Const GetAdvanceDays As Integer = 21
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.UserPreferenceDefaults.ValueOrDefault(System.String,System.String)
+  commentId: M:SuperOffice.UserPreferenceDefaults.ValueOrDefault(System.String,System.String)
+  id: ValueOrDefault(System.String,System.String)
+  parent: SuperOffice.UserPreferenceDefaults
+  langs:
+  - csharp
+  - vb
+  name: ValueOrDefault(String, String)
+  nameWithType: UserPreferenceDefaults.ValueOrDefault(String, String)
+  fullName: SuperOffice.UserPreferenceDefaults.ValueOrDefault(System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nReturn the actual value, unless it is blank, in which case the default value is returned\n"
+  syntax:
+    content: public static string ValueOrDefault(string value, string defaultValue)
+    parameters:
+    - id: value
+      type: System.String
+      description: Value to check
+    - id: defaultValue
+      type: System.String
+      description: Default value to return
+    return:
+      type: System.String
+      description: Value or default
+    content.vb: Public Shared Function ValueOrDefault(value As String, defaultValue As String) As String
+  overload: SuperOffice.UserPreferenceDefaults.ValueOrDefault*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.UserPreferenceDefaults.ValueOrDefault(System.Int32,System.Int32)
+  commentId: M:SuperOffice.UserPreferenceDefaults.ValueOrDefault(System.Int32,System.Int32)
+  id: ValueOrDefault(System.Int32,System.Int32)
+  parent: SuperOffice.UserPreferenceDefaults
+  langs:
+  - csharp
+  - vb
+  name: ValueOrDefault(Int32, Int32)
+  nameWithType: UserPreferenceDefaults.ValueOrDefault(Int32, Int32)
+  fullName: SuperOffice.UserPreferenceDefaults.ValueOrDefault(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nReturn the actual value, unless it is 0, in which case the default value is returned\n"
+  syntax:
+    content: public static int ValueOrDefault(int value, int defaultValue)
+    parameters:
+    - id: value
+      type: System.Int32
+      description: Value to check
+    - id: defaultValue
+      type: System.Int32
+      description: Default value to return
+    return:
+      type: System.Int32
+      description: Value or default
+    content.vb: Public Shared Function ValueOrDefault(value As Integer, defaultValue As Integer) As Integer
+  overload: SuperOffice.UserPreferenceDefaults.ValueOrDefault*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice
+  commentId: N:SuperOffice
+  isExternal: true
+  name: SuperOffice
+  nameWithType: SuperOffice
+  fullName: SuperOffice
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.UserPreferenceDefaults.ValueOrDefault*
+  commentId: Overload:SuperOffice.UserPreferenceDefaults.ValueOrDefault
+  isExternal: true
+  name: ValueOrDefault
+  nameWithType: UserPreferenceDefaults.ValueOrDefault
+  fullName: SuperOffice.UserPreferenceDefaults.ValueOrDefault
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

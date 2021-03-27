@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.UsageStats
+  commentId: T:SuperOffice.CRM.Services.UsageStats
+  id: UsageStats
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.UsageStats.#ctor
+  - SuperOffice.CRM.Services.UsageStats.ToString
+  - SuperOffice.CRM.Services.UsageStats.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: UsageStats
+  nameWithType: UsageStats
+  fullName: SuperOffice.CRM.Services.UsageStats
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for UsageStats.\nServices for the UsageStats Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IDiagnosticsAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class UsageStats : Carrier'
+    content.vb: >-
+      Public Class UsageStats
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.DiagnosticsAgent
+    commentId: T:SuperOffice.CRM.Services.DiagnosticsAgent
+  - linkId: SuperOffice.CRM.Services.IDiagnosticsAgent
+    commentId: T:SuperOffice.CRM.Services.IDiagnosticsAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.UsageStats.#ctor
+  commentId: M:SuperOffice.CRM.Services.UsageStats.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.UsageStats
+  langs:
+  - csharp
+  - vb
+  name: UsageStats()
+  nameWithType: UsageStats.UsageStats()
+  fullName: SuperOffice.CRM.Services.UsageStats.UsageStats()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public UsageStats()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.UsageStats.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.UsageStats.ToString
+  commentId: M:SuperOffice.CRM.Services.UsageStats.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.UsageStats
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: UsageStats.ToString()
+  fullName: SuperOffice.CRM.Services.UsageStats.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.UsageStats.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.UsageStats.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.UsageStats.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.UsageStats
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: UsageStats.ToString(String)
+  fullName: SuperOffice.CRM.Services.UsageStats.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.UsageStats.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.DiagnosticsAgent
+  commentId: T:SuperOffice.CRM.Services.DiagnosticsAgent
+  isExternal: true
+  name: DiagnosticsAgent
+  nameWithType: DiagnosticsAgent
+  fullName: SuperOffice.CRM.Services.DiagnosticsAgent
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent
+  commentId: T:SuperOffice.CRM.Services.IDiagnosticsAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IDiagnosticsAgent
+  nameWithType: IDiagnosticsAgent
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.UsageStats.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.UsageStats.#ctor
+  isExternal: true
+  name: UsageStats
+  nameWithType: UsageStats.UsageStats
+  fullName: SuperOffice.CRM.Services.UsageStats.UsageStats
+- uid: SuperOffice.CRM.Services.UsageStats.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.UsageStats.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: UsageStats.ToString
+  fullName: SuperOffice.CRM.Services.UsageStats.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

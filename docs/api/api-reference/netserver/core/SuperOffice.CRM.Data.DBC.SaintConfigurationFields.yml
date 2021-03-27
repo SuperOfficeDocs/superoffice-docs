@@ -1,0 +1,767 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.SaintConfigurationFields
+  commentId: T:SuperOffice.CRM.Data.DBC.SaintConfigurationFields
+  id: DBC.SaintConfigurationFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.SaintConfigurationFields.Enabled
+  - SuperOffice.CRM.Data.DBC.SaintConfigurationFields.GenerationEnd
+  - SuperOffice.CRM.Data.DBC.SaintConfigurationFields.GenerationStart
+  - SuperOffice.CRM.Data.DBC.SaintConfigurationFields.OwnerTable
+  - SuperOffice.CRM.Data.DBC.SaintConfigurationFields.Period1
+  - SuperOffice.CRM.Data.DBC.SaintConfigurationFields.Period2
+  - SuperOffice.CRM.Data.DBC.SaintConfigurationFields.Period3
+  - SuperOffice.CRM.Data.DBC.SaintConfigurationFields.Registered
+  - SuperOffice.CRM.Data.DBC.SaintConfigurationFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.SaintConfigurationFields.RowsGenerated
+  - SuperOffice.CRM.Data.DBC.SaintConfigurationFields.SaintConfigurationId
+  - SuperOffice.CRM.Data.DBC.SaintConfigurationFields.Updated
+  - SuperOffice.CRM.Data.DBC.SaintConfigurationFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.SaintConfigurationFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.SaintConfigurationFields
+  nameWithType: DBC.SaintConfigurationFields
+  fullName: SuperOffice.CRM.Data.DBC.SaintConfigurationFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for SaintConfiguration, Configuration information for the Saint system\n"
+  syntax:
+    content: public static class SaintConfigurationFields
+    content.vb: Public Module SaintConfigurationFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.SaintConfigurationId
+  commentId: F:SuperOffice.CRM.Data.DBC.SaintConfigurationFields.SaintConfigurationId
+  id: SaintConfigurationId
+  parent: SuperOffice.CRM.Data.DBC.SaintConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: SaintConfigurationId
+  nameWithType: DBC.SaintConfigurationFields.SaintConfigurationId
+  fullName: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.SaintConfigurationId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSaintConfiguration.SaintConfigurationId: Primary key\n"
+  syntax:
+    content: public const string SaintConfigurationId = "saintconfiguration_id"
+    return:
+      type: System.String
+    content.vb: Public Const SaintConfigurationId As String = "saintconfiguration_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.OwnerTable
+  commentId: F:SuperOffice.CRM.Data.DBC.SaintConfigurationFields.OwnerTable
+  id: OwnerTable
+  parent: SuperOffice.CRM.Data.DBC.SaintConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: OwnerTable
+  nameWithType: DBC.SaintConfigurationFields.OwnerTable
+  fullName: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.OwnerTable
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSaintConfiguration.OwnerTable: The table that is the owning entity\n"
+  syntax:
+    content: public const string OwnerTable = "ownerTable"
+    return:
+      type: System.String
+    content.vb: Public Const OwnerTable As String = "ownerTable"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.Enabled
+  commentId: F:SuperOffice.CRM.Data.DBC.SaintConfigurationFields.Enabled
+  id: Enabled
+  parent: SuperOffice.CRM.Data.DBC.SaintConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: Enabled
+  nameWithType: DBC.SaintConfigurationFields.Enabled
+  fullName: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.Enabled
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSaintConfiguration.Enabled: On/off switch for Saint functionality for this entity\n"
+  syntax:
+    content: public const string Enabled = "enabled"
+    return:
+      type: System.String
+    content.vb: Public Const Enabled As String = "enabled"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.Period1
+  commentId: F:SuperOffice.CRM.Data.DBC.SaintConfigurationFields.Period1
+  id: Period1
+  parent: SuperOffice.CRM.Data.DBC.SaintConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: Period1
+  nameWithType: DBC.SaintConfigurationFields.Period1
+  fullName: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.Period1
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSaintConfiguration.Period1: Length of the first counter period\n"
+  syntax:
+    content: public const string Period1 = "Period1"
+    return:
+      type: System.String
+    content.vb: Public Const Period1 As String = "Period1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.Period2
+  commentId: F:SuperOffice.CRM.Data.DBC.SaintConfigurationFields.Period2
+  id: Period2
+  parent: SuperOffice.CRM.Data.DBC.SaintConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: Period2
+  nameWithType: DBC.SaintConfigurationFields.Period2
+  fullName: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.Period2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSaintConfiguration.Period2: Length of the second counter period\n"
+  syntax:
+    content: public const string Period2 = "Period2"
+    return:
+      type: System.String
+    content.vb: Public Const Period2 As String = "Period2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.Period3
+  commentId: F:SuperOffice.CRM.Data.DBC.SaintConfigurationFields.Period3
+  id: Period3
+  parent: SuperOffice.CRM.Data.DBC.SaintConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: Period3
+  nameWithType: DBC.SaintConfigurationFields.Period3
+  fullName: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.Period3
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSaintConfiguration.Period3: Length of the third counter period\n"
+  syntax:
+    content: public const string Period3 = "Period3"
+    return:
+      type: System.String
+    content.vb: Public Const Period3 As String = "Period3"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.GenerationStart
+  commentId: F:SuperOffice.CRM.Data.DBC.SaintConfigurationFields.GenerationStart
+  id: GenerationStart
+  parent: SuperOffice.CRM.Data.DBC.SaintConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: GenerationStart
+  nameWithType: DBC.SaintConfigurationFields.GenerationStart
+  fullName: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.GenerationStart
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSaintConfiguration.GenerationStart: When was the last regeneration started\n"
+  syntax:
+    content: public const string GenerationStart = "generationStart"
+    return:
+      type: System.String
+    content.vb: Public Const GenerationStart As String = "generationStart"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.GenerationEnd
+  commentId: F:SuperOffice.CRM.Data.DBC.SaintConfigurationFields.GenerationEnd
+  id: GenerationEnd
+  parent: SuperOffice.CRM.Data.DBC.SaintConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: GenerationEnd
+  nameWithType: DBC.SaintConfigurationFields.GenerationEnd
+  fullName: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.GenerationEnd
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSaintConfiguration.GenerationEnd: When was the last regeneration finished\n"
+  syntax:
+    content: public const string GenerationEnd = "generationEnd"
+    return:
+      type: System.String
+    content.vb: Public Const GenerationEnd As String = "generationEnd"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.RowsGenerated
+  commentId: F:SuperOffice.CRM.Data.DBC.SaintConfigurationFields.RowsGenerated
+  id: RowsGenerated
+  parent: SuperOffice.CRM.Data.DBC.SaintConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: RowsGenerated
+  nameWithType: DBC.SaintConfigurationFields.RowsGenerated
+  fullName: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.RowsGenerated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSaintConfiguration.RowsGenerated: Number of CounterValue rows generated for this entity\n"
+  syntax:
+    content: public const string RowsGenerated = "rowsGenerated"
+    return:
+      type: System.String
+    content.vb: Public Const RowsGenerated As String = "rowsGenerated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.SaintConfigurationFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.SaintConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.SaintConfigurationFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSaintConfiguration.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.SaintConfigurationFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.SaintConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.SaintConfigurationFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSaintConfiguration.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.SaintConfigurationFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.SaintConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.SaintConfigurationFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSaintConfiguration.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.SaintConfigurationFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.SaintConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.SaintConfigurationFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSaintConfiguration.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.SaintConfigurationFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.SaintConfigurationFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.SaintConfigurationFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.SaintConfigurationFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSaintConfiguration.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,857 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.SORTemplateFields
+  commentId: T:SuperOffice.CRM.Data.DBC.SORTemplateFields
+  id: DBC.SORTemplateFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.SORTemplateFields.BottomMargin
+  - SuperOffice.CRM.Data.DBC.SORTemplateFields.Layout
+  - SuperOffice.CRM.Data.DBC.SORTemplateFields.LeftMargin
+  - SuperOffice.CRM.Data.DBC.SORTemplateFields.OrderBy
+  - SuperOffice.CRM.Data.DBC.SORTemplateFields.Orientation
+  - SuperOffice.CRM.Data.DBC.SORTemplateFields.PrintWidth
+  - SuperOffice.CRM.Data.DBC.SORTemplateFields.Published
+  - SuperOffice.CRM.Data.DBC.SORTemplateFields.Registered
+  - SuperOffice.CRM.Data.DBC.SORTemplateFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.SORTemplateFields.RightMargin
+  - SuperOffice.CRM.Data.DBC.SORTemplateFields.SORTemplateId
+  - SuperOffice.CRM.Data.DBC.SORTemplateFields.Subject
+  - SuperOffice.CRM.Data.DBC.SORTemplateFields.TopMargin
+  - SuperOffice.CRM.Data.DBC.SORTemplateFields.Updated
+  - SuperOffice.CRM.Data.DBC.SORTemplateFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.SORTemplateFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.SORTemplateFields.ViewName
+  langs:
+  - csharp
+  - vb
+  name: DBC.SORTemplateFields
+  nameWithType: DBC.SORTemplateFields
+  fullName: SuperOffice.CRM.Data.DBC.SORTemplateFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for SORTemplate, SuperOffice reporter data\n"
+  syntax:
+    content: public static class SORTemplateFields
+    content.vb: Public Module SORTemplateFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.SORTemplateFields.SORTemplateId
+  commentId: F:SuperOffice.CRM.Data.DBC.SORTemplateFields.SORTemplateId
+  id: SORTemplateId
+  parent: SuperOffice.CRM.Data.DBC.SORTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: SORTemplateId
+  nameWithType: DBC.SORTemplateFields.SORTemplateId
+  fullName: SuperOffice.CRM.Data.DBC.SORTemplateFields.SORTemplateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORTemplate.SORTemplateId: Primary key\n"
+  syntax:
+    content: public const string SORTemplateId = "SORTemplate_id"
+    return:
+      type: System.String
+    content.vb: Public Const SORTemplateId As String = "SORTemplate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORTemplateFields.Subject
+  commentId: F:SuperOffice.CRM.Data.DBC.SORTemplateFields.Subject
+  id: Subject
+  parent: SuperOffice.CRM.Data.DBC.SORTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: Subject
+  nameWithType: DBC.SORTemplateFields.Subject
+  fullName: SuperOffice.CRM.Data.DBC.SORTemplateFields.Subject
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORTemplate.Subject: 2=contact, 3=project, 4=sale, 5=activities, 6=selection\n"
+  syntax:
+    content: public const string Subject = "subject"
+    return:
+      type: System.String
+    content.vb: Public Const Subject As String = "subject"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORTemplateFields.ViewName
+  commentId: F:SuperOffice.CRM.Data.DBC.SORTemplateFields.ViewName
+  id: ViewName
+  parent: SuperOffice.CRM.Data.DBC.SORTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: ViewName
+  nameWithType: DBC.SORTemplateFields.ViewName
+  fullName: SuperOffice.CRM.Data.DBC.SORTemplateFields.ViewName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORTemplate.ViewName: View name\n"
+  syntax:
+    content: public const string ViewName = "viewName"
+    return:
+      type: System.String
+    content.vb: Public Const ViewName As String = "viewName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORTemplateFields.Layout
+  commentId: F:SuperOffice.CRM.Data.DBC.SORTemplateFields.Layout
+  id: Layout
+  parent: SuperOffice.CRM.Data.DBC.SORTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: Layout
+  nameWithType: DBC.SORTemplateFields.Layout
+  fullName: SuperOffice.CRM.Data.DBC.SORTemplateFields.Layout
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORTemplate.Layout: 1=list, 2=label, 3=group, 4=cross, 5=calendar, 6=calendar week, 7=calendar month\n"
+  syntax:
+    content: public const string Layout = "layout"
+    return:
+      type: System.String
+    content.vb: Public Const Layout As String = "layout"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORTemplateFields.Orientation
+  commentId: F:SuperOffice.CRM.Data.DBC.SORTemplateFields.Orientation
+  id: Orientation
+  parent: SuperOffice.CRM.Data.DBC.SORTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: Orientation
+  nameWithType: DBC.SORTemplateFields.Orientation
+  fullName: SuperOffice.CRM.Data.DBC.SORTemplateFields.Orientation
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORTemplate.Orientation: 1=portrait, 2=landscape\n"
+  syntax:
+    content: public const string Orientation = "orientation"
+    return:
+      type: System.String
+    content.vb: Public Const Orientation As String = "orientation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORTemplateFields.OrderBy
+  commentId: F:SuperOffice.CRM.Data.DBC.SORTemplateFields.OrderBy
+  id: OrderBy
+  parent: SuperOffice.CRM.Data.DBC.SORTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: OrderBy
+  nameWithType: DBC.SORTemplateFields.OrderBy
+  fullName: SuperOffice.CRM.Data.DBC.SORTemplateFields.OrderBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORTemplate.OrderBy: list of ORDER BY fields\n"
+  syntax:
+    content: public const string OrderBy = "orderBy"
+    return:
+      type: System.String
+    content.vb: Public Const OrderBy As String = "orderBy"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORTemplateFields.PrintWidth
+  commentId: F:SuperOffice.CRM.Data.DBC.SORTemplateFields.PrintWidth
+  id: PrintWidth
+  parent: SuperOffice.CRM.Data.DBC.SORTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: PrintWidth
+  nameWithType: DBC.SORTemplateFields.PrintWidth
+  fullName: SuperOffice.CRM.Data.DBC.SORTemplateFields.PrintWidth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORTemplate.PrintWidth: in TWIPS\n"
+  syntax:
+    content: public const string PrintWidth = "printWidth"
+    return:
+      type: System.String
+    content.vb: Public Const PrintWidth As String = "printWidth"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORTemplateFields.BottomMargin
+  commentId: F:SuperOffice.CRM.Data.DBC.SORTemplateFields.BottomMargin
+  id: BottomMargin
+  parent: SuperOffice.CRM.Data.DBC.SORTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: BottomMargin
+  nameWithType: DBC.SORTemplateFields.BottomMargin
+  fullName: SuperOffice.CRM.Data.DBC.SORTemplateFields.BottomMargin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORTemplate.BottomMargin: in TWIPS\n"
+  syntax:
+    content: public const string BottomMargin = "bottomMargin"
+    return:
+      type: System.String
+    content.vb: Public Const BottomMargin As String = "bottomMargin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORTemplateFields.TopMargin
+  commentId: F:SuperOffice.CRM.Data.DBC.SORTemplateFields.TopMargin
+  id: TopMargin
+  parent: SuperOffice.CRM.Data.DBC.SORTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: TopMargin
+  nameWithType: DBC.SORTemplateFields.TopMargin
+  fullName: SuperOffice.CRM.Data.DBC.SORTemplateFields.TopMargin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORTemplate.TopMargin: in TWIPS\n"
+  syntax:
+    content: public const string TopMargin = "topMargin"
+    return:
+      type: System.String
+    content.vb: Public Const TopMargin As String = "topMargin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORTemplateFields.LeftMargin
+  commentId: F:SuperOffice.CRM.Data.DBC.SORTemplateFields.LeftMargin
+  id: LeftMargin
+  parent: SuperOffice.CRM.Data.DBC.SORTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: LeftMargin
+  nameWithType: DBC.SORTemplateFields.LeftMargin
+  fullName: SuperOffice.CRM.Data.DBC.SORTemplateFields.LeftMargin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORTemplate.LeftMargin: in TWIPS\n"
+  syntax:
+    content: public const string LeftMargin = "leftMargin"
+    return:
+      type: System.String
+    content.vb: Public Const LeftMargin As String = "leftMargin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORTemplateFields.RightMargin
+  commentId: F:SuperOffice.CRM.Data.DBC.SORTemplateFields.RightMargin
+  id: RightMargin
+  parent: SuperOffice.CRM.Data.DBC.SORTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: RightMargin
+  nameWithType: DBC.SORTemplateFields.RightMargin
+  fullName: SuperOffice.CRM.Data.DBC.SORTemplateFields.RightMargin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORTemplate.RightMargin: in TWIPS\n"
+  syntax:
+    content: public const string RightMargin = "rightMargin"
+    return:
+      type: System.String
+    content.vb: Public Const RightMargin As String = "rightMargin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORTemplateFields.Published
+  commentId: F:SuperOffice.CRM.Data.DBC.SORTemplateFields.Published
+  id: Published
+  parent: SuperOffice.CRM.Data.DBC.SORTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: Published
+  nameWithType: DBC.SORTemplateFields.Published
+  fullName: SuperOffice.CRM.Data.DBC.SORTemplateFields.Published
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORTemplate.Published: 1=pubshed, 0=not published\n"
+  syntax:
+    content: public const string Published = "published"
+    return:
+      type: System.String
+    content.vb: Public Const Published As String = "published"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORTemplateFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.SORTemplateFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.SORTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.SORTemplateFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.SORTemplateFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORTemplate.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORTemplateFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.SORTemplateFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.SORTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.SORTemplateFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.SORTemplateFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORTemplate.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORTemplateFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.SORTemplateFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.SORTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.SORTemplateFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.SORTemplateFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORTemplate.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORTemplateFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.SORTemplateFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.SORTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.SORTemplateFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.SORTemplateFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORTemplate.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SORTemplateFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.SORTemplateFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.SORTemplateFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.SORTemplateFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.SORTemplateFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSORTemplate.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

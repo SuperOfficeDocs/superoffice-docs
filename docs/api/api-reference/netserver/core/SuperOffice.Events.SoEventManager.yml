@@ -1,0 +1,516 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Events.SoEventManager
+  commentId: T:SuperOffice.Events.SoEventManager
+  id: SoEventManager
+  parent: SuperOffice.Events
+  children:
+  - SuperOffice.Events.SoEventManager.GlobalFlush
+  - SuperOffice.Events.SoEventManager.OnGlobalFlush
+  - SuperOffice.Events.SoEventManager.ReInitalize
+  - SuperOffice.Events.SoEventManager.SendEvent(System.String,System.Boolean,System.Object@,SuperOffice.Events.SendEventArguments@)
+  langs:
+  - csharp
+  - vb
+  name: SoEventManager
+  nameWithType: SoEventManager
+  fullName: SuperOffice.Events.SoEventManager
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Events
+  summary: "\nSoEventManager\n"
+  syntax:
+    content: public static class SoEventManager
+    content.vb: Public Module SoEventManager
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Events.SoEventManager.ReInitalize
+  commentId: M:SuperOffice.Events.SoEventManager.ReInitalize
+  id: ReInitalize
+  parent: SuperOffice.Events.SoEventManager
+  langs:
+  - csharp
+  - vb
+  name: ReInitalize()
+  nameWithType: SoEventManager.ReInitalize()
+  fullName: SuperOffice.Events.SoEventManager.ReInitalize()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Events
+  syntax:
+    content: public static void ReInitalize()
+    content.vb: Public Shared Sub ReInitalize
+  overload: SuperOffice.Events.SoEventManager.ReInitalize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Events.SoEventManager.GlobalFlush
+  commentId: M:SuperOffice.Events.SoEventManager.GlobalFlush
+  id: GlobalFlush
+  parent: SuperOffice.Events.SoEventManager
+  langs:
+  - csharp
+  - vb
+  name: GlobalFlush()
+  nameWithType: SoEventManager.GlobalFlush()
+  fullName: SuperOffice.Events.SoEventManager.GlobalFlush()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Events
+  syntax:
+    content: public static void GlobalFlush()
+    content.vb: Public Shared Sub GlobalFlush
+  overload: SuperOffice.Events.SoEventManager.GlobalFlush*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Events.SoEventManager.SendEvent(System.String,System.Boolean,System.Object@,SuperOffice.Events.SendEventArguments@)
+  commentId: M:SuperOffice.Events.SoEventManager.SendEvent(System.String,System.Boolean,System.Object@,SuperOffice.Events.SendEventArguments@)
+  id: SendEvent(System.String,System.Boolean,System.Object@,SuperOffice.Events.SendEventArguments@)
+  parent: SuperOffice.Events.SoEventManager
+  langs:
+  - csharp
+  - vb
+  name: SendEvent(String, Boolean, ref Object, ref SendEventArguments)
+  nameWithType: SoEventManager.SendEvent(String, Boolean, ref Object, ref SendEventArguments)
+  fullName: SuperOffice.Events.SoEventManager.SendEvent(System.String, System.Boolean, ref System.Object, ref SuperOffice.Events.SendEventArguments)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Events
+  summary: "\nSends the event to all EventEngine plugins\n"
+  syntax:
+    content: public static void SendEvent(string methodName, bool async, ref object state, ref SendEventArguments arguments)
+    parameters:
+    - id: methodName
+      type: System.String
+      description: Name of the event
+    - id: async
+      type: System.Boolean
+      description: If true the call is executed asynchronously.
+    - id: state
+      type: System.Object
+      description: The state object. Used to keep state between before and after events.
+    - id: arguments
+      type: SuperOffice.Events.SendEventArguments
+      description: Events arguments.
+    content.vb: Public Shared Sub SendEvent(methodName As String, async As Boolean, ByRef state As Object, ByRef arguments As SendEventArguments)
+  overload: SuperOffice.Events.SoEventManager.SendEvent*
+  nameWithType.vb: SoEventManager.SendEvent(String, Boolean, ByRef Object, ByRef SendEventArguments)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Events.SoEventManager.SendEvent(System.String, System.Boolean, ByRef System.Object, ByRef SuperOffice.Events.SendEventArguments)
+  name.vb: SendEvent(String, Boolean, ByRef Object, ByRef SendEventArguments)
+- uid: SuperOffice.Events.SoEventManager.OnGlobalFlush
+  commentId: E:SuperOffice.Events.SoEventManager.OnGlobalFlush
+  id: OnGlobalFlush
+  parent: SuperOffice.Events.SoEventManager
+  langs:
+  - csharp
+  - vb
+  name: OnGlobalFlush
+  nameWithType: SoEventManager.OnGlobalFlush
+  fullName: SuperOffice.Events.SoEventManager.OnGlobalFlush
+  type: Event
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Events
+  syntax:
+    content: public static event SoGlobalFlush OnGlobalFlush
+    return:
+      type: SuperOffice.Events.SoGlobalFlush
+    content.vb: Public Shared Event OnGlobalFlush As SoGlobalFlush
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Events
+  commentId: N:SuperOffice.Events
+  isExternal: true
+  name: SuperOffice.Events
+  nameWithType: SuperOffice.Events
+  fullName: SuperOffice.Events
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Events.SoEventManager.ReInitalize*
+  commentId: Overload:SuperOffice.Events.SoEventManager.ReInitalize
+  isExternal: true
+  name: ReInitalize
+  nameWithType: SoEventManager.ReInitalize
+  fullName: SuperOffice.Events.SoEventManager.ReInitalize
+- uid: SuperOffice.Events.SoEventManager.GlobalFlush*
+  commentId: Overload:SuperOffice.Events.SoEventManager.GlobalFlush
+  isExternal: true
+  name: GlobalFlush
+  nameWithType: SoEventManager.GlobalFlush
+  fullName: SuperOffice.Events.SoEventManager.GlobalFlush
+- uid: SuperOffice.Events.SoEventManager.SendEvent*
+  commentId: Overload:SuperOffice.Events.SoEventManager.SendEvent
+  isExternal: true
+  name: SendEvent
+  nameWithType: SoEventManager.SendEvent
+  fullName: SuperOffice.Events.SoEventManager.SendEvent
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Events.SendEventArguments
+  commentId: T:SuperOffice.Events.SendEventArguments
+  parent: SuperOffice.Events
+  isExternal: true
+  name: SendEventArguments
+  nameWithType: SendEventArguments
+  fullName: SuperOffice.Events.SendEventArguments
+- uid: SuperOffice.Events.SoGlobalFlush
+  commentId: T:SuperOffice.Events.SoGlobalFlush
+  parent: SuperOffice.Events
+  isExternal: true
+  name: SoGlobalFlush
+  nameWithType: SoGlobalFlush
+  fullName: SuperOffice.Events.SoGlobalFlush

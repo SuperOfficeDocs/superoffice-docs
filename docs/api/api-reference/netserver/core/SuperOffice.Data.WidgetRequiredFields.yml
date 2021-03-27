@@ -1,0 +1,550 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.WidgetRequiredFields
+  commentId: T:SuperOffice.Data.WidgetRequiredFields
+  id: WidgetRequiredFields
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.WidgetRequiredFields.Company
+  - SuperOffice.Data.WidgetRequiredFields.Email
+  - SuperOffice.Data.WidgetRequiredFields.Name
+  - SuperOffice.Data.WidgetRequiredFields.Phone
+  - SuperOffice.Data.WidgetRequiredFields.Subject
+  langs:
+  - csharp
+  - vb
+  name: WidgetRequiredFields
+  nameWithType: WidgetRequiredFields
+  fullName: SuperOffice.Data.WidgetRequiredFields
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nValue for field &apos;widget_offline_fields&apos; in table &apos;chat_topic&apos;.\nThis Enum is used by:  chat_topic.widget_offline_fields; chat_topic.widget_required_fields\nThis Enum consists of flag values that can be combined.\n"
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum WidgetRequiredFields : short
+    content.vb: >-
+      <Flags>
+
+      Public Enum WidgetRequiredFields As Short
+  extensionMethods:
+  - SuperOffice.Data.WidgetRequiredFields.EnumUtil.MapEnums``2
+  - SuperOffice.Data.WidgetRequiredFields.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.WidgetRequiredFields)
+  - SuperOffice.Data.WidgetRequiredFields.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.WidgetRequiredFields.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.WidgetRequiredFields.Email
+  commentId: F:SuperOffice.Data.WidgetRequiredFields.Email
+  id: Email
+  parent: SuperOffice.Data.WidgetRequiredFields
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: WidgetRequiredFields.Email
+  fullName: SuperOffice.Data.WidgetRequiredFields.Email
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: Email field is required\n"
+  syntax:
+    content: Email = 0
+    return:
+      type: SuperOffice.Data.WidgetRequiredFields
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WidgetRequiredFields.Name
+  commentId: F:SuperOffice.Data.WidgetRequiredFields.Name
+  id: Name
+  parent: SuperOffice.Data.WidgetRequiredFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: WidgetRequiredFields.Name
+  fullName: SuperOffice.Data.WidgetRequiredFields.Name
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Name field is required\n"
+  syntax:
+    content: Name = 1
+    return:
+      type: SuperOffice.Data.WidgetRequiredFields
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WidgetRequiredFields.Company
+  commentId: F:SuperOffice.Data.WidgetRequiredFields.Company
+  id: Company
+  parent: SuperOffice.Data.WidgetRequiredFields
+  langs:
+  - csharp
+  - vb
+  name: Company
+  nameWithType: WidgetRequiredFields.Company
+  fullName: SuperOffice.Data.WidgetRequiredFields.Company
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Company field is required\n"
+  syntax:
+    content: Company = 2
+    return:
+      type: SuperOffice.Data.WidgetRequiredFields
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WidgetRequiredFields.Subject
+  commentId: F:SuperOffice.Data.WidgetRequiredFields.Subject
+  id: Subject
+  parent: SuperOffice.Data.WidgetRequiredFields
+  langs:
+  - csharp
+  - vb
+  name: Subject
+  nameWithType: WidgetRequiredFields.Subject
+  fullName: SuperOffice.Data.WidgetRequiredFields.Subject
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Subject field is required\n"
+  syntax:
+    content: Subject = 4
+    return:
+      type: SuperOffice.Data.WidgetRequiredFields
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.WidgetRequiredFields.Phone
+  commentId: F:SuperOffice.Data.WidgetRequiredFields.Phone
+  id: Phone
+  parent: SuperOffice.Data.WidgetRequiredFields
+  langs:
+  - csharp
+  - vb
+  name: Phone
+  nameWithType: WidgetRequiredFields.Phone
+  fullName: SuperOffice.Data.WidgetRequiredFields.Phone
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n8: Phone field is required\n"
+  syntax:
+    content: Phone = 8
+    return:
+      type: SuperOffice.Data.WidgetRequiredFields
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.WidgetRequiredFields.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<WidgetRequiredFields, To>()
+  nameWithType: EnumUtil.MapEnums<WidgetRequiredFields, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.WidgetRequiredFields, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WidgetRequiredFields, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.WidgetRequiredFields, To)()
+  name.vb: MapEnums(Of WidgetRequiredFields, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WidgetRequiredFields, To>
+    nameWithType: EnumUtil.MapEnums<WidgetRequiredFields, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.WidgetRequiredFields, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WidgetRequiredFields, To)
+    nameWithType: EnumUtil.MapEnums(Of WidgetRequiredFields, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.WidgetRequiredFields, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.WidgetRequiredFields.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.WidgetRequiredFields)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<WidgetRequiredFields>(WidgetRequiredFields)
+  nameWithType: ObjectExtensions.AssignByReflection<WidgetRequiredFields>(WidgetRequiredFields)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.WidgetRequiredFields>(SuperOffice.Data.WidgetRequiredFields)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of WidgetRequiredFields)(WidgetRequiredFields)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.WidgetRequiredFields)(SuperOffice.Data.WidgetRequiredFields)
+  name.vb: AssignByReflection(Of WidgetRequiredFields)(WidgetRequiredFields)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<WidgetRequiredFields>
+    nameWithType: ObjectExtensions.AssignByReflection<WidgetRequiredFields>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.WidgetRequiredFields>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.WidgetRequiredFields
+    name: WidgetRequiredFields
+    nameWithType: WidgetRequiredFields
+    fullName: SuperOffice.Data.WidgetRequiredFields
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of WidgetRequiredFields)
+    nameWithType: ObjectExtensions.AssignByReflection(Of WidgetRequiredFields)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.WidgetRequiredFields)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.WidgetRequiredFields
+    name: WidgetRequiredFields
+    nameWithType: WidgetRequiredFields
+    fullName: SuperOffice.Data.WidgetRequiredFields
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.WidgetRequiredFields.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<WidgetRequiredFields>()
+  nameWithType: ObjectExtensions.GraphCopy<WidgetRequiredFields>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.WidgetRequiredFields>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of WidgetRequiredFields)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.WidgetRequiredFields)()
+  name.vb: GraphCopy(Of WidgetRequiredFields)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<WidgetRequiredFields>
+    nameWithType: ObjectExtensions.GraphCopy<WidgetRequiredFields>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.WidgetRequiredFields>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of WidgetRequiredFields)
+    nameWithType: ObjectExtensions.GraphCopy(Of WidgetRequiredFields)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.WidgetRequiredFields)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.WidgetRequiredFields.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WidgetRequiredFields, To>()
+  nameWithType: Converters.MapEnums<WidgetRequiredFields, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.WidgetRequiredFields, To>()
+  nameWithType.vb: Converters.MapEnums(Of WidgetRequiredFields, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.WidgetRequiredFields, To)()
+  name.vb: MapEnums(Of WidgetRequiredFields, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WidgetRequiredFields, To>
+    nameWithType: Converters.MapEnums<WidgetRequiredFields, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.WidgetRequiredFields, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WidgetRequiredFields, To)
+    nameWithType: Converters.MapEnums(Of WidgetRequiredFields, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.WidgetRequiredFields, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.WidgetRequiredFields
+  commentId: T:SuperOffice.Data.WidgetRequiredFields
+  parent: SuperOffice.Data
+  isExternal: true
+  name: WidgetRequiredFields
+  nameWithType: WidgetRequiredFields
+  fullName: SuperOffice.Data.WidgetRequiredFields

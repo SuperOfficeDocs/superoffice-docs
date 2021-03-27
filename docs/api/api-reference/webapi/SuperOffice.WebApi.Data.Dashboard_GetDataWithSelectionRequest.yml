@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest
+  commentId: T:SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest
+  id: Dashboard_GetDataWithSelectionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.#ctor
+  - SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.DashboardTileId
+  - SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.Restrictions
+  - SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.SelectionId
+  langs:
+  - csharp
+  - vb
+  name: Dashboard_GetDataWithSelectionRequest
+  nameWithType: Dashboard_GetDataWithSelectionRequest
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Dashboard_GetDataWithSelectionRequest : Object'
+    content.vb: >-
+      Public Class Dashboard_GetDataWithSelectionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest
+  langs:
+  - csharp
+  - vb
+  name: Dashboard_GetDataWithSelectionRequest()
+  nameWithType: Dashboard_GetDataWithSelectionRequest.Dashboard_GetDataWithSelectionRequest()
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.Dashboard_GetDataWithSelectionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Dashboard_GetDataWithSelectionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.DashboardTileId
+  commentId: P:SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.DashboardTileId
+  id: DashboardTileId
+  parent: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileId
+  nameWithType: Dashboard_GetDataWithSelectionRequest.DashboardTileId
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.DashboardTileId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DashboardTileId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DashboardTileId As Integer
+  overload: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.DashboardTileId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.SelectionId
+  commentId: P:SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.SelectionId
+  id: SelectionId
+  parent: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: Dashboard_GetDataWithSelectionRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SelectionId As Integer
+  overload: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.SelectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.Restrictions
+  commentId: P:SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.Restrictions
+  id: Restrictions
+  parent: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest
+  langs:
+  - csharp
+  - vb
+  name: Restrictions
+  nameWithType: Dashboard_GetDataWithSelectionRequest.Restrictions
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.Restrictions
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Restrictions { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Restrictions As String
+  overload: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.Restrictions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.#ctor
+  isExternal: true
+  name: Dashboard_GetDataWithSelectionRequest
+  nameWithType: Dashboard_GetDataWithSelectionRequest.Dashboard_GetDataWithSelectionRequest
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.Dashboard_GetDataWithSelectionRequest
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.DashboardTileId*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.DashboardTileId
+  isExternal: true
+  name: DashboardTileId
+  nameWithType: Dashboard_GetDataWithSelectionRequest.DashboardTileId
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.DashboardTileId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.SelectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: Dashboard_GetDataWithSelectionRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.SelectionId
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.Restrictions*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.Restrictions
+  isExternal: true
+  name: Restrictions
+  nameWithType: Dashboard_GetDataWithSelectionRequest.Restrictions
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.Restrictions
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

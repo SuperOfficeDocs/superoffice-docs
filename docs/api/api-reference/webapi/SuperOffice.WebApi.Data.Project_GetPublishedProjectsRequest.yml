@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Project_GetPublishedProjectsRequest
+  commentId: T:SuperOffice.WebApi.Data.Project_GetPublishedProjectsRequest
+  id: Project_GetPublishedProjectsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Project_GetPublishedProjectsRequest.#ctor
+  - SuperOffice.WebApi.Data.Project_GetPublishedProjectsRequest.ProjectIds
+  langs:
+  - csharp
+  - vb
+  name: Project_GetPublishedProjectsRequest
+  nameWithType: Project_GetPublishedProjectsRequest
+  fullName: SuperOffice.WebApi.Data.Project_GetPublishedProjectsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Project_GetPublishedProjectsRequest : Object'
+    content.vb: >-
+      Public Class Project_GetPublishedProjectsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Project_GetPublishedProjectsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Project_GetPublishedProjectsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Project_GetPublishedProjectsRequest
+  langs:
+  - csharp
+  - vb
+  name: Project_GetPublishedProjectsRequest()
+  nameWithType: Project_GetPublishedProjectsRequest.Project_GetPublishedProjectsRequest()
+  fullName: SuperOffice.WebApi.Data.Project_GetPublishedProjectsRequest.Project_GetPublishedProjectsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Project_GetPublishedProjectsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Project_GetPublishedProjectsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Project_GetPublishedProjectsRequest.ProjectIds
+  commentId: P:SuperOffice.WebApi.Data.Project_GetPublishedProjectsRequest.ProjectIds
+  id: ProjectIds
+  parent: SuperOffice.WebApi.Data.Project_GetPublishedProjectsRequest
+  langs:
+  - csharp
+  - vb
+  name: ProjectIds
+  nameWithType: Project_GetPublishedProjectsRequest.ProjectIds
+  fullName: SuperOffice.WebApi.Data.Project_GetPublishedProjectsRequest.ProjectIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] ProjectIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property ProjectIds As Integer()
+  overload: SuperOffice.WebApi.Data.Project_GetPublishedProjectsRequest.ProjectIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Project_GetPublishedProjectsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_GetPublishedProjectsRequest.#ctor
+  isExternal: true
+  name: Project_GetPublishedProjectsRequest
+  nameWithType: Project_GetPublishedProjectsRequest.Project_GetPublishedProjectsRequest
+  fullName: SuperOffice.WebApi.Data.Project_GetPublishedProjectsRequest.Project_GetPublishedProjectsRequest
+- uid: SuperOffice.WebApi.Data.Project_GetPublishedProjectsRequest.ProjectIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_GetPublishedProjectsRequest.ProjectIds
+  isExternal: true
+  name: ProjectIds
+  nameWithType: Project_GetPublishedProjectsRequest.ProjectIds
+  fullName: SuperOffice.WebApi.Data.Project_GetPublishedProjectsRequest.ProjectIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

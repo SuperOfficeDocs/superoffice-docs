@@ -1,0 +1,1422 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider
+  commentId: T:SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider
+  id: ExtraFieldsDropdownProvider
+  parent: SuperOffice.CRM.Lists
+  children:
+  - SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.#ctor
+  - SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  - SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.GetListName(System.Int32)
+  - SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.HeadingItems
+  - SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.HistoryInfo
+  - SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.HistoryItems
+  - SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.RootItems
+  - SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.SupportedLists
+  langs:
+  - csharp
+  - vb
+  name: ExtraFieldsDropdownProvider
+  nameWithType: ExtraFieldsDropdownProvider
+  fullName: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nExtra fields dropdown lists. Contains list of string values defined on the extra_field.\nList names are &apos;EFD_123&apos; where 123 is the extra field id.\n"
+  syntax:
+    content: >-
+      [DynamicMDOProviderPlugin("ExtraFieldsDropdown")]
+
+      public class ExtraFieldsDropdownProvider : IDynamicMDOProvider, ISoListProvider, ISoList, IPlugin
+    content.vb: >-
+      <DynamicMDOProviderPlugin("ExtraFieldsDropdown")>
+
+      Public Class ExtraFieldsDropdownProvider
+          Implements IDynamicMDOProvider, ISoListProvider, ISoList, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.Lists.IDynamicMDOProvider
+  - SuperOffice.CRM.Lists.ISoListProvider
+  - SuperOffice.CRM.Lists.ISoList
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider)
+  - SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.CRM.Lists.DynamicMDOProviderPluginAttribute
+    ctor: SuperOffice.CRM.Lists.DynamicMDOProviderPluginAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ExtraFieldsDropdown
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.GetListName(System.Int32)
+  commentId: M:SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.GetListName(System.Int32)
+  id: GetListName(System.Int32)
+  parent: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider
+  langs:
+  - csharp
+  - vb
+  name: GetListName(Int32)
+  nameWithType: ExtraFieldsDropdownProvider.GetListName(Int32)
+  fullName: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.GetListName(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public static string GetListName(int extraFieldId)
+    parameters:
+    - id: extraFieldId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetListName(extraFieldId As Integer) As String
+  overload: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.GetListName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  id: Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider
+  langs:
+  - csharp
+  - vb
+  name: Construct(String, String, Int32[], Boolean, String, Boolean)
+  nameWithType: ExtraFieldsDropdownProvider.Construct(String, String, Int32[], Boolean, String, Boolean)
+  fullName: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.Construct(System.String, System.String, System.Int32[], System.Boolean, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public void Construct(string listName, string additionalInfo, int[] historyIDs, bool onlyReadHistory, string searchValue, bool forceFlatList)
+    parameters:
+    - id: listName
+      type: System.String
+    - id: additionalInfo
+      type: System.String
+    - id: historyIDs
+      type: System.Int32[]
+    - id: onlyReadHistory
+      type: System.Boolean
+    - id: searchValue
+      type: System.String
+    - id: forceFlatList
+      type: System.Boolean
+    content.vb: Public Sub Construct(listName As String, additionalInfo As String, historyIDs As Integer(), onlyReadHistory As Boolean, searchValue As String, forceFlatList As Boolean)
+  overload: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.Construct*
+  implements:
+  - SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  nameWithType.vb: ExtraFieldsDropdownProvider.Construct(String, String, Int32(), Boolean, String, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.Construct(System.String, System.String, System.Int32(), System.Boolean, System.String, System.Boolean)
+  name.vb: Construct(String, String, Int32(), Boolean, String, Boolean)
+- uid: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.#ctor
+  commentId: M:SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider
+  langs:
+  - csharp
+  - vb
+  name: ExtraFieldsDropdownProvider()
+  nameWithType: ExtraFieldsDropdownProvider.ExtraFieldsDropdownProvider()
+  fullName: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.ExtraFieldsDropdownProvider()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public ExtraFieldsDropdownProvider()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.SupportedLists
+  commentId: P:SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.SupportedLists
+  id: SupportedLists
+  parent: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider
+  langs:
+  - csharp
+  - vb
+  name: SupportedLists
+  nameWithType: ExtraFieldsDropdownProvider.SupportedLists
+  fullName: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.SupportedLists
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public HistoryInfo[] SupportedLists { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Lists.HistoryInfo[]
+    content.vb: Public ReadOnly Property SupportedLists As HistoryInfo()
+  overload: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.SupportedLists*
+  implements:
+  - SuperOffice.CRM.Lists.IDynamicMDOProvider.SupportedLists
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.HistoryInfo
+  commentId: P:SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.HistoryInfo
+  id: HistoryInfo
+  parent: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider
+  langs:
+  - csharp
+  - vb
+  name: HistoryInfo
+  nameWithType: ExtraFieldsDropdownProvider.HistoryInfo
+  fullName: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.HistoryInfo
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public HistoryInfo HistoryInfo { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Lists.HistoryInfo
+    content.vb: Public ReadOnly Property HistoryInfo As HistoryInfo
+  overload: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.HistoryInfo*
+  implements:
+  - SuperOffice.CRM.Lists.ISoListProvider.HistoryInfo
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.HistoryItems
+  commentId: P:SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.HistoryItems
+  id: HistoryItems
+  parent: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider
+  langs:
+  - csharp
+  - vb
+  name: HistoryItems
+  nameWithType: ExtraFieldsDropdownProvider.HistoryItems
+  fullName: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.HistoryItems
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public List<ISoListItem> HistoryItems { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
+    content.vb: Public ReadOnly Property HistoryItems As List(Of ISoListItem)
+  overload: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.HistoryItems*
+  implements:
+  - SuperOffice.CRM.Lists.ISoList.HistoryItems
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.RootItems
+  commentId: P:SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.RootItems
+  id: RootItems
+  parent: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider
+  langs:
+  - csharp
+  - vb
+  name: RootItems
+  nameWithType: ExtraFieldsDropdownProvider.RootItems
+  fullName: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.RootItems
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public List<ISoListItem> RootItems { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
+    content.vb: Public ReadOnly Property RootItems As List(Of ISoListItem)
+  overload: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.RootItems*
+  implements:
+  - SuperOffice.CRM.Lists.ISoList.RootItems
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.HeadingItems
+  commentId: P:SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.HeadingItems
+  id: HeadingItems
+  parent: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider
+  langs:
+  - csharp
+  - vb
+  name: HeadingItems
+  nameWithType: ExtraFieldsDropdownProvider.HeadingItems
+  fullName: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.HeadingItems
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public List<ISoListHeading> HeadingItems { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}
+    content.vb: Public ReadOnly Property HeadingItems As List(Of ISoListHeading)
+  overload: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.HeadingItems*
+  implements:
+  - SuperOffice.CRM.Lists.ISoList.HeadingItems
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Lists
+  commentId: N:SuperOffice.CRM.Lists
+  isExternal: true
+  name: SuperOffice.CRM.Lists
+  nameWithType: SuperOffice.CRM.Lists
+  fullName: SuperOffice.CRM.Lists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Lists.IDynamicMDOProvider
+  commentId: T:SuperOffice.CRM.Lists.IDynamicMDOProvider
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: IDynamicMDOProvider
+  nameWithType: IDynamicMDOProvider
+  fullName: SuperOffice.CRM.Lists.IDynamicMDOProvider
+- uid: SuperOffice.CRM.Lists.ISoListProvider
+  commentId: T:SuperOffice.CRM.Lists.ISoListProvider
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: ISoListProvider
+  nameWithType: ISoListProvider
+  fullName: SuperOffice.CRM.Lists.ISoListProvider
+- uid: SuperOffice.CRM.Lists.ISoList
+  commentId: T:SuperOffice.CRM.Lists.ISoList
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: ISoList
+  nameWithType: ISoList
+  fullName: SuperOffice.CRM.Lists.ISoList
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ExtraFieldsDropdownProvider, To>()
+  nameWithType: EnumUtil.MapEnums<ExtraFieldsDropdownProvider, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ExtraFieldsDropdownProvider, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider, To)()
+  name.vb: MapEnums(Of ExtraFieldsDropdownProvider, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ExtraFieldsDropdownProvider, To>
+    nameWithType: EnumUtil.MapEnums<ExtraFieldsDropdownProvider, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ExtraFieldsDropdownProvider, To)
+    nameWithType: EnumUtil.MapEnums(Of ExtraFieldsDropdownProvider, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ExtraFieldsDropdownProvider>(ExtraFieldsDropdownProvider)
+  nameWithType: ObjectExtensions.AssignByReflection<ExtraFieldsDropdownProvider>(ExtraFieldsDropdownProvider)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider>(SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ExtraFieldsDropdownProvider)(ExtraFieldsDropdownProvider)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider)(SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider)
+  name.vb: AssignByReflection(Of ExtraFieldsDropdownProvider)(ExtraFieldsDropdownProvider)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ExtraFieldsDropdownProvider>
+    nameWithType: ObjectExtensions.AssignByReflection<ExtraFieldsDropdownProvider>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider
+    name: ExtraFieldsDropdownProvider
+    nameWithType: ExtraFieldsDropdownProvider
+    fullName: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ExtraFieldsDropdownProvider)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ExtraFieldsDropdownProvider)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider
+    name: ExtraFieldsDropdownProvider
+    nameWithType: ExtraFieldsDropdownProvider
+    fullName: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ExtraFieldsDropdownProvider>()
+  nameWithType: ObjectExtensions.GraphCopy<ExtraFieldsDropdownProvider>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ExtraFieldsDropdownProvider)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider)()
+  name.vb: GraphCopy(Of ExtraFieldsDropdownProvider)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ExtraFieldsDropdownProvider>
+    nameWithType: ObjectExtensions.GraphCopy<ExtraFieldsDropdownProvider>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ExtraFieldsDropdownProvider)
+    nameWithType: ObjectExtensions.GraphCopy(Of ExtraFieldsDropdownProvider)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ExtraFieldsDropdownProvider, To>()
+  nameWithType: Converters.MapEnums<ExtraFieldsDropdownProvider, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider, To>()
+  nameWithType.vb: Converters.MapEnums(Of ExtraFieldsDropdownProvider, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider, To)()
+  name.vb: MapEnums(Of ExtraFieldsDropdownProvider, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ExtraFieldsDropdownProvider, To>
+    nameWithType: Converters.MapEnums<ExtraFieldsDropdownProvider, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ExtraFieldsDropdownProvider, To)
+    nameWithType: Converters.MapEnums(Of ExtraFieldsDropdownProvider, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.GetListName*
+  commentId: Overload:SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.GetListName
+  isExternal: true
+  name: GetListName
+  nameWithType: ExtraFieldsDropdownProvider.GetListName
+  fullName: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.GetListName
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.Construct*
+  commentId: Overload:SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.Construct
+  isExternal: true
+  name: Construct
+  nameWithType: ExtraFieldsDropdownProvider.Construct
+  fullName: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.Construct
+- uid: SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Lists.ISoListProvider
+  isExternal: true
+  name: Construct(String, String, Int32[], Boolean, String, Boolean)
+  nameWithType: ISoListProvider.Construct(String, String, Int32[], Boolean, String, Boolean)
+  fullName: SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String, System.String, System.Int32[], System.Boolean, System.String, System.Boolean)
+  nameWithType.vb: ISoListProvider.Construct(String, String, Int32(), Boolean, String, Boolean)
+  fullName.vb: SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String, System.String, System.Int32(), System.Boolean, System.String, System.Boolean)
+  name.vb: Construct(String, String, Int32(), Boolean, String, Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+    name: Construct
+    nameWithType: ISoListProvider.Construct
+    fullName: SuperOffice.CRM.Lists.ISoListProvider.Construct
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
+    name: Construct
+    nameWithType: ISoListProvider.Construct
+    fullName: SuperOffice.CRM.Lists.ISoListProvider.Construct
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.#ctor*
+  commentId: Overload:SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.#ctor
+  isExternal: true
+  name: ExtraFieldsDropdownProvider
+  nameWithType: ExtraFieldsDropdownProvider.ExtraFieldsDropdownProvider
+  fullName: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.ExtraFieldsDropdownProvider
+- uid: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.SupportedLists*
+  commentId: Overload:SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.SupportedLists
+  isExternal: true
+  name: SupportedLists
+  nameWithType: ExtraFieldsDropdownProvider.SupportedLists
+  fullName: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.SupportedLists
+- uid: SuperOffice.CRM.Lists.IDynamicMDOProvider.SupportedLists
+  commentId: P:SuperOffice.CRM.Lists.IDynamicMDOProvider.SupportedLists
+  parent: SuperOffice.CRM.Lists.IDynamicMDOProvider
+  isExternal: true
+  name: SupportedLists
+  nameWithType: IDynamicMDOProvider.SupportedLists
+  fullName: SuperOffice.CRM.Lists.IDynamicMDOProvider.SupportedLists
+- uid: SuperOffice.CRM.Lists.HistoryInfo[]
+  isExternal: true
+  name: HistoryInfo[]
+  nameWithType: HistoryInfo[]
+  fullName: SuperOffice.CRM.Lists.HistoryInfo[]
+  nameWithType.vb: HistoryInfo()
+  fullName.vb: SuperOffice.CRM.Lists.HistoryInfo()
+  name.vb: HistoryInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.HistoryInfo
+    name: HistoryInfo
+    nameWithType: HistoryInfo
+    fullName: SuperOffice.CRM.Lists.HistoryInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.HistoryInfo
+    name: HistoryInfo
+    nameWithType: HistoryInfo
+    fullName: SuperOffice.CRM.Lists.HistoryInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.HistoryInfo*
+  commentId: Overload:SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.HistoryInfo
+  isExternal: true
+  name: HistoryInfo
+  nameWithType: ExtraFieldsDropdownProvider.HistoryInfo
+  fullName: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.HistoryInfo
+- uid: SuperOffice.CRM.Lists.ISoListProvider.HistoryInfo
+  commentId: P:SuperOffice.CRM.Lists.ISoListProvider.HistoryInfo
+  parent: SuperOffice.CRM.Lists.ISoListProvider
+  isExternal: true
+  name: HistoryInfo
+  nameWithType: ISoListProvider.HistoryInfo
+  fullName: SuperOffice.CRM.Lists.ISoListProvider.HistoryInfo
+- uid: SuperOffice.CRM.Lists.HistoryInfo
+  commentId: T:SuperOffice.CRM.Lists.HistoryInfo
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: HistoryInfo
+  nameWithType: HistoryInfo
+  fullName: SuperOffice.CRM.Lists.HistoryInfo
+- uid: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.HistoryItems*
+  commentId: Overload:SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.HistoryItems
+  isExternal: true
+  name: HistoryItems
+  nameWithType: ExtraFieldsDropdownProvider.HistoryItems
+  fullName: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.HistoryItems
+- uid: SuperOffice.CRM.Lists.ISoList.HistoryItems
+  commentId: P:SuperOffice.CRM.Lists.ISoList.HistoryItems
+  parent: SuperOffice.CRM.Lists.ISoList
+  isExternal: true
+  name: HistoryItems
+  nameWithType: ISoList.HistoryItems
+  fullName: SuperOffice.CRM.Lists.ISoList.HistoryItems
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ISoListItem>
+  nameWithType: List<ISoListItem>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>
+  nameWithType.vb: List(Of ISoListItem)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem)
+  name.vb: List(Of ISoListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.RootItems*
+  commentId: Overload:SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.RootItems
+  isExternal: true
+  name: RootItems
+  nameWithType: ExtraFieldsDropdownProvider.RootItems
+  fullName: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.RootItems
+- uid: SuperOffice.CRM.Lists.ISoList.RootItems
+  commentId: P:SuperOffice.CRM.Lists.ISoList.RootItems
+  parent: SuperOffice.CRM.Lists.ISoList
+  isExternal: true
+  name: RootItems
+  nameWithType: ISoList.RootItems
+  fullName: SuperOffice.CRM.Lists.ISoList.RootItems
+- uid: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.HeadingItems*
+  commentId: Overload:SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.HeadingItems
+  isExternal: true
+  name: HeadingItems
+  nameWithType: ExtraFieldsDropdownProvider.HeadingItems
+  fullName: SuperOffice.CRM.Lists.ExtraFieldsDropdownProvider.HeadingItems
+- uid: SuperOffice.CRM.Lists.ISoList.HeadingItems
+  commentId: P:SuperOffice.CRM.Lists.ISoList.HeadingItems
+  parent: SuperOffice.CRM.Lists.ISoList
+  isExternal: true
+  name: HeadingItems
+  nameWithType: ISoList.HeadingItems
+  fullName: SuperOffice.CRM.Lists.ISoList.HeadingItems
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ISoListHeading>
+  nameWithType: List<ISoListHeading>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListHeading>
+  nameWithType.vb: List(Of ISoListHeading)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListHeading)
+  name.vb: List(Of ISoListHeading)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListHeading
+    name: ISoListHeading
+    nameWithType: ISoListHeading
+    fullName: SuperOffice.CRM.Lists.ISoListHeading
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListHeading
+    name: ISoListHeading
+    nameWithType: ISoListHeading
+    fullName: SuperOffice.CRM.Lists.ISoListHeading
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

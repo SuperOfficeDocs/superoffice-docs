@@ -1,0 +1,823 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.AssociateType
+  commentId: T:SuperOffice.Data.AssociateType
+  id: AssociateType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.AssociateType.Anonymous
+  - SuperOffice.Data.AssociateType.AnonymousBit
+  - SuperOffice.Data.AssociateType.Employee
+  - SuperOffice.Data.AssociateType.ExternalPerson
+  - SuperOffice.Data.AssociateType.NoCalenderBit
+  - SuperOffice.Data.AssociateType.NoPersonBit
+  - SuperOffice.Data.AssociateType.NoSentryBit
+  - SuperOffice.Data.AssociateType.Resource
+  - SuperOffice.Data.AssociateType.System
+  langs:
+  - csharp
+  - vb
+  name: AssociateType
+  nameWithType: AssociateType
+  fullName: SuperOffice.Data.AssociateType
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nField Type in table associate\nThis Enum is used by:  associate.type; AssociateHistory.type\nThis Enum consists of flag values that can be combined.\n"
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum AssociateType : short
+    content.vb: >-
+      <Flags>
+
+      Public Enum AssociateType As Short
+  extensionMethods:
+  - SuperOffice.Data.AssociateType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.AssociateType.SuperOffice.License.UserTypeHelper.GetUserType
+  - SuperOffice.Data.AssociateType.SuperOffice.License.UserTypeHelper.GetRoleType
+  - SuperOffice.Data.AssociateType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.AssociateType)
+  - SuperOffice.Data.AssociateType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.AssociateType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.AssociateType.NoPersonBit
+  commentId: F:SuperOffice.Data.AssociateType.NoPersonBit
+  id: NoPersonBit
+  parent: SuperOffice.Data.AssociateType
+  langs:
+  - csharp
+  - vb
+  name: NoPersonBit
+  nameWithType: AssociateType.NoPersonBit
+  fullName: SuperOffice.Data.AssociateType.NoPersonBit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Associates with this bit is not associated with any person. Disregard the PersonId for associates with this bit set\n"
+  syntax:
+    content: NoPersonBit = 1
+    return:
+      type: SuperOffice.Data.AssociateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.AssociateType.AnonymousBit
+  commentId: F:SuperOffice.Data.AssociateType.AnonymousBit
+  id: AnonymousBit
+  parent: SuperOffice.Data.AssociateType
+  langs:
+  - csharp
+  - vb
+  name: AnonymousBit
+  nameWithType: AssociateType.AnonymousBit
+  fullName: SuperOffice.Data.AssociateType.AnonymousBit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Associates of this type is not authenticated for SuperOffice\n"
+  syntax:
+    content: AnonymousBit = 2
+    return:
+      type: SuperOffice.Data.AssociateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.AssociateType.NoCalenderBit
+  commentId: F:SuperOffice.Data.AssociateType.NoCalenderBit
+  id: NoCalenderBit
+  parent: SuperOffice.Data.AssociateType
+  langs:
+  - csharp
+  - vb
+  name: NoCalenderBit
+  nameWithType: AssociateType.NoCalenderBit
+  fullName: SuperOffice.Data.AssociateType.NoCalenderBit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Associates with this bit do not have a calendar\n"
+  syntax:
+    content: NoCalenderBit = 4
+    return:
+      type: SuperOffice.Data.AssociateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.AssociateType.NoSentryBit
+  commentId: F:SuperOffice.Data.AssociateType.NoSentryBit
+  id: NoSentryBit
+  parent: SuperOffice.Data.AssociateType
+  langs:
+  - csharp
+  - vb
+  name: NoSentryBit
+  nameWithType: AssociateType.NoSentryBit
+  fullName: SuperOffice.Data.AssociateType.NoSentryBit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n8: Associates with this bit has full access rights, and the Sentry mechanism is bypassed\n"
+  syntax:
+    content: NoSentryBit = 8
+    return:
+      type: SuperOffice.Data.AssociateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.AssociateType.Employee
+  commentId: F:SuperOffice.Data.AssociateType.Employee
+  id: Employee
+  parent: SuperOffice.Data.AssociateType
+  langs:
+  - csharp
+  - vb
+  name: Employee
+  nameWithType: AssociateType.Employee
+  fullName: SuperOffice.Data.AssociateType.Employee
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: User / Employee\n"
+  syntax:
+    content: Employee = 0
+    return:
+      type: SuperOffice.Data.AssociateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.AssociateType.Resource
+  commentId: F:SuperOffice.Data.AssociateType.Resource
+  id: Resource
+  parent: SuperOffice.Data.AssociateType
+  langs:
+  - csharp
+  - vb
+  name: Resource
+  nameWithType: AssociateType.Resource
+  fullName: SuperOffice.Data.AssociateType.Resource
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Resource like meeting room and projector\n"
+  syntax:
+    content: Resource = 1
+    return:
+      type: SuperOffice.Data.AssociateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.AssociateType.ExternalPerson
+  commentId: F:SuperOffice.Data.AssociateType.ExternalPerson
+  id: ExternalPerson
+  parent: SuperOffice.Data.AssociateType
+  langs:
+  - csharp
+  - vb
+  name: ExternalPerson
+  nameWithType: AssociateType.ExternalPerson
+  fullName: SuperOffice.Data.AssociateType.ExternalPerson
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Person not working for the company taking part in Collaborative CRM (eCRM)\n"
+  syntax:
+    content: ExternalPerson = 4
+    return:
+      type: SuperOffice.Data.AssociateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.AssociateType.System
+  commentId: F:SuperOffice.Data.AssociateType.System
+  id: System
+  parent: SuperOffice.Data.AssociateType
+  langs:
+  - csharp
+  - vb
+  name: System
+  nameWithType: AssociateType.System
+  fullName: SuperOffice.Data.AssociateType.System
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n13: Application with full access rights (EAI)\n"
+  syntax:
+    content: System = 13
+    return:
+      type: SuperOffice.Data.AssociateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.AssociateType.Anonymous
+  commentId: F:SuperOffice.Data.AssociateType.Anonymous
+  id: Anonymous
+  parent: SuperOffice.Data.AssociateType
+  langs:
+  - csharp
+  - vb
+  name: Anonymous
+  nameWithType: AssociateType.Anonymous
+  fullName: SuperOffice.Data.AssociateType.Anonymous
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n7: Unknown party accessing the system (e.g. prospecting, eCRM)\n"
+  syntax:
+    content: Anonymous = 7
+    return:
+      type: SuperOffice.Data.AssociateType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.AssociateType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<AssociateType, To>()
+  nameWithType: EnumUtil.MapEnums<AssociateType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.AssociateType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AssociateType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.AssociateType, To)()
+  name.vb: MapEnums(Of AssociateType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AssociateType, To>
+    nameWithType: EnumUtil.MapEnums<AssociateType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.AssociateType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AssociateType, To)
+    nameWithType: EnumUtil.MapEnums(Of AssociateType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.AssociateType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.AssociateType.SuperOffice.License.UserTypeHelper.GetUserType
+  commentId: M:SuperOffice.License.UserTypeHelper.GetUserType(SuperOffice.Data.AssociateType)
+  parent: SuperOffice.License.UserTypeHelper
+  definition: SuperOffice.License.UserTypeHelper.GetUserType(SuperOffice.Data.AssociateType)
+  name: GetUserType()
+  nameWithType: UserTypeHelper.GetUserType()
+  fullName: SuperOffice.License.UserTypeHelper.GetUserType()
+  spec.csharp:
+  - uid: SuperOffice.License.UserTypeHelper.GetUserType
+    name: GetUserType
+    nameWithType: UserTypeHelper.GetUserType
+    fullName: SuperOffice.License.UserTypeHelper.GetUserType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.License.UserTypeHelper.GetUserType
+    name: GetUserType
+    nameWithType: UserTypeHelper.GetUserType
+    fullName: SuperOffice.License.UserTypeHelper.GetUserType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.AssociateType.SuperOffice.License.UserTypeHelper.GetRoleType
+  commentId: M:SuperOffice.License.UserTypeHelper.GetRoleType(SuperOffice.Data.AssociateType)
+  parent: SuperOffice.License.UserTypeHelper
+  definition: SuperOffice.License.UserTypeHelper.GetRoleType(SuperOffice.Data.AssociateType)
+  name: GetRoleType()
+  nameWithType: UserTypeHelper.GetRoleType()
+  fullName: SuperOffice.License.UserTypeHelper.GetRoleType()
+  spec.csharp:
+  - uid: SuperOffice.License.UserTypeHelper.GetRoleType
+    name: GetRoleType
+    nameWithType: UserTypeHelper.GetRoleType
+    fullName: SuperOffice.License.UserTypeHelper.GetRoleType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.License.UserTypeHelper.GetRoleType
+    name: GetRoleType
+    nameWithType: UserTypeHelper.GetRoleType
+    fullName: SuperOffice.License.UserTypeHelper.GetRoleType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.AssociateType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.AssociateType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<AssociateType>(AssociateType)
+  nameWithType: ObjectExtensions.AssignByReflection<AssociateType>(AssociateType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.AssociateType>(SuperOffice.Data.AssociateType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of AssociateType)(AssociateType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.AssociateType)(SuperOffice.Data.AssociateType)
+  name.vb: AssignByReflection(Of AssociateType)(AssociateType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<AssociateType>
+    nameWithType: ObjectExtensions.AssignByReflection<AssociateType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.AssociateType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.AssociateType
+    name: AssociateType
+    nameWithType: AssociateType
+    fullName: SuperOffice.Data.AssociateType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of AssociateType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of AssociateType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.AssociateType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.AssociateType
+    name: AssociateType
+    nameWithType: AssociateType
+    fullName: SuperOffice.Data.AssociateType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.AssociateType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<AssociateType>()
+  nameWithType: ObjectExtensions.GraphCopy<AssociateType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.AssociateType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of AssociateType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.AssociateType)()
+  name.vb: GraphCopy(Of AssociateType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<AssociateType>
+    nameWithType: ObjectExtensions.GraphCopy<AssociateType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.AssociateType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of AssociateType)
+    nameWithType: ObjectExtensions.GraphCopy(Of AssociateType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.AssociateType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.AssociateType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<AssociateType, To>()
+  nameWithType: Converters.MapEnums<AssociateType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.AssociateType, To>()
+  nameWithType.vb: Converters.MapEnums(Of AssociateType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.AssociateType, To)()
+  name.vb: MapEnums(Of AssociateType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AssociateType, To>
+    nameWithType: Converters.MapEnums<AssociateType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.AssociateType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AssociateType, To)
+    nameWithType: Converters.MapEnums(Of AssociateType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.AssociateType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.License.UserTypeHelper.GetUserType(SuperOffice.Data.AssociateType)
+  commentId: M:SuperOffice.License.UserTypeHelper.GetUserType(SuperOffice.Data.AssociateType)
+  isExternal: true
+  name: GetUserType(AssociateType)
+  nameWithType: UserTypeHelper.GetUserType(AssociateType)
+  fullName: SuperOffice.License.UserTypeHelper.GetUserType(SuperOffice.Data.AssociateType)
+  spec.csharp:
+  - uid: SuperOffice.License.UserTypeHelper.GetUserType(SuperOffice.Data.AssociateType)
+    name: GetUserType
+    nameWithType: UserTypeHelper.GetUserType
+    fullName: SuperOffice.License.UserTypeHelper.GetUserType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.AssociateType
+    name: AssociateType
+    nameWithType: AssociateType
+    fullName: SuperOffice.Data.AssociateType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.License.UserTypeHelper.GetUserType(SuperOffice.Data.AssociateType)
+    name: GetUserType
+    nameWithType: UserTypeHelper.GetUserType
+    fullName: SuperOffice.License.UserTypeHelper.GetUserType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.AssociateType
+    name: AssociateType
+    nameWithType: AssociateType
+    fullName: SuperOffice.Data.AssociateType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.License.UserTypeHelper
+  commentId: T:SuperOffice.License.UserTypeHelper
+  parent: SuperOffice.License
+  isExternal: true
+  name: UserTypeHelper
+  nameWithType: UserTypeHelper
+  fullName: SuperOffice.License.UserTypeHelper
+- uid: SuperOffice.License.UserTypeHelper.GetRoleType(SuperOffice.Data.AssociateType)
+  commentId: M:SuperOffice.License.UserTypeHelper.GetRoleType(SuperOffice.Data.AssociateType)
+  isExternal: true
+  name: GetRoleType(AssociateType)
+  nameWithType: UserTypeHelper.GetRoleType(AssociateType)
+  fullName: SuperOffice.License.UserTypeHelper.GetRoleType(SuperOffice.Data.AssociateType)
+  spec.csharp:
+  - uid: SuperOffice.License.UserTypeHelper.GetRoleType(SuperOffice.Data.AssociateType)
+    name: GetRoleType
+    nameWithType: UserTypeHelper.GetRoleType
+    fullName: SuperOffice.License.UserTypeHelper.GetRoleType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.AssociateType
+    name: AssociateType
+    nameWithType: AssociateType
+    fullName: SuperOffice.Data.AssociateType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.License.UserTypeHelper.GetRoleType(SuperOffice.Data.AssociateType)
+    name: GetRoleType
+    nameWithType: UserTypeHelper.GetRoleType
+    fullName: SuperOffice.License.UserTypeHelper.GetRoleType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.AssociateType
+    name: AssociateType
+    nameWithType: AssociateType
+    fullName: SuperOffice.Data.AssociateType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.License
+  commentId: N:SuperOffice.License
+  isExternal: true
+  name: SuperOffice.License
+  nameWithType: SuperOffice.License
+  fullName: SuperOffice.License
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.AssociateType
+  commentId: T:SuperOffice.Data.AssociateType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: AssociateType
+  nameWithType: AssociateType
+  fullName: SuperOffice.Data.AssociateType

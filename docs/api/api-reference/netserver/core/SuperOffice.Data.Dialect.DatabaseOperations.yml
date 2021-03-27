@@ -1,0 +1,1747 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Dialect.DatabaseOperations
+  commentId: T:SuperOffice.Data.Dialect.DatabaseOperations
+  id: DatabaseOperations
+  parent: SuperOffice.Data.Dialect
+  children:
+  - SuperOffice.Data.Dialect.DatabaseOperations.#ctor(System.String,System.String)
+  - SuperOffice.Data.Dialect.DatabaseOperations._allowTravelTransactionLog
+  - SuperOffice.Data.Dialect.DatabaseOperations._currentDialect
+  - SuperOffice.Data.Dialect.DatabaseOperations._ttlFlags
+  - SuperOffice.Data.Dialect.DatabaseOperations.BulkDelete(SuperOffice.Data.Dictionary.SoTable,System.Int32[])
+  - SuperOffice.Data.Dialect.DatabaseOperations.BulkDelete(SuperOffice.Data.SQL.Select)
+  - SuperOffice.Data.Dialect.DatabaseOperations.ExecuteNonQuery(System.String)
+  - SuperOffice.Data.Dialect.DatabaseOperations.GetConnectionString
+  - SuperOffice.Data.Dialect.DatabaseOperations.GetCurrent
+  - SuperOffice.Data.Dialect.DatabaseOperations.GetDatabaseSize
+  - SuperOffice.Data.Dialect.DatabaseOperations.GetDatabaseVersion
+  - SuperOffice.Data.Dialect.DatabaseOperations.GetDbConnectionForUserAdmin
+  - SuperOffice.Data.Dialect.DatabaseOperations.GetKilobytes(SuperOffice.Data.Dictionary.SoTable)
+  - SuperOffice.Data.Dialect.DatabaseOperations.GetRowCount(SuperOffice.Data.Dictionary.SoTable)
+  - SuperOffice.Data.Dialect.DatabaseOperations.GetSpecific(System.String,System.String)
+  - SuperOffice.Data.Dialect.DatabaseOperations.GetTableAdmin
+  - SuperOffice.Data.Dialect.DatabaseOperations.GetUserAdmin
+  - SuperOffice.Data.Dialect.DatabaseOperations.ImportTable(SuperOffice.Data.Dictionary.SoTable,System.Collections.Generic.IEnumerable{System.Object[]})
+  - SuperOffice.Data.Dialect.DatabaseOperations.InnerTruncateTable(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions)
+  - SuperOffice.Data.Dialect.DatabaseOperations.NumShipoutThreads
+  - SuperOffice.Data.Dialect.DatabaseOperations.SetOptions(System.Boolean,SuperOffice.Data.TtlFlags)
+  - SuperOffice.Data.Dialect.DatabaseOperations.ShipoutBatchSize
+  - SuperOffice.Data.Dialect.DatabaseOperations.TruncateTable(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions)
+  - SuperOffice.Data.Dialect.DatabaseOperations.WipeAndImportTable(SuperOffice.Data.Dictionary.SoTable,System.Collections.Generic.IEnumerable{System.Object[]})
+  - SuperOffice.Data.Dialect.DatabaseOperations.WriteBulkRows(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
+  langs:
+  - csharp
+  - vb
+  name: DatabaseOperations
+  nameWithType: DatabaseOperations
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nUtility class for performing database operations\n"
+  syntax:
+    content: public abstract class DatabaseOperations
+    content.vb: Public MustInherit Class DatabaseOperations
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.Data.Dialect.DB2Operations
+  - SuperOffice.Data.Dialect.OracleOperations
+  - SuperOffice.Data.Dialect.SqlServerOperations
+  - SuperOffice.Data.Dialect.SybaseOperations
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Data.Dialect.DatabaseOperations.EnumUtil.MapEnums``2
+  - SuperOffice.Data.Dialect.DatabaseOperations.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.Data.Dialect.DatabaseOperations._currentDialect
+  commentId: F:SuperOffice.Data.Dialect.DatabaseOperations._currentDialect
+  id: _currentDialect
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  langs:
+  - csharp
+  - vb
+  name: _currentDialect
+  nameWithType: DatabaseOperations._currentDialect
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations._currentDialect
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: protected readonly Dialect _currentDialect
+    return:
+      type: SuperOffice.Data.Dialect.Dialect
+    content.vb: Protected ReadOnly _currentDialect As Dialect
+  modifiers.csharp:
+  - protected
+  - readonly
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: SuperOffice.Data.Dialect.DatabaseOperations._allowTravelTransactionLog
+  commentId: F:SuperOffice.Data.Dialect.DatabaseOperations._allowTravelTransactionLog
+  id: _allowTravelTransactionLog
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  langs:
+  - csharp
+  - vb
+  name: _allowTravelTransactionLog
+  nameWithType: DatabaseOperations._allowTravelTransactionLog
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations._allowTravelTransactionLog
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: protected bool _allowTravelTransactionLog
+    return:
+      type: System.Boolean
+    content.vb: Protected _allowTravelTransactionLog As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Data.Dialect.DatabaseOperations._ttlFlags
+  commentId: F:SuperOffice.Data.Dialect.DatabaseOperations._ttlFlags
+  id: _ttlFlags
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  langs:
+  - csharp
+  - vb
+  name: _ttlFlags
+  nameWithType: DatabaseOperations._ttlFlags
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations._ttlFlags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: protected TtlFlags _ttlFlags
+    return:
+      type: SuperOffice.Data.TtlFlags
+    content.vb: Protected _ttlFlags As TtlFlags
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.#ctor(System.String,System.String)
+  commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  langs:
+  - csharp
+  - vb
+  name: DatabaseOperations(String, String)
+  nameWithType: DatabaseOperations.DatabaseOperations(String, String)
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.DatabaseOperations(System.String, System.String)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: protected DatabaseOperations(string databaseMajor, string databaseMinor)
+    parameters:
+    - id: databaseMajor
+      type: System.String
+    - id: databaseMinor
+      type: System.String
+    content.vb: Protected Sub New(databaseMajor As String, databaseMinor As String)
+  overload: SuperOffice.Data.Dialect.DatabaseOperations.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.GetCurrent
+  commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.GetCurrent
+  id: GetCurrent
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  langs:
+  - csharp
+  - vb
+  name: GetCurrent()
+  nameWithType: DatabaseOperations.GetCurrent()
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.GetCurrent()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nObtain reference to DatabaseOperations for the current database.\n"
+  syntax:
+    content: public static DatabaseOperations GetCurrent()
+    return:
+      type: SuperOffice.Data.Dialect.DatabaseOperations
+    content.vb: Public Shared Function GetCurrent As DatabaseOperations
+  overload: SuperOffice.Data.Dialect.DatabaseOperations.GetCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.GetSpecific(System.String,System.String)
+  commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.GetSpecific(System.String,System.String)
+  id: GetSpecific(System.String,System.String)
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  langs:
+  - csharp
+  - vb
+  name: GetSpecific(String, String)
+  nameWithType: DatabaseOperations.GetSpecific(String, String)
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.GetSpecific(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: public static DatabaseOperations GetSpecific(string databaseMajor, string databaseMinor)
+    parameters:
+    - id: databaseMajor
+      type: System.String
+    - id: databaseMinor
+      type: System.String
+    return:
+      type: SuperOffice.Data.Dialect.DatabaseOperations
+    content.vb: Public Shared Function GetSpecific(databaseMajor As String, databaseMinor As String) As DatabaseOperations
+  overload: SuperOffice.Data.Dialect.DatabaseOperations.GetSpecific*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.SetOptions(System.Boolean,SuperOffice.Data.TtlFlags)
+  commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.SetOptions(System.Boolean,SuperOffice.Data.TtlFlags)
+  id: SetOptions(System.Boolean,SuperOffice.Data.TtlFlags)
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  langs:
+  - csharp
+  - vb
+  name: SetOptions(Boolean, TtlFlags)
+  nameWithType: DatabaseOperations.SetOptions(Boolean, TtlFlags)
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.SetOptions(System.Boolean, SuperOffice.Data.TtlFlags)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: public DatabaseOperations SetOptions(bool allowTravelTransactionLog, TtlFlags ttlFlags)
+    parameters:
+    - id: allowTravelTransactionLog
+      type: System.Boolean
+    - id: ttlFlags
+      type: SuperOffice.Data.TtlFlags
+    return:
+      type: SuperOffice.Data.Dialect.DatabaseOperations
+    content.vb: Public Function SetOptions(allowTravelTransactionLog As Boolean, ttlFlags As TtlFlags) As DatabaseOperations
+  overload: SuperOffice.Data.Dialect.DatabaseOperations.SetOptions*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.TruncateTable(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions)
+  commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.TruncateTable(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions)
+  id: TruncateTable(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions)
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  langs:
+  - csharp
+  - vb
+  name: TruncateTable(SoTable, DatabaseOperations.TruncateOptions)
+  nameWithType: DatabaseOperations.TruncateTable(SoTable, DatabaseOperations.TruncateOptions)
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.TruncateTable(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nThrow away all the rows in a table. On most databases this is an operation that is very fast,\nbut it is <strong>not logged</strong> in the database transaction log and so cannot be rolled back.\n<p></p>\nIt is also <strong>not logged</strong> in the superoffice traveltransactionlog, so it is not replicated, and\nshould generally not be used on tables that are subject to replication.\n"
+  remarks: "\nOn Oracle, it requires the DROP ANY TABLE privilege. On DB/2 DELETE, CONTROL and DATACCESS are required.\nAny DELETE triggers are generally <strong>not</strong> executed, though this might vary with database and access.\n"
+  syntax:
+    content: public virtual int TruncateTable(SoTable table, DatabaseOperations.TruncateOptions options = DatabaseOperations.TruncateOptions.DeallocateStorage)
+    parameters:
+    - id: table
+      type: SuperOffice.Data.Dictionary.SoTable
+      description: The table to truncate - remember, there is no undo, even with transactions!
+    - id: options
+      type: SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions
+      description: Storage allocation options, may or may not be supported
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Function TruncateTable(table As SoTable, options As DatabaseOperations.TruncateOptions = DatabaseOperations.TruncateOptions.DeallocateStorage) As Integer
+  overload: SuperOffice.Data.Dialect.DatabaseOperations.TruncateTable*
+  see:
+  - linkType: HRef
+    linkId: http://docs.oracle.com/cd/B28359_01/server.111/b28286/statements_10007.htm
+    altText: http://docs.oracle.com/cd/B28359_01/server.111/b28286/statements_10007.htm
+  - linkType: HRef
+    linkId: http://pic.dhe.ibm.com/infocenter/db2luw/v9r7/index.jsp?topic=%2Fcom.ibm.db2.luw.sql.ref.doc%2Fdoc%2Fr0053474.html
+    altText: http://pic.dhe.ibm.com/infocenter/db2luw/v9r7/index.jsp?topic=%2Fcom.ibm.db2.luw.sql.ref.doc%2Fdoc%2Fr0053474.html
+  - linkType: HRef
+    linkId: http://manuals.sybase.com/onlinebooks/group-as/asg1250e/sqlug/@Generic__BookTextView/28213;pt=28336
+    altText: http://manuals.sybase.com/onlinebooks/group-as/asg1250e/sqlug/@Generic__BookTextView/28213;pt=28336
+  - linkType: HRef
+    linkId: http://msdn.microsoft.com/en-us/library/ms177570.aspx
+    altText: http://msdn.microsoft.com/en-us/library/ms177570.aspx
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.InnerTruncateTable(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions)
+  commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.InnerTruncateTable(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions)
+  id: InnerTruncateTable(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions)
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  langs:
+  - csharp
+  - vb
+  name: InnerTruncateTable(SoTable, DatabaseOperations.TruncateOptions)
+  nameWithType: DatabaseOperations.InnerTruncateTable(SoTable, DatabaseOperations.TruncateOptions)
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.InnerTruncateTable(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: public abstract void InnerTruncateTable(SoTable table, DatabaseOperations.TruncateOptions options = DatabaseOperations.TruncateOptions.DeallocateStorage)
+    parameters:
+    - id: table
+      type: SuperOffice.Data.Dictionary.SoTable
+    - id: options
+      type: SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions
+    content.vb: Public MustOverride Sub InnerTruncateTable(table As SoTable, options As DatabaseOperations.TruncateOptions = DatabaseOperations.TruncateOptions.DeallocateStorage)
+  overload: SuperOffice.Data.Dialect.DatabaseOperations.InnerTruncateTable*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.WipeAndImportTable(SuperOffice.Data.Dictionary.SoTable,System.Collections.Generic.IEnumerable{System.Object[]})
+  commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.WipeAndImportTable(SuperOffice.Data.Dictionary.SoTable,System.Collections.Generic.IEnumerable{System.Object[]})
+  id: WipeAndImportTable(SuperOffice.Data.Dictionary.SoTable,System.Collections.Generic.IEnumerable{System.Object[]})
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  langs:
+  - csharp
+  - vb
+  name: WipeAndImportTable(SoTable, IEnumerable<Object[]>)
+  nameWithType: DatabaseOperations.WipeAndImportTable(SoTable, IEnumerable<Object[]>)
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.WipeAndImportTable(SuperOffice.Data.Dictionary.SoTable, System.Collections.Generic.IEnumerable<System.Object[]>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: public virtual long WipeAndImportTable(SoTable table, IEnumerable<object[]> rows)
+    parameters:
+    - id: table
+      type: SuperOffice.Data.Dictionary.SoTable
+    - id: rows
+      type: System.Collections.Generic.IEnumerable{System.Object[]}
+    return:
+      type: System.Int64
+    content.vb: Public Overridable Function WipeAndImportTable(table As SoTable, rows As IEnumerable(Of Object())) As Long
+  overload: SuperOffice.Data.Dialect.DatabaseOperations.WipeAndImportTable*
+  nameWithType.vb: DatabaseOperations.WipeAndImportTable(SoTable, IEnumerable(Of Object()))
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.Data.Dialect.DatabaseOperations.WipeAndImportTable(SuperOffice.Data.Dictionary.SoTable, System.Collections.Generic.IEnumerable(Of System.Object()))
+  name.vb: WipeAndImportTable(SoTable, IEnumerable(Of Object()))
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.ImportTable(SuperOffice.Data.Dictionary.SoTable,System.Collections.Generic.IEnumerable{System.Object[]})
+  commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.ImportTable(SuperOffice.Data.Dictionary.SoTable,System.Collections.Generic.IEnumerable{System.Object[]})
+  id: ImportTable(SuperOffice.Data.Dictionary.SoTable,System.Collections.Generic.IEnumerable{System.Object[]})
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  langs:
+  - csharp
+  - vb
+  name: ImportTable(SoTable, IEnumerable<Object[]>)
+  nameWithType: DatabaseOperations.ImportTable(SoTable, IEnumerable<Object[]>)
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.ImportTable(SuperOffice.Data.Dictionary.SoTable, System.Collections.Generic.IEnumerable<System.Object[]>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nBulk-insert rows into a table. Please <strong>read and understand the remarks</strong> before using this method.\n"
+  remarks: "\nBulk insertion is a special API supported by some databases. It will insert rows in the fastest possible way, \nbut subject to a number of limitations; generally including the following:\n<ul><li>Normal NetServer logic (sequence numbers, traveltransctionlog (but see param), freetext etc) <strong>do not apply</strong></li><li>NetServer Sentry logic does not apply</li><li>Database transaction logging may not apply, rendering such insert impossible to roll back</li><li>Database triggers do not fire</li><li>Database-level replication features will not work; however SQL Server <strong>change tracking</strong> still registers the changes properly</li><li>Special permissions might be required on the database</li></ul>\nIn addition, full speed advantage is generally only available if indexes are not present.\n<p></p>\nImportTable will &quot;pull&quot; data from the rows parameter, and ship it in reasonably-sized\nbatches to the database server. It may use some level of parallelization to increase throughput,\nbut the iteration over the rows parameter will only be on the original thread. The method will\nreturn when the enumeration is exhausted.\n<p></p>\nOn databases that do not have bulk-insertion API, or where we haven&apos;t implemented it, the \nimplementation will fallback to ordinary NetServer insert&apos;s.\n<p></p>\nThe classes that actually implement Bulk Copy have the same syntax, more or less, but no common inheritance. <br />\nhttp://docs.oracle.com/html/E10927_01/OracleBulkCopyClass.htm <br />\nhttp://msdn.microsoft.com/en-us/library/system.data.sqlclient.sqlbulkcopy.aspx <br />\nhttp://dcx.sybase.com/1201/en/dbprogramming/programming-api-sabulkcopy-cla.html <br />\n"
+  syntax:
+    content: public virtual long ImportTable(SoTable table, IEnumerable<object[]> rows)
+    parameters:
+    - id: table
+      type: SuperOffice.Data.Dictionary.SoTable
+      description: Definition of table to dump data into
+    - id: rows
+      type: System.Collections.Generic.IEnumerable{System.Object[]}
+      description: >-
+        Enumeration of row objects, where each row object is an array of values. All
+
+        columns have to be specified, using values that are compatible with the table columns.
+    return:
+      type: System.Int64
+      description: Number of rows written to database
+    content.vb: Public Overridable Function ImportTable(table As SoTable, rows As IEnumerable(Of Object())) As Long
+  overload: SuperOffice.Data.Dialect.DatabaseOperations.ImportTable*
+  nameWithType.vb: DatabaseOperations.ImportTable(SoTable, IEnumerable(Of Object()))
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.Data.Dialect.DatabaseOperations.ImportTable(SuperOffice.Data.Dictionary.SoTable, System.Collections.Generic.IEnumerable(Of System.Object()))
+  name.vb: ImportTable(SoTable, IEnumerable(Of Object()))
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.WriteBulkRows(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
+  commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.WriteBulkRows(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
+  id: WriteBulkRows(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  langs:
+  - csharp
+  - vb
+  name: WriteBulkRows(DatabaseOperations.BulkImportInfo)
+  nameWithType: DatabaseOperations.WriteBulkRows(DatabaseOperations.BulkImportInfo)
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.WriteBulkRows(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nActual bulk insert implementation\n"
+  syntax:
+    content: protected abstract void WriteBulkRows(DatabaseOperations.BulkImportInfo workItem)
+    parameters:
+    - id: workItem
+      type: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
+    content.vb: Protected MustOverride Sub WriteBulkRows(workItem As DatabaseOperations.BulkImportInfo)
+  overload: SuperOffice.Data.Dialect.DatabaseOperations.WriteBulkRows*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkDelete(SuperOffice.Data.SQL.Select)
+  commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.BulkDelete(SuperOffice.Data.SQL.Select)
+  id: BulkDelete(SuperOffice.Data.SQL.Select)
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  langs:
+  - csharp
+  - vb
+  name: BulkDelete(Select)
+  nameWithType: DatabaseOperations.BulkDelete(Select)
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.BulkDelete(SuperOffice.Data.SQL.Select)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nEfficiently delete large numbers of rows, identified by a query that returns (only!) the primary keys of the rows to be deleted\n"
+  syntax:
+    content: public virtual int BulkDelete(Select rowSelector)
+    parameters:
+    - id: rowSelector
+      type: SuperOffice.Data.SQL.Select
+      description: >-
+        A <xref href="SuperOffice.Data.SQL.Select" data-throw-if-not-resolved="false"></xref> of arbitrary complexity, whose ReturnFields collection only has one field.
+
+        This field <strong>must</strong> be the primary key of a table
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Function BulkDelete(rowSelector As  Select) As Integer
+  overload: SuperOffice.Data.Dialect.DatabaseOperations.BulkDelete*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkDelete(SuperOffice.Data.Dictionary.SoTable,System.Int32[])
+  commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.BulkDelete(SuperOffice.Data.Dictionary.SoTable,System.Int32[])
+  id: BulkDelete(SuperOffice.Data.Dictionary.SoTable,System.Int32[])
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  langs:
+  - csharp
+  - vb
+  name: BulkDelete(SoTable, Int32[])
+  nameWithType: DatabaseOperations.BulkDelete(SoTable, Int32[])
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.BulkDelete(SuperOffice.Data.Dictionary.SoTable, System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nEfficiently delete large numbers of rows, identified by a query that returns (only!) the primary keys of the rows to be deleted\n"
+  syntax:
+    content: public virtual int BulkDelete(SoTable target, int[] iDs)
+    parameters:
+    - id: target
+      type: SuperOffice.Data.Dictionary.SoTable
+    - id: iDs
+      type: System.Int32[]
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Function BulkDelete(target As SoTable, iDs As Integer()) As Integer
+  overload: SuperOffice.Data.Dialect.DatabaseOperations.BulkDelete*
+  nameWithType.vb: DatabaseOperations.BulkDelete(SoTable, Int32())
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.Data.Dialect.DatabaseOperations.BulkDelete(SuperOffice.Data.Dictionary.SoTable, System.Int32())
+  name.vb: BulkDelete(SoTable, Int32())
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.GetDatabaseSize
+  commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.GetDatabaseSize
+  id: GetDatabaseSize
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  langs:
+  - csharp
+  - vb
+  name: GetDatabaseSize()
+  nameWithType: DatabaseOperations.GetDatabaseSize()
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.GetDatabaseSize()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nGet the total database size (including any unallocated space inside the db, etc) in megabytes\n"
+  syntax:
+    content: public abstract int GetDatabaseSize()
+    return:
+      type: System.Int32
+    content.vb: Public MustOverride Function GetDatabaseSize As Integer
+  overload: SuperOffice.Data.Dialect.DatabaseOperations.GetDatabaseSize*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.GetDatabaseVersion
+  commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.GetDatabaseVersion
+  id: GetDatabaseVersion
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  langs:
+  - csharp
+  - vb
+  name: GetDatabaseVersion()
+  nameWithType: DatabaseOperations.GetDatabaseVersion()
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.GetDatabaseVersion()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: public abstract string GetDatabaseVersion()
+    return:
+      type: System.String
+    content.vb: Public MustOverride Function GetDatabaseVersion As String
+  overload: SuperOffice.Data.Dialect.DatabaseOperations.GetDatabaseVersion*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.GetRowCount(SuperOffice.Data.Dictionary.SoTable)
+  commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.GetRowCount(SuperOffice.Data.Dictionary.SoTable)
+  id: GetRowCount(SuperOffice.Data.Dictionary.SoTable)
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  langs:
+  - csharp
+  - vb
+  name: GetRowCount(SoTable)
+  nameWithType: DatabaseOperations.GetRowCount(SoTable)
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.GetRowCount(SuperOffice.Data.Dictionary.SoTable)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: public abstract int GetRowCount(SoTable table)
+    parameters:
+    - id: table
+      type: SuperOffice.Data.Dictionary.SoTable
+    return:
+      type: System.Int32
+    content.vb: Public MustOverride Function GetRowCount(table As SoTable) As Integer
+  overload: SuperOffice.Data.Dialect.DatabaseOperations.GetRowCount*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.GetKilobytes(SuperOffice.Data.Dictionary.SoTable)
+  commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.GetKilobytes(SuperOffice.Data.Dictionary.SoTable)
+  id: GetKilobytes(SuperOffice.Data.Dictionary.SoTable)
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  langs:
+  - csharp
+  - vb
+  name: GetKilobytes(SoTable)
+  nameWithType: DatabaseOperations.GetKilobytes(SoTable)
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.GetKilobytes(SuperOffice.Data.Dictionary.SoTable)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: public abstract int GetKilobytes(SoTable table)
+    parameters:
+    - id: table
+      type: SuperOffice.Data.Dictionary.SoTable
+    return:
+      type: System.Int32
+    content.vb: Public MustOverride Function GetKilobytes(table As SoTable) As Integer
+  overload: SuperOffice.Data.Dialect.DatabaseOperations.GetKilobytes*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.GetUserAdmin
+  commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.GetUserAdmin
+  id: GetUserAdmin
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  langs:
+  - csharp
+  - vb
+  name: GetUserAdmin()
+  nameWithType: DatabaseOperations.GetUserAdmin()
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.GetUserAdmin()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nGet the user credentials for the user that is permitted to modify database users.\n"
+  syntax:
+    content: >-
+      [Obsolete("Database users are no longer supported by NetServer", true)]
+
+      protected DatabaseOperations.UserInfo GetUserAdmin()
+    return:
+      type: SuperOffice.Data.Dialect.DatabaseOperations.UserInfo
+      description: Credentials for the user that is permitted to modify database users.
+    content.vb: >-
+      <Obsolete("Database users are no longer supported by NetServer", True)>
+
+      Protected Function GetUserAdmin As DatabaseOperations.UserInfo
+  overload: SuperOffice.Data.Dialect.DatabaseOperations.GetUserAdmin*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Database users are no longer supported by NetServer
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.GetTableAdmin
+  commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.GetTableAdmin
+  id: GetTableAdmin
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  langs:
+  - csharp
+  - vb
+  name: GetTableAdmin()
+  nameWithType: DatabaseOperations.GetTableAdmin()
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.GetTableAdmin()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nGet the user credentials for the user that is permitted to modify database tables.\n"
+  syntax:
+    content: >-
+      [Obsolete("Database users are no longer supported by NetServer", true)]
+
+      protected DatabaseOperations.UserInfo GetTableAdmin()
+    return:
+      type: SuperOffice.Data.Dialect.DatabaseOperations.UserInfo
+      description: Credentials for the user that is permitted to modify database tables.
+    content.vb: >-
+      <Obsolete("Database users are no longer supported by NetServer", True)>
+
+      Protected Function GetTableAdmin As DatabaseOperations.UserInfo
+  overload: SuperOffice.Data.Dialect.DatabaseOperations.GetTableAdmin*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Database users are no longer supported by NetServer
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.GetDbConnectionForUserAdmin
+  commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.GetDbConnectionForUserAdmin
+  id: GetDbConnectionForUserAdmin
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  langs:
+  - csharp
+  - vb
+  name: GetDbConnectionForUserAdmin()
+  nameWithType: DatabaseOperations.GetDbConnectionForUserAdmin()
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.GetDbConnectionForUserAdmin()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nGet a connection to the database connected as a User Administrator.\n"
+  syntax:
+    content: >-
+      [Obsolete("Database users are no longer supported by NetServer", true)]
+
+      protected SoConnection GetDbConnectionForUserAdmin()
+    return:
+      type: SuperOffice.Data.SoConnection
+      description: Connection to the database connected as a User Administrator.
+    content.vb: >-
+      <Obsolete("Database users are no longer supported by NetServer", True)>
+
+      Protected Function GetDbConnectionForUserAdmin As SoConnection
+  overload: SuperOffice.Data.Dialect.DatabaseOperations.GetDbConnectionForUserAdmin*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Database users are no longer supported by NetServer
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.ExecuteNonQuery(System.String)
+  commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.ExecuteNonQuery(System.String)
+  id: ExecuteNonQuery(System.String)
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  langs:
+  - csharp
+  - vb
+  name: ExecuteNonQuery(String)
+  nameWithType: DatabaseOperations.ExecuteNonQuery(String)
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.ExecuteNonQuery(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nExecute an SQL command that is not a query\n"
+  syntax:
+    content: protected void ExecuteNonQuery(string sqlCommand)
+    parameters:
+    - id: sqlCommand
+      type: System.String
+    content.vb: Protected Sub ExecuteNonQuery(sqlCommand As String)
+  overload: SuperOffice.Data.Dialect.DatabaseOperations.ExecuteNonQuery*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.GetConnectionString
+  commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.GetConnectionString
+  id: GetConnectionString
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  langs:
+  - csharp
+  - vb
+  name: GetConnectionString()
+  nameWithType: DatabaseOperations.GetConnectionString()
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.GetConnectionString()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: protected string GetConnectionString()
+    return:
+      type: System.String
+    content.vb: Protected Function GetConnectionString As String
+  overload: SuperOffice.Data.Dialect.DatabaseOperations.GetConnectionString*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.NumShipoutThreads
+  commentId: P:SuperOffice.Data.Dialect.DatabaseOperations.NumShipoutThreads
+  id: NumShipoutThreads
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  langs:
+  - csharp
+  - vb
+  name: NumShipoutThreads
+  nameWithType: DatabaseOperations.NumShipoutThreads
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.NumShipoutThreads
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nThe number of parallel threads that process the data chunks and write them to the database\n"
+  syntax:
+    content: protected virtual int NumShipoutThreads { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Protected Overridable ReadOnly Property NumShipoutThreads As Integer
+  overload: SuperOffice.Data.Dialect.DatabaseOperations.NumShipoutThreads*
+  modifiers.csharp:
+  - protected
+  - virtual
+  - get
+  modifiers.vb:
+  - Protected
+  - Overridable
+  - ReadOnly
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.ShipoutBatchSize
+  commentId: P:SuperOffice.Data.Dialect.DatabaseOperations.ShipoutBatchSize
+  id: ShipoutBatchSize
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  langs:
+  - csharp
+  - vb
+  name: ShipoutBatchSize
+  nameWithType: DatabaseOperations.ShipoutBatchSize
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.ShipoutBatchSize
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  summary: "\nThe size of the batches that are queued for shipping out to the database\n"
+  syntax:
+    content: protected virtual int ShipoutBatchSize { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Protected Overridable ReadOnly Property ShipoutBatchSize As Integer
+  overload: SuperOffice.Data.Dialect.DatabaseOperations.ShipoutBatchSize*
+  modifiers.csharp:
+  - protected
+  - virtual
+  - get
+  modifiers.vb:
+  - Protected
+  - Overridable
+  - ReadOnly
+references:
+- uid: SuperOffice.Data.Dialect
+  commentId: N:SuperOffice.Data.Dialect
+  isExternal: true
+  name: SuperOffice.Data.Dialect
+  nameWithType: SuperOffice.Data.Dialect
+  fullName: SuperOffice.Data.Dialect
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<DatabaseOperations, To>()
+  nameWithType: EnumUtil.MapEnums<DatabaseOperations, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Dialect.DatabaseOperations, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DatabaseOperations, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Dialect.DatabaseOperations, To)()
+  name.vb: MapEnums(Of DatabaseOperations, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DatabaseOperations, To>
+    nameWithType: EnumUtil.MapEnums<DatabaseOperations, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.Dialect.DatabaseOperations, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DatabaseOperations, To)
+    nameWithType: EnumUtil.MapEnums(Of DatabaseOperations, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.Dialect.DatabaseOperations, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<DatabaseOperations, To>()
+  nameWithType: Converters.MapEnums<DatabaseOperations, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dialect.DatabaseOperations, To>()
+  nameWithType.vb: Converters.MapEnums(Of DatabaseOperations, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dialect.DatabaseOperations, To)()
+  name.vb: MapEnums(Of DatabaseOperations, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DatabaseOperations, To>
+    nameWithType: Converters.MapEnums<DatabaseOperations, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dialect.DatabaseOperations, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DatabaseOperations, To)
+    nameWithType: Converters.MapEnums(Of DatabaseOperations, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dialect.DatabaseOperations, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.Dialect.Dialect
+  commentId: T:SuperOffice.Data.Dialect.Dialect
+  parent: SuperOffice.Data.Dialect
+  isExternal: true
+  name: Dialect
+  nameWithType: Dialect
+  fullName: SuperOffice.Data.Dialect.Dialect
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Data.TtlFlags
+  commentId: T:SuperOffice.Data.TtlFlags
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TtlFlags
+  nameWithType: TtlFlags
+  fullName: SuperOffice.Data.TtlFlags
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.#ctor*
+  commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.#ctor
+  isExternal: true
+  name: DatabaseOperations
+  nameWithType: DatabaseOperations.DatabaseOperations
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.DatabaseOperations
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.GetCurrent*
+  commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.GetCurrent
+  isExternal: true
+  name: GetCurrent
+  nameWithType: DatabaseOperations.GetCurrent
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.GetCurrent
+- uid: SuperOffice.Data.Dialect.DatabaseOperations
+  commentId: T:SuperOffice.Data.Dialect.DatabaseOperations
+  parent: SuperOffice.Data.Dialect
+  isExternal: true
+  name: DatabaseOperations
+  nameWithType: DatabaseOperations
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.GetSpecific*
+  commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.GetSpecific
+  isExternal: true
+  name: GetSpecific
+  nameWithType: DatabaseOperations.GetSpecific
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.GetSpecific
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.SetOptions*
+  commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.SetOptions
+  isExternal: true
+  name: SetOptions
+  nameWithType: DatabaseOperations.SetOptions
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.SetOptions
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.TruncateTable*
+  commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.TruncateTable
+  isExternal: true
+  name: TruncateTable
+  nameWithType: DatabaseOperations.TruncateTable
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.TruncateTable
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions
+  commentId: T:SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions
+  parent: SuperOffice.Data.Dialect
+  isExternal: true
+  name: DatabaseOperations.TruncateOptions
+  nameWithType: DatabaseOperations.TruncateOptions
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.InnerTruncateTable*
+  commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.InnerTruncateTable
+  isExternal: true
+  name: InnerTruncateTable
+  nameWithType: DatabaseOperations.InnerTruncateTable
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.InnerTruncateTable
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.WipeAndImportTable*
+  commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.WipeAndImportTable
+  isExternal: true
+  name: WipeAndImportTable
+  nameWithType: DatabaseOperations.WipeAndImportTable
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.WipeAndImportTable
+- uid: System.Collections.Generic.IEnumerable{System.Object[]}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Object[]}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Object[]>
+  nameWithType: IEnumerable<Object[]>
+  fullName: System.Collections.Generic.IEnumerable<System.Object[]>
+  nameWithType.vb: IEnumerable(Of Object())
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Object())
+  name.vb: IEnumerable(Of Object())
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.ImportTable*
+  commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.ImportTable
+  isExternal: true
+  name: ImportTable
+  nameWithType: DatabaseOperations.ImportTable
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.ImportTable
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.WriteBulkRows*
+  commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.WriteBulkRows
+  isExternal: true
+  name: WriteBulkRows
+  nameWithType: DatabaseOperations.WriteBulkRows
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.WriteBulkRows
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
+  commentId: T:SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
+  parent: SuperOffice.Data.Dialect
+  isExternal: true
+  name: DatabaseOperations.BulkImportInfo
+  nameWithType: DatabaseOperations.BulkImportInfo
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkDelete*
+  commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.BulkDelete
+  isExternal: true
+  name: BulkDelete
+  nameWithType: DatabaseOperations.BulkDelete
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.BulkDelete
+- uid: SuperOffice.Data.SQL.Select
+  commentId: T:SuperOffice.Data.SQL.Select
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Select
+  nameWithType: Select
+  fullName: SuperOffice.Data.SQL.Select
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.GetDatabaseSize*
+  commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.GetDatabaseSize
+  isExternal: true
+  name: GetDatabaseSize
+  nameWithType: DatabaseOperations.GetDatabaseSize
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.GetDatabaseSize
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.GetDatabaseVersion*
+  commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.GetDatabaseVersion
+  isExternal: true
+  name: GetDatabaseVersion
+  nameWithType: DatabaseOperations.GetDatabaseVersion
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.GetDatabaseVersion
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.GetRowCount*
+  commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.GetRowCount
+  isExternal: true
+  name: GetRowCount
+  nameWithType: DatabaseOperations.GetRowCount
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.GetRowCount
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.GetKilobytes*
+  commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.GetKilobytes
+  isExternal: true
+  name: GetKilobytes
+  nameWithType: DatabaseOperations.GetKilobytes
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.GetKilobytes
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.GetUserAdmin*
+  commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.GetUserAdmin
+  isExternal: true
+  name: GetUserAdmin
+  nameWithType: DatabaseOperations.GetUserAdmin
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.GetUserAdmin
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.UserInfo
+  commentId: T:SuperOffice.Data.Dialect.DatabaseOperations.UserInfo
+  parent: SuperOffice.Data.Dialect
+  isExternal: true
+  name: DatabaseOperations.UserInfo
+  nameWithType: DatabaseOperations.UserInfo
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.UserInfo
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.GetTableAdmin*
+  commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.GetTableAdmin
+  isExternal: true
+  name: GetTableAdmin
+  nameWithType: DatabaseOperations.GetTableAdmin
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.GetTableAdmin
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.GetDbConnectionForUserAdmin*
+  commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.GetDbConnectionForUserAdmin
+  isExternal: true
+  name: GetDbConnectionForUserAdmin
+  nameWithType: DatabaseOperations.GetDbConnectionForUserAdmin
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.GetDbConnectionForUserAdmin
+- uid: SuperOffice.Data.SoConnection
+  commentId: T:SuperOffice.Data.SoConnection
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoConnection
+  nameWithType: SoConnection
+  fullName: SuperOffice.Data.SoConnection
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.ExecuteNonQuery*
+  commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.ExecuteNonQuery
+  isExternal: true
+  name: ExecuteNonQuery
+  nameWithType: DatabaseOperations.ExecuteNonQuery
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.ExecuteNonQuery
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.GetConnectionString*
+  commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.GetConnectionString
+  isExternal: true
+  name: GetConnectionString
+  nameWithType: DatabaseOperations.GetConnectionString
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.GetConnectionString
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.NumShipoutThreads*
+  commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.NumShipoutThreads
+  isExternal: true
+  name: NumShipoutThreads
+  nameWithType: DatabaseOperations.NumShipoutThreads
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.NumShipoutThreads
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.ShipoutBatchSize*
+  commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.ShipoutBatchSize
+  isExternal: true
+  name: ShipoutBatchSize
+  nameWithType: DatabaseOperations.ShipoutBatchSize
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.ShipoutBatchSize

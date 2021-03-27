@@ -1,0 +1,793 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper
+  commentId: T:SuperOffice.CRM.Web.Data.Util.MDOListHelper
+  id: MDOListHelper
+  parent: SuperOffice.CRM.Web.Data.Util
+  children:
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ApplyDisplayName(SuperOffice.CRM.Web.Data.Util.ArchiveConfig,System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.FilterAndSortColumnList(System.String,System.String,System.Collections.Generic.ICollection{SuperOffice.CRM.Services.MDOListItem})
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.FilterAndSortColumnList(System.String,System.String,System.Collections.Generic.ICollection{SuperOffice.CRM.Services.SelectableMDOListItem})
+  - SuperOffice.CRM.Web.Data.Util.MDOListHelper.ToggleDefaultColumns(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[])
+  langs:
+  - csharp
+  - vb
+  name: MDOListHelper
+  nameWithType: MDOListHelper
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static class MDOListHelper
+    content.vb: Public Module MDOListHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.FilterAndSortColumnList(System.String,System.String,System.Collections.Generic.ICollection{SuperOffice.CRM.Services.SelectableMDOListItem})
+  commentId: M:SuperOffice.CRM.Web.Data.Util.MDOListHelper.FilterAndSortColumnList(System.String,System.String,System.Collections.Generic.ICollection{SuperOffice.CRM.Services.SelectableMDOListItem})
+  id: FilterAndSortColumnList(System.String,System.String,System.Collections.Generic.ICollection{SuperOffice.CRM.Services.SelectableMDOListItem})
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper
+  langs:
+  - csharp
+  - vb
+  name: FilterAndSortColumnList(String, String, ICollection<SelectableMDOListItem>)
+  nameWithType: MDOListHelper.FilterAndSortColumnList(String, String, ICollection<SelectableMDOListItem>)
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.FilterAndSortColumnList(System.String, System.String, System.Collections.Generic.ICollection<SuperOffice.CRM.Services.SelectableMDOListItem>)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static SelectableMDOListItem[] FilterAndSortColumnList(string provider, string gui, ICollection<SelectableMDOListItem> items)
+    parameters:
+    - id: provider
+      type: System.String
+    - id: gui
+      type: System.String
+    - id: items
+      type: System.Collections.Generic.ICollection{SuperOffice.CRM.Services.SelectableMDOListItem}
+    return:
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+    content.vb: Public Shared Function FilterAndSortColumnList(provider As String, gui As String, items As ICollection(Of SelectableMDOListItem)) As SelectableMDOListItem()
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.FilterAndSortColumnList*
+  nameWithType.vb: MDOListHelper.FilterAndSortColumnList(String, String, ICollection(Of SelectableMDOListItem))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Web.Data.Util.MDOListHelper.FilterAndSortColumnList(System.String, System.String, System.Collections.Generic.ICollection(Of SuperOffice.CRM.Services.SelectableMDOListItem))
+  name.vb: FilterAndSortColumnList(String, String, ICollection(Of SelectableMDOListItem))
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.FilterAndSortColumnList(System.String,System.String,System.Collections.Generic.ICollection{SuperOffice.CRM.Services.MDOListItem})
+  commentId: M:SuperOffice.CRM.Web.Data.Util.MDOListHelper.FilterAndSortColumnList(System.String,System.String,System.Collections.Generic.ICollection{SuperOffice.CRM.Services.MDOListItem})
+  id: FilterAndSortColumnList(System.String,System.String,System.Collections.Generic.ICollection{SuperOffice.CRM.Services.MDOListItem})
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper
+  langs:
+  - csharp
+  - vb
+  name: FilterAndSortColumnList(String, String, ICollection<MDOListItem>)
+  nameWithType: MDOListHelper.FilterAndSortColumnList(String, String, ICollection<MDOListItem>)
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.FilterAndSortColumnList(System.String, System.String, System.Collections.Generic.ICollection<SuperOffice.CRM.Services.MDOListItem>)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static MDOListItem[] FilterAndSortColumnList(string provider, string gui, ICollection<MDOListItem> items)
+    parameters:
+    - id: provider
+      type: System.String
+    - id: gui
+      type: System.String
+    - id: items
+      type: System.Collections.Generic.ICollection{SuperOffice.CRM.Services.MDOListItem}
+    return:
+      type: SuperOffice.CRM.Services.MDOListItem[]
+    content.vb: Public Shared Function FilterAndSortColumnList(provider As String, gui As String, items As ICollection(Of MDOListItem)) As MDOListItem()
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.FilterAndSortColumnList*
+  nameWithType.vb: MDOListHelper.FilterAndSortColumnList(String, String, ICollection(Of MDOListItem))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Web.Data.Util.MDOListHelper.FilterAndSortColumnList(System.String, System.String, System.Collections.Generic.ICollection(Of SuperOffice.CRM.Services.MDOListItem))
+  name.vb: FilterAndSortColumnList(String, String, ICollection(Of MDOListItem))
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ToggleDefaultColumns(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[])
+  commentId: M:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ToggleDefaultColumns(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[])
+  id: ToggleDefaultColumns(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[])
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper
+  langs:
+  - csharp
+  - vb
+  name: ToggleDefaultColumns(String, String, SelectableMDOListItem[])
+  nameWithType: MDOListHelper.ToggleDefaultColumns(String, String, SelectableMDOListItem[])
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ToggleDefaultColumns(System.String, System.String, SuperOffice.CRM.Services.SelectableMDOListItem[])
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static void ToggleDefaultColumns(string provider, string gui, SelectableMDOListItem[] items)
+    parameters:
+    - id: provider
+      type: System.String
+    - id: gui
+      type: System.String
+    - id: items
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+    content.vb: Public Shared Sub ToggleDefaultColumns(provider As String, gui As String, items As SelectableMDOListItem())
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ToggleDefaultColumns*
+  nameWithType.vb: MDOListHelper.ToggleDefaultColumns(String, String, SelectableMDOListItem())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ToggleDefaultColumns(System.String, System.String, SuperOffice.CRM.Services.SelectableMDOListItem())
+  name.vb: ToggleDefaultColumns(String, String, SelectableMDOListItem())
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ApplyDisplayName(SuperOffice.CRM.Web.Data.Util.ArchiveConfig,System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
+  commentId: M:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ApplyDisplayName(SuperOffice.CRM.Web.Data.Util.ArchiveConfig,System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
+  id: ApplyDisplayName(SuperOffice.CRM.Web.Data.Util.ArchiveConfig,System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo})
+  parent: SuperOffice.CRM.Web.Data.Util.MDOListHelper
+  langs:
+  - csharp
+  - vb
+  name: ApplyDisplayName(ArchiveConfig, IEnumerable<ArchiveColumnInfo>)
+  nameWithType: MDOListHelper.ApplyDisplayName(ArchiveConfig, IEnumerable<ArchiveColumnInfo>)
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ApplyDisplayName(SuperOffice.CRM.Web.Data.Util.ArchiveConfig, System.Collections.Generic.IEnumerable<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static void ApplyDisplayName(ArchiveConfig config, IEnumerable<ArchiveColumnInfo> items)
+    parameters:
+    - id: config
+      type: SuperOffice.CRM.Web.Data.Util.ArchiveConfig
+    - id: items
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+    content.vb: Public Shared Sub ApplyDisplayName(config As ArchiveConfig, items As IEnumerable(Of ArchiveColumnInfo))
+  overload: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ApplyDisplayName*
+  nameWithType.vb: MDOListHelper.ApplyDisplayName(ArchiveConfig, IEnumerable(Of ArchiveColumnInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ApplyDisplayName(SuperOffice.CRM.Web.Data.Util.ArchiveConfig, System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo))
+  name.vb: ApplyDisplayName(ArchiveConfig, IEnumerable(Of ArchiveColumnInfo))
+references:
+- uid: SuperOffice.CRM.Web.Data.Util
+  commentId: N:SuperOffice.CRM.Web.Data.Util
+  isExternal: true
+  name: SuperOffice.CRM.Web.Data.Util
+  nameWithType: SuperOffice.CRM.Web.Data.Util
+  fullName: SuperOffice.CRM.Web.Data.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.FilterAndSortColumnList*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.MDOListHelper.FilterAndSortColumnList
+  isExternal: true
+  name: FilterAndSortColumnList
+  nameWithType: MDOListHelper.FilterAndSortColumnList
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.FilterAndSortColumnList
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.ICollection{SuperOffice.CRM.Services.SelectableMDOListItem}
+  commentId: T:System.Collections.Generic.ICollection{SuperOffice.CRM.Services.SelectableMDOListItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<SelectableMDOListItem>
+  nameWithType: ICollection<SelectableMDOListItem>
+  fullName: System.Collections.Generic.ICollection<SuperOffice.CRM.Services.SelectableMDOListItem>
+  nameWithType.vb: ICollection(Of SelectableMDOListItem)
+  fullName.vb: System.Collections.Generic.ICollection(Of SuperOffice.CRM.Services.SelectableMDOListItem)
+  name.vb: ICollection(Of SelectableMDOListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem[]
+  isExternal: true
+  name: SelectableMDOListItem[]
+  nameWithType: SelectableMDOListItem[]
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem[]
+  nameWithType.vb: SelectableMDOListItem()
+  fullName.vb: SuperOffice.CRM.Services.SelectableMDOListItem()
+  name.vb: SelectableMDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.ICollection{SuperOffice.CRM.Services.MDOListItem}
+  commentId: T:System.Collections.Generic.ICollection{SuperOffice.CRM.Services.MDOListItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<MDOListItem>
+  nameWithType: ICollection<MDOListItem>
+  fullName: System.Collections.Generic.ICollection<SuperOffice.CRM.Services.MDOListItem>
+  nameWithType.vb: ICollection(Of MDOListItem)
+  fullName.vb: System.Collections.Generic.ICollection(Of SuperOffice.CRM.Services.MDOListItem)
+  name.vb: ICollection(Of MDOListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.MDOListItem[]
+  isExternal: true
+  name: MDOListItem[]
+  nameWithType: MDOListItem[]
+  fullName: SuperOffice.CRM.Services.MDOListItem[]
+  nameWithType.vb: MDOListItem()
+  fullName.vb: SuperOffice.CRM.Services.MDOListItem()
+  name.vb: MDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ToggleDefaultColumns*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ToggleDefaultColumns
+  isExternal: true
+  name: ToggleDefaultColumns
+  nameWithType: MDOListHelper.ToggleDefaultColumns
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ToggleDefaultColumns
+- uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ApplyDisplayName*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.MDOListHelper.ApplyDisplayName
+  isExternal: true
+  name: ApplyDisplayName
+  nameWithType: MDOListHelper.ApplyDisplayName
+  fullName: SuperOffice.CRM.Web.Data.Util.MDOListHelper.ApplyDisplayName
+- uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig
+  commentId: T:SuperOffice.CRM.Web.Data.Util.ArchiveConfig
+  parent: SuperOffice.CRM.Web.Data.Util
+  isExternal: true
+  name: ArchiveConfig
+  nameWithType: ArchiveConfig
+  fullName: SuperOffice.CRM.Web.Data.Util.ArchiveConfig
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ArchiveColumnInfo>
+  nameWithType: IEnumerable<ArchiveColumnInfo>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>
+  nameWithType.vb: IEnumerable(Of ArchiveColumnInfo)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  name.vb: IEnumerable(Of ArchiveColumnInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

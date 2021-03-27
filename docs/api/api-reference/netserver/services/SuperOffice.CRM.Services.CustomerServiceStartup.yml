@@ -1,0 +1,318 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.CustomerServiceStartup
+  commentId: T:SuperOffice.CRM.Services.CustomerServiceStartup
+  id: CustomerServiceStartup
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.CustomerServiceStartup.#ctor
+  - SuperOffice.CRM.Services.CustomerServiceStartup.RecaptchaSiteKey
+  - SuperOffice.CRM.Services.CustomerServiceStartup.TimezoneEnabled
+  - SuperOffice.CRM.Services.CustomerServiceStartup.ToString
+  - SuperOffice.CRM.Services.CustomerServiceStartup.ToString(System.String)
+  - SuperOffice.CRM.Services.CustomerServiceStartup.TZOffset
+  langs:
+  - csharp
+  - vb
+  name: CustomerServiceStartup
+  nameWithType: CustomerServiceStartup
+  fullName: SuperOffice.CRM.Services.CustomerServiceStartup
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis carrier contains various data needed by Service for startup. Do not use this API, as it is for internal use and might change without notice\n<p></p>\nCarrier object for CustomerServiceStartup.\nServices for the CustomerServiceStartup Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ICustomerServiceAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class CustomerServiceStartup : Carrier'
+    content.vb: >-
+      Public Class CustomerServiceStartup
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.CustomerServiceAgent
+    commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
+  - linkId: SuperOffice.CRM.Services.ICustomerServiceAgent
+    commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.CustomerServiceStartup.#ctor
+  commentId: M:SuperOffice.CRM.Services.CustomerServiceStartup.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.CustomerServiceStartup
+  langs:
+  - csharp
+  - vb
+  name: CustomerServiceStartup()
+  nameWithType: CustomerServiceStartup.CustomerServiceStartup()
+  fullName: SuperOffice.CRM.Services.CustomerServiceStartup.CustomerServiceStartup()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public CustomerServiceStartup()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.CustomerServiceStartup.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CustomerServiceStartup.ToString
+  commentId: M:SuperOffice.CRM.Services.CustomerServiceStartup.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.CustomerServiceStartup
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: CustomerServiceStartup.ToString()
+  fullName: SuperOffice.CRM.Services.CustomerServiceStartup.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.CustomerServiceStartup.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.CustomerServiceStartup.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.CustomerServiceStartup.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.CustomerServiceStartup
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: CustomerServiceStartup.ToString(String)
+  fullName: SuperOffice.CRM.Services.CustomerServiceStartup.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.CustomerServiceStartup.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CustomerServiceStartup.TimezoneEnabled
+  commentId: P:SuperOffice.CRM.Services.CustomerServiceStartup.TimezoneEnabled
+  id: TimezoneEnabled
+  parent: SuperOffice.CRM.Services.CustomerServiceStartup
+  langs:
+  - csharp
+  - vb
+  name: TimezoneEnabled
+  nameWithType: CustomerServiceStartup.TimezoneEnabled
+  fullName: SuperOffice.CRM.Services.CustomerServiceStartup.TimezoneEnabled
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIs timezone enabled \n"
+  syntax:
+    content: public virtual bool TimezoneEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property TimezoneEnabled As Boolean
+  overload: SuperOffice.CRM.Services.CustomerServiceStartup.TimezoneEnabled*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CustomerServiceStartup.TZOffset
+  commentId: P:SuperOffice.CRM.Services.CustomerServiceStartup.TZOffset
+  id: TZOffset
+  parent: SuperOffice.CRM.Services.CustomerServiceStartup
+  langs:
+  - csharp
+  - vb
+  name: TZOffset
+  nameWithType: CustomerServiceStartup.TZOffset
+  fullName: SuperOffice.CRM.Services.CustomerServiceStartup.TZOffset
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe offset in minutes compared with UTC, calculated for DateTime.Now \n"
+  syntax:
+    content: public virtual int TZOffset { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TZOffset As Integer
+  overload: SuperOffice.CRM.Services.CustomerServiceStartup.TZOffset*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CustomerServiceStartup.RecaptchaSiteKey
+  commentId: P:SuperOffice.CRM.Services.CustomerServiceStartup.RecaptchaSiteKey
+  id: RecaptchaSiteKey
+  parent: SuperOffice.CRM.Services.CustomerServiceStartup
+  langs:
+  - csharp
+  - vb
+  name: RecaptchaSiteKey
+  nameWithType: CustomerServiceStartup.RecaptchaSiteKey
+  fullName: SuperOffice.CRM.Services.CustomerServiceStartup.RecaptchaSiteKey
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA global recaptcha site key, used with the google recaptcha component. This value is taken from the web.config file \n"
+  syntax:
+    content: public virtual string RecaptchaSiteKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RecaptchaSiteKey As String
+  overload: SuperOffice.CRM.Services.CustomerServiceStartup.RecaptchaSiteKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.CustomerServiceAgent
+  commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
+  isExternal: true
+  name: CustomerServiceAgent
+  nameWithType: CustomerServiceAgent
+  fullName: SuperOffice.CRM.Services.CustomerServiceAgent
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent
+  commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ICustomerServiceAgent
+  nameWithType: ICustomerServiceAgent
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.CustomerServiceStartup.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.CustomerServiceStartup.#ctor
+  isExternal: true
+  name: CustomerServiceStartup
+  nameWithType: CustomerServiceStartup.CustomerServiceStartup
+  fullName: SuperOffice.CRM.Services.CustomerServiceStartup.CustomerServiceStartup
+- uid: SuperOffice.CRM.Services.CustomerServiceStartup.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.CustomerServiceStartup.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: CustomerServiceStartup.ToString
+  fullName: SuperOffice.CRM.Services.CustomerServiceStartup.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.CustomerServiceStartup.TimezoneEnabled*
+  commentId: Overload:SuperOffice.CRM.Services.CustomerServiceStartup.TimezoneEnabled
+  isExternal: true
+  name: TimezoneEnabled
+  nameWithType: CustomerServiceStartup.TimezoneEnabled
+  fullName: SuperOffice.CRM.Services.CustomerServiceStartup.TimezoneEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.CustomerServiceStartup.TZOffset*
+  commentId: Overload:SuperOffice.CRM.Services.CustomerServiceStartup.TZOffset
+  isExternal: true
+  name: TZOffset
+  nameWithType: CustomerServiceStartup.TZOffset
+  fullName: SuperOffice.CRM.Services.CustomerServiceStartup.TZOffset
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.CustomerServiceStartup.RecaptchaSiteKey*
+  commentId: Overload:SuperOffice.CRM.Services.CustomerServiceStartup.RecaptchaSiteKey
+  isExternal: true
+  name: RecaptchaSiteKey
+  nameWithType: CustomerServiceStartup.RecaptchaSiteKey
+  fullName: SuperOffice.CRM.Services.CustomerServiceStartup.RecaptchaSiteKey

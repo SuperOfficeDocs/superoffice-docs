@@ -1,0 +1,513 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Lists.IMenuListItem
+  commentId: T:SuperOffice.CRM.Lists.IMenuListItem
+  id: IMenuListItem
+  parent: SuperOffice.CRM.Lists
+  children:
+  - SuperOffice.CRM.Lists.IMenuListItem.CrudFlags
+  - SuperOffice.CRM.Lists.IMenuListItem.SubItems
+  - SuperOffice.CRM.Lists.IMenuListItem.Url
+  langs:
+  - csharp
+  - vb
+  name: IMenuListItem
+  nameWithType: IMenuListItem
+  fullName: SuperOffice.CRM.Lists.IMenuListItem
+  type: Interface
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nInterface for an MDO list item in a list for building menus\n"
+  syntax:
+    content: 'public interface IMenuListItem : ISoListItem'
+    content.vb: >-
+      Public Interface IMenuListItem
+          Inherits ISoListItem
+  inheritedMembers:
+  - SuperOffice.CRM.Lists.ISoListItem.Id
+  - SuperOffice.CRM.Lists.ISoListItem.Name
+  - SuperOffice.CRM.Lists.ISoListItem.Tooltip
+  - SuperOffice.CRM.Lists.ISoListItem.Rank
+  - SuperOffice.CRM.Lists.ISoListItem.Deleted
+  - SuperOffice.CRM.Lists.ISoListItem.Type
+  - SuperOffice.CRM.Lists.ISoListItem.Color
+  - SuperOffice.CRM.Lists.ISoListItem.IconHint
+  - SuperOffice.CRM.Lists.ISoListItem.StyleHint
+  - SuperOffice.CRM.Lists.ISoListItem.ExtraInfo
+  - SuperOffice.CRM.Lists.ISoListItem.FullName
+  extensionMethods:
+  - SuperOffice.CRM.Lists.IMenuListItem.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Lists.IMenuListItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Lists.IMenuListItem.Url
+  commentId: P:SuperOffice.CRM.Lists.IMenuListItem.Url
+  id: Url
+  parent: SuperOffice.CRM.Lists.IMenuListItem
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: IMenuListItem.Url
+  fullName: SuperOffice.CRM.Lists.IMenuListItem.Url
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nGet a url for the MenuListItem. It is usually a soprotocol url.\n"
+  syntax:
+    content: string Url { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Url As String
+  overload: SuperOffice.CRM.Lists.IMenuListItem.Url*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.Lists.IMenuListItem.CrudFlags
+  commentId: P:SuperOffice.CRM.Lists.IMenuListItem.CrudFlags
+  id: CrudFlags
+  parent: SuperOffice.CRM.Lists.IMenuListItem
+  langs:
+  - csharp
+  - vb
+  name: CrudFlags
+  nameWithType: IMenuListItem.CrudFlags
+  fullName: SuperOffice.CRM.Lists.IMenuListItem.CrudFlags
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nGets a flag indicating the operation the item is set to perform.\nIt is a combination of these characters: CRUD\n"
+  syntax:
+    content: string CrudFlags { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property CrudFlags As String
+  overload: SuperOffice.CRM.Lists.IMenuListItem.CrudFlags*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.Lists.IMenuListItem.SubItems
+  commentId: P:SuperOffice.CRM.Lists.IMenuListItem.SubItems
+  id: SubItems
+  parent: SuperOffice.CRM.Lists.IMenuListItem
+  langs:
+  - csharp
+  - vb
+  name: SubItems
+  nameWithType: IMenuListItem.SubItems
+  fullName: SuperOffice.CRM.Lists.IMenuListItem.SubItems
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nA menu item can have subitems\n"
+  syntax:
+    content: List<MenuListItem> SubItems { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.MenuListItem}
+    content.vb: ReadOnly Property SubItems As List(Of MenuListItem)
+  overload: SuperOffice.CRM.Lists.IMenuListItem.SubItems*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Lists
+  commentId: N:SuperOffice.CRM.Lists
+  isExternal: true
+  name: SuperOffice.CRM.Lists
+  nameWithType: SuperOffice.CRM.Lists
+  fullName: SuperOffice.CRM.Lists
+- uid: SuperOffice.CRM.Lists.ISoListItem.Id
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.Id
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: Id
+  nameWithType: ISoListItem.Id
+  fullName: SuperOffice.CRM.Lists.ISoListItem.Id
+- uid: SuperOffice.CRM.Lists.ISoListItem.Name
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.Name
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: Name
+  nameWithType: ISoListItem.Name
+  fullName: SuperOffice.CRM.Lists.ISoListItem.Name
+- uid: SuperOffice.CRM.Lists.ISoListItem.Tooltip
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.Tooltip
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: Tooltip
+  nameWithType: ISoListItem.Tooltip
+  fullName: SuperOffice.CRM.Lists.ISoListItem.Tooltip
+- uid: SuperOffice.CRM.Lists.ISoListItem.Rank
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.Rank
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: Rank
+  nameWithType: ISoListItem.Rank
+  fullName: SuperOffice.CRM.Lists.ISoListItem.Rank
+- uid: SuperOffice.CRM.Lists.ISoListItem.Deleted
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.Deleted
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: Deleted
+  nameWithType: ISoListItem.Deleted
+  fullName: SuperOffice.CRM.Lists.ISoListItem.Deleted
+- uid: SuperOffice.CRM.Lists.ISoListItem.Type
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.Type
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: Type
+  nameWithType: ISoListItem.Type
+  fullName: SuperOffice.CRM.Lists.ISoListItem.Type
+- uid: SuperOffice.CRM.Lists.ISoListItem.Color
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.Color
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: Color
+  nameWithType: ISoListItem.Color
+  fullName: SuperOffice.CRM.Lists.ISoListItem.Color
+- uid: SuperOffice.CRM.Lists.ISoListItem.IconHint
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.IconHint
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: IconHint
+  nameWithType: ISoListItem.IconHint
+  fullName: SuperOffice.CRM.Lists.ISoListItem.IconHint
+- uid: SuperOffice.CRM.Lists.ISoListItem.StyleHint
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.StyleHint
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: StyleHint
+  nameWithType: ISoListItem.StyleHint
+  fullName: SuperOffice.CRM.Lists.ISoListItem.StyleHint
+- uid: SuperOffice.CRM.Lists.ISoListItem.ExtraInfo
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.ExtraInfo
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: ISoListItem.ExtraInfo
+  fullName: SuperOffice.CRM.Lists.ISoListItem.ExtraInfo
+- uid: SuperOffice.CRM.Lists.ISoListItem.FullName
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.FullName
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: FullName
+  nameWithType: ISoListItem.FullName
+  fullName: SuperOffice.CRM.Lists.ISoListItem.FullName
+- uid: SuperOffice.CRM.Lists.IMenuListItem.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IMenuListItem, To>()
+  nameWithType: EnumUtil.MapEnums<IMenuListItem, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.IMenuListItem, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IMenuListItem, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.IMenuListItem, To)()
+  name.vb: MapEnums(Of IMenuListItem, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IMenuListItem, To>
+    nameWithType: EnumUtil.MapEnums<IMenuListItem, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.IMenuListItem, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IMenuListItem, To)
+    nameWithType: EnumUtil.MapEnums(Of IMenuListItem, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.IMenuListItem, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.IMenuListItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IMenuListItem, To>()
+  nameWithType: Converters.MapEnums<IMenuListItem, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.IMenuListItem, To>()
+  nameWithType.vb: Converters.MapEnums(Of IMenuListItem, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.IMenuListItem, To)()
+  name.vb: MapEnums(Of IMenuListItem, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IMenuListItem, To>
+    nameWithType: Converters.MapEnums<IMenuListItem, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.IMenuListItem, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IMenuListItem, To)
+    nameWithType: Converters.MapEnums(Of IMenuListItem, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.IMenuListItem, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ISoListItem
+  commentId: T:SuperOffice.CRM.Lists.ISoListItem
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: ISoListItem
+  nameWithType: ISoListItem
+  fullName: SuperOffice.CRM.Lists.ISoListItem
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Lists.IMenuListItem.Url*
+  commentId: Overload:SuperOffice.CRM.Lists.IMenuListItem.Url
+  isExternal: true
+  name: Url
+  nameWithType: IMenuListItem.Url
+  fullName: SuperOffice.CRM.Lists.IMenuListItem.Url
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Lists.IMenuListItem.CrudFlags*
+  commentId: Overload:SuperOffice.CRM.Lists.IMenuListItem.CrudFlags
+  isExternal: true
+  name: CrudFlags
+  nameWithType: IMenuListItem.CrudFlags
+  fullName: SuperOffice.CRM.Lists.IMenuListItem.CrudFlags
+- uid: SuperOffice.CRM.Lists.IMenuListItem.SubItems*
+  commentId: Overload:SuperOffice.CRM.Lists.IMenuListItem.SubItems
+  isExternal: true
+  name: SubItems
+  nameWithType: IMenuListItem.SubItems
+  fullName: SuperOffice.CRM.Lists.IMenuListItem.SubItems
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.MenuListItem}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Lists.MenuListItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<MenuListItem>
+  nameWithType: List<MenuListItem>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Lists.MenuListItem>
+  nameWithType.vb: List(Of MenuListItem)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Lists.MenuListItem)
+  name.vb: List(Of MenuListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.MenuListItem
+    name: MenuListItem
+    nameWithType: MenuListItem
+    fullName: SuperOffice.CRM.Lists.MenuListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.MenuListItem
+    name: MenuListItem
+    nameWithType: MenuListItem
+    fullName: SuperOffice.CRM.Lists.MenuListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

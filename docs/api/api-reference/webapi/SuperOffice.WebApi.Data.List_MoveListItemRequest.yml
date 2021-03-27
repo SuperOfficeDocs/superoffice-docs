@@ -1,0 +1,203 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_MoveListItemRequest
+  commentId: T:SuperOffice.WebApi.Data.List_MoveListItemRequest
+  id: List_MoveListItemRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_MoveListItemRequest.#ctor
+  - SuperOffice.WebApi.Data.List_MoveListItemRequest.Direction
+  - SuperOffice.WebApi.Data.List_MoveListItemRequest.ListItemId
+  - SuperOffice.WebApi.Data.List_MoveListItemRequest.UdListDefinitionId
+  langs:
+  - csharp
+  - vb
+  name: List_MoveListItemRequest
+  nameWithType: List_MoveListItemRequest
+  fullName: SuperOffice.WebApi.Data.List_MoveListItemRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_MoveListItemRequest : Object'
+    content.vb: >-
+      Public Class List_MoveListItemRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_MoveListItemRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_MoveListItemRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_MoveListItemRequest
+  langs:
+  - csharp
+  - vb
+  name: List_MoveListItemRequest()
+  nameWithType: List_MoveListItemRequest.List_MoveListItemRequest()
+  fullName: SuperOffice.WebApi.Data.List_MoveListItemRequest.List_MoveListItemRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_MoveListItemRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_MoveListItemRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_MoveListItemRequest.UdListDefinitionId
+  commentId: P:SuperOffice.WebApi.Data.List_MoveListItemRequest.UdListDefinitionId
+  id: UdListDefinitionId
+  parent: SuperOffice.WebApi.Data.List_MoveListItemRequest
+  langs:
+  - csharp
+  - vb
+  name: UdListDefinitionId
+  nameWithType: List_MoveListItemRequest.UdListDefinitionId
+  fullName: SuperOffice.WebApi.Data.List_MoveListItemRequest.UdListDefinitionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int UdListDefinitionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UdListDefinitionId As Integer
+  overload: SuperOffice.WebApi.Data.List_MoveListItemRequest.UdListDefinitionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_MoveListItemRequest.ListItemId
+  commentId: P:SuperOffice.WebApi.Data.List_MoveListItemRequest.ListItemId
+  id: ListItemId
+  parent: SuperOffice.WebApi.Data.List_MoveListItemRequest
+  langs:
+  - csharp
+  - vb
+  name: ListItemId
+  nameWithType: List_MoveListItemRequest.ListItemId
+  fullName: SuperOffice.WebApi.Data.List_MoveListItemRequest.ListItemId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ListItemId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ListItemId As Integer
+  overload: SuperOffice.WebApi.Data.List_MoveListItemRequest.ListItemId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_MoveListItemRequest.Direction
+  commentId: P:SuperOffice.WebApi.Data.List_MoveListItemRequest.Direction
+  id: Direction
+  parent: SuperOffice.WebApi.Data.List_MoveListItemRequest
+  langs:
+  - csharp
+  - vb
+  name: Direction
+  nameWithType: List_MoveListItemRequest.Direction
+  fullName: SuperOffice.WebApi.Data.List_MoveListItemRequest.Direction
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Direction { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Direction As Integer
+  overload: SuperOffice.WebApi.Data.List_MoveListItemRequest.Direction*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_MoveListItemRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_MoveListItemRequest.#ctor
+  isExternal: true
+  name: List_MoveListItemRequest
+  nameWithType: List_MoveListItemRequest.List_MoveListItemRequest
+  fullName: SuperOffice.WebApi.Data.List_MoveListItemRequest.List_MoveListItemRequest
+- uid: SuperOffice.WebApi.Data.List_MoveListItemRequest.UdListDefinitionId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_MoveListItemRequest.UdListDefinitionId
+  isExternal: true
+  name: UdListDefinitionId
+  nameWithType: List_MoveListItemRequest.UdListDefinitionId
+  fullName: SuperOffice.WebApi.Data.List_MoveListItemRequest.UdListDefinitionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.List_MoveListItemRequest.ListItemId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_MoveListItemRequest.ListItemId
+  isExternal: true
+  name: ListItemId
+  nameWithType: List_MoveListItemRequest.ListItemId
+  fullName: SuperOffice.WebApi.Data.List_MoveListItemRequest.ListItemId
+- uid: SuperOffice.WebApi.Data.List_MoveListItemRequest.Direction*
+  commentId: Overload:SuperOffice.WebApi.Data.List_MoveListItemRequest.Direction
+  isExternal: true
+  name: Direction
+  nameWithType: List_MoveListItemRequest.Direction
+  fullName: SuperOffice.WebApi.Data.List_MoveListItemRequest.Direction

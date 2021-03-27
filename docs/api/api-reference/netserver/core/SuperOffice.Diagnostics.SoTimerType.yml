@@ -1,0 +1,772 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Diagnostics.SoTimerType
+  commentId: T:SuperOffice.Diagnostics.SoTimerType
+  id: SoTimerType
+  parent: SuperOffice.Diagnostics
+  children:
+  - SuperOffice.Diagnostics.SoTimerType.Ajax
+  - SuperOffice.Diagnostics.SoTimerType.Aspx
+  - SuperOffice.Diagnostics.SoTimerType.BusinessLogic
+  - SuperOffice.Diagnostics.SoTimerType.Cache
+  - SuperOffice.Diagnostics.SoTimerType.Database
+  - SuperOffice.Diagnostics.SoTimerType.Initialization
+  - SuperOffice.Diagnostics.SoTimerType.MethodCall
+  - SuperOffice.Diagnostics.SoTimerType.Operation
+  - SuperOffice.Diagnostics.SoTimerType.ServiceMethod
+  - SuperOffice.Diagnostics.SoTimerType.SoProtocol
+  - SuperOffice.Diagnostics.SoTimerType.Thread
+  - SuperOffice.Diagnostics.SoTimerType.ThreadWait
+  - SuperOffice.Diagnostics.SoTimerType.Wcf
+  langs:
+  - csharp
+  - vb
+  name: SoTimerType
+  nameWithType: SoTimerType
+  fullName: SuperOffice.Diagnostics.SoTimerType
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nEnumerator describing what kind of task is being timed.\n"
+  syntax:
+    content: public enum SoTimerType
+    content.vb: Public Enum SoTimerType
+  extensionMethods:
+  - SuperOffice.Diagnostics.SoTimerType.EnumUtil.MapEnums``2
+  - SuperOffice.Diagnostics.SoTimerType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Diagnostics.SoTimerType)
+  - SuperOffice.Diagnostics.SoTimerType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Diagnostics.SoTimerType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Diagnostics.SoTimerType.ServiceMethod
+  commentId: F:SuperOffice.Diagnostics.SoTimerType.ServiceMethod
+  id: ServiceMethod
+  parent: SuperOffice.Diagnostics.SoTimerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceMethod
+  nameWithType: SoTimerType.ServiceMethod
+  fullName: SuperOffice.Diagnostics.SoTimerType.ServiceMethod
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nMethod in the service layer\n"
+  syntax:
+    content: ServiceMethod = 0
+    return:
+      type: SuperOffice.Diagnostics.SoTimerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Diagnostics.SoTimerType.Ajax
+  commentId: F:SuperOffice.Diagnostics.SoTimerType.Ajax
+  id: Ajax
+  parent: SuperOffice.Diagnostics.SoTimerType
+  langs:
+  - csharp
+  - vb
+  name: Ajax
+  nameWithType: SoTimerType.Ajax
+  fullName: SuperOffice.Diagnostics.SoTimerType.Ajax
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nAjax method dispatched to sm.web\n"
+  syntax:
+    content: Ajax = 1
+    return:
+      type: SuperOffice.Diagnostics.SoTimerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Diagnostics.SoTimerType.Aspx
+  commentId: F:SuperOffice.Diagnostics.SoTimerType.Aspx
+  id: Aspx
+  parent: SuperOffice.Diagnostics.SoTimerType
+  langs:
+  - csharp
+  - vb
+  name: Aspx
+  nameWithType: SoTimerType.Aspx
+  fullName: SuperOffice.Diagnostics.SoTimerType.Aspx
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nAspx web page\n"
+  syntax:
+    content: Aspx = 2
+    return:
+      type: SuperOffice.Diagnostics.SoTimerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Diagnostics.SoTimerType.Wcf
+  commentId: F:SuperOffice.Diagnostics.SoTimerType.Wcf
+  id: Wcf
+  parent: SuperOffice.Diagnostics.SoTimerType
+  langs:
+  - csharp
+  - vb
+  name: Wcf
+  nameWithType: SoTimerType.Wcf
+  fullName: SuperOffice.Diagnostics.SoTimerType.Wcf
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nWcf method\n"
+  syntax:
+    content: Wcf = 3
+    return:
+      type: SuperOffice.Diagnostics.SoTimerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Diagnostics.SoTimerType.Thread
+  commentId: F:SuperOffice.Diagnostics.SoTimerType.Thread
+  id: Thread
+  parent: SuperOffice.Diagnostics.SoTimerType
+  langs:
+  - csharp
+  - vb
+  name: Thread
+  nameWithType: SoTimerType.Thread
+  fullName: SuperOffice.Diagnostics.SoTimerType.Thread
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nBackground thread\n"
+  syntax:
+    content: Thread = 4
+    return:
+      type: SuperOffice.Diagnostics.SoTimerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Diagnostics.SoTimerType.ThreadWait
+  commentId: F:SuperOffice.Diagnostics.SoTimerType.ThreadWait
+  id: ThreadWait
+  parent: SuperOffice.Diagnostics.SoTimerType
+  langs:
+  - csharp
+  - vb
+  name: ThreadWait
+  nameWithType: SoTimerType.ThreadWait
+  fullName: SuperOffice.Diagnostics.SoTimerType.ThreadWait
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nWaiting for a trhead to complete\n"
+  syntax:
+    content: ThreadWait = 5
+    return:
+      type: SuperOffice.Diagnostics.SoTimerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Diagnostics.SoTimerType.Initialization
+  commentId: F:SuperOffice.Diagnostics.SoTimerType.Initialization
+  id: Initialization
+  parent: SuperOffice.Diagnostics.SoTimerType
+  langs:
+  - csharp
+  - vb
+  name: Initialization
+  nameWithType: SoTimerType.Initialization
+  fullName: SuperOffice.Diagnostics.SoTimerType.Initialization
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nInitailization\n"
+  syntax:
+    content: Initialization = 6
+    return:
+      type: SuperOffice.Diagnostics.SoTimerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Diagnostics.SoTimerType.BusinessLogic
+  commentId: F:SuperOffice.Diagnostics.SoTimerType.BusinessLogic
+  id: BusinessLogic
+  parent: SuperOffice.Diagnostics.SoTimerType
+  langs:
+  - csharp
+  - vb
+  name: BusinessLogic
+  nameWithType: SoTimerType.BusinessLogic
+  fullName: SuperOffice.Diagnostics.SoTimerType.BusinessLogic
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nBusiness logic - can be used for general purposs\n"
+  syntax:
+    content: BusinessLogic = 7
+    return:
+      type: SuperOffice.Diagnostics.SoTimerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Diagnostics.SoTimerType.Cache
+  commentId: F:SuperOffice.Diagnostics.SoTimerType.Cache
+  id: Cache
+  parent: SuperOffice.Diagnostics.SoTimerType
+  langs:
+  - csharp
+  - vb
+  name: Cache
+  nameWithType: SoTimerType.Cache
+  fullName: SuperOffice.Diagnostics.SoTimerType.Cache
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nLoading of caches\n"
+  syntax:
+    content: Cache = 8
+    return:
+      type: SuperOffice.Diagnostics.SoTimerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Diagnostics.SoTimerType.Database
+  commentId: F:SuperOffice.Diagnostics.SoTimerType.Database
+  id: Database
+  parent: SuperOffice.Diagnostics.SoTimerType
+  langs:
+  - csharp
+  - vb
+  name: Database
+  nameWithType: SoTimerType.Database
+  fullName: SuperOffice.Diagnostics.SoTimerType.Database
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nDataabse operations\n"
+  syntax:
+    content: Database = 9
+    return:
+      type: SuperOffice.Diagnostics.SoTimerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Diagnostics.SoTimerType.MethodCall
+  commentId: F:SuperOffice.Diagnostics.SoTimerType.MethodCall
+  id: MethodCall
+  parent: SuperOffice.Diagnostics.SoTimerType
+  langs:
+  - csharp
+  - vb
+  name: MethodCall
+  nameWithType: SoTimerType.MethodCall
+  fullName: SuperOffice.Diagnostics.SoTimerType.MethodCall
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nA generic method call\n"
+  syntax:
+    content: MethodCall = 10
+    return:
+      type: SuperOffice.Diagnostics.SoTimerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Diagnostics.SoTimerType.SoProtocol
+  commentId: F:SuperOffice.Diagnostics.SoTimerType.SoProtocol
+  id: SoProtocol
+  parent: SuperOffice.Diagnostics.SoTimerType
+  langs:
+  - csharp
+  - vb
+  name: SoProtocol
+  nameWithType: SoTimerType.SoProtocol
+  fullName: SuperOffice.Diagnostics.SoTimerType.SoProtocol
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nSoProtocol event handled by DCF/Module\n"
+  syntax:
+    content: SoProtocol = 11
+    return:
+      type: SuperOffice.Diagnostics.SoTimerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Diagnostics.SoTimerType.Operation
+  commentId: F:SuperOffice.Diagnostics.SoTimerType.Operation
+  id: Operation
+  parent: SuperOffice.Diagnostics.SoTimerType
+  langs:
+  - csharp
+  - vb
+  name: Operation
+  nameWithType: SoTimerType.Operation
+  fullName: SuperOffice.Diagnostics.SoTimerType.Operation
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nAn operation entered as part of enter operation context.\n"
+  syntax:
+    content: Operation = 12
+    return:
+      type: SuperOffice.Diagnostics.SoTimerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics
+- uid: SuperOffice.Diagnostics.SoTimerType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoTimerType, To>()
+  nameWithType: EnumUtil.MapEnums<SoTimerType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.SoTimerType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoTimerType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.SoTimerType, To)()
+  name.vb: MapEnums(Of SoTimerType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoTimerType, To>
+    nameWithType: EnumUtil.MapEnums<SoTimerType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.SoTimerType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoTimerType, To)
+    nameWithType: EnumUtil.MapEnums(Of SoTimerType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.SoTimerType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.SoTimerType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Diagnostics.SoTimerType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SoTimerType>(SoTimerType)
+  nameWithType: ObjectExtensions.AssignByReflection<SoTimerType>(SoTimerType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Diagnostics.SoTimerType>(SuperOffice.Diagnostics.SoTimerType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoTimerType)(SoTimerType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Diagnostics.SoTimerType)(SuperOffice.Diagnostics.SoTimerType)
+  name.vb: AssignByReflection(Of SoTimerType)(SoTimerType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SoTimerType>
+    nameWithType: ObjectExtensions.AssignByReflection<SoTimerType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Diagnostics.SoTimerType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Diagnostics.SoTimerType
+    name: SoTimerType
+    nameWithType: SoTimerType
+    fullName: SuperOffice.Diagnostics.SoTimerType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SoTimerType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SoTimerType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Diagnostics.SoTimerType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Diagnostics.SoTimerType
+    name: SoTimerType
+    nameWithType: SoTimerType
+    fullName: SuperOffice.Diagnostics.SoTimerType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.SoTimerType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SoTimerType>()
+  nameWithType: ObjectExtensions.GraphCopy<SoTimerType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Diagnostics.SoTimerType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoTimerType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Diagnostics.SoTimerType)()
+  name.vb: GraphCopy(Of SoTimerType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SoTimerType>
+    nameWithType: ObjectExtensions.GraphCopy<SoTimerType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Diagnostics.SoTimerType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SoTimerType)
+    nameWithType: ObjectExtensions.GraphCopy(Of SoTimerType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Diagnostics.SoTimerType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.SoTimerType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoTimerType, To>()
+  nameWithType: Converters.MapEnums<SoTimerType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.SoTimerType, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoTimerType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.SoTimerType, To)()
+  name.vb: MapEnums(Of SoTimerType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoTimerType, To>
+    nameWithType: Converters.MapEnums<SoTimerType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.SoTimerType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoTimerType, To)
+    nameWithType: Converters.MapEnums(Of SoTimerType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.SoTimerType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Diagnostics.SoTimerType
+  commentId: T:SuperOffice.Diagnostics.SoTimerType
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: SoTimerType
+  nameWithType: SoTimerType
+  fullName: SuperOffice.Diagnostics.SoTimerType

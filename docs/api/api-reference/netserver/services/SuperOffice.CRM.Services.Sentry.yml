@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.Sentry
+  commentId: T:SuperOffice.CRM.Services.Sentry
+  id: Sentry
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.Sentry.#ctor
+  - SuperOffice.CRM.Services.Sentry.ToString
+  - SuperOffice.CRM.Services.Sentry.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Sentry
+  nameWithType: Sentry
+  fullName: SuperOffice.CRM.Services.Sentry
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis service provides sentry information such as TableRights.\n<p></p>\nCarrier object for Sentry.\nServices for the Sentry Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ISentryAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class Sentry : Carrier'
+    content.vb: >-
+      Public Class Sentry
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.SentryAgent
+    commentId: T:SuperOffice.CRM.Services.SentryAgent
+  - linkId: SuperOffice.CRM.Services.ISentryAgent
+    commentId: T:SuperOffice.CRM.Services.ISentryAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.Sentry.#ctor
+  commentId: M:SuperOffice.CRM.Services.Sentry.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.Sentry
+  langs:
+  - csharp
+  - vb
+  name: Sentry()
+  nameWithType: Sentry.Sentry()
+  fullName: SuperOffice.CRM.Services.Sentry.Sentry()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public Sentry()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.Sentry.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Sentry.ToString
+  commentId: M:SuperOffice.CRM.Services.Sentry.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.Sentry
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Sentry.ToString()
+  fullName: SuperOffice.CRM.Services.Sentry.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.Sentry.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.Sentry.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.Sentry.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.Sentry
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: Sentry.ToString(String)
+  fullName: SuperOffice.CRM.Services.Sentry.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.Sentry.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.SentryAgent
+  commentId: T:SuperOffice.CRM.Services.SentryAgent
+  isExternal: true
+  name: SentryAgent
+  nameWithType: SentryAgent
+  fullName: SuperOffice.CRM.Services.SentryAgent
+- uid: SuperOffice.CRM.Services.ISentryAgent
+  commentId: T:SuperOffice.CRM.Services.ISentryAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ISentryAgent
+  nameWithType: ISentryAgent
+  fullName: SuperOffice.CRM.Services.ISentryAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.Sentry.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.Sentry.#ctor
+  isExternal: true
+  name: Sentry
+  nameWithType: Sentry.Sentry
+  fullName: SuperOffice.CRM.Services.Sentry.Sentry
+- uid: SuperOffice.CRM.Services.Sentry.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.Sentry.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: Sentry.ToString
+  fullName: SuperOffice.CRM.Services.Sentry.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

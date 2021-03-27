@@ -1,0 +1,418 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Threading.AsyncOperationFailure
+  commentId: T:SuperOffice.Threading.AsyncOperationFailure
+  id: AsyncOperationFailure
+  parent: SuperOffice.Threading
+  children:
+  - SuperOffice.Threading.AsyncOperationFailure.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.Threading.AsyncOperationFailure.BeginInvoke(SuperOffice.Threading.AsyncContext,System.Exception,System.AsyncCallback,System.Object)
+  - SuperOffice.Threading.AsyncOperationFailure.EndInvoke(System.IAsyncResult)
+  - SuperOffice.Threading.AsyncOperationFailure.Invoke(SuperOffice.Threading.AsyncContext,System.Exception)
+  langs:
+  - csharp
+  - vb
+  name: AsyncOperationFailure
+  nameWithType: AsyncOperationFailure
+  fullName: SuperOffice.Threading.AsyncOperationFailure
+  type: Delegate
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  summary: "\nDelegate describing the function signature required for a method that is called\nwhenever an asynchronous operation throws an exception.\n"
+  syntax:
+    content: public delegate void AsyncOperationFailure(AsyncContext context, Exception exception);
+    parameters:
+    - id: context
+      type: SuperOffice.Threading.AsyncContext
+      description: NetServer context
+    - id: exception
+      type: System.Exception
+      description: The exception being thrown. Log it, eat it, whatever
+    content.vb: Public Delegate Sub AsyncOperationFailure(context As AsyncContext, exception As Exception)
+  extensionMethods:
+  - SuperOffice.Threading.AsyncOperationFailure.EnumUtil.MapEnums``2
+  - SuperOffice.Threading.AsyncOperationFailure.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+- uid: SuperOffice.Threading.AsyncOperationFailure.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.Threading.AsyncOperationFailure.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.Threading.AsyncOperationFailure
+  langs:
+  - csharp
+  - vb
+  name: AsyncOperationFailure(Object, IntPtr)
+  nameWithType: AsyncOperationFailure.AsyncOperationFailure(Object, IntPtr)
+  fullName: SuperOffice.Threading.AsyncOperationFailure.AsyncOperationFailure(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public AsyncOperationFailure(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.Threading.AsyncOperationFailure.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Threading.AsyncOperationFailure.Invoke(SuperOffice.Threading.AsyncContext,System.Exception)
+  commentId: M:SuperOffice.Threading.AsyncOperationFailure.Invoke(SuperOffice.Threading.AsyncContext,System.Exception)
+  id: Invoke(SuperOffice.Threading.AsyncContext,System.Exception)
+  parent: SuperOffice.Threading.AsyncOperationFailure
+  langs:
+  - csharp
+  - vb
+  name: Invoke(AsyncContext, Exception)
+  nameWithType: AsyncOperationFailure.Invoke(AsyncContext, Exception)
+  fullName: SuperOffice.Threading.AsyncOperationFailure.Invoke(SuperOffice.Threading.AsyncContext, System.Exception)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public virtual void Invoke(AsyncContext context, Exception exception)
+    parameters:
+    - id: context
+      type: SuperOffice.Threading.AsyncContext
+    - id: exception
+      type: System.Exception
+    content.vb: Public Overridable Sub Invoke(context As AsyncContext, exception As Exception)
+  overload: SuperOffice.Threading.AsyncOperationFailure.Invoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Threading.AsyncOperationFailure.BeginInvoke(SuperOffice.Threading.AsyncContext,System.Exception,System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.Threading.AsyncOperationFailure.BeginInvoke(SuperOffice.Threading.AsyncContext,System.Exception,System.AsyncCallback,System.Object)
+  id: BeginInvoke(SuperOffice.Threading.AsyncContext,System.Exception,System.AsyncCallback,System.Object)
+  parent: SuperOffice.Threading.AsyncOperationFailure
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(AsyncContext, Exception, AsyncCallback, Object)
+  nameWithType: AsyncOperationFailure.BeginInvoke(AsyncContext, Exception, AsyncCallback, Object)
+  fullName: SuperOffice.Threading.AsyncOperationFailure.BeginInvoke(SuperOffice.Threading.AsyncContext, System.Exception, System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(AsyncContext context, Exception exception, AsyncCallback callback, object object)
+    parameters:
+    - id: context
+      type: SuperOffice.Threading.AsyncContext
+    - id: exception
+      type: System.Exception
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(context As AsyncContext, exception As Exception, callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.Threading.AsyncOperationFailure.BeginInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Threading.AsyncOperationFailure.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.Threading.AsyncOperationFailure.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.Threading.AsyncOperationFailure
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: AsyncOperationFailure.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.Threading.AsyncOperationFailure.EndInvoke(System.IAsyncResult)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public virtual void EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
+  overload: SuperOffice.Threading.AsyncOperationFailure.EndInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+- uid: SuperOffice.Threading.AsyncOperationFailure.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<AsyncOperationFailure, To>()
+  nameWithType: EnumUtil.MapEnums<AsyncOperationFailure, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Threading.AsyncOperationFailure, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AsyncOperationFailure, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.AsyncOperationFailure, To)()
+  name.vb: MapEnums(Of AsyncOperationFailure, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AsyncOperationFailure, To>
+    nameWithType: EnumUtil.MapEnums<AsyncOperationFailure, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Threading.AsyncOperationFailure, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AsyncOperationFailure, To)
+    nameWithType: EnumUtil.MapEnums(Of AsyncOperationFailure, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Threading.AsyncOperationFailure, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsyncOperationFailure.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<AsyncOperationFailure, To>()
+  nameWithType: Converters.MapEnums<AsyncOperationFailure, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.AsyncOperationFailure, To>()
+  nameWithType.vb: Converters.MapEnums(Of AsyncOperationFailure, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.AsyncOperationFailure, To)()
+  name.vb: MapEnums(Of AsyncOperationFailure, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AsyncOperationFailure, To>
+    nameWithType: Converters.MapEnums<AsyncOperationFailure, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.AsyncOperationFailure, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AsyncOperationFailure, To)
+    nameWithType: Converters.MapEnums(Of AsyncOperationFailure, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.AsyncOperationFailure, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsyncContext
+  commentId: T:SuperOffice.Threading.AsyncContext
+  parent: SuperOffice.Threading
+  isExternal: true
+  name: AsyncContext
+  nameWithType: AsyncContext
+  fullName: SuperOffice.Threading.AsyncContext
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Threading.AsyncOperationFailure.#ctor*
+  commentId: Overload:SuperOffice.Threading.AsyncOperationFailure.#ctor
+  isExternal: true
+  name: AsyncOperationFailure
+  nameWithType: AsyncOperationFailure.AsyncOperationFailure
+  fullName: SuperOffice.Threading.AsyncOperationFailure.AsyncOperationFailure
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: SuperOffice.Threading.AsyncOperationFailure.Invoke*
+  commentId: Overload:SuperOffice.Threading.AsyncOperationFailure.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: AsyncOperationFailure.Invoke
+  fullName: SuperOffice.Threading.AsyncOperationFailure.Invoke
+- uid: SuperOffice.Threading.AsyncOperationFailure.BeginInvoke*
+  commentId: Overload:SuperOffice.Threading.AsyncOperationFailure.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: AsyncOperationFailure.BeginInvoke
+  fullName: SuperOffice.Threading.AsyncOperationFailure.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.Threading.AsyncOperationFailure.EndInvoke*
+  commentId: Overload:SuperOffice.Threading.AsyncOperationFailure.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: AsyncOperationFailure.EndInvoke
+  fullName: SuperOffice.Threading.AsyncOperationFailure.EndInvoke

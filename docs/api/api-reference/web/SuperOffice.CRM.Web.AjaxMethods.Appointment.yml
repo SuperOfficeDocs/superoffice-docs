@@ -1,0 +1,1102 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.Appointment
+  id: Appointment
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  children:
+  - SuperOffice.CRM.Web.AjaxMethods.Appointment.#ctor
+  - SuperOffice.CRM.Web.AjaxMethods.Appointment.Accept(System.Int32,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Appointment.AcceptRejected(System.Int32,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Appointment.AcceptWithEmailConfirmation(System.Int32,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Appointment.CleanUpBookingDeleted(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Appointment.CleanUpBookingDeletedOnLoggedInUser
+  - SuperOffice.CRM.Web.AjaxMethods.Appointment.CreateStatusMonitorFollowUp
+  - SuperOffice.CRM.Web.AjaxMethods.Appointment.DeleteAppointment(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Appointment.GetNextSuggestedAppointment(System.Int32,System.Boolean)
+  - SuperOffice.CRM.Web.AjaxMethods.Appointment.GetSuggestedAppointment(System.Int32,System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Appointment.GetSuggestedAppointmentId(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Appointment.IsAppointmentRecurring(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Appointment.Reassign(System.Int32,System.String,System.Boolean)
+  - SuperOffice.CRM.Web.AjaxMethods.Appointment.Reject(System.Int32,System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Appointment.RejectWithEmailConfirmation(System.Int32,System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Appointment.SetCurrentContactPerson(System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Appointment.SetSeen(System.Int32,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.Appointment.StoreSelectedGroupInInvitationDlg(System.String,System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.Appointment.stringtoint(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Appointment
+  nameWithType: Appointment
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoWebObject("Appointment")]
+
+      public class Appointment : IWebObject, IPlugin
+    content.vb: >-
+      <SoWebObject("Appointment")>
+
+      Public Class Appointment
+          Implements IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Appointment
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.Accept(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Appointment.Accept(System.Int32,System.String)
+  id: Accept(System.Int32,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Appointment
+  langs:
+  - csharp
+  - vb
+  name: Accept(Int32, String)
+  nameWithType: Appointment.Accept(Int32, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.Accept(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void Accept(int appointmentId, string updateMode)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    - id: updateMode
+      type: System.String
+    content.vb: Public Sub Accept(appointmentId As Integer, updateMode As String)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Appointment.Accept*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.AcceptWithEmailConfirmation(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Appointment.AcceptWithEmailConfirmation(System.Int32,System.String)
+  id: AcceptWithEmailConfirmation(System.Int32,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Appointment
+  langs:
+  - csharp
+  - vb
+  name: AcceptWithEmailConfirmation(Int32, String)
+  nameWithType: Appointment.AcceptWithEmailConfirmation(Int32, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.AcceptWithEmailConfirmation(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void AcceptWithEmailConfirmation(int appointmentId, string updateMode)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    - id: updateMode
+      type: System.String
+    content.vb: Public Sub AcceptWithEmailConfirmation(appointmentId As Integer, updateMode As String)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Appointment.AcceptWithEmailConfirmation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.CleanUpBookingDeleted(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Appointment.CleanUpBookingDeleted(System.String)
+  id: CleanUpBookingDeleted(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Appointment
+  langs:
+  - csharp
+  - vb
+  name: CleanUpBookingDeleted(String)
+  nameWithType: Appointment.CleanUpBookingDeleted(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.CleanUpBookingDeleted(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void CleanUpBookingDeleted(string appointmentIds)
+    parameters:
+    - id: appointmentIds
+      type: System.String
+    content.vb: Public Sub CleanUpBookingDeleted(appointmentIds As String)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Appointment.CleanUpBookingDeleted*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.CleanUpBookingDeletedOnLoggedInUser
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Appointment.CleanUpBookingDeletedOnLoggedInUser
+  id: CleanUpBookingDeletedOnLoggedInUser
+  parent: SuperOffice.CRM.Web.AjaxMethods.Appointment
+  langs:
+  - csharp
+  - vb
+  name: CleanUpBookingDeletedOnLoggedInUser()
+  nameWithType: Appointment.CleanUpBookingDeletedOnLoggedInUser()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.CleanUpBookingDeletedOnLoggedInUser()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void CleanUpBookingDeletedOnLoggedInUser()
+    content.vb: Public Sub CleanUpBookingDeletedOnLoggedInUser
+  overload: SuperOffice.CRM.Web.AjaxMethods.Appointment.CleanUpBookingDeletedOnLoggedInUser*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.DeleteAppointment(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Appointment.DeleteAppointment(System.Int32)
+  id: DeleteAppointment(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Appointment
+  langs:
+  - csharp
+  - vb
+  name: DeleteAppointment(Int32)
+  nameWithType: Appointment.DeleteAppointment(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.DeleteAppointment(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void DeleteAppointment(int appointmentId)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    content.vb: Public Sub DeleteAppointment(appointmentId As Integer)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Appointment.DeleteAppointment*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.stringtoint(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Appointment.stringtoint(System.String)
+  id: stringtoint(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Appointment
+  langs:
+  - csharp
+  - vb
+  name: stringtoint(String)
+  nameWithType: Appointment.stringtoint(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.stringtoint(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public static int stringtoint(string id)
+    parameters:
+    - id: id
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function stringtoint(id As String) As Integer
+  overload: SuperOffice.CRM.Web.AjaxMethods.Appointment.stringtoint*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.AcceptRejected(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Appointment.AcceptRejected(System.Int32,System.String)
+  id: AcceptRejected(System.Int32,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Appointment
+  langs:
+  - csharp
+  - vb
+  name: AcceptRejected(Int32, String)
+  nameWithType: Appointment.AcceptRejected(Int32, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.AcceptRejected(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void AcceptRejected(int appointmentId, string updateMode)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    - id: updateMode
+      type: System.String
+    content.vb: Public Sub AcceptRejected(appointmentId As Integer, updateMode As String)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Appointment.AcceptRejected*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.Reject(System.Int32,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Appointment.Reject(System.Int32,System.String,System.String)
+  id: Reject(System.Int32,System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Appointment
+  langs:
+  - csharp
+  - vb
+  name: Reject(Int32, String, String)
+  nameWithType: Appointment.Reject(Int32, String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.Reject(System.Int32, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void Reject(int appointmentId, string updateMode, string reason)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    - id: updateMode
+      type: System.String
+    - id: reason
+      type: System.String
+    content.vb: Public Sub Reject(appointmentId As Integer, updateMode As String, reason As String)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Appointment.Reject*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.RejectWithEmailConfirmation(System.Int32,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Appointment.RejectWithEmailConfirmation(System.Int32,System.String,System.String)
+  id: RejectWithEmailConfirmation(System.Int32,System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Appointment
+  langs:
+  - csharp
+  - vb
+  name: RejectWithEmailConfirmation(Int32, String, String)
+  nameWithType: Appointment.RejectWithEmailConfirmation(Int32, String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.RejectWithEmailConfirmation(System.Int32, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void RejectWithEmailConfirmation(int appointmentId, string updateMode, string reason)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    - id: updateMode
+      type: System.String
+    - id: reason
+      type: System.String
+    content.vb: Public Sub RejectWithEmailConfirmation(appointmentId As Integer, updateMode As String, reason As String)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Appointment.RejectWithEmailConfirmation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.SetSeen(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Appointment.SetSeen(System.Int32,System.String)
+  id: SetSeen(System.Int32,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Appointment
+  langs:
+  - csharp
+  - vb
+  name: SetSeen(Int32, String)
+  nameWithType: Appointment.SetSeen(Int32, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.SetSeen(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void SetSeen(int appointmentId, string updateMode)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    - id: updateMode
+      type: System.String
+    content.vb: Public Sub SetSeen(appointmentId As Integer, updateMode As String)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Appointment.SetSeen*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.Reassign(System.Int32,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Appointment.Reassign(System.Int32,System.String,System.Boolean)
+  id: Reassign(System.Int32,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Appointment
+  langs:
+  - csharp
+  - vb
+  name: Reassign(Int32, String, Boolean)
+  nameWithType: Appointment.Reassign(Int32, String, Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.Reassign(System.Int32, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void Reassign(int appointmentId, string assignTo, bool assignAll)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    - id: assignTo
+      type: System.String
+    - id: assignAll
+      type: System.Boolean
+    content.vb: Public Sub Reassign(appointmentId As Integer, assignTo As String, assignAll As Boolean)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Appointment.Reassign*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.IsAppointmentRecurring(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Appointment.IsAppointmentRecurring(System.Int32)
+  id: IsAppointmentRecurring(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Appointment
+  langs:
+  - csharp
+  - vb
+  name: IsAppointmentRecurring(Int32)
+  nameWithType: Appointment.IsAppointmentRecurring(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.IsAppointmentRecurring(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public bool IsAppointmentRecurring(int appointmentId)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsAppointmentRecurring(appointmentId As Integer) As Boolean
+  overload: SuperOffice.CRM.Web.AjaxMethods.Appointment.IsAppointmentRecurring*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.CreateStatusMonitorFollowUp
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Appointment.CreateStatusMonitorFollowUp
+  id: CreateStatusMonitorFollowUp
+  parent: SuperOffice.CRM.Web.AjaxMethods.Appointment
+  langs:
+  - csharp
+  - vb
+  name: CreateStatusMonitorFollowUp()
+  nameWithType: Appointment.CreateStatusMonitorFollowUp()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.CreateStatusMonitorFollowUp()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string CreateStatusMonitorFollowUp()
+    return:
+      type: System.String
+    content.vb: Public Function CreateStatusMonitorFollowUp As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.Appointment.CreateStatusMonitorFollowUp*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.SetCurrentContactPerson(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Appointment.SetCurrentContactPerson(System.Int32)
+  id: SetCurrentContactPerson(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Appointment
+  langs:
+  - csharp
+  - vb
+  name: SetCurrentContactPerson(Int32)
+  nameWithType: Appointment.SetCurrentContactPerson(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.SetCurrentContactPerson(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void SetCurrentContactPerson(int appointmentId)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    content.vb: Public Sub SetCurrentContactPerson(appointmentId As Integer)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Appointment.SetCurrentContactPerson*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.StoreSelectedGroupInInvitationDlg(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Appointment.StoreSelectedGroupInInvitationDlg(System.String,System.Int32)
+  id: StoreSelectedGroupInInvitationDlg(System.String,System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Appointment
+  langs:
+  - csharp
+  - vb
+  name: StoreSelectedGroupInInvitationDlg(String, Int32)
+  nameWithType: Appointment.StoreSelectedGroupInInvitationDlg(String, Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.StoreSelectedGroupInInvitationDlg(System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void StoreSelectedGroupInInvitationDlg(string prefKey, int selectedId)
+    parameters:
+    - id: prefKey
+      type: System.String
+    - id: selectedId
+      type: System.Int32
+    content.vb: Public Sub StoreSelectedGroupInInvitationDlg(prefKey As String, selectedId As Integer)
+  overload: SuperOffice.CRM.Web.AjaxMethods.Appointment.StoreSelectedGroupInInvitationDlg*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.GetNextSuggestedAppointment(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Appointment.GetNextSuggestedAppointment(System.Int32,System.Boolean)
+  id: GetNextSuggestedAppointment(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Appointment
+  langs:
+  - csharp
+  - vb
+  name: GetNextSuggestedAppointment(Int32, Boolean)
+  nameWithType: Appointment.GetNextSuggestedAppointment(Int32, Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.GetNextSuggestedAppointment(System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public static SuggestedAppointmentData GetNextSuggestedAppointment(int currentAppointmentId, bool skipCompletedCheck)
+    parameters:
+    - id: currentAppointmentId
+      type: System.Int32
+    - id: skipCompletedCheck
+      type: System.Boolean
+    return:
+      type: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData
+    content.vb: Public Shared Function GetNextSuggestedAppointment(currentAppointmentId As Integer, skipCompletedCheck As Boolean) As SuggestedAppointmentData
+  overload: SuperOffice.CRM.Web.AjaxMethods.Appointment.GetNextSuggestedAppointment*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.GetSuggestedAppointmentId(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Appointment.GetSuggestedAppointmentId(System.Int32)
+  id: GetSuggestedAppointmentId(System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Appointment
+  langs:
+  - csharp
+  - vb
+  name: GetSuggestedAppointmentId(Int32)
+  nameWithType: Appointment.GetSuggestedAppointmentId(Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.GetSuggestedAppointmentId(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public static int GetSuggestedAppointmentId(int appointmentId)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetSuggestedAppointmentId(appointmentId As Integer) As Integer
+  overload: SuperOffice.CRM.Web.AjaxMethods.Appointment.GetSuggestedAppointmentId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.GetSuggestedAppointment(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Appointment.GetSuggestedAppointment(System.Int32,System.Int32)
+  id: GetSuggestedAppointment(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.Appointment
+  langs:
+  - csharp
+  - vb
+  name: GetSuggestedAppointment(Int32, Int32)
+  nameWithType: Appointment.GetSuggestedAppointment(Int32, Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.GetSuggestedAppointment(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public static SuggestedAppointmentData GetSuggestedAppointment(int currentAppointmentId, int suggestedAppointmentId)
+    parameters:
+    - id: currentAppointmentId
+      type: System.Int32
+    - id: suggestedAppointmentId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData
+    content.vb: Public Shared Function GetSuggestedAppointment(currentAppointmentId As Integer, suggestedAppointmentId As Integer) As SuggestedAppointmentData
+  overload: SuperOffice.CRM.Web.AjaxMethods.Appointment.GetSuggestedAppointment*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.#ctor
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.Appointment.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.AjaxMethods.Appointment
+  langs:
+  - csharp
+  - vb
+  name: Appointment()
+  nameWithType: Appointment.Appointment()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.Appointment()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public Appointment()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.AjaxMethods.Appointment.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.AjaxMethods
+  commentId: N:SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: SuperOffice.CRM.Web.AjaxMethods
+  nameWithType: SuperOffice.CRM.Web.AjaxMethods
+  fullName: SuperOffice.CRM.Web.AjaxMethods
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.Accept*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Appointment.Accept
+  isExternal: true
+  name: Accept
+  nameWithType: Appointment.Accept
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.Accept
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.AcceptWithEmailConfirmation*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Appointment.AcceptWithEmailConfirmation
+  isExternal: true
+  name: AcceptWithEmailConfirmation
+  nameWithType: Appointment.AcceptWithEmailConfirmation
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.AcceptWithEmailConfirmation
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.CleanUpBookingDeleted*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Appointment.CleanUpBookingDeleted
+  isExternal: true
+  name: CleanUpBookingDeleted
+  nameWithType: Appointment.CleanUpBookingDeleted
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.CleanUpBookingDeleted
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.CleanUpBookingDeletedOnLoggedInUser*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Appointment.CleanUpBookingDeletedOnLoggedInUser
+  isExternal: true
+  name: CleanUpBookingDeletedOnLoggedInUser
+  nameWithType: Appointment.CleanUpBookingDeletedOnLoggedInUser
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.CleanUpBookingDeletedOnLoggedInUser
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.DeleteAppointment*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Appointment.DeleteAppointment
+  isExternal: true
+  name: DeleteAppointment
+  nameWithType: Appointment.DeleteAppointment
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.DeleteAppointment
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.stringtoint*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Appointment.stringtoint
+  isExternal: true
+  name: stringtoint
+  nameWithType: Appointment.stringtoint
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.stringtoint
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.AcceptRejected*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Appointment.AcceptRejected
+  isExternal: true
+  name: AcceptRejected
+  nameWithType: Appointment.AcceptRejected
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.AcceptRejected
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.Reject*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Appointment.Reject
+  isExternal: true
+  name: Reject
+  nameWithType: Appointment.Reject
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.Reject
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.RejectWithEmailConfirmation*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Appointment.RejectWithEmailConfirmation
+  isExternal: true
+  name: RejectWithEmailConfirmation
+  nameWithType: Appointment.RejectWithEmailConfirmation
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.RejectWithEmailConfirmation
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.SetSeen*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Appointment.SetSeen
+  isExternal: true
+  name: SetSeen
+  nameWithType: Appointment.SetSeen
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.SetSeen
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.Reassign*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Appointment.Reassign
+  isExternal: true
+  name: Reassign
+  nameWithType: Appointment.Reassign
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.Reassign
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.IsAppointmentRecurring*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Appointment.IsAppointmentRecurring
+  isExternal: true
+  name: IsAppointmentRecurring
+  nameWithType: Appointment.IsAppointmentRecurring
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.IsAppointmentRecurring
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.CreateStatusMonitorFollowUp*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Appointment.CreateStatusMonitorFollowUp
+  isExternal: true
+  name: CreateStatusMonitorFollowUp
+  nameWithType: Appointment.CreateStatusMonitorFollowUp
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.CreateStatusMonitorFollowUp
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.SetCurrentContactPerson*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Appointment.SetCurrentContactPerson
+  isExternal: true
+  name: SetCurrentContactPerson
+  nameWithType: Appointment.SetCurrentContactPerson
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.SetCurrentContactPerson
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.StoreSelectedGroupInInvitationDlg*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Appointment.StoreSelectedGroupInInvitationDlg
+  isExternal: true
+  name: StoreSelectedGroupInInvitationDlg
+  nameWithType: Appointment.StoreSelectedGroupInInvitationDlg
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.StoreSelectedGroupInInvitationDlg
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.GetNextSuggestedAppointment*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Appointment.GetNextSuggestedAppointment
+  isExternal: true
+  name: GetNextSuggestedAppointment
+  nameWithType: Appointment.GetNextSuggestedAppointment
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.GetNextSuggestedAppointment
+- uid: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: SuggestedAppointmentData
+  nameWithType: SuggestedAppointmentData
+  fullName: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.GetSuggestedAppointmentId*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Appointment.GetSuggestedAppointmentId
+  isExternal: true
+  name: GetSuggestedAppointmentId
+  nameWithType: Appointment.GetSuggestedAppointmentId
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.GetSuggestedAppointmentId
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.GetSuggestedAppointment*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Appointment.GetSuggestedAppointment
+  isExternal: true
+  name: GetSuggestedAppointment
+  nameWithType: Appointment.GetSuggestedAppointment
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.GetSuggestedAppointment
+- uid: SuperOffice.CRM.Web.AjaxMethods.Appointment.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.Appointment.#ctor
+  isExternal: true
+  name: Appointment
+  nameWithType: Appointment.Appointment
+  fullName: SuperOffice.CRM.Web.AjaxMethods.Appointment.Appointment

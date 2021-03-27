@@ -1,0 +1,707 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.ConsentSourceFields
+  commentId: T:SuperOffice.CRM.Data.DBC.ConsentSourceFields
+  id: DBC.ConsentSourceFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.ConsentSourceFields.ConsentSourceId
+  - SuperOffice.CRM.Data.DBC.ConsentSourceFields.Deleted
+  - SuperOffice.CRM.Data.DBC.ConsentSourceFields.Key
+  - SuperOffice.CRM.Data.DBC.ConsentSourceFields.MailTemplateId
+  - SuperOffice.CRM.Data.DBC.ConsentSourceFields.Name
+  - SuperOffice.CRM.Data.DBC.ConsentSourceFields.Rank
+  - SuperOffice.CRM.Data.DBC.ConsentSourceFields.Registered
+  - SuperOffice.CRM.Data.DBC.ConsentSourceFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.ConsentSourceFields.Tooltip
+  - SuperOffice.CRM.Data.DBC.ConsentSourceFields.Updated
+  - SuperOffice.CRM.Data.DBC.ConsentSourceFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.ConsentSourceFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.ConsentSourceFields
+  nameWithType: DBC.ConsentSourceFields
+  fullName: SuperOffice.CRM.Data.DBC.ConsentSourceFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for ConsentSource, Consent source for GDPR\n"
+  syntax:
+    content: public static class ConsentSourceFields
+    content.vb: Public Module ConsentSourceFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.ConsentSourceFields.ConsentSourceId
+  commentId: F:SuperOffice.CRM.Data.DBC.ConsentSourceFields.ConsentSourceId
+  id: ConsentSourceId
+  parent: SuperOffice.CRM.Data.DBC.ConsentSourceFields
+  langs:
+  - csharp
+  - vb
+  name: ConsentSourceId
+  nameWithType: DBC.ConsentSourceFields.ConsentSourceId
+  fullName: SuperOffice.CRM.Data.DBC.ConsentSourceFields.ConsentSourceId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConsentSource.ConsentSourceId: Primary key\n"
+  syntax:
+    content: public const string ConsentSourceId = "consentsource_id"
+    return:
+      type: System.String
+    content.vb: Public Const ConsentSourceId As String = "consentsource_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConsentSourceFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.ConsentSourceFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.ConsentSourceFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.ConsentSourceFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.ConsentSourceFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConsentSource.Name: The list item\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConsentSourceFields.Rank
+  commentId: F:SuperOffice.CRM.Data.DBC.ConsentSourceFields.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Data.DBC.ConsentSourceFields
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DBC.ConsentSourceFields.Rank
+  fullName: SuperOffice.CRM.Data.DBC.ConsentSourceFields.Rank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConsentSource.Rank: Rank order\n"
+  syntax:
+    content: public const string Rank = "rank"
+    return:
+      type: System.String
+    content.vb: Public Const Rank As String = "rank"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConsentSourceFields.Tooltip
+  commentId: F:SuperOffice.CRM.Data.DBC.ConsentSourceFields.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Data.DBC.ConsentSourceFields
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: DBC.ConsentSourceFields.Tooltip
+  fullName: SuperOffice.CRM.Data.DBC.ConsentSourceFields.Tooltip
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConsentSource.Tooltip: The tooltip for the list item\n"
+  syntax:
+    content: public const string Tooltip = "tooltip"
+    return:
+      type: System.String
+    content.vb: Public Const Tooltip As String = "tooltip"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConsentSourceFields.Deleted
+  commentId: F:SuperOffice.CRM.Data.DBC.ConsentSourceFields.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Data.DBC.ConsentSourceFields
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: DBC.ConsentSourceFields.Deleted
+  fullName: SuperOffice.CRM.Data.DBC.ConsentSourceFields.Deleted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConsentSource.Deleted: 0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists\n"
+  syntax:
+    content: public const string Deleted = "deleted"
+    return:
+      type: System.String
+    content.vb: Public Const Deleted As String = "deleted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConsentSourceFields.Key
+  commentId: F:SuperOffice.CRM.Data.DBC.ConsentSourceFields.Key
+  id: Key
+  parent: SuperOffice.CRM.Data.DBC.ConsentSourceFields
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: DBC.ConsentSourceFields.Key
+  fullName: SuperOffice.CRM.Data.DBC.ConsentSourceFields.Key
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConsentSource.Key: The list item key, to be recognized by application logic\n"
+  syntax:
+    content: public const string Key = "key"
+    return:
+      type: System.String
+    content.vb: Public Const Key As String = "key"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConsentSourceFields.MailTemplateId
+  commentId: F:SuperOffice.CRM.Data.DBC.ConsentSourceFields.MailTemplateId
+  id: MailTemplateId
+  parent: SuperOffice.CRM.Data.DBC.ConsentSourceFields
+  langs:
+  - csharp
+  - vb
+  name: MailTemplateId
+  nameWithType: DBC.ConsentSourceFields.MailTemplateId
+  fullName: SuperOffice.CRM.Data.DBC.ConsentSourceFields.MailTemplateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConsentSource.MailTemplateId: The document template to be used for sending &apos;You have been added to our system, is this ok&apos; emails when a new person is registered using this source\n"
+  syntax:
+    content: public const string MailTemplateId = "mailTemplate_id"
+    return:
+      type: System.String
+    content.vb: Public Const MailTemplateId As String = "mailTemplate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConsentSourceFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.ConsentSourceFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.ConsentSourceFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.ConsentSourceFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.ConsentSourceFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConsentSource.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConsentSourceFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.ConsentSourceFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.ConsentSourceFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.ConsentSourceFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.ConsentSourceFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConsentSource.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConsentSourceFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.ConsentSourceFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.ConsentSourceFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.ConsentSourceFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.ConsentSourceFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConsentSource.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConsentSourceFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.ConsentSourceFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.ConsentSourceFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.ConsentSourceFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.ConsentSourceFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConsentSource.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ConsentSourceFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.ConsentSourceFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.ConsentSourceFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.ConsentSourceFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.ConsentSourceFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConsentSource.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

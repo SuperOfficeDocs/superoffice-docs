@@ -1,0 +1,273 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.IMenuObject
+  commentId: T:SuperOffice.DCF.Web.UI.IMenuObject
+  id: IMenuObject
+  parent: SuperOffice.DCF.Web.UI
+  children:
+  - SuperOffice.DCF.Web.UI.IMenuObject.Context
+  - SuperOffice.DCF.Web.UI.IMenuObject.Id
+  - SuperOffice.DCF.Web.UI.IMenuObject.MenuCallback
+  - SuperOffice.DCF.Web.UI.IMenuObject.MouseClick
+  - SuperOffice.DCF.Web.UI.IMenuObject.Position
+  - SuperOffice.DCF.Web.UI.IMenuObject.SubContext
+  langs:
+  - csharp
+  - vb
+  name: IMenuObject
+  nameWithType: IMenuObject
+  fullName: SuperOffice.DCF.Web.UI.IMenuObject
+  type: Interface
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public interface IMenuObject
+    content.vb: Public Interface IMenuObject
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.DCF.Web.UI.IMenuObject.Context
+  commentId: P:SuperOffice.DCF.Web.UI.IMenuObject.Context
+  id: Context
+  parent: SuperOffice.DCF.Web.UI.IMenuObject
+  langs:
+  - csharp
+  - vb
+  name: Context
+  nameWithType: IMenuObject.Context
+  fullName: SuperOffice.DCF.Web.UI.IMenuObject.Context
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: string Context { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Context As String
+  overload: SuperOffice.DCF.Web.UI.IMenuObject.Context*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.IMenuObject.SubContext
+  commentId: P:SuperOffice.DCF.Web.UI.IMenuObject.SubContext
+  id: SubContext
+  parent: SuperOffice.DCF.Web.UI.IMenuObject
+  langs:
+  - csharp
+  - vb
+  name: SubContext
+  nameWithType: IMenuObject.SubContext
+  fullName: SuperOffice.DCF.Web.UI.IMenuObject.SubContext
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: string SubContext { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property SubContext As String
+  overload: SuperOffice.DCF.Web.UI.IMenuObject.SubContext*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.IMenuObject.Id
+  commentId: P:SuperOffice.DCF.Web.UI.IMenuObject.Id
+  id: Id
+  parent: SuperOffice.DCF.Web.UI.IMenuObject
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: IMenuObject.Id
+  fullName: SuperOffice.DCF.Web.UI.IMenuObject.Id
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: string Id { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Id As String
+  overload: SuperOffice.DCF.Web.UI.IMenuObject.Id*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.IMenuObject.Position
+  commentId: P:SuperOffice.DCF.Web.UI.IMenuObject.Position
+  id: Position
+  parent: SuperOffice.DCF.Web.UI.IMenuObject
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: IMenuObject.Position
+  fullName: SuperOffice.DCF.Web.UI.IMenuObject.Position
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: MenuObjectPosition Position { get; }
+    parameters: []
+    return:
+      type: SuperOffice.DCF.Web.UI.MenuObjectPosition
+    content.vb: ReadOnly Property Position As MenuObjectPosition
+  overload: SuperOffice.DCF.Web.UI.IMenuObject.Position*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.IMenuObject.MouseClick
+  commentId: P:SuperOffice.DCF.Web.UI.IMenuObject.MouseClick
+  id: MouseClick
+  parent: SuperOffice.DCF.Web.UI.IMenuObject
+  langs:
+  - csharp
+  - vb
+  name: MouseClick
+  nameWithType: IMenuObject.MouseClick
+  fullName: SuperOffice.DCF.Web.UI.IMenuObject.MouseClick
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: MenuObjectMouseClick MouseClick { get; }
+    parameters: []
+    return:
+      type: SuperOffice.DCF.Web.UI.MenuObjectMouseClick
+    content.vb: ReadOnly Property MouseClick As MenuObjectMouseClick
+  overload: SuperOffice.DCF.Web.UI.IMenuObject.MouseClick*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.IMenuObject.MenuCallback
+  commentId: P:SuperOffice.DCF.Web.UI.IMenuObject.MenuCallback
+  id: MenuCallback
+  parent: SuperOffice.DCF.Web.UI.IMenuObject
+  langs:
+  - csharp
+  - vb
+  name: MenuCallback
+  nameWithType: IMenuObject.MenuCallback
+  fullName: SuperOffice.DCF.Web.UI.IMenuObject.MenuCallback
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: string MenuCallback { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property MenuCallback As String
+  overload: SuperOffice.DCF.Web.UI.IMenuObject.MenuCallback*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: SuperOffice.DCF.Web.UI.IMenuObject.Context*
+  commentId: Overload:SuperOffice.DCF.Web.UI.IMenuObject.Context
+  isExternal: true
+  name: Context
+  nameWithType: IMenuObject.Context
+  fullName: SuperOffice.DCF.Web.UI.IMenuObject.Context
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.IMenuObject.SubContext*
+  commentId: Overload:SuperOffice.DCF.Web.UI.IMenuObject.SubContext
+  isExternal: true
+  name: SubContext
+  nameWithType: IMenuObject.SubContext
+  fullName: SuperOffice.DCF.Web.UI.IMenuObject.SubContext
+- uid: SuperOffice.DCF.Web.UI.IMenuObject.Id*
+  commentId: Overload:SuperOffice.DCF.Web.UI.IMenuObject.Id
+  isExternal: true
+  name: Id
+  nameWithType: IMenuObject.Id
+  fullName: SuperOffice.DCF.Web.UI.IMenuObject.Id
+- uid: SuperOffice.DCF.Web.UI.IMenuObject.Position*
+  commentId: Overload:SuperOffice.DCF.Web.UI.IMenuObject.Position
+  isExternal: true
+  name: Position
+  nameWithType: IMenuObject.Position
+  fullName: SuperOffice.DCF.Web.UI.IMenuObject.Position
+- uid: SuperOffice.DCF.Web.UI.MenuObjectPosition
+  commentId: T:SuperOffice.DCF.Web.UI.MenuObjectPosition
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: MenuObjectPosition
+  nameWithType: MenuObjectPosition
+  fullName: SuperOffice.DCF.Web.UI.MenuObjectPosition
+- uid: SuperOffice.DCF.Web.UI.IMenuObject.MouseClick*
+  commentId: Overload:SuperOffice.DCF.Web.UI.IMenuObject.MouseClick
+  isExternal: true
+  name: MouseClick
+  nameWithType: IMenuObject.MouseClick
+  fullName: SuperOffice.DCF.Web.UI.IMenuObject.MouseClick
+- uid: SuperOffice.DCF.Web.UI.MenuObjectMouseClick
+  commentId: T:SuperOffice.DCF.Web.UI.MenuObjectMouseClick
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: MenuObjectMouseClick
+  nameWithType: MenuObjectMouseClick
+  fullName: SuperOffice.DCF.Web.UI.MenuObjectMouseClick
+- uid: SuperOffice.DCF.Web.UI.IMenuObject.MenuCallback*
+  commentId: Overload:SuperOffice.DCF.Web.UI.IMenuObject.MenuCallback
+  isExternal: true
+  name: MenuCallback
+  nameWithType: IMenuObject.MenuCallback
+  fullName: SuperOffice.DCF.Web.UI.IMenuObject.MenuCallback

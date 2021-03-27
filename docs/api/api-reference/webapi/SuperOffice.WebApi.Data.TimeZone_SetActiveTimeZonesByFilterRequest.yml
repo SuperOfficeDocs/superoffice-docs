@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest
+  commentId: T:SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest
+  id: TimeZone_SetActiveTimeZonesByFilterRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest.#ctor
+  - SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest.Active
+  - SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest.Filter
+  langs:
+  - csharp
+  - vb
+  name: TimeZone_SetActiveTimeZonesByFilterRequest
+  nameWithType: TimeZone_SetActiveTimeZonesByFilterRequest
+  fullName: SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class TimeZone_SetActiveTimeZonesByFilterRequest : Object'
+    content.vb: >-
+      Public Class TimeZone_SetActiveTimeZonesByFilterRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest
+  langs:
+  - csharp
+  - vb
+  name: TimeZone_SetActiveTimeZonesByFilterRequest()
+  nameWithType: TimeZone_SetActiveTimeZonesByFilterRequest.TimeZone_SetActiveTimeZonesByFilterRequest()
+  fullName: SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest.TimeZone_SetActiveTimeZonesByFilterRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public TimeZone_SetActiveTimeZonesByFilterRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest.Filter
+  commentId: P:SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest.Filter
+  id: Filter
+  parent: SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest
+  langs:
+  - csharp
+  - vb
+  name: Filter
+  nameWithType: TimeZone_SetActiveTimeZonesByFilterRequest.Filter
+  fullName: SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest.Filter
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Filter { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Filter As String
+  overload: SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest.Filter*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest.Active
+  commentId: P:SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest.Active
+  id: Active
+  parent: SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: TimeZone_SetActiveTimeZonesByFilterRequest.Active
+  fullName: SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest.Active
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool Active { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Active As Boolean
+  overload: SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest.Active*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest.#ctor
+  isExternal: true
+  name: TimeZone_SetActiveTimeZonesByFilterRequest
+  nameWithType: TimeZone_SetActiveTimeZonesByFilterRequest.TimeZone_SetActiveTimeZonesByFilterRequest
+  fullName: SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest.TimeZone_SetActiveTimeZonesByFilterRequest
+- uid: SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest.Filter*
+  commentId: Overload:SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest.Filter
+  isExternal: true
+  name: Filter
+  nameWithType: TimeZone_SetActiveTimeZonesByFilterRequest.Filter
+  fullName: SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest.Filter
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest.Active*
+  commentId: Overload:SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest.Active
+  isExternal: true
+  name: Active
+  nameWithType: TimeZone_SetActiveTimeZonesByFilterRequest.Active
+  fullName: SuperOffice.WebApi.Data.TimeZone_SetActiveTimeZonesByFilterRequest.Active
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

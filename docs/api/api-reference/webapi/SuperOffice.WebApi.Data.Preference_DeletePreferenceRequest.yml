@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Preference_DeletePreferenceRequest
+  commentId: T:SuperOffice.WebApi.Data.Preference_DeletePreferenceRequest
+  id: Preference_DeletePreferenceRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Preference_DeletePreferenceRequest.#ctor
+  - SuperOffice.WebApi.Data.Preference_DeletePreferenceRequest.Id
+  langs:
+  - csharp
+  - vb
+  name: Preference_DeletePreferenceRequest
+  nameWithType: Preference_DeletePreferenceRequest
+  fullName: SuperOffice.WebApi.Data.Preference_DeletePreferenceRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Preference_DeletePreferenceRequest : Object'
+    content.vb: >-
+      Public Class Preference_DeletePreferenceRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Preference_DeletePreferenceRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Preference_DeletePreferenceRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Preference_DeletePreferenceRequest
+  langs:
+  - csharp
+  - vb
+  name: Preference_DeletePreferenceRequest()
+  nameWithType: Preference_DeletePreferenceRequest.Preference_DeletePreferenceRequest()
+  fullName: SuperOffice.WebApi.Data.Preference_DeletePreferenceRequest.Preference_DeletePreferenceRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Preference_DeletePreferenceRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Preference_DeletePreferenceRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Preference_DeletePreferenceRequest.Id
+  commentId: P:SuperOffice.WebApi.Data.Preference_DeletePreferenceRequest.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.Preference_DeletePreferenceRequest
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Preference_DeletePreferenceRequest.Id
+  fullName: SuperOffice.WebApi.Data.Preference_DeletePreferenceRequest.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: SuperOffice.WebApi.Data.Preference_DeletePreferenceRequest.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Preference_DeletePreferenceRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_DeletePreferenceRequest.#ctor
+  isExternal: true
+  name: Preference_DeletePreferenceRequest
+  nameWithType: Preference_DeletePreferenceRequest.Preference_DeletePreferenceRequest
+  fullName: SuperOffice.WebApi.Data.Preference_DeletePreferenceRequest.Preference_DeletePreferenceRequest
+- uid: SuperOffice.WebApi.Data.Preference_DeletePreferenceRequest.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_DeletePreferenceRequest.Id
+  isExternal: true
+  name: Id
+  nameWithType: Preference_DeletePreferenceRequest.Id
+  fullName: SuperOffice.WebApi.Data.Preference_DeletePreferenceRequest.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

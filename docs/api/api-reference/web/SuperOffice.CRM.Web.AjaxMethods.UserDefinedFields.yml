@@ -1,0 +1,822 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields
+  id: UserDefinedFields
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  children:
+  - SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.#ctor
+  - SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.CheckIfPublishNeedsBackupWarning(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.ClearCachesAfterPublish
+  - SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.ClearCachesBeforePublish
+  - SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.IsPublishEventActive(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.Publish(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.Revert(System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetPageOneField(System.String,System.Int32,System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetPosition(System.String,SuperOffice.CRM.Web.UI.Controls.AdminUdefControlGroup.UdefFieldPositionUpdate[])
+  - SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetRankOnFields(System.String,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetUdefGrouping(System.String,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFields
+  nameWithType: UserDefinedFields
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoWebObject("UserDefinedFields")]
+
+      public class UserDefinedFields : IWebObject, IPlugin
+    content.vb: >-
+      <SoWebObject("UserDefinedFields")>
+
+      Public Class UserDefinedFields
+          Implements IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: UserDefinedFields
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.Publish(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.Publish(System.String)
+  id: Publish(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields
+  langs:
+  - csharp
+  - vb
+  name: Publish(String)
+  nameWithType: UserDefinedFields.Publish(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.Publish(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void Publish(string ownerTypeString)
+    parameters:
+    - id: ownerTypeString
+      type: System.String
+    content.vb: Public Sub Publish(ownerTypeString As String)
+  overload: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.Publish*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.Revert(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.Revert(System.String)
+  id: Revert(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields
+  langs:
+  - csharp
+  - vb
+  name: Revert(String)
+  nameWithType: UserDefinedFields.Revert(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.Revert(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void Revert(string ownerTypeString)
+    parameters:
+    - id: ownerTypeString
+      type: System.String
+    content.vb: Public Sub Revert(ownerTypeString As String)
+  overload: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.Revert*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.ClearCachesBeforePublish
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.ClearCachesBeforePublish
+  id: ClearCachesBeforePublish
+  parent: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields
+  langs:
+  - csharp
+  - vb
+  name: ClearCachesBeforePublish()
+  nameWithType: UserDefinedFields.ClearCachesBeforePublish()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.ClearCachesBeforePublish()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public static void ClearCachesBeforePublish()
+    content.vb: Public Shared Sub ClearCachesBeforePublish
+  overload: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.ClearCachesBeforePublish*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.ClearCachesAfterPublish
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.ClearCachesAfterPublish
+  id: ClearCachesAfterPublish
+  parent: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields
+  langs:
+  - csharp
+  - vb
+  name: ClearCachesAfterPublish()
+  nameWithType: UserDefinedFields.ClearCachesAfterPublish()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.ClearCachesAfterPublish()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public static void ClearCachesAfterPublish()
+    content.vb: Public Shared Sub ClearCachesAfterPublish
+  overload: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.ClearCachesAfterPublish*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetPosition(System.String,SuperOffice.CRM.Web.UI.Controls.AdminUdefControlGroup.UdefFieldPositionUpdate[])
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetPosition(System.String,SuperOffice.CRM.Web.UI.Controls.AdminUdefControlGroup.UdefFieldPositionUpdate[])
+  id: SetPosition(System.String,SuperOffice.CRM.Web.UI.Controls.AdminUdefControlGroup.UdefFieldPositionUpdate[])
+  parent: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields
+  langs:
+  - csharp
+  - vb
+  name: SetPosition(String, AdminUdefControlGroup.UdefFieldPositionUpdate[])
+  nameWithType: UserDefinedFields.SetPosition(String, AdminUdefControlGroup.UdefFieldPositionUpdate[])
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetPosition(System.String, SuperOffice.CRM.Web.UI.Controls.AdminUdefControlGroup.UdefFieldPositionUpdate[])
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void SetPosition(string ownerTypeString, AdminUdefControlGroup.UdefFieldPositionUpdate[] posUpdate)
+    parameters:
+    - id: ownerTypeString
+      type: System.String
+    - id: posUpdate
+      type: SuperOffice.CRM.Web.UI.Controls.AdminUdefControlGroup.UdefFieldPositionUpdate[]
+    content.vb: Public Sub SetPosition(ownerTypeString As String, posUpdate As AdminUdefControlGroup.UdefFieldPositionUpdate())
+  overload: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetPosition*
+  nameWithType.vb: UserDefinedFields.SetPosition(String, AdminUdefControlGroup.UdefFieldPositionUpdate())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetPosition(System.String, SuperOffice.CRM.Web.UI.Controls.AdminUdefControlGroup.UdefFieldPositionUpdate())
+  name.vb: SetPosition(String, AdminUdefControlGroup.UdefFieldPositionUpdate())
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetPageOneField(System.String,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetPageOneField(System.String,System.Int32,System.Int32)
+  id: SetPageOneField(System.String,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields
+  langs:
+  - csharp
+  - vb
+  name: SetPageOneField(String, Int32, Int32)
+  nameWithType: UserDefinedFields.SetPageOneField(String, Int32, Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetPageOneField(System.String, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void SetPageOneField(string ownerTypeString, int fieldId, int fieldNumber)
+    parameters:
+    - id: ownerTypeString
+      type: System.String
+    - id: fieldId
+      type: System.Int32
+    - id: fieldNumber
+      type: System.Int32
+    content.vb: Public Sub SetPageOneField(ownerTypeString As String, fieldId As Integer, fieldNumber As Integer)
+  overload: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetPageOneField*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetUdefGrouping(System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetUdefGrouping(System.String,System.Boolean)
+  id: SetUdefGrouping(System.String,System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields
+  langs:
+  - csharp
+  - vb
+  name: SetUdefGrouping(String, Boolean)
+  nameWithType: UserDefinedFields.SetUdefGrouping(String, Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetUdefGrouping(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public void SetUdefGrouping(string ownerTypeString, bool onOff)
+    parameters:
+    - id: ownerTypeString
+      type: System.String
+    - id: onOff
+      type: System.Boolean
+    content.vb: Public Sub SetUdefGrouping(ownerTypeString As String, onOff As Boolean)
+  overload: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetUdefGrouping*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.IsPublishEventActive(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.IsPublishEventActive(System.String)
+  id: IsPublishEventActive(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields
+  langs:
+  - csharp
+  - vb
+  name: IsPublishEventActive(String)
+  nameWithType: UserDefinedFields.IsPublishEventActive(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.IsPublishEventActive(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public static bool IsPublishEventActive(string ownerTypeString)
+    parameters:
+    - id: ownerTypeString
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsPublishEventActive(ownerTypeString As String) As Boolean
+  overload: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.IsPublishEventActive*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetRankOnFields(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetRankOnFields(System.String,System.String)
+  id: SetRankOnFields(System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields
+  langs:
+  - csharp
+  - vb
+  name: SetRankOnFields(String, String)
+  nameWithType: UserDefinedFields.SetRankOnFields(String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetRankOnFields(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public static void SetRankOnFields(string ownerTypeString, string rankedFields)
+    parameters:
+    - id: ownerTypeString
+      type: System.String
+    - id: rankedFields
+      type: System.String
+    content.vb: Public Shared Sub SetRankOnFields(ownerTypeString As String, rankedFields As String)
+  overload: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetRankOnFields*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.CheckIfPublishNeedsBackupWarning(System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.CheckIfPublishNeedsBackupWarning(System.String)
+  id: CheckIfPublishNeedsBackupWarning(System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields
+  langs:
+  - csharp
+  - vb
+  name: CheckIfPublishNeedsBackupWarning(String)
+  nameWithType: UserDefinedFields.CheckIfPublishNeedsBackupWarning(String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.CheckIfPublishNeedsBackupWarning(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public static bool CheckIfPublishNeedsBackupWarning(string ownerTypeString)
+    parameters:
+    - id: ownerTypeString
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function CheckIfPublishNeedsBackupWarning(ownerTypeString As String) As Boolean
+  overload: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.CheckIfPublishNeedsBackupWarning*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.#ctor
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFields()
+  nameWithType: UserDefinedFields.UserDefinedFields()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.UserDefinedFields()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public UserDefinedFields()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.AjaxMethods
+  commentId: N:SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: SuperOffice.CRM.Web.AjaxMethods
+  nameWithType: SuperOffice.CRM.Web.AjaxMethods
+  fullName: SuperOffice.CRM.Web.AjaxMethods
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.Publish*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.Publish
+  isExternal: true
+  name: Publish
+  nameWithType: UserDefinedFields.Publish
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.Publish
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.Revert*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.Revert
+  isExternal: true
+  name: Revert
+  nameWithType: UserDefinedFields.Revert
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.Revert
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.ClearCachesBeforePublish*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.ClearCachesBeforePublish
+  isExternal: true
+  name: ClearCachesBeforePublish
+  nameWithType: UserDefinedFields.ClearCachesBeforePublish
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.ClearCachesBeforePublish
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.ClearCachesAfterPublish*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.ClearCachesAfterPublish
+  isExternal: true
+  name: ClearCachesAfterPublish
+  nameWithType: UserDefinedFields.ClearCachesAfterPublish
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.ClearCachesAfterPublish
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetPosition*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetPosition
+  isExternal: true
+  name: SetPosition
+  nameWithType: UserDefinedFields.SetPosition
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetPosition
+- uid: SuperOffice.CRM.Web.UI.Controls.AdminUdefControlGroup.UdefFieldPositionUpdate[]
+  isExternal: true
+  name: AdminUdefControlGroup.UdefFieldPositionUpdate[]
+  nameWithType: AdminUdefControlGroup.UdefFieldPositionUpdate[]
+  fullName: SuperOffice.CRM.Web.UI.Controls.AdminUdefControlGroup.UdefFieldPositionUpdate[]
+  nameWithType.vb: AdminUdefControlGroup.UdefFieldPositionUpdate()
+  fullName.vb: SuperOffice.CRM.Web.UI.Controls.AdminUdefControlGroup.UdefFieldPositionUpdate()
+  name.vb: AdminUdefControlGroup.UdefFieldPositionUpdate()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.AdminUdefControlGroup.UdefFieldPositionUpdate
+    name: AdminUdefControlGroup.UdefFieldPositionUpdate
+    nameWithType: AdminUdefControlGroup.UdefFieldPositionUpdate
+    fullName: SuperOffice.CRM.Web.UI.Controls.AdminUdefControlGroup.UdefFieldPositionUpdate
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.AdminUdefControlGroup.UdefFieldPositionUpdate
+    name: AdminUdefControlGroup.UdefFieldPositionUpdate
+    nameWithType: AdminUdefControlGroup.UdefFieldPositionUpdate
+    fullName: SuperOffice.CRM.Web.UI.Controls.AdminUdefControlGroup.UdefFieldPositionUpdate
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetPageOneField*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetPageOneField
+  isExternal: true
+  name: SetPageOneField
+  nameWithType: UserDefinedFields.SetPageOneField
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetPageOneField
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetUdefGrouping*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetUdefGrouping
+  isExternal: true
+  name: SetUdefGrouping
+  nameWithType: UserDefinedFields.SetUdefGrouping
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetUdefGrouping
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.IsPublishEventActive*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.IsPublishEventActive
+  isExternal: true
+  name: IsPublishEventActive
+  nameWithType: UserDefinedFields.IsPublishEventActive
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.IsPublishEventActive
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetRankOnFields*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetRankOnFields
+  isExternal: true
+  name: SetRankOnFields
+  nameWithType: UserDefinedFields.SetRankOnFields
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.SetRankOnFields
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.CheckIfPublishNeedsBackupWarning*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.CheckIfPublishNeedsBackupWarning
+  isExternal: true
+  name: CheckIfPublishNeedsBackupWarning
+  nameWithType: UserDefinedFields.CheckIfPublishNeedsBackupWarning
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.CheckIfPublishNeedsBackupWarning
+- uid: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.#ctor
+  isExternal: true
+  name: UserDefinedFields
+  nameWithType: UserDefinedFields.UserDefinedFields
+  fullName: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields.UserDefinedFields

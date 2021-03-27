@@ -1,0 +1,656 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider
+  commentId: T:SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider
+  id: NetServerPocketSettingsProvider
+  parent: SuperOffice.CRM.Web.Util
+  children:
+  - SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.#ctor
+  - SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetApplicationRoot
+  - SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetPocketCrmLoginPage
+  - SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetPocketLandingPageUrlOverride
+  - SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetPocketServiceUrl
+  langs:
+  - csharp
+  - vb
+  name: NetServerPocketSettingsProvider
+  nameWithType: NetServerPocketSettingsProvider
+  fullName: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: 'public class NetServerPocketSettingsProvider : IPocketSettingsProvider'
+    content.vb: >-
+      Public Class NetServerPocketSettingsProvider
+          Implements IPocketSettingsProvider
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.Web.Util.IPocketSettingsProvider
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetPocketCrmLoginPage
+  commentId: M:SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetPocketCrmLoginPage
+  id: GetPocketCrmLoginPage
+  parent: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider
+  langs:
+  - csharp
+  - vb
+  name: GetPocketCrmLoginPage()
+  nameWithType: NetServerPocketSettingsProvider.GetPocketCrmLoginPage()
+  fullName: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetPocketCrmLoginPage()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public string GetPocketCrmLoginPage()
+    return:
+      type: System.String
+    content.vb: Public Function GetPocketCrmLoginPage As String
+  overload: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetPocketCrmLoginPage*
+  implements:
+  - SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketCrmLoginPage
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetPocketServiceUrl
+  commentId: M:SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetPocketServiceUrl
+  id: GetPocketServiceUrl
+  parent: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider
+  langs:
+  - csharp
+  - vb
+  name: GetPocketServiceUrl()
+  nameWithType: NetServerPocketSettingsProvider.GetPocketServiceUrl()
+  fullName: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetPocketServiceUrl()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public string GetPocketServiceUrl()
+    return:
+      type: System.String
+    content.vb: Public Function GetPocketServiceUrl As String
+  overload: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetPocketServiceUrl*
+  implements:
+  - SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketServiceUrl
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetApplicationRoot
+  commentId: M:SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetApplicationRoot
+  id: GetApplicationRoot
+  parent: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider
+  langs:
+  - csharp
+  - vb
+  name: GetApplicationRoot()
+  nameWithType: NetServerPocketSettingsProvider.GetApplicationRoot()
+  fullName: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetApplicationRoot()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public string GetApplicationRoot()
+    return:
+      type: System.String
+    content.vb: Public Function GetApplicationRoot As String
+  overload: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetApplicationRoot*
+  implements:
+  - SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetApplicationRoot
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetPocketLandingPageUrlOverride
+  commentId: M:SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetPocketLandingPageUrlOverride
+  id: GetPocketLandingPageUrlOverride
+  parent: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider
+  langs:
+  - csharp
+  - vb
+  name: GetPocketLandingPageUrlOverride()
+  nameWithType: NetServerPocketSettingsProvider.GetPocketLandingPageUrlOverride()
+  fullName: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetPocketLandingPageUrlOverride()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public string GetPocketLandingPageUrlOverride()
+    return:
+      type: System.String
+    content.vb: Public Function GetPocketLandingPageUrlOverride As String
+  overload: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetPocketLandingPageUrlOverride*
+  implements:
+  - SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketLandingPageUrlOverride
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.#ctor
+  commentId: M:SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider
+  langs:
+  - csharp
+  - vb
+  name: NetServerPocketSettingsProvider()
+  nameWithType: NetServerPocketSettingsProvider.NetServerPocketSettingsProvider()
+  fullName: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.NetServerPocketSettingsProvider()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public NetServerPocketSettingsProvider()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Util
+  commentId: N:SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: SuperOffice.CRM.Web.Util
+  nameWithType: SuperOffice.CRM.Web.Util
+  fullName: SuperOffice.CRM.Web.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Web.Util.IPocketSettingsProvider
+  commentId: T:SuperOffice.CRM.Web.Util.IPocketSettingsProvider
+  parent: SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: IPocketSettingsProvider
+  nameWithType: IPocketSettingsProvider
+  fullName: SuperOffice.CRM.Web.Util.IPocketSettingsProvider
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetPocketCrmLoginPage*
+  commentId: Overload:SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetPocketCrmLoginPage
+  isExternal: true
+  name: GetPocketCrmLoginPage
+  nameWithType: NetServerPocketSettingsProvider.GetPocketCrmLoginPage
+  fullName: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetPocketCrmLoginPage
+- uid: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketCrmLoginPage
+  commentId: M:SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketCrmLoginPage
+  parent: SuperOffice.CRM.Web.Util.IPocketSettingsProvider
+  isExternal: true
+  name: GetPocketCrmLoginPage()
+  nameWithType: IPocketSettingsProvider.GetPocketCrmLoginPage()
+  fullName: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketCrmLoginPage()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketCrmLoginPage
+    name: GetPocketCrmLoginPage
+    nameWithType: IPocketSettingsProvider.GetPocketCrmLoginPage
+    fullName: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketCrmLoginPage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketCrmLoginPage
+    name: GetPocketCrmLoginPage
+    nameWithType: IPocketSettingsProvider.GetPocketCrmLoginPage
+    fullName: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketCrmLoginPage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetPocketServiceUrl*
+  commentId: Overload:SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetPocketServiceUrl
+  isExternal: true
+  name: GetPocketServiceUrl
+  nameWithType: NetServerPocketSettingsProvider.GetPocketServiceUrl
+  fullName: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetPocketServiceUrl
+- uid: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketServiceUrl
+  commentId: M:SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketServiceUrl
+  parent: SuperOffice.CRM.Web.Util.IPocketSettingsProvider
+  isExternal: true
+  name: GetPocketServiceUrl()
+  nameWithType: IPocketSettingsProvider.GetPocketServiceUrl()
+  fullName: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketServiceUrl()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketServiceUrl
+    name: GetPocketServiceUrl
+    nameWithType: IPocketSettingsProvider.GetPocketServiceUrl
+    fullName: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketServiceUrl
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketServiceUrl
+    name: GetPocketServiceUrl
+    nameWithType: IPocketSettingsProvider.GetPocketServiceUrl
+    fullName: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketServiceUrl
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetApplicationRoot*
+  commentId: Overload:SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetApplicationRoot
+  isExternal: true
+  name: GetApplicationRoot
+  nameWithType: NetServerPocketSettingsProvider.GetApplicationRoot
+  fullName: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetApplicationRoot
+- uid: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetApplicationRoot
+  commentId: M:SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetApplicationRoot
+  parent: SuperOffice.CRM.Web.Util.IPocketSettingsProvider
+  isExternal: true
+  name: GetApplicationRoot()
+  nameWithType: IPocketSettingsProvider.GetApplicationRoot()
+  fullName: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetApplicationRoot()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetApplicationRoot
+    name: GetApplicationRoot
+    nameWithType: IPocketSettingsProvider.GetApplicationRoot
+    fullName: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetApplicationRoot
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetApplicationRoot
+    name: GetApplicationRoot
+    nameWithType: IPocketSettingsProvider.GetApplicationRoot
+    fullName: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetApplicationRoot
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetPocketLandingPageUrlOverride*
+  commentId: Overload:SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetPocketLandingPageUrlOverride
+  isExternal: true
+  name: GetPocketLandingPageUrlOverride
+  nameWithType: NetServerPocketSettingsProvider.GetPocketLandingPageUrlOverride
+  fullName: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.GetPocketLandingPageUrlOverride
+- uid: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketLandingPageUrlOverride
+  commentId: M:SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketLandingPageUrlOverride
+  parent: SuperOffice.CRM.Web.Util.IPocketSettingsProvider
+  isExternal: true
+  name: GetPocketLandingPageUrlOverride()
+  nameWithType: IPocketSettingsProvider.GetPocketLandingPageUrlOverride()
+  fullName: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketLandingPageUrlOverride()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketLandingPageUrlOverride
+    name: GetPocketLandingPageUrlOverride
+    nameWithType: IPocketSettingsProvider.GetPocketLandingPageUrlOverride
+    fullName: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketLandingPageUrlOverride
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketLandingPageUrlOverride
+    name: GetPocketLandingPageUrlOverride
+    nameWithType: IPocketSettingsProvider.GetPocketLandingPageUrlOverride
+    fullName: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketLandingPageUrlOverride
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.#ctor
+  isExternal: true
+  name: NetServerPocketSettingsProvider
+  nameWithType: NetServerPocketSettingsProvider.NetServerPocketSettingsProvider
+  fullName: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider.NetServerPocketSettingsProvider

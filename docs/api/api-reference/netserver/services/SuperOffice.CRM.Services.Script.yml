@@ -1,0 +1,747 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.Script
+  commentId: T:SuperOffice.CRM.Services.Script
+  id: Script
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.Script.#ctor
+  - SuperOffice.CRM.Services.Script.Description
+  - SuperOffice.CRM.Services.Script.IncludeId
+  - SuperOffice.CRM.Services.Script.Name
+  - SuperOffice.CRM.Services.Script.Path
+  - SuperOffice.CRM.Services.Script.Registered
+  - SuperOffice.CRM.Services.Script.RegisteredBy
+  - SuperOffice.CRM.Services.Script.Source
+  - SuperOffice.CRM.Services.Script.ToString
+  - SuperOffice.CRM.Services.Script.ToString(System.String)
+  - SuperOffice.CRM.Services.Script.UniqueIdentifier
+  - SuperOffice.CRM.Services.Script.Updated
+  - SuperOffice.CRM.Services.Script.UpdatedBy
+  langs:
+  - csharp
+  - vb
+  name: Script
+  nameWithType: Script
+  fullName: SuperOffice.CRM.Services.Script
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe Script Service. The service implements all services working with the CRMScript object.\n<p></p>\nCarrier object for Script.\nServices for the Script Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ICRMScriptAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet Script 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new CRMScriptAgent();\n    var script = agent.GetScript( 123 );\n }</code></pre>\n\nFind all Script, get related items using archive agent.\n<pre><code>var archive = new ArchiveAgent();\nvar rows = archive.GetArchiveListByColumns2(&quot;CRMScripts&quot;, &quot;...&quot;, null, &quot;getAllRows eq 1&quot;, null, 0, 100 );</code></pre>\n"
+  syntax:
+    content: 'public class Script : Carrier'
+    content.vb: >-
+      Public Class Script
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.CRMScriptAgent
+    commentId: T:SuperOffice.CRM.Services.CRMScriptAgent
+  - linkId: SuperOffice.CRM.Services.ICRMScriptAgent
+    commentId: T:SuperOffice.CRM.Services.ICRMScriptAgent
+  - linkId: SuperOffice.CRM.Services.ArchiveAgent
+    commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  - linkId: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.Script.#ctor
+  commentId: M:SuperOffice.CRM.Services.Script.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.Script
+  langs:
+  - csharp
+  - vb
+  name: Script()
+  nameWithType: Script.Script()
+  fullName: SuperOffice.CRM.Services.Script.Script()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public Script()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.Script.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Script.ToString
+  commentId: M:SuperOffice.CRM.Services.Script.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.Script
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Script.ToString()
+  fullName: SuperOffice.CRM.Services.Script.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.Script.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.Script.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.Script.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.Script
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: Script.ToString(String)
+  fullName: SuperOffice.CRM.Services.Script.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.Script.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Script.UniqueIdentifier
+  commentId: P:SuperOffice.CRM.Services.Script.UniqueIdentifier
+  id: UniqueIdentifier
+  parent: SuperOffice.CRM.Services.Script
+  langs:
+  - csharp
+  - vb
+  name: UniqueIdentifier
+  nameWithType: Script.UniqueIdentifier
+  fullName: SuperOffice.CRM.Services.Script.UniqueIdentifier
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGlobal unique identifier, accross customers/tenants \n"
+  syntax:
+    content: public virtual string UniqueIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property UniqueIdentifier As String
+  overload: SuperOffice.CRM.Services.Script.UniqueIdentifier*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Script.Name
+  commentId: P:SuperOffice.CRM.Services.Script.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.Script
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Script.Name
+  fullName: SuperOffice.CRM.Services.Script.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA description of this script \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.Script.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Script.Description
+  commentId: P:SuperOffice.CRM.Services.Script.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.Script
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: Script.Description
+  fullName: SuperOffice.CRM.Services.Script.Description
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOptional description of what this script is used for. \n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.Script.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Script.IncludeId
+  commentId: P:SuperOffice.CRM.Services.Script.IncludeId
+  id: IncludeId
+  parent: SuperOffice.CRM.Services.Script
+  langs:
+  - csharp
+  - vb
+  name: IncludeId
+  nameWithType: Script.IncludeId
+  fullName: SuperOffice.CRM.Services.Script.IncludeId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA unique name used for including this script in another \n"
+  syntax:
+    content: public virtual string IncludeId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property IncludeId As String
+  overload: SuperOffice.CRM.Services.Script.IncludeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Script.Source
+  commentId: P:SuperOffice.CRM.Services.Script.Source
+  id: Source
+  parent: SuperOffice.CRM.Services.Script
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: Script.Source
+  fullName: SuperOffice.CRM.Services.Script.Source
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe script \n"
+  syntax:
+    content: public virtual string Source { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Source As String
+  overload: SuperOffice.CRM.Services.Script.Source*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Script.Registered
+  commentId: P:SuperOffice.CRM.Services.Script.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Services.Script
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: Script.Registered
+  fullName: SuperOffice.CRM.Services.Script.Registered
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRegistered when  in UTC.\n"
+  syntax:
+    content: public virtual DateTime Registered { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Registered As Date
+  overload: SuperOffice.CRM.Services.Script.Registered*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Script.RegisteredBy
+  commentId: P:SuperOffice.CRM.Services.Script.RegisteredBy
+  id: RegisteredBy
+  parent: SuperOffice.CRM.Services.Script
+  langs:
+  - csharp
+  - vb
+  name: RegisteredBy
+  nameWithType: Script.RegisteredBy
+  fullName: SuperOffice.CRM.Services.Script.RegisteredBy
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWho created this script \n"
+  syntax:
+    content: public virtual string RegisteredBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RegisteredBy As String
+  overload: SuperOffice.CRM.Services.Script.RegisteredBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Script.Updated
+  commentId: P:SuperOffice.CRM.Services.Script.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Services.Script
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: Script.Updated
+  fullName: SuperOffice.CRM.Services.Script.Updated
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLast updated when  in UTC.\n"
+  syntax:
+    content: public virtual DateTime Updated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Updated As Date
+  overload: SuperOffice.CRM.Services.Script.Updated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Script.UpdatedBy
+  commentId: P:SuperOffice.CRM.Services.Script.UpdatedBy
+  id: UpdatedBy
+  parent: SuperOffice.CRM.Services.Script
+  langs:
+  - csharp
+  - vb
+  name: UpdatedBy
+  nameWithType: Script.UpdatedBy
+  fullName: SuperOffice.CRM.Services.Script.UpdatedBy
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWho updated this script \n"
+  syntax:
+    content: public virtual string UpdatedBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property UpdatedBy As String
+  overload: SuperOffice.CRM.Services.Script.UpdatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Script.Path
+  commentId: P:SuperOffice.CRM.Services.Script.Path
+  id: Path
+  parent: SuperOffice.CRM.Services.Script
+  langs:
+  - csharp
+  - vb
+  name: Path
+  nameWithType: Script.Path
+  fullName: SuperOffice.CRM.Services.Script.Path
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPath to script in the hierarchy. \n"
+  syntax:
+    content: public virtual string Path { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Path As String
+  overload: SuperOffice.CRM.Services.Script.Path*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.CRMScriptAgent
+  commentId: T:SuperOffice.CRM.Services.CRMScriptAgent
+  isExternal: true
+  name: CRMScriptAgent
+  nameWithType: CRMScriptAgent
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent
+  commentId: T:SuperOffice.CRM.Services.ICRMScriptAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ICRMScriptAgent
+  nameWithType: ICRMScriptAgent
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent
+- uid: SuperOffice.CRM.Services.ArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.CRM.Services.ArchiveAgent
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  isExternal: true
+  name: GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
+  nameWithType: IArchiveAgent.GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    name: GetArchiveListByColumns2
+    nameWithType: IArchiveAgent.GetArchiveListByColumns2
+    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    name: GetArchiveListByColumns2
+    nameWithType: IArchiveAgent.GetArchiveListByColumns2
+    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.IArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.IArchiveAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IArchiveAgent
+  nameWithType: IArchiveAgent
+  fullName: SuperOffice.CRM.Services.IArchiveAgent
+- uid: SuperOffice.CRM.Services.Script.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.Script.#ctor
+  isExternal: true
+  name: Script
+  nameWithType: Script.Script
+  fullName: SuperOffice.CRM.Services.Script.Script
+- uid: SuperOffice.CRM.Services.Script.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.Script.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: Script.ToString
+  fullName: SuperOffice.CRM.Services.Script.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.Script.UniqueIdentifier*
+  commentId: Overload:SuperOffice.CRM.Services.Script.UniqueIdentifier
+  isExternal: true
+  name: UniqueIdentifier
+  nameWithType: Script.UniqueIdentifier
+  fullName: SuperOffice.CRM.Services.Script.UniqueIdentifier
+- uid: SuperOffice.CRM.Services.Script.Name*
+  commentId: Overload:SuperOffice.CRM.Services.Script.Name
+  isExternal: true
+  name: Name
+  nameWithType: Script.Name
+  fullName: SuperOffice.CRM.Services.Script.Name
+- uid: SuperOffice.CRM.Services.Script.Description*
+  commentId: Overload:SuperOffice.CRM.Services.Script.Description
+  isExternal: true
+  name: Description
+  nameWithType: Script.Description
+  fullName: SuperOffice.CRM.Services.Script.Description
+- uid: SuperOffice.CRM.Services.Script.IncludeId*
+  commentId: Overload:SuperOffice.CRM.Services.Script.IncludeId
+  isExternal: true
+  name: IncludeId
+  nameWithType: Script.IncludeId
+  fullName: SuperOffice.CRM.Services.Script.IncludeId
+- uid: SuperOffice.CRM.Services.Script.Source*
+  commentId: Overload:SuperOffice.CRM.Services.Script.Source
+  isExternal: true
+  name: Source
+  nameWithType: Script.Source
+  fullName: SuperOffice.CRM.Services.Script.Source
+- uid: SuperOffice.CRM.Services.Script.Registered*
+  commentId: Overload:SuperOffice.CRM.Services.Script.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: Script.Registered
+  fullName: SuperOffice.CRM.Services.Script.Registered
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.Script.RegisteredBy*
+  commentId: Overload:SuperOffice.CRM.Services.Script.RegisteredBy
+  isExternal: true
+  name: RegisteredBy
+  nameWithType: Script.RegisteredBy
+  fullName: SuperOffice.CRM.Services.Script.RegisteredBy
+- uid: SuperOffice.CRM.Services.Script.Updated*
+  commentId: Overload:SuperOffice.CRM.Services.Script.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: Script.Updated
+  fullName: SuperOffice.CRM.Services.Script.Updated
+- uid: SuperOffice.CRM.Services.Script.UpdatedBy*
+  commentId: Overload:SuperOffice.CRM.Services.Script.UpdatedBy
+  isExternal: true
+  name: UpdatedBy
+  nameWithType: Script.UpdatedBy
+  fullName: SuperOffice.CRM.Services.Script.UpdatedBy
+- uid: SuperOffice.CRM.Services.Script.Path*
+  commentId: Overload:SuperOffice.CRM.Services.Script.Path
+  isExternal: true
+  name: Path
+  nameWithType: Script.Path
+  fullName: SuperOffice.CRM.Services.Script.Path

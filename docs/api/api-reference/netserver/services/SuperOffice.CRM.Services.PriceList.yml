@@ -1,0 +1,761 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.PriceList
+  commentId: T:SuperOffice.CRM.Services.PriceList
+  id: PriceList
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.PriceList.#ctor
+  - SuperOffice.CRM.Services.PriceList.Currency
+  - SuperOffice.CRM.Services.PriceList.CurrencyName
+  - SuperOffice.CRM.Services.PriceList.Description
+  - SuperOffice.CRM.Services.PriceList.ERPPriceListKey
+  - SuperOffice.CRM.Services.PriceList.IsActive
+  - SuperOffice.CRM.Services.PriceList.Name
+  - SuperOffice.CRM.Services.PriceList.PriceListId
+  - SuperOffice.CRM.Services.PriceList.QuoteConnectionId
+  - SuperOffice.CRM.Services.PriceList.ToString
+  - SuperOffice.CRM.Services.PriceList.ToString(System.String)
+  - SuperOffice.CRM.Services.PriceList.ValidFrom
+  - SuperOffice.CRM.Services.PriceList.ValidTo
+  langs:
+  - csharp
+  - vb
+  name: PriceList
+  nameWithType: PriceList
+  fullName: SuperOffice.CRM.Services.PriceList
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA pricelist is basically a collection of products. It can be valid in a time period, and outright deactivated. All prices in the product list is in a specific currency. We have decieded not to separate prices and products, which means that we get a simpler data model, but some redundancy.\n<p></p>\nCarrier object for PriceList.\nServices for the PriceList Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IQuoteAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet PriceList 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new QuoteAgent();\n    var priceList = agent.GetPriceList( 123 );\n }</code></pre>\n\nFind all PriceList, get related items using archive agent.\n<pre><code>var archive = new ArchiveAgent();\nvar rows = archive.GetArchiveListByColumns2(&quot;PriceList&quot;, &quot;...&quot;, null, &quot;getAllRows eq 1&quot;, null, 0, 100 );\nvar products = archive.GetArchiveListByColumns2(&quot;Product&quot;, &quot;...&quot;, null, &quot;priceListId eq 123&quot;, null, 0, 100 );</code></pre>\n"
+  syntax:
+    content: 'public class PriceList : Carrier'
+    content.vb: >-
+      Public Class PriceList
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.QuoteAgent
+    commentId: T:SuperOffice.CRM.Services.QuoteAgent
+  - linkId: SuperOffice.CRM.Services.IQuoteAgent
+    commentId: T:SuperOffice.CRM.Services.IQuoteAgent
+  - linkId: SuperOffice.CRM.Services.ArchiveAgent
+    commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  - linkId: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.PriceList.#ctor
+  commentId: M:SuperOffice.CRM.Services.PriceList.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.PriceList
+  langs:
+  - csharp
+  - vb
+  name: PriceList()
+  nameWithType: PriceList.PriceList()
+  fullName: SuperOffice.CRM.Services.PriceList.PriceList()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public PriceList()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.PriceList.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PriceList.ToString
+  commentId: M:SuperOffice.CRM.Services.PriceList.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.PriceList
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: PriceList.ToString()
+  fullName: SuperOffice.CRM.Services.PriceList.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.PriceList.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.PriceList.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.PriceList.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.PriceList
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: PriceList.ToString(String)
+  fullName: SuperOffice.CRM.Services.PriceList.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.PriceList.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PriceList.PriceListId
+  commentId: P:SuperOffice.CRM.Services.PriceList.PriceListId
+  id: PriceListId
+  parent: SuperOffice.CRM.Services.PriceList
+  langs:
+  - csharp
+  - vb
+  name: PriceListId
+  nameWithType: PriceList.PriceListId
+  fullName: SuperOffice.CRM.Services.PriceList.PriceListId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int PriceListId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PriceListId As Integer
+  overload: SuperOffice.CRM.Services.PriceList.PriceListId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PriceList.ERPPriceListKey
+  commentId: P:SuperOffice.CRM.Services.PriceList.ERPPriceListKey
+  id: ERPPriceListKey
+  parent: SuperOffice.CRM.Services.PriceList
+  langs:
+  - csharp
+  - vb
+  name: ERPPriceListKey
+  nameWithType: PriceList.ERPPriceListKey
+  fullName: SuperOffice.CRM.Services.PriceList.ERPPriceListKey
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe key that uniquely identifies this pricelist in the ERP system \n"
+  syntax:
+    content: public virtual string ERPPriceListKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ERPPriceListKey As String
+  overload: SuperOffice.CRM.Services.PriceList.ERPPriceListKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PriceList.QuoteConnectionId
+  commentId: P:SuperOffice.CRM.Services.PriceList.QuoteConnectionId
+  id: QuoteConnectionId
+  parent: SuperOffice.CRM.Services.PriceList
+  langs:
+  - csharp
+  - vb
+  name: QuoteConnectionId
+  nameWithType: PriceList.QuoteConnectionId
+  fullName: SuperOffice.CRM.Services.PriceList.QuoteConnectionId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n(Reserved for future use) The connection to the ERP system used for this pricelist \n"
+  syntax:
+    content: public virtual int QuoteConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property QuoteConnectionId As Integer
+  overload: SuperOffice.CRM.Services.PriceList.QuoteConnectionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PriceList.Name
+  commentId: P:SuperOffice.CRM.Services.PriceList.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.PriceList
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: PriceList.Name
+  fullName: SuperOffice.CRM.Services.PriceList.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of this pricelist to use in the user interface. \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.PriceList.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PriceList.Description
+  commentId: P:SuperOffice.CRM.Services.PriceList.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.PriceList
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: PriceList.Description
+  fullName: SuperOffice.CRM.Services.PriceList.Description
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDescription of this pricelist , will be used as tool-tip in the user interface. \n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.PriceList.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PriceList.Currency
+  commentId: P:SuperOffice.CRM.Services.PriceList.Currency
+  id: Currency
+  parent: SuperOffice.CRM.Services.PriceList
+  langs:
+  - csharp
+  - vb
+  name: Currency
+  nameWithType: PriceList.Currency
+  fullName: SuperOffice.CRM.Services.PriceList.Currency
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe iso currency code, like &apos;USD&apos; or &apos;NOK&apos;. \n"
+  syntax:
+    content: public virtual string Currency { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Currency As String
+  overload: SuperOffice.CRM.Services.PriceList.Currency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PriceList.CurrencyName
+  commentId: P:SuperOffice.CRM.Services.PriceList.CurrencyName
+  id: CurrencyName
+  parent: SuperOffice.CRM.Services.PriceList
+  langs:
+  - csharp
+  - vb
+  name: CurrencyName
+  nameWithType: PriceList.CurrencyName
+  fullName: SuperOffice.CRM.Services.PriceList.CurrencyName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe name to use in the user interface, like perhaps &apos;US dollar&apos; or &apos;$&apos; \n"
+  syntax:
+    content: public virtual string CurrencyName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CurrencyName As String
+  overload: SuperOffice.CRM.Services.PriceList.CurrencyName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PriceList.ValidFrom
+  commentId: P:SuperOffice.CRM.Services.PriceList.ValidFrom
+  id: ValidFrom
+  parent: SuperOffice.CRM.Services.PriceList
+  langs:
+  - csharp
+  - vb
+  name: ValidFrom
+  nameWithType: PriceList.ValidFrom
+  fullName: SuperOffice.CRM.Services.PriceList.ValidFrom
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn&apos;t have a specific start date. \n"
+  syntax:
+    content: public virtual DateTime ValidFrom { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property ValidFrom As Date
+  overload: SuperOffice.CRM.Services.PriceList.ValidFrom*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PriceList.ValidTo
+  commentId: P:SuperOffice.CRM.Services.PriceList.ValidTo
+  id: ValidTo
+  parent: SuperOffice.CRM.Services.PriceList
+  langs:
+  - csharp
+  - vb
+  name: ValidTo
+  nameWithType: PriceList.ValidTo
+  fullName: SuperOffice.CRM.Services.PriceList.ValidTo
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn&apos;t have a specific end date. \n"
+  syntax:
+    content: public virtual DateTime ValidTo { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property ValidTo As Date
+  overload: SuperOffice.CRM.Services.PriceList.ValidTo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PriceList.IsActive
+  commentId: P:SuperOffice.CRM.Services.PriceList.IsActive
+  id: IsActive
+  parent: SuperOffice.CRM.Services.PriceList
+  langs:
+  - csharp
+  - vb
+  name: IsActive
+  nameWithType: PriceList.IsActive
+  fullName: SuperOffice.CRM.Services.PriceList.IsActive
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIs the list active (as opposed to being worked on, suddenly canceled, etc. \n"
+  syntax:
+    content: public virtual bool IsActive { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsActive As Boolean
+  overload: SuperOffice.CRM.Services.PriceList.IsActive*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.QuoteAgent
+  commentId: T:SuperOffice.CRM.Services.QuoteAgent
+  isExternal: true
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.CRM.Services.QuoteAgent
+- uid: SuperOffice.CRM.Services.IQuoteAgent
+  commentId: T:SuperOffice.CRM.Services.IQuoteAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IQuoteAgent
+  nameWithType: IQuoteAgent
+  fullName: SuperOffice.CRM.Services.IQuoteAgent
+- uid: SuperOffice.CRM.Services.ArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.CRM.Services.ArchiveAgent
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  isExternal: true
+  name: GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
+  nameWithType: IArchiveAgent.GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    name: GetArchiveListByColumns2
+    nameWithType: IArchiveAgent.GetArchiveListByColumns2
+    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    name: GetArchiveListByColumns2
+    nameWithType: IArchiveAgent.GetArchiveListByColumns2
+    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.IArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.IArchiveAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IArchiveAgent
+  nameWithType: IArchiveAgent
+  fullName: SuperOffice.CRM.Services.IArchiveAgent
+- uid: SuperOffice.CRM.Services.PriceList.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.PriceList.#ctor
+  isExternal: true
+  name: PriceList
+  nameWithType: PriceList.PriceList
+  fullName: SuperOffice.CRM.Services.PriceList.PriceList
+- uid: SuperOffice.CRM.Services.PriceList.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.PriceList.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: PriceList.ToString
+  fullName: SuperOffice.CRM.Services.PriceList.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.PriceList.PriceListId*
+  commentId: Overload:SuperOffice.CRM.Services.PriceList.PriceListId
+  isExternal: true
+  name: PriceListId
+  nameWithType: PriceList.PriceListId
+  fullName: SuperOffice.CRM.Services.PriceList.PriceListId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.PriceList.ERPPriceListKey*
+  commentId: Overload:SuperOffice.CRM.Services.PriceList.ERPPriceListKey
+  isExternal: true
+  name: ERPPriceListKey
+  nameWithType: PriceList.ERPPriceListKey
+  fullName: SuperOffice.CRM.Services.PriceList.ERPPriceListKey
+- uid: SuperOffice.CRM.Services.PriceList.QuoteConnectionId*
+  commentId: Overload:SuperOffice.CRM.Services.PriceList.QuoteConnectionId
+  isExternal: true
+  name: QuoteConnectionId
+  nameWithType: PriceList.QuoteConnectionId
+  fullName: SuperOffice.CRM.Services.PriceList.QuoteConnectionId
+- uid: SuperOffice.CRM.Services.PriceList.Name*
+  commentId: Overload:SuperOffice.CRM.Services.PriceList.Name
+  isExternal: true
+  name: Name
+  nameWithType: PriceList.Name
+  fullName: SuperOffice.CRM.Services.PriceList.Name
+- uid: SuperOffice.CRM.Services.PriceList.Description*
+  commentId: Overload:SuperOffice.CRM.Services.PriceList.Description
+  isExternal: true
+  name: Description
+  nameWithType: PriceList.Description
+  fullName: SuperOffice.CRM.Services.PriceList.Description
+- uid: SuperOffice.CRM.Services.PriceList.Currency*
+  commentId: Overload:SuperOffice.CRM.Services.PriceList.Currency
+  isExternal: true
+  name: Currency
+  nameWithType: PriceList.Currency
+  fullName: SuperOffice.CRM.Services.PriceList.Currency
+- uid: SuperOffice.CRM.Services.PriceList.CurrencyName*
+  commentId: Overload:SuperOffice.CRM.Services.PriceList.CurrencyName
+  isExternal: true
+  name: CurrencyName
+  nameWithType: PriceList.CurrencyName
+  fullName: SuperOffice.CRM.Services.PriceList.CurrencyName
+- uid: SuperOffice.CRM.Services.PriceList.ValidFrom*
+  commentId: Overload:SuperOffice.CRM.Services.PriceList.ValidFrom
+  isExternal: true
+  name: ValidFrom
+  nameWithType: PriceList.ValidFrom
+  fullName: SuperOffice.CRM.Services.PriceList.ValidFrom
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.PriceList.ValidTo*
+  commentId: Overload:SuperOffice.CRM.Services.PriceList.ValidTo
+  isExternal: true
+  name: ValidTo
+  nameWithType: PriceList.ValidTo
+  fullName: SuperOffice.CRM.Services.PriceList.ValidTo
+- uid: SuperOffice.CRM.Services.PriceList.IsActive*
+  commentId: Overload:SuperOffice.CRM.Services.PriceList.IsActive
+  isExternal: true
+  name: IsActive
+  nameWithType: PriceList.IsActive
+  fullName: SuperOffice.CRM.Services.PriceList.IsActive
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

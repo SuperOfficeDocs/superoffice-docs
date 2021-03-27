@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.ILinkHintArchiveAction
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.ILinkHintArchiveAction
+  id: ILinkHintArchiveAction
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ILinkHintArchiveAction
+  nameWithType: ILinkHintArchiveAction
+  fullName: SuperOffice.CRM.Web.UI.Controls.ILinkHintArchiveAction
+  type: Interface
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: 'public interface ILinkHintArchiveAction : IArchiveAction'
+    content.vb: >-
+      Public Interface ILinkHintArchiveAction
+          Inherits IArchiveAction
+  inheritedMembers:
+  - SuperOffice.CRM.Web.UI.Controls.IArchiveAction.Run(System.String)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.IArchiveAction.Run(System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.IArchiveAction.Run(System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.IArchiveAction
+  isExternal: true
+  name: Run(String)
+  nameWithType: IArchiveAction.Run(String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.IArchiveAction.Run(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.IArchiveAction.Run(System.String)
+    name: Run
+    nameWithType: IArchiveAction.Run
+    fullName: SuperOffice.CRM.Web.UI.Controls.IArchiveAction.Run
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.IArchiveAction.Run(System.String)
+    name: Run
+    nameWithType: IArchiveAction.Run
+    fullName: SuperOffice.CRM.Web.UI.Controls.IArchiveAction.Run
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.IArchiveAction
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.IArchiveAction
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: IArchiveAction
+  nameWithType: IArchiveAction
+  fullName: SuperOffice.CRM.Web.UI.Controls.IArchiveAction

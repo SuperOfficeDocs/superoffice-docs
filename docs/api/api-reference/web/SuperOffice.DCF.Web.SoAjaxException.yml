@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.SoAjaxException
+  commentId: T:SuperOffice.DCF.Web.SoAjaxException
+  id: SoAjaxException
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.SoAjaxException.#ctor(System.Exception)
+  - SuperOffice.DCF.Web.SoAjaxException.#ctor(System.Exception,System.Boolean)
+  - SuperOffice.DCF.Web.SoAjaxException.Message
+  - SuperOffice.DCF.Web.SoAjaxException.ToString
+  langs:
+  - csharp
+  - vb
+  name: SoAjaxException
+  nameWithType: SoAjaxException
+  fullName: SuperOffice.DCF.Web.SoAjaxException
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: 'public class SoAjaxException : SoException'
+    content.vb: >-
+      Public Class SoAjaxException
+          Inherits SoException
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.DCF.Web.SoAjaxRedirectException
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.SoAjaxException.#ctor(System.Exception)
+  commentId: M:SuperOffice.DCF.Web.SoAjaxException.#ctor(System.Exception)
+  id: '#ctor(System.Exception)'
+  parent: SuperOffice.DCF.Web.SoAjaxException
+  langs:
+  - csharp
+  - vb
+  name: SoAjaxException(Exception)
+  nameWithType: SoAjaxException.SoAjaxException(Exception)
+  fullName: SuperOffice.DCF.Web.SoAjaxException.SoAjaxException(System.Exception)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public SoAjaxException(Exception ex)
+    parameters:
+    - id: ex
+      type: System.Exception
+    content.vb: Public Sub New(ex As Exception)
+  overload: SuperOffice.DCF.Web.SoAjaxException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.SoAjaxException.#ctor(System.Exception,System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.SoAjaxException.#ctor(System.Exception,System.Boolean)
+  id: '#ctor(System.Exception,System.Boolean)'
+  parent: SuperOffice.DCF.Web.SoAjaxException
+  langs:
+  - csharp
+  - vb
+  name: SoAjaxException(Exception, Boolean)
+  nameWithType: SoAjaxException.SoAjaxException(Exception, Boolean)
+  fullName: SuperOffice.DCF.Web.SoAjaxException.SoAjaxException(System.Exception, System.Boolean)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: protected SoAjaxException(Exception ex, bool callHandleException)
+    parameters:
+    - id: ex
+      type: System.Exception
+    - id: callHandleException
+      type: System.Boolean
+    content.vb: Protected Sub New(ex As Exception, callHandleException As Boolean)
+  overload: SuperOffice.DCF.Web.SoAjaxException.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.DCF.Web.SoAjaxException.ToString
+  commentId: M:SuperOffice.DCF.Web.SoAjaxException.ToString
+  id: ToString
+  parent: SuperOffice.DCF.Web.SoAjaxException
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SoAjaxException.ToString()
+  fullName: SuperOffice.DCF.Web.SoAjaxException.ToString()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.DCF.Web.SoAjaxException.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.DCF.Web.SoAjaxException.Message
+  commentId: P:SuperOffice.DCF.Web.SoAjaxException.Message
+  id: Message
+  parent: SuperOffice.DCF.Web.SoAjaxException
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: SoAjaxException.Message
+  fullName: SuperOffice.DCF.Web.SoAjaxException.Message
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public override string Message { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property Message As String
+  overload: SuperOffice.DCF.Web.SoAjaxException.Message*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.SoAjaxException.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.SoAjaxException.#ctor
+  isExternal: true
+  name: SoAjaxException
+  nameWithType: SoAjaxException.SoAjaxException
+  fullName: SuperOffice.DCF.Web.SoAjaxException.SoAjaxException
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.DCF.Web.SoAjaxException.ToString*
+  commentId: Overload:SuperOffice.DCF.Web.SoAjaxException.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: SoAjaxException.ToString
+  fullName: SuperOffice.DCF.Web.SoAjaxException.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.SoAjaxException.Message*
+  commentId: Overload:SuperOffice.DCF.Web.SoAjaxException.Message
+  isExternal: true
+  name: Message
+  nameWithType: SoAjaxException.Message
+  fullName: SuperOffice.DCF.Web.SoAjaxException.Message

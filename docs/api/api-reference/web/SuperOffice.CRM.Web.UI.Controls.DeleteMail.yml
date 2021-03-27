@@ -1,0 +1,519 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.DeleteMail
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.DeleteMail
+  id: DeleteMail
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.DeleteMail.#ctor
+  - SuperOffice.CRM.Web.UI.Controls.DeleteMail.Run(System.String)
+  langs:
+  - csharp
+  - vb
+  name: DeleteMail
+  nameWithType: DeleteMail
+  fullName: SuperOffice.CRM.Web.UI.Controls.DeleteMail
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: 'public class DeleteMail : MailAction, IArchiveAction'
+    content.vb: >-
+      Public Class DeleteMail
+          Inherits MailAction
+          Implements IArchiveAction
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Web.UI.Controls.MailAction
+  implements:
+  - SuperOffice.CRM.Web.UI.Controls.IArchiveAction
+  inheritedMembers:
+  - SuperOffice.CRM.Web.UI.Controls.MailAction.GetMailIds(System.String)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Controls.DeleteMail.Run(System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.DeleteMail.Run(System.String)
+  id: Run(System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.DeleteMail
+  langs:
+  - csharp
+  - vb
+  name: Run(String)
+  nameWithType: DeleteMail.Run(String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.DeleteMail.Run(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string Run(string items)
+    parameters:
+    - id: items
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function Run(items As String) As String
+  overload: SuperOffice.CRM.Web.UI.Controls.DeleteMail.Run*
+  implements:
+  - SuperOffice.CRM.Web.UI.Controls.IArchiveAction.Run(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.DeleteMail.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.DeleteMail.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.Controls.DeleteMail
+  langs:
+  - csharp
+  - vb
+  name: DeleteMail()
+  nameWithType: DeleteMail.DeleteMail()
+  fullName: SuperOffice.CRM.Web.UI.Controls.DeleteMail.DeleteMail()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public DeleteMail()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.Controls.DeleteMail.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Web.UI.Controls.MailAction
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.MailAction
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: MailAction
+  nameWithType: MailAction
+  fullName: SuperOffice.CRM.Web.UI.Controls.MailAction
+- uid: SuperOffice.CRM.Web.UI.Controls.IArchiveAction
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.IArchiveAction
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: IArchiveAction
+  nameWithType: IArchiveAction
+  fullName: SuperOffice.CRM.Web.UI.Controls.IArchiveAction
+- uid: SuperOffice.CRM.Web.UI.Controls.MailAction.GetMailIds(System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.MailAction.GetMailIds(System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.MailAction
+  isExternal: true
+  name: GetMailIds(String)
+  nameWithType: MailAction.GetMailIds(String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.MailAction.GetMailIds(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MailAction.GetMailIds(System.String)
+    name: GetMailIds
+    nameWithType: MailAction.GetMailIds
+    fullName: SuperOffice.CRM.Web.UI.Controls.MailAction.GetMailIds
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.MailAction.GetMailIds(System.String)
+    name: GetMailIds
+    nameWithType: MailAction.GetMailIds
+    fullName: SuperOffice.CRM.Web.UI.Controls.MailAction.GetMailIds
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.Controls.DeleteMail.Run*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.DeleteMail.Run
+  isExternal: true
+  name: Run
+  nameWithType: DeleteMail.Run
+  fullName: SuperOffice.CRM.Web.UI.Controls.DeleteMail.Run
+- uid: SuperOffice.CRM.Web.UI.Controls.IArchiveAction.Run(System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.IArchiveAction.Run(System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.IArchiveAction
+  isExternal: true
+  name: Run(String)
+  nameWithType: IArchiveAction.Run(String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.IArchiveAction.Run(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.IArchiveAction.Run(System.String)
+    name: Run
+    nameWithType: IArchiveAction.Run
+    fullName: SuperOffice.CRM.Web.UI.Controls.IArchiveAction.Run
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.IArchiveAction.Run(System.String)
+    name: Run
+    nameWithType: IArchiveAction.Run
+    fullName: SuperOffice.CRM.Web.UI.Controls.IArchiveAction.Run
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.Controls.DeleteMail.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.DeleteMail.#ctor
+  isExternal: true
+  name: DeleteMail
+  nameWithType: DeleteMail.DeleteMail
+  fullName: SuperOffice.CRM.Web.UI.Controls.DeleteMail.DeleteMail

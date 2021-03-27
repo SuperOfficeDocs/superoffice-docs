@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.ReturnFields
+  commentId: N:SuperOffice.CRM.ArchiveLists.ReturnFields
+  id: SuperOffice.CRM.ArchiveLists.ReturnFields
+  children:
+  - SuperOffice.CRM.ArchiveLists.ReturnFields.FindContactReturnFieldsCalculator
+  - SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextAppointmentReturnFieldsCalculator
+  - SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextContactReturnFieldsCalculator
+  - SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextDocumentReturnFieldsCalculator
+  - SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextPersontReturnFieldsCalculator
+  - SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextProjectReturnFieldsCalculator
+  - SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSaleReturnFieldsCalculator
+  - SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.ArchiveLists.ReturnFields
+  nameWithType: SuperOffice.CRM.ArchiveLists.ReturnFields
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFields
+  type: Namespace
+  assemblies:
+  - SoDataBase
+references:
+- uid: SuperOffice.CRM.ArchiveLists.ReturnFields.FindContactReturnFieldsCalculator
+  commentId: T:SuperOffice.CRM.ArchiveLists.ReturnFields.FindContactReturnFieldsCalculator
+  isExternal: true
+  name: FindContactReturnFieldsCalculator
+  nameWithType: FindContactReturnFieldsCalculator
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFields.FindContactReturnFieldsCalculator
+- uid: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextContactReturnFieldsCalculator
+  commentId: T:SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextContactReturnFieldsCalculator
+  isExternal: true
+  name: FreetextContactReturnFieldsCalculator
+  nameWithType: FreetextContactReturnFieldsCalculator
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextContactReturnFieldsCalculator
+- uid: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextPersontReturnFieldsCalculator
+  commentId: T:SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextPersontReturnFieldsCalculator
+  isExternal: true
+  name: FreetextPersontReturnFieldsCalculator
+  nameWithType: FreetextPersontReturnFieldsCalculator
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextPersontReturnFieldsCalculator
+- uid: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextProjectReturnFieldsCalculator
+  commentId: T:SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextProjectReturnFieldsCalculator
+  isExternal: true
+  name: FreetextProjectReturnFieldsCalculator
+  nameWithType: FreetextProjectReturnFieldsCalculator
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextProjectReturnFieldsCalculator
+- uid: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextAppointmentReturnFieldsCalculator
+  commentId: T:SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextAppointmentReturnFieldsCalculator
+  isExternal: true
+  name: FreetextAppointmentReturnFieldsCalculator
+  nameWithType: FreetextAppointmentReturnFieldsCalculator
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextAppointmentReturnFieldsCalculator
+- uid: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextDocumentReturnFieldsCalculator
+  commentId: T:SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextDocumentReturnFieldsCalculator
+  isExternal: true
+  name: FreetextDocumentReturnFieldsCalculator
+  nameWithType: FreetextDocumentReturnFieldsCalculator
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextDocumentReturnFieldsCalculator
+- uid: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSaleReturnFieldsCalculator
+  commentId: T:SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSaleReturnFieldsCalculator
+  isExternal: true
+  name: FreetextSaleReturnFieldsCalculator
+  nameWithType: FreetextSaleReturnFieldsCalculator
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSaleReturnFieldsCalculator
+- uid: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator
+  commentId: T:SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator
+  isExternal: true
+  name: FreetextSelectionReturnFieldsCalculator
+  nameWithType: FreetextSelectionReturnFieldsCalculator
+  fullName: SuperOffice.CRM.ArchiveLists.ReturnFields.FreetextSelectionReturnFieldsCalculator

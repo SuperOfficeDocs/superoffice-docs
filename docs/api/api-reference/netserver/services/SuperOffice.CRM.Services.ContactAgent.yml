@@ -1,0 +1,3677 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ContactAgent
+  commentId: T:SuperOffice.CRM.Services.ContactAgent
+  id: ContactAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ContactAgent.#ctor
+  - SuperOffice.CRM.Services.ContactAgent.AddPerson(System.Int32,SuperOffice.CRM.Services.PersonEntity)
+  - SuperOffice.CRM.Services.ContactAgent.ChangeCountry(SuperOffice.CRM.Services.ContactEntity,System.Int32)
+  - SuperOffice.CRM.Services.ContactAgent.Copy(System.Int32,System.String,System.String,System.Boolean)
+  - SuperOffice.CRM.Services.ContactAgent.CreateDefaultContactEntity
+  - SuperOffice.CRM.Services.ContactAgent.CreateNewEntry(SuperOffice.CRM.Services.DuplicateEntry)
+  - SuperOffice.CRM.Services.ContactAgent.DeleteContactEntity(System.Int32)
+  - SuperOffice.CRM.Services.ContactAgent.DeleteExpired
+  - SuperOffice.CRM.Services.ContactAgent.GetAddress(System.Int32)
+  - SuperOffice.CRM.Services.ContactAgent.GetAddressByCountry(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.ContactAgent.GetContact(System.Int32)
+  - SuperOffice.CRM.Services.ContactAgent.GetContactEntity(System.Int32)
+  - SuperOffice.CRM.Services.ContactAgent.GetContactList(System.Int32[])
+  - SuperOffice.CRM.Services.ContactAgent.GetContactSummary(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.ContactAgent.GetContactWithPersons(System.Int32)
+  - SuperOffice.CRM.Services.ContactAgent.GetDuplicateRules
+  - SuperOffice.CRM.Services.ContactAgent.GetDuplicates(System.String)
+  - SuperOffice.CRM.Services.ContactAgent.GetMyActiveContacts(System.DateTime,System.Int32[],SuperOffice.CRM.Services.Util.ContactAction)
+  - SuperOffice.CRM.Services.ContactAgent.GetMyBizCard
+  - SuperOffice.CRM.Services.ContactAgent.GetMyContact
+  - SuperOffice.CRM.Services.ContactAgent.GetMyContacts
+  - SuperOffice.CRM.Services.ContactAgent.GetMyRecentContacts(SuperOffice.CRM.Services.Util.ContactSourceType)
+  - SuperOffice.CRM.Services.ContactAgent.GetNameDepartmentDuplicates(System.String,System.String)
+  - SuperOffice.CRM.Services.ContactAgent.GetPersons(System.Int32)
+  - SuperOffice.CRM.Services.ContactAgent.GetQuoteVersionAddresses(System.Int32)
+  - SuperOffice.CRM.Services.ContactAgent.IsNumberValid(System.Int32,System.String)
+  - SuperOffice.CRM.Services.ContactAgent.Merge(System.Int32,System.Int32,System.Boolean,System.Boolean)
+  - SuperOffice.CRM.Services.ContactAgent.SaveContactEntity(SuperOffice.CRM.Services.ContactEntity)
+  - SuperOffice.CRM.Services.ContactAgent.SaveQuoteVersionAddress(System.Int32,SuperOffice.CRM.Services.Address,SuperOffice.Data.AddressType,System.Int32)
+  - SuperOffice.CRM.Services.ContactAgent.SetDuplicateRulesStatus(SuperOffice.CRM.Services.DuplicateRule[])
+  - SuperOffice.CRM.Services.ContactAgent.Undelete(System.Int32)
+  - SuperOffice.CRM.Services.ContactAgent.ValidateContactEntity(SuperOffice.CRM.Services.ContactEntity)
+  langs:
+  - csharp
+  - vb
+  name: ContactAgent
+  nameWithType: ContactAgent
+  fullName: SuperOffice.CRM.Services.ContactAgent
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFacade for the Contact Agent\nContact (company) data services.\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (ContactAgent agent = new ContactAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: 'public class ContactAgent : AgentBase<IContactAgent>, IDisposable, IContactAgent, IAgent'
+    content.vb: >-
+      Public Class ContactAgent
+          Inherits AgentBase(Of IContactAgent)
+          Implements IDisposable, IContactAgent, IAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IContactAgent}
+  implements:
+  - System.IDisposable
+  - SuperOffice.CRM.Services.IContactAgent
+  - SuperOffice.CRM.Services.IAgent
+  inheritedMembers:
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IContactAgent}.Dispose
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IContactAgent}.InnerAgent
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ContactAgent.CreateDefaultContactEntity
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.CreateDefaultContactEntity
+  id: CreateDefaultContactEntity
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultContactEntity()
+  nameWithType: ContactAgent.CreateDefaultContactEntity()
+  fullName: SuperOffice.CRM.Services.ContactAgent.CreateDefaultContactEntity()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new ContactEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public ContactEntity CreateDefaultContactEntity()
+    return:
+      type: SuperOffice.CRM.Services.ContactEntity
+      description: New ContactEntity with default values
+    content.vb: Public Function CreateDefaultContactEntity As ContactEntity
+  overload: SuperOffice.CRM.Services.ContactAgent.CreateDefaultContactEntity*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.CreateDefaultContactEntity
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.SaveContactEntity(SuperOffice.CRM.Services.ContactEntity)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.SaveContactEntity(SuperOffice.CRM.Services.ContactEntity)
+  id: SaveContactEntity(SuperOffice.CRM.Services.ContactEntity)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveContactEntity(ContactEntity)
+  nameWithType: ContactAgent.SaveContactEntity(ContactEntity)
+  fullName: SuperOffice.CRM.Services.ContactAgent.SaveContactEntity(SuperOffice.CRM.Services.ContactEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing ContactEntity or creates a new ContactEntity if the id parameter is empty\n"
+  syntax:
+    content: public ContactEntity SaveContactEntity(ContactEntity contactEntity)
+    parameters:
+    - id: contactEntity
+      type: SuperOffice.CRM.Services.ContactEntity
+      description: The ContactEntity that is saved.
+    return:
+      type: SuperOffice.CRM.Services.ContactEntity
+      description: New or updated ContactEntity
+    content.vb: Public Function SaveContactEntity(contactEntity As ContactEntity) As ContactEntity
+  overload: SuperOffice.CRM.Services.ContactAgent.SaveContactEntity*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.SaveContactEntity(SuperOffice.CRM.Services.ContactEntity)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.DeleteContactEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.DeleteContactEntity(System.Int32)
+  id: DeleteContactEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteContactEntity(Int32)
+  nameWithType: ContactAgent.DeleteContactEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ContactAgent.DeleteContactEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the ContactEntity\n"
+  syntax:
+    content: public void DeleteContactEntity(int contactEntityId)
+    parameters:
+    - id: contactEntityId
+      type: System.Int32
+      description: The identity of the ContactEntity
+    content.vb: Public Sub DeleteContactEntity(contactEntityId As Integer)
+  overload: SuperOffice.CRM.Services.ContactAgent.DeleteContactEntity*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.DeleteContactEntity(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.GetContact(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.GetContact(System.Int32)
+  id: GetContact(System.Int32)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: GetContact(Int32)
+  nameWithType: ContactAgent.GetContact(Int32)
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetContact(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a Contact object.                        \n"
+  syntax:
+    content: public Contact GetContact(int contactId)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The identifier of the Contact object
+    return:
+      type: SuperOffice.CRM.Services.Contact
+      description: Contact
+    content.vb: Public Function GetContact(contactId As Integer) As Contact
+  overload: SuperOffice.CRM.Services.ContactAgent.GetContact*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.GetContact(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.GetMyActiveContacts(System.DateTime,System.Int32[],SuperOffice.CRM.Services.Util.ContactAction)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.GetMyActiveContacts(System.DateTime,System.Int32[],SuperOffice.CRM.Services.Util.ContactAction)
+  id: GetMyActiveContacts(System.DateTime,System.Int32[],SuperOffice.CRM.Services.Util.ContactAction)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyActiveContacts(DateTime, Int32[], ContactAction)
+  nameWithType: ContactAgent.GetMyActiveContacts(DateTime, Int32[], ContactAction)
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetMyActiveContacts(System.DateTime, System.Int32[], SuperOffice.CRM.Services.Util.ContactAction)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the contacts where there has been activity since activityStartTime. If activityStartTime is larger than the current date, all contacts with activity since last log-out are returned. The result set can be filtered by category and action type.\n"
+  syntax:
+    content: public ContactActivity[] GetMyActiveContacts(DateTime activityStartTime, int[] contactCategories, ContactAction actionType)
+    parameters:
+    - id: activityStartTime
+      type: System.DateTime
+      description: The start time of the activities. If the start time is set to a future date; activites since the user last logged out are returned.
+    - id: contactCategories
+      type: System.Int32[]
+      description: Integer array of categories to filter on. If the array is empty contacts from all categories will be selected.
+    - id: actionType
+      type: SuperOffice.CRM.Services.Util.ContactAction
+      description: The type of action that has occured. E.g. updates, deletes, new appointments, etc.
+    return:
+      type: SuperOffice.CRM.Services.ContactActivity[]
+      description: Array of contacts where there have been activity in the period.
+    content.vb: Public Function GetMyActiveContacts(activityStartTime As Date, contactCategories As Integer(), actionType As ContactAction) As ContactActivity()
+  overload: SuperOffice.CRM.Services.ContactAgent.GetMyActiveContacts*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.GetMyActiveContacts(System.DateTime,System.Int32[],SuperOffice.CRM.Services.Util.ContactAction)
+  nameWithType.vb: ContactAgent.GetMyActiveContacts(DateTime, Int32(), ContactAction)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.ContactAgent.GetMyActiveContacts(System.DateTime, System.Int32(), SuperOffice.CRM.Services.Util.ContactAction)
+  name.vb: GetMyActiveContacts(DateTime, Int32(), ContactAction)
+- uid: SuperOffice.CRM.Services.ContactAgent.GetContactEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.GetContactEntity(System.Int32)
+  id: GetContactEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: GetContactEntity(Int32)
+  nameWithType: ContactAgent.GetContactEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetContactEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a ContactEntity object.                        \n"
+  syntax:
+    content: public ContactEntity GetContactEntity(int contactEntityId)
+    parameters:
+    - id: contactEntityId
+      type: System.Int32
+      description: The identifier of the ContactEntity object
+    return:
+      type: SuperOffice.CRM.Services.ContactEntity
+      description: ContactEntity
+    content.vb: Public Function GetContactEntity(contactEntityId As Integer) As ContactEntity
+  overload: SuperOffice.CRM.Services.ContactAgent.GetContactEntity*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.GetContactEntity(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.Undelete(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.Undelete(System.Int32)
+  id: Undelete(System.Int32)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: Undelete(Int32)
+  nameWithType: ContactAgent.Undelete(Int32)
+  fullName: SuperOffice.CRM.Services.ContactAgent.Undelete(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis entity supports Soft Delete. Call this method to Undelete a previously soft-deleted record\n"
+  syntax:
+    content: public void Undelete(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: The primary key of the entity to undelete
+    content.vb: Public Sub Undelete(id As Integer)
+  overload: SuperOffice.CRM.Services.ContactAgent.Undelete*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.Undelete(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.GetPersons(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.GetPersons(System.Int32)
+  id: GetPersons(System.Int32)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPersons(Int32)
+  nameWithType: ContactAgent.GetPersons(Int32)
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetPersons(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns an array of all the contact persons for the company card.\n"
+  syntax:
+    content: public Person[] GetPersons(int contactId)
+    parameters:
+    - id: contactId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Services.Person[]
+      description: Array of Persons
+    content.vb: Public Function GetPersons(contactId As Integer) As Person()
+  overload: SuperOffice.CRM.Services.ContactAgent.GetPersons*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.GetPersons(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.GetContactWithPersons(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.GetContactWithPersons(System.Int32)
+  id: GetContactWithPersons(System.Int32)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: GetContactWithPersons(Int32)
+  nameWithType: ContactAgent.GetContactWithPersons(Int32)
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetContactWithPersons(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the contact with all the contact persons belonging to the contact\n"
+  syntax:
+    content: public ContactEntity GetContactWithPersons(int contactId)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The id of the contact.
+    return:
+      type: SuperOffice.CRM.Services.ContactEntity
+      description: ContactEntity with all data and persons.
+    content.vb: Public Function GetContactWithPersons(contactId As Integer) As ContactEntity
+  overload: SuperOffice.CRM.Services.ContactAgent.GetContactWithPersons*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.GetContactWithPersons(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.GetMyContact
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.GetMyContact
+  id: GetMyContact
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyContact()
+  nameWithType: ContactAgent.GetMyContact()
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetMyContact()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the contact belonging to the currently logged on user.\n"
+  syntax:
+    content: public ContactEntity GetMyContact()
+    return:
+      type: SuperOffice.CRM.Services.ContactEntity
+      description: The Contact
+    content.vb: Public Function GetMyContact As ContactEntity
+  overload: SuperOffice.CRM.Services.ContactAgent.GetMyContact*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.GetMyContact
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.GetMyBizCard
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.GetMyBizCard
+  id: GetMyBizCard
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyBizCard()
+  nameWithType: ContactAgent.GetMyBizCard()
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetMyBizCard()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns all data needed to display the logged on person&apos;s business card. That is company, person, and company interest data.\n"
+  syntax:
+    content: public ContactEntity GetMyBizCard()
+    return:
+      type: SuperOffice.CRM.Services.ContactEntity
+      description: The contact object with persons and interests
+    content.vb: Public Function GetMyBizCard As ContactEntity
+  overload: SuperOffice.CRM.Services.ContactAgent.GetMyBizCard*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.GetMyBizCard
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.ChangeCountry(SuperOffice.CRM.Services.ContactEntity,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.ChangeCountry(SuperOffice.CRM.Services.ContactEntity,System.Int32)
+  id: ChangeCountry(SuperOffice.CRM.Services.ContactEntity,System.Int32)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: ChangeCountry(ContactEntity, Int32)
+  nameWithType: ContactAgent.ChangeCountry(ContactEntity, Int32)
+  fullName: SuperOffice.CRM.Services.ContactAgent.ChangeCountry(SuperOffice.CRM.Services.ContactEntity, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nChange country regenerates the default values and localized information such as phone number and address format\n"
+  syntax:
+    content: public ContactEntity ChangeCountry(ContactEntity contactEntity, int toCountryId)
+    parameters:
+    - id: contactEntity
+      type: SuperOffice.CRM.Services.ContactEntity
+    - id: toCountryId
+      type: System.Int32
+      description: The country to switch to
+    return:
+      type: SuperOffice.CRM.Services.ContactEntity
+    content.vb: Public Function ChangeCountry(contactEntity As ContactEntity, toCountryId As Integer) As ContactEntity
+  overload: SuperOffice.CRM.Services.ContactAgent.ChangeCountry*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.ChangeCountry(SuperOffice.CRM.Services.ContactEntity,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.GetAddress(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.GetAddress(System.Int32)
+  id: GetAddress(System.Int32)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAddress(Int32)
+  nameWithType: ContactAgent.GetAddress(Int32)
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetAddress(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the contact&apos;s localized address.\n"
+  syntax:
+    content: public Address GetAddress(int contactId)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The contact id
+    return:
+      type: SuperOffice.CRM.Services.Address
+      description: The address as LocalizedField[][].
+    content.vb: Public Function GetAddress(contactId As Integer) As Address
+  overload: SuperOffice.CRM.Services.ContactAgent.GetAddress*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.GetAddress(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.GetAddressByCountry(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.GetAddressByCountry(System.Int32,System.Int32)
+  id: GetAddressByCountry(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAddressByCountry(Int32, Int32)
+  nameWithType: ContactAgent.GetAddressByCountry(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetAddressByCountry(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the contact&apos;s localized address.\n"
+  syntax:
+    content: public Address GetAddressByCountry(int contactId, int countryId)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The contact id
+    - id: countryId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Services.Address
+      description: The address as LocalizedField[][].
+    content.vb: Public Function GetAddressByCountry(contactId As Integer, countryId As Integer) As Address
+  overload: SuperOffice.CRM.Services.ContactAgent.GetAddressByCountry*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.GetAddressByCountry(System.Int32,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.AddPerson(System.Int32,SuperOffice.CRM.Services.PersonEntity)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.AddPerson(System.Int32,SuperOffice.CRM.Services.PersonEntity)
+  id: AddPerson(System.Int32,SuperOffice.CRM.Services.PersonEntity)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: AddPerson(Int32, PersonEntity)
+  nameWithType: ContactAgent.AddPerson(Int32, PersonEntity)
+  fullName: SuperOffice.CRM.Services.ContactAgent.AddPerson(System.Int32, SuperOffice.CRM.Services.PersonEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAdd a person to the given contact\n"
+  syntax:
+    content: public PersonEntity AddPerson(int contactId, PersonEntity newPersonEntity)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: Contact to add person to
+    - id: newPersonEntity
+      type: SuperOffice.CRM.Services.PersonEntity
+      description: Person object to add
+    return:
+      type: SuperOffice.CRM.Services.PersonEntity
+      description: Updated person object
+    content.vb: Public Function AddPerson(contactId As Integer, newPersonEntity As PersonEntity) As PersonEntity
+  overload: SuperOffice.CRM.Services.ContactAgent.AddPerson*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.AddPerson(System.Int32,SuperOffice.CRM.Services.PersonEntity)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.GetDuplicates(System.String)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.GetDuplicates(System.String)
+  id: GetDuplicates(System.String)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDuplicates(String)
+  nameWithType: ContactAgent.GetDuplicates(String)
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetDuplicates(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet duplicates (exact or similar in the database) based on the name\n"
+  syntax:
+    content: public DuplicateEntry[] GetDuplicates(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name used for lookup
+    return:
+      type: SuperOffice.CRM.Services.DuplicateEntry[]
+      description: Any records matching the specified name
+    content.vb: Public Function GetDuplicates(name As String) As DuplicateEntry()
+  overload: SuperOffice.CRM.Services.ContactAgent.GetDuplicates*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.GetDuplicates(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.CreateNewEntry(SuperOffice.CRM.Services.DuplicateEntry)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.CreateNewEntry(SuperOffice.CRM.Services.DuplicateEntry)
+  id: CreateNewEntry(SuperOffice.CRM.Services.DuplicateEntry)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateNewEntry(DuplicateEntry)
+  nameWithType: ContactAgent.CreateNewEntry(DuplicateEntry)
+  fullName: SuperOffice.CRM.Services.ContactAgent.CreateNewEntry(SuperOffice.CRM.Services.DuplicateEntry)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreates a new contact based on external duplicate\n"
+  syntax:
+    content: public int CreateNewEntry(DuplicateEntry duplicate)
+    parameters:
+    - id: duplicate
+      type: SuperOffice.CRM.Services.DuplicateEntry
+      description: The duplicate to create a new entry based upon
+    return:
+      type: System.Int32
+      description: The database identity of the newly created entry
+    content.vb: Public Function CreateNewEntry(duplicate As DuplicateEntry) As Integer
+  overload: SuperOffice.CRM.Services.ContactAgent.CreateNewEntry*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.CreateNewEntry(SuperOffice.CRM.Services.DuplicateEntry)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.GetDuplicateRules
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.GetDuplicateRules
+  id: GetDuplicateRules
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDuplicateRules()
+  nameWithType: ContactAgent.GetDuplicateRules()
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetDuplicateRules()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRetrieve all available duplicate rules for contact\n"
+  syntax:
+    content: public DuplicateRule[] GetDuplicateRules()
+    return:
+      type: SuperOffice.CRM.Services.DuplicateRule[]
+      description: All available duplicate rules
+    content.vb: Public Function GetDuplicateRules As DuplicateRule()
+  overload: SuperOffice.CRM.Services.ContactAgent.GetDuplicateRules*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.GetDuplicateRules
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.SetDuplicateRulesStatus(SuperOffice.CRM.Services.DuplicateRule[])
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.SetDuplicateRulesStatus(SuperOffice.CRM.Services.DuplicateRule[])
+  id: SetDuplicateRulesStatus(SuperOffice.CRM.Services.DuplicateRule[])
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: SetDuplicateRulesStatus(DuplicateRule[])
+  nameWithType: ContactAgent.SetDuplicateRulesStatus(DuplicateRule[])
+  fullName: SuperOffice.CRM.Services.ContactAgent.SetDuplicateRulesStatus(SuperOffice.CRM.Services.DuplicateRule[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSet which duplicate rules should be active or not\n"
+  syntax:
+    content: public void SetDuplicateRulesStatus(DuplicateRule[] rules)
+    parameters:
+    - id: rules
+      type: SuperOffice.CRM.Services.DuplicateRule[]
+      description: Duplicate rules to update active status for
+    content.vb: Public Sub SetDuplicateRulesStatus(rules As DuplicateRule())
+  overload: SuperOffice.CRM.Services.ContactAgent.SetDuplicateRulesStatus*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.SetDuplicateRulesStatus(SuperOffice.CRM.Services.DuplicateRule[])
+  nameWithType.vb: ContactAgent.SetDuplicateRulesStatus(DuplicateRule())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.ContactAgent.SetDuplicateRulesStatus(SuperOffice.CRM.Services.DuplicateRule())
+  name.vb: SetDuplicateRulesStatus(DuplicateRule())
+- uid: SuperOffice.CRM.Services.ContactAgent.Merge(System.Int32,System.Int32,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.Merge(System.Int32,System.Int32,System.Boolean,System.Boolean)
+  id: Merge(System.Int32,System.Int32,System.Boolean,System.Boolean)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: Merge(Int32, Int32, Boolean, Boolean)
+  nameWithType: ContactAgent.Merge(Int32, Int32, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Services.ContactAgent.Merge(System.Int32, System.Int32, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMerge two contacts. The destination contact will remain.\n"
+  syntax:
+    content: public void Merge(int sourceContactId, int destinationContactId, bool mergeIdenticalPersons, bool replaceEmptyFieldsOnDestination)
+    parameters:
+    - id: sourceContactId
+      type: System.Int32
+      description: Source contact to merge from. This contact will disappear after the merge.
+    - id: destinationContactId
+      type: System.Int32
+      description: Destination contact to merge into
+    - id: mergeIdenticalPersons
+      type: System.Boolean
+      description: Persons with identical names will be merged
+    - id: replaceEmptyFieldsOnDestination
+      type: System.Boolean
+      description: If true, empty fields on destination will be replaced by values from source.
+    content.vb: Public Sub Merge(sourceContactId As Integer, destinationContactId As Integer, mergeIdenticalPersons As Boolean, replaceEmptyFieldsOnDestination As Boolean)
+  overload: SuperOffice.CRM.Services.ContactAgent.Merge*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.Merge(System.Int32,System.Int32,System.Boolean,System.Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.Copy(System.Int32,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.Copy(System.Int32,System.String,System.String,System.Boolean)
+  id: Copy(System.Int32,System.String,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: Copy(Int32, String, String, Boolean)
+  nameWithType: ContactAgent.Copy(Int32, String, String, Boolean)
+  fullName: SuperOffice.CRM.Services.ContactAgent.Copy(System.Int32, System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCopy a contact. Activities and related data will be ignored\n"
+  syntax:
+    content: public int Copy(int sourceContactId, string destinationContactName, string destinationContactDepartment, bool copyPersons)
+    parameters:
+    - id: sourceContactId
+      type: System.Int32
+      description: The id of the contact to copy
+    - id: destinationContactName
+      type: System.String
+      description: The name of the destination contact
+    - id: destinationContactDepartment
+      type: System.String
+      description: The department of the destination contact
+    - id: copyPersons
+      type: System.Boolean
+      description: If true, persons will be copied from source contact
+    return:
+      type: System.Int32
+      description: Id of copied contact
+    content.vb: Public Function Copy(sourceContactId As Integer, destinationContactName As String, destinationContactDepartment As String, copyPersons As Boolean) As Integer
+  overload: SuperOffice.CRM.Services.ContactAgent.Copy*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.Copy(System.Int32,System.String,System.String,System.Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.GetNameDepartmentDuplicates(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.GetNameDepartmentDuplicates(System.String,System.String)
+  id: GetNameDepartmentDuplicates(System.String,System.String)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNameDepartmentDuplicates(String, String)
+  nameWithType: ContactAgent.GetNameDepartmentDuplicates(String, String)
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetNameDepartmentDuplicates(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet duplicates based on the contact name and department\n"
+  syntax:
+    content: public DuplicateEntry[] GetNameDepartmentDuplicates(string name, string department)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name used for lookup
+    - id: department
+      type: System.String
+      description: Department used for lookup (if any)
+    return:
+      type: SuperOffice.CRM.Services.DuplicateEntry[]
+      description: Any records matching the specified name and department
+    content.vb: Public Function GetNameDepartmentDuplicates(name As String, department As String) As DuplicateEntry()
+  overload: SuperOffice.CRM.Services.ContactAgent.GetNameDepartmentDuplicates*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.GetNameDepartmentDuplicates(System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.IsNumberValid(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.IsNumberValid(System.Int32,System.String)
+  id: IsNumberValid(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: IsNumberValid(Int32, String)
+  nameWithType: ContactAgent.IsNumberValid(Int32, String)
+  fullName: SuperOffice.CRM.Services.ContactAgent.IsNumberValid(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nChecks if the number is unique or required.  The setting is configured from admin under system options.\n"
+  syntax:
+    content: public bool IsNumberValid(int contactId, string number)
+    parameters:
+    - id: contactId
+      type: System.Int32
+    - id: number
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsNumberValid(contactId As Integer, number As String) As Boolean
+  overload: SuperOffice.CRM.Services.ContactAgent.IsNumberValid*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.IsNumberValid(System.Int32,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.GetQuoteVersionAddresses(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.GetQuoteVersionAddresses(System.Int32)
+  id: GetQuoteVersionAddresses(System.Int32)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: GetQuoteVersionAddresses(Int32)
+  nameWithType: ContactAgent.GetQuoteVersionAddresses(Int32)
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetQuoteVersionAddresses(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the associated billing and invoice quote version addresses. These addresses might be address on the contact, or a custom address.\n"
+  syntax:
+    content: public Address[] GetQuoteVersionAddresses(int quoteVersionId)
+    parameters:
+    - id: quoteVersionId
+      type: System.Int32
+      description: The version to get the addresses for.
+    return:
+      type: SuperOffice.CRM.Services.Address[]
+      description: The quote version addresses. Invoice and billing address, in that order.
+    content.vb: Public Function GetQuoteVersionAddresses(quoteVersionId As Integer) As Address()
+  overload: SuperOffice.CRM.Services.ContactAgent.GetQuoteVersionAddresses*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.GetQuoteVersionAddresses(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.SaveQuoteVersionAddress(System.Int32,SuperOffice.CRM.Services.Address,SuperOffice.Data.AddressType,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.SaveQuoteVersionAddress(System.Int32,SuperOffice.CRM.Services.Address,SuperOffice.Data.AddressType,System.Int32)
+  id: SaveQuoteVersionAddress(System.Int32,SuperOffice.CRM.Services.Address,SuperOffice.Data.AddressType,System.Int32)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveQuoteVersionAddress(Int32, Address, AddressType, Int32)
+  nameWithType: ContactAgent.SaveQuoteVersionAddress(Int32, Address, AddressType, Int32)
+  fullName: SuperOffice.CRM.Services.ContactAgent.SaveQuoteVersionAddress(System.Int32, SuperOffice.CRM.Services.Address, SuperOffice.Data.AddressType, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSave a custom quote version address.\n"
+  syntax:
+    content: public Address SaveQuoteVersionAddress(int quoteVersionId, Address address, AddressType addressType, int countryId)
+    parameters:
+    - id: quoteVersionId
+      type: System.Int32
+      description: The version to save the address on.
+    - id: address
+      type: SuperOffice.CRM.Services.Address
+      description: The address to save on the quote version.
+    - id: addressType
+      type: SuperOffice.Data.AddressType
+      description: Should be either QuoteBillingAddress or QuoteShippingAddress
+    - id: countryId
+      type: System.Int32
+      description: The country for the custom address
+    return:
+      type: SuperOffice.CRM.Services.Address
+      description: The saved addresses.
+    content.vb: Public Function SaveQuoteVersionAddress(quoteVersionId As Integer, address As Address, addressType As AddressType, countryId As Integer) As Address
+  overload: SuperOffice.CRM.Services.ContactAgent.SaveQuoteVersionAddress*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.SaveQuoteVersionAddress(System.Int32,SuperOffice.CRM.Services.Address,SuperOffice.Data.AddressType,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.DeleteExpired
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.DeleteExpired
+  id: DeleteExpired
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteExpired()
+  nameWithType: ContactAgent.DeleteExpired()
+  fullName: SuperOffice.CRM.Services.ContactAgent.DeleteExpired()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrigger deletion of contacts (companies) that has been (soft) deleted and have timed out the expiry period (the SoftDeleteRetention preference).\n"
+  syntax:
+    content: public void DeleteExpired()
+    content.vb: Public Sub DeleteExpired
+  overload: SuperOffice.CRM.Services.ContactAgent.DeleteExpired*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.DeleteExpired
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.GetContactSummary(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.GetContactSummary(System.Int32,System.Int32)
+  id: GetContactSummary(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: GetContactSummary(Int32, Int32)
+  nameWithType: ContactAgent.GetContactSummary(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetContactSummary(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet summary of contact and its recent activity.\n"
+  syntax:
+    content: public ContactSummary GetContactSummary(int contactId, int limit)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The contact id to summarize.
+    - id: limit
+      type: System.Int32
+      description: Max number of items to include in summary lists.
+    return:
+      type: SuperOffice.CRM.Services.ContactSummary
+      description: Summary of contact, with recent requests, sales, follow-ups, chats.
+    content.vb: Public Function GetContactSummary(contactId As Integer, limit As Integer) As ContactSummary
+  overload: SuperOffice.CRM.Services.ContactAgent.GetContactSummary*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.GetContactSummary(System.Int32,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.ValidateContactEntity(SuperOffice.CRM.Services.ContactEntity)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.ValidateContactEntity(SuperOffice.CRM.Services.ContactEntity)
+  id: ValidateContactEntity(SuperOffice.CRM.Services.ContactEntity)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: ValidateContactEntity(ContactEntity)
+  nameWithType: ContactAgent.ValidateContactEntity(ContactEntity)
+  fullName: SuperOffice.CRM.Services.ContactAgent.ValidateContactEntity(SuperOffice.CRM.Services.ContactEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCheck that entity is ready for saving, return error messages by field.\n"
+  syntax:
+    content: public StringDictionary ValidateContactEntity(ContactEntity contactEntity)
+    parameters:
+    - id: contactEntity
+      type: SuperOffice.CRM.Services.ContactEntity
+      description: Entity to be checked for errors.
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+      description: Error messages tagged by field.
+    content.vb: Public Function ValidateContactEntity(contactEntity As ContactEntity) As StringDictionary
+  overload: SuperOffice.CRM.Services.ContactAgent.ValidateContactEntity*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.ValidateContactEntity(SuperOffice.CRM.Services.ContactEntity)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.GetContactList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.GetContactList(System.Int32[])
+  id: GetContactList(System.Int32[])
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: GetContactList(Int32[])
+  nameWithType: ContactAgent.GetContactList(Int32[])
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetContactList(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets an array of Contact objects.                        \n"
+  syntax:
+    content: public Contact[] GetContactList(int[] contactIds)
+    parameters:
+    - id: contactIds
+      type: System.Int32[]
+      description: The identifiers of the Contact object
+    return:
+      type: SuperOffice.CRM.Services.Contact[]
+      description: Array of Contact objects
+    content.vb: Public Function GetContactList(contactIds As Integer()) As Contact()
+  overload: SuperOffice.CRM.Services.ContactAgent.GetContactList*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.GetContactList(System.Int32[])
+  nameWithType.vb: ContactAgent.GetContactList(Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.ContactAgent.GetContactList(System.Int32())
+  name.vb: GetContactList(Int32())
+- uid: SuperOffice.CRM.Services.ContactAgent.GetMyContacts
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.GetMyContacts
+  id: GetMyContacts
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyContacts()
+  nameWithType: ContactAgent.GetMyContacts()
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetMyContacts()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGetting the contacts where the user currently logged in is set as contact owner.\n"
+  syntax:
+    content: public Contact[] GetMyContacts()
+    return:
+      type: SuperOffice.CRM.Services.Contact[]
+      description: Array of contacts
+    content.vb: Public Function GetMyContacts As Contact()
+  overload: SuperOffice.CRM.Services.ContactAgent.GetMyContacts*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.GetMyContacts
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.GetMyRecentContacts(SuperOffice.CRM.Services.Util.ContactSourceType)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.GetMyRecentContacts(SuperOffice.CRM.Services.Util.ContactSourceType)
+  id: GetMyRecentContacts(SuperOffice.CRM.Services.Util.ContactSourceType)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyRecentContacts(ContactSourceType)
+  nameWithType: ContactAgent.GetMyRecentContacts(ContactSourceType)
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetMyRecentContacts(SuperOffice.CRM.Services.Util.ContactSourceType)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMethod that returns a set of initial contacts. This could be the contacts in a favorites selection, the history list, the diary, or from all sources. If retrieved from the diary it will get appointments for the current and the next day.\n"
+  syntax:
+    content: public Contact[] GetMyRecentContacts(ContactSourceType sourceType)
+    parameters:
+    - id: sourceType
+      type: SuperOffice.CRM.Services.Util.ContactSourceType
+      description: The source where the contacts are retrieved from (Favorites, History, Diary)
+    return:
+      type: SuperOffice.CRM.Services.Contact[]
+      description: Arrayof contacts
+    content.vb: Public Function GetMyRecentContacts(sourceType As ContactSourceType) As Contact()
+  overload: SuperOffice.CRM.Services.ContactAgent.GetMyRecentContacts*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.GetMyRecentContacts(SuperOffice.CRM.Services.Util.ContactSourceType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactAgent.#ctor
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: ContactAgent()
+  nameWithType: ContactAgent.ContactAgent()
+  fullName: SuperOffice.CRM.Services.ContactAgent.ContactAgent()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public ContactAgent()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ContactAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IContactAgent}
+  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IContactAgent}
+  parent: SuperOffice.CRM.Services
+  definition: SuperOffice.CRM.Services.AgentBase`1
+  name: AgentBase<IContactAgent>
+  nameWithType: AgentBase<IContactAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IContactAgent>
+  nameWithType.vb: AgentBase(Of IContactAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IContactAgent)
+  name.vb: AgentBase(Of IContactAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.IContactAgent
+    name: IContactAgent
+    nameWithType: IContactAgent
+    fullName: SuperOffice.CRM.Services.IContactAgent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.IContactAgent
+    name: IContactAgent
+    nameWithType: IContactAgent
+    fullName: SuperOffice.CRM.Services.IContactAgent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.CRM.Services.IContactAgent
+  commentId: T:SuperOffice.CRM.Services.IContactAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IContactAgent
+  nameWithType: IContactAgent
+  fullName: SuperOffice.CRM.Services.IContactAgent
+- uid: SuperOffice.CRM.Services.IAgent
+  commentId: T:SuperOffice.CRM.Services.IAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAgent
+  nameWithType: IAgent
+  fullName: SuperOffice.CRM.Services.IAgent
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IContactAgent}.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IContactAgent}.Dispose
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IContactAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  name: Dispose()
+  nameWithType: AgentBase<IContactAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IContactAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of IContactAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IContactAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<IContactAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IContactAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of IContactAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IContactAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IContactAgent}.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IContactAgent}.InnerAgent
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IContactAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  name: InnerAgent
+  nameWithType: AgentBase<IContactAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IContactAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of IContactAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IContactAgent).InnerAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AgentBase`1
+  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+  isExternal: true
+  name: AgentBase<TAgent>
+  nameWithType: AgentBase<TAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
+  nameWithType.vb: AgentBase(Of TAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
+  name.vb: AgentBase(Of TAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase<TAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of TAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  isExternal: true
+  name: InnerAgent
+  nameWithType: AgentBase<TAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
+- uid: SuperOffice.CRM.Services.ContactAgent.CreateDefaultContactEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.CreateDefaultContactEntity
+  isExternal: true
+  name: CreateDefaultContactEntity
+  nameWithType: ContactAgent.CreateDefaultContactEntity
+  fullName: SuperOffice.CRM.Services.ContactAgent.CreateDefaultContactEntity
+- uid: SuperOffice.CRM.Services.IContactAgent.CreateDefaultContactEntity
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.CreateDefaultContactEntity
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: CreateDefaultContactEntity()
+  nameWithType: IContactAgent.CreateDefaultContactEntity()
+  fullName: SuperOffice.CRM.Services.IContactAgent.CreateDefaultContactEntity()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.CreateDefaultContactEntity
+    name: CreateDefaultContactEntity
+    nameWithType: IContactAgent.CreateDefaultContactEntity
+    fullName: SuperOffice.CRM.Services.IContactAgent.CreateDefaultContactEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.CreateDefaultContactEntity
+    name: CreateDefaultContactEntity
+    nameWithType: IContactAgent.CreateDefaultContactEntity
+    fullName: SuperOffice.CRM.Services.IContactAgent.CreateDefaultContactEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ContactEntity
+  commentId: T:SuperOffice.CRM.Services.ContactEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ContactEntity
+  nameWithType: ContactEntity
+  fullName: SuperOffice.CRM.Services.ContactEntity
+- uid: SuperOffice.CRM.Services.ContactAgent.SaveContactEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.SaveContactEntity
+  isExternal: true
+  name: SaveContactEntity
+  nameWithType: ContactAgent.SaveContactEntity
+  fullName: SuperOffice.CRM.Services.ContactAgent.SaveContactEntity
+- uid: SuperOffice.CRM.Services.IContactAgent.SaveContactEntity(SuperOffice.CRM.Services.ContactEntity)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.SaveContactEntity(SuperOffice.CRM.Services.ContactEntity)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: SaveContactEntity(ContactEntity)
+  nameWithType: IContactAgent.SaveContactEntity(ContactEntity)
+  fullName: SuperOffice.CRM.Services.IContactAgent.SaveContactEntity(SuperOffice.CRM.Services.ContactEntity)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.SaveContactEntity(SuperOffice.CRM.Services.ContactEntity)
+    name: SaveContactEntity
+    nameWithType: IContactAgent.SaveContactEntity
+    fullName: SuperOffice.CRM.Services.IContactAgent.SaveContactEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ContactEntity
+    name: ContactEntity
+    nameWithType: ContactEntity
+    fullName: SuperOffice.CRM.Services.ContactEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.SaveContactEntity(SuperOffice.CRM.Services.ContactEntity)
+    name: SaveContactEntity
+    nameWithType: IContactAgent.SaveContactEntity
+    fullName: SuperOffice.CRM.Services.IContactAgent.SaveContactEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ContactEntity
+    name: ContactEntity
+    nameWithType: ContactEntity
+    fullName: SuperOffice.CRM.Services.ContactEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ContactAgent.DeleteContactEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.DeleteContactEntity
+  isExternal: true
+  name: DeleteContactEntity
+  nameWithType: ContactAgent.DeleteContactEntity
+  fullName: SuperOffice.CRM.Services.ContactAgent.DeleteContactEntity
+- uid: SuperOffice.CRM.Services.IContactAgent.DeleteContactEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.DeleteContactEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: DeleteContactEntity(Int32)
+  nameWithType: IContactAgent.DeleteContactEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IContactAgent.DeleteContactEntity(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.DeleteContactEntity(System.Int32)
+    name: DeleteContactEntity
+    nameWithType: IContactAgent.DeleteContactEntity
+    fullName: SuperOffice.CRM.Services.IContactAgent.DeleteContactEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.DeleteContactEntity(System.Int32)
+    name: DeleteContactEntity
+    nameWithType: IContactAgent.DeleteContactEntity
+    fullName: SuperOffice.CRM.Services.IContactAgent.DeleteContactEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ContactAgent.GetContact*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.GetContact
+  isExternal: true
+  name: GetContact
+  nameWithType: ContactAgent.GetContact
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetContact
+- uid: SuperOffice.CRM.Services.IContactAgent.GetContact(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.GetContact(System.Int32)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: GetContact(Int32)
+  nameWithType: IContactAgent.GetContact(Int32)
+  fullName: SuperOffice.CRM.Services.IContactAgent.GetContact(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetContact(System.Int32)
+    name: GetContact
+    nameWithType: IContactAgent.GetContact
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetContact
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetContact(System.Int32)
+    name: GetContact
+    nameWithType: IContactAgent.GetContact
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetContact
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Contact
+  commentId: T:SuperOffice.CRM.Services.Contact
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Contact
+  nameWithType: Contact
+  fullName: SuperOffice.CRM.Services.Contact
+- uid: SuperOffice.CRM.Services.ContactAgent.GetMyActiveContacts*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.GetMyActiveContacts
+  isExternal: true
+  name: GetMyActiveContacts
+  nameWithType: ContactAgent.GetMyActiveContacts
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetMyActiveContacts
+- uid: SuperOffice.CRM.Services.IContactAgent.GetMyActiveContacts(System.DateTime,System.Int32[],SuperOffice.CRM.Services.Util.ContactAction)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.GetMyActiveContacts(System.DateTime,System.Int32[],SuperOffice.CRM.Services.Util.ContactAction)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: GetMyActiveContacts(DateTime, Int32[], ContactAction)
+  nameWithType: IContactAgent.GetMyActiveContacts(DateTime, Int32[], ContactAction)
+  fullName: SuperOffice.CRM.Services.IContactAgent.GetMyActiveContacts(System.DateTime, System.Int32[], SuperOffice.CRM.Services.Util.ContactAction)
+  nameWithType.vb: IContactAgent.GetMyActiveContacts(DateTime, Int32(), ContactAction)
+  fullName.vb: SuperOffice.CRM.Services.IContactAgent.GetMyActiveContacts(System.DateTime, System.Int32(), SuperOffice.CRM.Services.Util.ContactAction)
+  name.vb: GetMyActiveContacts(DateTime, Int32(), ContactAction)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetMyActiveContacts(System.DateTime,System.Int32[],SuperOffice.CRM.Services.Util.ContactAction)
+    name: GetMyActiveContacts
+    nameWithType: IContactAgent.GetMyActiveContacts
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetMyActiveContacts
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.Util.ContactAction
+    name: ContactAction
+    nameWithType: ContactAction
+    fullName: SuperOffice.CRM.Services.Util.ContactAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetMyActiveContacts(System.DateTime,System.Int32[],SuperOffice.CRM.Services.Util.ContactAction)
+    name: GetMyActiveContacts
+    nameWithType: IContactAgent.GetMyActiveContacts
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetMyActiveContacts
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.Util.ContactAction
+    name: ContactAction
+    nameWithType: ContactAction
+    fullName: SuperOffice.CRM.Services.Util.ContactAction
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.Util.ContactAction
+  commentId: T:SuperOffice.CRM.Services.Util.ContactAction
+  parent: SuperOffice.CRM.Services.Util
+  isExternal: true
+  name: ContactAction
+  nameWithType: ContactAction
+  fullName: SuperOffice.CRM.Services.Util.ContactAction
+- uid: SuperOffice.CRM.Services.ContactActivity[]
+  isExternal: true
+  name: ContactActivity[]
+  nameWithType: ContactActivity[]
+  fullName: SuperOffice.CRM.Services.ContactActivity[]
+  nameWithType.vb: ContactActivity()
+  fullName.vb: SuperOffice.CRM.Services.ContactActivity()
+  name.vb: ContactActivity()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ContactActivity
+    name: ContactActivity
+    nameWithType: ContactActivity
+    fullName: SuperOffice.CRM.Services.ContactActivity
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ContactActivity
+    name: ContactActivity
+    nameWithType: ContactActivity
+    fullName: SuperOffice.CRM.Services.ContactActivity
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.Util
+  commentId: N:SuperOffice.CRM.Services.Util
+  isExternal: true
+  name: SuperOffice.CRM.Services.Util
+  nameWithType: SuperOffice.CRM.Services.Util
+  fullName: SuperOffice.CRM.Services.Util
+- uid: SuperOffice.CRM.Services.ContactAgent.GetContactEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.GetContactEntity
+  isExternal: true
+  name: GetContactEntity
+  nameWithType: ContactAgent.GetContactEntity
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetContactEntity
+- uid: SuperOffice.CRM.Services.IContactAgent.GetContactEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.GetContactEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: GetContactEntity(Int32)
+  nameWithType: IContactAgent.GetContactEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IContactAgent.GetContactEntity(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetContactEntity(System.Int32)
+    name: GetContactEntity
+    nameWithType: IContactAgent.GetContactEntity
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetContactEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetContactEntity(System.Int32)
+    name: GetContactEntity
+    nameWithType: IContactAgent.GetContactEntity
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetContactEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ContactAgent.Undelete*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.Undelete
+  isExternal: true
+  name: Undelete
+  nameWithType: ContactAgent.Undelete
+  fullName: SuperOffice.CRM.Services.ContactAgent.Undelete
+- uid: SuperOffice.CRM.Services.IContactAgent.Undelete(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.Undelete(System.Int32)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: Undelete(Int32)
+  nameWithType: IContactAgent.Undelete(Int32)
+  fullName: SuperOffice.CRM.Services.IContactAgent.Undelete(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.Undelete(System.Int32)
+    name: Undelete
+    nameWithType: IContactAgent.Undelete
+    fullName: SuperOffice.CRM.Services.IContactAgent.Undelete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.Undelete(System.Int32)
+    name: Undelete
+    nameWithType: IContactAgent.Undelete
+    fullName: SuperOffice.CRM.Services.IContactAgent.Undelete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ContactAgent.GetPersons*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.GetPersons
+  isExternal: true
+  name: GetPersons
+  nameWithType: ContactAgent.GetPersons
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetPersons
+- uid: SuperOffice.CRM.Services.IContactAgent.GetPersons(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.GetPersons(System.Int32)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: GetPersons(Int32)
+  nameWithType: IContactAgent.GetPersons(Int32)
+  fullName: SuperOffice.CRM.Services.IContactAgent.GetPersons(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetPersons(System.Int32)
+    name: GetPersons
+    nameWithType: IContactAgent.GetPersons
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetPersons
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetPersons(System.Int32)
+    name: GetPersons
+    nameWithType: IContactAgent.GetPersons
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetPersons
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Person[]
+  isExternal: true
+  name: Person[]
+  nameWithType: Person[]
+  fullName: SuperOffice.CRM.Services.Person[]
+  nameWithType.vb: Person()
+  fullName.vb: SuperOffice.CRM.Services.Person()
+  name.vb: Person()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Person
+    name: Person
+    nameWithType: Person
+    fullName: SuperOffice.CRM.Services.Person
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Person
+    name: Person
+    nameWithType: Person
+    fullName: SuperOffice.CRM.Services.Person
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ContactAgent.GetContactWithPersons*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.GetContactWithPersons
+  isExternal: true
+  name: GetContactWithPersons
+  nameWithType: ContactAgent.GetContactWithPersons
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetContactWithPersons
+- uid: SuperOffice.CRM.Services.IContactAgent.GetContactWithPersons(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.GetContactWithPersons(System.Int32)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: GetContactWithPersons(Int32)
+  nameWithType: IContactAgent.GetContactWithPersons(Int32)
+  fullName: SuperOffice.CRM.Services.IContactAgent.GetContactWithPersons(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetContactWithPersons(System.Int32)
+    name: GetContactWithPersons
+    nameWithType: IContactAgent.GetContactWithPersons
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetContactWithPersons
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetContactWithPersons(System.Int32)
+    name: GetContactWithPersons
+    nameWithType: IContactAgent.GetContactWithPersons
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetContactWithPersons
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ContactAgent.GetMyContact*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.GetMyContact
+  isExternal: true
+  name: GetMyContact
+  nameWithType: ContactAgent.GetMyContact
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetMyContact
+- uid: SuperOffice.CRM.Services.IContactAgent.GetMyContact
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.GetMyContact
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: GetMyContact()
+  nameWithType: IContactAgent.GetMyContact()
+  fullName: SuperOffice.CRM.Services.IContactAgent.GetMyContact()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetMyContact
+    name: GetMyContact
+    nameWithType: IContactAgent.GetMyContact
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetMyContact
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetMyContact
+    name: GetMyContact
+    nameWithType: IContactAgent.GetMyContact
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetMyContact
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ContactAgent.GetMyBizCard*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.GetMyBizCard
+  isExternal: true
+  name: GetMyBizCard
+  nameWithType: ContactAgent.GetMyBizCard
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetMyBizCard
+- uid: SuperOffice.CRM.Services.IContactAgent.GetMyBizCard
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.GetMyBizCard
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: GetMyBizCard()
+  nameWithType: IContactAgent.GetMyBizCard()
+  fullName: SuperOffice.CRM.Services.IContactAgent.GetMyBizCard()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetMyBizCard
+    name: GetMyBizCard
+    nameWithType: IContactAgent.GetMyBizCard
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetMyBizCard
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetMyBizCard
+    name: GetMyBizCard
+    nameWithType: IContactAgent.GetMyBizCard
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetMyBizCard
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ContactAgent.ChangeCountry*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.ChangeCountry
+  isExternal: true
+  name: ChangeCountry
+  nameWithType: ContactAgent.ChangeCountry
+  fullName: SuperOffice.CRM.Services.ContactAgent.ChangeCountry
+- uid: SuperOffice.CRM.Services.IContactAgent.ChangeCountry(SuperOffice.CRM.Services.ContactEntity,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.ChangeCountry(SuperOffice.CRM.Services.ContactEntity,System.Int32)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: ChangeCountry(ContactEntity, Int32)
+  nameWithType: IContactAgent.ChangeCountry(ContactEntity, Int32)
+  fullName: SuperOffice.CRM.Services.IContactAgent.ChangeCountry(SuperOffice.CRM.Services.ContactEntity, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.ChangeCountry(SuperOffice.CRM.Services.ContactEntity,System.Int32)
+    name: ChangeCountry
+    nameWithType: IContactAgent.ChangeCountry
+    fullName: SuperOffice.CRM.Services.IContactAgent.ChangeCountry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ContactEntity
+    name: ContactEntity
+    nameWithType: ContactEntity
+    fullName: SuperOffice.CRM.Services.ContactEntity
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.ChangeCountry(SuperOffice.CRM.Services.ContactEntity,System.Int32)
+    name: ChangeCountry
+    nameWithType: IContactAgent.ChangeCountry
+    fullName: SuperOffice.CRM.Services.IContactAgent.ChangeCountry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ContactEntity
+    name: ContactEntity
+    nameWithType: ContactEntity
+    fullName: SuperOffice.CRM.Services.ContactEntity
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ContactAgent.GetAddress*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.GetAddress
+  isExternal: true
+  name: GetAddress
+  nameWithType: ContactAgent.GetAddress
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetAddress
+- uid: SuperOffice.CRM.Services.IContactAgent.GetAddress(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.GetAddress(System.Int32)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: GetAddress(Int32)
+  nameWithType: IContactAgent.GetAddress(Int32)
+  fullName: SuperOffice.CRM.Services.IContactAgent.GetAddress(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetAddress(System.Int32)
+    name: GetAddress
+    nameWithType: IContactAgent.GetAddress
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetAddress
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetAddress(System.Int32)
+    name: GetAddress
+    nameWithType: IContactAgent.GetAddress
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetAddress
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Address
+  commentId: T:SuperOffice.CRM.Services.Address
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Address
+  nameWithType: Address
+  fullName: SuperOffice.CRM.Services.Address
+- uid: SuperOffice.CRM.Services.ContactAgent.GetAddressByCountry*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.GetAddressByCountry
+  isExternal: true
+  name: GetAddressByCountry
+  nameWithType: ContactAgent.GetAddressByCountry
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetAddressByCountry
+- uid: SuperOffice.CRM.Services.IContactAgent.GetAddressByCountry(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.GetAddressByCountry(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: GetAddressByCountry(Int32, Int32)
+  nameWithType: IContactAgent.GetAddressByCountry(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IContactAgent.GetAddressByCountry(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetAddressByCountry(System.Int32,System.Int32)
+    name: GetAddressByCountry
+    nameWithType: IContactAgent.GetAddressByCountry
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetAddressByCountry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetAddressByCountry(System.Int32,System.Int32)
+    name: GetAddressByCountry
+    nameWithType: IContactAgent.GetAddressByCountry
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetAddressByCountry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ContactAgent.AddPerson*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.AddPerson
+  isExternal: true
+  name: AddPerson
+  nameWithType: ContactAgent.AddPerson
+  fullName: SuperOffice.CRM.Services.ContactAgent.AddPerson
+- uid: SuperOffice.CRM.Services.IContactAgent.AddPerson(System.Int32,SuperOffice.CRM.Services.PersonEntity)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.AddPerson(System.Int32,SuperOffice.CRM.Services.PersonEntity)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: AddPerson(Int32, PersonEntity)
+  nameWithType: IContactAgent.AddPerson(Int32, PersonEntity)
+  fullName: SuperOffice.CRM.Services.IContactAgent.AddPerson(System.Int32, SuperOffice.CRM.Services.PersonEntity)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.AddPerson(System.Int32,SuperOffice.CRM.Services.PersonEntity)
+    name: AddPerson
+    nameWithType: IContactAgent.AddPerson
+    fullName: SuperOffice.CRM.Services.IContactAgent.AddPerson
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.PersonEntity
+    name: PersonEntity
+    nameWithType: PersonEntity
+    fullName: SuperOffice.CRM.Services.PersonEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.AddPerson(System.Int32,SuperOffice.CRM.Services.PersonEntity)
+    name: AddPerson
+    nameWithType: IContactAgent.AddPerson
+    fullName: SuperOffice.CRM.Services.IContactAgent.AddPerson
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.PersonEntity
+    name: PersonEntity
+    nameWithType: PersonEntity
+    fullName: SuperOffice.CRM.Services.PersonEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PersonEntity
+  commentId: T:SuperOffice.CRM.Services.PersonEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: PersonEntity
+  nameWithType: PersonEntity
+  fullName: SuperOffice.CRM.Services.PersonEntity
+- uid: SuperOffice.CRM.Services.ContactAgent.GetDuplicates*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.GetDuplicates
+  isExternal: true
+  name: GetDuplicates
+  nameWithType: ContactAgent.GetDuplicates
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetDuplicates
+- uid: SuperOffice.CRM.Services.IContactAgent.GetDuplicates(System.String)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.GetDuplicates(System.String)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: GetDuplicates(String)
+  nameWithType: IContactAgent.GetDuplicates(String)
+  fullName: SuperOffice.CRM.Services.IContactAgent.GetDuplicates(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetDuplicates(System.String)
+    name: GetDuplicates
+    nameWithType: IContactAgent.GetDuplicates
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetDuplicates
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetDuplicates(System.String)
+    name: GetDuplicates
+    nameWithType: IContactAgent.GetDuplicates
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetDuplicates
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.DuplicateEntry[]
+  isExternal: true
+  name: DuplicateEntry[]
+  nameWithType: DuplicateEntry[]
+  fullName: SuperOffice.CRM.Services.DuplicateEntry[]
+  nameWithType.vb: DuplicateEntry()
+  fullName.vb: SuperOffice.CRM.Services.DuplicateEntry()
+  name.vb: DuplicateEntry()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.DuplicateEntry
+    name: DuplicateEntry
+    nameWithType: DuplicateEntry
+    fullName: SuperOffice.CRM.Services.DuplicateEntry
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.DuplicateEntry
+    name: DuplicateEntry
+    nameWithType: DuplicateEntry
+    fullName: SuperOffice.CRM.Services.DuplicateEntry
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ContactAgent.CreateNewEntry*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.CreateNewEntry
+  isExternal: true
+  name: CreateNewEntry
+  nameWithType: ContactAgent.CreateNewEntry
+  fullName: SuperOffice.CRM.Services.ContactAgent.CreateNewEntry
+- uid: SuperOffice.CRM.Services.IContactAgent.CreateNewEntry(SuperOffice.CRM.Services.DuplicateEntry)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.CreateNewEntry(SuperOffice.CRM.Services.DuplicateEntry)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: CreateNewEntry(DuplicateEntry)
+  nameWithType: IContactAgent.CreateNewEntry(DuplicateEntry)
+  fullName: SuperOffice.CRM.Services.IContactAgent.CreateNewEntry(SuperOffice.CRM.Services.DuplicateEntry)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.CreateNewEntry(SuperOffice.CRM.Services.DuplicateEntry)
+    name: CreateNewEntry
+    nameWithType: IContactAgent.CreateNewEntry
+    fullName: SuperOffice.CRM.Services.IContactAgent.CreateNewEntry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.DuplicateEntry
+    name: DuplicateEntry
+    nameWithType: DuplicateEntry
+    fullName: SuperOffice.CRM.Services.DuplicateEntry
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.CreateNewEntry(SuperOffice.CRM.Services.DuplicateEntry)
+    name: CreateNewEntry
+    nameWithType: IContactAgent.CreateNewEntry
+    fullName: SuperOffice.CRM.Services.IContactAgent.CreateNewEntry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.DuplicateEntry
+    name: DuplicateEntry
+    nameWithType: DuplicateEntry
+    fullName: SuperOffice.CRM.Services.DuplicateEntry
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.DuplicateEntry
+  commentId: T:SuperOffice.CRM.Services.DuplicateEntry
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: DuplicateEntry
+  nameWithType: DuplicateEntry
+  fullName: SuperOffice.CRM.Services.DuplicateEntry
+- uid: SuperOffice.CRM.Services.ContactAgent.GetDuplicateRules*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.GetDuplicateRules
+  isExternal: true
+  name: GetDuplicateRules
+  nameWithType: ContactAgent.GetDuplicateRules
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetDuplicateRules
+- uid: SuperOffice.CRM.Services.IContactAgent.GetDuplicateRules
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.GetDuplicateRules
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: GetDuplicateRules()
+  nameWithType: IContactAgent.GetDuplicateRules()
+  fullName: SuperOffice.CRM.Services.IContactAgent.GetDuplicateRules()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetDuplicateRules
+    name: GetDuplicateRules
+    nameWithType: IContactAgent.GetDuplicateRules
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetDuplicateRules
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetDuplicateRules
+    name: GetDuplicateRules
+    nameWithType: IContactAgent.GetDuplicateRules
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetDuplicateRules
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.DuplicateRule[]
+  isExternal: true
+  name: DuplicateRule[]
+  nameWithType: DuplicateRule[]
+  fullName: SuperOffice.CRM.Services.DuplicateRule[]
+  nameWithType.vb: DuplicateRule()
+  fullName.vb: SuperOffice.CRM.Services.DuplicateRule()
+  name.vb: DuplicateRule()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.DuplicateRule
+    name: DuplicateRule
+    nameWithType: DuplicateRule
+    fullName: SuperOffice.CRM.Services.DuplicateRule
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.DuplicateRule
+    name: DuplicateRule
+    nameWithType: DuplicateRule
+    fullName: SuperOffice.CRM.Services.DuplicateRule
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ContactAgent.SetDuplicateRulesStatus*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.SetDuplicateRulesStatus
+  isExternal: true
+  name: SetDuplicateRulesStatus
+  nameWithType: ContactAgent.SetDuplicateRulesStatus
+  fullName: SuperOffice.CRM.Services.ContactAgent.SetDuplicateRulesStatus
+- uid: SuperOffice.CRM.Services.IContactAgent.SetDuplicateRulesStatus(SuperOffice.CRM.Services.DuplicateRule[])
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.SetDuplicateRulesStatus(SuperOffice.CRM.Services.DuplicateRule[])
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: SetDuplicateRulesStatus(DuplicateRule[])
+  nameWithType: IContactAgent.SetDuplicateRulesStatus(DuplicateRule[])
+  fullName: SuperOffice.CRM.Services.IContactAgent.SetDuplicateRulesStatus(SuperOffice.CRM.Services.DuplicateRule[])
+  nameWithType.vb: IContactAgent.SetDuplicateRulesStatus(DuplicateRule())
+  fullName.vb: SuperOffice.CRM.Services.IContactAgent.SetDuplicateRulesStatus(SuperOffice.CRM.Services.DuplicateRule())
+  name.vb: SetDuplicateRulesStatus(DuplicateRule())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.SetDuplicateRulesStatus(SuperOffice.CRM.Services.DuplicateRule[])
+    name: SetDuplicateRulesStatus
+    nameWithType: IContactAgent.SetDuplicateRulesStatus
+    fullName: SuperOffice.CRM.Services.IContactAgent.SetDuplicateRulesStatus
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.DuplicateRule
+    name: DuplicateRule
+    nameWithType: DuplicateRule
+    fullName: SuperOffice.CRM.Services.DuplicateRule
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.SetDuplicateRulesStatus(SuperOffice.CRM.Services.DuplicateRule[])
+    name: SetDuplicateRulesStatus
+    nameWithType: IContactAgent.SetDuplicateRulesStatus
+    fullName: SuperOffice.CRM.Services.IContactAgent.SetDuplicateRulesStatus
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.DuplicateRule
+    name: DuplicateRule
+    nameWithType: DuplicateRule
+    fullName: SuperOffice.CRM.Services.DuplicateRule
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ContactAgent.Merge*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.Merge
+  isExternal: true
+  name: Merge
+  nameWithType: ContactAgent.Merge
+  fullName: SuperOffice.CRM.Services.ContactAgent.Merge
+- uid: SuperOffice.CRM.Services.IContactAgent.Merge(System.Int32,System.Int32,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.Merge(System.Int32,System.Int32,System.Boolean,System.Boolean)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: Merge(Int32, Int32, Boolean, Boolean)
+  nameWithType: IContactAgent.Merge(Int32, Int32, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Services.IContactAgent.Merge(System.Int32, System.Int32, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.Merge(System.Int32,System.Int32,System.Boolean,System.Boolean)
+    name: Merge
+    nameWithType: IContactAgent.Merge
+    fullName: SuperOffice.CRM.Services.IContactAgent.Merge
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.Merge(System.Int32,System.Int32,System.Boolean,System.Boolean)
+    name: Merge
+    nameWithType: IContactAgent.Merge
+    fullName: SuperOffice.CRM.Services.IContactAgent.Merge
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.ContactAgent.Copy*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.Copy
+  isExternal: true
+  name: Copy
+  nameWithType: ContactAgent.Copy
+  fullName: SuperOffice.CRM.Services.ContactAgent.Copy
+- uid: SuperOffice.CRM.Services.IContactAgent.Copy(System.Int32,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.Copy(System.Int32,System.String,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: Copy(Int32, String, String, Boolean)
+  nameWithType: IContactAgent.Copy(Int32, String, String, Boolean)
+  fullName: SuperOffice.CRM.Services.IContactAgent.Copy(System.Int32, System.String, System.String, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.Copy(System.Int32,System.String,System.String,System.Boolean)
+    name: Copy
+    nameWithType: IContactAgent.Copy
+    fullName: SuperOffice.CRM.Services.IContactAgent.Copy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.Copy(System.Int32,System.String,System.String,System.Boolean)
+    name: Copy
+    nameWithType: IContactAgent.Copy
+    fullName: SuperOffice.CRM.Services.IContactAgent.Copy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ContactAgent.GetNameDepartmentDuplicates*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.GetNameDepartmentDuplicates
+  isExternal: true
+  name: GetNameDepartmentDuplicates
+  nameWithType: ContactAgent.GetNameDepartmentDuplicates
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetNameDepartmentDuplicates
+- uid: SuperOffice.CRM.Services.IContactAgent.GetNameDepartmentDuplicates(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.GetNameDepartmentDuplicates(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: GetNameDepartmentDuplicates(String, String)
+  nameWithType: IContactAgent.GetNameDepartmentDuplicates(String, String)
+  fullName: SuperOffice.CRM.Services.IContactAgent.GetNameDepartmentDuplicates(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetNameDepartmentDuplicates(System.String,System.String)
+    name: GetNameDepartmentDuplicates
+    nameWithType: IContactAgent.GetNameDepartmentDuplicates
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetNameDepartmentDuplicates
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetNameDepartmentDuplicates(System.String,System.String)
+    name: GetNameDepartmentDuplicates
+    nameWithType: IContactAgent.GetNameDepartmentDuplicates
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetNameDepartmentDuplicates
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ContactAgent.IsNumberValid*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.IsNumberValid
+  isExternal: true
+  name: IsNumberValid
+  nameWithType: ContactAgent.IsNumberValid
+  fullName: SuperOffice.CRM.Services.ContactAgent.IsNumberValid
+- uid: SuperOffice.CRM.Services.IContactAgent.IsNumberValid(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.IsNumberValid(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: IsNumberValid(Int32, String)
+  nameWithType: IContactAgent.IsNumberValid(Int32, String)
+  fullName: SuperOffice.CRM.Services.IContactAgent.IsNumberValid(System.Int32, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.IsNumberValid(System.Int32,System.String)
+    name: IsNumberValid
+    nameWithType: IContactAgent.IsNumberValid
+    fullName: SuperOffice.CRM.Services.IContactAgent.IsNumberValid
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.IsNumberValid(System.Int32,System.String)
+    name: IsNumberValid
+    nameWithType: IContactAgent.IsNumberValid
+    fullName: SuperOffice.CRM.Services.IContactAgent.IsNumberValid
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ContactAgent.GetQuoteVersionAddresses*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.GetQuoteVersionAddresses
+  isExternal: true
+  name: GetQuoteVersionAddresses
+  nameWithType: ContactAgent.GetQuoteVersionAddresses
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetQuoteVersionAddresses
+- uid: SuperOffice.CRM.Services.IContactAgent.GetQuoteVersionAddresses(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.GetQuoteVersionAddresses(System.Int32)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: GetQuoteVersionAddresses(Int32)
+  nameWithType: IContactAgent.GetQuoteVersionAddresses(Int32)
+  fullName: SuperOffice.CRM.Services.IContactAgent.GetQuoteVersionAddresses(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetQuoteVersionAddresses(System.Int32)
+    name: GetQuoteVersionAddresses
+    nameWithType: IContactAgent.GetQuoteVersionAddresses
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetQuoteVersionAddresses
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetQuoteVersionAddresses(System.Int32)
+    name: GetQuoteVersionAddresses
+    nameWithType: IContactAgent.GetQuoteVersionAddresses
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetQuoteVersionAddresses
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Address[]
+  isExternal: true
+  name: Address[]
+  nameWithType: Address[]
+  fullName: SuperOffice.CRM.Services.Address[]
+  nameWithType.vb: Address()
+  fullName.vb: SuperOffice.CRM.Services.Address()
+  name.vb: Address()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Address
+    name: Address
+    nameWithType: Address
+    fullName: SuperOffice.CRM.Services.Address
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Address
+    name: Address
+    nameWithType: Address
+    fullName: SuperOffice.CRM.Services.Address
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ContactAgent.SaveQuoteVersionAddress*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.SaveQuoteVersionAddress
+  isExternal: true
+  name: SaveQuoteVersionAddress
+  nameWithType: ContactAgent.SaveQuoteVersionAddress
+  fullName: SuperOffice.CRM.Services.ContactAgent.SaveQuoteVersionAddress
+- uid: SuperOffice.CRM.Services.IContactAgent.SaveQuoteVersionAddress(System.Int32,SuperOffice.CRM.Services.Address,SuperOffice.Data.AddressType,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.SaveQuoteVersionAddress(System.Int32,SuperOffice.CRM.Services.Address,SuperOffice.Data.AddressType,System.Int32)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: SaveQuoteVersionAddress(Int32, Address, AddressType, Int32)
+  nameWithType: IContactAgent.SaveQuoteVersionAddress(Int32, Address, AddressType, Int32)
+  fullName: SuperOffice.CRM.Services.IContactAgent.SaveQuoteVersionAddress(System.Int32, SuperOffice.CRM.Services.Address, SuperOffice.Data.AddressType, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.SaveQuoteVersionAddress(System.Int32,SuperOffice.CRM.Services.Address,SuperOffice.Data.AddressType,System.Int32)
+    name: SaveQuoteVersionAddress
+    nameWithType: IContactAgent.SaveQuoteVersionAddress
+    fullName: SuperOffice.CRM.Services.IContactAgent.SaveQuoteVersionAddress
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.Address
+    name: Address
+    nameWithType: Address
+    fullName: SuperOffice.CRM.Services.Address
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.AddressType
+    name: AddressType
+    nameWithType: AddressType
+    fullName: SuperOffice.Data.AddressType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.SaveQuoteVersionAddress(System.Int32,SuperOffice.CRM.Services.Address,SuperOffice.Data.AddressType,System.Int32)
+    name: SaveQuoteVersionAddress
+    nameWithType: IContactAgent.SaveQuoteVersionAddress
+    fullName: SuperOffice.CRM.Services.IContactAgent.SaveQuoteVersionAddress
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.Address
+    name: Address
+    nameWithType: Address
+    fullName: SuperOffice.CRM.Services.Address
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.AddressType
+    name: AddressType
+    nameWithType: AddressType
+    fullName: SuperOffice.Data.AddressType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.AddressType
+  isExternal: true
+  name: AddressType
+  nameWithType: AddressType
+  fullName: SuperOffice.Data.AddressType
+- uid: SuperOffice.CRM.Services.ContactAgent.DeleteExpired*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.DeleteExpired
+  isExternal: true
+  name: DeleteExpired
+  nameWithType: ContactAgent.DeleteExpired
+  fullName: SuperOffice.CRM.Services.ContactAgent.DeleteExpired
+- uid: SuperOffice.CRM.Services.IContactAgent.DeleteExpired
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.DeleteExpired
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: DeleteExpired()
+  nameWithType: IContactAgent.DeleteExpired()
+  fullName: SuperOffice.CRM.Services.IContactAgent.DeleteExpired()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.DeleteExpired
+    name: DeleteExpired
+    nameWithType: IContactAgent.DeleteExpired
+    fullName: SuperOffice.CRM.Services.IContactAgent.DeleteExpired
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.DeleteExpired
+    name: DeleteExpired
+    nameWithType: IContactAgent.DeleteExpired
+    fullName: SuperOffice.CRM.Services.IContactAgent.DeleteExpired
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ContactAgent.GetContactSummary*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.GetContactSummary
+  isExternal: true
+  name: GetContactSummary
+  nameWithType: ContactAgent.GetContactSummary
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetContactSummary
+- uid: SuperOffice.CRM.Services.IContactAgent.GetContactSummary(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.GetContactSummary(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: GetContactSummary(Int32, Int32)
+  nameWithType: IContactAgent.GetContactSummary(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IContactAgent.GetContactSummary(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetContactSummary(System.Int32,System.Int32)
+    name: GetContactSummary
+    nameWithType: IContactAgent.GetContactSummary
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetContactSummary
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetContactSummary(System.Int32,System.Int32)
+    name: GetContactSummary
+    nameWithType: IContactAgent.GetContactSummary
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetContactSummary
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ContactSummary
+  commentId: T:SuperOffice.CRM.Services.ContactSummary
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ContactSummary
+  nameWithType: ContactSummary
+  fullName: SuperOffice.CRM.Services.ContactSummary
+- uid: SuperOffice.CRM.Services.ContactAgent.ValidateContactEntity*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.ValidateContactEntity
+  isExternal: true
+  name: ValidateContactEntity
+  nameWithType: ContactAgent.ValidateContactEntity
+  fullName: SuperOffice.CRM.Services.ContactAgent.ValidateContactEntity
+- uid: SuperOffice.CRM.Services.IContactAgent.ValidateContactEntity(SuperOffice.CRM.Services.ContactEntity)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.ValidateContactEntity(SuperOffice.CRM.Services.ContactEntity)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: ValidateContactEntity(ContactEntity)
+  nameWithType: IContactAgent.ValidateContactEntity(ContactEntity)
+  fullName: SuperOffice.CRM.Services.IContactAgent.ValidateContactEntity(SuperOffice.CRM.Services.ContactEntity)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.ValidateContactEntity(SuperOffice.CRM.Services.ContactEntity)
+    name: ValidateContactEntity
+    nameWithType: IContactAgent.ValidateContactEntity
+    fullName: SuperOffice.CRM.Services.IContactAgent.ValidateContactEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ContactEntity
+    name: ContactEntity
+    nameWithType: ContactEntity
+    fullName: SuperOffice.CRM.Services.ContactEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.ValidateContactEntity(SuperOffice.CRM.Services.ContactEntity)
+    name: ValidateContactEntity
+    nameWithType: IContactAgent.ValidateContactEntity
+    fullName: SuperOffice.CRM.Services.IContactAgent.ValidateContactEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.ContactEntity
+    name: ContactEntity
+    nameWithType: ContactEntity
+    fullName: SuperOffice.CRM.Services.ContactEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.StringDictionary
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: SuperOffice.CRM.Services.ContactAgent.GetContactList*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.GetContactList
+  isExternal: true
+  name: GetContactList
+  nameWithType: ContactAgent.GetContactList
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetContactList
+- uid: SuperOffice.CRM.Services.IContactAgent.GetContactList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.GetContactList(System.Int32[])
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: GetContactList(Int32[])
+  nameWithType: IContactAgent.GetContactList(Int32[])
+  fullName: SuperOffice.CRM.Services.IContactAgent.GetContactList(System.Int32[])
+  nameWithType.vb: IContactAgent.GetContactList(Int32())
+  fullName.vb: SuperOffice.CRM.Services.IContactAgent.GetContactList(System.Int32())
+  name.vb: GetContactList(Int32())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetContactList(System.Int32[])
+    name: GetContactList
+    nameWithType: IContactAgent.GetContactList
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetContactList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetContactList(System.Int32[])
+    name: GetContactList
+    nameWithType: IContactAgent.GetContactList
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetContactList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Contact[]
+  isExternal: true
+  name: Contact[]
+  nameWithType: Contact[]
+  fullName: SuperOffice.CRM.Services.Contact[]
+  nameWithType.vb: Contact()
+  fullName.vb: SuperOffice.CRM.Services.Contact()
+  name.vb: Contact()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Contact
+    name: Contact
+    nameWithType: Contact
+    fullName: SuperOffice.CRM.Services.Contact
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Contact
+    name: Contact
+    nameWithType: Contact
+    fullName: SuperOffice.CRM.Services.Contact
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ContactAgent.GetMyContacts*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.GetMyContacts
+  isExternal: true
+  name: GetMyContacts
+  nameWithType: ContactAgent.GetMyContacts
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetMyContacts
+- uid: SuperOffice.CRM.Services.IContactAgent.GetMyContacts
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.GetMyContacts
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: GetMyContacts()
+  nameWithType: IContactAgent.GetMyContacts()
+  fullName: SuperOffice.CRM.Services.IContactAgent.GetMyContacts()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetMyContacts
+    name: GetMyContacts
+    nameWithType: IContactAgent.GetMyContacts
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetMyContacts
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetMyContacts
+    name: GetMyContacts
+    nameWithType: IContactAgent.GetMyContacts
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetMyContacts
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ContactAgent.GetMyRecentContacts*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.GetMyRecentContacts
+  isExternal: true
+  name: GetMyRecentContacts
+  nameWithType: ContactAgent.GetMyRecentContacts
+  fullName: SuperOffice.CRM.Services.ContactAgent.GetMyRecentContacts
+- uid: SuperOffice.CRM.Services.IContactAgent.GetMyRecentContacts(SuperOffice.CRM.Services.Util.ContactSourceType)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.GetMyRecentContacts(SuperOffice.CRM.Services.Util.ContactSourceType)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  name: GetMyRecentContacts(ContactSourceType)
+  nameWithType: IContactAgent.GetMyRecentContacts(ContactSourceType)
+  fullName: SuperOffice.CRM.Services.IContactAgent.GetMyRecentContacts(SuperOffice.CRM.Services.Util.ContactSourceType)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetMyRecentContacts(SuperOffice.CRM.Services.Util.ContactSourceType)
+    name: GetMyRecentContacts
+    nameWithType: IContactAgent.GetMyRecentContacts
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetMyRecentContacts
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.Util.ContactSourceType
+    name: ContactSourceType
+    nameWithType: ContactSourceType
+    fullName: SuperOffice.CRM.Services.Util.ContactSourceType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.GetMyRecentContacts(SuperOffice.CRM.Services.Util.ContactSourceType)
+    name: GetMyRecentContacts
+    nameWithType: IContactAgent.GetMyRecentContacts
+    fullName: SuperOffice.CRM.Services.IContactAgent.GetMyRecentContacts
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.Util.ContactSourceType
+    name: ContactSourceType
+    nameWithType: ContactSourceType
+    fullName: SuperOffice.CRM.Services.Util.ContactSourceType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Util.ContactSourceType
+  commentId: T:SuperOffice.CRM.Services.Util.ContactSourceType
+  parent: SuperOffice.CRM.Services.Util
+  isExternal: true
+  name: ContactSourceType
+  nameWithType: ContactSourceType
+  fullName: SuperOffice.CRM.Services.Util.ContactSourceType
+- uid: SuperOffice.CRM.Services.ContactAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.#ctor
+  isExternal: true
+  name: ContactAgent
+  nameWithType: ContactAgent.ContactAgent
+  fullName: SuperOffice.CRM.Services.ContactAgent.ContactAgent

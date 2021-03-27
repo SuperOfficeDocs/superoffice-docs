@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Sentry
+  commentId: T:SuperOffice.WebApi.Data.Sentry
+  id: Sentry
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Sentry.#ctor
+  langs:
+  - csharp
+  - vb
+  name: Sentry
+  nameWithType: Sentry
+  fullName: SuperOffice.WebApi.Data.Sentry
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for Sentry.\nThis service provides sentry information such as TableRights.    \n"
+  syntax:
+    content: 'public class Sentry : Carrier'
+    content.vb: >-
+      Public Class Sentry
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.SentryAgent
+    commentId: T:SuperOffice.WebApi.Agents.SentryAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Sentry.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Sentry.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Sentry
+  langs:
+  - csharp
+  - vb
+  name: Sentry()
+  nameWithType: Sentry.Sentry()
+  fullName: SuperOffice.WebApi.Data.Sentry.Sentry()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public Sentry()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Sentry.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.SentryAgent
+  commentId: T:SuperOffice.WebApi.Agents.SentryAgent
+  isExternal: true
+  name: SentryAgent
+  nameWithType: SentryAgent
+  fullName: SuperOffice.WebApi.Agents.SentryAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Sentry.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Sentry.#ctor
+  isExternal: true
+  name: Sentry
+  nameWithType: Sentry.Sentry
+  fullName: SuperOffice.WebApi.Data.Sentry.Sentry

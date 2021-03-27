@@ -1,0 +1,422 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ArchiveConfiguration
+  commentId: T:SuperOffice.CRM.Services.ArchiveConfiguration
+  id: ArchiveConfiguration
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ArchiveConfiguration.#ctor
+  - SuperOffice.CRM.Services.ArchiveConfiguration.ArchiveColumnInfo
+  - SuperOffice.CRM.Services.ArchiveConfiguration.ArchiveEntityInfo
+  - SuperOffice.CRM.Services.ArchiveConfiguration.ArchiveOrderByInfo
+  - SuperOffice.CRM.Services.ArchiveConfiguration.OwnerKeys
+  - SuperOffice.CRM.Services.ArchiveConfiguration.ToString
+  - SuperOffice.CRM.Services.ArchiveConfiguration.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ArchiveConfiguration
+  nameWithType: ArchiveConfiguration
+  fullName: SuperOffice.CRM.Services.ArchiveConfiguration
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis service is used to store and fetch the configuration of an archive. The configuration consists of entities and columns; entities correspond to archive provider entities and the checkboxes you see in the bottom of standard archives. Column configuration includes both what columns should be visible, what order they are in (left to right), and whether the archive rows should be sorted by one or more columns.&lt;para/>Note that desired columns can be set through the selectable mdo list called archiveColumns:&amp;lt;perovider name&amp;gt;, and entities can be set through the selectable mdo list archiveEntities:&amp;lt;provider name&amp;gt;. You can also use the SetChosenEntities and SetChosenColumns method of this service. The selectable mdo list implementation is suitable for data binding using mdo list controls.\n<p></p>\nCarrier object for ArchiveConfiguration.\nServices for the ArchiveConfiguration Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IArchiveAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class ArchiveConfiguration : Carrier'
+    content.vb: >-
+      Public Class ArchiveConfiguration
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ArchiveAgent
+    commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  - linkId: SuperOffice.CRM.Services.IArchiveAgent
+    commentId: T:SuperOffice.CRM.Services.IArchiveAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ArchiveConfiguration.#ctor
+  commentId: M:SuperOffice.CRM.Services.ArchiveConfiguration.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ArchiveConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ArchiveConfiguration()
+  nameWithType: ArchiveConfiguration.ArchiveConfiguration()
+  fullName: SuperOffice.CRM.Services.ArchiveConfiguration.ArchiveConfiguration()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ArchiveConfiguration()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ArchiveConfiguration.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ArchiveConfiguration.ToString
+  commentId: M:SuperOffice.CRM.Services.ArchiveConfiguration.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ArchiveConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ArchiveConfiguration.ToString()
+  fullName: SuperOffice.CRM.Services.ArchiveConfiguration.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.ArchiveConfiguration.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ArchiveConfiguration.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ArchiveConfiguration.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ArchiveConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ArchiveConfiguration.ToString(String)
+  fullName: SuperOffice.CRM.Services.ArchiveConfiguration.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ArchiveConfiguration.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ArchiveConfiguration.ArchiveColumnInfo
+  commentId: P:SuperOffice.CRM.Services.ArchiveConfiguration.ArchiveColumnInfo
+  id: ArchiveColumnInfo
+  parent: SuperOffice.CRM.Services.ArchiveConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ArchiveColumnInfo
+  nameWithType: ArchiveConfiguration.ArchiveColumnInfo
+  fullName: SuperOffice.CRM.Services.ArchiveConfiguration.ArchiveColumnInfo
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual ArchiveColumnInfo[] ArchiveColumnInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+    content.vb: Public Overridable Property ArchiveColumnInfo As ArchiveColumnInfo()
+  overload: SuperOffice.CRM.Services.ArchiveConfiguration.ArchiveColumnInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ArchiveConfiguration.ArchiveEntityInfo
+  commentId: P:SuperOffice.CRM.Services.ArchiveConfiguration.ArchiveEntityInfo
+  id: ArchiveEntityInfo
+  parent: SuperOffice.CRM.Services.ArchiveConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ArchiveEntityInfo
+  nameWithType: ArchiveConfiguration.ArchiveEntityInfo
+  fullName: SuperOffice.CRM.Services.ArchiveConfiguration.ArchiveEntityInfo
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual SelectableMDOListItem[] ArchiveEntityInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+    content.vb: Public Overridable Property ArchiveEntityInfo As SelectableMDOListItem()
+  overload: SuperOffice.CRM.Services.ArchiveConfiguration.ArchiveEntityInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ArchiveConfiguration.ArchiveOrderByInfo
+  commentId: P:SuperOffice.CRM.Services.ArchiveConfiguration.ArchiveOrderByInfo
+  id: ArchiveOrderByInfo
+  parent: SuperOffice.CRM.Services.ArchiveConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ArchiveOrderByInfo
+  nameWithType: ArchiveConfiguration.ArchiveOrderByInfo
+  fullName: SuperOffice.CRM.Services.ArchiveConfiguration.ArchiveOrderByInfo
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual ArchiveOrderByInfo[] ArchiveOrderByInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+    content.vb: Public Overridable Property ArchiveOrderByInfo As ArchiveOrderByInfo()
+  overload: SuperOffice.CRM.Services.ArchiveConfiguration.ArchiveOrderByInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ArchiveConfiguration.OwnerKeys
+  commentId: P:SuperOffice.CRM.Services.ArchiveConfiguration.OwnerKeys
+  id: OwnerKeys
+  parent: SuperOffice.CRM.Services.ArchiveConfiguration
+  langs:
+  - csharp
+  - vb
+  name: OwnerKeys
+  nameWithType: ArchiveConfiguration.OwnerKeys
+  fullName: SuperOffice.CRM.Services.ArchiveConfiguration.OwnerKeys
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe actual ownership information for the configuration that was retrieved \n"
+  syntax:
+    content: public virtual string OwnerKeys { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property OwnerKeys As String
+  overload: SuperOffice.CRM.Services.ArchiveConfiguration.OwnerKeys*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.ArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.CRM.Services.ArchiveAgent
+- uid: SuperOffice.CRM.Services.IArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.IArchiveAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IArchiveAgent
+  nameWithType: IArchiveAgent
+  fullName: SuperOffice.CRM.Services.IArchiveAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ArchiveConfiguration.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ArchiveConfiguration.#ctor
+  isExternal: true
+  name: ArchiveConfiguration
+  nameWithType: ArchiveConfiguration.ArchiveConfiguration
+  fullName: SuperOffice.CRM.Services.ArchiveConfiguration.ArchiveConfiguration
+- uid: SuperOffice.CRM.Services.ArchiveConfiguration.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ArchiveConfiguration.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ArchiveConfiguration.ToString
+  fullName: SuperOffice.CRM.Services.ArchiveConfiguration.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ArchiveConfiguration.ArchiveColumnInfo*
+  commentId: Overload:SuperOffice.CRM.Services.ArchiveConfiguration.ArchiveColumnInfo
+  isExternal: true
+  name: ArchiveColumnInfo
+  nameWithType: ArchiveConfiguration.ArchiveColumnInfo
+  fullName: SuperOffice.CRM.Services.ArchiveConfiguration.ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+  isExternal: true
+  name: ArchiveColumnInfo[]
+  nameWithType: ArchiveColumnInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+  nameWithType.vb: ArchiveColumnInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo()
+  name.vb: ArchiveColumnInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ArchiveConfiguration.ArchiveEntityInfo*
+  commentId: Overload:SuperOffice.CRM.Services.ArchiveConfiguration.ArchiveEntityInfo
+  isExternal: true
+  name: ArchiveEntityInfo
+  nameWithType: ArchiveConfiguration.ArchiveEntityInfo
+  fullName: SuperOffice.CRM.Services.ArchiveConfiguration.ArchiveEntityInfo
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem[]
+  isExternal: true
+  name: SelectableMDOListItem[]
+  nameWithType: SelectableMDOListItem[]
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem[]
+  nameWithType.vb: SelectableMDOListItem()
+  fullName.vb: SuperOffice.CRM.Services.SelectableMDOListItem()
+  name.vb: SelectableMDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ArchiveConfiguration.ArchiveOrderByInfo*
+  commentId: Overload:SuperOffice.CRM.Services.ArchiveConfiguration.ArchiveOrderByInfo
+  isExternal: true
+  name: ArchiveOrderByInfo
+  nameWithType: ArchiveConfiguration.ArchiveOrderByInfo
+  fullName: SuperOffice.CRM.Services.ArchiveConfiguration.ArchiveOrderByInfo
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+  isExternal: true
+  name: ArchiveOrderByInfo[]
+  nameWithType: ArchiveOrderByInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+  nameWithType.vb: ArchiveOrderByInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo()
+  name.vb: ArchiveOrderByInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ArchiveConfiguration.OwnerKeys*
+  commentId: Overload:SuperOffice.CRM.Services.ArchiveConfiguration.OwnerKeys
+  isExternal: true
+  name: OwnerKeys
+  nameWithType: ArchiveConfiguration.OwnerKeys
+  fullName: SuperOffice.CRM.Services.ArchiveConfiguration.OwnerKeys

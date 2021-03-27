@@ -1,0 +1,809 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Preference
+  commentId: T:SuperOffice.WebApi.Data.Preference
+  id: Preference
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Preference.#ctor
+  - SuperOffice.WebApi.Data.Preference.DisplayTooltip
+  - SuperOffice.WebApi.Data.Preference.DisplayType
+  - SuperOffice.WebApi.Data.Preference.DisplayType_String
+  - SuperOffice.WebApi.Data.Preference.DisplayValue
+  - SuperOffice.WebApi.Data.Preference.Level
+  - SuperOffice.WebApi.Data.Preference.Level_String
+  - SuperOffice.WebApi.Data.Preference.PrefDescId
+  - SuperOffice.WebApi.Data.Preference.RawValue
+  - SuperOffice.WebApi.Data.Preference.Specification
+  - SuperOffice.WebApi.Data.Preference.TableName
+  - SuperOffice.WebApi.Data.Preference.TabOrder
+  - SuperOffice.WebApi.Data.Preference.TargetId
+  - SuperOffice.WebApi.Data.Preference.UserPreferenceId
+  langs:
+  - csharp
+  - vb
+  name: Preference
+  nameWithType: Preference
+  fullName: SuperOffice.WebApi.Data.Preference
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for Preference.\nOne preference item, which contains a specification (section/key), the raw string value, and the level at which this value was found.    \n"
+  syntax:
+    content: 'public class Preference : Carrier'
+    content.vb: >-
+      Public Class Preference
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.PreferenceAgent
+    commentId: T:SuperOffice.WebApi.Agents.PreferenceAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Preference.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Preference.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Preference
+  langs:
+  - csharp
+  - vb
+  name: Preference()
+  nameWithType: Preference.Preference()
+  fullName: SuperOffice.WebApi.Data.Preference.Preference()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public Preference()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Preference.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Preference.Level_String
+  commentId: P:SuperOffice.WebApi.Data.Preference.Level_String
+  id: Level_String
+  parent: SuperOffice.WebApi.Data.Preference
+  langs:
+  - csharp
+  - vb
+  name: Level_String
+  nameWithType: Preference.Level_String
+  fullName: SuperOffice.WebApi.Data.Preference.Level_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPreference level, using the standard enumerated type. Undefined is returned for preferences that do not have a current setting.\nRaw string enum value.\n"
+  syntax:
+    content: public string Level_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Level_String As String
+  overload: SuperOffice.WebApi.Data.Preference.Level_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.Preference.Level
+    commentId: P:SuperOffice.WebApi.Data.Preference.Level
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Preference.Level
+  commentId: P:SuperOffice.WebApi.Data.Preference.Level
+  id: Level
+  parent: SuperOffice.WebApi.Data.Preference
+  langs:
+  - csharp
+  - vb
+  name: Level
+  nameWithType: Preference.Level
+  fullName: SuperOffice.WebApi.Data.Preference.Level
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPreference level, using the standard enumerated type. Undefined is returned for preferences that do not have a current setting.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<PreferenceLevel> Level { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.PreferenceLevel}
+    content.vb: Public Property Level As Nullable(Of PreferenceLevel)
+  overload: SuperOffice.WebApi.Data.Preference.Level*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.Preference.Level_String
+    commentId: P:SuperOffice.WebApi.Data.Preference.Level_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Preference.RawValue
+  commentId: P:SuperOffice.WebApi.Data.Preference.RawValue
+  id: RawValue
+  parent: SuperOffice.WebApi.Data.Preference
+  langs:
+  - csharp
+  - vb
+  name: RawValue
+  nameWithType: Preference.RawValue
+  fullName: SuperOffice.WebApi.Data.Preference.RawValue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPreference value\n"
+  syntax:
+    content: public virtual string RawValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RawValue As String
+  overload: SuperOffice.WebApi.Data.Preference.RawValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Preference.Specification
+  commentId: P:SuperOffice.WebApi.Data.Preference.Specification
+  id: Specification
+  parent: SuperOffice.WebApi.Data.Preference
+  langs:
+  - csharp
+  - vb
+  name: Specification
+  nameWithType: Preference.Specification
+  fullName: SuperOffice.WebApi.Data.Preference.Specification
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPreference specification, consisting of the section name and key name\n"
+  syntax:
+    content: public virtual PreferenceSpec Specification { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.PreferenceSpec
+    content.vb: Public Overridable Property Specification As PreferenceSpec
+  overload: SuperOffice.WebApi.Data.Preference.Specification*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Preference.DisplayValue
+  commentId: P:SuperOffice.WebApi.Data.Preference.DisplayValue
+  id: DisplayValue
+  parent: SuperOffice.WebApi.Data.Preference
+  langs:
+  - csharp
+  - vb
+  name: DisplayValue
+  nameWithType: Preference.DisplayValue
+  fullName: SuperOffice.WebApi.Data.Preference.DisplayValue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDisplay value, populated when asked for. Suitable for binding display-datasource in lists, etc. Formatted using CultureDataFormatter.\n"
+  syntax:
+    content: public virtual string DisplayValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayValue As String
+  overload: SuperOffice.WebApi.Data.Preference.DisplayValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Preference.DisplayTooltip
+  commentId: P:SuperOffice.WebApi.Data.Preference.DisplayTooltip
+  id: DisplayTooltip
+  parent: SuperOffice.WebApi.Data.Preference
+  langs:
+  - csharp
+  - vb
+  name: DisplayTooltip
+  nameWithType: Preference.DisplayTooltip
+  fullName: SuperOffice.WebApi.Data.Preference.DisplayTooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDisplay tooltip, populated when asked for. Suitable for binding display-datasource in lists, etc. Formatted using CultureDataFormatter.\n"
+  syntax:
+    content: public virtual string DisplayTooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayTooltip As String
+  overload: SuperOffice.WebApi.Data.Preference.DisplayTooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Preference.DisplayType_String
+  commentId: P:SuperOffice.WebApi.Data.Preference.DisplayType_String
+  id: DisplayType_String
+  parent: SuperOffice.WebApi.Data.Preference
+  langs:
+  - csharp
+  - vb
+  name: DisplayType_String
+  nameWithType: Preference.DisplayType_String
+  fullName: SuperOffice.WebApi.Data.Preference.DisplayType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDisplay type, populated when asked for. \nRaw string enum value.\n"
+  syntax:
+    content: public string DisplayType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DisplayType_String As String
+  overload: SuperOffice.WebApi.Data.Preference.DisplayType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.Preference.DisplayType
+    commentId: P:SuperOffice.WebApi.Data.Preference.DisplayType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Preference.DisplayType
+  commentId: P:SuperOffice.WebApi.Data.Preference.DisplayType
+  id: DisplayType
+  parent: SuperOffice.WebApi.Data.Preference
+  langs:
+  - csharp
+  - vb
+  name: DisplayType
+  nameWithType: Preference.DisplayType
+  fullName: SuperOffice.WebApi.Data.Preference.DisplayType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDisplay type, populated when asked for. \nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<PrefDescValueType> DisplayType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.PrefDescValueType}
+    content.vb: Public Property DisplayType As Nullable(Of PrefDescValueType)
+  overload: SuperOffice.WebApi.Data.Preference.DisplayType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.Preference.DisplayType_String
+    commentId: P:SuperOffice.WebApi.Data.Preference.DisplayType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Preference.TabOrder
+  commentId: P:SuperOffice.WebApi.Data.Preference.TabOrder
+  id: TabOrder
+  parent: SuperOffice.WebApi.Data.Preference
+  langs:
+  - csharp
+  - vb
+  name: TabOrder
+  nameWithType: Preference.TabOrder
+  fullName: SuperOffice.WebApi.Data.Preference.TabOrder
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual TabOrder TabOrder { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TabOrder
+    content.vb: Public Overridable Property TabOrder As TabOrder
+  overload: SuperOffice.WebApi.Data.Preference.TabOrder*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Preference.TargetId
+  commentId: P:SuperOffice.WebApi.Data.Preference.TargetId
+  id: TargetId
+  parent: SuperOffice.WebApi.Data.Preference
+  langs:
+  - csharp
+  - vb
+  name: TargetId
+  nameWithType: Preference.TargetId
+  fullName: SuperOffice.WebApi.Data.Preference.TargetId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe id of the target row. The table it points at is specified by the preference type.\n"
+  syntax:
+    content: public virtual int TargetId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TargetId As Integer
+  overload: SuperOffice.WebApi.Data.Preference.TargetId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Preference.PrefDescId
+  commentId: P:SuperOffice.WebApi.Data.Preference.PrefDescId
+  id: PrefDescId
+  parent: SuperOffice.WebApi.Data.Preference
+  langs:
+  - csharp
+  - vb
+  name: PrefDescId
+  nameWithType: Preference.PrefDescId
+  fullName: SuperOffice.WebApi.Data.Preference.PrefDescId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe id of the prefdesc this preference is connected to\n"
+  syntax:
+    content: public virtual int PrefDescId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PrefDescId As Integer
+  overload: SuperOffice.WebApi.Data.Preference.PrefDescId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Preference.TableName
+  commentId: P:SuperOffice.WebApi.Data.Preference.TableName
+  id: TableName
+  parent: SuperOffice.WebApi.Data.Preference
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: Preference.TableName
+  fullName: SuperOffice.WebApi.Data.Preference.TableName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFor DisplayType=PrefDescValueType.ListTableRef, TableName will contain the name of the table which the value reference to.\n"
+  syntax:
+    content: public virtual string TableName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TableName As String
+  overload: SuperOffice.WebApi.Data.Preference.TableName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Preference.UserPreferenceId
+  commentId: P:SuperOffice.WebApi.Data.Preference.UserPreferenceId
+  id: UserPreferenceId
+  parent: SuperOffice.WebApi.Data.Preference
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceId
+  nameWithType: Preference.UserPreferenceId
+  fullName: SuperOffice.WebApi.Data.Preference.UserPreferenceId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe id of the user preference\n"
+  syntax:
+    content: public virtual int UserPreferenceId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UserPreferenceId As Integer
+  overload: SuperOffice.WebApi.Data.Preference.UserPreferenceId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.PreferenceAgent
+  commentId: T:SuperOffice.WebApi.Agents.PreferenceAgent
+  isExternal: true
+  name: PreferenceAgent
+  nameWithType: PreferenceAgent
+  fullName: SuperOffice.WebApi.Agents.PreferenceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Preference.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference.#ctor
+  isExternal: true
+  name: Preference
+  nameWithType: Preference.Preference
+  fullName: SuperOffice.WebApi.Data.Preference.Preference
+- uid: SuperOffice.WebApi.Data.Preference.Level_String*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference.Level_String
+  isExternal: true
+  name: Level_String
+  nameWithType: Preference.Level_String
+  fullName: SuperOffice.WebApi.Data.Preference.Level_String
+- uid: SuperOffice.WebApi.Data.Preference.Level
+  commentId: P:SuperOffice.WebApi.Data.Preference.Level
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Preference.Level*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference.Level
+  isExternal: true
+  name: Level
+  nameWithType: Preference.Level
+  fullName: SuperOffice.WebApi.Data.Preference.Level
+- uid: SuperOffice.WebApi.Data.Preference.Level_String
+  commentId: P:SuperOffice.WebApi.Data.Preference.Level_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.PreferenceLevel}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.PreferenceLevel}'
+  definition: System.Nullable`1
+  name: Nullable<PreferenceLevel>
+  nameWithType: Nullable<PreferenceLevel>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.PreferenceLevel>
+  nameWithType.vb: Nullable(Of PreferenceLevel)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.PreferenceLevel)
+  name.vb: Nullable(Of PreferenceLevel)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.PreferenceLevel
+    name: PreferenceLevel
+    nameWithType: PreferenceLevel
+    fullName: SuperOffice.WebApi.Data.PreferenceLevel
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.PreferenceLevel
+    name: PreferenceLevel
+    nameWithType: PreferenceLevel
+    fullName: SuperOffice.WebApi.Data.PreferenceLevel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.Preference.RawValue*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference.RawValue
+  isExternal: true
+  name: RawValue
+  nameWithType: Preference.RawValue
+  fullName: SuperOffice.WebApi.Data.Preference.RawValue
+- uid: SuperOffice.WebApi.Data.Preference.Specification*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference.Specification
+  isExternal: true
+  name: Specification
+  nameWithType: Preference.Specification
+  fullName: SuperOffice.WebApi.Data.Preference.Specification
+- uid: SuperOffice.WebApi.Data.PreferenceSpec
+  commentId: T:SuperOffice.WebApi.Data.PreferenceSpec
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: PreferenceSpec
+  nameWithType: PreferenceSpec
+  fullName: SuperOffice.WebApi.Data.PreferenceSpec
+- uid: SuperOffice.WebApi.Data.Preference.DisplayValue*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference.DisplayValue
+  isExternal: true
+  name: DisplayValue
+  nameWithType: Preference.DisplayValue
+  fullName: SuperOffice.WebApi.Data.Preference.DisplayValue
+- uid: SuperOffice.WebApi.Data.Preference.DisplayTooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference.DisplayTooltip
+  isExternal: true
+  name: DisplayTooltip
+  nameWithType: Preference.DisplayTooltip
+  fullName: SuperOffice.WebApi.Data.Preference.DisplayTooltip
+- uid: SuperOffice.WebApi.Data.Preference.DisplayType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference.DisplayType_String
+  isExternal: true
+  name: DisplayType_String
+  nameWithType: Preference.DisplayType_String
+  fullName: SuperOffice.WebApi.Data.Preference.DisplayType_String
+- uid: SuperOffice.WebApi.Data.Preference.DisplayType
+  commentId: P:SuperOffice.WebApi.Data.Preference.DisplayType
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.Preference.DisplayType*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference.DisplayType
+  isExternal: true
+  name: DisplayType
+  nameWithType: Preference.DisplayType
+  fullName: SuperOffice.WebApi.Data.Preference.DisplayType
+- uid: SuperOffice.WebApi.Data.Preference.DisplayType_String
+  commentId: P:SuperOffice.WebApi.Data.Preference.DisplayType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.PrefDescValueType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.PrefDescValueType}'
+  definition: System.Nullable`1
+  name: Nullable<PrefDescValueType>
+  nameWithType: Nullable<PrefDescValueType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.PrefDescValueType>
+  nameWithType.vb: Nullable(Of PrefDescValueType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.PrefDescValueType)
+  name.vb: Nullable(Of PrefDescValueType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.PrefDescValueType
+    name: PrefDescValueType
+    nameWithType: PrefDescValueType
+    fullName: SuperOffice.WebApi.Data.PrefDescValueType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.PrefDescValueType
+    name: PrefDescValueType
+    nameWithType: PrefDescValueType
+    fullName: SuperOffice.WebApi.Data.PrefDescValueType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.Preference.TabOrder*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference.TabOrder
+  isExternal: true
+  name: TabOrder
+  nameWithType: Preference.TabOrder
+  fullName: SuperOffice.WebApi.Data.Preference.TabOrder
+- uid: SuperOffice.WebApi.Data.TabOrder
+  commentId: T:SuperOffice.WebApi.Data.TabOrder
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TabOrder
+  nameWithType: TabOrder
+  fullName: SuperOffice.WebApi.Data.TabOrder
+- uid: SuperOffice.WebApi.Data.Preference.TargetId*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference.TargetId
+  isExternal: true
+  name: TargetId
+  nameWithType: Preference.TargetId
+  fullName: SuperOffice.WebApi.Data.Preference.TargetId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Preference.PrefDescId*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference.PrefDescId
+  isExternal: true
+  name: PrefDescId
+  nameWithType: Preference.PrefDescId
+  fullName: SuperOffice.WebApi.Data.Preference.PrefDescId
+- uid: SuperOffice.WebApi.Data.Preference.TableName*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference.TableName
+  isExternal: true
+  name: TableName
+  nameWithType: Preference.TableName
+  fullName: SuperOffice.WebApi.Data.Preference.TableName
+- uid: SuperOffice.WebApi.Data.Preference.UserPreferenceId*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference.UserPreferenceId
+  isExternal: true
+  name: UserPreferenceId
+  nameWithType: Preference.UserPreferenceId
+  fullName: SuperOffice.WebApi.Data.Preference.UserPreferenceId

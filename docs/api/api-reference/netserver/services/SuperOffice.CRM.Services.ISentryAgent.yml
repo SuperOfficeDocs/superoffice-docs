@@ -1,0 +1,394 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ISentryAgent
+  commentId: T:SuperOffice.CRM.Services.ISentryAgent
+  id: ISentryAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries
+  - SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32[])
+  - SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights
+  - SuperOffice.CRM.Services.ISentryAgent.GetNewTableRight(System.String)
+  - SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnership(System.String,System.Int32)
+  - SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnership(System.String,System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.ISentryAgent.HasFunctionRight(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ISentryAgent
+  nameWithType: ISentryAgent
+  fullName: SuperOffice.CRM.Services.ISentryAgent
+  type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInterface for the Sentry Agent\nData and function right queries\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (SentryAgent agent = new SentryAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: >-
+      [Agent("Sentry Agent", "Interface for the Sentry Agent. Data and function right queries")]
+
+      public interface ISentryAgent : IAgent
+    content.vb: >-
+      <Agent("Sentry Agent", "Interface for the Sentry Agent. Data and function right queries")>
+
+      Public Interface ISentryAgent
+          Inherits IAgent
+  attributes:
+  - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
+    ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: Sentry Agent
+    - type: System.String
+      value: Interface for the Sentry Agent. Data and function right queries
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Services.ISentryAgent.GetNewTableRight(System.String)
+  commentId: M:SuperOffice.CRM.Services.ISentryAgent.GetNewTableRight(System.String)
+  id: GetNewTableRight(System.String)
+  parent: SuperOffice.CRM.Services.ISentryAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNewTableRight(String)
+  nameWithType: ISentryAgent.GetNewTableRight(String)
+  fullName: SuperOffice.CRM.Services.ISentryAgent.GetNewTableRight(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns a TableRight for a new row based on tableName parameter.\n"
+  syntax:
+    content: TableRight GetNewTableRight(string tableName)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Name of the table to get the TableRights from
+    return:
+      type: SuperOffice.CRM.Security.TableRight
+      description: The TableRight
+    content.vb: Function GetNewTableRight(tableName As String) As TableRight
+  overload: SuperOffice.CRM.Services.ISentryAgent.GetNewTableRight*
+- uid: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnership(System.String,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnership(System.String,System.Int32,System.Int32)
+  id: GetTableRightByOwnership(System.String,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.ISentryAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTableRightByOwnership(String, Int32, Int32)
+  nameWithType: ISentryAgent.GetTableRightByOwnership(String, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnership(System.String, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturn the TableRight from the relationship between the current user and the given user and group.\n"
+  syntax:
+    content: TableRight GetTableRightByOwnership(string tableName, int contactGroupId, int contactAssociateId)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Name of the table to get the TableRights from.
+    - id: contactGroupId
+      type: System.Int32
+      description: The user-group that the associate id is part of.
+    - id: contactAssociateId
+      type: System.Int32
+      description: The associate id of the owner of the record
+    return:
+      type: SuperOffice.CRM.Security.TableRight
+      description: The TableRight
+    content.vb: Function GetTableRightByOwnership(tableName As String, contactGroupId As Integer, contactAssociateId As Integer) As TableRight
+  overload: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnership*
+- uid: SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights
+  commentId: M:SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights
+  id: GetFunctionRights
+  parent: SuperOffice.CRM.Services.ISentryAgent
+  langs:
+  - csharp
+  - vb
+  name: GetFunctionRights()
+  nameWithType: ISentryAgent.GetFunctionRights()
+  fullName: SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a string array of all functions rights for the role of the current associate.\n"
+  syntax:
+    content: string[] GetFunctionRights()
+    return:
+      type: System.String[]
+      description: >
+        String array.
+    content.vb: Function GetFunctionRights As String()
+  overload: SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights*
+- uid: SuperOffice.CRM.Services.ISentryAgent.HasFunctionRight(System.String)
+  commentId: M:SuperOffice.CRM.Services.ISentryAgent.HasFunctionRight(System.String)
+  id: HasFunctionRight(System.String)
+  parent: SuperOffice.CRM.Services.ISentryAgent
+  langs:
+  - csharp
+  - vb
+  name: HasFunctionRight(String)
+  nameWithType: ISentryAgent.HasFunctionRight(String)
+  fullName: SuperOffice.CRM.Services.ISentryAgent.HasFunctionRight(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a boolean value indicating if the current user has the functional right.\n"
+  syntax:
+    content: bool HasFunctionRight(string functionRight)
+    parameters:
+    - id: functionRight
+      type: System.String
+      description: Function right to check.
+    return:
+      type: System.Boolean
+    content.vb: Function HasFunctionRight(functionRight As String) As Boolean
+  overload: SuperOffice.CRM.Services.ISentryAgent.HasFunctionRight*
+- uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32[])
+  id: CanCreateAppointmentInAssociateDiaries(System.Int32[])
+  parent: SuperOffice.CRM.Services.ISentryAgent
+  langs:
+  - csharp
+  - vb
+  name: CanCreateAppointmentInAssociateDiaries(Int32[])
+  nameWithType: ISentryAgent.CanCreateAppointmentInAssociateDiaries(Int32[])
+  fullName: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCanCreateAppointmentInAssociateDiaries will check if the current associate can create appointments in diaries belonging to the associates listed in associateIds. CanCreateAppointmentInAssociateDiaries will only check against associates that are diary owners. If none of the associates listed in the associateIds parameter is a diary owner, the method will return true.\n"
+  syntax:
+    content: bool CanCreateAppointmentInAssociateDiaries(int[] associateIds)
+    parameters:
+    - id: associateIds
+      type: System.Int32[]
+      description: Array of associate ids to check.
+    return:
+      type: System.Boolean
+      description: Returns true if the current associate can create appointments in the diary of all the other associates, otherwise false.
+    content.vb: Function CanCreateAppointmentInAssociateDiaries(associateIds As Integer()) As Boolean
+  overload: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries*
+  nameWithType.vb: ISentryAgent.CanCreateAppointmentInAssociateDiaries(Int32())
+  fullName.vb: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries(System.Int32())
+  name.vb: CanCreateAppointmentInAssociateDiaries(Int32())
+- uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries
+  commentId: M:SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries
+  id: CanCreateAppointmentInAllDiaries
+  parent: SuperOffice.CRM.Services.ISentryAgent
+  langs:
+  - csharp
+  - vb
+  name: CanCreateAppointmentInAllDiaries()
+  nameWithType: ISentryAgent.CanCreateAppointmentInAllDiaries()
+  fullName: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCanCreateAppointmentInAllDiaries will check if the current associate can create appointments in diaries belonging all other associates. CanCreateAppointmentInAssociateDiaries will only check against associates that are diary owners.\n"
+  syntax:
+    content: bool CanCreateAppointmentInAllDiaries()
+    return:
+      type: System.Boolean
+      description: Returns true if the current associate can create appointments in the diary of all the other associates, otherwise false.
+    content.vb: Function CanCreateAppointmentInAllDiaries As Boolean
+  overload: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries*
+- uid: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnership(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnership(System.String,System.Int32)
+  id: GetTableRightByContactOwnership(System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.ISentryAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTableRightByContactOwnership(String, Int32)
+  nameWithType: ISentryAgent.GetTableRightByContactOwnership(String, Int32)
+  fullName: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnership(System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturn the TableRight from the relationship between the current user and the given user and group.\n"
+  syntax:
+    content: TableRight GetTableRightByContactOwnership(string tableName, int contactId)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Name of the table to get the TableRights from.
+    - id: contactId
+      type: System.Int32
+      description: The owner contact.
+    return:
+      type: SuperOffice.CRM.Security.TableRight
+      description: The TableRight
+    content.vb: Function GetTableRightByContactOwnership(tableName As String, contactId As Integer) As TableRight
+  overload: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnership*
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.ISentryAgent.GetNewTableRight*
+  commentId: Overload:SuperOffice.CRM.Services.ISentryAgent.GetNewTableRight
+  isExternal: true
+  name: GetNewTableRight
+  nameWithType: ISentryAgent.GetNewTableRight
+  fullName: SuperOffice.CRM.Services.ISentryAgent.GetNewTableRight
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Security.TableRight
+  isExternal: true
+  name: TableRight
+  nameWithType: TableRight
+  fullName: SuperOffice.CRM.Security.TableRight
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnership*
+  commentId: Overload:SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnership
+  isExternal: true
+  name: GetTableRightByOwnership
+  nameWithType: ISentryAgent.GetTableRightByOwnership
+  fullName: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByOwnership
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights*
+  commentId: Overload:SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights
+  isExternal: true
+  name: GetFunctionRights
+  nameWithType: ISentryAgent.GetFunctionRights
+  fullName: SuperOffice.CRM.Services.ISentryAgent.GetFunctionRights
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ISentryAgent.HasFunctionRight*
+  commentId: Overload:SuperOffice.CRM.Services.ISentryAgent.HasFunctionRight
+  isExternal: true
+  name: HasFunctionRight
+  nameWithType: ISentryAgent.HasFunctionRight
+  fullName: SuperOffice.CRM.Services.ISentryAgent.HasFunctionRight
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries*
+  commentId: Overload:SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries
+  isExternal: true
+  name: CanCreateAppointmentInAssociateDiaries
+  nameWithType: ISentryAgent.CanCreateAppointmentInAssociateDiaries
+  fullName: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAssociateDiaries
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries*
+  commentId: Overload:SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries
+  isExternal: true
+  name: CanCreateAppointmentInAllDiaries
+  nameWithType: ISentryAgent.CanCreateAppointmentInAllDiaries
+  fullName: SuperOffice.CRM.Services.ISentryAgent.CanCreateAppointmentInAllDiaries
+- uid: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnership*
+  commentId: Overload:SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnership
+  isExternal: true
+  name: GetTableRightByContactOwnership
+  nameWithType: ISentryAgent.GetTableRightByContactOwnership
+  fullName: SuperOffice.CRM.Services.ISentryAgent.GetTableRightByContactOwnership

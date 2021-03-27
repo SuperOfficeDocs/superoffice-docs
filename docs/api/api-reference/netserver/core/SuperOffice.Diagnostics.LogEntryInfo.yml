@@ -1,0 +1,1069 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Diagnostics.LogEntryInfo
+  commentId: T:SuperOffice.Diagnostics.LogEntryInfo
+  id: LogEntryInfo
+  parent: SuperOffice.Diagnostics
+  children:
+  - SuperOffice.Diagnostics.LogEntryInfo.#ctor
+  - SuperOffice.Diagnostics.LogEntryInfo.#ctor(System.Diagnostics.EventLogEntryType)
+  - SuperOffice.Diagnostics.LogEntryInfo.#ctor(System.Diagnostics.EventLogEntryType,SuperOffice.Exceptions.SoExceptionInfo)
+  - SuperOffice.Diagnostics.LogEntryInfo.#ctor(System.Diagnostics.EventLogEntryType,System.Exception)
+  - SuperOffice.Diagnostics.LogEntryInfo.AddElement(System.Type,System.String,System.String)
+  - SuperOffice.Diagnostics.LogEntryInfo.EnvironmentInfo
+  - SuperOffice.Diagnostics.LogEntryInfo.LogElement
+  - SuperOffice.Diagnostics.LogEntryInfo.LogEntryType
+  - SuperOffice.Diagnostics.LogEntryInfo.ToString
+  langs:
+  - csharp
+  - vb
+  name: LogEntryInfo
+  nameWithType: LogEntryInfo
+  fullName: SuperOffice.Diagnostics.LogEntryInfo
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nClass representing an issue that can be logged\n"
+  example:
+  - "\nLogging an exception:\n<pre><code>SoLogger.Logger.LogException(System.Diagnostics.EventLogEntryType.Warning, ex);</code></pre>\n"
+  syntax:
+    content: public sealed class LogEntryInfo
+    content.vb: Public NotInheritable Class LogEntryInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Diagnostics.LogEntryInfo.EnumUtil.MapEnums``2
+  - SuperOffice.Diagnostics.LogEntryInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Diagnostics.LogEntryInfo)
+  - SuperOffice.Diagnostics.LogEntryInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Diagnostics.LogEntryInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Diagnostics.LogEntryInfo.#ctor
+  commentId: M:SuperOffice.Diagnostics.LogEntryInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Diagnostics.LogEntryInfo
+  langs:
+  - csharp
+  - vb
+  name: LogEntryInfo()
+  nameWithType: LogEntryInfo.LogEntryInfo()
+  fullName: SuperOffice.Diagnostics.LogEntryInfo.LogEntryInfo()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nThis constructor is only to be used by the serializer!\n"
+  syntax:
+    content: public LogEntryInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.Diagnostics.LogEntryInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.LogEntryInfo.#ctor(System.Diagnostics.EventLogEntryType)
+  commentId: M:SuperOffice.Diagnostics.LogEntryInfo.#ctor(System.Diagnostics.EventLogEntryType)
+  id: '#ctor(System.Diagnostics.EventLogEntryType)'
+  parent: SuperOffice.Diagnostics.LogEntryInfo
+  langs:
+  - csharp
+  - vb
+  name: LogEntryInfo(EventLogEntryType)
+  nameWithType: LogEntryInfo.LogEntryInfo(EventLogEntryType)
+  fullName: SuperOffice.Diagnostics.LogEntryInfo.LogEntryInfo(System.Diagnostics.EventLogEntryType)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nDefault constructor.\n"
+  syntax:
+    content: public LogEntryInfo(EventLogEntryType logType)
+    parameters:
+    - id: logType
+      type: System.Diagnostics.EventLogEntryType
+      description: "\nThe level of severity for the information to be logged.\n"
+    content.vb: Public Sub New(logType As EventLogEntryType)
+  overload: SuperOffice.Diagnostics.LogEntryInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.LogEntryInfo.#ctor(System.Diagnostics.EventLogEntryType,System.Exception)
+  commentId: M:SuperOffice.Diagnostics.LogEntryInfo.#ctor(System.Diagnostics.EventLogEntryType,System.Exception)
+  id: '#ctor(System.Diagnostics.EventLogEntryType,System.Exception)'
+  parent: SuperOffice.Diagnostics.LogEntryInfo
+  langs:
+  - csharp
+  - vb
+  name: LogEntryInfo(EventLogEntryType, Exception)
+  nameWithType: LogEntryInfo.LogEntryInfo(EventLogEntryType, Exception)
+  fullName: SuperOffice.Diagnostics.LogEntryInfo.LogEntryInfo(System.Diagnostics.EventLogEntryType, System.Exception)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nDefault constructor. \n"
+  syntax:
+    content: public LogEntryInfo(EventLogEntryType logType, Exception exception)
+    parameters:
+    - id: logType
+      type: System.Diagnostics.EventLogEntryType
+      description: The level of severity for the information to be logged.
+    - id: exception
+      type: System.Exception
+      description: Exception to be logged.
+    content.vb: Public Sub New(logType As EventLogEntryType, exception As Exception)
+  overload: SuperOffice.Diagnostics.LogEntryInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.LogEntryInfo.#ctor(System.Diagnostics.EventLogEntryType,SuperOffice.Exceptions.SoExceptionInfo)
+  commentId: M:SuperOffice.Diagnostics.LogEntryInfo.#ctor(System.Diagnostics.EventLogEntryType,SuperOffice.Exceptions.SoExceptionInfo)
+  id: '#ctor(System.Diagnostics.EventLogEntryType,SuperOffice.Exceptions.SoExceptionInfo)'
+  parent: SuperOffice.Diagnostics.LogEntryInfo
+  langs:
+  - csharp
+  - vb
+  name: LogEntryInfo(EventLogEntryType, SoExceptionInfo)
+  nameWithType: LogEntryInfo.LogEntryInfo(EventLogEntryType, SoExceptionInfo)
+  fullName: SuperOffice.Diagnostics.LogEntryInfo.LogEntryInfo(System.Diagnostics.EventLogEntryType, SuperOffice.Exceptions.SoExceptionInfo)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public LogEntryInfo(EventLogEntryType logType, SoExceptionInfo exception)
+    parameters:
+    - id: logType
+      type: System.Diagnostics.EventLogEntryType
+    - id: exception
+      type: SuperOffice.Exceptions.SoExceptionInfo
+    content.vb: Public Sub New(logType As EventLogEntryType, exception As SoExceptionInfo)
+  overload: SuperOffice.Diagnostics.LogEntryInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.LogEntryInfo.AddElement(System.Type,System.String,System.String)
+  commentId: M:SuperOffice.Diagnostics.LogEntryInfo.AddElement(System.Type,System.String,System.String)
+  id: AddElement(System.Type,System.String,System.String)
+  parent: SuperOffice.Diagnostics.LogEntryInfo
+  langs:
+  - csharp
+  - vb
+  name: AddElement(Type, String, String)
+  nameWithType: LogEntryInfo.AddElement(Type, String, String)
+  fullName: SuperOffice.Diagnostics.LogEntryInfo.AddElement(System.Type, System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nAdd information to the issue.\n"
+  syntax:
+    content: public void AddElement(Type sourceType, string message, string details)
+    parameters:
+    - id: sourceType
+      type: System.Type
+      description: A Type (e.g. Exception or current class) that is relevant.
+    - id: message
+      type: System.String
+      description: Brief description.
+    - id: details
+      type: System.String
+      description: "\nDetailed description (e.g. this could be the StackTrace of the exception or other \ndetailed information.\n"
+    content.vb: Public Sub AddElement(sourceType As Type, message As String, details As String)
+  overload: SuperOffice.Diagnostics.LogEntryInfo.AddElement*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.LogEntryInfo.ToString
+  commentId: M:SuperOffice.Diagnostics.LogEntryInfo.ToString
+  id: ToString
+  parent: SuperOffice.Diagnostics.LogEntryInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: LogEntryInfo.ToString()
+  fullName: SuperOffice.Diagnostics.LogEntryInfo.ToString()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nGet a string containing the entire errormessage.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The entire error message.
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.Diagnostics.LogEntryInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Diagnostics.LogEntryInfo.EnvironmentInfo
+  commentId: P:SuperOffice.Diagnostics.LogEntryInfo.EnvironmentInfo
+  id: EnvironmentInfo
+  parent: SuperOffice.Diagnostics.LogEntryInfo
+  langs:
+  - csharp
+  - vb
+  name: EnvironmentInfo
+  nameWithType: LogEntryInfo.EnvironmentInfo
+  fullName: SuperOffice.Diagnostics.LogEntryInfo.EnvironmentInfo
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nName and value pair collection holding a snapshot of information that can \nrelevant to the issue, taken at the moment immediately preceding the \noccurrence of the issue.\n"
+  syntax:
+    content: public NameValueCollection EnvironmentInfo { get; }
+    parameters: []
+    return:
+      type: System.Collections.Specialized.NameValueCollection
+    content.vb: Public ReadOnly Property EnvironmentInfo As NameValueCollection
+  overload: SuperOffice.Diagnostics.LogEntryInfo.EnvironmentInfo*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Diagnostics.LogEntryInfo.LogEntryType
+  commentId: P:SuperOffice.Diagnostics.LogEntryInfo.LogEntryType
+  id: LogEntryType
+  parent: SuperOffice.Diagnostics.LogEntryInfo
+  langs:
+  - csharp
+  - vb
+  name: LogEntryType
+  nameWithType: LogEntryInfo.LogEntryType
+  fullName: SuperOffice.Diagnostics.LogEntryInfo.LogEntryType
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nEvent type.\n"
+  syntax:
+    content: public EventLogEntryType LogEntryType { get; }
+    parameters: []
+    return:
+      type: System.Diagnostics.EventLogEntryType
+    content.vb: Public ReadOnly Property LogEntryType As EventLogEntryType
+  overload: SuperOffice.Diagnostics.LogEntryInfo.LogEntryType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Diagnostics.LogEntryInfo.LogElement
+  commentId: P:SuperOffice.Diagnostics.LogEntryInfo.LogElement
+  id: LogElement
+  parent: SuperOffice.Diagnostics.LogEntryInfo
+  langs:
+  - csharp
+  - vb
+  name: LogElement
+  nameWithType: LogEntryInfo.LogElement
+  fullName: SuperOffice.Diagnostics.LogEntryInfo.LogElement
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nInformation about the issue\n"
+  syntax:
+    content: public LogElement LogElement { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Diagnostics.LogElement
+    content.vb: Public ReadOnly Property LogElement As LogElement
+  overload: SuperOffice.Diagnostics.LogEntryInfo.LogElement*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.LogEntryInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<LogEntryInfo, To>()
+  nameWithType: EnumUtil.MapEnums<LogEntryInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.LogEntryInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of LogEntryInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.LogEntryInfo, To)()
+  name.vb: MapEnums(Of LogEntryInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<LogEntryInfo, To>
+    nameWithType: EnumUtil.MapEnums<LogEntryInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.LogEntryInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of LogEntryInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of LogEntryInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.LogEntryInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.LogEntryInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Diagnostics.LogEntryInfo)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<LogEntryInfo>(LogEntryInfo)
+  nameWithType: ObjectExtensions.AssignByReflection<LogEntryInfo>(LogEntryInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Diagnostics.LogEntryInfo>(SuperOffice.Diagnostics.LogEntryInfo)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of LogEntryInfo)(LogEntryInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Diagnostics.LogEntryInfo)(SuperOffice.Diagnostics.LogEntryInfo)
+  name.vb: AssignByReflection(Of LogEntryInfo)(LogEntryInfo)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<LogEntryInfo>
+    nameWithType: ObjectExtensions.AssignByReflection<LogEntryInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Diagnostics.LogEntryInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Diagnostics.LogEntryInfo
+    name: LogEntryInfo
+    nameWithType: LogEntryInfo
+    fullName: SuperOffice.Diagnostics.LogEntryInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of LogEntryInfo)
+    nameWithType: ObjectExtensions.AssignByReflection(Of LogEntryInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Diagnostics.LogEntryInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Diagnostics.LogEntryInfo
+    name: LogEntryInfo
+    nameWithType: LogEntryInfo
+    fullName: SuperOffice.Diagnostics.LogEntryInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.LogEntryInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<LogEntryInfo>()
+  nameWithType: ObjectExtensions.GraphCopy<LogEntryInfo>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Diagnostics.LogEntryInfo>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of LogEntryInfo)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Diagnostics.LogEntryInfo)()
+  name.vb: GraphCopy(Of LogEntryInfo)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<LogEntryInfo>
+    nameWithType: ObjectExtensions.GraphCopy<LogEntryInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Diagnostics.LogEntryInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of LogEntryInfo)
+    nameWithType: ObjectExtensions.GraphCopy(Of LogEntryInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Diagnostics.LogEntryInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.LogEntryInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<LogEntryInfo, To>()
+  nameWithType: Converters.MapEnums<LogEntryInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.LogEntryInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of LogEntryInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.LogEntryInfo, To)()
+  name.vb: MapEnums(Of LogEntryInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<LogEntryInfo, To>
+    nameWithType: Converters.MapEnums<LogEntryInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.LogEntryInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of LogEntryInfo, To)
+    nameWithType: Converters.MapEnums(Of LogEntryInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.LogEntryInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Diagnostics.LogEntryInfo.#ctor*
+  commentId: Overload:SuperOffice.Diagnostics.LogEntryInfo.#ctor
+  isExternal: true
+  name: LogEntryInfo
+  nameWithType: LogEntryInfo.LogEntryInfo
+  fullName: SuperOffice.Diagnostics.LogEntryInfo.LogEntryInfo
+- uid: System.Diagnostics.EventLogEntryType
+  isExternal: true
+  name: EventLogEntryType
+  nameWithType: EventLogEntryType
+  fullName: System.Diagnostics.EventLogEntryType
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: SuperOffice.Exceptions.SoExceptionInfo
+  commentId: T:SuperOffice.Exceptions.SoExceptionInfo
+  parent: SuperOffice.Exceptions
+  isExternal: true
+  name: SoExceptionInfo
+  nameWithType: SoExceptionInfo
+  fullName: SuperOffice.Exceptions.SoExceptionInfo
+- uid: SuperOffice.Exceptions
+  commentId: N:SuperOffice.Exceptions
+  isExternal: true
+  name: SuperOffice.Exceptions
+  nameWithType: SuperOffice.Exceptions
+  fullName: SuperOffice.Exceptions
+- uid: SuperOffice.Diagnostics.LogEntryInfo.AddElement*
+  commentId: Overload:SuperOffice.Diagnostics.LogEntryInfo.AddElement
+  isExternal: true
+  name: AddElement
+  nameWithType: LogEntryInfo.AddElement
+  fullName: SuperOffice.Diagnostics.LogEntryInfo.AddElement
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.LogEntryInfo.ToString*
+  commentId: Overload:SuperOffice.Diagnostics.LogEntryInfo.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: LogEntryInfo.ToString
+  fullName: SuperOffice.Diagnostics.LogEntryInfo.ToString
+- uid: SuperOffice.Diagnostics.LogEntryInfo.EnvironmentInfo*
+  commentId: Overload:SuperOffice.Diagnostics.LogEntryInfo.EnvironmentInfo
+  isExternal: true
+  name: EnvironmentInfo
+  nameWithType: LogEntryInfo.EnvironmentInfo
+  fullName: SuperOffice.Diagnostics.LogEntryInfo.EnvironmentInfo
+- uid: System.Collections.Specialized.NameValueCollection
+  isExternal: true
+  name: NameValueCollection
+  nameWithType: NameValueCollection
+  fullName: System.Collections.Specialized.NameValueCollection
+- uid: SuperOffice.Diagnostics.LogEntryInfo.LogEntryType*
+  commentId: Overload:SuperOffice.Diagnostics.LogEntryInfo.LogEntryType
+  isExternal: true
+  name: LogEntryType
+  nameWithType: LogEntryInfo.LogEntryType
+  fullName: SuperOffice.Diagnostics.LogEntryInfo.LogEntryType
+- uid: SuperOffice.Diagnostics.LogEntryInfo.LogElement*
+  commentId: Overload:SuperOffice.Diagnostics.LogEntryInfo.LogElement
+  isExternal: true
+  name: LogElement
+  nameWithType: LogEntryInfo.LogElement
+  fullName: SuperOffice.Diagnostics.LogEntryInfo.LogElement
+- uid: SuperOffice.Diagnostics.LogElement
+  commentId: T:SuperOffice.Diagnostics.LogElement
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: LogElement
+  nameWithType: LogElement
+  fullName: SuperOffice.Diagnostics.LogElement

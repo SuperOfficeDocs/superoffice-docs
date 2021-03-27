@@ -1,0 +1,535 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.CsLoginOrigin
+  commentId: T:SuperOffice.Data.CsLoginOrigin
+  id: CsLoginOrigin
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.CsLoginOrigin.OriginAPI
+  - SuperOffice.Data.CsLoginOrigin.OriginCompact
+  - SuperOffice.Data.CsLoginOrigin.OriginCRM
+  - SuperOffice.Data.CsLoginOrigin.OriginSoap
+  - SuperOffice.Data.CsLoginOrigin.OriginWebPages
+  langs:
+  - csharp
+  - vb
+  name: CsLoginOrigin
+  nameWithType: CsLoginOrigin
+  fullName: SuperOffice.Data.CsLoginOrigin
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nDefines the origina of a logged in user in the login table\n"
+  syntax:
+    content: public enum CsLoginOrigin
+    content.vb: Public Enum CsLoginOrigin
+  extensionMethods:
+  - SuperOffice.Data.CsLoginOrigin.EnumUtil.MapEnums``2
+  - SuperOffice.Data.CsLoginOrigin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.CsLoginOrigin)
+  - SuperOffice.Data.CsLoginOrigin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.CsLoginOrigin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.CsLoginOrigin.OriginSoap
+  commentId: F:SuperOffice.Data.CsLoginOrigin.OriginSoap
+  id: OriginSoap
+  parent: SuperOffice.Data.CsLoginOrigin
+  langs:
+  - csharp
+  - vb
+  name: OriginSoap
+  nameWithType: CsLoginOrigin.OriginSoap
+  fullName: SuperOffice.Data.CsLoginOrigin.OriginSoap
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: OriginSoap = 1
+    return:
+      type: SuperOffice.Data.CsLoginOrigin
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.CsLoginOrigin.OriginWebPages
+  commentId: F:SuperOffice.Data.CsLoginOrigin.OriginWebPages
+  id: OriginWebPages
+  parent: SuperOffice.Data.CsLoginOrigin
+  langs:
+  - csharp
+  - vb
+  name: OriginWebPages
+  nameWithType: CsLoginOrigin.OriginWebPages
+  fullName: SuperOffice.Data.CsLoginOrigin.OriginWebPages
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: OriginWebPages = 2
+    return:
+      type: SuperOffice.Data.CsLoginOrigin
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.CsLoginOrigin.OriginCRM
+  commentId: F:SuperOffice.Data.CsLoginOrigin.OriginCRM
+  id: OriginCRM
+  parent: SuperOffice.Data.CsLoginOrigin
+  langs:
+  - csharp
+  - vb
+  name: OriginCRM
+  nameWithType: CsLoginOrigin.OriginCRM
+  fullName: SuperOffice.Data.CsLoginOrigin.OriginCRM
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: OriginCRM = 3
+    return:
+      type: SuperOffice.Data.CsLoginOrigin
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.CsLoginOrigin.OriginCompact
+  commentId: F:SuperOffice.Data.CsLoginOrigin.OriginCompact
+  id: OriginCompact
+  parent: SuperOffice.Data.CsLoginOrigin
+  langs:
+  - csharp
+  - vb
+  name: OriginCompact
+  nameWithType: CsLoginOrigin.OriginCompact
+  fullName: SuperOffice.Data.CsLoginOrigin.OriginCompact
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: OriginCompact = 4
+    return:
+      type: SuperOffice.Data.CsLoginOrigin
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.CsLoginOrigin.OriginAPI
+  commentId: F:SuperOffice.Data.CsLoginOrigin.OriginAPI
+  id: OriginAPI
+  parent: SuperOffice.Data.CsLoginOrigin
+  langs:
+  - csharp
+  - vb
+  name: OriginAPI
+  nameWithType: CsLoginOrigin.OriginAPI
+  fullName: SuperOffice.Data.CsLoginOrigin.OriginAPI
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: OriginAPI = 5
+    return:
+      type: SuperOffice.Data.CsLoginOrigin
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.CsLoginOrigin.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<CsLoginOrigin, To>()
+  nameWithType: EnumUtil.MapEnums<CsLoginOrigin, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.CsLoginOrigin, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CsLoginOrigin, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.CsLoginOrigin, To)()
+  name.vb: MapEnums(Of CsLoginOrigin, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CsLoginOrigin, To>
+    nameWithType: EnumUtil.MapEnums<CsLoginOrigin, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.CsLoginOrigin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CsLoginOrigin, To)
+    nameWithType: EnumUtil.MapEnums(Of CsLoginOrigin, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.CsLoginOrigin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.CsLoginOrigin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.CsLoginOrigin)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<CsLoginOrigin>(CsLoginOrigin)
+  nameWithType: ObjectExtensions.AssignByReflection<CsLoginOrigin>(CsLoginOrigin)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.CsLoginOrigin>(SuperOffice.Data.CsLoginOrigin)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CsLoginOrigin)(CsLoginOrigin)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.CsLoginOrigin)(SuperOffice.Data.CsLoginOrigin)
+  name.vb: AssignByReflection(Of CsLoginOrigin)(CsLoginOrigin)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<CsLoginOrigin>
+    nameWithType: ObjectExtensions.AssignByReflection<CsLoginOrigin>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.CsLoginOrigin>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.CsLoginOrigin
+    name: CsLoginOrigin
+    nameWithType: CsLoginOrigin
+    fullName: SuperOffice.Data.CsLoginOrigin
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of CsLoginOrigin)
+    nameWithType: ObjectExtensions.AssignByReflection(Of CsLoginOrigin)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.CsLoginOrigin)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.CsLoginOrigin
+    name: CsLoginOrigin
+    nameWithType: CsLoginOrigin
+    fullName: SuperOffice.Data.CsLoginOrigin
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.CsLoginOrigin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<CsLoginOrigin>()
+  nameWithType: ObjectExtensions.GraphCopy<CsLoginOrigin>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.CsLoginOrigin>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of CsLoginOrigin)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.CsLoginOrigin)()
+  name.vb: GraphCopy(Of CsLoginOrigin)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<CsLoginOrigin>
+    nameWithType: ObjectExtensions.GraphCopy<CsLoginOrigin>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.CsLoginOrigin>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of CsLoginOrigin)
+    nameWithType: ObjectExtensions.GraphCopy(Of CsLoginOrigin)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.CsLoginOrigin)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.CsLoginOrigin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CsLoginOrigin, To>()
+  nameWithType: Converters.MapEnums<CsLoginOrigin, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.CsLoginOrigin, To>()
+  nameWithType.vb: Converters.MapEnums(Of CsLoginOrigin, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.CsLoginOrigin, To)()
+  name.vb: MapEnums(Of CsLoginOrigin, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CsLoginOrigin, To>
+    nameWithType: Converters.MapEnums<CsLoginOrigin, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.CsLoginOrigin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CsLoginOrigin, To)
+    nameWithType: Converters.MapEnums(Of CsLoginOrigin, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.CsLoginOrigin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.CsLoginOrigin
+  commentId: T:SuperOffice.Data.CsLoginOrigin
+  parent: SuperOffice.Data
+  isExternal: true
+  name: CsLoginOrigin
+  nameWithType: CsLoginOrigin
+  fullName: SuperOffice.Data.CsLoginOrigin

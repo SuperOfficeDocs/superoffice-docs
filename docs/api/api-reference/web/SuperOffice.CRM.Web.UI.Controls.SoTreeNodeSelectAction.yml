@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction
+  id: SoTreeNodeSelectAction
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction.Expand
+  - SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction.Nothing
+  - SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction.Select
+  - SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction.SelectExpand
+  langs:
+  - csharp
+  - vb
+  name: SoTreeNodeSelectAction
+  nameWithType: SoTreeNodeSelectAction
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public enum SoTreeNodeSelectAction
+    content.vb: Public Enum SoTreeNodeSelectAction
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction.Nothing
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction.Nothing
+  id: Nothing
+  parent: SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction
+  langs:
+  - csharp
+  - vb
+  name: Nothing
+  nameWithType: SoTreeNodeSelectAction.Nothing
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction.Nothing
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Nothing = 0
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction.Select
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction.Select
+  id: Select
+  parent: SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction
+  langs:
+  - csharp
+  - vb
+  name: Select
+  nameWithType: SoTreeNodeSelectAction.Select
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction.Select
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Select = 1
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction.Expand
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction.Expand
+  id: Expand
+  parent: SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction
+  langs:
+  - csharp
+  - vb
+  name: Expand
+  nameWithType: SoTreeNodeSelectAction.Expand
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction.Expand
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Expand = 2
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction.SelectExpand
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction.SelectExpand
+  id: SelectExpand
+  parent: SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction
+  langs:
+  - csharp
+  - vb
+  name: SelectExpand
+  nameWithType: SoTreeNodeSelectAction.SelectExpand
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction.SelectExpand
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: SelectExpand = 3
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SoTreeNodeSelectAction
+  nameWithType: SoTreeNodeSelectAction
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction

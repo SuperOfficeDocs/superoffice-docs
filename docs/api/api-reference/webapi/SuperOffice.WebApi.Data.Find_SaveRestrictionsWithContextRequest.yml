@@ -1,0 +1,303 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest
+  commentId: T:SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest
+  id: Find_SaveRestrictionsWithContextRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.#ctor
+  - SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.Context
+  - SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.ProviderName
+  - SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.Restrictions
+  - SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.StorageKey
+  - SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.StorageType
+  langs:
+  - csharp
+  - vb
+  name: Find_SaveRestrictionsWithContextRequest
+  nameWithType: Find_SaveRestrictionsWithContextRequest
+  fullName: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Find_SaveRestrictionsWithContextRequest : Object'
+    content.vb: >-
+      Public Class Find_SaveRestrictionsWithContextRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest
+  langs:
+  - csharp
+  - vb
+  name: Find_SaveRestrictionsWithContextRequest()
+  nameWithType: Find_SaveRestrictionsWithContextRequest.Find_SaveRestrictionsWithContextRequest()
+  fullName: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.Find_SaveRestrictionsWithContextRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Find_SaveRestrictionsWithContextRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.StorageType
+  commentId: P:SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.StorageType
+  id: StorageType
+  parent: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest
+  langs:
+  - csharp
+  - vb
+  name: StorageType
+  nameWithType: Find_SaveRestrictionsWithContextRequest.StorageType
+  fullName: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.StorageType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string StorageType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StorageType As String
+  overload: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.StorageType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.ProviderName
+  commentId: P:SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.ProviderName
+  id: ProviderName
+  parent: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: Find_SaveRestrictionsWithContextRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.ProviderName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ProviderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProviderName As String
+  overload: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.ProviderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.StorageKey
+  commentId: P:SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.StorageKey
+  id: StorageKey
+  parent: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest
+  langs:
+  - csharp
+  - vb
+  name: StorageKey
+  nameWithType: Find_SaveRestrictionsWithContextRequest.StorageKey
+  fullName: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.StorageKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string StorageKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StorageKey As String
+  overload: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.StorageKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.Restrictions
+  commentId: P:SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.Restrictions
+  id: Restrictions
+  parent: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest
+  langs:
+  - csharp
+  - vb
+  name: Restrictions
+  nameWithType: Find_SaveRestrictionsWithContextRequest.Restrictions
+  fullName: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.Restrictions
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ArchiveRestrictionInfo[] Restrictions { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+    content.vb: Public Property Restrictions As ArchiveRestrictionInfo()
+  overload: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.Restrictions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.Context
+  commentId: P:SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.Context
+  id: Context
+  parent: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest
+  langs:
+  - csharp
+  - vb
+  name: Context
+  nameWithType: Find_SaveRestrictionsWithContextRequest.Context
+  fullName: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.Context
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Context { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Context As String
+  overload: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.Context*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.#ctor
+  isExternal: true
+  name: Find_SaveRestrictionsWithContextRequest
+  nameWithType: Find_SaveRestrictionsWithContextRequest.Find_SaveRestrictionsWithContextRequest
+  fullName: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.Find_SaveRestrictionsWithContextRequest
+- uid: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.StorageType*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.StorageType
+  isExternal: true
+  name: StorageType
+  nameWithType: Find_SaveRestrictionsWithContextRequest.StorageType
+  fullName: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.StorageType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.ProviderName*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.ProviderName
+  isExternal: true
+  name: ProviderName
+  nameWithType: Find_SaveRestrictionsWithContextRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.ProviderName
+- uid: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.StorageKey*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.StorageKey
+  isExternal: true
+  name: StorageKey
+  nameWithType: Find_SaveRestrictionsWithContextRequest.StorageKey
+  fullName: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.StorageKey
+- uid: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.Restrictions*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.Restrictions
+  isExternal: true
+  name: Restrictions
+  nameWithType: Find_SaveRestrictionsWithContextRequest.Restrictions
+  fullName: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.Restrictions
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.Context*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.Context
+  isExternal: true
+  name: Context
+  nameWithType: Find_SaveRestrictionsWithContextRequest.Context
+  fullName: SuperOffice.WebApi.Data.Find_SaveRestrictionsWithContextRequest.Context

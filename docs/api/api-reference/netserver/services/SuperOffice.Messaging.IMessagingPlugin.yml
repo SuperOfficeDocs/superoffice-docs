@@ -1,0 +1,83 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Messaging.IMessagingPlugin
+  commentId: T:SuperOffice.Messaging.IMessagingPlugin
+  id: IMessagingPlugin
+  parent: SuperOffice.Messaging
+  children:
+  - SuperOffice.Messaging.IMessagingPlugin.SendMessage(SuperOffice.CRM.Services.OutgoingMessage)
+  langs:
+  - csharp
+  - vb
+  name: IMessagingPlugin
+  nameWithType: IMessagingPlugin
+  fullName: SuperOffice.Messaging.IMessagingPlugin
+  type: Interface
+  source:
+    path: SuperOffice.Messaging
+    isExternal: true
+  assemblies:
+  - SuperOffice.Messaging
+  namespace: SuperOffice.Messaging
+  syntax:
+    content: 'public interface IMessagingPlugin : IPlugin'
+    content.vb: >-
+      Public Interface IMessagingPlugin
+          Inherits IPlugin
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Messaging.IMessagingPlugin.SendMessage(SuperOffice.CRM.Services.OutgoingMessage)
+  commentId: M:SuperOffice.Messaging.IMessagingPlugin.SendMessage(SuperOffice.CRM.Services.OutgoingMessage)
+  id: SendMessage(SuperOffice.CRM.Services.OutgoingMessage)
+  parent: SuperOffice.Messaging.IMessagingPlugin
+  langs:
+  - csharp
+  - vb
+  name: SendMessage(OutgoingMessage)
+  nameWithType: IMessagingPlugin.SendMessage(OutgoingMessage)
+  fullName: SuperOffice.Messaging.IMessagingPlugin.SendMessage(SuperOffice.CRM.Services.OutgoingMessage)
+  type: Method
+  source:
+    path: SuperOffice.Messaging
+    isExternal: true
+  assemblies:
+  - SuperOffice.Messaging
+  namespace: SuperOffice.Messaging
+  syntax:
+    content: MessagingManager.MessageReplyStatus SendMessage(OutgoingMessage message)
+    parameters:
+    - id: message
+      type: SuperOffice.CRM.Services.OutgoingMessage
+    return:
+      type: SuperOffice.Messaging.MessagingManager.MessageReplyStatus
+    content.vb: Function SendMessage(message As OutgoingMessage) As MessagingManager.MessageReplyStatus
+  overload: SuperOffice.Messaging.IMessagingPlugin.SendMessage*
+references:
+- uid: SuperOffice.Messaging
+  commentId: N:SuperOffice.Messaging
+  isExternal: true
+  name: SuperOffice.Messaging
+  nameWithType: SuperOffice.Messaging
+  fullName: SuperOffice.Messaging
+- uid: SuperOffice.Messaging.IMessagingPlugin.SendMessage*
+  commentId: Overload:SuperOffice.Messaging.IMessagingPlugin.SendMessage
+  isExternal: true
+  name: SendMessage
+  nameWithType: IMessagingPlugin.SendMessage
+  fullName: SuperOffice.Messaging.IMessagingPlugin.SendMessage
+- uid: SuperOffice.CRM.Services.OutgoingMessage
+  isExternal: true
+  name: OutgoingMessage
+  nameWithType: OutgoingMessage
+  fullName: SuperOffice.CRM.Services.OutgoingMessage
+- uid: SuperOffice.Messaging.MessagingManager.MessageReplyStatus
+  commentId: T:SuperOffice.Messaging.MessagingManager.MessageReplyStatus
+  parent: SuperOffice.Messaging
+  isExternal: true
+  name: MessagingManager.MessageReplyStatus
+  nameWithType: MessagingManager.MessageReplyStatus
+  fullName: SuperOffice.Messaging.MessagingManager.MessageReplyStatus

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSync_GetDefaultValueInfoRequest
+  commentId: T:SuperOffice.WebApi.Data.ErpSync_GetDefaultValueInfoRequest
+  id: ErpSync_GetDefaultValueInfoRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSync_GetDefaultValueInfoRequest.#ctor
+  - SuperOffice.WebApi.Data.ErpSync_GetDefaultValueInfoRequest.ErpFieldId
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_GetDefaultValueInfoRequest
+  nameWithType: ErpSync_GetDefaultValueInfoRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetDefaultValueInfoRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ErpSync_GetDefaultValueInfoRequest : Object'
+    content.vb: >-
+      Public Class ErpSync_GetDefaultValueInfoRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSync_GetDefaultValueInfoRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSync_GetDefaultValueInfoRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSync_GetDefaultValueInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpSync_GetDefaultValueInfoRequest()
+  nameWithType: ErpSync_GetDefaultValueInfoRequest.ErpSync_GetDefaultValueInfoRequest()
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetDefaultValueInfoRequest.ErpSync_GetDefaultValueInfoRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ErpSync_GetDefaultValueInfoRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSync_GetDefaultValueInfoRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSync_GetDefaultValueInfoRequest.ErpFieldId
+  commentId: P:SuperOffice.WebApi.Data.ErpSync_GetDefaultValueInfoRequest.ErpFieldId
+  id: ErpFieldId
+  parent: SuperOffice.WebApi.Data.ErpSync_GetDefaultValueInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: ErpFieldId
+  nameWithType: ErpSync_GetDefaultValueInfoRequest.ErpFieldId
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetDefaultValueInfoRequest.ErpFieldId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ErpFieldId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ErpFieldId As Integer
+  overload: SuperOffice.WebApi.Data.ErpSync_GetDefaultValueInfoRequest.ErpFieldId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSync_GetDefaultValueInfoRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_GetDefaultValueInfoRequest.#ctor
+  isExternal: true
+  name: ErpSync_GetDefaultValueInfoRequest
+  nameWithType: ErpSync_GetDefaultValueInfoRequest.ErpSync_GetDefaultValueInfoRequest
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetDefaultValueInfoRequest.ErpSync_GetDefaultValueInfoRequest
+- uid: SuperOffice.WebApi.Data.ErpSync_GetDefaultValueInfoRequest.ErpFieldId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSync_GetDefaultValueInfoRequest.ErpFieldId
+  isExternal: true
+  name: ErpFieldId
+  nameWithType: ErpSync_GetDefaultValueInfoRequest.ErpFieldId
+  fullName: SuperOffice.WebApi.Data.ErpSync_GetDefaultValueInfoRequest.ErpFieldId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

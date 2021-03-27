@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.IUdefFieldCarrier
+  commentId: T:SuperOffice.CRM.Services.IUdefFieldCarrier
+  id: IUdefFieldCarrier
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.IUdefFieldCarrier.UserDefinedFields
+  langs:
+  - csharp
+  - vb
+  name: IUdefFieldCarrier
+  nameWithType: IUdefFieldCarrier
+  fullName: SuperOffice.CRM.Services.IUdefFieldCarrier
+  type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInterface implemented by carriers having User Defined fields\n"
+  syntax:
+    content: public interface IUdefFieldCarrier
+    content.vb: Public Interface IUdefFieldCarrier
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Services.IUdefFieldCarrier.UserDefinedFields
+  commentId: P:SuperOffice.CRM.Services.IUdefFieldCarrier.UserDefinedFields
+  id: UserDefinedFields
+  parent: SuperOffice.CRM.Services.IUdefFieldCarrier
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFields
+  nameWithType: IUdefFieldCarrier.UserDefinedFields
+  fullName: SuperOffice.CRM.Services.IUdefFieldCarrier.UserDefinedFields
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDictionary of user defined field data.\nThe naming convention of the key string is as follows:\nThe key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format &quot;SuperOffice.[UdefFieldIdentity]&quot;;\nExample: SuperOffice.1234\n"
+  syntax:
+    content: StringDictionary UserDefinedFields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+    content.vb: Property UserDefinedFields As StringDictionary
+  overload: SuperOffice.CRM.Services.IUdefFieldCarrier.UserDefinedFields*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.IUdefFieldCarrier.UserDefinedFields*
+  commentId: Overload:SuperOffice.CRM.Services.IUdefFieldCarrier.UserDefinedFields
+  isExternal: true
+  name: UserDefinedFields
+  nameWithType: IUdefFieldCarrier.UserDefinedFields
+  fullName: SuperOffice.CRM.Services.IUdefFieldCarrier.UserDefinedFields
+- uid: SuperOffice.CRM.Services.StringDictionary
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.CRM.Services.StringDictionary

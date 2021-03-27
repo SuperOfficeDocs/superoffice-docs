@@ -1,0 +1,436 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Principal.IPostAuthenticationPlugin
+  commentId: T:SuperOffice.Security.Principal.IPostAuthenticationPlugin
+  id: IPostAuthenticationPlugin
+  parent: SuperOffice.Security.Principal
+  children:
+  - SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail(SuperOffice.Security.Principal.SoPrincipal,System.IdentityModel.Tokens.SecurityToken[],System.Collections.Generic.List{System.IdentityModel.Tokens.SecurityToken},System.Exception)
+  - SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess(SuperOffice.Security.Principal.SoPrincipal,System.IdentityModel.Tokens.SecurityToken[],System.Collections.Generic.List{System.IdentityModel.Tokens.SecurityToken})
+  langs:
+  - csharp
+  - vb
+  name: IPostAuthenticationPlugin
+  nameWithType: IPostAuthenticationPlugin
+  fullName: SuperOffice.Security.Principal.IPostAuthenticationPlugin
+  type: Interface
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: 'public interface IPostAuthenticationPlugin : IPlugin'
+    content.vb: >-
+      Public Interface IPostAuthenticationPlugin
+          Inherits IPlugin
+  extensionMethods:
+  - SuperOffice.Security.Principal.IPostAuthenticationPlugin.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Principal.IPostAuthenticationPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail(SuperOffice.Security.Principal.SoPrincipal,System.IdentityModel.Tokens.SecurityToken[],System.Collections.Generic.List{System.IdentityModel.Tokens.SecurityToken},System.Exception)
+  commentId: M:SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail(SuperOffice.Security.Principal.SoPrincipal,System.IdentityModel.Tokens.SecurityToken[],System.Collections.Generic.List{System.IdentityModel.Tokens.SecurityToken},System.Exception)
+  id: PostAuthenticateFail(SuperOffice.Security.Principal.SoPrincipal,System.IdentityModel.Tokens.SecurityToken[],System.Collections.Generic.List{System.IdentityModel.Tokens.SecurityToken},System.Exception)
+  parent: SuperOffice.Security.Principal.IPostAuthenticationPlugin
+  langs:
+  - csharp
+  - vb
+  name: PostAuthenticateFail(SoPrincipal, SecurityToken[], List<SecurityToken>, Exception)
+  nameWithType: IPostAuthenticationPlugin.PostAuthenticateFail(SoPrincipal, SecurityToken[], List<SecurityToken>, Exception)
+  fullName: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail(SuperOffice.Security.Principal.SoPrincipal, System.IdentityModel.Tokens.SecurityToken[], System.Collections.Generic.List<System.IdentityModel.Tokens.SecurityToken>, System.Exception)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nMethod called after authentication fails\n"
+  syntax:
+    content: bool PostAuthenticateFail(SoPrincipal principal, SecurityToken[] tokens, List<SecurityToken> resolvedTokens, Exception ex)
+    parameters:
+    - id: principal
+      type: SuperOffice.Security.Principal.SoPrincipal
+      description: Principal successfully authenticated
+    - id: tokens
+      type: System.IdentityModel.Tokens.SecurityToken[]
+      description: Tonkens as passed to teh auhenticate method
+    - id: resolvedTokens
+      type: System.Collections.Generic.List{System.IdentityModel.Tokens.SecurityToken}
+      description: Tokens as resolved and used for the authentication process
+    - id: ex
+      type: System.Exception
+      description: Exception thrown as part of the authentication process
+    return:
+      type: System.Boolean
+      description: Return true to continue passing the failed autjhentication back to the user or return false to re-authenticate.
+    content.vb: Function PostAuthenticateFail(principal As SoPrincipal, tokens As SecurityToken(), resolvedTokens As List(Of SecurityToken), ex As Exception) As Boolean
+  overload: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail*
+  nameWithType.vb: IPostAuthenticationPlugin.PostAuthenticateFail(SoPrincipal, SecurityToken(), List(Of SecurityToken), Exception)
+  fullName.vb: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail(SuperOffice.Security.Principal.SoPrincipal, System.IdentityModel.Tokens.SecurityToken(), System.Collections.Generic.List(Of System.IdentityModel.Tokens.SecurityToken), System.Exception)
+  name.vb: PostAuthenticateFail(SoPrincipal, SecurityToken(), List(Of SecurityToken), Exception)
+- uid: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess(SuperOffice.Security.Principal.SoPrincipal,System.IdentityModel.Tokens.SecurityToken[],System.Collections.Generic.List{System.IdentityModel.Tokens.SecurityToken})
+  commentId: M:SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess(SuperOffice.Security.Principal.SoPrincipal,System.IdentityModel.Tokens.SecurityToken[],System.Collections.Generic.List{System.IdentityModel.Tokens.SecurityToken})
+  id: PostAuthenticateSuccess(SuperOffice.Security.Principal.SoPrincipal,System.IdentityModel.Tokens.SecurityToken[],System.Collections.Generic.List{System.IdentityModel.Tokens.SecurityToken})
+  parent: SuperOffice.Security.Principal.IPostAuthenticationPlugin
+  langs:
+  - csharp
+  - vb
+  name: PostAuthenticateSuccess(SoPrincipal, SecurityToken[], List<SecurityToken>)
+  nameWithType: IPostAuthenticationPlugin.PostAuthenticateSuccess(SoPrincipal, SecurityToken[], List<SecurityToken>)
+  fullName: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess(SuperOffice.Security.Principal.SoPrincipal, System.IdentityModel.Tokens.SecurityToken[], System.Collections.Generic.List<System.IdentityModel.Tokens.SecurityToken>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: bool PostAuthenticateSuccess(SoPrincipal principal, SecurityToken[] tokens, List<SecurityToken> resolvedTokens)
+    parameters:
+    - id: principal
+      type: SuperOffice.Security.Principal.SoPrincipal
+    - id: tokens
+      type: System.IdentityModel.Tokens.SecurityToken[]
+    - id: resolvedTokens
+      type: System.Collections.Generic.List{System.IdentityModel.Tokens.SecurityToken}
+    return:
+      type: System.Boolean
+    content.vb: Function PostAuthenticateSuccess(principal As SoPrincipal, tokens As SecurityToken(), resolvedTokens As List(Of SecurityToken)) As Boolean
+  overload: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess*
+  nameWithType.vb: IPostAuthenticationPlugin.PostAuthenticateSuccess(SoPrincipal, SecurityToken(), List(Of SecurityToken))
+  fullName.vb: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess(SuperOffice.Security.Principal.SoPrincipal, System.IdentityModel.Tokens.SecurityToken(), System.Collections.Generic.List(Of System.IdentityModel.Tokens.SecurityToken))
+  name.vb: PostAuthenticateSuccess(SoPrincipal, SecurityToken(), List(Of SecurityToken))
+references:
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+- uid: SuperOffice.Security.Principal.IPostAuthenticationPlugin.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IPostAuthenticationPlugin, To>()
+  nameWithType: EnumUtil.MapEnums<IPostAuthenticationPlugin, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.IPostAuthenticationPlugin, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IPostAuthenticationPlugin, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.IPostAuthenticationPlugin, To)()
+  name.vb: MapEnums(Of IPostAuthenticationPlugin, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IPostAuthenticationPlugin, To>
+    nameWithType: EnumUtil.MapEnums<IPostAuthenticationPlugin, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.IPostAuthenticationPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IPostAuthenticationPlugin, To)
+    nameWithType: EnumUtil.MapEnums(Of IPostAuthenticationPlugin, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.IPostAuthenticationPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.IPostAuthenticationPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IPostAuthenticationPlugin, To>()
+  nameWithType: Converters.MapEnums<IPostAuthenticationPlugin, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.IPostAuthenticationPlugin, To>()
+  nameWithType.vb: Converters.MapEnums(Of IPostAuthenticationPlugin, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.IPostAuthenticationPlugin, To)()
+  name.vb: MapEnums(Of IPostAuthenticationPlugin, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IPostAuthenticationPlugin, To>
+    nameWithType: Converters.MapEnums<IPostAuthenticationPlugin, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.IPostAuthenticationPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IPostAuthenticationPlugin, To)
+    nameWithType: Converters.MapEnums(Of IPostAuthenticationPlugin, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.IPostAuthenticationPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail*
+  commentId: Overload:SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail
+  isExternal: true
+  name: PostAuthenticateFail
+  nameWithType: IPostAuthenticationPlugin.PostAuthenticateFail
+  fullName: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateFail
+- uid: SuperOffice.Security.Principal.SoPrincipal
+  commentId: T:SuperOffice.Security.Principal.SoPrincipal
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: SoPrincipal
+  nameWithType: SoPrincipal
+  fullName: SuperOffice.Security.Principal.SoPrincipal
+- uid: System.IdentityModel.Tokens.SecurityToken[]
+  isExternal: true
+  name: SecurityToken[]
+  nameWithType: SecurityToken[]
+  fullName: System.IdentityModel.Tokens.SecurityToken[]
+  nameWithType.vb: SecurityToken()
+  fullName.vb: System.IdentityModel.Tokens.SecurityToken()
+  name.vb: SecurityToken()
+  spec.csharp:
+  - uid: System.IdentityModel.Tokens.SecurityToken
+    name: SecurityToken
+    nameWithType: SecurityToken
+    fullName: System.IdentityModel.Tokens.SecurityToken
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.IdentityModel.Tokens.SecurityToken
+    name: SecurityToken
+    nameWithType: SecurityToken
+    fullName: System.IdentityModel.Tokens.SecurityToken
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Collections.Generic.List{System.IdentityModel.Tokens.SecurityToken}
+  commentId: T:System.Collections.Generic.List{System.IdentityModel.Tokens.SecurityToken}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<SecurityToken>
+  nameWithType: List<SecurityToken>
+  fullName: System.Collections.Generic.List<System.IdentityModel.Tokens.SecurityToken>
+  nameWithType.vb: List(Of SecurityToken)
+  fullName.vb: System.Collections.Generic.List(Of System.IdentityModel.Tokens.SecurityToken)
+  name.vb: List(Of SecurityToken)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.IdentityModel.Tokens.SecurityToken
+    name: SecurityToken
+    nameWithType: SecurityToken
+    fullName: System.IdentityModel.Tokens.SecurityToken
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.IdentityModel.Tokens.SecurityToken
+    name: SecurityToken
+    nameWithType: SecurityToken
+    fullName: System.IdentityModel.Tokens.SecurityToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess*
+  commentId: Overload:SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess
+  isExternal: true
+  name: PostAuthenticateSuccess
+  nameWithType: IPostAuthenticationPlugin.PostAuthenticateSuccess
+  fullName: SuperOffice.Security.Principal.IPostAuthenticationPlugin.PostAuthenticateSuccess

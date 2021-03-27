@@ -1,0 +1,357 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Controls.SoAddress
+  commentId: T:SuperOffice.Web.UI.Controls.SoAddress
+  id: SoAddress
+  parent: SuperOffice.Web.UI.Controls
+  children:
+  - SuperOffice.Web.UI.Controls.SoAddress.#ctor
+  - SuperOffice.Web.UI.Controls.SoAddress.DataBind
+  - SuperOffice.Web.UI.Controls.SoAddress.DataSource
+  - SuperOffice.Web.UI.Controls.SoAddress.OnLoad(System.EventArgs)
+  - SuperOffice.Web.UI.Controls.SoAddress.Render(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoAddress.UpdateChanges
+  langs:
+  - csharp
+  - vb
+  name: SoAddress
+  nameWithType: SoAddress
+  fullName: SuperOffice.Web.UI.Controls.SoAddress
+  type: Class
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: 'public class SoAddress : SoEditControl, INamingContainer'
+    content.vb: >-
+      Public Class SoAddress
+          Inherits SoEditControl
+          Implements INamingContainer
+  inheritance:
+  - System.Object
+  - SuperOffice.Web.UI.Controls.SoControl
+  - SuperOffice.Web.UI.Controls.SoEditControl
+  implements:
+  - System.Web.UI.INamingContainer
+  inheritedMembers:
+  - SuperOffice.Web.UI.Controls.SoEditControl.EditMode
+  - SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+  - SuperOffice.Web.UI.Controls.SoControl.ImagePath
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.UI.Controls.SoAddress.#ctor
+  commentId: M:SuperOffice.Web.UI.Controls.SoAddress.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.UI.Controls.SoAddress
+  langs:
+  - csharp
+  - vb
+  name: SoAddress()
+  nameWithType: SoAddress.SoAddress()
+  fullName: SuperOffice.Web.UI.Controls.SoAddress.SoAddress()
+  type: Constructor
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public SoAddress()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.UI.Controls.SoAddress.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoAddress.DataBind
+  commentId: M:SuperOffice.Web.UI.Controls.SoAddress.DataBind
+  id: DataBind
+  parent: SuperOffice.Web.UI.Controls.SoAddress
+  langs:
+  - csharp
+  - vb
+  name: DataBind()
+  nameWithType: SoAddress.DataBind()
+  fullName: SuperOffice.Web.UI.Controls.SoAddress.DataBind()
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public override void DataBind()
+    content.vb: Public Overrides Sub DataBind
+  overload: SuperOffice.Web.UI.Controls.SoAddress.DataBind*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Web.UI.Controls.SoAddress.OnLoad(System.EventArgs)
+  commentId: M:SuperOffice.Web.UI.Controls.SoAddress.OnLoad(System.EventArgs)
+  id: OnLoad(System.EventArgs)
+  parent: SuperOffice.Web.UI.Controls.SoAddress
+  langs:
+  - csharp
+  - vb
+  name: OnLoad(EventArgs)
+  nameWithType: SoAddress.OnLoad(EventArgs)
+  fullName: SuperOffice.Web.UI.Controls.SoAddress.OnLoad(System.EventArgs)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected override void OnLoad(EventArgs e)
+    parameters:
+    - id: e
+      type: System.EventArgs
+    content.vb: Protected Overrides Sub OnLoad(e As EventArgs)
+  overload: SuperOffice.Web.UI.Controls.SoAddress.OnLoad*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.Web.UI.Controls.SoAddress.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoAddress.Render(System.Web.UI.HtmlTextWriter)
+  id: Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoAddress
+  langs:
+  - csharp
+  - vb
+  name: Render(HtmlTextWriter)
+  nameWithType: SoAddress.Render(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoAddress.Render(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected override void Render(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overrides Sub Render(writer As HtmlTextWriter)
+  overload: SuperOffice.Web.UI.Controls.SoAddress.Render*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.Web.UI.Controls.SoAddress.UpdateChanges
+  commentId: M:SuperOffice.Web.UI.Controls.SoAddress.UpdateChanges
+  id: UpdateChanges
+  parent: SuperOffice.Web.UI.Controls.SoAddress
+  langs:
+  - csharp
+  - vb
+  name: UpdateChanges()
+  nameWithType: SoAddress.UpdateChanges()
+  fullName: SuperOffice.Web.UI.Controls.SoAddress.UpdateChanges()
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public void UpdateChanges()
+    content.vb: Public Sub UpdateChanges
+  overload: SuperOffice.Web.UI.Controls.SoAddress.UpdateChanges*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoAddress.DataSource
+  commentId: P:SuperOffice.Web.UI.Controls.SoAddress.DataSource
+  id: DataSource
+  parent: SuperOffice.Web.UI.Controls.SoAddress
+  langs:
+  - csharp
+  - vb
+  name: DataSource
+  nameWithType: SoAddress.DataSource
+  fullName: SuperOffice.Web.UI.Controls.SoAddress.DataSource
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual LocalizedField[][] DataSource { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.LocalizedField[][]
+    content.vb: Public Overridable Property DataSource As LocalizedField()()
+  overload: SuperOffice.Web.UI.Controls.SoAddress.DataSource*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.Web.UI.Controls
+  commentId: N:SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.Web.UI.Controls
+  nameWithType: SuperOffice.Web.UI.Controls
+  fullName: SuperOffice.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Web.UI.Controls.SoControl
+  commentId: T:SuperOffice.Web.UI.Controls.SoControl
+  parent: SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SoControl
+  nameWithType: SoControl
+  fullName: SuperOffice.Web.UI.Controls.SoControl
+- uid: SuperOffice.Web.UI.Controls.SoEditControl
+  commentId: T:SuperOffice.Web.UI.Controls.SoEditControl
+  parent: SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SoEditControl
+  nameWithType: SoEditControl
+  fullName: SuperOffice.Web.UI.Controls.SoEditControl
+- uid: System.Web.UI.INamingContainer
+  isExternal: true
+  name: INamingContainer
+  nameWithType: INamingContainer
+  fullName: System.Web.UI.INamingContainer
+- uid: SuperOffice.Web.UI.Controls.SoEditControl.EditMode
+  commentId: P:SuperOffice.Web.UI.Controls.SoEditControl.EditMode
+  parent: SuperOffice.Web.UI.Controls.SoEditControl
+  isExternal: true
+  name: EditMode
+  nameWithType: SoEditControl.EditMode
+  fullName: SuperOffice.Web.UI.Controls.SoEditControl.EditMode
+- uid: SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+  commentId: P:SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+  parent: SuperOffice.Web.UI.Controls.SoControl
+  isExternal: true
+  name: ApplicationPath
+  nameWithType: SoControl.ApplicationPath
+  fullName: SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+- uid: SuperOffice.Web.UI.Controls.SoControl.ImagePath
+  commentId: P:SuperOffice.Web.UI.Controls.SoControl.ImagePath
+  parent: SuperOffice.Web.UI.Controls.SoControl
+  isExternal: true
+  name: ImagePath
+  nameWithType: SoControl.ImagePath
+  fullName: SuperOffice.Web.UI.Controls.SoControl.ImagePath
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.UI.Controls.SoAddress.#ctor*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoAddress.#ctor
+  isExternal: true
+  name: SoAddress
+  nameWithType: SoAddress.SoAddress
+  fullName: SuperOffice.Web.UI.Controls.SoAddress.SoAddress
+- uid: SuperOffice.Web.UI.Controls.SoAddress.DataBind*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoAddress.DataBind
+  isExternal: true
+  name: DataBind
+  nameWithType: SoAddress.DataBind
+  fullName: SuperOffice.Web.UI.Controls.SoAddress.DataBind
+- uid: SuperOffice.Web.UI.Controls.SoAddress.OnLoad*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoAddress.OnLoad
+  isExternal: true
+  name: OnLoad
+  nameWithType: SoAddress.OnLoad
+  fullName: SuperOffice.Web.UI.Controls.SoAddress.OnLoad
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: SuperOffice.Web.UI.Controls.SoAddress.Render*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoAddress.Render
+  isExternal: true
+  name: Render
+  nameWithType: SoAddress.Render
+  fullName: SuperOffice.Web.UI.Controls.SoAddress.Render
+- uid: System.Web.UI.HtmlTextWriter
+  isExternal: true
+  name: HtmlTextWriter
+  nameWithType: HtmlTextWriter
+  fullName: System.Web.UI.HtmlTextWriter
+- uid: SuperOffice.Web.UI.Controls.SoAddress.UpdateChanges*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoAddress.UpdateChanges
+  isExternal: true
+  name: UpdateChanges
+  nameWithType: SoAddress.UpdateChanges
+  fullName: SuperOffice.Web.UI.Controls.SoAddress.UpdateChanges
+- uid: SuperOffice.Web.UI.Controls.SoAddress.DataSource*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoAddress.DataSource
+  isExternal: true
+  name: DataSource
+  nameWithType: SoAddress.DataSource
+  fullName: SuperOffice.Web.UI.Controls.SoAddress.DataSource
+- uid: SuperOffice.CRM.Services.LocalizedField[][]
+  isExternal: true
+  name: LocalizedField[][]
+  nameWithType: LocalizedField[][]
+  fullName: SuperOffice.CRM.Services.LocalizedField[][]
+  nameWithType.vb: LocalizedField()()
+  fullName.vb: SuperOffice.CRM.Services.LocalizedField()()
+  name.vb: LocalizedField()()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.LocalizedField
+    name: LocalizedField
+    nameWithType: LocalizedField
+    fullName: SuperOffice.CRM.Services.LocalizedField
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.LocalizedField
+    name: LocalizedField
+    nameWithType: LocalizedField
+    fullName: SuperOffice.CRM.Services.LocalizedField
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ()
+    nameWithType: ()
+    fullName: ()

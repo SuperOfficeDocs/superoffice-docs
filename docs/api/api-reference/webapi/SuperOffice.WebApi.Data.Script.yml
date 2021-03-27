@@ -1,0 +1,552 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Script
+  commentId: T:SuperOffice.WebApi.Data.Script
+  id: Script
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Script.#ctor
+  - SuperOffice.WebApi.Data.Script.Description
+  - SuperOffice.WebApi.Data.Script.IncludeId
+  - SuperOffice.WebApi.Data.Script.Name
+  - SuperOffice.WebApi.Data.Script.Path
+  - SuperOffice.WebApi.Data.Script.Registered
+  - SuperOffice.WebApi.Data.Script.RegisteredBy
+  - SuperOffice.WebApi.Data.Script.Source
+  - SuperOffice.WebApi.Data.Script.UniqueIdentifier
+  - SuperOffice.WebApi.Data.Script.Updated
+  - SuperOffice.WebApi.Data.Script.UpdatedBy
+  langs:
+  - csharp
+  - vb
+  name: Script
+  nameWithType: Script
+  fullName: SuperOffice.WebApi.Data.Script
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for Script.\nThe Script Service. The service implements all services working with the CRMScript object.    \n"
+  remarks: >
+    Use <xref href="SuperOffice.CRM.Services.ArchiveAgent" data-throw-if-not-resolved="false"></xref>:
+
+    All Script: <pre><code>&quot;CRMScripts&quot;</code></pre>
+  example:
+  - "\nGet Script 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new CRMScriptAgent(configuration);\nvar script = agent.GetScript( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class Script : Carrier'
+    content.vb: >-
+      Public Class Script
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.CRMScriptAgent
+    commentId: T:SuperOffice.WebApi.Agents.CRMScriptAgent
+  - linkId: SuperOffice.WebApi.Agents.ArchiveAgent
+    commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  - linkId: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+    commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Script.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Script.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Script
+  langs:
+  - csharp
+  - vb
+  name: Script()
+  nameWithType: Script.Script()
+  fullName: SuperOffice.WebApi.Data.Script.Script()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public Script()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Script.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Script.UniqueIdentifier
+  commentId: P:SuperOffice.WebApi.Data.Script.UniqueIdentifier
+  id: UniqueIdentifier
+  parent: SuperOffice.WebApi.Data.Script
+  langs:
+  - csharp
+  - vb
+  name: UniqueIdentifier
+  nameWithType: Script.UniqueIdentifier
+  fullName: SuperOffice.WebApi.Data.Script.UniqueIdentifier
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGlobal unique identifier, accross customers/tenants\n"
+  syntax:
+    content: public virtual string UniqueIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property UniqueIdentifier As String
+  overload: SuperOffice.WebApi.Data.Script.UniqueIdentifier*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Script.Name
+  commentId: P:SuperOffice.WebApi.Data.Script.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.Script
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Script.Name
+  fullName: SuperOffice.WebApi.Data.Script.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA description of this script\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.Script.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Script.Description
+  commentId: P:SuperOffice.WebApi.Data.Script.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.Script
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: Script.Description
+  fullName: SuperOffice.WebApi.Data.Script.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOptional description of what this script is used for.\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.Script.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Script.IncludeId
+  commentId: P:SuperOffice.WebApi.Data.Script.IncludeId
+  id: IncludeId
+  parent: SuperOffice.WebApi.Data.Script
+  langs:
+  - csharp
+  - vb
+  name: IncludeId
+  nameWithType: Script.IncludeId
+  fullName: SuperOffice.WebApi.Data.Script.IncludeId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA unique name used for including this script in another\n"
+  syntax:
+    content: public virtual string IncludeId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property IncludeId As String
+  overload: SuperOffice.WebApi.Data.Script.IncludeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Script.Source
+  commentId: P:SuperOffice.WebApi.Data.Script.Source
+  id: Source
+  parent: SuperOffice.WebApi.Data.Script
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: Script.Source
+  fullName: SuperOffice.WebApi.Data.Script.Source
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe script\n"
+  syntax:
+    content: public virtual string Source { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Source As String
+  overload: SuperOffice.WebApi.Data.Script.Source*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Script.Registered
+  commentId: P:SuperOffice.WebApi.Data.Script.Registered
+  id: Registered
+  parent: SuperOffice.WebApi.Data.Script
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: Script.Registered
+  fullName: SuperOffice.WebApi.Data.Script.Registered
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRegistered when\n"
+  syntax:
+    content: public virtual DateTime Registered { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Registered As DateTime
+  overload: SuperOffice.WebApi.Data.Script.Registered*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Script.RegisteredBy
+  commentId: P:SuperOffice.WebApi.Data.Script.RegisteredBy
+  id: RegisteredBy
+  parent: SuperOffice.WebApi.Data.Script
+  langs:
+  - csharp
+  - vb
+  name: RegisteredBy
+  nameWithType: Script.RegisteredBy
+  fullName: SuperOffice.WebApi.Data.Script.RegisteredBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWho created this script\n"
+  syntax:
+    content: public virtual string RegisteredBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RegisteredBy As String
+  overload: SuperOffice.WebApi.Data.Script.RegisteredBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Script.Updated
+  commentId: P:SuperOffice.WebApi.Data.Script.Updated
+  id: Updated
+  parent: SuperOffice.WebApi.Data.Script
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: Script.Updated
+  fullName: SuperOffice.WebApi.Data.Script.Updated
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast updated when\n"
+  syntax:
+    content: public virtual DateTime Updated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Updated As DateTime
+  overload: SuperOffice.WebApi.Data.Script.Updated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Script.UpdatedBy
+  commentId: P:SuperOffice.WebApi.Data.Script.UpdatedBy
+  id: UpdatedBy
+  parent: SuperOffice.WebApi.Data.Script
+  langs:
+  - csharp
+  - vb
+  name: UpdatedBy
+  nameWithType: Script.UpdatedBy
+  fullName: SuperOffice.WebApi.Data.Script.UpdatedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWho updated this script\n"
+  syntax:
+    content: public virtual string UpdatedBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property UpdatedBy As String
+  overload: SuperOffice.WebApi.Data.Script.UpdatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Script.Path
+  commentId: P:SuperOffice.WebApi.Data.Script.Path
+  id: Path
+  parent: SuperOffice.WebApi.Data.Script
+  langs:
+  - csharp
+  - vb
+  name: Path
+  nameWithType: Script.Path
+  fullName: SuperOffice.WebApi.Data.Script.Path
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPath to script in the hierarchy.\n"
+  syntax:
+    content: public virtual string Path { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Path As String
+  overload: SuperOffice.WebApi.Data.Script.Path*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.CRMScriptAgent
+  commentId: T:SuperOffice.WebApi.Agents.CRMScriptAgent
+  isExternal: true
+  name: CRMScriptAgent
+  nameWithType: CRMScriptAgent
+  fullName: SuperOffice.WebApi.Agents.CRMScriptAgent
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+- uid: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  isExternal: true
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Script.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Script.#ctor
+  isExternal: true
+  name: Script
+  nameWithType: Script.Script
+  fullName: SuperOffice.WebApi.Data.Script.Script
+- uid: SuperOffice.WebApi.Data.Script.UniqueIdentifier*
+  commentId: Overload:SuperOffice.WebApi.Data.Script.UniqueIdentifier
+  isExternal: true
+  name: UniqueIdentifier
+  nameWithType: Script.UniqueIdentifier
+  fullName: SuperOffice.WebApi.Data.Script.UniqueIdentifier
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Script.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.Script.Name
+  isExternal: true
+  name: Name
+  nameWithType: Script.Name
+  fullName: SuperOffice.WebApi.Data.Script.Name
+- uid: SuperOffice.WebApi.Data.Script.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.Script.Description
+  isExternal: true
+  name: Description
+  nameWithType: Script.Description
+  fullName: SuperOffice.WebApi.Data.Script.Description
+- uid: SuperOffice.WebApi.Data.Script.IncludeId*
+  commentId: Overload:SuperOffice.WebApi.Data.Script.IncludeId
+  isExternal: true
+  name: IncludeId
+  nameWithType: Script.IncludeId
+  fullName: SuperOffice.WebApi.Data.Script.IncludeId
+- uid: SuperOffice.WebApi.Data.Script.Source*
+  commentId: Overload:SuperOffice.WebApi.Data.Script.Source
+  isExternal: true
+  name: Source
+  nameWithType: Script.Source
+  fullName: SuperOffice.WebApi.Data.Script.Source
+- uid: SuperOffice.WebApi.Data.Script.Registered*
+  commentId: Overload:SuperOffice.WebApi.Data.Script.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: Script.Registered
+  fullName: SuperOffice.WebApi.Data.Script.Registered
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.Script.RegisteredBy*
+  commentId: Overload:SuperOffice.WebApi.Data.Script.RegisteredBy
+  isExternal: true
+  name: RegisteredBy
+  nameWithType: Script.RegisteredBy
+  fullName: SuperOffice.WebApi.Data.Script.RegisteredBy
+- uid: SuperOffice.WebApi.Data.Script.Updated*
+  commentId: Overload:SuperOffice.WebApi.Data.Script.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: Script.Updated
+  fullName: SuperOffice.WebApi.Data.Script.Updated
+- uid: SuperOffice.WebApi.Data.Script.UpdatedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.Script.UpdatedBy
+  isExternal: true
+  name: UpdatedBy
+  nameWithType: Script.UpdatedBy
+  fullName: SuperOffice.WebApi.Data.Script.UpdatedBy
+- uid: SuperOffice.WebApi.Data.Script.Path*
+  commentId: Overload:SuperOffice.WebApi.Data.Script.Path
+  isExternal: true
+  name: Path
+  nameWithType: Script.Path
+  fullName: SuperOffice.WebApi.Data.Script.Path

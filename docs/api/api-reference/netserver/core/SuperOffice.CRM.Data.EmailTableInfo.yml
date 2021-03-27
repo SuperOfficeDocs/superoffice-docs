@@ -1,0 +1,2575 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.EmailTableInfo
+  commentId: T:SuperOffice.CRM.Data.EmailTableInfo
+  id: EmailTableInfo
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.EmailTableInfo.AppointmentId
+  - SuperOffice.CRM.Data.EmailTableInfo.AppointmentId_InnerJoin_Appointment
+  - SuperOffice.CRM.Data.EmailTableInfo.BounceCount
+  - SuperOffice.CRM.Data.EmailTableInfo.ContactId
+  - SuperOffice.CRM.Data.EmailTableInfo.ContactId_InnerJoin_Contact
+  - SuperOffice.CRM.Data.EmailTableInfo.DbiAgentId
+  - SuperOffice.CRM.Data.EmailTableInfo.DbiAgentId_InnerJoin_DbiAgent
+  - SuperOffice.CRM.Data.EmailTableInfo.Definition
+  - SuperOffice.CRM.Data.EmailTableInfo.Description
+  - SuperOffice.CRM.Data.EmailTableInfo.DictionaryTableName
+  - SuperOffice.CRM.Data.EmailTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.EmailTableInfo.EmailAddress
+  - SuperOffice.CRM.Data.EmailTableInfo.EmailId
+  - SuperOffice.CRM.Data.EmailTableInfo.LastBounce
+  - SuperOffice.CRM.Data.EmailTableInfo.LastSent
+  - SuperOffice.CRM.Data.EmailTableInfo.LeftOuterJoin_Appointment_EmailId
+  - SuperOffice.CRM.Data.EmailTableInfo.PersonId
+  - SuperOffice.CRM.Data.EmailTableInfo.PersonId_InnerJoin_Person
+  - SuperOffice.CRM.Data.EmailTableInfo.ProjectId
+  - SuperOffice.CRM.Data.EmailTableInfo.ProjectId_InnerJoin_Project
+  - SuperOffice.CRM.Data.EmailTableInfo.Protocol
+  - SuperOffice.CRM.Data.EmailTableInfo.Rank
+  - SuperOffice.CRM.Data.EmailTableInfo.Registered
+  - SuperOffice.CRM.Data.EmailTableInfo.RegisteredAssociateId
+  - SuperOffice.CRM.Data.EmailTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.EmailTableInfo.ReservedId1
+  - SuperOffice.CRM.Data.EmailTableInfo.ReservedId2
+  - SuperOffice.CRM.Data.EmailTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.EmailTableInfo.Type
+  - SuperOffice.CRM.Data.EmailTableInfo.Updated
+  - SuperOffice.CRM.Data.EmailTableInfo.UpdatedAssociateId
+  - SuperOffice.CRM.Data.EmailTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.EmailTableInfo.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: EmailTableInfo
+  nameWithType: EmailTableInfo
+  fullName: SuperOffice.CRM.Data.EmailTableInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable &apos;Email&apos;: Email addresses for contacts, projects and persons\n"
+  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetEmailInfo()\"></see>.\n"
+  syntax:
+    content: >-
+      [DatabaseTable("Email")]
+
+      public class EmailTableInfo : TableInfo, ICloneable
+    content.vb: >-
+      <DatabaseTable("Email")>
+
+      Public Class EmailTableInfo
+          Inherits TableInfo
+          Implements ICloneable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.SQL.TableInfo
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - SuperOffice.Data.SQL.TableInfo.ToString
+  - SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  - SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  - SuperOffice.Data.SQL.TableInfo.Clone
+  - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  - SuperOffice.Data.SQL.TableInfo.ProtAll
+  - SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  - SuperOffice.Data.SQL.TableInfo.TableName
+  - SuperOffice.Data.SQL.TableInfo.DbName
+  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  - SuperOffice.Data.SQL.TableInfo.All
+  - SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Data.EmailTableInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Data.EmailTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.SQL.DatabaseTableAttribute
+    ctor: SuperOffice.Data.SQL.DatabaseTableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Email
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Data.EmailTableInfo.DictionaryTableName
+  commentId: F:SuperOffice.CRM.Data.EmailTableInfo.DictionaryTableName
+  id: DictionaryTableName
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableName
+  nameWithType: EmailTableInfo.DictionaryTableName
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.DictionaryTableName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConceptual name of table Email in the database dictionary: Email\n"
+  syntax:
+    content: public const string DictionaryTableName = "Email"
+    return:
+      type: System.String
+    content.vb: Public Const DictionaryTableName As String = "Email"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.EmailTableInfo.DictionaryTableNumber
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.DictionaryTableNumber
+  id: DictionaryTableNumber
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableNumber
+  nameWithType: EmailTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.DictionaryTableNumber
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable number for table Email in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
+  syntax:
+    content: public int DictionaryTableNumber { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
+  overload: SuperOffice.CRM.Data.EmailTableInfo.DictionaryTableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.RuntimeDefinition
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.RuntimeDefinition
+  id: RuntimeDefinition
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RuntimeDefinition
+  nameWithType: EmailTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.RuntimeDefinition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: >-
+      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
+
+      public static SoTable RuntimeDefinition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: >-
+      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
+
+      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+  overload: SuperOffice.CRM.Data.EmailTableInfo.RuntimeDefinition*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use instance property Definition or static member DictionaryTableNumber
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.Definition
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.Definition
+  id: Definition
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: EmailTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.Definition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: public override SoTable Definition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: Public Overrides ReadOnly Property Definition As SoTable
+  overridden: SuperOffice.Data.SQL.TableInfo.Definition
+  overload: SuperOffice.CRM.Data.EmailTableInfo.Definition*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.EmailId
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.EmailId
+  id: EmailId
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: EmailId
+  nameWithType: EmailTableInfo.EmailId
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.EmailId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;email_id&apos; in table &apos;Email&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrimary key\n"
+  syntax:
+    content: public Int32FieldInfo EmailId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property EmailId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.EmailTableInfo.EmailId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.ContactId
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: EmailTableInfo.ContactId
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.ContactId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;contact_id&apos; in table &apos;Email&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRelations to possible owners\n"
+  syntax:
+    content: public Int32FieldInfo ContactId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property ContactId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.EmailTableInfo.ContactId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.PersonId
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: EmailTableInfo.PersonId
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.PersonId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;person_id&apos; in table &apos;Email&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRelations to possible owners\n"
+  syntax:
+    content: public Int32FieldInfo PersonId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property PersonId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.EmailTableInfo.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.ProjectId
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: EmailTableInfo.ProjectId
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.ProjectId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;project_id&apos; in table &apos;Email&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRelations to possible owners\n"
+  syntax:
+    content: public Int32FieldInfo ProjectId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property ProjectId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.EmailTableInfo.ProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.ReservedId1
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.ReservedId1
+  id: ReservedId1
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ReservedId1
+  nameWithType: EmailTableInfo.ReservedId1
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.ReservedId1
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;reserved_id1&apos; in table &apos;Email&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nReserved for potential future owners\n"
+  syntax:
+    content: public Int32FieldInfo ReservedId1 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property ReservedId1 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.EmailTableInfo.ReservedId1*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.ReservedId2
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.ReservedId2
+  id: ReservedId2
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ReservedId2
+  nameWithType: EmailTableInfo.ReservedId2
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.ReservedId2
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;reserved_id2&apos; in table &apos;Email&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nReserved for potential future owners\n"
+  syntax:
+    content: public Int32FieldInfo ReservedId2 { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property ReservedId2 As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.EmailTableInfo.ReservedId2*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.Protocol
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.Protocol
+  id: Protocol
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Protocol
+  nameWithType: EmailTableInfo.Protocol
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.Protocol
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;protocol&apos; in table &apos;Email&apos;: Dictionary type String[12], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSMTP, MSN, Skype, etc\n"
+  syntax:
+    content: public StringFieldInfo Protocol { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Protocol As StringFieldInfo
+  overload: SuperOffice.CRM.Data.EmailTableInfo.Protocol*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.Type
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.Type
+  id: Type
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: EmailTableInfo.Type
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.Type
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;type&apos; in table &apos;Email&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.EmailType\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n0 = email, 1 = chat/instant msg, 2 = voip; see protocol field for more info\n"
+  syntax:
+    content: public EmailTypeFieldInfo Type { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.EmailTypeFieldInfo
+    content.vb: Public ReadOnly Property Type As EmailTypeFieldInfo
+  overload: SuperOffice.CRM.Data.EmailTableInfo.Type*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.Description
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: EmailTableInfo.Description
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.Description
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;description&apos; in table &apos;Email&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nVisible field\n"
+  syntax:
+    content: public StringFieldInfo Description { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Description As StringFieldInfo
+  overload: SuperOffice.CRM.Data.EmailTableInfo.Description*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.EmailAddress
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.EmailAddress
+  id: EmailAddress
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: EmailTableInfo.EmailAddress
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.EmailAddress
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;email_address&apos; in table &apos;Email&apos;: Dictionary type String[240], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe address itself\n"
+  syntax:
+    content: public StringFieldInfo EmailAddress { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property EmailAddress As StringFieldInfo
+  overload: SuperOffice.CRM.Data.EmailTableInfo.EmailAddress*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.Rank
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: EmailTableInfo.Rank
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.Rank
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;rank&apos; in table &apos;Email&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRank order in lists\n"
+  syntax:
+    content: public UInt16FieldInfo Rank { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property Rank As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.EmailTableInfo.Rank*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.Registered
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: EmailTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.Registered
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;registered&apos; in table &apos;Email&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered when\n"
+  syntax:
+    content: public DateTimeFieldInfo Registered { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Registered As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.EmailTableInfo.Registered*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: EmailTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.RegisteredAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;registered_associate_id&apos; in table &apos;Email&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
+  syntax:
+    content: public Int32FieldInfo RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property RegisteredAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.EmailTableInfo.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.Updated
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: EmailTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.Updated
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updated&apos; in table &apos;Email&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated when\n"
+  syntax:
+    content: public DateTimeFieldInfo Updated { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Updated As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.EmailTableInfo.Updated*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: EmailTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.UpdatedAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updated_associate_id&apos; in table &apos;Email&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
+  syntax:
+    content: public Int32FieldInfo UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property UpdatedAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.EmailTableInfo.UpdatedAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.UpdatedCount
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: EmailTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.UpdatedCount
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updatedCount&apos; in table &apos;Email&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of updates made to this record\n"
+  syntax:
+    content: public UInt16FieldInfo UpdatedCount { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.EmailTableInfo.UpdatedCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.BounceCount
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.BounceCount
+  id: BounceCount
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: BounceCount
+  nameWithType: EmailTableInfo.BounceCount
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.BounceCount
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;bounceCount&apos; in table &apos;Email&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of bounces detected\n"
+  syntax:
+    content: public UInt16FieldInfo BounceCount { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property BounceCount As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.EmailTableInfo.BounceCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.LastBounce
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.LastBounce
+  id: LastBounce
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LastBounce
+  nameWithType: EmailTableInfo.LastBounce
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.LastBounce
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;lastBounce&apos; in table &apos;Email&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWhen did last bounce happen\n"
+  syntax:
+    content: public DateTimeFieldInfo LastBounce { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property LastBounce As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.EmailTableInfo.LastBounce*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.LastSent
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.LastSent
+  id: LastSent
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LastSent
+  nameWithType: EmailTableInfo.LastSent
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.LastSent
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;lastSent&apos; in table &apos;Email&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast transmission (regardless of success/bounce)\n"
+  syntax:
+    content: public DateTimeFieldInfo LastSent { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property LastSent As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.EmailTableInfo.LastSent*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.DbiAgentId
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.DbiAgentId
+  id: DbiAgentId
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DbiAgentId
+  nameWithType: EmailTableInfo.DbiAgentId
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.DbiAgentId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;dbi_agent_id&apos; in table &apos;Email&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIntegration agent (eJournal)\n"
+  syntax:
+    content: public Int32FieldInfo DbiAgentId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property DbiAgentId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.EmailTableInfo.DbiAgentId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.AppointmentId
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: EmailTableInfo.AppointmentId
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.AppointmentId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;appointment_id&apos; in table &apos;Email&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe id of the invitation appointment record, used when unknown person is associated with an appointment invitation\n"
+  syntax:
+    content: public Int32FieldInfo AppointmentId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property AppointmentId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.EmailTableInfo.AppointmentId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.ContactId_InnerJoin_Contact
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.ContactId_InnerJoin_Contact
+  id: ContactId_InnerJoin_Contact
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ContactId_InnerJoin_Contact
+  nameWithType: EmailTableInfo.ContactId_InnerJoin_Contact
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.ContactId_InnerJoin_Contact
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key ContactId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.ContactTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<ContactTableInfo> ContactId_InnerJoin_Contact { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ContactTableInfo}
+    content.vb: Public ReadOnly Property ContactId_InnerJoin_Contact As TargetedInnerJoin(Of ContactTableInfo)
+  overload: SuperOffice.CRM.Data.EmailTableInfo.ContactId_InnerJoin_Contact*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.PersonId_InnerJoin_Person
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.PersonId_InnerJoin_Person
+  id: PersonId_InnerJoin_Person
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: PersonId_InnerJoin_Person
+  nameWithType: EmailTableInfo.PersonId_InnerJoin_Person
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.PersonId_InnerJoin_Person
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key PersonId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.PersonTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<PersonTableInfo> PersonId_InnerJoin_Person { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.PersonTableInfo}
+    content.vb: Public ReadOnly Property PersonId_InnerJoin_Person As TargetedInnerJoin(Of PersonTableInfo)
+  overload: SuperOffice.CRM.Data.EmailTableInfo.PersonId_InnerJoin_Person*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.ProjectId_InnerJoin_Project
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.ProjectId_InnerJoin_Project
+  id: ProjectId_InnerJoin_Project
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ProjectId_InnerJoin_Project
+  nameWithType: EmailTableInfo.ProjectId_InnerJoin_Project
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.ProjectId_InnerJoin_Project
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key ProjectId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.ProjectTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<ProjectTableInfo> ProjectId_InnerJoin_Project { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ProjectTableInfo}
+    content.vb: Public ReadOnly Property ProjectId_InnerJoin_Project As TargetedInnerJoin(Of ProjectTableInfo)
+  overload: SuperOffice.CRM.Data.EmailTableInfo.ProjectId_InnerJoin_Project*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  id: RegisteredAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: EmailTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> RegisteredAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property RegisteredAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.EmailTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  id: UpdatedAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: EmailTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> UpdatedAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property UpdatedAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.EmailTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.DbiAgentId_InnerJoin_DbiAgent
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.DbiAgentId_InnerJoin_DbiAgent
+  id: DbiAgentId_InnerJoin_DbiAgent
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DbiAgentId_InnerJoin_DbiAgent
+  nameWithType: EmailTableInfo.DbiAgentId_InnerJoin_DbiAgent
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.DbiAgentId_InnerJoin_DbiAgent
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key DbiAgentId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.DbiAgentTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<DbiAgentTableInfo> DbiAgentId_InnerJoin_DbiAgent { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.DbiAgentTableInfo}
+    content.vb: Public ReadOnly Property DbiAgentId_InnerJoin_DbiAgent As TargetedInnerJoin(Of DbiAgentTableInfo)
+  overload: SuperOffice.CRM.Data.EmailTableInfo.DbiAgentId_InnerJoin_DbiAgent*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.AppointmentId_InnerJoin_Appointment
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.AppointmentId_InnerJoin_Appointment
+  id: AppointmentId_InnerJoin_Appointment
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId_InnerJoin_Appointment
+  nameWithType: EmailTableInfo.AppointmentId_InnerJoin_Appointment
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.AppointmentId_InnerJoin_Appointment
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key AppointmentId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AppointmentTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<AppointmentTableInfo> AppointmentId_InnerJoin_Appointment { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AppointmentTableInfo}
+    content.vb: Public ReadOnly Property AppointmentId_InnerJoin_Appointment As TargetedInnerJoin(Of AppointmentTableInfo)
+  overload: SuperOffice.CRM.Data.EmailTableInfo.AppointmentId_InnerJoin_Appointment*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.EmailTableInfo.LeftOuterJoin_Appointment_EmailId
+  commentId: P:SuperOffice.CRM.Data.EmailTableInfo.LeftOuterJoin_Appointment_EmailId
+  id: LeftOuterJoin_Appointment_EmailId
+  parent: SuperOffice.CRM.Data.EmailTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_Appointment_EmailId
+  nameWithType: EmailTableInfo.LeftOuterJoin_Appointment_EmailId
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.LeftOuterJoin_Appointment_EmailId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key EmailId on this table, to Appointment.<xref href=\"SuperOffice.CRM.Data.AppointmentTableInfo.EmailId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<AppointmentTableInfo> LeftOuterJoin_Appointment_EmailId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AppointmentTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_Appointment_EmailId As TargetedLeftOuterJoin(Of AppointmentTableInfo)
+  overload: SuperOffice.CRM.Data.EmailTableInfo.LeftOuterJoin_Appointment_EmailId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: SuperOffice.Data.SQL.TableInfo.ToString
+  commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ToString()
+  nameWithType: TableInfo.ToString()
+  fullName: SuperOffice.Data.SQL.TableInfo.ToString()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: RegisterFields(FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(FieldInfo())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FieldInfoFromSoField(SoField)
+  nameWithType: TableInfo.FieldInfoFromSoField(SoField)
+  fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.Clone
+  commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Clone()
+  nameWithType: TableInfo.Clone()
+  fullName: SuperOffice.Data.SQL.TableInfo.Clone()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsSameTable(TableInfo)
+  nameWithType: TableInfo.IsSameTable(TableInfo)
+  fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FindField(String)
+  nameWithType: TableInfo.FindField(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
+  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ProtAll
+  nameWithType: TableInfo.ProtAll
+  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+- uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: HashCheckFields
+  nameWithType: TableInfo.HashCheckFields
+  fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+- uid: SuperOffice.Data.SQL.TableInfo.TableName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: TableName
+  nameWithType: TableInfo.TableName
+  fullName: SuperOffice.Data.SQL.TableInfo.TableName
+- uid: SuperOffice.Data.SQL.TableInfo.DbName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: DbName
+  nameWithType: TableInfo.DbName
+  fullName: SuperOffice.Data.SQL.TableInfo.DbName
+- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsDictionaryTable
+  nameWithType: TableInfo.IsDictionaryTable
+  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+- uid: SuperOffice.Data.SQL.TableInfo.All
+  commentId: P:SuperOffice.Data.SQL.TableInfo.All
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: All
+  nameWithType: TableInfo.All
+  fullName: SuperOffice.Data.SQL.TableInfo.All
+- uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Item[String]
+  nameWithType: TableInfo.Item[String]
+  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
+  nameWithType.vb: TableInfo.Item(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  name.vb: Item(String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: PrimaryKeyField
+  nameWithType: TableInfo.PrimaryKeyField
+  fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.EmailTableInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<EmailTableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<EmailTableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.EmailTableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of EmailTableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.EmailTableInfo, To)()
+  name.vb: MapEnums(Of EmailTableInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<EmailTableInfo, To>
+    nameWithType: EnumUtil.MapEnums<EmailTableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.EmailTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of EmailTableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of EmailTableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.EmailTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.EmailTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<EmailTableInfo, To>()
+  nameWithType: Converters.MapEnums<EmailTableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.EmailTableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of EmailTableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.EmailTableInfo, To)()
+  name.vb: MapEnums(Of EmailTableInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<EmailTableInfo, To>
+    nameWithType: Converters.MapEnums<EmailTableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.EmailTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of EmailTableInfo, To)
+    nameWithType: Converters.MapEnums(Of EmailTableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.EmailTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Data.EmailTableInfo.DictionaryTableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.DictionaryTableNumber
+  isExternal: true
+  name: DictionaryTableNumber
+  nameWithType: EmailTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.DictionaryTableNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Data.EmailTableInfo.RuntimeDefinition*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.RuntimeDefinition
+  isExternal: true
+  name: RuntimeDefinition
+  nameWithType: EmailTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.RuntimeDefinition
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: SuperOffice.Data.SQL.TableInfo.Definition
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Definition
+  nameWithType: TableInfo.Definition
+  fullName: SuperOffice.Data.SQL.TableInfo.Definition
+- uid: SuperOffice.CRM.Data.EmailTableInfo.Definition*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.Definition
+  isExternal: true
+  name: Definition
+  nameWithType: EmailTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.Definition
+- uid: SuperOffice.CRM.Data.EmailTableInfo.EmailId*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.EmailId
+  isExternal: true
+  name: EmailId
+  nameWithType: EmailTableInfo.EmailId
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.EmailId
+- uid: SuperOffice.Data.SQL.Int32FieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Int32FieldInfo
+  nameWithType: Int32FieldInfo
+  fullName: SuperOffice.Data.SQL.Int32FieldInfo
+- uid: SuperOffice.CRM.Data.EmailTableInfo.ContactId*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: EmailTableInfo.ContactId
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.ContactId
+- uid: SuperOffice.CRM.Data.EmailTableInfo.PersonId*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: EmailTableInfo.PersonId
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.PersonId
+- uid: SuperOffice.CRM.Data.EmailTableInfo.ProjectId*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: EmailTableInfo.ProjectId
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.ProjectId
+- uid: SuperOffice.CRM.Data.EmailTableInfo.ReservedId1*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.ReservedId1
+  isExternal: true
+  name: ReservedId1
+  nameWithType: EmailTableInfo.ReservedId1
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.ReservedId1
+- uid: SuperOffice.CRM.Data.EmailTableInfo.ReservedId2*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.ReservedId2
+  isExternal: true
+  name: ReservedId2
+  nameWithType: EmailTableInfo.ReservedId2
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.ReservedId2
+- uid: SuperOffice.CRM.Data.EmailTableInfo.Protocol*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.Protocol
+  isExternal: true
+  name: Protocol
+  nameWithType: EmailTableInfo.Protocol
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.Protocol
+- uid: SuperOffice.Data.SQL.StringFieldInfo
+  commentId: T:SuperOffice.Data.SQL.StringFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: StringFieldInfo
+  nameWithType: StringFieldInfo
+  fullName: SuperOffice.Data.SQL.StringFieldInfo
+- uid: SuperOffice.CRM.Data.EmailTableInfo.Type*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.Type
+  isExternal: true
+  name: Type
+  nameWithType: EmailTableInfo.Type
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.Type
+- uid: SuperOffice.Data.SQL.EmailTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.EmailTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: EmailTypeFieldInfo
+  nameWithType: EmailTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.EmailTypeFieldInfo
+- uid: SuperOffice.CRM.Data.EmailTableInfo.Description*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.Description
+  isExternal: true
+  name: Description
+  nameWithType: EmailTableInfo.Description
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.Description
+- uid: SuperOffice.CRM.Data.EmailTableInfo.EmailAddress*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.EmailAddress
+  isExternal: true
+  name: EmailAddress
+  nameWithType: EmailTableInfo.EmailAddress
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.EmailAddress
+- uid: SuperOffice.CRM.Data.EmailTableInfo.Rank*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: EmailTableInfo.Rank
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.Rank
+- uid: SuperOffice.Data.SQL.UInt16FieldInfo
+  commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: UInt16FieldInfo
+  nameWithType: UInt16FieldInfo
+  fullName: SuperOffice.Data.SQL.UInt16FieldInfo
+- uid: SuperOffice.CRM.Data.EmailTableInfo.Registered*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: EmailTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.Registered
+- uid: SuperOffice.Data.SQL.DateTimeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DateTimeFieldInfo
+  nameWithType: DateTimeFieldInfo
+  fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
+- uid: SuperOffice.CRM.Data.EmailTableInfo.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.RegisteredAssociateId
+  isExternal: true
+  name: RegisteredAssociateId
+  nameWithType: EmailTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.EmailTableInfo.Updated*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: EmailTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.Updated
+- uid: SuperOffice.CRM.Data.EmailTableInfo.UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.UpdatedAssociateId
+  isExternal: true
+  name: UpdatedAssociateId
+  nameWithType: EmailTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.EmailTableInfo.UpdatedCount*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.UpdatedCount
+  isExternal: true
+  name: UpdatedCount
+  nameWithType: EmailTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.UpdatedCount
+- uid: SuperOffice.CRM.Data.EmailTableInfo.BounceCount*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.BounceCount
+  isExternal: true
+  name: BounceCount
+  nameWithType: EmailTableInfo.BounceCount
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.BounceCount
+- uid: SuperOffice.CRM.Data.EmailTableInfo.LastBounce*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.LastBounce
+  isExternal: true
+  name: LastBounce
+  nameWithType: EmailTableInfo.LastBounce
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.LastBounce
+- uid: SuperOffice.CRM.Data.EmailTableInfo.LastSent*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.LastSent
+  isExternal: true
+  name: LastSent
+  nameWithType: EmailTableInfo.LastSent
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.LastSent
+- uid: SuperOffice.CRM.Data.EmailTableInfo.DbiAgentId*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.DbiAgentId
+  isExternal: true
+  name: DbiAgentId
+  nameWithType: EmailTableInfo.DbiAgentId
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.DbiAgentId
+- uid: SuperOffice.CRM.Data.EmailTableInfo.AppointmentId*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: EmailTableInfo.AppointmentId
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.AppointmentId
+- uid: SuperOffice.CRM.Data.EmailTableInfo.ContactId_InnerJoin_Contact*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.ContactId_InnerJoin_Contact
+  isExternal: true
+  name: ContactId_InnerJoin_Contact
+  nameWithType: EmailTableInfo.ContactId_InnerJoin_Contact
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.ContactId_InnerJoin_Contact
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ContactTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ContactTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<ContactTableInfo>
+  nameWithType: TargetedInnerJoin<ContactTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.ContactTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of ContactTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.ContactTableInfo)
+  name.vb: TargetedInnerJoin(Of ContactTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.ContactTableInfo
+    name: ContactTableInfo
+    nameWithType: ContactTableInfo
+    fullName: SuperOffice.CRM.Data.ContactTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.ContactTableInfo
+    name: ContactTableInfo
+    nameWithType: ContactTableInfo
+    fullName: SuperOffice.CRM.Data.ContactTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
+  isExternal: true
+  name: TargetedInnerJoin<TargetTableInfo>
+  nameWithType: TargetedInnerJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of TargetTableInfo)
+  name.vb: TargetedInnerJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.EmailTableInfo.PersonId_InnerJoin_Person*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.PersonId_InnerJoin_Person
+  isExternal: true
+  name: PersonId_InnerJoin_Person
+  nameWithType: EmailTableInfo.PersonId_InnerJoin_Person
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.PersonId_InnerJoin_Person
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.PersonTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.PersonTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<PersonTableInfo>
+  nameWithType: TargetedInnerJoin<PersonTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.PersonTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of PersonTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.PersonTableInfo)
+  name.vb: TargetedInnerJoin(Of PersonTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.PersonTableInfo
+    name: PersonTableInfo
+    nameWithType: PersonTableInfo
+    fullName: SuperOffice.CRM.Data.PersonTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.PersonTableInfo
+    name: PersonTableInfo
+    nameWithType: PersonTableInfo
+    fullName: SuperOffice.CRM.Data.PersonTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.EmailTableInfo.ProjectId_InnerJoin_Project*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.ProjectId_InnerJoin_Project
+  isExternal: true
+  name: ProjectId_InnerJoin_Project
+  nameWithType: EmailTableInfo.ProjectId_InnerJoin_Project
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.ProjectId_InnerJoin_Project
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ProjectTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ProjectTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<ProjectTableInfo>
+  nameWithType: TargetedInnerJoin<ProjectTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.ProjectTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of ProjectTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.ProjectTableInfo)
+  name.vb: TargetedInnerJoin(Of ProjectTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.ProjectTableInfo
+    name: ProjectTableInfo
+    nameWithType: ProjectTableInfo
+    fullName: SuperOffice.CRM.Data.ProjectTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.ProjectTableInfo
+    name: ProjectTableInfo
+    nameWithType: ProjectTableInfo
+    fullName: SuperOffice.CRM.Data.ProjectTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.EmailTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  isExternal: true
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: EmailTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.RegisteredAssociateId_InnerJoin_Associate
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<AssociateTableInfo>
+  nameWithType: TargetedInnerJoin<AssociateTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.AssociateTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.AssociateTableInfo)
+  name.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.EmailTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  isExternal: true
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: EmailTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.UpdatedAssociateId_InnerJoin_Associate
+- uid: SuperOffice.CRM.Data.EmailTableInfo.DbiAgentId_InnerJoin_DbiAgent*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.DbiAgentId_InnerJoin_DbiAgent
+  isExternal: true
+  name: DbiAgentId_InnerJoin_DbiAgent
+  nameWithType: EmailTableInfo.DbiAgentId_InnerJoin_DbiAgent
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.DbiAgentId_InnerJoin_DbiAgent
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.DbiAgentTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.DbiAgentTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<DbiAgentTableInfo>
+  nameWithType: TargetedInnerJoin<DbiAgentTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.DbiAgentTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of DbiAgentTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.DbiAgentTableInfo)
+  name.vb: TargetedInnerJoin(Of DbiAgentTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.DbiAgentTableInfo
+    name: DbiAgentTableInfo
+    nameWithType: DbiAgentTableInfo
+    fullName: SuperOffice.CRM.Data.DbiAgentTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.DbiAgentTableInfo
+    name: DbiAgentTableInfo
+    nameWithType: DbiAgentTableInfo
+    fullName: SuperOffice.CRM.Data.DbiAgentTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.EmailTableInfo.AppointmentId_InnerJoin_Appointment*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.AppointmentId_InnerJoin_Appointment
+  isExternal: true
+  name: AppointmentId_InnerJoin_Appointment
+  nameWithType: EmailTableInfo.AppointmentId_InnerJoin_Appointment
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.AppointmentId_InnerJoin_Appointment
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AppointmentTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AppointmentTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<AppointmentTableInfo>
+  nameWithType: TargetedInnerJoin<AppointmentTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.AppointmentTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of AppointmentTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.AppointmentTableInfo)
+  name.vb: TargetedInnerJoin(Of AppointmentTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.AppointmentTableInfo
+    name: AppointmentTableInfo
+    nameWithType: AppointmentTableInfo
+    fullName: SuperOffice.CRM.Data.AppointmentTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.AppointmentTableInfo
+    name: AppointmentTableInfo
+    nameWithType: AppointmentTableInfo
+    fullName: SuperOffice.CRM.Data.AppointmentTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.EmailTableInfo.LeftOuterJoin_Appointment_EmailId*
+  commentId: Overload:SuperOffice.CRM.Data.EmailTableInfo.LeftOuterJoin_Appointment_EmailId
+  isExternal: true
+  name: LeftOuterJoin_Appointment_EmailId
+  nameWithType: EmailTableInfo.LeftOuterJoin_Appointment_EmailId
+  fullName: SuperOffice.CRM.Data.EmailTableInfo.LeftOuterJoin_Appointment_EmailId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AppointmentTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AppointmentTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<AppointmentTableInfo>
+  nameWithType: TargetedLeftOuterJoin<AppointmentTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.AppointmentTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of AppointmentTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.AppointmentTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of AppointmentTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.AppointmentTableInfo
+    name: AppointmentTableInfo
+    nameWithType: AppointmentTableInfo
+    fullName: SuperOffice.CRM.Data.AppointmentTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.AppointmentTableInfo
+    name: AppointmentTableInfo
+    nameWithType: AppointmentTableInfo
+    fullName: SuperOffice.CRM.Data.AppointmentTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  isExternal: true
+  name: TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of TargetTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )

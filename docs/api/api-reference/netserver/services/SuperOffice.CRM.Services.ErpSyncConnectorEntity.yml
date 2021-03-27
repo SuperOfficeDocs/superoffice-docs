@@ -1,0 +1,360 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ErpSyncConnectorEntity
+  commentId: T:SuperOffice.CRM.Services.ErpSyncConnectorEntity
+  id: ErpSyncConnectorEntity
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ErpSyncConnectorEntity.#ctor
+  - SuperOffice.CRM.Services.ErpSyncConnectorEntity.Deleted
+  - SuperOffice.CRM.Services.ErpSyncConnectorEntity.DisplayName
+  - SuperOffice.CRM.Services.ErpSyncConnectorEntity.ErpConnectorId
+  - SuperOffice.CRM.Services.ErpSyncConnectorEntity.ToString
+  - SuperOffice.CRM.Services.ErpSyncConnectorEntity.ToString(System.String)
+  - SuperOffice.CRM.Services.ErpSyncConnectorEntity.URL
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncConnectorEntity
+  nameWithType: ErpSyncConnectorEntity
+  fullName: SuperOffice.CRM.Services.ErpSyncConnectorEntity
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nErp connector information\n<p></p>\nCarrier object for ErpSyncConnectorEntity.\nServices for the ErpSyncConnectorEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IErpSyncAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet ErpSyncConnectorEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ErpSyncAgent();\n    var erpSyncConnectorEntity = agent.GetErpSyncConnectorEntity( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class ErpSyncConnectorEntity : Carrier'
+    content.vb: >-
+      Public Class ErpSyncConnectorEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ErpSyncAgent
+    commentId: T:SuperOffice.CRM.Services.ErpSyncAgent
+  - linkId: SuperOffice.CRM.Services.IErpSyncAgent
+    commentId: T:SuperOffice.CRM.Services.IErpSyncAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ErpSyncConnectorEntity.#ctor
+  commentId: M:SuperOffice.CRM.Services.ErpSyncConnectorEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ErpSyncConnectorEntity
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncConnectorEntity()
+  nameWithType: ErpSyncConnectorEntity.ErpSyncConnectorEntity()
+  fullName: SuperOffice.CRM.Services.ErpSyncConnectorEntity.ErpSyncConnectorEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ErpSyncConnectorEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ErpSyncConnectorEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ErpSyncConnectorEntity.ToString
+  commentId: M:SuperOffice.CRM.Services.ErpSyncConnectorEntity.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ErpSyncConnectorEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ErpSyncConnectorEntity.ToString()
+  fullName: SuperOffice.CRM.Services.ErpSyncConnectorEntity.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.ErpSyncConnectorEntity.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ErpSyncConnectorEntity.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ErpSyncConnectorEntity.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ErpSyncConnectorEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ErpSyncConnectorEntity.ToString(String)
+  fullName: SuperOffice.CRM.Services.ErpSyncConnectorEntity.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ErpSyncConnectorEntity.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ErpSyncConnectorEntity.ErpConnectorId
+  commentId: P:SuperOffice.CRM.Services.ErpSyncConnectorEntity.ErpConnectorId
+  id: ErpConnectorId
+  parent: SuperOffice.CRM.Services.ErpSyncConnectorEntity
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectorId
+  nameWithType: ErpSyncConnectorEntity.ErpConnectorId
+  fullName: SuperOffice.CRM.Services.ErpSyncConnectorEntity.ErpConnectorId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int ErpConnectorId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ErpConnectorId As Integer
+  overload: SuperOffice.CRM.Services.ErpSyncConnectorEntity.ErpConnectorId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ErpSyncConnectorEntity.DisplayName
+  commentId: P:SuperOffice.CRM.Services.ErpSyncConnectorEntity.DisplayName
+  id: DisplayName
+  parent: SuperOffice.CRM.Services.ErpSyncConnectorEntity
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: ErpSyncConnectorEntity.DisplayName
+  fullName: SuperOffice.CRM.Services.ErpSyncConnectorEntity.DisplayName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName shown in the list \n"
+  syntax:
+    content: public virtual string DisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayName As String
+  overload: SuperOffice.CRM.Services.ErpSyncConnectorEntity.DisplayName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ErpSyncConnectorEntity.URL
+  commentId: P:SuperOffice.CRM.Services.ErpSyncConnectorEntity.URL
+  id: URL
+  parent: SuperOffice.CRM.Services.ErpSyncConnectorEntity
+  langs:
+  - csharp
+  - vb
+  name: URL
+  nameWithType: ErpSyncConnectorEntity.URL
+  fullName: SuperOffice.CRM.Services.ErpSyncConnectorEntity.URL
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe URL where the connector is located and can be called \n"
+  syntax:
+    content: public virtual string URL { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property URL As String
+  overload: SuperOffice.CRM.Services.ErpSyncConnectorEntity.URL*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ErpSyncConnectorEntity.Deleted
+  commentId: P:SuperOffice.CRM.Services.ErpSyncConnectorEntity.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Services.ErpSyncConnectorEntity
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: ErpSyncConnectorEntity.Deleted
+  fullName: SuperOffice.CRM.Services.ErpSyncConnectorEntity.Deleted
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue if the connector is deleted \n"
+  syntax:
+    content: public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.CRM.Services.ErpSyncConnectorEntity.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.ErpSyncAgent
+  commentId: T:SuperOffice.CRM.Services.ErpSyncAgent
+  isExternal: true
+  name: ErpSyncAgent
+  nameWithType: ErpSyncAgent
+  fullName: SuperOffice.CRM.Services.ErpSyncAgent
+- uid: SuperOffice.CRM.Services.IErpSyncAgent
+  commentId: T:SuperOffice.CRM.Services.IErpSyncAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IErpSyncAgent
+  nameWithType: IErpSyncAgent
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ErpSyncConnectorEntity.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ErpSyncConnectorEntity.#ctor
+  isExternal: true
+  name: ErpSyncConnectorEntity
+  nameWithType: ErpSyncConnectorEntity.ErpSyncConnectorEntity
+  fullName: SuperOffice.CRM.Services.ErpSyncConnectorEntity.ErpSyncConnectorEntity
+- uid: SuperOffice.CRM.Services.ErpSyncConnectorEntity.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ErpSyncConnectorEntity.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ErpSyncConnectorEntity.ToString
+  fullName: SuperOffice.CRM.Services.ErpSyncConnectorEntity.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ErpSyncConnectorEntity.ErpConnectorId*
+  commentId: Overload:SuperOffice.CRM.Services.ErpSyncConnectorEntity.ErpConnectorId
+  isExternal: true
+  name: ErpConnectorId
+  nameWithType: ErpSyncConnectorEntity.ErpConnectorId
+  fullName: SuperOffice.CRM.Services.ErpSyncConnectorEntity.ErpConnectorId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ErpSyncConnectorEntity.DisplayName*
+  commentId: Overload:SuperOffice.CRM.Services.ErpSyncConnectorEntity.DisplayName
+  isExternal: true
+  name: DisplayName
+  nameWithType: ErpSyncConnectorEntity.DisplayName
+  fullName: SuperOffice.CRM.Services.ErpSyncConnectorEntity.DisplayName
+- uid: SuperOffice.CRM.Services.ErpSyncConnectorEntity.URL*
+  commentId: Overload:SuperOffice.CRM.Services.ErpSyncConnectorEntity.URL
+  isExternal: true
+  name: URL
+  nameWithType: ErpSyncConnectorEntity.URL
+  fullName: SuperOffice.CRM.Services.ErpSyncConnectorEntity.URL
+- uid: SuperOffice.CRM.Services.ErpSyncConnectorEntity.Deleted*
+  commentId: Overload:SuperOffice.CRM.Services.ErpSyncConnectorEntity.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: ErpSyncConnectorEntity.Deleted
+  fullName: SuperOffice.CRM.Services.ErpSyncConnectorEntity.Deleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

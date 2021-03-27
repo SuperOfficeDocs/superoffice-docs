@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.VideoMeetingStatus
+  commentId: T:SuperOffice.WebApi.Data.VideoMeetingStatus
+  id: VideoMeetingStatus
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.VideoMeetingStatus.NoChange
+  - SuperOffice.WebApi.Data.VideoMeetingStatus.value__
+  - SuperOffice.WebApi.Data.VideoMeetingStatus.VideoMeetingOff
+  - SuperOffice.WebApi.Data.VideoMeetingStatus.VideoMeetingOn
+  langs:
+  - csharp
+  - vb
+  name: VideoMeetingStatus
+  nameWithType: VideoMeetingStatus
+  fullName: SuperOffice.WebApi.Data.VideoMeetingStatus
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault video-meeting status for meetings created in SuperOffice CRM\nThis Enum is used by:  Task.default_videomeeting_status\n"
+  syntax:
+    content: 'public sealed class VideoMeetingStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class VideoMeetingStatus
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.VideoMeetingStatus.value__
+  commentId: F:SuperOffice.WebApi.Data.VideoMeetingStatus.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.VideoMeetingStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: VideoMeetingStatus.value__
+  fullName: SuperOffice.WebApi.Data.VideoMeetingStatus.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.VideoMeetingStatus.NoChange
+  commentId: F:SuperOffice.WebApi.Data.VideoMeetingStatus.NoChange
+  id: NoChange
+  parent: SuperOffice.WebApi.Data.VideoMeetingStatus
+  langs:
+  - csharp
+  - vb
+  name: NoChange
+  nameWithType: VideoMeetingStatus.NoChange
+  fullName: SuperOffice.WebApi.Data.VideoMeetingStatus.NoChange
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: No Change\n"
+  syntax:
+    content: public const VideoMeetingStatus NoChange
+    return:
+      type: SuperOffice.WebApi.Data.VideoMeetingStatus
+    content.vb: Public Const NoChange As VideoMeetingStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.VideoMeetingStatus.VideoMeetingOn
+  commentId: F:SuperOffice.WebApi.Data.VideoMeetingStatus.VideoMeetingOn
+  id: VideoMeetingOn
+  parent: SuperOffice.WebApi.Data.VideoMeetingStatus
+  langs:
+  - csharp
+  - vb
+  name: VideoMeetingOn
+  nameWithType: VideoMeetingStatus.VideoMeetingOn
+  fullName: SuperOffice.WebApi.Data.VideoMeetingStatus.VideoMeetingOn
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Appointments created from this task-type should enable video-meetings by default.\n"
+  syntax:
+    content: public const VideoMeetingStatus VideoMeetingOn
+    return:
+      type: SuperOffice.WebApi.Data.VideoMeetingStatus
+    content.vb: Public Const VideoMeetingOn As VideoMeetingStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.VideoMeetingStatus.VideoMeetingOff
+  commentId: F:SuperOffice.WebApi.Data.VideoMeetingStatus.VideoMeetingOff
+  id: VideoMeetingOff
+  parent: SuperOffice.WebApi.Data.VideoMeetingStatus
+  langs:
+  - csharp
+  - vb
+  name: VideoMeetingOff
+  nameWithType: VideoMeetingStatus.VideoMeetingOff
+  fullName: SuperOffice.WebApi.Data.VideoMeetingStatus.VideoMeetingOff
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Appointments created from this task-type should disable video-meetings by default.\n"
+  syntax:
+    content: public const VideoMeetingStatus VideoMeetingOff
+    return:
+      type: SuperOffice.WebApi.Data.VideoMeetingStatus
+    content.vb: Public Const VideoMeetingOff As VideoMeetingStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.VideoMeetingStatus
+  commentId: T:SuperOffice.WebApi.Data.VideoMeetingStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: VideoMeetingStatus
+  nameWithType: VideoMeetingStatus
+  fullName: SuperOffice.WebApi.Data.VideoMeetingStatus

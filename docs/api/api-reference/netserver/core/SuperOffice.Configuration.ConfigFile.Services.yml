@@ -1,0 +1,580 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.Services
+  commentId: T:SuperOffice.Configuration.ConfigFile.Services
+  id: ConfigFile.Services
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.Services.ApplicationToken
+  - SuperOffice.Configuration.ConfigFile.Services.DefaultMode
+  - SuperOffice.Configuration.ConfigFile.Services.RemoteBaseURL
+  - SuperOffice.Configuration.ConfigFile.Services.SwitchDefault
+  - SuperOffice.Configuration.ConfigFile.Services.SwitchFailover
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.Services
+  nameWithType: ConfigFile.Services
+  fullName: SuperOffice.Configuration.ConfigFile.Services
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nUtility class used to access the SuperOffice.CRM.Services entry in the Config file.\n"
+  syntax:
+    content: public static class Services
+    content.vb: Public Module Services
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Configuration.ConfigFile.Services.DefaultMode
+  commentId: P:SuperOffice.Configuration.ConfigFile.Services.DefaultMode
+  id: DefaultMode
+  parent: SuperOffice.Configuration.ConfigFile.Services
+  langs:
+  - csharp
+  - vb
+  name: DefaultMode
+  nameWithType: ConfigFile.Services.DefaultMode
+  fullName: SuperOffice.Configuration.ConfigFile.Services.DefaultMode
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nMode for Service (Default: Local - e.g. local implementation)\n"
+  syntax:
+    content: public static ServiceMode DefaultMode { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.ServiceMode
+    content.vb: Public Shared Property DefaultMode As ServiceMode
+  overload: SuperOffice.Configuration.ConfigFile.Services.DefaultMode*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Services.SwitchDefault
+  commentId: P:SuperOffice.Configuration.ConfigFile.Services.SwitchDefault
+  id: SwitchDefault
+  parent: SuperOffice.Configuration.ConfigFile.Services
+  langs:
+  - csharp
+  - vb
+  name: SwitchDefault
+  nameWithType: ConfigFile.Services.SwitchDefault
+  fullName: SuperOffice.Configuration.ConfigFile.Services.SwitchDefault
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nDefault mode for the switch (Default: Remote)\n"
+  syntax:
+    content: public static SwitchDefault SwitchDefault { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Switches.SwitchDefault
+    content.vb: Public Shared Property SwitchDefault As SwitchDefault
+  overload: SuperOffice.Configuration.ConfigFile.Services.SwitchDefault*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Services.SwitchFailover
+  commentId: P:SuperOffice.Configuration.ConfigFile.Services.SwitchFailover
+  id: SwitchFailover
+  parent: SuperOffice.Configuration.ConfigFile.Services
+  langs:
+  - csharp
+  - vb
+  name: SwitchFailover
+  nameWithType: ConfigFile.Services.SwitchFailover
+  fullName: SuperOffice.Configuration.ConfigFile.Services.SwitchFailover
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nTimeout before failover in seconds (Default: 60)\n"
+  syntax:
+    content: public static int SwitchFailover { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property SwitchFailover As Integer
+  overload: SuperOffice.Configuration.ConfigFile.Services.SwitchFailover*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Services.RemoteBaseURL
+  commentId: P:SuperOffice.Configuration.ConfigFile.Services.RemoteBaseURL
+  id: RemoteBaseURL
+  parent: SuperOffice.Configuration.ConfigFile.Services
+  langs:
+  - csharp
+  - vb
+  name: RemoteBaseURL
+  nameWithType: ConfigFile.Services.RemoteBaseURL
+  fullName: SuperOffice.Configuration.ConfigFile.Services.RemoteBaseURL
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nBase URL for remote services (Default: http://localhost/webs/SuperOffice.Web.Services).  This value will be overridden by WebServices.RemoteBaseURL\n"
+  syntax:
+    content: public static string RemoteBaseURL { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property RemoteBaseURL As String
+  overload: SuperOffice.Configuration.ConfigFile.Services.RemoteBaseURL*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Services.ApplicationToken
+  commentId: P:SuperOffice.Configuration.ConfigFile.Services.ApplicationToken
+  id: ApplicationToken
+  parent: SuperOffice.Configuration.ConfigFile.Services
+  langs:
+  - csharp
+  - vb
+  name: ApplicationToken
+  nameWithType: ConfigFile.Services.ApplicationToken
+  fullName: SuperOffice.Configuration.ConfigFile.Services.ApplicationToken
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nApplication token passed with servicves to identify the client application.\n"
+  syntax:
+    content: public static string ApplicationToken { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property ApplicationToken As String
+  overload: SuperOffice.Configuration.ConfigFile.Services.ApplicationToken*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.Services.DefaultMode*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Services.DefaultMode
+  isExternal: true
+  name: DefaultMode
+  nameWithType: ConfigFile.Services.DefaultMode
+  fullName: SuperOffice.Configuration.ConfigFile.Services.DefaultMode
+- uid: SuperOffice.CRM.Services.ServiceMode
+  commentId: T:SuperOffice.CRM.Services.ServiceMode
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ServiceMode
+  nameWithType: ServiceMode
+  fullName: SuperOffice.CRM.Services.ServiceMode
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.Configuration.ConfigFile.Services.SwitchDefault*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Services.SwitchDefault
+  isExternal: true
+  name: SwitchDefault
+  nameWithType: ConfigFile.Services.SwitchDefault
+  fullName: SuperOffice.Configuration.ConfigFile.Services.SwitchDefault
+- uid: SuperOffice.CRM.Services.Switches.SwitchDefault
+  commentId: T:SuperOffice.CRM.Services.Switches.SwitchDefault
+  parent: SuperOffice.CRM.Services.Switches
+  isExternal: true
+  name: SwitchDefault
+  nameWithType: SwitchDefault
+  fullName: SuperOffice.CRM.Services.Switches.SwitchDefault
+- uid: SuperOffice.CRM.Services.Switches
+  commentId: N:SuperOffice.CRM.Services.Switches
+  isExternal: true
+  name: SuperOffice.CRM.Services.Switches
+  nameWithType: SuperOffice.CRM.Services.Switches
+  fullName: SuperOffice.CRM.Services.Switches
+- uid: SuperOffice.Configuration.ConfigFile.Services.SwitchFailover*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Services.SwitchFailover
+  isExternal: true
+  name: SwitchFailover
+  nameWithType: ConfigFile.Services.SwitchFailover
+  fullName: SuperOffice.Configuration.ConfigFile.Services.SwitchFailover
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Configuration.ConfigFile.Services.RemoteBaseURL*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Services.RemoteBaseURL
+  isExternal: true
+  name: RemoteBaseURL
+  nameWithType: ConfigFile.Services.RemoteBaseURL
+  fullName: SuperOffice.Configuration.ConfigFile.Services.RemoteBaseURL
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Configuration.ConfigFile.Services.ApplicationToken*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Services.ApplicationToken
+  isExternal: true
+  name: ApplicationToken
+  nameWithType: ConfigFile.Services.ApplicationToken
+  fullName: SuperOffice.Configuration.ConfigFile.Services.ApplicationToken

@@ -1,0 +1,418 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange
+  commentId: T:SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange
+  id: EntityUdefHelper.UdefValueChange
+  parent: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.BeginInvoke(System.String,System.Object,System.Object,System.AsyncCallback,System.Object)
+  - SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.EndInvoke(System.IAsyncResult)
+  - SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.Invoke(System.String,System.Object,System.Object)
+  langs:
+  - csharp
+  - vb
+  name: EntityUdefHelper.UdefValueChange
+  nameWithType: EntityUdefHelper.UdefValueChange
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange
+  type: Delegate
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nDelegate for handlign events on modifications in udef fields.\n"
+  syntax:
+    content: public delegate void UdefValueChange(string progId, object oldValue, object newValue);
+    parameters:
+    - id: progId
+      type: System.String
+      description: ProgId of the value that has been changed.
+    - id: oldValue
+      type: System.Object
+      description: Old udef value for the progid
+    - id: newValue
+      type: System.Object
+      description: New udef value for the progid
+    content.vb: Public Delegate Sub UdefValueChange(progId As String, oldValue As Object, newValue As Object)
+  extensionMethods:
+  - SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange
+  langs:
+  - csharp
+  - vb
+  name: UdefValueChange(Object, IntPtr)
+  nameWithType: EntityUdefHelper.UdefValueChange.UdefValueChange(Object, IntPtr)
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.UdefValueChange(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public UdefValueChange(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.Invoke(System.String,System.Object,System.Object)
+  commentId: M:SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.Invoke(System.String,System.Object,System.Object)
+  id: Invoke(System.String,System.Object,System.Object)
+  parent: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange
+  langs:
+  - csharp
+  - vb
+  name: Invoke(String, Object, Object)
+  nameWithType: EntityUdefHelper.UdefValueChange.Invoke(String, Object, Object)
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.Invoke(System.String, System.Object, System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public virtual void Invoke(string progId, object oldValue, object newValue)
+    parameters:
+    - id: progId
+      type: System.String
+    - id: oldValue
+      type: System.Object
+    - id: newValue
+      type: System.Object
+    content.vb: Public Overridable Sub Invoke(progId As String, oldValue As Object, newValue As Object)
+  overload: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.Invoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.BeginInvoke(System.String,System.Object,System.Object,System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.BeginInvoke(System.String,System.Object,System.Object,System.AsyncCallback,System.Object)
+  id: BeginInvoke(System.String,System.Object,System.Object,System.AsyncCallback,System.Object)
+  parent: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(String, Object, Object, AsyncCallback, Object)
+  nameWithType: EntityUdefHelper.UdefValueChange.BeginInvoke(String, Object, Object, AsyncCallback, Object)
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.BeginInvoke(System.String, System.Object, System.Object, System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(string progId, object oldValue, object newValue, AsyncCallback callback, object object)
+    parameters:
+    - id: progId
+      type: System.String
+    - id: oldValue
+      type: System.Object
+    - id: newValue
+      type: System.Object
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(progId As String, oldValue As Object, newValue As Object, callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.BeginInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: EntityUdefHelper.UdefValueChange.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.EndInvoke(System.IAsyncResult)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public virtual void EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
+  overload: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.EndInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<EntityUdefHelper.UdefValueChange, To>()
+  nameWithType: EnumUtil.MapEnums<EntityUdefHelper.UdefValueChange, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of EntityUdefHelper.UdefValueChange, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange, To)()
+  name.vb: MapEnums(Of EntityUdefHelper.UdefValueChange, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<EntityUdefHelper.UdefValueChange, To>
+    nameWithType: EnumUtil.MapEnums<EntityUdefHelper.UdefValueChange, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of EntityUdefHelper.UdefValueChange, To)
+    nameWithType: EnumUtil.MapEnums(Of EntityUdefHelper.UdefValueChange, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<EntityUdefHelper.UdefValueChange, To>()
+  nameWithType: Converters.MapEnums<EntityUdefHelper.UdefValueChange, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange, To>()
+  nameWithType.vb: Converters.MapEnums(Of EntityUdefHelper.UdefValueChange, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange, To)()
+  name.vb: MapEnums(Of EntityUdefHelper.UdefValueChange, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<EntityUdefHelper.UdefValueChange, To>
+    nameWithType: Converters.MapEnums<EntityUdefHelper.UdefValueChange, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of EntityUdefHelper.UdefValueChange, To)
+    nameWithType: Converters.MapEnums(Of EntityUdefHelper.UdefValueChange, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.#ctor*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.#ctor
+  isExternal: true
+  name: UdefValueChange
+  nameWithType: EntityUdefHelper.UdefValueChange.UdefValueChange
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.UdefValueChange
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.Invoke*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: EntityUdefHelper.UdefValueChange.Invoke
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.Invoke
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.BeginInvoke*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: EntityUdefHelper.UdefValueChange.BeginInvoke
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.EndInvoke*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: EntityUdefHelper.UdefValueChange.EndInvoke
+  fullName: SuperOffice.CRM.Entities.EntityUdefHelper.UdefValueChange.EndInvoke

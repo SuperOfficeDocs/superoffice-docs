@@ -1,0 +1,569 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.TwipsConverter
+  commentId: T:SuperOffice.Util.TwipsConverter
+  id: TwipsConverter
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.TwipsConverter.CentimeterToTwips(System.Double)
+  - SuperOffice.Util.TwipsConverter.FromTwips(SuperOffice.Data.LayoutUnits,System.UInt32)
+  - SuperOffice.Util.TwipsConverter.InchesToTwips(System.Double)
+  - SuperOffice.Util.TwipsConverter.TwipsToCentimeter(System.UInt32)
+  - SuperOffice.Util.TwipsConverter.TwipsToInches(System.UInt32)
+  langs:
+  - csharp
+  - vb
+  name: TwipsConverter
+  nameWithType: TwipsConverter
+  fullName: SuperOffice.Util.TwipsConverter
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConvert twips to centimeter or inches.\n"
+  syntax:
+    content: public static class TwipsConverter
+    content.vb: Public Module TwipsConverter
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Util.TwipsConverter.TwipsToCentimeter(System.UInt32)
+  commentId: M:SuperOffice.Util.TwipsConverter.TwipsToCentimeter(System.UInt32)
+  id: TwipsToCentimeter(System.UInt32)
+  parent: SuperOffice.Util.TwipsConverter
+  langs:
+  - csharp
+  - vb
+  name: TwipsToCentimeter(UInt32)
+  nameWithType: TwipsConverter.TwipsToCentimeter(UInt32)
+  fullName: SuperOffice.Util.TwipsConverter.TwipsToCentimeter(System.UInt32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nTwips to centimeter\n"
+  syntax:
+    content: public static double TwipsToCentimeter(uint twips)
+    parameters:
+    - id: twips
+      type: System.UInt32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function TwipsToCentimeter(twips As UInteger) As Double
+  overload: SuperOffice.Util.TwipsConverter.TwipsToCentimeter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.TwipsConverter.TwipsToInches(System.UInt32)
+  commentId: M:SuperOffice.Util.TwipsConverter.TwipsToInches(System.UInt32)
+  id: TwipsToInches(System.UInt32)
+  parent: SuperOffice.Util.TwipsConverter
+  langs:
+  - csharp
+  - vb
+  name: TwipsToInches(UInt32)
+  nameWithType: TwipsConverter.TwipsToInches(UInt32)
+  fullName: SuperOffice.Util.TwipsConverter.TwipsToInches(System.UInt32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nTwips to inches\n"
+  syntax:
+    content: public static double TwipsToInches(uint twips)
+    parameters:
+    - id: twips
+      type: System.UInt32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function TwipsToInches(twips As UInteger) As Double
+  overload: SuperOffice.Util.TwipsConverter.TwipsToInches*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.TwipsConverter.CentimeterToTwips(System.Double)
+  commentId: M:SuperOffice.Util.TwipsConverter.CentimeterToTwips(System.Double)
+  id: CentimeterToTwips(System.Double)
+  parent: SuperOffice.Util.TwipsConverter
+  langs:
+  - csharp
+  - vb
+  name: CentimeterToTwips(Double)
+  nameWithType: TwipsConverter.CentimeterToTwips(Double)
+  fullName: SuperOffice.Util.TwipsConverter.CentimeterToTwips(System.Double)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nCentimenter to twips\n"
+  syntax:
+    content: public static uint CentimeterToTwips(double cm)
+    parameters:
+    - id: cm
+      type: System.Double
+    return:
+      type: System.UInt32
+    content.vb: Public Shared Function CentimeterToTwips(cm As Double) As UInteger
+  overload: SuperOffice.Util.TwipsConverter.CentimeterToTwips*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.TwipsConverter.InchesToTwips(System.Double)
+  commentId: M:SuperOffice.Util.TwipsConverter.InchesToTwips(System.Double)
+  id: InchesToTwips(System.Double)
+  parent: SuperOffice.Util.TwipsConverter
+  langs:
+  - csharp
+  - vb
+  name: InchesToTwips(Double)
+  nameWithType: TwipsConverter.InchesToTwips(Double)
+  fullName: SuperOffice.Util.TwipsConverter.InchesToTwips(System.Double)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nInches to twips\n"
+  syntax:
+    content: public static uint InchesToTwips(double inches)
+    parameters:
+    - id: inches
+      type: System.Double
+    return:
+      type: System.UInt32
+    content.vb: Public Shared Function InchesToTwips(inches As Double) As UInteger
+  overload: SuperOffice.Util.TwipsConverter.InchesToTwips*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.TwipsConverter.FromTwips(SuperOffice.Data.LayoutUnits,System.UInt32)
+  commentId: M:SuperOffice.Util.TwipsConverter.FromTwips(SuperOffice.Data.LayoutUnits,System.UInt32)
+  id: FromTwips(SuperOffice.Data.LayoutUnits,System.UInt32)
+  parent: SuperOffice.Util.TwipsConverter
+  langs:
+  - csharp
+  - vb
+  name: FromTwips(LayoutUnits, UInt32)
+  nameWithType: TwipsConverter.FromTwips(LayoutUnits, UInt32)
+  fullName: SuperOffice.Util.TwipsConverter.FromTwips(SuperOffice.Data.LayoutUnits, System.UInt32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConvert to centimeter or inches from twips\n"
+  syntax:
+    content: public static double FromTwips(LayoutUnits unit, uint twips)
+    parameters:
+    - id: unit
+      type: SuperOffice.Data.LayoutUnits
+    - id: twips
+      type: System.UInt32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function FromTwips(unit As LayoutUnits, twips As UInteger) As Double
+  overload: SuperOffice.Util.TwipsConverter.FromTwips*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Util.TwipsConverter.TwipsToCentimeter*
+  commentId: Overload:SuperOffice.Util.TwipsConverter.TwipsToCentimeter
+  isExternal: true
+  name: TwipsToCentimeter
+  nameWithType: TwipsConverter.TwipsToCentimeter
+  fullName: SuperOffice.Util.TwipsConverter.TwipsToCentimeter
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.Util.TwipsConverter.TwipsToInches*
+  commentId: Overload:SuperOffice.Util.TwipsConverter.TwipsToInches
+  isExternal: true
+  name: TwipsToInches
+  nameWithType: TwipsConverter.TwipsToInches
+  fullName: SuperOffice.Util.TwipsConverter.TwipsToInches
+- uid: SuperOffice.Util.TwipsConverter.CentimeterToTwips*
+  commentId: Overload:SuperOffice.Util.TwipsConverter.CentimeterToTwips
+  isExternal: true
+  name: CentimeterToTwips
+  nameWithType: TwipsConverter.CentimeterToTwips
+  fullName: SuperOffice.Util.TwipsConverter.CentimeterToTwips
+- uid: SuperOffice.Util.TwipsConverter.InchesToTwips*
+  commentId: Overload:SuperOffice.Util.TwipsConverter.InchesToTwips
+  isExternal: true
+  name: InchesToTwips
+  nameWithType: TwipsConverter.InchesToTwips
+  fullName: SuperOffice.Util.TwipsConverter.InchesToTwips
+- uid: SuperOffice.Util.TwipsConverter.FromTwips*
+  commentId: Overload:SuperOffice.Util.TwipsConverter.FromTwips
+  isExternal: true
+  name: FromTwips
+  nameWithType: TwipsConverter.FromTwips
+  fullName: SuperOffice.Util.TwipsConverter.FromTwips
+- uid: SuperOffice.Data.LayoutUnits
+  commentId: T:SuperOffice.Data.LayoutUnits
+  parent: SuperOffice.Data
+  isExternal: true
+  name: LayoutUnits
+  nameWithType: LayoutUnits
+  fullName: SuperOffice.Data.LayoutUnits
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data

@@ -1,0 +1,366 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ArchiveConfiguration
+  commentId: T:SuperOffice.WebApi.Data.ArchiveConfiguration
+  id: ArchiveConfiguration
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ArchiveConfiguration.#ctor
+  - SuperOffice.WebApi.Data.ArchiveConfiguration.ArchiveColumnInfo
+  - SuperOffice.WebApi.Data.ArchiveConfiguration.ArchiveEntityInfo
+  - SuperOffice.WebApi.Data.ArchiveConfiguration.ArchiveOrderByInfo
+  - SuperOffice.WebApi.Data.ArchiveConfiguration.OwnerKeys
+  langs:
+  - csharp
+  - vb
+  name: ArchiveConfiguration
+  nameWithType: ArchiveConfiguration
+  fullName: SuperOffice.WebApi.Data.ArchiveConfiguration
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ArchiveConfiguration.\nThis service is used to store and fetch the configuration of an archive. The configuration consists of entities and columns; entities correspond to archive provider entities and the checkboxes you see in the bottom of standard archives. Column configuration includes both what columns should be visible, what order they are in (left to right), and whether the archive rows should be sorted by one or more columns.&lt;para/>Note that desired columns can be set through the selectable mdo list called archiveColumns:&amp;lt;perovider name&amp;gt;, and entities can be set through the selectable mdo list archiveEntities:&amp;lt;provider name&amp;gt;. You can also use the SetChosenEntities and SetChosenColumns method of this service. The selectable mdo list implementation is suitable for data binding using mdo list controls.    \n"
+  syntax:
+    content: 'public class ArchiveConfiguration : Carrier'
+    content.vb: >-
+      Public Class ArchiveConfiguration
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ArchiveAgent
+    commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ArchiveConfiguration.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ArchiveConfiguration.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ArchiveConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ArchiveConfiguration()
+  nameWithType: ArchiveConfiguration.ArchiveConfiguration()
+  fullName: SuperOffice.WebApi.Data.ArchiveConfiguration.ArchiveConfiguration()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ArchiveConfiguration()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ArchiveConfiguration.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ArchiveConfiguration.ArchiveColumnInfo
+  commentId: P:SuperOffice.WebApi.Data.ArchiveConfiguration.ArchiveColumnInfo
+  id: ArchiveColumnInfo
+  parent: SuperOffice.WebApi.Data.ArchiveConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ArchiveColumnInfo
+  nameWithType: ArchiveConfiguration.ArchiveColumnInfo
+  fullName: SuperOffice.WebApi.Data.ArchiveConfiguration.ArchiveColumnInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual ArchiveColumnInfo[] ArchiveColumnInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveColumnInfo[]
+    content.vb: Public Overridable Property ArchiveColumnInfo As ArchiveColumnInfo()
+  overload: SuperOffice.WebApi.Data.ArchiveConfiguration.ArchiveColumnInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ArchiveConfiguration.ArchiveEntityInfo
+  commentId: P:SuperOffice.WebApi.Data.ArchiveConfiguration.ArchiveEntityInfo
+  id: ArchiveEntityInfo
+  parent: SuperOffice.WebApi.Data.ArchiveConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ArchiveEntityInfo
+  nameWithType: ArchiveConfiguration.ArchiveEntityInfo
+  fullName: SuperOffice.WebApi.Data.ArchiveConfiguration.ArchiveEntityInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual SelectableMDOListItem[] ArchiveEntityInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.SelectableMDOListItem[]
+    content.vb: Public Overridable Property ArchiveEntityInfo As SelectableMDOListItem()
+  overload: SuperOffice.WebApi.Data.ArchiveConfiguration.ArchiveEntityInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ArchiveConfiguration.ArchiveOrderByInfo
+  commentId: P:SuperOffice.WebApi.Data.ArchiveConfiguration.ArchiveOrderByInfo
+  id: ArchiveOrderByInfo
+  parent: SuperOffice.WebApi.Data.ArchiveConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ArchiveOrderByInfo
+  nameWithType: ArchiveConfiguration.ArchiveOrderByInfo
+  fullName: SuperOffice.WebApi.Data.ArchiveConfiguration.ArchiveOrderByInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual ArchiveOrderByInfo[] ArchiveOrderByInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
+    content.vb: Public Overridable Property ArchiveOrderByInfo As ArchiveOrderByInfo()
+  overload: SuperOffice.WebApi.Data.ArchiveConfiguration.ArchiveOrderByInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ArchiveConfiguration.OwnerKeys
+  commentId: P:SuperOffice.WebApi.Data.ArchiveConfiguration.OwnerKeys
+  id: OwnerKeys
+  parent: SuperOffice.WebApi.Data.ArchiveConfiguration
+  langs:
+  - csharp
+  - vb
+  name: OwnerKeys
+  nameWithType: ArchiveConfiguration.OwnerKeys
+  fullName: SuperOffice.WebApi.Data.ArchiveConfiguration.OwnerKeys
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe actual ownership information for the configuration that was retrieved\n"
+  syntax:
+    content: public virtual string OwnerKeys { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property OwnerKeys As String
+  overload: SuperOffice.WebApi.Data.ArchiveConfiguration.OwnerKeys*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ArchiveConfiguration.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveConfiguration.#ctor
+  isExternal: true
+  name: ArchiveConfiguration
+  nameWithType: ArchiveConfiguration.ArchiveConfiguration
+  fullName: SuperOffice.WebApi.Data.ArchiveConfiguration.ArchiveConfiguration
+- uid: SuperOffice.WebApi.Data.ArchiveConfiguration.ArchiveColumnInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveConfiguration.ArchiveColumnInfo
+  isExternal: true
+  name: ArchiveColumnInfo
+  nameWithType: ArchiveConfiguration.ArchiveColumnInfo
+  fullName: SuperOffice.WebApi.Data.ArchiveConfiguration.ArchiveColumnInfo
+- uid: SuperOffice.WebApi.Data.ArchiveColumnInfo[]
+  isExternal: true
+  name: ArchiveColumnInfo[]
+  nameWithType: ArchiveColumnInfo[]
+  fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo[]
+  nameWithType.vb: ArchiveColumnInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveColumnInfo()
+  name.vb: ArchiveColumnInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveColumnInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.ArchiveConfiguration.ArchiveEntityInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveConfiguration.ArchiveEntityInfo
+  isExternal: true
+  name: ArchiveEntityInfo
+  nameWithType: ArchiveConfiguration.ArchiveEntityInfo
+  fullName: SuperOffice.WebApi.Data.ArchiveConfiguration.ArchiveEntityInfo
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem[]
+  isExternal: true
+  name: SelectableMDOListItem[]
+  nameWithType: SelectableMDOListItem[]
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem[]
+  nameWithType.vb: SelectableMDOListItem()
+  fullName.vb: SuperOffice.WebApi.Data.SelectableMDOListItem()
+  name.vb: SelectableMDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.WebApi.Data.SelectableMDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.WebApi.Data.SelectableMDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.ArchiveConfiguration.ArchiveOrderByInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveConfiguration.ArchiveOrderByInfo
+  isExternal: true
+  name: ArchiveOrderByInfo
+  nameWithType: ArchiveConfiguration.ArchiveOrderByInfo
+  fullName: SuperOffice.WebApi.Data.ArchiveConfiguration.ArchiveOrderByInfo
+- uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
+  isExternal: true
+  name: ArchiveOrderByInfo[]
+  nameWithType: ArchiveOrderByInfo[]
+  fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
+  nameWithType.vb: ArchiveOrderByInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveOrderByInfo()
+  name.vb: ArchiveOrderByInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.ArchiveConfiguration.OwnerKeys*
+  commentId: Overload:SuperOffice.WebApi.Data.ArchiveConfiguration.OwnerKeys
+  isExternal: true
+  name: OwnerKeys
+  nameWithType: ArchiveConfiguration.OwnerKeys
+  fullName: SuperOffice.WebApi.Data.ArchiveConfiguration.OwnerKeys
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

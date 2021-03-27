@@ -1,0 +1,482 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple
+  id: UserPreferenceStrings.Cripple
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Application
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Appointment
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Contact
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Diary
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Document
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Email
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Person
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Project
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Relation
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Reporter
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Sale
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Section
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Selection
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Travel
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.Cripple
+  nameWithType: UserPreferenceStrings.Cripple
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRemove groups of functionality from CRM.\n"
+  syntax:
+    content: 'public static class Cripple : Object'
+    content.vb: >-
+      Public Module Cripple
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.Cripple.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "Cripple"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "Cripple"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Application
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Application
+  id: Application
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Application
+  nameWithType: UserPreferenceStrings.Cripple.Application
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Application
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRemoves all external applications and user-defined buttons from SuperOffice CRM.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Application = "Application"
+    return:
+      type: System.String
+    content.vb: Public Const Application As String = "Application"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Appointment
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Appointment
+  id: Appointment
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Appointment
+  nameWithType: UserPreferenceStrings.Cripple.Appointment
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Appointment
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRemoves the follow-ups dialog from CRM. Follow-ups will still be visible in lists, but the dialog will be completely removed, making it impossible to add or edit appointments, tasks and sales in CRM.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Appointment = "Appointment"
+    return:
+      type: System.String
+    content.vb: Public Const Appointment As String = "Appointment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Contact
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Contact
+  id: Contact
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: UserPreferenceStrings.Cripple.Contact
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Contact
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRemoves the entire Company screen from CRM. Company names will still be visible in dialogs etc., but the screen itself (and the Navigator button for it) will be completely removed, making it impossible to edit Companies in CRM.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Contact = "Contact"
+    return:
+      type: System.String
+    content.vb: Public Const Contact As String = "Contact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Diary
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Diary
+  id: Diary
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Diary
+  nameWithType: UserPreferenceStrings.Cripple.Diary
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Diary
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRemoves the entire Diary screen from CRM. All diary-related functionality will be removed.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Diary = "Diary"
+    return:
+      type: System.String
+    content.vb: Public Const Diary As String = "Diary"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Document
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Document
+  id: Document
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Document
+  nameWithType: UserPreferenceStrings.Cripple.Document
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Document
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRemoves the Document dialog from CRM. Documents will still be visible in lists, but the dialog itself will be completely removed, making it impossible to create or edit documents in CRM.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Document = "Document"
+    return:
+      type: System.String
+    content.vb: Public Const Document As String = "Document"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Email
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Email
+  id: Email
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: UserPreferenceStrings.Cripple.Email
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Email
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRemoves the entire E-mail screen from CRM. All e-mail functionality will be removed.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Email = "Email"
+    return:
+      type: System.String
+    content.vb: Public Const Email As String = "Email"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Person
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Person
+  id: Person
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: UserPreferenceStrings.Cripple.Person
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Person
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRemoves the Contact dialog from CRM. Contact names will still be visible in lists, but the dialog itself will be completely removed, making it impossible to add or edit contacts in CRM.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Person = "Person"
+    return:
+      type: System.String
+    content.vb: Public Const Person As String = "Person"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Project
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Project
+  id: Project
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: UserPreferenceStrings.Cripple.Project
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Project
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRemoves the entire Project screen from CRM. Project names will still be visible in dialogs and lists, but the screen itself (and the Navigator button for it) will be completely removed, making it impossible to edit projects in CRM.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Project = "Project"
+    return:
+      type: System.String
+    content.vb: Public Const Project As String = "Project"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Relation
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Relation
+  id: Relation
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Relation
+  nameWithType: UserPreferenceStrings.Cripple.Relation
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Relation
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRemoves the Relations section tab from the Company screen\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Relation = "Relation"
+    return:
+      type: System.String
+    content.vb: Public Const Relation As String = "Relation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Reporter
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Reporter
+  id: Reporter
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Reporter
+  nameWithType: UserPreferenceStrings.Cripple.Reporter
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Reporter
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRemoves the Reports button and the Reports screen from CRM. Print buttons will still be available at various points in CRM.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Reporter = "Reporter"
+    return:
+      type: System.String
+    content.vb: Public Const Reporter As String = "Reporter"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Sale
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Sale
+  id: Sale
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Sale
+  nameWithType: UserPreferenceStrings.Cripple.Sale
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Sale
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRemoves the Sale dialog from CRM. Sales will still be visible in lists, but the dialog itself will be completely removed, making it impossible to add or edit sales in CRM.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Sale = "Sale"
+    return:
+      type: System.String
+    content.vb: Public Const Sale As String = "Sale"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Selection
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Selection
+  id: Selection
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Selection
+  nameWithType: UserPreferenceStrings.Cripple.Selection
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Selection
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRemoves the entire Selection screen from CRM. All selection-related functionality will be removed.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Selection = "Selection"
+    return:
+      type: System.String
+    content.vb: Public Const Selection As String = "Selection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Travel
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Travel
+  id: Travel
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple
+  langs:
+  - csharp
+  - vb
+  name: Travel
+  nameWithType: UserPreferenceStrings.Cripple.Travel
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Cripple.Travel
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRemoves all Travel functionality from CRM.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Travel = "Travel"
+    return:
+      type: System.String
+    content.vb: Public Const Travel As String = "Travel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.RequiredDynamicLoad
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.RequiredDynamicLoad
+  id: UserPreferenceStrings.RequiredDynamicLoad
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.RequiredDynamicLoad.Section
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.RequiredDynamicLoad
+  nameWithType: UserPreferenceStrings.RequiredDynamicLoad
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.RequiredDynamicLoad
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRequired dynamic load:  Add new preference section for NetServer only [RequiredDynamicLoad] name = regexp\n"
+  remarks: "\nThis mechanism is more general than [SentryAddonNames] - it applies to all dynamic loaded \nassemblies in NetServer. \nMissing any one these required assemblies will cause NetServer to fail. The regexp is used \nto match against the loaded assemblies full names (including version and strongname). This \nallows a preference to match more than one possible name. Using the full name allows a \npreference to match a strong name, so that it is harder to fake out with a dummy \nreplacement assembly. \n"
+  syntax:
+    content: 'public static class RequiredDynamicLoad : Object'
+    content.vb: >-
+      Public Module RequiredDynamicLoad
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.RequiredDynamicLoad.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.RequiredDynamicLoad.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.RequiredDynamicLoad
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.RequiredDynamicLoad.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.RequiredDynamicLoad.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "RequiredDynamicLoad"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "RequiredDynamicLoad"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

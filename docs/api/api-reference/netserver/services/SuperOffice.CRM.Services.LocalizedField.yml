@@ -1,0 +1,413 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.LocalizedField
+  commentId: T:SuperOffice.CRM.Services.LocalizedField
+  id: LocalizedField
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.LocalizedField.#ctor
+  - SuperOffice.CRM.Services.LocalizedField.AddressType
+  - SuperOffice.CRM.Services.LocalizedField.Label
+  - SuperOffice.CRM.Services.LocalizedField.Name
+  - SuperOffice.CRM.Services.LocalizedField.Tooltip
+  - SuperOffice.CRM.Services.LocalizedField.ToString
+  - SuperOffice.CRM.Services.LocalizedField.ToString(System.String)
+  - SuperOffice.CRM.Services.LocalizedField.Value
+  - SuperOffice.CRM.Services.LocalizedField.ValueLength
+  langs:
+  - csharp
+  - vb
+  name: LocalizedField
+  nameWithType: LocalizedField
+  fullName: SuperOffice.CRM.Services.LocalizedField
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLocalizedField is used to store localized information such as formatted address data, a formatted phone number, etc.\n<p></p>\nCarrier object for LocalizedField.\n"
+  syntax:
+    content: 'public class LocalizedField : Carrier'
+    content.vb: >-
+      Public Class LocalizedField
+          Inherits Carrier
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.LocalizedField.#ctor
+  commentId: M:SuperOffice.CRM.Services.LocalizedField.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.LocalizedField
+  langs:
+  - csharp
+  - vb
+  name: LocalizedField()
+  nameWithType: LocalizedField.LocalizedField()
+  fullName: SuperOffice.CRM.Services.LocalizedField.LocalizedField()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public LocalizedField()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.LocalizedField.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.LocalizedField.ToString
+  commentId: M:SuperOffice.CRM.Services.LocalizedField.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.LocalizedField
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: LocalizedField.ToString()
+  fullName: SuperOffice.CRM.Services.LocalizedField.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.LocalizedField.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.LocalizedField.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.LocalizedField.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.LocalizedField
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: LocalizedField.ToString(String)
+  fullName: SuperOffice.CRM.Services.LocalizedField.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.LocalizedField.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.LocalizedField.Name
+  commentId: P:SuperOffice.CRM.Services.LocalizedField.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.LocalizedField
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: LocalizedField.Name
+  fullName: SuperOffice.CRM.Services.LocalizedField.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of the value field \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.LocalizedField.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.LocalizedField.Value
+  commentId: P:SuperOffice.CRM.Services.LocalizedField.Value
+  id: Value
+  parent: SuperOffice.CRM.Services.LocalizedField
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: LocalizedField.Value
+  fullName: SuperOffice.CRM.Services.LocalizedField.Value
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe field&apos;s value \n"
+  syntax:
+    content: public virtual string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Value As String
+  overload: SuperOffice.CRM.Services.LocalizedField.Value*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.LocalizedField.Tooltip
+  commentId: P:SuperOffice.CRM.Services.LocalizedField.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Services.LocalizedField
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: LocalizedField.Tooltip
+  fullName: SuperOffice.CRM.Services.LocalizedField.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe tooltip \n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.CRM.Services.LocalizedField.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.LocalizedField.Label
+  commentId: P:SuperOffice.CRM.Services.LocalizedField.Label
+  id: Label
+  parent: SuperOffice.CRM.Services.LocalizedField
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: LocalizedField.Label
+  fullName: SuperOffice.CRM.Services.LocalizedField.Label
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe label of the field \n"
+  syntax:
+    content: public virtual string Label { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Label As String
+  overload: SuperOffice.CRM.Services.LocalizedField.Label*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.LocalizedField.ValueLength
+  commentId: P:SuperOffice.CRM.Services.LocalizedField.ValueLength
+  id: ValueLength
+  parent: SuperOffice.CRM.Services.LocalizedField
+  langs:
+  - csharp
+  - vb
+  name: ValueLength
+  nameWithType: LocalizedField.ValueLength
+  fullName: SuperOffice.CRM.Services.LocalizedField.ValueLength
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDatabase length of the value \n"
+  syntax:
+    content: public virtual int ValueLength { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ValueLength As Integer
+  overload: SuperOffice.CRM.Services.LocalizedField.ValueLength*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.LocalizedField.AddressType
+  commentId: P:SuperOffice.CRM.Services.LocalizedField.AddressType
+  id: AddressType
+  parent: SuperOffice.CRM.Services.LocalizedField
+  langs:
+  - csharp
+  - vb
+  name: AddressType
+  nameWithType: LocalizedField.AddressType
+  fullName: SuperOffice.CRM.Services.LocalizedField.AddressType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual string AddressType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property AddressType As String
+  overload: SuperOffice.CRM.Services.LocalizedField.AddressType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.LocalizedField.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.LocalizedField.#ctor
+  isExternal: true
+  name: LocalizedField
+  nameWithType: LocalizedField.LocalizedField
+  fullName: SuperOffice.CRM.Services.LocalizedField.LocalizedField
+- uid: SuperOffice.CRM.Services.LocalizedField.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.LocalizedField.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: LocalizedField.ToString
+  fullName: SuperOffice.CRM.Services.LocalizedField.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.LocalizedField.Name*
+  commentId: Overload:SuperOffice.CRM.Services.LocalizedField.Name
+  isExternal: true
+  name: Name
+  nameWithType: LocalizedField.Name
+  fullName: SuperOffice.CRM.Services.LocalizedField.Name
+- uid: SuperOffice.CRM.Services.LocalizedField.Value*
+  commentId: Overload:SuperOffice.CRM.Services.LocalizedField.Value
+  isExternal: true
+  name: Value
+  nameWithType: LocalizedField.Value
+  fullName: SuperOffice.CRM.Services.LocalizedField.Value
+- uid: SuperOffice.CRM.Services.LocalizedField.Tooltip*
+  commentId: Overload:SuperOffice.CRM.Services.LocalizedField.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: LocalizedField.Tooltip
+  fullName: SuperOffice.CRM.Services.LocalizedField.Tooltip
+- uid: SuperOffice.CRM.Services.LocalizedField.Label*
+  commentId: Overload:SuperOffice.CRM.Services.LocalizedField.Label
+  isExternal: true
+  name: Label
+  nameWithType: LocalizedField.Label
+  fullName: SuperOffice.CRM.Services.LocalizedField.Label
+- uid: SuperOffice.CRM.Services.LocalizedField.ValueLength*
+  commentId: Overload:SuperOffice.CRM.Services.LocalizedField.ValueLength
+  isExternal: true
+  name: ValueLength
+  nameWithType: LocalizedField.ValueLength
+  fullName: SuperOffice.CRM.Services.LocalizedField.ValueLength
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.LocalizedField.AddressType*
+  commentId: Overload:SuperOffice.CRM.Services.LocalizedField.AddressType
+  isExternal: true
+  name: AddressType
+  nameWithType: LocalizedField.AddressType
+  fullName: SuperOffice.CRM.Services.LocalizedField.AddressType

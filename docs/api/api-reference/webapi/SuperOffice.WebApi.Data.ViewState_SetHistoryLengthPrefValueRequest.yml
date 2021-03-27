@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest
+  commentId: T:SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest
+  id: ViewState_SetHistoryLengthPrefValueRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest.#ctor
+  - SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest.Length
+  langs:
+  - csharp
+  - vb
+  name: ViewState_SetHistoryLengthPrefValueRequest
+  nameWithType: ViewState_SetHistoryLengthPrefValueRequest
+  fullName: SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ViewState_SetHistoryLengthPrefValueRequest : Object'
+    content.vb: >-
+      Public Class ViewState_SetHistoryLengthPrefValueRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest
+  langs:
+  - csharp
+  - vb
+  name: ViewState_SetHistoryLengthPrefValueRequest()
+  nameWithType: ViewState_SetHistoryLengthPrefValueRequest.ViewState_SetHistoryLengthPrefValueRequest()
+  fullName: SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest.ViewState_SetHistoryLengthPrefValueRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ViewState_SetHistoryLengthPrefValueRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest.Length
+  commentId: P:SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest.Length
+  id: Length
+  parent: SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: ViewState_SetHistoryLengthPrefValueRequest.Length
+  fullName: SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest.Length
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Length { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Length As Integer
+  overload: SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest.Length*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest.#ctor
+  isExternal: true
+  name: ViewState_SetHistoryLengthPrefValueRequest
+  nameWithType: ViewState_SetHistoryLengthPrefValueRequest.ViewState_SetHistoryLengthPrefValueRequest
+  fullName: SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest.ViewState_SetHistoryLengthPrefValueRequest
+- uid: SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest.Length*
+  commentId: Overload:SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest.Length
+  isExternal: true
+  name: Length
+  nameWithType: ViewState_SetHistoryLengthPrefValueRequest.Length
+  fullName: SuperOffice.WebApi.Data.ViewState_SetHistoryLengthPrefValueRequest.Length
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

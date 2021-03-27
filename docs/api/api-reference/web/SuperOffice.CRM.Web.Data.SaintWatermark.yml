@@ -1,0 +1,639 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.SaintWatermark
+  commentId: T:SuperOffice.CRM.Web.Data.SaintWatermark
+  id: SaintWatermark
+  parent: SuperOffice.CRM.Web.Data
+  children:
+  - SuperOffice.CRM.Web.Data.SaintWatermark.#ctor(System.String,SuperOffice.CRM.Services.StatusMonitor[])
+  - SuperOffice.CRM.Web.Data.SaintWatermark._statusMonitors
+  - SuperOffice.CRM.Web.Data.SaintWatermark.StatusMonitorId
+  - SuperOffice.CRM.Web.Data.SaintWatermark.Tooltip
+  - SuperOffice.CRM.Web.Data.SaintWatermark.Type
+  - SuperOffice.CRM.Web.Data.SaintWatermark.WatermarkUrl
+  langs:
+  - csharp
+  - vb
+  name: SaintWatermark
+  nameWithType: SaintWatermark
+  fullName: SuperOffice.CRM.Web.Data.SaintWatermark
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: 'public class SaintWatermark : Watermark'
+    content.vb: >-
+      Public Class SaintWatermark
+          Inherits Watermark
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Web.Data.Watermark
+  inheritedMembers:
+  - SuperOffice.CRM.Web.Data.Watermark._type
+  - SuperOffice.CRM.Web.Data.Watermark._defaultCondition
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Data.SaintWatermark._statusMonitors
+  commentId: F:SuperOffice.CRM.Web.Data.SaintWatermark._statusMonitors
+  id: _statusMonitors
+  parent: SuperOffice.CRM.Web.Data.SaintWatermark
+  langs:
+  - csharp
+  - vb
+  name: _statusMonitors
+  nameWithType: SaintWatermark._statusMonitors
+  fullName: SuperOffice.CRM.Web.Data.SaintWatermark._statusMonitors
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: protected StatusMonitor[] _statusMonitors
+    return:
+      type: SuperOffice.CRM.Services.StatusMonitor[]
+    content.vb: Protected _statusMonitors As StatusMonitor()
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.Data.SaintWatermark.#ctor(System.String,SuperOffice.CRM.Services.StatusMonitor[])
+  commentId: M:SuperOffice.CRM.Web.Data.SaintWatermark.#ctor(System.String,SuperOffice.CRM.Services.StatusMonitor[])
+  id: '#ctor(System.String,SuperOffice.CRM.Services.StatusMonitor[])'
+  parent: SuperOffice.CRM.Web.Data.SaintWatermark
+  langs:
+  - csharp
+  - vb
+  name: SaintWatermark(String, StatusMonitor[])
+  nameWithType: SaintWatermark.SaintWatermark(String, StatusMonitor[])
+  fullName: SuperOffice.CRM.Web.Data.SaintWatermark.SaintWatermark(System.String, SuperOffice.CRM.Services.StatusMonitor[])
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public SaintWatermark(string type, StatusMonitor[] statusMonitors)
+    parameters:
+    - id: type
+      type: System.String
+    - id: statusMonitors
+      type: SuperOffice.CRM.Services.StatusMonitor[]
+    content.vb: Public Sub New(type As String, statusMonitors As StatusMonitor())
+  overload: SuperOffice.CRM.Web.Data.SaintWatermark.#ctor*
+  nameWithType.vb: SaintWatermark.SaintWatermark(String, StatusMonitor())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Web.Data.SaintWatermark.SaintWatermark(System.String, SuperOffice.CRM.Services.StatusMonitor())
+  name.vb: SaintWatermark(String, StatusMonitor())
+- uid: SuperOffice.CRM.Web.Data.SaintWatermark.WatermarkUrl
+  commentId: P:SuperOffice.CRM.Web.Data.SaintWatermark.WatermarkUrl
+  id: WatermarkUrl
+  parent: SuperOffice.CRM.Web.Data.SaintWatermark
+  langs:
+  - csharp
+  - vb
+  name: WatermarkUrl
+  nameWithType: SaintWatermark.WatermarkUrl
+  fullName: SuperOffice.CRM.Web.Data.SaintWatermark.WatermarkUrl
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public override string WatermarkUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property WatermarkUrl As String
+  overridden: SuperOffice.CRM.Web.Data.Watermark.WatermarkUrl
+  overload: SuperOffice.CRM.Web.Data.SaintWatermark.WatermarkUrl*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.Data.SaintWatermark.Tooltip
+  commentId: P:SuperOffice.CRM.Web.Data.SaintWatermark.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Web.Data.SaintWatermark
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: SaintWatermark.Tooltip
+  fullName: SuperOffice.CRM.Web.Data.SaintWatermark.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public override string Tooltip { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property Tooltip As String
+  overridden: SuperOffice.CRM.Web.Data.Watermark.Tooltip
+  overload: SuperOffice.CRM.Web.Data.SaintWatermark.Tooltip*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.Data.SaintWatermark.StatusMonitorId
+  commentId: P:SuperOffice.CRM.Web.Data.SaintWatermark.StatusMonitorId
+  id: StatusMonitorId
+  parent: SuperOffice.CRM.Web.Data.SaintWatermark
+  langs:
+  - csharp
+  - vb
+  name: StatusMonitorId
+  nameWithType: SaintWatermark.StatusMonitorId
+  fullName: SuperOffice.CRM.Web.Data.SaintWatermark.StatusMonitorId
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public int StatusMonitorId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property StatusMonitorId As Integer
+  overload: SuperOffice.CRM.Web.Data.SaintWatermark.StatusMonitorId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.Data.SaintWatermark.Type
+  commentId: P:SuperOffice.CRM.Web.Data.SaintWatermark.Type
+  id: Type
+  parent: SuperOffice.CRM.Web.Data.SaintWatermark
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: SaintWatermark.Type
+  fullName: SuperOffice.CRM.Web.Data.SaintWatermark.Type
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public string Type { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Type As String
+  overload: SuperOffice.CRM.Web.Data.SaintWatermark.Type*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Web.Data
+  commentId: N:SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: SuperOffice.CRM.Web.Data
+  nameWithType: SuperOffice.CRM.Web.Data
+  fullName: SuperOffice.CRM.Web.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Web.Data.Watermark
+  commentId: T:SuperOffice.CRM.Web.Data.Watermark
+  parent: SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: Watermark
+  nameWithType: Watermark
+  fullName: SuperOffice.CRM.Web.Data.Watermark
+- uid: SuperOffice.CRM.Web.Data.Watermark._type
+  commentId: F:SuperOffice.CRM.Web.Data.Watermark._type
+  parent: SuperOffice.CRM.Web.Data.Watermark
+  isExternal: true
+  name: _type
+  nameWithType: Watermark._type
+  fullName: SuperOffice.CRM.Web.Data.Watermark._type
+- uid: SuperOffice.CRM.Web.Data.Watermark._defaultCondition
+  commentId: F:SuperOffice.CRM.Web.Data.Watermark._defaultCondition
+  parent: SuperOffice.CRM.Web.Data.Watermark
+  isExternal: true
+  name: _defaultCondition
+  nameWithType: Watermark._defaultCondition
+  fullName: SuperOffice.CRM.Web.Data.Watermark._defaultCondition
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.StatusMonitor[]
+  isExternal: true
+  name: StatusMonitor[]
+  nameWithType: StatusMonitor[]
+  fullName: SuperOffice.CRM.Services.StatusMonitor[]
+  nameWithType.vb: StatusMonitor()
+  fullName.vb: SuperOffice.CRM.Services.StatusMonitor()
+  name.vb: StatusMonitor()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.StatusMonitor
+    name: StatusMonitor
+    nameWithType: StatusMonitor
+    fullName: SuperOffice.CRM.Services.StatusMonitor
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.StatusMonitor
+    name: StatusMonitor
+    nameWithType: StatusMonitor
+    fullName: SuperOffice.CRM.Services.StatusMonitor
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.Data.SaintWatermark.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Data.SaintWatermark.#ctor
+  isExternal: true
+  name: SaintWatermark
+  nameWithType: SaintWatermark.SaintWatermark
+  fullName: SuperOffice.CRM.Web.Data.SaintWatermark.SaintWatermark
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Data.Watermark.WatermarkUrl
+  commentId: P:SuperOffice.CRM.Web.Data.Watermark.WatermarkUrl
+  parent: SuperOffice.CRM.Web.Data.Watermark
+  isExternal: true
+  name: WatermarkUrl
+  nameWithType: Watermark.WatermarkUrl
+  fullName: SuperOffice.CRM.Web.Data.Watermark.WatermarkUrl
+- uid: SuperOffice.CRM.Web.Data.SaintWatermark.WatermarkUrl*
+  commentId: Overload:SuperOffice.CRM.Web.Data.SaintWatermark.WatermarkUrl
+  isExternal: true
+  name: WatermarkUrl
+  nameWithType: SaintWatermark.WatermarkUrl
+  fullName: SuperOffice.CRM.Web.Data.SaintWatermark.WatermarkUrl
+- uid: SuperOffice.CRM.Web.Data.Watermark.Tooltip
+  commentId: P:SuperOffice.CRM.Web.Data.Watermark.Tooltip
+  parent: SuperOffice.CRM.Web.Data.Watermark
+  isExternal: true
+  name: Tooltip
+  nameWithType: Watermark.Tooltip
+  fullName: SuperOffice.CRM.Web.Data.Watermark.Tooltip
+- uid: SuperOffice.CRM.Web.Data.SaintWatermark.Tooltip*
+  commentId: Overload:SuperOffice.CRM.Web.Data.SaintWatermark.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: SaintWatermark.Tooltip
+  fullName: SuperOffice.CRM.Web.Data.SaintWatermark.Tooltip
+- uid: SuperOffice.CRM.Web.Data.SaintWatermark.StatusMonitorId*
+  commentId: Overload:SuperOffice.CRM.Web.Data.SaintWatermark.StatusMonitorId
+  isExternal: true
+  name: StatusMonitorId
+  nameWithType: SaintWatermark.StatusMonitorId
+  fullName: SuperOffice.CRM.Web.Data.SaintWatermark.StatusMonitorId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.Data.SaintWatermark.Type*
+  commentId: Overload:SuperOffice.CRM.Web.Data.SaintWatermark.Type
+  isExternal: true
+  name: Type
+  nameWithType: SaintWatermark.Type
+  fullName: SuperOffice.CRM.Web.Data.SaintWatermark.Type

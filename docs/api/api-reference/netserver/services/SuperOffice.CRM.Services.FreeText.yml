@@ -1,0 +1,490 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.FreeText
+  commentId: T:SuperOffice.CRM.Services.FreeText
+  id: FreeText
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.FreeText.#ctor
+  - SuperOffice.CRM.Services.FreeText.AutoEnableTravelAreas
+  - SuperOffice.CRM.Services.FreeText.CountWords
+  - SuperOffice.CRM.Services.FreeText.FreeTextEnabled
+  - SuperOffice.CRM.Services.FreeText.LastGenerated
+  - SuperOffice.CRM.Services.FreeText.MultiWordOperator
+  - SuperOffice.CRM.Services.FreeText.Occurrences
+  - SuperOffice.CRM.Services.FreeText.SingleWordOperator
+  - SuperOffice.CRM.Services.FreeText.ToString
+  - SuperOffice.CRM.Services.FreeText.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: FreeText
+  nameWithType: FreeText
+  fullName: SuperOffice.CRM.Services.FreeText
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUsed to manage freetext search.\n<p></p>\nCarrier object for FreeText.\nServices for the FreeText Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IFreeTextAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class FreeText : Carrier'
+    content.vb: >-
+      Public Class FreeText
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.FreeTextAgent
+    commentId: T:SuperOffice.CRM.Services.FreeTextAgent
+  - linkId: SuperOffice.CRM.Services.IFreeTextAgent
+    commentId: T:SuperOffice.CRM.Services.IFreeTextAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.FreeText.#ctor
+  commentId: M:SuperOffice.CRM.Services.FreeText.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.FreeText
+  langs:
+  - csharp
+  - vb
+  name: FreeText()
+  nameWithType: FreeText.FreeText()
+  fullName: SuperOffice.CRM.Services.FreeText.FreeText()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public FreeText()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.FreeText.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.FreeText.ToString
+  commentId: M:SuperOffice.CRM.Services.FreeText.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.FreeText
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: FreeText.ToString()
+  fullName: SuperOffice.CRM.Services.FreeText.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.FreeText.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.FreeText.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.FreeText.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.FreeText
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: FreeText.ToString(String)
+  fullName: SuperOffice.CRM.Services.FreeText.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.FreeText.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.FreeText.FreeTextEnabled
+  commentId: P:SuperOffice.CRM.Services.FreeText.FreeTextEnabled
+  id: FreeTextEnabled
+  parent: SuperOffice.CRM.Services.FreeText
+  langs:
+  - csharp
+  - vb
+  name: FreeTextEnabled
+  nameWithType: FreeText.FreeTextEnabled
+  fullName: SuperOffice.CRM.Services.FreeText.FreeTextEnabled
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue if freetext search enabled \n"
+  syntax:
+    content: public virtual bool FreeTextEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property FreeTextEnabled As Boolean
+  overload: SuperOffice.CRM.Services.FreeText.FreeTextEnabled*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FreeText.SingleWordOperator
+  commentId: P:SuperOffice.CRM.Services.FreeText.SingleWordOperator
+  id: SingleWordOperator
+  parent: SuperOffice.CRM.Services.FreeText
+  langs:
+  - csharp
+  - vb
+  name: SingleWordOperator
+  nameWithType: FreeText.SingleWordOperator
+  fullName: SuperOffice.CRM.Services.FreeText.SingleWordOperator
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStarts with, contains or exact match \n"
+  syntax:
+    content: public virtual FreeTextOperator SingleWordOperator { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.FreeTextOperator
+    content.vb: Public Overridable Property SingleWordOperator As FreeTextOperator
+  overload: SuperOffice.CRM.Services.FreeText.SingleWordOperator*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FreeText.MultiWordOperator
+  commentId: P:SuperOffice.CRM.Services.FreeText.MultiWordOperator
+  id: MultiWordOperator
+  parent: SuperOffice.CRM.Services.FreeText
+  langs:
+  - csharp
+  - vb
+  name: MultiWordOperator
+  nameWithType: FreeText.MultiWordOperator
+  fullName: SuperOffice.CRM.Services.FreeText.MultiWordOperator
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStarts with, contains or exact match \n"
+  syntax:
+    content: public virtual FreeTextOperator MultiWordOperator { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.FreeTextOperator
+    content.vb: Public Overridable Property MultiWordOperator As FreeTextOperator
+  overload: SuperOffice.CRM.Services.FreeText.MultiWordOperator*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FreeText.CountWords
+  commentId: P:SuperOffice.CRM.Services.FreeText.CountWords
+  id: CountWords
+  parent: SuperOffice.CRM.Services.FreeText
+  langs:
+  - csharp
+  - vb
+  name: CountWords
+  nameWithType: FreeText.CountWords
+  fullName: SuperOffice.CRM.Services.FreeText.CountWords
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCount of unique search words \n"
+  syntax:
+    content: public virtual int CountWords { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CountWords As Integer
+  overload: SuperOffice.CRM.Services.FreeText.CountWords*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FreeText.Occurrences
+  commentId: P:SuperOffice.CRM.Services.FreeText.Occurrences
+  id: Occurrences
+  parent: SuperOffice.CRM.Services.FreeText
+  langs:
+  - csharp
+  - vb
+  name: Occurrences
+  nameWithType: FreeText.Occurrences
+  fullName: SuperOffice.CRM.Services.FreeText.Occurrences
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTotal count of search words \n"
+  syntax:
+    content: public virtual int Occurrences { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Occurrences As Integer
+  overload: SuperOffice.CRM.Services.FreeText.Occurrences*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FreeText.LastGenerated
+  commentId: P:SuperOffice.CRM.Services.FreeText.LastGenerated
+  id: LastGenerated
+  parent: SuperOffice.CRM.Services.FreeText
+  langs:
+  - csharp
+  - vb
+  name: LastGenerated
+  nameWithType: FreeText.LastGenerated
+  fullName: SuperOffice.CRM.Services.FreeText.LastGenerated
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLast time search has been generated \n"
+  syntax:
+    content: public virtual DateTime LastGenerated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property LastGenerated As Date
+  overload: SuperOffice.CRM.Services.FreeText.LastGenerated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FreeText.AutoEnableTravelAreas
+  commentId: P:SuperOffice.CRM.Services.FreeText.AutoEnableTravelAreas
+  id: AutoEnableTravelAreas
+  parent: SuperOffice.CRM.Services.FreeText
+  langs:
+  - csharp
+  - vb
+  name: AutoEnableTravelAreas
+  nameWithType: FreeText.AutoEnableTravelAreas
+  fullName: SuperOffice.CRM.Services.FreeText.AutoEnableTravelAreas
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAutomatically enable freetext search for new travel areas \n"
+  syntax:
+    content: public virtual bool AutoEnableTravelAreas { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property AutoEnableTravelAreas As Boolean
+  overload: SuperOffice.CRM.Services.FreeText.AutoEnableTravelAreas*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.FreeTextAgent
+  commentId: T:SuperOffice.CRM.Services.FreeTextAgent
+  isExternal: true
+  name: FreeTextAgent
+  nameWithType: FreeTextAgent
+  fullName: SuperOffice.CRM.Services.FreeTextAgent
+- uid: SuperOffice.CRM.Services.IFreeTextAgent
+  commentId: T:SuperOffice.CRM.Services.IFreeTextAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IFreeTextAgent
+  nameWithType: IFreeTextAgent
+  fullName: SuperOffice.CRM.Services.IFreeTextAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.FreeText.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.FreeText.#ctor
+  isExternal: true
+  name: FreeText
+  nameWithType: FreeText.FreeText
+  fullName: SuperOffice.CRM.Services.FreeText.FreeText
+- uid: SuperOffice.CRM.Services.FreeText.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.FreeText.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: FreeText.ToString
+  fullName: SuperOffice.CRM.Services.FreeText.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.FreeText.FreeTextEnabled*
+  commentId: Overload:SuperOffice.CRM.Services.FreeText.FreeTextEnabled
+  isExternal: true
+  name: FreeTextEnabled
+  nameWithType: FreeText.FreeTextEnabled
+  fullName: SuperOffice.CRM.Services.FreeText.FreeTextEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.FreeText.SingleWordOperator*
+  commentId: Overload:SuperOffice.CRM.Services.FreeText.SingleWordOperator
+  isExternal: true
+  name: SingleWordOperator
+  nameWithType: FreeText.SingleWordOperator
+  fullName: SuperOffice.CRM.Services.FreeText.SingleWordOperator
+- uid: SuperOffice.Data.FreeTextOperator
+  isExternal: true
+  name: FreeTextOperator
+  nameWithType: FreeTextOperator
+  fullName: SuperOffice.Data.FreeTextOperator
+- uid: SuperOffice.CRM.Services.FreeText.MultiWordOperator*
+  commentId: Overload:SuperOffice.CRM.Services.FreeText.MultiWordOperator
+  isExternal: true
+  name: MultiWordOperator
+  nameWithType: FreeText.MultiWordOperator
+  fullName: SuperOffice.CRM.Services.FreeText.MultiWordOperator
+- uid: SuperOffice.CRM.Services.FreeText.CountWords*
+  commentId: Overload:SuperOffice.CRM.Services.FreeText.CountWords
+  isExternal: true
+  name: CountWords
+  nameWithType: FreeText.CountWords
+  fullName: SuperOffice.CRM.Services.FreeText.CountWords
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.FreeText.Occurrences*
+  commentId: Overload:SuperOffice.CRM.Services.FreeText.Occurrences
+  isExternal: true
+  name: Occurrences
+  nameWithType: FreeText.Occurrences
+  fullName: SuperOffice.CRM.Services.FreeText.Occurrences
+- uid: SuperOffice.CRM.Services.FreeText.LastGenerated*
+  commentId: Overload:SuperOffice.CRM.Services.FreeText.LastGenerated
+  isExternal: true
+  name: LastGenerated
+  nameWithType: FreeText.LastGenerated
+  fullName: SuperOffice.CRM.Services.FreeText.LastGenerated
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.FreeText.AutoEnableTravelAreas*
+  commentId: Overload:SuperOffice.CRM.Services.FreeText.AutoEnableTravelAreas
+  isExternal: true
+  name: AutoEnableTravelAreas
+  nameWithType: FreeText.AutoEnableTravelAreas
+  fullName: SuperOffice.CRM.Services.FreeText.AutoEnableTravelAreas

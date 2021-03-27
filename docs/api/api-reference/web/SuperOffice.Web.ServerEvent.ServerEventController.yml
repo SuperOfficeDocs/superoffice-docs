@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.ServerEvent.ServerEventController
+  commentId: T:SuperOffice.Web.ServerEvent.ServerEventController
+  id: ServerEventController
+  parent: SuperOffice.Web.ServerEvent
+  children:
+  - SuperOffice.Web.ServerEvent.ServerEventController.#ctor
+  - SuperOffice.Web.ServerEvent.ServerEventController.CallEndExecuteOnPlugins(SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult)
+  langs:
+  - csharp
+  - vb
+  name: ServerEventController
+  nameWithType: ServerEventController
+  fullName: SuperOffice.Web.ServerEvent.ServerEventController
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.ServerEvent
+  syntax:
+    content: 'public class ServerEventController : ApiController, IRequiresSessionState'
+    content.vb: >-
+      Public Class ServerEventController
+          Inherits ApiController
+          Implements IRequiresSessionState
+  inheritance:
+  - System.Object
+  implements:
+  - System.Web.SessionState.IRequiresSessionState
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.ServerEvent.ServerEventController.#ctor
+  commentId: M:SuperOffice.Web.ServerEvent.ServerEventController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.ServerEvent.ServerEventController
+  langs:
+  - csharp
+  - vb
+  name: ServerEventController()
+  nameWithType: ServerEventController.ServerEventController()
+  fullName: SuperOffice.Web.ServerEvent.ServerEventController.ServerEventController()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.ServerEvent
+  syntax:
+    content: public ServerEventController()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.ServerEvent.ServerEventController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.ServerEvent.ServerEventController.CallEndExecuteOnPlugins(SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult)
+  commentId: M:SuperOffice.Web.ServerEvent.ServerEventController.CallEndExecuteOnPlugins(SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult)
+  id: CallEndExecuteOnPlugins(SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult)
+  parent: SuperOffice.Web.ServerEvent.ServerEventController
+  langs:
+  - csharp
+  - vb
+  name: CallEndExecuteOnPlugins(ServerEventObjResult)
+  nameWithType: ServerEventController.CallEndExecuteOnPlugins(ServerEventObjResult)
+  fullName: SuperOffice.Web.ServerEvent.ServerEventController.CallEndExecuteOnPlugins(SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.ServerEvent
+  syntax:
+    content: public void CallEndExecuteOnPlugins(ServerEventObjResult serverEventsRequest)
+    parameters:
+    - id: serverEventsRequest
+      type: SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult
+    content.vb: Public Sub CallEndExecuteOnPlugins(serverEventsRequest As ServerEventObjResult)
+  overload: SuperOffice.Web.ServerEvent.ServerEventController.CallEndExecuteOnPlugins*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Web.ServerEvent
+  commentId: N:SuperOffice.Web.ServerEvent
+  isExternal: true
+  name: SuperOffice.Web.ServerEvent
+  nameWithType: SuperOffice.Web.ServerEvent
+  fullName: SuperOffice.Web.ServerEvent
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.SessionState.IRequiresSessionState
+  isExternal: true
+  name: IRequiresSessionState
+  nameWithType: IRequiresSessionState
+  fullName: System.Web.SessionState.IRequiresSessionState
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.ServerEvent.ServerEventController.#ctor*
+  commentId: Overload:SuperOffice.Web.ServerEvent.ServerEventController.#ctor
+  isExternal: true
+  name: ServerEventController
+  nameWithType: ServerEventController.ServerEventController
+  fullName: SuperOffice.Web.ServerEvent.ServerEventController.ServerEventController
+- uid: SuperOffice.Web.ServerEvent.ServerEventController.CallEndExecuteOnPlugins*
+  commentId: Overload:SuperOffice.Web.ServerEvent.ServerEventController.CallEndExecuteOnPlugins
+  isExternal: true
+  name: CallEndExecuteOnPlugins
+  nameWithType: ServerEventController.CallEndExecuteOnPlugins
+  fullName: SuperOffice.Web.ServerEvent.ServerEventController.CallEndExecuteOnPlugins
+- uid: SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult
+  commentId: T:SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult
+  parent: SuperOffice.DCF.Web.ServerEvent
+  isExternal: true
+  name: ServerEventObjResult
+  nameWithType: ServerEventObjResult
+  fullName: SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult
+- uid: SuperOffice.DCF.Web.ServerEvent
+  commentId: N:SuperOffice.DCF.Web.ServerEvent
+  isExternal: true
+  name: SuperOffice.DCF.Web.ServerEvent
+  nameWithType: SuperOffice.DCF.Web.ServerEvent
+  fullName: SuperOffice.DCF.Web.ServerEvent

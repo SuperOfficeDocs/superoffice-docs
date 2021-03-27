@@ -1,0 +1,229 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.MDO_SetSelectedRequest
+  commentId: T:SuperOffice.WebApi.Data.MDO_SetSelectedRequest
+  id: MDO_SetSelectedRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.MDO_SetSelectedRequest.#ctor
+  - SuperOffice.WebApi.Data.MDO_SetSelectedRequest.AdditionalInfo
+  - SuperOffice.WebApi.Data.MDO_SetSelectedRequest.Name
+  - SuperOffice.WebApi.Data.MDO_SetSelectedRequest.SelectableMDOList
+  langs:
+  - csharp
+  - vb
+  name: MDO_SetSelectedRequest
+  nameWithType: MDO_SetSelectedRequest
+  fullName: SuperOffice.WebApi.Data.MDO_SetSelectedRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class MDO_SetSelectedRequest : Object'
+    content.vb: >-
+      Public Class MDO_SetSelectedRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.MDO_SetSelectedRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.MDO_SetSelectedRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.MDO_SetSelectedRequest
+  langs:
+  - csharp
+  - vb
+  name: MDO_SetSelectedRequest()
+  nameWithType: MDO_SetSelectedRequest.MDO_SetSelectedRequest()
+  fullName: SuperOffice.WebApi.Data.MDO_SetSelectedRequest.MDO_SetSelectedRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public MDO_SetSelectedRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.MDO_SetSelectedRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MDO_SetSelectedRequest.Name
+  commentId: P:SuperOffice.WebApi.Data.MDO_SetSelectedRequest.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.MDO_SetSelectedRequest
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: MDO_SetSelectedRequest.Name
+  fullName: SuperOffice.WebApi.Data.MDO_SetSelectedRequest.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.WebApi.Data.MDO_SetSelectedRequest.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MDO_SetSelectedRequest.AdditionalInfo
+  commentId: P:SuperOffice.WebApi.Data.MDO_SetSelectedRequest.AdditionalInfo
+  id: AdditionalInfo
+  parent: SuperOffice.WebApi.Data.MDO_SetSelectedRequest
+  langs:
+  - csharp
+  - vb
+  name: AdditionalInfo
+  nameWithType: MDO_SetSelectedRequest.AdditionalInfo
+  fullName: SuperOffice.WebApi.Data.MDO_SetSelectedRequest.AdditionalInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string AdditionalInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AdditionalInfo As String
+  overload: SuperOffice.WebApi.Data.MDO_SetSelectedRequest.AdditionalInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MDO_SetSelectedRequest.SelectableMDOList
+  commentId: P:SuperOffice.WebApi.Data.MDO_SetSelectedRequest.SelectableMDOList
+  id: SelectableMDOList
+  parent: SuperOffice.WebApi.Data.MDO_SetSelectedRequest
+  langs:
+  - csharp
+  - vb
+  name: SelectableMDOList
+  nameWithType: MDO_SetSelectedRequest.SelectableMDOList
+  fullName: SuperOffice.WebApi.Data.MDO_SetSelectedRequest.SelectableMDOList
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public SelectableMDOListItem[] SelectableMDOList { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.SelectableMDOListItem[]
+    content.vb: Public Property SelectableMDOList As SelectableMDOListItem()
+  overload: SuperOffice.WebApi.Data.MDO_SetSelectedRequest.SelectableMDOList*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.MDO_SetSelectedRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_SetSelectedRequest.#ctor
+  isExternal: true
+  name: MDO_SetSelectedRequest
+  nameWithType: MDO_SetSelectedRequest.MDO_SetSelectedRequest
+  fullName: SuperOffice.WebApi.Data.MDO_SetSelectedRequest.MDO_SetSelectedRequest
+- uid: SuperOffice.WebApi.Data.MDO_SetSelectedRequest.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_SetSelectedRequest.Name
+  isExternal: true
+  name: Name
+  nameWithType: MDO_SetSelectedRequest.Name
+  fullName: SuperOffice.WebApi.Data.MDO_SetSelectedRequest.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.MDO_SetSelectedRequest.AdditionalInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_SetSelectedRequest.AdditionalInfo
+  isExternal: true
+  name: AdditionalInfo
+  nameWithType: MDO_SetSelectedRequest.AdditionalInfo
+  fullName: SuperOffice.WebApi.Data.MDO_SetSelectedRequest.AdditionalInfo
+- uid: SuperOffice.WebApi.Data.MDO_SetSelectedRequest.SelectableMDOList*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_SetSelectedRequest.SelectableMDOList
+  isExternal: true
+  name: SelectableMDOList
+  nameWithType: MDO_SetSelectedRequest.SelectableMDOList
+  fullName: SuperOffice.WebApi.Data.MDO_SetSelectedRequest.SelectableMDOList
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem[]
+  isExternal: true
+  name: SelectableMDOListItem[]
+  nameWithType: SelectableMDOListItem[]
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem[]
+  nameWithType.vb: SelectableMDOListItem()
+  fullName.vb: SuperOffice.WebApi.Data.SelectableMDOListItem()
+  name.vb: SelectableMDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.WebApi.Data.SelectableMDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.WebApi.Data.SelectableMDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

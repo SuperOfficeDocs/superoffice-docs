@@ -1,0 +1,179 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Controllers.MiniPreviewController
+  commentId: T:SuperOffice.CRM.Web.Controllers.MiniPreviewController
+  id: MiniPreviewController
+  parent: SuperOffice.CRM.Web.Controllers
+  children:
+  - SuperOffice.CRM.Web.Controllers.MiniPreviewController.#ctor
+  - SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetPreviewTicketMessageEntity(System.Int32)
+  - SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetSaleAndQuoteDetails(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: MiniPreviewController
+  nameWithType: MiniPreviewController
+  fullName: SuperOffice.CRM.Web.Controllers.MiniPreviewController
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: 'public class MiniPreviewController : ApiController'
+    content.vb: >-
+      Public Class MiniPreviewController
+          Inherits ApiController
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetPreviewTicketMessageEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetPreviewTicketMessageEntity(System.Int32)
+  id: GetPreviewTicketMessageEntity(System.Int32)
+  parent: SuperOffice.CRM.Web.Controllers.MiniPreviewController
+  langs:
+  - csharp
+  - vb
+  name: GetPreviewTicketMessageEntity(Int32)
+  nameWithType: MiniPreviewController.GetPreviewTicketMessageEntity(Int32)
+  fullName: SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetPreviewTicketMessageEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public TicketMessageEntity GetPreviewTicketMessageEntity(int ticketMessageEntityId)
+    parameters:
+    - id: ticketMessageEntityId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Services.TicketMessageEntity
+    content.vb: Public Function GetPreviewTicketMessageEntity(ticketMessageEntityId As Integer) As TicketMessageEntity
+  overload: SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetPreviewTicketMessageEntity*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetSaleAndQuoteDetails(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetSaleAndQuoteDetails(System.Int32)
+  id: GetSaleAndQuoteDetails(System.Int32)
+  parent: SuperOffice.CRM.Web.Controllers.MiniPreviewController
+  langs:
+  - csharp
+  - vb
+  name: GetSaleAndQuoteDetails(Int32)
+  nameWithType: MiniPreviewController.GetSaleAndQuoteDetails(Int32)
+  fullName: SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetSaleAndQuoteDetails(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public MiniPreviewController.SaleAndQuoteDetails GetSaleAndQuoteDetails(int quoteAlternativeId)
+    parameters:
+    - id: quoteAlternativeId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Web.Controllers.MiniPreviewController.SaleAndQuoteDetails
+    content.vb: Public Function GetSaleAndQuoteDetails(quoteAlternativeId As Integer) As MiniPreviewController.SaleAndQuoteDetails
+  overload: SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetSaleAndQuoteDetails*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.MiniPreviewController.#ctor
+  commentId: M:SuperOffice.CRM.Web.Controllers.MiniPreviewController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Controllers.MiniPreviewController
+  langs:
+  - csharp
+  - vb
+  name: MiniPreviewController()
+  nameWithType: MiniPreviewController.MiniPreviewController()
+  fullName: SuperOffice.CRM.Web.Controllers.MiniPreviewController.MiniPreviewController()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public MiniPreviewController()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Controllers.MiniPreviewController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Controllers
+  commentId: N:SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperOffice.CRM.Web.Controllers
+  nameWithType: SuperOffice.CRM.Web.Controllers
+  fullName: SuperOffice.CRM.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetPreviewTicketMessageEntity*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetPreviewTicketMessageEntity
+  isExternal: true
+  name: GetPreviewTicketMessageEntity
+  nameWithType: MiniPreviewController.GetPreviewTicketMessageEntity
+  fullName: SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetPreviewTicketMessageEntity
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.TicketMessageEntity
+  commentId: '!:SuperOffice.CRM.Services.TicketMessageEntity'
+  isExternal: true
+  name: TicketMessageEntity
+  nameWithType: TicketMessageEntity
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity
+- uid: SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetSaleAndQuoteDetails*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetSaleAndQuoteDetails
+  isExternal: true
+  name: GetSaleAndQuoteDetails
+  nameWithType: MiniPreviewController.GetSaleAndQuoteDetails
+  fullName: SuperOffice.CRM.Web.Controllers.MiniPreviewController.GetSaleAndQuoteDetails
+- uid: SuperOffice.CRM.Web.Controllers.MiniPreviewController.SaleAndQuoteDetails
+  commentId: T:SuperOffice.CRM.Web.Controllers.MiniPreviewController.SaleAndQuoteDetails
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: MiniPreviewController.SaleAndQuoteDetails
+  nameWithType: MiniPreviewController.SaleAndQuoteDetails
+  fullName: SuperOffice.CRM.Web.Controllers.MiniPreviewController.SaleAndQuoteDetails
+- uid: SuperOffice.CRM.Web.Controllers.MiniPreviewController.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.MiniPreviewController.#ctor
+  isExternal: true
+  name: MiniPreviewController
+  nameWithType: MiniPreviewController.MiniPreviewController
+  fullName: SuperOffice.CRM.Web.Controllers.MiniPreviewController.MiniPreviewController

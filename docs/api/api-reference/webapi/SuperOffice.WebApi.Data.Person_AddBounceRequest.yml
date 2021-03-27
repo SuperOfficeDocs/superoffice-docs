@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person_AddBounceRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_AddBounceRequest
+  id: Person_AddBounceRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person_AddBounceRequest.#ctor
+  - SuperOffice.WebApi.Data.Person_AddBounceRequest.EmailAddress
+  langs:
+  - csharp
+  - vb
+  name: Person_AddBounceRequest
+  nameWithType: Person_AddBounceRequest
+  fullName: SuperOffice.WebApi.Data.Person_AddBounceRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Person_AddBounceRequest : Object'
+    content.vb: >-
+      Public Class Person_AddBounceRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person_AddBounceRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person_AddBounceRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person_AddBounceRequest
+  langs:
+  - csharp
+  - vb
+  name: Person_AddBounceRequest()
+  nameWithType: Person_AddBounceRequest.Person_AddBounceRequest()
+  fullName: SuperOffice.WebApi.Data.Person_AddBounceRequest.Person_AddBounceRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Person_AddBounceRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person_AddBounceRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_AddBounceRequest.EmailAddress
+  commentId: P:SuperOffice.WebApi.Data.Person_AddBounceRequest.EmailAddress
+  id: EmailAddress
+  parent: SuperOffice.WebApi.Data.Person_AddBounceRequest
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: Person_AddBounceRequest.EmailAddress
+  fullName: SuperOffice.WebApi.Data.Person_AddBounceRequest.EmailAddress
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string EmailAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EmailAddress As String
+  overload: SuperOffice.WebApi.Data.Person_AddBounceRequest.EmailAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person_AddBounceRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_AddBounceRequest.#ctor
+  isExternal: true
+  name: Person_AddBounceRequest
+  nameWithType: Person_AddBounceRequest.Person_AddBounceRequest
+  fullName: SuperOffice.WebApi.Data.Person_AddBounceRequest.Person_AddBounceRequest
+- uid: SuperOffice.WebApi.Data.Person_AddBounceRequest.EmailAddress*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_AddBounceRequest.EmailAddress
+  isExternal: true
+  name: EmailAddress
+  nameWithType: Person_AddBounceRequest.EmailAddress
+  fullName: SuperOffice.WebApi.Data.Person_AddBounceRequest.EmailAddress
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

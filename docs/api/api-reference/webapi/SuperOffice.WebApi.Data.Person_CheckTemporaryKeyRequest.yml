@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person_CheckTemporaryKeyRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_CheckTemporaryKeyRequest
+  id: Person_CheckTemporaryKeyRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person_CheckTemporaryKeyRequest.#ctor
+  - SuperOffice.WebApi.Data.Person_CheckTemporaryKeyRequest.TemporaryKey
+  langs:
+  - csharp
+  - vb
+  name: Person_CheckTemporaryKeyRequest
+  nameWithType: Person_CheckTemporaryKeyRequest
+  fullName: SuperOffice.WebApi.Data.Person_CheckTemporaryKeyRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Person_CheckTemporaryKeyRequest : Object'
+    content.vb: >-
+      Public Class Person_CheckTemporaryKeyRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person_CheckTemporaryKeyRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person_CheckTemporaryKeyRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person_CheckTemporaryKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: Person_CheckTemporaryKeyRequest()
+  nameWithType: Person_CheckTemporaryKeyRequest.Person_CheckTemporaryKeyRequest()
+  fullName: SuperOffice.WebApi.Data.Person_CheckTemporaryKeyRequest.Person_CheckTemporaryKeyRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Person_CheckTemporaryKeyRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person_CheckTemporaryKeyRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_CheckTemporaryKeyRequest.TemporaryKey
+  commentId: P:SuperOffice.WebApi.Data.Person_CheckTemporaryKeyRequest.TemporaryKey
+  id: TemporaryKey
+  parent: SuperOffice.WebApi.Data.Person_CheckTemporaryKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: TemporaryKey
+  nameWithType: Person_CheckTemporaryKeyRequest.TemporaryKey
+  fullName: SuperOffice.WebApi.Data.Person_CheckTemporaryKeyRequest.TemporaryKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string TemporaryKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TemporaryKey As String
+  overload: SuperOffice.WebApi.Data.Person_CheckTemporaryKeyRequest.TemporaryKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person_CheckTemporaryKeyRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_CheckTemporaryKeyRequest.#ctor
+  isExternal: true
+  name: Person_CheckTemporaryKeyRequest
+  nameWithType: Person_CheckTemporaryKeyRequest.Person_CheckTemporaryKeyRequest
+  fullName: SuperOffice.WebApi.Data.Person_CheckTemporaryKeyRequest.Person_CheckTemporaryKeyRequest
+- uid: SuperOffice.WebApi.Data.Person_CheckTemporaryKeyRequest.TemporaryKey*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_CheckTemporaryKeyRequest.TemporaryKey
+  isExternal: true
+  name: TemporaryKey
+  nameWithType: Person_CheckTemporaryKeyRequest.TemporaryKey
+  fullName: SuperOffice.WebApi.Data.Person_CheckTemporaryKeyRequest.TemporaryKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

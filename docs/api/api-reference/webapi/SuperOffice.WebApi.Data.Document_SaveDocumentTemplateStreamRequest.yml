@@ -1,0 +1,273 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest
+  commentId: T:SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest
+  id: Document_SaveDocumentTemplateStreamRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.#ctor
+  - SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.Content
+  - SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.DocumentTemplateId
+  - SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.LanguageCode
+  - SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.PluginId
+  langs:
+  - csharp
+  - vb
+  name: Document_SaveDocumentTemplateStreamRequest
+  nameWithType: Document_SaveDocumentTemplateStreamRequest
+  fullName: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Document_SaveDocumentTemplateStreamRequest : Object'
+    content.vb: >-
+      Public Class Document_SaveDocumentTemplateStreamRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest
+  langs:
+  - csharp
+  - vb
+  name: Document_SaveDocumentTemplateStreamRequest()
+  nameWithType: Document_SaveDocumentTemplateStreamRequest.Document_SaveDocumentTemplateStreamRequest()
+  fullName: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.Document_SaveDocumentTemplateStreamRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Document_SaveDocumentTemplateStreamRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.DocumentTemplateId
+  commentId: P:SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.DocumentTemplateId
+  id: DocumentTemplateId
+  parent: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentTemplateId
+  nameWithType: Document_SaveDocumentTemplateStreamRequest.DocumentTemplateId
+  fullName: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.DocumentTemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DocumentTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DocumentTemplateId As Integer
+  overload: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.DocumentTemplateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.Content
+  commentId: P:SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.Content
+  id: Content
+  parent: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest
+  langs:
+  - csharp
+  - vb
+  name: Content
+  nameWithType: Document_SaveDocumentTemplateStreamRequest.Content
+  fullName: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.Content
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public byte[] Content { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Content As Byte()
+  overload: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.Content*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.LanguageCode
+  commentId: P:SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.LanguageCode
+  id: LanguageCode
+  parent: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest
+  langs:
+  - csharp
+  - vb
+  name: LanguageCode
+  nameWithType: Document_SaveDocumentTemplateStreamRequest.LanguageCode
+  fullName: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.LanguageCode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string LanguageCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LanguageCode As String
+  overload: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.LanguageCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.PluginId
+  commentId: P:SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.PluginId
+  id: PluginId
+  parent: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest
+  langs:
+  - csharp
+  - vb
+  name: PluginId
+  nameWithType: Document_SaveDocumentTemplateStreamRequest.PluginId
+  fullName: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.PluginId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PluginId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PluginId As Integer
+  overload: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.PluginId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.#ctor
+  isExternal: true
+  name: Document_SaveDocumentTemplateStreamRequest
+  nameWithType: Document_SaveDocumentTemplateStreamRequest.Document_SaveDocumentTemplateStreamRequest
+  fullName: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.Document_SaveDocumentTemplateStreamRequest
+- uid: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.DocumentTemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.DocumentTemplateId
+  isExternal: true
+  name: DocumentTemplateId
+  nameWithType: Document_SaveDocumentTemplateStreamRequest.DocumentTemplateId
+  fullName: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.DocumentTemplateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.Content*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.Content
+  isExternal: true
+  name: Content
+  nameWithType: Document_SaveDocumentTemplateStreamRequest.Content
+  fullName: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.Content
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.LanguageCode*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.LanguageCode
+  isExternal: true
+  name: LanguageCode
+  nameWithType: Document_SaveDocumentTemplateStreamRequest.LanguageCode
+  fullName: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.LanguageCode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.PluginId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.PluginId
+  isExternal: true
+  name: PluginId
+  nameWithType: Document_SaveDocumentTemplateStreamRequest.PluginId
+  fullName: SuperOffice.WebApi.Data.Document_SaveDocumentTemplateStreamRequest.PluginId

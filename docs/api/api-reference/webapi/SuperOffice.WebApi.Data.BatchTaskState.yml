@@ -1,0 +1,309 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.BatchTaskState
+  commentId: T:SuperOffice.WebApi.Data.BatchTaskState
+  id: BatchTaskState
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.BatchTaskState.All
+  - SuperOffice.WebApi.Data.BatchTaskState.Aquired
+  - SuperOffice.WebApi.Data.BatchTaskState.Failed
+  - SuperOffice.WebApi.Data.BatchTaskState.New
+  - SuperOffice.WebApi.Data.BatchTaskState.Started
+  - SuperOffice.WebApi.Data.BatchTaskState.Succeeded
+  - SuperOffice.WebApi.Data.BatchTaskState.Unknown
+  - SuperOffice.WebApi.Data.BatchTaskState.value__
+  langs:
+  - csharp
+  - vb
+  name: BatchTaskState
+  nameWithType: BatchTaskState
+  fullName: SuperOffice.WebApi.Data.BatchTaskState
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: 'public sealed class BatchTaskState : Enum'
+    content.vb: >-
+      Public NotInheritable Class BatchTaskState
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.BatchTaskState.value__
+  commentId: F:SuperOffice.WebApi.Data.BatchTaskState.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.BatchTaskState
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: BatchTaskState.value__
+  fullName: SuperOffice.WebApi.Data.BatchTaskState.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.BatchTaskState.Unknown
+  commentId: F:SuperOffice.WebApi.Data.BatchTaskState.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.BatchTaskState
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: BatchTaskState.Unknown
+  fullName: SuperOffice.WebApi.Data.BatchTaskState.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Unknown state of the task.\n"
+  syntax:
+    content: public const BatchTaskState Unknown
+    return:
+      type: SuperOffice.WebApi.Data.BatchTaskState
+    content.vb: Public Const Unknown As BatchTaskState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BatchTaskState.New
+  commentId: F:SuperOffice.WebApi.Data.BatchTaskState.New
+  id: New
+  parent: SuperOffice.WebApi.Data.BatchTaskState
+  langs:
+  - csharp
+  - vb
+  name: New
+  nameWithType: BatchTaskState.New
+  fullName: SuperOffice.WebApi.Data.BatchTaskState.New
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: The task is new, but not assigned or run by any party.\n"
+  syntax:
+    content: public const BatchTaskState New
+    return:
+      type: SuperOffice.WebApi.Data.BatchTaskState
+    content.vb: Public Const New As BatchTaskState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BatchTaskState.Aquired
+  commentId: F:SuperOffice.WebApi.Data.BatchTaskState.Aquired
+  id: Aquired
+  parent: SuperOffice.WebApi.Data.BatchTaskState
+  langs:
+  - csharp
+  - vb
+  name: Aquired
+  nameWithType: BatchTaskState.Aquired
+  fullName: SuperOffice.WebApi.Data.BatchTaskState.Aquired
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: The task has been aquired by an instance that wants to execute the task, but has not been started.\n"
+  syntax:
+    content: public const BatchTaskState Aquired
+    return:
+      type: SuperOffice.WebApi.Data.BatchTaskState
+    content.vb: Public Const Aquired As BatchTaskState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BatchTaskState.Started
+  commentId: F:SuperOffice.WebApi.Data.BatchTaskState.Started
+  id: Started
+  parent: SuperOffice.WebApi.Data.BatchTaskState
+  langs:
+  - csharp
+  - vb
+  name: Started
+  nameWithType: BatchTaskState.Started
+  fullName: SuperOffice.WebApi.Data.BatchTaskState.Started
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: The task is executing.\n"
+  syntax:
+    content: public const BatchTaskState Started
+    return:
+      type: SuperOffice.WebApi.Data.BatchTaskState
+    content.vb: Public Const Started As BatchTaskState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BatchTaskState.Succeeded
+  commentId: F:SuperOffice.WebApi.Data.BatchTaskState.Succeeded
+  id: Succeeded
+  parent: SuperOffice.WebApi.Data.BatchTaskState
+  langs:
+  - csharp
+  - vb
+  name: Succeeded
+  nameWithType: BatchTaskState.Succeeded
+  fullName: SuperOffice.WebApi.Data.BatchTaskState.Succeeded
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Executing the task has completed successfully.\n"
+  syntax:
+    content: public const BatchTaskState Succeeded
+    return:
+      type: SuperOffice.WebApi.Data.BatchTaskState
+    content.vb: Public Const Succeeded As BatchTaskState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BatchTaskState.Failed
+  commentId: F:SuperOffice.WebApi.Data.BatchTaskState.Failed
+  id: Failed
+  parent: SuperOffice.WebApi.Data.BatchTaskState
+  langs:
+  - csharp
+  - vb
+  name: Failed
+  nameWithType: BatchTaskState.Failed
+  fullName: SuperOffice.WebApi.Data.BatchTaskState.Failed
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Executing the task has halted and the task failed.   \n"
+  syntax:
+    content: public const BatchTaskState Failed
+    return:
+      type: SuperOffice.WebApi.Data.BatchTaskState
+    content.vb: Public Const Failed As BatchTaskState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.BatchTaskState.All
+  commentId: F:SuperOffice.WebApi.Data.BatchTaskState.All
+  id: All
+  parent: SuperOffice.WebApi.Data.BatchTaskState
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: BatchTaskState.All
+  fullName: SuperOffice.WebApi.Data.BatchTaskState.All
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n99999: Special type. \n"
+  syntax:
+    content: public const BatchTaskState All
+    return:
+      type: SuperOffice.WebApi.Data.BatchTaskState
+    content.vb: Public Const All As BatchTaskState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.BatchTaskState
+  commentId: T:SuperOffice.WebApi.Data.BatchTaskState
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: BatchTaskState
+  nameWithType: BatchTaskState
+  fullName: SuperOffice.WebApi.Data.BatchTaskState

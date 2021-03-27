@@ -1,0 +1,1213 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.TimeZoneRule
+  commentId: T:SuperOffice.CRM.TimeZoneRule
+  id: TimeZoneRule
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.TimeZoneRule.#ctor
+  - SuperOffice.CRM.TimeZoneRule.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  - SuperOffice.CRM.TimeZoneRule.#ctor(System.Int32,System.String,System.String)
+  - SuperOffice.CRM.TimeZoneRule.EndDay
+  - SuperOffice.CRM.TimeZoneRule.EndMonth
+  - SuperOffice.CRM.TimeZoneRule.EndRulePattern
+  - SuperOffice.CRM.TimeZoneRule.GetEndRuleDate(System.Int32)
+  - SuperOffice.CRM.TimeZoneRule.GetiCalDaylightSavingTimePattern
+  - SuperOffice.CRM.TimeZoneRule.GetiCalStandardPattern
+  - SuperOffice.CRM.TimeZoneRule.GetStartRuleDate(System.Int32)
+  - SuperOffice.CRM.TimeZoneRule.StartDay
+  - SuperOffice.CRM.TimeZoneRule.StartMonth
+  - SuperOffice.CRM.TimeZoneRule.StartRulePattern
+  - SuperOffice.CRM.TimeZoneRule.TZOffset
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneRule
+  nameWithType: TimeZoneRule
+  fullName: SuperOffice.CRM.TimeZoneRule
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public class TimeZoneRule
+    content.vb: Public Class TimeZoneRule
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.TimeZoneRule.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.TimeZoneRule.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.TimeZoneRule)
+  - SuperOffice.CRM.TimeZoneRule.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.TimeZoneRule.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.TimeZoneRule.#ctor
+  commentId: M:SuperOffice.CRM.TimeZoneRule.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.TimeZoneRule
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneRule()
+  nameWithType: TimeZoneRule.TimeZoneRule()
+  fullName: SuperOffice.CRM.TimeZoneRule.TimeZoneRule()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public TimeZoneRule()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.TimeZoneRule.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.TimeZoneRule.#ctor(System.Int32,System.String,System.String)
+  commentId: M:SuperOffice.CRM.TimeZoneRule.#ctor(System.Int32,System.String,System.String)
+  id: '#ctor(System.Int32,System.String,System.String)'
+  parent: SuperOffice.CRM.TimeZoneRule
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneRule(Int32, String, String)
+  nameWithType: TimeZoneRule.TimeZoneRule(Int32, String, String)
+  fullName: SuperOffice.CRM.TimeZoneRule.TimeZoneRule(System.Int32, System.String, System.String)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public TimeZoneRule(int tzOffset, string startRulePattern, string endRulePattern)
+    parameters:
+    - id: tzOffset
+      type: System.Int32
+    - id: startRulePattern
+      type: System.String
+    - id: endRulePattern
+      type: System.String
+    content.vb: Public Sub New(tzOffset As Integer, startRulePattern As String, endRulePattern As String)
+  overload: SuperOffice.CRM.TimeZoneRule.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.TimeZoneRule.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.TimeZoneRule.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)'
+  parent: SuperOffice.CRM.TimeZoneRule
+  langs:
+  - csharp
+  - vb
+  name: TimeZoneRule(Int32, Int32, Int32, Int32, Int32)
+  nameWithType: TimeZoneRule.TimeZoneRule(Int32, Int32, Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.TimeZoneRule.TimeZoneRule(System.Int32, System.Int32, System.Int32, System.Int32, System.Int32)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public TimeZoneRule(int tzOffset, int startDay, int startMonth, int endDay, int endMonth)
+    parameters:
+    - id: tzOffset
+      type: System.Int32
+    - id: startDay
+      type: System.Int32
+    - id: startMonth
+      type: System.Int32
+    - id: endDay
+      type: System.Int32
+    - id: endMonth
+      type: System.Int32
+    content.vb: Public Sub New(tzOffset As Integer, startDay As Integer, startMonth As Integer, endDay As Integer, endMonth As Integer)
+  overload: SuperOffice.CRM.TimeZoneRule.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.TimeZoneRule.GetiCalStandardPattern
+  commentId: M:SuperOffice.CRM.TimeZoneRule.GetiCalStandardPattern
+  id: GetiCalStandardPattern
+  parent: SuperOffice.CRM.TimeZoneRule
+  langs:
+  - csharp
+  - vb
+  name: GetiCalStandardPattern()
+  nameWithType: TimeZoneRule.GetiCalStandardPattern()
+  fullName: SuperOffice.CRM.TimeZoneRule.GetiCalStandardPattern()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public string GetiCalStandardPattern()
+    return:
+      type: System.String
+    content.vb: Public Function GetiCalStandardPattern As String
+  overload: SuperOffice.CRM.TimeZoneRule.GetiCalStandardPattern*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.TimeZoneRule.GetiCalDaylightSavingTimePattern
+  commentId: M:SuperOffice.CRM.TimeZoneRule.GetiCalDaylightSavingTimePattern
+  id: GetiCalDaylightSavingTimePattern
+  parent: SuperOffice.CRM.TimeZoneRule
+  langs:
+  - csharp
+  - vb
+  name: GetiCalDaylightSavingTimePattern()
+  nameWithType: TimeZoneRule.GetiCalDaylightSavingTimePattern()
+  fullName: SuperOffice.CRM.TimeZoneRule.GetiCalDaylightSavingTimePattern()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public string GetiCalDaylightSavingTimePattern()
+    return:
+      type: System.String
+    content.vb: Public Function GetiCalDaylightSavingTimePattern As String
+  overload: SuperOffice.CRM.TimeZoneRule.GetiCalDaylightSavingTimePattern*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.TimeZoneRule.GetStartRuleDate(System.Int32)
+  commentId: M:SuperOffice.CRM.TimeZoneRule.GetStartRuleDate(System.Int32)
+  id: GetStartRuleDate(System.Int32)
+  parent: SuperOffice.CRM.TimeZoneRule
+  langs:
+  - csharp
+  - vb
+  name: GetStartRuleDate(Int32)
+  nameWithType: TimeZoneRule.GetStartRuleDate(Int32)
+  fullName: SuperOffice.CRM.TimeZoneRule.GetStartRuleDate(System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public DateTime GetStartRuleDate(int year)
+    parameters:
+    - id: year
+      type: System.Int32
+    return:
+      type: System.DateTime
+    content.vb: Public Function GetStartRuleDate(year As Integer) As Date
+  overload: SuperOffice.CRM.TimeZoneRule.GetStartRuleDate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.TimeZoneRule.GetEndRuleDate(System.Int32)
+  commentId: M:SuperOffice.CRM.TimeZoneRule.GetEndRuleDate(System.Int32)
+  id: GetEndRuleDate(System.Int32)
+  parent: SuperOffice.CRM.TimeZoneRule
+  langs:
+  - csharp
+  - vb
+  name: GetEndRuleDate(Int32)
+  nameWithType: TimeZoneRule.GetEndRuleDate(Int32)
+  fullName: SuperOffice.CRM.TimeZoneRule.GetEndRuleDate(System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public DateTime GetEndRuleDate(int year)
+    parameters:
+    - id: year
+      type: System.Int32
+    return:
+      type: System.DateTime
+    content.vb: Public Function GetEndRuleDate(year As Integer) As Date
+  overload: SuperOffice.CRM.TimeZoneRule.GetEndRuleDate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.TimeZoneRule.StartDay
+  commentId: P:SuperOffice.CRM.TimeZoneRule.StartDay
+  id: StartDay
+  parent: SuperOffice.CRM.TimeZoneRule
+  langs:
+  - csharp
+  - vb
+  name: StartDay
+  nameWithType: TimeZoneRule.StartDay
+  fullName: SuperOffice.CRM.TimeZoneRule.StartDay
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public int StartDay { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property StartDay As Integer
+  overload: SuperOffice.CRM.TimeZoneRule.StartDay*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.TimeZoneRule.StartMonth
+  commentId: P:SuperOffice.CRM.TimeZoneRule.StartMonth
+  id: StartMonth
+  parent: SuperOffice.CRM.TimeZoneRule
+  langs:
+  - csharp
+  - vb
+  name: StartMonth
+  nameWithType: TimeZoneRule.StartMonth
+  fullName: SuperOffice.CRM.TimeZoneRule.StartMonth
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public int StartMonth { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property StartMonth As Integer
+  overload: SuperOffice.CRM.TimeZoneRule.StartMonth*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.TimeZoneRule.EndDay
+  commentId: P:SuperOffice.CRM.TimeZoneRule.EndDay
+  id: EndDay
+  parent: SuperOffice.CRM.TimeZoneRule
+  langs:
+  - csharp
+  - vb
+  name: EndDay
+  nameWithType: TimeZoneRule.EndDay
+  fullName: SuperOffice.CRM.TimeZoneRule.EndDay
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public int EndDay { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property EndDay As Integer
+  overload: SuperOffice.CRM.TimeZoneRule.EndDay*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.TimeZoneRule.EndMonth
+  commentId: P:SuperOffice.CRM.TimeZoneRule.EndMonth
+  id: EndMonth
+  parent: SuperOffice.CRM.TimeZoneRule
+  langs:
+  - csharp
+  - vb
+  name: EndMonth
+  nameWithType: TimeZoneRule.EndMonth
+  fullName: SuperOffice.CRM.TimeZoneRule.EndMonth
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public int EndMonth { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property EndMonth As Integer
+  overload: SuperOffice.CRM.TimeZoneRule.EndMonth*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.TimeZoneRule.TZOffset
+  commentId: P:SuperOffice.CRM.TimeZoneRule.TZOffset
+  id: TZOffset
+  parent: SuperOffice.CRM.TimeZoneRule
+  langs:
+  - csharp
+  - vb
+  name: TZOffset
+  nameWithType: TimeZoneRule.TZOffset
+  fullName: SuperOffice.CRM.TimeZoneRule.TZOffset
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public int TZOffset { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TZOffset As Integer
+  overload: SuperOffice.CRM.TimeZoneRule.TZOffset*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.TimeZoneRule.StartRulePattern
+  commentId: P:SuperOffice.CRM.TimeZoneRule.StartRulePattern
+  id: StartRulePattern
+  parent: SuperOffice.CRM.TimeZoneRule
+  langs:
+  - csharp
+  - vb
+  name: StartRulePattern
+  nameWithType: TimeZoneRule.StartRulePattern
+  fullName: SuperOffice.CRM.TimeZoneRule.StartRulePattern
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public string StartRulePattern { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StartRulePattern As String
+  overload: SuperOffice.CRM.TimeZoneRule.StartRulePattern*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.TimeZoneRule.EndRulePattern
+  commentId: P:SuperOffice.CRM.TimeZoneRule.EndRulePattern
+  id: EndRulePattern
+  parent: SuperOffice.CRM.TimeZoneRule
+  langs:
+  - csharp
+  - vb
+  name: EndRulePattern
+  nameWithType: TimeZoneRule.EndRulePattern
+  fullName: SuperOffice.CRM.TimeZoneRule.EndRulePattern
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public string EndRulePattern { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EndRulePattern As String
+  overload: SuperOffice.CRM.TimeZoneRule.EndRulePattern*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.TimeZoneRule.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TimeZoneRule, To>()
+  nameWithType: EnumUtil.MapEnums<TimeZoneRule, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.TimeZoneRule, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TimeZoneRule, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.TimeZoneRule, To)()
+  name.vb: MapEnums(Of TimeZoneRule, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TimeZoneRule, To>
+    nameWithType: EnumUtil.MapEnums<TimeZoneRule, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.TimeZoneRule, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TimeZoneRule, To)
+    nameWithType: EnumUtil.MapEnums(Of TimeZoneRule, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.TimeZoneRule, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.TimeZoneRule.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.TimeZoneRule)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<TimeZoneRule>(TimeZoneRule)
+  nameWithType: ObjectExtensions.AssignByReflection<TimeZoneRule>(TimeZoneRule)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.TimeZoneRule>(SuperOffice.CRM.TimeZoneRule)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TimeZoneRule)(TimeZoneRule)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.TimeZoneRule)(SuperOffice.CRM.TimeZoneRule)
+  name.vb: AssignByReflection(Of TimeZoneRule)(TimeZoneRule)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<TimeZoneRule>
+    nameWithType: ObjectExtensions.AssignByReflection<TimeZoneRule>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.TimeZoneRule>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.TimeZoneRule
+    name: TimeZoneRule
+    nameWithType: TimeZoneRule
+    fullName: SuperOffice.CRM.TimeZoneRule
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of TimeZoneRule)
+    nameWithType: ObjectExtensions.AssignByReflection(Of TimeZoneRule)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.TimeZoneRule)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.TimeZoneRule
+    name: TimeZoneRule
+    nameWithType: TimeZoneRule
+    fullName: SuperOffice.CRM.TimeZoneRule
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.TimeZoneRule.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<TimeZoneRule>()
+  nameWithType: ObjectExtensions.GraphCopy<TimeZoneRule>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.TimeZoneRule>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TimeZoneRule)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.TimeZoneRule)()
+  name.vb: GraphCopy(Of TimeZoneRule)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<TimeZoneRule>
+    nameWithType: ObjectExtensions.GraphCopy<TimeZoneRule>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.TimeZoneRule>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of TimeZoneRule)
+    nameWithType: ObjectExtensions.GraphCopy(Of TimeZoneRule)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.TimeZoneRule)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.TimeZoneRule.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TimeZoneRule, To>()
+  nameWithType: Converters.MapEnums<TimeZoneRule, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.TimeZoneRule, To>()
+  nameWithType.vb: Converters.MapEnums(Of TimeZoneRule, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.TimeZoneRule, To)()
+  name.vb: MapEnums(Of TimeZoneRule, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TimeZoneRule, To>
+    nameWithType: Converters.MapEnums<TimeZoneRule, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.TimeZoneRule, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TimeZoneRule, To)
+    nameWithType: Converters.MapEnums(Of TimeZoneRule, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.TimeZoneRule, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.TimeZoneRule.#ctor*
+  commentId: Overload:SuperOffice.CRM.TimeZoneRule.#ctor
+  isExternal: true
+  name: TimeZoneRule
+  nameWithType: TimeZoneRule.TimeZoneRule
+  fullName: SuperOffice.CRM.TimeZoneRule.TimeZoneRule
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.TimeZoneRule.GetiCalStandardPattern*
+  commentId: Overload:SuperOffice.CRM.TimeZoneRule.GetiCalStandardPattern
+  isExternal: true
+  name: GetiCalStandardPattern
+  nameWithType: TimeZoneRule.GetiCalStandardPattern
+  fullName: SuperOffice.CRM.TimeZoneRule.GetiCalStandardPattern
+- uid: SuperOffice.CRM.TimeZoneRule.GetiCalDaylightSavingTimePattern*
+  commentId: Overload:SuperOffice.CRM.TimeZoneRule.GetiCalDaylightSavingTimePattern
+  isExternal: true
+  name: GetiCalDaylightSavingTimePattern
+  nameWithType: TimeZoneRule.GetiCalDaylightSavingTimePattern
+  fullName: SuperOffice.CRM.TimeZoneRule.GetiCalDaylightSavingTimePattern
+- uid: SuperOffice.CRM.TimeZoneRule.GetStartRuleDate*
+  commentId: Overload:SuperOffice.CRM.TimeZoneRule.GetStartRuleDate
+  isExternal: true
+  name: GetStartRuleDate
+  nameWithType: TimeZoneRule.GetStartRuleDate
+  fullName: SuperOffice.CRM.TimeZoneRule.GetStartRuleDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.TimeZoneRule.GetEndRuleDate*
+  commentId: Overload:SuperOffice.CRM.TimeZoneRule.GetEndRuleDate
+  isExternal: true
+  name: GetEndRuleDate
+  nameWithType: TimeZoneRule.GetEndRuleDate
+  fullName: SuperOffice.CRM.TimeZoneRule.GetEndRuleDate
+- uid: SuperOffice.CRM.TimeZoneRule.StartDay*
+  commentId: Overload:SuperOffice.CRM.TimeZoneRule.StartDay
+  isExternal: true
+  name: StartDay
+  nameWithType: TimeZoneRule.StartDay
+  fullName: SuperOffice.CRM.TimeZoneRule.StartDay
+- uid: SuperOffice.CRM.TimeZoneRule.StartMonth*
+  commentId: Overload:SuperOffice.CRM.TimeZoneRule.StartMonth
+  isExternal: true
+  name: StartMonth
+  nameWithType: TimeZoneRule.StartMonth
+  fullName: SuperOffice.CRM.TimeZoneRule.StartMonth
+- uid: SuperOffice.CRM.TimeZoneRule.EndDay*
+  commentId: Overload:SuperOffice.CRM.TimeZoneRule.EndDay
+  isExternal: true
+  name: EndDay
+  nameWithType: TimeZoneRule.EndDay
+  fullName: SuperOffice.CRM.TimeZoneRule.EndDay
+- uid: SuperOffice.CRM.TimeZoneRule.EndMonth*
+  commentId: Overload:SuperOffice.CRM.TimeZoneRule.EndMonth
+  isExternal: true
+  name: EndMonth
+  nameWithType: TimeZoneRule.EndMonth
+  fullName: SuperOffice.CRM.TimeZoneRule.EndMonth
+- uid: SuperOffice.CRM.TimeZoneRule.TZOffset*
+  commentId: Overload:SuperOffice.CRM.TimeZoneRule.TZOffset
+  isExternal: true
+  name: TZOffset
+  nameWithType: TimeZoneRule.TZOffset
+  fullName: SuperOffice.CRM.TimeZoneRule.TZOffset
+- uid: SuperOffice.CRM.TimeZoneRule.StartRulePattern*
+  commentId: Overload:SuperOffice.CRM.TimeZoneRule.StartRulePattern
+  isExternal: true
+  name: StartRulePattern
+  nameWithType: TimeZoneRule.StartRulePattern
+  fullName: SuperOffice.CRM.TimeZoneRule.StartRulePattern
+- uid: SuperOffice.CRM.TimeZoneRule.EndRulePattern*
+  commentId: Overload:SuperOffice.CRM.TimeZoneRule.EndRulePattern
+  isExternal: true
+  name: EndRulePattern
+  nameWithType: TimeZoneRule.EndRulePattern
+  fullName: SuperOffice.CRM.TimeZoneRule.EndRulePattern

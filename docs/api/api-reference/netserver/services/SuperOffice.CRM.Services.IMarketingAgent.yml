@@ -1,0 +1,801 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.IMarketingAgent
+  commentId: T:SuperOffice.CRM.Services.IMarketingAgent
+  id: IMarketingAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntity
+  - SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntity
+  - SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity
+  - SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity
+  - SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntity(System.Int32)
+  - SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity(System.Int32)
+  - SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity(System.Int32)
+  - SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity(System.Int32)
+  - SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity(System.Int32)
+  - SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity(System.Int32)
+  - SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing(System.Int32)
+  - SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity(System.Int32)
+  - SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity(System.Int32)
+  - SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks(System.Int32)
+  - SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntity(SuperOffice.CRM.Services.FormEntity)
+  - SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntity(SuperOffice.CRM.Services.FormSubmissionEntity)
+  - SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntity(SuperOffice.CRM.Services.ShipmentMessageBlockEntity)
+  - SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
+  - SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptcha(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IMarketingAgent
+  nameWithType: IMarketingAgent
+  fullName: SuperOffice.CRM.Services.IMarketingAgent
+  type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInterface for the Marketing Agent\nAgent used for Marketing functions, such as Forms\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (MarketingAgent agent = new MarketingAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: >-
+      [Agent("Marketing Agent", "Interface for the Marketing Agent. Agent used for Marketing functions, such as Forms")]
+
+      public interface IMarketingAgent : IAgent
+    content.vb: >-
+      <Agent("Marketing Agent", "Interface for the Marketing Agent. Agent used for Marketing functions, such as Forms")>
+
+      Public Interface IMarketingAgent
+          Inherits IAgent
+  attributes:
+  - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
+    ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: Marketing Agent
+    - type: System.String
+      value: Interface for the Marketing Agent. Agent used for Marketing functions, such as Forms
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntity
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntity
+  id: CreateDefaultFormEntity
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultFormEntity()
+  nameWithType: IMarketingAgent.CreateDefaultFormEntity()
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntity()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new FormEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: FormEntity CreateDefaultFormEntity()
+    return:
+      type: SuperOffice.CRM.Services.FormEntity
+      description: New FormEntity with default values
+    content.vb: Function CreateDefaultFormEntity As FormEntity
+  overload: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntity*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntity(SuperOffice.CRM.Services.FormEntity)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntity(SuperOffice.CRM.Services.FormEntity)
+  id: SaveFormEntity(SuperOffice.CRM.Services.FormEntity)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveFormEntity(FormEntity)
+  nameWithType: IMarketingAgent.SaveFormEntity(FormEntity)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntity(SuperOffice.CRM.Services.FormEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing FormEntity or creates a new FormEntity if the id parameter is empty\n"
+  syntax:
+    content: FormEntity SaveFormEntity(FormEntity formEntity)
+    parameters:
+    - id: formEntity
+      type: SuperOffice.CRM.Services.FormEntity
+      description: The FormEntity that is saved.
+    return:
+      type: SuperOffice.CRM.Services.FormEntity
+      description: New or updated FormEntity
+    content.vb: Function SaveFormEntity(formEntity As FormEntity) As FormEntity
+  overload: SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntity*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntity(System.Int32)
+  id: DeleteFormEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteFormEntity(Int32)
+  nameWithType: IMarketingAgent.DeleteFormEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the FormEntity\n"
+  syntax:
+    content: void DeleteFormEntity(int formEntityId)
+    parameters:
+    - id: formEntityId
+      type: System.Int32
+      description: The identity of the FormEntity
+    content.vb: Sub DeleteFormEntity(formEntityId As Integer)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntity*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntity
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntity
+  id: CreateDefaultFormSubmissionEntity
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultFormSubmissionEntity()
+  nameWithType: IMarketingAgent.CreateDefaultFormSubmissionEntity()
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntity()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new FormSubmissionEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: FormSubmissionEntity CreateDefaultFormSubmissionEntity()
+    return:
+      type: SuperOffice.CRM.Services.FormSubmissionEntity
+      description: New FormSubmissionEntity with default values
+    content.vb: Function CreateDefaultFormSubmissionEntity As FormSubmissionEntity
+  overload: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntity*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntity(SuperOffice.CRM.Services.FormSubmissionEntity)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntity(SuperOffice.CRM.Services.FormSubmissionEntity)
+  id: SaveFormSubmissionEntity(SuperOffice.CRM.Services.FormSubmissionEntity)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveFormSubmissionEntity(FormSubmissionEntity)
+  nameWithType: IMarketingAgent.SaveFormSubmissionEntity(FormSubmissionEntity)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntity(SuperOffice.CRM.Services.FormSubmissionEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing FormSubmissionEntity or creates a new FormSubmissionEntity if the id parameter is empty\n"
+  syntax:
+    content: FormSubmissionEntity SaveFormSubmissionEntity(FormSubmissionEntity formSubmissionEntity)
+    parameters:
+    - id: formSubmissionEntity
+      type: SuperOffice.CRM.Services.FormSubmissionEntity
+      description: The FormSubmissionEntity that is saved.
+    return:
+      type: SuperOffice.CRM.Services.FormSubmissionEntity
+      description: New or updated FormSubmissionEntity
+    content.vb: Function SaveFormSubmissionEntity(formSubmissionEntity As FormSubmissionEntity) As FormSubmissionEntity
+  overload: SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntity*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity(System.Int32)
+  id: DeleteFormSubmissionEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteFormSubmissionEntity(Int32)
+  nameWithType: IMarketingAgent.DeleteFormSubmissionEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the FormSubmissionEntity\n"
+  syntax:
+    content: void DeleteFormSubmissionEntity(int formSubmissionEntityId)
+    parameters:
+    - id: formSubmissionEntityId
+      type: System.Int32
+      description: The identity of the FormSubmissionEntity
+    content.vb: Sub DeleteFormSubmissionEntity(formSubmissionEntityId As Integer)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity
+  id: CreateDefaultShipmentMessageEntity
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultShipmentMessageEntity()
+  nameWithType: IMarketingAgent.CreateDefaultShipmentMessageEntity()
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new ShipmentMessageEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: ShipmentMessageEntity CreateDefaultShipmentMessageEntity()
+    return:
+      type: SuperOffice.CRM.Services.ShipmentMessageEntity
+      description: New ShipmentMessageEntity with default values
+    content.vb: Function CreateDefaultShipmentMessageEntity As ShipmentMessageEntity
+  overload: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
+  id: SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveShipmentMessageEntity(ShipmentMessageEntity)
+  nameWithType: IMarketingAgent.SaveShipmentMessageEntity(ShipmentMessageEntity)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing ShipmentMessageEntity or creates a new ShipmentMessageEntity if the id parameter is empty\n"
+  syntax:
+    content: ShipmentMessageEntity SaveShipmentMessageEntity(ShipmentMessageEntity shipmentMessageEntity)
+    parameters:
+    - id: shipmentMessageEntity
+      type: SuperOffice.CRM.Services.ShipmentMessageEntity
+      description: The ShipmentMessageEntity that is saved.
+    return:
+      type: SuperOffice.CRM.Services.ShipmentMessageEntity
+      description: New or updated ShipmentMessageEntity
+    content.vb: Function SaveShipmentMessageEntity(shipmentMessageEntity As ShipmentMessageEntity) As ShipmentMessageEntity
+  overload: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity(System.Int32)
+  id: DeleteShipmentMessageEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteShipmentMessageEntity(Int32)
+  nameWithType: IMarketingAgent.DeleteShipmentMessageEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the ShipmentMessageEntity\n"
+  syntax:
+    content: void DeleteShipmentMessageEntity(int shipmentMessageEntityId)
+    parameters:
+    - id: shipmentMessageEntityId
+      type: System.Int32
+      description: The identity of the ShipmentMessageEntity
+    content.vb: Sub DeleteShipmentMessageEntity(shipmentMessageEntityId As Integer)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity
+  id: CreateDefaultShipmentMessageBlockEntity
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultShipmentMessageBlockEntity()
+  nameWithType: IMarketingAgent.CreateDefaultShipmentMessageBlockEntity()
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new ShipmentMessageBlockEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: ShipmentMessageBlockEntity CreateDefaultShipmentMessageBlockEntity()
+    return:
+      type: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+      description: New ShipmentMessageBlockEntity with default values
+    content.vb: Function CreateDefaultShipmentMessageBlockEntity As ShipmentMessageBlockEntity
+  overload: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntity(SuperOffice.CRM.Services.ShipmentMessageBlockEntity)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntity(SuperOffice.CRM.Services.ShipmentMessageBlockEntity)
+  id: SaveShipmentMessageBlockEntity(SuperOffice.CRM.Services.ShipmentMessageBlockEntity)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveShipmentMessageBlockEntity(ShipmentMessageBlockEntity)
+  nameWithType: IMarketingAgent.SaveShipmentMessageBlockEntity(ShipmentMessageBlockEntity)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntity(SuperOffice.CRM.Services.ShipmentMessageBlockEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing ShipmentMessageBlockEntity or creates a new ShipmentMessageBlockEntity if the id parameter is empty\n"
+  syntax:
+    content: ShipmentMessageBlockEntity SaveShipmentMessageBlockEntity(ShipmentMessageBlockEntity shipmentMessageBlockEntity)
+    parameters:
+    - id: shipmentMessageBlockEntity
+      type: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+      description: The ShipmentMessageBlockEntity that is saved.
+    return:
+      type: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+      description: New or updated ShipmentMessageBlockEntity
+    content.vb: Function SaveShipmentMessageBlockEntity(shipmentMessageBlockEntity As ShipmentMessageBlockEntity) As ShipmentMessageBlockEntity
+  overload: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntity*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity(System.Int32)
+  id: DeleteShipmentMessageBlockEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteShipmentMessageBlockEntity(Int32)
+  nameWithType: IMarketingAgent.DeleteShipmentMessageBlockEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the ShipmentMessageBlockEntity\n"
+  syntax:
+    content: void DeleteShipmentMessageBlockEntity(int shipmentMessageBlockEntityId)
+    parameters:
+    - id: shipmentMessageBlockEntityId
+      type: System.Int32
+      description: The identity of the ShipmentMessageBlockEntity
+    content.vb: Sub DeleteShipmentMessageBlockEntity(shipmentMessageBlockEntityId As Integer)
+  overload: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity(System.Int32)
+  id: GetFormEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: GetFormEntity(Int32)
+  nameWithType: IMarketingAgent.GetFormEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a FormEntity object.                        \n"
+  syntax:
+    content: FormEntity GetFormEntity(int formEntityId)
+    parameters:
+    - id: formEntityId
+      type: System.Int32
+      description: The identifier of the FormEntity object
+    return:
+      type: SuperOffice.CRM.Services.FormEntity
+      description: FormEntity
+    content.vb: Function GetFormEntity(formEntityId As Integer) As FormEntity
+  overload: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptcha(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptcha(System.String,System.String)
+  id: VerifyGoogleRecaptcha(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: VerifyGoogleRecaptcha(String, String)
+  nameWithType: IMarketingAgent.VerifyGoogleRecaptcha(String, String)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptcha(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis method will try to verify a Google recaptcha token. The token is gained from the recaptcha frontend component\n"
+  syntax:
+    content: bool VerifyGoogleRecaptcha(string token, string optionalSecretKey)
+    parameters:
+    - id: token
+      type: System.String
+      description: The token to be verified
+    - id: optionalSecretKey
+      type: System.String
+      description: Use an optional secret key instead of the system wide
+    return:
+      type: System.Boolean
+      description: Returns true if the recaptcha token verified successfully
+    content.vb: Function VerifyGoogleRecaptcha(token As String, optionalSecretKey As String) As Boolean
+  overload: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptcha*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity(System.Int32)
+  id: GetFormSubmissionEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: GetFormSubmissionEntity(Int32)
+  nameWithType: IMarketingAgent.GetFormSubmissionEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a FormSubmissionEntity object.                        \n"
+  syntax:
+    content: FormSubmissionEntity GetFormSubmissionEntity(int formSubmissionEntityId)
+    parameters:
+    - id: formSubmissionEntityId
+      type: System.Int32
+      description: The identifier of the FormSubmissionEntity object
+    return:
+      type: SuperOffice.CRM.Services.FormSubmissionEntity
+      description: FormSubmissionEntity
+    content.vb: Function GetFormSubmissionEntity(formSubmissionEntityId As Integer) As FormSubmissionEntity
+  overload: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity(System.Int32)
+  id: GetShipmentMessageEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: GetShipmentMessageEntity(Int32)
+  nameWithType: IMarketingAgent.GetShipmentMessageEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a ShipmentMessageEntity object.                        \n"
+  syntax:
+    content: ShipmentMessageEntity GetShipmentMessageEntity(int shipmentMessageEntityId)
+    parameters:
+    - id: shipmentMessageEntityId
+      type: System.Int32
+      description: The identifier of the ShipmentMessageEntity object
+    return:
+      type: SuperOffice.CRM.Services.ShipmentMessageEntity
+      description: ShipmentMessageEntity
+    content.vb: Function GetShipmentMessageEntity(shipmentMessageEntityId As Integer) As ShipmentMessageEntity
+  overload: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity(System.Int32)
+  id: GetShipmentMessageBlockEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: GetShipmentMessageBlockEntity(Int32)
+  nameWithType: IMarketingAgent.GetShipmentMessageBlockEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a ShipmentMessageBlockEntity object.                        \n"
+  syntax:
+    content: ShipmentMessageBlockEntity GetShipmentMessageBlockEntity(int shipmentMessageBlockEntityId)
+    parameters:
+    - id: shipmentMessageBlockEntityId
+      type: System.Int32
+      description: The identifier of the ShipmentMessageBlockEntity object
+    return:
+      type: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+      description: ShipmentMessageBlockEntity
+    content.vb: Function GetShipmentMessageBlockEntity(shipmentMessageBlockEntityId As Integer) As ShipmentMessageBlockEntity
+  overload: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks(System.Int32)
+  id: GetUserBlocks(System.Int32)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: GetUserBlocks(Int32)
+  nameWithType: IMarketingAgent.GetUserBlocks(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the saved user blocks to be used in a shipment/mailing message\n"
+  syntax:
+    content: ShipmentMessageBlockEntity[] GetUserBlocks(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: The associate id to get the user blocks. 0 will get all saved blocks
+    return:
+      type: SuperOffice.CRM.Services.ShipmentMessageBlockEntity[]
+      description: An array of user blocks
+    content.vb: Function GetUserBlocks(associateId As Integer) As ShipmentMessageBlockEntity()
+  overload: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks*
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing(System.Int32)
+  id: GetPreviewMailing(System.Int32)
+  parent: SuperOffice.CRM.Services.IMarketingAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPreviewMailing(Int32)
+  nameWithType: IMarketingAgent.GetPreviewMailing(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a shipment message from its shipment address id\n"
+  syntax:
+    content: PreviewMailing GetPreviewMailing(int shipmentAddrId)
+    parameters:
+    - id: shipmentAddrId
+      type: System.Int32
+      description: Shipment address id
+    return:
+      type: SuperOffice.CRM.Services.PreviewMailing
+      description: PreviewMailing
+    content.vb: Function GetPreviewMailing(shipmentAddrId As Integer) As PreviewMailing
+  overload: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing*
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntity
+  isExternal: true
+  name: CreateDefaultFormEntity
+  nameWithType: IMarketingAgent.CreateDefaultFormEntity
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntity
+- uid: SuperOffice.CRM.Services.FormEntity
+  commentId: T:SuperOffice.CRM.Services.FormEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: FormEntity
+  nameWithType: FormEntity
+  fullName: SuperOffice.CRM.Services.FormEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntity
+  isExternal: true
+  name: SaveFormEntity
+  nameWithType: IMarketingAgent.SaveFormEntity
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntity
+  isExternal: true
+  name: DeleteFormEntity
+  nameWithType: IMarketingAgent.DeleteFormEntity
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntity
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntity
+  isExternal: true
+  name: CreateDefaultFormSubmissionEntity
+  nameWithType: IMarketingAgent.CreateDefaultFormSubmissionEntity
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntity
+- uid: SuperOffice.CRM.Services.FormSubmissionEntity
+  commentId: T:SuperOffice.CRM.Services.FormSubmissionEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: FormSubmissionEntity
+  nameWithType: FormSubmissionEntity
+  fullName: SuperOffice.CRM.Services.FormSubmissionEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntity
+  isExternal: true
+  name: SaveFormSubmissionEntity
+  nameWithType: IMarketingAgent.SaveFormSubmissionEntity
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity
+  isExternal: true
+  name: DeleteFormSubmissionEntity
+  nameWithType: IMarketingAgent.DeleteFormSubmissionEntity
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity
+  isExternal: true
+  name: CreateDefaultShipmentMessageEntity
+  nameWithType: IMarketingAgent.CreateDefaultShipmentMessageEntity
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity
+- uid: SuperOffice.CRM.Services.ShipmentMessageEntity
+  commentId: T:SuperOffice.CRM.Services.ShipmentMessageEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ShipmentMessageEntity
+  nameWithType: ShipmentMessageEntity
+  fullName: SuperOffice.CRM.Services.ShipmentMessageEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity
+  isExternal: true
+  name: SaveShipmentMessageEntity
+  nameWithType: IMarketingAgent.SaveShipmentMessageEntity
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity
+  isExternal: true
+  name: DeleteShipmentMessageEntity
+  nameWithType: IMarketingAgent.DeleteShipmentMessageEntity
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity
+  isExternal: true
+  name: CreateDefaultShipmentMessageBlockEntity
+  nameWithType: IMarketingAgent.CreateDefaultShipmentMessageBlockEntity
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity
+- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+  commentId: T:SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ShipmentMessageBlockEntity
+  nameWithType: ShipmentMessageBlockEntity
+  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntity
+  isExternal: true
+  name: SaveShipmentMessageBlockEntity
+  nameWithType: IMarketingAgent.SaveShipmentMessageBlockEntity
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity
+  isExternal: true
+  name: DeleteShipmentMessageBlockEntity
+  nameWithType: IMarketingAgent.DeleteShipmentMessageBlockEntity
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity
+  isExternal: true
+  name: GetFormEntity
+  nameWithType: IMarketingAgent.GetFormEntity
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptcha*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptcha
+  isExternal: true
+  name: VerifyGoogleRecaptcha
+  nameWithType: IMarketingAgent.VerifyGoogleRecaptcha
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptcha
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity
+  isExternal: true
+  name: GetFormSubmissionEntity
+  nameWithType: IMarketingAgent.GetFormSubmissionEntity
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity
+  isExternal: true
+  name: GetShipmentMessageEntity
+  nameWithType: IMarketingAgent.GetShipmentMessageEntity
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity
+  isExternal: true
+  name: GetShipmentMessageBlockEntity
+  nameWithType: IMarketingAgent.GetShipmentMessageBlockEntity
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks
+  isExternal: true
+  name: GetUserBlocks
+  nameWithType: IMarketingAgent.GetUserBlocks
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks
+- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity[]
+  isExternal: true
+  name: ShipmentMessageBlockEntity[]
+  nameWithType: ShipmentMessageBlockEntity[]
+  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity[]
+  nameWithType.vb: ShipmentMessageBlockEntity()
+  fullName.vb: SuperOffice.CRM.Services.ShipmentMessageBlockEntity()
+  name.vb: ShipmentMessageBlockEntity()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+    name: ShipmentMessageBlockEntity
+    nameWithType: ShipmentMessageBlockEntity
+    fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+    name: ShipmentMessageBlockEntity
+    nameWithType: ShipmentMessageBlockEntity
+    fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing*
+  commentId: Overload:SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing
+  isExternal: true
+  name: GetPreviewMailing
+  nameWithType: IMarketingAgent.GetPreviewMailing
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing
+- uid: SuperOffice.CRM.Services.PreviewMailing
+  commentId: T:SuperOffice.CRM.Services.PreviewMailing
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: PreviewMailing
+  nameWithType: PreviewMailing
+  fullName: SuperOffice.CRM.Services.PreviewMailing

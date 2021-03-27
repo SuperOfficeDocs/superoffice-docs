@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Mail
+  commentId: N:SuperOffice.CRM.Mail
+  id: SuperOffice.CRM.Mail
+  children:
+  - SuperOffice.CRM.Mail.CacheMailQueue
+  - SuperOffice.CRM.Mail.CacheMailQueueArgument
+  - SuperOffice.CRM.Mail.CacheMailQueueProcessor
+  - SuperOffice.CRM.Mail.EMailConstants
+  - SuperOffice.CRM.Mail.EMailConstants.ForeignKey
+  - SuperOffice.CRM.Mail.EMailHelper
+  - SuperOffice.CRM.Mail.MailAddressProvider
+  - SuperOffice.CRM.Mail.MailAttachmentProvider
+  - SuperOffice.CRM.Mail.MailCache
+  - SuperOffice.CRM.Mail.MailParser
+  - SuperOffice.CRM.Mail.MailSession`1
+  - SuperOffice.CRM.Mail.MailSoInfoProvider
+  - SuperOffice.CRM.Mail.MessageStoreSession
+  - SuperOffice.CRM.Mail.OutgoingMailSession
+  - SuperOffice.CRM.Mail.RecipentList
+  - SuperOffice.CRM.Mail.SendMailQueue
+  - SuperOffice.CRM.Mail.SendMailQueueArgument
+  - SuperOffice.CRM.Mail.SendMailQueueProcessor
+  - SuperOffice.CRM.Mail.SentEMailInfo
+  - SuperOffice.CRM.Mail.SoMail
+  - SuperOffice.CRM.Mail.SoMailCredentials
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.Mail
+  nameWithType: SuperOffice.CRM.Mail
+  fullName: SuperOffice.CRM.Mail
+  type: Namespace
+  assemblies:
+  - SoDataBase
+references:
+- uid: SuperOffice.CRM.Mail.MailAddressProvider
+  commentId: T:SuperOffice.CRM.Mail.MailAddressProvider
+  isExternal: true
+  name: MailAddressProvider
+  nameWithType: MailAddressProvider
+  fullName: SuperOffice.CRM.Mail.MailAddressProvider
+- uid: SuperOffice.CRM.Mail.MailAttachmentProvider
+  commentId: T:SuperOffice.CRM.Mail.MailAttachmentProvider
+  isExternal: true
+  name: MailAttachmentProvider
+  nameWithType: MailAttachmentProvider
+  fullName: SuperOffice.CRM.Mail.MailAttachmentProvider
+- uid: SuperOffice.CRM.Mail.MailSoInfoProvider
+  commentId: T:SuperOffice.CRM.Mail.MailSoInfoProvider
+  isExternal: true
+  name: MailSoInfoProvider
+  nameWithType: MailSoInfoProvider
+  fullName: SuperOffice.CRM.Mail.MailSoInfoProvider
+- uid: SuperOffice.CRM.Mail.SoMailCredentials
+  commentId: T:SuperOffice.CRM.Mail.SoMailCredentials
+  parent: SuperOffice.CRM.Mail
+  isExternal: true
+  name: SoMailCredentials
+  nameWithType: SoMailCredentials
+  fullName: SuperOffice.CRM.Mail.SoMailCredentials
+- uid: SuperOffice.CRM.Mail.SoMail
+  commentId: T:SuperOffice.CRM.Mail.SoMail
+  isExternal: true
+  name: SoMail
+  nameWithType: SoMail
+  fullName: SuperOffice.CRM.Mail.SoMail
+- uid: SuperOffice.CRM.Mail.CacheMailQueueArgument
+  commentId: T:SuperOffice.CRM.Mail.CacheMailQueueArgument
+  isExternal: true
+  name: CacheMailQueueArgument
+  nameWithType: CacheMailQueueArgument
+  fullName: SuperOffice.CRM.Mail.CacheMailQueueArgument
+- uid: SuperOffice.CRM.Mail.CacheMailQueueProcessor
+  commentId: T:SuperOffice.CRM.Mail.CacheMailQueueProcessor
+  isExternal: true
+  name: CacheMailQueueProcessor
+  nameWithType: CacheMailQueueProcessor
+  fullName: SuperOffice.CRM.Mail.CacheMailQueueProcessor
+- uid: SuperOffice.CRM.Mail.CacheMailQueue
+  commentId: T:SuperOffice.CRM.Mail.CacheMailQueue
+  isExternal: true
+  name: CacheMailQueue
+  nameWithType: CacheMailQueue
+  fullName: SuperOffice.CRM.Mail.CacheMailQueue
+- uid: SuperOffice.CRM.Mail.EMailConstants
+  commentId: T:SuperOffice.CRM.Mail.EMailConstants
+  isExternal: true
+  name: EMailConstants
+  nameWithType: EMailConstants
+  fullName: SuperOffice.CRM.Mail.EMailConstants
+- uid: SuperOffice.CRM.Mail.EMailConstants.ForeignKey
+  commentId: T:SuperOffice.CRM.Mail.EMailConstants.ForeignKey
+  isExternal: true
+  name: EMailConstants.ForeignKey
+  nameWithType: EMailConstants.ForeignKey
+  fullName: SuperOffice.CRM.Mail.EMailConstants.ForeignKey
+- uid: SuperOffice.CRM.Mail.EMailHelper
+  commentId: T:SuperOffice.CRM.Mail.EMailHelper
+  isExternal: true
+  name: EMailHelper
+  nameWithType: EMailHelper
+  fullName: SuperOffice.CRM.Mail.EMailHelper
+- uid: SuperOffice.CRM.Mail.RecipentList
+  commentId: T:SuperOffice.CRM.Mail.RecipentList
+  isExternal: true
+  name: RecipentList
+  nameWithType: RecipentList
+  fullName: SuperOffice.CRM.Mail.RecipentList
+- uid: SuperOffice.CRM.Mail.SentEMailInfo
+  commentId: T:SuperOffice.CRM.Mail.SentEMailInfo
+  isExternal: true
+  name: SentEMailInfo
+  nameWithType: SentEMailInfo
+  fullName: SuperOffice.CRM.Mail.SentEMailInfo
+- uid: SuperOffice.CRM.Mail.MailCache
+  commentId: T:SuperOffice.CRM.Mail.MailCache
+  isExternal: true
+  name: MailCache
+  nameWithType: MailCache
+  fullName: SuperOffice.CRM.Mail.MailCache
+- uid: SuperOffice.CRM.Mail.MailParser
+  commentId: T:SuperOffice.CRM.Mail.MailParser
+  isExternal: true
+  name: MailParser
+  nameWithType: MailParser
+  fullName: SuperOffice.CRM.Mail.MailParser
+- uid: SuperOffice.CRM.Mail.MailSession`1
+  commentId: T:SuperOffice.CRM.Mail.MailSession`1
+  isExternal: true
+  name: MailSession<TMailInterface>
+  nameWithType: MailSession<TMailInterface>
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>
+  nameWithType.vb: MailSession(Of TMailInterface)
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface)
+  name.vb: MailSession(Of TMailInterface)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Mail.MailSession`1
+    name: MailSession
+    nameWithType: MailSession
+    fullName: SuperOffice.CRM.Mail.MailSession
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TMailInterface
+    nameWithType: TMailInterface
+    fullName: TMailInterface
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Mail.MailSession`1
+    name: MailSession
+    nameWithType: MailSession
+    fullName: SuperOffice.CRM.Mail.MailSession
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TMailInterface
+    nameWithType: TMailInterface
+    fullName: TMailInterface
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Mail.MessageStoreSession
+  commentId: T:SuperOffice.CRM.Mail.MessageStoreSession
+  parent: SuperOffice.CRM.Mail
+  isExternal: true
+  name: MessageStoreSession
+  nameWithType: MessageStoreSession
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession
+- uid: SuperOffice.CRM.Mail.OutgoingMailSession
+  commentId: T:SuperOffice.CRM.Mail.OutgoingMailSession
+  parent: SuperOffice.CRM.Mail
+  isExternal: true
+  name: OutgoingMailSession
+  nameWithType: OutgoingMailSession
+  fullName: SuperOffice.CRM.Mail.OutgoingMailSession
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument
+  commentId: T:SuperOffice.CRM.Mail.SendMailQueueArgument
+  parent: SuperOffice.CRM.Mail
+  isExternal: true
+  name: SendMailQueueArgument
+  nameWithType: SendMailQueueArgument
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument
+- uid: SuperOffice.CRM.Mail.SendMailQueueProcessor
+  commentId: T:SuperOffice.CRM.Mail.SendMailQueueProcessor
+  isExternal: true
+  name: SendMailQueueProcessor
+  nameWithType: SendMailQueueProcessor
+  fullName: SuperOffice.CRM.Mail.SendMailQueueProcessor
+- uid: SuperOffice.CRM.Mail.SendMailQueue
+  commentId: T:SuperOffice.CRM.Mail.SendMailQueue
+  isExternal: true
+  name: SendMailQueue
+  nameWithType: SendMailQueue
+  fullName: SuperOffice.CRM.Mail.SendMailQueue
+- uid: SuperOffice.CRM.Mail
+  commentId: N:SuperOffice.CRM.Mail
+  isExternal: true
+  name: SuperOffice.CRM.Mail
+  nameWithType: SuperOffice.CRM.Mail
+  fullName: SuperOffice.CRM.Mail

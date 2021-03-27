@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest
+  commentId: T:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest
+  id: UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.#ctor
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.Info
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.SelectedListId
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest
+  nameWithType: UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest : Object'
+    content.vb: >-
+      Public Class UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest()
+  nameWithType: UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest()
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.Info
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.Info
+  id: Info
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.Info
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.Info
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UserDefinedFieldInfo Info { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+    content.vb: Public Property Info As UserDefinedFieldInfo
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.Info*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.SelectedListId
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.SelectedListId
+  id: SelectedListId
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest
+  langs:
+  - csharp
+  - vb
+  name: SelectedListId
+  nameWithType: UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.SelectedListId
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.SelectedListId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SelectedListId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SelectedListId As Integer
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.SelectedListId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.#ctor
+  isExternal: true
+  name: UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest
+  nameWithType: UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.Info*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.Info
+  isExternal: true
+  name: Info
+  nameWithType: UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.Info
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.Info
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  commentId: T:SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: UserDefinedFieldInfo
+  nameWithType: UserDefinedFieldInfo
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.SelectedListId*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.SelectedListId
+  isExternal: true
+  name: SelectedListId
+  nameWithType: UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.SelectedListId
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_SetListTableIdAndUDListDefinitionIdFromSelectedListIdRequest.SelectedListId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

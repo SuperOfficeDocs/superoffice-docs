@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Chat_PickUpChatSessionRequest
+  commentId: T:SuperOffice.WebApi.Data.Chat_PickUpChatSessionRequest
+  id: Chat_PickUpChatSessionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Chat_PickUpChatSessionRequest.#ctor
+  - SuperOffice.WebApi.Data.Chat_PickUpChatSessionRequest.ChatSessionId
+  langs:
+  - csharp
+  - vb
+  name: Chat_PickUpChatSessionRequest
+  nameWithType: Chat_PickUpChatSessionRequest
+  fullName: SuperOffice.WebApi.Data.Chat_PickUpChatSessionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Chat_PickUpChatSessionRequest : Object'
+    content.vb: >-
+      Public Class Chat_PickUpChatSessionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Chat_PickUpChatSessionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Chat_PickUpChatSessionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Chat_PickUpChatSessionRequest
+  langs:
+  - csharp
+  - vb
+  name: Chat_PickUpChatSessionRequest()
+  nameWithType: Chat_PickUpChatSessionRequest.Chat_PickUpChatSessionRequest()
+  fullName: SuperOffice.WebApi.Data.Chat_PickUpChatSessionRequest.Chat_PickUpChatSessionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Chat_PickUpChatSessionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Chat_PickUpChatSessionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Chat_PickUpChatSessionRequest.ChatSessionId
+  commentId: P:SuperOffice.WebApi.Data.Chat_PickUpChatSessionRequest.ChatSessionId
+  id: ChatSessionId
+  parent: SuperOffice.WebApi.Data.Chat_PickUpChatSessionRequest
+  langs:
+  - csharp
+  - vb
+  name: ChatSessionId
+  nameWithType: Chat_PickUpChatSessionRequest.ChatSessionId
+  fullName: SuperOffice.WebApi.Data.Chat_PickUpChatSessionRequest.ChatSessionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ChatSessionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChatSessionId As Integer
+  overload: SuperOffice.WebApi.Data.Chat_PickUpChatSessionRequest.ChatSessionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Chat_PickUpChatSessionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Chat_PickUpChatSessionRequest.#ctor
+  isExternal: true
+  name: Chat_PickUpChatSessionRequest
+  nameWithType: Chat_PickUpChatSessionRequest.Chat_PickUpChatSessionRequest
+  fullName: SuperOffice.WebApi.Data.Chat_PickUpChatSessionRequest.Chat_PickUpChatSessionRequest
+- uid: SuperOffice.WebApi.Data.Chat_PickUpChatSessionRequest.ChatSessionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Chat_PickUpChatSessionRequest.ChatSessionId
+  isExternal: true
+  name: ChatSessionId
+  nameWithType: Chat_PickUpChatSessionRequest.ChatSessionId
+  fullName: SuperOffice.WebApi.Data.Chat_PickUpChatSessionRequest.ChatSessionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

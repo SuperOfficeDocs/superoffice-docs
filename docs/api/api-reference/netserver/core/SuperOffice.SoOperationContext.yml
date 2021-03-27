@@ -1,0 +1,1045 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.SoOperationContext
+  commentId: T:SuperOffice.SoOperationContext
+  id: SoOperationContext
+  parent: SuperOffice
+  children:
+  - SuperOffice.SoOperationContext.ApplicationToken
+  - SuperOffice.SoOperationContext.Dispose
+  - SuperOffice.SoOperationContext.EnterOperationContext(System.String,SuperOffice.OperationContextType,System.String)
+  - SuperOffice.SoOperationContext.GetClosestApplicationToken
+  - SuperOffice.SoOperationContext.GetCurrentContext
+  - SuperOffice.SoOperationContext.IsApplicationTokenSet
+  - SuperOffice.SoOperationContext.IsCurrentContext
+  - SuperOffice.SoOperationContext.LeaveOperationContext
+  - SuperOffice.SoOperationContext.Operation
+  - SuperOffice.SoOperationContext.OperationType
+  - SuperOffice.SoOperationContext.Parent
+  - SuperOffice.SoOperationContext.StopTimer
+  langs:
+  - csharp
+  - vb
+  name: SoOperationContext
+  nameWithType: SoOperationContext
+  fullName: SuperOffice.SoOperationContext
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nHold information about current operation context.  \n"
+  remarks: "\nClients of NetServer should call \n<code>using (SoOperationContext.EnterOperationContext(applicationId, operation)){/* business logic /*}</code>\n when performing operations.\n"
+  syntax:
+    content: 'public class SoOperationContext : IDisposable'
+    content.vb: >-
+      Public Class SoOperationContext
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.SoOperationContext.EnumUtil.MapEnums``2
+  - SuperOffice.SoOperationContext.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.SoOperationContext.EnterOperationContext(System.String,SuperOffice.OperationContextType,System.String)
+  commentId: M:SuperOffice.SoOperationContext.EnterOperationContext(System.String,SuperOffice.OperationContextType,System.String)
+  id: EnterOperationContext(System.String,SuperOffice.OperationContextType,System.String)
+  parent: SuperOffice.SoOperationContext
+  langs:
+  - csharp
+  - vb
+  name: EnterOperationContext(String, OperationContextType, String)
+  nameWithType: SoOperationContext.EnterOperationContext(String, OperationContextType, String)
+  fullName: SuperOffice.SoOperationContext.EnterOperationContext(System.String, SuperOffice.OperationContextType, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nCalled by clients in a <code>using</code> statement surrounding the implementation block of code\n"
+  syntax:
+    content: public static SoOperationContext EnterOperationContext(string applicationToken, OperationContextType type, string operation)
+    parameters:
+    - id: applicationToken
+      type: System.String
+      description: ApplicationID of the caller
+    - id: type
+      type: SuperOffice.OperationContextType
+    - id: operation
+      type: System.String
+      description: Operation that is performed
+    return:
+      type: SuperOffice.SoOperationContext
+      description: Disposable operation context.
+    content.vb: Public Shared Function EnterOperationContext(applicationToken As String, type As OperationContextType, operation As String) As SoOperationContext
+  overload: SuperOffice.SoOperationContext.EnterOperationContext*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.SoOperationContext.GetCurrentContext
+  commentId: M:SuperOffice.SoOperationContext.GetCurrentContext
+  id: GetCurrentContext
+  parent: SuperOffice.SoOperationContext
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentContext()
+  nameWithType: SoOperationContext.GetCurrentContext()
+  fullName: SuperOffice.SoOperationContext.GetCurrentContext()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nGet the current operation context. \n"
+  syntax:
+    content: public static SoOperationContext GetCurrentContext()
+    return:
+      type: SuperOffice.SoOperationContext
+      description: Current operation context.  A new one is created if no-one exists.
+    content.vb: Public Shared Function GetCurrentContext As SoOperationContext
+  overload: SuperOffice.SoOperationContext.GetCurrentContext*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.SoOperationContext.StopTimer
+  commentId: M:SuperOffice.SoOperationContext.StopTimer
+  id: StopTimer
+  parent: SuperOffice.SoOperationContext
+  langs:
+  - csharp
+  - vb
+  name: StopTimer()
+  nameWithType: SoOperationContext.StopTimer()
+  fullName: SuperOffice.SoOperationContext.StopTimer()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public void StopTimer()
+    content.vb: Public Sub StopTimer
+  overload: SuperOffice.SoOperationContext.StopTimer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.SoOperationContext.LeaveOperationContext
+  commentId: M:SuperOffice.SoOperationContext.LeaveOperationContext
+  id: LeaveOperationContext
+  parent: SuperOffice.SoOperationContext
+  langs:
+  - csharp
+  - vb
+  name: LeaveOperationContext()
+  nameWithType: SoOperationContext.LeaveOperationContext()
+  fullName: SuperOffice.SoOperationContext.LeaveOperationContext()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nLeave the operation context.  This method is called by Dispose.\n"
+  syntax:
+    content: public void LeaveOperationContext()
+    content.vb: Public Sub LeaveOperationContext
+  overload: SuperOffice.SoOperationContext.LeaveOperationContext*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoException
+    commentId: T:SuperOffice.Exceptions.SoException
+    description: Thrown if this is not the current context.
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.SoOperationContext.Dispose
+  commentId: M:SuperOffice.SoOperationContext.Dispose
+  id: Dispose
+  parent: SuperOffice.SoOperationContext
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: SoOperationContext.Dispose()
+  fullName: SuperOffice.SoOperationContext.Dispose()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nDispose the current operation context by calling LeaveOperationContext().\n"
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: SuperOffice.SoOperationContext.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.SoOperationContext.GetClosestApplicationToken
+  commentId: M:SuperOffice.SoOperationContext.GetClosestApplicationToken
+  id: GetClosestApplicationToken
+  parent: SuperOffice.SoOperationContext
+  langs:
+  - csharp
+  - vb
+  name: GetClosestApplicationToken()
+  nameWithType: SoOperationContext.GetClosestApplicationToken()
+  fullName: SuperOffice.SoOperationContext.GetClosestApplicationToken()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nTraverse the OperationContext stack from the current level and backup,\nlooking for a non-blank ApplicationToken. Return the first one found,\nor null if none are found.\n"
+  syntax:
+    content: public static string GetClosestApplicationToken()
+    return:
+      type: System.String
+      description: ApplicationToken closest in nesting level to the current context; possibly null
+    content.vb: Public Shared Function GetClosestApplicationToken As String
+  overload: SuperOffice.SoOperationContext.GetClosestApplicationToken*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.SoOperationContext.IsApplicationTokenSet
+  commentId: M:SuperOffice.SoOperationContext.IsApplicationTokenSet
+  id: IsApplicationTokenSet
+  parent: SuperOffice.SoOperationContext
+  langs:
+  - csharp
+  - vb
+  name: IsApplicationTokenSet()
+  nameWithType: SoOperationContext.IsApplicationTokenSet()
+  fullName: SuperOffice.SoOperationContext.IsApplicationTokenSet()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nCheck if a non-blank application token has been set\n"
+  syntax:
+    content: public static bool IsApplicationTokenSet()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsApplicationTokenSet As Boolean
+  overload: SuperOffice.SoOperationContext.IsApplicationTokenSet*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.SoOperationContext.ApplicationToken
+  commentId: P:SuperOffice.SoOperationContext.ApplicationToken
+  id: ApplicationToken
+  parent: SuperOffice.SoOperationContext
+  langs:
+  - csharp
+  - vb
+  name: ApplicationToken
+  nameWithType: SoOperationContext.ApplicationToken
+  fullName: SuperOffice.SoOperationContext.ApplicationToken
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nApplicationId of the current context.\n"
+  syntax:
+    content: public string ApplicationToken { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ApplicationToken As String
+  overload: SuperOffice.SoOperationContext.ApplicationToken*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.SoOperationContext.OperationType
+  commentId: P:SuperOffice.SoOperationContext.OperationType
+  id: OperationType
+  parent: SuperOffice.SoOperationContext
+  langs:
+  - csharp
+  - vb
+  name: OperationType
+  nameWithType: SoOperationContext.OperationType
+  fullName: SuperOffice.SoOperationContext.OperationType
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nType of operation\n"
+  syntax:
+    content: public OperationContextType OperationType { get; }
+    parameters: []
+    return:
+      type: SuperOffice.OperationContextType
+    content.vb: Public ReadOnly Property OperationType As OperationContextType
+  overload: SuperOffice.SoOperationContext.OperationType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.SoOperationContext.Operation
+  commentId: P:SuperOffice.SoOperationContext.Operation
+  id: Operation
+  parent: SuperOffice.SoOperationContext
+  langs:
+  - csharp
+  - vb
+  name: Operation
+  nameWithType: SoOperationContext.Operation
+  fullName: SuperOffice.SoOperationContext.Operation
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nOperation name\n"
+  syntax:
+    content: public string Operation { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Operation As String
+  overload: SuperOffice.SoOperationContext.Operation*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.SoOperationContext.Parent
+  commentId: P:SuperOffice.SoOperationContext.Parent
+  id: Parent
+  parent: SuperOffice.SoOperationContext
+  langs:
+  - csharp
+  - vb
+  name: Parent
+  nameWithType: SoOperationContext.Parent
+  fullName: SuperOffice.SoOperationContext.Parent
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nParent operation.  This can be null if there are no parent operations.\n"
+  syntax:
+    content: public SoOperationContext Parent { get; }
+    parameters: []
+    return:
+      type: SuperOffice.SoOperationContext
+    content.vb: Public ReadOnly Property Parent As SoOperationContext
+  overload: SuperOffice.SoOperationContext.Parent*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.SoOperationContext.IsCurrentContext
+  commentId: P:SuperOffice.SoOperationContext.IsCurrentContext
+  id: IsCurrentContext
+  parent: SuperOffice.SoOperationContext
+  langs:
+  - csharp
+  - vb
+  name: IsCurrentContext
+  nameWithType: SoOperationContext.IsCurrentContext
+  fullName: SuperOffice.SoOperationContext.IsCurrentContext
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nCheck if this is the current operation context.\n"
+  syntax:
+    content: public bool IsCurrentContext { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsCurrentContext As Boolean
+  overload: SuperOffice.SoOperationContext.IsCurrentContext*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice
+  commentId: N:SuperOffice
+  isExternal: true
+  name: SuperOffice
+  nameWithType: SuperOffice
+  fullName: SuperOffice
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.SoOperationContext.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoOperationContext, To>()
+  nameWithType: EnumUtil.MapEnums<SoOperationContext, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.SoOperationContext, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoOperationContext, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.SoOperationContext, To)()
+  name.vb: MapEnums(Of SoOperationContext, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoOperationContext, To>
+    nameWithType: EnumUtil.MapEnums<SoOperationContext, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.SoOperationContext, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoOperationContext, To)
+    nameWithType: EnumUtil.MapEnums(Of SoOperationContext, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.SoOperationContext, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.SoOperationContext.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoOperationContext, To>()
+  nameWithType: Converters.MapEnums<SoOperationContext, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.SoOperationContext, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoOperationContext, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.SoOperationContext, To)()
+  name.vb: MapEnums(Of SoOperationContext, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoOperationContext, To>
+    nameWithType: Converters.MapEnums<SoOperationContext, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.SoOperationContext, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoOperationContext, To)
+    nameWithType: Converters.MapEnums(Of SoOperationContext, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.SoOperationContext, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.SoOperationContext.EnterOperationContext*
+  commentId: Overload:SuperOffice.SoOperationContext.EnterOperationContext
+  isExternal: true
+  name: EnterOperationContext
+  nameWithType: SoOperationContext.EnterOperationContext
+  fullName: SuperOffice.SoOperationContext.EnterOperationContext
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.OperationContextType
+  commentId: T:SuperOffice.OperationContextType
+  parent: SuperOffice
+  isExternal: true
+  name: OperationContextType
+  nameWithType: OperationContextType
+  fullName: SuperOffice.OperationContextType
+- uid: SuperOffice.SoOperationContext
+  commentId: T:SuperOffice.SoOperationContext
+  parent: SuperOffice
+  isExternal: true
+  name: SoOperationContext
+  nameWithType: SoOperationContext
+  fullName: SuperOffice.SoOperationContext
+- uid: SuperOffice.SoOperationContext.GetCurrentContext*
+  commentId: Overload:SuperOffice.SoOperationContext.GetCurrentContext
+  isExternal: true
+  name: GetCurrentContext
+  nameWithType: SoOperationContext.GetCurrentContext
+  fullName: SuperOffice.SoOperationContext.GetCurrentContext
+- uid: SuperOffice.SoOperationContext.StopTimer*
+  commentId: Overload:SuperOffice.SoOperationContext.StopTimer
+  isExternal: true
+  name: StopTimer
+  nameWithType: SoOperationContext.StopTimer
+  fullName: SuperOffice.SoOperationContext.StopTimer
+- uid: SuperOffice.SoOperationContext.LeaveOperationContext*
+  commentId: Overload:SuperOffice.SoOperationContext.LeaveOperationContext
+  isExternal: true
+  name: LeaveOperationContext
+  nameWithType: SoOperationContext.LeaveOperationContext
+  fullName: SuperOffice.SoOperationContext.LeaveOperationContext
+- uid: SuperOffice.Exceptions.SoException
+  commentId: T:SuperOffice.Exceptions.SoException
+  parent: SuperOffice.Exceptions
+  isExternal: true
+  name: SoException
+  nameWithType: SoException
+  fullName: SuperOffice.Exceptions.SoException
+- uid: SuperOffice.Exceptions
+  commentId: N:SuperOffice.Exceptions
+  isExternal: true
+  name: SuperOffice.Exceptions
+  nameWithType: SuperOffice.Exceptions
+  fullName: SuperOffice.Exceptions
+- uid: SuperOffice.SoOperationContext.Dispose*
+  commentId: Overload:SuperOffice.SoOperationContext.Dispose
+  isExternal: true
+  name: Dispose
+  nameWithType: SoOperationContext.Dispose
+  fullName: SuperOffice.SoOperationContext.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.SoOperationContext.GetClosestApplicationToken*
+  commentId: Overload:SuperOffice.SoOperationContext.GetClosestApplicationToken
+  isExternal: true
+  name: GetClosestApplicationToken
+  nameWithType: SoOperationContext.GetClosestApplicationToken
+  fullName: SuperOffice.SoOperationContext.GetClosestApplicationToken
+- uid: SuperOffice.SoOperationContext.IsApplicationTokenSet*
+  commentId: Overload:SuperOffice.SoOperationContext.IsApplicationTokenSet
+  isExternal: true
+  name: IsApplicationTokenSet
+  nameWithType: SoOperationContext.IsApplicationTokenSet
+  fullName: SuperOffice.SoOperationContext.IsApplicationTokenSet
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.SoOperationContext.ApplicationToken*
+  commentId: Overload:SuperOffice.SoOperationContext.ApplicationToken
+  isExternal: true
+  name: ApplicationToken
+  nameWithType: SoOperationContext.ApplicationToken
+  fullName: SuperOffice.SoOperationContext.ApplicationToken
+- uid: SuperOffice.SoOperationContext.OperationType*
+  commentId: Overload:SuperOffice.SoOperationContext.OperationType
+  isExternal: true
+  name: OperationType
+  nameWithType: SoOperationContext.OperationType
+  fullName: SuperOffice.SoOperationContext.OperationType
+- uid: SuperOffice.SoOperationContext.Operation*
+  commentId: Overload:SuperOffice.SoOperationContext.Operation
+  isExternal: true
+  name: Operation
+  nameWithType: SoOperationContext.Operation
+  fullName: SuperOffice.SoOperationContext.Operation
+- uid: SuperOffice.SoOperationContext.Parent*
+  commentId: Overload:SuperOffice.SoOperationContext.Parent
+  isExternal: true
+  name: Parent
+  nameWithType: SoOperationContext.Parent
+  fullName: SuperOffice.SoOperationContext.Parent
+- uid: SuperOffice.SoOperationContext.IsCurrentContext*
+  commentId: Overload:SuperOffice.SoOperationContext.IsCurrentContext
+  isExternal: true
+  name: IsCurrentContext
+  nameWithType: SoOperationContext.IsCurrentContext
+  fullName: SuperOffice.SoOperationContext.IsCurrentContext

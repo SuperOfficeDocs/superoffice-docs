@@ -1,0 +1,3005 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.ApplicationUtility
+  commentId: T:SuperOffice.DCF.Web.ApplicationUtility
+  id: ApplicationUtility
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.ApplicationUtility.ApplicationPath
+  - SuperOffice.DCF.Web.ApplicationUtility.CalculateUrl(System.String)
+  - SuperOffice.DCF.Web.ApplicationUtility.ClearCaches(SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags)
+  - SuperOffice.DCF.Web.ApplicationUtility.ClearCaches(System.Boolean)
+  - SuperOffice.DCF.Web.ApplicationUtility.EmailValidationRegEx
+  - SuperOffice.DCF.Web.ApplicationUtility.ExecuteAjaxMethodImplementation(SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation,SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation)
+  - SuperOffice.DCF.Web.ApplicationUtility.FindStringInExceptionMessage(System.String,System.Exception)
+  - SuperOffice.DCF.Web.ApplicationUtility.FirstValueInList(SuperOffice.CRM.Services.EntityElement[])
+  - SuperOffice.DCF.Web.ApplicationUtility.FormatCompanyName(System.String,System.String)
+  - SuperOffice.DCF.Web.ApplicationUtility.FormatDateToDate(System.Object)
+  - SuperOffice.DCF.Web.ApplicationUtility.FormatDateToShortDateTime(System.Object)
+  - SuperOffice.DCF.Web.ApplicationUtility.FormatDisplayText(System.String)
+  - SuperOffice.DCF.Web.ApplicationUtility.FormatEmailOpenScript(System.String)
+  - SuperOffice.DCF.Web.ApplicationUtility.FormatExceptionMessage(System.Exception)
+  - SuperOffice.DCF.Web.ApplicationUtility.FormatExceptionMessage(System.String)
+  - SuperOffice.DCF.Web.ApplicationUtility.FormatNewLine(System.String)
+  - SuperOffice.DCF.Web.ApplicationUtility.FormatSize(System.Int32)
+  - SuperOffice.DCF.Web.ApplicationUtility.FormatSOProtocolScript(System.String)
+  - SuperOffice.DCF.Web.ApplicationUtility.FormatSOProtocolScript(System.String,System.String)
+  - SuperOffice.DCF.Web.ApplicationUtility.GetApplicationRoot
+  - SuperOffice.DCF.Web.ApplicationUtility.GetApplicationRootFromWcfUri(System.String)
+  - SuperOffice.DCF.Web.ApplicationUtility.GetBrowserInfo
+  - SuperOffice.DCF.Web.ApplicationUtility.GetCurrentRequestUrl
+  - SuperOffice.DCF.Web.ApplicationUtility.GetDefaultDialogWindowSize
+  - SuperOffice.DCF.Web.ApplicationUtility.GetDefaultMainWindowSize
+  - SuperOffice.DCF.Web.ApplicationUtility.GetItemFromQueryString(System.String)
+  - SuperOffice.DCF.Web.ApplicationUtility.GetItemFromQueryString(System.String,System.Boolean)
+  - SuperOffice.DCF.Web.ApplicationUtility.GetItemFromQueryString(System.String,System.Web.HttpRequest)
+  - SuperOffice.DCF.Web.ApplicationUtility.GetItemFromSoProtocol(System.String)
+  - SuperOffice.DCF.Web.ApplicationUtility.GetItemFromString(System.String,System.String)
+  - SuperOffice.DCF.Web.ApplicationUtility.GetRootPath
+  - SuperOffice.DCF.Web.ApplicationUtility.GetSitePart(System.Uri)
+  - SuperOffice.DCF.Web.ApplicationUtility.GetUserCulture(System.Boolean)
+  - SuperOffice.DCF.Web.ApplicationUtility.GetUserUICulture
+  - SuperOffice.DCF.Web.ApplicationUtility.HandleException(System.Web.UI.Page,System.Exception)
+  - SuperOffice.DCF.Web.ApplicationUtility.HandleException(System.Web.UI.Page,System.Exception,System.Boolean)
+  - SuperOffice.DCF.Web.ApplicationUtility.HasClientUrlOverride
+  - SuperOffice.DCF.Web.ApplicationUtility.IgnoreExceptionHandling
+  - SuperOffice.DCF.Web.ApplicationUtility.IsHttpMethodGet
+  - SuperOffice.DCF.Web.ApplicationUtility.IsInlineDialogGet
+  - SuperOffice.DCF.Web.ApplicationUtility.IsRealGet
+  - SuperOffice.DCF.Web.ApplicationUtility.IsRealInlineDialogGet
+  - SuperOffice.DCF.Web.ApplicationUtility.IsServerPageRequest
+  - SuperOffice.DCF.Web.ApplicationUtility.LightweightLayout
+  - SuperOffice.DCF.Web.ApplicationUtility.LocalizedTimeSpanToString(System.TimeSpan)
+  - SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsIntelOsx
+  - SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsLinux
+  - SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsOsx
+  - SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsOther
+  - SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsWindows
+  - SuperOffice.DCF.Web.ApplicationUtility.ParseQuoteString(System.String)
+  - SuperOffice.DCF.Web.ApplicationUtility.PasswordValidationRegEx
+  - SuperOffice.DCF.Web.ApplicationUtility.RedirectIfUrlCasingIsWrong(System.Web.HttpContextBase)
+  - SuperOffice.DCF.Web.ApplicationUtility.ResolveUrl(System.String)
+  - SuperOffice.DCF.Web.ApplicationUtility.SetUserCulture(System.String,System.String)
+  - SuperOffice.DCF.Web.ApplicationUtility.SplitToken1
+  - SuperOffice.DCF.Web.ApplicationUtility.SplitToken2
+  - SuperOffice.DCF.Web.ApplicationUtility.TryParseLocalizedTimeSpanString(System.String,System.TimeSpan@)
+  - SuperOffice.DCF.Web.ApplicationUtility.UpdateEnvironmentInformation(System.Collections.Specialized.NameValueCollection)
+  - SuperOffice.DCF.Web.ApplicationUtility.UrlFormatter(System.String)
+  - SuperOffice.DCF.Web.ApplicationUtility.WebCacheAdd(System.String,System.Object,System.Int64)
+  - SuperOffice.DCF.Web.ApplicationUtility.WebCacheAdd(System.String,System.Object,System.Int64,System.Web.Caching.CacheItemPriority)
+  - SuperOffice.DCF.Web.ApplicationUtility.WebCacheClear(System.String)
+  - SuperOffice.DCF.Web.ApplicationUtility.WebCacheClearAll
+  - SuperOffice.DCF.Web.ApplicationUtility.WebCacheExist(System.String)
+  - SuperOffice.DCF.Web.ApplicationUtility.WebCacheGet(System.String)
+  - SuperOffice.DCF.Web.ApplicationUtility.WithClientUrlOverride(System.Uri)
+  langs:
+  - csharp
+  - vb
+  name: ApplicationUtility
+  nameWithType: ApplicationUtility
+  fullName: SuperOffice.DCF.Web.ApplicationUtility
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static class ApplicationUtility
+    content.vb: Public Module ApplicationUtility
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.DCF.Web.ApplicationUtility.SplitToken1
+  commentId: F:SuperOffice.DCF.Web.ApplicationUtility.SplitToken1
+  id: SplitToken1
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: SplitToken1
+  nameWithType: ApplicationUtility.SplitToken1
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.SplitToken1
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string SplitToken1 = "!$YNWA$!"
+    return:
+      type: System.String
+    content.vb: Public Const SplitToken1 As String = "!$YNWA$!"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationUtility.SplitToken2
+  commentId: F:SuperOffice.DCF.Web.ApplicationUtility.SplitToken2
+  id: SplitToken2
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: SplitToken2
+  nameWithType: ApplicationUtility.SplitToken2
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.SplitToken2
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string SplitToken2 = "!#mufcsuxx#!"
+    return:
+      type: System.String
+    content.vb: Public Const SplitToken2 As String = "!#mufcsuxx#!"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationUtility.WebCacheClear(System.String)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.WebCacheClear(System.String)
+  id: WebCacheClear(System.String)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: WebCacheClear(String)
+  nameWithType: ApplicationUtility.WebCacheClear(String)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.WebCacheClear(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static object WebCacheClear(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.Object
+    content.vb: Public Shared Function WebCacheClear(key As String) As Object
+  overload: SuperOffice.DCF.Web.ApplicationUtility.WebCacheClear*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.WebCacheClearAll
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.WebCacheClearAll
+  id: WebCacheClearAll
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: WebCacheClearAll()
+  nameWithType: ApplicationUtility.WebCacheClearAll()
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.WebCacheClearAll()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void WebCacheClearAll()
+    content.vb: Public Shared Sub WebCacheClearAll
+  overload: SuperOffice.DCF.Web.ApplicationUtility.WebCacheClearAll*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.WebCacheGet(System.String)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.WebCacheGet(System.String)
+  id: WebCacheGet(System.String)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: WebCacheGet(String)
+  nameWithType: ApplicationUtility.WebCacheGet(String)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.WebCacheGet(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static object WebCacheGet(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.Object
+    content.vb: Public Shared Function WebCacheGet(key As String) As Object
+  overload: SuperOffice.DCF.Web.ApplicationUtility.WebCacheGet*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.WebCacheAdd(System.String,System.Object,System.Int64)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.WebCacheAdd(System.String,System.Object,System.Int64)
+  id: WebCacheAdd(System.String,System.Object,System.Int64)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: WebCacheAdd(String, Object, Int64)
+  nameWithType: ApplicationUtility.WebCacheAdd(String, Object, Int64)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.WebCacheAdd(System.String, System.Object, System.Int64)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void WebCacheAdd(string key, object value, long minutes)
+    parameters:
+    - id: key
+      type: System.String
+    - id: value
+      type: System.Object
+    - id: minutes
+      type: System.Int64
+    content.vb: Public Shared Sub WebCacheAdd(key As String, value As Object, minutes As Long)
+  overload: SuperOffice.DCF.Web.ApplicationUtility.WebCacheAdd*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.WebCacheExist(System.String)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.WebCacheExist(System.String)
+  id: WebCacheExist(System.String)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: WebCacheExist(String)
+  nameWithType: ApplicationUtility.WebCacheExist(String)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.WebCacheExist(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool WebCacheExist(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function WebCacheExist(key As String) As Boolean
+  overload: SuperOffice.DCF.Web.ApplicationUtility.WebCacheExist*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.WebCacheAdd(System.String,System.Object,System.Int64,System.Web.Caching.CacheItemPriority)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.WebCacheAdd(System.String,System.Object,System.Int64,System.Web.Caching.CacheItemPriority)
+  id: WebCacheAdd(System.String,System.Object,System.Int64,System.Web.Caching.CacheItemPriority)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: WebCacheAdd(String, Object, Int64, CacheItemPriority)
+  nameWithType: ApplicationUtility.WebCacheAdd(String, Object, Int64, CacheItemPriority)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.WebCacheAdd(System.String, System.Object, System.Int64, System.Web.Caching.CacheItemPriority)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void WebCacheAdd(string key, object value, long minutes, CacheItemPriority priority)
+    parameters:
+    - id: key
+      type: System.String
+    - id: value
+      type: System.Object
+    - id: minutes
+      type: System.Int64
+    - id: priority
+      type: System.Web.Caching.CacheItemPriority
+    content.vb: Public Shared Sub WebCacheAdd(key As String, value As Object, minutes As Long, priority As CacheItemPriority)
+  overload: SuperOffice.DCF.Web.ApplicationUtility.WebCacheAdd*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.ClearCaches(System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.ClearCaches(System.Boolean)
+  id: ClearCaches(System.Boolean)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: ClearCaches(Boolean)
+  nameWithType: ApplicationUtility.ClearCaches(Boolean)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.ClearCaches(System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void ClearCaches(bool clearNetserverCaches)
+    parameters:
+    - id: clearNetserverCaches
+      type: System.Boolean
+    content.vb: Public Shared Sub ClearCaches(clearNetserverCaches As Boolean)
+  overload: SuperOffice.DCF.Web.ApplicationUtility.ClearCaches*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.ClearCaches(SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.ClearCaches(SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags)
+  id: ClearCaches(SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: ClearCaches(ApplicationUtility.CacheTypeFlags)
+  nameWithType: ApplicationUtility.ClearCaches(ApplicationUtility.CacheTypeFlags)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.ClearCaches(SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void ClearCaches(ApplicationUtility.CacheTypeFlags cacheType)
+    parameters:
+    - id: cacheType
+      type: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags
+    content.vb: Public Shared Sub ClearCaches(cacheType As ApplicationUtility.CacheTypeFlags)
+  overload: SuperOffice.DCF.Web.ApplicationUtility.ClearCaches*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.IsServerPageRequest
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.IsServerPageRequest
+  id: IsServerPageRequest
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: IsServerPageRequest()
+  nameWithType: ApplicationUtility.IsServerPageRequest()
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.IsServerPageRequest()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsServerPageRequest()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsServerPageRequest As Boolean
+  overload: SuperOffice.DCF.Web.ApplicationUtility.IsServerPageRequest*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.IsHttpMethodGet
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.IsHttpMethodGet
+  id: IsHttpMethodGet
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: IsHttpMethodGet()
+  nameWithType: ApplicationUtility.IsHttpMethodGet()
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.IsHttpMethodGet()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsHttpMethodGet()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsHttpMethodGet As Boolean
+  overload: SuperOffice.DCF.Web.ApplicationUtility.IsHttpMethodGet*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.IsInlineDialogGet
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.IsInlineDialogGet
+  id: IsInlineDialogGet
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: IsInlineDialogGet()
+  nameWithType: ApplicationUtility.IsInlineDialogGet()
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.IsInlineDialogGet()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsInlineDialogGet()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsInlineDialogGet As Boolean
+  overload: SuperOffice.DCF.Web.ApplicationUtility.IsInlineDialogGet*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.IsRealGet
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.IsRealGet
+  id: IsRealGet
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: IsRealGet()
+  nameWithType: ApplicationUtility.IsRealGet()
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.IsRealGet()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsRealGet()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsRealGet As Boolean
+  overload: SuperOffice.DCF.Web.ApplicationUtility.IsRealGet*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.IsRealInlineDialogGet
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.IsRealInlineDialogGet
+  id: IsRealInlineDialogGet
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: IsRealInlineDialogGet()
+  nameWithType: ApplicationUtility.IsRealInlineDialogGet()
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.IsRealInlineDialogGet()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IsRealInlineDialogGet()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsRealInlineDialogGet As Boolean
+  overload: SuperOffice.DCF.Web.ApplicationUtility.IsRealInlineDialogGet*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetItemFromQueryString(System.String,System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.GetItemFromQueryString(System.String,System.Boolean)
+  id: GetItemFromQueryString(System.String,System.Boolean)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: GetItemFromQueryString(String, Boolean)
+  nameWithType: ApplicationUtility.GetItemFromQueryString(String, Boolean)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetItemFromQueryString(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string GetItemFromQueryString(string key, bool deepSearch)
+    parameters:
+    - id: key
+      type: System.String
+    - id: deepSearch
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetItemFromQueryString(key As String, deepSearch As Boolean) As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.GetItemFromQueryString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetItemFromQueryString(System.String)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.GetItemFromQueryString(System.String)
+  id: GetItemFromQueryString(System.String)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: GetItemFromQueryString(String)
+  nameWithType: ApplicationUtility.GetItemFromQueryString(String)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetItemFromQueryString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string GetItemFromQueryString(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetItemFromQueryString(key As String) As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.GetItemFromQueryString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetItemFromQueryString(System.String,System.Web.HttpRequest)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.GetItemFromQueryString(System.String,System.Web.HttpRequest)
+  id: GetItemFromQueryString(System.String,System.Web.HttpRequest)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: GetItemFromQueryString(String, HttpRequest)
+  nameWithType: ApplicationUtility.GetItemFromQueryString(String, HttpRequest)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetItemFromQueryString(System.String, System.Web.HttpRequest)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string GetItemFromQueryString(string key, HttpRequest request)
+    parameters:
+    - id: key
+      type: System.String
+    - id: request
+      type: System.Web.HttpRequest
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetItemFromQueryString(key As String, request As HttpRequest) As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.GetItemFromQueryString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetItemFromSoProtocol(System.String)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.GetItemFromSoProtocol(System.String)
+  id: GetItemFromSoProtocol(System.String)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: GetItemFromSoProtocol(String)
+  nameWithType: ApplicationUtility.GetItemFromSoProtocol(String)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetItemFromSoProtocol(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string GetItemFromSoProtocol(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetItemFromSoProtocol(key As String) As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.GetItemFromSoProtocol*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetItemFromString(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.GetItemFromString(System.String,System.String)
+  id: GetItemFromString(System.String,System.String)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: GetItemFromString(String, String)
+  nameWithType: ApplicationUtility.GetItemFromString(String, String)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetItemFromString(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string GetItemFromString(string str, string key)
+    parameters:
+    - id: str
+      type: System.String
+    - id: key
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetItemFromString(str As String, key As String) As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.GetItemFromString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.ResolveUrl(System.String)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.ResolveUrl(System.String)
+  id: ResolveUrl(System.String)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: ResolveUrl(String)
+  nameWithType: ApplicationUtility.ResolveUrl(String)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.ResolveUrl(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string ResolveUrl(string url)
+    parameters:
+    - id: url
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function ResolveUrl(url As String) As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.ResolveUrl*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetApplicationRootFromWcfUri(System.String)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.GetApplicationRootFromWcfUri(System.String)
+  id: GetApplicationRootFromWcfUri(System.String)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: GetApplicationRootFromWcfUri(String)
+  nameWithType: ApplicationUtility.GetApplicationRootFromWcfUri(String)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetApplicationRootFromWcfUri(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string GetApplicationRootFromWcfUri(string svcUri)
+    parameters:
+    - id: svcUri
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetApplicationRootFromWcfUri(svcUri As String) As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.GetApplicationRootFromWcfUri*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.RedirectIfUrlCasingIsWrong(System.Web.HttpContextBase)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.RedirectIfUrlCasingIsWrong(System.Web.HttpContextBase)
+  id: RedirectIfUrlCasingIsWrong(System.Web.HttpContextBase)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: RedirectIfUrlCasingIsWrong(HttpContextBase)
+  nameWithType: ApplicationUtility.RedirectIfUrlCasingIsWrong(HttpContextBase)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.RedirectIfUrlCasingIsWrong(System.Web.HttpContextBase)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void RedirectIfUrlCasingIsWrong(HttpContextBase ctx)
+    parameters:
+    - id: ctx
+      type: System.Web.HttpContextBase
+    content.vb: Public Shared Sub RedirectIfUrlCasingIsWrong(ctx As HttpContextBase)
+  overload: SuperOffice.DCF.Web.ApplicationUtility.RedirectIfUrlCasingIsWrong*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetCurrentRequestUrl
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.GetCurrentRequestUrl
+  id: GetCurrentRequestUrl
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentRequestUrl()
+  nameWithType: ApplicationUtility.GetCurrentRequestUrl()
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetCurrentRequestUrl()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static Uri GetCurrentRequestUrl()
+    return:
+      type: System.Uri
+    content.vb: Public Shared Function GetCurrentRequestUrl As Uri
+  overload: SuperOffice.DCF.Web.ApplicationUtility.GetCurrentRequestUrl*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetApplicationRoot
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.GetApplicationRoot
+  id: GetApplicationRoot
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: GetApplicationRoot()
+  nameWithType: ApplicationUtility.GetApplicationRoot()
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetApplicationRoot()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string GetApplicationRoot()
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetApplicationRoot As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.GetApplicationRoot*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetSitePart(System.Uri)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.GetSitePart(System.Uri)
+  id: GetSitePart(System.Uri)
+  isExtensionMethod: true
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: GetSitePart(Uri)
+  nameWithType: ApplicationUtility.GetSitePart(Uri)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetSitePart(System.Uri)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string GetSitePart(this Uri url)
+    parameters:
+    - id: url
+      type: System.Uri
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetSitePart(url As Uri) As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.GetSitePart*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetRootPath
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.GetRootPath
+  id: GetRootPath
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: GetRootPath()
+  nameWithType: ApplicationUtility.GetRootPath()
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetRootPath()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string GetRootPath()
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetRootPath As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.GetRootPath*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.WithClientUrlOverride(System.Uri)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.WithClientUrlOverride(System.Uri)
+  id: WithClientUrlOverride(System.Uri)
+  isExtensionMethod: true
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: WithClientUrlOverride(Uri)
+  nameWithType: ApplicationUtility.WithClientUrlOverride(Uri)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.WithClientUrlOverride(System.Uri)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static Uri WithClientUrlOverride(this Uri url)
+    parameters:
+    - id: url
+      type: System.Uri
+    return:
+      type: System.Uri
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function WithClientUrlOverride(url As Uri) As Uri
+  overload: SuperOffice.DCF.Web.ApplicationUtility.WithClientUrlOverride*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.HasClientUrlOverride
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.HasClientUrlOverride
+  id: HasClientUrlOverride
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: HasClientUrlOverride()
+  nameWithType: ApplicationUtility.HasClientUrlOverride()
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.HasClientUrlOverride()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool HasClientUrlOverride()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function HasClientUrlOverride As Boolean
+  overload: SuperOffice.DCF.Web.ApplicationUtility.HasClientUrlOverride*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.CalculateUrl(System.String)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.CalculateUrl(System.String)
+  id: CalculateUrl(System.String)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: CalculateUrl(String)
+  nameWithType: ApplicationUtility.CalculateUrl(String)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.CalculateUrl(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string CalculateUrl(string url)
+    parameters:
+    - id: url
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function CalculateUrl(url As String) As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.CalculateUrl*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.UrlFormatter(System.String)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.UrlFormatter(System.String)
+  id: UrlFormatter(System.String)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: UrlFormatter(String)
+  nameWithType: ApplicationUtility.UrlFormatter(String)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.UrlFormatter(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string UrlFormatter(string partialUrl)
+    parameters:
+    - id: partialUrl
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function UrlFormatter(partialUrl As String) As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.UrlFormatter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.FormatCompanyName(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.FormatCompanyName(System.String,System.String)
+  id: FormatCompanyName(System.String,System.String)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: FormatCompanyName(String, String)
+  nameWithType: ApplicationUtility.FormatCompanyName(String, String)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.FormatCompanyName(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string FormatCompanyName(string name, string department)
+    parameters:
+    - id: name
+      type: System.String
+    - id: department
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function FormatCompanyName(name As String, department As String) As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.FormatCompanyName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.FirstValueInList(SuperOffice.CRM.Services.EntityElement[])
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.FirstValueInList(SuperOffice.CRM.Services.EntityElement[])
+  id: FirstValueInList(SuperOffice.CRM.Services.EntityElement[])
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: FirstValueInList(EntityElement[])
+  nameWithType: ApplicationUtility.FirstValueInList(EntityElement[])
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.FirstValueInList(SuperOffice.CRM.Services.EntityElement[])
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string FirstValueInList(EntityElement[] list)
+    parameters:
+    - id: list
+      type: SuperOffice.CRM.Services.EntityElement[]
+    return:
+      type: System.String
+    content.vb: Public Shared Function FirstValueInList(list As EntityElement()) As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.FirstValueInList*
+  nameWithType.vb: ApplicationUtility.FirstValueInList(EntityElement())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.ApplicationUtility.FirstValueInList(SuperOffice.CRM.Services.EntityElement())
+  name.vb: FirstValueInList(EntityElement())
+- uid: SuperOffice.DCF.Web.ApplicationUtility.FormatDisplayText(System.String)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.FormatDisplayText(System.String)
+  id: FormatDisplayText(System.String)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: FormatDisplayText(String)
+  nameWithType: ApplicationUtility.FormatDisplayText(String)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.FormatDisplayText(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string FormatDisplayText(string text)
+    parameters:
+    - id: text
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function FormatDisplayText(text As String) As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.FormatDisplayText*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.FormatNewLine(System.String)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.FormatNewLine(System.String)
+  id: FormatNewLine(System.String)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: FormatNewLine(String)
+  nameWithType: ApplicationUtility.FormatNewLine(String)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.FormatNewLine(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string FormatNewLine(string text)
+    parameters:
+    - id: text
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function FormatNewLine(text As String) As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.FormatNewLine*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.FormatDateToShortDateTime(System.Object)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.FormatDateToShortDateTime(System.Object)
+  id: FormatDateToShortDateTime(System.Object)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: FormatDateToShortDateTime(Object)
+  nameWithType: ApplicationUtility.FormatDateToShortDateTime(Object)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.FormatDateToShortDateTime(System.Object)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string FormatDateToShortDateTime(object dateTime)
+    parameters:
+    - id: dateTime
+      type: System.Object
+    return:
+      type: System.String
+    content.vb: Public Shared Function FormatDateToShortDateTime(dateTime As Object) As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.FormatDateToShortDateTime*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.FormatDateToDate(System.Object)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.FormatDateToDate(System.Object)
+  id: FormatDateToDate(System.Object)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: FormatDateToDate(Object)
+  nameWithType: ApplicationUtility.FormatDateToDate(Object)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.FormatDateToDate(System.Object)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string FormatDateToDate(object dateTime)
+    parameters:
+    - id: dateTime
+      type: System.Object
+    return:
+      type: System.String
+    content.vb: Public Shared Function FormatDateToDate(dateTime As Object) As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.FormatDateToDate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.FormatEmailOpenScript(System.String)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.FormatEmailOpenScript(System.String)
+  id: FormatEmailOpenScript(System.String)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: FormatEmailOpenScript(String)
+  nameWithType: ApplicationUtility.FormatEmailOpenScript(String)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.FormatEmailOpenScript(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string FormatEmailOpenScript(string emailUrl)
+    parameters:
+    - id: emailUrl
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function FormatEmailOpenScript(emailUrl As String) As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.FormatEmailOpenScript*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.FormatSOProtocolScript(System.String)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.FormatSOProtocolScript(System.String)
+  id: FormatSOProtocolScript(System.String)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: FormatSOProtocolScript(String)
+  nameWithType: ApplicationUtility.FormatSOProtocolScript(String)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.FormatSOProtocolScript(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string FormatSOProtocolScript(string soProtocol)
+    parameters:
+    - id: soProtocol
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function FormatSOProtocolScript(soProtocol As String) As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.FormatSOProtocolScript*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.FormatSOProtocolScript(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.FormatSOProtocolScript(System.String,System.String)
+  id: FormatSOProtocolScript(System.String,System.String)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: FormatSOProtocolScript(String, String)
+  nameWithType: ApplicationUtility.FormatSOProtocolScript(String, String)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.FormatSOProtocolScript(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string FormatSOProtocolScript(string soProtocol, string callbackFunction)
+    parameters:
+    - id: soProtocol
+      type: System.String
+    - id: callbackFunction
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function FormatSOProtocolScript(soProtocol As String, callbackFunction As String) As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.FormatSOProtocolScript*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.FormatSize(System.Int32)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.FormatSize(System.Int32)
+  id: FormatSize(System.Int32)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: FormatSize(Int32)
+  nameWithType: ApplicationUtility.FormatSize(Int32)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.FormatSize(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string FormatSize(int bytes)
+    parameters:
+    - id: bytes
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function FormatSize(bytes As Integer) As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.FormatSize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.SetUserCulture(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.SetUserCulture(System.String,System.String)
+  id: SetUserCulture(System.String,System.String)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: SetUserCulture(String, String)
+  nameWithType: ApplicationUtility.SetUserCulture(String, String)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.SetUserCulture(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void SetUserCulture(string culture, string uiCulture)
+    parameters:
+    - id: culture
+      type: System.String
+    - id: uiCulture
+      type: System.String
+    content.vb: Public Shared Sub SetUserCulture(culture As String, uiCulture As String)
+  overload: SuperOffice.DCF.Web.ApplicationUtility.SetUserCulture*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetUserCulture(System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.GetUserCulture(System.Boolean)
+  id: GetUserCulture(System.Boolean)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: GetUserCulture(Boolean)
+  nameWithType: ApplicationUtility.GetUserCulture(Boolean)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetUserCulture(System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string GetUserCulture(bool checkDb = true)
+    parameters:
+    - id: checkDb
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetUserCulture(checkDb As Boolean = True) As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.GetUserCulture*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetUserUICulture
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.GetUserUICulture
+  id: GetUserUICulture
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: GetUserUICulture()
+  nameWithType: ApplicationUtility.GetUserUICulture()
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetUserUICulture()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string GetUserUICulture()
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetUserUICulture As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.GetUserUICulture*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetBrowserInfo
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.GetBrowserInfo
+  id: GetBrowserInfo
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: GetBrowserInfo()
+  nameWithType: ApplicationUtility.GetBrowserInfo()
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetBrowserInfo()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string GetBrowserInfo()
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetBrowserInfo As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.GetBrowserInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetDefaultMainWindowSize
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.GetDefaultMainWindowSize
+  id: GetDefaultMainWindowSize
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultMainWindowSize()
+  nameWithType: ApplicationUtility.GetDefaultMainWindowSize()
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetDefaultMainWindowSize()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static Size GetDefaultMainWindowSize()
+    return:
+      type: System.Drawing.Size
+    content.vb: Public Shared Function GetDefaultMainWindowSize As Size
+  overload: SuperOffice.DCF.Web.ApplicationUtility.GetDefaultMainWindowSize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetDefaultDialogWindowSize
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.GetDefaultDialogWindowSize
+  id: GetDefaultDialogWindowSize
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultDialogWindowSize()
+  nameWithType: ApplicationUtility.GetDefaultDialogWindowSize()
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetDefaultDialogWindowSize()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static Size GetDefaultDialogWindowSize()
+    return:
+      type: System.Drawing.Size
+    content.vb: Public Shared Function GetDefaultDialogWindowSize As Size
+  overload: SuperOffice.DCF.Web.ApplicationUtility.GetDefaultDialogWindowSize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.LightweightLayout
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.LightweightLayout
+  id: LightweightLayout
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: LightweightLayout()
+  nameWithType: ApplicationUtility.LightweightLayout()
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.LightweightLayout()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: >-
+      [Obsolete("Not in use")]
+
+      public static bool LightweightLayout()
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <Obsolete("Not in use")>
+
+      Public Shared Function LightweightLayout As Boolean
+  overload: SuperOffice.DCF.Web.ApplicationUtility.LightweightLayout*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Not in use
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.ExecuteAjaxMethodImplementation(SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation,SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.ExecuteAjaxMethodImplementation(SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation,SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation)
+  id: ExecuteAjaxMethodImplementation(SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation,SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: ExecuteAjaxMethodImplementation(ApplicationUtility.AjaxMethodPreImplementation, ApplicationUtility.AjaxMethodImplementation)
+  nameWithType: ApplicationUtility.ExecuteAjaxMethodImplementation(ApplicationUtility.AjaxMethodPreImplementation, ApplicationUtility.AjaxMethodImplementation)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.ExecuteAjaxMethodImplementation(SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation, SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void ExecuteAjaxMethodImplementation(ApplicationUtility.AjaxMethodPreImplementation preAuthenticateImplementation, ApplicationUtility.AjaxMethodImplementation implementation)
+    parameters:
+    - id: preAuthenticateImplementation
+      type: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation
+    - id: implementation
+      type: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation
+    content.vb: Public Shared Sub ExecuteAjaxMethodImplementation(preAuthenticateImplementation As ApplicationUtility.AjaxMethodPreImplementation, implementation As ApplicationUtility.AjaxMethodImplementation)
+  overload: SuperOffice.DCF.Web.ApplicationUtility.ExecuteAjaxMethodImplementation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.IgnoreExceptionHandling
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.IgnoreExceptionHandling
+  id: IgnoreExceptionHandling
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: IgnoreExceptionHandling()
+  nameWithType: ApplicationUtility.IgnoreExceptionHandling()
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.IgnoreExceptionHandling()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool IgnoreExceptionHandling()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IgnoreExceptionHandling As Boolean
+  overload: SuperOffice.DCF.Web.ApplicationUtility.IgnoreExceptionHandling*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.HandleException(System.Web.UI.Page,System.Exception)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.HandleException(System.Web.UI.Page,System.Exception)
+  id: HandleException(System.Web.UI.Page,System.Exception)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: HandleException(Page, Exception)
+  nameWithType: ApplicationUtility.HandleException(Page, Exception)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.HandleException(System.Web.UI.Page, System.Exception)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void HandleException(Page page, Exception ex)
+    parameters:
+    - id: page
+      type: System.Web.UI.Page
+    - id: ex
+      type: System.Exception
+    content.vb: Public Shared Sub HandleException(page As Page, ex As Exception)
+  overload: SuperOffice.DCF.Web.ApplicationUtility.HandleException*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.HandleException(System.Web.UI.Page,System.Exception,System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.HandleException(System.Web.UI.Page,System.Exception,System.Boolean)
+  id: HandleException(System.Web.UI.Page,System.Exception,System.Boolean)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: HandleException(Page, Exception, Boolean)
+  nameWithType: ApplicationUtility.HandleException(Page, Exception, Boolean)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.HandleException(System.Web.UI.Page, System.Exception, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void HandleException(Page page, Exception ex, bool logErrorAsWarning)
+    parameters:
+    - id: page
+      type: System.Web.UI.Page
+    - id: ex
+      type: System.Exception
+    - id: logErrorAsWarning
+      type: System.Boolean
+    content.vb: Public Shared Sub HandleException(page As Page, ex As Exception, logErrorAsWarning As Boolean)
+  overload: SuperOffice.DCF.Web.ApplicationUtility.HandleException*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.FormatExceptionMessage(System.Exception)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.FormatExceptionMessage(System.Exception)
+  id: FormatExceptionMessage(System.Exception)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: FormatExceptionMessage(Exception)
+  nameWithType: ApplicationUtility.FormatExceptionMessage(Exception)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.FormatExceptionMessage(System.Exception)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string FormatExceptionMessage(Exception ex)
+    parameters:
+    - id: ex
+      type: System.Exception
+    return:
+      type: System.String
+    content.vb: Public Shared Function FormatExceptionMessage(ex As Exception) As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.FormatExceptionMessage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.FormatExceptionMessage(System.String)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.FormatExceptionMessage(System.String)
+  id: FormatExceptionMessage(System.String)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: FormatExceptionMessage(String)
+  nameWithType: ApplicationUtility.FormatExceptionMessage(String)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.FormatExceptionMessage(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string FormatExceptionMessage(string txt)
+    parameters:
+    - id: txt
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function FormatExceptionMessage(txt As String) As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.FormatExceptionMessage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.UpdateEnvironmentInformation(System.Collections.Specialized.NameValueCollection)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.UpdateEnvironmentInformation(System.Collections.Specialized.NameValueCollection)
+  id: UpdateEnvironmentInformation(System.Collections.Specialized.NameValueCollection)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: UpdateEnvironmentInformation(NameValueCollection)
+  nameWithType: ApplicationUtility.UpdateEnvironmentInformation(NameValueCollection)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.UpdateEnvironmentInformation(System.Collections.Specialized.NameValueCollection)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void UpdateEnvironmentInformation(NameValueCollection info)
+    parameters:
+    - id: info
+      type: System.Collections.Specialized.NameValueCollection
+    content.vb: Public Shared Sub UpdateEnvironmentInformation(info As NameValueCollection)
+  overload: SuperOffice.DCF.Web.ApplicationUtility.UpdateEnvironmentInformation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.FindStringInExceptionMessage(System.String,System.Exception)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.FindStringInExceptionMessage(System.String,System.Exception)
+  id: FindStringInExceptionMessage(System.String,System.Exception)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: FindStringInExceptionMessage(String, Exception)
+  nameWithType: ApplicationUtility.FindStringInExceptionMessage(String, Exception)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.FindStringInExceptionMessage(System.String, System.Exception)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool FindStringInExceptionMessage(string str, Exception ex)
+    parameters:
+    - id: str
+      type: System.String
+    - id: ex
+      type: System.Exception
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function FindStringInExceptionMessage(str As String, ex As Exception) As Boolean
+  overload: SuperOffice.DCF.Web.ApplicationUtility.FindStringInExceptionMessage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.TryParseLocalizedTimeSpanString(System.String,System.TimeSpan@)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.TryParseLocalizedTimeSpanString(System.String,System.TimeSpan@)
+  id: TryParseLocalizedTimeSpanString(System.String,System.TimeSpan@)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: TryParseLocalizedTimeSpanString(String, out TimeSpan)
+  nameWithType: ApplicationUtility.TryParseLocalizedTimeSpanString(String, out TimeSpan)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.TryParseLocalizedTimeSpanString(System.String, out System.TimeSpan)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool TryParseLocalizedTimeSpanString(string s, out TimeSpan timeSpan)
+    parameters:
+    - id: s
+      type: System.String
+    - id: timeSpan
+      type: System.TimeSpan
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function TryParseLocalizedTimeSpanString(s As String, ByRef timeSpan As TimeSpan) As Boolean
+  overload: SuperOffice.DCF.Web.ApplicationUtility.TryParseLocalizedTimeSpanString*
+  nameWithType.vb: ApplicationUtility.TryParseLocalizedTimeSpanString(String, ByRef TimeSpan)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.ApplicationUtility.TryParseLocalizedTimeSpanString(System.String, ByRef System.TimeSpan)
+  name.vb: TryParseLocalizedTimeSpanString(String, ByRef TimeSpan)
+- uid: SuperOffice.DCF.Web.ApplicationUtility.LocalizedTimeSpanToString(System.TimeSpan)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.LocalizedTimeSpanToString(System.TimeSpan)
+  id: LocalizedTimeSpanToString(System.TimeSpan)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: LocalizedTimeSpanToString(TimeSpan)
+  nameWithType: ApplicationUtility.LocalizedTimeSpanToString(TimeSpan)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.LocalizedTimeSpanToString(System.TimeSpan)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string LocalizedTimeSpanToString(TimeSpan timeSpan)
+    parameters:
+    - id: timeSpan
+      type: System.TimeSpan
+    return:
+      type: System.String
+    content.vb: Public Shared Function LocalizedTimeSpanToString(timeSpan As TimeSpan) As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.LocalizedTimeSpanToString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.ParseQuoteString(System.String)
+  commentId: M:SuperOffice.DCF.Web.ApplicationUtility.ParseQuoteString(System.String)
+  id: ParseQuoteString(System.String)
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: ParseQuoteString(String)
+  nameWithType: ApplicationUtility.ParseQuoteString(String)
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.ParseQuoteString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string ParseQuoteString(string str)
+    parameters:
+    - id: str
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function ParseQuoteString(str As String) As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.ParseQuoteString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ApplicationUtility.EmailValidationRegEx
+  commentId: P:SuperOffice.DCF.Web.ApplicationUtility.EmailValidationRegEx
+  id: EmailValidationRegEx
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: EmailValidationRegEx
+  nameWithType: ApplicationUtility.EmailValidationRegEx
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.EmailValidationRegEx
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string EmailValidationRegEx { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property EmailValidationRegEx As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.EmailValidationRegEx*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationUtility.PasswordValidationRegEx
+  commentId: P:SuperOffice.DCF.Web.ApplicationUtility.PasswordValidationRegEx
+  id: PasswordValidationRegEx
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: PasswordValidationRegEx
+  nameWithType: ApplicationUtility.PasswordValidationRegEx
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.PasswordValidationRegEx
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string PasswordValidationRegEx { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property PasswordValidationRegEx As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.PasswordValidationRegEx*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationUtility.ApplicationPath
+  commentId: P:SuperOffice.DCF.Web.ApplicationUtility.ApplicationPath
+  id: ApplicationPath
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: ApplicationPath
+  nameWithType: ApplicationUtility.ApplicationPath
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.ApplicationPath
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string ApplicationPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property ApplicationPath As String
+  overload: SuperOffice.DCF.Web.ApplicationUtility.ApplicationPath*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsWindows
+  commentId: P:SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsWindows
+  id: OperatingSystemIsWindows
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: OperatingSystemIsWindows
+  nameWithType: ApplicationUtility.OperatingSystemIsWindows
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsWindows
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool OperatingSystemIsWindows { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property OperatingSystemIsWindows As Boolean
+  overload: SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsWindows*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsOsx
+  commentId: P:SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsOsx
+  id: OperatingSystemIsOsx
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: OperatingSystemIsOsx
+  nameWithType: ApplicationUtility.OperatingSystemIsOsx
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsOsx
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool OperatingSystemIsOsx { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property OperatingSystemIsOsx As Boolean
+  overload: SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsOsx*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsIntelOsx
+  commentId: P:SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsIntelOsx
+  id: OperatingSystemIsIntelOsx
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: OperatingSystemIsIntelOsx
+  nameWithType: ApplicationUtility.OperatingSystemIsIntelOsx
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsIntelOsx
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool OperatingSystemIsIntelOsx { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property OperatingSystemIsIntelOsx As Boolean
+  overload: SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsIntelOsx*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsLinux
+  commentId: P:SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsLinux
+  id: OperatingSystemIsLinux
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: OperatingSystemIsLinux
+  nameWithType: ApplicationUtility.OperatingSystemIsLinux
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsLinux
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool OperatingSystemIsLinux { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property OperatingSystemIsLinux As Boolean
+  overload: SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsLinux*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsOther
+  commentId: P:SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsOther
+  id: OperatingSystemIsOther
+  parent: SuperOffice.DCF.Web.ApplicationUtility
+  langs:
+  - csharp
+  - vb
+  name: OperatingSystemIsOther
+  nameWithType: ApplicationUtility.OperatingSystemIsOther
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsOther
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static bool OperatingSystemIsOther { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property OperatingSystemIsOther As Boolean
+  overload: SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsOther*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.ApplicationUtility.WebCacheClear*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.WebCacheClear
+  isExternal: true
+  name: WebCacheClear
+  nameWithType: ApplicationUtility.WebCacheClear
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.WebCacheClear
+- uid: SuperOffice.DCF.Web.ApplicationUtility.WebCacheClearAll*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.WebCacheClearAll
+  isExternal: true
+  name: WebCacheClearAll
+  nameWithType: ApplicationUtility.WebCacheClearAll
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.WebCacheClearAll
+- uid: SuperOffice.DCF.Web.ApplicationUtility.WebCacheGet*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.WebCacheGet
+  isExternal: true
+  name: WebCacheGet
+  nameWithType: ApplicationUtility.WebCacheGet
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.WebCacheGet
+- uid: SuperOffice.DCF.Web.ApplicationUtility.WebCacheAdd*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.WebCacheAdd
+  isExternal: true
+  name: WebCacheAdd
+  nameWithType: ApplicationUtility.WebCacheAdd
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.WebCacheAdd
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: SuperOffice.DCF.Web.ApplicationUtility.WebCacheExist*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.WebCacheExist
+  isExternal: true
+  name: WebCacheExist
+  nameWithType: ApplicationUtility.WebCacheExist
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.WebCacheExist
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Web.Caching.CacheItemPriority
+  commentId: '!:System.Web.Caching.CacheItemPriority'
+  isExternal: true
+  name: CacheItemPriority
+  nameWithType: CacheItemPriority
+  fullName: System.Web.Caching.CacheItemPriority
+- uid: SuperOffice.DCF.Web.ApplicationUtility.ClearCaches*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.ClearCaches
+  isExternal: true
+  name: ClearCaches
+  nameWithType: ApplicationUtility.ClearCaches
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.ClearCaches
+- uid: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags
+  commentId: T:SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags
+  parent: SuperOffice.DCF.Web
+  isExternal: true
+  name: ApplicationUtility.CacheTypeFlags
+  nameWithType: ApplicationUtility.CacheTypeFlags
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags
+- uid: SuperOffice.DCF.Web.ApplicationUtility.IsServerPageRequest*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.IsServerPageRequest
+  isExternal: true
+  name: IsServerPageRequest
+  nameWithType: ApplicationUtility.IsServerPageRequest
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.IsServerPageRequest
+- uid: SuperOffice.DCF.Web.ApplicationUtility.IsHttpMethodGet*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.IsHttpMethodGet
+  isExternal: true
+  name: IsHttpMethodGet
+  nameWithType: ApplicationUtility.IsHttpMethodGet
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.IsHttpMethodGet
+- uid: SuperOffice.DCF.Web.ApplicationUtility.IsInlineDialogGet*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.IsInlineDialogGet
+  isExternal: true
+  name: IsInlineDialogGet
+  nameWithType: ApplicationUtility.IsInlineDialogGet
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.IsInlineDialogGet
+- uid: SuperOffice.DCF.Web.ApplicationUtility.IsRealGet*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.IsRealGet
+  isExternal: true
+  name: IsRealGet
+  nameWithType: ApplicationUtility.IsRealGet
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.IsRealGet
+- uid: SuperOffice.DCF.Web.ApplicationUtility.IsRealInlineDialogGet*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.IsRealInlineDialogGet
+  isExternal: true
+  name: IsRealInlineDialogGet
+  nameWithType: ApplicationUtility.IsRealInlineDialogGet
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.IsRealInlineDialogGet
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetItemFromQueryString*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.GetItemFromQueryString
+  isExternal: true
+  name: GetItemFromQueryString
+  nameWithType: ApplicationUtility.GetItemFromQueryString
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetItemFromQueryString
+- uid: System.Web.HttpRequest
+  isExternal: true
+  name: HttpRequest
+  nameWithType: HttpRequest
+  fullName: System.Web.HttpRequest
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetItemFromSoProtocol*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.GetItemFromSoProtocol
+  isExternal: true
+  name: GetItemFromSoProtocol
+  nameWithType: ApplicationUtility.GetItemFromSoProtocol
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetItemFromSoProtocol
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetItemFromString*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.GetItemFromString
+  isExternal: true
+  name: GetItemFromString
+  nameWithType: ApplicationUtility.GetItemFromString
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetItemFromString
+- uid: SuperOffice.DCF.Web.ApplicationUtility.ResolveUrl*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.ResolveUrl
+  isExternal: true
+  name: ResolveUrl
+  nameWithType: ApplicationUtility.ResolveUrl
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.ResolveUrl
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetApplicationRootFromWcfUri*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.GetApplicationRootFromWcfUri
+  isExternal: true
+  name: GetApplicationRootFromWcfUri
+  nameWithType: ApplicationUtility.GetApplicationRootFromWcfUri
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetApplicationRootFromWcfUri
+- uid: SuperOffice.DCF.Web.ApplicationUtility.RedirectIfUrlCasingIsWrong*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.RedirectIfUrlCasingIsWrong
+  isExternal: true
+  name: RedirectIfUrlCasingIsWrong
+  nameWithType: ApplicationUtility.RedirectIfUrlCasingIsWrong
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.RedirectIfUrlCasingIsWrong
+- uid: System.Web.HttpContextBase
+  isExternal: true
+  name: HttpContextBase
+  nameWithType: HttpContextBase
+  fullName: System.Web.HttpContextBase
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetCurrentRequestUrl*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.GetCurrentRequestUrl
+  isExternal: true
+  name: GetCurrentRequestUrl
+  nameWithType: ApplicationUtility.GetCurrentRequestUrl
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetCurrentRequestUrl
+- uid: System.Uri
+  isExternal: true
+  name: Uri
+  nameWithType: Uri
+  fullName: System.Uri
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetApplicationRoot*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.GetApplicationRoot
+  isExternal: true
+  name: GetApplicationRoot
+  nameWithType: ApplicationUtility.GetApplicationRoot
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetApplicationRoot
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetSitePart*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.GetSitePart
+  isExternal: true
+  name: GetSitePart
+  nameWithType: ApplicationUtility.GetSitePart
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetSitePart
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetRootPath*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.GetRootPath
+  isExternal: true
+  name: GetRootPath
+  nameWithType: ApplicationUtility.GetRootPath
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetRootPath
+- uid: SuperOffice.DCF.Web.ApplicationUtility.WithClientUrlOverride*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.WithClientUrlOverride
+  isExternal: true
+  name: WithClientUrlOverride
+  nameWithType: ApplicationUtility.WithClientUrlOverride
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.WithClientUrlOverride
+- uid: SuperOffice.DCF.Web.ApplicationUtility.HasClientUrlOverride*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.HasClientUrlOverride
+  isExternal: true
+  name: HasClientUrlOverride
+  nameWithType: ApplicationUtility.HasClientUrlOverride
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.HasClientUrlOverride
+- uid: SuperOffice.DCF.Web.ApplicationUtility.CalculateUrl*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.CalculateUrl
+  isExternal: true
+  name: CalculateUrl
+  nameWithType: ApplicationUtility.CalculateUrl
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.CalculateUrl
+- uid: SuperOffice.DCF.Web.ApplicationUtility.UrlFormatter*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.UrlFormatter
+  isExternal: true
+  name: UrlFormatter
+  nameWithType: ApplicationUtility.UrlFormatter
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.UrlFormatter
+- uid: SuperOffice.DCF.Web.ApplicationUtility.FormatCompanyName*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.FormatCompanyName
+  isExternal: true
+  name: FormatCompanyName
+  nameWithType: ApplicationUtility.FormatCompanyName
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.FormatCompanyName
+- uid: SuperOffice.DCF.Web.ApplicationUtility.FirstValueInList*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.FirstValueInList
+  isExternal: true
+  name: FirstValueInList
+  nameWithType: ApplicationUtility.FirstValueInList
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.FirstValueInList
+- uid: SuperOffice.CRM.Services.EntityElement[]
+  isExternal: true
+  name: EntityElement[]
+  nameWithType: EntityElement[]
+  fullName: SuperOffice.CRM.Services.EntityElement[]
+  nameWithType.vb: EntityElement()
+  fullName.vb: SuperOffice.CRM.Services.EntityElement()
+  name.vb: EntityElement()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.EntityElement
+    name: EntityElement
+    nameWithType: EntityElement
+    fullName: SuperOffice.CRM.Services.EntityElement
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.EntityElement
+    name: EntityElement
+    nameWithType: EntityElement
+    fullName: SuperOffice.CRM.Services.EntityElement
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.DCF.Web.ApplicationUtility.FormatDisplayText*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.FormatDisplayText
+  isExternal: true
+  name: FormatDisplayText
+  nameWithType: ApplicationUtility.FormatDisplayText
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.FormatDisplayText
+- uid: SuperOffice.DCF.Web.ApplicationUtility.FormatNewLine*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.FormatNewLine
+  isExternal: true
+  name: FormatNewLine
+  nameWithType: ApplicationUtility.FormatNewLine
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.FormatNewLine
+- uid: SuperOffice.DCF.Web.ApplicationUtility.FormatDateToShortDateTime*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.FormatDateToShortDateTime
+  isExternal: true
+  name: FormatDateToShortDateTime
+  nameWithType: ApplicationUtility.FormatDateToShortDateTime
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.FormatDateToShortDateTime
+- uid: SuperOffice.DCF.Web.ApplicationUtility.FormatDateToDate*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.FormatDateToDate
+  isExternal: true
+  name: FormatDateToDate
+  nameWithType: ApplicationUtility.FormatDateToDate
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.FormatDateToDate
+- uid: SuperOffice.DCF.Web.ApplicationUtility.FormatEmailOpenScript*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.FormatEmailOpenScript
+  isExternal: true
+  name: FormatEmailOpenScript
+  nameWithType: ApplicationUtility.FormatEmailOpenScript
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.FormatEmailOpenScript
+- uid: SuperOffice.DCF.Web.ApplicationUtility.FormatSOProtocolScript*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.FormatSOProtocolScript
+  isExternal: true
+  name: FormatSOProtocolScript
+  nameWithType: ApplicationUtility.FormatSOProtocolScript
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.FormatSOProtocolScript
+- uid: SuperOffice.DCF.Web.ApplicationUtility.FormatSize*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.FormatSize
+  isExternal: true
+  name: FormatSize
+  nameWithType: ApplicationUtility.FormatSize
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.FormatSize
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.DCF.Web.ApplicationUtility.SetUserCulture*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.SetUserCulture
+  isExternal: true
+  name: SetUserCulture
+  nameWithType: ApplicationUtility.SetUserCulture
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.SetUserCulture
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetUserCulture*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.GetUserCulture
+  isExternal: true
+  name: GetUserCulture
+  nameWithType: ApplicationUtility.GetUserCulture
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetUserCulture
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetUserUICulture*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.GetUserUICulture
+  isExternal: true
+  name: GetUserUICulture
+  nameWithType: ApplicationUtility.GetUserUICulture
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetUserUICulture
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetBrowserInfo*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.GetBrowserInfo
+  isExternal: true
+  name: GetBrowserInfo
+  nameWithType: ApplicationUtility.GetBrowserInfo
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetBrowserInfo
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetDefaultMainWindowSize*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.GetDefaultMainWindowSize
+  isExternal: true
+  name: GetDefaultMainWindowSize
+  nameWithType: ApplicationUtility.GetDefaultMainWindowSize
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetDefaultMainWindowSize
+- uid: System.Drawing.Size
+  isExternal: true
+  name: Size
+  nameWithType: Size
+  fullName: System.Drawing.Size
+- uid: SuperOffice.DCF.Web.ApplicationUtility.GetDefaultDialogWindowSize*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.GetDefaultDialogWindowSize
+  isExternal: true
+  name: GetDefaultDialogWindowSize
+  nameWithType: ApplicationUtility.GetDefaultDialogWindowSize
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.GetDefaultDialogWindowSize
+- uid: SuperOffice.DCF.Web.ApplicationUtility.LightweightLayout*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.LightweightLayout
+  isExternal: true
+  name: LightweightLayout
+  nameWithType: ApplicationUtility.LightweightLayout
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.LightweightLayout
+- uid: SuperOffice.DCF.Web.ApplicationUtility.ExecuteAjaxMethodImplementation*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.ExecuteAjaxMethodImplementation
+  isExternal: true
+  name: ExecuteAjaxMethodImplementation
+  nameWithType: ApplicationUtility.ExecuteAjaxMethodImplementation
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.ExecuteAjaxMethodImplementation
+- uid: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation
+  commentId: T:SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation
+  parent: SuperOffice.DCF.Web
+  isExternal: true
+  name: ApplicationUtility.AjaxMethodPreImplementation
+  nameWithType: ApplicationUtility.AjaxMethodPreImplementation
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation
+- uid: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation
+  commentId: T:SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation
+  parent: SuperOffice.DCF.Web
+  isExternal: true
+  name: ApplicationUtility.AjaxMethodImplementation
+  nameWithType: ApplicationUtility.AjaxMethodImplementation
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation
+- uid: SuperOffice.DCF.Web.ApplicationUtility.IgnoreExceptionHandling*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.IgnoreExceptionHandling
+  isExternal: true
+  name: IgnoreExceptionHandling
+  nameWithType: ApplicationUtility.IgnoreExceptionHandling
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.IgnoreExceptionHandling
+- uid: SuperOffice.DCF.Web.ApplicationUtility.HandleException*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.HandleException
+  isExternal: true
+  name: HandleException
+  nameWithType: ApplicationUtility.HandleException
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.HandleException
+- uid: System.Web.UI.Page
+  isExternal: true
+  name: Page
+  nameWithType: Page
+  fullName: System.Web.UI.Page
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: SuperOffice.DCF.Web.ApplicationUtility.FormatExceptionMessage*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.FormatExceptionMessage
+  isExternal: true
+  name: FormatExceptionMessage
+  nameWithType: ApplicationUtility.FormatExceptionMessage
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.FormatExceptionMessage
+- uid: SuperOffice.DCF.Web.ApplicationUtility.UpdateEnvironmentInformation*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.UpdateEnvironmentInformation
+  isExternal: true
+  name: UpdateEnvironmentInformation
+  nameWithType: ApplicationUtility.UpdateEnvironmentInformation
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.UpdateEnvironmentInformation
+- uid: System.Collections.Specialized.NameValueCollection
+  isExternal: true
+  name: NameValueCollection
+  nameWithType: NameValueCollection
+  fullName: System.Collections.Specialized.NameValueCollection
+- uid: SuperOffice.DCF.Web.ApplicationUtility.FindStringInExceptionMessage*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.FindStringInExceptionMessage
+  isExternal: true
+  name: FindStringInExceptionMessage
+  nameWithType: ApplicationUtility.FindStringInExceptionMessage
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.FindStringInExceptionMessage
+- uid: SuperOffice.DCF.Web.ApplicationUtility.TryParseLocalizedTimeSpanString*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.TryParseLocalizedTimeSpanString
+  isExternal: true
+  name: TryParseLocalizedTimeSpanString
+  nameWithType: ApplicationUtility.TryParseLocalizedTimeSpanString
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.TryParseLocalizedTimeSpanString
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: SuperOffice.DCF.Web.ApplicationUtility.LocalizedTimeSpanToString*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.LocalizedTimeSpanToString
+  isExternal: true
+  name: LocalizedTimeSpanToString
+  nameWithType: ApplicationUtility.LocalizedTimeSpanToString
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.LocalizedTimeSpanToString
+- uid: SuperOffice.DCF.Web.ApplicationUtility.ParseQuoteString*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.ParseQuoteString
+  isExternal: true
+  name: ParseQuoteString
+  nameWithType: ApplicationUtility.ParseQuoteString
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.ParseQuoteString
+- uid: SuperOffice.DCF.Web.ApplicationUtility.EmailValidationRegEx*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.EmailValidationRegEx
+  isExternal: true
+  name: EmailValidationRegEx
+  nameWithType: ApplicationUtility.EmailValidationRegEx
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.EmailValidationRegEx
+- uid: SuperOffice.DCF.Web.ApplicationUtility.PasswordValidationRegEx*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.PasswordValidationRegEx
+  isExternal: true
+  name: PasswordValidationRegEx
+  nameWithType: ApplicationUtility.PasswordValidationRegEx
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.PasswordValidationRegEx
+- uid: SuperOffice.DCF.Web.ApplicationUtility.ApplicationPath*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.ApplicationPath
+  isExternal: true
+  name: ApplicationPath
+  nameWithType: ApplicationUtility.ApplicationPath
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.ApplicationPath
+- uid: SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsWindows*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsWindows
+  isExternal: true
+  name: OperatingSystemIsWindows
+  nameWithType: ApplicationUtility.OperatingSystemIsWindows
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsWindows
+- uid: SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsOsx*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsOsx
+  isExternal: true
+  name: OperatingSystemIsOsx
+  nameWithType: ApplicationUtility.OperatingSystemIsOsx
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsOsx
+- uid: SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsIntelOsx*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsIntelOsx
+  isExternal: true
+  name: OperatingSystemIsIntelOsx
+  nameWithType: ApplicationUtility.OperatingSystemIsIntelOsx
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsIntelOsx
+- uid: SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsLinux*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsLinux
+  isExternal: true
+  name: OperatingSystemIsLinux
+  nameWithType: ApplicationUtility.OperatingSystemIsLinux
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsLinux
+- uid: SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsOther*
+  commentId: Overload:SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsOther
+  isExternal: true
+  name: OperatingSystemIsOther
+  nameWithType: ApplicationUtility.OperatingSystemIsOther
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.OperatingSystemIsOther

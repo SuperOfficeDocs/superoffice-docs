@@ -1,0 +1,1847 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields
+  commentId: T:SuperOffice.CRM.Data.DBC.AppointmentFields
+  id: DBC.AppointmentFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.ActiveDate
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.ActiveLinks
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.Alarm
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.AlldayEvent
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.AppointmentId
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.AssignedBy
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.AssociateId
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.CautionWarning
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.CentralserviceVideomeetId
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.ColorIndex
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.ContactId
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.DoBy
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.DocumentId
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.Done
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.EmailId
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.EndDate
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.FreeBusy
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.GroupIdx
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.HasAlarm
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.InvitedPersonId
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.IsMilestone
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.JoinVideomeetUrl
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.LagTime
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.Leadtime
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.Location
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.MotherAssociateId
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.MotherId
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.PersonId
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.PreferredTZLocation
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.PriorityIdx
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.Private
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.ProjectId
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.RecurrenceRuleId
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.Registered
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.RejectCounter
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.RejectReason
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.SaleId
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.Source
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.Status
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.SuggestedAppointmentId
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.SuggestedDocumentId
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.TaskIdx
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.TextId
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.Type
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.Updated
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.Userdef2Id
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.UserdefId
+  langs:
+  - csharp
+  - vb
+  name: DBC.AppointmentFields
+  nameWithType: DBC.AppointmentFields
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for Appointment, Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this. \n"
+  syntax:
+    content: public static class AppointmentFields
+    content.vb: Public Module AppointmentFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.AppointmentId
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: DBC.AppointmentFields.AppointmentId
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.AppointmentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.AppointmentId: Primary key\n"
+  syntax:
+    content: public const string AppointmentId = "appointment_id"
+    return:
+      type: System.String
+    content.vb: Public Const AppointmentId As String = "appointment_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.ContactId
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: DBC.AppointmentFields.ContactId
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.ContactId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.ContactId: Contact ID of owning contact, may be 0\n"
+  syntax:
+    content: public const string ContactId = "contact_id"
+    return:
+      type: System.String
+    content.vb: Public Const ContactId As String = "contact_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.PersonId
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: DBC.AppointmentFields.PersonId
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.PersonId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.PersonId: Person ID of person the appointment is with, may be 0\n"
+  syntax:
+    content: public const string PersonId = "person_id"
+    return:
+      type: System.String
+    content.vb: Public Const PersonId As String = "person_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.AssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: DBC.AppointmentFields.AssociateId
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.AssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.AssociateId: ID of associate whose diary the appointment is in, REQUIRED\n"
+  syntax:
+    content: public const string AssociateId = "associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const AssociateId As String = "associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.GroupIdx
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.GroupIdx
+  id: GroupIdx
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: GroupIdx
+  nameWithType: DBC.AppointmentFields.GroupIdx
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.GroupIdx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.GroupIdx: Group of owning associate at the time tha ppnt was created\n"
+  syntax:
+    content: public const string GroupIdx = "group_idx"
+    return:
+      type: System.String
+    content.vb: Public Const GroupIdx As String = "group_idx"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.AppointmentFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.Registered: Registered date\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.AppointmentFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.Done
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.Done
+  id: Done
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: Done
+  nameWithType: DBC.AppointmentFields.Done
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.Done
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.Done: date + start time this task was done\n"
+  syntax:
+    content: public const string Done = "done"
+    return:
+      type: System.String
+    content.vb: Public Const Done As String = "done"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.DoBy
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.DoBy
+  id: DoBy
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: DoBy
+  nameWithType: DBC.AppointmentFields.DoBy
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.DoBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.DoBy: date + start time planned\n"
+  syntax:
+    content: public const string DoBy = "do_by"
+    return:
+      type: System.String
+    content.vb: Public Const DoBy As String = "do_by"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.Leadtime
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.Leadtime
+  id: Leadtime
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: Leadtime
+  nameWithType: DBC.AppointmentFields.Leadtime
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.Leadtime
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.Leadtime: Time blocked (minutes) BEFORE starttime\n"
+  syntax:
+    content: public const string Leadtime = "leadtime"
+    return:
+      type: System.String
+    content.vb: Public Const Leadtime As String = "leadtime"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.TaskIdx
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.TaskIdx
+  id: TaskIdx
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: TaskIdx
+  nameWithType: DBC.AppointmentFields.TaskIdx
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.TaskIdx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.TaskIdx: Link to Task list, OR to DocTmpl list, if this is a document\n"
+  syntax:
+    content: public const string TaskIdx = "task_idx"
+    return:
+      type: System.String
+    content.vb: Public Const TaskIdx As String = "task_idx"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.PriorityIdx
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.PriorityIdx
+  id: PriorityIdx
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: PriorityIdx
+  nameWithType: DBC.AppointmentFields.PriorityIdx
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.PriorityIdx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.PriorityIdx: Link to priority list\n"
+  syntax:
+    content: public const string PriorityIdx = "priority_idx"
+    return:
+      type: System.String
+    content.vb: Public Const PriorityIdx As String = "priority_idx"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.Type
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.Type
+  id: Type
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: DBC.AppointmentFields.Type
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.Type
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.Type: where=no start time,note,docin, docout \n"
+  syntax:
+    content: public const string Type = "type"
+    return:
+      type: System.String
+    content.vb: Public Const Type As String = "type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.Status
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.Status
+  id: Status
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: DBC.AppointmentFields.Status
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.Status
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.Status: status=done,started, not started, hidden\n"
+  syntax:
+    content: public const string Status = "status"
+    return:
+      type: System.String
+    content.vb: Public Const Status As String = "status"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.Private
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.Private
+  id: Private
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: Private
+  nameWithType: DBC.AppointmentFields.Private
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.Private
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.Private: Obsolete, but still maintained field for appointment privacy; denormalization of visiblefor status\n"
+  syntax:
+    content: public const string Private = "private"
+    return:
+      type: System.String
+    content.vb: Public Const Private As String = "private"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.Alarm
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.Alarm
+  id: Alarm
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: Alarm
+  nameWithType: DBC.AppointmentFields.Alarm
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.Alarm
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.Alarm: Alarm leadtime, the alarm flag has moved to hasAlarm\n"
+  syntax:
+    content: public const string Alarm = "alarm"
+    return:
+      type: System.String
+    content.vb: Public Const Alarm As String = "alarm"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.TextId
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.TextId
+  id: TextId
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: TextId
+  nameWithType: DBC.AppointmentFields.TextId
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.TextId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.TextId: ID of record containing appointment text\n"
+  syntax:
+    content: public const string TextId = "text_id"
+    return:
+      type: System.String
+    content.vb: Public Const TextId As String = "text_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.ProjectId
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: DBC.AppointmentFields.ProjectId
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.ProjectId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.ProjectId: ID of project referred to, may be 0\n"
+  syntax:
+    content: public const string ProjectId = "project_id"
+    return:
+      type: System.String
+    content.vb: Public Const ProjectId As String = "project_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.MotherId
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.MotherId
+  id: MotherId
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: MotherId
+  nameWithType: DBC.AppointmentFields.MotherId
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.MotherId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.MotherId: ID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment. However, if 0 and assoc_id != reg_id then this is an assigned appointment, indicated vt type = kBooking\n"
+  syntax:
+    content: public const string MotherId = "mother_id"
+    return:
+      type: System.String
+    content.vb: Public Const MotherId As String = "mother_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.DocumentId
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.DocumentId
+  id: DocumentId
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: DBC.AppointmentFields.DocumentId
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.DocumentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.DocumentId: Points to document record; 0 for non-document appointments!\n"
+  syntax:
+    content: public const string DocumentId = "document_id"
+    return:
+      type: System.String
+    content.vb: Public Const DocumentId As String = "document_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.ColorIndex
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.ColorIndex
+  id: ColorIndex
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: ColorIndex
+  nameWithType: DBC.AppointmentFields.ColorIndex
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.ColorIndex
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.ColorIndex: Appointment colour, used only in Japanese versions. Western versions take colour from Task\n"
+  syntax:
+    content: public const string ColorIndex = "color_index"
+    return:
+      type: System.String
+    content.vb: Public Const ColorIndex As String = "color_index"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.InvitedPersonId
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.InvitedPersonId
+  id: InvitedPersonId
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: InvitedPersonId
+  nameWithType: DBC.AppointmentFields.InvitedPersonId
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.InvitedPersonId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.InvitedPersonId: Valid when mother_id != 0 &amp;&amp; mother_id != id\n"
+  syntax:
+    content: public const string InvitedPersonId = "invitedPersonId"
+    return:
+      type: System.String
+    content.vb: Public Const InvitedPersonId As String = "invitedPersonId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.ActiveDate
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.ActiveDate
+  id: ActiveDate
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: ActiveDate
+  nameWithType: DBC.AppointmentFields.ActiveDate
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.ActiveDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.ActiveDate: The date to be used for searching &amp; showing\n"
+  syntax:
+    content: public const string ActiveDate = "activeDate"
+    return:
+      type: System.String
+    content.vb: Public Const ActiveDate As String = "activeDate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.EndDate
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.EndDate
+  id: EndDate
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: EndDate
+  nameWithType: DBC.AppointmentFields.EndDate
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.EndDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.EndDate: Date + end time planned\n"
+  syntax:
+    content: public const string EndDate = "endDate"
+    return:
+      type: System.String
+    content.vb: Public Const EndDate As String = "endDate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.LagTime
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.LagTime
+  id: LagTime
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: LagTime
+  nameWithType: DBC.AppointmentFields.LagTime
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.LagTime
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.LagTime: as leadtime, but after the end - time blocked for travel etc.\n"
+  syntax:
+    content: public const string LagTime = "lagTime"
+    return:
+      type: System.String
+    content.vb: Public Const LagTime As String = "lagTime"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.Source
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.Source
+  id: Source
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: DBC.AppointmentFields.Source
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.Source
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.Source: For future integration use; source of record\n"
+  syntax:
+    content: public const string Source = "source"
+    return:
+      type: System.String
+    content.vb: Public Const Source As String = "source"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.UserdefId
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.UserdefId
+  id: UserdefId
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: UserdefId
+  nameWithType: DBC.AppointmentFields.UserdefId
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.UserdefId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.UserdefId: User defined table record 1 (for future use)\n"
+  syntax:
+    content: public const string UserdefId = "userdef_id"
+    return:
+      type: System.String
+    content.vb: Public Const UserdefId As String = "userdef_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.Userdef2Id
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.Userdef2Id
+  id: Userdef2Id
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: Userdef2Id
+  nameWithType: DBC.AppointmentFields.Userdef2Id
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.Userdef2Id
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.Userdef2Id: User defined table record 2 (for future use)\n"
+  syntax:
+    content: public const string Userdef2Id = "userdef2_id"
+    return:
+      type: System.String
+    content.vb: Public Const Userdef2Id As String = "userdef2_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.AppointmentFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.Updated: Updated date\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.AppointmentFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.UpdatedAssociateId: Updated by who\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.AppointmentFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.ActiveLinks
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.ActiveLinks
+  id: ActiveLinks
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: ActiveLinks
+  nameWithType: DBC.AppointmentFields.ActiveLinks
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.ActiveLinks
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.ActiveLinks: Number of active links to documents, other appointments, and such\n"
+  syntax:
+    content: public const string ActiveLinks = "activeLinks"
+    return:
+      type: System.String
+    content.vb: Public Const ActiveLinks As String = "activeLinks"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.RecurrenceRuleId
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.RecurrenceRuleId
+  id: RecurrenceRuleId
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: RecurrenceRuleId
+  nameWithType: DBC.AppointmentFields.RecurrenceRuleId
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.RecurrenceRuleId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.RecurrenceRuleId: Pointer to recurrence rule, for recurring appointments, otherwise 0\n"
+  syntax:
+    content: public const string RecurrenceRuleId = "recurrenceRuleId"
+    return:
+      type: System.String
+    content.vb: Public Const RecurrenceRuleId As String = "recurrenceRuleId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.Location
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.Location
+  id: Location
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: DBC.AppointmentFields.Location
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.Location
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.Location: Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here\n"
+  syntax:
+    content: public const string Location = "location"
+    return:
+      type: System.String
+    content.vb: Public Const Location As String = "location"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.AlldayEvent
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.AlldayEvent
+  id: AlldayEvent
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: AlldayEvent
+  nameWithType: DBC.AppointmentFields.AlldayEvent
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.AlldayEvent
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.AlldayEvent: Is this an all day event: 0 = No, 1 = Yes\n"
+  syntax:
+    content: public const string AlldayEvent = "alldayEvent"
+    return:
+      type: System.String
+    content.vb: Public Const AlldayEvent As String = "alldayEvent"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.FreeBusy
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.FreeBusy
+  id: FreeBusy
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: FreeBusy
+  nameWithType: DBC.AppointmentFields.FreeBusy
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.FreeBusy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.FreeBusy: What kind of time is this: 0 = Busy, 1 = Free\n"
+  syntax:
+    content: public const string FreeBusy = "freeBusy"
+    return:
+      type: System.String
+    content.vb: Public Const FreeBusy As String = "freeBusy"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.RejectCounter
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.RejectCounter
+  id: RejectCounter
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: RejectCounter
+  nameWithType: DBC.AppointmentFields.RejectCounter
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.RejectCounter
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.RejectCounter: How many invitees have rejected this appointment\n"
+  syntax:
+    content: public const string RejectCounter = "rejectCounter"
+    return:
+      type: System.String
+    content.vb: Public Const RejectCounter As String = "rejectCounter"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.EmailId
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.EmailId
+  id: EmailId
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: EmailId
+  nameWithType: DBC.AppointmentFields.EmailId
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.EmailId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.EmailId: If invitation and status changes should be mailed, this is the ID of the email address used\n"
+  syntax:
+    content: public const string EmailId = "emailId"
+    return:
+      type: System.String
+    content.vb: Public Const EmailId As String = "emailId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.RejectReason
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.RejectReason
+  id: RejectReason
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: RejectReason
+  nameWithType: DBC.AppointmentFields.RejectReason
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.RejectReason
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.RejectReason: Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here\n"
+  syntax:
+    content: public const string RejectReason = "rejectReason"
+    return:
+      type: System.String
+    content.vb: Public Const RejectReason As String = "rejectReason"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.HasAlarm
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.HasAlarm
+  id: HasAlarm
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: HasAlarm
+  nameWithType: DBC.AppointmentFields.HasAlarm
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.HasAlarm
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.HasAlarm: Does this appointment have an alarm\n"
+  syntax:
+    content: public const string HasAlarm = "hasAlarm"
+    return:
+      type: System.String
+    content.vb: Public Const HasAlarm As String = "hasAlarm"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.AssignedBy
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.AssignedBy
+  id: AssignedBy
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: AssignedBy
+  nameWithType: DBC.AppointmentFields.AssignedBy
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.AssignedBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.AssignedBy: Who (last) assigned this appointment to associate_id?\n"
+  syntax:
+    content: public const string AssignedBy = "assignedBy"
+    return:
+      type: System.String
+    content.vb: Public Const AssignedBy As String = "assignedBy"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.PreferredTZLocation
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.PreferredTZLocation
+  id: PreferredTZLocation
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: PreferredTZLocation
+  nameWithType: DBC.AppointmentFields.PreferredTZLocation
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.PreferredTZLocation
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.PreferredTZLocation: Preferred timezone location to use when displaying/editing this appointment\n"
+  syntax:
+    content: public const string PreferredTZLocation = "preferredTZLocation"
+    return:
+      type: System.String
+    content.vb: Public Const PreferredTZLocation As String = "preferredTZLocation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.SaleId
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.SaleId
+  id: SaleId
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: DBC.AppointmentFields.SaleId
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.SaleId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.SaleId: Owning sale, if any (may be 0)\n"
+  syntax:
+    content: public const string SaleId = "sale_id"
+    return:
+      type: System.String
+    content.vb: Public Const SaleId As String = "sale_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.SuggestedAppointmentId
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.SuggestedAppointmentId
+  id: SuggestedAppointmentId
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: SuggestedAppointmentId
+  nameWithType: DBC.AppointmentFields.SuggestedAppointmentId
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.SuggestedAppointmentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.SuggestedAppointmentId: Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link)\n"
+  syntax:
+    content: public const string SuggestedAppointmentId = "suggestedAppointmentId"
+    return:
+      type: System.String
+    content.vb: Public Const SuggestedAppointmentId As String = "suggestedAppointmentId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.SuggestedDocumentId
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.SuggestedDocumentId
+  id: SuggestedDocumentId
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: SuggestedDocumentId
+  nameWithType: DBC.AppointmentFields.SuggestedDocumentId
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.SuggestedDocumentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.SuggestedDocumentId: Suggested guide item that this document is an instance of (Note: NOT valid for appointments, they have their own link)\n"
+  syntax:
+    content: public const string SuggestedDocumentId = "suggestedDocumentId"
+    return:
+      type: System.String
+    content.vb: Public Const SuggestedDocumentId As String = "suggestedDocumentId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.IsMilestone
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.IsMilestone
+  id: IsMilestone
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: IsMilestone
+  nameWithType: DBC.AppointmentFields.IsMilestone
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.IsMilestone
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.IsMilestone: Is this appointment a milestone?\n"
+  syntax:
+    content: public const string IsMilestone = "isMilestone"
+    return:
+      type: System.String
+    content.vb: Public Const IsMilestone As String = "isMilestone"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.JoinVideomeetUrl
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.JoinVideomeetUrl
+  id: JoinVideomeetUrl
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: JoinVideomeetUrl
+  nameWithType: DBC.AppointmentFields.JoinVideomeetUrl
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.JoinVideomeetUrl
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.JoinVideomeetUrl: Blank when not a video meeting. Filled with Join Meeting URL when created.\n"
+  syntax:
+    content: public const string JoinVideomeetUrl = "join_videomeet_url"
+    return:
+      type: System.String
+    content.vb: Public Const JoinVideomeetUrl As String = "join_videomeet_url"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.CentralserviceVideomeetId
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.CentralserviceVideomeetId
+  id: CentralserviceVideomeetId
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: CentralserviceVideomeetId
+  nameWithType: DBC.AppointmentFields.CentralserviceVideomeetId
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.CentralserviceVideomeetId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.CentralserviceVideomeetId: GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox.\n"
+  syntax:
+    content: public const string CentralserviceVideomeetId = "centralservice_videomeet_id"
+    return:
+      type: System.String
+    content.vb: Public Const CentralserviceVideomeetId As String = "centralservice_videomeet_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.CautionWarning
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.CautionWarning
+  id: CautionWarning
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: CautionWarning
+  nameWithType: DBC.AppointmentFields.CautionWarning
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.CautionWarning
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.CautionWarning: Status field to indicate appointments that have some sort of problem\n"
+  syntax:
+    content: public const string CautionWarning = "cautionWarning"
+    return:
+      type: System.String
+    content.vb: Public Const CautionWarning As String = "cautionWarning"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.MotherAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.MotherAssociateId
+  id: MotherAssociateId
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: MotherAssociateId
+  nameWithType: DBC.AppointmentFields.MotherAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.MotherAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.MotherAssociateId: Associate/owner of the mother appointment\n"
+  syntax:
+    content: public const string MotherAssociateId = "mother_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const MotherAssociateId As String = "mother_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

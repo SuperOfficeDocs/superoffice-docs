@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.RenderMode
+  commentId: T:SuperOffice.DCF.Web.UI.RenderMode
+  id: RenderMode
+  parent: SuperOffice.DCF.Web.UI
+  children:
+  - SuperOffice.DCF.Web.UI.RenderMode.Always
+  - SuperOffice.DCF.Web.UI.RenderMode.Default
+  - SuperOffice.DCF.Web.UI.RenderMode.Display
+  - SuperOffice.DCF.Web.UI.RenderMode.OnSelected
+  langs:
+  - csharp
+  - vb
+  name: RenderMode
+  nameWithType: RenderMode
+  fullName: SuperOffice.DCF.Web.UI.RenderMode
+  type: Enum
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public enum RenderMode
+    content.vb: Public Enum RenderMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.DCF.Web.UI.RenderMode.Default
+  commentId: F:SuperOffice.DCF.Web.UI.RenderMode.Default
+  id: Default
+  parent: SuperOffice.DCF.Web.UI.RenderMode
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: RenderMode.Default
+  fullName: SuperOffice.DCF.Web.UI.RenderMode.Default
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Default = 0
+    return:
+      type: SuperOffice.DCF.Web.UI.RenderMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.RenderMode.OnSelected
+  commentId: F:SuperOffice.DCF.Web.UI.RenderMode.OnSelected
+  id: OnSelected
+  parent: SuperOffice.DCF.Web.UI.RenderMode
+  langs:
+  - csharp
+  - vb
+  name: OnSelected
+  nameWithType: RenderMode.OnSelected
+  fullName: SuperOffice.DCF.Web.UI.RenderMode.OnSelected
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: OnSelected = 1
+    return:
+      type: SuperOffice.DCF.Web.UI.RenderMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.RenderMode.Always
+  commentId: F:SuperOffice.DCF.Web.UI.RenderMode.Always
+  id: Always
+  parent: SuperOffice.DCF.Web.UI.RenderMode
+  langs:
+  - csharp
+  - vb
+  name: Always
+  nameWithType: RenderMode.Always
+  fullName: SuperOffice.DCF.Web.UI.RenderMode.Always
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Always = 2
+    return:
+      type: SuperOffice.DCF.Web.UI.RenderMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.RenderMode.Display
+  commentId: F:SuperOffice.DCF.Web.UI.RenderMode.Display
+  id: Display
+  parent: SuperOffice.DCF.Web.UI.RenderMode
+  langs:
+  - csharp
+  - vb
+  name: Display
+  nameWithType: RenderMode.Display
+  fullName: SuperOffice.DCF.Web.UI.RenderMode.Display
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Display = 3
+    return:
+      type: SuperOffice.DCF.Web.UI.RenderMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: SuperOffice.DCF.Web.UI.RenderMode
+  commentId: T:SuperOffice.DCF.Web.UI.RenderMode
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: RenderMode
+  nameWithType: RenderMode
+  fullName: SuperOffice.DCF.Web.UI.RenderMode

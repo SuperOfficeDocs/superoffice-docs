@@ -1,0 +1,3009 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EventHandlerType
+  commentId: T:SuperOffice.WebApi.Data.EventHandlerType
+  id: EventHandlerType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EventHandlerType.ChatAfterSaveNewMessage
+  - SuperOffice.WebApi.Data.EventHandlerType.ChatBeforeSaveNewMessage
+  - SuperOffice.WebApi.Data.EventHandlerType.ChatNewSession
+  - SuperOffice.WebApi.Data.EventHandlerType.ChatSessionChangedStatus
+  - SuperOffice.WebApi.Data.EventHandlerType.CompactModeInjection
+  - SuperOffice.WebApi.Data.EventHandlerType.CustomerCenterAuthentication
+  - SuperOffice.WebApi.Data.EventHandlerType.CustomerSetSubscriptions
+  - SuperOffice.WebApi.Data.EventHandlerType.DbiTaskFailed
+  - SuperOffice.WebApi.Data.EventHandlerType.ImportMailAfterProcessing
+  - SuperOffice.WebApi.Data.EventHandlerType.ImportMailBeforeProcessing
+  - SuperOffice.WebApi.Data.EventHandlerType.MainMenu
+  - SuperOffice.WebApi.Data.EventHandlerType.NewNotifyTicketFromForm
+  - SuperOffice.WebApi.Data.EventHandlerType.NewTicket
+  - SuperOffice.WebApi.Data.EventHandlerType.NewTicketFromCustomerCenter
+  - SuperOffice.WebApi.Data.EventHandlerType.NewTicketFromCustomerCenterBeforeSave
+  - SuperOffice.WebApi.Data.EventHandlerType.NewTicketFromEmail
+  - SuperOffice.WebApi.Data.EventHandlerType.NewTicketFromForm
+  - SuperOffice.WebApi.Data.EventHandlerType.NewTicketFromSpmLink
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveAppointment
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveContact
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveDocument
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSavePerson
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveProject
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveProjectMember
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveQuote
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveQuoteLine
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveRelation
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveSale
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveSelection
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveSelectionMember
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveStakeholder
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveAppointment
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveContact
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveDocument
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSavePerson
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveProject
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveProjectMember
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveQuote
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveQuoteLine
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveRelation
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveSale
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveSelection
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveSelectionMember
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveStakeholder
+  - SuperOffice.WebApi.Data.EventHandlerType.ScheduledTaskFailed
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenAddMessageAfterSubmit
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenAddMessageBeforeSubmit
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenAddMessageLoad
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditCompanyAfterSubmit
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditCompanyBeforeSubmit
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditCompanyLoad
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditCustomerAfterSubmit
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditCustomerBeforeSubmit
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditCustomerLoad
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditExtraTableAfterSubmit
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditExtraTableBeforeSubmit
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditExtraTableLoad
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditTicketAfterSubmit
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditTicketBeforeSubmit
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditTicketLoad
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenForwardAfterSubmit
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenForwardBeforeSubmit
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenForwardLoad
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenListTicketMessagesAfterSubmit
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenListTicketMessagesBeforeSubmit
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenListTicketMessagesLoad
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenNewQuickTicketAfterSubmit
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenNewQuickTicketBeforeSubmit
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenNewQuickTicketLoad
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenNewTicketAfterSubmit
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenNewTicketBeforeSubmit
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenNewTicketLoad
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenViewCompanyAfterSubmit
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenViewCompanyBeforeSubmit
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenViewCompanyLoad
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenViewCustomerAfterSubmit
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenViewCustomerBeforeSubmit
+  - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenViewCustomerLoad
+  - SuperOffice.WebApi.Data.EventHandlerType.TicketActivated
+  - SuperOffice.WebApi.Data.EventHandlerType.TicketChangedCategory
+  - SuperOffice.WebApi.Data.EventHandlerType.TicketChangedOwnedBy
+  - SuperOffice.WebApi.Data.EventHandlerType.TicketChangedPrimaryCustomer
+  - SuperOffice.WebApi.Data.EventHandlerType.TicketChangedPriority
+  - SuperOffice.WebApi.Data.EventHandlerType.TicketChangedSlevel
+  - SuperOffice.WebApi.Data.EventHandlerType.TicketChangedTicketStatus
+  - SuperOffice.WebApi.Data.EventHandlerType.TicketClosed
+  - SuperOffice.WebApi.Data.EventHandlerType.TicketDeleted
+  - SuperOffice.WebApi.Data.EventHandlerType.TicketExternalMessageAdded
+  - SuperOffice.WebApi.Data.EventHandlerType.TicketInternalMessageAdded
+  - SuperOffice.WebApi.Data.EventHandlerType.TicketMessageAdded
+  - SuperOffice.WebApi.Data.EventHandlerType.TicketMessageSentimentCalculated
+  - SuperOffice.WebApi.Data.EventHandlerType.TicketPostponed
+  - SuperOffice.WebApi.Data.EventHandlerType.TicketReopened
+  - SuperOffice.WebApi.Data.EventHandlerType.TicketReopenedFromCustomerCenter
+  - SuperOffice.WebApi.Data.EventHandlerType.TicketReopenedFromEmail
+  - SuperOffice.WebApi.Data.EventHandlerType.TicketSave
+  - SuperOffice.WebApi.Data.EventHandlerType.Unknown
+  - SuperOffice.WebApi.Data.EventHandlerType.value__
+  langs:
+  - csharp
+  - vb
+  name: EventHandlerType
+  nameWithType: EventHandlerType
+  fullName: SuperOffice.WebApi.Data.EventHandlerType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCrmScript Event triggers - when CRMScript is run based on user or system actions. \n"
+  syntax:
+    content: 'public sealed class EventHandlerType : Enum'
+    content.vb: >-
+      Public NotInheritable Class EventHandlerType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.EventHandlerType.value__
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: EventHandlerType.value__
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EventHandlerType.Unknown
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: EventHandlerType.Unknown
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Unknown trigger\n"
+  syntax:
+    content: public const EventHandlerType Unknown
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const Unknown As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.NewTicket
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.NewTicket
+  id: NewTicket
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: NewTicket
+  nameWithType: EventHandlerType.NewTicket
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.NewTicket
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n100: NewTicket\n"
+  syntax:
+    content: public const EventHandlerType NewTicket
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const NewTicket As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.NewTicketFromCustomerCenter
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.NewTicketFromCustomerCenter
+  id: NewTicketFromCustomerCenter
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: NewTicketFromCustomerCenter
+  nameWithType: EventHandlerType.NewTicketFromCustomerCenter
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.NewTicketFromCustomerCenter
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n101: NewTicketFromCustomerCenter\n"
+  syntax:
+    content: public const EventHandlerType NewTicketFromCustomerCenter
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const NewTicketFromCustomerCenter As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.NewTicketFromEmail
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.NewTicketFromEmail
+  id: NewTicketFromEmail
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: NewTicketFromEmail
+  nameWithType: EventHandlerType.NewTicketFromEmail
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.NewTicketFromEmail
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n102: NewTicketFromEmail\n"
+  syntax:
+    content: public const EventHandlerType NewTicketFromEmail
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const NewTicketFromEmail As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.NewTicketFromCustomerCenterBeforeSave
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.NewTicketFromCustomerCenterBeforeSave
+  id: NewTicketFromCustomerCenterBeforeSave
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: NewTicketFromCustomerCenterBeforeSave
+  nameWithType: EventHandlerType.NewTicketFromCustomerCenterBeforeSave
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.NewTicketFromCustomerCenterBeforeSave
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n103: NewTicketFromCustomerCenterBeforeSave\n"
+  syntax:
+    content: public const EventHandlerType NewTicketFromCustomerCenterBeforeSave
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const NewTicketFromCustomerCenterBeforeSave As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.NewTicketFromSpmLink
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.NewTicketFromSpmLink
+  id: NewTicketFromSpmLink
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: NewTicketFromSpmLink
+  nameWithType: EventHandlerType.NewTicketFromSpmLink
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.NewTicketFromSpmLink
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n104: NewTicketFromSpmLink\n"
+  syntax:
+    content: public const EventHandlerType NewTicketFromSpmLink
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const NewTicketFromSpmLink As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.NewNotifyTicketFromForm
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.NewNotifyTicketFromForm
+  id: NewNotifyTicketFromForm
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: NewNotifyTicketFromForm
+  nameWithType: EventHandlerType.NewNotifyTicketFromForm
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.NewNotifyTicketFromForm
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n105: NewNotifyTicketFromForm\n"
+  syntax:
+    content: public const EventHandlerType NewNotifyTicketFromForm
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const NewNotifyTicketFromForm As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.NewTicketFromForm
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.NewTicketFromForm
+  id: NewTicketFromForm
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: NewTicketFromForm
+  nameWithType: EventHandlerType.NewTicketFromForm
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.NewTicketFromForm
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n106: NewTicketFromForm\n"
+  syntax:
+    content: public const EventHandlerType NewTicketFromForm
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const NewTicketFromForm As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.TicketSave
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.TicketSave
+  id: TicketSave
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketSave
+  nameWithType: EventHandlerType.TicketSave
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.TicketSave
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n109: TicketSave\n"
+  syntax:
+    content: public const EventHandlerType TicketSave
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const TicketSave As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.TicketClosed
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.TicketClosed
+  id: TicketClosed
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketClosed
+  nameWithType: EventHandlerType.TicketClosed
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.TicketClosed
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n110: TicketClosed\n"
+  syntax:
+    content: public const EventHandlerType TicketClosed
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const TicketClosed As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.TicketPostponed
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.TicketPostponed
+  id: TicketPostponed
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketPostponed
+  nameWithType: EventHandlerType.TicketPostponed
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.TicketPostponed
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n111: TicketPostponed\n"
+  syntax:
+    content: public const EventHandlerType TicketPostponed
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const TicketPostponed As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.TicketDeleted
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.TicketDeleted
+  id: TicketDeleted
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketDeleted
+  nameWithType: EventHandlerType.TicketDeleted
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.TicketDeleted
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n112: TicketDeleted\n"
+  syntax:
+    content: public const EventHandlerType TicketDeleted
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const TicketDeleted As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.TicketActivated
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.TicketActivated
+  id: TicketActivated
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketActivated
+  nameWithType: EventHandlerType.TicketActivated
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.TicketActivated
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n113: TicketActivated\n"
+  syntax:
+    content: public const EventHandlerType TicketActivated
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const TicketActivated As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.TicketReopened
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.TicketReopened
+  id: TicketReopened
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketReopened
+  nameWithType: EventHandlerType.TicketReopened
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.TicketReopened
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n120: TicketReopened\n"
+  syntax:
+    content: public const EventHandlerType TicketReopened
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const TicketReopened As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.TicketReopenedFromCustomerCenter
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.TicketReopenedFromCustomerCenter
+  id: TicketReopenedFromCustomerCenter
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketReopenedFromCustomerCenter
+  nameWithType: EventHandlerType.TicketReopenedFromCustomerCenter
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.TicketReopenedFromCustomerCenter
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n121: TicketReopenedFromCustomerCenter\n"
+  syntax:
+    content: public const EventHandlerType TicketReopenedFromCustomerCenter
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const TicketReopenedFromCustomerCenter As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.TicketReopenedFromEmail
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.TicketReopenedFromEmail
+  id: TicketReopenedFromEmail
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketReopenedFromEmail
+  nameWithType: EventHandlerType.TicketReopenedFromEmail
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.TicketReopenedFromEmail
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n122: TicketReopenedFromEmail\n"
+  syntax:
+    content: public const EventHandlerType TicketReopenedFromEmail
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const TicketReopenedFromEmail As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.TicketChangedPriority
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.TicketChangedPriority
+  id: TicketChangedPriority
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketChangedPriority
+  nameWithType: EventHandlerType.TicketChangedPriority
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.TicketChangedPriority
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n140: TicketChangedPriority\n"
+  syntax:
+    content: public const EventHandlerType TicketChangedPriority
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const TicketChangedPriority As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.TicketChangedCategory
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.TicketChangedCategory
+  id: TicketChangedCategory
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketChangedCategory
+  nameWithType: EventHandlerType.TicketChangedCategory
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.TicketChangedCategory
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n141: TicketChangedCategory\n"
+  syntax:
+    content: public const EventHandlerType TicketChangedCategory
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const TicketChangedCategory As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.TicketChangedOwnedBy
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.TicketChangedOwnedBy
+  id: TicketChangedOwnedBy
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketChangedOwnedBy
+  nameWithType: EventHandlerType.TicketChangedOwnedBy
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.TicketChangedOwnedBy
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n142: TicketChangedOwnedBy\n"
+  syntax:
+    content: public const EventHandlerType TicketChangedOwnedBy
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const TicketChangedOwnedBy As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.TicketChangedPrimaryCustomer
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.TicketChangedPrimaryCustomer
+  id: TicketChangedPrimaryCustomer
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketChangedPrimaryCustomer
+  nameWithType: EventHandlerType.TicketChangedPrimaryCustomer
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.TicketChangedPrimaryCustomer
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n143: TicketChangedPrimaryCustomer\n"
+  syntax:
+    content: public const EventHandlerType TicketChangedPrimaryCustomer
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const TicketChangedPrimaryCustomer As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.TicketChangedTicketStatus
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.TicketChangedTicketStatus
+  id: TicketChangedTicketStatus
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketChangedTicketStatus
+  nameWithType: EventHandlerType.TicketChangedTicketStatus
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.TicketChangedTicketStatus
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n144: TicketChangedTicketStatus\n"
+  syntax:
+    content: public const EventHandlerType TicketChangedTicketStatus
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const TicketChangedTicketStatus As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.TicketChangedSlevel
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.TicketChangedSlevel
+  id: TicketChangedSlevel
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketChangedSlevel
+  nameWithType: EventHandlerType.TicketChangedSlevel
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.TicketChangedSlevel
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n145: TicketChangedSlevel\n"
+  syntax:
+    content: public const EventHandlerType TicketChangedSlevel
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const TicketChangedSlevel As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.TicketMessageAdded
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.TicketMessageAdded
+  id: TicketMessageAdded
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketMessageAdded
+  nameWithType: EventHandlerType.TicketMessageAdded
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.TicketMessageAdded
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n150: TicketMessageAdded\n"
+  syntax:
+    content: public const EventHandlerType TicketMessageAdded
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const TicketMessageAdded As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.TicketInternalMessageAdded
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.TicketInternalMessageAdded
+  id: TicketInternalMessageAdded
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketInternalMessageAdded
+  nameWithType: EventHandlerType.TicketInternalMessageAdded
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.TicketInternalMessageAdded
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n151: TicketInternalMessageAdded\n"
+  syntax:
+    content: public const EventHandlerType TicketInternalMessageAdded
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const TicketInternalMessageAdded As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.TicketExternalMessageAdded
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.TicketExternalMessageAdded
+  id: TicketExternalMessageAdded
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketExternalMessageAdded
+  nameWithType: EventHandlerType.TicketExternalMessageAdded
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.TicketExternalMessageAdded
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n152: TicketExternalMessageAdded\n"
+  syntax:
+    content: public const EventHandlerType TicketExternalMessageAdded
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const TicketExternalMessageAdded As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.TicketMessageSentimentCalculated
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.TicketMessageSentimentCalculated
+  id: TicketMessageSentimentCalculated
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketMessageSentimentCalculated
+  nameWithType: EventHandlerType.TicketMessageSentimentCalculated
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.TicketMessageSentimentCalculated
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n153: TicketMessageSentimentCalculated\n"
+  syntax:
+    content: public const EventHandlerType TicketMessageSentimentCalculated
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const TicketMessageSentimentCalculated As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.CompactModeInjection
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.CompactModeInjection
+  id: CompactModeInjection
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: CompactModeInjection
+  nameWithType: EventHandlerType.CompactModeInjection
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.CompactModeInjection
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n200: CompactModeInjection\n"
+  syntax:
+    content: public const EventHandlerType CompactModeInjection
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const CompactModeInjection As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.CustomerCenterAuthentication
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.CustomerCenterAuthentication
+  id: CustomerCenterAuthentication
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: CustomerCenterAuthentication
+  nameWithType: EventHandlerType.CustomerCenterAuthentication
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.CustomerCenterAuthentication
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n210: CustomerCenterAuthentication\n"
+  syntax:
+    content: public const EventHandlerType CustomerCenterAuthentication
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const CustomerCenterAuthentication As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ScheduledTaskFailed
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ScheduledTaskFailed
+  id: ScheduledTaskFailed
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ScheduledTaskFailed
+  nameWithType: EventHandlerType.ScheduledTaskFailed
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ScheduledTaskFailed
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n300: ScheduledTaskFailed\n"
+  syntax:
+    content: public const EventHandlerType ScheduledTaskFailed
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ScheduledTaskFailed As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.DbiTaskFailed
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.DbiTaskFailed
+  id: DbiTaskFailed
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: DbiTaskFailed
+  nameWithType: EventHandlerType.DbiTaskFailed
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.DbiTaskFailed
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n301: DbiTaskFailed\n"
+  syntax:
+    content: public const EventHandlerType DbiTaskFailed
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const DbiTaskFailed As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.CustomerSetSubscriptions
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.CustomerSetSubscriptions
+  id: CustomerSetSubscriptions
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: CustomerSetSubscriptions
+  nameWithType: EventHandlerType.CustomerSetSubscriptions
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.CustomerSetSubscriptions
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n302: CustomerSetSubscriptions\n"
+  syntax:
+    content: public const EventHandlerType CustomerSetSubscriptions
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const CustomerSetSubscriptions As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ImportMailBeforeProcessing
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ImportMailBeforeProcessing
+  id: ImportMailBeforeProcessing
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ImportMailBeforeProcessing
+  nameWithType: EventHandlerType.ImportMailBeforeProcessing
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ImportMailBeforeProcessing
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n303: ImportMailBeforeProcessing\n"
+  syntax:
+    content: public const EventHandlerType ImportMailBeforeProcessing
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ImportMailBeforeProcessing As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ImportMailAfterProcessing
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ImportMailAfterProcessing
+  id: ImportMailAfterProcessing
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ImportMailAfterProcessing
+  nameWithType: EventHandlerType.ImportMailAfterProcessing
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ImportMailAfterProcessing
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n304: ImportMailAfterProcessing\n"
+  syntax:
+    content: public const EventHandlerType ImportMailAfterProcessing
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ImportMailAfterProcessing As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.MainMenu
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.MainMenu
+  id: MainMenu
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: MainMenu
+  nameWithType: EventHandlerType.MainMenu
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.MainMenu
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n305: MainMenu\n"
+  syntax:
+    content: public const EventHandlerType MainMenu
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const MainMenu As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ChatNewSession
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ChatNewSession
+  id: ChatNewSession
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ChatNewSession
+  nameWithType: EventHandlerType.ChatNewSession
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ChatNewSession
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n400: ChatNewSession\n"
+  syntax:
+    content: public const EventHandlerType ChatNewSession
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ChatNewSession As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ChatSessionChangedStatus
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ChatSessionChangedStatus
+  id: ChatSessionChangedStatus
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ChatSessionChangedStatus
+  nameWithType: EventHandlerType.ChatSessionChangedStatus
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ChatSessionChangedStatus
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n401: ChatSessionChangedStatus\n"
+  syntax:
+    content: public const EventHandlerType ChatSessionChangedStatus
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ChatSessionChangedStatus As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ChatBeforeSaveNewMessage
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ChatBeforeSaveNewMessage
+  id: ChatBeforeSaveNewMessage
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ChatBeforeSaveNewMessage
+  nameWithType: EventHandlerType.ChatBeforeSaveNewMessage
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ChatBeforeSaveNewMessage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n402: ChatBeforeSaveNewMessage\n"
+  syntax:
+    content: public const EventHandlerType ChatBeforeSaveNewMessage
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ChatBeforeSaveNewMessage As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ChatAfterSaveNewMessage
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ChatAfterSaveNewMessage
+  id: ChatAfterSaveNewMessage
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ChatAfterSaveNewMessage
+  nameWithType: EventHandlerType.ChatAfterSaveNewMessage
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ChatAfterSaveNewMessage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n403: ChatAfterSaveNewMessage\n"
+  syntax:
+    content: public const EventHandlerType ChatAfterSaveNewMessage
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ChatAfterSaveNewMessage As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenNewTicketLoad
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenNewTicketLoad
+  id: ServiceScreenNewTicketLoad
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenNewTicketLoad
+  nameWithType: EventHandlerType.ServiceScreenNewTicketLoad
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenNewTicketLoad
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n500: ServiceScreenNewTicketLoad\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenNewTicketLoad
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenNewTicketLoad As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenNewQuickTicketLoad
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenNewQuickTicketLoad
+  id: ServiceScreenNewQuickTicketLoad
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenNewQuickTicketLoad
+  nameWithType: EventHandlerType.ServiceScreenNewQuickTicketLoad
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenNewQuickTicketLoad
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n501: ServiceScreenNewQuickTicketLoad\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenNewQuickTicketLoad
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenNewQuickTicketLoad As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenListTicketMessagesLoad
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenListTicketMessagesLoad
+  id: ServiceScreenListTicketMessagesLoad
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenListTicketMessagesLoad
+  nameWithType: EventHandlerType.ServiceScreenListTicketMessagesLoad
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenListTicketMessagesLoad
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n502: ServiceScreenListTicketMessagesLoad\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenListTicketMessagesLoad
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenListTicketMessagesLoad As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenAddMessageLoad
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenAddMessageLoad
+  id: ServiceScreenAddMessageLoad
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenAddMessageLoad
+  nameWithType: EventHandlerType.ServiceScreenAddMessageLoad
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenAddMessageLoad
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n503: ServiceScreenAddMessageLoad\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenAddMessageLoad
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenAddMessageLoad As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditTicketLoad
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditTicketLoad
+  id: ServiceScreenEditTicketLoad
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenEditTicketLoad
+  nameWithType: EventHandlerType.ServiceScreenEditTicketLoad
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditTicketLoad
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n504: ServiceScreenEditTicketLoad\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenEditTicketLoad
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenEditTicketLoad As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenViewCustomerLoad
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenViewCustomerLoad
+  id: ServiceScreenViewCustomerLoad
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenViewCustomerLoad
+  nameWithType: EventHandlerType.ServiceScreenViewCustomerLoad
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenViewCustomerLoad
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n505: ServiceScreenViewCustomerLoad\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenViewCustomerLoad
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenViewCustomerLoad As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditCustomerLoad
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditCustomerLoad
+  id: ServiceScreenEditCustomerLoad
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenEditCustomerLoad
+  nameWithType: EventHandlerType.ServiceScreenEditCustomerLoad
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditCustomerLoad
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n506: ServiceScreenEditCustomerLoad\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenEditCustomerLoad
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenEditCustomerLoad As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenViewCompanyLoad
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenViewCompanyLoad
+  id: ServiceScreenViewCompanyLoad
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenViewCompanyLoad
+  nameWithType: EventHandlerType.ServiceScreenViewCompanyLoad
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenViewCompanyLoad
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n507: ServiceScreenViewCompanyLoad\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenViewCompanyLoad
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenViewCompanyLoad As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditCompanyLoad
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditCompanyLoad
+  id: ServiceScreenEditCompanyLoad
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenEditCompanyLoad
+  nameWithType: EventHandlerType.ServiceScreenEditCompanyLoad
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditCompanyLoad
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n508: ServiceScreenEditCompanyLoad\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenEditCompanyLoad
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenEditCompanyLoad As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenForwardLoad
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenForwardLoad
+  id: ServiceScreenForwardLoad
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenForwardLoad
+  nameWithType: EventHandlerType.ServiceScreenForwardLoad
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenForwardLoad
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n509: ServiceScreenForwardLoad\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenForwardLoad
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenForwardLoad As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditExtraTableLoad
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditExtraTableLoad
+  id: ServiceScreenEditExtraTableLoad
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenEditExtraTableLoad
+  nameWithType: EventHandlerType.ServiceScreenEditExtraTableLoad
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditExtraTableLoad
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n510: ServiceScreenEditExtraTableLoad\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenEditExtraTableLoad
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenEditExtraTableLoad As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenNewTicketBeforeSubmit
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenNewTicketBeforeSubmit
+  id: ServiceScreenNewTicketBeforeSubmit
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenNewTicketBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenNewTicketBeforeSubmit
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenNewTicketBeforeSubmit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n600: ServiceScreenNewTicketBeforeSubmit\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenNewTicketBeforeSubmit
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenNewTicketBeforeSubmit As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenNewQuickTicketBeforeSubmit
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenNewQuickTicketBeforeSubmit
+  id: ServiceScreenNewQuickTicketBeforeSubmit
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenNewQuickTicketBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenNewQuickTicketBeforeSubmit
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenNewQuickTicketBeforeSubmit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n601: ServiceScreenNewQuickTicketBeforeSubmit\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenNewQuickTicketBeforeSubmit
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenNewQuickTicketBeforeSubmit As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenListTicketMessagesBeforeSubmit
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenListTicketMessagesBeforeSubmit
+  id: ServiceScreenListTicketMessagesBeforeSubmit
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenListTicketMessagesBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenListTicketMessagesBeforeSubmit
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenListTicketMessagesBeforeSubmit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n602: ServiceScreenListTicketMessagesBeforeSubmit\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenListTicketMessagesBeforeSubmit
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenListTicketMessagesBeforeSubmit As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenAddMessageBeforeSubmit
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenAddMessageBeforeSubmit
+  id: ServiceScreenAddMessageBeforeSubmit
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenAddMessageBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenAddMessageBeforeSubmit
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenAddMessageBeforeSubmit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n603: ServiceScreenAddMessageBeforeSubmit\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenAddMessageBeforeSubmit
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenAddMessageBeforeSubmit As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditTicketBeforeSubmit
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditTicketBeforeSubmit
+  id: ServiceScreenEditTicketBeforeSubmit
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenEditTicketBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenEditTicketBeforeSubmit
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditTicketBeforeSubmit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n604: ServiceScreenEditTicketBeforeSubmit\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenEditTicketBeforeSubmit
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenEditTicketBeforeSubmit As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenViewCustomerBeforeSubmit
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenViewCustomerBeforeSubmit
+  id: ServiceScreenViewCustomerBeforeSubmit
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenViewCustomerBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenViewCustomerBeforeSubmit
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenViewCustomerBeforeSubmit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n605: ServiceScreenViewCustomerBeforeSubmit\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenViewCustomerBeforeSubmit
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenViewCustomerBeforeSubmit As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditCustomerBeforeSubmit
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditCustomerBeforeSubmit
+  id: ServiceScreenEditCustomerBeforeSubmit
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenEditCustomerBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenEditCustomerBeforeSubmit
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditCustomerBeforeSubmit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n606: ServiceScreenEditCustomerBeforeSubmit\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenEditCustomerBeforeSubmit
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenEditCustomerBeforeSubmit As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenViewCompanyBeforeSubmit
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenViewCompanyBeforeSubmit
+  id: ServiceScreenViewCompanyBeforeSubmit
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenViewCompanyBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenViewCompanyBeforeSubmit
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenViewCompanyBeforeSubmit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n607: ServiceScreenViewCompanyBeforeSubmit\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenViewCompanyBeforeSubmit
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenViewCompanyBeforeSubmit As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditCompanyBeforeSubmit
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditCompanyBeforeSubmit
+  id: ServiceScreenEditCompanyBeforeSubmit
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenEditCompanyBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenEditCompanyBeforeSubmit
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditCompanyBeforeSubmit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n608: ServiceScreenEditCompanyBeforeSubmit\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenEditCompanyBeforeSubmit
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenEditCompanyBeforeSubmit As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenForwardBeforeSubmit
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenForwardBeforeSubmit
+  id: ServiceScreenForwardBeforeSubmit
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenForwardBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenForwardBeforeSubmit
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenForwardBeforeSubmit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n609: ServiceScreenForwardBeforeSubmit\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenForwardBeforeSubmit
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenForwardBeforeSubmit As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditExtraTableBeforeSubmit
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditExtraTableBeforeSubmit
+  id: ServiceScreenEditExtraTableBeforeSubmit
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenEditExtraTableBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenEditExtraTableBeforeSubmit
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditExtraTableBeforeSubmit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n610: ServiceScreenEditExtraTableBeforeSubmit\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenEditExtraTableBeforeSubmit
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenEditExtraTableBeforeSubmit As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenNewTicketAfterSubmit
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenNewTicketAfterSubmit
+  id: ServiceScreenNewTicketAfterSubmit
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenNewTicketAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenNewTicketAfterSubmit
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenNewTicketAfterSubmit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n700: ServiceScreenNewTicketAfterSubmit\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenNewTicketAfterSubmit
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenNewTicketAfterSubmit As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenNewQuickTicketAfterSubmit
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenNewQuickTicketAfterSubmit
+  id: ServiceScreenNewQuickTicketAfterSubmit
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenNewQuickTicketAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenNewQuickTicketAfterSubmit
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenNewQuickTicketAfterSubmit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n701: ServiceScreenNewQuickTicketAfterSubmit\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenNewQuickTicketAfterSubmit
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenNewQuickTicketAfterSubmit As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenListTicketMessagesAfterSubmit
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenListTicketMessagesAfterSubmit
+  id: ServiceScreenListTicketMessagesAfterSubmit
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenListTicketMessagesAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenListTicketMessagesAfterSubmit
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenListTicketMessagesAfterSubmit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n702: ServiceScreenListTicketMessagesAfterSubmit\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenListTicketMessagesAfterSubmit
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenListTicketMessagesAfterSubmit As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenAddMessageAfterSubmit
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenAddMessageAfterSubmit
+  id: ServiceScreenAddMessageAfterSubmit
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenAddMessageAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenAddMessageAfterSubmit
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenAddMessageAfterSubmit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n703: ServiceScreenAddMessageAfterSubmit\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenAddMessageAfterSubmit
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenAddMessageAfterSubmit As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditTicketAfterSubmit
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditTicketAfterSubmit
+  id: ServiceScreenEditTicketAfterSubmit
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenEditTicketAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenEditTicketAfterSubmit
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditTicketAfterSubmit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n704: ServiceScreenEditTicketAfterSubmit\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenEditTicketAfterSubmit
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenEditTicketAfterSubmit As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenViewCustomerAfterSubmit
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenViewCustomerAfterSubmit
+  id: ServiceScreenViewCustomerAfterSubmit
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenViewCustomerAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenViewCustomerAfterSubmit
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenViewCustomerAfterSubmit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n705: ServiceScreenViewCustomerAfterSubmit\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenViewCustomerAfterSubmit
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenViewCustomerAfterSubmit As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditCustomerAfterSubmit
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditCustomerAfterSubmit
+  id: ServiceScreenEditCustomerAfterSubmit
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenEditCustomerAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenEditCustomerAfterSubmit
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditCustomerAfterSubmit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n706: ServiceScreenEditCustomerAfterSubmit\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenEditCustomerAfterSubmit
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenEditCustomerAfterSubmit As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenViewCompanyAfterSubmit
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenViewCompanyAfterSubmit
+  id: ServiceScreenViewCompanyAfterSubmit
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenViewCompanyAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenViewCompanyAfterSubmit
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenViewCompanyAfterSubmit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n707: ServiceScreenViewCompanyAfterSubmit\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenViewCompanyAfterSubmit
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenViewCompanyAfterSubmit As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditCompanyAfterSubmit
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditCompanyAfterSubmit
+  id: ServiceScreenEditCompanyAfterSubmit
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenEditCompanyAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenEditCompanyAfterSubmit
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditCompanyAfterSubmit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n708: ServiceScreenEditCompanyAfterSubmit\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenEditCompanyAfterSubmit
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenEditCompanyAfterSubmit As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenForwardAfterSubmit
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenForwardAfterSubmit
+  id: ServiceScreenForwardAfterSubmit
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenForwardAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenForwardAfterSubmit
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenForwardAfterSubmit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n709: ServiceScreenForwardAfterSubmit\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenForwardAfterSubmit
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenForwardAfterSubmit As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditExtraTableAfterSubmit
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditExtraTableAfterSubmit
+  id: ServiceScreenEditExtraTableAfterSubmit
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenEditExtraTableAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenEditExtraTableAfterSubmit
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenEditExtraTableAfterSubmit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n710: ServiceScreenEditExtraTableAfterSubmit\n"
+  syntax:
+    content: public const EventHandlerType ServiceScreenEditExtraTableAfterSubmit
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const ServiceScreenEditExtraTableAfterSubmit As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveAppointment
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveAppointment
+  id: SalesBeforeSaveAppointment
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveAppointment
+  nameWithType: EventHandlerType.SalesBeforeSaveAppointment
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveAppointment
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1001: SalesBeforeSaveAppointment\n"
+  syntax:
+    content: public const EventHandlerType SalesBeforeSaveAppointment
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveAppointment As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveStakeholder
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveStakeholder
+  id: SalesBeforeSaveStakeholder
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveStakeholder
+  nameWithType: EventHandlerType.SalesBeforeSaveStakeholder
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveStakeholder
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1002: SalesBeforeSaveStakeholder\n"
+  syntax:
+    content: public const EventHandlerType SalesBeforeSaveStakeholder
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveStakeholder As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveQuote
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveQuote
+  id: SalesBeforeSaveQuote
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveQuote
+  nameWithType: EventHandlerType.SalesBeforeSaveQuote
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveQuote
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1003: SalesBeforeSaveQuote\n"
+  syntax:
+    content: public const EventHandlerType SalesBeforeSaveQuote
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveQuote As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveDocument
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveDocument
+  id: SalesBeforeSaveDocument
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveDocument
+  nameWithType: EventHandlerType.SalesBeforeSaveDocument
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveDocument
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1004: SalesBeforeSaveDocument\n"
+  syntax:
+    content: public const EventHandlerType SalesBeforeSaveDocument
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveDocument As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveContact
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveContact
+  id: SalesBeforeSaveContact
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveContact
+  nameWithType: EventHandlerType.SalesBeforeSaveContact
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveContact
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1005: SalesBeforeSaveContact\n"
+  syntax:
+    content: public const EventHandlerType SalesBeforeSaveContact
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveContact As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSavePerson
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSavePerson
+  id: SalesBeforeSavePerson
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSavePerson
+  nameWithType: EventHandlerType.SalesBeforeSavePerson
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSavePerson
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1006: SalesBeforeSavePerson\n"
+  syntax:
+    content: public const EventHandlerType SalesBeforeSavePerson
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSavePerson As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveRelation
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveRelation
+  id: SalesBeforeSaveRelation
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveRelation
+  nameWithType: EventHandlerType.SalesBeforeSaveRelation
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveRelation
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1007: SalesBeforeSaveRelation\n"
+  syntax:
+    content: public const EventHandlerType SalesBeforeSaveRelation
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveRelation As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveSale
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveSale
+  id: SalesBeforeSaveSale
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveSale
+  nameWithType: EventHandlerType.SalesBeforeSaveSale
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveSale
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1008: SalesBeforeSaveSale\n"
+  syntax:
+    content: public const EventHandlerType SalesBeforeSaveSale
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveSale As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveProject
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveProject
+  id: SalesBeforeSaveProject
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveProject
+  nameWithType: EventHandlerType.SalesBeforeSaveProject
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveProject
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1009: SalesBeforeSaveProject\n"
+  syntax:
+    content: public const EventHandlerType SalesBeforeSaveProject
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveProject As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveSelection
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveSelection
+  id: SalesBeforeSaveSelection
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveSelection
+  nameWithType: EventHandlerType.SalesBeforeSaveSelection
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveSelection
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1010: SalesBeforeSaveSelection\n"
+  syntax:
+    content: public const EventHandlerType SalesBeforeSaveSelection
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveSelection As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveProjectMember
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveProjectMember
+  id: SalesBeforeSaveProjectMember
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveProjectMember
+  nameWithType: EventHandlerType.SalesBeforeSaveProjectMember
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveProjectMember
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1011: SalesBeforeSaveProjectMember\n"
+  syntax:
+    content: public const EventHandlerType SalesBeforeSaveProjectMember
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveProjectMember As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveSelectionMember
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveSelectionMember
+  id: SalesBeforeSaveSelectionMember
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveSelectionMember
+  nameWithType: EventHandlerType.SalesBeforeSaveSelectionMember
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveSelectionMember
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1012: SalesBeforeSaveSelectionMember\n"
+  syntax:
+    content: public const EventHandlerType SalesBeforeSaveSelectionMember
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveSelectionMember As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveQuoteLine
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveQuoteLine
+  id: SalesBeforeSaveQuoteLine
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveQuoteLine
+  nameWithType: EventHandlerType.SalesBeforeSaveQuoteLine
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveQuoteLine
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1013: SalesBeforeSaveQuoteLine\n"
+  syntax:
+    content: public const EventHandlerType SalesBeforeSaveQuoteLine
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesBeforeSaveQuoteLine As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveAppointment
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveAppointment
+  id: SalesAfterSaveAppointment
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveAppointment
+  nameWithType: EventHandlerType.SalesAfterSaveAppointment
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveAppointment
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1101: SalesAfterSaveAppointment\n"
+  syntax:
+    content: public const EventHandlerType SalesAfterSaveAppointment
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveAppointment As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveStakeholder
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveStakeholder
+  id: SalesAfterSaveStakeholder
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveStakeholder
+  nameWithType: EventHandlerType.SalesAfterSaveStakeholder
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveStakeholder
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1102: SalesAfterSaveStakeholder\n"
+  syntax:
+    content: public const EventHandlerType SalesAfterSaveStakeholder
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveStakeholder As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveQuote
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveQuote
+  id: SalesAfterSaveQuote
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveQuote
+  nameWithType: EventHandlerType.SalesAfterSaveQuote
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveQuote
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1103: SalesAfterSaveQuote\n"
+  syntax:
+    content: public const EventHandlerType SalesAfterSaveQuote
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveQuote As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveDocument
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveDocument
+  id: SalesAfterSaveDocument
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveDocument
+  nameWithType: EventHandlerType.SalesAfterSaveDocument
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveDocument
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1104: SalesAfterSaveDocument\n"
+  syntax:
+    content: public const EventHandlerType SalesAfterSaveDocument
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveDocument As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveContact
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveContact
+  id: SalesAfterSaveContact
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveContact
+  nameWithType: EventHandlerType.SalesAfterSaveContact
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveContact
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1105: SalesAfterSaveContact\n"
+  syntax:
+    content: public const EventHandlerType SalesAfterSaveContact
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveContact As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSavePerson
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSavePerson
+  id: SalesAfterSavePerson
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSavePerson
+  nameWithType: EventHandlerType.SalesAfterSavePerson
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSavePerson
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1106: SalesAfterSavePerson\n"
+  syntax:
+    content: public const EventHandlerType SalesAfterSavePerson
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSavePerson As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveRelation
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveRelation
+  id: SalesAfterSaveRelation
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveRelation
+  nameWithType: EventHandlerType.SalesAfterSaveRelation
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveRelation
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1107: SalesAfterSaveRelation\n"
+  syntax:
+    content: public const EventHandlerType SalesAfterSaveRelation
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveRelation As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveSale
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveSale
+  id: SalesAfterSaveSale
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveSale
+  nameWithType: EventHandlerType.SalesAfterSaveSale
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveSale
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1108: SalesAfterSaveSale\n"
+  syntax:
+    content: public const EventHandlerType SalesAfterSaveSale
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveSale As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveProject
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveProject
+  id: SalesAfterSaveProject
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveProject
+  nameWithType: EventHandlerType.SalesAfterSaveProject
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveProject
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1109: SalesAfterSaveProject\n"
+  syntax:
+    content: public const EventHandlerType SalesAfterSaveProject
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveProject As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveSelection
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveSelection
+  id: SalesAfterSaveSelection
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveSelection
+  nameWithType: EventHandlerType.SalesAfterSaveSelection
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveSelection
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1110: SalesAfterSaveSelection\n"
+  syntax:
+    content: public const EventHandlerType SalesAfterSaveSelection
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveSelection As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveProjectMember
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveProjectMember
+  id: SalesAfterSaveProjectMember
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveProjectMember
+  nameWithType: EventHandlerType.SalesAfterSaveProjectMember
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveProjectMember
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1111: SalesAfterSaveProjectMember\n"
+  syntax:
+    content: public const EventHandlerType SalesAfterSaveProjectMember
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveProjectMember As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveSelectionMember
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveSelectionMember
+  id: SalesAfterSaveSelectionMember
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveSelectionMember
+  nameWithType: EventHandlerType.SalesAfterSaveSelectionMember
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveSelectionMember
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1112: SalesAfterSaveSelectionMember\n"
+  syntax:
+    content: public const EventHandlerType SalesAfterSaveSelectionMember
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveSelectionMember As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveQuoteLine
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveQuoteLine
+  id: SalesAfterSaveQuoteLine
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveQuoteLine
+  nameWithType: EventHandlerType.SalesAfterSaveQuoteLine
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesAfterSaveQuoteLine
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1113: SalesAfterSaveQuoteLine\n"
+  syntax:
+    content: public const EventHandlerType SalesAfterSaveQuoteLine
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Const SalesAfterSaveQuoteLine As EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.EventHandlerType
+  commentId: T:SuperOffice.WebApi.Data.EventHandlerType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EventHandlerType
+  nameWithType: EventHandlerType
+  fullName: SuperOffice.WebApi.Data.EventHandlerType

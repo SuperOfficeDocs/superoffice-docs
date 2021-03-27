@@ -1,0 +1,482 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.RecurrenceMonthlyPattern
+  commentId: T:SuperOffice.Data.RecurrenceMonthlyPattern
+  id: RecurrenceMonthlyPattern
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.RecurrenceMonthlyPattern.DayOfMonth
+  - SuperOffice.Data.RecurrenceMonthlyPattern.Unknown
+  - SuperOffice.Data.RecurrenceMonthlyPattern.WeekdayOfMonth
+  langs:
+  - csharp
+  - vb
+  name: RecurrenceMonthlyPattern
+  nameWithType: RecurrenceMonthlyPattern
+  fullName: SuperOffice.Data.RecurrenceMonthlyPattern
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nEnumerator describing the different patterns for a monthly recurrence\n"
+  syntax:
+    content: public enum RecurrenceMonthlyPattern
+    content.vb: Public Enum RecurrenceMonthlyPattern
+  extensionMethods:
+  - SuperOffice.Data.RecurrenceMonthlyPattern.EnumUtil.MapEnums``2
+  - SuperOffice.Data.RecurrenceMonthlyPattern.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.RecurrenceMonthlyPattern)
+  - SuperOffice.Data.RecurrenceMonthlyPattern.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.RecurrenceMonthlyPattern.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.RecurrenceMonthlyPattern.Unknown
+  commentId: F:SuperOffice.Data.RecurrenceMonthlyPattern.Unknown
+  id: Unknown
+  parent: SuperOffice.Data.RecurrenceMonthlyPattern
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: RecurrenceMonthlyPattern.Unknown
+  fullName: SuperOffice.Data.RecurrenceMonthlyPattern.Unknown
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: 0: Unknown/undecided type\n"
+  syntax:
+    content: Unknown = 0
+    return:
+      type: SuperOffice.Data.RecurrenceMonthlyPattern
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.RecurrenceMonthlyPattern.DayOfMonth
+  commentId: F:SuperOffice.Data.RecurrenceMonthlyPattern.DayOfMonth
+  id: DayOfMonth
+  parent: SuperOffice.Data.RecurrenceMonthlyPattern
+  langs:
+  - csharp
+  - vb
+  name: DayOfMonth
+  nameWithType: RecurrenceMonthlyPattern.DayOfMonth
+  fullName: SuperOffice.Data.RecurrenceMonthlyPattern.DayOfMonth
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4: The recurrence is for a numbered day of the month, e.g. the 17. day of every 2 months\n"
+  syntax:
+    content: DayOfMonth = 4
+    return:
+      type: SuperOffice.Data.RecurrenceMonthlyPattern
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.RecurrenceMonthlyPattern.WeekdayOfMonth
+  commentId: F:SuperOffice.Data.RecurrenceMonthlyPattern.WeekdayOfMonth
+  id: WeekdayOfMonth
+  parent: SuperOffice.Data.RecurrenceMonthlyPattern
+  langs:
+  - csharp
+  - vb
+  name: WeekdayOfMonth
+  nameWithType: RecurrenceMonthlyPattern.WeekdayOfMonth
+  fullName: SuperOffice.Data.RecurrenceMonthlyPattern.WeekdayOfMonth
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n5: The recurrence is for weekdays in the month, e.g. the 3. thursday of every 3 months\n"
+  syntax:
+    content: WeekdayOfMonth = 5
+    return:
+      type: SuperOffice.Data.RecurrenceMonthlyPattern
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.RecurrenceMonthlyPattern.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<RecurrenceMonthlyPattern, To>()
+  nameWithType: EnumUtil.MapEnums<RecurrenceMonthlyPattern, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.RecurrenceMonthlyPattern, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of RecurrenceMonthlyPattern, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.RecurrenceMonthlyPattern, To)()
+  name.vb: MapEnums(Of RecurrenceMonthlyPattern, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<RecurrenceMonthlyPattern, To>
+    nameWithType: EnumUtil.MapEnums<RecurrenceMonthlyPattern, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.RecurrenceMonthlyPattern, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of RecurrenceMonthlyPattern, To)
+    nameWithType: EnumUtil.MapEnums(Of RecurrenceMonthlyPattern, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.RecurrenceMonthlyPattern, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.RecurrenceMonthlyPattern.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.RecurrenceMonthlyPattern)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<RecurrenceMonthlyPattern>(RecurrenceMonthlyPattern)
+  nameWithType: ObjectExtensions.AssignByReflection<RecurrenceMonthlyPattern>(RecurrenceMonthlyPattern)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.RecurrenceMonthlyPattern>(SuperOffice.Data.RecurrenceMonthlyPattern)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of RecurrenceMonthlyPattern)(RecurrenceMonthlyPattern)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.RecurrenceMonthlyPattern)(SuperOffice.Data.RecurrenceMonthlyPattern)
+  name.vb: AssignByReflection(Of RecurrenceMonthlyPattern)(RecurrenceMonthlyPattern)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<RecurrenceMonthlyPattern>
+    nameWithType: ObjectExtensions.AssignByReflection<RecurrenceMonthlyPattern>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.RecurrenceMonthlyPattern>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.RecurrenceMonthlyPattern
+    name: RecurrenceMonthlyPattern
+    nameWithType: RecurrenceMonthlyPattern
+    fullName: SuperOffice.Data.RecurrenceMonthlyPattern
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of RecurrenceMonthlyPattern)
+    nameWithType: ObjectExtensions.AssignByReflection(Of RecurrenceMonthlyPattern)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.RecurrenceMonthlyPattern)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.RecurrenceMonthlyPattern
+    name: RecurrenceMonthlyPattern
+    nameWithType: RecurrenceMonthlyPattern
+    fullName: SuperOffice.Data.RecurrenceMonthlyPattern
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.RecurrenceMonthlyPattern.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<RecurrenceMonthlyPattern>()
+  nameWithType: ObjectExtensions.GraphCopy<RecurrenceMonthlyPattern>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.RecurrenceMonthlyPattern>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of RecurrenceMonthlyPattern)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.RecurrenceMonthlyPattern)()
+  name.vb: GraphCopy(Of RecurrenceMonthlyPattern)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<RecurrenceMonthlyPattern>
+    nameWithType: ObjectExtensions.GraphCopy<RecurrenceMonthlyPattern>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.RecurrenceMonthlyPattern>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of RecurrenceMonthlyPattern)
+    nameWithType: ObjectExtensions.GraphCopy(Of RecurrenceMonthlyPattern)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.RecurrenceMonthlyPattern)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.RecurrenceMonthlyPattern.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<RecurrenceMonthlyPattern, To>()
+  nameWithType: Converters.MapEnums<RecurrenceMonthlyPattern, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.RecurrenceMonthlyPattern, To>()
+  nameWithType.vb: Converters.MapEnums(Of RecurrenceMonthlyPattern, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.RecurrenceMonthlyPattern, To)()
+  name.vb: MapEnums(Of RecurrenceMonthlyPattern, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<RecurrenceMonthlyPattern, To>
+    nameWithType: Converters.MapEnums<RecurrenceMonthlyPattern, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.RecurrenceMonthlyPattern, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of RecurrenceMonthlyPattern, To)
+    nameWithType: Converters.MapEnums(Of RecurrenceMonthlyPattern, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.RecurrenceMonthlyPattern, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.RecurrenceMonthlyPattern
+  commentId: T:SuperOffice.Data.RecurrenceMonthlyPattern
+  parent: SuperOffice.Data
+  isExternal: true
+  name: RecurrenceMonthlyPattern
+  nameWithType: RecurrenceMonthlyPattern
+  fullName: SuperOffice.Data.RecurrenceMonthlyPattern

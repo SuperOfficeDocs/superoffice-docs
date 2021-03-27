@@ -1,0 +1,2037 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  commentId: T:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  id: CalendarManager
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects
+  children:
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.#ctor
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnAppointmentDoubleClick(SuperOffice.CRM.Web.UI.Controls.CalendarAppointment)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnAppointmentMouseDownEvent(SuperOffice.CRM.Web.UI.Controls.CalendarAppointment,System.Boolean)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnAppointmentMouseUpEvent(SuperOffice.CRM.Web.UI.Controls.CalendarAppointment,System.Boolean)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarDoubleClickEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseDownEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseEnterEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseLeaveEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseOutEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseOverEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseUpEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnHighLightAppointmentEvent(System.String,System.String)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnllDayFreeAppointmentMouseDownEvent(SuperOffice.CRM.Web.UI.Controls.CalendarAppointment,System.String)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollFF(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollFF(SuperOffice.CRM.Web.UI.Controls.CalendarContainer)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollGeneric(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollGeneric(SuperOffice.CRM.Web.UI.Controls.CalendarContainer)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollIE(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollIE(SuperOffice.CRM.Web.UI.Controls.CalendarContainer)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnScrollDown(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnScrollDown(SuperOffice.CRM.Web.UI.Controls.CalendarContainer)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnScrollUp(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnScrollUp(SuperOffice.CRM.Web.UI.Controls.CalendarContainer)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentCanBeRead(System.Web.UI.HtmlTextWriter,System.Boolean)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentCanBeSelected(System.Web.UI.HtmlTextWriter,System.Boolean)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentCanBeUpdated(System.Web.UI.HtmlTextWriter,System.Boolean)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentDates(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.Appointment)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentId(System.Web.UI.HtmlTextWriter,System.Int32)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentIsBooking(System.Web.UI.HtmlTextWriter,System.Boolean,System.Boolean)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentIsRecurrence(System.Web.UI.HtmlTextWriter,System.Boolean)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentResize(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.Appointment)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarAssociate(System.Web.UI.HtmlTextWriter,System.Int32)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarCanCreateAppointment(System.Web.UI.HtmlTextWriter,System.Boolean)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarContainer(System.Web.UI.Page,System.Type,SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ClientObject)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarDate(System.Web.UI.HtmlTextWriter,System.DateTime)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarOffsetTop(System.Web.UI.HtmlTextWriter,System.Int32)
+  - SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarTimeScale(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Web.UI.Controls.CalendarTimeScaleType)
+  langs:
+  - csharp
+  - vb
+  name: CalendarManager
+  nameWithType: CalendarManager
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: 'public class CalendarManager : ScriptObjectBase'
+    content.vb: >-
+      Public Class CalendarManager
+          Inherits ScriptObjectBase
+  inheritance:
+  - System.Object
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  inheritedMembers:
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarContainer(System.Web.UI.Page,System.Type,SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ClientObject)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarContainer(System.Web.UI.Page,System.Type,SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ClientObject)
+  id: RegisterCalendarContainer(System.Web.UI.Page,System.Type,SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ClientObject)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: RegisterCalendarContainer(Page, Type, CalendarContainer.ClientObject)
+  nameWithType: CalendarManager.RegisterCalendarContainer(Page, Type, CalendarContainer.ClientObject)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarContainer(System.Web.UI.Page, System.Type, SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ClientObject)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static void RegisterCalendarContainer(Page page, Type type, CalendarContainer.ClientObject clientObject)
+    parameters:
+    - id: page
+      type: System.Web.UI.Page
+    - id: type
+      type: System.Type
+    - id: clientObject
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ClientObject
+    content.vb: Public Shared Sub RegisterCalendarContainer(page As Page, type As Type, clientObject As CalendarContainer.ClientObject)
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarContainer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnAppointmentMouseDownEvent(SuperOffice.CRM.Web.UI.Controls.CalendarAppointment,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnAppointmentMouseDownEvent(SuperOffice.CRM.Web.UI.Controls.CalendarAppointment,System.Boolean)
+  id: OnAppointmentMouseDownEvent(SuperOffice.CRM.Web.UI.Controls.CalendarAppointment,System.Boolean)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: OnAppointmentMouseDownEvent(CalendarAppointment, Boolean)
+  nameWithType: CalendarManager.OnAppointmentMouseDownEvent(CalendarAppointment, Boolean)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnAppointmentMouseDownEvent(SuperOffice.CRM.Web.UI.Controls.CalendarAppointment, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string OnAppointmentMouseDownEvent(CalendarAppointment appointment, bool resizeClick)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment
+    - id: resizeClick
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Shared Function OnAppointmentMouseDownEvent(appointment As CalendarAppointment, resizeClick As Boolean) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnAppointmentMouseDownEvent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnllDayFreeAppointmentMouseDownEvent(SuperOffice.CRM.Web.UI.Controls.CalendarAppointment,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnllDayFreeAppointmentMouseDownEvent(SuperOffice.CRM.Web.UI.Controls.CalendarAppointment,System.String)
+  id: OnllDayFreeAppointmentMouseDownEvent(SuperOffice.CRM.Web.UI.Controls.CalendarAppointment,System.String)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: OnllDayFreeAppointmentMouseDownEvent(CalendarAppointment, String)
+  nameWithType: CalendarManager.OnllDayFreeAppointmentMouseDownEvent(CalendarAppointment, String)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnllDayFreeAppointmentMouseDownEvent(SuperOffice.CRM.Web.UI.Controls.CalendarAppointment, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string OnllDayFreeAppointmentMouseDownEvent(CalendarAppointment appointment, string clientId)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment
+    - id: clientId
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function OnllDayFreeAppointmentMouseDownEvent(appointment As CalendarAppointment, clientId As String) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnllDayFreeAppointmentMouseDownEvent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnAppointmentMouseUpEvent(SuperOffice.CRM.Web.UI.Controls.CalendarAppointment,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnAppointmentMouseUpEvent(SuperOffice.CRM.Web.UI.Controls.CalendarAppointment,System.Boolean)
+  id: OnAppointmentMouseUpEvent(SuperOffice.CRM.Web.UI.Controls.CalendarAppointment,System.Boolean)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: OnAppointmentMouseUpEvent(CalendarAppointment, Boolean)
+  nameWithType: CalendarManager.OnAppointmentMouseUpEvent(CalendarAppointment, Boolean)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnAppointmentMouseUpEvent(SuperOffice.CRM.Web.UI.Controls.CalendarAppointment, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string OnAppointmentMouseUpEvent(CalendarAppointment appointment, bool resizeClick)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment
+    - id: resizeClick
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Shared Function OnAppointmentMouseUpEvent(appointment As CalendarAppointment, resizeClick As Boolean) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnAppointmentMouseUpEvent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnHighLightAppointmentEvent(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnHighLightAppointmentEvent(System.String,System.String)
+  id: OnHighLightAppointmentEvent(System.String,System.String)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: OnHighLightAppointmentEvent(String, String)
+  nameWithType: CalendarManager.OnHighLightAppointmentEvent(String, String)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnHighLightAppointmentEvent(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string OnHighLightAppointmentEvent(string clientId, string calendarClientId)
+    parameters:
+    - id: clientId
+      type: System.String
+    - id: calendarClientId
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function OnHighLightAppointmentEvent(clientId As String, calendarClientId As String) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnHighLightAppointmentEvent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnAppointmentDoubleClick(SuperOffice.CRM.Web.UI.Controls.CalendarAppointment)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnAppointmentDoubleClick(SuperOffice.CRM.Web.UI.Controls.CalendarAppointment)
+  id: OnAppointmentDoubleClick(SuperOffice.CRM.Web.UI.Controls.CalendarAppointment)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: OnAppointmentDoubleClick(CalendarAppointment)
+  nameWithType: CalendarManager.OnAppointmentDoubleClick(CalendarAppointment)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnAppointmentDoubleClick(SuperOffice.CRM.Web.UI.Controls.CalendarAppointment)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string OnAppointmentDoubleClick(CalendarAppointment appointment)
+    parameters:
+    - id: appointment
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment
+    return:
+      type: System.String
+    content.vb: Public Shared Function OnAppointmentDoubleClick(appointment As CalendarAppointment) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnAppointmentDoubleClick*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseDownEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseDownEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  id: OnCalendarMouseDownEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: OnCalendarMouseDownEvent(Calendar)
+  nameWithType: CalendarManager.OnCalendarMouseDownEvent(Calendar)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseDownEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string OnCalendarMouseDownEvent(Calendar calendar)
+    parameters:
+    - id: calendar
+      type: SuperOffice.CRM.Web.UI.Controls.Calendar
+    return:
+      type: System.String
+    content.vb: Public Shared Function OnCalendarMouseDownEvent(calendar As Calendar) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseDownEvent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseUpEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseUpEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  id: OnCalendarMouseUpEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: OnCalendarMouseUpEvent(Calendar)
+  nameWithType: CalendarManager.OnCalendarMouseUpEvent(Calendar)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseUpEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string OnCalendarMouseUpEvent(Calendar calendar)
+    parameters:
+    - id: calendar
+      type: SuperOffice.CRM.Web.UI.Controls.Calendar
+    return:
+      type: System.String
+    content.vb: Public Shared Function OnCalendarMouseUpEvent(calendar As Calendar) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseUpEvent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarDoubleClickEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarDoubleClickEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  id: OnCalendarDoubleClickEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: OnCalendarDoubleClickEvent(Calendar)
+  nameWithType: CalendarManager.OnCalendarDoubleClickEvent(Calendar)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarDoubleClickEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string OnCalendarDoubleClickEvent(Calendar calendar)
+    parameters:
+    - id: calendar
+      type: SuperOffice.CRM.Web.UI.Controls.Calendar
+    return:
+      type: System.String
+    content.vb: Public Shared Function OnCalendarDoubleClickEvent(calendar As Calendar) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarDoubleClickEvent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseOverEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseOverEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  id: OnCalendarMouseOverEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: OnCalendarMouseOverEvent(Calendar)
+  nameWithType: CalendarManager.OnCalendarMouseOverEvent(Calendar)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseOverEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string OnCalendarMouseOverEvent(Calendar calendar)
+    parameters:
+    - id: calendar
+      type: SuperOffice.CRM.Web.UI.Controls.Calendar
+    return:
+      type: System.String
+    content.vb: Public Shared Function OnCalendarMouseOverEvent(calendar As Calendar) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseOverEvent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseOutEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseOutEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  id: OnCalendarMouseOutEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: OnCalendarMouseOutEvent(Calendar)
+  nameWithType: CalendarManager.OnCalendarMouseOutEvent(Calendar)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseOutEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string OnCalendarMouseOutEvent(Calendar calendar)
+    parameters:
+    - id: calendar
+      type: SuperOffice.CRM.Web.UI.Controls.Calendar
+    return:
+      type: System.String
+    content.vb: Public Shared Function OnCalendarMouseOutEvent(calendar As Calendar) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseOutEvent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseEnterEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseEnterEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  id: OnCalendarMouseEnterEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: OnCalendarMouseEnterEvent(Calendar)
+  nameWithType: CalendarManager.OnCalendarMouseEnterEvent(Calendar)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseEnterEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string OnCalendarMouseEnterEvent(Calendar calendar)
+    parameters:
+    - id: calendar
+      type: SuperOffice.CRM.Web.UI.Controls.Calendar
+    return:
+      type: System.String
+    content.vb: Public Shared Function OnCalendarMouseEnterEvent(calendar As Calendar) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseEnterEvent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseLeaveEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseLeaveEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  id: OnCalendarMouseLeaveEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: OnCalendarMouseLeaveEvent(Calendar)
+  nameWithType: CalendarManager.OnCalendarMouseLeaveEvent(Calendar)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseLeaveEvent(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string OnCalendarMouseLeaveEvent(Calendar calendar)
+    parameters:
+    - id: calendar
+      type: SuperOffice.CRM.Web.UI.Controls.Calendar
+    return:
+      type: System.String
+    content.vb: Public Shared Function OnCalendarMouseLeaveEvent(calendar As Calendar) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseLeaveEvent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollIE(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollIE(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  id: OnMouseScrollIE(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: OnMouseScrollIE(Calendar)
+  nameWithType: CalendarManager.OnMouseScrollIE(Calendar)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollIE(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string OnMouseScrollIE(Calendar calendar)
+    parameters:
+    - id: calendar
+      type: SuperOffice.CRM.Web.UI.Controls.Calendar
+    return:
+      type: System.String
+    content.vb: Public Shared Function OnMouseScrollIE(calendar As Calendar) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollIE*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollIE(SuperOffice.CRM.Web.UI.Controls.CalendarContainer)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollIE(SuperOffice.CRM.Web.UI.Controls.CalendarContainer)
+  id: OnMouseScrollIE(SuperOffice.CRM.Web.UI.Controls.CalendarContainer)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: OnMouseScrollIE(CalendarContainer)
+  nameWithType: CalendarManager.OnMouseScrollIE(CalendarContainer)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollIE(SuperOffice.CRM.Web.UI.Controls.CalendarContainer)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string OnMouseScrollIE(CalendarContainer calendarContainer)
+    parameters:
+    - id: calendarContainer
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+    return:
+      type: System.String
+    content.vb: Public Shared Function OnMouseScrollIE(calendarContainer As CalendarContainer) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollIE*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollFF(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollFF(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  id: OnMouseScrollFF(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: OnMouseScrollFF(Calendar)
+  nameWithType: CalendarManager.OnMouseScrollFF(Calendar)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollFF(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string OnMouseScrollFF(Calendar calendar)
+    parameters:
+    - id: calendar
+      type: SuperOffice.CRM.Web.UI.Controls.Calendar
+    return:
+      type: System.String
+    content.vb: Public Shared Function OnMouseScrollFF(calendar As Calendar) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollFF*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollFF(SuperOffice.CRM.Web.UI.Controls.CalendarContainer)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollFF(SuperOffice.CRM.Web.UI.Controls.CalendarContainer)
+  id: OnMouseScrollFF(SuperOffice.CRM.Web.UI.Controls.CalendarContainer)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: OnMouseScrollFF(CalendarContainer)
+  nameWithType: CalendarManager.OnMouseScrollFF(CalendarContainer)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollFF(SuperOffice.CRM.Web.UI.Controls.CalendarContainer)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string OnMouseScrollFF(CalendarContainer calendarContainer)
+    parameters:
+    - id: calendarContainer
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+    return:
+      type: System.String
+    content.vb: Public Shared Function OnMouseScrollFF(calendarContainer As CalendarContainer) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollFF*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollGeneric(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollGeneric(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  id: OnMouseScrollGeneric(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: OnMouseScrollGeneric(Calendar)
+  nameWithType: CalendarManager.OnMouseScrollGeneric(Calendar)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollGeneric(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string OnMouseScrollGeneric(Calendar calendar)
+    parameters:
+    - id: calendar
+      type: SuperOffice.CRM.Web.UI.Controls.Calendar
+    return:
+      type: System.String
+    content.vb: Public Shared Function OnMouseScrollGeneric(calendar As Calendar) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollGeneric*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollGeneric(SuperOffice.CRM.Web.UI.Controls.CalendarContainer)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollGeneric(SuperOffice.CRM.Web.UI.Controls.CalendarContainer)
+  id: OnMouseScrollGeneric(SuperOffice.CRM.Web.UI.Controls.CalendarContainer)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: OnMouseScrollGeneric(CalendarContainer)
+  nameWithType: CalendarManager.OnMouseScrollGeneric(CalendarContainer)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollGeneric(SuperOffice.CRM.Web.UI.Controls.CalendarContainer)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string OnMouseScrollGeneric(CalendarContainer calendarContainer)
+    parameters:
+    - id: calendarContainer
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+    return:
+      type: System.String
+    content.vb: Public Shared Function OnMouseScrollGeneric(calendarContainer As CalendarContainer) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollGeneric*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnScrollUp(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnScrollUp(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  id: OnScrollUp(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: OnScrollUp(Calendar)
+  nameWithType: CalendarManager.OnScrollUp(Calendar)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnScrollUp(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string OnScrollUp(Calendar calendar)
+    parameters:
+    - id: calendar
+      type: SuperOffice.CRM.Web.UI.Controls.Calendar
+    return:
+      type: System.String
+    content.vb: Public Shared Function OnScrollUp(calendar As Calendar) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnScrollUp*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnScrollDown(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnScrollDown(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  id: OnScrollDown(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: OnScrollDown(Calendar)
+  nameWithType: CalendarManager.OnScrollDown(Calendar)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnScrollDown(SuperOffice.CRM.Web.UI.Controls.Calendar)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string OnScrollDown(Calendar calendar)
+    parameters:
+    - id: calendar
+      type: SuperOffice.CRM.Web.UI.Controls.Calendar
+    return:
+      type: System.String
+    content.vb: Public Shared Function OnScrollDown(calendar As Calendar) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnScrollDown*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnScrollUp(SuperOffice.CRM.Web.UI.Controls.CalendarContainer)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnScrollUp(SuperOffice.CRM.Web.UI.Controls.CalendarContainer)
+  id: OnScrollUp(SuperOffice.CRM.Web.UI.Controls.CalendarContainer)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: OnScrollUp(CalendarContainer)
+  nameWithType: CalendarManager.OnScrollUp(CalendarContainer)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnScrollUp(SuperOffice.CRM.Web.UI.Controls.CalendarContainer)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string OnScrollUp(CalendarContainer calendarContainer)
+    parameters:
+    - id: calendarContainer
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+    return:
+      type: System.String
+    content.vb: Public Shared Function OnScrollUp(calendarContainer As CalendarContainer) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnScrollUp*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnScrollDown(SuperOffice.CRM.Web.UI.Controls.CalendarContainer)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnScrollDown(SuperOffice.CRM.Web.UI.Controls.CalendarContainer)
+  id: OnScrollDown(SuperOffice.CRM.Web.UI.Controls.CalendarContainer)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: OnScrollDown(CalendarContainer)
+  nameWithType: CalendarManager.OnScrollDown(CalendarContainer)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnScrollDown(SuperOffice.CRM.Web.UI.Controls.CalendarContainer)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static string OnScrollDown(CalendarContainer calendarContainer)
+    parameters:
+    - id: calendarContainer
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+    return:
+      type: System.String
+    content.vb: Public Shared Function OnScrollDown(calendarContainer As CalendarContainer) As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnScrollDown*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarDate(System.Web.UI.HtmlTextWriter,System.DateTime)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarDate(System.Web.UI.HtmlTextWriter,System.DateTime)
+  id: RegisterCalendarDate(System.Web.UI.HtmlTextWriter,System.DateTime)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: RegisterCalendarDate(HtmlTextWriter, DateTime)
+  nameWithType: CalendarManager.RegisterCalendarDate(HtmlTextWriter, DateTime)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarDate(System.Web.UI.HtmlTextWriter, System.DateTime)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static void RegisterCalendarDate(HtmlTextWriter w, DateTime date)
+    parameters:
+    - id: w
+      type: System.Web.UI.HtmlTextWriter
+    - id: date
+      type: System.DateTime
+    content.vb: Public Shared Sub RegisterCalendarDate(w As HtmlTextWriter, date As Date)
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarDate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarAssociate(System.Web.UI.HtmlTextWriter,System.Int32)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarAssociate(System.Web.UI.HtmlTextWriter,System.Int32)
+  id: RegisterCalendarAssociate(System.Web.UI.HtmlTextWriter,System.Int32)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: RegisterCalendarAssociate(HtmlTextWriter, Int32)
+  nameWithType: CalendarManager.RegisterCalendarAssociate(HtmlTextWriter, Int32)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarAssociate(System.Web.UI.HtmlTextWriter, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static void RegisterCalendarAssociate(HtmlTextWriter w, int associateId)
+    parameters:
+    - id: w
+      type: System.Web.UI.HtmlTextWriter
+    - id: associateId
+      type: System.Int32
+    content.vb: Public Shared Sub RegisterCalendarAssociate(w As HtmlTextWriter, associateId As Integer)
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarAssociate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarCanCreateAppointment(System.Web.UI.HtmlTextWriter,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarCanCreateAppointment(System.Web.UI.HtmlTextWriter,System.Boolean)
+  id: RegisterCalendarCanCreateAppointment(System.Web.UI.HtmlTextWriter,System.Boolean)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: RegisterCalendarCanCreateAppointment(HtmlTextWriter, Boolean)
+  nameWithType: CalendarManager.RegisterCalendarCanCreateAppointment(HtmlTextWriter, Boolean)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarCanCreateAppointment(System.Web.UI.HtmlTextWriter, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static void RegisterCalendarCanCreateAppointment(HtmlTextWriter w, bool canCreate)
+    parameters:
+    - id: w
+      type: System.Web.UI.HtmlTextWriter
+    - id: canCreate
+      type: System.Boolean
+    content.vb: Public Shared Sub RegisterCalendarCanCreateAppointment(w As HtmlTextWriter, canCreate As Boolean)
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarCanCreateAppointment*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarOffsetTop(System.Web.UI.HtmlTextWriter,System.Int32)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarOffsetTop(System.Web.UI.HtmlTextWriter,System.Int32)
+  id: RegisterCalendarOffsetTop(System.Web.UI.HtmlTextWriter,System.Int32)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: RegisterCalendarOffsetTop(HtmlTextWriter, Int32)
+  nameWithType: CalendarManager.RegisterCalendarOffsetTop(HtmlTextWriter, Int32)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarOffsetTop(System.Web.UI.HtmlTextWriter, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static void RegisterCalendarOffsetTop(HtmlTextWriter w, int offsetTop)
+    parameters:
+    - id: w
+      type: System.Web.UI.HtmlTextWriter
+    - id: offsetTop
+      type: System.Int32
+    content.vb: Public Shared Sub RegisterCalendarOffsetTop(w As HtmlTextWriter, offsetTop As Integer)
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarOffsetTop*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentId(System.Web.UI.HtmlTextWriter,System.Int32)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentId(System.Web.UI.HtmlTextWriter,System.Int32)
+  id: RegisterAppointmentId(System.Web.UI.HtmlTextWriter,System.Int32)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: RegisterAppointmentId(HtmlTextWriter, Int32)
+  nameWithType: CalendarManager.RegisterAppointmentId(HtmlTextWriter, Int32)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentId(System.Web.UI.HtmlTextWriter, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static void RegisterAppointmentId(HtmlTextWriter w, int id)
+    parameters:
+    - id: w
+      type: System.Web.UI.HtmlTextWriter
+    - id: id
+      type: System.Int32
+    content.vb: Public Shared Sub RegisterAppointmentId(w As HtmlTextWriter, id As Integer)
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentIsRecurrence(System.Web.UI.HtmlTextWriter,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentIsRecurrence(System.Web.UI.HtmlTextWriter,System.Boolean)
+  id: RegisterAppointmentIsRecurrence(System.Web.UI.HtmlTextWriter,System.Boolean)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: RegisterAppointmentIsRecurrence(HtmlTextWriter, Boolean)
+  nameWithType: CalendarManager.RegisterAppointmentIsRecurrence(HtmlTextWriter, Boolean)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentIsRecurrence(System.Web.UI.HtmlTextWriter, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static void RegisterAppointmentIsRecurrence(HtmlTextWriter w, bool isRecurrence)
+    parameters:
+    - id: w
+      type: System.Web.UI.HtmlTextWriter
+    - id: isRecurrence
+      type: System.Boolean
+    content.vb: Public Shared Sub RegisterAppointmentIsRecurrence(w As HtmlTextWriter, isRecurrence As Boolean)
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentIsRecurrence*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentIsBooking(System.Web.UI.HtmlTextWriter,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentIsBooking(System.Web.UI.HtmlTextWriter,System.Boolean,System.Boolean)
+  id: RegisterAppointmentIsBooking(System.Web.UI.HtmlTextWriter,System.Boolean,System.Boolean)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: RegisterAppointmentIsBooking(HtmlTextWriter, Boolean, Boolean)
+  nameWithType: CalendarManager.RegisterAppointmentIsBooking(HtmlTextWriter, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentIsBooking(System.Web.UI.HtmlTextWriter, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static void RegisterAppointmentIsBooking(HtmlTextWriter w, bool isBooking, bool isBookingMain)
+    parameters:
+    - id: w
+      type: System.Web.UI.HtmlTextWriter
+    - id: isBooking
+      type: System.Boolean
+    - id: isBookingMain
+      type: System.Boolean
+    content.vb: Public Shared Sub RegisterAppointmentIsBooking(w As HtmlTextWriter, isBooking As Boolean, isBookingMain As Boolean)
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentIsBooking*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentCanBeSelected(System.Web.UI.HtmlTextWriter,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentCanBeSelected(System.Web.UI.HtmlTextWriter,System.Boolean)
+  id: RegisterAppointmentCanBeSelected(System.Web.UI.HtmlTextWriter,System.Boolean)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: RegisterAppointmentCanBeSelected(HtmlTextWriter, Boolean)
+  nameWithType: CalendarManager.RegisterAppointmentCanBeSelected(HtmlTextWriter, Boolean)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentCanBeSelected(System.Web.UI.HtmlTextWriter, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static void RegisterAppointmentCanBeSelected(HtmlTextWriter w, bool canBeSelected)
+    parameters:
+    - id: w
+      type: System.Web.UI.HtmlTextWriter
+    - id: canBeSelected
+      type: System.Boolean
+    content.vb: Public Shared Sub RegisterAppointmentCanBeSelected(w As HtmlTextWriter, canBeSelected As Boolean)
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentCanBeSelected*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentCanBeUpdated(System.Web.UI.HtmlTextWriter,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentCanBeUpdated(System.Web.UI.HtmlTextWriter,System.Boolean)
+  id: RegisterAppointmentCanBeUpdated(System.Web.UI.HtmlTextWriter,System.Boolean)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: RegisterAppointmentCanBeUpdated(HtmlTextWriter, Boolean)
+  nameWithType: CalendarManager.RegisterAppointmentCanBeUpdated(HtmlTextWriter, Boolean)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentCanBeUpdated(System.Web.UI.HtmlTextWriter, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static void RegisterAppointmentCanBeUpdated(HtmlTextWriter w, bool canBeUpdated)
+    parameters:
+    - id: w
+      type: System.Web.UI.HtmlTextWriter
+    - id: canBeUpdated
+      type: System.Boolean
+    content.vb: Public Shared Sub RegisterAppointmentCanBeUpdated(w As HtmlTextWriter, canBeUpdated As Boolean)
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentCanBeUpdated*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentCanBeRead(System.Web.UI.HtmlTextWriter,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentCanBeRead(System.Web.UI.HtmlTextWriter,System.Boolean)
+  id: RegisterAppointmentCanBeRead(System.Web.UI.HtmlTextWriter,System.Boolean)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: RegisterAppointmentCanBeRead(HtmlTextWriter, Boolean)
+  nameWithType: CalendarManager.RegisterAppointmentCanBeRead(HtmlTextWriter, Boolean)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentCanBeRead(System.Web.UI.HtmlTextWriter, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static void RegisterAppointmentCanBeRead(HtmlTextWriter w, bool canBeRead)
+    parameters:
+    - id: w
+      type: System.Web.UI.HtmlTextWriter
+    - id: canBeRead
+      type: System.Boolean
+    content.vb: Public Shared Sub RegisterAppointmentCanBeRead(w As HtmlTextWriter, canBeRead As Boolean)
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentCanBeRead*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentDates(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.Appointment)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentDates(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.Appointment)
+  id: RegisterAppointmentDates(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.Appointment)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: RegisterAppointmentDates(HtmlTextWriter, Appointment)
+  nameWithType: CalendarManager.RegisterAppointmentDates(HtmlTextWriter, Appointment)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentDates(System.Web.UI.HtmlTextWriter, SuperOffice.CRM.Services.Appointment)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static void RegisterAppointmentDates(HtmlTextWriter w, Appointment appointment)
+    parameters:
+    - id: w
+      type: System.Web.UI.HtmlTextWriter
+    - id: appointment
+      type: SuperOffice.CRM.Services.Appointment
+    content.vb: Public Shared Sub RegisterAppointmentDates(w As HtmlTextWriter, appointment As Appointment)
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentDates*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentResize(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.Appointment)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentResize(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.Appointment)
+  id: RegisterAppointmentResize(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Services.Appointment)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: RegisterAppointmentResize(HtmlTextWriter, Appointment)
+  nameWithType: CalendarManager.RegisterAppointmentResize(HtmlTextWriter, Appointment)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentResize(System.Web.UI.HtmlTextWriter, SuperOffice.CRM.Services.Appointment)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static void RegisterAppointmentResize(HtmlTextWriter w, Appointment appointment)
+    parameters:
+    - id: w
+      type: System.Web.UI.HtmlTextWriter
+    - id: appointment
+      type: SuperOffice.CRM.Services.Appointment
+    content.vb: Public Shared Sub RegisterAppointmentResize(w As HtmlTextWriter, appointment As Appointment)
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentResize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarTimeScale(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Web.UI.Controls.CalendarTimeScaleType)
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarTimeScale(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Web.UI.Controls.CalendarTimeScaleType)
+  id: RegisterCalendarTimeScale(System.Web.UI.HtmlTextWriter,SuperOffice.CRM.Web.UI.Controls.CalendarTimeScaleType)
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: RegisterCalendarTimeScale(HtmlTextWriter, CalendarTimeScaleType)
+  nameWithType: CalendarManager.RegisterCalendarTimeScale(HtmlTextWriter, CalendarTimeScaleType)
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarTimeScale(System.Web.UI.HtmlTextWriter, SuperOffice.CRM.Web.UI.Controls.CalendarTimeScaleType)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public static void RegisterCalendarTimeScale(HtmlTextWriter w, CalendarTimeScaleType timeScale)
+    parameters:
+    - id: w
+      type: System.Web.UI.HtmlTextWriter
+    - id: timeScale
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarTimeScaleType
+    content.vb: Public Shared Sub RegisterCalendarTimeScale(w As HtmlTextWriter, timeScale As CalendarTimeScaleType)
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarTimeScale*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+  langs:
+  - csharp
+  - vb
+  name: CalendarManager()
+  nameWithType: CalendarManager.CalendarManager()
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.CalendarManager()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public CalendarManager()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects
+  commentId: N:SuperOffice.CRM.Web.UI.ScriptObjects
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.ScriptObjects
+  nameWithType: SuperOffice.CRM.Web.UI.ScriptObjects
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  commentId: T:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects
+  isExternal: true
+  name: ScriptObjectBase
+  nameWithType: ScriptObjectBase
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  isExternal: true
+  name: SoIdSelector(String)
+  nameWithType: ScriptObjectBase.SoIdSelector(String)
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+    name: SoIdSelector
+    nameWithType: ScriptObjectBase.SoIdSelector
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+    name: SoIdSelector
+    nameWithType: ScriptObjectBase.SoIdSelector
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  isExternal: true
+  name: CreateClickFunctionForSoId(String, String)
+  nameWithType: ScriptObjectBase.CreateClickFunctionForSoId(String, String)
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+    name: CreateClickFunctionForSoId
+    nameWithType: ScriptObjectBase.CreateClickFunctionForSoId
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+    name: CreateClickFunctionForSoId
+    nameWithType: ScriptObjectBase.CreateClickFunctionForSoId
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  isExternal: true
+  name: CreateHoverFunctionForSoId(String, String, String)
+  nameWithType: ScriptObjectBase.CreateHoverFunctionForSoId(String, String, String)
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+    name: CreateHoverFunctionForSoId
+    nameWithType: ScriptObjectBase.CreateHoverFunctionForSoId
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+    name: CreateHoverFunctionForSoId
+    nameWithType: ScriptObjectBase.CreateHoverFunctionForSoId
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects
+  commentId: N:SuperOffice.DCF.Web.UI.ScriptObjects
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.ScriptObjects
+  nameWithType: SuperOffice.DCF.Web.UI.ScriptObjects
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarContainer*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarContainer
+  isExternal: true
+  name: RegisterCalendarContainer
+  nameWithType: CalendarManager.RegisterCalendarContainer
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarContainer
+- uid: System.Web.UI.Page
+  isExternal: true
+  name: Page
+  nameWithType: Page
+  fullName: System.Web.UI.Page
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ClientObject
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ClientObject
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: CalendarContainer.ClientObject
+  nameWithType: CalendarContainer.ClientObject
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ClientObject
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnAppointmentMouseDownEvent*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnAppointmentMouseDownEvent
+  isExternal: true
+  name: OnAppointmentMouseDownEvent
+  nameWithType: CalendarManager.OnAppointmentMouseDownEvent
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnAppointmentMouseDownEvent
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.CalendarAppointment
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: CalendarAppointment
+  nameWithType: CalendarAppointment
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnllDayFreeAppointmentMouseDownEvent*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnllDayFreeAppointmentMouseDownEvent
+  isExternal: true
+  name: OnllDayFreeAppointmentMouseDownEvent
+  nameWithType: CalendarManager.OnllDayFreeAppointmentMouseDownEvent
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnllDayFreeAppointmentMouseDownEvent
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnAppointmentMouseUpEvent*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnAppointmentMouseUpEvent
+  isExternal: true
+  name: OnAppointmentMouseUpEvent
+  nameWithType: CalendarManager.OnAppointmentMouseUpEvent
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnAppointmentMouseUpEvent
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnHighLightAppointmentEvent*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnHighLightAppointmentEvent
+  isExternal: true
+  name: OnHighLightAppointmentEvent
+  nameWithType: CalendarManager.OnHighLightAppointmentEvent
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnHighLightAppointmentEvent
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnAppointmentDoubleClick*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnAppointmentDoubleClick
+  isExternal: true
+  name: OnAppointmentDoubleClick
+  nameWithType: CalendarManager.OnAppointmentDoubleClick
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnAppointmentDoubleClick
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseDownEvent*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseDownEvent
+  isExternal: true
+  name: OnCalendarMouseDownEvent
+  nameWithType: CalendarManager.OnCalendarMouseDownEvent
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseDownEvent
+- uid: SuperOffice.CRM.Web.UI.Controls.Calendar
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.Calendar
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: Calendar
+  nameWithType: Calendar
+  fullName: SuperOffice.CRM.Web.UI.Controls.Calendar
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseUpEvent*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseUpEvent
+  isExternal: true
+  name: OnCalendarMouseUpEvent
+  nameWithType: CalendarManager.OnCalendarMouseUpEvent
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseUpEvent
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarDoubleClickEvent*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarDoubleClickEvent
+  isExternal: true
+  name: OnCalendarDoubleClickEvent
+  nameWithType: CalendarManager.OnCalendarDoubleClickEvent
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarDoubleClickEvent
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseOverEvent*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseOverEvent
+  isExternal: true
+  name: OnCalendarMouseOverEvent
+  nameWithType: CalendarManager.OnCalendarMouseOverEvent
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseOverEvent
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseOutEvent*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseOutEvent
+  isExternal: true
+  name: OnCalendarMouseOutEvent
+  nameWithType: CalendarManager.OnCalendarMouseOutEvent
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseOutEvent
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseEnterEvent*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseEnterEvent
+  isExternal: true
+  name: OnCalendarMouseEnterEvent
+  nameWithType: CalendarManager.OnCalendarMouseEnterEvent
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseEnterEvent
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseLeaveEvent*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseLeaveEvent
+  isExternal: true
+  name: OnCalendarMouseLeaveEvent
+  nameWithType: CalendarManager.OnCalendarMouseLeaveEvent
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnCalendarMouseLeaveEvent
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollIE*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollIE
+  isExternal: true
+  name: OnMouseScrollIE
+  nameWithType: CalendarManager.OnMouseScrollIE
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollIE
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: CalendarContainer
+  nameWithType: CalendarContainer
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollFF*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollFF
+  isExternal: true
+  name: OnMouseScrollFF
+  nameWithType: CalendarManager.OnMouseScrollFF
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollFF
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollGeneric*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollGeneric
+  isExternal: true
+  name: OnMouseScrollGeneric
+  nameWithType: CalendarManager.OnMouseScrollGeneric
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnMouseScrollGeneric
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnScrollUp*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnScrollUp
+  isExternal: true
+  name: OnScrollUp
+  nameWithType: CalendarManager.OnScrollUp
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnScrollUp
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnScrollDown*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnScrollDown
+  isExternal: true
+  name: OnScrollDown
+  nameWithType: CalendarManager.OnScrollDown
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.OnScrollDown
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarDate*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarDate
+  isExternal: true
+  name: RegisterCalendarDate
+  nameWithType: CalendarManager.RegisterCalendarDate
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarDate
+- uid: System.Web.UI.HtmlTextWriter
+  isExternal: true
+  name: HtmlTextWriter
+  nameWithType: HtmlTextWriter
+  fullName: System.Web.UI.HtmlTextWriter
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarAssociate*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarAssociate
+  isExternal: true
+  name: RegisterCalendarAssociate
+  nameWithType: CalendarManager.RegisterCalendarAssociate
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarAssociate
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarCanCreateAppointment*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarCanCreateAppointment
+  isExternal: true
+  name: RegisterCalendarCanCreateAppointment
+  nameWithType: CalendarManager.RegisterCalendarCanCreateAppointment
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarCanCreateAppointment
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarOffsetTop*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarOffsetTop
+  isExternal: true
+  name: RegisterCalendarOffsetTop
+  nameWithType: CalendarManager.RegisterCalendarOffsetTop
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarOffsetTop
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentId*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentId
+  isExternal: true
+  name: RegisterAppointmentId
+  nameWithType: CalendarManager.RegisterAppointmentId
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentId
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentIsRecurrence*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentIsRecurrence
+  isExternal: true
+  name: RegisterAppointmentIsRecurrence
+  nameWithType: CalendarManager.RegisterAppointmentIsRecurrence
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentIsRecurrence
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentIsBooking*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentIsBooking
+  isExternal: true
+  name: RegisterAppointmentIsBooking
+  nameWithType: CalendarManager.RegisterAppointmentIsBooking
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentIsBooking
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentCanBeSelected*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentCanBeSelected
+  isExternal: true
+  name: RegisterAppointmentCanBeSelected
+  nameWithType: CalendarManager.RegisterAppointmentCanBeSelected
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentCanBeSelected
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentCanBeUpdated*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentCanBeUpdated
+  isExternal: true
+  name: RegisterAppointmentCanBeUpdated
+  nameWithType: CalendarManager.RegisterAppointmentCanBeUpdated
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentCanBeUpdated
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentCanBeRead*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentCanBeRead
+  isExternal: true
+  name: RegisterAppointmentCanBeRead
+  nameWithType: CalendarManager.RegisterAppointmentCanBeRead
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentCanBeRead
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentDates*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentDates
+  isExternal: true
+  name: RegisterAppointmentDates
+  nameWithType: CalendarManager.RegisterAppointmentDates
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentDates
+- uid: SuperOffice.CRM.Services.Appointment
+  isExternal: true
+  name: Appointment
+  nameWithType: Appointment
+  fullName: SuperOffice.CRM.Services.Appointment
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentResize*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentResize
+  isExternal: true
+  name: RegisterAppointmentResize
+  nameWithType: CalendarManager.RegisterAppointmentResize
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterAppointmentResize
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarTimeScale*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarTimeScale
+  isExternal: true
+  name: RegisterCalendarTimeScale
+  nameWithType: CalendarManager.RegisterCalendarTimeScale
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.RegisterCalendarTimeScale
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarTimeScaleType
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.CalendarTimeScaleType
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: CalendarTimeScaleType
+  nameWithType: CalendarTimeScaleType
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarTimeScaleType
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.#ctor
+  isExternal: true
+  name: CalendarManager
+  nameWithType: CalendarManager.CalendarManager
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.CalendarManager

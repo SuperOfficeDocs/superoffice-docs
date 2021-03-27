@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TicketReadStatus
+  commentId: T:SuperOffice.WebApi.Data.TicketReadStatus
+  id: TicketReadStatus
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TicketReadStatus.Green
+  - SuperOffice.WebApi.Data.TicketReadStatus.Red
+  - SuperOffice.WebApi.Data.TicketReadStatus.Unknown
+  - SuperOffice.WebApi.Data.TicketReadStatus.value__
+  - SuperOffice.WebApi.Data.TicketReadStatus.Yellow
+  langs:
+  - csharp
+  - vb
+  name: TicketReadStatus
+  nameWithType: TicketReadStatus
+  fullName: SuperOffice.WebApi.Data.TicketReadStatus
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhether the owner has read the ticket or not (red, yellow, green)\nThis Enum is used by:  ticket.read_status\n"
+  syntax:
+    content: 'public sealed class TicketReadStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class TicketReadStatus
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.TicketReadStatus.value__
+  commentId: F:SuperOffice.WebApi.Data.TicketReadStatus.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.TicketReadStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TicketReadStatus.value__
+  fullName: SuperOffice.WebApi.Data.TicketReadStatus.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketReadStatus.Unknown
+  commentId: F:SuperOffice.WebApi.Data.TicketReadStatus.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.TicketReadStatus
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: TicketReadStatus.Unknown
+  fullName: SuperOffice.WebApi.Data.TicketReadStatus.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Unknown status\n"
+  syntax:
+    content: public const TicketReadStatus Unknown
+    return:
+      type: SuperOffice.WebApi.Data.TicketReadStatus
+    content.vb: Public Const Unknown As TicketReadStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketReadStatus.Green
+  commentId: F:SuperOffice.WebApi.Data.TicketReadStatus.Green
+  id: Green
+  parent: SuperOffice.WebApi.Data.TicketReadStatus
+  langs:
+  - csharp
+  - vb
+  name: Green
+  nameWithType: TicketReadStatus.Green
+  fullName: SuperOffice.WebApi.Data.TicketReadStatus.Green
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: The ticket has been read by the owner\n"
+  syntax:
+    content: public const TicketReadStatus Green
+    return:
+      type: SuperOffice.WebApi.Data.TicketReadStatus
+    content.vb: Public Const Green As TicketReadStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketReadStatus.Yellow
+  commentId: F:SuperOffice.WebApi.Data.TicketReadStatus.Yellow
+  id: Yellow
+  parent: SuperOffice.WebApi.Data.TicketReadStatus
+  langs:
+  - csharp
+  - vb
+  name: Yellow
+  nameWithType: TicketReadStatus.Yellow
+  fullName: SuperOffice.WebApi.Data.TicketReadStatus.Yellow
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: The ticket has received new information since last read\n"
+  syntax:
+    content: public const TicketReadStatus Yellow
+    return:
+      type: SuperOffice.WebApi.Data.TicketReadStatus
+    content.vb: Public Const Yellow As TicketReadStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketReadStatus.Red
+  commentId: F:SuperOffice.WebApi.Data.TicketReadStatus.Red
+  id: Red
+  parent: SuperOffice.WebApi.Data.TicketReadStatus
+  langs:
+  - csharp
+  - vb
+  name: Red
+  nameWithType: TicketReadStatus.Red
+  fullName: SuperOffice.WebApi.Data.TicketReadStatus.Red
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: The ticket is unread by the owner\n"
+  syntax:
+    content: public const TicketReadStatus Red
+    return:
+      type: SuperOffice.WebApi.Data.TicketReadStatus
+    content.vb: Public Const Red As TicketReadStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.TicketReadStatus
+  commentId: T:SuperOffice.WebApi.Data.TicketReadStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TicketReadStatus
+  nameWithType: TicketReadStatus
+  fullName: SuperOffice.WebApi.Data.TicketReadStatus

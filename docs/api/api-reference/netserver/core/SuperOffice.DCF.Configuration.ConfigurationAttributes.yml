@@ -1,0 +1,887 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes
+  commentId: T:SuperOffice.DCF.Configuration.ConfigurationAttributes
+  id: ConfigurationAttributes
+  parent: SuperOffice.DCF.Configuration
+  children:
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.Browsermode
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.Caption
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.Conditional
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ConditionalBinding
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ConditionalBindingCurrent
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ConditionalBindingData
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ConditionalValue
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.Encoding
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.FragmentMark
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.Id
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.LoadedBy
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.Normal
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.Reference
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ReferenceWithIdUpdate
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.Soprotocol
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.Tooltip
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.Type
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.Url
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationAttributes
+  nameWithType: ConfigurationAttributes
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public static class ConfigurationAttributes
+    content.vb: Public Module ConfigurationAttributes
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.FragmentMark
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.FragmentMark
+  id: FragmentMark
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes
+  langs:
+  - csharp
+  - vb
+  name: FragmentMark
+  nameWithType: ConfigurationAttributes.FragmentMark
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.FragmentMark
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\nThe attribute used to mark that an element was originally a fragment. Only present after successful resolution of a reference, and only if the LeaveFragmentMarks property is true.\n"
+  syntax:
+    content: public const string FragmentMark = "wasFragment"
+    return:
+      type: System.String
+    content.vb: Public Const FragmentMark As String = "wasFragment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.LoadedBy
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.LoadedBy
+  id: LoadedBy
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes
+  langs:
+  - csharp
+  - vb
+  name: LoadedBy
+  nameWithType: ConfigurationAttributes.LoadedBy
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.LoadedBy
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\nThe attribute used to mark that an element was originally loaded by a certain provider. The content string is the same as the Name property of the provider that loaded the fragment.\n"
+  syntax:
+    content: public const string LoadedBy = "loadedBy"
+    return:
+      type: System.String
+    content.vb: Public Const LoadedBy As String = "loadedBy"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Reference
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.Reference
+  id: Reference
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes
+  langs:
+  - csharp
+  - vb
+  name: Reference
+  nameWithType: ConfigurationAttributes.Reference
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Reference
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\nThe attribute used to mark that an element should be resolved. Not present after a successful resolution.\n"
+  syntax:
+    content: public const string Reference = "reference"
+    return:
+      type: System.String
+    content.vb: Public Const Reference As String = "reference"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ReferenceWithIdUpdate
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ReferenceWithIdUpdate
+  id: ReferenceWithIdUpdate
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes
+  langs:
+  - csharp
+  - vb
+  name: ReferenceWithIdUpdate
+  nameWithType: ConfigurationAttributes.ReferenceWithIdUpdate
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ReferenceWithIdUpdate
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\nThe attribute used to mark that an element should be resolved, AND that unique ID&apos;s should be generated on all inner elements.\nNot present after a successful resolution.\n"
+  syntax:
+    content: public const string ReferenceWithIdUpdate = "referenceWithIdUpdate"
+    return:
+      type: System.String
+    content.vb: Public Const ReferenceWithIdUpdate As String = "referenceWithIdUpdate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Id
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.Id
+  id: Id
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: ConfigurationAttributes.Id
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Id
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\nThe attribute used to mark the identity of an element.\n"
+  syntax:
+    content: public const string Id = "id"
+    return:
+      type: System.String
+    content.vb: Public Const Id As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Conditional
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.Conditional
+  id: Conditional
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes
+  langs:
+  - csharp
+  - vb
+  name: Conditional
+  nameWithType: ConfigurationAttributes.Conditional
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Conditional
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\nThe attribute used to mark a conditional GUI element\n"
+  syntax:
+    content: public const string Conditional = "conditional"
+    return:
+      type: System.String
+    content.vb: Public Const Conditional As String = "conditional"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ConditionalBinding
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ConditionalBinding
+  id: ConditionalBinding
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes
+  langs:
+  - csharp
+  - vb
+  name: ConditionalBinding
+  nameWithType: ConfigurationAttributes.ConditionalBinding
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ConditionalBinding
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\nThe attribute used to mark the data binding type of a conditional GUI element\n"
+  syntax:
+    content: public const string ConditionalBinding = "conditionalbinding"
+    return:
+      type: System.String
+    content.vb: Public Const ConditionalBinding As String = "conditionalbinding"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ConditionalBindingCurrent
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ConditionalBindingCurrent
+  id: ConditionalBindingCurrent
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes
+  langs:
+  - csharp
+  - vb
+  name: ConditionalBindingCurrent
+  nameWithType: ConfigurationAttributes.ConditionalBindingCurrent
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ConditionalBindingCurrent
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\nThe attribute value used to mark a conditional GUI element as bound to CURRENT values\n"
+  syntax:
+    content: public const string ConditionalBindingCurrent = "current"
+    return:
+      type: System.String
+    content.vb: Public Const ConditionalBindingCurrent As String = "current"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ConditionalBindingData
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ConditionalBindingData
+  id: ConditionalBindingData
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes
+  langs:
+  - csharp
+  - vb
+  name: ConditionalBindingData
+  nameWithType: ConfigurationAttributes.ConditionalBindingData
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ConditionalBindingData
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\nThe attribute value used to mark a conditional GUI element as bound to DATA values\n"
+  syntax:
+    content: public const string ConditionalBindingData = "data"
+    return:
+      type: System.String
+    content.vb: Public Const ConditionalBindingData As String = "data"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Soprotocol
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.Soprotocol
+  id: Soprotocol
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes
+  langs:
+  - csharp
+  - vb
+  name: Soprotocol
+  nameWithType: ConfigurationAttributes.Soprotocol
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Soprotocol
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Soprotocol = "soprotocol"
+    return:
+      type: System.String
+    content.vb: Public Const Soprotocol As String = "soprotocol"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Caption
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.Caption
+  id: Caption
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes
+  langs:
+  - csharp
+  - vb
+  name: Caption
+  nameWithType: ConfigurationAttributes.Caption
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Caption
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Caption = "caption"
+    return:
+      type: System.String
+    content.vb: Public Const Caption As String = "caption"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Tooltip
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.Tooltip
+  id: Tooltip
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: ConfigurationAttributes.Tooltip
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Tooltip
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Tooltip = "tooltip"
+    return:
+      type: System.String
+    content.vb: Public Const Tooltip As String = "tooltip"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Encoding
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.Encoding
+  id: Encoding
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes
+  langs:
+  - csharp
+  - vb
+  name: Encoding
+  nameWithType: ConfigurationAttributes.Encoding
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Encoding
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Encoding = "encoding"
+    return:
+      type: System.String
+    content.vb: Public Const Encoding As String = "encoding"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Browsermode
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.Browsermode
+  id: Browsermode
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes
+  langs:
+  - csharp
+  - vb
+  name: Browsermode
+  nameWithType: ConfigurationAttributes.Browsermode
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Browsermode
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Browsermode = "browsermode"
+    return:
+      type: System.String
+    content.vb: Public Const Browsermode As String = "browsermode"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Url
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.Url
+  id: Url
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: ConfigurationAttributes.Url
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Url
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Url = "url"
+    return:
+      type: System.String
+    content.vb: Public Const Url As String = "url"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Normal
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.Normal
+  id: Normal
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: ConfigurationAttributes.Normal
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Normal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Normal = "normal"
+    return:
+      type: System.String
+    content.vb: Public Const Normal As String = "normal"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.Type
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.Type
+  id: Type
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: ConfigurationAttributes.Type
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.Type
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Type = "type"
+    return:
+      type: System.String
+    content.vb: Public Const Type As String = "type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ConditionalValue
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ConditionalValue
+  id: ConditionalValue
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes
+  langs:
+  - csharp
+  - vb
+  name: ConditionalValue
+  nameWithType: ConfigurationAttributes.ConditionalValue
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ConditionalValue
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\nThe attribute used to declare the required value of a conditional GUI element\n"
+  syntax:
+    content: public const string ConditionalValue = "conditionalvalue"
+    return:
+      type: System.String
+    content.vb: Public Const ConditionalValue As String = "conditionalvalue"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.DCF.Configuration
+  commentId: N:SuperOffice.DCF.Configuration
+  isExternal: true
+  name: SuperOffice.DCF.Configuration
+  nameWithType: SuperOffice.DCF.Configuration
+  fullName: SuperOffice.DCF.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

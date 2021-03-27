@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest
+  commentId: T:SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest
+  id: List_SetRankOnSaleDocumentRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest.#ctor
+  - SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest.ItemsIds
+  - SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest.SaleTypeStageLinkId
+  langs:
+  - csharp
+  - vb
+  name: List_SetRankOnSaleDocumentRequest
+  nameWithType: List_SetRankOnSaleDocumentRequest
+  fullName: SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_SetRankOnSaleDocumentRequest : Object'
+    content.vb: >-
+      Public Class List_SetRankOnSaleDocumentRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest
+  langs:
+  - csharp
+  - vb
+  name: List_SetRankOnSaleDocumentRequest()
+  nameWithType: List_SetRankOnSaleDocumentRequest.List_SetRankOnSaleDocumentRequest()
+  fullName: SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest.List_SetRankOnSaleDocumentRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_SetRankOnSaleDocumentRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest.SaleTypeStageLinkId
+  commentId: P:SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest.SaleTypeStageLinkId
+  id: SaleTypeStageLinkId
+  parent: SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeStageLinkId
+  nameWithType: List_SetRankOnSaleDocumentRequest.SaleTypeStageLinkId
+  fullName: SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest.SaleTypeStageLinkId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SaleTypeStageLinkId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SaleTypeStageLinkId As Integer
+  overload: SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest.SaleTypeStageLinkId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest.ItemsIds
+  commentId: P:SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest.ItemsIds
+  id: ItemsIds
+  parent: SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest
+  langs:
+  - csharp
+  - vb
+  name: ItemsIds
+  nameWithType: List_SetRankOnSaleDocumentRequest.ItemsIds
+  fullName: SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest.ItemsIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] ItemsIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property ItemsIds As Integer()
+  overload: SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest.ItemsIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest.#ctor
+  isExternal: true
+  name: List_SetRankOnSaleDocumentRequest
+  nameWithType: List_SetRankOnSaleDocumentRequest.List_SetRankOnSaleDocumentRequest
+  fullName: SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest.List_SetRankOnSaleDocumentRequest
+- uid: SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest.SaleTypeStageLinkId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest.SaleTypeStageLinkId
+  isExternal: true
+  name: SaleTypeStageLinkId
+  nameWithType: List_SetRankOnSaleDocumentRequest.SaleTypeStageLinkId
+  fullName: SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest.SaleTypeStageLinkId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest.ItemsIds*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest.ItemsIds
+  isExternal: true
+  name: ItemsIds
+  nameWithType: List_SetRankOnSaleDocumentRequest.ItemsIds
+  fullName: SuperOffice.WebApi.Data.List_SetRankOnSaleDocumentRequest.ItemsIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

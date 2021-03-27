@@ -1,0 +1,1088 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ContactRelationEntity
+  commentId: T:SuperOffice.CRM.Services.ContactRelationEntity
+  id: ContactRelationEntity
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ContactRelationEntity.#ctor
+  - SuperOffice.CRM.Services.ContactRelationEntity.ActiveText
+  - SuperOffice.CRM.Services.ContactRelationEntity.Comment
+  - SuperOffice.CRM.Services.ContactRelationEntity.CreatedBy
+  - SuperOffice.CRM.Services.ContactRelationEntity.CreatedDate
+  - SuperOffice.CRM.Services.ContactRelationEntity.DestinationContactId
+  - SuperOffice.CRM.Services.ContactRelationEntity.DestinationContactName
+  - SuperOffice.CRM.Services.ContactRelationEntity.DestinationPersonId
+  - SuperOffice.CRM.Services.ContactRelationEntity.DestinationPersonName
+  - SuperOffice.CRM.Services.ContactRelationEntity.PassiveText
+  - SuperOffice.CRM.Services.ContactRelationEntity.RelationDefinitionId
+  - SuperOffice.CRM.Services.ContactRelationEntity.RelationId
+  - SuperOffice.CRM.Services.ContactRelationEntity.Reversed
+  - SuperOffice.CRM.Services.ContactRelationEntity.SourceContactId
+  - SuperOffice.CRM.Services.ContactRelationEntity.SourceContactName
+  - SuperOffice.CRM.Services.ContactRelationEntity.SourcePersonId
+  - SuperOffice.CRM.Services.ContactRelationEntity.SourcePersonName
+  - SuperOffice.CRM.Services.ContactRelationEntity.ToString
+  - SuperOffice.CRM.Services.ContactRelationEntity.ToString(System.String)
+  - SuperOffice.CRM.Services.ContactRelationEntity.UpdatedBy
+  - SuperOffice.CRM.Services.ContactRelationEntity.UpdatedDate
+  langs:
+  - csharp
+  - vb
+  name: ContactRelationEntity
+  nameWithType: ContactRelationEntity
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRelationship between a (contact/person) and another (contact/person), as described by the RelationDefinition.\n<p></p>\nCarrier object for ContactRelationEntity.\nServices for the ContactRelationEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IRelationAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet ContactRelationEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new RelationAgent();\n    var contactRelationEntity = agent.GetContactRelationEntity( 123 );\n }</code></pre>\n\nFind all ContactRelationEntity, get related items using archive agent.\n<pre><code>var archive = new ArchiveAgent();\nvar rows = archive.GetArchiveListByColumns2(&quot;Relation&quot;, &quot;...&quot;, null, &quot;getAllRows eq 1&quot;, null, 0, 100 );</code></pre>\n"
+  syntax:
+    content: 'public class ContactRelationEntity : Carrier'
+    content.vb: >-
+      Public Class ContactRelationEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.RelationAgent
+    commentId: T:SuperOffice.CRM.Services.RelationAgent
+  - linkId: SuperOffice.CRM.Services.IRelationAgent
+    commentId: T:SuperOffice.CRM.Services.IRelationAgent
+  - linkId: SuperOffice.CRM.Services.ArchiveAgent
+    commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  - linkId: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.#ctor
+  commentId: M:SuperOffice.CRM.Services.ContactRelationEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: ContactRelationEntity()
+  nameWithType: ContactRelationEntity.ContactRelationEntity()
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.ContactRelationEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ContactRelationEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ContactRelationEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.ToString
+  commentId: M:SuperOffice.CRM.Services.ContactRelationEntity.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ContactRelationEntity.ToString()
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.ContactRelationEntity.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ContactRelationEntity.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ContactRelationEntity.ToString(String)
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ContactRelationEntity.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.SourceContactId
+  commentId: P:SuperOffice.CRM.Services.ContactRelationEntity.SourceContactId
+  id: SourceContactId
+  parent: SuperOffice.CRM.Services.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: SourceContactId
+  nameWithType: ContactRelationEntity.SourceContactId
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.SourceContactId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nId of the source contact. The value is mandatory. \n"
+  syntax:
+    content: public virtual int SourceContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SourceContactId As Integer
+  overload: SuperOffice.CRM.Services.ContactRelationEntity.SourceContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.SourcePersonId
+  commentId: P:SuperOffice.CRM.Services.ContactRelationEntity.SourcePersonId
+  id: SourcePersonId
+  parent: SuperOffice.CRM.Services.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: SourcePersonId
+  nameWithType: ContactRelationEntity.SourcePersonId
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.SourcePersonId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nId of the source person. The value is not mandatory. The person must belong to the source contact. \n"
+  syntax:
+    content: public virtual int SourcePersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SourcePersonId As Integer
+  overload: SuperOffice.CRM.Services.ContactRelationEntity.SourcePersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.DestinationContactId
+  commentId: P:SuperOffice.CRM.Services.ContactRelationEntity.DestinationContactId
+  id: DestinationContactId
+  parent: SuperOffice.CRM.Services.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: DestinationContactId
+  nameWithType: ContactRelationEntity.DestinationContactId
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.DestinationContactId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nId of the destination contact. The value is mandatory. \n"
+  syntax:
+    content: public virtual int DestinationContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DestinationContactId As Integer
+  overload: SuperOffice.CRM.Services.ContactRelationEntity.DestinationContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.DestinationPersonId
+  commentId: P:SuperOffice.CRM.Services.ContactRelationEntity.DestinationPersonId
+  id: DestinationPersonId
+  parent: SuperOffice.CRM.Services.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: DestinationPersonId
+  nameWithType: ContactRelationEntity.DestinationPersonId
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.DestinationPersonId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nId of the destination person. The value is not mandatory. The person must belong to the destination contact. \n"
+  syntax:
+    content: public virtual int DestinationPersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DestinationPersonId As Integer
+  overload: SuperOffice.CRM.Services.ContactRelationEntity.DestinationPersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.RelationId
+  commentId: P:SuperOffice.CRM.Services.ContactRelationEntity.RelationId
+  id: RelationId
+  parent: SuperOffice.CRM.Services.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: RelationId
+  nameWithType: ContactRelationEntity.RelationId
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.RelationId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int RelationId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RelationId As Integer
+  overload: SuperOffice.CRM.Services.ContactRelationEntity.RelationId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.Comment
+  commentId: P:SuperOffice.CRM.Services.ContactRelationEntity.Comment
+  id: Comment
+  parent: SuperOffice.CRM.Services.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: ContactRelationEntity.Comment
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.Comment
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nComment for relation \n"
+  syntax:
+    content: public virtual string Comment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Comment As String
+  overload: SuperOffice.CRM.Services.ContactRelationEntity.Comment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.RelationDefinitionId
+  commentId: P:SuperOffice.CRM.Services.ContactRelationEntity.RelationDefinitionId
+  id: RelationDefinitionId
+  parent: SuperOffice.CRM.Services.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: RelationDefinitionId
+  nameWithType: ContactRelationEntity.RelationDefinitionId
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.RelationDefinitionId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReference to definition \n"
+  syntax:
+    content: public virtual int RelationDefinitionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RelationDefinitionId As Integer
+  overload: SuperOffice.CRM.Services.ContactRelationEntity.RelationDefinitionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.Reversed
+  commentId: P:SuperOffice.CRM.Services.ContactRelationEntity.Reversed
+  id: Reversed
+  parent: SuperOffice.CRM.Services.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: Reversed
+  nameWithType: ContactRelationEntity.Reversed
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.Reversed
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIs direction reversed relative to definition \n"
+  syntax:
+    content: public virtual short Reversed { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Reversed As Short
+  overload: SuperOffice.CRM.Services.ContactRelationEntity.Reversed*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.UpdatedDate
+  commentId: P:SuperOffice.CRM.Services.ContactRelationEntity.UpdatedDate
+  id: UpdatedDate
+  parent: SuperOffice.CRM.Services.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedDate
+  nameWithType: ContactRelationEntity.UpdatedDate
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.UpdatedDate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLast updated when  in UTC.\n"
+  syntax:
+    content: public virtual DateTime UpdatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property UpdatedDate As Date
+  overload: SuperOffice.CRM.Services.ContactRelationEntity.UpdatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.CreatedDate
+  commentId: P:SuperOffice.CRM.Services.ContactRelationEntity.CreatedDate
+  id: CreatedDate
+  parent: SuperOffice.CRM.Services.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: CreatedDate
+  nameWithType: ContactRelationEntity.CreatedDate
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.CreatedDate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRegistered when  in UTC.\n"
+  syntax:
+    content: public virtual DateTime CreatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property CreatedDate As Date
+  overload: SuperOffice.CRM.Services.ContactRelationEntity.CreatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.CreatedBy
+  commentId: P:SuperOffice.CRM.Services.ContactRelationEntity.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.CRM.Services.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: ContactRelationEntity.CreatedBy
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.CreatedBy
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual Associate CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Associate
+    content.vb: Public Overridable Property CreatedBy As Associate
+  overload: SuperOffice.CRM.Services.ContactRelationEntity.CreatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.UpdatedBy
+  commentId: P:SuperOffice.CRM.Services.ContactRelationEntity.UpdatedBy
+  id: UpdatedBy
+  parent: SuperOffice.CRM.Services.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedBy
+  nameWithType: ContactRelationEntity.UpdatedBy
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.UpdatedBy
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual Associate UpdatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Associate
+    content.vb: Public Overridable Property UpdatedBy As Associate
+  overload: SuperOffice.CRM.Services.ContactRelationEntity.UpdatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.SourceContactName
+  commentId: P:SuperOffice.CRM.Services.ContactRelationEntity.SourceContactName
+  id: SourceContactName
+  parent: SuperOffice.CRM.Services.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: SourceContactName
+  nameWithType: ContactRelationEntity.SourceContactName
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.SourceContactName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of the source contact. \n"
+  syntax:
+    content: public virtual string SourceContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SourceContactName As String
+  overload: SuperOffice.CRM.Services.ContactRelationEntity.SourceContactName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.SourcePersonName
+  commentId: P:SuperOffice.CRM.Services.ContactRelationEntity.SourcePersonName
+  id: SourcePersonName
+  parent: SuperOffice.CRM.Services.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: SourcePersonName
+  nameWithType: ContactRelationEntity.SourcePersonName
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.SourcePersonName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of the source person. \n"
+  syntax:
+    content: public virtual string SourcePersonName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SourcePersonName As String
+  overload: SuperOffice.CRM.Services.ContactRelationEntity.SourcePersonName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.DestinationContactName
+  commentId: P:SuperOffice.CRM.Services.ContactRelationEntity.DestinationContactName
+  id: DestinationContactName
+  parent: SuperOffice.CRM.Services.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: DestinationContactName
+  nameWithType: ContactRelationEntity.DestinationContactName
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.DestinationContactName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of the destination contact. \n"
+  syntax:
+    content: public virtual string DestinationContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DestinationContactName As String
+  overload: SuperOffice.CRM.Services.ContactRelationEntity.DestinationContactName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.DestinationPersonName
+  commentId: P:SuperOffice.CRM.Services.ContactRelationEntity.DestinationPersonName
+  id: DestinationPersonName
+  parent: SuperOffice.CRM.Services.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: DestinationPersonName
+  nameWithType: ContactRelationEntity.DestinationPersonName
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.DestinationPersonName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of the destination person. \n"
+  syntax:
+    content: public virtual string DestinationPersonName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DestinationPersonName As String
+  overload: SuperOffice.CRM.Services.ContactRelationEntity.DestinationPersonName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.ActiveText
+  commentId: P:SuperOffice.CRM.Services.ContactRelationEntity.ActiveText
+  id: ActiveText
+  parent: SuperOffice.CRM.Services.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: ActiveText
+  nameWithType: ContactRelationEntity.ActiveText
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.ActiveText
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nActive text for the relation. \n"
+  syntax:
+    content: public virtual string ActiveText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ActiveText As String
+  overload: SuperOffice.CRM.Services.ContactRelationEntity.ActiveText*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.PassiveText
+  commentId: P:SuperOffice.CRM.Services.ContactRelationEntity.PassiveText
+  id: PassiveText
+  parent: SuperOffice.CRM.Services.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: PassiveText
+  nameWithType: ContactRelationEntity.PassiveText
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.PassiveText
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPassive text for the relation. \n"
+  syntax:
+    content: public virtual string PassiveText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PassiveText As String
+  overload: SuperOffice.CRM.Services.ContactRelationEntity.PassiveText*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.RelationAgent
+  commentId: T:SuperOffice.CRM.Services.RelationAgent
+  isExternal: true
+  name: RelationAgent
+  nameWithType: RelationAgent
+  fullName: SuperOffice.CRM.Services.RelationAgent
+- uid: SuperOffice.CRM.Services.IRelationAgent
+  commentId: T:SuperOffice.CRM.Services.IRelationAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IRelationAgent
+  nameWithType: IRelationAgent
+  fullName: SuperOffice.CRM.Services.IRelationAgent
+- uid: SuperOffice.CRM.Services.ArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.CRM.Services.ArchiveAgent
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  isExternal: true
+  name: GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
+  nameWithType: IArchiveAgent.GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    name: GetArchiveListByColumns2
+    nameWithType: IArchiveAgent.GetArchiveListByColumns2
+    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    name: GetArchiveListByColumns2
+    nameWithType: IArchiveAgent.GetArchiveListByColumns2
+    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.IArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.IArchiveAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IArchiveAgent
+  nameWithType: IArchiveAgent
+  fullName: SuperOffice.CRM.Services.IArchiveAgent
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ContactRelationEntity.#ctor
+  isExternal: true
+  name: ContactRelationEntity
+  nameWithType: ContactRelationEntity.ContactRelationEntity
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.ContactRelationEntity
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ContactRelationEntity.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ContactRelationEntity.ToString
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.SourceContactId*
+  commentId: Overload:SuperOffice.CRM.Services.ContactRelationEntity.SourceContactId
+  isExternal: true
+  name: SourceContactId
+  nameWithType: ContactRelationEntity.SourceContactId
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.SourceContactId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.SourcePersonId*
+  commentId: Overload:SuperOffice.CRM.Services.ContactRelationEntity.SourcePersonId
+  isExternal: true
+  name: SourcePersonId
+  nameWithType: ContactRelationEntity.SourcePersonId
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.SourcePersonId
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.DestinationContactId*
+  commentId: Overload:SuperOffice.CRM.Services.ContactRelationEntity.DestinationContactId
+  isExternal: true
+  name: DestinationContactId
+  nameWithType: ContactRelationEntity.DestinationContactId
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.DestinationContactId
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.DestinationPersonId*
+  commentId: Overload:SuperOffice.CRM.Services.ContactRelationEntity.DestinationPersonId
+  isExternal: true
+  name: DestinationPersonId
+  nameWithType: ContactRelationEntity.DestinationPersonId
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.DestinationPersonId
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.RelationId*
+  commentId: Overload:SuperOffice.CRM.Services.ContactRelationEntity.RelationId
+  isExternal: true
+  name: RelationId
+  nameWithType: ContactRelationEntity.RelationId
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.RelationId
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.Comment*
+  commentId: Overload:SuperOffice.CRM.Services.ContactRelationEntity.Comment
+  isExternal: true
+  name: Comment
+  nameWithType: ContactRelationEntity.Comment
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.Comment
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.RelationDefinitionId*
+  commentId: Overload:SuperOffice.CRM.Services.ContactRelationEntity.RelationDefinitionId
+  isExternal: true
+  name: RelationDefinitionId
+  nameWithType: ContactRelationEntity.RelationDefinitionId
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.RelationDefinitionId
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.Reversed*
+  commentId: Overload:SuperOffice.CRM.Services.ContactRelationEntity.Reversed
+  isExternal: true
+  name: Reversed
+  nameWithType: ContactRelationEntity.Reversed
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.Reversed
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.UpdatedDate*
+  commentId: Overload:SuperOffice.CRM.Services.ContactRelationEntity.UpdatedDate
+  isExternal: true
+  name: UpdatedDate
+  nameWithType: ContactRelationEntity.UpdatedDate
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.UpdatedDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.CreatedDate*
+  commentId: Overload:SuperOffice.CRM.Services.ContactRelationEntity.CreatedDate
+  isExternal: true
+  name: CreatedDate
+  nameWithType: ContactRelationEntity.CreatedDate
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.CreatedDate
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.CreatedBy*
+  commentId: Overload:SuperOffice.CRM.Services.ContactRelationEntity.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: ContactRelationEntity.CreatedBy
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.CreatedBy
+- uid: SuperOffice.CRM.Services.Associate
+  commentId: T:SuperOffice.CRM.Services.Associate
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.CRM.Services.Associate
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.UpdatedBy*
+  commentId: Overload:SuperOffice.CRM.Services.ContactRelationEntity.UpdatedBy
+  isExternal: true
+  name: UpdatedBy
+  nameWithType: ContactRelationEntity.UpdatedBy
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.UpdatedBy
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.SourceContactName*
+  commentId: Overload:SuperOffice.CRM.Services.ContactRelationEntity.SourceContactName
+  isExternal: true
+  name: SourceContactName
+  nameWithType: ContactRelationEntity.SourceContactName
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.SourceContactName
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.SourcePersonName*
+  commentId: Overload:SuperOffice.CRM.Services.ContactRelationEntity.SourcePersonName
+  isExternal: true
+  name: SourcePersonName
+  nameWithType: ContactRelationEntity.SourcePersonName
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.SourcePersonName
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.DestinationContactName*
+  commentId: Overload:SuperOffice.CRM.Services.ContactRelationEntity.DestinationContactName
+  isExternal: true
+  name: DestinationContactName
+  nameWithType: ContactRelationEntity.DestinationContactName
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.DestinationContactName
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.DestinationPersonName*
+  commentId: Overload:SuperOffice.CRM.Services.ContactRelationEntity.DestinationPersonName
+  isExternal: true
+  name: DestinationPersonName
+  nameWithType: ContactRelationEntity.DestinationPersonName
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.DestinationPersonName
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.ActiveText*
+  commentId: Overload:SuperOffice.CRM.Services.ContactRelationEntity.ActiveText
+  isExternal: true
+  name: ActiveText
+  nameWithType: ContactRelationEntity.ActiveText
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.ActiveText
+- uid: SuperOffice.CRM.Services.ContactRelationEntity.PassiveText*
+  commentId: Overload:SuperOffice.CRM.Services.ContactRelationEntity.PassiveText
+  isExternal: true
+  name: PassiveText
+  nameWithType: ContactRelationEntity.PassiveText
+  fullName: SuperOffice.CRM.Services.ContactRelationEntity.PassiveText

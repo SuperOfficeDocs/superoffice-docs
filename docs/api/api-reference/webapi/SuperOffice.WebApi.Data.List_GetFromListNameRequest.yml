@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetFromListNameRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetFromListNameRequest
+  id: List_GetFromListNameRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetFromListNameRequest.#ctor
+  - SuperOffice.WebApi.Data.List_GetFromListNameRequest.Id
+  - SuperOffice.WebApi.Data.List_GetFromListNameRequest.UdListDefinitionName
+  langs:
+  - csharp
+  - vb
+  name: List_GetFromListNameRequest
+  nameWithType: List_GetFromListNameRequest
+  fullName: SuperOffice.WebApi.Data.List_GetFromListNameRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetFromListNameRequest : Object'
+    content.vb: >-
+      Public Class List_GetFromListNameRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetFromListNameRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetFromListNameRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetFromListNameRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetFromListNameRequest()
+  nameWithType: List_GetFromListNameRequest.List_GetFromListNameRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetFromListNameRequest.List_GetFromListNameRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetFromListNameRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetFromListNameRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetFromListNameRequest.Id
+  commentId: P:SuperOffice.WebApi.Data.List_GetFromListNameRequest.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.List_GetFromListNameRequest
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: List_GetFromListNameRequest.Id
+  fullName: SuperOffice.WebApi.Data.List_GetFromListNameRequest.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: SuperOffice.WebApi.Data.List_GetFromListNameRequest.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetFromListNameRequest.UdListDefinitionName
+  commentId: P:SuperOffice.WebApi.Data.List_GetFromListNameRequest.UdListDefinitionName
+  id: UdListDefinitionName
+  parent: SuperOffice.WebApi.Data.List_GetFromListNameRequest
+  langs:
+  - csharp
+  - vb
+  name: UdListDefinitionName
+  nameWithType: List_GetFromListNameRequest.UdListDefinitionName
+  fullName: SuperOffice.WebApi.Data.List_GetFromListNameRequest.UdListDefinitionName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string UdListDefinitionName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UdListDefinitionName As String
+  overload: SuperOffice.WebApi.Data.List_GetFromListNameRequest.UdListDefinitionName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetFromListNameRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetFromListNameRequest.#ctor
+  isExternal: true
+  name: List_GetFromListNameRequest
+  nameWithType: List_GetFromListNameRequest.List_GetFromListNameRequest
+  fullName: SuperOffice.WebApi.Data.List_GetFromListNameRequest.List_GetFromListNameRequest
+- uid: SuperOffice.WebApi.Data.List_GetFromListNameRequest.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetFromListNameRequest.Id
+  isExternal: true
+  name: Id
+  nameWithType: List_GetFromListNameRequest.Id
+  fullName: SuperOffice.WebApi.Data.List_GetFromListNameRequest.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.List_GetFromListNameRequest.UdListDefinitionName*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetFromListNameRequest.UdListDefinitionName
+  isExternal: true
+  name: UdListDefinitionName
+  nameWithType: List_GetFromListNameRequest.UdListDefinitionName
+  fullName: SuperOffice.WebApi.Data.List_GetFromListNameRequest.UdListDefinitionName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

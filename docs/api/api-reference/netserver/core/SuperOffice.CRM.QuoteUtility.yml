@@ -1,0 +1,504 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.QuoteUtility
+  commentId: T:SuperOffice.CRM.QuoteUtility
+  id: QuoteUtility
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.QuoteUtility.GetQuoteVersionStateIcon(SuperOffice.Data.QuoteVersionState)
+  - SuperOffice.CRM.QuoteUtility.GetQuoteVersionStateText(SuperOffice.Data.QuoteVersionState,SuperOffice.Data.QuoteVersionState)
+  - SuperOffice.CRM.QuoteUtility.GetQuoteVersionText(SuperOffice.Data.QuoteVersionState,SuperOffice.Data.QuoteVersionState,System.DateTime,System.DateTime,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: QuoteUtility
+  nameWithType: QuoteUtility
+  fullName: SuperOffice.CRM.QuoteUtility
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nTranslate enums into strings for Quote Version state. Used in building tooltips and lists.\n"
+  syntax:
+    content: public static class QuoteUtility
+    content.vb: Public Module QuoteUtility
+  seealso:
+  - linkId: SuperOffice.Data.QuoteVersionState
+    commentId: T:SuperOffice.Data.QuoteVersionState
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.QuoteUtility.GetQuoteVersionStateText(SuperOffice.Data.QuoteVersionState,SuperOffice.Data.QuoteVersionState)
+  commentId: M:SuperOffice.CRM.QuoteUtility.GetQuoteVersionStateText(SuperOffice.Data.QuoteVersionState,SuperOffice.Data.QuoteVersionState)
+  id: GetQuoteVersionStateText(SuperOffice.Data.QuoteVersionState,SuperOffice.Data.QuoteVersionState)
+  parent: SuperOffice.CRM.QuoteUtility
+  langs:
+  - csharp
+  - vb
+  name: GetQuoteVersionStateText(QuoteVersionState, QuoteVersionState)
+  nameWithType: QuoteUtility.GetQuoteVersionStateText(QuoteVersionState, QuoteVersionState)
+  fullName: SuperOffice.CRM.QuoteUtility.GetQuoteVersionStateText(SuperOffice.Data.QuoteVersionState, SuperOffice.Data.QuoteVersionState)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static string GetQuoteVersionStateText(QuoteVersionState state, QuoteVersionState archivedState)
+    parameters:
+    - id: state
+      type: SuperOffice.Data.QuoteVersionState
+    - id: archivedState
+      type: SuperOffice.Data.QuoteVersionState
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetQuoteVersionStateText(state As QuoteVersionState, archivedState As QuoteVersionState) As String
+  overload: SuperOffice.CRM.QuoteUtility.GetQuoteVersionStateText*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.QuoteUtility.GetQuoteVersionText(SuperOffice.Data.QuoteVersionState,SuperOffice.Data.QuoteVersionState,System.DateTime,System.DateTime,System.Int32)
+  commentId: M:SuperOffice.CRM.QuoteUtility.GetQuoteVersionText(SuperOffice.Data.QuoteVersionState,SuperOffice.Data.QuoteVersionState,System.DateTime,System.DateTime,System.Int32)
+  id: GetQuoteVersionText(SuperOffice.Data.QuoteVersionState,SuperOffice.Data.QuoteVersionState,System.DateTime,System.DateTime,System.Int32)
+  parent: SuperOffice.CRM.QuoteUtility
+  langs:
+  - csharp
+  - vb
+  name: GetQuoteVersionText(QuoteVersionState, QuoteVersionState, DateTime, DateTime, Int32)
+  nameWithType: QuoteUtility.GetQuoteVersionText(QuoteVersionState, QuoteVersionState, DateTime, DateTime, Int32)
+  fullName: SuperOffice.CRM.QuoteUtility.GetQuoteVersionText(SuperOffice.Data.QuoteVersionState, SuperOffice.Data.QuoteVersionState, System.DateTime, System.DateTime, System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static string GetQuoteVersionText(QuoteVersionState state, QuoteVersionState archivedState, DateTime sentDate, DateTime updatedDate, int rank)
+    parameters:
+    - id: state
+      type: SuperOffice.Data.QuoteVersionState
+    - id: archivedState
+      type: SuperOffice.Data.QuoteVersionState
+    - id: sentDate
+      type: System.DateTime
+    - id: updatedDate
+      type: System.DateTime
+    - id: rank
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetQuoteVersionText(state As QuoteVersionState, archivedState As QuoteVersionState, sentDate As Date, updatedDate As Date, rank As Integer) As String
+  overload: SuperOffice.CRM.QuoteUtility.GetQuoteVersionText*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.QuoteUtility.GetQuoteVersionStateIcon(SuperOffice.Data.QuoteVersionState)
+  commentId: M:SuperOffice.CRM.QuoteUtility.GetQuoteVersionStateIcon(SuperOffice.Data.QuoteVersionState)
+  id: GetQuoteVersionStateIcon(SuperOffice.Data.QuoteVersionState)
+  parent: SuperOffice.CRM.QuoteUtility
+  langs:
+  - csharp
+  - vb
+  name: GetQuoteVersionStateIcon(QuoteVersionState)
+  nameWithType: QuoteUtility.GetQuoteVersionStateIcon(QuoteVersionState)
+  fullName: SuperOffice.CRM.QuoteUtility.GetQuoteVersionStateIcon(SuperOffice.Data.QuoteVersionState)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static string GetQuoteVersionStateIcon(QuoteVersionState state)
+    parameters:
+    - id: state
+      type: SuperOffice.Data.QuoteVersionState
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetQuoteVersionStateIcon(state As QuoteVersionState) As String
+  overload: SuperOffice.CRM.QuoteUtility.GetQuoteVersionStateIcon*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.QuoteVersionState
+  commentId: T:SuperOffice.Data.QuoteVersionState
+  parent: SuperOffice.Data
+  isExternal: true
+  name: QuoteVersionState
+  nameWithType: QuoteVersionState
+  fullName: SuperOffice.Data.QuoteVersionState
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.QuoteUtility.GetQuoteVersionStateText*
+  commentId: Overload:SuperOffice.CRM.QuoteUtility.GetQuoteVersionStateText
+  isExternal: true
+  name: GetQuoteVersionStateText
+  nameWithType: QuoteUtility.GetQuoteVersionStateText
+  fullName: SuperOffice.CRM.QuoteUtility.GetQuoteVersionStateText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.QuoteUtility.GetQuoteVersionText*
+  commentId: Overload:SuperOffice.CRM.QuoteUtility.GetQuoteVersionText
+  isExternal: true
+  name: GetQuoteVersionText
+  nameWithType: QuoteUtility.GetQuoteVersionText
+  fullName: SuperOffice.CRM.QuoteUtility.GetQuoteVersionText
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.QuoteUtility.GetQuoteVersionStateIcon*
+  commentId: Overload:SuperOffice.CRM.QuoteUtility.GetQuoteVersionStateIcon
+  isExternal: true
+  name: GetQuoteVersionStateIcon
+  nameWithType: QuoteUtility.GetQuoteVersionStateIcon
+  fullName: SuperOffice.CRM.QuoteUtility.GetQuoteVersionStateIcon

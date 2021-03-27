@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.PublishType
+  commentId: T:SuperOffice.WebApi.Data.PublishType
+  id: PublishType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.PublishType.External
+  - SuperOffice.WebApi.Data.PublishType.Undefined
+  - SuperOffice.WebApi.Data.PublishType.value__
+  langs:
+  - csharp
+  - vb
+  name: PublishType
+  nameWithType: PublishType
+  fullName: SuperOffice.WebApi.Data.PublishType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould this field be published by default?\nThis Enum is used by:  Task.defaultPublishType; DocTmpl.defaultPublishType; Publish.publishType\n"
+  syntax:
+    content: 'public sealed class PublishType : Enum'
+    content.vb: >-
+      Public NotInheritable Class PublishType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.PublishType.value__
+  commentId: F:SuperOffice.WebApi.Data.PublishType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.PublishType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: PublishType.value__
+  fullName: SuperOffice.WebApi.Data.PublishType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PublishType.Undefined
+  commentId: F:SuperOffice.WebApi.Data.PublishType.Undefined
+  id: Undefined
+  parent: SuperOffice.WebApi.Data.PublishType
+  langs:
+  - csharp
+  - vb
+  name: Undefined
+  nameWithType: PublishType.Undefined
+  fullName: SuperOffice.WebApi.Data.PublishType.Undefined
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: \n"
+  syntax:
+    content: public const PublishType Undefined
+    return:
+      type: SuperOffice.WebApi.Data.PublishType
+    content.vb: Public Const Undefined As PublishType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.PublishType.External
+  commentId: F:SuperOffice.WebApi.Data.PublishType.External
+  id: External
+  parent: SuperOffice.WebApi.Data.PublishType
+  langs:
+  - csharp
+  - vb
+  name: External
+  nameWithType: PublishType.External
+  fullName: SuperOffice.WebApi.Data.PublishType.External
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Published to external persons\n"
+  syntax:
+    content: public const PublishType External
+    return:
+      type: SuperOffice.WebApi.Data.PublishType
+    content.vb: Public Const External As PublishType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.PublishType
+  commentId: T:SuperOffice.WebApi.Data.PublishType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: PublishType
+  nameWithType: PublishType
+  fullName: SuperOffice.WebApi.Data.PublishType

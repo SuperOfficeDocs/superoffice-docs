@@ -1,0 +1,743 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Controls.SpriteResolver
+  commentId: T:SuperOffice.Web.UI.Controls.SpriteResolver
+  id: SpriteResolver
+  parent: SuperOffice.Web.UI.Controls
+  children:
+  - SuperOffice.Web.UI.Controls.SpriteResolver.#ctor
+  - SuperOffice.Web.UI.Controls.SpriteResolver.#ctor(SuperOffice.IO.IFileSystem,SuperOffice.Diagnostics.ILogger,System.String,System.String)
+  - SuperOffice.Web.UI.Controls.SpriteResolver._fileSystem
+  - SuperOffice.Web.UI.Controls.SpriteResolver._logger
+  - SuperOffice.Web.UI.Controls.SpriteResolver._spriteCache
+  - SuperOffice.Web.UI.Controls.SpriteResolver.GetInstance
+  - SuperOffice.Web.UI.Controls.SpriteResolver.ResolveUrl(System.String)
+  - SuperOffice.Web.UI.Controls.SpriteResolver.TryGetSpriteClass(System.String)
+  langs:
+  - csharp
+  - vb
+  name: SpriteResolver
+  nameWithType: SpriteResolver
+  fullName: SuperOffice.Web.UI.Controls.SpriteResolver
+  type: Class
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public class SpriteResolver
+    content.vb: Public Class SpriteResolver
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.UI.Controls.SpriteResolver._spriteCache
+  commentId: F:SuperOffice.Web.UI.Controls.SpriteResolver._spriteCache
+  id: _spriteCache
+  parent: SuperOffice.Web.UI.Controls.SpriteResolver
+  langs:
+  - csharp
+  - vb
+  name: _spriteCache
+  nameWithType: SpriteResolver._spriteCache
+  fullName: SuperOffice.Web.UI.Controls.SpriteResolver._spriteCache
+  type: Field
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected Dictionary<string, string> _spriteCache
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Protected _spriteCache As Dictionary(Of String, String)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.Web.UI.Controls.SpriteResolver._fileSystem
+  commentId: F:SuperOffice.Web.UI.Controls.SpriteResolver._fileSystem
+  id: _fileSystem
+  parent: SuperOffice.Web.UI.Controls.SpriteResolver
+  langs:
+  - csharp
+  - vb
+  name: _fileSystem
+  nameWithType: SpriteResolver._fileSystem
+  fullName: SuperOffice.Web.UI.Controls.SpriteResolver._fileSystem
+  type: Field
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected readonly IFileSystem _fileSystem
+    return:
+      type: SuperOffice.IO.IFileSystem
+    content.vb: Protected ReadOnly _fileSystem As IFileSystem
+  modifiers.csharp:
+  - protected
+  - readonly
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: SuperOffice.Web.UI.Controls.SpriteResolver._logger
+  commentId: F:SuperOffice.Web.UI.Controls.SpriteResolver._logger
+  id: _logger
+  parent: SuperOffice.Web.UI.Controls.SpriteResolver
+  langs:
+  - csharp
+  - vb
+  name: _logger
+  nameWithType: SpriteResolver._logger
+  fullName: SuperOffice.Web.UI.Controls.SpriteResolver._logger
+  type: Field
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected readonly ILogger _logger
+    return:
+      type: SuperOffice.Diagnostics.ILogger
+    content.vb: Protected ReadOnly _logger As ILogger
+  modifiers.csharp:
+  - protected
+  - readonly
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: SuperOffice.Web.UI.Controls.SpriteResolver.GetInstance
+  commentId: M:SuperOffice.Web.UI.Controls.SpriteResolver.GetInstance
+  id: GetInstance
+  parent: SuperOffice.Web.UI.Controls.SpriteResolver
+  langs:
+  - csharp
+  - vb
+  name: GetInstance()
+  nameWithType: SpriteResolver.GetInstance()
+  fullName: SuperOffice.Web.UI.Controls.SpriteResolver.GetInstance()
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public static SpriteResolver GetInstance()
+    return:
+      type: SuperOffice.Web.UI.Controls.SpriteResolver
+    content.vb: Public Shared Function GetInstance As SpriteResolver
+  overload: SuperOffice.Web.UI.Controls.SpriteResolver.GetInstance*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Web.UI.Controls.SpriteResolver.ResolveUrl(System.String)
+  commentId: M:SuperOffice.Web.UI.Controls.SpriteResolver.ResolveUrl(System.String)
+  id: ResolveUrl(System.String)
+  parent: SuperOffice.Web.UI.Controls.SpriteResolver
+  langs:
+  - csharp
+  - vb
+  name: ResolveUrl(String)
+  nameWithType: SpriteResolver.ResolveUrl(String)
+  fullName: SuperOffice.Web.UI.Controls.SpriteResolver.ResolveUrl(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public static string ResolveUrl(string url)
+    parameters:
+    - id: url
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function ResolveUrl(url As String) As String
+  overload: SuperOffice.Web.UI.Controls.SpriteResolver.ResolveUrl*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Web.UI.Controls.SpriteResolver.#ctor
+  commentId: M:SuperOffice.Web.UI.Controls.SpriteResolver.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.UI.Controls.SpriteResolver
+  langs:
+  - csharp
+  - vb
+  name: SpriteResolver()
+  nameWithType: SpriteResolver.SpriteResolver()
+  fullName: SuperOffice.Web.UI.Controls.SpriteResolver.SpriteResolver()
+  type: Constructor
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public SpriteResolver()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.UI.Controls.SpriteResolver.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SpriteResolver.#ctor(SuperOffice.IO.IFileSystem,SuperOffice.Diagnostics.ILogger,System.String,System.String)
+  commentId: M:SuperOffice.Web.UI.Controls.SpriteResolver.#ctor(SuperOffice.IO.IFileSystem,SuperOffice.Diagnostics.ILogger,System.String,System.String)
+  id: '#ctor(SuperOffice.IO.IFileSystem,SuperOffice.Diagnostics.ILogger,System.String,System.String)'
+  parent: SuperOffice.Web.UI.Controls.SpriteResolver
+  langs:
+  - csharp
+  - vb
+  name: SpriteResolver(IFileSystem, ILogger, String, String)
+  nameWithType: SpriteResolver.SpriteResolver(IFileSystem, ILogger, String, String)
+  fullName: SuperOffice.Web.UI.Controls.SpriteResolver.SpriteResolver(SuperOffice.IO.IFileSystem, SuperOffice.Diagnostics.ILogger, System.String, System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public SpriteResolver(IFileSystem fileSystem, ILogger logger, string cssSpriteDefinitionsFile, string clientRoot)
+    parameters:
+    - id: fileSystem
+      type: SuperOffice.IO.IFileSystem
+    - id: logger
+      type: SuperOffice.Diagnostics.ILogger
+    - id: cssSpriteDefinitionsFile
+      type: System.String
+    - id: clientRoot
+      type: System.String
+    content.vb: Public Sub New(fileSystem As IFileSystem, logger As ILogger, cssSpriteDefinitionsFile As String, clientRoot As String)
+  overload: SuperOffice.Web.UI.Controls.SpriteResolver.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SpriteResolver.TryGetSpriteClass(System.String)
+  commentId: M:SuperOffice.Web.UI.Controls.SpriteResolver.TryGetSpriteClass(System.String)
+  id: TryGetSpriteClass(System.String)
+  parent: SuperOffice.Web.UI.Controls.SpriteResolver
+  langs:
+  - csharp
+  - vb
+  name: TryGetSpriteClass(String)
+  nameWithType: SpriteResolver.TryGetSpriteClass(String)
+  fullName: SuperOffice.Web.UI.Controls.SpriteResolver.TryGetSpriteClass(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public string TryGetSpriteClass(string imagePath)
+    parameters:
+    - id: imagePath
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function TryGetSpriteClass(imagePath As String) As String
+  overload: SuperOffice.Web.UI.Controls.SpriteResolver.TryGetSpriteClass*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Web.UI.Controls
+  commentId: N:SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.Web.UI.Controls
+  nameWithType: SuperOffice.Web.UI.Controls
+  fullName: SuperOffice.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.IO.IFileSystem
+  isExternal: true
+  name: IFileSystem
+  nameWithType: IFileSystem
+  fullName: SuperOffice.IO.IFileSystem
+- uid: SuperOffice.Diagnostics.ILogger
+  isExternal: true
+  name: ILogger
+  nameWithType: ILogger
+  fullName: SuperOffice.Diagnostics.ILogger
+- uid: SuperOffice.Web.UI.Controls.SpriteResolver.GetInstance*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SpriteResolver.GetInstance
+  isExternal: true
+  name: GetInstance
+  nameWithType: SpriteResolver.GetInstance
+  fullName: SuperOffice.Web.UI.Controls.SpriteResolver.GetInstance
+- uid: SuperOffice.Web.UI.Controls.SpriteResolver
+  commentId: T:SuperOffice.Web.UI.Controls.SpriteResolver
+  parent: SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SpriteResolver
+  nameWithType: SpriteResolver
+  fullName: SuperOffice.Web.UI.Controls.SpriteResolver
+- uid: SuperOffice.Web.UI.Controls.SpriteResolver.ResolveUrl*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SpriteResolver.ResolveUrl
+  isExternal: true
+  name: ResolveUrl
+  nameWithType: SpriteResolver.ResolveUrl
+  fullName: SuperOffice.Web.UI.Controls.SpriteResolver.ResolveUrl
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Web.UI.Controls.SpriteResolver.#ctor*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SpriteResolver.#ctor
+  isExternal: true
+  name: SpriteResolver
+  nameWithType: SpriteResolver.SpriteResolver
+  fullName: SuperOffice.Web.UI.Controls.SpriteResolver.SpriteResolver
+- uid: SuperOffice.Web.UI.Controls.SpriteResolver.TryGetSpriteClass*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SpriteResolver.TryGetSpriteClass
+  isExternal: true
+  name: TryGetSpriteClass
+  nameWithType: SpriteResolver.TryGetSpriteClass
+  fullName: SuperOffice.Web.UI.Controls.SpriteResolver.TryGetSpriteClass

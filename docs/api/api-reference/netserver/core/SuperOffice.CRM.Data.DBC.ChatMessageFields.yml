@@ -1,0 +1,647 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.ChatMessageFields
+  commentId: T:SuperOffice.CRM.Data.DBC.ChatMessageFields
+  id: DBC.ChatMessageFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.ChatMessageFields.Author
+  - SuperOffice.CRM.Data.DBC.ChatMessageFields.ChatMessageId
+  - SuperOffice.CRM.Data.DBC.ChatMessageFields.CreatedBy
+  - SuperOffice.CRM.Data.DBC.ChatMessageFields.Message
+  - SuperOffice.CRM.Data.DBC.ChatMessageFields.ReadByCustomer
+  - SuperOffice.CRM.Data.DBC.ChatMessageFields.SessionId
+  - SuperOffice.CRM.Data.DBC.ChatMessageFields.SpecialParam
+  - SuperOffice.CRM.Data.DBC.ChatMessageFields.SpecialType
+  - SuperOffice.CRM.Data.DBC.ChatMessageFields.Type
+  - SuperOffice.CRM.Data.DBC.ChatMessageFields.WhenPosted
+  langs:
+  - csharp
+  - vb
+  name: DBC.ChatMessageFields
+  nameWithType: DBC.ChatMessageFields
+  fullName: SuperOffice.CRM.Data.DBC.ChatMessageFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for ChatMessage, This table contains messages in a chat session.\n"
+  syntax:
+    content: public static class ChatMessageFields
+    content.vb: Public Module ChatMessageFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.ChatMessageFields.ChatMessageId
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatMessageFields.ChatMessageId
+  id: ChatMessageId
+  parent: SuperOffice.CRM.Data.DBC.ChatMessageFields
+  langs:
+  - csharp
+  - vb
+  name: ChatMessageId
+  nameWithType: DBC.ChatMessageFields.ChatMessageId
+  fullName: SuperOffice.CRM.Data.DBC.ChatMessageFields.ChatMessageId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatMessage.ChatMessageId: The primary key (auto-incremented)\n"
+  syntax:
+    content: public const string ChatMessageId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const ChatMessageId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatMessageFields.SessionId
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatMessageFields.SessionId
+  id: SessionId
+  parent: SuperOffice.CRM.Data.DBC.ChatMessageFields
+  langs:
+  - csharp
+  - vb
+  name: SessionId
+  nameWithType: DBC.ChatMessageFields.SessionId
+  fullName: SuperOffice.CRM.Data.DBC.ChatMessageFields.SessionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatMessage.SessionId: The reference to the associated chat session.\n"
+  syntax:
+    content: public const string SessionId = "session_id"
+    return:
+      type: System.String
+    content.vb: Public Const SessionId As String = "session_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatMessageFields.Message
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatMessageFields.Message
+  id: Message
+  parent: SuperOffice.CRM.Data.DBC.ChatMessageFields
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: DBC.ChatMessageFields.Message
+  fullName: SuperOffice.CRM.Data.DBC.ChatMessageFields.Message
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatMessage.Message: The message.\n"
+  syntax:
+    content: public const string Message = "message"
+    return:
+      type: System.String
+    content.vb: Public Const Message As String = "message"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatMessageFields.WhenPosted
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatMessageFields.WhenPosted
+  id: WhenPosted
+  parent: SuperOffice.CRM.Data.DBC.ChatMessageFields
+  langs:
+  - csharp
+  - vb
+  name: WhenPosted
+  nameWithType: DBC.ChatMessageFields.WhenPosted
+  fullName: SuperOffice.CRM.Data.DBC.ChatMessageFields.WhenPosted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatMessage.WhenPosted: When the message was posted (UTC timestamp).\n"
+  syntax:
+    content: public const string WhenPosted = "when_posted"
+    return:
+      type: System.String
+    content.vb: Public Const WhenPosted As String = "when_posted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatMessageFields.SpecialType
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatMessageFields.SpecialType
+  id: SpecialType
+  parent: SuperOffice.CRM.Data.DBC.ChatMessageFields
+  langs:
+  - csharp
+  - vb
+  name: SpecialType
+  nameWithType: DBC.ChatMessageFields.SpecialType
+  fullName: SuperOffice.CRM.Data.DBC.ChatMessageFields.SpecialType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatMessage.SpecialType: Enum indicating if it is a special message, such as an URL redirection, etc.\n"
+  syntax:
+    content: public const string SpecialType = "special_type"
+    return:
+      type: System.String
+    content.vb: Public Const SpecialType As String = "special_type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatMessageFields.SpecialParam
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatMessageFields.SpecialParam
+  id: SpecialParam
+  parent: SuperOffice.CRM.Data.DBC.ChatMessageFields
+  langs:
+  - csharp
+  - vb
+  name: SpecialParam
+  nameWithType: DBC.ChatMessageFields.SpecialParam
+  fullName: SuperOffice.CRM.Data.DBC.ChatMessageFields.SpecialParam
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatMessage.SpecialParam: Special parameter for the special_type.\n"
+  syntax:
+    content: public const string SpecialParam = "special_param"
+    return:
+      type: System.String
+    content.vb: Public Const SpecialParam As String = "special_param"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatMessageFields.ReadByCustomer
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatMessageFields.ReadByCustomer
+  id: ReadByCustomer
+  parent: SuperOffice.CRM.Data.DBC.ChatMessageFields
+  langs:
+  - csharp
+  - vb
+  name: ReadByCustomer
+  nameWithType: DBC.ChatMessageFields.ReadByCustomer
+  fullName: SuperOffice.CRM.Data.DBC.ChatMessageFields.ReadByCustomer
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatMessage.ReadByCustomer: Whether the message has been read by the customer or not.\n"
+  syntax:
+    content: public const string ReadByCustomer = "read_by_customer"
+    return:
+      type: System.String
+    content.vb: Public Const ReadByCustomer As String = "read_by_customer"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatMessageFields.Type
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatMessageFields.Type
+  id: Type
+  parent: SuperOffice.CRM.Data.DBC.ChatMessageFields
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: DBC.ChatMessageFields.Type
+  fullName: SuperOffice.CRM.Data.DBC.ChatMessageFields.Type
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatMessage.Type: The type of the message.\n"
+  syntax:
+    content: public const string Type = "type"
+    return:
+      type: System.String
+    content.vb: Public Const Type As String = "type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatMessageFields.Author
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatMessageFields.Author
+  id: Author
+  parent: SuperOffice.CRM.Data.DBC.ChatMessageFields
+  langs:
+  - csharp
+  - vb
+  name: Author
+  nameWithType: DBC.ChatMessageFields.Author
+  fullName: SuperOffice.CRM.Data.DBC.ChatMessageFields.Author
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatMessage.Author: The author of the message.\n"
+  syntax:
+    content: public const string Author = "author"
+    return:
+      type: System.String
+    content.vb: Public Const Author As String = "author"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ChatMessageFields.CreatedBy
+  commentId: F:SuperOffice.CRM.Data.DBC.ChatMessageFields.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.CRM.Data.DBC.ChatMessageFields
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: DBC.ChatMessageFields.CreatedBy
+  fullName: SuperOffice.CRM.Data.DBC.ChatMessageFields.CreatedBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nChatMessage.CreatedBy: The user agent who wrote the message. -1 if customer\n"
+  syntax:
+    content: public const string CreatedBy = "created_by"
+    return:
+      type: System.String
+    content.vb: Public Const CreatedBy As String = "created_by"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

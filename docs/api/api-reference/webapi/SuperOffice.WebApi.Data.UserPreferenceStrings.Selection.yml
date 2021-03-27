@@ -1,0 +1,242 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Selection
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.Selection
+  id: UserPreferenceStrings.Selection
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Selection.LastUsedSelectionTargetTableId
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Selection.LastUsedSelectionType
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Selection.LastUsedSelectionUnionType
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Selection.Section
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Selection.SkipCompletedSelections
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Selection.TypicalSearchVersionNumberPrefix
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.Selection
+  nameWithType: UserPreferenceStrings.Selection
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Selection
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSelection\n"
+  syntax:
+    content: 'public static class Selection : Object'
+    content.vb: >-
+      Public Module Selection
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Selection.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Selection.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Selection
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.Selection.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Selection.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "Selection"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "Selection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Selection.LastUsedSelectionType
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Selection.LastUsedSelectionType
+  id: LastUsedSelectionType
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Selection
+  langs:
+  - csharp
+  - vb
+  name: LastUsedSelectionType
+  nameWithType: UserPreferenceStrings.Selection.LastUsedSelectionType
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Selection.LastUsedSelectionType
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPreference used to remember the last type of selection - Static or Dynamic\n<p></p>Control type: Number, access: Crm\n"
+  syntax:
+    content: public const string LastUsedSelectionType = "LastUsedSelectionType"
+    return:
+      type: System.String
+    content.vb: Public Const LastUsedSelectionType As String = "LastUsedSelectionType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Selection.LastUsedSelectionTargetTableId
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Selection.LastUsedSelectionTargetTableId
+  id: LastUsedSelectionTargetTableId
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Selection
+  langs:
+  - csharp
+  - vb
+  name: LastUsedSelectionTargetTableId
+  nameWithType: UserPreferenceStrings.Selection.LastUsedSelectionTargetTableId
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Selection.LastUsedSelectionTargetTableId
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPreference used to remember the last member type of selection - contact, sale, project, appointment, document\n<p></p>Control type: Number, access: Crm\n"
+  syntax:
+    content: public const string LastUsedSelectionTargetTableId = "LastUsedSelectionTargetTableId"
+    return:
+      type: System.String
+    content.vb: Public Const LastUsedSelectionTargetTableId As String = "LastUsedSelectionTargetTableId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Selection.LastUsedSelectionUnionType
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Selection.LastUsedSelectionUnionType
+  id: LastUsedSelectionUnionType
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Selection
+  langs:
+  - csharp
+  - vb
+  name: LastUsedSelectionUnionType
+  nameWithType: UserPreferenceStrings.Selection.LastUsedSelectionUnionType
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Selection.LastUsedSelectionUnionType
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPreference used to remember the last member type of selection - contact, sale, project, appointment, document\n<p></p>Control type: Number, access: Crm\n"
+  syntax:
+    content: public const string LastUsedSelectionUnionType = "LastUsedSelectionUnionType"
+    return:
+      type: System.String
+    content.vb: Public Const LastUsedSelectionUnionType As String = "LastUsedSelectionUnionType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Selection.SkipCompletedSelections
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Selection.SkipCompletedSelections
+  id: SkipCompletedSelections
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Selection
+  langs:
+  - csharp
+  - vb
+  name: SkipCompletedSelections
+  nameWithType: UserPreferenceStrings.Selection.SkipCompletedSelections
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Selection.SkipCompletedSelections
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSet to true to skip completed selections when searching or stepping in selections.\n"
+  syntax:
+    content: public const string SkipCompletedSelections = "SkipCompletedSelections"
+    return:
+      type: System.String
+    content.vb: Public Const SkipCompletedSelections As String = "SkipCompletedSelections"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Selection.TypicalSearchVersionNumberPrefix
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Selection.TypicalSearchVersionNumberPrefix
+  id: TypicalSearchVersionNumberPrefix
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Selection
+  langs:
+  - csharp
+  - vb
+  name: TypicalSearchVersionNumberPrefix
+  nameWithType: UserPreferenceStrings.Selection.TypicalSearchVersionNumberPrefix
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Selection.TypicalSearchVersionNumberPrefix
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSet to true to skip completed selections when searching or stepping in selections.\n"
+  syntax:
+    content: public const string TypicalSearchVersionNumberPrefix = "TypicalSearchVersionNumberPrefix"
+    return:
+      type: System.String
+    content.vb: Public Const TypicalSearchVersionNumberPrefix As String = "TypicalSearchVersionNumberPrefix"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

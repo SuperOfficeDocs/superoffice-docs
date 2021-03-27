@@ -1,0 +1,191 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Utilities.UrlHelper
+  commentId: T:SuperOffice.WebApi.Utilities.UrlHelper
+  id: UrlHelper
+  parent: SuperOffice.WebApi.Utilities
+  children:
+  - SuperOffice.WebApi.Utilities.UrlHelper.#ctor(SuperOffice.WebApi.Data.OnlineEnvironment)
+  - SuperOffice.WebApi.Utilities.UrlHelper.GetOnlineSubDomain(SuperOffice.WebApi.Data.OnlineEnvironment)
+  - SuperOffice.WebApi.Utilities.UrlHelper.GetTenantStatusUrl(System.String)
+  langs:
+  - csharp
+  - vb
+  name: UrlHelper
+  nameWithType: UrlHelper
+  fullName: SuperOffice.WebApi.Utilities.UrlHelper
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Utilities
+  summary: "\nUseful for getting formatted URL strings.\n"
+  syntax:
+    content: 'public class UrlHelper : Object'
+    content.vb: >-
+      Public Class UrlHelper
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Utilities.UrlHelper.#ctor(SuperOffice.WebApi.Data.OnlineEnvironment)
+  commentId: M:SuperOffice.WebApi.Utilities.UrlHelper.#ctor(SuperOffice.WebApi.Data.OnlineEnvironment)
+  id: '#ctor(SuperOffice.WebApi.Data.OnlineEnvironment)'
+  parent: SuperOffice.WebApi.Utilities.UrlHelper
+  langs:
+  - csharp
+  - vb
+  name: UrlHelper(OnlineEnvironment)
+  nameWithType: UrlHelper.UrlHelper(OnlineEnvironment)
+  fullName: SuperOffice.WebApi.Utilities.UrlHelper.UrlHelper(SuperOffice.WebApi.Data.OnlineEnvironment)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Utilities
+  summary: "\nHelper class for getting common URL strings for an environment.\n"
+  syntax:
+    content: public UrlHelper(OnlineEnvironment environment)
+    parameters:
+    - id: environment
+      type: SuperOffice.WebApi.Data.OnlineEnvironment
+      description: Online environment (SOD, Stage, Production)
+    content.vb: Public Sub New(environment As OnlineEnvironment)
+  overload: SuperOffice.WebApi.Utilities.UrlHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Utilities.UrlHelper.GetOnlineSubDomain(SuperOffice.WebApi.Data.OnlineEnvironment)
+  commentId: M:SuperOffice.WebApi.Utilities.UrlHelper.GetOnlineSubDomain(SuperOffice.WebApi.Data.OnlineEnvironment)
+  id: GetOnlineSubDomain(SuperOffice.WebApi.Data.OnlineEnvironment)
+  parent: SuperOffice.WebApi.Utilities.UrlHelper
+  langs:
+  - csharp
+  - vb
+  name: GetOnlineSubDomain(OnlineEnvironment)
+  nameWithType: UrlHelper.GetOnlineSubDomain(OnlineEnvironment)
+  fullName: SuperOffice.WebApi.Utilities.UrlHelper.GetOnlineSubDomain(SuperOffice.WebApi.Data.OnlineEnvironment)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Utilities
+  summary: "\nGets the subdomain based on <xref href=\"SuperOffice.WebApi.Data.OnlineEnvironment\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public string GetOnlineSubDomain(OnlineEnvironment environment)
+    parameters:
+    - id: environment
+      type: SuperOffice.WebApi.Data.OnlineEnvironment
+      description: Online environment (SOD, Stage, Production)
+    return:
+      type: System.String
+      description: Online subdomain. i.e. sod, qastage or online.
+    content.vb: Public Function GetOnlineSubDomain(environment As OnlineEnvironment) As String
+  overload: SuperOffice.WebApi.Utilities.UrlHelper.GetOnlineSubDomain*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Utilities.UrlHelper.GetTenantStatusUrl(System.String)
+  commentId: M:SuperOffice.WebApi.Utilities.UrlHelper.GetTenantStatusUrl(System.String)
+  id: GetTenantStatusUrl(System.String)
+  parent: SuperOffice.WebApi.Utilities.UrlHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTenantStatusUrl(String)
+  nameWithType: UrlHelper.GetTenantStatusUrl(String)
+  fullName: SuperOffice.WebApi.Utilities.UrlHelper.GetTenantStatusUrl(System.String)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Utilities
+  summary: "\nGets the the tenant status URL for a given customer, in a given environment.\n"
+  syntax:
+    content: public string GetTenantStatusUrl(string contextIdentifier)
+    parameters:
+    - id: contextIdentifier
+      type: System.String
+      description: Online customer identifer, i.e. Cust12345.
+    return:
+      type: System.String
+      description: Returns the tenant status URL for a given customer, in a given environment.
+    content.vb: Public Function GetTenantStatusUrl(contextIdentifier As String) As String
+  overload: SuperOffice.WebApi.Utilities.UrlHelper.GetTenantStatusUrl*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Utilities
+  commentId: N:SuperOffice.WebApi.Utilities
+  isExternal: true
+  name: SuperOffice.WebApi.Utilities
+  nameWithType: SuperOffice.WebApi.Utilities
+  fullName: SuperOffice.WebApi.Utilities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Utilities.UrlHelper.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Utilities.UrlHelper.#ctor
+  isExternal: true
+  name: UrlHelper
+  nameWithType: UrlHelper.UrlHelper
+  fullName: SuperOffice.WebApi.Utilities.UrlHelper.UrlHelper
+- uid: SuperOffice.WebApi.Data.OnlineEnvironment
+  commentId: T:SuperOffice.WebApi.Data.OnlineEnvironment
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: OnlineEnvironment
+  nameWithType: OnlineEnvironment
+  fullName: SuperOffice.WebApi.Data.OnlineEnvironment
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: SuperOffice.WebApi.Utilities.UrlHelper.GetOnlineSubDomain*
+  commentId: Overload:SuperOffice.WebApi.Utilities.UrlHelper.GetOnlineSubDomain
+  isExternal: true
+  name: GetOnlineSubDomain
+  nameWithType: UrlHelper.GetOnlineSubDomain
+  fullName: SuperOffice.WebApi.Utilities.UrlHelper.GetOnlineSubDomain
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Utilities.UrlHelper.GetTenantStatusUrl*
+  commentId: Overload:SuperOffice.WebApi.Utilities.UrlHelper.GetTenantStatusUrl
+  isExternal: true
+  name: GetTenantStatusUrl
+  nameWithType: UrlHelper.GetTenantStatusUrl
+  fullName: SuperOffice.WebApi.Utilities.UrlHelper.GetTenantStatusUrl

@@ -1,0 +1,707 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  id: Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  children:
+  - SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin(SuperOffice.CRM.ErpActor)
+  - SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin(SuperOffice.CRM.FieldMetadataInfo)
+  - SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin(SuperOffice.CRM.SearchRestrictionInfo)
+  - SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  - SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.ErpActorWS)
+  - SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.FieldMetadataInfoWS)
+  - SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.SearchRestrictionInfoWS)
+  langs:
+  - csharp
+  - vb
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync.ConnectorWS
+  summary: "\nConverter helpers for EIS Connector / Web services\n"
+  syntax:
+    content: public static class Converters
+    content.vb: Public Module Converters
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  id: MapEnums``2(``0)
+  isExtensionMethod: true
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  langs:
+  - csharp
+  - vb
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync.ConnectorWS
+  summary: "\nMap enum values from one enum to another; assumes that the values have the <strong>same names</strong> throughout,\nbut they do not need to have the same int&apos;s\n"
+  syntax:
+    content: public static To MapEnums<From, To>(this From from)
+    parameters:
+    - id: from
+      type: '{From}'
+      description: Source enum value
+    typeParameters:
+    - id: From
+      description: Source enum type
+    - id: To
+      description: Destination enum type
+    return:
+      type: '{To}'
+      description: Same named value from the target enum, as the source value
+    content.vb: "<ExtensionAttribute>\nPublic Shared Function MapEnums(Of From, To)(from As From) As "
+  overload: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums*
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin(SuperOffice.CRM.FieldMetadataInfo)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin(SuperOffice.CRM.FieldMetadataInfo)
+  id: FromPlugin(SuperOffice.CRM.FieldMetadataInfo)
+  isExtensionMethod: true
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  langs:
+  - csharp
+  - vb
+  name: FromPlugin(FieldMetadataInfo)
+  nameWithType: Converters.FromPlugin(FieldMetadataInfo)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin(SuperOffice.CRM.FieldMetadataInfo)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync.ConnectorWS
+  summary: "\nConvert FieldMetadataInfo from plugin to Web Service object\n"
+  syntax:
+    content: public static FieldMetadataInfoWS FromPlugin(this FieldMetadataInfo source)
+    parameters:
+    - id: source
+      type: SuperOffice.CRM.FieldMetadataInfo
+    return:
+      type: SuperOffice.ErpSync.FieldMetadataInfoWS
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromPlugin(source As FieldMetadataInfo) As FieldMetadataInfoWS
+  overload: SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.FieldMetadataInfoWS)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.FieldMetadataInfoWS)
+  id: ToPlugin(SuperOffice.ErpSync.FieldMetadataInfoWS)
+  isExtensionMethod: true
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  langs:
+  - csharp
+  - vb
+  name: ToPlugin(FieldMetadataInfoWS)
+  nameWithType: Converters.ToPlugin(FieldMetadataInfoWS)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.FieldMetadataInfoWS)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync.ConnectorWS
+  summary: "\nConvert FieldMetadataInfo from Web Service object to plugin\n"
+  syntax:
+    content: public static FieldMetadataInfo ToPlugin(this FieldMetadataInfoWS source)
+    parameters:
+    - id: source
+      type: SuperOffice.ErpSync.FieldMetadataInfoWS
+    return:
+      type: SuperOffice.CRM.FieldMetadataInfo
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToPlugin(source As FieldMetadataInfoWS) As FieldMetadataInfo
+  overload: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin(SuperOffice.CRM.ErpActor)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin(SuperOffice.CRM.ErpActor)
+  id: FromPlugin(SuperOffice.CRM.ErpActor)
+  isExtensionMethod: true
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  langs:
+  - csharp
+  - vb
+  name: FromPlugin(ErpActor)
+  nameWithType: Converters.FromPlugin(ErpActor)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin(SuperOffice.CRM.ErpActor)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync.ConnectorWS
+  summary: "\nConvert ErpActor from plugin to Web Service object\n"
+  syntax:
+    content: public static ErpActorWS FromPlugin(this ErpActor source)
+    parameters:
+    - id: source
+      type: SuperOffice.CRM.ErpActor
+    return:
+      type: SuperOffice.ErpSync.ErpActorWS
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromPlugin(source As ErpActor) As ErpActorWS
+  overload: SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.ErpActorWS)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.ErpActorWS)
+  id: ToPlugin(SuperOffice.ErpSync.ErpActorWS)
+  isExtensionMethod: true
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  langs:
+  - csharp
+  - vb
+  name: ToPlugin(ErpActorWS)
+  nameWithType: Converters.ToPlugin(ErpActorWS)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.ErpActorWS)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync.ConnectorWS
+  summary: "\nConvert ErpActor from Web Service object to plugin\n"
+  syntax:
+    content: public static ErpActor ToPlugin(this ErpActorWS source)
+    parameters:
+    - id: source
+      type: SuperOffice.ErpSync.ErpActorWS
+    return:
+      type: SuperOffice.CRM.ErpActor
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToPlugin(source As ErpActorWS) As ErpActor
+  overload: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin(SuperOffice.CRM.SearchRestrictionInfo)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin(SuperOffice.CRM.SearchRestrictionInfo)
+  id: FromPlugin(SuperOffice.CRM.SearchRestrictionInfo)
+  isExtensionMethod: true
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  langs:
+  - csharp
+  - vb
+  name: FromPlugin(SearchRestrictionInfo)
+  nameWithType: Converters.FromPlugin(SearchRestrictionInfo)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin(SuperOffice.CRM.SearchRestrictionInfo)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync.ConnectorWS
+  summary: "\nConvert SearchRestrictionInfo from plugin to Web Service object\n"
+  syntax:
+    content: public static SearchRestrictionInfoWS FromPlugin(this SearchRestrictionInfo source)
+    parameters:
+    - id: source
+      type: SuperOffice.CRM.SearchRestrictionInfo
+    return:
+      type: SuperOffice.ErpSync.SearchRestrictionInfoWS
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromPlugin(source As SearchRestrictionInfo) As SearchRestrictionInfoWS
+  overload: SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.SearchRestrictionInfoWS)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.SearchRestrictionInfoWS)
+  id: ToPlugin(SuperOffice.ErpSync.SearchRestrictionInfoWS)
+  isExtensionMethod: true
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  langs:
+  - csharp
+  - vb
+  name: ToPlugin(SearchRestrictionInfoWS)
+  nameWithType: Converters.ToPlugin(SearchRestrictionInfoWS)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.SearchRestrictionInfoWS)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync.ConnectorWS
+  summary: "\nConvert SearchRestrictionInfo from Web Service object to plugin\n"
+  syntax:
+    content: public static SearchRestrictionInfo ToPlugin(this SearchRestrictionInfoWS source)
+    parameters:
+    - id: source
+      type: SuperOffice.ErpSync.SearchRestrictionInfoWS
+    return:
+      type: SuperOffice.CRM.SearchRestrictionInfo
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToPlugin(source As SearchRestrictionInfoWS) As SearchRestrictionInfo
+  overload: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums*
+  commentId: Overload:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums
+  isExternal: true
+  name: MapEnums
+  nameWithType: Converters.MapEnums
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums
+- uid: '{From}'
+  commentId: '!:From'
+  definition: From
+  name: From
+  nameWithType: From
+  fullName: From
+- uid: '{To}'
+  commentId: '!:To'
+  definition: To
+  name: To
+  nameWithType: To
+  fullName: To
+- uid: From
+  commentId: '!:From'
+  name: From
+  nameWithType: From
+  fullName: From
+- uid: To
+  commentId: '!:To'
+  name: To
+  nameWithType: To
+  fullName: To
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin*
+  commentId: Overload:SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin
+  isExternal: true
+  name: FromPlugin
+  nameWithType: Converters.FromPlugin
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.FromPlugin
+- uid: SuperOffice.CRM.FieldMetadataInfo
+  commentId: T:SuperOffice.CRM.FieldMetadataInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: FieldMetadataInfo
+  nameWithType: FieldMetadataInfo
+  fullName: SuperOffice.CRM.FieldMetadataInfo
+- uid: SuperOffice.ErpSync.FieldMetadataInfoWS
+  commentId: T:SuperOffice.ErpSync.FieldMetadataInfoWS
+  parent: SuperOffice.ErpSync
+  isExternal: true
+  name: FieldMetadataInfoWS
+  nameWithType: FieldMetadataInfoWS
+  fullName: SuperOffice.ErpSync.FieldMetadataInfoWS
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: SuperOffice.ErpSync
+  commentId: N:SuperOffice.ErpSync
+  isExternal: true
+  name: SuperOffice.ErpSync
+  nameWithType: SuperOffice.ErpSync
+  fullName: SuperOffice.ErpSync
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin*
+  commentId: Overload:SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
+  isExternal: true
+  name: ToPlugin
+  nameWithType: Converters.ToPlugin
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
+- uid: SuperOffice.CRM.ErpActor
+  commentId: T:SuperOffice.CRM.ErpActor
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ErpActor
+  nameWithType: ErpActor
+  fullName: SuperOffice.CRM.ErpActor
+- uid: SuperOffice.ErpSync.ErpActorWS
+  commentId: T:SuperOffice.ErpSync.ErpActorWS
+  parent: SuperOffice.ErpSync
+  isExternal: true
+  name: ErpActorWS
+  nameWithType: ErpActorWS
+  fullName: SuperOffice.ErpSync.ErpActorWS
+- uid: SuperOffice.CRM.SearchRestrictionInfo
+  commentId: T:SuperOffice.CRM.SearchRestrictionInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: SearchRestrictionInfo
+  nameWithType: SearchRestrictionInfo
+  fullName: SuperOffice.CRM.SearchRestrictionInfo
+- uid: SuperOffice.ErpSync.SearchRestrictionInfoWS
+  commentId: T:SuperOffice.ErpSync.SearchRestrictionInfoWS
+  parent: SuperOffice.ErpSync
+  isExternal: true
+  name: SearchRestrictionInfoWS
+  nameWithType: SearchRestrictionInfoWS
+  fullName: SuperOffice.ErpSync.SearchRestrictionInfoWS

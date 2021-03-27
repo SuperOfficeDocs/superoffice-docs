@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.WebApi
+  commentId: N:SuperOffice.DCF.Web.WebApi
+  id: SuperOffice.DCF.Web.WebApi
+  children:
+  - SuperOffice.DCF.Web.WebApi.RegisterClientWebApi
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.DCF.Web.WebApi
+  nameWithType: SuperOffice.DCF.Web.WebApi
+  fullName: SuperOffice.DCF.Web.WebApi
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCFWeb
+references:
+- uid: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi
+  commentId: T:SuperOffice.DCF.Web.WebApi.RegisterClientWebApi
+  isExternal: true
+  name: RegisterClientWebApi
+  nameWithType: RegisterClientWebApi
+  fullName: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi

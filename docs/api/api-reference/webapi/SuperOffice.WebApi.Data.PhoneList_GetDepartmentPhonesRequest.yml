@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.PhoneList_GetDepartmentPhonesRequest
+  commentId: T:SuperOffice.WebApi.Data.PhoneList_GetDepartmentPhonesRequest
+  id: PhoneList_GetDepartmentPhonesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.PhoneList_GetDepartmentPhonesRequest.#ctor
+  - SuperOffice.WebApi.Data.PhoneList_GetDepartmentPhonesRequest.DepartmentId
+  langs:
+  - csharp
+  - vb
+  name: PhoneList_GetDepartmentPhonesRequest
+  nameWithType: PhoneList_GetDepartmentPhonesRequest
+  fullName: SuperOffice.WebApi.Data.PhoneList_GetDepartmentPhonesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class PhoneList_GetDepartmentPhonesRequest : Object'
+    content.vb: >-
+      Public Class PhoneList_GetDepartmentPhonesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.PhoneList_GetDepartmentPhonesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.PhoneList_GetDepartmentPhonesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.PhoneList_GetDepartmentPhonesRequest
+  langs:
+  - csharp
+  - vb
+  name: PhoneList_GetDepartmentPhonesRequest()
+  nameWithType: PhoneList_GetDepartmentPhonesRequest.PhoneList_GetDepartmentPhonesRequest()
+  fullName: SuperOffice.WebApi.Data.PhoneList_GetDepartmentPhonesRequest.PhoneList_GetDepartmentPhonesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public PhoneList_GetDepartmentPhonesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.PhoneList_GetDepartmentPhonesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PhoneList_GetDepartmentPhonesRequest.DepartmentId
+  commentId: P:SuperOffice.WebApi.Data.PhoneList_GetDepartmentPhonesRequest.DepartmentId
+  id: DepartmentId
+  parent: SuperOffice.WebApi.Data.PhoneList_GetDepartmentPhonesRequest
+  langs:
+  - csharp
+  - vb
+  name: DepartmentId
+  nameWithType: PhoneList_GetDepartmentPhonesRequest.DepartmentId
+  fullName: SuperOffice.WebApi.Data.PhoneList_GetDepartmentPhonesRequest.DepartmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DepartmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DepartmentId As Integer
+  overload: SuperOffice.WebApi.Data.PhoneList_GetDepartmentPhonesRequest.DepartmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.PhoneList_GetDepartmentPhonesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneList_GetDepartmentPhonesRequest.#ctor
+  isExternal: true
+  name: PhoneList_GetDepartmentPhonesRequest
+  nameWithType: PhoneList_GetDepartmentPhonesRequest.PhoneList_GetDepartmentPhonesRequest
+  fullName: SuperOffice.WebApi.Data.PhoneList_GetDepartmentPhonesRequest.PhoneList_GetDepartmentPhonesRequest
+- uid: SuperOffice.WebApi.Data.PhoneList_GetDepartmentPhonesRequest.DepartmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.PhoneList_GetDepartmentPhonesRequest.DepartmentId
+  isExternal: true
+  name: DepartmentId
+  nameWithType: PhoneList_GetDepartmentPhonesRequest.DepartmentId
+  fullName: SuperOffice.WebApi.Data.PhoneList_GetDepartmentPhonesRequest.DepartmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

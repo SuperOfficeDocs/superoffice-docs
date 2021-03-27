@@ -1,0 +1,502 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.QuoteVersionValidated
+  commentId: T:SuperOffice.WebApi.Data.QuoteVersionValidated
+  id: QuoteVersionValidated
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.QuoteVersionValidated.#ctor
+  - SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedQuote
+  - SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedQuoteAlternatives
+  - SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedQuoteVersion
+  - SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedSale
+  - SuperOffice.WebApi.Data.QuoteVersionValidated.ErrorCode
+  - SuperOffice.WebApi.Data.QuoteVersionValidated.IsOk
+  - SuperOffice.WebApi.Data.QuoteVersionValidated.TechExplanation
+  - SuperOffice.WebApi.Data.QuoteVersionValidated.UserExplanation
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionValidated
+  nameWithType: QuoteVersionValidated
+  fullName: SuperOffice.WebApi.Data.QuoteVersionValidated
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for QuoteVersionValidated.\nThe QuoteVersionValidated is returned after a call to ValidateQuoteAlternative. It contains flags indicating changes to quote, quoteversion/quotealternative and quotelines.    \n"
+  syntax:
+    content: 'public class QuoteVersionValidated : Carrier'
+    content.vb: >-
+      Public Class QuoteVersionValidated
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.QuoteAgent
+    commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.QuoteVersionValidated.#ctor
+  commentId: M:SuperOffice.WebApi.Data.QuoteVersionValidated.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.QuoteVersionValidated
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionValidated()
+  nameWithType: QuoteVersionValidated.QuoteVersionValidated()
+  fullName: SuperOffice.WebApi.Data.QuoteVersionValidated.QuoteVersionValidated()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public QuoteVersionValidated()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.QuoteVersionValidated.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.QuoteVersionValidated.IsOk
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionValidated.IsOk
+  id: IsOk
+  parent: SuperOffice.WebApi.Data.QuoteVersionValidated
+  langs:
+  - csharp
+  - vb
+  name: IsOk
+  nameWithType: QuoteVersionValidated.IsOk
+  fullName: SuperOffice.WebApi.Data.QuoteVersionValidated.IsOk
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAnswer to the question / An indication if the operation went well.\n"
+  syntax:
+    content: public virtual bool IsOk { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsOk As Boolean
+  overload: SuperOffice.WebApi.Data.QuoteVersionValidated.IsOk*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteVersionValidated.UserExplanation
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionValidated.UserExplanation
+  id: UserExplanation
+  parent: SuperOffice.WebApi.Data.QuoteVersionValidated
+  langs:
+  - csharp
+  - vb
+  name: UserExplanation
+  nameWithType: QuoteVersionValidated.UserExplanation
+  fullName: SuperOffice.WebApi.Data.QuoteVersionValidated.UserExplanation
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA localized explanation to the answer.\n"
+  syntax:
+    content: public virtual string UserExplanation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property UserExplanation As String
+  overload: SuperOffice.WebApi.Data.QuoteVersionValidated.UserExplanation*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteVersionValidated.TechExplanation
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionValidated.TechExplanation
+  id: TechExplanation
+  parent: SuperOffice.WebApi.Data.QuoteVersionValidated
+  langs:
+  - csharp
+  - vb
+  name: TechExplanation
+  nameWithType: QuoteVersionValidated.TechExplanation
+  fullName: SuperOffice.WebApi.Data.QuoteVersionValidated.TechExplanation
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAlways in English\n"
+  syntax:
+    content: public virtual string TechExplanation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TechExplanation As String
+  overload: SuperOffice.WebApi.Data.QuoteVersionValidated.TechExplanation*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteVersionValidated.ErrorCode
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionValidated.ErrorCode
+  id: ErrorCode
+  parent: SuperOffice.WebApi.Data.QuoteVersionValidated
+  langs:
+  - csharp
+  - vb
+  name: ErrorCode
+  nameWithType: QuoteVersionValidated.ErrorCode
+  fullName: SuperOffice.WebApi.Data.QuoteVersionValidated.ErrorCode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAn error code, if available.\n"
+  syntax:
+    content: public virtual string ErrorCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ErrorCode As String
+  overload: SuperOffice.WebApi.Data.QuoteVersionValidated.ErrorCode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedSale
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedSale
+  id: ChangedSale
+  parent: SuperOffice.WebApi.Data.QuoteVersionValidated
+  langs:
+  - csharp
+  - vb
+  name: ChangedSale
+  nameWithType: QuoteVersionValidated.ChangedSale
+  fullName: SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedSale
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf the sale has been changed, the carrier will be added.\n"
+  syntax:
+    content: public virtual Sale ChangedSale { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Sale
+    content.vb: Public Overridable Property ChangedSale As Sale
+  overload: SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedSale*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedQuote
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedQuote
+  id: ChangedQuote
+  parent: SuperOffice.WebApi.Data.QuoteVersionValidated
+  langs:
+  - csharp
+  - vb
+  name: ChangedQuote
+  nameWithType: QuoteVersionValidated.ChangedQuote
+  fullName: SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedQuote
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe validated version is a member of Quote\n"
+  syntax:
+    content: public virtual Quote ChangedQuote { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Quote
+    content.vb: Public Overridable Property ChangedQuote As Quote
+  overload: SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedQuote*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedQuoteVersion
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedQuoteVersion
+  id: ChangedQuoteVersion
+  parent: SuperOffice.WebApi.Data.QuoteVersionValidated
+  langs:
+  - csharp
+  - vb
+  name: ChangedQuoteVersion
+  nameWithType: QuoteVersionValidated.ChangedQuoteVersion
+  fullName: SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedQuoteVersion
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe validated QuoteVersion\n"
+  syntax:
+    content: public virtual QuoteVersion ChangedQuoteVersion { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.QuoteVersion
+    content.vb: Public Overridable Property ChangedQuoteVersion As QuoteVersion
+  overload: SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedQuoteVersion*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedQuoteAlternatives
+  commentId: P:SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedQuoteAlternatives
+  id: ChangedQuoteAlternatives
+  parent: SuperOffice.WebApi.Data.QuoteVersionValidated
+  langs:
+  - csharp
+  - vb
+  name: ChangedQuoteAlternatives
+  nameWithType: QuoteVersionValidated.ChangedQuoteAlternatives
+  fullName: SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedQuoteAlternatives
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe changed QuoteAlternatives\n"
+  syntax:
+    content: public virtual QuoteAlternativeRecalculated[] ChangedQuoteAlternatives { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.QuoteAlternativeRecalculated[]
+    content.vb: Public Overridable Property ChangedQuoteAlternatives As QuoteAlternativeRecalculated()
+  overload: SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedQuoteAlternatives*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.QuoteAgent
+  commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  isExternal: true
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.WebApi.Agents.QuoteAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.QuoteVersionValidated.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionValidated.#ctor
+  isExternal: true
+  name: QuoteVersionValidated
+  nameWithType: QuoteVersionValidated.QuoteVersionValidated
+  fullName: SuperOffice.WebApi.Data.QuoteVersionValidated.QuoteVersionValidated
+- uid: SuperOffice.WebApi.Data.QuoteVersionValidated.IsOk*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionValidated.IsOk
+  isExternal: true
+  name: IsOk
+  nameWithType: QuoteVersionValidated.IsOk
+  fullName: SuperOffice.WebApi.Data.QuoteVersionValidated.IsOk
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.QuoteVersionValidated.UserExplanation*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionValidated.UserExplanation
+  isExternal: true
+  name: UserExplanation
+  nameWithType: QuoteVersionValidated.UserExplanation
+  fullName: SuperOffice.WebApi.Data.QuoteVersionValidated.UserExplanation
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.QuoteVersionValidated.TechExplanation*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionValidated.TechExplanation
+  isExternal: true
+  name: TechExplanation
+  nameWithType: QuoteVersionValidated.TechExplanation
+  fullName: SuperOffice.WebApi.Data.QuoteVersionValidated.TechExplanation
+- uid: SuperOffice.WebApi.Data.QuoteVersionValidated.ErrorCode*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionValidated.ErrorCode
+  isExternal: true
+  name: ErrorCode
+  nameWithType: QuoteVersionValidated.ErrorCode
+  fullName: SuperOffice.WebApi.Data.QuoteVersionValidated.ErrorCode
+- uid: SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedSale*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedSale
+  isExternal: true
+  name: ChangedSale
+  nameWithType: QuoteVersionValidated.ChangedSale
+  fullName: SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedSale
+- uid: SuperOffice.WebApi.Data.Sale
+  commentId: T:SuperOffice.WebApi.Data.Sale
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Sale
+  nameWithType: Sale
+  fullName: SuperOffice.WebApi.Data.Sale
+- uid: SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedQuote*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedQuote
+  isExternal: true
+  name: ChangedQuote
+  nameWithType: QuoteVersionValidated.ChangedQuote
+  fullName: SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedQuote
+- uid: SuperOffice.WebApi.Data.Quote
+  commentId: T:SuperOffice.WebApi.Data.Quote
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Quote
+  nameWithType: Quote
+  fullName: SuperOffice.WebApi.Data.Quote
+- uid: SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedQuoteVersion*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedQuoteVersion
+  isExternal: true
+  name: ChangedQuoteVersion
+  nameWithType: QuoteVersionValidated.ChangedQuoteVersion
+  fullName: SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedQuoteVersion
+- uid: SuperOffice.WebApi.Data.QuoteVersion
+  commentId: T:SuperOffice.WebApi.Data.QuoteVersion
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: QuoteVersion
+  nameWithType: QuoteVersion
+  fullName: SuperOffice.WebApi.Data.QuoteVersion
+- uid: SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedQuoteAlternatives*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedQuoteAlternatives
+  isExternal: true
+  name: ChangedQuoteAlternatives
+  nameWithType: QuoteVersionValidated.ChangedQuoteAlternatives
+  fullName: SuperOffice.WebApi.Data.QuoteVersionValidated.ChangedQuoteAlternatives
+- uid: SuperOffice.WebApi.Data.QuoteAlternativeRecalculated[]
+  isExternal: true
+  name: QuoteAlternativeRecalculated[]
+  nameWithType: QuoteAlternativeRecalculated[]
+  fullName: SuperOffice.WebApi.Data.QuoteAlternativeRecalculated[]
+  nameWithType.vb: QuoteAlternativeRecalculated()
+  fullName.vb: SuperOffice.WebApi.Data.QuoteAlternativeRecalculated()
+  name.vb: QuoteAlternativeRecalculated()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.QuoteAlternativeRecalculated
+    name: QuoteAlternativeRecalculated
+    nameWithType: QuoteAlternativeRecalculated
+    fullName: SuperOffice.WebApi.Data.QuoteAlternativeRecalculated
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.QuoteAlternativeRecalculated
+    name: QuoteAlternativeRecalculated
+    nameWithType: QuoteAlternativeRecalculated
+    fullName: SuperOffice.WebApi.Data.QuoteAlternativeRecalculated
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

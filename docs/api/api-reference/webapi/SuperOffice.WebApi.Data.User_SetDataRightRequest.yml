@@ -1,0 +1,254 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.User_SetDataRightRequest
+  commentId: T:SuperOffice.WebApi.Data.User_SetDataRightRequest
+  id: User_SetDataRightRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.User_SetDataRightRequest.#ctor
+  - SuperOffice.WebApi.Data.User_SetDataRightRequest.DataRightValue
+  - SuperOffice.WebApi.Data.User_SetDataRightRequest.RelationToOwner
+  - SuperOffice.WebApi.Data.User_SetDataRightRequest.RoleId
+  - SuperOffice.WebApi.Data.User_SetDataRightRequest.TableName
+  langs:
+  - csharp
+  - vb
+  name: User_SetDataRightRequest
+  nameWithType: User_SetDataRightRequest
+  fullName: SuperOffice.WebApi.Data.User_SetDataRightRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class User_SetDataRightRequest : Object'
+    content.vb: >-
+      Public Class User_SetDataRightRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.User_SetDataRightRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.User_SetDataRightRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.User_SetDataRightRequest
+  langs:
+  - csharp
+  - vb
+  name: User_SetDataRightRequest()
+  nameWithType: User_SetDataRightRequest.User_SetDataRightRequest()
+  fullName: SuperOffice.WebApi.Data.User_SetDataRightRequest.User_SetDataRightRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User_SetDataRightRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.User_SetDataRightRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_SetDataRightRequest.RoleId
+  commentId: P:SuperOffice.WebApi.Data.User_SetDataRightRequest.RoleId
+  id: RoleId
+  parent: SuperOffice.WebApi.Data.User_SetDataRightRequest
+  langs:
+  - csharp
+  - vb
+  name: RoleId
+  nameWithType: User_SetDataRightRequest.RoleId
+  fullName: SuperOffice.WebApi.Data.User_SetDataRightRequest.RoleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int RoleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RoleId As Integer
+  overload: SuperOffice.WebApi.Data.User_SetDataRightRequest.RoleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_SetDataRightRequest.TableName
+  commentId: P:SuperOffice.WebApi.Data.User_SetDataRightRequest.TableName
+  id: TableName
+  parent: SuperOffice.WebApi.Data.User_SetDataRightRequest
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: User_SetDataRightRequest.TableName
+  fullName: SuperOffice.WebApi.Data.User_SetDataRightRequest.TableName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string TableName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TableName As String
+  overload: SuperOffice.WebApi.Data.User_SetDataRightRequest.TableName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_SetDataRightRequest.RelationToOwner
+  commentId: P:SuperOffice.WebApi.Data.User_SetDataRightRequest.RelationToOwner
+  id: RelationToOwner
+  parent: SuperOffice.WebApi.Data.User_SetDataRightRequest
+  langs:
+  - csharp
+  - vb
+  name: RelationToOwner
+  nameWithType: User_SetDataRightRequest.RelationToOwner
+  fullName: SuperOffice.WebApi.Data.User_SetDataRightRequest.RelationToOwner
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public RoleRelationToOwner RelationToOwner { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.RoleRelationToOwner
+    content.vb: Public Property RelationToOwner As RoleRelationToOwner
+  overload: SuperOffice.WebApi.Data.User_SetDataRightRequest.RelationToOwner*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_SetDataRightRequest.DataRightValue
+  commentId: P:SuperOffice.WebApi.Data.User_SetDataRightRequest.DataRightValue
+  id: DataRightValue
+  parent: SuperOffice.WebApi.Data.User_SetDataRightRequest
+  langs:
+  - csharp
+  - vb
+  name: DataRightValue
+  nameWithType: User_SetDataRightRequest.DataRightValue
+  fullName: SuperOffice.WebApi.Data.User_SetDataRightRequest.DataRightValue
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string DataRightValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DataRightValue As String
+  overload: SuperOffice.WebApi.Data.User_SetDataRightRequest.DataRightValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.User_SetDataRightRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.User_SetDataRightRequest.#ctor
+  isExternal: true
+  name: User_SetDataRightRequest
+  nameWithType: User_SetDataRightRequest.User_SetDataRightRequest
+  fullName: SuperOffice.WebApi.Data.User_SetDataRightRequest.User_SetDataRightRequest
+- uid: SuperOffice.WebApi.Data.User_SetDataRightRequest.RoleId*
+  commentId: Overload:SuperOffice.WebApi.Data.User_SetDataRightRequest.RoleId
+  isExternal: true
+  name: RoleId
+  nameWithType: User_SetDataRightRequest.RoleId
+  fullName: SuperOffice.WebApi.Data.User_SetDataRightRequest.RoleId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.User_SetDataRightRequest.TableName*
+  commentId: Overload:SuperOffice.WebApi.Data.User_SetDataRightRequest.TableName
+  isExternal: true
+  name: TableName
+  nameWithType: User_SetDataRightRequest.TableName
+  fullName: SuperOffice.WebApi.Data.User_SetDataRightRequest.TableName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.User_SetDataRightRequest.RelationToOwner*
+  commentId: Overload:SuperOffice.WebApi.Data.User_SetDataRightRequest.RelationToOwner
+  isExternal: true
+  name: RelationToOwner
+  nameWithType: User_SetDataRightRequest.RelationToOwner
+  fullName: SuperOffice.WebApi.Data.User_SetDataRightRequest.RelationToOwner
+- uid: SuperOffice.WebApi.Data.RoleRelationToOwner
+  commentId: T:SuperOffice.WebApi.Data.RoleRelationToOwner
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: RoleRelationToOwner
+  nameWithType: RoleRelationToOwner
+  fullName: SuperOffice.WebApi.Data.RoleRelationToOwner
+- uid: SuperOffice.WebApi.Data.User_SetDataRightRequest.DataRightValue*
+  commentId: Overload:SuperOffice.WebApi.Data.User_SetDataRightRequest.DataRightValue
+  isExternal: true
+  name: DataRightValue
+  nameWithType: User_SetDataRightRequest.DataRightValue
+  fullName: SuperOffice.WebApi.Data.User_SetDataRightRequest.DataRightValue

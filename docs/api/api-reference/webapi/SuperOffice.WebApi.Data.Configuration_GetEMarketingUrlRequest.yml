@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Configuration_GetEMarketingUrlRequest
+  commentId: T:SuperOffice.WebApi.Data.Configuration_GetEMarketingUrlRequest
+  id: Configuration_GetEMarketingUrlRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Configuration_GetEMarketingUrlRequest.#ctor
+  - SuperOffice.WebApi.Data.Configuration_GetEMarketingUrlRequest.Language
+  langs:
+  - csharp
+  - vb
+  name: Configuration_GetEMarketingUrlRequest
+  nameWithType: Configuration_GetEMarketingUrlRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_GetEMarketingUrlRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Configuration_GetEMarketingUrlRequest : Object'
+    content.vb: >-
+      Public Class Configuration_GetEMarketingUrlRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Configuration_GetEMarketingUrlRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Configuration_GetEMarketingUrlRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Configuration_GetEMarketingUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: Configuration_GetEMarketingUrlRequest()
+  nameWithType: Configuration_GetEMarketingUrlRequest.Configuration_GetEMarketingUrlRequest()
+  fullName: SuperOffice.WebApi.Data.Configuration_GetEMarketingUrlRequest.Configuration_GetEMarketingUrlRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Configuration_GetEMarketingUrlRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Configuration_GetEMarketingUrlRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_GetEMarketingUrlRequest.Language
+  commentId: P:SuperOffice.WebApi.Data.Configuration_GetEMarketingUrlRequest.Language
+  id: Language
+  parent: SuperOffice.WebApi.Data.Configuration_GetEMarketingUrlRequest
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: Configuration_GetEMarketingUrlRequest.Language
+  fullName: SuperOffice.WebApi.Data.Configuration_GetEMarketingUrlRequest.Language
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Language { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Language As String
+  overload: SuperOffice.WebApi.Data.Configuration_GetEMarketingUrlRequest.Language*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Configuration_GetEMarketingUrlRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetEMarketingUrlRequest.#ctor
+  isExternal: true
+  name: Configuration_GetEMarketingUrlRequest
+  nameWithType: Configuration_GetEMarketingUrlRequest.Configuration_GetEMarketingUrlRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_GetEMarketingUrlRequest.Configuration_GetEMarketingUrlRequest
+- uid: SuperOffice.WebApi.Data.Configuration_GetEMarketingUrlRequest.Language*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_GetEMarketingUrlRequest.Language
+  isExternal: true
+  name: Language
+  nameWithType: Configuration_GetEMarketingUrlRequest.Language
+  fullName: SuperOffice.WebApi.Data.Configuration_GetEMarketingUrlRequest.Language
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

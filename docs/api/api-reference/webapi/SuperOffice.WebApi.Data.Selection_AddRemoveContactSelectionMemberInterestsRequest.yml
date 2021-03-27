@@ -1,0 +1,303 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest
+  commentId: T:SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest
+  id: Selection_AddRemoveContactSelectionMemberInterestsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.#ctor
+  - SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.AddCompanyInterests
+  - SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.AddContactInterests
+  - SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.RemoveCompanyInterests
+  - SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.RemoveContactInterests
+  - SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.SelectionId
+  langs:
+  - csharp
+  - vb
+  name: Selection_AddRemoveContactSelectionMemberInterestsRequest
+  nameWithType: Selection_AddRemoveContactSelectionMemberInterestsRequest
+  fullName: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Selection_AddRemoveContactSelectionMemberInterestsRequest : Object'
+    content.vb: >-
+      Public Class Selection_AddRemoveContactSelectionMemberInterestsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest
+  langs:
+  - csharp
+  - vb
+  name: Selection_AddRemoveContactSelectionMemberInterestsRequest()
+  nameWithType: Selection_AddRemoveContactSelectionMemberInterestsRequest.Selection_AddRemoveContactSelectionMemberInterestsRequest()
+  fullName: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.Selection_AddRemoveContactSelectionMemberInterestsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Selection_AddRemoveContactSelectionMemberInterestsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.SelectionId
+  commentId: P:SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.SelectionId
+  id: SelectionId
+  parent: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: Selection_AddRemoveContactSelectionMemberInterestsRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SelectionId As Integer
+  overload: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.SelectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.AddCompanyInterests
+  commentId: P:SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.AddCompanyInterests
+  id: AddCompanyInterests
+  parent: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest
+  langs:
+  - csharp
+  - vb
+  name: AddCompanyInterests
+  nameWithType: Selection_AddRemoveContactSelectionMemberInterestsRequest.AddCompanyInterests
+  fullName: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.AddCompanyInterests
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] AddCompanyInterests { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property AddCompanyInterests As Integer()
+  overload: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.AddCompanyInterests*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.RemoveCompanyInterests
+  commentId: P:SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.RemoveCompanyInterests
+  id: RemoveCompanyInterests
+  parent: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest
+  langs:
+  - csharp
+  - vb
+  name: RemoveCompanyInterests
+  nameWithType: Selection_AddRemoveContactSelectionMemberInterestsRequest.RemoveCompanyInterests
+  fullName: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.RemoveCompanyInterests
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] RemoveCompanyInterests { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property RemoveCompanyInterests As Integer()
+  overload: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.RemoveCompanyInterests*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.AddContactInterests
+  commentId: P:SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.AddContactInterests
+  id: AddContactInterests
+  parent: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest
+  langs:
+  - csharp
+  - vb
+  name: AddContactInterests
+  nameWithType: Selection_AddRemoveContactSelectionMemberInterestsRequest.AddContactInterests
+  fullName: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.AddContactInterests
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] AddContactInterests { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property AddContactInterests As Integer()
+  overload: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.AddContactInterests*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.RemoveContactInterests
+  commentId: P:SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.RemoveContactInterests
+  id: RemoveContactInterests
+  parent: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest
+  langs:
+  - csharp
+  - vb
+  name: RemoveContactInterests
+  nameWithType: Selection_AddRemoveContactSelectionMemberInterestsRequest.RemoveContactInterests
+  fullName: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.RemoveContactInterests
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] RemoveContactInterests { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property RemoveContactInterests As Integer()
+  overload: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.RemoveContactInterests*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.#ctor
+  isExternal: true
+  name: Selection_AddRemoveContactSelectionMemberInterestsRequest
+  nameWithType: Selection_AddRemoveContactSelectionMemberInterestsRequest.Selection_AddRemoveContactSelectionMemberInterestsRequest
+  fullName: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.Selection_AddRemoveContactSelectionMemberInterestsRequest
+- uid: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.SelectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: Selection_AddRemoveContactSelectionMemberInterestsRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.SelectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.AddCompanyInterests*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.AddCompanyInterests
+  isExternal: true
+  name: AddCompanyInterests
+  nameWithType: Selection_AddRemoveContactSelectionMemberInterestsRequest.AddCompanyInterests
+  fullName: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.AddCompanyInterests
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.RemoveCompanyInterests*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.RemoveCompanyInterests
+  isExternal: true
+  name: RemoveCompanyInterests
+  nameWithType: Selection_AddRemoveContactSelectionMemberInterestsRequest.RemoveCompanyInterests
+  fullName: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.RemoveCompanyInterests
+- uid: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.AddContactInterests*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.AddContactInterests
+  isExternal: true
+  name: AddContactInterests
+  nameWithType: Selection_AddRemoveContactSelectionMemberInterestsRequest.AddContactInterests
+  fullName: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.AddContactInterests
+- uid: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.RemoveContactInterests*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.RemoveContactInterests
+  isExternal: true
+  name: RemoveContactInterests
+  nameWithType: Selection_AddRemoveContactSelectionMemberInterestsRequest.RemoveContactInterests
+  fullName: SuperOffice.WebApi.Data.Selection_AddRemoveContactSelectionMemberInterestsRequest.RemoveContactInterests

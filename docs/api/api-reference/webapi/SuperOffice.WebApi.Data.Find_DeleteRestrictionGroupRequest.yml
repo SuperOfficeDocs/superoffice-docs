@@ -1,0 +1,284 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest
+  commentId: T:SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest
+  id: Find_DeleteRestrictionGroupRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.#ctor
+  - SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.Context
+  - SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.ProviderName
+  - SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.Rank
+  - SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.StorageKey
+  - SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.StorageType
+  langs:
+  - csharp
+  - vb
+  name: Find_DeleteRestrictionGroupRequest
+  nameWithType: Find_DeleteRestrictionGroupRequest
+  fullName: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Find_DeleteRestrictionGroupRequest : Object'
+    content.vb: >-
+      Public Class Find_DeleteRestrictionGroupRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: Find_DeleteRestrictionGroupRequest()
+  nameWithType: Find_DeleteRestrictionGroupRequest.Find_DeleteRestrictionGroupRequest()
+  fullName: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.Find_DeleteRestrictionGroupRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Find_DeleteRestrictionGroupRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.StorageType
+  commentId: P:SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.StorageType
+  id: StorageType
+  parent: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: StorageType
+  nameWithType: Find_DeleteRestrictionGroupRequest.StorageType
+  fullName: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.StorageType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string StorageType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StorageType As String
+  overload: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.StorageType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.ProviderName
+  commentId: P:SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.ProviderName
+  id: ProviderName
+  parent: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: Find_DeleteRestrictionGroupRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.ProviderName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ProviderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProviderName As String
+  overload: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.ProviderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.StorageKey
+  commentId: P:SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.StorageKey
+  id: StorageKey
+  parent: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: StorageKey
+  nameWithType: Find_DeleteRestrictionGroupRequest.StorageKey
+  fullName: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.StorageKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string StorageKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StorageKey As String
+  overload: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.StorageKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.Rank
+  commentId: P:SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: Find_DeleteRestrictionGroupRequest.Rank
+  fullName: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Rank As Integer
+  overload: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.Rank*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.Context
+  commentId: P:SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.Context
+  id: Context
+  parent: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: Context
+  nameWithType: Find_DeleteRestrictionGroupRequest.Context
+  fullName: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.Context
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Context { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Context As String
+  overload: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.Context*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.#ctor
+  isExternal: true
+  name: Find_DeleteRestrictionGroupRequest
+  nameWithType: Find_DeleteRestrictionGroupRequest.Find_DeleteRestrictionGroupRequest
+  fullName: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.Find_DeleteRestrictionGroupRequest
+- uid: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.StorageType*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.StorageType
+  isExternal: true
+  name: StorageType
+  nameWithType: Find_DeleteRestrictionGroupRequest.StorageType
+  fullName: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.StorageType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.ProviderName*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.ProviderName
+  isExternal: true
+  name: ProviderName
+  nameWithType: Find_DeleteRestrictionGroupRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.ProviderName
+- uid: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.StorageKey*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.StorageKey
+  isExternal: true
+  name: StorageKey
+  nameWithType: Find_DeleteRestrictionGroupRequest.StorageKey
+  fullName: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.StorageKey
+- uid: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: Find_DeleteRestrictionGroupRequest.Rank
+  fullName: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.Rank
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.Context*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.Context
+  isExternal: true
+  name: Context
+  nameWithType: Find_DeleteRestrictionGroupRequest.Context
+  fullName: SuperOffice.WebApi.Data.Find_DeleteRestrictionGroupRequest.Context

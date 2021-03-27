@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType
+  id: LinkInfoSubType
+  parent: SuperOffice.DCF.Web.UI.Controls
+  children:
+  - SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType.Click
+  - SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType.DblClick
+  langs:
+  - csharp
+  - vb
+  name: LinkInfoSubType
+  nameWithType: LinkInfoSubType
+  fullName: SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType
+  type: Enum
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public enum LinkInfoSubType
+    content.vb: Public Enum LinkInfoSubType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType.Click
+  commentId: F:SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType.Click
+  id: Click
+  parent: SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType
+  langs:
+  - csharp
+  - vb
+  name: Click
+  nameWithType: LinkInfoSubType.Click
+  fullName: SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType.Click
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: Click = 0
+    return:
+      type: SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType.DblClick
+  commentId: F:SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType.DblClick
+  id: DblClick
+  parent: SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType
+  langs:
+  - csharp
+  - vb
+  name: DblClick
+  nameWithType: LinkInfoSubType.DblClick
+  fullName: SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType.DblClick
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: DblClick = 1
+    return:
+      type: SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.DCF.Web.UI.Controls
+  commentId: N:SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Controls
+  nameWithType: SuperOffice.DCF.Web.UI.Controls
+  fullName: SuperOffice.DCF.Web.UI.Controls
+- uid: SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType
+  parent: SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: LinkInfoSubType
+  nameWithType: LinkInfoSubType
+  fullName: SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType

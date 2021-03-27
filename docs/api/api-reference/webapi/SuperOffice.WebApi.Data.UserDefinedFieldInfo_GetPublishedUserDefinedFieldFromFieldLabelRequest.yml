@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest
+  commentId: T:SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest
+  id: UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.#ctor
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.FieldLabel
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.OwnerType
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest
+  nameWithType: UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest : Object'
+    content.vb: >-
+      Public Class UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest()
+  nameWithType: UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest()
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.FieldLabel
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.FieldLabel
+  id: FieldLabel
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest
+  langs:
+  - csharp
+  - vb
+  name: FieldLabel
+  nameWithType: UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.FieldLabel
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.FieldLabel
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string FieldLabel { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FieldLabel As String
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.FieldLabel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.OwnerType
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.OwnerType
+  id: OwnerType
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest
+  langs:
+  - csharp
+  - vb
+  name: OwnerType
+  nameWithType: UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.OwnerType
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.OwnerType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UDefType OwnerType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.UDefType
+    content.vb: Public Property OwnerType As UDefType
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.OwnerType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.#ctor
+  isExternal: true
+  name: UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest
+  nameWithType: UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.FieldLabel*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.FieldLabel
+  isExternal: true
+  name: FieldLabel
+  nameWithType: UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.FieldLabel
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.FieldLabel
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.OwnerType*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.OwnerType
+  isExternal: true
+  name: OwnerType
+  nameWithType: UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.OwnerType
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo_GetPublishedUserDefinedFieldFromFieldLabelRequest.OwnerType
+- uid: SuperOffice.WebApi.Data.UDefType
+  commentId: T:SuperOffice.WebApi.Data.UDefType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: UDefType
+  nameWithType: UDefType
+  fullName: SuperOffice.WebApi.Data.UDefType

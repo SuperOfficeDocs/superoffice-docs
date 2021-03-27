@@ -1,0 +1,1757 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields
+  commentId: T:SuperOffice.CRM.Data.DBC.EjuserFields
+  id: DBC.EjuserFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.EjuserFields.AccessLevel
+  - SuperOffice.CRM.Data.DBC.EjuserFields.ChatStatus
+  - SuperOffice.CRM.Data.DBC.EjuserFields.DateFormat
+  - SuperOffice.CRM.Data.DBC.EjuserFields.DateFormatLongString
+  - SuperOffice.CRM.Data.DBC.EjuserFields.DateFormatString
+  - SuperOffice.CRM.Data.DBC.EjuserFields.DbiAgentId
+  - SuperOffice.CRM.Data.DBC.EjuserFields.DbiKey
+  - SuperOffice.CRM.Data.DBC.EjuserFields.DbiLastModified
+  - SuperOffice.CRM.Data.DBC.EjuserFields.DbiLastSyncronized
+  - SuperOffice.CRM.Data.DBC.EjuserFields.DefaultCategory
+  - SuperOffice.CRM.Data.DBC.EjuserFields.DefaultStatusAddMessage
+  - SuperOffice.CRM.Data.DBC.EjuserFields.DefaultStatusNewTicket
+  - SuperOffice.CRM.Data.DBC.EjuserFields.DefaultUser
+  - SuperOffice.CRM.Data.DBC.EjuserFields.Dictionary
+  - SuperOffice.CRM.Data.DBC.EjuserFields.EjuserId
+  - SuperOffice.CRM.Data.DBC.EjuserFields.Email
+  - SuperOffice.CRM.Data.DBC.EjuserFields.EmailMask
+  - SuperOffice.CRM.Data.DBC.EjuserFields.Firstname
+  - SuperOffice.CRM.Data.DBC.EjuserFields.Flags
+  - SuperOffice.CRM.Data.DBC.EjuserFields.HiddenBagBitset
+  - SuperOffice.CRM.Data.DBC.EjuserFields.IdleTime
+  - SuperOffice.CRM.Data.DBC.EjuserFields.Language
+  - SuperOffice.CRM.Data.DBC.EjuserFields.LastCategory
+  - SuperOffice.CRM.Data.DBC.EjuserFields.LastLoginAttempt
+  - SuperOffice.CRM.Data.DBC.EjuserFields.Lastname
+  - SuperOffice.CRM.Data.DBC.EjuserFields.LoginAttempts
+  - SuperOffice.CRM.Data.DBC.EjuserFields.Loginname
+  - SuperOffice.CRM.Data.DBC.EjuserFields.Middlename
+  - SuperOffice.CRM.Data.DBC.EjuserFields.MinuteOffset
+  - SuperOffice.CRM.Data.DBC.EjuserFields.NewGui
+  - SuperOffice.CRM.Data.DBC.EjuserFields.NotifyExternalLock
+  - SuperOffice.CRM.Data.DBC.EjuserFields.NotifyExternalSource
+  - SuperOffice.CRM.Data.DBC.EjuserFields.NotifyMask
+  - SuperOffice.CRM.Data.DBC.EjuserFields.NotPresent
+  - SuperOffice.CRM.Data.DBC.EjuserFields.NumExpandedMessages
+  - SuperOffice.CRM.Data.DBC.EjuserFields.Password
+  - SuperOffice.CRM.Data.DBC.EjuserFields.PictureId
+  - SuperOffice.CRM.Data.DBC.EjuserFields.ProfileId
+  - SuperOffice.CRM.Data.DBC.EjuserFields.Signature
+  - SuperOffice.CRM.Data.DBC.EjuserFields.SimultaneousLogin
+  - SuperOffice.CRM.Data.DBC.EjuserFields.Sms
+  - SuperOffice.CRM.Data.DBC.EjuserFields.SmsMask
+  - SuperOffice.CRM.Data.DBC.EjuserFields.Status
+  - SuperOffice.CRM.Data.DBC.EjuserFields.Textareasize
+  - SuperOffice.CRM.Data.DBC.EjuserFields.TimeFormatString
+  - SuperOffice.CRM.Data.DBC.EjuserFields.Usergroup
+  - SuperOffice.CRM.Data.DBC.EjuserFields.Username
+  langs:
+  - csharp
+  - vb
+  name: DBC.EjuserFields
+  nameWithType: DBC.EjuserFields
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for Ejuser, This table contains entries for the users of the system.\n"
+  syntax:
+    content: public static class EjuserFields
+    content.vb: Public Module EjuserFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.EjuserId
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.EjuserId
+  id: EjuserId
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: EjuserId
+  nameWithType: DBC.EjuserFields.EjuserId
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.EjuserId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.EjuserId: The primary key (auto-incremented)\n"
+  syntax:
+    content: public const string EjuserId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const EjuserId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.Loginname
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.Loginname
+  id: Loginname
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: Loginname
+  nameWithType: DBC.EjuserFields.Loginname
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.Loginname
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.Loginname: The unique loginname for this user.\n"
+  syntax:
+    content: public const string Loginname = "loginname"
+    return:
+      type: System.String
+    content.vb: Public Const Loginname As String = "loginname"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.Usergroup
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.Usergroup
+  id: Usergroup
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: Usergroup
+  nameWithType: DBC.EjuserFields.Usergroup
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.Usergroup
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.Usergroup: The group this user is member of \n"
+  syntax:
+    content: public const string Usergroup = "usergroup"
+    return:
+      type: System.String
+    content.vb: Public Const Usergroup As String = "usergroup"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.Username
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.Username
+  id: Username
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: Username
+  nameWithType: DBC.EjuserFields.Username
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.Username
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.Username: The unique username for this user.\n"
+  syntax:
+    content: public const string Username = "username"
+    return:
+      type: System.String
+    content.vb: Public Const Username As String = "username"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.Password
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.Password
+  id: Password
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: Password
+  nameWithType: DBC.EjuserFields.Password
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.Password
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.Password: The encrypted password for this user.\n"
+  syntax:
+    content: public const string Password = "password"
+    return:
+      type: System.String
+    content.vb: Public Const Password As String = "password"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.Firstname
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.Firstname
+  id: Firstname
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: Firstname
+  nameWithType: DBC.EjuserFields.Firstname
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.Firstname
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.Firstname: The firstname for this user.\n"
+  syntax:
+    content: public const string Firstname = "firstname"
+    return:
+      type: System.String
+    content.vb: Public Const Firstname As String = "firstname"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.Middlename
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.Middlename
+  id: Middlename
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: Middlename
+  nameWithType: DBC.EjuserFields.Middlename
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.Middlename
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.Middlename: The middlename for this user.\n"
+  syntax:
+    content: public const string Middlename = "middlename"
+    return:
+      type: System.String
+    content.vb: Public Const Middlename As String = "middlename"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.Lastname
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.Lastname
+  id: Lastname
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: Lastname
+  nameWithType: DBC.EjuserFields.Lastname
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.Lastname
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.Lastname: The lastname for this user.\n"
+  syntax:
+    content: public const string Lastname = "lastname"
+    return:
+      type: System.String
+    content.vb: Public Const Lastname As String = "lastname"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.Email
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.Email
+  id: Email
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: DBC.EjuserFields.Email
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.Email
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.Email: The email address for this user.\n"
+  syntax:
+    content: public const string Email = "email"
+    return:
+      type: System.String
+    content.vb: Public Const Email As String = "email"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.AccessLevel
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.AccessLevel
+  id: AccessLevel
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: AccessLevel
+  nameWithType: DBC.EjuserFields.AccessLevel
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.AccessLevel
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.AccessLevel: The access level for this user.\n"
+  syntax:
+    content: public const string AccessLevel = "access_level"
+    return:
+      type: System.String
+    content.vb: Public Const AccessLevel As String = "access_level"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.Status
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.Status
+  id: Status
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: DBC.EjuserFields.Status
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.Status
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.Status: The status (enum) for this user.\n"
+  syntax:
+    content: public const string Status = "status"
+    return:
+      type: System.String
+    content.vb: Public Const Status As String = "status"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.Signature
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.Signature
+  id: Signature
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: Signature
+  nameWithType: DBC.EjuserFields.Signature
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.Signature
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.Signature: The users signature.\n"
+  syntax:
+    content: public const string Signature = "signature"
+    return:
+      type: System.String
+    content.vb: Public Const Signature As String = "signature"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.NotifyMask
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.NotifyMask
+  id: NotifyMask
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: NotifyMask
+  nameWithType: DBC.EjuserFields.NotifyMask
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.NotifyMask
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.NotifyMask: A bitmask indicating to which extent the user should recieve pop-up warnings for various events.\n"
+  syntax:
+    content: public const string NotifyMask = "notify_mask"
+    return:
+      type: System.String
+    content.vb: Public Const NotifyMask As String = "notify_mask"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.EmailMask
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.EmailMask
+  id: EmailMask
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: EmailMask
+  nameWithType: DBC.EjuserFields.EmailMask
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.EmailMask
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.EmailMask: A bitmask indicated to which extent the user should recieve email warnings for various events.\n"
+  syntax:
+    content: public const string EmailMask = "email_mask"
+    return:
+      type: System.String
+    content.vb: Public Const EmailMask As String = "email_mask"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.SmsMask
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.SmsMask
+  id: SmsMask
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: SmsMask
+  nameWithType: DBC.EjuserFields.SmsMask
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.SmsMask
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.SmsMask: A bitmask indicated to which extent the user should recieve sms warnings for various events.\n"
+  syntax:
+    content: public const string SmsMask = "sms_mask"
+    return:
+      type: System.String
+    content.vb: Public Const SmsMask As String = "sms_mask"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.Language
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.Language
+  id: Language
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: DBC.EjuserFields.Language
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.Language
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.Language: A string indicating the user&apos;s language (&apos;no&apos; or &apos;en&apos;).\n"
+  syntax:
+    content: public const string Language = "language"
+    return:
+      type: System.String
+    content.vb: Public Const Language As String = "language"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.Dictionary
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.Dictionary
+  id: Dictionary
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: Dictionary
+  nameWithType: DBC.EjuserFields.Dictionary
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.Dictionary
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.Dictionary: A string indicating the user&apos;s prefered dictionary language (&apos;no&apos; or &apos;en&apos;).\n"
+  syntax:
+    content: public const string Dictionary = "dictionary"
+    return:
+      type: System.String
+    content.vb: Public Const Dictionary As String = "dictionary"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.DefaultCategory
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.DefaultCategory
+  id: DefaultCategory
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: DefaultCategory
+  nameWithType: DBC.EjuserFields.DefaultCategory
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.DefaultCategory
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.DefaultCategory: The default category for this user when posting tickets and use_last_category is false. \n"
+  syntax:
+    content: public const string DefaultCategory = "default_category"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultCategory As String = "default_category"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.Textareasize
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.Textareasize
+  id: Textareasize
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: Textareasize
+  nameWithType: DBC.EjuserFields.Textareasize
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.Textareasize
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.Textareasize: Size of textarea for each user, example &apos;80x40&apos;\n"
+  syntax:
+    content: public const string Textareasize = "textareasize"
+    return:
+      type: System.String
+    content.vb: Public Const Textareasize As String = "textareasize"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.Flags
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.Flags
+  id: Flags
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: DBC.EjuserFields.Flags
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.Flags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.Flags: A bitmask indicating flags for this entry.\n"
+  syntax:
+    content: public const string Flags = "flags"
+    return:
+      type: System.String
+    content.vb: Public Const Flags As String = "flags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.LastCategory
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.LastCategory
+  id: LastCategory
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: LastCategory
+  nameWithType: DBC.EjuserFields.LastCategory
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.LastCategory
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.LastCategory: The last chosen category for this user when posting tickets.\n"
+  syntax:
+    content: public const string LastCategory = "last_category"
+    return:
+      type: System.String
+    content.vb: Public Const LastCategory As String = "last_category"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.ProfileId
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.ProfileId
+  id: ProfileId
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: ProfileId
+  nameWithType: DBC.EjuserFields.ProfileId
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.ProfileId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.ProfileId: Reference to the profile connected to this ejuser\n"
+  syntax:
+    content: public const string ProfileId = "profile_id"
+    return:
+      type: System.String
+    content.vb: Public Const ProfileId As String = "profile_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.HiddenBagBitset
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.HiddenBagBitset
+  id: HiddenBagBitset
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: HiddenBagBitset
+  nameWithType: DBC.EjuserFields.HiddenBagBitset
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.HiddenBagBitset
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.HiddenBagBitset: Each character represent a bit to set a HtmlBagHideable to default open or closed (1=open 0=closed)\n"
+  syntax:
+    content: public const string HiddenBagBitset = "hidden_bag_bitset"
+    return:
+      type: System.String
+    content.vb: Public Const HiddenBagBitset As String = "hidden_bag_bitset"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.NotifyExternalLock
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.NotifyExternalLock
+  id: NotifyExternalLock
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: NotifyExternalLock
+  nameWithType: DBC.EjuserFields.NotifyExternalLock
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.NotifyExternalLock
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.NotifyExternalLock: A datetime lock to make sure notifications are only displayed by one notifcation system (ejournal or external programs)\n"
+  syntax:
+    content: public const string NotifyExternalLock = "notify_external_lock"
+    return:
+      type: System.String
+    content.vb: Public Const NotifyExternalLock As String = "notify_external_lock"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.NotifyExternalSource
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.NotifyExternalSource
+  id: NotifyExternalSource
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: NotifyExternalSource
+  nameWithType: DBC.EjuserFields.NotifyExternalSource
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.NotifyExternalSource
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.NotifyExternalSource: A name (id) of the external notifications system (ejournal or external programs)\n"
+  syntax:
+    content: public const string NotifyExternalSource = "notify_external_source"
+    return:
+      type: System.String
+    content.vb: Public Const NotifyExternalSource As String = "notify_external_source"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.LoginAttempts
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.LoginAttempts
+  id: LoginAttempts
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: LoginAttempts
+  nameWithType: DBC.EjuserFields.LoginAttempts
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.LoginAttempts
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.LoginAttempts: The number of times the user has attempted to login with the wrong password\n"
+  syntax:
+    content: public const string LoginAttempts = "login_attempts"
+    return:
+      type: System.String
+    content.vb: Public Const LoginAttempts As String = "login_attempts"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.LastLoginAttempt
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.LastLoginAttempt
+  id: LastLoginAttempt
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: LastLoginAttempt
+  nameWithType: DBC.EjuserFields.LastLoginAttempt
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.LastLoginAttempt
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.LastLoginAttempt: The last time the user tried to log in without success\n"
+  syntax:
+    content: public const string LastLoginAttempt = "last_login_attempt"
+    return:
+      type: System.String
+    content.vb: Public Const LastLoginAttempt As String = "last_login_attempt"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.IdleTime
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.IdleTime
+  id: IdleTime
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: IdleTime
+  nameWithType: DBC.EjuserFields.IdleTime
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.IdleTime
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.IdleTime: Number of seconds the user has been idle. Updated by TrayIcon or simular external programs.\n"
+  syntax:
+    content: public const string IdleTime = "idle_time"
+    return:
+      type: System.String
+    content.vb: Public Const IdleTime As String = "idle_time"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.DefaultUser
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.DefaultUser
+  id: DefaultUser
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: DefaultUser
+  nameWithType: DBC.EjuserFields.DefaultUser
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.DefaultUser
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.DefaultUser: The default user to set on new tickets in this category (1=automatically, 2=unasigned, 3=the owner\n"
+  syntax:
+    content: public const string DefaultUser = "default_user"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultUser As String = "default_user"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.Sms
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.Sms
+  id: Sms
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: Sms
+  nameWithType: DBC.EjuserFields.Sms
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.Sms
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.Sms: The SMS number for this user\n"
+  syntax:
+    content: public const string Sms = "sms"
+    return:
+      type: System.String
+    content.vb: Public Const Sms As String = "sms"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.NewGui
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.NewGui
+  id: NewGui
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: NewGui
+  nameWithType: DBC.EjuserFields.NewGui
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.NewGui
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.NewGui: Whether to use the new gui or not\n"
+  syntax:
+    content: public const string NewGui = "new_gui"
+    return:
+      type: System.String
+    content.vb: Public Const NewGui As String = "new_gui"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.DbiAgentId
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.DbiAgentId
+  id: DbiAgentId
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: DbiAgentId
+  nameWithType: DBC.EjuserFields.DbiAgentId
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.DbiAgentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.DbiAgentId: Integration agent (eJournal)\n"
+  syntax:
+    content: public const string DbiAgentId = "dbi_agent_id"
+    return:
+      type: System.String
+    content.vb: Public Const DbiAgentId As String = "dbi_agent_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.DbiKey
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.DbiKey
+  id: DbiKey
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: DbiKey
+  nameWithType: DBC.EjuserFields.DbiKey
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.DbiKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.DbiKey: The primary key for the integrated entry in the external datasource.\n"
+  syntax:
+    content: public const string DbiKey = "dbi_key"
+    return:
+      type: System.String
+    content.vb: Public Const DbiKey As String = "dbi_key"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.DbiLastSyncronized
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.DbiLastSyncronized
+  id: DbiLastSyncronized
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: DbiLastSyncronized
+  nameWithType: DBC.EjuserFields.DbiLastSyncronized
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.DbiLastSyncronized
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.DbiLastSyncronized: Last external syncronization.\n"
+  syntax:
+    content: public const string DbiLastSyncronized = "dbi_last_syncronized"
+    return:
+      type: System.String
+    content.vb: Public Const DbiLastSyncronized As String = "dbi_last_syncronized"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.DbiLastModified
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.DbiLastModified
+  id: DbiLastModified
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: DbiLastModified
+  nameWithType: DBC.EjuserFields.DbiLastModified
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.DbiLastModified
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.DbiLastModified: When the entry was last modified.\n"
+  syntax:
+    content: public const string DbiLastModified = "dbi_last_modified"
+    return:
+      type: System.String
+    content.vb: Public Const DbiLastModified As String = "dbi_last_modified"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.MinuteOffset
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.MinuteOffset
+  id: MinuteOffset
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: MinuteOffset
+  nameWithType: DBC.EjuserFields.MinuteOffset
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.MinuteOffset
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.MinuteOffset: Offset in hours between server and ejuser timezone.\n"
+  syntax:
+    content: public const string MinuteOffset = "minute_offset"
+    return:
+      type: System.String
+    content.vb: Public Const MinuteOffset As String = "minute_offset"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.DateFormat
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.DateFormat
+  id: DateFormat
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: DateFormat
+  nameWithType: DBC.EjuserFields.DateFormat
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.DateFormat
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.DateFormat: The preferred format of dates and datetimes (enum) for this user.\n"
+  syntax:
+    content: public const string DateFormat = "date_format"
+    return:
+      type: System.String
+    content.vb: Public Const DateFormat As String = "date_format"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.SimultaneousLogin
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.SimultaneousLogin
+  id: SimultaneousLogin
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: SimultaneousLogin
+  nameWithType: DBC.EjuserFields.SimultaneousLogin
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.SimultaneousLogin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.SimultaneousLogin: A boolean telling if the user is counted as one of the simultaneous ones, or one who alway may log in\n"
+  syntax:
+    content: public const string SimultaneousLogin = "simultaneous_login"
+    return:
+      type: System.String
+    content.vb: Public Const SimultaneousLogin As String = "simultaneous_login"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.PictureId
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.PictureId
+  id: PictureId
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: PictureId
+  nameWithType: DBC.EjuserFields.PictureId
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.PictureId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.PictureId: The attachment.id this reference is connected to.\n"
+  syntax:
+    content: public const string PictureId = "picture_id"
+    return:
+      type: System.String
+    content.vb: Public Const PictureId As String = "picture_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.NotPresent
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.NotPresent
+  id: NotPresent
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: NotPresent
+  nameWithType: DBC.EjuserFields.NotPresent
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.NotPresent
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.NotPresent: Comment to add for user when status is not present.\n"
+  syntax:
+    content: public const string NotPresent = "not_present"
+    return:
+      type: System.String
+    content.vb: Public Const NotPresent As String = "not_present"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.DefaultStatusNewTicket
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.DefaultStatusNewTicket
+  id: DefaultStatusNewTicket
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: DefaultStatusNewTicket
+  nameWithType: DBC.EjuserFields.DefaultStatusNewTicket
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.DefaultStatusNewTicket
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.DefaultStatusNewTicket: Default status on new requests.\n"
+  syntax:
+    content: public const string DefaultStatusNewTicket = "default_status_new_ticket"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultStatusNewTicket As String = "default_status_new_ticket"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.DefaultStatusAddMessage
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.DefaultStatusAddMessage
+  id: DefaultStatusAddMessage
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: DefaultStatusAddMessage
+  nameWithType: DBC.EjuserFields.DefaultStatusAddMessage
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.DefaultStatusAddMessage
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.DefaultStatusAddMessage: Default status on add message.\n"
+  syntax:
+    content: public const string DefaultStatusAddMessage = "default_status_add_message"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultStatusAddMessage As String = "default_status_add_message"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.NumExpandedMessages
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.NumExpandedMessages
+  id: NumExpandedMessages
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: NumExpandedMessages
+  nameWithType: DBC.EjuserFields.NumExpandedMessages
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.NumExpandedMessages
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.NumExpandedMessages: The number of expanded messages in show-ticket view.\n"
+  syntax:
+    content: public const string NumExpandedMessages = "num_expanded_messages"
+    return:
+      type: System.String
+    content.vb: Public Const NumExpandedMessages As String = "num_expanded_messages"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.DateFormatString
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.DateFormatString
+  id: DateFormatString
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: DateFormatString
+  nameWithType: DBC.EjuserFields.DateFormatString
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.DateFormatString
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.DateFormatString: Chosen date format as a string for this user\n"
+  syntax:
+    content: public const string DateFormatString = "date_format_string"
+    return:
+      type: System.String
+    content.vb: Public Const DateFormatString As String = "date_format_string"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.TimeFormatString
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.TimeFormatString
+  id: TimeFormatString
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: TimeFormatString
+  nameWithType: DBC.EjuserFields.TimeFormatString
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.TimeFormatString
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.TimeFormatString: Chosen time format as a string for this user\n"
+  syntax:
+    content: public const string TimeFormatString = "time_format_string"
+    return:
+      type: System.String
+    content.vb: Public Const TimeFormatString As String = "time_format_string"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.DateFormatLongString
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.DateFormatLongString
+  id: DateFormatLongString
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: DateFormatLongString
+  nameWithType: DBC.EjuserFields.DateFormatLongString
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.DateFormatLongString
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.DateFormatLongString: Chosen date format for lists as a string for this user\n"
+  syntax:
+    content: public const string DateFormatLongString = "date_format_long_string"
+    return:
+      type: System.String
+    content.vb: Public Const DateFormatLongString As String = "date_format_long_string"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjuserFields.ChatStatus
+  commentId: F:SuperOffice.CRM.Data.DBC.EjuserFields.ChatStatus
+  id: ChatStatus
+  parent: SuperOffice.CRM.Data.DBC.EjuserFields
+  langs:
+  - csharp
+  - vb
+  name: ChatStatus
+  nameWithType: DBC.EjuserFields.ChatStatus
+  fullName: SuperOffice.CRM.Data.DBC.EjuserFields.ChatStatus
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjuser.ChatStatus: Various chat statuses for an agent\n"
+  syntax:
+    content: public const string ChatStatus = "chat_status"
+    return:
+      type: System.String
+    content.vb: Public Const ChatStatus As String = "chat_status"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,1152 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding
+  commentId: T:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding
+  id: ExtensibleColumnsBase.DbColumnBinding
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ColumnIndex
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ColumnInfo
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.CustomHandling
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.FieldInfo
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.HandledByBaseClass
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.IsAssociate
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.IsEjUser
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.LinkBase
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ListTable
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.MaxHeight
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.MaxWidth
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.Needed
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.NotAListTable
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByColumnIndex
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByField
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.StandardHandling
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ToString
+  langs:
+  - csharp
+  - vb
+  name: ExtensibleColumnsBase.DbColumnBinding
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nThis data class carries binding information for one archive column, relating its\nFieldInfo, column index, list table etc\n"
+  syntax:
+    content: public class DbColumnBinding
+    content.vb: Public Class DbColumnBinding
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.CustomHandling
+  commentId: F:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.CustomHandling
+  id: CustomHandling
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding
+  langs:
+  - csharp
+  - vb
+  name: CustomHandling
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.CustomHandling
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.CustomHandling
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const bool CustomHandling = false
+    return:
+      type: System.Boolean
+    content.vb: Public Const CustomHandling As Boolean = False
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.StandardHandling
+  commentId: F:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.StandardHandling
+  id: StandardHandling
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding
+  langs:
+  - csharp
+  - vb
+  name: StandardHandling
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.StandardHandling
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.StandardHandling
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const bool StandardHandling = true
+    return:
+      type: System.Boolean
+    content.vb: Public Const StandardHandling As Boolean = True
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.NotAListTable
+  commentId: F:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.NotAListTable
+  id: NotAListTable
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding
+  langs:
+  - csharp
+  - vb
+  name: NotAListTable
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.NotAListTable
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.NotAListTable
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string NotAListTable = null
+    return:
+      type: System.String
+    content.vb: Public Const NotAListTable As String = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ToString
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ToString
+  id: ToString
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.ToString()
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ToString()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.FieldInfo
+  commentId: P:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.FieldInfo
+  id: FieldInfo
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding
+  langs:
+  - csharp
+  - vb
+  name: FieldInfo
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.FieldInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.FieldInfo
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public FieldInfo FieldInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public Property FieldInfo As FieldInfo
+  overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.FieldInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ColumnIndex
+  commentId: P:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ColumnIndex
+  id: ColumnIndex
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding
+  langs:
+  - csharp
+  - vb
+  name: ColumnIndex
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.ColumnIndex
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ColumnIndex
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public int ColumnIndex { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ColumnIndex As Integer
+  overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ColumnIndex*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.HandledByBaseClass
+  commentId: P:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.HandledByBaseClass
+  id: HandledByBaseClass
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding
+  langs:
+  - csharp
+  - vb
+  name: HandledByBaseClass
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.HandledByBaseClass
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.HandledByBaseClass
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public bool HandledByBaseClass { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HandledByBaseClass As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.HandledByBaseClass*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ListTable
+  commentId: P:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ListTable
+  id: ListTable
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding
+  langs:
+  - csharp
+  - vb
+  name: ListTable
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.ListTable
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ListTable
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public string ListTable { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ListTable As String
+  overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ListTable*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.Needed
+  commentId: P:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.Needed
+  id: Needed
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding
+  langs:
+  - csharp
+  - vb
+  name: Needed
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.Needed
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.Needed
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public bool Needed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Needed As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.Needed*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.LinkBase
+  commentId: P:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.LinkBase
+  id: LinkBase
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding
+  langs:
+  - csharp
+  - vb
+  name: LinkBase
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.LinkBase
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.LinkBase
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public string LinkBase { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LinkBase As String
+  overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.LinkBase*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByField
+  commentId: P:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByField
+  id: OrderByField
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding
+  langs:
+  - csharp
+  - vb
+  name: OrderByField
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.OrderByField
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByField
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public FieldInfo OrderByField { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo
+    content.vb: Public Property OrderByField As FieldInfo
+  overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByField*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByColumnIndex
+  commentId: P:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByColumnIndex
+  id: OrderByColumnIndex
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding
+  langs:
+  - csharp
+  - vb
+  name: OrderByColumnIndex
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.OrderByColumnIndex
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByColumnIndex
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public int OrderByColumnIndex { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property OrderByColumnIndex As Integer
+  overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByColumnIndex*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.IsAssociate
+  commentId: P:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.IsAssociate
+  id: IsAssociate
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding
+  langs:
+  - csharp
+  - vb
+  name: IsAssociate
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.IsAssociate
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.IsAssociate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public bool IsAssociate { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsAssociate As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.IsAssociate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.IsEjUser
+  commentId: P:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.IsEjUser
+  id: IsEjUser
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding
+  langs:
+  - csharp
+  - vb
+  name: IsEjUser
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.IsEjUser
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.IsEjUser
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public bool IsEjUser { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsEjUser As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.IsEjUser*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ColumnInfo
+  commentId: P:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ColumnInfo
+  id: ColumnInfo
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding
+  langs:
+  - csharp
+  - vb
+  name: ColumnInfo
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.ColumnInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ColumnInfo
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public ArchiveColumnInfo ColumnInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Public Property ColumnInfo As ArchiveColumnInfo
+  overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ColumnInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.MaxWidth
+  commentId: P:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.MaxWidth
+  id: MaxWidth
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding
+  langs:
+  - csharp
+  - vb
+  name: MaxWidth
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.MaxWidth
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.MaxWidth
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public int MaxWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxWidth As Integer
+  overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.MaxWidth*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.MaxHeight
+  commentId: P:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.MaxHeight
+  id: MaxHeight
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding
+  langs:
+  - csharp
+  - vb
+  name: MaxHeight
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.MaxHeight
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.MaxHeight
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public int MaxHeight { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxHeight As Integer
+  overload: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.MaxHeight*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ExtensibleColumnsBase.DbColumnBinding, To>()
+  nameWithType: EnumUtil.MapEnums<ExtensibleColumnsBase.DbColumnBinding, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ExtensibleColumnsBase.DbColumnBinding, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding, To)()
+  name.vb: MapEnums(Of ExtensibleColumnsBase.DbColumnBinding, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ExtensibleColumnsBase.DbColumnBinding, To>
+    nameWithType: EnumUtil.MapEnums<ExtensibleColumnsBase.DbColumnBinding, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ExtensibleColumnsBase.DbColumnBinding, To)
+    nameWithType: EnumUtil.MapEnums(Of ExtensibleColumnsBase.DbColumnBinding, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ExtensibleColumnsBase.DbColumnBinding, To>()
+  nameWithType: Converters.MapEnums<ExtensibleColumnsBase.DbColumnBinding, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding, To>()
+  nameWithType.vb: Converters.MapEnums(Of ExtensibleColumnsBase.DbColumnBinding, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding, To)()
+  name.vb: MapEnums(Of ExtensibleColumnsBase.DbColumnBinding, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ExtensibleColumnsBase.DbColumnBinding, To>
+    nameWithType: Converters.MapEnums<ExtensibleColumnsBase.DbColumnBinding, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ExtensibleColumnsBase.DbColumnBinding, To)
+    nameWithType: Converters.MapEnums(Of ExtensibleColumnsBase.DbColumnBinding, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ToString*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.ToString
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ToString
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.FieldInfo*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.FieldInfo
+  isExternal: true
+  name: FieldInfo
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.FieldInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.FieldInfo
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ColumnIndex*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ColumnIndex
+  isExternal: true
+  name: ColumnIndex
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.ColumnIndex
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ColumnIndex
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.HandledByBaseClass*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.HandledByBaseClass
+  isExternal: true
+  name: HandledByBaseClass
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.HandledByBaseClass
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.HandledByBaseClass
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ListTable*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ListTable
+  isExternal: true
+  name: ListTable
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.ListTable
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ListTable
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.Needed*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.Needed
+  isExternal: true
+  name: Needed
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.Needed
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.Needed
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.LinkBase*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.LinkBase
+  isExternal: true
+  name: LinkBase
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.LinkBase
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.LinkBase
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByField*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByField
+  isExternal: true
+  name: OrderByField
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.OrderByField
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByField
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByColumnIndex*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByColumnIndex
+  isExternal: true
+  name: OrderByColumnIndex
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.OrderByColumnIndex
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.OrderByColumnIndex
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.IsAssociate*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.IsAssociate
+  isExternal: true
+  name: IsAssociate
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.IsAssociate
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.IsAssociate
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.IsEjUser*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.IsEjUser
+  isExternal: true
+  name: IsEjUser
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.IsEjUser
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.IsEjUser
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ColumnInfo*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ColumnInfo
+  isExternal: true
+  name: ColumnInfo
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.ColumnInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.ColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveColumnInfo
+  nameWithType: ArchiveColumnInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.MaxWidth*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.MaxWidth
+  isExternal: true
+  name: MaxWidth
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.MaxWidth
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.MaxWidth
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.MaxHeight*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.MaxHeight
+  isExternal: true
+  name: MaxHeight
+  nameWithType: ExtensibleColumnsBase.DbColumnBinding.MaxHeight
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DbColumnBinding.MaxHeight

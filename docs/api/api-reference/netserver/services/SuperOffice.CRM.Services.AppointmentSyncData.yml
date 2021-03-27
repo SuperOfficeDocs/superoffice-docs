@@ -1,0 +1,1271 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.AppointmentSyncData
+  commentId: T:SuperOffice.CRM.Services.AppointmentSyncData
+  id: AppointmentSyncData
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.AppointmentSyncData.#ctor
+  - SuperOffice.CRM.Services.AppointmentSyncData.AlarmTime
+  - SuperOffice.CRM.Services.AppointmentSyncData.AppointmentId
+  - SuperOffice.CRM.Services.AppointmentSyncData.AppointmentText
+  - SuperOffice.CRM.Services.AppointmentSyncData.ContactDepartment
+  - SuperOffice.CRM.Services.AppointmentSyncData.ContactFullName
+  - SuperOffice.CRM.Services.AppointmentSyncData.ContactId
+  - SuperOffice.CRM.Services.AppointmentSyncData.ContactName
+  - SuperOffice.CRM.Services.AppointmentSyncData.EndDate
+  - SuperOffice.CRM.Services.AppointmentSyncData.HasAlarm
+  - SuperOffice.CRM.Services.AppointmentSyncData.IsAllDay
+  - SuperOffice.CRM.Services.AppointmentSyncData.IsAssignment
+  - SuperOffice.CRM.Services.AppointmentSyncData.IsBusy
+  - SuperOffice.CRM.Services.AppointmentSyncData.IsCompleted
+  - SuperOffice.CRM.Services.AppointmentSyncData.IsInvitation
+  - SuperOffice.CRM.Services.AppointmentSyncData.IsTentative
+  - SuperOffice.CRM.Services.AppointmentSyncData.Location
+  - SuperOffice.CRM.Services.AppointmentSyncData.Participants
+  - SuperOffice.CRM.Services.AppointmentSyncData.PersonFormalName
+  - SuperOffice.CRM.Services.AppointmentSyncData.PersonFullName
+  - SuperOffice.CRM.Services.AppointmentSyncData.PersonId
+  - SuperOffice.CRM.Services.AppointmentSyncData.ProjectId
+  - SuperOffice.CRM.Services.AppointmentSyncData.ProjectName
+  - SuperOffice.CRM.Services.AppointmentSyncData.SaleId
+  - SuperOffice.CRM.Services.AppointmentSyncData.SaleName
+  - SuperOffice.CRM.Services.AppointmentSyncData.StartDate
+  - SuperOffice.CRM.Services.AppointmentSyncData.TaskName
+  - SuperOffice.CRM.Services.AppointmentSyncData.ToString
+  - SuperOffice.CRM.Services.AppointmentSyncData.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: AppointmentSyncData
+  nameWithType: AppointmentSyncData
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for AppointmentSyncData.\nServices for the AppointmentSyncData Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IAppointmentAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class AppointmentSyncData : Carrier'
+    content.vb: >-
+      Public Class AppointmentSyncData
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.AppointmentAgent
+    commentId: T:SuperOffice.CRM.Services.AppointmentAgent
+  - linkId: SuperOffice.CRM.Services.IAppointmentAgent
+    commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.#ctor
+  commentId: M:SuperOffice.CRM.Services.AppointmentSyncData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: AppointmentSyncData()
+  nameWithType: AppointmentSyncData.AppointmentSyncData()
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.AppointmentSyncData()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public AppointmentSyncData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.ToString
+  commentId: M:SuperOffice.CRM.Services.AppointmentSyncData.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: AppointmentSyncData.ToString()
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.AppointmentSyncData.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: AppointmentSyncData.ToString(String)
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.AlarmTime
+  commentId: P:SuperOffice.CRM.Services.AppointmentSyncData.AlarmTime
+  id: AlarmTime
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: AlarmTime
+  nameWithType: AppointmentSyncData.AlarmTime
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.AlarmTime
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDate and time at which to show alarm \n"
+  syntax:
+    content: public virtual DateTime AlarmTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property AlarmTime As Date
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.AlarmTime*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.AppointmentId
+  commentId: P:SuperOffice.CRM.Services.AppointmentSyncData.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: AppointmentSyncData.AppointmentId
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.AppointmentId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int AppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AppointmentId As Integer
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.AppointmentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.AppointmentText
+  commentId: P:SuperOffice.CRM.Services.AppointmentSyncData.AppointmentText
+  id: AppointmentText
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: AppointmentText
+  nameWithType: AppointmentSyncData.AppointmentText
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.AppointmentText
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe appointment&apos;s textbox; holds a descriptive text about the appointment. Filled out by the user. \n"
+  syntax:
+    content: public virtual string AppointmentText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property AppointmentText As String
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.AppointmentText*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.ContactDepartment
+  commentId: P:SuperOffice.CRM.Services.AppointmentSyncData.ContactDepartment
+  id: ContactDepartment
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: ContactDepartment
+  nameWithType: AppointmentSyncData.ContactDepartment
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.ContactDepartment
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe department of the contact connected to the appointment \n"
+  syntax:
+    content: public virtual string ContactDepartment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactDepartment As String
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.ContactDepartment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.ContactFullName
+  commentId: P:SuperOffice.CRM.Services.AppointmentSyncData.ContactFullName
+  id: ContactFullName
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: ContactFullName
+  nameWithType: AppointmentSyncData.ContactFullName
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.ContactFullName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe entire name of the contact, including department name \n"
+  syntax:
+    content: public virtual string ContactFullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactFullName As String
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.ContactFullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.ContactName
+  commentId: P:SuperOffice.CRM.Services.AppointmentSyncData.ContactName
+  id: ContactName
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: ContactName
+  nameWithType: AppointmentSyncData.ContactName
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.ContactName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe contact associated with the appointment. \n"
+  syntax:
+    content: public virtual string ContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactName As String
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.ContactName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.ContactId
+  commentId: P:SuperOffice.CRM.Services.AppointmentSyncData.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: AppointmentSyncData.ContactId
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.ContactId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe contacts identifier \n"
+  syntax:
+    content: public virtual int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.EndDate
+  commentId: P:SuperOffice.CRM.Services.AppointmentSyncData.EndDate
+  id: EndDate
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: EndDate
+  nameWithType: AppointmentSyncData.EndDate
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.EndDate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDate + end time planned \n"
+  syntax:
+    content: public virtual DateTime EndDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property EndDate As Date
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.EndDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.HasAlarm
+  commentId: P:SuperOffice.CRM.Services.AppointmentSyncData.HasAlarm
+  id: HasAlarm
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: HasAlarm
+  nameWithType: AppointmentSyncData.HasAlarm
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.HasAlarm
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDoes this appointment have an alarm \n"
+  syntax:
+    content: public virtual bool HasAlarm { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property HasAlarm As Boolean
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.HasAlarm*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.IsAllDay
+  commentId: P:SuperOffice.CRM.Services.AppointmentSyncData.IsAllDay
+  id: IsAllDay
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: IsAllDay
+  nameWithType: AppointmentSyncData.IsAllDay
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.IsAllDay
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual bool IsAllDay { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsAllDay As Boolean
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.IsAllDay*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.IsAssignment
+  commentId: P:SuperOffice.CRM.Services.AppointmentSyncData.IsAssignment
+  id: IsAssignment
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: IsAssignment
+  nameWithType: AppointmentSyncData.IsAssignment
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.IsAssignment
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual bool IsAssignment { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsAssignment As Boolean
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.IsAssignment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.IsBusy
+  commentId: P:SuperOffice.CRM.Services.AppointmentSyncData.IsBusy
+  id: IsBusy
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: IsBusy
+  nameWithType: AppointmentSyncData.IsBusy
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.IsBusy
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual bool IsBusy { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsBusy As Boolean
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.IsBusy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.IsCompleted
+  commentId: P:SuperOffice.CRM.Services.AppointmentSyncData.IsCompleted
+  id: IsCompleted
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: IsCompleted
+  nameWithType: AppointmentSyncData.IsCompleted
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.IsCompleted
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual bool IsCompleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsCompleted As Boolean
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.IsCompleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.IsInvitation
+  commentId: P:SuperOffice.CRM.Services.AppointmentSyncData.IsInvitation
+  id: IsInvitation
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: IsInvitation
+  nameWithType: AppointmentSyncData.IsInvitation
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.IsInvitation
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual bool IsInvitation { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsInvitation As Boolean
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.IsInvitation*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.IsTentative
+  commentId: P:SuperOffice.CRM.Services.AppointmentSyncData.IsTentative
+  id: IsTentative
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: IsTentative
+  nameWithType: AppointmentSyncData.IsTentative
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.IsTentative
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual bool IsTentative { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsTentative As Boolean
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.IsTentative*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.Location
+  commentId: P:SuperOffice.CRM.Services.AppointmentSyncData.Location
+  id: Location
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: AppointmentSyncData.Location
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.Location
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLocation for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here \n"
+  syntax:
+    content: public virtual string Location { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Location As String
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.Location*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.Participants
+  commentId: P:SuperOffice.CRM.Services.AppointmentSyncData.Participants
+  id: Participants
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: Participants
+  nameWithType: AppointmentSyncData.Participants
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.Participants
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual ParticipantSyncData[] Participants { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.ParticipantSyncData[]
+    content.vb: Public Overridable Property Participants As ParticipantSyncData()
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.Participants*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.PersonFormalName
+  commentId: P:SuperOffice.CRM.Services.AppointmentSyncData.PersonFormalName
+  id: PersonFormalName
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: PersonFormalName
+  nameWithType: AppointmentSyncData.PersonFormalName
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.PersonFormalName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual string PersonFormalName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonFormalName As String
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.PersonFormalName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.PersonFullName
+  commentId: P:SuperOffice.CRM.Services.AppointmentSyncData.PersonFullName
+  id: PersonFullName
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: PersonFullName
+  nameWithType: AppointmentSyncData.PersonFullName
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.PersonFullName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe full name of the person this appointment belongs to. \n"
+  syntax:
+    content: public virtual string PersonFullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonFullName As String
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.PersonFullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.PersonId
+  commentId: P:SuperOffice.CRM.Services.AppointmentSyncData.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: AppointmentSyncData.PersonId
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.PersonId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPerson ID of person the appointment is with, may be 0 \n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.ProjectId
+  commentId: P:SuperOffice.CRM.Services.AppointmentSyncData.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: AppointmentSyncData.ProjectId
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nID of project referred to, may be 0 \n"
+  syntax:
+    content: public virtual int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProjectId As Integer
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.ProjectId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.ProjectName
+  commentId: P:SuperOffice.CRM.Services.AppointmentSyncData.ProjectName
+  id: ProjectName
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: ProjectName
+  nameWithType: AppointmentSyncData.ProjectName
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.ProjectName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nProject name \n"
+  syntax:
+    content: public virtual string ProjectName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProjectName As String
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.ProjectName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.SaleId
+  commentId: P:SuperOffice.CRM.Services.AppointmentSyncData.SaleId
+  id: SaleId
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: AppointmentSyncData.SaleId
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.SaleId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOwning sale, if any (may be 0) \n"
+  syntax:
+    content: public virtual int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleId As Integer
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.SaleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.SaleName
+  commentId: P:SuperOffice.CRM.Services.AppointmentSyncData.SaleName
+  id: SaleName
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: SaleName
+  nameWithType: AppointmentSyncData.SaleName
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.SaleName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSale heading (short description?) \n"
+  syntax:
+    content: public virtual string SaleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SaleName As String
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.SaleName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.StartDate
+  commentId: P:SuperOffice.CRM.Services.AppointmentSyncData.StartDate
+  id: StartDate
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: AppointmentSyncData.StartDate
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.StartDate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\ndate + start time planned \n"
+  syntax:
+    content: public virtual DateTime StartDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property StartDate As Date
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.StartDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.TaskName
+  commentId: P:SuperOffice.CRM.Services.AppointmentSyncData.TaskName
+  id: TaskName
+  parent: SuperOffice.CRM.Services.AppointmentSyncData
+  langs:
+  - csharp
+  - vb
+  name: TaskName
+  nameWithType: AppointmentSyncData.TaskName
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.TaskName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual string TaskName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TaskName As String
+  overload: SuperOffice.CRM.Services.AppointmentSyncData.TaskName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AppointmentAgent
+  commentId: T:SuperOffice.CRM.Services.AppointmentAgent
+  isExternal: true
+  name: AppointmentAgent
+  nameWithType: AppointmentAgent
+  fullName: SuperOffice.CRM.Services.AppointmentAgent
+- uid: SuperOffice.CRM.Services.IAppointmentAgent
+  commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAppointmentAgent
+  nameWithType: IAppointmentAgent
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.#ctor
+  isExternal: true
+  name: AppointmentSyncData
+  nameWithType: AppointmentSyncData.AppointmentSyncData
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.AppointmentSyncData
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: AppointmentSyncData.ToString
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.AlarmTime*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.AlarmTime
+  isExternal: true
+  name: AlarmTime
+  nameWithType: AppointmentSyncData.AlarmTime
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.AlarmTime
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.AppointmentId*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: AppointmentSyncData.AppointmentId
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.AppointmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.AppointmentText*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.AppointmentText
+  isExternal: true
+  name: AppointmentText
+  nameWithType: AppointmentSyncData.AppointmentText
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.AppointmentText
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.ContactDepartment*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.ContactDepartment
+  isExternal: true
+  name: ContactDepartment
+  nameWithType: AppointmentSyncData.ContactDepartment
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.ContactDepartment
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.ContactFullName*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.ContactFullName
+  isExternal: true
+  name: ContactFullName
+  nameWithType: AppointmentSyncData.ContactFullName
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.ContactFullName
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.ContactName*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.ContactName
+  isExternal: true
+  name: ContactName
+  nameWithType: AppointmentSyncData.ContactName
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.ContactName
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.ContactId*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: AppointmentSyncData.ContactId
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.ContactId
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.EndDate*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.EndDate
+  isExternal: true
+  name: EndDate
+  nameWithType: AppointmentSyncData.EndDate
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.EndDate
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.HasAlarm*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.HasAlarm
+  isExternal: true
+  name: HasAlarm
+  nameWithType: AppointmentSyncData.HasAlarm
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.HasAlarm
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.IsAllDay*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.IsAllDay
+  isExternal: true
+  name: IsAllDay
+  nameWithType: AppointmentSyncData.IsAllDay
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.IsAllDay
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.IsAssignment*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.IsAssignment
+  isExternal: true
+  name: IsAssignment
+  nameWithType: AppointmentSyncData.IsAssignment
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.IsAssignment
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.IsBusy*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.IsBusy
+  isExternal: true
+  name: IsBusy
+  nameWithType: AppointmentSyncData.IsBusy
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.IsBusy
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.IsCompleted*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.IsCompleted
+  isExternal: true
+  name: IsCompleted
+  nameWithType: AppointmentSyncData.IsCompleted
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.IsCompleted
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.IsInvitation*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.IsInvitation
+  isExternal: true
+  name: IsInvitation
+  nameWithType: AppointmentSyncData.IsInvitation
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.IsInvitation
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.IsTentative*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.IsTentative
+  isExternal: true
+  name: IsTentative
+  nameWithType: AppointmentSyncData.IsTentative
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.IsTentative
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.Location*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.Location
+  isExternal: true
+  name: Location
+  nameWithType: AppointmentSyncData.Location
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.Location
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.Participants*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.Participants
+  isExternal: true
+  name: Participants
+  nameWithType: AppointmentSyncData.Participants
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.Participants
+- uid: SuperOffice.CRM.Services.ParticipantSyncData[]
+  isExternal: true
+  name: ParticipantSyncData[]
+  nameWithType: ParticipantSyncData[]
+  fullName: SuperOffice.CRM.Services.ParticipantSyncData[]
+  nameWithType.vb: ParticipantSyncData()
+  fullName.vb: SuperOffice.CRM.Services.ParticipantSyncData()
+  name.vb: ParticipantSyncData()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ParticipantSyncData
+    name: ParticipantSyncData
+    nameWithType: ParticipantSyncData
+    fullName: SuperOffice.CRM.Services.ParticipantSyncData
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ParticipantSyncData
+    name: ParticipantSyncData
+    nameWithType: ParticipantSyncData
+    fullName: SuperOffice.CRM.Services.ParticipantSyncData
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.PersonFormalName*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.PersonFormalName
+  isExternal: true
+  name: PersonFormalName
+  nameWithType: AppointmentSyncData.PersonFormalName
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.PersonFormalName
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.PersonFullName*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.PersonFullName
+  isExternal: true
+  name: PersonFullName
+  nameWithType: AppointmentSyncData.PersonFullName
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.PersonFullName
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.PersonId*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: AppointmentSyncData.PersonId
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.PersonId
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.ProjectId*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: AppointmentSyncData.ProjectId
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.ProjectId
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.ProjectName*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.ProjectName
+  isExternal: true
+  name: ProjectName
+  nameWithType: AppointmentSyncData.ProjectName
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.ProjectName
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.SaleId*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: AppointmentSyncData.SaleId
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.SaleId
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.SaleName*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.SaleName
+  isExternal: true
+  name: SaleName
+  nameWithType: AppointmentSyncData.SaleName
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.SaleName
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.StartDate*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.StartDate
+  isExternal: true
+  name: StartDate
+  nameWithType: AppointmentSyncData.StartDate
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.StartDate
+- uid: SuperOffice.CRM.Services.AppointmentSyncData.TaskName*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentSyncData.TaskName
+  isExternal: true
+  name: TaskName
+  nameWithType: AppointmentSyncData.TaskName
+  fullName: SuperOffice.CRM.Services.AppointmentSyncData.TaskName

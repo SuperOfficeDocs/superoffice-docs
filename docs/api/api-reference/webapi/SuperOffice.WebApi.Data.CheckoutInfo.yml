@@ -1,0 +1,359 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CheckoutInfo
+  commentId: T:SuperOffice.WebApi.Data.CheckoutInfo
+  id: CheckoutInfo
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CheckoutInfo.#ctor
+  - SuperOffice.WebApi.Data.CheckoutInfo.AssociateId
+  - SuperOffice.WebApi.Data.CheckoutInfo.Name
+  - SuperOffice.WebApi.Data.CheckoutInfo.State
+  - SuperOffice.WebApi.Data.CheckoutInfo.State_String
+  langs:
+  - csharp
+  - vb
+  name: CheckoutInfo
+  nameWithType: CheckoutInfo
+  fullName: SuperOffice.WebApi.Data.CheckoutInfo
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for CheckoutInfo.\nInformation about the checked-out state of one document, describing whether it is checked out, and to whom.    \n"
+  syntax:
+    content: 'public class CheckoutInfo : Object'
+    content.vb: >-
+      Public Class CheckoutInfo
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.DocumentAgent
+    commentId: T:SuperOffice.WebApi.Agents.DocumentAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CheckoutInfo.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CheckoutInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CheckoutInfo
+  langs:
+  - csharp
+  - vb
+  name: CheckoutInfo()
+  nameWithType: CheckoutInfo.CheckoutInfo()
+  fullName: SuperOffice.WebApi.Data.CheckoutInfo.CheckoutInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public CheckoutInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CheckoutInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CheckoutInfo.State_String
+  commentId: P:SuperOffice.WebApi.Data.CheckoutInfo.State_String
+  id: State_String
+  parent: SuperOffice.WebApi.Data.CheckoutInfo
+  langs:
+  - csharp
+  - vb
+  name: State_String
+  nameWithType: CheckoutInfo.State_String
+  fullName: SuperOffice.WebApi.Data.CheckoutInfo.State_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCheckout state\nRaw string enum value.\n"
+  syntax:
+    content: public string State_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property State_String As String
+  overload: SuperOffice.WebApi.Data.CheckoutInfo.State_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.CheckoutInfo.State
+    commentId: P:SuperOffice.WebApi.Data.CheckoutInfo.State
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CheckoutInfo.State
+  commentId: P:SuperOffice.WebApi.Data.CheckoutInfo.State
+  id: State
+  parent: SuperOffice.WebApi.Data.CheckoutInfo
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: CheckoutInfo.State
+  fullName: SuperOffice.WebApi.Data.CheckoutInfo.State
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCheckout state\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<CheckoutState> State { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.CheckoutState}
+    content.vb: Public Property State As Nullable(Of CheckoutState)
+  overload: SuperOffice.WebApi.Data.CheckoutInfo.State*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.CheckoutInfo.State_String
+    commentId: P:SuperOffice.WebApi.Data.CheckoutInfo.State_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CheckoutInfo.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.CheckoutInfo.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.CheckoutInfo
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: CheckoutInfo.AssociateId
+  fullName: SuperOffice.WebApi.Data.CheckoutInfo.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nId of associate who has currently checked out the document; 0 if it is not checked out,  or is checked out by someone who is not a SuperOffice user\n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.CheckoutInfo.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CheckoutInfo.Name
+  commentId: P:SuperOffice.WebApi.Data.CheckoutInfo.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.CheckoutInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: CheckoutInfo.Name
+  fullName: SuperOffice.WebApi.Data.CheckoutInfo.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of person who has currently checked out the document; blank if it is not checked out. This property may also be blank if the AssociateId is nonzero; NetServer will retrieve the associates&apos; name as needed.\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.CheckoutInfo.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.DocumentAgent
+  commentId: T:SuperOffice.WebApi.Agents.DocumentAgent
+  isExternal: true
+  name: DocumentAgent
+  nameWithType: DocumentAgent
+  fullName: SuperOffice.WebApi.Agents.DocumentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CheckoutInfo.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CheckoutInfo.#ctor
+  isExternal: true
+  name: CheckoutInfo
+  nameWithType: CheckoutInfo.CheckoutInfo
+  fullName: SuperOffice.WebApi.Data.CheckoutInfo.CheckoutInfo
+- uid: SuperOffice.WebApi.Data.CheckoutInfo.State_String*
+  commentId: Overload:SuperOffice.WebApi.Data.CheckoutInfo.State_String
+  isExternal: true
+  name: State_String
+  nameWithType: CheckoutInfo.State_String
+  fullName: SuperOffice.WebApi.Data.CheckoutInfo.State_String
+- uid: SuperOffice.WebApi.Data.CheckoutInfo.State
+  commentId: P:SuperOffice.WebApi.Data.CheckoutInfo.State
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.CheckoutInfo.State*
+  commentId: Overload:SuperOffice.WebApi.Data.CheckoutInfo.State
+  isExternal: true
+  name: State
+  nameWithType: CheckoutInfo.State
+  fullName: SuperOffice.WebApi.Data.CheckoutInfo.State
+- uid: SuperOffice.WebApi.Data.CheckoutInfo.State_String
+  commentId: P:SuperOffice.WebApi.Data.CheckoutInfo.State_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.CheckoutState}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.CheckoutState}'
+  definition: System.Nullable`1
+  name: Nullable<CheckoutState>
+  nameWithType: Nullable<CheckoutState>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.CheckoutState>
+  nameWithType.vb: Nullable(Of CheckoutState)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.CheckoutState)
+  name.vb: Nullable(Of CheckoutState)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.CheckoutState
+    name: CheckoutState
+    nameWithType: CheckoutState
+    fullName: SuperOffice.WebApi.Data.CheckoutState
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.CheckoutState
+    name: CheckoutState
+    nameWithType: CheckoutState
+    fullName: SuperOffice.WebApi.Data.CheckoutState
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.CheckoutInfo.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.CheckoutInfo.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: CheckoutInfo.AssociateId
+  fullName: SuperOffice.WebApi.Data.CheckoutInfo.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.CheckoutInfo.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.CheckoutInfo.Name
+  isExternal: true
+  name: Name
+  nameWithType: CheckoutInfo.Name
+  fullName: SuperOffice.WebApi.Data.CheckoutInfo.Name

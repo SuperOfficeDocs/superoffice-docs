@@ -1,0 +1,1077 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Lists.ListItemBase`1
+  commentId: T:SuperOffice.CRM.Lists.ListItemBase`1
+  id: ListItemBase`1
+  parent: SuperOffice.CRM.Lists
+  children:
+  - SuperOffice.CRM.Lists.ListItemBase`1.#ctor
+  - SuperOffice.CRM.Lists.ListItemBase`1.AddFieldProperty(System.String,SuperOffice.CRM.Security.FieldProperty)
+  - SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.Int32@,System.String)
+  - SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.String@,System.String)
+  - SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader``1(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,``0@,System.String)
+  - SuperOffice.CRM.Lists.ListItemBase`1.FieldProperties
+  - SuperOffice.CRM.Lists.ListItemBase`1.HandleFieldRights(System.String,SuperOffice.CRM.Security.SentryCollection,SuperOffice.Data.SQL.FieldInfo,System.Type,SuperOffice.Data.EFieldRight,System.Boolean)
+  - SuperOffice.CRM.Lists.ListItemBase`1.Initialize
+  - SuperOffice.CRM.Lists.ListItemBase`1.Load(`0,SuperOffice.Data.SoDataReader)
+  - SuperOffice.CRM.Lists.ListItemBase`1.TableRight
+  langs:
+  - csharp
+  - vb
+  name: ListItemBase<TListSelect>
+  nameWithType: ListItemBase<TListSelect>
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nListItemBase is the base-class of all listitems.\n"
+  syntax:
+    content: >-
+      public abstract class ListItemBase<TListSelect>
+          where TListSelect : SqlCommand
+    typeParameters:
+    - id: TListSelect
+    content.vb: Public MustInherit Class ListItemBase(Of TListSelect As SqlCommand)
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.CRM.Archives.ActivityListItem
+  - SuperOffice.CRM.Archives.ContactListItem
+  - SuperOffice.CRM.Archives.DocumentListItem
+  - SuperOffice.CRM.Archives.PersonListItem
+  - SuperOffice.CRM.Archives.ProjectEventListItem
+  - SuperOffice.CRM.Archives.ProjectListItem
+  - SuperOffice.CRM.Archives.ProjectMemberListItem
+  - SuperOffice.CRM.Archives.RelationsListItem
+  - SuperOffice.CRM.Archives.SaleListItem
+  - SuperOffice.CRM.Archives.UserListItem
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Lists.ListItemBase`1.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Lists.ListItemBase`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  nameWithType.vb: ListItemBase(Of TListSelect)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect)
+  name.vb: ListItemBase(Of TListSelect)
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.#ctor
+  commentId: M:SuperOffice.CRM.Lists.ListItemBase`1.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Lists.ListItemBase`1
+  langs:
+  - csharp
+  - vb
+  name: ListItemBase()
+  nameWithType: ListItemBase<TListSelect>.ListItemBase()
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.ListItemBase()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nDefault constructor.\n"
+  syntax:
+    content: public ListItemBase()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Lists.ListItemBase`1.#ctor*
+  nameWithType.vb: ListItemBase(Of TListSelect).ListItemBase()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).ListItemBase()
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.Load(`0,SuperOffice.Data.SoDataReader)
+  commentId: M:SuperOffice.CRM.Lists.ListItemBase`1.Load(`0,SuperOffice.Data.SoDataReader)
+  id: Load(`0,SuperOffice.Data.SoDataReader)
+  parent: SuperOffice.CRM.Lists.ListItemBase`1
+  langs:
+  - csharp
+  - vb
+  name: Load(TListSelect, SoDataReader)
+  nameWithType: ListItemBase<TListSelect>.Load(TListSelect, SoDataReader)
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.Load(TListSelect, SuperOffice.Data.SoDataReader)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nResponsible for reading the current row in the data reader and insert the value in the right part ob the object.\n"
+  syntax:
+    content: protected abstract void Load(TListSelect query, SoDataReader reader)
+    parameters:
+    - id: query
+      type: '{TListSelect}'
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+      description: The reader contains the items data.
+    content.vb: Protected MustOverride Sub Load(query As TListSelect, reader As SoDataReader)
+  overload: SuperOffice.CRM.Lists.ListItemBase`1.Load*
+  nameWithType.vb: ListItemBase(Of TListSelect).Load(TListSelect, SoDataReader)
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).Load(TListSelect, SuperOffice.Data.SoDataReader)
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.Initialize
+  commentId: M:SuperOffice.CRM.Lists.ListItemBase`1.Initialize
+  id: Initialize
+  parent: SuperOffice.CRM.Lists.ListItemBase`1
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: ListItemBase<TListSelect>.Initialize()
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.Initialize()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nInitializes all class-members.\n"
+  syntax:
+    content: protected abstract void Initialize()
+    content.vb: Protected MustOverride Sub Initialize
+  overload: SuperOffice.CRM.Lists.ListItemBase`1.Initialize*
+  nameWithType.vb: ListItemBase(Of TListSelect).Initialize()
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).Initialize()
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.AddFieldProperty(System.String,SuperOffice.CRM.Security.FieldProperty)
+  commentId: M:SuperOffice.CRM.Lists.ListItemBase`1.AddFieldProperty(System.String,SuperOffice.CRM.Security.FieldProperty)
+  id: AddFieldProperty(System.String,SuperOffice.CRM.Security.FieldProperty)
+  parent: SuperOffice.CRM.Lists.ListItemBase`1
+  langs:
+  - csharp
+  - vb
+  name: AddFieldProperty(String, FieldProperty)
+  nameWithType: ListItemBase<TListSelect>.AddFieldProperty(String, FieldProperty)
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.AddFieldProperty(System.String, SuperOffice.CRM.Security.FieldProperty)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected void AddFieldProperty(string fieldName, FieldProperty fieldProperty)
+    parameters:
+    - id: fieldName
+      type: System.String
+    - id: fieldProperty
+      type: SuperOffice.CRM.Security.FieldProperty
+    content.vb: Protected Sub AddFieldProperty(fieldName As String, fieldProperty As FieldProperty)
+  overload: SuperOffice.CRM.Lists.ListItemBase`1.AddFieldProperty*
+  nameWithType.vb: ListItemBase(Of TListSelect).AddFieldProperty(String, FieldProperty)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).AddFieldProperty(System.String, SuperOffice.CRM.Security.FieldProperty)
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.HandleFieldRights(System.String,SuperOffice.CRM.Security.SentryCollection,SuperOffice.Data.SQL.FieldInfo,System.Type,SuperOffice.Data.EFieldRight,System.Boolean)
+  commentId: M:SuperOffice.CRM.Lists.ListItemBase`1.HandleFieldRights(System.String,SuperOffice.CRM.Security.SentryCollection,SuperOffice.Data.SQL.FieldInfo,System.Type,SuperOffice.Data.EFieldRight,System.Boolean)
+  id: HandleFieldRights(System.String,SuperOffice.CRM.Security.SentryCollection,SuperOffice.Data.SQL.FieldInfo,System.Type,SuperOffice.Data.EFieldRight,System.Boolean)
+  parent: SuperOffice.CRM.Lists.ListItemBase`1
+  langs:
+  - csharp
+  - vb
+  name: HandleFieldRights(String, SentryCollection, FieldInfo, Type, EFieldRight, Boolean)
+  nameWithType: ListItemBase<TListSelect>.HandleFieldRights(String, SentryCollection, FieldInfo, Type, EFieldRight, Boolean)
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.HandleFieldRights(System.String, SuperOffice.CRM.Security.SentryCollection, SuperOffice.Data.SQL.FieldInfo, System.Type, SuperOffice.Data.EFieldRight, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected bool HandleFieldRights(string fieldName, SentryCollection sentries, FieldInfo field, Type fieldType, EFieldRight requestedRight, bool populateCarrier)
+    parameters:
+    - id: fieldName
+      type: System.String
+    - id: sentries
+      type: SuperOffice.CRM.Security.SentryCollection
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    - id: fieldType
+      type: System.Type
+    - id: requestedRight
+      type: SuperOffice.Data.EFieldRight
+    - id: populateCarrier
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: Protected Function HandleFieldRights(fieldName As String, sentries As SentryCollection, field As FieldInfo, fieldType As Type, requestedRight As EFieldRight, populateCarrier As Boolean) As Boolean
+  overload: SuperOffice.CRM.Lists.ListItemBase`1.HandleFieldRights*
+  nameWithType.vb: ListItemBase(Of TListSelect).HandleFieldRights(String, SentryCollection, FieldInfo, Type, EFieldRight, Boolean)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).HandleFieldRights(System.String, SuperOffice.CRM.Security.SentryCollection, SuperOffice.Data.SQL.FieldInfo, System.Type, SuperOffice.Data.EFieldRight, System.Boolean)
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.Int32@,System.String)
+  commentId: M:SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.Int32@,System.String)
+  id: AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.Int32@,System.String)
+  parent: SuperOffice.CRM.Lists.ListItemBase`1
+  langs:
+  - csharp
+  - vb
+  name: AssignFromReader(SoDataReader, FieldInfo, ref Int32, String)
+  nameWithType: ListItemBase<TListSelect>.AssignFromReader(SoDataReader, FieldInfo, ref Int32, String)
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.AssignFromReader(SuperOffice.Data.SoDataReader, SuperOffice.Data.SQL.FieldInfo, ref System.Int32, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected bool AssignFromReader(SoDataReader reader, FieldInfo field, ref int value, string fieldName)
+    parameters:
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    - id: value
+      type: System.Int32
+    - id: fieldName
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Protected Function AssignFromReader(reader As SoDataReader, field As FieldInfo, ByRef value As Integer, fieldName As String) As Boolean
+  overload: SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader*
+  nameWithType.vb: ListItemBase(Of TListSelect).AssignFromReader(SoDataReader, FieldInfo, ByRef Int32, String)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).AssignFromReader(SuperOffice.Data.SoDataReader, SuperOffice.Data.SQL.FieldInfo, ByRef System.Int32, System.String)
+  name.vb: AssignFromReader(SoDataReader, FieldInfo, ByRef Int32, String)
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.String@,System.String)
+  commentId: M:SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.String@,System.String)
+  id: AssignFromReader(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,System.String@,System.String)
+  parent: SuperOffice.CRM.Lists.ListItemBase`1
+  langs:
+  - csharp
+  - vb
+  name: AssignFromReader(SoDataReader, FieldInfo, ref String, String)
+  nameWithType: ListItemBase<TListSelect>.AssignFromReader(SoDataReader, FieldInfo, ref String, String)
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.AssignFromReader(SuperOffice.Data.SoDataReader, SuperOffice.Data.SQL.FieldInfo, ref System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected bool AssignFromReader(SoDataReader reader, FieldInfo field, ref string value, string fieldName)
+    parameters:
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    - id: value
+      type: System.String
+    - id: fieldName
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Protected Function AssignFromReader(reader As SoDataReader, field As FieldInfo, ByRef value As String, fieldName As String) As Boolean
+  overload: SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader*
+  nameWithType.vb: ListItemBase(Of TListSelect).AssignFromReader(SoDataReader, FieldInfo, ByRef String, String)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).AssignFromReader(SuperOffice.Data.SoDataReader, SuperOffice.Data.SQL.FieldInfo, ByRef System.String, System.String)
+  name.vb: AssignFromReader(SoDataReader, FieldInfo, ByRef String, String)
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader``1(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,``0@,System.String)
+  commentId: M:SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader``1(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,``0@,System.String)
+  id: AssignFromReader``1(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,``0@,System.String)
+  parent: SuperOffice.CRM.Lists.ListItemBase`1
+  langs:
+  - csharp
+  - vb
+  name: AssignFromReader<T>(SoDataReader, FieldInfo, ref T, String)
+  nameWithType: ListItemBase<TListSelect>.AssignFromReader<T>(SoDataReader, FieldInfo, ref T, String)
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.AssignFromReader<T>(SuperOffice.Data.SoDataReader, SuperOffice.Data.SQL.FieldInfo, ref T, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected bool AssignFromReader<T>(SoDataReader reader, FieldInfo field, ref T value, string fieldName)
+    parameters:
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+    - id: field
+      type: SuperOffice.Data.SQL.FieldInfo
+    - id: value
+      type: '{T}'
+    - id: fieldName
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Protected Function AssignFromReader(Of T)(reader As SoDataReader, field As FieldInfo, ByRef value As T, fieldName As String) As Boolean
+  overload: SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader*
+  nameWithType.vb: ListItemBase(Of TListSelect).AssignFromReader(Of T)(SoDataReader, FieldInfo, ByRef T, String)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).AssignFromReader(Of T)(SuperOffice.Data.SoDataReader, SuperOffice.Data.SQL.FieldInfo, ByRef T, System.String)
+  name.vb: AssignFromReader(Of T)(SoDataReader, FieldInfo, ByRef T, String)
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.TableRight
+  commentId: P:SuperOffice.CRM.Lists.ListItemBase`1.TableRight
+  id: TableRight
+  parent: SuperOffice.CRM.Lists.ListItemBase`1
+  langs:
+  - csharp
+  - vb
+  name: TableRight
+  nameWithType: ListItemBase<TListSelect>.TableRight
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.TableRight
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nGet the rights for the item.\n"
+  syntax:
+    content: public virtual TableRight TableRight { get; protected set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Security.TableRight
+    content.vb: Public Overridable Property TableRight As TableRight
+  overload: SuperOffice.CRM.Lists.ListItemBase`1.TableRight*
+  nameWithType.vb: ListItemBase(Of TListSelect).TableRight
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Overridable
+  - Get
+  - Protected Set
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).TableRight
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.FieldProperties
+  commentId: P:SuperOffice.CRM.Lists.ListItemBase`1.FieldProperties
+  id: FieldProperties
+  parent: SuperOffice.CRM.Lists.ListItemBase`1
+  langs:
+  - csharp
+  - vb
+  name: FieldProperties
+  nameWithType: ListItemBase<TListSelect>.FieldProperties
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.FieldProperties
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nGet individual rights for the fields of the item.\n"
+  syntax:
+    content: public virtual FieldPropertyDictionary FieldProperties { get; protected set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Security.FieldPropertyDictionary
+    content.vb: Public Overridable Property FieldProperties As FieldPropertyDictionary
+  overload: SuperOffice.CRM.Lists.ListItemBase`1.FieldProperties*
+  nameWithType.vb: ListItemBase(Of TListSelect).FieldProperties
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Overridable
+  - Get
+  - Protected Set
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).FieldProperties
+references:
+- uid: SuperOffice.CRM.Lists
+  commentId: N:SuperOffice.CRM.Lists
+  isExternal: true
+  name: SuperOffice.CRM.Lists
+  nameWithType: SuperOffice.CRM.Lists
+  fullName: SuperOffice.CRM.Lists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ListItemBase<TListSelect>, To>()
+  nameWithType: EnumUtil.MapEnums<ListItemBase<TListSelect>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.ListItemBase<TListSelect>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ListItemBase(Of TListSelect), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.ListItemBase(Of TListSelect), To)()
+  name.vb: MapEnums(Of ListItemBase(Of TListSelect), To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ListItemBase<TListSelect>, To>
+    nameWithType: EnumUtil.MapEnums<ListItemBase<TListSelect>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.ListItemBase<TListSelect>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ListItemBase(Of TListSelect), To)
+    nameWithType: EnumUtil.MapEnums(Of ListItemBase(Of TListSelect), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.ListItemBase(Of TListSelect), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ListItemBase<TListSelect>, To>()
+  nameWithType: Converters.MapEnums<ListItemBase<TListSelect>, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.ListItemBase<TListSelect>, To>()
+  nameWithType.vb: Converters.MapEnums(Of ListItemBase(Of TListSelect), To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.ListItemBase(Of TListSelect), To)()
+  name.vb: MapEnums(Of ListItemBase(Of TListSelect), To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ListItemBase<TListSelect>, To>
+    nameWithType: Converters.MapEnums<ListItemBase<TListSelect>, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.ListItemBase<TListSelect>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ListItemBase(Of TListSelect), To)
+    nameWithType: Converters.MapEnums(Of ListItemBase(Of TListSelect), To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.ListItemBase(Of TListSelect), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.#ctor*
+  commentId: Overload:SuperOffice.CRM.Lists.ListItemBase`1.#ctor
+  isExternal: true
+  name: ListItemBase
+  nameWithType: ListItemBase<TListSelect>.ListItemBase
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.ListItemBase
+  nameWithType.vb: ListItemBase(Of TListSelect).ListItemBase
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).ListItemBase
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.Load*
+  commentId: Overload:SuperOffice.CRM.Lists.ListItemBase`1.Load
+  isExternal: true
+  name: Load
+  nameWithType: ListItemBase<TListSelect>.Load
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.Load
+  nameWithType.vb: ListItemBase(Of TListSelect).Load
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).Load
+- uid: '{TListSelect}'
+  commentId: '!:TListSelect'
+  definition: TListSelect
+  name: TListSelect
+  nameWithType: TListSelect
+  fullName: TListSelect
+- uid: SuperOffice.Data.SoDataReader
+  commentId: T:SuperOffice.Data.SoDataReader
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoDataReader
+  nameWithType: SoDataReader
+  fullName: SuperOffice.Data.SoDataReader
+- uid: TListSelect
+  name: TListSelect
+  nameWithType: TListSelect
+  fullName: TListSelect
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.Initialize*
+  commentId: Overload:SuperOffice.CRM.Lists.ListItemBase`1.Initialize
+  isExternal: true
+  name: Initialize
+  nameWithType: ListItemBase<TListSelect>.Initialize
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.Initialize
+  nameWithType.vb: ListItemBase(Of TListSelect).Initialize
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).Initialize
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.AddFieldProperty*
+  commentId: Overload:SuperOffice.CRM.Lists.ListItemBase`1.AddFieldProperty
+  isExternal: true
+  name: AddFieldProperty
+  nameWithType: ListItemBase<TListSelect>.AddFieldProperty
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.AddFieldProperty
+  nameWithType.vb: ListItemBase(Of TListSelect).AddFieldProperty
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).AddFieldProperty
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Security.FieldProperty
+  commentId: T:SuperOffice.CRM.Security.FieldProperty
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: FieldProperty
+  nameWithType: FieldProperty
+  fullName: SuperOffice.CRM.Security.FieldProperty
+- uid: SuperOffice.CRM.Security
+  commentId: N:SuperOffice.CRM.Security
+  isExternal: true
+  name: SuperOffice.CRM.Security
+  nameWithType: SuperOffice.CRM.Security
+  fullName: SuperOffice.CRM.Security
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.HandleFieldRights*
+  commentId: Overload:SuperOffice.CRM.Lists.ListItemBase`1.HandleFieldRights
+  isExternal: true
+  name: HandleFieldRights
+  nameWithType: ListItemBase<TListSelect>.HandleFieldRights
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.HandleFieldRights
+  nameWithType.vb: ListItemBase(Of TListSelect).HandleFieldRights
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).HandleFieldRights
+- uid: SuperOffice.CRM.Security.SentryCollection
+  commentId: T:SuperOffice.CRM.Security.SentryCollection
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: SentryCollection
+  nameWithType: SentryCollection
+  fullName: SuperOffice.CRM.Security.SentryCollection
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: SuperOffice.Data.EFieldRight
+  commentId: T:SuperOffice.Data.EFieldRight
+  parent: SuperOffice.Data
+  isExternal: true
+  name: EFieldRight
+  nameWithType: EFieldRight
+  fullName: SuperOffice.Data.EFieldRight
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader*
+  commentId: Overload:SuperOffice.CRM.Lists.ListItemBase`1.AssignFromReader
+  isExternal: true
+  name: AssignFromReader
+  nameWithType: ListItemBase<TListSelect>.AssignFromReader
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.AssignFromReader
+  nameWithType.vb: ListItemBase(Of TListSelect).AssignFromReader
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).AssignFromReader
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.TableRight*
+  commentId: Overload:SuperOffice.CRM.Lists.ListItemBase`1.TableRight
+  isExternal: true
+  name: TableRight
+  nameWithType: ListItemBase<TListSelect>.TableRight
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.TableRight
+  nameWithType.vb: ListItemBase(Of TListSelect).TableRight
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).TableRight
+- uid: SuperOffice.CRM.Security.TableRight
+  commentId: T:SuperOffice.CRM.Security.TableRight
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: TableRight
+  nameWithType: TableRight
+  fullName: SuperOffice.CRM.Security.TableRight
+- uid: SuperOffice.CRM.Lists.ListItemBase`1.FieldProperties*
+  commentId: Overload:SuperOffice.CRM.Lists.ListItemBase`1.FieldProperties
+  isExternal: true
+  name: FieldProperties
+  nameWithType: ListItemBase<TListSelect>.FieldProperties
+  fullName: SuperOffice.CRM.Lists.ListItemBase<TListSelect>.FieldProperties
+  nameWithType.vb: ListItemBase(Of TListSelect).FieldProperties
+  fullName.vb: SuperOffice.CRM.Lists.ListItemBase(Of TListSelect).FieldProperties
+- uid: SuperOffice.CRM.Security.FieldPropertyDictionary
+  commentId: T:SuperOffice.CRM.Security.FieldPropertyDictionary
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: FieldPropertyDictionary
+  nameWithType: FieldPropertyDictionary
+  fullName: SuperOffice.CRM.Security.FieldPropertyDictionary

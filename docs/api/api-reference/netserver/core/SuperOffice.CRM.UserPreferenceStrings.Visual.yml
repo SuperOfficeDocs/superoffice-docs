@@ -1,0 +1,647 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.UserPreferenceStrings.Visual
+  commentId: T:SuperOffice.CRM.UserPreferenceStrings.Visual
+  id: UserPreferenceStrings.Visual
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.UserPreferenceStrings.Visual.ActiveSound
+  - SuperOffice.CRM.UserPreferenceStrings.Visual.AnimatePanels
+  - SuperOffice.CRM.UserPreferenceStrings.Visual.FilterCompletedFromTodo
+  - SuperOffice.CRM.UserPreferenceStrings.Visual.FrameType
+  - SuperOffice.CRM.UserPreferenceStrings.Visual.HistorySize
+  - SuperOffice.CRM.UserPreferenceStrings.Visual.JpegQuality
+  - SuperOffice.CRM.UserPreferenceStrings.Visual.MonitorLight
+  - SuperOffice.CRM.UserPreferenceStrings.Visual.Section
+  - SuperOffice.CRM.UserPreferenceStrings.Visual.ShowNotepad
+  - SuperOffice.CRM.UserPreferenceStrings.Visual.Tooltips
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.Visual
+  nameWithType: UserPreferenceStrings.Visual
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Visual
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nVisual effects\n"
+  syntax:
+    content: public static class Visual
+    content.vb: Public Module Visual
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.UserPreferenceStrings.Visual.Section
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Visual.Section
+  id: Section
+  parent: SuperOffice.CRM.UserPreferenceStrings.Visual
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.Visual.Section
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Visual.Section
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "Visual"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "Visual"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Visual.ActiveSound
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Visual.ActiveSound
+  id: ActiveSound
+  parent: SuperOffice.CRM.UserPreferenceStrings.Visual
+  langs:
+  - csharp
+  - vb
+  name: ActiveSound
+  nameWithType: UserPreferenceStrings.Visual.ActiveSound
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Visual.ActiveSound
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nEnables the use of sounds for events in SuperOffice CRM. The various sounds may be defined individually under Sounds and Audio Devices in the Windows Control Panel.\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string ActiveSound = "ActiveSound"
+    return:
+      type: System.String
+    content.vb: Public Const ActiveSound As String = "ActiveSound"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Visual.AnimatePanels
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Visual.AnimatePanels
+  id: AnimatePanels
+  parent: SuperOffice.CRM.UserPreferenceStrings.Visual
+  langs:
+  - csharp
+  - vb
+  name: AnimatePanels
+  nameWithType: UserPreferenceStrings.Visual.AnimatePanels
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Visual.AnimatePanels
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nEnables animation when switching screens\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string AnimatePanels = "AnimatePanels"
+    return:
+      type: System.String
+    content.vb: Public Const AnimatePanels As String = "AnimatePanels"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Visual.FilterCompletedFromTodo
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Visual.FilterCompletedFromTodo
+  id: FilterCompletedFromTodo
+  parent: SuperOffice.CRM.UserPreferenceStrings.Visual
+  langs:
+  - csharp
+  - vb
+  name: FilterCompletedFromTodo
+  nameWithType: UserPreferenceStrings.Visual.FilterCompletedFromTodo
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Visual.FilterCompletedFromTodo
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nFilter: Removes completed activities from the checklist\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string FilterCompletedFromTodo = "FilterCompletedFromTodo"
+    return:
+      type: System.String
+    content.vb: Public Const FilterCompletedFromTodo As String = "FilterCompletedFromTodo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Visual.FrameType
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Visual.FrameType
+  id: FrameType
+  parent: SuperOffice.CRM.UserPreferenceStrings.Visual
+  langs:
+  - csharp
+  - vb
+  name: FrameType
+  nameWithType: UserPreferenceStrings.Visual.FrameType
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Visual.FrameType
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nWhich frame type to use in edit fields\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string FrameType = "FrameType"
+    return:
+      type: System.String
+    content.vb: Public Const FrameType As String = "FrameType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Visual.HistorySize
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Visual.HistorySize
+  id: HistorySize
+  parent: SuperOffice.CRM.UserPreferenceStrings.Visual
+  langs:
+  - csharp
+  - vb
+  name: HistorySize
+  nameWithType: UserPreferenceStrings.Visual.HistorySize
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Visual.HistorySize
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nThe maximum number of elements in a history list\n<p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string HistorySize = "HistorySize"
+    return:
+      type: System.String
+    content.vb: Public Const HistorySize As String = "HistorySize"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Visual.JpegQuality
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Visual.JpegQuality
+  id: JpegQuality
+  parent: SuperOffice.CRM.UserPreferenceStrings.Visual
+  langs:
+  - csharp
+  - vb
+  name: JpegQuality
+  nameWithType: UserPreferenceStrings.Visual.JpegQuality
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Visual.JpegQuality
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nQuality parameter for JPEG compression of stored images, from 0 to 100; 100 is best, default is 40. Setting high values will result in sharper images, at the cost of storage space in the database and loading times.\n<p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string JpegQuality = "JpegQuality"
+    return:
+      type: System.String
+    content.vb: Public Const JpegQuality As String = "JpegQuality"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Visual.MonitorLight
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Visual.MonitorLight
+  id: MonitorLight
+  parent: SuperOffice.CRM.UserPreferenceStrings.Visual
+  langs:
+  - csharp
+  - vb
+  name: MonitorLight
+  nameWithType: UserPreferenceStrings.Visual.MonitorLight
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Visual.MonitorLight
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nStatus images are processed to make them seem transparent. This parameter controls how much the light level is increased from a normalized starting point. Higher values will result in lighter images, possibly resulting in loss of detail. Default is 80.\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string MonitorLight = "MonitorLight"
+    return:
+      type: System.String
+    content.vb: Public Const MonitorLight As String = "MonitorLight"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Visual.ShowNotepad
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Visual.ShowNotepad
+  id: ShowNotepad
+  parent: SuperOffice.CRM.UserPreferenceStrings.Visual
+  langs:
+  - csharp
+  - vb
+  name: ShowNotepad
+  nameWithType: UserPreferenceStrings.Visual.ShowNotepad
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Visual.ShowNotepad
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nShould the Notepad be displayed when CRM is started? (Default = NO)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string ShowNotepad = "ShowNotepad"
+    return:
+      type: System.String
+    content.vb: Public Const ShowNotepad As String = "ShowNotepad"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Visual.Tooltips
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Visual.Tooltips
+  id: Tooltips
+  parent: SuperOffice.CRM.UserPreferenceStrings.Visual
+  langs:
+  - csharp
+  - vb
+  name: Tooltips
+  nameWithType: UserPreferenceStrings.Visual.Tooltips
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Visual.Tooltips
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nTurn tooltips on or off\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string Tooltips = "Tooltips"
+    return:
+      type: System.String
+    content.vb: Public Const Tooltips As String = "Tooltips"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

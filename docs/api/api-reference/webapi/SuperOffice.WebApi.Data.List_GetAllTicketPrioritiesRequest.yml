@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetAllTicketPrioritiesRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetAllTicketPrioritiesRequest
+  id: List_GetAllTicketPrioritiesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetAllTicketPrioritiesRequest.#ctor
+  - SuperOffice.WebApi.Data.List_GetAllTicketPrioritiesRequest.IncludeDeleted
+  langs:
+  - csharp
+  - vb
+  name: List_GetAllTicketPrioritiesRequest
+  nameWithType: List_GetAllTicketPrioritiesRequest
+  fullName: SuperOffice.WebApi.Data.List_GetAllTicketPrioritiesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetAllTicketPrioritiesRequest : Object'
+    content.vb: >-
+      Public Class List_GetAllTicketPrioritiesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetAllTicketPrioritiesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetAllTicketPrioritiesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetAllTicketPrioritiesRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetAllTicketPrioritiesRequest()
+  nameWithType: List_GetAllTicketPrioritiesRequest.List_GetAllTicketPrioritiesRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetAllTicketPrioritiesRequest.List_GetAllTicketPrioritiesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetAllTicketPrioritiesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetAllTicketPrioritiesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GetAllTicketPrioritiesRequest.IncludeDeleted
+  commentId: P:SuperOffice.WebApi.Data.List_GetAllTicketPrioritiesRequest.IncludeDeleted
+  id: IncludeDeleted
+  parent: SuperOffice.WebApi.Data.List_GetAllTicketPrioritiesRequest
+  langs:
+  - csharp
+  - vb
+  name: IncludeDeleted
+  nameWithType: List_GetAllTicketPrioritiesRequest.IncludeDeleted
+  fullName: SuperOffice.WebApi.Data.List_GetAllTicketPrioritiesRequest.IncludeDeleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool IncludeDeleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeDeleted As Boolean
+  overload: SuperOffice.WebApi.Data.List_GetAllTicketPrioritiesRequest.IncludeDeleted*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetAllTicketPrioritiesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetAllTicketPrioritiesRequest.#ctor
+  isExternal: true
+  name: List_GetAllTicketPrioritiesRequest
+  nameWithType: List_GetAllTicketPrioritiesRequest.List_GetAllTicketPrioritiesRequest
+  fullName: SuperOffice.WebApi.Data.List_GetAllTicketPrioritiesRequest.List_GetAllTicketPrioritiesRequest
+- uid: SuperOffice.WebApi.Data.List_GetAllTicketPrioritiesRequest.IncludeDeleted*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetAllTicketPrioritiesRequest.IncludeDeleted
+  isExternal: true
+  name: IncludeDeleted
+  nameWithType: List_GetAllTicketPrioritiesRequest.IncludeDeleted
+  fullName: SuperOffice.WebApi.Data.List_GetAllTicketPrioritiesRequest.IncludeDeleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

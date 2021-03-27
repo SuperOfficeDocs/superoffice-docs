@@ -1,0 +1,2378 @@
+### YamlMime:TableOfContent
+- uid: SuperOffice.Cache
+  name: SuperOffice.Cache
+  items:
+  - uid: SuperOffice.Cache.Card
+    name: Card
+  - uid: SuperOffice.Cache.HistoryItem
+    name: HistoryItem
+  - uid: SuperOffice.Cache.IViewStateProvider
+    name: IViewStateProvider
+  - uid: SuperOffice.Cache.Page
+    name: Page
+  - uid: SuperOffice.Cache.PageState
+    name: PageState
+  - uid: SuperOffice.Cache.Panel
+    name: Panel
+  - uid: SuperOffice.Cache.SuperState
+    name: SuperState
+  - uid: SuperOffice.Cache.SuperStateHelper
+    name: SuperStateHelper
+  - uid: SuperOffice.Cache.View
+    name: View
+- uid: SuperOffice.Configuration
+  name: SuperOffice.Configuration
+  items:
+  - uid: SuperOffice.Configuration.IHasSchema
+    name: IHasSchema
+  - uid: SuperOffice.Configuration.SchemaValidation
+    name: SchemaValidation
+- uid: SuperOffice.CRM.Web
+  name: SuperOffice.CRM.Web
+  items:
+  - uid: SuperOffice.CRM.Web.ApplicationDefs_old
+    name: ApplicationDefs_old
+  - uid: SuperOffice.CRM.Web.ApplicationDefs_old.CurrentNames
+    name: ApplicationDefs_old.CurrentNames
+  - uid: SuperOffice.CRM.Web.SoCrmFormsAuthorizerPlugin
+    name: SoCrmFormsAuthorizerPlugin
+  - uid: SuperOffice.CRM.Web.SoCsFormsAuthorizerPlugin
+    name: SoCsFormsAuthorizerPlugin
+  - uid: SuperOffice.CRM.Web.SoCurrentCalculator
+    name: SoCurrentCalculator
+  - uid: SuperOffice.CRM.Web.SoFormsAdminRedirectPlugin
+    name: SoFormsAdminRedirectPlugin
+  - uid: SuperOffice.CRM.Web.SoFormsCsRedirectPlugin
+    name: SoFormsCsRedirectPlugin
+  - uid: SuperOffice.CRM.Web.SoUserCalAuthorizerPlugin
+    name: SoUserCalAuthorizerPlugin
+- uid: SuperOffice.CRM.Web.AjaxMethods
+  name: SuperOffice.CRM.Web.AjaxMethods
+  items:
+  - uid: SuperOffice.CRM.Web.AjaxMethods.ActivityArchive
+    name: ActivityArchive
+  - uid: SuperOffice.CRM.Web.AjaxMethods.Address
+    name: Address
+  - uid: SuperOffice.CRM.Web.AjaxMethods.Appointment
+    name: Appointment
+  - uid: SuperOffice.CRM.Web.AjaxMethods.AppointmentJsonObject
+    name: AppointmentJsonObject
+  - uid: SuperOffice.CRM.Web.AjaxMethods.ArchiveDelete
+    name: ArchiveDelete
+  - uid: SuperOffice.CRM.Web.AjaxMethods.ConcentDialog
+    name: ConcentDialog
+  - uid: SuperOffice.CRM.Web.AjaxMethods.Configuration
+    name: Configuration
+  - uid: SuperOffice.CRM.Web.AjaxMethods.Contact
+    name: Contact
+  - uid: SuperOffice.CRM.Web.AjaxMethods.ContextMenu
+    name: ContextMenu
+  - uid: SuperOffice.CRM.Web.AjaxMethods.Dialog
+    name: Dialog
+  - uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.DialogInfo
+    name: Dialog.DialogInfo
+  - uid: SuperOffice.CRM.Web.AjaxMethods.Dialog.DialogSize
+    name: Dialog.DialogSize
+  - uid: SuperOffice.CRM.Web.AjaxMethods.DiaryUpdate
+    name: DiaryUpdate
+  - uid: SuperOffice.CRM.Web.AjaxMethods.Document
+    name: Document
+  - uid: SuperOffice.CRM.Web.AjaxMethods.Duplicate
+    name: Duplicate
+  - uid: SuperOffice.CRM.Web.AjaxMethods.Favourite
+    name: Favourite
+  - uid: SuperOffice.CRM.Web.AjaxMethods.GroupView
+    name: GroupView
+  - uid: SuperOffice.CRM.Web.AjaxMethods.Import
+    name: Import
+  - uid: SuperOffice.CRM.Web.AjaxMethods.Invitation
+    name: Invitation
+  - uid: SuperOffice.CRM.Web.AjaxMethods.Mail
+    name: Mail
+  - uid: SuperOffice.CRM.Web.AjaxMethods.MailFetchContext
+    name: MailFetchContext
+  - uid: SuperOffice.CRM.Web.AjaxMethods.NextProjectStatusInfo
+    name: NextProjectStatusInfo
+  - uid: SuperOffice.CRM.Web.AjaxMethods.NextSaleStageInfo
+    name: NextSaleStageInfo
+  - uid: SuperOffice.CRM.Web.AjaxMethods.NotebookObject
+    name: NotebookObject
+  - uid: SuperOffice.CRM.Web.AjaxMethods.Notepad
+    name: Notepad
+  - uid: SuperOffice.CRM.Web.AjaxMethods.OCAPI
+    name: OCAPI
+  - uid: SuperOffice.CRM.Web.AjaxMethods.Person
+    name: Person
+  - uid: SuperOffice.CRM.Web.AjaxMethods.PhoneList
+    name: PhoneList
+  - uid: SuperOffice.CRM.Web.AjaxMethods.PocketSettings
+    name: PocketSettings
+  - uid: SuperOffice.CRM.Web.AjaxMethods.Principal
+    name: Principal
+  - uid: SuperOffice.CRM.Web.AjaxMethods.Project
+    name: Project
+  - uid: SuperOffice.CRM.Web.AjaxMethods.RecycleBin
+    name: RecycleBin
+  - uid: SuperOffice.CRM.Web.AjaxMethods.Report
+    name: Report
+  - uid: SuperOffice.CRM.Web.AjaxMethods.ReportReturn
+    name: ReportReturn
+  - uid: SuperOffice.CRM.Web.AjaxMethods.Resources
+    name: Resources
+  - uid: SuperOffice.CRM.Web.AjaxMethods.Sale
+    name: Sale
+  - uid: SuperOffice.CRM.Web.AjaxMethods.Selection
+    name: Selection
+  - uid: SuperOffice.CRM.Web.AjaxMethods.Splitter
+    name: Splitter
+  - uid: SuperOffice.CRM.Web.AjaxMethods.SuggestedAppointmentData
+    name: SuggestedAppointmentData
+  - uid: SuperOffice.CRM.Web.AjaxMethods.SuperStateCRM
+    name: SuperStateCRM
+  - uid: SuperOffice.CRM.Web.AjaxMethods.ToolTip
+    name: ToolTip
+  - uid: SuperOffice.CRM.Web.AjaxMethods.ToolTipText
+    name: ToolTipText
+  - uid: SuperOffice.CRM.Web.AjaxMethods.Types
+    name: Types
+  - uid: SuperOffice.CRM.Web.AjaxMethods.UrlDispatcher
+    name: UrlDispatcher
+  - uid: SuperOffice.CRM.Web.AjaxMethods.UserDefinedFields
+    name: UserDefinedFields
+  - uid: SuperOffice.CRM.Web.AjaxMethods.UserPreferences
+    name: UserPreferences
+  - uid: SuperOffice.CRM.Web.AjaxMethods.WebTools
+    name: WebTools
+  - uid: SuperOffice.CRM.Web.AjaxMethods.WhatsNewDialog
+    name: WhatsNewDialog
+- uid: SuperOffice.CRM.Web.Controllers
+  name: SuperOffice.CRM.Web.Controllers
+  items:
+  - uid: SuperOffice.CRM.Web.Controllers.AboutDialogController
+    name: AboutDialogController
+  - uid: SuperOffice.CRM.Web.Controllers.AboutDialogController.AboutDialogData
+    name: AboutDialogController.AboutDialogData
+  - uid: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController
+    name: ArchiveCommandsController
+  - uid: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.DeleteConfirmTextResponse
+    name: ArchiveCommandsController.DeleteConfirmTextResponse
+  - uid: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.DeleteFromLinkHintRequest
+    name: ArchiveCommandsController.DeleteFromLinkHintRequest
+  - uid: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.ToggleActivitiesReqeust
+    name: ArchiveCommandsController.ToggleActivitiesReqeust
+  - uid: SuperOffice.CRM.Web.Controllers.ArchiveProviderController
+    name: ArchiveProviderController
+  - uid: SuperOffice.CRM.Web.Controllers.BootstrapperController
+    name: BootstrapperController
+  - uid: SuperOffice.CRM.Web.Controllers.BootstrapperRequest
+    name: BootstrapperRequest
+  - uid: SuperOffice.CRM.Web.Controllers.BootstrapperResponse
+    name: BootstrapperResponse
+  - uid: SuperOffice.CRM.Web.Controllers.ContextMenuController
+    name: ContextMenuController
+  - uid: SuperOffice.CRM.Web.Controllers.ContextMenuController.GetContextMenuRequest
+    name: ContextMenuController.GetContextMenuRequest
+  - uid: SuperOffice.CRM.Web.Controllers.CriteriaFieldListController
+    name: CriteriaFieldListController
+  - uid: SuperOffice.CRM.Web.Controllers.DocumentsController
+    name: DocumentsController
+  - uid: SuperOffice.CRM.Web.Controllers.DocumentsController.SetTemplateTextRequest
+    name: DocumentsController.SetTemplateTextRequest
+  - uid: SuperOffice.CRM.Web.Controllers.EMailController
+    name: EMailController
+  - uid: SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthentication
+    name: EMailController.EmailAuthentication
+  - uid: SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailScriptRequest
+    name: EMailController.GetSendEMailScriptRequest
+  - uid: SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailToScriptReqeust
+    name: EMailController.GetSendEMailToScriptReqeust
+  - uid: SuperOffice.CRM.Web.Controllers.LocalizationController
+    name: LocalizationController
+  - uid: SuperOffice.CRM.Web.Controllers.MeetingReservation
+    name: MeetingReservation
+  - uid: SuperOffice.CRM.Web.Controllers.MiniPreviewController
+    name: MiniPreviewController
+  - uid: SuperOffice.CRM.Web.Controllers.MiniPreviewController.SaleAndQuoteDetails
+    name: MiniPreviewController.SaleAndQuoteDetails
+  - uid: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController
+    name: MobileCrmSettingsController
+  - uid: SuperOffice.CRM.Web.Controllers.MobileCrmSettingsController.MobileCrmSettingsData
+    name: MobileCrmSettingsController.MobileCrmSettingsData
+  - uid: SuperOffice.CRM.Web.Controllers.NotificationController
+    name: NotificationController
+  - uid: SuperOffice.CRM.Web.Controllers.PreferenceRequest
+    name: PreferenceRequest
+  - uid: SuperOffice.CRM.Web.Controllers.ProjectMemberController
+    name: ProjectMemberController
+  - uid: SuperOffice.CRM.Web.Controllers.ProjectMemberController.RemoveProjectMemberRequest
+    name: ProjectMemberController.RemoveProjectMemberRequest
+  - uid: SuperOffice.CRM.Web.Controllers.SelectionCommandsController
+    name: SelectionCommandsController
+  - uid: SuperOffice.CRM.Web.Controllers.SelectionCommandsController.CreateTemporarySelectionRequest
+    name: SelectionCommandsController.CreateTemporarySelectionRequest
+  - uid: SuperOffice.CRM.Web.Controllers.SuperStateController
+    name: SuperStateController
+  - uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest
+    name: SuperStateController.GetCurrentRequest
+  - uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolExtendedRequest
+    name: SuperStateController.GetCustomNewSoProtocolExtendedRequest
+  - uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolRequest
+    name: SuperStateController.GetCustomNewSoProtocolRequest
+  - uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocolByPageIdRequest
+    name: SuperStateController.GetSoProtocolByPageIdRequest
+  - uid: SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest
+    name: SuperStateController.LogSoProtocolRequest
+  - uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrentRequest
+    name: SuperStateController.SetCurrentRequest
+  - uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrentsRequest
+    name: SuperStateController.SetCurrentsRequest
+  - uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItemRequest
+    name: SuperStateController.SetHistoryItemRequest
+  - uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SetSoProtocolRequest
+    name: SuperStateController.SetSoProtocolRequest
+  - uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SetUserPreferenceRequest
+    name: SuperStateController.SetUserPreferenceRequest
+  - uid: SuperOffice.CRM.Web.Controllers.TooltipController
+    name: TooltipController
+  - uid: SuperOffice.CRM.Web.Controllers.TooltipController.GetTooltipRequest
+    name: TooltipController.GetTooltipRequest
+  - uid: SuperOffice.CRM.Web.Controllers.TooltipController.GetTooltipResponse
+    name: TooltipController.GetTooltipResponse
+  - uid: SuperOffice.CRM.Web.Controllers.UserConnectedState
+    name: UserConnectedState
+  - uid: SuperOffice.CRM.Web.Controllers.UserPreferencesController
+    name: UserPreferencesController
+  - uid: SuperOffice.CRM.Web.Controllers.UserPreferencesController.SetTabOrderRequest
+    name: UserPreferencesController.SetTabOrderRequest
+  - uid: SuperOffice.CRM.Web.Controllers.VideoMeetingsController
+    name: VideoMeetingsController
+  - uid: SuperOffice.CRM.Web.Controllers.WebPanelController
+    name: WebPanelController
+- uid: SuperOffice.CRM.Web.Data
+  name: SuperOffice.CRM.Web.Data
+  items:
+  - uid: SuperOffice.CRM.Web.Data.ActivityDialogDataHandler
+    name: ActivityDialogDataHandler
+  - uid: SuperOffice.CRM.Web.Data.ActivityFilterDataHandler
+    name: ActivityFilterDataHandler
+  - uid: SuperOffice.CRM.Web.Data.AddEntityToAnySelectionDataHandler
+    name: AddEntityToAnySelectionDataHandler
+  - uid: SuperOffice.CRM.Web.Data.AddLinkDataHandler
+    name: AddLinkDataHandler
+  - uid: SuperOffice.CRM.Web.Data.AddLinkState
+    name: AddLinkState
+  - uid: SuperOffice.CRM.Web.Data.AddMembersDataHandler
+    name: AddMembersDataHandler
+  - uid: SuperOffice.CRM.Web.Data.AddProjectMembersDataHandler
+    name: AddProjectMembersDataHandler
+  - uid: SuperOffice.CRM.Web.Data.AddSelectionMembersDataHandler
+    name: AddSelectionMembersDataHandler
+  - uid: SuperOffice.CRM.Web.Data.AddStakeholdersDataHandler
+    name: AddStakeholdersDataHandler
+  - uid: SuperOffice.CRM.Web.Data.AddTodoTaskWizardDataHandler
+    name: AddTodoTaskWizardDataHandler
+  - uid: SuperOffice.CRM.Web.Data.AdminAssociatesDataHandler
+    name: AdminAssociatesDataHandler
+  - uid: SuperOffice.CRM.Web.Data.AdminCsDataHandler
+    name: AdminCsDataHandler
+  - uid: SuperOffice.CRM.Web.Data.AdminPreferencesDataHandler
+    name: AdminPreferencesDataHandler
+  - uid: SuperOffice.CRM.Web.Data.AdminProductImageDataHandler
+    name: AdminProductImageDataHandler
+  - uid: SuperOffice.CRM.Web.Data.AdminSaintImageDataHandler
+    name: AdminSaintImageDataHandler
+  - uid: SuperOffice.CRM.Web.Data.AdminTimeZoneDataHandler
+    name: AdminTimeZoneDataHandler
+  - uid: SuperOffice.CRM.Web.Data.AppointmentDataHandler
+    name: AppointmentDataHandler
+  - uid: SuperOffice.CRM.Web.Data.ApproveRejectDataHandler
+    name: ApproveRejectDataHandler
+  - uid: SuperOffice.CRM.Web.Data.AppSettingsDataHandler
+    name: AppSettingsDataHandler
+  - uid: SuperOffice.CRM.Web.Data.ArchiveColumnConfigDataHandler
+    name: ArchiveColumnConfigDataHandler
+  - uid: SuperOffice.CRM.Web.Data.ArchiveColumnInfoHelper
+    name: ArchiveColumnInfoHelper
+  - uid: SuperOffice.CRM.Web.Data.AssignToDataHandler
+    name: AssignToDataHandler
+  - uid: SuperOffice.CRM.Web.Data.AssignToProjectMemberDataHandler
+    name: AssignToProjectMemberDataHandler
+  - uid: SuperOffice.CRM.Web.Data.ClientQuoteVersionStatus
+    name: ClientQuoteVersionStatus
+  - uid: SuperOffice.CRM.Web.Data.ConsentAgreementDataHandler
+    name: ConsentAgreementDataHandler
+  - uid: SuperOffice.CRM.Web.Data.ContactCopyDataHandler
+    name: ContactCopyDataHandler
+  - uid: SuperOffice.CRM.Web.Data.ContactCopyMergeBaseDataHandler
+    name: ContactCopyMergeBaseDataHandler
+  - uid: SuperOffice.CRM.Web.Data.ContactEntityDataHandler
+    name: ContactEntityDataHandler
+  - uid: SuperOffice.CRM.Web.Data.ContactMergeDataHandler
+    name: ContactMergeDataHandler
+  - uid: SuperOffice.CRM.Web.Data.ContextDataHandler
+    name: ContextDataHandler
+  - uid: SuperOffice.CRM.Web.Data.CopyExistingQuoteDataHandler
+    name: CopyExistingQuoteDataHandler
+  - uid: SuperOffice.CRM.Web.Data.CreateNewQuoteDataHandler
+    name: CreateNewQuoteDataHandler
+  - uid: SuperOffice.CRM.Web.Data.CredentialInfo
+    name: CredentialInfo
+  - uid: SuperOffice.CRM.Web.Data.CriterionDataHandler
+    name: CriterionDataHandler
+  - uid: SuperOffice.CRM.Web.Data.CriterionDataHandlerBase
+    name: CriterionDataHandlerBase
+  - uid: SuperOffice.CRM.Web.Data.CriterionHelper
+    name: CriterionHelper
+  - uid: SuperOffice.CRM.Web.Data.DataHandlerHelper
+    name: DataHandlerHelper
+  - uid: SuperOffice.CRM.Web.Data.DiaryDataHandler
+    name: DiaryDataHandler
+  - uid: SuperOffice.CRM.Web.Data.DiaryViewDataHandler
+    name: DiaryViewDataHandler
+  - uid: SuperOffice.CRM.Web.Data.DisconnectErpDataHandler
+    name: DisconnectErpDataHandler
+  - uid: SuperOffice.CRM.Web.Data.DocumentDataHandler
+    name: DocumentDataHandler
+  - uid: SuperOffice.CRM.Web.Data.DrilldownArchiveColumnConfigDataHandler
+    name: DrilldownArchiveColumnConfigDataHandler
+  - uid: SuperOffice.CRM.Web.Data.DuplicateDataHandler
+    name: DuplicateDataHandler
+  - uid: SuperOffice.CRM.Web.Data.DynamicSelectionDataHandler
+    name: DynamicSelectionDataHandler
+  - uid: SuperOffice.CRM.Web.Data.EditQuoteDataHandler
+    name: EditQuoteDataHandler
+  - uid: SuperOffice.CRM.Web.Data.EditQuoteLineDataHandler
+    name: EditQuoteLineDataHandler
+  - uid: SuperOffice.CRM.Web.Data.EditStakeholdersDataHandler
+    name: EditStakeholdersDataHandler
+  - uid: SuperOffice.CRM.Web.Data.EditStakeholdersDataHandler.SoStakeHoldersArchiveCarrier
+    name: EditStakeholdersDataHandler.SoStakeHoldersArchiveCarrier
+  - uid: SuperOffice.CRM.Web.Data.EMailAddAddressDataHandler
+    name: EMailAddAddressDataHandler
+  - uid: SuperOffice.CRM.Web.Data.EMailAddAddressObject
+    name: EMailAddAddressObject
+  - uid: SuperOffice.CRM.Web.Data.EMailAddAddressTask
+    name: EMailAddAddressTask
+  - uid: SuperOffice.CRM.Web.Data.EMailAddRecipientMode
+    name: EMailAddRecipientMode
+  - uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsDataHandler
+    name: EMailAddRecipientsDataHandler
+  - uid: SuperOffice.CRM.Web.Data.EMailAddRecipientsObject
+    name: EMailAddRecipientsObject
+  - uid: SuperOffice.CRM.Web.Data.EMAilArchiveInfo
+    name: EMAilArchiveInfo
+  - uid: SuperOffice.CRM.Web.Data.EMailAuthenticationHandler
+    name: EMailAuthenticationHandler
+  - uid: SuperOffice.CRM.Web.Data.EMailDataHandler
+    name: EMailDataHandler
+  - uid: SuperOffice.CRM.Web.Data.EMailFolderAndItems
+    name: EMailFolderAndItems
+  - uid: SuperOffice.CRM.Web.Data.EMailFolderAndParent
+    name: EMailFolderAndParent
+  - uid: SuperOffice.CRM.Web.Data.EMailFolderDataHandler
+    name: EMailFolderDataHandler
+  - uid: SuperOffice.CRM.Web.Data.EMailOptionsDataHandler
+    name: EMailOptionsDataHandler
+  - uid: SuperOffice.CRM.Web.Data.EMarketingDataHandler
+    name: EMarketingDataHandler
+  - uid: SuperOffice.CRM.Web.Data.ErpDataDataHandler
+    name: ErpDataDataHandler
+  - uid: SuperOffice.CRM.Web.Data.ErpProductArchiveColumnConfigDataHandler
+    name: ErpProductArchiveColumnConfigDataHandler
+  - uid: SuperOffice.CRM.Web.Data.ErpSyncConnectDefaultsDataHandler
+    name: ErpSyncConnectDefaultsDataHandler
+  - uid: SuperOffice.CRM.Web.Data.ErpSyncConnectionArchiveColumnConfigDataHandler
+    name: ErpSyncConnectionArchiveColumnConfigDataHandler
+  - uid: SuperOffice.CRM.Web.Data.ErpSyncCreateInErpDataHandler
+    name: ErpSyncCreateInErpDataHandler
+  - uid: SuperOffice.CRM.Web.Data.ErpSyncDefaultValue
+    name: ErpSyncDefaultValue
+  - uid: SuperOffice.CRM.Web.Data.EventCriterionDataHandler
+    name: EventCriterionDataHandler
+  - uid: SuperOffice.CRM.Web.Data.ExternalPersonsDataHandler
+    name: ExternalPersonsDataHandler
+  - uid: SuperOffice.CRM.Web.Data.FindCurrent
+    name: FindCurrent
+  - uid: SuperOffice.CRM.Web.Data.FindCurrentClient
+    name: FindCurrentClient
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler
+    name: FindDataHandler
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.InternalArchiveRestrictionInfo
+    name: FindDataHandler.InternalArchiveRestrictionInfo
+  - uid: SuperOffice.CRM.Web.Data.FindDataHandler.SetCritera
+    name: FindDataHandler.SetCritera
+  - uid: SuperOffice.CRM.Web.Data.FindInlineDataHandler
+    name: FindInlineDataHandler
+  - uid: SuperOffice.CRM.Web.Data.FindInlineErpDataHandler
+    name: FindInlineErpDataHandler
+  - uid: SuperOffice.CRM.Web.Data.FindInlineProductsDataHandler
+    name: FindInlineProductsDataHandler
+  - uid: SuperOffice.CRM.Web.Data.FindInlineSaintDataHandler
+    name: FindInlineSaintDataHandler
+  - uid: SuperOffice.CRM.Web.Data.FindInlineSaintDataHandlerCompany
+    name: FindInlineSaintDataHandlerCompany
+  - uid: SuperOffice.CRM.Web.Data.FindInlineSaintDataHandlerPerson
+    name: FindInlineSaintDataHandlerPerson
+  - uid: SuperOffice.CRM.Web.Data.FindInlineSaintDataHandlerProject
+    name: FindInlineSaintDataHandlerProject
+  - uid: SuperOffice.CRM.Web.Data.FindInlineToSelectionDataHandler
+    name: FindInlineToSelectionDataHandler
+  - uid: SuperOffice.CRM.Web.Data.FindResultArchiveColumnConfigDataHandler
+    name: FindResultArchiveColumnConfigDataHandler
+  - uid: SuperOffice.CRM.Web.Data.FindResultDataHandler
+    name: FindResultDataHandler
+  - uid: SuperOffice.CRM.Web.Data.FindSelectionMembersDataHandler
+    name: FindSelectionMembersDataHandler
+  - uid: SuperOffice.CRM.Web.Data.FindToSelectionDataHandler
+    name: FindToSelectionDataHandler
+  - uid: SuperOffice.CRM.Web.Data.GuideDataHandler
+    name: GuideDataHandler
+  - uid: SuperOffice.CRM.Web.Data.HistoryDataHandler
+    name: HistoryDataHandler
+  - uid: SuperOffice.CRM.Web.Data.InvitationsDataHandler
+    name: InvitationsDataHandler
+  - uid: SuperOffice.CRM.Web.Data.LinksDataHandler
+    name: LinksDataHandler
+  - uid: SuperOffice.CRM.Web.Data.ListDataHandler
+    name: ListDataHandler
+  - uid: SuperOffice.CRM.Web.Data.ListItemsArchiveColumnConfigDataHandler
+    name: ListItemsArchiveColumnConfigDataHandler
+  - uid: SuperOffice.CRM.Web.Data.MailArchiveColumnConfigDataHandler
+    name: MailArchiveColumnConfigDataHandler
+  - uid: SuperOffice.CRM.Web.Data.MailCredentials
+    name: MailCredentials
+  - uid: SuperOffice.CRM.Web.Data.MailMergeMailValueDataHandler
+    name: MailMergeMailValueDataHandler
+  - uid: SuperOffice.CRM.Web.Data.MailMergeWizardDataHandler
+    name: MailMergeWizardDataHandler
+  - uid: SuperOffice.CRM.Web.Data.MailOptions
+    name: MailOptions
+  - uid: SuperOffice.CRM.Web.Data.MergePersonsDataHandler
+    name: MergePersonsDataHandler
+  - uid: SuperOffice.CRM.Web.Data.MiniCardDataHandler
+    name: MiniCardDataHandler
+  - uid: SuperOffice.CRM.Web.Data.MoveMergeDataHandler
+    name: MoveMergeDataHandler
+  - uid: SuperOffice.CRM.Web.Data.MoveMergePersonDataHandler
+    name: MoveMergePersonDataHandler
+  - uid: SuperOffice.CRM.Web.Data.MovePersonDataHandler
+    name: MovePersonDataHandler
+  - uid: SuperOffice.CRM.Web.Data.NavigatorDataHandler
+    name: NavigatorDataHandler
+  - uid: SuperOffice.CRM.Web.Data.OperatorListDataHandler
+    name: OperatorListDataHandler
+  - uid: SuperOffice.CRM.Web.Data.PersonEntityDataHandler
+    name: PersonEntityDataHandler
+  - uid: SuperOffice.CRM.Web.Data.PersonEntityDataHandler2
+    name: PersonEntityDataHandler2
+  - uid: SuperOffice.CRM.Web.Data.PlaceOrderDataHandler
+    name: PlaceOrderDataHandler
+  - uid: SuperOffice.CRM.Web.Data.PreferencesDataHandler
+    name: PreferencesDataHandler
+  - uid: SuperOffice.CRM.Web.Data.PrintDataHandler
+    name: PrintDataHandler
+  - uid: SuperOffice.CRM.Web.Data.ProjectEntityDataHandler
+    name: ProjectEntityDataHandler
+  - uid: SuperOffice.CRM.Web.Data.ProjectEntityDataHandler.EventObject
+    name: ProjectEntityDataHandler.EventObject
+  - uid: SuperOffice.CRM.Web.Data.ProjectImageDataHandler
+    name: ProjectImageDataHandler
+  - uid: SuperOffice.CRM.Web.Data.ProjectMemberDataHandler
+    name: ProjectMemberDataHandler
+  - uid: SuperOffice.CRM.Web.Data.ProjectMembersDataHandler
+    name: ProjectMembersDataHandler
+  - uid: SuperOffice.CRM.Web.Data.ProjectMoveMergeDataHandler
+    name: ProjectMoveMergeDataHandler
+  - uid: SuperOffice.CRM.Web.Data.QuoteDataHandler
+    name: QuoteDataHandler
+  - uid: SuperOffice.CRM.Web.Data.QuoteEmail
+    name: QuoteEmail
+  - uid: SuperOffice.CRM.Web.Data.RecurrenceDataHandler
+    name: RecurrenceDataHandler
+  - uid: SuperOffice.CRM.Web.Data.RecurrenceProxyData
+    name: RecurrenceProxyData
+  - uid: SuperOffice.CRM.Web.Data.RecycleBinDataHandler
+    name: RecycleBinDataHandler
+  - uid: SuperOffice.CRM.Web.Data.RelationDataHandler
+    name: RelationDataHandler
+  - uid: SuperOffice.CRM.Web.Data.RenameQuoteAlternativeDataHandler
+    name: RenameQuoteAlternativeDataHandler
+  - uid: SuperOffice.CRM.Web.Data.ReportCriteraDataHandler
+    name: ReportCriteraDataHandler
+  - uid: SuperOffice.CRM.Web.Data.ReportDataHandler
+    name: ReportDataHandler
+  - uid: SuperOffice.CRM.Web.Data.SaintWatermark
+    name: SaintWatermark
+  - uid: SuperOffice.CRM.Web.Data.SaleDataHandler
+    name: SaleDataHandler
+  - uid: SuperOffice.CRM.Web.Data.SelectionArchiveColumnConfigDataHandler
+    name: SelectionArchiveColumnConfigDataHandler
+  - uid: SuperOffice.CRM.Web.Data.SelectionCurrent
+    name: SelectionCurrent
+  - uid: SuperOffice.CRM.Web.Data.SelectionDataHandler
+    name: SelectionDataHandler
+  - uid: SuperOffice.CRM.Web.Data.SelectionFindDataHandler
+    name: SelectionFindDataHandler
+  - uid: SuperOffice.CRM.Web.Data.SendQuoteDataHandler
+    name: SendQuoteDataHandler
+  - uid: SuperOffice.CRM.Web.Data.StaticContactSelectionMembersDataHandler
+    name: StaticContactSelectionMembersDataHandler
+  - uid: SuperOffice.CRM.Web.Data.StatusMonitorDataHandler
+    name: StatusMonitorDataHandler
+  - uid: SuperOffice.CRM.Web.Data.TaskAddRemoveInterestsDataHandler
+    name: TaskAddRemoveInterestsDataHandler
+  - uid: SuperOffice.CRM.Web.Data.TaskCopyIntoSelectionDataHandler
+    name: TaskCopyIntoSelectionDataHandler
+  - uid: SuperOffice.CRM.Web.Data.TaskEditMembersDataHandler
+    name: TaskEditMembersDataHandler
+  - uid: SuperOffice.CRM.Web.Data.TaskExportToFileDataHandler
+    name: TaskExportToFileDataHandler
+  - uid: SuperOffice.CRM.Web.Data.TasksDataHandlerBase
+    name: TasksDataHandlerBase
+  - uid: SuperOffice.CRM.Web.Data.TaskSendEmailDataHandler
+    name: TaskSendEmailDataHandler
+  - uid: SuperOffice.CRM.Web.Data.TemplateVariablesHandler
+    name: TemplateVariablesHandler
+  - uid: SuperOffice.CRM.Web.Data.TextInputDataHandler
+    name: TextInputDataHandler
+  - uid: SuperOffice.CRM.Web.Data.TicketDataHandler
+    name: TicketDataHandler
+  - uid: SuperOffice.CRM.Web.Data.TimeZoneDataHandler
+    name: TimeZoneDataHandler
+  - uid: SuperOffice.CRM.Web.Data.TypedMemberDataHandler`1
+    name: TypedMemberDataHandler<MemberType>
+    name.vb: TypedMemberDataHandler(Of MemberType)
+  - uid: SuperOffice.CRM.Web.Data.UserInfo
+    name: UserInfo
+  - uid: SuperOffice.CRM.Web.Data.Watermark
+    name: Watermark
+  - uid: SuperOffice.CRM.Web.Data.WhatsNewDataHandler
+    name: WhatsNewDataHandler
+- uid: SuperOffice.CRM.Web.Data.Admin
+  name: SuperOffice.CRM.Web.Data.Admin
+  items:
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminAddEmailTemplateDataHandler
+    name: AdminAddEmailTemplateDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminAddTemplateDataHandler
+    name: AdminAddTemplateDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminConfigureQuoteLineDataHandler
+    name: AdminConfigureQuoteLineDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminConfigureQuoteSettingsDataHandler
+    name: AdminConfigureQuoteSettingsDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminDeleteUserGroupDataHandler
+    name: AdminDeleteUserGroupDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminEditConnectionDataHandlerBase
+    name: AdminEditConnectionDataHandlerBase
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminEditConnectionScopeDataHandlerBase
+    name: AdminEditConnectionScopeDataHandlerBase
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminEditErpConnectionDataHandler
+    name: AdminEditErpConnectionDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminEditErpConnectionScopeDataHandler
+    name: AdminEditErpConnectionScopeDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminEditErpSyncConnectorDataHandler
+    name: AdminEditErpSyncConnectorDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminEditErpSyncDefaultValueDataHandler
+    name: AdminEditErpSyncDefaultValueDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminEditExtAppDataHandler
+    name: AdminEditExtAppDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminEditFieldDataHandler
+    name: AdminEditFieldDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminEditFollowUpDataHandler
+    name: AdminEditFollowUpDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminEditHeadingDataHandler
+    name: AdminEditHeadingDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminEditImportProductRulesDataHandler
+    name: AdminEditImportProductRulesDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminEditImportRulesDataHandler
+    name: AdminEditImportRulesDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminEditListDataHandler
+    name: AdminEditListDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminEditNumberAllocationDataHandler
+    name: AdminEditNumberAllocationDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminEditPriceListDataHandler
+    name: AdminEditPriceListDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminEditProductDataHandler
+    name: AdminEditProductDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminEditQuoteConnectionDataHandler
+    name: AdminEditQuoteConnectionDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminEditQuoteConnectionScopeDataHandler
+    name: AdminEditQuoteConnectionScopeDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminEditRelationDataHandler
+    name: AdminEditRelationDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminEditResourceDataHandler
+    name: AdminEditResourceDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminEditSaleStageDataHandler
+    name: AdminEditSaleStageDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminEditTemplateDataHandler
+    name: AdminEditTemplateDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminEditWebPanelDataHandler
+    name: AdminEditWebPanelDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminErpSyncDataHandler
+    name: AdminErpSyncDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminErpSyncDefaultsDataHandler
+    name: AdminErpSyncDefaultsDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminErpSyncMappingDataHandler
+    name: AdminErpSyncMappingDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminImportErpDataHandler
+    name: AdminImportErpDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminImportGoogleDataHandler
+    name: AdminImportGoogleDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminListItemsDataHandlerBase
+    name: AdminListItemsDataHandlerBase
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminListsAddTemplateLanguageDataHandler
+    name: AdminListsAddTemplateLanguageDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminProductDataHandler
+    name: AdminProductDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminRankErpConnectionDataHandler
+    name: AdminRankErpConnectionDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminSaintDataHandler
+    name: AdminSaintDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminSaintDataHandler.StateObject
+    name: AdminSaintDataHandler.StateObject
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminSystemEditReportDataHandler
+    name: AdminSystemEditReportDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminSystemEditStopwordsDataHandler
+    name: AdminSystemEditStopwordsDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminSystemFreetextSearchDataHandler
+    name: AdminSystemFreetextSearchDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminSystemNumberAllocationDataHandler
+    name: AdminSystemNumberAllocationDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminSystemReportsDataHandler
+    name: AdminSystemReportsDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminSystemSuggestStopWordsDataHandler
+    name: AdminSystemSuggestStopWordsDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminTestConnectionDataHandlerBase
+    name: AdminTestConnectionDataHandlerBase
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminTestErpConnectionDataHandler
+    name: AdminTestErpConnectionDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminTestErpConnectorDataHandler
+    name: AdminTestErpConnectorDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminTestQuoteConnectionDataHandler
+    name: AdminTestQuoteConnectionDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.AdminUdefDataHandler
+    name: AdminUdefDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Admin.SaintConfigurationCarrier
+    name: SaintConfigurationCarrier
+- uid: SuperOffice.CRM.Web.Data.CacheObjects
+  name: SuperOffice.CRM.Web.Data.CacheObjects
+  items:
+  - uid: SuperOffice.CRM.Web.Data.CacheObjects.MailMergeTaskCacheObject
+    name: MailMergeTaskCacheObject
+- uid: SuperOffice.CRM.Web.Data.ContextMenu
+  name: SuperOffice.CRM.Web.Data.ContextMenu
+  items:
+  - uid: SuperOffice.CRM.Web.Data.ContextMenu.MenuManager
+    name: MenuManager
+- uid: SuperOffice.CRM.Web.Data.Dashboard
+  name: SuperOffice.CRM.Web.Data.Dashboard
+  items:
+  - uid: SuperOffice.CRM.Web.Data.Dashboard.DashboardDataHandler
+    name: DashboardDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Dashboard.DashboardManagementDataHandler
+    name: DashboardManagementDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Dashboard.EditDashboardTileDataHandler
+    name: EditDashboardTileDataHandler
+  - uid: SuperOffice.CRM.Web.Data.Dashboard.TileDrilldownDataHandler
+    name: TileDrilldownDataHandler
+- uid: SuperOffice.CRM.Web.Data.Util
+  name: SuperOffice.CRM.Web.Data.Util
+  items:
+  - uid: SuperOffice.CRM.Web.Data.Util.ArchiveConfig
+    name: ArchiveConfig
+  - uid: SuperOffice.CRM.Web.Data.Util.ColumnConfig
+    name: ColumnConfig
+  - uid: SuperOffice.CRM.Web.Data.Util.ColumnConfigBase
+    name: ColumnConfigBase
+  - uid: SuperOffice.CRM.Web.Data.Util.ColumnConfigGroup
+    name: ColumnConfigGroup
+  - uid: SuperOffice.CRM.Web.Data.Util.ConfigBase
+    name: ConfigBase
+  - uid: SuperOffice.CRM.Web.Data.Util.DocPluginHelper
+    name: DocPluginHelper
+  - uid: SuperOffice.CRM.Web.Data.Util.ImportData
+    name: ImportData
+  - uid: SuperOffice.CRM.Web.Data.Util.ImportData.ImportType
+    name: ImportData.ImportType
+  - uid: SuperOffice.CRM.Web.Data.Util.ImportData.ValidationMessage
+    name: ImportData.ValidationMessage
+  - uid: SuperOffice.CRM.Web.Data.Util.MDOListHelper
+    name: MDOListHelper
+- uid: SuperOffice.CRM.Web.Globalization
+  name: SuperOffice.CRM.Web.Globalization
+  items:
+  - uid: SuperOffice.CRM.Web.Globalization.CurrentAsResourceProvider
+    name: CurrentAsResourceProvider
+  - uid: SuperOffice.CRM.Web.Globalization.TemplateTagAsResourceProvider
+    name: TemplateTagAsResourceProvider
+  - uid: SuperOffice.CRM.Web.Globalization.UserPreferenceAsResourceProvider
+    name: UserPreferenceAsResourceProvider
+- uid: SuperOffice.CRM.Web.Protocol
+  name: SuperOffice.CRM.Web.Protocol
+  items:
+  - uid: SuperOffice.CRM.Web.Protocol.InitFilterStream
+    name: InitFilterStream
+  - uid: SuperOffice.CRM.Web.Protocol.SoAdminContactProvider
+    name: SoAdminContactProvider
+  - uid: SuperOffice.CRM.Web.Protocol.SoAdminListProvider
+    name: SoAdminListProvider
+  - uid: SuperOffice.CRM.Web.Protocol.SoAdminProjectTypeProvider
+    name: SoAdminProjectTypeProvider
+  - uid: SuperOffice.CRM.Web.Protocol.SoAdminSaleTypeProvider
+    name: SoAdminSaleTypeProvider
+  - uid: SuperOffice.CRM.Web.Protocol.SoMiniPreviewProvider
+    name: SoMiniPreviewProvider
+  - uid: SuperOffice.CRM.Web.Protocol.SoOurContactProvider
+    name: SoOurContactProvider
+  - uid: SuperOffice.CRM.Web.Protocol.SoProtocolValidator
+    name: SoProtocolValidator
+- uid: SuperOffice.CRM.Web.ServerEvent
+  name: SuperOffice.CRM.Web.ServerEvent
+  items:
+  - uid: SuperOffice.CRM.Web.ServerEvent.SoAlarmsServerEventPlugin
+    name: SoAlarmsServerEventPlugin
+  - uid: SuperOffice.CRM.Web.ServerEvent.SoBatchServerEventPlugin
+    name: SoBatchServerEventPlugin
+  - uid: SuperOffice.CRM.Web.ServerEvent.SoInvitationCheckServerEventPlugin
+    name: SoInvitationCheckServerEventPlugin
+- uid: SuperOffice.CRM.Web.UI
+  name: SuperOffice.CRM.Web.UI
+  items:
+  - uid: SuperOffice.CRM.Web.UI.AppointmentEvent
+    name: AppointmentEvent
+  - uid: SuperOffice.CRM.Web.UI.ArchiveRowContextObject
+    name: ArchiveRowContextObject
+  - uid: SuperOffice.CRM.Web.UI.CalendarContainerEvent
+    name: CalendarContainerEvent
+  - uid: SuperOffice.CRM.Web.UI.CalendarEvent
+    name: CalendarEvent
+  - uid: SuperOffice.CRM.Web.UI.IconHintHelper
+    name: IconHintHelper
+  - uid: SuperOffice.CRM.Web.UI.ToolTipHelper
+    name: ToolTipHelper
+  - uid: SuperOffice.CRM.Web.UI.UIHelper
+    name: UIHelper
+- uid: SuperOffice.CRM.Web.UI.Cards_and_Views
+  name: SuperOffice.CRM.Web.UI.Cards_and_Views
+  items:
+  - uid: SuperOffice.CRM.Web.UI.Cards_and_Views.DialogSimpleCard
+    name: DialogSimpleCard
+  - uid: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController
+    name: TabbedViewController
+  - uid: SuperOffice.CRM.Web.UI.Cards_and_Views.TabbedViewController.TabItemClickedRequest
+    name: TabbedViewController.TabItemClickedRequest
+- uid: SuperOffice.CRM.Web.UI.Controls
+  name: SuperOffice.CRM.Web.UI.Controls
+  items:
+  - uid: SuperOffice.CRM.Web.UI.Controls.ActivityContext
+    name: ActivityContext
+  - uid: SuperOffice.CRM.Web.UI.Controls.AdminUdefControlGroup
+    name: AdminUdefControlGroup
+  - uid: SuperOffice.CRM.Web.UI.Controls.AdminUdefControlGroup.UdefFieldPositionUpdate
+    name: AdminUdefControlGroup.UdefFieldPositionUpdate
+  - uid: SuperOffice.CRM.Web.UI.Controls.AppointmentClientObject
+    name: AppointmentClientObject
+  - uid: SuperOffice.CRM.Web.UI.Controls.AppointmentIconBar
+    name: AppointmentIconBar
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveConfigInfo
+    name: ArchiveConfigInfo
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlContext
+    name: ArchiveControlContext
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveControlHelper
+    name: ArchiveControlHelper
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewColumnData
+    name: ArchiveGridViewColumnData
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveGridViewListItem
+    name: ArchiveGridViewListItem
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveHeader
+    name: ArchiveHeader
+  - uid: SuperOffice.CRM.Web.UI.Controls.ArchiveIndexType
+    name: ArchiveIndexType
+  - uid: SuperOffice.CRM.Web.UI.Controls.Calendar
+    name: Calendar
+  - uid: SuperOffice.CRM.Web.UI.Controls.Calendar.ClientObject
+    name: Calendar.ClientObject
+  - uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment
+    name: CalendarAppointment
+  - uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL
+    name: CalendarAppointment.HSL
+  - uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentBase
+    name: CalendarAppointmentBase
+  - uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentMonth
+    name: CalendarAppointmentMonth
+  - uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentMonthWithTime
+    name: CalendarAppointmentMonthWithTime
+  - uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentPlacement
+    name: CalendarAppointmentPlacement
+  - uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentType
+    name: CalendarAppointmentType
+  - uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointmentWeek
+    name: CalendarAppointmentWeek
+  - uid: SuperOffice.CRM.Web.UI.Controls.CalendarBackGroundLineType
+    name: CalendarBackGroundLineType
+  - uid: SuperOffice.CRM.Web.UI.Controls.CalendarCaptionType
+    name: CalendarCaptionType
+  - uid: SuperOffice.CRM.Web.UI.Controls.CalendarCompletedIcon
+    name: CalendarCompletedIcon
+  - uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+    name: CalendarContainer
+  - uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ClientObject
+    name: CalendarContainer.ClientObject
+  - uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.PrinterFriendly
+    name: CalendarContainer.PrinterFriendly
+  - uid: SuperOffice.CRM.Web.UI.Controls.CalendarDateIcon
+    name: CalendarDateIcon
+  - uid: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum
+    name: CalendarLayoutEnum
+  - uid: SuperOffice.CRM.Web.UI.Controls.CalendarTimeline
+    name: CalendarTimeline
+  - uid: SuperOffice.CRM.Web.UI.Controls.CalendarTimeScaleType
+    name: CalendarTimeScaleType
+  - uid: SuperOffice.CRM.Web.UI.Controls.CalendarValueType
+    name: CalendarValueType
+  - uid: SuperOffice.CRM.Web.UI.Controls.ColumnCustomInfo
+    name: ColumnCustomInfo
+  - uid: SuperOffice.CRM.Web.UI.Controls.ConfirmDeleteDialog
+    name: ConfirmDeleteDialog
+  - uid: SuperOffice.CRM.Web.UI.Controls.ConfirmDeleteRecurringAppointmentDialog
+    name: ConfirmDeleteRecurringAppointmentDialog
+  - uid: SuperOffice.CRM.Web.UI.Controls.ConfirmDeleteRecurringAppointmentDialog.Task
+    name: ConfirmDeleteRecurringAppointmentDialog.Task
+  - uid: SuperOffice.CRM.Web.UI.Controls.ConfirmUpdateAppointmentSendEmailDialog
+    name: ConfirmUpdateAppointmentSendEmailDialog
+  - uid: SuperOffice.CRM.Web.UI.Controls.ConfirmUpdateAppointmentSendEmailDialog.Task
+    name: ConfirmUpdateAppointmentSendEmailDialog.Task
+  - uid: SuperOffice.CRM.Web.UI.Controls.CriteriaDynamicValueBase
+    name: CriteriaDynamicValueBase
+  - uid: SuperOffice.CRM.Web.UI.Controls.CriteriaEdit
+    name: CriteriaEdit
+  - uid: SuperOffice.CRM.Web.UI.Controls.CriteriaEditAssociate
+    name: CriteriaEditAssociate
+  - uid: SuperOffice.CRM.Web.UI.Controls.CriteriaEditBoolean
+    name: CriteriaEditBoolean
+  - uid: SuperOffice.CRM.Web.UI.Controls.CriteriaEditDate
+    name: CriteriaEditDate
+  - uid: SuperOffice.CRM.Web.UI.Controls.CriteriaEditEmpty
+    name: CriteriaEditEmpty
+  - uid: SuperOffice.CRM.Web.UI.Controls.CriteriaEditListAny
+    name: CriteriaEditListAny
+  - uid: SuperOffice.CRM.Web.UI.Controls.CriteriaEditNotSupported
+    name: CriteriaEditNotSupported
+  - uid: SuperOffice.CRM.Web.UI.Controls.CriteriaEditNumber
+    name: CriteriaEditNumber
+  - uid: SuperOffice.CRM.Web.UI.Controls.CriteriaEditSaintStatus
+    name: CriteriaEditSaintStatus
+  - uid: SuperOffice.CRM.Web.UI.Controls.CriteriaEditString
+    name: CriteriaEditString
+  - uid: SuperOffice.CRM.Web.UI.Controls.CriteriaState
+    name: CriteriaState
+  - uid: SuperOffice.CRM.Web.UI.Controls.CriterionProxy
+    name: CriterionProxy
+  - uid: SuperOffice.CRM.Web.UI.Controls.CssContainer
+    name: CssContainer
+  - uid: SuperOffice.CRM.Web.UI.Controls.CurrentContactPersonsFetcher
+    name: CurrentContactPersonsFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.DashboardTileFetcher
+    name: DashboardTileFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.DataboundGridLayoutControlGroup
+    name: DataboundGridLayoutControlGroup
+  - uid: SuperOffice.CRM.Web.UI.Controls.DateCalculatorUtility
+    name: DateCalculatorUtility
+  - uid: SuperOffice.CRM.Web.UI.Controls.DeleteGroupViewDialog
+    name: DeleteGroupViewDialog
+  - uid: SuperOffice.CRM.Web.UI.Controls.DeleteMail
+    name: DeleteMail
+  - uid: SuperOffice.CRM.Web.UI.Controls.DeleteUserDialog
+    name: DeleteUserDialog
+  - uid: SuperOffice.CRM.Web.UI.Controls.DialogAbsoluteView
+    name: DialogAbsoluteView
+  - uid: SuperOffice.CRM.Web.UI.Controls.DialogCard
+    name: DialogCard
+  - uid: SuperOffice.CRM.Web.UI.Controls.DialogHeaderView
+    name: DialogHeaderView
+  - uid: SuperOffice.CRM.Web.UI.Controls.DialogPanel
+    name: DialogPanel
+  - uid: SuperOffice.CRM.Web.UI.Controls.DialogSimpleFooterView
+    name: DialogSimpleFooterView
+  - uid: SuperOffice.CRM.Web.UI.Controls.DialogSimpleView
+    name: DialogSimpleView
+  - uid: SuperOffice.CRM.Web.UI.Controls.DialogView
+    name: DialogView
+  - uid: SuperOffice.CRM.Web.UI.Controls.DiaryCard
+    name: DiaryCard
+  - uid: SuperOffice.CRM.Web.UI.Controls.DynamicListView
+    name: DynamicListView
+  - uid: SuperOffice.CRM.Web.UI.Controls.DynamicListViewRow
+    name: DynamicListViewRow
+  - uid: SuperOffice.CRM.Web.UI.Controls.EmailFolderFetcher
+    name: EmailFolderFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.EntityCheckBoxInfo
+    name: EntityCheckBoxInfo
+  - uid: SuperOffice.CRM.Web.UI.Controls.EntityElementList
+    name: EntityElementList
+  - uid: SuperOffice.CRM.Web.UI.Controls.FindCard
+    name: FindCard
+  - uid: SuperOffice.CRM.Web.UI.Controls.FindCriteriaList
+    name: FindCriteriaList
+  - uid: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController
+    name: FindCriteriaListController
+  - uid: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListController.SaveSearchResultRequest
+    name: FindCriteriaListController.SaveSearchResultRequest
+  - uid: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListErp
+    name: FindCriteriaListErp
+  - uid: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListErpImport
+    name: FindCriteriaListErpImport
+  - uid: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListErpProduct
+    name: FindCriteriaListErpProduct
+  - uid: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListErpProductSave
+    name: FindCriteriaListErpProductSave
+  - uid: SuperOffice.CRM.Web.UI.Controls.FindCriteriaListSaint
+    name: FindCriteriaListSaint
+  - uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+    name: FindInlineArchiveRestrictionInfo
+  - uid: SuperOffice.CRM.Web.UI.Controls.FloatingCard
+    name: FloatingCard
+  - uid: SuperOffice.CRM.Web.UI.Controls.HookedControlGroup
+    name: HookedControlGroup
+  - uid: SuperOffice.CRM.Web.UI.Controls.IArchiveAction
+    name: IArchiveAction
+  - uid: SuperOffice.CRM.Web.UI.Controls.IArchiveControlDataFetcher
+    name: IArchiveControlDataFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.IArchiveControlHeader
+    name: IArchiveControlHeader
+  - uid: SuperOffice.CRM.Web.UI.Controls.ICalendarAppointmentObject
+    name: ICalendarAppointmentObject
+  - uid: SuperOffice.CRM.Web.UI.Controls.ICalendarClientObject
+    name: ICalendarClientObject
+  - uid: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject
+    name: ICalendarContainerClientObject
+  - uid: SuperOffice.CRM.Web.UI.Controls.ICalendarOptions
+    name: ICalendarOptions
+  - uid: SuperOffice.CRM.Web.UI.Controls.IconSelector
+    name: IconSelector
+  - uid: SuperOffice.CRM.Web.UI.Controls.ICriteriaDynamicValue
+    name: ICriteriaDynamicValue
+  - uid: SuperOffice.CRM.Web.UI.Controls.IDynamicListViewRow
+    name: IDynamicListViewRow
+  - uid: SuperOffice.CRM.Web.UI.Controls.ILinkHintArchiveAction
+    name: ILinkHintArchiveAction
+  - uid: SuperOffice.CRM.Web.UI.Controls.IMDOControlDataFetcher
+    name: IMDOControlDataFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.ISoCheckBox
+    name: ISoCheckBox
+  - uid: SuperOffice.CRM.Web.UI.Controls.ISoDataField
+    name: ISoDataField
+  - uid: SuperOffice.CRM.Web.UI.Controls.ISubCriteria
+    name: ISubCriteria
+  - uid: SuperOffice.CRM.Web.UI.Controls.LinksControl
+    name: LinksControl
+  - uid: SuperOffice.CRM.Web.UI.Controls.LinksItem
+    name: LinksItem
+  - uid: SuperOffice.CRM.Web.UI.Controls.MailAction
+    name: MailAction
+  - uid: SuperOffice.CRM.Web.UI.Controls.MainPanel
+    name: MainPanel
+  - uid: SuperOffice.CRM.Web.UI.Controls.MarkMailAsRead
+    name: MarkMailAsRead
+  - uid: SuperOffice.CRM.Web.UI.Controls.MarkMailAsUnread
+    name: MarkMailAsUnread
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOControl
+    name: MDOControl
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOControl.ServerClickEventHandler
+    name: MDOControl.ServerClickEventHandler
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOControlModes
+    name: MDOControlModes
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOItemPropertyKey
+    name: MDOItemPropertyKey
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOList
+    name: MDOList
+  - uid: SuperOffice.CRM.Web.UI.Controls.MDOListItem
+    name: MDOListItem
+  - uid: SuperOffice.CRM.Web.UI.Controls.MiniMonthData
+    name: MiniMonthData
+  - uid: SuperOffice.CRM.Web.UI.Controls.NoteBook
+    name: NoteBook
+  - uid: SuperOffice.CRM.Web.UI.Controls.NotepadEditor
+    name: NotepadEditor
+  - uid: SuperOffice.CRM.Web.UI.Controls.NotepadPaperClip
+    name: NotepadPaperClip
+  - uid: SuperOffice.CRM.Web.UI.Controls.OkCancelButtonBar
+    name: OkCancelButtonBar
+  - uid: SuperOffice.CRM.Web.UI.Controls.OneButtonDialog
+    name: OneButtonDialog
+  - uid: SuperOffice.CRM.Web.UI.Controls.PaneSplitter
+    name: PaneSplitter
+  - uid: SuperOffice.CRM.Web.UI.Controls.PlainView
+    name: PlainView
+  - uid: SuperOffice.CRM.Web.UI.Controls.ProjectGuideStatusList
+    name: ProjectGuideStatusList
+  - uid: SuperOffice.CRM.Web.UI.Controls.ProjectStageListItemControl
+    name: ProjectStageListItemControl
+  - uid: SuperOffice.CRM.Web.UI.Controls.RenderData
+    name: RenderData
+  - uid: SuperOffice.CRM.Web.UI.Controls.RowActionResult
+    name: RowActionResult
+  - uid: SuperOffice.CRM.Web.UI.Controls.SaleGuideStageList
+    name: SaleGuideStageList
+  - uid: SuperOffice.CRM.Web.UI.Controls.SaleStageListItemControl
+    name: SaleStageListItemControl
+  - uid: SuperOffice.CRM.Web.UI.Controls.SCILComponentWrapper
+    name: SCILComponentWrapper
+  - uid: SuperOffice.CRM.Web.UI.Controls.SCILRecipeWrapper
+    name: SCILRecipeWrapper
+  - uid: SuperOffice.CRM.Web.UI.Controls.SearchTextBox
+    name: SearchTextBox
+  - uid: SuperOffice.CRM.Web.UI.Controls.SetSaleAsLost
+    name: SetSaleAsLost
+  - uid: SuperOffice.CRM.Web.UI.Controls.SetSaleAsSold
+    name: SetSaleAsSold
+  - uid: SuperOffice.CRM.Web.UI.Controls.SimpleSelectableMDOListItem
+    name: SimpleSelectableMDOListItem
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoAddress
+    name: SoAddress
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoAdminContactFetcher
+    name: SoAdminContactFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoAdminRemoveExcessSiteLicensesFetcher
+    name: SoAdminRemoveExcessSiteLicensesFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoAdminRemoveExcessUserLicensesFetcher
+    name: SoAdminRemoveExcessUserLicensesFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoAllLanguagesDataFetcher
+    name: SoAllLanguagesDataFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoApplicationContext
+    name: SoApplicationContext
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveAssignToAssociateFetcher
+    name: SoArchiveAssignToAssociateFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveAssignToProjectMemberFetcher
+    name: SoArchiveAssignToProjectMemberFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveControl
+    name: SoArchiveControl
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController
+    name: SoArchiveControlController
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.ClearDynamicFilterRequest
+    name: SoArchiveControlController.ClearDynamicFilterRequest
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.ExportSelectionToFileRequest
+    name: SoArchiveControlController.ExportSelectionToFileRequest
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.ExportToFileRequest
+    name: SoArchiveControlController.ExportToFileRequest
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.GetArchiveListRequest
+    name: SoArchiveControlController.GetArchiveListRequest
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.GetLinkHintRequest
+    name: SoArchiveControlController.GetLinkHintRequest
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRawRequest
+    name: SoArchiveControlController.RowActionLinkHintRawRequest
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.RowActionLinkHintRequest
+    name: SoArchiveControlController.RowActionLinkHintRequest
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.SaveDynamicFilterRequest
+    name: SoArchiveControlController.SaveDynamicFilterRequest
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.SetColumnWidthsRequest
+    name: SoArchiveControlController.SetColumnWidthsRequest
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.SetSingleFirstEntityRequest
+    name: SoArchiveControlController.SetSingleFirstEntityRequest
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveControlController.ToggleDynamicFilterLockRequest
+    name: SoArchiveControlController.ToggleDynamicFilterLockRequest
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveFetcher
+    name: SoArchiveFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveFetcherBase
+    name: SoArchiveFetcherBase
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveFindFetcher
+    name: SoArchiveFindFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveFreetextFindFetcher
+    name: SoArchiveFreetextFindFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveGridView
+    name: SoArchiveGridView
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController
+    name: SoArchiveGridViewController
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveGridViewController.SoArchiveGridViewRequest
+    name: SoArchiveGridViewController.SoArchiveGridViewRequest
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveInvitationFetcher
+    name: SoArchiveInvitationFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveLinksFetcher
+    name: SoArchiveLinksFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveMailFetcher
+    name: SoArchiveMailFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveMembersFetcher
+    name: SoArchiveMembersFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveParticipantsFetcher
+    name: SoArchiveParticipantsFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveProjectMembersFetcher
+    name: SoArchiveProjectMembersFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveRecurrenceDateFetcher
+    name: SoArchiveRecurrenceDateFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveSaleStakeholderFetcher
+    name: SoArchiveSaleStakeholderFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionFetcher
+    name: SoArchiveSelectionFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveSelectionMembersFetcher
+    name: SoArchiveSelectionMembersFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoArchiveShadowSelectionFetcher
+    name: SoArchiveShadowSelectionFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoAutoCompleteControl
+    name: SoAutoCompleteControl
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoAutoCompleteControl.ServerClickEventHandler
+    name: SoAutoCompleteControl.ServerClickEventHandler
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoBoundField
+    name: SoBoundField
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoButton
+    name: SoButton
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoButton.ServerClickEventHandler
+    name: SoButton.ServerClickEventHandler
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoButtonBarLayout
+    name: SoButtonBarLayout
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoButtonGroup
+    name: SoButtonGroup
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoCardStatus
+    name: SoCardStatus
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoCheckBox
+    name: SoCheckBox
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoCheckBox.ServerClickEventHandler
+    name: SoCheckBox.ServerClickEventHandler
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoCheckboxField
+    name: SoCheckboxField
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoCheckboxForFindDialogField
+    name: SoCheckboxForFindDialogField
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox
+    name: SoCheckedListBox
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox.ItemsToDisplay
+    name: SoCheckedListBox.ItemsToDisplay
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBox.StateInfo
+    name: SoCheckedListBox.StateInfo
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems
+    name: SoCheckedListBoxItems
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoCheckedListBoxItems.ColumnItem
+    name: SoCheckedListBoxItems.ColumnItem
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoClientState
+    name: SoClientState
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoCompletedCheckbox
+    name: SoCompletedCheckbox
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoCompletedPublished
+    name: SoCompletedPublished
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoConflictField
+    name: SoConflictField
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoConnectionConfig
+    name: SoConnectionConfig
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoConnectionConfigData
+    name: SoConnectionConfigData
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoCredentialRadioGroup
+    name: SoCredentialRadioGroup
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoCriteriaBoundField
+    name: SoCriteriaBoundField
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoCriteriaEditAttribute
+    name: SoCriteriaEditAttribute
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoCriteriaMDOControlDataFetcher
+    name: SoCriteriaMDOControlDataFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoDashboardTileDrilldownDataFetcher
+    name: SoDashboardTileDrilldownDataFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoDate
+    name: SoDate
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoDateField
+    name: SoDateField
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange
+    name: SoDateRange
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass
+    name: SoDateRange.PropertyClass
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.AnimationClass
+    name: SoDateRange.PropertyClass.AnimationClass
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.PropertyClass.LayoutClass
+    name: SoDateRange.PropertyClass.LayoutClass
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoDateRange.RangeFlags
+    name: SoDateRange.RangeFlags
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoDateSelector
+    name: SoDateSelector
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoDateTimeField
+    name: SoDateTimeField
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoDocumentFileUpload
+    name: SoDocumentFileUpload
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoDropDownControl
+    name: SoDropDownControl
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoDynamicRadioButtonList
+    name: SoDynamicRadioButtonList
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoEditLabel
+    name: SoEditLabel
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoEditLabel.EditLabelData
+    name: SoEditLabel.EditLabelData
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoEditLabel.LanguageData
+    name: SoEditLabel.LanguageData
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoEMailAddressFetcher
+    name: SoEMailAddressFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoErpSyncDefaults
+    name: SoErpSyncDefaults
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoErpSyncLogFetcher
+    name: SoErpSyncLogFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoErpSyncMapping
+    name: SoErpSyncMapping
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoExpandedTile
+    name: SoExpandedTile
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoExternalPersonsFetcher
+    name: SoExternalPersonsFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoFavourite
+    name: SoFavourite
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoFavouriteFetcher
+    name: SoFavouriteFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoFieldBase
+    name: SoFieldBase
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoFileUpload
+    name: SoFileUpload
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoFilteredAssocTwinListBox
+    name: SoFilteredAssocTwinListBox
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoFindInlineArchiveFetcher
+    name: SoFindInlineArchiveFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoFindInlineErpArchiveFetcher
+    name: SoFindInlineErpArchiveFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoFindInlineErpImportArchiveFetcher
+    name: SoFindInlineErpImportArchiveFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoFindInlineErpProductArchiveFetcher
+    name: SoFindInlineErpProductArchiveFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoFullCalendar
+    name: SoFullCalendar
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoFullCalendarMiniMonths
+    name: SoFullCalendarMiniMonths
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoGuideBoundField
+    name: SoGuideBoundField
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoGuideCheckboxField
+    name: SoGuideCheckboxField
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoGuideDateField
+    name: SoGuideDateField
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoGuideToolbar
+    name: SoGuideToolbar
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoHeadingButton
+    name: SoHeadingButton
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoHorizontalRule
+    name: SoHorizontalRule
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoHyperLink
+    name: SoHyperLink
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoHyperLinkType
+    name: SoHyperLinkType
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoIconField
+    name: SoIconField
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoImage
+    name: SoImage
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoImageBorderType
+    name: SoImageBorderType
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoImageButton
+    name: SoImageButton
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoImageField
+    name: SoImageField
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoImageType
+    name: SoImageType
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoImportArchiveHeader
+    name: SoImportArchiveHeader
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoImportColumnDataFetcher
+    name: SoImportColumnDataFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoImportDataFetcher
+    name: SoImportDataFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoInlineCriteriaMDOControlDataFetcher
+    name: SoInlineCriteriaMDOControlDataFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoInlineErpCriteriaMDOControlDataFetcher
+    name: SoInlineErpCriteriaMDOControlDataFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoInlineErpProductCriteriaMDOControlDataFetcher
+    name: SoInlineErpProductCriteriaMDOControlDataFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoInterestsControl
+    name: SoInterestsControl
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoLabel
+    name: SoLabel
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoLabelField
+    name: SoLabelField
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoLabelWithButton
+    name: SoLabelWithButton
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoLicenseInfoList
+    name: SoLicenseInfoList
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoLinkedDate
+    name: SoLinkedDate
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoListBox
+    name: SoListBox
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoListBox.ClickScripts
+    name: SoListBox.ClickScripts
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoListBox.ServerClickEventHandler
+    name: SoListBox.ServerClickEventHandler
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoListBoxControl
+    name: SoListBoxControl
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoListItemsArchiveFetcher
+    name: SoListItemsArchiveFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoMailAttachmentControl
+    name: SoMailAttachmentControl
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoMDOControlDataFetcher
+    name: SoMDOControlDataFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoMenuAccess
+    name: SoMenuAccess
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoMenuPopup
+    name: SoMenuPopup
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoMiniCardCard
+    name: SoMiniCardCard
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoMonth
+    name: SoMonth
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoMonth.MonthDisplayStyle
+    name: SoMonth.MonthDisplayStyle
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoMonthCollection
+    name: SoMonthCollection
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoMultiLanguageTextBox
+    name: SoMultiLanguageTextBox
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoNameControl
+    name: SoNameControl
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoNavigatorButton
+    name: SoNavigatorButton
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoNavigatorSearchControl
+    name: SoNavigatorSearchControl
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoNotificationButton
+    name: SoNotificationButton
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoPhoneField
+    name: SoPhoneField
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoPhoneView
+    name: SoPhoneView
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoPhoneView.ServerClickEventHandler
+    name: SoPhoneView.ServerClickEventHandler
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoPlainLabel
+    name: SoPlainLabel
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoProjectGuideArchiveFetcher
+    name: SoProjectGuideArchiveFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoQuoteLineConfig
+    name: SoQuoteLineConfig
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoQuoteLineConfigData
+    name: SoQuoteLineConfigData
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoQuoteLineFields
+    name: SoQuoteLineFields
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoQuoteLineFieldsConfig
+    name: SoQuoteLineFieldsConfig
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoQuoteLineFieldsData
+    name: SoQuoteLineFieldsData
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoRadioButton
+    name: SoRadioButton
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoRadioButton.ServerClickEventHandler
+    name: SoRadioButton.ServerClickEventHandler
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoRadioButtonGroup
+    name: SoRadioButtonGroup
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoRadioButtonList
+    name: SoRadioButtonList
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoReadOnlyModeBehaviour
+    name: SoReadOnlyModeBehaviour
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoReportDayFetcher
+    name: SoReportDayFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoSaleGuideArchiveFetcher
+    name: SoSaleGuideArchiveFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoSaleStakeHoldersFetcher
+    name: SoSaleStakeHoldersFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoScriptManager
+    name: SoScriptManager
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoSearchableDataFetcher
+    name: SoSearchableDataFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoSearchControl
+    name: SoSearchControl
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoSelectableList
+    name: SoSelectableList
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoSelectableList.StateInfo
+    name: SoSelectableList.StateInfo
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoSelectionKindFetcher
+    name: SoSelectionKindFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoSelectMdoItemControlGroup
+    name: SoSelectMdoItemControlGroup
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoSeperatorField
+    name: SoSeperatorField
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoSortedMDOControlDataFetcher
+    name: SoSortedMDOControlDataFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoSpacer
+    name: SoSpacer
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoSpeedBarButton
+    name: SoSpeedBarButton
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoSplitterControlGroup
+    name: SoSplitterControlGroup
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoSprite
+    name: SoSprite
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoSpriteButton
+    name: SoSpriteButton
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl
+    name: SoStageListControl
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoTemplateLanguageFetcher
+    name: SoTemplateLanguageFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoTextBox
+    name: SoTextBox
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoTextBoxType
+    name: SoTextBoxType
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoTile
+    name: SoTile
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoTileOptionsControlGroup
+    name: SoTileOptionsControlGroup
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoTimeZoneMDOControlDataFetcher
+    name: SoTimeZoneMDOControlDataFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoToolButton
+    name: SoToolButton
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoTreeNode
+    name: SoTreeNode
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoTreeNodeSelectAction
+    name: SoTreeNodeSelectAction
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoTreeView
+    name: SoTreeView
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoTriStateCheckBox
+    name: SoTriStateCheckBox
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoTriStateCheckBox.ServerClickEventHandler
+    name: SoTriStateCheckBox.ServerClickEventHandler
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoTwinListBox
+    name: SoTwinListBox
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoUdefPageOneDataFetcher
+    name: SoUdefPageOneDataFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoVisibleForArchiveFetcher
+    name: SoVisibleForArchiveFetcher
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoVisibleForList
+    name: SoVisibleForList
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoWWWControl
+    name: SoWWWControl
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoWWWControl.UrlItem
+    name: SoWWWControl.UrlItem
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoWwwPhone
+    name: SoWwwPhone
+  - uid: SuperOffice.CRM.Web.UI.Controls.SoWwwPhone.DisplayModes
+    name: SoWwwPhone.DisplayModes
+  - uid: SuperOffice.CRM.Web.UI.Controls.SplitterHorizontalPanel
+    name: SplitterHorizontalPanel
+  - uid: SuperOffice.CRM.Web.UI.Controls.SplitterOption
+    name: SplitterOption
+  - uid: SuperOffice.CRM.Web.UI.Controls.SplitterOption.DockElement
+    name: SplitterOption.DockElement
+  - uid: SuperOffice.CRM.Web.UI.Controls.SplitterPanel
+    name: SplitterPanel
+  - uid: SuperOffice.CRM.Web.UI.Controls.StageListItemControl
+    name: StageListItemControl
+  - uid: SuperOffice.CRM.Web.UI.Controls.SubRestriction
+    name: SubRestriction
+  - uid: SuperOffice.CRM.Web.UI.Controls.SystemView
+    name: SystemView
+  - uid: SuperOffice.CRM.Web.UI.Controls.Tab
+    name: Tab
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedCard
+    name: TabbedCard
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabbedView
+    name: TabbedView
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabItem
+    name: TabItem
+  - uid: SuperOffice.CRM.Web.UI.Controls.TabMode
+    name: TabMode
+  - uid: SuperOffice.CRM.Web.UI.Controls.TaskContext
+    name: TaskContext
+  - uid: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter
+    name: ThreePaneSplitter
+  - uid: SuperOffice.CRM.Web.UI.Controls.ThreePaneSplitter.SplitterBoundaries
+    name: ThreePaneSplitter.SplitterBoundaries
+  - uid: SuperOffice.CRM.Web.UI.Controls.ToggleActivities
+    name: ToggleActivities
+  - uid: SuperOffice.CRM.Web.UI.Controls.ToggleMailFolder
+    name: ToggleMailFolder
+  - uid: SuperOffice.CRM.Web.UI.Controls.ToolbarControlGroup
+    name: ToolbarControlGroup
+  - uid: SuperOffice.CRM.Web.UI.Controls.TransparentView
+    name: TransparentView
+  - uid: SuperOffice.CRM.Web.UI.Controls.TriStateMode
+    name: TriStateMode
+  - uid: SuperOffice.CRM.Web.UI.Controls.TwoPaneSplitter
+    name: TwoPaneSplitter
+  - uid: SuperOffice.CRM.Web.UI.Controls.TwoPaneSplitter.SplitterBoundaries
+    name: TwoPaneSplitter.SplitterBoundaries
+  - uid: SuperOffice.CRM.Web.UI.Controls.UpdateRows
+    name: UpdateRows
+  - uid: SuperOffice.CRM.Web.UI.Controls.UserControlBase
+    name: UserControlBase
+  - uid: SuperOffice.CRM.Web.UI.Controls.ValueHint
+    name: ValueHint
+  - uid: SuperOffice.CRM.Web.UI.Controls.ValueHintCollection
+    name: ValueHintCollection
+  - uid: SuperOffice.CRM.Web.UI.Controls.View
+    name: View
+  - uid: SuperOffice.CRM.Web.UI.Controls.VisibleForControl
+    name: VisibleForControl
+  - uid: SuperOffice.CRM.Web.UI.Controls.WizardCard
+    name: WizardCard
+  - uid: SuperOffice.CRM.Web.UI.Controls.WizardLabels
+    name: WizardLabels
+  - uid: SuperOffice.CRM.Web.UI.Controls.WizardLabels.WizardLabel
+    name: WizardLabels.WizardLabel
+- uid: SuperOffice.CRM.Web.UI.Controls.Dialog
+  name: SuperOffice.CRM.Web.UI.Controls.Dialog
+  items:
+  - uid: SuperOffice.CRM.Web.UI.Controls.Dialog.ConfirmCreateSuggestedAppointment
+    name: ConfirmCreateSuggestedAppointment
+- uid: SuperOffice.CRM.Web.UI.Filters
+  name: SuperOffice.CRM.Web.UI.Filters
+  items:
+  - uid: SuperOffice.CRM.Web.UI.Filters.ConditionalFilter
+    name: ConditionalFilter
+  - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilter
+    name: CustomCheckFilter
+  - uid: SuperOffice.CRM.Web.UI.Filters.DataFilter
+    name: DataFilter
+  - uid: SuperOffice.CRM.Web.UI.Filters.ErpSyncActorTypeMappingFilter
+    name: ErpSyncActorTypeMappingFilter
+  - uid: SuperOffice.CRM.Web.UI.Filters.ErpSyncDefaultsFilter
+    name: ErpSyncDefaultsFilter
+  - uid: SuperOffice.CRM.Web.UI.Filters.ErpSyncRankFieldsFilter
+    name: ErpSyncRankFieldsFilter
+  - uid: SuperOffice.CRM.Web.UI.Filters.FavouriteFilter
+    name: FavouriteFilter
+  - uid: SuperOffice.CRM.Web.UI.Filters.FeatureToggleFilter
+    name: FeatureToggleFilter
+  - uid: SuperOffice.CRM.Web.UI.Filters.FindFilter
+    name: FindFilter
+  - uid: SuperOffice.CRM.Web.UI.Filters.FindInlineFilter
+    name: FindInlineFilter
+  - uid: SuperOffice.CRM.Web.UI.Filters.FramelessFilter
+    name: FramelessFilter
+  - uid: SuperOffice.CRM.Web.UI.Filters.FreetextFindFilter
+    name: FreetextFindFilter
+  - uid: SuperOffice.CRM.Web.UI.Filters.FunctionalRightsFilter
+    name: FunctionalRightsFilter
+  - uid: SuperOffice.CRM.Web.UI.Filters.LicenseFilter
+    name: LicenseFilter
+  - uid: SuperOffice.CRM.Web.UI.Filters.LicenseOwnerFilter
+    name: LicenseOwnerFilter
+  - uid: SuperOffice.CRM.Web.UI.Filters.QuoteAlternativeFilter
+    name: QuoteAlternativeFilter
+  - uid: SuperOffice.CRM.Web.UI.Filters.QuoteDocsMenuFilter
+    name: QuoteDocsMenuFilter
+  - uid: SuperOffice.CRM.Web.UI.Filters.RoleFilter
+    name: RoleFilter
+  - uid: SuperOffice.CRM.Web.UI.Filters.SelectionFilter
+    name: SelectionFilter
+  - uid: SuperOffice.CRM.Web.UI.Filters.SentryFilter
+    name: SentryFilter
+  - uid: SuperOffice.CRM.Web.UI.Filters.SiteUrlFilter
+    name: SiteUrlFilter
+  - uid: SuperOffice.CRM.Web.UI.Filters.TimeZoneFilter
+    name: TimeZoneFilter
+  - uid: SuperOffice.CRM.Web.UI.Filters.UserCommandMenuFilter
+    name: UserCommandMenuFilter
+  - uid: SuperOffice.CRM.Web.UI.Filters.UserPreferenceFilter
+    name: UserPreferenceFilter
+- uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters
+  name: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters
+  items:
+  - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.AdminUserCheck
+    name: AdminUserCheck
+  - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.CanChangePasswordCheck
+    name: CanChangePasswordCheck
+  - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.ChatCheck
+    name: ChatCheck
+  - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.CsUrlDataCheck
+    name: CsUrlDataCheck
+  - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.CurrentIsNotStaticSelectionCheck
+    name: CurrentIsNotStaticSelectionCheck
+  - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.CurrentIsStaticSelectionCheck
+    name: CurrentIsStaticSelectionCheck
+  - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.DeleteBatchMenuCheck
+    name: DeleteBatchMenuCheck
+  - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.DocumentIsCheckedOutByOthersCheck
+    name: DocumentIsCheckedOutByOthersCheck
+  - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.DocumentIsCheckedOutCheck
+    name: DocumentIsCheckedOutCheck
+  - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.EntityHasNoEmailCheck
+    name: EntityHasNoEmailCheck
+  - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.ErpTabCheck
+    name: ErpTabCheck
+  - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.ICustomCheckFilter
+    name: ICustomCheckFilter
+  - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.LastQuoteAlternative
+    name: LastQuoteAlternative
+  - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.LicenseExpiredCheck
+    name: LicenseExpiredCheck
+  - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.MailLoginCheck
+    name: MailLoginCheck
+  - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.MenuDataCheck
+    name: MenuDataCheck
+  - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.NewAppointmentPreferenceSentryCheck
+    name: NewAppointmentPreferenceSentryCheck
+  - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.SaleCompletedCheck
+    name: SaleCompletedCheck
+  - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.SaleStakeHolderEmailCheck
+    name: SaleStakeHolderEmailCheck
+  - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.SmsNotAvailableCheck
+    name: SmsNotAvailableCheck
+  - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.SystemUserCheck
+    name: SystemUserCheck
+  - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.TestDriveCheck
+    name: TestDriveCheck
+  - uid: SuperOffice.CRM.Web.UI.Filters.CustomCheckFilters.WhatsNewCheck
+    name: WhatsNewCheck
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects
+  name: SuperOffice.CRM.Web.UI.ScriptObjects
+  items:
+  - uid: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject
+    name: AcceptRejectObject
+  - uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager
+    name: CalendarManager
+  - uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.AppointmentAttributes
+    name: CalendarManager.AppointmentAttributes
+  - uid: SuperOffice.CRM.Web.UI.ScriptObjects.CalendarManager.CalendarAttributes
+    name: CalendarManager.CalendarAttributes
+  - uid: SuperOffice.CRM.Web.UI.ScriptObjects.DDManager
+    name: DDManager
+  - uid: SuperOffice.CRM.Web.UI.ScriptObjects.DDManager.DragDropAttributes
+    name: DDManager.DragDropAttributes
+  - uid: SuperOffice.CRM.Web.UI.ScriptObjects.DialogManager
+    name: DialogManager
+  - uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropContext
+    name: DragDropContext
+  - uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropMode
+    name: DragDropMode
+  - uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragDropType
+    name: DragDropType
+  - uid: SuperOffice.CRM.Web.UI.ScriptObjects.DragObject
+    name: DragObject
+  - uid: SuperOffice.CRM.Web.UI.ScriptObjects.DropTargetObject
+    name: DropTargetObject
+  - uid: SuperOffice.CRM.Web.UI.ScriptObjects.NotepadManager
+    name: NotepadManager
+  - uid: SuperOffice.CRM.Web.UI.ScriptObjects.PopUpManager
+    name: PopUpManager
+  - uid: SuperOffice.CRM.Web.UI.ScriptObjects.SoDateRangeManager
+    name: SoDateRangeManager
+  - uid: SuperOffice.CRM.Web.UI.ScriptObjects.WizardDialogContext
+    name: WizardDialogContext
+- uid: SuperOffice.CRM.Web.UI.Validations
+  name: SuperOffice.CRM.Web.UI.Validations
+  items:
+  - uid: SuperOffice.CRM.Web.UI.Validations.AddressMandatoryValidator
+    name: AddressMandatoryValidator
+  - uid: SuperOffice.CRM.Web.UI.Validations.CredentialsValidator
+    name: CredentialsValidator
+  - uid: SuperOffice.CRM.Web.UI.Validations.DateValidator
+    name: DateValidator
+  - uid: SuperOffice.CRM.Web.UI.Validations.EmailValidator
+    name: EmailValidator
+  - uid: SuperOffice.CRM.Web.UI.Validations.FieldsRightsValidator
+    name: FieldsRightsValidator
+  - uid: SuperOffice.CRM.Web.UI.Validations.InterestsMandatoryValidator
+    name: InterestsMandatoryValidator
+  - uid: SuperOffice.CRM.Web.UI.Validations.MandatoryValidator
+    name: MandatoryValidator
+  - uid: SuperOffice.CRM.Web.UI.Validations.NameAndEmailValidator
+    name: NameAndEmailValidator
+  - uid: SuperOffice.CRM.Web.UI.Validations.NumberValidator
+    name: NumberValidator
+  - uid: SuperOffice.CRM.Web.UI.Validations.PercentValidator
+    name: PercentValidator
+  - uid: SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType
+    name: RangeValidationDataType
+  - uid: SuperOffice.CRM.Web.UI.Validations.RangeValidator
+    name: RangeValidator
+  - uid: SuperOffice.CRM.Web.UI.Validations.TemplateNameValidator
+    name: TemplateNameValidator
+  - uid: SuperOffice.CRM.Web.UI.Validations.TimeSpanValidator
+    name: TimeSpanValidator
+  - uid: SuperOffice.CRM.Web.UI.Validations.UniqueNumberValidator
+    name: UniqueNumberValidator
+  - uid: SuperOffice.CRM.Web.UI.Validations.ValidationNumberType
+    name: ValidationNumberType
+  - uid: SuperOffice.CRM.Web.UI.Validations.ValidationRegExType
+    name: ValidationRegExType
+  - uid: SuperOffice.CRM.Web.UI.Validations.WindowNameValidator
+    name: WindowNameValidator
+- uid: SuperOffice.CRM.Web.Util
+  name: SuperOffice.CRM.Web.Util
+  items:
+  - uid: SuperOffice.CRM.Web.Util.AppointmentHelper
+    name: AppointmentHelper
+  - uid: SuperOffice.CRM.Web.Util.DocumentHelper
+    name: DocumentHelper
+  - uid: SuperOffice.CRM.Web.Util.EMailEntityType
+    name: EMailEntityType
+  - uid: SuperOffice.CRM.Web.Util.HAttribute
+    name: HAttribute
+  - uid: SuperOffice.CRM.Web.Util.HElement
+    name: HElement
+  - uid: SuperOffice.CRM.Web.Util.HttpHelper
+    name: HttpHelper
+  - uid: SuperOffice.CRM.Web.Util.HttpHelper.RequestType
+    name: HttpHelper.RequestType
+  - uid: SuperOffice.CRM.Web.Util.IPocketSettingsProvider
+    name: IPocketSettingsProvider
+  - uid: SuperOffice.CRM.Web.Util.MailClient
+    name: MailClient
+  - uid: SuperOffice.CRM.Web.Util.MailEntity
+    name: MailEntity
+  - uid: SuperOffice.CRM.Web.Util.MailLookup
+    name: MailLookup
+  - uid: SuperOffice.CRM.Web.Util.MailMergeMailValue
+    name: MailMergeMailValue
+  - uid: SuperOffice.CRM.Web.Util.MailTask
+    name: MailTask
+  - uid: SuperOffice.CRM.Web.Util.MailTask.QuoteMail
+    name: MailTask.QuoteMail
+  - uid: SuperOffice.CRM.Web.Util.MailUI
+    name: MailUI
+  - uid: SuperOffice.CRM.Web.Util.NetServerPocketSettingsProvider
+    name: NetServerPocketSettingsProvider
+  - uid: SuperOffice.CRM.Web.Util.PocketSettingsHelper
+    name: PocketSettingsHelper
+  - uid: SuperOffice.CRM.Web.Util.QrCodeGenerator
+    name: QrCodeGenerator
+  - uid: SuperOffice.CRM.Web.Util.StatusMonitorHelper
+    name: StatusMonitorHelper
+  - uid: SuperOffice.CRM.Web.Util.TrayAppManager
+    name: TrayAppManager
+  - uid: SuperOffice.CRM.Web.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+  - uid: SuperOffice.CRM.Web.Util.VideoMeetingHelper.SoAppointment
+    name: VideoMeetingHelper.SoAppointment
+  - uid: SuperOffice.CRM.Web.Util.WebToolsHelper
+    name: WebToolsHelper
+- uid: SuperOffice.Data
+  name: SuperOffice.Data
+  items:
+  - uid: SuperOffice.Data.ArchiveView
+    name: ArchiveView
+  - uid: SuperOffice.Data.CarrierUtility
+    name: CarrierUtility
+  - uid: SuperOffice.Data.DataDispatcher
+    name: DataDispatcher
+  - uid: SuperOffice.Data.DataObject
+    name: DataObject
+  - uid: SuperOffice.Data.DataRight
+    name: DataRight
+  - uid: SuperOffice.Data.EventAction`5
+    name: EventAction<T1, T2, T3, T4, T5>
+    name.vb: EventAction(Of T1, T2, T3, T4, T5)
+  - uid: SuperOffice.Data.IDataHandler
+    name: IDataHandler
+  - uid: SuperOffice.Data.LicenseHelper
+    name: LicenseHelper
+  - uid: SuperOffice.Data.MainView
+    name: MainView
+  - uid: SuperOffice.Data.MiniPanelView
+    name: MiniPanelView
+  - uid: SuperOffice.Data.Panel
+    name: Panel
+  - uid: SuperOffice.Data.SoStateObjectInfo
+    name: SoStateObjectInfo
+- uid: SuperOffice.DCF.Drawing
+  name: SuperOffice.DCF.Drawing
+  items:
+  - uid: SuperOffice.DCF.Drawing.FallbackStrategy
+    name: FallbackStrategy
+  - uid: SuperOffice.DCF.Drawing.ImageSize
+    name: ImageSize
+  - uid: SuperOffice.DCF.Drawing.ImageUtility
+    name: ImageUtility
+  - uid: SuperOffice.DCF.Drawing.ScaleStrategy
+    name: ScaleStrategy
+  - uid: SuperOffice.DCF.Drawing.VerticalAlignment
+    name: VerticalAlignment
+- uid: SuperOffice.DCF.Web
+  name: SuperOffice.DCF.Web
+  items:
+  - uid: SuperOffice.DCF.Web.ApplicationDefs
+    name: ApplicationDefs
+  - uid: SuperOffice.DCF.Web.ApplicationDefs.CurrentNames
+    name: ApplicationDefs.CurrentNames
+  - uid: SuperOffice.DCF.Web.ApplicationUtility
+    name: ApplicationUtility
+  - uid: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodImplementation
+    name: ApplicationUtility.AjaxMethodImplementation
+  - uid: SuperOffice.DCF.Web.ApplicationUtility.AjaxMethodPreImplementation
+    name: ApplicationUtility.AjaxMethodPreImplementation
+  - uid: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags
+    name: ApplicationUtility.CacheTypeFlags
+  - uid: SuperOffice.DCF.Web.BrowserHelper
+    name: BrowserHelper
+  - uid: SuperOffice.DCF.Web.BrowserVersionHandler
+    name: BrowserVersionHandler
+  - uid: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventArgs
+    name: CheckBrowserVersionCompletedEventArgs
+  - uid: SuperOffice.DCF.Web.CheckBrowserVersionCompletedEventHandler
+    name: CheckBrowserVersionCompletedEventHandler
+  - uid: SuperOffice.DCF.Web.ConfigurationManager
+    name: ConfigurationManager
+  - uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings
+    name: ConfigurationManager.ApplicationSettings
+  - uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition
+    name: ConfigurationManager.ApplicationSettings.CurrentDefinition
+  - uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+    name: ConfigurationManager.ApplicationSettings.PageDefinition
+  - uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageSet
+    name: ConfigurationManager.ApplicationSettings.PageSet
+  - uid: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo
+    name: ConfigurationManager.ConfigurationObjectInfo
+  - uid: SuperOffice.DCF.Web.CurrentCalculatorPluginAttribute
+    name: CurrentCalculatorPluginAttribute
+  - uid: SuperOffice.DCF.Web.DataDispatcherManager
+    name: DataDispatcherManager
+  - uid: SuperOffice.DCF.Web.ICurrentCalculator
+    name: ICurrentCalculator
+  - uid: SuperOffice.DCF.Web.ICurrentCalculatorPlugin
+    name: ICurrentCalculatorPlugin
+  - uid: SuperOffice.DCF.Web.ISoAutomatedLoginPlugin
+    name: ISoAutomatedLoginPlugin
+  - uid: SuperOffice.DCF.Web.LocalizationParameters
+    name: LocalizationParameters
+  - uid: SuperOffice.DCF.Web.RequestSecurityHelper
+    name: RequestSecurityHelper
+  - uid: SuperOffice.DCF.Web.ServerEventContext
+    name: ServerEventContext
+  - uid: SuperOffice.DCF.Web.ServerEventManager
+    name: ServerEventManager
+  - uid: SuperOffice.DCF.Web.SignalRTokenHelper
+    name: SignalRTokenHelper
+  - uid: SuperOffice.DCF.Web.SoAjaxException
+    name: SoAjaxException
+  - uid: SuperOffice.DCF.Web.SoAjaxMethodAttribute
+    name: SoAjaxMethodAttribute
+  - uid: SuperOffice.DCF.Web.SoAjaxMethodType
+    name: SoAjaxMethodType
+  - uid: SuperOffice.DCF.Web.SoAjaxRedirectException
+    name: SoAjaxRedirectException
+  - uid: SuperOffice.DCF.Web.SoAutomatedLoginPluginAttribute
+    name: SoAutomatedLoginPluginAttribute
+  - uid: SuperOffice.DCF.Web.SoFormsAuthentication
+    name: SoFormsAuthentication
+  - uid: SuperOffice.DCF.Web.SoFormsAuthentication.AutomatedLoginAction
+    name: SoFormsAuthentication.AutomatedLoginAction
+  - uid: SuperOffice.DCF.Web.SoFormsAuthentication.SetLicenseFailure
+    name: SoFormsAuthentication.SetLicenseFailure
+  - uid: SuperOffice.DCF.Web.SoSessionAttribute
+    name: SoSessionAttribute
+  - uid: SuperOffice.DCF.Web.StringCurrentExtension
+    name: StringCurrentExtension
+  - uid: SuperOffice.DCF.Web.SuperStateCurrentValues
+    name: SuperStateCurrentValues
+  - uid: SuperOffice.DCF.Web.SuperStateManager
+    name: SuperStateManager
+  - uid: SuperOffice.DCF.Web.TableRightCache
+    name: TableRightCache
+  - uid: SuperOffice.DCF.Web.UserCache
+    name: UserCache
+  - uid: SuperOffice.DCF.Web.WebSession
+    name: WebSession
+- uid: SuperOffice.DCF.Web.AjaxMethods
+  name: SuperOffice.DCF.Web.AjaxMethods
+  items:
+  - uid: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever
+    name: AjaxMethodReciever
+  - uid: SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject
+    name: AjaxResponseObject
+  - uid: SuperOffice.DCF.Web.AjaxMethods.General
+    name: General
+  - uid: SuperOffice.DCF.Web.AjaxMethods.SuperState
+    name: SuperState
+- uid: SuperOffice.DCF.Web.Controllers
+  name: SuperOffice.DCF.Web.Controllers
+  items:
+  - uid: SuperOffice.DCF.Web.Controllers.DataMethodsController
+    name: DataMethodsController
+  - uid: SuperOffice.DCF.Web.Controllers.FileUploadsController
+    name: FileUploadsController
+  - uid: SuperOffice.DCF.Web.Controllers.MethodsController
+    name: MethodsController
+  - uid: SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController
+    name: SessionRequiredMethodsController
+  - uid: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter
+    name: ValidateMimeMultipartContentFilter
+- uid: SuperOffice.DCF.Web.Data
+  name: SuperOffice.DCF.Web.Data
+  items:
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerBase
+    name: DataHandlerBase
+  - uid: SuperOffice.DCF.Web.Data.DataHandlerClientMethodAttribute
+    name: DataHandlerClientMethodAttribute
+  - uid: SuperOffice.DCF.Web.Data.IDataBound
+    name: IDataBound
+  - uid: SuperOffice.DCF.Web.Data.SoStateDataCarrier
+    name: SoStateDataCarrier
+  - uid: SuperOffice.DCF.Web.Data.SoStateDataObject
+    name: SoStateDataObject
+  - uid: SuperOffice.DCF.Web.Data.SoStateDataObjects
+    name: SoStateDataObjects
+- uid: SuperOffice.DCF.Web.Factory
+  name: SuperOffice.DCF.Web.Factory
+  items:
+  - uid: SuperOffice.DCF.Web.Factory.ClassFactory
+    name: ClassFactory
+  - uid: SuperOffice.DCF.Web.Factory.IWebObject
+    name: IWebObject
+  - uid: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    name: SoWebObjectAttribute
+- uid: SuperOffice.DCF.Web.Protocol
+  name: SuperOffice.DCF.Web.Protocol
+  items:
+  - uid: SuperOffice.DCF.Web.Protocol.DialogFilterStream
+    name: DialogFilterStream
+  - uid: SuperOffice.DCF.Web.Protocol.ISoProtocolValidator
+    name: ISoProtocolValidator
+  - uid: SuperOffice.DCF.Web.Protocol.ISoProtocolValidatorPlugin
+    name: ISoProtocolValidatorPlugin
+  - uid: SuperOffice.DCF.Web.Protocol.SoProtocolDebugProvider
+    name: SoProtocolDebugProvider
+  - uid: SuperOffice.DCF.Web.Protocol.SoProtocolModule
+    name: SoProtocolModule
+  - uid: SuperOffice.DCF.Web.Protocol.SoProtocolParser
+    name: SoProtocolParser
+  - uid: SuperOffice.DCF.Web.Protocol.SoProtocolProvider
+    name: SoProtocolProvider
+  - uid: SuperOffice.DCF.Web.Protocol.SoProtocolSessionProvider
+    name: SoProtocolSessionProvider
+  - uid: SuperOffice.DCF.Web.Protocol.SoProtocolValidatorPluginAttribute
+    name: SoProtocolValidatorPluginAttribute
+  - uid: SuperOffice.DCF.Web.Protocol.SoTimeZoneProvider
+    name: SoTimeZoneProvider
+- uid: SuperOffice.DCF.Web.ServerEvent
+  name: SuperOffice.DCF.Web.ServerEvent
+  items:
+  - uid: SuperOffice.DCF.Web.ServerEvent.IServerEventPlugin
+    name: IServerEventPlugin
+  - uid: SuperOffice.DCF.Web.ServerEvent.ServerEventObject
+    name: ServerEventObject
+  - uid: SuperOffice.DCF.Web.ServerEvent.ServerEventObjResult
+    name: ServerEventObjResult
+  - uid: SuperOffice.DCF.Web.ServerEvent.ServerEventPluginInfo
+    name: ServerEventPluginInfo
+- uid: SuperOffice.DCF.Web.UI
+  name: SuperOffice.DCF.Web.UI
+  items:
+  - uid: SuperOffice.DCF.Web.UI.BindingType
+    name: BindingType
+  - uid: SuperOffice.DCF.Web.UI.ContextStyle
+    name: ContextStyle
+  - uid: SuperOffice.DCF.Web.UI.DataBoundProperty
+    name: DataBoundProperty
+  - uid: SuperOffice.DCF.Web.UI.FilterBase
+    name: FilterBase
+  - uid: SuperOffice.DCF.Web.UI.FilterEngine
+    name: FilterEngine
+  - uid: SuperOffice.DCF.Web.UI.FilterPhase
+    name: FilterPhase
+  - uid: SuperOffice.DCF.Web.UI.ForcedMode
+    name: ForcedMode
+  - uid: SuperOffice.DCF.Web.UI.ICard
+    name: ICard
+  - uid: SuperOffice.DCF.Web.UI.IControl
+    name: IControl
+  - uid: SuperOffice.DCF.Web.UI.IControlGroup
+    name: IControlGroup
+  - uid: SuperOffice.DCF.Web.UI.IFilter
+    name: IFilter
+  - uid: SuperOffice.DCF.Web.UI.ILayout
+    name: ILayout
+  - uid: SuperOffice.DCF.Web.UI.IMenuObject
+    name: IMenuObject
+  - uid: SuperOffice.DCF.Web.UI.IPanel
+    name: IPanel
+  - uid: SuperOffice.DCF.Web.UI.ISave
+    name: ISave
+  - uid: SuperOffice.DCF.Web.UI.ISplitter
+    name: ISplitter
+  - uid: SuperOffice.DCF.Web.UI.IValidation
+    name: IValidation
+  - uid: SuperOffice.DCF.Web.UI.IView
+    name: IView
+  - uid: SuperOffice.DCF.Web.UI.JSONHelper
+    name: JSONHelper
+  - uid: SuperOffice.DCF.Web.UI.MenuObject
+    name: MenuObject
+  - uid: SuperOffice.DCF.Web.UI.MenuObjectMouseClick
+    name: MenuObjectMouseClick
+  - uid: SuperOffice.DCF.Web.UI.MenuObjectPosition
+    name: MenuObjectPosition
+  - uid: SuperOffice.DCF.Web.UI.PageBase
+    name: PageBase
+  - uid: SuperOffice.DCF.Web.UI.PageBuilderHelper
+    name: PageBuilderHelper
+  - uid: SuperOffice.DCF.Web.UI.RenderHelper
+    name: RenderHelper
+  - uid: SuperOffice.DCF.Web.UI.RenderMode
+    name: RenderMode
+  - uid: SuperOffice.DCF.Web.UI.SoAjaxHelper
+    name: SoAjaxHelper
+  - uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetStringValue
+    name: SoAjaxHelper.GetStringValue
+  - uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue
+    name: SoAjaxHelper.GetTypedValue
+  - uid: SuperOffice.DCF.Web.UI.SoAjaxStateAttribute
+    name: SoAjaxStateAttribute
+  - uid: SuperOffice.DCF.Web.UI.SoAjaxVisibility
+    name: SoAjaxVisibility
+  - uid: SuperOffice.DCF.Web.UI.SoClientScriptControl
+    name: SoClientScriptControl
+  - uid: SuperOffice.DCF.Web.UI.SoProtocolHelper
+    name: SoProtocolHelper
+  - uid: SuperOffice.DCF.Web.UI.SoScriptItem
+    name: SoScriptItem
+  - uid: SuperOffice.DCF.Web.UI.SoScriptType
+    name: SoScriptType
+  - uid: SuperOffice.DCF.Web.UI.ToolTipHelper
+    name: ToolTipHelper
+  - uid: SuperOffice.DCF.Web.UI.ViewSizes
+    name: ViewSizes
+- uid: SuperOffice.DCF.Web.UI.Controls
+  name: SuperOffice.DCF.Web.UI.Controls
+  items:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ButtonDialogWithCancel
+    name: ButtonDialogWithCancel
+  - uid: SuperOffice.DCF.Web.UI.Controls.Card
+    name: Card
+  - uid: SuperOffice.DCF.Web.UI.Controls.CardBase
+    name: CardBase
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase
+    name: ControlBase
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroup
+    name: ControlGroup
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlGroupBase
+    name: ControlGroupBase
+  - uid: SuperOffice.DCF.Web.UI.Controls.DatabindingMode
+    name: DatabindingMode
+  - uid: SuperOffice.DCF.Web.UI.Controls.GenericLabel
+    name: GenericLabel
+  - uid: SuperOffice.DCF.Web.UI.Controls.GenericView
+    name: GenericView
+  - uid: SuperOffice.DCF.Web.UI.Controls.GuideCard
+    name: GuideCard
+  - uid: SuperOffice.DCF.Web.UI.Controls.GuideHeader
+    name: GuideHeader
+  - uid: SuperOffice.DCF.Web.UI.Controls.GuideHeaderItem
+    name: GuideHeaderItem
+  - uid: SuperOffice.DCF.Web.UI.Controls.InformationDialog
+    name: InformationDialog
+  - uid: SuperOffice.DCF.Web.UI.Controls.InnerTextAttribute
+    name: InnerTextAttribute
+  - uid: SuperOffice.DCF.Web.UI.Controls.LinkHintHelper
+    name: LinkHintHelper
+  - uid: SuperOffice.DCF.Web.UI.Controls.LinkInfo
+    name: LinkInfo
+  - uid: SuperOffice.DCF.Web.UI.Controls.LinkInfoSubType
+    name: LinkInfoSubType
+  - uid: SuperOffice.DCF.Web.UI.Controls.OkNormalButtonDialog
+    name: OkNormalButtonDialog
+  - uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder
+    name: PageBuilder
+  - uid: SuperOffice.DCF.Web.UI.Controls.PageBuilder.PagePrePrenderEventHandler
+    name: PageBuilder.PagePrePrenderEventHandler
+  - uid: SuperOffice.DCF.Web.UI.Controls.Panel
+    name: Panel
+  - uid: SuperOffice.DCF.Web.UI.Controls.PanelBase
+    name: PanelBase
+  - uid: SuperOffice.DCF.Web.UI.Controls.PanelWithNoUniqueId
+    name: PanelWithNoUniqueId
+  - uid: SuperOffice.DCF.Web.UI.Controls.PopUpContainer
+    name: PopUpContainer
+  - uid: SuperOffice.DCF.Web.UI.Controls.RawLabel
+    name: RawLabel
+  - uid: SuperOffice.DCF.Web.UI.Controls.SoControlBase
+    name: SoControlBase
+  - uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase
+    name: SoDialogBase
+  - uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.ButtonDefinition
+    name: SoDialogBase.ButtonDefinition
+  - uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.DialogTypeEnum
+    name: SoDialogBase.DialogTypeEnum
+  - uid: SuperOffice.DCF.Web.UI.Controls.SoDialogBase.RadioListItemDefinition
+    name: SoDialogBase.RadioListItemDefinition
+  - uid: SuperOffice.DCF.Web.UI.Controls.SoHiddenField
+    name: SoHiddenField
+  - uid: SuperOffice.DCF.Web.UI.Controls.SoReadonlyField
+    name: SoReadonlyField
+  - uid: SuperOffice.DCF.Web.UI.Controls.SoScriptControl
+    name: SoScriptControl
+  - uid: SuperOffice.DCF.Web.UI.Controls.SoTabGroup
+    name: SoTabGroup
+  - uid: SuperOffice.DCF.Web.UI.Controls.SoTabGroup.TabItem
+    name: SoTabGroup.TabItem
+  - uid: SuperOffice.DCF.Web.UI.Controls.ThreeButtonDialog
+    name: ThreeButtonDialog
+  - uid: SuperOffice.DCF.Web.UI.Controls.ViewBase
+    name: ViewBase
+  - uid: SuperOffice.DCF.Web.UI.Controls.WizardCard
+    name: WizardCard
+  - uid: SuperOffice.DCF.Web.UI.Controls.WizardHeader
+    name: WizardHeader
+  - uid: SuperOffice.DCF.Web.UI.Controls.WizardHeaderItem
+    name: WizardHeaderItem
+  - uid: SuperOffice.DCF.Web.UI.Controls.WizardStep
+    name: WizardStep
+  - uid: SuperOffice.DCF.Web.UI.Controls.YesNoCancelDialog
+    name: YesNoCancelDialog
+  - uid: SuperOffice.DCF.Web.UI.Controls.YesNoDialog
+    name: YesNoDialog
+  - uid: SuperOffice.DCF.Web.UI.Controls.YesNoHeadingDialog
+    name: YesNoHeadingDialog
+  - uid: SuperOffice.DCF.Web.UI.Controls.YesToAllDialog
+    name: YesToAllDialog
+- uid: SuperOffice.DCF.Web.UI.Controls.Common
+  name: SuperOffice.DCF.Web.UI.Controls.Common
+  items:
+  - uid: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport
+    name: ErrorReport
+- uid: SuperOffice.DCF.Web.UI.Filters
+  name: SuperOffice.DCF.Web.UI.Filters
+  items:
+  - uid: SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter
+    name: ArchiveLinkInfoTypesFilter
+  - uid: SuperOffice.DCF.Web.UI.Filters.CrippleFilter
+    name: CrippleFilter
+  - uid: SuperOffice.DCF.Web.UI.Filters.FileManager
+    name: FileManager
+  - uid: SuperOffice.DCF.Web.UI.Filters.MenuFilter
+    name: MenuFilter
+  - uid: SuperOffice.DCF.Web.UI.Filters.MergeFilter
+    name: MergeFilter
+  - uid: SuperOffice.DCF.Web.UI.Filters.ParameterFilter
+    name: ParameterFilter
+  - uid: SuperOffice.DCF.Web.UI.Filters.SessionStateFilter
+    name: SessionStateFilter
+  - uid: SuperOffice.DCF.Web.UI.Filters.SoCurrentFilter
+    name: SoCurrentFilter
+  - uid: SuperOffice.DCF.Web.UI.Filters.SoProtocolFilter
+    name: SoProtocolFilter
+  - uid: SuperOffice.DCF.Web.UI.Filters.UserAgentFilter
+    name: UserAgentFilter
+  - uid: SuperOffice.DCF.Web.UI.Filters.WebPanelUserGroupFilter
+    name: WebPanelUserGroupFilter
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  name: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  items:
+  - uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.ApplicationConfigurationFilter
+    name: ApplicationConfigurationFilter
+  - uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeFilterPlugin
+    name: IMergeFilterPlugin
+  - uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeSubFilter
+    name: IMergeSubFilter
+  - uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeFilterPluginAttribute
+    name: MergeFilterPluginAttribute
+  - uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase
+    name: MergeSubFilterBase
+  - uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.ObjectMappingFilter
+    name: ObjectMappingFilter
+  - uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.PageFilter
+    name: PageFilter
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects
+  name: SuperOffice.DCF.Web.UI.ScriptObjects
+  items:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ClientOptions
+    name: ClientOptions
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ContextBase
+    name: ContextBase
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.IDropTarget
+    name: IDropTarget
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.MenuManager
+    name: MenuManager
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+    name: ScriptObjectBase
+- uid: SuperOffice.DCF.Web.UI.Validations
+  name: SuperOffice.DCF.Web.UI.Validations
+  items:
+  - uid: SuperOffice.DCF.Web.UI.Validations.ValidationBase
+    name: ValidationBase
+  - uid: SuperOffice.DCF.Web.UI.Validations.ValidationCondition
+    name: ValidationCondition
+- uid: SuperOffice.DCF.Web.WebApi
+  name: SuperOffice.DCF.Web.WebApi
+  items:
+  - uid: SuperOffice.DCF.Web.WebApi.RegisterClientWebApi
+    name: RegisterClientWebApi
+- uid: SuperOffice.Exceptions
+  name: SuperOffice.Exceptions
+  items:
+  - uid: SuperOffice.Exceptions.SoDataHandlerException
+    name: SoDataHandlerException
+  - uid: SuperOffice.Exceptions.SoSchemaValidationException
+    name: SoSchemaValidationException
+- uid: SuperOffice.Factory
+  name: SuperOffice.Factory
+  items:
+  - uid: SuperOffice.Factory.ClientClassFactory
+    name: ClientClassFactory
+- uid: SuperOffice.Globalization
+  name: SuperOffice.Globalization
+  items:
+  - uid: SuperOffice.Globalization.ClientFilterFormat
+    name: ClientFilterFormat
+  - uid: SuperOffice.Globalization.CultureManager
+    name: CultureManager
+  - uid: SuperOffice.Globalization.DateUtil
+    name: DateUtil
+  - uid: SuperOffice.Globalization.FieldLabelProvider
+    name: FieldLabelProvider
+  - uid: SuperOffice.Globalization.Language
+    name: Language
+  - uid: SuperOffice.Globalization.NumericIdDictionary
+    name: NumericIdDictionary
+  - uid: SuperOffice.Globalization.ResourceManager
+    name: ResourceManager
+  - uid: SuperOffice.Globalization.ResourceManager.ProviderInfo
+    name: ResourceManager.ProviderInfo
+  - uid: SuperOffice.Globalization.ResourceNotFoundException
+    name: ResourceNotFoundException
+  - uid: SuperOffice.Globalization.ResourceStringFormat
+    name: ResourceStringFormat
+- uid: SuperOffice.Security.Principal
+  name: SuperOffice.Security.Principal
+  items:
+  - uid: SuperOffice.Security.Principal.RequestIdentityLogonTokenSupplier
+    name: RequestIdentityLogonTokenSupplier
+- uid: SuperOffice.Web
+  name: SuperOffice.Web
+  items:
+  - uid: SuperOffice.Web.SoResourceHandler
+    name: SoResourceHandler
+  - uid: SuperOffice.Web.ThreadWorkerContext
+    name: ThreadWorkerContext
+- uid: SuperOffice.Web.Authorization
+  name: SuperOffice.Web.Authorization
+  items:
+  - uid: SuperOffice.Web.Authorization.AuthorizationState
+    name: AuthorizationState
+  - uid: SuperOffice.Web.Authorization.DefaultSoFormsAuthorizerPlugin
+    name: DefaultSoFormsAuthorizerPlugin
+  - uid: SuperOffice.Web.Authorization.ISoFormsAuthorizerPlugin
+    name: ISoFormsAuthorizerPlugin
+  - uid: SuperOffice.Web.Authorization.SoFormsAuthorizerPluginAttribute
+    name: SoFormsAuthorizerPluginAttribute
+  - uid: SuperOffice.Web.Authorization.SoFormsAuthorizerProvider
+    name: SoFormsAuthorizerProvider
+- uid: SuperOffice.Web.Cache
+  name: SuperOffice.Web.Cache
+  items:
+  - uid: SuperOffice.Web.Cache.ViewStateProviderBase
+    name: ViewStateProviderBase
+- uid: SuperOffice.Web.Controllers
+  name: SuperOffice.Web.Controllers
+  items:
+  - uid: SuperOffice.Web.Controllers.MethodControllerBase
+    name: MethodControllerBase
+- uid: SuperOffice.Web.Factory
+  name: SuperOffice.Web.Factory
+  items:
+  - uid: SuperOffice.Web.Factory.WebContainers
+    name: WebContainers
+  - uid: SuperOffice.Web.Factory.WebRequestInstanceContainer
+    name: WebRequestInstanceContainer
+- uid: SuperOffice.Web.Redirection
+  name: SuperOffice.Web.Redirection
+  items:
+  - uid: SuperOffice.Web.Redirection.ISoFormsRedirectPlugin
+    name: ISoFormsRedirectPlugin
+  - uid: SuperOffice.Web.Redirection.SoFormsRedirectPluginAttribute
+    name: SoFormsRedirectPluginAttribute
+  - uid: SuperOffice.Web.Redirection.SoFormsRedirectProvider
+    name: SoFormsRedirectProvider
+- uid: SuperOffice.Web.ResourceHandlers
+  name: SuperOffice.Web.ResourceHandlers
+  items:
+  - uid: SuperOffice.Web.ResourceHandlers.CacheContainer
+    name: CacheContainer
+  - uid: SuperOffice.Web.ResourceHandlers.CssIncludeFromApplicationCachePlugin
+    name: CssIncludeFromApplicationCachePlugin
+  - uid: SuperOffice.Web.ResourceHandlers.ISoResourceHandlerProviderPlugin
+    name: ISoResourceHandlerProviderPlugin
+  - uid: SuperOffice.Web.ResourceHandlers.JsIncludeFromApplicationCachePlugin
+    name: JsIncludeFromApplicationCachePlugin
+  - uid: SuperOffice.Web.ResourceHandlers.ResourceCacheBuilder
+    name: ResourceCacheBuilder
+  - uid: SuperOffice.Web.ResourceHandlers.ResourceTagProvider
+    name: ResourceTagProvider
+  - uid: SuperOffice.Web.ResourceHandlers.SoResourceHandlerPluginAttribute
+    name: SoResourceHandlerPluginAttribute
+- uid: SuperOffice.Web.Security
+  name: SuperOffice.Web.Security
+  items:
+  - uid: SuperOffice.Web.Security.HttpContextEnvironmentInfoPlugin
+    name: HttpContextEnvironmentInfoPlugin
+  - uid: SuperOffice.Web.Security.HttpContextProvider
+    name: HttpContextProvider
+- uid: SuperOffice.Web.ServerEvent
+  name: SuperOffice.Web.ServerEvent
+  items:
+  - uid: SuperOffice.Web.ServerEvent.ServerEventController
+    name: ServerEventController
+- uid: SuperOffice.Web.UI
+  name: SuperOffice.Web.UI
+  items:
+  - uid: SuperOffice.Web.UI.EventHandler
+    name: EventHandler
+- uid: SuperOffice.Web.UI.Controls
+  name: SuperOffice.Web.UI.Controls
+  items:
+  - uid: SuperOffice.Web.UI.Controls.ScilCard
+    name: ScilCard
+  - uid: SuperOffice.Web.UI.Controls.ScilPanel
+    name: ScilPanel
+  - uid: SuperOffice.Web.UI.Controls.SoAddress
+    name: SoAddress
+  - uid: SuperOffice.Web.UI.Controls.SoButton
+    name: SoButton
+  - uid: SuperOffice.Web.UI.Controls.SoButtonBase
+    name: SoButtonBase
+  - uid: SuperOffice.Web.UI.Controls.SoButtonBase.LayoutStyles
+    name: SoButtonBase.LayoutStyles
+  - uid: SuperOffice.Web.UI.Controls.SoButtonBase.ServerClickEventHandler
+    name: SoButtonBase.ServerClickEventHandler
+  - uid: SuperOffice.Web.UI.Controls.SoButtonBase.TextAlign
+    name: SoButtonBase.TextAlign
+  - uid: SuperOffice.Web.UI.Controls.SoCheckBox
+    name: SoCheckBox
+  - uid: SuperOffice.Web.UI.Controls.SoContentBox
+    name: SoContentBox
+  - uid: SuperOffice.Web.UI.Controls.SoControl
+    name: SoControl
+  - uid: SuperOffice.Web.UI.Controls.SoDropDownList
+    name: SoDropDownList
+  - uid: SuperOffice.Web.UI.Controls.SoEditControl
+    name: SoEditControl
+  - uid: SuperOffice.Web.UI.Controls.SoImage
+    name: SoImage
+  - uid: SuperOffice.Web.UI.Controls.SoImageButton
+    name: SoImageButton
+  - uid: SuperOffice.Web.UI.Controls.SoIndenter
+    name: SoIndenter
+  - uid: SuperOffice.Web.UI.Controls.SoInputButton
+    name: SoInputButton
+  - uid: SuperOffice.Web.UI.Controls.SoInputButton.ButtonType
+    name: SoInputButton.ButtonType
+  - uid: SuperOffice.Web.UI.Controls.SoMenuEventArgs
+    name: SoMenuEventArgs
+  - uid: SuperOffice.Web.UI.Controls.SoPlaceHolder
+    name: SoPlaceHolder
+  - uid: SuperOffice.Web.UI.Controls.SoTabbedBox
+    name: SoTabbedBox
+  - uid: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler
+    name: SoTabbedBox.TabCommandEventHandler
+  - uid: SuperOffice.Web.UI.Controls.SoTabItem
+    name: SoTabItem
+  - uid: SuperOffice.Web.UI.Controls.SoTextBox
+    name: SoTextBox
+  - uid: SuperOffice.Web.UI.Controls.SoToolBar
+    name: SoToolBar
+  - uid: SuperOffice.Web.UI.Controls.SoToolButton
+    name: SoToolButton
+  - uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple
+    name: SoToolButtonSimple
+  - uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.ServerClickEventHandler
+    name: SoToolButtonSimple.ServerClickEventHandler
+  - uid: SuperOffice.Web.UI.Controls.SoToolButtonSimple.TextAlign
+    name: SoToolButtonSimple.TextAlign
+  - uid: SuperOffice.Web.UI.Controls.SoWebPartManager
+    name: SoWebPartManager
+  - uid: SuperOffice.Web.UI.Controls.SoWebPartMenu
+    name: SoWebPartMenu
+  - uid: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler
+    name: SoWebPartMenu.MenuClickEventHandler
+  - uid: SuperOffice.Web.UI.Controls.SoWebPartMenuItem
+    name: SoWebPartMenuItem
+  - uid: SuperOffice.Web.UI.Controls.SpriteResolver
+    name: SpriteResolver
+  - uid: SuperOffice.Web.UI.Controls.TabCommandEventArgs
+    name: TabCommandEventArgs
+  - uid: SuperOffice.Web.UI.Controls.UIHelper
+    name: UIHelper
+- uid: SuperOffice.Web.UI.Filters.MergeFilter
+  name: SuperOffice.Web.UI.Filters.MergeFilter
+  items:
+  - uid: SuperOffice.Web.UI.Filters.MergeFilter.ArchiveColumnListFilter
+    name: ArchiveColumnListFilter
+  - uid: SuperOffice.Web.UI.Filters.MergeFilter.FilterFilter
+    name: FilterFilter
+- uid: SuperOffice.Web.UI.Helpers
+  name: SuperOffice.Web.UI.Helpers
+  items:
+  - uid: SuperOffice.Web.UI.Helpers.HtmlCleaner
+    name: HtmlCleaner
+- uid: SuperOffice.Web.WebApi
+  name: SuperOffice.Web.WebApi
+  items:
+  - uid: SuperOffice.Web.WebApi.EnableJsonTypeAnnotationsAttribute
+    name: EnableJsonTypeAnnotationsAttribute
+- uid: SuperOffice.Web.WebApi.Handlers
+  name: SuperOffice.Web.WebApi.Handlers
+  items:
+  - uid: SuperOffice.Web.WebApi.Handlers.SoSuperStateCopyHandler
+    name: SoSuperStateCopyHandler

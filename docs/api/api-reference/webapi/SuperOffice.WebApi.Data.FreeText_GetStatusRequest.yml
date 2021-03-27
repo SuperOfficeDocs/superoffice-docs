@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.FreeText_GetStatusRequest
+  commentId: T:SuperOffice.WebApi.Data.FreeText_GetStatusRequest
+  id: FreeText_GetStatusRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.FreeText_GetStatusRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: FreeText_GetStatusRequest
+  nameWithType: FreeText_GetStatusRequest
+  fullName: SuperOffice.WebApi.Data.FreeText_GetStatusRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class FreeText_GetStatusRequest : Object'
+    content.vb: >-
+      Public Class FreeText_GetStatusRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.FreeText_GetStatusRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.FreeText_GetStatusRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.FreeText_GetStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: FreeText_GetStatusRequest()
+  nameWithType: FreeText_GetStatusRequest.FreeText_GetStatusRequest()
+  fullName: SuperOffice.WebApi.Data.FreeText_GetStatusRequest.FreeText_GetStatusRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public FreeText_GetStatusRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.FreeText_GetStatusRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.FreeText_GetStatusRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.FreeText_GetStatusRequest.#ctor
+  isExternal: true
+  name: FreeText_GetStatusRequest
+  nameWithType: FreeText_GetStatusRequest.FreeText_GetStatusRequest
+  fullName: SuperOffice.WebApi.Data.FreeText_GetStatusRequest.FreeText_GetStatusRequest

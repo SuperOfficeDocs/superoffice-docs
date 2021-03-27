@@ -1,0 +1,332 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Controllers.ArchiveProviderController
+  commentId: T:SuperOffice.CRM.Web.Controllers.ArchiveProviderController
+  id: ArchiveProviderController
+  parent: SuperOffice.CRM.Web.Controllers
+  children:
+  - SuperOffice.CRM.Web.Controllers.ArchiveProviderController.#ctor
+  - SuperOffice.CRM.Web.Controllers.ArchiveProviderController.GetDefaultSelectableArchiveColumnInfo(System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.Controllers.ArchiveProviderController.GetSelectableArchiveColumnInfo(System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.Controllers.ArchiveProviderController.GetSelectableArchiveColumnInfoV2(System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.Controllers.ArchiveProviderController.LoadArchiveColumnInfo(System.String,System.String,System.String)
+  - SuperOffice.CRM.Web.Controllers.ArchiveProviderController.LoadArchiveColumnInfoV2(System.String,System.String,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ArchiveProviderController
+  nameWithType: ArchiveProviderController
+  fullName: SuperOffice.CRM.Web.Controllers.ArchiveProviderController
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: 'public class ArchiveProviderController : ApiController'
+    content.vb: >-
+      Public Class ArchiveProviderController
+          Inherits ApiController
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.LoadArchiveColumnInfo(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.Controllers.ArchiveProviderController.LoadArchiveColumnInfo(System.String,System.String,System.String)
+  id: LoadArchiveColumnInfo(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.Controllers.ArchiveProviderController
+  langs:
+  - csharp
+  - vb
+  name: LoadArchiveColumnInfo(String, String, String)
+  nameWithType: ArchiveProviderController.LoadArchiveColumnInfo(String, String, String)
+  fullName: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.LoadArchiveColumnInfo(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public ArchiveConfiguration LoadArchiveColumnInfo(string providerName, string guiName, string context)
+    parameters:
+    - id: providerName
+      type: System.String
+    - id: guiName
+      type: System.String
+    - id: context
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Services.ArchiveConfiguration
+    content.vb: Public Function LoadArchiveColumnInfo(providerName As String, guiName As String, context As String) As ArchiveConfiguration
+  overload: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.LoadArchiveColumnInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.LoadArchiveColumnInfoV2(System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.Controllers.ArchiveProviderController.LoadArchiveColumnInfoV2(System.String,System.String,System.String,System.String)
+  id: LoadArchiveColumnInfoV2(System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.Controllers.ArchiveProviderController
+  langs:
+  - csharp
+  - vb
+  name: LoadArchiveColumnInfoV2(String, String, String, String)
+  nameWithType: ArchiveProviderController.LoadArchiveColumnInfoV2(String, String, String, String)
+  fullName: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.LoadArchiveColumnInfoV2(System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public ArchiveConfiguration LoadArchiveColumnInfoV2(string providerName, string guiName, string context, string ownerKeys)
+    parameters:
+    - id: providerName
+      type: System.String
+    - id: guiName
+      type: System.String
+    - id: context
+      type: System.String
+    - id: ownerKeys
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Services.ArchiveConfiguration
+    content.vb: Public Function LoadArchiveColumnInfoV2(providerName As String, guiName As String, context As String, ownerKeys As String) As ArchiveConfiguration
+  overload: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.LoadArchiveColumnInfoV2*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.GetDefaultSelectableArchiveColumnInfo(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.Controllers.ArchiveProviderController.GetDefaultSelectableArchiveColumnInfo(System.String,System.String,System.String)
+  id: GetDefaultSelectableArchiveColumnInfo(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.Controllers.ArchiveProviderController
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultSelectableArchiveColumnInfo(String, String, String)
+  nameWithType: ArchiveProviderController.GetDefaultSelectableArchiveColumnInfo(String, String, String)
+  fullName: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.GetDefaultSelectableArchiveColumnInfo(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public SelectableMDOListItem[] GetDefaultSelectableArchiveColumnInfo(string providerName, string guiName, string context)
+    parameters:
+    - id: providerName
+      type: System.String
+    - id: guiName
+      type: System.String
+    - id: context
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+    content.vb: Public Function GetDefaultSelectableArchiveColumnInfo(providerName As String, guiName As String, context As String) As SelectableMDOListItem()
+  overload: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.GetDefaultSelectableArchiveColumnInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.GetSelectableArchiveColumnInfo(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.Controllers.ArchiveProviderController.GetSelectableArchiveColumnInfo(System.String,System.String,System.String)
+  id: GetSelectableArchiveColumnInfo(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.Controllers.ArchiveProviderController
+  langs:
+  - csharp
+  - vb
+  name: GetSelectableArchiveColumnInfo(String, String, String)
+  nameWithType: ArchiveProviderController.GetSelectableArchiveColumnInfo(String, String, String)
+  fullName: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.GetSelectableArchiveColumnInfo(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public SelectableMDOListItem[] GetSelectableArchiveColumnInfo(string providerName, string guiName, string context)
+    parameters:
+    - id: providerName
+      type: System.String
+    - id: guiName
+      type: System.String
+    - id: context
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+    content.vb: Public Function GetSelectableArchiveColumnInfo(providerName As String, guiName As String, context As String) As SelectableMDOListItem()
+  overload: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.GetSelectableArchiveColumnInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.GetSelectableArchiveColumnInfoV2(System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.Controllers.ArchiveProviderController.GetSelectableArchiveColumnInfoV2(System.String,System.String,System.String,System.String)
+  id: GetSelectableArchiveColumnInfoV2(System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Web.Controllers.ArchiveProviderController
+  langs:
+  - csharp
+  - vb
+  name: GetSelectableArchiveColumnInfoV2(String, String, String, String)
+  nameWithType: ArchiveProviderController.GetSelectableArchiveColumnInfoV2(String, String, String, String)
+  fullName: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.GetSelectableArchiveColumnInfoV2(System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public SelectableMDOListItem[] GetSelectableArchiveColumnInfoV2(string providerName, string guiName, string ownerKeys, string context)
+    parameters:
+    - id: providerName
+      type: System.String
+    - id: guiName
+      type: System.String
+    - id: ownerKeys
+      type: System.String
+    - id: context
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+    content.vb: Public Function GetSelectableArchiveColumnInfoV2(providerName As String, guiName As String, ownerKeys As String, context As String) As SelectableMDOListItem()
+  overload: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.GetSelectableArchiveColumnInfoV2*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.#ctor
+  commentId: M:SuperOffice.CRM.Web.Controllers.ArchiveProviderController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Controllers.ArchiveProviderController
+  langs:
+  - csharp
+  - vb
+  name: ArchiveProviderController()
+  nameWithType: ArchiveProviderController.ArchiveProviderController()
+  fullName: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.ArchiveProviderController()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public ArchiveProviderController()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Controllers
+  commentId: N:SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperOffice.CRM.Web.Controllers
+  nameWithType: SuperOffice.CRM.Web.Controllers
+  fullName: SuperOffice.CRM.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.LoadArchiveColumnInfo*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ArchiveProviderController.LoadArchiveColumnInfo
+  isExternal: true
+  name: LoadArchiveColumnInfo
+  nameWithType: ArchiveProviderController.LoadArchiveColumnInfo
+  fullName: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.LoadArchiveColumnInfo
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ArchiveConfiguration
+  isExternal: true
+  name: ArchiveConfiguration
+  nameWithType: ArchiveConfiguration
+  fullName: SuperOffice.CRM.Services.ArchiveConfiguration
+- uid: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.LoadArchiveColumnInfoV2*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ArchiveProviderController.LoadArchiveColumnInfoV2
+  isExternal: true
+  name: LoadArchiveColumnInfoV2
+  nameWithType: ArchiveProviderController.LoadArchiveColumnInfoV2
+  fullName: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.LoadArchiveColumnInfoV2
+- uid: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.GetDefaultSelectableArchiveColumnInfo*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ArchiveProviderController.GetDefaultSelectableArchiveColumnInfo
+  isExternal: true
+  name: GetDefaultSelectableArchiveColumnInfo
+  nameWithType: ArchiveProviderController.GetDefaultSelectableArchiveColumnInfo
+  fullName: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.GetDefaultSelectableArchiveColumnInfo
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem[]
+  isExternal: true
+  name: SelectableMDOListItem[]
+  nameWithType: SelectableMDOListItem[]
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem[]
+  nameWithType.vb: SelectableMDOListItem()
+  fullName.vb: SuperOffice.CRM.Services.SelectableMDOListItem()
+  name.vb: SelectableMDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.GetSelectableArchiveColumnInfo*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ArchiveProviderController.GetSelectableArchiveColumnInfo
+  isExternal: true
+  name: GetSelectableArchiveColumnInfo
+  nameWithType: ArchiveProviderController.GetSelectableArchiveColumnInfo
+  fullName: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.GetSelectableArchiveColumnInfo
+- uid: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.GetSelectableArchiveColumnInfoV2*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ArchiveProviderController.GetSelectableArchiveColumnInfoV2
+  isExternal: true
+  name: GetSelectableArchiveColumnInfoV2
+  nameWithType: ArchiveProviderController.GetSelectableArchiveColumnInfoV2
+  fullName: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.GetSelectableArchiveColumnInfoV2
+- uid: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ArchiveProviderController.#ctor
+  isExternal: true
+  name: ArchiveProviderController
+  nameWithType: ArchiveProviderController.ArchiveProviderController
+  fullName: SuperOffice.CRM.Web.Controllers.ArchiveProviderController.ArchiveProviderController

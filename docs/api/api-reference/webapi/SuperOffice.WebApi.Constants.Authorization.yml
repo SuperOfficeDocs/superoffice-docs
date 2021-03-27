@@ -1,0 +1,177 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Constants.Authorization
+  commentId: T:SuperOffice.WebApi.Constants.Authorization
+  id: Constants.Authorization
+  parent: SuperOffice.WebApi
+  children:
+  - SuperOffice.WebApi.Constants.Authorization.Basic
+  - SuperOffice.WebApi.Constants.Authorization.Bearer
+  - SuperOffice.WebApi.Constants.Authorization.Negotiate
+  - SuperOffice.WebApi.Constants.Authorization.SOTicket
+  langs:
+  - csharp
+  - vb
+  name: Constants.Authorization
+  nameWithType: Constants.Authorization
+  fullName: SuperOffice.WebApi.Constants.Authorization
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: 'public static class Authorization : Object'
+    content.vb: >-
+      Public Module Authorization
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Constants.Authorization.Basic
+  commentId: F:SuperOffice.WebApi.Constants.Authorization.Basic
+  id: Basic
+  parent: SuperOffice.WebApi.Constants.Authorization
+  langs:
+  - csharp
+  - vb
+  name: Basic
+  nameWithType: Constants.Authorization.Basic
+  fullName: SuperOffice.WebApi.Constants.Authorization.Basic
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string Basic = "Basic"
+    return:
+      type: System.String
+    content.vb: Public Const Basic As String = "Basic"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.Authorization.Bearer
+  commentId: F:SuperOffice.WebApi.Constants.Authorization.Bearer
+  id: Bearer
+  parent: SuperOffice.WebApi.Constants.Authorization
+  langs:
+  - csharp
+  - vb
+  name: Bearer
+  nameWithType: Constants.Authorization.Bearer
+  fullName: SuperOffice.WebApi.Constants.Authorization.Bearer
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string Bearer = "Bearer"
+    return:
+      type: System.String
+    content.vb: Public Const Bearer As String = "Bearer"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.Authorization.Negotiate
+  commentId: F:SuperOffice.WebApi.Constants.Authorization.Negotiate
+  id: Negotiate
+  parent: SuperOffice.WebApi.Constants.Authorization
+  langs:
+  - csharp
+  - vb
+  name: Negotiate
+  nameWithType: Constants.Authorization.Negotiate
+  fullName: SuperOffice.WebApi.Constants.Authorization.Negotiate
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string Negotiate = "Negotiate"
+    return:
+      type: System.String
+    content.vb: Public Const Negotiate As String = "Negotiate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.Authorization.SOTicket
+  commentId: F:SuperOffice.WebApi.Constants.Authorization.SOTicket
+  id: SOTicket
+  parent: SuperOffice.WebApi.Constants.Authorization
+  langs:
+  - csharp
+  - vb
+  name: SOTicket
+  nameWithType: Constants.Authorization.SOTicket
+  fullName: SuperOffice.WebApi.Constants.Authorization.SOTicket
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string SOTicket = "SOTicket"
+    return:
+      type: System.String
+    content.vb: Public Const SOTicket As String = "SOTicket"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

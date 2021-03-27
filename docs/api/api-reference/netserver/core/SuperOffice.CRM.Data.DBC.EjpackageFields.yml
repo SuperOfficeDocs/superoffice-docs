@@ -1,0 +1,647 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.EjpackageFields
+  commentId: T:SuperOffice.CRM.Data.DBC.EjpackageFields
+  id: DBC.EjpackageFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.EjpackageFields.AttachmentId
+  - SuperOffice.CRM.Data.DBC.EjpackageFields.Description
+  - SuperOffice.CRM.Data.DBC.EjpackageFields.EjpackageId
+  - SuperOffice.CRM.Data.DBC.EjpackageFields.EjVersion
+  - SuperOffice.CRM.Data.DBC.EjpackageFields.InstallScript
+  - SuperOffice.CRM.Data.DBC.EjpackageFields.Locked
+  - SuperOffice.CRM.Data.DBC.EjpackageFields.Name
+  - SuperOffice.CRM.Data.DBC.EjpackageFields.PackageVersion
+  - SuperOffice.CRM.Data.DBC.EjpackageFields.UploadedAt
+  - SuperOffice.CRM.Data.DBC.EjpackageFields.UploadedBy
+  langs:
+  - csharp
+  - vb
+  name: DBC.EjpackageFields
+  nameWithType: DBC.EjpackageFields
+  fullName: SuperOffice.CRM.Data.DBC.EjpackageFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for Ejpackage, This table stores packages on the system.\n"
+  syntax:
+    content: public static class EjpackageFields
+    content.vb: Public Module EjpackageFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.EjpackageFields.EjpackageId
+  commentId: F:SuperOffice.CRM.Data.DBC.EjpackageFields.EjpackageId
+  id: EjpackageId
+  parent: SuperOffice.CRM.Data.DBC.EjpackageFields
+  langs:
+  - csharp
+  - vb
+  name: EjpackageId
+  nameWithType: DBC.EjpackageFields.EjpackageId
+  fullName: SuperOffice.CRM.Data.DBC.EjpackageFields.EjpackageId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjpackage.EjpackageId: Primary key\n"
+  syntax:
+    content: public const string EjpackageId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const EjpackageId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjpackageFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.EjpackageFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.EjpackageFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.EjpackageFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.EjpackageFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjpackage.Name: The name of this package\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjpackageFields.EjVersion
+  commentId: F:SuperOffice.CRM.Data.DBC.EjpackageFields.EjVersion
+  id: EjVersion
+  parent: SuperOffice.CRM.Data.DBC.EjpackageFields
+  langs:
+  - csharp
+  - vb
+  name: EjVersion
+  nameWithType: DBC.EjpackageFields.EjVersion
+  fullName: SuperOffice.CRM.Data.DBC.EjpackageFields.EjVersion
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjpackage.EjVersion: The oldest eJournal version this package can be installed on\n"
+  syntax:
+    content: public const string EjVersion = "ej_version"
+    return:
+      type: System.String
+    content.vb: Public Const EjVersion As String = "ej_version"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjpackageFields.PackageVersion
+  commentId: F:SuperOffice.CRM.Data.DBC.EjpackageFields.PackageVersion
+  id: PackageVersion
+  parent: SuperOffice.CRM.Data.DBC.EjpackageFields
+  langs:
+  - csharp
+  - vb
+  name: PackageVersion
+  nameWithType: DBC.EjpackageFields.PackageVersion
+  fullName: SuperOffice.CRM.Data.DBC.EjpackageFields.PackageVersion
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjpackage.PackageVersion: Version of the created package\n"
+  syntax:
+    content: public const string PackageVersion = "package_version"
+    return:
+      type: System.String
+    content.vb: Public Const PackageVersion As String = "package_version"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjpackageFields.Description
+  commentId: F:SuperOffice.CRM.Data.DBC.EjpackageFields.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.DBC.EjpackageFields
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DBC.EjpackageFields.Description
+  fullName: SuperOffice.CRM.Data.DBC.EjpackageFields.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjpackage.Description: Description/comment\n"
+  syntax:
+    content: public const string Description = "description"
+    return:
+      type: System.String
+    content.vb: Public Const Description As String = "description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjpackageFields.AttachmentId
+  commentId: F:SuperOffice.CRM.Data.DBC.EjpackageFields.AttachmentId
+  id: AttachmentId
+  parent: SuperOffice.CRM.Data.DBC.EjpackageFields
+  langs:
+  - csharp
+  - vb
+  name: AttachmentId
+  nameWithType: DBC.EjpackageFields.AttachmentId
+  fullName: SuperOffice.CRM.Data.DBC.EjpackageFields.AttachmentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjpackage.AttachmentId: The attachment.id for the attachment containing the xml\n"
+  syntax:
+    content: public const string AttachmentId = "attachment_id"
+    return:
+      type: System.String
+    content.vb: Public Const AttachmentId As String = "attachment_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjpackageFields.UploadedAt
+  commentId: F:SuperOffice.CRM.Data.DBC.EjpackageFields.UploadedAt
+  id: UploadedAt
+  parent: SuperOffice.CRM.Data.DBC.EjpackageFields
+  langs:
+  - csharp
+  - vb
+  name: UploadedAt
+  nameWithType: DBC.EjpackageFields.UploadedAt
+  fullName: SuperOffice.CRM.Data.DBC.EjpackageFields.UploadedAt
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjpackage.UploadedAt: Time of upload of this package\n"
+  syntax:
+    content: public const string UploadedAt = "uploaded_at"
+    return:
+      type: System.String
+    content.vb: Public Const UploadedAt As String = "uploaded_at"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjpackageFields.UploadedBy
+  commentId: F:SuperOffice.CRM.Data.DBC.EjpackageFields.UploadedBy
+  id: UploadedBy
+  parent: SuperOffice.CRM.Data.DBC.EjpackageFields
+  langs:
+  - csharp
+  - vb
+  name: UploadedBy
+  nameWithType: DBC.EjpackageFields.UploadedBy
+  fullName: SuperOffice.CRM.Data.DBC.EjpackageFields.UploadedBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjpackage.UploadedBy: Uploaded by\n"
+  syntax:
+    content: public const string UploadedBy = "uploaded_by"
+    return:
+      type: System.String
+    content.vb: Public Const UploadedBy As String = "uploaded_by"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjpackageFields.InstallScript
+  commentId: F:SuperOffice.CRM.Data.DBC.EjpackageFields.InstallScript
+  id: InstallScript
+  parent: SuperOffice.CRM.Data.DBC.EjpackageFields
+  langs:
+  - csharp
+  - vb
+  name: InstallScript
+  nameWithType: DBC.EjpackageFields.InstallScript
+  fullName: SuperOffice.CRM.Data.DBC.EjpackageFields.InstallScript
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjpackage.InstallScript: Installation script\n"
+  syntax:
+    content: public const string InstallScript = "install_script"
+    return:
+      type: System.String
+    content.vb: Public Const InstallScript As String = "install_script"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.EjpackageFields.Locked
+  commentId: F:SuperOffice.CRM.Data.DBC.EjpackageFields.Locked
+  id: Locked
+  parent: SuperOffice.CRM.Data.DBC.EjpackageFields
+  langs:
+  - csharp
+  - vb
+  name: Locked
+  nameWithType: DBC.EjpackageFields.Locked
+  fullName: SuperOffice.CRM.Data.DBC.EjpackageFields.Locked
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nEjpackage.Locked: Locked package - components should not be modified by users\n"
+  syntax:
+    content: public const string Locked = "locked"
+    return:
+      type: System.String
+    content.vb: Public Const Locked As String = "locked"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

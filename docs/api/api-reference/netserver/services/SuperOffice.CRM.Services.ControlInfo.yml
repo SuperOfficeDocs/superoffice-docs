@@ -1,0 +1,471 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ControlInfo
+  commentId: T:SuperOffice.CRM.Services.ControlInfo
+  id: ControlInfo
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ControlInfo.#ctor
+  - SuperOffice.CRM.Services.ControlInfo.Dimension
+  - SuperOffice.CRM.Services.ControlInfo.Label
+  - SuperOffice.CRM.Services.ControlInfo.ListLeadText
+  - SuperOffice.CRM.Services.ControlInfo.ListProviderExtraInfo
+  - SuperOffice.CRM.Services.ControlInfo.ListProviderName
+  - SuperOffice.CRM.Services.ControlInfo.ListProviderPrimaryKeyName
+  - SuperOffice.CRM.Services.ControlInfo.ToString
+  - SuperOffice.CRM.Services.ControlInfo.ToString(System.String)
+  - SuperOffice.CRM.Services.ControlInfo.Type
+  langs:
+  - csharp
+  - vb
+  name: ControlInfo
+  nameWithType: ControlInfo
+  fullName: SuperOffice.CRM.Services.ControlInfo
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis class carries information about the definition and properties of an field used in bulk update system. The class is serializable and used on both the application and Web server sides.\n<p></p>\nCarrier object for ControlInfo.\nServices for the ControlInfo Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IBulkUpdateAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class ControlInfo : Carrier'
+    content.vb: >-
+      Public Class ControlInfo
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.BulkUpdateAgent
+    commentId: T:SuperOffice.CRM.Services.BulkUpdateAgent
+  - linkId: SuperOffice.CRM.Services.IBulkUpdateAgent
+    commentId: T:SuperOffice.CRM.Services.IBulkUpdateAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ControlInfo.#ctor
+  commentId: M:SuperOffice.CRM.Services.ControlInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ControlInfo
+  langs:
+  - csharp
+  - vb
+  name: ControlInfo()
+  nameWithType: ControlInfo.ControlInfo()
+  fullName: SuperOffice.CRM.Services.ControlInfo.ControlInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ControlInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ControlInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ControlInfo.ToString
+  commentId: M:SuperOffice.CRM.Services.ControlInfo.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ControlInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ControlInfo.ToString()
+  fullName: SuperOffice.CRM.Services.ControlInfo.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.ControlInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ControlInfo.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ControlInfo.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ControlInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ControlInfo.ToString(String)
+  fullName: SuperOffice.CRM.Services.ControlInfo.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ControlInfo.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ControlInfo.Type
+  commentId: P:SuperOffice.CRM.Services.ControlInfo.Type
+  id: Type
+  parent: SuperOffice.CRM.Services.ControlInfo
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: ControlInfo.Type
+  fullName: SuperOffice.CRM.Services.ControlInfo.Type
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Type As String
+  overload: SuperOffice.CRM.Services.ControlInfo.Type*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ControlInfo.Label
+  commentId: P:SuperOffice.CRM.Services.ControlInfo.Label
+  id: Label
+  parent: SuperOffice.CRM.Services.ControlInfo
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: ControlInfo.Label
+  fullName: SuperOffice.CRM.Services.ControlInfo.Label
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual string Label { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Label As String
+  overload: SuperOffice.CRM.Services.ControlInfo.Label*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ControlInfo.Dimension
+  commentId: P:SuperOffice.CRM.Services.ControlInfo.Dimension
+  id: Dimension
+  parent: SuperOffice.CRM.Services.ControlInfo
+  langs:
+  - csharp
+  - vb
+  name: Dimension
+  nameWithType: ControlInfo.Dimension
+  fullName: SuperOffice.CRM.Services.ControlInfo.Dimension
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual int Dimension { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Dimension As Integer
+  overload: SuperOffice.CRM.Services.ControlInfo.Dimension*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ControlInfo.ListProviderName
+  commentId: P:SuperOffice.CRM.Services.ControlInfo.ListProviderName
+  id: ListProviderName
+  parent: SuperOffice.CRM.Services.ControlInfo
+  langs:
+  - csharp
+  - vb
+  name: ListProviderName
+  nameWithType: ControlInfo.ListProviderName
+  fullName: SuperOffice.CRM.Services.ControlInfo.ListProviderName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual string ListProviderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ListProviderName As String
+  overload: SuperOffice.CRM.Services.ControlInfo.ListProviderName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ControlInfo.ListProviderExtraInfo
+  commentId: P:SuperOffice.CRM.Services.ControlInfo.ListProviderExtraInfo
+  id: ListProviderExtraInfo
+  parent: SuperOffice.CRM.Services.ControlInfo
+  langs:
+  - csharp
+  - vb
+  name: ListProviderExtraInfo
+  nameWithType: ControlInfo.ListProviderExtraInfo
+  fullName: SuperOffice.CRM.Services.ControlInfo.ListProviderExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual string ListProviderExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ListProviderExtraInfo As String
+  overload: SuperOffice.CRM.Services.ControlInfo.ListProviderExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ControlInfo.ListProviderPrimaryKeyName
+  commentId: P:SuperOffice.CRM.Services.ControlInfo.ListProviderPrimaryKeyName
+  id: ListProviderPrimaryKeyName
+  parent: SuperOffice.CRM.Services.ControlInfo
+  langs:
+  - csharp
+  - vb
+  name: ListProviderPrimaryKeyName
+  nameWithType: ControlInfo.ListProviderPrimaryKeyName
+  fullName: SuperOffice.CRM.Services.ControlInfo.ListProviderPrimaryKeyName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual string ListProviderPrimaryKeyName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ListProviderPrimaryKeyName As String
+  overload: SuperOffice.CRM.Services.ControlInfo.ListProviderPrimaryKeyName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ControlInfo.ListLeadText
+  commentId: P:SuperOffice.CRM.Services.ControlInfo.ListLeadText
+  id: ListLeadText
+  parent: SuperOffice.CRM.Services.ControlInfo
+  langs:
+  - csharp
+  - vb
+  name: ListLeadText
+  nameWithType: ControlInfo.ListLeadText
+  fullName: SuperOffice.CRM.Services.ControlInfo.ListLeadText
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual string ListLeadText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ListLeadText As String
+  overload: SuperOffice.CRM.Services.ControlInfo.ListLeadText*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent
+  commentId: T:SuperOffice.CRM.Services.BulkUpdateAgent
+  isExternal: true
+  name: BulkUpdateAgent
+  nameWithType: BulkUpdateAgent
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent
+- uid: SuperOffice.CRM.Services.IBulkUpdateAgent
+  commentId: T:SuperOffice.CRM.Services.IBulkUpdateAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IBulkUpdateAgent
+  nameWithType: IBulkUpdateAgent
+  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ControlInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ControlInfo.#ctor
+  isExternal: true
+  name: ControlInfo
+  nameWithType: ControlInfo.ControlInfo
+  fullName: SuperOffice.CRM.Services.ControlInfo.ControlInfo
+- uid: SuperOffice.CRM.Services.ControlInfo.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ControlInfo.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ControlInfo.ToString
+  fullName: SuperOffice.CRM.Services.ControlInfo.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ControlInfo.Type*
+  commentId: Overload:SuperOffice.CRM.Services.ControlInfo.Type
+  isExternal: true
+  name: Type
+  nameWithType: ControlInfo.Type
+  fullName: SuperOffice.CRM.Services.ControlInfo.Type
+- uid: SuperOffice.CRM.Services.ControlInfo.Label*
+  commentId: Overload:SuperOffice.CRM.Services.ControlInfo.Label
+  isExternal: true
+  name: Label
+  nameWithType: ControlInfo.Label
+  fullName: SuperOffice.CRM.Services.ControlInfo.Label
+- uid: SuperOffice.CRM.Services.ControlInfo.Dimension*
+  commentId: Overload:SuperOffice.CRM.Services.ControlInfo.Dimension
+  isExternal: true
+  name: Dimension
+  nameWithType: ControlInfo.Dimension
+  fullName: SuperOffice.CRM.Services.ControlInfo.Dimension
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ControlInfo.ListProviderName*
+  commentId: Overload:SuperOffice.CRM.Services.ControlInfo.ListProviderName
+  isExternal: true
+  name: ListProviderName
+  nameWithType: ControlInfo.ListProviderName
+  fullName: SuperOffice.CRM.Services.ControlInfo.ListProviderName
+- uid: SuperOffice.CRM.Services.ControlInfo.ListProviderExtraInfo*
+  commentId: Overload:SuperOffice.CRM.Services.ControlInfo.ListProviderExtraInfo
+  isExternal: true
+  name: ListProviderExtraInfo
+  nameWithType: ControlInfo.ListProviderExtraInfo
+  fullName: SuperOffice.CRM.Services.ControlInfo.ListProviderExtraInfo
+- uid: SuperOffice.CRM.Services.ControlInfo.ListProviderPrimaryKeyName*
+  commentId: Overload:SuperOffice.CRM.Services.ControlInfo.ListProviderPrimaryKeyName
+  isExternal: true
+  name: ListProviderPrimaryKeyName
+  nameWithType: ControlInfo.ListProviderPrimaryKeyName
+  fullName: SuperOffice.CRM.Services.ControlInfo.ListProviderPrimaryKeyName
+- uid: SuperOffice.CRM.Services.ControlInfo.ListLeadText*
+  commentId: Overload:SuperOffice.CRM.Services.ControlInfo.ListLeadText
+  isExternal: true
+  name: ListLeadText
+  nameWithType: ControlInfo.ListLeadText
+  fullName: SuperOffice.CRM.Services.ControlInfo.ListLeadText

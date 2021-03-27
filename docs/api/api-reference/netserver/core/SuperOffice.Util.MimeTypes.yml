@@ -1,0 +1,6002 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.MimeTypes
+  commentId: T:SuperOffice.Util.MimeTypes
+  id: MimeTypes
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.MimeTypes.Ai
+  - SuperOffice.Util.MimeTypes.Aif
+  - SuperOffice.Util.MimeTypes.Aifc
+  - SuperOffice.Util.MimeTypes.Aiff
+  - SuperOffice.Util.MimeTypes.Asc
+  - SuperOffice.Util.MimeTypes.Atom
+  - SuperOffice.Util.MimeTypes.Au
+  - SuperOffice.Util.MimeTypes.Avi
+  - SuperOffice.Util.MimeTypes.Bcpio
+  - SuperOffice.Util.MimeTypes.Bin
+  - SuperOffice.Util.MimeTypes.Bmp
+  - SuperOffice.Util.MimeTypes.Cdf
+  - SuperOffice.Util.MimeTypes.Cgm
+  - SuperOffice.Util.MimeTypes.Class
+  - SuperOffice.Util.MimeTypes.Cpio
+  - SuperOffice.Util.MimeTypes.Cpt
+  - SuperOffice.Util.MimeTypes.Csh
+  - SuperOffice.Util.MimeTypes.Css
+  - SuperOffice.Util.MimeTypes.Dcr
+  - SuperOffice.Util.MimeTypes.Dif
+  - SuperOffice.Util.MimeTypes.Dir
+  - SuperOffice.Util.MimeTypes.Djv
+  - SuperOffice.Util.MimeTypes.Djvu
+  - SuperOffice.Util.MimeTypes.Dll
+  - SuperOffice.Util.MimeTypes.Dmg
+  - SuperOffice.Util.MimeTypes.Dms
+  - SuperOffice.Util.MimeTypes.Doc
+  - SuperOffice.Util.MimeTypes.Docm
+  - SuperOffice.Util.MimeTypes.Docx
+  - SuperOffice.Util.MimeTypes.Dotm
+  - SuperOffice.Util.MimeTypes.Dotx
+  - SuperOffice.Util.MimeTypes.Dtd
+  - SuperOffice.Util.MimeTypes.Dv
+  - SuperOffice.Util.MimeTypes.Dvi
+  - SuperOffice.Util.MimeTypes.Dxr
+  - SuperOffice.Util.MimeTypes.Eps
+  - SuperOffice.Util.MimeTypes.Etx
+  - SuperOffice.Util.MimeTypes.Exe
+  - SuperOffice.Util.MimeTypes.Ez
+  - SuperOffice.Util.MimeTypes.Gdoc
+  - SuperOffice.Util.MimeTypes.Gif
+  - SuperOffice.Util.MimeTypes.GoogleFolder
+  - SuperOffice.Util.MimeTypes.Gram
+  - SuperOffice.Util.MimeTypes.Grxml
+  - SuperOffice.Util.MimeTypes.Gsheet
+  - SuperOffice.Util.MimeTypes.Gslides
+  - SuperOffice.Util.MimeTypes.Gtar
+  - SuperOffice.Util.MimeTypes.Hdf
+  - SuperOffice.Util.MimeTypes.Hqx
+  - SuperOffice.Util.MimeTypes.Htm
+  - SuperOffice.Util.MimeTypes.Html
+  - SuperOffice.Util.MimeTypes.Ice
+  - SuperOffice.Util.MimeTypes.Ico
+  - SuperOffice.Util.MimeTypes.Ics
+  - SuperOffice.Util.MimeTypes.Ief
+  - SuperOffice.Util.MimeTypes.Ifb
+  - SuperOffice.Util.MimeTypes.Iges
+  - SuperOffice.Util.MimeTypes.Igs
+  - SuperOffice.Util.MimeTypes.Jnlp
+  - SuperOffice.Util.MimeTypes.Jp2
+  - SuperOffice.Util.MimeTypes.Jpe
+  - SuperOffice.Util.MimeTypes.Jpeg
+  - SuperOffice.Util.MimeTypes.Jpg
+  - SuperOffice.Util.MimeTypes.Js
+  - SuperOffice.Util.MimeTypes.Json
+  - SuperOffice.Util.MimeTypes.Kar
+  - SuperOffice.Util.MimeTypes.Latex
+  - SuperOffice.Util.MimeTypes.Lha
+  - SuperOffice.Util.MimeTypes.Lzh
+  - SuperOffice.Util.MimeTypes.M3U
+  - SuperOffice.Util.MimeTypes.M4A
+  - SuperOffice.Util.MimeTypes.M4B
+  - SuperOffice.Util.MimeTypes.M4P
+  - SuperOffice.Util.MimeTypes.M4U
+  - SuperOffice.Util.MimeTypes.M4V
+  - SuperOffice.Util.MimeTypes.Mac
+  - SuperOffice.Util.MimeTypes.Man
+  - SuperOffice.Util.MimeTypes.Mathml
+  - SuperOffice.Util.MimeTypes.Me
+  - SuperOffice.Util.MimeTypes.Mesh
+  - SuperOffice.Util.MimeTypes.Mid
+  - SuperOffice.Util.MimeTypes.Midi
+  - SuperOffice.Util.MimeTypes.Mif
+  - SuperOffice.Util.MimeTypes.Mov
+  - SuperOffice.Util.MimeTypes.Movie
+  - SuperOffice.Util.MimeTypes.Mp2
+  - SuperOffice.Util.MimeTypes.Mp3
+  - SuperOffice.Util.MimeTypes.Mp4
+  - SuperOffice.Util.MimeTypes.Mpe
+  - SuperOffice.Util.MimeTypes.Mpeg
+  - SuperOffice.Util.MimeTypes.Mpg
+  - SuperOffice.Util.MimeTypes.Mpga
+  - SuperOffice.Util.MimeTypes.Ms
+  - SuperOffice.Util.MimeTypes.Msh
+  - SuperOffice.Util.MimeTypes.Mxu
+  - SuperOffice.Util.MimeTypes.Nc
+  - SuperOffice.Util.MimeTypes.OctetStream
+  - SuperOffice.Util.MimeTypes.Oda
+  - SuperOffice.Util.MimeTypes.Ogg
+  - SuperOffice.Util.MimeTypes.Pbm
+  - SuperOffice.Util.MimeTypes.Pct
+  - SuperOffice.Util.MimeTypes.Pdb
+  - SuperOffice.Util.MimeTypes.Pdf
+  - SuperOffice.Util.MimeTypes.Pgm
+  - SuperOffice.Util.MimeTypes.Pgn
+  - SuperOffice.Util.MimeTypes.Pic
+  - SuperOffice.Util.MimeTypes.Pict
+  - SuperOffice.Util.MimeTypes.Png
+  - SuperOffice.Util.MimeTypes.Pnm
+  - SuperOffice.Util.MimeTypes.Pnt
+  - SuperOffice.Util.MimeTypes.Pntg
+  - SuperOffice.Util.MimeTypes.Potm
+  - SuperOffice.Util.MimeTypes.Potx
+  - SuperOffice.Util.MimeTypes.Ppam
+  - SuperOffice.Util.MimeTypes.Ppm
+  - SuperOffice.Util.MimeTypes.Ppsm
+  - SuperOffice.Util.MimeTypes.Ppsx
+  - SuperOffice.Util.MimeTypes.Ppt
+  - SuperOffice.Util.MimeTypes.Pptm
+  - SuperOffice.Util.MimeTypes.Pptx
+  - SuperOffice.Util.MimeTypes.Ps
+  - SuperOffice.Util.MimeTypes.Qt
+  - SuperOffice.Util.MimeTypes.Qti
+  - SuperOffice.Util.MimeTypes.Qtif
+  - SuperOffice.Util.MimeTypes.Ra
+  - SuperOffice.Util.MimeTypes.Ram
+  - SuperOffice.Util.MimeTypes.Ras
+  - SuperOffice.Util.MimeTypes.Rdf
+  - SuperOffice.Util.MimeTypes.Rgb
+  - SuperOffice.Util.MimeTypes.Rm
+  - SuperOffice.Util.MimeTypes.Roff
+  - SuperOffice.Util.MimeTypes.Rtf
+  - SuperOffice.Util.MimeTypes.Rtx
+  - SuperOffice.Util.MimeTypes.Sgm
+  - SuperOffice.Util.MimeTypes.Sgml
+  - SuperOffice.Util.MimeTypes.Sh
+  - SuperOffice.Util.MimeTypes.Shar
+  - SuperOffice.Util.MimeTypes.Silo
+  - SuperOffice.Util.MimeTypes.Sit
+  - SuperOffice.Util.MimeTypes.Skd
+  - SuperOffice.Util.MimeTypes.Skm
+  - SuperOffice.Util.MimeTypes.Skp
+  - SuperOffice.Util.MimeTypes.Skt
+  - SuperOffice.Util.MimeTypes.Smi
+  - SuperOffice.Util.MimeTypes.Smil
+  - SuperOffice.Util.MimeTypes.Snd
+  - SuperOffice.Util.MimeTypes.So
+  - SuperOffice.Util.MimeTypes.Spl
+  - SuperOffice.Util.MimeTypes.Src
+  - SuperOffice.Util.MimeTypes.Sv4Cpio
+  - SuperOffice.Util.MimeTypes.Sv4Crc
+  - SuperOffice.Util.MimeTypes.Svg
+  - SuperOffice.Util.MimeTypes.Swf
+  - SuperOffice.Util.MimeTypes.T
+  - SuperOffice.Util.MimeTypes.Tar
+  - SuperOffice.Util.MimeTypes.Tcl
+  - SuperOffice.Util.MimeTypes.Tex
+  - SuperOffice.Util.MimeTypes.Texi
+  - SuperOffice.Util.MimeTypes.Texinfo
+  - SuperOffice.Util.MimeTypes.Tif
+  - SuperOffice.Util.MimeTypes.Tiff
+  - SuperOffice.Util.MimeTypes.Tr
+  - SuperOffice.Util.MimeTypes.Tsv
+  - SuperOffice.Util.MimeTypes.Txt
+  - SuperOffice.Util.MimeTypes.Unknown
+  - SuperOffice.Util.MimeTypes.Ustar
+  - SuperOffice.Util.MimeTypes.Vcd
+  - SuperOffice.Util.MimeTypes.Vrml
+  - SuperOffice.Util.MimeTypes.Vxml
+  - SuperOffice.Util.MimeTypes.Wav
+  - SuperOffice.Util.MimeTypes.Wbmp
+  - SuperOffice.Util.MimeTypes.Wbmxl
+  - SuperOffice.Util.MimeTypes.Wml
+  - SuperOffice.Util.MimeTypes.Wmlc
+  - SuperOffice.Util.MimeTypes.Wmls
+  - SuperOffice.Util.MimeTypes.Wmlsc
+  - SuperOffice.Util.MimeTypes.Wrl
+  - SuperOffice.Util.MimeTypes.Xbm
+  - SuperOffice.Util.MimeTypes.Xht
+  - SuperOffice.Util.MimeTypes.Xhtml
+  - SuperOffice.Util.MimeTypes.Xlam
+  - SuperOffice.Util.MimeTypes.Xls
+  - SuperOffice.Util.MimeTypes.Xlsb
+  - SuperOffice.Util.MimeTypes.Xlsm
+  - SuperOffice.Util.MimeTypes.Xlsx
+  - SuperOffice.Util.MimeTypes.Xltm
+  - SuperOffice.Util.MimeTypes.Xltx
+  - SuperOffice.Util.MimeTypes.Xml
+  - SuperOffice.Util.MimeTypes.Xpm
+  - SuperOffice.Util.MimeTypes.Xsl
+  - SuperOffice.Util.MimeTypes.Xslt
+  - SuperOffice.Util.MimeTypes.Xul
+  - SuperOffice.Util.MimeTypes.Xwd
+  - SuperOffice.Util.MimeTypes.Xyz
+  - SuperOffice.Util.MimeTypes.Zip
+  langs:
+  - csharp
+  - vb
+  name: MimeTypes
+  nameWithType: MimeTypes
+  fullName: SuperOffice.Util.MimeTypes
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nClass containing mime-type constants.\n"
+  syntax:
+    content: public static class MimeTypes
+    content.vb: Public Module MimeTypes
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Util.MimeTypes.Ai
+  commentId: F:SuperOffice.Util.MimeTypes.Ai
+  id: Ai
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Ai
+  nameWithType: MimeTypes.Ai
+  fullName: SuperOffice.Util.MimeTypes.Ai
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Ai = "application/postscript"
+    return:
+      type: System.String
+    content.vb: Public Const Ai As String = "application/postscript"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Aif
+  commentId: F:SuperOffice.Util.MimeTypes.Aif
+  id: Aif
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Aif
+  nameWithType: MimeTypes.Aif
+  fullName: SuperOffice.Util.MimeTypes.Aif
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Aif = "audio/x-aiff"
+    return:
+      type: System.String
+    content.vb: Public Const Aif As String = "audio/x-aiff"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Aifc
+  commentId: F:SuperOffice.Util.MimeTypes.Aifc
+  id: Aifc
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Aifc
+  nameWithType: MimeTypes.Aifc
+  fullName: SuperOffice.Util.MimeTypes.Aifc
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Aifc = "audio/x-aiff"
+    return:
+      type: System.String
+    content.vb: Public Const Aifc As String = "audio/x-aiff"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Aiff
+  commentId: F:SuperOffice.Util.MimeTypes.Aiff
+  id: Aiff
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Aiff
+  nameWithType: MimeTypes.Aiff
+  fullName: SuperOffice.Util.MimeTypes.Aiff
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Aiff = "audio/x-aiff"
+    return:
+      type: System.String
+    content.vb: Public Const Aiff As String = "audio/x-aiff"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Asc
+  commentId: F:SuperOffice.Util.MimeTypes.Asc
+  id: Asc
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Asc
+  nameWithType: MimeTypes.Asc
+  fullName: SuperOffice.Util.MimeTypes.Asc
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Asc = "text/plain"
+    return:
+      type: System.String
+    content.vb: Public Const Asc As String = "text/plain"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Atom
+  commentId: F:SuperOffice.Util.MimeTypes.Atom
+  id: Atom
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Atom
+  nameWithType: MimeTypes.Atom
+  fullName: SuperOffice.Util.MimeTypes.Atom
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Atom = "application/atom+xml"
+    return:
+      type: System.String
+    content.vb: Public Const Atom As String = "application/atom+xml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Au
+  commentId: F:SuperOffice.Util.MimeTypes.Au
+  id: Au
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Au
+  nameWithType: MimeTypes.Au
+  fullName: SuperOffice.Util.MimeTypes.Au
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Au = "audio/basic"
+    return:
+      type: System.String
+    content.vb: Public Const Au As String = "audio/basic"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Avi
+  commentId: F:SuperOffice.Util.MimeTypes.Avi
+  id: Avi
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Avi
+  nameWithType: MimeTypes.Avi
+  fullName: SuperOffice.Util.MimeTypes.Avi
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Avi = "video/x-msvideo"
+    return:
+      type: System.String
+    content.vb: Public Const Avi As String = "video/x-msvideo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Bcpio
+  commentId: F:SuperOffice.Util.MimeTypes.Bcpio
+  id: Bcpio
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Bcpio
+  nameWithType: MimeTypes.Bcpio
+  fullName: SuperOffice.Util.MimeTypes.Bcpio
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Bcpio = "application/x-bcpio"
+    return:
+      type: System.String
+    content.vb: Public Const Bcpio As String = "application/x-bcpio"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Bin
+  commentId: F:SuperOffice.Util.MimeTypes.Bin
+  id: Bin
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Bin
+  nameWithType: MimeTypes.Bin
+  fullName: SuperOffice.Util.MimeTypes.Bin
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Bin = "application/octet-stream"
+    return:
+      type: System.String
+    content.vb: Public Const Bin As String = "application/octet-stream"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Bmp
+  commentId: F:SuperOffice.Util.MimeTypes.Bmp
+  id: Bmp
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Bmp
+  nameWithType: MimeTypes.Bmp
+  fullName: SuperOffice.Util.MimeTypes.Bmp
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Bmp = "image/bmp"
+    return:
+      type: System.String
+    content.vb: Public Const Bmp As String = "image/bmp"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Cdf
+  commentId: F:SuperOffice.Util.MimeTypes.Cdf
+  id: Cdf
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Cdf
+  nameWithType: MimeTypes.Cdf
+  fullName: SuperOffice.Util.MimeTypes.Cdf
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Cdf = "application/x-netcdf"
+    return:
+      type: System.String
+    content.vb: Public Const Cdf As String = "application/x-netcdf"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Cgm
+  commentId: F:SuperOffice.Util.MimeTypes.Cgm
+  id: Cgm
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Cgm
+  nameWithType: MimeTypes.Cgm
+  fullName: SuperOffice.Util.MimeTypes.Cgm
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Cgm = "image/cgm"
+    return:
+      type: System.String
+    content.vb: Public Const Cgm As String = "image/cgm"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Class
+  commentId: F:SuperOffice.Util.MimeTypes.Class
+  id: Class
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Class
+  nameWithType: MimeTypes.Class
+  fullName: SuperOffice.Util.MimeTypes.Class
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Class = "application/octet-stream"
+    return:
+      type: System.String
+    content.vb: Public Const Class As String = "application/octet-stream"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Cpio
+  commentId: F:SuperOffice.Util.MimeTypes.Cpio
+  id: Cpio
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Cpio
+  nameWithType: MimeTypes.Cpio
+  fullName: SuperOffice.Util.MimeTypes.Cpio
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Cpio = "application/x-cpio"
+    return:
+      type: System.String
+    content.vb: Public Const Cpio As String = "application/x-cpio"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Cpt
+  commentId: F:SuperOffice.Util.MimeTypes.Cpt
+  id: Cpt
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Cpt
+  nameWithType: MimeTypes.Cpt
+  fullName: SuperOffice.Util.MimeTypes.Cpt
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Cpt = "application/mac-compactpro"
+    return:
+      type: System.String
+    content.vb: Public Const Cpt As String = "application/mac-compactpro"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Csh
+  commentId: F:SuperOffice.Util.MimeTypes.Csh
+  id: Csh
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Csh
+  nameWithType: MimeTypes.Csh
+  fullName: SuperOffice.Util.MimeTypes.Csh
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Csh = "application/x-csh"
+    return:
+      type: System.String
+    content.vb: Public Const Csh As String = "application/x-csh"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Css
+  commentId: F:SuperOffice.Util.MimeTypes.Css
+  id: Css
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Css
+  nameWithType: MimeTypes.Css
+  fullName: SuperOffice.Util.MimeTypes.Css
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Css = "text/css"
+    return:
+      type: System.String
+    content.vb: Public Const Css As String = "text/css"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Dcr
+  commentId: F:SuperOffice.Util.MimeTypes.Dcr
+  id: Dcr
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Dcr
+  nameWithType: MimeTypes.Dcr
+  fullName: SuperOffice.Util.MimeTypes.Dcr
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Dcr = "application/x-director"
+    return:
+      type: System.String
+    content.vb: Public Const Dcr As String = "application/x-director"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Dif
+  commentId: F:SuperOffice.Util.MimeTypes.Dif
+  id: Dif
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Dif
+  nameWithType: MimeTypes.Dif
+  fullName: SuperOffice.Util.MimeTypes.Dif
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Dif = "video/x-dv"
+    return:
+      type: System.String
+    content.vb: Public Const Dif As String = "video/x-dv"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Dir
+  commentId: F:SuperOffice.Util.MimeTypes.Dir
+  id: Dir
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Dir
+  nameWithType: MimeTypes.Dir
+  fullName: SuperOffice.Util.MimeTypes.Dir
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Dir = "application/x-director"
+    return:
+      type: System.String
+    content.vb: Public Const Dir As String = "application/x-director"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Djv
+  commentId: F:SuperOffice.Util.MimeTypes.Djv
+  id: Djv
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Djv
+  nameWithType: MimeTypes.Djv
+  fullName: SuperOffice.Util.MimeTypes.Djv
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Djv = "image/vnd.djvu"
+    return:
+      type: System.String
+    content.vb: Public Const Djv As String = "image/vnd.djvu"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Djvu
+  commentId: F:SuperOffice.Util.MimeTypes.Djvu
+  id: Djvu
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Djvu
+  nameWithType: MimeTypes.Djvu
+  fullName: SuperOffice.Util.MimeTypes.Djvu
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Djvu = "image/vnd.djvu"
+    return:
+      type: System.String
+    content.vb: Public Const Djvu As String = "image/vnd.djvu"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Dll
+  commentId: F:SuperOffice.Util.MimeTypes.Dll
+  id: Dll
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Dll
+  nameWithType: MimeTypes.Dll
+  fullName: SuperOffice.Util.MimeTypes.Dll
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Dll = "application/octet-stream"
+    return:
+      type: System.String
+    content.vb: Public Const Dll As String = "application/octet-stream"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Dmg
+  commentId: F:SuperOffice.Util.MimeTypes.Dmg
+  id: Dmg
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Dmg
+  nameWithType: MimeTypes.Dmg
+  fullName: SuperOffice.Util.MimeTypes.Dmg
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Dmg = "application/octet-stream"
+    return:
+      type: System.String
+    content.vb: Public Const Dmg As String = "application/octet-stream"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Dms
+  commentId: F:SuperOffice.Util.MimeTypes.Dms
+  id: Dms
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Dms
+  nameWithType: MimeTypes.Dms
+  fullName: SuperOffice.Util.MimeTypes.Dms
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Dms = "application/octet-stream"
+    return:
+      type: System.String
+    content.vb: Public Const Dms As String = "application/octet-stream"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Doc
+  commentId: F:SuperOffice.Util.MimeTypes.Doc
+  id: Doc
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Doc
+  nameWithType: MimeTypes.Doc
+  fullName: SuperOffice.Util.MimeTypes.Doc
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Doc = "application/msword"
+    return:
+      type: System.String
+    content.vb: Public Const Doc As String = "application/msword"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Docx
+  commentId: F:SuperOffice.Util.MimeTypes.Docx
+  id: Docx
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Docx
+  nameWithType: MimeTypes.Docx
+  fullName: SuperOffice.Util.MimeTypes.Docx
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Docx = "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    return:
+      type: System.String
+    content.vb: Public Const Docx As String = "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Dotx
+  commentId: F:SuperOffice.Util.MimeTypes.Dotx
+  id: Dotx
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Dotx
+  nameWithType: MimeTypes.Dotx
+  fullName: SuperOffice.Util.MimeTypes.Dotx
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Dotx = "application/vnd.openxmlformats-officedocument.wordprocessingml.template"
+    return:
+      type: System.String
+    content.vb: Public Const Dotx As String = "application/vnd.openxmlformats-officedocument.wordprocessingml.template"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Docm
+  commentId: F:SuperOffice.Util.MimeTypes.Docm
+  id: Docm
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Docm
+  nameWithType: MimeTypes.Docm
+  fullName: SuperOffice.Util.MimeTypes.Docm
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Docm = "application/vnd.ms-word.document.macroEnabled.12"
+    return:
+      type: System.String
+    content.vb: Public Const Docm As String = "application/vnd.ms-word.document.macroEnabled.12"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Dotm
+  commentId: F:SuperOffice.Util.MimeTypes.Dotm
+  id: Dotm
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Dotm
+  nameWithType: MimeTypes.Dotm
+  fullName: SuperOffice.Util.MimeTypes.Dotm
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Dotm = "application/vnd.ms-word.template.macroEnabled.12"
+    return:
+      type: System.String
+    content.vb: Public Const Dotm As String = "application/vnd.ms-word.template.macroEnabled.12"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Dtd
+  commentId: F:SuperOffice.Util.MimeTypes.Dtd
+  id: Dtd
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Dtd
+  nameWithType: MimeTypes.Dtd
+  fullName: SuperOffice.Util.MimeTypes.Dtd
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Dtd = "application/xml-dtd"
+    return:
+      type: System.String
+    content.vb: Public Const Dtd As String = "application/xml-dtd"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Dv
+  commentId: F:SuperOffice.Util.MimeTypes.Dv
+  id: Dv
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Dv
+  nameWithType: MimeTypes.Dv
+  fullName: SuperOffice.Util.MimeTypes.Dv
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Dv = "video/x-dv"
+    return:
+      type: System.String
+    content.vb: Public Const Dv As String = "video/x-dv"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Dvi
+  commentId: F:SuperOffice.Util.MimeTypes.Dvi
+  id: Dvi
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Dvi
+  nameWithType: MimeTypes.Dvi
+  fullName: SuperOffice.Util.MimeTypes.Dvi
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Dvi = "application/x-dvi"
+    return:
+      type: System.String
+    content.vb: Public Const Dvi As String = "application/x-dvi"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Dxr
+  commentId: F:SuperOffice.Util.MimeTypes.Dxr
+  id: Dxr
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Dxr
+  nameWithType: MimeTypes.Dxr
+  fullName: SuperOffice.Util.MimeTypes.Dxr
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Dxr = "application/x-director"
+    return:
+      type: System.String
+    content.vb: Public Const Dxr As String = "application/x-director"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Eps
+  commentId: F:SuperOffice.Util.MimeTypes.Eps
+  id: Eps
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Eps
+  nameWithType: MimeTypes.Eps
+  fullName: SuperOffice.Util.MimeTypes.Eps
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Eps = "application/postscript"
+    return:
+      type: System.String
+    content.vb: Public Const Eps As String = "application/postscript"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Etx
+  commentId: F:SuperOffice.Util.MimeTypes.Etx
+  id: Etx
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Etx
+  nameWithType: MimeTypes.Etx
+  fullName: SuperOffice.Util.MimeTypes.Etx
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Etx = "text/x-setext"
+    return:
+      type: System.String
+    content.vb: Public Const Etx As String = "text/x-setext"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Exe
+  commentId: F:SuperOffice.Util.MimeTypes.Exe
+  id: Exe
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Exe
+  nameWithType: MimeTypes.Exe
+  fullName: SuperOffice.Util.MimeTypes.Exe
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Exe = "application/octet-stream"
+    return:
+      type: System.String
+    content.vb: Public Const Exe As String = "application/octet-stream"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Ez
+  commentId: F:SuperOffice.Util.MimeTypes.Ez
+  id: Ez
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Ez
+  nameWithType: MimeTypes.Ez
+  fullName: SuperOffice.Util.MimeTypes.Ez
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Ez = "application/andrew-inset"
+    return:
+      type: System.String
+    content.vb: Public Const Ez As String = "application/andrew-inset"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Gif
+  commentId: F:SuperOffice.Util.MimeTypes.Gif
+  id: Gif
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Gif
+  nameWithType: MimeTypes.Gif
+  fullName: SuperOffice.Util.MimeTypes.Gif
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Gif = "image/gif"
+    return:
+      type: System.String
+    content.vb: Public Const Gif As String = "image/gif"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Gram
+  commentId: F:SuperOffice.Util.MimeTypes.Gram
+  id: Gram
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Gram
+  nameWithType: MimeTypes.Gram
+  fullName: SuperOffice.Util.MimeTypes.Gram
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Gram = "application/srgs"
+    return:
+      type: System.String
+    content.vb: Public Const Gram As String = "application/srgs"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Grxml
+  commentId: F:SuperOffice.Util.MimeTypes.Grxml
+  id: Grxml
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Grxml
+  nameWithType: MimeTypes.Grxml
+  fullName: SuperOffice.Util.MimeTypes.Grxml
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Grxml = "application/srgs+xml"
+    return:
+      type: System.String
+    content.vb: Public Const Grxml As String = "application/srgs+xml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Gtar
+  commentId: F:SuperOffice.Util.MimeTypes.Gtar
+  id: Gtar
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Gtar
+  nameWithType: MimeTypes.Gtar
+  fullName: SuperOffice.Util.MimeTypes.Gtar
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Gtar = "application/x-gtar"
+    return:
+      type: System.String
+    content.vb: Public Const Gtar As String = "application/x-gtar"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Hdf
+  commentId: F:SuperOffice.Util.MimeTypes.Hdf
+  id: Hdf
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Hdf
+  nameWithType: MimeTypes.Hdf
+  fullName: SuperOffice.Util.MimeTypes.Hdf
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Hdf = "application/x-hdf"
+    return:
+      type: System.String
+    content.vb: Public Const Hdf As String = "application/x-hdf"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Hqx
+  commentId: F:SuperOffice.Util.MimeTypes.Hqx
+  id: Hqx
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Hqx
+  nameWithType: MimeTypes.Hqx
+  fullName: SuperOffice.Util.MimeTypes.Hqx
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Hqx = "application/mac-binhex40"
+    return:
+      type: System.String
+    content.vb: Public Const Hqx As String = "application/mac-binhex40"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Htm
+  commentId: F:SuperOffice.Util.MimeTypes.Htm
+  id: Htm
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Htm
+  nameWithType: MimeTypes.Htm
+  fullName: SuperOffice.Util.MimeTypes.Htm
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Htm = "text/html"
+    return:
+      type: System.String
+    content.vb: Public Const Htm As String = "text/html"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Html
+  commentId: F:SuperOffice.Util.MimeTypes.Html
+  id: Html
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Html
+  nameWithType: MimeTypes.Html
+  fullName: SuperOffice.Util.MimeTypes.Html
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Html = "text/html"
+    return:
+      type: System.String
+    content.vb: Public Const Html As String = "text/html"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Ice
+  commentId: F:SuperOffice.Util.MimeTypes.Ice
+  id: Ice
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Ice
+  nameWithType: MimeTypes.Ice
+  fullName: SuperOffice.Util.MimeTypes.Ice
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Ice = "x-conference/x-cooltalk"
+    return:
+      type: System.String
+    content.vb: Public Const Ice As String = "x-conference/x-cooltalk"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Ico
+  commentId: F:SuperOffice.Util.MimeTypes.Ico
+  id: Ico
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Ico
+  nameWithType: MimeTypes.Ico
+  fullName: SuperOffice.Util.MimeTypes.Ico
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Ico = "image/x-icon"
+    return:
+      type: System.String
+    content.vb: Public Const Ico As String = "image/x-icon"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Ics
+  commentId: F:SuperOffice.Util.MimeTypes.Ics
+  id: Ics
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Ics
+  nameWithType: MimeTypes.Ics
+  fullName: SuperOffice.Util.MimeTypes.Ics
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Ics = "text/calendar"
+    return:
+      type: System.String
+    content.vb: Public Const Ics As String = "text/calendar"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Ief
+  commentId: F:SuperOffice.Util.MimeTypes.Ief
+  id: Ief
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Ief
+  nameWithType: MimeTypes.Ief
+  fullName: SuperOffice.Util.MimeTypes.Ief
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Ief = "image/ief"
+    return:
+      type: System.String
+    content.vb: Public Const Ief As String = "image/ief"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Ifb
+  commentId: F:SuperOffice.Util.MimeTypes.Ifb
+  id: Ifb
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Ifb
+  nameWithType: MimeTypes.Ifb
+  fullName: SuperOffice.Util.MimeTypes.Ifb
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Ifb = "text/calendar"
+    return:
+      type: System.String
+    content.vb: Public Const Ifb As String = "text/calendar"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Iges
+  commentId: F:SuperOffice.Util.MimeTypes.Iges
+  id: Iges
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Iges
+  nameWithType: MimeTypes.Iges
+  fullName: SuperOffice.Util.MimeTypes.Iges
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Iges = "model/iges"
+    return:
+      type: System.String
+    content.vb: Public Const Iges As String = "model/iges"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Igs
+  commentId: F:SuperOffice.Util.MimeTypes.Igs
+  id: Igs
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Igs
+  nameWithType: MimeTypes.Igs
+  fullName: SuperOffice.Util.MimeTypes.Igs
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Igs = "model/iges"
+    return:
+      type: System.String
+    content.vb: Public Const Igs As String = "model/iges"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Jnlp
+  commentId: F:SuperOffice.Util.MimeTypes.Jnlp
+  id: Jnlp
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Jnlp
+  nameWithType: MimeTypes.Jnlp
+  fullName: SuperOffice.Util.MimeTypes.Jnlp
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Jnlp = "application/x-java-jnlp-file"
+    return:
+      type: System.String
+    content.vb: Public Const Jnlp As String = "application/x-java-jnlp-file"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Jp2
+  commentId: F:SuperOffice.Util.MimeTypes.Jp2
+  id: Jp2
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Jp2
+  nameWithType: MimeTypes.Jp2
+  fullName: SuperOffice.Util.MimeTypes.Jp2
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Jp2 = "image/jp2"
+    return:
+      type: System.String
+    content.vb: Public Const Jp2 As String = "image/jp2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Jpe
+  commentId: F:SuperOffice.Util.MimeTypes.Jpe
+  id: Jpe
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Jpe
+  nameWithType: MimeTypes.Jpe
+  fullName: SuperOffice.Util.MimeTypes.Jpe
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Jpe = "image/jpeg"
+    return:
+      type: System.String
+    content.vb: Public Const Jpe As String = "image/jpeg"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Jpeg
+  commentId: F:SuperOffice.Util.MimeTypes.Jpeg
+  id: Jpeg
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Jpeg
+  nameWithType: MimeTypes.Jpeg
+  fullName: SuperOffice.Util.MimeTypes.Jpeg
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Jpeg = "image/jpeg"
+    return:
+      type: System.String
+    content.vb: Public Const Jpeg As String = "image/jpeg"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Jpg
+  commentId: F:SuperOffice.Util.MimeTypes.Jpg
+  id: Jpg
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Jpg
+  nameWithType: MimeTypes.Jpg
+  fullName: SuperOffice.Util.MimeTypes.Jpg
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Jpg = "image/jpeg"
+    return:
+      type: System.String
+    content.vb: Public Const Jpg As String = "image/jpeg"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Js
+  commentId: F:SuperOffice.Util.MimeTypes.Js
+  id: Js
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Js
+  nameWithType: MimeTypes.Js
+  fullName: SuperOffice.Util.MimeTypes.Js
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Js = "application/x-javascript"
+    return:
+      type: System.String
+    content.vb: Public Const Js As String = "application/x-javascript"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Kar
+  commentId: F:SuperOffice.Util.MimeTypes.Kar
+  id: Kar
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Kar
+  nameWithType: MimeTypes.Kar
+  fullName: SuperOffice.Util.MimeTypes.Kar
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Kar = "audio/midi"
+    return:
+      type: System.String
+    content.vb: Public Const Kar As String = "audio/midi"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Latex
+  commentId: F:SuperOffice.Util.MimeTypes.Latex
+  id: Latex
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Latex
+  nameWithType: MimeTypes.Latex
+  fullName: SuperOffice.Util.MimeTypes.Latex
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Latex = "application/x-latex"
+    return:
+      type: System.String
+    content.vb: Public Const Latex As String = "application/x-latex"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Lha
+  commentId: F:SuperOffice.Util.MimeTypes.Lha
+  id: Lha
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Lha
+  nameWithType: MimeTypes.Lha
+  fullName: SuperOffice.Util.MimeTypes.Lha
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Lha = "application/octet-stream"
+    return:
+      type: System.String
+    content.vb: Public Const Lha As String = "application/octet-stream"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Lzh
+  commentId: F:SuperOffice.Util.MimeTypes.Lzh
+  id: Lzh
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Lzh
+  nameWithType: MimeTypes.Lzh
+  fullName: SuperOffice.Util.MimeTypes.Lzh
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Lzh = "application/octet-stream"
+    return:
+      type: System.String
+    content.vb: Public Const Lzh As String = "application/octet-stream"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.M3U
+  commentId: F:SuperOffice.Util.MimeTypes.M3U
+  id: M3U
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: M3U
+  nameWithType: MimeTypes.M3U
+  fullName: SuperOffice.Util.MimeTypes.M3U
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string M3U = "audio/x-mpegurl"
+    return:
+      type: System.String
+    content.vb: Public Const M3U As String = "audio/x-mpegurl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.M4A
+  commentId: F:SuperOffice.Util.MimeTypes.M4A
+  id: M4A
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: M4A
+  nameWithType: MimeTypes.M4A
+  fullName: SuperOffice.Util.MimeTypes.M4A
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string M4A = "audio/mp4a-latm"
+    return:
+      type: System.String
+    content.vb: Public Const M4A As String = "audio/mp4a-latm"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.M4B
+  commentId: F:SuperOffice.Util.MimeTypes.M4B
+  id: M4B
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: M4B
+  nameWithType: MimeTypes.M4B
+  fullName: SuperOffice.Util.MimeTypes.M4B
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string M4B = "audio/mp4a-latm"
+    return:
+      type: System.String
+    content.vb: Public Const M4B As String = "audio/mp4a-latm"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.M4P
+  commentId: F:SuperOffice.Util.MimeTypes.M4P
+  id: M4P
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: M4P
+  nameWithType: MimeTypes.M4P
+  fullName: SuperOffice.Util.MimeTypes.M4P
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string M4P = "audio/mp4a-latm"
+    return:
+      type: System.String
+    content.vb: Public Const M4P As String = "audio/mp4a-latm"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.M4U
+  commentId: F:SuperOffice.Util.MimeTypes.M4U
+  id: M4U
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: M4U
+  nameWithType: MimeTypes.M4U
+  fullName: SuperOffice.Util.MimeTypes.M4U
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string M4U = "video/vnd.mpegurl"
+    return:
+      type: System.String
+    content.vb: Public Const M4U As String = "video/vnd.mpegurl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.M4V
+  commentId: F:SuperOffice.Util.MimeTypes.M4V
+  id: M4V
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: M4V
+  nameWithType: MimeTypes.M4V
+  fullName: SuperOffice.Util.MimeTypes.M4V
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string M4V = "video/x-m4v"
+    return:
+      type: System.String
+    content.vb: Public Const M4V As String = "video/x-m4v"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Mac
+  commentId: F:SuperOffice.Util.MimeTypes.Mac
+  id: Mac
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Mac
+  nameWithType: MimeTypes.Mac
+  fullName: SuperOffice.Util.MimeTypes.Mac
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Mac = "image/x-macpaint"
+    return:
+      type: System.String
+    content.vb: Public Const Mac As String = "image/x-macpaint"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Man
+  commentId: F:SuperOffice.Util.MimeTypes.Man
+  id: Man
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Man
+  nameWithType: MimeTypes.Man
+  fullName: SuperOffice.Util.MimeTypes.Man
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Man = "application/x-troff-man"
+    return:
+      type: System.String
+    content.vb: Public Const Man As String = "application/x-troff-man"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Mathml
+  commentId: F:SuperOffice.Util.MimeTypes.Mathml
+  id: Mathml
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Mathml
+  nameWithType: MimeTypes.Mathml
+  fullName: SuperOffice.Util.MimeTypes.Mathml
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Mathml = "application/mathml+xml"
+    return:
+      type: System.String
+    content.vb: Public Const Mathml As String = "application/mathml+xml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Me
+  commentId: F:SuperOffice.Util.MimeTypes.Me
+  id: Me
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Me
+  nameWithType: MimeTypes.Me
+  fullName: SuperOffice.Util.MimeTypes.Me
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Me = "application/x-troff-me"
+    return:
+      type: System.String
+    content.vb: Public Const Me As String = "application/x-troff-me"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Mesh
+  commentId: F:SuperOffice.Util.MimeTypes.Mesh
+  id: Mesh
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Mesh
+  nameWithType: MimeTypes.Mesh
+  fullName: SuperOffice.Util.MimeTypes.Mesh
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Mesh = "model/mesh"
+    return:
+      type: System.String
+    content.vb: Public Const Mesh As String = "model/mesh"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Mid
+  commentId: F:SuperOffice.Util.MimeTypes.Mid
+  id: Mid
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Mid
+  nameWithType: MimeTypes.Mid
+  fullName: SuperOffice.Util.MimeTypes.Mid
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Mid = "audio/midi"
+    return:
+      type: System.String
+    content.vb: Public Const Mid As String = "audio/midi"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Midi
+  commentId: F:SuperOffice.Util.MimeTypes.Midi
+  id: Midi
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Midi
+  nameWithType: MimeTypes.Midi
+  fullName: SuperOffice.Util.MimeTypes.Midi
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Midi = "audio/midi"
+    return:
+      type: System.String
+    content.vb: Public Const Midi As String = "audio/midi"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Mif
+  commentId: F:SuperOffice.Util.MimeTypes.Mif
+  id: Mif
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Mif
+  nameWithType: MimeTypes.Mif
+  fullName: SuperOffice.Util.MimeTypes.Mif
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Mif = "application/vnd.mif"
+    return:
+      type: System.String
+    content.vb: Public Const Mif As String = "application/vnd.mif"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Mov
+  commentId: F:SuperOffice.Util.MimeTypes.Mov
+  id: Mov
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Mov
+  nameWithType: MimeTypes.Mov
+  fullName: SuperOffice.Util.MimeTypes.Mov
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Mov = "video/quicktime"
+    return:
+      type: System.String
+    content.vb: Public Const Mov As String = "video/quicktime"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Movie
+  commentId: F:SuperOffice.Util.MimeTypes.Movie
+  id: Movie
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Movie
+  nameWithType: MimeTypes.Movie
+  fullName: SuperOffice.Util.MimeTypes.Movie
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Movie = "video/x-sgi-movie"
+    return:
+      type: System.String
+    content.vb: Public Const Movie As String = "video/x-sgi-movie"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Mp2
+  commentId: F:SuperOffice.Util.MimeTypes.Mp2
+  id: Mp2
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Mp2
+  nameWithType: MimeTypes.Mp2
+  fullName: SuperOffice.Util.MimeTypes.Mp2
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Mp2 = "audio/mpeg"
+    return:
+      type: System.String
+    content.vb: Public Const Mp2 As String = "audio/mpeg"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Mp3
+  commentId: F:SuperOffice.Util.MimeTypes.Mp3
+  id: Mp3
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Mp3
+  nameWithType: MimeTypes.Mp3
+  fullName: SuperOffice.Util.MimeTypes.Mp3
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Mp3 = "audio/mpeg"
+    return:
+      type: System.String
+    content.vb: Public Const Mp3 As String = "audio/mpeg"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Mp4
+  commentId: F:SuperOffice.Util.MimeTypes.Mp4
+  id: Mp4
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Mp4
+  nameWithType: MimeTypes.Mp4
+  fullName: SuperOffice.Util.MimeTypes.Mp4
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Mp4 = "video/mp4"
+    return:
+      type: System.String
+    content.vb: Public Const Mp4 As String = "video/mp4"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Mpe
+  commentId: F:SuperOffice.Util.MimeTypes.Mpe
+  id: Mpe
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Mpe
+  nameWithType: MimeTypes.Mpe
+  fullName: SuperOffice.Util.MimeTypes.Mpe
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Mpe = "video/mpeg"
+    return:
+      type: System.String
+    content.vb: Public Const Mpe As String = "video/mpeg"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Mpeg
+  commentId: F:SuperOffice.Util.MimeTypes.Mpeg
+  id: Mpeg
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Mpeg
+  nameWithType: MimeTypes.Mpeg
+  fullName: SuperOffice.Util.MimeTypes.Mpeg
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Mpeg = "video/mpeg"
+    return:
+      type: System.String
+    content.vb: Public Const Mpeg As String = "video/mpeg"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Mpg
+  commentId: F:SuperOffice.Util.MimeTypes.Mpg
+  id: Mpg
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Mpg
+  nameWithType: MimeTypes.Mpg
+  fullName: SuperOffice.Util.MimeTypes.Mpg
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Mpg = "video/mpeg"
+    return:
+      type: System.String
+    content.vb: Public Const Mpg As String = "video/mpeg"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Mpga
+  commentId: F:SuperOffice.Util.MimeTypes.Mpga
+  id: Mpga
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Mpga
+  nameWithType: MimeTypes.Mpga
+  fullName: SuperOffice.Util.MimeTypes.Mpga
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Mpga = "audio/mpeg"
+    return:
+      type: System.String
+    content.vb: Public Const Mpga As String = "audio/mpeg"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Ms
+  commentId: F:SuperOffice.Util.MimeTypes.Ms
+  id: Ms
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Ms
+  nameWithType: MimeTypes.Ms
+  fullName: SuperOffice.Util.MimeTypes.Ms
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Ms = "application/x-troff-ms"
+    return:
+      type: System.String
+    content.vb: Public Const Ms As String = "application/x-troff-ms"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Msh
+  commentId: F:SuperOffice.Util.MimeTypes.Msh
+  id: Msh
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Msh
+  nameWithType: MimeTypes.Msh
+  fullName: SuperOffice.Util.MimeTypes.Msh
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Msh = "model/mesh"
+    return:
+      type: System.String
+    content.vb: Public Const Msh As String = "model/mesh"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Mxu
+  commentId: F:SuperOffice.Util.MimeTypes.Mxu
+  id: Mxu
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Mxu
+  nameWithType: MimeTypes.Mxu
+  fullName: SuperOffice.Util.MimeTypes.Mxu
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Mxu = "video/vnd.mpegurl"
+    return:
+      type: System.String
+    content.vb: Public Const Mxu As String = "video/vnd.mpegurl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Nc
+  commentId: F:SuperOffice.Util.MimeTypes.Nc
+  id: Nc
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Nc
+  nameWithType: MimeTypes.Nc
+  fullName: SuperOffice.Util.MimeTypes.Nc
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Nc = "application/x-netcdf"
+    return:
+      type: System.String
+    content.vb: Public Const Nc As String = "application/x-netcdf"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Oda
+  commentId: F:SuperOffice.Util.MimeTypes.Oda
+  id: Oda
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Oda
+  nameWithType: MimeTypes.Oda
+  fullName: SuperOffice.Util.MimeTypes.Oda
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Oda = "application/oda"
+    return:
+      type: System.String
+    content.vb: Public Const Oda As String = "application/oda"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Ogg
+  commentId: F:SuperOffice.Util.MimeTypes.Ogg
+  id: Ogg
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Ogg
+  nameWithType: MimeTypes.Ogg
+  fullName: SuperOffice.Util.MimeTypes.Ogg
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Ogg = "application/ogg"
+    return:
+      type: System.String
+    content.vb: Public Const Ogg As String = "application/ogg"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Pbm
+  commentId: F:SuperOffice.Util.MimeTypes.Pbm
+  id: Pbm
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Pbm
+  nameWithType: MimeTypes.Pbm
+  fullName: SuperOffice.Util.MimeTypes.Pbm
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Pbm = "image/x-portable-bitmap"
+    return:
+      type: System.String
+    content.vb: Public Const Pbm As String = "image/x-portable-bitmap"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Pct
+  commentId: F:SuperOffice.Util.MimeTypes.Pct
+  id: Pct
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Pct
+  nameWithType: MimeTypes.Pct
+  fullName: SuperOffice.Util.MimeTypes.Pct
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Pct = "image/pict"
+    return:
+      type: System.String
+    content.vb: Public Const Pct As String = "image/pict"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Pdb
+  commentId: F:SuperOffice.Util.MimeTypes.Pdb
+  id: Pdb
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Pdb
+  nameWithType: MimeTypes.Pdb
+  fullName: SuperOffice.Util.MimeTypes.Pdb
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Pdb = "chemical/x-pdb"
+    return:
+      type: System.String
+    content.vb: Public Const Pdb As String = "chemical/x-pdb"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Pdf
+  commentId: F:SuperOffice.Util.MimeTypes.Pdf
+  id: Pdf
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Pdf
+  nameWithType: MimeTypes.Pdf
+  fullName: SuperOffice.Util.MimeTypes.Pdf
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Pdf = "application/pdf"
+    return:
+      type: System.String
+    content.vb: Public Const Pdf As String = "application/pdf"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Pgm
+  commentId: F:SuperOffice.Util.MimeTypes.Pgm
+  id: Pgm
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Pgm
+  nameWithType: MimeTypes.Pgm
+  fullName: SuperOffice.Util.MimeTypes.Pgm
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Pgm = "image/x-portable-graymap"
+    return:
+      type: System.String
+    content.vb: Public Const Pgm As String = "image/x-portable-graymap"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Pgn
+  commentId: F:SuperOffice.Util.MimeTypes.Pgn
+  id: Pgn
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Pgn
+  nameWithType: MimeTypes.Pgn
+  fullName: SuperOffice.Util.MimeTypes.Pgn
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Pgn = "application/x-chess-pgn"
+    return:
+      type: System.String
+    content.vb: Public Const Pgn As String = "application/x-chess-pgn"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Pic
+  commentId: F:SuperOffice.Util.MimeTypes.Pic
+  id: Pic
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Pic
+  nameWithType: MimeTypes.Pic
+  fullName: SuperOffice.Util.MimeTypes.Pic
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Pic = "image/pict"
+    return:
+      type: System.String
+    content.vb: Public Const Pic As String = "image/pict"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Pict
+  commentId: F:SuperOffice.Util.MimeTypes.Pict
+  id: Pict
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Pict
+  nameWithType: MimeTypes.Pict
+  fullName: SuperOffice.Util.MimeTypes.Pict
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Pict = "image/pict"
+    return:
+      type: System.String
+    content.vb: Public Const Pict As String = "image/pict"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Png
+  commentId: F:SuperOffice.Util.MimeTypes.Png
+  id: Png
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Png
+  nameWithType: MimeTypes.Png
+  fullName: SuperOffice.Util.MimeTypes.Png
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Png = "image/png"
+    return:
+      type: System.String
+    content.vb: Public Const Png As String = "image/png"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Pnm
+  commentId: F:SuperOffice.Util.MimeTypes.Pnm
+  id: Pnm
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Pnm
+  nameWithType: MimeTypes.Pnm
+  fullName: SuperOffice.Util.MimeTypes.Pnm
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Pnm = "image/x-portable-anymap"
+    return:
+      type: System.String
+    content.vb: Public Const Pnm As String = "image/x-portable-anymap"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Pnt
+  commentId: F:SuperOffice.Util.MimeTypes.Pnt
+  id: Pnt
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Pnt
+  nameWithType: MimeTypes.Pnt
+  fullName: SuperOffice.Util.MimeTypes.Pnt
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Pnt = "image/x-macpaint"
+    return:
+      type: System.String
+    content.vb: Public Const Pnt As String = "image/x-macpaint"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Pntg
+  commentId: F:SuperOffice.Util.MimeTypes.Pntg
+  id: Pntg
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Pntg
+  nameWithType: MimeTypes.Pntg
+  fullName: SuperOffice.Util.MimeTypes.Pntg
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Pntg = "image/x-macpaint"
+    return:
+      type: System.String
+    content.vb: Public Const Pntg As String = "image/x-macpaint"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Ppm
+  commentId: F:SuperOffice.Util.MimeTypes.Ppm
+  id: Ppm
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Ppm
+  nameWithType: MimeTypes.Ppm
+  fullName: SuperOffice.Util.MimeTypes.Ppm
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Ppm = "image/x-portable-pixmap"
+    return:
+      type: System.String
+    content.vb: Public Const Ppm As String = "image/x-portable-pixmap"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Ppt
+  commentId: F:SuperOffice.Util.MimeTypes.Ppt
+  id: Ppt
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Ppt
+  nameWithType: MimeTypes.Ppt
+  fullName: SuperOffice.Util.MimeTypes.Ppt
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Ppt = "application/vnd.ms-powerpoint"
+    return:
+      type: System.String
+    content.vb: Public Const Ppt As String = "application/vnd.ms-powerpoint"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Pptx
+  commentId: F:SuperOffice.Util.MimeTypes.Pptx
+  id: Pptx
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Pptx
+  nameWithType: MimeTypes.Pptx
+  fullName: SuperOffice.Util.MimeTypes.Pptx
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Pptx = "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    return:
+      type: System.String
+    content.vb: Public Const Pptx As String = "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Potx
+  commentId: F:SuperOffice.Util.MimeTypes.Potx
+  id: Potx
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Potx
+  nameWithType: MimeTypes.Potx
+  fullName: SuperOffice.Util.MimeTypes.Potx
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Potx = "application/vnd.openxmlformats-officedocument.presentationml.template"
+    return:
+      type: System.String
+    content.vb: Public Const Potx As String = "application/vnd.openxmlformats-officedocument.presentationml.template"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Ppsx
+  commentId: F:SuperOffice.Util.MimeTypes.Ppsx
+  id: Ppsx
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Ppsx
+  nameWithType: MimeTypes.Ppsx
+  fullName: SuperOffice.Util.MimeTypes.Ppsx
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Ppsx = "application/vnd.openxmlformats-officedocument.presentationml.slideshow"
+    return:
+      type: System.String
+    content.vb: Public Const Ppsx As String = "application/vnd.openxmlformats-officedocument.presentationml.slideshow"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Ppam
+  commentId: F:SuperOffice.Util.MimeTypes.Ppam
+  id: Ppam
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Ppam
+  nameWithType: MimeTypes.Ppam
+  fullName: SuperOffice.Util.MimeTypes.Ppam
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Ppam = "application/vnd.ms-powerpoint.addin.macroEnabled.12"
+    return:
+      type: System.String
+    content.vb: Public Const Ppam As String = "application/vnd.ms-powerpoint.addin.macroEnabled.12"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Pptm
+  commentId: F:SuperOffice.Util.MimeTypes.Pptm
+  id: Pptm
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Pptm
+  nameWithType: MimeTypes.Pptm
+  fullName: SuperOffice.Util.MimeTypes.Pptm
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Pptm = "application/vnd.ms-powerpoint.presentation.macroEnabled.12"
+    return:
+      type: System.String
+    content.vb: Public Const Pptm As String = "application/vnd.ms-powerpoint.presentation.macroEnabled.12"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Potm
+  commentId: F:SuperOffice.Util.MimeTypes.Potm
+  id: Potm
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Potm
+  nameWithType: MimeTypes.Potm
+  fullName: SuperOffice.Util.MimeTypes.Potm
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Potm = "application/vnd.ms-powerpoint.template.macroEnabled.12"
+    return:
+      type: System.String
+    content.vb: Public Const Potm As String = "application/vnd.ms-powerpoint.template.macroEnabled.12"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Ppsm
+  commentId: F:SuperOffice.Util.MimeTypes.Ppsm
+  id: Ppsm
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Ppsm
+  nameWithType: MimeTypes.Ppsm
+  fullName: SuperOffice.Util.MimeTypes.Ppsm
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Ppsm = "application/vnd.ms-powerpoint.slideshow.macroEnabled.12"
+    return:
+      type: System.String
+    content.vb: Public Const Ppsm As String = "application/vnd.ms-powerpoint.slideshow.macroEnabled.12"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Ps
+  commentId: F:SuperOffice.Util.MimeTypes.Ps
+  id: Ps
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Ps
+  nameWithType: MimeTypes.Ps
+  fullName: SuperOffice.Util.MimeTypes.Ps
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Ps = "application/postscript"
+    return:
+      type: System.String
+    content.vb: Public Const Ps As String = "application/postscript"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Qt
+  commentId: F:SuperOffice.Util.MimeTypes.Qt
+  id: Qt
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Qt
+  nameWithType: MimeTypes.Qt
+  fullName: SuperOffice.Util.MimeTypes.Qt
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Qt = "video/quicktime"
+    return:
+      type: System.String
+    content.vb: Public Const Qt As String = "video/quicktime"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Qti
+  commentId: F:SuperOffice.Util.MimeTypes.Qti
+  id: Qti
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Qti
+  nameWithType: MimeTypes.Qti
+  fullName: SuperOffice.Util.MimeTypes.Qti
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Qti = "image/x-quicktime"
+    return:
+      type: System.String
+    content.vb: Public Const Qti As String = "image/x-quicktime"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Qtif
+  commentId: F:SuperOffice.Util.MimeTypes.Qtif
+  id: Qtif
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Qtif
+  nameWithType: MimeTypes.Qtif
+  fullName: SuperOffice.Util.MimeTypes.Qtif
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Qtif = "image/x-quicktime"
+    return:
+      type: System.String
+    content.vb: Public Const Qtif As String = "image/x-quicktime"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Ra
+  commentId: F:SuperOffice.Util.MimeTypes.Ra
+  id: Ra
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Ra
+  nameWithType: MimeTypes.Ra
+  fullName: SuperOffice.Util.MimeTypes.Ra
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Ra = "audio/x-pn-realaudio"
+    return:
+      type: System.String
+    content.vb: Public Const Ra As String = "audio/x-pn-realaudio"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Ram
+  commentId: F:SuperOffice.Util.MimeTypes.Ram
+  id: Ram
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Ram
+  nameWithType: MimeTypes.Ram
+  fullName: SuperOffice.Util.MimeTypes.Ram
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Ram = "audio/x-pn-realaudio"
+    return:
+      type: System.String
+    content.vb: Public Const Ram As String = "audio/x-pn-realaudio"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Ras
+  commentId: F:SuperOffice.Util.MimeTypes.Ras
+  id: Ras
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Ras
+  nameWithType: MimeTypes.Ras
+  fullName: SuperOffice.Util.MimeTypes.Ras
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Ras = "image/x-cmu-raster"
+    return:
+      type: System.String
+    content.vb: Public Const Ras As String = "image/x-cmu-raster"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Rdf
+  commentId: F:SuperOffice.Util.MimeTypes.Rdf
+  id: Rdf
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Rdf
+  nameWithType: MimeTypes.Rdf
+  fullName: SuperOffice.Util.MimeTypes.Rdf
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Rdf = "application/rdf+xml"
+    return:
+      type: System.String
+    content.vb: Public Const Rdf As String = "application/rdf+xml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Rgb
+  commentId: F:SuperOffice.Util.MimeTypes.Rgb
+  id: Rgb
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Rgb
+  nameWithType: MimeTypes.Rgb
+  fullName: SuperOffice.Util.MimeTypes.Rgb
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Rgb = "image/x-rgb"
+    return:
+      type: System.String
+    content.vb: Public Const Rgb As String = "image/x-rgb"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Rm
+  commentId: F:SuperOffice.Util.MimeTypes.Rm
+  id: Rm
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Rm
+  nameWithType: MimeTypes.Rm
+  fullName: SuperOffice.Util.MimeTypes.Rm
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Rm = "application/vnd.rn-realmedia"
+    return:
+      type: System.String
+    content.vb: Public Const Rm As String = "application/vnd.rn-realmedia"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Roff
+  commentId: F:SuperOffice.Util.MimeTypes.Roff
+  id: Roff
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Roff
+  nameWithType: MimeTypes.Roff
+  fullName: SuperOffice.Util.MimeTypes.Roff
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Roff = "application/x-troff"
+    return:
+      type: System.String
+    content.vb: Public Const Roff As String = "application/x-troff"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Rtf
+  commentId: F:SuperOffice.Util.MimeTypes.Rtf
+  id: Rtf
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Rtf
+  nameWithType: MimeTypes.Rtf
+  fullName: SuperOffice.Util.MimeTypes.Rtf
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Rtf = "text/rtf"
+    return:
+      type: System.String
+    content.vb: Public Const Rtf As String = "text/rtf"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Rtx
+  commentId: F:SuperOffice.Util.MimeTypes.Rtx
+  id: Rtx
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Rtx
+  nameWithType: MimeTypes.Rtx
+  fullName: SuperOffice.Util.MimeTypes.Rtx
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Rtx = "text/richtext"
+    return:
+      type: System.String
+    content.vb: Public Const Rtx As String = "text/richtext"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Sgm
+  commentId: F:SuperOffice.Util.MimeTypes.Sgm
+  id: Sgm
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Sgm
+  nameWithType: MimeTypes.Sgm
+  fullName: SuperOffice.Util.MimeTypes.Sgm
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Sgm = "text/sgml"
+    return:
+      type: System.String
+    content.vb: Public Const Sgm As String = "text/sgml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Sgml
+  commentId: F:SuperOffice.Util.MimeTypes.Sgml
+  id: Sgml
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Sgml
+  nameWithType: MimeTypes.Sgml
+  fullName: SuperOffice.Util.MimeTypes.Sgml
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Sgml = "text/sgml"
+    return:
+      type: System.String
+    content.vb: Public Const Sgml As String = "text/sgml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Sh
+  commentId: F:SuperOffice.Util.MimeTypes.Sh
+  id: Sh
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Sh
+  nameWithType: MimeTypes.Sh
+  fullName: SuperOffice.Util.MimeTypes.Sh
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Sh = "application/x-sh"
+    return:
+      type: System.String
+    content.vb: Public Const Sh As String = "application/x-sh"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Shar
+  commentId: F:SuperOffice.Util.MimeTypes.Shar
+  id: Shar
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Shar
+  nameWithType: MimeTypes.Shar
+  fullName: SuperOffice.Util.MimeTypes.Shar
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Shar = "application/x-shar"
+    return:
+      type: System.String
+    content.vb: Public Const Shar As String = "application/x-shar"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Silo
+  commentId: F:SuperOffice.Util.MimeTypes.Silo
+  id: Silo
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Silo
+  nameWithType: MimeTypes.Silo
+  fullName: SuperOffice.Util.MimeTypes.Silo
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Silo = "model/mesh"
+    return:
+      type: System.String
+    content.vb: Public Const Silo As String = "model/mesh"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Sit
+  commentId: F:SuperOffice.Util.MimeTypes.Sit
+  id: Sit
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Sit
+  nameWithType: MimeTypes.Sit
+  fullName: SuperOffice.Util.MimeTypes.Sit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Sit = "application/x-stuffit"
+    return:
+      type: System.String
+    content.vb: Public Const Sit As String = "application/x-stuffit"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Skd
+  commentId: F:SuperOffice.Util.MimeTypes.Skd
+  id: Skd
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Skd
+  nameWithType: MimeTypes.Skd
+  fullName: SuperOffice.Util.MimeTypes.Skd
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Skd = "application/x-koan"
+    return:
+      type: System.String
+    content.vb: Public Const Skd As String = "application/x-koan"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Skm
+  commentId: F:SuperOffice.Util.MimeTypes.Skm
+  id: Skm
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Skm
+  nameWithType: MimeTypes.Skm
+  fullName: SuperOffice.Util.MimeTypes.Skm
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Skm = "application/x-koan"
+    return:
+      type: System.String
+    content.vb: Public Const Skm As String = "application/x-koan"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Skp
+  commentId: F:SuperOffice.Util.MimeTypes.Skp
+  id: Skp
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Skp
+  nameWithType: MimeTypes.Skp
+  fullName: SuperOffice.Util.MimeTypes.Skp
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Skp = "application/x-koan"
+    return:
+      type: System.String
+    content.vb: Public Const Skp As String = "application/x-koan"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Skt
+  commentId: F:SuperOffice.Util.MimeTypes.Skt
+  id: Skt
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Skt
+  nameWithType: MimeTypes.Skt
+  fullName: SuperOffice.Util.MimeTypes.Skt
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Skt = "application/x-koan"
+    return:
+      type: System.String
+    content.vb: Public Const Skt As String = "application/x-koan"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Smi
+  commentId: F:SuperOffice.Util.MimeTypes.Smi
+  id: Smi
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Smi
+  nameWithType: MimeTypes.Smi
+  fullName: SuperOffice.Util.MimeTypes.Smi
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Smi = "application/smil"
+    return:
+      type: System.String
+    content.vb: Public Const Smi As String = "application/smil"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Smil
+  commentId: F:SuperOffice.Util.MimeTypes.Smil
+  id: Smil
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Smil
+  nameWithType: MimeTypes.Smil
+  fullName: SuperOffice.Util.MimeTypes.Smil
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Smil = "application/smil"
+    return:
+      type: System.String
+    content.vb: Public Const Smil As String = "application/smil"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Snd
+  commentId: F:SuperOffice.Util.MimeTypes.Snd
+  id: Snd
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Snd
+  nameWithType: MimeTypes.Snd
+  fullName: SuperOffice.Util.MimeTypes.Snd
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Snd = "audio/basic"
+    return:
+      type: System.String
+    content.vb: Public Const Snd As String = "audio/basic"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.So
+  commentId: F:SuperOffice.Util.MimeTypes.So
+  id: So
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: So
+  nameWithType: MimeTypes.So
+  fullName: SuperOffice.Util.MimeTypes.So
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string So = "application/octet-stream"
+    return:
+      type: System.String
+    content.vb: Public Const So As String = "application/octet-stream"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Spl
+  commentId: F:SuperOffice.Util.MimeTypes.Spl
+  id: Spl
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Spl
+  nameWithType: MimeTypes.Spl
+  fullName: SuperOffice.Util.MimeTypes.Spl
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Spl = "application/x-futuresplash"
+    return:
+      type: System.String
+    content.vb: Public Const Spl As String = "application/x-futuresplash"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Src
+  commentId: F:SuperOffice.Util.MimeTypes.Src
+  id: Src
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Src
+  nameWithType: MimeTypes.Src
+  fullName: SuperOffice.Util.MimeTypes.Src
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Src = "application/x-wais-source"
+    return:
+      type: System.String
+    content.vb: Public Const Src As String = "application/x-wais-source"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Sv4Cpio
+  commentId: F:SuperOffice.Util.MimeTypes.Sv4Cpio
+  id: Sv4Cpio
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Sv4Cpio
+  nameWithType: MimeTypes.Sv4Cpio
+  fullName: SuperOffice.Util.MimeTypes.Sv4Cpio
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Sv4Cpio = "application/x-sv4cpio"
+    return:
+      type: System.String
+    content.vb: Public Const Sv4Cpio As String = "application/x-sv4cpio"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Sv4Crc
+  commentId: F:SuperOffice.Util.MimeTypes.Sv4Crc
+  id: Sv4Crc
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Sv4Crc
+  nameWithType: MimeTypes.Sv4Crc
+  fullName: SuperOffice.Util.MimeTypes.Sv4Crc
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Sv4Crc = "application/x-sv4crc"
+    return:
+      type: System.String
+    content.vb: Public Const Sv4Crc As String = "application/x-sv4crc"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Svg
+  commentId: F:SuperOffice.Util.MimeTypes.Svg
+  id: Svg
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Svg
+  nameWithType: MimeTypes.Svg
+  fullName: SuperOffice.Util.MimeTypes.Svg
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Svg = "image/svg+xml"
+    return:
+      type: System.String
+    content.vb: Public Const Svg As String = "image/svg+xml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Swf
+  commentId: F:SuperOffice.Util.MimeTypes.Swf
+  id: Swf
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Swf
+  nameWithType: MimeTypes.Swf
+  fullName: SuperOffice.Util.MimeTypes.Swf
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Swf = "application/x-shockwave-flash"
+    return:
+      type: System.String
+    content.vb: Public Const Swf As String = "application/x-shockwave-flash"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.T
+  commentId: F:SuperOffice.Util.MimeTypes.T
+  id: T
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: T
+  nameWithType: MimeTypes.T
+  fullName: SuperOffice.Util.MimeTypes.T
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string T = "application/x-troff"
+    return:
+      type: System.String
+    content.vb: Public Const T As String = "application/x-troff"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Tar
+  commentId: F:SuperOffice.Util.MimeTypes.Tar
+  id: Tar
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Tar
+  nameWithType: MimeTypes.Tar
+  fullName: SuperOffice.Util.MimeTypes.Tar
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Tar = "application/x-tar"
+    return:
+      type: System.String
+    content.vb: Public Const Tar As String = "application/x-tar"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Tcl
+  commentId: F:SuperOffice.Util.MimeTypes.Tcl
+  id: Tcl
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Tcl
+  nameWithType: MimeTypes.Tcl
+  fullName: SuperOffice.Util.MimeTypes.Tcl
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Tcl = "application/x-tcl"
+    return:
+      type: System.String
+    content.vb: Public Const Tcl As String = "application/x-tcl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Tex
+  commentId: F:SuperOffice.Util.MimeTypes.Tex
+  id: Tex
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Tex
+  nameWithType: MimeTypes.Tex
+  fullName: SuperOffice.Util.MimeTypes.Tex
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Tex = "application/x-tex"
+    return:
+      type: System.String
+    content.vb: Public Const Tex As String = "application/x-tex"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Texi
+  commentId: F:SuperOffice.Util.MimeTypes.Texi
+  id: Texi
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Texi
+  nameWithType: MimeTypes.Texi
+  fullName: SuperOffice.Util.MimeTypes.Texi
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Texi = "application/x-texinfo"
+    return:
+      type: System.String
+    content.vb: Public Const Texi As String = "application/x-texinfo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Texinfo
+  commentId: F:SuperOffice.Util.MimeTypes.Texinfo
+  id: Texinfo
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Texinfo
+  nameWithType: MimeTypes.Texinfo
+  fullName: SuperOffice.Util.MimeTypes.Texinfo
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Texinfo = "application/x-texinfo"
+    return:
+      type: System.String
+    content.vb: Public Const Texinfo As String = "application/x-texinfo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Tif
+  commentId: F:SuperOffice.Util.MimeTypes.Tif
+  id: Tif
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Tif
+  nameWithType: MimeTypes.Tif
+  fullName: SuperOffice.Util.MimeTypes.Tif
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Tif = "image/tiff"
+    return:
+      type: System.String
+    content.vb: Public Const Tif As String = "image/tiff"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Tiff
+  commentId: F:SuperOffice.Util.MimeTypes.Tiff
+  id: Tiff
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Tiff
+  nameWithType: MimeTypes.Tiff
+  fullName: SuperOffice.Util.MimeTypes.Tiff
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Tiff = "image/tiff"
+    return:
+      type: System.String
+    content.vb: Public Const Tiff As String = "image/tiff"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Tr
+  commentId: F:SuperOffice.Util.MimeTypes.Tr
+  id: Tr
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Tr
+  nameWithType: MimeTypes.Tr
+  fullName: SuperOffice.Util.MimeTypes.Tr
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Tr = "application/x-troff"
+    return:
+      type: System.String
+    content.vb: Public Const Tr As String = "application/x-troff"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Tsv
+  commentId: F:SuperOffice.Util.MimeTypes.Tsv
+  id: Tsv
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Tsv
+  nameWithType: MimeTypes.Tsv
+  fullName: SuperOffice.Util.MimeTypes.Tsv
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Tsv = "text/tab-separated-values"
+    return:
+      type: System.String
+    content.vb: Public Const Tsv As String = "text/tab-separated-values"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Txt
+  commentId: F:SuperOffice.Util.MimeTypes.Txt
+  id: Txt
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Txt
+  nameWithType: MimeTypes.Txt
+  fullName: SuperOffice.Util.MimeTypes.Txt
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Txt = "text/plain"
+    return:
+      type: System.String
+    content.vb: Public Const Txt As String = "text/plain"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Ustar
+  commentId: F:SuperOffice.Util.MimeTypes.Ustar
+  id: Ustar
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Ustar
+  nameWithType: MimeTypes.Ustar
+  fullName: SuperOffice.Util.MimeTypes.Ustar
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Ustar = "application/x-ustar"
+    return:
+      type: System.String
+    content.vb: Public Const Ustar As String = "application/x-ustar"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Vcd
+  commentId: F:SuperOffice.Util.MimeTypes.Vcd
+  id: Vcd
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Vcd
+  nameWithType: MimeTypes.Vcd
+  fullName: SuperOffice.Util.MimeTypes.Vcd
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Vcd = "application/x-cdlink"
+    return:
+      type: System.String
+    content.vb: Public Const Vcd As String = "application/x-cdlink"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Vrml
+  commentId: F:SuperOffice.Util.MimeTypes.Vrml
+  id: Vrml
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Vrml
+  nameWithType: MimeTypes.Vrml
+  fullName: SuperOffice.Util.MimeTypes.Vrml
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Vrml = "model/vrml"
+    return:
+      type: System.String
+    content.vb: Public Const Vrml As String = "model/vrml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Vxml
+  commentId: F:SuperOffice.Util.MimeTypes.Vxml
+  id: Vxml
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Vxml
+  nameWithType: MimeTypes.Vxml
+  fullName: SuperOffice.Util.MimeTypes.Vxml
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Vxml = "application/voicexml+xml"
+    return:
+      type: System.String
+    content.vb: Public Const Vxml As String = "application/voicexml+xml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Wav
+  commentId: F:SuperOffice.Util.MimeTypes.Wav
+  id: Wav
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Wav
+  nameWithType: MimeTypes.Wav
+  fullName: SuperOffice.Util.MimeTypes.Wav
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Wav = "audio/x-wav"
+    return:
+      type: System.String
+    content.vb: Public Const Wav As String = "audio/x-wav"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Wbmp
+  commentId: F:SuperOffice.Util.MimeTypes.Wbmp
+  id: Wbmp
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Wbmp
+  nameWithType: MimeTypes.Wbmp
+  fullName: SuperOffice.Util.MimeTypes.Wbmp
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Wbmp = "image/vnd.wap.wbmp"
+    return:
+      type: System.String
+    content.vb: Public Const Wbmp As String = "image/vnd.wap.wbmp"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Wbmxl
+  commentId: F:SuperOffice.Util.MimeTypes.Wbmxl
+  id: Wbmxl
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Wbmxl
+  nameWithType: MimeTypes.Wbmxl
+  fullName: SuperOffice.Util.MimeTypes.Wbmxl
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Wbmxl = "application/vnd.wap.wbxml"
+    return:
+      type: System.String
+    content.vb: Public Const Wbmxl As String = "application/vnd.wap.wbxml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Wml
+  commentId: F:SuperOffice.Util.MimeTypes.Wml
+  id: Wml
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Wml
+  nameWithType: MimeTypes.Wml
+  fullName: SuperOffice.Util.MimeTypes.Wml
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Wml = "text/vnd.wap.wml"
+    return:
+      type: System.String
+    content.vb: Public Const Wml As String = "text/vnd.wap.wml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Wmlc
+  commentId: F:SuperOffice.Util.MimeTypes.Wmlc
+  id: Wmlc
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Wmlc
+  nameWithType: MimeTypes.Wmlc
+  fullName: SuperOffice.Util.MimeTypes.Wmlc
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Wmlc = "application/vnd.wap.wmlc"
+    return:
+      type: System.String
+    content.vb: Public Const Wmlc As String = "application/vnd.wap.wmlc"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Wmls
+  commentId: F:SuperOffice.Util.MimeTypes.Wmls
+  id: Wmls
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Wmls
+  nameWithType: MimeTypes.Wmls
+  fullName: SuperOffice.Util.MimeTypes.Wmls
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Wmls = "text/vnd.wap.wmlscript"
+    return:
+      type: System.String
+    content.vb: Public Const Wmls As String = "text/vnd.wap.wmlscript"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Wmlsc
+  commentId: F:SuperOffice.Util.MimeTypes.Wmlsc
+  id: Wmlsc
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Wmlsc
+  nameWithType: MimeTypes.Wmlsc
+  fullName: SuperOffice.Util.MimeTypes.Wmlsc
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Wmlsc = "application/vnd.wap.wmlscriptc"
+    return:
+      type: System.String
+    content.vb: Public Const Wmlsc As String = "application/vnd.wap.wmlscriptc"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Wrl
+  commentId: F:SuperOffice.Util.MimeTypes.Wrl
+  id: Wrl
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Wrl
+  nameWithType: MimeTypes.Wrl
+  fullName: SuperOffice.Util.MimeTypes.Wrl
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Wrl = "model/vrml"
+    return:
+      type: System.String
+    content.vb: Public Const Wrl As String = "model/vrml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Xbm
+  commentId: F:SuperOffice.Util.MimeTypes.Xbm
+  id: Xbm
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Xbm
+  nameWithType: MimeTypes.Xbm
+  fullName: SuperOffice.Util.MimeTypes.Xbm
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Xbm = "image/x-xbitmap"
+    return:
+      type: System.String
+    content.vb: Public Const Xbm As String = "image/x-xbitmap"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Xht
+  commentId: F:SuperOffice.Util.MimeTypes.Xht
+  id: Xht
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Xht
+  nameWithType: MimeTypes.Xht
+  fullName: SuperOffice.Util.MimeTypes.Xht
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Xht = "application/xhtml+xml"
+    return:
+      type: System.String
+    content.vb: Public Const Xht As String = "application/xhtml+xml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Xhtml
+  commentId: F:SuperOffice.Util.MimeTypes.Xhtml
+  id: Xhtml
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Xhtml
+  nameWithType: MimeTypes.Xhtml
+  fullName: SuperOffice.Util.MimeTypes.Xhtml
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Xhtml = "application/xhtml+xml"
+    return:
+      type: System.String
+    content.vb: Public Const Xhtml As String = "application/xhtml+xml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Xls
+  commentId: F:SuperOffice.Util.MimeTypes.Xls
+  id: Xls
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Xls
+  nameWithType: MimeTypes.Xls
+  fullName: SuperOffice.Util.MimeTypes.Xls
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Xls = "application/vnd.ms-excel"
+    return:
+      type: System.String
+    content.vb: Public Const Xls As String = "application/vnd.ms-excel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Xml
+  commentId: F:SuperOffice.Util.MimeTypes.Xml
+  id: Xml
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Xml
+  nameWithType: MimeTypes.Xml
+  fullName: SuperOffice.Util.MimeTypes.Xml
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Xml = "application/xml"
+    return:
+      type: System.String
+    content.vb: Public Const Xml As String = "application/xml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Xpm
+  commentId: F:SuperOffice.Util.MimeTypes.Xpm
+  id: Xpm
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Xpm
+  nameWithType: MimeTypes.Xpm
+  fullName: SuperOffice.Util.MimeTypes.Xpm
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Xpm = "image/x-xpixmap"
+    return:
+      type: System.String
+    content.vb: Public Const Xpm As String = "image/x-xpixmap"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Xsl
+  commentId: F:SuperOffice.Util.MimeTypes.Xsl
+  id: Xsl
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Xsl
+  nameWithType: MimeTypes.Xsl
+  fullName: SuperOffice.Util.MimeTypes.Xsl
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Xsl = "application/xml"
+    return:
+      type: System.String
+    content.vb: Public Const Xsl As String = "application/xml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Xlsx
+  commentId: F:SuperOffice.Util.MimeTypes.Xlsx
+  id: Xlsx
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Xlsx
+  nameWithType: MimeTypes.Xlsx
+  fullName: SuperOffice.Util.MimeTypes.Xlsx
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Xlsx = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    return:
+      type: System.String
+    content.vb: Public Const Xlsx As String = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Xltx
+  commentId: F:SuperOffice.Util.MimeTypes.Xltx
+  id: Xltx
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Xltx
+  nameWithType: MimeTypes.Xltx
+  fullName: SuperOffice.Util.MimeTypes.Xltx
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Xltx = "application/vnd.openxmlformats-officedocument.spreadsheetml.template"
+    return:
+      type: System.String
+    content.vb: Public Const Xltx As String = "application/vnd.openxmlformats-officedocument.spreadsheetml.template"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Xlsm
+  commentId: F:SuperOffice.Util.MimeTypes.Xlsm
+  id: Xlsm
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Xlsm
+  nameWithType: MimeTypes.Xlsm
+  fullName: SuperOffice.Util.MimeTypes.Xlsm
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Xlsm = "application/vnd.ms-excel.sheet.macroEnabled.12"
+    return:
+      type: System.String
+    content.vb: Public Const Xlsm As String = "application/vnd.ms-excel.sheet.macroEnabled.12"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Xltm
+  commentId: F:SuperOffice.Util.MimeTypes.Xltm
+  id: Xltm
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Xltm
+  nameWithType: MimeTypes.Xltm
+  fullName: SuperOffice.Util.MimeTypes.Xltm
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Xltm = "application/vnd.ms-excel.template.macroEnabled.12"
+    return:
+      type: System.String
+    content.vb: Public Const Xltm As String = "application/vnd.ms-excel.template.macroEnabled.12"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Xlam
+  commentId: F:SuperOffice.Util.MimeTypes.Xlam
+  id: Xlam
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Xlam
+  nameWithType: MimeTypes.Xlam
+  fullName: SuperOffice.Util.MimeTypes.Xlam
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Xlam = "application/vnd.ms-excel.addin.macroEnabled.12"
+    return:
+      type: System.String
+    content.vb: Public Const Xlam As String = "application/vnd.ms-excel.addin.macroEnabled.12"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Xlsb
+  commentId: F:SuperOffice.Util.MimeTypes.Xlsb
+  id: Xlsb
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Xlsb
+  nameWithType: MimeTypes.Xlsb
+  fullName: SuperOffice.Util.MimeTypes.Xlsb
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Xlsb = "application/vnd.ms-excel.sheet.binary.macroEnabled.12"
+    return:
+      type: System.String
+    content.vb: Public Const Xlsb As String = "application/vnd.ms-excel.sheet.binary.macroEnabled.12"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Xslt
+  commentId: F:SuperOffice.Util.MimeTypes.Xslt
+  id: Xslt
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Xslt
+  nameWithType: MimeTypes.Xslt
+  fullName: SuperOffice.Util.MimeTypes.Xslt
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Xslt = "application/xslt+xml"
+    return:
+      type: System.String
+    content.vb: Public Const Xslt As String = "application/xslt+xml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Xul
+  commentId: F:SuperOffice.Util.MimeTypes.Xul
+  id: Xul
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Xul
+  nameWithType: MimeTypes.Xul
+  fullName: SuperOffice.Util.MimeTypes.Xul
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Xul = "application/vnd.mozilla.xul+xml"
+    return:
+      type: System.String
+    content.vb: Public Const Xul As String = "application/vnd.mozilla.xul+xml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Xwd
+  commentId: F:SuperOffice.Util.MimeTypes.Xwd
+  id: Xwd
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Xwd
+  nameWithType: MimeTypes.Xwd
+  fullName: SuperOffice.Util.MimeTypes.Xwd
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Xwd = "image/x-xwindowdump"
+    return:
+      type: System.String
+    content.vb: Public Const Xwd As String = "image/x-xwindowdump"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Xyz
+  commentId: F:SuperOffice.Util.MimeTypes.Xyz
+  id: Xyz
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Xyz
+  nameWithType: MimeTypes.Xyz
+  fullName: SuperOffice.Util.MimeTypes.Xyz
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Xyz = "chemical/x-xyz"
+    return:
+      type: System.String
+    content.vb: Public Const Xyz As String = "chemical/x-xyz"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Zip
+  commentId: F:SuperOffice.Util.MimeTypes.Zip
+  id: Zip
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Zip
+  nameWithType: MimeTypes.Zip
+  fullName: SuperOffice.Util.MimeTypes.Zip
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Zip = "application/zip"
+    return:
+      type: System.String
+    content.vb: Public Const Zip As String = "application/zip"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.OctetStream
+  commentId: F:SuperOffice.Util.MimeTypes.OctetStream
+  id: OctetStream
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: OctetStream
+  nameWithType: MimeTypes.OctetStream
+  fullName: SuperOffice.Util.MimeTypes.OctetStream
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string OctetStream = "application/octet-stream"
+    return:
+      type: System.String
+    content.vb: Public Const OctetStream As String = "application/octet-stream"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Unknown
+  commentId: F:SuperOffice.Util.MimeTypes.Unknown
+  id: Unknown
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: MimeTypes.Unknown
+  fullName: SuperOffice.Util.MimeTypes.Unknown
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Unknown = "unknown/unknown"
+    return:
+      type: System.String
+    content.vb: Public Const Unknown As String = "unknown/unknown"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.GoogleFolder
+  commentId: F:SuperOffice.Util.MimeTypes.GoogleFolder
+  id: GoogleFolder
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: GoogleFolder
+  nameWithType: MimeTypes.GoogleFolder
+  fullName: SuperOffice.Util.MimeTypes.GoogleFolder
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string GoogleFolder = "application/vnd.google-apps.folder"
+    return:
+      type: System.String
+    content.vb: Public Const GoogleFolder As String = "application/vnd.google-apps.folder"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Gsheet
+  commentId: F:SuperOffice.Util.MimeTypes.Gsheet
+  id: Gsheet
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Gsheet
+  nameWithType: MimeTypes.Gsheet
+  fullName: SuperOffice.Util.MimeTypes.Gsheet
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Gsheet = "application/vnd.google-apps.spreadsheet"
+    return:
+      type: System.String
+    content.vb: Public Const Gsheet As String = "application/vnd.google-apps.spreadsheet"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Gdoc
+  commentId: F:SuperOffice.Util.MimeTypes.Gdoc
+  id: Gdoc
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Gdoc
+  nameWithType: MimeTypes.Gdoc
+  fullName: SuperOffice.Util.MimeTypes.Gdoc
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Gdoc = "application/vnd.google-apps.document"
+    return:
+      type: System.String
+    content.vb: Public Const Gdoc As String = "application/vnd.google-apps.document"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Gslides
+  commentId: F:SuperOffice.Util.MimeTypes.Gslides
+  id: Gslides
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Gslides
+  nameWithType: MimeTypes.Gslides
+  fullName: SuperOffice.Util.MimeTypes.Gslides
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Gslides = "application/vnd.google-apps.presentation"
+    return:
+      type: System.String
+    content.vb: Public Const Gslides As String = "application/vnd.google-apps.presentation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.MimeTypes.Json
+  commentId: F:SuperOffice.Util.MimeTypes.Json
+  id: Json
+  parent: SuperOffice.Util.MimeTypes
+  langs:
+  - csharp
+  - vb
+  name: Json
+  nameWithType: MimeTypes.Json
+  fullName: SuperOffice.Util.MimeTypes.Json
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public const string Json = "application/json"
+    return:
+      type: System.String
+    content.vb: Public Const Json As String = "application/json"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,2292 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+  commentId: T:SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+  id: BulkUpdateResults
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults.#ctor
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colAssocId
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colAssocName
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colDate
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colDbRecordId
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colEntityType
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colResult
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colResultCount
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults.AllowOrderBy
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults.Close
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetAvailableColumns
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetAvailableEntities
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetReader(System.String)
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetResultInformation
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetRows(System.String)
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults.Invisible
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults.ProviderName
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetDesiredColumns(System.String[])
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetDesiredEntities(System.String[])
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetPagingInfo(System.Int32,System.Int32)
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults.Visible
+  langs:
+  - csharp
+  - vb
+  name: BulkUpdateResults
+  nameWithType: BulkUpdateResults
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: >-
+      [ArchiveProvider("BulkUpdateResults", 715827882)]
+
+      public class BulkUpdateResults : IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities, IPlugin
+    content.vb: >-
+      <ArchiveProvider("BulkUpdateResults", 715827882)>
+
+      Public Class BulkUpdateResults
+          Implements IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProvider
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.BulkUpdateResults)
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.CRM.ArchiveLists.ArchiveProviderAttribute
+    ctor: SuperOffice.CRM.ArchiveLists.ArchiveProviderAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: BulkUpdateResults
+    - type: System.Int32
+      value: 715827882
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.ProviderName
+  commentId: F:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.ProviderName
+  id: ProviderName
+  parent: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: BulkUpdateResults.ProviderName
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.ProviderName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ProviderName = "BulkUpdateResults"
+    return:
+      type: System.String
+    content.vb: Public Const ProviderName As String = "BulkUpdateResults"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.Visible
+  commentId: F:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.Visible
+  id: Visible
+  parent: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+  langs:
+  - csharp
+  - vb
+  name: Visible
+  nameWithType: BulkUpdateResults.Visible
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.Visible
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected const bool Visible = true
+    return:
+      type: System.Boolean
+    content.vb: Protected Const Visible As Boolean = True
+  modifiers.csharp:
+  - protected
+  - const
+  modifiers.vb:
+  - Protected
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.Invisible
+  commentId: F:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.Invisible
+  id: Invisible
+  parent: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+  langs:
+  - csharp
+  - vb
+  name: Invisible
+  nameWithType: BulkUpdateResults.Invisible
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.Invisible
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected const bool Invisible = false
+    return:
+      type: System.Boolean
+    content.vb: Protected Const Invisible As Boolean = False
+  modifiers.csharp:
+  - protected
+  - const
+  modifiers.vb:
+  - Protected
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.AllowOrderBy
+  commentId: F:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.AllowOrderBy
+  id: AllowOrderBy
+  parent: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+  langs:
+  - csharp
+  - vb
+  name: AllowOrderBy
+  nameWithType: BulkUpdateResults.AllowOrderBy
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.AllowOrderBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected const bool AllowOrderBy = true
+    return:
+      type: System.Boolean
+    content.vb: Protected Const AllowOrderBy As Boolean = True
+  modifiers.csharp:
+  - protected
+  - const
+  modifiers.vb:
+  - Protected
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colDbRecordId
+  commentId: F:SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colDbRecordId
+  id: _colDbRecordId
+  parent: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+  langs:
+  - csharp
+  - vb
+  name: _colDbRecordId
+  nameWithType: BulkUpdateResults._colDbRecordId
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colDbRecordId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colDbRecordId
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colDbRecordId As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colDate
+  commentId: F:SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colDate
+  id: _colDate
+  parent: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+  langs:
+  - csharp
+  - vb
+  name: _colDate
+  nameWithType: BulkUpdateResults._colDate
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colDate
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colDate As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colEntityType
+  commentId: F:SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colEntityType
+  id: _colEntityType
+  parent: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+  langs:
+  - csharp
+  - vb
+  name: _colEntityType
+  nameWithType: BulkUpdateResults._colEntityType
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colEntityType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colEntityType
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colEntityType As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colAssocId
+  commentId: F:SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colAssocId
+  id: _colAssocId
+  parent: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+  langs:
+  - csharp
+  - vb
+  name: _colAssocId
+  nameWithType: BulkUpdateResults._colAssocId
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colAssocId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colAssocId
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colAssocId As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colAssocName
+  commentId: F:SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colAssocName
+  id: _colAssocName
+  parent: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+  langs:
+  - csharp
+  - vb
+  name: _colAssocName
+  nameWithType: BulkUpdateResults._colAssocName
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colAssocName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colAssocName
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colAssocName As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colResult
+  commentId: F:SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colResult
+  id: _colResult
+  parent: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+  langs:
+  - csharp
+  - vb
+  name: _colResult
+  nameWithType: BulkUpdateResults._colResult
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colResult
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colResult
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colResult As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colResultCount
+  commentId: F:SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colResultCount
+  id: _colResultCount
+  parent: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+  langs:
+  - csharp
+  - vb
+  name: _colResultCount
+  nameWithType: BulkUpdateResults._colResultCount
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults._colResultCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colResultCount
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colResultCount As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.#ctor
+  commentId: M:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+  langs:
+  - csharp
+  - vb
+  name: BulkUpdateResults()
+  nameWithType: BulkUpdateResults.BulkUpdateResults()
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.BulkUpdateResults()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public BulkUpdateResults()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetReader(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetReader(System.String)
+  id: GetReader(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+  langs:
+  - csharp
+  - vb
+  name: GetReader(String)
+  nameWithType: BulkUpdateResults.GetReader(String)
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetReader(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public IDataReader GetReader(string i_Options)
+    parameters:
+    - id: i_Options
+      type: System.String
+    return:
+      type: System.Data.IDataReader
+    content.vb: Public Function GetReader(i_Options As String) As IDataReader
+  overload: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetReader*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetAvailableEntities
+  commentId: M:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetAvailableEntities
+  id: GetAvailableEntities
+  parent: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+  langs:
+  - csharp
+  - vb
+  name: GetAvailableEntities()
+  nameWithType: BulkUpdateResults.GetAvailableEntities()
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetAvailableEntities()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public List<ArchiveRowTypeInfo> GetAvailableEntities()
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
+    content.vb: Public Function GetAvailableEntities As List(Of ArchiveRowTypeInfo)
+  overload: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetAvailableEntities*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.GetAvailableEntities
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetAvailableColumns
+  commentId: M:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetAvailableColumns
+  id: GetAvailableColumns
+  parent: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+  langs:
+  - csharp
+  - vb
+  name: GetAvailableColumns()
+  nameWithType: BulkUpdateResults.GetAvailableColumns()
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetAvailableColumns()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public List<ArchiveColumnInfo> GetAvailableColumns()
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+    content.vb: Public Function GetAvailableColumns As List(Of ArchiveColumnInfo)
+  overload: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetAvailableColumns*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetDesiredColumns(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetDesiredColumns(System.String[])
+  id: SetDesiredColumns(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+  langs:
+  - csharp
+  - vb
+  name: SetDesiredColumns(String[])
+  nameWithType: BulkUpdateResults.SetDesiredColumns(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetDesiredColumns(System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public void SetDesiredColumns(params string[] i_Columns)
+    parameters:
+    - id: i_Columns
+      type: System.String[]
+    content.vb: Public Sub SetDesiredColumns(ParamArray i_Columns As String())
+  overload: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetDesiredColumns*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String[])
+  nameWithType.vb: BulkUpdateResults.SetDesiredColumns(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetDesiredColumns(System.String())
+  name.vb: SetDesiredColumns(String())
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetDesiredEntities(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetDesiredEntities(System.String[])
+  id: SetDesiredEntities(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+  langs:
+  - csharp
+  - vb
+  name: SetDesiredEntities(String[])
+  nameWithType: BulkUpdateResults.SetDesiredEntities(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetDesiredEntities(System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public void SetDesiredEntities(params string[] i_Entities)
+    parameters:
+    - id: i_Entities
+      type: System.String[]
+    content.vb: Public Sub SetDesiredEntities(ParamArray i_Entities As String())
+  overload: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetDesiredEntities*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities(System.String[])
+  nameWithType.vb: BulkUpdateResults.SetDesiredEntities(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetDesiredEntities(System.String())
+  name.vb: SetDesiredEntities(String())
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  id: SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+  langs:
+  - csharp
+  - vb
+  name: SetOrderBy(ArchiveOrderByInfo[])
+  nameWithType: BulkUpdateResults.SetOrderBy(ArchiveOrderByInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public void SetOrderBy(params ArchiveOrderByInfo[] i_OrderBys)
+    parameters:
+    - id: i_OrderBys
+      type: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+    content.vb: Public Sub SetOrderBy(ParamArray i_OrderBys As ArchiveOrderByInfo())
+  overload: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetOrderBy*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  nameWithType.vb: BulkUpdateResults.SetOrderBy(ArchiveOrderByInfo())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo())
+  name.vb: SetOrderBy(ArchiveOrderByInfo())
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  id: SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+  langs:
+  - csharp
+  - vb
+  name: SetRestriction(ArchiveRestrictionInfo[])
+  nameWithType: BulkUpdateResults.SetRestriction(ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public bool SetRestriction(params ArchiveRestrictionInfo[] i_Restrictions)
+    parameters:
+    - id: i_Restrictions
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+    return:
+      type: System.Boolean
+    content.vb: Public Function SetRestriction(ParamArray i_Restrictions As ArchiveRestrictionInfo()) As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetRestriction*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  nameWithType.vb: BulkUpdateResults.SetRestriction(ArchiveRestrictionInfo())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: SetRestriction(ArchiveRestrictionInfo())
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetPagingInfo(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetPagingInfo(System.Int32,System.Int32)
+  id: SetPagingInfo(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+  langs:
+  - csharp
+  - vb
+  name: SetPagingInfo(Int32, Int32)
+  nameWithType: BulkUpdateResults.SetPagingInfo(Int32, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetPagingInfo(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public void SetPagingInfo(int i_PageSize, int i_PageNumber)
+    parameters:
+    - id: i_PageSize
+      type: System.Int32
+    - id: i_PageNumber
+      type: System.Int32
+    content.vb: Public Sub SetPagingInfo(i_PageSize As Integer, i_PageNumber As Integer)
+  overload: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetPagingInfo*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo(System.Int32,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.Close
+  commentId: M:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.Close
+  id: Close
+  parent: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+  langs:
+  - csharp
+  - vb
+  name: Close()
+  nameWithType: BulkUpdateResults.Close()
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.Close()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public void Close()
+    content.vb: Public Sub Close
+  overload: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.Close*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetResultInformation
+  commentId: M:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetResultInformation
+  id: GetResultInformation
+  parent: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+  langs:
+  - csharp
+  - vb
+  name: GetResultInformation()
+  nameWithType: BulkUpdateResults.GetResultInformation()
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetResultInformation()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public ArchiveResultInformation GetResultInformation()
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveResultInformation
+    content.vb: Public Function GetResultInformation As ArchiveResultInformation
+  overload: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetResultInformation*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetRows(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetRows(System.String)
+  id: GetRows(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+  langs:
+  - csharp
+  - vb
+  name: GetRows(String)
+  nameWithType: BulkUpdateResults.GetRows(String)
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetRows(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public IEnumerable<ArchiveRow> GetRows(string i_Options)
+    parameters:
+    - id: i_Options
+      type: System.String
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
+    content.vb: Public Function GetRows(i_Options As String) As IEnumerable(Of ArchiveRow)
+  overload: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetRows*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProvider
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProvider
+  nameWithType: IArchiveProvider
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProviderHasRows
+  nameWithType: IArchiveProviderHasRows
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProviderHasColumns
+  nameWithType: IArchiveProviderHasColumns
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProviderHasEntities
+  nameWithType: IArchiveProviderHasEntities
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<BulkUpdateResults, To>()
+  nameWithType: EnumUtil.MapEnums<BulkUpdateResults, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.BulkUpdateResults, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of BulkUpdateResults, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.BulkUpdateResults, To)()
+  name.vb: MapEnums(Of BulkUpdateResults, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<BulkUpdateResults, To>
+    nameWithType: EnumUtil.MapEnums<BulkUpdateResults, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.BulkUpdateResults, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of BulkUpdateResults, To)
+    nameWithType: EnumUtil.MapEnums(Of BulkUpdateResults, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.BulkUpdateResults, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.BulkUpdateResults)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<BulkUpdateResults>(BulkUpdateResults)
+  nameWithType: ObjectExtensions.AssignByReflection<BulkUpdateResults>(BulkUpdateResults)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.BulkUpdateResults>(SuperOffice.CRM.ArchiveLists.BulkUpdateResults)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of BulkUpdateResults)(BulkUpdateResults)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.BulkUpdateResults)(SuperOffice.CRM.ArchiveLists.BulkUpdateResults)
+  name.vb: AssignByReflection(Of BulkUpdateResults)(BulkUpdateResults)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<BulkUpdateResults>
+    nameWithType: ObjectExtensions.AssignByReflection<BulkUpdateResults>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.BulkUpdateResults>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+    name: BulkUpdateResults
+    nameWithType: BulkUpdateResults
+    fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of BulkUpdateResults)
+    nameWithType: ObjectExtensions.AssignByReflection(Of BulkUpdateResults)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.BulkUpdateResults)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+    name: BulkUpdateResults
+    nameWithType: BulkUpdateResults
+    fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<BulkUpdateResults>()
+  nameWithType: ObjectExtensions.GraphCopy<BulkUpdateResults>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.BulkUpdateResults>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of BulkUpdateResults)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.BulkUpdateResults)()
+  name.vb: GraphCopy(Of BulkUpdateResults)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<BulkUpdateResults>
+    nameWithType: ObjectExtensions.GraphCopy<BulkUpdateResults>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.BulkUpdateResults>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of BulkUpdateResults)
+    nameWithType: ObjectExtensions.GraphCopy(Of BulkUpdateResults)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.BulkUpdateResults)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<BulkUpdateResults, To>()
+  nameWithType: Converters.MapEnums<BulkUpdateResults, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.BulkUpdateResults, To>()
+  nameWithType.vb: Converters.MapEnums(Of BulkUpdateResults, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.BulkUpdateResults, To)()
+  name.vb: MapEnums(Of BulkUpdateResults, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<BulkUpdateResults, To>
+    nameWithType: Converters.MapEnums<BulkUpdateResults, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.BulkUpdateResults, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of BulkUpdateResults, To)
+    nameWithType: Converters.MapEnums(Of BulkUpdateResults, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.BulkUpdateResults, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveColumnInfo
+  nameWithType: ArchiveColumnInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.#ctor
+  isExternal: true
+  name: BulkUpdateResults
+  nameWithType: BulkUpdateResults.BulkUpdateResults
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.BulkUpdateResults
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetReader*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetReader
+  isExternal: true
+  name: GetReader
+  nameWithType: BulkUpdateResults.GetReader
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetReader
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  isExternal: true
+  name: GetReader(String)
+  nameWithType: IArchiveProviderHasRows.GetReader(String)
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader(System.String)
+    name: GetReader
+    nameWithType: IArchiveProviderHasRows.GetReader
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader(System.String)
+    name: GetReader
+    nameWithType: IArchiveProviderHasRows.GetReader
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.IDataReader
+  isExternal: true
+  name: IDataReader
+  nameWithType: IDataReader
+  fullName: System.Data.IDataReader
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetAvailableEntities*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetAvailableEntities
+  isExternal: true
+  name: GetAvailableEntities
+  nameWithType: BulkUpdateResults.GetAvailableEntities
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetAvailableEntities
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.GetAvailableEntities
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.GetAvailableEntities
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+  isExternal: true
+  name: GetAvailableEntities()
+  nameWithType: IArchiveProviderHasEntities.GetAvailableEntities()
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.GetAvailableEntities()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.GetAvailableEntities
+    name: GetAvailableEntities
+    nameWithType: IArchiveProviderHasEntities.GetAvailableEntities
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.GetAvailableEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.GetAvailableEntities
+    name: GetAvailableEntities
+    nameWithType: IArchiveProviderHasEntities.GetAvailableEntities
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.GetAvailableEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ArchiveRowTypeInfo>
+  nameWithType: List<ArchiveRowTypeInfo>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>
+  nameWithType.vb: List(Of ArchiveRowTypeInfo)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
+  name.vb: List(Of ArchiveRowTypeInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetAvailableColumns*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetAvailableColumns
+  isExternal: true
+  name: GetAvailableColumns
+  nameWithType: BulkUpdateResults.GetAvailableColumns
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetAvailableColumns
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  isExternal: true
+  name: GetAvailableColumns()
+  nameWithType: IArchiveProviderHasColumns.GetAvailableColumns()
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
+    name: GetAvailableColumns
+    nameWithType: IArchiveProviderHasColumns.GetAvailableColumns
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
+    name: GetAvailableColumns
+    nameWithType: IArchiveProviderHasColumns.GetAvailableColumns
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ArchiveColumnInfo>
+  nameWithType: List<ArchiveColumnInfo>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>
+  nameWithType.vb: List(Of ArchiveColumnInfo)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  name.vb: List(Of ArchiveColumnInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetDesiredColumns*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetDesiredColumns
+  isExternal: true
+  name: SetDesiredColumns
+  nameWithType: BulkUpdateResults.SetDesiredColumns
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetDesiredColumns
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  isExternal: true
+  name: SetDesiredColumns(String[])
+  nameWithType: IArchiveProviderHasColumns.SetDesiredColumns(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String[])
+  nameWithType.vb: IArchiveProviderHasColumns.SetDesiredColumns(String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String())
+  name.vb: SetDesiredColumns(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String[])
+    name: SetDesiredColumns
+    nameWithType: IArchiveProviderHasColumns.SetDesiredColumns
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String[])
+    name: SetDesiredColumns
+    nameWithType: IArchiveProviderHasColumns.SetDesiredColumns
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetDesiredEntities*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetDesiredEntities
+  isExternal: true
+  name: SetDesiredEntities
+  nameWithType: BulkUpdateResults.SetDesiredEntities
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetDesiredEntities
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+  isExternal: true
+  name: SetDesiredEntities(String[])
+  nameWithType: IArchiveProviderHasEntities.SetDesiredEntities(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities(System.String[])
+  nameWithType.vb: IArchiveProviderHasEntities.SetDesiredEntities(String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities(System.String())
+  name.vb: SetDesiredEntities(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities(System.String[])
+    name: SetDesiredEntities
+    nameWithType: IArchiveProviderHasEntities.SetDesiredEntities
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities(System.String[])
+    name: SetDesiredEntities
+    nameWithType: IArchiveProviderHasEntities.SetDesiredEntities
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetOrderBy*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetOrderBy
+  isExternal: true
+  name: SetOrderBy
+  nameWithType: BulkUpdateResults.SetOrderBy
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetOrderBy
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  isExternal: true
+  name: SetOrderBy(ArchiveOrderByInfo[])
+  nameWithType: IArchiveProviderHasColumns.SetOrderBy(ArchiveOrderByInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  nameWithType.vb: IArchiveProviderHasColumns.SetOrderBy(ArchiveOrderByInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo())
+  name.vb: SetOrderBy(ArchiveOrderByInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+    name: SetOrderBy
+    nameWithType: IArchiveProviderHasColumns.SetOrderBy
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+    name: SetOrderBy
+    nameWithType: IArchiveProviderHasColumns.SetOrderBy
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+  isExternal: true
+  name: ArchiveOrderByInfo[]
+  nameWithType: ArchiveOrderByInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+  nameWithType.vb: ArchiveOrderByInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo()
+  name.vb: ArchiveOrderByInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetRestriction*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetRestriction
+  isExternal: true
+  name: SetRestriction
+  nameWithType: BulkUpdateResults.SetRestriction
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetRestriction
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  isExternal: true
+  name: SetRestriction(ArchiveRestrictionInfo[])
+  nameWithType: IArchiveProviderHasColumns.SetRestriction(ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  nameWithType.vb: IArchiveProviderHasColumns.SetRestriction(ArchiveRestrictionInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: SetRestriction(ArchiveRestrictionInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+    name: SetRestriction
+    nameWithType: IArchiveProviderHasColumns.SetRestriction
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+    name: SetRestriction
+    nameWithType: IArchiveProviderHasColumns.SetRestriction
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetPagingInfo*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetPagingInfo
+  isExternal: true
+  name: SetPagingInfo
+  nameWithType: BulkUpdateResults.SetPagingInfo
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.SetPagingInfo
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  isExternal: true
+  name: SetPagingInfo(Int32, Int32)
+  nameWithType: IArchiveProviderHasRows.SetPagingInfo(Int32, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo(System.Int32,System.Int32)
+    name: SetPagingInfo
+    nameWithType: IArchiveProviderHasRows.SetPagingInfo
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo(System.Int32,System.Int32)
+    name: SetPagingInfo
+    nameWithType: IArchiveProviderHasRows.SetPagingInfo
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.Close*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.Close
+  isExternal: true
+  name: Close
+  nameWithType: BulkUpdateResults.Close
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.Close
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  isExternal: true
+  name: Close()
+  nameWithType: IArchiveProviderHasRows.Close()
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close
+    name: Close
+    nameWithType: IArchiveProviderHasRows.Close
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close
+    name: Close
+    nameWithType: IArchiveProviderHasRows.Close
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetResultInformation*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetResultInformation
+  isExternal: true
+  name: GetResultInformation
+  nameWithType: BulkUpdateResults.GetResultInformation
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetResultInformation
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  isExternal: true
+  name: GetResultInformation()
+  nameWithType: IArchiveProviderHasRows.GetResultInformation()
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation
+    name: GetResultInformation
+    nameWithType: IArchiveProviderHasRows.GetResultInformation
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation
+    name: GetResultInformation
+    nameWithType: IArchiveProviderHasRows.GetResultInformation
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveResultInformation
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveResultInformation
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveResultInformation
+  nameWithType: ArchiveResultInformation
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveResultInformation
+- uid: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetRows*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetRows
+  isExternal: true
+  name: GetRows
+  nameWithType: BulkUpdateResults.GetRows
+  fullName: SuperOffice.CRM.ArchiveLists.BulkUpdateResults.GetRows
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  isExternal: true
+  name: GetRows(String)
+  nameWithType: IArchiveProviderHasRows.GetRows(String)
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows(System.String)
+    name: GetRows
+    nameWithType: IArchiveProviderHasRows.GetRows
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows(System.String)
+    name: GetRows
+    nameWithType: IArchiveProviderHasRows.GetRows
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ArchiveRow>
+  nameWithType: IEnumerable<ArchiveRow>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.ArchiveLists.ArchiveRow>
+  nameWithType.vb: IEnumerable(Of ArchiveRow)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  name.vb: IEnumerable(Of ArchiveRow)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

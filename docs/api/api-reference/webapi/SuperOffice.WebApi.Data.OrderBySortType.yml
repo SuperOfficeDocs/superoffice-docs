@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.OrderBySortType
+  commentId: T:SuperOffice.WebApi.Data.OrderBySortType
+  id: OrderBySortType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.OrderBySortType.ASC
+  - SuperOffice.WebApi.Data.OrderBySortType.DESC
+  - SuperOffice.WebApi.Data.OrderBySortType.value__
+  langs:
+  - csharp
+  - vb
+  name: OrderBySortType
+  nameWithType: OrderBySortType
+  fullName: SuperOffice.WebApi.Data.OrderBySortType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHow to sort the Order by statement.\n"
+  syntax:
+    content: 'public sealed class OrderBySortType : Enum'
+    content.vb: >-
+      Public NotInheritable Class OrderBySortType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.OrderBySortType.value__
+  commentId: F:SuperOffice.WebApi.Data.OrderBySortType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.OrderBySortType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: OrderBySortType.value__
+  fullName: SuperOffice.WebApi.Data.OrderBySortType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.OrderBySortType.ASC
+  commentId: F:SuperOffice.WebApi.Data.OrderBySortType.ASC
+  id: ASC
+  parent: SuperOffice.WebApi.Data.OrderBySortType
+  langs:
+  - csharp
+  - vb
+  name: ASC
+  nameWithType: OrderBySortType.ASC
+  fullName: SuperOffice.WebApi.Data.OrderBySortType.ASC
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Sort the Order by Ascending\n"
+  syntax:
+    content: public const OrderBySortType ASC
+    return:
+      type: SuperOffice.WebApi.Data.OrderBySortType
+    content.vb: Public Const ASC As OrderBySortType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.OrderBySortType.DESC
+  commentId: F:SuperOffice.WebApi.Data.OrderBySortType.DESC
+  id: DESC
+  parent: SuperOffice.WebApi.Data.OrderBySortType
+  langs:
+  - csharp
+  - vb
+  name: DESC
+  nameWithType: OrderBySortType.DESC
+  fullName: SuperOffice.WebApi.Data.OrderBySortType.DESC
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Sort the Order by Descending\n"
+  syntax:
+    content: public const OrderBySortType DESC
+    return:
+      type: SuperOffice.WebApi.Data.OrderBySortType
+    content.vb: Public Const DESC As OrderBySortType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.OrderBySortType
+  commentId: T:SuperOffice.WebApi.Data.OrderBySortType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: OrderBySortType
+  nameWithType: OrderBySortType
+  fullName: SuperOffice.WebApi.Data.OrderBySortType

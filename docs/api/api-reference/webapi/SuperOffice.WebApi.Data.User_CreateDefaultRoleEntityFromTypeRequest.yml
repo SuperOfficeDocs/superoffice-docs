@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.User_CreateDefaultRoleEntityFromTypeRequest
+  commentId: T:SuperOffice.WebApi.Data.User_CreateDefaultRoleEntityFromTypeRequest
+  id: User_CreateDefaultRoleEntityFromTypeRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.User_CreateDefaultRoleEntityFromTypeRequest.#ctor
+  - SuperOffice.WebApi.Data.User_CreateDefaultRoleEntityFromTypeRequest.Type
+  langs:
+  - csharp
+  - vb
+  name: User_CreateDefaultRoleEntityFromTypeRequest
+  nameWithType: User_CreateDefaultRoleEntityFromTypeRequest
+  fullName: SuperOffice.WebApi.Data.User_CreateDefaultRoleEntityFromTypeRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class User_CreateDefaultRoleEntityFromTypeRequest : Object'
+    content.vb: >-
+      Public Class User_CreateDefaultRoleEntityFromTypeRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.User_CreateDefaultRoleEntityFromTypeRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.User_CreateDefaultRoleEntityFromTypeRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.User_CreateDefaultRoleEntityFromTypeRequest
+  langs:
+  - csharp
+  - vb
+  name: User_CreateDefaultRoleEntityFromTypeRequest()
+  nameWithType: User_CreateDefaultRoleEntityFromTypeRequest.User_CreateDefaultRoleEntityFromTypeRequest()
+  fullName: SuperOffice.WebApi.Data.User_CreateDefaultRoleEntityFromTypeRequest.User_CreateDefaultRoleEntityFromTypeRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User_CreateDefaultRoleEntityFromTypeRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.User_CreateDefaultRoleEntityFromTypeRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_CreateDefaultRoleEntityFromTypeRequest.Type
+  commentId: P:SuperOffice.WebApi.Data.User_CreateDefaultRoleEntityFromTypeRequest.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.User_CreateDefaultRoleEntityFromTypeRequest
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: User_CreateDefaultRoleEntityFromTypeRequest.Type
+  fullName: SuperOffice.WebApi.Data.User_CreateDefaultRoleEntityFromTypeRequest.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public RoleType Type { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.RoleType
+    content.vb: Public Property Type As RoleType
+  overload: SuperOffice.WebApi.Data.User_CreateDefaultRoleEntityFromTypeRequest.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.User_CreateDefaultRoleEntityFromTypeRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.User_CreateDefaultRoleEntityFromTypeRequest.#ctor
+  isExternal: true
+  name: User_CreateDefaultRoleEntityFromTypeRequest
+  nameWithType: User_CreateDefaultRoleEntityFromTypeRequest.User_CreateDefaultRoleEntityFromTypeRequest
+  fullName: SuperOffice.WebApi.Data.User_CreateDefaultRoleEntityFromTypeRequest.User_CreateDefaultRoleEntityFromTypeRequest
+- uid: SuperOffice.WebApi.Data.User_CreateDefaultRoleEntityFromTypeRequest.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.User_CreateDefaultRoleEntityFromTypeRequest.Type
+  isExternal: true
+  name: Type
+  nameWithType: User_CreateDefaultRoleEntityFromTypeRequest.Type
+  fullName: SuperOffice.WebApi.Data.User_CreateDefaultRoleEntityFromTypeRequest.Type
+- uid: SuperOffice.WebApi.Data.RoleType
+  commentId: T:SuperOffice.WebApi.Data.RoleType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: RoleType
+  nameWithType: RoleType
+  fullName: SuperOffice.WebApi.Data.RoleType

@@ -1,0 +1,940 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Exceptions.ExceptionHelper
+  commentId: T:SuperOffice.Exceptions.ExceptionHelper
+  id: ExceptionHelper
+  parent: SuperOffice.Exceptions
+  children:
+  - SuperOffice.Exceptions.ExceptionHelper.Enumerate(SuperOffice.Exceptions.SoExceptionInfo)
+  - SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
+  - SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1(System.Exception)
+  - SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo(System.Exception)
+  - SuperOffice.Exceptions.ExceptionHelper.GetFriendlyText(SuperOffice.Exceptions.SoExceptionInfo)
+  - SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(SuperOffice.Exceptions.SoExceptionInfo)
+  - SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(System.Exception)
+  - SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.Exception,System.String)
+  - SuperOffice.Exceptions.ExceptionHelper.ToString(SuperOffice.Exceptions.SoExceptionInfo,System.String,System.Boolean)
+  - SuperOffice.Exceptions.ExceptionHelper.TryGetRealType(SuperOffice.Exceptions.SoExceptionInfo,System.Type@)
+  langs:
+  - csharp
+  - vb
+  name: ExceptionHelper
+  nameWithType: ExceptionHelper
+  fullName: SuperOffice.Exceptions.ExceptionHelper
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Exceptions
+  summary: "\nHelper class to work with exceptions\n"
+  syntax:
+    content: public static class ExceptionHelper
+    content.vb: Public Module ExceptionHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo(System.Exception)
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo(System.Exception)
+  id: GetExceptionInfo(System.Exception)
+  isExtensionMethod: true
+  parent: SuperOffice.Exceptions.ExceptionHelper
+  langs:
+  - csharp
+  - vb
+  name: GetExceptionInfo(Exception)
+  nameWithType: ExceptionHelper.GetExceptionInfo(Exception)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo(System.Exception)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Exceptions
+  summary: "\nExtension method retrieving a SoExceptionInfo from Exception\n"
+  syntax:
+    content: public static SoExceptionInfo GetExceptionInfo(this Exception ex)
+    parameters:
+    - id: ex
+      type: System.Exception
+    return:
+      type: SuperOffice.Exceptions.SoExceptionInfo
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetExceptionInfo(ex As Exception) As SoExceptionInfo
+  overload: SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(System.Exception)
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(System.Exception)
+  id: GetInnermostException(System.Exception)
+  isExtensionMethod: true
+  parent: SuperOffice.Exceptions.ExceptionHelper
+  langs:
+  - csharp
+  - vb
+  name: GetInnermostException(Exception)
+  nameWithType: ExceptionHelper.GetInnermostException(Exception)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(System.Exception)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Exceptions
+  summary: "\nGet the innermost exception from an exception - keeping whatever serialized exception required.\n"
+  syntax:
+    content: public static SoExceptionInfo GetInnermostException(this Exception ex)
+    parameters:
+    - id: ex
+      type: System.Exception
+      description: Exception to get the innermost exception from.
+    return:
+      type: SuperOffice.Exceptions.SoExceptionInfo
+      description: Innerm ost exception.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetInnermostException(ex As Exception) As SoExceptionInfo
+  overload: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(SuperOffice.Exceptions.SoExceptionInfo)
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(SuperOffice.Exceptions.SoExceptionInfo)
+  id: GetInnermostException(SuperOffice.Exceptions.SoExceptionInfo)
+  isExtensionMethod: true
+  parent: SuperOffice.Exceptions.ExceptionHelper
+  langs:
+  - csharp
+  - vb
+  name: GetInnermostException(SoExceptionInfo)
+  nameWithType: ExceptionHelper.GetInnermostException(SoExceptionInfo)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(SuperOffice.Exceptions.SoExceptionInfo)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Exceptions
+  summary: "\nGet the innermost exception from an exception - keeping whatever serialized exception required.\n"
+  syntax:
+    content: public static SoExceptionInfo GetInnermostException(this SoExceptionInfo ex)
+    parameters:
+    - id: ex
+      type: SuperOffice.Exceptions.SoExceptionInfo
+      description: Exception to get the innermost exception from.
+    return:
+      type: SuperOffice.Exceptions.SoExceptionInfo
+      description: Innerm ost exception.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetInnermostException(ex As SoExceptionInfo) As SoExceptionInfo
+  overload: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Exceptions.ExceptionHelper.TryGetRealType(SuperOffice.Exceptions.SoExceptionInfo,System.Type@)
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.TryGetRealType(SuperOffice.Exceptions.SoExceptionInfo,System.Type@)
+  id: TryGetRealType(SuperOffice.Exceptions.SoExceptionInfo,System.Type@)
+  isExtensionMethod: true
+  parent: SuperOffice.Exceptions.ExceptionHelper
+  langs:
+  - csharp
+  - vb
+  name: TryGetRealType(SoExceptionInfo, out Type)
+  nameWithType: ExceptionHelper.TryGetRealType(SoExceptionInfo, out Type)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.TryGetRealType(SuperOffice.Exceptions.SoExceptionInfo, out System.Type)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Exceptions
+  summary: "\nTry to get the real type encapsulated in <xref href=\"SuperOffice.Exceptions.SoExceptionInfo.ExceptionType\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public static bool TryGetRealType(this SoExceptionInfo ex, out Type type)
+    parameters:
+    - id: ex
+      type: SuperOffice.Exceptions.SoExceptionInfo
+    - id: type
+      type: System.Type
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TryGetRealType(ex As SoExceptionInfo, ByRef type As Type) As Boolean
+  overload: SuperOffice.Exceptions.ExceptionHelper.TryGetRealType*
+  nameWithType.vb: ExceptionHelper.TryGetRealType(SoExceptionInfo, ByRef Type)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Exceptions.ExceptionHelper.TryGetRealType(SuperOffice.Exceptions.SoExceptionInfo, ByRef System.Type)
+  name.vb: TryGetRealType(SoExceptionInfo, ByRef Type)
+- uid: SuperOffice.Exceptions.ExceptionHelper.ToString(SuperOffice.Exceptions.SoExceptionInfo,System.String,System.Boolean)
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.ToString(SuperOffice.Exceptions.SoExceptionInfo,System.String,System.Boolean)
+  id: ToString(SuperOffice.Exceptions.SoExceptionInfo,System.String,System.Boolean)
+  isExtensionMethod: true
+  parent: SuperOffice.Exceptions.ExceptionHelper
+  langs:
+  - csharp
+  - vb
+  name: ToString(SoExceptionInfo, String, Boolean)
+  nameWithType: ExceptionHelper.ToString(SoExceptionInfo, String, Boolean)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.ToString(SuperOffice.Exceptions.SoExceptionInfo, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Exceptions
+  summary: "\nReturn a compilation of all exception messages, separated by the provided seperator.\n"
+  syntax:
+    content: public static string ToString(this SoExceptionInfo exception, string seperator, bool includeType)
+    parameters:
+    - id: exception
+      type: SuperOffice.Exceptions.SoExceptionInfo
+      description: Exeption to get details for.
+    - id: seperator
+      type: System.String
+      description: Seperator to seperate the exception.
+    - id: includeType
+      type: System.Boolean
+      description: Include the type of exceptions as part of the message.
+    return:
+      type: System.String
+      description: A compilation of all exception messages, seperated by the provided seperator.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToString(exception As SoExceptionInfo, seperator As String, includeType As Boolean) As String
+  overload: SuperOffice.Exceptions.ExceptionHelper.ToString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.Exception,System.String)
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.Exception,System.String)
+  id: SimpleMessageStack(System.Exception,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.Exceptions.ExceptionHelper
+  langs:
+  - csharp
+  - vb
+  name: SimpleMessageStack(Exception, String)
+  nameWithType: ExceptionHelper.SimpleMessageStack(Exception, String)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.Exception, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Exceptions
+  summary: "\nRecurse an exception and return a simple string, starting with the outermost, with one element per exception message\n"
+  syntax:
+    content: public static string SimpleMessageStack(this Exception ex, string separator = "\n")
+    parameters:
+    - id: ex
+      type: System.Exception
+      description: Exception to recurse
+    - id: separator
+      type: System.String
+      description: Optional separator
+    return:
+      type: System.String
+      description: Message from each exception, outermost first
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SimpleMessageStack(ex As Exception, separator As String = vbLf) As String
+  overload: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
+  id: Enumerate(System.Exception)
+  isExtensionMethod: true
+  parent: SuperOffice.Exceptions.ExceptionHelper
+  langs:
+  - csharp
+  - vb
+  name: Enumerate(Exception)
+  nameWithType: ExceptionHelper.Enumerate(Exception)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Exceptions
+  summary: "\nEnumerate over all exceptions in the tree.\n"
+  syntax:
+    content: public static IEnumerable<SoExceptionInfo> Enumerate(this Exception exception)
+    parameters:
+    - id: exception
+      type: System.Exception
+      description: Exception to loop over
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Exceptions.SoExceptionInfo}
+      description: All nested exceptions in the tree/loop
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Enumerate(exception As Exception) As IEnumerable(Of SoExceptionInfo)
+  overload: SuperOffice.Exceptions.ExceptionHelper.Enumerate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Exceptions.ExceptionHelper.Enumerate(SuperOffice.Exceptions.SoExceptionInfo)
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.Enumerate(SuperOffice.Exceptions.SoExceptionInfo)
+  id: Enumerate(SuperOffice.Exceptions.SoExceptionInfo)
+  isExtensionMethod: true
+  parent: SuperOffice.Exceptions.ExceptionHelper
+  langs:
+  - csharp
+  - vb
+  name: Enumerate(SoExceptionInfo)
+  nameWithType: ExceptionHelper.Enumerate(SoExceptionInfo)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.Enumerate(SuperOffice.Exceptions.SoExceptionInfo)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Exceptions
+  summary: "\nEnumerate over all exceptions in the tree.\n"
+  syntax:
+    content: public static IEnumerable<SoExceptionInfo> Enumerate(this SoExceptionInfo exception)
+    parameters:
+    - id: exception
+      type: SuperOffice.Exceptions.SoExceptionInfo
+      description: Exception to loop over
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Exceptions.SoExceptionInfo}
+      description: All nested exceptions in the tree/loop
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Enumerate(exception As SoExceptionInfo) As IEnumerable(Of SoExceptionInfo)
+  overload: SuperOffice.Exceptions.ExceptionHelper.Enumerate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1(System.Exception)
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1(System.Exception)
+  id: FindExceptionOfType``1(System.Exception)
+  isExtensionMethod: true
+  parent: SuperOffice.Exceptions.ExceptionHelper
+  langs:
+  - csharp
+  - vb
+  name: FindExceptionOfType<T>(Exception)
+  nameWithType: ExceptionHelper.FindExceptionOfType<T>(Exception)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType<T>(System.Exception)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Exceptions
+  summary: "\nRecursively traverse the InnerException stack from the given starting point, and look\nfor an element of the given type. If found, return that element, otherwise null.\n"
+  syntax:
+    content: >-
+      public static T FindExceptionOfType<T>(this Exception topOfStack)
+          where T : Exception
+    parameters:
+    - id: topOfStack
+      type: System.Exception
+      description: Starting point of search
+    typeParameters:
+    - id: T
+      description: Type of exception to find, for instance typeof(SoException)
+    return:
+      type: '{T}'
+      description: Strongly typed, first-found value (nearest to top of stack); or null
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FindExceptionOfType(Of T As Exception)(topOfStack As Exception) As T
+  overload: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType*
+  nameWithType.vb: ExceptionHelper.FindExceptionOfType(Of T)(Exception)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType(Of T)(System.Exception)
+  name.vb: FindExceptionOfType(Of T)(Exception)
+- uid: SuperOffice.Exceptions.ExceptionHelper.GetFriendlyText(SuperOffice.Exceptions.SoExceptionInfo)
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.GetFriendlyText(SuperOffice.Exceptions.SoExceptionInfo)
+  id: GetFriendlyText(SuperOffice.Exceptions.SoExceptionInfo)
+  isExtensionMethod: true
+  parent: SuperOffice.Exceptions.ExceptionHelper
+  langs:
+  - csharp
+  - vb
+  name: GetFriendlyText(SoExceptionInfo)
+  nameWithType: ExceptionHelper.GetFriendlyText(SoExceptionInfo)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.GetFriendlyText(SuperOffice.Exceptions.SoExceptionInfo)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Exceptions
+  summary: "\nGet the friendly text from an exception.  If one does not exist, return the message instead.\n"
+  syntax:
+    content: public static string GetFriendlyText(this SoExceptionInfo exception)
+    parameters:
+    - id: exception
+      type: SuperOffice.Exceptions.SoExceptionInfo
+      description: The exception
+    return:
+      type: System.String
+      description: The friendly text from an exception.  If one does not exist, return the message instead.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetFriendlyText(exception As SoExceptionInfo) As String
+  overload: SuperOffice.Exceptions.ExceptionHelper.GetFriendlyText*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Exceptions
+  commentId: N:SuperOffice.Exceptions
+  isExternal: true
+  name: SuperOffice.Exceptions
+  nameWithType: SuperOffice.Exceptions
+  fullName: SuperOffice.Exceptions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo*
+  commentId: Overload:SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo
+  isExternal: true
+  name: GetExceptionInfo
+  nameWithType: ExceptionHelper.GetExceptionInfo
+  fullName: SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: SuperOffice.Exceptions.SoExceptionInfo
+  commentId: T:SuperOffice.Exceptions.SoExceptionInfo
+  parent: SuperOffice.Exceptions
+  isExternal: true
+  name: SoExceptionInfo
+  nameWithType: SoExceptionInfo
+  fullName: SuperOffice.Exceptions.SoExceptionInfo
+- uid: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException*
+  commentId: Overload:SuperOffice.Exceptions.ExceptionHelper.GetInnermostException
+  isExternal: true
+  name: GetInnermostException
+  nameWithType: ExceptionHelper.GetInnermostException
+  fullName: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException
+- uid: SuperOffice.Exceptions.ExceptionHelper.TryGetRealType*
+  commentId: Overload:SuperOffice.Exceptions.ExceptionHelper.TryGetRealType
+  isExternal: true
+  name: TryGetRealType
+  nameWithType: ExceptionHelper.TryGetRealType
+  fullName: SuperOffice.Exceptions.ExceptionHelper.TryGetRealType
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Exceptions.ExceptionHelper.ToString*
+  commentId: Overload:SuperOffice.Exceptions.ExceptionHelper.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ExceptionHelper.ToString
+  fullName: SuperOffice.Exceptions.ExceptionHelper.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack*
+  commentId: Overload:SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack
+  isExternal: true
+  name: SimpleMessageStack
+  nameWithType: ExceptionHelper.SimpleMessageStack
+  fullName: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack
+- uid: SuperOffice.Exceptions.ExceptionHelper.Enumerate*
+  commentId: Overload:SuperOffice.Exceptions.ExceptionHelper.Enumerate
+  isExternal: true
+  name: Enumerate
+  nameWithType: ExceptionHelper.Enumerate
+  fullName: SuperOffice.Exceptions.ExceptionHelper.Enumerate
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Exceptions.SoExceptionInfo}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Exceptions.SoExceptionInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<SoExceptionInfo>
+  nameWithType: IEnumerable<SoExceptionInfo>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Exceptions.SoExceptionInfo>
+  nameWithType.vb: IEnumerable(Of SoExceptionInfo)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Exceptions.SoExceptionInfo)
+  name.vb: IEnumerable(Of SoExceptionInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Exceptions.SoExceptionInfo
+    name: SoExceptionInfo
+    nameWithType: SoExceptionInfo
+    fullName: SuperOffice.Exceptions.SoExceptionInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Exceptions.SoExceptionInfo
+    name: SoExceptionInfo
+    nameWithType: SoExceptionInfo
+    fullName: SuperOffice.Exceptions.SoExceptionInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType*
+  commentId: Overload:SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType
+  isExternal: true
+  name: FindExceptionOfType
+  nameWithType: ExceptionHelper.FindExceptionOfType
+  fullName: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: SuperOffice.Exceptions.ExceptionHelper.GetFriendlyText*
+  commentId: Overload:SuperOffice.Exceptions.ExceptionHelper.GetFriendlyText
+  isExternal: true
+  name: GetFriendlyText
+  nameWithType: ExceptionHelper.GetFriendlyText
+  fullName: SuperOffice.Exceptions.ExceptionHelper.GetFriendlyText

@@ -1,0 +1,478 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Principal.SoAccessTokenHelper
+  commentId: T:SuperOffice.Security.Principal.SoAccessTokenHelper
+  id: SoAccessTokenHelper
+  parent: SuperOffice.Security.Principal
+  children:
+  - SuperOffice.Security.Principal.SoAccessTokenHelper.Decrypt(SuperOffice.Security.Principal.SoAccessTokenSecurityToken)
+  - SuperOffice.Security.Principal.SoAccessTokenHelper.Decrypt(System.String)
+  - SuperOffice.Security.Principal.SoAccessTokenHelper.Encrypt(SuperOffice.Security.Principal.SoAccessToken)
+  langs:
+  - csharp
+  - vb
+  name: SoAccessTokenHelper
+  nameWithType: SoAccessTokenHelper
+  fullName: SuperOffice.Security.Principal.SoAccessTokenHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public static class SoAccessTokenHelper
+    content.vb: Public Module SoAccessTokenHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Security.Principal.SoAccessTokenHelper.Decrypt(System.String)
+  commentId: M:SuperOffice.Security.Principal.SoAccessTokenHelper.Decrypt(System.String)
+  id: Decrypt(System.String)
+  parent: SuperOffice.Security.Principal.SoAccessTokenHelper
+  langs:
+  - csharp
+  - vb
+  name: Decrypt(String)
+  nameWithType: SoAccessTokenHelper.Decrypt(String)
+  fullName: SuperOffice.Security.Principal.SoAccessTokenHelper.Decrypt(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  summary: "\nDecrypt the encrypted base64 encoded access token into the SoAccessToken class. \n"
+  syntax:
+    content: public static SoAccessToken Decrypt(string accessTokenData)
+    parameters:
+    - id: accessTokenData
+      type: System.String
+    return:
+      type: SuperOffice.Security.Principal.SoAccessToken
+    content.vb: Public Shared Function Decrypt(accessTokenData As String) As SoAccessToken
+  overload: SuperOffice.Security.Principal.SoAccessTokenHelper.Decrypt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Security.Principal.SoAccessTokenHelper.Encrypt(SuperOffice.Security.Principal.SoAccessToken)
+  commentId: M:SuperOffice.Security.Principal.SoAccessTokenHelper.Encrypt(SuperOffice.Security.Principal.SoAccessToken)
+  id: Encrypt(SuperOffice.Security.Principal.SoAccessToken)
+  isExtensionMethod: true
+  parent: SuperOffice.Security.Principal.SoAccessTokenHelper
+  langs:
+  - csharp
+  - vb
+  name: Encrypt(SoAccessToken)
+  nameWithType: SoAccessTokenHelper.Encrypt(SoAccessToken)
+  fullName: SuperOffice.Security.Principal.SoAccessTokenHelper.Encrypt(SuperOffice.Security.Principal.SoAccessToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public static string Encrypt(this SoAccessToken token)
+    parameters:
+    - id: token
+      type: SuperOffice.Security.Principal.SoAccessToken
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Encrypt(token As SoAccessToken) As String
+  overload: SuperOffice.Security.Principal.SoAccessTokenHelper.Encrypt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Security.Principal.SoAccessTokenHelper.Decrypt(SuperOffice.Security.Principal.SoAccessTokenSecurityToken)
+  commentId: M:SuperOffice.Security.Principal.SoAccessTokenHelper.Decrypt(SuperOffice.Security.Principal.SoAccessTokenSecurityToken)
+  id: Decrypt(SuperOffice.Security.Principal.SoAccessTokenSecurityToken)
+  isExtensionMethod: true
+  parent: SuperOffice.Security.Principal.SoAccessTokenHelper
+  langs:
+  - csharp
+  - vb
+  name: Decrypt(SoAccessTokenSecurityToken)
+  nameWithType: SoAccessTokenHelper.Decrypt(SoAccessTokenSecurityToken)
+  fullName: SuperOffice.Security.Principal.SoAccessTokenHelper.Decrypt(SuperOffice.Security.Principal.SoAccessTokenSecurityToken)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public static void Decrypt(this SoAccessTokenSecurityToken token)
+    parameters:
+    - id: token
+      type: SuperOffice.Security.Principal.SoAccessTokenSecurityToken
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub Decrypt(token As SoAccessTokenSecurityToken)
+  overload: SuperOffice.Security.Principal.SoAccessTokenHelper.Decrypt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Security.Principal.SoAccessTokenHelper.Decrypt*
+  commentId: Overload:SuperOffice.Security.Principal.SoAccessTokenHelper.Decrypt
+  isExternal: true
+  name: Decrypt
+  nameWithType: SoAccessTokenHelper.Decrypt
+  fullName: SuperOffice.Security.Principal.SoAccessTokenHelper.Decrypt
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Security.Principal.SoAccessToken
+  commentId: T:SuperOffice.Security.Principal.SoAccessToken
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: SoAccessToken
+  nameWithType: SoAccessToken
+  fullName: SuperOffice.Security.Principal.SoAccessToken
+- uid: SuperOffice.Security.Principal.SoAccessTokenHelper.Encrypt*
+  commentId: Overload:SuperOffice.Security.Principal.SoAccessTokenHelper.Encrypt
+  isExternal: true
+  name: Encrypt
+  nameWithType: SoAccessTokenHelper.Encrypt
+  fullName: SuperOffice.Security.Principal.SoAccessTokenHelper.Encrypt
+- uid: SuperOffice.Security.Principal.SoAccessTokenSecurityToken
+  commentId: T:SuperOffice.Security.Principal.SoAccessTokenSecurityToken
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: SoAccessTokenSecurityToken
+  nameWithType: SoAccessTokenSecurityToken
+  fullName: SuperOffice.Security.Principal.SoAccessTokenSecurityToken

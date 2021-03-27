@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.MenuObjectPosition
+  commentId: T:SuperOffice.DCF.Web.UI.MenuObjectPosition
+  id: MenuObjectPosition
+  parent: SuperOffice.DCF.Web.UI
+  children:
+  - SuperOffice.DCF.Web.UI.MenuObjectPosition.Above
+  - SuperOffice.DCF.Web.UI.MenuObjectPosition.AboveCursor
+  - SuperOffice.DCF.Web.UI.MenuObjectPosition.Below
+  - SuperOffice.DCF.Web.UI.MenuObjectPosition.BelowCursor
+  langs:
+  - csharp
+  - vb
+  name: MenuObjectPosition
+  nameWithType: MenuObjectPosition
+  fullName: SuperOffice.DCF.Web.UI.MenuObjectPosition
+  type: Enum
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public enum MenuObjectPosition
+    content.vb: Public Enum MenuObjectPosition
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.DCF.Web.UI.MenuObjectPosition.Below
+  commentId: F:SuperOffice.DCF.Web.UI.MenuObjectPosition.Below
+  id: Below
+  parent: SuperOffice.DCF.Web.UI.MenuObjectPosition
+  langs:
+  - csharp
+  - vb
+  name: Below
+  nameWithType: MenuObjectPosition.Below
+  fullName: SuperOffice.DCF.Web.UI.MenuObjectPosition.Below
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Below = 0
+    return:
+      type: SuperOffice.DCF.Web.UI.MenuObjectPosition
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.MenuObjectPosition.Above
+  commentId: F:SuperOffice.DCF.Web.UI.MenuObjectPosition.Above
+  id: Above
+  parent: SuperOffice.DCF.Web.UI.MenuObjectPosition
+  langs:
+  - csharp
+  - vb
+  name: Above
+  nameWithType: MenuObjectPosition.Above
+  fullName: SuperOffice.DCF.Web.UI.MenuObjectPosition.Above
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Above = 1
+    return:
+      type: SuperOffice.DCF.Web.UI.MenuObjectPosition
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.MenuObjectPosition.AboveCursor
+  commentId: F:SuperOffice.DCF.Web.UI.MenuObjectPosition.AboveCursor
+  id: AboveCursor
+  parent: SuperOffice.DCF.Web.UI.MenuObjectPosition
+  langs:
+  - csharp
+  - vb
+  name: AboveCursor
+  nameWithType: MenuObjectPosition.AboveCursor
+  fullName: SuperOffice.DCF.Web.UI.MenuObjectPosition.AboveCursor
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: AboveCursor = 2
+    return:
+      type: SuperOffice.DCF.Web.UI.MenuObjectPosition
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.MenuObjectPosition.BelowCursor
+  commentId: F:SuperOffice.DCF.Web.UI.MenuObjectPosition.BelowCursor
+  id: BelowCursor
+  parent: SuperOffice.DCF.Web.UI.MenuObjectPosition
+  langs:
+  - csharp
+  - vb
+  name: BelowCursor
+  nameWithType: MenuObjectPosition.BelowCursor
+  fullName: SuperOffice.DCF.Web.UI.MenuObjectPosition.BelowCursor
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: BelowCursor = 3
+    return:
+      type: SuperOffice.DCF.Web.UI.MenuObjectPosition
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: SuperOffice.DCF.Web.UI.MenuObjectPosition
+  commentId: T:SuperOffice.DCF.Web.UI.MenuObjectPosition
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: MenuObjectPosition
+  nameWithType: MenuObjectPosition
+  fullName: SuperOffice.DCF.Web.UI.MenuObjectPosition

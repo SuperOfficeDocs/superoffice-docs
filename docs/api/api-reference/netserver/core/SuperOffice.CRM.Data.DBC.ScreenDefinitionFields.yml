@@ -1,0 +1,737 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields
+  commentId: T:SuperOffice.CRM.Data.DBC.ScreenDefinitionFields
+  id: DBC.ScreenDefinitionFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.Autosave
+  - SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.CreationScript
+  - SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.Description
+  - SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.HierarchyId
+  - SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.IdString
+  - SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.LayoutModel
+  - SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.LoadFinalScriptBody
+  - SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.LoadPostCgiScriptBody
+  - SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.LoadScriptBody
+  - SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.Name
+  - SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.ScreenDefinitionId
+  - SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.ScreenKey
+  - SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.WarnOnNavigate
+  langs:
+  - csharp
+  - vb
+  name: DBC.ScreenDefinitionFields
+  nameWithType: DBC.ScreenDefinitionFields
+  fullName: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for ScreenDefinition, A configurable screen\n"
+  syntax:
+    content: public static class ScreenDefinitionFields
+    content.vb: Public Module ScreenDefinitionFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.ScreenDefinitionId
+  commentId: F:SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.ScreenDefinitionId
+  id: ScreenDefinitionId
+  parent: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: ScreenDefinitionId
+  nameWithType: DBC.ScreenDefinitionFields.ScreenDefinitionId
+  fullName: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.ScreenDefinitionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScreenDefinition.ScreenDefinitionId: Primary key\n"
+  syntax:
+    content: public const string ScreenDefinitionId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const ScreenDefinitionId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.ScreenDefinitionFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScreenDefinition.Name: A field for entering the name of this entry\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.IdString
+  commentId: F:SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.IdString
+  id: IdString
+  parent: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: IdString
+  nameWithType: DBC.ScreenDefinitionFields.IdString
+  fullName: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.IdString
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScreenDefinition.IdString: A field for an id_string which may be used to access the screen\n"
+  syntax:
+    content: public const string IdString = "id_string"
+    return:
+      type: System.String
+    content.vb: Public Const IdString As String = "id_string"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.HierarchyId
+  commentId: F:SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.HierarchyId
+  id: HierarchyId
+  parent: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: HierarchyId
+  nameWithType: DBC.ScreenDefinitionFields.HierarchyId
+  fullName: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.HierarchyId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScreenDefinition.HierarchyId: The screen definition is inside this hierarchy folder\n"
+  syntax:
+    content: public const string HierarchyId = "hierarchy_id"
+    return:
+      type: System.String
+    content.vb: Public Const HierarchyId As String = "hierarchy_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.ScreenKey
+  commentId: F:SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.ScreenKey
+  id: ScreenKey
+  parent: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: ScreenKey
+  nameWithType: DBC.ScreenDefinitionFields.ScreenKey
+  fullName: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.ScreenKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScreenDefinition.ScreenKey: This field holds the authentication key if used\n"
+  syntax:
+    content: public const string ScreenKey = "screen_key"
+    return:
+      type: System.String
+    content.vb: Public Const ScreenKey As String = "screen_key"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.LayoutModel
+  commentId: F:SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.LayoutModel
+  id: LayoutModel
+  parent: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: LayoutModel
+  nameWithType: DBC.ScreenDefinitionFields.LayoutModel
+  fullName: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.LayoutModel
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScreenDefinition.LayoutModel: An enum for which layout model this screen is using.\n"
+  syntax:
+    content: public const string LayoutModel = "layout_model"
+    return:
+      type: System.String
+    content.vb: Public Const LayoutModel As String = "layout_model"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.LoadScriptBody
+  commentId: F:SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.LoadScriptBody
+  id: LoadScriptBody
+  parent: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: LoadScriptBody
+  nameWithType: DBC.ScreenDefinitionFields.LoadScriptBody
+  fullName: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.LoadScriptBody
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScreenDefinition.LoadScriptBody: The ejscript to execute the first time this screen is loaded, e.g. for form loading\n"
+  syntax:
+    content: public const string LoadScriptBody = "load_script_body"
+    return:
+      type: System.String
+    content.vb: Public Const LoadScriptBody As String = "load_script_body"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.LoadPostCgiScriptBody
+  commentId: F:SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.LoadPostCgiScriptBody
+  id: LoadPostCgiScriptBody
+  parent: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: LoadPostCgiScriptBody
+  nameWithType: DBC.ScreenDefinitionFields.LoadPostCgiScriptBody
+  fullName: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.LoadPostCgiScriptBody
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScreenDefinition.LoadPostCgiScriptBody: The ejscript to execute after setFromCgi, e.g. when the page is submitted\n"
+  syntax:
+    content: public const string LoadPostCgiScriptBody = "load_post_cgi_script_body"
+    return:
+      type: System.String
+    content.vb: Public Const LoadPostCgiScriptBody As String = "load_post_cgi_script_body"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.LoadFinalScriptBody
+  commentId: F:SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.LoadFinalScriptBody
+  id: LoadFinalScriptBody
+  parent: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: LoadFinalScriptBody
+  nameWithType: DBC.ScreenDefinitionFields.LoadFinalScriptBody
+  fullName: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.LoadFinalScriptBody
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScreenDefinition.LoadFinalScriptBody: The ejscript to execute just before the page is printed, after button/action scripts have been run\n"
+  syntax:
+    content: public const string LoadFinalScriptBody = "load_final_script_body"
+    return:
+      type: System.String
+    content.vb: Public Const LoadFinalScriptBody As String = "load_final_script_body"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.CreationScript
+  commentId: F:SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.CreationScript
+  id: CreationScript
+  parent: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: CreationScript
+  nameWithType: DBC.ScreenDefinitionFields.CreationScript
+  fullName: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.CreationScript
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScreenDefinition.CreationScript: The script used at the top of all other creation scripts on this page\n"
+  syntax:
+    content: public const string CreationScript = "creation_script"
+    return:
+      type: System.String
+    content.vb: Public Const CreationScript As String = "creation_script"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.WarnOnNavigate
+  commentId: F:SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.WarnOnNavigate
+  id: WarnOnNavigate
+  parent: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: WarnOnNavigate
+  nameWithType: DBC.ScreenDefinitionFields.WarnOnNavigate
+  fullName: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.WarnOnNavigate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScreenDefinition.WarnOnNavigate: Decides if user will get a warning if he accidentally navigates away from unsaved changes for this screen\n"
+  syntax:
+    content: public const string WarnOnNavigate = "warn_on_navigate"
+    return:
+      type: System.String
+    content.vb: Public Const WarnOnNavigate As String = "warn_on_navigate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.Description
+  commentId: F:SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DBC.ScreenDefinitionFields.Description
+  fullName: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScreenDefinition.Description: Optional description of what this screen is used for\n"
+  syntax:
+    content: public const string Description = "description"
+    return:
+      type: System.String
+    content.vb: Public Const Description As String = "description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.Autosave
+  commentId: F:SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.Autosave
+  id: Autosave
+  parent: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields
+  langs:
+  - csharp
+  - vb
+  name: Autosave
+  nameWithType: DBC.ScreenDefinitionFields.Autosave
+  fullName: SuperOffice.CRM.Data.DBC.ScreenDefinitionFields.Autosave
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nScreenDefinition.Autosave: Whether this screen uses autosave or not\n"
+  syntax:
+    content: public const string Autosave = "autosave"
+    return:
+      type: System.String
+    content.vb: Public Const Autosave As String = "autosave"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

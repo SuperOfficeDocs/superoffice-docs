@@ -1,0 +1,527 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync.DateTimeOperators
+  commentId: T:SuperOffice.ErpSync.DateTimeOperators
+  id: DateTimeOperators
+  parent: SuperOffice.ErpSync
+  children:
+  - SuperOffice.ErpSync.DateTimeOperators.AFTER
+  - SuperOffice.ErpSync.DateTimeOperators.AFTER_OR_EQUAL
+  - SuperOffice.ErpSync.DateTimeOperators.BEFORE
+  - SuperOffice.ErpSync.DateTimeOperators.BEFORE_OR_EQUAL
+  - SuperOffice.ErpSync.DateTimeOperators.BETWEEN
+  - SuperOffice.ErpSync.DateTimeOperators.EQUALS
+  langs:
+  - csharp
+  - vb
+  name: DateTimeOperators
+  nameWithType: DateTimeOperators
+  fullName: SuperOffice.ErpSync.DateTimeOperators
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nSupported operators for datetime fields through advanced search\n"
+  syntax:
+    content: public static class DateTimeOperators
+    content.vb: Public Module DateTimeOperators
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.ErpSync.DateTimeOperators.EQUALS
+  commentId: F:SuperOffice.ErpSync.DateTimeOperators.EQUALS
+  id: EQUALS
+  parent: SuperOffice.ErpSync.DateTimeOperators
+  langs:
+  - csharp
+  - vb
+  name: EQUALS
+  nameWithType: DateTimeOperators.EQUALS
+  fullName: SuperOffice.ErpSync.DateTimeOperators.EQUALS
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\n&quot;Equals&quot; operator. Connector should be the one to determine whether or not to compare just dates, just times or both date and time.\n"
+  syntax:
+    content: public const string EQUALS = "="
+    return:
+      type: System.String
+    content.vb: Public Const EQUALS As String = "="
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ErpSync.DateTimeOperators.BEFORE
+  commentId: F:SuperOffice.ErpSync.DateTimeOperators.BEFORE
+  id: BEFORE
+  parent: SuperOffice.ErpSync.DateTimeOperators
+  langs:
+  - csharp
+  - vb
+  name: BEFORE
+  nameWithType: DateTimeOperators.BEFORE
+  fullName: SuperOffice.ErpSync.DateTimeOperators.BEFORE
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\n&quot;Before&quot; operator. Connector should be the one to determine whether or not to compare just dates, just times or both date and time.\n"
+  syntax:
+    content: public const string BEFORE = "before"
+    return:
+      type: System.String
+    content.vb: Public Const BEFORE As String = "before"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ErpSync.DateTimeOperators.AFTER
+  commentId: F:SuperOffice.ErpSync.DateTimeOperators.AFTER
+  id: AFTER
+  parent: SuperOffice.ErpSync.DateTimeOperators
+  langs:
+  - csharp
+  - vb
+  name: AFTER
+  nameWithType: DateTimeOperators.AFTER
+  fullName: SuperOffice.ErpSync.DateTimeOperators.AFTER
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\n&quot;After&quot; operator. Connector should be the one to determine whether or not to compare just dates, just times or both date and time.\n"
+  syntax:
+    content: public const string AFTER = "after"
+    return:
+      type: System.String
+    content.vb: Public Const AFTER As String = "after"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ErpSync.DateTimeOperators.BEFORE_OR_EQUAL
+  commentId: F:SuperOffice.ErpSync.DateTimeOperators.BEFORE_OR_EQUAL
+  id: BEFORE_OR_EQUAL
+  parent: SuperOffice.ErpSync.DateTimeOperators
+  langs:
+  - csharp
+  - vb
+  name: BEFORE_OR_EQUAL
+  nameWithType: DateTimeOperators.BEFORE_OR_EQUAL
+  fullName: SuperOffice.ErpSync.DateTimeOperators.BEFORE_OR_EQUAL
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\n&quot;Before or equal&quot; operator. Connector should be the one to determine whether or not to compare just dates, just times or both date and time.\n"
+  syntax:
+    content: public const string BEFORE_OR_EQUAL = "beforeOrEqual"
+    return:
+      type: System.String
+    content.vb: Public Const BEFORE_OR_EQUAL As String = "beforeOrEqual"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ErpSync.DateTimeOperators.AFTER_OR_EQUAL
+  commentId: F:SuperOffice.ErpSync.DateTimeOperators.AFTER_OR_EQUAL
+  id: AFTER_OR_EQUAL
+  parent: SuperOffice.ErpSync.DateTimeOperators
+  langs:
+  - csharp
+  - vb
+  name: AFTER_OR_EQUAL
+  nameWithType: DateTimeOperators.AFTER_OR_EQUAL
+  fullName: SuperOffice.ErpSync.DateTimeOperators.AFTER_OR_EQUAL
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\n&quot;After or equal&quot; operator. Connector should be the one to determine whether or not to compare just dates, just times or both date and time.\n"
+  syntax:
+    content: public const string AFTER_OR_EQUAL = "afterOrEqual"
+    return:
+      type: System.String
+    content.vb: Public Const AFTER_OR_EQUAL As String = "afterOrEqual"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ErpSync.DateTimeOperators.BETWEEN
+  commentId: F:SuperOffice.ErpSync.DateTimeOperators.BETWEEN
+  id: BETWEEN
+  parent: SuperOffice.ErpSync.DateTimeOperators
+  langs:
+  - csharp
+  - vb
+  name: BETWEEN
+  nameWithType: DateTimeOperators.BETWEEN
+  fullName: SuperOffice.ErpSync.DateTimeOperators.BETWEEN
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\n&quot;Between&quot; operator. Connector should be the one to determine whether or not to compare just dates, just times or both date and time. Search values will be presented in the desired order.\n"
+  syntax:
+    content: public const string BETWEEN = "between"
+    return:
+      type: System.String
+    content.vb: Public Const BETWEEN As String = "between"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.ErpSync
+  commentId: N:SuperOffice.ErpSync
+  isExternal: true
+  name: SuperOffice.ErpSync
+  nameWithType: SuperOffice.ErpSync
+  fullName: SuperOffice.ErpSync
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

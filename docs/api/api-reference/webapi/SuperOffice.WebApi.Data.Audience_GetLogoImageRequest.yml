@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Audience_GetLogoImageRequest
+  commentId: T:SuperOffice.WebApi.Data.Audience_GetLogoImageRequest
+  id: Audience_GetLogoImageRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Audience_GetLogoImageRequest.#ctor
+  - SuperOffice.WebApi.Data.Audience_GetLogoImageRequest.LayoutName
+  langs:
+  - csharp
+  - vb
+  name: Audience_GetLogoImageRequest
+  nameWithType: Audience_GetLogoImageRequest
+  fullName: SuperOffice.WebApi.Data.Audience_GetLogoImageRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Audience_GetLogoImageRequest : Object'
+    content.vb: >-
+      Public Class Audience_GetLogoImageRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Audience_GetLogoImageRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Audience_GetLogoImageRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Audience_GetLogoImageRequest
+  langs:
+  - csharp
+  - vb
+  name: Audience_GetLogoImageRequest()
+  nameWithType: Audience_GetLogoImageRequest.Audience_GetLogoImageRequest()
+  fullName: SuperOffice.WebApi.Data.Audience_GetLogoImageRequest.Audience_GetLogoImageRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Audience_GetLogoImageRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Audience_GetLogoImageRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Audience_GetLogoImageRequest.LayoutName
+  commentId: P:SuperOffice.WebApi.Data.Audience_GetLogoImageRequest.LayoutName
+  id: LayoutName
+  parent: SuperOffice.WebApi.Data.Audience_GetLogoImageRequest
+  langs:
+  - csharp
+  - vb
+  name: LayoutName
+  nameWithType: Audience_GetLogoImageRequest.LayoutName
+  fullName: SuperOffice.WebApi.Data.Audience_GetLogoImageRequest.LayoutName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string LayoutName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LayoutName As String
+  overload: SuperOffice.WebApi.Data.Audience_GetLogoImageRequest.LayoutName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Audience_GetLogoImageRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Audience_GetLogoImageRequest.#ctor
+  isExternal: true
+  name: Audience_GetLogoImageRequest
+  nameWithType: Audience_GetLogoImageRequest.Audience_GetLogoImageRequest
+  fullName: SuperOffice.WebApi.Data.Audience_GetLogoImageRequest.Audience_GetLogoImageRequest
+- uid: SuperOffice.WebApi.Data.Audience_GetLogoImageRequest.LayoutName*
+  commentId: Overload:SuperOffice.WebApi.Data.Audience_GetLogoImageRequest.LayoutName
+  isExternal: true
+  name: LayoutName
+  nameWithType: Audience_GetLogoImageRequest.LayoutName
+  fullName: SuperOffice.WebApi.Data.Audience_GetLogoImageRequest.LayoutName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

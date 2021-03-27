@@ -1,0 +1,1677 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.CountryRecordData
+  commentId: T:SuperOffice.CRM.Rows.CountryRecordData
+  id: CountryRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.CountryRecordData.#ctor
+  - SuperOffice.CRM.Rows.CountryRecordData.Abbrev2
+  - SuperOffice.CRM.Rows.CountryRecordData.Abbrev3
+  - SuperOffice.CRM.Rows.CountryRecordData.AddressLayout
+  - SuperOffice.CRM.Rows.CountryRecordData.AddressLayoutDomestic
+  - SuperOffice.CRM.Rows.CountryRecordData.AddressLayoutForeign
+  - SuperOffice.CRM.Rows.CountryRecordData.CountryId
+  - SuperOffice.CRM.Rows.CountryRecordData.CurrencyId
+  - SuperOffice.CRM.Rows.CountryRecordData.CustomPhoneDesc
+  - SuperOffice.CRM.Rows.CountryRecordData.DefaultLcid
+  - SuperOffice.CRM.Rows.CountryRecordData.Deleted
+  - SuperOffice.CRM.Rows.CountryRecordData.DialInPrefix
+  - SuperOffice.CRM.Rows.CountryRecordData.DialOutPrefix
+  - SuperOffice.CRM.Rows.CountryRecordData.DomainName
+  - SuperOffice.CRM.Rows.CountryRecordData.EnglishName
+  - SuperOffice.CRM.Rows.CountryRecordData.FlagresId
+  - SuperOffice.CRM.Rows.CountryRecordData.InterAreaPrefix
+  - SuperOffice.CRM.Rows.CountryRecordData.IsBuiltIn
+  - SuperOffice.CRM.Rows.CountryRecordData.IsoNumber
+  - SuperOffice.CRM.Rows.CountryRecordData.Name
+  - SuperOffice.CRM.Rows.CountryRecordData.OrgNrText
+  - SuperOffice.CRM.Rows.CountryRecordData.PhonePartOfNA
+  - SuperOffice.CRM.Rows.CountryRecordData.Rank
+  - SuperOffice.CRM.Rows.CountryRecordData.Registered
+  - SuperOffice.CRM.Rows.CountryRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.CountryRecordData.Tooltip
+  - SuperOffice.CRM.Rows.CountryRecordData.TzLocationId
+  - SuperOffice.CRM.Rows.CountryRecordData.Updated
+  - SuperOffice.CRM.Rows.CountryRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.CountryRecordData.UpdatedCount
+  - SuperOffice.CRM.Rows.CountryRecordData.ZipPrefix
+  langs:
+  - csharp
+  - vb
+  name: CountryRecordData
+  nameWithType: CountryRecordData
+  fullName: SuperOffice.CRM.Rows.CountryRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the country table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.CountryRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.CountryTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class CountryRecordData
+    content.vb: Public Class CountryRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.CountryRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.CountryRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.CountryRecordData)
+  - SuperOffice.CRM.Rows.CountryRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.CountryRecordData.SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.CountryRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.CountryRecordData.CountryId
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.CountryId
+  id: CountryId
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: CountryId
+  nameWithType: CountryRecordData.CountryId
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.CountryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int CountryId
+    return:
+      type: System.Int32
+    content.vb: Public CountryId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.Name
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.Name
+  id: Name
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: CountryRecordData.Name
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nName of country in installed language \n"
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.Rank
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: CountryRecordData.Rank
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.Rank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRank order  \n"
+  syntax:
+    content: public short Rank
+    return:
+      type: System.Int16
+    content.vb: Public Rank As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.Tooltip
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: CountryRecordData.Tooltip
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.Tooltip
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTooltip or other description \n"
+  syntax:
+    content: public string Tooltip
+    return:
+      type: System.String
+    content.vb: Public Tooltip As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.Deleted
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: CountryRecordData.Deleted
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.Deleted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists \n"
+  syntax:
+    content: public short Deleted
+    return:
+      type: System.Int16
+    content.vb: Public Deleted As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.EnglishName
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.EnglishName
+  id: EnglishName
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: EnglishName
+  nameWithType: CountryRecordData.EnglishName
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.EnglishName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nName of country in english \n"
+  syntax:
+    content: public string EnglishName
+    return:
+      type: System.String
+    content.vb: Public EnglishName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.ZipPrefix
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.ZipPrefix
+  id: ZipPrefix
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: ZipPrefix
+  nameWithType: CountryRecordData.ZipPrefix
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.ZipPrefix
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nN- DK- etc. \n"
+  syntax:
+    content: public string ZipPrefix
+    return:
+      type: System.String
+    content.vb: Public ZipPrefix As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.FlagresId
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.FlagresId
+  id: FlagresId
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: FlagresId
+  nameWithType: CountryRecordData.FlagresId
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.FlagresId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nResource ID of flag graphic \n"
+  syntax:
+    content: public uint FlagresId
+    return:
+      type: System.UInt32
+    content.vb: Public FlagresId As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.AddressLayout
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.AddressLayout
+  id: AddressLayout
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: AddressLayout
+  nameWithType: CountryRecordData.AddressLayout
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.AddressLayout
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPoints to address format used in the GUI \n"
+  syntax:
+    content: public int AddressLayout
+    return:
+      type: System.Int32
+    content.vb: Public AddressLayout As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.AddressLayoutDomestic
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.AddressLayoutDomestic
+  id: AddressLayoutDomestic
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: AddressLayoutDomestic
+  nameWithType: CountryRecordData.AddressLayoutDomestic
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.AddressLayoutDomestic
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPoints to address format used for labels to own country \n"
+  syntax:
+    content: public int AddressLayoutDomestic
+    return:
+      type: System.Int32
+    content.vb: Public AddressLayoutDomestic As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.AddressLayoutForeign
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.AddressLayoutForeign
+  id: AddressLayoutForeign
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: AddressLayoutForeign
+  nameWithType: CountryRecordData.AddressLayoutForeign
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.AddressLayoutForeign
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPoints to address format used for labels to other countries than own country \n"
+  syntax:
+    content: public int AddressLayoutForeign
+    return:
+      type: System.Int32
+    content.vb: Public AddressLayoutForeign As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.CurrencyId
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.CurrencyId
+  id: CurrencyId
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: CurrencyId
+  nameWithType: CountryRecordData.CurrencyId
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.CurrencyId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDefault currency for this country \n"
+  syntax:
+    content: public int CurrencyId
+    return:
+      type: System.Int32
+    content.vb: Public CurrencyId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.OrgNrText
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.OrgNrText
+  id: OrgNrText
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: OrgNrText
+  nameWithType: CountryRecordData.OrgNrText
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.OrgNrText
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLead text for organisation field \n"
+  syntax:
+    content: public string OrgNrText
+    return:
+      type: System.String
+    content.vb: Public OrgNrText As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.DomainName
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.DomainName
+  id: DomainName
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: DomainName
+  nameWithType: CountryRecordData.DomainName
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.DomainName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDefault Web domain identifier (.no, .uk, etc; but without the dot) \n"
+  syntax:
+    content: public string DomainName
+    return:
+      type: System.String
+    content.vb: Public DomainName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: CountryRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: CountryRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: CountryRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: CountryRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: CountryRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.DefaultLcid
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.DefaultLcid
+  id: DefaultLcid
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: DefaultLcid
+  nameWithType: CountryRecordData.DefaultLcid
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.DefaultLcid
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLCID code in .NET, this should be the defaultLcid of the language that has the isDefault flag set in the LanguageInforCountry link table \n"
+  syntax:
+    content: public uint DefaultLcid
+    return:
+      type: System.UInt32
+    content.vb: Public DefaultLcid As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.DialInPrefix
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.DialInPrefix
+  id: DialInPrefix
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: DialInPrefix
+  nameWithType: CountryRecordData.DialInPrefix
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.DialInPrefix
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrefix for dialing into the country from outside (country code) \n"
+  syntax:
+    content: public string DialInPrefix
+    return:
+      type: System.String
+    content.vb: Public DialInPrefix As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.DialOutPrefix
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.DialOutPrefix
+  id: DialOutPrefix
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: DialOutPrefix
+  nameWithType: CountryRecordData.DialOutPrefix
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.DialOutPrefix
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrefix for dialling out of the country, voice call \n"
+  syntax:
+    content: public string DialOutPrefix
+    return:
+      type: System.String
+    content.vb: Public DialOutPrefix As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.InterAreaPrefix
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.InterAreaPrefix
+  id: InterAreaPrefix
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: InterAreaPrefix
+  nameWithType: CountryRecordData.InterAreaPrefix
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.InterAreaPrefix
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrefix for inter-area dialling in the country \n"
+  syntax:
+    content: public string InterAreaPrefix
+    return:
+      type: System.String
+    content.vb: Public InterAreaPrefix As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.CustomPhoneDesc
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.CustomPhoneDesc
+  id: CustomPhoneDesc
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: CustomPhoneDesc
+  nameWithType: CountryRecordData.CustomPhoneDesc
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.CustomPhoneDesc
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCustom phone description, if any (comes from ISO/ITU documents) \n"
+  syntax:
+    content: public string CustomPhoneDesc
+    return:
+      type: System.String
+    content.vb: Public CustomPhoneDesc As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.PhonePartOfNA
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.PhonePartOfNA
+  id: PhonePartOfNA
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: PhonePartOfNA
+  nameWithType: CountryRecordData.PhonePartOfNA
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.PhonePartOfNA
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIs the phone system part of the North American system \n"
+  syntax:
+    content: public short PhonePartOfNA
+    return:
+      type: System.Int16
+    content.vb: Public PhonePartOfNA As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.IsBuiltIn
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.IsBuiltIn
+  id: IsBuiltIn
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: IsBuiltIn
+  nameWithType: CountryRecordData.IsBuiltIn
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.IsBuiltIn
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIs this record populated by SuperOffice priming data? \n"
+  syntax:
+    content: public short IsBuiltIn
+    return:
+      type: System.Int16
+    content.vb: Public IsBuiltIn As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.IsoNumber
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.IsoNumber
+  id: IsoNumber
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: IsoNumber
+  nameWithType: CountryRecordData.IsoNumber
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.IsoNumber
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe primary key used by ISO to identify countries when they have a revolution and change their name from Upper Volta to Burkina Faso :-) \n"
+  syntax:
+    content: public uint IsoNumber
+    return:
+      type: System.UInt32
+    content.vb: Public IsoNumber As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.Abbrev3
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.Abbrev3
+  id: Abbrev3
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Abbrev3
+  nameWithType: CountryRecordData.Abbrev3
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.Abbrev3
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nISO 3-letter abbreviation \n"
+  syntax:
+    content: public string Abbrev3
+    return:
+      type: System.String
+    content.vb: Public Abbrev3 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.Abbrev2
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.Abbrev2
+  id: Abbrev2
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: Abbrev2
+  nameWithType: CountryRecordData.Abbrev2
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.Abbrev2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nISO 2-letter abbreviation \n"
+  syntax:
+    content: public string Abbrev2
+    return:
+      type: System.String
+    content.vb: Public Abbrev2 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.TzLocationId
+  commentId: F:SuperOffice.CRM.Rows.CountryRecordData.TzLocationId
+  id: TzLocationId
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: TzLocationId
+  nameWithType: CountryRecordData.TzLocationId
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.TzLocationId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDefault timezone location for this country \n"
+  syntax:
+    content: public int TzLocationId
+    return:
+      type: System.Int32
+    content.vb: Public TzLocationId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CountryRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.CountryRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.CountryRecordData
+  langs:
+  - csharp
+  - vb
+  name: CountryRecordData()
+  nameWithType: CountryRecordData.CountryRecordData()
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.CountryRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public CountryRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.CountryRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CountryRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<CountryRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<CountryRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.CountryRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CountryRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.CountryRecordData, To)()
+  name.vb: MapEnums(Of CountryRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CountryRecordData, To>
+    nameWithType: EnumUtil.MapEnums<CountryRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.CountryRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CountryRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of CountryRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.CountryRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CountryRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.CountryRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<CountryRecordData>(CountryRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<CountryRecordData>(CountryRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.CountryRecordData>(SuperOffice.CRM.Rows.CountryRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CountryRecordData)(CountryRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.CountryRecordData)(SuperOffice.CRM.Rows.CountryRecordData)
+  name.vb: AssignByReflection(Of CountryRecordData)(CountryRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<CountryRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<CountryRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.CountryRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.CountryRecordData
+    name: CountryRecordData
+    nameWithType: CountryRecordData
+    fullName: SuperOffice.CRM.Rows.CountryRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of CountryRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of CountryRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.CountryRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.CountryRecordData
+    name: CountryRecordData
+    nameWithType: CountryRecordData
+    fullName: SuperOffice.CRM.Rows.CountryRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CountryRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<CountryRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<CountryRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.CountryRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of CountryRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.CountryRecordData)()
+  name.vb: GraphCopy(Of CountryRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<CountryRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<CountryRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.CountryRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of CountryRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of CountryRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.CountryRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CountryRecordData.SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CountryRecordData)
+  parent: SuperOffice.CRM.Rows.CountryRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CountryRecordData)
+  name: ToInsert()
+  nameWithType: CountryRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: CountryRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: CountryRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CountryRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CountryRecordData, To>()
+  nameWithType: Converters.MapEnums<CountryRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.CountryRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of CountryRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.CountryRecordData, To)()
+  name.vb: MapEnums(Of CountryRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CountryRecordData, To>
+    nameWithType: Converters.MapEnums<CountryRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.CountryRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CountryRecordData, To)
+    nameWithType: Converters.MapEnums(Of CountryRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.CountryRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CountryRecordData)
+  commentId: M:SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CountryRecordData)
+  isExternal: true
+  name: ToInsert(CountryRecordData)
+  nameWithType: CountryRecordDataExtensions.ToInsert(CountryRecordData)
+  fullName: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CountryRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CountryRecordData)
+    name: ToInsert
+    nameWithType: CountryRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.CountryRecordData
+    name: CountryRecordData
+    nameWithType: CountryRecordData
+    fullName: SuperOffice.CRM.Rows.CountryRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CountryRecordData)
+    name: ToInsert
+    nameWithType: CountryRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.CountryRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.CountryRecordData
+    name: CountryRecordData
+    nameWithType: CountryRecordData
+    fullName: SuperOffice.CRM.Rows.CountryRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CountryRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.CountryRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: CountryRecordDataExtensions
+  nameWithType: CountryRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.CountryRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Rows.CountryRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.CountryRecordData.#ctor
+  isExternal: true
+  name: CountryRecordData
+  nameWithType: CountryRecordData.CountryRecordData
+  fullName: SuperOffice.CRM.Rows.CountryRecordData.CountryRecordData

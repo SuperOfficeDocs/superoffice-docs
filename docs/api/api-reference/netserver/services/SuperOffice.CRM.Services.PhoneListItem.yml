@@ -1,0 +1,591 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.PhoneListItem
+  commentId: T:SuperOffice.CRM.Services.PhoneListItem
+  id: PhoneListItem
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.PhoneListItem.#ctor
+  - SuperOffice.CRM.Services.PhoneListItem.Id
+  - SuperOffice.CRM.Services.PhoneListItem.Name
+  - SuperOffice.CRM.Services.PhoneListItem.PersonCellPhone
+  - SuperOffice.CRM.Services.PhoneListItem.PersonDirectPhone
+  - SuperOffice.CRM.Services.PhoneListItem.PersonEmail
+  - SuperOffice.CRM.Services.PhoneListItem.PersonFaxNumber
+  - SuperOffice.CRM.Services.PhoneListItem.PersonPagerNumber
+  - SuperOffice.CRM.Services.PhoneListItem.PersonPrivatePhone
+  - SuperOffice.CRM.Services.PhoneListItem.Tooltip
+  - SuperOffice.CRM.Services.PhoneListItem.ToString
+  - SuperOffice.CRM.Services.PhoneListItem.ToString(System.String)
+  - SuperOffice.CRM.Services.PhoneListItem.UniqueId
+  langs:
+  - csharp
+  - vb
+  name: PhoneListItem
+  nameWithType: PhoneListItem
+  fullName: SuperOffice.CRM.Services.PhoneListItem
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for PhoneListItem.\nServices for the PhoneListItem Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IPhoneListAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class PhoneListItem : Carrier'
+    content.vb: >-
+      Public Class PhoneListItem
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.PhoneListAgent
+    commentId: T:SuperOffice.CRM.Services.PhoneListAgent
+  - linkId: SuperOffice.CRM.Services.IPhoneListAgent
+    commentId: T:SuperOffice.CRM.Services.IPhoneListAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.PhoneListItem.#ctor
+  commentId: M:SuperOffice.CRM.Services.PhoneListItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.PhoneListItem
+  langs:
+  - csharp
+  - vb
+  name: PhoneListItem()
+  nameWithType: PhoneListItem.PhoneListItem()
+  fullName: SuperOffice.CRM.Services.PhoneListItem.PhoneListItem()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public PhoneListItem()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.PhoneListItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PhoneListItem.ToString
+  commentId: M:SuperOffice.CRM.Services.PhoneListItem.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.PhoneListItem
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: PhoneListItem.ToString()
+  fullName: SuperOffice.CRM.Services.PhoneListItem.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.PhoneListItem.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.PhoneListItem.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.PhoneListItem.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.PhoneListItem
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: PhoneListItem.ToString(String)
+  fullName: SuperOffice.CRM.Services.PhoneListItem.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.PhoneListItem.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PhoneListItem.PersonDirectPhone
+  commentId: P:SuperOffice.CRM.Services.PhoneListItem.PersonDirectPhone
+  id: PersonDirectPhone
+  parent: SuperOffice.CRM.Services.PhoneListItem
+  langs:
+  - csharp
+  - vb
+  name: PersonDirectPhone
+  nameWithType: PhoneListItem.PersonDirectPhone
+  fullName: SuperOffice.CRM.Services.PhoneListItem.PersonDirectPhone
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPerson Direct Phone \n"
+  syntax:
+    content: public virtual string PersonDirectPhone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonDirectPhone As String
+  overload: SuperOffice.CRM.Services.PhoneListItem.PersonDirectPhone*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PhoneListItem.PersonCellPhone
+  commentId: P:SuperOffice.CRM.Services.PhoneListItem.PersonCellPhone
+  id: PersonCellPhone
+  parent: SuperOffice.CRM.Services.PhoneListItem
+  langs:
+  - csharp
+  - vb
+  name: PersonCellPhone
+  nameWithType: PhoneListItem.PersonCellPhone
+  fullName: SuperOffice.CRM.Services.PhoneListItem.PersonCellPhone
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPerson Cell Phone \n"
+  syntax:
+    content: public virtual string PersonCellPhone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonCellPhone As String
+  overload: SuperOffice.CRM.Services.PhoneListItem.PersonCellPhone*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PhoneListItem.PersonPrivatePhone
+  commentId: P:SuperOffice.CRM.Services.PhoneListItem.PersonPrivatePhone
+  id: PersonPrivatePhone
+  parent: SuperOffice.CRM.Services.PhoneListItem
+  langs:
+  - csharp
+  - vb
+  name: PersonPrivatePhone
+  nameWithType: PhoneListItem.PersonPrivatePhone
+  fullName: SuperOffice.CRM.Services.PhoneListItem.PersonPrivatePhone
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPerson Private Phone \n"
+  syntax:
+    content: public virtual string PersonPrivatePhone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonPrivatePhone As String
+  overload: SuperOffice.CRM.Services.PhoneListItem.PersonPrivatePhone*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PhoneListItem.PersonFaxNumber
+  commentId: P:SuperOffice.CRM.Services.PhoneListItem.PersonFaxNumber
+  id: PersonFaxNumber
+  parent: SuperOffice.CRM.Services.PhoneListItem
+  langs:
+  - csharp
+  - vb
+  name: PersonFaxNumber
+  nameWithType: PhoneListItem.PersonFaxNumber
+  fullName: SuperOffice.CRM.Services.PhoneListItem.PersonFaxNumber
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nActual phone number as eneterd by the user \n"
+  syntax:
+    content: public virtual string PersonFaxNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonFaxNumber As String
+  overload: SuperOffice.CRM.Services.PhoneListItem.PersonFaxNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PhoneListItem.PersonPagerNumber
+  commentId: P:SuperOffice.CRM.Services.PhoneListItem.PersonPagerNumber
+  id: PersonPagerNumber
+  parent: SuperOffice.CRM.Services.PhoneListItem
+  langs:
+  - csharp
+  - vb
+  name: PersonPagerNumber
+  nameWithType: PhoneListItem.PersonPagerNumber
+  fullName: SuperOffice.CRM.Services.PhoneListItem.PersonPagerNumber
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nActual phone number as eneterd by the user \n"
+  syntax:
+    content: public virtual string PersonPagerNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonPagerNumber As String
+  overload: SuperOffice.CRM.Services.PhoneListItem.PersonPagerNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PhoneListItem.PersonEmail
+  commentId: P:SuperOffice.CRM.Services.PhoneListItem.PersonEmail
+  id: PersonEmail
+  parent: SuperOffice.CRM.Services.PhoneListItem
+  langs:
+  - csharp
+  - vb
+  name: PersonEmail
+  nameWithType: PhoneListItem.PersonEmail
+  fullName: SuperOffice.CRM.Services.PhoneListItem.PersonEmail
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe address itself \n"
+  syntax:
+    content: public virtual string PersonEmail { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonEmail As String
+  overload: SuperOffice.CRM.Services.PhoneListItem.PersonEmail*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PhoneListItem.Id
+  commentId: P:SuperOffice.CRM.Services.PhoneListItem.Id
+  id: Id
+  parent: SuperOffice.CRM.Services.PhoneListItem
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: PhoneListItem.Id
+  fullName: SuperOffice.CRM.Services.PhoneListItem.Id
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe contact or person&apos;s id \n"
+  syntax:
+    content: public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Id As Integer
+  overload: SuperOffice.CRM.Services.PhoneListItem.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PhoneListItem.Name
+  commentId: P:SuperOffice.CRM.Services.PhoneListItem.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.PhoneListItem
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: PhoneListItem.Name
+  fullName: SuperOffice.CRM.Services.PhoneListItem.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe contact or person&apos;s name \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.PhoneListItem.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PhoneListItem.Tooltip
+  commentId: P:SuperOffice.CRM.Services.PhoneListItem.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Services.PhoneListItem
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: PhoneListItem.Tooltip
+  fullName: SuperOffice.CRM.Services.PhoneListItem.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.CRM.Services.PhoneListItem.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PhoneListItem.UniqueId
+  commentId: P:SuperOffice.CRM.Services.PhoneListItem.UniqueId
+  id: UniqueId
+  parent: SuperOffice.CRM.Services.PhoneListItem
+  langs:
+  - csharp
+  - vb
+  name: UniqueId
+  nameWithType: PhoneListItem.UniqueId
+  fullName: SuperOffice.CRM.Services.PhoneListItem.UniqueId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nProperty setting a unique id indicating if this is a person or contact \n"
+  syntax:
+    content: public virtual string UniqueId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property UniqueId As String
+  overload: SuperOffice.CRM.Services.PhoneListItem.UniqueId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.PhoneListAgent
+  commentId: T:SuperOffice.CRM.Services.PhoneListAgent
+  isExternal: true
+  name: PhoneListAgent
+  nameWithType: PhoneListAgent
+  fullName: SuperOffice.CRM.Services.PhoneListAgent
+- uid: SuperOffice.CRM.Services.IPhoneListAgent
+  commentId: T:SuperOffice.CRM.Services.IPhoneListAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IPhoneListAgent
+  nameWithType: IPhoneListAgent
+  fullName: SuperOffice.CRM.Services.IPhoneListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.PhoneListItem.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListItem.#ctor
+  isExternal: true
+  name: PhoneListItem
+  nameWithType: PhoneListItem.PhoneListItem
+  fullName: SuperOffice.CRM.Services.PhoneListItem.PhoneListItem
+- uid: SuperOffice.CRM.Services.PhoneListItem.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListItem.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: PhoneListItem.ToString
+  fullName: SuperOffice.CRM.Services.PhoneListItem.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.PhoneListItem.PersonDirectPhone*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListItem.PersonDirectPhone
+  isExternal: true
+  name: PersonDirectPhone
+  nameWithType: PhoneListItem.PersonDirectPhone
+  fullName: SuperOffice.CRM.Services.PhoneListItem.PersonDirectPhone
+- uid: SuperOffice.CRM.Services.PhoneListItem.PersonCellPhone*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListItem.PersonCellPhone
+  isExternal: true
+  name: PersonCellPhone
+  nameWithType: PhoneListItem.PersonCellPhone
+  fullName: SuperOffice.CRM.Services.PhoneListItem.PersonCellPhone
+- uid: SuperOffice.CRM.Services.PhoneListItem.PersonPrivatePhone*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListItem.PersonPrivatePhone
+  isExternal: true
+  name: PersonPrivatePhone
+  nameWithType: PhoneListItem.PersonPrivatePhone
+  fullName: SuperOffice.CRM.Services.PhoneListItem.PersonPrivatePhone
+- uid: SuperOffice.CRM.Services.PhoneListItem.PersonFaxNumber*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListItem.PersonFaxNumber
+  isExternal: true
+  name: PersonFaxNumber
+  nameWithType: PhoneListItem.PersonFaxNumber
+  fullName: SuperOffice.CRM.Services.PhoneListItem.PersonFaxNumber
+- uid: SuperOffice.CRM.Services.PhoneListItem.PersonPagerNumber*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListItem.PersonPagerNumber
+  isExternal: true
+  name: PersonPagerNumber
+  nameWithType: PhoneListItem.PersonPagerNumber
+  fullName: SuperOffice.CRM.Services.PhoneListItem.PersonPagerNumber
+- uid: SuperOffice.CRM.Services.PhoneListItem.PersonEmail*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListItem.PersonEmail
+  isExternal: true
+  name: PersonEmail
+  nameWithType: PhoneListItem.PersonEmail
+  fullName: SuperOffice.CRM.Services.PhoneListItem.PersonEmail
+- uid: SuperOffice.CRM.Services.PhoneListItem.Id*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListItem.Id
+  isExternal: true
+  name: Id
+  nameWithType: PhoneListItem.Id
+  fullName: SuperOffice.CRM.Services.PhoneListItem.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.PhoneListItem.Name*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListItem.Name
+  isExternal: true
+  name: Name
+  nameWithType: PhoneListItem.Name
+  fullName: SuperOffice.CRM.Services.PhoneListItem.Name
+- uid: SuperOffice.CRM.Services.PhoneListItem.Tooltip*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListItem.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: PhoneListItem.Tooltip
+  fullName: SuperOffice.CRM.Services.PhoneListItem.Tooltip
+- uid: SuperOffice.CRM.Services.PhoneListItem.UniqueId*
+  commentId: Overload:SuperOffice.CRM.Services.PhoneListItem.UniqueId
+  isExternal: true
+  name: UniqueId
+  nameWithType: PhoneListItem.UniqueId
+  fullName: SuperOffice.CRM.Services.PhoneListItem.UniqueId

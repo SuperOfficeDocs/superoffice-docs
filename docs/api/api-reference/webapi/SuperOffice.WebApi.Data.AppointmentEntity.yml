@@ -1,0 +1,3200 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AppointmentEntity
+  commentId: T:SuperOffice.WebApi.Data.AppointmentEntity
+  id: AppointmentEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AppointmentEntity.#ctor
+  - SuperOffice.WebApi.Data.AppointmentEntity.ActiveDate
+  - SuperOffice.WebApi.Data.AppointmentEntity.ActiveLinks
+  - SuperOffice.WebApi.Data.AppointmentEntity.AlarmLeadTime
+  - SuperOffice.WebApi.Data.AppointmentEntity.AppointmentId
+  - SuperOffice.WebApi.Data.AppointmentEntity.AssignedBy
+  - SuperOffice.WebApi.Data.AppointmentEntity.AssignmentStatus
+  - SuperOffice.WebApi.Data.AppointmentEntity.AssignmentStatus_String
+  - SuperOffice.WebApi.Data.AppointmentEntity.Associate
+  - SuperOffice.WebApi.Data.AppointmentEntity.BookingType
+  - SuperOffice.WebApi.Data.AppointmentEntity.BookingType_String
+  - SuperOffice.WebApi.Data.AppointmentEntity.CautionWarning
+  - SuperOffice.WebApi.Data.AppointmentEntity.CautionWarning_String
+  - SuperOffice.WebApi.Data.AppointmentEntity.CentralserviceVideomeetId
+  - SuperOffice.WebApi.Data.AppointmentEntity.ColorIndex
+  - SuperOffice.WebApi.Data.AppointmentEntity.Completed
+  - SuperOffice.WebApi.Data.AppointmentEntity.Completed_String
+  - SuperOffice.WebApi.Data.AppointmentEntity.Contact
+  - SuperOffice.WebApi.Data.AppointmentEntity.CreatedBy
+  - SuperOffice.WebApi.Data.AppointmentEntity.CreatedDate
+  - SuperOffice.WebApi.Data.AppointmentEntity.CustomFields
+  - SuperOffice.WebApi.Data.AppointmentEntity.Description
+  - SuperOffice.WebApi.Data.AppointmentEntity.EndDate
+  - SuperOffice.WebApi.Data.AppointmentEntity.ExtraFields
+  - SuperOffice.WebApi.Data.AppointmentEntity.HasAlarm
+  - SuperOffice.WebApi.Data.AppointmentEntity.HasConflict
+  - SuperOffice.WebApi.Data.AppointmentEntity.InvitationStatus
+  - SuperOffice.WebApi.Data.AppointmentEntity.InvitationStatus_String
+  - SuperOffice.WebApi.Data.AppointmentEntity.InvitedPerson
+  - SuperOffice.WebApi.Data.AppointmentEntity.IsAlldayEvent
+  - SuperOffice.WebApi.Data.AppointmentEntity.IsFree
+  - SuperOffice.WebApi.Data.AppointmentEntity.IsMileStone
+  - SuperOffice.WebApi.Data.AppointmentEntity.IsPublished
+  - SuperOffice.WebApi.Data.AppointmentEntity.JoinVideomeetUrl
+  - SuperOffice.WebApi.Data.AppointmentEntity.LagTime
+  - SuperOffice.WebApi.Data.AppointmentEntity.LeadTime
+  - SuperOffice.WebApi.Data.AppointmentEntity.Links
+  - SuperOffice.WebApi.Data.AppointmentEntity.Location
+  - SuperOffice.WebApi.Data.AppointmentEntity.MotherAssociate
+  - SuperOffice.WebApi.Data.AppointmentEntity.MotherId
+  - SuperOffice.WebApi.Data.AppointmentEntity.Participants
+  - SuperOffice.WebApi.Data.AppointmentEntity.Person
+  - SuperOffice.WebApi.Data.AppointmentEntity.PreferredTZLocation
+  - SuperOffice.WebApi.Data.AppointmentEntity.Priority
+  - SuperOffice.WebApi.Data.AppointmentEntity.Private
+  - SuperOffice.WebApi.Data.AppointmentEntity.Private_String
+  - SuperOffice.WebApi.Data.AppointmentEntity.Project
+  - SuperOffice.WebApi.Data.AppointmentEntity.PublishEventDate
+  - SuperOffice.WebApi.Data.AppointmentEntity.PublishFrom
+  - SuperOffice.WebApi.Data.AppointmentEntity.PublishTo
+  - SuperOffice.WebApi.Data.AppointmentEntity.Recurrence
+  - SuperOffice.WebApi.Data.AppointmentEntity.RejectCounter
+  - SuperOffice.WebApi.Data.AppointmentEntity.RejectReason
+  - SuperOffice.WebApi.Data.AppointmentEntity.Sale
+  - SuperOffice.WebApi.Data.AppointmentEntity.StartDate
+  - SuperOffice.WebApi.Data.AppointmentEntity.SuggestedAppointmentId
+  - SuperOffice.WebApi.Data.AppointmentEntity.Task
+  - SuperOffice.WebApi.Data.AppointmentEntity.Type
+  - SuperOffice.WebApi.Data.AppointmentEntity.Type_String
+  - SuperOffice.WebApi.Data.AppointmentEntity.UpdatedBy
+  - SuperOffice.WebApi.Data.AppointmentEntity.UpdatedDate
+  - SuperOffice.WebApi.Data.AppointmentEntity.UserDefinedFields
+  - SuperOffice.WebApi.Data.AppointmentEntity.VisibleFor
+  langs:
+  - csharp
+  - vb
+  name: AppointmentEntity
+  nameWithType: AppointmentEntity
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for AppointmentEntity.\nAppointments appear in the diary, and have links to a Contact/Person and possibly a Project or Sale. They have start and end time+date.    \n"
+  remarks: >
+    Use <xref href="SuperOffice.CRM.Services.ArchiveAgent" data-throw-if-not-resolved="false"></xref>:
+
+    All AppointmentEntity: <pre><code>&quot;FindAppointment&quot;</code></pre>
+
+    Participants: <pre><code>&quot;Participants&quot;</code></pre> with restriction <pre><code>&quot;appointmentRestrictionId eq &quot; + id</code></pre>.
+
+    Links: <pre><code>&quot;Links&quot;</code></pre> with restriction <pre><code>&quot;sourceAppointmentRestrictionId eq &quot; + id</code></pre>.
+  example:
+  - "\nGet AppointmentEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new AppointmentAgent(configuration);\nvar appointmentEntity = agent.GetAppointmentEntity( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class AppointmentEntity : Carrier'
+    content.vb: >-
+      Public Class AppointmentEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AppointmentAgent
+    commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  - linkId: SuperOffice.WebApi.Agents.ArchiveAgent
+    commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  - linkId: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+    commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.AppointmentEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: AppointmentEntity()
+  nameWithType: AppointmentEntity.AppointmentEntity()
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.AppointmentEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public AppointmentEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Associate
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Associate
+  id: Associate
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: AppointmentEntity.Associate
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Associate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe owner of the appointment - the associate whose diary/checklist the appointment is in.\n<p>Use MDO List name &quot;associate&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Associate Associate { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property Associate As Associate
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.Associate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Contact
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Contact
+  id: Contact
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: AppointmentEntity.Contact
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Contact
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe contact associated with the appointment. It may also be null if no contact is associated with the appointment.\n<p>Use MDO List name &quot;contact_new&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Contact Contact { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Contact
+    content.vb: Public Overridable Property Contact As Contact
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.Contact*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.CreatedBy
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: AppointmentEntity.CreatedBy
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.CreatedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe associate that first created the appointment. The property is read-only.\n"
+  syntax:
+    content: public virtual Associate CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property CreatedBy As Associate
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.CreatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.UpdatedBy
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.UpdatedBy
+  id: UpdatedBy
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedBy
+  nameWithType: AppointmentEntity.UpdatedBy
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.UpdatedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe person that last updated the appointment.\n"
+  syntax:
+    content: public virtual Associate UpdatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property UpdatedBy As Associate
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.UpdatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.CreatedDate
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.CreatedDate
+  id: CreatedDate
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: CreatedDate
+  nameWithType: AppointmentEntity.CreatedDate
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.CreatedDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRegistered date\n"
+  syntax:
+    content: public virtual DateTime CreatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property CreatedDate As DateTime
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.CreatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.AppointmentId
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: AppointmentEntity.AppointmentId
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.AppointmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int AppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AppointmentId As Integer
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.AppointmentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Description
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: AppointmentEntity.Description
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDescription of the appointment.\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.StartDate
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.StartDate
+  id: StartDate
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: AppointmentEntity.StartDate
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.StartDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\ndate + start time planned\n"
+  syntax:
+    content: public virtual DateTime StartDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property StartDate As DateTime
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.StartDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.EndDate
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.EndDate
+  id: EndDate
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: EndDate
+  nameWithType: AppointmentEntity.EndDate
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.EndDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDate + end time planned\n"
+  syntax:
+    content: public virtual DateTime EndDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property EndDate As DateTime
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.EndDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.InvitedPerson
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.InvitedPerson
+  id: InvitedPerson
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: InvitedPerson
+  nameWithType: AppointmentEntity.InvitedPerson
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.InvitedPerson
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf the appointment is a booking, the invited persons may be your associates, but you are also able to invite contact persons from other companies to join your meeting. They do not receive an invitation, unless you send them one by email, but you can see in the appointment that persons other than your associates have been invited to a meeting. Each invited person will have an appointment slave record.\n"
+  syntax:
+    content: public virtual Person InvitedPerson { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Person
+    content.vb: Public Overridable Property InvitedPerson As Person
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.InvitedPerson*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Person
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Person
+  id: Person
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: AppointmentEntity.Person
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Person
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAn appointment may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.\n<p>Use MDO List name &quot;person&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Person Person { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Person
+    content.vb: Public Overridable Property Person As Person
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.Person*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.MotherId
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.MotherId
+  id: MotherId
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: MotherId
+  nameWithType: AppointmentEntity.MotherId
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.MotherId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment. However, if 0 and assoc_id != reg_id then this is an assigned appointment, indicated vt type = kBooking\n"
+  syntax:
+    content: public virtual int MotherId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property MotherId As Integer
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.MotherId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Priority
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Priority
+  id: Priority
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: AppointmentEntity.Priority
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Priority
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIt&apos;s possible to give appointments different priorities. All the different priority types are saved in the priority table, and edited from the Admin. Client. An appointment does not require a priority.\n<p>Use MDO List name &quot;priority&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Priority Priority { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Priority
+    content.vb: Public Overridable Property Priority As Priority
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.Priority*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Private_String
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Private_String
+  id: Private_String
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: Private_String
+  nameWithType: AppointmentEntity.Private_String
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Private_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe confidentiality of appointments is shown as different types of “private” on the appointment. For an updated list of “private” types, see the database manual.\nRaw string enum value.\n"
+  syntax:
+    content: public string Private_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Private_String As String
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.Private_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.AppointmentEntity.Private
+    commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Private
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Private
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Private
+  id: Private
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: Private
+  nameWithType: AppointmentEntity.Private
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Private
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe confidentiality of appointments is shown as different types of “private” on the appointment. For an updated list of “private” types, see the database manual.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<AppointmentPrivate> Private { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.AppointmentPrivate}
+    content.vb: Public Property Private As Nullable(Of AppointmentPrivate)
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.Private*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.AppointmentEntity.Private_String
+    commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Private_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Project
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Project
+  id: Project
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: AppointmentEntity.Project
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Project
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAn appointment may also be connected to a project, so you see the appointment both on the company card, and on the project card. This does not mean however that a project is required.\n<p>Use MDO List name &quot;project&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Project Project { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Project
+    content.vb: Public Overridable Property Project As Project
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.Project*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Type_String
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Type_String
+  id: Type_String
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: Type_String
+  nameWithType: AppointmentEntity.Type_String
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Type_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe different types of appointment, if the appointment is supposed to be shown in the diary or checklist, or if it&apos;s a document. See the different types of appointments in the database manual.\nRaw string enum value.\n"
+  syntax:
+    content: public string Type_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type_String As String
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.Type_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.AppointmentEntity.Type
+    commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Type
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Type
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: AppointmentEntity.Type
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe different types of appointment, if the appointment is supposed to be shown in the diary or checklist, or if it&apos;s a document. See the different types of appointments in the database manual.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<AppointmentType> Type { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.AppointmentType}
+    content.vb: Public Property Type As Nullable(Of AppointmentType)
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.Type*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.AppointmentEntity.Type_String
+    commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Type_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.UpdatedDate
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.UpdatedDate
+  id: UpdatedDate
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedDate
+  nameWithType: AppointmentEntity.UpdatedDate
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.UpdatedDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUpdated date\n"
+  syntax:
+    content: public virtual DateTime UpdatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property UpdatedDate As DateTime
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.UpdatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Completed_String
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Completed_String
+  id: Completed_String
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: Completed_String
+  nameWithType: AppointmentEntity.Completed_String
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Completed_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAppointment Completed state. This property is the part of the Status property that is the completed state. Could be three state if the three state user preference is set.\nRaw string enum value.\n"
+  syntax:
+    content: public string Completed_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Completed_String As String
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.Completed_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.AppointmentEntity.Completed
+    commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Completed
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Completed
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Completed
+  id: Completed
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: Completed
+  nameWithType: AppointmentEntity.Completed
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Completed
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAppointment Completed state. This property is the part of the Status property that is the completed state. Could be three state if the three state user preference is set.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ActivityStatus> Completed { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ActivityStatus}
+    content.vb: Public Property Completed As Nullable(Of ActivityStatus)
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.Completed*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.AppointmentEntity.Completed_String
+    commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Completed_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.ActiveLinks
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.ActiveLinks
+  id: ActiveLinks
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: ActiveLinks
+  nameWithType: AppointmentEntity.ActiveLinks
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.ActiveLinks
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of active links to sale, document, appointment.\n"
+  syntax:
+    content: public virtual int ActiveLinks { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ActiveLinks As Integer
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.ActiveLinks*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Links
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Links
+  id: Links
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: Links
+  nameWithType: AppointmentEntity.Links
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Links
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nList of all elements linked to the appointment.\n"
+  syntax:
+    content: public virtual Link[] Links { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Link[]
+    content.vb: Public Overridable Property Links As Link()
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.Links*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.AlarmLeadTime
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.AlarmLeadTime
+  id: AlarmLeadTime
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: AlarmLeadTime
+  nameWithType: AppointmentEntity.AlarmLeadTime
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.AlarmLeadTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAlarm lead time.\n"
+  syntax:
+    content: public virtual TimeSpan AlarmLeadTime { get; set; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: Public Overridable Property AlarmLeadTime As TimeSpan
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.AlarmLeadTime*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.HasAlarm
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.HasAlarm
+  id: HasAlarm
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: HasAlarm
+  nameWithType: AppointmentEntity.HasAlarm
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.HasAlarm
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDoes this appointment have an alarm\n"
+  syntax:
+    content: public virtual bool HasAlarm { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property HasAlarm As Boolean
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.HasAlarm*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.ColorIndex
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.ColorIndex
+  id: ColorIndex
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: ColorIndex
+  nameWithType: AppointmentEntity.ColorIndex
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.ColorIndex
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAppointment colour, used only in Japanese versions. Western versions take colour from Task\n"
+  syntax:
+    content: public virtual short ColorIndex { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property ColorIndex As Short
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.ColorIndex*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.IsFree
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.IsFree
+  id: IsFree
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: IsFree
+  nameWithType: AppointmentEntity.IsFree
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.IsFree
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if free, false if busy\n"
+  syntax:
+    content: public virtual bool IsFree { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsFree As Boolean
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.IsFree*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.IsAlldayEvent
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.IsAlldayEvent
+  id: IsAlldayEvent
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: IsAlldayEvent
+  nameWithType: AppointmentEntity.IsAlldayEvent
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.IsAlldayEvent
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if all day event\n"
+  syntax:
+    content: public virtual bool IsAlldayEvent { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsAlldayEvent As Boolean
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.IsAlldayEvent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.LagTime
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.LagTime
+  id: LagTime
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: LagTime
+  nameWithType: AppointmentEntity.LagTime
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.LagTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nas leadtime, but after the end - time blocked for travel etc.\n"
+  syntax:
+    content: public virtual TimeSpan LagTime { get; set; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: Public Overridable Property LagTime As TimeSpan
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.LagTime*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.LeadTime
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.LeadTime
+  id: LeadTime
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: LeadTime
+  nameWithType: AppointmentEntity.LeadTime
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.LeadTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTime blocked (minutes) BEFORE starttime\n"
+  syntax:
+    content: public virtual TimeSpan LeadTime { get; set; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: Public Overridable Property LeadTime As TimeSpan
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.LeadTime*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Location
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Location
+  id: Location
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: AppointmentEntity.Location
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Location
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLocation for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here\n"
+  syntax:
+    content: public virtual string Location { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Location As String
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.Location*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.RejectCounter
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.RejectCounter
+  id: RejectCounter
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: RejectCounter
+  nameWithType: AppointmentEntity.RejectCounter
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.RejectCounter
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHow many invitees have rejected this appointment\n"
+  syntax:
+    content: public virtual short RejectCounter { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property RejectCounter As Short
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.RejectCounter*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.RejectReason
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.RejectReason
+  id: RejectReason
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: RejectReason
+  nameWithType: AppointmentEntity.RejectReason
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.RejectReason
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhy was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here\n<p>Use MDO List name &quot;rejectReason&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual string RejectReason { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RejectReason As String
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.RejectReason*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Recurrence
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Recurrence
+  id: Recurrence
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: Recurrence
+  nameWithType: AppointmentEntity.Recurrence
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Recurrence
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe appointment recurrence.\n"
+  syntax:
+    content: public virtual RecurrenceInfo Recurrence { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.RecurrenceInfo
+    content.vb: Public Overridable Property Recurrence As RecurrenceInfo
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.Recurrence*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Participants
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Participants
+  id: Participants
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: Participants
+  nameWithType: AppointmentEntity.Participants
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Participants
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nList of id&apos;s of the participants to this appointment.\n"
+  syntax:
+    content: public virtual ParticipantInfo[] Participants { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ParticipantInfo[]
+    content.vb: Public Overridable Property Participants As ParticipantInfo()
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.Participants*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.AssignmentStatus_String
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.AssignmentStatus_String
+  id: AssignmentStatus_String
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: AssignmentStatus_String
+  nameWithType: AppointmentEntity.AssignmentStatus_String
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.AssignmentStatus_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStatus if this appointment is in the process of being assigned to someone else\nRaw string enum value.\n"
+  syntax:
+    content: public string AssignmentStatus_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AssignmentStatus_String As String
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.AssignmentStatus_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.AppointmentEntity.AssignmentStatus
+    commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.AssignmentStatus
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.AssignmentStatus
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.AssignmentStatus
+  id: AssignmentStatus
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: AssignmentStatus
+  nameWithType: AppointmentEntity.AssignmentStatus
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.AssignmentStatus
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStatus if this appointment is in the process of being assigned to someone else\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<AssignmentStatus> AssignmentStatus { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.AssignmentStatus}
+    content.vb: Public Property AssignmentStatus As Nullable(Of AssignmentStatus)
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.AssignmentStatus*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.AppointmentEntity.AssignmentStatus_String
+    commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.AssignmentStatus_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.InvitationStatus_String
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.InvitationStatus_String
+  id: InvitationStatus_String
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: InvitationStatus_String
+  nameWithType: AppointmentEntity.InvitationStatus_String
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.InvitationStatus_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStatus if this appointment represents an invitation\nRaw string enum value.\n"
+  syntax:
+    content: public string InvitationStatus_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property InvitationStatus_String As String
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.InvitationStatus_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.AppointmentEntity.InvitationStatus
+    commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.InvitationStatus
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.InvitationStatus
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.InvitationStatus
+  id: InvitationStatus
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: InvitationStatus
+  nameWithType: AppointmentEntity.InvitationStatus
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.InvitationStatus
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStatus if this appointment represents an invitation\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<InvitationStatus> InvitationStatus { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.InvitationStatus}
+    content.vb: Public Property InvitationStatus As Nullable(Of InvitationStatus)
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.InvitationStatus*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.AppointmentEntity.InvitationStatus_String
+    commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.InvitationStatus_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.BookingType_String
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.BookingType_String
+  id: BookingType_String
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: BookingType_String
+  nameWithType: AppointmentEntity.BookingType_String
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.BookingType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe type of booking the appointment represents\nRaw string enum value.\n"
+  syntax:
+    content: public string BookingType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property BookingType_String As String
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.BookingType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.AppointmentEntity.BookingType
+    commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.BookingType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.BookingType
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.BookingType
+  id: BookingType
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: BookingType
+  nameWithType: AppointmentEntity.BookingType
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.BookingType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe type of booking the appointment represents\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<BookingType> BookingType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.BookingType}
+    content.vb: Public Property BookingType As Nullable(Of BookingType)
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.BookingType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.AppointmentEntity.BookingType_String
+    commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.BookingType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.ActiveDate
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.ActiveDate
+  id: ActiveDate
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: ActiveDate
+  nameWithType: AppointmentEntity.ActiveDate
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.ActiveDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe date to be used for searching &amp; showing\n"
+  syntax:
+    content: public virtual DateTime ActiveDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property ActiveDate As DateTime
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.ActiveDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.HasConflict
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.HasConflict
+  id: HasConflict
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: HasConflict
+  nameWithType: AppointmentEntity.HasConflict
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.HasConflict
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDoes the appointment overlap with another appointment in the user&apos;s diary?\n"
+  syntax:
+    content: public virtual bool HasConflict { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property HasConflict As Boolean
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.HasConflict*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.AssignedBy
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.AssignedBy
+  id: AssignedBy
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: AssignedBy
+  nameWithType: AppointmentEntity.AssignedBy
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.AssignedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWho assigned this appointment to this user? Whose diary did the appointment come from?\n"
+  syntax:
+    content: public virtual Associate AssignedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property AssignedBy As Associate
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.AssignedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.MotherAssociate
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.MotherAssociate
+  id: MotherAssociate
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: MotherAssociate
+  nameWithType: AppointmentEntity.MotherAssociate
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.MotherAssociate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe owner of the mother appointment - the associate whose diary/checklist the mother appointment is in.  The mother appointment is the one identified by the mother_id. If the mother_id is 0 or the same as this appointment_id, then the master associate will be the same as the &apos;ordinary&apos; associate.\n"
+  syntax:
+    content: public virtual Associate MotherAssociate { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property MotherAssociate As Associate
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.MotherAssociate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Task
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Task
+  id: Task
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: Task
+  nameWithType: AppointmentEntity.Task
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Task
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTask comprises the different types of activities, like “Phone call”, “Meeting” and so on.\n<p>Use MDO List name &quot;task&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual TaskListItem Task { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TaskListItem
+    content.vb: Public Overridable Property Task As TaskListItem
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.Task*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.PreferredTZLocation
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.PreferredTZLocation
+  id: PreferredTZLocation
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: PreferredTZLocation
+  nameWithType: AppointmentEntity.PreferredTZLocation
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.PreferredTZLocation
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAppoinmtments preferred timezone location.\n"
+  syntax:
+    content: public virtual int PreferredTZLocation { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PreferredTZLocation As Integer
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.PreferredTZLocation*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Sale
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Sale
+  id: Sale
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: Sale
+  nameWithType: AppointmentEntity.Sale
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Sale
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAn appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.\n<p>Use MDO List name &quot;sale&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Sale Sale { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Sale
+    content.vb: Public Overridable Property Sale As Sale
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.Sale*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.SuggestedAppointmentId
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.SuggestedAppointmentId
+  id: SuggestedAppointmentId
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: SuggestedAppointmentId
+  nameWithType: AppointmentEntity.SuggestedAppointmentId
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.SuggestedAppointmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSuggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link)\n"
+  syntax:
+    content: public virtual int SuggestedAppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SuggestedAppointmentId As Integer
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.SuggestedAppointmentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.IsMileStone
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.IsMileStone
+  id: IsMileStone
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: IsMileStone
+  nameWithType: AppointmentEntity.IsMileStone
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.IsMileStone
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs this appointment a milestone?\n"
+  syntax:
+    content: public virtual bool IsMileStone { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsMileStone As Boolean
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.IsMileStone*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.CautionWarning_String
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.CautionWarning_String
+  id: CautionWarning_String
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: CautionWarning_String
+  nameWithType: AppointmentEntity.CautionWarning_String
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.CautionWarning_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStatus field to indicate appointments that have some sort of problem\nRaw string enum value.\n"
+  syntax:
+    content: public string CautionWarning_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CautionWarning_String As String
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.CautionWarning_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.AppointmentEntity.CautionWarning
+    commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.CautionWarning
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.CautionWarning
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.CautionWarning
+  id: CautionWarning
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: CautionWarning
+  nameWithType: AppointmentEntity.CautionWarning
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.CautionWarning
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStatus field to indicate appointments that have some sort of problem\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<AppointmentCautionWarning> CautionWarning { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.AppointmentCautionWarning}
+    content.vb: Public Property CautionWarning As Nullable(Of AppointmentCautionWarning)
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.CautionWarning*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.AppointmentEntity.CautionWarning_String
+    commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.CautionWarning_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.JoinVideomeetUrl
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.JoinVideomeetUrl
+  id: JoinVideomeetUrl
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: JoinVideomeetUrl
+  nameWithType: AppointmentEntity.JoinVideomeetUrl
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.JoinVideomeetUrl
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nBlank when not a video meeting. Filled with Join Meeting URL when created.\n"
+  syntax:
+    content: public virtual string JoinVideomeetUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property JoinVideomeetUrl As String
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.JoinVideomeetUrl*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.CentralserviceVideomeetId
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.CentralserviceVideomeetId
+  id: CentralserviceVideomeetId
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: CentralserviceVideomeetId
+  nameWithType: AppointmentEntity.CentralserviceVideomeetId
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.CentralserviceVideomeetId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox.\n"
+  syntax:
+    content: public virtual string CentralserviceVideomeetId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CentralserviceVideomeetId As String
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.CentralserviceVideomeetId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.UserDefinedFields
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.UserDefinedFields
+  id: UserDefinedFields
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFields
+  nameWithType: AppointmentEntity.UserDefinedFields
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.UserDefinedFields
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDeprecated: Use <xref href=\"SuperOffice.WebApi.Data.AppointmentEntity.CustomFields\" data-throw-if-not-resolved=\"false\"></xref> instead.\nDictionary of user defined field data.\nThe key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format &quot;SuperOffice:[UdefFieldIdentity]&quot;, e.g. &quot;SuperOffice:1234&quot;\nThe value string is the encoded value: &quot;[I:123]&quot; or &quot;[DT:2019-09-11]&quot;.\n"
+  syntax:
+    content: public virtual StringDictionary UserDefinedFields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StringDictionary
+    content.vb: Public Overridable Property UserDefinedFields As StringDictionary
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.UserDefinedFields*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.ExtraFields
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.ExtraFields
+  id: ExtraFields
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: ExtraFields
+  nameWithType: AppointmentEntity.ExtraFields
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.ExtraFields
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDeprecated: Use <xref href=\"SuperOffice.WebApi.Data.AppointmentEntity.CustomFields\" data-throw-if-not-resolved=\"false\"></xref> instead.\nExtra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc.\nThe value string is the encoded value: &quot;[I:123]&quot; or &quot;[DT:2019-09-11]&quot;.\n"
+  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Plug-in data</td><td>\n	[Plug-in name].[Property name]\n	Example: DocumentPlugin.DocumentType\n</td></tr><tr><td>Foreign key data</td><td>\nThe device identity is appended directly to the device name if it exists. \n   This is not commonly used, but the database opens for this as a possibility to have several devices with the same name, \n   and hence we would ensure an unique key if this field is used.\n   Example: Audience.SecretService.DefaultCountry\n</td></tr><tr><td>User defined table data</td><td>\n[Table name].[Field name]\nExample: Phunneling.AggregatedSales\n</td></tr><tr><td>Other</td><td>\nOther data sources must ensure an unique name. If the key already exists we do not add the data to the dictionary. \nWe also ensure that SuperOffice data are added first, so that existing data doesnt change when more data sources are added (with duplicate data keys).\n</td></tr></tbody></table>\n"
+  syntax:
+    content: public virtual StringDictionary ExtraFields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StringDictionary
+    content.vb: Public Overridable Property ExtraFields As StringDictionary
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.ExtraFields*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.CustomFields
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.CustomFields
+  id: CustomFields
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: CustomFields
+  nameWithType: AppointmentEntity.CustomFields
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.CustomFields
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUdef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin.\nCustom fields combines user defined fields and extra fields into one bucket. \nThe individual <xref href=\"SuperOffice.WebApi.Data.AppointmentEntity.ExtraFields\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.WebApi.Data.AppointmentEntity.UserDefinedFields\" data-throw-if-not-resolved=\"false\"></xref> properties are deprecated in favor of this\ncombined collection.\nThe value string is the encoded value: &quot;[I:123]&quot; or &quot;[DT:2019-09-11]&quot;.\n"
+  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Extra field data</td><td>\n	[Extra field name]<p></p>\n	Example: <pre><code>&apos;x_gorp&apos; = &apos;[I:123]&apos;</code></pre>\n</td></tr><tr><td>User defined field data</td><td>\n[Prog-id name]<p></p>\n   Example: <pre><code>&apos;SuperOffice:1&apos; = &apos;[I:123]&apos;</code></pre><p></p>\n</td></tr></tbody></table>\n"
+  syntax:
+    content: public virtual StringDictionary CustomFields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StringDictionary
+    content.vb: Public Overridable Property CustomFields As StringDictionary
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.CustomFields*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.PublishEventDate
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.PublishEventDate
+  id: PublishEventDate
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: PublishEventDate
+  nameWithType: AppointmentEntity.PublishEventDate
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.PublishEventDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPublish event date\n"
+  syntax:
+    content: public virtual DateTime PublishEventDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property PublishEventDate As DateTime
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.PublishEventDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.PublishTo
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.PublishTo
+  id: PublishTo
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: PublishTo
+  nameWithType: AppointmentEntity.PublishTo
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.PublishTo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPublication valid to (inclusive)\n"
+  syntax:
+    content: public virtual DateTime PublishTo { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property PublishTo As DateTime
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.PublishTo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.PublishFrom
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.PublishFrom
+  id: PublishFrom
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: PublishFrom
+  nameWithType: AppointmentEntity.PublishFrom
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.PublishFrom
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPublication valid from (inclusive)\n"
+  syntax:
+    content: public virtual DateTime PublishFrom { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property PublishFrom As DateTime
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.PublishFrom*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.IsPublished
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.IsPublished
+  id: IsPublished
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: IsPublished
+  nameWithType: AppointmentEntity.IsPublished
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.IsPublished
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPublication is published\n"
+  syntax:
+    content: public virtual bool IsPublished { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsPublished As Boolean
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.IsPublished*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.VisibleFor
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.VisibleFor
+  id: VisibleFor
+  parent: SuperOffice.WebApi.Data.AppointmentEntity
+  langs:
+  - csharp
+  - vb
+  name: VisibleFor
+  nameWithType: AppointmentEntity.VisibleFor
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.VisibleFor
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe set of users or groups the record is visible for\n"
+  syntax:
+    content: public virtual VisibleFor[] VisibleFor { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.VisibleFor[]
+    content.vb: Public Overridable Property VisibleFor As VisibleFor()
+  overload: SuperOffice.WebApi.Data.AppointmentEntity.VisibleFor*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.AppointmentAgent
+  commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  isExternal: true
+  name: AppointmentAgent
+  nameWithType: AppointmentAgent
+  fullName: SuperOffice.WebApi.Agents.AppointmentAgent
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+- uid: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  isExternal: true
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.#ctor
+  isExternal: true
+  name: AppointmentEntity
+  nameWithType: AppointmentEntity.AppointmentEntity
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.AppointmentEntity
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Associate*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.Associate
+  isExternal: true
+  name: Associate
+  nameWithType: AppointmentEntity.Associate
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Associate
+- uid: SuperOffice.WebApi.Data.Associate
+  commentId: T:SuperOffice.WebApi.Data.Associate
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.WebApi.Data.Associate
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Contact*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.Contact
+  isExternal: true
+  name: Contact
+  nameWithType: AppointmentEntity.Contact
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Contact
+- uid: SuperOffice.WebApi.Data.Contact
+  commentId: T:SuperOffice.WebApi.Data.Contact
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Contact
+  nameWithType: Contact
+  fullName: SuperOffice.WebApi.Data.Contact
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.CreatedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: AppointmentEntity.CreatedBy
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.CreatedBy
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.UpdatedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.UpdatedBy
+  isExternal: true
+  name: UpdatedBy
+  nameWithType: AppointmentEntity.UpdatedBy
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.UpdatedBy
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.CreatedDate*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.CreatedDate
+  isExternal: true
+  name: CreatedDate
+  nameWithType: AppointmentEntity.CreatedDate
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.CreatedDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.AppointmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: AppointmentEntity.AppointmentId
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.AppointmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.Description
+  isExternal: true
+  name: Description
+  nameWithType: AppointmentEntity.Description
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Description
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.StartDate*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.StartDate
+  isExternal: true
+  name: StartDate
+  nameWithType: AppointmentEntity.StartDate
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.StartDate
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.EndDate*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.EndDate
+  isExternal: true
+  name: EndDate
+  nameWithType: AppointmentEntity.EndDate
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.EndDate
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.InvitedPerson*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.InvitedPerson
+  isExternal: true
+  name: InvitedPerson
+  nameWithType: AppointmentEntity.InvitedPerson
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.InvitedPerson
+- uid: SuperOffice.WebApi.Data.Person
+  commentId: T:SuperOffice.WebApi.Data.Person
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Person
+  nameWithType: Person
+  fullName: SuperOffice.WebApi.Data.Person
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Person*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.Person
+  isExternal: true
+  name: Person
+  nameWithType: AppointmentEntity.Person
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Person
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.MotherId*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.MotherId
+  isExternal: true
+  name: MotherId
+  nameWithType: AppointmentEntity.MotherId
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.MotherId
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Priority*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.Priority
+  isExternal: true
+  name: Priority
+  nameWithType: AppointmentEntity.Priority
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Priority
+- uid: SuperOffice.WebApi.Data.Priority
+  commentId: T:SuperOffice.WebApi.Data.Priority
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Priority
+  nameWithType: Priority
+  fullName: SuperOffice.WebApi.Data.Priority
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Private_String*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.Private_String
+  isExternal: true
+  name: Private_String
+  nameWithType: AppointmentEntity.Private_String
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Private_String
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Private
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Private
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Private*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.Private
+  isExternal: true
+  name: Private
+  nameWithType: AppointmentEntity.Private
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Private
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Private_String
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Private_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.AppointmentPrivate}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.AppointmentPrivate}'
+  definition: System.Nullable`1
+  name: Nullable<AppointmentPrivate>
+  nameWithType: Nullable<AppointmentPrivate>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.AppointmentPrivate>
+  nameWithType.vb: Nullable(Of AppointmentPrivate)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.AppointmentPrivate)
+  name.vb: Nullable(Of AppointmentPrivate)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.AppointmentPrivate
+    name: AppointmentPrivate
+    nameWithType: AppointmentPrivate
+    fullName: SuperOffice.WebApi.Data.AppointmentPrivate
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.AppointmentPrivate
+    name: AppointmentPrivate
+    nameWithType: AppointmentPrivate
+    fullName: SuperOffice.WebApi.Data.AppointmentPrivate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Project*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.Project
+  isExternal: true
+  name: Project
+  nameWithType: AppointmentEntity.Project
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Project
+- uid: SuperOffice.WebApi.Data.Project
+  commentId: T:SuperOffice.WebApi.Data.Project
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Project
+  nameWithType: Project
+  fullName: SuperOffice.WebApi.Data.Project
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Type_String*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.Type_String
+  isExternal: true
+  name: Type_String
+  nameWithType: AppointmentEntity.Type_String
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Type_String
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Type
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Type
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.Type
+  isExternal: true
+  name: Type
+  nameWithType: AppointmentEntity.Type
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Type
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Type_String
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Type_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.AppointmentType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.AppointmentType}'
+  definition: System.Nullable`1
+  name: Nullable<AppointmentType>
+  nameWithType: Nullable<AppointmentType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.AppointmentType>
+  nameWithType.vb: Nullable(Of AppointmentType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.AppointmentType)
+  name.vb: Nullable(Of AppointmentType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.AppointmentType
+    name: AppointmentType
+    nameWithType: AppointmentType
+    fullName: SuperOffice.WebApi.Data.AppointmentType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.AppointmentType
+    name: AppointmentType
+    nameWithType: AppointmentType
+    fullName: SuperOffice.WebApi.Data.AppointmentType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.UpdatedDate*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.UpdatedDate
+  isExternal: true
+  name: UpdatedDate
+  nameWithType: AppointmentEntity.UpdatedDate
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.UpdatedDate
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Completed_String*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.Completed_String
+  isExternal: true
+  name: Completed_String
+  nameWithType: AppointmentEntity.Completed_String
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Completed_String
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Completed
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Completed
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Completed*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.Completed
+  isExternal: true
+  name: Completed
+  nameWithType: AppointmentEntity.Completed
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Completed
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Completed_String
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.Completed_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ActivityStatus}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ActivityStatus}'
+  definition: System.Nullable`1
+  name: Nullable<ActivityStatus>
+  nameWithType: Nullable<ActivityStatus>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ActivityStatus>
+  nameWithType.vb: Nullable(Of ActivityStatus)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ActivityStatus)
+  name.vb: Nullable(Of ActivityStatus)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ActivityStatus
+    name: ActivityStatus
+    nameWithType: ActivityStatus
+    fullName: SuperOffice.WebApi.Data.ActivityStatus
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ActivityStatus
+    name: ActivityStatus
+    nameWithType: ActivityStatus
+    fullName: SuperOffice.WebApi.Data.ActivityStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.ActiveLinks*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.ActiveLinks
+  isExternal: true
+  name: ActiveLinks
+  nameWithType: AppointmentEntity.ActiveLinks
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.ActiveLinks
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Links*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.Links
+  isExternal: true
+  name: Links
+  nameWithType: AppointmentEntity.Links
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Links
+- uid: SuperOffice.WebApi.Data.Link[]
+  isExternal: true
+  name: Link[]
+  nameWithType: Link[]
+  fullName: SuperOffice.WebApi.Data.Link[]
+  nameWithType.vb: Link()
+  fullName.vb: SuperOffice.WebApi.Data.Link()
+  name.vb: Link()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.Link
+    name: Link
+    nameWithType: Link
+    fullName: SuperOffice.WebApi.Data.Link
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.Link
+    name: Link
+    nameWithType: Link
+    fullName: SuperOffice.WebApi.Data.Link
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.AlarmLeadTime*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.AlarmLeadTime
+  isExternal: true
+  name: AlarmLeadTime
+  nameWithType: AppointmentEntity.AlarmLeadTime
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.AlarmLeadTime
+- uid: System.TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.HasAlarm*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.HasAlarm
+  isExternal: true
+  name: HasAlarm
+  nameWithType: AppointmentEntity.HasAlarm
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.HasAlarm
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.ColorIndex*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.ColorIndex
+  isExternal: true
+  name: ColorIndex
+  nameWithType: AppointmentEntity.ColorIndex
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.ColorIndex
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.IsFree*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.IsFree
+  isExternal: true
+  name: IsFree
+  nameWithType: AppointmentEntity.IsFree
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.IsFree
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.IsAlldayEvent*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.IsAlldayEvent
+  isExternal: true
+  name: IsAlldayEvent
+  nameWithType: AppointmentEntity.IsAlldayEvent
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.IsAlldayEvent
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.LagTime*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.LagTime
+  isExternal: true
+  name: LagTime
+  nameWithType: AppointmentEntity.LagTime
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.LagTime
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.LeadTime*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.LeadTime
+  isExternal: true
+  name: LeadTime
+  nameWithType: AppointmentEntity.LeadTime
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.LeadTime
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Location*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.Location
+  isExternal: true
+  name: Location
+  nameWithType: AppointmentEntity.Location
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Location
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.RejectCounter*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.RejectCounter
+  isExternal: true
+  name: RejectCounter
+  nameWithType: AppointmentEntity.RejectCounter
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.RejectCounter
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.RejectReason*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.RejectReason
+  isExternal: true
+  name: RejectReason
+  nameWithType: AppointmentEntity.RejectReason
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.RejectReason
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Recurrence*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.Recurrence
+  isExternal: true
+  name: Recurrence
+  nameWithType: AppointmentEntity.Recurrence
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Recurrence
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo
+  commentId: T:SuperOffice.WebApi.Data.RecurrenceInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: RecurrenceInfo
+  nameWithType: RecurrenceInfo
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Participants*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.Participants
+  isExternal: true
+  name: Participants
+  nameWithType: AppointmentEntity.Participants
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Participants
+- uid: SuperOffice.WebApi.Data.ParticipantInfo[]
+  isExternal: true
+  name: ParticipantInfo[]
+  nameWithType: ParticipantInfo[]
+  fullName: SuperOffice.WebApi.Data.ParticipantInfo[]
+  nameWithType.vb: ParticipantInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ParticipantInfo()
+  name.vb: ParticipantInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ParticipantInfo
+    name: ParticipantInfo
+    nameWithType: ParticipantInfo
+    fullName: SuperOffice.WebApi.Data.ParticipantInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ParticipantInfo
+    name: ParticipantInfo
+    nameWithType: ParticipantInfo
+    fullName: SuperOffice.WebApi.Data.ParticipantInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.AssignmentStatus_String*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.AssignmentStatus_String
+  isExternal: true
+  name: AssignmentStatus_String
+  nameWithType: AppointmentEntity.AssignmentStatus_String
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.AssignmentStatus_String
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.AssignmentStatus
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.AssignmentStatus
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.AssignmentStatus*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.AssignmentStatus
+  isExternal: true
+  name: AssignmentStatus
+  nameWithType: AppointmentEntity.AssignmentStatus
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.AssignmentStatus
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.AssignmentStatus_String
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.AssignmentStatus_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.AssignmentStatus}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.AssignmentStatus}'
+  definition: System.Nullable`1
+  name: Nullable<AssignmentStatus>
+  nameWithType: Nullable<AssignmentStatus>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.AssignmentStatus>
+  nameWithType.vb: Nullable(Of AssignmentStatus)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.AssignmentStatus)
+  name.vb: Nullable(Of AssignmentStatus)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.AssignmentStatus
+    name: AssignmentStatus
+    nameWithType: AssignmentStatus
+    fullName: SuperOffice.WebApi.Data.AssignmentStatus
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.AssignmentStatus
+    name: AssignmentStatus
+    nameWithType: AssignmentStatus
+    fullName: SuperOffice.WebApi.Data.AssignmentStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.InvitationStatus_String*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.InvitationStatus_String
+  isExternal: true
+  name: InvitationStatus_String
+  nameWithType: AppointmentEntity.InvitationStatus_String
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.InvitationStatus_String
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.InvitationStatus
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.InvitationStatus
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.InvitationStatus*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.InvitationStatus
+  isExternal: true
+  name: InvitationStatus
+  nameWithType: AppointmentEntity.InvitationStatus
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.InvitationStatus
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.InvitationStatus_String
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.InvitationStatus_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.InvitationStatus}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.InvitationStatus}'
+  definition: System.Nullable`1
+  name: Nullable<InvitationStatus>
+  nameWithType: Nullable<InvitationStatus>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.InvitationStatus>
+  nameWithType.vb: Nullable(Of InvitationStatus)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.InvitationStatus)
+  name.vb: Nullable(Of InvitationStatus)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.InvitationStatus
+    name: InvitationStatus
+    nameWithType: InvitationStatus
+    fullName: SuperOffice.WebApi.Data.InvitationStatus
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.InvitationStatus
+    name: InvitationStatus
+    nameWithType: InvitationStatus
+    fullName: SuperOffice.WebApi.Data.InvitationStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.BookingType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.BookingType_String
+  isExternal: true
+  name: BookingType_String
+  nameWithType: AppointmentEntity.BookingType_String
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.BookingType_String
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.BookingType
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.BookingType
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.BookingType*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.BookingType
+  isExternal: true
+  name: BookingType
+  nameWithType: AppointmentEntity.BookingType
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.BookingType
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.BookingType_String
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.BookingType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.BookingType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.BookingType}'
+  definition: System.Nullable`1
+  name: Nullable<BookingType>
+  nameWithType: Nullable<BookingType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.BookingType>
+  nameWithType.vb: Nullable(Of BookingType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.BookingType)
+  name.vb: Nullable(Of BookingType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.BookingType
+    name: BookingType
+    nameWithType: BookingType
+    fullName: SuperOffice.WebApi.Data.BookingType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.BookingType
+    name: BookingType
+    nameWithType: BookingType
+    fullName: SuperOffice.WebApi.Data.BookingType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.ActiveDate*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.ActiveDate
+  isExternal: true
+  name: ActiveDate
+  nameWithType: AppointmentEntity.ActiveDate
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.ActiveDate
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.HasConflict*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.HasConflict
+  isExternal: true
+  name: HasConflict
+  nameWithType: AppointmentEntity.HasConflict
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.HasConflict
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.AssignedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.AssignedBy
+  isExternal: true
+  name: AssignedBy
+  nameWithType: AppointmentEntity.AssignedBy
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.AssignedBy
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.MotherAssociate*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.MotherAssociate
+  isExternal: true
+  name: MotherAssociate
+  nameWithType: AppointmentEntity.MotherAssociate
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.MotherAssociate
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Task*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.Task
+  isExternal: true
+  name: Task
+  nameWithType: AppointmentEntity.Task
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Task
+- uid: SuperOffice.WebApi.Data.TaskListItem
+  commentId: T:SuperOffice.WebApi.Data.TaskListItem
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TaskListItem
+  nameWithType: TaskListItem
+  fullName: SuperOffice.WebApi.Data.TaskListItem
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.PreferredTZLocation*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.PreferredTZLocation
+  isExternal: true
+  name: PreferredTZLocation
+  nameWithType: AppointmentEntity.PreferredTZLocation
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.PreferredTZLocation
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.Sale*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.Sale
+  isExternal: true
+  name: Sale
+  nameWithType: AppointmentEntity.Sale
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.Sale
+- uid: SuperOffice.WebApi.Data.Sale
+  commentId: T:SuperOffice.WebApi.Data.Sale
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Sale
+  nameWithType: Sale
+  fullName: SuperOffice.WebApi.Data.Sale
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.SuggestedAppointmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.SuggestedAppointmentId
+  isExternal: true
+  name: SuggestedAppointmentId
+  nameWithType: AppointmentEntity.SuggestedAppointmentId
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.SuggestedAppointmentId
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.IsMileStone*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.IsMileStone
+  isExternal: true
+  name: IsMileStone
+  nameWithType: AppointmentEntity.IsMileStone
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.IsMileStone
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.CautionWarning_String*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.CautionWarning_String
+  isExternal: true
+  name: CautionWarning_String
+  nameWithType: AppointmentEntity.CautionWarning_String
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.CautionWarning_String
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.CautionWarning
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.CautionWarning
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.CautionWarning*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.CautionWarning
+  isExternal: true
+  name: CautionWarning
+  nameWithType: AppointmentEntity.CautionWarning
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.CautionWarning
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.CautionWarning_String
+  commentId: P:SuperOffice.WebApi.Data.AppointmentEntity.CautionWarning_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.AppointmentCautionWarning}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.AppointmentCautionWarning}'
+  definition: System.Nullable`1
+  name: Nullable<AppointmentCautionWarning>
+  nameWithType: Nullable<AppointmentCautionWarning>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.AppointmentCautionWarning>
+  nameWithType.vb: Nullable(Of AppointmentCautionWarning)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.AppointmentCautionWarning)
+  name.vb: Nullable(Of AppointmentCautionWarning)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.AppointmentCautionWarning
+    name: AppointmentCautionWarning
+    nameWithType: AppointmentCautionWarning
+    fullName: SuperOffice.WebApi.Data.AppointmentCautionWarning
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.AppointmentCautionWarning
+    name: AppointmentCautionWarning
+    nameWithType: AppointmentCautionWarning
+    fullName: SuperOffice.WebApi.Data.AppointmentCautionWarning
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.JoinVideomeetUrl*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.JoinVideomeetUrl
+  isExternal: true
+  name: JoinVideomeetUrl
+  nameWithType: AppointmentEntity.JoinVideomeetUrl
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.JoinVideomeetUrl
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.CentralserviceVideomeetId*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.CentralserviceVideomeetId
+  isExternal: true
+  name: CentralserviceVideomeetId
+  nameWithType: AppointmentEntity.CentralserviceVideomeetId
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.CentralserviceVideomeetId
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.UserDefinedFields*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.UserDefinedFields
+  isExternal: true
+  name: UserDefinedFields
+  nameWithType: AppointmentEntity.UserDefinedFields
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.UserDefinedFields
+- uid: SuperOffice.WebApi.Data.StringDictionary
+  commentId: T:SuperOffice.WebApi.Data.StringDictionary
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.WebApi.Data.StringDictionary
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.ExtraFields*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.ExtraFields
+  isExternal: true
+  name: ExtraFields
+  nameWithType: AppointmentEntity.ExtraFields
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.ExtraFields
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.CustomFields*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.CustomFields
+  isExternal: true
+  name: CustomFields
+  nameWithType: AppointmentEntity.CustomFields
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.CustomFields
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.PublishEventDate*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.PublishEventDate
+  isExternal: true
+  name: PublishEventDate
+  nameWithType: AppointmentEntity.PublishEventDate
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.PublishEventDate
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.PublishTo*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.PublishTo
+  isExternal: true
+  name: PublishTo
+  nameWithType: AppointmentEntity.PublishTo
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.PublishTo
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.PublishFrom*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.PublishFrom
+  isExternal: true
+  name: PublishFrom
+  nameWithType: AppointmentEntity.PublishFrom
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.PublishFrom
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.IsPublished*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.IsPublished
+  isExternal: true
+  name: IsPublished
+  nameWithType: AppointmentEntity.IsPublished
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.IsPublished
+- uid: SuperOffice.WebApi.Data.AppointmentEntity.VisibleFor*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentEntity.VisibleFor
+  isExternal: true
+  name: VisibleFor
+  nameWithType: AppointmentEntity.VisibleFor
+  fullName: SuperOffice.WebApi.Data.AppointmentEntity.VisibleFor
+- uid: SuperOffice.WebApi.Data.VisibleFor[]
+  isExternal: true
+  name: VisibleFor[]
+  nameWithType: VisibleFor[]
+  fullName: SuperOffice.WebApi.Data.VisibleFor[]
+  nameWithType.vb: VisibleFor()
+  fullName.vb: SuperOffice.WebApi.Data.VisibleFor()
+  name.vb: VisibleFor()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.VisibleFor
+    name: VisibleFor
+    nameWithType: VisibleFor
+    fullName: SuperOffice.WebApi.Data.VisibleFor
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.VisibleFor
+    name: VisibleFor
+    nameWithType: VisibleFor
+    fullName: SuperOffice.WebApi.Data.VisibleFor
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

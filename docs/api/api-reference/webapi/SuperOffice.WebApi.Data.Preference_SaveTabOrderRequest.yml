@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Preference_SaveTabOrderRequest
+  commentId: T:SuperOffice.WebApi.Data.Preference_SaveTabOrderRequest
+  id: Preference_SaveTabOrderRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Preference_SaveTabOrderRequest.#ctor
+  - SuperOffice.WebApi.Data.Preference_SaveTabOrderRequest.TabOrder
+  langs:
+  - csharp
+  - vb
+  name: Preference_SaveTabOrderRequest
+  nameWithType: Preference_SaveTabOrderRequest
+  fullName: SuperOffice.WebApi.Data.Preference_SaveTabOrderRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Preference_SaveTabOrderRequest : Object'
+    content.vb: >-
+      Public Class Preference_SaveTabOrderRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Preference_SaveTabOrderRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Preference_SaveTabOrderRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Preference_SaveTabOrderRequest
+  langs:
+  - csharp
+  - vb
+  name: Preference_SaveTabOrderRequest()
+  nameWithType: Preference_SaveTabOrderRequest.Preference_SaveTabOrderRequest()
+  fullName: SuperOffice.WebApi.Data.Preference_SaveTabOrderRequest.Preference_SaveTabOrderRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Preference_SaveTabOrderRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Preference_SaveTabOrderRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Preference_SaveTabOrderRequest.TabOrder
+  commentId: P:SuperOffice.WebApi.Data.Preference_SaveTabOrderRequest.TabOrder
+  id: TabOrder
+  parent: SuperOffice.WebApi.Data.Preference_SaveTabOrderRequest
+  langs:
+  - csharp
+  - vb
+  name: TabOrder
+  nameWithType: Preference_SaveTabOrderRequest.TabOrder
+  fullName: SuperOffice.WebApi.Data.Preference_SaveTabOrderRequest.TabOrder
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public TabOrder TabOrder { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TabOrder
+    content.vb: Public Property TabOrder As TabOrder
+  overload: SuperOffice.WebApi.Data.Preference_SaveTabOrderRequest.TabOrder*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Preference_SaveTabOrderRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_SaveTabOrderRequest.#ctor
+  isExternal: true
+  name: Preference_SaveTabOrderRequest
+  nameWithType: Preference_SaveTabOrderRequest.Preference_SaveTabOrderRequest
+  fullName: SuperOffice.WebApi.Data.Preference_SaveTabOrderRequest.Preference_SaveTabOrderRequest
+- uid: SuperOffice.WebApi.Data.Preference_SaveTabOrderRequest.TabOrder*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_SaveTabOrderRequest.TabOrder
+  isExternal: true
+  name: TabOrder
+  nameWithType: Preference_SaveTabOrderRequest.TabOrder
+  fullName: SuperOffice.WebApi.Data.Preference_SaveTabOrderRequest.TabOrder
+- uid: SuperOffice.WebApi.Data.TabOrder
+  commentId: T:SuperOffice.WebApi.Data.TabOrder
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TabOrder
+  nameWithType: TabOrder
+  fullName: SuperOffice.WebApi.Data.TabOrder

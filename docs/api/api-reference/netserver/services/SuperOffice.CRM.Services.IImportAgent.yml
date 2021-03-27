@@ -1,0 +1,387 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.IImportAgent
+  commentId: T:SuperOffice.CRM.Services.IImportAgent
+  id: IImportAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.IImportAgent.CreateDefaultImportLine(System.Int32)
+  - SuperOffice.CRM.Services.IImportAgent.CreateErpImportData(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,SuperOffice.Data.ErpActorType)
+  - SuperOffice.CRM.Services.IImportAgent.PreviewImport(SuperOffice.CRM.Services.ImportLine[],System.String[],System.String,System.String)
+  - SuperOffice.CRM.Services.IImportAgent.SaveImport(SuperOffice.CRM.Services.ImportLine[],System.String[],System.Boolean,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IImportAgent
+  nameWithType: IImportAgent
+  fullName: SuperOffice.CRM.Services.IImportAgent
+  type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInterface for the Import Agent\nThis agent can be used to import data into the system\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (ImportAgent agent = new ImportAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: >-
+      [Agent("Import Agent", "Interface for the Import Agent. This agent can be used to import data into the system")]
+
+      public interface IImportAgent : IAgent
+    content.vb: >-
+      <Agent("Import Agent", "Interface for the Import Agent. This agent can be used to import data into the system")>
+
+      Public Interface IImportAgent
+          Inherits IAgent
+  attributes:
+  - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
+    ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: Import Agent
+    - type: System.String
+      value: Interface for the Import Agent. This agent can be used to import data into the system
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Services.IImportAgent.PreviewImport(SuperOffice.CRM.Services.ImportLine[],System.String[],System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IImportAgent.PreviewImport(SuperOffice.CRM.Services.ImportLine[],System.String[],System.String,System.String)
+  id: PreviewImport(SuperOffice.CRM.Services.ImportLine[],System.String[],System.String,System.String)
+  parent: SuperOffice.CRM.Services.IImportAgent
+  langs:
+  - csharp
+  - vb
+  name: PreviewImport(ImportLine[], String[], String, String)
+  nameWithType: IImportAgent.PreviewImport(ImportLine[], String[], String, String)
+  fullName: SuperOffice.CRM.Services.IImportAgent.PreviewImport(SuperOffice.CRM.Services.ImportLine[], System.String[], System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPreview the import\n"
+  syntax:
+    content: ImportLine[] PreviewImport(ImportLine[] importLines, string[] columnDefinition, string culture, string context)
+    parameters:
+    - id: importLines
+      type: SuperOffice.CRM.Services.ImportLine[]
+      description: The rows that will be manipulated and according to Import rules
+    - id: columnDefinition
+      type: System.String[]
+      description: An array of the columndefinitions, like firstname, lastname, ...
+    - id: culture
+      type: System.String
+      description: The current culture used in the import. Used to match language specific strings
+    - id: context
+      type: System.String
+      description: Optional context for the import.
+    return:
+      type: SuperOffice.CRM.Services.ImportLine[]
+      description: An array of the the rows that can be imported, manipulated according to Import rules given
+    content.vb: Function PreviewImport(importLines As ImportLine(), columnDefinition As String(), culture As String, context As String) As ImportLine()
+  overload: SuperOffice.CRM.Services.IImportAgent.PreviewImport*
+  nameWithType.vb: IImportAgent.PreviewImport(ImportLine(), String(), String, String)
+  fullName.vb: SuperOffice.CRM.Services.IImportAgent.PreviewImport(SuperOffice.CRM.Services.ImportLine(), System.String(), System.String, System.String)
+  name.vb: PreviewImport(ImportLine(), String(), String, String)
+- uid: SuperOffice.CRM.Services.IImportAgent.SaveImport(SuperOffice.CRM.Services.ImportLine[],System.String[],System.Boolean,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IImportAgent.SaveImport(SuperOffice.CRM.Services.ImportLine[],System.String[],System.Boolean,System.String,System.String)
+  id: SaveImport(SuperOffice.CRM.Services.ImportLine[],System.String[],System.Boolean,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IImportAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveImport(ImportLine[], String[], Boolean, String, String)
+  nameWithType: IImportAgent.SaveImport(ImportLine[], String[], Boolean, String, String)
+  fullName: SuperOffice.CRM.Services.IImportAgent.SaveImport(SuperOffice.CRM.Services.ImportLine[], System.String[], System.Boolean, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDo the actual import\n"
+  syntax:
+    content: int[] SaveImport(ImportLine[] importLines, string[] columnDefinition, bool createSelection, string culture, string context)
+    parameters:
+    - id: importLines
+      type: SuperOffice.CRM.Services.ImportLine[]
+      description: The rows that will be imported
+    - id: columnDefinition
+      type: System.String[]
+      description: An array of the columndefinitions, like firstname, lastname, ...
+    - id: createSelection
+      type: System.Boolean
+      description: true if a selection of the imported entities shall be made
+    - id: culture
+      type: System.String
+      description: The current culture used in the import. Used to match language specific strings
+    - id: context
+      type: System.String
+      description: Optional context for the import.
+    return:
+      type: System.Int32[]
+      description: 'First part: the id of the selection created after the import, 0 if no selection is created. Second part: The number of rows actually imported'
+    content.vb: Function SaveImport(importLines As ImportLine(), columnDefinition As String(), createSelection As Boolean, culture As String, context As String) As Integer()
+  overload: SuperOffice.CRM.Services.IImportAgent.SaveImport*
+  nameWithType.vb: IImportAgent.SaveImport(ImportLine(), String(), Boolean, String, String)
+  fullName.vb: SuperOffice.CRM.Services.IImportAgent.SaveImport(SuperOffice.CRM.Services.ImportLine(), System.String(), System.Boolean, System.String, System.String)
+  name.vb: SaveImport(ImportLine(), String(), Boolean, String, String)
+- uid: SuperOffice.CRM.Services.IImportAgent.CreateDefaultImportLine(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IImportAgent.CreateDefaultImportLine(System.Int32)
+  id: CreateDefaultImportLine(System.Int32)
+  parent: SuperOffice.CRM.Services.IImportAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultImportLine(Int32)
+  nameWithType: IImportAgent.CreateDefaultImportLine(Int32)
+  fullName: SuperOffice.CRM.Services.IImportAgent.CreateDefaultImportLine(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreate a new empty import row with x count of values\n"
+  syntax:
+    content: ImportLine CreateDefaultImportLine(int countColumns)
+    parameters:
+    - id: countColumns
+      type: System.Int32
+      description: The count of values that will can be filled out
+    return:
+      type: SuperOffice.CRM.Services.ImportLine
+      description: A new ImportLine
+    content.vb: Function CreateDefaultImportLine(countColumns As Integer) As ImportLine
+  overload: SuperOffice.CRM.Services.IImportAgent.CreateDefaultImportLine*
+- uid: SuperOffice.CRM.Services.IImportAgent.CreateErpImportData(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,SuperOffice.Data.ErpActorType)
+  commentId: M:SuperOffice.CRM.Services.IImportAgent.CreateErpImportData(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,SuperOffice.Data.ErpActorType)
+  id: CreateErpImportData(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,SuperOffice.Data.ErpActorType)
+  parent: SuperOffice.CRM.Services.IImportAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateErpImportData(ArchiveRestrictionInfo[], String[], Int32, ErpActorType)
+  nameWithType: IImportAgent.CreateErpImportData(ArchiveRestrictionInfo[], String[], Int32, ErpActorType)
+  fullName: SuperOffice.CRM.Services.IImportAgent.CreateErpImportData(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String[], System.Int32, SuperOffice.Data.ErpActorType)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPopulates the ImportLines and columnDefs basedfrom erp system\n"
+  syntax:
+    content: ImportErpData CreateErpImportData(ArchiveRestrictionInfo[] restriction, string[] columns, int connectionId, ErpActorType erpActorType)
+    parameters:
+    - id: restriction
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+      description: Archive restrictions.
+    - id: columns
+      type: System.String[]
+      description: Columns.
+    - id: connectionId
+      type: System.Int32
+      description: Connection id for Erp system
+    - id: erpActorType
+      type: SuperOffice.Data.ErpActorType
+      description: Erp Actor type
+    return:
+      type: SuperOffice.CRM.Services.ImportErpData
+      description: The ImportLines and ColumnDefs
+    content.vb: Function CreateErpImportData(restriction As ArchiveRestrictionInfo(), columns As String(), connectionId As Integer, erpActorType As ErpActorType) As ImportErpData
+  overload: SuperOffice.CRM.Services.IImportAgent.CreateErpImportData*
+  nameWithType.vb: IImportAgent.CreateErpImportData(ArchiveRestrictionInfo(), String(), Int32, ErpActorType)
+  fullName.vb: SuperOffice.CRM.Services.IImportAgent.CreateErpImportData(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String(), System.Int32, SuperOffice.Data.ErpActorType)
+  name.vb: CreateErpImportData(ArchiveRestrictionInfo(), String(), Int32, ErpActorType)
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.IImportAgent.PreviewImport*
+  commentId: Overload:SuperOffice.CRM.Services.IImportAgent.PreviewImport
+  isExternal: true
+  name: PreviewImport
+  nameWithType: IImportAgent.PreviewImport
+  fullName: SuperOffice.CRM.Services.IImportAgent.PreviewImport
+- uid: SuperOffice.CRM.Services.ImportLine[]
+  isExternal: true
+  name: ImportLine[]
+  nameWithType: ImportLine[]
+  fullName: SuperOffice.CRM.Services.ImportLine[]
+  nameWithType.vb: ImportLine()
+  fullName.vb: SuperOffice.CRM.Services.ImportLine()
+  name.vb: ImportLine()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ImportLine
+    name: ImportLine
+    nameWithType: ImportLine
+    fullName: SuperOffice.CRM.Services.ImportLine
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ImportLine
+    name: ImportLine
+    nameWithType: ImportLine
+    fullName: SuperOffice.CRM.Services.ImportLine
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.IImportAgent.SaveImport*
+  commentId: Overload:SuperOffice.CRM.Services.IImportAgent.SaveImport
+  isExternal: true
+  name: SaveImport
+  nameWithType: IImportAgent.SaveImport
+  fullName: SuperOffice.CRM.Services.IImportAgent.SaveImport
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IImportAgent.CreateDefaultImportLine*
+  commentId: Overload:SuperOffice.CRM.Services.IImportAgent.CreateDefaultImportLine
+  isExternal: true
+  name: CreateDefaultImportLine
+  nameWithType: IImportAgent.CreateDefaultImportLine
+  fullName: SuperOffice.CRM.Services.IImportAgent.CreateDefaultImportLine
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ImportLine
+  commentId: T:SuperOffice.CRM.Services.ImportLine
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ImportLine
+  nameWithType: ImportLine
+  fullName: SuperOffice.CRM.Services.ImportLine
+- uid: SuperOffice.CRM.Services.IImportAgent.CreateErpImportData*
+  commentId: Overload:SuperOffice.CRM.Services.IImportAgent.CreateErpImportData
+  isExternal: true
+  name: CreateErpImportData
+  nameWithType: IImportAgent.CreateErpImportData
+  fullName: SuperOffice.CRM.Services.IImportAgent.CreateErpImportData
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.ErpActorType
+  isExternal: true
+  name: ErpActorType
+  nameWithType: ErpActorType
+  fullName: SuperOffice.Data.ErpActorType
+- uid: SuperOffice.CRM.Services.ImportErpData
+  commentId: T:SuperOffice.CRM.Services.ImportErpData
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ImportErpData
+  nameWithType: ImportErpData
+  fullName: SuperOffice.CRM.Services.ImportErpData

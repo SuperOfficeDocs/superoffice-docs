@@ -1,0 +1,500 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.SaleTypeStageLink
+  commentId: T:SuperOffice.CRM.Services.SaleTypeStageLink
+  id: SaleTypeStageLink
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.SaleTypeStageLink.#ctor
+  - SuperOffice.CRM.Services.SaleTypeStageLink.Probability
+  - SuperOffice.CRM.Services.SaleTypeStageLink.ProbId
+  - SuperOffice.CRM.Services.SaleTypeStageLink.ProbName
+  - SuperOffice.CRM.Services.SaleTypeStageLink.ProbTooltip
+  - SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeId
+  - SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeName
+  - SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeStageLinkId
+  - SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeTooltip
+  - SuperOffice.CRM.Services.SaleTypeStageLink.ToString
+  - SuperOffice.CRM.Services.SaleTypeStageLink.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeStageLink
+  nameWithType: SaleTypeStageLink
+  fullName: SuperOffice.CRM.Services.SaleTypeStageLink
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for SaleTypeStageLink.\n"
+  syntax:
+    content: 'public class SaleTypeStageLink : Carrier'
+    content.vb: >-
+      Public Class SaleTypeStageLink
+          Inherits Carrier
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.SaleTypeStageLink.#ctor
+  commentId: M:SuperOffice.CRM.Services.SaleTypeStageLink.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.SaleTypeStageLink
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeStageLink()
+  nameWithType: SaleTypeStageLink.SaleTypeStageLink()
+  fullName: SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeStageLink()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public SaleTypeStageLink()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.SaleTypeStageLink.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleTypeStageLink.ToString
+  commentId: M:SuperOffice.CRM.Services.SaleTypeStageLink.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.SaleTypeStageLink
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SaleTypeStageLink.ToString()
+  fullName: SuperOffice.CRM.Services.SaleTypeStageLink.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.SaleTypeStageLink.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.SaleTypeStageLink.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.SaleTypeStageLink.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.SaleTypeStageLink
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: SaleTypeStageLink.ToString(String)
+  fullName: SuperOffice.CRM.Services.SaleTypeStageLink.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.SaleTypeStageLink.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeStageLinkId
+  commentId: P:SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeStageLinkId
+  id: SaleTypeStageLinkId
+  parent: SuperOffice.CRM.Services.SaleTypeStageLink
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeStageLinkId
+  nameWithType: SaleTypeStageLink.SaleTypeStageLinkId
+  fullName: SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeStageLinkId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int SaleTypeStageLinkId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleTypeStageLinkId As Integer
+  overload: SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeStageLinkId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeId
+  commentId: P:SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeId
+  id: SaleTypeId
+  parent: SuperOffice.CRM.Services.SaleTypeStageLink
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeId
+  nameWithType: SaleTypeStageLink.SaleTypeId
+  fullName: SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int SaleTypeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleTypeId As Integer
+  overload: SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeName
+  commentId: P:SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeName
+  id: SaleTypeName
+  parent: SuperOffice.CRM.Services.SaleTypeStageLink
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeName
+  nameWithType: SaleTypeStageLink.SaleTypeName
+  fullName: SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe list item \n"
+  syntax:
+    content: public virtual string SaleTypeName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SaleTypeName As String
+  overload: SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeTooltip
+  commentId: P:SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeTooltip
+  id: SaleTypeTooltip
+  parent: SuperOffice.CRM.Services.SaleTypeStageLink
+  langs:
+  - csharp
+  - vb
+  name: SaleTypeTooltip
+  nameWithType: SaleTypeStageLink.SaleTypeTooltip
+  fullName: SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeTooltip
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTooltip or other description \n"
+  syntax:
+    content: public virtual string SaleTypeTooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SaleTypeTooltip As String
+  overload: SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeTooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleTypeStageLink.ProbId
+  commentId: P:SuperOffice.CRM.Services.SaleTypeStageLink.ProbId
+  id: ProbId
+  parent: SuperOffice.CRM.Services.SaleTypeStageLink
+  langs:
+  - csharp
+  - vb
+  name: ProbId
+  nameWithType: SaleTypeStageLink.ProbId
+  fullName: SuperOffice.CRM.Services.SaleTypeStageLink.ProbId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int ProbId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProbId As Integer
+  overload: SuperOffice.CRM.Services.SaleTypeStageLink.ProbId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleTypeStageLink.ProbName
+  commentId: P:SuperOffice.CRM.Services.SaleTypeStageLink.ProbName
+  id: ProbName
+  parent: SuperOffice.CRM.Services.SaleTypeStageLink
+  langs:
+  - csharp
+  - vb
+  name: ProbName
+  nameWithType: SaleTypeStageLink.ProbName
+  fullName: SuperOffice.CRM.Services.SaleTypeStageLink.ProbName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe list item \n"
+  syntax:
+    content: public virtual string ProbName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProbName As String
+  overload: SuperOffice.CRM.Services.SaleTypeStageLink.ProbName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleTypeStageLink.ProbTooltip
+  commentId: P:SuperOffice.CRM.Services.SaleTypeStageLink.ProbTooltip
+  id: ProbTooltip
+  parent: SuperOffice.CRM.Services.SaleTypeStageLink
+  langs:
+  - csharp
+  - vb
+  name: ProbTooltip
+  nameWithType: SaleTypeStageLink.ProbTooltip
+  fullName: SuperOffice.CRM.Services.SaleTypeStageLink.ProbTooltip
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTooltip or other description \n"
+  syntax:
+    content: public virtual string ProbTooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProbTooltip As String
+  overload: SuperOffice.CRM.Services.SaleTypeStageLink.ProbTooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleTypeStageLink.Probability
+  commentId: P:SuperOffice.CRM.Services.SaleTypeStageLink.Probability
+  id: Probability
+  parent: SuperOffice.CRM.Services.SaleTypeStageLink
+  langs:
+  - csharp
+  - vb
+  name: Probability
+  nameWithType: SaleTypeStageLink.Probability
+  fullName: SuperOffice.CRM.Services.SaleTypeStageLink.Probability
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe numeric probability of the sale \n"
+  syntax:
+    content: public virtual short Probability { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Probability As Short
+  overload: SuperOffice.CRM.Services.SaleTypeStageLink.Probability*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.SaleTypeStageLink.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.SaleTypeStageLink.#ctor
+  isExternal: true
+  name: SaleTypeStageLink
+  nameWithType: SaleTypeStageLink.SaleTypeStageLink
+  fullName: SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeStageLink
+- uid: SuperOffice.CRM.Services.SaleTypeStageLink.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.SaleTypeStageLink.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: SaleTypeStageLink.ToString
+  fullName: SuperOffice.CRM.Services.SaleTypeStageLink.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeStageLinkId*
+  commentId: Overload:SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeStageLinkId
+  isExternal: true
+  name: SaleTypeStageLinkId
+  nameWithType: SaleTypeStageLink.SaleTypeStageLinkId
+  fullName: SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeStageLinkId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeId*
+  commentId: Overload:SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeId
+  isExternal: true
+  name: SaleTypeId
+  nameWithType: SaleTypeStageLink.SaleTypeId
+  fullName: SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeId
+- uid: SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeName*
+  commentId: Overload:SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeName
+  isExternal: true
+  name: SaleTypeName
+  nameWithType: SaleTypeStageLink.SaleTypeName
+  fullName: SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeName
+- uid: SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeTooltip*
+  commentId: Overload:SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeTooltip
+  isExternal: true
+  name: SaleTypeTooltip
+  nameWithType: SaleTypeStageLink.SaleTypeTooltip
+  fullName: SuperOffice.CRM.Services.SaleTypeStageLink.SaleTypeTooltip
+- uid: SuperOffice.CRM.Services.SaleTypeStageLink.ProbId*
+  commentId: Overload:SuperOffice.CRM.Services.SaleTypeStageLink.ProbId
+  isExternal: true
+  name: ProbId
+  nameWithType: SaleTypeStageLink.ProbId
+  fullName: SuperOffice.CRM.Services.SaleTypeStageLink.ProbId
+- uid: SuperOffice.CRM.Services.SaleTypeStageLink.ProbName*
+  commentId: Overload:SuperOffice.CRM.Services.SaleTypeStageLink.ProbName
+  isExternal: true
+  name: ProbName
+  nameWithType: SaleTypeStageLink.ProbName
+  fullName: SuperOffice.CRM.Services.SaleTypeStageLink.ProbName
+- uid: SuperOffice.CRM.Services.SaleTypeStageLink.ProbTooltip*
+  commentId: Overload:SuperOffice.CRM.Services.SaleTypeStageLink.ProbTooltip
+  isExternal: true
+  name: ProbTooltip
+  nameWithType: SaleTypeStageLink.ProbTooltip
+  fullName: SuperOffice.CRM.Services.SaleTypeStageLink.ProbTooltip
+- uid: SuperOffice.CRM.Services.SaleTypeStageLink.Probability*
+  commentId: Overload:SuperOffice.CRM.Services.SaleTypeStageLink.Probability
+  isExternal: true
+  name: Probability
+  nameWithType: SaleTypeStageLink.Probability
+  fullName: SuperOffice.CRM.Services.SaleTypeStageLink.Probability
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16

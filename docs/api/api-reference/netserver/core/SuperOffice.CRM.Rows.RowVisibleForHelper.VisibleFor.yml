@@ -1,0 +1,479 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
+  commentId: T:SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
+  id: RowVisibleForHelper.VisibleFor
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.All
+  - SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.Group
+  - SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.Private
+  langs:
+  - csharp
+  - vb
+  name: RowVisibleForHelper.VisibleFor
+  nameWithType: RowVisibleForHelper.VisibleFor
+  fullName: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
+  type: Enum
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEnumerator describing the level of visible for.\n"
+  syntax:
+    content: public enum VisibleFor
+    content.vb: Public Enum VisibleFor
+  extensionMethods:
+  - SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
+  - SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.All
+  commentId: F:SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.All
+  id: All
+  parent: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: RowVisibleForHelper.VisibleFor.All
+  fullName: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.All
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: All = 0
+    return:
+      type: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.Group
+  commentId: F:SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.Group
+  id: Group
+  parent: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
+  langs:
+  - csharp
+  - vb
+  name: Group
+  nameWithType: RowVisibleForHelper.VisibleFor.Group
+  fullName: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.Group
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: Group = 1
+    return:
+      type: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.Private
+  commentId: F:SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.Private
+  id: Private
+  parent: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
+  langs:
+  - csharp
+  - vb
+  name: Private
+  nameWithType: RowVisibleForHelper.VisibleFor.Private
+  fullName: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.Private
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: Private = 2
+    return:
+      type: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<RowVisibleForHelper.VisibleFor, To>()
+  nameWithType: EnumUtil.MapEnums<RowVisibleForHelper.VisibleFor, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of RowVisibleForHelper.VisibleFor, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor, To)()
+  name.vb: MapEnums(Of RowVisibleForHelper.VisibleFor, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<RowVisibleForHelper.VisibleFor, To>
+    nameWithType: EnumUtil.MapEnums<RowVisibleForHelper.VisibleFor, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of RowVisibleForHelper.VisibleFor, To)
+    nameWithType: EnumUtil.MapEnums(Of RowVisibleForHelper.VisibleFor, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<RowVisibleForHelper.VisibleFor>(RowVisibleForHelper.VisibleFor)
+  nameWithType: ObjectExtensions.AssignByReflection<RowVisibleForHelper.VisibleFor>(RowVisibleForHelper.VisibleFor)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor>(SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of RowVisibleForHelper.VisibleFor)(RowVisibleForHelper.VisibleFor)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)(SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
+  name.vb: AssignByReflection(Of RowVisibleForHelper.VisibleFor)(RowVisibleForHelper.VisibleFor)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<RowVisibleForHelper.VisibleFor>
+    nameWithType: ObjectExtensions.AssignByReflection<RowVisibleForHelper.VisibleFor>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
+    name: RowVisibleForHelper.VisibleFor
+    nameWithType: RowVisibleForHelper.VisibleFor
+    fullName: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of RowVisibleForHelper.VisibleFor)
+    nameWithType: ObjectExtensions.AssignByReflection(Of RowVisibleForHelper.VisibleFor)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
+    name: RowVisibleForHelper.VisibleFor
+    nameWithType: RowVisibleForHelper.VisibleFor
+    fullName: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<RowVisibleForHelper.VisibleFor>()
+  nameWithType: ObjectExtensions.GraphCopy<RowVisibleForHelper.VisibleFor>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of RowVisibleForHelper.VisibleFor)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)()
+  name.vb: GraphCopy(Of RowVisibleForHelper.VisibleFor)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<RowVisibleForHelper.VisibleFor>
+    nameWithType: ObjectExtensions.GraphCopy<RowVisibleForHelper.VisibleFor>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of RowVisibleForHelper.VisibleFor)
+    nameWithType: ObjectExtensions.GraphCopy(Of RowVisibleForHelper.VisibleFor)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<RowVisibleForHelper.VisibleFor, To>()
+  nameWithType: Converters.MapEnums<RowVisibleForHelper.VisibleFor, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor, To>()
+  nameWithType.vb: Converters.MapEnums(Of RowVisibleForHelper.VisibleFor, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor, To)()
+  name.vb: MapEnums(Of RowVisibleForHelper.VisibleFor, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<RowVisibleForHelper.VisibleFor, To>
+    nameWithType: Converters.MapEnums<RowVisibleForHelper.VisibleFor, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of RowVisibleForHelper.VisibleFor, To)
+    nameWithType: Converters.MapEnums(Of RowVisibleForHelper.VisibleFor, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
+  commentId: T:SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: RowVisibleForHelper.VisibleFor
+  nameWithType: RowVisibleForHelper.VisibleFor
+  fullName: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor

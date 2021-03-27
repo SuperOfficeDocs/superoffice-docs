@@ -1,0 +1,304 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectorEntity
+  commentId: T:SuperOffice.WebApi.Data.ErpSyncConnectorEntity
+  id: ErpSyncConnectorEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ErpSyncConnectorEntity.#ctor
+  - SuperOffice.WebApi.Data.ErpSyncConnectorEntity.Deleted
+  - SuperOffice.WebApi.Data.ErpSyncConnectorEntity.DisplayName
+  - SuperOffice.WebApi.Data.ErpSyncConnectorEntity.ErpConnectorId
+  - SuperOffice.WebApi.Data.ErpSyncConnectorEntity.URL
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncConnectorEntity
+  nameWithType: ErpSyncConnectorEntity
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectorEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ErpSyncConnectorEntity.\nErp connector information    \n"
+  example:
+  - "\nGet ErpSyncConnectorEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ErpSyncAgent(configuration);\nvar erpSyncConnectorEntity = agent.GetErpSyncConnectorEntity( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class ErpSyncConnectorEntity : Carrier'
+    content.vb: >-
+      Public Class ErpSyncConnectorEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ErpSyncAgent
+    commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectorEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ErpSyncConnectorEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ErpSyncConnectorEntity
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncConnectorEntity()
+  nameWithType: ErpSyncConnectorEntity.ErpSyncConnectorEntity()
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectorEntity.ErpSyncConnectorEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ErpSyncConnectorEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ErpSyncConnectorEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectorEntity.ErpConnectorId
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncConnectorEntity.ErpConnectorId
+  id: ErpConnectorId
+  parent: SuperOffice.WebApi.Data.ErpSyncConnectorEntity
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectorId
+  nameWithType: ErpSyncConnectorEntity.ErpConnectorId
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectorEntity.ErpConnectorId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int ErpConnectorId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ErpConnectorId As Integer
+  overload: SuperOffice.WebApi.Data.ErpSyncConnectorEntity.ErpConnectorId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectorEntity.DisplayName
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncConnectorEntity.DisplayName
+  id: DisplayName
+  parent: SuperOffice.WebApi.Data.ErpSyncConnectorEntity
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: ErpSyncConnectorEntity.DisplayName
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectorEntity.DisplayName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName shown in the list\n"
+  syntax:
+    content: public virtual string DisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayName As String
+  overload: SuperOffice.WebApi.Data.ErpSyncConnectorEntity.DisplayName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectorEntity.URL
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncConnectorEntity.URL
+  id: URL
+  parent: SuperOffice.WebApi.Data.ErpSyncConnectorEntity
+  langs:
+  - csharp
+  - vb
+  name: URL
+  nameWithType: ErpSyncConnectorEntity.URL
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectorEntity.URL
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe URL where the connector is located and can be called\n"
+  syntax:
+    content: public virtual string URL { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property URL As String
+  overload: SuperOffice.WebApi.Data.ErpSyncConnectorEntity.URL*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectorEntity.Deleted
+  commentId: P:SuperOffice.WebApi.Data.ErpSyncConnectorEntity.Deleted
+  id: Deleted
+  parent: SuperOffice.WebApi.Data.ErpSyncConnectorEntity
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: ErpSyncConnectorEntity.Deleted
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectorEntity.Deleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if the connector is deleted\n"
+  syntax:
+    content: public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.WebApi.Data.ErpSyncConnectorEntity.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent
+  commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
+  isExternal: true
+  name: ErpSyncAgent
+  nameWithType: ErpSyncAgent
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectorEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncConnectorEntity.#ctor
+  isExternal: true
+  name: ErpSyncConnectorEntity
+  nameWithType: ErpSyncConnectorEntity.ErpSyncConnectorEntity
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectorEntity.ErpSyncConnectorEntity
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectorEntity.ErpConnectorId*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncConnectorEntity.ErpConnectorId
+  isExternal: true
+  name: ErpConnectorId
+  nameWithType: ErpSyncConnectorEntity.ErpConnectorId
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectorEntity.ErpConnectorId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectorEntity.DisplayName*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncConnectorEntity.DisplayName
+  isExternal: true
+  name: DisplayName
+  nameWithType: ErpSyncConnectorEntity.DisplayName
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectorEntity.DisplayName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectorEntity.URL*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncConnectorEntity.URL
+  isExternal: true
+  name: URL
+  nameWithType: ErpSyncConnectorEntity.URL
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectorEntity.URL
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectorEntity.Deleted*
+  commentId: Overload:SuperOffice.WebApi.Data.ErpSyncConnectorEntity.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: ErpSyncConnectorEntity.Deleted
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectorEntity.Deleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -1,0 +1,311 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.QuickReply
+  commentId: T:SuperOffice.CRM.Services.QuickReply
+  id: QuickReply
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.QuickReply.#ctor
+  - SuperOffice.CRM.Services.QuickReply.HtmlBody
+  - SuperOffice.CRM.Services.QuickReply.Name
+  - SuperOffice.CRM.Services.QuickReply.QuickReplyId
+  - SuperOffice.CRM.Services.QuickReply.ToString
+  - SuperOffice.CRM.Services.QuickReply.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: QuickReply
+  nameWithType: QuickReply
+  fullName: SuperOffice.CRM.Services.QuickReply
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for QuickReply.\nServices for the QuickReply Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IListAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class QuickReply : Carrier'
+    content.vb: >-
+      Public Class QuickReply
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ListAgent
+    commentId: T:SuperOffice.CRM.Services.ListAgent
+  - linkId: SuperOffice.CRM.Services.IListAgent
+    commentId: T:SuperOffice.CRM.Services.IListAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.QuickReply.#ctor
+  commentId: M:SuperOffice.CRM.Services.QuickReply.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.QuickReply
+  langs:
+  - csharp
+  - vb
+  name: QuickReply()
+  nameWithType: QuickReply.QuickReply()
+  fullName: SuperOffice.CRM.Services.QuickReply.QuickReply()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public QuickReply()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.QuickReply.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.QuickReply.ToString
+  commentId: M:SuperOffice.CRM.Services.QuickReply.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.QuickReply
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: QuickReply.ToString()
+  fullName: SuperOffice.CRM.Services.QuickReply.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.QuickReply.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.QuickReply.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.QuickReply.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.QuickReply
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: QuickReply.ToString(String)
+  fullName: SuperOffice.CRM.Services.QuickReply.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.QuickReply.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.QuickReply.QuickReplyId
+  commentId: P:SuperOffice.CRM.Services.QuickReply.QuickReplyId
+  id: QuickReplyId
+  parent: SuperOffice.CRM.Services.QuickReply
+  langs:
+  - csharp
+  - vb
+  name: QuickReplyId
+  nameWithType: QuickReply.QuickReplyId
+  fullName: SuperOffice.CRM.Services.QuickReply.QuickReplyId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int QuickReplyId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property QuickReplyId As Integer
+  overload: SuperOffice.CRM.Services.QuickReply.QuickReplyId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuickReply.Name
+  commentId: P:SuperOffice.CRM.Services.QuickReply.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.QuickReply
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: QuickReply.Name
+  fullName: SuperOffice.CRM.Services.QuickReply.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe short name of the quick reply \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.QuickReply.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.QuickReply.HtmlBody
+  commentId: P:SuperOffice.CRM.Services.QuickReply.HtmlBody
+  id: HtmlBody
+  parent: SuperOffice.CRM.Services.QuickReply
+  langs:
+  - csharp
+  - vb
+  name: HtmlBody
+  nameWithType: QuickReply.HtmlBody
+  fullName: SuperOffice.CRM.Services.QuickReply.HtmlBody
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe html body of the quick reply \n"
+  syntax:
+    content: public virtual string HtmlBody { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property HtmlBody As String
+  overload: SuperOffice.CRM.Services.QuickReply.HtmlBody*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.ListAgent
+  commentId: T:SuperOffice.CRM.Services.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.CRM.Services.ListAgent
+- uid: SuperOffice.CRM.Services.IListAgent
+  commentId: T:SuperOffice.CRM.Services.IListAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IListAgent
+  nameWithType: IListAgent
+  fullName: SuperOffice.CRM.Services.IListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.QuickReply.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.QuickReply.#ctor
+  isExternal: true
+  name: QuickReply
+  nameWithType: QuickReply.QuickReply
+  fullName: SuperOffice.CRM.Services.QuickReply.QuickReply
+- uid: SuperOffice.CRM.Services.QuickReply.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.QuickReply.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: QuickReply.ToString
+  fullName: SuperOffice.CRM.Services.QuickReply.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.QuickReply.QuickReplyId*
+  commentId: Overload:SuperOffice.CRM.Services.QuickReply.QuickReplyId
+  isExternal: true
+  name: QuickReplyId
+  nameWithType: QuickReply.QuickReplyId
+  fullName: SuperOffice.CRM.Services.QuickReply.QuickReplyId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.QuickReply.Name*
+  commentId: Overload:SuperOffice.CRM.Services.QuickReply.Name
+  isExternal: true
+  name: Name
+  nameWithType: QuickReply.Name
+  fullName: SuperOffice.CRM.Services.QuickReply.Name
+- uid: SuperOffice.CRM.Services.QuickReply.HtmlBody*
+  commentId: Overload:SuperOffice.CRM.Services.QuickReply.HtmlBody
+  isExternal: true
+  name: HtmlBody
+  nameWithType: QuickReply.HtmlBody
+  fullName: SuperOffice.CRM.Services.QuickReply.HtmlBody

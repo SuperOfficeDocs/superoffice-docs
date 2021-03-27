@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_SaveFromListNameRequest
+  commentId: T:SuperOffice.WebApi.Data.List_SaveFromListNameRequest
+  id: List_SaveFromListNameRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_SaveFromListNameRequest.#ctor
+  - SuperOffice.WebApi.Data.List_SaveFromListNameRequest.Id
+  - SuperOffice.WebApi.Data.List_SaveFromListNameRequest.Item
+  - SuperOffice.WebApi.Data.List_SaveFromListNameRequest.UdListDefinitionName
+  langs:
+  - csharp
+  - vb
+  name: List_SaveFromListNameRequest
+  nameWithType: List_SaveFromListNameRequest
+  fullName: SuperOffice.WebApi.Data.List_SaveFromListNameRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_SaveFromListNameRequest : Object'
+    content.vb: >-
+      Public Class List_SaveFromListNameRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_SaveFromListNameRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_SaveFromListNameRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_SaveFromListNameRequest
+  langs:
+  - csharp
+  - vb
+  name: List_SaveFromListNameRequest()
+  nameWithType: List_SaveFromListNameRequest.List_SaveFromListNameRequest()
+  fullName: SuperOffice.WebApi.Data.List_SaveFromListNameRequest.List_SaveFromListNameRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_SaveFromListNameRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_SaveFromListNameRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SaveFromListNameRequest.Id
+  commentId: P:SuperOffice.WebApi.Data.List_SaveFromListNameRequest.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.List_SaveFromListNameRequest
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: List_SaveFromListNameRequest.Id
+  fullName: SuperOffice.WebApi.Data.List_SaveFromListNameRequest.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: SuperOffice.WebApi.Data.List_SaveFromListNameRequest.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SaveFromListNameRequest.UdListDefinitionName
+  commentId: P:SuperOffice.WebApi.Data.List_SaveFromListNameRequest.UdListDefinitionName
+  id: UdListDefinitionName
+  parent: SuperOffice.WebApi.Data.List_SaveFromListNameRequest
+  langs:
+  - csharp
+  - vb
+  name: UdListDefinitionName
+  nameWithType: List_SaveFromListNameRequest.UdListDefinitionName
+  fullName: SuperOffice.WebApi.Data.List_SaveFromListNameRequest.UdListDefinitionName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string UdListDefinitionName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UdListDefinitionName As String
+  overload: SuperOffice.WebApi.Data.List_SaveFromListNameRequest.UdListDefinitionName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SaveFromListNameRequest.Item
+  commentId: P:SuperOffice.WebApi.Data.List_SaveFromListNameRequest.Item
+  id: Item
+  parent: SuperOffice.WebApi.Data.List_SaveFromListNameRequest
+  langs:
+  - csharp
+  - vb
+  name: Item
+  nameWithType: List_SaveFromListNameRequest.Item
+  fullName: SuperOffice.WebApi.Data.List_SaveFromListNameRequest.Item
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ListItemEntity Item { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ListItemEntity
+    content.vb: Public Property Item As ListItemEntity
+  overload: SuperOffice.WebApi.Data.List_SaveFromListNameRequest.Item*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_SaveFromListNameRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SaveFromListNameRequest.#ctor
+  isExternal: true
+  name: List_SaveFromListNameRequest
+  nameWithType: List_SaveFromListNameRequest.List_SaveFromListNameRequest
+  fullName: SuperOffice.WebApi.Data.List_SaveFromListNameRequest.List_SaveFromListNameRequest
+- uid: SuperOffice.WebApi.Data.List_SaveFromListNameRequest.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SaveFromListNameRequest.Id
+  isExternal: true
+  name: Id
+  nameWithType: List_SaveFromListNameRequest.Id
+  fullName: SuperOffice.WebApi.Data.List_SaveFromListNameRequest.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.List_SaveFromListNameRequest.UdListDefinitionName*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SaveFromListNameRequest.UdListDefinitionName
+  isExternal: true
+  name: UdListDefinitionName
+  nameWithType: List_SaveFromListNameRequest.UdListDefinitionName
+  fullName: SuperOffice.WebApi.Data.List_SaveFromListNameRequest.UdListDefinitionName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.List_SaveFromListNameRequest.Item*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SaveFromListNameRequest.Item
+  isExternal: true
+  name: Item
+  nameWithType: List_SaveFromListNameRequest.Item
+  fullName: SuperOffice.WebApi.Data.List_SaveFromListNameRequest.Item
+- uid: SuperOffice.WebApi.Data.ListItemEntity
+  commentId: T:SuperOffice.WebApi.Data.ListItemEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ListItemEntity
+  nameWithType: ListItemEntity
+  fullName: SuperOffice.WebApi.Data.ListItemEntity

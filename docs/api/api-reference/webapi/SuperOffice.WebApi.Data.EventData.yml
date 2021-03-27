@@ -1,0 +1,591 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EventData
+  commentId: T:SuperOffice.WebApi.Data.EventData
+  id: EventData
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EventData.#ctor
+  - SuperOffice.WebApi.Data.EventData.BlockExecution
+  - SuperOffice.WebApi.Data.EventData.Exception
+  - SuperOffice.WebApi.Data.EventData.InputValues
+  - SuperOffice.WebApi.Data.EventData.Message
+  - SuperOffice.WebApi.Data.EventData.NavigateTo
+  - SuperOffice.WebApi.Data.EventData.OutputValues
+  - SuperOffice.WebApi.Data.EventData.StateValues
+  - SuperOffice.WebApi.Data.EventData.Type
+  - SuperOffice.WebApi.Data.EventData.Type_String
+  langs:
+  - csharp
+  - vb
+  name: EventData
+  nameWithType: EventData
+  fullName: SuperOffice.WebApi.Data.EventData
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for EventData.\nEventData containing data related to event handlers    \n"
+  syntax:
+    content: 'public class EventData : Carrier'
+    content.vb: >-
+      Public Class EventData
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.CustomerServiceAgent
+    commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EventData.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EventData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EventData
+  langs:
+  - csharp
+  - vb
+  name: EventData()
+  nameWithType: EventData.EventData()
+  fullName: SuperOffice.WebApi.Data.EventData.EventData()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public EventData()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EventData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EventData.Type_String
+  commentId: P:SuperOffice.WebApi.Data.EventData.Type_String
+  id: Type_String
+  parent: SuperOffice.WebApi.Data.EventData
+  langs:
+  - csharp
+  - vb
+  name: Type_String
+  nameWithType: EventData.Type_String
+  fullName: SuperOffice.WebApi.Data.EventData.Type_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe type of event we are triggered by\nRaw string enum value.\n"
+  syntax:
+    content: public string Type_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type_String As String
+  overload: SuperOffice.WebApi.Data.EventData.Type_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.EventData.Type
+    commentId: P:SuperOffice.WebApi.Data.EventData.Type
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EventData.Type
+  commentId: P:SuperOffice.WebApi.Data.EventData.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.EventData
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: EventData.Type
+  fullName: SuperOffice.WebApi.Data.EventData.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe type of event we are triggered by\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<EventHandlerType> Type { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.EventHandlerType}
+    content.vb: Public Property Type As Nullable(Of EventHandlerType)
+  overload: SuperOffice.WebApi.Data.EventData.Type*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.EventData.Type_String
+    commentId: P:SuperOffice.WebApi.Data.EventData.Type_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EventData.InputValues
+  commentId: P:SuperOffice.WebApi.Data.EventData.InputValues
+  id: InputValues
+  parent: SuperOffice.WebApi.Data.EventData
+  langs:
+  - csharp
+  - vb
+  name: InputValues
+  nameWithType: EventData.InputValues
+  fullName: SuperOffice.WebApi.Data.EventData.InputValues
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnvironment values sent to the event handler\n"
+  syntax:
+    content: public virtual StringDictionary InputValues { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StringDictionary
+    content.vb: Public Overridable Property InputValues As StringDictionary
+  overload: SuperOffice.WebApi.Data.EventData.InputValues*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EventData.BlockExecution
+  commentId: P:SuperOffice.WebApi.Data.EventData.BlockExecution
+  id: BlockExecution
+  parent: SuperOffice.WebApi.Data.EventData
+  langs:
+  - csharp
+  - vb
+  name: BlockExecution
+  nameWithType: EventData.BlockExecution
+  fullName: SuperOffice.WebApi.Data.EventData.BlockExecution
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhether the context should stop what it is doing, e.g. saving a sale\n"
+  syntax:
+    content: public virtual bool BlockExecution { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property BlockExecution As Boolean
+  overload: SuperOffice.WebApi.Data.EventData.BlockExecution*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EventData.NavigateTo
+  commentId: P:SuperOffice.WebApi.Data.EventData.NavigateTo
+  id: NavigateTo
+  parent: SuperOffice.WebApi.Data.EventData
+  langs:
+  - csharp
+  - vb
+  name: NavigateTo
+  nameWithType: EventData.NavigateTo
+  fullName: SuperOffice.WebApi.Data.EventData.NavigateTo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhere the context should naviate afterwards\n"
+  syntax:
+    content: public virtual string NavigateTo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property NavigateTo As String
+  overload: SuperOffice.WebApi.Data.EventData.NavigateTo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EventData.Message
+  commentId: P:SuperOffice.WebApi.Data.EventData.Message
+  id: Message
+  parent: SuperOffice.WebApi.Data.EventData
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: EventData.Message
+  fullName: SuperOffice.WebApi.Data.EventData.Message
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA message to be presented to the user\n"
+  syntax:
+    content: public virtual string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Message As String
+  overload: SuperOffice.WebApi.Data.EventData.Message*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EventData.OutputValues
+  commentId: P:SuperOffice.WebApi.Data.EventData.OutputValues
+  id: OutputValues
+  parent: SuperOffice.WebApi.Data.EventData
+  langs:
+  - csharp
+  - vb
+  name: OutputValues
+  nameWithType: EventData.OutputValues
+  fullName: SuperOffice.WebApi.Data.EventData.OutputValues
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nValues sent back to the environment from the event handler\n"
+  syntax:
+    content: public virtual StringDictionary OutputValues { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StringDictionary
+    content.vb: Public Overridable Property OutputValues As StringDictionary
+  overload: SuperOffice.WebApi.Data.EventData.OutputValues*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EventData.StateValues
+  commentId: P:SuperOffice.WebApi.Data.EventData.StateValues
+  id: StateValues
+  parent: SuperOffice.WebApi.Data.EventData
+  langs:
+  - csharp
+  - vb
+  name: StateValues
+  nameWithType: EventData.StateValues
+  fullName: SuperOffice.WebApi.Data.EventData.StateValues
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nValues kept between event handlers\n"
+  syntax:
+    content: public virtual StringDictionary StateValues { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StringDictionary
+    content.vb: Public Overridable Property StateValues As StringDictionary
+  overload: SuperOffice.WebApi.Data.EventData.StateValues*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.EventData.Exception
+  commentId: P:SuperOffice.WebApi.Data.EventData.Exception
+  id: Exception
+  parent: SuperOffice.WebApi.Data.EventData
+  langs:
+  - csharp
+  - vb
+  name: Exception
+  nameWithType: EventData.Exception
+  fullName: SuperOffice.WebApi.Data.EventData.Exception
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nString containing error message from handler system if it failed\n"
+  syntax:
+    content: public virtual string Exception { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Exception As String
+  overload: SuperOffice.WebApi.Data.EventData.Exception*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  isExternal: true
+  name: CustomerServiceAgent
+  nameWithType: CustomerServiceAgent
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EventData.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EventData.#ctor
+  isExternal: true
+  name: EventData
+  nameWithType: EventData.EventData
+  fullName: SuperOffice.WebApi.Data.EventData.EventData
+- uid: SuperOffice.WebApi.Data.EventData.Type_String*
+  commentId: Overload:SuperOffice.WebApi.Data.EventData.Type_String
+  isExternal: true
+  name: Type_String
+  nameWithType: EventData.Type_String
+  fullName: SuperOffice.WebApi.Data.EventData.Type_String
+- uid: SuperOffice.WebApi.Data.EventData.Type
+  commentId: P:SuperOffice.WebApi.Data.EventData.Type
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.EventData.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.EventData.Type
+  isExternal: true
+  name: Type
+  nameWithType: EventData.Type
+  fullName: SuperOffice.WebApi.Data.EventData.Type
+- uid: SuperOffice.WebApi.Data.EventData.Type_String
+  commentId: P:SuperOffice.WebApi.Data.EventData.Type_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.EventHandlerType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.EventHandlerType}'
+  definition: System.Nullable`1
+  name: Nullable<EventHandlerType>
+  nameWithType: Nullable<EventHandlerType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.EventHandlerType>
+  nameWithType.vb: Nullable(Of EventHandlerType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.EventHandlerType)
+  name.vb: Nullable(Of EventHandlerType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.EventHandlerType
+    name: EventHandlerType
+    nameWithType: EventHandlerType
+    fullName: SuperOffice.WebApi.Data.EventHandlerType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.EventHandlerType
+    name: EventHandlerType
+    nameWithType: EventHandlerType
+    fullName: SuperOffice.WebApi.Data.EventHandlerType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.EventData.InputValues*
+  commentId: Overload:SuperOffice.WebApi.Data.EventData.InputValues
+  isExternal: true
+  name: InputValues
+  nameWithType: EventData.InputValues
+  fullName: SuperOffice.WebApi.Data.EventData.InputValues
+- uid: SuperOffice.WebApi.Data.StringDictionary
+  commentId: T:SuperOffice.WebApi.Data.StringDictionary
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.WebApi.Data.StringDictionary
+- uid: SuperOffice.WebApi.Data.EventData.BlockExecution*
+  commentId: Overload:SuperOffice.WebApi.Data.EventData.BlockExecution
+  isExternal: true
+  name: BlockExecution
+  nameWithType: EventData.BlockExecution
+  fullName: SuperOffice.WebApi.Data.EventData.BlockExecution
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.EventData.NavigateTo*
+  commentId: Overload:SuperOffice.WebApi.Data.EventData.NavigateTo
+  isExternal: true
+  name: NavigateTo
+  nameWithType: EventData.NavigateTo
+  fullName: SuperOffice.WebApi.Data.EventData.NavigateTo
+- uid: SuperOffice.WebApi.Data.EventData.Message*
+  commentId: Overload:SuperOffice.WebApi.Data.EventData.Message
+  isExternal: true
+  name: Message
+  nameWithType: EventData.Message
+  fullName: SuperOffice.WebApi.Data.EventData.Message
+- uid: SuperOffice.WebApi.Data.EventData.OutputValues*
+  commentId: Overload:SuperOffice.WebApi.Data.EventData.OutputValues
+  isExternal: true
+  name: OutputValues
+  nameWithType: EventData.OutputValues
+  fullName: SuperOffice.WebApi.Data.EventData.OutputValues
+- uid: SuperOffice.WebApi.Data.EventData.StateValues*
+  commentId: Overload:SuperOffice.WebApi.Data.EventData.StateValues
+  isExternal: true
+  name: StateValues
+  nameWithType: EventData.StateValues
+  fullName: SuperOffice.WebApi.Data.EventData.StateValues
+- uid: SuperOffice.WebApi.Data.EventData.Exception*
+  commentId: Overload:SuperOffice.WebApi.Data.EventData.Exception
+  isExternal: true
+  name: Exception
+  nameWithType: EventData.Exception
+  fullName: SuperOffice.WebApi.Data.EventData.Exception

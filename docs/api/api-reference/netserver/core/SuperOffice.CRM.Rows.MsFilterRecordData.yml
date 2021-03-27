@@ -1,0 +1,1411 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData
+  commentId: T:SuperOffice.CRM.Rows.MsFilterRecordData
+  id: MsFilterRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.MsFilterRecordData.#ctor
+  - SuperOffice.CRM.Rows.MsFilterRecordData.Action
+  - SuperOffice.CRM.Rows.MsFilterRecordData.ActionWhen
+  - SuperOffice.CRM.Rows.MsFilterRecordData.AutofaqReplyCategory
+  - SuperOffice.CRM.Rows.MsFilterRecordData.BodyTemplate
+  - SuperOffice.CRM.Rows.MsFilterRecordData.Description
+  - SuperOffice.CRM.Rows.MsFilterRecordData.Ejscript
+  - SuperOffice.CRM.Rows.MsFilterRecordData.Flags
+  - SuperOffice.CRM.Rows.MsFilterRecordData.ForwardTo
+  - SuperOffice.CRM.Rows.MsFilterRecordData.MsFilterId
+  - SuperOffice.CRM.Rows.MsFilterRecordData.NewCategory
+  - SuperOffice.CRM.Rows.MsFilterRecordData.NewOwner
+  - SuperOffice.CRM.Rows.MsFilterRecordData.NewPriority
+  - SuperOffice.CRM.Rows.MsFilterRecordData.NewSlevel
+  - SuperOffice.CRM.Rows.MsFilterRecordData.ParseMode
+  - SuperOffice.CRM.Rows.MsFilterRecordData.Priority
+  - SuperOffice.CRM.Rows.MsFilterRecordData.ReplyTemplate
+  - SuperOffice.CRM.Rows.MsFilterRecordData.ReplyTo
+  - SuperOffice.CRM.Rows.MsFilterRecordData.ReplyToSms
+  - SuperOffice.CRM.Rows.MsFilterRecordData.SearchLocation
+  - SuperOffice.CRM.Rows.MsFilterRecordData.SearchString
+  - SuperOffice.CRM.Rows.MsFilterRecordData.SearchString2
+  langs:
+  - csharp
+  - vb
+  name: MsFilterRecordData
+  nameWithType: MsFilterRecordData
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the ms_filter table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.MsFilterRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.MsFilterTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class MsFilterRecordData
+    content.vb: Public Class MsFilterRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.MsFilterRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.MsFilterRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.MsFilterRecordData)
+  - SuperOffice.CRM.Rows.MsFilterRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.MsFilterRecordData.SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.MsFilterRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.MsFilterId
+  commentId: F:SuperOffice.CRM.Rows.MsFilterRecordData.MsFilterId
+  id: MsFilterId
+  parent: SuperOffice.CRM.Rows.MsFilterRecordData
+  langs:
+  - csharp
+  - vb
+  name: MsFilterId
+  nameWithType: MsFilterRecordData.MsFilterId
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordData.MsFilterId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe primary key (auto-incremented) \n"
+  syntax:
+    content: public int MsFilterId
+    return:
+      type: System.Int32
+    content.vb: Public MsFilterId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.Priority
+  commentId: F:SuperOffice.CRM.Rows.MsFilterRecordData.Priority
+  id: Priority
+  parent: SuperOffice.CRM.Rows.MsFilterRecordData
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: MsFilterRecordData.Priority
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordData.Priority
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nA number indicating the priority for this filter (0..10). \n"
+  syntax:
+    content: public int Priority
+    return:
+      type: System.Int32
+    content.vb: Public Priority As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.Description
+  commentId: F:SuperOffice.CRM.Rows.MsFilterRecordData.Description
+  id: Description
+  parent: SuperOffice.CRM.Rows.MsFilterRecordData
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: MsFilterRecordData.Description
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordData.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nA description for this filter. \n"
+  syntax:
+    content: public string Description
+    return:
+      type: System.String
+    content.vb: Public Description As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.SearchString
+  commentId: F:SuperOffice.CRM.Rows.MsFilterRecordData.SearchString
+  id: SearchString
+  parent: SuperOffice.CRM.Rows.MsFilterRecordData
+  langs:
+  - csharp
+  - vb
+  name: SearchString
+  nameWithType: MsFilterRecordData.SearchString
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordData.SearchString
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe string to search for. \n"
+  syntax:
+    content: public string SearchString
+    return:
+      type: System.String
+    content.vb: Public SearchString As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.SearchString2
+  commentId: F:SuperOffice.CRM.Rows.MsFilterRecordData.SearchString2
+  id: SearchString2
+  parent: SuperOffice.CRM.Rows.MsFilterRecordData
+  langs:
+  - csharp
+  - vb
+  name: SearchString2
+  nameWithType: MsFilterRecordData.SearchString2
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordData.SearchString2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nA second string to search for. Only used if not empty. \n"
+  syntax:
+    content: public string SearchString2
+    return:
+      type: System.String
+    content.vb: Public SearchString2 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.SearchLocation
+  commentId: F:SuperOffice.CRM.Rows.MsFilterRecordData.SearchLocation
+  id: SearchLocation
+  parent: SuperOffice.CRM.Rows.MsFilterRecordData
+  langs:
+  - csharp
+  - vb
+  name: SearchLocation
+  nameWithType: MsFilterRecordData.SearchLocation
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordData.SearchLocation
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEnum indicating where to search. \n"
+  syntax:
+    content: public short SearchLocation
+    return:
+      type: System.Int16
+    content.vb: Public SearchLocation As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.Action
+  commentId: F:SuperOffice.CRM.Rows.MsFilterRecordData.Action
+  id: Action
+  parent: SuperOffice.CRM.Rows.MsFilterRecordData
+  langs:
+  - csharp
+  - vb
+  name: Action
+  nameWithType: MsFilterRecordData.Action
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordData.Action
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nA bitmask representing the actions that should be performed if this filter is executed. \n"
+  syntax:
+    content: public int Action
+    return:
+      type: System.Int32
+    content.vb: Public Action As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.ActionWhen
+  commentId: F:SuperOffice.CRM.Rows.MsFilterRecordData.ActionWhen
+  id: ActionWhen
+  parent: SuperOffice.CRM.Rows.MsFilterRecordData
+  langs:
+  - csharp
+  - vb
+  name: ActionWhen
+  nameWithType: MsFilterRecordData.ActionWhen
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordData.ActionWhen
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEnum indicating what should trigger this filter. \n"
+  syntax:
+    content: public short ActionWhen
+    return:
+      type: System.Int16
+    content.vb: Public ActionWhen As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.NewPriority
+  commentId: F:SuperOffice.CRM.Rows.MsFilterRecordData.NewPriority
+  id: NewPriority
+  parent: SuperOffice.CRM.Rows.MsFilterRecordData
+  langs:
+  - csharp
+  - vb
+  name: NewPriority
+  nameWithType: MsFilterRecordData.NewPriority
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordData.NewPriority
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe id of the priority to set for the ticket if specified by action. \n"
+  syntax:
+    content: public int NewPriority
+    return:
+      type: System.Int32
+    content.vb: Public NewPriority As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.NewCategory
+  commentId: F:SuperOffice.CRM.Rows.MsFilterRecordData.NewCategory
+  id: NewCategory
+  parent: SuperOffice.CRM.Rows.MsFilterRecordData
+  langs:
+  - csharp
+  - vb
+  name: NewCategory
+  nameWithType: MsFilterRecordData.NewCategory
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordData.NewCategory
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe id of the category to set for the ticket if specified by action. \n"
+  syntax:
+    content: public int NewCategory
+    return:
+      type: System.Int32
+    content.vb: Public NewCategory As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.NewOwner
+  commentId: F:SuperOffice.CRM.Rows.MsFilterRecordData.NewOwner
+  id: NewOwner
+  parent: SuperOffice.CRM.Rows.MsFilterRecordData
+  langs:
+  - csharp
+  - vb
+  name: NewOwner
+  nameWithType: MsFilterRecordData.NewOwner
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordData.NewOwner
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe id of the owner to set for the ticket if specified by action. \n"
+  syntax:
+    content: public int NewOwner
+    return:
+      type: System.Int32
+    content.vb: Public NewOwner As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.NewSlevel
+  commentId: F:SuperOffice.CRM.Rows.MsFilterRecordData.NewSlevel
+  id: NewSlevel
+  parent: SuperOffice.CRM.Rows.MsFilterRecordData
+  langs:
+  - csharp
+  - vb
+  name: NewSlevel
+  nameWithType: MsFilterRecordData.NewSlevel
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordData.NewSlevel
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe security level to set for the ticket if specified by action. \n"
+  syntax:
+    content: public int NewSlevel
+    return:
+      type: System.Int32
+    content.vb: Public NewSlevel As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.ReplyTemplate
+  commentId: F:SuperOffice.CRM.Rows.MsFilterRecordData.ReplyTemplate
+  id: ReplyTemplate
+  parent: SuperOffice.CRM.Rows.MsFilterRecordData
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplate
+  nameWithType: MsFilterRecordData.ReplyTemplate
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordData.ReplyTemplate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe id of the template to use as the reply template if specified by action. \n"
+  syntax:
+    content: public int ReplyTemplate
+    return:
+      type: System.Int32
+    content.vb: Public ReplyTemplate As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.ReplyTo
+  commentId: F:SuperOffice.CRM.Rows.MsFilterRecordData.ReplyTo
+  id: ReplyTo
+  parent: SuperOffice.CRM.Rows.MsFilterRecordData
+  langs:
+  - csharp
+  - vb
+  name: ReplyTo
+  nameWithType: MsFilterRecordData.ReplyTo
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordData.ReplyTo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe email address to reply to. \n"
+  syntax:
+    content: public string ReplyTo
+    return:
+      type: System.String
+    content.vb: Public ReplyTo As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.ReplyToSms
+  commentId: F:SuperOffice.CRM.Rows.MsFilterRecordData.ReplyToSms
+  id: ReplyToSms
+  parent: SuperOffice.CRM.Rows.MsFilterRecordData
+  langs:
+  - csharp
+  - vb
+  name: ReplyToSms
+  nameWithType: MsFilterRecordData.ReplyToSms
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordData.ReplyToSms
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe SMS number to reply to. \n"
+  syntax:
+    content: public string ReplyToSms
+    return:
+      type: System.String
+    content.vb: Public ReplyToSms As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.BodyTemplate
+  commentId: F:SuperOffice.CRM.Rows.MsFilterRecordData.BodyTemplate
+  id: BodyTemplate
+  parent: SuperOffice.CRM.Rows.MsFilterRecordData
+  langs:
+  - csharp
+  - vb
+  name: BodyTemplate
+  nameWithType: MsFilterRecordData.BodyTemplate
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordData.BodyTemplate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe template to use for the body of the message. \n"
+  syntax:
+    content: public int BodyTemplate
+    return:
+      type: System.Int32
+    content.vb: Public BodyTemplate As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.ForwardTo
+  commentId: F:SuperOffice.CRM.Rows.MsFilterRecordData.ForwardTo
+  id: ForwardTo
+  parent: SuperOffice.CRM.Rows.MsFilterRecordData
+  langs:
+  - csharp
+  - vb
+  name: ForwardTo
+  nameWithType: MsFilterRecordData.ForwardTo
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordData.ForwardTo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nAn email address to forward the ticket to. \n"
+  syntax:
+    content: public string ForwardTo
+    return:
+      type: System.String
+    content.vb: Public ForwardTo As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.AutofaqReplyCategory
+  commentId: F:SuperOffice.CRM.Rows.MsFilterRecordData.AutofaqReplyCategory
+  id: AutofaqReplyCategory
+  parent: SuperOffice.CRM.Rows.MsFilterRecordData
+  langs:
+  - csharp
+  - vb
+  name: AutofaqReplyCategory
+  nameWithType: MsFilterRecordData.AutofaqReplyCategory
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordData.AutofaqReplyCategory
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe root folder for the auto faq search. \n"
+  syntax:
+    content: public int AutofaqReplyCategory
+    return:
+      type: System.Int32
+    content.vb: Public AutofaqReplyCategory As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.Flags
+  commentId: F:SuperOffice.CRM.Rows.MsFilterRecordData.Flags
+  id: Flags
+  parent: SuperOffice.CRM.Rows.MsFilterRecordData
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: MsFilterRecordData.Flags
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordData.Flags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFlags \n"
+  syntax:
+    content: public int Flags
+    return:
+      type: System.Int32
+    content.vb: Public Flags As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.ParseMode
+  commentId: F:SuperOffice.CRM.Rows.MsFilterRecordData.ParseMode
+  id: ParseMode
+  parent: SuperOffice.CRM.Rows.MsFilterRecordData
+  langs:
+  - csharp
+  - vb
+  name: ParseMode
+  nameWithType: MsFilterRecordData.ParseMode
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordData.ParseMode
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIf automatic parsing this column indicate mode \n"
+  syntax:
+    content: public short ParseMode
+    return:
+      type: System.Int16
+    content.vb: Public ParseMode As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.Ejscript
+  commentId: F:SuperOffice.CRM.Rows.MsFilterRecordData.Ejscript
+  id: Ejscript
+  parent: SuperOffice.CRM.Rows.MsFilterRecordData
+  langs:
+  - csharp
+  - vb
+  name: Ejscript
+  nameWithType: MsFilterRecordData.Ejscript
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordData.Ejscript
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe reference to the ejscript to execute for this filter. \n"
+  syntax:
+    content: public int Ejscript
+    return:
+      type: System.Int32
+    content.vb: Public Ejscript As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.MsFilterRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.MsFilterRecordData
+  langs:
+  - csharp
+  - vb
+  name: MsFilterRecordData()
+  nameWithType: MsFilterRecordData.MsFilterRecordData()
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordData.MsFilterRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public MsFilterRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.MsFilterRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<MsFilterRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<MsFilterRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.MsFilterRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of MsFilterRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.MsFilterRecordData, To)()
+  name.vb: MapEnums(Of MsFilterRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<MsFilterRecordData, To>
+    nameWithType: EnumUtil.MapEnums<MsFilterRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.MsFilterRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of MsFilterRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of MsFilterRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.MsFilterRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.MsFilterRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<MsFilterRecordData>(MsFilterRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<MsFilterRecordData>(MsFilterRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.MsFilterRecordData>(SuperOffice.CRM.Rows.MsFilterRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of MsFilterRecordData)(MsFilterRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.MsFilterRecordData)(SuperOffice.CRM.Rows.MsFilterRecordData)
+  name.vb: AssignByReflection(Of MsFilterRecordData)(MsFilterRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<MsFilterRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<MsFilterRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.MsFilterRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.MsFilterRecordData
+    name: MsFilterRecordData
+    nameWithType: MsFilterRecordData
+    fullName: SuperOffice.CRM.Rows.MsFilterRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of MsFilterRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of MsFilterRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.MsFilterRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.MsFilterRecordData
+    name: MsFilterRecordData
+    nameWithType: MsFilterRecordData
+    fullName: SuperOffice.CRM.Rows.MsFilterRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<MsFilterRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<MsFilterRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.MsFilterRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of MsFilterRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.MsFilterRecordData)()
+  name.vb: GraphCopy(Of MsFilterRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<MsFilterRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<MsFilterRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.MsFilterRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of MsFilterRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of MsFilterRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.MsFilterRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MsFilterRecordData)
+  parent: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MsFilterRecordData)
+  name: ToInsert()
+  nameWithType: MsFilterRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: MsFilterRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: MsFilterRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<MsFilterRecordData, To>()
+  nameWithType: Converters.MapEnums<MsFilterRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.MsFilterRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of MsFilterRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.MsFilterRecordData, To)()
+  name.vb: MapEnums(Of MsFilterRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<MsFilterRecordData, To>
+    nameWithType: Converters.MapEnums<MsFilterRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.MsFilterRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of MsFilterRecordData, To)
+    nameWithType: Converters.MapEnums(Of MsFilterRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.MsFilterRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MsFilterRecordData)
+  commentId: M:SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MsFilterRecordData)
+  isExternal: true
+  name: ToInsert(MsFilterRecordData)
+  nameWithType: MsFilterRecordDataExtensions.ToInsert(MsFilterRecordData)
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MsFilterRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MsFilterRecordData)
+    name: ToInsert
+    nameWithType: MsFilterRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.MsFilterRecordData
+    name: MsFilterRecordData
+    nameWithType: MsFilterRecordData
+    fullName: SuperOffice.CRM.Rows.MsFilterRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MsFilterRecordData)
+    name: ToInsert
+    nameWithType: MsFilterRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.MsFilterRecordData
+    name: MsFilterRecordData
+    nameWithType: MsFilterRecordData
+    fullName: SuperOffice.CRM.Rows.MsFilterRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.MsFilterRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: MsFilterRecordDataExtensions
+  nameWithType: MsFilterRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Rows.MsFilterRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.MsFilterRecordData.#ctor
+  isExternal: true
+  name: MsFilterRecordData
+  nameWithType: MsFilterRecordData.MsFilterRecordData
+  fullName: SuperOffice.CRM.Rows.MsFilterRecordData.MsFilterRecordData

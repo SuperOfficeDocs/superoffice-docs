@@ -1,0 +1,1508 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  id: ArchiveColumnData
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnData.#ctor
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnData.#ctor(System.String)
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnData.#ctor(System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnData.#ctor(System.String,System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnData.#ctor(System.String,System.String,System.String,System.Object)
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnData.__dbFieldId
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnData.__dbFieldPrimaryKey
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnData.__dbParentPrimaryKey
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnData.__dbParentTableNumber
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnData.CheckAndSetOrderByValue
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnData.Clone
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnData.DisplayValue
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnData.GetDateTimeValue
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnData.GetNumericValue(System.Boolean@)
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnData.LinkHint
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnData.OrderByValue
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnData.RawValue
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnData.SetAlgorithmInfo(System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnData.SetRawValue(System.Object)
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnData.TooltipHint
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnData.ToString
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnData.TransferDbInfo(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  langs:
+  - csharp
+  - vb
+  name: ArchiveColumnData
+  nameWithType: ArchiveColumnData
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nData carrier class for an item (cell) in an archive. This class contains properties and\nmembers for three distinct values: The (visible) display value; the tooltip hint, and the link hint.\n"
+  remarks: "\nThe raw value and Order By Value are not used outside the service layer. They are only used by the windows\nclient and the internal NetServer code.\n"
+  syntax:
+    content: public class ArchiveColumnData
+    content.vb: Public Class ArchiveColumnData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.ArchiveLists.ArchiveColumnData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.__dbFieldId
+  commentId: F:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.__dbFieldId
+  id: __dbFieldId
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  langs:
+  - csharp
+  - vb
+  name: __dbFieldId
+  nameWithType: ArchiveColumnData.__dbFieldId
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.__dbFieldId
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nFor Windows Client:\n(tablenumber &lt;&lt; 8) + fieldnumber, or (negative) algorithm id for complex fields\n"
+  syntax:
+    content: public int __dbFieldId
+    return:
+      type: System.Int32
+    content.vb: Public __dbFieldId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.__dbFieldPrimaryKey
+  commentId: F:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.__dbFieldPrimaryKey
+  id: __dbFieldPrimaryKey
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  langs:
+  - csharp
+  - vb
+  name: __dbFieldPrimaryKey
+  nameWithType: ArchiveColumnData.__dbFieldPrimaryKey
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.__dbFieldPrimaryKey
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nFor Windows Client:\nprimary key of table that <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveColumnData.__dbFieldId\" data-throw-if-not-resolved=\"false\"></xref> comes from\n"
+  syntax:
+    content: public int __dbFieldPrimaryKey
+    return:
+      type: System.Int32
+    content.vb: Public __dbFieldPrimaryKey As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.__dbParentTableNumber
+  commentId: F:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.__dbParentTableNumber
+  id: __dbParentTableNumber
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  langs:
+  - csharp
+  - vb
+  name: __dbParentTableNumber
+  nameWithType: ArchiveColumnData.__dbParentTableNumber
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.__dbParentTableNumber
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nFor Windows Client:\ntablenumber of the logical parent (for instance, appointment if we&apos;re dealing with a text field from the text table)\n"
+  syntax:
+    content: public int __dbParentTableNumber
+    return:
+      type: System.Int32
+    content.vb: Public __dbParentTableNumber As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.__dbParentPrimaryKey
+  commentId: F:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.__dbParentPrimaryKey
+  id: __dbParentPrimaryKey
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  langs:
+  - csharp
+  - vb
+  name: __dbParentPrimaryKey
+  nameWithType: ArchiveColumnData.__dbParentPrimaryKey
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.__dbParentPrimaryKey
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nFor Windows Client:\nparent&apos;s primary key (let&apos;s hope we&apos;re able to cough up all this info)\n"
+  syntax:
+    content: public int __dbParentPrimaryKey
+    return:
+      type: System.Int32
+    content.vb: Public __dbParentPrimaryKey As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.#ctor
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  langs:
+  - csharp
+  - vb
+  name: ArchiveColumnData()
+  nameWithType: ArchiveColumnData.ArchiveColumnData()
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.ArchiveColumnData()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nConstructor used for serialization.\n"
+  syntax:
+    content: public ArchiveColumnData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.#ctor(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  langs:
+  - csharp
+  - vb
+  name: ArchiveColumnData(String)
+  nameWithType: ArchiveColumnData.ArchiveColumnData(String)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.ArchiveColumnData(System.String)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nConstruct the object and just set the display value\n"
+  syntax:
+    content: public ArchiveColumnData(string displayValue)
+    parameters:
+    - id: displayValue
+      type: System.String
+      description: Display value; non-string values should be converted to string using the invariant culture format provider
+    content.vb: Public Sub New(displayValue As String)
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.#ctor(System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  langs:
+  - csharp
+  - vb
+  name: ArchiveColumnData(String, String)
+  nameWithType: ArchiveColumnData.ArchiveColumnData(String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.ArchiveColumnData(System.String, System.String)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nConstruct the object and set the display value and tooltip hint\n"
+  syntax:
+    content: public ArchiveColumnData(string displayValue, string tooltipHint)
+    parameters:
+    - id: displayValue
+      type: System.String
+      description: Display value; non-string values should be converted to string using the invariant culture format provider
+    - id: tooltipHint
+      type: System.String
+      description: Tooltip hint, either a text to be shown or a parseable tooltip key to be handed to the tooltip provider system
+    content.vb: Public Sub New(displayValue As String, tooltipHint As String)
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.Clone
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.Clone
+  id: Clone
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: ArchiveColumnData.Clone()
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.Clone()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public ArchiveColumnData Clone()
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    content.vb: Public Function Clone As ArchiveColumnData
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.#ctor(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.#ctor(System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String)'
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  langs:
+  - csharp
+  - vb
+  name: ArchiveColumnData(String, String, String)
+  nameWithType: ArchiveColumnData.ArchiveColumnData(String, String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.ArchiveColumnData(System.String, System.String, System.String)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nConstruct the object and set the display value and tooltip hint\n"
+  syntax:
+    content: public ArchiveColumnData(string displayValue, string tooltipHint, string linkHint)
+    parameters:
+    - id: displayValue
+      type: System.String
+      description: Display value; non-string values should be converted to string using the invariant culture format provider
+    - id: tooltipHint
+      type: System.String
+      description: Tooltip hint, either a text to be shown or a parseable tooltip key to be handed to the tooltip provider system
+    - id: linkHint
+      type: System.String
+      description: Link hint, as string
+    content.vb: Public Sub New(displayValue As String, tooltipHint As String, linkHint As String)
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.#ctor(System.String,System.String,System.String,System.Object)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.#ctor(System.String,System.String,System.String,System.Object)
+  id: '#ctor(System.String,System.String,System.String,System.Object)'
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  langs:
+  - csharp
+  - vb
+  name: ArchiveColumnData(String, String, String, Object)
+  nameWithType: ArchiveColumnData.ArchiveColumnData(String, String, String, Object)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.ArchiveColumnData(System.String, System.String, System.String, System.Object)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nConstruct the object and set the display value, tooltip hint, link hint and raw value\n"
+  syntax:
+    content: public ArchiveColumnData(string displayValue, string tooltipHint, string linkHint, object rawValue)
+    parameters:
+    - id: displayValue
+      type: System.String
+      description: Display value; non-string values should be converted to string using the invariant culture format provider
+    - id: tooltipHint
+      type: System.String
+      description: Tooltip hint, either a text to be shown or a parseable tooltip key to be handed to the tooltip provider system
+    - id: linkHint
+      type: System.String
+      description: Link hint, as string
+    - id: rawValue
+      type: System.Object
+      description: Raw value, an object
+    content.vb: Public Sub New(displayValue As String, tooltipHint As String, linkHint As String, rawValue As Object)
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.ToString
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.ToString
+  id: ToString
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ArchiveColumnData.ToString()
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.ToString()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nToString method intended for debugging\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: String representation of the data object
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.SetRawValue(System.Object)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.SetRawValue(System.Object)
+  id: SetRawValue(System.Object)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  langs:
+  - csharp
+  - vb
+  name: SetRawValue(Object)
+  nameWithType: ArchiveColumnData.SetRawValue(Object)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.SetRawValue(System.Object)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nSet the raw value. This method duplicates the property setter, but looks more consistent in a\nchained usage such as ... AddOverlappingColumn( --- ).SetRawValue( ... )\nNote: Not available outside service layer. Primarily for windows client.\n"
+  syntax:
+    content: public ArchiveColumnData SetRawValue(object rawValue)
+    parameters:
+    - id: rawValue
+      type: System.Object
+      description: The raw value to be set
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+      description: The current instance, so calls can be chained with for instance <xref href="SuperOffice.CRM.ArchiveLists.ArchiveColumnData.SetAlgorithmInfo(System.Int32)" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Function SetRawValue(rawValue As Object) As ArchiveColumnData
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.SetRawValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.SetAlgorithmInfo(System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.SetAlgorithmInfo(System.Int32)
+  id: SetAlgorithmInfo(System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  langs:
+  - csharp
+  - vb
+  name: SetAlgorithmInfo(Int32)
+  nameWithType: ArchiveColumnData.SetAlgorithmInfo(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.SetAlgorithmInfo(System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nSet the algorithm information into the <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveColumnData.__dbFieldId\" data-throw-if-not-resolved=\"false\"></xref>, for use by\nthe Live Update system.\nNote: Not available outside service layer. Primarily for windows client.\n"
+  syntax:
+    content: public ArchiveColumnData SetAlgorithmInfo(int infoConstant)
+    parameters:
+    - id: infoConstant
+      type: System.Int32
+      description: Algorithm number, preferable taken from <see cref="!:SuperOffice.CRM.ArchiveLists.ArchiveListConstants.ColumnAlgorithms"></see>
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+      description: The current instance, so calls can be chained with for instance <xref href="SuperOffice.CRM.ArchiveLists.ArchiveColumnData.SetRawValue(System.Object)" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Function SetAlgorithmInfo(infoConstant As Integer) As ArchiveColumnData
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.SetAlgorithmInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.TransferDbInfo(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.TransferDbInfo(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  id: TransferDbInfo(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  langs:
+  - csharp
+  - vb
+  name: TransferDbInfo(ArchiveColumnData)
+  nameWithType: ArchiveColumnData.TransferDbInfo(ArchiveColumnData)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.TransferDbInfo(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public void TransferDbInfo(ArchiveColumnData source)
+    parameters:
+    - id: source
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    content.vb: Public Sub TransferDbInfo(source As ArchiveColumnData)
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.TransferDbInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.GetNumericValue(System.Boolean@)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.GetNumericValue(System.Boolean@)
+  id: GetNumericValue(System.Boolean@)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  langs:
+  - csharp
+  - vb
+  name: GetNumericValue(out Boolean)
+  nameWithType: ArchiveColumnData.GetNumericValue(out Boolean)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.GetNumericValue(out System.Boolean)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nGet the numeric value of an ArchiveColumnData item - tolerantly\n"
+  remarks: "\nThis method does its best to get the int or double value from the input,\nwhich the client is asserting to be a numeric value (otherwise the client should\nnot call this method...).\n<p></p>\nIt will always return a double, but has an OUT bool that tells the client whether\nthe original looked like an int or not. RawValue is used if possible, otherwise\nseveral levels of tolerant parsing and guesswork are applied. Non-numeric values\nare classified as (int)0.\n"
+  syntax:
+    content: public double GetNumericValue(out bool isDouble)
+    parameters:
+    - id: isDouble
+      type: System.Boolean
+    return:
+      type: System.Double
+    content.vb: Public Function GetNumericValue(ByRef isDouble As Boolean) As Double
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.GetNumericValue*
+  nameWithType.vb: ArchiveColumnData.GetNumericValue(ByRef Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.GetNumericValue(ByRef System.Boolean)
+  name.vb: GetNumericValue(ByRef Boolean)
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.GetDateTimeValue
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.GetDateTimeValue
+  id: GetDateTimeValue
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  langs:
+  - csharp
+  - vb
+  name: GetDateTimeValue()
+  nameWithType: ArchiveColumnData.GetDateTimeValue()
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.GetDateTimeValue()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nGet a datetime value from archive column data\n"
+  remarks: "\nIf a non-null RawValues is available and of type DateTime, then that is returned without\nfurther parsing. Otherwise, try to parse the display value. If that fails, return \nDateTime.MinValue.\n"
+  syntax:
+    content: public DateTime GetDateTimeValue()
+    return:
+      type: System.DateTime
+    content.vb: Public Function GetDateTimeValue As Date
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.GetDateTimeValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.CheckAndSetOrderByValue
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.CheckAndSetOrderByValue
+  id: CheckAndSetOrderByValue
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  langs:
+  - csharp
+  - vb
+  name: CheckAndSetOrderByValue()
+  nameWithType: ArchiveColumnData.CheckAndSetOrderByValue()
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.CheckAndSetOrderByValue()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nCheck the OrderBy property of the archive column data, and set it if it is null.\nWe first let <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref> try parsing, and accept its result if it is non-string.\nIf that fails, we try to parse date, int and double in that order to get correct sorting comparisons.\nnull value is allowed for the parameter, nothing happens then.\n"
+  syntax:
+    content: public void CheckAndSetOrderByValue()
+    content.vb: Public Sub CheckAndSetOrderByValue
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.CheckAndSetOrderByValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.DisplayValue
+  commentId: P:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.DisplayValue
+  id: DisplayValue
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  langs:
+  - csharp
+  - vb
+  name: DisplayValue
+  nameWithType: ArchiveColumnData.DisplayValue
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.DisplayValue
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nThe visible display value for an archive cell. It is always a string, and other data types\nare converted to string according to the invariant culture. Further conversion to the local\nculture is the responsibility of the client.\n"
+  syntax:
+    content: public string DisplayValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DisplayValue As String
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.DisplayValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.TooltipHint
+  commentId: P:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.TooltipHint
+  id: TooltipHint
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  langs:
+  - csharp
+  - vb
+  name: TooltipHint
+  nameWithType: ArchiveColumnData.TooltipHint
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.TooltipHint
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nThe tooltip hint is either a text to be shown (after resource tag substitution), or a tooltip\nkey to be given to the tooltip provider system in order to asynchronoously retrieve the actual\ntooltip.\n"
+  syntax:
+    content: public string TooltipHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TooltipHint As String
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.TooltipHint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.LinkHint
+  commentId: P:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.LinkHint
+  id: LinkHint
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  langs:
+  - csharp
+  - vb
+  name: LinkHint
+  nameWithType: ArchiveColumnData.LinkHint
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.LinkHint
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nThe link hint consists of information to construct an actual link; additional information (such\nas a view context) must be provided by the client, who is also responsible for building the link.\nThe content of the link will generally be one or more ids, such as contact_id=123.\n"
+  syntax:
+    content: public string LinkHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LinkHint As String
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.LinkHint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.OrderByValue
+  commentId: P:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.OrderByValue
+  id: OrderByValue
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  langs:
+  - csharp
+  - vb
+  name: OrderByValue
+  nameWithType: ArchiveColumnData.OrderByValue
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.OrderByValue
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nFor Windows Client:\nThis property contains an object to be used for order comparisons. It may be the same as the display value,\nbut it may also be different, as with fields that are built up from separate components but are ordered\nny one of the components (or the Japanese case, where Kanji name fields are ordered according to their Kana\nequivalents)\n"
+  syntax:
+    content: public object OrderByValue { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property OrderByValue As Object
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.OrderByValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.RawValue
+  commentId: P:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.RawValue
+  id: RawValue
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  langs:
+  - csharp
+  - vb
+  name: RawValue
+  nameWithType: ArchiveColumnData.RawValue
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.RawValue
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nFor Windows Client:\nThis property contains the &apos;raw&apos; value. A raw value is a strongly typed object that represents the raw\ndata used to derive the display value. For instance, a list column will have the list item name in the\ndisplay value, and the ID in the raw value; numeric columns will have an Int32 or Double raw value,\ndatetime columns will have a DateTime, and columns that represent enumerations or statuses - where the\ndisplay value is typically an icon hint - will have the raw numeric value.\nNot available outside service layer.\n"
+  syntax:
+    content: public object RawValue { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property RawValue As Object
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.RawValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ArchiveColumnData, To>()
+  nameWithType: EnumUtil.MapEnums<ArchiveColumnData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ArchiveColumnData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ArchiveColumnData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnData, To)()
+  name.vb: MapEnums(Of ArchiveColumnData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ArchiveColumnData, To>
+    nameWithType: EnumUtil.MapEnums<ArchiveColumnData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ArchiveColumnData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ArchiveColumnData, To)
+    nameWithType: EnumUtil.MapEnums(Of ArchiveColumnData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ArchiveColumnData>(ArchiveColumnData)
+  nameWithType: ObjectExtensions.AssignByReflection<ArchiveColumnData>(ArchiveColumnData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ArchiveColumnData>(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ArchiveColumnData)(ArchiveColumnData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnData)(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  name.vb: AssignByReflection(Of ArchiveColumnData)(ArchiveColumnData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ArchiveColumnData>
+    nameWithType: ObjectExtensions.AssignByReflection<ArchiveColumnData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ArchiveColumnData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    name: ArchiveColumnData
+    nameWithType: ArchiveColumnData
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ArchiveColumnData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ArchiveColumnData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    name: ArchiveColumnData
+    nameWithType: ArchiveColumnData
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ArchiveColumnData>()
+  nameWithType: ObjectExtensions.GraphCopy<ArchiveColumnData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ArchiveColumnData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ArchiveColumnData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnData)()
+  name.vb: GraphCopy(Of ArchiveColumnData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ArchiveColumnData>
+    nameWithType: ObjectExtensions.GraphCopy<ArchiveColumnData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ArchiveColumnData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ArchiveColumnData)
+    nameWithType: ObjectExtensions.GraphCopy(Of ArchiveColumnData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ArchiveColumnData, To>()
+  nameWithType: Converters.MapEnums<ArchiveColumnData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ArchiveColumnData, To>()
+  nameWithType.vb: Converters.MapEnums(Of ArchiveColumnData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnData, To)()
+  name.vb: MapEnums(Of ArchiveColumnData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ArchiveColumnData, To>
+    nameWithType: Converters.MapEnums<ArchiveColumnData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ArchiveColumnData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ArchiveColumnData, To)
+    nameWithType: Converters.MapEnums(Of ArchiveColumnData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.#ctor
+  isExternal: true
+  name: ArchiveColumnData
+  nameWithType: ArchiveColumnData.ArchiveColumnData
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.ArchiveColumnData
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.Clone*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.Clone
+  isExternal: true
+  name: Clone
+  nameWithType: ArchiveColumnData.Clone
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.Clone
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveColumnData
+  nameWithType: ArchiveColumnData
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.ToString*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ArchiveColumnData.ToString
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.ToString
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.SetRawValue*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.SetRawValue
+  isExternal: true
+  name: SetRawValue
+  nameWithType: ArchiveColumnData.SetRawValue
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.SetRawValue
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.SetAlgorithmInfo*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.SetAlgorithmInfo
+  isExternal: true
+  name: SetAlgorithmInfo
+  nameWithType: ArchiveColumnData.SetAlgorithmInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.SetAlgorithmInfo
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.TransferDbInfo*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.TransferDbInfo
+  isExternal: true
+  name: TransferDbInfo
+  nameWithType: ArchiveColumnData.TransferDbInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.TransferDbInfo
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.GetNumericValue*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.GetNumericValue
+  isExternal: true
+  name: GetNumericValue
+  nameWithType: ArchiveColumnData.GetNumericValue
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.GetNumericValue
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.GetDateTimeValue*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.GetDateTimeValue
+  isExternal: true
+  name: GetDateTimeValue
+  nameWithType: ArchiveColumnData.GetDateTimeValue
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.GetDateTimeValue
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.CheckAndSetOrderByValue*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.CheckAndSetOrderByValue
+  isExternal: true
+  name: CheckAndSetOrderByValue
+  nameWithType: ArchiveColumnData.CheckAndSetOrderByValue
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.CheckAndSetOrderByValue
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.DisplayValue*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.DisplayValue
+  isExternal: true
+  name: DisplayValue
+  nameWithType: ArchiveColumnData.DisplayValue
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.DisplayValue
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.TooltipHint*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.TooltipHint
+  isExternal: true
+  name: TooltipHint
+  nameWithType: ArchiveColumnData.TooltipHint
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.TooltipHint
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.LinkHint*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.LinkHint
+  isExternal: true
+  name: LinkHint
+  nameWithType: ArchiveColumnData.LinkHint
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.LinkHint
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.OrderByValue*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.OrderByValue
+  isExternal: true
+  name: OrderByValue
+  nameWithType: ArchiveColumnData.OrderByValue
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.OrderByValue
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.RawValue*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.RawValue
+  isExternal: true
+  name: RawValue
+  nameWithType: ArchiveColumnData.RawValue
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.RawValue

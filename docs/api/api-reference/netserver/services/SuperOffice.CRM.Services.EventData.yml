@@ -1,0 +1,521 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.EventData
+  commentId: T:SuperOffice.CRM.Services.EventData
+  id: EventData
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.EventData.#ctor
+  - SuperOffice.CRM.Services.EventData.BlockExecution
+  - SuperOffice.CRM.Services.EventData.Exception
+  - SuperOffice.CRM.Services.EventData.InputValues
+  - SuperOffice.CRM.Services.EventData.Message
+  - SuperOffice.CRM.Services.EventData.NavigateTo
+  - SuperOffice.CRM.Services.EventData.OutputValues
+  - SuperOffice.CRM.Services.EventData.StateValues
+  - SuperOffice.CRM.Services.EventData.ToString
+  - SuperOffice.CRM.Services.EventData.ToString(System.String)
+  - SuperOffice.CRM.Services.EventData.Type
+  langs:
+  - csharp
+  - vb
+  name: EventData
+  nameWithType: EventData
+  fullName: SuperOffice.CRM.Services.EventData
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEventData containing data related to event handlers\n<p></p>\nCarrier object for EventData.\nServices for the EventData Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ICustomerServiceAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class EventData : Carrier'
+    content.vb: >-
+      Public Class EventData
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.CustomerServiceAgent
+    commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
+  - linkId: SuperOffice.CRM.Services.ICustomerServiceAgent
+    commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.EventData.#ctor
+  commentId: M:SuperOffice.CRM.Services.EventData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.EventData
+  langs:
+  - csharp
+  - vb
+  name: EventData()
+  nameWithType: EventData.EventData()
+  fullName: SuperOffice.CRM.Services.EventData.EventData()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public EventData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.EventData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EventData.ToString
+  commentId: M:SuperOffice.CRM.Services.EventData.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.EventData
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: EventData.ToString()
+  fullName: SuperOffice.CRM.Services.EventData.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.EventData.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.EventData.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.EventData.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.EventData
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: EventData.ToString(String)
+  fullName: SuperOffice.CRM.Services.EventData.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.EventData.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EventData.Type
+  commentId: P:SuperOffice.CRM.Services.EventData.Type
+  id: Type
+  parent: SuperOffice.CRM.Services.EventData
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: EventData.Type
+  fullName: SuperOffice.CRM.Services.EventData.Type
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe type of event we are triggered by \n"
+  syntax:
+    content: public virtual EventHandlerType Type { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Overridable Property Type As EventHandlerType
+  overload: SuperOffice.CRM.Services.EventData.Type*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EventData.InputValues
+  commentId: P:SuperOffice.CRM.Services.EventData.InputValues
+  id: InputValues
+  parent: SuperOffice.CRM.Services.EventData
+  langs:
+  - csharp
+  - vb
+  name: InputValues
+  nameWithType: EventData.InputValues
+  fullName: SuperOffice.CRM.Services.EventData.InputValues
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEnvironment values sent to the event handler \n"
+  syntax:
+    content: public virtual StringDictionary InputValues { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+    content.vb: Public Overridable Property InputValues As StringDictionary
+  overload: SuperOffice.CRM.Services.EventData.InputValues*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EventData.BlockExecution
+  commentId: P:SuperOffice.CRM.Services.EventData.BlockExecution
+  id: BlockExecution
+  parent: SuperOffice.CRM.Services.EventData
+  langs:
+  - csharp
+  - vb
+  name: BlockExecution
+  nameWithType: EventData.BlockExecution
+  fullName: SuperOffice.CRM.Services.EventData.BlockExecution
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhether the context should stop what it is doing, e.g. saving a sale \n"
+  syntax:
+    content: public virtual bool BlockExecution { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property BlockExecution As Boolean
+  overload: SuperOffice.CRM.Services.EventData.BlockExecution*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EventData.NavigateTo
+  commentId: P:SuperOffice.CRM.Services.EventData.NavigateTo
+  id: NavigateTo
+  parent: SuperOffice.CRM.Services.EventData
+  langs:
+  - csharp
+  - vb
+  name: NavigateTo
+  nameWithType: EventData.NavigateTo
+  fullName: SuperOffice.CRM.Services.EventData.NavigateTo
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhere the context should naviate afterwards \n"
+  syntax:
+    content: public virtual string NavigateTo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property NavigateTo As String
+  overload: SuperOffice.CRM.Services.EventData.NavigateTo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EventData.Message
+  commentId: P:SuperOffice.CRM.Services.EventData.Message
+  id: Message
+  parent: SuperOffice.CRM.Services.EventData
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: EventData.Message
+  fullName: SuperOffice.CRM.Services.EventData.Message
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA message to be presented to the user \n"
+  syntax:
+    content: public virtual string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Message As String
+  overload: SuperOffice.CRM.Services.EventData.Message*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EventData.OutputValues
+  commentId: P:SuperOffice.CRM.Services.EventData.OutputValues
+  id: OutputValues
+  parent: SuperOffice.CRM.Services.EventData
+  langs:
+  - csharp
+  - vb
+  name: OutputValues
+  nameWithType: EventData.OutputValues
+  fullName: SuperOffice.CRM.Services.EventData.OutputValues
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nValues sent back to the environment from the event handler \n"
+  syntax:
+    content: public virtual StringDictionary OutputValues { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+    content.vb: Public Overridable Property OutputValues As StringDictionary
+  overload: SuperOffice.CRM.Services.EventData.OutputValues*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EventData.StateValues
+  commentId: P:SuperOffice.CRM.Services.EventData.StateValues
+  id: StateValues
+  parent: SuperOffice.CRM.Services.EventData
+  langs:
+  - csharp
+  - vb
+  name: StateValues
+  nameWithType: EventData.StateValues
+  fullName: SuperOffice.CRM.Services.EventData.StateValues
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nValues kept between event handlers \n"
+  syntax:
+    content: public virtual StringDictionary StateValues { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+    content.vb: Public Overridable Property StateValues As StringDictionary
+  overload: SuperOffice.CRM.Services.EventData.StateValues*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EventData.Exception
+  commentId: P:SuperOffice.CRM.Services.EventData.Exception
+  id: Exception
+  parent: SuperOffice.CRM.Services.EventData
+  langs:
+  - csharp
+  - vb
+  name: Exception
+  nameWithType: EventData.Exception
+  fullName: SuperOffice.CRM.Services.EventData.Exception
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nString containing error message from handler system if it failed \n"
+  syntax:
+    content: public virtual string Exception { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Exception As String
+  overload: SuperOffice.CRM.Services.EventData.Exception*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.CustomerServiceAgent
+  commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
+  isExternal: true
+  name: CustomerServiceAgent
+  nameWithType: CustomerServiceAgent
+  fullName: SuperOffice.CRM.Services.CustomerServiceAgent
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent
+  commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ICustomerServiceAgent
+  nameWithType: ICustomerServiceAgent
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.EventData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.EventData.#ctor
+  isExternal: true
+  name: EventData
+  nameWithType: EventData.EventData
+  fullName: SuperOffice.CRM.Services.EventData.EventData
+- uid: SuperOffice.CRM.Services.EventData.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.EventData.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: EventData.ToString
+  fullName: SuperOffice.CRM.Services.EventData.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.EventData.Type*
+  commentId: Overload:SuperOffice.CRM.Services.EventData.Type
+  isExternal: true
+  name: Type
+  nameWithType: EventData.Type
+  fullName: SuperOffice.CRM.Services.EventData.Type
+- uid: SuperOffice.Data.EventHandlerType
+  isExternal: true
+  name: EventHandlerType
+  nameWithType: EventHandlerType
+  fullName: SuperOffice.Data.EventHandlerType
+- uid: SuperOffice.CRM.Services.EventData.InputValues*
+  commentId: Overload:SuperOffice.CRM.Services.EventData.InputValues
+  isExternal: true
+  name: InputValues
+  nameWithType: EventData.InputValues
+  fullName: SuperOffice.CRM.Services.EventData.InputValues
+- uid: SuperOffice.CRM.Services.StringDictionary
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: SuperOffice.CRM.Services.EventData.BlockExecution*
+  commentId: Overload:SuperOffice.CRM.Services.EventData.BlockExecution
+  isExternal: true
+  name: BlockExecution
+  nameWithType: EventData.BlockExecution
+  fullName: SuperOffice.CRM.Services.EventData.BlockExecution
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.EventData.NavigateTo*
+  commentId: Overload:SuperOffice.CRM.Services.EventData.NavigateTo
+  isExternal: true
+  name: NavigateTo
+  nameWithType: EventData.NavigateTo
+  fullName: SuperOffice.CRM.Services.EventData.NavigateTo
+- uid: SuperOffice.CRM.Services.EventData.Message*
+  commentId: Overload:SuperOffice.CRM.Services.EventData.Message
+  isExternal: true
+  name: Message
+  nameWithType: EventData.Message
+  fullName: SuperOffice.CRM.Services.EventData.Message
+- uid: SuperOffice.CRM.Services.EventData.OutputValues*
+  commentId: Overload:SuperOffice.CRM.Services.EventData.OutputValues
+  isExternal: true
+  name: OutputValues
+  nameWithType: EventData.OutputValues
+  fullName: SuperOffice.CRM.Services.EventData.OutputValues
+- uid: SuperOffice.CRM.Services.EventData.StateValues*
+  commentId: Overload:SuperOffice.CRM.Services.EventData.StateValues
+  isExternal: true
+  name: StateValues
+  nameWithType: EventData.StateValues
+  fullName: SuperOffice.CRM.Services.EventData.StateValues
+- uid: SuperOffice.CRM.Services.EventData.Exception*
+  commentId: Overload:SuperOffice.CRM.Services.EventData.Exception
+  isExternal: true
+  name: Exception
+  nameWithType: EventData.Exception
+  fullName: SuperOffice.CRM.Services.EventData.Exception

@@ -1,0 +1,2312 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.CRMScriptAgent
+  commentId: T:SuperOffice.CRM.Services.CRMScriptAgent
+  id: CRMScriptAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.CRMScriptAgent.#ctor
+  - SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultCRMScriptEntity
+  - SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultTriggerScriptEntity
+  - SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(System.String)
+  - SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptEntity(System.Int32)
+  - SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptByUniqueId(System.String)
+  - SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptEntity(System.Int32)
+  - SuperOffice.CRM.Services.CRMScriptAgent.ExecuteScript(System.Int32,SuperOffice.CRM.Services.StringDictionary)
+  - SuperOffice.CRM.Services.CRMScriptAgent.ExecuteScriptByIncludeId(System.String,SuperOffice.CRM.Services.StringDictionary)
+  - SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptByUniqueIdentifier(System.String)
+  - SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptEntity(System.Int32)
+  - SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptByUniqueId(System.String)
+  - SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptEntity(System.Int32)
+  - SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptByUniqueIdentifier(System.String,SuperOffice.CRM.Services.Script)
+  - SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntity(SuperOffice.CRM.Services.CRMScriptEntity)
+  - SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptByUniqueId(System.String,SuperOffice.CRM.Services.TriggerScriptEntity)
+  - SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptEntity(SuperOffice.CRM.Services.TriggerScriptEntity)
+  - SuperOffice.CRM.Services.CRMScriptAgent.ValidateScript(System.Int32)
+  - SuperOffice.CRM.Services.CRMScriptAgent.ValidateScriptByIncludeId(System.String)
+  - SuperOffice.CRM.Services.CRMScriptAgent.ValidateTriggerScript(System.Int32)
+  - SuperOffice.CRM.Services.CRMScriptAgent.ValidateTriggerScriptByUniqueId(System.String)
+  langs:
+  - csharp
+  - vb
+  name: CRMScriptAgent
+  nameWithType: CRMScriptAgent
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFacade for the CRMScript Agent\nManage and execute CRMScript functions.\n<p></p>\n<strong>Online Restricted:</strong> This agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (CRMScriptAgent agent = new CRMScriptAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: 'public class CRMScriptAgent : AgentBase<ICRMScriptAgent>, IDisposable, ICRMScriptAgent, IAgent'
+    content.vb: >-
+      Public Class CRMScriptAgent
+          Inherits AgentBase(Of ICRMScriptAgent)
+          Implements IDisposable, ICRMScriptAgent, IAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ICRMScriptAgent}
+  implements:
+  - System.IDisposable
+  - SuperOffice.CRM.Services.ICRMScriptAgent
+  - SuperOffice.CRM.Services.IAgent
+  inheritedMembers:
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ICRMScriptAgent}.Dispose
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ICRMScriptAgent}.InnerAgent
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultCRMScriptEntity
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultCRMScriptEntity
+  id: CreateDefaultCRMScriptEntity
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultCRMScriptEntity()
+  nameWithType: CRMScriptAgent.CreateDefaultCRMScriptEntity()
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultCRMScriptEntity()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new CRMScriptEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public CRMScriptEntity CreateDefaultCRMScriptEntity()
+    return:
+      type: SuperOffice.CRM.Services.CRMScriptEntity
+      description: New CRMScriptEntity with default values
+    content.vb: Public Function CreateDefaultCRMScriptEntity As CRMScriptEntity
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultCRMScriptEntity*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntity
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntity(SuperOffice.CRM.Services.CRMScriptEntity)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntity(SuperOffice.CRM.Services.CRMScriptEntity)
+  id: SaveCRMScriptEntity(SuperOffice.CRM.Services.CRMScriptEntity)
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveCRMScriptEntity(CRMScriptEntity)
+  nameWithType: CRMScriptAgent.SaveCRMScriptEntity(CRMScriptEntity)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntity(SuperOffice.CRM.Services.CRMScriptEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing CRMScriptEntity or creates a new CRMScriptEntity if the id parameter is empty\n"
+  syntax:
+    content: public CRMScriptEntity SaveCRMScriptEntity(CRMScriptEntity cRMScriptEntity)
+    parameters:
+    - id: cRMScriptEntity
+      type: SuperOffice.CRM.Services.CRMScriptEntity
+      description: The CRMScriptEntity that is saved.
+    return:
+      type: SuperOffice.CRM.Services.CRMScriptEntity
+      description: New or updated CRMScriptEntity
+    content.vb: Public Function SaveCRMScriptEntity(cRMScriptEntity As CRMScriptEntity) As CRMScriptEntity
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntity*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntity(SuperOffice.CRM.Services.CRMScriptEntity)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptEntity(System.Int32)
+  id: DeleteCRMScriptEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteCRMScriptEntity(Int32)
+  nameWithType: CRMScriptAgent.DeleteCRMScriptEntity(Int32)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the CRMScriptEntity\n"
+  syntax:
+    content: public void DeleteCRMScriptEntity(int cRMScriptEntityId)
+    parameters:
+    - id: cRMScriptEntityId
+      type: System.Int32
+      description: The identity of the CRMScriptEntity
+    content.vb: Public Sub DeleteCRMScriptEntity(cRMScriptEntityId As Integer)
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptEntity*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntity(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultTriggerScriptEntity
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultTriggerScriptEntity
+  id: CreateDefaultTriggerScriptEntity
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTriggerScriptEntity()
+  nameWithType: CRMScriptAgent.CreateDefaultTriggerScriptEntity()
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultTriggerScriptEntity()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new TriggerScriptEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public TriggerScriptEntity CreateDefaultTriggerScriptEntity()
+    return:
+      type: SuperOffice.CRM.Services.TriggerScriptEntity
+      description: New TriggerScriptEntity with default values
+    content.vb: Public Function CreateDefaultTriggerScriptEntity As TriggerScriptEntity
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultTriggerScriptEntity*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntity
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptEntity(SuperOffice.CRM.Services.TriggerScriptEntity)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptEntity(SuperOffice.CRM.Services.TriggerScriptEntity)
+  id: SaveTriggerScriptEntity(SuperOffice.CRM.Services.TriggerScriptEntity)
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveTriggerScriptEntity(TriggerScriptEntity)
+  nameWithType: CRMScriptAgent.SaveTriggerScriptEntity(TriggerScriptEntity)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptEntity(SuperOffice.CRM.Services.TriggerScriptEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing TriggerScriptEntity or creates a new TriggerScriptEntity if the id parameter is empty\n"
+  syntax:
+    content: public TriggerScriptEntity SaveTriggerScriptEntity(TriggerScriptEntity triggerScriptEntity)
+    parameters:
+    - id: triggerScriptEntity
+      type: SuperOffice.CRM.Services.TriggerScriptEntity
+      description: The TriggerScriptEntity that is saved.
+    return:
+      type: SuperOffice.CRM.Services.TriggerScriptEntity
+      description: New or updated TriggerScriptEntity
+    content.vb: Public Function SaveTriggerScriptEntity(triggerScriptEntity As TriggerScriptEntity) As TriggerScriptEntity
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptEntity*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntity(SuperOffice.CRM.Services.TriggerScriptEntity)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptEntity(System.Int32)
+  id: DeleteTriggerScriptEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteTriggerScriptEntity(Int32)
+  nameWithType: CRMScriptAgent.DeleteTriggerScriptEntity(Int32)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the TriggerScriptEntity\n"
+  syntax:
+    content: public void DeleteTriggerScriptEntity(int triggerScriptEntityId)
+    parameters:
+    - id: triggerScriptEntityId
+      type: System.Int32
+      description: The identity of the TriggerScriptEntity
+    content.vb: Public Sub DeleteTriggerScriptEntity(triggerScriptEntityId As Integer)
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptEntity*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntity(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptEntity(System.Int32)
+  id: GetCRMScriptEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCRMScriptEntity(Int32)
+  nameWithType: CRMScriptAgent.GetCRMScriptEntity(Int32)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a CRMScriptEntity object.                        \n"
+  syntax:
+    content: public CRMScriptEntity GetCRMScriptEntity(int cRMScriptEntityId)
+    parameters:
+    - id: cRMScriptEntityId
+      type: System.Int32
+      description: The identifier of the CRMScriptEntity object
+    return:
+      type: SuperOffice.CRM.Services.CRMScriptEntity
+      description: CRMScriptEntity
+    content.vb: Public Function GetCRMScriptEntity(cRMScriptEntityId As Integer) As CRMScriptEntity
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptEntity*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntity(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.ExecuteScript(System.Int32,SuperOffice.CRM.Services.StringDictionary)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.ExecuteScript(System.Int32,SuperOffice.CRM.Services.StringDictionary)
+  id: ExecuteScript(System.Int32,SuperOffice.CRM.Services.StringDictionary)
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: ExecuteScript(Int32, StringDictionary)
+  nameWithType: CRMScriptAgent.ExecuteScript(Int32, StringDictionary)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.ExecuteScript(System.Int32, SuperOffice.CRM.Services.StringDictionary)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nExecute a CRMScript with parameters\n"
+  syntax:
+    content: public string ExecuteScript(int cRMScriptId, StringDictionary parameters)
+    parameters:
+    - id: cRMScriptId
+      type: System.Int32
+      description: The id of the CRMScript to execute
+    - id: parameters
+      type: SuperOffice.CRM.Services.StringDictionary
+      description: Parameters passed as variables to the CRMScript
+    return:
+      type: System.String
+      description: The output produced by the CRMScript
+    content.vb: Public Function ExecuteScript(cRMScriptId As Integer, parameters As StringDictionary) As String
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.ExecuteScript*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScript(System.Int32,SuperOffice.CRM.Services.StringDictionary)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.ExecuteScriptByIncludeId(System.String,SuperOffice.CRM.Services.StringDictionary)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.ExecuteScriptByIncludeId(System.String,SuperOffice.CRM.Services.StringDictionary)
+  id: ExecuteScriptByIncludeId(System.String,SuperOffice.CRM.Services.StringDictionary)
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: ExecuteScriptByIncludeId(String, StringDictionary)
+  nameWithType: CRMScriptAgent.ExecuteScriptByIncludeId(String, StringDictionary)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.ExecuteScriptByIncludeId(System.String, SuperOffice.CRM.Services.StringDictionary)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nExecute a CRMScript with parameters\n"
+  syntax:
+    content: public string ExecuteScriptByIncludeId(string cRMScriptIncludeId, StringDictionary parameters)
+    parameters:
+    - id: cRMScriptIncludeId
+      type: System.String
+      description: The include id of the CRMScript to validate
+    - id: parameters
+      type: SuperOffice.CRM.Services.StringDictionary
+      description: Parameters passed as variables to the CRMScript
+    return:
+      type: System.String
+      description: The output produced by the CRMScript
+    content.vb: Public Function ExecuteScriptByIncludeId(cRMScriptIncludeId As String, parameters As StringDictionary) As String
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.ExecuteScriptByIncludeId*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeId(System.String,SuperOffice.CRM.Services.StringDictionary)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.ValidateScript(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.ValidateScript(System.Int32)
+  id: ValidateScript(System.Int32)
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: ValidateScript(Int32)
+  nameWithType: CRMScriptAgent.ValidateScript(Int32)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.ValidateScript(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nValidate a CRMScript. This will check that the syntax is correct\n"
+  syntax:
+    content: public CRMScriptResult ValidateScript(int cRMScriptId)
+    parameters:
+    - id: cRMScriptId
+      type: System.Int32
+      description: The id of the CRMScript to execute
+    return:
+      type: SuperOffice.CRM.Services.CRMScriptResult
+      description: True of the syntax is correct
+    content.vb: Public Function ValidateScript(cRMScriptId As Integer) As CRMScriptResult
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.ValidateScript*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScript(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.ValidateScriptByIncludeId(System.String)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.ValidateScriptByIncludeId(System.String)
+  id: ValidateScriptByIncludeId(System.String)
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: ValidateScriptByIncludeId(String)
+  nameWithType: CRMScriptAgent.ValidateScriptByIncludeId(String)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.ValidateScriptByIncludeId(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nValidate a CRMScript. This will check that the syntax is correct\n"
+  syntax:
+    content: public CRMScriptResult ValidateScriptByIncludeId(string cRMScriptIncludeId)
+    parameters:
+    - id: cRMScriptIncludeId
+      type: System.String
+      description: The include id of the CRMScript to validate
+    return:
+      type: SuperOffice.CRM.Services.CRMScriptResult
+      description: True of the syntax is correct
+    content.vb: Public Function ValidateScriptByIncludeId(cRMScriptIncludeId As String) As CRMScriptResult
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.ValidateScriptByIncludeId*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeId(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptByUniqueIdentifier(System.String)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptByUniqueIdentifier(System.String)
+  id: GetCRMScriptByUniqueIdentifier(System.String)
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCRMScriptByUniqueIdentifier(String)
+  nameWithType: CRMScriptAgent.GetCRMScriptByUniqueIdentifier(String)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptByUniqueIdentifier(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet information about a script from a unique identifier\n"
+  syntax:
+    content: public Script GetCRMScriptByUniqueIdentifier(string uniqueIdentifier)
+    parameters:
+    - id: uniqueIdentifier
+      type: System.String
+      description: Global unique reference to script (independent of installation)
+    return:
+      type: SuperOffice.CRM.Services.Script
+      description: Information about CRMScript
+    content.vb: Public Function GetCRMScriptByUniqueIdentifier(uniqueIdentifier As String) As Script
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptByUniqueIdentifier*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifier(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptByUniqueIdentifier(System.String,SuperOffice.CRM.Services.Script)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptByUniqueIdentifier(System.String,SuperOffice.CRM.Services.Script)
+  id: SaveCRMScriptByUniqueIdentifier(System.String,SuperOffice.CRM.Services.Script)
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveCRMScriptByUniqueIdentifier(String, Script)
+  nameWithType: CRMScriptAgent.SaveCRMScriptByUniqueIdentifier(String, Script)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptByUniqueIdentifier(System.String, SuperOffice.CRM.Services.Script)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreate or Update the CRMScript information\n"
+  syntax:
+    content: public Script SaveCRMScriptByUniqueIdentifier(string uniqueIdentifier, Script crmscript)
+    parameters:
+    - id: uniqueIdentifier
+      type: System.String
+      description: Global unique reference to script (independent of installation)
+    - id: crmscript
+      type: SuperOffice.CRM.Services.Script
+      description: Information about the CRMScript
+    return:
+      type: SuperOffice.CRM.Services.Script
+      description: Information about the CRMScript as saved in the database
+    content.vb: Public Function SaveCRMScriptByUniqueIdentifier(uniqueIdentifier As String, crmscript As Script) As Script
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptByUniqueIdentifier*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier(System.String,SuperOffice.CRM.Services.Script)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(System.String)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(System.String)
+  id: DeleteCRMScriptByUniqueIdentifier(System.String)
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteCRMScriptByUniqueIdentifier(String)
+  nameWithType: CRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(String)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDelete the CRMScript\n"
+  syntax:
+    content: public void DeleteCRMScriptByUniqueIdentifier(string uniqueIdentifier)
+    parameters:
+    - id: uniqueIdentifier
+      type: System.String
+      description: Global unique reference to script (independent of installation)
+    content.vb: Public Sub DeleteCRMScriptByUniqueIdentifier(uniqueIdentifier As String)
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptByUniqueIdentifier*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptEntity(System.Int32)
+  id: GetTriggerScriptEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTriggerScriptEntity(Int32)
+  nameWithType: CRMScriptAgent.GetTriggerScriptEntity(Int32)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a TriggerScriptEntity object.                        \n"
+  syntax:
+    content: public TriggerScriptEntity GetTriggerScriptEntity(int triggerScriptEntityId)
+    parameters:
+    - id: triggerScriptEntityId
+      type: System.Int32
+      description: The identifier of the TriggerScriptEntity object
+    return:
+      type: SuperOffice.CRM.Services.TriggerScriptEntity
+      description: TriggerScriptEntity
+    content.vb: Public Function GetTriggerScriptEntity(triggerScriptEntityId As Integer) As TriggerScriptEntity
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptEntity*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntity(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptByUniqueId(System.String)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptByUniqueId(System.String)
+  id: GetTriggerScriptByUniqueId(System.String)
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTriggerScriptByUniqueId(String)
+  nameWithType: CRMScriptAgent.GetTriggerScriptByUniqueId(String)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptByUniqueId(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a trigger CRMScript.\n"
+  syntax:
+    content: public TriggerScriptEntity GetTriggerScriptByUniqueId(string triggerScriptUniqueId)
+    parameters:
+    - id: triggerScriptUniqueId
+      type: System.String
+      description: The unique id of the CRMScript to validate
+    return:
+      type: SuperOffice.CRM.Services.TriggerScriptEntity
+      description: Trigger script details and source code.
+    content.vb: Public Function GetTriggerScriptByUniqueId(triggerScriptUniqueId As String) As TriggerScriptEntity
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptByUniqueId*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueId(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptByUniqueId(System.String,SuperOffice.CRM.Services.TriggerScriptEntity)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptByUniqueId(System.String,SuperOffice.CRM.Services.TriggerScriptEntity)
+  id: SaveTriggerScriptByUniqueId(System.String,SuperOffice.CRM.Services.TriggerScriptEntity)
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveTriggerScriptByUniqueId(String, TriggerScriptEntity)
+  nameWithType: CRMScriptAgent.SaveTriggerScriptByUniqueId(String, TriggerScriptEntity)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptByUniqueId(System.String, SuperOffice.CRM.Services.TriggerScriptEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nValidate a CRMScript. This will check that the syntax is correct\n"
+  syntax:
+    content: public TriggerScriptEntity SaveTriggerScriptByUniqueId(string triggerScriptUniqueId, TriggerScriptEntity entity)
+    parameters:
+    - id: triggerScriptUniqueId
+      type: System.String
+      description: The unique id of the CRMScript to validate
+    - id: entity
+      type: SuperOffice.CRM.Services.TriggerScriptEntity
+      description: Trigger script details and source code
+    return:
+      type: SuperOffice.CRM.Services.TriggerScriptEntity
+      description: Trigger script details and source code.
+    content.vb: Public Function SaveTriggerScriptByUniqueId(triggerScriptUniqueId As String, entity As TriggerScriptEntity) As TriggerScriptEntity
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptByUniqueId*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueId(System.String,SuperOffice.CRM.Services.TriggerScriptEntity)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptByUniqueId(System.String)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptByUniqueId(System.String)
+  id: DeleteTriggerScriptByUniqueId(System.String)
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteTriggerScriptByUniqueId(String)
+  nameWithType: CRMScriptAgent.DeleteTriggerScriptByUniqueId(String)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptByUniqueId(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDelete a trigger CRMScript.\n"
+  syntax:
+    content: public void DeleteTriggerScriptByUniqueId(string triggerScriptUniqueId)
+    parameters:
+    - id: triggerScriptUniqueId
+      type: System.String
+      description: The unique id of the CRMScript to validate
+    content.vb: Public Sub DeleteTriggerScriptByUniqueId(triggerScriptUniqueId As String)
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptByUniqueId*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueId(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.ValidateTriggerScript(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.ValidateTriggerScript(System.Int32)
+  id: ValidateTriggerScript(System.Int32)
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: ValidateTriggerScript(Int32)
+  nameWithType: CRMScriptAgent.ValidateTriggerScript(Int32)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.ValidateTriggerScript(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nValidate a Trigger CRMScript. This will check that the syntax is correct, but not execute the script.\n"
+  syntax:
+    content: public CRMScriptResult ValidateTriggerScript(int triggerScriptId)
+    parameters:
+    - id: triggerScriptId
+      type: System.Int32
+      description: The id of the CRMScript Trigger to validate
+    return:
+      type: SuperOffice.CRM.Services.CRMScriptResult
+      description: True of the syntax is correct
+    content.vb: Public Function ValidateTriggerScript(triggerScriptId As Integer) As CRMScriptResult
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.ValidateTriggerScript*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScript(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.ValidateTriggerScriptByUniqueId(System.String)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.ValidateTriggerScriptByUniqueId(System.String)
+  id: ValidateTriggerScriptByUniqueId(System.String)
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: ValidateTriggerScriptByUniqueId(String)
+  nameWithType: CRMScriptAgent.ValidateTriggerScriptByUniqueId(String)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.ValidateTriggerScriptByUniqueId(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nValidate a Trigger CRMScript. This will check that the syntax is correct, but not execute the script.\n"
+  syntax:
+    content: public CRMScriptResult ValidateTriggerScriptByUniqueId(string triggerScriptUniqueId)
+    parameters:
+    - id: triggerScriptUniqueId
+      type: System.String
+      description: The unique id of the CRMScript to validate
+    return:
+      type: SuperOffice.CRM.Services.CRMScriptResult
+      description: True of the syntax is correct
+    content.vb: Public Function ValidateTriggerScriptByUniqueId(triggerScriptUniqueId As String) As CRMScriptResult
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.ValidateTriggerScriptByUniqueId*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueId(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.#ctor
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: CRMScriptAgent()
+  nameWithType: CRMScriptAgent.CRMScriptAgent()
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.CRMScriptAgent()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public CRMScriptAgent()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ICRMScriptAgent}
+  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ICRMScriptAgent}
+  parent: SuperOffice.CRM.Services
+  definition: SuperOffice.CRM.Services.AgentBase`1
+  name: AgentBase<ICRMScriptAgent>
+  nameWithType: AgentBase<ICRMScriptAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.ICRMScriptAgent>
+  nameWithType.vb: AgentBase(Of ICRMScriptAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.ICRMScriptAgent)
+  name.vb: AgentBase(Of ICRMScriptAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent
+    name: ICRMScriptAgent
+    nameWithType: ICRMScriptAgent
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent
+    name: ICRMScriptAgent
+    nameWithType: ICRMScriptAgent
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent
+  commentId: T:SuperOffice.CRM.Services.ICRMScriptAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ICRMScriptAgent
+  nameWithType: ICRMScriptAgent
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent
+- uid: SuperOffice.CRM.Services.IAgent
+  commentId: T:SuperOffice.CRM.Services.IAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAgent
+  nameWithType: IAgent
+  fullName: SuperOffice.CRM.Services.IAgent
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ICRMScriptAgent}.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ICRMScriptAgent}.Dispose
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ICRMScriptAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  name: Dispose()
+  nameWithType: AgentBase<ICRMScriptAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.ICRMScriptAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of ICRMScriptAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.ICRMScriptAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<ICRMScriptAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.ICRMScriptAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of ICRMScriptAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.ICRMScriptAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ICRMScriptAgent}.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ICRMScriptAgent}.InnerAgent
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ICRMScriptAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  name: InnerAgent
+  nameWithType: AgentBase<ICRMScriptAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.ICRMScriptAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of ICRMScriptAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.ICRMScriptAgent).InnerAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AgentBase`1
+  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+  isExternal: true
+  name: AgentBase<TAgent>
+  nameWithType: AgentBase<TAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
+  nameWithType.vb: AgentBase(Of TAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
+  name.vb: AgentBase(Of TAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase<TAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of TAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  isExternal: true
+  name: InnerAgent
+  nameWithType: AgentBase<TAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultCRMScriptEntity*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultCRMScriptEntity
+  isExternal: true
+  name: CreateDefaultCRMScriptEntity
+  nameWithType: CRMScriptAgent.CreateDefaultCRMScriptEntity
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultCRMScriptEntity
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntity
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntity
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  name: CreateDefaultCRMScriptEntity()
+  nameWithType: ICRMScriptAgent.CreateDefaultCRMScriptEntity()
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntity()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntity
+    name: CreateDefaultCRMScriptEntity
+    nameWithType: ICRMScriptAgent.CreateDefaultCRMScriptEntity
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntity
+    name: CreateDefaultCRMScriptEntity
+    nameWithType: ICRMScriptAgent.CreateDefaultCRMScriptEntity
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.CRMScriptEntity
+  commentId: T:SuperOffice.CRM.Services.CRMScriptEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: CRMScriptEntity
+  nameWithType: CRMScriptEntity
+  fullName: SuperOffice.CRM.Services.CRMScriptEntity
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntity*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntity
+  isExternal: true
+  name: SaveCRMScriptEntity
+  nameWithType: CRMScriptAgent.SaveCRMScriptEntity
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntity
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntity(SuperOffice.CRM.Services.CRMScriptEntity)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntity(SuperOffice.CRM.Services.CRMScriptEntity)
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  name: SaveCRMScriptEntity(CRMScriptEntity)
+  nameWithType: ICRMScriptAgent.SaveCRMScriptEntity(CRMScriptEntity)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntity(SuperOffice.CRM.Services.CRMScriptEntity)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntity(SuperOffice.CRM.Services.CRMScriptEntity)
+    name: SaveCRMScriptEntity
+    nameWithType: ICRMScriptAgent.SaveCRMScriptEntity
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.CRMScriptEntity
+    name: CRMScriptEntity
+    nameWithType: CRMScriptEntity
+    fullName: SuperOffice.CRM.Services.CRMScriptEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntity(SuperOffice.CRM.Services.CRMScriptEntity)
+    name: SaveCRMScriptEntity
+    nameWithType: ICRMScriptAgent.SaveCRMScriptEntity
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.CRMScriptEntity
+    name: CRMScriptEntity
+    nameWithType: CRMScriptEntity
+    fullName: SuperOffice.CRM.Services.CRMScriptEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptEntity*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptEntity
+  isExternal: true
+  name: DeleteCRMScriptEntity
+  nameWithType: CRMScriptAgent.DeleteCRMScriptEntity
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptEntity
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  name: DeleteCRMScriptEntity(Int32)
+  nameWithType: ICRMScriptAgent.DeleteCRMScriptEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntity(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntity(System.Int32)
+    name: DeleteCRMScriptEntity
+    nameWithType: ICRMScriptAgent.DeleteCRMScriptEntity
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntity(System.Int32)
+    name: DeleteCRMScriptEntity
+    nameWithType: ICRMScriptAgent.DeleteCRMScriptEntity
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultTriggerScriptEntity*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultTriggerScriptEntity
+  isExternal: true
+  name: CreateDefaultTriggerScriptEntity
+  nameWithType: CRMScriptAgent.CreateDefaultTriggerScriptEntity
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultTriggerScriptEntity
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntity
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntity
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  name: CreateDefaultTriggerScriptEntity()
+  nameWithType: ICRMScriptAgent.CreateDefaultTriggerScriptEntity()
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntity()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntity
+    name: CreateDefaultTriggerScriptEntity
+    nameWithType: ICRMScriptAgent.CreateDefaultTriggerScriptEntity
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntity
+    name: CreateDefaultTriggerScriptEntity
+    nameWithType: ICRMScriptAgent.CreateDefaultTriggerScriptEntity
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity
+  commentId: T:SuperOffice.CRM.Services.TriggerScriptEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TriggerScriptEntity
+  nameWithType: TriggerScriptEntity
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptEntity*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptEntity
+  isExternal: true
+  name: SaveTriggerScriptEntity
+  nameWithType: CRMScriptAgent.SaveTriggerScriptEntity
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptEntity
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntity(SuperOffice.CRM.Services.TriggerScriptEntity)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntity(SuperOffice.CRM.Services.TriggerScriptEntity)
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  name: SaveTriggerScriptEntity(TriggerScriptEntity)
+  nameWithType: ICRMScriptAgent.SaveTriggerScriptEntity(TriggerScriptEntity)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntity(SuperOffice.CRM.Services.TriggerScriptEntity)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntity(SuperOffice.CRM.Services.TriggerScriptEntity)
+    name: SaveTriggerScriptEntity
+    nameWithType: ICRMScriptAgent.SaveTriggerScriptEntity
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.TriggerScriptEntity
+    name: TriggerScriptEntity
+    nameWithType: TriggerScriptEntity
+    fullName: SuperOffice.CRM.Services.TriggerScriptEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntity(SuperOffice.CRM.Services.TriggerScriptEntity)
+    name: SaveTriggerScriptEntity
+    nameWithType: ICRMScriptAgent.SaveTriggerScriptEntity
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.TriggerScriptEntity
+    name: TriggerScriptEntity
+    nameWithType: TriggerScriptEntity
+    fullName: SuperOffice.CRM.Services.TriggerScriptEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptEntity*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptEntity
+  isExternal: true
+  name: DeleteTriggerScriptEntity
+  nameWithType: CRMScriptAgent.DeleteTriggerScriptEntity
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptEntity
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  name: DeleteTriggerScriptEntity(Int32)
+  nameWithType: ICRMScriptAgent.DeleteTriggerScriptEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntity(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntity(System.Int32)
+    name: DeleteTriggerScriptEntity
+    nameWithType: ICRMScriptAgent.DeleteTriggerScriptEntity
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntity(System.Int32)
+    name: DeleteTriggerScriptEntity
+    nameWithType: ICRMScriptAgent.DeleteTriggerScriptEntity
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptEntity*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptEntity
+  isExternal: true
+  name: GetCRMScriptEntity
+  nameWithType: CRMScriptAgent.GetCRMScriptEntity
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptEntity
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  name: GetCRMScriptEntity(Int32)
+  nameWithType: ICRMScriptAgent.GetCRMScriptEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntity(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntity(System.Int32)
+    name: GetCRMScriptEntity
+    nameWithType: ICRMScriptAgent.GetCRMScriptEntity
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntity(System.Int32)
+    name: GetCRMScriptEntity
+    nameWithType: ICRMScriptAgent.GetCRMScriptEntity
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.ExecuteScript*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.ExecuteScript
+  isExternal: true
+  name: ExecuteScript
+  nameWithType: CRMScriptAgent.ExecuteScript
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.ExecuteScript
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScript(System.Int32,SuperOffice.CRM.Services.StringDictionary)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScript(System.Int32,SuperOffice.CRM.Services.StringDictionary)
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  name: ExecuteScript(Int32, StringDictionary)
+  nameWithType: ICRMScriptAgent.ExecuteScript(Int32, StringDictionary)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScript(System.Int32, SuperOffice.CRM.Services.StringDictionary)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScript(System.Int32,SuperOffice.CRM.Services.StringDictionary)
+    name: ExecuteScript
+    nameWithType: ICRMScriptAgent.ExecuteScript
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScript
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.StringDictionary
+    name: StringDictionary
+    nameWithType: StringDictionary
+    fullName: SuperOffice.CRM.Services.StringDictionary
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScript(System.Int32,SuperOffice.CRM.Services.StringDictionary)
+    name: ExecuteScript
+    nameWithType: ICRMScriptAgent.ExecuteScript
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScript
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.StringDictionary
+    name: StringDictionary
+    nameWithType: StringDictionary
+    fullName: SuperOffice.CRM.Services.StringDictionary
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.StringDictionary
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.ExecuteScriptByIncludeId*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.ExecuteScriptByIncludeId
+  isExternal: true
+  name: ExecuteScriptByIncludeId
+  nameWithType: CRMScriptAgent.ExecuteScriptByIncludeId
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.ExecuteScriptByIncludeId
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeId(System.String,SuperOffice.CRM.Services.StringDictionary)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeId(System.String,SuperOffice.CRM.Services.StringDictionary)
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  name: ExecuteScriptByIncludeId(String, StringDictionary)
+  nameWithType: ICRMScriptAgent.ExecuteScriptByIncludeId(String, StringDictionary)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeId(System.String, SuperOffice.CRM.Services.StringDictionary)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeId(System.String,SuperOffice.CRM.Services.StringDictionary)
+    name: ExecuteScriptByIncludeId
+    nameWithType: ICRMScriptAgent.ExecuteScriptByIncludeId
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.StringDictionary
+    name: StringDictionary
+    nameWithType: StringDictionary
+    fullName: SuperOffice.CRM.Services.StringDictionary
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeId(System.String,SuperOffice.CRM.Services.StringDictionary)
+    name: ExecuteScriptByIncludeId
+    nameWithType: ICRMScriptAgent.ExecuteScriptByIncludeId
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.StringDictionary
+    name: StringDictionary
+    nameWithType: StringDictionary
+    fullName: SuperOffice.CRM.Services.StringDictionary
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.ValidateScript*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.ValidateScript
+  isExternal: true
+  name: ValidateScript
+  nameWithType: CRMScriptAgent.ValidateScript
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.ValidateScript
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScript(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScript(System.Int32)
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  name: ValidateScript(Int32)
+  nameWithType: ICRMScriptAgent.ValidateScript(Int32)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScript(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScript(System.Int32)
+    name: ValidateScript
+    nameWithType: ICRMScriptAgent.ValidateScript
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScript
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScript(System.Int32)
+    name: ValidateScript
+    nameWithType: ICRMScriptAgent.ValidateScript
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScript
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.CRMScriptResult
+  commentId: T:SuperOffice.CRM.Services.CRMScriptResult
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: CRMScriptResult
+  nameWithType: CRMScriptResult
+  fullName: SuperOffice.CRM.Services.CRMScriptResult
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.ValidateScriptByIncludeId*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.ValidateScriptByIncludeId
+  isExternal: true
+  name: ValidateScriptByIncludeId
+  nameWithType: CRMScriptAgent.ValidateScriptByIncludeId
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.ValidateScriptByIncludeId
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeId(System.String)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeId(System.String)
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  name: ValidateScriptByIncludeId(String)
+  nameWithType: ICRMScriptAgent.ValidateScriptByIncludeId(String)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeId(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeId(System.String)
+    name: ValidateScriptByIncludeId
+    nameWithType: ICRMScriptAgent.ValidateScriptByIncludeId
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeId(System.String)
+    name: ValidateScriptByIncludeId
+    nameWithType: ICRMScriptAgent.ValidateScriptByIncludeId
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptByUniqueIdentifier*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptByUniqueIdentifier
+  isExternal: true
+  name: GetCRMScriptByUniqueIdentifier
+  nameWithType: CRMScriptAgent.GetCRMScriptByUniqueIdentifier
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptByUniqueIdentifier
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifier(System.String)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifier(System.String)
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  name: GetCRMScriptByUniqueIdentifier(String)
+  nameWithType: ICRMScriptAgent.GetCRMScriptByUniqueIdentifier(String)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifier(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifier(System.String)
+    name: GetCRMScriptByUniqueIdentifier
+    nameWithType: ICRMScriptAgent.GetCRMScriptByUniqueIdentifier
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifier(System.String)
+    name: GetCRMScriptByUniqueIdentifier
+    nameWithType: ICRMScriptAgent.GetCRMScriptByUniqueIdentifier
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Script
+  commentId: T:SuperOffice.CRM.Services.Script
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Script
+  nameWithType: Script
+  fullName: SuperOffice.CRM.Services.Script
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptByUniqueIdentifier*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptByUniqueIdentifier
+  isExternal: true
+  name: SaveCRMScriptByUniqueIdentifier
+  nameWithType: CRMScriptAgent.SaveCRMScriptByUniqueIdentifier
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptByUniqueIdentifier
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier(System.String,SuperOffice.CRM.Services.Script)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier(System.String,SuperOffice.CRM.Services.Script)
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  name: SaveCRMScriptByUniqueIdentifier(String, Script)
+  nameWithType: ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier(String, Script)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier(System.String, SuperOffice.CRM.Services.Script)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier(System.String,SuperOffice.CRM.Services.Script)
+    name: SaveCRMScriptByUniqueIdentifier
+    nameWithType: ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.Script
+    name: Script
+    nameWithType: Script
+    fullName: SuperOffice.CRM.Services.Script
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier(System.String,SuperOffice.CRM.Services.Script)
+    name: SaveCRMScriptByUniqueIdentifier
+    nameWithType: ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.Script
+    name: Script
+    nameWithType: Script
+    fullName: SuperOffice.CRM.Services.Script
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptByUniqueIdentifier*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptByUniqueIdentifier
+  isExternal: true
+  name: DeleteCRMScriptByUniqueIdentifier
+  nameWithType: CRMScriptAgent.DeleteCRMScriptByUniqueIdentifier
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptByUniqueIdentifier
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(System.String)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(System.String)
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  name: DeleteCRMScriptByUniqueIdentifier(String)
+  nameWithType: ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(String)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(System.String)
+    name: DeleteCRMScriptByUniqueIdentifier
+    nameWithType: ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(System.String)
+    name: DeleteCRMScriptByUniqueIdentifier
+    nameWithType: ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptEntity*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptEntity
+  isExternal: true
+  name: GetTriggerScriptEntity
+  nameWithType: CRMScriptAgent.GetTriggerScriptEntity
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptEntity
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  name: GetTriggerScriptEntity(Int32)
+  nameWithType: ICRMScriptAgent.GetTriggerScriptEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntity(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntity(System.Int32)
+    name: GetTriggerScriptEntity
+    nameWithType: ICRMScriptAgent.GetTriggerScriptEntity
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntity(System.Int32)
+    name: GetTriggerScriptEntity
+    nameWithType: ICRMScriptAgent.GetTriggerScriptEntity
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptByUniqueId*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptByUniqueId
+  isExternal: true
+  name: GetTriggerScriptByUniqueId
+  nameWithType: CRMScriptAgent.GetTriggerScriptByUniqueId
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptByUniqueId
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueId(System.String)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueId(System.String)
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  name: GetTriggerScriptByUniqueId(String)
+  nameWithType: ICRMScriptAgent.GetTriggerScriptByUniqueId(String)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueId(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueId(System.String)
+    name: GetTriggerScriptByUniqueId
+    nameWithType: ICRMScriptAgent.GetTriggerScriptByUniqueId
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueId(System.String)
+    name: GetTriggerScriptByUniqueId
+    nameWithType: ICRMScriptAgent.GetTriggerScriptByUniqueId
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptByUniqueId*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptByUniqueId
+  isExternal: true
+  name: SaveTriggerScriptByUniqueId
+  nameWithType: CRMScriptAgent.SaveTriggerScriptByUniqueId
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptByUniqueId
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueId(System.String,SuperOffice.CRM.Services.TriggerScriptEntity)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueId(System.String,SuperOffice.CRM.Services.TriggerScriptEntity)
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  name: SaveTriggerScriptByUniqueId(String, TriggerScriptEntity)
+  nameWithType: ICRMScriptAgent.SaveTriggerScriptByUniqueId(String, TriggerScriptEntity)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueId(System.String, SuperOffice.CRM.Services.TriggerScriptEntity)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueId(System.String,SuperOffice.CRM.Services.TriggerScriptEntity)
+    name: SaveTriggerScriptByUniqueId
+    nameWithType: ICRMScriptAgent.SaveTriggerScriptByUniqueId
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.TriggerScriptEntity
+    name: TriggerScriptEntity
+    nameWithType: TriggerScriptEntity
+    fullName: SuperOffice.CRM.Services.TriggerScriptEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueId(System.String,SuperOffice.CRM.Services.TriggerScriptEntity)
+    name: SaveTriggerScriptByUniqueId
+    nameWithType: ICRMScriptAgent.SaveTriggerScriptByUniqueId
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.TriggerScriptEntity
+    name: TriggerScriptEntity
+    nameWithType: TriggerScriptEntity
+    fullName: SuperOffice.CRM.Services.TriggerScriptEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptByUniqueId*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptByUniqueId
+  isExternal: true
+  name: DeleteTriggerScriptByUniqueId
+  nameWithType: CRMScriptAgent.DeleteTriggerScriptByUniqueId
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptByUniqueId
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueId(System.String)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueId(System.String)
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  name: DeleteTriggerScriptByUniqueId(String)
+  nameWithType: ICRMScriptAgent.DeleteTriggerScriptByUniqueId(String)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueId(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueId(System.String)
+    name: DeleteTriggerScriptByUniqueId
+    nameWithType: ICRMScriptAgent.DeleteTriggerScriptByUniqueId
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueId(System.String)
+    name: DeleteTriggerScriptByUniqueId
+    nameWithType: ICRMScriptAgent.DeleteTriggerScriptByUniqueId
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.ValidateTriggerScript*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.ValidateTriggerScript
+  isExternal: true
+  name: ValidateTriggerScript
+  nameWithType: CRMScriptAgent.ValidateTriggerScript
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.ValidateTriggerScript
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScript(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScript(System.Int32)
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  name: ValidateTriggerScript(Int32)
+  nameWithType: ICRMScriptAgent.ValidateTriggerScript(Int32)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScript(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScript(System.Int32)
+    name: ValidateTriggerScript
+    nameWithType: ICRMScriptAgent.ValidateTriggerScript
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScript
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScript(System.Int32)
+    name: ValidateTriggerScript
+    nameWithType: ICRMScriptAgent.ValidateTriggerScript
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScript
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.ValidateTriggerScriptByUniqueId*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.ValidateTriggerScriptByUniqueId
+  isExternal: true
+  name: ValidateTriggerScriptByUniqueId
+  nameWithType: CRMScriptAgent.ValidateTriggerScriptByUniqueId
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.ValidateTriggerScriptByUniqueId
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueId(System.String)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueId(System.String)
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  name: ValidateTriggerScriptByUniqueId(String)
+  nameWithType: ICRMScriptAgent.ValidateTriggerScriptByUniqueId(String)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueId(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueId(System.String)
+    name: ValidateTriggerScriptByUniqueId
+    nameWithType: ICRMScriptAgent.ValidateTriggerScriptByUniqueId
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueId(System.String)
+    name: ValidateTriggerScriptByUniqueId
+    nameWithType: ICRMScriptAgent.ValidateTriggerScriptByUniqueId
+    fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.#ctor
+  isExternal: true
+  name: CRMScriptAgent
+  nameWithType: CRMScriptAgent.CRMScriptAgent
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.CRMScriptAgent

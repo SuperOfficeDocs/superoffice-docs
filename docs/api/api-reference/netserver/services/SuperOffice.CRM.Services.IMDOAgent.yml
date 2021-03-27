@@ -1,0 +1,692 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.IMDOAgent
+  commentId: T:SuperOffice.CRM.Services.IMDOAgent
+  id: IMDOAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.IMDOAgent.GetList(System.String,System.Boolean,System.String,System.Boolean)
+  - SuperOffice.CRM.Services.IMDOAgent.GetListIdByListName(System.String)
+  - SuperOffice.CRM.Services.IMDOAgent.GetListItem(System.String,System.Int32)
+  - SuperOffice.CRM.Services.IMDOAgent.GetListNames
+  - SuperOffice.CRM.Services.IMDOAgent.GetListWithHistory(System.String,System.Boolean,System.String,System.Int32[],System.Boolean)
+  - SuperOffice.CRM.Services.IMDOAgent.GetListWithRestriction(System.String,System.String,System.String)
+  - SuperOffice.CRM.Services.IMDOAgent.GetSelectableList(System.String,System.Boolean,System.String,System.Boolean)
+  - SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithHistory(System.String,System.Boolean,System.String,System.Int32[],System.Boolean)
+  - SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithRestriction(System.String,System.String,System.String)
+  - SuperOffice.CRM.Services.IMDOAgent.GetSelectableSimpleList(System.String)
+  - SuperOffice.CRM.Services.IMDOAgent.GetSimpleList(System.String)
+  - SuperOffice.CRM.Services.IMDOAgent.SetSelected(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[])
+  langs:
+  - csharp
+  - vb
+  name: IMDOAgent
+  nameWithType: IMDOAgent
+  fullName: SuperOffice.CRM.Services.IMDOAgent
+  type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInterface for the MDO Agent\nMDO Lists, reading, searching, and item lookup.\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (MDOAgent agent = new MDOAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: >-
+      [Agent("MDO Agent", "Interface for the MDO Agent. MDO Lists, reading, searching, and item lookup.")]
+
+      public interface IMDOAgent : IAgent
+    content.vb: >-
+      <Agent("MDO Agent", "Interface for the MDO Agent. MDO Lists, reading, searching, and item lookup.")>
+
+      Public Interface IMDOAgent
+          Inherits IAgent
+  attributes:
+  - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
+    ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: MDO Agent
+    - type: System.String
+      value: Interface for the MDO Agent. MDO Lists, reading, searching, and item lookup.
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetList(System.String,System.Boolean,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetList(System.String,System.Boolean,System.String,System.Boolean)
+  id: GetList(System.String,System.Boolean,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Services.IMDOAgent
+  langs:
+  - csharp
+  - vb
+  name: GetList(String, Boolean, String, Boolean)
+  nameWithType: IMDOAgent.GetList(String, Boolean, String, Boolean)
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetList(System.String, System.Boolean, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMethod to get a MDO list.\n"
+  syntax:
+    content: MDOListItem[] GetList(string name, bool forceFlatList, string additionalInfo, bool onlyHistory)
+    parameters:
+    - id: name
+      type: System.String
+      description: Conceptual name of the MDO list-
+    - id: forceFlatList
+      type: System.Boolean
+      description: Force the list to be flat
+    - id: additionalInfo
+      type: System.String
+      description: Additional info to the MDO provider
+    - id: onlyHistory
+      type: System.Boolean
+      description: If true, return only history items
+    return:
+      type: SuperOffice.CRM.Services.MDOListItem[]
+      description: Array of MDOListItem
+    content.vb: Function GetList(name As String, forceFlatList As Boolean, additionalInfo As String, onlyHistory As Boolean) As MDOListItem()
+  overload: SuperOffice.CRM.Services.IMDOAgent.GetList*
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetListWithHistory(System.String,System.Boolean,System.String,System.Int32[],System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetListWithHistory(System.String,System.Boolean,System.String,System.Int32[],System.Boolean)
+  id: GetListWithHistory(System.String,System.Boolean,System.String,System.Int32[],System.Boolean)
+  parent: SuperOffice.CRM.Services.IMDOAgent
+  langs:
+  - csharp
+  - vb
+  name: GetListWithHistory(String, Boolean, String, Int32[], Boolean)
+  nameWithType: IMDOAgent.GetListWithHistory(String, Boolean, String, Int32[], Boolean)
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetListWithHistory(System.String, System.Boolean, System.String, System.Int32[], System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMethod to get a MDO list with own history list.\n"
+  syntax:
+    content: MDOListItem[] GetListWithHistory(string name, bool forceFlatList, string additionalInfo, int[] historyItems, bool onlyHistory)
+    parameters:
+    - id: name
+      type: System.String
+      description: Conceptual name of the MDO list-
+    - id: forceFlatList
+      type: System.Boolean
+      description: Force the list to be flat
+    - id: additionalInfo
+      type: System.String
+      description: Additional info to the MDO provider
+    - id: historyItems
+      type: System.Int32[]
+      description: An array of ids, used to get the history list
+    - id: onlyHistory
+      type: System.Boolean
+      description: If true, return only history items
+    return:
+      type: SuperOffice.CRM.Services.MDOListItem[]
+      description: Array of MDOListItem
+    content.vb: Function GetListWithHistory(name As String, forceFlatList As Boolean, additionalInfo As String, historyItems As Integer(), onlyHistory As Boolean) As MDOListItem()
+  overload: SuperOffice.CRM.Services.IMDOAgent.GetListWithHistory*
+  nameWithType.vb: IMDOAgent.GetListWithHistory(String, Boolean, String, Int32(), Boolean)
+  fullName.vb: SuperOffice.CRM.Services.IMDOAgent.GetListWithHistory(System.String, System.Boolean, System.String, System.Int32(), System.Boolean)
+  name.vb: GetListWithHistory(String, Boolean, String, Int32(), Boolean)
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetListWithRestriction(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetListWithRestriction(System.String,System.String,System.String)
+  id: GetListWithRestriction(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IMDOAgent
+  langs:
+  - csharp
+  - vb
+  name: GetListWithRestriction(String, String, String)
+  nameWithType: IMDOAgent.GetListWithRestriction(String, String, String)
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetListWithRestriction(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMethod to get a MDO list with restrictions.\n"
+  syntax:
+    content: MDOListItem[] GetListWithRestriction(string name, string additionalInfo, string searchValue)
+    parameters:
+    - id: name
+      type: System.String
+      description: Conceptual name of the MDO list-
+    - id: additionalInfo
+      type: System.String
+      description: Additional info to the MDO provider
+    - id: searchValue
+      type: System.String
+      description: the value used to restrict the list
+    return:
+      type: SuperOffice.CRM.Services.MDOListItem[]
+      description: Array of MDOListItem
+    content.vb: Function GetListWithRestriction(name As String, additionalInfo As String, searchValue As String) As MDOListItem()
+  overload: SuperOffice.CRM.Services.IMDOAgent.GetListWithRestriction*
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetSimpleList(System.String)
+  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetSimpleList(System.String)
+  id: GetSimpleList(System.String)
+  parent: SuperOffice.CRM.Services.IMDOAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSimpleList(String)
+  nameWithType: IMDOAgent.GetSimpleList(String)
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetSimpleList(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMethod returns a simple flat MDO List.\n"
+  syntax:
+    content: MDOListItem[] GetSimpleList(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Conceptual name of the MDO list-
+    return:
+      type: SuperOffice.CRM.Services.MDOListItem[]
+      description: Array of MDOListItem
+    content.vb: Function GetSimpleList(name As String) As MDOListItem()
+  overload: SuperOffice.CRM.Services.IMDOAgent.GetSimpleList*
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetListItem(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetListItem(System.String,System.Int32)
+  id: GetListItem(System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.IMDOAgent
+  langs:
+  - csharp
+  - vb
+  name: GetListItem(String, Int32)
+  nameWithType: IMDOAgent.GetListItem(String, Int32)
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetListItem(System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns a single list item\n"
+  syntax:
+    content: MDOListItem GetListItem(string listName, int id)
+    parameters:
+    - id: listName
+      type: System.String
+      description: Conceptual name of the MDO list
+    - id: id
+      type: System.Int32
+      description: Id of list item
+    return:
+      type: SuperOffice.CRM.Services.MDOListItem
+      description: Single MDO list item
+    content.vb: Function GetListItem(listName As String, id As Integer) As MDOListItem
+  overload: SuperOffice.CRM.Services.IMDOAgent.GetListItem*
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetListNames
+  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetListNames
+  id: GetListNames
+  parent: SuperOffice.CRM.Services.IMDOAgent
+  langs:
+  - csharp
+  - vb
+  name: GetListNames()
+  nameWithType: IMDOAgent.GetListNames()
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetListNames()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns a list of all MDO List names. These names can also be used with the Archive agent as ProviderNames.\n"
+  syntax:
+    content: string[] GetListNames()
+    return:
+      type: System.String[]
+      description: Array of list names.
+    content.vb: Function GetListNames As String()
+  overload: SuperOffice.CRM.Services.IMDOAgent.GetListNames*
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetListIdByListName(System.String)
+  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetListIdByListName(System.String)
+  id: GetListIdByListName(System.String)
+  parent: SuperOffice.CRM.Services.IMDOAgent
+  langs:
+  - csharp
+  - vb
+  name: GetListIdByListName(String)
+  nameWithType: IMDOAgent.GetListIdByListName(String)
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetListIdByListName(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRetrieve the UdListDefinition id of a list, by its name. Not all lists have such an ID, but those that are based on tables do (the list name is then the same as the table name)\n"
+  syntax:
+    content: int GetListIdByListName(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: The list name, same as the table name for lists that are backed by tables
+    return:
+      type: System.Int32
+      description: List id in the UdListDefinition table
+    content.vb: Function GetListIdByListName(name As String) As Integer
+  overload: SuperOffice.CRM.Services.IMDOAgent.GetListIdByListName*
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableSimpleList(System.String)
+  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetSelectableSimpleList(System.String)
+  id: GetSelectableSimpleList(System.String)
+  parent: SuperOffice.CRM.Services.IMDOAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSelectableSimpleList(String)
+  nameWithType: IMDOAgent.GetSelectableSimpleList(String)
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetSelectableSimpleList(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMethod returns a flat Selectable MDO List.\n"
+  syntax:
+    content: SelectableMDOListItem[] GetSelectableSimpleList(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Conceptual name of the MDO list
+    return:
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+      description: Array of SelectableMDOListItem
+    content.vb: Function GetSelectableSimpleList(name As String) As SelectableMDOListItem()
+  overload: SuperOffice.CRM.Services.IMDOAgent.GetSelectableSimpleList*
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithRestriction(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithRestriction(System.String,System.String,System.String)
+  id: GetSelectableListWithRestriction(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IMDOAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSelectableListWithRestriction(String, String, String)
+  nameWithType: IMDOAgent.GetSelectableListWithRestriction(String, String, String)
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithRestriction(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMethod to get a Selectable MDO list with restrictions.\n"
+  syntax:
+    content: SelectableMDOListItem[] GetSelectableListWithRestriction(string name, string additionalInfo, string searchValue)
+    parameters:
+    - id: name
+      type: System.String
+      description: Conceptual name of the MDO list
+    - id: additionalInfo
+      type: System.String
+      description: Additional info to the MDO provider
+    - id: searchValue
+      type: System.String
+      description: the value used to restrict the list
+    return:
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+      description: Array of SelectableMDOListItem
+    content.vb: Function GetSelectableListWithRestriction(name As String, additionalInfo As String, searchValue As String) As SelectableMDOListItem()
+  overload: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithRestriction*
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithHistory(System.String,System.Boolean,System.String,System.Int32[],System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithHistory(System.String,System.Boolean,System.String,System.Int32[],System.Boolean)
+  id: GetSelectableListWithHistory(System.String,System.Boolean,System.String,System.Int32[],System.Boolean)
+  parent: SuperOffice.CRM.Services.IMDOAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSelectableListWithHistory(String, Boolean, String, Int32[], Boolean)
+  nameWithType: IMDOAgent.GetSelectableListWithHistory(String, Boolean, String, Int32[], Boolean)
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithHistory(System.String, System.Boolean, System.String, System.Int32[], System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMethod to get a Selectable MDO list with own history list.\n"
+  syntax:
+    content: SelectableMDOListItem[] GetSelectableListWithHistory(string name, bool forceFlatList, string additionalInfo, int[] historyItems, bool onlyHistory)
+    parameters:
+    - id: name
+      type: System.String
+      description: Conceptual name of the MDO list.
+    - id: forceFlatList
+      type: System.Boolean
+      description: Force the list to be flat
+    - id: additionalInfo
+      type: System.String
+      description: Additional info to the MDO provider
+    - id: historyItems
+      type: System.Int32[]
+      description: An array of ids, used to get the history list
+    - id: onlyHistory
+      type: System.Boolean
+      description: If true, return only history items
+    return:
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+      description: Array of SelectableMDOListItem
+    content.vb: Function GetSelectableListWithHistory(name As String, forceFlatList As Boolean, additionalInfo As String, historyItems As Integer(), onlyHistory As Boolean) As SelectableMDOListItem()
+  overload: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithHistory*
+  nameWithType.vb: IMDOAgent.GetSelectableListWithHistory(String, Boolean, String, Int32(), Boolean)
+  fullName.vb: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithHistory(System.String, System.Boolean, System.String, System.Int32(), System.Boolean)
+  name.vb: GetSelectableListWithHistory(String, Boolean, String, Int32(), Boolean)
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableList(System.String,System.Boolean,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IMDOAgent.GetSelectableList(System.String,System.Boolean,System.String,System.Boolean)
+  id: GetSelectableList(System.String,System.Boolean,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Services.IMDOAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSelectableList(String, Boolean, String, Boolean)
+  nameWithType: IMDOAgent.GetSelectableList(String, Boolean, String, Boolean)
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetSelectableList(System.String, System.Boolean, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMethod to get a Selectable MDO list.\n"
+  syntax:
+    content: SelectableMDOListItem[] GetSelectableList(string name, bool forceFlatList, string additionalInfo, bool onlyHistory)
+    parameters:
+    - id: name
+      type: System.String
+      description: Conceptual name of the MDO list.
+    - id: forceFlatList
+      type: System.Boolean
+      description: Force the list to be flat
+    - id: additionalInfo
+      type: System.String
+      description: Additional info to the MDO provider
+    - id: onlyHistory
+      type: System.Boolean
+      description: If true, return only history items
+    return:
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+      description: Array of SelectableMDOListItem
+    content.vb: Function GetSelectableList(name As String, forceFlatList As Boolean, additionalInfo As String, onlyHistory As Boolean) As SelectableMDOListItem()
+  overload: SuperOffice.CRM.Services.IMDOAgent.GetSelectableList*
+- uid: SuperOffice.CRM.Services.IMDOAgent.SetSelected(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[])
+  commentId: M:SuperOffice.CRM.Services.IMDOAgent.SetSelected(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[])
+  id: SetSelected(System.String,System.String,SuperOffice.CRM.Services.SelectableMDOListItem[])
+  parent: SuperOffice.CRM.Services.IMDOAgent
+  langs:
+  - csharp
+  - vb
+  name: SetSelected(String, String, SelectableMDOListItem[])
+  nameWithType: IMDOAgent.SetSelected(String, String, SelectableMDOListItem[])
+  fullName: SuperOffice.CRM.Services.IMDOAgent.SetSelected(System.String, System.String, SuperOffice.CRM.Services.SelectableMDOListItem[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSaves the selected values as selected by their given list representation.\n"
+  syntax:
+    content: SelectableMDOListItem[] SetSelected(string name, string additionalInfo, SelectableMDOListItem[] selectableMDOList)
+    parameters:
+    - id: name
+      type: System.String
+      description: Conceptual name of the MDO list
+    - id: additionalInfo
+      type: System.String
+      description: Additional info to the MDO provider
+    - id: selectableMDOList
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+      description: Items to be updated
+    return:
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+      description: Array of updated SelectableMDOListItems
+    content.vb: Function SetSelected(name As String, additionalInfo As String, selectableMDOList As SelectableMDOListItem()) As SelectableMDOListItem()
+  overload: SuperOffice.CRM.Services.IMDOAgent.SetSelected*
+  nameWithType.vb: IMDOAgent.SetSelected(String, String, SelectableMDOListItem())
+  fullName.vb: SuperOffice.CRM.Services.IMDOAgent.SetSelected(System.String, System.String, SuperOffice.CRM.Services.SelectableMDOListItem())
+  name.vb: SetSelected(String, String, SelectableMDOListItem())
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetList*
+  commentId: Overload:SuperOffice.CRM.Services.IMDOAgent.GetList
+  isExternal: true
+  name: GetList
+  nameWithType: IMDOAgent.GetList
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetList
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.MDOListItem[]
+  isExternal: true
+  name: MDOListItem[]
+  nameWithType: MDOListItem[]
+  fullName: SuperOffice.CRM.Services.MDOListItem[]
+  nameWithType.vb: MDOListItem()
+  fullName.vb: SuperOffice.CRM.Services.MDOListItem()
+  name.vb: MDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetListWithHistory*
+  commentId: Overload:SuperOffice.CRM.Services.IMDOAgent.GetListWithHistory
+  isExternal: true
+  name: GetListWithHistory
+  nameWithType: IMDOAgent.GetListWithHistory
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetListWithHistory
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetListWithRestriction*
+  commentId: Overload:SuperOffice.CRM.Services.IMDOAgent.GetListWithRestriction
+  isExternal: true
+  name: GetListWithRestriction
+  nameWithType: IMDOAgent.GetListWithRestriction
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetListWithRestriction
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetSimpleList*
+  commentId: Overload:SuperOffice.CRM.Services.IMDOAgent.GetSimpleList
+  isExternal: true
+  name: GetSimpleList
+  nameWithType: IMDOAgent.GetSimpleList
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetSimpleList
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetListItem*
+  commentId: Overload:SuperOffice.CRM.Services.IMDOAgent.GetListItem
+  isExternal: true
+  name: GetListItem
+  nameWithType: IMDOAgent.GetListItem
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetListItem
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.MDOListItem
+  commentId: T:SuperOffice.CRM.Services.MDOListItem
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: MDOListItem
+  nameWithType: MDOListItem
+  fullName: SuperOffice.CRM.Services.MDOListItem
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetListNames*
+  commentId: Overload:SuperOffice.CRM.Services.IMDOAgent.GetListNames
+  isExternal: true
+  name: GetListNames
+  nameWithType: IMDOAgent.GetListNames
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetListNames
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetListIdByListName*
+  commentId: Overload:SuperOffice.CRM.Services.IMDOAgent.GetListIdByListName
+  isExternal: true
+  name: GetListIdByListName
+  nameWithType: IMDOAgent.GetListIdByListName
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetListIdByListName
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableSimpleList*
+  commentId: Overload:SuperOffice.CRM.Services.IMDOAgent.GetSelectableSimpleList
+  isExternal: true
+  name: GetSelectableSimpleList
+  nameWithType: IMDOAgent.GetSelectableSimpleList
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetSelectableSimpleList
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem[]
+  isExternal: true
+  name: SelectableMDOListItem[]
+  nameWithType: SelectableMDOListItem[]
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem[]
+  nameWithType.vb: SelectableMDOListItem()
+  fullName.vb: SuperOffice.CRM.Services.SelectableMDOListItem()
+  name.vb: SelectableMDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithRestriction*
+  commentId: Overload:SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithRestriction
+  isExternal: true
+  name: GetSelectableListWithRestriction
+  nameWithType: IMDOAgent.GetSelectableListWithRestriction
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithRestriction
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithHistory*
+  commentId: Overload:SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithHistory
+  isExternal: true
+  name: GetSelectableListWithHistory
+  nameWithType: IMDOAgent.GetSelectableListWithHistory
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetSelectableListWithHistory
+- uid: SuperOffice.CRM.Services.IMDOAgent.GetSelectableList*
+  commentId: Overload:SuperOffice.CRM.Services.IMDOAgent.GetSelectableList
+  isExternal: true
+  name: GetSelectableList
+  nameWithType: IMDOAgent.GetSelectableList
+  fullName: SuperOffice.CRM.Services.IMDOAgent.GetSelectableList
+- uid: SuperOffice.CRM.Services.IMDOAgent.SetSelected*
+  commentId: Overload:SuperOffice.CRM.Services.IMDOAgent.SetSelected
+  isExternal: true
+  name: SetSelected
+  nameWithType: IMDOAgent.SetSelected
+  fullName: SuperOffice.CRM.Services.IMDOAgent.SetSelected

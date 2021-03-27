@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_CreateEMailFromDocumentEntityRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_CreateEMailFromDocumentEntityRequest
+  id: EMail_CreateEMailFromDocumentEntityRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_CreateEMailFromDocumentEntityRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_CreateEMailFromDocumentEntityRequest.DocumentEntity
+  langs:
+  - csharp
+  - vb
+  name: EMail_CreateEMailFromDocumentEntityRequest
+  nameWithType: EMail_CreateEMailFromDocumentEntityRequest
+  fullName: SuperOffice.WebApi.Data.EMail_CreateEMailFromDocumentEntityRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_CreateEMailFromDocumentEntityRequest : Object'
+    content.vb: >-
+      Public Class EMail_CreateEMailFromDocumentEntityRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_CreateEMailFromDocumentEntityRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_CreateEMailFromDocumentEntityRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_CreateEMailFromDocumentEntityRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_CreateEMailFromDocumentEntityRequest()
+  nameWithType: EMail_CreateEMailFromDocumentEntityRequest.EMail_CreateEMailFromDocumentEntityRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_CreateEMailFromDocumentEntityRequest.EMail_CreateEMailFromDocumentEntityRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_CreateEMailFromDocumentEntityRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_CreateEMailFromDocumentEntityRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_CreateEMailFromDocumentEntityRequest.DocumentEntity
+  commentId: P:SuperOffice.WebApi.Data.EMail_CreateEMailFromDocumentEntityRequest.DocumentEntity
+  id: DocumentEntity
+  parent: SuperOffice.WebApi.Data.EMail_CreateEMailFromDocumentEntityRequest
+  langs:
+  - csharp
+  - vb
+  name: DocumentEntity
+  nameWithType: EMail_CreateEMailFromDocumentEntityRequest.DocumentEntity
+  fullName: SuperOffice.WebApi.Data.EMail_CreateEMailFromDocumentEntityRequest.DocumentEntity
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DocumentEntity DocumentEntity { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.DocumentEntity
+    content.vb: Public Property DocumentEntity As DocumentEntity
+  overload: SuperOffice.WebApi.Data.EMail_CreateEMailFromDocumentEntityRequest.DocumentEntity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_CreateEMailFromDocumentEntityRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_CreateEMailFromDocumentEntityRequest.#ctor
+  isExternal: true
+  name: EMail_CreateEMailFromDocumentEntityRequest
+  nameWithType: EMail_CreateEMailFromDocumentEntityRequest.EMail_CreateEMailFromDocumentEntityRequest
+  fullName: SuperOffice.WebApi.Data.EMail_CreateEMailFromDocumentEntityRequest.EMail_CreateEMailFromDocumentEntityRequest
+- uid: SuperOffice.WebApi.Data.EMail_CreateEMailFromDocumentEntityRequest.DocumentEntity*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_CreateEMailFromDocumentEntityRequest.DocumentEntity
+  isExternal: true
+  name: DocumentEntity
+  nameWithType: EMail_CreateEMailFromDocumentEntityRequest.DocumentEntity
+  fullName: SuperOffice.WebApi.Data.EMail_CreateEMailFromDocumentEntityRequest.DocumentEntity
+- uid: SuperOffice.WebApi.Data.DocumentEntity
+  commentId: T:SuperOffice.WebApi.Data.DocumentEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DocumentEntity
+  nameWithType: DocumentEntity
+  fullName: SuperOffice.WebApi.Data.DocumentEntity

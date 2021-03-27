@@ -1,0 +1,527 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.EMailAccount
+  commentId: T:SuperOffice.CRM.Services.EMailAccount
+  id: EMailAccount
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.EMailAccount.#ctor
+  - SuperOffice.CRM.Services.EMailAccount.AccountStatus
+  - SuperOffice.CRM.Services.EMailAccount.AssociateId
+  - SuperOffice.CRM.Services.EMailAccount.EMailAccountId
+  - SuperOffice.CRM.Services.EMailAccount.EMailAddress
+  - SuperOffice.CRM.Services.EMailAccount.ErrorCount
+  - SuperOffice.CRM.Services.EMailAccount.ErrorReason
+  - SuperOffice.CRM.Services.EMailAccount.IncomingCredentials
+  - SuperOffice.CRM.Services.EMailAccount.OutgoingCredentials
+  - SuperOffice.CRM.Services.EMailAccount.ToString
+  - SuperOffice.CRM.Services.EMailAccount.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: EMailAccount
+  nameWithType: EMailAccount
+  fullName: SuperOffice.CRM.Services.EMailAccount
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nProperties for an email account\n<p></p>\nCarrier object for EMailAccount.\nServices for the EMailAccount Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IEMailAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet EMailAccount 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new EMailAgent();\n    var eMailAccount = agent.GetEMailAccount( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class EMailAccount : Carrier'
+    content.vb: >-
+      Public Class EMailAccount
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.EMailAgent
+    commentId: T:SuperOffice.CRM.Services.EMailAgent
+  - linkId: SuperOffice.CRM.Services.IEMailAgent
+    commentId: T:SuperOffice.CRM.Services.IEMailAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.EMailAccount.#ctor
+  commentId: M:SuperOffice.CRM.Services.EMailAccount.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.EMailAccount
+  langs:
+  - csharp
+  - vb
+  name: EMailAccount()
+  nameWithType: EMailAccount.EMailAccount()
+  fullName: SuperOffice.CRM.Services.EMailAccount.EMailAccount()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public EMailAccount()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.EMailAccount.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EMailAccount.ToString
+  commentId: M:SuperOffice.CRM.Services.EMailAccount.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.EMailAccount
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: EMailAccount.ToString()
+  fullName: SuperOffice.CRM.Services.EMailAccount.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.EMailAccount.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.EMailAccount.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.EMailAccount.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.EMailAccount
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: EMailAccount.ToString(String)
+  fullName: SuperOffice.CRM.Services.EMailAccount.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.EMailAccount.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EMailAccount.EMailAccountId
+  commentId: P:SuperOffice.CRM.Services.EMailAccount.EMailAccountId
+  id: EMailAccountId
+  parent: SuperOffice.CRM.Services.EMailAccount
+  langs:
+  - csharp
+  - vb
+  name: EMailAccountId
+  nameWithType: EMailAccount.EMailAccountId
+  fullName: SuperOffice.CRM.Services.EMailAccount.EMailAccountId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe account primary key \n"
+  syntax:
+    content: public virtual int EMailAccountId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property EMailAccountId As Integer
+  overload: SuperOffice.CRM.Services.EMailAccount.EMailAccountId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailAccount.EMailAddress
+  commentId: P:SuperOffice.CRM.Services.EMailAccount.EMailAddress
+  id: EMailAddress
+  parent: SuperOffice.CRM.Services.EMailAccount
+  langs:
+  - csharp
+  - vb
+  name: EMailAddress
+  nameWithType: EMailAccount.EMailAddress
+  fullName: SuperOffice.CRM.Services.EMailAccount.EMailAddress
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe account (from) address \n"
+  syntax:
+    content: public virtual string EMailAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EMailAddress As String
+  overload: SuperOffice.CRM.Services.EMailAccount.EMailAddress*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailAccount.AssociateId
+  commentId: P:SuperOffice.CRM.Services.EMailAccount.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Services.EMailAccount
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: EMailAccount.AssociateId
+  fullName: SuperOffice.CRM.Services.EMailAccount.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nId of the associate who owns this account \n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.CRM.Services.EMailAccount.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailAccount.IncomingCredentials
+  commentId: P:SuperOffice.CRM.Services.EMailAccount.IncomingCredentials
+  id: IncomingCredentials
+  parent: SuperOffice.CRM.Services.EMailAccount
+  langs:
+  - csharp
+  - vb
+  name: IncomingCredentials
+  nameWithType: EMailAccount.IncomingCredentials
+  fullName: SuperOffice.CRM.Services.EMailAccount.IncomingCredentials
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAccount credentials for imap \n"
+  syntax:
+    content: public virtual ServiceAuth IncomingCredentials { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.ServiceAuth
+    content.vb: Public Overridable Property IncomingCredentials As ServiceAuth
+  overload: SuperOffice.CRM.Services.EMailAccount.IncomingCredentials*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailAccount.OutgoingCredentials
+  commentId: P:SuperOffice.CRM.Services.EMailAccount.OutgoingCredentials
+  id: OutgoingCredentials
+  parent: SuperOffice.CRM.Services.EMailAccount
+  langs:
+  - csharp
+  - vb
+  name: OutgoingCredentials
+  nameWithType: EMailAccount.OutgoingCredentials
+  fullName: SuperOffice.CRM.Services.EMailAccount.OutgoingCredentials
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAccount credentials for smtp \n"
+  syntax:
+    content: public virtual ServiceAuth OutgoingCredentials { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.ServiceAuth
+    content.vb: Public Overridable Property OutgoingCredentials As ServiceAuth
+  overload: SuperOffice.CRM.Services.EMailAccount.OutgoingCredentials*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailAccount.AccountStatus
+  commentId: P:SuperOffice.CRM.Services.EMailAccount.AccountStatus
+  id: AccountStatus
+  parent: SuperOffice.CRM.Services.EMailAccount
+  langs:
+  - csharp
+  - vb
+  name: AccountStatus
+  nameWithType: EMailAccount.AccountStatus
+  fullName: SuperOffice.CRM.Services.EMailAccount.AccountStatus
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe account status (Disabled or...) Readonly field \n"
+  syntax:
+    content: public virtual short AccountStatus { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property AccountStatus As Short
+  overload: SuperOffice.CRM.Services.EMailAccount.AccountStatus*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailAccount.ErrorCount
+  commentId: P:SuperOffice.CRM.Services.EMailAccount.ErrorCount
+  id: ErrorCount
+  parent: SuperOffice.CRM.Services.EMailAccount
+  langs:
+  - csharp
+  - vb
+  name: ErrorCount
+  nameWithType: EMailAccount.ErrorCount
+  fullName: SuperOffice.CRM.Services.EMailAccount.ErrorCount
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCount of concurring errors of fetching email. Readonly field \n"
+  syntax:
+    content: public virtual int ErrorCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ErrorCount As Integer
+  overload: SuperOffice.CRM.Services.EMailAccount.ErrorCount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailAccount.ErrorReason
+  commentId: P:SuperOffice.CRM.Services.EMailAccount.ErrorReason
+  id: ErrorReason
+  parent: SuperOffice.CRM.Services.EMailAccount
+  langs:
+  - csharp
+  - vb
+  name: ErrorReason
+  nameWithType: EMailAccount.ErrorReason
+  fullName: SuperOffice.CRM.Services.EMailAccount.ErrorReason
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReason/Error message. Readonly field \n"
+  syntax:
+    content: public virtual string ErrorReason { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ErrorReason As String
+  overload: SuperOffice.CRM.Services.EMailAccount.ErrorReason*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.EMailAgent
+  commentId: T:SuperOffice.CRM.Services.EMailAgent
+  isExternal: true
+  name: EMailAgent
+  nameWithType: EMailAgent
+  fullName: SuperOffice.CRM.Services.EMailAgent
+- uid: SuperOffice.CRM.Services.IEMailAgent
+  commentId: T:SuperOffice.CRM.Services.IEMailAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IEMailAgent
+  nameWithType: IEMailAgent
+  fullName: SuperOffice.CRM.Services.IEMailAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.EMailAccount.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAccount.#ctor
+  isExternal: true
+  name: EMailAccount
+  nameWithType: EMailAccount.EMailAccount
+  fullName: SuperOffice.CRM.Services.EMailAccount.EMailAccount
+- uid: SuperOffice.CRM.Services.EMailAccount.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAccount.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: EMailAccount.ToString
+  fullName: SuperOffice.CRM.Services.EMailAccount.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.EMailAccount.EMailAccountId*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAccount.EMailAccountId
+  isExternal: true
+  name: EMailAccountId
+  nameWithType: EMailAccount.EMailAccountId
+  fullName: SuperOffice.CRM.Services.EMailAccount.EMailAccountId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.EMailAccount.EMailAddress*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAccount.EMailAddress
+  isExternal: true
+  name: EMailAddress
+  nameWithType: EMailAccount.EMailAddress
+  fullName: SuperOffice.CRM.Services.EMailAccount.EMailAddress
+- uid: SuperOffice.CRM.Services.EMailAccount.AssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAccount.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: EMailAccount.AssociateId
+  fullName: SuperOffice.CRM.Services.EMailAccount.AssociateId
+- uid: SuperOffice.CRM.Services.EMailAccount.IncomingCredentials*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAccount.IncomingCredentials
+  isExternal: true
+  name: IncomingCredentials
+  nameWithType: EMailAccount.IncomingCredentials
+  fullName: SuperOffice.CRM.Services.EMailAccount.IncomingCredentials
+- uid: SuperOffice.CRM.Services.ServiceAuth
+  commentId: T:SuperOffice.CRM.Services.ServiceAuth
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ServiceAuth
+  nameWithType: ServiceAuth
+  fullName: SuperOffice.CRM.Services.ServiceAuth
+- uid: SuperOffice.CRM.Services.EMailAccount.OutgoingCredentials*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAccount.OutgoingCredentials
+  isExternal: true
+  name: OutgoingCredentials
+  nameWithType: EMailAccount.OutgoingCredentials
+  fullName: SuperOffice.CRM.Services.EMailAccount.OutgoingCredentials
+- uid: SuperOffice.CRM.Services.EMailAccount.AccountStatus*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAccount.AccountStatus
+  isExternal: true
+  name: AccountStatus
+  nameWithType: EMailAccount.AccountStatus
+  fullName: SuperOffice.CRM.Services.EMailAccount.AccountStatus
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Services.EMailAccount.ErrorCount*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAccount.ErrorCount
+  isExternal: true
+  name: ErrorCount
+  nameWithType: EMailAccount.ErrorCount
+  fullName: SuperOffice.CRM.Services.EMailAccount.ErrorCount
+- uid: SuperOffice.CRM.Services.EMailAccount.ErrorReason*
+  commentId: Overload:SuperOffice.CRM.Services.EMailAccount.ErrorReason
+  isExternal: true
+  name: ErrorReason
+  nameWithType: EMailAccount.ErrorReason
+  fullName: SuperOffice.CRM.Services.EMailAccount.ErrorReason

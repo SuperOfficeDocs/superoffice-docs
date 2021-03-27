@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_DeleteListEntityByNameRequest
+  commentId: T:SuperOffice.WebApi.Data.List_DeleteListEntityByNameRequest
+  id: List_DeleteListEntityByNameRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_DeleteListEntityByNameRequest.#ctor
+  - SuperOffice.WebApi.Data.List_DeleteListEntityByNameRequest.Name
+  langs:
+  - csharp
+  - vb
+  name: List_DeleteListEntityByNameRequest
+  nameWithType: List_DeleteListEntityByNameRequest
+  fullName: SuperOffice.WebApi.Data.List_DeleteListEntityByNameRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_DeleteListEntityByNameRequest : Object'
+    content.vb: >-
+      Public Class List_DeleteListEntityByNameRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_DeleteListEntityByNameRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_DeleteListEntityByNameRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_DeleteListEntityByNameRequest
+  langs:
+  - csharp
+  - vb
+  name: List_DeleteListEntityByNameRequest()
+  nameWithType: List_DeleteListEntityByNameRequest.List_DeleteListEntityByNameRequest()
+  fullName: SuperOffice.WebApi.Data.List_DeleteListEntityByNameRequest.List_DeleteListEntityByNameRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_DeleteListEntityByNameRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_DeleteListEntityByNameRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_DeleteListEntityByNameRequest.Name
+  commentId: P:SuperOffice.WebApi.Data.List_DeleteListEntityByNameRequest.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.List_DeleteListEntityByNameRequest
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: List_DeleteListEntityByNameRequest.Name
+  fullName: SuperOffice.WebApi.Data.List_DeleteListEntityByNameRequest.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.WebApi.Data.List_DeleteListEntityByNameRequest.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_DeleteListEntityByNameRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_DeleteListEntityByNameRequest.#ctor
+  isExternal: true
+  name: List_DeleteListEntityByNameRequest
+  nameWithType: List_DeleteListEntityByNameRequest.List_DeleteListEntityByNameRequest
+  fullName: SuperOffice.WebApi.Data.List_DeleteListEntityByNameRequest.List_DeleteListEntityByNameRequest
+- uid: SuperOffice.WebApi.Data.List_DeleteListEntityByNameRequest.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.List_DeleteListEntityByNameRequest.Name
+  isExternal: true
+  name: Name
+  nameWithType: List_DeleteListEntityByNameRequest.Name
+  fullName: SuperOffice.WebApi.Data.List_DeleteListEntityByNameRequest.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

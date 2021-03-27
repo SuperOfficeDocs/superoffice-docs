@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Webhook_SignalEventRequest
+  commentId: T:SuperOffice.WebApi.Data.Webhook_SignalEventRequest
+  id: Webhook_SignalEventRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Webhook_SignalEventRequest.#ctor
+  - SuperOffice.WebApi.Data.Webhook_SignalEventRequest.Data
+  - SuperOffice.WebApi.Data.Webhook_SignalEventRequest.EventName
+  - SuperOffice.WebApi.Data.Webhook_SignalEventRequest.PrimaryKey
+  langs:
+  - csharp
+  - vb
+  name: Webhook_SignalEventRequest
+  nameWithType: Webhook_SignalEventRequest
+  fullName: SuperOffice.WebApi.Data.Webhook_SignalEventRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Webhook_SignalEventRequest : Object'
+    content.vb: >-
+      Public Class Webhook_SignalEventRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Webhook_SignalEventRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Webhook_SignalEventRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Webhook_SignalEventRequest
+  langs:
+  - csharp
+  - vb
+  name: Webhook_SignalEventRequest()
+  nameWithType: Webhook_SignalEventRequest.Webhook_SignalEventRequest()
+  fullName: SuperOffice.WebApi.Data.Webhook_SignalEventRequest.Webhook_SignalEventRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Webhook_SignalEventRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Webhook_SignalEventRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Webhook_SignalEventRequest.EventName
+  commentId: P:SuperOffice.WebApi.Data.Webhook_SignalEventRequest.EventName
+  id: EventName
+  parent: SuperOffice.WebApi.Data.Webhook_SignalEventRequest
+  langs:
+  - csharp
+  - vb
+  name: EventName
+  nameWithType: Webhook_SignalEventRequest.EventName
+  fullName: SuperOffice.WebApi.Data.Webhook_SignalEventRequest.EventName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string EventName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EventName As String
+  overload: SuperOffice.WebApi.Data.Webhook_SignalEventRequest.EventName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Webhook_SignalEventRequest.PrimaryKey
+  commentId: P:SuperOffice.WebApi.Data.Webhook_SignalEventRequest.PrimaryKey
+  id: PrimaryKey
+  parent: SuperOffice.WebApi.Data.Webhook_SignalEventRequest
+  langs:
+  - csharp
+  - vb
+  name: PrimaryKey
+  nameWithType: Webhook_SignalEventRequest.PrimaryKey
+  fullName: SuperOffice.WebApi.Data.Webhook_SignalEventRequest.PrimaryKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PrimaryKey { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PrimaryKey As Integer
+  overload: SuperOffice.WebApi.Data.Webhook_SignalEventRequest.PrimaryKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Webhook_SignalEventRequest.Data
+  commentId: P:SuperOffice.WebApi.Data.Webhook_SignalEventRequest.Data
+  id: Data
+  parent: SuperOffice.WebApi.Data.Webhook_SignalEventRequest
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: Webhook_SignalEventRequest.Data
+  fullName: SuperOffice.WebApi.Data.Webhook_SignalEventRequest.Data
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public StringObjectDictionary Data { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StringObjectDictionary
+    content.vb: Public Property Data As StringObjectDictionary
+  overload: SuperOffice.WebApi.Data.Webhook_SignalEventRequest.Data*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Webhook_SignalEventRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Webhook_SignalEventRequest.#ctor
+  isExternal: true
+  name: Webhook_SignalEventRequest
+  nameWithType: Webhook_SignalEventRequest.Webhook_SignalEventRequest
+  fullName: SuperOffice.WebApi.Data.Webhook_SignalEventRequest.Webhook_SignalEventRequest
+- uid: SuperOffice.WebApi.Data.Webhook_SignalEventRequest.EventName*
+  commentId: Overload:SuperOffice.WebApi.Data.Webhook_SignalEventRequest.EventName
+  isExternal: true
+  name: EventName
+  nameWithType: Webhook_SignalEventRequest.EventName
+  fullName: SuperOffice.WebApi.Data.Webhook_SignalEventRequest.EventName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Webhook_SignalEventRequest.PrimaryKey*
+  commentId: Overload:SuperOffice.WebApi.Data.Webhook_SignalEventRequest.PrimaryKey
+  isExternal: true
+  name: PrimaryKey
+  nameWithType: Webhook_SignalEventRequest.PrimaryKey
+  fullName: SuperOffice.WebApi.Data.Webhook_SignalEventRequest.PrimaryKey
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Webhook_SignalEventRequest.Data*
+  commentId: Overload:SuperOffice.WebApi.Data.Webhook_SignalEventRequest.Data
+  isExternal: true
+  name: Data
+  nameWithType: Webhook_SignalEventRequest.Data
+  fullName: SuperOffice.WebApi.Data.Webhook_SignalEventRequest.Data
+- uid: SuperOffice.WebApi.Data.StringObjectDictionary
+  commentId: T:SuperOffice.WebApi.Data.StringObjectDictionary
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: StringObjectDictionary
+  nameWithType: StringObjectDictionary
+  fullName: SuperOffice.WebApi.Data.StringObjectDictionary

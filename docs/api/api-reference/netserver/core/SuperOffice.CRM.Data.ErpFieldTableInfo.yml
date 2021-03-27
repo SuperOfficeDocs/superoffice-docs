@@ -1,0 +1,2527 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo
+  commentId: T:SuperOffice.CRM.Data.ErpFieldTableInfo
+  id: ErpFieldTableInfo
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.Access
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.CrmFieldKey
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.DefaultValue
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.Definition
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.DictionaryTableName
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.DisplayDescription
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.DisplayName
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.ErpConnectionActorTypeId
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.ErpConnectionActorTypeId_InnerJoin_ErpConnectionActorType
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.ErpFieldId
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.ErpFieldKey
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.FieldType
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.FirstSyncDefaultValue
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.HasFirstSyncDefaultValue
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.IdxErpConnectionActorTypeId(System.Int32)
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.LeftOuterJoin_ErpListItemMapping_ErpFieldId
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.ListName
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.ListReference
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.Mandatory
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.MaxLength
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.MissingInERP
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.PromptUser
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.Rank
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.Registered
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.RegisteredAssociateId
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.ShowInGui
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.ShowInSearch
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.SyncToCrm
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.SyncToErp
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.Updated
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.UpdatedAssociateId
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: ErpFieldTableInfo
+  nameWithType: ErpFieldTableInfo
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable &apos;ErpField&apos;: Store the metadata describing the fields that belong to an actor/connection combination, as described by the Erp Connector\n"
+  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetErpFieldInfo()\"></see>.\n"
+  syntax:
+    content: >-
+      [DatabaseTable("ErpField")]
+
+      public class ErpFieldTableInfo : TableInfo, ICloneable
+    content.vb: >-
+      <DatabaseTable("ErpField")>
+
+      Public Class ErpFieldTableInfo
+          Inherits TableInfo
+          Implements ICloneable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.SQL.TableInfo
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - SuperOffice.Data.SQL.TableInfo.ToString
+  - SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  - SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  - SuperOffice.Data.SQL.TableInfo.Clone
+  - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  - SuperOffice.Data.SQL.TableInfo.ProtAll
+  - SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  - SuperOffice.Data.SQL.TableInfo.TableName
+  - SuperOffice.Data.SQL.TableInfo.DbName
+  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  - SuperOffice.Data.SQL.TableInfo.All
+  - SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Data.ErpFieldTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.SQL.DatabaseTableAttribute
+    ctor: SuperOffice.Data.SQL.DatabaseTableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ErpField
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.DictionaryTableName
+  commentId: F:SuperOffice.CRM.Data.ErpFieldTableInfo.DictionaryTableName
+  id: DictionaryTableName
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableName
+  nameWithType: ErpFieldTableInfo.DictionaryTableName
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.DictionaryTableName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nConceptual name of table ErpField in the database dictionary: ErpField\n"
+  syntax:
+    content: public const string DictionaryTableName = "ErpField"
+    return:
+      type: System.String
+    content.vb: Public Const DictionaryTableName As String = "ErpField"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.IdxErpConnectionActorTypeId(System.Int32)
+  commentId: M:SuperOffice.CRM.Data.ErpFieldTableInfo.IdxErpConnectionActorTypeId(System.Int32)
+  id: IdxErpConnectionActorTypeId(System.Int32)
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IdxErpConnectionActorTypeId(Int32)
+  nameWithType: ErpFieldTableInfo.IdxErpConnectionActorTypeId(Int32)
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.IdxErpConnectionActorTypeId(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nShortcut method for looking up using the database index ErpConnectionActorTypeId, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>ErpConnectionActorTypeId</td><td>Link to Erp Connection/Actor type</td></tr></tbody></table>\n"
+  syntax:
+    content: public Restriction IdxErpConnectionActorTypeId(int erpConnectionActorTypeId)
+    parameters:
+    - id: erpConnectionActorTypeId
+      type: System.Int32
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Function IdxErpConnectionActorTypeId(erpConnectionActorTypeId As Integer) As Restriction
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.IdxErpConnectionActorTypeId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.DictionaryTableNumber
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.DictionaryTableNumber
+  id: DictionaryTableNumber
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableNumber
+  nameWithType: ErpFieldTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.DictionaryTableNumber
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTable number for table ErpField in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
+  syntax:
+    content: public int DictionaryTableNumber { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.DictionaryTableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.RuntimeDefinition
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.RuntimeDefinition
+  id: RuntimeDefinition
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RuntimeDefinition
+  nameWithType: ErpFieldTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.RuntimeDefinition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: >-
+      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
+
+      public static SoTable RuntimeDefinition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: >-
+      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
+
+      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.RuntimeDefinition*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use instance property Definition or static member DictionaryTableNumber
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.Definition
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.Definition
+  id: Definition
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: ErpFieldTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.Definition
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
+  syntax:
+    content: public override SoTable Definition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: Public Overrides ReadOnly Property Definition As SoTable
+  overridden: SuperOffice.Data.SQL.TableInfo.Definition
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.Definition*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.ErpFieldId
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.ErpFieldId
+  id: ErpFieldId
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ErpFieldId
+  nameWithType: ErpFieldTableInfo.ErpFieldId
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.ErpFieldId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;erpfield_id&apos; in table &apos;ErpField&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrimary key\n"
+  syntax:
+    content: public Int32FieldInfo ErpFieldId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property ErpFieldId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.ErpFieldId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.ErpConnectionActorTypeId
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.ErpConnectionActorTypeId
+  id: ErpConnectionActorTypeId
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectionActorTypeId
+  nameWithType: ErpFieldTableInfo.ErpConnectionActorTypeId
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.ErpConnectionActorTypeId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;ErpConnectionActorTypeId&apos; in table &apos;ErpField&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLink to Erp Connection/Actor type\n"
+  syntax:
+    content: public Int32FieldInfo ErpConnectionActorTypeId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property ErpConnectionActorTypeId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.ErpConnectionActorTypeId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.ErpFieldKey
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.ErpFieldKey
+  id: ErpFieldKey
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ErpFieldKey
+  nameWithType: ErpFieldTableInfo.ErpFieldKey
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.ErpFieldKey
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;ErpFieldKey&apos; in table &apos;ErpField&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe ERP field key\n"
+  syntax:
+    content: public StringFieldInfo ErpFieldKey { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property ErpFieldKey As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.ErpFieldKey*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.DisplayName
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.DisplayName
+  id: DisplayName
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: ErpFieldTableInfo.DisplayName
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.DisplayName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;DisplayName&apos; in table &apos;ErpField&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLocalized field name – shown in the GUI as the label for the control.\n"
+  syntax:
+    content: public StringFieldInfo DisplayName { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property DisplayName As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.DisplayName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.DisplayDescription
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.DisplayDescription
+  id: DisplayDescription
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DisplayDescription
+  nameWithType: ErpFieldTableInfo.DisplayDescription
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.DisplayDescription
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;DisplayDescription&apos; in table &apos;ErpField&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTooltip for the field name.\n"
+  syntax:
+    content: public StringFieldInfo DisplayDescription { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property DisplayDescription As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.DisplayDescription*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.FieldType
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.FieldType
+  id: FieldType
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FieldType
+  nameWithType: ErpFieldTableInfo.FieldType
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.FieldType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;FieldType&apos; in table &apos;ErpField&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.FieldMetadataType\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nField type\n"
+  syntax:
+    content: public FieldMetadataTypeFieldInfo FieldType { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldMetadataTypeFieldInfo
+    content.vb: Public ReadOnly Property FieldType As FieldMetadataTypeFieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.FieldType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.ListName
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.ListName
+  id: ListName
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ListName
+  nameWithType: ErpFieldTableInfo.ListName
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.ListName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;ListName&apos; in table &apos;ErpField&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe ERP list name, if the field has a list of values supplied by the ERP Connector\n"
+  syntax:
+    content: public StringFieldInfo ListName { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property ListName As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.ListName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.DefaultValue
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.DefaultValue
+  id: DefaultValue
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DefaultValue
+  nameWithType: ErpFieldTableInfo.DefaultValue
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.DefaultValue
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;DefaultValue&apos; in table &apos;ErpField&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDefault value, stored using CultureDataFormatter format if it is not a string\n"
+  syntax:
+    content: public StringFieldInfo DefaultValue { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property DefaultValue As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.DefaultValue*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.MaxLength
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.MaxLength
+  id: MaxLength
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: MaxLength
+  nameWithType: ErpFieldTableInfo.MaxLength
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.MaxLength
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;MaxLength&apos; in table &apos;ErpField&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nMaximum size of the field, if there is a limit\n"
+  syntax:
+    content: public Int32FieldInfo MaxLength { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property MaxLength As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.MaxLength*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.Access
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.Access
+  id: Access
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Access
+  nameWithType: ErpFieldTableInfo.Access
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.Access
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;Access&apos; in table &apos;ErpField&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.FieldAccess\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nAccess restrictions for the field\n"
+  syntax:
+    content: public FieldAccessFieldInfo Access { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldAccessFieldInfo
+    content.vb: Public ReadOnly Property Access As FieldAccessFieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.Access*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.HasFirstSyncDefaultValue
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.HasFirstSyncDefaultValue
+  id: HasFirstSyncDefaultValue
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: HasFirstSyncDefaultValue
+  nameWithType: ErpFieldTableInfo.HasFirstSyncDefaultValue
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.HasFirstSyncDefaultValue
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;HasFirstSyncDefaultValue&apos; in table &apos;ErpField&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nShould a default value be set on first sync\n"
+  syntax:
+    content: public UInt16FieldInfo HasFirstSyncDefaultValue { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property HasFirstSyncDefaultValue As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.HasFirstSyncDefaultValue*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.FirstSyncDefaultValue
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.FirstSyncDefaultValue
+  id: FirstSyncDefaultValue
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FirstSyncDefaultValue
+  nameWithType: ErpFieldTableInfo.FirstSyncDefaultValue
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.FirstSyncDefaultValue
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;FirstSyncDefaultValue&apos; in table &apos;ErpField&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe default value to be set, can be blank\n"
+  syntax:
+    content: public StringFieldInfo FirstSyncDefaultValue { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property FirstSyncDefaultValue As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.FirstSyncDefaultValue*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.PromptUser
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.PromptUser
+  id: PromptUser
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: PromptUser
+  nameWithType: ErpFieldTableInfo.PromptUser
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.PromptUser
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;PromptUser&apos; in table &apos;ErpField&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nShould the field be shown in the first-sync GUI; independent of whether a default value should be set\n"
+  syntax:
+    content: public UInt16FieldInfo PromptUser { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property PromptUser As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.PromptUser*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.Mandatory
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.Mandatory
+  id: Mandatory
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Mandatory
+  nameWithType: ErpFieldTableInfo.Mandatory
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.Mandatory
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;Mandatory&apos; in table &apos;ErpField&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nShould the user be forced to set a value (the Erp Connector may declare fields mandatory as well)\n"
+  syntax:
+    content: public UInt16FieldInfo Mandatory { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property Mandatory As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.Mandatory*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.CrmFieldKey
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.CrmFieldKey
+  id: CrmFieldKey
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CrmFieldKey
+  nameWithType: ErpFieldTableInfo.CrmFieldKey
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.CrmFieldKey
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;CrmFieldKey&apos; in table &apos;ErpField&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe CRM field name, as implemented by the Sync entities\n"
+  syntax:
+    content: public StringFieldInfo CrmFieldKey { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property CrmFieldKey As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.CrmFieldKey*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.SyncToCrm
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.SyncToCrm
+  id: SyncToCrm
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SyncToCrm
+  nameWithType: ErpFieldTableInfo.SyncToCrm
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.SyncToCrm
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;SyncToCrm&apos; in table &apos;ErpField&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nShould value changes in ERP be automatically transferred to CRM\n"
+  syntax:
+    content: public UInt16FieldInfo SyncToCrm { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property SyncToCrm As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.SyncToCrm*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.SyncToErp
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.SyncToErp
+  id: SyncToErp
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SyncToErp
+  nameWithType: ErpFieldTableInfo.SyncToErp
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.SyncToErp
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;SyncToErp&apos; in table &apos;ErpField&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nShould value changes in CRM be automatically transferred to ERP\n"
+  syntax:
+    content: public UInt16FieldInfo SyncToErp { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property SyncToErp As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.SyncToErp*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.ShowInGui
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.ShowInGui
+  id: ShowInGui
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ShowInGui
+  nameWithType: ErpFieldTableInfo.ShowInGui
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.ShowInGui
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;ShowInGui&apos; in table &apos;ErpField&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nShould this field be shown as a (read-only!) field in the CRM Gui\n"
+  syntax:
+    content: public UInt16FieldInfo ShowInGui { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property ShowInGui As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.ShowInGui*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.ShowInSearch
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.ShowInSearch
+  id: ShowInSearch
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ShowInSearch
+  nameWithType: ErpFieldTableInfo.ShowInSearch
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.ShowInSearch
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;ShowInSearch&apos; in table &apos;ErpField&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nShould this field be shown in searches\n"
+  syntax:
+    content: public UInt16FieldInfo ShowInSearch { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property ShowInSearch As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.ShowInSearch*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.Rank
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: ErpFieldTableInfo.Rank
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.Rank
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;Rank&apos; in table &apos;ErpField&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRank order of lines in GUI, relevant if ShowInGui is true\n"
+  syntax:
+    content: public Int32FieldInfo Rank { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property Rank As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.Rank*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.ListReference
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.ListReference
+  id: ListReference
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ListReference
+  nameWithType: ErpFieldTableInfo.ListReference
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.ListReference
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;ListReference&apos; in table &apos;ErpField&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nReference to CRM list, if a mapping exists. Format: table=&lt;table name>[&amp;&lt;extra id>=&lt;value>], to make it independent of actual table numbers\n"
+  syntax:
+    content: public StringFieldInfo ListReference { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property ListReference As StringFieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.ListReference*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.MissingInERP
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.MissingInERP
+  id: MissingInERP
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: MissingInERP
+  nameWithType: ErpFieldTableInfo.MissingInERP
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.MissingInERP
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;MissingInERP&apos; in table &apos;ErpField&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSet to true if this field has previously been defined, but was no longer in the &apos;supported fields&apos; response from the connector. This typically happens if the target ERP system changes, and means the field needs to be unmapped.\n"
+  syntax:
+    content: public UInt16FieldInfo MissingInERP { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property MissingInERP As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.MissingInERP*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.Registered
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: ErpFieldTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.Registered
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;registered&apos; in table &apos;ErpField&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered when\n"
+  syntax:
+    content: public DateTimeFieldInfo Registered { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Registered As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.Registered*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: ErpFieldTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.RegisteredAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;registered_associate_id&apos; in table &apos;ErpField&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
+  syntax:
+    content: public Int32FieldInfo RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property RegisteredAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.Updated
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: ErpFieldTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.Updated
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updated&apos; in table &apos;ErpField&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated when\n"
+  syntax:
+    content: public DateTimeFieldInfo Updated { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Updated As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.Updated*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: ErpFieldTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.UpdatedAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updated_associate_id&apos; in table &apos;ErpField&apos;: Dictionary type FK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
+  syntax:
+    content: public Int32FieldInfo UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property UpdatedAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.UpdatedAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.UpdatedCount
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: ErpFieldTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.UpdatedCount
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;updatedCount&apos; in table &apos;ErpField&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of updates made to this record\n"
+  syntax:
+    content: public UInt16FieldInfo UpdatedCount { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.UpdatedCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.ErpConnectionActorTypeId_InnerJoin_ErpConnectionActorType
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.ErpConnectionActorTypeId_InnerJoin_ErpConnectionActorType
+  id: ErpConnectionActorTypeId_InnerJoin_ErpConnectionActorType
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectionActorTypeId_InnerJoin_ErpConnectionActorType
+  nameWithType: ErpFieldTableInfo.ErpConnectionActorTypeId_InnerJoin_ErpConnectionActorType
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.ErpConnectionActorTypeId_InnerJoin_ErpConnectionActorType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key ErpConnectionActorTypeId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.ErpConnectionActorTypeTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<ErpConnectionActorTypeTableInfo> ErpConnectionActorTypeId_InnerJoin_ErpConnectionActorType { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ErpConnectionActorTypeTableInfo}
+    content.vb: Public ReadOnly Property ErpConnectionActorTypeId_InnerJoin_ErpConnectionActorType As TargetedInnerJoin(Of ErpConnectionActorTypeTableInfo)
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.ErpConnectionActorTypeId_InnerJoin_ErpConnectionActorType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  id: RegisteredAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: ErpFieldTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> RegisteredAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property RegisteredAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  id: UpdatedAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: ErpFieldTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> UpdatedAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property UpdatedAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.LeftOuterJoin_ErpListItemMapping_ErpFieldId
+  commentId: P:SuperOffice.CRM.Data.ErpFieldTableInfo.LeftOuterJoin_ErpListItemMapping_ErpFieldId
+  id: LeftOuterJoin_ErpListItemMapping_ErpFieldId
+  parent: SuperOffice.CRM.Data.ErpFieldTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_ErpListItemMapping_ErpFieldId
+  nameWithType: ErpFieldTableInfo.LeftOuterJoin_ErpListItemMapping_ErpFieldId
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.LeftOuterJoin_ErpListItemMapping_ErpFieldId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nGenerated left outer join from the primary key ErpFieldId on this table, to ErpListItemMapping.<xref href=\"SuperOffice.CRM.Data.ErpListItemMappingTableInfo.ErpFieldId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public TargetedLeftOuterJoin<ErpListItemMappingTableInfo> LeftOuterJoin_ErpListItemMapping_ErpFieldId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ErpListItemMappingTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_ErpListItemMapping_ErpFieldId As TargetedLeftOuterJoin(Of ErpListItemMappingTableInfo)
+  overload: SuperOffice.CRM.Data.ErpFieldTableInfo.LeftOuterJoin_ErpListItemMapping_ErpFieldId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: SuperOffice.Data.SQL.TableInfo.ToString
+  commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ToString()
+  nameWithType: TableInfo.ToString()
+  fullName: SuperOffice.Data.SQL.TableInfo.ToString()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: RegisterFields(FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(FieldInfo())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FieldInfoFromSoField(SoField)
+  nameWithType: TableInfo.FieldInfoFromSoField(SoField)
+  fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.Clone
+  commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Clone()
+  nameWithType: TableInfo.Clone()
+  fullName: SuperOffice.Data.SQL.TableInfo.Clone()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsSameTable(TableInfo)
+  nameWithType: TableInfo.IsSameTable(TableInfo)
+  fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: FindField(String)
+  nameWithType: TableInfo.FindField(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
+  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: ProtAll
+  nameWithType: TableInfo.ProtAll
+  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+- uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: HashCheckFields
+  nameWithType: TableInfo.HashCheckFields
+  fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+- uid: SuperOffice.Data.SQL.TableInfo.TableName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: TableName
+  nameWithType: TableInfo.TableName
+  fullName: SuperOffice.Data.SQL.TableInfo.TableName
+- uid: SuperOffice.Data.SQL.TableInfo.DbName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: DbName
+  nameWithType: TableInfo.DbName
+  fullName: SuperOffice.Data.SQL.TableInfo.DbName
+- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: IsDictionaryTable
+  nameWithType: TableInfo.IsDictionaryTable
+  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+- uid: SuperOffice.Data.SQL.TableInfo.All
+  commentId: P:SuperOffice.Data.SQL.TableInfo.All
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: All
+  nameWithType: TableInfo.All
+  fullName: SuperOffice.Data.SQL.TableInfo.All
+- uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Item[String]
+  nameWithType: TableInfo.Item[String]
+  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
+  nameWithType.vb: TableInfo.Item(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  name.vb: Item(String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: PrimaryKeyField
+  nameWithType: TableInfo.PrimaryKeyField
+  fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ErpFieldTableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<ErpFieldTableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.ErpFieldTableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ErpFieldTableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.ErpFieldTableInfo, To)()
+  name.vb: MapEnums(Of ErpFieldTableInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ErpFieldTableInfo, To>
+    nameWithType: EnumUtil.MapEnums<ErpFieldTableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.ErpFieldTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ErpFieldTableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of ErpFieldTableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.ErpFieldTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ErpFieldTableInfo, To>()
+  nameWithType: Converters.MapEnums<ErpFieldTableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.ErpFieldTableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of ErpFieldTableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.ErpFieldTableInfo, To)()
+  name.vb: MapEnums(Of ErpFieldTableInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ErpFieldTableInfo, To>
+    nameWithType: Converters.MapEnums<ErpFieldTableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.ErpFieldTableInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ErpFieldTableInfo, To)
+    nameWithType: Converters.MapEnums(Of ErpFieldTableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.ErpFieldTableInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.IdxErpConnectionActorTypeId*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.IdxErpConnectionActorTypeId
+  isExternal: true
+  name: IdxErpConnectionActorTypeId
+  nameWithType: ErpFieldTableInfo.IdxErpConnectionActorTypeId
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.IdxErpConnectionActorTypeId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.SQL.Restriction
+  commentId: T:SuperOffice.Data.SQL.Restriction
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Restriction
+  nameWithType: Restriction
+  fullName: SuperOffice.Data.SQL.Restriction
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.DictionaryTableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.DictionaryTableNumber
+  isExternal: true
+  name: DictionaryTableNumber
+  nameWithType: ErpFieldTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.DictionaryTableNumber
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.RuntimeDefinition*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.RuntimeDefinition
+  isExternal: true
+  name: RuntimeDefinition
+  nameWithType: ErpFieldTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.RuntimeDefinition
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: SuperOffice.Data.SQL.TableInfo.Definition
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  name: Definition
+  nameWithType: TableInfo.Definition
+  fullName: SuperOffice.Data.SQL.TableInfo.Definition
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.Definition*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.Definition
+  isExternal: true
+  name: Definition
+  nameWithType: ErpFieldTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.Definition
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.ErpFieldId*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.ErpFieldId
+  isExternal: true
+  name: ErpFieldId
+  nameWithType: ErpFieldTableInfo.ErpFieldId
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.ErpFieldId
+- uid: SuperOffice.Data.SQL.Int32FieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Int32FieldInfo
+  nameWithType: Int32FieldInfo
+  fullName: SuperOffice.Data.SQL.Int32FieldInfo
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.ErpConnectionActorTypeId*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.ErpConnectionActorTypeId
+  isExternal: true
+  name: ErpConnectionActorTypeId
+  nameWithType: ErpFieldTableInfo.ErpConnectionActorTypeId
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.ErpConnectionActorTypeId
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.ErpFieldKey*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.ErpFieldKey
+  isExternal: true
+  name: ErpFieldKey
+  nameWithType: ErpFieldTableInfo.ErpFieldKey
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.ErpFieldKey
+- uid: SuperOffice.Data.SQL.StringFieldInfo
+  commentId: T:SuperOffice.Data.SQL.StringFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: StringFieldInfo
+  nameWithType: StringFieldInfo
+  fullName: SuperOffice.Data.SQL.StringFieldInfo
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.DisplayName*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.DisplayName
+  isExternal: true
+  name: DisplayName
+  nameWithType: ErpFieldTableInfo.DisplayName
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.DisplayName
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.DisplayDescription*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.DisplayDescription
+  isExternal: true
+  name: DisplayDescription
+  nameWithType: ErpFieldTableInfo.DisplayDescription
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.DisplayDescription
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.FieldType*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.FieldType
+  isExternal: true
+  name: FieldType
+  nameWithType: ErpFieldTableInfo.FieldType
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.FieldType
+- uid: SuperOffice.Data.SQL.FieldMetadataTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldMetadataTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldMetadataTypeFieldInfo
+  nameWithType: FieldMetadataTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.FieldMetadataTypeFieldInfo
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.ListName*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.ListName
+  isExternal: true
+  name: ListName
+  nameWithType: ErpFieldTableInfo.ListName
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.ListName
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.DefaultValue*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.DefaultValue
+  isExternal: true
+  name: DefaultValue
+  nameWithType: ErpFieldTableInfo.DefaultValue
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.DefaultValue
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.MaxLength*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.MaxLength
+  isExternal: true
+  name: MaxLength
+  nameWithType: ErpFieldTableInfo.MaxLength
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.MaxLength
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.Access*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.Access
+  isExternal: true
+  name: Access
+  nameWithType: ErpFieldTableInfo.Access
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.Access
+- uid: SuperOffice.Data.SQL.FieldAccessFieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldAccessFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldAccessFieldInfo
+  nameWithType: FieldAccessFieldInfo
+  fullName: SuperOffice.Data.SQL.FieldAccessFieldInfo
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.HasFirstSyncDefaultValue*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.HasFirstSyncDefaultValue
+  isExternal: true
+  name: HasFirstSyncDefaultValue
+  nameWithType: ErpFieldTableInfo.HasFirstSyncDefaultValue
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.HasFirstSyncDefaultValue
+- uid: SuperOffice.Data.SQL.UInt16FieldInfo
+  commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: UInt16FieldInfo
+  nameWithType: UInt16FieldInfo
+  fullName: SuperOffice.Data.SQL.UInt16FieldInfo
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.FirstSyncDefaultValue*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.FirstSyncDefaultValue
+  isExternal: true
+  name: FirstSyncDefaultValue
+  nameWithType: ErpFieldTableInfo.FirstSyncDefaultValue
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.FirstSyncDefaultValue
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.PromptUser*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.PromptUser
+  isExternal: true
+  name: PromptUser
+  nameWithType: ErpFieldTableInfo.PromptUser
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.PromptUser
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.Mandatory*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.Mandatory
+  isExternal: true
+  name: Mandatory
+  nameWithType: ErpFieldTableInfo.Mandatory
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.Mandatory
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.CrmFieldKey*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.CrmFieldKey
+  isExternal: true
+  name: CrmFieldKey
+  nameWithType: ErpFieldTableInfo.CrmFieldKey
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.CrmFieldKey
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.SyncToCrm*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.SyncToCrm
+  isExternal: true
+  name: SyncToCrm
+  nameWithType: ErpFieldTableInfo.SyncToCrm
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.SyncToCrm
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.SyncToErp*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.SyncToErp
+  isExternal: true
+  name: SyncToErp
+  nameWithType: ErpFieldTableInfo.SyncToErp
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.SyncToErp
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.ShowInGui*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.ShowInGui
+  isExternal: true
+  name: ShowInGui
+  nameWithType: ErpFieldTableInfo.ShowInGui
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.ShowInGui
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.ShowInSearch*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.ShowInSearch
+  isExternal: true
+  name: ShowInSearch
+  nameWithType: ErpFieldTableInfo.ShowInSearch
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.ShowInSearch
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.Rank*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: ErpFieldTableInfo.Rank
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.Rank
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.ListReference*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.ListReference
+  isExternal: true
+  name: ListReference
+  nameWithType: ErpFieldTableInfo.ListReference
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.ListReference
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.MissingInERP*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.MissingInERP
+  isExternal: true
+  name: MissingInERP
+  nameWithType: ErpFieldTableInfo.MissingInERP
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.MissingInERP
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.Registered*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: ErpFieldTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.Registered
+- uid: SuperOffice.Data.SQL.DateTimeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: DateTimeFieldInfo
+  nameWithType: DateTimeFieldInfo
+  fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.RegisteredAssociateId
+  isExternal: true
+  name: RegisteredAssociateId
+  nameWithType: ErpFieldTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.Updated*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: ErpFieldTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.Updated
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.UpdatedAssociateId
+  isExternal: true
+  name: UpdatedAssociateId
+  nameWithType: ErpFieldTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.UpdatedCount*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.UpdatedCount
+  isExternal: true
+  name: UpdatedCount
+  nameWithType: ErpFieldTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.UpdatedCount
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.ErpConnectionActorTypeId_InnerJoin_ErpConnectionActorType*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.ErpConnectionActorTypeId_InnerJoin_ErpConnectionActorType
+  isExternal: true
+  name: ErpConnectionActorTypeId_InnerJoin_ErpConnectionActorType
+  nameWithType: ErpFieldTableInfo.ErpConnectionActorTypeId_InnerJoin_ErpConnectionActorType
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.ErpConnectionActorTypeId_InnerJoin_ErpConnectionActorType
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ErpConnectionActorTypeTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ErpConnectionActorTypeTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<ErpConnectionActorTypeTableInfo>
+  nameWithType: TargetedInnerJoin<ErpConnectionActorTypeTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.ErpConnectionActorTypeTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of ErpConnectionActorTypeTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.ErpConnectionActorTypeTableInfo)
+  name.vb: TargetedInnerJoin(Of ErpConnectionActorTypeTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.ErpConnectionActorTypeTableInfo
+    name: ErpConnectionActorTypeTableInfo
+    nameWithType: ErpConnectionActorTypeTableInfo
+    fullName: SuperOffice.CRM.Data.ErpConnectionActorTypeTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.ErpConnectionActorTypeTableInfo
+    name: ErpConnectionActorTypeTableInfo
+    nameWithType: ErpConnectionActorTypeTableInfo
+    fullName: SuperOffice.CRM.Data.ErpConnectionActorTypeTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
+  isExternal: true
+  name: TargetedInnerJoin<TargetTableInfo>
+  nameWithType: TargetedInnerJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of TargetTableInfo)
+  name.vb: TargetedInnerJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  isExternal: true
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: ErpFieldTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.RegisteredAssociateId_InnerJoin_Associate
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  name: TargetedInnerJoin<AssociateTableInfo>
+  nameWithType: TargetedInnerJoin<AssociateTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.AssociateTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.AssociateTableInfo)
+  name.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  isExternal: true
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: ErpFieldTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.UpdatedAssociateId_InnerJoin_Associate
+- uid: SuperOffice.CRM.Data.ErpFieldTableInfo.LeftOuterJoin_ErpListItemMapping_ErpFieldId*
+  commentId: Overload:SuperOffice.CRM.Data.ErpFieldTableInfo.LeftOuterJoin_ErpListItemMapping_ErpFieldId
+  isExternal: true
+  name: LeftOuterJoin_ErpListItemMapping_ErpFieldId
+  nameWithType: ErpFieldTableInfo.LeftOuterJoin_ErpListItemMapping_ErpFieldId
+  fullName: SuperOffice.CRM.Data.ErpFieldTableInfo.LeftOuterJoin_ErpListItemMapping_ErpFieldId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ErpListItemMappingTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ErpListItemMappingTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  name: TargetedLeftOuterJoin<ErpListItemMappingTableInfo>
+  nameWithType: TargetedLeftOuterJoin<ErpListItemMappingTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.ErpListItemMappingTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of ErpListItemMappingTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.ErpListItemMappingTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of ErpListItemMappingTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.ErpListItemMappingTableInfo
+    name: ErpListItemMappingTableInfo
+    nameWithType: ErpListItemMappingTableInfo
+    fullName: SuperOffice.CRM.Data.ErpListItemMappingTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.ErpListItemMappingTableInfo
+    name: ErpListItemMappingTableInfo
+    nameWithType: ErpListItemMappingTableInfo
+    fullName: SuperOffice.CRM.Data.ErpListItemMappingTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  isExternal: true
+  name: TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of TargetTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
+  - name: )
+    nameWithType: )
+    fullName: )

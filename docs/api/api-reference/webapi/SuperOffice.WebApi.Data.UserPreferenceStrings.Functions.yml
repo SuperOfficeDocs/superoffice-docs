@@ -1,0 +1,1418 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  id: UserPreferenceStrings.Functions
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.AcademicTitle
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.AskToEditOrRead
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.AutoLoadLimitInArchive
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.BlankApptClick
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.CapitalFirstLetterCompanyName
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.CapitalFirstLetterPersonName
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DefaultMailClientCookie
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableContactDogEar
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableDelKey
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableDuplicateCheckContact
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableDuplicateCheckProject
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableDuplicateCheckSelection
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableSoundExCheckContact
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableSoundExCheckProject
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableSoundExCheckSelection
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisplayDateFormatInLists
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.EditIfVisible
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.EnableLocalRendererInArchive
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.FilterBookingSlaves
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ForceConfirmation
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.GetAdvanceDays
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.HideCounterInArchiveFooter
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.HomeContact
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.IdAllocationBatchSize
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.InternetUseIntegratedBrowser
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.JoinPilotForWebTools
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.LanguageCookie
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.LanguageUICookie
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.MandatoryContactOnPerson
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.MandatoryContactOnPerson_HardDefault
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.PastDateAlert
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.PeriodicCheckInterval
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.RemoveInvitationDuplicates
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.SaintRankDuplicateContacts
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.Section
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowAllPhoneNumbers
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowChangeCompanyWarning
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowInviteDlgFromView
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowProgressInfo
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowTipNumber
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowTipsAtStart
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.SoCrm75SR1FirstUseCookie
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ThreeStateStatusCheckbox
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.UseCaseOnTemplateVariables
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.UseMiddleName
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.Functions
+  nameWithType: UserPreferenceStrings.Functions
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFunctions\n"
+  syntax:
+    content: 'public static class Functions : Object'
+    content.vb: >-
+      Public Module Functions
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.Functions.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "Functions"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "Functions"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ThreeStateStatusCheckbox
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ThreeStateStatusCheckbox
+  id: ThreeStateStatusCheckbox
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: ThreeStateStatusCheckbox
+  nameWithType: UserPreferenceStrings.Functions.ThreeStateStatusCheckbox
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ThreeStateStatusCheckbox
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string ThreeStateStatusCheckbox = "3StateStatusCheckbox"
+    return:
+      type: System.String
+    content.vb: Public Const ThreeStateStatusCheckbox As String = "3StateStatusCheckbox"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.AcademicTitle
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.AcademicTitle
+  id: AcademicTitle
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: AcademicTitle
+  nameWithType: UserPreferenceStrings.Functions.AcademicTitle
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.AcademicTitle
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUse academic title for persons. (Default = NO)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string AcademicTitle = "AcademicTitle"
+    return:
+      type: System.String
+    content.vb: Public Const AcademicTitle As String = "AcademicTitle"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.BlankApptClick
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.BlankApptClick
+  id: BlankApptClick
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: BlankApptClick
+  nameWithType: UserPreferenceStrings.Functions.BlankApptClick
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.BlankApptClick
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSpecifies the type of activity to create when you double-click on a blank line in the Activities section tab in the Company or Project screens.\n<p></p>Control type: List, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string BlankApptClick = "BlankApptClick"
+    return:
+      type: System.String
+    content.vb: Public Const BlankApptClick As String = "BlankApptClick"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.CapitalFirstLetterCompanyName
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.CapitalFirstLetterCompanyName
+  id: CapitalFirstLetterCompanyName
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: CapitalFirstLetterCompanyName
+  nameWithType: UserPreferenceStrings.Functions.CapitalFirstLetterCompanyName
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.CapitalFirstLetterCompanyName
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the first letter in every word in the company name automatically be converted to a capital letter? (Default = YES)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string CapitalFirstLetterCompanyName = "CapitalFirstLetterCompanyName"
+    return:
+      type: System.String
+    content.vb: Public Const CapitalFirstLetterCompanyName As String = "CapitalFirstLetterCompanyName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.CapitalFirstLetterPersonName
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.CapitalFirstLetterPersonName
+  id: CapitalFirstLetterPersonName
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: CapitalFirstLetterPersonName
+  nameWithType: UserPreferenceStrings.Functions.CapitalFirstLetterPersonName
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.CapitalFirstLetterPersonName
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the first letter in every word in the contact name automatically be converted to a capital letter? (Default = YES)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string CapitalFirstLetterPersonName = "CapitalFirstLetterPersonName"
+    return:
+      type: System.String
+    content.vb: Public Const CapitalFirstLetterPersonName As String = "CapitalFirstLetterPersonName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableContactDogEar
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableContactDogEar
+  id: DisableContactDogEar
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: DisableContactDogEar
+  nameWithType: UserPreferenceStrings.Functions.DisableContactDogEar
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableContactDogEar
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRemoves the corner tabs on the Company card if there are too many companies - i.e. more than this number\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string DisableContactDogEar = "DisableContactDogEar"
+    return:
+      type: System.String
+    content.vb: Public Const DisableContactDogEar As String = "DisableContactDogEar"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableDelKey
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableDelKey
+  id: DisableDelKey
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: DisableDelKey
+  nameWithType: UserPreferenceStrings.Functions.DisableDelKey
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableDelKey
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf YES, the user has to use the menu in order to delete a company, project or selection (Default = YES).\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string DisableDelKey = "DisableDelKey"
+    return:
+      type: System.String
+    content.vb: Public Const DisableDelKey As String = "DisableDelKey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisplayDateFormatInLists
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisplayDateFormatInLists
+  id: DisplayDateFormatInLists
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: DisplayDateFormatInLists
+  nameWithType: UserPreferenceStrings.Functions.DisplayDateFormatInLists
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisplayDateFormatInLists
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSpecifies the date format used in section tabs in CRM (ex. dd.mm.yyyy hh:mm). (Default: computer&apos;s regional settings for short date format.)\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string DisplayDateFormatInLists = "DisplayDateFormatInLists"
+    return:
+      type: System.String
+    content.vb: Public Const DisplayDateFormatInLists As String = "DisplayDateFormatInLists"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.EditIfVisible
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.EditIfVisible
+  id: EditIfVisible
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: EditIfVisible
+  nameWithType: UserPreferenceStrings.Functions.EditIfVisible
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.EditIfVisible
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAllows other users to add and remove members from any selection visible to the user\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string EditIfVisible = "EditIfVisible"
+    return:
+      type: System.String
+    content.vb: Public Const EditIfVisible As String = "EditIfVisible"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.FilterBookingSlaves
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.FilterBookingSlaves
+  id: FilterBookingSlaves
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: FilterBookingSlaves
+  nameWithType: UserPreferenceStrings.Functions.FilterBookingSlaves
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.FilterBookingSlaves
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFilter out invitations for everyone except the person making the invitation, to avoid duplicates in the list.\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string FilterBookingSlaves = "FilterBookingSlaves"
+    return:
+      type: System.String
+    content.vb: Public Const FilterBookingSlaves As String = "FilterBookingSlaves"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ForceConfirmation
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ForceConfirmation
+  id: ForceConfirmation
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: ForceConfirmation
+  nameWithType: UserPreferenceStrings.Functions.ForceConfirmation
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ForceConfirmation
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAlways displays confirmation dialog when deleting\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string ForceConfirmation = "ForceConfirmation"
+    return:
+      type: System.String
+    content.vb: Public Const ForceConfirmation As String = "ForceConfirmation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.GetAdvanceDays
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.GetAdvanceDays
+  id: GetAdvanceDays
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: GetAdvanceDays
+  nameWithType: UserPreferenceStrings.Functions.GetAdvanceDays
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.GetAdvanceDays
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of days ahead to display tasks in the checklist. Default is 21 days\n<p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string GetAdvanceDays = "GetAdvanceDays"
+    return:
+      type: System.String
+    content.vb: Public Const GetAdvanceDays As String = "GetAdvanceDays"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.HomeContact
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.HomeContact
+  id: HomeContact
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: HomeContact
+  nameWithType: UserPreferenceStrings.Functions.HomeContact
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.HomeContact
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhich contact is displayed when you click on Hugo (the owl in the Navigator)\n<p></p>Control type: ContactId, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string HomeContact = "HomeContact"
+    return:
+      type: System.String
+    content.vb: Public Const HomeContact As String = "HomeContact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.InternetUseIntegratedBrowser
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.InternetUseIntegratedBrowser
+  id: InternetUseIntegratedBrowser
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: InternetUseIntegratedBrowser
+  nameWithType: UserPreferenceStrings.Functions.InternetUseIntegratedBrowser
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.InternetUseIntegratedBrowser
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUses the internal CRM browser when clicking a URL within CRM. Default is Yes. If you set this preference to No, your computer&apos;s default browser will be used instead.\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string InternetUseIntegratedBrowser = "InternetUseIntegratedBrowser"
+    return:
+      type: System.String
+    content.vb: Public Const InternetUseIntegratedBrowser As String = "InternetUseIntegratedBrowser"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.PastDateAlert
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.PastDateAlert
+  id: PastDateAlert
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: PastDateAlert
+  nameWithType: UserPreferenceStrings.Functions.PastDateAlert
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.PastDateAlert
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMarks overdue activities in section tabs (Default = YES)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string PastDateAlert = "PastDateAlert"
+    return:
+      type: System.String
+    content.vb: Public Const PastDateAlert As String = "PastDateAlert"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.PeriodicCheckInterval
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.PeriodicCheckInterval
+  id: PeriodicCheckInterval
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: PeriodicCheckInterval
+  nameWithType: UserPreferenceStrings.Functions.PeriodicCheckInterval
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.PeriodicCheckInterval
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHow often (in minutes) should CRM check the database for new invitations etc.\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string PeriodicCheckInterval = "PeriodicCheckInterval"
+    return:
+      type: System.String
+    content.vb: Public Const PeriodicCheckInterval As String = "PeriodicCheckInterval"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.RemoveInvitationDuplicates
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.RemoveInvitationDuplicates
+  id: RemoveInvitationDuplicates
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: RemoveInvitationDuplicates
+  nameWithType: UserPreferenceStrings.Functions.RemoveInvitationDuplicates
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.RemoveInvitationDuplicates
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis ensures that invitations are displayed only once in the Activities section tab in CRM (Default = YES).\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string RemoveInvitationDuplicates = "RemoveInvitationDuplicates"
+    return:
+      type: System.String
+    content.vb: Public Const RemoveInvitationDuplicates As String = "RemoveInvitationDuplicates"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowAllPhoneNumbers
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowAllPhoneNumbers
+  id: ShowAllPhoneNumbers
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: ShowAllPhoneNumbers
+  nameWithType: UserPreferenceStrings.Functions.ShowAllPhoneNumbers
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowAllPhoneNumbers
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAllows the option of adding several phone numbers of the same type (e.g. mobile phone) in the Contact dialog. (Default = NO).\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string ShowAllPhoneNumbers = "ShowAllPhoneNumbers"
+    return:
+      type: System.String
+    content.vb: Public Const ShowAllPhoneNumbers As String = "ShowAllPhoneNumbers"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowInviteDlgFromView
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowInviteDlgFromView
+  id: ShowInviteDlgFromView
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: ShowInviteDlgFromView
+  nameWithType: UserPreferenceStrings.Functions.ShowInviteDlgFromView
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowInviteDlgFromView
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould CRM automatically display the Invitation dialog when creating an activity from the diary view. (Default = NO).\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string ShowInviteDlgFromView = "ShowInviteDlgFromView"
+    return:
+      type: System.String
+    content.vb: Public Const ShowInviteDlgFromView As String = "ShowInviteDlgFromView"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowTipNumber
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowTipNumber
+  id: ShowTipNumber
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: ShowTipNumber
+  nameWithType: UserPreferenceStrings.Functions.ShowTipNumber
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowTipNumber
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNext tip of the day to be displayed.\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string ShowTipNumber = "ShowTipNumber"
+    return:
+      type: System.String
+    content.vb: Public Const ShowTipNumber As String = "ShowTipNumber"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowTipsAtStart
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowTipsAtStart
+  id: ShowTipsAtStart
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: ShowTipsAtStart
+  nameWithType: UserPreferenceStrings.Functions.ShowTipsAtStart
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowTipsAtStart
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould a tip of the day be displayed every time a user logs in to SuperOffice. (Default = YES)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string ShowTipsAtStart = "ShowTipsAtStart"
+    return:
+      type: System.String
+    content.vb: Public Const ShowTipsAtStart As String = "ShowTipsAtStart"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.UseCaseOnTemplateVariables
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.UseCaseOnTemplateVariables
+  id: UseCaseOnTemplateVariables
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: UseCaseOnTemplateVariables
+  nameWithType: UserPreferenceStrings.Functions.UseCaseOnTemplateVariables
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.UseCaseOnTemplateVariables
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe template variables used in, for instance, documents and addresses are output in lower case and get the text exactly as stored in the database by default. Setting this preference will change the text to uppercase for all or just the first letter, depending how the template variable is input. (Default: No).\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string UseCaseOnTemplateVariables = "UseCaseOnTemplateVariables"
+    return:
+      type: System.String
+    content.vb: Public Const UseCaseOnTemplateVariables As String = "UseCaseOnTemplateVariables"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.UseMiddleName
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.UseMiddleName
+  id: UseMiddleName
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: UseMiddleName
+  nameWithType: UserPreferenceStrings.Functions.UseMiddleName
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.UseMiddleName
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnables the use of middle names in the Contact dialog\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string UseMiddleName = "UseMiddleName"
+    return:
+      type: System.String
+    content.vb: Public Const UseMiddleName As String = "UseMiddleName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowProgressInfo
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowProgressInfo
+  id: ShowProgressInfo
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: ShowProgressInfo
+  nameWithType: UserPreferenceStrings.Functions.ShowProgressInfo
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowProgressInfo
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould a progress dialog be displayed on the Travel Gateway when active tasks are running? (Default = YES)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string ShowProgressInfo = "ShowProgressInfo"
+    return:
+      type: System.String
+    content.vb: Public Const ShowProgressInfo As String = "ShowProgressInfo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.IdAllocationBatchSize
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.IdAllocationBatchSize
+  id: IdAllocationBatchSize
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: IdAllocationBatchSize
+  nameWithType: UserPreferenceStrings.Functions.IdAllocationBatchSize
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.IdAllocationBatchSize
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHow many records should be inserted into the database during an import before they are committed?\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string IdAllocationBatchSize = "IdAllocationBatchSize"
+    return:
+      type: System.String
+    content.vb: Public Const IdAllocationBatchSize As String = "IdAllocationBatchSize"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableSoundExCheckContact
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableSoundExCheckContact
+  id: DisableSoundExCheckContact
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: DisableSoundExCheckContact
+  nameWithType: UserPreferenceStrings.Functions.DisableSoundExCheckContact
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableSoundExCheckContact
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould duplicate checking for contact by soundex value be disabled\n"
+  syntax:
+    content: public const string DisableSoundExCheckContact = "DisableSoundexCheckContact"
+    return:
+      type: System.String
+    content.vb: Public Const DisableSoundExCheckContact As String = "DisableSoundexCheckContact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableSoundExCheckProject
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableSoundExCheckProject
+  id: DisableSoundExCheckProject
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: DisableSoundExCheckProject
+  nameWithType: UserPreferenceStrings.Functions.DisableSoundExCheckProject
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableSoundExCheckProject
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould duplicate checking for project by soundex value be disabled\n"
+  syntax:
+    content: public const string DisableSoundExCheckProject = "DisableSoundExCheckProject"
+    return:
+      type: System.String
+    content.vb: Public Const DisableSoundExCheckProject As String = "DisableSoundExCheckProject"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableSoundExCheckSelection
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableSoundExCheckSelection
+  id: DisableSoundExCheckSelection
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: DisableSoundExCheckSelection
+  nameWithType: UserPreferenceStrings.Functions.DisableSoundExCheckSelection
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableSoundExCheckSelection
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould duplicate checking for selection by soundex value be disabled\n"
+  syntax:
+    content: public const string DisableSoundExCheckSelection = "DisableSoundExCheckSelection"
+    return:
+      type: System.String
+    content.vb: Public Const DisableSoundExCheckSelection As String = "DisableSoundExCheckSelection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableDuplicateCheckContact
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableDuplicateCheckContact
+  id: DisableDuplicateCheckContact
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: DisableDuplicateCheckContact
+  nameWithType: UserPreferenceStrings.Functions.DisableDuplicateCheckContact
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableDuplicateCheckContact
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould duplicate checking for contact by exact match be disabled\n"
+  syntax:
+    content: public const string DisableDuplicateCheckContact = "DisableDuplicateCheckContact"
+    return:
+      type: System.String
+    content.vb: Public Const DisableDuplicateCheckContact As String = "DisableDuplicateCheckContact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableDuplicateCheckProject
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableDuplicateCheckProject
+  id: DisableDuplicateCheckProject
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: DisableDuplicateCheckProject
+  nameWithType: UserPreferenceStrings.Functions.DisableDuplicateCheckProject
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableDuplicateCheckProject
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould duplicate checking for project by exact match be disabled\n"
+  syntax:
+    content: public const string DisableDuplicateCheckProject = "DisableDuplicateCheckProject"
+    return:
+      type: System.String
+    content.vb: Public Const DisableDuplicateCheckProject As String = "DisableDuplicateCheckProject"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableDuplicateCheckSelection
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableDuplicateCheckSelection
+  id: DisableDuplicateCheckSelection
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: DisableDuplicateCheckSelection
+  nameWithType: UserPreferenceStrings.Functions.DisableDuplicateCheckSelection
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DisableDuplicateCheckSelection
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould duplicate checking for selection exact match be disabled\n"
+  syntax:
+    content: public const string DisableDuplicateCheckSelection = "DisableDuplicateCheckSelection"
+    return:
+      type: System.String
+    content.vb: Public Const DisableDuplicateCheckSelection As String = "DisableDuplicateCheckSelection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.SaintRankDuplicateContacts
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.SaintRankDuplicateContacts
+  id: SaintRankDuplicateContacts
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: SaintRankDuplicateContacts
+  nameWithType: UserPreferenceStrings.Functions.SaintRankDuplicateContacts
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.SaintRankDuplicateContacts
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould SAINT data be used to rank and style contacts with duplicate soundex&apos;es\n"
+  syntax:
+    content: public const string SaintRankDuplicateContacts = "SaintRankDuplicateContacts"
+    return:
+      type: System.String
+    content.vb: Public Const SaintRankDuplicateContacts As String = "SaintRankDuplicateContacts"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.HideCounterInArchiveFooter
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.HideCounterInArchiveFooter
+  id: HideCounterInArchiveFooter
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: HideCounterInArchiveFooter
+  nameWithType: UserPreferenceStrings.Functions.HideCounterInArchiveFooter
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.HideCounterInArchiveFooter
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the rowcount not be visible in the archive footers\n"
+  syntax:
+    content: public const string HideCounterInArchiveFooter = "HideCounterInArchiveFooter"
+    return:
+      type: System.String
+    content.vb: Public Const HideCounterInArchiveFooter As String = "HideCounterInArchiveFooter"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.EnableLocalRendererInArchive
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.EnableLocalRendererInArchive
+  id: EnableLocalRendererInArchive
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: EnableLocalRendererInArchive
+  nameWithType: UserPreferenceStrings.Functions.EnableLocalRendererInArchive
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.EnableLocalRendererInArchive
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShould the local renderer be enabled for user\n"
+  syntax:
+    content: public const string EnableLocalRendererInArchive = "EnableLocalRendererInArchive"
+    return:
+      type: System.String
+    content.vb: Public Const EnableLocalRendererInArchive As String = "EnableLocalRendererInArchive"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.AutoLoadLimitInArchive
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.AutoLoadLimitInArchive
+  id: AutoLoadLimitInArchive
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: AutoLoadLimitInArchive
+  nameWithType: UserPreferenceStrings.Functions.AutoLoadLimitInArchive
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.AutoLoadLimitInArchive
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe limit for auto loading the full archive\n"
+  syntax:
+    content: public const string AutoLoadLimitInArchive = "AutoLoadLimitInArchive"
+    return:
+      type: System.String
+    content.vb: Public Const AutoLoadLimitInArchive As String = "AutoLoadLimitInArchive"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.AskToEditOrRead
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.AskToEditOrRead
+  id: AskToEditOrRead
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: AskToEditOrRead
+  nameWithType: UserPreferenceStrings.Functions.AskToEditOrRead
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.AskToEditOrRead
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAsk if the user want to edit or read the document when opening an existing document. Only applies when Web Tools is installed.\n"
+  syntax:
+    content: public const string AskToEditOrRead = "AskToEditOrRead"
+    return:
+      type: System.String
+    content.vb: Public Const AskToEditOrRead As String = "AskToEditOrRead"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowChangeCompanyWarning
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowChangeCompanyWarning
+  id: ShowChangeCompanyWarning
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: ShowChangeCompanyWarning
+  nameWithType: UserPreferenceStrings.Functions.ShowChangeCompanyWarning
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.ShowChangeCompanyWarning
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWarn the user that all activities will be moved to the new company. Used when changing company in the person panel.\n"
+  syntax:
+    content: public const string ShowChangeCompanyWarning = "ShowChangeCompanyWarning"
+    return:
+      type: System.String
+    content.vb: Public Const ShowChangeCompanyWarning As String = "ShowChangeCompanyWarning"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.MandatoryContactOnPerson
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.MandatoryContactOnPerson
+  id: MandatoryContactOnPerson
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: MandatoryContactOnPerson
+  nameWithType: UserPreferenceStrings.Functions.MandatoryContactOnPerson
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.MandatoryContactOnPerson
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhether a company is required when creating a new person. Default true.\n"
+  syntax:
+    content: public const string MandatoryContactOnPerson = "MandatoryContactOnPerson"
+    return:
+      type: System.String
+    content.vb: Public Const MandatoryContactOnPerson As String = "MandatoryContactOnPerson"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.MandatoryContactOnPerson_HardDefault
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.MandatoryContactOnPerson_HardDefault
+  id: MandatoryContactOnPerson_HardDefault
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: MandatoryContactOnPerson_HardDefault
+  nameWithType: UserPreferenceStrings.Functions.MandatoryContactOnPerson_HardDefault
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.MandatoryContactOnPerson_HardDefault
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHard default for MandatoryContactOnPerson\n"
+  syntax:
+    content: public const bool MandatoryContactOnPerson_HardDefault = true
+    return:
+      type: System.Boolean
+    content.vb: Public Const MandatoryContactOnPerson_HardDefault As Boolean = True
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.LanguageCookie
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.LanguageCookie
+  id: LanguageCookie
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: LanguageCookie
+  nameWithType: UserPreferenceStrings.Functions.LanguageCookie
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.LanguageCookie
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLanguage cookie (when cookie is missing)\n"
+  syntax:
+    content: public const string LanguageCookie = "LanguageCookie"
+    return:
+      type: System.String
+    content.vb: Public Const LanguageCookie As String = "LanguageCookie"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.LanguageUICookie
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.LanguageUICookie
+  id: LanguageUICookie
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: LanguageUICookie
+  nameWithType: UserPreferenceStrings.Functions.LanguageUICookie
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.LanguageUICookie
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLanguage UI (when cookie is missing)\n"
+  syntax:
+    content: public const string LanguageUICookie = "LanguageUICookie"
+    return:
+      type: System.String
+    content.vb: Public Const LanguageUICookie As String = "LanguageUICookie"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DefaultMailClientCookie
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DefaultMailClientCookie
+  id: DefaultMailClientCookie
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: DefaultMailClientCookie
+  nameWithType: UserPreferenceStrings.Functions.DefaultMailClientCookie
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.DefaultMailClientCookie
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault mail client setting (when cookie is missing)\n"
+  syntax:
+    content: public const string DefaultMailClientCookie = "DefaultMailClient"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultMailClientCookie As String = "DefaultMailClient"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.SoCrm75SR1FirstUseCookie
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.SoCrm75SR1FirstUseCookie
+  id: SoCrm75SR1FirstUseCookie
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: SoCrm75SR1FirstUseCookie
+  nameWithType: UserPreferenceStrings.Functions.SoCrm75SR1FirstUseCookie
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.SoCrm75SR1FirstUseCookie
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFirst use setting (when cookie is missing)\n"
+  syntax:
+    content: public const string SoCrm75SR1FirstUseCookie = "SoCrm75SR1FirstUse"
+    return:
+      type: System.String
+    content.vb: Public Const SoCrm75SR1FirstUseCookie As String = "SoCrm75SR1FirstUse"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.JoinPilotForWebTools
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.JoinPilotForWebTools
+  id: JoinPilotForWebTools
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions
+  langs:
+  - csharp
+  - vb
+  name: JoinPilotForWebTools
+  nameWithType: UserPreferenceStrings.Functions.JoinPilotForWebTools
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Functions.JoinPilotForWebTools
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRoute all DownloadService requests from PROD to STAGE to allow customers\nearly access to WebTools versions prior to release.\n"
+  syntax:
+    content: public const string JoinPilotForWebTools = "JoinPilotForWebTools"
+    return:
+      type: System.String
+    content.vb: Public Const JoinPilotForWebTools As String = "JoinPilotForWebTools"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

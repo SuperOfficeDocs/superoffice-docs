@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.User_GetAllRolesRequest
+  commentId: T:SuperOffice.WebApi.Data.User_GetAllRolesRequest
+  id: User_GetAllRolesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.User_GetAllRolesRequest.#ctor
+  - SuperOffice.WebApi.Data.User_GetAllRolesRequest.RoleType
+  langs:
+  - csharp
+  - vb
+  name: User_GetAllRolesRequest
+  nameWithType: User_GetAllRolesRequest
+  fullName: SuperOffice.WebApi.Data.User_GetAllRolesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class User_GetAllRolesRequest : Object'
+    content.vb: >-
+      Public Class User_GetAllRolesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.User_GetAllRolesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.User_GetAllRolesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.User_GetAllRolesRequest
+  langs:
+  - csharp
+  - vb
+  name: User_GetAllRolesRequest()
+  nameWithType: User_GetAllRolesRequest.User_GetAllRolesRequest()
+  fullName: SuperOffice.WebApi.Data.User_GetAllRolesRequest.User_GetAllRolesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User_GetAllRolesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.User_GetAllRolesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_GetAllRolesRequest.RoleType
+  commentId: P:SuperOffice.WebApi.Data.User_GetAllRolesRequest.RoleType
+  id: RoleType
+  parent: SuperOffice.WebApi.Data.User_GetAllRolesRequest
+  langs:
+  - csharp
+  - vb
+  name: RoleType
+  nameWithType: User_GetAllRolesRequest.RoleType
+  fullName: SuperOffice.WebApi.Data.User_GetAllRolesRequest.RoleType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public RoleType RoleType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.RoleType
+    content.vb: Public Property RoleType As RoleType
+  overload: SuperOffice.WebApi.Data.User_GetAllRolesRequest.RoleType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.User_GetAllRolesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.User_GetAllRolesRequest.#ctor
+  isExternal: true
+  name: User_GetAllRolesRequest
+  nameWithType: User_GetAllRolesRequest.User_GetAllRolesRequest
+  fullName: SuperOffice.WebApi.Data.User_GetAllRolesRequest.User_GetAllRolesRequest
+- uid: SuperOffice.WebApi.Data.User_GetAllRolesRequest.RoleType*
+  commentId: Overload:SuperOffice.WebApi.Data.User_GetAllRolesRequest.RoleType
+  isExternal: true
+  name: RoleType
+  nameWithType: User_GetAllRolesRequest.RoleType
+  fullName: SuperOffice.WebApi.Data.User_GetAllRolesRequest.RoleType
+- uid: SuperOffice.WebApi.Data.RoleType
+  commentId: T:SuperOffice.WebApi.Data.RoleType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: RoleType
+  nameWithType: RoleType
+  fullName: SuperOffice.WebApi.Data.RoleType

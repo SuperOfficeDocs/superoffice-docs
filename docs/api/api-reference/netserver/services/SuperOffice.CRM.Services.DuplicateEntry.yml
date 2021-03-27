@@ -1,0 +1,373 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.DuplicateEntry
+  commentId: T:SuperOffice.CRM.Services.DuplicateEntry
+  id: DuplicateEntry
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.DuplicateEntry.#ctor
+  - SuperOffice.CRM.Services.DuplicateEntry.EntryIdentifier
+  - SuperOffice.CRM.Services.DuplicateEntry.EntryName
+  - SuperOffice.CRM.Services.DuplicateEntry.RuleDisplayName
+  - SuperOffice.CRM.Services.DuplicateEntry.RuleName
+  - SuperOffice.CRM.Services.DuplicateEntry.SoPrimaryKey
+  - SuperOffice.CRM.Services.DuplicateEntry.ToString
+  - SuperOffice.CRM.Services.DuplicateEntry.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: DuplicateEntry
+  nameWithType: DuplicateEntry
+  fullName: SuperOffice.CRM.Services.DuplicateEntry
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA duplicate entry\n<p></p>\nCarrier object for DuplicateEntry.\n"
+  syntax:
+    content: 'public class DuplicateEntry : Carrier'
+    content.vb: >-
+      Public Class DuplicateEntry
+          Inherits Carrier
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.DuplicateEntry.#ctor
+  commentId: M:SuperOffice.CRM.Services.DuplicateEntry.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.DuplicateEntry
+  langs:
+  - csharp
+  - vb
+  name: DuplicateEntry()
+  nameWithType: DuplicateEntry.DuplicateEntry()
+  fullName: SuperOffice.CRM.Services.DuplicateEntry.DuplicateEntry()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public DuplicateEntry()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.DuplicateEntry.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DuplicateEntry.ToString
+  commentId: M:SuperOffice.CRM.Services.DuplicateEntry.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.DuplicateEntry
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: DuplicateEntry.ToString()
+  fullName: SuperOffice.CRM.Services.DuplicateEntry.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.DuplicateEntry.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.DuplicateEntry.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.DuplicateEntry.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.DuplicateEntry
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: DuplicateEntry.ToString(String)
+  fullName: SuperOffice.CRM.Services.DuplicateEntry.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.DuplicateEntry.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DuplicateEntry.RuleName
+  commentId: P:SuperOffice.CRM.Services.DuplicateEntry.RuleName
+  id: RuleName
+  parent: SuperOffice.CRM.Services.DuplicateEntry
+  langs:
+  - csharp
+  - vb
+  name: RuleName
+  nameWithType: DuplicateEntry.RuleName
+  fullName: SuperOffice.CRM.Services.DuplicateEntry.RuleName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIdentifying name for rule\n\n"
+  syntax:
+    content: public virtual string RuleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RuleName As String
+  overload: SuperOffice.CRM.Services.DuplicateEntry.RuleName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DuplicateEntry.SoPrimaryKey
+  commentId: P:SuperOffice.CRM.Services.DuplicateEntry.SoPrimaryKey
+  id: SoPrimaryKey
+  parent: SuperOffice.CRM.Services.DuplicateEntry
+  langs:
+  - csharp
+  - vb
+  name: SoPrimaryKey
+  nameWithType: DuplicateEntry.SoPrimaryKey
+  fullName: SuperOffice.CRM.Services.DuplicateEntry.SoPrimaryKey
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIdentity of an entry in the SuperOffice database. Should be 0 for matches from external systems. \n"
+  syntax:
+    content: public virtual int SoPrimaryKey { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SoPrimaryKey As Integer
+  overload: SuperOffice.CRM.Services.DuplicateEntry.SoPrimaryKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DuplicateEntry.EntryName
+  commentId: P:SuperOffice.CRM.Services.DuplicateEntry.EntryName
+  id: EntryName
+  parent: SuperOffice.CRM.Services.DuplicateEntry
+  langs:
+  - csharp
+  - vb
+  name: EntryName
+  nameWithType: DuplicateEntry.EntryName
+  fullName: SuperOffice.CRM.Services.DuplicateEntry.EntryName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of duplicate entry \n"
+  syntax:
+    content: public virtual string EntryName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EntryName As String
+  overload: SuperOffice.CRM.Services.DuplicateEntry.EntryName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DuplicateEntry.EntryIdentifier
+  commentId: P:SuperOffice.CRM.Services.DuplicateEntry.EntryIdentifier
+  id: EntryIdentifier
+  parent: SuperOffice.CRM.Services.DuplicateEntry
+  langs:
+  - csharp
+  - vb
+  name: EntryIdentifier
+  nameWithType: DuplicateEntry.EntryIdentifier
+  fullName: SuperOffice.CRM.Services.DuplicateEntry.EntryIdentifier
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nString identifier for entry. Typically used to identify an entry in an external system. \n"
+  syntax:
+    content: public virtual string EntryIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EntryIdentifier As String
+  overload: SuperOffice.CRM.Services.DuplicateEntry.EntryIdentifier*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DuplicateEntry.RuleDisplayName
+  commentId: P:SuperOffice.CRM.Services.DuplicateEntry.RuleDisplayName
+  id: RuleDisplayName
+  parent: SuperOffice.CRM.Services.DuplicateEntry
+  langs:
+  - csharp
+  - vb
+  name: RuleDisplayName
+  nameWithType: DuplicateEntry.RuleDisplayName
+  fullName: SuperOffice.CRM.Services.DuplicateEntry.RuleDisplayName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nShort name of rule to display to user \n"
+  syntax:
+    content: public virtual string RuleDisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RuleDisplayName As String
+  overload: SuperOffice.CRM.Services.DuplicateEntry.RuleDisplayName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.DuplicateEntry.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.DuplicateEntry.#ctor
+  isExternal: true
+  name: DuplicateEntry
+  nameWithType: DuplicateEntry.DuplicateEntry
+  fullName: SuperOffice.CRM.Services.DuplicateEntry.DuplicateEntry
+- uid: SuperOffice.CRM.Services.DuplicateEntry.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.DuplicateEntry.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: DuplicateEntry.ToString
+  fullName: SuperOffice.CRM.Services.DuplicateEntry.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.DuplicateEntry.RuleName*
+  commentId: Overload:SuperOffice.CRM.Services.DuplicateEntry.RuleName
+  isExternal: true
+  name: RuleName
+  nameWithType: DuplicateEntry.RuleName
+  fullName: SuperOffice.CRM.Services.DuplicateEntry.RuleName
+- uid: SuperOffice.CRM.Services.DuplicateEntry.SoPrimaryKey*
+  commentId: Overload:SuperOffice.CRM.Services.DuplicateEntry.SoPrimaryKey
+  isExternal: true
+  name: SoPrimaryKey
+  nameWithType: DuplicateEntry.SoPrimaryKey
+  fullName: SuperOffice.CRM.Services.DuplicateEntry.SoPrimaryKey
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.DuplicateEntry.EntryName*
+  commentId: Overload:SuperOffice.CRM.Services.DuplicateEntry.EntryName
+  isExternal: true
+  name: EntryName
+  nameWithType: DuplicateEntry.EntryName
+  fullName: SuperOffice.CRM.Services.DuplicateEntry.EntryName
+- uid: SuperOffice.CRM.Services.DuplicateEntry.EntryIdentifier*
+  commentId: Overload:SuperOffice.CRM.Services.DuplicateEntry.EntryIdentifier
+  isExternal: true
+  name: EntryIdentifier
+  nameWithType: DuplicateEntry.EntryIdentifier
+  fullName: SuperOffice.CRM.Services.DuplicateEntry.EntryIdentifier
+- uid: SuperOffice.CRM.Services.DuplicateEntry.RuleDisplayName*
+  commentId: Overload:SuperOffice.CRM.Services.DuplicateEntry.RuleDisplayName
+  isExternal: true
+  name: RuleDisplayName
+  nameWithType: DuplicateEntry.RuleDisplayName
+  fullName: SuperOffice.CRM.Services.DuplicateEntry.RuleDisplayName

@@ -1,0 +1,844 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Permissions.SoStrongName
+  commentId: T:SuperOffice.Security.Permissions.SoStrongName
+  id: SoStrongName
+  parent: SuperOffice.Security.Permissions
+  children:
+  - SuperOffice.Security.Permissions.SoStrongName.DemandSuperOfficeSigned(System.Reflection.Assembly)
+  - SuperOffice.Security.Permissions.SoStrongName.DemandSuperOfficeSigned(System.Type)
+  - SuperOffice.Security.Permissions.SoStrongName.IsSuperOfficeSigned(System.Reflection.Assembly)
+  - SuperOffice.Security.Permissions.SoStrongName.IsSuperOfficeSigned(System.Type)
+  - SuperOffice.Security.Permissions.SoStrongName.Permission
+  - SuperOffice.Security.Permissions.SoStrongName.PublicKeyBlob
+  - SuperOffice.Security.Permissions.SoStrongName.PublicKeyString
+  langs:
+  - csharp
+  - vb
+  name: SoStrongName
+  nameWithType: SoStrongName
+  fullName: SuperOffice.Security.Permissions.SoStrongName
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Permissions
+  summary: "\nUtility class for dealing with assemblies signed with SuperOffice&apos; Strong Name keys\n"
+  syntax:
+    content: public sealed class SoStrongName
+    content.vb: Public NotInheritable Class SoStrongName
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Security.Permissions.SoStrongName.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Permissions.SoStrongName.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Security.Permissions.SoStrongName.PublicKeyString
+  commentId: F:SuperOffice.Security.Permissions.SoStrongName.PublicKeyString
+  id: PublicKeyString
+  parent: SuperOffice.Security.Permissions.SoStrongName
+  langs:
+  - csharp
+  - vb
+  name: PublicKeyString
+  nameWithType: SoStrongName.PublicKeyString
+  fullName: SuperOffice.Security.Permissions.SoStrongName.PublicKeyString
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Permissions
+  summary: "\nPublic part of the strong name signature used to sign SuperOffice&apos; assemblies as a hex-string.\n"
+  syntax:
+    content: public const string PublicKeyString = "0024000004800000940000000602000000240000525341310004000001000100BB43BCC9802ACEC3481F0DCB58658C743F1B434F1E9680ECFC47560C62E8C5F2D65653099D9FAFD98B6F911E25D944DE9B84AD5833FE976E0C03C295706DC4A5E77B5E8EA97042BE76BBE2AAE0566BE35940A43CCDCD5FE42FCA7D0DA60013E1D77B8B26FA02F0D803F1E5BD28EA2D8512ADDB28FD90BBB9B81C72B3E93AB2BB"
+    return:
+      type: System.String
+    content.vb: Public Const PublicKeyString As String = "0024000004800000940000000602000000240000525341310004000001000100BB43BCC9802ACEC3481F0DCB58658C743F1B434F1E9680ECFC47560C62E8C5F2D65653099D9FAFD98B6F911E25D944DE9B84AD5833FE976E0C03C295706DC4A5E77B5E8EA97042BE76BBE2AAE0566BE35940A43CCDCD5FE42FCA7D0DA60013E1D77B8B26FA02F0D803F1E5BD28EA2D8512ADDB28FD90BBB9B81C72B3E93AB2BB"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Security.Permissions.SoStrongName.DemandSuperOfficeSigned(System.Type)
+  commentId: M:SuperOffice.Security.Permissions.SoStrongName.DemandSuperOfficeSigned(System.Type)
+  id: DemandSuperOfficeSigned(System.Type)
+  parent: SuperOffice.Security.Permissions.SoStrongName
+  langs:
+  - csharp
+  - vb
+  name: DemandSuperOfficeSigned(Type)
+  nameWithType: SoStrongName.DemandSuperOfficeSigned(Type)
+  fullName: SuperOffice.Security.Permissions.SoStrongName.DemandSuperOfficeSigned(System.Type)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Permissions
+  summary: "\nDemand that the assembly the type resides in is signed by SuperOffice.\n"
+  syntax:
+    content: public static void DemandSuperOfficeSigned(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: Type to check for signature.
+    content.vb: Public Shared Sub DemandSuperOfficeSigned(type As Type)
+  overload: SuperOffice.Security.Permissions.SoStrongName.DemandSuperOfficeSigned*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoException
+    commentId: T:SuperOffice.Exceptions.SoException
+    description: Thrown if the type&apos;s assembly is not signed by SuperOffice.
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Security.Permissions.SoStrongName.DemandSuperOfficeSigned(System.Reflection.Assembly)
+  commentId: M:SuperOffice.Security.Permissions.SoStrongName.DemandSuperOfficeSigned(System.Reflection.Assembly)
+  id: DemandSuperOfficeSigned(System.Reflection.Assembly)
+  parent: SuperOffice.Security.Permissions.SoStrongName
+  langs:
+  - csharp
+  - vb
+  name: DemandSuperOfficeSigned(Assembly)
+  nameWithType: SoStrongName.DemandSuperOfficeSigned(Assembly)
+  fullName: SuperOffice.Security.Permissions.SoStrongName.DemandSuperOfficeSigned(System.Reflection.Assembly)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Permissions
+  summary: "\nDemand that the assembly is signed by SuperOffice\n"
+  syntax:
+    content: public static void DemandSuperOfficeSigned(Assembly assembly)
+    parameters:
+    - id: assembly
+      type: System.Reflection.Assembly
+      description: Assembly to check for signature
+    content.vb: Public Shared Sub DemandSuperOfficeSigned(assembly As Assembly)
+  overload: SuperOffice.Security.Permissions.SoStrongName.DemandSuperOfficeSigned*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoException
+    commentId: T:SuperOffice.Exceptions.SoException
+    description: Thrown if the assembly is not signed by SuperOffice.
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Security.Permissions.SoStrongName.IsSuperOfficeSigned(System.Type)
+  commentId: M:SuperOffice.Security.Permissions.SoStrongName.IsSuperOfficeSigned(System.Type)
+  id: IsSuperOfficeSigned(System.Type)
+  parent: SuperOffice.Security.Permissions.SoStrongName
+  langs:
+  - csharp
+  - vb
+  name: IsSuperOfficeSigned(Type)
+  nameWithType: SoStrongName.IsSuperOfficeSigned(Type)
+  fullName: SuperOffice.Security.Permissions.SoStrongName.IsSuperOfficeSigned(System.Type)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Permissions
+  summary: "\nCheck if the type reside in an assembly signed by SuperOffice.\n"
+  syntax:
+    content: public static bool IsSuperOfficeSigned(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: Type to check for signature.
+    return:
+      type: System.Boolean
+      description: True if the type&apos;s assembly is signed by SuperOffice.
+    content.vb: Public Shared Function IsSuperOfficeSigned(type As Type) As Boolean
+  overload: SuperOffice.Security.Permissions.SoStrongName.IsSuperOfficeSigned*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Security.Permissions.SoStrongName.IsSuperOfficeSigned(System.Reflection.Assembly)
+  commentId: M:SuperOffice.Security.Permissions.SoStrongName.IsSuperOfficeSigned(System.Reflection.Assembly)
+  id: IsSuperOfficeSigned(System.Reflection.Assembly)
+  parent: SuperOffice.Security.Permissions.SoStrongName
+  langs:
+  - csharp
+  - vb
+  name: IsSuperOfficeSigned(Assembly)
+  nameWithType: SoStrongName.IsSuperOfficeSigned(Assembly)
+  fullName: SuperOffice.Security.Permissions.SoStrongName.IsSuperOfficeSigned(System.Reflection.Assembly)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Permissions
+  summary: "\nDetermine if the assembly is signed by SuperOffice.\n"
+  syntax:
+    content: public static bool IsSuperOfficeSigned(Assembly assembly)
+    parameters:
+    - id: assembly
+      type: System.Reflection.Assembly
+      description: Assembly to check for signature
+    return:
+      type: System.Boolean
+      description: True if the assembly is signed by SuperOffice.
+    content.vb: Public Shared Function IsSuperOfficeSigned(assembly As Assembly) As Boolean
+  overload: SuperOffice.Security.Permissions.SoStrongName.IsSuperOfficeSigned*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Security.Permissions.SoStrongName.Permission
+  commentId: P:SuperOffice.Security.Permissions.SoStrongName.Permission
+  id: Permission
+  parent: SuperOffice.Security.Permissions.SoStrongName
+  langs:
+  - csharp
+  - vb
+  name: Permission
+  nameWithType: SoStrongName.Permission
+  fullName: SuperOffice.Security.Permissions.SoStrongName.Permission
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Permissions
+  summary: "\nStrongNameIdentityPermission matching the strong name signature used to sign SuperOffice&apos; assemblies.\n"
+  syntax:
+    content: public static StrongNameIdentityPermission Permission { get; }
+    parameters: []
+    return:
+      type: System.Security.Permissions.StrongNameIdentityPermission
+    content.vb: Public Shared ReadOnly Property Permission As StrongNameIdentityPermission
+  overload: SuperOffice.Security.Permissions.SoStrongName.Permission*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.Security.Permissions.SoStrongName.PublicKeyBlob
+  commentId: P:SuperOffice.Security.Permissions.SoStrongName.PublicKeyBlob
+  id: PublicKeyBlob
+  parent: SuperOffice.Security.Permissions.SoStrongName
+  langs:
+  - csharp
+  - vb
+  name: PublicKeyBlob
+  nameWithType: SoStrongName.PublicKeyBlob
+  fullName: SuperOffice.Security.Permissions.SoStrongName.PublicKeyBlob
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Permissions
+  summary: "\nPublic part of the strong name signature used to sign SuperOffice&apos; assemblies.\n"
+  syntax:
+    content: public static StrongNamePublicKeyBlob PublicKeyBlob { get; }
+    parameters: []
+    return:
+      type: System.Security.Permissions.StrongNamePublicKeyBlob
+    content.vb: Public Shared ReadOnly Property PublicKeyBlob As StrongNamePublicKeyBlob
+  overload: SuperOffice.Security.Permissions.SoStrongName.PublicKeyBlob*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: SuperOffice.Security.Permissions
+  commentId: N:SuperOffice.Security.Permissions
+  isExternal: true
+  name: SuperOffice.Security.Permissions
+  nameWithType: SuperOffice.Security.Permissions
+  fullName: SuperOffice.Security.Permissions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Permissions.SoStrongName.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoStrongName, To>()
+  nameWithType: EnumUtil.MapEnums<SoStrongName, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Permissions.SoStrongName, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoStrongName, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Permissions.SoStrongName, To)()
+  name.vb: MapEnums(Of SoStrongName, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoStrongName, To>
+    nameWithType: EnumUtil.MapEnums<SoStrongName, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.Permissions.SoStrongName, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoStrongName, To)
+    nameWithType: EnumUtil.MapEnums(Of SoStrongName, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Permissions.SoStrongName, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Permissions.SoStrongName.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoStrongName, To>()
+  nameWithType: Converters.MapEnums<SoStrongName, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Permissions.SoStrongName, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoStrongName, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Permissions.SoStrongName, To)()
+  name.vb: MapEnums(Of SoStrongName, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoStrongName, To>
+    nameWithType: Converters.MapEnums<SoStrongName, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Permissions.SoStrongName, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoStrongName, To)
+    nameWithType: Converters.MapEnums(Of SoStrongName, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Permissions.SoStrongName, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Security.Permissions.SoStrongName.DemandSuperOfficeSigned*
+  commentId: Overload:SuperOffice.Security.Permissions.SoStrongName.DemandSuperOfficeSigned
+  isExternal: true
+  name: DemandSuperOfficeSigned
+  nameWithType: SoStrongName.DemandSuperOfficeSigned
+  fullName: SuperOffice.Security.Permissions.SoStrongName.DemandSuperOfficeSigned
+- uid: SuperOffice.Exceptions.SoException
+  commentId: T:SuperOffice.Exceptions.SoException
+  parent: SuperOffice.Exceptions
+  isExternal: true
+  name: SoException
+  nameWithType: SoException
+  fullName: SuperOffice.Exceptions.SoException
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: SuperOffice.Exceptions
+  commentId: N:SuperOffice.Exceptions
+  isExternal: true
+  name: SuperOffice.Exceptions
+  nameWithType: SuperOffice.Exceptions
+  fullName: SuperOffice.Exceptions
+- uid: System.Reflection.Assembly
+  commentId: T:System.Reflection.Assembly
+  parent: System.Reflection
+  isExternal: true
+  name: Assembly
+  nameWithType: Assembly
+  fullName: System.Reflection.Assembly
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+- uid: SuperOffice.Security.Permissions.SoStrongName.IsSuperOfficeSigned*
+  commentId: Overload:SuperOffice.Security.Permissions.SoStrongName.IsSuperOfficeSigned
+  isExternal: true
+  name: IsSuperOfficeSigned
+  nameWithType: SoStrongName.IsSuperOfficeSigned
+  fullName: SuperOffice.Security.Permissions.SoStrongName.IsSuperOfficeSigned
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Security.Permissions.SoStrongName.Permission*
+  commentId: Overload:SuperOffice.Security.Permissions.SoStrongName.Permission
+  isExternal: true
+  name: Permission
+  nameWithType: SoStrongName.Permission
+  fullName: SuperOffice.Security.Permissions.SoStrongName.Permission
+- uid: System.Security.Permissions.StrongNameIdentityPermission
+  commentId: T:System.Security.Permissions.StrongNameIdentityPermission
+  parent: System.Security.Permissions
+  isExternal: true
+  name: StrongNameIdentityPermission
+  nameWithType: StrongNameIdentityPermission
+  fullName: System.Security.Permissions.StrongNameIdentityPermission
+- uid: System.Security.Permissions
+  commentId: N:System.Security.Permissions
+  isExternal: true
+  name: System.Security.Permissions
+  nameWithType: System.Security.Permissions
+  fullName: System.Security.Permissions
+- uid: SuperOffice.Security.Permissions.SoStrongName.PublicKeyBlob*
+  commentId: Overload:SuperOffice.Security.Permissions.SoStrongName.PublicKeyBlob
+  isExternal: true
+  name: PublicKeyBlob
+  nameWithType: SoStrongName.PublicKeyBlob
+  fullName: SuperOffice.Security.Permissions.SoStrongName.PublicKeyBlob
+- uid: System.Security.Permissions.StrongNamePublicKeyBlob
+  commentId: T:System.Security.Permissions.StrongNamePublicKeyBlob
+  parent: System.Security.Permissions
+  isExternal: true
+  name: StrongNamePublicKeyBlob
+  nameWithType: StrongNamePublicKeyBlob
+  fullName: System.Security.Permissions.StrongNamePublicKeyBlob

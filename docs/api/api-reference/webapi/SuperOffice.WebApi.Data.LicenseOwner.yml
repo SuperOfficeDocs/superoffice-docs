@@ -1,0 +1,314 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.LicenseOwner
+  commentId: T:SuperOffice.WebApi.Data.LicenseOwner
+  id: LicenseOwner
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.LicenseOwner.#ctor
+  - SuperOffice.WebApi.Data.LicenseOwner.Description
+  - SuperOffice.WebApi.Data.LicenseOwner.Name
+  - SuperOffice.WebApi.Data.LicenseOwner.RestrictedModuleLicenses
+  - SuperOffice.WebApi.Data.LicenseOwner.UnrestrictedModuleLicenses
+  langs:
+  - csharp
+  - vb
+  name: LicenseOwner
+  nameWithType: LicenseOwner
+  fullName: SuperOffice.WebApi.Data.LicenseOwner
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for LicenseOwner.\n\n"
+  syntax:
+    content: 'public class LicenseOwner : Carrier'
+    content.vb: >-
+      Public Class LicenseOwner
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.LicenseAgent
+    commentId: T:SuperOffice.WebApi.Agents.LicenseAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.LicenseOwner.#ctor
+  commentId: M:SuperOffice.WebApi.Data.LicenseOwner.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.LicenseOwner
+  langs:
+  - csharp
+  - vb
+  name: LicenseOwner()
+  nameWithType: LicenseOwner.LicenseOwner()
+  fullName: SuperOffice.WebApi.Data.LicenseOwner.LicenseOwner()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public LicenseOwner()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.LicenseOwner.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.LicenseOwner.Name
+  commentId: P:SuperOffice.WebApi.Data.LicenseOwner.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.LicenseOwner
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: LicenseOwner.Name
+  fullName: SuperOffice.WebApi.Data.LicenseOwner.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the license owner\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.LicenseOwner.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.LicenseOwner.Description
+  commentId: P:SuperOffice.WebApi.Data.LicenseOwner.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.LicenseOwner
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: LicenseOwner.Description
+  fullName: SuperOffice.WebApi.Data.LicenseOwner.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.LicenseOwner.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.LicenseOwner.RestrictedModuleLicenses
+  commentId: P:SuperOffice.WebApi.Data.LicenseOwner.RestrictedModuleLicenses
+  id: RestrictedModuleLicenses
+  parent: SuperOffice.WebApi.Data.LicenseOwner
+  langs:
+  - csharp
+  - vb
+  name: RestrictedModuleLicenses
+  nameWithType: LicenseOwner.RestrictedModuleLicenses
+  fullName: SuperOffice.WebApi.Data.LicenseOwner.RestrictedModuleLicenses
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual ModuleLicenseLink[] RestrictedModuleLicenses { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ModuleLicenseLink[]
+    content.vb: Public Overridable Property RestrictedModuleLicenses As ModuleLicenseLink()
+  overload: SuperOffice.WebApi.Data.LicenseOwner.RestrictedModuleLicenses*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.LicenseOwner.UnrestrictedModuleLicenses
+  commentId: P:SuperOffice.WebApi.Data.LicenseOwner.UnrestrictedModuleLicenses
+  id: UnrestrictedModuleLicenses
+  parent: SuperOffice.WebApi.Data.LicenseOwner
+  langs:
+  - csharp
+  - vb
+  name: UnrestrictedModuleLicenses
+  nameWithType: LicenseOwner.UnrestrictedModuleLicenses
+  fullName: SuperOffice.WebApi.Data.LicenseOwner.UnrestrictedModuleLicenses
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe unrestricted module licenses that this license owner\n"
+  syntax:
+    content: public virtual ModuleLicenseLink[] UnrestrictedModuleLicenses { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ModuleLicenseLink[]
+    content.vb: Public Overridable Property UnrestrictedModuleLicenses As ModuleLicenseLink()
+  overload: SuperOffice.WebApi.Data.LicenseOwner.UnrestrictedModuleLicenses*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.LicenseAgent
+  commentId: T:SuperOffice.WebApi.Agents.LicenseAgent
+  isExternal: true
+  name: LicenseAgent
+  nameWithType: LicenseAgent
+  fullName: SuperOffice.WebApi.Agents.LicenseAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.LicenseOwner.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.LicenseOwner.#ctor
+  isExternal: true
+  name: LicenseOwner
+  nameWithType: LicenseOwner.LicenseOwner
+  fullName: SuperOffice.WebApi.Data.LicenseOwner.LicenseOwner
+- uid: SuperOffice.WebApi.Data.LicenseOwner.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.LicenseOwner.Name
+  isExternal: true
+  name: Name
+  nameWithType: LicenseOwner.Name
+  fullName: SuperOffice.WebApi.Data.LicenseOwner.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.LicenseOwner.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.LicenseOwner.Description
+  isExternal: true
+  name: Description
+  nameWithType: LicenseOwner.Description
+  fullName: SuperOffice.WebApi.Data.LicenseOwner.Description
+- uid: SuperOffice.WebApi.Data.LicenseOwner.RestrictedModuleLicenses*
+  commentId: Overload:SuperOffice.WebApi.Data.LicenseOwner.RestrictedModuleLicenses
+  isExternal: true
+  name: RestrictedModuleLicenses
+  nameWithType: LicenseOwner.RestrictedModuleLicenses
+  fullName: SuperOffice.WebApi.Data.LicenseOwner.RestrictedModuleLicenses
+- uid: SuperOffice.WebApi.Data.ModuleLicenseLink[]
+  isExternal: true
+  name: ModuleLicenseLink[]
+  nameWithType: ModuleLicenseLink[]
+  fullName: SuperOffice.WebApi.Data.ModuleLicenseLink[]
+  nameWithType.vb: ModuleLicenseLink()
+  fullName.vb: SuperOffice.WebApi.Data.ModuleLicenseLink()
+  name.vb: ModuleLicenseLink()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ModuleLicenseLink
+    name: ModuleLicenseLink
+    nameWithType: ModuleLicenseLink
+    fullName: SuperOffice.WebApi.Data.ModuleLicenseLink
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ModuleLicenseLink
+    name: ModuleLicenseLink
+    nameWithType: ModuleLicenseLink
+    fullName: SuperOffice.WebApi.Data.ModuleLicenseLink
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.LicenseOwner.UnrestrictedModuleLicenses*
+  commentId: Overload:SuperOffice.WebApi.Data.LicenseOwner.UnrestrictedModuleLicenses
+  isExternal: true
+  name: UnrestrictedModuleLicenses
+  nameWithType: LicenseOwner.UnrestrictedModuleLicenses
+  fullName: SuperOffice.WebApi.Data.LicenseOwner.UnrestrictedModuleLicenses

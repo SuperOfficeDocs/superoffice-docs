@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Relation_SaveContactRelationRequest
+  commentId: T:SuperOffice.WebApi.Data.Relation_SaveContactRelationRequest
+  id: Relation_SaveContactRelationRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Relation_SaveContactRelationRequest.#ctor
+  - SuperOffice.WebApi.Data.Relation_SaveContactRelationRequest.ContactRelationEntity
+  langs:
+  - csharp
+  - vb
+  name: Relation_SaveContactRelationRequest
+  nameWithType: Relation_SaveContactRelationRequest
+  fullName: SuperOffice.WebApi.Data.Relation_SaveContactRelationRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Relation_SaveContactRelationRequest : Object'
+    content.vb: >-
+      Public Class Relation_SaveContactRelationRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Relation_SaveContactRelationRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Relation_SaveContactRelationRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Relation_SaveContactRelationRequest
+  langs:
+  - csharp
+  - vb
+  name: Relation_SaveContactRelationRequest()
+  nameWithType: Relation_SaveContactRelationRequest.Relation_SaveContactRelationRequest()
+  fullName: SuperOffice.WebApi.Data.Relation_SaveContactRelationRequest.Relation_SaveContactRelationRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Relation_SaveContactRelationRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Relation_SaveContactRelationRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Relation_SaveContactRelationRequest.ContactRelationEntity
+  commentId: P:SuperOffice.WebApi.Data.Relation_SaveContactRelationRequest.ContactRelationEntity
+  id: ContactRelationEntity
+  parent: SuperOffice.WebApi.Data.Relation_SaveContactRelationRequest
+  langs:
+  - csharp
+  - vb
+  name: ContactRelationEntity
+  nameWithType: Relation_SaveContactRelationRequest.ContactRelationEntity
+  fullName: SuperOffice.WebApi.Data.Relation_SaveContactRelationRequest.ContactRelationEntity
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ContactRelationEntity ContactRelationEntity { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ContactRelationEntity
+    content.vb: Public Property ContactRelationEntity As ContactRelationEntity
+  overload: SuperOffice.WebApi.Data.Relation_SaveContactRelationRequest.ContactRelationEntity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Relation_SaveContactRelationRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Relation_SaveContactRelationRequest.#ctor
+  isExternal: true
+  name: Relation_SaveContactRelationRequest
+  nameWithType: Relation_SaveContactRelationRequest.Relation_SaveContactRelationRequest
+  fullName: SuperOffice.WebApi.Data.Relation_SaveContactRelationRequest.Relation_SaveContactRelationRequest
+- uid: SuperOffice.WebApi.Data.Relation_SaveContactRelationRequest.ContactRelationEntity*
+  commentId: Overload:SuperOffice.WebApi.Data.Relation_SaveContactRelationRequest.ContactRelationEntity
+  isExternal: true
+  name: ContactRelationEntity
+  nameWithType: Relation_SaveContactRelationRequest.ContactRelationEntity
+  fullName: SuperOffice.WebApi.Data.Relation_SaveContactRelationRequest.ContactRelationEntity
+- uid: SuperOffice.WebApi.Data.ContactRelationEntity
+  commentId: T:SuperOffice.WebApi.Data.ContactRelationEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ContactRelationEntity
+  nameWithType: ContactRelationEntity
+  fullName: SuperOffice.WebApi.Data.ContactRelationEntity

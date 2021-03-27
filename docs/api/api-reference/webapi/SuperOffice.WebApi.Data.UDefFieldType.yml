@@ -1,0 +1,339 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UDefFieldType
+  commentId: T:SuperOffice.WebApi.Data.UDefFieldType
+  id: UDefFieldType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UDefFieldType.Checkbox
+  - SuperOffice.WebApi.Data.UDefFieldType.Date
+  - SuperOffice.WebApi.Data.UDefFieldType.Decimal
+  - SuperOffice.WebApi.Data.UDefFieldType.List
+  - SuperOffice.WebApi.Data.UDefFieldType.LongText
+  - SuperOffice.WebApi.Data.UDefFieldType.Number
+  - SuperOffice.WebApi.Data.UDefFieldType.ShortText
+  - SuperOffice.WebApi.Data.UDefFieldType.UnlimitedDate
+  - SuperOffice.WebApi.Data.UDefFieldType.value__
+  langs:
+  - csharp
+  - vb
+  name: UDefFieldType
+  nameWithType: UDefFieldType
+  fullName: SuperOffice.WebApi.Data.UDefFieldType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nField type: 1 = Number, 2 = Short text, 3 = Long text, 4 = Date, 5 = Unlimited date, 6 = Checkbox, 7 = Drop-down listbox, 8 = Decimal\n"
+  syntax:
+    content: 'public sealed class UDefFieldType : Enum'
+    content.vb: >-
+      Public NotInheritable Class UDefFieldType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.UDefFieldType.value__
+  commentId: F:SuperOffice.WebApi.Data.UDefFieldType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.UDefFieldType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: UDefFieldType.value__
+  fullName: SuperOffice.WebApi.Data.UDefFieldType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UDefFieldType.Number
+  commentId: F:SuperOffice.WebApi.Data.UDefFieldType.Number
+  id: Number
+  parent: SuperOffice.WebApi.Data.UDefFieldType
+  langs:
+  - csharp
+  - vb
+  name: Number
+  nameWithType: UDefFieldType.Number
+  fullName: SuperOffice.WebApi.Data.UDefFieldType.Number
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Number (32-bit integer)\n"
+  syntax:
+    content: public const UDefFieldType Number
+    return:
+      type: SuperOffice.WebApi.Data.UDefFieldType
+    content.vb: Public Const Number As UDefFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UDefFieldType.ShortText
+  commentId: F:SuperOffice.WebApi.Data.UDefFieldType.ShortText
+  id: ShortText
+  parent: SuperOffice.WebApi.Data.UDefFieldType
+  langs:
+  - csharp
+  - vb
+  name: ShortText
+  nameWithType: UDefFieldType.ShortText
+  fullName: SuperOffice.WebApi.Data.UDefFieldType.ShortText
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Short text, up to 39 characters, stored in the &apos;small&apos; table\n"
+  syntax:
+    content: public const UDefFieldType ShortText
+    return:
+      type: SuperOffice.WebApi.Data.UDefFieldType
+    content.vb: Public Const ShortText As UDefFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UDefFieldType.LongText
+  commentId: F:SuperOffice.WebApi.Data.UDefFieldType.LongText
+  id: LongText
+  parent: SuperOffice.WebApi.Data.UDefFieldType
+  langs:
+  - csharp
+  - vb
+  name: LongText
+  nameWithType: UDefFieldType.LongText
+  fullName: SuperOffice.WebApi.Data.UDefFieldType.LongText
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Long text, up to 199 characters, stored in the &apos;large&apos; table\n"
+  syntax:
+    content: public const UDefFieldType LongText
+    return:
+      type: SuperOffice.WebApi.Data.UDefFieldType
+    content.vb: Public Const LongText As UDefFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UDefFieldType.Date
+  commentId: F:SuperOffice.WebApi.Data.UDefFieldType.Date
+  id: Date
+  parent: SuperOffice.WebApi.Data.UDefFieldType
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: UDefFieldType.Date
+  fullName: SuperOffice.WebApi.Data.UDefFieldType.Date
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Date, between 1.1.1970 and 2038, stored as seconds after 1.1.1970\n"
+  syntax:
+    content: public const UDefFieldType Date
+    return:
+      type: SuperOffice.WebApi.Data.UDefFieldType
+    content.vb: Public Const Date As UDefFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UDefFieldType.UnlimitedDate
+  commentId: F:SuperOffice.WebApi.Data.UDefFieldType.UnlimitedDate
+  id: UnlimitedDate
+  parent: SuperOffice.WebApi.Data.UDefFieldType
+  langs:
+  - csharp
+  - vb
+  name: UnlimitedDate
+  nameWithType: UDefFieldType.UnlimitedDate
+  fullName: SuperOffice.WebApi.Data.UDefFieldType.UnlimitedDate
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Unlimited date (without time), stored as an YYYYMMDD string\n"
+  syntax:
+    content: public const UDefFieldType UnlimitedDate
+    return:
+      type: SuperOffice.WebApi.Data.UDefFieldType
+    content.vb: Public Const UnlimitedDate As UDefFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UDefFieldType.Checkbox
+  commentId: F:SuperOffice.WebApi.Data.UDefFieldType.Checkbox
+  id: Checkbox
+  parent: SuperOffice.WebApi.Data.UDefFieldType
+  langs:
+  - csharp
+  - vb
+  name: Checkbox
+  nameWithType: UDefFieldType.Checkbox
+  fullName: SuperOffice.WebApi.Data.UDefFieldType.Checkbox
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: Checkbox, stored as an integer, 1 = checked\n"
+  syntax:
+    content: public const UDefFieldType Checkbox
+    return:
+      type: SuperOffice.WebApi.Data.UDefFieldType
+    content.vb: Public Const Checkbox As UDefFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UDefFieldType.List
+  commentId: F:SuperOffice.WebApi.Data.UDefFieldType.List
+  id: List
+  parent: SuperOffice.WebApi.Data.UDefFieldType
+  langs:
+  - csharp
+  - vb
+  name: List
+  nameWithType: UDefFieldType.List
+  fullName: SuperOffice.WebApi.Data.UDefFieldType.List
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: List item reference, stored as an integer ID\n"
+  syntax:
+    content: public const UDefFieldType List
+    return:
+      type: SuperOffice.WebApi.Data.UDefFieldType
+    content.vb: Public Const List As UDefFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UDefFieldType.Decimal
+  commentId: F:SuperOffice.WebApi.Data.UDefFieldType.Decimal
+  id: Decimal
+  parent: SuperOffice.WebApi.Data.UDefFieldType
+  langs:
+  - csharp
+  - vb
+  name: Decimal
+  nameWithType: UDefFieldType.Decimal
+  fullName: SuperOffice.WebApi.Data.UDefFieldType.Decimal
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: Decimal / floating point, stored as a double\n"
+  syntax:
+    content: public const UDefFieldType Decimal
+    return:
+      type: SuperOffice.WebApi.Data.UDefFieldType
+    content.vb: Public Const Decimal As UDefFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.UDefFieldType
+  commentId: T:SuperOffice.WebApi.Data.UDefFieldType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: UDefFieldType
+  nameWithType: UDefFieldType
+  fullName: SuperOffice.WebApi.Data.UDefFieldType

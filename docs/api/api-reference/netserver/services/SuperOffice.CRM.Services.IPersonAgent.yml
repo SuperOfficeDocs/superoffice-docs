@@ -1,0 +1,2123 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.IPersonAgent
+  commentId: T:SuperOffice.CRM.Services.IPersonAgent
+  id: IPersonAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.IPersonAgent.AddBounce(System.String)
+  - SuperOffice.CRM.Services.IPersonAgent.AddBounceWithCount(System.String,System.Int32)
+  - SuperOffice.CRM.Services.IPersonAgent.AddEmailAddressToPerson(System.Int32,System.String,System.Boolean)
+  - SuperOffice.CRM.Services.IPersonAgent.ChangeCountry(SuperOffice.CRM.Services.PersonEntity,System.Int32)
+  - SuperOffice.CRM.Services.IPersonAgent.ChangePersonRank(System.Int32,System.Boolean)
+  - SuperOffice.CRM.Services.IPersonAgent.CheckTemporaryKey(System.String)
+  - SuperOffice.CRM.Services.IPersonAgent.CreateDefaultByContactId(System.Int32)
+  - SuperOffice.CRM.Services.IPersonAgent.CreateDefaultConsentPerson
+  - SuperOffice.CRM.Services.IPersonAgent.CreateDefaultFromCredential(System.Int32,System.String,System.String,System.String)
+  - SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonEntity
+  - SuperOffice.CRM.Services.IPersonAgent.CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime)
+  - SuperOffice.CRM.Services.IPersonAgent.DeleteConsentPerson(System.Int32)
+  - SuperOffice.CRM.Services.IPersonAgent.DeleteExpired
+  - SuperOffice.CRM.Services.IPersonAgent.DeletePersonEntity(System.Int32)
+  - SuperOffice.CRM.Services.IPersonAgent.DeleteTemporaryKeysOfDomain(SuperOffice.Data.TemporaryKeyDomain,System.Int32)
+  - SuperOffice.CRM.Services.IPersonAgent.GetAddress(System.Int32)
+  - SuperOffice.CRM.Services.IPersonAgent.GetAddressByCountry(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.IPersonAgent.GetColleagues
+  - SuperOffice.CRM.Services.IPersonAgent.GetColleaguesByDepartment(System.Int32)
+  - SuperOffice.CRM.Services.IPersonAgent.GetColleaguesBySource(SuperOffice.CRM.Services.Util.AssociateSourceType,System.Int32)
+  - SuperOffice.CRM.Services.IPersonAgent.GetConsentInfos(System.Int32)
+  - SuperOffice.CRM.Services.IPersonAgent.GetConsentPerson(System.Int32)
+  - SuperOffice.CRM.Services.IPersonAgent.GetMyOwner
+  - SuperOffice.CRM.Services.IPersonAgent.GetMyPerson
+  - SuperOffice.CRM.Services.IPersonAgent.GetOwnerOnPersonId(System.Int32)
+  - SuperOffice.CRM.Services.IPersonAgent.GetPerson(System.Int32)
+  - SuperOffice.CRM.Services.IPersonAgent.GetPersonEntity(System.Int32)
+  - SuperOffice.CRM.Services.IPersonAgent.GetPersonImage(System.Int32)
+  - SuperOffice.CRM.Services.IPersonAgent.GetPersonList(System.Int32[])
+  - SuperOffice.CRM.Services.IPersonAgent.GetPersonsFromContact(System.Int32)
+  - SuperOffice.CRM.Services.IPersonAgent.GetPersonsFromProject(System.Int32)
+  - SuperOffice.CRM.Services.IPersonAgent.GetPersonSummary(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.IPersonAgent.GetPhones(System.Int32)
+  - SuperOffice.CRM.Services.IPersonAgent.GetSalesRep(System.String,System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.Services.IPersonAgent.HasConsent(System.Int32,System.String)
+  - SuperOffice.CRM.Services.IPersonAgent.IsNumberValid(System.Int32,System.String)
+  - SuperOffice.CRM.Services.IPersonAgent.Merge(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Boolean)
+  - SuperOffice.CRM.Services.IPersonAgent.Move(System.Int32,System.Int32,System.DateTime)
+  - SuperOffice.CRM.Services.IPersonAgent.NormalizeRanks(System.Int32)
+  - SuperOffice.CRM.Services.IPersonAgent.RemoveConsent(System.Int32,System.String)
+  - SuperOffice.CRM.Services.IPersonAgent.ResolvePersonFromInfo(System.Int32,System.String,System.String[],System.String[])
+  - SuperOffice.CRM.Services.IPersonAgent.SaveConsentPerson(SuperOffice.CRM.Services.ConsentPerson)
+  - SuperOffice.CRM.Services.IPersonAgent.SavePersonEntity(SuperOffice.CRM.Services.PersonEntity)
+  - SuperOffice.CRM.Services.IPersonAgent.SendConsentConfirmationEmail(System.Int32,System.String,System.Int32,System.Int32,System.String)
+  - SuperOffice.CRM.Services.IPersonAgent.SetConsent(System.Int32,System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.Services.IPersonAgent.SetPersonImage(System.Int32,System.Drawing.Image)
+  - SuperOffice.CRM.Services.IPersonAgent.SetPersonRank(System.Int32,System.Int16)
+  - SuperOffice.CRM.Services.IPersonAgent.Undelete(System.Int32)
+  - SuperOffice.CRM.Services.IPersonAgent.ValidatePersonEntity(SuperOffice.CRM.Services.PersonEntity)
+  langs:
+  - csharp
+  - vb
+  name: IPersonAgent
+  nameWithType: IPersonAgent
+  fullName: SuperOffice.CRM.Services.IPersonAgent
+  type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInterface for the Person Agent\nPerson data services.\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (PersonAgent agent = new PersonAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: >-
+      [Agent("Person Agent", "Interface for the Person Agent. Person data services.")]
+
+      public interface IPersonAgent : IAgent
+    content.vb: >-
+      <Agent("Person Agent", "Interface for the Person Agent. Person data services.")>
+
+      Public Interface IPersonAgent
+          Inherits IAgent
+  attributes:
+  - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
+    ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: Person Agent
+    - type: System.String
+      value: Interface for the Person Agent. Person data services.
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonEntity
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonEntity
+  id: CreateDefaultPersonEntity
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultPersonEntity()
+  nameWithType: IPersonAgent.CreateDefaultPersonEntity()
+  fullName: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonEntity()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new PersonEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: PersonEntity CreateDefaultPersonEntity()
+    return:
+      type: SuperOffice.CRM.Services.PersonEntity
+      description: New PersonEntity with default values
+    content.vb: Function CreateDefaultPersonEntity As PersonEntity
+  overload: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonEntity*
+- uid: SuperOffice.CRM.Services.IPersonAgent.SavePersonEntity(SuperOffice.CRM.Services.PersonEntity)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.SavePersonEntity(SuperOffice.CRM.Services.PersonEntity)
+  id: SavePersonEntity(SuperOffice.CRM.Services.PersonEntity)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: SavePersonEntity(PersonEntity)
+  nameWithType: IPersonAgent.SavePersonEntity(PersonEntity)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.SavePersonEntity(SuperOffice.CRM.Services.PersonEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing PersonEntity or creates a new PersonEntity if the id parameter is empty\n"
+  syntax:
+    content: PersonEntity SavePersonEntity(PersonEntity personEntity)
+    parameters:
+    - id: personEntity
+      type: SuperOffice.CRM.Services.PersonEntity
+      description: The PersonEntity that is saved.
+    return:
+      type: SuperOffice.CRM.Services.PersonEntity
+      description: New or updated PersonEntity
+    content.vb: Function SavePersonEntity(personEntity As PersonEntity) As PersonEntity
+  overload: SuperOffice.CRM.Services.IPersonAgent.SavePersonEntity*
+- uid: SuperOffice.CRM.Services.IPersonAgent.DeletePersonEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.DeletePersonEntity(System.Int32)
+  id: DeletePersonEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: DeletePersonEntity(Int32)
+  nameWithType: IPersonAgent.DeletePersonEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.DeletePersonEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the PersonEntity\n"
+  syntax:
+    content: void DeletePersonEntity(int personEntityId)
+    parameters:
+    - id: personEntityId
+      type: System.Int32
+      description: The identity of the PersonEntity
+    content.vb: Sub DeletePersonEntity(personEntityId As Integer)
+  overload: SuperOffice.CRM.Services.IPersonAgent.DeletePersonEntity*
+- uid: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultConsentPerson
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.CreateDefaultConsentPerson
+  id: CreateDefaultConsentPerson
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultConsentPerson()
+  nameWithType: IPersonAgent.CreateDefaultConsentPerson()
+  fullName: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultConsentPerson()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new ConsentPerson.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: ConsentPerson CreateDefaultConsentPerson()
+    return:
+      type: SuperOffice.CRM.Services.ConsentPerson
+      description: New ConsentPerson with default values
+    content.vb: Function CreateDefaultConsentPerson As ConsentPerson
+  overload: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultConsentPerson*
+- uid: SuperOffice.CRM.Services.IPersonAgent.SaveConsentPerson(SuperOffice.CRM.Services.ConsentPerson)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.SaveConsentPerson(SuperOffice.CRM.Services.ConsentPerson)
+  id: SaveConsentPerson(SuperOffice.CRM.Services.ConsentPerson)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveConsentPerson(ConsentPerson)
+  nameWithType: IPersonAgent.SaveConsentPerson(ConsentPerson)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.SaveConsentPerson(SuperOffice.CRM.Services.ConsentPerson)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing ConsentPerson or creates a new ConsentPerson if the id parameter is empty\n"
+  syntax:
+    content: ConsentPerson SaveConsentPerson(ConsentPerson consentPerson)
+    parameters:
+    - id: consentPerson
+      type: SuperOffice.CRM.Services.ConsentPerson
+      description: The ConsentPerson that is saved.
+    return:
+      type: SuperOffice.CRM.Services.ConsentPerson
+      description: New or updated ConsentPerson
+    content.vb: Function SaveConsentPerson(consentPerson As ConsentPerson) As ConsentPerson
+  overload: SuperOffice.CRM.Services.IPersonAgent.SaveConsentPerson*
+- uid: SuperOffice.CRM.Services.IPersonAgent.DeleteConsentPerson(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.DeleteConsentPerson(System.Int32)
+  id: DeleteConsentPerson(System.Int32)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteConsentPerson(Int32)
+  nameWithType: IPersonAgent.DeleteConsentPerson(Int32)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.DeleteConsentPerson(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the ConsentPerson\n"
+  syntax:
+    content: void DeleteConsentPerson(int consentPersonId)
+    parameters:
+    - id: consentPersonId
+      type: System.Int32
+      description: The identity of the ConsentPerson
+    content.vb: Sub DeleteConsentPerson(consentPersonId As Integer)
+  overload: SuperOffice.CRM.Services.IPersonAgent.DeleteConsentPerson*
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetPerson(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.GetPerson(System.Int32)
+  id: GetPerson(System.Int32)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPerson(Int32)
+  nameWithType: IPersonAgent.GetPerson(Int32)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetPerson(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a Person object.                        \n"
+  syntax:
+    content: Person GetPerson(int personId)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The identifier of the Person object
+    return:
+      type: SuperOffice.CRM.Services.Person
+      description: Person
+    content.vb: Function GetPerson(personId As Integer) As Person
+  overload: SuperOffice.CRM.Services.IPersonAgent.GetPerson*
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetPersonEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.GetPersonEntity(System.Int32)
+  id: GetPersonEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPersonEntity(Int32)
+  nameWithType: IPersonAgent.GetPersonEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetPersonEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a PersonEntity object.                        \n"
+  syntax:
+    content: PersonEntity GetPersonEntity(int personEntityId)
+    parameters:
+    - id: personEntityId
+      type: System.Int32
+      description: The identifier of the PersonEntity object
+    return:
+      type: SuperOffice.CRM.Services.PersonEntity
+      description: PersonEntity
+    content.vb: Function GetPersonEntity(personEntityId As Integer) As PersonEntity
+  overload: SuperOffice.CRM.Services.IPersonAgent.GetPersonEntity*
+- uid: SuperOffice.CRM.Services.IPersonAgent.Undelete(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.Undelete(System.Int32)
+  id: Undelete(System.Int32)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: Undelete(Int32)
+  nameWithType: IPersonAgent.Undelete(Int32)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.Undelete(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis entity supports Soft Delete. Call this method to Undelete a previously soft-deleted record\n"
+  syntax:
+    content: void Undelete(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: The primary key of the entity to undelete
+    content.vb: Sub Undelete(id As Integer)
+  overload: SuperOffice.CRM.Services.IPersonAgent.Undelete*
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetMyPerson
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.GetMyPerson
+  id: GetMyPerson
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyPerson()
+  nameWithType: IPersonAgent.GetMyPerson()
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetMyPerson()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the person info belonging to the currently logged on user.\n"
+  syntax:
+    content: PersonEntity GetMyPerson()
+    return:
+      type: SuperOffice.CRM.Services.PersonEntity
+      description: The PersonEntity
+    content.vb: Function GetMyPerson As PersonEntity
+  overload: SuperOffice.CRM.Services.IPersonAgent.GetMyPerson*
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetSalesRep(System.String,System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.GetSalesRep(System.String,System.String,System.String,System.String,System.String)
+  id: GetSalesRep(System.String,System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSalesRep(String, String, String, String, String)
+  nameWithType: IPersonAgent.GetSalesRep(String, String, String, String, String)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetSalesRep(System.String, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the sales representative for an external user. If this method is accessed with anonymous authentication the external user is recognized by contact and name, or by email, or phone number. If the external user is recognized as an CRM5 user (internal or external) the input fields can be left blank.\n"
+  syntax:
+    content: PersonEntity GetSalesRep(string contactName, string personFirstname, string personLastname, string emailAddress, string phoneNumber)
+    parameters:
+    - id: contactName
+      type: System.String
+      description: The company name of the person requesting his sales representative. May be empty if email or phone is provided.
+    - id: personFirstname
+      type: System.String
+      description: The firstname of the person requesting his sales representative. May be empty if email or phone is provided.
+    - id: personLastname
+      type: System.String
+      description: The lastname of the person requesting his sales representative. May be empty if email or phone is provided.
+    - id: emailAddress
+      type: System.String
+      description: The email address of the person requesting his sales representative. May be empty if phone, or contact and person name is provided.
+    - id: phoneNumber
+      type: System.String
+      description: The phone number of the person requesting his sales representative. May be empty if email, or contact and person name is provided.
+    return:
+      type: SuperOffice.CRM.Services.PersonEntity
+      description: The PersonEntity of the sales rep.
+    content.vb: Function GetSalesRep(contactName As String, personFirstname As String, personLastname As String, emailAddress As String, phoneNumber As String) As PersonEntity
+  overload: SuperOffice.CRM.Services.IPersonAgent.GetSalesRep*
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetPhones(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.GetPhones(System.Int32)
+  id: GetPhones(System.Int32)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPhones(Int32)
+  nameWithType: IPersonAgent.GetPhones(Int32)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetPhones(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturning all phones that belong to a person, ordered by the phone type.\n"
+  syntax:
+    content: EntityElement[] GetPhones(int personId)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id
+    return:
+      type: SuperOffice.CRM.Services.EntityElement[]
+      description: An array of Phones
+    content.vb: Function GetPhones(personId As Integer) As EntityElement()
+  overload: SuperOffice.CRM.Services.IPersonAgent.GetPhones*
+- uid: SuperOffice.CRM.Services.IPersonAgent.ChangeCountry(SuperOffice.CRM.Services.PersonEntity,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.ChangeCountry(SuperOffice.CRM.Services.PersonEntity,System.Int32)
+  id: ChangeCountry(SuperOffice.CRM.Services.PersonEntity,System.Int32)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: ChangeCountry(PersonEntity, Int32)
+  nameWithType: IPersonAgent.ChangeCountry(PersonEntity, Int32)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.ChangeCountry(SuperOffice.CRM.Services.PersonEntity, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nChange country regenerates the default values and localized information such as phone number and address format for this entity.\n"
+  syntax:
+    content: PersonEntity ChangeCountry(PersonEntity personEntity, int toCountryId)
+    parameters:
+    - id: personEntity
+      type: SuperOffice.CRM.Services.PersonEntity
+      description: The PersonEntity to change country on
+    - id: toCountryId
+      type: System.Int32
+      description: The country to switch to
+    return:
+      type: SuperOffice.CRM.Services.PersonEntity
+      description: The PersonEntity
+    content.vb: Function ChangeCountry(personEntity As PersonEntity, toCountryId As Integer) As PersonEntity
+  overload: SuperOffice.CRM.Services.IPersonAgent.ChangeCountry*
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetAddress(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.GetAddress(System.Int32)
+  id: GetAddress(System.Int32)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAddress(Int32)
+  nameWithType: IPersonAgent.GetAddress(Int32)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetAddress(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the person&apos;s localized address.\n"
+  syntax:
+    content: Address GetAddress(int personId)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id
+    return:
+      type: SuperOffice.CRM.Services.Address
+      description: The address as LocalizedField[][].
+    content.vb: Function GetAddress(personId As Integer) As Address
+  overload: SuperOffice.CRM.Services.IPersonAgent.GetAddress*
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetAddressByCountry(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.GetAddressByCountry(System.Int32,System.Int32)
+  id: GetAddressByCountry(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAddressByCountry(Int32, Int32)
+  nameWithType: IPersonAgent.GetAddressByCountry(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetAddressByCountry(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the person&apos;s localized address.\n"
+  syntax:
+    content: Address GetAddressByCountry(int personId, int countryId)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id
+    - id: countryId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Services.Address
+      description: The address as LocalizedField[][].
+    content.vb: Function GetAddressByCountry(personId As Integer, countryId As Integer) As Address
+  overload: SuperOffice.CRM.Services.IPersonAgent.GetAddressByCountry*
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetPersonImage(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.GetPersonImage(System.Int32)
+  id: GetPersonImage(System.Int32)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPersonImage(Int32)
+  nameWithType: IPersonAgent.GetPersonImage(Int32)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetPersonImage(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the person image that is displayed in the CRM application.\n"
+  syntax:
+    content: Image GetPersonImage(int personId)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id of the person the image belongs to.
+    return:
+      type: System.Drawing.Image
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+    content.vb: Function GetPersonImage(personId As Integer) As Image
+  overload: SuperOffice.CRM.Services.IPersonAgent.GetPersonImage*
+- uid: SuperOffice.CRM.Services.IPersonAgent.SetPersonImage(System.Int32,System.Drawing.Image)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.SetPersonImage(System.Int32,System.Drawing.Image)
+  id: SetPersonImage(System.Int32,System.Drawing.Image)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: SetPersonImage(Int32, Image)
+  nameWithType: IPersonAgent.SetPersonImage(Int32, Image)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.SetPersonImage(System.Int32, System.Drawing.Image)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStores the person image that is displayed in the CRM application.\n"
+  syntax:
+    content: void SetPersonImage(int personId, Image image)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id of the person the image belongs to.
+    - id: image
+      type: System.Drawing.Image
+      description: The image that is stored on the person (System.Drawing.Image)
+    content.vb: Sub SetPersonImage(personId As Integer, image As Image)
+  overload: SuperOffice.CRM.Services.IPersonAgent.SetPersonImage*
+- uid: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultByContactId(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.CreateDefaultByContactId(System.Int32)
+  id: CreateDefaultByContactId(System.Int32)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultByContactId(Int32)
+  nameWithType: IPersonAgent.CreateDefaultByContactId(Int32)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultByContactId(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreates a PersonEntity with default values based on the contactId.\n"
+  syntax:
+    content: PersonEntity CreateDefaultByContactId(int contactId)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: Contact id of the person
+    return:
+      type: SuperOffice.CRM.Services.PersonEntity
+    content.vb: Function CreateDefaultByContactId(contactId As Integer) As PersonEntity
+  overload: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultByContactId*
+- uid: SuperOffice.CRM.Services.IPersonAgent.Move(System.Int32,System.Int32,System.DateTime)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.Move(System.Int32,System.Int32,System.DateTime)
+  id: Move(System.Int32,System.Int32,System.DateTime)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: Move(Int32, Int32, DateTime)
+  nameWithType: IPersonAgent.Move(Int32, Int32, DateTime)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.Move(System.Int32, System.Int32, System.DateTime)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMove a person to a specified contact. You must specify the date after which activities will be moved along with the person.\n"
+  syntax:
+    content: void Move(int personId, int destinationContactId, DateTime moveAfterDate)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The identifier for the person
+    - id: destinationContactId
+      type: System.Int32
+      description: The identifier for the contact which the person will be moved to
+    - id: moveAfterDate
+      type: System.DateTime
+      description: Move activites after this date. Activities before this date are left alone.
+    content.vb: Sub Move(personId As Integer, destinationContactId As Integer, moveAfterDate As Date)
+  overload: SuperOffice.CRM.Services.IPersonAgent.Move*
+- uid: SuperOffice.CRM.Services.IPersonAgent.Merge(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.Merge(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Boolean)
+  id: Merge(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Boolean)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: Merge(Int32, Int32, DateTime, Boolean, Boolean)
+  nameWithType: IPersonAgent.Merge(Int32, Int32, DateTime, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.Merge(System.Int32, System.Int32, System.DateTime, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMerge two persons. The destination person will remain. You must specify the date after which activities will be moved along with the person.\n"
+  syntax:
+    content: void Merge(int sourcePersonId, int destinationPersonId, DateTime moveAfterDate, bool deleteSource, bool replaceEmptyFieldsOnDestination)
+    parameters:
+    - id: sourcePersonId
+      type: System.Int32
+      description: The identifier for the person which will be merged into the destination person. The source person is deleted/marked retired after the merge.
+    - id: destinationPersonId
+      type: System.Int32
+      description: The identifier for the person which will remain after the merge. The target person is updated.
+    - id: moveAfterDate
+      type: System.DateTime
+      description: Merge activites after this date. Activities before this date are left alone.
+    - id: deleteSource
+      type: System.Boolean
+      description: If true, the source person will be deleted after the merge. If false, it will have its retired flag set
+    - id: replaceEmptyFieldsOnDestination
+      type: System.Boolean
+      description: If true, empty fields on destination will be replaced by values from source.
+    content.vb: Sub Merge(sourcePersonId As Integer, destinationPersonId As Integer, moveAfterDate As Date, deleteSource As Boolean, replaceEmptyFieldsOnDestination As Boolean)
+  overload: SuperOffice.CRM.Services.IPersonAgent.Merge*
+- uid: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultFromCredential(System.Int32,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.CreateDefaultFromCredential(System.Int32,System.String,System.String,System.String)
+  id: CreateDefaultFromCredential(System.Int32,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultFromCredential(Int32, String, String, String)
+  nameWithType: IPersonAgent.CreateDefaultFromCredential(Int32, String, String, String)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultFromCredential(System.Int32, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreates a PersonEntity with default values based on the contactId and credentials.\n"
+  syntax:
+    content: PersonEntity CreateDefaultFromCredential(int contactId, string credentialType, string credentialValue, string credentialDisplayValue)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: Contact id of the person
+    - id: credentialType
+      type: System.String
+      description: Type of credentials, corresponding to name of plugin and type in the credentials table.
+    - id: credentialValue
+      type: System.String
+      description: This is the actuall value of the credentials.  This will typically be the password or teh users SID in active directory
+    - id: credentialDisplayValue
+      type: System.String
+      description: The value displayed to the user. this will typically be the users login name in active directory.
+    return:
+      type: SuperOffice.CRM.Services.PersonEntity
+    content.vb: Function CreateDefaultFromCredential(contactId As Integer, credentialType As String, credentialValue As String, credentialDisplayValue As String) As PersonEntity
+  overload: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultFromCredential*
+- uid: SuperOffice.CRM.Services.IPersonAgent.IsNumberValid(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.IsNumberValid(System.Int32,System.String)
+  id: IsNumberValid(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: IsNumberValid(Int32, String)
+  nameWithType: IPersonAgent.IsNumberValid(Int32, String)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.IsNumberValid(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nChecks if the number is unique or required.  The setting is configured from admin under system options.\n"
+  syntax:
+    content: bool IsNumberValid(int contactId, string number)
+    parameters:
+    - id: contactId
+      type: System.Int32
+    - id: number
+      type: System.String
+      description: Number to check.
+    return:
+      type: System.Boolean
+      description: True if number is ok (passes uniqueness/required checks)
+    content.vb: Function IsNumberValid(contactId As Integer, number As String) As Boolean
+  overload: SuperOffice.CRM.Services.IPersonAgent.IsNumberValid*
+- uid: SuperOffice.CRM.Services.IPersonAgent.SetConsent(System.Int32,System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.SetConsent(System.Int32,System.String,System.String,System.String,System.String)
+  id: SetConsent(System.Int32,System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: SetConsent(Int32, String, String, String, String)
+  nameWithType: IPersonAgent.SetConsent(Int32, String, String, String, String)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.SetConsent(System.Int32, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSet a specified type of consent on the person.\n"
+  syntax:
+    content: void SetConsent(int personId, string purpose, string source, string legalBase, string comment)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id
+    - id: purpose
+      type: System.String
+      description: The Key of the purpose this affects. e.g. &apos;STORE&apos; or &apos;EMARKETING&apos;.
+    - id: source
+      type: System.String
+      description: The Key of the source of this consent. e.g. &apos;USER&apos;, &apos;WEBFORM&apos; or &apos;API&apos;.
+    - id: legalBase
+      type: System.String
+      description: The Key of the legal base for this consent. e.g. &apos;61A&apos;, &apos;61B&apos;, &apos;61F&apos;
+    - id: comment
+      type: System.String
+      description: A comment regarding this consent. May be null or empty.
+    content.vb: Sub SetConsent(personId As Integer, purpose As String, source As String, legalBase As String, comment As String)
+  overload: SuperOffice.CRM.Services.IPersonAgent.SetConsent*
+- uid: SuperOffice.CRM.Services.IPersonAgent.RemoveConsent(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.RemoveConsent(System.Int32,System.String)
+  id: RemoveConsent(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: RemoveConsent(Int32, String)
+  nameWithType: IPersonAgent.RemoveConsent(Int32, String)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.RemoveConsent(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTurn off consent for a specified person and purpose.\n"
+  syntax:
+    content: void RemoveConsent(int personId, string purpose)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id
+    - id: purpose
+      type: System.String
+      description: The key of the purpose to remove. (e.g. &apos;STORE&apos; or &apos;EMARKETING&apos;)
+    content.vb: Sub RemoveConsent(personId As Integer, purpose As String)
+  overload: SuperOffice.CRM.Services.IPersonAgent.RemoveConsent*
+- uid: SuperOffice.CRM.Services.IPersonAgent.HasConsent(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.HasConsent(System.Int32,System.String)
+  id: HasConsent(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: HasConsent(Int32, String)
+  nameWithType: IPersonAgent.HasConsent(Int32, String)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.HasConsent(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCheck if consent has been given by a specified person, for a specific purpose. Withdraw consents return FALSE.\n"
+  syntax:
+    content: bool HasConsent(int personId, string purpose)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id
+    - id: purpose
+      type: System.String
+      description: The key of the purpose to check. (e.g. &apos;STORE&apos; or &apos;EMARKETING&apos;)
+    return:
+      type: System.Boolean
+      description: True if the person has consented to the given purpose.
+    content.vb: Function HasConsent(personId As Integer, purpose As String) As Boolean
+  overload: SuperOffice.CRM.Services.IPersonAgent.HasConsent*
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetConsentInfos(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.GetConsentInfos(System.Int32)
+  id: GetConsentInfos(System.Int32)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetConsentInfos(Int32)
+  nameWithType: IPersonAgent.GetConsentInfos(Int32)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetConsentInfos(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet all consent information for a given person. May include withdrawn consents (check \n"
+  syntax:
+    content: ConsentInfo[] GetConsentInfos(int personId)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id to get consents for
+    return:
+      type: SuperOffice.CRM.Services.ConsentInfo[]
+      description: List of consents recorded on this person
+    content.vb: Function GetConsentInfos(personId As Integer) As ConsentInfo()
+  overload: SuperOffice.CRM.Services.IPersonAgent.GetConsentInfos*
+- uid: SuperOffice.CRM.Services.IPersonAgent.SendConsentConfirmationEmail(System.Int32,System.String,System.Int32,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.SendConsentConfirmationEmail(System.Int32,System.String,System.Int32,System.Int32,System.String)
+  id: SendConsentConfirmationEmail(System.Int32,System.String,System.Int32,System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: SendConsentConfirmationEmail(Int32, String, Int32, Int32, String)
+  nameWithType: IPersonAgent.SendConsentConfirmationEmail(Int32, String, Int32, Int32, String)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.SendConsentConfirmationEmail(System.Int32, System.String, System.Int32, System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSend confirmation email to the provided person, email address (id), using the document template\n"
+  syntax:
+    content: void SendConsentConfirmationEmail(int personId, string emailAddress, int emailTemplateId, int cultureLcidId, string subject)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id
+    - id: emailAddress
+      type: System.String
+      description: The email address to send to.
+    - id: emailTemplateId
+      type: System.Int32
+      description: The id of the email template (doctmpl_id)
+    - id: cultureLcidId
+      type: System.Int32
+      description: The id of the culture (LCID)
+    - id: subject
+      type: System.String
+      description: Optional email subject
+    content.vb: Sub SendConsentConfirmationEmail(personId As Integer, emailAddress As String, emailTemplateId As Integer, cultureLcidId As Integer, subject As String)
+  overload: SuperOffice.CRM.Services.IPersonAgent.SendConsentConfirmationEmail*
+- uid: SuperOffice.CRM.Services.IPersonAgent.ResolvePersonFromInfo(System.Int32,System.String,System.String[],System.String[])
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.ResolvePersonFromInfo(System.Int32,System.String,System.String[],System.String[])
+  id: ResolvePersonFromInfo(System.Int32,System.String,System.String[],System.String[])
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: ResolvePersonFromInfo(Int32, String, String[], String[])
+  nameWithType: IPersonAgent.ResolvePersonFromInfo(Int32, String, String[], String[])
+  fullName: SuperOffice.CRM.Services.IPersonAgent.ResolvePersonFromInfo(System.Int32, System.String, System.String[], System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a person from the provided information. If the person does not exist, it will be created on demand.\n"
+  syntax:
+    content: ResolvedPerson ResolvePersonFromInfo(int contactId, string personName, string[] phoneNumbers, string[] emails)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The contact Id of the contact which the person belongs to. Cannot be 0.
+    - id: personName
+      type: System.String
+      description: The full name of the person to be resolved. Optional.
+    - id: phoneNumbers
+      type: System.String[]
+      description: Phone numbers registered on the person. Optional.
+    - id: emails
+      type: System.String[]
+      description: Email-addresses registered on the person. Optional.
+    return:
+      type: SuperOffice.CRM.Services.ResolvedPerson
+      description: The results of the resolve-operation.
+    content.vb: Function ResolvePersonFromInfo(contactId As Integer, personName As String, phoneNumbers As String(), emails As String()) As ResolvedPerson
+  overload: SuperOffice.CRM.Services.IPersonAgent.ResolvePersonFromInfo*
+  nameWithType.vb: IPersonAgent.ResolvePersonFromInfo(Int32, String, String(), String())
+  fullName.vb: SuperOffice.CRM.Services.IPersonAgent.ResolvePersonFromInfo(System.Int32, System.String, System.String(), System.String())
+  name.vb: ResolvePersonFromInfo(Int32, String, String(), String())
+- uid: SuperOffice.CRM.Services.IPersonAgent.AddEmailAddressToPerson(System.Int32,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.AddEmailAddressToPerson(System.Int32,System.String,System.Boolean)
+  id: AddEmailAddressToPerson(System.Int32,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: AddEmailAddressToPerson(Int32, String, Boolean)
+  nameWithType: IPersonAgent.AddEmailAddressToPerson(Int32, String, Boolean)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.AddEmailAddressToPerson(System.Int32, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSets the primary email address on person, possibly re-ranking email addresses accordingly.\n"
+  syntax:
+    content: void AddEmailAddressToPerson(int personId, string emailAddress, bool setAsPrimaryEmail)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: Person id of the person
+    - id: emailAddress
+      type: System.String
+      description: The email address to set as primary email address
+    - id: setAsPrimaryEmail
+      type: System.Boolean
+      description: True if the address shall be primary email address (have rank == 1)
+    content.vb: Sub AddEmailAddressToPerson(personId As Integer, emailAddress As String, setAsPrimaryEmail As Boolean)
+  overload: SuperOffice.CRM.Services.IPersonAgent.AddEmailAddressToPerson*
+- uid: SuperOffice.CRM.Services.IPersonAgent.CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime)
+  id: CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain,System.Int32,System.Int32,System.DateTime)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateTemporaryKey(TemporaryKeyDomain, Int32, Int32, DateTime)
+  nameWithType: IPersonAgent.CreateTemporaryKey(TemporaryKeyDomain, Int32, Int32, DateTime)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.CreateTemporaryKey(SuperOffice.Data.TemporaryKeyDomain, System.Int32, System.Int32, System.DateTime)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreate a temporary key in the database from the given parameters and return the key string. Used for temporary keys for accessing customer centric functionality, such as UpdateSubscriptions.\n"
+  syntax:
+    content: string CreateTemporaryKey(TemporaryKeyDomain domain, int targetId, int personId, DateTime expires)
+    parameters:
+    - id: domain
+      type: SuperOffice.Data.TemporaryKeyDomain
+      description: The domain this key is for
+    - id: targetId
+      type: System.Int32
+      description: The primary key of the entity this is for. Depends on domain.
+    - id: personId
+      type: System.Int32
+      description: The person this key is for. May be null.
+    - id: expires
+      type: System.DateTime
+      description: When the key will expire (servers local time)
+    return:
+      type: System.String
+      description: The key as base64, ready to be used e.g. in a URL
+    content.vb: Function CreateTemporaryKey(domain As TemporaryKeyDomain, targetId As Integer, personId As Integer, expires As Date) As String
+  overload: SuperOffice.CRM.Services.IPersonAgent.CreateTemporaryKey*
+- uid: SuperOffice.CRM.Services.IPersonAgent.CheckTemporaryKey(System.String)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.CheckTemporaryKey(System.String)
+  id: CheckTemporaryKey(System.String)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: CheckTemporaryKey(String)
+  nameWithType: IPersonAgent.CheckTemporaryKey(String)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.CheckTemporaryKey(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCheck a temporary key for validity, and in case it is valid, return its domain, targetId and personId\n"
+  syntax:
+    content: TemporaryKeyInfo CheckTemporaryKey(string temporaryKey)
+    parameters:
+    - id: temporaryKey
+      type: System.String
+      description: The base64 encoded key value, as returned by CreateTemporaryKey
+    return:
+      type: SuperOffice.CRM.Services.TemporaryKeyInfo
+      description: The info about the temporary key. Domain will be Unknown if key is not valid.
+    content.vb: Function CheckTemporaryKey(temporaryKey As String) As TemporaryKeyInfo
+  overload: SuperOffice.CRM.Services.IPersonAgent.CheckTemporaryKey*
+- uid: SuperOffice.CRM.Services.IPersonAgent.DeleteTemporaryKeysOfDomain(SuperOffice.Data.TemporaryKeyDomain,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.DeleteTemporaryKeysOfDomain(SuperOffice.Data.TemporaryKeyDomain,System.Int32)
+  id: DeleteTemporaryKeysOfDomain(SuperOffice.Data.TemporaryKeyDomain,System.Int32)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteTemporaryKeysOfDomain(TemporaryKeyDomain, Int32)
+  nameWithType: IPersonAgent.DeleteTemporaryKeysOfDomain(TemporaryKeyDomain, Int32)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.DeleteTemporaryKeysOfDomain(SuperOffice.Data.TemporaryKeyDomain, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDelete all temporary keys for a given domain and person\n"
+  syntax:
+    content: void DeleteTemporaryKeysOfDomain(TemporaryKeyDomain domain, int personId)
+    parameters:
+    - id: domain
+      type: SuperOffice.Data.TemporaryKeyDomain
+      description: The domain type to delete
+    - id: personId
+      type: System.Int32
+      description: The person for which to delete the keys
+    content.vb: Sub DeleteTemporaryKeysOfDomain(domain As TemporaryKeyDomain, personId As Integer)
+  overload: SuperOffice.CRM.Services.IPersonAgent.DeleteTemporaryKeysOfDomain*
+- uid: SuperOffice.CRM.Services.IPersonAgent.DeleteExpired
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.DeleteExpired
+  id: DeleteExpired
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteExpired()
+  nameWithType: IPersonAgent.DeleteExpired()
+  fullName: SuperOffice.CRM.Services.IPersonAgent.DeleteExpired()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrigger deletion of persons that has been (soft) deleted and have timed out the expiry period (the SoftDeleteRetention preference).\n"
+  syntax:
+    content: void DeleteExpired()
+    content.vb: Sub DeleteExpired
+  overload: SuperOffice.CRM.Services.IPersonAgent.DeleteExpired*
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetPersonSummary(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.GetPersonSummary(System.Int32,System.Int32)
+  id: GetPersonSummary(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPersonSummary(Int32, Int32)
+  nameWithType: IPersonAgent.GetPersonSummary(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetPersonSummary(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet summary of person and recent activity.\n"
+  syntax:
+    content: PersonSummary GetPersonSummary(int personId, int limit)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id to summarize.
+    - id: limit
+      type: System.Int32
+      description: Max number of items to include in summary lists.
+    return:
+      type: SuperOffice.CRM.Services.PersonSummary
+      description: Summary of person, with recent requests, sales, follow-ups, chats.
+    content.vb: Function GetPersonSummary(personId As Integer, limit As Integer) As PersonSummary
+  overload: SuperOffice.CRM.Services.IPersonAgent.GetPersonSummary*
+- uid: SuperOffice.CRM.Services.IPersonAgent.AddBounce(System.String)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.AddBounce(System.String)
+  id: AddBounce(System.String)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: AddBounce(String)
+  nameWithType: IPersonAgent.AddBounce(String)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.AddBounce(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAdd a bounce count on the email address if it exists\n"
+  syntax:
+    content: void AddBounce(string emailAddress)
+    parameters:
+    - id: emailAddress
+      type: System.String
+      description: The email address which we want to add a bounce count to
+    content.vb: Sub AddBounce(emailAddress As String)
+  overload: SuperOffice.CRM.Services.IPersonAgent.AddBounce*
+- uid: SuperOffice.CRM.Services.IPersonAgent.ValidatePersonEntity(SuperOffice.CRM.Services.PersonEntity)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.ValidatePersonEntity(SuperOffice.CRM.Services.PersonEntity)
+  id: ValidatePersonEntity(SuperOffice.CRM.Services.PersonEntity)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: ValidatePersonEntity(PersonEntity)
+  nameWithType: IPersonAgent.ValidatePersonEntity(PersonEntity)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.ValidatePersonEntity(SuperOffice.CRM.Services.PersonEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCheck that entity is ready for saving, return error messages by field.\n"
+  syntax:
+    content: StringDictionary ValidatePersonEntity(PersonEntity personEntity)
+    parameters:
+    - id: personEntity
+      type: SuperOffice.CRM.Services.PersonEntity
+      description: Entity to be checked for errors.
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+      description: Error messages tagged by field.
+    content.vb: Function ValidatePersonEntity(personEntity As PersonEntity) As StringDictionary
+  overload: SuperOffice.CRM.Services.IPersonAgent.ValidatePersonEntity*
+- uid: SuperOffice.CRM.Services.IPersonAgent.AddBounceWithCount(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.AddBounceWithCount(System.String,System.Int32)
+  id: AddBounceWithCount(System.String,System.Int32)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: AddBounceWithCount(String, Int32)
+  nameWithType: IPersonAgent.AddBounceWithCount(String, Int32)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.AddBounceWithCount(System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAdd a number of bounce counts on the email address if it exists\n"
+  syntax:
+    content: void AddBounceWithCount(string emailAddress, int counts)
+    parameters:
+    - id: emailAddress
+      type: System.String
+      description: The email address which we want to add bounce counts to
+    - id: counts
+      type: System.Int32
+      description: The number of bounce counts to add
+    content.vb: Sub AddBounceWithCount(emailAddress As String, counts As Integer)
+  overload: SuperOffice.CRM.Services.IPersonAgent.AddBounceWithCount*
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetPersonList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.GetPersonList(System.Int32[])
+  id: GetPersonList(System.Int32[])
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPersonList(Int32[])
+  nameWithType: IPersonAgent.GetPersonList(Int32[])
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetPersonList(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets an array of Person objects.                        \n"
+  syntax:
+    content: Person[] GetPersonList(int[] personIds)
+    parameters:
+    - id: personIds
+      type: System.Int32[]
+      description: The identifiers of the Person object
+    return:
+      type: SuperOffice.CRM.Services.Person[]
+      description: Array of Person objects
+    content.vb: Function GetPersonList(personIds As Integer()) As Person()
+  overload: SuperOffice.CRM.Services.IPersonAgent.GetPersonList*
+  nameWithType.vb: IPersonAgent.GetPersonList(Int32())
+  fullName.vb: SuperOffice.CRM.Services.IPersonAgent.GetPersonList(System.Int32())
+  name.vb: GetPersonList(Int32())
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetPersonsFromContact(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.GetPersonsFromContact(System.Int32)
+  id: GetPersonsFromContact(System.Int32)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPersonsFromContact(Int32)
+  nameWithType: IPersonAgent.GetPersonsFromContact(Int32)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetPersonsFromContact(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns all the persons belonging to a contact.\n"
+  syntax:
+    content: Person[] GetPersonsFromContact(int contactId)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The project id
+    return:
+      type: SuperOffice.CRM.Services.Person[]
+      description: The persons belonging to a contact.
+    content.vb: Function GetPersonsFromContact(contactId As Integer) As Person()
+  overload: SuperOffice.CRM.Services.IPersonAgent.GetPersonsFromContact*
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetPersonsFromProject(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.GetPersonsFromProject(System.Int32)
+  id: GetPersonsFromProject(System.Int32)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPersonsFromProject(Int32)
+  nameWithType: IPersonAgent.GetPersonsFromProject(Int32)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetPersonsFromProject(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns all the persons belonging to a project.\n"
+  syntax:
+    content: Person[] GetPersonsFromProject(int projectId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project id
+    return:
+      type: SuperOffice.CRM.Services.Person[]
+      description: The persons belonging to a project.
+    content.vb: Function GetPersonsFromProject(projectId As Integer) As Person()
+  overload: SuperOffice.CRM.Services.IPersonAgent.GetPersonsFromProject*
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetColleagues
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.GetColleagues
+  id: GetColleagues
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetColleagues()
+  nameWithType: IPersonAgent.GetColleagues()
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetColleagues()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the persons working in the same company as the logged on user.\n"
+  syntax:
+    content: Person[] GetColleagues()
+    return:
+      type: SuperOffice.CRM.Services.Person[]
+      description: Colleagues.
+    content.vb: Function GetColleagues As Person()
+  overload: SuperOffice.CRM.Services.IPersonAgent.GetColleagues*
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetColleaguesByDepartment(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.GetColleaguesByDepartment(System.Int32)
+  id: GetColleaguesByDepartment(System.Int32)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetColleaguesByDepartment(Int32)
+  nameWithType: IPersonAgent.GetColleaguesByDepartment(Int32)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetColleaguesByDepartment(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the persons working in a specific department in the same company as the logged on user. Departments can be retrieved with the PhoneList.DepartmentList service.\n"
+  syntax:
+    content: Person[] GetColleaguesByDepartment(int departmentId)
+    parameters:
+    - id: departmentId
+      type: System.Int32
+      description: The department id.
+    return:
+      type: SuperOffice.CRM.Services.Person[]
+      description: PersonList with colleagues.
+    content.vb: Function GetColleaguesByDepartment(departmentId As Integer) As Person()
+  overload: SuperOffice.CRM.Services.IPersonAgent.GetColleaguesByDepartment*
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetColleaguesBySource(SuperOffice.CRM.Services.Util.AssociateSourceType,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.GetColleaguesBySource(SuperOffice.CRM.Services.Util.AssociateSourceType,System.Int32)
+  id: GetColleaguesBySource(SuperOffice.CRM.Services.Util.AssociateSourceType,System.Int32)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetColleaguesBySource(AssociateSourceType, Int32)
+  nameWithType: IPersonAgent.GetColleaguesBySource(AssociateSourceType, Int32)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetColleaguesBySource(SuperOffice.CRM.Services.Util.AssociateSourceType, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the persons working in the same company as the logged on user. The list of person could be retrieved from the history list, the diary view list, or from all sources.\n"
+  syntax:
+    content: Person[] GetColleaguesBySource(AssociateSourceType sourceType, int count)
+    parameters:
+    - id: sourceType
+      type: SuperOffice.CRM.Services.Util.AssociateSourceType
+      description: The “source” the colleagues should be retrieved from. &lt;see cref=&quot;AssociateSourceType&quot;/> for more information.
+    - id: count
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Services.Person[]
+      description: Colleagues.
+    content.vb: Function GetColleaguesBySource(sourceType As AssociateSourceType, count As Integer) As Person()
+  overload: SuperOffice.CRM.Services.IPersonAgent.GetColleaguesBySource*
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetMyOwner
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.GetMyOwner
+  id: GetMyOwner
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyOwner()
+  nameWithType: IPersonAgent.GetMyOwner()
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetMyOwner()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the owner of the logged in person.\n"
+  syntax:
+    content: Person GetMyOwner()
+    return:
+      type: SuperOffice.CRM.Services.Person
+      description: Person
+    content.vb: Function GetMyOwner As Person
+  overload: SuperOffice.CRM.Services.IPersonAgent.GetMyOwner*
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetOwnerOnPersonId(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.GetOwnerOnPersonId(System.Int32)
+  id: GetOwnerOnPersonId(System.Int32)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetOwnerOnPersonId(Int32)
+  nameWithType: IPersonAgent.GetOwnerOnPersonId(Int32)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetOwnerOnPersonId(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the owner of the person by id.\n"
+  syntax:
+    content: Person GetOwnerOnPersonId(int personId)
+    parameters:
+    - id: personId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Services.Person
+      description: Person
+    content.vb: Function GetOwnerOnPersonId(personId As Integer) As Person
+  overload: SuperOffice.CRM.Services.IPersonAgent.GetOwnerOnPersonId*
+- uid: SuperOffice.CRM.Services.IPersonAgent.ChangePersonRank(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.ChangePersonRank(System.Int32,System.Boolean)
+  id: ChangePersonRank(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: ChangePersonRank(Int32, Boolean)
+  nameWithType: IPersonAgent.ChangePersonRank(Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.ChangePersonRank(System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMove one person up or down in the ranking in the Person Archive, if possible.&lt;para/>The person record that has rank = 1 is the primary contact for a company, and is the one used in situations where no person has been explicitly chosen (such as in selections).&lt;para/>This method corresponds to the move up/move down functions in the person archive in the contact panel.&lt;para/>This method always affects two records.\n"
+  syntax:
+    content: int ChangePersonRank(int personId, bool moveUp)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: Primary key of person record to move up or down. You must have write access both to this record AND to whatever record is adjacent in the direction you want to move.
+    - id: moveUp
+      type: System.Boolean
+      description: If true, the given person is moved to an earlier rank (lower numeric rank value, down to a limit of 1; up in the GUI if sorted by ascending rank). If false, movement is to later priority (higher numeric rank value).
+    return:
+      type: System.Int32
+      description: If movement occurred, the return value will be the ID of the OTHER person that got moved. A GUI should switch the positions of the original person ID and this return value.&lt;para/>If no movement occurred, for any reason,  0 is returned.
+    content.vb: Function ChangePersonRank(personId As Integer, moveUp As Boolean) As Integer
+  overload: SuperOffice.CRM.Services.IPersonAgent.ChangePersonRank*
+- uid: SuperOffice.CRM.Services.IPersonAgent.SetPersonRank(System.Int32,System.Int16)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.SetPersonRank(System.Int32,System.Int16)
+  id: SetPersonRank(System.Int32,System.Int16)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: SetPersonRank(Int32, Int16)
+  nameWithType: IPersonAgent.SetPersonRank(Int32, Int16)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.SetPersonRank(System.Int32, System.Int16)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDirectly set the rank field of a person record, adjusting all other person records under the same contact as needed.&lt;para/>This call may affect multiple records, potentially all person records belonging to one contact.&lt;para/>You must have write access for to affected records for this method to succeed.\n"
+  syntax:
+    content: bool SetPersonRank(int personId, short desiredRank)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: Id of person to change
+    - id: desiredRank
+      type: System.Int16
+      description: Desired rank to set, legal values are from 1 to the number of person records on this contact. Out of range values will be moved to the closest valid value and processed.
+    return:
+      type: System.Boolean
+      description: 'If movement occurred, or the person already had exactly the desired rank value, then the return value will be true. If movement did not occur, for any other reason, the return value is false. '
+    content.vb: Function SetPersonRank(personId As Integer, desiredRank As Short) As Boolean
+  overload: SuperOffice.CRM.Services.IPersonAgent.SetPersonRank*
+- uid: SuperOffice.CRM.Services.IPersonAgent.NormalizeRanks(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.NormalizeRanks(System.Int32)
+  id: NormalizeRanks(System.Int32)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: NormalizeRanks(Int32)
+  nameWithType: IPersonAgent.NormalizeRanks(Int32)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.NormalizeRanks(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNomralize the ranks for all persons that belong to a contact. This means that the persons will be sorted according to their current rank values, and the ranks will be made monotonically increasing from 1.\n"
+  syntax:
+    content: bool NormalizeRanks(int contactId)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: Id of contact whose persons are to be rank normalized
+    return:
+      type: System.Boolean
+      description: The reutrn value is true if the operation suceeded, either because all persons were already normalized, or because normalization was done. It is false if Sentry blocks any required changes.
+    content.vb: Function NormalizeRanks(contactId As Integer) As Boolean
+  overload: SuperOffice.CRM.Services.IPersonAgent.NormalizeRanks*
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetConsentPerson(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.GetConsentPerson(System.Int32)
+  id: GetConsentPerson(System.Int32)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetConsentPerson(Int32)
+  nameWithType: IPersonAgent.GetConsentPerson(Int32)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetConsentPerson(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a ConsentPerson object.                        \n"
+  syntax:
+    content: ConsentPerson GetConsentPerson(int consentPersonId)
+    parameters:
+    - id: consentPersonId
+      type: System.Int32
+      description: The identifier of the ConsentPerson object
+    return:
+      type: SuperOffice.CRM.Services.ConsentPerson
+      description: ConsentPerson
+    content.vb: Function GetConsentPerson(consentPersonId As Integer) As ConsentPerson
+  overload: SuperOffice.CRM.Services.IPersonAgent.GetConsentPerson*
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonEntity
+  isExternal: true
+  name: CreateDefaultPersonEntity
+  nameWithType: IPersonAgent.CreateDefaultPersonEntity
+  fullName: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonEntity
+- uid: SuperOffice.CRM.Services.PersonEntity
+  commentId: T:SuperOffice.CRM.Services.PersonEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: PersonEntity
+  nameWithType: PersonEntity
+  fullName: SuperOffice.CRM.Services.PersonEntity
+- uid: SuperOffice.CRM.Services.IPersonAgent.SavePersonEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.SavePersonEntity
+  isExternal: true
+  name: SavePersonEntity
+  nameWithType: IPersonAgent.SavePersonEntity
+  fullName: SuperOffice.CRM.Services.IPersonAgent.SavePersonEntity
+- uid: SuperOffice.CRM.Services.IPersonAgent.DeletePersonEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.DeletePersonEntity
+  isExternal: true
+  name: DeletePersonEntity
+  nameWithType: IPersonAgent.DeletePersonEntity
+  fullName: SuperOffice.CRM.Services.IPersonAgent.DeletePersonEntity
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultConsentPerson*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.CreateDefaultConsentPerson
+  isExternal: true
+  name: CreateDefaultConsentPerson
+  nameWithType: IPersonAgent.CreateDefaultConsentPerson
+  fullName: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultConsentPerson
+- uid: SuperOffice.CRM.Services.ConsentPerson
+  commentId: T:SuperOffice.CRM.Services.ConsentPerson
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ConsentPerson
+  nameWithType: ConsentPerson
+  fullName: SuperOffice.CRM.Services.ConsentPerson
+- uid: SuperOffice.CRM.Services.IPersonAgent.SaveConsentPerson*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.SaveConsentPerson
+  isExternal: true
+  name: SaveConsentPerson
+  nameWithType: IPersonAgent.SaveConsentPerson
+  fullName: SuperOffice.CRM.Services.IPersonAgent.SaveConsentPerson
+- uid: SuperOffice.CRM.Services.IPersonAgent.DeleteConsentPerson*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.DeleteConsentPerson
+  isExternal: true
+  name: DeleteConsentPerson
+  nameWithType: IPersonAgent.DeleteConsentPerson
+  fullName: SuperOffice.CRM.Services.IPersonAgent.DeleteConsentPerson
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetPerson*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.GetPerson
+  isExternal: true
+  name: GetPerson
+  nameWithType: IPersonAgent.GetPerson
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetPerson
+- uid: SuperOffice.CRM.Services.Person
+  commentId: T:SuperOffice.CRM.Services.Person
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Person
+  nameWithType: Person
+  fullName: SuperOffice.CRM.Services.Person
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetPersonEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.GetPersonEntity
+  isExternal: true
+  name: GetPersonEntity
+  nameWithType: IPersonAgent.GetPersonEntity
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetPersonEntity
+- uid: SuperOffice.CRM.Services.IPersonAgent.Undelete*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.Undelete
+  isExternal: true
+  name: Undelete
+  nameWithType: IPersonAgent.Undelete
+  fullName: SuperOffice.CRM.Services.IPersonAgent.Undelete
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetMyPerson*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.GetMyPerson
+  isExternal: true
+  name: GetMyPerson
+  nameWithType: IPersonAgent.GetMyPerson
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetMyPerson
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetSalesRep*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.GetSalesRep
+  isExternal: true
+  name: GetSalesRep
+  nameWithType: IPersonAgent.GetSalesRep
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetSalesRep
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetPhones*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.GetPhones
+  isExternal: true
+  name: GetPhones
+  nameWithType: IPersonAgent.GetPhones
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetPhones
+- uid: SuperOffice.CRM.Services.EntityElement[]
+  isExternal: true
+  name: EntityElement[]
+  nameWithType: EntityElement[]
+  fullName: SuperOffice.CRM.Services.EntityElement[]
+  nameWithType.vb: EntityElement()
+  fullName.vb: SuperOffice.CRM.Services.EntityElement()
+  name.vb: EntityElement()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.EntityElement
+    name: EntityElement
+    nameWithType: EntityElement
+    fullName: SuperOffice.CRM.Services.EntityElement
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.EntityElement
+    name: EntityElement
+    nameWithType: EntityElement
+    fullName: SuperOffice.CRM.Services.EntityElement
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IPersonAgent.ChangeCountry*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.ChangeCountry
+  isExternal: true
+  name: ChangeCountry
+  nameWithType: IPersonAgent.ChangeCountry
+  fullName: SuperOffice.CRM.Services.IPersonAgent.ChangeCountry
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetAddress*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.GetAddress
+  isExternal: true
+  name: GetAddress
+  nameWithType: IPersonAgent.GetAddress
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetAddress
+- uid: SuperOffice.CRM.Services.Address
+  commentId: T:SuperOffice.CRM.Services.Address
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Address
+  nameWithType: Address
+  fullName: SuperOffice.CRM.Services.Address
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetAddressByCountry*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.GetAddressByCountry
+  isExternal: true
+  name: GetAddressByCountry
+  nameWithType: IPersonAgent.GetAddressByCountry
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetAddressByCountry
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetPersonImage*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.GetPersonImage
+  isExternal: true
+  name: GetPersonImage
+  nameWithType: IPersonAgent.GetPersonImage
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetPersonImage
+- uid: System.Drawing.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: System.Drawing.Image
+- uid: SuperOffice.CRM.Services.IPersonAgent.SetPersonImage*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.SetPersonImage
+  isExternal: true
+  name: SetPersonImage
+  nameWithType: IPersonAgent.SetPersonImage
+  fullName: SuperOffice.CRM.Services.IPersonAgent.SetPersonImage
+- uid: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultByContactId*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.CreateDefaultByContactId
+  isExternal: true
+  name: CreateDefaultByContactId
+  nameWithType: IPersonAgent.CreateDefaultByContactId
+  fullName: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultByContactId
+- uid: SuperOffice.CRM.Services.IPersonAgent.Move*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.Move
+  isExternal: true
+  name: Move
+  nameWithType: IPersonAgent.Move
+  fullName: SuperOffice.CRM.Services.IPersonAgent.Move
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.IPersonAgent.Merge*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.Merge
+  isExternal: true
+  name: Merge
+  nameWithType: IPersonAgent.Merge
+  fullName: SuperOffice.CRM.Services.IPersonAgent.Merge
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultFromCredential*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.CreateDefaultFromCredential
+  isExternal: true
+  name: CreateDefaultFromCredential
+  nameWithType: IPersonAgent.CreateDefaultFromCredential
+  fullName: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultFromCredential
+- uid: SuperOffice.CRM.Services.IPersonAgent.IsNumberValid*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.IsNumberValid
+  isExternal: true
+  name: IsNumberValid
+  nameWithType: IPersonAgent.IsNumberValid
+  fullName: SuperOffice.CRM.Services.IPersonAgent.IsNumberValid
+- uid: SuperOffice.CRM.Services.IPersonAgent.SetConsent*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.SetConsent
+  isExternal: true
+  name: SetConsent
+  nameWithType: IPersonAgent.SetConsent
+  fullName: SuperOffice.CRM.Services.IPersonAgent.SetConsent
+- uid: SuperOffice.CRM.Services.IPersonAgent.RemoveConsent*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.RemoveConsent
+  isExternal: true
+  name: RemoveConsent
+  nameWithType: IPersonAgent.RemoveConsent
+  fullName: SuperOffice.CRM.Services.IPersonAgent.RemoveConsent
+- uid: SuperOffice.CRM.Services.IPersonAgent.HasConsent*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.HasConsent
+  isExternal: true
+  name: HasConsent
+  nameWithType: IPersonAgent.HasConsent
+  fullName: SuperOffice.CRM.Services.IPersonAgent.HasConsent
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetConsentInfos*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.GetConsentInfos
+  isExternal: true
+  name: GetConsentInfos
+  nameWithType: IPersonAgent.GetConsentInfos
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetConsentInfos
+- uid: SuperOffice.CRM.Services.ConsentInfo[]
+  isExternal: true
+  name: ConsentInfo[]
+  nameWithType: ConsentInfo[]
+  fullName: SuperOffice.CRM.Services.ConsentInfo[]
+  nameWithType.vb: ConsentInfo()
+  fullName.vb: SuperOffice.CRM.Services.ConsentInfo()
+  name.vb: ConsentInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ConsentInfo
+    name: ConsentInfo
+    nameWithType: ConsentInfo
+    fullName: SuperOffice.CRM.Services.ConsentInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ConsentInfo
+    name: ConsentInfo
+    nameWithType: ConsentInfo
+    fullName: SuperOffice.CRM.Services.ConsentInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IPersonAgent.SendConsentConfirmationEmail*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.SendConsentConfirmationEmail
+  isExternal: true
+  name: SendConsentConfirmationEmail
+  nameWithType: IPersonAgent.SendConsentConfirmationEmail
+  fullName: SuperOffice.CRM.Services.IPersonAgent.SendConsentConfirmationEmail
+- uid: SuperOffice.CRM.Services.IPersonAgent.ResolvePersonFromInfo*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.ResolvePersonFromInfo
+  isExternal: true
+  name: ResolvePersonFromInfo
+  nameWithType: IPersonAgent.ResolvePersonFromInfo
+  fullName: SuperOffice.CRM.Services.IPersonAgent.ResolvePersonFromInfo
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ResolvedPerson
+  commentId: T:SuperOffice.CRM.Services.ResolvedPerson
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ResolvedPerson
+  nameWithType: ResolvedPerson
+  fullName: SuperOffice.CRM.Services.ResolvedPerson
+- uid: SuperOffice.CRM.Services.IPersonAgent.AddEmailAddressToPerson*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.AddEmailAddressToPerson
+  isExternal: true
+  name: AddEmailAddressToPerson
+  nameWithType: IPersonAgent.AddEmailAddressToPerson
+  fullName: SuperOffice.CRM.Services.IPersonAgent.AddEmailAddressToPerson
+- uid: SuperOffice.CRM.Services.IPersonAgent.CreateTemporaryKey*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.CreateTemporaryKey
+  isExternal: true
+  name: CreateTemporaryKey
+  nameWithType: IPersonAgent.CreateTemporaryKey
+  fullName: SuperOffice.CRM.Services.IPersonAgent.CreateTemporaryKey
+- uid: SuperOffice.Data.TemporaryKeyDomain
+  isExternal: true
+  name: TemporaryKeyDomain
+  nameWithType: TemporaryKeyDomain
+  fullName: SuperOffice.Data.TemporaryKeyDomain
+- uid: SuperOffice.CRM.Services.IPersonAgent.CheckTemporaryKey*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.CheckTemporaryKey
+  isExternal: true
+  name: CheckTemporaryKey
+  nameWithType: IPersonAgent.CheckTemporaryKey
+  fullName: SuperOffice.CRM.Services.IPersonAgent.CheckTemporaryKey
+- uid: SuperOffice.CRM.Services.TemporaryKeyInfo
+  commentId: T:SuperOffice.CRM.Services.TemporaryKeyInfo
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TemporaryKeyInfo
+  nameWithType: TemporaryKeyInfo
+  fullName: SuperOffice.CRM.Services.TemporaryKeyInfo
+- uid: SuperOffice.CRM.Services.IPersonAgent.DeleteTemporaryKeysOfDomain*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.DeleteTemporaryKeysOfDomain
+  isExternal: true
+  name: DeleteTemporaryKeysOfDomain
+  nameWithType: IPersonAgent.DeleteTemporaryKeysOfDomain
+  fullName: SuperOffice.CRM.Services.IPersonAgent.DeleteTemporaryKeysOfDomain
+- uid: SuperOffice.CRM.Services.IPersonAgent.DeleteExpired*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.DeleteExpired
+  isExternal: true
+  name: DeleteExpired
+  nameWithType: IPersonAgent.DeleteExpired
+  fullName: SuperOffice.CRM.Services.IPersonAgent.DeleteExpired
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetPersonSummary*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.GetPersonSummary
+  isExternal: true
+  name: GetPersonSummary
+  nameWithType: IPersonAgent.GetPersonSummary
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetPersonSummary
+- uid: SuperOffice.CRM.Services.PersonSummary
+  commentId: T:SuperOffice.CRM.Services.PersonSummary
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: PersonSummary
+  nameWithType: PersonSummary
+  fullName: SuperOffice.CRM.Services.PersonSummary
+- uid: SuperOffice.CRM.Services.IPersonAgent.AddBounce*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.AddBounce
+  isExternal: true
+  name: AddBounce
+  nameWithType: IPersonAgent.AddBounce
+  fullName: SuperOffice.CRM.Services.IPersonAgent.AddBounce
+- uid: SuperOffice.CRM.Services.IPersonAgent.ValidatePersonEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.ValidatePersonEntity
+  isExternal: true
+  name: ValidatePersonEntity
+  nameWithType: IPersonAgent.ValidatePersonEntity
+  fullName: SuperOffice.CRM.Services.IPersonAgent.ValidatePersonEntity
+- uid: SuperOffice.CRM.Services.StringDictionary
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: SuperOffice.CRM.Services.IPersonAgent.AddBounceWithCount*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.AddBounceWithCount
+  isExternal: true
+  name: AddBounceWithCount
+  nameWithType: IPersonAgent.AddBounceWithCount
+  fullName: SuperOffice.CRM.Services.IPersonAgent.AddBounceWithCount
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetPersonList*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.GetPersonList
+  isExternal: true
+  name: GetPersonList
+  nameWithType: IPersonAgent.GetPersonList
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetPersonList
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.Person[]
+  isExternal: true
+  name: Person[]
+  nameWithType: Person[]
+  fullName: SuperOffice.CRM.Services.Person[]
+  nameWithType.vb: Person()
+  fullName.vb: SuperOffice.CRM.Services.Person()
+  name.vb: Person()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Person
+    name: Person
+    nameWithType: Person
+    fullName: SuperOffice.CRM.Services.Person
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Person
+    name: Person
+    nameWithType: Person
+    fullName: SuperOffice.CRM.Services.Person
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetPersonsFromContact*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.GetPersonsFromContact
+  isExternal: true
+  name: GetPersonsFromContact
+  nameWithType: IPersonAgent.GetPersonsFromContact
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetPersonsFromContact
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetPersonsFromProject*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.GetPersonsFromProject
+  isExternal: true
+  name: GetPersonsFromProject
+  nameWithType: IPersonAgent.GetPersonsFromProject
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetPersonsFromProject
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetColleagues*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.GetColleagues
+  isExternal: true
+  name: GetColleagues
+  nameWithType: IPersonAgent.GetColleagues
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetColleagues
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetColleaguesByDepartment*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.GetColleaguesByDepartment
+  isExternal: true
+  name: GetColleaguesByDepartment
+  nameWithType: IPersonAgent.GetColleaguesByDepartment
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetColleaguesByDepartment
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetColleaguesBySource*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.GetColleaguesBySource
+  isExternal: true
+  name: GetColleaguesBySource
+  nameWithType: IPersonAgent.GetColleaguesBySource
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetColleaguesBySource
+- uid: SuperOffice.CRM.Services.Util.AssociateSourceType
+  commentId: T:SuperOffice.CRM.Services.Util.AssociateSourceType
+  parent: SuperOffice.CRM.Services.Util
+  isExternal: true
+  name: AssociateSourceType
+  nameWithType: AssociateSourceType
+  fullName: SuperOffice.CRM.Services.Util.AssociateSourceType
+- uid: SuperOffice.CRM.Services.Util
+  commentId: N:SuperOffice.CRM.Services.Util
+  isExternal: true
+  name: SuperOffice.CRM.Services.Util
+  nameWithType: SuperOffice.CRM.Services.Util
+  fullName: SuperOffice.CRM.Services.Util
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetMyOwner*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.GetMyOwner
+  isExternal: true
+  name: GetMyOwner
+  nameWithType: IPersonAgent.GetMyOwner
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetMyOwner
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetOwnerOnPersonId*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.GetOwnerOnPersonId
+  isExternal: true
+  name: GetOwnerOnPersonId
+  nameWithType: IPersonAgent.GetOwnerOnPersonId
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetOwnerOnPersonId
+- uid: SuperOffice.CRM.Services.IPersonAgent.ChangePersonRank*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.ChangePersonRank
+  isExternal: true
+  name: ChangePersonRank
+  nameWithType: IPersonAgent.ChangePersonRank
+  fullName: SuperOffice.CRM.Services.IPersonAgent.ChangePersonRank
+- uid: SuperOffice.CRM.Services.IPersonAgent.SetPersonRank*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.SetPersonRank
+  isExternal: true
+  name: SetPersonRank
+  nameWithType: IPersonAgent.SetPersonRank
+  fullName: SuperOffice.CRM.Services.IPersonAgent.SetPersonRank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Services.IPersonAgent.NormalizeRanks*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.NormalizeRanks
+  isExternal: true
+  name: NormalizeRanks
+  nameWithType: IPersonAgent.NormalizeRanks
+  fullName: SuperOffice.CRM.Services.IPersonAgent.NormalizeRanks
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetConsentPerson*
+  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.GetConsentPerson
+  isExternal: true
+  name: GetConsentPerson
+  nameWithType: IPersonAgent.GetConsentPerson
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetConsentPerson

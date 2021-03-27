@@ -1,0 +1,540 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Principal.ISoIdentity
+  commentId: T:SuperOffice.Security.Principal.ISoIdentity
+  id: ISoIdentity
+  parent: SuperOffice.Security.Principal
+  children:
+  - SuperOffice.Security.Principal.ISoIdentity.Associate
+  - SuperOffice.Security.Principal.ISoIdentity.AssociateId
+  - SuperOffice.Security.Principal.ISoIdentity.InnerIdentity
+  - SuperOffice.Security.Principal.ISoIdentity.ProvidedCredentials
+  - SuperOffice.Security.Principal.ISoIdentity.SoAuthenticationType
+  - SuperOffice.Security.Principal.ISoIdentity.Source
+  langs:
+  - csharp
+  - vb
+  name: ISoIdentity
+  nameWithType: ISoIdentity
+  fullName: SuperOffice.Security.Principal.ISoIdentity
+  type: Interface
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nIdentity interface supporting SuperOffice Authentication\n"
+  syntax:
+    content: 'public interface ISoIdentity : IIdentity'
+    content.vb: >-
+      Public Interface ISoIdentity
+          Inherits IIdentity
+  inheritedMembers:
+  - System.Security.Principal.IIdentity.Name
+  - System.Security.Principal.IIdentity.AuthenticationType
+  - System.Security.Principal.IIdentity.IsAuthenticated
+  extensionMethods:
+  - SuperOffice.Security.Principal.ISoIdentity.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Principal.ISoIdentity.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Security.Principal.ISoIdentity.Associate
+  commentId: P:SuperOffice.Security.Principal.ISoIdentity.Associate
+  id: Associate
+  parent: SuperOffice.Security.Principal.ISoIdentity
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: ISoIdentity.Associate
+  fullName: SuperOffice.Security.Principal.ISoIdentity.Associate
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nSuperOffice user name.\n"
+  syntax:
+    content: string Associate { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Associate As String
+  overload: SuperOffice.Security.Principal.ISoIdentity.Associate*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.ISoIdentity.AssociateId
+  commentId: P:SuperOffice.Security.Principal.ISoIdentity.AssociateId
+  id: AssociateId
+  parent: SuperOffice.Security.Principal.ISoIdentity
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: ISoIdentity.AssociateId
+  fullName: SuperOffice.Security.Principal.ISoIdentity.AssociateId
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nPrimary key of the user in the database.\n"
+  syntax:
+    content: int AssociateId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property AssociateId As Integer
+  overload: SuperOffice.Security.Principal.ISoIdentity.AssociateId*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.ISoIdentity.InnerIdentity
+  commentId: P:SuperOffice.Security.Principal.ISoIdentity.InnerIdentity
+  id: InnerIdentity
+  parent: SuperOffice.Security.Principal.ISoIdentity
+  langs:
+  - csharp
+  - vb
+  name: InnerIdentity
+  nameWithType: ISoIdentity.InnerIdentity
+  fullName: SuperOffice.Security.Principal.ISoIdentity.InnerIdentity
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nInner identity resulting in the SuperOffice Identity\n"
+  syntax:
+    content: IIdentity InnerIdentity { get; }
+    parameters: []
+    return:
+      type: System.Security.Principal.IIdentity
+    content.vb: ReadOnly Property InnerIdentity As IIdentity
+  overload: SuperOffice.Security.Principal.ISoIdentity.InnerIdentity*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.ISoIdentity.SoAuthenticationType
+  commentId: P:SuperOffice.Security.Principal.ISoIdentity.SoAuthenticationType
+  id: SoAuthenticationType
+  parent: SuperOffice.Security.Principal.ISoIdentity
+  langs:
+  - csharp
+  - vb
+  name: SoAuthenticationType
+  nameWithType: ISoIdentity.SoAuthenticationType
+  fullName: SuperOffice.Security.Principal.ISoIdentity.SoAuthenticationType
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nType of Authentication.  3rd party Authenticators should \nreturn <xref href=\"SuperOffice.Security.Principal.SoAuthenticationType.Delegated\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: SoAuthenticationType SoAuthenticationType { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Security.Principal.SoAuthenticationType
+    content.vb: ReadOnly Property SoAuthenticationType As SoAuthenticationType
+  overload: SuperOffice.Security.Principal.ISoIdentity.SoAuthenticationType*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.ISoIdentity.Source
+  commentId: P:SuperOffice.Security.Principal.ISoIdentity.Source
+  id: Source
+  parent: SuperOffice.Security.Principal.ISoIdentity
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: ISoIdentity.Source
+  fullName: SuperOffice.Security.Principal.ISoIdentity.Source
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nSource for this Identity\n"
+  syntax:
+    content: SecurityToken[] Source { get; }
+    parameters: []
+    return:
+      type: System.IdentityModel.Tokens.SecurityToken[]
+    content.vb: ReadOnly Property Source As SecurityToken()
+  overload: SuperOffice.Security.Principal.ISoIdentity.Source*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.ISoIdentity.ProvidedCredentials
+  commentId: P:SuperOffice.Security.Principal.ISoIdentity.ProvidedCredentials
+  id: ProvidedCredentials
+  parent: SuperOffice.Security.Principal.ISoIdentity
+  langs:
+  - csharp
+  - vb
+  name: ProvidedCredentials
+  nameWithType: ISoIdentity.ProvidedCredentials
+  fullName: SuperOffice.Security.Principal.ISoIdentity.ProvidedCredentials
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nThe credentials used to authenticate this user.\n"
+  syntax:
+    content: ProvidedCredential[] ProvidedCredentials { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.ProvidedCredential[]
+    content.vb: ReadOnly Property ProvidedCredentials As ProvidedCredential()
+  overload: SuperOffice.Security.Principal.ISoIdentity.ProvidedCredentials*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+- uid: System.Security.Principal.IIdentity.Name
+  commentId: P:System.Security.Principal.IIdentity.Name
+  parent: System.Security.Principal.IIdentity
+  isExternal: true
+  name: Name
+  nameWithType: IIdentity.Name
+  fullName: System.Security.Principal.IIdentity.Name
+- uid: System.Security.Principal.IIdentity.AuthenticationType
+  commentId: P:System.Security.Principal.IIdentity.AuthenticationType
+  parent: System.Security.Principal.IIdentity
+  isExternal: true
+  name: AuthenticationType
+  nameWithType: IIdentity.AuthenticationType
+  fullName: System.Security.Principal.IIdentity.AuthenticationType
+- uid: System.Security.Principal.IIdentity.IsAuthenticated
+  commentId: P:System.Security.Principal.IIdentity.IsAuthenticated
+  parent: System.Security.Principal.IIdentity
+  isExternal: true
+  name: IsAuthenticated
+  nameWithType: IIdentity.IsAuthenticated
+  fullName: System.Security.Principal.IIdentity.IsAuthenticated
+- uid: SuperOffice.Security.Principal.ISoIdentity.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ISoIdentity, To>()
+  nameWithType: EnumUtil.MapEnums<ISoIdentity, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.ISoIdentity, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ISoIdentity, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.ISoIdentity, To)()
+  name.vb: MapEnums(Of ISoIdentity, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ISoIdentity, To>
+    nameWithType: EnumUtil.MapEnums<ISoIdentity, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.ISoIdentity, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ISoIdentity, To)
+    nameWithType: EnumUtil.MapEnums(Of ISoIdentity, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.ISoIdentity, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.ISoIdentity.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ISoIdentity, To>()
+  nameWithType: Converters.MapEnums<ISoIdentity, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.ISoIdentity, To>()
+  nameWithType.vb: Converters.MapEnums(Of ISoIdentity, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.ISoIdentity, To)()
+  name.vb: MapEnums(Of ISoIdentity, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ISoIdentity, To>
+    nameWithType: Converters.MapEnums<ISoIdentity, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.ISoIdentity, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ISoIdentity, To)
+    nameWithType: Converters.MapEnums(Of ISoIdentity, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.ISoIdentity, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Security.Principal.IIdentity
+  commentId: T:System.Security.Principal.IIdentity
+  parent: System.Security.Principal
+  isExternal: true
+  name: IIdentity
+  nameWithType: IIdentity
+  fullName: System.Security.Principal.IIdentity
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: System.Security.Principal
+  commentId: N:System.Security.Principal
+  isExternal: true
+  name: System.Security.Principal
+  nameWithType: System.Security.Principal
+  fullName: System.Security.Principal
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Security.Principal.ISoIdentity.Associate*
+  commentId: Overload:SuperOffice.Security.Principal.ISoIdentity.Associate
+  isExternal: true
+  name: Associate
+  nameWithType: ISoIdentity.Associate
+  fullName: SuperOffice.Security.Principal.ISoIdentity.Associate
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Security.Principal.ISoIdentity.AssociateId*
+  commentId: Overload:SuperOffice.Security.Principal.ISoIdentity.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: ISoIdentity.AssociateId
+  fullName: SuperOffice.Security.Principal.ISoIdentity.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Security.Principal.ISoIdentity.InnerIdentity*
+  commentId: Overload:SuperOffice.Security.Principal.ISoIdentity.InnerIdentity
+  isExternal: true
+  name: InnerIdentity
+  nameWithType: ISoIdentity.InnerIdentity
+  fullName: SuperOffice.Security.Principal.ISoIdentity.InnerIdentity
+- uid: SuperOffice.Security.Principal.ISoIdentity.SoAuthenticationType*
+  commentId: Overload:SuperOffice.Security.Principal.ISoIdentity.SoAuthenticationType
+  isExternal: true
+  name: SoAuthenticationType
+  nameWithType: ISoIdentity.SoAuthenticationType
+  fullName: SuperOffice.Security.Principal.ISoIdentity.SoAuthenticationType
+- uid: SuperOffice.Security.Principal.SoAuthenticationType
+  commentId: T:SuperOffice.Security.Principal.SoAuthenticationType
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: SoAuthenticationType
+  nameWithType: SoAuthenticationType
+  fullName: SuperOffice.Security.Principal.SoAuthenticationType
+- uid: SuperOffice.Security.Principal.ISoIdentity.Source*
+  commentId: Overload:SuperOffice.Security.Principal.ISoIdentity.Source
+  isExternal: true
+  name: Source
+  nameWithType: ISoIdentity.Source
+  fullName: SuperOffice.Security.Principal.ISoIdentity.Source
+- uid: System.IdentityModel.Tokens.SecurityToken[]
+  isExternal: true
+  name: SecurityToken[]
+  nameWithType: SecurityToken[]
+  fullName: System.IdentityModel.Tokens.SecurityToken[]
+  nameWithType.vb: SecurityToken()
+  fullName.vb: System.IdentityModel.Tokens.SecurityToken()
+  name.vb: SecurityToken()
+  spec.csharp:
+  - uid: System.IdentityModel.Tokens.SecurityToken
+    name: SecurityToken
+    nameWithType: SecurityToken
+    fullName: System.IdentityModel.Tokens.SecurityToken
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.IdentityModel.Tokens.SecurityToken
+    name: SecurityToken
+    nameWithType: SecurityToken
+    fullName: System.IdentityModel.Tokens.SecurityToken
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Security.Principal.ISoIdentity.ProvidedCredentials*
+  commentId: Overload:SuperOffice.Security.Principal.ISoIdentity.ProvidedCredentials
+  isExternal: true
+  name: ProvidedCredentials
+  nameWithType: ISoIdentity.ProvidedCredentials
+  fullName: SuperOffice.Security.Principal.ISoIdentity.ProvidedCredentials
+- uid: SuperOffice.CRM.Services.ProvidedCredential[]
+  isExternal: true
+  name: ProvidedCredential[]
+  nameWithType: ProvidedCredential[]
+  fullName: SuperOffice.CRM.Services.ProvidedCredential[]
+  nameWithType.vb: ProvidedCredential()
+  fullName.vb: SuperOffice.CRM.Services.ProvidedCredential()
+  name.vb: ProvidedCredential()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ProvidedCredential
+    name: ProvidedCredential
+    nameWithType: ProvidedCredential
+    fullName: SuperOffice.CRM.Services.ProvidedCredential
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ProvidedCredential
+    name: ProvidedCredential
+    nameWithType: ProvidedCredential
+    fullName: SuperOffice.CRM.Services.ProvidedCredential
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

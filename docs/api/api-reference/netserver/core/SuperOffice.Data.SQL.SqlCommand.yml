@@ -1,0 +1,1692 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.SQL.SqlCommand
+  commentId: T:SuperOffice.Data.SQL.SqlCommand
+  id: SqlCommand
+  parent: SuperOffice.Data.SQL
+  children:
+  - SuperOffice.Data.SQL.SqlCommand.#ctor
+  - SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo})
+  - SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
+  - SuperOffice.Data.SQL.SqlCommand.ClearIgnoreAutoSentryTableInfos
+  - SuperOffice.Data.SQL.SqlCommand.GetDeletes
+  - SuperOffice.Data.SQL.SqlCommand.GetInserts
+  - SuperOffice.Data.SQL.SqlCommand.GetPrivateSaves
+  - SuperOffice.Data.SQL.SqlCommand.GetSelect
+  - SuperOffice.Data.SQL.SqlCommand.GetTableInfos
+  - SuperOffice.Data.SQL.SqlCommand.GetUpdates
+  - SuperOffice.Data.SQL.SqlCommand.IsAutoSentryIgnoredOnTableInfo(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.SqlCommand.Origin
+  - SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.SqlCommand.SqlType
+  langs:
+  - csharp
+  - vb
+  name: SqlCommand
+  nameWithType: SqlCommand
+  fullName: SuperOffice.Data.SQL.SqlCommand
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nAbstract class, root of all Sql commands in the NetServer OSQL abstraction layer\n"
+  syntax:
+    content: public abstract class SqlCommand
+    content.vb: Public MustInherit Class SqlCommand
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.Data.SQL.BatchSave
+  - SuperOffice.Data.SQL.InsertFromSelect
+  - SuperOffice.Data.SQL.PrivateSave
+  - SuperOffice.Data.SQL.PrivateSelect
+  - SuperOffice.Data.SQL.TableExpression
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Data.SQL.SqlCommand.EnumUtil.MapEnums``2
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.Data.SQL.SqlCommand.Origin
+  commentId: F:SuperOffice.Data.SQL.SqlCommand.Origin
+  id: Origin
+  parent: SuperOffice.Data.SQL.SqlCommand
+  langs:
+  - csharp
+  - vb
+  name: Origin
+  nameWithType: SqlCommand.Origin
+  fullName: SuperOffice.Data.SQL.SqlCommand.Origin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nThis text is included - if possible - as an SQL comment in the generated SQL statement. It will usually be\nvisible in database tracing tools, and the intention is to make it possible to identify the code that gave created\na particular query. This has great &quot;forensic&quot; value when investigating performance or reverse-engineering the system.\n"
+  syntax:
+    content: public string Origin
+    return:
+      type: System.String
+    content.vb: Public Origin As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.SqlCommand.GetTableInfos
+  commentId: M:SuperOffice.Data.SQL.SqlCommand.GetTableInfos
+  id: GetTableInfos
+  parent: SuperOffice.Data.SQL.SqlCommand
+  langs:
+  - csharp
+  - vb
+  name: GetTableInfos()
+  nameWithType: SqlCommand.GetTableInfos()
+  fullName: SuperOffice.Data.SQL.SqlCommand.GetTableInfos()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nObtain a list of all tables involved in the query.\n"
+  syntax:
+    content: public abstract TableInfo[] GetTableInfos()
+    return:
+      type: SuperOffice.Data.SQL.TableInfo[]
+      description: "\nList of all tables involved in the query.\n"
+    content.vb: Public MustOverride Function GetTableInfos As TableInfo()
+  overload: SuperOffice.Data.SQL.SqlCommand.GetTableInfos*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: SuperOffice.Data.SQL.SqlCommand.#ctor
+  commentId: M:SuperOffice.Data.SQL.SqlCommand.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Data.SQL.SqlCommand
+  langs:
+  - csharp
+  - vb
+  name: SqlCommand()
+  nameWithType: SqlCommand.SqlCommand()
+  fullName: SuperOffice.Data.SQL.SqlCommand.SqlCommand()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public SqlCommand()
+    content.vb: Public Sub New
+  overload: SuperOffice.Data.SQL.SqlCommand.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
+  id: AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.SqlCommand
+  langs:
+  - csharp
+  - vb
+  name: AddIgnoreAutoSentryTableInfo(TableInfo)
+  nameWithType: SqlCommand.AddIgnoreAutoSentryTableInfo(TableInfo)
+  fullName: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nAdd a table info to the list of table infos for which no Auto Sentry will be created\n"
+  remarks: "\nThe Sentry system will analyze the query and add sentries for any tables that are subject to access\nrestrictions. The sentries may in turn modify/extend the query to ensure correct processing. If you\nwant to inhibit this behaviour on a per-table basis, you can do so by adding table infos to the ignore\nlist here.\n"
+  syntax:
+    content: public void AddIgnoreAutoSentryTableInfo(TableInfo tableToIgnore)
+    parameters:
+    - id: tableToIgnore
+      type: SuperOffice.Data.SQL.TableInfo
+      description: >-
+        Table to ignore, must be a member of the query to have any meaning. null is allowed
+
+        and causes nothing to happen.
+    content.vb: Public Sub AddIgnoreAutoSentryTableInfo(tableToIgnore As TableInfo)
+  overload: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo})
+  commentId: M:SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo})
+  id: AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo})
+  parent: SuperOffice.Data.SQL.SqlCommand
+  langs:
+  - csharp
+  - vb
+  name: AddIgnoreAutoSentryTableInfo(IEnumerable<TableInfo>)
+  nameWithType: SqlCommand.AddIgnoreAutoSentryTableInfo(IEnumerable<TableInfo>)
+  fullName: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.TableInfo>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nAdd a set of table infos to the list of table infos for which no Auto Sentry will be created\n"
+  remarks: "\nThe Sentry system will analyze the query and add sentries for any tables that are subject to access\nrestrictions. The sentries may in turn modify/extend the query to ensure correct processing. If you\nwant to inhibit this behaviour on a per-table basis, you can do so by adding table infos to the ignore\nlist here.\n"
+  syntax:
+    content: public void AddIgnoreAutoSentryTableInfo(IEnumerable<TableInfo> tablesToIgnore)
+    parameters:
+    - id: tablesToIgnore
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}
+    content.vb: Public Sub AddIgnoreAutoSentryTableInfo(tablesToIgnore As IEnumerable(Of TableInfo))
+  overload: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo*
+  nameWithType.vb: SqlCommand.AddIgnoreAutoSentryTableInfo(IEnumerable(Of TableInfo))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.TableInfo))
+  name.vb: AddIgnoreAutoSentryTableInfo(IEnumerable(Of TableInfo))
+- uid: SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
+  id: RemoveIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.SqlCommand
+  langs:
+  - csharp
+  - vb
+  name: RemoveIgnoreAutoSentryTableInfo(TableInfo)
+  nameWithType: SqlCommand.RemoveIgnoreAutoSentryTableInfo(TableInfo)
+  fullName: SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nRemove a table info from the list of tables infos for which no Auto Sentry will be created.\nSee <xref href=\"SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)\" data-throw-if-not-resolved=\"false\"></xref> for more information.\n"
+  syntax:
+    content: public bool RemoveIgnoreAutoSentryTableInfo(TableInfo tableToNotIgnoreAnyMore)
+    parameters:
+    - id: tableToNotIgnoreAnyMore
+      type: SuperOffice.Data.SQL.TableInfo
+      description: >-
+        Table info to be removed from the ignore list. Nonexistent table
+
+        infos and null are allowed, and cause nothing to happen.
+    return:
+      type: System.Boolean
+      description: true if the table info was in the list and was removed, otherwise false
+    content.vb: Public Function RemoveIgnoreAutoSentryTableInfo(tableToNotIgnoreAnyMore As TableInfo) As Boolean
+  overload: SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.SqlCommand.ClearIgnoreAutoSentryTableInfos
+  commentId: M:SuperOffice.Data.SQL.SqlCommand.ClearIgnoreAutoSentryTableInfos
+  id: ClearIgnoreAutoSentryTableInfos
+  parent: SuperOffice.Data.SQL.SqlCommand
+  langs:
+  - csharp
+  - vb
+  name: ClearIgnoreAutoSentryTableInfos()
+  nameWithType: SqlCommand.ClearIgnoreAutoSentryTableInfos()
+  fullName: SuperOffice.Data.SQL.SqlCommand.ClearIgnoreAutoSentryTableInfos()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nClear the list of table infos for which no Auto Sentry will be created.\nSee <xref href=\"SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)\" data-throw-if-not-resolved=\"false\"></xref> for more information.\n"
+  syntax:
+    content: public void ClearIgnoreAutoSentryTableInfos()
+    content.vb: Public Sub ClearIgnoreAutoSentryTableInfos
+  overload: SuperOffice.Data.SQL.SqlCommand.ClearIgnoreAutoSentryTableInfos*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.SqlCommand.IsAutoSentryIgnoredOnTableInfo(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.SqlCommand.IsAutoSentryIgnoredOnTableInfo(SuperOffice.Data.SQL.TableInfo)
+  id: IsAutoSentryIgnoredOnTableInfo(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.SqlCommand
+  langs:
+  - csharp
+  - vb
+  name: IsAutoSentryIgnoredOnTableInfo(TableInfo)
+  nameWithType: SqlCommand.IsAutoSentryIgnoredOnTableInfo(TableInfo)
+  fullName: SuperOffice.Data.SQL.SqlCommand.IsAutoSentryIgnoredOnTableInfo(SuperOffice.Data.SQL.TableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nCheck if the given table info is in the ignore list.\nSee <xref href=\"SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)\" data-throw-if-not-resolved=\"false\"></xref> for more information.\n"
+  syntax:
+    content: public bool IsAutoSentryIgnoredOnTableInfo(TableInfo tableInfoToCheck)
+    parameters:
+    - id: tableInfoToCheck
+      type: SuperOffice.Data.SQL.TableInfo
+      description: Table info to check
+    return:
+      type: System.Boolean
+      description: true if the given table info is in the ignore list
+    content.vb: Public Function IsAutoSentryIgnoredOnTableInfo(tableInfoToCheck As TableInfo) As Boolean
+  overload: SuperOffice.Data.SQL.SqlCommand.IsAutoSentryIgnoredOnTableInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SQL.SqlCommand.GetPrivateSaves
+  commentId: M:SuperOffice.Data.SQL.SqlCommand.GetPrivateSaves
+  id: GetPrivateSaves
+  parent: SuperOffice.Data.SQL.SqlCommand
+  langs:
+  - csharp
+  - vb
+  name: GetPrivateSaves()
+  nameWithType: SqlCommand.GetPrivateSaves()
+  fullName: SuperOffice.Data.SQL.SqlCommand.GetPrivateSaves()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nGet the <xref href=\"SuperOffice.Data.SQL.PrivateSave\" data-throw-if-not-resolved=\"false\"></xref> members of a <xref href=\"SuperOffice.Data.SQL.BatchSave\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public virtual IEnumerable<PrivateSave> GetPrivateSaves()
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.PrivateSave}
+    content.vb: Public Overridable Function GetPrivateSaves As IEnumerable(Of PrivateSave)
+  overload: SuperOffice.Data.SQL.SqlCommand.GetPrivateSaves*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Data.SQL.SqlCommand.GetInserts
+  commentId: M:SuperOffice.Data.SQL.SqlCommand.GetInserts
+  id: GetInserts
+  parent: SuperOffice.Data.SQL.SqlCommand
+  langs:
+  - csharp
+  - vb
+  name: GetInserts()
+  nameWithType: SqlCommand.GetInserts()
+  fullName: SuperOffice.Data.SQL.SqlCommand.GetInserts()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nGet any <xref href=\"SuperOffice.Data.SQL.Insert\" data-throw-if-not-resolved=\"false\"></xref> elements from a <xref href=\"SuperOffice.Data.SQL.BatchSave\" data-throw-if-not-resolved=\"false\"></xref>, or individual command so you don&apos;t have to check for <xref href=\"SuperOffice.Data.SQL.BatchSave\" data-throw-if-not-resolved=\"false\"></xref> specifically.\nReturns an empty sequence if there are none.\n"
+  syntax:
+    content: public virtual IEnumerable<Insert> GetInserts()
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+    content.vb: Public Overridable Function GetInserts As IEnumerable(Of Insert)
+  overload: SuperOffice.Data.SQL.SqlCommand.GetInserts*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Data.SQL.SqlCommand.GetUpdates
+  commentId: M:SuperOffice.Data.SQL.SqlCommand.GetUpdates
+  id: GetUpdates
+  parent: SuperOffice.Data.SQL.SqlCommand
+  langs:
+  - csharp
+  - vb
+  name: GetUpdates()
+  nameWithType: SqlCommand.GetUpdates()
+  fullName: SuperOffice.Data.SQL.SqlCommand.GetUpdates()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nGet any <xref href=\"SuperOffice.Data.SQL.Update\" data-throw-if-not-resolved=\"false\"></xref> elements from a <xref href=\"SuperOffice.Data.SQL.BatchSave\" data-throw-if-not-resolved=\"false\"></xref>, or individual command so you don&apos;t have to check for <xref href=\"SuperOffice.Data.SQL.BatchSave\" data-throw-if-not-resolved=\"false\"></xref> specifically.\nReturns an empty sequence if there are none.\n"
+  syntax:
+    content: public virtual IEnumerable<Update> GetUpdates()
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Update}
+    content.vb: Public Overridable Function GetUpdates As IEnumerable(Of Update)
+  overload: SuperOffice.Data.SQL.SqlCommand.GetUpdates*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Data.SQL.SqlCommand.GetDeletes
+  commentId: M:SuperOffice.Data.SQL.SqlCommand.GetDeletes
+  id: GetDeletes
+  parent: SuperOffice.Data.SQL.SqlCommand
+  langs:
+  - csharp
+  - vb
+  name: GetDeletes()
+  nameWithType: SqlCommand.GetDeletes()
+  fullName: SuperOffice.Data.SQL.SqlCommand.GetDeletes()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nGet any <xref href=\"SuperOffice.Data.SQL.Delete\" data-throw-if-not-resolved=\"false\"></xref> elements from a <xref href=\"SuperOffice.Data.SQL.BatchSave\" data-throw-if-not-resolved=\"false\"></xref>, or individual command so you don&apos;t have to check for <xref href=\"SuperOffice.Data.SQL.BatchSave\" data-throw-if-not-resolved=\"false\"></xref> specifically.\nReturns an empty sequence if there are none.\n"
+  syntax:
+    content: public virtual IEnumerable<Delete> GetDeletes()
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Delete}
+    content.vb: Public Overridable Function GetDeletes As IEnumerable(Of Delete)
+  overload: SuperOffice.Data.SQL.SqlCommand.GetDeletes*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Data.SQL.SqlCommand.GetSelect
+  commentId: M:SuperOffice.Data.SQL.SqlCommand.GetSelect
+  id: GetSelect
+  parent: SuperOffice.Data.SQL.SqlCommand
+  langs:
+  - csharp
+  - vb
+  name: GetSelect()
+  nameWithType: SqlCommand.GetSelect()
+  fullName: SuperOffice.Data.SQL.SqlCommand.GetSelect()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nGet any <xref href=\"SuperOffice.Data.SQL.Select\" data-throw-if-not-resolved=\"false\"></xref> elements from a <xref href=\"SuperOffice.Data.SQL.Union\" data-throw-if-not-resolved=\"false\"></xref>, or individual <xref href=\"SuperOffice.Data.SQL.Select\" data-throw-if-not-resolved=\"false\"></xref> command so you don&apos;t have to check for <xref href=\"SuperOffice.Data.SQL.Union\" data-throw-if-not-resolved=\"false\"></xref> specifically.\nReturns an empty sequence if there are none.\n"
+  syntax:
+    content: public virtual IEnumerable<Select> GetSelect()
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Select}
+    content.vb: Public Overridable Function GetSelect As IEnumerable(Of  Select)
+  overload: SuperOffice.Data.SQL.SqlCommand.GetSelect*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Data.SQL.SqlCommand.SqlType
+  commentId: P:SuperOffice.Data.SQL.SqlCommand.SqlType
+  id: SqlType
+  parent: SuperOffice.Data.SQL.SqlCommand
+  langs:
+  - csharp
+  - vb
+  name: SqlType
+  nameWithType: SqlCommand.SqlType
+  fullName: SuperOffice.Data.SQL.SqlCommand.SqlType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nAbstract, Get SqlType\n"
+  syntax:
+    content: public abstract SqlType SqlType { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.SqlType
+      description: The SQL type.
+    content.vb: Public MustOverride ReadOnly Property SqlType As SqlType
+  overload: SuperOffice.Data.SQL.SqlCommand.SqlType*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
+  commentId: P:SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
+  id: AutoSentryIgnoredTables
+  parent: SuperOffice.Data.SQL.SqlCommand
+  langs:
+  - csharp
+  - vb
+  name: AutoSentryIgnoredTables
+  nameWithType: SqlCommand.AutoSentryIgnoredTables
+  fullName: SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nReturn an enumerator over the list of tables for which no Auto Sentry will be created.\nSee <xref href=\"SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)\" data-throw-if-not-resolved=\"false\"></xref> for more information.\n"
+  syntax:
+    content: public IEnumerable<TableInfo> AutoSentryIgnoredTables { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}
+    content.vb: Public ReadOnly Property AutoSentryIgnoredTables As IEnumerable(Of TableInfo)
+  overload: SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SqlCommand, To>()
+  nameWithType: EnumUtil.MapEnums<SqlCommand, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.SqlCommand, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SqlCommand, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.SqlCommand, To)()
+  name.vb: MapEnums(Of SqlCommand, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SqlCommand, To>
+    nameWithType: EnumUtil.MapEnums<SqlCommand, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.SqlCommand, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SqlCommand, To)
+    nameWithType: EnumUtil.MapEnums(Of SqlCommand, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.SqlCommand, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  name: ExecuteReader(Boolean)
+  nameWithType: QueryExectionExtensions.ExecuteReader(Boolean)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
+    name: ExecuteReader
+    nameWithType: QueryExectionExtensions.ExecuteReader
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
+    name: ExecuteReader
+    nameWithType: QueryExectionExtensions.ExecuteReader
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand)
+  name: ExecuteScalar<T>()
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>()
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>()
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)()
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)()
+  name.vb: ExecuteScalar(Of T)()
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
+    name: ExecuteScalar<T>
+    nameWithType: QueryExectionExtensions.ExecuteScalar<T>
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
+    name: ExecuteScalar(Of T)
+    nameWithType: QueryExectionExtensions.ExecuteScalar(Of T)
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+  name: ExecuteNonQuery()
+  nameWithType: QueryExectionExtensions.ExecuteNonQuery()
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery()
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+    name: ExecuteNonQuery
+    nameWithType: QueryExectionExtensions.ExecuteNonQuery
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+    name: ExecuteNonQuery
+    nameWithType: QueryExectionExtensions.ExecuteNonQuery
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SqlCommand, To>()
+  nameWithType: Converters.MapEnums<SqlCommand, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.SqlCommand, To>()
+  nameWithType.vb: Converters.MapEnums(Of SqlCommand, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.SqlCommand, To)()
+  name.vb: MapEnums(Of SqlCommand, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SqlCommand, To>
+    nameWithType: Converters.MapEnums<SqlCommand, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.SqlCommand, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SqlCommand, To)
+    nameWithType: Converters.MapEnums(Of SqlCommand, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.SqlCommand, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  isExternal: true
+  name: ExecuteReader(SqlCommand, Boolean)
+  nameWithType: QueryExectionExtensions.ExecuteReader(SqlCommand, Boolean)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteReader
+    nameWithType: QueryExectionExtensions.ExecuteReader
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteReader
+    nameWithType: QueryExectionExtensions.ExecuteReader
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.QueryExectionExtensions
+  commentId: T:SuperOffice.Data.QueryExectionExtensions
+  parent: SuperOffice.Data
+  isExternal: true
+  name: QueryExectionExtensions
+  nameWithType: QueryExectionExtensions
+  fullName: SuperOffice.Data.QueryExectionExtensions
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand)
+  isExternal: true
+  name: ExecuteScalar<T>(SqlCommand)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand)
+  name.vb: ExecuteScalar(Of T)(SqlCommand)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand)
+    name: ExecuteScalar<T>
+    nameWithType: QueryExectionExtensions.ExecuteScalar<T>
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand)
+    name: ExecuteScalar(Of T)
+    nameWithType: QueryExectionExtensions.ExecuteScalar(Of T)
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+  isExternal: true
+  name: ExecuteNonQuery(SqlCommand)
+  nameWithType: QueryExectionExtensions.ExecuteNonQuery(SqlCommand)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+    name: ExecuteNonQuery
+    nameWithType: QueryExectionExtensions.ExecuteNonQuery
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+    name: ExecuteNonQuery
+    nameWithType: QueryExectionExtensions.ExecuteNonQuery
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.SQL.SqlCommand.GetTableInfos*
+  commentId: Overload:SuperOffice.Data.SQL.SqlCommand.GetTableInfos
+  isExternal: true
+  name: GetTableInfos
+  nameWithType: SqlCommand.GetTableInfos
+  fullName: SuperOffice.Data.SQL.SqlCommand.GetTableInfos
+- uid: SuperOffice.Data.SQL.TableInfo[]
+  isExternal: true
+  name: TableInfo[]
+  nameWithType: TableInfo[]
+  fullName: SuperOffice.Data.SQL.TableInfo[]
+  nameWithType.vb: TableInfo()
+  fullName.vb: SuperOffice.Data.SQL.TableInfo()
+  name.vb: TableInfo()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.SQL.SqlCommand.#ctor*
+  commentId: Overload:SuperOffice.Data.SQL.SqlCommand.#ctor
+  isExternal: true
+  name: SqlCommand
+  nameWithType: SqlCommand.SqlCommand
+  fullName: SuperOffice.Data.SQL.SqlCommand.SqlCommand
+- uid: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo*
+  commentId: Overload:SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo
+  isExternal: true
+  name: AddIgnoreAutoSentryTableInfo
+  nameWithType: SqlCommand.AddIgnoreAutoSentryTableInfo
+  fullName: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<TableInfo>
+  nameWithType: IEnumerable<TableInfo>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.TableInfo>
+  nameWithType.vb: IEnumerable(Of TableInfo)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.TableInfo)
+  name.vb: IEnumerable(Of TableInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo*
+  commentId: Overload:SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo
+  isExternal: true
+  name: RemoveIgnoreAutoSentryTableInfo
+  nameWithType: SqlCommand.RemoveIgnoreAutoSentryTableInfo
+  fullName: SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Data.SQL.SqlCommand.ClearIgnoreAutoSentryTableInfos*
+  commentId: Overload:SuperOffice.Data.SQL.SqlCommand.ClearIgnoreAutoSentryTableInfos
+  isExternal: true
+  name: ClearIgnoreAutoSentryTableInfos
+  nameWithType: SqlCommand.ClearIgnoreAutoSentryTableInfos
+  fullName: SuperOffice.Data.SQL.SqlCommand.ClearIgnoreAutoSentryTableInfos
+- uid: SuperOffice.Data.SQL.SqlCommand.IsAutoSentryIgnoredOnTableInfo*
+  commentId: Overload:SuperOffice.Data.SQL.SqlCommand.IsAutoSentryIgnoredOnTableInfo
+  isExternal: true
+  name: IsAutoSentryIgnoredOnTableInfo
+  nameWithType: SqlCommand.IsAutoSentryIgnoredOnTableInfo
+  fullName: SuperOffice.Data.SQL.SqlCommand.IsAutoSentryIgnoredOnTableInfo
+- uid: SuperOffice.Data.SQL.SqlCommand.GetPrivateSaves*
+  commentId: Overload:SuperOffice.Data.SQL.SqlCommand.GetPrivateSaves
+  isExternal: true
+  name: GetPrivateSaves
+  nameWithType: SqlCommand.GetPrivateSaves
+  fullName: SuperOffice.Data.SQL.SqlCommand.GetPrivateSaves
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.PrivateSave}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.PrivateSave}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<PrivateSave>
+  nameWithType: IEnumerable<PrivateSave>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.PrivateSave>
+  nameWithType.vb: IEnumerable(Of PrivateSave)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.PrivateSave)
+  name.vb: IEnumerable(Of PrivateSave)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.PrivateSave
+    name: PrivateSave
+    nameWithType: PrivateSave
+    fullName: SuperOffice.Data.SQL.PrivateSave
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.PrivateSave
+    name: PrivateSave
+    nameWithType: PrivateSave
+    fullName: SuperOffice.Data.SQL.PrivateSave
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.GetInserts*
+  commentId: Overload:SuperOffice.Data.SQL.SqlCommand.GetInserts
+  isExternal: true
+  name: GetInserts
+  nameWithType: SqlCommand.GetInserts
+  fullName: SuperOffice.Data.SQL.SqlCommand.GetInserts
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Insert>
+  nameWithType: IEnumerable<Insert>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.GetUpdates*
+  commentId: Overload:SuperOffice.Data.SQL.SqlCommand.GetUpdates
+  isExternal: true
+  name: GetUpdates
+  nameWithType: SqlCommand.GetUpdates
+  fullName: SuperOffice.Data.SQL.SqlCommand.GetUpdates
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Update}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Update}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Update>
+  nameWithType: IEnumerable<Update>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Update>
+  nameWithType.vb: IEnumerable(Of Update)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Update)
+  name.vb: IEnumerable(Of Update)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Update
+    name: Update
+    nameWithType: Update
+    fullName: SuperOffice.Data.SQL.Update
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Update
+    name: Update
+    nameWithType: Update
+    fullName: SuperOffice.Data.SQL.Update
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.GetDeletes*
+  commentId: Overload:SuperOffice.Data.SQL.SqlCommand.GetDeletes
+  isExternal: true
+  name: GetDeletes
+  nameWithType: SqlCommand.GetDeletes
+  fullName: SuperOffice.Data.SQL.SqlCommand.GetDeletes
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Delete}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Delete}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Delete>
+  nameWithType: IEnumerable<Delete>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Delete>
+  nameWithType.vb: IEnumerable(Of Delete)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Delete)
+  name.vb: IEnumerable(Of Delete)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Delete
+    name: Delete
+    nameWithType: Delete
+    fullName: SuperOffice.Data.SQL.Delete
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Delete
+    name: Delete
+    nameWithType: Delete
+    fullName: SuperOffice.Data.SQL.Delete
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.GetSelect*
+  commentId: Overload:SuperOffice.Data.SQL.SqlCommand.GetSelect
+  isExternal: true
+  name: GetSelect
+  nameWithType: SqlCommand.GetSelect
+  fullName: SuperOffice.Data.SQL.SqlCommand.GetSelect
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Select}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Select}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Select>
+  nameWithType: IEnumerable<Select>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Select>
+  nameWithType.vb: IEnumerable(Of Select)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Select)
+  name.vb: IEnumerable(Of Select)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.Select
+    name: Select
+    nameWithType: Select
+    fullName: SuperOffice.Data.SQL.Select
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.Select
+    name: Select
+    nameWithType: Select
+    fullName: SuperOffice.Data.SQL.Select
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SqlType*
+  commentId: Overload:SuperOffice.Data.SQL.SqlCommand.SqlType
+  isExternal: true
+  name: SqlType
+  nameWithType: SqlCommand.SqlType
+  fullName: SuperOffice.Data.SQL.SqlCommand.SqlType
+- uid: SuperOffice.Data.SQL.SqlType
+  commentId: T:SuperOffice.Data.SQL.SqlType
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: SqlType
+  nameWithType: SqlType
+  fullName: SuperOffice.Data.SQL.SqlType
+- uid: SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables*
+  commentId: Overload:SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
+  isExternal: true
+  name: AutoSentryIgnoredTables
+  nameWithType: SqlCommand.AutoSentryIgnoredTables
+  fullName: SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables

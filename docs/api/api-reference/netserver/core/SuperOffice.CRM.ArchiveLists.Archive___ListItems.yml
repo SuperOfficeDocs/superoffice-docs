@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.Archive___ListItems
+  commentId: N:SuperOffice.CRM.ArchiveLists.Archive___ListItems
+  id: SuperOffice.CRM.ArchiveLists.Archive___ListItems
+  children:
+  - SuperOffice.CRM.ArchiveLists.Archive___ListItems.TemplateLanguageProvider
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.ArchiveLists.Archive___ListItems
+  nameWithType: SuperOffice.CRM.ArchiveLists.Archive___ListItems
+  fullName: SuperOffice.CRM.ArchiveLists.Archive___ListItems
+  type: Namespace
+  assemblies:
+  - SoDataBase
+references:
+- uid: SuperOffice.CRM.ArchiveLists.Archive___ListItems.TemplateLanguageProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive___ListItems.TemplateLanguageProvider
+  isExternal: true
+  name: TemplateLanguageProvider
+  nameWithType: TemplateLanguageProvider
+  fullName: SuperOffice.CRM.ArchiveLists.Archive___ListItems.TemplateLanguageProvider

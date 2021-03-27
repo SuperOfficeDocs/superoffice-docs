@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_UpdateQuoteVersionPricesRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_UpdateQuoteVersionPricesRequest
+  id: Quote_UpdateQuoteVersionPricesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_UpdateQuoteVersionPricesRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_UpdateQuoteVersionPricesRequest.QuoteVersionId
+  langs:
+  - csharp
+  - vb
+  name: Quote_UpdateQuoteVersionPricesRequest
+  nameWithType: Quote_UpdateQuoteVersionPricesRequest
+  fullName: SuperOffice.WebApi.Data.Quote_UpdateQuoteVersionPricesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_UpdateQuoteVersionPricesRequest : Object'
+    content.vb: >-
+      Public Class Quote_UpdateQuoteVersionPricesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_UpdateQuoteVersionPricesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_UpdateQuoteVersionPricesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_UpdateQuoteVersionPricesRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_UpdateQuoteVersionPricesRequest()
+  nameWithType: Quote_UpdateQuoteVersionPricesRequest.Quote_UpdateQuoteVersionPricesRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_UpdateQuoteVersionPricesRequest.Quote_UpdateQuoteVersionPricesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_UpdateQuoteVersionPricesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_UpdateQuoteVersionPricesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_UpdateQuoteVersionPricesRequest.QuoteVersionId
+  commentId: P:SuperOffice.WebApi.Data.Quote_UpdateQuoteVersionPricesRequest.QuoteVersionId
+  id: QuoteVersionId
+  parent: SuperOffice.WebApi.Data.Quote_UpdateQuoteVersionPricesRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionId
+  nameWithType: Quote_UpdateQuoteVersionPricesRequest.QuoteVersionId
+  fullName: SuperOffice.WebApi.Data.Quote_UpdateQuoteVersionPricesRequest.QuoteVersionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int QuoteVersionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteVersionId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_UpdateQuoteVersionPricesRequest.QuoteVersionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_UpdateQuoteVersionPricesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_UpdateQuoteVersionPricesRequest.#ctor
+  isExternal: true
+  name: Quote_UpdateQuoteVersionPricesRequest
+  nameWithType: Quote_UpdateQuoteVersionPricesRequest.Quote_UpdateQuoteVersionPricesRequest
+  fullName: SuperOffice.WebApi.Data.Quote_UpdateQuoteVersionPricesRequest.Quote_UpdateQuoteVersionPricesRequest
+- uid: SuperOffice.WebApi.Data.Quote_UpdateQuoteVersionPricesRequest.QuoteVersionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_UpdateQuoteVersionPricesRequest.QuoteVersionId
+  isExternal: true
+  name: QuoteVersionId
+  nameWithType: Quote_UpdateQuoteVersionPricesRequest.QuoteVersionId
+  fullName: SuperOffice.WebApi.Data.Quote_UpdateQuoteVersionPricesRequest.QuoteVersionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

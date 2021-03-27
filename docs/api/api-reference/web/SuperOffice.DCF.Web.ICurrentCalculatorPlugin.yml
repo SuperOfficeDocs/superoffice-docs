@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.ICurrentCalculatorPlugin
+  commentId: T:SuperOffice.DCF.Web.ICurrentCalculatorPlugin
+  id: ICurrentCalculatorPlugin
+  parent: SuperOffice.DCF.Web
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ICurrentCalculatorPlugin
+  nameWithType: ICurrentCalculatorPlugin
+  fullName: SuperOffice.DCF.Web.ICurrentCalculatorPlugin
+  type: Interface
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: 'public interface ICurrentCalculatorPlugin : IPlugin'
+    content.vb: >-
+      Public Interface ICurrentCalculatorPlugin
+          Inherits IPlugin
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ViewState_GetHistoriesByNameRequest
+  commentId: T:SuperOffice.WebApi.Data.ViewState_GetHistoriesByNameRequest
+  id: ViewState_GetHistoriesByNameRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ViewState_GetHistoriesByNameRequest.#ctor
+  - SuperOffice.WebApi.Data.ViewState_GetHistoriesByNameRequest.HistoryName
+  langs:
+  - csharp
+  - vb
+  name: ViewState_GetHistoriesByNameRequest
+  nameWithType: ViewState_GetHistoriesByNameRequest
+  fullName: SuperOffice.WebApi.Data.ViewState_GetHistoriesByNameRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ViewState_GetHistoriesByNameRequest : Object'
+    content.vb: >-
+      Public Class ViewState_GetHistoriesByNameRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ViewState_GetHistoriesByNameRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ViewState_GetHistoriesByNameRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ViewState_GetHistoriesByNameRequest
+  langs:
+  - csharp
+  - vb
+  name: ViewState_GetHistoriesByNameRequest()
+  nameWithType: ViewState_GetHistoriesByNameRequest.ViewState_GetHistoriesByNameRequest()
+  fullName: SuperOffice.WebApi.Data.ViewState_GetHistoriesByNameRequest.ViewState_GetHistoriesByNameRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ViewState_GetHistoriesByNameRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ViewState_GetHistoriesByNameRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ViewState_GetHistoriesByNameRequest.HistoryName
+  commentId: P:SuperOffice.WebApi.Data.ViewState_GetHistoriesByNameRequest.HistoryName
+  id: HistoryName
+  parent: SuperOffice.WebApi.Data.ViewState_GetHistoriesByNameRequest
+  langs:
+  - csharp
+  - vb
+  name: HistoryName
+  nameWithType: ViewState_GetHistoriesByNameRequest.HistoryName
+  fullName: SuperOffice.WebApi.Data.ViewState_GetHistoriesByNameRequest.HistoryName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string HistoryName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HistoryName As String
+  overload: SuperOffice.WebApi.Data.ViewState_GetHistoriesByNameRequest.HistoryName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ViewState_GetHistoriesByNameRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ViewState_GetHistoriesByNameRequest.#ctor
+  isExternal: true
+  name: ViewState_GetHistoriesByNameRequest
+  nameWithType: ViewState_GetHistoriesByNameRequest.ViewState_GetHistoriesByNameRequest
+  fullName: SuperOffice.WebApi.Data.ViewState_GetHistoriesByNameRequest.ViewState_GetHistoriesByNameRequest
+- uid: SuperOffice.WebApi.Data.ViewState_GetHistoriesByNameRequest.HistoryName*
+  commentId: Overload:SuperOffice.WebApi.Data.ViewState_GetHistoriesByNameRequest.HistoryName
+  isExternal: true
+  name: HistoryName
+  nameWithType: ViewState_GetHistoriesByNameRequest.HistoryName
+  fullName: SuperOffice.WebApi.Data.ViewState_GetHistoriesByNameRequest.HistoryName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

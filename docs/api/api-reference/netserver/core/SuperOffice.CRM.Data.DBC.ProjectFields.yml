@@ -1,0 +1,1097 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields
+  commentId: T:SuperOffice.CRM.Data.DBC.ProjectFields
+  id: DBC.ProjectFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.ProjectFields.ActiveErpLinks
+  - SuperOffice.CRM.Data.DBC.ProjectFields.ActiveLinks
+  - SuperOffice.CRM.Data.DBC.ProjectFields.AssociateId
+  - SuperOffice.CRM.Data.DBC.ProjectFields.Done
+  - SuperOffice.CRM.Data.DBC.ProjectFields.EndDate
+  - SuperOffice.CRM.Data.DBC.ProjectFields.GroupId
+  - SuperOffice.CRM.Data.DBC.ProjectFields.Name
+  - SuperOffice.CRM.Data.DBC.ProjectFields.NextMilestoneDate
+  - SuperOffice.CRM.Data.DBC.ProjectFields.NmdAppointmentId
+  - SuperOffice.CRM.Data.DBC.ProjectFields.PostitTextId
+  - SuperOffice.CRM.Data.DBC.ProjectFields.ProjectId
+  - SuperOffice.CRM.Data.DBC.ProjectFields.ProjectNumber
+  - SuperOffice.CRM.Data.DBC.ProjectFields.Registered
+  - SuperOffice.CRM.Data.DBC.ProjectFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.ProjectFields.SoundEx
+  - SuperOffice.CRM.Data.DBC.ProjectFields.Source
+  - SuperOffice.CRM.Data.DBC.ProjectFields.StatusIdx
+  - SuperOffice.CRM.Data.DBC.ProjectFields.TextId
+  - SuperOffice.CRM.Data.DBC.ProjectFields.TypeIdx
+  - SuperOffice.CRM.Data.DBC.ProjectFields.TzLocationId
+  - SuperOffice.CRM.Data.DBC.ProjectFields.Updated
+  - SuperOffice.CRM.Data.DBC.ProjectFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.ProjectFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.ProjectFields.Userdef2Id
+  - SuperOffice.CRM.Data.DBC.ProjectFields.UserdefId
+  langs:
+  - csharp
+  - vb
+  name: DBC.ProjectFields
+  nameWithType: DBC.ProjectFields
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for Project, Projects\n"
+  syntax:
+    content: public static class ProjectFields
+    content.vb: Public Module ProjectFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.ProjectId
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: DBC.ProjectFields.ProjectId
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.ProjectId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProject.ProjectId: Primary key\n"
+  syntax:
+    content: public const string ProjectId = "project_id"
+    return:
+      type: System.String
+    content.vb: Public Const ProjectId As String = "project_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.ProjectFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProject.Name: Project name\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.ProjectNumber
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.ProjectNumber
+  id: ProjectNumber
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: ProjectNumber
+  nameWithType: DBC.ProjectFields.ProjectNumber
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.ProjectNumber
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProject.ProjectNumber: Automatically generated number\n"
+  syntax:
+    content: public const string ProjectNumber = "project_number"
+    return:
+      type: System.String
+    content.vb: Public Const ProjectNumber As String = "project_number"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.TypeIdx
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.TypeIdx
+  id: TypeIdx
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: TypeIdx
+  nameWithType: DBC.ProjectFields.TypeIdx
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.TypeIdx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProject.TypeIdx: Link to ProjType list\n"
+  syntax:
+    content: public const string TypeIdx = "type_idx"
+    return:
+      type: System.String
+    content.vb: Public Const TypeIdx As String = "type_idx"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.StatusIdx
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.StatusIdx
+  id: StatusIdx
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: StatusIdx
+  nameWithType: DBC.ProjectFields.StatusIdx
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.StatusIdx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProject.StatusIdx: Link to ProjStatus list\n"
+  syntax:
+    content: public const string StatusIdx = "status_idx"
+    return:
+      type: System.String
+    content.vb: Public Const StatusIdx As String = "status_idx"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.AssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: DBC.ProjectFields.AssociateId
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.AssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProject.AssociateId: Project manager/owner\n"
+  syntax:
+    content: public const string AssociateId = "associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const AssociateId As String = "associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.TextId
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.TextId
+  id: TextId
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: TextId
+  nameWithType: DBC.ProjectFields.TextId
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.TextId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProject.TextId: Description field\n"
+  syntax:
+    content: public const string TextId = "text_id"
+    return:
+      type: System.String
+    content.vb: Public Const TextId As String = "text_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.ProjectFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProject.Registered: Registered date\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.ProjectFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProject.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.ProjectFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProject.Updated: Last updated date\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.ProjectFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProject.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.UserdefId
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.UserdefId
+  id: UserdefId
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: UserdefId
+  nameWithType: DBC.ProjectFields.UserdefId
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.UserdefId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProject.UserdefId: Pointer to userdef small table\n"
+  syntax:
+    content: public const string UserdefId = "userdef_id"
+    return:
+      type: System.String
+    content.vb: Public Const UserdefId As String = "userdef_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.SoundEx
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.SoundEx
+  id: SoundEx
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: SoundEx
+  nameWithType: DBC.ProjectFields.SoundEx
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.SoundEx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProject.SoundEx: What the name sounds like, for duplicate detection\n"
+  syntax:
+    content: public const string SoundEx = "soundEx"
+    return:
+      type: System.String
+    content.vb: Public Const SoundEx As String = "soundEx"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.Source
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.Source
+  id: Source
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: DBC.ProjectFields.Source
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.Source
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProject.Source: How did we get this project? For future integration needs\n"
+  syntax:
+    content: public const string Source = "source"
+    return:
+      type: System.String
+    content.vb: Public Const Source As String = "source"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.Userdef2Id
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.Userdef2Id
+  id: Userdef2Id
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: Userdef2Id
+  nameWithType: DBC.ProjectFields.Userdef2Id
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.Userdef2Id
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProject.Userdef2Id: User defined table record 2\n"
+  syntax:
+    content: public const string Userdef2Id = "userdef2_id"
+    return:
+      type: System.String
+    content.vb: Public Const Userdef2Id As String = "userdef2_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.PostitTextId
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.PostitTextId
+  id: PostitTextId
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: PostitTextId
+  nameWithType: DBC.ProjectFields.PostitTextId
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.PostitTextId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProject.PostitTextId: Paperclip text\n"
+  syntax:
+    content: public const string PostitTextId = "postitText_id"
+    return:
+      type: System.String
+    content.vb: Public Const PostitTextId As String = "postitText_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.ProjectFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProject.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.GroupId
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.GroupId
+  id: GroupId
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: GroupId
+  nameWithType: DBC.ProjectFields.GroupId
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.GroupId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProject.GroupId: Group id of original owning associate, semantics like appnt.grp_id\n"
+  syntax:
+    content: public const string GroupId = "group_id"
+    return:
+      type: System.String
+    content.vb: Public Const GroupId As String = "group_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.TzLocationId
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.TzLocationId
+  id: TzLocationId
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: TzLocationId
+  nameWithType: DBC.ProjectFields.TzLocationId
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.TzLocationId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProject.TzLocationId: Default timezone location for this project\n"
+  syntax:
+    content: public const string TzLocationId = "tzLocationId"
+    return:
+      type: System.String
+    content.vb: Public Const TzLocationId As String = "tzLocationId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.ActiveLinks
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.ActiveLinks
+  id: ActiveLinks
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: ActiveLinks
+  nameWithType: DBC.ProjectFields.ActiveLinks
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.ActiveLinks
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProject.ActiveLinks: Number of active links to documents, other appointments, and such\n"
+  syntax:
+    content: public const string ActiveLinks = "activeLinks"
+    return:
+      type: System.String
+    content.vb: Public Const ActiveLinks As String = "activeLinks"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.Done
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.Done
+  id: Done
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: Done
+  nameWithType: DBC.ProjectFields.Done
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.Done
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProject.Done: Done (0=false, 1=true). Status implies changes in which fields are shown in GUI, as well as which fields can be updated\n"
+  syntax:
+    content: public const string Done = "done"
+    return:
+      type: System.String
+    content.vb: Public Const Done As String = "done"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.EndDate
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.EndDate
+  id: EndDate
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: EndDate
+  nameWithType: DBC.ProjectFields.EndDate
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.EndDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProject.EndDate: Planned end date for project, inhertied from type and later editable\n"
+  syntax:
+    content: public const string EndDate = "endDate"
+    return:
+      type: System.String
+    content.vb: Public Const EndDate As String = "endDate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.NextMilestoneDate
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.NextMilestoneDate
+  id: NextMilestoneDate
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: NextMilestoneDate
+  nameWithType: DBC.ProjectFields.NextMilestoneDate
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.NextMilestoneDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProject.NextMilestoneDate: Calculated date, reflects date of closest non-complete future milestone activity\n"
+  syntax:
+    content: public const string NextMilestoneDate = "nextMilestoneDate"
+    return:
+      type: System.String
+    content.vb: Public Const NextMilestoneDate As String = "nextMilestoneDate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.NmdAppointmentId
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.NmdAppointmentId
+  id: NmdAppointmentId
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: NmdAppointmentId
+  nameWithType: DBC.ProjectFields.NmdAppointmentId
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.NmdAppointmentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProject.NmdAppointmentId: ID of appointment that &quot;caused&quot; the nextMilestoneDate, can be 0\n"
+  syntax:
+    content: public const string NmdAppointmentId = "nmdAppointment_id"
+    return:
+      type: System.String
+    content.vb: Public Const NmdAppointmentId As String = "nmdAppointment_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ProjectFields.ActiveErpLinks
+  commentId: F:SuperOffice.CRM.Data.DBC.ProjectFields.ActiveErpLinks
+  id: ActiveErpLinks
+  parent: SuperOffice.CRM.Data.DBC.ProjectFields
+  langs:
+  - csharp
+  - vb
+  name: ActiveErpLinks
+  nameWithType: DBC.ProjectFields.ActiveErpLinks
+  fullName: SuperOffice.CRM.Data.DBC.ProjectFields.ActiveErpLinks
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nProject.ActiveErpLinks: The number of Erp Sync connections this record is synced with; count of the ErpExternalKey+ErpInternalKey relations\n"
+  syntax:
+    content: public const string ActiveErpLinks = "activeErpLinks"
+    return:
+      type: System.String
+    content.vb: Public Const ActiveErpLinks As String = "activeErpLinks"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,555 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Util.DocumentHelper
+  commentId: T:SuperOffice.CRM.Web.Util.DocumentHelper
+  id: DocumentHelper
+  parent: SuperOffice.CRM.Web.Util
+  children:
+  - SuperOffice.CRM.Web.Util.DocumentHelper.#ctor
+  - SuperOffice.CRM.Web.Util.DocumentHelper.IsEmailSupported(SuperOffice.CRM.Web.Util.MailClient,SuperOffice.CRM.Services.DocumentEntity)
+  - SuperOffice.CRM.Web.Util.DocumentHelper.IsEmailSupported(SuperOffice.CRM.Web.Util.MailClient,System.String)
+  - SuperOffice.CRM.Web.Util.DocumentHelper.OpenDocumentTemplateWithTrayApp(System.Int32,System.String)
+  - SuperOffice.CRM.Web.Util.DocumentHelper.OpenDocumentWithTrayApp(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: DocumentHelper
+  nameWithType: DocumentHelper
+  fullName: SuperOffice.CRM.Web.Util.DocumentHelper
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public class DocumentHelper
+    content.vb: Public Class DocumentHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Util.DocumentHelper.IsEmailSupported(SuperOffice.CRM.Web.Util.MailClient,System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.DocumentHelper.IsEmailSupported(SuperOffice.CRM.Web.Util.MailClient,System.String)
+  id: IsEmailSupported(SuperOffice.CRM.Web.Util.MailClient,System.String)
+  parent: SuperOffice.CRM.Web.Util.DocumentHelper
+  langs:
+  - csharp
+  - vb
+  name: IsEmailSupported(MailClient, String)
+  nameWithType: DocumentHelper.IsEmailSupported(MailClient, String)
+  fullName: SuperOffice.CRM.Web.Util.DocumentHelper.IsEmailSupported(SuperOffice.CRM.Web.Util.MailClient, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static bool IsEmailSupported(MailClient client, string filename)
+    parameters:
+    - id: client
+      type: SuperOffice.CRM.Web.Util.MailClient
+    - id: filename
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsEmailSupported(client As MailClient, filename As String) As Boolean
+  overload: SuperOffice.CRM.Web.Util.DocumentHelper.IsEmailSupported*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.DocumentHelper.IsEmailSupported(SuperOffice.CRM.Web.Util.MailClient,SuperOffice.CRM.Services.DocumentEntity)
+  commentId: M:SuperOffice.CRM.Web.Util.DocumentHelper.IsEmailSupported(SuperOffice.CRM.Web.Util.MailClient,SuperOffice.CRM.Services.DocumentEntity)
+  id: IsEmailSupported(SuperOffice.CRM.Web.Util.MailClient,SuperOffice.CRM.Services.DocumentEntity)
+  parent: SuperOffice.CRM.Web.Util.DocumentHelper
+  langs:
+  - csharp
+  - vb
+  name: IsEmailSupported(MailClient, DocumentEntity)
+  nameWithType: DocumentHelper.IsEmailSupported(MailClient, DocumentEntity)
+  fullName: SuperOffice.CRM.Web.Util.DocumentHelper.IsEmailSupported(SuperOffice.CRM.Web.Util.MailClient, SuperOffice.CRM.Services.DocumentEntity)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static bool IsEmailSupported(MailClient client, DocumentEntity document)
+    parameters:
+    - id: client
+      type: SuperOffice.CRM.Web.Util.MailClient
+    - id: document
+      type: SuperOffice.CRM.Services.DocumentEntity
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsEmailSupported(client As MailClient, document As DocumentEntity) As Boolean
+  overload: SuperOffice.CRM.Web.Util.DocumentHelper.IsEmailSupported*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.DocumentHelper.OpenDocumentWithTrayApp(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.Util.DocumentHelper.OpenDocumentWithTrayApp(System.Int32)
+  id: OpenDocumentWithTrayApp(System.Int32)
+  parent: SuperOffice.CRM.Web.Util.DocumentHelper
+  langs:
+  - csharp
+  - vb
+  name: OpenDocumentWithTrayApp(Int32)
+  nameWithType: DocumentHelper.OpenDocumentWithTrayApp(Int32)
+  fullName: SuperOffice.CRM.Web.Util.DocumentHelper.OpenDocumentWithTrayApp(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static void OpenDocumentWithTrayApp(int documentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+    content.vb: Public Shared Sub OpenDocumentWithTrayApp(documentId As Integer)
+  overload: SuperOffice.CRM.Web.Util.DocumentHelper.OpenDocumentWithTrayApp*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.DocumentHelper.OpenDocumentTemplateWithTrayApp(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.DocumentHelper.OpenDocumentTemplateWithTrayApp(System.Int32,System.String)
+  id: OpenDocumentTemplateWithTrayApp(System.Int32,System.String)
+  parent: SuperOffice.CRM.Web.Util.DocumentHelper
+  langs:
+  - csharp
+  - vb
+  name: OpenDocumentTemplateWithTrayApp(Int32, String)
+  nameWithType: DocumentHelper.OpenDocumentTemplateWithTrayApp(Int32, String)
+  fullName: SuperOffice.CRM.Web.Util.DocumentHelper.OpenDocumentTemplateWithTrayApp(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static void OpenDocumentTemplateWithTrayApp(int documentId, string languageCode)
+    parameters:
+    - id: documentId
+      type: System.Int32
+    - id: languageCode
+      type: System.String
+    content.vb: Public Shared Sub OpenDocumentTemplateWithTrayApp(documentId As Integer, languageCode As String)
+  overload: SuperOffice.CRM.Web.Util.DocumentHelper.OpenDocumentTemplateWithTrayApp*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.DocumentHelper.#ctor
+  commentId: M:SuperOffice.CRM.Web.Util.DocumentHelper.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Util.DocumentHelper
+  langs:
+  - csharp
+  - vb
+  name: DocumentHelper()
+  nameWithType: DocumentHelper.DocumentHelper()
+  fullName: SuperOffice.CRM.Web.Util.DocumentHelper.DocumentHelper()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public DocumentHelper()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Util.DocumentHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Util
+  commentId: N:SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: SuperOffice.CRM.Web.Util
+  nameWithType: SuperOffice.CRM.Web.Util
+  fullName: SuperOffice.CRM.Web.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Util.DocumentHelper.IsEmailSupported*
+  commentId: Overload:SuperOffice.CRM.Web.Util.DocumentHelper.IsEmailSupported
+  isExternal: true
+  name: IsEmailSupported
+  nameWithType: DocumentHelper.IsEmailSupported
+  fullName: SuperOffice.CRM.Web.Util.DocumentHelper.IsEmailSupported
+- uid: SuperOffice.CRM.Web.Util.MailClient
+  commentId: T:SuperOffice.CRM.Web.Util.MailClient
+  parent: SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: MailClient
+  nameWithType: MailClient
+  fullName: SuperOffice.CRM.Web.Util.MailClient
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.DocumentEntity
+  isExternal: true
+  name: DocumentEntity
+  nameWithType: DocumentEntity
+  fullName: SuperOffice.CRM.Services.DocumentEntity
+- uid: SuperOffice.CRM.Web.Util.DocumentHelper.OpenDocumentWithTrayApp*
+  commentId: Overload:SuperOffice.CRM.Web.Util.DocumentHelper.OpenDocumentWithTrayApp
+  isExternal: true
+  name: OpenDocumentWithTrayApp
+  nameWithType: DocumentHelper.OpenDocumentWithTrayApp
+  fullName: SuperOffice.CRM.Web.Util.DocumentHelper.OpenDocumentWithTrayApp
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.Util.DocumentHelper.OpenDocumentTemplateWithTrayApp*
+  commentId: Overload:SuperOffice.CRM.Web.Util.DocumentHelper.OpenDocumentTemplateWithTrayApp
+  isExternal: true
+  name: OpenDocumentTemplateWithTrayApp
+  nameWithType: DocumentHelper.OpenDocumentTemplateWithTrayApp
+  fullName: SuperOffice.CRM.Web.Util.DocumentHelper.OpenDocumentTemplateWithTrayApp
+- uid: SuperOffice.CRM.Web.Util.DocumentHelper.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Util.DocumentHelper.#ctor
+  isExternal: true
+  name: DocumentHelper
+  nameWithType: DocumentHelper.DocumentHelper
+  fullName: SuperOffice.CRM.Web.Util.DocumentHelper.DocumentHelper

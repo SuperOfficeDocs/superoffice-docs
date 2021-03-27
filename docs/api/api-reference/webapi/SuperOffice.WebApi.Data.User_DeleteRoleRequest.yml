@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.User_DeleteRoleRequest
+  commentId: T:SuperOffice.WebApi.Data.User_DeleteRoleRequest
+  id: User_DeleteRoleRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.User_DeleteRoleRequest.#ctor
+  - SuperOffice.WebApi.Data.User_DeleteRoleRequest.ReplacingRoleId
+  - SuperOffice.WebApi.Data.User_DeleteRoleRequest.RoleIdToDelete
+  langs:
+  - csharp
+  - vb
+  name: User_DeleteRoleRequest
+  nameWithType: User_DeleteRoleRequest
+  fullName: SuperOffice.WebApi.Data.User_DeleteRoleRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class User_DeleteRoleRequest : Object'
+    content.vb: >-
+      Public Class User_DeleteRoleRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.User_DeleteRoleRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.User_DeleteRoleRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.User_DeleteRoleRequest
+  langs:
+  - csharp
+  - vb
+  name: User_DeleteRoleRequest()
+  nameWithType: User_DeleteRoleRequest.User_DeleteRoleRequest()
+  fullName: SuperOffice.WebApi.Data.User_DeleteRoleRequest.User_DeleteRoleRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User_DeleteRoleRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.User_DeleteRoleRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_DeleteRoleRequest.RoleIdToDelete
+  commentId: P:SuperOffice.WebApi.Data.User_DeleteRoleRequest.RoleIdToDelete
+  id: RoleIdToDelete
+  parent: SuperOffice.WebApi.Data.User_DeleteRoleRequest
+  langs:
+  - csharp
+  - vb
+  name: RoleIdToDelete
+  nameWithType: User_DeleteRoleRequest.RoleIdToDelete
+  fullName: SuperOffice.WebApi.Data.User_DeleteRoleRequest.RoleIdToDelete
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int RoleIdToDelete { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RoleIdToDelete As Integer
+  overload: SuperOffice.WebApi.Data.User_DeleteRoleRequest.RoleIdToDelete*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_DeleteRoleRequest.ReplacingRoleId
+  commentId: P:SuperOffice.WebApi.Data.User_DeleteRoleRequest.ReplacingRoleId
+  id: ReplacingRoleId
+  parent: SuperOffice.WebApi.Data.User_DeleteRoleRequest
+  langs:
+  - csharp
+  - vb
+  name: ReplacingRoleId
+  nameWithType: User_DeleteRoleRequest.ReplacingRoleId
+  fullName: SuperOffice.WebApi.Data.User_DeleteRoleRequest.ReplacingRoleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ReplacingRoleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ReplacingRoleId As Integer
+  overload: SuperOffice.WebApi.Data.User_DeleteRoleRequest.ReplacingRoleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.User_DeleteRoleRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.User_DeleteRoleRequest.#ctor
+  isExternal: true
+  name: User_DeleteRoleRequest
+  nameWithType: User_DeleteRoleRequest.User_DeleteRoleRequest
+  fullName: SuperOffice.WebApi.Data.User_DeleteRoleRequest.User_DeleteRoleRequest
+- uid: SuperOffice.WebApi.Data.User_DeleteRoleRequest.RoleIdToDelete*
+  commentId: Overload:SuperOffice.WebApi.Data.User_DeleteRoleRequest.RoleIdToDelete
+  isExternal: true
+  name: RoleIdToDelete
+  nameWithType: User_DeleteRoleRequest.RoleIdToDelete
+  fullName: SuperOffice.WebApi.Data.User_DeleteRoleRequest.RoleIdToDelete
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.User_DeleteRoleRequest.ReplacingRoleId*
+  commentId: Overload:SuperOffice.WebApi.Data.User_DeleteRoleRequest.ReplacingRoleId
+  isExternal: true
+  name: ReplacingRoleId
+  nameWithType: User_DeleteRoleRequest.ReplacingRoleId
+  fullName: SuperOffice.WebApi.Data.User_DeleteRoleRequest.ReplacingRoleId

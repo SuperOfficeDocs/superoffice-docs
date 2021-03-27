@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.AjaxMethods
+  commentId: N:SuperOffice.DCF.Web.AjaxMethods
+  id: SuperOffice.DCF.Web.AjaxMethods
+  children:
+  - SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever
+  - SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject
+  - SuperOffice.DCF.Web.AjaxMethods.General
+  - SuperOffice.DCF.Web.AjaxMethods.SuperState
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.DCF.Web.AjaxMethods
+  nameWithType: SuperOffice.DCF.Web.AjaxMethods
+  fullName: SuperOffice.DCF.Web.AjaxMethods
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCFWeb
+references:
+- uid: SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject
+  commentId: T:SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject
+  isExternal: true
+  name: AjaxResponseObject
+  nameWithType: AjaxResponseObject
+  fullName: SuperOffice.DCF.Web.AjaxMethods.AjaxResponseObject
+- uid: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever
+  commentId: T:SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever
+  isExternal: true
+  name: AjaxMethodReciever
+  nameWithType: AjaxMethodReciever
+  fullName: SuperOffice.DCF.Web.AjaxMethods.AjaxMethodReciever
+- uid: SuperOffice.DCF.Web.AjaxMethods.General
+  commentId: T:SuperOffice.DCF.Web.AjaxMethods.General
+  isExternal: true
+  name: General
+  nameWithType: General
+  fullName: SuperOffice.DCF.Web.AjaxMethods.General
+- uid: SuperOffice.DCF.Web.AjaxMethods.SuperState
+  commentId: T:SuperOffice.DCF.Web.AjaxMethods.SuperState
+  isExternal: true
+  name: SuperState
+  nameWithType: SuperState
+  fullName: SuperOffice.DCF.Web.AjaxMethods.SuperState

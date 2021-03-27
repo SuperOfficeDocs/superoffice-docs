@@ -1,0 +1,1207 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.ScreenChooserType
+  commentId: T:SuperOffice.Data.ScreenChooserType
+  id: ScreenChooserType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.ScreenChooserType.CompactModeInjection
+  - SuperOffice.Data.ScreenChooserType.DbiTaskFailed
+  - SuperOffice.Data.ScreenChooserType.ExtraTableAll
+  - SuperOffice.Data.ScreenChooserType.ExtraTableEdit
+  - SuperOffice.Data.ScreenChooserType.ExtraTableEntry
+  - SuperOffice.Data.ScreenChooserType.NewTicket
+  - SuperOffice.Data.ScreenChooserType.NewTicketFromCustomerCenter
+  - SuperOffice.Data.ScreenChooserType.NewTicketFromCustomerCenterBeforeSave
+  - SuperOffice.Data.ScreenChooserType.NewTicketFromEmail
+  - SuperOffice.Data.ScreenChooserType.None
+  - SuperOffice.Data.ScreenChooserType.ScheduledTaskFailed
+  - SuperOffice.Data.ScreenChooserType.System
+  - SuperOffice.Data.ScreenChooserType.TicketActivated
+  - SuperOffice.Data.ScreenChooserType.TicketChangedCategory
+  - SuperOffice.Data.ScreenChooserType.TicketChangedOwnedBy
+  - SuperOffice.Data.ScreenChooserType.TicketChangedPrimaryCustomer
+  - SuperOffice.Data.ScreenChooserType.TicketChangedPriority
+  - SuperOffice.Data.ScreenChooserType.TicketChangedSlevel
+  - SuperOffice.Data.ScreenChooserType.TicketChangedTicketStatus
+  - SuperOffice.Data.ScreenChooserType.TicketClosed
+  - SuperOffice.Data.ScreenChooserType.TicketDeleted
+  - SuperOffice.Data.ScreenChooserType.TicketExternalMessageAdded
+  - SuperOffice.Data.ScreenChooserType.TicketInternalMessageAdded
+  - SuperOffice.Data.ScreenChooserType.TicketMessageAdded
+  - SuperOffice.Data.ScreenChooserType.TicketPostponed
+  - SuperOffice.Data.ScreenChooserType.TicketReopened
+  - SuperOffice.Data.ScreenChooserType.TicketReopenedFromCustomerCenter
+  - SuperOffice.Data.ScreenChooserType.TicketReopenedFromEmail
+  langs:
+  - csharp
+  - vb
+  name: ScreenChooserType
+  nameWithType: ScreenChooserType
+  fullName: SuperOffice.Data.ScreenChooserType
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCS system event types for custom logic hooking\nThis Enum is used by:  ticket_relation_action.event\n"
+  syntax:
+    content: 'public enum ScreenChooserType : short'
+    content.vb: Public Enum ScreenChooserType As Short
+  extensionMethods:
+  - SuperOffice.Data.ScreenChooserType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.ScreenChooserType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ScreenChooserType)
+  - SuperOffice.Data.ScreenChooserType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.ScreenChooserType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.ScreenChooserType.None
+  commentId: F:SuperOffice.Data.ScreenChooserType.None
+  id: None
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ScreenChooserType.None
+  fullName: SuperOffice.Data.ScreenChooserType.None
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: \n"
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.System
+  commentId: F:SuperOffice.Data.ScreenChooserType.System
+  id: System
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: System
+  nameWithType: ScreenChooserType.System
+  fullName: SuperOffice.Data.ScreenChooserType.System
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: \n"
+  syntax:
+    content: System = 1
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.ExtraTableEntry
+  commentId: F:SuperOffice.Data.ScreenChooserType.ExtraTableEntry
+  id: ExtraTableEntry
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: ExtraTableEntry
+  nameWithType: ScreenChooserType.ExtraTableEntry
+  fullName: SuperOffice.Data.ScreenChooserType.ExtraTableEntry
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: \n"
+  syntax:
+    content: ExtraTableEntry = 2
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.ExtraTableAll
+  commentId: F:SuperOffice.Data.ScreenChooserType.ExtraTableAll
+  id: ExtraTableAll
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: ExtraTableAll
+  nameWithType: ScreenChooserType.ExtraTableAll
+  fullName: SuperOffice.Data.ScreenChooserType.ExtraTableAll
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n3: \n"
+  syntax:
+    content: ExtraTableAll = 3
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.ExtraTableEdit
+  commentId: F:SuperOffice.Data.ScreenChooserType.ExtraTableEdit
+  id: ExtraTableEdit
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: ExtraTableEdit
+  nameWithType: ScreenChooserType.ExtraTableEdit
+  fullName: SuperOffice.Data.ScreenChooserType.ExtraTableEdit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4: \n"
+  syntax:
+    content: ExtraTableEdit = 4
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.NewTicket
+  commentId: F:SuperOffice.Data.ScreenChooserType.NewTicket
+  id: NewTicket
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: NewTicket
+  nameWithType: ScreenChooserType.NewTicket
+  fullName: SuperOffice.Data.ScreenChooserType.NewTicket
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n100: \n"
+  syntax:
+    content: NewTicket = 100
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.NewTicketFromCustomerCenter
+  commentId: F:SuperOffice.Data.ScreenChooserType.NewTicketFromCustomerCenter
+  id: NewTicketFromCustomerCenter
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: NewTicketFromCustomerCenter
+  nameWithType: ScreenChooserType.NewTicketFromCustomerCenter
+  fullName: SuperOffice.Data.ScreenChooserType.NewTicketFromCustomerCenter
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n101: \n"
+  syntax:
+    content: NewTicketFromCustomerCenter = 101
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.NewTicketFromEmail
+  commentId: F:SuperOffice.Data.ScreenChooserType.NewTicketFromEmail
+  id: NewTicketFromEmail
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: NewTicketFromEmail
+  nameWithType: ScreenChooserType.NewTicketFromEmail
+  fullName: SuperOffice.Data.ScreenChooserType.NewTicketFromEmail
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n102: \n"
+  syntax:
+    content: NewTicketFromEmail = 102
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.NewTicketFromCustomerCenterBeforeSave
+  commentId: F:SuperOffice.Data.ScreenChooserType.NewTicketFromCustomerCenterBeforeSave
+  id: NewTicketFromCustomerCenterBeforeSave
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: NewTicketFromCustomerCenterBeforeSave
+  nameWithType: ScreenChooserType.NewTicketFromCustomerCenterBeforeSave
+  fullName: SuperOffice.Data.ScreenChooserType.NewTicketFromCustomerCenterBeforeSave
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n103: \n"
+  syntax:
+    content: NewTicketFromCustomerCenterBeforeSave = 103
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.TicketClosed
+  commentId: F:SuperOffice.Data.ScreenChooserType.TicketClosed
+  id: TicketClosed
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: TicketClosed
+  nameWithType: ScreenChooserType.TicketClosed
+  fullName: SuperOffice.Data.ScreenChooserType.TicketClosed
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n110: \n"
+  syntax:
+    content: TicketClosed = 110
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.TicketPostponed
+  commentId: F:SuperOffice.Data.ScreenChooserType.TicketPostponed
+  id: TicketPostponed
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: TicketPostponed
+  nameWithType: ScreenChooserType.TicketPostponed
+  fullName: SuperOffice.Data.ScreenChooserType.TicketPostponed
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n111: \n"
+  syntax:
+    content: TicketPostponed = 111
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.TicketDeleted
+  commentId: F:SuperOffice.Data.ScreenChooserType.TicketDeleted
+  id: TicketDeleted
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: TicketDeleted
+  nameWithType: ScreenChooserType.TicketDeleted
+  fullName: SuperOffice.Data.ScreenChooserType.TicketDeleted
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n112: \n"
+  syntax:
+    content: TicketDeleted = 112
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.TicketActivated
+  commentId: F:SuperOffice.Data.ScreenChooserType.TicketActivated
+  id: TicketActivated
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: TicketActivated
+  nameWithType: ScreenChooserType.TicketActivated
+  fullName: SuperOffice.Data.ScreenChooserType.TicketActivated
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n113: \n"
+  syntax:
+    content: TicketActivated = 113
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.TicketReopened
+  commentId: F:SuperOffice.Data.ScreenChooserType.TicketReopened
+  id: TicketReopened
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: TicketReopened
+  nameWithType: ScreenChooserType.TicketReopened
+  fullName: SuperOffice.Data.ScreenChooserType.TicketReopened
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n120: \n"
+  syntax:
+    content: TicketReopened = 120
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.TicketReopenedFromCustomerCenter
+  commentId: F:SuperOffice.Data.ScreenChooserType.TicketReopenedFromCustomerCenter
+  id: TicketReopenedFromCustomerCenter
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: TicketReopenedFromCustomerCenter
+  nameWithType: ScreenChooserType.TicketReopenedFromCustomerCenter
+  fullName: SuperOffice.Data.ScreenChooserType.TicketReopenedFromCustomerCenter
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n121: \n"
+  syntax:
+    content: TicketReopenedFromCustomerCenter = 121
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.TicketReopenedFromEmail
+  commentId: F:SuperOffice.Data.ScreenChooserType.TicketReopenedFromEmail
+  id: TicketReopenedFromEmail
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: TicketReopenedFromEmail
+  nameWithType: ScreenChooserType.TicketReopenedFromEmail
+  fullName: SuperOffice.Data.ScreenChooserType.TicketReopenedFromEmail
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n122: \n"
+  syntax:
+    content: TicketReopenedFromEmail = 122
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.TicketChangedPriority
+  commentId: F:SuperOffice.Data.ScreenChooserType.TicketChangedPriority
+  id: TicketChangedPriority
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: TicketChangedPriority
+  nameWithType: ScreenChooserType.TicketChangedPriority
+  fullName: SuperOffice.Data.ScreenChooserType.TicketChangedPriority
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n140: \n"
+  syntax:
+    content: TicketChangedPriority = 140
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.TicketChangedCategory
+  commentId: F:SuperOffice.Data.ScreenChooserType.TicketChangedCategory
+  id: TicketChangedCategory
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: TicketChangedCategory
+  nameWithType: ScreenChooserType.TicketChangedCategory
+  fullName: SuperOffice.Data.ScreenChooserType.TicketChangedCategory
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n141: \n"
+  syntax:
+    content: TicketChangedCategory = 141
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.TicketChangedOwnedBy
+  commentId: F:SuperOffice.Data.ScreenChooserType.TicketChangedOwnedBy
+  id: TicketChangedOwnedBy
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: TicketChangedOwnedBy
+  nameWithType: ScreenChooserType.TicketChangedOwnedBy
+  fullName: SuperOffice.Data.ScreenChooserType.TicketChangedOwnedBy
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n142: \n"
+  syntax:
+    content: TicketChangedOwnedBy = 142
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.TicketChangedPrimaryCustomer
+  commentId: F:SuperOffice.Data.ScreenChooserType.TicketChangedPrimaryCustomer
+  id: TicketChangedPrimaryCustomer
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: TicketChangedPrimaryCustomer
+  nameWithType: ScreenChooserType.TicketChangedPrimaryCustomer
+  fullName: SuperOffice.Data.ScreenChooserType.TicketChangedPrimaryCustomer
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n143: \n"
+  syntax:
+    content: TicketChangedPrimaryCustomer = 143
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.TicketChangedTicketStatus
+  commentId: F:SuperOffice.Data.ScreenChooserType.TicketChangedTicketStatus
+  id: TicketChangedTicketStatus
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: TicketChangedTicketStatus
+  nameWithType: ScreenChooserType.TicketChangedTicketStatus
+  fullName: SuperOffice.Data.ScreenChooserType.TicketChangedTicketStatus
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n144: \n"
+  syntax:
+    content: TicketChangedTicketStatus = 144
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.TicketChangedSlevel
+  commentId: F:SuperOffice.Data.ScreenChooserType.TicketChangedSlevel
+  id: TicketChangedSlevel
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: TicketChangedSlevel
+  nameWithType: ScreenChooserType.TicketChangedSlevel
+  fullName: SuperOffice.Data.ScreenChooserType.TicketChangedSlevel
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n145: \n"
+  syntax:
+    content: TicketChangedSlevel = 145
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.TicketMessageAdded
+  commentId: F:SuperOffice.Data.ScreenChooserType.TicketMessageAdded
+  id: TicketMessageAdded
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: TicketMessageAdded
+  nameWithType: ScreenChooserType.TicketMessageAdded
+  fullName: SuperOffice.Data.ScreenChooserType.TicketMessageAdded
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n150: \n"
+  syntax:
+    content: TicketMessageAdded = 150
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.TicketInternalMessageAdded
+  commentId: F:SuperOffice.Data.ScreenChooserType.TicketInternalMessageAdded
+  id: TicketInternalMessageAdded
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: TicketInternalMessageAdded
+  nameWithType: ScreenChooserType.TicketInternalMessageAdded
+  fullName: SuperOffice.Data.ScreenChooserType.TicketInternalMessageAdded
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n151: \n"
+  syntax:
+    content: TicketInternalMessageAdded = 151
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.TicketExternalMessageAdded
+  commentId: F:SuperOffice.Data.ScreenChooserType.TicketExternalMessageAdded
+  id: TicketExternalMessageAdded
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: TicketExternalMessageAdded
+  nameWithType: ScreenChooserType.TicketExternalMessageAdded
+  fullName: SuperOffice.Data.ScreenChooserType.TicketExternalMessageAdded
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n152: \n"
+  syntax:
+    content: TicketExternalMessageAdded = 152
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.CompactModeInjection
+  commentId: F:SuperOffice.Data.ScreenChooserType.CompactModeInjection
+  id: CompactModeInjection
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: CompactModeInjection
+  nameWithType: ScreenChooserType.CompactModeInjection
+  fullName: SuperOffice.Data.ScreenChooserType.CompactModeInjection
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n200: \n"
+  syntax:
+    content: CompactModeInjection = 200
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.ScheduledTaskFailed
+  commentId: F:SuperOffice.Data.ScreenChooserType.ScheduledTaskFailed
+  id: ScheduledTaskFailed
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: ScheduledTaskFailed
+  nameWithType: ScreenChooserType.ScheduledTaskFailed
+  fullName: SuperOffice.Data.ScreenChooserType.ScheduledTaskFailed
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n300: \n"
+  syntax:
+    content: ScheduledTaskFailed = 300
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ScreenChooserType.DbiTaskFailed
+  commentId: F:SuperOffice.Data.ScreenChooserType.DbiTaskFailed
+  id: DbiTaskFailed
+  parent: SuperOffice.Data.ScreenChooserType
+  langs:
+  - csharp
+  - vb
+  name: DbiTaskFailed
+  nameWithType: ScreenChooserType.DbiTaskFailed
+  fullName: SuperOffice.Data.ScreenChooserType.DbiTaskFailed
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n301: \n"
+  syntax:
+    content: DbiTaskFailed = 301
+    return:
+      type: SuperOffice.Data.ScreenChooserType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.ScreenChooserType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ScreenChooserType, To>()
+  nameWithType: EnumUtil.MapEnums<ScreenChooserType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ScreenChooserType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ScreenChooserType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ScreenChooserType, To)()
+  name.vb: MapEnums(Of ScreenChooserType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ScreenChooserType, To>
+    nameWithType: EnumUtil.MapEnums<ScreenChooserType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ScreenChooserType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ScreenChooserType, To)
+    nameWithType: EnumUtil.MapEnums(Of ScreenChooserType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ScreenChooserType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ScreenChooserType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ScreenChooserType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ScreenChooserType>(ScreenChooserType)
+  nameWithType: ObjectExtensions.AssignByReflection<ScreenChooserType>(ScreenChooserType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ScreenChooserType>(SuperOffice.Data.ScreenChooserType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ScreenChooserType)(ScreenChooserType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ScreenChooserType)(SuperOffice.Data.ScreenChooserType)
+  name.vb: AssignByReflection(Of ScreenChooserType)(ScreenChooserType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ScreenChooserType>
+    nameWithType: ObjectExtensions.AssignByReflection<ScreenChooserType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ScreenChooserType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.ScreenChooserType
+    name: ScreenChooserType
+    nameWithType: ScreenChooserType
+    fullName: SuperOffice.Data.ScreenChooserType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ScreenChooserType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ScreenChooserType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ScreenChooserType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.ScreenChooserType
+    name: ScreenChooserType
+    nameWithType: ScreenChooserType
+    fullName: SuperOffice.Data.ScreenChooserType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ScreenChooserType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ScreenChooserType>()
+  nameWithType: ObjectExtensions.GraphCopy<ScreenChooserType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ScreenChooserType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ScreenChooserType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ScreenChooserType)()
+  name.vb: GraphCopy(Of ScreenChooserType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ScreenChooserType>
+    nameWithType: ObjectExtensions.GraphCopy<ScreenChooserType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ScreenChooserType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ScreenChooserType)
+    nameWithType: ObjectExtensions.GraphCopy(Of ScreenChooserType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ScreenChooserType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ScreenChooserType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ScreenChooserType, To>()
+  nameWithType: Converters.MapEnums<ScreenChooserType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ScreenChooserType, To>()
+  nameWithType.vb: Converters.MapEnums(Of ScreenChooserType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ScreenChooserType, To)()
+  name.vb: MapEnums(Of ScreenChooserType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ScreenChooserType, To>
+    nameWithType: Converters.MapEnums<ScreenChooserType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ScreenChooserType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ScreenChooserType, To)
+    nameWithType: Converters.MapEnums(Of ScreenChooserType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ScreenChooserType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.ScreenChooserType
+  commentId: T:SuperOffice.Data.ScreenChooserType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ScreenChooserType
+  nameWithType: ScreenChooserType
+  fullName: SuperOffice.Data.ScreenChooserType

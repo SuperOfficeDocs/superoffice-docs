@@ -1,0 +1,337 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Controllers.VideoMeetingsController
+  commentId: T:SuperOffice.CRM.Web.Controllers.VideoMeetingsController
+  id: VideoMeetingsController
+  parent: SuperOffice.CRM.Web.Controllers
+  children:
+  - SuperOffice.CRM.Web.Controllers.VideoMeetingsController.#ctor
+  - SuperOffice.CRM.Web.Controllers.VideoMeetingsController.GetUserConnectedState
+  - SuperOffice.CRM.Web.Controllers.VideoMeetingsController.ReserveMeeting
+  - SuperOffice.CRM.Web.Controllers.VideoMeetingsController.UnreserveMeeting(System.String)
+  langs:
+  - csharp
+  - vb
+  name: VideoMeetingsController
+  nameWithType: VideoMeetingsController
+  fullName: SuperOffice.CRM.Web.Controllers.VideoMeetingsController
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: 'public class VideoMeetingsController : ApiController'
+    content.vb: >-
+      Public Class VideoMeetingsController
+          Inherits ApiController
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Controllers.VideoMeetingsController.GetUserConnectedState
+  commentId: M:SuperOffice.CRM.Web.Controllers.VideoMeetingsController.GetUserConnectedState
+  id: GetUserConnectedState
+  parent: SuperOffice.CRM.Web.Controllers.VideoMeetingsController
+  langs:
+  - csharp
+  - vb
+  name: GetUserConnectedState()
+  nameWithType: VideoMeetingsController.GetUserConnectedState()
+  fullName: SuperOffice.CRM.Web.Controllers.VideoMeetingsController.GetUserConnectedState()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public Task<UserConnectedState> GetUserConnectedState()
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Web.Controllers.UserConnectedState}
+    content.vb: Public Function GetUserConnectedState As Task(Of UserConnectedState)
+  overload: SuperOffice.CRM.Web.Controllers.VideoMeetingsController.GetUserConnectedState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.VideoMeetingsController.ReserveMeeting
+  commentId: M:SuperOffice.CRM.Web.Controllers.VideoMeetingsController.ReserveMeeting
+  id: ReserveMeeting
+  parent: SuperOffice.CRM.Web.Controllers.VideoMeetingsController
+  langs:
+  - csharp
+  - vb
+  name: ReserveMeeting()
+  nameWithType: VideoMeetingsController.ReserveMeeting()
+  fullName: SuperOffice.CRM.Web.Controllers.VideoMeetingsController.ReserveMeeting()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public Task<MeetingReservation> ReserveMeeting()
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Web.Controllers.MeetingReservation}
+    content.vb: Public Function ReserveMeeting As Task(Of MeetingReservation)
+  overload: SuperOffice.CRM.Web.Controllers.VideoMeetingsController.ReserveMeeting*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.VideoMeetingsController.UnreserveMeeting(System.String)
+  commentId: M:SuperOffice.CRM.Web.Controllers.VideoMeetingsController.UnreserveMeeting(System.String)
+  id: UnreserveMeeting(System.String)
+  parent: SuperOffice.CRM.Web.Controllers.VideoMeetingsController
+  langs:
+  - csharp
+  - vb
+  name: UnreserveMeeting(String)
+  nameWithType: VideoMeetingsController.UnreserveMeeting(String)
+  fullName: SuperOffice.CRM.Web.Controllers.VideoMeetingsController.UnreserveMeeting(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public Task UnreserveMeeting(string meetingId)
+    parameters:
+    - id: meetingId
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function UnreserveMeeting(meetingId As String) As Task
+  overload: SuperOffice.CRM.Web.Controllers.VideoMeetingsController.UnreserveMeeting*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.VideoMeetingsController.#ctor
+  commentId: M:SuperOffice.CRM.Web.Controllers.VideoMeetingsController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Controllers.VideoMeetingsController
+  langs:
+  - csharp
+  - vb
+  name: VideoMeetingsController()
+  nameWithType: VideoMeetingsController.VideoMeetingsController()
+  fullName: SuperOffice.CRM.Web.Controllers.VideoMeetingsController.VideoMeetingsController()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public VideoMeetingsController()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Controllers.VideoMeetingsController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Controllers
+  commentId: N:SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperOffice.CRM.Web.Controllers
+  nameWithType: SuperOffice.CRM.Web.Controllers
+  fullName: SuperOffice.CRM.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Controllers.VideoMeetingsController.GetUserConnectedState*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.VideoMeetingsController.GetUserConnectedState
+  isExternal: true
+  name: GetUserConnectedState
+  nameWithType: VideoMeetingsController.GetUserConnectedState
+  fullName: SuperOffice.CRM.Web.Controllers.VideoMeetingsController.GetUserConnectedState
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Web.Controllers.UserConnectedState}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Web.Controllers.UserConnectedState}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<UserConnectedState>
+  nameWithType: Task<UserConnectedState>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Web.Controllers.UserConnectedState>
+  nameWithType.vb: Task(Of UserConnectedState)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Web.Controllers.UserConnectedState)
+  name.vb: Task(Of UserConnectedState)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Web.Controllers.UserConnectedState
+    name: UserConnectedState
+    nameWithType: UserConnectedState
+    fullName: SuperOffice.CRM.Web.Controllers.UserConnectedState
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Web.Controllers.UserConnectedState
+    name: UserConnectedState
+    nameWithType: UserConnectedState
+    fullName: SuperOffice.CRM.Web.Controllers.UserConnectedState
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: SuperOffice.CRM.Web.Controllers.VideoMeetingsController.ReserveMeeting*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.VideoMeetingsController.ReserveMeeting
+  isExternal: true
+  name: ReserveMeeting
+  nameWithType: VideoMeetingsController.ReserveMeeting
+  fullName: SuperOffice.CRM.Web.Controllers.VideoMeetingsController.ReserveMeeting
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Web.Controllers.MeetingReservation}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Web.Controllers.MeetingReservation}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<MeetingReservation>
+  nameWithType: Task<MeetingReservation>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Web.Controllers.MeetingReservation>
+  nameWithType.vb: Task(Of MeetingReservation)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Web.Controllers.MeetingReservation)
+  name.vb: Task(Of MeetingReservation)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Web.Controllers.MeetingReservation
+    name: MeetingReservation
+    nameWithType: MeetingReservation
+    fullName: SuperOffice.CRM.Web.Controllers.MeetingReservation
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Web.Controllers.MeetingReservation
+    name: MeetingReservation
+    nameWithType: MeetingReservation
+    fullName: SuperOffice.CRM.Web.Controllers.MeetingReservation
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Controllers.VideoMeetingsController.UnreserveMeeting*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.VideoMeetingsController.UnreserveMeeting
+  isExternal: true
+  name: UnreserveMeeting
+  nameWithType: VideoMeetingsController.UnreserveMeeting
+  fullName: SuperOffice.CRM.Web.Controllers.VideoMeetingsController.UnreserveMeeting
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Web.Controllers.VideoMeetingsController.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.VideoMeetingsController.#ctor
+  isExternal: true
+  name: VideoMeetingsController
+  nameWithType: VideoMeetingsController.VideoMeetingsController
+  fullName: SuperOffice.CRM.Web.Controllers.VideoMeetingsController.VideoMeetingsController

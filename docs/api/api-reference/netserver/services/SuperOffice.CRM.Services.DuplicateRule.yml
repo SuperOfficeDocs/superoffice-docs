@@ -1,0 +1,333 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.DuplicateRule
+  commentId: T:SuperOffice.CRM.Services.DuplicateRule
+  id: DuplicateRule
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.DuplicateRule.#ctor
+  - SuperOffice.CRM.Services.DuplicateRule.DisplayName
+  - SuperOffice.CRM.Services.DuplicateRule.DisplayTooltip
+  - SuperOffice.CRM.Services.DuplicateRule.IsActive
+  - SuperOffice.CRM.Services.DuplicateRule.Name
+  - SuperOffice.CRM.Services.DuplicateRule.ToString
+  - SuperOffice.CRM.Services.DuplicateRule.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: DuplicateRule
+  nameWithType: DuplicateRule
+  fullName: SuperOffice.CRM.Services.DuplicateRule
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDescribes one duplicate rule to be used to find similar entries\n<p></p>\nCarrier object for DuplicateRule.\n"
+  syntax:
+    content: 'public class DuplicateRule : Carrier'
+    content.vb: >-
+      Public Class DuplicateRule
+          Inherits Carrier
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.DuplicateRule.#ctor
+  commentId: M:SuperOffice.CRM.Services.DuplicateRule.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.DuplicateRule
+  langs:
+  - csharp
+  - vb
+  name: DuplicateRule()
+  nameWithType: DuplicateRule.DuplicateRule()
+  fullName: SuperOffice.CRM.Services.DuplicateRule.DuplicateRule()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public DuplicateRule()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.DuplicateRule.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DuplicateRule.ToString
+  commentId: M:SuperOffice.CRM.Services.DuplicateRule.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.DuplicateRule
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: DuplicateRule.ToString()
+  fullName: SuperOffice.CRM.Services.DuplicateRule.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.DuplicateRule.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.DuplicateRule.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.DuplicateRule.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.DuplicateRule
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: DuplicateRule.ToString(String)
+  fullName: SuperOffice.CRM.Services.DuplicateRule.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.DuplicateRule.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DuplicateRule.Name
+  commentId: P:SuperOffice.CRM.Services.DuplicateRule.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.DuplicateRule
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DuplicateRule.Name
+  fullName: SuperOffice.CRM.Services.DuplicateRule.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIdentifying name for rule\n\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.DuplicateRule.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DuplicateRule.DisplayName
+  commentId: P:SuperOffice.CRM.Services.DuplicateRule.DisplayName
+  id: DisplayName
+  parent: SuperOffice.CRM.Services.DuplicateRule
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: DuplicateRule.DisplayName
+  fullName: SuperOffice.CRM.Services.DuplicateRule.DisplayName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nShort name of rule to display to user \n"
+  syntax:
+    content: public virtual string DisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayName As String
+  overload: SuperOffice.CRM.Services.DuplicateRule.DisplayName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DuplicateRule.DisplayTooltip
+  commentId: P:SuperOffice.CRM.Services.DuplicateRule.DisplayTooltip
+  id: DisplayTooltip
+  parent: SuperOffice.CRM.Services.DuplicateRule
+  langs:
+  - csharp
+  - vb
+  name: DisplayTooltip
+  nameWithType: DuplicateRule.DisplayTooltip
+  fullName: SuperOffice.CRM.Services.DuplicateRule.DisplayTooltip
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDescription of the rule \n"
+  syntax:
+    content: public virtual string DisplayTooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayTooltip As String
+  overload: SuperOffice.CRM.Services.DuplicateRule.DisplayTooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DuplicateRule.IsActive
+  commentId: P:SuperOffice.CRM.Services.DuplicateRule.IsActive
+  id: IsActive
+  parent: SuperOffice.CRM.Services.DuplicateRule
+  langs:
+  - csharp
+  - vb
+  name: IsActive
+  nameWithType: DuplicateRule.IsActive
+  fullName: SuperOffice.CRM.Services.DuplicateRule.IsActive
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIndicating if a rule is current active, and should included in the duplicate detection \n"
+  syntax:
+    content: public virtual bool IsActive { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsActive As Boolean
+  overload: SuperOffice.CRM.Services.DuplicateRule.IsActive*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.DuplicateRule.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.DuplicateRule.#ctor
+  isExternal: true
+  name: DuplicateRule
+  nameWithType: DuplicateRule.DuplicateRule
+  fullName: SuperOffice.CRM.Services.DuplicateRule.DuplicateRule
+- uid: SuperOffice.CRM.Services.DuplicateRule.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.DuplicateRule.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: DuplicateRule.ToString
+  fullName: SuperOffice.CRM.Services.DuplicateRule.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.DuplicateRule.Name*
+  commentId: Overload:SuperOffice.CRM.Services.DuplicateRule.Name
+  isExternal: true
+  name: Name
+  nameWithType: DuplicateRule.Name
+  fullName: SuperOffice.CRM.Services.DuplicateRule.Name
+- uid: SuperOffice.CRM.Services.DuplicateRule.DisplayName*
+  commentId: Overload:SuperOffice.CRM.Services.DuplicateRule.DisplayName
+  isExternal: true
+  name: DisplayName
+  nameWithType: DuplicateRule.DisplayName
+  fullName: SuperOffice.CRM.Services.DuplicateRule.DisplayName
+- uid: SuperOffice.CRM.Services.DuplicateRule.DisplayTooltip*
+  commentId: Overload:SuperOffice.CRM.Services.DuplicateRule.DisplayTooltip
+  isExternal: true
+  name: DisplayTooltip
+  nameWithType: DuplicateRule.DisplayTooltip
+  fullName: SuperOffice.CRM.Services.DuplicateRule.DisplayTooltip
+- uid: SuperOffice.CRM.Services.DuplicateRule.IsActive*
+  commentId: Overload:SuperOffice.CRM.Services.DuplicateRule.IsActive
+  isExternal: true
+  name: IsActive
+  nameWithType: DuplicateRule.IsActive
+  fullName: SuperOffice.CRM.Services.DuplicateRule.IsActive
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

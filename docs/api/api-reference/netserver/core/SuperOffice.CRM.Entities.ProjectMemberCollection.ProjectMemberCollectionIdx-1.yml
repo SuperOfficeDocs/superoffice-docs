@@ -1,0 +1,1146 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx`1
+  commentId: T:SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx`1
+  id: ProjectMemberCollection.ProjectMemberCollectionIdx`1
+  parent: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx`1.#ctor(`0)
+  - SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx`1.RowIdx
+  langs:
+  - csharp
+  - vb
+  name: ProjectMemberCollection.ProjectMemberCollectionIdx<TIdx>
+  nameWithType: ProjectMemberCollection.ProjectMemberCollectionIdx<TIdx>
+  fullName: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx<TIdx>
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: 'public abstract class ProjectMemberCollectionIdx<TIdx> : ProjectMemberCollection.ProjectMemberCollectionIdx, ISentryIgnorable where TIdx : ProjectMemberRows.ProjectMemberRowsIdx'
+    typeParameters:
+    - id: TIdx
+    content.vb: >-
+      Public MustInherit Class ProjectMemberCollectionIdx(Of TIdx As ProjectMemberRows.ProjectMemberRowsIdx)
+          Inherits ProjectMemberCollection.ProjectMemberCollectionIdx
+          Implements ISentryIgnorable
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Entities.EntityIdxBase
+  - SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}
+  - SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase
+  - SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx
+  derivedClasses:
+  - SuperOffice.CRM.Entities.ProjectMemberCollection.CustomSearch
+  - SuperOffice.CRM.Entities.ProjectMemberCollection.IdxContactId
+  - SuperOffice.CRM.Entities.ProjectMemberCollection.IdxPersonId
+  - SuperOffice.CRM.Entities.ProjectMemberCollection.IdxProjectIdRank
+  implements:
+  - SuperOffice.CRM.Security.ISentryIgnorable
+  inheritedMembers:
+  - SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx.ToProjectMemberCollection
+  - SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx.IsDistinct
+  - SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase.PersonRelationTableInfo
+  - SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase.ContactRelationTableInfo
+  - SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase.TextRelationTableInfo
+  - SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase.MemberTypeRelationTableInfo
+  - SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase.ProjectRelationTableInfo
+  - SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase.TableInfo
+  - SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}.BeginIgnoreSentryCheck
+  - SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}.EndIgnoreSentryCheck
+  - SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}.TableInfo
+  - SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}.RowIdx
+  - SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}.JoinRestriction
+  - SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}.ReturnFields
+  - SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}.IsSentryIgnored
+  - SuperOffice.CRM.Entities.EntityIdxBase.BeginIgnoreSentryCheck
+  - SuperOffice.CRM.Entities.EntityIdxBase.EndIgnoreSentryCheck
+  - SuperOffice.CRM.Entities.EntityIdxBase.IsSentryIgnored
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx`1.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  nameWithType.vb: ProjectMemberCollection.ProjectMemberCollectionIdx(Of TIdx)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx(Of TIdx)
+  name.vb: ProjectMemberCollection.ProjectMemberCollectionIdx(Of TIdx)
+- uid: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx`1.#ctor(`0)
+  commentId: M:SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx`1.#ctor(`0)
+  id: '#ctor(`0)'
+  parent: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx`1
+  langs:
+  - csharp
+  - vb
+  name: ProjectMemberCollectionIdx(TIdx)
+  nameWithType: ProjectMemberCollection.ProjectMemberCollectionIdx<TIdx>.ProjectMemberCollectionIdx(TIdx)
+  fullName: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx<TIdx>.ProjectMemberCollectionIdx(TIdx)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nConstructor for the index facades.\n"
+  syntax:
+    content: protected ProjectMemberCollectionIdx(TIdx idx)
+    parameters:
+    - id: idx
+      type: '{TIdx}'
+      description: Index for the ProjectMemberRows object
+    content.vb: Protected Sub New(idx As TIdx)
+  overload: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx`1.#ctor*
+  nameWithType.vb: ProjectMemberCollection.ProjectMemberCollectionIdx(Of TIdx).ProjectMemberCollectionIdx(TIdx)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx(Of TIdx).ProjectMemberCollectionIdx(TIdx)
+- uid: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx`1.RowIdx
+  commentId: P:SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx`1.RowIdx
+  id: RowIdx
+  parent: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx`1
+  langs:
+  - csharp
+  - vb
+  name: RowIdx
+  nameWithType: ProjectMemberCollection.ProjectMemberCollectionIdx<TIdx>.RowIdx
+  fullName: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx<TIdx>.RowIdx
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public TIdx RowIdx { get; }
+    parameters: []
+    return:
+      type: '{TIdx}'
+    content.vb: Public ReadOnly Property RowIdx As TIdx
+  overload: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx`1.RowIdx*
+  nameWithType.vb: ProjectMemberCollection.ProjectMemberCollectionIdx(Of TIdx).RowIdx
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx(Of TIdx).RowIdx
+references:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Entities.EntityIdxBase
+  commentId: T:SuperOffice.CRM.Entities.EntityIdxBase
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: EntityIdxBase
+  nameWithType: EntityIdxBase
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase
+- uid: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}
+  commentId: T:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}
+  parent: SuperOffice.CRM.Entities
+  definition: SuperOffice.CRM.Entities.EntityIdxBase`2
+  name: EntityIdxBase<ProjectMemberTableInfo, ProjectMemberRow.ProjectMemberRowIdxBase>
+  nameWithType: EntityIdxBase<ProjectMemberTableInfo, ProjectMemberRow.ProjectMemberRowIdxBase>
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.ProjectMemberTableInfo, SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase>
+  nameWithType.vb: EntityIdxBase(Of ProjectMemberTableInfo, ProjectMemberRow.ProjectMemberRowIdxBase)
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.ProjectMemberTableInfo, SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase)
+  name.vb: EntityIdxBase(Of ProjectMemberTableInfo, ProjectMemberRow.ProjectMemberRowIdxBase)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
+    name: EntityIdxBase
+    nameWithType: EntityIdxBase
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.ProjectMemberTableInfo
+    name: ProjectMemberTableInfo
+    nameWithType: ProjectMemberTableInfo
+    fullName: SuperOffice.CRM.Data.ProjectMemberTableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase
+    name: ProjectMemberRow.ProjectMemberRowIdxBase
+    nameWithType: ProjectMemberRow.ProjectMemberRowIdxBase
+    fullName: SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
+    name: EntityIdxBase
+    nameWithType: EntityIdxBase
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.ProjectMemberTableInfo
+    name: ProjectMemberTableInfo
+    nameWithType: ProjectMemberTableInfo
+    fullName: SuperOffice.CRM.Data.ProjectMemberTableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase
+    name: ProjectMemberRow.ProjectMemberRowIdxBase
+    nameWithType: ProjectMemberRow.ProjectMemberRowIdxBase
+    fullName: SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase
+  commentId: T:SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: ProjectMember.ProjectMemberIdxBase
+  nameWithType: ProjectMember.ProjectMemberIdxBase
+  fullName: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase
+- uid: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx
+  commentId: T:SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: ProjectMemberCollection.ProjectMemberCollectionIdx
+  nameWithType: ProjectMemberCollection.ProjectMemberCollectionIdx
+  fullName: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx
+- uid: SuperOffice.CRM.Security.ISentryIgnorable
+  commentId: T:SuperOffice.CRM.Security.ISentryIgnorable
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: ISentryIgnorable
+  nameWithType: ISentryIgnorable
+  fullName: SuperOffice.CRM.Security.ISentryIgnorable
+- uid: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx.ToProjectMemberCollection
+  commentId: M:SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx.ToProjectMemberCollection
+  parent: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx
+  isExternal: true
+  name: ToProjectMemberCollection()
+  nameWithType: ProjectMemberCollection.ProjectMemberCollectionIdx.ToProjectMemberCollection()
+  fullName: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx.ToProjectMemberCollection()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx.ToProjectMemberCollection
+    name: ToProjectMemberCollection
+    nameWithType: ProjectMemberCollection.ProjectMemberCollectionIdx.ToProjectMemberCollection
+    fullName: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx.ToProjectMemberCollection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx.ToProjectMemberCollection
+    name: ToProjectMemberCollection
+    nameWithType: ProjectMemberCollection.ProjectMemberCollectionIdx.ToProjectMemberCollection
+    fullName: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx.ToProjectMemberCollection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx.IsDistinct
+  commentId: P:SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx.IsDistinct
+  parent: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx
+  isExternal: true
+  name: IsDistinct
+  nameWithType: ProjectMemberCollection.ProjectMemberCollectionIdx.IsDistinct
+  fullName: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx.IsDistinct
+- uid: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase.PersonRelationTableInfo
+  commentId: P:SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase.PersonRelationTableInfo
+  parent: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase
+  isExternal: true
+  name: PersonRelationTableInfo
+  nameWithType: ProjectMember.ProjectMemberIdxBase.PersonRelationTableInfo
+  fullName: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase.PersonRelationTableInfo
+- uid: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase.ContactRelationTableInfo
+  commentId: P:SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase.ContactRelationTableInfo
+  parent: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase
+  isExternal: true
+  name: ContactRelationTableInfo
+  nameWithType: ProjectMember.ProjectMemberIdxBase.ContactRelationTableInfo
+  fullName: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase.ContactRelationTableInfo
+- uid: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase.TextRelationTableInfo
+  commentId: P:SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase.TextRelationTableInfo
+  parent: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase
+  isExternal: true
+  name: TextRelationTableInfo
+  nameWithType: ProjectMember.ProjectMemberIdxBase.TextRelationTableInfo
+  fullName: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase.TextRelationTableInfo
+- uid: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase.MemberTypeRelationTableInfo
+  commentId: P:SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase.MemberTypeRelationTableInfo
+  parent: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase
+  isExternal: true
+  name: MemberTypeRelationTableInfo
+  nameWithType: ProjectMember.ProjectMemberIdxBase.MemberTypeRelationTableInfo
+  fullName: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase.MemberTypeRelationTableInfo
+- uid: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase.ProjectRelationTableInfo
+  commentId: P:SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase.ProjectRelationTableInfo
+  parent: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase
+  isExternal: true
+  name: ProjectRelationTableInfo
+  nameWithType: ProjectMember.ProjectMemberIdxBase.ProjectRelationTableInfo
+  fullName: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase.ProjectRelationTableInfo
+- uid: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase.TableInfo
+  commentId: P:SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase.TableInfo
+  parent: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase
+  isExternal: true
+  name: TableInfo
+  nameWithType: ProjectMember.ProjectMemberIdxBase.TableInfo
+  fullName: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase.TableInfo
+- uid: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}.BeginIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}.BeginIgnoreSentryCheck
+  parent: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}
+  definition: SuperOffice.CRM.Entities.EntityIdxBase`2.BeginIgnoreSentryCheck
+  name: BeginIgnoreSentryCheck()
+  nameWithType: EntityIdxBase<ProjectMemberTableInfo, ProjectMemberRow.ProjectMemberRowIdxBase>.BeginIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.ProjectMemberTableInfo, SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase>.BeginIgnoreSentryCheck()
+  nameWithType.vb: EntityIdxBase(Of ProjectMemberTableInfo, ProjectMemberRow.ProjectMemberRowIdxBase).BeginIgnoreSentryCheck()
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.ProjectMemberTableInfo, SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase).BeginIgnoreSentryCheck()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2.BeginIgnoreSentryCheck
+    name: BeginIgnoreSentryCheck
+    nameWithType: EntityIdxBase<ProjectMemberTableInfo, ProjectMemberRow.ProjectMemberRowIdxBase>.BeginIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.ProjectMemberTableInfo, SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase>.BeginIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2.BeginIgnoreSentryCheck
+    name: BeginIgnoreSentryCheck
+    nameWithType: EntityIdxBase(Of ProjectMemberTableInfo, ProjectMemberRow.ProjectMemberRowIdxBase).BeginIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.ProjectMemberTableInfo, SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase).BeginIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}.EndIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}.EndIgnoreSentryCheck
+  parent: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}
+  definition: SuperOffice.CRM.Entities.EntityIdxBase`2.EndIgnoreSentryCheck
+  name: EndIgnoreSentryCheck()
+  nameWithType: EntityIdxBase<ProjectMemberTableInfo, ProjectMemberRow.ProjectMemberRowIdxBase>.EndIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.ProjectMemberTableInfo, SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase>.EndIgnoreSentryCheck()
+  nameWithType.vb: EntityIdxBase(Of ProjectMemberTableInfo, ProjectMemberRow.ProjectMemberRowIdxBase).EndIgnoreSentryCheck()
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.ProjectMemberTableInfo, SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase).EndIgnoreSentryCheck()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2.EndIgnoreSentryCheck
+    name: EndIgnoreSentryCheck
+    nameWithType: EntityIdxBase<ProjectMemberTableInfo, ProjectMemberRow.ProjectMemberRowIdxBase>.EndIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.ProjectMemberTableInfo, SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase>.EndIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2.EndIgnoreSentryCheck
+    name: EndIgnoreSentryCheck
+    nameWithType: EntityIdxBase(Of ProjectMemberTableInfo, ProjectMemberRow.ProjectMemberRowIdxBase).EndIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.ProjectMemberTableInfo, SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase).EndIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}.TableInfo
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}.TableInfo
+  parent: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}
+  definition: SuperOffice.CRM.Entities.EntityIdxBase`2.TableInfo
+  name: TableInfo
+  nameWithType: EntityIdxBase<ProjectMemberTableInfo, ProjectMemberRow.ProjectMemberRowIdxBase>.TableInfo
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.ProjectMemberTableInfo, SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase>.TableInfo
+  nameWithType.vb: EntityIdxBase(Of ProjectMemberTableInfo, ProjectMemberRow.ProjectMemberRowIdxBase).TableInfo
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.ProjectMemberTableInfo, SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase).TableInfo
+- uid: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}.RowIdx
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}.RowIdx
+  parent: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}
+  definition: SuperOffice.CRM.Entities.EntityIdxBase`2.RowIdx
+  name: RowIdx
+  nameWithType: EntityIdxBase<ProjectMemberTableInfo, ProjectMemberRow.ProjectMemberRowIdxBase>.RowIdx
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.ProjectMemberTableInfo, SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase>.RowIdx
+  nameWithType.vb: EntityIdxBase(Of ProjectMemberTableInfo, ProjectMemberRow.ProjectMemberRowIdxBase).RowIdx
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.ProjectMemberTableInfo, SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase).RowIdx
+- uid: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}.JoinRestriction
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}.JoinRestriction
+  parent: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}
+  definition: SuperOffice.CRM.Entities.EntityIdxBase`2.JoinRestriction
+  name: JoinRestriction
+  nameWithType: EntityIdxBase<ProjectMemberTableInfo, ProjectMemberRow.ProjectMemberRowIdxBase>.JoinRestriction
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.ProjectMemberTableInfo, SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase>.JoinRestriction
+  nameWithType.vb: EntityIdxBase(Of ProjectMemberTableInfo, ProjectMemberRow.ProjectMemberRowIdxBase).JoinRestriction
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.ProjectMemberTableInfo, SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase).JoinRestriction
+- uid: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}.ReturnFields
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}.ReturnFields
+  parent: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}
+  definition: SuperOffice.CRM.Entities.EntityIdxBase`2.ReturnFields
+  name: ReturnFields
+  nameWithType: EntityIdxBase<ProjectMemberTableInfo, ProjectMemberRow.ProjectMemberRowIdxBase>.ReturnFields
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.ProjectMemberTableInfo, SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase>.ReturnFields
+  nameWithType.vb: EntityIdxBase(Of ProjectMemberTableInfo, ProjectMemberRow.ProjectMemberRowIdxBase).ReturnFields
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.ProjectMemberTableInfo, SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase).ReturnFields
+- uid: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}.IsSentryIgnored
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}.IsSentryIgnored
+  parent: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ProjectMemberTableInfo,SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase}
+  definition: SuperOffice.CRM.Entities.EntityIdxBase`2.IsSentryIgnored
+  name: IsSentryIgnored
+  nameWithType: EntityIdxBase<ProjectMemberTableInfo, ProjectMemberRow.ProjectMemberRowIdxBase>.IsSentryIgnored
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.ProjectMemberTableInfo, SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase>.IsSentryIgnored
+  nameWithType.vb: EntityIdxBase(Of ProjectMemberTableInfo, ProjectMemberRow.ProjectMemberRowIdxBase).IsSentryIgnored
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.ProjectMemberTableInfo, SuperOffice.CRM.Rows.ProjectMemberRow.ProjectMemberRowIdxBase).IsSentryIgnored
+- uid: SuperOffice.CRM.Entities.EntityIdxBase.BeginIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Entities.EntityIdxBase.BeginIgnoreSentryCheck
+  parent: SuperOffice.CRM.Entities.EntityIdxBase
+  isExternal: true
+  name: BeginIgnoreSentryCheck()
+  nameWithType: EntityIdxBase.BeginIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase.BeginIgnoreSentryCheck()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase.BeginIgnoreSentryCheck
+    name: BeginIgnoreSentryCheck
+    nameWithType: EntityIdxBase.BeginIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase.BeginIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase.BeginIgnoreSentryCheck
+    name: BeginIgnoreSentryCheck
+    nameWithType: EntityIdxBase.BeginIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase.BeginIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityIdxBase.EndIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Entities.EntityIdxBase.EndIgnoreSentryCheck
+  parent: SuperOffice.CRM.Entities.EntityIdxBase
+  isExternal: true
+  name: EndIgnoreSentryCheck()
+  nameWithType: EntityIdxBase.EndIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase.EndIgnoreSentryCheck()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase.EndIgnoreSentryCheck
+    name: EndIgnoreSentryCheck
+    nameWithType: EntityIdxBase.EndIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase.EndIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase.EndIgnoreSentryCheck
+    name: EndIgnoreSentryCheck
+    nameWithType: EntityIdxBase.EndIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase.EndIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityIdxBase.IsSentryIgnored
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase.IsSentryIgnored
+  parent: SuperOffice.CRM.Entities.EntityIdxBase
+  isExternal: true
+  name: IsSentryIgnored
+  nameWithType: EntityIdxBase.IsSentryIgnored
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase.IsSentryIgnored
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx`1.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ProjectMemberCollection.ProjectMemberCollectionIdx<TIdx>, To>()
+  nameWithType: EnumUtil.MapEnums<ProjectMemberCollection.ProjectMemberCollectionIdx<TIdx>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx<TIdx>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ProjectMemberCollection.ProjectMemberCollectionIdx(Of TIdx), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx(Of TIdx), To)()
+  name.vb: MapEnums(Of ProjectMemberCollection.ProjectMemberCollectionIdx(Of TIdx), To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ProjectMemberCollection.ProjectMemberCollectionIdx<TIdx>, To>
+    nameWithType: EnumUtil.MapEnums<ProjectMemberCollection.ProjectMemberCollectionIdx<TIdx>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx<TIdx>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ProjectMemberCollection.ProjectMemberCollectionIdx(Of TIdx), To)
+    nameWithType: EnumUtil.MapEnums(Of ProjectMemberCollection.ProjectMemberCollectionIdx(Of TIdx), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx(Of TIdx), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ProjectMemberCollection.ProjectMemberCollectionIdx<TIdx>, To>()
+  nameWithType: Converters.MapEnums<ProjectMemberCollection.ProjectMemberCollectionIdx<TIdx>, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx<TIdx>, To>()
+  nameWithType.vb: Converters.MapEnums(Of ProjectMemberCollection.ProjectMemberCollectionIdx(Of TIdx), To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx(Of TIdx), To)()
+  name.vb: MapEnums(Of ProjectMemberCollection.ProjectMemberCollectionIdx(Of TIdx), To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ProjectMemberCollection.ProjectMemberCollectionIdx<TIdx>, To>
+    nameWithType: Converters.MapEnums<ProjectMemberCollection.ProjectMemberCollectionIdx<TIdx>, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx<TIdx>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ProjectMemberCollection.ProjectMemberCollectionIdx(Of TIdx), To)
+    nameWithType: Converters.MapEnums(Of ProjectMemberCollection.ProjectMemberCollectionIdx(Of TIdx), To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx(Of TIdx), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Entities.EntityIdxBase`2
+  commentId: T:SuperOffice.CRM.Entities.EntityIdxBase`2
+  isExternal: true
+  name: EntityIdxBase<TTableInfo, TIdx>
+  nameWithType: EntityIdxBase<TTableInfo, TIdx>
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>
+  nameWithType.vb: EntityIdxBase(Of TTableInfo, TIdx)
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx)
+  name.vb: EntityIdxBase(Of TTableInfo, TIdx)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
+    name: EntityIdxBase
+    nameWithType: EntityIdxBase
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TTableInfo
+    nameWithType: TTableInfo
+    fullName: TTableInfo
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
+    name: EntityIdxBase
+    nameWithType: EntityIdxBase
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TTableInfo
+    nameWithType: TTableInfo
+    fullName: TTableInfo
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security
+  commentId: N:SuperOffice.CRM.Security
+  isExternal: true
+  name: SuperOffice.CRM.Security
+  nameWithType: SuperOffice.CRM.Security
+  fullName: SuperOffice.CRM.Security
+- uid: SuperOffice.CRM.Entities.EntityIdxBase`2.BeginIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Entities.EntityIdxBase`2.BeginIgnoreSentryCheck
+  isExternal: true
+  name: BeginIgnoreSentryCheck()
+  nameWithType: EntityIdxBase<TTableInfo, TIdx>.BeginIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.BeginIgnoreSentryCheck()
+  nameWithType.vb: EntityIdxBase(Of TTableInfo, TIdx).BeginIgnoreSentryCheck()
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).BeginIgnoreSentryCheck()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2.BeginIgnoreSentryCheck
+    name: BeginIgnoreSentryCheck
+    nameWithType: EntityIdxBase<TTableInfo, TIdx>.BeginIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.BeginIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2.BeginIgnoreSentryCheck
+    name: BeginIgnoreSentryCheck
+    nameWithType: EntityIdxBase(Of TTableInfo, TIdx).BeginIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).BeginIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityIdxBase`2.EndIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Entities.EntityIdxBase`2.EndIgnoreSentryCheck
+  isExternal: true
+  name: EndIgnoreSentryCheck()
+  nameWithType: EntityIdxBase<TTableInfo, TIdx>.EndIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.EndIgnoreSentryCheck()
+  nameWithType.vb: EntityIdxBase(Of TTableInfo, TIdx).EndIgnoreSentryCheck()
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).EndIgnoreSentryCheck()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2.EndIgnoreSentryCheck
+    name: EndIgnoreSentryCheck
+    nameWithType: EntityIdxBase<TTableInfo, TIdx>.EndIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.EndIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2.EndIgnoreSentryCheck
+    name: EndIgnoreSentryCheck
+    nameWithType: EntityIdxBase(Of TTableInfo, TIdx).EndIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).EndIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityIdxBase`2.TableInfo
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase`2.TableInfo
+  isExternal: true
+  name: TableInfo
+  nameWithType: EntityIdxBase<TTableInfo, TIdx>.TableInfo
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.TableInfo
+  nameWithType.vb: EntityIdxBase(Of TTableInfo, TIdx).TableInfo
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).TableInfo
+- uid: SuperOffice.CRM.Entities.EntityIdxBase`2.RowIdx
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase`2.RowIdx
+  isExternal: true
+  name: RowIdx
+  nameWithType: EntityIdxBase<TTableInfo, TIdx>.RowIdx
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.RowIdx
+  nameWithType.vb: EntityIdxBase(Of TTableInfo, TIdx).RowIdx
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).RowIdx
+- uid: SuperOffice.CRM.Entities.EntityIdxBase`2.JoinRestriction
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase`2.JoinRestriction
+  isExternal: true
+  name: JoinRestriction
+  nameWithType: EntityIdxBase<TTableInfo, TIdx>.JoinRestriction
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.JoinRestriction
+  nameWithType.vb: EntityIdxBase(Of TTableInfo, TIdx).JoinRestriction
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).JoinRestriction
+- uid: SuperOffice.CRM.Entities.EntityIdxBase`2.ReturnFields
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase`2.ReturnFields
+  isExternal: true
+  name: ReturnFields
+  nameWithType: EntityIdxBase<TTableInfo, TIdx>.ReturnFields
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.ReturnFields
+  nameWithType.vb: EntityIdxBase(Of TTableInfo, TIdx).ReturnFields
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).ReturnFields
+- uid: SuperOffice.CRM.Entities.EntityIdxBase`2.IsSentryIgnored
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase`2.IsSentryIgnored
+  isExternal: true
+  name: IsSentryIgnored
+  nameWithType: EntityIdxBase<TTableInfo, TIdx>.IsSentryIgnored
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.IsSentryIgnored
+  nameWithType.vb: EntityIdxBase(Of TTableInfo, TIdx).IsSentryIgnored
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).IsSentryIgnored
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx`1.#ctor*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx`1.#ctor
+  isExternal: true
+  name: ProjectMemberCollectionIdx
+  nameWithType: ProjectMemberCollection.ProjectMemberCollectionIdx<TIdx>.ProjectMemberCollectionIdx
+  fullName: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx<TIdx>.ProjectMemberCollectionIdx
+  nameWithType.vb: ProjectMemberCollection.ProjectMemberCollectionIdx(Of TIdx).ProjectMemberCollectionIdx
+  fullName.vb: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx(Of TIdx).ProjectMemberCollectionIdx
+- uid: '{TIdx}'
+  commentId: '!:TIdx'
+  definition: TIdx
+  name: TIdx
+  nameWithType: TIdx
+  fullName: TIdx
+- uid: TIdx
+  name: TIdx
+  nameWithType: TIdx
+  fullName: TIdx
+- uid: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx`1.RowIdx*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx`1.RowIdx
+  isExternal: true
+  name: RowIdx
+  nameWithType: ProjectMemberCollection.ProjectMemberCollectionIdx<TIdx>.RowIdx
+  fullName: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx<TIdx>.RowIdx
+  nameWithType.vb: ProjectMemberCollection.ProjectMemberCollectionIdx(Of TIdx).RowIdx
+  fullName.vb: SuperOffice.CRM.Entities.ProjectMemberCollection.ProjectMemberCollectionIdx(Of TIdx).RowIdx

@@ -1,0 +1,2396 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Navigation
+  commentId: T:SuperOffice.Data.Navigation
+  id: Navigation
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.Navigation.ActivityDialog
+  - SuperOffice.Data.Navigation.AppntSelectionCustomTask
+  - SuperOffice.Data.Navigation.AppntSelectionShadowTask
+  - SuperOffice.Data.Navigation.AppntSelectionTask
+  - SuperOffice.Data.Navigation.AppointmentDialogTask
+  - SuperOffice.Data.Navigation.AppointmentSelectionMailingsTask
+  - SuperOffice.Data.Navigation.BrowserPanel
+  - SuperOffice.Data.Navigation.ButtonPanelTask
+  - SuperOffice.Data.Navigation.CompanyMinicard
+  - SuperOffice.Data.Navigation.ContactArchive
+  - SuperOffice.Data.Navigation.ContactCard
+  - SuperOffice.Data.Navigation.ContactSelectionMailingsTask
+  - SuperOffice.Data.Navigation.ContSelectionCustomTask
+  - SuperOffice.Data.Navigation.ContSelectionTask
+  - SuperOffice.Data.Navigation.CustomArchiveMiniCard
+  - SuperOffice.Data.Navigation.Dashboard
+  - SuperOffice.Data.Navigation.DiaryArchive
+  - SuperOffice.Data.Navigation.DiaryMinicard
+  - SuperOffice.Data.Navigation.DocSelectionCustomTask
+  - SuperOffice.Data.Navigation.DocSelectionShadowTask
+  - SuperOffice.Data.Navigation.DocSelectionTask
+  - SuperOffice.Data.Navigation.DocumentDialog
+  - SuperOffice.Data.Navigation.DocumentDialogTask
+  - SuperOffice.Data.Navigation.DocumentSelectionMailingsTask
+  - SuperOffice.Data.Navigation.FindSystem
+  - SuperOffice.Data.Navigation.Invisible
+  - SuperOffice.Data.Navigation.MailingSelectionTask
+  - SuperOffice.Data.Navigation.NavigatorButton
+  - SuperOffice.Data.Navigation.PersonArchive
+  - SuperOffice.Data.Navigation.PersonCard
+  - SuperOffice.Data.Navigation.PersonDialogTask
+  - SuperOffice.Data.Navigation.PersonMinicard
+  - SuperOffice.Data.Navigation.ProjectArchive
+  - SuperOffice.Data.Navigation.ProjectCard
+  - SuperOffice.Data.Navigation.ProjectMinicard
+  - SuperOffice.Data.Navigation.ProjectSelectionMailingsTask
+  - SuperOffice.Data.Navigation.ProjSelectionCustomTask
+  - SuperOffice.Data.Navigation.ProjSelectionShadowTask
+  - SuperOffice.Data.Navigation.ProjSelectionTask
+  - SuperOffice.Data.Navigation.QuoteDialog
+  - SuperOffice.Data.Navigation.QuoteDialogArchive
+  - SuperOffice.Data.Navigation.QuoteDialogTask
+  - SuperOffice.Data.Navigation.QuoteLineDialog
+  - SuperOffice.Data.Navigation.QuoteLineDialogTask
+  - SuperOffice.Data.Navigation.QuoteLineSelectionCustomTask
+  - SuperOffice.Data.Navigation.QuoteLineSelectionMailingsTask
+  - SuperOffice.Data.Navigation.QuoteLineSelectionMainTask
+  - SuperOffice.Data.Navigation.QuoteLineSelectionShadowTask
+  - SuperOffice.Data.Navigation.ReportMinicard
+  - SuperOffice.Data.Navigation.SaleArchive
+  - SuperOffice.Data.Navigation.SaleCard
+  - SuperOffice.Data.Navigation.SaleDialogTask
+  - SuperOffice.Data.Navigation.SaleMinicard
+  - SuperOffice.Data.Navigation.SaleSelectionCustomTask
+  - SuperOffice.Data.Navigation.SaleSelectionMailingsTask
+  - SuperOffice.Data.Navigation.SaleSelectionShadowTask
+  - SuperOffice.Data.Navigation.SaleSelectionTask
+  - SuperOffice.Data.Navigation.SelectionAppointmentArchive
+  - SuperOffice.Data.Navigation.SelectionCard
+  - SuperOffice.Data.Navigation.SelectionContactArchive
+  - SuperOffice.Data.Navigation.SelectionDocumentArchive
+  - SuperOffice.Data.Navigation.SelectionMinicard
+  - SuperOffice.Data.Navigation.SelectionProjectArchive
+  - SuperOffice.Data.Navigation.SelectionQuoteLineArchive
+  - SuperOffice.Data.Navigation.SelectionSaleArchive
+  - SuperOffice.Data.Navigation.SelectionTaskCard
+  - SuperOffice.Data.Navigation.ToolboxMenu
+  - SuperOffice.Data.Navigation.TopPanelNewMenu
+  - SuperOffice.Data.Navigation.ViewMenu
+  langs:
+  - csharp
+  - vb
+  name: Navigation
+  nameWithType: Navigation
+  fullName: SuperOffice.Data.Navigation
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nValue for the navigation field in table externalapplication\nThis Enum is used by:  ExtApp.navigation\n"
+  syntax:
+    content: 'public enum Navigation : short'
+    content.vb: Public Enum Navigation As Short
+  extensionMethods:
+  - SuperOffice.Data.Navigation.EnumUtil.MapEnums``2
+  - SuperOffice.Data.Navigation.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Navigation)
+  - SuperOffice.Data.Navigation.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.Navigation.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.Navigation.Invisible
+  commentId: F:SuperOffice.Data.Navigation.Invisible
+  id: Invisible
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: Invisible
+  nameWithType: Navigation.Invisible
+  fullName: SuperOffice.Data.Navigation.Invisible
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: This application has no explicit navigation in GUI\n"
+  syntax:
+    content: Invisible = 0
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.ToolboxMenu
+  commentId: F:SuperOffice.Data.Navigation.ToolboxMenu
+  id: ToolboxMenu
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: ToolboxMenu
+  nameWithType: Navigation.ToolboxMenu
+  fullName: SuperOffice.Data.Navigation.ToolboxMenu
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: This application appears in the list of the Toolbox icon in the CRM5 Navigator sidebar\n"
+  syntax:
+    content: ToolboxMenu = 1
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.NavigatorButton
+  commentId: F:SuperOffice.Data.Navigation.NavigatorButton
+  id: NavigatorButton
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: NavigatorButton
+  nameWithType: Navigation.NavigatorButton
+  fullName: SuperOffice.Data.Navigation.NavigatorButton
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: This application has its own navigator button (remember to set icon resource)\n"
+  syntax:
+    content: NavigatorButton = 2
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.ViewMenu
+  commentId: F:SuperOffice.Data.Navigation.ViewMenu
+  id: ViewMenu
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: ViewMenu
+  nameWithType: Navigation.ViewMenu
+  fullName: SuperOffice.Data.Navigation.ViewMenu
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n3: This application appears in the View pulldown menu\n"
+  syntax:
+    content: ViewMenu = 3
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.SelectionTaskCard
+  commentId: F:SuperOffice.Data.Navigation.SelectionTaskCard
+  id: SelectionTaskCard
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: SelectionTaskCard
+  nameWithType: Navigation.SelectionTaskCard
+  fullName: SuperOffice.Data.Navigation.SelectionTaskCard
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4: (not yet implemented) This application appears as a Task in the Selection Task card\n"
+  syntax:
+    content: SelectionTaskCard = 4
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.ContactCard
+  commentId: F:SuperOffice.Data.Navigation.ContactCard
+  id: ContactCard
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: ContactCard
+  nameWithType: Navigation.ContactCard
+  fullName: SuperOffice.Data.Navigation.ContactCard
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n5: This application (type IntegratedHTML or IntegratedURL) appears as a tab on the Contact card\n"
+  syntax:
+    content: ContactCard = 5
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.ContactArchive
+  commentId: F:SuperOffice.Data.Navigation.ContactArchive
+  id: ContactArchive
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: ContactArchive
+  nameWithType: Navigation.ContactArchive
+  fullName: SuperOffice.Data.Navigation.ContactArchive
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n6: This application (type IntegratedHTML or IntegratedURL)  appears as a tab on the Contact Archive\n"
+  syntax:
+    content: ContactArchive = 6
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.ProjectCard
+  commentId: F:SuperOffice.Data.Navigation.ProjectCard
+  id: ProjectCard
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: ProjectCard
+  nameWithType: Navigation.ProjectCard
+  fullName: SuperOffice.Data.Navigation.ProjectCard
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n7: This application (type IntegratedHTML or IntegratedURL)  appears as a tab on the Project card\n"
+  syntax:
+    content: ProjectCard = 7
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.ProjectArchive
+  commentId: F:SuperOffice.Data.Navigation.ProjectArchive
+  id: ProjectArchive
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: ProjectArchive
+  nameWithType: Navigation.ProjectArchive
+  fullName: SuperOffice.Data.Navigation.ProjectArchive
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n8: This application (type IntegratedHTML or IntegratedURL)  appears as a tab on the Project Archive\n"
+  syntax:
+    content: ProjectArchive = 8
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.SaleCard
+  commentId: F:SuperOffice.Data.Navigation.SaleCard
+  id: SaleCard
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: SaleCard
+  nameWithType: Navigation.SaleCard
+  fullName: SuperOffice.Data.Navigation.SaleCard
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n9: This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Sale dialog\n"
+  syntax:
+    content: SaleCard = 9
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.PersonCard
+  commentId: F:SuperOffice.Data.Navigation.PersonCard
+  id: PersonCard
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: PersonCard
+  nameWithType: Navigation.PersonCard
+  fullName: SuperOffice.Data.Navigation.PersonCard
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n10: This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Person Card\n"
+  syntax:
+    content: PersonCard = 10
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.ActivityDialog
+  commentId: F:SuperOffice.Data.Navigation.ActivityDialog
+  id: ActivityDialog
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: ActivityDialog
+  nameWithType: Navigation.ActivityDialog
+  fullName: SuperOffice.Data.Navigation.ActivityDialog
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n11: This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Appointment dialog\n"
+  syntax:
+    content: ActivityDialog = 11
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.DocumentDialog
+  commentId: F:SuperOffice.Data.Navigation.DocumentDialog
+  id: DocumentDialog
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: DocumentDialog
+  nameWithType: Navigation.DocumentDialog
+  fullName: SuperOffice.Data.Navigation.DocumentDialog
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n12: This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Document dialog\n"
+  syntax:
+    content: DocumentDialog = 12
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.BrowserPanel
+  commentId: F:SuperOffice.Data.Navigation.BrowserPanel
+  id: BrowserPanel
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: BrowserPanel
+  nameWithType: Navigation.BrowserPanel
+  fullName: SuperOffice.Data.Navigation.BrowserPanel
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n13: In the Browser panel\n"
+  syntax:
+    content: BrowserPanel = 13
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.ContSelectionTask
+  commentId: F:SuperOffice.Data.Navigation.ContSelectionTask
+  id: ContSelectionTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: ContSelectionTask
+  nameWithType: Navigation.ContSelectionTask
+  fullName: SuperOffice.Data.Navigation.ContSelectionTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n14: Task button visible on the Contact Selection task panel\n"
+  syntax:
+    content: ContSelectionTask = 14
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.AppntSelectionTask
+  commentId: F:SuperOffice.Data.Navigation.AppntSelectionTask
+  id: AppntSelectionTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: AppntSelectionTask
+  nameWithType: Navigation.AppntSelectionTask
+  fullName: SuperOffice.Data.Navigation.AppntSelectionTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n15: Task button visible on the Appointment Selection task panel\n"
+  syntax:
+    content: AppntSelectionTask = 15
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.SaleSelectionTask
+  commentId: F:SuperOffice.Data.Navigation.SaleSelectionTask
+  id: SaleSelectionTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: SaleSelectionTask
+  nameWithType: Navigation.SaleSelectionTask
+  fullName: SuperOffice.Data.Navigation.SaleSelectionTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n16: Task button visible on the Sale Selection task panel\n"
+  syntax:
+    content: SaleSelectionTask = 16
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.DocSelectionTask
+  commentId: F:SuperOffice.Data.Navigation.DocSelectionTask
+  id: DocSelectionTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: DocSelectionTask
+  nameWithType: Navigation.DocSelectionTask
+  fullName: SuperOffice.Data.Navigation.DocSelectionTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n17: Task button visible on the Document Selection task panel\n"
+  syntax:
+    content: DocSelectionTask = 17
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.ProjSelectionTask
+  commentId: F:SuperOffice.Data.Navigation.ProjSelectionTask
+  id: ProjSelectionTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: ProjSelectionTask
+  nameWithType: Navigation.ProjSelectionTask
+  fullName: SuperOffice.Data.Navigation.ProjSelectionTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n18: Task button visible on the Project Selection task panel\n"
+  syntax:
+    content: ProjSelectionTask = 18
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.CompanyMinicard
+  commentId: F:SuperOffice.Data.Navigation.CompanyMinicard
+  id: CompanyMinicard
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: CompanyMinicard
+  nameWithType: Navigation.CompanyMinicard
+  fullName: SuperOffice.Data.Navigation.CompanyMinicard
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n19: In company minicard\n"
+  syntax:
+    content: CompanyMinicard = 19
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.ProjectMinicard
+  commentId: F:SuperOffice.Data.Navigation.ProjectMinicard
+  id: ProjectMinicard
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: ProjectMinicard
+  nameWithType: Navigation.ProjectMinicard
+  fullName: SuperOffice.Data.Navigation.ProjectMinicard
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n20: In project minicard\n"
+  syntax:
+    content: ProjectMinicard = 20
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.DiaryMinicard
+  commentId: F:SuperOffice.Data.Navigation.DiaryMinicard
+  id: DiaryMinicard
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: DiaryMinicard
+  nameWithType: Navigation.DiaryMinicard
+  fullName: SuperOffice.Data.Navigation.DiaryMinicard
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n21: In diary minicard\n"
+  syntax:
+    content: DiaryMinicard = 21
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.SelectionMinicard
+  commentId: F:SuperOffice.Data.Navigation.SelectionMinicard
+  id: SelectionMinicard
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: SelectionMinicard
+  nameWithType: Navigation.SelectionMinicard
+  fullName: SuperOffice.Data.Navigation.SelectionMinicard
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n22: In selection minicard\n"
+  syntax:
+    content: SelectionMinicard = 22
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.ButtonPanelTask
+  commentId: F:SuperOffice.Data.Navigation.ButtonPanelTask
+  id: ButtonPanelTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: ButtonPanelTask
+  nameWithType: Navigation.ButtonPanelTask
+  fullName: SuperOffice.Data.Navigation.ButtonPanelTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n23: In the main ButtonBar\n"
+  syntax:
+    content: ButtonPanelTask = 23
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.AppointmentDialogTask
+  commentId: F:SuperOffice.Data.Navigation.AppointmentDialogTask
+  id: AppointmentDialogTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: AppointmentDialogTask
+  nameWithType: Navigation.AppointmentDialogTask
+  fullName: SuperOffice.Data.Navigation.AppointmentDialogTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n24: In the appointment dialog\n"
+  syntax:
+    content: AppointmentDialogTask = 24
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.SaleDialogTask
+  commentId: F:SuperOffice.Data.Navigation.SaleDialogTask
+  id: SaleDialogTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: SaleDialogTask
+  nameWithType: Navigation.SaleDialogTask
+  fullName: SuperOffice.Data.Navigation.SaleDialogTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n25: In the sale dialog\n"
+  syntax:
+    content: SaleDialogTask = 25
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.DocumentDialogTask
+  commentId: F:SuperOffice.Data.Navigation.DocumentDialogTask
+  id: DocumentDialogTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: DocumentDialogTask
+  nameWithType: Navigation.DocumentDialogTask
+  fullName: SuperOffice.Data.Navigation.DocumentDialogTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n26: In the document dialog\n"
+  syntax:
+    content: DocumentDialogTask = 26
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.PersonDialogTask
+  commentId: F:SuperOffice.Data.Navigation.PersonDialogTask
+  id: PersonDialogTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: PersonDialogTask
+  nameWithType: Navigation.PersonDialogTask
+  fullName: SuperOffice.Data.Navigation.PersonDialogTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n27: In the person dialog\n"
+  syntax:
+    content: PersonDialogTask = 27
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.SaleMinicard
+  commentId: F:SuperOffice.Data.Navigation.SaleMinicard
+  id: SaleMinicard
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: SaleMinicard
+  nameWithType: Navigation.SaleMinicard
+  fullName: SuperOffice.Data.Navigation.SaleMinicard
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n28: In the sale minicard\n"
+  syntax:
+    content: SaleMinicard = 28
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.SaleArchive
+  commentId: F:SuperOffice.Data.Navigation.SaleArchive
+  id: SaleArchive
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: SaleArchive
+  nameWithType: Navigation.SaleArchive
+  fullName: SuperOffice.Data.Navigation.SaleArchive
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n29: In the sale archive\n"
+  syntax:
+    content: SaleArchive = 29
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.AppntSelectionShadowTask
+  commentId: F:SuperOffice.Data.Navigation.AppntSelectionShadowTask
+  id: AppntSelectionShadowTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: AppntSelectionShadowTask
+  nameWithType: Navigation.AppntSelectionShadowTask
+  fullName: SuperOffice.Data.Navigation.AppntSelectionShadowTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n30: Task tab for appointment selection, while showing shadow sel\n"
+  syntax:
+    content: AppntSelectionShadowTask = 30
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.SaleSelectionShadowTask
+  commentId: F:SuperOffice.Data.Navigation.SaleSelectionShadowTask
+  id: SaleSelectionShadowTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: SaleSelectionShadowTask
+  nameWithType: Navigation.SaleSelectionShadowTask
+  fullName: SuperOffice.Data.Navigation.SaleSelectionShadowTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n31: Task tab for sale selection, while showing shadow sel\n"
+  syntax:
+    content: SaleSelectionShadowTask = 31
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.DocSelectionShadowTask
+  commentId: F:SuperOffice.Data.Navigation.DocSelectionShadowTask
+  id: DocSelectionShadowTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: DocSelectionShadowTask
+  nameWithType: Navigation.DocSelectionShadowTask
+  fullName: SuperOffice.Data.Navigation.DocSelectionShadowTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n32: Task tab for document selection, while showing shadow sel\n"
+  syntax:
+    content: DocSelectionShadowTask = 32
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.ProjSelectionShadowTask
+  commentId: F:SuperOffice.Data.Navigation.ProjSelectionShadowTask
+  id: ProjSelectionShadowTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: ProjSelectionShadowTask
+  nameWithType: Navigation.ProjSelectionShadowTask
+  fullName: SuperOffice.Data.Navigation.ProjSelectionShadowTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n33: Task tab for project selection, while showing shadow sel\n"
+  syntax:
+    content: ProjSelectionShadowTask = 33
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.DiaryArchive
+  commentId: F:SuperOffice.Data.Navigation.DiaryArchive
+  id: DiaryArchive
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: DiaryArchive
+  nameWithType: Navigation.DiaryArchive
+  fullName: SuperOffice.Data.Navigation.DiaryArchive
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n34: Context (popup) menu in Diary archive\n"
+  syntax:
+    content: DiaryArchive = 34
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.SelectionContactArchive
+  commentId: F:SuperOffice.Data.Navigation.SelectionContactArchive
+  id: SelectionContactArchive
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: SelectionContactArchive
+  nameWithType: Navigation.SelectionContactArchive
+  fullName: SuperOffice.Data.Navigation.SelectionContactArchive
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n35: Context (popup) menu in Contact selection\n"
+  syntax:
+    content: SelectionContactArchive = 35
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.SelectionProjectArchive
+  commentId: F:SuperOffice.Data.Navigation.SelectionProjectArchive
+  id: SelectionProjectArchive
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: SelectionProjectArchive
+  nameWithType: Navigation.SelectionProjectArchive
+  fullName: SuperOffice.Data.Navigation.SelectionProjectArchive
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n36: Context (popup) menu in Project archive\n"
+  syntax:
+    content: SelectionProjectArchive = 36
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.SelectionSaleArchive
+  commentId: F:SuperOffice.Data.Navigation.SelectionSaleArchive
+  id: SelectionSaleArchive
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: SelectionSaleArchive
+  nameWithType: Navigation.SelectionSaleArchive
+  fullName: SuperOffice.Data.Navigation.SelectionSaleArchive
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n37: Context (popup) menu in Sale archive\n"
+  syntax:
+    content: SelectionSaleArchive = 37
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.SelectionAppointmentArchive
+  commentId: F:SuperOffice.Data.Navigation.SelectionAppointmentArchive
+  id: SelectionAppointmentArchive
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: SelectionAppointmentArchive
+  nameWithType: Navigation.SelectionAppointmentArchive
+  fullName: SuperOffice.Data.Navigation.SelectionAppointmentArchive
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n38: Context (popup) menu in Appointment archive\n"
+  syntax:
+    content: SelectionAppointmentArchive = 38
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.SelectionDocumentArchive
+  commentId: F:SuperOffice.Data.Navigation.SelectionDocumentArchive
+  id: SelectionDocumentArchive
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: SelectionDocumentArchive
+  nameWithType: Navigation.SelectionDocumentArchive
+  fullName: SuperOffice.Data.Navigation.SelectionDocumentArchive
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n39: Context (popup) menu in Document archive\n"
+  syntax:
+    content: SelectionDocumentArchive = 39
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.ContSelectionCustomTask
+  commentId: F:SuperOffice.Data.Navigation.ContSelectionCustomTask
+  id: ContSelectionCustomTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: ContSelectionCustomTask
+  nameWithType: Navigation.ContSelectionCustomTask
+  fullName: SuperOffice.Data.Navigation.ContSelectionCustomTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n40: Task card in Contact selection, when a custom archive is shown\n"
+  syntax:
+    content: ContSelectionCustomTask = 40
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.AppntSelectionCustomTask
+  commentId: F:SuperOffice.Data.Navigation.AppntSelectionCustomTask
+  id: AppntSelectionCustomTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: AppntSelectionCustomTask
+  nameWithType: Navigation.AppntSelectionCustomTask
+  fullName: SuperOffice.Data.Navigation.AppntSelectionCustomTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n41: Task card in Appointment selection, when a custom archive is shown\n"
+  syntax:
+    content: AppntSelectionCustomTask = 41
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.SaleSelectionCustomTask
+  commentId: F:SuperOffice.Data.Navigation.SaleSelectionCustomTask
+  id: SaleSelectionCustomTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: SaleSelectionCustomTask
+  nameWithType: Navigation.SaleSelectionCustomTask
+  fullName: SuperOffice.Data.Navigation.SaleSelectionCustomTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n42: Task card in Sale selection, when a custom archive is shown\n"
+  syntax:
+    content: SaleSelectionCustomTask = 42
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.DocSelectionCustomTask
+  commentId: F:SuperOffice.Data.Navigation.DocSelectionCustomTask
+  id: DocSelectionCustomTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: DocSelectionCustomTask
+  nameWithType: Navigation.DocSelectionCustomTask
+  fullName: SuperOffice.Data.Navigation.DocSelectionCustomTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n43: Task card in Document selection, when a custom archive is shown\n"
+  syntax:
+    content: DocSelectionCustomTask = 43
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.ProjSelectionCustomTask
+  commentId: F:SuperOffice.Data.Navigation.ProjSelectionCustomTask
+  id: ProjSelectionCustomTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: ProjSelectionCustomTask
+  nameWithType: Navigation.ProjSelectionCustomTask
+  fullName: SuperOffice.Data.Navigation.ProjSelectionCustomTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n44: Task card in Project selection, when a custom archive is shown\n"
+  syntax:
+    content: ProjSelectionCustomTask = 44
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.CustomArchiveMiniCard
+  commentId: F:SuperOffice.Data.Navigation.CustomArchiveMiniCard
+  id: CustomArchiveMiniCard
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: CustomArchiveMiniCard
+  nameWithType: Navigation.CustomArchiveMiniCard
+  fullName: SuperOffice.Data.Navigation.CustomArchiveMiniCard
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n45: ?\n"
+  syntax:
+    content: CustomArchiveMiniCard = 45
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.SelectionCard
+  commentId: F:SuperOffice.Data.Navigation.SelectionCard
+  id: SelectionCard
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: SelectionCard
+  nameWithType: Navigation.SelectionCard
+  fullName: SuperOffice.Data.Navigation.SelectionCard
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n46: ?\n"
+  syntax:
+    content: SelectionCard = 46
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.ReportMinicard
+  commentId: F:SuperOffice.Data.Navigation.ReportMinicard
+  id: ReportMinicard
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: ReportMinicard
+  nameWithType: Navigation.ReportMinicard
+  fullName: SuperOffice.Data.Navigation.ReportMinicard
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n47: In the Reporter panel minicard, so far only in Web\n"
+  syntax:
+    content: ReportMinicard = 47
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.QuoteDialog
+  commentId: F:SuperOffice.Data.Navigation.QuoteDialog
+  id: QuoteDialog
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: QuoteDialog
+  nameWithType: Navigation.QuoteDialog
+  fullName: SuperOffice.Data.Navigation.QuoteDialog
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n48: \n"
+  syntax:
+    content: QuoteDialog = 48
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.QuoteDialogTask
+  commentId: F:SuperOffice.Data.Navigation.QuoteDialogTask
+  id: QuoteDialogTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: QuoteDialogTask
+  nameWithType: Navigation.QuoteDialogTask
+  fullName: SuperOffice.Data.Navigation.QuoteDialogTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n49: \n"
+  syntax:
+    content: QuoteDialogTask = 49
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.QuoteDialogArchive
+  commentId: F:SuperOffice.Data.Navigation.QuoteDialogArchive
+  id: QuoteDialogArchive
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: QuoteDialogArchive
+  nameWithType: Navigation.QuoteDialogArchive
+  fullName: SuperOffice.Data.Navigation.QuoteDialogArchive
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n50: \n"
+  syntax:
+    content: QuoteDialogArchive = 50
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.QuoteLineDialogTask
+  commentId: F:SuperOffice.Data.Navigation.QuoteLineDialogTask
+  id: QuoteLineDialogTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineDialogTask
+  nameWithType: Navigation.QuoteLineDialogTask
+  fullName: SuperOffice.Data.Navigation.QuoteLineDialogTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n51: \n"
+  syntax:
+    content: QuoteLineDialogTask = 51
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.QuoteLineDialog
+  commentId: F:SuperOffice.Data.Navigation.QuoteLineDialog
+  id: QuoteLineDialog
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineDialog
+  nameWithType: Navigation.QuoteLineDialog
+  fullName: SuperOffice.Data.Navigation.QuoteLineDialog
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n52: \n"
+  syntax:
+    content: QuoteLineDialog = 52
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.QuoteLineSelectionMainTask
+  commentId: F:SuperOffice.Data.Navigation.QuoteLineSelectionMainTask
+  id: QuoteLineSelectionMainTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineSelectionMainTask
+  nameWithType: Navigation.QuoteLineSelectionMainTask
+  fullName: SuperOffice.Data.Navigation.QuoteLineSelectionMainTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n53: \n"
+  syntax:
+    content: QuoteLineSelectionMainTask = 53
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.QuoteLineSelectionShadowTask
+  commentId: F:SuperOffice.Data.Navigation.QuoteLineSelectionShadowTask
+  id: QuoteLineSelectionShadowTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineSelectionShadowTask
+  nameWithType: Navigation.QuoteLineSelectionShadowTask
+  fullName: SuperOffice.Data.Navigation.QuoteLineSelectionShadowTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n54: \n"
+  syntax:
+    content: QuoteLineSelectionShadowTask = 54
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.SelectionQuoteLineArchive
+  commentId: F:SuperOffice.Data.Navigation.SelectionQuoteLineArchive
+  id: SelectionQuoteLineArchive
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: SelectionQuoteLineArchive
+  nameWithType: Navigation.SelectionQuoteLineArchive
+  fullName: SuperOffice.Data.Navigation.SelectionQuoteLineArchive
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n55: \n"
+  syntax:
+    content: SelectionQuoteLineArchive = 55
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.QuoteLineSelectionCustomTask
+  commentId: F:SuperOffice.Data.Navigation.QuoteLineSelectionCustomTask
+  id: QuoteLineSelectionCustomTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineSelectionCustomTask
+  nameWithType: Navigation.QuoteLineSelectionCustomTask
+  fullName: SuperOffice.Data.Navigation.QuoteLineSelectionCustomTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n56: \n"
+  syntax:
+    content: QuoteLineSelectionCustomTask = 56
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.FindSystem
+  commentId: F:SuperOffice.Data.Navigation.FindSystem
+  id: FindSystem
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: FindSystem
+  nameWithType: Navigation.FindSystem
+  fullName: SuperOffice.Data.Navigation.FindSystem
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n57: \n"
+  syntax:
+    content: FindSystem = 57
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.MailingSelectionTask
+  commentId: F:SuperOffice.Data.Navigation.MailingSelectionTask
+  id: MailingSelectionTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: MailingSelectionTask
+  nameWithType: Navigation.MailingSelectionTask
+  fullName: SuperOffice.Data.Navigation.MailingSelectionTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n58: Task button visible on the Mailing Selection task panel\n"
+  syntax:
+    content: MailingSelectionTask = 58
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.ContactSelectionMailingsTask
+  commentId: F:SuperOffice.Data.Navigation.ContactSelectionMailingsTask
+  id: ContactSelectionMailingsTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: ContactSelectionMailingsTask
+  nameWithType: Navigation.ContactSelectionMailingsTask
+  fullName: SuperOffice.Data.Navigation.ContactSelectionMailingsTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n59: Task button visible on the Mailing Selection task panel\n"
+  syntax:
+    content: ContactSelectionMailingsTask = 59
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.AppointmentSelectionMailingsTask
+  commentId: F:SuperOffice.Data.Navigation.AppointmentSelectionMailingsTask
+  id: AppointmentSelectionMailingsTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: AppointmentSelectionMailingsTask
+  nameWithType: Navigation.AppointmentSelectionMailingsTask
+  fullName: SuperOffice.Data.Navigation.AppointmentSelectionMailingsTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n60: Task button visible on the Mailing Selection task panel\n"
+  syntax:
+    content: AppointmentSelectionMailingsTask = 60
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.SaleSelectionMailingsTask
+  commentId: F:SuperOffice.Data.Navigation.SaleSelectionMailingsTask
+  id: SaleSelectionMailingsTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: SaleSelectionMailingsTask
+  nameWithType: Navigation.SaleSelectionMailingsTask
+  fullName: SuperOffice.Data.Navigation.SaleSelectionMailingsTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n61: Task button visible on the Mailing Selection task panel\n"
+  syntax:
+    content: SaleSelectionMailingsTask = 61
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.DocumentSelectionMailingsTask
+  commentId: F:SuperOffice.Data.Navigation.DocumentSelectionMailingsTask
+  id: DocumentSelectionMailingsTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: DocumentSelectionMailingsTask
+  nameWithType: Navigation.DocumentSelectionMailingsTask
+  fullName: SuperOffice.Data.Navigation.DocumentSelectionMailingsTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n62: Task button visible on the Mailing Selection task panel\n"
+  syntax:
+    content: DocumentSelectionMailingsTask = 62
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.ProjectSelectionMailingsTask
+  commentId: F:SuperOffice.Data.Navigation.ProjectSelectionMailingsTask
+  id: ProjectSelectionMailingsTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: ProjectSelectionMailingsTask
+  nameWithType: Navigation.ProjectSelectionMailingsTask
+  fullName: SuperOffice.Data.Navigation.ProjectSelectionMailingsTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n63: Task button visible on the Mailing Selection task panel\n"
+  syntax:
+    content: ProjectSelectionMailingsTask = 63
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.QuoteLineSelectionMailingsTask
+  commentId: F:SuperOffice.Data.Navigation.QuoteLineSelectionMailingsTask
+  id: QuoteLineSelectionMailingsTask
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineSelectionMailingsTask
+  nameWithType: Navigation.QuoteLineSelectionMailingsTask
+  fullName: SuperOffice.Data.Navigation.QuoteLineSelectionMailingsTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n64: Task button visible on the Mailing Selection task panel\n"
+  syntax:
+    content: QuoteLineSelectionMailingsTask = 64
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.TopPanelNewMenu
+  commentId: F:SuperOffice.Data.Navigation.TopPanelNewMenu
+  id: TopPanelNewMenu
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: TopPanelNewMenu
+  nameWithType: Navigation.TopPanelNewMenu
+  fullName: SuperOffice.Data.Navigation.TopPanelNewMenu
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n65: Visible in top panels new menu\n"
+  syntax:
+    content: TopPanelNewMenu = 65
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.Dashboard
+  commentId: F:SuperOffice.Data.Navigation.Dashboard
+  id: Dashboard
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: Dashboard
+  nameWithType: Navigation.Dashboard
+  fullName: SuperOffice.Data.Navigation.Dashboard
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n66: Dashboard panel\n"
+  syntax:
+    content: Dashboard = 66
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.PersonArchive
+  commentId: F:SuperOffice.Data.Navigation.PersonArchive
+  id: PersonArchive
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: PersonArchive
+  nameWithType: Navigation.PersonArchive
+  fullName: SuperOffice.Data.Navigation.PersonArchive
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n67: This application (type IntegratedHTML or IntegratedURL)  appears as a tab in the Person Archive\n"
+  syntax:
+    content: PersonArchive = 67
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.Navigation.PersonMinicard
+  commentId: F:SuperOffice.Data.Navigation.PersonMinicard
+  id: PersonMinicard
+  parent: SuperOffice.Data.Navigation
+  langs:
+  - csharp
+  - vb
+  name: PersonMinicard
+  nameWithType: Navigation.PersonMinicard
+  fullName: SuperOffice.Data.Navigation.PersonMinicard
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n68: In the person minicard\n"
+  syntax:
+    content: PersonMinicard = 68
+    return:
+      type: SuperOffice.Data.Navigation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.Navigation.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<Navigation, To>()
+  nameWithType: EnumUtil.MapEnums<Navigation, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Navigation, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of Navigation, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Navigation, To)()
+  name.vb: MapEnums(Of Navigation, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<Navigation, To>
+    nameWithType: EnumUtil.MapEnums<Navigation, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.Navigation, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of Navigation, To)
+    nameWithType: EnumUtil.MapEnums(Of Navigation, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.Navigation, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Navigation.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Navigation)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<Navigation>(Navigation)
+  nameWithType: ObjectExtensions.AssignByReflection<Navigation>(Navigation)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.Navigation>(SuperOffice.Data.Navigation)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of Navigation)(Navigation)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.Navigation)(SuperOffice.Data.Navigation)
+  name.vb: AssignByReflection(Of Navigation)(Navigation)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<Navigation>
+    nameWithType: ObjectExtensions.AssignByReflection<Navigation>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.Navigation>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Navigation
+    name: Navigation
+    nameWithType: Navigation
+    fullName: SuperOffice.Data.Navigation
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of Navigation)
+    nameWithType: ObjectExtensions.AssignByReflection(Of Navigation)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.Navigation)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.Navigation
+    name: Navigation
+    nameWithType: Navigation
+    fullName: SuperOffice.Data.Navigation
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Navigation.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<Navigation>()
+  nameWithType: ObjectExtensions.GraphCopy<Navigation>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.Navigation>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of Navigation)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.Navigation)()
+  name.vb: GraphCopy(Of Navigation)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<Navigation>
+    nameWithType: ObjectExtensions.GraphCopy<Navigation>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.Navigation>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of Navigation)
+    nameWithType: ObjectExtensions.GraphCopy(Of Navigation)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.Navigation)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Navigation.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<Navigation, To>()
+  nameWithType: Converters.MapEnums<Navigation, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Navigation, To>()
+  nameWithType.vb: Converters.MapEnums(Of Navigation, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Navigation, To)()
+  name.vb: MapEnums(Of Navigation, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<Navigation, To>
+    nameWithType: Converters.MapEnums<Navigation, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Navigation, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of Navigation, To)
+    nameWithType: Converters.MapEnums(Of Navigation, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Navigation, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.Navigation
+  commentId: T:SuperOffice.Data.Navigation
+  parent: SuperOffice.Data
+  isExternal: true
+  name: Navigation
+  nameWithType: Navigation
+  fullName: SuperOffice.Data.Navigation

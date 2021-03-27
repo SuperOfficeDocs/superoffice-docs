@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarValueType
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.CalendarValueType
+  id: CalendarValueType
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.CalendarValueType.Month
+  - SuperOffice.CRM.Web.UI.Controls.CalendarValueType.None
+  - SuperOffice.CRM.Web.UI.Controls.CalendarValueType.Week
+  langs:
+  - csharp
+  - vb
+  name: CalendarValueType
+  nameWithType: CalendarValueType
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarValueType
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public enum CalendarValueType
+    content.vb: Public Enum CalendarValueType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarValueType.None
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarValueType.None
+  id: None
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarValueType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: CalendarValueType.None
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarValueType.None
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarValueType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarValueType.Week
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarValueType.Week
+  id: Week
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarValueType
+  langs:
+  - csharp
+  - vb
+  name: Week
+  nameWithType: CalendarValueType.Week
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarValueType.Week
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Week = 1
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarValueType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarValueType.Month
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarValueType.Month
+  id: Month
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarValueType
+  langs:
+  - csharp
+  - vb
+  name: Month
+  nameWithType: CalendarValueType.Month
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarValueType.Month
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: Month = 2
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarValueType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarValueType
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.CalendarValueType
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: CalendarValueType
+  nameWithType: CalendarValueType
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarValueType

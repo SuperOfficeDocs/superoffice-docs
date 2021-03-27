@@ -1,0 +1,438 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ListItemEntity
+  commentId: T:SuperOffice.CRM.Services.ListItemEntity
+  id: ListItemEntity
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ListItemEntity.#ctor
+  - SuperOffice.CRM.Services.ListItemEntity.Deleted
+  - SuperOffice.CRM.Services.ListItemEntity.Id
+  - SuperOffice.CRM.Services.ListItemEntity.Name
+  - SuperOffice.CRM.Services.ListItemEntity.Rank
+  - SuperOffice.CRM.Services.ListItemEntity.Tooltip
+  - SuperOffice.CRM.Services.ListItemEntity.ToString
+  - SuperOffice.CRM.Services.ListItemEntity.ToString(System.String)
+  - SuperOffice.CRM.Services.ListItemEntity.UdListDefinitionId
+  langs:
+  - csharp
+  - vb
+  name: ListItemEntity
+  nameWithType: ListItemEntity
+  fullName: SuperOffice.CRM.Services.ListItemEntity
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe list item entity contains generic list item information\n<p></p>\nCarrier object for ListItemEntity.\nServices for the ListItemEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IListAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class ListItemEntity : Carrier'
+    content.vb: >-
+      Public Class ListItemEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ListAgent
+    commentId: T:SuperOffice.CRM.Services.ListAgent
+  - linkId: SuperOffice.CRM.Services.IListAgent
+    commentId: T:SuperOffice.CRM.Services.IListAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ListItemEntity.#ctor
+  commentId: M:SuperOffice.CRM.Services.ListItemEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ListItemEntity
+  langs:
+  - csharp
+  - vb
+  name: ListItemEntity()
+  nameWithType: ListItemEntity.ListItemEntity()
+  fullName: SuperOffice.CRM.Services.ListItemEntity.ListItemEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ListItemEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ListItemEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ListItemEntity.ToString
+  commentId: M:SuperOffice.CRM.Services.ListItemEntity.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ListItemEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ListItemEntity.ToString()
+  fullName: SuperOffice.CRM.Services.ListItemEntity.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.ListItemEntity.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ListItemEntity.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ListItemEntity.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ListItemEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ListItemEntity.ToString(String)
+  fullName: SuperOffice.CRM.Services.ListItemEntity.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ListItemEntity.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ListItemEntity.Id
+  commentId: P:SuperOffice.CRM.Services.ListItemEntity.Id
+  id: Id
+  parent: SuperOffice.CRM.Services.ListItemEntity
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: ListItemEntity.Id
+  fullName: SuperOffice.CRM.Services.ListItemEntity.Id
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe identity of the list item \n"
+  syntax:
+    content: public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Id As Integer
+  overload: SuperOffice.CRM.Services.ListItemEntity.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ListItemEntity.Name
+  commentId: P:SuperOffice.CRM.Services.ListItemEntity.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.ListItemEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ListItemEntity.Name
+  fullName: SuperOffice.CRM.Services.ListItemEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe name of the list item \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.ListItemEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ListItemEntity.Tooltip
+  commentId: P:SuperOffice.CRM.Services.ListItemEntity.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Services.ListItemEntity
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: ListItemEntity.Tooltip
+  fullName: SuperOffice.CRM.Services.ListItemEntity.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe tooltip of the list item \n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.CRM.Services.ListItemEntity.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ListItemEntity.Deleted
+  commentId: P:SuperOffice.CRM.Services.ListItemEntity.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Services.ListItemEntity
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: ListItemEntity.Deleted
+  fullName: SuperOffice.CRM.Services.ListItemEntity.Deleted
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue if the list item is marked as deleted \n"
+  syntax:
+    content: public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.CRM.Services.ListItemEntity.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ListItemEntity.UdListDefinitionId
+  commentId: P:SuperOffice.CRM.Services.ListItemEntity.UdListDefinitionId
+  id: UdListDefinitionId
+  parent: SuperOffice.CRM.Services.ListItemEntity
+  langs:
+  - csharp
+  - vb
+  name: UdListDefinitionId
+  nameWithType: ListItemEntity.UdListDefinitionId
+  fullName: SuperOffice.CRM.Services.ListItemEntity.UdListDefinitionId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe id of the list which this list item belongs to \n"
+  syntax:
+    content: public virtual int UdListDefinitionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UdListDefinitionId As Integer
+  overload: SuperOffice.CRM.Services.ListItemEntity.UdListDefinitionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ListItemEntity.Rank
+  commentId: P:SuperOffice.CRM.Services.ListItemEntity.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Services.ListItemEntity
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: ListItemEntity.Rank
+  fullName: SuperOffice.CRM.Services.ListItemEntity.Rank
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe rank of the list item \n"
+  syntax:
+    content: public virtual int Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Rank As Integer
+  overload: SuperOffice.CRM.Services.ListItemEntity.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.ListAgent
+  commentId: T:SuperOffice.CRM.Services.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.CRM.Services.ListAgent
+- uid: SuperOffice.CRM.Services.IListAgent
+  commentId: T:SuperOffice.CRM.Services.IListAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IListAgent
+  nameWithType: IListAgent
+  fullName: SuperOffice.CRM.Services.IListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ListItemEntity.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ListItemEntity.#ctor
+  isExternal: true
+  name: ListItemEntity
+  nameWithType: ListItemEntity.ListItemEntity
+  fullName: SuperOffice.CRM.Services.ListItemEntity.ListItemEntity
+- uid: SuperOffice.CRM.Services.ListItemEntity.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ListItemEntity.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ListItemEntity.ToString
+  fullName: SuperOffice.CRM.Services.ListItemEntity.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ListItemEntity.Id*
+  commentId: Overload:SuperOffice.CRM.Services.ListItemEntity.Id
+  isExternal: true
+  name: Id
+  nameWithType: ListItemEntity.Id
+  fullName: SuperOffice.CRM.Services.ListItemEntity.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ListItemEntity.Name*
+  commentId: Overload:SuperOffice.CRM.Services.ListItemEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: ListItemEntity.Name
+  fullName: SuperOffice.CRM.Services.ListItemEntity.Name
+- uid: SuperOffice.CRM.Services.ListItemEntity.Tooltip*
+  commentId: Overload:SuperOffice.CRM.Services.ListItemEntity.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: ListItemEntity.Tooltip
+  fullName: SuperOffice.CRM.Services.ListItemEntity.Tooltip
+- uid: SuperOffice.CRM.Services.ListItemEntity.Deleted*
+  commentId: Overload:SuperOffice.CRM.Services.ListItemEntity.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: ListItemEntity.Deleted
+  fullName: SuperOffice.CRM.Services.ListItemEntity.Deleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.ListItemEntity.UdListDefinitionId*
+  commentId: Overload:SuperOffice.CRM.Services.ListItemEntity.UdListDefinitionId
+  isExternal: true
+  name: UdListDefinitionId
+  nameWithType: ListItemEntity.UdListDefinitionId
+  fullName: SuperOffice.CRM.Services.ListItemEntity.UdListDefinitionId
+- uid: SuperOffice.CRM.Services.ListItemEntity.Rank*
+  commentId: Overload:SuperOffice.CRM.Services.ListItemEntity.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: ListItemEntity.Rank
+  fullName: SuperOffice.CRM.Services.ListItemEntity.Rank

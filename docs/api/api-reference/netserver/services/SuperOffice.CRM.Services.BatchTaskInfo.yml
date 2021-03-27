@@ -1,0 +1,1022 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.BatchTaskInfo
+  commentId: T:SuperOffice.CRM.Services.BatchTaskInfo
+  id: BatchTaskInfo
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.BatchTaskInfo.#ctor
+  - SuperOffice.CRM.Services.BatchTaskInfo.AssociateId
+  - SuperOffice.CRM.Services.BatchTaskInfo.Context
+  - SuperOffice.CRM.Services.BatchTaskInfo.Created
+  - SuperOffice.CRM.Services.BatchTaskInfo.DatabaseSerialNumber
+  - SuperOffice.CRM.Services.BatchTaskInfo.Description
+  - SuperOffice.CRM.Services.BatchTaskInfo.DetailsRecord
+  - SuperOffice.CRM.Services.BatchTaskInfo.DetailsTable
+  - SuperOffice.CRM.Services.BatchTaskInfo.Id
+  - SuperOffice.CRM.Services.BatchTaskInfo.IsInternalTask
+  - SuperOffice.CRM.Services.BatchTaskInfo.IsSystemTask
+  - SuperOffice.CRM.Services.BatchTaskInfo.LastStarted
+  - SuperOffice.CRM.Services.BatchTaskInfo.Name
+  - SuperOffice.CRM.Services.BatchTaskInfo.ParameterObject
+  - SuperOffice.CRM.Services.BatchTaskInfo.ProgressDescription
+  - SuperOffice.CRM.Services.BatchTaskInfo.ProgressPercent
+  - SuperOffice.CRM.Services.BatchTaskInfo.Request
+  - SuperOffice.CRM.Services.BatchTaskInfo.Response
+  - SuperOffice.CRM.Services.BatchTaskInfo.Result
+  - SuperOffice.CRM.Services.BatchTaskInfo.StartCount
+  - SuperOffice.CRM.Services.BatchTaskInfo.State
+  - SuperOffice.CRM.Services.BatchTaskInfo.ToString
+  - SuperOffice.CRM.Services.BatchTaskInfo.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: BatchTaskInfo
+  nameWithType: BatchTaskInfo
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nBatchTaskInfo contains information about one batch task.\n<p></p>\nCarrier object for BatchTaskInfo.\nServices for the BatchTaskInfo Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IBatchAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class BatchTaskInfo : Carrier'
+    content.vb: >-
+      Public Class BatchTaskInfo
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.BatchAgent
+    commentId: T:SuperOffice.CRM.Services.BatchAgent
+  - linkId: SuperOffice.CRM.Services.IBatchAgent
+    commentId: T:SuperOffice.CRM.Services.IBatchAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.#ctor
+  commentId: M:SuperOffice.CRM.Services.BatchTaskInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: BatchTaskInfo()
+  nameWithType: BatchTaskInfo.BatchTaskInfo()
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.BatchTaskInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public BatchTaskInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.BatchTaskInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.ToString
+  commentId: M:SuperOffice.CRM.Services.BatchTaskInfo.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: BatchTaskInfo.ToString()
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.BatchTaskInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.BatchTaskInfo.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: BatchTaskInfo.ToString(String)
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.BatchTaskInfo.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.Id
+  commentId: P:SuperOffice.CRM.Services.BatchTaskInfo.Id
+  id: Id
+  parent: SuperOffice.CRM.Services.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: BatchTaskInfo.Id
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.Id
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nId of the task. \n"
+  syntax:
+    content: public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Id As Integer
+  overload: SuperOffice.CRM.Services.BatchTaskInfo.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.Name
+  commentId: P:SuperOffice.CRM.Services.BatchTaskInfo.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: BatchTaskInfo.Name
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of the task. \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.BatchTaskInfo.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.AssociateId
+  commentId: P:SuperOffice.CRM.Services.BatchTaskInfo.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Services.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: BatchTaskInfo.AssociateId
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTask owner. If it is a System task, AssociateId = 0. \n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.CRM.Services.BatchTaskInfo.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.DetailsTable
+  commentId: P:SuperOffice.CRM.Services.BatchTaskInfo.DetailsTable
+  id: DetailsTable
+  parent: SuperOffice.CRM.Services.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: DetailsTable
+  nameWithType: BatchTaskInfo.DetailsTable
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.DetailsTable
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nId of table with more information about the task. \n"
+  syntax:
+    content: public virtual short DetailsTable { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property DetailsTable As Short
+  overload: SuperOffice.CRM.Services.BatchTaskInfo.DetailsTable*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.DetailsRecord
+  commentId: P:SuperOffice.CRM.Services.BatchTaskInfo.DetailsRecord
+  id: DetailsRecord
+  parent: SuperOffice.CRM.Services.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: DetailsRecord
+  nameWithType: BatchTaskInfo.DetailsRecord
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.DetailsRecord
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRecord Id of a row in the DetailsTable containing more info about the task. \n"
+  syntax:
+    content: public virtual int DetailsRecord { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DetailsRecord As Integer
+  overload: SuperOffice.CRM.Services.BatchTaskInfo.DetailsRecord*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.IsSystemTask
+  commentId: P:SuperOffice.CRM.Services.BatchTaskInfo.IsSystemTask
+  id: IsSystemTask
+  parent: SuperOffice.CRM.Services.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: IsSystemTask
+  nameWithType: BatchTaskInfo.IsSystemTask
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.IsSystemTask
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIf IsSystemTask is true, the task is not initiated by an associate. \n"
+  syntax:
+    content: public virtual bool IsSystemTask { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsSystemTask As Boolean
+  overload: SuperOffice.CRM.Services.BatchTaskInfo.IsSystemTask*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.IsInternalTask
+  commentId: P:SuperOffice.CRM.Services.BatchTaskInfo.IsInternalTask
+  id: IsInternalTask
+  parent: SuperOffice.CRM.Services.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: IsInternalTask
+  nameWithType: BatchTaskInfo.IsInternalTask
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.IsInternalTask
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIf IsInternalTask is true, this task will not add a trace to the database. \n"
+  syntax:
+    content: public virtual bool IsInternalTask { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsInternalTask As Boolean
+  overload: SuperOffice.CRM.Services.BatchTaskInfo.IsInternalTask*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.ParameterObject
+  commentId: P:SuperOffice.CRM.Services.BatchTaskInfo.ParameterObject
+  id: ParameterObject
+  parent: SuperOffice.CRM.Services.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: ParameterObject
+  nameWithType: BatchTaskInfo.ParameterObject
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.ParameterObject
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nParameterObject will be serialized to a binary blob and saved in the BinaryObject table. The link to the BinaryObject will be set using DetailsTable and DetailsRecord. \n"
+  syntax:
+    content: public virtual StringDictionary ParameterObject { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+    content.vb: Public Overridable Property ParameterObject As StringDictionary
+  overload: SuperOffice.CRM.Services.BatchTaskInfo.ParameterObject*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.LastStarted
+  commentId: P:SuperOffice.CRM.Services.BatchTaskInfo.LastStarted
+  id: LastStarted
+  parent: SuperOffice.CRM.Services.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: LastStarted
+  nameWithType: BatchTaskInfo.LastStarted
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.LastStarted
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhen was the task last started. \n"
+  syntax:
+    content: public virtual DateTime LastStarted { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property LastStarted As Date
+  overload: SuperOffice.CRM.Services.BatchTaskInfo.LastStarted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.Created
+  commentId: P:SuperOffice.CRM.Services.BatchTaskInfo.Created
+  id: Created
+  parent: SuperOffice.CRM.Services.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: Created
+  nameWithType: BatchTaskInfo.Created
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.Created
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTask creation time. \n"
+  syntax:
+    content: public virtual DateTime Created { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Created As Date
+  overload: SuperOffice.CRM.Services.BatchTaskInfo.Created*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.StartCount
+  commentId: P:SuperOffice.CRM.Services.BatchTaskInfo.StartCount
+  id: StartCount
+  parent: SuperOffice.CRM.Services.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: StartCount
+  nameWithType: BatchTaskInfo.StartCount
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.StartCount
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMaps to the startcount field in the batchtask table. \n"
+  syntax:
+    content: public virtual int StartCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property StartCount As Integer
+  overload: SuperOffice.CRM.Services.BatchTaskInfo.StartCount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.DatabaseSerialNumber
+  commentId: P:SuperOffice.CRM.Services.BatchTaskInfo.DatabaseSerialNumber
+  id: DatabaseSerialNumber
+  parent: SuperOffice.CRM.Services.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: DatabaseSerialNumber
+  nameWithType: BatchTaskInfo.DatabaseSerialNumber
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.DatabaseSerialNumber
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSerial number of the database the task is to run on. \n"
+  syntax:
+    content: public virtual string DatabaseSerialNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DatabaseSerialNumber As String
+  overload: SuperOffice.CRM.Services.BatchTaskInfo.DatabaseSerialNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.Context
+  commentId: P:SuperOffice.CRM.Services.BatchTaskInfo.Context
+  id: Context
+  parent: SuperOffice.CRM.Services.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: Context
+  nameWithType: BatchTaskInfo.Context
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.Context
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContext for the executing task. \n"
+  syntax:
+    content: public virtual string Context { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Context As String
+  overload: SuperOffice.CRM.Services.BatchTaskInfo.Context*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.Result
+  commentId: P:SuperOffice.CRM.Services.BatchTaskInfo.Result
+  id: Result
+  parent: SuperOffice.CRM.Services.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: Result
+  nameWithType: BatchTaskInfo.Result
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.Result
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMaps to the result field in the batchtask table. \n"
+  syntax:
+    content: public virtual string Result { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Result As String
+  overload: SuperOffice.CRM.Services.BatchTaskInfo.Result*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.State
+  commentId: P:SuperOffice.CRM.Services.BatchTaskInfo.State
+  id: State
+  parent: SuperOffice.CRM.Services.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: BatchTaskInfo.State
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.State
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nBatchTaskState of the task. \n"
+  syntax:
+    content: public virtual BatchTaskState State { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.BatchTaskState
+    content.vb: Public Overridable Property State As BatchTaskState
+  overload: SuperOffice.CRM.Services.BatchTaskInfo.State*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.Description
+  commentId: P:SuperOffice.CRM.Services.BatchTaskInfo.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: BatchTaskInfo.Description
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.Description
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDescription of the task. \n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.BatchTaskInfo.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.Response
+  commentId: P:SuperOffice.CRM.Services.BatchTaskInfo.Response
+  id: Response
+  parent: SuperOffice.CRM.Services.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: Response
+  nameWithType: BatchTaskInfo.Response
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.Response
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMaps to the response field in the batchtask table. \n"
+  syntax:
+    content: public virtual string Response { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Response As String
+  overload: SuperOffice.CRM.Services.BatchTaskInfo.Response*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.Request
+  commentId: P:SuperOffice.CRM.Services.BatchTaskInfo.Request
+  id: Request
+  parent: SuperOffice.CRM.Services.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: Request
+  nameWithType: BatchTaskInfo.Request
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.Request
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMaps to the request field in the batchtask table. \n"
+  syntax:
+    content: public virtual string Request { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Request As String
+  overload: SuperOffice.CRM.Services.BatchTaskInfo.Request*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.ProgressDescription
+  commentId: P:SuperOffice.CRM.Services.BatchTaskInfo.ProgressDescription
+  id: ProgressDescription
+  parent: SuperOffice.CRM.Services.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: ProgressDescription
+  nameWithType: BatchTaskInfo.ProgressDescription
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.ProgressDescription
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDescriptive text for the current stage \n"
+  syntax:
+    content: public virtual string ProgressDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProgressDescription As String
+  overload: SuperOffice.CRM.Services.BatchTaskInfo.ProgressDescription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.ProgressPercent
+  commentId: P:SuperOffice.CRM.Services.BatchTaskInfo.ProgressPercent
+  id: ProgressPercent
+  parent: SuperOffice.CRM.Services.BatchTaskInfo
+  langs:
+  - csharp
+  - vb
+  name: ProgressPercent
+  nameWithType: BatchTaskInfo.ProgressPercent
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.ProgressPercent
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTask progress, in percent of estimated total \n"
+  syntax:
+    content: public virtual short ProgressPercent { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property ProgressPercent As Short
+  overload: SuperOffice.CRM.Services.BatchTaskInfo.ProgressPercent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.BatchAgent
+  commentId: T:SuperOffice.CRM.Services.BatchAgent
+  isExternal: true
+  name: BatchAgent
+  nameWithType: BatchAgent
+  fullName: SuperOffice.CRM.Services.BatchAgent
+- uid: SuperOffice.CRM.Services.IBatchAgent
+  commentId: T:SuperOffice.CRM.Services.IBatchAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IBatchAgent
+  nameWithType: IBatchAgent
+  fullName: SuperOffice.CRM.Services.IBatchAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.BatchTaskInfo.#ctor
+  isExternal: true
+  name: BatchTaskInfo
+  nameWithType: BatchTaskInfo.BatchTaskInfo
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.BatchTaskInfo
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.BatchTaskInfo.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: BatchTaskInfo.ToString
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.Id*
+  commentId: Overload:SuperOffice.CRM.Services.BatchTaskInfo.Id
+  isExternal: true
+  name: Id
+  nameWithType: BatchTaskInfo.Id
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.Name*
+  commentId: Overload:SuperOffice.CRM.Services.BatchTaskInfo.Name
+  isExternal: true
+  name: Name
+  nameWithType: BatchTaskInfo.Name
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.Name
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.AssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.BatchTaskInfo.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: BatchTaskInfo.AssociateId
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.AssociateId
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.DetailsTable*
+  commentId: Overload:SuperOffice.CRM.Services.BatchTaskInfo.DetailsTable
+  isExternal: true
+  name: DetailsTable
+  nameWithType: BatchTaskInfo.DetailsTable
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.DetailsTable
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.DetailsRecord*
+  commentId: Overload:SuperOffice.CRM.Services.BatchTaskInfo.DetailsRecord
+  isExternal: true
+  name: DetailsRecord
+  nameWithType: BatchTaskInfo.DetailsRecord
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.DetailsRecord
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.IsSystemTask*
+  commentId: Overload:SuperOffice.CRM.Services.BatchTaskInfo.IsSystemTask
+  isExternal: true
+  name: IsSystemTask
+  nameWithType: BatchTaskInfo.IsSystemTask
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.IsSystemTask
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.IsInternalTask*
+  commentId: Overload:SuperOffice.CRM.Services.BatchTaskInfo.IsInternalTask
+  isExternal: true
+  name: IsInternalTask
+  nameWithType: BatchTaskInfo.IsInternalTask
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.IsInternalTask
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.ParameterObject*
+  commentId: Overload:SuperOffice.CRM.Services.BatchTaskInfo.ParameterObject
+  isExternal: true
+  name: ParameterObject
+  nameWithType: BatchTaskInfo.ParameterObject
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.ParameterObject
+- uid: SuperOffice.CRM.Services.StringDictionary
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.LastStarted*
+  commentId: Overload:SuperOffice.CRM.Services.BatchTaskInfo.LastStarted
+  isExternal: true
+  name: LastStarted
+  nameWithType: BatchTaskInfo.LastStarted
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.LastStarted
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.Created*
+  commentId: Overload:SuperOffice.CRM.Services.BatchTaskInfo.Created
+  isExternal: true
+  name: Created
+  nameWithType: BatchTaskInfo.Created
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.Created
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.StartCount*
+  commentId: Overload:SuperOffice.CRM.Services.BatchTaskInfo.StartCount
+  isExternal: true
+  name: StartCount
+  nameWithType: BatchTaskInfo.StartCount
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.StartCount
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.DatabaseSerialNumber*
+  commentId: Overload:SuperOffice.CRM.Services.BatchTaskInfo.DatabaseSerialNumber
+  isExternal: true
+  name: DatabaseSerialNumber
+  nameWithType: BatchTaskInfo.DatabaseSerialNumber
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.DatabaseSerialNumber
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.Context*
+  commentId: Overload:SuperOffice.CRM.Services.BatchTaskInfo.Context
+  isExternal: true
+  name: Context
+  nameWithType: BatchTaskInfo.Context
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.Context
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.Result*
+  commentId: Overload:SuperOffice.CRM.Services.BatchTaskInfo.Result
+  isExternal: true
+  name: Result
+  nameWithType: BatchTaskInfo.Result
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.Result
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.State*
+  commentId: Overload:SuperOffice.CRM.Services.BatchTaskInfo.State
+  isExternal: true
+  name: State
+  nameWithType: BatchTaskInfo.State
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.State
+- uid: SuperOffice.Data.BatchTaskState
+  isExternal: true
+  name: BatchTaskState
+  nameWithType: BatchTaskState
+  fullName: SuperOffice.Data.BatchTaskState
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.Description*
+  commentId: Overload:SuperOffice.CRM.Services.BatchTaskInfo.Description
+  isExternal: true
+  name: Description
+  nameWithType: BatchTaskInfo.Description
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.Description
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.Response*
+  commentId: Overload:SuperOffice.CRM.Services.BatchTaskInfo.Response
+  isExternal: true
+  name: Response
+  nameWithType: BatchTaskInfo.Response
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.Response
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.Request*
+  commentId: Overload:SuperOffice.CRM.Services.BatchTaskInfo.Request
+  isExternal: true
+  name: Request
+  nameWithType: BatchTaskInfo.Request
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.Request
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.ProgressDescription*
+  commentId: Overload:SuperOffice.CRM.Services.BatchTaskInfo.ProgressDescription
+  isExternal: true
+  name: ProgressDescription
+  nameWithType: BatchTaskInfo.ProgressDescription
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.ProgressDescription
+- uid: SuperOffice.CRM.Services.BatchTaskInfo.ProgressPercent*
+  commentId: Overload:SuperOffice.CRM.Services.BatchTaskInfo.ProgressPercent
+  isExternal: true
+  name: ProgressPercent
+  nameWithType: BatchTaskInfo.ProgressPercent
+  fullName: SuperOffice.CRM.Services.BatchTaskInfo.ProgressPercent

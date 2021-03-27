@@ -1,0 +1,405 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Address
+  commentId: T:SuperOffice.WebApi.Data.Address
+  id: Address
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Address.#ctor
+  - SuperOffice.WebApi.Data.Address.Formatted
+  - SuperOffice.WebApi.Data.Address.LocalizedAddress
+  - SuperOffice.WebApi.Data.Address.Postal
+  - SuperOffice.WebApi.Data.Address.Street
+  - SuperOffice.WebApi.Data.Address.Wgs84Latitude
+  - SuperOffice.WebApi.Data.Address.Wgs84Longitude
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: Address
+  fullName: SuperOffice.WebApi.Data.Address
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for Address.\nStreet and/or Postal address, in both formatted and structured forms. You only need to modify one of the two for the change to be registered.    \n"
+  syntax:
+    content: 'public class Address : Carrier'
+    content.vb: >-
+      Public Class Address
+          Inherits Carrier
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Address.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Address.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Address
+  langs:
+  - csharp
+  - vb
+  name: Address()
+  nameWithType: Address.Address()
+  fullName: SuperOffice.WebApi.Data.Address.Address()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public Address()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Address.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Address.Wgs84Latitude
+  commentId: P:SuperOffice.WebApi.Data.Address.Wgs84Latitude
+  id: Wgs84Latitude
+  parent: SuperOffice.WebApi.Data.Address
+  langs:
+  - csharp
+  - vb
+  name: Wgs84Latitude
+  nameWithType: Address.Wgs84Latitude
+  fullName: SuperOffice.WebApi.Data.Address.Wgs84Latitude
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLatitude (that&apos;s north/south), decimal degrees, relative to WGS 84 ellipsoid. SuperOffice ASA is at 59.91892. This value needs no further grid reference or other qualifying information.\n"
+  syntax:
+    content: public virtual double Wgs84Latitude { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property Wgs84Latitude As Double
+  overload: SuperOffice.WebApi.Data.Address.Wgs84Latitude*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Address.Wgs84Longitude
+  commentId: P:SuperOffice.WebApi.Data.Address.Wgs84Longitude
+  id: Wgs84Longitude
+  parent: SuperOffice.WebApi.Data.Address
+  langs:
+  - csharp
+  - vb
+  name: Wgs84Longitude
+  nameWithType: Address.Wgs84Longitude
+  fullName: SuperOffice.WebApi.Data.Address.Wgs84Longitude
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLongitude (that&apos;s East/west), decimal degrees, relative to WGS 84 ellipsoid. SuperOffice ASA is at 10.73159. This value needs no further grid reference or other qualifying information.\n"
+  syntax:
+    content: public virtual double Wgs84Longitude { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property Wgs84Longitude As Double
+  overload: SuperOffice.WebApi.Data.Address.Wgs84Longitude*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Address.LocalizedAddress
+  commentId: P:SuperOffice.WebApi.Data.Address.LocalizedAddress
+  id: LocalizedAddress
+  parent: SuperOffice.WebApi.Data.Address
+  langs:
+  - csharp
+  - vb
+  name: LocalizedAddress
+  nameWithType: Address.LocalizedAddress
+  fullName: SuperOffice.WebApi.Data.Address.LocalizedAddress
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLocalizedFieldArray is a list of LocalizedFieldList objects. Used to store localized information such as formatted address data.\n"
+  syntax:
+    content: public virtual LocalizedField[][] LocalizedAddress { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.LocalizedField[][]
+    content.vb: Public Overridable Property LocalizedAddress As LocalizedField()()
+  overload: SuperOffice.WebApi.Data.Address.LocalizedAddress*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Address.Street
+  commentId: P:SuperOffice.WebApi.Data.Address.Street
+  id: Street
+  parent: SuperOffice.WebApi.Data.Address
+  langs:
+  - csharp
+  - vb
+  name: Street
+  nameWithType: Address.Street
+  fullName: SuperOffice.WebApi.Data.Address.Street
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStreet address (company street, person address, delivery address). LocalizedAddress changes override this property, so you do not have to change both Localized and this.\n"
+  syntax:
+    content: public virtual StructuredAddress Street { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StructuredAddress
+    content.vb: Public Overridable Property Street As StructuredAddress
+  overload: SuperOffice.WebApi.Data.Address.Street*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Address.Postal
+  commentId: P:SuperOffice.WebApi.Data.Address.Postal
+  id: Postal
+  parent: SuperOffice.WebApi.Data.Address
+  langs:
+  - csharp
+  - vb
+  name: Postal
+  nameWithType: Address.Postal
+  fullName: SuperOffice.WebApi.Data.Address.Postal
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPostal address (company postal, billing address). LocalizedAddress changes override this property, so you do not have to change both Localized and this.\n"
+  syntax:
+    content: public virtual StructuredAddress Postal { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StructuredAddress
+    content.vb: Public Overridable Property Postal As StructuredAddress
+  overload: SuperOffice.WebApi.Data.Address.Postal*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Address.Formatted
+  commentId: P:SuperOffice.WebApi.Data.Address.Formatted
+  id: Formatted
+  parent: SuperOffice.WebApi.Data.Address
+  langs:
+  - csharp
+  - vb
+  name: Formatted
+  nameWithType: Address.Formatted
+  fullName: SuperOffice.WebApi.Data.Address.Formatted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRead-only formatted address multi-line string. Combines street and postal into one string. e.g.: &lt;c>&quot;Postboks 123,\\nBrugata 123,\\n1234 OSLO\\n&quot;&lt;/c> or &lt;c>&quot;Postbox 123,\\nBridgelane 123,\\nWest Tooting,\\nEast Shire ES2 W31\\n&quot;&lt;/c>.\n"
+  syntax:
+    content: public virtual string Formatted { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Formatted As String
+  overload: SuperOffice.WebApi.Data.Address.Formatted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Address.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Address.#ctor
+  isExternal: true
+  name: Address
+  nameWithType: Address.Address
+  fullName: SuperOffice.WebApi.Data.Address.Address
+- uid: SuperOffice.WebApi.Data.Address.Wgs84Latitude*
+  commentId: Overload:SuperOffice.WebApi.Data.Address.Wgs84Latitude
+  isExternal: true
+  name: Wgs84Latitude
+  nameWithType: Address.Wgs84Latitude
+  fullName: SuperOffice.WebApi.Data.Address.Wgs84Latitude
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.WebApi.Data.Address.Wgs84Longitude*
+  commentId: Overload:SuperOffice.WebApi.Data.Address.Wgs84Longitude
+  isExternal: true
+  name: Wgs84Longitude
+  nameWithType: Address.Wgs84Longitude
+  fullName: SuperOffice.WebApi.Data.Address.Wgs84Longitude
+- uid: SuperOffice.WebApi.Data.Address.LocalizedAddress*
+  commentId: Overload:SuperOffice.WebApi.Data.Address.LocalizedAddress
+  isExternal: true
+  name: LocalizedAddress
+  nameWithType: Address.LocalizedAddress
+  fullName: SuperOffice.WebApi.Data.Address.LocalizedAddress
+- uid: SuperOffice.WebApi.Data.LocalizedField[][]
+  isExternal: true
+  name: LocalizedField[][]
+  nameWithType: LocalizedField[][]
+  fullName: SuperOffice.WebApi.Data.LocalizedField[][]
+  nameWithType.vb: LocalizedField()()
+  fullName.vb: SuperOffice.WebApi.Data.LocalizedField()()
+  name.vb: LocalizedField()()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.LocalizedField
+    name: LocalizedField
+    nameWithType: LocalizedField
+    fullName: SuperOffice.WebApi.Data.LocalizedField
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.LocalizedField
+    name: LocalizedField
+    nameWithType: LocalizedField
+    fullName: SuperOffice.WebApi.Data.LocalizedField
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Address.Street*
+  commentId: Overload:SuperOffice.WebApi.Data.Address.Street
+  isExternal: true
+  name: Street
+  nameWithType: Address.Street
+  fullName: SuperOffice.WebApi.Data.Address.Street
+- uid: SuperOffice.WebApi.Data.StructuredAddress
+  commentId: T:SuperOffice.WebApi.Data.StructuredAddress
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: StructuredAddress
+  nameWithType: StructuredAddress
+  fullName: SuperOffice.WebApi.Data.StructuredAddress
+- uid: SuperOffice.WebApi.Data.Address.Postal*
+  commentId: Overload:SuperOffice.WebApi.Data.Address.Postal
+  isExternal: true
+  name: Postal
+  nameWithType: Address.Postal
+  fullName: SuperOffice.WebApi.Data.Address.Postal
+- uid: SuperOffice.WebApi.Data.Address.Formatted*
+  commentId: Overload:SuperOffice.WebApi.Data.Address.Formatted
+  isExternal: true
+  name: Formatted
+  nameWithType: Address.Formatted
+  fullName: SuperOffice.WebApi.Data.Address.Formatted
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

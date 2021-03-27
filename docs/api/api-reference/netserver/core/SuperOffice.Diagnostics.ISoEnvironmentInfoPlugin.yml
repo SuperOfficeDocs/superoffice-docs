@@ -1,0 +1,244 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin
+  commentId: T:SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin
+  id: ISoEnvironmentInfoPlugin
+  parent: SuperOffice.Diagnostics
+  children:
+  - SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  langs:
+  - csharp
+  - vb
+  name: ISoEnvironmentInfoPlugin
+  nameWithType: ISoEnvironmentInfoPlugin
+  fullName: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin
+  type: Interface
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nInterface should be implemented for plugins wanting to provide environment info while logging.\n"
+  syntax:
+    content: 'public interface ISoEnvironmentInfoPlugin : IPlugin'
+    content.vb: >-
+      Public Interface ISoEnvironmentInfoPlugin
+          Inherits IPlugin
+  extensionMethods:
+  - SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.EnumUtil.MapEnums``2
+  - SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  commentId: M:SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  id: UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  parent: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin
+  langs:
+  - csharp
+  - vb
+  name: UpdateEnvironmentInfo(NameValueCollection)
+  nameWithType: ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(NameValueCollection)
+  fullName: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nMethod called to collect extra environment info\n"
+  syntax:
+    content: void UpdateEnvironmentInfo(NameValueCollection environmentInfo)
+    parameters:
+    - id: environmentInfo
+      type: System.Collections.Specialized.NameValueCollection
+    content.vb: Sub UpdateEnvironmentInfo(environmentInfo As NameValueCollection)
+  overload: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo*
+references:
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics
+- uid: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ISoEnvironmentInfoPlugin, To>()
+  nameWithType: EnumUtil.MapEnums<ISoEnvironmentInfoPlugin, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ISoEnvironmentInfoPlugin, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin, To)()
+  name.vb: MapEnums(Of ISoEnvironmentInfoPlugin, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ISoEnvironmentInfoPlugin, To>
+    nameWithType: EnumUtil.MapEnums<ISoEnvironmentInfoPlugin, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ISoEnvironmentInfoPlugin, To)
+    nameWithType: EnumUtil.MapEnums(Of ISoEnvironmentInfoPlugin, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ISoEnvironmentInfoPlugin, To>()
+  nameWithType: Converters.MapEnums<ISoEnvironmentInfoPlugin, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin, To>()
+  nameWithType.vb: Converters.MapEnums(Of ISoEnvironmentInfoPlugin, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin, To)()
+  name.vb: MapEnums(Of ISoEnvironmentInfoPlugin, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ISoEnvironmentInfoPlugin, To>
+    nameWithType: Converters.MapEnums<ISoEnvironmentInfoPlugin, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ISoEnvironmentInfoPlugin, To)
+    nameWithType: Converters.MapEnums(Of ISoEnvironmentInfoPlugin, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo*
+  commentId: Overload:SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo
+  isExternal: true
+  name: UpdateEnvironmentInfo
+  nameWithType: ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo
+  fullName: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo
+- uid: System.Collections.Specialized.NameValueCollection
+  isExternal: true
+  name: NameValueCollection
+  nameWithType: NameValueCollection
+  fullName: System.Collections.Specialized.NameValueCollection

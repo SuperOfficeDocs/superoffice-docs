@@ -1,0 +1,1047 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData
+  commentId: T:SuperOffice.CRM.Rows.SourceHeadingLinkRecordData
+  id: SourceHeadingLinkRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.#ctor
+  - SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.HeadingId
+  - SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.Registered
+  - SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.SourceheadinglinkId
+  - SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.SourceId
+  - SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.Updated
+  - SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: SourceHeadingLinkRecordData
+  nameWithType: SourceHeadingLinkRecordData
+  fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the SourceHeadingLink table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.SourceHeadingLinkRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.SourceHeadingLinkTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class SourceHeadingLinkRecordData
+    content.vb: Public Class SourceHeadingLinkRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SourceHeadingLinkRecordData)
+  - SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.SourceheadinglinkId
+  commentId: F:SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.SourceheadinglinkId
+  id: SourceheadinglinkId
+  parent: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: SourceheadinglinkId
+  nameWithType: SourceHeadingLinkRecordData.SourceheadinglinkId
+  fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.SourceheadinglinkId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int SourceheadinglinkId
+    return:
+      type: System.Int32
+    content.vb: Public SourceheadinglinkId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.SourceId
+  commentId: F:SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.SourceId
+  id: SourceId
+  parent: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: SourceId
+  nameWithType: SourceHeadingLinkRecordData.SourceId
+  fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.SourceId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLink to Source list table \n"
+  syntax:
+    content: public int SourceId
+    return:
+      type: System.Int32
+    content.vb: Public SourceId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.HeadingId
+  commentId: F:SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.HeadingId
+  id: HeadingId
+  parent: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: HeadingId
+  nameWithType: SourceHeadingLinkRecordData.HeadingId
+  fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.HeadingId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLink to Heading table \n"
+  syntax:
+    content: public int HeadingId
+    return:
+      type: System.Int32
+    content.vb: Public HeadingId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: SourceHeadingLinkRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: SourceHeadingLinkRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: SourceHeadingLinkRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: SourceHeadingLinkRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: SourceHeadingLinkRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData
+  langs:
+  - csharp
+  - vb
+  name: SourceHeadingLinkRecordData()
+  nameWithType: SourceHeadingLinkRecordData.SourceHeadingLinkRecordData()
+  fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.SourceHeadingLinkRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public SourceHeadingLinkRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SourceHeadingLinkRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<SourceHeadingLinkRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.SourceHeadingLinkRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SourceHeadingLinkRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.SourceHeadingLinkRecordData, To)()
+  name.vb: MapEnums(Of SourceHeadingLinkRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SourceHeadingLinkRecordData, To>
+    nameWithType: EnumUtil.MapEnums<SourceHeadingLinkRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.SourceHeadingLinkRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SourceHeadingLinkRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of SourceHeadingLinkRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.SourceHeadingLinkRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SourceHeadingLinkRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SourceHeadingLinkRecordData>(SourceHeadingLinkRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<SourceHeadingLinkRecordData>(SourceHeadingLinkRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.SourceHeadingLinkRecordData>(SuperOffice.CRM.Rows.SourceHeadingLinkRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SourceHeadingLinkRecordData)(SourceHeadingLinkRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.SourceHeadingLinkRecordData)(SuperOffice.CRM.Rows.SourceHeadingLinkRecordData)
+  name.vb: AssignByReflection(Of SourceHeadingLinkRecordData)(SourceHeadingLinkRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SourceHeadingLinkRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<SourceHeadingLinkRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.SourceHeadingLinkRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData
+    name: SourceHeadingLinkRecordData
+    nameWithType: SourceHeadingLinkRecordData
+    fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SourceHeadingLinkRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SourceHeadingLinkRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.SourceHeadingLinkRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData
+    name: SourceHeadingLinkRecordData
+    nameWithType: SourceHeadingLinkRecordData
+    fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SourceHeadingLinkRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<SourceHeadingLinkRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.SourceHeadingLinkRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SourceHeadingLinkRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.SourceHeadingLinkRecordData)()
+  name.vb: GraphCopy(Of SourceHeadingLinkRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SourceHeadingLinkRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<SourceHeadingLinkRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.SourceHeadingLinkRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SourceHeadingLinkRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of SourceHeadingLinkRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.SourceHeadingLinkRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SourceHeadingLinkRecordData)
+  parent: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SourceHeadingLinkRecordData)
+  name: ToInsert()
+  nameWithType: SourceHeadingLinkRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: SourceHeadingLinkRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: SourceHeadingLinkRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SourceHeadingLinkRecordData, To>()
+  nameWithType: Converters.MapEnums<SourceHeadingLinkRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.SourceHeadingLinkRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of SourceHeadingLinkRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.SourceHeadingLinkRecordData, To)()
+  name.vb: MapEnums(Of SourceHeadingLinkRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SourceHeadingLinkRecordData, To>
+    nameWithType: Converters.MapEnums<SourceHeadingLinkRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.SourceHeadingLinkRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SourceHeadingLinkRecordData, To)
+    nameWithType: Converters.MapEnums(Of SourceHeadingLinkRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.SourceHeadingLinkRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SourceHeadingLinkRecordData)
+  commentId: M:SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SourceHeadingLinkRecordData)
+  isExternal: true
+  name: ToInsert(SourceHeadingLinkRecordData)
+  nameWithType: SourceHeadingLinkRecordDataExtensions.ToInsert(SourceHeadingLinkRecordData)
+  fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SourceHeadingLinkRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SourceHeadingLinkRecordData)
+    name: ToInsert
+    nameWithType: SourceHeadingLinkRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData
+    name: SourceHeadingLinkRecordData
+    nameWithType: SourceHeadingLinkRecordData
+    fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SourceHeadingLinkRecordData)
+    name: ToInsert
+    nameWithType: SourceHeadingLinkRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData
+    name: SourceHeadingLinkRecordData
+    nameWithType: SourceHeadingLinkRecordData
+    fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: SourceHeadingLinkRecordDataExtensions
+  nameWithType: SourceHeadingLinkRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.#ctor
+  isExternal: true
+  name: SourceHeadingLinkRecordData
+  nameWithType: SourceHeadingLinkRecordData.SourceHeadingLinkRecordData
+  fullName: SuperOffice.CRM.Rows.SourceHeadingLinkRecordData.SourceHeadingLinkRecordData

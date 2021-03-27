@@ -1,0 +1,307 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.Rating
+  commentId: T:SuperOffice.CRM.Services.Rating
+  id: Rating
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.Rating.#ctor
+  - SuperOffice.CRM.Services.Rating.Id
+  - SuperOffice.CRM.Services.Rating.Tooltip
+  - SuperOffice.CRM.Services.Rating.ToString
+  - SuperOffice.CRM.Services.Rating.ToString(System.String)
+  - SuperOffice.CRM.Services.Rating.Value
+  langs:
+  - csharp
+  - vb
+  name: Rating
+  nameWithType: Rating
+  fullName: SuperOffice.CRM.Services.Rating
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSale Stage with probability percent.\n<p></p>\nCarrier object for Rating.\nServices for the Rating Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IListAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet Rating 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ListAgent();\n    var rating = agent.GetRating( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class Rating : Carrier'
+    content.vb: >-
+      Public Class Rating
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ListAgent
+    commentId: T:SuperOffice.CRM.Services.ListAgent
+  - linkId: SuperOffice.CRM.Services.IListAgent
+    commentId: T:SuperOffice.CRM.Services.IListAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.Rating.#ctor
+  commentId: M:SuperOffice.CRM.Services.Rating.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.Rating
+  langs:
+  - csharp
+  - vb
+  name: Rating()
+  nameWithType: Rating.Rating()
+  fullName: SuperOffice.CRM.Services.Rating.Rating()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public Rating()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.Rating.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Rating.ToString
+  commentId: M:SuperOffice.CRM.Services.Rating.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.Rating
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Rating.ToString()
+  fullName: SuperOffice.CRM.Services.Rating.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.Rating.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.Rating.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.Rating.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.Rating
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: Rating.ToString(String)
+  fullName: SuperOffice.CRM.Services.Rating.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.Rating.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Rating.Id
+  commentId: P:SuperOffice.CRM.Services.Rating.Id
+  id: Id
+  parent: SuperOffice.CRM.Services.Rating
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Rating.Id
+  fullName: SuperOffice.CRM.Services.Rating.Id
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe List Item Id\n"
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: SuperOffice.CRM.Services.Rating.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Rating.Value
+  commentId: P:SuperOffice.CRM.Services.Rating.Value
+  id: Value
+  parent: SuperOffice.CRM.Services.Rating
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: Rating.Value
+  fullName: SuperOffice.CRM.Services.Rating.Value
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe List Item Value\n"
+  syntax:
+    content: public string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Value As String
+  overload: SuperOffice.CRM.Services.Rating.Value*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Rating.Tooltip
+  commentId: P:SuperOffice.CRM.Services.Rating.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Services.Rating
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: Rating.Tooltip
+  fullName: SuperOffice.CRM.Services.Rating.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe List Item Tooltip\n"
+  syntax:
+    content: public string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Tooltip As String
+  overload: SuperOffice.CRM.Services.Rating.Tooltip*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.ListAgent
+  commentId: T:SuperOffice.CRM.Services.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.CRM.Services.ListAgent
+- uid: SuperOffice.CRM.Services.IListAgent
+  commentId: T:SuperOffice.CRM.Services.IListAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IListAgent
+  nameWithType: IListAgent
+  fullName: SuperOffice.CRM.Services.IListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.Rating.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.Rating.#ctor
+  isExternal: true
+  name: Rating
+  nameWithType: Rating.Rating
+  fullName: SuperOffice.CRM.Services.Rating.Rating
+- uid: SuperOffice.CRM.Services.Rating.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.Rating.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: Rating.ToString
+  fullName: SuperOffice.CRM.Services.Rating.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.Rating.Id*
+  commentId: Overload:SuperOffice.CRM.Services.Rating.Id
+  isExternal: true
+  name: Id
+  nameWithType: Rating.Id
+  fullName: SuperOffice.CRM.Services.Rating.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.Rating.Value*
+  commentId: Overload:SuperOffice.CRM.Services.Rating.Value
+  isExternal: true
+  name: Value
+  nameWithType: Rating.Value
+  fullName: SuperOffice.CRM.Services.Rating.Value
+- uid: SuperOffice.CRM.Services.Rating.Tooltip*
+  commentId: Overload:SuperOffice.CRM.Services.Rating.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: Rating.Tooltip
+  fullName: SuperOffice.CRM.Services.Rating.Tooltip

@@ -1,0 +1,1031 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
+  commentId: T:SuperOffice.Data.DictionaryConstants.ConceptualFieldType
+  id: DictionaryConstants.ConceptualFieldType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Blob
+  - SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Bool
+  - SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Byte
+  - SuperOffice.Data.DictionaryConstants.ConceptualFieldType.ByteId
+  - SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Char
+  - SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Date
+  - SuperOffice.Data.DictionaryConstants.ConceptualFieldType.DateTime
+  - SuperOffice.Data.DictionaryConstants.ConceptualFieldType.DbDateTime
+  - SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Double
+  - SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Float
+  - SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Long
+  - SuperOffice.Data.DictionaryConstants.ConceptualFieldType.LongId
+  - SuperOffice.Data.DictionaryConstants.ConceptualFieldType.LvString
+  - SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Short
+  - SuperOffice.Data.DictionaryConstants.ConceptualFieldType.ShortId
+  - SuperOffice.Data.DictionaryConstants.ConceptualFieldType.String
+  - SuperOffice.Data.DictionaryConstants.ConceptualFieldType.TextBlob
+  - SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Time
+  - SuperOffice.Data.DictionaryConstants.ConceptualFieldType.UChar
+  - SuperOffice.Data.DictionaryConstants.ConceptualFieldType.ULong
+  - SuperOffice.Data.DictionaryConstants.ConceptualFieldType.UShort
+  - SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Void
+  - SuperOffice.Data.DictionaryConstants.ConceptualFieldType.VString
+  langs:
+  - csharp
+  - vb
+  name: DictionaryConstants.ConceptualFieldType
+  nameWithType: DictionaryConstants.ConceptualFieldType
+  fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nField types as used in the data dictionary, taken from the Excel master data dictionary.\nNote that the constants are in some cases not unique (Double and Float both have 16), this\nis for historical reasons.\n<p></p>\nThese constants should be used to interpret the <see cref=\"!:SuperOffice.Data.Dictionary.SoField.ConceptualType\"></see> property\nof the <see cref=\"!:SuperOffice.Data.Dictionary.SoField\"></see> object.\n"
+  syntax:
+    content: public static class ConceptualFieldType
+    content.vb: Public Module ConceptualFieldType
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Char
+  commentId: F:SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Char
+  id: Char
+  parent: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
+  langs:
+  - csharp
+  - vb
+  name: Char
+  nameWithType: DictionaryConstants.ConceptualFieldType.Char
+  fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Char
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n-1: Char, not a datatype we use at all in the database\n"
+  syntax:
+    content: public const int Char = -1
+    return:
+      type: System.Int32
+    content.vb: Public Const Char As Integer = -1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Void
+  commentId: F:SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Void
+  id: Void
+  parent: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
+  langs:
+  - csharp
+  - vb
+  name: Void
+  nameWithType: DictionaryConstants.ConceptualFieldType.Void
+  fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Void
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const int Void = 0
+    return:
+      type: System.Int32
+    content.vb: Public Const Void As Integer = 0
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.UChar
+  commentId: F:SuperOffice.Data.DictionaryConstants.ConceptualFieldType.UChar
+  id: UChar
+  parent: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
+  langs:
+  - csharp
+  - vb
+  name: UChar
+  nameWithType: DictionaryConstants.ConceptualFieldType.UChar
+  fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.UChar
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const int UChar = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const UChar As Integer = 2
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Byte
+  commentId: F:SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Byte
+  id: Byte
+  parent: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
+  langs:
+  - csharp
+  - vb
+  name: Byte
+  nameWithType: DictionaryConstants.ConceptualFieldType.Byte
+  fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Byte
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const int Byte = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const Byte As Integer = 3
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.ByteId
+  commentId: F:SuperOffice.Data.DictionaryConstants.ConceptualFieldType.ByteId
+  id: ByteId
+  parent: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
+  langs:
+  - csharp
+  - vb
+  name: ByteId
+  nameWithType: DictionaryConstants.ConceptualFieldType.ByteId
+  fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.ByteId
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const int ByteId = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const ByteId As Integer = 4
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Short
+  commentId: F:SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Short
+  id: Short
+  parent: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
+  langs:
+  - csharp
+  - vb
+  name: Short
+  nameWithType: DictionaryConstants.ConceptualFieldType.Short
+  fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Short
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n5: 16-bit signed integer\n"
+  syntax:
+    content: public const int Short = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const Short As Integer = 5
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.UShort
+  commentId: F:SuperOffice.Data.DictionaryConstants.ConceptualFieldType.UShort
+  id: UShort
+  parent: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
+  langs:
+  - csharp
+  - vb
+  name: UShort
+  nameWithType: DictionaryConstants.ConceptualFieldType.UShort
+  fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.UShort
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n6: Unsigned 16-bit integer; also used for flags that express a boolean value (0, 1 allowed)\n"
+  syntax:
+    content: public const int UShort = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const UShort As Integer = 6
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.ShortId
+  commentId: F:SuperOffice.Data.DictionaryConstants.ConceptualFieldType.ShortId
+  id: ShortId
+  parent: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
+  langs:
+  - csharp
+  - vb
+  name: ShortId
+  nameWithType: DictionaryConstants.ConceptualFieldType.ShortId
+  fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.ShortId
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n7: 16-bit unsigned integer\n"
+  syntax:
+    content: public const int ShortId = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const ShortId As Integer = 7
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Bool
+  commentId: F:SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Bool
+  id: Bool
+  parent: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
+  langs:
+  - csharp
+  - vb
+  name: Bool
+  nameWithType: DictionaryConstants.ConceptualFieldType.Bool
+  fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Bool
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const int Bool = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const Bool As Integer = 8
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Long
+  commentId: F:SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Long
+  id: Long
+  parent: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
+  langs:
+  - csharp
+  - vb
+  name: Long
+  nameWithType: DictionaryConstants.ConceptualFieldType.Long
+  fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Long
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n9: Signed 32-bit integer\n"
+  syntax:
+    content: public const int Long = 9
+    return:
+      type: System.Int32
+    content.vb: Public Const Long As Integer = 9
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.ULong
+  commentId: F:SuperOffice.Data.DictionaryConstants.ConceptualFieldType.ULong
+  id: ULong
+  parent: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
+  langs:
+  - csharp
+  - vb
+  name: ULong
+  nameWithType: DictionaryConstants.ConceptualFieldType.ULong
+  fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.ULong
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n10: Unsigned 32-bit integer\n"
+  syntax:
+    content: public const int ULong = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const ULong As Integer = 10
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.LongId
+  commentId: F:SuperOffice.Data.DictionaryConstants.ConceptualFieldType.LongId
+  id: LongId
+  parent: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
+  langs:
+  - csharp
+  - vb
+  name: LongId
+  nameWithType: DictionaryConstants.ConceptualFieldType.LongId
+  fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.LongId
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n11: Record ID, in principle unsigned 32-bit integer, the &apos;int&apos; datatype is used in NetServer\n"
+  syntax:
+    content: public const int LongId = 11
+    return:
+      type: System.Int32
+    content.vb: Public Const LongId As Integer = 11
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.DateTime
+  commentId: F:SuperOffice.Data.DictionaryConstants.ConceptualFieldType.DateTime
+  id: DateTime
+  parent: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
+  langs:
+  - csharp
+  - vb
+  name: DateTime
+  nameWithType: DictionaryConstants.ConceptualFieldType.DateTime
+  fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.DateTime
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n12: DateTime, expressed as seconds since 00:00:00 january 1st, 1970\n"
+  syntax:
+    content: public const int DateTime = 12
+    return:
+      type: System.Int32
+    content.vb: Public Const DateTime As Integer = 12
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Date
+  commentId: F:SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Date
+  id: Date
+  parent: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: DictionaryConstants.ConceptualFieldType.Date
+  fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Date
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n13: Date, without a time component; not used in practice\n"
+  syntax:
+    content: public const int Date = 13
+    return:
+      type: System.Int32
+    content.vb: Public Const Date As Integer = 13
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Time
+  commentId: F:SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Time
+  id: Time
+  parent: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
+  langs:
+  - csharp
+  - vb
+  name: Time
+  nameWithType: DictionaryConstants.ConceptualFieldType.Time
+  fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Time
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const int Time = 14
+    return:
+      type: System.Int32
+    content.vb: Public Const Time As Integer = 14
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Double
+  commentId: F:SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Double
+  id: Double
+  parent: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
+  langs:
+  - csharp
+  - vb
+  name: Double
+  nameWithType: DictionaryConstants.ConceptualFieldType.Double
+  fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Double
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n16: Floating-point value\n"
+  syntax:
+    content: public const int Double = 16
+    return:
+      type: System.Int32
+    content.vb: Public Const Double As Integer = 16
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Float
+  commentId: F:SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Float
+  id: Float
+  parent: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
+  langs:
+  - csharp
+  - vb
+  name: Float
+  nameWithType: DictionaryConstants.ConceptualFieldType.Float
+  fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Float
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n16: Floating-point value\n"
+  syntax:
+    content: public const int Float = 16
+    return:
+      type: System.Int32
+    content.vb: Public Const Float As Integer = 16
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.String
+  commentId: F:SuperOffice.Data.DictionaryConstants.ConceptualFieldType.String
+  id: String
+  parent: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
+  langs:
+  - csharp
+  - vb
+  name: String
+  nameWithType: DictionaryConstants.ConceptualFieldType.String
+  fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.String
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n17: String (usually max 254 significant characters)\n"
+  syntax:
+    content: public const int String = 17
+    return:
+      type: System.Int32
+    content.vb: Public Const String As Integer = 17
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.LvString
+  commentId: F:SuperOffice.Data.DictionaryConstants.ConceptualFieldType.LvString
+  id: LvString
+  parent: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
+  langs:
+  - csharp
+  - vb
+  name: LvString
+  nameWithType: DictionaryConstants.ConceptualFieldType.LvString
+  fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.LvString
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n18: Long string, typically 1023 or 2047 characters long, usually stored as a blob\n"
+  syntax:
+    content: public const int LvString = 18
+    return:
+      type: System.Int32
+    content.vb: Public Const LvString As Integer = 18
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.VString
+  commentId: F:SuperOffice.Data.DictionaryConstants.ConceptualFieldType.VString
+  id: VString
+  parent: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
+  langs:
+  - csharp
+  - vb
+  name: VString
+  nameWithType: DictionaryConstants.ConceptualFieldType.VString
+  fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.VString
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n18: String, usually max 1023 or 2047 characters\n"
+  syntax:
+    content: public const int VString = 18
+    return:
+      type: System.Int32
+    content.vb: Public Const VString As Integer = 18
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Blob
+  commentId: F:SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Blob
+  id: Blob
+  parent: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
+  langs:
+  - csharp
+  - vb
+  name: Blob
+  nameWithType: DictionaryConstants.ConceptualFieldType.Blob
+  fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.Blob
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n20: Binary large object; only one such field is allowed per table in the current C++ SODBIF implementation.\n"
+  syntax:
+    content: public const int Blob = 20
+    return:
+      type: System.Int32
+    content.vb: Public Const Blob As Integer = 20
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.DbDateTime
+  commentId: F:SuperOffice.Data.DictionaryConstants.ConceptualFieldType.DbDateTime
+  id: DbDateTime
+  parent: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
+  langs:
+  - csharp
+  - vb
+  name: DbDateTime
+  nameWithType: DictionaryConstants.ConceptualFieldType.DbDateTime
+  fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.DbDateTime
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n21: Datetime, stored as such in the database (not stored as seconds since 1/1/1970!)\n"
+  syntax:
+    content: public const int DbDateTime = 21
+    return:
+      type: System.Int32
+    content.vb: Public Const DbDateTime As Integer = 21
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.TextBlob
+  commentId: F:SuperOffice.Data.DictionaryConstants.ConceptualFieldType.TextBlob
+  id: TextBlob
+  parent: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
+  langs:
+  - csharp
+  - vb
+  name: TextBlob
+  nameWithType: DictionaryConstants.ConceptualFieldType.TextBlob
+  fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.TextBlob
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n22: Text large object\n"
+  syntax:
+    content: public const int TextBlob = 22
+    return:
+      type: System.Int32
+    content.vb: Public Const TextBlob As Integer = 22
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

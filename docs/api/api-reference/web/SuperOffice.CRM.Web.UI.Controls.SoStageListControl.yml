@@ -1,0 +1,2197 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.SoStageListControl
+  id: SoStageListControl
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.SoStageListControl.#ctor(System.String)
+  - SuperOffice.CRM.Web.UI.Controls.SoStageListControl._listDataSourceName
+  - SuperOffice.CRM.Web.UI.Controls.SoStageListControl._onclick
+  - SuperOffice.CRM.Web.UI.Controls.SoStageListControl.CreateNewStageListItem(SuperOffice.CRM.Services.MDOListItem)
+  - SuperOffice.CRM.Web.UI.Controls.SoStageListControl.DataBind
+  - SuperOffice.CRM.Web.UI.Controls.SoStageListControl.GetSelectedValue
+  - SuperOffice.CRM.Web.UI.Controls.SoStageListControl.hasChangedCurrent
+  - SuperOffice.CRM.Web.UI.Controls.SoStageListControl.Initialize(System.Xml.XmlNode,System.String)
+  - SuperOffice.CRM.Web.UI.Controls.SoStageListControl.IsCurrent(SuperOffice.CRM.Services.MDOListItem)
+  - SuperOffice.CRM.Web.UI.Controls.SoStageListControl.IsDone
+  - SuperOffice.CRM.Web.UI.Controls.SoStageListControl.IsUnchanged
+  - SuperOffice.CRM.Web.UI.Controls.SoStageListControl.ListDataSource
+  - SuperOffice.CRM.Web.UI.Controls.SoStageListControl.LoadEntity
+  - SuperOffice.CRM.Web.UI.Controls.SoStageListControl.passedCurrent
+  - SuperOffice.CRM.Web.UI.Controls.SoStageListControl.Render(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.CRM.Web.UI.Controls.SoStageListControl.selectedValue
+  langs:
+  - csharp
+  - vb
+  name: SoStageListControl
+  nameWithType: SoStageListControl
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: 'public abstract class SoStageListControl : ControlBase, IControl, ILayout, IDatabindingMode, IHasSchema, INamingContainer'
+    content.vb: >-
+      Public MustInherit Class SoStageListControl
+          Inherits ControlBase
+          Implements IControl, ILayout, IDatabindingMode, IHasSchema, INamingContainer
+  inheritance:
+  - System.Object
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase
+  derivedClasses:
+  - SuperOffice.CRM.Web.UI.Controls.ProjectGuideStatusList
+  - SuperOffice.CRM.Web.UI.Controls.SaleGuideStageList
+  implements:
+  - SuperOffice.DCF.Web.UI.IControl
+  - SuperOffice.DCF.Web.UI.ILayout
+  - SuperOffice.Configuration.IHasSchema
+  - System.Web.UI.INamingContainer
+  inheritedMembers:
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.GetSafeId(System.String)
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.AttributeCollection)
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.AttributeCollection,System.String)
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter,System.String)
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter,System.String,System.Boolean)
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility(System.Web.UI.CssStyleCollection)
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.SetIfFound(System.Xml.XmlNode,System.String,System.Linq.Expressions.Expression{System.Func{System.String}})
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.AutoSetIfFound(System.Xml.XmlNode,System.Linq.Expressions.Expression{System.Func{System.String}}[])
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.AssignProperty(System.Xml.XmlNode,System.Reflection.PropertyInfo)
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.SetReadOnly(System.Boolean)
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.UpdateDataSource
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.BeforeDataBind
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Validate
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetStringValue(System.Type,System.Object,System.String@)
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetTypedValue(System.Type,System.String,System.Object@)
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.ID
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.ClientID
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.LabelContainer
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.MenuClientID
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.MenuObject
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.AjaxHelper
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.DataSource
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.DataRight
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.TableRightName
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.TableRightNameBinding
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.FieldRight
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.TableRight
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.FieldLength
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.CssClass
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.EditMode
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.ForcedMode
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.ReadOnly
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Disabled
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Caption
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.CaptionBinding
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Tooltip
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.TooltipBinding
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.DataSourceName
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.ContextStyle
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.DisplayAccessKey
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.IsValid
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Validations
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.MandatoryValidatorName
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.ForcedDisabled
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.BackgroundColor
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.LayoutPosition
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Position
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Top
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Left
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Right
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Bottom
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Width
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Height
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.ZIndex
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Overflow
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Column
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Row
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.RowSpan
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.ColSpan
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Align
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Visibility
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.ConfigurationSchema
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.VisibilityBinding
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.DatabindingMode
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl._listDataSourceName
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoStageListControl._listDataSourceName
+  id: _listDataSourceName
+  parent: SuperOffice.CRM.Web.UI.Controls.SoStageListControl
+  langs:
+  - csharp
+  - vb
+  name: _listDataSourceName
+  nameWithType: SoStageListControl._listDataSourceName
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl._listDataSourceName
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected string _listDataSourceName
+    return:
+      type: System.String
+    content.vb: Protected _listDataSourceName As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl._onclick
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoStageListControl._onclick
+  id: _onclick
+  parent: SuperOffice.CRM.Web.UI.Controls.SoStageListControl
+  langs:
+  - csharp
+  - vb
+  name: _onclick
+  nameWithType: SoStageListControl._onclick
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl._onclick
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected string _onclick
+    return:
+      type: System.String
+    content.vb: Protected _onclick As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.selectedValue
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoStageListControl.selectedValue
+  id: selectedValue
+  parent: SuperOffice.CRM.Web.UI.Controls.SoStageListControl
+  langs:
+  - csharp
+  - vb
+  name: selectedValue
+  nameWithType: SoStageListControl.selectedValue
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.selectedValue
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected int selectedValue
+    return:
+      type: System.Int32
+    content.vb: Protected selectedValue As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.hasChangedCurrent
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoStageListControl.hasChangedCurrent
+  id: hasChangedCurrent
+  parent: SuperOffice.CRM.Web.UI.Controls.SoStageListControl
+  langs:
+  - csharp
+  - vb
+  name: hasChangedCurrent
+  nameWithType: SoStageListControl.hasChangedCurrent
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.hasChangedCurrent
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected bool hasChangedCurrent
+    return:
+      type: System.Boolean
+    content.vb: Protected hasChangedCurrent As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.passedCurrent
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.SoStageListControl.passedCurrent
+  id: passedCurrent
+  parent: SuperOffice.CRM.Web.UI.Controls.SoStageListControl
+  langs:
+  - csharp
+  - vb
+  name: passedCurrent
+  nameWithType: SoStageListControl.passedCurrent
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.passedCurrent
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected bool passedCurrent
+    return:
+      type: System.Boolean
+    content.vb: Protected passedCurrent As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.#ctor(System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoStageListControl.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.CRM.Web.UI.Controls.SoStageListControl
+  langs:
+  - csharp
+  - vb
+  name: SoStageListControl(String)
+  nameWithType: SoStageListControl.SoStageListControl(String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.SoStageListControl(System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public SoStageListControl(string stageName)
+    parameters:
+    - id: stageName
+      type: System.String
+    content.vb: Public Sub New(stageName As String)
+  overload: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoStageListControl.Render(System.Web.UI.HtmlTextWriter)
+  id: Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoStageListControl
+  langs:
+  - csharp
+  - vb
+  name: Render(HtmlTextWriter)
+  nameWithType: SoStageListControl.Render(HtmlTextWriter)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.Render(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override void Render(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overrides Sub Render(writer As HtmlTextWriter)
+  overridden: SuperOffice.DCF.Web.UI.Controls.ControlBase.Render(System.Web.UI.HtmlTextWriter)
+  overload: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.Render*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.Initialize(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoStageListControl.Initialize(System.Xml.XmlNode,System.String)
+  id: Initialize(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoStageListControl
+  langs:
+  - csharp
+  - vb
+  name: Initialize(XmlNode, String)
+  nameWithType: SoStageListControl.Initialize(XmlNode, String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.Initialize(System.Xml.XmlNode, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public override void Initialize(XmlNode config, string id)
+    parameters:
+    - id: config
+      type: System.Xml.XmlNode
+    - id: id
+      type: System.String
+    content.vb: Public Overrides Sub Initialize(config As XmlNode, id As String)
+  overridden: SuperOffice.DCF.Web.UI.Controls.ControlBase.Initialize(System.Xml.XmlNode,System.String)
+  overload: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.Initialize*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.DataBind
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoStageListControl.DataBind
+  id: DataBind
+  parent: SuperOffice.CRM.Web.UI.Controls.SoStageListControl
+  langs:
+  - csharp
+  - vb
+  name: DataBind()
+  nameWithType: SoStageListControl.DataBind()
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.DataBind()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public override void DataBind()
+    content.vb: Public Overrides Sub DataBind
+  overridden: SuperOffice.DCF.Web.UI.Controls.ControlBase.DataBind
+  overload: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.DataBind*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.IsDone
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoStageListControl.IsDone
+  id: IsDone
+  parent: SuperOffice.CRM.Web.UI.Controls.SoStageListControl
+  langs:
+  - csharp
+  - vb
+  name: IsDone()
+  nameWithType: SoStageListControl.IsDone()
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.IsDone()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected virtual bool IsDone()
+    return:
+      type: System.Boolean
+    content.vb: Protected Overridable Function IsDone As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.IsDone*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.LoadEntity
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoStageListControl.LoadEntity
+  id: LoadEntity
+  parent: SuperOffice.CRM.Web.UI.Controls.SoStageListControl
+  langs:
+  - csharp
+  - vb
+  name: LoadEntity()
+  nameWithType: SoStageListControl.LoadEntity()
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.LoadEntity()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected abstract void LoadEntity()
+    content.vb: Protected MustOverride Sub LoadEntity
+  overload: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.LoadEntity*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.IsCurrent(SuperOffice.CRM.Services.MDOListItem)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoStageListControl.IsCurrent(SuperOffice.CRM.Services.MDOListItem)
+  id: IsCurrent(SuperOffice.CRM.Services.MDOListItem)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoStageListControl
+  langs:
+  - csharp
+  - vb
+  name: IsCurrent(MDOListItem)
+  nameWithType: SoStageListControl.IsCurrent(MDOListItem)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.IsCurrent(SuperOffice.CRM.Services.MDOListItem)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected virtual bool IsCurrent(MDOListItem li)
+    parameters:
+    - id: li
+      type: SuperOffice.CRM.Services.MDOListItem
+    return:
+      type: System.Boolean
+    content.vb: Protected Overridable Function IsCurrent(li As MDOListItem) As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.IsCurrent*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.IsUnchanged
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoStageListControl.IsUnchanged
+  id: IsUnchanged
+  parent: SuperOffice.CRM.Web.UI.Controls.SoStageListControl
+  langs:
+  - csharp
+  - vb
+  name: IsUnchanged()
+  nameWithType: SoStageListControl.IsUnchanged()
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.IsUnchanged()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected virtual bool IsUnchanged()
+    return:
+      type: System.Boolean
+    content.vb: Protected Overridable Function IsUnchanged As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.IsUnchanged*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.GetSelectedValue
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoStageListControl.GetSelectedValue
+  id: GetSelectedValue
+  parent: SuperOffice.CRM.Web.UI.Controls.SoStageListControl
+  langs:
+  - csharp
+  - vb
+  name: GetSelectedValue()
+  nameWithType: SoStageListControl.GetSelectedValue()
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.GetSelectedValue()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected abstract int GetSelectedValue()
+    return:
+      type: System.Int32
+    content.vb: Protected MustOverride Function GetSelectedValue As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.GetSelectedValue*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.CreateNewStageListItem(SuperOffice.CRM.Services.MDOListItem)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.SoStageListControl.CreateNewStageListItem(SuperOffice.CRM.Services.MDOListItem)
+  id: CreateNewStageListItem(SuperOffice.CRM.Services.MDOListItem)
+  parent: SuperOffice.CRM.Web.UI.Controls.SoStageListControl
+  langs:
+  - csharp
+  - vb
+  name: CreateNewStageListItem(MDOListItem)
+  nameWithType: SoStageListControl.CreateNewStageListItem(MDOListItem)
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.CreateNewStageListItem(SuperOffice.CRM.Services.MDOListItem)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected abstract StageListItemControl CreateNewStageListItem(MDOListItem li)
+    parameters:
+    - id: li
+      type: SuperOffice.CRM.Services.MDOListItem
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.StageListItemControl
+    content.vb: Protected MustOverride Function CreateNewStageListItem(li As MDOListItem) As StageListItemControl
+  overload: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.CreateNewStageListItem*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.ListDataSource
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.SoStageListControl.ListDataSource
+  id: ListDataSource
+  parent: SuperOffice.CRM.Web.UI.Controls.SoStageListControl
+  langs:
+  - csharp
+  - vb
+  name: ListDataSource
+  nameWithType: SoStageListControl.ListDataSource
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.ListDataSource
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public object ListDataSource { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property ListDataSource As Object
+  overload: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.ListDataSource*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.ControlBase
+  parent: SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: ControlBase
+  nameWithType: ControlBase
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase
+- uid: SuperOffice.DCF.Web.UI.IControl
+  commentId: T:SuperOffice.DCF.Web.UI.IControl
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: IControl
+  nameWithType: IControl
+  fullName: SuperOffice.DCF.Web.UI.IControl
+- uid: SuperOffice.DCF.Web.UI.ILayout
+  commentId: T:SuperOffice.DCF.Web.UI.ILayout
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: ILayout
+  nameWithType: ILayout
+  fullName: SuperOffice.DCF.Web.UI.ILayout
+- uid: SuperOffice.Configuration.IHasSchema
+  commentId: T:SuperOffice.Configuration.IHasSchema
+  parent: SuperOffice.Configuration
+  isExternal: true
+  name: IHasSchema
+  nameWithType: IHasSchema
+  fullName: SuperOffice.Configuration.IHasSchema
+- uid: System.Web.UI.INamingContainer
+  isExternal: true
+  name: INamingContainer
+  nameWithType: INamingContainer
+  fullName: System.Web.UI.INamingContainer
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.GetSafeId(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.GetSafeId(System.String)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: GetSafeId(String)
+  nameWithType: ControlBase.GetSafeId(String)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.GetSafeId(System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.GetSafeId(System.String)
+    name: GetSafeId
+    nameWithType: ControlBase.GetSafeId
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.GetSafeId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.GetSafeId(System.String)
+    name: GetSafeId
+    nameWithType: ControlBase.GetSafeId
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.GetSafeId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.AttributeCollection)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.AttributeCollection)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: RegisterSoIdAttribute(AttributeCollection)
+  nameWithType: ControlBase.RegisterSoIdAttribute(AttributeCollection)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.AttributeCollection)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.AttributeCollection)
+    name: RegisterSoIdAttribute
+    nameWithType: ControlBase.RegisterSoIdAttribute
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.AttributeCollection
+    name: AttributeCollection
+    nameWithType: AttributeCollection
+    fullName: System.Web.UI.AttributeCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.AttributeCollection)
+    name: RegisterSoIdAttribute
+    nameWithType: ControlBase.RegisterSoIdAttribute
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.AttributeCollection
+    name: AttributeCollection
+    nameWithType: AttributeCollection
+    fullName: System.Web.UI.AttributeCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.AttributeCollection,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.AttributeCollection,System.String)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: RegisterSoIdAttribute(AttributeCollection, String)
+  nameWithType: ControlBase.RegisterSoIdAttribute(AttributeCollection, String)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.AttributeCollection, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.AttributeCollection,System.String)
+    name: RegisterSoIdAttribute
+    nameWithType: ControlBase.RegisterSoIdAttribute
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.AttributeCollection
+    name: AttributeCollection
+    nameWithType: AttributeCollection
+    fullName: System.Web.UI.AttributeCollection
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.AttributeCollection,System.String)
+    name: RegisterSoIdAttribute
+    nameWithType: ControlBase.RegisterSoIdAttribute
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.AttributeCollection
+    name: AttributeCollection
+    nameWithType: AttributeCollection
+    fullName: System.Web.UI.AttributeCollection
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: RegisterSoIdAttribute(HtmlTextWriter)
+  nameWithType: ControlBase.RegisterSoIdAttribute(HtmlTextWriter)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter)
+    name: RegisterSoIdAttribute
+    nameWithType: ControlBase.RegisterSoIdAttribute
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter)
+    name: RegisterSoIdAttribute
+    nameWithType: ControlBase.RegisterSoIdAttribute
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter,System.String)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: RegisterSoIdAttribute(HtmlTextWriter, String)
+  nameWithType: ControlBase.RegisterSoIdAttribute(HtmlTextWriter, String)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter,System.String)
+    name: RegisterSoIdAttribute
+    nameWithType: ControlBase.RegisterSoIdAttribute
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter,System.String)
+    name: RegisterSoIdAttribute
+    nameWithType: ControlBase.RegisterSoIdAttribute
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter,System.String,System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter,System.String,System.Boolean)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: RegisterSoIdAttribute(HtmlTextWriter, String, Boolean)
+  nameWithType: ControlBase.RegisterSoIdAttribute(HtmlTextWriter, String, Boolean)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter, System.String, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter,System.String,System.Boolean)
+    name: RegisterSoIdAttribute
+    nameWithType: ControlBase.RegisterSoIdAttribute
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter,System.String,System.Boolean)
+    name: RegisterSoIdAttribute
+    nameWithType: ControlBase.RegisterSoIdAttribute
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility(System.Web.UI.CssStyleCollection)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility(System.Web.UI.CssStyleCollection)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: SetVisibility(CssStyleCollection)
+  nameWithType: ControlBase.SetVisibility(CssStyleCollection)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility(System.Web.UI.CssStyleCollection)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility(System.Web.UI.CssStyleCollection)
+    name: SetVisibility
+    nameWithType: ControlBase.SetVisibility
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.CssStyleCollection
+    name: CssStyleCollection
+    nameWithType: CssStyleCollection
+    fullName: System.Web.UI.CssStyleCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility(System.Web.UI.CssStyleCollection)
+    name: SetVisibility
+    nameWithType: ControlBase.SetVisibility
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.CssStyleCollection
+    name: CssStyleCollection
+    nameWithType: CssStyleCollection
+    fullName: System.Web.UI.CssStyleCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: SetVisibility(HtmlTextWriter)
+  nameWithType: ControlBase.SetVisibility(HtmlTextWriter)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility(System.Web.UI.HtmlTextWriter)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility(System.Web.UI.HtmlTextWriter)
+    name: SetVisibility
+    nameWithType: ControlBase.SetVisibility
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility(System.Web.UI.HtmlTextWriter)
+    name: SetVisibility
+    nameWithType: ControlBase.SetVisibility
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetIfFound(System.Xml.XmlNode,System.String,System.Linq.Expressions.Expression{System.Func{System.String}})
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.SetIfFound(System.Xml.XmlNode,System.String,System.Linq.Expressions.Expression{System.Func{System.String}})
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: SetIfFound(XmlNode, String, Expression<Func<String>>)
+  nameWithType: ControlBase.SetIfFound(XmlNode, String, Expression<Func<String>>)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetIfFound(System.Xml.XmlNode, System.String, System.Linq.Expressions.Expression<System.Func<System.String>>)
+  nameWithType.vb: ControlBase.SetIfFound(XmlNode, String, Expression(Of Func(Of String)))
+  fullName.vb: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetIfFound(System.Xml.XmlNode, System.String, System.Linq.Expressions.Expression(Of System.Func(Of System.String)))
+  name.vb: SetIfFound(XmlNode, String, Expression(Of Func(Of String)))
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetIfFound(System.Xml.XmlNode,System.String,System.Linq.Expressions.Expression{System.Func{System.String}})
+    name: SetIfFound
+    nameWithType: ControlBase.SetIfFound
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetIfFound
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetIfFound(System.Xml.XmlNode,System.String,System.Linq.Expressions.Expression{System.Func{System.String}})
+    name: SetIfFound
+    nameWithType: ControlBase.SetIfFound
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetIfFound
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.AutoSetIfFound(System.Xml.XmlNode,System.Linq.Expressions.Expression{System.Func{System.String}}[])
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.AutoSetIfFound(System.Xml.XmlNode,System.Linq.Expressions.Expression{System.Func{System.String}}[])
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: AutoSetIfFound(XmlNode, Expression<Func<String>>[])
+  nameWithType: ControlBase.AutoSetIfFound(XmlNode, Expression<Func<String>>[])
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.AutoSetIfFound(System.Xml.XmlNode, System.Linq.Expressions.Expression<System.Func<System.String>>[])
+  nameWithType.vb: ControlBase.AutoSetIfFound(XmlNode, Expression(Of Func(Of String))())
+  fullName.vb: SuperOffice.DCF.Web.UI.Controls.ControlBase.AutoSetIfFound(System.Xml.XmlNode, System.Linq.Expressions.Expression(Of System.Func(Of System.String))())
+  name.vb: AutoSetIfFound(XmlNode, Expression(Of Func(Of String))())
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.AutoSetIfFound(System.Xml.XmlNode,System.Linq.Expressions.Expression{System.Func{System.String}}[])
+    name: AutoSetIfFound
+    nameWithType: ControlBase.AutoSetIfFound
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.AutoSetIfFound
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.AutoSetIfFound(System.Xml.XmlNode,System.Linq.Expressions.Expression{System.Func{System.String}}[])
+    name: AutoSetIfFound
+    nameWithType: ControlBase.AutoSetIfFound
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.AutoSetIfFound
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.AssignProperty(System.Xml.XmlNode,System.Reflection.PropertyInfo)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.AssignProperty(System.Xml.XmlNode,System.Reflection.PropertyInfo)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: AssignProperty(XmlNode, PropertyInfo)
+  nameWithType: ControlBase.AssignProperty(XmlNode, PropertyInfo)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.AssignProperty(System.Xml.XmlNode, System.Reflection.PropertyInfo)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.AssignProperty(System.Xml.XmlNode,System.Reflection.PropertyInfo)
+    name: AssignProperty
+    nameWithType: ControlBase.AssignProperty
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.AssignProperty
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Reflection.PropertyInfo
+    name: PropertyInfo
+    nameWithType: PropertyInfo
+    fullName: System.Reflection.PropertyInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.AssignProperty(System.Xml.XmlNode,System.Reflection.PropertyInfo)
+    name: AssignProperty
+    nameWithType: ControlBase.AssignProperty
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.AssignProperty
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Reflection.PropertyInfo
+    name: PropertyInfo
+    nameWithType: PropertyInfo
+    fullName: System.Reflection.PropertyInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetReadOnly(System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.SetReadOnly(System.Boolean)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: SetReadOnly(Boolean)
+  nameWithType: ControlBase.SetReadOnly(Boolean)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetReadOnly(System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetReadOnly(System.Boolean)
+    name: SetReadOnly
+    nameWithType: ControlBase.SetReadOnly
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetReadOnly
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetReadOnly(System.Boolean)
+    name: SetReadOnly
+    nameWithType: ControlBase.SetReadOnly
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetReadOnly
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.UpdateDataSource
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.UpdateDataSource
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: UpdateDataSource()
+  nameWithType: ControlBase.UpdateDataSource()
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.UpdateDataSource()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.UpdateDataSource
+    name: UpdateDataSource
+    nameWithType: ControlBase.UpdateDataSource
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.UpdateDataSource
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.UpdateDataSource
+    name: UpdateDataSource
+    nameWithType: ControlBase.UpdateDataSource
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.UpdateDataSource
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.BeforeDataBind
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.BeforeDataBind
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: BeforeDataBind()
+  nameWithType: ControlBase.BeforeDataBind()
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.BeforeDataBind()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.BeforeDataBind
+    name: BeforeDataBind
+    nameWithType: ControlBase.BeforeDataBind
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.BeforeDataBind
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.BeforeDataBind
+    name: BeforeDataBind
+    nameWithType: ControlBase.BeforeDataBind
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.BeforeDataBind
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Validate
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.Validate
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Validate()
+  nameWithType: ControlBase.Validate()
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Validate()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Validate
+    name: Validate
+    nameWithType: ControlBase.Validate
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Validate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Validate
+    name: Validate
+    nameWithType: ControlBase.Validate
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Validate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetStringValue(System.Type,System.Object,System.String@)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetStringValue(System.Type,System.Object,System.String@)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: OnGetStringValue(Type, Object, String)
+  nameWithType: ControlBase.OnGetStringValue(Type, Object, String)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetStringValue(System.Type, System.Object, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetStringValue(System.Type,System.Object,System.String@)
+    name: OnGetStringValue
+    nameWithType: ControlBase.OnGetStringValue
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetStringValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetStringValue(System.Type,System.Object,System.String@)
+    name: OnGetStringValue
+    nameWithType: ControlBase.OnGetStringValue
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetStringValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetTypedValue(System.Type,System.String,System.Object@)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetTypedValue(System.Type,System.String,System.Object@)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: OnGetTypedValue(Type, String, Object)
+  nameWithType: ControlBase.OnGetTypedValue(Type, String, Object)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetTypedValue(System.Type, System.String, System.Object)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetTypedValue(System.Type,System.String,System.Object@)
+    name: OnGetTypedValue
+    nameWithType: ControlBase.OnGetTypedValue
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetTypedValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetTypedValue(System.Type,System.String,System.Object@)
+    name: OnGetTypedValue
+    nameWithType: ControlBase.OnGetTypedValue
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetTypedValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.ID
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.ID
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: ID
+  nameWithType: ControlBase.ID
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.ID
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.ClientID
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.ClientID
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: ClientID
+  nameWithType: ControlBase.ClientID
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.ClientID
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.LabelContainer
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.LabelContainer
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: LabelContainer
+  nameWithType: ControlBase.LabelContainer
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.LabelContainer
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.MenuClientID
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.MenuClientID
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: MenuClientID
+  nameWithType: ControlBase.MenuClientID
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.MenuClientID
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.MenuObject
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.MenuObject
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: MenuObject
+  nameWithType: ControlBase.MenuObject
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.MenuObject
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.AjaxHelper
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.AjaxHelper
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: AjaxHelper
+  nameWithType: ControlBase.AjaxHelper
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.AjaxHelper
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.DataSource
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.DataSource
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: DataSource
+  nameWithType: ControlBase.DataSource
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.DataSource
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.DataRight
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.DataRight
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: DataRight
+  nameWithType: ControlBase.DataRight
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.DataRight
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.TableRightName
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.TableRightName
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: TableRightName
+  nameWithType: ControlBase.TableRightName
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.TableRightName
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.TableRightNameBinding
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.TableRightNameBinding
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: TableRightNameBinding
+  nameWithType: ControlBase.TableRightNameBinding
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.TableRightNameBinding
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.FieldRight
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.FieldRight
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: FieldRight
+  nameWithType: ControlBase.FieldRight
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.FieldRight
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.TableRight
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.TableRight
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: TableRight
+  nameWithType: ControlBase.TableRight
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.TableRight
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.FieldLength
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.FieldLength
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: FieldLength
+  nameWithType: ControlBase.FieldLength
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.FieldLength
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.CssClass
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.CssClass
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: CssClass
+  nameWithType: ControlBase.CssClass
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.CssClass
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.EditMode
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.EditMode
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: EditMode
+  nameWithType: ControlBase.EditMode
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.EditMode
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.ForcedMode
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.ForcedMode
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: ForcedMode
+  nameWithType: ControlBase.ForcedMode
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.ForcedMode
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.ReadOnly
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.ReadOnly
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: ReadOnly
+  nameWithType: ControlBase.ReadOnly
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.ReadOnly
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Disabled
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.Disabled
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Disabled
+  nameWithType: ControlBase.Disabled
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Disabled
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Caption
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.Caption
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Caption
+  nameWithType: ControlBase.Caption
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Caption
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.CaptionBinding
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.CaptionBinding
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: CaptionBinding
+  nameWithType: ControlBase.CaptionBinding
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.CaptionBinding
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Tooltip
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.Tooltip
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Tooltip
+  nameWithType: ControlBase.Tooltip
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Tooltip
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.TooltipBinding
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.TooltipBinding
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: TooltipBinding
+  nameWithType: ControlBase.TooltipBinding
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.TooltipBinding
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.DataSourceName
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.DataSourceName
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: DataSourceName
+  nameWithType: ControlBase.DataSourceName
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.DataSourceName
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.ContextStyle
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.ContextStyle
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: ContextStyle
+  nameWithType: ControlBase.ContextStyle
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.ContextStyle
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.DisplayAccessKey
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.DisplayAccessKey
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: DisplayAccessKey
+  nameWithType: ControlBase.DisplayAccessKey
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.DisplayAccessKey
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.IsValid
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.IsValid
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: IsValid
+  nameWithType: ControlBase.IsValid
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.IsValid
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Validations
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.Validations
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Validations
+  nameWithType: ControlBase.Validations
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Validations
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.MandatoryValidatorName
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.MandatoryValidatorName
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: MandatoryValidatorName
+  nameWithType: ControlBase.MandatoryValidatorName
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.MandatoryValidatorName
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.ForcedDisabled
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.ForcedDisabled
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: ForcedDisabled
+  nameWithType: ControlBase.ForcedDisabled
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.ForcedDisabled
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.BackgroundColor
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.BackgroundColor
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: BackgroundColor
+  nameWithType: ControlBase.BackgroundColor
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.BackgroundColor
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.LayoutPosition
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.LayoutPosition
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: LayoutPosition
+  nameWithType: ControlBase.LayoutPosition
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.LayoutPosition
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Position
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.Position
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Position
+  nameWithType: ControlBase.Position
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Position
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Top
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.Top
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Top
+  nameWithType: ControlBase.Top
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Top
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Left
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.Left
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Left
+  nameWithType: ControlBase.Left
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Left
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Right
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.Right
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Right
+  nameWithType: ControlBase.Right
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Right
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Bottom
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.Bottom
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Bottom
+  nameWithType: ControlBase.Bottom
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Bottom
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Width
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.Width
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Width
+  nameWithType: ControlBase.Width
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Width
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Height
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.Height
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Height
+  nameWithType: ControlBase.Height
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Height
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.ZIndex
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.ZIndex
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: ZIndex
+  nameWithType: ControlBase.ZIndex
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.ZIndex
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Overflow
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.Overflow
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Overflow
+  nameWithType: ControlBase.Overflow
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Overflow
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Column
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.Column
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Column
+  nameWithType: ControlBase.Column
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Column
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Row
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.Row
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Row
+  nameWithType: ControlBase.Row
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Row
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RowSpan
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.RowSpan
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: RowSpan
+  nameWithType: ControlBase.RowSpan
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RowSpan
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.ColSpan
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.ColSpan
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: ColSpan
+  nameWithType: ControlBase.ColSpan
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.ColSpan
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Align
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.Align
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Align
+  nameWithType: ControlBase.Align
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Align
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Visibility
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.Visibility
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Visibility
+  nameWithType: ControlBase.Visibility
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Visibility
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.ConfigurationSchema
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.ConfigurationSchema
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: ConfigurationSchema
+  nameWithType: ControlBase.ConfigurationSchema
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.ConfigurationSchema
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.VisibilityBinding
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.VisibilityBinding
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: VisibilityBinding
+  nameWithType: ControlBase.VisibilityBinding
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.VisibilityBinding
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.DatabindingMode
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.DatabindingMode
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: DatabindingMode
+  nameWithType: ControlBase.DatabindingMode
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.DatabindingMode
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.Controls
+  commentId: N:SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Controls
+  nameWithType: SuperOffice.DCF.Web.UI.Controls
+  fullName: SuperOffice.DCF.Web.UI.Controls
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoStageListControl.#ctor
+  isExternal: true
+  name: SoStageListControl
+  nameWithType: SoStageListControl.SoStageListControl
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.SoStageListControl
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Render(HtmlTextWriter)
+  nameWithType: ControlBase.Render(HtmlTextWriter)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Render(System.Web.UI.HtmlTextWriter)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Render(System.Web.UI.HtmlTextWriter)
+    name: Render
+    nameWithType: ControlBase.Render
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Render
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Render(System.Web.UI.HtmlTextWriter)
+    name: Render
+    nameWithType: ControlBase.Render
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Render
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.Render*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoStageListControl.Render
+  isExternal: true
+  name: Render
+  nameWithType: SoStageListControl.Render
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.Render
+- uid: System.Web.UI.HtmlTextWriter
+  isExternal: true
+  name: HtmlTextWriter
+  nameWithType: HtmlTextWriter
+  fullName: System.Web.UI.HtmlTextWriter
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Initialize(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.Initialize(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Initialize(XmlNode, String)
+  nameWithType: ControlBase.Initialize(XmlNode, String)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Initialize(System.Xml.XmlNode, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Initialize(System.Xml.XmlNode,System.String)
+    name: Initialize
+    nameWithType: ControlBase.Initialize
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Initialize(System.Xml.XmlNode,System.String)
+    name: Initialize
+    nameWithType: ControlBase.Initialize
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.Initialize*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoStageListControl.Initialize
+  isExternal: true
+  name: Initialize
+  nameWithType: SoStageListControl.Initialize
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.Initialize
+- uid: System.Xml.XmlNode
+  isExternal: true
+  name: XmlNode
+  nameWithType: XmlNode
+  fullName: System.Xml.XmlNode
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.DataBind
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.DataBind
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: DataBind()
+  nameWithType: ControlBase.DataBind()
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.DataBind()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.DataBind
+    name: DataBind
+    nameWithType: ControlBase.DataBind
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.DataBind
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.DataBind
+    name: DataBind
+    nameWithType: ControlBase.DataBind
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.DataBind
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.DataBind*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoStageListControl.DataBind
+  isExternal: true
+  name: DataBind
+  nameWithType: SoStageListControl.DataBind
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.DataBind
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.IsDone*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoStageListControl.IsDone
+  isExternal: true
+  name: IsDone
+  nameWithType: SoStageListControl.IsDone
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.IsDone
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.LoadEntity*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoStageListControl.LoadEntity
+  isExternal: true
+  name: LoadEntity
+  nameWithType: SoStageListControl.LoadEntity
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.LoadEntity
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.IsCurrent*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoStageListControl.IsCurrent
+  isExternal: true
+  name: IsCurrent
+  nameWithType: SoStageListControl.IsCurrent
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.IsCurrent
+- uid: SuperOffice.CRM.Services.MDOListItem
+  isExternal: true
+  name: MDOListItem
+  nameWithType: MDOListItem
+  fullName: SuperOffice.CRM.Services.MDOListItem
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.IsUnchanged*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoStageListControl.IsUnchanged
+  isExternal: true
+  name: IsUnchanged
+  nameWithType: SoStageListControl.IsUnchanged
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.IsUnchanged
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.GetSelectedValue*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoStageListControl.GetSelectedValue
+  isExternal: true
+  name: GetSelectedValue
+  nameWithType: SoStageListControl.GetSelectedValue
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.GetSelectedValue
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.CreateNewStageListItem*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoStageListControl.CreateNewStageListItem
+  isExternal: true
+  name: CreateNewStageListItem
+  nameWithType: SoStageListControl.CreateNewStageListItem
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.CreateNewStageListItem
+- uid: SuperOffice.CRM.Web.UI.Controls.StageListItemControl
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.StageListItemControl
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: StageListItemControl
+  nameWithType: StageListItemControl
+  fullName: SuperOffice.CRM.Web.UI.Controls.StageListItemControl
+- uid: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.ListDataSource*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.SoStageListControl.ListDataSource
+  isExternal: true
+  name: ListDataSource
+  nameWithType: SoStageListControl.ListDataSource
+  fullName: SuperOffice.CRM.Web.UI.Controls.SoStageListControl.ListDataSource

@@ -1,0 +1,302 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext
+  id: UserPreferenceStrings.Freetext
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.AutoEnableTravel
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.Enabled
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.MaxSuggestWords
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.MultiWordFTHitLimit
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.MultiWordFTOperator
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.Section
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.SingleWordFTHitLimit
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.SingleWordFTOperator
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.Freetext
+  nameWithType: UserPreferenceStrings.Freetext
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFreetext\n"
+  syntax:
+    content: 'public static class Freetext : Object'
+    content.vb: >-
+      Public Module Freetext
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.Freetext.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "Freetext"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "Freetext"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.AutoEnableTravel
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.AutoEnableTravel
+  id: AutoEnableTravel
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext
+  langs:
+  - csharp
+  - vb
+  name: AutoEnableTravel
+  nameWithType: UserPreferenceStrings.Freetext.AutoEnableTravel
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.AutoEnableTravel
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAutomatically enables freetext search on Travel databases. This will increase the size of local databases and the time required to generate prototypes\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string AutoEnableTravel = "AutoEnableTravel"
+    return:
+      type: System.String
+    content.vb: Public Const AutoEnableTravel As String = "AutoEnableTravel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.Enabled
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.Enabled
+  id: Enabled
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext
+  langs:
+  - csharp
+  - vb
+  name: Enabled
+  nameWithType: UserPreferenceStrings.Freetext.Enabled
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.Enabled
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnables freetext search\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string Enabled = "Enabled"
+    return:
+      type: System.String
+    content.vb: Public Const Enabled As String = "Enabled"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.MaxSuggestWords
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.MaxSuggestWords
+  id: MaxSuggestWords
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext
+  langs:
+  - csharp
+  - vb
+  name: MaxSuggestWords
+  nameWithType: UserPreferenceStrings.Freetext.MaxSuggestWords
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.MaxSuggestWords
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMaximum number of different words to be suggested as stopwords in stopword maintenance\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string MaxSuggestWords = "MaxSuggestWords"
+    return:
+      type: System.String
+    content.vb: Public Const MaxSuggestWords As String = "MaxSuggestWords"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.MultiWordFTHitLimit
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.MultiWordFTHitLimit
+  id: MultiWordFTHitLimit
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext
+  langs:
+  - csharp
+  - vb
+  name: MultiWordFTHitLimit
+  nameWithType: UserPreferenceStrings.Freetext.MultiWordFTHitLimit
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.MultiWordFTHitLimit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMaximum number of hits returned by a multi-word freetext search (0 = no limit)\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string MultiWordFTHitLimit = "MultiWordFTHitLimit"
+    return:
+      type: System.String
+    content.vb: Public Const MultiWordFTHitLimit As String = "MultiWordFTHitLimit"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.MultiWordFTOperator
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.MultiWordFTOperator
+  id: MultiWordFTOperator
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext
+  langs:
+  - csharp
+  - vb
+  name: MultiWordFTOperator
+  nameWithType: UserPreferenceStrings.Freetext.MultiWordFTOperator
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.MultiWordFTOperator
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCriteria for freetext search on multiple words (1 = contains, 2 = starts with, 3 = exact match)\n<p></p>Control type: List, access: Wizard\n"
+  syntax:
+    content: public const string MultiWordFTOperator = "MultiWordFTOperator"
+    return:
+      type: System.String
+    content.vb: Public Const MultiWordFTOperator As String = "MultiWordFTOperator"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.SingleWordFTHitLimit
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.SingleWordFTHitLimit
+  id: SingleWordFTHitLimit
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext
+  langs:
+  - csharp
+  - vb
+  name: SingleWordFTHitLimit
+  nameWithType: UserPreferenceStrings.Freetext.SingleWordFTHitLimit
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.SingleWordFTHitLimit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMax. number of hits returned by a single-word freetext search (0 = no limit)\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string SingleWordFTHitLimit = "SingleWordFTHitLimit"
+    return:
+      type: System.String
+    content.vb: Public Const SingleWordFTHitLimit As String = "SingleWordFTHitLimit"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.SingleWordFTOperator
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.SingleWordFTOperator
+  id: SingleWordFTOperator
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext
+  langs:
+  - csharp
+  - vb
+  name: SingleWordFTOperator
+  nameWithType: UserPreferenceStrings.Freetext.SingleWordFTOperator
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.SingleWordFTOperator
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCriteria for freetext search on a single word (1 = contains, 2 = starts with, 3 = exact match)\n<p></p>Control type: List, access: Wizard\n"
+  syntax:
+    content: public const string SingleWordFTOperator = "SingleWordFTOperator"
+    return:
+      type: System.String
+    content.vb: Public Const SingleWordFTOperator As String = "SingleWordFTOperator"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

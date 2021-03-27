@@ -1,0 +1,832 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin
+  commentId: T:SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin
+  id: SoDatabaseEnvironmentInfoPlugin
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin.#ctor
+  - SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  langs:
+  - csharp
+  - vb
+  name: SoDatabaseEnvironmentInfoPlugin
+  nameWithType: SoDatabaseEnvironmentInfoPlugin
+  fullName: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: >-
+      [SoEnvironmentInfoPlugin("SoDatabaseEnvironmentInfoPlugin")]
+
+      public class SoDatabaseEnvironmentInfoPlugin : ISoEnvironmentInfoPlugin, IPlugin
+    content.vb: >-
+      <SoEnvironmentInfoPlugin("SoDatabaseEnvironmentInfoPlugin")>
+
+      Public Class SoDatabaseEnvironmentInfoPlugin
+          Implements ISoEnvironmentInfoPlugin, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin.EnumUtil.MapEnums``2
+  - SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin)
+  - SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Diagnostics.SoEnvironmentInfoPluginAttribute
+    ctor: SuperOffice.Diagnostics.SoEnvironmentInfoPluginAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SoDatabaseEnvironmentInfoPlugin
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  commentId: M:SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  id: UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  parent: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin
+  langs:
+  - csharp
+  - vb
+  name: UpdateEnvironmentInfo(NameValueCollection)
+  nameWithType: SoDatabaseEnvironmentInfoPlugin.UpdateEnvironmentInfo(NameValueCollection)
+  fullName: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public void UpdateEnvironmentInfo(NameValueCollection environmentInfo)
+    parameters:
+    - id: environmentInfo
+      type: System.Collections.Specialized.NameValueCollection
+    content.vb: Public Sub UpdateEnvironmentInfo(environmentInfo As NameValueCollection)
+  overload: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin.UpdateEnvironmentInfo*
+  implements:
+  - SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin.#ctor
+  commentId: M:SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin
+  langs:
+  - csharp
+  - vb
+  name: SoDatabaseEnvironmentInfoPlugin()
+  nameWithType: SoDatabaseEnvironmentInfoPlugin.SoDatabaseEnvironmentInfoPlugin()
+  fullName: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin.SoDatabaseEnvironmentInfoPlugin()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public SoDatabaseEnvironmentInfoPlugin()
+    content.vb: Public Sub New
+  overload: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin
+  commentId: T:SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: ISoEnvironmentInfoPlugin
+  nameWithType: ISoEnvironmentInfoPlugin
+  fullName: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoDatabaseEnvironmentInfoPlugin, To>()
+  nameWithType: EnumUtil.MapEnums<SoDatabaseEnvironmentInfoPlugin, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoDatabaseEnvironmentInfoPlugin, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin, To)()
+  name.vb: MapEnums(Of SoDatabaseEnvironmentInfoPlugin, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoDatabaseEnvironmentInfoPlugin, To>
+    nameWithType: EnumUtil.MapEnums<SoDatabaseEnvironmentInfoPlugin, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoDatabaseEnvironmentInfoPlugin, To)
+    nameWithType: EnumUtil.MapEnums(Of SoDatabaseEnvironmentInfoPlugin, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SoDatabaseEnvironmentInfoPlugin>(SoDatabaseEnvironmentInfoPlugin)
+  nameWithType: ObjectExtensions.AssignByReflection<SoDatabaseEnvironmentInfoPlugin>(SoDatabaseEnvironmentInfoPlugin)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin>(SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoDatabaseEnvironmentInfoPlugin)(SoDatabaseEnvironmentInfoPlugin)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin)(SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin)
+  name.vb: AssignByReflection(Of SoDatabaseEnvironmentInfoPlugin)(SoDatabaseEnvironmentInfoPlugin)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SoDatabaseEnvironmentInfoPlugin>
+    nameWithType: ObjectExtensions.AssignByReflection<SoDatabaseEnvironmentInfoPlugin>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin
+    name: SoDatabaseEnvironmentInfoPlugin
+    nameWithType: SoDatabaseEnvironmentInfoPlugin
+    fullName: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SoDatabaseEnvironmentInfoPlugin)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SoDatabaseEnvironmentInfoPlugin)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin
+    name: SoDatabaseEnvironmentInfoPlugin
+    nameWithType: SoDatabaseEnvironmentInfoPlugin
+    fullName: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SoDatabaseEnvironmentInfoPlugin>()
+  nameWithType: ObjectExtensions.GraphCopy<SoDatabaseEnvironmentInfoPlugin>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoDatabaseEnvironmentInfoPlugin)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin)()
+  name.vb: GraphCopy(Of SoDatabaseEnvironmentInfoPlugin)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SoDatabaseEnvironmentInfoPlugin>
+    nameWithType: ObjectExtensions.GraphCopy<SoDatabaseEnvironmentInfoPlugin>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SoDatabaseEnvironmentInfoPlugin)
+    nameWithType: ObjectExtensions.GraphCopy(Of SoDatabaseEnvironmentInfoPlugin)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoDatabaseEnvironmentInfoPlugin, To>()
+  nameWithType: Converters.MapEnums<SoDatabaseEnvironmentInfoPlugin, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoDatabaseEnvironmentInfoPlugin, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin, To)()
+  name.vb: MapEnums(Of SoDatabaseEnvironmentInfoPlugin, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoDatabaseEnvironmentInfoPlugin, To>
+    nameWithType: Converters.MapEnums<SoDatabaseEnvironmentInfoPlugin, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoDatabaseEnvironmentInfoPlugin, To)
+    nameWithType: Converters.MapEnums(Of SoDatabaseEnvironmentInfoPlugin, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin.UpdateEnvironmentInfo*
+  commentId: Overload:SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin.UpdateEnvironmentInfo
+  isExternal: true
+  name: UpdateEnvironmentInfo
+  nameWithType: SoDatabaseEnvironmentInfoPlugin.UpdateEnvironmentInfo
+  fullName: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin.UpdateEnvironmentInfo
+- uid: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  commentId: M:SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  parent: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin
+  isExternal: true
+  name: UpdateEnvironmentInfo(NameValueCollection)
+  nameWithType: ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(NameValueCollection)
+  fullName: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  spec.csharp:
+  - uid: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+    name: UpdateEnvironmentInfo
+    nameWithType: ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo
+    fullName: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Specialized.NameValueCollection
+    name: NameValueCollection
+    nameWithType: NameValueCollection
+    fullName: System.Collections.Specialized.NameValueCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+    name: UpdateEnvironmentInfo
+    nameWithType: ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo
+    fullName: SuperOffice.Diagnostics.ISoEnvironmentInfoPlugin.UpdateEnvironmentInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Specialized.NameValueCollection
+    name: NameValueCollection
+    nameWithType: NameValueCollection
+    fullName: System.Collections.Specialized.NameValueCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Specialized.NameValueCollection
+  isExternal: true
+  name: NameValueCollection
+  nameWithType: NameValueCollection
+  fullName: System.Collections.Specialized.NameValueCollection
+- uid: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin.#ctor*
+  commentId: Overload:SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin.#ctor
+  isExternal: true
+  name: SoDatabaseEnvironmentInfoPlugin
+  nameWithType: SoDatabaseEnvironmentInfoPlugin.SoDatabaseEnvironmentInfoPlugin
+  fullName: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin.SoDatabaseEnvironmentInfoPlugin

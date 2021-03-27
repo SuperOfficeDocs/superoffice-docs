@@ -1,0 +1,2683 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Globalization.FadTags
+  commentId: T:SuperOffice.CRM.Globalization.FadTags
+  id: FadTags
+  parent: SuperOffice.CRM.Globalization
+  children:
+  - SuperOffice.CRM.Globalization.FadTags.#ctor(SuperOffice.CRM.IPersonInfo2,SuperOffice.CRM.IContactInfo2,SuperOffice.IO.TagContainer)
+  - SuperOffice.CRM.Globalization.FadTags._contactInfo
+  - SuperOffice.CRM.Globalization.FadTags._parentVariables
+  - SuperOffice.CRM.Globalization.FadTags.DetermineFormat
+  - SuperOffice.CRM.Globalization.FadTags.Fad1
+  - SuperOffice.CRM.Globalization.FadTags.Fad2
+  - SuperOffice.CRM.Globalization.FadTags.Fad3
+  - SuperOffice.CRM.Globalization.FadTags.Fad4
+  - SuperOffice.CRM.Globalization.FadTags.Fad5
+  - SuperOffice.CRM.Globalization.FadTags.Fad6
+  - SuperOffice.CRM.Globalization.FadTags.Fad7
+  - SuperOffice.CRM.Globalization.FadTags.Fad8
+  - SuperOffice.CRM.Globalization.FadTags.Fad9
+  - SuperOffice.CRM.Globalization.FadTags.Fada
+  - SuperOffice.CRM.Globalization.FadTags.Fadb
+  - SuperOffice.CRM.Globalization.FadTags.Fadc
+  - SuperOffice.CRM.Globalization.FadTags.Fadd
+  - SuperOffice.CRM.Globalization.FadTags.Fade
+  - SuperOffice.CRM.Globalization.FadTags.Fadf
+  - SuperOffice.CRM.Globalization.FadTags.Fadg
+  - SuperOffice.CRM.Globalization.FadTags.Fadh
+  - SuperOffice.CRM.Globalization.FadTags.Fadi
+  - SuperOffice.CRM.Globalization.FadTags.Fadj
+  - SuperOffice.CRM.Globalization.FadTags.Fadk
+  - SuperOffice.CRM.Globalization.FadTags.Fadl
+  - SuperOffice.CRM.Globalization.FadTags.Fadm
+  - SuperOffice.CRM.Globalization.FadTags.Fadn
+  - SuperOffice.CRM.Globalization.FadTags.Fado
+  - SuperOffice.CRM.Globalization.FadTags.Fadp
+  - SuperOffice.CRM.Globalization.FadTags.Fadq
+  - SuperOffice.CRM.Globalization.FadTags.GenerateFads
+  - SuperOffice.CRM.Globalization.FadTags.GetAddressLayout(System.Int32)
+  - SuperOffice.CRM.Globalization.FadTags.GetAddressType
+  - SuperOffice.CRM.Globalization.FadTags.GetRecipientCountryId(System.Int32)
+  - SuperOffice.CRM.Globalization.FadTags.Id
+  - SuperOffice.CRM.Globalization.FadTags.Init
+  - SuperOffice.CRM.Globalization.FadTags.IsValid
+  - SuperOffice.CRM.Globalization.FadTags.UseForeign(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: FadTags
+  nameWithType: FadTags
+  fullName: SuperOffice.CRM.Globalization.FadTags
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nTemplate tag supplier for fad0 - fadq address block variables\n"
+  remarks: "\nThe fad variables are formatted according to format strings that refer to other template variables, \nas well as containing a special syntax for inserting conditional or hard spaces, line feeds and\nother formatting.\n<p></p>\nFormat strings reside in the addressformat table. Which one is used depends on the home country of\nthe sender and the country of the receiver, and whether a person or company address is used.\n<br />Note that according to the C++ code we seek to imitate, it&apos;s the database owner contact.country_id\nthat is the &apos;sender&apos;, and not the current principal (which you might think more logical, but\ntell that to the C++ code... in rdb/AddressFormatManager.cpp line 231).\n<p></p>\nThe formatting code is directly converted from the C++ version with minimal changes. The C++\nfunctionality for retrieving ONLY the address part (and not the name) is not implemented,\nas it is used only from Reporter.\n"
+  syntax:
+    content: 'public class FadTags : TagContainer'
+    content.vb: >-
+      Public Class FadTags
+          Inherits TagContainer
+  inheritance:
+  - System.Object
+  - SuperOffice.IO.TagContainer
+  inheritedMembers:
+  - SuperOffice.IO.TagContainer._bInitiated
+  - SuperOffice.IO.TagContainer.AddData(System.Object[])
+  - SuperOffice.IO.TagContainer.GetData
+  - SuperOffice.IO.TagContainer.ClearData
+  - SuperOffice.IO.TagContainer.GetValue(System.String)
+  - SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
+  - SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
+  - SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+  - SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+  - SuperOffice.IO.TagContainer.CurrentUiCulture
+  - SuperOffice.IO.TagContainer.Data
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Globalization.FadTags.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Globalization.FadTags.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Globalization.FadTags._contactInfo
+  commentId: F:SuperOffice.CRM.Globalization.FadTags._contactInfo
+  id: _contactInfo
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: _contactInfo
+  nameWithType: FadTags._contactInfo
+  fullName: SuperOffice.CRM.Globalization.FadTags._contactInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: protected IContactInfo2 _contactInfo
+    return:
+      type: SuperOffice.CRM.IContactInfo2
+    content.vb: Protected _contactInfo As IContactInfo2
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Globalization.FadTags._parentVariables
+  commentId: F:SuperOffice.CRM.Globalization.FadTags._parentVariables
+  id: _parentVariables
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: _parentVariables
+  nameWithType: FadTags._parentVariables
+  fullName: SuperOffice.CRM.Globalization.FadTags._parentVariables
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: protected TagContainer _parentVariables
+    return:
+      type: SuperOffice.IO.TagContainer
+    content.vb: Protected _parentVariables As TagContainer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Globalization.FadTags.#ctor(SuperOffice.CRM.IPersonInfo2,SuperOffice.CRM.IContactInfo2,SuperOffice.IO.TagContainer)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.#ctor(SuperOffice.CRM.IPersonInfo2,SuperOffice.CRM.IContactInfo2,SuperOffice.IO.TagContainer)
+  id: '#ctor(SuperOffice.CRM.IPersonInfo2,SuperOffice.CRM.IContactInfo2,SuperOffice.IO.TagContainer)'
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: FadTags(IPersonInfo2, IContactInfo2, TagContainer)
+  nameWithType: FadTags.FadTags(IPersonInfo2, IContactInfo2, TagContainer)
+  fullName: SuperOffice.CRM.Globalization.FadTags.FadTags(SuperOffice.CRM.IPersonInfo2, SuperOffice.CRM.IContactInfo2, SuperOffice.IO.TagContainer)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nConstruct the class, decide which format to use, and generate the data for all the lines\n"
+  syntax:
+    content: public FadTags(IPersonInfo2 personInfo, IContactInfo2 contactInfo, TagContainer parent)
+    parameters:
+    - id: personInfo
+      type: SuperOffice.CRM.IPersonInfo2
+      description: Person information to use
+    - id: contactInfo
+      type: SuperOffice.CRM.IContactInfo2
+      description: Contact information to use
+    - id: parent
+      type: SuperOffice.IO.TagContainer
+      description: Parent, used to get hold of inner tag values
+    content.vb: Public Sub New(personInfo As IPersonInfo2, contactInfo As IContactInfo2, parent As TagContainer)
+  overload: SuperOffice.CRM.Globalization.FadTags.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.FadTags.Init
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.Init
+  id: Init
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Init()
+  nameWithType: FadTags.Init()
+  fullName: SuperOffice.CRM.Globalization.FadTags.Init()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: protected override void Init()
+    content.vb: Protected Overrides Sub Init
+  overridden: SuperOffice.IO.TagContainer.Init
+  overload: SuperOffice.CRM.Globalization.FadTags.Init*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Globalization.FadTags.GetAddressType
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.GetAddressType
+  id: GetAddressType
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: GetAddressType()
+  nameWithType: FadTags.GetAddressType()
+  fullName: SuperOffice.CRM.Globalization.FadTags.GetAddressType()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: protected virtual int GetAddressType()
+    return:
+      type: System.Int32
+    content.vb: Protected Overridable Function GetAddressType As Integer
+  overload: SuperOffice.CRM.Globalization.FadTags.GetAddressType*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Globalization.FadTags.UseForeign(System.Int32)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.UseForeign(System.Int32)
+  id: UseForeign(System.Int32)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: UseForeign(Int32)
+  nameWithType: FadTags.UseForeign(Int32)
+  fullName: SuperOffice.CRM.Globalization.FadTags.UseForeign(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: protected virtual bool UseForeign(int addressType)
+    parameters:
+    - id: addressType
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Protected Overridable Function UseForeign(addressType As Integer) As Boolean
+  overload: SuperOffice.CRM.Globalization.FadTags.UseForeign*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Globalization.FadTags.GetRecipientCountryId(System.Int32)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.GetRecipientCountryId(System.Int32)
+  id: GetRecipientCountryId(System.Int32)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: GetRecipientCountryId(Int32)
+  nameWithType: FadTags.GetRecipientCountryId(Int32)
+  fullName: SuperOffice.CRM.Globalization.FadTags.GetRecipientCountryId(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: protected virtual int GetRecipientCountryId(int addressType)
+    parameters:
+    - id: addressType
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Protected Overridable Function GetRecipientCountryId(addressType As Integer) As Integer
+  overload: SuperOffice.CRM.Globalization.FadTags.GetRecipientCountryId*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Globalization.FadTags.GetAddressLayout(System.Int32)
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.GetAddressLayout(System.Int32)
+  id: GetAddressLayout(System.Int32)
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: GetAddressLayout(Int32)
+  nameWithType: FadTags.GetAddressLayout(Int32)
+  fullName: SuperOffice.CRM.Globalization.FadTags.GetAddressLayout(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: protected virtual AddressLayout GetAddressLayout(int addressType)
+    parameters:
+    - id: addressType
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Globalization.AddressLayout
+    content.vb: Protected Overridable Function GetAddressLayout(addressType As Integer) As AddressLayout
+  overload: SuperOffice.CRM.Globalization.FadTags.GetAddressLayout*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Globalization.FadTags.DetermineFormat
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.DetermineFormat
+  id: DetermineFormat
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: DetermineFormat()
+  nameWithType: FadTags.DetermineFormat()
+  fullName: SuperOffice.CRM.Globalization.FadTags.DetermineFormat()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nAnalyze the given person and contact data to determine which address format we should use\n<remarks>\nAddress format depends on what kind of address we have (street, postal, person); whether it&apos;s foreign or domestic;\nand what layouts have been set for each of these combinations for the recipients&apos; country\n</remarks>\n"
+  syntax:
+    content: protected virtual void DetermineFormat()
+    content.vb: Protected Overridable Sub DetermineFormat
+  overload: SuperOffice.CRM.Globalization.FadTags.DetermineFormat*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Globalization.FadTags.GenerateFads
+  commentId: M:SuperOffice.CRM.Globalization.FadTags.GenerateFads
+  id: GenerateFads
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: GenerateFads()
+  nameWithType: FadTags.GenerateFads()
+  fullName: SuperOffice.CRM.Globalization.FadTags.GenerateFads()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nGenerate the FAD data block by doing a recursive tag substitution followed by parsing of conditional elements\n"
+  syntax:
+    content: protected virtual void GenerateFads()
+    content.vb: Protected Overridable Sub GenerateFads
+  overload: SuperOffice.CRM.Globalization.FadTags.GenerateFads*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Globalization.FadTags.IsValid
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.IsValid
+  id: IsValid
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: IsValid
+  nameWithType: FadTags.IsValid
+  fullName: SuperOffice.CRM.Globalization.FadTags.IsValid
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: protected virtual bool IsValid { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Protected Overridable ReadOnly Property IsValid As Boolean
+  overload: SuperOffice.CRM.Globalization.FadTags.IsValid*
+  modifiers.csharp:
+  - protected
+  - virtual
+  - get
+  modifiers.vb:
+  - Protected
+  - Overridable
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Id
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Id
+  id: Id
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: FadTags.Id
+  fullName: SuperOffice.CRM.Globalization.FadTags.Id
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public override int Id { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overrides ReadOnly Property Id As Integer
+  overridden: SuperOffice.IO.TagContainer.Id
+  overload: SuperOffice.CRM.Globalization.FadTags.Id*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad1
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fad1
+  id: Fad1
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fad1
+  nameWithType: FadTags.Fad1
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad1
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fad1")]
+
+      public string Fad1 { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("fad1")>
+
+      Public ReadOnly Property Fad1 As String
+  overload: SuperOffice.CRM.Globalization.FadTags.Fad1*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fad1
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad2
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fad2
+  id: Fad2
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fad2
+  nameWithType: FadTags.Fad2
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad2
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fad2")]
+
+      public string Fad2 { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("fad2")>
+
+      Public ReadOnly Property Fad2 As String
+  overload: SuperOffice.CRM.Globalization.FadTags.Fad2*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fad2
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad3
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fad3
+  id: Fad3
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fad3
+  nameWithType: FadTags.Fad3
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad3
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fad3")]
+
+      public string Fad3 { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("fad3")>
+
+      Public ReadOnly Property Fad3 As String
+  overload: SuperOffice.CRM.Globalization.FadTags.Fad3*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fad3
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad4
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fad4
+  id: Fad4
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fad4
+  nameWithType: FadTags.Fad4
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad4
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fad4")]
+
+      public string Fad4 { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("fad4")>
+
+      Public ReadOnly Property Fad4 As String
+  overload: SuperOffice.CRM.Globalization.FadTags.Fad4*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fad4
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad5
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fad5
+  id: Fad5
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fad5
+  nameWithType: FadTags.Fad5
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad5
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fad5")]
+
+      public string Fad5 { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("fad5")>
+
+      Public ReadOnly Property Fad5 As String
+  overload: SuperOffice.CRM.Globalization.FadTags.Fad5*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fad5
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad6
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fad6
+  id: Fad6
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fad6
+  nameWithType: FadTags.Fad6
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad6
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fad6")]
+
+      public string Fad6 { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("fad6")>
+
+      Public ReadOnly Property Fad6 As String
+  overload: SuperOffice.CRM.Globalization.FadTags.Fad6*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fad6
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad7
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fad7
+  id: Fad7
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fad7
+  nameWithType: FadTags.Fad7
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad7
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fad7")]
+
+      public string Fad7 { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("fad7")>
+
+      Public ReadOnly Property Fad7 As String
+  overload: SuperOffice.CRM.Globalization.FadTags.Fad7*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fad7
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad8
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fad8
+  id: Fad8
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fad8
+  nameWithType: FadTags.Fad8
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad8
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fad8")]
+
+      public string Fad8 { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("fad8")>
+
+      Public ReadOnly Property Fad8 As String
+  overload: SuperOffice.CRM.Globalization.FadTags.Fad8*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fad8
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad9
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fad9
+  id: Fad9
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fad9
+  nameWithType: FadTags.Fad9
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad9
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fad9")]
+
+      public string Fad9 { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("fad9")>
+
+      Public ReadOnly Property Fad9 As String
+  overload: SuperOffice.CRM.Globalization.FadTags.Fad9*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fad9
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Fada
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fada
+  id: Fada
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fada
+  nameWithType: FadTags.Fada
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fada
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fada")]
+
+      public string Fada { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("fada")>
+
+      Public ReadOnly Property Fada As String
+  overload: SuperOffice.CRM.Globalization.FadTags.Fada*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fada
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadb
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadb
+  id: Fadb
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadb
+  nameWithType: FadTags.Fadb
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadb
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadb")]
+
+      public string Fadb { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("fadb")>
+
+      Public ReadOnly Property Fadb As String
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadb*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadb
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadc
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadc
+  id: Fadc
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadc
+  nameWithType: FadTags.Fadc
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadc
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadc")]
+
+      public string Fadc { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("fadc")>
+
+      Public ReadOnly Property Fadc As String
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadc*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadc
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadd
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadd
+  id: Fadd
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadd
+  nameWithType: FadTags.Fadd
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadd
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadd")]
+
+      public string Fadd { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("fadd")>
+
+      Public ReadOnly Property Fadd As String
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadd*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadd
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Fade
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fade
+  id: Fade
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fade
+  nameWithType: FadTags.Fade
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fade
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fade")]
+
+      public string Fade { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("fade")>
+
+      Public ReadOnly Property Fade As String
+  overload: SuperOffice.CRM.Globalization.FadTags.Fade*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fade
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadf
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadf
+  id: Fadf
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadf
+  nameWithType: FadTags.Fadf
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadf
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadf")]
+
+      public string Fadf { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("fadf")>
+
+      Public ReadOnly Property Fadf As String
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadf*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadf
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadg
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadg
+  id: Fadg
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadg
+  nameWithType: FadTags.Fadg
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadg
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadg")]
+
+      public string Fadg { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("fadg")>
+
+      Public ReadOnly Property Fadg As String
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadg*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadg
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadh
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadh
+  id: Fadh
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadh
+  nameWithType: FadTags.Fadh
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadh
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadh")]
+
+      public string Fadh { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("fadh")>
+
+      Public ReadOnly Property Fadh As String
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadh*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadh
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadi
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadi
+  id: Fadi
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadi
+  nameWithType: FadTags.Fadi
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadi
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadi")]
+
+      public string Fadi { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("fadi")>
+
+      Public ReadOnly Property Fadi As String
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadi*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadi
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadj
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadj
+  id: Fadj
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadj
+  nameWithType: FadTags.Fadj
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadj
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadj")]
+
+      public string Fadj { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("fadj")>
+
+      Public ReadOnly Property Fadj As String
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadj*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadj
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadk
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadk
+  id: Fadk
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadk
+  nameWithType: FadTags.Fadk
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadk
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadk")]
+
+      public string Fadk { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("fadk")>
+
+      Public ReadOnly Property Fadk As String
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadk*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadk
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadl
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadl
+  id: Fadl
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadl
+  nameWithType: FadTags.Fadl
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadl
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadl")]
+
+      public string Fadl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("fadl")>
+
+      Public ReadOnly Property Fadl As String
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadl*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadl
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadm
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadm
+  id: Fadm
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadm
+  nameWithType: FadTags.Fadm
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadm
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadm")]
+
+      public string Fadm { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("fadm")>
+
+      Public ReadOnly Property Fadm As String
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadm*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadm
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadn
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadn
+  id: Fadn
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadn
+  nameWithType: FadTags.Fadn
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadn
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadn")]
+
+      public string Fadn { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("fadn")>
+
+      Public ReadOnly Property Fadn As String
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadn*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadn
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Fado
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fado
+  id: Fado
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fado
+  nameWithType: FadTags.Fado
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fado
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fado")]
+
+      public string Fado { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("fado")>
+
+      Public ReadOnly Property Fado As String
+  overload: SuperOffice.CRM.Globalization.FadTags.Fado*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fado
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadp
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadp
+  id: Fadp
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadp
+  nameWithType: FadTags.Fadp
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadp
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadp")]
+
+      public string Fadp { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("fadp")>
+
+      Public ReadOnly Property Fadp As String
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadp*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadp
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadq
+  commentId: P:SuperOffice.CRM.Globalization.FadTags.Fadq
+  id: Fadq
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: Fadq
+  nameWithType: FadTags.Fadq
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadq
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: >-
+      [TemplateTag("fadq")]
+
+      public string Fadq { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <TemplateTag("fadq")>
+
+      Public ReadOnly Property Fadq As String
+  overload: SuperOffice.CRM.Globalization.FadTags.Fadq*
+  attributes:
+  - type: SuperOffice.IO.TemplateTagAttribute
+    ctor: SuperOffice.IO.TemplateTagAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fadq
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Globalization
+  commentId: N:SuperOffice.CRM.Globalization
+  isExternal: true
+  name: SuperOffice.CRM.Globalization
+  nameWithType: SuperOffice.CRM.Globalization
+  fullName: SuperOffice.CRM.Globalization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.IO.TagContainer
+  commentId: T:SuperOffice.IO.TagContainer
+  parent: SuperOffice.IO
+  isExternal: true
+  name: TagContainer
+  nameWithType: TagContainer
+  fullName: SuperOffice.IO.TagContainer
+- uid: SuperOffice.IO.TagContainer._bInitiated
+  commentId: F:SuperOffice.IO.TagContainer._bInitiated
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: _bInitiated
+  nameWithType: TagContainer._bInitiated
+  fullName: SuperOffice.IO.TagContainer._bInitiated
+- uid: SuperOffice.IO.TagContainer.AddData(System.Object[])
+  commentId: M:SuperOffice.IO.TagContainer.AddData(System.Object[])
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: AddData(Object[])
+  nameWithType: TagContainer.AddData(Object[])
+  fullName: SuperOffice.IO.TagContainer.AddData(System.Object[])
+  nameWithType.vb: TagContainer.AddData(Object())
+  fullName.vb: SuperOffice.IO.TagContainer.AddData(System.Object())
+  name.vb: AddData(Object())
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.AddData(System.Object[])
+    name: AddData
+    nameWithType: TagContainer.AddData
+    fullName: SuperOffice.IO.TagContainer.AddData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.AddData(System.Object[])
+    name: AddData
+    nameWithType: TagContainer.AddData
+    fullName: SuperOffice.IO.TagContainer.AddData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.TagContainer.GetData
+  commentId: M:SuperOffice.IO.TagContainer.GetData
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: GetData()
+  nameWithType: TagContainer.GetData()
+  fullName: SuperOffice.IO.TagContainer.GetData()
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.GetData
+    name: GetData
+    nameWithType: TagContainer.GetData
+    fullName: SuperOffice.IO.TagContainer.GetData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.GetData
+    name: GetData
+    nameWithType: TagContainer.GetData
+    fullName: SuperOffice.IO.TagContainer.GetData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.TagContainer.ClearData
+  commentId: M:SuperOffice.IO.TagContainer.ClearData
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: ClearData()
+  nameWithType: TagContainer.ClearData()
+  fullName: SuperOffice.IO.TagContainer.ClearData()
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.ClearData
+    name: ClearData
+    nameWithType: TagContainer.ClearData
+    fullName: SuperOffice.IO.TagContainer.ClearData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.ClearData
+    name: ClearData
+    nameWithType: TagContainer.ClearData
+    fullName: SuperOffice.IO.TagContainer.ClearData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.TagContainer.GetValue(System.String)
+  commentId: M:SuperOffice.IO.TagContainer.GetValue(System.String)
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: GetValue(String)
+  nameWithType: TagContainer.GetValue(String)
+  fullName: SuperOffice.IO.TagContainer.GetValue(System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.GetValue(System.String)
+    name: GetValue
+    nameWithType: TagContainer.GetValue
+    fullName: SuperOffice.IO.TagContainer.GetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.GetValue(System.String)
+    name: GetValue
+    nameWithType: TagContainer.GetValue
+    fullName: SuperOffice.IO.TagContainer.GetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
+  commentId: M:SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: SetValue(String, String)
+  nameWithType: TagContainer.SetValue(String, String)
+  fullName: SuperOffice.IO.TagContainer.SetValue(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
+    name: SetValue
+    nameWithType: TagContainer.SetValue
+    fullName: SuperOffice.IO.TagContainer.SetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
+    name: SetValue
+    nameWithType: TagContainer.SetValue
+    fullName: SuperOffice.IO.TagContainer.SetValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
+  commentId: M:SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: RemoveCustomValue(String)
+  nameWithType: TagContainer.RemoveCustomValue(String)
+  fullName: SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
+    name: RemoveCustomValue
+    nameWithType: TagContainer.RemoveCustomValue
+    fullName: SuperOffice.IO.TagContainer.RemoveCustomValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
+    name: RemoveCustomValue
+    nameWithType: TagContainer.RemoveCustomValue
+    fullName: SuperOffice.IO.TagContainer.RemoveCustomValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+  commentId: M:SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: IsTagLegal(String)
+  nameWithType: TagContainer.IsTagLegal(String)
+  fullName: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+    name: IsTagLegal
+    nameWithType: TagContainer.IsTagLegal
+    fullName: SuperOffice.IO.TagContainer.IsTagLegal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
+    name: IsTagLegal
+    nameWithType: TagContainer.IsTagLegal
+    fullName: SuperOffice.IO.TagContainer.IsTagLegal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+  commentId: M:SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: IsTagInContext(String)
+  nameWithType: TagContainer.IsTagInContext(String)
+  fullName: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+    name: IsTagInContext
+    nameWithType: TagContainer.IsTagInContext
+    fullName: SuperOffice.IO.TagContainer.IsTagInContext
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
+    name: IsTagInContext
+    nameWithType: TagContainer.IsTagInContext
+    fullName: SuperOffice.IO.TagContainer.IsTagInContext
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.TagContainer.CurrentUiCulture
+  commentId: P:SuperOffice.IO.TagContainer.CurrentUiCulture
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: CurrentUiCulture
+  nameWithType: TagContainer.CurrentUiCulture
+  fullName: SuperOffice.IO.TagContainer.CurrentUiCulture
+- uid: SuperOffice.IO.TagContainer.Data
+  commentId: P:SuperOffice.IO.TagContainer.Data
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: Data
+  nameWithType: TagContainer.Data
+  fullName: SuperOffice.IO.TagContainer.Data
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.FadTags.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<FadTags, To>()
+  nameWithType: EnumUtil.MapEnums<FadTags, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.FadTags, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of FadTags, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.FadTags, To)()
+  name.vb: MapEnums(Of FadTags, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<FadTags, To>
+    nameWithType: EnumUtil.MapEnums<FadTags, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.FadTags, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of FadTags, To)
+    nameWithType: EnumUtil.MapEnums(Of FadTags, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.FadTags, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.FadTags.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<FadTags, To>()
+  nameWithType: Converters.MapEnums<FadTags, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.FadTags, To>()
+  nameWithType.vb: Converters.MapEnums(Of FadTags, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.FadTags, To)()
+  name.vb: MapEnums(Of FadTags, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<FadTags, To>
+    nameWithType: Converters.MapEnums<FadTags, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.FadTags, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of FadTags, To)
+    nameWithType: Converters.MapEnums(Of FadTags, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.FadTags, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.IO
+  commentId: N:SuperOffice.IO
+  isExternal: true
+  name: SuperOffice.IO
+  nameWithType: SuperOffice.IO
+  fullName: SuperOffice.IO
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.IContactInfo2
+  commentId: T:SuperOffice.CRM.IContactInfo2
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IContactInfo2
+  nameWithType: IContactInfo2
+  fullName: SuperOffice.CRM.IContactInfo2
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: SuperOffice.CRM.Globalization.FadTags.#ctor*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.#ctor
+  isExternal: true
+  name: FadTags
+  nameWithType: FadTags.FadTags
+  fullName: SuperOffice.CRM.Globalization.FadTags.FadTags
+- uid: SuperOffice.CRM.IPersonInfo2
+  commentId: T:SuperOffice.CRM.IPersonInfo2
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IPersonInfo2
+  nameWithType: IPersonInfo2
+  fullName: SuperOffice.CRM.IPersonInfo2
+- uid: SuperOffice.IO.TagContainer.Init
+  commentId: M:SuperOffice.IO.TagContainer.Init
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: Init()
+  nameWithType: TagContainer.Init()
+  fullName: SuperOffice.IO.TagContainer.Init()
+  spec.csharp:
+  - uid: SuperOffice.IO.TagContainer.Init
+    name: Init
+    nameWithType: TagContainer.Init
+    fullName: SuperOffice.IO.TagContainer.Init
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.TagContainer.Init
+    name: Init
+    nameWithType: TagContainer.Init
+    fullName: SuperOffice.IO.TagContainer.Init
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.FadTags.Init*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Init
+  isExternal: true
+  name: Init
+  nameWithType: FadTags.Init
+  fullName: SuperOffice.CRM.Globalization.FadTags.Init
+- uid: SuperOffice.CRM.Globalization.FadTags.GetAddressType*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.GetAddressType
+  isExternal: true
+  name: GetAddressType
+  nameWithType: FadTags.GetAddressType
+  fullName: SuperOffice.CRM.Globalization.FadTags.GetAddressType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Globalization.FadTags.UseForeign*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.UseForeign
+  isExternal: true
+  name: UseForeign
+  nameWithType: FadTags.UseForeign
+  fullName: SuperOffice.CRM.Globalization.FadTags.UseForeign
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Globalization.FadTags.GetRecipientCountryId*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.GetRecipientCountryId
+  isExternal: true
+  name: GetRecipientCountryId
+  nameWithType: FadTags.GetRecipientCountryId
+  fullName: SuperOffice.CRM.Globalization.FadTags.GetRecipientCountryId
+- uid: SuperOffice.CRM.Globalization.FadTags.GetAddressLayout*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.GetAddressLayout
+  isExternal: true
+  name: GetAddressLayout
+  nameWithType: FadTags.GetAddressLayout
+  fullName: SuperOffice.CRM.Globalization.FadTags.GetAddressLayout
+- uid: SuperOffice.CRM.Globalization.AddressLayout
+  commentId: T:SuperOffice.CRM.Globalization.AddressLayout
+  parent: SuperOffice.CRM.Globalization
+  isExternal: true
+  name: AddressLayout
+  nameWithType: AddressLayout
+  fullName: SuperOffice.CRM.Globalization.AddressLayout
+- uid: SuperOffice.CRM.Globalization.FadTags.DetermineFormat*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.DetermineFormat
+  isExternal: true
+  name: DetermineFormat
+  nameWithType: FadTags.DetermineFormat
+  fullName: SuperOffice.CRM.Globalization.FadTags.DetermineFormat
+- uid: SuperOffice.CRM.Globalization.FadTags.GenerateFads*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.GenerateFads
+  isExternal: true
+  name: GenerateFads
+  nameWithType: FadTags.GenerateFads
+  fullName: SuperOffice.CRM.Globalization.FadTags.GenerateFads
+- uid: SuperOffice.CRM.Globalization.FadTags.IsValid*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.IsValid
+  isExternal: true
+  name: IsValid
+  nameWithType: FadTags.IsValid
+  fullName: SuperOffice.CRM.Globalization.FadTags.IsValid
+- uid: SuperOffice.IO.TagContainer.Id
+  commentId: P:SuperOffice.IO.TagContainer.Id
+  parent: SuperOffice.IO.TagContainer
+  isExternal: true
+  name: Id
+  nameWithType: TagContainer.Id
+  fullName: SuperOffice.IO.TagContainer.Id
+- uid: SuperOffice.CRM.Globalization.FadTags.Id*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Id
+  isExternal: true
+  name: Id
+  nameWithType: FadTags.Id
+  fullName: SuperOffice.CRM.Globalization.FadTags.Id
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad1*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fad1
+  isExternal: true
+  name: Fad1
+  nameWithType: FadTags.Fad1
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad1
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad2*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fad2
+  isExternal: true
+  name: Fad2
+  nameWithType: FadTags.Fad2
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad2
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad3*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fad3
+  isExternal: true
+  name: Fad3
+  nameWithType: FadTags.Fad3
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad3
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad4*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fad4
+  isExternal: true
+  name: Fad4
+  nameWithType: FadTags.Fad4
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad4
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad5*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fad5
+  isExternal: true
+  name: Fad5
+  nameWithType: FadTags.Fad5
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad5
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad6*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fad6
+  isExternal: true
+  name: Fad6
+  nameWithType: FadTags.Fad6
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad6
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad7*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fad7
+  isExternal: true
+  name: Fad7
+  nameWithType: FadTags.Fad7
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad7
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad8*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fad8
+  isExternal: true
+  name: Fad8
+  nameWithType: FadTags.Fad8
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad8
+- uid: SuperOffice.CRM.Globalization.FadTags.Fad9*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fad9
+  isExternal: true
+  name: Fad9
+  nameWithType: FadTags.Fad9
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fad9
+- uid: SuperOffice.CRM.Globalization.FadTags.Fada*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fada
+  isExternal: true
+  name: Fada
+  nameWithType: FadTags.Fada
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fada
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadb*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fadb
+  isExternal: true
+  name: Fadb
+  nameWithType: FadTags.Fadb
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadb
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadc*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fadc
+  isExternal: true
+  name: Fadc
+  nameWithType: FadTags.Fadc
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadc
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadd*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fadd
+  isExternal: true
+  name: Fadd
+  nameWithType: FadTags.Fadd
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadd
+- uid: SuperOffice.CRM.Globalization.FadTags.Fade*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fade
+  isExternal: true
+  name: Fade
+  nameWithType: FadTags.Fade
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fade
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadf*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fadf
+  isExternal: true
+  name: Fadf
+  nameWithType: FadTags.Fadf
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadf
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadg*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fadg
+  isExternal: true
+  name: Fadg
+  nameWithType: FadTags.Fadg
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadg
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadh*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fadh
+  isExternal: true
+  name: Fadh
+  nameWithType: FadTags.Fadh
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadh
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadi*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fadi
+  isExternal: true
+  name: Fadi
+  nameWithType: FadTags.Fadi
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadi
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadj*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fadj
+  isExternal: true
+  name: Fadj
+  nameWithType: FadTags.Fadj
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadj
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadk*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fadk
+  isExternal: true
+  name: Fadk
+  nameWithType: FadTags.Fadk
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadk
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadl*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fadl
+  isExternal: true
+  name: Fadl
+  nameWithType: FadTags.Fadl
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadl
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadm*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fadm
+  isExternal: true
+  name: Fadm
+  nameWithType: FadTags.Fadm
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadm
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadn*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fadn
+  isExternal: true
+  name: Fadn
+  nameWithType: FadTags.Fadn
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadn
+- uid: SuperOffice.CRM.Globalization.FadTags.Fado*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fado
+  isExternal: true
+  name: Fado
+  nameWithType: FadTags.Fado
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fado
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadp*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fadp
+  isExternal: true
+  name: Fadp
+  nameWithType: FadTags.Fadp
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadp
+- uid: SuperOffice.CRM.Globalization.FadTags.Fadq*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.Fadq
+  isExternal: true
+  name: Fadq
+  nameWithType: FadTags.Fadq
+  fullName: SuperOffice.CRM.Globalization.FadTags.Fadq

@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest
+  commentId: T:SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest
+  id: Replication_SetFreetextSearchEnabledOnAreaRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest.#ctor
+  - SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest.AreaId
+  - SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest.FreetextEnabled
+  langs:
+  - csharp
+  - vb
+  name: Replication_SetFreetextSearchEnabledOnAreaRequest
+  nameWithType: Replication_SetFreetextSearchEnabledOnAreaRequest
+  fullName: SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Replication_SetFreetextSearchEnabledOnAreaRequest : Object'
+    content.vb: >-
+      Public Class Replication_SetFreetextSearchEnabledOnAreaRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest
+  langs:
+  - csharp
+  - vb
+  name: Replication_SetFreetextSearchEnabledOnAreaRequest()
+  nameWithType: Replication_SetFreetextSearchEnabledOnAreaRequest.Replication_SetFreetextSearchEnabledOnAreaRequest()
+  fullName: SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest.Replication_SetFreetextSearchEnabledOnAreaRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Replication_SetFreetextSearchEnabledOnAreaRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest.AreaId
+  commentId: P:SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest.AreaId
+  id: AreaId
+  parent: SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest
+  langs:
+  - csharp
+  - vb
+  name: AreaId
+  nameWithType: Replication_SetFreetextSearchEnabledOnAreaRequest.AreaId
+  fullName: SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest.AreaId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AreaId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AreaId As Integer
+  overload: SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest.AreaId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest.FreetextEnabled
+  commentId: P:SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest.FreetextEnabled
+  id: FreetextEnabled
+  parent: SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest
+  langs:
+  - csharp
+  - vb
+  name: FreetextEnabled
+  nameWithType: Replication_SetFreetextSearchEnabledOnAreaRequest.FreetextEnabled
+  fullName: SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest.FreetextEnabled
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool FreetextEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property FreetextEnabled As Boolean
+  overload: SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest.FreetextEnabled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest.#ctor
+  isExternal: true
+  name: Replication_SetFreetextSearchEnabledOnAreaRequest
+  nameWithType: Replication_SetFreetextSearchEnabledOnAreaRequest.Replication_SetFreetextSearchEnabledOnAreaRequest
+  fullName: SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest.Replication_SetFreetextSearchEnabledOnAreaRequest
+- uid: SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest.AreaId*
+  commentId: Overload:SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest.AreaId
+  isExternal: true
+  name: AreaId
+  nameWithType: Replication_SetFreetextSearchEnabledOnAreaRequest.AreaId
+  fullName: SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest.AreaId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest.FreetextEnabled*
+  commentId: Overload:SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest.FreetextEnabled
+  isExternal: true
+  name: FreetextEnabled
+  nameWithType: Replication_SetFreetextSearchEnabledOnAreaRequest.FreetextEnabled
+  fullName: SuperOffice.WebApi.Data.Replication_SetFreetextSearchEnabledOnAreaRequest.FreetextEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

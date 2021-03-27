@@ -1,0 +1,737 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position
+  commentId: T:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position
+  id: ConfigurationAttributes.ControlTypes.Position
+  parent: SuperOffice.DCF.Configuration
+  children:
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Absolute
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Bottom
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Column
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Height
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.LayoutPosition
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Left
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Overflow
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.PositionAttribute
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Right
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Row
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Top
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Width
+  - SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.ZIndex
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationAttributes.ControlTypes.Position
+  nameWithType: ConfigurationAttributes.ControlTypes.Position
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public static class Position
+    content.vb: Public Module Position
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.PositionAttribute
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.PositionAttribute
+  id: PositionAttribute
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position
+  langs:
+  - csharp
+  - vb
+  name: PositionAttribute
+  nameWithType: ConfigurationAttributes.ControlTypes.Position.PositionAttribute
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.PositionAttribute
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string PositionAttribute = "position"
+    return:
+      type: System.String
+    content.vb: Public Const PositionAttribute As String = "position"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.LayoutPosition
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.LayoutPosition
+  id: LayoutPosition
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position
+  langs:
+  - csharp
+  - vb
+  name: LayoutPosition
+  nameWithType: ConfigurationAttributes.ControlTypes.Position.LayoutPosition
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.LayoutPosition
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string LayoutPosition = "layout-position"
+    return:
+      type: System.String
+    content.vb: Public Const LayoutPosition As String = "layout-position"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Top
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Top
+  id: Top
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position
+  langs:
+  - csharp
+  - vb
+  name: Top
+  nameWithType: ConfigurationAttributes.ControlTypes.Position.Top
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Top
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Top = "top"
+    return:
+      type: System.String
+    content.vb: Public Const Top As String = "top"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Bottom
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Bottom
+  id: Bottom
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position
+  langs:
+  - csharp
+  - vb
+  name: Bottom
+  nameWithType: ConfigurationAttributes.ControlTypes.Position.Bottom
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Bottom
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Bottom = "bottom"
+    return:
+      type: System.String
+    content.vb: Public Const Bottom As String = "bottom"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Left
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Left
+  id: Left
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: ConfigurationAttributes.ControlTypes.Position.Left
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Left
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Left = "left"
+    return:
+      type: System.String
+    content.vb: Public Const Left As String = "left"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Right
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Right
+  id: Right
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: ConfigurationAttributes.ControlTypes.Position.Right
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Right
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Right = "right"
+    return:
+      type: System.String
+    content.vb: Public Const Right As String = "right"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Width
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Width
+  id: Width
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: ConfigurationAttributes.ControlTypes.Position.Width
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Width
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Width = "width"
+    return:
+      type: System.String
+    content.vb: Public Const Width As String = "width"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Height
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Height
+  id: Height
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: ConfigurationAttributes.ControlTypes.Position.Height
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Height
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Height = "height"
+    return:
+      type: System.String
+    content.vb: Public Const Height As String = "height"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.ZIndex
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.ZIndex
+  id: ZIndex
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position
+  langs:
+  - csharp
+  - vb
+  name: ZIndex
+  nameWithType: ConfigurationAttributes.ControlTypes.Position.ZIndex
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.ZIndex
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string ZIndex = "zindex"
+    return:
+      type: System.String
+    content.vb: Public Const ZIndex As String = "zindex"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Overflow
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Overflow
+  id: Overflow
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position
+  langs:
+  - csharp
+  - vb
+  name: Overflow
+  nameWithType: ConfigurationAttributes.ControlTypes.Position.Overflow
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Overflow
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Overflow = "overflow"
+    return:
+      type: System.String
+    content.vb: Public Const Overflow As String = "overflow"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Absolute
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Absolute
+  id: Absolute
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position
+  langs:
+  - csharp
+  - vb
+  name: Absolute
+  nameWithType: ConfigurationAttributes.ControlTypes.Position.Absolute
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Absolute
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Absolute = "absolute"
+    return:
+      type: System.String
+    content.vb: Public Const Absolute As String = "absolute"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Column
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Column
+  id: Column
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position
+  langs:
+  - csharp
+  - vb
+  name: Column
+  nameWithType: ConfigurationAttributes.ControlTypes.Position.Column
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Column
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Column = "column"
+    return:
+      type: System.String
+    content.vb: Public Const Column As String = "column"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Row
+  commentId: F:SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Row
+  id: Row
+  parent: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position
+  langs:
+  - csharp
+  - vb
+  name: Row
+  nameWithType: ConfigurationAttributes.ControlTypes.Position.Row
+  fullName: SuperOffice.DCF.Configuration.ConfigurationAttributes.ControlTypes.Position.Row
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.DCF.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public const string Row = "row"
+    return:
+      type: System.String
+    content.vb: Public Const Row As String = "row"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.DCF.Configuration
+  commentId: N:SuperOffice.DCF.Configuration
+  isExternal: true
+  name: SuperOffice.DCF.Configuration
+  nameWithType: SuperOffice.DCF.Configuration
+  fullName: SuperOffice.DCF.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

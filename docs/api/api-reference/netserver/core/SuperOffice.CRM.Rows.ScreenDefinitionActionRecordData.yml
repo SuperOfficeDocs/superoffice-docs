@@ -1,0 +1,991 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData
+  commentId: T:SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData
+  id: ScreenDefinitionActionRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.#ctor
+  - SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.Button
+  - SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.DoCheck
+  - SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.Ejscript
+  - SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.EjscriptBody
+  - SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.ScreenDefinition
+  - SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.ScreenDefinitionActionId
+  langs:
+  - csharp
+  - vb
+  name: ScreenDefinitionActionRecordData
+  nameWithType: ScreenDefinitionActionRecordData
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the screen_definition_action table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.ScreenDefinitionActionRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.ScreenDefinitionActionTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class ScreenDefinitionActionRecordData
+    content.vb: Public Class ScreenDefinitionActionRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData)
+  - SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.SuperOffice.CRM.Rows.ScreenDefinitionActionRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.ScreenDefinitionActionId
+  commentId: F:SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.ScreenDefinitionActionId
+  id: ScreenDefinitionActionId
+  parent: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData
+  langs:
+  - csharp
+  - vb
+  name: ScreenDefinitionActionId
+  nameWithType: ScreenDefinitionActionRecordData.ScreenDefinitionActionId
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.ScreenDefinitionActionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int ScreenDefinitionActionId
+    return:
+      type: System.Int32
+    content.vb: Public ScreenDefinitionActionId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.ScreenDefinition
+  commentId: F:SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.ScreenDefinition
+  id: ScreenDefinition
+  parent: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData
+  langs:
+  - csharp
+  - vb
+  name: ScreenDefinition
+  nameWithType: ScreenDefinitionActionRecordData.ScreenDefinition
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.ScreenDefinition
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe screen-definition this element belongs to \n"
+  syntax:
+    content: public int ScreenDefinition
+    return:
+      type: System.Int32
+    content.vb: Public ScreenDefinition As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.Button
+  commentId: F:SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.Button
+  id: Button
+  parent: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData
+  langs:
+  - csharp
+  - vb
+  name: Button
+  nameWithType: ScreenDefinitionActionRecordData.Button
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.Button
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe name of the button triggering this action \n"
+  syntax:
+    content: public string Button
+    return:
+      type: System.String
+    content.vb: Public Button As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.Ejscript
+  commentId: F:SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.Ejscript
+  id: Ejscript
+  parent: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData
+  langs:
+  - csharp
+  - vb
+  name: Ejscript
+  nameWithType: ScreenDefinitionActionRecordData.Ejscript
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.Ejscript
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDeprecated. The ejscript to execute if this is a form which is posted \n"
+  syntax:
+    content: public int Ejscript
+    return:
+      type: System.Int32
+    content.vb: Public Ejscript As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.EjscriptBody
+  commentId: F:SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.EjscriptBody
+  id: EjscriptBody
+  parent: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData
+  langs:
+  - csharp
+  - vb
+  name: EjscriptBody
+  nameWithType: ScreenDefinitionActionRecordData.EjscriptBody
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.EjscriptBody
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe script to execute for this button/action \n"
+  syntax:
+    content: public string EjscriptBody
+    return:
+      type: System.String
+    content.vb: Public EjscriptBody As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.DoCheck
+  commentId: F:SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.DoCheck
+  id: DoCheck
+  parent: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData
+  langs:
+  - csharp
+  - vb
+  name: DoCheck
+  nameWithType: ScreenDefinitionActionRecordData.DoCheck
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.DoCheck
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIf set, then run check() before executing button (making sure values in form fields are ok) \n"
+  syntax:
+    content: public short DoCheck
+    return:
+      type: System.Int16
+    content.vb: Public DoCheck As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData
+  langs:
+  - csharp
+  - vb
+  name: ScreenDefinitionActionRecordData()
+  nameWithType: ScreenDefinitionActionRecordData.ScreenDefinitionActionRecordData()
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.ScreenDefinitionActionRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public ScreenDefinitionActionRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ScreenDefinitionActionRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<ScreenDefinitionActionRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ScreenDefinitionActionRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData, To)()
+  name.vb: MapEnums(Of ScreenDefinitionActionRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ScreenDefinitionActionRecordData, To>
+    nameWithType: EnumUtil.MapEnums<ScreenDefinitionActionRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ScreenDefinitionActionRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of ScreenDefinitionActionRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ScreenDefinitionActionRecordData>(ScreenDefinitionActionRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<ScreenDefinitionActionRecordData>(ScreenDefinitionActionRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData>(SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ScreenDefinitionActionRecordData)(ScreenDefinitionActionRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData)(SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData)
+  name.vb: AssignByReflection(Of ScreenDefinitionActionRecordData)(ScreenDefinitionActionRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ScreenDefinitionActionRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<ScreenDefinitionActionRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData
+    name: ScreenDefinitionActionRecordData
+    nameWithType: ScreenDefinitionActionRecordData
+    fullName: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ScreenDefinitionActionRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ScreenDefinitionActionRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData
+    name: ScreenDefinitionActionRecordData
+    nameWithType: ScreenDefinitionActionRecordData
+    fullName: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ScreenDefinitionActionRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<ScreenDefinitionActionRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ScreenDefinitionActionRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData)()
+  name.vb: GraphCopy(Of ScreenDefinitionActionRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ScreenDefinitionActionRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<ScreenDefinitionActionRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ScreenDefinitionActionRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of ScreenDefinitionActionRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.SuperOffice.CRM.Rows.ScreenDefinitionActionRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.ScreenDefinitionActionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData)
+  parent: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData)
+  name: ToInsert()
+  nameWithType: ScreenDefinitionActionRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: ScreenDefinitionActionRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: ScreenDefinitionActionRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ScreenDefinitionActionRecordData, To>()
+  nameWithType: Converters.MapEnums<ScreenDefinitionActionRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of ScreenDefinitionActionRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData, To)()
+  name.vb: MapEnums(Of ScreenDefinitionActionRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ScreenDefinitionActionRecordData, To>
+    nameWithType: Converters.MapEnums<ScreenDefinitionActionRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ScreenDefinitionActionRecordData, To)
+    nameWithType: Converters.MapEnums(Of ScreenDefinitionActionRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData)
+  commentId: M:SuperOffice.CRM.Rows.ScreenDefinitionActionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData)
+  isExternal: true
+  name: ToInsert(ScreenDefinitionActionRecordData)
+  nameWithType: ScreenDefinitionActionRecordDataExtensions.ToInsert(ScreenDefinitionActionRecordData)
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData)
+    name: ToInsert
+    nameWithType: ScreenDefinitionActionRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData
+    name: ScreenDefinitionActionRecordData
+    nameWithType: ScreenDefinitionActionRecordData
+    fullName: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData)
+    name: ToInsert
+    nameWithType: ScreenDefinitionActionRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData
+    name: ScreenDefinitionActionRecordData
+    nameWithType: ScreenDefinitionActionRecordData
+    fullName: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.ScreenDefinitionActionRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: ScreenDefinitionActionRecordDataExtensions
+  nameWithType: ScreenDefinitionActionRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.#ctor
+  isExternal: true
+  name: ScreenDefinitionActionRecordData
+  nameWithType: ScreenDefinitionActionRecordData.ScreenDefinitionActionRecordData
+  fullName: SuperOffice.CRM.Rows.ScreenDefinitionActionRecordData.ScreenDefinitionActionRecordData

@@ -1,0 +1,887 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync.GetActorsByTimestampRequestWS
+  commentId: T:SuperOffice.ErpSync.GetActorsByTimestampRequestWS
+  id: GetActorsByTimestampRequestWS
+  parent: SuperOffice.ErpSync
+  children:
+  - SuperOffice.ErpSync.GetActorsByTimestampRequestWS.#ctor
+  - SuperOffice.ErpSync.GetActorsByTimestampRequestWS.ActorType
+  - SuperOffice.ErpSync.GetActorsByTimestampRequestWS.FieldKeys
+  - SuperOffice.ErpSync.GetActorsByTimestampRequestWS.UpdatedOnOrAfter
+  langs:
+  - csharp
+  - vb
+  name: GetActorsByTimestampRequestWS
+  nameWithType: GetActorsByTimestampRequestWS
+  fullName: SuperOffice.ErpSync.GetActorsByTimestampRequestWS
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nParameters for GetActorsByTimestamp\n"
+  syntax:
+    content: 'public class GetActorsByTimestampRequestWS : RequestBaseWS'
+    content.vb: >-
+      Public Class GetActorsByTimestampRequestWS
+          Inherits RequestBaseWS
+  inheritance:
+  - System.Object
+  - SuperOffice.ErpSync.RequestBaseWS
+  inheritedMembers:
+  - SuperOffice.ErpSync.RequestBaseWS.ConnectionGuid
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.ErpSync.GetActorsByTimestampRequestWS.EnumUtil.MapEnums``2
+  - SuperOffice.ErpSync.GetActorsByTimestampRequestWS.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ErpSync.GetActorsByTimestampRequestWS)
+  - SuperOffice.ErpSync.GetActorsByTimestampRequestWS.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.ErpSync.GetActorsByTimestampRequestWS.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.ErpSync.GetActorsByTimestampRequestWS.#ctor
+  commentId: M:SuperOffice.ErpSync.GetActorsByTimestampRequestWS.#ctor
+  id: '#ctor'
+  parent: SuperOffice.ErpSync.GetActorsByTimestampRequestWS
+  langs:
+  - csharp
+  - vb
+  name: GetActorsByTimestampRequestWS()
+  nameWithType: GetActorsByTimestampRequestWS.GetActorsByTimestampRequestWS()
+  fullName: SuperOffice.ErpSync.GetActorsByTimestampRequestWS.GetActorsByTimestampRequestWS()
+  type: Constructor
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public GetActorsByTimestampRequestWS()
+    content.vb: Public Sub New
+  overload: SuperOffice.ErpSync.GetActorsByTimestampRequestWS.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.ErpSync.GetActorsByTimestampRequestWS.UpdatedOnOrAfter
+  commentId: P:SuperOffice.ErpSync.GetActorsByTimestampRequestWS.UpdatedOnOrAfter
+  id: UpdatedOnOrAfter
+  parent: SuperOffice.ErpSync.GetActorsByTimestampRequestWS
+  langs:
+  - csharp
+  - vb
+  name: UpdatedOnOrAfter
+  nameWithType: GetActorsByTimestampRequestWS.UpdatedOnOrAfter
+  fullName: SuperOffice.ErpSync.GetActorsByTimestampRequestWS.UpdatedOnOrAfter
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nContains a timestamp previously returned by the connector\n"
+  syntax:
+    content: public string UpdatedOnOrAfter { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UpdatedOnOrAfter As String
+  overload: SuperOffice.ErpSync.GetActorsByTimestampRequestWS.UpdatedOnOrAfter*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.ErpSync.GetActorsByTimestampRequestWS.ActorType
+  commentId: P:SuperOffice.ErpSync.GetActorsByTimestampRequestWS.ActorType
+  id: ActorType
+  parent: SuperOffice.ErpSync.GetActorsByTimestampRequestWS
+  langs:
+  - csharp
+  - vb
+  name: ActorType
+  nameWithType: GetActorsByTimestampRequestWS.ActorType
+  fullName: SuperOffice.ErpSync.GetActorsByTimestampRequestWS.ActorType
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nThe actor type\n"
+  syntax:
+    content: public string ActorType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ActorType As String
+  overload: SuperOffice.ErpSync.GetActorsByTimestampRequestWS.ActorType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.ErpSync.GetActorsByTimestampRequestWS.FieldKeys
+  commentId: P:SuperOffice.ErpSync.GetActorsByTimestampRequestWS.FieldKeys
+  id: FieldKeys
+  parent: SuperOffice.ErpSync.GetActorsByTimestampRequestWS
+  langs:
+  - csharp
+  - vb
+  name: FieldKeys
+  nameWithType: GetActorsByTimestampRequestWS.FieldKeys
+  fullName: SuperOffice.ErpSync.GetActorsByTimestampRequestWS.FieldKeys
+  type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nArray containing the field keys\n"
+  syntax:
+    content: public string[] FieldKeys { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property FieldKeys As String()
+  overload: SuperOffice.ErpSync.GetActorsByTimestampRequestWS.FieldKeys*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.ErpSync
+  commentId: N:SuperOffice.ErpSync
+  isExternal: true
+  name: SuperOffice.ErpSync
+  nameWithType: SuperOffice.ErpSync
+  fullName: SuperOffice.ErpSync
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.ErpSync.RequestBaseWS
+  commentId: T:SuperOffice.ErpSync.RequestBaseWS
+  parent: SuperOffice.ErpSync
+  isExternal: true
+  name: RequestBaseWS
+  nameWithType: RequestBaseWS
+  fullName: SuperOffice.ErpSync.RequestBaseWS
+- uid: SuperOffice.ErpSync.RequestBaseWS.ConnectionGuid
+  commentId: P:SuperOffice.ErpSync.RequestBaseWS.ConnectionGuid
+  parent: SuperOffice.ErpSync.RequestBaseWS
+  isExternal: true
+  name: ConnectionGuid
+  nameWithType: RequestBaseWS.ConnectionGuid
+  fullName: SuperOffice.ErpSync.RequestBaseWS.ConnectionGuid
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.GetActorsByTimestampRequestWS.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<GetActorsByTimestampRequestWS, To>()
+  nameWithType: EnumUtil.MapEnums<GetActorsByTimestampRequestWS, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.GetActorsByTimestampRequestWS, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of GetActorsByTimestampRequestWS, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.ErpSync.GetActorsByTimestampRequestWS, To)()
+  name.vb: MapEnums(Of GetActorsByTimestampRequestWS, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<GetActorsByTimestampRequestWS, To>
+    nameWithType: EnumUtil.MapEnums<GetActorsByTimestampRequestWS, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.GetActorsByTimestampRequestWS, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of GetActorsByTimestampRequestWS, To)
+    nameWithType: EnumUtil.MapEnums(Of GetActorsByTimestampRequestWS, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.ErpSync.GetActorsByTimestampRequestWS, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.GetActorsByTimestampRequestWS.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ErpSync.GetActorsByTimestampRequestWS)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<GetActorsByTimestampRequestWS>(GetActorsByTimestampRequestWS)
+  nameWithType: ObjectExtensions.AssignByReflection<GetActorsByTimestampRequestWS>(GetActorsByTimestampRequestWS)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.ErpSync.GetActorsByTimestampRequestWS>(SuperOffice.ErpSync.GetActorsByTimestampRequestWS)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of GetActorsByTimestampRequestWS)(GetActorsByTimestampRequestWS)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.ErpSync.GetActorsByTimestampRequestWS)(SuperOffice.ErpSync.GetActorsByTimestampRequestWS)
+  name.vb: AssignByReflection(Of GetActorsByTimestampRequestWS)(GetActorsByTimestampRequestWS)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<GetActorsByTimestampRequestWS>
+    nameWithType: ObjectExtensions.AssignByReflection<GetActorsByTimestampRequestWS>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.ErpSync.GetActorsByTimestampRequestWS>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.ErpSync.GetActorsByTimestampRequestWS
+    name: GetActorsByTimestampRequestWS
+    nameWithType: GetActorsByTimestampRequestWS
+    fullName: SuperOffice.ErpSync.GetActorsByTimestampRequestWS
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of GetActorsByTimestampRequestWS)
+    nameWithType: ObjectExtensions.AssignByReflection(Of GetActorsByTimestampRequestWS)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.ErpSync.GetActorsByTimestampRequestWS)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.ErpSync.GetActorsByTimestampRequestWS
+    name: GetActorsByTimestampRequestWS
+    nameWithType: GetActorsByTimestampRequestWS
+    fullName: SuperOffice.ErpSync.GetActorsByTimestampRequestWS
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.GetActorsByTimestampRequestWS.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<GetActorsByTimestampRequestWS>()
+  nameWithType: ObjectExtensions.GraphCopy<GetActorsByTimestampRequestWS>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.ErpSync.GetActorsByTimestampRequestWS>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of GetActorsByTimestampRequestWS)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.ErpSync.GetActorsByTimestampRequestWS)()
+  name.vb: GraphCopy(Of GetActorsByTimestampRequestWS)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<GetActorsByTimestampRequestWS>
+    nameWithType: ObjectExtensions.GraphCopy<GetActorsByTimestampRequestWS>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.ErpSync.GetActorsByTimestampRequestWS>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of GetActorsByTimestampRequestWS)
+    nameWithType: ObjectExtensions.GraphCopy(Of GetActorsByTimestampRequestWS)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.ErpSync.GetActorsByTimestampRequestWS)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.GetActorsByTimestampRequestWS.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<GetActorsByTimestampRequestWS, To>()
+  nameWithType: Converters.MapEnums<GetActorsByTimestampRequestWS, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.GetActorsByTimestampRequestWS, To>()
+  nameWithType.vb: Converters.MapEnums(Of GetActorsByTimestampRequestWS, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.GetActorsByTimestampRequestWS, To)()
+  name.vb: MapEnums(Of GetActorsByTimestampRequestWS, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<GetActorsByTimestampRequestWS, To>
+    nameWithType: Converters.MapEnums<GetActorsByTimestampRequestWS, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.GetActorsByTimestampRequestWS, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of GetActorsByTimestampRequestWS, To)
+    nameWithType: Converters.MapEnums(Of GetActorsByTimestampRequestWS, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.GetActorsByTimestampRequestWS, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.ErpSync.GetActorsByTimestampRequestWS.#ctor*
+  commentId: Overload:SuperOffice.ErpSync.GetActorsByTimestampRequestWS.#ctor
+  isExternal: true
+  name: GetActorsByTimestampRequestWS
+  nameWithType: GetActorsByTimestampRequestWS.GetActorsByTimestampRequestWS
+  fullName: SuperOffice.ErpSync.GetActorsByTimestampRequestWS.GetActorsByTimestampRequestWS
+- uid: SuperOffice.ErpSync.GetActorsByTimestampRequestWS.UpdatedOnOrAfter*
+  commentId: Overload:SuperOffice.ErpSync.GetActorsByTimestampRequestWS.UpdatedOnOrAfter
+  isExternal: true
+  name: UpdatedOnOrAfter
+  nameWithType: GetActorsByTimestampRequestWS.UpdatedOnOrAfter
+  fullName: SuperOffice.ErpSync.GetActorsByTimestampRequestWS.UpdatedOnOrAfter
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.ErpSync.GetActorsByTimestampRequestWS.ActorType*
+  commentId: Overload:SuperOffice.ErpSync.GetActorsByTimestampRequestWS.ActorType
+  isExternal: true
+  name: ActorType
+  nameWithType: GetActorsByTimestampRequestWS.ActorType
+  fullName: SuperOffice.ErpSync.GetActorsByTimestampRequestWS.ActorType
+- uid: SuperOffice.ErpSync.GetActorsByTimestampRequestWS.FieldKeys*
+  commentId: Overload:SuperOffice.ErpSync.GetActorsByTimestampRequestWS.FieldKeys
+  isExternal: true
+  name: FieldKeys
+  nameWithType: GetActorsByTimestampRequestWS.FieldKeys
+  fullName: SuperOffice.ErpSync.GetActorsByTimestampRequestWS.FieldKeys
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

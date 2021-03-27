@@ -1,0 +1,767 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields
+  commentId: T:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields
+  id: DBC.RecurrenceRuleFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.CyclicDay
+  - SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.CyclicMonth
+  - SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.CyclicWeek
+  - SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.EndDate
+  - SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Pattern
+  - SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.RecurrenceRuleId
+  - SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Registered
+  - SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.StartDate
+  - SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.SubPattern
+  - SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Updated
+  - SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Weekdays
+  langs:
+  - csharp
+  - vb
+  name: DBC.RecurrenceRuleFields
+  nameWithType: DBC.RecurrenceRuleFields
+  fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for RecurrenceRule, The recurrency pattern for a recurring event. Each recurring event has an appointment.recurrenceRuleId pointing to its pattern.\n"
+  syntax:
+    content: public static class RecurrenceRuleFields
+    content.vb: Public Module RecurrenceRuleFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.RecurrenceRuleId
+  commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.RecurrenceRuleId
+  id: RecurrenceRuleId
+  parent: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields
+  langs:
+  - csharp
+  - vb
+  name: RecurrenceRuleId
+  nameWithType: DBC.RecurrenceRuleFields.RecurrenceRuleId
+  fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.RecurrenceRuleId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRecurrenceRule.RecurrenceRuleId: Primary key\n"
+  syntax:
+    content: public const string RecurrenceRuleId = "RecurrenceRule_id"
+    return:
+      type: System.String
+    content.vb: Public Const RecurrenceRuleId As String = "RecurrenceRule_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Pattern
+  commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Pattern
+  id: Pattern
+  parent: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields
+  langs:
+  - csharp
+  - vb
+  name: Pattern
+  nameWithType: DBC.RecurrenceRuleFields.Pattern
+  fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Pattern
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRecurrenceRule.Pattern: Recurrence pattern (daily, weekly etc)\n"
+  syntax:
+    content: public const string Pattern = "pattern"
+    return:
+      type: System.String
+    content.vb: Public Const Pattern As String = "pattern"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.SubPattern
+  commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.SubPattern
+  id: SubPattern
+  parent: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields
+  langs:
+  - csharp
+  - vb
+  name: SubPattern
+  nameWithType: DBC.RecurrenceRuleFields.SubPattern
+  fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.SubPattern
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRecurrenceRule.SubPattern: Subpattern (workday, everyday, weekday etc)\n"
+  syntax:
+    content: public const string SubPattern = "subPattern"
+    return:
+      type: System.String
+    content.vb: Public Const SubPattern As String = "subPattern"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Weekdays
+  commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Weekdays
+  id: Weekdays
+  parent: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields
+  langs:
+  - csharp
+  - vb
+  name: Weekdays
+  nameWithType: DBC.RecurrenceRuleFields.Weekdays
+  fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Weekdays
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRecurrenceRule.Weekdays: Weekdays used, bitmask based on  ERecurrenceWeekDays enumeration\n"
+  syntax:
+    content: public const string Weekdays = "weekdays"
+    return:
+      type: System.String
+    content.vb: Public Const Weekdays As String = "weekdays"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.StartDate
+  commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.StartDate
+  id: StartDate
+  parent: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: DBC.RecurrenceRuleFields.StartDate
+  fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.StartDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRecurrenceRule.StartDate: Start date for repetition pattern\n"
+  syntax:
+    content: public const string StartDate = "startDate"
+    return:
+      type: System.String
+    content.vb: Public Const StartDate As String = "startDate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.EndDate
+  commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.EndDate
+  id: EndDate
+  parent: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields
+  langs:
+  - csharp
+  - vb
+  name: EndDate
+  nameWithType: DBC.RecurrenceRuleFields.EndDate
+  fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.EndDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRecurrenceRule.EndDate: End date for repetition pattern\n"
+  syntax:
+    content: public const string EndDate = "endDate"
+    return:
+      type: System.String
+    content.vb: Public Const EndDate As String = "endDate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.CyclicDay
+  commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.CyclicDay
+  id: CyclicDay
+  parent: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields
+  langs:
+  - csharp
+  - vb
+  name: CyclicDay
+  nameWithType: DBC.RecurrenceRuleFields.CyclicDay
+  fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.CyclicDay
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRecurrenceRule.CyclicDay: Every nth day, in cyclic patterns\n"
+  syntax:
+    content: public const string CyclicDay = "cyclicDay"
+    return:
+      type: System.String
+    content.vb: Public Const CyclicDay As String = "cyclicDay"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.CyclicWeek
+  commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.CyclicWeek
+  id: CyclicWeek
+  parent: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields
+  langs:
+  - csharp
+  - vb
+  name: CyclicWeek
+  nameWithType: DBC.RecurrenceRuleFields.CyclicWeek
+  fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.CyclicWeek
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRecurrenceRule.CyclicWeek: Every nth week, in cyclic patterns\n"
+  syntax:
+    content: public const string CyclicWeek = "cyclicWeek"
+    return:
+      type: System.String
+    content.vb: Public Const CyclicWeek As String = "cyclicWeek"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.CyclicMonth
+  commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.CyclicMonth
+  id: CyclicMonth
+  parent: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields
+  langs:
+  - csharp
+  - vb
+  name: CyclicMonth
+  nameWithType: DBC.RecurrenceRuleFields.CyclicMonth
+  fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.CyclicMonth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRecurrenceRule.CyclicMonth: Every nth month, in cyclic patterns\n"
+  syntax:
+    content: public const string CyclicMonth = "cyclicMonth"
+    return:
+      type: System.String
+    content.vb: Public Const CyclicMonth As String = "cyclicMonth"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.RecurrenceRuleFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRecurrenceRule.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.RecurrenceRuleFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRecurrenceRule.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.RecurrenceRuleFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRecurrenceRule.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.RecurrenceRuleFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRecurrenceRule.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.RecurrenceRuleFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.RecurrenceRuleFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRecurrenceRule.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

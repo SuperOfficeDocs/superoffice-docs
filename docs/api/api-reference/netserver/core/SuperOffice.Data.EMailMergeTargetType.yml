@@ -1,0 +1,598 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.EMailMergeTargetType
+  commentId: T:SuperOffice.Data.EMailMergeTargetType
+  id: EMailMergeTargetType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.EMailMergeTargetType.BestFit
+  - SuperOffice.Data.EMailMergeTargetType.Electronic
+  - SuperOffice.Data.EMailMergeTargetType.Fax
+  - SuperOffice.Data.EMailMergeTargetType.Mail
+  - SuperOffice.Data.EMailMergeTargetType.Printer
+  - SuperOffice.Data.EMailMergeTargetType.Xml
+  - SuperOffice.Data.EMailMergeTargetType.XmlFax
+  langs:
+  - csharp
+  - vb
+  name: EMailMergeTargetType
+  nameWithType: EMailMergeTargetType
+  fullName: SuperOffice.Data.EMailMergeTargetType
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nWhat type of delivery system to use for a mail merge\n"
+  syntax:
+    content: public enum EMailMergeTargetType
+    content.vb: Public Enum EMailMergeTargetType
+  extensionMethods:
+  - SuperOffice.Data.EMailMergeTargetType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.EMailMergeTargetType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EMailMergeTargetType)
+  - SuperOffice.Data.EMailMergeTargetType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.EMailMergeTargetType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.EMailMergeTargetType.BestFit
+  commentId: F:SuperOffice.Data.EMailMergeTargetType.BestFit
+  id: BestFit
+  parent: SuperOffice.Data.EMailMergeTargetType
+  langs:
+  - csharp
+  - vb
+  name: BestFit
+  nameWithType: EMailMergeTargetType.BestFit
+  fullName: SuperOffice.Data.EMailMergeTargetType.BestFit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: Default to mail, then fax, then printer\n"
+  syntax:
+    content: BestFit = 0
+    return:
+      type: SuperOffice.Data.EMailMergeTargetType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EMailMergeTargetType.Electronic
+  commentId: F:SuperOffice.Data.EMailMergeTargetType.Electronic
+  id: Electronic
+  parent: SuperOffice.Data.EMailMergeTargetType
+  langs:
+  - csharp
+  - vb
+  name: Electronic
+  nameWithType: EMailMergeTargetType.Electronic
+  fullName: SuperOffice.Data.EMailMergeTargetType.Electronic
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Default to mail, then fax\n"
+  syntax:
+    content: Electronic = 1
+    return:
+      type: SuperOffice.Data.EMailMergeTargetType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EMailMergeTargetType.Mail
+  commentId: F:SuperOffice.Data.EMailMergeTargetType.Mail
+  id: Mail
+  parent: SuperOffice.Data.EMailMergeTargetType
+  langs:
+  - csharp
+  - vb
+  name: Mail
+  nameWithType: EMailMergeTargetType.Mail
+  fullName: SuperOffice.Data.EMailMergeTargetType.Mail
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Deliver by mail\n"
+  syntax:
+    content: Mail = 2
+    return:
+      type: SuperOffice.Data.EMailMergeTargetType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EMailMergeTargetType.Fax
+  commentId: F:SuperOffice.Data.EMailMergeTargetType.Fax
+  id: Fax
+  parent: SuperOffice.Data.EMailMergeTargetType
+  langs:
+  - csharp
+  - vb
+  name: Fax
+  nameWithType: EMailMergeTargetType.Fax
+  fullName: SuperOffice.Data.EMailMergeTargetType.Fax
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n3: Deliver by fax\n"
+  syntax:
+    content: Fax = 3
+    return:
+      type: SuperOffice.Data.EMailMergeTargetType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EMailMergeTargetType.Printer
+  commentId: F:SuperOffice.Data.EMailMergeTargetType.Printer
+  id: Printer
+  parent: SuperOffice.Data.EMailMergeTargetType
+  langs:
+  - csharp
+  - vb
+  name: Printer
+  nameWithType: EMailMergeTargetType.Printer
+  fullName: SuperOffice.Data.EMailMergeTargetType.Printer
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Deliver to printer\n"
+  syntax:
+    content: Printer = 4
+    return:
+      type: SuperOffice.Data.EMailMergeTargetType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EMailMergeTargetType.Xml
+  commentId: F:SuperOffice.Data.EMailMergeTargetType.Xml
+  id: Xml
+  parent: SuperOffice.Data.EMailMergeTargetType
+  langs:
+  - csharp
+  - vb
+  name: Xml
+  nameWithType: EMailMergeTargetType.Xml
+  fullName: SuperOffice.Data.EMailMergeTargetType.Xml
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n5: Output mails as xml. This target is used in conjunction with external mail clients.\n"
+  syntax:
+    content: Xml = 5
+    return:
+      type: SuperOffice.Data.EMailMergeTargetType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EMailMergeTargetType.XmlFax
+  commentId: F:SuperOffice.Data.EMailMergeTargetType.XmlFax
+  id: XmlFax
+  parent: SuperOffice.Data.EMailMergeTargetType
+  langs:
+  - csharp
+  - vb
+  name: XmlFax
+  nameWithType: EMailMergeTargetType.XmlFax
+  fullName: SuperOffice.Data.EMailMergeTargetType.XmlFax
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n6: Same as Xml, but use fax format for recipient addresses\n"
+  syntax:
+    content: XmlFax = 6
+    return:
+      type: SuperOffice.Data.EMailMergeTargetType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.EMailMergeTargetType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<EMailMergeTargetType, To>()
+  nameWithType: EnumUtil.MapEnums<EMailMergeTargetType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.EMailMergeTargetType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of EMailMergeTargetType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.EMailMergeTargetType, To)()
+  name.vb: MapEnums(Of EMailMergeTargetType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<EMailMergeTargetType, To>
+    nameWithType: EnumUtil.MapEnums<EMailMergeTargetType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.EMailMergeTargetType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of EMailMergeTargetType, To)
+    nameWithType: EnumUtil.MapEnums(Of EMailMergeTargetType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.EMailMergeTargetType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.EMailMergeTargetType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EMailMergeTargetType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<EMailMergeTargetType>(EMailMergeTargetType)
+  nameWithType: ObjectExtensions.AssignByReflection<EMailMergeTargetType>(EMailMergeTargetType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.EMailMergeTargetType>(SuperOffice.Data.EMailMergeTargetType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of EMailMergeTargetType)(EMailMergeTargetType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.EMailMergeTargetType)(SuperOffice.Data.EMailMergeTargetType)
+  name.vb: AssignByReflection(Of EMailMergeTargetType)(EMailMergeTargetType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<EMailMergeTargetType>
+    nameWithType: ObjectExtensions.AssignByReflection<EMailMergeTargetType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.EMailMergeTargetType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.EMailMergeTargetType
+    name: EMailMergeTargetType
+    nameWithType: EMailMergeTargetType
+    fullName: SuperOffice.Data.EMailMergeTargetType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of EMailMergeTargetType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of EMailMergeTargetType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.EMailMergeTargetType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.EMailMergeTargetType
+    name: EMailMergeTargetType
+    nameWithType: EMailMergeTargetType
+    fullName: SuperOffice.Data.EMailMergeTargetType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.EMailMergeTargetType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<EMailMergeTargetType>()
+  nameWithType: ObjectExtensions.GraphCopy<EMailMergeTargetType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.EMailMergeTargetType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of EMailMergeTargetType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.EMailMergeTargetType)()
+  name.vb: GraphCopy(Of EMailMergeTargetType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<EMailMergeTargetType>
+    nameWithType: ObjectExtensions.GraphCopy<EMailMergeTargetType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.EMailMergeTargetType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of EMailMergeTargetType)
+    nameWithType: ObjectExtensions.GraphCopy(Of EMailMergeTargetType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.EMailMergeTargetType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.EMailMergeTargetType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<EMailMergeTargetType, To>()
+  nameWithType: Converters.MapEnums<EMailMergeTargetType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.EMailMergeTargetType, To>()
+  nameWithType.vb: Converters.MapEnums(Of EMailMergeTargetType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.EMailMergeTargetType, To)()
+  name.vb: MapEnums(Of EMailMergeTargetType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<EMailMergeTargetType, To>
+    nameWithType: Converters.MapEnums<EMailMergeTargetType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.EMailMergeTargetType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of EMailMergeTargetType, To)
+    nameWithType: Converters.MapEnums(Of EMailMergeTargetType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.EMailMergeTargetType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.EMailMergeTargetType
+  commentId: T:SuperOffice.Data.EMailMergeTargetType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: EMailMergeTargetType
+  nameWithType: EMailMergeTargetType
+  fullName: SuperOffice.Data.EMailMergeTargetType

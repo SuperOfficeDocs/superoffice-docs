@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.Controllers
+  commentId: N:SuperOffice.DCF.Web.Controllers
+  id: SuperOffice.DCF.Web.Controllers
+  children:
+  - SuperOffice.DCF.Web.Controllers.DataMethodsController
+  - SuperOffice.DCF.Web.Controllers.FileUploadsController
+  - SuperOffice.DCF.Web.Controllers.MethodsController
+  - SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController
+  - SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.DCF.Web.Controllers
+  nameWithType: SuperOffice.DCF.Web.Controllers
+  fullName: SuperOffice.DCF.Web.Controllers
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCFWeb
+references:
+- uid: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter
+  commentId: T:SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter
+  parent: SuperOffice.DCF.Web.Controllers
+  isExternal: true
+  name: ValidateMimeMultipartContentFilter
+  nameWithType: ValidateMimeMultipartContentFilter
+  fullName: SuperOffice.DCF.Web.Controllers.ValidateMimeMultipartContentFilter
+- uid: SuperOffice.DCF.Web.Controllers.DataMethodsController
+  commentId: T:SuperOffice.DCF.Web.Controllers.DataMethodsController
+  isExternal: true
+  name: DataMethodsController
+  nameWithType: DataMethodsController
+  fullName: SuperOffice.DCF.Web.Controllers.DataMethodsController
+- uid: SuperOffice.DCF.Web.Controllers.FileUploadsController
+  commentId: T:SuperOffice.DCF.Web.Controllers.FileUploadsController
+  isExternal: true
+  name: FileUploadsController
+  nameWithType: FileUploadsController
+  fullName: SuperOffice.DCF.Web.Controllers.FileUploadsController
+- uid: SuperOffice.DCF.Web.Controllers.MethodsController
+  commentId: T:SuperOffice.DCF.Web.Controllers.MethodsController
+  isExternal: true
+  name: MethodsController
+  nameWithType: MethodsController
+  fullName: SuperOffice.DCF.Web.Controllers.MethodsController
+- uid: SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController
+  commentId: T:SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController
+  isExternal: true
+  name: SessionRequiredMethodsController
+  nameWithType: SessionRequiredMethodsController
+  fullName: SuperOffice.DCF.Web.Controllers.SessionRequiredMethodsController
+- uid: SuperOffice.DCF.Web.Controllers
+  commentId: N:SuperOffice.DCF.Web.Controllers
+  isExternal: true
+  name: SuperOffice.DCF.Web.Controllers
+  nameWithType: SuperOffice.DCF.Web.Controllers
+  fullName: SuperOffice.DCF.Web.Controllers

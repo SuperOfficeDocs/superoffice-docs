@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDataRequest
+  commentId: T:SuperOffice.WebApi.Data.Dashboard_GetDataRequest
+  id: Dashboard_GetDataRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Dashboard_GetDataRequest.#ctor
+  - SuperOffice.WebApi.Data.Dashboard_GetDataRequest.DashboardTileId
+  - SuperOffice.WebApi.Data.Dashboard_GetDataRequest.Restrictions
+  langs:
+  - csharp
+  - vb
+  name: Dashboard_GetDataRequest
+  nameWithType: Dashboard_GetDataRequest
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDataRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Dashboard_GetDataRequest : Object'
+    content.vb: >-
+      Public Class Dashboard_GetDataRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDataRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Dashboard_GetDataRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Dashboard_GetDataRequest
+  langs:
+  - csharp
+  - vb
+  name: Dashboard_GetDataRequest()
+  nameWithType: Dashboard_GetDataRequest.Dashboard_GetDataRequest()
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDataRequest.Dashboard_GetDataRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Dashboard_GetDataRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Dashboard_GetDataRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDataRequest.DashboardTileId
+  commentId: P:SuperOffice.WebApi.Data.Dashboard_GetDataRequest.DashboardTileId
+  id: DashboardTileId
+  parent: SuperOffice.WebApi.Data.Dashboard_GetDataRequest
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileId
+  nameWithType: Dashboard_GetDataRequest.DashboardTileId
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDataRequest.DashboardTileId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int DashboardTileId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DashboardTileId As Integer
+  overload: SuperOffice.WebApi.Data.Dashboard_GetDataRequest.DashboardTileId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDataRequest.Restrictions
+  commentId: P:SuperOffice.WebApi.Data.Dashboard_GetDataRequest.Restrictions
+  id: Restrictions
+  parent: SuperOffice.WebApi.Data.Dashboard_GetDataRequest
+  langs:
+  - csharp
+  - vb
+  name: Restrictions
+  nameWithType: Dashboard_GetDataRequest.Restrictions
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDataRequest.Restrictions
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Restrictions { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Restrictions As String
+  overload: SuperOffice.WebApi.Data.Dashboard_GetDataRequest.Restrictions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDataRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard_GetDataRequest.#ctor
+  isExternal: true
+  name: Dashboard_GetDataRequest
+  nameWithType: Dashboard_GetDataRequest.Dashboard_GetDataRequest
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDataRequest.Dashboard_GetDataRequest
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDataRequest.DashboardTileId*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard_GetDataRequest.DashboardTileId
+  isExternal: true
+  name: DashboardTileId
+  nameWithType: Dashboard_GetDataRequest.DashboardTileId
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDataRequest.DashboardTileId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDataRequest.Restrictions*
+  commentId: Overload:SuperOffice.WebApi.Data.Dashboard_GetDataRequest.Restrictions
+  isExternal: true
+  name: Restrictions
+  nameWithType: Dashboard_GetDataRequest.Restrictions
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDataRequest.Restrictions
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

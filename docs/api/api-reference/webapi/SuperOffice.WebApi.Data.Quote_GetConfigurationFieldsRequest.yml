@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest
+  id: Quote_GetConfigurationFieldsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest.ConnectionId
+  - SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest.ConnectorName
+  langs:
+  - csharp
+  - vb
+  name: Quote_GetConfigurationFieldsRequest
+  nameWithType: Quote_GetConfigurationFieldsRequest
+  fullName: SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_GetConfigurationFieldsRequest : Object'
+    content.vb: >-
+      Public Class Quote_GetConfigurationFieldsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_GetConfigurationFieldsRequest()
+  nameWithType: Quote_GetConfigurationFieldsRequest.Quote_GetConfigurationFieldsRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest.Quote_GetConfigurationFieldsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_GetConfigurationFieldsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest.ConnectionId
+  commentId: P:SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest.ConnectionId
+  id: ConnectionId
+  parent: SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest
+  langs:
+  - csharp
+  - vb
+  name: ConnectionId
+  nameWithType: Quote_GetConfigurationFieldsRequest.ConnectionId
+  fullName: SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest.ConnectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ConnectionId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest.ConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest.ConnectorName
+  commentId: P:SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest.ConnectorName
+  id: ConnectorName
+  parent: SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest
+  langs:
+  - csharp
+  - vb
+  name: ConnectorName
+  nameWithType: Quote_GetConfigurationFieldsRequest.ConnectorName
+  fullName: SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest.ConnectorName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ConnectorName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ConnectorName As String
+  overload: SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest.ConnectorName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest.#ctor
+  isExternal: true
+  name: Quote_GetConfigurationFieldsRequest
+  nameWithType: Quote_GetConfigurationFieldsRequest.Quote_GetConfigurationFieldsRequest
+  fullName: SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest.Quote_GetConfigurationFieldsRequest
+- uid: SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest.ConnectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest.ConnectionId
+  isExternal: true
+  name: ConnectionId
+  nameWithType: Quote_GetConfigurationFieldsRequest.ConnectionId
+  fullName: SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest.ConnectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest.ConnectorName*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest.ConnectorName
+  isExternal: true
+  name: ConnectorName
+  nameWithType: Quote_GetConfigurationFieldsRequest.ConnectorName
+  fullName: SuperOffice.WebApi.Data.Quote_GetConfigurationFieldsRequest.ConnectorName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

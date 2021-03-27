@@ -1,0 +1,644 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.SignalRTokenHelper
+  commentId: T:SuperOffice.DCF.Web.SignalRTokenHelper
+  id: SignalRTokenHelper
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.SignalRTokenHelper.ClearSignalRCookie
+  - SuperOffice.DCF.Web.SignalRTokenHelper.GetNetserverTicketFromSignalRCookies(System.Collections.Generic.Dictionary{System.String,System.String})
+  - SuperOffice.DCF.Web.SignalRTokenHelper.GetUserContextFromCookies(System.Collections.Generic.Dictionary{System.String,System.String})
+  - SuperOffice.DCF.Web.SignalRTokenHelper.SetSignalRCookies
+  - SuperOffice.DCF.Web.SignalRTokenHelper.SignalRTokenCookieName
+  langs:
+  - csharp
+  - vb
+  name: SignalRTokenHelper
+  nameWithType: SignalRTokenHelper
+  fullName: SuperOffice.DCF.Web.SignalRTokenHelper
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static class SignalRTokenHelper
+    content.vb: Public Module SignalRTokenHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.DCF.Web.SignalRTokenHelper.SignalRTokenCookieName
+  commentId: F:SuperOffice.DCF.Web.SignalRTokenHelper.SignalRTokenCookieName
+  id: SignalRTokenCookieName
+  parent: SuperOffice.DCF.Web.SignalRTokenHelper
+  langs:
+  - csharp
+  - vb
+  name: SignalRTokenCookieName
+  nameWithType: SignalRTokenHelper.SignalRTokenCookieName
+  fullName: SuperOffice.DCF.Web.SignalRTokenHelper.SignalRTokenCookieName
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public const string SignalRTokenCookieName = "SoWtt"
+    return:
+      type: System.String
+    content.vb: Public Const SignalRTokenCookieName As String = "SoWtt"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.SignalRTokenHelper.SetSignalRCookies
+  commentId: M:SuperOffice.DCF.Web.SignalRTokenHelper.SetSignalRCookies
+  id: SetSignalRCookies
+  parent: SuperOffice.DCF.Web.SignalRTokenHelper
+  langs:
+  - csharp
+  - vb
+  name: SetSignalRCookies()
+  nameWithType: SignalRTokenHelper.SetSignalRCookies()
+  fullName: SuperOffice.DCF.Web.SignalRTokenHelper.SetSignalRCookies()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void SetSignalRCookies()
+    content.vb: Public Shared Sub SetSignalRCookies
+  overload: SuperOffice.DCF.Web.SignalRTokenHelper.SetSignalRCookies*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SignalRTokenHelper.ClearSignalRCookie
+  commentId: M:SuperOffice.DCF.Web.SignalRTokenHelper.ClearSignalRCookie
+  id: ClearSignalRCookie
+  parent: SuperOffice.DCF.Web.SignalRTokenHelper
+  langs:
+  - csharp
+  - vb
+  name: ClearSignalRCookie()
+  nameWithType: SignalRTokenHelper.ClearSignalRCookie()
+  fullName: SuperOffice.DCF.Web.SignalRTokenHelper.ClearSignalRCookie()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void ClearSignalRCookie()
+    content.vb: Public Shared Sub ClearSignalRCookie
+  overload: SuperOffice.DCF.Web.SignalRTokenHelper.ClearSignalRCookie*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.SignalRTokenHelper.GetUserContextFromCookies(System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.DCF.Web.SignalRTokenHelper.GetUserContextFromCookies(System.Collections.Generic.Dictionary{System.String,System.String})
+  id: GetUserContextFromCookies(System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.DCF.Web.SignalRTokenHelper
+  langs:
+  - csharp
+  - vb
+  name: GetUserContextFromCookies(Dictionary<String, String>)
+  nameWithType: SignalRTokenHelper.GetUserContextFromCookies(Dictionary<String, String>)
+  fullName: SuperOffice.DCF.Web.SignalRTokenHelper.GetUserContextFromCookies(System.Collections.Generic.Dictionary<System.String, System.String>)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string GetUserContextFromCookies(Dictionary<string, string> cookies)
+    parameters:
+    - id: cookies
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetUserContextFromCookies(cookies As Dictionary(Of String, String)) As String
+  overload: SuperOffice.DCF.Web.SignalRTokenHelper.GetUserContextFromCookies*
+  nameWithType.vb: SignalRTokenHelper.GetUserContextFromCookies(Dictionary(Of String, String))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.SignalRTokenHelper.GetUserContextFromCookies(System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: GetUserContextFromCookies(Dictionary(Of String, String))
+- uid: SuperOffice.DCF.Web.SignalRTokenHelper.GetNetserverTicketFromSignalRCookies(System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.DCF.Web.SignalRTokenHelper.GetNetserverTicketFromSignalRCookies(System.Collections.Generic.Dictionary{System.String,System.String})
+  id: GetNetserverTicketFromSignalRCookies(System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.DCF.Web.SignalRTokenHelper
+  langs:
+  - csharp
+  - vb
+  name: GetNetserverTicketFromSignalRCookies(Dictionary<String, String>)
+  nameWithType: SignalRTokenHelper.GetNetserverTicketFromSignalRCookies(Dictionary<String, String>)
+  fullName: SuperOffice.DCF.Web.SignalRTokenHelper.GetNetserverTicketFromSignalRCookies(System.Collections.Generic.Dictionary<System.String, System.String>)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string GetNetserverTicketFromSignalRCookies(Dictionary<string, string> cookies)
+    parameters:
+    - id: cookies
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetNetserverTicketFromSignalRCookies(cookies As Dictionary(Of String, String)) As String
+  overload: SuperOffice.DCF.Web.SignalRTokenHelper.GetNetserverTicketFromSignalRCookies*
+  nameWithType.vb: SignalRTokenHelper.GetNetserverTicketFromSignalRCookies(Dictionary(Of String, String))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.SignalRTokenHelper.GetNetserverTicketFromSignalRCookies(System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: GetNetserverTicketFromSignalRCookies(Dictionary(Of String, String))
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.SignalRTokenHelper.SetSignalRCookies*
+  commentId: Overload:SuperOffice.DCF.Web.SignalRTokenHelper.SetSignalRCookies
+  isExternal: true
+  name: SetSignalRCookies
+  nameWithType: SignalRTokenHelper.SetSignalRCookies
+  fullName: SuperOffice.DCF.Web.SignalRTokenHelper.SetSignalRCookies
+- uid: SuperOffice.DCF.Web.SignalRTokenHelper.ClearSignalRCookie*
+  commentId: Overload:SuperOffice.DCF.Web.SignalRTokenHelper.ClearSignalRCookie
+  isExternal: true
+  name: ClearSignalRCookie
+  nameWithType: SignalRTokenHelper.ClearSignalRCookie
+  fullName: SuperOffice.DCF.Web.SignalRTokenHelper.ClearSignalRCookie
+- uid: SuperOffice.DCF.Web.SignalRTokenHelper.GetUserContextFromCookies*
+  commentId: Overload:SuperOffice.DCF.Web.SignalRTokenHelper.GetUserContextFromCookies
+  isExternal: true
+  name: GetUserContextFromCookies
+  nameWithType: SignalRTokenHelper.GetUserContextFromCookies
+  fullName: SuperOffice.DCF.Web.SignalRTokenHelper.GetUserContextFromCookies
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.DCF.Web.SignalRTokenHelper.GetNetserverTicketFromSignalRCookies*
+  commentId: Overload:SuperOffice.DCF.Web.SignalRTokenHelper.GetNetserverTicketFromSignalRCookies
+  isExternal: true
+  name: GetNetserverTicketFromSignalRCookies
+  nameWithType: SignalRTokenHelper.GetNetserverTicketFromSignalRCookies
+  fullName: SuperOffice.DCF.Web.SignalRTokenHelper.GetNetserverTicketFromSignalRCookies

@@ -1,0 +1,1348 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ReplicationAgent
+  commentId: T:SuperOffice.CRM.Services.ReplicationAgent
+  id: ReplicationAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ReplicationAgent.#ctor
+  - SuperOffice.CRM.Services.ReplicationAgent.CreateDefaultSatellite
+  - SuperOffice.CRM.Services.ReplicationAgent.GetArea(System.Int32)
+  - SuperOffice.CRM.Services.ReplicationAgent.GetAreaList(System.Int32[])
+  - SuperOffice.CRM.Services.ReplicationAgent.GetCentralLicense
+  - SuperOffice.CRM.Services.ReplicationAgent.GetSatellite(System.Int32)
+  - SuperOffice.CRM.Services.ReplicationAgent.SaveCentralLicense(SuperOffice.CRM.Services.LicenseOwner[])
+  - SuperOffice.CRM.Services.ReplicationAgent.SaveSatellite(SuperOffice.CRM.Services.Satellite)
+  - SuperOffice.CRM.Services.ReplicationAgent.SetFreetextSearchEnabledOnArea(System.Int32,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: ReplicationAgent
+  nameWithType: ReplicationAgent
+  fullName: SuperOffice.CRM.Services.ReplicationAgent
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFacade for the Replication Agent\nReplication/Travel administration\n<p></p>\n<strong>Online Restricted:</strong> This agent is not available in Online by default. Not available in Online. Only used on-site.\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (ReplicationAgent agent = new ReplicationAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: 'public class ReplicationAgent : AgentBase<IReplicationAgent>, IDisposable, IReplicationAgent, IAgent'
+    content.vb: >-
+      Public Class ReplicationAgent
+          Inherits AgentBase(Of IReplicationAgent)
+          Implements IDisposable, IReplicationAgent, IAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IReplicationAgent}
+  implements:
+  - System.IDisposable
+  - SuperOffice.CRM.Services.IReplicationAgent
+  - SuperOffice.CRM.Services.IAgent
+  inheritedMembers:
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IReplicationAgent}.Dispose
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IReplicationAgent}.InnerAgent
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ReplicationAgent.CreateDefaultSatellite
+  commentId: M:SuperOffice.CRM.Services.ReplicationAgent.CreateDefaultSatellite
+  id: CreateDefaultSatellite
+  parent: SuperOffice.CRM.Services.ReplicationAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultSatellite()
+  nameWithType: ReplicationAgent.CreateDefaultSatellite()
+  fullName: SuperOffice.CRM.Services.ReplicationAgent.CreateDefaultSatellite()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new Satellite.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public Satellite CreateDefaultSatellite()
+    return:
+      type: SuperOffice.CRM.Services.Satellite
+      description: New Satellite with default values
+    content.vb: Public Function CreateDefaultSatellite As Satellite
+  overload: SuperOffice.CRM.Services.ReplicationAgent.CreateDefaultSatellite*
+  implements:
+  - SuperOffice.CRM.Services.IReplicationAgent.CreateDefaultSatellite
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ReplicationAgent.SaveSatellite(SuperOffice.CRM.Services.Satellite)
+  commentId: M:SuperOffice.CRM.Services.ReplicationAgent.SaveSatellite(SuperOffice.CRM.Services.Satellite)
+  id: SaveSatellite(SuperOffice.CRM.Services.Satellite)
+  parent: SuperOffice.CRM.Services.ReplicationAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveSatellite(Satellite)
+  nameWithType: ReplicationAgent.SaveSatellite(Satellite)
+  fullName: SuperOffice.CRM.Services.ReplicationAgent.SaveSatellite(SuperOffice.CRM.Services.Satellite)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing Satellite or creates a new Satellite if the id parameter is empty\n"
+  syntax:
+    content: public Satellite SaveSatellite(Satellite satellite)
+    parameters:
+    - id: satellite
+      type: SuperOffice.CRM.Services.Satellite
+      description: The Satellite that is saved.
+    return:
+      type: SuperOffice.CRM.Services.Satellite
+      description: New or updated Satellite
+    content.vb: Public Function SaveSatellite(satellite As Satellite) As Satellite
+  overload: SuperOffice.CRM.Services.ReplicationAgent.SaveSatellite*
+  implements:
+  - SuperOffice.CRM.Services.IReplicationAgent.SaveSatellite(SuperOffice.CRM.Services.Satellite)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ReplicationAgent.GetArea(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ReplicationAgent.GetArea(System.Int32)
+  id: GetArea(System.Int32)
+  parent: SuperOffice.CRM.Services.ReplicationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArea(Int32)
+  nameWithType: ReplicationAgent.GetArea(Int32)
+  fullName: SuperOffice.CRM.Services.ReplicationAgent.GetArea(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a Area object.                        \n"
+  syntax:
+    content: public Area GetArea(int areaId)
+    parameters:
+    - id: areaId
+      type: System.Int32
+      description: The identifier of the Area object
+    return:
+      type: SuperOffice.CRM.Services.Area
+      description: Area
+    content.vb: Public Function GetArea(areaId As Integer) As Area
+  overload: SuperOffice.CRM.Services.ReplicationAgent.GetArea*
+  implements:
+  - SuperOffice.CRM.Services.IReplicationAgent.GetArea(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ReplicationAgent.SetFreetextSearchEnabledOnArea(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.ReplicationAgent.SetFreetextSearchEnabledOnArea(System.Int32,System.Boolean)
+  id: SetFreetextSearchEnabledOnArea(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.ReplicationAgent
+  langs:
+  - csharp
+  - vb
+  name: SetFreetextSearchEnabledOnArea(Int32, Boolean)
+  nameWithType: ReplicationAgent.SetFreetextSearchEnabledOnArea(Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.ReplicationAgent.SetFreetextSearchEnabledOnArea(System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEnable freetext search on this area\n"
+  syntax:
+    content: public void SetFreetextSearchEnabledOnArea(int areaId, bool freetextEnabled)
+    parameters:
+    - id: areaId
+      type: System.Int32
+      description: The id of the area
+    - id: freetextEnabled
+      type: System.Boolean
+      description: True if freetextSearch on this area shall be enabled
+    content.vb: Public Sub SetFreetextSearchEnabledOnArea(areaId As Integer, freetextEnabled As Boolean)
+  overload: SuperOffice.CRM.Services.ReplicationAgent.SetFreetextSearchEnabledOnArea*
+  implements:
+  - SuperOffice.CRM.Services.IReplicationAgent.SetFreetextSearchEnabledOnArea(System.Int32,System.Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ReplicationAgent.GetAreaList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.ReplicationAgent.GetAreaList(System.Int32[])
+  id: GetAreaList(System.Int32[])
+  parent: SuperOffice.CRM.Services.ReplicationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAreaList(Int32[])
+  nameWithType: ReplicationAgent.GetAreaList(Int32[])
+  fullName: SuperOffice.CRM.Services.ReplicationAgent.GetAreaList(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets an array of Area objects.                        \n"
+  syntax:
+    content: public Area[] GetAreaList(int[] areaIds)
+    parameters:
+    - id: areaIds
+      type: System.Int32[]
+      description: The identifiers of the Area object
+    return:
+      type: SuperOffice.CRM.Services.Area[]
+      description: Array of Area objects
+    content.vb: Public Function GetAreaList(areaIds As Integer()) As Area()
+  overload: SuperOffice.CRM.Services.ReplicationAgent.GetAreaList*
+  implements:
+  - SuperOffice.CRM.Services.IReplicationAgent.GetAreaList(System.Int32[])
+  nameWithType.vb: ReplicationAgent.GetAreaList(Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.ReplicationAgent.GetAreaList(System.Int32())
+  name.vb: GetAreaList(Int32())
+- uid: SuperOffice.CRM.Services.ReplicationAgent.GetSatellite(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ReplicationAgent.GetSatellite(System.Int32)
+  id: GetSatellite(System.Int32)
+  parent: SuperOffice.CRM.Services.ReplicationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSatellite(Int32)
+  nameWithType: ReplicationAgent.GetSatellite(Int32)
+  fullName: SuperOffice.CRM.Services.ReplicationAgent.GetSatellite(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a Satellite object.                        \n"
+  syntax:
+    content: public Satellite GetSatellite(int satelliteId)
+    parameters:
+    - id: satelliteId
+      type: System.Int32
+      description: The identifier of the Satellite object
+    return:
+      type: SuperOffice.CRM.Services.Satellite
+      description: Satellite
+    content.vb: Public Function GetSatellite(satelliteId As Integer) As Satellite
+  overload: SuperOffice.CRM.Services.ReplicationAgent.GetSatellite*
+  implements:
+  - SuperOffice.CRM.Services.IReplicationAgent.GetSatellite(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ReplicationAgent.GetCentralLicense
+  commentId: M:SuperOffice.CRM.Services.ReplicationAgent.GetCentralLicense
+  id: GetCentralLicense
+  parent: SuperOffice.CRM.Services.ReplicationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCentralLicense()
+  nameWithType: ReplicationAgent.GetCentralLicense()
+  fullName: SuperOffice.CRM.Services.ReplicationAgent.GetCentralLicense()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public LicenseOwner[] GetCentralLicense()
+    return:
+      type: SuperOffice.CRM.Services.LicenseOwner[]
+    content.vb: Public Function GetCentralLicense As LicenseOwner()
+  overload: SuperOffice.CRM.Services.ReplicationAgent.GetCentralLicense*
+  implements:
+  - SuperOffice.CRM.Services.IReplicationAgent.GetCentralLicense
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ReplicationAgent.SaveCentralLicense(SuperOffice.CRM.Services.LicenseOwner[])
+  commentId: M:SuperOffice.CRM.Services.ReplicationAgent.SaveCentralLicense(SuperOffice.CRM.Services.LicenseOwner[])
+  id: SaveCentralLicense(SuperOffice.CRM.Services.LicenseOwner[])
+  parent: SuperOffice.CRM.Services.ReplicationAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveCentralLicense(LicenseOwner[])
+  nameWithType: ReplicationAgent.SaveCentralLicense(LicenseOwner[])
+  fullName: SuperOffice.CRM.Services.ReplicationAgent.SaveCentralLicense(SuperOffice.CRM.Services.LicenseOwner[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public LicenseOwner[] SaveCentralLicense(LicenseOwner[] license)
+    parameters:
+    - id: license
+      type: SuperOffice.CRM.Services.LicenseOwner[]
+    return:
+      type: SuperOffice.CRM.Services.LicenseOwner[]
+    content.vb: Public Function SaveCentralLicense(license As LicenseOwner()) As LicenseOwner()
+  overload: SuperOffice.CRM.Services.ReplicationAgent.SaveCentralLicense*
+  implements:
+  - SuperOffice.CRM.Services.IReplicationAgent.SaveCentralLicense(SuperOffice.CRM.Services.LicenseOwner[])
+  nameWithType.vb: ReplicationAgent.SaveCentralLicense(LicenseOwner())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.ReplicationAgent.SaveCentralLicense(SuperOffice.CRM.Services.LicenseOwner())
+  name.vb: SaveCentralLicense(LicenseOwner())
+- uid: SuperOffice.CRM.Services.ReplicationAgent.#ctor
+  commentId: M:SuperOffice.CRM.Services.ReplicationAgent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ReplicationAgent
+  langs:
+  - csharp
+  - vb
+  name: ReplicationAgent()
+  nameWithType: ReplicationAgent.ReplicationAgent()
+  fullName: SuperOffice.CRM.Services.ReplicationAgent.ReplicationAgent()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public ReplicationAgent()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ReplicationAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IReplicationAgent}
+  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IReplicationAgent}
+  parent: SuperOffice.CRM.Services
+  definition: SuperOffice.CRM.Services.AgentBase`1
+  name: AgentBase<IReplicationAgent>
+  nameWithType: AgentBase<IReplicationAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IReplicationAgent>
+  nameWithType.vb: AgentBase(Of IReplicationAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IReplicationAgent)
+  name.vb: AgentBase(Of IReplicationAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.IReplicationAgent
+    name: IReplicationAgent
+    nameWithType: IReplicationAgent
+    fullName: SuperOffice.CRM.Services.IReplicationAgent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.IReplicationAgent
+    name: IReplicationAgent
+    nameWithType: IReplicationAgent
+    fullName: SuperOffice.CRM.Services.IReplicationAgent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.CRM.Services.IReplicationAgent
+  commentId: T:SuperOffice.CRM.Services.IReplicationAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IReplicationAgent
+  nameWithType: IReplicationAgent
+  fullName: SuperOffice.CRM.Services.IReplicationAgent
+- uid: SuperOffice.CRM.Services.IAgent
+  commentId: T:SuperOffice.CRM.Services.IAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAgent
+  nameWithType: IAgent
+  fullName: SuperOffice.CRM.Services.IAgent
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IReplicationAgent}.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IReplicationAgent}.Dispose
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IReplicationAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  name: Dispose()
+  nameWithType: AgentBase<IReplicationAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IReplicationAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of IReplicationAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IReplicationAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<IReplicationAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IReplicationAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of IReplicationAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IReplicationAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IReplicationAgent}.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IReplicationAgent}.InnerAgent
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IReplicationAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  name: InnerAgent
+  nameWithType: AgentBase<IReplicationAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IReplicationAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of IReplicationAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IReplicationAgent).InnerAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AgentBase`1
+  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+  isExternal: true
+  name: AgentBase<TAgent>
+  nameWithType: AgentBase<TAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
+  nameWithType.vb: AgentBase(Of TAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
+  name.vb: AgentBase(Of TAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase<TAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of TAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  isExternal: true
+  name: InnerAgent
+  nameWithType: AgentBase<TAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
+- uid: SuperOffice.CRM.Services.ReplicationAgent.CreateDefaultSatellite*
+  commentId: Overload:SuperOffice.CRM.Services.ReplicationAgent.CreateDefaultSatellite
+  isExternal: true
+  name: CreateDefaultSatellite
+  nameWithType: ReplicationAgent.CreateDefaultSatellite
+  fullName: SuperOffice.CRM.Services.ReplicationAgent.CreateDefaultSatellite
+- uid: SuperOffice.CRM.Services.IReplicationAgent.CreateDefaultSatellite
+  commentId: M:SuperOffice.CRM.Services.IReplicationAgent.CreateDefaultSatellite
+  parent: SuperOffice.CRM.Services.IReplicationAgent
+  isExternal: true
+  name: CreateDefaultSatellite()
+  nameWithType: IReplicationAgent.CreateDefaultSatellite()
+  fullName: SuperOffice.CRM.Services.IReplicationAgent.CreateDefaultSatellite()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IReplicationAgent.CreateDefaultSatellite
+    name: CreateDefaultSatellite
+    nameWithType: IReplicationAgent.CreateDefaultSatellite
+    fullName: SuperOffice.CRM.Services.IReplicationAgent.CreateDefaultSatellite
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IReplicationAgent.CreateDefaultSatellite
+    name: CreateDefaultSatellite
+    nameWithType: IReplicationAgent.CreateDefaultSatellite
+    fullName: SuperOffice.CRM.Services.IReplicationAgent.CreateDefaultSatellite
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Satellite
+  commentId: T:SuperOffice.CRM.Services.Satellite
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Satellite
+  nameWithType: Satellite
+  fullName: SuperOffice.CRM.Services.Satellite
+- uid: SuperOffice.CRM.Services.ReplicationAgent.SaveSatellite*
+  commentId: Overload:SuperOffice.CRM.Services.ReplicationAgent.SaveSatellite
+  isExternal: true
+  name: SaveSatellite
+  nameWithType: ReplicationAgent.SaveSatellite
+  fullName: SuperOffice.CRM.Services.ReplicationAgent.SaveSatellite
+- uid: SuperOffice.CRM.Services.IReplicationAgent.SaveSatellite(SuperOffice.CRM.Services.Satellite)
+  commentId: M:SuperOffice.CRM.Services.IReplicationAgent.SaveSatellite(SuperOffice.CRM.Services.Satellite)
+  parent: SuperOffice.CRM.Services.IReplicationAgent
+  isExternal: true
+  name: SaveSatellite(Satellite)
+  nameWithType: IReplicationAgent.SaveSatellite(Satellite)
+  fullName: SuperOffice.CRM.Services.IReplicationAgent.SaveSatellite(SuperOffice.CRM.Services.Satellite)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IReplicationAgent.SaveSatellite(SuperOffice.CRM.Services.Satellite)
+    name: SaveSatellite
+    nameWithType: IReplicationAgent.SaveSatellite
+    fullName: SuperOffice.CRM.Services.IReplicationAgent.SaveSatellite
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.Satellite
+    name: Satellite
+    nameWithType: Satellite
+    fullName: SuperOffice.CRM.Services.Satellite
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IReplicationAgent.SaveSatellite(SuperOffice.CRM.Services.Satellite)
+    name: SaveSatellite
+    nameWithType: IReplicationAgent.SaveSatellite
+    fullName: SuperOffice.CRM.Services.IReplicationAgent.SaveSatellite
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.Satellite
+    name: Satellite
+    nameWithType: Satellite
+    fullName: SuperOffice.CRM.Services.Satellite
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ReplicationAgent.GetArea*
+  commentId: Overload:SuperOffice.CRM.Services.ReplicationAgent.GetArea
+  isExternal: true
+  name: GetArea
+  nameWithType: ReplicationAgent.GetArea
+  fullName: SuperOffice.CRM.Services.ReplicationAgent.GetArea
+- uid: SuperOffice.CRM.Services.IReplicationAgent.GetArea(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IReplicationAgent.GetArea(System.Int32)
+  parent: SuperOffice.CRM.Services.IReplicationAgent
+  isExternal: true
+  name: GetArea(Int32)
+  nameWithType: IReplicationAgent.GetArea(Int32)
+  fullName: SuperOffice.CRM.Services.IReplicationAgent.GetArea(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IReplicationAgent.GetArea(System.Int32)
+    name: GetArea
+    nameWithType: IReplicationAgent.GetArea
+    fullName: SuperOffice.CRM.Services.IReplicationAgent.GetArea
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IReplicationAgent.GetArea(System.Int32)
+    name: GetArea
+    nameWithType: IReplicationAgent.GetArea
+    fullName: SuperOffice.CRM.Services.IReplicationAgent.GetArea
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.Area
+  commentId: T:SuperOffice.CRM.Services.Area
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Area
+  nameWithType: Area
+  fullName: SuperOffice.CRM.Services.Area
+- uid: SuperOffice.CRM.Services.ReplicationAgent.SetFreetextSearchEnabledOnArea*
+  commentId: Overload:SuperOffice.CRM.Services.ReplicationAgent.SetFreetextSearchEnabledOnArea
+  isExternal: true
+  name: SetFreetextSearchEnabledOnArea
+  nameWithType: ReplicationAgent.SetFreetextSearchEnabledOnArea
+  fullName: SuperOffice.CRM.Services.ReplicationAgent.SetFreetextSearchEnabledOnArea
+- uid: SuperOffice.CRM.Services.IReplicationAgent.SetFreetextSearchEnabledOnArea(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IReplicationAgent.SetFreetextSearchEnabledOnArea(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.IReplicationAgent
+  isExternal: true
+  name: SetFreetextSearchEnabledOnArea(Int32, Boolean)
+  nameWithType: IReplicationAgent.SetFreetextSearchEnabledOnArea(Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.IReplicationAgent.SetFreetextSearchEnabledOnArea(System.Int32, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IReplicationAgent.SetFreetextSearchEnabledOnArea(System.Int32,System.Boolean)
+    name: SetFreetextSearchEnabledOnArea
+    nameWithType: IReplicationAgent.SetFreetextSearchEnabledOnArea
+    fullName: SuperOffice.CRM.Services.IReplicationAgent.SetFreetextSearchEnabledOnArea
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IReplicationAgent.SetFreetextSearchEnabledOnArea(System.Int32,System.Boolean)
+    name: SetFreetextSearchEnabledOnArea
+    nameWithType: IReplicationAgent.SetFreetextSearchEnabledOnArea
+    fullName: SuperOffice.CRM.Services.IReplicationAgent.SetFreetextSearchEnabledOnArea
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.ReplicationAgent.GetAreaList*
+  commentId: Overload:SuperOffice.CRM.Services.ReplicationAgent.GetAreaList
+  isExternal: true
+  name: GetAreaList
+  nameWithType: ReplicationAgent.GetAreaList
+  fullName: SuperOffice.CRM.Services.ReplicationAgent.GetAreaList
+- uid: SuperOffice.CRM.Services.IReplicationAgent.GetAreaList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.IReplicationAgent.GetAreaList(System.Int32[])
+  parent: SuperOffice.CRM.Services.IReplicationAgent
+  isExternal: true
+  name: GetAreaList(Int32[])
+  nameWithType: IReplicationAgent.GetAreaList(Int32[])
+  fullName: SuperOffice.CRM.Services.IReplicationAgent.GetAreaList(System.Int32[])
+  nameWithType.vb: IReplicationAgent.GetAreaList(Int32())
+  fullName.vb: SuperOffice.CRM.Services.IReplicationAgent.GetAreaList(System.Int32())
+  name.vb: GetAreaList(Int32())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IReplicationAgent.GetAreaList(System.Int32[])
+    name: GetAreaList
+    nameWithType: IReplicationAgent.GetAreaList
+    fullName: SuperOffice.CRM.Services.IReplicationAgent.GetAreaList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IReplicationAgent.GetAreaList(System.Int32[])
+    name: GetAreaList
+    nameWithType: IReplicationAgent.GetAreaList
+    fullName: SuperOffice.CRM.Services.IReplicationAgent.GetAreaList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.Area[]
+  isExternal: true
+  name: Area[]
+  nameWithType: Area[]
+  fullName: SuperOffice.CRM.Services.Area[]
+  nameWithType.vb: Area()
+  fullName.vb: SuperOffice.CRM.Services.Area()
+  name.vb: Area()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Area
+    name: Area
+    nameWithType: Area
+    fullName: SuperOffice.CRM.Services.Area
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Area
+    name: Area
+    nameWithType: Area
+    fullName: SuperOffice.CRM.Services.Area
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ReplicationAgent.GetSatellite*
+  commentId: Overload:SuperOffice.CRM.Services.ReplicationAgent.GetSatellite
+  isExternal: true
+  name: GetSatellite
+  nameWithType: ReplicationAgent.GetSatellite
+  fullName: SuperOffice.CRM.Services.ReplicationAgent.GetSatellite
+- uid: SuperOffice.CRM.Services.IReplicationAgent.GetSatellite(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IReplicationAgent.GetSatellite(System.Int32)
+  parent: SuperOffice.CRM.Services.IReplicationAgent
+  isExternal: true
+  name: GetSatellite(Int32)
+  nameWithType: IReplicationAgent.GetSatellite(Int32)
+  fullName: SuperOffice.CRM.Services.IReplicationAgent.GetSatellite(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IReplicationAgent.GetSatellite(System.Int32)
+    name: GetSatellite
+    nameWithType: IReplicationAgent.GetSatellite
+    fullName: SuperOffice.CRM.Services.IReplicationAgent.GetSatellite
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IReplicationAgent.GetSatellite(System.Int32)
+    name: GetSatellite
+    nameWithType: IReplicationAgent.GetSatellite
+    fullName: SuperOffice.CRM.Services.IReplicationAgent.GetSatellite
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ReplicationAgent.GetCentralLicense*
+  commentId: Overload:SuperOffice.CRM.Services.ReplicationAgent.GetCentralLicense
+  isExternal: true
+  name: GetCentralLicense
+  nameWithType: ReplicationAgent.GetCentralLicense
+  fullName: SuperOffice.CRM.Services.ReplicationAgent.GetCentralLicense
+- uid: SuperOffice.CRM.Services.IReplicationAgent.GetCentralLicense
+  commentId: M:SuperOffice.CRM.Services.IReplicationAgent.GetCentralLicense
+  parent: SuperOffice.CRM.Services.IReplicationAgent
+  isExternal: true
+  name: GetCentralLicense()
+  nameWithType: IReplicationAgent.GetCentralLicense()
+  fullName: SuperOffice.CRM.Services.IReplicationAgent.GetCentralLicense()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IReplicationAgent.GetCentralLicense
+    name: GetCentralLicense
+    nameWithType: IReplicationAgent.GetCentralLicense
+    fullName: SuperOffice.CRM.Services.IReplicationAgent.GetCentralLicense
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IReplicationAgent.GetCentralLicense
+    name: GetCentralLicense
+    nameWithType: IReplicationAgent.GetCentralLicense
+    fullName: SuperOffice.CRM.Services.IReplicationAgent.GetCentralLicense
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.LicenseOwner[]
+  isExternal: true
+  name: LicenseOwner[]
+  nameWithType: LicenseOwner[]
+  fullName: SuperOffice.CRM.Services.LicenseOwner[]
+  nameWithType.vb: LicenseOwner()
+  fullName.vb: SuperOffice.CRM.Services.LicenseOwner()
+  name.vb: LicenseOwner()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.LicenseOwner
+    name: LicenseOwner
+    nameWithType: LicenseOwner
+    fullName: SuperOffice.CRM.Services.LicenseOwner
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.LicenseOwner
+    name: LicenseOwner
+    nameWithType: LicenseOwner
+    fullName: SuperOffice.CRM.Services.LicenseOwner
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ReplicationAgent.SaveCentralLicense*
+  commentId: Overload:SuperOffice.CRM.Services.ReplicationAgent.SaveCentralLicense
+  isExternal: true
+  name: SaveCentralLicense
+  nameWithType: ReplicationAgent.SaveCentralLicense
+  fullName: SuperOffice.CRM.Services.ReplicationAgent.SaveCentralLicense
+- uid: SuperOffice.CRM.Services.IReplicationAgent.SaveCentralLicense(SuperOffice.CRM.Services.LicenseOwner[])
+  commentId: M:SuperOffice.CRM.Services.IReplicationAgent.SaveCentralLicense(SuperOffice.CRM.Services.LicenseOwner[])
+  parent: SuperOffice.CRM.Services.IReplicationAgent
+  isExternal: true
+  name: SaveCentralLicense(LicenseOwner[])
+  nameWithType: IReplicationAgent.SaveCentralLicense(LicenseOwner[])
+  fullName: SuperOffice.CRM.Services.IReplicationAgent.SaveCentralLicense(SuperOffice.CRM.Services.LicenseOwner[])
+  nameWithType.vb: IReplicationAgent.SaveCentralLicense(LicenseOwner())
+  fullName.vb: SuperOffice.CRM.Services.IReplicationAgent.SaveCentralLicense(SuperOffice.CRM.Services.LicenseOwner())
+  name.vb: SaveCentralLicense(LicenseOwner())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IReplicationAgent.SaveCentralLicense(SuperOffice.CRM.Services.LicenseOwner[])
+    name: SaveCentralLicense
+    nameWithType: IReplicationAgent.SaveCentralLicense
+    fullName: SuperOffice.CRM.Services.IReplicationAgent.SaveCentralLicense
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.LicenseOwner
+    name: LicenseOwner
+    nameWithType: LicenseOwner
+    fullName: SuperOffice.CRM.Services.LicenseOwner
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IReplicationAgent.SaveCentralLicense(SuperOffice.CRM.Services.LicenseOwner[])
+    name: SaveCentralLicense
+    nameWithType: IReplicationAgent.SaveCentralLicense
+    fullName: SuperOffice.CRM.Services.IReplicationAgent.SaveCentralLicense
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.LicenseOwner
+    name: LicenseOwner
+    nameWithType: LicenseOwner
+    fullName: SuperOffice.CRM.Services.LicenseOwner
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ReplicationAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ReplicationAgent.#ctor
+  isExternal: true
+  name: ReplicationAgent
+  nameWithType: ReplicationAgent.ReplicationAgent
+  fullName: SuperOffice.CRM.Services.ReplicationAgent.ReplicationAgent

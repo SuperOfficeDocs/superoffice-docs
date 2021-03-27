@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest
+  commentId: T:SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest
+  id: Chat_GetUserAgentListRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest.#ctor
+  - SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest.Flat
+  - SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest.OnlyPresent
+  langs:
+  - csharp
+  - vb
+  name: Chat_GetUserAgentListRequest
+  nameWithType: Chat_GetUserAgentListRequest
+  fullName: SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Chat_GetUserAgentListRequest : Object'
+    content.vb: >-
+      Public Class Chat_GetUserAgentListRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest
+  langs:
+  - csharp
+  - vb
+  name: Chat_GetUserAgentListRequest()
+  nameWithType: Chat_GetUserAgentListRequest.Chat_GetUserAgentListRequest()
+  fullName: SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest.Chat_GetUserAgentListRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Chat_GetUserAgentListRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest.Flat
+  commentId: P:SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest.Flat
+  id: Flat
+  parent: SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest
+  langs:
+  - csharp
+  - vb
+  name: Flat
+  nameWithType: Chat_GetUserAgentListRequest.Flat
+  fullName: SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest.Flat
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool Flat { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Flat As Boolean
+  overload: SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest.Flat*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest.OnlyPresent
+  commentId: P:SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest.OnlyPresent
+  id: OnlyPresent
+  parent: SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest
+  langs:
+  - csharp
+  - vb
+  name: OnlyPresent
+  nameWithType: Chat_GetUserAgentListRequest.OnlyPresent
+  fullName: SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest.OnlyPresent
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool OnlyPresent { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property OnlyPresent As Boolean
+  overload: SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest.OnlyPresent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest.#ctor
+  isExternal: true
+  name: Chat_GetUserAgentListRequest
+  nameWithType: Chat_GetUserAgentListRequest.Chat_GetUserAgentListRequest
+  fullName: SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest.Chat_GetUserAgentListRequest
+- uid: SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest.Flat*
+  commentId: Overload:SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest.Flat
+  isExternal: true
+  name: Flat
+  nameWithType: Chat_GetUserAgentListRequest.Flat
+  fullName: SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest.Flat
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest.OnlyPresent*
+  commentId: Overload:SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest.OnlyPresent
+  isExternal: true
+  name: OnlyPresent
+  nameWithType: Chat_GetUserAgentListRequest.OnlyPresent
+  fullName: SuperOffice.WebApi.Data.Chat_GetUserAgentListRequest.OnlyPresent

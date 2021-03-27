@@ -1,0 +1,773 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem
+  commentId: T:SuperOffice.WebApi.Data.SelectableMDOListItem
+  id: SelectableMDOListItem
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.SelectableMDOListItem.#ctor
+  - SuperOffice.WebApi.Data.SelectableMDOListItem.ChildItems
+  - SuperOffice.WebApi.Data.SelectableMDOListItem.ColorBlock
+  - SuperOffice.WebApi.Data.SelectableMDOListItem.Deleted
+  - SuperOffice.WebApi.Data.SelectableMDOListItem.ExtraInfo
+  - SuperOffice.WebApi.Data.SelectableMDOListItem.FullName
+  - SuperOffice.WebApi.Data.SelectableMDOListItem.Hidden
+  - SuperOffice.WebApi.Data.SelectableMDOListItem.IconHint
+  - SuperOffice.WebApi.Data.SelectableMDOListItem.Id
+  - SuperOffice.WebApi.Data.SelectableMDOListItem.LastChanged
+  - SuperOffice.WebApi.Data.SelectableMDOListItem.Name
+  - SuperOffice.WebApi.Data.SelectableMDOListItem.Rank
+  - SuperOffice.WebApi.Data.SelectableMDOListItem.Selected
+  - SuperOffice.WebApi.Data.SelectableMDOListItem.StyleHint
+  - SuperOffice.WebApi.Data.SelectableMDOListItem.ToolTip
+  - SuperOffice.WebApi.Data.SelectableMDOListItem.Type
+  langs:
+  - csharp
+  - vb
+  name: SelectableMDOListItem
+  nameWithType: SelectableMDOListItem
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for SelectableMDOListItem.\n\n"
+  syntax:
+    content: 'public class SelectableMDOListItem : Carrier'
+    content.vb: >-
+      Public Class SelectableMDOListItem
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.MDOAgent
+    commentId: T:SuperOffice.WebApi.Agents.MDOAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.#ctor
+  commentId: M:SuperOffice.WebApi.Data.SelectableMDOListItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: SelectableMDOListItem()
+  nameWithType: SelectableMDOListItem.SelectableMDOListItem()
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.SelectableMDOListItem()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public SelectableMDOListItem()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.SelectableMDOListItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.Id
+  commentId: P:SuperOffice.WebApi.Data.SelectableMDOListItem.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: SelectableMDOListItem.Id
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe Id of the ListItem\n"
+  syntax:
+    content: public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Id As Integer
+  overload: SuperOffice.WebApi.Data.SelectableMDOListItem.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.Name
+  commentId: P:SuperOffice.WebApi.Data.SelectableMDOListItem.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SelectableMDOListItem.Name
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the ListItem\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.SelectableMDOListItem.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.ToolTip
+  commentId: P:SuperOffice.WebApi.Data.SelectableMDOListItem.ToolTip
+  id: ToolTip
+  parent: SuperOffice.WebApi.Data.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: ToolTip
+  nameWithType: SelectableMDOListItem.ToolTip
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.ToolTip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe tooltip of the ListItem\n"
+  syntax:
+    content: public virtual string ToolTip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ToolTip As String
+  overload: SuperOffice.WebApi.Data.SelectableMDOListItem.ToolTip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.Deleted
+  commentId: P:SuperOffice.WebApi.Data.SelectableMDOListItem.Deleted
+  id: Deleted
+  parent: SuperOffice.WebApi.Data.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: SelectableMDOListItem.Deleted
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.Deleted
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe deleted status of the ListItem\n"
+  syntax:
+    content: public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.WebApi.Data.SelectableMDOListItem.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.Rank
+  commentId: P:SuperOffice.WebApi.Data.SelectableMDOListItem.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: SelectableMDOListItem.Rank
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe rank of the ListItem\n"
+  syntax:
+    content: public virtual int Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Rank As Integer
+  overload: SuperOffice.WebApi.Data.SelectableMDOListItem.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.Type
+  commentId: P:SuperOffice.WebApi.Data.SelectableMDOListItem.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: SelectableMDOListItem.Type
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe type of the ListItem. Custom field.\n"
+  syntax:
+    content: public virtual string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Type As String
+  overload: SuperOffice.WebApi.Data.SelectableMDOListItem.Type*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.ColorBlock
+  commentId: P:SuperOffice.WebApi.Data.SelectableMDOListItem.ColorBlock
+  id: ColorBlock
+  parent: SuperOffice.WebApi.Data.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: ColorBlock
+  nameWithType: SelectableMDOListItem.ColorBlock
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.ColorBlock
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe color indicator of the ListItem color block\n"
+  syntax:
+    content: public virtual int ColorBlock { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ColorBlock As Integer
+  overload: SuperOffice.WebApi.Data.SelectableMDOListItem.ColorBlock*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.IconHint
+  commentId: P:SuperOffice.WebApi.Data.SelectableMDOListItem.IconHint
+  id: IconHint
+  parent: SuperOffice.WebApi.Data.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: IconHint
+  nameWithType: SelectableMDOListItem.IconHint
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.IconHint
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe Icon hint of the ListItem. Custom field.\n"
+  syntax:
+    content: public virtual string IconHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property IconHint As String
+  overload: SuperOffice.WebApi.Data.SelectableMDOListItem.IconHint*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.Selected
+  commentId: P:SuperOffice.WebApi.Data.SelectableMDOListItem.Selected
+  id: Selected
+  parent: SuperOffice.WebApi.Data.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: Selected
+  nameWithType: SelectableMDOListItem.Selected
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.Selected
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if the ListItem is selected\n"
+  syntax:
+    content: public virtual bool Selected { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Selected As Boolean
+  overload: SuperOffice.WebApi.Data.SelectableMDOListItem.Selected*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.LastChanged
+  commentId: P:SuperOffice.WebApi.Data.SelectableMDOListItem.LastChanged
+  id: LastChanged
+  parent: SuperOffice.WebApi.Data.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: LastChanged
+  nameWithType: SelectableMDOListItem.LastChanged
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.LastChanged
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTime of last change.\n"
+  syntax:
+    content: public virtual DateTime LastChanged { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property LastChanged As DateTime
+  overload: SuperOffice.WebApi.Data.SelectableMDOListItem.LastChanged*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.ChildItems
+  commentId: P:SuperOffice.WebApi.Data.SelectableMDOListItem.ChildItems
+  id: ChildItems
+  parent: SuperOffice.WebApi.Data.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: ChildItems
+  nameWithType: SelectableMDOListItem.ChildItems
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.ChildItems
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe child items of the SelectableMDOListItem\n"
+  syntax:
+    content: public virtual SelectableMDOListItem[] ChildItems { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.SelectableMDOListItem[]
+    content.vb: Public Overridable Property ChildItems As SelectableMDOListItem()
+  overload: SuperOffice.WebApi.Data.SelectableMDOListItem.ChildItems*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.ExtraInfo
+  commentId: P:SuperOffice.WebApi.Data.SelectableMDOListItem.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.WebApi.Data.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: SelectableMDOListItem.ExtraInfo
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.ExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nExtra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field.\n"
+  syntax:
+    content: public virtual string ExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraInfo As String
+  overload: SuperOffice.WebApi.Data.SelectableMDOListItem.ExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.StyleHint
+  commentId: P:SuperOffice.WebApi.Data.SelectableMDOListItem.StyleHint
+  id: StyleHint
+  parent: SuperOffice.WebApi.Data.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: StyleHint
+  nameWithType: SelectableMDOListItem.StyleHint
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.StyleHint
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStyle hint indicating, information such as background color etc. Custom field.\n"
+  syntax:
+    content: public virtual string StyleHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property StyleHint As String
+  overload: SuperOffice.WebApi.Data.SelectableMDOListItem.StyleHint*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.Hidden
+  commentId: P:SuperOffice.WebApi.Data.SelectableMDOListItem.Hidden
+  id: Hidden
+  parent: SuperOffice.WebApi.Data.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: Hidden
+  nameWithType: SelectableMDOListItem.Hidden
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.Hidden
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if the ListItem is hidden\n"
+  syntax:
+    content: public virtual bool Hidden { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Hidden As Boolean
+  overload: SuperOffice.WebApi.Data.SelectableMDOListItem.Hidden*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.FullName
+  commentId: P:SuperOffice.WebApi.Data.SelectableMDOListItem.FullName
+  id: FullName
+  parent: SuperOffice.WebApi.Data.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: SelectableMDOListItem.FullName
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.FullName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the ListItem in its context\n"
+  syntax:
+    content: public virtual string FullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FullName As String
+  overload: SuperOffice.WebApi.Data.SelectableMDOListItem.FullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.MDOAgent
+  commentId: T:SuperOffice.WebApi.Agents.MDOAgent
+  isExternal: true
+  name: MDOAgent
+  nameWithType: MDOAgent
+  fullName: SuperOffice.WebApi.Agents.MDOAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectableMDOListItem.#ctor
+  isExternal: true
+  name: SelectableMDOListItem
+  nameWithType: SelectableMDOListItem.SelectableMDOListItem
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.SelectableMDOListItem
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectableMDOListItem.Id
+  isExternal: true
+  name: Id
+  nameWithType: SelectableMDOListItem.Id
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectableMDOListItem.Name
+  isExternal: true
+  name: Name
+  nameWithType: SelectableMDOListItem.Name
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.ToolTip*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectableMDOListItem.ToolTip
+  isExternal: true
+  name: ToolTip
+  nameWithType: SelectableMDOListItem.ToolTip
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.ToolTip
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.Deleted*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectableMDOListItem.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: SelectableMDOListItem.Deleted
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.Deleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectableMDOListItem.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: SelectableMDOListItem.Rank
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.Rank
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectableMDOListItem.Type
+  isExternal: true
+  name: Type
+  nameWithType: SelectableMDOListItem.Type
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.Type
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.ColorBlock*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectableMDOListItem.ColorBlock
+  isExternal: true
+  name: ColorBlock
+  nameWithType: SelectableMDOListItem.ColorBlock
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.ColorBlock
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.IconHint*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectableMDOListItem.IconHint
+  isExternal: true
+  name: IconHint
+  nameWithType: SelectableMDOListItem.IconHint
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.IconHint
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.Selected*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectableMDOListItem.Selected
+  isExternal: true
+  name: Selected
+  nameWithType: SelectableMDOListItem.Selected
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.Selected
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.LastChanged*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectableMDOListItem.LastChanged
+  isExternal: true
+  name: LastChanged
+  nameWithType: SelectableMDOListItem.LastChanged
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.LastChanged
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.ChildItems*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectableMDOListItem.ChildItems
+  isExternal: true
+  name: ChildItems
+  nameWithType: SelectableMDOListItem.ChildItems
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.ChildItems
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem[]
+  isExternal: true
+  name: SelectableMDOListItem[]
+  nameWithType: SelectableMDOListItem[]
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem[]
+  nameWithType.vb: SelectableMDOListItem()
+  fullName.vb: SuperOffice.WebApi.Data.SelectableMDOListItem()
+  name.vb: SelectableMDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.WebApi.Data.SelectableMDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.WebApi.Data.SelectableMDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.ExtraInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectableMDOListItem.ExtraInfo
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: SelectableMDOListItem.ExtraInfo
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.ExtraInfo
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.StyleHint*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectableMDOListItem.StyleHint
+  isExternal: true
+  name: StyleHint
+  nameWithType: SelectableMDOListItem.StyleHint
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.StyleHint
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.Hidden*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectableMDOListItem.Hidden
+  isExternal: true
+  name: Hidden
+  nameWithType: SelectableMDOListItem.Hidden
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.Hidden
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem.FullName*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectableMDOListItem.FullName
+  isExternal: true
+  name: FullName
+  nameWithType: SelectableMDOListItem.FullName
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem.FullName

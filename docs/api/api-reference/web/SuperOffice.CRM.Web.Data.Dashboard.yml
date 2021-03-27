@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.Dashboard
+  commentId: N:SuperOffice.CRM.Web.Data.Dashboard
+  id: SuperOffice.CRM.Web.Data.Dashboard
+  children:
+  - SuperOffice.CRM.Web.Data.Dashboard.DashboardDataHandler
+  - SuperOffice.CRM.Web.Data.Dashboard.DashboardManagementDataHandler
+  - SuperOffice.CRM.Web.Data.Dashboard.EditDashboardTileDataHandler
+  - SuperOffice.CRM.Web.Data.Dashboard.TileDrilldownDataHandler
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.Web.Data.Dashboard
+  nameWithType: SuperOffice.CRM.Web.Data.Dashboard
+  fullName: SuperOffice.CRM.Web.Data.Dashboard
+  type: Namespace
+  assemblies:
+  - SuperOffice.CRMWeb
+references:
+- uid: SuperOffice.CRM.Web.Data.Dashboard.TileDrilldownDataHandler
+  commentId: T:SuperOffice.CRM.Web.Data.Dashboard.TileDrilldownDataHandler
+  isExternal: true
+  name: TileDrilldownDataHandler
+  nameWithType: TileDrilldownDataHandler
+  fullName: SuperOffice.CRM.Web.Data.Dashboard.TileDrilldownDataHandler
+- uid: SuperOffice.CRM.Web.Data.Dashboard.DashboardDataHandler
+  commentId: T:SuperOffice.CRM.Web.Data.Dashboard.DashboardDataHandler
+  isExternal: true
+  name: DashboardDataHandler
+  nameWithType: DashboardDataHandler
+  fullName: SuperOffice.CRM.Web.Data.Dashboard.DashboardDataHandler
+- uid: SuperOffice.CRM.Web.Data.Dashboard.EditDashboardTileDataHandler
+  commentId: T:SuperOffice.CRM.Web.Data.Dashboard.EditDashboardTileDataHandler
+  isExternal: true
+  name: EditDashboardTileDataHandler
+  nameWithType: EditDashboardTileDataHandler
+  fullName: SuperOffice.CRM.Web.Data.Dashboard.EditDashboardTileDataHandler
+- uid: SuperOffice.CRM.Web.Data.Dashboard.DashboardManagementDataHandler
+  commentId: T:SuperOffice.CRM.Web.Data.Dashboard.DashboardManagementDataHandler
+  isExternal: true
+  name: DashboardManagementDataHandler
+  nameWithType: DashboardManagementDataHandler
+  fullName: SuperOffice.CRM.Web.Data.Dashboard.DashboardManagementDataHandler

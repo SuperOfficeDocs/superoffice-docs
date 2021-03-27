@@ -1,0 +1,325 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.QuoteResponse
+  commentId: T:SuperOffice.CRM.Services.QuoteResponse
+  id: QuoteResponse
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.QuoteResponse.#ctor
+  - SuperOffice.CRM.Services.QuoteResponse.ErrorCode
+  - SuperOffice.CRM.Services.QuoteResponse.IsOk
+  - SuperOffice.CRM.Services.QuoteResponse.TechExplanation
+  - SuperOffice.CRM.Services.QuoteResponse.ToString
+  - SuperOffice.CRM.Services.QuoteResponse.ToString(System.String)
+  - SuperOffice.CRM.Services.QuoteResponse.UserExplanation
+  langs:
+  - csharp
+  - vb
+  name: QuoteResponse
+  nameWithType: QuoteResponse
+  fullName: SuperOffice.CRM.Services.QuoteResponse
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for QuoteResponse.\nServices for the QuoteResponse Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IQuoteAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class QuoteResponse : Carrier'
+    content.vb: >-
+      Public Class QuoteResponse
+          Inherits Carrier
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.QuoteResponse.#ctor
+  commentId: M:SuperOffice.CRM.Services.QuoteResponse.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.QuoteResponse
+  langs:
+  - csharp
+  - vb
+  name: QuoteResponse()
+  nameWithType: QuoteResponse.QuoteResponse()
+  fullName: SuperOffice.CRM.Services.QuoteResponse.QuoteResponse()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public QuoteResponse()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.QuoteResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.QuoteResponse.ToString
+  commentId: M:SuperOffice.CRM.Services.QuoteResponse.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.QuoteResponse
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: QuoteResponse.ToString()
+  fullName: SuperOffice.CRM.Services.QuoteResponse.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.QuoteResponse.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.QuoteResponse.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.QuoteResponse.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.QuoteResponse
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: QuoteResponse.ToString(String)
+  fullName: SuperOffice.CRM.Services.QuoteResponse.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.QuoteResponse.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.QuoteResponse.IsOk
+  commentId: P:SuperOffice.CRM.Services.QuoteResponse.IsOk
+  id: IsOk
+  parent: SuperOffice.CRM.Services.QuoteResponse
+  langs:
+  - csharp
+  - vb
+  name: IsOk
+  nameWithType: QuoteResponse.IsOk
+  fullName: SuperOffice.CRM.Services.QuoteResponse.IsOk
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAnswer to the question / An indication if the operation went well.\n"
+  syntax:
+    content: public bool IsOk { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsOk As Boolean
+  overload: SuperOffice.CRM.Services.QuoteResponse.IsOk*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.QuoteResponse.UserExplanation
+  commentId: P:SuperOffice.CRM.Services.QuoteResponse.UserExplanation
+  id: UserExplanation
+  parent: SuperOffice.CRM.Services.QuoteResponse
+  langs:
+  - csharp
+  - vb
+  name: UserExplanation
+  nameWithType: QuoteResponse.UserExplanation
+  fullName: SuperOffice.CRM.Services.QuoteResponse.UserExplanation
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA localized explanation to the answer.\n"
+  syntax:
+    content: public string UserExplanation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserExplanation As String
+  overload: SuperOffice.CRM.Services.QuoteResponse.UserExplanation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.QuoteResponse.TechExplanation
+  commentId: P:SuperOffice.CRM.Services.QuoteResponse.TechExplanation
+  id: TechExplanation
+  parent: SuperOffice.CRM.Services.QuoteResponse
+  langs:
+  - csharp
+  - vb
+  name: TechExplanation
+  nameWithType: QuoteResponse.TechExplanation
+  fullName: SuperOffice.CRM.Services.QuoteResponse.TechExplanation
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAlways in English\n"
+  syntax:
+    content: public string TechExplanation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TechExplanation As String
+  overload: SuperOffice.CRM.Services.QuoteResponse.TechExplanation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.QuoteResponse.ErrorCode
+  commentId: P:SuperOffice.CRM.Services.QuoteResponse.ErrorCode
+  id: ErrorCode
+  parent: SuperOffice.CRM.Services.QuoteResponse
+  langs:
+  - csharp
+  - vb
+  name: ErrorCode
+  nameWithType: QuoteResponse.ErrorCode
+  fullName: SuperOffice.CRM.Services.QuoteResponse.ErrorCode
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAn error code, if available.\n"
+  syntax:
+    content: public string ErrorCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ErrorCode As String
+  overload: SuperOffice.CRM.Services.QuoteResponse.ErrorCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.QuoteResponse.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteResponse.#ctor
+  isExternal: true
+  name: QuoteResponse
+  nameWithType: QuoteResponse.QuoteResponse
+  fullName: SuperOffice.CRM.Services.QuoteResponse.QuoteResponse
+- uid: SuperOffice.CRM.Services.QuoteResponse.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteResponse.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: QuoteResponse.ToString
+  fullName: SuperOffice.CRM.Services.QuoteResponse.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.QuoteResponse.IsOk*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteResponse.IsOk
+  isExternal: true
+  name: IsOk
+  nameWithType: QuoteResponse.IsOk
+  fullName: SuperOffice.CRM.Services.QuoteResponse.IsOk
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.QuoteResponse.UserExplanation*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteResponse.UserExplanation
+  isExternal: true
+  name: UserExplanation
+  nameWithType: QuoteResponse.UserExplanation
+  fullName: SuperOffice.CRM.Services.QuoteResponse.UserExplanation
+- uid: SuperOffice.CRM.Services.QuoteResponse.TechExplanation*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteResponse.TechExplanation
+  isExternal: true
+  name: TechExplanation
+  nameWithType: QuoteResponse.TechExplanation
+  fullName: SuperOffice.CRM.Services.QuoteResponse.TechExplanation
+- uid: SuperOffice.CRM.Services.QuoteResponse.ErrorCode*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteResponse.ErrorCode
+  isExternal: true
+  name: ErrorCode
+  nameWithType: QuoteResponse.ErrorCode
+  fullName: SuperOffice.CRM.Services.QuoteResponse.ErrorCode

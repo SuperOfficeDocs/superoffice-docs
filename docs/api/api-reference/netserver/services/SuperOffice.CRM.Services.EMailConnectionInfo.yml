@@ -1,0 +1,391 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.EMailConnectionInfo
+  commentId: T:SuperOffice.CRM.Services.EMailConnectionInfo
+  id: EMailConnectionInfo
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.EMailConnectionInfo.#ctor
+  - SuperOffice.CRM.Services.EMailConnectionInfo.Folder
+  - SuperOffice.CRM.Services.EMailConnectionInfo.Password
+  - SuperOffice.CRM.Services.EMailConnectionInfo.ServerName
+  - SuperOffice.CRM.Services.EMailConnectionInfo.ToString
+  - SuperOffice.CRM.Services.EMailConnectionInfo.ToString(System.String)
+  - SuperOffice.CRM.Services.EMailConnectionInfo.UserName
+  - SuperOffice.CRM.Services.EMailConnectionInfo.UseSSL
+  langs:
+  - csharp
+  - vb
+  name: EMailConnectionInfo
+  nameWithType: EMailConnectionInfo
+  fullName: SuperOffice.CRM.Services.EMailConnectionInfo
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAll information needed to connect to a mailserver\n<p></p>\nCarrier object for EMailConnectionInfo.\nServices for the EMailConnectionInfo Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IEMailAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class EMailConnectionInfo : Carrier'
+    content.vb: >-
+      Public Class EMailConnectionInfo
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.EMailAgent
+    commentId: T:SuperOffice.CRM.Services.EMailAgent
+  - linkId: SuperOffice.CRM.Services.IEMailAgent
+    commentId: T:SuperOffice.CRM.Services.IEMailAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.EMailConnectionInfo.#ctor
+  commentId: M:SuperOffice.CRM.Services.EMailConnectionInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.EMailConnectionInfo
+  langs:
+  - csharp
+  - vb
+  name: EMailConnectionInfo()
+  nameWithType: EMailConnectionInfo.EMailConnectionInfo()
+  fullName: SuperOffice.CRM.Services.EMailConnectionInfo.EMailConnectionInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public EMailConnectionInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.EMailConnectionInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EMailConnectionInfo.ToString
+  commentId: M:SuperOffice.CRM.Services.EMailConnectionInfo.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.EMailConnectionInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: EMailConnectionInfo.ToString()
+  fullName: SuperOffice.CRM.Services.EMailConnectionInfo.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.EMailConnectionInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.EMailConnectionInfo.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.EMailConnectionInfo.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.EMailConnectionInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: EMailConnectionInfo.ToString(String)
+  fullName: SuperOffice.CRM.Services.EMailConnectionInfo.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.EMailConnectionInfo.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EMailConnectionInfo.ServerName
+  commentId: P:SuperOffice.CRM.Services.EMailConnectionInfo.ServerName
+  id: ServerName
+  parent: SuperOffice.CRM.Services.EMailConnectionInfo
+  langs:
+  - csharp
+  - vb
+  name: ServerName
+  nameWithType: EMailConnectionInfo.ServerName
+  fullName: SuperOffice.CRM.Services.EMailConnectionInfo.ServerName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nHostname or ip to server to connect to. Custom ports may be specified by adding &apos;:&apos; and the port number after the name/ip. Ex: &apos;127.0.0.1:6543&apos; \n"
+  syntax:
+    content: public virtual string ServerName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ServerName As String
+  overload: SuperOffice.CRM.Services.EMailConnectionInfo.ServerName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailConnectionInfo.UserName
+  commentId: P:SuperOffice.CRM.Services.EMailConnectionInfo.UserName
+  id: UserName
+  parent: SuperOffice.CRM.Services.EMailConnectionInfo
+  langs:
+  - csharp
+  - vb
+  name: UserName
+  nameWithType: EMailConnectionInfo.UserName
+  fullName: SuperOffice.CRM.Services.EMailConnectionInfo.UserName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of user to log in with \n"
+  syntax:
+    content: public virtual string UserName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property UserName As String
+  overload: SuperOffice.CRM.Services.EMailConnectionInfo.UserName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailConnectionInfo.Password
+  commentId: P:SuperOffice.CRM.Services.EMailConnectionInfo.Password
+  id: Password
+  parent: SuperOffice.CRM.Services.EMailConnectionInfo
+  langs:
+  - csharp
+  - vb
+  name: Password
+  nameWithType: EMailConnectionInfo.Password
+  fullName: SuperOffice.CRM.Services.EMailConnectionInfo.Password
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPassword for the username \n"
+  syntax:
+    content: public virtual string Password { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Password As String
+  overload: SuperOffice.CRM.Services.EMailConnectionInfo.Password*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailConnectionInfo.Folder
+  commentId: P:SuperOffice.CRM.Services.EMailConnectionInfo.Folder
+  id: Folder
+  parent: SuperOffice.CRM.Services.EMailConnectionInfo
+  langs:
+  - csharp
+  - vb
+  name: Folder
+  nameWithType: EMailConnectionInfo.Folder
+  fullName: SuperOffice.CRM.Services.EMailConnectionInfo.Folder
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOptional folder to set as current after logging in \n"
+  syntax:
+    content: public virtual string Folder { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Folder As String
+  overload: SuperOffice.CRM.Services.EMailConnectionInfo.Folder*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailConnectionInfo.UseSSL
+  commentId: P:SuperOffice.CRM.Services.EMailConnectionInfo.UseSSL
+  id: UseSSL
+  parent: SuperOffice.CRM.Services.EMailConnectionInfo
+  langs:
+  - csharp
+  - vb
+  name: UseSSL
+  nameWithType: EMailConnectionInfo.UseSSL
+  fullName: SuperOffice.CRM.Services.EMailConnectionInfo.UseSSL
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUse a secure connection with the server \n"
+  syntax:
+    content: public virtual bool UseSSL { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property UseSSL As Boolean
+  overload: SuperOffice.CRM.Services.EMailConnectionInfo.UseSSL*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.EMailAgent
+  commentId: T:SuperOffice.CRM.Services.EMailAgent
+  isExternal: true
+  name: EMailAgent
+  nameWithType: EMailAgent
+  fullName: SuperOffice.CRM.Services.EMailAgent
+- uid: SuperOffice.CRM.Services.IEMailAgent
+  commentId: T:SuperOffice.CRM.Services.IEMailAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IEMailAgent
+  nameWithType: IEMailAgent
+  fullName: SuperOffice.CRM.Services.IEMailAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.EMailConnectionInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.EMailConnectionInfo.#ctor
+  isExternal: true
+  name: EMailConnectionInfo
+  nameWithType: EMailConnectionInfo.EMailConnectionInfo
+  fullName: SuperOffice.CRM.Services.EMailConnectionInfo.EMailConnectionInfo
+- uid: SuperOffice.CRM.Services.EMailConnectionInfo.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.EMailConnectionInfo.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: EMailConnectionInfo.ToString
+  fullName: SuperOffice.CRM.Services.EMailConnectionInfo.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.EMailConnectionInfo.ServerName*
+  commentId: Overload:SuperOffice.CRM.Services.EMailConnectionInfo.ServerName
+  isExternal: true
+  name: ServerName
+  nameWithType: EMailConnectionInfo.ServerName
+  fullName: SuperOffice.CRM.Services.EMailConnectionInfo.ServerName
+- uid: SuperOffice.CRM.Services.EMailConnectionInfo.UserName*
+  commentId: Overload:SuperOffice.CRM.Services.EMailConnectionInfo.UserName
+  isExternal: true
+  name: UserName
+  nameWithType: EMailConnectionInfo.UserName
+  fullName: SuperOffice.CRM.Services.EMailConnectionInfo.UserName
+- uid: SuperOffice.CRM.Services.EMailConnectionInfo.Password*
+  commentId: Overload:SuperOffice.CRM.Services.EMailConnectionInfo.Password
+  isExternal: true
+  name: Password
+  nameWithType: EMailConnectionInfo.Password
+  fullName: SuperOffice.CRM.Services.EMailConnectionInfo.Password
+- uid: SuperOffice.CRM.Services.EMailConnectionInfo.Folder*
+  commentId: Overload:SuperOffice.CRM.Services.EMailConnectionInfo.Folder
+  isExternal: true
+  name: Folder
+  nameWithType: EMailConnectionInfo.Folder
+  fullName: SuperOffice.CRM.Services.EMailConnectionInfo.Folder
+- uid: SuperOffice.CRM.Services.EMailConnectionInfo.UseSSL*
+  commentId: Overload:SuperOffice.CRM.Services.EMailConnectionInfo.UseSSL
+  isExternal: true
+  name: UseSSL
+  nameWithType: EMailConnectionInfo.UseSSL
+  fullName: SuperOffice.CRM.Services.EMailConnectionInfo.UseSSL
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

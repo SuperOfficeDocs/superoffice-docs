@@ -1,0 +1,859 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController
+  commentId: T:SuperOffice.CRM.Web.Controllers.SuperStateController
+  id: SuperStateController
+  parent: SuperOffice.CRM.Web.Controllers
+  children:
+  - SuperOffice.CRM.Web.Controllers.SuperStateController.#ctor
+  - SuperOffice.CRM.Web.Controllers.SuperStateController.AddHistoryItem(SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItemRequest)
+  - SuperOffice.CRM.Web.Controllers.SuperStateController.ClearCurrent(System.String,System.Int32)
+  - SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrent(SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest)
+  - SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentPrinicipalAssociateId
+  - SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrents(SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest[])
+  - SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocol(SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolRequest)
+  - SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolExtended(SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolExtendedRequest)
+  - SuperOffice.CRM.Web.Controllers.SuperStateController.GetNewSoProtocol
+  - SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocol
+  - SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocolByPageId(SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocolByPageIdRequest)
+  - SuperOffice.CRM.Web.Controllers.SuperStateController.IsRunningTestDriveROSS
+  - SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocol(SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest)
+  - SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrent(SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrentRequest)
+  - SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrents(SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrentsRequest)
+  - SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItem(SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItemRequest)
+  - SuperOffice.CRM.Web.Controllers.SuperStateController.SetSoProtocol(SuperOffice.CRM.Web.Controllers.SuperStateController.SetSoProtocolRequest)
+  - SuperOffice.CRM.Web.Controllers.SuperStateController.SetUserPreference(SuperOffice.CRM.Web.Controllers.SuperStateController.SetUserPreferenceRequest)
+  langs:
+  - csharp
+  - vb
+  name: SuperStateController
+  nameWithType: SuperStateController
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: 'public class SuperStateController : ApiController, IRequiresSessionState'
+    content.vb: >-
+      Public Class SuperStateController
+          Inherits ApiController
+          Implements IRequiresSessionState
+  inheritance:
+  - System.Object
+  implements:
+  - System.Web.SessionState.IRequiresSessionState
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.#ctor
+  commentId: M:SuperOffice.CRM.Web.Controllers.SuperStateController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Controllers.SuperStateController
+  langs:
+  - csharp
+  - vb
+  name: SuperStateController()
+  nameWithType: SuperStateController.SuperStateController()
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.SuperStateController()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public SuperStateController()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Controllers.SuperStateController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocol(SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest)
+  commentId: M:SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocol(SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest)
+  id: LogSoProtocol(SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest)
+  parent: SuperOffice.CRM.Web.Controllers.SuperStateController
+  langs:
+  - csharp
+  - vb
+  name: LogSoProtocol(SuperStateController.LogSoProtocolRequest)
+  nameWithType: SuperStateController.LogSoProtocol(SuperStateController.LogSoProtocolRequest)
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocol(SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public void LogSoProtocol(SuperStateController.LogSoProtocolRequest logSoProtocolRequest)
+    parameters:
+    - id: logSoProtocolRequest
+      type: SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest
+    content.vb: Public Sub LogSoProtocol(logSoProtocolRequest As SuperStateController.LogSoProtocolRequest)
+  overload: SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocol*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrent(SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest)
+  commentId: M:SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrent(SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest)
+  id: GetCurrent(SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest)
+  parent: SuperOffice.CRM.Web.Controllers.SuperStateController
+  langs:
+  - csharp
+  - vb
+  name: GetCurrent(SuperStateController.GetCurrentRequest)
+  nameWithType: SuperStateController.GetCurrent(SuperStateController.GetCurrentRequest)
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrent(SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public HistoryItem GetCurrent(SuperStateController.GetCurrentRequest getCurrentRequest)
+    parameters:
+    - id: getCurrentRequest
+      type: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest
+    return:
+      type: SuperOffice.Cache.HistoryItem
+    content.vb: Public Function GetCurrent(getCurrentRequest As SuperStateController.GetCurrentRequest) As HistoryItem
+  overload: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrents(SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest[])
+  commentId: M:SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrents(SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest[])
+  id: GetCurrents(SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest[])
+  parent: SuperOffice.CRM.Web.Controllers.SuperStateController
+  langs:
+  - csharp
+  - vb
+  name: GetCurrents(SuperStateController.GetCurrentRequest[])
+  nameWithType: SuperStateController.GetCurrents(SuperStateController.GetCurrentRequest[])
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrents(SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest[])
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public HistoryItem[] GetCurrents(SuperStateController.GetCurrentRequest[] getCurrentRequests)
+    parameters:
+    - id: getCurrentRequests
+      type: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest[]
+    return:
+      type: SuperOffice.Cache.HistoryItem[]
+    content.vb: Public Function GetCurrents(getCurrentRequests As SuperStateController.GetCurrentRequest()) As HistoryItem()
+  overload: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrents*
+  nameWithType.vb: SuperStateController.GetCurrents(SuperStateController.GetCurrentRequest())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrents(SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest())
+  name.vb: GetCurrents(SuperStateController.GetCurrentRequest())
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrent(SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrentRequest)
+  commentId: M:SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrent(SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrentRequest)
+  id: SetCurrent(SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrentRequest)
+  parent: SuperOffice.CRM.Web.Controllers.SuperStateController
+  langs:
+  - csharp
+  - vb
+  name: SetCurrent(SuperStateController.SetCurrentRequest)
+  nameWithType: SuperStateController.SetCurrent(SuperStateController.SetCurrentRequest)
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrent(SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrentRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public void SetCurrent(SuperStateController.SetCurrentRequest setCurrentRequest)
+    parameters:
+    - id: setCurrentRequest
+      type: SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrentRequest
+    content.vb: Public Sub SetCurrent(setCurrentRequest As SuperStateController.SetCurrentRequest)
+  overload: SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrents(SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrentsRequest)
+  commentId: M:SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrents(SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrentsRequest)
+  id: SetCurrents(SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrentsRequest)
+  parent: SuperOffice.CRM.Web.Controllers.SuperStateController
+  langs:
+  - csharp
+  - vb
+  name: SetCurrents(SuperStateController.SetCurrentsRequest)
+  nameWithType: SuperStateController.SetCurrents(SuperStateController.SetCurrentsRequest)
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrents(SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrentsRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public void SetCurrents(SuperStateController.SetCurrentsRequest setCurrentsRequest)
+    parameters:
+    - id: setCurrentsRequest
+      type: SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrentsRequest
+    content.vb: Public Sub SetCurrents(setCurrentsRequest As SuperStateController.SetCurrentsRequest)
+  overload: SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrents*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItem(SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItemRequest)
+  commentId: M:SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItem(SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItemRequest)
+  id: SetHistoryItem(SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItemRequest)
+  parent: SuperOffice.CRM.Web.Controllers.SuperStateController
+  langs:
+  - csharp
+  - vb
+  name: SetHistoryItem(SuperStateController.SetHistoryItemRequest)
+  nameWithType: SuperStateController.SetHistoryItem(SuperStateController.SetHistoryItemRequest)
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItem(SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItemRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public void SetHistoryItem(SuperStateController.SetHistoryItemRequest setHistoryItemRequest)
+    parameters:
+    - id: setHistoryItemRequest
+      type: SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItemRequest
+    content.vb: Public Sub SetHistoryItem(setHistoryItemRequest As SuperStateController.SetHistoryItemRequest)
+  overload: SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItem*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.ClearCurrent(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Web.Controllers.SuperStateController.ClearCurrent(System.String,System.Int32)
+  id: ClearCurrent(System.String,System.Int32)
+  parent: SuperOffice.CRM.Web.Controllers.SuperStateController
+  langs:
+  - csharp
+  - vb
+  name: ClearCurrent(String, Int32)
+  nameWithType: SuperStateController.ClearCurrent(String, Int32)
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.ClearCurrent(System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public void ClearCurrent(string entityName, int id)
+    parameters:
+    - id: entityName
+      type: System.String
+    - id: id
+      type: System.Int32
+    content.vb: Public Sub ClearCurrent(entityName As String, id As Integer)
+  overload: SuperOffice.CRM.Web.Controllers.SuperStateController.ClearCurrent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.AddHistoryItem(SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItemRequest)
+  commentId: M:SuperOffice.CRM.Web.Controllers.SuperStateController.AddHistoryItem(SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItemRequest)
+  id: AddHistoryItem(SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItemRequest)
+  parent: SuperOffice.CRM.Web.Controllers.SuperStateController
+  langs:
+  - csharp
+  - vb
+  name: AddHistoryItem(SuperStateController.SetHistoryItemRequest)
+  nameWithType: SuperStateController.AddHistoryItem(SuperStateController.SetHistoryItemRequest)
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.AddHistoryItem(SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItemRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public void AddHistoryItem(SuperStateController.SetHistoryItemRequest setHistoryItemRequest)
+    parameters:
+    - id: setHistoryItemRequest
+      type: SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItemRequest
+    content.vb: Public Sub AddHistoryItem(setHistoryItemRequest As SuperStateController.SetHistoryItemRequest)
+  overload: SuperOffice.CRM.Web.Controllers.SuperStateController.AddHistoryItem*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SetUserPreference(SuperOffice.CRM.Web.Controllers.SuperStateController.SetUserPreferenceRequest)
+  commentId: M:SuperOffice.CRM.Web.Controllers.SuperStateController.SetUserPreference(SuperOffice.CRM.Web.Controllers.SuperStateController.SetUserPreferenceRequest)
+  id: SetUserPreference(SuperOffice.CRM.Web.Controllers.SuperStateController.SetUserPreferenceRequest)
+  parent: SuperOffice.CRM.Web.Controllers.SuperStateController
+  langs:
+  - csharp
+  - vb
+  name: SetUserPreference(SuperStateController.SetUserPreferenceRequest)
+  nameWithType: SuperStateController.SetUserPreference(SuperStateController.SetUserPreferenceRequest)
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.SetUserPreference(SuperOffice.CRM.Web.Controllers.SuperStateController.SetUserPreferenceRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public void SetUserPreference(SuperStateController.SetUserPreferenceRequest setUserPreferenceRequest)
+    parameters:
+    - id: setUserPreferenceRequest
+      type: SuperOffice.CRM.Web.Controllers.SuperStateController.SetUserPreferenceRequest
+    content.vb: Public Sub SetUserPreference(setUserPreferenceRequest As SuperStateController.SetUserPreferenceRequest)
+  overload: SuperOffice.CRM.Web.Controllers.SuperStateController.SetUserPreference*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetNewSoProtocol
+  commentId: M:SuperOffice.CRM.Web.Controllers.SuperStateController.GetNewSoProtocol
+  id: GetNewSoProtocol
+  parent: SuperOffice.CRM.Web.Controllers.SuperStateController
+  langs:
+  - csharp
+  - vb
+  name: GetNewSoProtocol()
+  nameWithType: SuperStateController.GetNewSoProtocol()
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.GetNewSoProtocol()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string GetNewSoProtocol()
+    return:
+      type: System.String
+    content.vb: Public Function GetNewSoProtocol As String
+  overload: SuperOffice.CRM.Web.Controllers.SuperStateController.GetNewSoProtocol*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocol(SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolRequest)
+  commentId: M:SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocol(SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolRequest)
+  id: GetCustomNewSoProtocol(SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolRequest)
+  parent: SuperOffice.CRM.Web.Controllers.SuperStateController
+  langs:
+  - csharp
+  - vb
+  name: GetCustomNewSoProtocol(SuperStateController.GetCustomNewSoProtocolRequest)
+  nameWithType: SuperStateController.GetCustomNewSoProtocol(SuperStateController.GetCustomNewSoProtocolRequest)
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocol(SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string GetCustomNewSoProtocol(SuperStateController.GetCustomNewSoProtocolRequest getCustomNewSoProtocolRequest)
+    parameters:
+    - id: getCustomNewSoProtocolRequest
+      type: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolRequest
+    return:
+      type: System.String
+    content.vb: Public Function GetCustomNewSoProtocol(getCustomNewSoProtocolRequest As SuperStateController.GetCustomNewSoProtocolRequest) As String
+  overload: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocol*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolExtended(SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolExtendedRequest)
+  commentId: M:SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolExtended(SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolExtendedRequest)
+  id: GetCustomNewSoProtocolExtended(SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolExtendedRequest)
+  parent: SuperOffice.CRM.Web.Controllers.SuperStateController
+  langs:
+  - csharp
+  - vb
+  name: GetCustomNewSoProtocolExtended(SuperStateController.GetCustomNewSoProtocolExtendedRequest)
+  nameWithType: SuperStateController.GetCustomNewSoProtocolExtended(SuperStateController.GetCustomNewSoProtocolExtendedRequest)
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolExtended(SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolExtendedRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string GetCustomNewSoProtocolExtended(SuperStateController.GetCustomNewSoProtocolExtendedRequest getCustomNewSoProtocolExtendedRequest)
+    parameters:
+    - id: getCustomNewSoProtocolExtendedRequest
+      type: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolExtendedRequest
+    return:
+      type: System.String
+    content.vb: Public Function GetCustomNewSoProtocolExtended(getCustomNewSoProtocolExtendedRequest As SuperStateController.GetCustomNewSoProtocolExtendedRequest) As String
+  overload: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolExtended*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocol
+  commentId: M:SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocol
+  id: GetSoProtocol
+  parent: SuperOffice.CRM.Web.Controllers.SuperStateController
+  langs:
+  - csharp
+  - vb
+  name: GetSoProtocol()
+  nameWithType: SuperStateController.GetSoProtocol()
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocol()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string GetSoProtocol()
+    return:
+      type: System.String
+    content.vb: Public Function GetSoProtocol As String
+  overload: SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocol*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocolByPageId(SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocolByPageIdRequest)
+  commentId: M:SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocolByPageId(SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocolByPageIdRequest)
+  id: GetSoProtocolByPageId(SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocolByPageIdRequest)
+  parent: SuperOffice.CRM.Web.Controllers.SuperStateController
+  langs:
+  - csharp
+  - vb
+  name: GetSoProtocolByPageId(SuperStateController.GetSoProtocolByPageIdRequest)
+  nameWithType: SuperStateController.GetSoProtocolByPageId(SuperStateController.GetSoProtocolByPageIdRequest)
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocolByPageId(SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocolByPageIdRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string GetSoProtocolByPageId(SuperStateController.GetSoProtocolByPageIdRequest getSoProtocolByPageIdRequest)
+    parameters:
+    - id: getSoProtocolByPageIdRequest
+      type: SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocolByPageIdRequest
+    return:
+      type: System.String
+    content.vb: Public Function GetSoProtocolByPageId(getSoProtocolByPageIdRequest As SuperStateController.GetSoProtocolByPageIdRequest) As String
+  overload: SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocolByPageId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SetSoProtocol(SuperOffice.CRM.Web.Controllers.SuperStateController.SetSoProtocolRequest)
+  commentId: M:SuperOffice.CRM.Web.Controllers.SuperStateController.SetSoProtocol(SuperOffice.CRM.Web.Controllers.SuperStateController.SetSoProtocolRequest)
+  id: SetSoProtocol(SuperOffice.CRM.Web.Controllers.SuperStateController.SetSoProtocolRequest)
+  parent: SuperOffice.CRM.Web.Controllers.SuperStateController
+  langs:
+  - csharp
+  - vb
+  name: SetSoProtocol(SuperStateController.SetSoProtocolRequest)
+  nameWithType: SuperStateController.SetSoProtocol(SuperStateController.SetSoProtocolRequest)
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.SetSoProtocol(SuperOffice.CRM.Web.Controllers.SuperStateController.SetSoProtocolRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public static string SetSoProtocol(SuperStateController.SetSoProtocolRequest setSoProtocolRequest)
+    parameters:
+    - id: setSoProtocolRequest
+      type: SuperOffice.CRM.Web.Controllers.SuperStateController.SetSoProtocolRequest
+    return:
+      type: System.String
+    content.vb: Public Shared Function SetSoProtocol(setSoProtocolRequest As SuperStateController.SetSoProtocolRequest) As String
+  overload: SuperOffice.CRM.Web.Controllers.SuperStateController.SetSoProtocol*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.IsRunningTestDriveROSS
+  commentId: M:SuperOffice.CRM.Web.Controllers.SuperStateController.IsRunningTestDriveROSS
+  id: IsRunningTestDriveROSS
+  parent: SuperOffice.CRM.Web.Controllers.SuperStateController
+  langs:
+  - csharp
+  - vb
+  name: IsRunningTestDriveROSS()
+  nameWithType: SuperStateController.IsRunningTestDriveROSS()
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.IsRunningTestDriveROSS()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public bool IsRunningTestDriveROSS()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsRunningTestDriveROSS As Boolean
+  overload: SuperOffice.CRM.Web.Controllers.SuperStateController.IsRunningTestDriveROSS*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentPrinicipalAssociateId
+  commentId: M:SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentPrinicipalAssociateId
+  id: GetCurrentPrinicipalAssociateId
+  parent: SuperOffice.CRM.Web.Controllers.SuperStateController
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentPrinicipalAssociateId()
+  nameWithType: SuperStateController.GetCurrentPrinicipalAssociateId()
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentPrinicipalAssociateId()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public int GetCurrentPrinicipalAssociateId()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetCurrentPrinicipalAssociateId As Integer
+  overload: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentPrinicipalAssociateId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Controllers
+  commentId: N:SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperOffice.CRM.Web.Controllers
+  nameWithType: SuperOffice.CRM.Web.Controllers
+  fullName: SuperOffice.CRM.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.SessionState.IRequiresSessionState
+  isExternal: true
+  name: IRequiresSessionState
+  nameWithType: IRequiresSessionState
+  fullName: System.Web.SessionState.IRequiresSessionState
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.SuperStateController.#ctor
+  isExternal: true
+  name: SuperStateController
+  nameWithType: SuperStateController.SuperStateController
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.SuperStateController
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocol*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocol
+  isExternal: true
+  name: LogSoProtocol
+  nameWithType: SuperStateController.LogSoProtocol
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocol
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest
+  commentId: T:SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperStateController.LogSoProtocolRequest
+  nameWithType: SuperStateController.LogSoProtocolRequest
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.LogSoProtocolRequest
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrent*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrent
+  isExternal: true
+  name: GetCurrent
+  nameWithType: SuperStateController.GetCurrent
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrent
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest
+  commentId: T:SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperStateController.GetCurrentRequest
+  nameWithType: SuperStateController.GetCurrentRequest
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest
+- uid: SuperOffice.Cache.HistoryItem
+  commentId: T:SuperOffice.Cache.HistoryItem
+  parent: SuperOffice.Cache
+  isExternal: true
+  name: HistoryItem
+  nameWithType: HistoryItem
+  fullName: SuperOffice.Cache.HistoryItem
+- uid: SuperOffice.Cache
+  commentId: N:SuperOffice.Cache
+  isExternal: true
+  name: SuperOffice.Cache
+  nameWithType: SuperOffice.Cache
+  fullName: SuperOffice.Cache
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrents*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrents
+  isExternal: true
+  name: GetCurrents
+  nameWithType: SuperStateController.GetCurrents
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrents
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest[]
+  isExternal: true
+  name: SuperStateController.GetCurrentRequest[]
+  nameWithType: SuperStateController.GetCurrentRequest[]
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest[]
+  nameWithType.vb: SuperStateController.GetCurrentRequest()
+  fullName.vb: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest()
+  name.vb: SuperStateController.GetCurrentRequest()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest
+    name: SuperStateController.GetCurrentRequest
+    nameWithType: SuperStateController.GetCurrentRequest
+    fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest
+    name: SuperStateController.GetCurrentRequest
+    nameWithType: SuperStateController.GetCurrentRequest
+    fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentRequest
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Cache.HistoryItem[]
+  isExternal: true
+  name: HistoryItem[]
+  nameWithType: HistoryItem[]
+  fullName: SuperOffice.Cache.HistoryItem[]
+  nameWithType.vb: HistoryItem()
+  fullName.vb: SuperOffice.Cache.HistoryItem()
+  name.vb: HistoryItem()
+  spec.csharp:
+  - uid: SuperOffice.Cache.HistoryItem
+    name: HistoryItem
+    nameWithType: HistoryItem
+    fullName: SuperOffice.Cache.HistoryItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.Cache.HistoryItem
+    name: HistoryItem
+    nameWithType: HistoryItem
+    fullName: SuperOffice.Cache.HistoryItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrent*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrent
+  isExternal: true
+  name: SetCurrent
+  nameWithType: SuperStateController.SetCurrent
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrent
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrentRequest
+  commentId: T:SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrentRequest
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperStateController.SetCurrentRequest
+  nameWithType: SuperStateController.SetCurrentRequest
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrentRequest
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrents*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrents
+  isExternal: true
+  name: SetCurrents
+  nameWithType: SuperStateController.SetCurrents
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrents
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrentsRequest
+  commentId: T:SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrentsRequest
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperStateController.SetCurrentsRequest
+  nameWithType: SuperStateController.SetCurrentsRequest
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.SetCurrentsRequest
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItem*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItem
+  isExternal: true
+  name: SetHistoryItem
+  nameWithType: SuperStateController.SetHistoryItem
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItem
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItemRequest
+  commentId: T:SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItemRequest
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperStateController.SetHistoryItemRequest
+  nameWithType: SuperStateController.SetHistoryItemRequest
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.SetHistoryItemRequest
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.ClearCurrent*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.SuperStateController.ClearCurrent
+  isExternal: true
+  name: ClearCurrent
+  nameWithType: SuperStateController.ClearCurrent
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.ClearCurrent
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.AddHistoryItem*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.SuperStateController.AddHistoryItem
+  isExternal: true
+  name: AddHistoryItem
+  nameWithType: SuperStateController.AddHistoryItem
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.AddHistoryItem
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SetUserPreference*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.SuperStateController.SetUserPreference
+  isExternal: true
+  name: SetUserPreference
+  nameWithType: SuperStateController.SetUserPreference
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.SetUserPreference
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SetUserPreferenceRequest
+  commentId: T:SuperOffice.CRM.Web.Controllers.SuperStateController.SetUserPreferenceRequest
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperStateController.SetUserPreferenceRequest
+  nameWithType: SuperStateController.SetUserPreferenceRequest
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.SetUserPreferenceRequest
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetNewSoProtocol*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.SuperStateController.GetNewSoProtocol
+  isExternal: true
+  name: GetNewSoProtocol
+  nameWithType: SuperStateController.GetNewSoProtocol
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.GetNewSoProtocol
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocol*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocol
+  isExternal: true
+  name: GetCustomNewSoProtocol
+  nameWithType: SuperStateController.GetCustomNewSoProtocol
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocol
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolRequest
+  commentId: T:SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolRequest
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperStateController.GetCustomNewSoProtocolRequest
+  nameWithType: SuperStateController.GetCustomNewSoProtocolRequest
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolRequest
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolExtended*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolExtended
+  isExternal: true
+  name: GetCustomNewSoProtocolExtended
+  nameWithType: SuperStateController.GetCustomNewSoProtocolExtended
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolExtended
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolExtendedRequest
+  commentId: T:SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolExtendedRequest
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperStateController.GetCustomNewSoProtocolExtendedRequest
+  nameWithType: SuperStateController.GetCustomNewSoProtocolExtendedRequest
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCustomNewSoProtocolExtendedRequest
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocol*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocol
+  isExternal: true
+  name: GetSoProtocol
+  nameWithType: SuperStateController.GetSoProtocol
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocol
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocolByPageId*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocolByPageId
+  isExternal: true
+  name: GetSoProtocolByPageId
+  nameWithType: SuperStateController.GetSoProtocolByPageId
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocolByPageId
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocolByPageIdRequest
+  commentId: T:SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocolByPageIdRequest
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperStateController.GetSoProtocolByPageIdRequest
+  nameWithType: SuperStateController.GetSoProtocolByPageIdRequest
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.GetSoProtocolByPageIdRequest
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SetSoProtocol*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.SuperStateController.SetSoProtocol
+  isExternal: true
+  name: SetSoProtocol
+  nameWithType: SuperStateController.SetSoProtocol
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.SetSoProtocol
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.SetSoProtocolRequest
+  commentId: T:SuperOffice.CRM.Web.Controllers.SuperStateController.SetSoProtocolRequest
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperStateController.SetSoProtocolRequest
+  nameWithType: SuperStateController.SetSoProtocolRequest
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.SetSoProtocolRequest
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.IsRunningTestDriveROSS*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.SuperStateController.IsRunningTestDriveROSS
+  isExternal: true
+  name: IsRunningTestDriveROSS
+  nameWithType: SuperStateController.IsRunningTestDriveROSS
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.IsRunningTestDriveROSS
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentPrinicipalAssociateId*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentPrinicipalAssociateId
+  isExternal: true
+  name: GetCurrentPrinicipalAssociateId
+  nameWithType: SuperStateController.GetCurrentPrinicipalAssociateId
+  fullName: SuperOffice.CRM.Web.Controllers.SuperStateController.GetCurrentPrinicipalAssociateId

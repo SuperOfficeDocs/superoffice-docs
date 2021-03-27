@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Ticket_GetTicketsRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_GetTicketsRequest
+  id: Ticket_GetTicketsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Ticket_GetTicketsRequest.#ctor
+  - SuperOffice.WebApi.Data.Ticket_GetTicketsRequest.TicketIds
+  langs:
+  - csharp
+  - vb
+  name: Ticket_GetTicketsRequest
+  nameWithType: Ticket_GetTicketsRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_GetTicketsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Ticket_GetTicketsRequest : Object'
+    content.vb: >-
+      Public Class Ticket_GetTicketsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Ticket_GetTicketsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Ticket_GetTicketsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Ticket_GetTicketsRequest
+  langs:
+  - csharp
+  - vb
+  name: Ticket_GetTicketsRequest()
+  nameWithType: Ticket_GetTicketsRequest.Ticket_GetTicketsRequest()
+  fullName: SuperOffice.WebApi.Data.Ticket_GetTicketsRequest.Ticket_GetTicketsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Ticket_GetTicketsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Ticket_GetTicketsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_GetTicketsRequest.TicketIds
+  commentId: P:SuperOffice.WebApi.Data.Ticket_GetTicketsRequest.TicketIds
+  id: TicketIds
+  parent: SuperOffice.WebApi.Data.Ticket_GetTicketsRequest
+  langs:
+  - csharp
+  - vb
+  name: TicketIds
+  nameWithType: Ticket_GetTicketsRequest.TicketIds
+  fullName: SuperOffice.WebApi.Data.Ticket_GetTicketsRequest.TicketIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] TicketIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property TicketIds As Integer()
+  overload: SuperOffice.WebApi.Data.Ticket_GetTicketsRequest.TicketIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Ticket_GetTicketsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_GetTicketsRequest.#ctor
+  isExternal: true
+  name: Ticket_GetTicketsRequest
+  nameWithType: Ticket_GetTicketsRequest.Ticket_GetTicketsRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_GetTicketsRequest.Ticket_GetTicketsRequest
+- uid: SuperOffice.WebApi.Data.Ticket_GetTicketsRequest.TicketIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_GetTicketsRequest.TicketIds
+  isExternal: true
+  name: TicketIds
+  nameWithType: Ticket_GetTicketsRequest.TicketIds
+  fullName: SuperOffice.WebApi.Data.Ticket_GetTicketsRequest.TicketIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

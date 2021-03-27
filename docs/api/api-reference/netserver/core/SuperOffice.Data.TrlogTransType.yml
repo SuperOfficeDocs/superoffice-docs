@@ -1,0 +1,1004 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.TrlogTransType
+  commentId: T:SuperOffice.Data.TrlogTransType
+  id: TrlogTransType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.TrlogTransType.Delete
+  - SuperOffice.Data.TrlogTransType.DeleteAreaUserAssignment
+  - SuperOffice.Data.TrlogTransType.DeleteAreaUserInclusion
+  - SuperOffice.Data.TrlogTransType.Insert
+  - SuperOffice.Data.TrlogTransType.OldUpdateContact
+  - SuperOffice.Data.TrlogTransType.OldUpdateProject
+  - SuperOffice.Data.TrlogTransType.PublishUdef
+  - SuperOffice.Data.TrlogTransType.TruncateTable
+  - SuperOffice.Data.TrlogTransType.Unknown
+  - SuperOffice.Data.TrlogTransType.Update
+  - SuperOffice.Data.TrlogTransType.UpdateContact
+  - SuperOffice.Data.TrlogTransType.UpdateFieldPart1
+  - SuperOffice.Data.TrlogTransType.UpdateFieldPart2
+  - SuperOffice.Data.TrlogTransType.UpdateFieldPart3
+  - SuperOffice.Data.TrlogTransType.UpdateFieldPart4
+  - SuperOffice.Data.TrlogTransType.UpdateFieldPart5
+  - SuperOffice.Data.TrlogTransType.UpdateFieldPart6
+  - SuperOffice.Data.TrlogTransType.UpdateFieldPart7
+  - SuperOffice.Data.TrlogTransType.UpdateFieldPart8
+  - SuperOffice.Data.TrlogTransType.UpdateOwner
+  - SuperOffice.Data.TrlogTransType.UpdateProject
+  langs:
+  - csharp
+  - vb
+  name: TrlogTransType
+  nameWithType: TrlogTransType
+  fullName: SuperOffice.Data.TrlogTransType
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nValue for field type in traveltransctionlog\nThis Enum is used by:  traveltransactionlog.type\n"
+  syntax:
+    content: 'public enum TrlogTransType : short'
+    content.vb: Public Enum TrlogTransType As Short
+  extensionMethods:
+  - SuperOffice.Data.TrlogTransType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.TrlogTransType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TrlogTransType)
+  - SuperOffice.Data.TrlogTransType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.TrlogTransType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.TrlogTransType.Unknown
+  commentId: F:SuperOffice.Data.TrlogTransType.Unknown
+  id: Unknown
+  parent: SuperOffice.Data.TrlogTransType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: TrlogTransType.Unknown
+  fullName: SuperOffice.Data.TrlogTransType.Unknown
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: Unknown - used when initializing\n"
+  syntax:
+    content: Unknown = 0
+    return:
+      type: SuperOffice.Data.TrlogTransType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TrlogTransType.Insert
+  commentId: F:SuperOffice.Data.TrlogTransType.Insert
+  id: Insert
+  parent: SuperOffice.Data.TrlogTransType
+  langs:
+  - csharp
+  - vb
+  name: Insert
+  nameWithType: TrlogTransType.Insert
+  fullName: SuperOffice.Data.TrlogTransType.Insert
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4352: A record has been inserted\n"
+  syntax:
+    content: Insert = 4352
+    return:
+      type: SuperOffice.Data.TrlogTransType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TrlogTransType.Update
+  commentId: F:SuperOffice.Data.TrlogTransType.Update
+  id: Update
+  parent: SuperOffice.Data.TrlogTransType
+  langs:
+  - csharp
+  - vb
+  name: Update
+  nameWithType: TrlogTransType.Update
+  fullName: SuperOffice.Data.TrlogTransType.Update
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4608: A record has been updated\n"
+  syntax:
+    content: Update = 4608
+    return:
+      type: SuperOffice.Data.TrlogTransType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TrlogTransType.Delete
+  commentId: F:SuperOffice.Data.TrlogTransType.Delete
+  id: Delete
+  parent: SuperOffice.Data.TrlogTransType
+  langs:
+  - csharp
+  - vb
+  name: Delete
+  nameWithType: TrlogTransType.Delete
+  fullName: SuperOffice.Data.TrlogTransType.Delete
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4864: A record has been deleted\n"
+  syntax:
+    content: Delete = 4864
+    return:
+      type: SuperOffice.Data.TrlogTransType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TrlogTransType.UpdateOwner
+  commentId: F:SuperOffice.Data.TrlogTransType.UpdateOwner
+  id: UpdateOwner
+  parent: SuperOffice.Data.TrlogTransType
+  langs:
+  - csharp
+  - vb
+  name: UpdateOwner
+  nameWithType: TrlogTransType.UpdateOwner
+  fullName: SuperOffice.Data.TrlogTransType.UpdateOwner
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n5120: The owning associate_id of the target record has been updated, old value in PrevrecordId\n"
+  syntax:
+    content: UpdateOwner = 5120
+    return:
+      type: SuperOffice.Data.TrlogTransType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TrlogTransType.OldUpdateContact
+  commentId: F:SuperOffice.Data.TrlogTransType.OldUpdateContact
+  id: OldUpdateContact
+  parent: SuperOffice.Data.TrlogTransType
+  langs:
+  - csharp
+  - vb
+  name: OldUpdateContact
+  nameWithType: TrlogTransType.OldUpdateContact
+  fullName: SuperOffice.Data.TrlogTransType.OldUpdateContact
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n5376: (Obsolete) The contact_id of the target record has been updated, old value in PrevRecordId\n"
+  syntax:
+    content: OldUpdateContact = 5376
+    return:
+      type: SuperOffice.Data.TrlogTransType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TrlogTransType.OldUpdateProject
+  commentId: F:SuperOffice.Data.TrlogTransType.OldUpdateProject
+  id: OldUpdateProject
+  parent: SuperOffice.Data.TrlogTransType
+  langs:
+  - csharp
+  - vb
+  name: OldUpdateProject
+  nameWithType: TrlogTransType.OldUpdateProject
+  fullName: SuperOffice.Data.TrlogTransType.OldUpdateProject
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n5632: (Obsolete) The project_id of the target record has been updated, old value in PrevRecordId\n"
+  syntax:
+    content: OldUpdateProject = 5632
+    return:
+      type: SuperOffice.Data.TrlogTransType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TrlogTransType.DeleteAreaUserInclusion
+  commentId: F:SuperOffice.Data.TrlogTransType.DeleteAreaUserInclusion
+  id: DeleteAreaUserInclusion
+  parent: SuperOffice.Data.TrlogTransType
+  langs:
+  - csharp
+  - vb
+  name: DeleteAreaUserInclusion
+  nameWithType: TrlogTransType.DeleteAreaUserInclusion
+  fullName: SuperOffice.Data.TrlogTransType.DeleteAreaUserInclusion
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n5888: A previously included (data inclusion) user has been removed from an area\n"
+  syntax:
+    content: DeleteAreaUserInclusion = 5888
+    return:
+      type: SuperOffice.Data.TrlogTransType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TrlogTransType.DeleteAreaUserAssignment
+  commentId: F:SuperOffice.Data.TrlogTransType.DeleteAreaUserAssignment
+  id: DeleteAreaUserAssignment
+  parent: SuperOffice.Data.TrlogTransType
+  langs:
+  - csharp
+  - vb
+  name: DeleteAreaUserAssignment
+  nameWithType: TrlogTransType.DeleteAreaUserAssignment
+  fullName: SuperOffice.Data.TrlogTransType.DeleteAreaUserAssignment
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n6144: A previously assigned (login rights) user has been delete from an Area\n"
+  syntax:
+    content: DeleteAreaUserAssignment = 6144
+    return:
+      type: SuperOffice.Data.TrlogTransType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TrlogTransType.PublishUdef
+  commentId: F:SuperOffice.Data.TrlogTransType.PublishUdef
+  id: PublishUdef
+  parent: SuperOffice.Data.TrlogTransType
+  langs:
+  - csharp
+  - vb
+  name: PublishUdef
+  nameWithType: TrlogTransType.PublishUdef
+  fullName: SuperOffice.Data.TrlogTransType.PublishUdef
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n6400: A new layout for User-defined fields has been published\n"
+  syntax:
+    content: PublishUdef = 6400
+    return:
+      type: SuperOffice.Data.TrlogTransType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TrlogTransType.UpdateFieldPart1
+  commentId: F:SuperOffice.Data.TrlogTransType.UpdateFieldPart1
+  id: UpdateFieldPart1
+  parent: SuperOffice.Data.TrlogTransType
+  langs:
+  - csharp
+  - vb
+  name: UpdateFieldPart1
+  nameWithType: TrlogTransType.UpdateFieldPart1
+  fullName: SuperOffice.Data.TrlogTransType.UpdateFieldPart1
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n8192: (Reserved) Bitmap of updated fields\n"
+  syntax:
+    content: UpdateFieldPart1 = 8192
+    return:
+      type: SuperOffice.Data.TrlogTransType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TrlogTransType.UpdateFieldPart2
+  commentId: F:SuperOffice.Data.TrlogTransType.UpdateFieldPart2
+  id: UpdateFieldPart2
+  parent: SuperOffice.Data.TrlogTransType
+  langs:
+  - csharp
+  - vb
+  name: UpdateFieldPart2
+  nameWithType: TrlogTransType.UpdateFieldPart2
+  fullName: SuperOffice.Data.TrlogTransType.UpdateFieldPart2
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n8193: (Reserved) Bitmap of updated fields\n"
+  syntax:
+    content: UpdateFieldPart2 = 8193
+    return:
+      type: SuperOffice.Data.TrlogTransType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TrlogTransType.UpdateFieldPart3
+  commentId: F:SuperOffice.Data.TrlogTransType.UpdateFieldPart3
+  id: UpdateFieldPart3
+  parent: SuperOffice.Data.TrlogTransType
+  langs:
+  - csharp
+  - vb
+  name: UpdateFieldPart3
+  nameWithType: TrlogTransType.UpdateFieldPart3
+  fullName: SuperOffice.Data.TrlogTransType.UpdateFieldPart3
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n8194: (Reserved) Bitmap of updated fields\n"
+  syntax:
+    content: UpdateFieldPart3 = 8194
+    return:
+      type: SuperOffice.Data.TrlogTransType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TrlogTransType.UpdateFieldPart4
+  commentId: F:SuperOffice.Data.TrlogTransType.UpdateFieldPart4
+  id: UpdateFieldPart4
+  parent: SuperOffice.Data.TrlogTransType
+  langs:
+  - csharp
+  - vb
+  name: UpdateFieldPart4
+  nameWithType: TrlogTransType.UpdateFieldPart4
+  fullName: SuperOffice.Data.TrlogTransType.UpdateFieldPart4
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n8195: (Reserved) Bitmap of updated fields\n"
+  syntax:
+    content: UpdateFieldPart4 = 8195
+    return:
+      type: SuperOffice.Data.TrlogTransType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TrlogTransType.UpdateFieldPart5
+  commentId: F:SuperOffice.Data.TrlogTransType.UpdateFieldPart5
+  id: UpdateFieldPart5
+  parent: SuperOffice.Data.TrlogTransType
+  langs:
+  - csharp
+  - vb
+  name: UpdateFieldPart5
+  nameWithType: TrlogTransType.UpdateFieldPart5
+  fullName: SuperOffice.Data.TrlogTransType.UpdateFieldPart5
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n8196: (Reserved) Bitmap of updated fields\n"
+  syntax:
+    content: UpdateFieldPart5 = 8196
+    return:
+      type: SuperOffice.Data.TrlogTransType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TrlogTransType.UpdateFieldPart6
+  commentId: F:SuperOffice.Data.TrlogTransType.UpdateFieldPart6
+  id: UpdateFieldPart6
+  parent: SuperOffice.Data.TrlogTransType
+  langs:
+  - csharp
+  - vb
+  name: UpdateFieldPart6
+  nameWithType: TrlogTransType.UpdateFieldPart6
+  fullName: SuperOffice.Data.TrlogTransType.UpdateFieldPart6
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n8197: (Reserved) Bitmap of updated fields\n"
+  syntax:
+    content: UpdateFieldPart6 = 8197
+    return:
+      type: SuperOffice.Data.TrlogTransType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TrlogTransType.UpdateFieldPart7
+  commentId: F:SuperOffice.Data.TrlogTransType.UpdateFieldPart7
+  id: UpdateFieldPart7
+  parent: SuperOffice.Data.TrlogTransType
+  langs:
+  - csharp
+  - vb
+  name: UpdateFieldPart7
+  nameWithType: TrlogTransType.UpdateFieldPart7
+  fullName: SuperOffice.Data.TrlogTransType.UpdateFieldPart7
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n8198: (Reserved) Bitmap of updated fields\n"
+  syntax:
+    content: UpdateFieldPart7 = 8198
+    return:
+      type: SuperOffice.Data.TrlogTransType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TrlogTransType.UpdateFieldPart8
+  commentId: F:SuperOffice.Data.TrlogTransType.UpdateFieldPart8
+  id: UpdateFieldPart8
+  parent: SuperOffice.Data.TrlogTransType
+  langs:
+  - csharp
+  - vb
+  name: UpdateFieldPart8
+  nameWithType: TrlogTransType.UpdateFieldPart8
+  fullName: SuperOffice.Data.TrlogTransType.UpdateFieldPart8
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n8199: (Reserved) Bitmap of updated fields\n"
+  syntax:
+    content: UpdateFieldPart8 = 8199
+    return:
+      type: SuperOffice.Data.TrlogTransType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TrlogTransType.UpdateContact
+  commentId: F:SuperOffice.Data.TrlogTransType.UpdateContact
+  id: UpdateContact
+  parent: SuperOffice.Data.TrlogTransType
+  langs:
+  - csharp
+  - vb
+  name: UpdateContact
+  nameWithType: TrlogTransType.UpdateContact
+  fullName: SuperOffice.Data.TrlogTransType.UpdateContact
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n10000: The contact_id of the target record has been changed, old value in PrevRecordId\n"
+  syntax:
+    content: UpdateContact = 10000
+    return:
+      type: SuperOffice.Data.TrlogTransType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TrlogTransType.UpdateProject
+  commentId: F:SuperOffice.Data.TrlogTransType.UpdateProject
+  id: UpdateProject
+  parent: SuperOffice.Data.TrlogTransType
+  langs:
+  - csharp
+  - vb
+  name: UpdateProject
+  nameWithType: TrlogTransType.UpdateProject
+  fullName: SuperOffice.Data.TrlogTransType.UpdateProject
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n20000: The project_id of the target record has been updated, odl value in PrevRecordId\n"
+  syntax:
+    content: UpdateProject = 20000
+    return:
+      type: SuperOffice.Data.TrlogTransType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TrlogTransType.TruncateTable
+  commentId: F:SuperOffice.Data.TrlogTransType.TruncateTable
+  id: TruncateTable
+  parent: SuperOffice.Data.TrlogTransType
+  langs:
+  - csharp
+  - vb
+  name: TruncateTable
+  nameWithType: TrlogTransType.TruncateTable
+  fullName: SuperOffice.Data.TrlogTransType.TruncateTable
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n21000: A TRUNCATE TABLE operation was performed against a table; no record of individual rows deleted exists but everything that WAS in the table is now gone for good\n"
+  syntax:
+    content: TruncateTable = 21000
+    return:
+      type: SuperOffice.Data.TrlogTransType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.TrlogTransType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TrlogTransType, To>()
+  nameWithType: EnumUtil.MapEnums<TrlogTransType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.TrlogTransType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TrlogTransType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.TrlogTransType, To)()
+  name.vb: MapEnums(Of TrlogTransType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TrlogTransType, To>
+    nameWithType: EnumUtil.MapEnums<TrlogTransType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.TrlogTransType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TrlogTransType, To)
+    nameWithType: EnumUtil.MapEnums(Of TrlogTransType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.TrlogTransType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.TrlogTransType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TrlogTransType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<TrlogTransType>(TrlogTransType)
+  nameWithType: ObjectExtensions.AssignByReflection<TrlogTransType>(TrlogTransType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TrlogTransType>(SuperOffice.Data.TrlogTransType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TrlogTransType)(TrlogTransType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TrlogTransType)(SuperOffice.Data.TrlogTransType)
+  name.vb: AssignByReflection(Of TrlogTransType)(TrlogTransType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<TrlogTransType>
+    nameWithType: ObjectExtensions.AssignByReflection<TrlogTransType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TrlogTransType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.TrlogTransType
+    name: TrlogTransType
+    nameWithType: TrlogTransType
+    fullName: SuperOffice.Data.TrlogTransType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of TrlogTransType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of TrlogTransType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TrlogTransType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.TrlogTransType
+    name: TrlogTransType
+    nameWithType: TrlogTransType
+    fullName: SuperOffice.Data.TrlogTransType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.TrlogTransType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<TrlogTransType>()
+  nameWithType: ObjectExtensions.GraphCopy<TrlogTransType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TrlogTransType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TrlogTransType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TrlogTransType)()
+  name.vb: GraphCopy(Of TrlogTransType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<TrlogTransType>
+    nameWithType: ObjectExtensions.GraphCopy<TrlogTransType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TrlogTransType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of TrlogTransType)
+    nameWithType: ObjectExtensions.GraphCopy(Of TrlogTransType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TrlogTransType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.TrlogTransType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TrlogTransType, To>()
+  nameWithType: Converters.MapEnums<TrlogTransType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TrlogTransType, To>()
+  nameWithType.vb: Converters.MapEnums(Of TrlogTransType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TrlogTransType, To)()
+  name.vb: MapEnums(Of TrlogTransType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TrlogTransType, To>
+    nameWithType: Converters.MapEnums<TrlogTransType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TrlogTransType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TrlogTransType, To)
+    nameWithType: Converters.MapEnums(Of TrlogTransType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TrlogTransType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.TrlogTransType
+  commentId: T:SuperOffice.Data.TrlogTransType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TrlogTransType
+  nameWithType: TrlogTransType
+  fullName: SuperOffice.Data.TrlogTransType

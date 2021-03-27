@@ -1,0 +1,3208 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.EventHandlerType
+  commentId: T:SuperOffice.Data.EventHandlerType
+  id: EventHandlerType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.EventHandlerType.ChatAfterSaveNewMessage
+  - SuperOffice.Data.EventHandlerType.ChatBeforeSaveNewMessage
+  - SuperOffice.Data.EventHandlerType.ChatNewSession
+  - SuperOffice.Data.EventHandlerType.ChatSessionChangedStatus
+  - SuperOffice.Data.EventHandlerType.CompactModeInjection
+  - SuperOffice.Data.EventHandlerType.CustomerCenterAuthentication
+  - SuperOffice.Data.EventHandlerType.CustomerSetSubscriptions
+  - SuperOffice.Data.EventHandlerType.DbiTaskFailed
+  - SuperOffice.Data.EventHandlerType.ImportMailAfterProcessing
+  - SuperOffice.Data.EventHandlerType.ImportMailBeforeProcessing
+  - SuperOffice.Data.EventHandlerType.MainMenu
+  - SuperOffice.Data.EventHandlerType.NewNotifyTicketFromForm
+  - SuperOffice.Data.EventHandlerType.NewTicket
+  - SuperOffice.Data.EventHandlerType.NewTicketFromCustomerCenter
+  - SuperOffice.Data.EventHandlerType.NewTicketFromCustomerCenterBeforeSave
+  - SuperOffice.Data.EventHandlerType.NewTicketFromEmail
+  - SuperOffice.Data.EventHandlerType.NewTicketFromForm
+  - SuperOffice.Data.EventHandlerType.NewTicketFromSpmLink
+  - SuperOffice.Data.EventHandlerType.SalesAfterSaveAppointment
+  - SuperOffice.Data.EventHandlerType.SalesAfterSaveContact
+  - SuperOffice.Data.EventHandlerType.SalesAfterSaveDocument
+  - SuperOffice.Data.EventHandlerType.SalesAfterSavePerson
+  - SuperOffice.Data.EventHandlerType.SalesAfterSaveProject
+  - SuperOffice.Data.EventHandlerType.SalesAfterSaveProjectMember
+  - SuperOffice.Data.EventHandlerType.SalesAfterSaveQuote
+  - SuperOffice.Data.EventHandlerType.SalesAfterSaveQuoteLine
+  - SuperOffice.Data.EventHandlerType.SalesAfterSaveRelation
+  - SuperOffice.Data.EventHandlerType.SalesAfterSaveSale
+  - SuperOffice.Data.EventHandlerType.SalesAfterSaveSelection
+  - SuperOffice.Data.EventHandlerType.SalesAfterSaveSelectionMember
+  - SuperOffice.Data.EventHandlerType.SalesAfterSaveStakeholder
+  - SuperOffice.Data.EventHandlerType.SalesBeforeSaveAppointment
+  - SuperOffice.Data.EventHandlerType.SalesBeforeSaveContact
+  - SuperOffice.Data.EventHandlerType.SalesBeforeSaveDocument
+  - SuperOffice.Data.EventHandlerType.SalesBeforeSavePerson
+  - SuperOffice.Data.EventHandlerType.SalesBeforeSaveProject
+  - SuperOffice.Data.EventHandlerType.SalesBeforeSaveProjectMember
+  - SuperOffice.Data.EventHandlerType.SalesBeforeSaveQuote
+  - SuperOffice.Data.EventHandlerType.SalesBeforeSaveQuoteLine
+  - SuperOffice.Data.EventHandlerType.SalesBeforeSaveRelation
+  - SuperOffice.Data.EventHandlerType.SalesBeforeSaveSale
+  - SuperOffice.Data.EventHandlerType.SalesBeforeSaveSelection
+  - SuperOffice.Data.EventHandlerType.SalesBeforeSaveSelectionMember
+  - SuperOffice.Data.EventHandlerType.SalesBeforeSaveStakeholder
+  - SuperOffice.Data.EventHandlerType.ScheduledTaskFailed
+  - SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageAfterSubmit
+  - SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageBeforeSubmit
+  - SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageLoad
+  - SuperOffice.Data.EventHandlerType.ServiceScreenEditCompanyAfterSubmit
+  - SuperOffice.Data.EventHandlerType.ServiceScreenEditCompanyBeforeSubmit
+  - SuperOffice.Data.EventHandlerType.ServiceScreenEditCompanyLoad
+  - SuperOffice.Data.EventHandlerType.ServiceScreenEditCustomerAfterSubmit
+  - SuperOffice.Data.EventHandlerType.ServiceScreenEditCustomerBeforeSubmit
+  - SuperOffice.Data.EventHandlerType.ServiceScreenEditCustomerLoad
+  - SuperOffice.Data.EventHandlerType.ServiceScreenEditExtraTableAfterSubmit
+  - SuperOffice.Data.EventHandlerType.ServiceScreenEditExtraTableBeforeSubmit
+  - SuperOffice.Data.EventHandlerType.ServiceScreenEditExtraTableLoad
+  - SuperOffice.Data.EventHandlerType.ServiceScreenEditTicketAfterSubmit
+  - SuperOffice.Data.EventHandlerType.ServiceScreenEditTicketBeforeSubmit
+  - SuperOffice.Data.EventHandlerType.ServiceScreenEditTicketLoad
+  - SuperOffice.Data.EventHandlerType.ServiceScreenForwardAfterSubmit
+  - SuperOffice.Data.EventHandlerType.ServiceScreenForwardBeforeSubmit
+  - SuperOffice.Data.EventHandlerType.ServiceScreenForwardLoad
+  - SuperOffice.Data.EventHandlerType.ServiceScreenListTicketMessagesAfterSubmit
+  - SuperOffice.Data.EventHandlerType.ServiceScreenListTicketMessagesBeforeSubmit
+  - SuperOffice.Data.EventHandlerType.ServiceScreenListTicketMessagesLoad
+  - SuperOffice.Data.EventHandlerType.ServiceScreenNewQuickTicketAfterSubmit
+  - SuperOffice.Data.EventHandlerType.ServiceScreenNewQuickTicketBeforeSubmit
+  - SuperOffice.Data.EventHandlerType.ServiceScreenNewQuickTicketLoad
+  - SuperOffice.Data.EventHandlerType.ServiceScreenNewTicketAfterSubmit
+  - SuperOffice.Data.EventHandlerType.ServiceScreenNewTicketBeforeSubmit
+  - SuperOffice.Data.EventHandlerType.ServiceScreenNewTicketLoad
+  - SuperOffice.Data.EventHandlerType.ServiceScreenViewCompanyAfterSubmit
+  - SuperOffice.Data.EventHandlerType.ServiceScreenViewCompanyBeforeSubmit
+  - SuperOffice.Data.EventHandlerType.ServiceScreenViewCompanyLoad
+  - SuperOffice.Data.EventHandlerType.ServiceScreenViewCustomerAfterSubmit
+  - SuperOffice.Data.EventHandlerType.ServiceScreenViewCustomerBeforeSubmit
+  - SuperOffice.Data.EventHandlerType.ServiceScreenViewCustomerLoad
+  - SuperOffice.Data.EventHandlerType.TicketActivated
+  - SuperOffice.Data.EventHandlerType.TicketChangedCategory
+  - SuperOffice.Data.EventHandlerType.TicketChangedOwnedBy
+  - SuperOffice.Data.EventHandlerType.TicketChangedPrimaryCustomer
+  - SuperOffice.Data.EventHandlerType.TicketChangedPriority
+  - SuperOffice.Data.EventHandlerType.TicketChangedSlevel
+  - SuperOffice.Data.EventHandlerType.TicketChangedTicketStatus
+  - SuperOffice.Data.EventHandlerType.TicketClosed
+  - SuperOffice.Data.EventHandlerType.TicketDeleted
+  - SuperOffice.Data.EventHandlerType.TicketExternalMessageAdded
+  - SuperOffice.Data.EventHandlerType.TicketInternalMessageAdded
+  - SuperOffice.Data.EventHandlerType.TicketMessageAdded
+  - SuperOffice.Data.EventHandlerType.TicketMessageSentimentCalculated
+  - SuperOffice.Data.EventHandlerType.TicketPostponed
+  - SuperOffice.Data.EventHandlerType.TicketReopened
+  - SuperOffice.Data.EventHandlerType.TicketReopenedFromCustomerCenter
+  - SuperOffice.Data.EventHandlerType.TicketReopenedFromEmail
+  - SuperOffice.Data.EventHandlerType.TicketSave
+  - SuperOffice.Data.EventHandlerType.Unknown
+  langs:
+  - csharp
+  - vb
+  name: EventHandlerType
+  nameWithType: EventHandlerType
+  fullName: SuperOffice.Data.EventHandlerType
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCrmScript Event triggers - when CRMScript is run based on user or system actions. \n"
+  syntax:
+    content: public enum EventHandlerType
+    content.vb: Public Enum EventHandlerType
+  extensionMethods:
+  - SuperOffice.Data.EventHandlerType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.EventHandlerType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EventHandlerType)
+  - SuperOffice.Data.EventHandlerType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.EventHandlerType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.EventHandlerType.Unknown
+  commentId: F:SuperOffice.Data.EventHandlerType.Unknown
+  id: Unknown
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: EventHandlerType.Unknown
+  fullName: SuperOffice.Data.EventHandlerType.Unknown
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: Unknown trigger\n"
+  syntax:
+    content: Unknown = 0
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.NewTicket
+  commentId: F:SuperOffice.Data.EventHandlerType.NewTicket
+  id: NewTicket
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: NewTicket
+  nameWithType: EventHandlerType.NewTicket
+  fullName: SuperOffice.Data.EventHandlerType.NewTicket
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n100: NewTicket\n"
+  syntax:
+    content: NewTicket = 100
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.NewTicketFromCustomerCenter
+  commentId: F:SuperOffice.Data.EventHandlerType.NewTicketFromCustomerCenter
+  id: NewTicketFromCustomerCenter
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: NewTicketFromCustomerCenter
+  nameWithType: EventHandlerType.NewTicketFromCustomerCenter
+  fullName: SuperOffice.Data.EventHandlerType.NewTicketFromCustomerCenter
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n101: NewTicketFromCustomerCenter\n"
+  syntax:
+    content: NewTicketFromCustomerCenter = 101
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.NewTicketFromEmail
+  commentId: F:SuperOffice.Data.EventHandlerType.NewTicketFromEmail
+  id: NewTicketFromEmail
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: NewTicketFromEmail
+  nameWithType: EventHandlerType.NewTicketFromEmail
+  fullName: SuperOffice.Data.EventHandlerType.NewTicketFromEmail
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n102: NewTicketFromEmail\n"
+  syntax:
+    content: NewTicketFromEmail = 102
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.NewTicketFromCustomerCenterBeforeSave
+  commentId: F:SuperOffice.Data.EventHandlerType.NewTicketFromCustomerCenterBeforeSave
+  id: NewTicketFromCustomerCenterBeforeSave
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: NewTicketFromCustomerCenterBeforeSave
+  nameWithType: EventHandlerType.NewTicketFromCustomerCenterBeforeSave
+  fullName: SuperOffice.Data.EventHandlerType.NewTicketFromCustomerCenterBeforeSave
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n103: NewTicketFromCustomerCenterBeforeSave\n"
+  syntax:
+    content: NewTicketFromCustomerCenterBeforeSave = 103
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.NewTicketFromSpmLink
+  commentId: F:SuperOffice.Data.EventHandlerType.NewTicketFromSpmLink
+  id: NewTicketFromSpmLink
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: NewTicketFromSpmLink
+  nameWithType: EventHandlerType.NewTicketFromSpmLink
+  fullName: SuperOffice.Data.EventHandlerType.NewTicketFromSpmLink
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n104: NewTicketFromSpmLink\n"
+  syntax:
+    content: NewTicketFromSpmLink = 104
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.NewNotifyTicketFromForm
+  commentId: F:SuperOffice.Data.EventHandlerType.NewNotifyTicketFromForm
+  id: NewNotifyTicketFromForm
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: NewNotifyTicketFromForm
+  nameWithType: EventHandlerType.NewNotifyTicketFromForm
+  fullName: SuperOffice.Data.EventHandlerType.NewNotifyTicketFromForm
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n105: NewNotifyTicketFromForm\n"
+  syntax:
+    content: NewNotifyTicketFromForm = 105
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.NewTicketFromForm
+  commentId: F:SuperOffice.Data.EventHandlerType.NewTicketFromForm
+  id: NewTicketFromForm
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: NewTicketFromForm
+  nameWithType: EventHandlerType.NewTicketFromForm
+  fullName: SuperOffice.Data.EventHandlerType.NewTicketFromForm
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n106: NewTicketFromForm\n"
+  syntax:
+    content: NewTicketFromForm = 106
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.TicketSave
+  commentId: F:SuperOffice.Data.EventHandlerType.TicketSave
+  id: TicketSave
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketSave
+  nameWithType: EventHandlerType.TicketSave
+  fullName: SuperOffice.Data.EventHandlerType.TicketSave
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n109: TicketSave\n"
+  syntax:
+    content: TicketSave = 109
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.TicketClosed
+  commentId: F:SuperOffice.Data.EventHandlerType.TicketClosed
+  id: TicketClosed
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketClosed
+  nameWithType: EventHandlerType.TicketClosed
+  fullName: SuperOffice.Data.EventHandlerType.TicketClosed
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n110: TicketClosed\n"
+  syntax:
+    content: TicketClosed = 110
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.TicketPostponed
+  commentId: F:SuperOffice.Data.EventHandlerType.TicketPostponed
+  id: TicketPostponed
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketPostponed
+  nameWithType: EventHandlerType.TicketPostponed
+  fullName: SuperOffice.Data.EventHandlerType.TicketPostponed
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n111: TicketPostponed\n"
+  syntax:
+    content: TicketPostponed = 111
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.TicketDeleted
+  commentId: F:SuperOffice.Data.EventHandlerType.TicketDeleted
+  id: TicketDeleted
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketDeleted
+  nameWithType: EventHandlerType.TicketDeleted
+  fullName: SuperOffice.Data.EventHandlerType.TicketDeleted
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n112: TicketDeleted\n"
+  syntax:
+    content: TicketDeleted = 112
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.TicketActivated
+  commentId: F:SuperOffice.Data.EventHandlerType.TicketActivated
+  id: TicketActivated
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketActivated
+  nameWithType: EventHandlerType.TicketActivated
+  fullName: SuperOffice.Data.EventHandlerType.TicketActivated
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n113: TicketActivated\n"
+  syntax:
+    content: TicketActivated = 113
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.TicketReopened
+  commentId: F:SuperOffice.Data.EventHandlerType.TicketReopened
+  id: TicketReopened
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketReopened
+  nameWithType: EventHandlerType.TicketReopened
+  fullName: SuperOffice.Data.EventHandlerType.TicketReopened
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n120: TicketReopened\n"
+  syntax:
+    content: TicketReopened = 120
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.TicketReopenedFromCustomerCenter
+  commentId: F:SuperOffice.Data.EventHandlerType.TicketReopenedFromCustomerCenter
+  id: TicketReopenedFromCustomerCenter
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketReopenedFromCustomerCenter
+  nameWithType: EventHandlerType.TicketReopenedFromCustomerCenter
+  fullName: SuperOffice.Data.EventHandlerType.TicketReopenedFromCustomerCenter
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n121: TicketReopenedFromCustomerCenter\n"
+  syntax:
+    content: TicketReopenedFromCustomerCenter = 121
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.TicketReopenedFromEmail
+  commentId: F:SuperOffice.Data.EventHandlerType.TicketReopenedFromEmail
+  id: TicketReopenedFromEmail
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketReopenedFromEmail
+  nameWithType: EventHandlerType.TicketReopenedFromEmail
+  fullName: SuperOffice.Data.EventHandlerType.TicketReopenedFromEmail
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n122: TicketReopenedFromEmail\n"
+  syntax:
+    content: TicketReopenedFromEmail = 122
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.TicketChangedPriority
+  commentId: F:SuperOffice.Data.EventHandlerType.TicketChangedPriority
+  id: TicketChangedPriority
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketChangedPriority
+  nameWithType: EventHandlerType.TicketChangedPriority
+  fullName: SuperOffice.Data.EventHandlerType.TicketChangedPriority
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n140: TicketChangedPriority\n"
+  syntax:
+    content: TicketChangedPriority = 140
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.TicketChangedCategory
+  commentId: F:SuperOffice.Data.EventHandlerType.TicketChangedCategory
+  id: TicketChangedCategory
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketChangedCategory
+  nameWithType: EventHandlerType.TicketChangedCategory
+  fullName: SuperOffice.Data.EventHandlerType.TicketChangedCategory
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n141: TicketChangedCategory\n"
+  syntax:
+    content: TicketChangedCategory = 141
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.TicketChangedOwnedBy
+  commentId: F:SuperOffice.Data.EventHandlerType.TicketChangedOwnedBy
+  id: TicketChangedOwnedBy
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketChangedOwnedBy
+  nameWithType: EventHandlerType.TicketChangedOwnedBy
+  fullName: SuperOffice.Data.EventHandlerType.TicketChangedOwnedBy
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n142: TicketChangedOwnedBy\n"
+  syntax:
+    content: TicketChangedOwnedBy = 142
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.TicketChangedPrimaryCustomer
+  commentId: F:SuperOffice.Data.EventHandlerType.TicketChangedPrimaryCustomer
+  id: TicketChangedPrimaryCustomer
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketChangedPrimaryCustomer
+  nameWithType: EventHandlerType.TicketChangedPrimaryCustomer
+  fullName: SuperOffice.Data.EventHandlerType.TicketChangedPrimaryCustomer
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n143: TicketChangedPrimaryCustomer\n"
+  syntax:
+    content: TicketChangedPrimaryCustomer = 143
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.TicketChangedTicketStatus
+  commentId: F:SuperOffice.Data.EventHandlerType.TicketChangedTicketStatus
+  id: TicketChangedTicketStatus
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketChangedTicketStatus
+  nameWithType: EventHandlerType.TicketChangedTicketStatus
+  fullName: SuperOffice.Data.EventHandlerType.TicketChangedTicketStatus
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n144: TicketChangedTicketStatus\n"
+  syntax:
+    content: TicketChangedTicketStatus = 144
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.TicketChangedSlevel
+  commentId: F:SuperOffice.Data.EventHandlerType.TicketChangedSlevel
+  id: TicketChangedSlevel
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketChangedSlevel
+  nameWithType: EventHandlerType.TicketChangedSlevel
+  fullName: SuperOffice.Data.EventHandlerType.TicketChangedSlevel
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n145: TicketChangedSlevel\n"
+  syntax:
+    content: TicketChangedSlevel = 145
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.TicketMessageAdded
+  commentId: F:SuperOffice.Data.EventHandlerType.TicketMessageAdded
+  id: TicketMessageAdded
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketMessageAdded
+  nameWithType: EventHandlerType.TicketMessageAdded
+  fullName: SuperOffice.Data.EventHandlerType.TicketMessageAdded
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n150: TicketMessageAdded\n"
+  syntax:
+    content: TicketMessageAdded = 150
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.TicketInternalMessageAdded
+  commentId: F:SuperOffice.Data.EventHandlerType.TicketInternalMessageAdded
+  id: TicketInternalMessageAdded
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketInternalMessageAdded
+  nameWithType: EventHandlerType.TicketInternalMessageAdded
+  fullName: SuperOffice.Data.EventHandlerType.TicketInternalMessageAdded
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n151: TicketInternalMessageAdded\n"
+  syntax:
+    content: TicketInternalMessageAdded = 151
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.TicketExternalMessageAdded
+  commentId: F:SuperOffice.Data.EventHandlerType.TicketExternalMessageAdded
+  id: TicketExternalMessageAdded
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketExternalMessageAdded
+  nameWithType: EventHandlerType.TicketExternalMessageAdded
+  fullName: SuperOffice.Data.EventHandlerType.TicketExternalMessageAdded
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n152: TicketExternalMessageAdded\n"
+  syntax:
+    content: TicketExternalMessageAdded = 152
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.TicketMessageSentimentCalculated
+  commentId: F:SuperOffice.Data.EventHandlerType.TicketMessageSentimentCalculated
+  id: TicketMessageSentimentCalculated
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: TicketMessageSentimentCalculated
+  nameWithType: EventHandlerType.TicketMessageSentimentCalculated
+  fullName: SuperOffice.Data.EventHandlerType.TicketMessageSentimentCalculated
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n153: TicketMessageSentimentCalculated\n"
+  syntax:
+    content: TicketMessageSentimentCalculated = 153
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.CompactModeInjection
+  commentId: F:SuperOffice.Data.EventHandlerType.CompactModeInjection
+  id: CompactModeInjection
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: CompactModeInjection
+  nameWithType: EventHandlerType.CompactModeInjection
+  fullName: SuperOffice.Data.EventHandlerType.CompactModeInjection
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n200: CompactModeInjection\n"
+  syntax:
+    content: CompactModeInjection = 200
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.CustomerCenterAuthentication
+  commentId: F:SuperOffice.Data.EventHandlerType.CustomerCenterAuthentication
+  id: CustomerCenterAuthentication
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: CustomerCenterAuthentication
+  nameWithType: EventHandlerType.CustomerCenterAuthentication
+  fullName: SuperOffice.Data.EventHandlerType.CustomerCenterAuthentication
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n210: CustomerCenterAuthentication\n"
+  syntax:
+    content: CustomerCenterAuthentication = 210
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ScheduledTaskFailed
+  commentId: F:SuperOffice.Data.EventHandlerType.ScheduledTaskFailed
+  id: ScheduledTaskFailed
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ScheduledTaskFailed
+  nameWithType: EventHandlerType.ScheduledTaskFailed
+  fullName: SuperOffice.Data.EventHandlerType.ScheduledTaskFailed
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n300: ScheduledTaskFailed\n"
+  syntax:
+    content: ScheduledTaskFailed = 300
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.DbiTaskFailed
+  commentId: F:SuperOffice.Data.EventHandlerType.DbiTaskFailed
+  id: DbiTaskFailed
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: DbiTaskFailed
+  nameWithType: EventHandlerType.DbiTaskFailed
+  fullName: SuperOffice.Data.EventHandlerType.DbiTaskFailed
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n301: DbiTaskFailed\n"
+  syntax:
+    content: DbiTaskFailed = 301
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.CustomerSetSubscriptions
+  commentId: F:SuperOffice.Data.EventHandlerType.CustomerSetSubscriptions
+  id: CustomerSetSubscriptions
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: CustomerSetSubscriptions
+  nameWithType: EventHandlerType.CustomerSetSubscriptions
+  fullName: SuperOffice.Data.EventHandlerType.CustomerSetSubscriptions
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n302: CustomerSetSubscriptions\n"
+  syntax:
+    content: CustomerSetSubscriptions = 302
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ImportMailBeforeProcessing
+  commentId: F:SuperOffice.Data.EventHandlerType.ImportMailBeforeProcessing
+  id: ImportMailBeforeProcessing
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ImportMailBeforeProcessing
+  nameWithType: EventHandlerType.ImportMailBeforeProcessing
+  fullName: SuperOffice.Data.EventHandlerType.ImportMailBeforeProcessing
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n303: ImportMailBeforeProcessing\n"
+  syntax:
+    content: ImportMailBeforeProcessing = 303
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ImportMailAfterProcessing
+  commentId: F:SuperOffice.Data.EventHandlerType.ImportMailAfterProcessing
+  id: ImportMailAfterProcessing
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ImportMailAfterProcessing
+  nameWithType: EventHandlerType.ImportMailAfterProcessing
+  fullName: SuperOffice.Data.EventHandlerType.ImportMailAfterProcessing
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n304: ImportMailAfterProcessing\n"
+  syntax:
+    content: ImportMailAfterProcessing = 304
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.MainMenu
+  commentId: F:SuperOffice.Data.EventHandlerType.MainMenu
+  id: MainMenu
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: MainMenu
+  nameWithType: EventHandlerType.MainMenu
+  fullName: SuperOffice.Data.EventHandlerType.MainMenu
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n305: MainMenu\n"
+  syntax:
+    content: MainMenu = 305
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ChatNewSession
+  commentId: F:SuperOffice.Data.EventHandlerType.ChatNewSession
+  id: ChatNewSession
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ChatNewSession
+  nameWithType: EventHandlerType.ChatNewSession
+  fullName: SuperOffice.Data.EventHandlerType.ChatNewSession
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n400: ChatNewSession\n"
+  syntax:
+    content: ChatNewSession = 400
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ChatSessionChangedStatus
+  commentId: F:SuperOffice.Data.EventHandlerType.ChatSessionChangedStatus
+  id: ChatSessionChangedStatus
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ChatSessionChangedStatus
+  nameWithType: EventHandlerType.ChatSessionChangedStatus
+  fullName: SuperOffice.Data.EventHandlerType.ChatSessionChangedStatus
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n401: ChatSessionChangedStatus\n"
+  syntax:
+    content: ChatSessionChangedStatus = 401
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ChatBeforeSaveNewMessage
+  commentId: F:SuperOffice.Data.EventHandlerType.ChatBeforeSaveNewMessage
+  id: ChatBeforeSaveNewMessage
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ChatBeforeSaveNewMessage
+  nameWithType: EventHandlerType.ChatBeforeSaveNewMessage
+  fullName: SuperOffice.Data.EventHandlerType.ChatBeforeSaveNewMessage
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n402: ChatBeforeSaveNewMessage\n"
+  syntax:
+    content: ChatBeforeSaveNewMessage = 402
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ChatAfterSaveNewMessage
+  commentId: F:SuperOffice.Data.EventHandlerType.ChatAfterSaveNewMessage
+  id: ChatAfterSaveNewMessage
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ChatAfterSaveNewMessage
+  nameWithType: EventHandlerType.ChatAfterSaveNewMessage
+  fullName: SuperOffice.Data.EventHandlerType.ChatAfterSaveNewMessage
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n403: ChatAfterSaveNewMessage\n"
+  syntax:
+    content: ChatAfterSaveNewMessage = 403
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenNewTicketLoad
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenNewTicketLoad
+  id: ServiceScreenNewTicketLoad
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenNewTicketLoad
+  nameWithType: EventHandlerType.ServiceScreenNewTicketLoad
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenNewTicketLoad
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n500: ServiceScreenNewTicketLoad\n"
+  syntax:
+    content: ServiceScreenNewTicketLoad = 500
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenNewQuickTicketLoad
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenNewQuickTicketLoad
+  id: ServiceScreenNewQuickTicketLoad
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenNewQuickTicketLoad
+  nameWithType: EventHandlerType.ServiceScreenNewQuickTicketLoad
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenNewQuickTicketLoad
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n501: ServiceScreenNewQuickTicketLoad\n"
+  syntax:
+    content: ServiceScreenNewQuickTicketLoad = 501
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenListTicketMessagesLoad
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenListTicketMessagesLoad
+  id: ServiceScreenListTicketMessagesLoad
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenListTicketMessagesLoad
+  nameWithType: EventHandlerType.ServiceScreenListTicketMessagesLoad
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenListTicketMessagesLoad
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n502: ServiceScreenListTicketMessagesLoad\n"
+  syntax:
+    content: ServiceScreenListTicketMessagesLoad = 502
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageLoad
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageLoad
+  id: ServiceScreenAddMessageLoad
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenAddMessageLoad
+  nameWithType: EventHandlerType.ServiceScreenAddMessageLoad
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageLoad
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n503: ServiceScreenAddMessageLoad\n"
+  syntax:
+    content: ServiceScreenAddMessageLoad = 503
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenEditTicketLoad
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenEditTicketLoad
+  id: ServiceScreenEditTicketLoad
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenEditTicketLoad
+  nameWithType: EventHandlerType.ServiceScreenEditTicketLoad
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditTicketLoad
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n504: ServiceScreenEditTicketLoad\n"
+  syntax:
+    content: ServiceScreenEditTicketLoad = 504
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenViewCustomerLoad
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenViewCustomerLoad
+  id: ServiceScreenViewCustomerLoad
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenViewCustomerLoad
+  nameWithType: EventHandlerType.ServiceScreenViewCustomerLoad
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenViewCustomerLoad
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n505: ServiceScreenViewCustomerLoad\n"
+  syntax:
+    content: ServiceScreenViewCustomerLoad = 505
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenEditCustomerLoad
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenEditCustomerLoad
+  id: ServiceScreenEditCustomerLoad
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenEditCustomerLoad
+  nameWithType: EventHandlerType.ServiceScreenEditCustomerLoad
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditCustomerLoad
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n506: ServiceScreenEditCustomerLoad\n"
+  syntax:
+    content: ServiceScreenEditCustomerLoad = 506
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenViewCompanyLoad
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenViewCompanyLoad
+  id: ServiceScreenViewCompanyLoad
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenViewCompanyLoad
+  nameWithType: EventHandlerType.ServiceScreenViewCompanyLoad
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenViewCompanyLoad
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n507: ServiceScreenViewCompanyLoad\n"
+  syntax:
+    content: ServiceScreenViewCompanyLoad = 507
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenEditCompanyLoad
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenEditCompanyLoad
+  id: ServiceScreenEditCompanyLoad
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenEditCompanyLoad
+  nameWithType: EventHandlerType.ServiceScreenEditCompanyLoad
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditCompanyLoad
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n508: ServiceScreenEditCompanyLoad\n"
+  syntax:
+    content: ServiceScreenEditCompanyLoad = 508
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenForwardLoad
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenForwardLoad
+  id: ServiceScreenForwardLoad
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenForwardLoad
+  nameWithType: EventHandlerType.ServiceScreenForwardLoad
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenForwardLoad
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n509: ServiceScreenForwardLoad\n"
+  syntax:
+    content: ServiceScreenForwardLoad = 509
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenEditExtraTableLoad
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenEditExtraTableLoad
+  id: ServiceScreenEditExtraTableLoad
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenEditExtraTableLoad
+  nameWithType: EventHandlerType.ServiceScreenEditExtraTableLoad
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditExtraTableLoad
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n510: ServiceScreenEditExtraTableLoad\n"
+  syntax:
+    content: ServiceScreenEditExtraTableLoad = 510
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenNewTicketBeforeSubmit
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenNewTicketBeforeSubmit
+  id: ServiceScreenNewTicketBeforeSubmit
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenNewTicketBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenNewTicketBeforeSubmit
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenNewTicketBeforeSubmit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n600: ServiceScreenNewTicketBeforeSubmit\n"
+  syntax:
+    content: ServiceScreenNewTicketBeforeSubmit = 600
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenNewQuickTicketBeforeSubmit
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenNewQuickTicketBeforeSubmit
+  id: ServiceScreenNewQuickTicketBeforeSubmit
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenNewQuickTicketBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenNewQuickTicketBeforeSubmit
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenNewQuickTicketBeforeSubmit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n601: ServiceScreenNewQuickTicketBeforeSubmit\n"
+  syntax:
+    content: ServiceScreenNewQuickTicketBeforeSubmit = 601
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenListTicketMessagesBeforeSubmit
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenListTicketMessagesBeforeSubmit
+  id: ServiceScreenListTicketMessagesBeforeSubmit
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenListTicketMessagesBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenListTicketMessagesBeforeSubmit
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenListTicketMessagesBeforeSubmit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n602: ServiceScreenListTicketMessagesBeforeSubmit\n"
+  syntax:
+    content: ServiceScreenListTicketMessagesBeforeSubmit = 602
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageBeforeSubmit
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageBeforeSubmit
+  id: ServiceScreenAddMessageBeforeSubmit
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenAddMessageBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenAddMessageBeforeSubmit
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageBeforeSubmit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n603: ServiceScreenAddMessageBeforeSubmit\n"
+  syntax:
+    content: ServiceScreenAddMessageBeforeSubmit = 603
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenEditTicketBeforeSubmit
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenEditTicketBeforeSubmit
+  id: ServiceScreenEditTicketBeforeSubmit
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenEditTicketBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenEditTicketBeforeSubmit
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditTicketBeforeSubmit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n604: ServiceScreenEditTicketBeforeSubmit\n"
+  syntax:
+    content: ServiceScreenEditTicketBeforeSubmit = 604
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenViewCustomerBeforeSubmit
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenViewCustomerBeforeSubmit
+  id: ServiceScreenViewCustomerBeforeSubmit
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenViewCustomerBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenViewCustomerBeforeSubmit
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenViewCustomerBeforeSubmit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n605: ServiceScreenViewCustomerBeforeSubmit\n"
+  syntax:
+    content: ServiceScreenViewCustomerBeforeSubmit = 605
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenEditCustomerBeforeSubmit
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenEditCustomerBeforeSubmit
+  id: ServiceScreenEditCustomerBeforeSubmit
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenEditCustomerBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenEditCustomerBeforeSubmit
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditCustomerBeforeSubmit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n606: ServiceScreenEditCustomerBeforeSubmit\n"
+  syntax:
+    content: ServiceScreenEditCustomerBeforeSubmit = 606
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenViewCompanyBeforeSubmit
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenViewCompanyBeforeSubmit
+  id: ServiceScreenViewCompanyBeforeSubmit
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenViewCompanyBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenViewCompanyBeforeSubmit
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenViewCompanyBeforeSubmit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n607: ServiceScreenViewCompanyBeforeSubmit\n"
+  syntax:
+    content: ServiceScreenViewCompanyBeforeSubmit = 607
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenEditCompanyBeforeSubmit
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenEditCompanyBeforeSubmit
+  id: ServiceScreenEditCompanyBeforeSubmit
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenEditCompanyBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenEditCompanyBeforeSubmit
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditCompanyBeforeSubmit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n608: ServiceScreenEditCompanyBeforeSubmit\n"
+  syntax:
+    content: ServiceScreenEditCompanyBeforeSubmit = 608
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenForwardBeforeSubmit
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenForwardBeforeSubmit
+  id: ServiceScreenForwardBeforeSubmit
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenForwardBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenForwardBeforeSubmit
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenForwardBeforeSubmit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n609: ServiceScreenForwardBeforeSubmit\n"
+  syntax:
+    content: ServiceScreenForwardBeforeSubmit = 609
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenEditExtraTableBeforeSubmit
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenEditExtraTableBeforeSubmit
+  id: ServiceScreenEditExtraTableBeforeSubmit
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenEditExtraTableBeforeSubmit
+  nameWithType: EventHandlerType.ServiceScreenEditExtraTableBeforeSubmit
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditExtraTableBeforeSubmit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n610: ServiceScreenEditExtraTableBeforeSubmit\n"
+  syntax:
+    content: ServiceScreenEditExtraTableBeforeSubmit = 610
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenNewTicketAfterSubmit
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenNewTicketAfterSubmit
+  id: ServiceScreenNewTicketAfterSubmit
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenNewTicketAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenNewTicketAfterSubmit
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenNewTicketAfterSubmit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n700: ServiceScreenNewTicketAfterSubmit\n"
+  syntax:
+    content: ServiceScreenNewTicketAfterSubmit = 700
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenNewQuickTicketAfterSubmit
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenNewQuickTicketAfterSubmit
+  id: ServiceScreenNewQuickTicketAfterSubmit
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenNewQuickTicketAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenNewQuickTicketAfterSubmit
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenNewQuickTicketAfterSubmit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n701: ServiceScreenNewQuickTicketAfterSubmit\n"
+  syntax:
+    content: ServiceScreenNewQuickTicketAfterSubmit = 701
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenListTicketMessagesAfterSubmit
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenListTicketMessagesAfterSubmit
+  id: ServiceScreenListTicketMessagesAfterSubmit
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenListTicketMessagesAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenListTicketMessagesAfterSubmit
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenListTicketMessagesAfterSubmit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n702: ServiceScreenListTicketMessagesAfterSubmit\n"
+  syntax:
+    content: ServiceScreenListTicketMessagesAfterSubmit = 702
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageAfterSubmit
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageAfterSubmit
+  id: ServiceScreenAddMessageAfterSubmit
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenAddMessageAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenAddMessageAfterSubmit
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageAfterSubmit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n703: ServiceScreenAddMessageAfterSubmit\n"
+  syntax:
+    content: ServiceScreenAddMessageAfterSubmit = 703
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenEditTicketAfterSubmit
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenEditTicketAfterSubmit
+  id: ServiceScreenEditTicketAfterSubmit
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenEditTicketAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenEditTicketAfterSubmit
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditTicketAfterSubmit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n704: ServiceScreenEditTicketAfterSubmit\n"
+  syntax:
+    content: ServiceScreenEditTicketAfterSubmit = 704
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenViewCustomerAfterSubmit
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenViewCustomerAfterSubmit
+  id: ServiceScreenViewCustomerAfterSubmit
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenViewCustomerAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenViewCustomerAfterSubmit
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenViewCustomerAfterSubmit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n705: ServiceScreenViewCustomerAfterSubmit\n"
+  syntax:
+    content: ServiceScreenViewCustomerAfterSubmit = 705
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenEditCustomerAfterSubmit
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenEditCustomerAfterSubmit
+  id: ServiceScreenEditCustomerAfterSubmit
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenEditCustomerAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenEditCustomerAfterSubmit
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditCustomerAfterSubmit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n706: ServiceScreenEditCustomerAfterSubmit\n"
+  syntax:
+    content: ServiceScreenEditCustomerAfterSubmit = 706
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenViewCompanyAfterSubmit
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenViewCompanyAfterSubmit
+  id: ServiceScreenViewCompanyAfterSubmit
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenViewCompanyAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenViewCompanyAfterSubmit
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenViewCompanyAfterSubmit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n707: ServiceScreenViewCompanyAfterSubmit\n"
+  syntax:
+    content: ServiceScreenViewCompanyAfterSubmit = 707
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenEditCompanyAfterSubmit
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenEditCompanyAfterSubmit
+  id: ServiceScreenEditCompanyAfterSubmit
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenEditCompanyAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenEditCompanyAfterSubmit
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditCompanyAfterSubmit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n708: ServiceScreenEditCompanyAfterSubmit\n"
+  syntax:
+    content: ServiceScreenEditCompanyAfterSubmit = 708
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenForwardAfterSubmit
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenForwardAfterSubmit
+  id: ServiceScreenForwardAfterSubmit
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenForwardAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenForwardAfterSubmit
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenForwardAfterSubmit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n709: ServiceScreenForwardAfterSubmit\n"
+  syntax:
+    content: ServiceScreenForwardAfterSubmit = 709
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.ServiceScreenEditExtraTableAfterSubmit
+  commentId: F:SuperOffice.Data.EventHandlerType.ServiceScreenEditExtraTableAfterSubmit
+  id: ServiceScreenEditExtraTableAfterSubmit
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: ServiceScreenEditExtraTableAfterSubmit
+  nameWithType: EventHandlerType.ServiceScreenEditExtraTableAfterSubmit
+  fullName: SuperOffice.Data.EventHandlerType.ServiceScreenEditExtraTableAfterSubmit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n710: ServiceScreenEditExtraTableAfterSubmit\n"
+  syntax:
+    content: ServiceScreenEditExtraTableAfterSubmit = 710
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveAppointment
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveAppointment
+  id: SalesBeforeSaveAppointment
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveAppointment
+  nameWithType: EventHandlerType.SalesBeforeSaveAppointment
+  fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveAppointment
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1001: SalesBeforeSaveAppointment\n"
+  syntax:
+    content: SalesBeforeSaveAppointment = 1001
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveStakeholder
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveStakeholder
+  id: SalesBeforeSaveStakeholder
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveStakeholder
+  nameWithType: EventHandlerType.SalesBeforeSaveStakeholder
+  fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveStakeholder
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1002: SalesBeforeSaveStakeholder\n"
+  syntax:
+    content: SalesBeforeSaveStakeholder = 1002
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveQuote
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveQuote
+  id: SalesBeforeSaveQuote
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveQuote
+  nameWithType: EventHandlerType.SalesBeforeSaveQuote
+  fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveQuote
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1003: SalesBeforeSaveQuote\n"
+  syntax:
+    content: SalesBeforeSaveQuote = 1003
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveDocument
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveDocument
+  id: SalesBeforeSaveDocument
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveDocument
+  nameWithType: EventHandlerType.SalesBeforeSaveDocument
+  fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveDocument
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1004: SalesBeforeSaveDocument\n"
+  syntax:
+    content: SalesBeforeSaveDocument = 1004
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveContact
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveContact
+  id: SalesBeforeSaveContact
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveContact
+  nameWithType: EventHandlerType.SalesBeforeSaveContact
+  fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveContact
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1005: SalesBeforeSaveContact\n"
+  syntax:
+    content: SalesBeforeSaveContact = 1005
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesBeforeSavePerson
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSavePerson
+  id: SalesBeforeSavePerson
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSavePerson
+  nameWithType: EventHandlerType.SalesBeforeSavePerson
+  fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSavePerson
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1006: SalesBeforeSavePerson\n"
+  syntax:
+    content: SalesBeforeSavePerson = 1006
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveRelation
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveRelation
+  id: SalesBeforeSaveRelation
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveRelation
+  nameWithType: EventHandlerType.SalesBeforeSaveRelation
+  fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveRelation
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1007: SalesBeforeSaveRelation\n"
+  syntax:
+    content: SalesBeforeSaveRelation = 1007
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveSale
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveSale
+  id: SalesBeforeSaveSale
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveSale
+  nameWithType: EventHandlerType.SalesBeforeSaveSale
+  fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveSale
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1008: SalesBeforeSaveSale\n"
+  syntax:
+    content: SalesBeforeSaveSale = 1008
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveProject
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveProject
+  id: SalesBeforeSaveProject
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveProject
+  nameWithType: EventHandlerType.SalesBeforeSaveProject
+  fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveProject
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1009: SalesBeforeSaveProject\n"
+  syntax:
+    content: SalesBeforeSaveProject = 1009
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveSelection
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveSelection
+  id: SalesBeforeSaveSelection
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveSelection
+  nameWithType: EventHandlerType.SalesBeforeSaveSelection
+  fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveSelection
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1010: SalesBeforeSaveSelection\n"
+  syntax:
+    content: SalesBeforeSaveSelection = 1010
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveProjectMember
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveProjectMember
+  id: SalesBeforeSaveProjectMember
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveProjectMember
+  nameWithType: EventHandlerType.SalesBeforeSaveProjectMember
+  fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveProjectMember
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1011: SalesBeforeSaveProjectMember\n"
+  syntax:
+    content: SalesBeforeSaveProjectMember = 1011
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveSelectionMember
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveSelectionMember
+  id: SalesBeforeSaveSelectionMember
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveSelectionMember
+  nameWithType: EventHandlerType.SalesBeforeSaveSelectionMember
+  fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveSelectionMember
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1012: SalesBeforeSaveSelectionMember\n"
+  syntax:
+    content: SalesBeforeSaveSelectionMember = 1012
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesBeforeSaveQuoteLine
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesBeforeSaveQuoteLine
+  id: SalesBeforeSaveQuoteLine
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesBeforeSaveQuoteLine
+  nameWithType: EventHandlerType.SalesBeforeSaveQuoteLine
+  fullName: SuperOffice.Data.EventHandlerType.SalesBeforeSaveQuoteLine
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1013: SalesBeforeSaveQuoteLine\n"
+  syntax:
+    content: SalesBeforeSaveQuoteLine = 1013
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveAppointment
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveAppointment
+  id: SalesAfterSaveAppointment
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveAppointment
+  nameWithType: EventHandlerType.SalesAfterSaveAppointment
+  fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveAppointment
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1101: SalesAfterSaveAppointment\n"
+  syntax:
+    content: SalesAfterSaveAppointment = 1101
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveStakeholder
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveStakeholder
+  id: SalesAfterSaveStakeholder
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveStakeholder
+  nameWithType: EventHandlerType.SalesAfterSaveStakeholder
+  fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveStakeholder
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1102: SalesAfterSaveStakeholder\n"
+  syntax:
+    content: SalesAfterSaveStakeholder = 1102
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveQuote
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveQuote
+  id: SalesAfterSaveQuote
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveQuote
+  nameWithType: EventHandlerType.SalesAfterSaveQuote
+  fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveQuote
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1103: SalesAfterSaveQuote\n"
+  syntax:
+    content: SalesAfterSaveQuote = 1103
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveDocument
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveDocument
+  id: SalesAfterSaveDocument
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveDocument
+  nameWithType: EventHandlerType.SalesAfterSaveDocument
+  fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveDocument
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1104: SalesAfterSaveDocument\n"
+  syntax:
+    content: SalesAfterSaveDocument = 1104
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveContact
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveContact
+  id: SalesAfterSaveContact
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveContact
+  nameWithType: EventHandlerType.SalesAfterSaveContact
+  fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveContact
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1105: SalesAfterSaveContact\n"
+  syntax:
+    content: SalesAfterSaveContact = 1105
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesAfterSavePerson
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSavePerson
+  id: SalesAfterSavePerson
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSavePerson
+  nameWithType: EventHandlerType.SalesAfterSavePerson
+  fullName: SuperOffice.Data.EventHandlerType.SalesAfterSavePerson
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1106: SalesAfterSavePerson\n"
+  syntax:
+    content: SalesAfterSavePerson = 1106
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveRelation
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveRelation
+  id: SalesAfterSaveRelation
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveRelation
+  nameWithType: EventHandlerType.SalesAfterSaveRelation
+  fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveRelation
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1107: SalesAfterSaveRelation\n"
+  syntax:
+    content: SalesAfterSaveRelation = 1107
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveSale
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveSale
+  id: SalesAfterSaveSale
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveSale
+  nameWithType: EventHandlerType.SalesAfterSaveSale
+  fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveSale
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1108: SalesAfterSaveSale\n"
+  syntax:
+    content: SalesAfterSaveSale = 1108
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveProject
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveProject
+  id: SalesAfterSaveProject
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveProject
+  nameWithType: EventHandlerType.SalesAfterSaveProject
+  fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveProject
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1109: SalesAfterSaveProject\n"
+  syntax:
+    content: SalesAfterSaveProject = 1109
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveSelection
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveSelection
+  id: SalesAfterSaveSelection
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveSelection
+  nameWithType: EventHandlerType.SalesAfterSaveSelection
+  fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveSelection
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1110: SalesAfterSaveSelection\n"
+  syntax:
+    content: SalesAfterSaveSelection = 1110
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveProjectMember
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveProjectMember
+  id: SalesAfterSaveProjectMember
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveProjectMember
+  nameWithType: EventHandlerType.SalesAfterSaveProjectMember
+  fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveProjectMember
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1111: SalesAfterSaveProjectMember\n"
+  syntax:
+    content: SalesAfterSaveProjectMember = 1111
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveSelectionMember
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveSelectionMember
+  id: SalesAfterSaveSelectionMember
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveSelectionMember
+  nameWithType: EventHandlerType.SalesAfterSaveSelectionMember
+  fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveSelectionMember
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1112: SalesAfterSaveSelectionMember\n"
+  syntax:
+    content: SalesAfterSaveSelectionMember = 1112
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EventHandlerType.SalesAfterSaveQuoteLine
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesAfterSaveQuoteLine
+  id: SalesAfterSaveQuoteLine
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesAfterSaveQuoteLine
+  nameWithType: EventHandlerType.SalesAfterSaveQuoteLine
+  fullName: SuperOffice.Data.EventHandlerType.SalesAfterSaveQuoteLine
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1113: SalesAfterSaveQuoteLine\n"
+  syntax:
+    content: SalesAfterSaveQuoteLine = 1113
+    return:
+      type: SuperOffice.Data.EventHandlerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.EventHandlerType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<EventHandlerType, To>()
+  nameWithType: EnumUtil.MapEnums<EventHandlerType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.EventHandlerType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of EventHandlerType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.EventHandlerType, To)()
+  name.vb: MapEnums(Of EventHandlerType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<EventHandlerType, To>
+    nameWithType: EnumUtil.MapEnums<EventHandlerType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.EventHandlerType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of EventHandlerType, To)
+    nameWithType: EnumUtil.MapEnums(Of EventHandlerType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.EventHandlerType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.EventHandlerType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EventHandlerType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<EventHandlerType>(EventHandlerType)
+  nameWithType: ObjectExtensions.AssignByReflection<EventHandlerType>(EventHandlerType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.EventHandlerType>(SuperOffice.Data.EventHandlerType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of EventHandlerType)(EventHandlerType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.EventHandlerType)(SuperOffice.Data.EventHandlerType)
+  name.vb: AssignByReflection(Of EventHandlerType)(EventHandlerType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<EventHandlerType>
+    nameWithType: ObjectExtensions.AssignByReflection<EventHandlerType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.EventHandlerType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    nameWithType: EventHandlerType
+    fullName: SuperOffice.Data.EventHandlerType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of EventHandlerType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of EventHandlerType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.EventHandlerType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    nameWithType: EventHandlerType
+    fullName: SuperOffice.Data.EventHandlerType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.EventHandlerType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<EventHandlerType>()
+  nameWithType: ObjectExtensions.GraphCopy<EventHandlerType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.EventHandlerType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of EventHandlerType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.EventHandlerType)()
+  name.vb: GraphCopy(Of EventHandlerType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<EventHandlerType>
+    nameWithType: ObjectExtensions.GraphCopy<EventHandlerType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.EventHandlerType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of EventHandlerType)
+    nameWithType: ObjectExtensions.GraphCopy(Of EventHandlerType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.EventHandlerType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.EventHandlerType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<EventHandlerType, To>()
+  nameWithType: Converters.MapEnums<EventHandlerType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.EventHandlerType, To>()
+  nameWithType.vb: Converters.MapEnums(Of EventHandlerType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.EventHandlerType, To)()
+  name.vb: MapEnums(Of EventHandlerType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<EventHandlerType, To>
+    nameWithType: Converters.MapEnums<EventHandlerType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.EventHandlerType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of EventHandlerType, To)
+    nameWithType: Converters.MapEnums(Of EventHandlerType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.EventHandlerType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.EventHandlerType
+  commentId: T:SuperOffice.Data.EventHandlerType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: EventHandlerType
+  nameWithType: EventHandlerType
+  fullName: SuperOffice.Data.EventHandlerType

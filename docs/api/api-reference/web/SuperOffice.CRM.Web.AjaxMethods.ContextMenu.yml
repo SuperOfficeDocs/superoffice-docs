@@ -1,0 +1,731 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.AjaxMethods.ContextMenu
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.ContextMenu
+  id: ContextMenu
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  children:
+  - SuperOffice.CRM.Web.AjaxMethods.ContextMenu.#ctor
+  - SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetArchiveContextMenu(System.String,System.String,System.Boolean,System.Boolean)
+  - SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetContextMenu(System.String,System.String,System.Int32)
+  - SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetContextMenuListWithLinkHint(System.String,System.String,System.Int32,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetContextMenuWithLinkHint(System.String,System.String,System.Int32,System.String)
+  - SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetOverriddenArchiveContextMenu(System.String,System.String,System.Boolean,System.Boolean,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ContextMenu
+  nameWithType: ContextMenu
+  fullName: SuperOffice.CRM.Web.AjaxMethods.ContextMenu
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: >-
+      [SoWebObject("ContextMenu")]
+
+      public class ContextMenu : IWebObject, IPlugin
+    content.vb: >-
+      <SoWebObject("ContextMenu")>
+
+      Public Class ContextMenu
+          Implements IWebObject, IPlugin
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.DCF.Web.Factory.IWebObject
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+    ctor: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ContextMenu
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetContextMenu(System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetContextMenu(System.String,System.String,System.Int32)
+  id: GetContextMenu(System.String,System.String,System.Int32)
+  parent: SuperOffice.CRM.Web.AjaxMethods.ContextMenu
+  langs:
+  - csharp
+  - vb
+  name: GetContextMenu(String, String, Int32)
+  nameWithType: ContextMenu.GetContextMenu(String, String, Int32)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetContextMenu(System.String, System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetContextMenu(string context, string subcontext, int id)
+    parameters:
+    - id: context
+      type: System.String
+    - id: subcontext
+      type: System.String
+    - id: id
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function GetContextMenu(context As String, subcontext As String, id As Integer) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetContextMenu*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetContextMenuWithLinkHint(System.String,System.String,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetContextMenuWithLinkHint(System.String,System.String,System.Int32,System.String)
+  id: GetContextMenuWithLinkHint(System.String,System.String,System.Int32,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.ContextMenu
+  langs:
+  - csharp
+  - vb
+  name: GetContextMenuWithLinkHint(String, String, Int32, String)
+  nameWithType: ContextMenu.GetContextMenuWithLinkHint(String, String, Int32, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetContextMenuWithLinkHint(System.String, System.String, System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetContextMenuWithLinkHint(string context, string subcontext, int id, string linkHint)
+    parameters:
+    - id: context
+      type: System.String
+    - id: subcontext
+      type: System.String
+    - id: id
+      type: System.Int32
+    - id: linkHint
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetContextMenuWithLinkHint(context As String, subcontext As String, id As Integer, linkHint As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetContextMenuWithLinkHint*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetContextMenuListWithLinkHint(System.String,System.String,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetContextMenuListWithLinkHint(System.String,System.String,System.Int32,System.String)
+  id: GetContextMenuListWithLinkHint(System.String,System.String,System.Int32,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.ContextMenu
+  langs:
+  - csharp
+  - vb
+  name: GetContextMenuListWithLinkHint(String, String, Int32, String)
+  nameWithType: ContextMenu.GetContextMenuListWithLinkHint(String, String, Int32, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetContextMenuListWithLinkHint(System.String, System.String, System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public List<MenuListItem> GetContextMenuListWithLinkHint(string context, string subcontext, int id, string linkHint)
+    parameters:
+    - id: context
+      type: System.String
+    - id: subcontext
+      type: System.String
+    - id: id
+      type: System.Int32
+    - id: linkHint
+      type: System.String
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.MenuListItem}
+    content.vb: Public Function GetContextMenuListWithLinkHint(context As String, subcontext As String, id As Integer, linkHint As String) As List(Of MenuListItem)
+  overload: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetContextMenuListWithLinkHint*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetArchiveContextMenu(System.String,System.String,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetArchiveContextMenu(System.String,System.String,System.Boolean,System.Boolean)
+  id: GetArchiveContextMenu(System.String,System.String,System.Boolean,System.Boolean)
+  parent: SuperOffice.CRM.Web.AjaxMethods.ContextMenu
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveContextMenu(String, String, Boolean, Boolean)
+  nameWithType: ContextMenu.GetArchiveContextMenu(String, String, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetArchiveContextMenu(System.String, System.String, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetArchiveContextMenu(string linkHint, string entity, bool isMultipleSelect, bool hasMixedSelectedEntities)
+    parameters:
+    - id: linkHint
+      type: System.String
+    - id: entity
+      type: System.String
+    - id: isMultipleSelect
+      type: System.Boolean
+    - id: hasMixedSelectedEntities
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Function GetArchiveContextMenu(linkHint As String, entity As String, isMultipleSelect As Boolean, hasMixedSelectedEntities As Boolean) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetArchiveContextMenu*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetOverriddenArchiveContextMenu(System.String,System.String,System.Boolean,System.Boolean,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetOverriddenArchiveContextMenu(System.String,System.String,System.Boolean,System.Boolean,System.String,System.String)
+  id: GetOverriddenArchiveContextMenu(System.String,System.String,System.Boolean,System.Boolean,System.String,System.String)
+  parent: SuperOffice.CRM.Web.AjaxMethods.ContextMenu
+  langs:
+  - csharp
+  - vb
+  name: GetOverriddenArchiveContextMenu(String, String, Boolean, Boolean, String, String)
+  nameWithType: ContextMenu.GetOverriddenArchiveContextMenu(String, String, Boolean, Boolean, String, String)
+  fullName: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetOverriddenArchiveContextMenu(System.String, System.String, System.Boolean, System.Boolean, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public string GetOverriddenArchiveContextMenu(string linkHint, string entity, bool isMultipleSelect, bool hasMixedSelectedEntities, string contextOverride, string soProtocol)
+    parameters:
+    - id: linkHint
+      type: System.String
+    - id: entity
+      type: System.String
+    - id: isMultipleSelect
+      type: System.Boolean
+    - id: hasMixedSelectedEntities
+      type: System.Boolean
+    - id: contextOverride
+      type: System.String
+    - id: soProtocol
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetOverriddenArchiveContextMenu(linkHint As String, entity As String, isMultipleSelect As Boolean, hasMixedSelectedEntities As Boolean, contextOverride As String, soProtocol As String) As String
+  overload: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetOverriddenArchiveContextMenu*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.#ctor
+  commentId: M:SuperOffice.CRM.Web.AjaxMethods.ContextMenu.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.AjaxMethods.ContextMenu
+  langs:
+  - csharp
+  - vb
+  name: ContextMenu()
+  nameWithType: ContextMenu.ContextMenu()
+  fullName: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.ContextMenu()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.AjaxMethods
+  syntax:
+    content: public ContextMenu()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.AjaxMethods
+  commentId: N:SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: SuperOffice.CRM.Web.AjaxMethods
+  nameWithType: SuperOffice.CRM.Web.AjaxMethods
+  fullName: SuperOffice.CRM.Web.AjaxMethods
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.Factory.IWebObject
+  commentId: T:SuperOffice.DCF.Web.Factory.IWebObject
+  parent: SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: IWebObject
+  nameWithType: IWebObject
+  fullName: SuperOffice.DCF.Web.Factory.IWebObject
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetContextMenu*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetContextMenu
+  isExternal: true
+  name: GetContextMenu
+  nameWithType: ContextMenu.GetContextMenu
+  fullName: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetContextMenu
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetContextMenuWithLinkHint*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetContextMenuWithLinkHint
+  isExternal: true
+  name: GetContextMenuWithLinkHint
+  nameWithType: ContextMenu.GetContextMenuWithLinkHint
+  fullName: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetContextMenuWithLinkHint
+- uid: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetContextMenuListWithLinkHint*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetContextMenuListWithLinkHint
+  isExternal: true
+  name: GetContextMenuListWithLinkHint
+  nameWithType: ContextMenu.GetContextMenuListWithLinkHint
+  fullName: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetContextMenuListWithLinkHint
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.MenuListItem}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Lists.MenuListItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<MenuListItem>
+  nameWithType: List<MenuListItem>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Lists.MenuListItem>
+  nameWithType.vb: List(Of MenuListItem)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Lists.MenuListItem)
+  name.vb: List(Of MenuListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.MenuListItem
+    name: MenuListItem
+    nameWithType: MenuListItem
+    fullName: SuperOffice.CRM.Lists.MenuListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.MenuListItem
+    name: MenuListItem
+    nameWithType: MenuListItem
+    fullName: SuperOffice.CRM.Lists.MenuListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetArchiveContextMenu*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetArchiveContextMenu
+  isExternal: true
+  name: GetArchiveContextMenu
+  nameWithType: ContextMenu.GetArchiveContextMenu
+  fullName: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetArchiveContextMenu
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetOverriddenArchiveContextMenu*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetOverriddenArchiveContextMenu
+  isExternal: true
+  name: GetOverriddenArchiveContextMenu
+  nameWithType: ContextMenu.GetOverriddenArchiveContextMenu
+  fullName: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.GetOverriddenArchiveContextMenu
+- uid: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.AjaxMethods.ContextMenu.#ctor
+  isExternal: true
+  name: ContextMenu
+  nameWithType: ContextMenu.ContextMenu
+  fullName: SuperOffice.CRM.Web.AjaxMethods.ContextMenu.ContextMenu

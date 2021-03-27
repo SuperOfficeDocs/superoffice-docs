@@ -1,0 +1,724 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.UI.UserInterfaceElement
+  commentId: T:SuperOffice.UI.UserInterfaceElement
+  id: UserInterfaceElement
+  parent: SuperOffice.UI
+  children:
+  - SuperOffice.UI.UserInterfaceElement.#ctor
+  - SuperOffice.UI.UserInterfaceElement.Caption
+  - SuperOffice.UI.UserInterfaceElement.Position
+  - SuperOffice.UI.UserInterfaceElement.Size
+  langs:
+  - csharp
+  - vb
+  name: UserInterfaceElement
+  nameWithType: UserInterfaceElement
+  fullName: SuperOffice.UI.UserInterfaceElement
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.UI
+  summary: "\n\n"
+  syntax:
+    content: 'public abstract class UserInterfaceElement : UserInterfaceElementResult'
+    content.vb: >-
+      Public MustInherit Class UserInterfaceElement
+          Inherits UserInterfaceElementResult
+  inheritance:
+  - System.Object
+  - SuperOffice.UI.UserInterfaceElementResult
+  derivedClasses:
+  - SuperOffice.UI.ComboBox
+  - SuperOffice.UI.TextBox
+  inheritedMembers:
+  - SuperOffice.UI.UserInterfaceElementResult._id
+  - SuperOffice.UI.UserInterfaceElementResult._value
+  - SuperOffice.UI.UserInterfaceElementResult.Id
+  - SuperOffice.UI.UserInterfaceElementResult.Value
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.UI.UserInterfaceElement.EnumUtil.MapEnums``2
+  - SuperOffice.UI.UserInterfaceElement.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.UI.UserInterfaceElement.#ctor
+  commentId: M:SuperOffice.UI.UserInterfaceElement.#ctor
+  id: '#ctor'
+  parent: SuperOffice.UI.UserInterfaceElement
+  langs:
+  - csharp
+  - vb
+  name: UserInterfaceElement()
+  nameWithType: UserInterfaceElement.UserInterfaceElement()
+  fullName: SuperOffice.UI.UserInterfaceElement.UserInterfaceElement()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.UI
+  summary: "\n\n"
+  syntax:
+    content: protected UserInterfaceElement()
+    content.vb: Protected Sub New
+  overload: SuperOffice.UI.UserInterfaceElement.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.UI.UserInterfaceElement.Caption
+  commentId: P:SuperOffice.UI.UserInterfaceElement.Caption
+  id: Caption
+  parent: SuperOffice.UI.UserInterfaceElement
+  langs:
+  - csharp
+  - vb
+  name: Caption
+  nameWithType: UserInterfaceElement.Caption
+  fullName: SuperOffice.UI.UserInterfaceElement.Caption
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.UI
+  summary: "\n\n"
+  syntax:
+    content: public abstract string Caption { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public MustOverride ReadOnly Property Caption As String
+  overload: SuperOffice.UI.UserInterfaceElement.Caption*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: SuperOffice.UI.UserInterfaceElement.Position
+  commentId: P:SuperOffice.UI.UserInterfaceElement.Position
+  id: Position
+  parent: SuperOffice.UI.UserInterfaceElement
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: UserInterfaceElement.Position
+  fullName: SuperOffice.UI.UserInterfaceElement.Position
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.UI
+  summary: "\n\n"
+  syntax:
+    content: public abstract Point Position { get; }
+    parameters: []
+    return:
+      type: System.Drawing.Point
+    content.vb: Public MustOverride ReadOnly Property Position As Point
+  overload: SuperOffice.UI.UserInterfaceElement.Position*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: SuperOffice.UI.UserInterfaceElement.Size
+  commentId: P:SuperOffice.UI.UserInterfaceElement.Size
+  id: Size
+  parent: SuperOffice.UI.UserInterfaceElement
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: UserInterfaceElement.Size
+  fullName: SuperOffice.UI.UserInterfaceElement.Size
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.UI
+  summary: "\n\n"
+  syntax:
+    content: public abstract Size Size { get; }
+    parameters: []
+    return:
+      type: System.Drawing.Size
+    content.vb: Public MustOverride ReadOnly Property Size As Size
+  overload: SuperOffice.UI.UserInterfaceElement.Size*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+references:
+- uid: SuperOffice.UI
+  commentId: N:SuperOffice.UI
+  isExternal: true
+  name: SuperOffice.UI
+  nameWithType: SuperOffice.UI
+  fullName: SuperOffice.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.UI.UserInterfaceElementResult
+  commentId: T:SuperOffice.UI.UserInterfaceElementResult
+  parent: SuperOffice.UI
+  isExternal: true
+  name: UserInterfaceElementResult
+  nameWithType: UserInterfaceElementResult
+  fullName: SuperOffice.UI.UserInterfaceElementResult
+- uid: SuperOffice.UI.UserInterfaceElementResult._id
+  commentId: F:SuperOffice.UI.UserInterfaceElementResult._id
+  parent: SuperOffice.UI.UserInterfaceElementResult
+  isExternal: true
+  name: _id
+  nameWithType: UserInterfaceElementResult._id
+  fullName: SuperOffice.UI.UserInterfaceElementResult._id
+- uid: SuperOffice.UI.UserInterfaceElementResult._value
+  commentId: F:SuperOffice.UI.UserInterfaceElementResult._value
+  parent: SuperOffice.UI.UserInterfaceElementResult
+  isExternal: true
+  name: _value
+  nameWithType: UserInterfaceElementResult._value
+  fullName: SuperOffice.UI.UserInterfaceElementResult._value
+- uid: SuperOffice.UI.UserInterfaceElementResult.Id
+  commentId: P:SuperOffice.UI.UserInterfaceElementResult.Id
+  parent: SuperOffice.UI.UserInterfaceElementResult
+  isExternal: true
+  name: Id
+  nameWithType: UserInterfaceElementResult.Id
+  fullName: SuperOffice.UI.UserInterfaceElementResult.Id
+- uid: SuperOffice.UI.UserInterfaceElementResult.Value
+  commentId: P:SuperOffice.UI.UserInterfaceElementResult.Value
+  parent: SuperOffice.UI.UserInterfaceElementResult
+  isExternal: true
+  name: Value
+  nameWithType: UserInterfaceElementResult.Value
+  fullName: SuperOffice.UI.UserInterfaceElementResult.Value
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.UI.UserInterfaceElement.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<UserInterfaceElement, To>()
+  nameWithType: EnumUtil.MapEnums<UserInterfaceElement, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.UI.UserInterfaceElement, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of UserInterfaceElement, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.UI.UserInterfaceElement, To)()
+  name.vb: MapEnums(Of UserInterfaceElement, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<UserInterfaceElement, To>
+    nameWithType: EnumUtil.MapEnums<UserInterfaceElement, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.UI.UserInterfaceElement, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of UserInterfaceElement, To)
+    nameWithType: EnumUtil.MapEnums(Of UserInterfaceElement, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.UI.UserInterfaceElement, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.UI.UserInterfaceElement.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<UserInterfaceElement, To>()
+  nameWithType: Converters.MapEnums<UserInterfaceElement, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.UI.UserInterfaceElement, To>()
+  nameWithType.vb: Converters.MapEnums(Of UserInterfaceElement, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.UI.UserInterfaceElement, To)()
+  name.vb: MapEnums(Of UserInterfaceElement, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<UserInterfaceElement, To>
+    nameWithType: Converters.MapEnums<UserInterfaceElement, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.UI.UserInterfaceElement, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of UserInterfaceElement, To)
+    nameWithType: Converters.MapEnums(Of UserInterfaceElement, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.UI.UserInterfaceElement, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.UI.UserInterfaceElement.#ctor*
+  commentId: Overload:SuperOffice.UI.UserInterfaceElement.#ctor
+  isExternal: true
+  name: UserInterfaceElement
+  nameWithType: UserInterfaceElement.UserInterfaceElement
+  fullName: SuperOffice.UI.UserInterfaceElement.UserInterfaceElement
+- uid: SuperOffice.UI.UserInterfaceElement.Caption*
+  commentId: Overload:SuperOffice.UI.UserInterfaceElement.Caption
+  isExternal: true
+  name: Caption
+  nameWithType: UserInterfaceElement.Caption
+  fullName: SuperOffice.UI.UserInterfaceElement.Caption
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.UI.UserInterfaceElement.Position*
+  commentId: Overload:SuperOffice.UI.UserInterfaceElement.Position
+  isExternal: true
+  name: Position
+  nameWithType: UserInterfaceElement.Position
+  fullName: SuperOffice.UI.UserInterfaceElement.Position
+- uid: System.Drawing.Point
+  isExternal: true
+  name: Point
+  nameWithType: Point
+  fullName: System.Drawing.Point
+- uid: SuperOffice.UI.UserInterfaceElement.Size*
+  commentId: Overload:SuperOffice.UI.UserInterfaceElement.Size
+  isExternal: true
+  name: Size
+  nameWithType: UserInterfaceElement.Size
+  fullName: SuperOffice.UI.UserInterfaceElement.Size
+- uid: System.Drawing.Size
+  isExternal: true
+  name: Size
+  nameWithType: Size
+  fullName: System.Drawing.Size

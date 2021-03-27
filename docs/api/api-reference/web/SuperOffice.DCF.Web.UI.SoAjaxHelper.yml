@@ -1,0 +1,828 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper
+  commentId: T:SuperOffice.DCF.Web.UI.SoAjaxHelper
+  id: SoAjaxHelper
+  parent: SuperOffice.DCF.Web.UI
+  children:
+  - SuperOffice.DCF.Web.UI.SoAjaxHelper.#ctor(System.Object)
+  - SuperOffice.DCF.Web.UI.SoAjaxHelper.#ctor(System.Object,SuperOffice.DCF.Web.UI.SoAjaxHelper.GetStringValue,SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue)
+  - SuperOffice.DCF.Web.UI.SoAjaxHelper.GetState
+  - SuperOffice.DCF.Web.UI.SoAjaxHelper.GetURLEncodedXmlState
+  - SuperOffice.DCF.Web.UI.SoAjaxHelper.GetValue(System.String)
+  - SuperOffice.DCF.Web.UI.SoAjaxHelper.GetXmlState
+  - SuperOffice.DCF.Web.UI.SoAjaxHelper.SetState(System.Collections.Generic.Dictionary{System.String,System.String})
+  - SuperOffice.DCF.Web.UI.SoAjaxHelper.SetURLEncodedXmlState(System.String)
+  - SuperOffice.DCF.Web.UI.SoAjaxHelper.SetValue(System.String,System.String)
+  - SuperOffice.DCF.Web.UI.SoAjaxHelper.SetXmlState(System.String)
+  langs:
+  - csharp
+  - vb
+  name: SoAjaxHelper
+  nameWithType: SoAjaxHelper
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public class SoAjaxHelper
+    content.vb: Public Class SoAjaxHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.#ctor(System.Object)
+  commentId: M:SuperOffice.DCF.Web.UI.SoAjaxHelper.#ctor(System.Object)
+  id: '#ctor(System.Object)'
+  parent: SuperOffice.DCF.Web.UI.SoAjaxHelper
+  langs:
+  - csharp
+  - vb
+  name: SoAjaxHelper(Object)
+  nameWithType: SoAjaxHelper.SoAjaxHelper(Object)
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.SoAjaxHelper(System.Object)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public SoAjaxHelper(object instance)
+    parameters:
+    - id: instance
+      type: System.Object
+    content.vb: Public Sub New(instance As Object)
+  overload: SuperOffice.DCF.Web.UI.SoAjaxHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.#ctor(System.Object,SuperOffice.DCF.Web.UI.SoAjaxHelper.GetStringValue,SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue)
+  commentId: M:SuperOffice.DCF.Web.UI.SoAjaxHelper.#ctor(System.Object,SuperOffice.DCF.Web.UI.SoAjaxHelper.GetStringValue,SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue)
+  id: '#ctor(System.Object,SuperOffice.DCF.Web.UI.SoAjaxHelper.GetStringValue,SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue)'
+  parent: SuperOffice.DCF.Web.UI.SoAjaxHelper
+  langs:
+  - csharp
+  - vb
+  name: SoAjaxHelper(Object, SoAjaxHelper.GetStringValue, SoAjaxHelper.GetTypedValue)
+  nameWithType: SoAjaxHelper.SoAjaxHelper(Object, SoAjaxHelper.GetStringValue, SoAjaxHelper.GetTypedValue)
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.SoAjaxHelper(System.Object, SuperOffice.DCF.Web.UI.SoAjaxHelper.GetStringValue, SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public SoAjaxHelper(object instance, SoAjaxHelper.GetStringValue getStringValue, SoAjaxHelper.GetTypedValue getTypedValue)
+    parameters:
+    - id: instance
+      type: System.Object
+    - id: getStringValue
+      type: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetStringValue
+    - id: getTypedValue
+      type: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue
+    content.vb: Public Sub New(instance As Object, getStringValue As SoAjaxHelper.GetStringValue, getTypedValue As SoAjaxHelper.GetTypedValue)
+  overload: SuperOffice.DCF.Web.UI.SoAjaxHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetValue(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.SoAjaxHelper.GetValue(System.String)
+  id: GetValue(System.String)
+  parent: SuperOffice.DCF.Web.UI.SoAjaxHelper
+  langs:
+  - csharp
+  - vb
+  name: GetValue(String)
+  nameWithType: SoAjaxHelper.GetValue(String)
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetValue(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public string GetValue(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetValue(name As String) As String
+  overload: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.SetValue(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.SoAjaxHelper.SetValue(System.String,System.String)
+  id: SetValue(System.String,System.String)
+  parent: SuperOffice.DCF.Web.UI.SoAjaxHelper
+  langs:
+  - csharp
+  - vb
+  name: SetValue(String, String)
+  nameWithType: SoAjaxHelper.SetValue(String, String)
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.SetValue(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public void SetValue(string name, string value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Public Sub SetValue(name As String, value As String)
+  overload: SuperOffice.DCF.Web.UI.SoAjaxHelper.SetValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetState
+  commentId: M:SuperOffice.DCF.Web.UI.SoAjaxHelper.GetState
+  id: GetState
+  parent: SuperOffice.DCF.Web.UI.SoAjaxHelper
+  langs:
+  - csharp
+  - vb
+  name: GetState()
+  nameWithType: SoAjaxHelper.GetState()
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetState()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public Dictionary<string, string> GetState()
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Public Function GetState As Dictionary(Of String, String)
+  overload: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.SetState(System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.DCF.Web.UI.SoAjaxHelper.SetState(System.Collections.Generic.Dictionary{System.String,System.String})
+  id: SetState(System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.DCF.Web.UI.SoAjaxHelper
+  langs:
+  - csharp
+  - vb
+  name: SetState(Dictionary<String, String>)
+  nameWithType: SoAjaxHelper.SetState(Dictionary<String, String>)
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.SetState(System.Collections.Generic.Dictionary<System.String, System.String>)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public void SetState(Dictionary<string, string> state)
+    parameters:
+    - id: state
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Public Sub SetState(state As Dictionary(Of String, String))
+  overload: SuperOffice.DCF.Web.UI.SoAjaxHelper.SetState*
+  nameWithType.vb: SoAjaxHelper.SetState(Dictionary(Of String, String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.DCF.Web.UI.SoAjaxHelper.SetState(System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: SetState(Dictionary(Of String, String))
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetXmlState
+  commentId: M:SuperOffice.DCF.Web.UI.SoAjaxHelper.GetXmlState
+  id: GetXmlState
+  parent: SuperOffice.DCF.Web.UI.SoAjaxHelper
+  langs:
+  - csharp
+  - vb
+  name: GetXmlState()
+  nameWithType: SoAjaxHelper.GetXmlState()
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetXmlState()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public string GetXmlState()
+    return:
+      type: System.String
+    content.vb: Public Function GetXmlState As String
+  overload: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetXmlState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetURLEncodedXmlState
+  commentId: M:SuperOffice.DCF.Web.UI.SoAjaxHelper.GetURLEncodedXmlState
+  id: GetURLEncodedXmlState
+  parent: SuperOffice.DCF.Web.UI.SoAjaxHelper
+  langs:
+  - csharp
+  - vb
+  name: GetURLEncodedXmlState()
+  nameWithType: SoAjaxHelper.GetURLEncodedXmlState()
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetURLEncodedXmlState()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public string GetURLEncodedXmlState()
+    return:
+      type: System.String
+    content.vb: Public Function GetURLEncodedXmlState As String
+  overload: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetURLEncodedXmlState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.SetXmlState(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.SoAjaxHelper.SetXmlState(System.String)
+  id: SetXmlState(System.String)
+  parent: SuperOffice.DCF.Web.UI.SoAjaxHelper
+  langs:
+  - csharp
+  - vb
+  name: SetXmlState(String)
+  nameWithType: SoAjaxHelper.SetXmlState(String)
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.SetXmlState(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public void SetXmlState(string state)
+    parameters:
+    - id: state
+      type: System.String
+    content.vb: Public Sub SetXmlState(state As String)
+  overload: SuperOffice.DCF.Web.UI.SoAjaxHelper.SetXmlState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.SetURLEncodedXmlState(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.SoAjaxHelper.SetURLEncodedXmlState(System.String)
+  id: SetURLEncodedXmlState(System.String)
+  parent: SuperOffice.DCF.Web.UI.SoAjaxHelper
+  langs:
+  - csharp
+  - vb
+  name: SetURLEncodedXmlState(String)
+  nameWithType: SoAjaxHelper.SetURLEncodedXmlState(String)
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.SetURLEncodedXmlState(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public void SetURLEncodedXmlState(string state)
+    parameters:
+    - id: state
+      type: System.String
+    content.vb: Public Sub SetURLEncodedXmlState(state As String)
+  overload: SuperOffice.DCF.Web.UI.SoAjaxHelper.SetURLEncodedXmlState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.UI.SoAjaxHelper.#ctor
+  isExternal: true
+  name: SoAjaxHelper
+  nameWithType: SoAjaxHelper.SoAjaxHelper
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.SoAjaxHelper
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetStringValue
+  commentId: T:SuperOffice.DCF.Web.UI.SoAjaxHelper.GetStringValue
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SoAjaxHelper.GetStringValue
+  nameWithType: SoAjaxHelper.GetStringValue
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetStringValue
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue
+  commentId: T:SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SoAjaxHelper.GetTypedValue
+  nameWithType: SoAjaxHelper.GetTypedValue
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetTypedValue
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetValue*
+  commentId: Overload:SuperOffice.DCF.Web.UI.SoAjaxHelper.GetValue
+  isExternal: true
+  name: GetValue
+  nameWithType: SoAjaxHelper.GetValue
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetValue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.SetValue*
+  commentId: Overload:SuperOffice.DCF.Web.UI.SoAjaxHelper.SetValue
+  isExternal: true
+  name: SetValue
+  nameWithType: SoAjaxHelper.SetValue
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.SetValue
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetState*
+  commentId: Overload:SuperOffice.DCF.Web.UI.SoAjaxHelper.GetState
+  isExternal: true
+  name: GetState
+  nameWithType: SoAjaxHelper.GetState
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetState
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.SetState*
+  commentId: Overload:SuperOffice.DCF.Web.UI.SoAjaxHelper.SetState
+  isExternal: true
+  name: SetState
+  nameWithType: SoAjaxHelper.SetState
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.SetState
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetXmlState*
+  commentId: Overload:SuperOffice.DCF.Web.UI.SoAjaxHelper.GetXmlState
+  isExternal: true
+  name: GetXmlState
+  nameWithType: SoAjaxHelper.GetXmlState
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetXmlState
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetURLEncodedXmlState*
+  commentId: Overload:SuperOffice.DCF.Web.UI.SoAjaxHelper.GetURLEncodedXmlState
+  isExternal: true
+  name: GetURLEncodedXmlState
+  nameWithType: SoAjaxHelper.GetURLEncodedXmlState
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.GetURLEncodedXmlState
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.SetXmlState*
+  commentId: Overload:SuperOffice.DCF.Web.UI.SoAjaxHelper.SetXmlState
+  isExternal: true
+  name: SetXmlState
+  nameWithType: SoAjaxHelper.SetXmlState
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.SetXmlState
+- uid: SuperOffice.DCF.Web.UI.SoAjaxHelper.SetURLEncodedXmlState*
+  commentId: Overload:SuperOffice.DCF.Web.UI.SoAjaxHelper.SetURLEncodedXmlState
+  isExternal: true
+  name: SetURLEncodedXmlState
+  nameWithType: SoAjaxHelper.SetURLEncodedXmlState
+  fullName: SuperOffice.DCF.Web.UI.SoAjaxHelper.SetURLEncodedXmlState

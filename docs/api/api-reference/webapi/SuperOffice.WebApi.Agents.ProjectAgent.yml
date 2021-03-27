@@ -1,0 +1,3945 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.ProjectAgent
+  commentId: T:SuperOffice.WebApi.Agents.ProjectAgent
+  id: ProjectAgent
+  parent: SuperOffice.WebApi.Agents
+  children:
+  - SuperOffice.WebApi.Agents.ProjectAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  - SuperOffice.WebApi.Agents.ProjectAgent.#ctor(System.Net.Http.HttpClient)
+  - SuperOffice.WebApi.Agents.ProjectAgent.AddProjectMembersAsync(System.Int32,SuperOffice.WebApi.Data.ProjectMember[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectEntityAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectEventEntityAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectMemberAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.CreateNewEntryAsync(SuperOffice.WebApi.Data.DuplicateEntry,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEventEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEventEntityFromProjectIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMemberAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMemberByIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMembersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetDuplicateRulesAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetDuplicatesAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetMyMemberProjectsAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetMyProjectEventsAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetMyProjectsAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetMyPublishedProjectsAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetNextMilestoneAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetNextProjectStatusAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventEntityFromProjectIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventOnPersonAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventsOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMemberAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMembersByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectsFromContactAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetProjectsFromPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectsOnPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.HasGuideActivitiesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.HasGuideAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.IsNumberValidAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.MergeAsync(System.Int32,System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEntityAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEventEntityAsync(SuperOffice.WebApi.Data.ProjectEventEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMemberAsync(SuperOffice.WebApi.Data.ProjectMember,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMembersFunctionAndCommentAsync(System.Int32[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.SetDuplicateRulesStatusAsync(SuperOffice.WebApi.Data.DuplicateRule[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.SetProjectImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.UpdateProjectMemberAsync(SuperOffice.WebApi.Data.ProjectMember,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.ValidateProjectEntityAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+  langs:
+  - csharp
+  - vb
+  name: ProjectAgent
+  nameWithType: ProjectAgent
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCollection of all services that works with Project data.\n"
+  example:
+  - "\n<pre><code>  using SuperOffice.WebApi;\n  using SuperOffice.WebApi.Agents;\n\n  var mySession = new WebApiOptions(&quot;http://example.com/super/api&quot;);\n  mySession.Authorization = new AuthorizationUsernamePassword(&quot;user&quot;, &quot;pass&quot;);\n  using (ProjectAgent agent = new ProjectAgent(mySession))\n  {\n        // call methods on agent here...\n  }</code></pre>\n"
+  syntax:
+    content: 'public class ProjectAgent : AgentBase, IDisposable'
+    content.vb: >-
+      Public Class ProjectAgent
+          Inherits AgentBase
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Agents.AgentBase
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - SuperOffice.WebApi.Agents.AgentBase._json
+  - SuperOffice.WebApi.Agents.AgentBase._binary
+  - SuperOffice.WebApi.Agents.AgentBase._config
+  - SuperOffice.WebApi.Agents.AgentBase._client
+  - SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AgentBase.Dispose
+  - SuperOffice.WebApi.Agents.AgentBase.Configuration
+  - SuperOffice.WebApi.Agents.AgentBase.Client
+  - SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  - SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  - SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.#ctor(System.Net.Http.HttpClient)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.#ctor(System.Net.Http.HttpClient)
+  id: '#ctor(System.Net.Http.HttpClient)'
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: ProjectAgent(HttpClient)
+  nameWithType: ProjectAgent.ProjectAgent(HttpClient)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.ProjectAgent(System.Net.Http.HttpClient)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nConstructor: Collection of all services that works with Project data.\n"
+  syntax:
+    content: public ProjectAgent(HttpClient httpClient)
+    parameters:
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+      description: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.
+    content.vb: Public Sub New(httpClient As HttpClient)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  id: '#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)'
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: ProjectAgent(WebApiOptions, HttpClient)
+  nameWithType: ProjectAgent.ProjectAgent(WebApiOptions, HttpClient)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.ProjectAgent(SuperOffice.WebApi.WebApiOptions, System.Net.Http.HttpClient)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nConstructor: Collection of all services that works with Project data.\n"
+  syntax:
+    content: public ProjectAgent(WebApiOptions options, HttpClient httpClient = null)
+    parameters:
+    - id: options
+      type: SuperOffice.WebApi.WebApiOptions
+      description: Base URL and authentication values.
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+      description: 'Optional: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.'
+    content.vb: Public Sub New(options As WebApiOptions, httpClient As HttpClient = Nothing)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectEntityAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultProjectEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultProjectEntityAsync(RequestOptions)
+  nameWithType: ProjectAgent.CreateDefaultProjectEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectEntityAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new ProjectEntity.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public Task<ProjectEntity> CreateDefaultProjectEntityAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEntity}
+      description: A blank ProjectEntity
+    content.vb: Public Function CreateDefaultProjectEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of ProjectEntity)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEntityAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEntityAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveProjectEntityAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveProjectEntityAsync(ProjectEntity, RequestOptions)
+  nameWithType: ProjectAgent.SaveProjectEntityAsync(ProjectEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEntityAsync(SuperOffice.WebApi.Data.ProjectEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing ProjectEntity or creates a new ProjectEntity if the id parameter is 0. \n"
+  syntax:
+    content: public Task<ProjectEntity> SaveProjectEntityAsync(ProjectEntity projectEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectEntity
+      type: SuperOffice.WebApi.Data.ProjectEntity
+      description: The ProjectEntity that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEntity}
+      description: New or updated ProjectEntity
+    content.vb: Public Function SaveProjectEntityAsync(projectEntity As ProjectEntity, requestOptions As RequestOptions = Nothing) As Task(Of ProjectEntity)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteProjectEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteProjectEntityAsync(Int32, RequestOptions)
+  nameWithType: ProjectAgent.DeleteProjectEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes the ProjectEntity\n"
+  syntax:
+    content: public Task DeleteProjectEntityAsync(int projectEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectEntityId
+      type: System.Int32
+      description: The identity of the ProjectEntity
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteProjectEntityAsync(projectEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectEventEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectEventEntityAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultProjectEventEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultProjectEventEntityAsync(RequestOptions)
+  nameWithType: ProjectAgent.CreateDefaultProjectEventEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectEventEntityAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new ProjectEventEntity.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public Task<ProjectEventEntity> CreateDefaultProjectEventEntityAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEventEntity}
+      description: A blank ProjectEventEntity
+    content.vb: Public Function CreateDefaultProjectEventEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of ProjectEventEntity)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectEventEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEventEntityAsync(SuperOffice.WebApi.Data.ProjectEventEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEventEntityAsync(SuperOffice.WebApi.Data.ProjectEventEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveProjectEventEntityAsync(SuperOffice.WebApi.Data.ProjectEventEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveProjectEventEntityAsync(ProjectEventEntity, RequestOptions)
+  nameWithType: ProjectAgent.SaveProjectEventEntityAsync(ProjectEventEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEventEntityAsync(SuperOffice.WebApi.Data.ProjectEventEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing ProjectEventEntity or creates a new ProjectEventEntity if the id parameter is 0. \n"
+  syntax:
+    content: public Task<ProjectEventEntity> SaveProjectEventEntityAsync(ProjectEventEntity projectEventEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectEventEntity
+      type: SuperOffice.WebApi.Data.ProjectEventEntity
+      description: The ProjectEventEntity that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEventEntity}
+      description: New or updated ProjectEventEntity
+    content.vb: Public Function SaveProjectEventEntityAsync(projectEventEntity As ProjectEventEntity, requestOptions As RequestOptions = Nothing) As Task(Of ProjectEventEntity)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEventEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEventEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEventEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteProjectEventEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteProjectEventEntityAsync(Int32, RequestOptions)
+  nameWithType: ProjectAgent.DeleteProjectEventEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEventEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes the ProjectEventEntity\n"
+  syntax:
+    content: public Task DeleteProjectEventEntityAsync(int projectEventEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectEventEntityId
+      type: System.Int32
+      description: The identity of the ProjectEventEntity
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteProjectEventEntityAsync(projectEventEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEventEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectMemberAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectMemberAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultProjectMemberAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultProjectMemberAsync(RequestOptions)
+  nameWithType: ProjectAgent.CreateDefaultProjectMemberAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectMemberAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new ProjectMember.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public Task<ProjectMember> CreateDefaultProjectMemberAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectMember}
+      description: A blank ProjectMember
+    content.vb: Public Function CreateDefaultProjectMemberAsync(requestOptions As RequestOptions = Nothing) As Task(Of ProjectMember)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectMemberAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMemberAsync(SuperOffice.WebApi.Data.ProjectMember,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMemberAsync(SuperOffice.WebApi.Data.ProjectMember,SuperOffice.WebApi.RequestOptions)
+  id: SaveProjectMemberAsync(SuperOffice.WebApi.Data.ProjectMember,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveProjectMemberAsync(ProjectMember, RequestOptions)
+  nameWithType: ProjectAgent.SaveProjectMemberAsync(ProjectMember, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMemberAsync(SuperOffice.WebApi.Data.ProjectMember, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing ProjectMember or creates a new ProjectMember if the id parameter is 0. \n"
+  syntax:
+    content: public Task<ProjectMember> SaveProjectMemberAsync(ProjectMember projectMember, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectMember
+      type: SuperOffice.WebApi.Data.ProjectMember
+      description: The ProjectMember that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectMember}
+      description: New or updated ProjectMember
+    content.vb: Public Function SaveProjectMemberAsync(projectMember As ProjectMember, requestOptions As RequestOptions = Nothing) As Task(Of ProjectMember)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMemberAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMemberAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMemberAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteProjectMemberAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteProjectMemberAsync(Int32, RequestOptions)
+  nameWithType: ProjectAgent.DeleteProjectMemberAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMemberAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes the ProjectMember\n"
+  syntax:
+    content: public Task DeleteProjectMemberAsync(int projectMemberId, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectMemberId
+      type: System.Int32
+      description: The identity of the ProjectMember
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteProjectMemberAsync(projectMemberId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMemberAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectAsync(Int32, RequestOptions)
+  nameWithType: ProjectAgent.GetProjectAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific Project object.                        \n"
+  syntax:
+    content: public Task<Project> GetProjectAsync(int projectId, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The identifier of the Project object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Project}
+      description: Project
+    content.vb: Public Function GetProjectAsync(projectId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Project)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetProjectEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectEntityAsync(Int32, RequestOptions)
+  nameWithType: ProjectAgent.GetProjectEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific ProjectEntity object.                        \n"
+  syntax:
+    content: public Task<ProjectEntity> GetProjectEntityAsync(int projectEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectEntityId
+      type: System.Int32
+      description: The identifier of the ProjectEntity object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEntity}
+      description: ProjectEntity
+    content.vb: Public Function GetProjectEntityAsync(projectEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ProjectEntity)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.AddProjectMembersAsync(System.Int32,SuperOffice.WebApi.Data.ProjectMember[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.AddProjectMembersAsync(System.Int32,SuperOffice.WebApi.Data.ProjectMember[],SuperOffice.WebApi.RequestOptions)
+  id: AddProjectMembersAsync(System.Int32,SuperOffice.WebApi.Data.ProjectMember[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: AddProjectMembersAsync(Int32, ProjectMember[], RequestOptions)
+  nameWithType: ProjectAgent.AddProjectMembersAsync(Int32, ProjectMember[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.AddProjectMembersAsync(System.Int32, SuperOffice.WebApi.Data.ProjectMember[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAdd multiple project members to a project\n"
+  syntax:
+    content: public Task AddProjectMembersAsync(int projectEntityId, ProjectMember[] projectMembers, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectEntityId
+      type: System.Int32
+      description: Project to add members to
+    - id: projectMembers
+      type: SuperOffice.WebApi.Data.ProjectMember[]
+      description: Project members to add
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function AddProjectMembersAsync(projectEntityId As Integer, projectMembers As ProjectMember(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.AddProjectMembersAsync*
+  nameWithType.vb: ProjectAgent.AddProjectMembersAsync(Int32, ProjectMember(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.ProjectAgent.AddProjectMembersAsync(System.Int32, SuperOffice.WebApi.Data.ProjectMember(), SuperOffice.WebApi.RequestOptions)
+  name.vb: AddProjectMembersAsync(Int32, ProjectMember(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMembersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMembersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: DeleteProjectMembersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteProjectMembersAsync(Int32, Int32[], RequestOptions)
+  nameWithType: ProjectAgent.DeleteProjectMembersAsync(Int32, Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMembersAsync(System.Int32, System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDelete the given project members from a project\n"
+  syntax:
+    content: public Task DeleteProjectMembersAsync(int projectEntityId, int[] memberIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectEntityId
+      type: System.Int32
+      description: Project to remove members from
+    - id: memberIds
+      type: System.Int32[]
+      description: Project member ids
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteProjectMembersAsync(projectEntityId As Integer, memberIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMembersAsync*
+  nameWithType.vb: ProjectAgent.DeleteProjectMembersAsync(Int32, Int32(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMembersAsync(System.Int32, System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteProjectMembersAsync(Int32, Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetProjectImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectImageAsync(Int32, String, RequestOptions)
+  nameWithType: ProjectAgent.GetProjectImageAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectImageAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the project image that is displayed in the CRM application.\n"
+  syntax:
+    content: public Task<byte[]> GetProjectImageAsync(int projectId, string returnContentType = "application/octet-stream", RequestOptions requestOptions = null)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project id of the project the image belongs to.
+    - id: returnContentType
+      type: System.String
+      description: Accept content-type. Default &quot;application/octet-stream&quot;. Could also be &quot;application/pdf&quot;, &quot;text/plain&quot;, &quot;text/html&quot;, or &quot;multipart/related&quot;
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+    content.vb: Public Function GetProjectImageAsync(projectId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectImageAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.SetProjectImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.SetProjectImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  id: SetProjectImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: SetProjectImageAsync(Int32, Byte[], RequestOptions)
+  nameWithType: ProjectAgent.SetProjectImageAsync(Int32, Byte[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.SetProjectImageAsync(System.Int32, System.Byte[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nStores the project image that is displayed in the CRM application.\n"
+  syntax:
+    content: public Task SetProjectImageAsync(int projectId, byte[] image, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project id of the project the image belongs to.
+    - id: image
+      type: System.Byte[]
+      description: The image that is stored on the project (System.Drawing.Image)
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function SetProjectImageAsync(projectId As Integer, image As Byte(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.SetProjectImageAsync*
+  nameWithType.vb: ProjectAgent.SetProjectImageAsync(Int32, Byte(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.ProjectAgent.SetProjectImageAsync(System.Int32, System.Byte(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetProjectImageAsync(Int32, Byte(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMemberByIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMemberByIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: DeleteProjectMemberByIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteProjectMemberByIdsAsync(Int32[], RequestOptions)
+  nameWithType: ProjectAgent.DeleteProjectMemberByIdsAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMemberByIdsAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes projectmembers rows.\n"
+  syntax:
+    content: public Task DeleteProjectMemberByIdsAsync(int[] projectMemberIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectMemberIds
+      type: System.Int32[]
+      description: An Array of projectmember ids.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteProjectMemberByIdsAsync(projectMemberIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMemberByIdsAsync*
+  nameWithType.vb: ProjectAgent.DeleteProjectMemberByIdsAsync(Int32(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMemberByIdsAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteProjectMemberByIdsAsync(Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetDuplicatesAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetDuplicatesAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetDuplicatesAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDuplicatesAsync(String, RequestOptions)
+  nameWithType: ProjectAgent.GetDuplicatesAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetDuplicatesAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet duplicates(exact or similar in the database) based on the name\n"
+  syntax:
+    content: public Task<DuplicateEntry[]> GetDuplicatesAsync(string name, RequestOptions requestOptions = null)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name used for lookup
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DuplicateEntry[]}
+      description: Any records matching the specified name
+    content.vb: Public Function GetDuplicatesAsync(name As String, requestOptions As RequestOptions = Nothing) As Task(Of DuplicateEntry())
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetDuplicatesAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.CreateNewEntryAsync(SuperOffice.WebApi.Data.DuplicateEntry,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.CreateNewEntryAsync(SuperOffice.WebApi.Data.DuplicateEntry,SuperOffice.WebApi.RequestOptions)
+  id: CreateNewEntryAsync(SuperOffice.WebApi.Data.DuplicateEntry,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateNewEntryAsync(DuplicateEntry, RequestOptions)
+  nameWithType: ProjectAgent.CreateNewEntryAsync(DuplicateEntry, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.CreateNewEntryAsync(SuperOffice.WebApi.Data.DuplicateEntry, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreates a new project based on external duplicate\n"
+  syntax:
+    content: public Task<int> CreateNewEntryAsync(DuplicateEntry duplicate, RequestOptions requestOptions = null)
+    parameters:
+    - id: duplicate
+      type: SuperOffice.WebApi.Data.DuplicateEntry
+      description: The duplicate to create a new entry based upon
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: The database identity of the newly created entry
+    content.vb: Public Function CreateNewEntryAsync(duplicate As DuplicateEntry, requestOptions As RequestOptions = Nothing) As Task(Of Integer)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.CreateNewEntryAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.SetDuplicateRulesStatusAsync(SuperOffice.WebApi.Data.DuplicateRule[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.SetDuplicateRulesStatusAsync(SuperOffice.WebApi.Data.DuplicateRule[],SuperOffice.WebApi.RequestOptions)
+  id: SetDuplicateRulesStatusAsync(SuperOffice.WebApi.Data.DuplicateRule[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: SetDuplicateRulesStatusAsync(DuplicateRule[], RequestOptions)
+  nameWithType: ProjectAgent.SetDuplicateRulesStatusAsync(DuplicateRule[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.SetDuplicateRulesStatusAsync(SuperOffice.WebApi.Data.DuplicateRule[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet which duplicate rules should be active or not\n"
+  syntax:
+    content: public Task SetDuplicateRulesStatusAsync(DuplicateRule[] rules, RequestOptions requestOptions = null)
+    parameters:
+    - id: rules
+      type: SuperOffice.WebApi.Data.DuplicateRule[]
+      description: Duplicate rules to update active status for
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function SetDuplicateRulesStatusAsync(rules As DuplicateRule(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.SetDuplicateRulesStatusAsync*
+  nameWithType.vb: ProjectAgent.SetDuplicateRulesStatusAsync(DuplicateRule(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.ProjectAgent.SetDuplicateRulesStatusAsync(SuperOffice.WebApi.Data.DuplicateRule(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SetDuplicateRulesStatusAsync(DuplicateRule(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetDuplicateRulesAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetDuplicateRulesAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetDuplicateRulesAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDuplicateRulesAsync(RequestOptions)
+  nameWithType: ProjectAgent.GetDuplicateRulesAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetDuplicateRulesAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRetrieve all available duplicate rules for project\n"
+  syntax:
+    content: public Task<DuplicateRule[]> GetDuplicateRulesAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DuplicateRule[]}
+      description: All available duplicate rules
+    content.vb: Public Function GetDuplicateRulesAsync(requestOptions As RequestOptions = Nothing) As Task(Of DuplicateRule())
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetDuplicateRulesAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.MergeAsync(System.Int32,System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.MergeAsync(System.Int32,System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  id: MergeAsync(System.Int32,System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: MergeAsync(Int32, Int32, Boolean, RequestOptions)
+  nameWithType: ProjectAgent.MergeAsync(Int32, Int32, Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.MergeAsync(System.Int32, System.Int32, System.Boolean, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nMerge two projects into one, removing the source project in the process\n"
+  syntax:
+    content: public Task MergeAsync(int sourceProjectId, int destinationProjectId, bool replaceEmptyFieldsOnDestination, RequestOptions requestOptions = null)
+    parameters:
+    - id: sourceProjectId
+      type: System.Int32
+      description: Id of source project for merge. This project is removed after the merge is completed.
+    - id: destinationProjectId
+      type: System.Int32
+      description: Id of destination project to merge to. This project is updated with info from the source.
+    - id: replaceEmptyFieldsOnDestination
+      type: System.Boolean
+      description: Fill in empty fields on destination from source?
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function MergeAsync(sourceProjectId As Integer, destinationProjectId As Integer, replaceEmptyFieldsOnDestination As Boolean, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.MergeAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.IsNumberValidAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.IsNumberValidAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: IsNumberValidAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: IsNumberValidAsync(Int32, String, RequestOptions)
+  nameWithType: ProjectAgent.IsNumberValidAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.IsNumberValidAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nChecks if the number is unique or required.  The setting is configured from admin under system options.\n"
+  syntax:
+    content: public Task<bool> IsNumberValidAsync(int contactId, string number, RequestOptions requestOptions = null)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The Project id
+    - id: number
+      type: System.String
+      description: The number to check for uniqueness and validity
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: True if the number is valid
+    content.vb: Public Function IsNumberValidAsync(contactId As Integer, number As String, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.IsNumberValidAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.HasGuideAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.HasGuideAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: HasGuideAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: HasGuideAsync(Int32, RequestOptions)
+  nameWithType: ProjectAgent.HasGuideAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.HasGuideAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDoes this project have a guide associated with its project type?\n"
+  syntax:
+    content: public Task<bool> HasGuideAsync(int projectId, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: Project id
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: True if the project has a guide
+    content.vb: Public Function HasGuideAsync(projectId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.HasGuideAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetNextMilestoneAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetNextMilestoneAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetNextMilestoneAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNextMilestoneAsync(Int32, RequestOptions)
+  nameWithType: ProjectAgent.GetNextMilestoneAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetNextMilestoneAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nNext upcoming milestone appointment\n"
+  syntax:
+    content: public Task<Appointment> GetNextMilestoneAsync(int projectId, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: Project id - primary key
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Appointment}
+      description: Upcoming milestone appointment
+    content.vb: Public Function GetNextMilestoneAsync(projectId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Appointment)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetNextMilestoneAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: OfferAutoNextStatusOnApppointmentCompletedAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: OfferAutoNextStatusOnApppointmentCompletedAsync(Int32, RequestOptions)
+  nameWithType: ProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\n\n"
+  syntax:
+    content: public Task<bool> OfferAutoNextStatusOnApppointmentCompletedAsync(int appointmentId, RequestOptions requestOptions = null)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Function OfferAutoNextStatusOnApppointmentCompletedAsync(appointmentId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetNextProjectStatusAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetNextProjectStatusAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetNextProjectStatusAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNextProjectStatusAsync(Int32, RequestOptions)
+  nameWithType: ProjectAgent.GetNextProjectStatusAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetNextProjectStatusAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\n\n"
+  syntax:
+    content: public Task<int> GetNextProjectStatusAsync(int projectId, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectId
+      type: System.Int32
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Function GetNextProjectStatusAsync(projectId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Integer)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetNextProjectStatusAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.HasGuideActivitiesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.HasGuideActivitiesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: HasGuideActivitiesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: HasGuideActivitiesAsync(Int32, RequestOptions)
+  nameWithType: ProjectAgent.HasGuideActivitiesAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.HasGuideActivitiesAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\n\n"
+  syntax:
+    content: public Task<bool> HasGuideActivitiesAsync(int projectId, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectId
+      type: System.Int32
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Function HasGuideActivitiesAsync(projectId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.HasGuideActivitiesAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.ValidateProjectEntityAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.ValidateProjectEntityAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+  id: ValidateProjectEntityAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: ValidateProjectEntityAsync(ProjectEntity, RequestOptions)
+  nameWithType: ProjectAgent.ValidateProjectEntityAsync(ProjectEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.ValidateProjectEntityAsync(SuperOffice.WebApi.Data.ProjectEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCheck that entity is ready for saving, return error messages by field.\n"
+  syntax:
+    content: public Task<StringDictionary> ValidateProjectEntityAsync(ProjectEntity projectEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectEntity
+      type: SuperOffice.WebApi.Data.ProjectEntity
+      description: Entity to be checked for errors.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}
+      description: Error messages tagged by field.
+    content.vb: Public Function ValidateProjectEntityAsync(projectEntity As ProjectEntity, requestOptions As RequestOptions = Nothing) As Task(Of StringDictionary)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.ValidateProjectEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetProjectEventAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectEventAsync(Int32, RequestOptions)
+  nameWithType: ProjectAgent.GetProjectEventAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific ProjectEvent object.                        \n"
+  syntax:
+    content: public Task<ProjectEvent> GetProjectEventAsync(int projectEventId, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectEventId
+      type: System.Int32
+      description: The identifier of the ProjectEvent object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEvent}
+      description: ProjectEvent
+    content.vb: Public Function GetProjectEventAsync(projectEventId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ProjectEvent)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventOnPersonAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventOnPersonAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetProjectEventOnPersonAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectEventOnPersonAsync(Int32, Int32, RequestOptions)
+  nameWithType: ProjectAgent.GetProjectEventOnPersonAsync(Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventOnPersonAsync(System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a ProjectEvent object from a project and a person.\n"
+  syntax:
+    content: public Task<ProjectEvent> GetProjectEventOnPersonAsync(int projectId, int personId, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project Id
+    - id: personId
+      type: System.Int32
+      description: Id of the person the project events belong to.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEvent}
+    content.vb: Public Function GetProjectEventOnPersonAsync(projectId As Integer, personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ProjectEvent)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventOnPersonAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetProjectEventEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectEventEntityAsync(Int32, RequestOptions)
+  nameWithType: ProjectAgent.GetProjectEventEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific ProjectEventEntity object.                        \n"
+  syntax:
+    content: public Task<ProjectEventEntity> GetProjectEventEntityAsync(int projectEventEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectEventEntityId
+      type: System.Int32
+      description: The identifier of the ProjectEventEntity object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEventEntity}
+      description: ProjectEventEntity
+    content.vb: Public Function GetProjectEventEntityAsync(projectEventEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ProjectEventEntity)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventEntityFromProjectIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventEntityFromProjectIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetProjectEventEntityFromProjectIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectEventEntityFromProjectIdAsync(Int32, RequestOptions)
+  nameWithType: ProjectAgent.GetProjectEventEntityFromProjectIdAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventEntityFromProjectIdAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a ProjectEventEntity based on a projectId.\n"
+  syntax:
+    content: public Task<ProjectEventEntity> GetProjectEventEntityFromProjectIdAsync(int projectId, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The projectId to get a ProjectEventEntity for
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEventEntity}
+      description: ProjectEventEntity
+    content.vb: Public Function GetProjectEventEntityFromProjectIdAsync(projectId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ProjectEventEntity)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventEntityFromProjectIdAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEventEntityFromProjectIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEventEntityFromProjectIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteProjectEventEntityFromProjectIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteProjectEventEntityFromProjectIdAsync(Int32, RequestOptions)
+  nameWithType: ProjectAgent.DeleteProjectEventEntityFromProjectIdAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEventEntityFromProjectIdAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDelete a project event based on a project id. Does not delete the project, but does delete the published and ExternalEvent and AudienceVisibility records.\n"
+  syntax:
+    content: public Task DeleteProjectEventEntityFromProjectIdAsync(int projectId, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project id of the external event to delete.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: Nothing
+    content.vb: Public Function DeleteProjectEventEntityFromProjectIdAsync(projectId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEventEntityFromProjectIdAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: GetProjectEventListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectEventListAsync(Int32[], RequestOptions)
+  nameWithType: ProjectAgent.GetProjectEventListAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventListAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets an array of specific ProjectEvent objects.                        \n"
+  syntax:
+    content: public Task<ProjectEvent[]> GetProjectEventListAsync(int[] projectEventIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectEventIds
+      type: System.Int32[]
+      description: The identifiers of the ProjectEvent object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEvent[]}
+      description: Array of ProjectEvent objects
+    content.vb: Public Function GetProjectEventListAsync(projectEventIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of ProjectEvent())
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventListAsync*
+  nameWithType.vb: ProjectAgent.GetProjectEventListAsync(Int32(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventListAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetProjectEventListAsync(Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetMyProjectEventsAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetMyProjectEventsAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetMyProjectEventsAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyProjectEventsAsync(RequestOptions)
+  nameWithType: ProjectAgent.GetMyProjectEventsAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetMyProjectEventsAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets all project events that belongs to the currently logged on user. The list of events are filtered by the Audience Visibility restrictions set when the project event is created.\n"
+  syntax:
+    content: public Task<ProjectEvent[]> GetMyProjectEventsAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEvent[]}
+      description: Array of project events
+    content.vb: Public Function GetMyProjectEventsAsync(requestOptions As RequestOptions = Nothing) As Task(Of ProjectEvent())
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetMyProjectEventsAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventsOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventsOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetProjectEventsOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectEventsOnPersonAsync(Int32, RequestOptions)
+  nameWithType: ProjectAgent.GetProjectEventsOnPersonAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventsOnPersonAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets all project events that belongs to the person specified. The list of events are filtered by the Audience Visibility restrictions set when the project event is created.\n"
+  syntax:
+    content: public Task<ProjectEvent[]> GetProjectEventsOnPersonAsync(int personId, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: Id of the person the project events belong to.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEvent[]}
+      description: Array of project events
+    content.vb: Public Function GetProjectEventsOnPersonAsync(personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ProjectEvent())
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventsOnPersonAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: GetProjectListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectListAsync(Int32[], RequestOptions)
+  nameWithType: ProjectAgent.GetProjectListAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectListAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets an array of specific Project objects.                        \n"
+  syntax:
+    content: public Task<Project[]> GetProjectListAsync(int[] projectIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectIds
+      type: System.Int32[]
+      description: The identifiers of the Project object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Project[]}
+      description: Array of Project objects
+    content.vb: Public Function GetProjectListAsync(projectIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of Project())
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectListAsync*
+  nameWithType.vb: ProjectAgent.GetProjectListAsync(Int32(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectListAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetProjectListAsync(Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetMyProjectsAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetMyProjectsAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
+  id: GetMyProjectsAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyProjectsAsync(Boolean, RequestOptions)
+  nameWithType: ProjectAgent.GetMyProjectsAsync(Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetMyProjectsAsync(System.Boolean, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturning the projects belonging to an associate. If memberProjects is false only the projects where the associate is project responsible is returned, otherwise both the projects where the associate is project responsible and project member is returned.\n"
+  syntax:
+    content: public Task<Project[]> GetMyProjectsAsync(bool includeMemberProjects, RequestOptions requestOptions = null)
+    parameters:
+    - id: includeMemberProjects
+      type: System.Boolean
+      description: True to include projects where the user is project member.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Project[]}
+      description: The list of projects
+    content.vb: Public Function GetMyProjectsAsync(includeMemberProjects As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of Project())
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetMyProjectsAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetMyMemberProjectsAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetMyMemberProjectsAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetMyMemberProjectsAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyMemberProjectsAsync(RequestOptions)
+  nameWithType: ProjectAgent.GetMyMemberProjectsAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetMyMemberProjectsAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturning the projects where an user is project member.\n"
+  syntax:
+    content: public Task<Project[]> GetMyMemberProjectsAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Project[]}
+      description: The list of projects.
+    content.vb: Public Function GetMyMemberProjectsAsync(requestOptions As RequestOptions = Nothing) As Task(Of Project())
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetMyMemberProjectsAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectsFromPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectsFromPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetProjectsFromPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectsFromPersonAsync(Int32, RequestOptions)
+  nameWithType: ProjectAgent.GetProjectsFromPersonAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectsFromPersonAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturn all projects where the person is project member.\n"
+  syntax:
+    content: public Task<Project[]> GetProjectsFromPersonAsync(int personId, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Project[]}
+      description: ProjectListEntity
+    content.vb: Public Function GetProjectsFromPersonAsync(personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Project())
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectsFromPersonAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectsFromContactAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectsFromContactAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetProjectsFromContactAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectsFromContactAsync(Int32, RequestOptions)
+  nameWithType: ProjectAgent.GetProjectsFromContactAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectsFromContactAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns all projects where the given contact has projectmembers.\n"
+  syntax:
+    content: public Task<Project[]> GetProjectsFromContactAsync(int contactId, RequestOptions requestOptions = null)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The contact id
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Project[]}
+      description: ProjectListEntity
+    content.vb: Public Function GetProjectsFromContactAsync(contactId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Project())
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectsFromContactAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetPublishedProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPublishedProjectAsync(Int32, RequestOptions)
+  nameWithType: ProjectAgent.GetPublishedProjectAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet published project by project id.\n"
+  syntax:
+    content: public Task<Project> GetPublishedProjectAsync(int projectId, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project id.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Project}
+      description: Project
+    content.vb: Public Function GetPublishedProjectAsync(projectId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Project)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: GetPublishedProjectsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPublishedProjectsAsync(Int32[], RequestOptions)
+  nameWithType: ProjectAgent.GetPublishedProjectsAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectsAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet published projects by project ids.\n"
+  syntax:
+    content: public Task<Project[]> GetPublishedProjectsAsync(int[] projectIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectIds
+      type: System.Int32[]
+      description: The array of project ids
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Project[]}
+      description: Projects
+    content.vb: Public Function GetPublishedProjectsAsync(projectIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of Project())
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectsAsync*
+  nameWithType.vb: ProjectAgent.GetPublishedProjectsAsync(Int32(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectsAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetPublishedProjectsAsync(Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetMyPublishedProjectsAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetMyPublishedProjectsAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetMyPublishedProjectsAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyPublishedProjectsAsync(RequestOptions)
+  nameWithType: ProjectAgent.GetMyPublishedProjectsAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetMyPublishedProjectsAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet published projects from the logged in user.\n"
+  syntax:
+    content: public Task<Project[]> GetMyPublishedProjectsAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Project[]}
+      description: Projects
+    content.vb: Public Function GetMyPublishedProjectsAsync(requestOptions As RequestOptions = Nothing) As Task(Of Project())
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetMyPublishedProjectsAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectsOnPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectsOnPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetPublishedProjectsOnPersonIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPublishedProjectsOnPersonIdAsync(Int32, RequestOptions)
+  nameWithType: ProjectAgent.GetPublishedProjectsOnPersonIdAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectsOnPersonIdAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet published projects where person  is a member\n"
+  syntax:
+    content: public Task<Project[]> GetPublishedProjectsOnPersonIdAsync(int personId, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Project[]}
+      description: Array of project
+    content.vb: Public Function GetPublishedProjectsOnPersonIdAsync(personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Project())
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectsOnPersonIdAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMemberAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMemberAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetProjectMemberAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectMemberAsync(Int32, RequestOptions)
+  nameWithType: ProjectAgent.GetProjectMemberAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMemberAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific ProjectMember object.                        \n"
+  syntax:
+    content: public Task<ProjectMember> GetProjectMemberAsync(int projectMemberId, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectMemberId
+      type: System.Int32
+      description: The identifier of the ProjectMember object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectMember}
+      description: ProjectMember
+    content.vb: Public Function GetProjectMemberAsync(projectMemberId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ProjectMember)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMemberAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetProjectMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectMembersAsync(Int32, RequestOptions)
+  nameWithType: ProjectAgent.GetProjectMembersAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMembersAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns an array of project members\n"
+  syntax:
+    content: public Task<ProjectMember[]> GetProjectMembersAsync(int projectId, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project id
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectMember[]}
+      description: An array of project members
+    content.vb: Public Function GetProjectMembersAsync(projectId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ProjectMember())
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMembersAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.UpdateProjectMemberAsync(SuperOffice.WebApi.Data.ProjectMember,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.UpdateProjectMemberAsync(SuperOffice.WebApi.Data.ProjectMember,SuperOffice.WebApi.RequestOptions)
+  id: UpdateProjectMemberAsync(SuperOffice.WebApi.Data.ProjectMember,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: UpdateProjectMemberAsync(ProjectMember, RequestOptions)
+  nameWithType: ProjectAgent.UpdateProjectMemberAsync(ProjectMember, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.UpdateProjectMemberAsync(SuperOffice.WebApi.Data.ProjectMember, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates a ProjectMember row.\n"
+  syntax:
+    content: public Task<ProjectMember> UpdateProjectMemberAsync(ProjectMember projectMember, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectMember
+      type: SuperOffice.WebApi.Data.ProjectMember
+      description: ProjectMember to update
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectMember}
+      description: The Updated ProjectMember
+    content.vb: Public Function UpdateProjectMemberAsync(projectMember As ProjectMember, requestOptions As RequestOptions = Nothing) As Task(Of ProjectMember)
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.UpdateProjectMemberAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMembersByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMembersByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: GetProjectMembersByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectMembersByIdAsync(Int32[], RequestOptions)
+  nameWithType: ProjectAgent.GetProjectMembersByIdAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMembersByIdAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns an array of project members\n"
+  syntax:
+    content: public Task<ProjectMember[]> GetProjectMembersByIdAsync(int[] projectMemberIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectMemberIds
+      type: System.Int32[]
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectMember[]}
+      description: An array of project members
+    content.vb: Public Function GetProjectMembersByIdAsync(projectMemberIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of ProjectMember())
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMembersByIdAsync*
+  nameWithType.vb: ProjectAgent.GetProjectMembersByIdAsync(Int32(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMembersByIdAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetProjectMembersByIdAsync(Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMembersFunctionAndCommentAsync(System.Int32[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMembersFunctionAndCommentAsync(System.Int32[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: SaveProjectMembersFunctionAndCommentAsync(System.Int32[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveProjectMembersFunctionAndCommentAsync(Int32[], Int32, String, RequestOptions)
+  nameWithType: ProjectAgent.SaveProjectMembersFunctionAndCommentAsync(Int32[], Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMembersFunctionAndCommentAsync(System.Int32[], System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSaves role and comment on an array of projectmembers represented by ids\n"
+  syntax:
+    content: public Task SaveProjectMembersFunctionAndCommentAsync(int[] projectMemberIds, int roleId, string comment, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectMemberIds
+      type: System.Int32[]
+    - id: roleId
+      type: System.Int32
+    - id: comment
+      type: System.String
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function SaveProjectMembersFunctionAndCommentAsync(projectMemberIds As Integer(), roleId As Integer, comment As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMembersFunctionAndCommentAsync*
+  nameWithType.vb: ProjectAgent.SaveProjectMembersFunctionAndCommentAsync(Int32(), Int32, String, RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMembersFunctionAndCommentAsync(System.Int32(), System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  name.vb: SaveProjectMembersFunctionAndCommentAsync(Int32(), Int32, String, RequestOptions)
+references:
+- uid: SuperOffice.WebApi.Agents
+  commentId: N:SuperOffice.WebApi.Agents
+  isExternal: true
+  name: SuperOffice.WebApi.Agents
+  nameWithType: SuperOffice.WebApi.Agents
+  fullName: SuperOffice.WebApi.Agents
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.AgentBase
+  commentId: T:SuperOffice.WebApi.Agents.AgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  name: AgentBase
+  nameWithType: AgentBase
+  fullName: SuperOffice.WebApi.Agents.AgentBase
+- uid: System.IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.WebApi.Agents.AgentBase._json
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._json
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _json
+  nameWithType: AgentBase._json
+  fullName: SuperOffice.WebApi.Agents.AgentBase._json
+- uid: SuperOffice.WebApi.Agents.AgentBase._binary
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._binary
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _binary
+  nameWithType: AgentBase._binary
+  fullName: SuperOffice.WebApi.Agents.AgentBase._binary
+- uid: SuperOffice.WebApi.Agents.AgentBase._config
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._config
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _config
+  nameWithType: AgentBase._config
+  fullName: SuperOffice.WebApi.Agents.AgentBase._config
+- uid: SuperOffice.WebApi.Agents.AgentBase._client
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._client
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _client
+  nameWithType: AgentBase._client
+  fullName: SuperOffice.WebApi.Agents.AgentBase._client
+- uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Merge(RequestOptions)
+  nameWithType: AgentBase.Merge(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+    name: Merge
+    nameWithType: AgentBase.Merge
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Merge
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+    name: Merge
+    nameWithType: AgentBase.Merge
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Merge
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod, System.String, System.Object, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObject
+    nameWithType: AgentBase.BuildRequestFromObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObject
+    nameWithType: AgentBase.BuildRequestFromObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod, System.String, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromStream
+    nameWithType: AgentBase.BuildRequestFromStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromStream
+    nameWithType: AgentBase.BuildRequestFromStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseAuthorization(IAuthorization)
+  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: CancelRequest()
+  nameWithType: AgentBase.CancelRequest()
+  fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    name: CancelRequest
+    nameWithType: AgentBase.CancelRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    name: CancelRequest
+    nameWithType: AgentBase.CancelRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
+  nameWithType: AgentBase.SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod, System.String, System.Object, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObject
+    nameWithType: AgentBase.SendRequestObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObject
+    nameWithType: AgentBase.SendRequestObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequest(HttpRequestMessage)
+  nameWithType: AgentBase.SendRequest(HttpRequestMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+    name: SendRequest
+    nameWithType: AgentBase.SendRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+    name: SendRequest
+    nameWithType: AgentBase.SendRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
+  nameWithType: AgentBase.ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage, System.Net.Http.HttpResponseMessage)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseError
+    nameWithType: AgentBase.ThrowOnResponseError
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseError
+    nameWithType: AgentBase.ThrowOnResponseError
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseResponse<T>(HttpResponseMessage)
+  nameWithType: AgentBase.ParseResponse<T>(HttpResponseMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse<T>(System.Net.Http.HttpResponseMessage)
+  nameWithType.vb: AgentBase.ParseResponse(Of T)(HttpResponseMessage)
+  fullName.vb: SuperOffice.WebApi.Agents.AgentBase.ParseResponse(Of T)(System.Net.Http.HttpResponseMessage)
+  name.vb: ParseResponse(Of T)(HttpResponseMessage)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+    name: ParseResponse<T>
+    nameWithType: AgentBase.ParseResponse<T>
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+    name: ParseResponse(Of T)
+    nameWithType: AgentBase.ParseResponse(Of T)
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Finally(RequestOptions)
+  nameWithType: AgentBase.Finally(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+    name: Finally
+    nameWithType: AgentBase.Finally
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Finally
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+    name: Finally
+    nameWithType: AgentBase.Finally
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Finally
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Dispose
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase.Dispose()
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    name: Dispose
+    nameWithType: AgentBase.Dispose
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    name: Dispose
+    nameWithType: AgentBase.Dispose
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Configuration
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.Configuration
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Configuration
+  nameWithType: AgentBase.Configuration
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Configuration
+- uid: SuperOffice.WebApi.Agents.AgentBase.Client
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.Client
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Client
+  nameWithType: AgentBase.Client
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Client
+- uid: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: HasRunningRequest
+  nameWithType: AgentBase.HasRunningRequest
+  fullName: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+- uid: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ClientCancellationTokenSource
+  nameWithType: AgentBase.ClientCancellationTokenSource
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+- uid: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ProgressListener
+  nameWithType: AgentBase.ProgressListener
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.#ctor
+  isExternal: true
+  name: ProjectAgent
+  nameWithType: ProjectAgent.ProjectAgent
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.ProjectAgent
+- uid: System.Net.Http.HttpClient
+  isExternal: true
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: System.Net.Http.HttpClient
+- uid: SuperOffice.WebApi.WebApiOptions
+  commentId: T:SuperOffice.WebApi.WebApiOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: WebApiOptions
+  nameWithType: WebApiOptions
+  fullName: SuperOffice.WebApi.WebApiOptions
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectEntityAsync
+  isExternal: true
+  name: CreateDefaultProjectEntityAsync
+  nameWithType: ProjectAgent.CreateDefaultProjectEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectEntityAsync
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEntity}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ProjectEntity>
+  nameWithType: Task<ProjectEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ProjectEntity>
+  nameWithType.vb: Task(Of ProjectEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ProjectEntity)
+  name.vb: Task(Of ProjectEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ProjectEntity
+    name: ProjectEntity
+    nameWithType: ProjectEntity
+    fullName: SuperOffice.WebApi.Data.ProjectEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ProjectEntity
+    name: ProjectEntity
+    nameWithType: ProjectEntity
+    fullName: SuperOffice.WebApi.Data.ProjectEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEntityAsync
+  isExternal: true
+  name: SaveProjectEntityAsync
+  nameWithType: ProjectAgent.SaveProjectEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEntityAsync
+- uid: SuperOffice.WebApi.Data.ProjectEntity
+  commentId: T:SuperOffice.WebApi.Data.ProjectEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ProjectEntity
+  nameWithType: ProjectEntity
+  fullName: SuperOffice.WebApi.Data.ProjectEntity
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEntityAsync
+  isExternal: true
+  name: DeleteProjectEntityAsync
+  nameWithType: ProjectAgent.DeleteProjectEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEntityAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectEventEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectEventEntityAsync
+  isExternal: true
+  name: CreateDefaultProjectEventEntityAsync
+  nameWithType: ProjectAgent.CreateDefaultProjectEventEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectEventEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEventEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEventEntity}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ProjectEventEntity>
+  nameWithType: Task<ProjectEventEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ProjectEventEntity>
+  nameWithType.vb: Task(Of ProjectEventEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ProjectEventEntity)
+  name.vb: Task(Of ProjectEventEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ProjectEventEntity
+    name: ProjectEventEntity
+    nameWithType: ProjectEventEntity
+    fullName: SuperOffice.WebApi.Data.ProjectEventEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ProjectEventEntity
+    name: ProjectEventEntity
+    nameWithType: ProjectEventEntity
+    fullName: SuperOffice.WebApi.Data.ProjectEventEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEventEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEventEntityAsync
+  isExternal: true
+  name: SaveProjectEventEntityAsync
+  nameWithType: ProjectAgent.SaveProjectEventEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEventEntityAsync
+- uid: SuperOffice.WebApi.Data.ProjectEventEntity
+  commentId: T:SuperOffice.WebApi.Data.ProjectEventEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ProjectEventEntity
+  nameWithType: ProjectEventEntity
+  fullName: SuperOffice.WebApi.Data.ProjectEventEntity
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEventEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEventEntityAsync
+  isExternal: true
+  name: DeleteProjectEventEntityAsync
+  nameWithType: ProjectAgent.DeleteProjectEventEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEventEntityAsync
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectMemberAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectMemberAsync
+  isExternal: true
+  name: CreateDefaultProjectMemberAsync
+  nameWithType: ProjectAgent.CreateDefaultProjectMemberAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.CreateDefaultProjectMemberAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectMember}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectMember}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ProjectMember>
+  nameWithType: Task<ProjectMember>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ProjectMember>
+  nameWithType.vb: Task(Of ProjectMember)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ProjectMember)
+  name.vb: Task(Of ProjectMember)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ProjectMember
+    name: ProjectMember
+    nameWithType: ProjectMember
+    fullName: SuperOffice.WebApi.Data.ProjectMember
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ProjectMember
+    name: ProjectMember
+    nameWithType: ProjectMember
+    fullName: SuperOffice.WebApi.Data.ProjectMember
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMemberAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMemberAsync
+  isExternal: true
+  name: SaveProjectMemberAsync
+  nameWithType: ProjectAgent.SaveProjectMemberAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMemberAsync
+- uid: SuperOffice.WebApi.Data.ProjectMember
+  commentId: T:SuperOffice.WebApi.Data.ProjectMember
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ProjectMember
+  nameWithType: ProjectMember
+  fullName: SuperOffice.WebApi.Data.ProjectMember
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMemberAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMemberAsync
+  isExternal: true
+  name: DeleteProjectMemberAsync
+  nameWithType: ProjectAgent.DeleteProjectMemberAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMemberAsync
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectAsync
+  isExternal: true
+  name: GetProjectAsync
+  nameWithType: ProjectAgent.GetProjectAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Project}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Project}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Project>
+  nameWithType: Task<Project>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.Project>
+  nameWithType.vb: Task(Of Project)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.Project)
+  name.vb: Task(Of Project)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.Project
+    name: Project
+    nameWithType: Project
+    fullName: SuperOffice.WebApi.Data.Project
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.Project
+    name: Project
+    nameWithType: Project
+    fullName: SuperOffice.WebApi.Data.Project
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEntityAsync
+  isExternal: true
+  name: GetProjectEntityAsync
+  nameWithType: ProjectAgent.GetProjectEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEntityAsync
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.AddProjectMembersAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.AddProjectMembersAsync
+  isExternal: true
+  name: AddProjectMembersAsync
+  nameWithType: ProjectAgent.AddProjectMembersAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.AddProjectMembersAsync
+- uid: SuperOffice.WebApi.Data.ProjectMember[]
+  isExternal: true
+  name: ProjectMember[]
+  nameWithType: ProjectMember[]
+  fullName: SuperOffice.WebApi.Data.ProjectMember[]
+  nameWithType.vb: ProjectMember()
+  fullName.vb: SuperOffice.WebApi.Data.ProjectMember()
+  name.vb: ProjectMember()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ProjectMember
+    name: ProjectMember
+    nameWithType: ProjectMember
+    fullName: SuperOffice.WebApi.Data.ProjectMember
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ProjectMember
+    name: ProjectMember
+    nameWithType: ProjectMember
+    fullName: SuperOffice.WebApi.Data.ProjectMember
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMembersAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMembersAsync
+  isExternal: true
+  name: DeleteProjectMembersAsync
+  nameWithType: ProjectAgent.DeleteProjectMembersAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMembersAsync
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectImageAsync
+  isExternal: true
+  name: GetProjectImageAsync
+  nameWithType: ProjectAgent.GetProjectImageAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectImageAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.Tasks.Task{System.Byte[]}
+  commentId: '!:System.Threading.Tasks.Task{System.Byte[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Byte[]>
+  nameWithType: Task<Byte[]>
+  fullName: System.Threading.Tasks.Task<System.Byte[]>
+  nameWithType.vb: Task(Of Byte())
+  fullName.vb: System.Threading.Tasks.Task(Of System.Byte())
+  name.vb: Task(Of Byte())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.SetProjectImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.SetProjectImageAsync
+  isExternal: true
+  name: SetProjectImageAsync
+  nameWithType: ProjectAgent.SetProjectImageAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.SetProjectImageAsync
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMemberByIdsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMemberByIdsAsync
+  isExternal: true
+  name: DeleteProjectMemberByIdsAsync
+  nameWithType: ProjectAgent.DeleteProjectMemberByIdsAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectMemberByIdsAsync
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetDuplicatesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetDuplicatesAsync
+  isExternal: true
+  name: GetDuplicatesAsync
+  nameWithType: ProjectAgent.GetDuplicatesAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetDuplicatesAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DuplicateEntry[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DuplicateEntry[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<DuplicateEntry[]>
+  nameWithType: Task<DuplicateEntry[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.DuplicateEntry[]>
+  nameWithType.vb: Task(Of DuplicateEntry())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.DuplicateEntry())
+  name.vb: Task(Of DuplicateEntry())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.DuplicateEntry
+    name: DuplicateEntry
+    nameWithType: DuplicateEntry
+    fullName: SuperOffice.WebApi.Data.DuplicateEntry
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.DuplicateEntry
+    name: DuplicateEntry
+    nameWithType: DuplicateEntry
+    fullName: SuperOffice.WebApi.Data.DuplicateEntry
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.CreateNewEntryAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.CreateNewEntryAsync
+  isExternal: true
+  name: CreateNewEntryAsync
+  nameWithType: ProjectAgent.CreateNewEntryAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.CreateNewEntryAsync
+- uid: SuperOffice.WebApi.Data.DuplicateEntry
+  commentId: T:SuperOffice.WebApi.Data.DuplicateEntry
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DuplicateEntry
+  nameWithType: DuplicateEntry
+  fullName: SuperOffice.WebApi.Data.DuplicateEntry
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.SetDuplicateRulesStatusAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.SetDuplicateRulesStatusAsync
+  isExternal: true
+  name: SetDuplicateRulesStatusAsync
+  nameWithType: ProjectAgent.SetDuplicateRulesStatusAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.SetDuplicateRulesStatusAsync
+- uid: SuperOffice.WebApi.Data.DuplicateRule[]
+  isExternal: true
+  name: DuplicateRule[]
+  nameWithType: DuplicateRule[]
+  fullName: SuperOffice.WebApi.Data.DuplicateRule[]
+  nameWithType.vb: DuplicateRule()
+  fullName.vb: SuperOffice.WebApi.Data.DuplicateRule()
+  name.vb: DuplicateRule()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.DuplicateRule
+    name: DuplicateRule
+    nameWithType: DuplicateRule
+    fullName: SuperOffice.WebApi.Data.DuplicateRule
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.DuplicateRule
+    name: DuplicateRule
+    nameWithType: DuplicateRule
+    fullName: SuperOffice.WebApi.Data.DuplicateRule
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetDuplicateRulesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetDuplicateRulesAsync
+  isExternal: true
+  name: GetDuplicateRulesAsync
+  nameWithType: ProjectAgent.GetDuplicateRulesAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetDuplicateRulesAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DuplicateRule[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DuplicateRule[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<DuplicateRule[]>
+  nameWithType: Task<DuplicateRule[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.DuplicateRule[]>
+  nameWithType.vb: Task(Of DuplicateRule())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.DuplicateRule())
+  name.vb: Task(Of DuplicateRule())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.DuplicateRule
+    name: DuplicateRule
+    nameWithType: DuplicateRule
+    fullName: SuperOffice.WebApi.Data.DuplicateRule
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.DuplicateRule
+    name: DuplicateRule
+    nameWithType: DuplicateRule
+    fullName: SuperOffice.WebApi.Data.DuplicateRule
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.MergeAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.MergeAsync
+  isExternal: true
+  name: MergeAsync
+  nameWithType: ProjectAgent.MergeAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.MergeAsync
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.IsNumberValidAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.IsNumberValidAsync
+  isExternal: true
+  name: IsNumberValidAsync
+  nameWithType: ProjectAgent.IsNumberValidAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.IsNumberValidAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.HasGuideAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.HasGuideAsync
+  isExternal: true
+  name: HasGuideAsync
+  nameWithType: ProjectAgent.HasGuideAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.HasGuideAsync
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetNextMilestoneAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetNextMilestoneAsync
+  isExternal: true
+  name: GetNextMilestoneAsync
+  nameWithType: ProjectAgent.GetNextMilestoneAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetNextMilestoneAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Appointment}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Appointment}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Appointment>
+  nameWithType: Task<Appointment>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.Appointment>
+  nameWithType.vb: Task(Of Appointment)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.Appointment)
+  name.vb: Task(Of Appointment)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.Appointment
+    name: Appointment
+    nameWithType: Appointment
+    fullName: SuperOffice.WebApi.Data.Appointment
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.Appointment
+    name: Appointment
+    nameWithType: Appointment
+    fullName: SuperOffice.WebApi.Data.Appointment
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync
+  isExternal: true
+  name: OfferAutoNextStatusOnApppointmentCompletedAsync
+  nameWithType: ProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetNextProjectStatusAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetNextProjectStatusAsync
+  isExternal: true
+  name: GetNextProjectStatusAsync
+  nameWithType: ProjectAgent.GetNextProjectStatusAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetNextProjectStatusAsync
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.HasGuideActivitiesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.HasGuideActivitiesAsync
+  isExternal: true
+  name: HasGuideActivitiesAsync
+  nameWithType: ProjectAgent.HasGuideActivitiesAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.HasGuideActivitiesAsync
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.ValidateProjectEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.ValidateProjectEntityAsync
+  isExternal: true
+  name: ValidateProjectEntityAsync
+  nameWithType: ProjectAgent.ValidateProjectEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.ValidateProjectEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<StringDictionary>
+  nameWithType: Task<StringDictionary>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.StringDictionary>
+  nameWithType.vb: Task(Of StringDictionary)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.StringDictionary)
+  name.vb: Task(Of StringDictionary)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.StringDictionary
+    name: StringDictionary
+    nameWithType: StringDictionary
+    fullName: SuperOffice.WebApi.Data.StringDictionary
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.StringDictionary
+    name: StringDictionary
+    nameWithType: StringDictionary
+    fullName: SuperOffice.WebApi.Data.StringDictionary
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventAsync
+  isExternal: true
+  name: GetProjectEventAsync
+  nameWithType: ProjectAgent.GetProjectEventAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEvent}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEvent}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ProjectEvent>
+  nameWithType: Task<ProjectEvent>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ProjectEvent>
+  nameWithType.vb: Task(Of ProjectEvent)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ProjectEvent)
+  name.vb: Task(Of ProjectEvent)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ProjectEvent
+    name: ProjectEvent
+    nameWithType: ProjectEvent
+    fullName: SuperOffice.WebApi.Data.ProjectEvent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ProjectEvent
+    name: ProjectEvent
+    nameWithType: ProjectEvent
+    fullName: SuperOffice.WebApi.Data.ProjectEvent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventOnPersonAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventOnPersonAsync
+  isExternal: true
+  name: GetProjectEventOnPersonAsync
+  nameWithType: ProjectAgent.GetProjectEventOnPersonAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventOnPersonAsync
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventEntityAsync
+  isExternal: true
+  name: GetProjectEventEntityAsync
+  nameWithType: ProjectAgent.GetProjectEventEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventEntityAsync
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventEntityFromProjectIdAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventEntityFromProjectIdAsync
+  isExternal: true
+  name: GetProjectEventEntityFromProjectIdAsync
+  nameWithType: ProjectAgent.GetProjectEventEntityFromProjectIdAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventEntityFromProjectIdAsync
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEventEntityFromProjectIdAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEventEntityFromProjectIdAsync
+  isExternal: true
+  name: DeleteProjectEventEntityFromProjectIdAsync
+  nameWithType: ProjectAgent.DeleteProjectEventEntityFromProjectIdAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.DeleteProjectEventEntityFromProjectIdAsync
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventListAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventListAsync
+  isExternal: true
+  name: GetProjectEventListAsync
+  nameWithType: ProjectAgent.GetProjectEventListAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventListAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEvent[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEvent[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ProjectEvent[]>
+  nameWithType: Task<ProjectEvent[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ProjectEvent[]>
+  nameWithType.vb: Task(Of ProjectEvent())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ProjectEvent())
+  name.vb: Task(Of ProjectEvent())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ProjectEvent
+    name: ProjectEvent
+    nameWithType: ProjectEvent
+    fullName: SuperOffice.WebApi.Data.ProjectEvent
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ProjectEvent
+    name: ProjectEvent
+    nameWithType: ProjectEvent
+    fullName: SuperOffice.WebApi.Data.ProjectEvent
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetMyProjectEventsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetMyProjectEventsAsync
+  isExternal: true
+  name: GetMyProjectEventsAsync
+  nameWithType: ProjectAgent.GetMyProjectEventsAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetMyProjectEventsAsync
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventsOnPersonAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventsOnPersonAsync
+  isExternal: true
+  name: GetProjectEventsOnPersonAsync
+  nameWithType: ProjectAgent.GetProjectEventsOnPersonAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventsOnPersonAsync
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectListAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectListAsync
+  isExternal: true
+  name: GetProjectListAsync
+  nameWithType: ProjectAgent.GetProjectListAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectListAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Project[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Project[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Project[]>
+  nameWithType: Task<Project[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.Project[]>
+  nameWithType.vb: Task(Of Project())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.Project())
+  name.vb: Task(Of Project())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.Project
+    name: Project
+    nameWithType: Project
+    fullName: SuperOffice.WebApi.Data.Project
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.Project
+    name: Project
+    nameWithType: Project
+    fullName: SuperOffice.WebApi.Data.Project
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetMyProjectsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetMyProjectsAsync
+  isExternal: true
+  name: GetMyProjectsAsync
+  nameWithType: ProjectAgent.GetMyProjectsAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetMyProjectsAsync
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetMyMemberProjectsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetMyMemberProjectsAsync
+  isExternal: true
+  name: GetMyMemberProjectsAsync
+  nameWithType: ProjectAgent.GetMyMemberProjectsAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetMyMemberProjectsAsync
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectsFromPersonAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectsFromPersonAsync
+  isExternal: true
+  name: GetProjectsFromPersonAsync
+  nameWithType: ProjectAgent.GetProjectsFromPersonAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectsFromPersonAsync
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectsFromContactAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectsFromContactAsync
+  isExternal: true
+  name: GetProjectsFromContactAsync
+  nameWithType: ProjectAgent.GetProjectsFromContactAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectsFromContactAsync
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectAsync
+  isExternal: true
+  name: GetPublishedProjectAsync
+  nameWithType: ProjectAgent.GetPublishedProjectAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectAsync
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectsAsync
+  isExternal: true
+  name: GetPublishedProjectsAsync
+  nameWithType: ProjectAgent.GetPublishedProjectsAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectsAsync
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetMyPublishedProjectsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetMyPublishedProjectsAsync
+  isExternal: true
+  name: GetMyPublishedProjectsAsync
+  nameWithType: ProjectAgent.GetMyPublishedProjectsAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetMyPublishedProjectsAsync
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectsOnPersonIdAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectsOnPersonIdAsync
+  isExternal: true
+  name: GetPublishedProjectsOnPersonIdAsync
+  nameWithType: ProjectAgent.GetPublishedProjectsOnPersonIdAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetPublishedProjectsOnPersonIdAsync
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMemberAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMemberAsync
+  isExternal: true
+  name: GetProjectMemberAsync
+  nameWithType: ProjectAgent.GetProjectMemberAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMemberAsync
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMembersAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMembersAsync
+  isExternal: true
+  name: GetProjectMembersAsync
+  nameWithType: ProjectAgent.GetProjectMembersAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMembersAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectMember[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectMember[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ProjectMember[]>
+  nameWithType: Task<ProjectMember[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ProjectMember[]>
+  nameWithType.vb: Task(Of ProjectMember())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ProjectMember())
+  name.vb: Task(Of ProjectMember())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ProjectMember
+    name: ProjectMember
+    nameWithType: ProjectMember
+    fullName: SuperOffice.WebApi.Data.ProjectMember
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ProjectMember
+    name: ProjectMember
+    nameWithType: ProjectMember
+    fullName: SuperOffice.WebApi.Data.ProjectMember
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.UpdateProjectMemberAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.UpdateProjectMemberAsync
+  isExternal: true
+  name: UpdateProjectMemberAsync
+  nameWithType: ProjectAgent.UpdateProjectMemberAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.UpdateProjectMemberAsync
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMembersByIdAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMembersByIdAsync
+  isExternal: true
+  name: GetProjectMembersByIdAsync
+  nameWithType: ProjectAgent.GetProjectMembersByIdAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectMembersByIdAsync
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMembersFunctionAndCommentAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMembersFunctionAndCommentAsync
+  isExternal: true
+  name: SaveProjectMembersFunctionAndCommentAsync
+  nameWithType: ProjectAgent.SaveProjectMembersFunctionAndCommentAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMembersFunctionAndCommentAsync

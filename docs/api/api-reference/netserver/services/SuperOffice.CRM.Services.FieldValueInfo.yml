@@ -1,0 +1,1234 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.FieldValueInfo
+  commentId: T:SuperOffice.CRM.Services.FieldValueInfo
+  id: FieldValueInfo
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.FieldValueInfo.#ctor
+  - SuperOffice.CRM.Services.FieldValueInfo.CanSupportMultiUse
+  - SuperOffice.CRM.Services.FieldValueInfo.ControlInfos
+  - SuperOffice.CRM.Services.FieldValueInfo.CurrentOperationType
+  - SuperOffice.CRM.Services.FieldValueInfo.DefaultShowInGui
+  - SuperOffice.CRM.Services.FieldValueInfo.DefaultShowInSelector
+  - SuperOffice.CRM.Services.FieldValueInfo.DisplayValues
+  - SuperOffice.CRM.Services.FieldValueInfo.EncodedDataCaption
+  - SuperOffice.CRM.Services.FieldValueInfo.EncodedDataCaptionDescription
+  - SuperOffice.CRM.Services.FieldValueInfo.EncodedDisplayDescription
+  - SuperOffice.CRM.Services.FieldValueInfo.EncodedDisplayName
+  - SuperOffice.CRM.Services.FieldValueInfo.IconHint
+  - SuperOffice.CRM.Services.FieldValueInfo.IsActive
+  - SuperOffice.CRM.Services.FieldValueInfo.Key
+  - SuperOffice.CRM.Services.FieldValueInfo.Mandatory
+  - SuperOffice.CRM.Services.FieldValueInfo.OperationInfos
+  - SuperOffice.CRM.Services.FieldValueInfo.ToString
+  - SuperOffice.CRM.Services.FieldValueInfo.ToString(System.String)
+  - SuperOffice.CRM.Services.FieldValueInfo.Values
+  - SuperOffice.CRM.Services.FieldValueInfo.ValueType
+  langs:
+  - csharp
+  - vb
+  name: FieldValueInfo
+  nameWithType: FieldValueInfo
+  fullName: SuperOffice.CRM.Services.FieldValueInfo
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis class carries information about the definition and properties of an field used in bulk update system. The class is serializable and used on both the application and Web server sides.\n<p></p>\nCarrier object for FieldValueInfo.\nServices for the FieldValueInfo Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IBulkUpdateAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public class FieldValueInfo
+    content.vb: Public Class FieldValueInfo
+  seealso:
+  - linkId: SuperOffice.CRM.Services.BulkUpdateAgent
+    commentId: T:SuperOffice.CRM.Services.BulkUpdateAgent
+  - linkId: SuperOffice.CRM.Services.IBulkUpdateAgent
+    commentId: T:SuperOffice.CRM.Services.IBulkUpdateAgent
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.FieldValueInfo.#ctor
+  commentId: M:SuperOffice.CRM.Services.FieldValueInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.FieldValueInfo
+  langs:
+  - csharp
+  - vb
+  name: FieldValueInfo()
+  nameWithType: FieldValueInfo.FieldValueInfo()
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.FieldValueInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public FieldValueInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.FieldValueInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.FieldValueInfo.ToString
+  commentId: M:SuperOffice.CRM.Services.FieldValueInfo.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.FieldValueInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: FieldValueInfo.ToString()
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.Services.FieldValueInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.FieldValueInfo.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.FieldValueInfo.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.FieldValueInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: FieldValueInfo.ToString(String)
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.FieldValueInfo.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.FieldValueInfo.CanSupportMultiUse
+  commentId: P:SuperOffice.CRM.Services.FieldValueInfo.CanSupportMultiUse
+  id: CanSupportMultiUse
+  parent: SuperOffice.CRM.Services.FieldValueInfo
+  langs:
+  - csharp
+  - vb
+  name: CanSupportMultiUse
+  nameWithType: FieldValueInfo.CanSupportMultiUse
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.CanSupportMultiUse
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCan the field support multi use? \n"
+  syntax:
+    content: public virtual bool CanSupportMultiUse { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property CanSupportMultiUse As Boolean
+  overload: SuperOffice.CRM.Services.FieldValueInfo.CanSupportMultiUse*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldValueInfo.DefaultShowInGui
+  commentId: P:SuperOffice.CRM.Services.FieldValueInfo.DefaultShowInGui
+  id: DefaultShowInGui
+  parent: SuperOffice.CRM.Services.FieldValueInfo
+  langs:
+  - csharp
+  - vb
+  name: DefaultShowInGui
+  nameWithType: FieldValueInfo.DefaultShowInGui
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.DefaultShowInGui
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault show in Gui? \n"
+  syntax:
+    content: public virtual bool DefaultShowInGui { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property DefaultShowInGui As Boolean
+  overload: SuperOffice.CRM.Services.FieldValueInfo.DefaultShowInGui*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldValueInfo.DefaultShowInSelector
+  commentId: P:SuperOffice.CRM.Services.FieldValueInfo.DefaultShowInSelector
+  id: DefaultShowInSelector
+  parent: SuperOffice.CRM.Services.FieldValueInfo
+  langs:
+  - csharp
+  - vb
+  name: DefaultShowInSelector
+  nameWithType: FieldValueInfo.DefaultShowInSelector
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.DefaultShowInSelector
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault show in selector? \n"
+  syntax:
+    content: public virtual bool DefaultShowInSelector { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property DefaultShowInSelector As Boolean
+  overload: SuperOffice.CRM.Services.FieldValueInfo.DefaultShowInSelector*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldValueInfo.IsActive
+  commentId: P:SuperOffice.CRM.Services.FieldValueInfo.IsActive
+  id: IsActive
+  parent: SuperOffice.CRM.Services.FieldValueInfo
+  langs:
+  - csharp
+  - vb
+  name: IsActive
+  nameWithType: FieldValueInfo.IsActive
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.IsActive
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue if the field and operations will be used in the bulk update \n"
+  syntax:
+    content: public virtual bool IsActive { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsActive As Boolean
+  overload: SuperOffice.CRM.Services.FieldValueInfo.IsActive*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldValueInfo.Key
+  commentId: P:SuperOffice.CRM.Services.FieldValueInfo.Key
+  id: Key
+  parent: SuperOffice.CRM.Services.FieldValueInfo
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: FieldValueInfo.Key
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.Key
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe unique key on the field \n"
+  syntax:
+    content: public virtual string Key { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Key As String
+  overload: SuperOffice.CRM.Services.FieldValueInfo.Key*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldValueInfo.ValueType
+  commentId: P:SuperOffice.CRM.Services.FieldValueInfo.ValueType
+  id: ValueType
+  parent: SuperOffice.CRM.Services.FieldValueInfo
+  langs:
+  - csharp
+  - vb
+  name: ValueType
+  nameWithType: FieldValueInfo.ValueType
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.ValueType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDescribes the expected value array \n"
+  syntax:
+    content: public virtual string ValueType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ValueType As String
+  overload: SuperOffice.CRM.Services.FieldValueInfo.ValueType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldValueInfo.Mandatory
+  commentId: P:SuperOffice.CRM.Services.FieldValueInfo.Mandatory
+  id: Mandatory
+  parent: SuperOffice.CRM.Services.FieldValueInfo
+  langs:
+  - csharp
+  - vb
+  name: Mandatory
+  nameWithType: FieldValueInfo.Mandatory
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.Mandatory
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue if this is a mandatory field \n"
+  syntax:
+    content: public virtual bool Mandatory { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Mandatory As Boolean
+  overload: SuperOffice.CRM.Services.FieldValueInfo.Mandatory*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldValueInfo.EncodedDisplayName
+  commentId: P:SuperOffice.CRM.Services.FieldValueInfo.EncodedDisplayName
+  id: EncodedDisplayName
+  parent: SuperOffice.CRM.Services.FieldValueInfo
+  langs:
+  - csharp
+  - vb
+  name: EncodedDisplayName
+  nameWithType: FieldValueInfo.EncodedDisplayName
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.EncodedDisplayName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe displayname of the field \n"
+  syntax:
+    content: public virtual string EncodedDisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EncodedDisplayName As String
+  overload: SuperOffice.CRM.Services.FieldValueInfo.EncodedDisplayName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldValueInfo.EncodedDisplayDescription
+  commentId: P:SuperOffice.CRM.Services.FieldValueInfo.EncodedDisplayDescription
+  id: EncodedDisplayDescription
+  parent: SuperOffice.CRM.Services.FieldValueInfo
+  langs:
+  - csharp
+  - vb
+  name: EncodedDisplayDescription
+  nameWithType: FieldValueInfo.EncodedDisplayDescription
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.EncodedDisplayDescription
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe description of the field \n"
+  syntax:
+    content: public virtual string EncodedDisplayDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EncodedDisplayDescription As String
+  overload: SuperOffice.CRM.Services.FieldValueInfo.EncodedDisplayDescription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldValueInfo.IconHint
+  commentId: P:SuperOffice.CRM.Services.FieldValueInfo.IconHint
+  id: IconHint
+  parent: SuperOffice.CRM.Services.FieldValueInfo
+  langs:
+  - csharp
+  - vb
+  name: IconHint
+  nameWithType: FieldValueInfo.IconHint
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.IconHint
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe iconhint of the field \n"
+  syntax:
+    content: public virtual string IconHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property IconHint As String
+  overload: SuperOffice.CRM.Services.FieldValueInfo.IconHint*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldValueInfo.ControlInfos
+  commentId: P:SuperOffice.CRM.Services.FieldValueInfo.ControlInfos
+  id: ControlInfos
+  parent: SuperOffice.CRM.Services.FieldValueInfo
+  langs:
+  - csharp
+  - vb
+  name: ControlInfos
+  nameWithType: FieldValueInfo.ControlInfos
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.ControlInfos
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nArray of the controlinfos \n"
+  syntax:
+    content: public virtual ControlInfo[] ControlInfos { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.ControlInfo[]
+    content.vb: Public Overridable Property ControlInfos As ControlInfo()
+  overload: SuperOffice.CRM.Services.FieldValueInfo.ControlInfos*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldValueInfo.EncodedDataCaption
+  commentId: P:SuperOffice.CRM.Services.FieldValueInfo.EncodedDataCaption
+  id: EncodedDataCaption
+  parent: SuperOffice.CRM.Services.FieldValueInfo
+  langs:
+  - csharp
+  - vb
+  name: EncodedDataCaption
+  nameWithType: FieldValueInfo.EncodedDataCaption
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.EncodedDataCaption
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual string EncodedDataCaption { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EncodedDataCaption As String
+  overload: SuperOffice.CRM.Services.FieldValueInfo.EncodedDataCaption*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldValueInfo.EncodedDataCaptionDescription
+  commentId: P:SuperOffice.CRM.Services.FieldValueInfo.EncodedDataCaptionDescription
+  id: EncodedDataCaptionDescription
+  parent: SuperOffice.CRM.Services.FieldValueInfo
+  langs:
+  - csharp
+  - vb
+  name: EncodedDataCaptionDescription
+  nameWithType: FieldValueInfo.EncodedDataCaptionDescription
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.EncodedDataCaptionDescription
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual string EncodedDataCaptionDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EncodedDataCaptionDescription As String
+  overload: SuperOffice.CRM.Services.FieldValueInfo.EncodedDataCaptionDescription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldValueInfo.CurrentOperationType
+  commentId: P:SuperOffice.CRM.Services.FieldValueInfo.CurrentOperationType
+  id: CurrentOperationType
+  parent: SuperOffice.CRM.Services.FieldValueInfo
+  langs:
+  - csharp
+  - vb
+  name: CurrentOperationType
+  nameWithType: FieldValueInfo.CurrentOperationType
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.CurrentOperationType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe selected operation to execute on this field \n"
+  syntax:
+    content: public virtual string CurrentOperationType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CurrentOperationType As String
+  overload: SuperOffice.CRM.Services.FieldValueInfo.CurrentOperationType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldValueInfo.Values
+  commentId: P:SuperOffice.CRM.Services.FieldValueInfo.Values
+  id: Values
+  parent: SuperOffice.CRM.Services.FieldValueInfo
+  langs:
+  - csharp
+  - vb
+  name: Values
+  nameWithType: FieldValueInfo.Values
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.Values
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe values to be set on this field on this bulkupdate \n"
+  syntax:
+    content: public virtual string[] Values { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property Values As String()
+  overload: SuperOffice.CRM.Services.FieldValueInfo.Values*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldValueInfo.DisplayValues
+  commentId: P:SuperOffice.CRM.Services.FieldValueInfo.DisplayValues
+  id: DisplayValues
+  parent: SuperOffice.CRM.Services.FieldValueInfo
+  langs:
+  - csharp
+  - vb
+  name: DisplayValues
+  nameWithType: FieldValueInfo.DisplayValues
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.DisplayValues
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe displayvalues to be set on this field on this bulkupdate, used to resolve when values array contains ids \n"
+  syntax:
+    content: public virtual string[] DisplayValues { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property DisplayValues As String()
+  overload: SuperOffice.CRM.Services.FieldValueInfo.DisplayValues*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldValueInfo.OperationInfos
+  commentId: P:SuperOffice.CRM.Services.FieldValueInfo.OperationInfos
+  id: OperationInfos
+  parent: SuperOffice.CRM.Services.FieldValueInfo
+  langs:
+  - csharp
+  - vb
+  name: OperationInfos
+  nameWithType: FieldValueInfo.OperationInfos
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.OperationInfos
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nArray of the available operations for this field \n"
+  syntax:
+    content: public virtual OperationInfo[] OperationInfos { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.OperationInfo[]
+    content.vb: Public Overridable Property OperationInfos As OperationInfo()
+  overload: SuperOffice.CRM.Services.FieldValueInfo.OperationInfos*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BulkUpdateAgent
+  commentId: T:SuperOffice.CRM.Services.BulkUpdateAgent
+  isExternal: true
+  name: BulkUpdateAgent
+  nameWithType: BulkUpdateAgent
+  fullName: SuperOffice.CRM.Services.BulkUpdateAgent
+- uid: SuperOffice.CRM.Services.IBulkUpdateAgent
+  commentId: T:SuperOffice.CRM.Services.IBulkUpdateAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IBulkUpdateAgent
+  nameWithType: IBulkUpdateAgent
+  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.FieldValueInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.FieldValueInfo.#ctor
+  isExternal: true
+  name: FieldValueInfo
+  nameWithType: FieldValueInfo.FieldValueInfo
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.FieldValueInfo
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.FieldValueInfo.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.FieldValueInfo.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: FieldValueInfo.ToString
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.FieldValueInfo.CanSupportMultiUse*
+  commentId: Overload:SuperOffice.CRM.Services.FieldValueInfo.CanSupportMultiUse
+  isExternal: true
+  name: CanSupportMultiUse
+  nameWithType: FieldValueInfo.CanSupportMultiUse
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.CanSupportMultiUse
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.FieldValueInfo.DefaultShowInGui*
+  commentId: Overload:SuperOffice.CRM.Services.FieldValueInfo.DefaultShowInGui
+  isExternal: true
+  name: DefaultShowInGui
+  nameWithType: FieldValueInfo.DefaultShowInGui
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.DefaultShowInGui
+- uid: SuperOffice.CRM.Services.FieldValueInfo.DefaultShowInSelector*
+  commentId: Overload:SuperOffice.CRM.Services.FieldValueInfo.DefaultShowInSelector
+  isExternal: true
+  name: DefaultShowInSelector
+  nameWithType: FieldValueInfo.DefaultShowInSelector
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.DefaultShowInSelector
+- uid: SuperOffice.CRM.Services.FieldValueInfo.IsActive*
+  commentId: Overload:SuperOffice.CRM.Services.FieldValueInfo.IsActive
+  isExternal: true
+  name: IsActive
+  nameWithType: FieldValueInfo.IsActive
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.IsActive
+- uid: SuperOffice.CRM.Services.FieldValueInfo.Key*
+  commentId: Overload:SuperOffice.CRM.Services.FieldValueInfo.Key
+  isExternal: true
+  name: Key
+  nameWithType: FieldValueInfo.Key
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.Key
+- uid: SuperOffice.CRM.Services.FieldValueInfo.ValueType*
+  commentId: Overload:SuperOffice.CRM.Services.FieldValueInfo.ValueType
+  isExternal: true
+  name: ValueType
+  nameWithType: FieldValueInfo.ValueType
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.ValueType
+- uid: SuperOffice.CRM.Services.FieldValueInfo.Mandatory*
+  commentId: Overload:SuperOffice.CRM.Services.FieldValueInfo.Mandatory
+  isExternal: true
+  name: Mandatory
+  nameWithType: FieldValueInfo.Mandatory
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.Mandatory
+- uid: SuperOffice.CRM.Services.FieldValueInfo.EncodedDisplayName*
+  commentId: Overload:SuperOffice.CRM.Services.FieldValueInfo.EncodedDisplayName
+  isExternal: true
+  name: EncodedDisplayName
+  nameWithType: FieldValueInfo.EncodedDisplayName
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.EncodedDisplayName
+- uid: SuperOffice.CRM.Services.FieldValueInfo.EncodedDisplayDescription*
+  commentId: Overload:SuperOffice.CRM.Services.FieldValueInfo.EncodedDisplayDescription
+  isExternal: true
+  name: EncodedDisplayDescription
+  nameWithType: FieldValueInfo.EncodedDisplayDescription
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.EncodedDisplayDescription
+- uid: SuperOffice.CRM.Services.FieldValueInfo.IconHint*
+  commentId: Overload:SuperOffice.CRM.Services.FieldValueInfo.IconHint
+  isExternal: true
+  name: IconHint
+  nameWithType: FieldValueInfo.IconHint
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.IconHint
+- uid: SuperOffice.CRM.Services.FieldValueInfo.ControlInfos*
+  commentId: Overload:SuperOffice.CRM.Services.FieldValueInfo.ControlInfos
+  isExternal: true
+  name: ControlInfos
+  nameWithType: FieldValueInfo.ControlInfos
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.ControlInfos
+- uid: SuperOffice.CRM.Services.ControlInfo[]
+  isExternal: true
+  name: ControlInfo[]
+  nameWithType: ControlInfo[]
+  fullName: SuperOffice.CRM.Services.ControlInfo[]
+  nameWithType.vb: ControlInfo()
+  fullName.vb: SuperOffice.CRM.Services.ControlInfo()
+  name.vb: ControlInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ControlInfo
+    name: ControlInfo
+    nameWithType: ControlInfo
+    fullName: SuperOffice.CRM.Services.ControlInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ControlInfo
+    name: ControlInfo
+    nameWithType: ControlInfo
+    fullName: SuperOffice.CRM.Services.ControlInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.FieldValueInfo.EncodedDataCaption*
+  commentId: Overload:SuperOffice.CRM.Services.FieldValueInfo.EncodedDataCaption
+  isExternal: true
+  name: EncodedDataCaption
+  nameWithType: FieldValueInfo.EncodedDataCaption
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.EncodedDataCaption
+- uid: SuperOffice.CRM.Services.FieldValueInfo.EncodedDataCaptionDescription*
+  commentId: Overload:SuperOffice.CRM.Services.FieldValueInfo.EncodedDataCaptionDescription
+  isExternal: true
+  name: EncodedDataCaptionDescription
+  nameWithType: FieldValueInfo.EncodedDataCaptionDescription
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.EncodedDataCaptionDescription
+- uid: SuperOffice.CRM.Services.FieldValueInfo.CurrentOperationType*
+  commentId: Overload:SuperOffice.CRM.Services.FieldValueInfo.CurrentOperationType
+  isExternal: true
+  name: CurrentOperationType
+  nameWithType: FieldValueInfo.CurrentOperationType
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.CurrentOperationType
+- uid: SuperOffice.CRM.Services.FieldValueInfo.Values*
+  commentId: Overload:SuperOffice.CRM.Services.FieldValueInfo.Values
+  isExternal: true
+  name: Values
+  nameWithType: FieldValueInfo.Values
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.Values
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.FieldValueInfo.DisplayValues*
+  commentId: Overload:SuperOffice.CRM.Services.FieldValueInfo.DisplayValues
+  isExternal: true
+  name: DisplayValues
+  nameWithType: FieldValueInfo.DisplayValues
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.DisplayValues
+- uid: SuperOffice.CRM.Services.FieldValueInfo.OperationInfos*
+  commentId: Overload:SuperOffice.CRM.Services.FieldValueInfo.OperationInfos
+  isExternal: true
+  name: OperationInfos
+  nameWithType: FieldValueInfo.OperationInfos
+  fullName: SuperOffice.CRM.Services.FieldValueInfo.OperationInfos
+- uid: SuperOffice.CRM.Services.OperationInfo[]
+  isExternal: true
+  name: OperationInfo[]
+  nameWithType: OperationInfo[]
+  fullName: SuperOffice.CRM.Services.OperationInfo[]
+  nameWithType.vb: OperationInfo()
+  fullName.vb: SuperOffice.CRM.Services.OperationInfo()
+  name.vb: OperationInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.OperationInfo
+    name: OperationInfo
+    nameWithType: OperationInfo
+    fullName: SuperOffice.CRM.Services.OperationInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.OperationInfo
+    name: OperationInfo
+    nameWithType: OperationInfo
+    fullName: SuperOffice.CRM.Services.OperationInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

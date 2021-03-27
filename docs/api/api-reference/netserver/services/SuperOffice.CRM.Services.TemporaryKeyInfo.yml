@@ -1,0 +1,363 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.TemporaryKeyInfo
+  commentId: T:SuperOffice.CRM.Services.TemporaryKeyInfo
+  id: TemporaryKeyInfo
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.TemporaryKeyInfo.#ctor
+  - SuperOffice.CRM.Services.TemporaryKeyInfo.Domain
+  - SuperOffice.CRM.Services.TemporaryKeyInfo.IsExpired
+  - SuperOffice.CRM.Services.TemporaryKeyInfo.PersonId
+  - SuperOffice.CRM.Services.TemporaryKeyInfo.TargetId
+  - SuperOffice.CRM.Services.TemporaryKeyInfo.ToString
+  - SuperOffice.CRM.Services.TemporaryKeyInfo.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: TemporaryKeyInfo
+  nameWithType: TemporaryKeyInfo
+  fullName: SuperOffice.CRM.Services.TemporaryKeyInfo
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe fields returned when checking a temporary key\n<p></p>\nCarrier object for TemporaryKeyInfo.\nServices for the TemporaryKeyInfo Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IPersonAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class TemporaryKeyInfo : Carrier'
+    content.vb: >-
+      Public Class TemporaryKeyInfo
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.PersonAgent
+    commentId: T:SuperOffice.CRM.Services.PersonAgent
+  - linkId: SuperOffice.CRM.Services.IPersonAgent
+    commentId: T:SuperOffice.CRM.Services.IPersonAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.TemporaryKeyInfo.#ctor
+  commentId: M:SuperOffice.CRM.Services.TemporaryKeyInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.TemporaryKeyInfo
+  langs:
+  - csharp
+  - vb
+  name: TemporaryKeyInfo()
+  nameWithType: TemporaryKeyInfo.TemporaryKeyInfo()
+  fullName: SuperOffice.CRM.Services.TemporaryKeyInfo.TemporaryKeyInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public TemporaryKeyInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.TemporaryKeyInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TemporaryKeyInfo.ToString
+  commentId: M:SuperOffice.CRM.Services.TemporaryKeyInfo.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.TemporaryKeyInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TemporaryKeyInfo.ToString()
+  fullName: SuperOffice.CRM.Services.TemporaryKeyInfo.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.TemporaryKeyInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.TemporaryKeyInfo.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.TemporaryKeyInfo.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.TemporaryKeyInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: TemporaryKeyInfo.ToString(String)
+  fullName: SuperOffice.CRM.Services.TemporaryKeyInfo.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.TemporaryKeyInfo.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TemporaryKeyInfo.Domain
+  commentId: P:SuperOffice.CRM.Services.TemporaryKeyInfo.Domain
+  id: Domain
+  parent: SuperOffice.CRM.Services.TemporaryKeyInfo
+  langs:
+  - csharp
+  - vb
+  name: Domain
+  nameWithType: TemporaryKeyInfo.Domain
+  fullName: SuperOffice.CRM.Services.TemporaryKeyInfo.Domain
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe domain for this key. Unknown if key is not valid. \n"
+  syntax:
+    content: public virtual TemporaryKeyDomain Domain { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.TemporaryKeyDomain
+    content.vb: Public Overridable Property Domain As TemporaryKeyDomain
+  overload: SuperOffice.CRM.Services.TemporaryKeyInfo.Domain*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TemporaryKeyInfo.TargetId
+  commentId: P:SuperOffice.CRM.Services.TemporaryKeyInfo.TargetId
+  id: TargetId
+  parent: SuperOffice.CRM.Services.TemporaryKeyInfo
+  langs:
+  - csharp
+  - vb
+  name: TargetId
+  nameWithType: TemporaryKeyInfo.TargetId
+  fullName: SuperOffice.CRM.Services.TemporaryKeyInfo.TargetId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe primary key of the entity this temporary key is for, dependent of dmain \n"
+  syntax:
+    content: public virtual int TargetId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TargetId As Integer
+  overload: SuperOffice.CRM.Services.TemporaryKeyInfo.TargetId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TemporaryKeyInfo.PersonId
+  commentId: P:SuperOffice.CRM.Services.TemporaryKeyInfo.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Services.TemporaryKeyInfo
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: TemporaryKeyInfo.PersonId
+  fullName: SuperOffice.CRM.Services.TemporaryKeyInfo.PersonId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe person id this key is related to. May be null. \n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.CRM.Services.TemporaryKeyInfo.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TemporaryKeyInfo.IsExpired
+  commentId: P:SuperOffice.CRM.Services.TemporaryKeyInfo.IsExpired
+  id: IsExpired
+  parent: SuperOffice.CRM.Services.TemporaryKeyInfo
+  langs:
+  - csharp
+  - vb
+  name: IsExpired
+  nameWithType: TemporaryKeyInfo.IsExpired
+  fullName: SuperOffice.CRM.Services.TemporaryKeyInfo.IsExpired
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhether the key is expired or not. \n"
+  syntax:
+    content: public virtual bool IsExpired { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsExpired As Boolean
+  overload: SuperOffice.CRM.Services.TemporaryKeyInfo.IsExpired*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.PersonAgent
+  commentId: T:SuperOffice.CRM.Services.PersonAgent
+  isExternal: true
+  name: PersonAgent
+  nameWithType: PersonAgent
+  fullName: SuperOffice.CRM.Services.PersonAgent
+- uid: SuperOffice.CRM.Services.IPersonAgent
+  commentId: T:SuperOffice.CRM.Services.IPersonAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IPersonAgent
+  nameWithType: IPersonAgent
+  fullName: SuperOffice.CRM.Services.IPersonAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.TemporaryKeyInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.TemporaryKeyInfo.#ctor
+  isExternal: true
+  name: TemporaryKeyInfo
+  nameWithType: TemporaryKeyInfo.TemporaryKeyInfo
+  fullName: SuperOffice.CRM.Services.TemporaryKeyInfo.TemporaryKeyInfo
+- uid: SuperOffice.CRM.Services.TemporaryKeyInfo.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.TemporaryKeyInfo.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: TemporaryKeyInfo.ToString
+  fullName: SuperOffice.CRM.Services.TemporaryKeyInfo.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.TemporaryKeyInfo.Domain*
+  commentId: Overload:SuperOffice.CRM.Services.TemporaryKeyInfo.Domain
+  isExternal: true
+  name: Domain
+  nameWithType: TemporaryKeyInfo.Domain
+  fullName: SuperOffice.CRM.Services.TemporaryKeyInfo.Domain
+- uid: SuperOffice.Data.TemporaryKeyDomain
+  isExternal: true
+  name: TemporaryKeyDomain
+  nameWithType: TemporaryKeyDomain
+  fullName: SuperOffice.Data.TemporaryKeyDomain
+- uid: SuperOffice.CRM.Services.TemporaryKeyInfo.TargetId*
+  commentId: Overload:SuperOffice.CRM.Services.TemporaryKeyInfo.TargetId
+  isExternal: true
+  name: TargetId
+  nameWithType: TemporaryKeyInfo.TargetId
+  fullName: SuperOffice.CRM.Services.TemporaryKeyInfo.TargetId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.TemporaryKeyInfo.PersonId*
+  commentId: Overload:SuperOffice.CRM.Services.TemporaryKeyInfo.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: TemporaryKeyInfo.PersonId
+  fullName: SuperOffice.CRM.Services.TemporaryKeyInfo.PersonId
+- uid: SuperOffice.CRM.Services.TemporaryKeyInfo.IsExpired*
+  commentId: Overload:SuperOffice.CRM.Services.TemporaryKeyInfo.IsExpired
+  isExternal: true
+  name: IsExpired
+  nameWithType: TemporaryKeyInfo.IsExpired
+  fullName: SuperOffice.CRM.Services.TemporaryKeyInfo.IsExpired
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -1,0 +1,1229 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Diagnostics.Diagnostic
+  commentId: T:SuperOffice.Diagnostics.Diagnostic
+  id: Diagnostic
+  parent: SuperOffice.Diagnostics
+  children:
+  - SuperOffice.Diagnostics.Diagnostic.Assert(System.Boolean,System.String)
+  - SuperOffice.Diagnostics.Diagnostic.AssertEmpty``1(``0,System.String)
+  - SuperOffice.Diagnostics.Diagnostic.AssertEqual(System.Object,System.Object,System.String)
+  - SuperOffice.Diagnostics.Diagnostic.AssertEqual``1(``0,``0,System.String)
+  - SuperOffice.Diagnostics.Diagnostic.AssertNotEmpty``1(``0,System.String)
+  - SuperOffice.Diagnostics.Diagnostic.AssertNotEqual(System.Object,System.Object,System.String)
+  - SuperOffice.Diagnostics.Diagnostic.AssertNotEqual``1(``0,``0,System.String)
+  - SuperOffice.Diagnostics.Diagnostic.AssertNotNull(System.Object,System.String)
+  - SuperOffice.Diagnostics.Diagnostic.AssertNotSame``1(``0,``0,System.String)
+  - SuperOffice.Diagnostics.Diagnostic.AssertNull(System.Object,System.String)
+  - SuperOffice.Diagnostics.Diagnostic.AssertSame``1(``0,``0,System.String)
+  - SuperOffice.Diagnostics.Diagnostic.Diagnose(SuperOffice.Diagnostics.DiagnoseMethod)
+  - SuperOffice.Diagnostics.Diagnostic.Error(System.String)
+  - SuperOffice.Diagnostics.Diagnostic.Information(System.String)
+  - SuperOffice.Diagnostics.Diagnostic.ToString
+  - SuperOffice.Diagnostics.Diagnostic.Warning(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Diagnostic
+  nameWithType: Diagnostic
+  fullName: SuperOffice.Diagnostics.Diagnostic
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nHelper class for performing scaffolding operations.  \nUse <xref href=\"SuperOffice.Diagnostics.Diagnostic.Diagnose(SuperOffice.Diagnostics.DiagnoseMethod)\" data-throw-if-not-resolved=\"false\"></xref> to perform scaffolding operations.\n"
+  example:
+  - "\nThe following example illustrates the verifications of two strings being equal.  \nIf they are different, an exception is thrown.\n<pre><code>Diagnostic.Diagnose(delegate(Diagnostic s)\n{\n    string tmp = &quot;hello&quot;;\n    if (tmp != &quot;world&quot;)\n        s.Error(&quot;The strings are not equal&quot;);\n});</code></pre>\n"
+  syntax:
+    content: public class Diagnostic
+    content.vb: Public Class Diagnostic
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Diagnostics.Diagnostic.EnumUtil.MapEnums``2
+  - SuperOffice.Diagnostics.Diagnostic.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Diagnostics.Diagnostic.Diagnose(SuperOffice.Diagnostics.DiagnoseMethod)
+  commentId: M:SuperOffice.Diagnostics.Diagnostic.Diagnose(SuperOffice.Diagnostics.DiagnoseMethod)
+  id: Diagnose(SuperOffice.Diagnostics.DiagnoseMethod)
+  parent: SuperOffice.Diagnostics.Diagnostic
+  langs:
+  - csharp
+  - vb
+  name: Diagnose(DiagnoseMethod)
+  nameWithType: Diagnostic.Diagnose(DiagnoseMethod)
+  fullName: SuperOffice.Diagnostics.Diagnostic.Diagnose(SuperOffice.Diagnostics.DiagnoseMethod)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nCarry out the diagnostic method in debug code and in &quot;EnableScaffolding&quot; is turned on in the configuration file.\n"
+  example:
+  - "\nThe following example illustrates the verifications of two strings being equal.  \nIf they are different, an exception is thrown.\n<pre><code>Diagnostic.Diagnose(delegate(Diagnostic s)\n{\n    string tmp = &quot;hello&quot;;\n    if (tmp != &quot;world&quot;)\n        s.Error(&quot;The strings are not equal&quot;);\n});</code></pre>\n"
+  syntax:
+    content: public static void Diagnose(DiagnoseMethod diagnoseMethod)
+    parameters:
+    - id: diagnoseMethod
+      type: SuperOffice.Diagnostics.DiagnoseMethod
+      description: Method to execute.
+    content.vb: Public Shared Sub Diagnose(diagnoseMethod As DiagnoseMethod)
+  overload: SuperOffice.Diagnostics.Diagnostic.Diagnose*
+  exceptions:
+  - type: SuperOffice.Diagnostics.DiagnoseException
+    commentId: T:SuperOffice.Diagnostics.DiagnoseException
+    description: Thrown if errors occurs in hte executed code.
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Diagnostics.Diagnostic.Error(System.String)
+  commentId: M:SuperOffice.Diagnostics.Diagnostic.Error(System.String)
+  id: Error(System.String)
+  parent: SuperOffice.Diagnostics.Diagnostic
+  langs:
+  - csharp
+  - vb
+  name: Error(String)
+  nameWithType: Diagnostic.Error(String)
+  fullName: SuperOffice.Diagnostics.Diagnostic.Error(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nThrow an exception with the message.\n"
+  syntax:
+    content: public void Error(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: Error message to report
+    content.vb: Public Sub Error(message As String)
+  overload: SuperOffice.Diagnostics.Diagnostic.Error*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.Diagnostic.Warning(System.String)
+  commentId: M:SuperOffice.Diagnostics.Diagnostic.Warning(System.String)
+  id: Warning(System.String)
+  parent: SuperOffice.Diagnostics.Diagnostic
+  langs:
+  - csharp
+  - vb
+  name: Warning(String)
+  nameWithType: Diagnostic.Warning(String)
+  fullName: SuperOffice.Diagnostics.Diagnostic.Warning(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nReport a warning\n"
+  syntax:
+    content: public void Warning(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: warning message
+    content.vb: Public Sub Warning(message As String)
+  overload: SuperOffice.Diagnostics.Diagnostic.Warning*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.Diagnostic.Information(System.String)
+  commentId: M:SuperOffice.Diagnostics.Diagnostic.Information(System.String)
+  id: Information(System.String)
+  parent: SuperOffice.Diagnostics.Diagnostic
+  langs:
+  - csharp
+  - vb
+  name: Information(String)
+  nameWithType: Diagnostic.Information(String)
+  fullName: SuperOffice.Diagnostics.Diagnostic.Information(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nReport some information.\n"
+  syntax:
+    content: public void Information(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Sub Information(message As String)
+  overload: SuperOffice.Diagnostics.Diagnostic.Information*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.Diagnostic.Assert(System.Boolean,System.String)
+  commentId: M:SuperOffice.Diagnostics.Diagnostic.Assert(System.Boolean,System.String)
+  id: Assert(System.Boolean,System.String)
+  parent: SuperOffice.Diagnostics.Diagnostic
+  langs:
+  - csharp
+  - vb
+  name: Assert(Boolean, String)
+  nameWithType: Diagnostic.Assert(Boolean, String)
+  fullName: SuperOffice.Diagnostics.Diagnostic.Assert(System.Boolean, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nReport error message if the provided condition is not true.\n"
+  syntax:
+    content: public void Assert(bool condition, string errorMessage)
+    parameters:
+    - id: condition
+      type: System.Boolean
+      description: condition to verify.
+    - id: errorMessage
+      type: System.String
+      description: Error message if the condition is false.
+    content.vb: Public Sub Assert(condition As Boolean, errorMessage As String)
+  overload: SuperOffice.Diagnostics.Diagnostic.Assert*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.Diagnostic.AssertEqual``1(``0,``0,System.String)
+  commentId: M:SuperOffice.Diagnostics.Diagnostic.AssertEqual``1(``0,``0,System.String)
+  id: AssertEqual``1(``0,``0,System.String)
+  parent: SuperOffice.Diagnostics.Diagnostic
+  langs:
+  - csharp
+  - vb
+  name: AssertEqual<T>(T, T, String)
+  nameWithType: Diagnostic.AssertEqual<T>(T, T, String)
+  fullName: SuperOffice.Diagnostics.Diagnostic.AssertEqual<T>(T, T, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nReport error message if the actual value is not equal to the expected value using the <see cref=\"!:IEquatable\"></see> interface.\n"
+  syntax:
+    content: >-
+      public void AssertEqual<T>(T expected, T actual, string errorMessage)
+          where T : IEquatable<T>
+    parameters:
+    - id: expected
+      type: '{T}'
+      description: The expected value
+    - id: actual
+      type: '{T}'
+      description: The actual value.
+    - id: errorMessage
+      type: System.String
+      description: Error message reported if the values are not equal.
+    typeParameters:
+    - id: T
+      description: Type of object to compare.
+    content.vb: Public Sub AssertEqual(Of T As IEquatable(Of T))(expected As T, actual As T, errorMessage As String)
+  overload: SuperOffice.Diagnostics.Diagnostic.AssertEqual*
+  nameWithType.vb: Diagnostic.AssertEqual(Of T)(T, T, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Diagnostics.Diagnostic.AssertEqual(Of T)(T, T, System.String)
+  name.vb: AssertEqual(Of T)(T, T, String)
+- uid: SuperOffice.Diagnostics.Diagnostic.AssertNotEqual``1(``0,``0,System.String)
+  commentId: M:SuperOffice.Diagnostics.Diagnostic.AssertNotEqual``1(``0,``0,System.String)
+  id: AssertNotEqual``1(``0,``0,System.String)
+  parent: SuperOffice.Diagnostics.Diagnostic
+  langs:
+  - csharp
+  - vb
+  name: AssertNotEqual<T>(T, T, String)
+  nameWithType: Diagnostic.AssertNotEqual<T>(T, T, String)
+  fullName: SuperOffice.Diagnostics.Diagnostic.AssertNotEqual<T>(T, T, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nReport error message if the actual value is equal to the expected value using the <see cref=\"!:IEquatable\"></see> interface.\n"
+  syntax:
+    content: >-
+      public void AssertNotEqual<T>(T expected, T actual, string errorMessage)
+          where T : IEquatable<T>
+    parameters:
+    - id: expected
+      type: '{T}'
+      description: The expected value
+    - id: actual
+      type: '{T}'
+      description: The actual value.
+    - id: errorMessage
+      type: System.String
+      description: Error message reported if the values are equal.
+    typeParameters:
+    - id: T
+      description: Type of object to compare.
+    content.vb: Public Sub AssertNotEqual(Of T As IEquatable(Of T))(expected As T, actual As T, errorMessage As String)
+  overload: SuperOffice.Diagnostics.Diagnostic.AssertNotEqual*
+  nameWithType.vb: Diagnostic.AssertNotEqual(Of T)(T, T, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Diagnostics.Diagnostic.AssertNotEqual(Of T)(T, T, System.String)
+  name.vb: AssertNotEqual(Of T)(T, T, String)
+- uid: SuperOffice.Diagnostics.Diagnostic.AssertEqual(System.Object,System.Object,System.String)
+  commentId: M:SuperOffice.Diagnostics.Diagnostic.AssertEqual(System.Object,System.Object,System.String)
+  id: AssertEqual(System.Object,System.Object,System.String)
+  parent: SuperOffice.Diagnostics.Diagnostic
+  langs:
+  - csharp
+  - vb
+  name: AssertEqual(Object, Object, String)
+  nameWithType: Diagnostic.AssertEqual(Object, Object, String)
+  fullName: SuperOffice.Diagnostics.Diagnostic.AssertEqual(System.Object, System.Object, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nreport error message if the actual value is different from the expected value.\n"
+  syntax:
+    content: public void AssertEqual(object expected, object actual, string errorMessage)
+    parameters:
+    - id: expected
+      type: System.Object
+      description: The value expected.
+    - id: actual
+      type: System.Object
+      description: The actual value recieved.
+    - id: errorMessage
+      type: System.String
+      description: Error message to pass on if the values are not equal.
+    content.vb: Public Sub AssertEqual(expected As Object, actual As Object, errorMessage As String)
+  overload: SuperOffice.Diagnostics.Diagnostic.AssertEqual*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.Diagnostic.AssertNotEqual(System.Object,System.Object,System.String)
+  commentId: M:SuperOffice.Diagnostics.Diagnostic.AssertNotEqual(System.Object,System.Object,System.String)
+  id: AssertNotEqual(System.Object,System.Object,System.String)
+  parent: SuperOffice.Diagnostics.Diagnostic
+  langs:
+  - csharp
+  - vb
+  name: AssertNotEqual(Object, Object, String)
+  nameWithType: Diagnostic.AssertNotEqual(Object, Object, String)
+  fullName: SuperOffice.Diagnostics.Diagnostic.AssertNotEqual(System.Object, System.Object, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nReport error message if the actual value is equal to the expected value using the <see cref=\"!:IEquatable\"></see> interface.\n"
+  syntax:
+    content: public void AssertNotEqual(object expected, object actual, string errorMessage)
+    parameters:
+    - id: expected
+      type: System.Object
+      description: The expected value
+    - id: actual
+      type: System.Object
+      description: The actual value.
+    - id: errorMessage
+      type: System.String
+      description: Error message reported if the values are equal.
+    content.vb: Public Sub AssertNotEqual(expected As Object, actual As Object, errorMessage As String)
+  overload: SuperOffice.Diagnostics.Diagnostic.AssertNotEqual*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.Diagnostic.AssertSame``1(``0,``0,System.String)
+  commentId: M:SuperOffice.Diagnostics.Diagnostic.AssertSame``1(``0,``0,System.String)
+  id: AssertSame``1(``0,``0,System.String)
+  parent: SuperOffice.Diagnostics.Diagnostic
+  langs:
+  - csharp
+  - vb
+  name: AssertSame<T>(T, T, String)
+  nameWithType: Diagnostic.AssertSame<T>(T, T, String)
+  fullName: SuperOffice.Diagnostics.Diagnostic.AssertSame<T>(T, T, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nReport errormessage if the actual value is not the same as the expected value using the <xref href=\"System.IComparable\" data-throw-if-not-resolved=\"false\"></xref> interface.\n"
+  syntax:
+    content: >-
+      public void AssertSame<T>(T expected, T actual, string errorMessage)
+          where T : IComparable
+    parameters:
+    - id: expected
+      type: '{T}'
+      description: The expected value
+    - id: actual
+      type: '{T}'
+      description: The actual value.
+    - id: errorMessage
+      type: System.String
+      description: Error message reported if the values are not equal.
+    typeParameters:
+    - id: T
+      description: Type of object to compare.
+    content.vb: Public Sub AssertSame(Of T As IComparable)(expected As T, actual As T, errorMessage As String)
+  overload: SuperOffice.Diagnostics.Diagnostic.AssertSame*
+  nameWithType.vb: Diagnostic.AssertSame(Of T)(T, T, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Diagnostics.Diagnostic.AssertSame(Of T)(T, T, System.String)
+  name.vb: AssertSame(Of T)(T, T, String)
+- uid: SuperOffice.Diagnostics.Diagnostic.AssertNotSame``1(``0,``0,System.String)
+  commentId: M:SuperOffice.Diagnostics.Diagnostic.AssertNotSame``1(``0,``0,System.String)
+  id: AssertNotSame``1(``0,``0,System.String)
+  parent: SuperOffice.Diagnostics.Diagnostic
+  langs:
+  - csharp
+  - vb
+  name: AssertNotSame<T>(T, T, String)
+  nameWithType: Diagnostic.AssertNotSame<T>(T, T, String)
+  fullName: SuperOffice.Diagnostics.Diagnostic.AssertNotSame<T>(T, T, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nReport error message if the actual value is the same as the expected value using the <xref href=\"System.IComparable\" data-throw-if-not-resolved=\"false\"></xref> interface.\n"
+  syntax:
+    content: >-
+      public void AssertNotSame<T>(T expected, T actual, string errorMessage)
+          where T : IComparable
+    parameters:
+    - id: expected
+      type: '{T}'
+      description: The expected value
+    - id: actual
+      type: '{T}'
+      description: The actual value.
+    - id: errorMessage
+      type: System.String
+      description: Error message reported if the values are equal.
+    typeParameters:
+    - id: T
+      description: Type of object to compare.
+    content.vb: Public Sub AssertNotSame(Of T As IComparable)(expected As T, actual As T, errorMessage As String)
+  overload: SuperOffice.Diagnostics.Diagnostic.AssertNotSame*
+  nameWithType.vb: Diagnostic.AssertNotSame(Of T)(T, T, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Diagnostics.Diagnostic.AssertNotSame(Of T)(T, T, System.String)
+  name.vb: AssertNotSame(Of T)(T, T, String)
+- uid: SuperOffice.Diagnostics.Diagnostic.AssertEmpty``1(``0,System.String)
+  commentId: M:SuperOffice.Diagnostics.Diagnostic.AssertEmpty``1(``0,System.String)
+  id: AssertEmpty``1(``0,System.String)
+  parent: SuperOffice.Diagnostics.Diagnostic
+  langs:
+  - csharp
+  - vb
+  name: AssertEmpty<T>(T, String)
+  nameWithType: Diagnostic.AssertEmpty<T>(T, String)
+  fullName: SuperOffice.Diagnostics.Diagnostic.AssertEmpty<T>(T, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nReport error message if the value is not empty.  This means null for object types and &apos;0&apos; for value types.\n"
+  syntax:
+    content: public void AssertEmpty<T>(T value, string errorMessage)
+    parameters:
+    - id: value
+      type: '{T}'
+      description: Value to check if it is empty.
+    - id: errorMessage
+      type: System.String
+      description: Error message to pass on if the value is empty.
+    typeParameters:
+    - id: T
+      description: The type of value to check.
+    content.vb: Public Sub AssertEmpty(Of T)(value As T, errorMessage As String)
+  overload: SuperOffice.Diagnostics.Diagnostic.AssertEmpty*
+  nameWithType.vb: Diagnostic.AssertEmpty(Of T)(T, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Diagnostics.Diagnostic.AssertEmpty(Of T)(T, System.String)
+  name.vb: AssertEmpty(Of T)(T, String)
+- uid: SuperOffice.Diagnostics.Diagnostic.AssertNotEmpty``1(``0,System.String)
+  commentId: M:SuperOffice.Diagnostics.Diagnostic.AssertNotEmpty``1(``0,System.String)
+  id: AssertNotEmpty``1(``0,System.String)
+  parent: SuperOffice.Diagnostics.Diagnostic
+  langs:
+  - csharp
+  - vb
+  name: AssertNotEmpty<T>(T, String)
+  nameWithType: Diagnostic.AssertNotEmpty<T>(T, String)
+  fullName: SuperOffice.Diagnostics.Diagnostic.AssertNotEmpty<T>(T, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nReport error message if the value is empty.  This means null for object types and &apos;0&apos; for value types.\n"
+  syntax:
+    content: public void AssertNotEmpty<T>(T value, string errorMessage)
+    parameters:
+    - id: value
+      type: '{T}'
+      description: Value to check if it is not empty.
+    - id: errorMessage
+      type: System.String
+      description: Error message to pass on if the value is not empty.
+    typeParameters:
+    - id: T
+      description: The type of value to check.
+    content.vb: Public Sub AssertNotEmpty(Of T)(value As T, errorMessage As String)
+  overload: SuperOffice.Diagnostics.Diagnostic.AssertNotEmpty*
+  nameWithType.vb: Diagnostic.AssertNotEmpty(Of T)(T, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Diagnostics.Diagnostic.AssertNotEmpty(Of T)(T, System.String)
+  name.vb: AssertNotEmpty(Of T)(T, String)
+- uid: SuperOffice.Diagnostics.Diagnostic.AssertNull(System.Object,System.String)
+  commentId: M:SuperOffice.Diagnostics.Diagnostic.AssertNull(System.Object,System.String)
+  id: AssertNull(System.Object,System.String)
+  parent: SuperOffice.Diagnostics.Diagnostic
+  langs:
+  - csharp
+  - vb
+  name: AssertNull(Object, String)
+  nameWithType: Diagnostic.AssertNull(Object, String)
+  fullName: SuperOffice.Diagnostics.Diagnostic.AssertNull(System.Object, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nReport error message if the value is not null.\n"
+  syntax:
+    content: public void AssertNull(object value, string errorMessage)
+    parameters:
+    - id: value
+      type: System.Object
+      description: Value to check if is null.
+    - id: errorMessage
+      type: System.String
+      description: Error message to pass on if the value is not null
+    content.vb: Public Sub AssertNull(value As Object, errorMessage As String)
+  overload: SuperOffice.Diagnostics.Diagnostic.AssertNull*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.Diagnostic.AssertNotNull(System.Object,System.String)
+  commentId: M:SuperOffice.Diagnostics.Diagnostic.AssertNotNull(System.Object,System.String)
+  id: AssertNotNull(System.Object,System.String)
+  parent: SuperOffice.Diagnostics.Diagnostic
+  langs:
+  - csharp
+  - vb
+  name: AssertNotNull(Object, String)
+  nameWithType: Diagnostic.AssertNotNull(Object, String)
+  fullName: SuperOffice.Diagnostics.Diagnostic.AssertNotNull(System.Object, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nReport error message if the value is null.\n"
+  syntax:
+    content: public void AssertNotNull(object value, string errorMessage)
+    parameters:
+    - id: value
+      type: System.Object
+      description: Value to check if is null.
+    - id: errorMessage
+      type: System.String
+      description: Error message to pass on if the value is null
+    content.vb: Public Sub AssertNotNull(value As Object, errorMessage As String)
+  overload: SuperOffice.Diagnostics.Diagnostic.AssertNotNull*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.Diagnostic.ToString
+  commentId: M:SuperOffice.Diagnostics.Diagnostic.ToString
+  id: ToString
+  parent: SuperOffice.Diagnostics.Diagnostic
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Diagnostic.ToString()
+  fullName: SuperOffice.Diagnostics.Diagnostic.ToString()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nObtain information about the scaffolding results.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: String containing the scaffolding results.
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.Diagnostics.Diagnostic.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.Diagnostic.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<Diagnostic, To>()
+  nameWithType: EnumUtil.MapEnums<Diagnostic, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.Diagnostic, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of Diagnostic, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.Diagnostic, To)()
+  name.vb: MapEnums(Of Diagnostic, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<Diagnostic, To>
+    nameWithType: EnumUtil.MapEnums<Diagnostic, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.Diagnostic, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of Diagnostic, To)
+    nameWithType: EnumUtil.MapEnums(Of Diagnostic, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.Diagnostic, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.Diagnostic.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<Diagnostic, To>()
+  nameWithType: Converters.MapEnums<Diagnostic, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.Diagnostic, To>()
+  nameWithType.vb: Converters.MapEnums(Of Diagnostic, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.Diagnostic, To)()
+  name.vb: MapEnums(Of Diagnostic, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<Diagnostic, To>
+    nameWithType: Converters.MapEnums<Diagnostic, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.Diagnostic, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of Diagnostic, To)
+    nameWithType: Converters.MapEnums(Of Diagnostic, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.Diagnostic, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Diagnostics.Diagnostic.Diagnose*
+  commentId: Overload:SuperOffice.Diagnostics.Diagnostic.Diagnose
+  isExternal: true
+  name: Diagnose
+  nameWithType: Diagnostic.Diagnose
+  fullName: SuperOffice.Diagnostics.Diagnostic.Diagnose
+- uid: SuperOffice.Diagnostics.DiagnoseException
+  commentId: T:SuperOffice.Diagnostics.DiagnoseException
+  isExternal: true
+  name: DiagnoseException
+  nameWithType: DiagnoseException
+  fullName: SuperOffice.Diagnostics.DiagnoseException
+- uid: SuperOffice.Diagnostics.DiagnoseMethod
+  commentId: T:SuperOffice.Diagnostics.DiagnoseMethod
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: DiagnoseMethod
+  nameWithType: DiagnoseMethod
+  fullName: SuperOffice.Diagnostics.DiagnoseMethod
+- uid: SuperOffice.Diagnostics.Diagnostic.Error*
+  commentId: Overload:SuperOffice.Diagnostics.Diagnostic.Error
+  isExternal: true
+  name: Error
+  nameWithType: Diagnostic.Error
+  fullName: SuperOffice.Diagnostics.Diagnostic.Error
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Diagnostics.Diagnostic.Warning*
+  commentId: Overload:SuperOffice.Diagnostics.Diagnostic.Warning
+  isExternal: true
+  name: Warning
+  nameWithType: Diagnostic.Warning
+  fullName: SuperOffice.Diagnostics.Diagnostic.Warning
+- uid: SuperOffice.Diagnostics.Diagnostic.Information*
+  commentId: Overload:SuperOffice.Diagnostics.Diagnostic.Information
+  isExternal: true
+  name: Information
+  nameWithType: Diagnostic.Information
+  fullName: SuperOffice.Diagnostics.Diagnostic.Information
+- uid: SuperOffice.Diagnostics.Diagnostic.Assert*
+  commentId: Overload:SuperOffice.Diagnostics.Diagnostic.Assert
+  isExternal: true
+  name: Assert
+  nameWithType: Diagnostic.Assert
+  fullName: SuperOffice.Diagnostics.Diagnostic.Assert
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Diagnostics.Diagnostic.AssertEqual*
+  commentId: Overload:SuperOffice.Diagnostics.Diagnostic.AssertEqual
+  isExternal: true
+  name: AssertEqual
+  nameWithType: Diagnostic.AssertEqual
+  fullName: SuperOffice.Diagnostics.Diagnostic.AssertEqual
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: SuperOffice.Diagnostics.Diagnostic.AssertNotEqual*
+  commentId: Overload:SuperOffice.Diagnostics.Diagnostic.AssertNotEqual
+  isExternal: true
+  name: AssertNotEqual
+  nameWithType: Diagnostic.AssertNotEqual
+  fullName: SuperOffice.Diagnostics.Diagnostic.AssertNotEqual
+- uid: SuperOffice.Diagnostics.Diagnostic.AssertSame*
+  commentId: Overload:SuperOffice.Diagnostics.Diagnostic.AssertSame
+  isExternal: true
+  name: AssertSame
+  nameWithType: Diagnostic.AssertSame
+  fullName: SuperOffice.Diagnostics.Diagnostic.AssertSame
+- uid: SuperOffice.Diagnostics.Diagnostic.AssertNotSame*
+  commentId: Overload:SuperOffice.Diagnostics.Diagnostic.AssertNotSame
+  isExternal: true
+  name: AssertNotSame
+  nameWithType: Diagnostic.AssertNotSame
+  fullName: SuperOffice.Diagnostics.Diagnostic.AssertNotSame
+- uid: SuperOffice.Diagnostics.Diagnostic.AssertEmpty*
+  commentId: Overload:SuperOffice.Diagnostics.Diagnostic.AssertEmpty
+  isExternal: true
+  name: AssertEmpty
+  nameWithType: Diagnostic.AssertEmpty
+  fullName: SuperOffice.Diagnostics.Diagnostic.AssertEmpty
+- uid: SuperOffice.Diagnostics.Diagnostic.AssertNotEmpty*
+  commentId: Overload:SuperOffice.Diagnostics.Diagnostic.AssertNotEmpty
+  isExternal: true
+  name: AssertNotEmpty
+  nameWithType: Diagnostic.AssertNotEmpty
+  fullName: SuperOffice.Diagnostics.Diagnostic.AssertNotEmpty
+- uid: SuperOffice.Diagnostics.Diagnostic.AssertNull*
+  commentId: Overload:SuperOffice.Diagnostics.Diagnostic.AssertNull
+  isExternal: true
+  name: AssertNull
+  nameWithType: Diagnostic.AssertNull
+  fullName: SuperOffice.Diagnostics.Diagnostic.AssertNull
+- uid: SuperOffice.Diagnostics.Diagnostic.AssertNotNull*
+  commentId: Overload:SuperOffice.Diagnostics.Diagnostic.AssertNotNull
+  isExternal: true
+  name: AssertNotNull
+  nameWithType: Diagnostic.AssertNotNull
+  fullName: SuperOffice.Diagnostics.Diagnostic.AssertNotNull
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.Diagnostic.ToString*
+  commentId: Overload:SuperOffice.Diagnostics.Diagnostic.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: Diagnostic.ToString
+  fullName: SuperOffice.Diagnostics.Diagnostic.ToString

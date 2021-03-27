@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_SaveCountryRequest
+  commentId: T:SuperOffice.WebApi.Data.List_SaveCountryRequest
+  id: List_SaveCountryRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_SaveCountryRequest.#ctor
+  - SuperOffice.WebApi.Data.List_SaveCountryRequest.Country
+  langs:
+  - csharp
+  - vb
+  name: List_SaveCountryRequest
+  nameWithType: List_SaveCountryRequest
+  fullName: SuperOffice.WebApi.Data.List_SaveCountryRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_SaveCountryRequest : Object'
+    content.vb: >-
+      Public Class List_SaveCountryRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_SaveCountryRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_SaveCountryRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_SaveCountryRequest
+  langs:
+  - csharp
+  - vb
+  name: List_SaveCountryRequest()
+  nameWithType: List_SaveCountryRequest.List_SaveCountryRequest()
+  fullName: SuperOffice.WebApi.Data.List_SaveCountryRequest.List_SaveCountryRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_SaveCountryRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_SaveCountryRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_SaveCountryRequest.Country
+  commentId: P:SuperOffice.WebApi.Data.List_SaveCountryRequest.Country
+  id: Country
+  parent: SuperOffice.WebApi.Data.List_SaveCountryRequest
+  langs:
+  - csharp
+  - vb
+  name: Country
+  nameWithType: List_SaveCountryRequest.Country
+  fullName: SuperOffice.WebApi.Data.List_SaveCountryRequest.Country
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Country Country { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Country
+    content.vb: Public Property Country As Country
+  overload: SuperOffice.WebApi.Data.List_SaveCountryRequest.Country*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_SaveCountryRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SaveCountryRequest.#ctor
+  isExternal: true
+  name: List_SaveCountryRequest
+  nameWithType: List_SaveCountryRequest.List_SaveCountryRequest
+  fullName: SuperOffice.WebApi.Data.List_SaveCountryRequest.List_SaveCountryRequest
+- uid: SuperOffice.WebApi.Data.List_SaveCountryRequest.Country*
+  commentId: Overload:SuperOffice.WebApi.Data.List_SaveCountryRequest.Country
+  isExternal: true
+  name: Country
+  nameWithType: List_SaveCountryRequest.Country
+  fullName: SuperOffice.WebApi.Data.List_SaveCountryRequest.Country
+- uid: SuperOffice.WebApi.Data.Country
+  commentId: T:SuperOffice.WebApi.Data.Country
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Country
+  nameWithType: Country
+  fullName: SuperOffice.WebApi.Data.Country

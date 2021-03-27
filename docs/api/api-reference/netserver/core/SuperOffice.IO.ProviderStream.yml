@@ -1,0 +1,3679 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.IO.ProviderStream
+  commentId: T:SuperOffice.IO.ProviderStream
+  id: ProviderStream
+  parent: SuperOffice.IO
+  children:
+  - SuperOffice.IO.ProviderStream.CanRead
+  - SuperOffice.IO.ProviderStream.CanSeek
+  - SuperOffice.IO.ProviderStream.CanWrite
+  - SuperOffice.IO.ProviderStream.Close
+  - SuperOffice.IO.ProviderStream.Dispose
+  - SuperOffice.IO.ProviderStream.Flush
+  - SuperOffice.IO.ProviderStream.GetProviderStream(SuperOffice.IO.IStreamProvider,SuperOffice.IO.ProviderStream.AccessMode)
+  - SuperOffice.IO.ProviderStream.Length
+  - SuperOffice.IO.ProviderStream.Position
+  - SuperOffice.IO.ProviderStream.Read(System.Byte[],System.Int32,System.Int32)
+  - SuperOffice.IO.ProviderStream.Seek(System.Int64,System.IO.SeekOrigin)
+  - SuperOffice.IO.ProviderStream.SetLength(System.Int64)
+  - SuperOffice.IO.ProviderStream.Write(System.Byte[],System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: ProviderStream
+  nameWithType: ProviderStream
+  fullName: SuperOffice.IO.ProviderStream
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nStream for reading from and writing to the document archive.\n"
+  syntax:
+    content: 'public class ProviderStream : Stream, IDisposable'
+    content.vb: >-
+      Public Class ProviderStream
+          Inherits Stream
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  - System.MarshalByRefObject
+  - System.IO.Stream
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.IO.Stream.Null
+  - System.IO.Stream.CopyToAsync(System.IO.Stream)
+  - System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32)
+  - System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32,System.Threading.CancellationToken)
+  - System.IO.Stream.CopyTo(System.IO.Stream)
+  - System.IO.Stream.CopyTo(System.IO.Stream,System.Int32)
+  - System.IO.Stream.Dispose(System.Boolean)
+  - System.IO.Stream.FlushAsync
+  - System.IO.Stream.FlushAsync(System.Threading.CancellationToken)
+  - System.IO.Stream.CreateWaitHandle
+  - System.IO.Stream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
+  - System.IO.Stream.EndRead(System.IAsyncResult)
+  - System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32)
+  - System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  - System.IO.Stream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
+  - System.IO.Stream.EndWrite(System.IAsyncResult)
+  - System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32)
+  - System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  - System.IO.Stream.ReadByte
+  - System.IO.Stream.WriteByte(System.Byte)
+  - System.IO.Stream.Synchronized(System.IO.Stream)
+  - System.IO.Stream.ObjectInvariant
+  - System.IO.Stream.CanTimeout
+  - System.IO.Stream.ReadTimeout
+  - System.IO.Stream.WriteTimeout
+  - System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  - System.MarshalByRefObject.GetLifetimeService
+  - System.MarshalByRefObject.InitializeLifetimeService
+  - System.MarshalByRefObject.CreateObjRef(System.Type)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.IO.ProviderStream.EnumUtil.MapEnums``2
+  - System.IO.Stream.StreamExtensions.CopyToNewStreamInChunks
+  - System.IO.Stream.StreamExtensions.WriteInChunksTo(System.IO.Stream)
+  - System.IO.Stream.StreamExtensions.ReadReliably(System.Int64,System.Int32)
+  - System.IO.Stream.StreamExtensions.ToByteArray(System.Int32)
+  - System.IO.Stream.StreamExtensions.CopyToNewStream
+  - System.IO.Stream.SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.Int32,System.Int32)
+  - System.IO.Stream.SuperOffice.CRM.Sale.QuoteExtensions.CloneStream
+  - SuperOffice.IO.ProviderStream.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.IO.ProviderStream.GetProviderStream(SuperOffice.IO.IStreamProvider,SuperOffice.IO.ProviderStream.AccessMode)
+  commentId: M:SuperOffice.IO.ProviderStream.GetProviderStream(SuperOffice.IO.IStreamProvider,SuperOffice.IO.ProviderStream.AccessMode)
+  id: GetProviderStream(SuperOffice.IO.IStreamProvider,SuperOffice.IO.ProviderStream.AccessMode)
+  parent: SuperOffice.IO.ProviderStream
+  langs:
+  - csharp
+  - vb
+  name: GetProviderStream(IStreamProvider, ProviderStream.AccessMode)
+  nameWithType: ProviderStream.GetProviderStream(IStreamProvider, ProviderStream.AccessMode)
+  fullName: SuperOffice.IO.ProviderStream.GetProviderStream(SuperOffice.IO.IStreamProvider, SuperOffice.IO.ProviderStream.AccessMode)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nGet a new instance of the <xref href=\"SuperOffice.IO.ProviderStream\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public static ProviderStream GetProviderStream(IStreamProvider provider, ProviderStream.AccessMode accessMode)
+    parameters:
+    - id: provider
+      type: SuperOffice.IO.IStreamProvider
+      description: Data source for the <see cref="!:DocumentStream"></see>.
+    - id: accessMode
+      type: SuperOffice.IO.ProviderStream.AccessMode
+      description: 'Mode in which the <see cref="!:DocumentStream"></see>is accessed. '
+    return:
+      type: SuperOffice.IO.ProviderStream
+      description: New instance of the <see cref="!:DocumentStream"></see>.
+    content.vb: Public Shared Function GetProviderStream(provider As IStreamProvider, accessMode As ProviderStream.AccessMode) As ProviderStream
+  overload: SuperOffice.IO.ProviderStream.GetProviderStream*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.IO.ProviderStream.Read(System.Byte[],System.Int32,System.Int32)
+  commentId: M:SuperOffice.IO.ProviderStream.Read(System.Byte[],System.Int32,System.Int32)
+  id: Read(System.Byte[],System.Int32,System.Int32)
+  parent: SuperOffice.IO.ProviderStream
+  langs:
+  - csharp
+  - vb
+  name: Read(Byte[], Int32, Int32)
+  nameWithType: ProviderStream.Read(Byte[], Int32, Int32)
+  fullName: SuperOffice.IO.ProviderStream.Read(System.Byte[], System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nRead a block of bytes from a stream, and insert them into the given position in the\ncallers buffer array\n"
+  remarks: "\nNote that the actual remote stream or file may be read using other chunk sizes than what is\nuse in the incoming &apos;count&apos; parameter. The <xref href=\"SuperOffice.IO.ProviderStream.Position\" data-throw-if-not-resolved=\"false\"></xref> property will report the\nposition as seen by the caller, not the position as read from the file.\n"
+  syntax:
+    content: public override int Read(byte[] buffer, int offsetIntoDestination, int count)
+    parameters:
+    - id: buffer
+      type: System.Byte[]
+      description: Destination buffer
+    - id: offsetIntoDestination
+      type: System.Int32
+      description: Where to start in the destination
+    - id: count
+      type: System.Int32
+      description: Number of bytes to read
+    return:
+      type: System.Int32
+      description: Number of bytes actually read
+    content.vb: Public Overrides Function Read(buffer As Byte(), offsetIntoDestination As Integer, count As Integer) As Integer
+  overridden: System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)
+  overload: SuperOffice.IO.ProviderStream.Read*
+  nameWithType.vb: ProviderStream.Read(Byte(), Int32, Int32)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: SuperOffice.IO.ProviderStream.Read(System.Byte(), System.Int32, System.Int32)
+  name.vb: Read(Byte(), Int32, Int32)
+- uid: SuperOffice.IO.ProviderStream.Write(System.Byte[],System.Int32,System.Int32)
+  commentId: M:SuperOffice.IO.ProviderStream.Write(System.Byte[],System.Int32,System.Int32)
+  id: Write(System.Byte[],System.Int32,System.Int32)
+  parent: SuperOffice.IO.ProviderStream
+  langs:
+  - csharp
+  - vb
+  name: Write(Byte[], Int32, Int32)
+  nameWithType: ProviderStream.Write(Byte[], Int32, Int32)
+  fullName: SuperOffice.IO.ProviderStream.Write(System.Byte[], System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrite a chunk of bytes to a stream, potentially triggering a write to the\nunderlying file or remote stream\n"
+  syntax:
+    content: public override void Write(byte[] buffer, int sourceOffset, int count)
+    parameters:
+    - id: buffer
+      type: System.Byte[]
+      description: Source buffer containing data
+    - id: sourceOffset
+      type: System.Int32
+      description: Where to start getting data from the source buffer
+    - id: count
+      type: System.Int32
+      description: Number of bytes to get from offset
+    content.vb: Public Overrides Sub Write(buffer As Byte(), sourceOffset As Integer, count As Integer)
+  overridden: System.IO.Stream.Write(System.Byte[],System.Int32,System.Int32)
+  overload: SuperOffice.IO.ProviderStream.Write*
+  nameWithType.vb: ProviderStream.Write(Byte(), Int32, Int32)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: SuperOffice.IO.ProviderStream.Write(System.Byte(), System.Int32, System.Int32)
+  name.vb: Write(Byte(), Int32, Int32)
+- uid: SuperOffice.IO.ProviderStream.Flush
+  commentId: M:SuperOffice.IO.ProviderStream.Flush
+  id: Flush
+  parent: SuperOffice.IO.ProviderStream
+  langs:
+  - csharp
+  - vb
+  name: Flush()
+  nameWithType: ProviderStream.Flush()
+  fullName: SuperOffice.IO.ProviderStream.Flush()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\n\n"
+  syntax:
+    content: public override void Flush()
+    content.vb: Public Overrides Sub Flush
+  overridden: System.IO.Stream.Flush
+  overload: SuperOffice.IO.ProviderStream.Flush*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.IO.ProviderStream.Close
+  commentId: M:SuperOffice.IO.ProviderStream.Close
+  id: Close
+  parent: SuperOffice.IO.ProviderStream
+  langs:
+  - csharp
+  - vb
+  name: Close()
+  nameWithType: ProviderStream.Close()
+  fullName: SuperOffice.IO.ProviderStream.Close()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\n\n"
+  syntax:
+    content: public override void Close()
+    content.vb: Public Overrides Sub Close
+  overridden: System.IO.Stream.Close
+  overload: SuperOffice.IO.ProviderStream.Close*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.IO.ProviderStream.SetLength(System.Int64)
+  commentId: M:SuperOffice.IO.ProviderStream.SetLength(System.Int64)
+  id: SetLength(System.Int64)
+  parent: SuperOffice.IO.ProviderStream
+  langs:
+  - csharp
+  - vb
+  name: SetLength(Int64)
+  nameWithType: ProviderStream.SetLength(Int64)
+  fullName: SuperOffice.IO.ProviderStream.SetLength(System.Int64)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\n\n"
+  syntax:
+    content: public override void SetLength(long value)
+    parameters:
+    - id: value
+      type: System.Int64
+    content.vb: Public Overrides Sub SetLength(value As Long)
+  overridden: System.IO.Stream.SetLength(System.Int64)
+  overload: SuperOffice.IO.ProviderStream.SetLength*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.IO.ProviderStream.Seek(System.Int64,System.IO.SeekOrigin)
+  commentId: M:SuperOffice.IO.ProviderStream.Seek(System.Int64,System.IO.SeekOrigin)
+  id: Seek(System.Int64,System.IO.SeekOrigin)
+  parent: SuperOffice.IO.ProviderStream
+  langs:
+  - csharp
+  - vb
+  name: Seek(Int64, SeekOrigin)
+  nameWithType: ProviderStream.Seek(Int64, SeekOrigin)
+  fullName: SuperOffice.IO.ProviderStream.Seek(System.Int64, System.IO.SeekOrigin)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\n\n"
+  syntax:
+    content: public override long Seek(long offset, SeekOrigin origin)
+    parameters:
+    - id: offset
+      type: System.Int64
+    - id: origin
+      type: System.IO.SeekOrigin
+    return:
+      type: System.Int64
+    content.vb: Public Overrides Function Seek(offset As Long, origin As SeekOrigin) As Long
+  overridden: System.IO.Stream.Seek(System.Int64,System.IO.SeekOrigin)
+  overload: SuperOffice.IO.ProviderStream.Seek*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.IO.ProviderStream.Dispose
+  commentId: M:SuperOffice.IO.ProviderStream.Dispose
+  id: Dispose
+  parent: SuperOffice.IO.ProviderStream
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: ProviderStream.Dispose()
+  fullName: SuperOffice.IO.ProviderStream.Dispose()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nDispose of the document stream\n"
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: SuperOffice.IO.ProviderStream.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.ProviderStream.CanSeek
+  commentId: P:SuperOffice.IO.ProviderStream.CanSeek
+  id: CanSeek
+  parent: SuperOffice.IO.ProviderStream
+  langs:
+  - csharp
+  - vb
+  name: CanSeek
+  nameWithType: ProviderStream.CanSeek
+  fullName: SuperOffice.IO.ProviderStream.CanSeek
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nDoes the stream support seeking?\n"
+  syntax:
+    content: public override bool CanSeek { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property CanSeek As Boolean
+  overridden: System.IO.Stream.CanSeek
+  overload: SuperOffice.IO.ProviderStream.CanSeek*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.IO.ProviderStream.CanRead
+  commentId: P:SuperOffice.IO.ProviderStream.CanRead
+  id: CanRead
+  parent: SuperOffice.IO.ProviderStream
+  langs:
+  - csharp
+  - vb
+  name: CanRead
+  nameWithType: ProviderStream.CanRead
+  fullName: SuperOffice.IO.ProviderStream.CanRead
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nDoes the stream support reading?\n"
+  syntax:
+    content: public override bool CanRead { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property CanRead As Boolean
+  overridden: System.IO.Stream.CanRead
+  overload: SuperOffice.IO.ProviderStream.CanRead*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.IO.ProviderStream.CanWrite
+  commentId: P:SuperOffice.IO.ProviderStream.CanWrite
+  id: CanWrite
+  parent: SuperOffice.IO.ProviderStream
+  langs:
+  - csharp
+  - vb
+  name: CanWrite
+  nameWithType: ProviderStream.CanWrite
+  fullName: SuperOffice.IO.ProviderStream.CanWrite
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nDoes the stream support writing?\n"
+  syntax:
+    content: public override bool CanWrite { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property CanWrite As Boolean
+  overridden: System.IO.Stream.CanWrite
+  overload: SuperOffice.IO.ProviderStream.CanWrite*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.IO.ProviderStream.Length
+  commentId: P:SuperOffice.IO.ProviderStream.Length
+  id: Length
+  parent: SuperOffice.IO.ProviderStream
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: ProviderStream.Length
+  fullName: SuperOffice.IO.ProviderStream.Length
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\n\n"
+  syntax:
+    content: public override long Length { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Overrides ReadOnly Property Length As Long
+  overridden: System.IO.Stream.Length
+  overload: SuperOffice.IO.ProviderStream.Length*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.IO.ProviderStream.Position
+  commentId: P:SuperOffice.IO.ProviderStream.Position
+  id: Position
+  parent: SuperOffice.IO.ProviderStream
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: ProviderStream.Position
+  fullName: SuperOffice.IO.ProviderStream.Position
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nCurrent position in stream buffer, as seen by caller (not internal chunk buffer position)\n"
+  syntax:
+    content: public override long Position { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Overrides Property Position As Long
+  overridden: System.IO.Stream.Position
+  overload: SuperOffice.IO.ProviderStream.Position*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: SuperOffice.IO
+  commentId: N:SuperOffice.IO
+  isExternal: true
+  name: SuperOffice.IO
+  nameWithType: SuperOffice.IO
+  fullName: SuperOffice.IO
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.MarshalByRefObject
+  commentId: T:System.MarshalByRefObject
+  parent: System
+  isExternal: true
+  name: MarshalByRefObject
+  nameWithType: MarshalByRefObject
+  fullName: System.MarshalByRefObject
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.IO.Stream.Null
+  commentId: F:System.IO.Stream.Null
+  parent: System.IO.Stream
+  isExternal: true
+  name: "Null"
+  nameWithType: Stream.Null
+  fullName: System.IO.Stream.Null
+- uid: System.IO.Stream.CopyToAsync(System.IO.Stream)
+  commentId: M:System.IO.Stream.CopyToAsync(System.IO.Stream)
+  parent: System.IO.Stream
+  isExternal: true
+  name: CopyToAsync(Stream)
+  nameWithType: Stream.CopyToAsync(Stream)
+  fullName: System.IO.Stream.CopyToAsync(System.IO.Stream)
+  spec.csharp:
+  - uid: System.IO.Stream.CopyToAsync(System.IO.Stream)
+    name: CopyToAsync
+    nameWithType: Stream.CopyToAsync
+    fullName: System.IO.Stream.CopyToAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.CopyToAsync(System.IO.Stream)
+    name: CopyToAsync
+    nameWithType: Stream.CopyToAsync
+    fullName: System.IO.Stream.CopyToAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32)
+  commentId: M:System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32)
+  parent: System.IO.Stream
+  isExternal: true
+  name: CopyToAsync(Stream, Int32)
+  nameWithType: Stream.CopyToAsync(Stream, Int32)
+  fullName: System.IO.Stream.CopyToAsync(System.IO.Stream, System.Int32)
+  spec.csharp:
+  - uid: System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32)
+    name: CopyToAsync
+    nameWithType: Stream.CopyToAsync
+    fullName: System.IO.Stream.CopyToAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32)
+    name: CopyToAsync
+    nameWithType: Stream.CopyToAsync
+    fullName: System.IO.Stream.CopyToAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32,System.Threading.CancellationToken)
+  commentId: M:System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32,System.Threading.CancellationToken)
+  parent: System.IO.Stream
+  isExternal: true
+  name: CopyToAsync(Stream, Int32, CancellationToken)
+  nameWithType: Stream.CopyToAsync(Stream, Int32, CancellationToken)
+  fullName: System.IO.Stream.CopyToAsync(System.IO.Stream, System.Int32, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32,System.Threading.CancellationToken)
+    name: CopyToAsync
+    nameWithType: Stream.CopyToAsync
+    fullName: System.IO.Stream.CopyToAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32,System.Threading.CancellationToken)
+    name: CopyToAsync
+    nameWithType: Stream.CopyToAsync
+    fullName: System.IO.Stream.CopyToAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.CopyTo(System.IO.Stream)
+  commentId: M:System.IO.Stream.CopyTo(System.IO.Stream)
+  parent: System.IO.Stream
+  isExternal: true
+  name: CopyTo(Stream)
+  nameWithType: Stream.CopyTo(Stream)
+  fullName: System.IO.Stream.CopyTo(System.IO.Stream)
+  spec.csharp:
+  - uid: System.IO.Stream.CopyTo(System.IO.Stream)
+    name: CopyTo
+    nameWithType: Stream.CopyTo
+    fullName: System.IO.Stream.CopyTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.CopyTo(System.IO.Stream)
+    name: CopyTo
+    nameWithType: Stream.CopyTo
+    fullName: System.IO.Stream.CopyTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.CopyTo(System.IO.Stream,System.Int32)
+  commentId: M:System.IO.Stream.CopyTo(System.IO.Stream,System.Int32)
+  parent: System.IO.Stream
+  isExternal: true
+  name: CopyTo(Stream, Int32)
+  nameWithType: Stream.CopyTo(Stream, Int32)
+  fullName: System.IO.Stream.CopyTo(System.IO.Stream, System.Int32)
+  spec.csharp:
+  - uid: System.IO.Stream.CopyTo(System.IO.Stream,System.Int32)
+    name: CopyTo
+    nameWithType: Stream.CopyTo
+    fullName: System.IO.Stream.CopyTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.CopyTo(System.IO.Stream,System.Int32)
+    name: CopyTo
+    nameWithType: Stream.CopyTo
+    fullName: System.IO.Stream.CopyTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.Dispose(System.Boolean)
+  commentId: M:System.IO.Stream.Dispose(System.Boolean)
+  parent: System.IO.Stream
+  isExternal: true
+  name: Dispose(Boolean)
+  nameWithType: Stream.Dispose(Boolean)
+  fullName: System.IO.Stream.Dispose(System.Boolean)
+  spec.csharp:
+  - uid: System.IO.Stream.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: Stream.Dispose
+    fullName: System.IO.Stream.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: Stream.Dispose
+    fullName: System.IO.Stream.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.FlushAsync
+  commentId: M:System.IO.Stream.FlushAsync
+  parent: System.IO.Stream
+  isExternal: true
+  name: FlushAsync()
+  nameWithType: Stream.FlushAsync()
+  fullName: System.IO.Stream.FlushAsync()
+  spec.csharp:
+  - uid: System.IO.Stream.FlushAsync
+    name: FlushAsync
+    nameWithType: Stream.FlushAsync
+    fullName: System.IO.Stream.FlushAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.FlushAsync
+    name: FlushAsync
+    nameWithType: Stream.FlushAsync
+    fullName: System.IO.Stream.FlushAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.FlushAsync(System.Threading.CancellationToken)
+  commentId: M:System.IO.Stream.FlushAsync(System.Threading.CancellationToken)
+  parent: System.IO.Stream
+  isExternal: true
+  name: FlushAsync(CancellationToken)
+  nameWithType: Stream.FlushAsync(CancellationToken)
+  fullName: System.IO.Stream.FlushAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: System.IO.Stream.FlushAsync(System.Threading.CancellationToken)
+    name: FlushAsync
+    nameWithType: Stream.FlushAsync
+    fullName: System.IO.Stream.FlushAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.FlushAsync(System.Threading.CancellationToken)
+    name: FlushAsync
+    nameWithType: Stream.FlushAsync
+    fullName: System.IO.Stream.FlushAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.CreateWaitHandle
+  commentId: M:System.IO.Stream.CreateWaitHandle
+  parent: System.IO.Stream
+  isExternal: true
+  name: CreateWaitHandle()
+  nameWithType: Stream.CreateWaitHandle()
+  fullName: System.IO.Stream.CreateWaitHandle()
+  spec.csharp:
+  - uid: System.IO.Stream.CreateWaitHandle
+    name: CreateWaitHandle
+    nameWithType: Stream.CreateWaitHandle
+    fullName: System.IO.Stream.CreateWaitHandle
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.CreateWaitHandle
+    name: CreateWaitHandle
+    nameWithType: Stream.CreateWaitHandle
+    fullName: System.IO.Stream.CreateWaitHandle
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
+  commentId: M:System.IO.Stream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
+  parent: System.IO.Stream
+  isExternal: true
+  name: BeginRead(Byte[], Int32, Int32, AsyncCallback, Object)
+  nameWithType: Stream.BeginRead(Byte[], Int32, Int32, AsyncCallback, Object)
+  fullName: System.IO.Stream.BeginRead(System.Byte[], System.Int32, System.Int32, System.AsyncCallback, System.Object)
+  nameWithType.vb: Stream.BeginRead(Byte(), Int32, Int32, AsyncCallback, Object)
+  fullName.vb: System.IO.Stream.BeginRead(System.Byte(), System.Int32, System.Int32, System.AsyncCallback, System.Object)
+  name.vb: BeginRead(Byte(), Int32, Int32, AsyncCallback, Object)
+  spec.csharp:
+  - uid: System.IO.Stream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
+    name: BeginRead
+    nameWithType: Stream.BeginRead
+    fullName: System.IO.Stream.BeginRead
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.AsyncCallback
+    name: AsyncCallback
+    nameWithType: AsyncCallback
+    fullName: System.AsyncCallback
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
+    name: BeginRead
+    nameWithType: Stream.BeginRead
+    fullName: System.IO.Stream.BeginRead
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.AsyncCallback
+    name: AsyncCallback
+    nameWithType: AsyncCallback
+    fullName: System.AsyncCallback
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.EndRead(System.IAsyncResult)
+  commentId: M:System.IO.Stream.EndRead(System.IAsyncResult)
+  parent: System.IO.Stream
+  isExternal: true
+  name: EndRead(IAsyncResult)
+  nameWithType: Stream.EndRead(IAsyncResult)
+  fullName: System.IO.Stream.EndRead(System.IAsyncResult)
+  spec.csharp:
+  - uid: System.IO.Stream.EndRead(System.IAsyncResult)
+    name: EndRead
+    nameWithType: Stream.EndRead
+    fullName: System.IO.Stream.EndRead
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IAsyncResult
+    name: IAsyncResult
+    nameWithType: IAsyncResult
+    fullName: System.IAsyncResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.EndRead(System.IAsyncResult)
+    name: EndRead
+    nameWithType: Stream.EndRead
+    fullName: System.IO.Stream.EndRead
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IAsyncResult
+    name: IAsyncResult
+    nameWithType: IAsyncResult
+    fullName: System.IAsyncResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32)
+  commentId: M:System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32)
+  parent: System.IO.Stream
+  isExternal: true
+  name: ReadAsync(Byte[], Int32, Int32)
+  nameWithType: Stream.ReadAsync(Byte[], Int32, Int32)
+  fullName: System.IO.Stream.ReadAsync(System.Byte[], System.Int32, System.Int32)
+  nameWithType.vb: Stream.ReadAsync(Byte(), Int32, Int32)
+  fullName.vb: System.IO.Stream.ReadAsync(System.Byte(), System.Int32, System.Int32)
+  name.vb: ReadAsync(Byte(), Int32, Int32)
+  spec.csharp:
+  - uid: System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32)
+    name: ReadAsync
+    nameWithType: Stream.ReadAsync
+    fullName: System.IO.Stream.ReadAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32)
+    name: ReadAsync
+    nameWithType: Stream.ReadAsync
+    fullName: System.IO.Stream.ReadAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: System.IO.Stream
+  isExternal: true
+  name: ReadAsync(Byte[], Int32, Int32, CancellationToken)
+  nameWithType: Stream.ReadAsync(Byte[], Int32, Int32, CancellationToken)
+  fullName: System.IO.Stream.ReadAsync(System.Byte[], System.Int32, System.Int32, System.Threading.CancellationToken)
+  nameWithType.vb: Stream.ReadAsync(Byte(), Int32, Int32, CancellationToken)
+  fullName.vb: System.IO.Stream.ReadAsync(System.Byte(), System.Int32, System.Int32, System.Threading.CancellationToken)
+  name.vb: ReadAsync(Byte(), Int32, Int32, CancellationToken)
+  spec.csharp:
+  - uid: System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: ReadAsync
+    nameWithType: Stream.ReadAsync
+    fullName: System.IO.Stream.ReadAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: ReadAsync
+    nameWithType: Stream.ReadAsync
+    fullName: System.IO.Stream.ReadAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
+  commentId: M:System.IO.Stream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
+  parent: System.IO.Stream
+  isExternal: true
+  name: BeginWrite(Byte[], Int32, Int32, AsyncCallback, Object)
+  nameWithType: Stream.BeginWrite(Byte[], Int32, Int32, AsyncCallback, Object)
+  fullName: System.IO.Stream.BeginWrite(System.Byte[], System.Int32, System.Int32, System.AsyncCallback, System.Object)
+  nameWithType.vb: Stream.BeginWrite(Byte(), Int32, Int32, AsyncCallback, Object)
+  fullName.vb: System.IO.Stream.BeginWrite(System.Byte(), System.Int32, System.Int32, System.AsyncCallback, System.Object)
+  name.vb: BeginWrite(Byte(), Int32, Int32, AsyncCallback, Object)
+  spec.csharp:
+  - uid: System.IO.Stream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
+    name: BeginWrite
+    nameWithType: Stream.BeginWrite
+    fullName: System.IO.Stream.BeginWrite
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.AsyncCallback
+    name: AsyncCallback
+    nameWithType: AsyncCallback
+    fullName: System.AsyncCallback
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
+    name: BeginWrite
+    nameWithType: Stream.BeginWrite
+    fullName: System.IO.Stream.BeginWrite
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.AsyncCallback
+    name: AsyncCallback
+    nameWithType: AsyncCallback
+    fullName: System.AsyncCallback
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.EndWrite(System.IAsyncResult)
+  commentId: M:System.IO.Stream.EndWrite(System.IAsyncResult)
+  parent: System.IO.Stream
+  isExternal: true
+  name: EndWrite(IAsyncResult)
+  nameWithType: Stream.EndWrite(IAsyncResult)
+  fullName: System.IO.Stream.EndWrite(System.IAsyncResult)
+  spec.csharp:
+  - uid: System.IO.Stream.EndWrite(System.IAsyncResult)
+    name: EndWrite
+    nameWithType: Stream.EndWrite
+    fullName: System.IO.Stream.EndWrite
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IAsyncResult
+    name: IAsyncResult
+    nameWithType: IAsyncResult
+    fullName: System.IAsyncResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.EndWrite(System.IAsyncResult)
+    name: EndWrite
+    nameWithType: Stream.EndWrite
+    fullName: System.IO.Stream.EndWrite
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IAsyncResult
+    name: IAsyncResult
+    nameWithType: IAsyncResult
+    fullName: System.IAsyncResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32)
+  commentId: M:System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32)
+  parent: System.IO.Stream
+  isExternal: true
+  name: WriteAsync(Byte[], Int32, Int32)
+  nameWithType: Stream.WriteAsync(Byte[], Int32, Int32)
+  fullName: System.IO.Stream.WriteAsync(System.Byte[], System.Int32, System.Int32)
+  nameWithType.vb: Stream.WriteAsync(Byte(), Int32, Int32)
+  fullName.vb: System.IO.Stream.WriteAsync(System.Byte(), System.Int32, System.Int32)
+  name.vb: WriteAsync(Byte(), Int32, Int32)
+  spec.csharp:
+  - uid: System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32)
+    name: WriteAsync
+    nameWithType: Stream.WriteAsync
+    fullName: System.IO.Stream.WriteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32)
+    name: WriteAsync
+    nameWithType: Stream.WriteAsync
+    fullName: System.IO.Stream.WriteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: System.IO.Stream
+  isExternal: true
+  name: WriteAsync(Byte[], Int32, Int32, CancellationToken)
+  nameWithType: Stream.WriteAsync(Byte[], Int32, Int32, CancellationToken)
+  fullName: System.IO.Stream.WriteAsync(System.Byte[], System.Int32, System.Int32, System.Threading.CancellationToken)
+  nameWithType.vb: Stream.WriteAsync(Byte(), Int32, Int32, CancellationToken)
+  fullName.vb: System.IO.Stream.WriteAsync(System.Byte(), System.Int32, System.Int32, System.Threading.CancellationToken)
+  name.vb: WriteAsync(Byte(), Int32, Int32, CancellationToken)
+  spec.csharp:
+  - uid: System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: WriteAsync
+    nameWithType: Stream.WriteAsync
+    fullName: System.IO.Stream.WriteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: WriteAsync
+    nameWithType: Stream.WriteAsync
+    fullName: System.IO.Stream.WriteAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.ReadByte
+  commentId: M:System.IO.Stream.ReadByte
+  parent: System.IO.Stream
+  isExternal: true
+  name: ReadByte()
+  nameWithType: Stream.ReadByte()
+  fullName: System.IO.Stream.ReadByte()
+  spec.csharp:
+  - uid: System.IO.Stream.ReadByte
+    name: ReadByte
+    nameWithType: Stream.ReadByte
+    fullName: System.IO.Stream.ReadByte
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.ReadByte
+    name: ReadByte
+    nameWithType: Stream.ReadByte
+    fullName: System.IO.Stream.ReadByte
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.WriteByte(System.Byte)
+  commentId: M:System.IO.Stream.WriteByte(System.Byte)
+  parent: System.IO.Stream
+  isExternal: true
+  name: WriteByte(Byte)
+  nameWithType: Stream.WriteByte(Byte)
+  fullName: System.IO.Stream.WriteByte(System.Byte)
+  spec.csharp:
+  - uid: System.IO.Stream.WriteByte(System.Byte)
+    name: WriteByte
+    nameWithType: Stream.WriteByte
+    fullName: System.IO.Stream.WriteByte
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.WriteByte(System.Byte)
+    name: WriteByte
+    nameWithType: Stream.WriteByte
+    fullName: System.IO.Stream.WriteByte
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.Synchronized(System.IO.Stream)
+  commentId: M:System.IO.Stream.Synchronized(System.IO.Stream)
+  parent: System.IO.Stream
+  isExternal: true
+  name: Synchronized(Stream)
+  nameWithType: Stream.Synchronized(Stream)
+  fullName: System.IO.Stream.Synchronized(System.IO.Stream)
+  spec.csharp:
+  - uid: System.IO.Stream.Synchronized(System.IO.Stream)
+    name: Synchronized
+    nameWithType: Stream.Synchronized
+    fullName: System.IO.Stream.Synchronized
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.Synchronized(System.IO.Stream)
+    name: Synchronized
+    nameWithType: Stream.Synchronized
+    fullName: System.IO.Stream.Synchronized
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.ObjectInvariant
+  commentId: M:System.IO.Stream.ObjectInvariant
+  parent: System.IO.Stream
+  isExternal: true
+  name: ObjectInvariant()
+  nameWithType: Stream.ObjectInvariant()
+  fullName: System.IO.Stream.ObjectInvariant()
+  spec.csharp:
+  - uid: System.IO.Stream.ObjectInvariant
+    name: ObjectInvariant
+    nameWithType: Stream.ObjectInvariant
+    fullName: System.IO.Stream.ObjectInvariant
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.ObjectInvariant
+    name: ObjectInvariant
+    nameWithType: Stream.ObjectInvariant
+    fullName: System.IO.Stream.ObjectInvariant
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.CanTimeout
+  commentId: P:System.IO.Stream.CanTimeout
+  parent: System.IO.Stream
+  isExternal: true
+  name: CanTimeout
+  nameWithType: Stream.CanTimeout
+  fullName: System.IO.Stream.CanTimeout
+- uid: System.IO.Stream.ReadTimeout
+  commentId: P:System.IO.Stream.ReadTimeout
+  parent: System.IO.Stream
+  isExternal: true
+  name: ReadTimeout
+  nameWithType: Stream.ReadTimeout
+  fullName: System.IO.Stream.ReadTimeout
+- uid: System.IO.Stream.WriteTimeout
+  commentId: P:System.IO.Stream.WriteTimeout
+  parent: System.IO.Stream
+  isExternal: true
+  name: WriteTimeout
+  nameWithType: Stream.WriteTimeout
+  fullName: System.IO.Stream.WriteTimeout
+- uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  commentId: M:System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  parent: System.MarshalByRefObject
+  isExternal: true
+  name: MemberwiseClone(Boolean)
+  nameWithType: MarshalByRefObject.MemberwiseClone(Boolean)
+  fullName: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  spec.csharp:
+  - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+    name: MemberwiseClone
+    nameWithType: MarshalByRefObject.MemberwiseClone
+    fullName: System.MarshalByRefObject.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+    name: MemberwiseClone
+    nameWithType: MarshalByRefObject.MemberwiseClone
+    fullName: System.MarshalByRefObject.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.MarshalByRefObject.GetLifetimeService
+  commentId: M:System.MarshalByRefObject.GetLifetimeService
+  parent: System.MarshalByRefObject
+  isExternal: true
+  name: GetLifetimeService()
+  nameWithType: MarshalByRefObject.GetLifetimeService()
+  fullName: System.MarshalByRefObject.GetLifetimeService()
+  spec.csharp:
+  - uid: System.MarshalByRefObject.GetLifetimeService
+    name: GetLifetimeService
+    nameWithType: MarshalByRefObject.GetLifetimeService
+    fullName: System.MarshalByRefObject.GetLifetimeService
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.GetLifetimeService
+    name: GetLifetimeService
+    nameWithType: MarshalByRefObject.GetLifetimeService
+    fullName: System.MarshalByRefObject.GetLifetimeService
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.MarshalByRefObject.InitializeLifetimeService
+  commentId: M:System.MarshalByRefObject.InitializeLifetimeService
+  parent: System.MarshalByRefObject
+  isExternal: true
+  name: InitializeLifetimeService()
+  nameWithType: MarshalByRefObject.InitializeLifetimeService()
+  fullName: System.MarshalByRefObject.InitializeLifetimeService()
+  spec.csharp:
+  - uid: System.MarshalByRefObject.InitializeLifetimeService
+    name: InitializeLifetimeService
+    nameWithType: MarshalByRefObject.InitializeLifetimeService
+    fullName: System.MarshalByRefObject.InitializeLifetimeService
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.InitializeLifetimeService
+    name: InitializeLifetimeService
+    nameWithType: MarshalByRefObject.InitializeLifetimeService
+    fullName: System.MarshalByRefObject.InitializeLifetimeService
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.MarshalByRefObject.CreateObjRef(System.Type)
+  commentId: M:System.MarshalByRefObject.CreateObjRef(System.Type)
+  parent: System.MarshalByRefObject
+  isExternal: true
+  name: CreateObjRef(Type)
+  nameWithType: MarshalByRefObject.CreateObjRef(Type)
+  fullName: System.MarshalByRefObject.CreateObjRef(System.Type)
+  spec.csharp:
+  - uid: System.MarshalByRefObject.CreateObjRef(System.Type)
+    name: CreateObjRef
+    nameWithType: MarshalByRefObject.CreateObjRef
+    fullName: System.MarshalByRefObject.CreateObjRef
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.CreateObjRef(System.Type)
+    name: CreateObjRef
+    nameWithType: MarshalByRefObject.CreateObjRef
+    fullName: System.MarshalByRefObject.CreateObjRef
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.ProviderStream.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ProviderStream, To>()
+  nameWithType: EnumUtil.MapEnums<ProviderStream, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.IO.ProviderStream, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ProviderStream, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.IO.ProviderStream, To)()
+  name.vb: MapEnums(Of ProviderStream, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ProviderStream, To>
+    nameWithType: EnumUtil.MapEnums<ProviderStream, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.IO.ProviderStream, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ProviderStream, To)
+    nameWithType: EnumUtil.MapEnums(Of ProviderStream, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.IO.ProviderStream, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.StreamExtensions.CopyToNewStreamInChunks
+  commentId: M:StreamExtensions.CopyToNewStreamInChunks(System.IO.Stream)
+  parent: StreamExtensions
+  definition: StreamExtensions.CopyToNewStreamInChunks(System.IO.Stream)
+  name: CopyToNewStreamInChunks()
+  nameWithType: StreamExtensions.CopyToNewStreamInChunks()
+  fullName: StreamExtensions.CopyToNewStreamInChunks()
+  spec.csharp:
+  - uid: StreamExtensions.CopyToNewStreamInChunks
+    name: CopyToNewStreamInChunks
+    nameWithType: StreamExtensions.CopyToNewStreamInChunks
+    fullName: StreamExtensions.CopyToNewStreamInChunks
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: StreamExtensions.CopyToNewStreamInChunks
+    name: CopyToNewStreamInChunks
+    nameWithType: StreamExtensions.CopyToNewStreamInChunks
+    fullName: StreamExtensions.CopyToNewStreamInChunks
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.StreamExtensions.WriteInChunksTo(System.IO.Stream)
+  commentId: M:StreamExtensions.WriteInChunksTo(System.IO.Stream,System.IO.Stream)
+  parent: StreamExtensions
+  definition: StreamExtensions.WriteInChunksTo(System.IO.Stream,System.IO.Stream)
+  name: WriteInChunksTo(Stream)
+  nameWithType: StreamExtensions.WriteInChunksTo(Stream)
+  fullName: StreamExtensions.WriteInChunksTo(System.IO.Stream)
+  spec.csharp:
+  - uid: StreamExtensions.WriteInChunksTo(System.IO.Stream)
+    name: WriteInChunksTo
+    nameWithType: StreamExtensions.WriteInChunksTo
+    fullName: StreamExtensions.WriteInChunksTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: StreamExtensions.WriteInChunksTo(System.IO.Stream)
+    name: WriteInChunksTo
+    nameWithType: StreamExtensions.WriteInChunksTo
+    fullName: StreamExtensions.WriteInChunksTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.StreamExtensions.ReadReliably(System.Int64,System.Int32)
+  commentId: M:StreamExtensions.ReadReliably(System.IO.Stream,System.Int64,System.Int32)
+  parent: StreamExtensions
+  definition: StreamExtensions.ReadReliably(System.IO.Stream,System.Int64,System.Int32)
+  name: ReadReliably(Int64, Int32)
+  nameWithType: StreamExtensions.ReadReliably(Int64, Int32)
+  fullName: StreamExtensions.ReadReliably(System.Int64, System.Int32)
+  spec.csharp:
+  - uid: StreamExtensions.ReadReliably(System.Int64,System.Int32)
+    name: ReadReliably
+    nameWithType: StreamExtensions.ReadReliably
+    fullName: StreamExtensions.ReadReliably
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: StreamExtensions.ReadReliably(System.Int64,System.Int32)
+    name: ReadReliably
+    nameWithType: StreamExtensions.ReadReliably
+    fullName: StreamExtensions.ReadReliably
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.StreamExtensions.ToByteArray(System.Int32)
+  commentId: M:StreamExtensions.ToByteArray(System.IO.Stream,System.Int32)
+  parent: StreamExtensions
+  definition: StreamExtensions.ToByteArray(System.IO.Stream,System.Int32)
+  name: ToByteArray(Int32)
+  nameWithType: StreamExtensions.ToByteArray(Int32)
+  fullName: StreamExtensions.ToByteArray(System.Int32)
+  spec.csharp:
+  - uid: StreamExtensions.ToByteArray(System.Int32)
+    name: ToByteArray
+    nameWithType: StreamExtensions.ToByteArray
+    fullName: StreamExtensions.ToByteArray
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: StreamExtensions.ToByteArray(System.Int32)
+    name: ToByteArray
+    nameWithType: StreamExtensions.ToByteArray
+    fullName: StreamExtensions.ToByteArray
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.StreamExtensions.CopyToNewStream
+  commentId: M:StreamExtensions.CopyToNewStream(System.IO.Stream)
+  parent: StreamExtensions
+  definition: StreamExtensions.CopyToNewStream(System.IO.Stream)
+  name: CopyToNewStream()
+  nameWithType: StreamExtensions.CopyToNewStream()
+  fullName: StreamExtensions.CopyToNewStream()
+  spec.csharp:
+  - uid: StreamExtensions.CopyToNewStream
+    name: CopyToNewStream
+    nameWithType: StreamExtensions.CopyToNewStream
+    fullName: StreamExtensions.CopyToNewStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: StreamExtensions.CopyToNewStream
+    name: CopyToNewStream
+    nameWithType: StreamExtensions.CopyToNewStream
+    fullName: StreamExtensions.CopyToNewStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.Int32,System.Int32)
+  commentId: M:SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
+  parent: SuperOffice.Util.ImageUtilities
+  definition: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
+  name: GetThumbnailImage(Int32, Int32)
+  nameWithType: ImageUtilities.GetThumbnailImage(Int32, Int32)
+  fullName: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.Int32,System.Int32)
+    name: GetThumbnailImage
+    nameWithType: ImageUtilities.GetThumbnailImage
+    fullName: SuperOffice.Util.ImageUtilities.GetThumbnailImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.Int32,System.Int32)
+    name: GetThumbnailImage
+    nameWithType: ImageUtilities.GetThumbnailImage
+    fullName: SuperOffice.Util.ImageUtilities.GetThumbnailImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.SuperOffice.CRM.Sale.QuoteExtensions.CloneStream
+  commentId: M:SuperOffice.CRM.Sale.QuoteExtensions.CloneStream(System.IO.Stream)
+  parent: SuperOffice.CRM.Sale.QuoteExtensions
+  definition: SuperOffice.CRM.Sale.QuoteExtensions.CloneStream(System.IO.Stream)
+  name: CloneStream()
+  nameWithType: QuoteExtensions.CloneStream()
+  fullName: SuperOffice.CRM.Sale.QuoteExtensions.CloneStream()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Sale.QuoteExtensions.CloneStream
+    name: CloneStream
+    nameWithType: QuoteExtensions.CloneStream
+    fullName: SuperOffice.CRM.Sale.QuoteExtensions.CloneStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Sale.QuoteExtensions.CloneStream
+    name: CloneStream
+    nameWithType: QuoteExtensions.CloneStream
+    fullName: SuperOffice.CRM.Sale.QuoteExtensions.CloneStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.ProviderStream.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ProviderStream, To>()
+  nameWithType: Converters.MapEnums<ProviderStream, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.ProviderStream, To>()
+  nameWithType.vb: Converters.MapEnums(Of ProviderStream, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.ProviderStream, To)()
+  name.vb: MapEnums(Of ProviderStream, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ProviderStream, To>
+    nameWithType: Converters.MapEnums<ProviderStream, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.ProviderStream, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ProviderStream, To)
+    nameWithType: Converters.MapEnums(Of ProviderStream, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.ProviderStream, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: StreamExtensions.CopyToNewStreamInChunks(System.IO.Stream)
+  commentId: M:StreamExtensions.CopyToNewStreamInChunks(System.IO.Stream)
+  isExternal: true
+  name: CopyToNewStreamInChunks(Stream)
+  nameWithType: StreamExtensions.CopyToNewStreamInChunks(Stream)
+  fullName: StreamExtensions.CopyToNewStreamInChunks(System.IO.Stream)
+  spec.csharp:
+  - uid: StreamExtensions.CopyToNewStreamInChunks(System.IO.Stream)
+    name: CopyToNewStreamInChunks
+    nameWithType: StreamExtensions.CopyToNewStreamInChunks
+    fullName: StreamExtensions.CopyToNewStreamInChunks
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: StreamExtensions.CopyToNewStreamInChunks(System.IO.Stream)
+    name: CopyToNewStreamInChunks
+    nameWithType: StreamExtensions.CopyToNewStreamInChunks
+    fullName: StreamExtensions.CopyToNewStreamInChunks
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StreamExtensions
+  commentId: T:StreamExtensions
+  isExternal: true
+  name: StreamExtensions
+  nameWithType: StreamExtensions
+  fullName: StreamExtensions
+- uid: StreamExtensions.WriteInChunksTo(System.IO.Stream,System.IO.Stream)
+  commentId: M:StreamExtensions.WriteInChunksTo(System.IO.Stream,System.IO.Stream)
+  isExternal: true
+  name: WriteInChunksTo(Stream, Stream)
+  nameWithType: StreamExtensions.WriteInChunksTo(Stream, Stream)
+  fullName: StreamExtensions.WriteInChunksTo(System.IO.Stream, System.IO.Stream)
+  spec.csharp:
+  - uid: StreamExtensions.WriteInChunksTo(System.IO.Stream,System.IO.Stream)
+    name: WriteInChunksTo
+    nameWithType: StreamExtensions.WriteInChunksTo
+    fullName: StreamExtensions.WriteInChunksTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: StreamExtensions.WriteInChunksTo(System.IO.Stream,System.IO.Stream)
+    name: WriteInChunksTo
+    nameWithType: StreamExtensions.WriteInChunksTo
+    fullName: StreamExtensions.WriteInChunksTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StreamExtensions.ReadReliably(System.IO.Stream,System.Int64,System.Int32)
+  commentId: M:StreamExtensions.ReadReliably(System.IO.Stream,System.Int64,System.Int32)
+  isExternal: true
+  name: ReadReliably(Stream, Int64, Int32)
+  nameWithType: StreamExtensions.ReadReliably(Stream, Int64, Int32)
+  fullName: StreamExtensions.ReadReliably(System.IO.Stream, System.Int64, System.Int32)
+  spec.csharp:
+  - uid: StreamExtensions.ReadReliably(System.IO.Stream,System.Int64,System.Int32)
+    name: ReadReliably
+    nameWithType: StreamExtensions.ReadReliably
+    fullName: StreamExtensions.ReadReliably
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: StreamExtensions.ReadReliably(System.IO.Stream,System.Int64,System.Int32)
+    name: ReadReliably
+    nameWithType: StreamExtensions.ReadReliably
+    fullName: StreamExtensions.ReadReliably
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StreamExtensions.ToByteArray(System.IO.Stream,System.Int32)
+  commentId: M:StreamExtensions.ToByteArray(System.IO.Stream,System.Int32)
+  isExternal: true
+  name: ToByteArray(Stream, Int32)
+  nameWithType: StreamExtensions.ToByteArray(Stream, Int32)
+  fullName: StreamExtensions.ToByteArray(System.IO.Stream, System.Int32)
+  spec.csharp:
+  - uid: StreamExtensions.ToByteArray(System.IO.Stream,System.Int32)
+    name: ToByteArray
+    nameWithType: StreamExtensions.ToByteArray
+    fullName: StreamExtensions.ToByteArray
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: StreamExtensions.ToByteArray(System.IO.Stream,System.Int32)
+    name: ToByteArray
+    nameWithType: StreamExtensions.ToByteArray
+    fullName: StreamExtensions.ToByteArray
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StreamExtensions.CopyToNewStream(System.IO.Stream)
+  commentId: M:StreamExtensions.CopyToNewStream(System.IO.Stream)
+  isExternal: true
+  name: CopyToNewStream(Stream)
+  nameWithType: StreamExtensions.CopyToNewStream(Stream)
+  fullName: StreamExtensions.CopyToNewStream(System.IO.Stream)
+  spec.csharp:
+  - uid: StreamExtensions.CopyToNewStream(System.IO.Stream)
+    name: CopyToNewStream
+    nameWithType: StreamExtensions.CopyToNewStream
+    fullName: StreamExtensions.CopyToNewStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: StreamExtensions.CopyToNewStream(System.IO.Stream)
+    name: CopyToNewStream
+    nameWithType: StreamExtensions.CopyToNewStream
+    fullName: StreamExtensions.CopyToNewStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
+  commentId: M:SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
+  isExternal: true
+  name: GetThumbnailImage(Stream, Int32, Int32)
+  nameWithType: ImageUtilities.GetThumbnailImage(Stream, Int32, Int32)
+  fullName: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
+    name: GetThumbnailImage
+    nameWithType: ImageUtilities.GetThumbnailImage
+    fullName: SuperOffice.Util.ImageUtilities.GetThumbnailImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
+    name: GetThumbnailImage
+    nameWithType: ImageUtilities.GetThumbnailImage
+    fullName: SuperOffice.Util.ImageUtilities.GetThumbnailImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ImageUtilities
+  commentId: T:SuperOffice.Util.ImageUtilities
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ImageUtilities
+  nameWithType: ImageUtilities
+  fullName: SuperOffice.Util.ImageUtilities
+- uid: SuperOffice.CRM.Sale.QuoteExtensions.CloneStream(System.IO.Stream)
+  commentId: M:SuperOffice.CRM.Sale.QuoteExtensions.CloneStream(System.IO.Stream)
+  isExternal: true
+  name: CloneStream(Stream)
+  nameWithType: QuoteExtensions.CloneStream(Stream)
+  fullName: SuperOffice.CRM.Sale.QuoteExtensions.CloneStream(System.IO.Stream)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Sale.QuoteExtensions.CloneStream(System.IO.Stream)
+    name: CloneStream
+    nameWithType: QuoteExtensions.CloneStream
+    fullName: SuperOffice.CRM.Sale.QuoteExtensions.CloneStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Sale.QuoteExtensions.CloneStream(System.IO.Stream)
+    name: CloneStream
+    nameWithType: QuoteExtensions.CloneStream
+    fullName: SuperOffice.CRM.Sale.QuoteExtensions.CloneStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Sale.QuoteExtensions
+  commentId: T:SuperOffice.CRM.Sale.QuoteExtensions
+  parent: SuperOffice.CRM.Sale
+  isExternal: true
+  name: QuoteExtensions
+  nameWithType: QuoteExtensions
+  fullName: SuperOffice.CRM.Sale.QuoteExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.CRM.Sale
+  commentId: N:SuperOffice.CRM.Sale
+  isExternal: true
+  name: SuperOffice.CRM.Sale
+  nameWithType: SuperOffice.CRM.Sale
+  fullName: SuperOffice.CRM.Sale
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.IO.ProviderStream.GetProviderStream*
+  commentId: Overload:SuperOffice.IO.ProviderStream.GetProviderStream
+  isExternal: true
+  name: GetProviderStream
+  nameWithType: ProviderStream.GetProviderStream
+  fullName: SuperOffice.IO.ProviderStream.GetProviderStream
+- uid: SuperOffice.IO.IStreamProvider
+  commentId: T:SuperOffice.IO.IStreamProvider
+  parent: SuperOffice.IO
+  isExternal: true
+  name: IStreamProvider
+  nameWithType: IStreamProvider
+  fullName: SuperOffice.IO.IStreamProvider
+- uid: SuperOffice.IO.ProviderStream.AccessMode
+  commentId: T:SuperOffice.IO.ProviderStream.AccessMode
+  parent: SuperOffice.IO
+  isExternal: true
+  name: ProviderStream.AccessMode
+  nameWithType: ProviderStream.AccessMode
+  fullName: SuperOffice.IO.ProviderStream.AccessMode
+- uid: SuperOffice.IO.ProviderStream
+  commentId: T:SuperOffice.IO.ProviderStream
+  parent: SuperOffice.IO
+  isExternal: true
+  name: ProviderStream
+  nameWithType: ProviderStream
+  fullName: SuperOffice.IO.ProviderStream
+- uid: System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)
+  commentId: M:System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)
+  parent: System.IO.Stream
+  isExternal: true
+  name: Read(Byte[], Int32, Int32)
+  nameWithType: Stream.Read(Byte[], Int32, Int32)
+  fullName: System.IO.Stream.Read(System.Byte[], System.Int32, System.Int32)
+  nameWithType.vb: Stream.Read(Byte(), Int32, Int32)
+  fullName.vb: System.IO.Stream.Read(System.Byte(), System.Int32, System.Int32)
+  name.vb: Read(Byte(), Int32, Int32)
+  spec.csharp:
+  - uid: System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)
+    name: Read
+    nameWithType: Stream.Read
+    fullName: System.IO.Stream.Read
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)
+    name: Read
+    nameWithType: Stream.Read
+    fullName: System.IO.Stream.Read
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.ProviderStream.Read*
+  commentId: Overload:SuperOffice.IO.ProviderStream.Read
+  isExternal: true
+  name: Read
+  nameWithType: ProviderStream.Read
+  fullName: SuperOffice.IO.ProviderStream.Read
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.IO.Stream.Write(System.Byte[],System.Int32,System.Int32)
+  commentId: M:System.IO.Stream.Write(System.Byte[],System.Int32,System.Int32)
+  parent: System.IO.Stream
+  isExternal: true
+  name: Write(Byte[], Int32, Int32)
+  nameWithType: Stream.Write(Byte[], Int32, Int32)
+  fullName: System.IO.Stream.Write(System.Byte[], System.Int32, System.Int32)
+  nameWithType.vb: Stream.Write(Byte(), Int32, Int32)
+  fullName.vb: System.IO.Stream.Write(System.Byte(), System.Int32, System.Int32)
+  name.vb: Write(Byte(), Int32, Int32)
+  spec.csharp:
+  - uid: System.IO.Stream.Write(System.Byte[],System.Int32,System.Int32)
+    name: Write
+    nameWithType: Stream.Write
+    fullName: System.IO.Stream.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.Write(System.Byte[],System.Int32,System.Int32)
+    name: Write
+    nameWithType: Stream.Write
+    fullName: System.IO.Stream.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.ProviderStream.Write*
+  commentId: Overload:SuperOffice.IO.ProviderStream.Write
+  isExternal: true
+  name: Write
+  nameWithType: ProviderStream.Write
+  fullName: SuperOffice.IO.ProviderStream.Write
+- uid: System.IO.Stream.Flush
+  commentId: M:System.IO.Stream.Flush
+  parent: System.IO.Stream
+  isExternal: true
+  name: Flush()
+  nameWithType: Stream.Flush()
+  fullName: System.IO.Stream.Flush()
+  spec.csharp:
+  - uid: System.IO.Stream.Flush
+    name: Flush
+    nameWithType: Stream.Flush
+    fullName: System.IO.Stream.Flush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.Flush
+    name: Flush
+    nameWithType: Stream.Flush
+    fullName: System.IO.Stream.Flush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.ProviderStream.Flush*
+  commentId: Overload:SuperOffice.IO.ProviderStream.Flush
+  isExternal: true
+  name: Flush
+  nameWithType: ProviderStream.Flush
+  fullName: SuperOffice.IO.ProviderStream.Flush
+- uid: System.IO.Stream.Close
+  commentId: M:System.IO.Stream.Close
+  parent: System.IO.Stream
+  isExternal: true
+  name: Close()
+  nameWithType: Stream.Close()
+  fullName: System.IO.Stream.Close()
+  spec.csharp:
+  - uid: System.IO.Stream.Close
+    name: Close
+    nameWithType: Stream.Close
+    fullName: System.IO.Stream.Close
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.Close
+    name: Close
+    nameWithType: Stream.Close
+    fullName: System.IO.Stream.Close
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.ProviderStream.Close*
+  commentId: Overload:SuperOffice.IO.ProviderStream.Close
+  isExternal: true
+  name: Close
+  nameWithType: ProviderStream.Close
+  fullName: SuperOffice.IO.ProviderStream.Close
+- uid: System.IO.Stream.SetLength(System.Int64)
+  commentId: M:System.IO.Stream.SetLength(System.Int64)
+  parent: System.IO.Stream
+  isExternal: true
+  name: SetLength(Int64)
+  nameWithType: Stream.SetLength(Int64)
+  fullName: System.IO.Stream.SetLength(System.Int64)
+  spec.csharp:
+  - uid: System.IO.Stream.SetLength(System.Int64)
+    name: SetLength
+    nameWithType: Stream.SetLength
+    fullName: System.IO.Stream.SetLength
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.SetLength(System.Int64)
+    name: SetLength
+    nameWithType: Stream.SetLength
+    fullName: System.IO.Stream.SetLength
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.ProviderStream.SetLength*
+  commentId: Overload:SuperOffice.IO.ProviderStream.SetLength
+  isExternal: true
+  name: SetLength
+  nameWithType: ProviderStream.SetLength
+  fullName: SuperOffice.IO.ProviderStream.SetLength
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: System.IO.Stream.Seek(System.Int64,System.IO.SeekOrigin)
+  commentId: M:System.IO.Stream.Seek(System.Int64,System.IO.SeekOrigin)
+  parent: System.IO.Stream
+  isExternal: true
+  name: Seek(Int64, SeekOrigin)
+  nameWithType: Stream.Seek(Int64, SeekOrigin)
+  fullName: System.IO.Stream.Seek(System.Int64, System.IO.SeekOrigin)
+  spec.csharp:
+  - uid: System.IO.Stream.Seek(System.Int64,System.IO.SeekOrigin)
+    name: Seek
+    nameWithType: Stream.Seek
+    fullName: System.IO.Stream.Seek
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.SeekOrigin
+    name: SeekOrigin
+    nameWithType: SeekOrigin
+    fullName: System.IO.SeekOrigin
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.Stream.Seek(System.Int64,System.IO.SeekOrigin)
+    name: Seek
+    nameWithType: Stream.Seek
+    fullName: System.IO.Stream.Seek
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.SeekOrigin
+    name: SeekOrigin
+    nameWithType: SeekOrigin
+    fullName: System.IO.SeekOrigin
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.ProviderStream.Seek*
+  commentId: Overload:SuperOffice.IO.ProviderStream.Seek
+  isExternal: true
+  name: Seek
+  nameWithType: ProviderStream.Seek
+  fullName: SuperOffice.IO.ProviderStream.Seek
+- uid: System.IO.SeekOrigin
+  commentId: T:System.IO.SeekOrigin
+  parent: System.IO
+  isExternal: true
+  name: SeekOrigin
+  nameWithType: SeekOrigin
+  fullName: System.IO.SeekOrigin
+- uid: SuperOffice.IO.ProviderStream.Dispose*
+  commentId: Overload:SuperOffice.IO.ProviderStream.Dispose
+  isExternal: true
+  name: Dispose
+  nameWithType: ProviderStream.Dispose
+  fullName: SuperOffice.IO.ProviderStream.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream.CanSeek
+  commentId: P:System.IO.Stream.CanSeek
+  parent: System.IO.Stream
+  isExternal: true
+  name: CanSeek
+  nameWithType: Stream.CanSeek
+  fullName: System.IO.Stream.CanSeek
+- uid: SuperOffice.IO.ProviderStream.CanSeek*
+  commentId: Overload:SuperOffice.IO.ProviderStream.CanSeek
+  isExternal: true
+  name: CanSeek
+  nameWithType: ProviderStream.CanSeek
+  fullName: SuperOffice.IO.ProviderStream.CanSeek
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.IO.Stream.CanRead
+  commentId: P:System.IO.Stream.CanRead
+  parent: System.IO.Stream
+  isExternal: true
+  name: CanRead
+  nameWithType: Stream.CanRead
+  fullName: System.IO.Stream.CanRead
+- uid: SuperOffice.IO.ProviderStream.CanRead*
+  commentId: Overload:SuperOffice.IO.ProviderStream.CanRead
+  isExternal: true
+  name: CanRead
+  nameWithType: ProviderStream.CanRead
+  fullName: SuperOffice.IO.ProviderStream.CanRead
+- uid: System.IO.Stream.CanWrite
+  commentId: P:System.IO.Stream.CanWrite
+  parent: System.IO.Stream
+  isExternal: true
+  name: CanWrite
+  nameWithType: Stream.CanWrite
+  fullName: System.IO.Stream.CanWrite
+- uid: SuperOffice.IO.ProviderStream.CanWrite*
+  commentId: Overload:SuperOffice.IO.ProviderStream.CanWrite
+  isExternal: true
+  name: CanWrite
+  nameWithType: ProviderStream.CanWrite
+  fullName: SuperOffice.IO.ProviderStream.CanWrite
+- uid: System.IO.Stream.Length
+  commentId: P:System.IO.Stream.Length
+  parent: System.IO.Stream
+  isExternal: true
+  name: Length
+  nameWithType: Stream.Length
+  fullName: System.IO.Stream.Length
+- uid: SuperOffice.IO.ProviderStream.Length*
+  commentId: Overload:SuperOffice.IO.ProviderStream.Length
+  isExternal: true
+  name: Length
+  nameWithType: ProviderStream.Length
+  fullName: SuperOffice.IO.ProviderStream.Length
+- uid: System.IO.Stream.Position
+  commentId: P:System.IO.Stream.Position
+  parent: System.IO.Stream
+  isExternal: true
+  name: Position
+  nameWithType: Stream.Position
+  fullName: System.IO.Stream.Position
+- uid: SuperOffice.IO.ProviderStream.Position*
+  commentId: Overload:SuperOffice.IO.ProviderStream.Position
+  isExternal: true
+  name: Position
+  nameWithType: ProviderStream.Position
+  fullName: SuperOffice.IO.ProviderStream.Position

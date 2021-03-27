@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_CreateFolderRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_CreateFolderRequest
+  id: EMail_CreateFolderRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_CreateFolderRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_CreateFolderRequest.ConnectionInfo
+  langs:
+  - csharp
+  - vb
+  name: EMail_CreateFolderRequest
+  nameWithType: EMail_CreateFolderRequest
+  fullName: SuperOffice.WebApi.Data.EMail_CreateFolderRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_CreateFolderRequest : Object'
+    content.vb: >-
+      Public Class EMail_CreateFolderRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_CreateFolderRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_CreateFolderRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_CreateFolderRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_CreateFolderRequest()
+  nameWithType: EMail_CreateFolderRequest.EMail_CreateFolderRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_CreateFolderRequest.EMail_CreateFolderRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_CreateFolderRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_CreateFolderRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_CreateFolderRequest.ConnectionInfo
+  commentId: P:SuperOffice.WebApi.Data.EMail_CreateFolderRequest.ConnectionInfo
+  id: ConnectionInfo
+  parent: SuperOffice.WebApi.Data.EMail_CreateFolderRequest
+  langs:
+  - csharp
+  - vb
+  name: ConnectionInfo
+  nameWithType: EMail_CreateFolderRequest.ConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMail_CreateFolderRequest.ConnectionInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMailConnectionInfo ConnectionInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EMailConnectionInfo
+    content.vb: Public Property ConnectionInfo As EMailConnectionInfo
+  overload: SuperOffice.WebApi.Data.EMail_CreateFolderRequest.ConnectionInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_CreateFolderRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_CreateFolderRequest.#ctor
+  isExternal: true
+  name: EMail_CreateFolderRequest
+  nameWithType: EMail_CreateFolderRequest.EMail_CreateFolderRequest
+  fullName: SuperOffice.WebApi.Data.EMail_CreateFolderRequest.EMail_CreateFolderRequest
+- uid: SuperOffice.WebApi.Data.EMail_CreateFolderRequest.ConnectionInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_CreateFolderRequest.ConnectionInfo
+  isExternal: true
+  name: ConnectionInfo
+  nameWithType: EMail_CreateFolderRequest.ConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMail_CreateFolderRequest.ConnectionInfo
+- uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+  commentId: T:SuperOffice.WebApi.Data.EMailConnectionInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EMailConnectionInfo
+  nameWithType: EMailConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMailConnectionInfo

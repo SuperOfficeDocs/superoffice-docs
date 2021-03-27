@@ -1,0 +1,404 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Diagnostics.DiagnoseMethod
+  commentId: T:SuperOffice.Diagnostics.DiagnoseMethod
+  id: DiagnoseMethod
+  parent: SuperOffice.Diagnostics
+  children:
+  - SuperOffice.Diagnostics.DiagnoseMethod.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.Diagnostics.DiagnoseMethod.BeginInvoke(SuperOffice.Diagnostics.Diagnostic,System.AsyncCallback,System.Object)
+  - SuperOffice.Diagnostics.DiagnoseMethod.EndInvoke(System.IAsyncResult)
+  - SuperOffice.Diagnostics.DiagnoseMethod.Invoke(SuperOffice.Diagnostics.Diagnostic)
+  langs:
+  - csharp
+  - vb
+  name: DiagnoseMethod
+  nameWithType: DiagnoseMethod
+  fullName: SuperOffice.Diagnostics.DiagnoseMethod
+  type: Delegate
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nDelegate used by <xref href=\"SuperOffice.Diagnostics.Diagnostic.Diagnose(SuperOffice.Diagnostics.DiagnoseMethod)\" data-throw-if-not-resolved=\"false\"></xref> to carry out scaffolding logic.\n"
+  syntax:
+    content: public delegate void DiagnoseMethod(Diagnostic scaffolder);
+    parameters:
+    - id: scaffolder
+      type: SuperOffice.Diagnostics.Diagnostic
+      description: Object to report scaffolding results to.
+    content.vb: Public Delegate Sub DiagnoseMethod(scaffolder As Diagnostic)
+  extensionMethods:
+  - SuperOffice.Diagnostics.DiagnoseMethod.EnumUtil.MapEnums``2
+  - SuperOffice.Diagnostics.DiagnoseMethod.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+- uid: SuperOffice.Diagnostics.DiagnoseMethod.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.Diagnostics.DiagnoseMethod.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.Diagnostics.DiagnoseMethod
+  langs:
+  - csharp
+  - vb
+  name: DiagnoseMethod(Object, IntPtr)
+  nameWithType: DiagnoseMethod.DiagnoseMethod(Object, IntPtr)
+  fullName: SuperOffice.Diagnostics.DiagnoseMethod.DiagnoseMethod(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public DiagnoseMethod(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.Diagnostics.DiagnoseMethod.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.DiagnoseMethod.Invoke(SuperOffice.Diagnostics.Diagnostic)
+  commentId: M:SuperOffice.Diagnostics.DiagnoseMethod.Invoke(SuperOffice.Diagnostics.Diagnostic)
+  id: Invoke(SuperOffice.Diagnostics.Diagnostic)
+  parent: SuperOffice.Diagnostics.DiagnoseMethod
+  langs:
+  - csharp
+  - vb
+  name: Invoke(Diagnostic)
+  nameWithType: DiagnoseMethod.Invoke(Diagnostic)
+  fullName: SuperOffice.Diagnostics.DiagnoseMethod.Invoke(SuperOffice.Diagnostics.Diagnostic)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public virtual void Invoke(Diagnostic scaffolder)
+    parameters:
+    - id: scaffolder
+      type: SuperOffice.Diagnostics.Diagnostic
+    content.vb: Public Overridable Sub Invoke(scaffolder As Diagnostic)
+  overload: SuperOffice.Diagnostics.DiagnoseMethod.Invoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Diagnostics.DiagnoseMethod.BeginInvoke(SuperOffice.Diagnostics.Diagnostic,System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.Diagnostics.DiagnoseMethod.BeginInvoke(SuperOffice.Diagnostics.Diagnostic,System.AsyncCallback,System.Object)
+  id: BeginInvoke(SuperOffice.Diagnostics.Diagnostic,System.AsyncCallback,System.Object)
+  parent: SuperOffice.Diagnostics.DiagnoseMethod
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(Diagnostic, AsyncCallback, Object)
+  nameWithType: DiagnoseMethod.BeginInvoke(Diagnostic, AsyncCallback, Object)
+  fullName: SuperOffice.Diagnostics.DiagnoseMethod.BeginInvoke(SuperOffice.Diagnostics.Diagnostic, System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(Diagnostic scaffolder, AsyncCallback callback, object object)
+    parameters:
+    - id: scaffolder
+      type: SuperOffice.Diagnostics.Diagnostic
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(scaffolder As Diagnostic, callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.Diagnostics.DiagnoseMethod.BeginInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Diagnostics.DiagnoseMethod.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.Diagnostics.DiagnoseMethod.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.Diagnostics.DiagnoseMethod
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: DiagnoseMethod.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.Diagnostics.DiagnoseMethod.EndInvoke(System.IAsyncResult)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public virtual void EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
+  overload: SuperOffice.Diagnostics.DiagnoseMethod.EndInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics
+- uid: SuperOffice.Diagnostics.DiagnoseMethod.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<DiagnoseMethod, To>()
+  nameWithType: EnumUtil.MapEnums<DiagnoseMethod, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.DiagnoseMethod, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DiagnoseMethod, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.DiagnoseMethod, To)()
+  name.vb: MapEnums(Of DiagnoseMethod, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DiagnoseMethod, To>
+    nameWithType: EnumUtil.MapEnums<DiagnoseMethod, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.DiagnoseMethod, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DiagnoseMethod, To)
+    nameWithType: EnumUtil.MapEnums(Of DiagnoseMethod, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.DiagnoseMethod, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.DiagnoseMethod.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<DiagnoseMethod, To>()
+  nameWithType: Converters.MapEnums<DiagnoseMethod, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.DiagnoseMethod, To>()
+  nameWithType.vb: Converters.MapEnums(Of DiagnoseMethod, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.DiagnoseMethod, To)()
+  name.vb: MapEnums(Of DiagnoseMethod, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DiagnoseMethod, To>
+    nameWithType: Converters.MapEnums<DiagnoseMethod, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.DiagnoseMethod, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DiagnoseMethod, To)
+    nameWithType: Converters.MapEnums(Of DiagnoseMethod, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.DiagnoseMethod, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.Diagnostic
+  commentId: T:SuperOffice.Diagnostics.Diagnostic
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: Diagnostic
+  nameWithType: Diagnostic
+  fullName: SuperOffice.Diagnostics.Diagnostic
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Diagnostics.DiagnoseMethod.#ctor*
+  commentId: Overload:SuperOffice.Diagnostics.DiagnoseMethod.#ctor
+  isExternal: true
+  name: DiagnoseMethod
+  nameWithType: DiagnoseMethod.DiagnoseMethod
+  fullName: SuperOffice.Diagnostics.DiagnoseMethod.DiagnoseMethod
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Diagnostics.DiagnoseMethod.Invoke*
+  commentId: Overload:SuperOffice.Diagnostics.DiagnoseMethod.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: DiagnoseMethod.Invoke
+  fullName: SuperOffice.Diagnostics.DiagnoseMethod.Invoke
+- uid: SuperOffice.Diagnostics.DiagnoseMethod.BeginInvoke*
+  commentId: Overload:SuperOffice.Diagnostics.DiagnoseMethod.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: DiagnoseMethod.BeginInvoke
+  fullName: SuperOffice.Diagnostics.DiagnoseMethod.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.Diagnostics.DiagnoseMethod.EndInvoke*
+  commentId: Overload:SuperOffice.Diagnostics.DiagnoseMethod.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: DiagnoseMethod.EndInvoke
+  fullName: SuperOffice.Diagnostics.DiagnoseMethod.EndInvoke

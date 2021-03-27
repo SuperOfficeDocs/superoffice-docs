@@ -1,0 +1,521 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.TicketPriorityFlags
+  commentId: T:SuperOffice.Data.TicketPriorityFlags
+  id: TicketPriorityFlags
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.TicketPriorityFlags.AlertSchedule
+  - SuperOffice.Data.TicketPriorityFlags.Default
+  - SuperOffice.Data.TicketPriorityFlags.External
+  - SuperOffice.Data.TicketPriorityFlags.Unknown
+  langs:
+  - csharp
+  - vb
+  name: TicketPriorityFlags
+  nameWithType: TicketPriorityFlags
+  fullName: SuperOffice.Data.TicketPriorityFlags
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nFlags for the ticket priority\nThis Enum is used by:  ticket_priority.flags\nThis Enum consists of flag values that can be combined.\n"
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum TicketPriorityFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum TicketPriorityFlags
+  extensionMethods:
+  - SuperOffice.Data.TicketPriorityFlags.EnumUtil.MapEnums``2
+  - SuperOffice.Data.TicketPriorityFlags.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TicketPriorityFlags)
+  - SuperOffice.Data.TicketPriorityFlags.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.TicketPriorityFlags.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.TicketPriorityFlags.Unknown
+  commentId: F:SuperOffice.Data.TicketPriorityFlags.Unknown
+  id: Unknown
+  parent: SuperOffice.Data.TicketPriorityFlags
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: TicketPriorityFlags.Unknown
+  fullName: SuperOffice.Data.TicketPriorityFlags.Unknown
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: No flags set\n"
+  syntax:
+    content: Unknown = 0
+    return:
+      type: SuperOffice.Data.TicketPriorityFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketPriorityFlags.External
+  commentId: F:SuperOffice.Data.TicketPriorityFlags.External
+  id: External
+  parent: SuperOffice.Data.TicketPriorityFlags
+  langs:
+  - csharp
+  - vb
+  name: External
+  nameWithType: TicketPriorityFlags.External
+  fullName: SuperOffice.Data.TicketPriorityFlags.External
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: The ticket priority will be avilable in the Customer Centre\n"
+  syntax:
+    content: External = 1
+    return:
+      type: SuperOffice.Data.TicketPriorityFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketPriorityFlags.Default
+  commentId: F:SuperOffice.Data.TicketPriorityFlags.Default
+  id: Default
+  parent: SuperOffice.Data.TicketPriorityFlags
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: TicketPriorityFlags.Default
+  fullName: SuperOffice.Data.TicketPriorityFlags.Default
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: This is the ticket priority that should default be set in the UI when creating a request\n"
+  syntax:
+    content: Default = 2
+    return:
+      type: SuperOffice.Data.TicketPriorityFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TicketPriorityFlags.AlertSchedule
+  commentId: F:SuperOffice.Data.TicketPriorityFlags.AlertSchedule
+  id: AlertSchedule
+  parent: SuperOffice.Data.TicketPriorityFlags
+  langs:
+  - csharp
+  - vb
+  name: AlertSchedule
+  nameWithType: TicketPriorityFlags.AlertSchedule
+  fullName: SuperOffice.Data.TicketPriorityFlags.AlertSchedule
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Escalate requests according to time frame\n"
+  syntax:
+    content: AlertSchedule = 4
+    return:
+      type: SuperOffice.Data.TicketPriorityFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.TicketPriorityFlags.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TicketPriorityFlags, To>()
+  nameWithType: EnumUtil.MapEnums<TicketPriorityFlags, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.TicketPriorityFlags, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TicketPriorityFlags, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.TicketPriorityFlags, To)()
+  name.vb: MapEnums(Of TicketPriorityFlags, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TicketPriorityFlags, To>
+    nameWithType: EnumUtil.MapEnums<TicketPriorityFlags, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.TicketPriorityFlags, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TicketPriorityFlags, To)
+    nameWithType: EnumUtil.MapEnums(Of TicketPriorityFlags, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.TicketPriorityFlags, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.TicketPriorityFlags.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TicketPriorityFlags)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<TicketPriorityFlags>(TicketPriorityFlags)
+  nameWithType: ObjectExtensions.AssignByReflection<TicketPriorityFlags>(TicketPriorityFlags)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TicketPriorityFlags>(SuperOffice.Data.TicketPriorityFlags)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TicketPriorityFlags)(TicketPriorityFlags)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TicketPriorityFlags)(SuperOffice.Data.TicketPriorityFlags)
+  name.vb: AssignByReflection(Of TicketPriorityFlags)(TicketPriorityFlags)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<TicketPriorityFlags>
+    nameWithType: ObjectExtensions.AssignByReflection<TicketPriorityFlags>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TicketPriorityFlags>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.TicketPriorityFlags
+    name: TicketPriorityFlags
+    nameWithType: TicketPriorityFlags
+    fullName: SuperOffice.Data.TicketPriorityFlags
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of TicketPriorityFlags)
+    nameWithType: ObjectExtensions.AssignByReflection(Of TicketPriorityFlags)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TicketPriorityFlags)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.TicketPriorityFlags
+    name: TicketPriorityFlags
+    nameWithType: TicketPriorityFlags
+    fullName: SuperOffice.Data.TicketPriorityFlags
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.TicketPriorityFlags.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<TicketPriorityFlags>()
+  nameWithType: ObjectExtensions.GraphCopy<TicketPriorityFlags>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TicketPriorityFlags>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TicketPriorityFlags)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TicketPriorityFlags)()
+  name.vb: GraphCopy(Of TicketPriorityFlags)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<TicketPriorityFlags>
+    nameWithType: ObjectExtensions.GraphCopy<TicketPriorityFlags>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TicketPriorityFlags>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of TicketPriorityFlags)
+    nameWithType: ObjectExtensions.GraphCopy(Of TicketPriorityFlags)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TicketPriorityFlags)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.TicketPriorityFlags.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TicketPriorityFlags, To>()
+  nameWithType: Converters.MapEnums<TicketPriorityFlags, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TicketPriorityFlags, To>()
+  nameWithType.vb: Converters.MapEnums(Of TicketPriorityFlags, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TicketPriorityFlags, To)()
+  name.vb: MapEnums(Of TicketPriorityFlags, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TicketPriorityFlags, To>
+    nameWithType: Converters.MapEnums<TicketPriorityFlags, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TicketPriorityFlags, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TicketPriorityFlags, To)
+    nameWithType: Converters.MapEnums(Of TicketPriorityFlags, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TicketPriorityFlags, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.TicketPriorityFlags
+  commentId: T:SuperOffice.Data.TicketPriorityFlags
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TicketPriorityFlags
+  nameWithType: TicketPriorityFlags
+  fullName: SuperOffice.Data.TicketPriorityFlags

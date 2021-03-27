@@ -1,0 +1,1194 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx
+  commentId: T:SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx
+  id: SelectionCollection.SelectionCollectionIdx
+  parent: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.#ctor(SuperOffice.CRM.Rows.SelectionRows.SelectionRowsIdx)
+  - SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.IsDistinct
+  - SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.op_Implicit(SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx)~SuperOffice.CRM.Entities.SelectionCollection
+  - SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.ToSelectionCollection
+  langs:
+  - csharp
+  - vb
+  name: SelectionCollection.SelectionCollectionIdx
+  nameWithType: SelectionCollection.SelectionCollectionIdx
+  fullName: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nBase class for the index facades.\n"
+  syntax:
+    content: 'public abstract class SelectionCollectionIdx : Selection.SelectionIdxBase, ISentryIgnorable'
+    content.vb: >-
+      Public MustInherit Class SelectionCollectionIdx
+          Inherits Selection.SelectionIdxBase
+          Implements ISentryIgnorable
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Entities.EntityIdxBase
+  - SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}
+  - SuperOffice.CRM.Entities.Selection.SelectionIdxBase
+  derivedClasses:
+  - SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx`1
+  implements:
+  - SuperOffice.CRM.Security.ISentryIgnorable
+  inheritedMembers:
+  - SuperOffice.CRM.Entities.Selection.SelectionIdxBase.UserGroupRelationTableInfo
+  - SuperOffice.CRM.Entities.Selection.SelectionIdxBase.SelectionTextRelationTableInfo
+  - SuperOffice.CRM.Entities.Selection.SelectionIdxBase.SelectionInfoRelationTableInfo
+  - SuperOffice.CRM.Entities.Selection.SelectionIdxBase.SearchCategoryRelationTableInfo
+  - SuperOffice.CRM.Entities.Selection.SelectionIdxBase.TableInfo
+  - SuperOffice.CRM.Entities.Selection.SelectionIdxBase.VisibleForTableInfo
+  - SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}.BeginIgnoreSentryCheck
+  - SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}.EndIgnoreSentryCheck
+  - SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}.TableInfo
+  - SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}.RowIdx
+  - SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}.JoinRestriction
+  - SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}.ReturnFields
+  - SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}.IsSentryIgnored
+  - SuperOffice.CRM.Entities.EntityIdxBase.BeginIgnoreSentryCheck
+  - SuperOffice.CRM.Entities.EntityIdxBase.EndIgnoreSentryCheck
+  - SuperOffice.CRM.Entities.EntityIdxBase.IsSentryIgnored
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.#ctor(SuperOffice.CRM.Rows.SelectionRows.SelectionRowsIdx)
+  commentId: M:SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.#ctor(SuperOffice.CRM.Rows.SelectionRows.SelectionRowsIdx)
+  id: '#ctor(SuperOffice.CRM.Rows.SelectionRows.SelectionRowsIdx)'
+  parent: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx
+  langs:
+  - csharp
+  - vb
+  name: SelectionCollectionIdx(SelectionRows.SelectionRowsIdx)
+  nameWithType: SelectionCollection.SelectionCollectionIdx.SelectionCollectionIdx(SelectionRows.SelectionRowsIdx)
+  fullName: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.SelectionCollectionIdx(SuperOffice.CRM.Rows.SelectionRows.SelectionRowsIdx)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nConstructor for the index facades.\n"
+  syntax:
+    content: protected SelectionCollectionIdx(SelectionRows.SelectionRowsIdx idx)
+    parameters:
+    - id: idx
+      type: SuperOffice.CRM.Rows.SelectionRows.SelectionRowsIdx
+      description: Index for the SelectionRows object
+    content.vb: Protected Sub New(idx As SelectionRows.SelectionRowsIdx)
+  overload: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.op_Implicit(SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx)~SuperOffice.CRM.Entities.SelectionCollection
+  commentId: M:SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.op_Implicit(SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx)~SuperOffice.CRM.Entities.SelectionCollection
+  id: op_Implicit(SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx)~SuperOffice.CRM.Entities.SelectionCollection
+  parent: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx
+  langs:
+  - csharp
+  - vb
+  name: Implicit(SelectionCollection.SelectionCollectionIdx to SelectionCollection)
+  nameWithType: SelectionCollection.SelectionCollectionIdx.Implicit(SelectionCollection.SelectionCollectionIdx to SelectionCollection)
+  fullName: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.Implicit(SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx to SuperOffice.CRM.Entities.SelectionCollection)
+  type: Operator
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nOperator retrieving an object assignable to SelectionCollection based upon the index.\n"
+  syntax:
+    content: public static implicit operator SelectionCollection(SelectionCollection.SelectionCollectionIdx idx)
+    parameters:
+    - id: idx
+      type: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx
+      description: The index the SelectionCollection represents
+    return:
+      type: SuperOffice.CRM.Entities.SelectionCollection
+      description: Instance of an object assignable to SelectionCollection based upon the value of the index.
+    content.vb: Public Shared Widening Operator CType(idx As SelectionCollection.SelectionCollectionIdx) As SelectionCollection
+  overload: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.op_Implicit*
+  nameWithType.vb: SelectionCollection.SelectionCollectionIdx.Widening(SelectionCollection.SelectionCollectionIdx to SelectionCollection)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.Widening(SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx to SuperOffice.CRM.Entities.SelectionCollection)
+  name.vb: Widening(SelectionCollection.SelectionCollectionIdx to SelectionCollection)
+- uid: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.ToSelectionCollection
+  commentId: M:SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.ToSelectionCollection
+  id: ToSelectionCollection
+  parent: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx
+  langs:
+  - csharp
+  - vb
+  name: ToSelectionCollection()
+  nameWithType: SelectionCollection.SelectionCollectionIdx.ToSelectionCollection()
+  fullName: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.ToSelectionCollection()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nOperator retrieving an object assignable to SelectionCollection based upon the index.\n"
+  syntax:
+    content: public SelectionCollection ToSelectionCollection()
+    return:
+      type: SuperOffice.CRM.Entities.SelectionCollection
+      description: Instance of an object assignable to SelectionCollection based upon the value of the index.
+    content.vb: Public Function ToSelectionCollection As SelectionCollection
+  overload: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.ToSelectionCollection*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.IsDistinct
+  commentId: P:SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.IsDistinct
+  id: IsDistinct
+  parent: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx
+  langs:
+  - csharp
+  - vb
+  name: IsDistinct
+  nameWithType: SelectionCollection.SelectionCollectionIdx.IsDistinct
+  fullName: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.IsDistinct
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nFlag indicating that the Select-command is DISTINCT.\n"
+  syntax:
+    content: public virtual bool IsDistinct { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsDistinct As Boolean
+  overload: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.IsDistinct*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Entities.EntityIdxBase
+  commentId: T:SuperOffice.CRM.Entities.EntityIdxBase
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: EntityIdxBase
+  nameWithType: EntityIdxBase
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase
+- uid: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}
+  commentId: T:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}
+  parent: SuperOffice.CRM.Entities
+  definition: SuperOffice.CRM.Entities.EntityIdxBase`2
+  name: EntityIdxBase<SelectionTableInfo, SelectionRow.SelectionRowIdxBase>
+  nameWithType: EntityIdxBase<SelectionTableInfo, SelectionRow.SelectionRowIdxBase>
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.SelectionTableInfo, SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase>
+  nameWithType.vb: EntityIdxBase(Of SelectionTableInfo, SelectionRow.SelectionRowIdxBase)
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.SelectionTableInfo, SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase)
+  name.vb: EntityIdxBase(Of SelectionTableInfo, SelectionRow.SelectionRowIdxBase)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
+    name: EntityIdxBase
+    nameWithType: EntityIdxBase
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.SelectionTableInfo
+    name: SelectionTableInfo
+    nameWithType: SelectionTableInfo
+    fullName: SuperOffice.CRM.Data.SelectionTableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase
+    name: SelectionRow.SelectionRowIdxBase
+    nameWithType: SelectionRow.SelectionRowIdxBase
+    fullName: SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
+    name: EntityIdxBase
+    nameWithType: EntityIdxBase
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.SelectionTableInfo
+    name: SelectionTableInfo
+    nameWithType: SelectionTableInfo
+    fullName: SuperOffice.CRM.Data.SelectionTableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase
+    name: SelectionRow.SelectionRowIdxBase
+    nameWithType: SelectionRow.SelectionRowIdxBase
+    fullName: SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Selection.SelectionIdxBase
+  commentId: T:SuperOffice.CRM.Entities.Selection.SelectionIdxBase
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Selection.SelectionIdxBase
+  nameWithType: Selection.SelectionIdxBase
+  fullName: SuperOffice.CRM.Entities.Selection.SelectionIdxBase
+- uid: SuperOffice.CRM.Security.ISentryIgnorable
+  commentId: T:SuperOffice.CRM.Security.ISentryIgnorable
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: ISentryIgnorable
+  nameWithType: ISentryIgnorable
+  fullName: SuperOffice.CRM.Security.ISentryIgnorable
+- uid: SuperOffice.CRM.Entities.Selection.SelectionIdxBase.UserGroupRelationTableInfo
+  commentId: P:SuperOffice.CRM.Entities.Selection.SelectionIdxBase.UserGroupRelationTableInfo
+  parent: SuperOffice.CRM.Entities.Selection.SelectionIdxBase
+  isExternal: true
+  name: UserGroupRelationTableInfo
+  nameWithType: Selection.SelectionIdxBase.UserGroupRelationTableInfo
+  fullName: SuperOffice.CRM.Entities.Selection.SelectionIdxBase.UserGroupRelationTableInfo
+- uid: SuperOffice.CRM.Entities.Selection.SelectionIdxBase.SelectionTextRelationTableInfo
+  commentId: P:SuperOffice.CRM.Entities.Selection.SelectionIdxBase.SelectionTextRelationTableInfo
+  parent: SuperOffice.CRM.Entities.Selection.SelectionIdxBase
+  isExternal: true
+  name: SelectionTextRelationTableInfo
+  nameWithType: Selection.SelectionIdxBase.SelectionTextRelationTableInfo
+  fullName: SuperOffice.CRM.Entities.Selection.SelectionIdxBase.SelectionTextRelationTableInfo
+- uid: SuperOffice.CRM.Entities.Selection.SelectionIdxBase.SelectionInfoRelationTableInfo
+  commentId: P:SuperOffice.CRM.Entities.Selection.SelectionIdxBase.SelectionInfoRelationTableInfo
+  parent: SuperOffice.CRM.Entities.Selection.SelectionIdxBase
+  isExternal: true
+  name: SelectionInfoRelationTableInfo
+  nameWithType: Selection.SelectionIdxBase.SelectionInfoRelationTableInfo
+  fullName: SuperOffice.CRM.Entities.Selection.SelectionIdxBase.SelectionInfoRelationTableInfo
+- uid: SuperOffice.CRM.Entities.Selection.SelectionIdxBase.SearchCategoryRelationTableInfo
+  commentId: P:SuperOffice.CRM.Entities.Selection.SelectionIdxBase.SearchCategoryRelationTableInfo
+  parent: SuperOffice.CRM.Entities.Selection.SelectionIdxBase
+  isExternal: true
+  name: SearchCategoryRelationTableInfo
+  nameWithType: Selection.SelectionIdxBase.SearchCategoryRelationTableInfo
+  fullName: SuperOffice.CRM.Entities.Selection.SelectionIdxBase.SearchCategoryRelationTableInfo
+- uid: SuperOffice.CRM.Entities.Selection.SelectionIdxBase.TableInfo
+  commentId: P:SuperOffice.CRM.Entities.Selection.SelectionIdxBase.TableInfo
+  parent: SuperOffice.CRM.Entities.Selection.SelectionIdxBase
+  isExternal: true
+  name: TableInfo
+  nameWithType: Selection.SelectionIdxBase.TableInfo
+  fullName: SuperOffice.CRM.Entities.Selection.SelectionIdxBase.TableInfo
+- uid: SuperOffice.CRM.Entities.Selection.SelectionIdxBase.VisibleForTableInfo
+  commentId: P:SuperOffice.CRM.Entities.Selection.SelectionIdxBase.VisibleForTableInfo
+  parent: SuperOffice.CRM.Entities.Selection.SelectionIdxBase
+  isExternal: true
+  name: VisibleForTableInfo
+  nameWithType: Selection.SelectionIdxBase.VisibleForTableInfo
+  fullName: SuperOffice.CRM.Entities.Selection.SelectionIdxBase.VisibleForTableInfo
+- uid: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}.BeginIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}.BeginIgnoreSentryCheck
+  parent: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}
+  definition: SuperOffice.CRM.Entities.EntityIdxBase`2.BeginIgnoreSentryCheck
+  name: BeginIgnoreSentryCheck()
+  nameWithType: EntityIdxBase<SelectionTableInfo, SelectionRow.SelectionRowIdxBase>.BeginIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.SelectionTableInfo, SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase>.BeginIgnoreSentryCheck()
+  nameWithType.vb: EntityIdxBase(Of SelectionTableInfo, SelectionRow.SelectionRowIdxBase).BeginIgnoreSentryCheck()
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.SelectionTableInfo, SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase).BeginIgnoreSentryCheck()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2.BeginIgnoreSentryCheck
+    name: BeginIgnoreSentryCheck
+    nameWithType: EntityIdxBase<SelectionTableInfo, SelectionRow.SelectionRowIdxBase>.BeginIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.SelectionTableInfo, SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase>.BeginIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2.BeginIgnoreSentryCheck
+    name: BeginIgnoreSentryCheck
+    nameWithType: EntityIdxBase(Of SelectionTableInfo, SelectionRow.SelectionRowIdxBase).BeginIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.SelectionTableInfo, SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase).BeginIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}.EndIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}.EndIgnoreSentryCheck
+  parent: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}
+  definition: SuperOffice.CRM.Entities.EntityIdxBase`2.EndIgnoreSentryCheck
+  name: EndIgnoreSentryCheck()
+  nameWithType: EntityIdxBase<SelectionTableInfo, SelectionRow.SelectionRowIdxBase>.EndIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.SelectionTableInfo, SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase>.EndIgnoreSentryCheck()
+  nameWithType.vb: EntityIdxBase(Of SelectionTableInfo, SelectionRow.SelectionRowIdxBase).EndIgnoreSentryCheck()
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.SelectionTableInfo, SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase).EndIgnoreSentryCheck()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2.EndIgnoreSentryCheck
+    name: EndIgnoreSentryCheck
+    nameWithType: EntityIdxBase<SelectionTableInfo, SelectionRow.SelectionRowIdxBase>.EndIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.SelectionTableInfo, SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase>.EndIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2.EndIgnoreSentryCheck
+    name: EndIgnoreSentryCheck
+    nameWithType: EntityIdxBase(Of SelectionTableInfo, SelectionRow.SelectionRowIdxBase).EndIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.SelectionTableInfo, SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase).EndIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}.TableInfo
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}.TableInfo
+  parent: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}
+  definition: SuperOffice.CRM.Entities.EntityIdxBase`2.TableInfo
+  name: TableInfo
+  nameWithType: EntityIdxBase<SelectionTableInfo, SelectionRow.SelectionRowIdxBase>.TableInfo
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.SelectionTableInfo, SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase>.TableInfo
+  nameWithType.vb: EntityIdxBase(Of SelectionTableInfo, SelectionRow.SelectionRowIdxBase).TableInfo
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.SelectionTableInfo, SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase).TableInfo
+- uid: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}.RowIdx
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}.RowIdx
+  parent: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}
+  definition: SuperOffice.CRM.Entities.EntityIdxBase`2.RowIdx
+  name: RowIdx
+  nameWithType: EntityIdxBase<SelectionTableInfo, SelectionRow.SelectionRowIdxBase>.RowIdx
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.SelectionTableInfo, SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase>.RowIdx
+  nameWithType.vb: EntityIdxBase(Of SelectionTableInfo, SelectionRow.SelectionRowIdxBase).RowIdx
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.SelectionTableInfo, SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase).RowIdx
+- uid: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}.JoinRestriction
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}.JoinRestriction
+  parent: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}
+  definition: SuperOffice.CRM.Entities.EntityIdxBase`2.JoinRestriction
+  name: JoinRestriction
+  nameWithType: EntityIdxBase<SelectionTableInfo, SelectionRow.SelectionRowIdxBase>.JoinRestriction
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.SelectionTableInfo, SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase>.JoinRestriction
+  nameWithType.vb: EntityIdxBase(Of SelectionTableInfo, SelectionRow.SelectionRowIdxBase).JoinRestriction
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.SelectionTableInfo, SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase).JoinRestriction
+- uid: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}.ReturnFields
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}.ReturnFields
+  parent: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}
+  definition: SuperOffice.CRM.Entities.EntityIdxBase`2.ReturnFields
+  name: ReturnFields
+  nameWithType: EntityIdxBase<SelectionTableInfo, SelectionRow.SelectionRowIdxBase>.ReturnFields
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.SelectionTableInfo, SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase>.ReturnFields
+  nameWithType.vb: EntityIdxBase(Of SelectionTableInfo, SelectionRow.SelectionRowIdxBase).ReturnFields
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.SelectionTableInfo, SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase).ReturnFields
+- uid: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}.IsSentryIgnored
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}.IsSentryIgnored
+  parent: SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.SelectionTableInfo,SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase}
+  definition: SuperOffice.CRM.Entities.EntityIdxBase`2.IsSentryIgnored
+  name: IsSentryIgnored
+  nameWithType: EntityIdxBase<SelectionTableInfo, SelectionRow.SelectionRowIdxBase>.IsSentryIgnored
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.SelectionTableInfo, SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase>.IsSentryIgnored
+  nameWithType.vb: EntityIdxBase(Of SelectionTableInfo, SelectionRow.SelectionRowIdxBase).IsSentryIgnored
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of SuperOffice.CRM.Data.SelectionTableInfo, SuperOffice.CRM.Rows.SelectionRow.SelectionRowIdxBase).IsSentryIgnored
+- uid: SuperOffice.CRM.Entities.EntityIdxBase.BeginIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Entities.EntityIdxBase.BeginIgnoreSentryCheck
+  parent: SuperOffice.CRM.Entities.EntityIdxBase
+  isExternal: true
+  name: BeginIgnoreSentryCheck()
+  nameWithType: EntityIdxBase.BeginIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase.BeginIgnoreSentryCheck()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase.BeginIgnoreSentryCheck
+    name: BeginIgnoreSentryCheck
+    nameWithType: EntityIdxBase.BeginIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase.BeginIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase.BeginIgnoreSentryCheck
+    name: BeginIgnoreSentryCheck
+    nameWithType: EntityIdxBase.BeginIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase.BeginIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityIdxBase.EndIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Entities.EntityIdxBase.EndIgnoreSentryCheck
+  parent: SuperOffice.CRM.Entities.EntityIdxBase
+  isExternal: true
+  name: EndIgnoreSentryCheck()
+  nameWithType: EntityIdxBase.EndIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase.EndIgnoreSentryCheck()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase.EndIgnoreSentryCheck
+    name: EndIgnoreSentryCheck
+    nameWithType: EntityIdxBase.EndIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase.EndIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase.EndIgnoreSentryCheck
+    name: EndIgnoreSentryCheck
+    nameWithType: EntityIdxBase.EndIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase.EndIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityIdxBase.IsSentryIgnored
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase.IsSentryIgnored
+  parent: SuperOffice.CRM.Entities.EntityIdxBase
+  isExternal: true
+  name: IsSentryIgnored
+  nameWithType: EntityIdxBase.IsSentryIgnored
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase.IsSentryIgnored
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SelectionCollection.SelectionCollectionIdx, To>()
+  nameWithType: EnumUtil.MapEnums<SelectionCollection.SelectionCollectionIdx, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SelectionCollection.SelectionCollectionIdx, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx, To)()
+  name.vb: MapEnums(Of SelectionCollection.SelectionCollectionIdx, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SelectionCollection.SelectionCollectionIdx, To>
+    nameWithType: EnumUtil.MapEnums<SelectionCollection.SelectionCollectionIdx, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SelectionCollection.SelectionCollectionIdx, To)
+    nameWithType: EnumUtil.MapEnums(Of SelectionCollection.SelectionCollectionIdx, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SelectionCollection.SelectionCollectionIdx, To>()
+  nameWithType: Converters.MapEnums<SelectionCollection.SelectionCollectionIdx, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx, To>()
+  nameWithType.vb: Converters.MapEnums(Of SelectionCollection.SelectionCollectionIdx, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx, To)()
+  name.vb: MapEnums(Of SelectionCollection.SelectionCollectionIdx, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SelectionCollection.SelectionCollectionIdx, To>
+    nameWithType: Converters.MapEnums<SelectionCollection.SelectionCollectionIdx, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SelectionCollection.SelectionCollectionIdx, To)
+    nameWithType: Converters.MapEnums(Of SelectionCollection.SelectionCollectionIdx, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Entities.EntityIdxBase`2
+  commentId: T:SuperOffice.CRM.Entities.EntityIdxBase`2
+  isExternal: true
+  name: EntityIdxBase<TTableInfo, TIdx>
+  nameWithType: EntityIdxBase<TTableInfo, TIdx>
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>
+  nameWithType.vb: EntityIdxBase(Of TTableInfo, TIdx)
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx)
+  name.vb: EntityIdxBase(Of TTableInfo, TIdx)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
+    name: EntityIdxBase
+    nameWithType: EntityIdxBase
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TTableInfo
+    nameWithType: TTableInfo
+    fullName: TTableInfo
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
+    name: EntityIdxBase
+    nameWithType: EntityIdxBase
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TTableInfo
+    nameWithType: TTableInfo
+    fullName: TTableInfo
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security
+  commentId: N:SuperOffice.CRM.Security
+  isExternal: true
+  name: SuperOffice.CRM.Security
+  nameWithType: SuperOffice.CRM.Security
+  fullName: SuperOffice.CRM.Security
+- uid: SuperOffice.CRM.Entities.EntityIdxBase`2.BeginIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Entities.EntityIdxBase`2.BeginIgnoreSentryCheck
+  isExternal: true
+  name: BeginIgnoreSentryCheck()
+  nameWithType: EntityIdxBase<TTableInfo, TIdx>.BeginIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.BeginIgnoreSentryCheck()
+  nameWithType.vb: EntityIdxBase(Of TTableInfo, TIdx).BeginIgnoreSentryCheck()
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).BeginIgnoreSentryCheck()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2.BeginIgnoreSentryCheck
+    name: BeginIgnoreSentryCheck
+    nameWithType: EntityIdxBase<TTableInfo, TIdx>.BeginIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.BeginIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2.BeginIgnoreSentryCheck
+    name: BeginIgnoreSentryCheck
+    nameWithType: EntityIdxBase(Of TTableInfo, TIdx).BeginIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).BeginIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityIdxBase`2.EndIgnoreSentryCheck
+  commentId: M:SuperOffice.CRM.Entities.EntityIdxBase`2.EndIgnoreSentryCheck
+  isExternal: true
+  name: EndIgnoreSentryCheck()
+  nameWithType: EntityIdxBase<TTableInfo, TIdx>.EndIgnoreSentryCheck()
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.EndIgnoreSentryCheck()
+  nameWithType.vb: EntityIdxBase(Of TTableInfo, TIdx).EndIgnoreSentryCheck()
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).EndIgnoreSentryCheck()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2.EndIgnoreSentryCheck
+    name: EndIgnoreSentryCheck
+    nameWithType: EntityIdxBase<TTableInfo, TIdx>.EndIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.EndIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityIdxBase`2.EndIgnoreSentryCheck
+    name: EndIgnoreSentryCheck
+    nameWithType: EntityIdxBase(Of TTableInfo, TIdx).EndIgnoreSentryCheck
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).EndIgnoreSentryCheck
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityIdxBase`2.TableInfo
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase`2.TableInfo
+  isExternal: true
+  name: TableInfo
+  nameWithType: EntityIdxBase<TTableInfo, TIdx>.TableInfo
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.TableInfo
+  nameWithType.vb: EntityIdxBase(Of TTableInfo, TIdx).TableInfo
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).TableInfo
+- uid: SuperOffice.CRM.Entities.EntityIdxBase`2.RowIdx
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase`2.RowIdx
+  isExternal: true
+  name: RowIdx
+  nameWithType: EntityIdxBase<TTableInfo, TIdx>.RowIdx
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.RowIdx
+  nameWithType.vb: EntityIdxBase(Of TTableInfo, TIdx).RowIdx
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).RowIdx
+- uid: SuperOffice.CRM.Entities.EntityIdxBase`2.JoinRestriction
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase`2.JoinRestriction
+  isExternal: true
+  name: JoinRestriction
+  nameWithType: EntityIdxBase<TTableInfo, TIdx>.JoinRestriction
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.JoinRestriction
+  nameWithType.vb: EntityIdxBase(Of TTableInfo, TIdx).JoinRestriction
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).JoinRestriction
+- uid: SuperOffice.CRM.Entities.EntityIdxBase`2.ReturnFields
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase`2.ReturnFields
+  isExternal: true
+  name: ReturnFields
+  nameWithType: EntityIdxBase<TTableInfo, TIdx>.ReturnFields
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.ReturnFields
+  nameWithType.vb: EntityIdxBase(Of TTableInfo, TIdx).ReturnFields
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).ReturnFields
+- uid: SuperOffice.CRM.Entities.EntityIdxBase`2.IsSentryIgnored
+  commentId: P:SuperOffice.CRM.Entities.EntityIdxBase`2.IsSentryIgnored
+  isExternal: true
+  name: IsSentryIgnored
+  nameWithType: EntityIdxBase<TTableInfo, TIdx>.IsSentryIgnored
+  fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>.IsSentryIgnored
+  nameWithType.vb: EntityIdxBase(Of TTableInfo, TIdx).IsSentryIgnored
+  fullName.vb: SuperOffice.CRM.Entities.EntityIdxBase(Of TTableInfo, TIdx).IsSentryIgnored
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.#ctor*
+  commentId: Overload:SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.#ctor
+  isExternal: true
+  name: SelectionCollectionIdx
+  nameWithType: SelectionCollection.SelectionCollectionIdx.SelectionCollectionIdx
+  fullName: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.SelectionCollectionIdx
+- uid: SuperOffice.CRM.Rows.SelectionRows.SelectionRowsIdx
+  commentId: T:SuperOffice.CRM.Rows.SelectionRows.SelectionRowsIdx
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: SelectionRows.SelectionRowsIdx
+  nameWithType: SelectionRows.SelectionRowsIdx
+  fullName: SuperOffice.CRM.Rows.SelectionRows.SelectionRowsIdx
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.op_Implicit*
+  commentId: Overload:SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.op_Implicit
+  isExternal: true
+  name: Implicit
+  nameWithType: SelectionCollection.SelectionCollectionIdx.Implicit
+  fullName: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.Implicit
+  nameWithType.vb: SelectionCollection.SelectionCollectionIdx.Widening
+  fullName.vb: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.Widening
+  name.vb: Widening
+- uid: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx
+  commentId: T:SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: SelectionCollection.SelectionCollectionIdx
+  nameWithType: SelectionCollection.SelectionCollectionIdx
+  fullName: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx
+- uid: SuperOffice.CRM.Entities.SelectionCollection
+  commentId: T:SuperOffice.CRM.Entities.SelectionCollection
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: SelectionCollection
+  nameWithType: SelectionCollection
+  fullName: SuperOffice.CRM.Entities.SelectionCollection
+- uid: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.ToSelectionCollection*
+  commentId: Overload:SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.ToSelectionCollection
+  isExternal: true
+  name: ToSelectionCollection
+  nameWithType: SelectionCollection.SelectionCollectionIdx.ToSelectionCollection
+  fullName: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.ToSelectionCollection
+- uid: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.IsDistinct*
+  commentId: Overload:SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.IsDistinct
+  isExternal: true
+  name: IsDistinct
+  nameWithType: SelectionCollection.SelectionCollectionIdx.IsDistinct
+  fullName: SuperOffice.CRM.Entities.SelectionCollection.SelectionCollectionIdx.IsDistinct
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -1,0 +1,716 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.MainView
+  commentId: T:SuperOffice.Data.MainView
+  id: MainView
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.MainView.ContactBrowser
+  - SuperOffice.Data.MainView.ContactInterest
+  - SuperOffice.Data.MainView.ContactMain
+  - SuperOffice.Data.MainView.ContactSaint
+  - SuperOffice.Data.MainView.ContactUDef
+  - SuperOffice.Data.MainView.Custom
+  - SuperOffice.Data.MainView.DiaryDay
+  - SuperOffice.Data.MainView.DiaryMonth
+  - SuperOffice.Data.MainView.DiaryView
+  - SuperOffice.Data.MainView.DiaryWeek
+  - SuperOffice.Data.MainView.EmailArchived
+  - SuperOffice.Data.MainView.EmailInbox
+  - SuperOffice.Data.MainView.EmailSent
+  - SuperOffice.Data.MainView.None
+  - SuperOffice.Data.MainView.Obsolete1
+  - SuperOffice.Data.MainView.ProjectBrowser
+  - SuperOffice.Data.MainView.ProjectEvent
+  - SuperOffice.Data.MainView.ProjectImage
+  - SuperOffice.Data.MainView.ProjectMain
+  - SuperOffice.Data.MainView.ProjectSaint
+  - SuperOffice.Data.MainView.ProjectUDef
+  - SuperOffice.Data.MainView.ReporterMain
+  - SuperOffice.Data.MainView.SelectionMain
+  - SuperOffice.Data.MainView.SelectionTask
+  langs:
+  - csharp
+  - vb
+  name: MainView
+  nameWithType: MainView
+  fullName: SuperOffice.Data.MainView
+  type: Enum
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nView enums representing the values stored in the UserPreference table\n"
+  syntax:
+    content: 'public enum MainView : short'
+    content.vb: Public Enum MainView As Short
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.MainView.None
+  commentId: F:SuperOffice.Data.MainView.None
+  id: None
+  parent: SuperOffice.Data.MainView
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: MainView.None
+  fullName: SuperOffice.Data.MainView.None
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.Data.MainView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MainView.ContactMain
+  commentId: F:SuperOffice.Data.MainView.ContactMain
+  id: ContactMain
+  parent: SuperOffice.Data.MainView
+  langs:
+  - csharp
+  - vb
+  name: ContactMain
+  nameWithType: MainView.ContactMain
+  fullName: SuperOffice.Data.MainView.ContactMain
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: ContactMain = 1
+    return:
+      type: SuperOffice.Data.MainView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MainView.ContactUDef
+  commentId: F:SuperOffice.Data.MainView.ContactUDef
+  id: ContactUDef
+  parent: SuperOffice.Data.MainView
+  langs:
+  - csharp
+  - vb
+  name: ContactUDef
+  nameWithType: MainView.ContactUDef
+  fullName: SuperOffice.Data.MainView.ContactUDef
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: ContactUDef = 2
+    return:
+      type: SuperOffice.Data.MainView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MainView.ContactInterest
+  commentId: F:SuperOffice.Data.MainView.ContactInterest
+  id: ContactInterest
+  parent: SuperOffice.Data.MainView
+  langs:
+  - csharp
+  - vb
+  name: ContactInterest
+  nameWithType: MainView.ContactInterest
+  fullName: SuperOffice.Data.MainView.ContactInterest
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: ContactInterest = 3
+    return:
+      type: SuperOffice.Data.MainView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MainView.ProjectMain
+  commentId: F:SuperOffice.Data.MainView.ProjectMain
+  id: ProjectMain
+  parent: SuperOffice.Data.MainView
+  langs:
+  - csharp
+  - vb
+  name: ProjectMain
+  nameWithType: MainView.ProjectMain
+  fullName: SuperOffice.Data.MainView.ProjectMain
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: ProjectMain = 4
+    return:
+      type: SuperOffice.Data.MainView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MainView.ProjectUDef
+  commentId: F:SuperOffice.Data.MainView.ProjectUDef
+  id: ProjectUDef
+  parent: SuperOffice.Data.MainView
+  langs:
+  - csharp
+  - vb
+  name: ProjectUDef
+  nameWithType: MainView.ProjectUDef
+  fullName: SuperOffice.Data.MainView.ProjectUDef
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: ProjectUDef = 5
+    return:
+      type: SuperOffice.Data.MainView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MainView.DiaryDay
+  commentId: F:SuperOffice.Data.MainView.DiaryDay
+  id: DiaryDay
+  parent: SuperOffice.Data.MainView
+  langs:
+  - csharp
+  - vb
+  name: DiaryDay
+  nameWithType: MainView.DiaryDay
+  fullName: SuperOffice.Data.MainView.DiaryDay
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: DiaryDay = 6
+    return:
+      type: SuperOffice.Data.MainView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MainView.DiaryWeek
+  commentId: F:SuperOffice.Data.MainView.DiaryWeek
+  id: DiaryWeek
+  parent: SuperOffice.Data.MainView
+  langs:
+  - csharp
+  - vb
+  name: DiaryWeek
+  nameWithType: MainView.DiaryWeek
+  fullName: SuperOffice.Data.MainView.DiaryWeek
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: DiaryWeek = 7
+    return:
+      type: SuperOffice.Data.MainView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MainView.DiaryView
+  commentId: F:SuperOffice.Data.MainView.DiaryView
+  id: DiaryView
+  parent: SuperOffice.Data.MainView
+  langs:
+  - csharp
+  - vb
+  name: DiaryView
+  nameWithType: MainView.DiaryView
+  fullName: SuperOffice.Data.MainView.DiaryView
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: DiaryView = 8
+    return:
+      type: SuperOffice.Data.MainView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MainView.DiaryMonth
+  commentId: F:SuperOffice.Data.MainView.DiaryMonth
+  id: DiaryMonth
+  parent: SuperOffice.Data.MainView
+  langs:
+  - csharp
+  - vb
+  name: DiaryMonth
+  nameWithType: MainView.DiaryMonth
+  fullName: SuperOffice.Data.MainView.DiaryMonth
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: DiaryMonth = 9
+    return:
+      type: SuperOffice.Data.MainView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MainView.EmailInbox
+  commentId: F:SuperOffice.Data.MainView.EmailInbox
+  id: EmailInbox
+  parent: SuperOffice.Data.MainView
+  langs:
+  - csharp
+  - vb
+  name: EmailInbox
+  nameWithType: MainView.EmailInbox
+  fullName: SuperOffice.Data.MainView.EmailInbox
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: EmailInbox = 10
+    return:
+      type: SuperOffice.Data.MainView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MainView.EmailSent
+  commentId: F:SuperOffice.Data.MainView.EmailSent
+  id: EmailSent
+  parent: SuperOffice.Data.MainView
+  langs:
+  - csharp
+  - vb
+  name: EmailSent
+  nameWithType: MainView.EmailSent
+  fullName: SuperOffice.Data.MainView.EmailSent
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: EmailSent = 11
+    return:
+      type: SuperOffice.Data.MainView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MainView.EmailArchived
+  commentId: F:SuperOffice.Data.MainView.EmailArchived
+  id: EmailArchived
+  parent: SuperOffice.Data.MainView
+  langs:
+  - csharp
+  - vb
+  name: EmailArchived
+  nameWithType: MainView.EmailArchived
+  fullName: SuperOffice.Data.MainView.EmailArchived
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: EmailArchived = 12
+    return:
+      type: SuperOffice.Data.MainView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MainView.SelectionMain
+  commentId: F:SuperOffice.Data.MainView.SelectionMain
+  id: SelectionMain
+  parent: SuperOffice.Data.MainView
+  langs:
+  - csharp
+  - vb
+  name: SelectionMain
+  nameWithType: MainView.SelectionMain
+  fullName: SuperOffice.Data.MainView.SelectionMain
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: SelectionMain = 13
+    return:
+      type: SuperOffice.Data.MainView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MainView.SelectionTask
+  commentId: F:SuperOffice.Data.MainView.SelectionTask
+  id: SelectionTask
+  parent: SuperOffice.Data.MainView
+  langs:
+  - csharp
+  - vb
+  name: SelectionTask
+  nameWithType: MainView.SelectionTask
+  fullName: SuperOffice.Data.MainView.SelectionTask
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: SelectionTask = 14
+    return:
+      type: SuperOffice.Data.MainView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MainView.ReporterMain
+  commentId: F:SuperOffice.Data.MainView.ReporterMain
+  id: ReporterMain
+  parent: SuperOffice.Data.MainView
+  langs:
+  - csharp
+  - vb
+  name: ReporterMain
+  nameWithType: MainView.ReporterMain
+  fullName: SuperOffice.Data.MainView.ReporterMain
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: ReporterMain = 15
+    return:
+      type: SuperOffice.Data.MainView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MainView.Obsolete1
+  commentId: F:SuperOffice.Data.MainView.Obsolete1
+  id: Obsolete1
+  parent: SuperOffice.Data.MainView
+  langs:
+  - csharp
+  - vb
+  name: Obsolete1
+  nameWithType: MainView.Obsolete1
+  fullName: SuperOffice.Data.MainView.Obsolete1
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Obsolete1 = 16
+    return:
+      type: SuperOffice.Data.MainView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MainView.Custom
+  commentId: F:SuperOffice.Data.MainView.Custom
+  id: Custom
+  parent: SuperOffice.Data.MainView
+  langs:
+  - csharp
+  - vb
+  name: Custom
+  nameWithType: MainView.Custom
+  fullName: SuperOffice.Data.MainView.Custom
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: Custom = 17
+    return:
+      type: SuperOffice.Data.MainView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MainView.ContactSaint
+  commentId: F:SuperOffice.Data.MainView.ContactSaint
+  id: ContactSaint
+  parent: SuperOffice.Data.MainView
+  langs:
+  - csharp
+  - vb
+  name: ContactSaint
+  nameWithType: MainView.ContactSaint
+  fullName: SuperOffice.Data.MainView.ContactSaint
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: ContactSaint = 18
+    return:
+      type: SuperOffice.Data.MainView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MainView.ContactBrowser
+  commentId: F:SuperOffice.Data.MainView.ContactBrowser
+  id: ContactBrowser
+  parent: SuperOffice.Data.MainView
+  langs:
+  - csharp
+  - vb
+  name: ContactBrowser
+  nameWithType: MainView.ContactBrowser
+  fullName: SuperOffice.Data.MainView.ContactBrowser
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: ContactBrowser = 19
+    return:
+      type: SuperOffice.Data.MainView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MainView.ProjectImage
+  commentId: F:SuperOffice.Data.MainView.ProjectImage
+  id: ProjectImage
+  parent: SuperOffice.Data.MainView
+  langs:
+  - csharp
+  - vb
+  name: ProjectImage
+  nameWithType: MainView.ProjectImage
+  fullName: SuperOffice.Data.MainView.ProjectImage
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: ProjectImage = 20
+    return:
+      type: SuperOffice.Data.MainView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MainView.ProjectEvent
+  commentId: F:SuperOffice.Data.MainView.ProjectEvent
+  id: ProjectEvent
+  parent: SuperOffice.Data.MainView
+  langs:
+  - csharp
+  - vb
+  name: ProjectEvent
+  nameWithType: MainView.ProjectEvent
+  fullName: SuperOffice.Data.MainView.ProjectEvent
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: ProjectEvent = 21
+    return:
+      type: SuperOffice.Data.MainView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MainView.ProjectSaint
+  commentId: F:SuperOffice.Data.MainView.ProjectSaint
+  id: ProjectSaint
+  parent: SuperOffice.Data.MainView
+  langs:
+  - csharp
+  - vb
+  name: ProjectSaint
+  nameWithType: MainView.ProjectSaint
+  fullName: SuperOffice.Data.MainView.ProjectSaint
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: ProjectSaint = 22
+    return:
+      type: SuperOffice.Data.MainView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.MainView.ProjectBrowser
+  commentId: F:SuperOffice.Data.MainView.ProjectBrowser
+  id: ProjectBrowser
+  parent: SuperOffice.Data.MainView
+  langs:
+  - csharp
+  - vb
+  name: ProjectBrowser
+  nameWithType: MainView.ProjectBrowser
+  fullName: SuperOffice.Data.MainView.ProjectBrowser
+  type: Field
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: ProjectBrowser = 23
+    return:
+      type: SuperOffice.Data.MainView
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.MainView
+  commentId: T:SuperOffice.Data.MainView
+  parent: SuperOffice.Data
+  isExternal: true
+  name: MainView
+  nameWithType: MainView
+  fullName: SuperOffice.Data.MainView

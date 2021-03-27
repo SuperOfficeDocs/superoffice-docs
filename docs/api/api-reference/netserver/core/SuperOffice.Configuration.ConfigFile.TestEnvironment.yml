@@ -1,0 +1,667 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.TestEnvironment
+  commentId: T:SuperOffice.Configuration.ConfigFile.TestEnvironment
+  id: ConfigFile.TestEnvironment
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableCRMScriptHttp
+  - SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableErpSync
+  - SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableInbox
+  - SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableMailings
+  - SuperOffice.Configuration.ConfigFile.TestEnvironment.EnablePocketNotifications
+  - SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableQuoteConnector
+  - SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableServiceSendMails
+  - SuperOffice.Configuration.ConfigFile.TestEnvironment.IsTestEnvironment
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.TestEnvironment
+  nameWithType: ConfigFile.TestEnvironment
+  fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nConfiguration for test environment\n"
+  syntax:
+    content: public static class TestEnvironment
+    content.vb: Public Module TestEnvironment
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Configuration.ConfigFile.TestEnvironment.IsTestEnvironment
+  commentId: P:SuperOffice.Configuration.ConfigFile.TestEnvironment.IsTestEnvironment
+  id: IsTestEnvironment
+  parent: SuperOffice.Configuration.ConfigFile.TestEnvironment
+  langs:
+  - csharp
+  - vb
+  name: IsTestEnvironment
+  nameWithType: ConfigFile.TestEnvironment.IsTestEnvironment
+  fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment.IsTestEnvironment
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nIs this a Test Environment (where some functions are turned off by default)\n"
+  syntax:
+    content: public static bool IsTestEnvironment { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property IsTestEnvironment As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.TestEnvironment.IsTestEnvironment*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnablePocketNotifications
+  commentId: P:SuperOffice.Configuration.ConfigFile.TestEnvironment.EnablePocketNotifications
+  id: EnablePocketNotifications
+  parent: SuperOffice.Configuration.ConfigFile.TestEnvironment
+  langs:
+  - csharp
+  - vb
+  name: EnablePocketNotifications
+  nameWithType: ConfigFile.TestEnvironment.EnablePocketNotifications
+  fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnablePocketNotifications
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAllow notifications to be sent for pocket\n"
+  syntax:
+    content: public static bool EnablePocketNotifications { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property EnablePocketNotifications As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnablePocketNotifications*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableMailings
+  commentId: P:SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableMailings
+  id: EnableMailings
+  parent: SuperOffice.Configuration.ConfigFile.TestEnvironment
+  langs:
+  - csharp
+  - vb
+  name: EnableMailings
+  nameWithType: ConfigFile.TestEnvironment.EnableMailings
+  fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableMailings
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAllow mailings in service\n"
+  syntax:
+    content: public static bool EnableMailings { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property EnableMailings As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableMailings*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableServiceSendMails
+  commentId: P:SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableServiceSendMails
+  id: EnableServiceSendMails
+  parent: SuperOffice.Configuration.ConfigFile.TestEnvironment
+  langs:
+  - csharp
+  - vb
+  name: EnableServiceSendMails
+  nameWithType: ConfigFile.TestEnvironment.EnableServiceSendMails
+  fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableServiceSendMails
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAllow sending mails from service\n"
+  syntax:
+    content: public static bool EnableServiceSendMails { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property EnableServiceSendMails As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableServiceSendMails*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableCRMScriptHttp
+  commentId: P:SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableCRMScriptHttp
+  id: EnableCRMScriptHttp
+  parent: SuperOffice.Configuration.ConfigFile.TestEnvironment
+  langs:
+  - csharp
+  - vb
+  name: EnableCRMScriptHttp
+  nameWithType: ConfigFile.TestEnvironment.EnableCRMScriptHttp
+  fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableCRMScriptHttp
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAllow making HTTP calls from service\n"
+  syntax:
+    content: public static bool EnableCRMScriptHttp { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property EnableCRMScriptHttp As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableCRMScriptHttp*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableInbox
+  commentId: P:SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableInbox
+  id: EnableInbox
+  parent: SuperOffice.Configuration.ConfigFile.TestEnvironment
+  langs:
+  - csharp
+  - vb
+  name: EnableInbox
+  nameWithType: ConfigFile.TestEnvironment.EnableInbox
+  fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableInbox
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nEnable Inbox\n"
+  syntax:
+    content: public static bool EnableInbox { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property EnableInbox As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableInbox*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableErpSync
+  commentId: P:SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableErpSync
+  id: EnableErpSync
+  parent: SuperOffice.Configuration.ConfigFile.TestEnvironment
+  langs:
+  - csharp
+  - vb
+  name: EnableErpSync
+  nameWithType: ConfigFile.TestEnvironment.EnableErpSync
+  fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableErpSync
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nEnable Erp Sync\n"
+  syntax:
+    content: public static bool EnableErpSync { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property EnableErpSync As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableErpSync*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableQuoteConnector
+  commentId: P:SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableQuoteConnector
+  id: EnableQuoteConnector
+  parent: SuperOffice.Configuration.ConfigFile.TestEnvironment
+  langs:
+  - csharp
+  - vb
+  name: EnableQuoteConnector
+  nameWithType: ConfigFile.TestEnvironment.EnableQuoteConnector
+  fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableQuoteConnector
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nEnable Quote Connector to remote systems\n"
+  syntax:
+    content: public static bool EnableQuoteConnector { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property EnableQuoteConnector As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableQuoteConnector*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.TestEnvironment.IsTestEnvironment*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.TestEnvironment.IsTestEnvironment
+  isExternal: true
+  name: IsTestEnvironment
+  nameWithType: ConfigFile.TestEnvironment.IsTestEnvironment
+  fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment.IsTestEnvironment
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnablePocketNotifications*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.TestEnvironment.EnablePocketNotifications
+  isExternal: true
+  name: EnablePocketNotifications
+  nameWithType: ConfigFile.TestEnvironment.EnablePocketNotifications
+  fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnablePocketNotifications
+- uid: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableMailings*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableMailings
+  isExternal: true
+  name: EnableMailings
+  nameWithType: ConfigFile.TestEnvironment.EnableMailings
+  fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableMailings
+- uid: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableServiceSendMails*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableServiceSendMails
+  isExternal: true
+  name: EnableServiceSendMails
+  nameWithType: ConfigFile.TestEnvironment.EnableServiceSendMails
+  fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableServiceSendMails
+- uid: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableCRMScriptHttp*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableCRMScriptHttp
+  isExternal: true
+  name: EnableCRMScriptHttp
+  nameWithType: ConfigFile.TestEnvironment.EnableCRMScriptHttp
+  fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableCRMScriptHttp
+- uid: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableInbox*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableInbox
+  isExternal: true
+  name: EnableInbox
+  nameWithType: ConfigFile.TestEnvironment.EnableInbox
+  fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableInbox
+- uid: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableErpSync*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableErpSync
+  isExternal: true
+  name: EnableErpSync
+  nameWithType: ConfigFile.TestEnvironment.EnableErpSync
+  fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableErpSync
+- uid: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableQuoteConnector*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableQuoteConnector
+  isExternal: true
+  name: EnableQuoteConnector
+  nameWithType: ConfigFile.TestEnvironment.EnableQuoteConnector
+  fullName: SuperOffice.Configuration.ConfigFile.TestEnvironment.EnableQuoteConnector

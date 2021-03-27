@@ -1,0 +1,286 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.EntityElement
+  commentId: T:SuperOffice.CRM.Services.EntityElement
+  id: EntityElement
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.EntityElement.#ctor
+  - SuperOffice.CRM.Services.EntityElement.Description
+  - SuperOffice.CRM.Services.EntityElement.StrippedValue
+  - SuperOffice.CRM.Services.EntityElement.ToString
+  - SuperOffice.CRM.Services.EntityElement.ToString(System.String)
+  - SuperOffice.CRM.Services.EntityElement.Value
+  langs:
+  - csharp
+  - vb
+  name: EntityElement
+  nameWithType: EntityElement
+  fullName: SuperOffice.CRM.Services.EntityElement
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGeneric carrier object for entity elements such as Phone, EntityElement, Url. These elements do not have id and rank. These values are changed on each save, and should not be depended on. When used in a list or array the rank is the ascending list order.\n<p></p>\nCarrier object for EntityElement.\n"
+  syntax:
+    content: 'public class EntityElement : Carrier'
+    content.vb: >-
+      Public Class EntityElement
+          Inherits Carrier
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.EntityElement.#ctor
+  commentId: M:SuperOffice.CRM.Services.EntityElement.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.EntityElement
+  langs:
+  - csharp
+  - vb
+  name: EntityElement()
+  nameWithType: EntityElement.EntityElement()
+  fullName: SuperOffice.CRM.Services.EntityElement.EntityElement()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public EntityElement()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.EntityElement.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EntityElement.ToString
+  commentId: M:SuperOffice.CRM.Services.EntityElement.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.EntityElement
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: EntityElement.ToString()
+  fullName: SuperOffice.CRM.Services.EntityElement.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.EntityElement.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.EntityElement.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.EntityElement.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.EntityElement
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: EntityElement.ToString(String)
+  fullName: SuperOffice.CRM.Services.EntityElement.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.EntityElement.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EntityElement.Value
+  commentId: P:SuperOffice.CRM.Services.EntityElement.Value
+  id: Value
+  parent: SuperOffice.CRM.Services.EntityElement
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: EntityElement.Value
+  fullName: SuperOffice.CRM.Services.EntityElement.Value
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe Element FullName.  This is a value that is intended to be shown to the user. \n"
+  syntax:
+    content: public virtual string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Value As String
+  overload: SuperOffice.CRM.Services.EntityElement.Value*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EntityElement.StrippedValue
+  commentId: P:SuperOffice.CRM.Services.EntityElement.StrippedValue
+  id: StrippedValue
+  parent: SuperOffice.CRM.Services.EntityElement
+  langs:
+  - csharp
+  - vb
+  name: StrippedValue
+  nameWithType: EntityElement.StrippedValue
+  fullName: SuperOffice.CRM.Services.EntityElement.StrippedValue
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe Element FullName.  This is a value that can be parsed and used by systems. \n"
+  syntax:
+    content: public virtual string StrippedValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property StrippedValue As String
+  overload: SuperOffice.CRM.Services.EntityElement.StrippedValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EntityElement.Description
+  commentId: P:SuperOffice.CRM.Services.EntityElement.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.EntityElement
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: EntityElement.Description
+  fullName: SuperOffice.CRM.Services.EntityElement.Description
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe Element Description \n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.EntityElement.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.EntityElement.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.EntityElement.#ctor
+  isExternal: true
+  name: EntityElement
+  nameWithType: EntityElement.EntityElement
+  fullName: SuperOffice.CRM.Services.EntityElement.EntityElement
+- uid: SuperOffice.CRM.Services.EntityElement.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.EntityElement.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: EntityElement.ToString
+  fullName: SuperOffice.CRM.Services.EntityElement.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.EntityElement.Value*
+  commentId: Overload:SuperOffice.CRM.Services.EntityElement.Value
+  isExternal: true
+  name: Value
+  nameWithType: EntityElement.Value
+  fullName: SuperOffice.CRM.Services.EntityElement.Value
+- uid: SuperOffice.CRM.Services.EntityElement.StrippedValue*
+  commentId: Overload:SuperOffice.CRM.Services.EntityElement.StrippedValue
+  isExternal: true
+  name: StrippedValue
+  nameWithType: EntityElement.StrippedValue
+  fullName: SuperOffice.CRM.Services.EntityElement.StrippedValue
+- uid: SuperOffice.CRM.Services.EntityElement.Description*
+  commentId: Overload:SuperOffice.CRM.Services.EntityElement.Description
+  isExternal: true
+  name: Description
+  nameWithType: EntityElement.Description
+  fullName: SuperOffice.CRM.Services.EntityElement.Description

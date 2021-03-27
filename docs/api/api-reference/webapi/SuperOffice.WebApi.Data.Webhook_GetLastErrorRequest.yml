@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Webhook_GetLastErrorRequest
+  commentId: T:SuperOffice.WebApi.Data.Webhook_GetLastErrorRequest
+  id: Webhook_GetLastErrorRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Webhook_GetLastErrorRequest.#ctor
+  - SuperOffice.WebApi.Data.Webhook_GetLastErrorRequest.WebhookId
+  langs:
+  - csharp
+  - vb
+  name: Webhook_GetLastErrorRequest
+  nameWithType: Webhook_GetLastErrorRequest
+  fullName: SuperOffice.WebApi.Data.Webhook_GetLastErrorRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Webhook_GetLastErrorRequest : Object'
+    content.vb: >-
+      Public Class Webhook_GetLastErrorRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Webhook_GetLastErrorRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Webhook_GetLastErrorRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Webhook_GetLastErrorRequest
+  langs:
+  - csharp
+  - vb
+  name: Webhook_GetLastErrorRequest()
+  nameWithType: Webhook_GetLastErrorRequest.Webhook_GetLastErrorRequest()
+  fullName: SuperOffice.WebApi.Data.Webhook_GetLastErrorRequest.Webhook_GetLastErrorRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Webhook_GetLastErrorRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Webhook_GetLastErrorRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Webhook_GetLastErrorRequest.WebhookId
+  commentId: P:SuperOffice.WebApi.Data.Webhook_GetLastErrorRequest.WebhookId
+  id: WebhookId
+  parent: SuperOffice.WebApi.Data.Webhook_GetLastErrorRequest
+  langs:
+  - csharp
+  - vb
+  name: WebhookId
+  nameWithType: Webhook_GetLastErrorRequest.WebhookId
+  fullName: SuperOffice.WebApi.Data.Webhook_GetLastErrorRequest.WebhookId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int WebhookId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property WebhookId As Integer
+  overload: SuperOffice.WebApi.Data.Webhook_GetLastErrorRequest.WebhookId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Webhook_GetLastErrorRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Webhook_GetLastErrorRequest.#ctor
+  isExternal: true
+  name: Webhook_GetLastErrorRequest
+  nameWithType: Webhook_GetLastErrorRequest.Webhook_GetLastErrorRequest
+  fullName: SuperOffice.WebApi.Data.Webhook_GetLastErrorRequest.Webhook_GetLastErrorRequest
+- uid: SuperOffice.WebApi.Data.Webhook_GetLastErrorRequest.WebhookId*
+  commentId: Overload:SuperOffice.WebApi.Data.Webhook_GetLastErrorRequest.WebhookId
+  isExternal: true
+  name: WebhookId
+  nameWithType: Webhook_GetLastErrorRequest.WebhookId
+  fullName: SuperOffice.WebApi.Data.Webhook_GetLastErrorRequest.WebhookId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

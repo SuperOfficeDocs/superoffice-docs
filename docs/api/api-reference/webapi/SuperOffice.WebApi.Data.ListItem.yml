@@ -1,0 +1,230 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ListItem
+  commentId: T:SuperOffice.WebApi.Data.ListItem
+  id: ListItem
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ListItem.#ctor
+  - SuperOffice.WebApi.Data.ListItem.Id
+  - SuperOffice.WebApi.Data.ListItem.Name
+  - SuperOffice.WebApi.Data.ListItem.ToolTip
+  langs:
+  - csharp
+  - vb
+  name: ListItem
+  nameWithType: ListItem
+  fullName: SuperOffice.WebApi.Data.ListItem
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ListItem.\nLightweight generic list item - similar to MDOListItem but without child items and stuff    \n"
+  syntax:
+    content: 'public class ListItem : Object'
+    content.vb: >-
+      Public Class ListItem
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ListAgent
+    commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ListItem.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ListItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ListItem
+  langs:
+  - csharp
+  - vb
+  name: ListItem()
+  nameWithType: ListItem.ListItem()
+  fullName: SuperOffice.WebApi.Data.ListItem.ListItem()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ListItem()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ListItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ListItem.Id
+  commentId: P:SuperOffice.WebApi.Data.ListItem.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.ListItem
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: ListItem.Id
+  fullName: SuperOffice.WebApi.Data.ListItem.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Id As Integer
+  overload: SuperOffice.WebApi.Data.ListItem.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ListItem.Name
+  commentId: P:SuperOffice.WebApi.Data.ListItem.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.ListItem
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ListItem.Name
+  fullName: SuperOffice.WebApi.Data.ListItem.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDisplay text name\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.ListItem.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ListItem.ToolTip
+  commentId: P:SuperOffice.WebApi.Data.ListItem.ToolTip
+  id: ToolTip
+  parent: SuperOffice.WebApi.Data.ListItem
+  langs:
+  - csharp
+  - vb
+  name: ToolTip
+  nameWithType: ListItem.ToolTip
+  fullName: SuperOffice.WebApi.Data.ListItem.ToolTip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDescription\n"
+  syntax:
+    content: public virtual string ToolTip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ToolTip As String
+  overload: SuperOffice.WebApi.Data.ListItem.ToolTip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ListItem.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ListItem.#ctor
+  isExternal: true
+  name: ListItem
+  nameWithType: ListItem.ListItem
+  fullName: SuperOffice.WebApi.Data.ListItem.ListItem
+- uid: SuperOffice.WebApi.Data.ListItem.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.ListItem.Id
+  isExternal: true
+  name: Id
+  nameWithType: ListItem.Id
+  fullName: SuperOffice.WebApi.Data.ListItem.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ListItem.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.ListItem.Name
+  isExternal: true
+  name: Name
+  nameWithType: ListItem.Name
+  fullName: SuperOffice.WebApi.Data.ListItem.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ListItem.ToolTip*
+  commentId: Overload:SuperOffice.WebApi.Data.ListItem.ToolTip
+  isExternal: true
+  name: ToolTip
+  nameWithType: ListItem.ToolTip
+  fullName: SuperOffice.WebApi.Data.ListItem.ToolTip

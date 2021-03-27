@@ -1,0 +1,545 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Factory.ClientClassFactory
+  commentId: T:SuperOffice.Factory.ClientClassFactory
+  id: ClientClassFactory
+  parent: SuperOffice.Factory
+  children:
+  - SuperOffice.Factory.ClientClassFactory.#ctor
+  - SuperOffice.Factory.ClientClassFactory.Create(System.String,System.String)
+  - SuperOffice.Factory.ClientClassFactory.Create(System.String,System.String,System.Object[])
+  - SuperOffice.Factory.ClientClassFactory.Create(System.Type,System.Object[])
+  langs:
+  - csharp
+  - vb
+  name: ClientClassFactory
+  nameWithType: ClientClassFactory
+  fullName: SuperOffice.Factory.ClientClassFactory
+  type: Class
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Factory
+  summary: "\nFactory class for dynamically loading client assembly classes.\n"
+  syntax:
+    content: public sealed class ClientClassFactory
+    content.vb: Public NotInheritable Class ClientClassFactory
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Factory.ClientClassFactory.Create(System.String,System.String)
+  commentId: M:SuperOffice.Factory.ClientClassFactory.Create(System.String,System.String)
+  id: Create(System.String,System.String)
+  parent: SuperOffice.Factory.ClientClassFactory
+  langs:
+  - csharp
+  - vb
+  name: Create(String, String)
+  nameWithType: ClientClassFactory.Create(String, String)
+  fullName: SuperOffice.Factory.ClientClassFactory.Create(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Factory
+  summary: "\nCreate an instance of an object compatible with the type.\nThe constructor can not take any arguments.\n"
+  syntax:
+    content: public static object Create(string assemblyName, string objectType)
+    parameters:
+    - id: assemblyName
+      type: System.String
+      description: The name of the assembly
+    - id: objectType
+      type: System.String
+      description: The object type
+    return:
+      type: System.Object
+      description: Instance of an object representing the type
+    content.vb: Public Shared Function Create(assemblyName As String, objectType As String) As Object
+  overload: SuperOffice.Factory.ClientClassFactory.Create*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Factory.ClientClassFactory.Create(System.String,System.String,System.Object[])
+  commentId: M:SuperOffice.Factory.ClientClassFactory.Create(System.String,System.String,System.Object[])
+  id: Create(System.String,System.String,System.Object[])
+  parent: SuperOffice.Factory.ClientClassFactory
+  langs:
+  - csharp
+  - vb
+  name: Create(String, String, Object[])
+  nameWithType: ClientClassFactory.Create(String, String, Object[])
+  fullName: SuperOffice.Factory.ClientClassFactory.Create(System.String, System.String, System.Object[])
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Factory
+  summary: "\nCreate an instance of an object compatible with the type.\nThe constructor can not take any arguments.\n"
+  syntax:
+    content: public static object Create(string assemblyName, string objectType, object[] constructorArguments)
+    parameters:
+    - id: assemblyName
+      type: System.String
+      description: The name of the assembly
+    - id: objectType
+      type: System.String
+      description: The object type
+    - id: constructorArguments
+      type: System.Object[]
+      description: An array of objects to passed to the constructor when creating the instance.
+    return:
+      type: System.Object
+      description: Instance of an object representing the type
+    content.vb: Public Shared Function Create(assemblyName As String, objectType As String, constructorArguments As Object()) As Object
+  overload: SuperOffice.Factory.ClientClassFactory.Create*
+  nameWithType.vb: ClientClassFactory.Create(String, String, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Factory.ClientClassFactory.Create(System.String, System.String, System.Object())
+  name.vb: Create(String, String, Object())
+- uid: SuperOffice.Factory.ClientClassFactory.Create(System.Type,System.Object[])
+  commentId: M:SuperOffice.Factory.ClientClassFactory.Create(System.Type,System.Object[])
+  id: Create(System.Type,System.Object[])
+  parent: SuperOffice.Factory.ClientClassFactory
+  langs:
+  - csharp
+  - vb
+  name: Create(Type, Object[])
+  nameWithType: ClientClassFactory.Create(Type, Object[])
+  fullName: SuperOffice.Factory.ClientClassFactory.Create(System.Type, System.Object[])
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Factory
+  summary: "\nCreate an instance of an object compatible with the type.\nThe constructor can not take any arguments.\n"
+  syntax:
+    content: public static object Create(Type mappingType, object[] constructorArguments)
+    parameters:
+    - id: mappingType
+      type: System.Type
+      description: Type to create
+    - id: constructorArguments
+      type: System.Object[]
+      description: An array of objects to passed to the constructor when creating the instance.
+    return:
+      type: System.Object
+      description: Instance of an object representing the type
+    content.vb: Public Shared Function Create(mappingType As Type, constructorArguments As Object()) As Object
+  overload: SuperOffice.Factory.ClientClassFactory.Create*
+  nameWithType.vb: ClientClassFactory.Create(Type, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Factory.ClientClassFactory.Create(System.Type, System.Object())
+  name.vb: Create(Type, Object())
+- uid: SuperOffice.Factory.ClientClassFactory.#ctor
+  commentId: M:SuperOffice.Factory.ClientClassFactory.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Factory.ClientClassFactory
+  langs:
+  - csharp
+  - vb
+  name: ClientClassFactory()
+  nameWithType: ClientClassFactory.ClientClassFactory()
+  fullName: SuperOffice.Factory.ClientClassFactory.ClientClassFactory()
+  type: Constructor
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Factory
+  syntax:
+    content: public ClientClassFactory()
+    content.vb: Public Sub New
+  overload: SuperOffice.Factory.ClientClassFactory.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Factory
+  commentId: N:SuperOffice.Factory
+  isExternal: true
+  name: SuperOffice.Factory
+  nameWithType: SuperOffice.Factory
+  fullName: SuperOffice.Factory
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Factory.ClientClassFactory.Create*
+  commentId: Overload:SuperOffice.Factory.ClientClassFactory.Create
+  isExternal: true
+  name: Create
+  nameWithType: ClientClassFactory.Create
+  fullName: SuperOffice.Factory.ClientClassFactory.Create
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: SuperOffice.Factory.ClientClassFactory.#ctor*
+  commentId: Overload:SuperOffice.Factory.ClientClassFactory.#ctor
+  isExternal: true
+  name: ClientClassFactory
+  nameWithType: ClientClassFactory.ClientClassFactory
+  fullName: SuperOffice.Factory.ClientClassFactory.ClientClassFactory

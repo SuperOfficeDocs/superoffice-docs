@@ -1,0 +1,274 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.INavigatorAgent
+  commentId: T:SuperOffice.CRM.Services.INavigatorAgent
+  id: INavigatorAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.INavigatorAgent.GetAllNavigatorCompany
+  - SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanies(System.String)
+  - SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompany(System.Int32)
+  - SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanyList(System.Int32[])
+  langs:
+  - csharp
+  - vb
+  name: INavigatorAgent
+  nameWithType: INavigatorAgent
+  fullName: SuperOffice.CRM.Services.INavigatorAgent
+  type: Interface
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInterface for the Navigator Agent\nNavigator stuff.\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (NavigatorAgent agent = new NavigatorAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: >-
+      [Agent("Navigator Agent", "Interface for the Navigator Agent. Navigator stuff.")]
+
+      public interface INavigatorAgent : IAgent
+    content.vb: >-
+      <Agent("Navigator Agent", "Interface for the Navigator Agent. Navigator stuff.")>
+
+      Public Interface INavigatorAgent
+          Inherits IAgent
+  attributes:
+  - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
+    ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: Navigator Agent
+    - type: System.String
+      value: Interface for the Navigator Agent. Navigator stuff.
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompany(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompany(System.Int32)
+  id: GetNavigatorCompany(System.Int32)
+  parent: SuperOffice.CRM.Services.INavigatorAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNavigatorCompany(Int32)
+  nameWithType: INavigatorAgent.GetNavigatorCompany(Int32)
+  fullName: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompany(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a NavigatorCompany object.                        \n"
+  syntax:
+    content: NavigatorCompany GetNavigatorCompany(int navigatorCompanyId)
+    parameters:
+    - id: navigatorCompanyId
+      type: System.Int32
+      description: The identifier of the NavigatorCompany object
+    return:
+      type: SuperOffice.CRM.Services.NavigatorCompany
+      description: NavigatorCompany
+    content.vb: Function GetNavigatorCompany(navigatorCompanyId As Integer) As NavigatorCompany
+  overload: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompany*
+- uid: SuperOffice.CRM.Services.INavigatorAgent.GetAllNavigatorCompany
+  commentId: M:SuperOffice.CRM.Services.INavigatorAgent.GetAllNavigatorCompany
+  id: GetAllNavigatorCompany
+  parent: SuperOffice.CRM.Services.INavigatorAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAllNavigatorCompany()
+  nameWithType: INavigatorAgent.GetAllNavigatorCompany()
+  fullName: SuperOffice.CRM.Services.INavigatorAgent.GetAllNavigatorCompany()
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets an array of all NavigatorCompany objects.\n"
+  syntax:
+    content: NavigatorCompany[] GetAllNavigatorCompany()
+    return:
+      type: SuperOffice.CRM.Services.NavigatorCompany[]
+      description: Array of all NavigatorCompany objects
+    content.vb: Function GetAllNavigatorCompany As NavigatorCompany()
+  overload: SuperOffice.CRM.Services.INavigatorAgent.GetAllNavigatorCompany*
+- uid: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanyList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanyList(System.Int32[])
+  id: GetNavigatorCompanyList(System.Int32[])
+  parent: SuperOffice.CRM.Services.INavigatorAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNavigatorCompanyList(Int32[])
+  nameWithType: INavigatorAgent.GetNavigatorCompanyList(Int32[])
+  fullName: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanyList(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets an array of NavigatorCompany objects.                        \n"
+  syntax:
+    content: NavigatorCompany[] GetNavigatorCompanyList(int[] navigatorCompanyIds)
+    parameters:
+    - id: navigatorCompanyIds
+      type: System.Int32[]
+      description: The identifiers of the NavigatorCompany object
+    return:
+      type: SuperOffice.CRM.Services.NavigatorCompany[]
+      description: Array of NavigatorCompany objects
+    content.vb: Function GetNavigatorCompanyList(navigatorCompanyIds As Integer()) As NavigatorCompany()
+  overload: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanyList*
+  nameWithType.vb: INavigatorAgent.GetNavigatorCompanyList(Int32())
+  fullName.vb: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanyList(System.Int32())
+  name.vb: GetNavigatorCompanyList(Int32())
+- uid: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanies(System.String)
+  commentId: M:SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanies(System.String)
+  id: GetNavigatorCompanies(System.String)
+  parent: SuperOffice.CRM.Services.INavigatorAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNavigatorCompanies(String)
+  nameWithType: INavigatorAgent.GetNavigatorCompanies(String)
+  fullName: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanies(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: NavigatorCompany[] GetNavigatorCompanies(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Services.NavigatorCompany[]
+    content.vb: Function GetNavigatorCompanies(name As String) As NavigatorCompany()
+  overload: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanies*
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompany*
+  commentId: Overload:SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompany
+  isExternal: true
+  name: GetNavigatorCompany
+  nameWithType: INavigatorAgent.GetNavigatorCompany
+  fullName: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompany
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.NavigatorCompany
+  commentId: T:SuperOffice.CRM.Services.NavigatorCompany
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: NavigatorCompany
+  nameWithType: NavigatorCompany
+  fullName: SuperOffice.CRM.Services.NavigatorCompany
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.INavigatorAgent.GetAllNavigatorCompany*
+  commentId: Overload:SuperOffice.CRM.Services.INavigatorAgent.GetAllNavigatorCompany
+  isExternal: true
+  name: GetAllNavigatorCompany
+  nameWithType: INavigatorAgent.GetAllNavigatorCompany
+  fullName: SuperOffice.CRM.Services.INavigatorAgent.GetAllNavigatorCompany
+- uid: SuperOffice.CRM.Services.NavigatorCompany[]
+  isExternal: true
+  name: NavigatorCompany[]
+  nameWithType: NavigatorCompany[]
+  fullName: SuperOffice.CRM.Services.NavigatorCompany[]
+  nameWithType.vb: NavigatorCompany()
+  fullName.vb: SuperOffice.CRM.Services.NavigatorCompany()
+  name.vb: NavigatorCompany()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.NavigatorCompany
+    name: NavigatorCompany
+    nameWithType: NavigatorCompany
+    fullName: SuperOffice.CRM.Services.NavigatorCompany
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.NavigatorCompany
+    name: NavigatorCompany
+    nameWithType: NavigatorCompany
+    fullName: SuperOffice.CRM.Services.NavigatorCompany
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanyList*
+  commentId: Overload:SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanyList
+  isExternal: true
+  name: GetNavigatorCompanyList
+  nameWithType: INavigatorAgent.GetNavigatorCompanyList
+  fullName: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanyList
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanies*
+  commentId: Overload:SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanies
+  isExternal: true
+  name: GetNavigatorCompanies
+  nameWithType: INavigatorAgent.GetNavigatorCompanies
+  fullName: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanies
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,257 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.SelectionCategory
+  commentId: T:SuperOffice.WebApi.Data.SelectionCategory
+  id: SelectionCategory
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.SelectionCategory.#ctor
+  - SuperOffice.WebApi.Data.SelectionCategory.Id
+  - SuperOffice.WebApi.Data.SelectionCategory.Tooltip
+  - SuperOffice.WebApi.Data.SelectionCategory.Value
+  langs:
+  - csharp
+  - vb
+  name: SelectionCategory
+  nameWithType: SelectionCategory
+  fullName: SuperOffice.WebApi.Data.SelectionCategory
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for SelectionCategory.\n\n"
+  example:
+  - "\nGet SelectionCategory 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ListAgent(configuration);\nvar selectionCategory = agent.GetSelectionCategory( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class SelectionCategory : Carrier'
+    content.vb: >-
+      Public Class SelectionCategory
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ListAgent
+    commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.SelectionCategory.#ctor
+  commentId: M:SuperOffice.WebApi.Data.SelectionCategory.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.SelectionCategory
+  langs:
+  - csharp
+  - vb
+  name: SelectionCategory()
+  nameWithType: SelectionCategory.SelectionCategory()
+  fullName: SuperOffice.WebApi.Data.SelectionCategory.SelectionCategory()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public SelectionCategory()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.SelectionCategory.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.SelectionCategory.Id
+  commentId: P:SuperOffice.WebApi.Data.SelectionCategory.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.SelectionCategory
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: SelectionCategory.Id
+  fullName: SuperOffice.WebApi.Data.SelectionCategory.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe List Item Id\n"
+  syntax:
+    content: public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Id As Integer
+  overload: SuperOffice.WebApi.Data.SelectionCategory.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SelectionCategory.Value
+  commentId: P:SuperOffice.WebApi.Data.SelectionCategory.Value
+  id: Value
+  parent: SuperOffice.WebApi.Data.SelectionCategory
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: SelectionCategory.Value
+  fullName: SuperOffice.WebApi.Data.SelectionCategory.Value
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe List Item Value\n"
+  syntax:
+    content: public virtual string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Value As String
+  overload: SuperOffice.WebApi.Data.SelectionCategory.Value*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.SelectionCategory.Tooltip
+  commentId: P:SuperOffice.WebApi.Data.SelectionCategory.Tooltip
+  id: Tooltip
+  parent: SuperOffice.WebApi.Data.SelectionCategory
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: SelectionCategory.Tooltip
+  fullName: SuperOffice.WebApi.Data.SelectionCategory.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe List Item Tooltip\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.WebApi.Data.SelectionCategory.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.SelectionCategory.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectionCategory.#ctor
+  isExternal: true
+  name: SelectionCategory
+  nameWithType: SelectionCategory.SelectionCategory
+  fullName: SuperOffice.WebApi.Data.SelectionCategory.SelectionCategory
+- uid: SuperOffice.WebApi.Data.SelectionCategory.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectionCategory.Id
+  isExternal: true
+  name: Id
+  nameWithType: SelectionCategory.Id
+  fullName: SuperOffice.WebApi.Data.SelectionCategory.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.SelectionCategory.Value*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectionCategory.Value
+  isExternal: true
+  name: Value
+  nameWithType: SelectionCategory.Value
+  fullName: SuperOffice.WebApi.Data.SelectionCategory.Value
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.SelectionCategory.Tooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.SelectionCategory.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: SelectionCategory.Tooltip
+  fullName: SuperOffice.WebApi.Data.SelectionCategory.Tooltip

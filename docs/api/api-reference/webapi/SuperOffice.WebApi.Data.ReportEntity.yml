@@ -1,0 +1,684 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ReportEntity
+  commentId: T:SuperOffice.WebApi.Data.ReportEntity
+  id: ReportEntity
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ReportEntity.#ctor
+  - SuperOffice.WebApi.Data.ReportEntity.AssociateId
+  - SuperOffice.WebApi.Data.ReportEntity.Description
+  - SuperOffice.WebApi.Data.ReportEntity.Name
+  - SuperOffice.WebApi.Data.ReportEntity.Published
+  - SuperOffice.WebApi.Data.ReportEntity.ReportCategory
+  - SuperOffice.WebApi.Data.ReportEntity.ReportCategory_String
+  - SuperOffice.WebApi.Data.ReportEntity.ReportId
+  - SuperOffice.WebApi.Data.ReportEntity.ReportLayout
+  - SuperOffice.WebApi.Data.ReportEntity.ReportLayout_String
+  - SuperOffice.WebApi.Data.ReportEntity.TemplateId
+  langs:
+  - csharp
+  - vb
+  name: ReportEntity
+  nameWithType: ReportEntity
+  fullName: SuperOffice.WebApi.Data.ReportEntity
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ReportEntity.\n\n"
+  example:
+  - "\nGet ReportEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ReportAgent(configuration);\nvar reportEntity = agent.GetReportEntity( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class ReportEntity : Carrier'
+    content.vb: >-
+      Public Class ReportEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ReportAgent
+    commentId: T:SuperOffice.WebApi.Agents.ReportAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ReportEntity.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ReportEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ReportEntity
+  langs:
+  - csharp
+  - vb
+  name: ReportEntity()
+  nameWithType: ReportEntity.ReportEntity()
+  fullName: SuperOffice.WebApi.Data.ReportEntity.ReportEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ReportEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ReportEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ReportEntity.ReportId
+  commentId: P:SuperOffice.WebApi.Data.ReportEntity.ReportId
+  id: ReportId
+  parent: SuperOffice.WebApi.Data.ReportEntity
+  langs:
+  - csharp
+  - vb
+  name: ReportId
+  nameWithType: ReportEntity.ReportId
+  fullName: SuperOffice.WebApi.Data.ReportEntity.ReportId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe id of the report.\n\n"
+  syntax:
+    content: public virtual int ReportId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ReportId As Integer
+  overload: SuperOffice.WebApi.Data.ReportEntity.ReportId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReportEntity.ReportCategory_String
+  commentId: P:SuperOffice.WebApi.Data.ReportEntity.ReportCategory_String
+  id: ReportCategory_String
+  parent: SuperOffice.WebApi.Data.ReportEntity
+  langs:
+  - csharp
+  - vb
+  name: ReportCategory_String
+  nameWithType: ReportEntity.ReportCategory_String
+  fullName: SuperOffice.WebApi.Data.ReportEntity.ReportCategory_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe category of the report.\nRaw string enum value.\n"
+  syntax:
+    content: public string ReportCategory_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ReportCategory_String As String
+  overload: SuperOffice.WebApi.Data.ReportEntity.ReportCategory_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ReportEntity.ReportCategory
+    commentId: P:SuperOffice.WebApi.Data.ReportEntity.ReportCategory
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ReportEntity.ReportCategory
+  commentId: P:SuperOffice.WebApi.Data.ReportEntity.ReportCategory
+  id: ReportCategory
+  parent: SuperOffice.WebApi.Data.ReportEntity
+  langs:
+  - csharp
+  - vb
+  name: ReportCategory
+  nameWithType: ReportEntity.ReportCategory
+  fullName: SuperOffice.WebApi.Data.ReportEntity.ReportCategory
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe category of the report.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ReportCategory> ReportCategory { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ReportCategory}
+    content.vb: Public Property ReportCategory As Nullable(Of ReportCategory)
+  overload: SuperOffice.WebApi.Data.ReportEntity.ReportCategory*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ReportEntity.ReportCategory_String
+    commentId: P:SuperOffice.WebApi.Data.ReportEntity.ReportCategory_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ReportEntity.Description
+  commentId: P:SuperOffice.WebApi.Data.ReportEntity.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.ReportEntity
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: ReportEntity.Description
+  fullName: SuperOffice.WebApi.Data.ReportEntity.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe description of the report.\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.ReportEntity.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReportEntity.ReportLayout_String
+  commentId: P:SuperOffice.WebApi.Data.ReportEntity.ReportLayout_String
+  id: ReportLayout_String
+  parent: SuperOffice.WebApi.Data.ReportEntity
+  langs:
+  - csharp
+  - vb
+  name: ReportLayout_String
+  nameWithType: ReportEntity.ReportLayout_String
+  fullName: SuperOffice.WebApi.Data.ReportEntity.ReportLayout_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe layout of the report.\nRaw string enum value.\n"
+  syntax:
+    content: public string ReportLayout_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ReportLayout_String As String
+  overload: SuperOffice.WebApi.Data.ReportEntity.ReportLayout_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ReportEntity.ReportLayout
+    commentId: P:SuperOffice.WebApi.Data.ReportEntity.ReportLayout
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ReportEntity.ReportLayout
+  commentId: P:SuperOffice.WebApi.Data.ReportEntity.ReportLayout
+  id: ReportLayout
+  parent: SuperOffice.WebApi.Data.ReportEntity
+  langs:
+  - csharp
+  - vb
+  name: ReportLayout
+  nameWithType: ReportEntity.ReportLayout
+  fullName: SuperOffice.WebApi.Data.ReportEntity.ReportLayout
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe layout of the report.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ReportLayout> ReportLayout { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ReportLayout}
+    content.vb: Public Property ReportLayout As Nullable(Of ReportLayout)
+  overload: SuperOffice.WebApi.Data.ReportEntity.ReportLayout*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.ReportEntity.ReportLayout_String
+    commentId: P:SuperOffice.WebApi.Data.ReportEntity.ReportLayout_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ReportEntity.Name
+  commentId: P:SuperOffice.WebApi.Data.ReportEntity.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.ReportEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ReportEntity.Name
+  fullName: SuperOffice.WebApi.Data.ReportEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the report\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.ReportEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReportEntity.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.ReportEntity.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.ReportEntity
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: ReportEntity.AssociateId
+  fullName: SuperOffice.WebApi.Data.ReportEntity.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe owner of the report.\n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.ReportEntity.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReportEntity.TemplateId
+  commentId: P:SuperOffice.WebApi.Data.ReportEntity.TemplateId
+  id: TemplateId
+  parent: SuperOffice.WebApi.Data.ReportEntity
+  langs:
+  - csharp
+  - vb
+  name: TemplateId
+  nameWithType: ReportEntity.TemplateId
+  fullName: SuperOffice.WebApi.Data.ReportEntity.TemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe id of report template.\n"
+  syntax:
+    content: public virtual int TemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TemplateId As Integer
+  overload: SuperOffice.WebApi.Data.ReportEntity.TemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ReportEntity.Published
+  commentId: P:SuperOffice.WebApi.Data.ReportEntity.Published
+  id: Published
+  parent: SuperOffice.WebApi.Data.ReportEntity
+  langs:
+  - csharp
+  - vb
+  name: Published
+  nameWithType: ReportEntity.Published
+  fullName: SuperOffice.WebApi.Data.ReportEntity.Published
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs the report published?\n"
+  syntax:
+    content: public virtual bool Published { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Published As Boolean
+  overload: SuperOffice.WebApi.Data.ReportEntity.Published*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ReportAgent
+  commentId: T:SuperOffice.WebApi.Agents.ReportAgent
+  isExternal: true
+  name: ReportAgent
+  nameWithType: ReportAgent
+  fullName: SuperOffice.WebApi.Agents.ReportAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ReportEntity.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ReportEntity.#ctor
+  isExternal: true
+  name: ReportEntity
+  nameWithType: ReportEntity.ReportEntity
+  fullName: SuperOffice.WebApi.Data.ReportEntity.ReportEntity
+- uid: SuperOffice.WebApi.Data.ReportEntity.ReportId*
+  commentId: Overload:SuperOffice.WebApi.Data.ReportEntity.ReportId
+  isExternal: true
+  name: ReportId
+  nameWithType: ReportEntity.ReportId
+  fullName: SuperOffice.WebApi.Data.ReportEntity.ReportId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ReportEntity.ReportCategory_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ReportEntity.ReportCategory_String
+  isExternal: true
+  name: ReportCategory_String
+  nameWithType: ReportEntity.ReportCategory_String
+  fullName: SuperOffice.WebApi.Data.ReportEntity.ReportCategory_String
+- uid: SuperOffice.WebApi.Data.ReportEntity.ReportCategory
+  commentId: P:SuperOffice.WebApi.Data.ReportEntity.ReportCategory
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ReportEntity.ReportCategory*
+  commentId: Overload:SuperOffice.WebApi.Data.ReportEntity.ReportCategory
+  isExternal: true
+  name: ReportCategory
+  nameWithType: ReportEntity.ReportCategory
+  fullName: SuperOffice.WebApi.Data.ReportEntity.ReportCategory
+- uid: SuperOffice.WebApi.Data.ReportEntity.ReportCategory_String
+  commentId: P:SuperOffice.WebApi.Data.ReportEntity.ReportCategory_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ReportCategory}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ReportCategory}'
+  definition: System.Nullable`1
+  name: Nullable<ReportCategory>
+  nameWithType: Nullable<ReportCategory>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ReportCategory>
+  nameWithType.vb: Nullable(Of ReportCategory)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ReportCategory)
+  name.vb: Nullable(Of ReportCategory)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ReportCategory
+    name: ReportCategory
+    nameWithType: ReportCategory
+    fullName: SuperOffice.WebApi.Data.ReportCategory
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ReportCategory
+    name: ReportCategory
+    nameWithType: ReportCategory
+    fullName: SuperOffice.WebApi.Data.ReportCategory
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.ReportEntity.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.ReportEntity.Description
+  isExternal: true
+  name: Description
+  nameWithType: ReportEntity.Description
+  fullName: SuperOffice.WebApi.Data.ReportEntity.Description
+- uid: SuperOffice.WebApi.Data.ReportEntity.ReportLayout_String*
+  commentId: Overload:SuperOffice.WebApi.Data.ReportEntity.ReportLayout_String
+  isExternal: true
+  name: ReportLayout_String
+  nameWithType: ReportEntity.ReportLayout_String
+  fullName: SuperOffice.WebApi.Data.ReportEntity.ReportLayout_String
+- uid: SuperOffice.WebApi.Data.ReportEntity.ReportLayout
+  commentId: P:SuperOffice.WebApi.Data.ReportEntity.ReportLayout
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.ReportEntity.ReportLayout*
+  commentId: Overload:SuperOffice.WebApi.Data.ReportEntity.ReportLayout
+  isExternal: true
+  name: ReportLayout
+  nameWithType: ReportEntity.ReportLayout
+  fullName: SuperOffice.WebApi.Data.ReportEntity.ReportLayout
+- uid: SuperOffice.WebApi.Data.ReportEntity.ReportLayout_String
+  commentId: P:SuperOffice.WebApi.Data.ReportEntity.ReportLayout_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ReportLayout}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ReportLayout}'
+  definition: System.Nullable`1
+  name: Nullable<ReportLayout>
+  nameWithType: Nullable<ReportLayout>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ReportLayout>
+  nameWithType.vb: Nullable(Of ReportLayout)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ReportLayout)
+  name.vb: Nullable(Of ReportLayout)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ReportLayout
+    name: ReportLayout
+    nameWithType: ReportLayout
+    fullName: SuperOffice.WebApi.Data.ReportLayout
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ReportLayout
+    name: ReportLayout
+    nameWithType: ReportLayout
+    fullName: SuperOffice.WebApi.Data.ReportLayout
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.ReportEntity.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.ReportEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: ReportEntity.Name
+  fullName: SuperOffice.WebApi.Data.ReportEntity.Name
+- uid: SuperOffice.WebApi.Data.ReportEntity.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.ReportEntity.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: ReportEntity.AssociateId
+  fullName: SuperOffice.WebApi.Data.ReportEntity.AssociateId
+- uid: SuperOffice.WebApi.Data.ReportEntity.TemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.ReportEntity.TemplateId
+  isExternal: true
+  name: TemplateId
+  nameWithType: ReportEntity.TemplateId
+  fullName: SuperOffice.WebApi.Data.ReportEntity.TemplateId
+- uid: SuperOffice.WebApi.Data.ReportEntity.Published*
+  commentId: Overload:SuperOffice.WebApi.Data.ReportEntity.Published
+  isExternal: true
+  name: Published
+  nameWithType: ReportEntity.Published
+  fullName: SuperOffice.WebApi.Data.ReportEntity.Published
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

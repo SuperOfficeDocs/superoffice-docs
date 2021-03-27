@@ -1,0 +1,178 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Messaging.MessagingPluginAttribute
+  commentId: T:SuperOffice.Messaging.MessagingPluginAttribute
+  id: MessagingPluginAttribute
+  parent: SuperOffice.Messaging
+  children:
+  - SuperOffice.Messaging.MessagingPluginAttribute.#ctor(System.String,System.String[])
+  - SuperOffice.Messaging.MessagingPluginAttribute.SupportedMessagingFormats
+  langs:
+  - csharp
+  - vb
+  name: MessagingPluginAttribute
+  nameWithType: MessagingPluginAttribute
+  fullName: SuperOffice.Messaging.MessagingPluginAttribute
+  type: Class
+  source:
+    path: SuperOffice.Messaging
+    isExternal: true
+  assemblies:
+  - SuperOffice.Messaging
+  namespace: SuperOffice.Messaging
+  syntax:
+    content: >-
+      [AttributeUsage(AttributeTargets.Class)]
+
+      public class MessagingPluginAttribute : PluginAttribute
+    content.vb: >-
+      <AttributeUsage(AttributeTargets.Class)>
+
+      Public Class MessagingPluginAttribute
+          Inherits PluginAttribute
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.AttributeUsageAttribute
+    ctor: System.AttributeUsageAttribute.#ctor(System.AttributeTargets)
+    arguments:
+    - type: System.AttributeTargets
+      value: 4
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Messaging.MessagingPluginAttribute.#ctor(System.String,System.String[])
+  commentId: M:SuperOffice.Messaging.MessagingPluginAttribute.#ctor(System.String,System.String[])
+  id: '#ctor(System.String,System.String[])'
+  parent: SuperOffice.Messaging.MessagingPluginAttribute
+  langs:
+  - csharp
+  - vb
+  name: MessagingPluginAttribute(String, String[])
+  nameWithType: MessagingPluginAttribute.MessagingPluginAttribute(String, String[])
+  fullName: SuperOffice.Messaging.MessagingPluginAttribute.MessagingPluginAttribute(System.String, System.String[])
+  type: Constructor
+  source:
+    path: SuperOffice.Messaging
+    isExternal: true
+  assemblies:
+  - SuperOffice.Messaging
+  namespace: SuperOffice.Messaging
+  summary: "\nName of the plugin. This name must be unique.\n"
+  syntax:
+    content: public MessagingPluginAttribute(string pluginName, params string[] supportedMessagingFormats)
+    parameters:
+    - id: pluginName
+      type: System.String
+      description: Name of the provider
+    - id: supportedMessagingFormats
+      type: System.String[]
+      description: This value can typically be &quot;sms/text&quot;, &quot;sms/mms&quot;, &quot;smtp/rfc822&quot;
+    content.vb: Public Sub New(pluginName As String, ParamArray supportedMessagingFormats As String())
+  overload: SuperOffice.Messaging.MessagingPluginAttribute.#ctor*
+  nameWithType.vb: MessagingPluginAttribute.MessagingPluginAttribute(String, String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Messaging.MessagingPluginAttribute.MessagingPluginAttribute(System.String, System.String())
+  name.vb: MessagingPluginAttribute(String, String())
+- uid: SuperOffice.Messaging.MessagingPluginAttribute.SupportedMessagingFormats
+  commentId: P:SuperOffice.Messaging.MessagingPluginAttribute.SupportedMessagingFormats
+  id: SupportedMessagingFormats
+  parent: SuperOffice.Messaging.MessagingPluginAttribute
+  langs:
+  - csharp
+  - vb
+  name: SupportedMessagingFormats
+  nameWithType: MessagingPluginAttribute.SupportedMessagingFormats
+  fullName: SuperOffice.Messaging.MessagingPluginAttribute.SupportedMessagingFormats
+  type: Property
+  source:
+    path: SuperOffice.Messaging
+    isExternal: true
+  assemblies:
+  - SuperOffice.Messaging
+  namespace: SuperOffice.Messaging
+  summary: "\nThis value can typically be &quot;sms/text&quot;, &quot;sms/mms&quot;, &quot;smtp/rfc822&quot;\n"
+  syntax:
+    content: public string[] SupportedMessagingFormats { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property SupportedMessagingFormats As String()
+  overload: SuperOffice.Messaging.MessagingPluginAttribute.SupportedMessagingFormats*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Messaging
+  commentId: N:SuperOffice.Messaging
+  isExternal: true
+  name: SuperOffice.Messaging
+  nameWithType: SuperOffice.Messaging
+  fullName: SuperOffice.Messaging
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Messaging.MessagingPluginAttribute.#ctor*
+  commentId: Overload:SuperOffice.Messaging.MessagingPluginAttribute.#ctor
+  isExternal: true
+  name: MessagingPluginAttribute
+  nameWithType: MessagingPluginAttribute.MessagingPluginAttribute
+  fullName: SuperOffice.Messaging.MessagingPluginAttribute.MessagingPluginAttribute
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Messaging.MessagingPluginAttribute.SupportedMessagingFormats*
+  commentId: Overload:SuperOffice.Messaging.MessagingPluginAttribute.SupportedMessagingFormats
+  isExternal: true
+  name: SupportedMessagingFormats
+  nameWithType: MessagingPluginAttribute.SupportedMessagingFormats
+  fullName: SuperOffice.Messaging.MessagingPluginAttribute.SupportedMessagingFormats

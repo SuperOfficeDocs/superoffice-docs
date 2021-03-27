@@ -1,0 +1,307 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.NavigatorCompany
+  commentId: T:SuperOffice.CRM.Services.NavigatorCompany
+  id: NavigatorCompany
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.NavigatorCompany.#ctor
+  - SuperOffice.CRM.Services.NavigatorCompany.Id
+  - SuperOffice.CRM.Services.NavigatorCompany.Tooltip
+  - SuperOffice.CRM.Services.NavigatorCompany.ToString
+  - SuperOffice.CRM.Services.NavigatorCompany.ToString(System.String)
+  - SuperOffice.CRM.Services.NavigatorCompany.Value
+  langs:
+  - csharp
+  - vb
+  name: NavigatorCompany
+  nameWithType: NavigatorCompany
+  fullName: SuperOffice.CRM.Services.NavigatorCompany
+  type: Class
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for NavigatorCompany.\nServices for the NavigatorCompany Carrier is available from the <xref href=\"SuperOffice.CRM.Services.INavigatorAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet NavigatorCompany 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new NavigatorAgent();\n    var navigatorCompany = agent.GetNavigatorCompany( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class NavigatorCompany : Carrier'
+    content.vb: >-
+      Public Class NavigatorCompany
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.NavigatorAgent
+    commentId: T:SuperOffice.CRM.Services.NavigatorAgent
+  - linkId: SuperOffice.CRM.Services.INavigatorAgent
+    commentId: T:SuperOffice.CRM.Services.INavigatorAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.NavigatorCompany.#ctor
+  commentId: M:SuperOffice.CRM.Services.NavigatorCompany.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.NavigatorCompany
+  langs:
+  - csharp
+  - vb
+  name: NavigatorCompany()
+  nameWithType: NavigatorCompany.NavigatorCompany()
+  fullName: SuperOffice.CRM.Services.NavigatorCompany.NavigatorCompany()
+  type: Constructor
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public NavigatorCompany()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.NavigatorCompany.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.NavigatorCompany.ToString
+  commentId: M:SuperOffice.CRM.Services.NavigatorCompany.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.NavigatorCompany
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: NavigatorCompany.ToString()
+  fullName: SuperOffice.CRM.Services.NavigatorCompany.ToString()
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.NavigatorCompany.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.NavigatorCompany.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.NavigatorCompany.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.NavigatorCompany
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: NavigatorCompany.ToString(String)
+  fullName: SuperOffice.CRM.Services.NavigatorCompany.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.NavigatorCompany.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.NavigatorCompany.Id
+  commentId: P:SuperOffice.CRM.Services.NavigatorCompany.Id
+  id: Id
+  parent: SuperOffice.CRM.Services.NavigatorCompany
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: NavigatorCompany.Id
+  fullName: SuperOffice.CRM.Services.NavigatorCompany.Id
+  type: Property
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe List Item Id\n"
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: SuperOffice.CRM.Services.NavigatorCompany.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.NavigatorCompany.Value
+  commentId: P:SuperOffice.CRM.Services.NavigatorCompany.Value
+  id: Value
+  parent: SuperOffice.CRM.Services.NavigatorCompany
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: NavigatorCompany.Value
+  fullName: SuperOffice.CRM.Services.NavigatorCompany.Value
+  type: Property
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe List Item Value\n"
+  syntax:
+    content: public string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Value As String
+  overload: SuperOffice.CRM.Services.NavigatorCompany.Value*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.NavigatorCompany.Tooltip
+  commentId: P:SuperOffice.CRM.Services.NavigatorCompany.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Services.NavigatorCompany
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: NavigatorCompany.Tooltip
+  fullName: SuperOffice.CRM.Services.NavigatorCompany.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe List Item Tooltip\n"
+  syntax:
+    content: public string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Tooltip As String
+  overload: SuperOffice.CRM.Services.NavigatorCompany.Tooltip*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.NavigatorAgent
+  commentId: T:SuperOffice.CRM.Services.NavigatorAgent
+  isExternal: true
+  name: NavigatorAgent
+  nameWithType: NavigatorAgent
+  fullName: SuperOffice.CRM.Services.NavigatorAgent
+- uid: SuperOffice.CRM.Services.INavigatorAgent
+  commentId: T:SuperOffice.CRM.Services.INavigatorAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: INavigatorAgent
+  nameWithType: INavigatorAgent
+  fullName: SuperOffice.CRM.Services.INavigatorAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.NavigatorCompany.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.NavigatorCompany.#ctor
+  isExternal: true
+  name: NavigatorCompany
+  nameWithType: NavigatorCompany.NavigatorCompany
+  fullName: SuperOffice.CRM.Services.NavigatorCompany.NavigatorCompany
+- uid: SuperOffice.CRM.Services.NavigatorCompany.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.NavigatorCompany.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: NavigatorCompany.ToString
+  fullName: SuperOffice.CRM.Services.NavigatorCompany.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.NavigatorCompany.Id*
+  commentId: Overload:SuperOffice.CRM.Services.NavigatorCompany.Id
+  isExternal: true
+  name: Id
+  nameWithType: NavigatorCompany.Id
+  fullName: SuperOffice.CRM.Services.NavigatorCompany.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.NavigatorCompany.Value*
+  commentId: Overload:SuperOffice.CRM.Services.NavigatorCompany.Value
+  isExternal: true
+  name: Value
+  nameWithType: NavigatorCompany.Value
+  fullName: SuperOffice.CRM.Services.NavigatorCompany.Value
+- uid: SuperOffice.CRM.Services.NavigatorCompany.Tooltip*
+  commentId: Overload:SuperOffice.CRM.Services.NavigatorCompany.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: NavigatorCompany.Tooltip
+  fullName: SuperOffice.CRM.Services.NavigatorCompany.Tooltip

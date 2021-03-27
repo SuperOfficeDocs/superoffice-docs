@@ -1,0 +1,1422 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AlarmData
+  commentId: T:SuperOffice.WebApi.Data.AlarmData
+  id: AlarmData
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AlarmData.#ctor
+  - SuperOffice.WebApi.Data.AlarmData.AlarmTime
+  - SuperOffice.WebApi.Data.AlarmData.AppointmentId
+  - SuperOffice.WebApi.Data.AlarmData.AppointmentText
+  - SuperOffice.WebApi.Data.AlarmData.AppointmentType
+  - SuperOffice.WebApi.Data.AlarmData.AppointmentType_String
+  - SuperOffice.WebApi.Data.AlarmData.AssignmentStatus
+  - SuperOffice.WebApi.Data.AlarmData.AssignmentStatus_String
+  - SuperOffice.WebApi.Data.AlarmData.BookingType
+  - SuperOffice.WebApi.Data.AlarmData.BookingType_String
+  - SuperOffice.WebApi.Data.AlarmData.ContactDepartment
+  - SuperOffice.WebApi.Data.AlarmData.ContactFullName
+  - SuperOffice.WebApi.Data.AlarmData.ContactId
+  - SuperOffice.WebApi.Data.AlarmData.ContactName
+  - SuperOffice.WebApi.Data.AlarmData.EndDate
+  - SuperOffice.WebApi.Data.AlarmData.FormalName
+  - SuperOffice.WebApi.Data.AlarmData.InvitationStatus
+  - SuperOffice.WebApi.Data.AlarmData.InvitationStatus_String
+  - SuperOffice.WebApi.Data.AlarmData.Location
+  - SuperOffice.WebApi.Data.AlarmData.PersonFullName
+  - SuperOffice.WebApi.Data.AlarmData.PersonId
+  - SuperOffice.WebApi.Data.AlarmData.ProjectId
+  - SuperOffice.WebApi.Data.AlarmData.ProjectName
+  - SuperOffice.WebApi.Data.AlarmData.SaleId
+  - SuperOffice.WebApi.Data.AlarmData.SaleName
+  - SuperOffice.WebApi.Data.AlarmData.StartTime
+  - SuperOffice.WebApi.Data.AlarmData.TaskName
+  langs:
+  - csharp
+  - vb
+  name: AlarmData
+  nameWithType: AlarmData
+  fullName: SuperOffice.WebApi.Data.AlarmData
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for AlarmData.\n\n"
+  syntax:
+    content: 'public class AlarmData : Carrier'
+    content.vb: >-
+      Public Class AlarmData
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AppointmentAgent
+    commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.AlarmData.#ctor
+  commentId: M:SuperOffice.WebApi.Data.AlarmData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: AlarmData()
+  nameWithType: AlarmData.AlarmData()
+  fullName: SuperOffice.WebApi.Data.AlarmData.AlarmData()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public AlarmData()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.AlarmData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AlarmData.AppointmentId
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: AlarmData.AppointmentId
+  fullName: SuperOffice.WebApi.Data.AlarmData.AppointmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int AppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AppointmentId As Integer
+  overload: SuperOffice.WebApi.Data.AlarmData.AppointmentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AlarmData.StartTime
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.StartTime
+  id: StartTime
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: StartTime
+  nameWithType: AlarmData.StartTime
+  fullName: SuperOffice.WebApi.Data.AlarmData.StartTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\ndate + start time planned\n"
+  syntax:
+    content: public virtual DateTime StartTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property StartTime As DateTime
+  overload: SuperOffice.WebApi.Data.AlarmData.StartTime*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AlarmData.EndDate
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.EndDate
+  id: EndDate
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: EndDate
+  nameWithType: AlarmData.EndDate
+  fullName: SuperOffice.WebApi.Data.AlarmData.EndDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDate + end time planned\n"
+  syntax:
+    content: public virtual DateTime EndDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property EndDate As DateTime
+  overload: SuperOffice.WebApi.Data.AlarmData.EndDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AlarmData.AlarmTime
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.AlarmTime
+  id: AlarmTime
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: AlarmTime
+  nameWithType: AlarmData.AlarmTime
+  fullName: SuperOffice.WebApi.Data.AlarmData.AlarmTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual DateTime AlarmTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property AlarmTime As DateTime
+  overload: SuperOffice.WebApi.Data.AlarmData.AlarmTime*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AlarmData.PersonId
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: AlarmData.PersonId
+  fullName: SuperOffice.WebApi.Data.AlarmData.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPerson ID of person the appointment is with, may be 0\n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.AlarmData.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AlarmData.PersonFullName
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.PersonFullName
+  id: PersonFullName
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: PersonFullName
+  nameWithType: AlarmData.PersonFullName
+  fullName: SuperOffice.WebApi.Data.AlarmData.PersonFullName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe associate&apos;s culture formatted fullname (firstname, middleName and lastname)\n"
+  syntax:
+    content: public virtual string PersonFullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonFullName As String
+  overload: SuperOffice.WebApi.Data.AlarmData.PersonFullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AlarmData.ContactName
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.ContactName
+  id: ContactName
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: ContactName
+  nameWithType: AlarmData.ContactName
+  fullName: SuperOffice.WebApi.Data.AlarmData.ContactName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContact name\n"
+  syntax:
+    content: public virtual string ContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactName As String
+  overload: SuperOffice.WebApi.Data.AlarmData.ContactName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AlarmData.ProjectId
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.ProjectId
+  id: ProjectId
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: AlarmData.ProjectId
+  fullName: SuperOffice.WebApi.Data.AlarmData.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nID of project referred to, may be 0\n"
+  syntax:
+    content: public virtual int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProjectId As Integer
+  overload: SuperOffice.WebApi.Data.AlarmData.ProjectId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AlarmData.ProjectName
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.ProjectName
+  id: ProjectName
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: ProjectName
+  nameWithType: AlarmData.ProjectName
+  fullName: SuperOffice.WebApi.Data.AlarmData.ProjectName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nProject name\n"
+  syntax:
+    content: public virtual string ProjectName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProjectName As String
+  overload: SuperOffice.WebApi.Data.AlarmData.ProjectName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AlarmData.AppointmentText
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.AppointmentText
+  id: AppointmentText
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: AppointmentText
+  nameWithType: AlarmData.AppointmentText
+  fullName: SuperOffice.WebApi.Data.AlarmData.AppointmentText
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe actual text, max 2047 significant characters even though it is stored as a larger data type on some databases\n"
+  syntax:
+    content: public virtual string AppointmentText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property AppointmentText As String
+  overload: SuperOffice.WebApi.Data.AlarmData.AppointmentText*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AlarmData.SaleId
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.SaleId
+  id: SaleId
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: AlarmData.SaleId
+  fullName: SuperOffice.WebApi.Data.AlarmData.SaleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOwning sale, if any (may be 0)\n"
+  syntax:
+    content: public virtual int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleId As Integer
+  overload: SuperOffice.WebApi.Data.AlarmData.SaleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AlarmData.SaleName
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.SaleName
+  id: SaleName
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: SaleName
+  nameWithType: AlarmData.SaleName
+  fullName: SuperOffice.WebApi.Data.AlarmData.SaleName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string SaleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SaleName As String
+  overload: SuperOffice.WebApi.Data.AlarmData.SaleName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AlarmData.Location
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.Location
+  id: Location
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: AlarmData.Location
+  fullName: SuperOffice.WebApi.Data.AlarmData.Location
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLocation for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here\n"
+  syntax:
+    content: public virtual string Location { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Location As String
+  overload: SuperOffice.WebApi.Data.AlarmData.Location*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AlarmData.AppointmentType_String
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.AppointmentType_String
+  id: AppointmentType_String
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: AppointmentType_String
+  nameWithType: AlarmData.AppointmentType_String
+  fullName: SuperOffice.WebApi.Data.AlarmData.AppointmentType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nwhere=no start time,note,docin, docout \nRaw string enum value.\n"
+  syntax:
+    content: public string AppointmentType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AppointmentType_String As String
+  overload: SuperOffice.WebApi.Data.AlarmData.AppointmentType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.AlarmData.AppointmentType
+    commentId: P:SuperOffice.WebApi.Data.AlarmData.AppointmentType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AlarmData.AppointmentType
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.AppointmentType
+  id: AppointmentType
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: AppointmentType
+  nameWithType: AlarmData.AppointmentType
+  fullName: SuperOffice.WebApi.Data.AlarmData.AppointmentType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nwhere=no start time,note,docin, docout \nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<AppointmentType> AppointmentType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.AppointmentType}
+    content.vb: Public Property AppointmentType As Nullable(Of AppointmentType)
+  overload: SuperOffice.WebApi.Data.AlarmData.AppointmentType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.AlarmData.AppointmentType_String
+    commentId: P:SuperOffice.WebApi.Data.AlarmData.AppointmentType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AlarmData.ContactId
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: AlarmData.ContactId
+  fullName: SuperOffice.WebApi.Data.AlarmData.ContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContact ID of owning contact, may be 0\n"
+  syntax:
+    content: public virtual int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.AlarmData.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AlarmData.AssignmentStatus_String
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.AssignmentStatus_String
+  id: AssignmentStatus_String
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: AssignmentStatus_String
+  nameWithType: AlarmData.AssignmentStatus_String
+  fullName: SuperOffice.WebApi.Data.AlarmData.AssignmentStatus_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStatus if this appointment is in the process of being assigned to someone else\nRaw string enum value.\n"
+  syntax:
+    content: public string AssignmentStatus_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AssignmentStatus_String As String
+  overload: SuperOffice.WebApi.Data.AlarmData.AssignmentStatus_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.AlarmData.AssignmentStatus
+    commentId: P:SuperOffice.WebApi.Data.AlarmData.AssignmentStatus
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AlarmData.AssignmentStatus
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.AssignmentStatus
+  id: AssignmentStatus
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: AssignmentStatus
+  nameWithType: AlarmData.AssignmentStatus
+  fullName: SuperOffice.WebApi.Data.AlarmData.AssignmentStatus
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStatus if this appointment is in the process of being assigned to someone else\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<AssignmentStatus> AssignmentStatus { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.AssignmentStatus}
+    content.vb: Public Property AssignmentStatus As Nullable(Of AssignmentStatus)
+  overload: SuperOffice.WebApi.Data.AlarmData.AssignmentStatus*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.AlarmData.AssignmentStatus_String
+    commentId: P:SuperOffice.WebApi.Data.AlarmData.AssignmentStatus_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AlarmData.InvitationStatus_String
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.InvitationStatus_String
+  id: InvitationStatus_String
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: InvitationStatus_String
+  nameWithType: AlarmData.InvitationStatus_String
+  fullName: SuperOffice.WebApi.Data.AlarmData.InvitationStatus_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStatus if this appointment represents an invitation\nRaw string enum value.\n"
+  syntax:
+    content: public string InvitationStatus_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property InvitationStatus_String As String
+  overload: SuperOffice.WebApi.Data.AlarmData.InvitationStatus_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.AlarmData.InvitationStatus
+    commentId: P:SuperOffice.WebApi.Data.AlarmData.InvitationStatus
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AlarmData.InvitationStatus
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.InvitationStatus
+  id: InvitationStatus
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: InvitationStatus
+  nameWithType: AlarmData.InvitationStatus
+  fullName: SuperOffice.WebApi.Data.AlarmData.InvitationStatus
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStatus if this appointment represents an invitation\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<InvitationStatus> InvitationStatus { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.InvitationStatus}
+    content.vb: Public Property InvitationStatus As Nullable(Of InvitationStatus)
+  overload: SuperOffice.WebApi.Data.AlarmData.InvitationStatus*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.AlarmData.InvitationStatus_String
+    commentId: P:SuperOffice.WebApi.Data.AlarmData.InvitationStatus_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AlarmData.BookingType_String
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.BookingType_String
+  id: BookingType_String
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: BookingType_String
+  nameWithType: AlarmData.BookingType_String
+  fullName: SuperOffice.WebApi.Data.AlarmData.BookingType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe type of booking the appointment represents\nRaw string enum value.\n"
+  syntax:
+    content: public string BookingType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property BookingType_String As String
+  overload: SuperOffice.WebApi.Data.AlarmData.BookingType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.AlarmData.BookingType
+    commentId: P:SuperOffice.WebApi.Data.AlarmData.BookingType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AlarmData.BookingType
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.BookingType
+  id: BookingType
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: BookingType
+  nameWithType: AlarmData.BookingType
+  fullName: SuperOffice.WebApi.Data.AlarmData.BookingType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe type of booking the appointment represents\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<BookingType> BookingType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.BookingType}
+    content.vb: Public Property BookingType As Nullable(Of BookingType)
+  overload: SuperOffice.WebApi.Data.AlarmData.BookingType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.AlarmData.BookingType_String
+    commentId: P:SuperOffice.WebApi.Data.AlarmData.BookingType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AlarmData.FormalName
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.FormalName
+  id: FormalName
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: FormalName
+  nameWithType: AlarmData.FormalName
+  fullName: SuperOffice.WebApi.Data.AlarmData.FormalName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe associate&apos;s culture formatted formalname (firstname, middleName and lastname, title, mrmrs)\n"
+  syntax:
+    content: public virtual string FormalName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FormalName As String
+  overload: SuperOffice.WebApi.Data.AlarmData.FormalName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AlarmData.TaskName
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.TaskName
+  id: TaskName
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: TaskName
+  nameWithType: AlarmData.TaskName
+  fullName: SuperOffice.WebApi.Data.AlarmData.TaskName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string TaskName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TaskName As String
+  overload: SuperOffice.WebApi.Data.AlarmData.TaskName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AlarmData.ContactDepartment
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.ContactDepartment
+  id: ContactDepartment
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: ContactDepartment
+  nameWithType: AlarmData.ContactDepartment
+  fullName: SuperOffice.WebApi.Data.AlarmData.ContactDepartment
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDepartment\n"
+  syntax:
+    content: public virtual string ContactDepartment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactDepartment As String
+  overload: SuperOffice.WebApi.Data.AlarmData.ContactDepartment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AlarmData.ContactFullName
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.ContactFullName
+  id: ContactFullName
+  parent: SuperOffice.WebApi.Data.AlarmData
+  langs:
+  - csharp
+  - vb
+  name: ContactFullName
+  nameWithType: AlarmData.ContactFullName
+  fullName: SuperOffice.WebApi.Data.AlarmData.ContactFullName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string ContactFullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactFullName As String
+  overload: SuperOffice.WebApi.Data.AlarmData.ContactFullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.AppointmentAgent
+  commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  isExternal: true
+  name: AppointmentAgent
+  nameWithType: AppointmentAgent
+  fullName: SuperOffice.WebApi.Agents.AppointmentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.AlarmData.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.#ctor
+  isExternal: true
+  name: AlarmData
+  nameWithType: AlarmData.AlarmData
+  fullName: SuperOffice.WebApi.Data.AlarmData.AlarmData
+- uid: SuperOffice.WebApi.Data.AlarmData.AppointmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: AlarmData.AppointmentId
+  fullName: SuperOffice.WebApi.Data.AlarmData.AppointmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.AlarmData.StartTime*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.StartTime
+  isExternal: true
+  name: StartTime
+  nameWithType: AlarmData.StartTime
+  fullName: SuperOffice.WebApi.Data.AlarmData.StartTime
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.AlarmData.EndDate*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.EndDate
+  isExternal: true
+  name: EndDate
+  nameWithType: AlarmData.EndDate
+  fullName: SuperOffice.WebApi.Data.AlarmData.EndDate
+- uid: SuperOffice.WebApi.Data.AlarmData.AlarmTime*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.AlarmTime
+  isExternal: true
+  name: AlarmTime
+  nameWithType: AlarmData.AlarmTime
+  fullName: SuperOffice.WebApi.Data.AlarmData.AlarmTime
+- uid: SuperOffice.WebApi.Data.AlarmData.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: AlarmData.PersonId
+  fullName: SuperOffice.WebApi.Data.AlarmData.PersonId
+- uid: SuperOffice.WebApi.Data.AlarmData.PersonFullName*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.PersonFullName
+  isExternal: true
+  name: PersonFullName
+  nameWithType: AlarmData.PersonFullName
+  fullName: SuperOffice.WebApi.Data.AlarmData.PersonFullName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.AlarmData.ContactName*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.ContactName
+  isExternal: true
+  name: ContactName
+  nameWithType: AlarmData.ContactName
+  fullName: SuperOffice.WebApi.Data.AlarmData.ContactName
+- uid: SuperOffice.WebApi.Data.AlarmData.ProjectId*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: AlarmData.ProjectId
+  fullName: SuperOffice.WebApi.Data.AlarmData.ProjectId
+- uid: SuperOffice.WebApi.Data.AlarmData.ProjectName*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.ProjectName
+  isExternal: true
+  name: ProjectName
+  nameWithType: AlarmData.ProjectName
+  fullName: SuperOffice.WebApi.Data.AlarmData.ProjectName
+- uid: SuperOffice.WebApi.Data.AlarmData.AppointmentText*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.AppointmentText
+  isExternal: true
+  name: AppointmentText
+  nameWithType: AlarmData.AppointmentText
+  fullName: SuperOffice.WebApi.Data.AlarmData.AppointmentText
+- uid: SuperOffice.WebApi.Data.AlarmData.SaleId*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: AlarmData.SaleId
+  fullName: SuperOffice.WebApi.Data.AlarmData.SaleId
+- uid: SuperOffice.WebApi.Data.AlarmData.SaleName*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.SaleName
+  isExternal: true
+  name: SaleName
+  nameWithType: AlarmData.SaleName
+  fullName: SuperOffice.WebApi.Data.AlarmData.SaleName
+- uid: SuperOffice.WebApi.Data.AlarmData.Location*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.Location
+  isExternal: true
+  name: Location
+  nameWithType: AlarmData.Location
+  fullName: SuperOffice.WebApi.Data.AlarmData.Location
+- uid: SuperOffice.WebApi.Data.AlarmData.AppointmentType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.AppointmentType_String
+  isExternal: true
+  name: AppointmentType_String
+  nameWithType: AlarmData.AppointmentType_String
+  fullName: SuperOffice.WebApi.Data.AlarmData.AppointmentType_String
+- uid: SuperOffice.WebApi.Data.AlarmData.AppointmentType
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.AppointmentType
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.AlarmData.AppointmentType*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.AppointmentType
+  isExternal: true
+  name: AppointmentType
+  nameWithType: AlarmData.AppointmentType
+  fullName: SuperOffice.WebApi.Data.AlarmData.AppointmentType
+- uid: SuperOffice.WebApi.Data.AlarmData.AppointmentType_String
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.AppointmentType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.AppointmentType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.AppointmentType}'
+  definition: System.Nullable`1
+  name: Nullable<AppointmentType>
+  nameWithType: Nullable<AppointmentType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.AppointmentType>
+  nameWithType.vb: Nullable(Of AppointmentType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.AppointmentType)
+  name.vb: Nullable(Of AppointmentType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.AppointmentType
+    name: AppointmentType
+    nameWithType: AppointmentType
+    fullName: SuperOffice.WebApi.Data.AppointmentType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.AppointmentType
+    name: AppointmentType
+    nameWithType: AppointmentType
+    fullName: SuperOffice.WebApi.Data.AppointmentType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.AlarmData.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: AlarmData.ContactId
+  fullName: SuperOffice.WebApi.Data.AlarmData.ContactId
+- uid: SuperOffice.WebApi.Data.AlarmData.AssignmentStatus_String*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.AssignmentStatus_String
+  isExternal: true
+  name: AssignmentStatus_String
+  nameWithType: AlarmData.AssignmentStatus_String
+  fullName: SuperOffice.WebApi.Data.AlarmData.AssignmentStatus_String
+- uid: SuperOffice.WebApi.Data.AlarmData.AssignmentStatus
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.AssignmentStatus
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.AlarmData.AssignmentStatus*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.AssignmentStatus
+  isExternal: true
+  name: AssignmentStatus
+  nameWithType: AlarmData.AssignmentStatus
+  fullName: SuperOffice.WebApi.Data.AlarmData.AssignmentStatus
+- uid: SuperOffice.WebApi.Data.AlarmData.AssignmentStatus_String
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.AssignmentStatus_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.AssignmentStatus}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.AssignmentStatus}'
+  definition: System.Nullable`1
+  name: Nullable<AssignmentStatus>
+  nameWithType: Nullable<AssignmentStatus>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.AssignmentStatus>
+  nameWithType.vb: Nullable(Of AssignmentStatus)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.AssignmentStatus)
+  name.vb: Nullable(Of AssignmentStatus)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.AssignmentStatus
+    name: AssignmentStatus
+    nameWithType: AssignmentStatus
+    fullName: SuperOffice.WebApi.Data.AssignmentStatus
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.AssignmentStatus
+    name: AssignmentStatus
+    nameWithType: AssignmentStatus
+    fullName: SuperOffice.WebApi.Data.AssignmentStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.AlarmData.InvitationStatus_String*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.InvitationStatus_String
+  isExternal: true
+  name: InvitationStatus_String
+  nameWithType: AlarmData.InvitationStatus_String
+  fullName: SuperOffice.WebApi.Data.AlarmData.InvitationStatus_String
+- uid: SuperOffice.WebApi.Data.AlarmData.InvitationStatus
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.InvitationStatus
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.AlarmData.InvitationStatus*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.InvitationStatus
+  isExternal: true
+  name: InvitationStatus
+  nameWithType: AlarmData.InvitationStatus
+  fullName: SuperOffice.WebApi.Data.AlarmData.InvitationStatus
+- uid: SuperOffice.WebApi.Data.AlarmData.InvitationStatus_String
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.InvitationStatus_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.InvitationStatus}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.InvitationStatus}'
+  definition: System.Nullable`1
+  name: Nullable<InvitationStatus>
+  nameWithType: Nullable<InvitationStatus>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.InvitationStatus>
+  nameWithType.vb: Nullable(Of InvitationStatus)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.InvitationStatus)
+  name.vb: Nullable(Of InvitationStatus)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.InvitationStatus
+    name: InvitationStatus
+    nameWithType: InvitationStatus
+    fullName: SuperOffice.WebApi.Data.InvitationStatus
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.InvitationStatus
+    name: InvitationStatus
+    nameWithType: InvitationStatus
+    fullName: SuperOffice.WebApi.Data.InvitationStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.AlarmData.BookingType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.BookingType_String
+  isExternal: true
+  name: BookingType_String
+  nameWithType: AlarmData.BookingType_String
+  fullName: SuperOffice.WebApi.Data.AlarmData.BookingType_String
+- uid: SuperOffice.WebApi.Data.AlarmData.BookingType
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.BookingType
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.AlarmData.BookingType*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.BookingType
+  isExternal: true
+  name: BookingType
+  nameWithType: AlarmData.BookingType
+  fullName: SuperOffice.WebApi.Data.AlarmData.BookingType
+- uid: SuperOffice.WebApi.Data.AlarmData.BookingType_String
+  commentId: P:SuperOffice.WebApi.Data.AlarmData.BookingType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.BookingType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.BookingType}'
+  definition: System.Nullable`1
+  name: Nullable<BookingType>
+  nameWithType: Nullable<BookingType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.BookingType>
+  nameWithType.vb: Nullable(Of BookingType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.BookingType)
+  name.vb: Nullable(Of BookingType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.BookingType
+    name: BookingType
+    nameWithType: BookingType
+    fullName: SuperOffice.WebApi.Data.BookingType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.BookingType
+    name: BookingType
+    nameWithType: BookingType
+    fullName: SuperOffice.WebApi.Data.BookingType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.AlarmData.FormalName*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.FormalName
+  isExternal: true
+  name: FormalName
+  nameWithType: AlarmData.FormalName
+  fullName: SuperOffice.WebApi.Data.AlarmData.FormalName
+- uid: SuperOffice.WebApi.Data.AlarmData.TaskName*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.TaskName
+  isExternal: true
+  name: TaskName
+  nameWithType: AlarmData.TaskName
+  fullName: SuperOffice.WebApi.Data.AlarmData.TaskName
+- uid: SuperOffice.WebApi.Data.AlarmData.ContactDepartment*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.ContactDepartment
+  isExternal: true
+  name: ContactDepartment
+  nameWithType: AlarmData.ContactDepartment
+  fullName: SuperOffice.WebApi.Data.AlarmData.ContactDepartment
+- uid: SuperOffice.WebApi.Data.AlarmData.ContactFullName*
+  commentId: Overload:SuperOffice.WebApi.Data.AlarmData.ContactFullName
+  isExternal: true
+  name: ContactFullName
+  nameWithType: AlarmData.ContactFullName
+  fullName: SuperOffice.WebApi.Data.AlarmData.ContactFullName

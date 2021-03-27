@@ -1,0 +1,1653 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.DataDispatcher
+  commentId: T:SuperOffice.Data.DataDispatcher
+  id: DataDispatcher
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.DataDispatcher.AddDataHandler(System.String,SuperOffice.Data.IDataHandler)
+  - SuperOffice.Data.DataDispatcher.CheckMandatoryData(System.String@)
+  - SuperOffice.Data.DataDispatcher.Clear
+  - SuperOffice.Data.DataDispatcher.ClearSyncData(System.String)
+  - SuperOffice.Data.DataDispatcher.DataHandlers
+  - SuperOffice.Data.DataDispatcher.Delete(System.String)
+  - SuperOffice.Data.DataDispatcher.GetFieldRight(System.String)
+  - SuperOffice.Data.DataDispatcher.GetTableRight(System.String)
+  - SuperOffice.Data.DataDispatcher.Item(System.String)
+  - SuperOffice.Data.DataDispatcher.Load(System.String,System.String)
+  - SuperOffice.Data.DataDispatcher.New
+  - SuperOffice.Data.DataDispatcher.New(System.String,System.String)
+  - SuperOffice.Data.DataDispatcher.OnBeforeDataBind
+  - SuperOffice.Data.DataDispatcher.OnBeforeValidate
+  - SuperOffice.Data.DataDispatcher.RemoveDataHandler(System.String)
+  - SuperOffice.Data.DataDispatcher.Save(System.String,System.Boolean@)
+  - SuperOffice.Data.DataDispatcher.Save(System.String,System.Boolean@,SuperOffice.Data.EventAction{SuperOffice.Data.IDataHandler,System.Boolean,System.Boolean,System.String,SuperOffice.CRM.Services.StringDictionary},SuperOffice.Data.EventAction{SuperOffice.Data.IDataHandler,System.Boolean,System.Boolean,System.String,SuperOffice.CRM.Services.StringDictionary})
+  - SuperOffice.Data.DataDispatcher.SetFieldRight(System.String,SuperOffice.CRM.Security.FieldRight)
+  - SuperOffice.Data.DataDispatcher.SetPropertyValue(System.Object,System.String,System.Object)
+  - SuperOffice.Data.DataDispatcher.SetTableRight(System.String,SuperOffice.CRM.Security.TableRight)
+  - SuperOffice.Data.DataDispatcher.SyncData(System.String)
+  - SuperOffice.Data.DataDispatcher.TryGetDataObjectData(System.String,System.Object@)
+  - SuperOffice.Data.DataDispatcher.TrySetDataObject(System.String,SuperOffice.Data.DataObject)
+  - SuperOffice.Data.DataDispatcher.TrySetDataObjectData(System.String,System.Object)
+  - SuperOffice.Data.DataDispatcher.TrySyncData(System.String,System.String@)
+  langs:
+  - csharp
+  - vb
+  name: DataDispatcher
+  nameWithType: DataDispatcher
+  fullName: SuperOffice.Data.DataDispatcher
+  type: Class
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nThe DataDispatcher id the glue between the data retrieved from the service layer\nand the controls used by the <see cref=\"!:PageBuilder\"></see> framework. It enables easy access to\ncarriers, fields and dictionaries.\nTo allow invalid data between posts we need the _soDataState to hold data. \nThe _soDataState acts as a common &apos;viewstate&apos; for all the controls.\nThe soDataState is untyped, and therefor allows the user to put in invalid data.\nThe data is syncronized on save when all data has been validated.\n"
+  syntax:
+    content: public class DataDispatcher
+    content.vb: Public Class DataDispatcher
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Data.DataDispatcher.AddDataHandler(System.String,SuperOffice.Data.IDataHandler)
+  commentId: M:SuperOffice.Data.DataDispatcher.AddDataHandler(System.String,SuperOffice.Data.IDataHandler)
+  id: AddDataHandler(System.String,SuperOffice.Data.IDataHandler)
+  parent: SuperOffice.Data.DataDispatcher
+  langs:
+  - csharp
+  - vb
+  name: AddDataHandler(String, IDataHandler)
+  nameWithType: DataDispatcher.AddDataHandler(String, IDataHandler)
+  fullName: SuperOffice.Data.DataDispatcher.AddDataHandler(System.String, SuperOffice.Data.IDataHandler)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nAdd DataHandler to the collection\n"
+  syntax:
+    content: public void AddDataHandler(string ID, IDataHandler DataHandler)
+    parameters:
+    - id: ID
+      type: System.String
+    - id: DataHandler
+      type: SuperOffice.Data.IDataHandler
+    content.vb: Public Sub AddDataHandler(ID As String, DataHandler As IDataHandler)
+  overload: SuperOffice.Data.DataDispatcher.AddDataHandler*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.DataDispatcher.RemoveDataHandler(System.String)
+  commentId: M:SuperOffice.Data.DataDispatcher.RemoveDataHandler(System.String)
+  id: RemoveDataHandler(System.String)
+  parent: SuperOffice.Data.DataDispatcher
+  langs:
+  - csharp
+  - vb
+  name: RemoveDataHandler(String)
+  nameWithType: DataDispatcher.RemoveDataHandler(String)
+  fullName: SuperOffice.Data.DataDispatcher.RemoveDataHandler(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nRemove the datahandler from the collection\n"
+  syntax:
+    content: public void RemoveDataHandler(string ID)
+    parameters:
+    - id: ID
+      type: System.String
+    content.vb: Public Sub RemoveDataHandler(ID As String)
+  overload: SuperOffice.Data.DataDispatcher.RemoveDataHandler*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.DataDispatcher.Clear
+  commentId: M:SuperOffice.Data.DataDispatcher.Clear
+  id: Clear
+  parent: SuperOffice.Data.DataDispatcher
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: DataDispatcher.Clear()
+  fullName: SuperOffice.Data.DataDispatcher.Clear()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nExecute new on all the datahandlers\n"
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear
+  overload: SuperOffice.Data.DataDispatcher.Clear*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.DataDispatcher.New
+  commentId: M:SuperOffice.Data.DataDispatcher.New
+  id: New
+  parent: SuperOffice.Data.DataDispatcher
+  langs:
+  - csharp
+  - vb
+  name: New()
+  nameWithType: DataDispatcher.New()
+  fullName: SuperOffice.Data.DataDispatcher.New()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nExecute new on all the datahandlers\n"
+  syntax:
+    content: public void New()
+    content.vb: Public Sub New
+  overload: SuperOffice.Data.DataDispatcher.New*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.DataDispatcher.CheckMandatoryData(System.String@)
+  commentId: M:SuperOffice.Data.DataDispatcher.CheckMandatoryData(System.String@)
+  id: CheckMandatoryData(System.String@)
+  parent: SuperOffice.Data.DataDispatcher
+  langs:
+  - csharp
+  - vb
+  name: CheckMandatoryData(out String)
+  nameWithType: DataDispatcher.CheckMandatoryData(out String)
+  fullName: SuperOffice.Data.DataDispatcher.CheckMandatoryData(out System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nChecks if carriers marked as mandatory can be populated on all datahandlers.\n<remarks>This method will trigger load on all carrires marked as mandatory.</remarks>\n<param name=\"reason\">Error messages from uninitialized data handlers</param>\n"
+  syntax:
+    content: public bool CheckMandatoryData(out string reason)
+    parameters:
+    - id: reason
+      type: System.String
+    return:
+      type: System.Boolean
+      description: False if there i uninitialized mandatory datahandlers
+    content.vb: Public Function CheckMandatoryData(ByRef reason As String) As Boolean
+  overload: SuperOffice.Data.DataDispatcher.CheckMandatoryData*
+  nameWithType.vb: DataDispatcher.CheckMandatoryData(ByRef String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.DataDispatcher.CheckMandatoryData(ByRef System.String)
+  name.vb: CheckMandatoryData(ByRef String)
+- uid: SuperOffice.Data.DataDispatcher.OnBeforeDataBind
+  commentId: M:SuperOffice.Data.DataDispatcher.OnBeforeDataBind
+  id: OnBeforeDataBind
+  parent: SuperOffice.Data.DataDispatcher
+  langs:
+  - csharp
+  - vb
+  name: OnBeforeDataBind()
+  nameWithType: DataDispatcher.OnBeforeDataBind()
+  fullName: SuperOffice.Data.DataDispatcher.OnBeforeDataBind()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nExecute OnBeforeDataBind on all the datahandlers\n"
+  syntax:
+    content: public void OnBeforeDataBind()
+    content.vb: Public Sub OnBeforeDataBind
+  overload: SuperOffice.Data.DataDispatcher.OnBeforeDataBind*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.DataDispatcher.OnBeforeValidate
+  commentId: M:SuperOffice.Data.DataDispatcher.OnBeforeValidate
+  id: OnBeforeValidate
+  parent: SuperOffice.Data.DataDispatcher
+  langs:
+  - csharp
+  - vb
+  name: OnBeforeValidate()
+  nameWithType: DataDispatcher.OnBeforeValidate()
+  fullName: SuperOffice.Data.DataDispatcher.OnBeforeValidate()
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nExecute OnBeforeValidate on all the datahandlers\n"
+  syntax:
+    content: public void OnBeforeValidate()
+    content.vb: Public Sub OnBeforeValidate
+  overload: SuperOffice.Data.DataDispatcher.OnBeforeValidate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.DataDispatcher.New(System.String,System.String)
+  commentId: M:SuperOffice.Data.DataDispatcher.New(System.String,System.String)
+  id: New(System.String,System.String)
+  parent: SuperOffice.Data.DataDispatcher
+  langs:
+  - csharp
+  - vb
+  name: New(String, String)
+  nameWithType: DataDispatcher.New(String, String)
+  fullName: SuperOffice.Data.DataDispatcher.New(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nExecute new on the datahandler\n"
+  syntax:
+    content: public void New(string DataHandlerId, string CarrierId)
+    parameters:
+    - id: DataHandlerId
+      type: System.String
+      description: The id of the datahandler
+    - id: CarrierId
+      type: System.String
+      description: The id of the carrier held by the datahandler
+    content.vb: Public Sub New(DataHandlerId As String, CarrierId As String)
+  overload: SuperOffice.Data.DataDispatcher.New*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.DataDispatcher.Load(System.String,System.String)
+  commentId: M:SuperOffice.Data.DataDispatcher.Load(System.String,System.String)
+  id: Load(System.String,System.String)
+  parent: SuperOffice.Data.DataDispatcher
+  langs:
+  - csharp
+  - vb
+  name: Load(String, String)
+  nameWithType: DataDispatcher.Load(String, String)
+  fullName: SuperOffice.Data.DataDispatcher.Load(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nExecute load on the datahandler\n"
+  syntax:
+    content: public void Load(string DataHandlerId, string CarrierId)
+    parameters:
+    - id: DataHandlerId
+      type: System.String
+      description: The id of the datahandler
+    - id: CarrierId
+      type: System.String
+      description: The id of ther carrier held by the datahandler
+    content.vb: Public Sub Load(DataHandlerId As String, CarrierId As String)
+  overload: SuperOffice.Data.DataDispatcher.Load*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.DataDispatcher.Save(System.String,System.Boolean@)
+  commentId: M:SuperOffice.Data.DataDispatcher.Save(System.String,System.Boolean@)
+  id: Save(System.String,System.Boolean@)
+  parent: SuperOffice.Data.DataDispatcher
+  langs:
+  - csharp
+  - vb
+  name: Save(String, ref Boolean)
+  nameWithType: DataDispatcher.Save(String, ref Boolean)
+  fullName: SuperOffice.Data.DataDispatcher.Save(System.String, ref System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: public object Save(string DataHandlerId, ref bool wasBlocked)
+    parameters:
+    - id: DataHandlerId
+      type: System.String
+    - id: wasBlocked
+      type: System.Boolean
+    return:
+      type: System.Object
+    content.vb: Public Function Save(DataHandlerId As String, ByRef wasBlocked As Boolean) As Object
+  overload: SuperOffice.Data.DataDispatcher.Save*
+  nameWithType.vb: DataDispatcher.Save(String, ByRef Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.DataDispatcher.Save(System.String, ByRef System.Boolean)
+  name.vb: Save(String, ByRef Boolean)
+- uid: SuperOffice.Data.DataDispatcher.Save(System.String,System.Boolean@,SuperOffice.Data.EventAction{SuperOffice.Data.IDataHandler,System.Boolean,System.Boolean,System.String,SuperOffice.CRM.Services.StringDictionary},SuperOffice.Data.EventAction{SuperOffice.Data.IDataHandler,System.Boolean,System.Boolean,System.String,SuperOffice.CRM.Services.StringDictionary})
+  commentId: M:SuperOffice.Data.DataDispatcher.Save(System.String,System.Boolean@,SuperOffice.Data.EventAction{SuperOffice.Data.IDataHandler,System.Boolean,System.Boolean,System.String,SuperOffice.CRM.Services.StringDictionary},SuperOffice.Data.EventAction{SuperOffice.Data.IDataHandler,System.Boolean,System.Boolean,System.String,SuperOffice.CRM.Services.StringDictionary})
+  id: Save(System.String,System.Boolean@,SuperOffice.Data.EventAction{SuperOffice.Data.IDataHandler,System.Boolean,System.Boolean,System.String,SuperOffice.CRM.Services.StringDictionary},SuperOffice.Data.EventAction{SuperOffice.Data.IDataHandler,System.Boolean,System.Boolean,System.String,SuperOffice.CRM.Services.StringDictionary})
+  parent: SuperOffice.Data.DataDispatcher
+  langs:
+  - csharp
+  - vb
+  name: Save(String, ref Boolean, EventAction<IDataHandler, Boolean, Boolean, String, StringDictionary>, EventAction<IDataHandler, Boolean, Boolean, String, StringDictionary>)
+  nameWithType: DataDispatcher.Save(String, ref Boolean, EventAction<IDataHandler, Boolean, Boolean, String, StringDictionary>, EventAction<IDataHandler, Boolean, Boolean, String, StringDictionary>)
+  fullName: SuperOffice.Data.DataDispatcher.Save(System.String, ref System.Boolean, SuperOffice.Data.EventAction<SuperOffice.Data.IDataHandler, System.Boolean, System.Boolean, System.String, SuperOffice.CRM.Services.StringDictionary>, SuperOffice.Data.EventAction<SuperOffice.Data.IDataHandler, System.Boolean, System.Boolean, System.String, SuperOffice.CRM.Services.StringDictionary>)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nExecute save on the datahandler\n"
+  syntax:
+    content: public object Save(string DataHandlerId, ref bool wasBlocked, EventAction<IDataHandler, bool, bool, string, StringDictionary> BeforeSave, EventAction<IDataHandler, bool, bool, string, StringDictionary> AfterSave)
+    parameters:
+    - id: DataHandlerId
+      type: System.String
+      description: The id of the datahandler to save
+    - id: wasBlocked
+      type: System.Boolean
+    - id: BeforeSave
+      type: SuperOffice.Data.EventAction{SuperOffice.Data.IDataHandler,System.Boolean,System.Boolean,System.String,SuperOffice.CRM.Services.StringDictionary}
+    - id: AfterSave
+      type: SuperOffice.Data.EventAction{SuperOffice.Data.IDataHandler,System.Boolean,System.Boolean,System.String,SuperOffice.CRM.Services.StringDictionary}
+    return:
+      type: System.Object
+    content.vb: Public Function Save(DataHandlerId As String, ByRef wasBlocked As Boolean, BeforeSave As EventAction(Of IDataHandler, Boolean, Boolean, String, StringDictionary), AfterSave As EventAction(Of IDataHandler, Boolean, Boolean, String, StringDictionary)) As Object
+  overload: SuperOffice.Data.DataDispatcher.Save*
+  nameWithType.vb: DataDispatcher.Save(String, ByRef Boolean, EventAction(Of IDataHandler, Boolean, Boolean, String, StringDictionary), EventAction(Of IDataHandler, Boolean, Boolean, String, StringDictionary))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.DataDispatcher.Save(System.String, ByRef System.Boolean, SuperOffice.Data.EventAction(Of SuperOffice.Data.IDataHandler, System.Boolean, System.Boolean, System.String, SuperOffice.CRM.Services.StringDictionary), SuperOffice.Data.EventAction(Of SuperOffice.Data.IDataHandler, System.Boolean, System.Boolean, System.String, SuperOffice.CRM.Services.StringDictionary))
+  name.vb: Save(String, ByRef Boolean, EventAction(Of IDataHandler, Boolean, Boolean, String, StringDictionary), EventAction(Of IDataHandler, Boolean, Boolean, String, StringDictionary))
+- uid: SuperOffice.Data.DataDispatcher.Delete(System.String)
+  commentId: M:SuperOffice.Data.DataDispatcher.Delete(System.String)
+  id: Delete(System.String)
+  parent: SuperOffice.Data.DataDispatcher
+  langs:
+  - csharp
+  - vb
+  name: Delete(String)
+  nameWithType: DataDispatcher.Delete(String)
+  fullName: SuperOffice.Data.DataDispatcher.Delete(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nExecute delete on the datahandler\n"
+  syntax:
+    content: public void Delete(string DataHandlerId)
+    parameters:
+    - id: DataHandlerId
+      type: System.String
+      description: The id of the datahandler to delete
+    content.vb: Public Sub Delete(DataHandlerId As String)
+  overload: SuperOffice.Data.DataDispatcher.Delete*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.DataDispatcher.TryGetDataObjectData(System.String,System.Object@)
+  commentId: M:SuperOffice.Data.DataDispatcher.TryGetDataObjectData(System.String,System.Object@)
+  id: TryGetDataObjectData(System.String,System.Object@)
+  parent: SuperOffice.Data.DataDispatcher
+  langs:
+  - csharp
+  - vb
+  name: TryGetDataObjectData(String, out Object)
+  nameWithType: DataDispatcher.TryGetDataObjectData(String, out Object)
+  fullName: SuperOffice.Data.DataDispatcher.TryGetDataObjectData(System.String, out System.Object)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nTry to get dataobject. If index not present, null is returned\n"
+  syntax:
+    content: public void TryGetDataObjectData(string index, out object value)
+    parameters:
+    - id: index
+      type: System.String
+      description: The index
+    - id: value
+      type: System.Object
+      description: Out value. Null if index not present.
+    content.vb: Public Sub TryGetDataObjectData(index As String, ByRef value As Object)
+  overload: SuperOffice.Data.DataDispatcher.TryGetDataObjectData*
+  nameWithType.vb: DataDispatcher.TryGetDataObjectData(String, ByRef Object)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.DataDispatcher.TryGetDataObjectData(System.String, ByRef System.Object)
+  name.vb: TryGetDataObjectData(String, ByRef Object)
+- uid: SuperOffice.Data.DataDispatcher.TrySetDataObjectData(System.String,System.Object)
+  commentId: M:SuperOffice.Data.DataDispatcher.TrySetDataObjectData(System.String,System.Object)
+  id: TrySetDataObjectData(System.String,System.Object)
+  parent: SuperOffice.Data.DataDispatcher
+  langs:
+  - csharp
+  - vb
+  name: TrySetDataObjectData(String, Object)
+  nameWithType: DataDispatcher.TrySetDataObjectData(String, Object)
+  fullName: SuperOffice.Data.DataDispatcher.TrySetDataObjectData(System.String, System.Object)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nTry to set dataobject. If index not present, nothing is done\n"
+  syntax:
+    content: public void TrySetDataObjectData(string index, object value)
+    parameters:
+    - id: index
+      type: System.String
+      description: The index
+    - id: value
+      type: System.Object
+      description: value to set
+    content.vb: Public Sub TrySetDataObjectData(index As String, value As Object)
+  overload: SuperOffice.Data.DataDispatcher.TrySetDataObjectData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.DataDispatcher.TrySetDataObject(System.String,SuperOffice.Data.DataObject)
+  commentId: M:SuperOffice.Data.DataDispatcher.TrySetDataObject(System.String,SuperOffice.Data.DataObject)
+  id: TrySetDataObject(System.String,SuperOffice.Data.DataObject)
+  parent: SuperOffice.Data.DataDispatcher
+  langs:
+  - csharp
+  - vb
+  name: TrySetDataObject(String, DataObject)
+  nameWithType: DataDispatcher.TrySetDataObject(String, DataObject)
+  fullName: SuperOffice.Data.DataDispatcher.TrySetDataObject(System.String, SuperOffice.Data.DataObject)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nTry to set dataobject directly. \n"
+  syntax:
+    content: public void TrySetDataObject(string index, DataObject dataObject)
+    parameters:
+    - id: index
+      type: System.String
+    - id: dataObject
+      type: SuperOffice.Data.DataObject
+    content.vb: Public Sub TrySetDataObject(index As String, dataObject As DataObject)
+  overload: SuperOffice.Data.DataDispatcher.TrySetDataObject*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.DataDispatcher.GetFieldRight(System.String)
+  commentId: M:SuperOffice.Data.DataDispatcher.GetFieldRight(System.String)
+  id: GetFieldRight(System.String)
+  parent: SuperOffice.Data.DataDispatcher
+  langs:
+  - csharp
+  - vb
+  name: GetFieldRight(String)
+  nameWithType: DataDispatcher.GetFieldRight(String)
+  fullName: SuperOffice.Data.DataDispatcher.GetFieldRight(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nGets the fieldright from a datasourcename.\n"
+  syntax:
+    content: public FieldRight GetFieldRight(string index)
+    parameters:
+    - id: index
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Security.FieldRight
+      description: FieldRight
+    content.vb: Public Function GetFieldRight(index As String) As FieldRight
+  overload: SuperOffice.Data.DataDispatcher.GetFieldRight*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.DataDispatcher.SetFieldRight(System.String,SuperOffice.CRM.Security.FieldRight)
+  commentId: M:SuperOffice.Data.DataDispatcher.SetFieldRight(System.String,SuperOffice.CRM.Security.FieldRight)
+  id: SetFieldRight(System.String,SuperOffice.CRM.Security.FieldRight)
+  parent: SuperOffice.Data.DataDispatcher
+  langs:
+  - csharp
+  - vb
+  name: SetFieldRight(String, FieldRight)
+  nameWithType: DataDispatcher.SetFieldRight(String, FieldRight)
+  fullName: SuperOffice.Data.DataDispatcher.SetFieldRight(System.String, SuperOffice.CRM.Security.FieldRight)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nSets the fieldright from a datasourcename.\n"
+  syntax:
+    content: public void SetFieldRight(string index, FieldRight fieldRight)
+    parameters:
+    - id: index
+      type: System.String
+    - id: fieldRight
+      type: SuperOffice.CRM.Security.FieldRight
+    content.vb: Public Sub SetFieldRight(index As String, fieldRight As FieldRight)
+  overload: SuperOffice.Data.DataDispatcher.SetFieldRight*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.DataDispatcher.SetTableRight(System.String,SuperOffice.CRM.Security.TableRight)
+  commentId: M:SuperOffice.Data.DataDispatcher.SetTableRight(System.String,SuperOffice.CRM.Security.TableRight)
+  id: SetTableRight(System.String,SuperOffice.CRM.Security.TableRight)
+  parent: SuperOffice.Data.DataDispatcher
+  langs:
+  - csharp
+  - vb
+  name: SetTableRight(String, TableRight)
+  nameWithType: DataDispatcher.SetTableRight(String, TableRight)
+  fullName: SuperOffice.Data.DataDispatcher.SetTableRight(System.String, SuperOffice.CRM.Security.TableRight)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nSets the tableright from a datasourcename.\n"
+  syntax:
+    content: public void SetTableRight(string index, TableRight tableRight)
+    parameters:
+    - id: index
+      type: System.String
+    - id: tableRight
+      type: SuperOffice.CRM.Security.TableRight
+    content.vb: Public Sub SetTableRight(index As String, tableRight As TableRight)
+  overload: SuperOffice.Data.DataDispatcher.SetTableRight*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.DataDispatcher.GetTableRight(System.String)
+  commentId: M:SuperOffice.Data.DataDispatcher.GetTableRight(System.String)
+  id: GetTableRight(System.String)
+  parent: SuperOffice.Data.DataDispatcher
+  langs:
+  - csharp
+  - vb
+  name: GetTableRight(String)
+  nameWithType: DataDispatcher.GetTableRight(String)
+  fullName: SuperOffice.Data.DataDispatcher.GetTableRight(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nGets the tableright from a datasourcename\n"
+  syntax:
+    content: public TableRight GetTableRight(string index)
+    parameters:
+    - id: index
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Security.TableRight
+      description: TableRight
+    content.vb: Public Function GetTableRight(index As String) As TableRight
+  overload: SuperOffice.Data.DataDispatcher.GetTableRight*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.DataDispatcher.ClearSyncData(System.String)
+  commentId: M:SuperOffice.Data.DataDispatcher.ClearSyncData(System.String)
+  id: ClearSyncData(System.String)
+  parent: SuperOffice.Data.DataDispatcher
+  langs:
+  - csharp
+  - vb
+  name: ClearSyncData(String)
+  nameWithType: DataDispatcher.ClearSyncData(String)
+  fullName: SuperOffice.Data.DataDispatcher.ClearSyncData(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nClears data from the _soDataState. Use the index to specify the level of which data to clear.\n<example>\n&apos;MyDataHandler.MyEntity.Description&apos; will clear the Description property.\n&apos;MyDataHandler.MyEntity&apos; will clear all properties on the MyEntity.\n</example>\n"
+  syntax:
+    content: public void ClearSyncData(string index)
+    parameters:
+    - id: index
+      type: System.String
+      description: 'The index used to clear the data. '
+    content.vb: Public Sub ClearSyncData(index As String)
+  overload: SuperOffice.Data.DataDispatcher.ClearSyncData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.DataDispatcher.SyncData(System.String)
+  commentId: M:SuperOffice.Data.DataDispatcher.SyncData(System.String)
+  id: SyncData(System.String)
+  parent: SuperOffice.Data.DataDispatcher
+  langs:
+  - csharp
+  - vb
+  name: SyncData(String)
+  nameWithType: DataDispatcher.SyncData(String)
+  fullName: SuperOffice.Data.DataDispatcher.SyncData(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nSyncs data from the _soDataState. Use the index to specify the level of which data to sync.\n<example>\n&apos;MyDataHandler.MyEntity.Description&apos; will sync the Description property.\n&apos;MyDataHandler.MyEntity&apos; will sync all properties on the MyEntity.\n</example>\n"
+  syntax:
+    content: public void SyncData(string index)
+    parameters:
+    - id: index
+      type: System.String
+      description: 'The index used to sync the data. '
+    content.vb: Public Sub SyncData(index As String)
+  overload: SuperOffice.Data.DataDispatcher.SyncData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.DataDispatcher.TrySyncData(System.String,System.String@)
+  commentId: M:SuperOffice.Data.DataDispatcher.TrySyncData(System.String,System.String@)
+  id: TrySyncData(System.String,System.String@)
+  parent: SuperOffice.Data.DataDispatcher
+  langs:
+  - csharp
+  - vb
+  name: TrySyncData(String, out String)
+  nameWithType: DataDispatcher.TrySyncData(String, out String)
+  fullName: SuperOffice.Data.DataDispatcher.TrySyncData(System.String, out System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nSyncs data from the _soDataState. Use the index to specify the level of which data to sync.\n<example>\n&apos;MyDataHandler.MyEntity.Description&apos; will sync the Description property.\n&apos;MyDataHandler.MyEntity&apos; will sync all properties on the MyEntity.\n</example>\n"
+  syntax:
+    content: public bool TrySyncData(string index, out string errorMessage)
+    parameters:
+    - id: index
+      type: System.String
+      description: 'The index used to sync the data. '
+    - id: errorMessage
+      type: System.String
+      description: Contains the error message if the sync failed.
+    return:
+      type: System.Boolean
+      description: False if the sync failed, otherwise true
+    content.vb: Public Function TrySyncData(index As String, ByRef errorMessage As String) As Boolean
+  overload: SuperOffice.Data.DataDispatcher.TrySyncData*
+  nameWithType.vb: DataDispatcher.TrySyncData(String, ByRef String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.DataDispatcher.TrySyncData(System.String, ByRef System.String)
+  name.vb: TrySyncData(String, ByRef String)
+- uid: SuperOffice.Data.DataDispatcher.SetPropertyValue(System.Object,System.String,System.Object)
+  commentId: M:SuperOffice.Data.DataDispatcher.SetPropertyValue(System.Object,System.String,System.Object)
+  id: SetPropertyValue(System.Object,System.String,System.Object)
+  parent: SuperOffice.Data.DataDispatcher
+  langs:
+  - csharp
+  - vb
+  name: SetPropertyValue(Object, String, Object)
+  nameWithType: DataDispatcher.SetPropertyValue(Object, String, Object)
+  fullName: SuperOffice.Data.DataDispatcher.SetPropertyValue(System.Object, System.String, System.Object)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nSets a property value based on an index string.\n"
+  syntax:
+    content: public static void SetPropertyValue(object dataObject, string index, object value)
+    parameters:
+    - id: dataObject
+      type: System.Object
+      description: The dataobject that holdes the property
+    - id: index
+      type: System.String
+      description: The index of the property
+    - id: value
+      type: System.Object
+      description: The new property value
+    content.vb: Public Shared Sub SetPropertyValue(dataObject As Object, index As String, value As Object)
+  overload: SuperOffice.Data.DataDispatcher.SetPropertyValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.DataDispatcher.DataHandlers
+  commentId: P:SuperOffice.Data.DataDispatcher.DataHandlers
+  id: DataHandlers
+  parent: SuperOffice.Data.DataDispatcher
+  langs:
+  - csharp
+  - vb
+  name: DataHandlers
+  nameWithType: DataDispatcher.DataHandlers
+  fullName: SuperOffice.Data.DataDispatcher.DataHandlers
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nGet a collection of datahandlers\n"
+  syntax:
+    content: public Dictionary<string, IDataHandler> DataHandlers { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,SuperOffice.Data.IDataHandler}
+    content.vb: Public ReadOnly Property DataHandlers As Dictionary(Of String, IDataHandler)
+  overload: SuperOffice.Data.DataDispatcher.DataHandlers*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.DataDispatcher.Item(System.String)
+  commentId: P:SuperOffice.Data.DataDispatcher.Item(System.String)
+  id: Item(System.String)
+  parent: SuperOffice.Data.DataDispatcher
+  langs:
+  - csharp
+  - vb
+  name: Item[String]
+  nameWithType: DataDispatcher.Item[String]
+  fullName: SuperOffice.Data.DataDispatcher.Item[System.String]
+  type: Property
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nThe DataObject is returned base on the index. if the index is not found, null is returned\n"
+  syntax:
+    content: public DataObject this[string index] { get; set; }
+    parameters:
+    - id: index
+      type: System.String
+    return:
+      type: SuperOffice.Data.DataObject
+    content.vb: Public Property Item(index As String) As DataObject
+  overload: SuperOffice.Data.DataDispatcher.Item*
+  nameWithType.vb: DataDispatcher.Item(String)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.DataDispatcher.Item(System.String)
+  name.vb: Item(String)
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.DataDispatcher.AddDataHandler*
+  commentId: Overload:SuperOffice.Data.DataDispatcher.AddDataHandler
+  isExternal: true
+  name: AddDataHandler
+  nameWithType: DataDispatcher.AddDataHandler
+  fullName: SuperOffice.Data.DataDispatcher.AddDataHandler
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.IDataHandler
+  commentId: T:SuperOffice.Data.IDataHandler
+  parent: SuperOffice.Data
+  isExternal: true
+  name: IDataHandler
+  nameWithType: IDataHandler
+  fullName: SuperOffice.Data.IDataHandler
+- uid: SuperOffice.Data.DataDispatcher.RemoveDataHandler*
+  commentId: Overload:SuperOffice.Data.DataDispatcher.RemoveDataHandler
+  isExternal: true
+  name: RemoveDataHandler
+  nameWithType: DataDispatcher.RemoveDataHandler
+  fullName: SuperOffice.Data.DataDispatcher.RemoveDataHandler
+- uid: SuperOffice.Data.DataDispatcher.Clear*
+  commentId: Overload:SuperOffice.Data.DataDispatcher.Clear
+  isExternal: true
+  name: Clear
+  nameWithType: DataDispatcher.Clear
+  fullName: SuperOffice.Data.DataDispatcher.Clear
+- uid: SuperOffice.Data.DataDispatcher.New*
+  commentId: Overload:SuperOffice.Data.DataDispatcher.New
+  isExternal: true
+  name: New
+  nameWithType: DataDispatcher.New
+  fullName: SuperOffice.Data.DataDispatcher.New
+- uid: SuperOffice.Data.DataDispatcher.CheckMandatoryData*
+  commentId: Overload:SuperOffice.Data.DataDispatcher.CheckMandatoryData
+  isExternal: true
+  name: CheckMandatoryData
+  nameWithType: DataDispatcher.CheckMandatoryData
+  fullName: SuperOffice.Data.DataDispatcher.CheckMandatoryData
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Data.DataDispatcher.OnBeforeDataBind*
+  commentId: Overload:SuperOffice.Data.DataDispatcher.OnBeforeDataBind
+  isExternal: true
+  name: OnBeforeDataBind
+  nameWithType: DataDispatcher.OnBeforeDataBind
+  fullName: SuperOffice.Data.DataDispatcher.OnBeforeDataBind
+- uid: SuperOffice.Data.DataDispatcher.OnBeforeValidate*
+  commentId: Overload:SuperOffice.Data.DataDispatcher.OnBeforeValidate
+  isExternal: true
+  name: OnBeforeValidate
+  nameWithType: DataDispatcher.OnBeforeValidate
+  fullName: SuperOffice.Data.DataDispatcher.OnBeforeValidate
+- uid: SuperOffice.Data.DataDispatcher.Load*
+  commentId: Overload:SuperOffice.Data.DataDispatcher.Load
+  isExternal: true
+  name: Load
+  nameWithType: DataDispatcher.Load
+  fullName: SuperOffice.Data.DataDispatcher.Load
+- uid: SuperOffice.Data.DataDispatcher.Save*
+  commentId: Overload:SuperOffice.Data.DataDispatcher.Save
+  isExternal: true
+  name: Save
+  nameWithType: DataDispatcher.Save
+  fullName: SuperOffice.Data.DataDispatcher.Save
+- uid: SuperOffice.Data.EventAction{SuperOffice.Data.IDataHandler,System.Boolean,System.Boolean,System.String,SuperOffice.CRM.Services.StringDictionary}
+  commentId: T:SuperOffice.Data.EventAction{SuperOffice.Data.IDataHandler,System.Boolean,System.Boolean,System.String,SuperOffice.CRM.Services.StringDictionary}
+  parent: SuperOffice.Data
+  definition: SuperOffice.Data.EventAction`5
+  name: EventAction<IDataHandler, Boolean, Boolean, String, StringDictionary>
+  nameWithType: EventAction<IDataHandler, Boolean, Boolean, String, StringDictionary>
+  fullName: SuperOffice.Data.EventAction<SuperOffice.Data.IDataHandler, System.Boolean, System.Boolean, System.String, SuperOffice.CRM.Services.StringDictionary>
+  nameWithType.vb: EventAction(Of IDataHandler, Boolean, Boolean, String, StringDictionary)
+  fullName.vb: SuperOffice.Data.EventAction(Of SuperOffice.Data.IDataHandler, System.Boolean, System.Boolean, System.String, SuperOffice.CRM.Services.StringDictionary)
+  name.vb: EventAction(Of IDataHandler, Boolean, Boolean, String, StringDictionary)
+  spec.csharp:
+  - uid: SuperOffice.Data.EventAction`5
+    name: EventAction
+    nameWithType: EventAction
+    fullName: SuperOffice.Data.EventAction
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.IDataHandler
+    name: IDataHandler
+    nameWithType: IDataHandler
+    fullName: SuperOffice.Data.IDataHandler
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.StringDictionary
+    name: StringDictionary
+    nameWithType: StringDictionary
+    fullName: SuperOffice.CRM.Services.StringDictionary
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.EventAction`5
+    name: EventAction
+    nameWithType: EventAction
+    fullName: SuperOffice.Data.EventAction
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.IDataHandler
+    name: IDataHandler
+    nameWithType: IDataHandler
+    fullName: SuperOffice.Data.IDataHandler
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.StringDictionary
+    name: StringDictionary
+    nameWithType: StringDictionary
+    fullName: SuperOffice.CRM.Services.StringDictionary
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.EventAction`5
+  commentId: T:SuperOffice.Data.EventAction`5
+  isExternal: true
+  name: EventAction<T1, T2, T3, T4, T5>
+  nameWithType: EventAction<T1, T2, T3, T4, T5>
+  fullName: SuperOffice.Data.EventAction<T1, T2, T3, T4, T5>
+  nameWithType.vb: EventAction(Of T1, T2, T3, T4, T5)
+  fullName.vb: SuperOffice.Data.EventAction(Of T1, T2, T3, T4, T5)
+  name.vb: EventAction(Of T1, T2, T3, T4, T5)
+  spec.csharp:
+  - uid: SuperOffice.Data.EventAction`5
+    name: EventAction
+    nameWithType: EventAction
+    fullName: SuperOffice.Data.EventAction
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T3
+    nameWithType: T3
+    fullName: T3
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T4
+    nameWithType: T4
+    fullName: T4
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T5
+    nameWithType: T5
+    fullName: T5
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.EventAction`5
+    name: EventAction
+    nameWithType: EventAction
+    fullName: SuperOffice.Data.EventAction
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T3
+    nameWithType: T3
+    fullName: T3
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T4
+    nameWithType: T4
+    fullName: T4
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T5
+    nameWithType: T5
+    fullName: T5
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.DataDispatcher.Delete*
+  commentId: Overload:SuperOffice.Data.DataDispatcher.Delete
+  isExternal: true
+  name: Delete
+  nameWithType: DataDispatcher.Delete
+  fullName: SuperOffice.Data.DataDispatcher.Delete
+- uid: SuperOffice.Data.DataDispatcher.TryGetDataObjectData*
+  commentId: Overload:SuperOffice.Data.DataDispatcher.TryGetDataObjectData
+  isExternal: true
+  name: TryGetDataObjectData
+  nameWithType: DataDispatcher.TryGetDataObjectData
+  fullName: SuperOffice.Data.DataDispatcher.TryGetDataObjectData
+- uid: SuperOffice.Data.DataDispatcher.TrySetDataObjectData*
+  commentId: Overload:SuperOffice.Data.DataDispatcher.TrySetDataObjectData
+  isExternal: true
+  name: TrySetDataObjectData
+  nameWithType: DataDispatcher.TrySetDataObjectData
+  fullName: SuperOffice.Data.DataDispatcher.TrySetDataObjectData
+- uid: SuperOffice.Data.DataDispatcher.TrySetDataObject*
+  commentId: Overload:SuperOffice.Data.DataDispatcher.TrySetDataObject
+  isExternal: true
+  name: TrySetDataObject
+  nameWithType: DataDispatcher.TrySetDataObject
+  fullName: SuperOffice.Data.DataDispatcher.TrySetDataObject
+- uid: SuperOffice.Data.DataObject
+  commentId: T:SuperOffice.Data.DataObject
+  parent: SuperOffice.Data
+  isExternal: true
+  name: DataObject
+  nameWithType: DataObject
+  fullName: SuperOffice.Data.DataObject
+- uid: SuperOffice.Data.DataDispatcher.GetFieldRight*
+  commentId: Overload:SuperOffice.Data.DataDispatcher.GetFieldRight
+  isExternal: true
+  name: GetFieldRight
+  nameWithType: DataDispatcher.GetFieldRight
+  fullName: SuperOffice.Data.DataDispatcher.GetFieldRight
+- uid: SuperOffice.CRM.Security.FieldRight
+  isExternal: true
+  name: FieldRight
+  nameWithType: FieldRight
+  fullName: SuperOffice.CRM.Security.FieldRight
+- uid: SuperOffice.Data.DataDispatcher.SetFieldRight*
+  commentId: Overload:SuperOffice.Data.DataDispatcher.SetFieldRight
+  isExternal: true
+  name: SetFieldRight
+  nameWithType: DataDispatcher.SetFieldRight
+  fullName: SuperOffice.Data.DataDispatcher.SetFieldRight
+- uid: SuperOffice.Data.DataDispatcher.SetTableRight*
+  commentId: Overload:SuperOffice.Data.DataDispatcher.SetTableRight
+  isExternal: true
+  name: SetTableRight
+  nameWithType: DataDispatcher.SetTableRight
+  fullName: SuperOffice.Data.DataDispatcher.SetTableRight
+- uid: SuperOffice.CRM.Security.TableRight
+  isExternal: true
+  name: TableRight
+  nameWithType: TableRight
+  fullName: SuperOffice.CRM.Security.TableRight
+- uid: SuperOffice.Data.DataDispatcher.GetTableRight*
+  commentId: Overload:SuperOffice.Data.DataDispatcher.GetTableRight
+  isExternal: true
+  name: GetTableRight
+  nameWithType: DataDispatcher.GetTableRight
+  fullName: SuperOffice.Data.DataDispatcher.GetTableRight
+- uid: SuperOffice.Data.DataDispatcher.ClearSyncData*
+  commentId: Overload:SuperOffice.Data.DataDispatcher.ClearSyncData
+  isExternal: true
+  name: ClearSyncData
+  nameWithType: DataDispatcher.ClearSyncData
+  fullName: SuperOffice.Data.DataDispatcher.ClearSyncData
+- uid: SuperOffice.Data.DataDispatcher.SyncData*
+  commentId: Overload:SuperOffice.Data.DataDispatcher.SyncData
+  isExternal: true
+  name: SyncData
+  nameWithType: DataDispatcher.SyncData
+  fullName: SuperOffice.Data.DataDispatcher.SyncData
+- uid: SuperOffice.Data.DataDispatcher.TrySyncData*
+  commentId: Overload:SuperOffice.Data.DataDispatcher.TrySyncData
+  isExternal: true
+  name: TrySyncData
+  nameWithType: DataDispatcher.TrySyncData
+  fullName: SuperOffice.Data.DataDispatcher.TrySyncData
+- uid: SuperOffice.Data.DataDispatcher.SetPropertyValue*
+  commentId: Overload:SuperOffice.Data.DataDispatcher.SetPropertyValue
+  isExternal: true
+  name: SetPropertyValue
+  nameWithType: DataDispatcher.SetPropertyValue
+  fullName: SuperOffice.Data.DataDispatcher.SetPropertyValue
+- uid: SuperOffice.Data.DataDispatcher.DataHandlers*
+  commentId: Overload:SuperOffice.Data.DataDispatcher.DataHandlers
+  isExternal: true
+  name: DataHandlers
+  nameWithType: DataDispatcher.DataHandlers
+  fullName: SuperOffice.Data.DataDispatcher.DataHandlers
+- uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.Data.IDataHandler}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.Data.IDataHandler}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, IDataHandler>
+  nameWithType: Dictionary<String, IDataHandler>
+  fullName: System.Collections.Generic.Dictionary<System.String, SuperOffice.Data.IDataHandler>
+  nameWithType.vb: Dictionary(Of String, IDataHandler)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, SuperOffice.Data.IDataHandler)
+  name.vb: Dictionary(Of String, IDataHandler)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.IDataHandler
+    name: IDataHandler
+    nameWithType: IDataHandler
+    fullName: SuperOffice.Data.IDataHandler
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.IDataHandler
+    name: IDataHandler
+    nameWithType: IDataHandler
+    fullName: SuperOffice.Data.IDataHandler
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Data.DataDispatcher.Item*
+  commentId: Overload:SuperOffice.Data.DataDispatcher.Item
+  isExternal: true
+  name: Item
+  nameWithType: DataDispatcher.Item
+  fullName: SuperOffice.Data.DataDispatcher.Item

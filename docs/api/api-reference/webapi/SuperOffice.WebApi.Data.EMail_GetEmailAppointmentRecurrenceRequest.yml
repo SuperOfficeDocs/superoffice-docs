@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRecurrenceRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRecurrenceRequest
+  id: EMail_GetEmailAppointmentRecurrenceRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRecurrenceRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRecurrenceRequest.MailItemId
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetEmailAppointmentRecurrenceRequest
+  nameWithType: EMail_GetEmailAppointmentRecurrenceRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRecurrenceRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_GetEmailAppointmentRecurrenceRequest : Object'
+    content.vb: >-
+      Public Class EMail_GetEmailAppointmentRecurrenceRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRecurrenceRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRecurrenceRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRecurrenceRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetEmailAppointmentRecurrenceRequest()
+  nameWithType: EMail_GetEmailAppointmentRecurrenceRequest.EMail_GetEmailAppointmentRecurrenceRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRecurrenceRequest.EMail_GetEmailAppointmentRecurrenceRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_GetEmailAppointmentRecurrenceRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRecurrenceRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRecurrenceRequest.MailItemId
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRecurrenceRequest.MailItemId
+  id: MailItemId
+  parent: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRecurrenceRequest
+  langs:
+  - csharp
+  - vb
+  name: MailItemId
+  nameWithType: EMail_GetEmailAppointmentRecurrenceRequest.MailItemId
+  fullName: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRecurrenceRequest.MailItemId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int MailItemId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MailItemId As Integer
+  overload: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRecurrenceRequest.MailItemId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRecurrenceRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRecurrenceRequest.#ctor
+  isExternal: true
+  name: EMail_GetEmailAppointmentRecurrenceRequest
+  nameWithType: EMail_GetEmailAppointmentRecurrenceRequest.EMail_GetEmailAppointmentRecurrenceRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRecurrenceRequest.EMail_GetEmailAppointmentRecurrenceRequest
+- uid: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRecurrenceRequest.MailItemId*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRecurrenceRequest.MailItemId
+  isExternal: true
+  name: MailItemId
+  nameWithType: EMail_GetEmailAppointmentRecurrenceRequest.MailItemId
+  fullName: SuperOffice.WebApi.Data.EMail_GetEmailAppointmentRecurrenceRequest.MailItemId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

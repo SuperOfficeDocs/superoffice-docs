@@ -1,0 +1,828 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.S.ArgumentFunctions
+  commentId: T:SuperOffice.Data.S.ArgumentFunctions
+  id: S.ArgumentFunctions
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.S.ArgumentFunctions.Day(SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.S.ArgumentFunctions.Hour(SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.S.ArgumentFunctions.Lower(SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.S.ArgumentFunctions.Minute(SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.S.ArgumentFunctions.Month(SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.S.ArgumentFunctions.Second(SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.S.ArgumentFunctions.Soundex(SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.S.ArgumentFunctions.Trim(SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.S.ArgumentFunctions.Upper(SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.S.ArgumentFunctions.Year(SuperOffice.Data.SQL.Argument)
+  langs:
+  - csharp
+  - vb
+  name: S.ArgumentFunctions
+  nameWithType: S.ArgumentFunctions
+  fullName: SuperOffice.Data.S.ArgumentFunctions
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nKeeper of all functions that work on both FieldInfos and Parameters.\n"
+  syntax:
+    content: public static class ArgumentFunctions
+    content.vb: Public Module ArgumentFunctions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Data.S.ArgumentFunctions.Upper(SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.S.ArgumentFunctions.Upper(SuperOffice.Data.SQL.Argument)
+  id: Upper(SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.S.ArgumentFunctions
+  langs:
+  - csharp
+  - vb
+  name: Upper(Argument)
+  nameWithType: S.ArgumentFunctions.Upper(Argument)
+  fullName: SuperOffice.Data.S.ArgumentFunctions.Upper(SuperOffice.Data.SQL.Argument)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nUpper function. <xref href=\"SuperOffice.Data.S.ArgumentFunctions.Upper(SuperOffice.Data.SQL.Argument)\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public static Upper Upper(Argument arg)
+    parameters:
+    - id: arg
+      type: SuperOffice.Data.SQL.Argument
+    return:
+      type: SuperOffice.Data.SQL.Upper
+      description: a new instance of the <xref href="SuperOffice.Data.SQL.Upper" data-throw-if-not-resolved="false"></xref> class based on the argument provided.
+    content.vb: Public Shared Function Upper(arg As Argument) As Upper
+  overload: SuperOffice.Data.S.ArgumentFunctions.Upper*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.ArgumentFunctions.Lower(SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.S.ArgumentFunctions.Lower(SuperOffice.Data.SQL.Argument)
+  id: Lower(SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.S.ArgumentFunctions
+  langs:
+  - csharp
+  - vb
+  name: Lower(Argument)
+  nameWithType: S.ArgumentFunctions.Lower(Argument)
+  fullName: SuperOffice.Data.S.ArgumentFunctions.Lower(SuperOffice.Data.SQL.Argument)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nLower function. <xref href=\"SuperOffice.Data.S.ArgumentFunctions.Lower(SuperOffice.Data.SQL.Argument)\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public static Lower Lower(Argument arg)
+    parameters:
+    - id: arg
+      type: SuperOffice.Data.SQL.Argument
+      description: The argument
+    return:
+      type: SuperOffice.Data.SQL.Lower
+      description: a new instance of the <xref href="SuperOffice.Data.SQL.Lower" data-throw-if-not-resolved="false"></xref> class based on the argument provided.
+    content.vb: Public Shared Function Lower(arg As Argument) As Lower
+  overload: SuperOffice.Data.S.ArgumentFunctions.Lower*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.ArgumentFunctions.Trim(SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.S.ArgumentFunctions.Trim(SuperOffice.Data.SQL.Argument)
+  id: Trim(SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.S.ArgumentFunctions
+  langs:
+  - csharp
+  - vb
+  name: Trim(Argument)
+  nameWithType: S.ArgumentFunctions.Trim(Argument)
+  fullName: SuperOffice.Data.S.ArgumentFunctions.Trim(SuperOffice.Data.SQL.Argument)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nTrim function. <xref href=\"SuperOffice.Data.S.ArgumentFunctions.Trim(SuperOffice.Data.SQL.Argument)\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public static Trim Trim(Argument arg)
+    parameters:
+    - id: arg
+      type: SuperOffice.Data.SQL.Argument
+      description: The argument
+    return:
+      type: SuperOffice.Data.SQL.Trim
+      description: a new instance of the <see cref="!:Sql.Trim"></see> class based on the argument provided.
+    content.vb: Public Shared Function Trim(arg As Argument) As Trim
+  overload: SuperOffice.Data.S.ArgumentFunctions.Trim*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.ArgumentFunctions.Year(SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.S.ArgumentFunctions.Year(SuperOffice.Data.SQL.Argument)
+  id: Year(SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.S.ArgumentFunctions
+  langs:
+  - csharp
+  - vb
+  name: Year(Argument)
+  nameWithType: S.ArgumentFunctions.Year(Argument)
+  fullName: SuperOffice.Data.S.ArgumentFunctions.Year(SuperOffice.Data.SQL.Argument)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nCreate a new Year element with the given argument\n"
+  syntax:
+    content: public static Year Year(Argument arg)
+    parameters:
+    - id: arg
+      type: SuperOffice.Data.SQL.Argument
+    return:
+      type: SuperOffice.Data.SQL.Year
+    content.vb: Public Shared Function Year(arg As Argument) As Year
+  overload: SuperOffice.Data.S.ArgumentFunctions.Year*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.ArgumentFunctions.Month(SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.S.ArgumentFunctions.Month(SuperOffice.Data.SQL.Argument)
+  id: Month(SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.S.ArgumentFunctions
+  langs:
+  - csharp
+  - vb
+  name: Month(Argument)
+  nameWithType: S.ArgumentFunctions.Month(Argument)
+  fullName: SuperOffice.Data.S.ArgumentFunctions.Month(SuperOffice.Data.SQL.Argument)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nCreate a new Month element with the given argument\n"
+  syntax:
+    content: public static Month Month(Argument arg)
+    parameters:
+    - id: arg
+      type: SuperOffice.Data.SQL.Argument
+    return:
+      type: SuperOffice.Data.SQL.Month
+    content.vb: Public Shared Function Month(arg As Argument) As Month
+  overload: SuperOffice.Data.S.ArgumentFunctions.Month*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.ArgumentFunctions.Day(SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.S.ArgumentFunctions.Day(SuperOffice.Data.SQL.Argument)
+  id: Day(SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.S.ArgumentFunctions
+  langs:
+  - csharp
+  - vb
+  name: Day(Argument)
+  nameWithType: S.ArgumentFunctions.Day(Argument)
+  fullName: SuperOffice.Data.S.ArgumentFunctions.Day(SuperOffice.Data.SQL.Argument)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nCreate a new Day element with the given argument\n"
+  syntax:
+    content: public static Day Day(Argument arg)
+    parameters:
+    - id: arg
+      type: SuperOffice.Data.SQL.Argument
+    return:
+      type: SuperOffice.Data.SQL.Day
+    content.vb: Public Shared Function Day(arg As Argument) As Day
+  overload: SuperOffice.Data.S.ArgumentFunctions.Day*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.ArgumentFunctions.Hour(SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.S.ArgumentFunctions.Hour(SuperOffice.Data.SQL.Argument)
+  id: Hour(SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.S.ArgumentFunctions
+  langs:
+  - csharp
+  - vb
+  name: Hour(Argument)
+  nameWithType: S.ArgumentFunctions.Hour(Argument)
+  fullName: SuperOffice.Data.S.ArgumentFunctions.Hour(SuperOffice.Data.SQL.Argument)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nCreate a new Hour element with the given argument\n"
+  syntax:
+    content: public static Hour Hour(Argument arg)
+    parameters:
+    - id: arg
+      type: SuperOffice.Data.SQL.Argument
+    return:
+      type: SuperOffice.Data.SQL.Hour
+    content.vb: Public Shared Function Hour(arg As Argument) As Hour
+  overload: SuperOffice.Data.S.ArgumentFunctions.Hour*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.ArgumentFunctions.Minute(SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.S.ArgumentFunctions.Minute(SuperOffice.Data.SQL.Argument)
+  id: Minute(SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.S.ArgumentFunctions
+  langs:
+  - csharp
+  - vb
+  name: Minute(Argument)
+  nameWithType: S.ArgumentFunctions.Minute(Argument)
+  fullName: SuperOffice.Data.S.ArgumentFunctions.Minute(SuperOffice.Data.SQL.Argument)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nCreate a new Minute element with the given argument\n"
+  syntax:
+    content: public static Minute Minute(Argument arg)
+    parameters:
+    - id: arg
+      type: SuperOffice.Data.SQL.Argument
+    return:
+      type: SuperOffice.Data.SQL.Minute
+    content.vb: Public Shared Function Minute(arg As Argument) As Minute
+  overload: SuperOffice.Data.S.ArgumentFunctions.Minute*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.ArgumentFunctions.Second(SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.S.ArgumentFunctions.Second(SuperOffice.Data.SQL.Argument)
+  id: Second(SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.S.ArgumentFunctions
+  langs:
+  - csharp
+  - vb
+  name: Second(Argument)
+  nameWithType: S.ArgumentFunctions.Second(Argument)
+  fullName: SuperOffice.Data.S.ArgumentFunctions.Second(SuperOffice.Data.SQL.Argument)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nCreate a new Second element with the given argument\n"
+  syntax:
+    content: public static Second Second(Argument arg)
+    parameters:
+    - id: arg
+      type: SuperOffice.Data.SQL.Argument
+    return:
+      type: SuperOffice.Data.SQL.Second
+    content.vb: Public Shared Function Second(arg As Argument) As Second
+  overload: SuperOffice.Data.S.ArgumentFunctions.Second*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.S.ArgumentFunctions.Soundex(SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.S.ArgumentFunctions.Soundex(SuperOffice.Data.SQL.Argument)
+  id: Soundex(SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.S.ArgumentFunctions
+  langs:
+  - csharp
+  - vb
+  name: Soundex(Argument)
+  nameWithType: S.ArgumentFunctions.Soundex(Argument)
+  fullName: SuperOffice.Data.S.ArgumentFunctions.Soundex(SuperOffice.Data.SQL.Argument)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nCreate a new Soundex element with the given argument\n"
+  syntax:
+    content: public static Soundex Soundex(Argument arg)
+    parameters:
+    - id: arg
+      type: SuperOffice.Data.SQL.Argument
+    return:
+      type: SuperOffice.Data.SQL.Soundex
+    content.vb: Public Shared Function Soundex(arg As Argument) As Soundex
+  overload: SuperOffice.Data.S.ArgumentFunctions.Soundex*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.S.ArgumentFunctions.Upper*
+  commentId: Overload:SuperOffice.Data.S.ArgumentFunctions.Upper
+  isExternal: true
+  name: Upper
+  nameWithType: S.ArgumentFunctions.Upper
+  fullName: SuperOffice.Data.S.ArgumentFunctions.Upper
+- uid: SuperOffice.Data.SQL.Argument
+  commentId: T:SuperOffice.Data.SQL.Argument
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Argument
+  nameWithType: Argument
+  fullName: SuperOffice.Data.SQL.Argument
+- uid: SuperOffice.Data.SQL.Upper
+  commentId: T:SuperOffice.Data.SQL.Upper
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Upper
+  nameWithType: Upper
+  fullName: SuperOffice.Data.SQL.Upper
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.Data.S.ArgumentFunctions.Lower*
+  commentId: Overload:SuperOffice.Data.S.ArgumentFunctions.Lower
+  isExternal: true
+  name: Lower
+  nameWithType: S.ArgumentFunctions.Lower
+  fullName: SuperOffice.Data.S.ArgumentFunctions.Lower
+- uid: SuperOffice.Data.SQL.Lower
+  commentId: T:SuperOffice.Data.SQL.Lower
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Lower
+  nameWithType: Lower
+  fullName: SuperOffice.Data.SQL.Lower
+- uid: SuperOffice.Data.S.ArgumentFunctions.Trim*
+  commentId: Overload:SuperOffice.Data.S.ArgumentFunctions.Trim
+  isExternal: true
+  name: Trim
+  nameWithType: S.ArgumentFunctions.Trim
+  fullName: SuperOffice.Data.S.ArgumentFunctions.Trim
+- uid: SuperOffice.Data.SQL.Trim
+  commentId: T:SuperOffice.Data.SQL.Trim
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Trim
+  nameWithType: Trim
+  fullName: SuperOffice.Data.SQL.Trim
+- uid: SuperOffice.Data.S.ArgumentFunctions.Year*
+  commentId: Overload:SuperOffice.Data.S.ArgumentFunctions.Year
+  isExternal: true
+  name: Year
+  nameWithType: S.ArgumentFunctions.Year
+  fullName: SuperOffice.Data.S.ArgumentFunctions.Year
+- uid: SuperOffice.Data.SQL.Year
+  commentId: T:SuperOffice.Data.SQL.Year
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Year
+  nameWithType: Year
+  fullName: SuperOffice.Data.SQL.Year
+- uid: SuperOffice.Data.S.ArgumentFunctions.Month*
+  commentId: Overload:SuperOffice.Data.S.ArgumentFunctions.Month
+  isExternal: true
+  name: Month
+  nameWithType: S.ArgumentFunctions.Month
+  fullName: SuperOffice.Data.S.ArgumentFunctions.Month
+- uid: SuperOffice.Data.SQL.Month
+  commentId: T:SuperOffice.Data.SQL.Month
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Month
+  nameWithType: Month
+  fullName: SuperOffice.Data.SQL.Month
+- uid: SuperOffice.Data.S.ArgumentFunctions.Day*
+  commentId: Overload:SuperOffice.Data.S.ArgumentFunctions.Day
+  isExternal: true
+  name: Day
+  nameWithType: S.ArgumentFunctions.Day
+  fullName: SuperOffice.Data.S.ArgumentFunctions.Day
+- uid: SuperOffice.Data.SQL.Day
+  commentId: T:SuperOffice.Data.SQL.Day
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Day
+  nameWithType: Day
+  fullName: SuperOffice.Data.SQL.Day
+- uid: SuperOffice.Data.S.ArgumentFunctions.Hour*
+  commentId: Overload:SuperOffice.Data.S.ArgumentFunctions.Hour
+  isExternal: true
+  name: Hour
+  nameWithType: S.ArgumentFunctions.Hour
+  fullName: SuperOffice.Data.S.ArgumentFunctions.Hour
+- uid: SuperOffice.Data.SQL.Hour
+  commentId: T:SuperOffice.Data.SQL.Hour
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Hour
+  nameWithType: Hour
+  fullName: SuperOffice.Data.SQL.Hour
+- uid: SuperOffice.Data.S.ArgumentFunctions.Minute*
+  commentId: Overload:SuperOffice.Data.S.ArgumentFunctions.Minute
+  isExternal: true
+  name: Minute
+  nameWithType: S.ArgumentFunctions.Minute
+  fullName: SuperOffice.Data.S.ArgumentFunctions.Minute
+- uid: SuperOffice.Data.SQL.Minute
+  commentId: T:SuperOffice.Data.SQL.Minute
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Minute
+  nameWithType: Minute
+  fullName: SuperOffice.Data.SQL.Minute
+- uid: SuperOffice.Data.S.ArgumentFunctions.Second*
+  commentId: Overload:SuperOffice.Data.S.ArgumentFunctions.Second
+  isExternal: true
+  name: Second
+  nameWithType: S.ArgumentFunctions.Second
+  fullName: SuperOffice.Data.S.ArgumentFunctions.Second
+- uid: SuperOffice.Data.SQL.Second
+  commentId: T:SuperOffice.Data.SQL.Second
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Second
+  nameWithType: Second
+  fullName: SuperOffice.Data.SQL.Second
+- uid: SuperOffice.Data.S.ArgumentFunctions.Soundex*
+  commentId: Overload:SuperOffice.Data.S.ArgumentFunctions.Soundex
+  isExternal: true
+  name: Soundex
+  nameWithType: S.ArgumentFunctions.Soundex
+  fullName: SuperOffice.Data.S.ArgumentFunctions.Soundex
+- uid: SuperOffice.Data.SQL.Soundex
+  commentId: T:SuperOffice.Data.SQL.Soundex
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Soundex
+  nameWithType: Soundex
+  fullName: SuperOffice.Data.SQL.Soundex

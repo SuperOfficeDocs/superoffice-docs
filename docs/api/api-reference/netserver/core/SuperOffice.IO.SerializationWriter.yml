@@ -1,0 +1,4879 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.IO.SerializationWriter
+  commentId: T:SuperOffice.IO.SerializationWriter
+  id: SerializationWriter
+  parent: SuperOffice.IO
+  children:
+  - SuperOffice.IO.SerializationWriter.#ctor
+  - SuperOffice.IO.SerializationWriter.#ctor(System.Int32)
+  - SuperOffice.IO.SerializationWriter.AppendTokenTables
+  - SuperOffice.IO.SerializationWriter.DefaultCapacity
+  - SuperOffice.IO.SerializationWriter.DefaultOptimizeForSize
+  - SuperOffice.IO.SerializationWriter.DefaultPreserveDecimalScale
+  - SuperOffice.IO.SerializationWriter.DumpTypeUsage
+  - SuperOffice.IO.SerializationWriter.HighestOptimizable16BitValue
+  - SuperOffice.IO.SerializationWriter.HighestOptimizable32BitValue
+  - SuperOffice.IO.SerializationWriter.HighestOptimizable64BitValue
+  - SuperOffice.IO.SerializationWriter.OptimizeForSize
+  - SuperOffice.IO.SerializationWriter.PreserveDecimalScale
+  - SuperOffice.IO.SerializationWriter.ToArray
+  - SuperOffice.IO.SerializationWriter.ToStream
+  - SuperOffice.IO.SerializationWriter.TypeSurrogates
+  - SuperOffice.IO.SerializationWriter.Write(SuperOffice.IO.IOwnedDataSerializable,System.Object)
+  - SuperOffice.IO.SerializationWriter.Write(System.Boolean[])
+  - SuperOffice.IO.SerializationWriter.Write(System.Byte[])
+  - SuperOffice.IO.SerializationWriter.Write(System.Char[])
+  - SuperOffice.IO.SerializationWriter.Write(System.Collections.ArrayList)
+  - SuperOffice.IO.SerializationWriter.Write(System.Collections.BitArray)
+  - SuperOffice.IO.SerializationWriter.Write(System.Collections.Specialized.BitVector32)
+  - SuperOffice.IO.SerializationWriter.Write(System.DateTime)
+  - SuperOffice.IO.SerializationWriter.Write(System.DateTime[])
+  - SuperOffice.IO.SerializationWriter.Write(System.Decimal[])
+  - SuperOffice.IO.SerializationWriter.Write(System.Double[])
+  - SuperOffice.IO.SerializationWriter.Write(System.Guid)
+  - SuperOffice.IO.SerializationWriter.Write(System.Guid[])
+  - SuperOffice.IO.SerializationWriter.Write(System.Int16[])
+  - SuperOffice.IO.SerializationWriter.Write(System.Int32[])
+  - SuperOffice.IO.SerializationWriter.Write(System.Int64[])
+  - SuperOffice.IO.SerializationWriter.Write(System.Object[])
+  - SuperOffice.IO.SerializationWriter.Write(System.SByte[])
+  - SuperOffice.IO.SerializationWriter.Write(System.Single[])
+  - SuperOffice.IO.SerializationWriter.Write(System.String)
+  - SuperOffice.IO.SerializationWriter.Write(System.TimeSpan)
+  - SuperOffice.IO.SerializationWriter.Write(System.TimeSpan[])
+  - SuperOffice.IO.SerializationWriter.Write(System.Type,System.Boolean)
+  - SuperOffice.IO.SerializationWriter.Write(System.UInt16[])
+  - SuperOffice.IO.SerializationWriter.Write(System.UInt32[])
+  - SuperOffice.IO.SerializationWriter.Write(System.UInt64[])
+  - SuperOffice.IO.SerializationWriter.WriteBytesDirect(System.Byte[])
+  - SuperOffice.IO.SerializationWriter.WriteObject(System.Object)
+  - SuperOffice.IO.SerializationWriter.WriteOptimized(System.Boolean[])
+  - SuperOffice.IO.SerializationWriter.WriteOptimized(System.Collections.ArrayList)
+  - SuperOffice.IO.SerializationWriter.WriteOptimized(System.Collections.BitArray)
+  - SuperOffice.IO.SerializationWriter.WriteOptimized(System.Collections.Specialized.BitVector32)
+  - SuperOffice.IO.SerializationWriter.WriteOptimized(System.DateTime)
+  - SuperOffice.IO.SerializationWriter.WriteOptimized(System.DateTime[])
+  - SuperOffice.IO.SerializationWriter.WriteOptimized(System.Decimal)
+  - SuperOffice.IO.SerializationWriter.WriteOptimized(System.Decimal[])
+  - SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int16)
+  - SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int16[])
+  - SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int32)
+  - SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int32[])
+  - SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int64)
+  - SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int64[])
+  - SuperOffice.IO.SerializationWriter.WriteOptimized(System.Object[])
+  - SuperOffice.IO.SerializationWriter.WriteOptimized(System.Object[],System.Object[])
+  - SuperOffice.IO.SerializationWriter.WriteOptimized(System.String)
+  - SuperOffice.IO.SerializationWriter.WriteOptimized(System.TimeSpan)
+  - SuperOffice.IO.SerializationWriter.WriteOptimized(System.TimeSpan[])
+  - SuperOffice.IO.SerializationWriter.WriteOptimized(System.Type)
+  - SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt16)
+  - SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt16[])
+  - SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt32)
+  - SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt32[])
+  - SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt64)
+  - SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt64[])
+  - SuperOffice.IO.SerializationWriter.WriteStringDirect(System.String)
+  - SuperOffice.IO.SerializationWriter.WriteTokenizedObject(System.Object)
+  - SuperOffice.IO.SerializationWriter.WriteTokenizedObject(System.Object,System.Boolean)
+  - SuperOffice.IO.SerializationWriter.WriteTypedArray(System.Array)
+  langs:
+  - csharp
+  - vb
+  name: SerializationWriter
+  nameWithType: SerializationWriter
+  fullName: SuperOffice.IO.SerializationWriter
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nA SerializationWriter instance is used to store values and objects in a byte array.\n\nOnce an instance is created, use the various methods to store the required data.\nToArray() will return a byte[] containing all of the data required for deserialization.\nThis can be stored in the SerializationInfo parameter in an ISerializable.GetObjectData() method.\n<p></p>\nAs an alternative to ToArray(), if you want to apply some post-processing to the serialized bytes, \nsuch as compression, call AppendTokenTables first to ensure that the string and object token tables \nare appended to the stream, and then cast BaseStream to MemoryStream. You can then access the\nMemoryStream&apos;s internal buffer as follows:\n<p></p>\n<example><pre><code>writer.AppendTokenTables();\nMemoryStream stream = (MemoryStream) writer.BaseStream;\nserializedData = MiniLZO.Compress(stream.GetBuffer(), (int) stream.Length);</code></pre></example>\n"
+  syntax:
+    content: 'public sealed class SerializationWriter : BinaryWriter, IDisposable'
+    content.vb: >-
+      Public NotInheritable Class SerializationWriter
+          Inherits BinaryWriter
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  - System.IO.BinaryWriter
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.IO.BinaryWriter.Null
+  - System.IO.BinaryWriter.OutStream
+  - System.IO.BinaryWriter.Close
+  - System.IO.BinaryWriter.Dispose(System.Boolean)
+  - System.IO.BinaryWriter.Dispose
+  - System.IO.BinaryWriter.Flush
+  - System.IO.BinaryWriter.Seek(System.Int32,System.IO.SeekOrigin)
+  - System.IO.BinaryWriter.Write(System.Boolean)
+  - System.IO.BinaryWriter.Write(System.Byte)
+  - System.IO.BinaryWriter.Write(System.SByte)
+  - System.IO.BinaryWriter.Write(System.Byte[],System.Int32,System.Int32)
+  - System.IO.BinaryWriter.Write(System.Char)
+  - System.IO.BinaryWriter.Write(System.Char[],System.Int32,System.Int32)
+  - System.IO.BinaryWriter.Write(System.Double)
+  - System.IO.BinaryWriter.Write(System.Decimal)
+  - System.IO.BinaryWriter.Write(System.Int16)
+  - System.IO.BinaryWriter.Write(System.UInt16)
+  - System.IO.BinaryWriter.Write(System.Int32)
+  - System.IO.BinaryWriter.Write(System.UInt32)
+  - System.IO.BinaryWriter.Write(System.Int64)
+  - System.IO.BinaryWriter.Write(System.UInt64)
+  - System.IO.BinaryWriter.Write(System.Single)
+  - System.IO.BinaryWriter.Write7BitEncodedInt(System.Int32)
+  - System.IO.BinaryWriter.BaseStream
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.IO.SerializationWriter.EnumUtil.MapEnums``2
+  - SuperOffice.IO.SerializationWriter.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.IO.SerializationWriter)
+  - SuperOffice.IO.SerializationWriter.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.IO.SerializationWriter.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.IO.SerializationWriter.DefaultCapacity
+  commentId: F:SuperOffice.IO.SerializationWriter.DefaultCapacity
+  id: DefaultCapacity
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: DefaultCapacity
+  nameWithType: SerializationWriter.DefaultCapacity
+  fullName: SuperOffice.IO.SerializationWriter.DefaultCapacity
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nDefault capacity for the underlying MemoryStream\n"
+  syntax:
+    content: public static int DefaultCapacity
+    return:
+      type: System.Int32
+    content.vb: Public Shared DefaultCapacity As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.IO.SerializationWriter.DefaultOptimizeForSize
+  commentId: F:SuperOffice.IO.SerializationWriter.DefaultOptimizeForSize
+  id: DefaultOptimizeForSize
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: DefaultOptimizeForSize
+  nameWithType: SerializationWriter.DefaultOptimizeForSize
+  fullName: SuperOffice.IO.SerializationWriter.DefaultOptimizeForSize
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nThe Default setting for the OptimizeForSize property.\n"
+  syntax:
+    content: public static bool DefaultOptimizeForSize
+    return:
+      type: System.Boolean
+    content.vb: Public Shared DefaultOptimizeForSize As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.IO.SerializationWriter.DefaultPreserveDecimalScale
+  commentId: F:SuperOffice.IO.SerializationWriter.DefaultPreserveDecimalScale
+  id: DefaultPreserveDecimalScale
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: DefaultPreserveDecimalScale
+  nameWithType: SerializationWriter.DefaultPreserveDecimalScale
+  fullName: SuperOffice.IO.SerializationWriter.DefaultPreserveDecimalScale
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nThe Default setting for the PreserveDecimalScale property.\n"
+  syntax:
+    content: public static bool DefaultPreserveDecimalScale
+    return:
+      type: System.Boolean
+    content.vb: Public Shared DefaultPreserveDecimalScale As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.IO.SerializationWriter.HighestOptimizable16BitValue
+  commentId: F:SuperOffice.IO.SerializationWriter.HighestOptimizable16BitValue
+  id: HighestOptimizable16BitValue
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: HighestOptimizable16BitValue
+  nameWithType: SerializationWriter.HighestOptimizable16BitValue
+  fullName: SuperOffice.IO.SerializationWriter.HighestOptimizable16BitValue
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nHolds the highest Int16 that can be optimized into less than the normal 2 bytes\n"
+  syntax:
+    content: public const short HighestOptimizable16BitValue = 127
+    return:
+      type: System.Int16
+    content.vb: Public Const HighestOptimizable16BitValue As Short = 127
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.IO.SerializationWriter.HighestOptimizable32BitValue
+  commentId: F:SuperOffice.IO.SerializationWriter.HighestOptimizable32BitValue
+  id: HighestOptimizable32BitValue
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: HighestOptimizable32BitValue
+  nameWithType: SerializationWriter.HighestOptimizable32BitValue
+  fullName: SuperOffice.IO.SerializationWriter.HighestOptimizable32BitValue
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nHolds the highest Int32 that can be optimized into less than the normal 4 bytes\n"
+  syntax:
+    content: public const int HighestOptimizable32BitValue = 2097151
+    return:
+      type: System.Int32
+    content.vb: Public Const HighestOptimizable32BitValue As Integer = 2097151
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.IO.SerializationWriter.HighestOptimizable64BitValue
+  commentId: F:SuperOffice.IO.SerializationWriter.HighestOptimizable64BitValue
+  id: HighestOptimizable64BitValue
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: HighestOptimizable64BitValue
+  nameWithType: SerializationWriter.HighestOptimizable64BitValue
+  fullName: SuperOffice.IO.SerializationWriter.HighestOptimizable64BitValue
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nHolds the highest Int64 that can be optimized into less than the normal 8 bytes\n"
+  syntax:
+    content: public const long HighestOptimizable64BitValue = 562949953421311L
+    return:
+      type: System.Int64
+    content.vb: Public Const HighestOptimizable64BitValue As Long = 562949953421311L
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.IO.SerializationWriter.#ctor
+  commentId: M:SuperOffice.IO.SerializationWriter.#ctor
+  id: '#ctor'
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: SerializationWriter()
+  nameWithType: SerializationWriter.SerializationWriter()
+  fullName: SuperOffice.IO.SerializationWriter.SerializationWriter()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nCreates a FastSerializer with the Default Capacity (1kb)\n"
+  syntax:
+    content: public SerializationWriter()
+    content.vb: Public Sub New
+  overload: SuperOffice.IO.SerializationWriter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.#ctor(System.Int32)
+  commentId: M:SuperOffice.IO.SerializationWriter.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: SerializationWriter(Int32)
+  nameWithType: SerializationWriter.SerializationWriter(Int32)
+  fullName: SuperOffice.IO.SerializationWriter.SerializationWriter(System.Int32)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nCreates a FastSerializer with the specified capacity\n"
+  syntax:
+    content: public SerializationWriter(int capacity)
+    parameters:
+    - id: capacity
+      type: System.Int32
+    content.vb: Public Sub New(capacity As Integer)
+  overload: SuperOffice.IO.SerializationWriter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.Write(System.Collections.ArrayList)
+  commentId: M:SuperOffice.IO.SerializationWriter.Write(System.Collections.ArrayList)
+  id: Write(System.Collections.ArrayList)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(ArrayList)
+  nameWithType: SerializationWriter.Write(ArrayList)
+  fullName: SuperOffice.IO.SerializationWriter.Write(System.Collections.ArrayList)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites an ArrayList into the stream using the fewest number of bytes possible.\nStored Size: 1 byte upwards depending on data content\nNotes:\nA null Arraylist takes 1 byte.\nAn empty ArrayList takes 2 bytes.\nThe contents are stored using WriteOptimized(ArrayList) which should be used\nif the ArrayList is guaranteed never to be null.\n"
+  syntax:
+    content: public void Write(ArrayList value)
+    parameters:
+    - id: value
+      type: System.Collections.ArrayList
+      description: The ArrayList to store.
+    content.vb: Public Sub Write(value As ArrayList)
+  overload: SuperOffice.IO.SerializationWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.Write(System.Collections.BitArray)
+  commentId: M:SuperOffice.IO.SerializationWriter.Write(System.Collections.BitArray)
+  id: Write(System.Collections.BitArray)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(BitArray)
+  nameWithType: SerializationWriter.Write(BitArray)
+  fullName: SuperOffice.IO.SerializationWriter.Write(System.Collections.BitArray)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a BitArray value into the stream using the fewest number of bytes possible.\nStored Size: 1 byte upwards depending on data content\nNotes:\nA null BitArray takes 1 byte.\nAn empty BitArray takes 2 bytes.\n"
+  syntax:
+    content: public void Write(BitArray value)
+    parameters:
+    - id: value
+      type: System.Collections.BitArray
+      description: The BitArray value to store.
+    content.vb: Public Sub Write(value As BitArray)
+  overload: SuperOffice.IO.SerializationWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.Write(System.Collections.Specialized.BitVector32)
+  commentId: M:SuperOffice.IO.SerializationWriter.Write(System.Collections.Specialized.BitVector32)
+  id: Write(System.Collections.Specialized.BitVector32)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(BitVector32)
+  nameWithType: SerializationWriter.Write(BitVector32)
+  fullName: SuperOffice.IO.SerializationWriter.Write(System.Collections.Specialized.BitVector32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a BitVector32 into the stream.\nStored Size: 4 bytes.\n"
+  syntax:
+    content: public void Write(BitVector32 value)
+    parameters:
+    - id: value
+      type: System.Collections.Specialized.BitVector32
+      description: The BitVector32 to store.
+    content.vb: Public Sub Write(value As BitVector32)
+  overload: SuperOffice.IO.SerializationWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.Write(System.DateTime)
+  commentId: M:SuperOffice.IO.SerializationWriter.Write(System.DateTime)
+  id: Write(System.DateTime)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(DateTime)
+  nameWithType: SerializationWriter.Write(DateTime)
+  fullName: SuperOffice.IO.SerializationWriter.Write(System.DateTime)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a DateTime value into the stream.\nStored Size: 8 bytes\n"
+  syntax:
+    content: public void Write(DateTime value)
+    parameters:
+    - id: value
+      type: System.DateTime
+      description: The DateTime value to store.
+    content.vb: Public Sub Write(value As Date)
+  overload: SuperOffice.IO.SerializationWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.Write(System.Guid)
+  commentId: M:SuperOffice.IO.SerializationWriter.Write(System.Guid)
+  id: Write(System.Guid)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(Guid)
+  nameWithType: SerializationWriter.Write(Guid)
+  fullName: SuperOffice.IO.SerializationWriter.Write(System.Guid)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a Guid into the stream.\nStored Size: 16 bytes.\n"
+  syntax:
+    content: public void Write(Guid value)
+    parameters:
+    - id: value
+      type: System.Guid
+    content.vb: Public Sub Write(value As Guid)
+  overload: SuperOffice.IO.SerializationWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.Write(SuperOffice.IO.IOwnedDataSerializable,System.Object)
+  commentId: M:SuperOffice.IO.SerializationWriter.Write(SuperOffice.IO.IOwnedDataSerializable,System.Object)
+  id: Write(SuperOffice.IO.IOwnedDataSerializable,System.Object)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(IOwnedDataSerializable, Object)
+  nameWithType: SerializationWriter.Write(IOwnedDataSerializable, Object)
+  fullName: SuperOffice.IO.SerializationWriter.Write(SuperOffice.IO.IOwnedDataSerializable, System.Object)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nAllows any object implementing IOwnedDataSerializable to serialize itself\ninto this SerializationWriter.\nA context may also be used to give the object an indication of what data\nto store. As an example, using a BitVector32 gives a list of flags and\nthe object can conditionally store data depending on those flags.\n"
+  syntax:
+    content: public void Write(IOwnedDataSerializable target, object context)
+    parameters:
+    - id: target
+      type: SuperOffice.IO.IOwnedDataSerializable
+      description: The IOwnedDataSerializable object to ask for owned data
+    - id: context
+      type: System.Object
+      description: An arbtritrary object but BitVector32 recommended
+    content.vb: Public Sub Write(target As IOwnedDataSerializable, context As Object)
+  overload: SuperOffice.IO.SerializationWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.WriteObject(System.Object)
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteObject(System.Object)
+  id: WriteObject(System.Object)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteObject(Object)
+  nameWithType: SerializationWriter.WriteObject(Object)
+  fullName: SuperOffice.IO.SerializationWriter.WriteObject(System.Object)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nStores an object into the stream using the fewest number of bytes possible.\nStored Size: 1 byte upwards depending on type and/or content.\n\n1 byte: null, DBNull.Value, Boolean\n\n1 to 2 bytes: Int16, UInt16, Byte, SByte, Char, \n\n1 to 4 bytes: Int32, UInt32, Single, BitVector32\n\n1 to 8 bytes: DateTime, TimeSpan, Double, Int64, UInt64\n\n1 or 16 bytes: Guid\n\n1 plus content: string, object[], byte[], char[], BitArray, Type, ArrayList\n\nAny other object be stored using a .Net Binary formatter but this should \nonly be allowed as a last resort:\nSince this is effectively a different serialization session, there is a \npossibility of the same shared object being serialized twice or, if the \nobject has a reference directly or indirectly back to the parent object, \nthere is a risk of looping which will throw an exception.\n\nThe type of object is checked with the most common types being checked first.\nEach &apos;section&apos; can be reordered to provide optimum speed but the check for\nnull should always be first and the default serialization always last.\n\nOnce the type is identified, a SerializedType byte is stored in the stream\nfollowed by the data for the object (certain types/values may not require\nstorage of data as the SerializedType may imply the value).\n\nFor certain objects, if the value is within a certain range then optimized\nstorage may be used. If the value doesn&apos;t meet the required optimization\ncriteria then the value is stored directly.\nThe checks for optimization may be disabled by setting the OptimizeForSize\nproperty to false in which case the value is stored directly. This could \nresult in a slightly larger stream but there will be a speed increate to\ncompensate.\n"
+  syntax:
+    content: public void WriteObject(object value)
+    parameters:
+    - id: value
+      type: System.Object
+      description: The object to store.
+    content.vb: Public Sub WriteObject(value As Object)
+  overload: SuperOffice.IO.SerializationWriter.WriteObject*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.Write(System.String)
+  commentId: M:SuperOffice.IO.SerializationWriter.Write(System.String)
+  id: Write(System.String)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(String)
+  nameWithType: SerializationWriter.Write(String)
+  fullName: SuperOffice.IO.SerializationWriter.Write(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nCalls WriteOptimized(string).\nThis override to hide base BinaryWriter.Write(string).\n"
+  syntax:
+    content: public override void Write(string value)
+    parameters:
+    - id: value
+      type: System.String
+      description: The string to store.
+    content.vb: Public Overrides Sub Write(value As String)
+  overridden: System.IO.BinaryWriter.Write(System.String)
+  overload: SuperOffice.IO.SerializationWriter.Write*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.IO.SerializationWriter.Write(System.TimeSpan)
+  commentId: M:SuperOffice.IO.SerializationWriter.Write(System.TimeSpan)
+  id: Write(System.TimeSpan)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(TimeSpan)
+  nameWithType: SerializationWriter.Write(TimeSpan)
+  fullName: SuperOffice.IO.SerializationWriter.Write(System.TimeSpan)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a TimeSpan value into the stream.\nStored Size: 8 bytes\n"
+  syntax:
+    content: public void Write(TimeSpan value)
+    parameters:
+    - id: value
+      type: System.TimeSpan
+      description: The TimeSpan value to store.
+    content.vb: Public Sub Write(value As TimeSpan)
+  overload: SuperOffice.IO.SerializationWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.Write(System.Type,System.Boolean)
+  commentId: M:SuperOffice.IO.SerializationWriter.Write(System.Type,System.Boolean)
+  id: Write(System.Type,System.Boolean)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(Type, Boolean)
+  nameWithType: SerializationWriter.Write(Type, Boolean)
+  fullName: SuperOffice.IO.SerializationWriter.Write(System.Type, System.Boolean)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nStores a Type object into the stream.\nStored Size: Depends on the length of the Type&apos;s name and whether the fullyQualified parameter is set.\nA null Type takes 1 byte.\n"
+  syntax:
+    content: public void Write(Type value, bool fullyQualified)
+    parameters:
+    - id: value
+      type: System.Type
+      description: The Type to store.
+    - id: fullyQualified
+      type: System.Boolean
+      description: 'true to store the AssemblyQualifiedName or false to store the FullName. '
+    content.vb: Public Sub Write(value As Type, fullyQualified As Boolean)
+  overload: SuperOffice.IO.SerializationWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Collections.ArrayList)
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteOptimized(System.Collections.ArrayList)
+  id: WriteOptimized(System.Collections.ArrayList)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteOptimized(ArrayList)
+  nameWithType: SerializationWriter.WriteOptimized(ArrayList)
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Collections.ArrayList)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites an non-null ArrayList into the stream using the fewest number of bytes possible.\nStored Size: 1 byte upwards depending on data content\nNotes:\nAn empty ArrayList takes 1 byte.\n"
+  syntax:
+    content: public void WriteOptimized(ArrayList value)
+    parameters:
+    - id: value
+      type: System.Collections.ArrayList
+      description: The ArrayList to store. Must not be null.
+    content.vb: Public Sub WriteOptimized(value As ArrayList)
+  overload: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Collections.BitArray)
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteOptimized(System.Collections.BitArray)
+  id: WriteOptimized(System.Collections.BitArray)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteOptimized(BitArray)
+  nameWithType: SerializationWriter.WriteOptimized(BitArray)
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Collections.BitArray)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a BitArray into the stream using the fewest number of bytes possible.\nStored Size: 1 byte upwards depending on data content\nNotes:\nAn empty BitArray takes 1 byte.\n"
+  syntax:
+    content: public void WriteOptimized(BitArray value)
+    parameters:
+    - id: value
+      type: System.Collections.BitArray
+      description: The BitArray value to store. Must not be null.
+    content.vb: Public Sub WriteOptimized(value As BitArray)
+  overload: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Collections.Specialized.BitVector32)
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteOptimized(System.Collections.Specialized.BitVector32)
+  id: WriteOptimized(System.Collections.Specialized.BitVector32)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteOptimized(BitVector32)
+  nameWithType: SerializationWriter.WriteOptimized(BitVector32)
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Collections.Specialized.BitVector32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a BitVector32 into the stream using the fewest number of bytes possible.\nStored Size: 1 to 4 bytes. (.Net is 4 bytes)\n1 to  7 bits takes 1 byte\n8 to 14 bits takes 2 bytes\n15 to 21 bits takes 3 bytes\n22 to 28 bits takes 4 bytes\n-------------------------------------------------------------------\n29 to 32 bits takes 5 bytes - use Write(BitVector32) method instead\n\nTry to order the BitVector32 masks so that the highest bits are least-likely\nto be set.\n"
+  syntax:
+    content: public void WriteOptimized(BitVector32 value)
+    parameters:
+    - id: value
+      type: System.Collections.Specialized.BitVector32
+      description: The BitVector32 to store. Must not use more than 28 bits.
+    content.vb: Public Sub WriteOptimized(value As BitVector32)
+  overload: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized(System.DateTime)
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteOptimized(System.DateTime)
+  id: WriteOptimized(System.DateTime)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteOptimized(DateTime)
+  nameWithType: SerializationWriter.WriteOptimized(DateTime)
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.DateTime)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a DateTime value into the stream using the fewest number of bytes possible.\nStored Size: 3 bytes to 7 bytes (.Net is 8 bytes)\nNotes:\nA DateTime containing only a date takes 3 bytes\n(except a .NET 2.0 Date with a specified DateTimeKind which will take a minimum\nof 5 bytes - no further optimization for this situation felt necessary since it\nis unlikely that a DateTimeKind would be specified without hh:mm also)\nDate plus hh:mm takes 5 bytes.\nDate plus hh:mm:ss takes 6 bytes.\nDate plus hh:mm:ss.fff takes 7 bytes.\n"
+  syntax:
+    content: public void WriteOptimized(DateTime value)
+    parameters:
+    - id: value
+      type: System.DateTime
+      description: The DateTime value to store. Must not contain sub-millisecond data.
+    content.vb: Public Sub WriteOptimized(value As Date)
+  overload: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Decimal)
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteOptimized(System.Decimal)
+  id: WriteOptimized(System.Decimal)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteOptimized(Decimal)
+  nameWithType: SerializationWriter.WriteOptimized(Decimal)
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Decimal)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a Decimal value into the stream using the fewest number of bytes possible.\nStored Size: 1 byte to 14 bytes (.Net is 16 bytes)\nRestrictions: None\n"
+  syntax:
+    content: public void WriteOptimized(decimal value)
+    parameters:
+    - id: value
+      type: System.Decimal
+      description: The Decimal value to store
+    content.vb: Public Sub WriteOptimized(value As Decimal)
+  overload: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int16)
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int16)
+  id: WriteOptimized(System.Int16)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteOptimized(Int16)
+  nameWithType: SerializationWriter.WriteOptimized(Int16)
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int16)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrite an Int16 value using the fewest number of bytes possible.\n"
+  remarks: "\n0x0000 - 0x007f (0 to 127) takes 1 byte\n0x0080 - 0x03FF (128 to 16,383) takes 2 bytes\n----------------------------------------------------------------\n0x0400 - 0x7FFF (16,384 to 32,767) takes 3 bytes\nAll negative numbers take 3 bytes\n\nOnly call this method if the value is known to be between 0 and \n16,383 otherwise use Write(Int16 value)\n"
+  syntax:
+    content: public void WriteOptimized(short value)
+    parameters:
+    - id: value
+      type: System.Int16
+      description: The Int16 to store. Must be between 0 and 16,383 inclusive.
+    content.vb: Public Sub WriteOptimized(value As Short)
+  overload: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int32)
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int32)
+  id: WriteOptimized(System.Int32)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteOptimized(Int32)
+  nameWithType: SerializationWriter.WriteOptimized(Int32)
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrite an Int32 value using the fewest number of bytes possible.\n"
+  remarks: "\n0x00000000 - 0x0000007f (0 to 127) takes 1 byte\n0x00000080 - 0x000003FF (128 to 16,383) takes 2 bytes\n0x00000400 - 0x001FFFFF (16,384 to 2,097,151) takes 3 bytes\n0x00200000 - 0x0FFFFFFF (2,097,152 to 268,435,455) takes 4 bytes\n----------------------------------------------------------------\n0x10000000 - 0x07FFFFFF (268,435,456 and above) takes 5 bytes\nAll negative numbers take 5 bytes\n\nOnly call this method if the value is known to be between 0 and \n268,435,455 otherwise use Write(Int32 value)\n"
+  syntax:
+    content: public void WriteOptimized(int value)
+    parameters:
+    - id: value
+      type: System.Int32
+      description: The Int32 to store. Must be between 0 and 268,435,455 inclusive.
+    content.vb: Public Sub WriteOptimized(value As Integer)
+  overload: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int64)
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int64)
+  id: WriteOptimized(System.Int64)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteOptimized(Int64)
+  nameWithType: SerializationWriter.WriteOptimized(Int64)
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int64)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrite an Int64 value using the fewest number of bytes possible.\n"
+  remarks: "\n0x0000000000000000 - 0x000000000000007f (0 to 127) takes 1 byte\n0x0000000000000080 - 0x00000000000003FF (128 to 16,383) takes 2 bytes\n0x0000000000000400 - 0x00000000001FFFFF (16,384 to 2,097,151) takes 3 bytes\n0x0000000000200000 - 0x000000000FFFFFFF (2,097,152 to 268,435,455) takes 4 bytes\n0x0000000010000000 - 0x00000007FFFFFFFF (268,435,456 to 34,359,738,367) takes 5 bytes\n0x0000000800000000 - 0x000003FFFFFFFFFF (34,359,738,368 to 4,398,046,511,103) takes 6 bytes\n0x0000040000000000 - 0x0001FFFFFFFFFFFF (4,398,046,511,104 to 562,949,953,421,311) takes 7 bytes\n0x0002000000000000 - 0x00FFFFFFFFFFFFFF (562,949,953,421,312 to 72,057,594,037,927,935) takes 8 bytes\n------------------------------------------------------------------\n0x0100000000000000 - 0x7FFFFFFFFFFFFFFF (72,057,594,037,927,936 to 9,223,372,036,854,775,807) takes 9 bytes\n0x7FFFFFFFFFFFFFFF - 0xFFFFFFFFFFFFFFFF (9,223,372,036,854,775,807 and above) takes 10 bytes\nAll negative numbers take 10 bytes\n\nOnly call this method if the value is known to be between 0 and\n72,057,594,037,927,935 otherwise use Write(Int64 value)\n"
+  syntax:
+    content: public void WriteOptimized(long value)
+    parameters:
+    - id: value
+      type: System.Int64
+      description: The Int64 to store. Must be between 0 and 72,057,594,037,927,935 inclusive.
+    content.vb: Public Sub WriteOptimized(value As Long)
+  overload: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized(System.String)
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteOptimized(System.String)
+  id: WriteOptimized(System.String)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteOptimized(String)
+  nameWithType: SerializationWriter.WriteOptimized(String)
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a string value into the stream using the fewest number of bytes possible.\nStored Size: 1 byte upwards depending on string length\nNotes:\nEncodes null, Empty, &apos;Y&apos;, &apos;N&apos;, &apos; &apos; values as a single byte\nAny other single char string is stored as two bytes\nAll other strings are stored in a string token list:\n\nThe TypeCode representing the current string token list is written first (1 byte), \nfollowed by the string token itself (1-4 bytes)\n\nWhen the current string list has reached 128 values then a new string list\nis generated and that is used for generating future string tokens. This continues\nuntil the maximum number (128) of string lists is in use, after which the string \nlists are used in a round-robin fashion.\nBy doing this, more lists are created with fewer items which allows a smaller \ntoken size to be used for more strings.\n\nThe first 16,384 strings will use a 1 byte token.\nThe next 2,097,152 strings will use a 2 byte token. (This should suffice for most uses!)\nThe next 268,435,456 strings will use a 3 byte token. (My, that is a lot!!)\nThe next 34,359,738,368 strings will use a 4 byte token. (only shown for completeness!!!)\n"
+  syntax:
+    content: public void WriteOptimized(string value)
+    parameters:
+    - id: value
+      type: System.String
+      description: The string to store.
+    content.vb: Public Sub WriteOptimized(value As String)
+  overload: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized(System.TimeSpan)
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteOptimized(System.TimeSpan)
+  id: WriteOptimized(System.TimeSpan)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteOptimized(TimeSpan)
+  nameWithType: SerializationWriter.WriteOptimized(TimeSpan)
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.TimeSpan)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a TimeSpan value into the stream using the fewest number of bytes possible.\nStored Size: 2 bytes to 8 bytes (.Net is 8 bytes)\nNotes:\nhh:mm (time) are always stored together and take 2 bytes.\nIf seconds are present then 3 bytes unless (time) is not present in which case 2 bytes\nsince the seconds are stored in the minutes position.\nIf milliseconds are present then 4 bytes.\nIn addition, if days are present they will add 1 to 4 bytes to the above.\n"
+  syntax:
+    content: public void WriteOptimized(TimeSpan value)
+    parameters:
+    - id: value
+      type: System.TimeSpan
+      description: The TimeSpan value to store. Must not contain sub-millisecond data.
+    content.vb: Public Sub WriteOptimized(value As TimeSpan)
+  overload: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Type)
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteOptimized(System.Type)
+  id: WriteOptimized(System.Type)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteOptimized(Type)
+  nameWithType: SerializationWriter.WriteOptimized(Type)
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Type)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nStores a non-null Type object into the stream.\nStored Size: Depends on the length of the Type&apos;s name.\nIf the type is a System type (mscorlib) then it is stored without assembly name information,\notherwise the Type&apos;s AssemblyQualifiedName is used.\n"
+  syntax:
+    content: public void WriteOptimized(Type value)
+    parameters:
+    - id: value
+      type: System.Type
+      description: The Type to store. Must not be null.
+    content.vb: Public Sub WriteOptimized(value As Type)
+  overload: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt16)
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt16)
+  id: WriteOptimized(System.UInt16)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteOptimized(UInt16)
+  nameWithType: SerializationWriter.WriteOptimized(UInt16)
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt16)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrite a UInt16 value using the fewest number of bytes possible.\n"
+  remarks: "\n0x0000 - 0x007f (0 to 127) takes 1 byte\n0x0080 - 0x03FF (128 to 16,383) takes 2 bytes\n----------------------------------------------------------------\n0x0400 - 0xFFFF (16,384 to 65,536) takes 3 bytes\n\nOnly call this method if the value is known to  be between 0 and \n16,383 otherwise use Write(UInt16 value)\n"
+  syntax:
+    content: public void WriteOptimized(ushort value)
+    parameters:
+    - id: value
+      type: System.UInt16
+      description: The UInt16 to store. Must be between 0 and 16,383 inclusive.
+    content.vb: Public Sub WriteOptimized(value As UShort)
+  overload: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt32)
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt32)
+  id: WriteOptimized(System.UInt32)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteOptimized(UInt32)
+  nameWithType: SerializationWriter.WriteOptimized(UInt32)
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrite a UInt32 value using the fewest number of bytes possible.\n"
+  remarks: "\n0x00000000 - 0x0000007f (0 to 127) takes 1 byte\n0x00000080 - 0x000003FF (128 to 16,383) takes 2 bytes\n0x00000400 - 0x001FFFFF (16,384 to 2,097,151) takes 3 bytes\n0x00200000 - 0x0FFFFFFF (2,097,152 to 268,435,455) takes 4 bytes\n----------------------------------------------------------------\n0x10000000 - 0xFFFFFFFF (268,435,456 and above) takes 5 bytes\n\nOnly call this method if the value is known to  be between 0 and \n268,435,455 otherwise use Write(UInt32 value)\n"
+  syntax:
+    content: public void WriteOptimized(uint value)
+    parameters:
+    - id: value
+      type: System.UInt32
+      description: The UInt32 to store. Must be between 0 and 268,435,455 inclusive.
+    content.vb: Public Sub WriteOptimized(value As UInteger)
+  overload: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt64)
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt64)
+  id: WriteOptimized(System.UInt64)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteOptimized(UInt64)
+  nameWithType: SerializationWriter.WriteOptimized(UInt64)
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt64)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrite a UInt64 value using the fewest number of bytes possible.\n"
+  remarks: "\n0x0000000000000000 - 0x000000000000007f (0 to 127) takes 1 byte\n0x0000000000000080 - 0x00000000000003FF (128 to 16,383) takes 2 bytes\n0x0000000000000400 - 0x00000000001FFFFF (16,384 to 2,097,151) takes 3 bytes\n0x0000000000200000 - 0x000000000FFFFFFF (2,097,152 to 268,435,455) takes 4 bytes\n0x0000000010000000 - 0x00000007FFFFFFFF (268,435,456 to 34,359,738,367) takes 5 bytes\n0x0000000800000000 - 0x000003FFFFFFFFFF (34,359,738,368 to 4,398,046,511,103) takes 6 bytes\n0x0000040000000000 - 0x0001FFFFFFFFFFFF (4,398,046,511,104 to 562,949,953,421,311) takes 7 bytes\n0x0002000000000000 - 0x00FFFFFFFFFFFFFF (562,949,953,421,312 to 72,057,594,037,927,935) takes 8 bytes\n------------------------------------------------------------------\n0x0100000000000000 - 0x7FFFFFFFFFFFFFFF (72,057,594,037,927,936 to 9,223,372,036,854,775,807) takes 9 bytes\n0x7FFFFFFFFFFFFFFF - 0xFFFFFFFFFFFFFFFF (9,223,372,036,854,775,807 and above) takes 10 bytes\n\nOnly call this method if the value is known to be between 0 and\n72,057,594,037,927,935 otherwise use Write(UInt64 value)\n"
+  syntax:
+    content: public void WriteOptimized(ulong value)
+    parameters:
+    - id: value
+      type: System.UInt64
+      description: The UInt64 to store. Must be between 0 and 72,057,594,037,927,935 inclusive.
+    content.vb: Public Sub WriteOptimized(value As ULong)
+  overload: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.Write(System.Boolean[])
+  commentId: M:SuperOffice.IO.SerializationWriter.Write(System.Boolean[])
+  id: Write(System.Boolean[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(Boolean[])
+  nameWithType: SerializationWriter.Write(Boolean[])
+  fullName: SuperOffice.IO.SerializationWriter.Write(System.Boolean[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a Boolean[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\nCalls WriteOptimized(Boolean[]).\n"
+  syntax:
+    content: public void Write(bool[] values)
+    parameters:
+    - id: values
+      type: System.Boolean[]
+      description: The Boolean[] to store.
+    content.vb: Public Sub Write(values As Boolean())
+  overload: SuperOffice.IO.SerializationWriter.Write*
+  nameWithType.vb: SerializationWriter.Write(Boolean())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.Write(System.Boolean())
+  name.vb: Write(Boolean())
+- uid: SuperOffice.IO.SerializationWriter.Write(System.Byte[])
+  commentId: M:SuperOffice.IO.SerializationWriter.Write(System.Byte[])
+  id: Write(System.Byte[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(Byte[])
+  nameWithType: SerializationWriter.Write(Byte[])
+  fullName: SuperOffice.IO.SerializationWriter.Write(System.Byte[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a Byte[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\n"
+  syntax:
+    content: public override void Write(byte[] values)
+    parameters:
+    - id: values
+      type: System.Byte[]
+      description: The Byte[] to store.
+    content.vb: Public Overrides Sub Write(values As Byte())
+  overridden: System.IO.BinaryWriter.Write(System.Byte[])
+  overload: SuperOffice.IO.SerializationWriter.Write*
+  nameWithType.vb: SerializationWriter.Write(Byte())
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: SuperOffice.IO.SerializationWriter.Write(System.Byte())
+  name.vb: Write(Byte())
+- uid: SuperOffice.IO.SerializationWriter.Write(System.Char[])
+  commentId: M:SuperOffice.IO.SerializationWriter.Write(System.Char[])
+  id: Write(System.Char[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(Char[])
+  nameWithType: SerializationWriter.Write(Char[])
+  fullName: SuperOffice.IO.SerializationWriter.Write(System.Char[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a Char[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\n"
+  syntax:
+    content: public override void Write(char[] values)
+    parameters:
+    - id: values
+      type: System.Char[]
+      description: The Char[] to store.
+    content.vb: Public Overrides Sub Write(values As Char())
+  overridden: System.IO.BinaryWriter.Write(System.Char[])
+  overload: SuperOffice.IO.SerializationWriter.Write*
+  nameWithType.vb: SerializationWriter.Write(Char())
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: SuperOffice.IO.SerializationWriter.Write(System.Char())
+  name.vb: Write(Char())
+- uid: SuperOffice.IO.SerializationWriter.Write(System.DateTime[])
+  commentId: M:SuperOffice.IO.SerializationWriter.Write(System.DateTime[])
+  id: Write(System.DateTime[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(DateTime[])
+  nameWithType: SerializationWriter.Write(DateTime[])
+  fullName: SuperOffice.IO.SerializationWriter.Write(System.DateTime[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a DateTime[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\n"
+  syntax:
+    content: public void Write(DateTime[] values)
+    parameters:
+    - id: values
+      type: System.DateTime[]
+      description: The DateTime[] to store.
+    content.vb: Public Sub Write(values As Date())
+  overload: SuperOffice.IO.SerializationWriter.Write*
+  nameWithType.vb: SerializationWriter.Write(DateTime())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.Write(System.DateTime())
+  name.vb: Write(DateTime())
+- uid: SuperOffice.IO.SerializationWriter.Write(System.Decimal[])
+  commentId: M:SuperOffice.IO.SerializationWriter.Write(System.Decimal[])
+  id: Write(System.Decimal[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(Decimal[])
+  nameWithType: SerializationWriter.Write(Decimal[])
+  fullName: SuperOffice.IO.SerializationWriter.Write(System.Decimal[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a Decimal[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\nCalls WriteOptimized(Decimal[]).\n"
+  syntax:
+    content: public void Write(decimal[] values)
+    parameters:
+    - id: values
+      type: System.Decimal[]
+      description: The Decimal[] to store.
+    content.vb: Public Sub Write(values As Decimal())
+  overload: SuperOffice.IO.SerializationWriter.Write*
+  nameWithType.vb: SerializationWriter.Write(Decimal())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.Write(System.Decimal())
+  name.vb: Write(Decimal())
+- uid: SuperOffice.IO.SerializationWriter.Write(System.Double[])
+  commentId: M:SuperOffice.IO.SerializationWriter.Write(System.Double[])
+  id: Write(System.Double[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(Double[])
+  nameWithType: SerializationWriter.Write(Double[])
+  fullName: SuperOffice.IO.SerializationWriter.Write(System.Double[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a Double[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\n"
+  syntax:
+    content: public void Write(double[] values)
+    parameters:
+    - id: values
+      type: System.Double[]
+      description: The Double[] to store.
+    content.vb: Public Sub Write(values As Double())
+  overload: SuperOffice.IO.SerializationWriter.Write*
+  nameWithType.vb: SerializationWriter.Write(Double())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.Write(System.Double())
+  name.vb: Write(Double())
+- uid: SuperOffice.IO.SerializationWriter.Write(System.Single[])
+  commentId: M:SuperOffice.IO.SerializationWriter.Write(System.Single[])
+  id: Write(System.Single[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(Single[])
+  nameWithType: SerializationWriter.Write(Single[])
+  fullName: SuperOffice.IO.SerializationWriter.Write(System.Single[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a Single[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\n"
+  syntax:
+    content: public void Write(float[] values)
+    parameters:
+    - id: values
+      type: System.Single[]
+      description: The Single[] to store.
+    content.vb: Public Sub Write(values As Single())
+  overload: SuperOffice.IO.SerializationWriter.Write*
+  nameWithType.vb: SerializationWriter.Write(Single())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.Write(System.Single())
+  name.vb: Write(Single())
+- uid: SuperOffice.IO.SerializationWriter.Write(System.Guid[])
+  commentId: M:SuperOffice.IO.SerializationWriter.Write(System.Guid[])
+  id: Write(System.Guid[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(Guid[])
+  nameWithType: SerializationWriter.Write(Guid[])
+  fullName: SuperOffice.IO.SerializationWriter.Write(System.Guid[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a Guid[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\n"
+  syntax:
+    content: public void Write(Guid[] values)
+    parameters:
+    - id: values
+      type: System.Guid[]
+      description: The Guid[] to store.
+    content.vb: Public Sub Write(values As Guid())
+  overload: SuperOffice.IO.SerializationWriter.Write*
+  nameWithType.vb: SerializationWriter.Write(Guid())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.Write(System.Guid())
+  name.vb: Write(Guid())
+- uid: SuperOffice.IO.SerializationWriter.Write(System.Int32[])
+  commentId: M:SuperOffice.IO.SerializationWriter.Write(System.Int32[])
+  id: Write(System.Int32[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(Int32[])
+  nameWithType: SerializationWriter.Write(Int32[])
+  fullName: SuperOffice.IO.SerializationWriter.Write(System.Int32[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites an Int32[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\n"
+  syntax:
+    content: public void Write(int[] values)
+    parameters:
+    - id: values
+      type: System.Int32[]
+      description: The Int32[] to store.
+    content.vb: Public Sub Write(values As Integer())
+  overload: SuperOffice.IO.SerializationWriter.Write*
+  nameWithType.vb: SerializationWriter.Write(Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.Write(System.Int32())
+  name.vb: Write(Int32())
+- uid: SuperOffice.IO.SerializationWriter.Write(System.Int64[])
+  commentId: M:SuperOffice.IO.SerializationWriter.Write(System.Int64[])
+  id: Write(System.Int64[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(Int64[])
+  nameWithType: SerializationWriter.Write(Int64[])
+  fullName: SuperOffice.IO.SerializationWriter.Write(System.Int64[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites an Int64[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\n"
+  syntax:
+    content: public void Write(long[] values)
+    parameters:
+    - id: values
+      type: System.Int64[]
+      description: The Int64[] to store.
+    content.vb: Public Sub Write(values As Long())
+  overload: SuperOffice.IO.SerializationWriter.Write*
+  nameWithType.vb: SerializationWriter.Write(Int64())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.Write(System.Int64())
+  name.vb: Write(Int64())
+- uid: SuperOffice.IO.SerializationWriter.Write(System.Object[])
+  commentId: M:SuperOffice.IO.SerializationWriter.Write(System.Object[])
+  id: Write(System.Object[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(Object[])
+  nameWithType: SerializationWriter.Write(Object[])
+  fullName: SuperOffice.IO.SerializationWriter.Write(System.Object[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites an object[] into the stream.\nStored Size: 2 bytes upwards depending on data content\nNotes:\nA null object[] takes 1 byte.\nAn empty object[] takes 2 bytes.\nThe contents of the array will be stored optimized.\n"
+  syntax:
+    content: public void Write(object[] values)
+    parameters:
+    - id: values
+      type: System.Object[]
+      description: The object[] to store.
+    content.vb: Public Sub Write(values As Object())
+  overload: SuperOffice.IO.SerializationWriter.Write*
+  nameWithType.vb: SerializationWriter.Write(Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.Write(System.Object())
+  name.vb: Write(Object())
+- uid: SuperOffice.IO.SerializationWriter.Write(System.SByte[])
+  commentId: M:SuperOffice.IO.SerializationWriter.Write(System.SByte[])
+  id: Write(System.SByte[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(SByte[])
+  nameWithType: SerializationWriter.Write(SByte[])
+  fullName: SuperOffice.IO.SerializationWriter.Write(System.SByte[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites an SByte[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\n"
+  syntax:
+    content: public void Write(sbyte[] values)
+    parameters:
+    - id: values
+      type: System.SByte[]
+      description: The SByte[] to store.
+    content.vb: Public Sub Write(values As SByte())
+  overload: SuperOffice.IO.SerializationWriter.Write*
+  nameWithType.vb: SerializationWriter.Write(SByte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.Write(System.SByte())
+  name.vb: Write(SByte())
+- uid: SuperOffice.IO.SerializationWriter.Write(System.Int16[])
+  commentId: M:SuperOffice.IO.SerializationWriter.Write(System.Int16[])
+  id: Write(System.Int16[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(Int16[])
+  nameWithType: SerializationWriter.Write(Int16[])
+  fullName: SuperOffice.IO.SerializationWriter.Write(System.Int16[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites an Int16[]or a null into the stream.\nNotes:\nA null or empty array will take 1 byte.\nCalls WriteOptimized(decimal[]).\n"
+  syntax:
+    content: public void Write(short[] values)
+    parameters:
+    - id: values
+      type: System.Int16[]
+      description: The Int16[] to store.
+    content.vb: Public Sub Write(values As Short())
+  overload: SuperOffice.IO.SerializationWriter.Write*
+  nameWithType.vb: SerializationWriter.Write(Int16())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.Write(System.Int16())
+  name.vb: Write(Int16())
+- uid: SuperOffice.IO.SerializationWriter.Write(System.TimeSpan[])
+  commentId: M:SuperOffice.IO.SerializationWriter.Write(System.TimeSpan[])
+  id: Write(System.TimeSpan[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(TimeSpan[])
+  nameWithType: SerializationWriter.Write(TimeSpan[])
+  fullName: SuperOffice.IO.SerializationWriter.Write(System.TimeSpan[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a TimeSpan[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\n"
+  syntax:
+    content: public void Write(TimeSpan[] values)
+    parameters:
+    - id: values
+      type: System.TimeSpan[]
+      description: The TimeSpan[] to store.
+    content.vb: Public Sub Write(values As TimeSpan())
+  overload: SuperOffice.IO.SerializationWriter.Write*
+  nameWithType.vb: SerializationWriter.Write(TimeSpan())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.Write(System.TimeSpan())
+  name.vb: Write(TimeSpan())
+- uid: SuperOffice.IO.SerializationWriter.Write(System.UInt32[])
+  commentId: M:SuperOffice.IO.SerializationWriter.Write(System.UInt32[])
+  id: Write(System.UInt32[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(UInt32[])
+  nameWithType: SerializationWriter.Write(UInt32[])
+  fullName: SuperOffice.IO.SerializationWriter.Write(System.UInt32[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a UInt32[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\n"
+  syntax:
+    content: public void Write(uint[] values)
+    parameters:
+    - id: values
+      type: System.UInt32[]
+      description: The UInt32[] to store.
+    content.vb: Public Sub Write(values As UInteger())
+  overload: SuperOffice.IO.SerializationWriter.Write*
+  nameWithType.vb: SerializationWriter.Write(UInt32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.Write(System.UInt32())
+  name.vb: Write(UInt32())
+- uid: SuperOffice.IO.SerializationWriter.Write(System.UInt64[])
+  commentId: M:SuperOffice.IO.SerializationWriter.Write(System.UInt64[])
+  id: Write(System.UInt64[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(UInt64[])
+  nameWithType: SerializationWriter.Write(UInt64[])
+  fullName: SuperOffice.IO.SerializationWriter.Write(System.UInt64[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a UInt64[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\n"
+  syntax:
+    content: public void Write(ulong[] values)
+    parameters:
+    - id: values
+      type: System.UInt64[]
+      description: The UInt64[] to store.
+    content.vb: Public Sub Write(values As ULong())
+  overload: SuperOffice.IO.SerializationWriter.Write*
+  nameWithType.vb: SerializationWriter.Write(UInt64())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.Write(System.UInt64())
+  name.vb: Write(UInt64())
+- uid: SuperOffice.IO.SerializationWriter.Write(System.UInt16[])
+  commentId: M:SuperOffice.IO.SerializationWriter.Write(System.UInt16[])
+  id: Write(System.UInt16[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(UInt16[])
+  nameWithType: SerializationWriter.Write(UInt16[])
+  fullName: SuperOffice.IO.SerializationWriter.Write(System.UInt16[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a UInt16[] into the stream.\nNotes:\nA null or empty array will take 1 byte.\n"
+  syntax:
+    content: public void Write(ushort[] values)
+    parameters:
+    - id: values
+      type: System.UInt16[]
+      description: The UInt16[] to store.
+    content.vb: Public Sub Write(values As UShort())
+  overload: SuperOffice.IO.SerializationWriter.Write*
+  nameWithType.vb: SerializationWriter.Write(UInt16())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.Write(System.UInt16())
+  name.vb: Write(UInt16())
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Boolean[])
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteOptimized(System.Boolean[])
+  id: WriteOptimized(System.Boolean[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteOptimized(Boolean[])
+  nameWithType: SerializationWriter.WriteOptimized(Boolean[])
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Boolean[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites an optimized Boolean[] into the stream using the fewest possible bytes.\nNotes:\nA null or empty array will take 1 byte.\nStored as a BitArray.\n"
+  syntax:
+    content: public void WriteOptimized(bool[] values)
+    parameters:
+    - id: values
+      type: System.Boolean[]
+      description: The Boolean[] to store.
+    content.vb: Public Sub WriteOptimized(values As Boolean())
+  overload: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  nameWithType.vb: SerializationWriter.WriteOptimized(Boolean())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Boolean())
+  name.vb: WriteOptimized(Boolean())
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized(System.DateTime[])
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteOptimized(System.DateTime[])
+  id: WriteOptimized(System.DateTime[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteOptimized(DateTime[])
+  nameWithType: SerializationWriter.WriteOptimized(DateTime[])
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.DateTime[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a DateTime[] into the stream using the fewest possible bytes.\nNotes:\nA null or empty array will take 1 byte.\n"
+  syntax:
+    content: public void WriteOptimized(DateTime[] values)
+    parameters:
+    - id: values
+      type: System.DateTime[]
+      description: The DateTime[] to store.
+    content.vb: Public Sub WriteOptimized(values As Date())
+  overload: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  nameWithType.vb: SerializationWriter.WriteOptimized(DateTime())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.WriteOptimized(System.DateTime())
+  name.vb: WriteOptimized(DateTime())
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Decimal[])
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteOptimized(System.Decimal[])
+  id: WriteOptimized(System.Decimal[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteOptimized(Decimal[])
+  nameWithType: SerializationWriter.WriteOptimized(Decimal[])
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Decimal[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a Decimal[] into the stream using the fewest possible bytes.\nNotes:\nA null or empty array will take 1 byte.\n"
+  syntax:
+    content: public void WriteOptimized(decimal[] values)
+    parameters:
+    - id: values
+      type: System.Decimal[]
+      description: The Decimal[] to store.
+    content.vb: Public Sub WriteOptimized(values As Decimal())
+  overload: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  nameWithType.vb: SerializationWriter.WriteOptimized(Decimal())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Decimal())
+  name.vb: WriteOptimized(Decimal())
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Object[])
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteOptimized(System.Object[])
+  id: WriteOptimized(System.Object[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteOptimized(Object[])
+  nameWithType: SerializationWriter.WriteOptimized(Object[])
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Object[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a not-null object[] into the stream using the fewest number of bytes possible.\nStored Size: 2 bytes upwards depending on data content\nNotes:\nAn empty object[] takes 1 byte.\nThe contents of the array will be stored optimized.\n"
+  syntax:
+    content: public void WriteOptimized(object[] values)
+    parameters:
+    - id: values
+      type: System.Object[]
+      description: The object[] to store. Must not be null.
+    content.vb: Public Sub WriteOptimized(values As Object())
+  overload: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  nameWithType.vb: SerializationWriter.WriteOptimized(Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Object())
+  name.vb: WriteOptimized(Object())
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Object[],System.Object[])
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteOptimized(System.Object[],System.Object[])
+  id: WriteOptimized(System.Object[],System.Object[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteOptimized(Object[], Object[])
+  nameWithType: SerializationWriter.WriteOptimized(Object[], Object[])
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Object[], System.Object[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a pair of object[] arrays into the stream using the fewest number of bytes possible.\nThe arrays must not be null and must have the same length\nThe first array&apos;s values are written optimized\nThe second array&apos;s values are compared against the first and, where identical, will be stored\nusing a single byte.\nUseful for storing entity data where there is a before-change and after-change set of value pairs\nand, typically, only a few of the values will have changed.\n"
+  syntax:
+    content: public void WriteOptimized(object[] values1, object[] values2)
+    parameters:
+    - id: values1
+      type: System.Object[]
+      description: The first object[] value which must not be null and must have the same length as values2
+    - id: values2
+      type: System.Object[]
+      description: The second object[] value which must not be null and must have the same length as values1
+    content.vb: Public Sub WriteOptimized(values1 As Object(), values2 As Object())
+  overload: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  nameWithType.vb: SerializationWriter.WriteOptimized(Object(), Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Object(), System.Object())
+  name.vb: WriteOptimized(Object(), Object())
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int16[])
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int16[])
+  id: WriteOptimized(System.Int16[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteOptimized(Int16[])
+  nameWithType: SerializationWriter.WriteOptimized(Int16[])
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int16[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites an Int16[] into the stream using the fewest possible bytes.\nNotes:\nA null or empty array will take 1 byte.\n"
+  syntax:
+    content: public void WriteOptimized(short[] values)
+    parameters:
+    - id: values
+      type: System.Int16[]
+      description: The Int16[] to store.
+    content.vb: Public Sub WriteOptimized(values As Short())
+  overload: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  nameWithType.vb: SerializationWriter.WriteOptimized(Int16())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int16())
+  name.vb: WriteOptimized(Int16())
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int32[])
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int32[])
+  id: WriteOptimized(System.Int32[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteOptimized(Int32[])
+  nameWithType: SerializationWriter.WriteOptimized(Int32[])
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int32[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites an Int32[] into the stream using the fewest possible bytes.\nNotes:\nA null or empty array will take 1 byte.\n"
+  syntax:
+    content: public void WriteOptimized(int[] values)
+    parameters:
+    - id: values
+      type: System.Int32[]
+      description: The Int32[] to store.
+    content.vb: Public Sub WriteOptimized(values As Integer())
+  overload: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  nameWithType.vb: SerializationWriter.WriteOptimized(Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int32())
+  name.vb: WriteOptimized(Int32())
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int64[])
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int64[])
+  id: WriteOptimized(System.Int64[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteOptimized(Int64[])
+  nameWithType: SerializationWriter.WriteOptimized(Int64[])
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int64[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites an Int64[] into the stream using the fewest possible bytes.\nNotes:\nA null or empty array will take 1 byte.\n"
+  syntax:
+    content: public void WriteOptimized(long[] values)
+    parameters:
+    - id: values
+      type: System.Int64[]
+      description: The Int64[] to store.
+    content.vb: Public Sub WriteOptimized(values As Long())
+  overload: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  nameWithType.vb: SerializationWriter.WriteOptimized(Int64())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.WriteOptimized(System.Int64())
+  name.vb: WriteOptimized(Int64())
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized(System.TimeSpan[])
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteOptimized(System.TimeSpan[])
+  id: WriteOptimized(System.TimeSpan[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteOptimized(TimeSpan[])
+  nameWithType: SerializationWriter.WriteOptimized(TimeSpan[])
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.TimeSpan[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a TimeSpan[] into the stream using the fewest possible bytes.\nNotes:\nA null or empty array will take 1 byte.\n"
+  syntax:
+    content: public void WriteOptimized(TimeSpan[] values)
+    parameters:
+    - id: values
+      type: System.TimeSpan[]
+      description: The TimeSpan[] to store.
+    content.vb: Public Sub WriteOptimized(values As TimeSpan())
+  overload: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  nameWithType.vb: SerializationWriter.WriteOptimized(TimeSpan())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.WriteOptimized(System.TimeSpan())
+  name.vb: WriteOptimized(TimeSpan())
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt16[])
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt16[])
+  id: WriteOptimized(System.UInt16[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteOptimized(UInt16[])
+  nameWithType: SerializationWriter.WriteOptimized(UInt16[])
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt16[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a UInt16[] into the stream using the fewest possible bytes.\nNotes:\nA null or empty array will take 1 byte.\n"
+  syntax:
+    content: public void WriteOptimized(ushort[] values)
+    parameters:
+    - id: values
+      type: System.UInt16[]
+      description: The UInt16[] to store.
+    content.vb: Public Sub WriteOptimized(values As UShort())
+  overload: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  nameWithType.vb: SerializationWriter.WriteOptimized(UInt16())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt16())
+  name.vb: WriteOptimized(UInt16())
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt32[])
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt32[])
+  id: WriteOptimized(System.UInt32[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteOptimized(UInt32[])
+  nameWithType: SerializationWriter.WriteOptimized(UInt32[])
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt32[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a UInt32[] into the stream using the fewest possible bytes.\nNotes:\nA null or empty array will take 1 byte.\n"
+  syntax:
+    content: public void WriteOptimized(uint[] values)
+    parameters:
+    - id: values
+      type: System.UInt32[]
+      description: The UInt32[] to store.
+    content.vb: Public Sub WriteOptimized(values As UInteger())
+  overload: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  nameWithType.vb: SerializationWriter.WriteOptimized(UInt32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt32())
+  name.vb: WriteOptimized(UInt32())
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt64[])
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt64[])
+  id: WriteOptimized(System.UInt64[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteOptimized(UInt64[])
+  nameWithType: SerializationWriter.WriteOptimized(UInt64[])
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt64[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a UInt64[] into the stream using the fewest possible bytes.\nNotes:\nA null or empty array will take 1 byte.\n"
+  syntax:
+    content: public void WriteOptimized(ulong[] values)
+    parameters:
+    - id: values
+      type: System.UInt64[]
+      description: The UInt64[] to store.
+    content.vb: Public Sub WriteOptimized(values As ULong())
+  overload: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  nameWithType.vb: SerializationWriter.WriteOptimized(UInt64())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.WriteOptimized(System.UInt64())
+  name.vb: WriteOptimized(UInt64())
+- uid: SuperOffice.IO.SerializationWriter.WriteTypedArray(System.Array)
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteTypedArray(System.Array)
+  id: WriteTypedArray(System.Array)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteTypedArray(Array)
+  nameWithType: SerializationWriter.WriteTypedArray(Array)
+  fullName: SuperOffice.IO.SerializationWriter.WriteTypedArray(System.Array)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a null or a typed array into the stream.\n"
+  syntax:
+    content: public void WriteTypedArray(Array values)
+    parameters:
+    - id: values
+      type: System.Array
+      description: The array to store.
+    content.vb: Public Sub WriteTypedArray(values As Array)
+  overload: SuperOffice.IO.SerializationWriter.WriteTypedArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.AppendTokenTables
+  commentId: M:SuperOffice.IO.SerializationWriter.AppendTokenTables
+  id: AppendTokenTables
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: AppendTokenTables()
+  nameWithType: SerializationWriter.AppendTokenTables()
+  fullName: SuperOffice.IO.SerializationWriter.AppendTokenTables()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites the contents of the string and object token tables into the stream.\nAlso write the starting offset into the first 4 bytes of the stream.\nNotes:\nCalled automatically by ToArray().\nCan be used to ensure that the complete graph is written before using an\nalternate technique of extracting a Byte[] such as using compression on\nthe underlying stream.\n"
+  syntax:
+    content: public int AppendTokenTables()
+    return:
+      type: System.Int32
+      description: The length of the string and object tables.
+    content.vb: Public Function AppendTokenTables As Integer
+  overload: SuperOffice.IO.SerializationWriter.AppendTokenTables*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.ToArray
+  commentId: M:SuperOffice.IO.SerializationWriter.ToArray
+  id: ToArray
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: ToArray()
+  nameWithType: SerializationWriter.ToArray()
+  fullName: SuperOffice.IO.SerializationWriter.ToArray()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a byte[] containing all of the serialized data.\n\nThe current implementation has the data in 3 sections:\n1) A 4 byte Int32 giving the offset to the 3rd section.\n2) The main serialized data.\n3) The serialized string tokenization lists and object\ntokenization lists.\n\nOnly call this method once all of the data has been serialized.\n\nThis method appends all of the tokenized data (string and object)\nto the end of the stream and ensures that the first four bytes\nreflect the offset of the tokenized data so that it can be\ndeserialized first.\nThis is the reason for requiring a rewindable stream.\n\nFuture implementations may also allow the serialized data to be\naccessed via 2 byte[] arrays. This would remove the requirement\nfor a rewindable stream opening the possibility of streaming the\nserialized data directly over the network allowing simultaneous\nof partially simultaneous deserialization.\n"
+  syntax:
+    content: public byte[] ToArray()
+    return:
+      type: System.Byte[]
+      description: A byte[] containing all serialized data.
+    content.vb: Public Function ToArray As Byte()
+  overload: SuperOffice.IO.SerializationWriter.ToArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.ToStream
+  commentId: M:SuperOffice.IO.SerializationWriter.ToStream
+  id: ToStream
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: ToStream()
+  nameWithType: SerializationWriter.ToStream()
+  fullName: SuperOffice.IO.SerializationWriter.ToStream()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a Stream containing all of the serialized data.\n"
+  syntax:
+    content: public Stream ToStream()
+    return:
+      type: System.IO.Stream
+      description: Stream containing all serialized data
+    content.vb: Public Function ToStream As Stream
+  overload: SuperOffice.IO.SerializationWriter.ToStream*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.WriteBytesDirect(System.Byte[])
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteBytesDirect(System.Byte[])
+  id: WriteBytesDirect(System.Byte[])
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteBytesDirect(Byte[])
+  nameWithType: SerializationWriter.WriteBytesDirect(Byte[])
+  fullName: SuperOffice.IO.SerializationWriter.WriteBytesDirect(System.Byte[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a byte[] directly into the stream.\nThe size of the array is not stored so only use this method when\nthe number of bytes will be known at deserialization time.\n\nA null value will throw an exception\n"
+  syntax:
+    content: public void WriteBytesDirect(byte[] value)
+    parameters:
+    - id: value
+      type: System.Byte[]
+      description: The byte[] to store. Must not be null.
+    content.vb: Public Sub WriteBytesDirect(value As Byte())
+  overload: SuperOffice.IO.SerializationWriter.WriteBytesDirect*
+  nameWithType.vb: SerializationWriter.WriteBytesDirect(Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationWriter.WriteBytesDirect(System.Byte())
+  name.vb: WriteBytesDirect(Byte())
+- uid: SuperOffice.IO.SerializationWriter.WriteStringDirect(System.String)
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteStringDirect(System.String)
+  id: WriteStringDirect(System.String)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteStringDirect(String)
+  nameWithType: SerializationWriter.WriteStringDirect(String)
+  fullName: SuperOffice.IO.SerializationWriter.WriteStringDirect(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a non-null string directly to the stream without tokenization.\n"
+  syntax:
+    content: public void WriteStringDirect(string value)
+    parameters:
+    - id: value
+      type: System.String
+      description: The string to store. Must not be null.
+    content.vb: Public Sub WriteStringDirect(value As String)
+  overload: SuperOffice.IO.SerializationWriter.WriteStringDirect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.WriteTokenizedObject(System.Object)
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteTokenizedObject(System.Object)
+  id: WriteTokenizedObject(System.Object)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteTokenizedObject(Object)
+  nameWithType: SerializationWriter.WriteTokenizedObject(Object)
+  fullName: SuperOffice.IO.SerializationWriter.WriteTokenizedObject(System.Object)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a token (an Int32 taking 1 to 4 bytes) into the stream that represents the object instance.\nThe same token will always be used for the same object instance.\n\nThe object will be serialized once and recreated at deserialization time.\nCalls to SerializationReader.ReadTokenizedObject() will retrieve the same object instance.\n\n"
+  syntax:
+    content: public void WriteTokenizedObject(object value)
+    parameters:
+    - id: value
+      type: System.Object
+      description: The object to tokenize. Must not be null and must not be a string.
+    content.vb: Public Sub WriteTokenizedObject(value As Object)
+  overload: SuperOffice.IO.SerializationWriter.WriteTokenizedObject*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.WriteTokenizedObject(System.Object,System.Boolean)
+  commentId: M:SuperOffice.IO.SerializationWriter.WriteTokenizedObject(System.Object,System.Boolean)
+  id: WriteTokenizedObject(System.Object,System.Boolean)
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteTokenizedObject(Object, Boolean)
+  nameWithType: SerializationWriter.WriteTokenizedObject(Object, Boolean)
+  fullName: SuperOffice.IO.SerializationWriter.WriteTokenizedObject(System.Object, System.Boolean)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrites a token (an Int32 taking 1 to 4 bytes) into the stream that represents the object instance.\nThe same token will always be used for the same object instance.\n\nWhen recreateFromType is set to true, the object&apos;s Type will be stored and the object recreated using \nActivator.GetInstance with a parameterless contructor. This is useful for stateless, factory-type classes.\n\nWhen recreateFromType is set to false, the object will be serialized once and recreated at deserialization time.\n\nCalls to SerializationReader.ReadTokenizedObject() will retrieve the same object instance.\n"
+  syntax:
+    content: public void WriteTokenizedObject(object value, bool recreateFromType)
+    parameters:
+    - id: value
+      type: System.Object
+      description: The object to tokenize. Must not be null and must not be a string.
+    - id: recreateFromType
+      type: System.Boolean
+      description: "true if the object can be recreated using a parameterless constructor; \nfalse if the object should be serialized as-is"
+    content.vb: Public Sub WriteTokenizedObject(value As Object, recreateFromType As Boolean)
+  overload: SuperOffice.IO.SerializationWriter.WriteTokenizedObject*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.DumpTypeUsage
+  commentId: M:SuperOffice.IO.SerializationWriter.DumpTypeUsage
+  id: DumpTypeUsage
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: DumpTypeUsage()
+  nameWithType: SerializationWriter.DumpTypeUsage()
+  fullName: SuperOffice.IO.SerializationWriter.DumpTypeUsage()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  syntax:
+    content: >-
+      [Conditional("DEBUG")]
+
+      public void DumpTypeUsage()
+    content.vb: >-
+      <Conditional("DEBUG")>
+
+      Public Sub DumpTypeUsage
+  overload: SuperOffice.IO.SerializationWriter.DumpTypeUsage*
+  attributes:
+  - type: System.Diagnostics.ConditionalAttribute
+    ctor: System.Diagnostics.ConditionalAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: DEBUG
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.TypeSurrogates
+  commentId: P:SuperOffice.IO.SerializationWriter.TypeSurrogates
+  id: TypeSurrogates
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: TypeSurrogates
+  nameWithType: SerializationWriter.TypeSurrogates
+  fullName: SuperOffice.IO.SerializationWriter.TypeSurrogates
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nHolds a list of optional IFastSerializationTypeSurrogate instances which\nSerializationWriter and SerializationReader will use to serialize objects\nnot directly supported.\nIt is important to use the same list on both client and server ends to ensure\nthat the same surrogated-types are supported.\n"
+  syntax:
+    content: public static ArrayList TypeSurrogates { get; }
+    parameters: []
+    return:
+      type: System.Collections.ArrayList
+    content.vb: Public Shared ReadOnly Property TypeSurrogates As ArrayList
+  overload: SuperOffice.IO.SerializationWriter.TypeSurrogates*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.IO.SerializationWriter.OptimizeForSize
+  commentId: P:SuperOffice.IO.SerializationWriter.OptimizeForSize
+  id: OptimizeForSize
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: OptimizeForSize
+  nameWithType: SerializationWriter.OptimizeForSize
+  fullName: SuperOffice.IO.SerializationWriter.OptimizeForSize
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nGets or Sets a boolean flag to indicate whether to optimize for size (default)\nby storing data as packed bits or sections where possible.\nSetting this value to false will turn off this optimization and store\ndata directly which increases the speed.\nNote: This only affects optimization of data passed to the WriteObject method\nand direct calls to the WriteOptimized methods will always pack data into\nthe smallest space where possible.\n"
+  syntax:
+    content: public bool OptimizeForSize { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property OptimizeForSize As Boolean
+  overload: SuperOffice.IO.SerializationWriter.OptimizeForSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationWriter.PreserveDecimalScale
+  commentId: P:SuperOffice.IO.SerializationWriter.PreserveDecimalScale
+  id: PreserveDecimalScale
+  parent: SuperOffice.IO.SerializationWriter
+  langs:
+  - csharp
+  - vb
+  name: PreserveDecimalScale
+  nameWithType: SerializationWriter.PreserveDecimalScale
+  fullName: SuperOffice.IO.SerializationWriter.PreserveDecimalScale
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nGets or Sets a boolean flag to indicate whether to preserve the scale within\na Decimal value when it would have no effect on the represented value.\nNote: a 2m value and a 2.00m value represent the same value but internally they \nare stored differently - the former has a value of 2 and a scale of 0 and\nthe latter has a value of 200 and a scale of 2. \nThe scaling factor also preserves any trailing zeroes in a Decimal number. \nTrailing zeroes do not affect the value of a Decimal number in arithmetic or \ncomparison operations. However, trailing zeroes can be revealed by the ToString \nmethod if an appropriate format string is applied.\nFrom a serialization point of view, the former will take 2 bytes whereas the \nlatter would take 4 bytes, therefore it is preferable to not save the scale where\nit doesn&apos;t affect the represented value.\n"
+  syntax:
+    content: public bool PreserveDecimalScale { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PreserveDecimalScale As Boolean
+  overload: SuperOffice.IO.SerializationWriter.PreserveDecimalScale*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.IO
+  commentId: N:SuperOffice.IO
+  isExternal: true
+  name: SuperOffice.IO
+  nameWithType: SuperOffice.IO
+  fullName: SuperOffice.IO
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IO.BinaryWriter
+  commentId: T:System.IO.BinaryWriter
+  parent: System.IO
+  isExternal: true
+  name: BinaryWriter
+  nameWithType: BinaryWriter
+  fullName: System.IO.BinaryWriter
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.IO.BinaryWriter.Null
+  commentId: F:System.IO.BinaryWriter.Null
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: "Null"
+  nameWithType: BinaryWriter.Null
+  fullName: System.IO.BinaryWriter.Null
+- uid: System.IO.BinaryWriter.OutStream
+  commentId: F:System.IO.BinaryWriter.OutStream
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: OutStream
+  nameWithType: BinaryWriter.OutStream
+  fullName: System.IO.BinaryWriter.OutStream
+- uid: System.IO.BinaryWriter.Close
+  commentId: M:System.IO.BinaryWriter.Close
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: Close()
+  nameWithType: BinaryWriter.Close()
+  fullName: System.IO.BinaryWriter.Close()
+  spec.csharp:
+  - uid: System.IO.BinaryWriter.Close
+    name: Close
+    nameWithType: BinaryWriter.Close
+    fullName: System.IO.BinaryWriter.Close
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryWriter.Close
+    name: Close
+    nameWithType: BinaryWriter.Close
+    fullName: System.IO.BinaryWriter.Close
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryWriter.Dispose(System.Boolean)
+  commentId: M:System.IO.BinaryWriter.Dispose(System.Boolean)
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: Dispose(Boolean)
+  nameWithType: BinaryWriter.Dispose(Boolean)
+  fullName: System.IO.BinaryWriter.Dispose(System.Boolean)
+  spec.csharp:
+  - uid: System.IO.BinaryWriter.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: BinaryWriter.Dispose
+    fullName: System.IO.BinaryWriter.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryWriter.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: BinaryWriter.Dispose
+    fullName: System.IO.BinaryWriter.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryWriter.Dispose
+  commentId: M:System.IO.BinaryWriter.Dispose
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: Dispose()
+  nameWithType: BinaryWriter.Dispose()
+  fullName: System.IO.BinaryWriter.Dispose()
+  spec.csharp:
+  - uid: System.IO.BinaryWriter.Dispose
+    name: Dispose
+    nameWithType: BinaryWriter.Dispose
+    fullName: System.IO.BinaryWriter.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryWriter.Dispose
+    name: Dispose
+    nameWithType: BinaryWriter.Dispose
+    fullName: System.IO.BinaryWriter.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryWriter.Flush
+  commentId: M:System.IO.BinaryWriter.Flush
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: Flush()
+  nameWithType: BinaryWriter.Flush()
+  fullName: System.IO.BinaryWriter.Flush()
+  spec.csharp:
+  - uid: System.IO.BinaryWriter.Flush
+    name: Flush
+    nameWithType: BinaryWriter.Flush
+    fullName: System.IO.BinaryWriter.Flush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryWriter.Flush
+    name: Flush
+    nameWithType: BinaryWriter.Flush
+    fullName: System.IO.BinaryWriter.Flush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryWriter.Seek(System.Int32,System.IO.SeekOrigin)
+  commentId: M:System.IO.BinaryWriter.Seek(System.Int32,System.IO.SeekOrigin)
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: Seek(Int32, SeekOrigin)
+  nameWithType: BinaryWriter.Seek(Int32, SeekOrigin)
+  fullName: System.IO.BinaryWriter.Seek(System.Int32, System.IO.SeekOrigin)
+  spec.csharp:
+  - uid: System.IO.BinaryWriter.Seek(System.Int32,System.IO.SeekOrigin)
+    name: Seek
+    nameWithType: BinaryWriter.Seek
+    fullName: System.IO.BinaryWriter.Seek
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.SeekOrigin
+    name: SeekOrigin
+    nameWithType: SeekOrigin
+    fullName: System.IO.SeekOrigin
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryWriter.Seek(System.Int32,System.IO.SeekOrigin)
+    name: Seek
+    nameWithType: BinaryWriter.Seek
+    fullName: System.IO.BinaryWriter.Seek
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.SeekOrigin
+    name: SeekOrigin
+    nameWithType: SeekOrigin
+    fullName: System.IO.SeekOrigin
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryWriter.Write(System.Boolean)
+  commentId: M:System.IO.BinaryWriter.Write(System.Boolean)
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: Write(Boolean)
+  nameWithType: BinaryWriter.Write(Boolean)
+  fullName: System.IO.BinaryWriter.Write(System.Boolean)
+  spec.csharp:
+  - uid: System.IO.BinaryWriter.Write(System.Boolean)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryWriter.Write(System.Boolean)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryWriter.Write(System.Byte)
+  commentId: M:System.IO.BinaryWriter.Write(System.Byte)
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: Write(Byte)
+  nameWithType: BinaryWriter.Write(Byte)
+  fullName: System.IO.BinaryWriter.Write(System.Byte)
+  spec.csharp:
+  - uid: System.IO.BinaryWriter.Write(System.Byte)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryWriter.Write(System.Byte)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryWriter.Write(System.SByte)
+  commentId: M:System.IO.BinaryWriter.Write(System.SByte)
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: Write(SByte)
+  nameWithType: BinaryWriter.Write(SByte)
+  fullName: System.IO.BinaryWriter.Write(System.SByte)
+  spec.csharp:
+  - uid: System.IO.BinaryWriter.Write(System.SByte)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.SByte
+    name: SByte
+    nameWithType: SByte
+    fullName: System.SByte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryWriter.Write(System.SByte)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.SByte
+    name: SByte
+    nameWithType: SByte
+    fullName: System.SByte
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryWriter.Write(System.Byte[],System.Int32,System.Int32)
+  commentId: M:System.IO.BinaryWriter.Write(System.Byte[],System.Int32,System.Int32)
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: Write(Byte[], Int32, Int32)
+  nameWithType: BinaryWriter.Write(Byte[], Int32, Int32)
+  fullName: System.IO.BinaryWriter.Write(System.Byte[], System.Int32, System.Int32)
+  nameWithType.vb: BinaryWriter.Write(Byte(), Int32, Int32)
+  fullName.vb: System.IO.BinaryWriter.Write(System.Byte(), System.Int32, System.Int32)
+  name.vb: Write(Byte(), Int32, Int32)
+  spec.csharp:
+  - uid: System.IO.BinaryWriter.Write(System.Byte[],System.Int32,System.Int32)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryWriter.Write(System.Byte[],System.Int32,System.Int32)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryWriter.Write(System.Char)
+  commentId: M:System.IO.BinaryWriter.Write(System.Char)
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: Write(Char)
+  nameWithType: BinaryWriter.Write(Char)
+  fullName: System.IO.BinaryWriter.Write(System.Char)
+  spec.csharp:
+  - uid: System.IO.BinaryWriter.Write(System.Char)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryWriter.Write(System.Char)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryWriter.Write(System.Char[],System.Int32,System.Int32)
+  commentId: M:System.IO.BinaryWriter.Write(System.Char[],System.Int32,System.Int32)
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: Write(Char[], Int32, Int32)
+  nameWithType: BinaryWriter.Write(Char[], Int32, Int32)
+  fullName: System.IO.BinaryWriter.Write(System.Char[], System.Int32, System.Int32)
+  nameWithType.vb: BinaryWriter.Write(Char(), Int32, Int32)
+  fullName.vb: System.IO.BinaryWriter.Write(System.Char(), System.Int32, System.Int32)
+  name.vb: Write(Char(), Int32, Int32)
+  spec.csharp:
+  - uid: System.IO.BinaryWriter.Write(System.Char[],System.Int32,System.Int32)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryWriter.Write(System.Char[],System.Int32,System.Int32)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryWriter.Write(System.Double)
+  commentId: M:System.IO.BinaryWriter.Write(System.Double)
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: Write(Double)
+  nameWithType: BinaryWriter.Write(Double)
+  fullName: System.IO.BinaryWriter.Write(System.Double)
+  spec.csharp:
+  - uid: System.IO.BinaryWriter.Write(System.Double)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryWriter.Write(System.Double)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryWriter.Write(System.Decimal)
+  commentId: M:System.IO.BinaryWriter.Write(System.Decimal)
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: Write(Decimal)
+  nameWithType: BinaryWriter.Write(Decimal)
+  fullName: System.IO.BinaryWriter.Write(System.Decimal)
+  spec.csharp:
+  - uid: System.IO.BinaryWriter.Write(System.Decimal)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Decimal
+    name: Decimal
+    nameWithType: Decimal
+    fullName: System.Decimal
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryWriter.Write(System.Decimal)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Decimal
+    name: Decimal
+    nameWithType: Decimal
+    fullName: System.Decimal
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryWriter.Write(System.Int16)
+  commentId: M:System.IO.BinaryWriter.Write(System.Int16)
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: Write(Int16)
+  nameWithType: BinaryWriter.Write(Int16)
+  fullName: System.IO.BinaryWriter.Write(System.Int16)
+  spec.csharp:
+  - uid: System.IO.BinaryWriter.Write(System.Int16)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int16
+    name: Int16
+    nameWithType: Int16
+    fullName: System.Int16
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryWriter.Write(System.Int16)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int16
+    name: Int16
+    nameWithType: Int16
+    fullName: System.Int16
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryWriter.Write(System.UInt16)
+  commentId: M:System.IO.BinaryWriter.Write(System.UInt16)
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: Write(UInt16)
+  nameWithType: BinaryWriter.Write(UInt16)
+  fullName: System.IO.BinaryWriter.Write(System.UInt16)
+  spec.csharp:
+  - uid: System.IO.BinaryWriter.Write(System.UInt16)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryWriter.Write(System.UInt16)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryWriter.Write(System.Int32)
+  commentId: M:System.IO.BinaryWriter.Write(System.Int32)
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: Write(Int32)
+  nameWithType: BinaryWriter.Write(Int32)
+  fullName: System.IO.BinaryWriter.Write(System.Int32)
+  spec.csharp:
+  - uid: System.IO.BinaryWriter.Write(System.Int32)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryWriter.Write(System.Int32)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryWriter.Write(System.UInt32)
+  commentId: M:System.IO.BinaryWriter.Write(System.UInt32)
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: Write(UInt32)
+  nameWithType: BinaryWriter.Write(UInt32)
+  fullName: System.IO.BinaryWriter.Write(System.UInt32)
+  spec.csharp:
+  - uid: System.IO.BinaryWriter.Write(System.UInt32)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryWriter.Write(System.UInt32)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryWriter.Write(System.Int64)
+  commentId: M:System.IO.BinaryWriter.Write(System.Int64)
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: Write(Int64)
+  nameWithType: BinaryWriter.Write(Int64)
+  fullName: System.IO.BinaryWriter.Write(System.Int64)
+  spec.csharp:
+  - uid: System.IO.BinaryWriter.Write(System.Int64)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryWriter.Write(System.Int64)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryWriter.Write(System.UInt64)
+  commentId: M:System.IO.BinaryWriter.Write(System.UInt64)
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: Write(UInt64)
+  nameWithType: BinaryWriter.Write(UInt64)
+  fullName: System.IO.BinaryWriter.Write(System.UInt64)
+  spec.csharp:
+  - uid: System.IO.BinaryWriter.Write(System.UInt64)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.UInt64
+    name: UInt64
+    nameWithType: UInt64
+    fullName: System.UInt64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryWriter.Write(System.UInt64)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.UInt64
+    name: UInt64
+    nameWithType: UInt64
+    fullName: System.UInt64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryWriter.Write(System.Single)
+  commentId: M:System.IO.BinaryWriter.Write(System.Single)
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: Write(Single)
+  nameWithType: BinaryWriter.Write(Single)
+  fullName: System.IO.BinaryWriter.Write(System.Single)
+  spec.csharp:
+  - uid: System.IO.BinaryWriter.Write(System.Single)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryWriter.Write(System.Single)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryWriter.Write7BitEncodedInt(System.Int32)
+  commentId: M:System.IO.BinaryWriter.Write7BitEncodedInt(System.Int32)
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: Write7BitEncodedInt(Int32)
+  nameWithType: BinaryWriter.Write7BitEncodedInt(Int32)
+  fullName: System.IO.BinaryWriter.Write7BitEncodedInt(System.Int32)
+  spec.csharp:
+  - uid: System.IO.BinaryWriter.Write7BitEncodedInt(System.Int32)
+    name: Write7BitEncodedInt
+    nameWithType: BinaryWriter.Write7BitEncodedInt
+    fullName: System.IO.BinaryWriter.Write7BitEncodedInt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryWriter.Write7BitEncodedInt(System.Int32)
+    name: Write7BitEncodedInt
+    nameWithType: BinaryWriter.Write7BitEncodedInt
+    fullName: System.IO.BinaryWriter.Write7BitEncodedInt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryWriter.BaseStream
+  commentId: P:System.IO.BinaryWriter.BaseStream
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: BaseStream
+  nameWithType: BinaryWriter.BaseStream
+  fullName: System.IO.BinaryWriter.BaseStream
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.SerializationWriter.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SerializationWriter, To>()
+  nameWithType: EnumUtil.MapEnums<SerializationWriter, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.IO.SerializationWriter, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SerializationWriter, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.IO.SerializationWriter, To)()
+  name.vb: MapEnums(Of SerializationWriter, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SerializationWriter, To>
+    nameWithType: EnumUtil.MapEnums<SerializationWriter, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.IO.SerializationWriter, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SerializationWriter, To)
+    nameWithType: EnumUtil.MapEnums(Of SerializationWriter, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.IO.SerializationWriter, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.SerializationWriter.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.IO.SerializationWriter)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SerializationWriter>(SerializationWriter)
+  nameWithType: ObjectExtensions.AssignByReflection<SerializationWriter>(SerializationWriter)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.IO.SerializationWriter>(SuperOffice.IO.SerializationWriter)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SerializationWriter)(SerializationWriter)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.IO.SerializationWriter)(SuperOffice.IO.SerializationWriter)
+  name.vb: AssignByReflection(Of SerializationWriter)(SerializationWriter)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SerializationWriter>
+    nameWithType: ObjectExtensions.AssignByReflection<SerializationWriter>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.IO.SerializationWriter>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.IO.SerializationWriter
+    name: SerializationWriter
+    nameWithType: SerializationWriter
+    fullName: SuperOffice.IO.SerializationWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SerializationWriter)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SerializationWriter)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.IO.SerializationWriter)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.IO.SerializationWriter
+    name: SerializationWriter
+    nameWithType: SerializationWriter
+    fullName: SuperOffice.IO.SerializationWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.SerializationWriter.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SerializationWriter>()
+  nameWithType: ObjectExtensions.GraphCopy<SerializationWriter>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.IO.SerializationWriter>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SerializationWriter)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.IO.SerializationWriter)()
+  name.vb: GraphCopy(Of SerializationWriter)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SerializationWriter>
+    nameWithType: ObjectExtensions.GraphCopy<SerializationWriter>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.IO.SerializationWriter>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SerializationWriter)
+    nameWithType: ObjectExtensions.GraphCopy(Of SerializationWriter)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.IO.SerializationWriter)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.SerializationWriter.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SerializationWriter, To>()
+  nameWithType: Converters.MapEnums<SerializationWriter, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.SerializationWriter, To>()
+  nameWithType.vb: Converters.MapEnums(Of SerializationWriter, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.SerializationWriter, To)()
+  name.vb: MapEnums(Of SerializationWriter, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SerializationWriter, To>
+    nameWithType: Converters.MapEnums<SerializationWriter, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.SerializationWriter, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SerializationWriter, To)
+    nameWithType: Converters.MapEnums(Of SerializationWriter, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.SerializationWriter, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: SuperOffice.IO.SerializationWriter.#ctor*
+  commentId: Overload:SuperOffice.IO.SerializationWriter.#ctor
+  isExternal: true
+  name: SerializationWriter
+  nameWithType: SerializationWriter.SerializationWriter
+  fullName: SuperOffice.IO.SerializationWriter.SerializationWriter
+- uid: SuperOffice.IO.SerializationWriter.Write*
+  commentId: Overload:SuperOffice.IO.SerializationWriter.Write
+  isExternal: true
+  name: Write
+  nameWithType: SerializationWriter.Write
+  fullName: SuperOffice.IO.SerializationWriter.Write
+- uid: System.Collections.ArrayList
+  commentId: T:System.Collections.ArrayList
+  parent: System.Collections
+  isExternal: true
+  name: ArrayList
+  nameWithType: ArrayList
+  fullName: System.Collections.ArrayList
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: System.Collections.BitArray
+  commentId: T:System.Collections.BitArray
+  parent: System.Collections
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: System.Collections.BitArray
+- uid: System.Collections.Specialized.BitVector32
+  isExternal: true
+  name: BitVector32
+  nameWithType: BitVector32
+  fullName: System.Collections.Specialized.BitVector32
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: SuperOffice.IO.IOwnedDataSerializable
+  commentId: T:SuperOffice.IO.IOwnedDataSerializable
+  parent: SuperOffice.IO
+  isExternal: true
+  name: IOwnedDataSerializable
+  nameWithType: IOwnedDataSerializable
+  fullName: SuperOffice.IO.IOwnedDataSerializable
+- uid: SuperOffice.IO.SerializationWriter.WriteObject*
+  commentId: Overload:SuperOffice.IO.SerializationWriter.WriteObject
+  isExternal: true
+  name: WriteObject
+  nameWithType: SerializationWriter.WriteObject
+  fullName: SuperOffice.IO.SerializationWriter.WriteObject
+- uid: System.IO.BinaryWriter.Write(System.String)
+  commentId: M:System.IO.BinaryWriter.Write(System.String)
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: Write(String)
+  nameWithType: BinaryWriter.Write(String)
+  fullName: System.IO.BinaryWriter.Write(System.String)
+  spec.csharp:
+  - uid: System.IO.BinaryWriter.Write(System.String)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryWriter.Write(System.String)
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: SuperOffice.IO.SerializationWriter.WriteOptimized*
+  commentId: Overload:SuperOffice.IO.SerializationWriter.WriteOptimized
+  isExternal: true
+  name: WriteOptimized
+  nameWithType: SerializationWriter.WriteOptimized
+  fullName: SuperOffice.IO.SerializationWriter.WriteOptimized
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  name: UInt64
+  nameWithType: UInt64
+  fullName: System.UInt64
+- uid: System.Boolean[]
+  isExternal: true
+  name: Boolean[]
+  nameWithType: Boolean[]
+  fullName: System.Boolean[]
+  nameWithType.vb: Boolean()
+  fullName.vb: System.Boolean()
+  name.vb: Boolean()
+  spec.csharp:
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.IO.BinaryWriter.Write(System.Byte[])
+  commentId: M:System.IO.BinaryWriter.Write(System.Byte[])
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: Write(Byte[])
+  nameWithType: BinaryWriter.Write(Byte[])
+  fullName: System.IO.BinaryWriter.Write(System.Byte[])
+  nameWithType.vb: BinaryWriter.Write(Byte())
+  fullName.vb: System.IO.BinaryWriter.Write(System.Byte())
+  name.vb: Write(Byte())
+  spec.csharp:
+  - uid: System.IO.BinaryWriter.Write(System.Byte[])
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryWriter.Write(System.Byte[])
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.IO.BinaryWriter.Write(System.Char[])
+  commentId: M:System.IO.BinaryWriter.Write(System.Char[])
+  parent: System.IO.BinaryWriter
+  isExternal: true
+  name: Write(Char[])
+  nameWithType: BinaryWriter.Write(Char[])
+  fullName: System.IO.BinaryWriter.Write(System.Char[])
+  nameWithType.vb: BinaryWriter.Write(Char())
+  fullName.vb: System.IO.BinaryWriter.Write(System.Char())
+  name.vb: Write(Char())
+  spec.csharp:
+  - uid: System.IO.BinaryWriter.Write(System.Char[])
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryWriter.Write(System.Char[])
+    name: Write
+    nameWithType: BinaryWriter.Write
+    fullName: System.IO.BinaryWriter.Write
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Char[]
+  isExternal: true
+  name: Char[]
+  nameWithType: Char[]
+  fullName: System.Char[]
+  nameWithType.vb: Char()
+  fullName.vb: System.Char()
+  name.vb: Char()
+  spec.csharp:
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.DateTime[]
+  isExternal: true
+  name: DateTime[]
+  nameWithType: DateTime[]
+  fullName: System.DateTime[]
+  nameWithType.vb: DateTime()
+  fullName.vb: System.DateTime()
+  name.vb: DateTime()
+  spec.csharp:
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Decimal[]
+  isExternal: true
+  name: Decimal[]
+  nameWithType: Decimal[]
+  fullName: System.Decimal[]
+  nameWithType.vb: Decimal()
+  fullName.vb: System.Decimal()
+  name.vb: Decimal()
+  spec.csharp:
+  - uid: System.Decimal
+    name: Decimal
+    nameWithType: Decimal
+    fullName: System.Decimal
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Decimal
+    name: Decimal
+    nameWithType: Decimal
+    fullName: System.Decimal
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Double[]
+  isExternal: true
+  name: Double[]
+  nameWithType: Double[]
+  fullName: System.Double[]
+  nameWithType.vb: Double()
+  fullName.vb: System.Double()
+  name.vb: Double()
+  spec.csharp:
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Single[]
+  isExternal: true
+  name: Single[]
+  nameWithType: Single[]
+  fullName: System.Single[]
+  nameWithType.vb: Single()
+  fullName.vb: System.Single()
+  name.vb: Single()
+  spec.csharp:
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Guid[]
+  isExternal: true
+  name: Guid[]
+  nameWithType: Guid[]
+  fullName: System.Guid[]
+  nameWithType.vb: Guid()
+  fullName.vb: System.Guid()
+  name.vb: Guid()
+  spec.csharp:
+  - uid: System.Guid
+    name: Guid
+    nameWithType: Guid
+    fullName: System.Guid
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Guid
+    name: Guid
+    nameWithType: Guid
+    fullName: System.Guid
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int64[]
+  isExternal: true
+  name: Int64[]
+  nameWithType: Int64[]
+  fullName: System.Int64[]
+  nameWithType.vb: Int64()
+  fullName.vb: System.Int64()
+  name.vb: Int64()
+  spec.csharp:
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.SByte[]
+  isExternal: true
+  name: SByte[]
+  nameWithType: SByte[]
+  fullName: System.SByte[]
+  nameWithType.vb: SByte()
+  fullName.vb: System.SByte()
+  name.vb: SByte()
+  spec.csharp:
+  - uid: System.SByte
+    name: SByte
+    nameWithType: SByte
+    fullName: System.SByte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.SByte
+    name: SByte
+    nameWithType: SByte
+    fullName: System.SByte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int16[]
+  isExternal: true
+  name: Int16[]
+  nameWithType: Int16[]
+  fullName: System.Int16[]
+  nameWithType.vb: Int16()
+  fullName.vb: System.Int16()
+  name.vb: Int16()
+  spec.csharp:
+  - uid: System.Int16
+    name: Int16
+    nameWithType: Int16
+    fullName: System.Int16
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int16
+    name: Int16
+    nameWithType: Int16
+    fullName: System.Int16
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.TimeSpan[]
+  isExternal: true
+  name: TimeSpan[]
+  nameWithType: TimeSpan[]
+  fullName: System.TimeSpan[]
+  nameWithType.vb: TimeSpan()
+  fullName.vb: System.TimeSpan()
+  name.vb: TimeSpan()
+  spec.csharp:
+  - uid: System.TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: System.TimeSpan
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: System.TimeSpan
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.UInt32[]
+  isExternal: true
+  name: UInt32[]
+  nameWithType: UInt32[]
+  fullName: System.UInt32[]
+  nameWithType.vb: UInt32()
+  fullName.vb: System.UInt32()
+  name.vb: UInt32()
+  spec.csharp:
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.UInt64[]
+  isExternal: true
+  name: UInt64[]
+  nameWithType: UInt64[]
+  fullName: System.UInt64[]
+  nameWithType.vb: UInt64()
+  fullName.vb: System.UInt64()
+  name.vb: UInt64()
+  spec.csharp:
+  - uid: System.UInt64
+    name: UInt64
+    nameWithType: UInt64
+    fullName: System.UInt64
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.UInt64
+    name: UInt64
+    nameWithType: UInt64
+    fullName: System.UInt64
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.UInt16[]
+  isExternal: true
+  name: UInt16[]
+  nameWithType: UInt16[]
+  fullName: System.UInt16[]
+  nameWithType.vb: UInt16()
+  fullName.vb: System.UInt16()
+  name.vb: UInt16()
+  spec.csharp:
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.IO.SerializationWriter.WriteTypedArray*
+  commentId: Overload:SuperOffice.IO.SerializationWriter.WriteTypedArray
+  isExternal: true
+  name: WriteTypedArray
+  nameWithType: SerializationWriter.WriteTypedArray
+  fullName: SuperOffice.IO.SerializationWriter.WriteTypedArray
+- uid: System.Array
+  commentId: T:System.Array
+  parent: System
+  isExternal: true
+  name: Array
+  nameWithType: Array
+  fullName: System.Array
+- uid: SuperOffice.IO.SerializationWriter.AppendTokenTables*
+  commentId: Overload:SuperOffice.IO.SerializationWriter.AppendTokenTables
+  isExternal: true
+  name: AppendTokenTables
+  nameWithType: SerializationWriter.AppendTokenTables
+  fullName: SuperOffice.IO.SerializationWriter.AppendTokenTables
+- uid: SuperOffice.IO.SerializationWriter.ToArray*
+  commentId: Overload:SuperOffice.IO.SerializationWriter.ToArray
+  isExternal: true
+  name: ToArray
+  nameWithType: SerializationWriter.ToArray
+  fullName: SuperOffice.IO.SerializationWriter.ToArray
+- uid: SuperOffice.IO.SerializationWriter.ToStream*
+  commentId: Overload:SuperOffice.IO.SerializationWriter.ToStream
+  isExternal: true
+  name: ToStream
+  nameWithType: SerializationWriter.ToStream
+  fullName: SuperOffice.IO.SerializationWriter.ToStream
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: SuperOffice.IO.SerializationWriter.WriteBytesDirect*
+  commentId: Overload:SuperOffice.IO.SerializationWriter.WriteBytesDirect
+  isExternal: true
+  name: WriteBytesDirect
+  nameWithType: SerializationWriter.WriteBytesDirect
+  fullName: SuperOffice.IO.SerializationWriter.WriteBytesDirect
+- uid: SuperOffice.IO.SerializationWriter.WriteStringDirect*
+  commentId: Overload:SuperOffice.IO.SerializationWriter.WriteStringDirect
+  isExternal: true
+  name: WriteStringDirect
+  nameWithType: SerializationWriter.WriteStringDirect
+  fullName: SuperOffice.IO.SerializationWriter.WriteStringDirect
+- uid: SuperOffice.IO.SerializationWriter.WriteTokenizedObject*
+  commentId: Overload:SuperOffice.IO.SerializationWriter.WriteTokenizedObject
+  isExternal: true
+  name: WriteTokenizedObject
+  nameWithType: SerializationWriter.WriteTokenizedObject
+  fullName: SuperOffice.IO.SerializationWriter.WriteTokenizedObject
+- uid: SuperOffice.IO.SerializationWriter.DumpTypeUsage*
+  commentId: Overload:SuperOffice.IO.SerializationWriter.DumpTypeUsage
+  isExternal: true
+  name: DumpTypeUsage
+  nameWithType: SerializationWriter.DumpTypeUsage
+  fullName: SuperOffice.IO.SerializationWriter.DumpTypeUsage
+- uid: SuperOffice.IO.SerializationWriter.TypeSurrogates*
+  commentId: Overload:SuperOffice.IO.SerializationWriter.TypeSurrogates
+  isExternal: true
+  name: TypeSurrogates
+  nameWithType: SerializationWriter.TypeSurrogates
+  fullName: SuperOffice.IO.SerializationWriter.TypeSurrogates
+- uid: SuperOffice.IO.SerializationWriter.OptimizeForSize*
+  commentId: Overload:SuperOffice.IO.SerializationWriter.OptimizeForSize
+  isExternal: true
+  name: OptimizeForSize
+  nameWithType: SerializationWriter.OptimizeForSize
+  fullName: SuperOffice.IO.SerializationWriter.OptimizeForSize
+- uid: SuperOffice.IO.SerializationWriter.PreserveDecimalScale*
+  commentId: Overload:SuperOffice.IO.SerializationWriter.PreserveDecimalScale
+  isExternal: true
+  name: PreserveDecimalScale
+  nameWithType: SerializationWriter.PreserveDecimalScale
+  fullName: SuperOffice.IO.SerializationWriter.PreserveDecimalScale

@@ -1,0 +1,1391 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  commentId: T:SuperOffice.CRM.UserPreferenceStrings.Defaults
+  id: UserPreferenceStrings.Defaults
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.CompleteDocumentOnCheckIn
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppntRememberVisibleFor
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentAppointLength
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentAppointTaskId
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentAppointText
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneLength
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneTaskId
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneText
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentQuoteApprovedTaskId
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentQuoteTaskId
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentToDoLength
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentToDoTaskId
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentToDoText
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentVisibleFor
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultBusiness
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultCategory
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultDecimalPlacesInAmount
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultDocRememberVisibleFor
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultDocumentType
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultDocumentVisibleFor
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultFaxType
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultInvitationTaskId
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultProjectType
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultQuoteDocumentType
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSaleProb
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSaleRememberVisibleFor
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSaleType
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSaleVisibleFor
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSalutationText
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSelectionCategory
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSelectionVisibleFor
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultTimeZone
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.MiniCardFavouriteSelectedSet
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.PhoneLinkFormat
+  - SuperOffice.CRM.UserPreferenceStrings.Defaults.Section
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.Defaults
+  nameWithType: UserPreferenceStrings.Defaults
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault values\n"
+  syntax:
+    content: public static class Defaults
+    content.vb: Public Module Defaults
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.Section
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.Section
+  id: Section
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.Defaults.Section
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.Section
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "Defaults"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "Defaults"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppntRememberVisibleFor
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppntRememberVisibleFor
+  id: DefaultAppntRememberVisibleFor
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAppntRememberVisibleFor
+  nameWithType: UserPreferenceStrings.Defaults.DefaultAppntRememberVisibleFor
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppntRememberVisibleFor
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nUses the same visibility setting for new follow-ups as you used last time. (Default = NO)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultAppntRememberVisibleFor = "DefaultAppntRememberVisibleFor"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAppntRememberVisibleFor As String = "DefaultAppntRememberVisibleFor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentAppointLength
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentAppointLength
+  id: DefaultAppointmentAppointLength
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAppointmentAppointLength
+  nameWithType: UserPreferenceStrings.Defaults.DefaultAppointmentAppointLength
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentAppointLength
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault duration for new appointment\n<p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultAppointmentAppointLength = "DefaultAppointmentAppointLength"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAppointmentAppointLength As String = "DefaultAppointmentAppointLength"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentAppointTaskId
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentAppointTaskId
+  id: DefaultAppointmentAppointTaskId
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAppointmentAppointTaskId
+  nameWithType: UserPreferenceStrings.Defaults.DefaultAppointmentAppointTaskId
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentAppointTaskId
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault type for new appointment\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultAppointmentAppointTaskId = "DefaultAppointmentAppointTaskId"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAppointmentAppointTaskId As String = "DefaultAppointmentAppointTaskId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentAppointText
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentAppointText
+  id: DefaultAppointmentAppointText
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAppointmentAppointText
+  nameWithType: UserPreferenceStrings.Defaults.DefaultAppointmentAppointText
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentAppointText
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault text for new appointment\n<p></p>Control type: Text, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultAppointmentAppointText = "DefaultAppointmentAppointText"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAppointmentAppointText As String = "DefaultAppointmentAppointText"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneLength
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneLength
+  id: DefaultAppointmentPhoneLength
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAppointmentPhoneLength
+  nameWithType: UserPreferenceStrings.Defaults.DefaultAppointmentPhoneLength
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneLength
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault duration for new phone call\n<p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultAppointmentPhoneLength = "DefaultAppointmentPhoneLength"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAppointmentPhoneLength As String = "DefaultAppointmentPhoneLength"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneTaskId
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneTaskId
+  id: DefaultAppointmentPhoneTaskId
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAppointmentPhoneTaskId
+  nameWithType: UserPreferenceStrings.Defaults.DefaultAppointmentPhoneTaskId
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneTaskId
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault type for new phone call\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultAppointmentPhoneTaskId = "DefaultAppointmentPhoneTaskId"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAppointmentPhoneTaskId As String = "DefaultAppointmentPhoneTaskId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneText
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneText
+  id: DefaultAppointmentPhoneText
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAppointmentPhoneText
+  nameWithType: UserPreferenceStrings.Defaults.DefaultAppointmentPhoneText
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneText
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault text for new phone call\n<p></p>Control type: Text, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultAppointmentPhoneText = "DefaultAppointmentPhoneText"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAppointmentPhoneText As String = "DefaultAppointmentPhoneText"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentToDoLength
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentToDoLength
+  id: DefaultAppointmentToDoLength
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAppointmentToDoLength
+  nameWithType: UserPreferenceStrings.Defaults.DefaultAppointmentToDoLength
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentToDoLength
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault duration for new task\n<p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultAppointmentToDoLength = "DefaultAppointmentToDoLength"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAppointmentToDoLength As String = "DefaultAppointmentToDoLength"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentToDoTaskId
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentToDoTaskId
+  id: DefaultAppointmentToDoTaskId
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAppointmentToDoTaskId
+  nameWithType: UserPreferenceStrings.Defaults.DefaultAppointmentToDoTaskId
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentToDoTaskId
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault type for new task\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultAppointmentToDoTaskId = "DefaultAppointmentToDoTaskId"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAppointmentToDoTaskId As String = "DefaultAppointmentToDoTaskId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentToDoText
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentToDoText
+  id: DefaultAppointmentToDoText
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAppointmentToDoText
+  nameWithType: UserPreferenceStrings.Defaults.DefaultAppointmentToDoText
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentToDoText
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault text for new task\n<p></p>Control type: Text, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultAppointmentToDoText = "DefaultAppointmentToDoText"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAppointmentToDoText As String = "DefaultAppointmentToDoText"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentVisibleFor
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentVisibleFor
+  id: DefaultAppointmentVisibleFor
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAppointmentVisibleFor
+  nameWithType: UserPreferenceStrings.Defaults.DefaultAppointmentVisibleFor
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentVisibleFor
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nLast visibility setting used in the follow-ups dialog\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string DefaultAppointmentVisibleFor = "DefaultAppointmentVisibleFor"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAppointmentVisibleFor As String = "DefaultAppointmentVisibleFor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSaleVisibleFor
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSaleVisibleFor
+  id: DefaultSaleVisibleFor
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultSaleVisibleFor
+  nameWithType: UserPreferenceStrings.Defaults.DefaultSaleVisibleFor
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSaleVisibleFor
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nLast visibility setting used in the sale dialog\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string DefaultSaleVisibleFor = "DefaultSaleVisibleFor"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultSaleVisibleFor As String = "DefaultSaleVisibleFor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSaleRememberVisibleFor
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSaleRememberVisibleFor
+  id: DefaultSaleRememberVisibleFor
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultSaleRememberVisibleFor
+  nameWithType: UserPreferenceStrings.Defaults.DefaultSaleRememberVisibleFor
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSaleRememberVisibleFor
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nUses the same visibility setting for new sales as you used last time. (Default = NO)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultSaleRememberVisibleFor = "DefaultSaleRememberVisibleFor"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultSaleRememberVisibleFor As String = "DefaultSaleRememberVisibleFor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultBusiness
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultBusiness
+  id: DefaultBusiness
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultBusiness
+  nameWithType: UserPreferenceStrings.Defaults.DefaultBusiness
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultBusiness
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault business for new company\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultBusiness = "DefaultBusiness"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultBusiness As String = "DefaultBusiness"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultCategory
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultCategory
+  id: DefaultCategory
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultCategory
+  nameWithType: UserPreferenceStrings.Defaults.DefaultCategory
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultCategory
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault category for new company\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultCategory = "DefaultCategory"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultCategory As String = "DefaultCategory"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultDecimalPlacesInAmount
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultDecimalPlacesInAmount
+  id: DefaultDecimalPlacesInAmount
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultDecimalPlacesInAmount
+  nameWithType: UserPreferenceStrings.Defaults.DefaultDecimalPlacesInAmount
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultDecimalPlacesInAmount
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nNumber of decimals displayed in user-defined amount\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string DefaultDecimalPlacesInAmount = "DefaultDecimalPlacesInAmount"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultDecimalPlacesInAmount As String = "DefaultDecimalPlacesInAmount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultDocRememberVisibleFor
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultDocRememberVisibleFor
+  id: DefaultDocRememberVisibleFor
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultDocRememberVisibleFor
+  nameWithType: UserPreferenceStrings.Defaults.DefaultDocRememberVisibleFor
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultDocRememberVisibleFor
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nUses the same visibility setting for new documents as you used last time. (Default = NO)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultDocRememberVisibleFor = "DefaultDocRememberVisibleFor"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultDocRememberVisibleFor As String = "DefaultDocRememberVisibleFor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultDocumentType
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultDocumentType
+  id: DefaultDocumentType
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultDocumentType
+  nameWithType: UserPreferenceStrings.Defaults.DefaultDocumentType
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultDocumentType
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault outgoing document template\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultDocumentType = "DefaultDocumentType"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultDocumentType As String = "DefaultDocumentType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultDocumentVisibleFor
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultDocumentVisibleFor
+  id: DefaultDocumentVisibleFor
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultDocumentVisibleFor
+  nameWithType: UserPreferenceStrings.Defaults.DefaultDocumentVisibleFor
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultDocumentVisibleFor
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nLast visibility setting used in the Document dialog\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string DefaultDocumentVisibleFor = "DefaultDocumentVisibleFor"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultDocumentVisibleFor As String = "DefaultDocumentVisibleFor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultFaxType
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultFaxType
+  id: DefaultFaxType
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultFaxType
+  nameWithType: UserPreferenceStrings.Defaults.DefaultFaxType
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultFaxType
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault outgoing fax template\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultFaxType = "DefaultFaxType"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultFaxType As String = "DefaultFaxType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultProjectType
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultProjectType
+  id: DefaultProjectType
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultProjectType
+  nameWithType: UserPreferenceStrings.Defaults.DefaultProjectType
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultProjectType
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault type for new project\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultProjectType = "DefaultProjectType"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultProjectType As String = "DefaultProjectType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSaleProb
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSaleProb
+  id: DefaultSaleProb
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultSaleProb
+  nameWithType: UserPreferenceStrings.Defaults.DefaultSaleProb
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSaleProb
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault rating for new sale\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultSaleProb = "DefaultSaleProb"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultSaleProb As String = "DefaultSaleProb"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSelectionCategory
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSelectionCategory
+  id: DefaultSelectionCategory
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultSelectionCategory
+  nameWithType: UserPreferenceStrings.Defaults.DefaultSelectionCategory
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSelectionCategory
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault type for new selection\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultSelectionCategory = "DefaultSelectionCategory"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultSelectionCategory As String = "DefaultSelectionCategory"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSelectionVisibleFor
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSelectionVisibleFor
+  id: DefaultSelectionVisibleFor
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultSelectionVisibleFor
+  nameWithType: UserPreferenceStrings.Defaults.DefaultSelectionVisibleFor
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSelectionVisibleFor
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nMakes this value the default visibility setting when creating a new selection\n<p></p>Control type: List, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultSelectionVisibleFor = "DefaultSelectionVisibleFor"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultSelectionVisibleFor As String = "DefaultSelectionVisibleFor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSaleType
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSaleType
+  id: DefaultSaleType
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultSaleType
+  nameWithType: UserPreferenceStrings.Defaults.DefaultSaleType
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSaleType
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault sale type value for new sales.\n"
+  syntax:
+    content: public const string DefaultSaleType = "DefaultSaleType"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultSaleType As String = "DefaultSaleType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultTimeZone
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultTimeZone
+  id: DefaultTimeZone
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultTimeZone
+  nameWithType: UserPreferenceStrings.Defaults.DefaultTimeZone
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultTimeZone
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault timezone.\n"
+  syntax:
+    content: public const string DefaultTimeZone = "DefaultTimeZone"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultTimeZone As String = "DefaultTimeZone"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSalutationText
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSalutationText
+  id: DefaultSalutationText
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultSalutationText
+  nameWithType: UserPreferenceStrings.Defaults.DefaultSalutationText
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultSalutationText
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault salutation\n"
+  syntax:
+    content: public const string DefaultSalutationText = "DefaultSalutationText"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultSalutationText As String = "DefaultSalutationText"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultQuoteDocumentType
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultQuoteDocumentType
+  id: DefaultQuoteDocumentType
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultQuoteDocumentType
+  nameWithType: UserPreferenceStrings.Defaults.DefaultQuoteDocumentType
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultQuoteDocumentType
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public const string DefaultQuoteDocumentType = "DefaultQuoteDocumentType"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultQuoteDocumentType As String = "DefaultQuoteDocumentType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentQuoteTaskId
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentQuoteTaskId
+  id: DefaultAppointmentQuoteTaskId
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAppointmentQuoteTaskId
+  nameWithType: UserPreferenceStrings.Defaults.DefaultAppointmentQuoteTaskId
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentQuoteTaskId
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public const string DefaultAppointmentQuoteTaskId = "DefaultAppointmentQuoteTaskId"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAppointmentQuoteTaskId As String = "DefaultAppointmentQuoteTaskId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentQuoteApprovedTaskId
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentQuoteApprovedTaskId
+  id: DefaultAppointmentQuoteApprovedTaskId
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAppointmentQuoteApprovedTaskId
+  nameWithType: UserPreferenceStrings.Defaults.DefaultAppointmentQuoteApprovedTaskId
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultAppointmentQuoteApprovedTaskId
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public const string DefaultAppointmentQuoteApprovedTaskId = "DefaultAppointmentQuoteApprovedTaskId"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAppointmentQuoteApprovedTaskId As String = "DefaultAppointmentQuoteApprovedTaskId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.PhoneLinkFormat
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.PhoneLinkFormat
+  id: PhoneLinkFormat
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: PhoneLinkFormat
+  nameWithType: UserPreferenceStrings.Defaults.PhoneLinkFormat
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.PhoneLinkFormat
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public const string PhoneLinkFormat = "PhoneLinkFormat"
+    return:
+      type: System.String
+    content.vb: Public Const PhoneLinkFormat As String = "PhoneLinkFormat"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.MiniCardFavouriteSelectedSet
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.MiniCardFavouriteSelectedSet
+  id: MiniCardFavouriteSelectedSet
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: MiniCardFavouriteSelectedSet
+  nameWithType: UserPreferenceStrings.Defaults.MiniCardFavouriteSelectedSet
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.MiniCardFavouriteSelectedSet
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public const string MiniCardFavouriteSelectedSet = "MiniCardFavouriteSelectedSet"
+    return:
+      type: System.String
+    content.vb: Public Const MiniCardFavouriteSelectedSet As String = "MiniCardFavouriteSelectedSet"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.CompleteDocumentOnCheckIn
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.CompleteDocumentOnCheckIn
+  id: CompleteDocumentOnCheckIn
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: CompleteDocumentOnCheckIn
+  nameWithType: UserPreferenceStrings.Defaults.CompleteDocumentOnCheckIn
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.CompleteDocumentOnCheckIn
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public const string CompleteDocumentOnCheckIn = "CompleteDocumentOnCheckIn"
+    return:
+      type: System.String
+    content.vb: Public Const CompleteDocumentOnCheckIn As String = "CompleteDocumentOnCheckIn"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultInvitationTaskId
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultInvitationTaskId
+  id: DefaultInvitationTaskId
+  parent: SuperOffice.CRM.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultInvitationTaskId
+  nameWithType: UserPreferenceStrings.Defaults.DefaultInvitationTaskId
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Defaults.DefaultInvitationTaskId
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault task type used for incoming e-mail invitations\n"
+  syntax:
+    content: public const string DefaultInvitationTaskId = "DefaultInvitationTaskId"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultInvitationTaskId As String = "DefaultInvitationTaskId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

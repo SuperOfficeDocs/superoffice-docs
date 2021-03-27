@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest
+  commentId: T:SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest
+  id: Preference_SavePreferenceEntityRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest.#ctor
+  - SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest.Preference
+  - SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest.RemoveLowerLevels
+  langs:
+  - csharp
+  - vb
+  name: Preference_SavePreferenceEntityRequest
+  nameWithType: Preference_SavePreferenceEntityRequest
+  fullName: SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Preference_SavePreferenceEntityRequest : Object'
+    content.vb: >-
+      Public Class Preference_SavePreferenceEntityRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest
+  langs:
+  - csharp
+  - vb
+  name: Preference_SavePreferenceEntityRequest()
+  nameWithType: Preference_SavePreferenceEntityRequest.Preference_SavePreferenceEntityRequest()
+  fullName: SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest.Preference_SavePreferenceEntityRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Preference_SavePreferenceEntityRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest.Preference
+  commentId: P:SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest.Preference
+  id: Preference
+  parent: SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest
+  langs:
+  - csharp
+  - vb
+  name: Preference
+  nameWithType: Preference_SavePreferenceEntityRequest.Preference
+  fullName: SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest.Preference
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Preference Preference { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Preference
+    content.vb: Public Property Preference As Preference
+  overload: SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest.Preference*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest.RemoveLowerLevels
+  commentId: P:SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest.RemoveLowerLevels
+  id: RemoveLowerLevels
+  parent: SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest
+  langs:
+  - csharp
+  - vb
+  name: RemoveLowerLevels
+  nameWithType: Preference_SavePreferenceEntityRequest.RemoveLowerLevels
+  fullName: SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest.RemoveLowerLevels
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool RemoveLowerLevels { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property RemoveLowerLevels As Boolean
+  overload: SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest.RemoveLowerLevels*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest.#ctor
+  isExternal: true
+  name: Preference_SavePreferenceEntityRequest
+  nameWithType: Preference_SavePreferenceEntityRequest.Preference_SavePreferenceEntityRequest
+  fullName: SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest.Preference_SavePreferenceEntityRequest
+- uid: SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest.Preference*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest.Preference
+  isExternal: true
+  name: Preference
+  nameWithType: Preference_SavePreferenceEntityRequest.Preference
+  fullName: SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest.Preference
+- uid: SuperOffice.WebApi.Data.Preference
+  commentId: T:SuperOffice.WebApi.Data.Preference
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Preference
+  nameWithType: Preference
+  fullName: SuperOffice.WebApi.Data.Preference
+- uid: SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest.RemoveLowerLevels*
+  commentId: Overload:SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest.RemoveLowerLevels
+  isExternal: true
+  name: RemoveLowerLevels
+  nameWithType: Preference_SavePreferenceEntityRequest.RemoveLowerLevels
+  fullName: SuperOffice.WebApi.Data.Preference_SavePreferenceEntityRequest.RemoveLowerLevels
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

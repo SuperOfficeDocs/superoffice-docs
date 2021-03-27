@@ -1,0 +1,763 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ChatSummaryItem
+  commentId: T:SuperOffice.CRM.Services.ChatSummaryItem
+  id: ChatSummaryItem
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ChatSummaryItem.#ctor
+  - SuperOffice.CRM.Services.ChatSummaryItem.ChatSessionId
+  - SuperOffice.CRM.Services.ChatSummaryItem.CompanyName
+  - SuperOffice.CRM.Services.ChatSummaryItem.FirstMessage
+  - SuperOffice.CRM.Services.ChatSummaryItem.LastMessage
+  - SuperOffice.CRM.Services.ChatSummaryItem.Name
+  - SuperOffice.CRM.Services.ChatSummaryItem.ToString
+  - SuperOffice.CRM.Services.ChatSummaryItem.ToString(System.String)
+  - SuperOffice.CRM.Services.ChatSummaryItem.WhenEnded
+  - SuperOffice.CRM.Services.ChatSummaryItem.WhenRequested
+  langs:
+  - csharp
+  - vb
+  name: ChatSummaryItem
+  nameWithType: ChatSummaryItem
+  fullName: SuperOffice.CRM.Services.ChatSummaryItem
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nChat session summary: id, title, created date\n<p></p>\nCarrier object for ChatSummaryItem.\nServices for the ChatSummaryItem Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IChatAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public class ChatSummaryItem
+    content.vb: Public Class ChatSummaryItem
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ChatAgent
+    commentId: T:SuperOffice.CRM.Services.ChatAgent
+  - linkId: SuperOffice.CRM.Services.IChatAgent
+    commentId: T:SuperOffice.CRM.Services.IChatAgent
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ChatSummaryItem.#ctor
+  commentId: M:SuperOffice.CRM.Services.ChatSummaryItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ChatSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: ChatSummaryItem()
+  nameWithType: ChatSummaryItem.ChatSummaryItem()
+  fullName: SuperOffice.CRM.Services.ChatSummaryItem.ChatSummaryItem()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ChatSummaryItem()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ChatSummaryItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatSummaryItem.ToString
+  commentId: M:SuperOffice.CRM.Services.ChatSummaryItem.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ChatSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ChatSummaryItem.ToString()
+  fullName: SuperOffice.CRM.Services.ChatSummaryItem.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.Services.ChatSummaryItem.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ChatSummaryItem.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ChatSummaryItem.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ChatSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ChatSummaryItem.ToString(String)
+  fullName: SuperOffice.CRM.Services.ChatSummaryItem.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ChatSummaryItem.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatSummaryItem.ChatSessionId
+  commentId: P:SuperOffice.CRM.Services.ChatSummaryItem.ChatSessionId
+  id: ChatSessionId
+  parent: SuperOffice.CRM.Services.ChatSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: ChatSessionId
+  nameWithType: ChatSummaryItem.ChatSessionId
+  fullName: SuperOffice.CRM.Services.ChatSummaryItem.ChatSessionId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe primary key (auto-incremented) \n"
+  syntax:
+    content: public virtual int ChatSessionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ChatSessionId As Integer
+  overload: SuperOffice.CRM.Services.ChatSummaryItem.ChatSessionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatSummaryItem.Name
+  commentId: P:SuperOffice.CRM.Services.ChatSummaryItem.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.ChatSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ChatSummaryItem.Name
+  fullName: SuperOffice.CRM.Services.ChatSummaryItem.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe name of customer, if provided \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.ChatSummaryItem.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatSummaryItem.CompanyName
+  commentId: P:SuperOffice.CRM.Services.ChatSummaryItem.CompanyName
+  id: CompanyName
+  parent: SuperOffice.CRM.Services.ChatSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: CompanyName
+  nameWithType: ChatSummaryItem.CompanyName
+  fullName: SuperOffice.CRM.Services.ChatSummaryItem.CompanyName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe name of the customers company, if provided \n"
+  syntax:
+    content: public virtual string CompanyName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CompanyName As String
+  overload: SuperOffice.CRM.Services.ChatSummaryItem.CompanyName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatSummaryItem.FirstMessage
+  commentId: P:SuperOffice.CRM.Services.ChatSummaryItem.FirstMessage
+  id: FirstMessage
+  parent: SuperOffice.CRM.Services.ChatSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: FirstMessage
+  nameWithType: ChatSummaryItem.FirstMessage
+  fullName: SuperOffice.CRM.Services.ChatSummaryItem.FirstMessage
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA copy of the first message in the chat session \n"
+  syntax:
+    content: public virtual string FirstMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FirstMessage As String
+  overload: SuperOffice.CRM.Services.ChatSummaryItem.FirstMessage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatSummaryItem.LastMessage
+  commentId: P:SuperOffice.CRM.Services.ChatSummaryItem.LastMessage
+  id: LastMessage
+  parent: SuperOffice.CRM.Services.ChatSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: LastMessage
+  nameWithType: ChatSummaryItem.LastMessage
+  fullName: SuperOffice.CRM.Services.ChatSummaryItem.LastMessage
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA copy of the last message in the chat session \n"
+  syntax:
+    content: public virtual string LastMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property LastMessage As String
+  overload: SuperOffice.CRM.Services.ChatSummaryItem.LastMessage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatSummaryItem.WhenRequested
+  commentId: P:SuperOffice.CRM.Services.ChatSummaryItem.WhenRequested
+  id: WhenRequested
+  parent: SuperOffice.CRM.Services.ChatSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: WhenRequested
+  nameWithType: ChatSummaryItem.WhenRequested
+  fullName: SuperOffice.CRM.Services.ChatSummaryItem.WhenRequested
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhen the session was requested by the customer. \n"
+  syntax:
+    content: public virtual DateTime WhenRequested { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property WhenRequested As Date
+  overload: SuperOffice.CRM.Services.ChatSummaryItem.WhenRequested*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatSummaryItem.WhenEnded
+  commentId: P:SuperOffice.CRM.Services.ChatSummaryItem.WhenEnded
+  id: WhenEnded
+  parent: SuperOffice.CRM.Services.ChatSummaryItem
+  langs:
+  - csharp
+  - vb
+  name: WhenEnded
+  nameWithType: ChatSummaryItem.WhenEnded
+  fullName: SuperOffice.CRM.Services.ChatSummaryItem.WhenEnded
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhen the session was ended. \n"
+  syntax:
+    content: public virtual DateTime WhenEnded { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property WhenEnded As Date
+  overload: SuperOffice.CRM.Services.ChatSummaryItem.WhenEnded*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatAgent
+  commentId: T:SuperOffice.CRM.Services.ChatAgent
+  isExternal: true
+  name: ChatAgent
+  nameWithType: ChatAgent
+  fullName: SuperOffice.CRM.Services.ChatAgent
+- uid: SuperOffice.CRM.Services.IChatAgent
+  commentId: T:SuperOffice.CRM.Services.IChatAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IChatAgent
+  nameWithType: IChatAgent
+  fullName: SuperOffice.CRM.Services.IChatAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ChatSummaryItem.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ChatSummaryItem.#ctor
+  isExternal: true
+  name: ChatSummaryItem
+  nameWithType: ChatSummaryItem.ChatSummaryItem
+  fullName: SuperOffice.CRM.Services.ChatSummaryItem.ChatSummaryItem
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.ChatSummaryItem.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ChatSummaryItem.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ChatSummaryItem.ToString
+  fullName: SuperOffice.CRM.Services.ChatSummaryItem.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ChatSummaryItem.ChatSessionId*
+  commentId: Overload:SuperOffice.CRM.Services.ChatSummaryItem.ChatSessionId
+  isExternal: true
+  name: ChatSessionId
+  nameWithType: ChatSummaryItem.ChatSessionId
+  fullName: SuperOffice.CRM.Services.ChatSummaryItem.ChatSessionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ChatSummaryItem.Name*
+  commentId: Overload:SuperOffice.CRM.Services.ChatSummaryItem.Name
+  isExternal: true
+  name: Name
+  nameWithType: ChatSummaryItem.Name
+  fullName: SuperOffice.CRM.Services.ChatSummaryItem.Name
+- uid: SuperOffice.CRM.Services.ChatSummaryItem.CompanyName*
+  commentId: Overload:SuperOffice.CRM.Services.ChatSummaryItem.CompanyName
+  isExternal: true
+  name: CompanyName
+  nameWithType: ChatSummaryItem.CompanyName
+  fullName: SuperOffice.CRM.Services.ChatSummaryItem.CompanyName
+- uid: SuperOffice.CRM.Services.ChatSummaryItem.FirstMessage*
+  commentId: Overload:SuperOffice.CRM.Services.ChatSummaryItem.FirstMessage
+  isExternal: true
+  name: FirstMessage
+  nameWithType: ChatSummaryItem.FirstMessage
+  fullName: SuperOffice.CRM.Services.ChatSummaryItem.FirstMessage
+- uid: SuperOffice.CRM.Services.ChatSummaryItem.LastMessage*
+  commentId: Overload:SuperOffice.CRM.Services.ChatSummaryItem.LastMessage
+  isExternal: true
+  name: LastMessage
+  nameWithType: ChatSummaryItem.LastMessage
+  fullName: SuperOffice.CRM.Services.ChatSummaryItem.LastMessage
+- uid: SuperOffice.CRM.Services.ChatSummaryItem.WhenRequested*
+  commentId: Overload:SuperOffice.CRM.Services.ChatSummaryItem.WhenRequested
+  isExternal: true
+  name: WhenRequested
+  nameWithType: ChatSummaryItem.WhenRequested
+  fullName: SuperOffice.CRM.Services.ChatSummaryItem.WhenRequested
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.ChatSummaryItem.WhenEnded*
+  commentId: Overload:SuperOffice.CRM.Services.ChatSummaryItem.WhenEnded
+  isExternal: true
+  name: WhenEnded
+  nameWithType: ChatSummaryItem.WhenEnded
+  fullName: SuperOffice.CRM.Services.ChatSummaryItem.WhenEnded

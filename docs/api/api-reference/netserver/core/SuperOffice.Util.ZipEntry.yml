@@ -1,0 +1,882 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.ZipEntry
+  commentId: T:SuperOffice.Util.ZipEntry
+  id: ZipEntry
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.ZipEntry.#ctor(ICSharpCode.SharpZipLib.Zip.ZipEntry)
+  - SuperOffice.Util.ZipEntry.#ctor(System.String)
+  - SuperOffice.Util.ZipEntry.DateTime
+  - SuperOffice.Util.ZipEntry.ExternalFileAttributes
+  - SuperOffice.Util.ZipEntry.Flags
+  - SuperOffice.Util.ZipEntry.IsDirectory
+  - SuperOffice.Util.ZipEntry.IsFile
+  - SuperOffice.Util.ZipEntry.Name
+  - SuperOffice.Util.ZipEntry.ZipFileIndex
+  langs:
+  - csharp
+  - vb
+  name: ZipEntry
+  nameWithType: ZipEntry
+  fullName: SuperOffice.Util.ZipEntry
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nA file/directory entry in a ZipFile\n"
+  syntax:
+    content: public class ZipEntry
+    content.vb: Public Class ZipEntry
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Util.ZipEntry.EnumUtil.MapEnums``2
+  - SuperOffice.Util.ZipEntry.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Util.ZipEntry.#ctor(ICSharpCode.SharpZipLib.Zip.ZipEntry)
+  commentId: M:SuperOffice.Util.ZipEntry.#ctor(ICSharpCode.SharpZipLib.Zip.ZipEntry)
+  id: '#ctor(ICSharpCode.SharpZipLib.Zip.ZipEntry)'
+  parent: SuperOffice.Util.ZipEntry
+  langs:
+  - csharp
+  - vb
+  name: ZipEntry(ZipEntry)
+  nameWithType: ZipEntry.ZipEntry(ZipEntry)
+  fullName: SuperOffice.Util.ZipEntry.ZipEntry(ICSharpCode.SharpZipLib.Zip.ZipEntry)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConstructor\n"
+  syntax:
+    content: public ZipEntry(ZipEntry entry)
+    parameters:
+    - id: entry
+      type: ICSharpCode.SharpZipLib.Zip.ZipEntry
+      description: Existing entry
+    content.vb: Public Sub New(entry As ZipEntry)
+  overload: SuperOffice.Util.ZipEntry.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ZipEntry.#ctor(System.String)
+  commentId: M:SuperOffice.Util.ZipEntry.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.Util.ZipEntry
+  langs:
+  - csharp
+  - vb
+  name: ZipEntry(String)
+  nameWithType: ZipEntry.ZipEntry(String)
+  fullName: SuperOffice.Util.ZipEntry.ZipEntry(System.String)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConstructor\n"
+  syntax:
+    content: public ZipEntry(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name of entry
+    content.vb: Public Sub New(name As String)
+  overload: SuperOffice.Util.ZipEntry.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ZipEntry.Name
+  commentId: P:SuperOffice.Util.ZipEntry.Name
+  id: Name
+  parent: SuperOffice.Util.ZipEntry
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ZipEntry.Name
+  fullName: SuperOffice.Util.ZipEntry.Name
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nName of entry.\nThe path components in the entry should always be separated by slashes (&apos;/&apos;).\nDirectory entries should always end with a trailing slash.\n"
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: SuperOffice.Util.ZipEntry.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Util.ZipEntry.IsFile
+  commentId: P:SuperOffice.Util.ZipEntry.IsFile
+  id: IsFile
+  parent: SuperOffice.Util.ZipEntry
+  langs:
+  - csharp
+  - vb
+  name: IsFile
+  nameWithType: ZipEntry.IsFile
+  fullName: SuperOffice.Util.ZipEntry.IsFile
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nTrue if the entry is a file\n"
+  syntax:
+    content: public bool IsFile { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsFile As Boolean
+  overload: SuperOffice.Util.ZipEntry.IsFile*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Util.ZipEntry.IsDirectory
+  commentId: P:SuperOffice.Util.ZipEntry.IsDirectory
+  id: IsDirectory
+  parent: SuperOffice.Util.ZipEntry
+  langs:
+  - csharp
+  - vb
+  name: IsDirectory
+  nameWithType: ZipEntry.IsDirectory
+  fullName: SuperOffice.Util.ZipEntry.IsDirectory
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nTrue if the entry is a directory. A directory is determined by an entry name with a trailing slash &apos;/&apos;.\n"
+  syntax:
+    content: public bool IsDirectory { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsDirectory As Boolean
+  overload: SuperOffice.Util.ZipEntry.IsDirectory*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Util.ZipEntry.DateTime
+  commentId: P:SuperOffice.Util.ZipEntry.DateTime
+  id: DateTime
+  parent: SuperOffice.Util.ZipEntry
+  langs:
+  - csharp
+  - vb
+  name: DateTime
+  nameWithType: ZipEntry.DateTime
+  fullName: SuperOffice.Util.ZipEntry.DateTime
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nGets/Sets the time of last modification of the entry\n"
+  syntax:
+    content: public DateTime DateTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property DateTime As Date
+  overload: SuperOffice.Util.ZipEntry.DateTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ZipEntry.ExternalFileAttributes
+  commentId: P:SuperOffice.Util.ZipEntry.ExternalFileAttributes
+  id: ExternalFileAttributes
+  parent: SuperOffice.Util.ZipEntry
+  langs:
+  - csharp
+  - vb
+  name: ExternalFileAttributes
+  nameWithType: ZipEntry.ExternalFileAttributes
+  fullName: SuperOffice.Util.ZipEntry.ExternalFileAttributes
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nGet/Set external file attributes as an integer\n"
+  syntax:
+    content: public int ExternalFileAttributes { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ExternalFileAttributes As Integer
+  overload: SuperOffice.Util.ZipEntry.ExternalFileAttributes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ZipEntry.Flags
+  commentId: P:SuperOffice.Util.ZipEntry.Flags
+  id: Flags
+  parent: SuperOffice.Util.ZipEntry
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: ZipEntry.Flags
+  fullName: SuperOffice.Util.ZipEntry.Flags
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nGeneral purpose bit flag\n"
+  syntax:
+    content: public int Flags { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Flags As Integer
+  overload: SuperOffice.Util.ZipEntry.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ZipEntry.ZipFileIndex
+  commentId: P:SuperOffice.Util.ZipEntry.ZipFileIndex
+  id: ZipFileIndex
+  parent: SuperOffice.Util.ZipEntry
+  langs:
+  - csharp
+  - vb
+  name: ZipFileIndex
+  nameWithType: ZipEntry.ZipFileIndex
+  fullName: SuperOffice.Util.ZipEntry.ZipFileIndex
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nIndex of this entry in Zip file\n"
+  syntax:
+    content: public long ZipFileIndex { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public ReadOnly Property ZipFileIndex As Long
+  overload: SuperOffice.Util.ZipEntry.ZipFileIndex*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ZipEntry.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ZipEntry, To>()
+  nameWithType: EnumUtil.MapEnums<ZipEntry, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.ZipEntry, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ZipEntry, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.ZipEntry, To)()
+  name.vb: MapEnums(Of ZipEntry, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ZipEntry, To>
+    nameWithType: EnumUtil.MapEnums<ZipEntry, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.ZipEntry, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ZipEntry, To)
+    nameWithType: EnumUtil.MapEnums(Of ZipEntry, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.ZipEntry, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ZipEntry.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ZipEntry, To>()
+  nameWithType: Converters.MapEnums<ZipEntry, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.ZipEntry, To>()
+  nameWithType.vb: Converters.MapEnums(Of ZipEntry, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.ZipEntry, To)()
+  name.vb: MapEnums(Of ZipEntry, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ZipEntry, To>
+    nameWithType: Converters.MapEnums<ZipEntry, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.ZipEntry, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ZipEntry, To)
+    nameWithType: Converters.MapEnums(Of ZipEntry, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.ZipEntry, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Util.ZipEntry.#ctor*
+  commentId: Overload:SuperOffice.Util.ZipEntry.#ctor
+  isExternal: true
+  name: ZipEntry
+  nameWithType: ZipEntry.ZipEntry
+  fullName: SuperOffice.Util.ZipEntry.ZipEntry
+- uid: ICSharpCode.SharpZipLib.Zip.ZipEntry
+  commentId: '!:ICSharpCode.SharpZipLib.Zip.ZipEntry'
+  isExternal: true
+  name: ZipEntry
+  nameWithType: ZipEntry
+  fullName: ICSharpCode.SharpZipLib.Zip.ZipEntry
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Util.ZipEntry.Name*
+  commentId: Overload:SuperOffice.Util.ZipEntry.Name
+  isExternal: true
+  name: Name
+  nameWithType: ZipEntry.Name
+  fullName: SuperOffice.Util.ZipEntry.Name
+- uid: SuperOffice.Util.ZipEntry.IsFile*
+  commentId: Overload:SuperOffice.Util.ZipEntry.IsFile
+  isExternal: true
+  name: IsFile
+  nameWithType: ZipEntry.IsFile
+  fullName: SuperOffice.Util.ZipEntry.IsFile
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Util.ZipEntry.IsDirectory*
+  commentId: Overload:SuperOffice.Util.ZipEntry.IsDirectory
+  isExternal: true
+  name: IsDirectory
+  nameWithType: ZipEntry.IsDirectory
+  fullName: SuperOffice.Util.ZipEntry.IsDirectory
+- uid: SuperOffice.Util.ZipEntry.DateTime*
+  commentId: Overload:SuperOffice.Util.ZipEntry.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: ZipEntry.DateTime
+  fullName: SuperOffice.Util.ZipEntry.DateTime
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.Util.ZipEntry.ExternalFileAttributes*
+  commentId: Overload:SuperOffice.Util.ZipEntry.ExternalFileAttributes
+  isExternal: true
+  name: ExternalFileAttributes
+  nameWithType: ZipEntry.ExternalFileAttributes
+  fullName: SuperOffice.Util.ZipEntry.ExternalFileAttributes
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Util.ZipEntry.Flags*
+  commentId: Overload:SuperOffice.Util.ZipEntry.Flags
+  isExternal: true
+  name: Flags
+  nameWithType: ZipEntry.Flags
+  fullName: SuperOffice.Util.ZipEntry.Flags
+- uid: SuperOffice.Util.ZipEntry.ZipFileIndex*
+  commentId: Overload:SuperOffice.Util.ZipEntry.ZipFileIndex
+  isExternal: true
+  name: ZipFileIndex
+  nameWithType: ZipEntry.ZipFileIndex
+  fullName: SuperOffice.Util.ZipEntry.ZipFileIndex
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64

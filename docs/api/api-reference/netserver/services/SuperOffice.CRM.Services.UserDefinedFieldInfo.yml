@@ -1,0 +1,1583 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  commentId: T:SuperOffice.CRM.Services.UserDefinedFieldInfo
+  id: UserDefinedFieldInfo
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.#ctor
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.ColumnId
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldDefault
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldHeight
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldLabel
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldLeft
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldTop
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldType
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldWidth
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.FormatMask
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.HasBeenPublished
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.HideLabel
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.IsIndexed
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.IsMandatory
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.IsReadOnly
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.Justification
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelHeight
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelLeft
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelTop
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelWidth
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.LastVersionId
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.ListTableId
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.MdoListName
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.Page1LineNo
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.ProgId
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.ShortLabel
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.TabOrder
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.TemplateVariableName
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.TextLength
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.Tooltip
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.ToString
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.ToString(System.String)
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.Type
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.UDefFieldId
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.UdefIdentity
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.UDListDefinitionId
+  - SuperOffice.CRM.Services.UserDefinedFieldInfo.Version
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldInfo
+  nameWithType: UserDefinedFieldInfo
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturn information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.\n<p></p>\nCarrier object for UserDefinedFieldInfo.\nServices for the UserDefinedFieldInfo Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet UserDefinedFieldInfo 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new UserDefinedFieldInfoAgent();\n    var userDefinedFieldInfo = agent.GetUserDefinedFieldInfo( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class UserDefinedFieldInfo : Carrier'
+    content.vb: >-
+      Public Class UserDefinedFieldInfo
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.UserDefinedFieldInfoAgent
+    commentId: T:SuperOffice.CRM.Services.UserDefinedFieldInfoAgent
+  - linkId: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
+    commentId: T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.#ctor
+  commentId: M:SuperOffice.CRM.Services.UserDefinedFieldInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldInfo()
+  nameWithType: UserDefinedFieldInfo.UserDefinedFieldInfo()
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.UserDefinedFieldInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public UserDefinedFieldInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.ToString
+  commentId: M:SuperOffice.CRM.Services.UserDefinedFieldInfo.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: UserDefinedFieldInfo.ToString()
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.UserDefinedFieldInfo.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: UserDefinedFieldInfo.ToString(String)
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.UDefFieldId
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.UDefFieldId
+  id: UDefFieldId
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: UDefFieldId
+  nameWithType: UserDefinedFieldInfo.UDefFieldId
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.UDefFieldId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int UDefFieldId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UDefFieldId As Integer
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.UDefFieldId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.ColumnId
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.ColumnId
+  id: ColumnId
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: ColumnId
+  nameWithType: UserDefinedFieldInfo.ColumnId
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.ColumnId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe ID of the database column this field corresponds to \n"
+  syntax:
+    content: public virtual int ColumnId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ColumnId As Integer
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.ColumnId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldDefault
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldDefault
+  id: FieldDefault
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: FieldDefault
+  nameWithType: UserDefinedFieldInfo.FieldDefault
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldDefault
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOptional default value for String fields \n"
+  syntax:
+    content: public virtual string FieldDefault { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FieldDefault As String
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldDefault*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldHeight
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldHeight
+  id: FieldHeight
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: FieldHeight
+  nameWithType: UserDefinedFieldInfo.FieldHeight
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldHeight
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nfield height in pixels, 0 = &apos;enough&apos; (from font) \n"
+  syntax:
+    content: public virtual short FieldHeight { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property FieldHeight As Short
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldHeight*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldLabel
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldLabel
+  id: FieldLabel
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: FieldLabel
+  nameWithType: UserDefinedFieldInfo.FieldLabel
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldLabel
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe label (lead text) \n"
+  syntax:
+    content: public virtual string FieldLabel { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FieldLabel As String
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldLabel*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldLeft
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldLeft
+  id: FieldLeft
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: FieldLeft
+  nameWithType: UserDefinedFieldInfo.FieldLeft
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldLeft
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nX pixel coordinate of field \n"
+  syntax:
+    content: public virtual short FieldLeft { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property FieldLeft As Short
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldLeft*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldTop
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldTop
+  id: FieldTop
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: FieldTop
+  nameWithType: UserDefinedFieldInfo.FieldTop
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldTop
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nY pixel coordinate of field \n"
+  syntax:
+    content: public virtual short FieldTop { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property FieldTop As Short
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldTop*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldType
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldType
+  id: FieldType
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: FieldType
+  nameWithType: UserDefinedFieldInfo.FieldType
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nField type: 0 = leadtext only, 1 = Edit, 2 = CheckBox, 3 = dropdown, 4 = listbox \n"
+  syntax:
+    content: public virtual UDefFieldType FieldType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.UDefFieldType
+    content.vb: Public Overridable Property FieldType As UDefFieldType
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldWidth
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldWidth
+  id: FieldWidth
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: FieldWidth
+  nameWithType: UserDefinedFieldInfo.FieldWidth
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldWidth
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nfield width in pixels, 0 = &apos;enough&apos; (from font) \n"
+  syntax:
+    content: public virtual short FieldWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property FieldWidth As Short
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldWidth*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.FormatMask
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.FormatMask
+  id: FormatMask
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: FormatMask
+  nameWithType: UserDefinedFieldInfo.FormatMask
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.FormatMask
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFormatting mask, can be whatever the controls understand (currently nothing :-)) \n"
+  syntax:
+    content: public virtual string FormatMask { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FormatMask As String
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.FormatMask*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.HideLabel
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.HideLabel
+  id: HideLabel
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: HideLabel
+  nameWithType: UserDefinedFieldInfo.HideLabel
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.HideLabel
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nHide the label if 1 \n"
+  syntax:
+    content: public virtual bool HideLabel { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property HideLabel As Boolean
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.HideLabel*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.IsIndexed
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.IsIndexed
+  id: IsIndexed
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: IsIndexed
+  nameWithType: UserDefinedFieldInfo.IsIndexed
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.IsIndexed
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIs this field indexed? 0 if no, index no. if yes \n"
+  syntax:
+    content: public virtual bool IsIndexed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsIndexed As Boolean
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.IsIndexed*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelHeight
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelHeight
+  id: LabelHeight
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: LabelHeight
+  nameWithType: UserDefinedFieldInfo.LabelHeight
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelHeight
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nlabel height in pixels, 0 = &apos;enough&apos; (from font) \n"
+  syntax:
+    content: public virtual short LabelHeight { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property LabelHeight As Short
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelHeight*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelLeft
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelLeft
+  id: LabelLeft
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: LabelLeft
+  nameWithType: UserDefinedFieldInfo.LabelLeft
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelLeft
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nX pixel coordinate of label \n"
+  syntax:
+    content: public virtual short LabelLeft { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property LabelLeft As Short
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelLeft*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelTop
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelTop
+  id: LabelTop
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: LabelTop
+  nameWithType: UserDefinedFieldInfo.LabelTop
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelTop
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nY pixel coordinate of label \n"
+  syntax:
+    content: public virtual short LabelTop { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property LabelTop As Short
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelTop*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelWidth
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelWidth
+  id: LabelWidth
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: LabelWidth
+  nameWithType: UserDefinedFieldInfo.LabelWidth
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelWidth
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nlabel width in pixels, 0 = &apos;enough&apos; (from font) \n"
+  syntax:
+    content: public virtual short LabelWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property LabelWidth As Short
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelWidth*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.LastVersionId
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.LastVersionId
+  id: LastVersionId
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: LastVersionId
+  nameWithType: UserDefinedFieldInfo.LastVersionId
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.LastVersionId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUDefFieldId this field had in the previous version, 0 = field is new in this version \n"
+  syntax:
+    content: public virtual int LastVersionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property LastVersionId As Integer
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.LastVersionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.ListTableId
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.ListTableId
+  id: ListTableId
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: ListTableId
+  nameWithType: UserDefinedFieldInfo.ListTableId
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.ListTableId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe table ID of the source table for lists: kTableAssoc, kTableContInt or whatever \n"
+  syntax:
+    content: public virtual short ListTableId { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property ListTableId As Short
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.ListTableId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.IsMandatory
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.IsMandatory
+  id: IsMandatory
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: IsMandatory
+  nameWithType: UserDefinedFieldInfo.IsMandatory
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.IsMandatory
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n0 = no, 1 = yes (field must be filled out) \n"
+  syntax:
+    content: public virtual bool IsMandatory { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsMandatory As Boolean
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.IsMandatory*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.Type
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.Type
+  id: Type
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: UserDefinedFieldInfo.Type
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.Type
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nID of owning table (contact, person, project) - this is not the actual tableNumber, rather it&apos;s an enum \n"
+  syntax:
+    content: public virtual UDefType Type { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.UDefType
+    content.vb: Public Overridable Property Type As UDefType
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.Type*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.Page1LineNo
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.Page1LineNo
+  id: Page1LineNo
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: Page1LineNo
+  nameWithType: UserDefinedFieldInfo.Page1LineNo
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.Page1LineNo
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLine no on View Page 1, used if MDO flags are OFF. 0 = this field is not visible on page 1 \n"
+  syntax:
+    content: public virtual short Page1LineNo { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Page1LineNo As Short
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.Page1LineNo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.ProgId
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.ProgId
+  id: ProgId
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: ProgId
+  nameWithType: UserDefinedFieldInfo.ProgId
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.ProgId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nProgrammatic ID, for use by software that needs to find a particular field. Carried over like udefIdentity across generations. Use a Company.Product.Field format to avoid naming conflicts; the Company name SuperOffice is reserved. \n"
+  syntax:
+    content: public virtual string ProgId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProgId As String
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.ProgId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.IsReadOnly
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.IsReadOnly
+  id: IsReadOnly
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: IsReadOnly
+  nameWithType: UserDefinedFieldInfo.IsReadOnly
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.IsReadOnly
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n0 = read/write, 1 = readonly (don&apos;t combine with mandatory  8-) ) \n"
+  syntax:
+    content: public virtual bool IsReadOnly { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsReadOnly As Boolean
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.IsReadOnly*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.ShortLabel
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.ShortLabel
+  id: ShortLabel
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: ShortLabel
+  nameWithType: UserDefinedFieldInfo.ShortLabel
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.ShortLabel
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nShort name to be used in Archive headings and on page 1. If blank, the fieldLabel will be used everywhere. \n"
+  syntax:
+    content: public virtual string ShortLabel { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ShortLabel As String
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.ShortLabel*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.TabOrder
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.TabOrder
+  id: TabOrder
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: TabOrder
+  nameWithType: UserDefinedFieldInfo.TabOrder
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.TabOrder
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTab order value, sets the field processing sequence \n"
+  syntax:
+    content: public virtual short TabOrder { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property TabOrder As Short
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.TabOrder*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.TextLength
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.TextLength
+  id: TextLength
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: TextLength
+  nameWithType: UserDefinedFieldInfo.TextLength
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.TextLength
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLength (in characters) of a text field, 0 for other types \n"
+  syntax:
+    content: public virtual short TextLength { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property TextLength As Short
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.TextLength*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.Tooltip
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: UserDefinedFieldInfo.Tooltip
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOptional tooltip text for this field \n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.UdefIdentity
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.UdefIdentity
+  id: UdefIdentity
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: UdefIdentity
+  nameWithType: UserDefinedFieldInfo.UdefIdentity
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.UdefIdentity
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUnique number used to track field identity across layout changes \n"
+  syntax:
+    content: public virtual int UdefIdentity { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UdefIdentity As Integer
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.UdefIdentity*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.UDListDefinitionId
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.UDListDefinitionId
+  id: UDListDefinitionId
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: UDListDefinitionId
+  nameWithType: UserDefinedFieldInfo.UDListDefinitionId
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.UDListDefinitionId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nList to use for populating dropdown or listbox \n"
+  syntax:
+    content: public virtual int UDListDefinitionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UDListDefinitionId As Integer
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.UDListDefinitionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.Justification
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.Justification
+  id: Justification
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: Justification
+  nameWithType: UserDefinedFieldInfo.Justification
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.Justification
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nJustification - 0 = default, left, right, center \n"
+  syntax:
+    content: public virtual UdefJustification Justification { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.UdefJustification
+    content.vb: Public Overridable Property Justification As UdefJustification
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.Justification*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.Version
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.Version
+  id: Version
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: UserDefinedFieldInfo.Version
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.Version
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefinition version number; ALL fields get new version whenever layout is updated. \n"
+  syntax:
+    content: public virtual short Version { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Version As Short
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.Version*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.TemplateVariableName
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.TemplateVariableName
+  id: TemplateVariableName
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: TemplateVariableName
+  nameWithType: UserDefinedFieldInfo.TemplateVariableName
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.TemplateVariableName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTemplate variable name \n"
+  syntax:
+    content: public virtual string TemplateVariableName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TemplateVariableName As String
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.TemplateVariableName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.HasBeenPublished
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.HasBeenPublished
+  id: HasBeenPublished
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: HasBeenPublished
+  nameWithType: UserDefinedFieldInfo.HasBeenPublished
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.HasBeenPublished
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nHas the udef field been published? \n"
+  syntax:
+    content: public virtual bool HasBeenPublished { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property HasBeenPublished As Boolean
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.HasBeenPublished*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.MdoListName
+  commentId: P:SuperOffice.CRM.Services.UserDefinedFieldInfo.MdoListName
+  id: MdoListName
+  parent: SuperOffice.CRM.Services.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: MdoListName
+  nameWithType: UserDefinedFieldInfo.MdoListName
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.MdoListName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) \n"
+  syntax:
+    content: public virtual string MdoListName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property MdoListName As String
+  overload: SuperOffice.CRM.Services.UserDefinedFieldInfo.MdoListName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfoAgent
+  commentId: T:SuperOffice.CRM.Services.UserDefinedFieldInfoAgent
+  isExternal: true
+  name: UserDefinedFieldInfoAgent
+  nameWithType: UserDefinedFieldInfoAgent
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfoAgent
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
+  commentId: T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IUserDefinedFieldInfoAgent
+  nameWithType: IUserDefinedFieldInfoAgent
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.#ctor
+  isExternal: true
+  name: UserDefinedFieldInfo
+  nameWithType: UserDefinedFieldInfo.UserDefinedFieldInfo
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.UserDefinedFieldInfo
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: UserDefinedFieldInfo.ToString
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.UDefFieldId*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.UDefFieldId
+  isExternal: true
+  name: UDefFieldId
+  nameWithType: UserDefinedFieldInfo.UDefFieldId
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.UDefFieldId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.ColumnId*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.ColumnId
+  isExternal: true
+  name: ColumnId
+  nameWithType: UserDefinedFieldInfo.ColumnId
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.ColumnId
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldDefault*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldDefault
+  isExternal: true
+  name: FieldDefault
+  nameWithType: UserDefinedFieldInfo.FieldDefault
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldDefault
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldHeight*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldHeight
+  isExternal: true
+  name: FieldHeight
+  nameWithType: UserDefinedFieldInfo.FieldHeight
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldHeight
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldLabel*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldLabel
+  isExternal: true
+  name: FieldLabel
+  nameWithType: UserDefinedFieldInfo.FieldLabel
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldLabel
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldLeft*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldLeft
+  isExternal: true
+  name: FieldLeft
+  nameWithType: UserDefinedFieldInfo.FieldLeft
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldLeft
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldTop*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldTop
+  isExternal: true
+  name: FieldTop
+  nameWithType: UserDefinedFieldInfo.FieldTop
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldTop
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldType*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldType
+  isExternal: true
+  name: FieldType
+  nameWithType: UserDefinedFieldInfo.FieldType
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldType
+- uid: SuperOffice.Data.UDefFieldType
+  isExternal: true
+  name: UDefFieldType
+  nameWithType: UDefFieldType
+  fullName: SuperOffice.Data.UDefFieldType
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldWidth*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldWidth
+  isExternal: true
+  name: FieldWidth
+  nameWithType: UserDefinedFieldInfo.FieldWidth
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.FieldWidth
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.FormatMask*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.FormatMask
+  isExternal: true
+  name: FormatMask
+  nameWithType: UserDefinedFieldInfo.FormatMask
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.FormatMask
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.HideLabel*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.HideLabel
+  isExternal: true
+  name: HideLabel
+  nameWithType: UserDefinedFieldInfo.HideLabel
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.HideLabel
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.IsIndexed*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.IsIndexed
+  isExternal: true
+  name: IsIndexed
+  nameWithType: UserDefinedFieldInfo.IsIndexed
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.IsIndexed
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelHeight*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelHeight
+  isExternal: true
+  name: LabelHeight
+  nameWithType: UserDefinedFieldInfo.LabelHeight
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelHeight
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelLeft*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelLeft
+  isExternal: true
+  name: LabelLeft
+  nameWithType: UserDefinedFieldInfo.LabelLeft
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelLeft
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelTop*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelTop
+  isExternal: true
+  name: LabelTop
+  nameWithType: UserDefinedFieldInfo.LabelTop
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelTop
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelWidth*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelWidth
+  isExternal: true
+  name: LabelWidth
+  nameWithType: UserDefinedFieldInfo.LabelWidth
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.LabelWidth
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.LastVersionId*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.LastVersionId
+  isExternal: true
+  name: LastVersionId
+  nameWithType: UserDefinedFieldInfo.LastVersionId
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.LastVersionId
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.ListTableId*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.ListTableId
+  isExternal: true
+  name: ListTableId
+  nameWithType: UserDefinedFieldInfo.ListTableId
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.ListTableId
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.IsMandatory*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.IsMandatory
+  isExternal: true
+  name: IsMandatory
+  nameWithType: UserDefinedFieldInfo.IsMandatory
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.IsMandatory
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.Type*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.Type
+  isExternal: true
+  name: Type
+  nameWithType: UserDefinedFieldInfo.Type
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.Type
+- uid: SuperOffice.Data.UDefType
+  isExternal: true
+  name: UDefType
+  nameWithType: UDefType
+  fullName: SuperOffice.Data.UDefType
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.Page1LineNo*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.Page1LineNo
+  isExternal: true
+  name: Page1LineNo
+  nameWithType: UserDefinedFieldInfo.Page1LineNo
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.Page1LineNo
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.ProgId*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.ProgId
+  isExternal: true
+  name: ProgId
+  nameWithType: UserDefinedFieldInfo.ProgId
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.ProgId
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.IsReadOnly*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.IsReadOnly
+  isExternal: true
+  name: IsReadOnly
+  nameWithType: UserDefinedFieldInfo.IsReadOnly
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.IsReadOnly
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.ShortLabel*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.ShortLabel
+  isExternal: true
+  name: ShortLabel
+  nameWithType: UserDefinedFieldInfo.ShortLabel
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.ShortLabel
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.TabOrder*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.TabOrder
+  isExternal: true
+  name: TabOrder
+  nameWithType: UserDefinedFieldInfo.TabOrder
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.TabOrder
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.TextLength*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.TextLength
+  isExternal: true
+  name: TextLength
+  nameWithType: UserDefinedFieldInfo.TextLength
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.TextLength
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.Tooltip*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: UserDefinedFieldInfo.Tooltip
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.Tooltip
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.UdefIdentity*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.UdefIdentity
+  isExternal: true
+  name: UdefIdentity
+  nameWithType: UserDefinedFieldInfo.UdefIdentity
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.UdefIdentity
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.UDListDefinitionId*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.UDListDefinitionId
+  isExternal: true
+  name: UDListDefinitionId
+  nameWithType: UserDefinedFieldInfo.UDListDefinitionId
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.UDListDefinitionId
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.Justification*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.Justification
+  isExternal: true
+  name: Justification
+  nameWithType: UserDefinedFieldInfo.Justification
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.Justification
+- uid: SuperOffice.Data.UdefJustification
+  commentId: '!:SuperOffice.Data.UdefJustification'
+  isExternal: true
+  name: UdefJustification
+  nameWithType: UdefJustification
+  fullName: SuperOffice.Data.UdefJustification
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.Version*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.Version
+  isExternal: true
+  name: Version
+  nameWithType: UserDefinedFieldInfo.Version
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.Version
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.TemplateVariableName*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.TemplateVariableName
+  isExternal: true
+  name: TemplateVariableName
+  nameWithType: UserDefinedFieldInfo.TemplateVariableName
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.TemplateVariableName
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.HasBeenPublished*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.HasBeenPublished
+  isExternal: true
+  name: HasBeenPublished
+  nameWithType: UserDefinedFieldInfo.HasBeenPublished
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.HasBeenPublished
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfo.MdoListName*
+  commentId: Overload:SuperOffice.CRM.Services.UserDefinedFieldInfo.MdoListName
+  isExternal: true
+  name: MdoListName
+  nameWithType: UserDefinedFieldInfo.MdoListName
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo.MdoListName

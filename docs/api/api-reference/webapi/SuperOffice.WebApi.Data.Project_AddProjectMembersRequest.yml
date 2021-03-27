@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Project_AddProjectMembersRequest
+  commentId: T:SuperOffice.WebApi.Data.Project_AddProjectMembersRequest
+  id: Project_AddProjectMembersRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Project_AddProjectMembersRequest.#ctor
+  - SuperOffice.WebApi.Data.Project_AddProjectMembersRequest.ProjectEntityId
+  - SuperOffice.WebApi.Data.Project_AddProjectMembersRequest.ProjectMembers
+  langs:
+  - csharp
+  - vb
+  name: Project_AddProjectMembersRequest
+  nameWithType: Project_AddProjectMembersRequest
+  fullName: SuperOffice.WebApi.Data.Project_AddProjectMembersRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Project_AddProjectMembersRequest : Object'
+    content.vb: >-
+      Public Class Project_AddProjectMembersRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Project_AddProjectMembersRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Project_AddProjectMembersRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Project_AddProjectMembersRequest
+  langs:
+  - csharp
+  - vb
+  name: Project_AddProjectMembersRequest()
+  nameWithType: Project_AddProjectMembersRequest.Project_AddProjectMembersRequest()
+  fullName: SuperOffice.WebApi.Data.Project_AddProjectMembersRequest.Project_AddProjectMembersRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Project_AddProjectMembersRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Project_AddProjectMembersRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Project_AddProjectMembersRequest.ProjectEntityId
+  commentId: P:SuperOffice.WebApi.Data.Project_AddProjectMembersRequest.ProjectEntityId
+  id: ProjectEntityId
+  parent: SuperOffice.WebApi.Data.Project_AddProjectMembersRequest
+  langs:
+  - csharp
+  - vb
+  name: ProjectEntityId
+  nameWithType: Project_AddProjectMembersRequest.ProjectEntityId
+  fullName: SuperOffice.WebApi.Data.Project_AddProjectMembersRequest.ProjectEntityId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ProjectEntityId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ProjectEntityId As Integer
+  overload: SuperOffice.WebApi.Data.Project_AddProjectMembersRequest.ProjectEntityId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Project_AddProjectMembersRequest.ProjectMembers
+  commentId: P:SuperOffice.WebApi.Data.Project_AddProjectMembersRequest.ProjectMembers
+  id: ProjectMembers
+  parent: SuperOffice.WebApi.Data.Project_AddProjectMembersRequest
+  langs:
+  - csharp
+  - vb
+  name: ProjectMembers
+  nameWithType: Project_AddProjectMembersRequest.ProjectMembers
+  fullName: SuperOffice.WebApi.Data.Project_AddProjectMembersRequest.ProjectMembers
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ProjectMember[] ProjectMembers { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ProjectMember[]
+    content.vb: Public Property ProjectMembers As ProjectMember()
+  overload: SuperOffice.WebApi.Data.Project_AddProjectMembersRequest.ProjectMembers*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Project_AddProjectMembersRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_AddProjectMembersRequest.#ctor
+  isExternal: true
+  name: Project_AddProjectMembersRequest
+  nameWithType: Project_AddProjectMembersRequest.Project_AddProjectMembersRequest
+  fullName: SuperOffice.WebApi.Data.Project_AddProjectMembersRequest.Project_AddProjectMembersRequest
+- uid: SuperOffice.WebApi.Data.Project_AddProjectMembersRequest.ProjectEntityId*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_AddProjectMembersRequest.ProjectEntityId
+  isExternal: true
+  name: ProjectEntityId
+  nameWithType: Project_AddProjectMembersRequest.ProjectEntityId
+  fullName: SuperOffice.WebApi.Data.Project_AddProjectMembersRequest.ProjectEntityId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Project_AddProjectMembersRequest.ProjectMembers*
+  commentId: Overload:SuperOffice.WebApi.Data.Project_AddProjectMembersRequest.ProjectMembers
+  isExternal: true
+  name: ProjectMembers
+  nameWithType: Project_AddProjectMembersRequest.ProjectMembers
+  fullName: SuperOffice.WebApi.Data.Project_AddProjectMembersRequest.ProjectMembers
+- uid: SuperOffice.WebApi.Data.ProjectMember[]
+  isExternal: true
+  name: ProjectMember[]
+  nameWithType: ProjectMember[]
+  fullName: SuperOffice.WebApi.Data.ProjectMember[]
+  nameWithType.vb: ProjectMember()
+  fullName.vb: SuperOffice.WebApi.Data.ProjectMember()
+  name.vb: ProjectMember()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ProjectMember
+    name: ProjectMember
+    nameWithType: ProjectMember
+    fullName: SuperOffice.WebApi.Data.ProjectMember
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ProjectMember
+    name: ProjectMember
+    nameWithType: ProjectMember
+    fullName: SuperOffice.WebApi.Data.ProjectMember
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -1,0 +1,677 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.MergeMoveLogFields
+  commentId: T:SuperOffice.CRM.Data.DBC.MergeMoveLogFields
+  id: DBC.MergeMoveLogFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.MergeMoveLogFields.DestinationRecord
+  - SuperOffice.CRM.Data.DBC.MergeMoveLogFields.MergeMoveLogId
+  - SuperOffice.CRM.Data.DBC.MergeMoveLogFields.Operation
+  - SuperOffice.CRM.Data.DBC.MergeMoveLogFields.Options
+  - SuperOffice.CRM.Data.DBC.MergeMoveLogFields.Registered
+  - SuperOffice.CRM.Data.DBC.MergeMoveLogFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.MergeMoveLogFields.SourceRecord
+  - SuperOffice.CRM.Data.DBC.MergeMoveLogFields.TableNumber
+  - SuperOffice.CRM.Data.DBC.MergeMoveLogFields.Updated
+  - SuperOffice.CRM.Data.DBC.MergeMoveLogFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.MergeMoveLogFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.MergeMoveLogFields
+  nameWithType: DBC.MergeMoveLogFields
+  fullName: SuperOffice.CRM.Data.DBC.MergeMoveLogFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for MergeMoveLog, Log of merge and move operations (person, contact, project)\n"
+  syntax:
+    content: public static class MergeMoveLogFields
+    content.vb: Public Module MergeMoveLogFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.MergeMoveLogFields.MergeMoveLogId
+  commentId: F:SuperOffice.CRM.Data.DBC.MergeMoveLogFields.MergeMoveLogId
+  id: MergeMoveLogId
+  parent: SuperOffice.CRM.Data.DBC.MergeMoveLogFields
+  langs:
+  - csharp
+  - vb
+  name: MergeMoveLogId
+  nameWithType: DBC.MergeMoveLogFields.MergeMoveLogId
+  fullName: SuperOffice.CRM.Data.DBC.MergeMoveLogFields.MergeMoveLogId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMergeMoveLog.MergeMoveLogId: Primary key\n"
+  syntax:
+    content: public const string MergeMoveLogId = "MergeMoveLog_id"
+    return:
+      type: System.String
+    content.vb: Public Const MergeMoveLogId As String = "MergeMoveLog_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MergeMoveLogFields.TableNumber
+  commentId: F:SuperOffice.CRM.Data.DBC.MergeMoveLogFields.TableNumber
+  id: TableNumber
+  parent: SuperOffice.CRM.Data.DBC.MergeMoveLogFields
+  langs:
+  - csharp
+  - vb
+  name: TableNumber
+  nameWithType: DBC.MergeMoveLogFields.TableNumber
+  fullName: SuperOffice.CRM.Data.DBC.MergeMoveLogFields.TableNumber
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMergeMoveLog.TableNumber: Number of table where the move/merge happened\n"
+  syntax:
+    content: public const string TableNumber = "tableNumber"
+    return:
+      type: System.String
+    content.vb: Public Const TableNumber As String = "tableNumber"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MergeMoveLogFields.Operation
+  commentId: F:SuperOffice.CRM.Data.DBC.MergeMoveLogFields.Operation
+  id: Operation
+  parent: SuperOffice.CRM.Data.DBC.MergeMoveLogFields
+  langs:
+  - csharp
+  - vb
+  name: Operation
+  nameWithType: DBC.MergeMoveLogFields.Operation
+  fullName: SuperOffice.CRM.Data.DBC.MergeMoveLogFields.Operation
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMergeMoveLog.Operation: Operation type enumerator\n"
+  syntax:
+    content: public const string Operation = "operation"
+    return:
+      type: System.String
+    content.vb: Public Const Operation As String = "operation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MergeMoveLogFields.SourceRecord
+  commentId: F:SuperOffice.CRM.Data.DBC.MergeMoveLogFields.SourceRecord
+  id: SourceRecord
+  parent: SuperOffice.CRM.Data.DBC.MergeMoveLogFields
+  langs:
+  - csharp
+  - vb
+  name: SourceRecord
+  nameWithType: DBC.MergeMoveLogFields.SourceRecord
+  fullName: SuperOffice.CRM.Data.DBC.MergeMoveLogFields.SourceRecord
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMergeMoveLog.SourceRecord: Source record id\n"
+  syntax:
+    content: public const string SourceRecord = "sourceRecord"
+    return:
+      type: System.String
+    content.vb: Public Const SourceRecord As String = "sourceRecord"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MergeMoveLogFields.DestinationRecord
+  commentId: F:SuperOffice.CRM.Data.DBC.MergeMoveLogFields.DestinationRecord
+  id: DestinationRecord
+  parent: SuperOffice.CRM.Data.DBC.MergeMoveLogFields
+  langs:
+  - csharp
+  - vb
+  name: DestinationRecord
+  nameWithType: DBC.MergeMoveLogFields.DestinationRecord
+  fullName: SuperOffice.CRM.Data.DBC.MergeMoveLogFields.DestinationRecord
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMergeMoveLog.DestinationRecord: Destination record id\n"
+  syntax:
+    content: public const string DestinationRecord = "destinationRecord"
+    return:
+      type: System.String
+    content.vb: Public Const DestinationRecord As String = "destinationRecord"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MergeMoveLogFields.Options
+  commentId: F:SuperOffice.CRM.Data.DBC.MergeMoveLogFields.Options
+  id: Options
+  parent: SuperOffice.CRM.Data.DBC.MergeMoveLogFields
+  langs:
+  - csharp
+  - vb
+  name: Options
+  nameWithType: DBC.MergeMoveLogFields.Options
+  fullName: SuperOffice.CRM.Data.DBC.MergeMoveLogFields.Options
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMergeMoveLog.Options: Options relating to move of activities and other side effects\n"
+  syntax:
+    content: public const string Options = "options"
+    return:
+      type: System.String
+    content.vb: Public Const Options As String = "options"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MergeMoveLogFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.MergeMoveLogFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.MergeMoveLogFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.MergeMoveLogFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.MergeMoveLogFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMergeMoveLog.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MergeMoveLogFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.MergeMoveLogFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.MergeMoveLogFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.MergeMoveLogFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.MergeMoveLogFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMergeMoveLog.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MergeMoveLogFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.MergeMoveLogFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.MergeMoveLogFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.MergeMoveLogFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.MergeMoveLogFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMergeMoveLog.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MergeMoveLogFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.MergeMoveLogFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.MergeMoveLogFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.MergeMoveLogFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.MergeMoveLogFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMergeMoveLog.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.MergeMoveLogFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.MergeMoveLogFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.MergeMoveLogFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.MergeMoveLogFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.MergeMoveLogFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nMergeMoveLog.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Cryptography
+  commentId: N:SuperOffice.Security.Cryptography
+  id: SuperOffice.Security.Cryptography
+  children:
+  - SuperOffice.Security.Cryptography.So3Des112Crypto
+  - SuperOffice.Security.Cryptography.SoHash
+  - SuperOffice.Security.Cryptography.Symmetric
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Security.Cryptography
+  nameWithType: SuperOffice.Security.Cryptography
+  fullName: SuperOffice.Security.Cryptography
+  type: Namespace
+  assemblies:
+  - SOCore
+references:
+- uid: SuperOffice.Security.Cryptography.So3Des112Crypto
+  commentId: T:SuperOffice.Security.Cryptography.So3Des112Crypto
+  isExternal: true
+  name: So3Des112Crypto
+  nameWithType: So3Des112Crypto
+  fullName: SuperOffice.Security.Cryptography.So3Des112Crypto
+- uid: SuperOffice.Security.Cryptography.SoHash
+  commentId: T:SuperOffice.Security.Cryptography.SoHash
+  isExternal: true
+  name: SoHash
+  nameWithType: SoHash
+  fullName: SuperOffice.Security.Cryptography.SoHash
+- uid: SuperOffice.Security.Cryptography.Symmetric
+  commentId: T:SuperOffice.Security.Cryptography.Symmetric
+  isExternal: true
+  name: Symmetric
+  nameWithType: Symmetric
+  fullName: SuperOffice.Security.Cryptography.Symmetric

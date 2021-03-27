@@ -1,0 +1,601 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.CssSprite
+  commentId: T:SuperOffice.Configuration.ConfigFile.CssSprite
+  id: ConfigFile.CssSprite
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.CssSprite.Enabled
+  - SuperOffice.Configuration.ConfigFile.CssSprite.ExcludePaths
+  - SuperOffice.Configuration.ConfigFile.CssSprite.MaxHeight
+  - SuperOffice.Configuration.ConfigFile.CssSprite.MaxWidth
+  - SuperOffice.Configuration.ConfigFile.CssSprite.PersistentPath
+  - SuperOffice.Configuration.ConfigFile.CssSprite.RootPath
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.CssSprite
+  nameWithType: ConfigFile.CssSprite
+  fullName: SuperOffice.Configuration.ConfigFile.CssSprite
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nConfiguration for the Web Client CssSprite generator\n"
+  syntax:
+    content: public static class CssSprite
+    content.vb: Public Module CssSprite
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Configuration.ConfigFile.CssSprite.Enabled
+  commentId: P:SuperOffice.Configuration.ConfigFile.CssSprite.Enabled
+  id: Enabled
+  parent: SuperOffice.Configuration.ConfigFile.CssSprite
+  langs:
+  - csharp
+  - vb
+  name: Enabled
+  nameWithType: ConfigFile.CssSprite.Enabled
+  fullName: SuperOffice.Configuration.ConfigFile.CssSprite.Enabled
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nBy enabling this feature an image is created, containing most icons used in the application.\n"
+  syntax:
+    content: public static bool Enabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property Enabled As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.CssSprite.Enabled*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.CssSprite.RootPath
+  commentId: P:SuperOffice.Configuration.ConfigFile.CssSprite.RootPath
+  id: RootPath
+  parent: SuperOffice.Configuration.ConfigFile.CssSprite
+  langs:
+  - csharp
+  - vb
+  name: RootPath
+  nameWithType: ConfigFile.CssSprite.RootPath
+  fullName: SuperOffice.Configuration.ConfigFile.CssSprite.RootPath
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nImage path\n"
+  syntax:
+    content: public static string RootPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property RootPath As String
+  overload: SuperOffice.Configuration.ConfigFile.CssSprite.RootPath*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.CssSprite.PersistentPath
+  commentId: P:SuperOffice.Configuration.ConfigFile.CssSprite.PersistentPath
+  id: PersistentPath
+  parent: SuperOffice.Configuration.ConfigFile.CssSprite
+  langs:
+  - csharp
+  - vb
+  name: PersistentPath
+  nameWithType: ConfigFile.CssSprite.PersistentPath
+  fullName: SuperOffice.Configuration.ConfigFile.CssSprite.PersistentPath
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nPath to generated CssSprite file\n"
+  syntax:
+    content: public static string PersistentPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property PersistentPath As String
+  overload: SuperOffice.Configuration.ConfigFile.CssSprite.PersistentPath*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.CssSprite.ExcludePaths
+  commentId: P:SuperOffice.Configuration.ConfigFile.CssSprite.ExcludePaths
+  id: ExcludePaths
+  parent: SuperOffice.Configuration.ConfigFile.CssSprite
+  langs:
+  - csharp
+  - vb
+  name: ExcludePaths
+  nameWithType: ConfigFile.CssSprite.ExcludePaths
+  fullName: SuperOffice.Configuration.ConfigFile.CssSprite.ExcludePaths
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nPaths to exclude. Do not include root path. Semi-colon seperated list.\n"
+  syntax:
+    content: public static string ExcludePaths { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property ExcludePaths As String
+  overload: SuperOffice.Configuration.ConfigFile.CssSprite.ExcludePaths*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.CssSprite.MaxHeight
+  commentId: P:SuperOffice.Configuration.ConfigFile.CssSprite.MaxHeight
+  id: MaxHeight
+  parent: SuperOffice.Configuration.ConfigFile.CssSprite
+  langs:
+  - csharp
+  - vb
+  name: MaxHeight
+  nameWithType: ConfigFile.CssSprite.MaxHeight
+  fullName: SuperOffice.Configuration.ConfigFile.CssSprite.MaxHeight
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe maximum height of an icon allowed in the sprite. Icons higher is excluded.\n"
+  syntax:
+    content: public static int MaxHeight { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property MaxHeight As Integer
+  overload: SuperOffice.Configuration.ConfigFile.CssSprite.MaxHeight*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.CssSprite.MaxWidth
+  commentId: P:SuperOffice.Configuration.ConfigFile.CssSprite.MaxWidth
+  id: MaxWidth
+  parent: SuperOffice.Configuration.ConfigFile.CssSprite
+  langs:
+  - csharp
+  - vb
+  name: MaxWidth
+  nameWithType: ConfigFile.CssSprite.MaxWidth
+  fullName: SuperOffice.Configuration.ConfigFile.CssSprite.MaxWidth
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe maximum width of an icon allowed in the sprite. Icons wider is excluded.\n"
+  syntax:
+    content: public static int MaxWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property MaxWidth As Integer
+  overload: SuperOffice.Configuration.ConfigFile.CssSprite.MaxWidth*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.CssSprite.Enabled*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.CssSprite.Enabled
+  isExternal: true
+  name: Enabled
+  nameWithType: ConfigFile.CssSprite.Enabled
+  fullName: SuperOffice.Configuration.ConfigFile.CssSprite.Enabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Configuration.ConfigFile.CssSprite.RootPath*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.CssSprite.RootPath
+  isExternal: true
+  name: RootPath
+  nameWithType: ConfigFile.CssSprite.RootPath
+  fullName: SuperOffice.Configuration.ConfigFile.CssSprite.RootPath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Configuration.ConfigFile.CssSprite.PersistentPath*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.CssSprite.PersistentPath
+  isExternal: true
+  name: PersistentPath
+  nameWithType: ConfigFile.CssSprite.PersistentPath
+  fullName: SuperOffice.Configuration.ConfigFile.CssSprite.PersistentPath
+- uid: SuperOffice.Configuration.ConfigFile.CssSprite.ExcludePaths*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.CssSprite.ExcludePaths
+  isExternal: true
+  name: ExcludePaths
+  nameWithType: ConfigFile.CssSprite.ExcludePaths
+  fullName: SuperOffice.Configuration.ConfigFile.CssSprite.ExcludePaths
+- uid: SuperOffice.Configuration.ConfigFile.CssSprite.MaxHeight*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.CssSprite.MaxHeight
+  isExternal: true
+  name: MaxHeight
+  nameWithType: ConfigFile.CssSprite.MaxHeight
+  fullName: SuperOffice.Configuration.ConfigFile.CssSprite.MaxHeight
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Configuration.ConfigFile.CssSprite.MaxWidth*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.CssSprite.MaxWidth
+  isExternal: true
+  name: MaxWidth
+  nameWithType: ConfigFile.CssSprite.MaxWidth
+  fullName: SuperOffice.Configuration.ConfigFile.CssSprite.MaxWidth

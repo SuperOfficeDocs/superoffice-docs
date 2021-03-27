@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest
+  commentId: T:SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest
+  id: DatabaseTable_ReadRowRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest.#ctor
+  - SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest.Id
+  - SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest.TableName
+  langs:
+  - csharp
+  - vb
+  name: DatabaseTable_ReadRowRequest
+  nameWithType: DatabaseTable_ReadRowRequest
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class DatabaseTable_ReadRowRequest : Object'
+    content.vb: >-
+      Public Class DatabaseTable_ReadRowRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest
+  langs:
+  - csharp
+  - vb
+  name: DatabaseTable_ReadRowRequest()
+  nameWithType: DatabaseTable_ReadRowRequest.DatabaseTable_ReadRowRequest()
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest.DatabaseTable_ReadRowRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DatabaseTable_ReadRowRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest.TableName
+  commentId: P:SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest.TableName
+  id: TableName
+  parent: SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: DatabaseTable_ReadRowRequest.TableName
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest.TableName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string TableName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TableName As String
+  overload: SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest.TableName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest.Id
+  commentId: P:SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: DatabaseTable_ReadRowRequest.Id
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest.#ctor
+  isExternal: true
+  name: DatabaseTable_ReadRowRequest
+  nameWithType: DatabaseTable_ReadRowRequest.DatabaseTable_ReadRowRequest
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest.DatabaseTable_ReadRowRequest
+- uid: SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest.TableName*
+  commentId: Overload:SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest.TableName
+  isExternal: true
+  name: TableName
+  nameWithType: DatabaseTable_ReadRowRequest.TableName
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest.TableName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest.Id
+  isExternal: true
+  name: Id
+  nameWithType: DatabaseTable_ReadRowRequest.Id
+  fullName: SuperOffice.WebApi.Data.DatabaseTable_ReadRowRequest.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

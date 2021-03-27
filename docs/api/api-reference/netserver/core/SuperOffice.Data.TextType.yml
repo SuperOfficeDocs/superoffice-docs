@@ -1,0 +1,1207 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.TextType
+  commentId: T:SuperOffice.Data.TextType
+  id: TextType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.TextType.AppointmentText
+  - SuperOffice.Data.TextType.AudienceSignOffConfirmation
+  - SuperOffice.Data.TextType.AudienceSignOnConfirmation
+  - SuperOffice.Data.TextType.ContactInfo
+  - SuperOffice.Data.TextType.DayInfo
+  - SuperOffice.Data.TextType.DocumentText
+  - SuperOffice.Data.TextType.LongPreference
+  - SuperOffice.Data.TextType.NameExtension
+  - SuperOffice.Data.TextType.Notepad
+  - SuperOffice.Data.TextType.PersonInfo
+  - SuperOffice.Data.TextType.ProjectInfo
+  - SuperOffice.Data.TextType.ProjectMemberText
+  - SuperOffice.Data.TextType.ProjectText
+  - SuperOffice.Data.TextType.Reserved1
+  - SuperOffice.Data.TextType.Reserved2
+  - SuperOffice.Data.TextType.Reserved3
+  - SuperOffice.Data.TextType.RoleInfo
+  - SuperOffice.Data.TextType.SaleInfo
+  - SuperOffice.Data.TextType.SaleText
+  - SuperOffice.Data.TextType.SearchCriteriaGroupInfo
+  - SuperOffice.Data.TextType.SearchCriteriaInfo
+  - SuperOffice.Data.TextType.SelectionInfo
+  - SuperOffice.Data.TextType.SelectionText
+  - SuperOffice.Data.TextType.StatusMonitorDefaultTaskText
+  - SuperOffice.Data.TextType.StatusMonitorInfo
+  - SuperOffice.Data.TextType.TooltipExtension
+  - SuperOffice.Data.TextType.UdefListSQL
+  - SuperOffice.Data.TextType.Unknown
+  langs:
+  - csharp
+  - vb
+  name: TextType
+  nameWithType: TextType
+  fullName: SuperOffice.Data.TextType
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nValue for field &apos;type&apos; in table &apos;text&apos;.\nThis Enum is used by:  text.type\n"
+  syntax:
+    content: 'public enum TextType : short'
+    content.vb: Public Enum TextType As Short
+  extensionMethods:
+  - SuperOffice.Data.TextType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.TextType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TextType)
+  - SuperOffice.Data.TextType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.TextType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.TextType.Unknown
+  commentId: F:SuperOffice.Data.TextType.Unknown
+  id: Unknown
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: TextType.Unknown
+  fullName: SuperOffice.Data.TextType.Unknown
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: Unknown - used when initializing\n"
+  syntax:
+    content: Unknown = 0
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.ContactInfo
+  commentId: F:SuperOffice.Data.TextType.ContactInfo
+  id: ContactInfo
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: ContactInfo
+  nameWithType: TextType.ContactInfo
+  fullName: SuperOffice.Data.TextType.ContactInfo
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: A Post-it (paperclip) on the  contact card\n"
+  syntax:
+    content: ContactInfo = 1
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.PersonInfo
+  commentId: F:SuperOffice.Data.TextType.PersonInfo
+  id: PersonInfo
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: PersonInfo
+  nameWithType: TextType.PersonInfo
+  fullName: SuperOffice.Data.TextType.PersonInfo
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: A Post-it in the person dialog, shown as a descriptive text box in the info panel\n"
+  syntax:
+    content: PersonInfo = 2
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.Reserved1
+  commentId: F:SuperOffice.Data.TextType.Reserved1
+  id: Reserved1
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: Reserved1
+  nameWithType: TextType.Reserved1
+  fullName: SuperOffice.Data.TextType.Reserved1
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n3: PersonEmail - currently not in use (4.5 legacy, removed by conversion program)\n"
+  syntax:
+    content: Reserved1 = 3
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.AppointmentText
+  commentId: F:SuperOffice.Data.TextType.AppointmentText
+  id: AppointmentText
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: AppointmentText
+  nameWithType: TextType.AppointmentText
+  fullName: SuperOffice.Data.TextType.AppointmentText
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Descriptive text area in the appointment dialog. \n"
+  syntax:
+    content: AppointmentText = 4
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.DocumentText
+  commentId: F:SuperOffice.Data.TextType.DocumentText
+  id: DocumentText
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: DocumentText
+  nameWithType: TextType.DocumentText
+  fullName: SuperOffice.Data.TextType.DocumentText
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n5: Document optional long description (keywords). Owner is document.\n"
+  syntax:
+    content: DocumentText = 5
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.ProjectText
+  commentId: F:SuperOffice.Data.TextType.ProjectText
+  id: ProjectText
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: ProjectText
+  nameWithType: TextType.ProjectText
+  fullName: SuperOffice.Data.TextType.ProjectText
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n6: Descriptive text area on the project card. \n"
+  syntax:
+    content: ProjectText = 6
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.SaleText
+  commentId: F:SuperOffice.Data.TextType.SaleText
+  id: SaleText
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: SaleText
+  nameWithType: TextType.SaleText
+  fullName: SuperOffice.Data.TextType.SaleText
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n7: Descriptive text area in the sale dialog.\n"
+  syntax:
+    content: SaleText = 7
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.Notepad
+  commentId: F:SuperOffice.Data.TextType.Notepad
+  id: Notepad
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: Notepad
+  nameWithType: TextType.Notepad
+  fullName: SuperOffice.Data.TextType.Notepad
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n8: Personal notepad as used extensively in 4.5.  \n"
+  syntax:
+    content: Notepad = 8
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.Reserved2
+  commentId: F:SuperOffice.Data.TextType.Reserved2
+  id: Reserved2
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: Reserved2
+  nameWithType: TextType.Reserved2
+  fullName: SuperOffice.Data.TextType.Reserved2
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n9: MailAppointmentText - currently not in use (4.5 legacy, removed by conversion program)\n"
+  syntax:
+    content: Reserved2 = 9
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.Reserved3
+  commentId: F:SuperOffice.Data.TextType.Reserved3
+  id: Reserved3
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: Reserved3
+  nameWithType: TextType.Reserved3
+  fullName: SuperOffice.Data.TextType.Reserved3
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n10: ContactUrl - currently not in use (4.5 legacy, removed by conversion program)\n"
+  syntax:
+    content: Reserved3 = 10
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.ProjectInfo
+  commentId: F:SuperOffice.Data.TextType.ProjectInfo
+  id: ProjectInfo
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: ProjectInfo
+  nameWithType: TextType.ProjectInfo
+  fullName: SuperOffice.Data.TextType.ProjectInfo
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n11: A Post-it (paperclip) on the project card. \n"
+  syntax:
+    content: ProjectInfo = 11
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.SelectionInfo
+  commentId: F:SuperOffice.Data.TextType.SelectionInfo
+  id: SelectionInfo
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: SelectionInfo
+  nameWithType: TextType.SelectionInfo
+  fullName: SuperOffice.Data.TextType.SelectionInfo
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n12: A Post-it (paperclip) on the selection card. \n"
+  syntax:
+    content: SelectionInfo = 12
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.ProjectMemberText
+  commentId: F:SuperOffice.Data.TextType.ProjectMemberText
+  id: ProjectMemberText
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: ProjectMemberText
+  nameWithType: TextType.ProjectMemberText
+  fullName: SuperOffice.Data.TextType.ProjectMemberText
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n13: Descriptive text area in the project member dialog. \n"
+  syntax:
+    content: ProjectMemberText = 13
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.SelectionText
+  commentId: F:SuperOffice.Data.TextType.SelectionText
+  id: SelectionText
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: SelectionText
+  nameWithType: TextType.SelectionText
+  fullName: SuperOffice.Data.TextType.SelectionText
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n14: Descriptive text area on the selection card. \n"
+  syntax:
+    content: SelectionText = 14
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.DayInfo
+  commentId: F:SuperOffice.Data.TextType.DayInfo
+  id: DayInfo
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: DayInfo
+  nameWithType: TextType.DayInfo
+  fullName: SuperOffice.Data.TextType.DayInfo
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n15: A Post-it attached to a specific day (via an appointment)\n"
+  syntax:
+    content: DayInfo = 15
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.LongPreference
+  commentId: F:SuperOffice.Data.TextType.LongPreference
+  id: LongPreference
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: LongPreference
+  nameWithType: TextType.LongPreference
+  fullName: SuperOffice.Data.TextType.LongPreference
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n16: Extra information for a saved set of search criteria\n"
+  syntax:
+    content: LongPreference = 16
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.SearchCriteriaInfo
+  commentId: F:SuperOffice.Data.TextType.SearchCriteriaInfo
+  id: SearchCriteriaInfo
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: SearchCriteriaInfo
+  nameWithType: TextType.SearchCriteriaInfo
+  fullName: SuperOffice.Data.TextType.SearchCriteriaInfo
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n17: Extra information for a saved search criteria subgroup\n"
+  syntax:
+    content: SearchCriteriaInfo = 17
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.SearchCriteriaGroupInfo
+  commentId: F:SuperOffice.Data.TextType.SearchCriteriaGroupInfo
+  id: SearchCriteriaGroupInfo
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: SearchCriteriaGroupInfo
+  nameWithType: TextType.SearchCriteriaGroupInfo
+  fullName: SuperOffice.Data.TextType.SearchCriteriaGroupInfo
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n18: Extra information about a user role\n"
+  syntax:
+    content: SearchCriteriaGroupInfo = 18
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.RoleInfo
+  commentId: F:SuperOffice.Data.TextType.RoleInfo
+  id: RoleInfo
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: RoleInfo
+  nameWithType: TextType.RoleInfo
+  fullName: SuperOffice.Data.TextType.RoleInfo
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n19: Extra information about a user role\n"
+  syntax:
+    content: RoleInfo = 19
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.UdefListSQL
+  commentId: F:SuperOffice.Data.TextType.UdefListSQL
+  id: UdefListSQL
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: UdefListSQL
+  nameWithType: TextType.UdefListSQL
+  fullName: SuperOffice.Data.TextType.UdefListSQL
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n20: SQL text to be executed when populating a user-defined fields&apos; drop-down box\n"
+  syntax:
+    content: UdefListSQL = 20
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.StatusMonitorInfo
+  commentId: F:SuperOffice.Data.TextType.StatusMonitorInfo
+  id: StatusMonitorInfo
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: StatusMonitorInfo
+  nameWithType: TextType.StatusMonitorInfo
+  fullName: SuperOffice.Data.TextType.StatusMonitorInfo
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n21: Extra information about a status monitor (linked to statusdef)\n"
+  syntax:
+    content: StatusMonitorInfo = 21
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.AudienceSignOnConfirmation
+  commentId: F:SuperOffice.Data.TextType.AudienceSignOnConfirmation
+  id: AudienceSignOnConfirmation
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: AudienceSignOnConfirmation
+  nameWithType: TextType.AudienceSignOnConfirmation
+  fullName: SuperOffice.Data.TextType.AudienceSignOnConfirmation
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n22: Confirmation text to be shown to users who &apos;sign on&apos; to an event, in Audience\n"
+  syntax:
+    content: AudienceSignOnConfirmation = 22
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.AudienceSignOffConfirmation
+  commentId: F:SuperOffice.Data.TextType.AudienceSignOffConfirmation
+  id: AudienceSignOffConfirmation
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: AudienceSignOffConfirmation
+  nameWithType: TextType.AudienceSignOffConfirmation
+  fullName: SuperOffice.Data.TextType.AudienceSignOffConfirmation
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n23: Confirmation text to be shown to users who &apos;sign off&apos; from an event, in Audience\n"
+  syntax:
+    content: AudienceSignOffConfirmation = 23
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.StatusMonitorDefaultTaskText
+  commentId: F:SuperOffice.Data.TextType.StatusMonitorDefaultTaskText
+  id: StatusMonitorDefaultTaskText
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: StatusMonitorDefaultTaskText
+  nameWithType: TextType.StatusMonitorDefaultTaskText
+  fullName: SuperOffice.Data.TextType.StatusMonitorDefaultTaskText
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n24: Default task text for new tasks created in response to a status monitor watermark (linked to statusdef)\n"
+  syntax:
+    content: StatusMonitorDefaultTaskText = 24
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.SaleInfo
+  commentId: F:SuperOffice.Data.TextType.SaleInfo
+  id: SaleInfo
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: SaleInfo
+  nameWithType: TextType.SaleInfo
+  fullName: SuperOffice.Data.TextType.SaleInfo
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n25: A Post-it (paperclip) on the Sale panel\n"
+  syntax:
+    content: SaleInfo = 25
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.NameExtension
+  commentId: F:SuperOffice.Data.TextType.NameExtension
+  id: NameExtension
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: NameExtension
+  nameWithType: TextType.NameExtension
+  fullName: SuperOffice.Data.TextType.NameExtension
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n26: Extension of NAME of MDO list\n"
+  syntax:
+    content: NameExtension = 26
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.TextType.TooltipExtension
+  commentId: F:SuperOffice.Data.TextType.TooltipExtension
+  id: TooltipExtension
+  parent: SuperOffice.Data.TextType
+  langs:
+  - csharp
+  - vb
+  name: TooltipExtension
+  nameWithType: TextType.TooltipExtension
+  fullName: SuperOffice.Data.TextType.TooltipExtension
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n27: Extension of TOOLTIP of MDO list\n"
+  syntax:
+    content: TooltipExtension = 27
+    return:
+      type: SuperOffice.Data.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.TextType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TextType, To>()
+  nameWithType: EnumUtil.MapEnums<TextType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.TextType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TextType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.TextType, To)()
+  name.vb: MapEnums(Of TextType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TextType, To>
+    nameWithType: EnumUtil.MapEnums<TextType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.TextType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TextType, To)
+    nameWithType: EnumUtil.MapEnums(Of TextType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.TextType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.TextType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TextType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<TextType>(TextType)
+  nameWithType: ObjectExtensions.AssignByReflection<TextType>(TextType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TextType>(SuperOffice.Data.TextType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TextType)(TextType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TextType)(SuperOffice.Data.TextType)
+  name.vb: AssignByReflection(Of TextType)(TextType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<TextType>
+    nameWithType: ObjectExtensions.AssignByReflection<TextType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TextType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.TextType
+    name: TextType
+    nameWithType: TextType
+    fullName: SuperOffice.Data.TextType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of TextType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of TextType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TextType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.TextType
+    name: TextType
+    nameWithType: TextType
+    fullName: SuperOffice.Data.TextType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.TextType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<TextType>()
+  nameWithType: ObjectExtensions.GraphCopy<TextType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TextType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TextType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TextType)()
+  name.vb: GraphCopy(Of TextType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<TextType>
+    nameWithType: ObjectExtensions.GraphCopy<TextType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TextType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of TextType)
+    nameWithType: ObjectExtensions.GraphCopy(Of TextType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TextType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.TextType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TextType, To>()
+  nameWithType: Converters.MapEnums<TextType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TextType, To>()
+  nameWithType.vb: Converters.MapEnums(Of TextType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TextType, To)()
+  name.vb: MapEnums(Of TextType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TextType, To>
+    nameWithType: Converters.MapEnums<TextType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TextType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TextType, To)
+    nameWithType: Converters.MapEnums(Of TextType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TextType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.TextType
+  commentId: T:SuperOffice.Data.TextType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: TextType
+  nameWithType: TextType
+  fullName: SuperOffice.Data.TextType

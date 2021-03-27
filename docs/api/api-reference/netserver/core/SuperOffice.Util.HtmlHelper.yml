@@ -1,0 +1,479 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.HtmlHelper
+  commentId: T:SuperOffice.Util.HtmlHelper
+  id: HtmlHelper
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.HtmlHelper.GetHTMLBodyFromPlainText(System.String,System.Boolean)
+  - SuperOffice.Util.HtmlHelper.GetPlainHTMLBody(System.String)
+  - SuperOffice.Util.HtmlHelper.IsHtml(System.String)
+  langs:
+  - csharp
+  - vb
+  name: HtmlHelper
+  nameWithType: HtmlHelper
+  fullName: SuperOffice.Util.HtmlHelper
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nClass which provides HTML-related utility-functions.\n"
+  syntax:
+    content: public static class HtmlHelper
+    content.vb: Public Module HtmlHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Util.HtmlHelper.IsHtml(System.String)
+  commentId: M:SuperOffice.Util.HtmlHelper.IsHtml(System.String)
+  id: IsHtml(System.String)
+  parent: SuperOffice.Util.HtmlHelper
+  langs:
+  - csharp
+  - vb
+  name: IsHtml(String)
+  nameWithType: HtmlHelper.IsHtml(String)
+  fullName: SuperOffice.Util.HtmlHelper.IsHtml(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nTest if the text looks like it could be HTML. If this function returns false it means the text contains no tags.\n"
+  syntax:
+    content: public static bool IsHtml(string s)
+    parameters:
+    - id: s
+      type: System.String
+      description: Input text
+    return:
+      type: System.Boolean
+      description: True if the value provided contains at least 1 tag symbol
+    content.vb: Public Shared Function IsHtml(s As String) As Boolean
+  overload: SuperOffice.Util.HtmlHelper.IsHtml*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.HtmlHelper.GetPlainHTMLBody(System.String)
+  commentId: M:SuperOffice.Util.HtmlHelper.GetPlainHTMLBody(System.String)
+  id: GetPlainHTMLBody(System.String)
+  parent: SuperOffice.Util.HtmlHelper
+  langs:
+  - csharp
+  - vb
+  name: GetPlainHTMLBody(String)
+  nameWithType: HtmlHelper.GetPlainHTMLBody(String)
+  fullName: SuperOffice.Util.HtmlHelper.GetPlainHTMLBody(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nRetrieve plain text version of a html source\n"
+  syntax:
+    content: public static string GetPlainHTMLBody(string source)
+    parameters:
+    - id: source
+      type: System.String
+      description: HTML to convert to plain text
+    return:
+      type: System.String
+      description: Plain text version of the provided html
+    content.vb: Public Shared Function GetPlainHTMLBody(source As String) As String
+  overload: SuperOffice.Util.HtmlHelper.GetPlainHTMLBody*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.HtmlHelper.GetHTMLBodyFromPlainText(System.String,System.Boolean)
+  commentId: M:SuperOffice.Util.HtmlHelper.GetHTMLBodyFromPlainText(System.String,System.Boolean)
+  id: GetHTMLBodyFromPlainText(System.String,System.Boolean)
+  parent: SuperOffice.Util.HtmlHelper
+  langs:
+  - csharp
+  - vb
+  name: GetHTMLBodyFromPlainText(String, Boolean)
+  nameWithType: HtmlHelper.GetHTMLBodyFromPlainText(String, Boolean)
+  fullName: SuperOffice.Util.HtmlHelper.GetHTMLBodyFromPlainText(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static string GetHTMLBodyFromPlainText(string text, bool fragment = false)
+    parameters:
+    - id: text
+      type: System.String
+    - id: fragment
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetHTMLBodyFromPlainText(text As String, fragment As Boolean = False) As String
+  overload: SuperOffice.Util.HtmlHelper.GetHTMLBodyFromPlainText*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Util.HtmlHelper.IsHtml*
+  commentId: Overload:SuperOffice.Util.HtmlHelper.IsHtml
+  isExternal: true
+  name: IsHtml
+  nameWithType: HtmlHelper.IsHtml
+  fullName: SuperOffice.Util.HtmlHelper.IsHtml
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Util.HtmlHelper.GetPlainHTMLBody*
+  commentId: Overload:SuperOffice.Util.HtmlHelper.GetPlainHTMLBody
+  isExternal: true
+  name: GetPlainHTMLBody
+  nameWithType: HtmlHelper.GetPlainHTMLBody
+  fullName: SuperOffice.Util.HtmlHelper.GetPlainHTMLBody
+- uid: SuperOffice.Util.HtmlHelper.GetHTMLBodyFromPlainText*
+  commentId: Overload:SuperOffice.Util.HtmlHelper.GetHTMLBodyFromPlainText
+  isExternal: true
+  name: GetHTMLBodyFromPlainText
+  nameWithType: HtmlHelper.GetHTMLBodyFromPlainText
+  fullName: SuperOffice.Util.HtmlHelper.GetHTMLBodyFromPlainText

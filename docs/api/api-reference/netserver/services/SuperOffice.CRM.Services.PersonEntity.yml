@@ -1,0 +1,3103 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.PersonEntity
+  commentId: T:SuperOffice.CRM.Services.PersonEntity
+  id: PersonEntity
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.PersonEntity.#ctor
+  - SuperOffice.CRM.Services.PersonEntity.ActiveErpLinks
+  - SuperOffice.CRM.Services.PersonEntity.ActiveInterests
+  - SuperOffice.CRM.Services.PersonEntity.Address
+  - SuperOffice.CRM.Services.PersonEntity.Associate
+  - SuperOffice.CRM.Services.PersonEntity.BirthDate
+  - SuperOffice.CRM.Services.PersonEntity.BounceEmails
+  - SuperOffice.CRM.Services.PersonEntity.Business
+  - SuperOffice.CRM.Services.PersonEntity.Category
+  - SuperOffice.CRM.Services.PersonEntity.ChatEmails
+  - SuperOffice.CRM.Services.PersonEntity.Consents
+  - SuperOffice.CRM.Services.PersonEntity.Contact
+  - SuperOffice.CRM.Services.PersonEntity.CorrespondingAssociate
+  - SuperOffice.CRM.Services.PersonEntity.Country
+  - SuperOffice.CRM.Services.PersonEntity.CreatedBy
+  - SuperOffice.CRM.Services.PersonEntity.CreatedDate
+  - SuperOffice.CRM.Services.PersonEntity.CustomerLanguage
+  - SuperOffice.CRM.Services.PersonEntity.CustomFields
+  - SuperOffice.CRM.Services.PersonEntity.DbiAgentId
+  - SuperOffice.CRM.Services.PersonEntity.DbiKey
+  - SuperOffice.CRM.Services.PersonEntity.DbiLastModified
+  - SuperOffice.CRM.Services.PersonEntity.DbiLastSyncronized
+  - SuperOffice.CRM.Services.PersonEntity.Description
+  - SuperOffice.CRM.Services.PersonEntity.Emails
+  - SuperOffice.CRM.Services.PersonEntity.ExtraFields
+  - SuperOffice.CRM.Services.PersonEntity.Faxes
+  - SuperOffice.CRM.Services.PersonEntity.Firstname
+  - SuperOffice.CRM.Services.PersonEntity.FormalName
+  - SuperOffice.CRM.Services.PersonEntity.FullName
+  - SuperOffice.CRM.Services.PersonEntity.Interests
+  - SuperOffice.CRM.Services.PersonEntity.InternetPhones
+  - SuperOffice.CRM.Services.PersonEntity.IsAssociate
+  - SuperOffice.CRM.Services.PersonEntity.Kanafname
+  - SuperOffice.CRM.Services.PersonEntity.Kanalname
+  - SuperOffice.CRM.Services.PersonEntity.Lastname
+  - SuperOffice.CRM.Services.PersonEntity.MiddleName
+  - SuperOffice.CRM.Services.PersonEntity.MobilePhones
+  - SuperOffice.CRM.Services.PersonEntity.Mrmrs
+  - SuperOffice.CRM.Services.PersonEntity.NoMailing
+  - SuperOffice.CRM.Services.PersonEntity.OfficePhones
+  - SuperOffice.CRM.Services.PersonEntity.OtherPhones
+  - SuperOffice.CRM.Services.PersonEntity.PersonId
+  - SuperOffice.CRM.Services.PersonEntity.PersonNumber
+  - SuperOffice.CRM.Services.PersonEntity.Position
+  - SuperOffice.CRM.Services.PersonEntity.Post1
+  - SuperOffice.CRM.Services.PersonEntity.Post2
+  - SuperOffice.CRM.Services.PersonEntity.Post3
+  - SuperOffice.CRM.Services.PersonEntity.PrivatePhones
+  - SuperOffice.CRM.Services.PersonEntity.Retired
+  - SuperOffice.CRM.Services.PersonEntity.Salutation
+  - SuperOffice.CRM.Services.PersonEntity.SentInfo
+  - SuperOffice.CRM.Services.PersonEntity.ShipmentTypes
+  - SuperOffice.CRM.Services.PersonEntity.ShowContactTickets
+  - SuperOffice.CRM.Services.PersonEntity.Source
+  - SuperOffice.CRM.Services.PersonEntity.SupportAssociate
+  - SuperOffice.CRM.Services.PersonEntity.TicketPriority
+  - SuperOffice.CRM.Services.PersonEntity.Title
+  - SuperOffice.CRM.Services.PersonEntity.ToString
+  - SuperOffice.CRM.Services.PersonEntity.ToString(System.String)
+  - SuperOffice.CRM.Services.PersonEntity.UpdatedBy
+  - SuperOffice.CRM.Services.PersonEntity.UpdatedDate
+  - SuperOffice.CRM.Services.PersonEntity.Urls
+  - SuperOffice.CRM.Services.PersonEntity.UsePersonAddress
+  - SuperOffice.CRM.Services.PersonEntity.UserDefinedFields
+  - SuperOffice.CRM.Services.PersonEntity.UserInfo
+  langs:
+  - csharp
+  - vb
+  name: PersonEntity
+  nameWithType: PersonEntity
+  fullName: SuperOffice.CRM.Services.PersonEntity
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  example:
+  - "\nGet PersonEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new PersonAgent();\n    var personEntity = agent.GetPersonEntity( 123 );\n }</code></pre>\n\nFind all PersonEntity, get related items using archive agent.\n<pre><code>var archive = new ArchiveAgent();\nvar rows = archive.GetArchiveListByColumns2(&quot;Person&quot;, &quot;...&quot;, null, &quot;getAllRows eq 1&quot;, null, 0, 100 );\nvar activities = archive.GetArchiveListByColumns2(&quot;ContactActivity&quot;, &quot;...&quot;, null, &quot;personId eq 123&quot;, null, 0, 100 );\nvar appointments = archive.GetArchiveListByColumns2(&quot;Appointment&quot;, &quot;...&quot;, null, &quot;personId eq 123&quot;, null, 0, 100 );\nvar documents = archive.GetArchiveListByColumns2(&quot;Document&quot;, &quot;...&quot;, null, &quot;personId eq 123&quot;, null, 0, 100 );\nvar sales = archive.GetArchiveListByColumns2(&quot;SaleFilteredWithStakeholder&quot;, &quot;...&quot;, null, &quot;person/personId eq 123&quot;, null, 0, 100 );\nvar relations = archive.GetArchiveListByColumns2(&quot;Relation&quot;, &quot;...&quot;, null, &quot;source/restrictionPersonId eq 123&quot;, null, 0, 100 );\nvar tickets = archive.GetArchiveListByColumns2(&quot;Ticket&quot;, &quot;...&quot;, null, &quot;personId eq 123&quot;, null, 0, 100 );</code></pre>\n"
+  syntax:
+    content: 'public class PersonEntity : Carrier, IEntityCarrier, IUdefFieldCarrier, IExtraFieldCarrier'
+    content.vb: >-
+      Public Class PersonEntity
+          Inherits Carrier
+          Implements IEntityCarrier, IUdefFieldCarrier, IExtraFieldCarrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.PersonAgent
+    commentId: T:SuperOffice.CRM.Services.PersonAgent
+  - linkId: SuperOffice.CRM.Services.IPersonAgent
+    commentId: T:SuperOffice.CRM.Services.IPersonAgent
+  - linkId: SuperOffice.CRM.Services.ArchiveAgent
+    commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  - linkId: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.Services.IEntityCarrier
+  - SuperOffice.CRM.Services.IUdefFieldCarrier
+  - SuperOffice.CRM.Services.IExtraFieldCarrier
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.PersonEntity.#ctor
+  commentId: M:SuperOffice.CRM.Services.PersonEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: PersonEntity()
+  nameWithType: PersonEntity.PersonEntity()
+  fullName: SuperOffice.CRM.Services.PersonEntity.PersonEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public PersonEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.PersonEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PersonEntity.ToString
+  commentId: M:SuperOffice.CRM.Services.PersonEntity.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: PersonEntity.ToString()
+  fullName: SuperOffice.CRM.Services.PersonEntity.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.PersonEntity.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.PersonEntity.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.PersonEntity.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: PersonEntity.ToString(String)
+  fullName: SuperOffice.CRM.Services.PersonEntity.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.PersonEntity.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PersonEntity.PersonId
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: PersonEntity.PersonId
+  fullName: SuperOffice.CRM.Services.PersonEntity.PersonId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.CRM.Services.PersonEntity.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.Firstname
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.Firstname
+  id: Firstname
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Firstname
+  nameWithType: PersonEntity.Firstname
+  fullName: SuperOffice.CRM.Services.PersonEntity.Firstname
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFirst name \n"
+  syntax:
+    content: public virtual string Firstname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Firstname As String
+  overload: SuperOffice.CRM.Services.PersonEntity.Firstname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.MiddleName
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.MiddleName
+  id: MiddleName
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: MiddleName
+  nameWithType: PersonEntity.MiddleName
+  fullName: SuperOffice.CRM.Services.PersonEntity.MiddleName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMiddle name or &apos;van&apos; etc. \n"
+  syntax:
+    content: public virtual string MiddleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property MiddleName As String
+  overload: SuperOffice.CRM.Services.PersonEntity.MiddleName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.Lastname
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.Lastname
+  id: Lastname
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Lastname
+  nameWithType: PersonEntity.Lastname
+  fullName: SuperOffice.CRM.Services.PersonEntity.Lastname
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLast name \n"
+  syntax:
+    content: public virtual string Lastname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Lastname As String
+  overload: SuperOffice.CRM.Services.PersonEntity.Lastname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.Mrmrs
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.Mrmrs
+  id: Mrmrs
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Mrmrs
+  nameWithType: PersonEntity.Mrmrs
+  fullName: SuperOffice.CRM.Services.PersonEntity.Mrmrs
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\ne.g. Mrs   sex_title \n<p>Use MDO List name &quot;mrmrs&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual string Mrmrs { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Mrmrs As String
+  overload: SuperOffice.CRM.Services.PersonEntity.Mrmrs*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.Title
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.Title
+  id: Title
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: PersonEntity.Title
+  fullName: SuperOffice.CRM.Services.PersonEntity.Title
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTitle \n"
+  syntax:
+    content: public virtual string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Title As String
+  overload: SuperOffice.CRM.Services.PersonEntity.Title*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.UpdatedDate
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.UpdatedDate
+  id: UpdatedDate
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedDate
+  nameWithType: PersonEntity.UpdatedDate
+  fullName: SuperOffice.CRM.Services.PersonEntity.UpdatedDate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLast updated date  in UTC.\n"
+  syntax:
+    content: public virtual DateTime UpdatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property UpdatedDate As Date
+  overload: SuperOffice.CRM.Services.PersonEntity.UpdatedDate*
+  implements:
+  - SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.CreatedDate
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.CreatedDate
+  id: CreatedDate
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: CreatedDate
+  nameWithType: PersonEntity.CreatedDate
+  fullName: SuperOffice.CRM.Services.PersonEntity.CreatedDate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRegistered date  in UTC.\n"
+  syntax:
+    content: public virtual DateTime CreatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property CreatedDate As Date
+  overload: SuperOffice.CRM.Services.PersonEntity.CreatedDate*
+  implements:
+  - SuperOffice.CRM.Services.IEntityCarrier.CreatedDate
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.BirthDate
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.BirthDate
+  id: BirthDate
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: BirthDate
+  nameWithType: PersonEntity.BirthDate
+  fullName: SuperOffice.CRM.Services.PersonEntity.BirthDate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe Person birth date as Date \n"
+  syntax:
+    content: public virtual DateTime BirthDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property BirthDate As Date
+  overload: SuperOffice.CRM.Services.PersonEntity.BirthDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.CreatedBy
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: PersonEntity.CreatedBy
+  fullName: SuperOffice.CRM.Services.PersonEntity.CreatedBy
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe user that created the person object \n"
+  syntax:
+    content: public virtual Associate CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Associate
+    content.vb: Public Overridable Property CreatedBy As Associate
+  overload: SuperOffice.CRM.Services.PersonEntity.CreatedBy*
+  implements:
+  - SuperOffice.CRM.Services.IEntityCarrier.CreatedBy
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.Emails
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.Emails
+  id: Emails
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Emails
+  nameWithType: PersonEntity.Emails
+  fullName: SuperOffice.CRM.Services.PersonEntity.Emails
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA collection of the person&apos;s emails \n"
+  syntax:
+    content: public virtual EntityElement[] Emails { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.EntityElement[]
+    content.vb: Public Overridable Property Emails As EntityElement()
+  overload: SuperOffice.CRM.Services.PersonEntity.Emails*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.Description
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: PersonEntity.Description
+  fullName: SuperOffice.CRM.Services.PersonEntity.Description
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe actual text, max 2047 significant characters even though it is stored as a larger data type on some databases \n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.PersonEntity.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.IsAssociate
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.IsAssociate
+  id: IsAssociate
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: IsAssociate
+  nameWithType: PersonEntity.IsAssociate
+  fullName: SuperOffice.CRM.Services.PersonEntity.IsAssociate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nChecks if the person object is an associate. The property is read-only. \n"
+  syntax:
+    content: public virtual bool IsAssociate { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsAssociate As Boolean
+  overload: SuperOffice.CRM.Services.PersonEntity.IsAssociate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.PrivatePhones
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.PrivatePhones
+  id: PrivatePhones
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: PrivatePhones
+  nameWithType: PersonEntity.PrivatePhones
+  fullName: SuperOffice.CRM.Services.PersonEntity.PrivatePhones
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns a collection of phone numbers that belong to the contact person. \n"
+  syntax:
+    content: public virtual EntityElement[] PrivatePhones { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.EntityElement[]
+    content.vb: Public Overridable Property PrivatePhones As EntityElement()
+  overload: SuperOffice.CRM.Services.PersonEntity.PrivatePhones*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.Faxes
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.Faxes
+  id: Faxes
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Faxes
+  nameWithType: PersonEntity.Faxes
+  fullName: SuperOffice.CRM.Services.PersonEntity.Faxes
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns a collection of fax numbers that belong to the contact person. \n"
+  syntax:
+    content: public virtual EntityElement[] Faxes { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.EntityElement[]
+    content.vb: Public Overridable Property Faxes As EntityElement()
+  overload: SuperOffice.CRM.Services.PersonEntity.Faxes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.MobilePhones
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.MobilePhones
+  id: MobilePhones
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: MobilePhones
+  nameWithType: PersonEntity.MobilePhones
+  fullName: SuperOffice.CRM.Services.PersonEntity.MobilePhones
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns a collection of mobile phone numbers that belong to the contact person. \n"
+  syntax:
+    content: public virtual EntityElement[] MobilePhones { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.EntityElement[]
+    content.vb: Public Overridable Property MobilePhones As EntityElement()
+  overload: SuperOffice.CRM.Services.PersonEntity.MobilePhones*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.OfficePhones
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.OfficePhones
+  id: OfficePhones
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: OfficePhones
+  nameWithType: PersonEntity.OfficePhones
+  fullName: SuperOffice.CRM.Services.PersonEntity.OfficePhones
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns a collection of office phone numbers that belong to the contact person. \n"
+  syntax:
+    content: public virtual EntityElement[] OfficePhones { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.EntityElement[]
+    content.vb: Public Overridable Property OfficePhones As EntityElement()
+  overload: SuperOffice.CRM.Services.PersonEntity.OfficePhones*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.OtherPhones
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.OtherPhones
+  id: OtherPhones
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: OtherPhones
+  nameWithType: PersonEntity.OtherPhones
+  fullName: SuperOffice.CRM.Services.PersonEntity.OtherPhones
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns a collection of pagers that belong to the contact person. \n"
+  syntax:
+    content: public virtual EntityElement[] OtherPhones { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.EntityElement[]
+    content.vb: Public Overridable Property OtherPhones As EntityElement()
+  overload: SuperOffice.CRM.Services.PersonEntity.OtherPhones*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.Position
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.Position
+  id: Position
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: PersonEntity.Position
+  fullName: SuperOffice.CRM.Services.PersonEntity.Position
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe position. This is a predefined SuperOffice value, different from Title \n<p>Use MDO List name &quot;perspos&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Position Position { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Position
+    content.vb: Public Overridable Property Position As Position
+  overload: SuperOffice.CRM.Services.PersonEntity.Position*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.UpdatedBy
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.UpdatedBy
+  id: UpdatedBy
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedBy
+  nameWithType: PersonEntity.UpdatedBy
+  fullName: SuperOffice.CRM.Services.PersonEntity.UpdatedBy
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe person that last updated the person object \n"
+  syntax:
+    content: public virtual Associate UpdatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Associate
+    content.vb: Public Overridable Property UpdatedBy As Associate
+  overload: SuperOffice.CRM.Services.PersonEntity.UpdatedBy*
+  implements:
+  - SuperOffice.CRM.Services.IEntityCarrier.UpdatedBy
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.Contact
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.Contact
+  id: Contact
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: PersonEntity.Contact
+  fullName: SuperOffice.CRM.Services.PersonEntity.Contact
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe contact the contact person is registered on. This is required unless the &apos;MandatoryContactOnPerson&apos; preference is set. \n<p>Use MDO List name &quot;contact_new&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Contact Contact { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Contact
+    content.vb: Public Overridable Property Contact As Contact
+  overload: SuperOffice.CRM.Services.PersonEntity.Contact*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.Country
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.Country
+  id: Country
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Country
+  nameWithType: PersonEntity.Country
+  fullName: SuperOffice.CRM.Services.PersonEntity.Country
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe country this contact person is located in. \n<p>Use MDO List name &quot;country&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Country Country { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Country
+    content.vb: Public Overridable Property Country As Country
+  overload: SuperOffice.CRM.Services.PersonEntity.Country*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.Interests
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.Interests
+  id: Interests
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Interests
+  nameWithType: PersonEntity.Interests
+  fullName: SuperOffice.CRM.Services.PersonEntity.Interests
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe person&apos;s available and selected interests. \n<p>Use MDO List name &quot;persint&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual SelectableMDOListItem[] Interests { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+    content.vb: Public Overridable Property Interests As SelectableMDOListItem()
+  overload: SuperOffice.CRM.Services.PersonEntity.Interests*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.PersonNumber
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.PersonNumber
+  id: PersonNumber
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: PersonNumber
+  nameWithType: PersonEntity.PersonNumber
+  fullName: SuperOffice.CRM.Services.PersonEntity.PersonNumber
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAlphanumeric user field \n"
+  syntax:
+    content: public virtual string PersonNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonNumber As String
+  overload: SuperOffice.CRM.Services.PersonEntity.PersonNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.FullName
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.FullName
+  id: FullName
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: PersonEntity.FullName
+  fullName: SuperOffice.CRM.Services.PersonEntity.FullName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe person&apos;s full name localized to the current culture/country.  (internal name used in clients for employees) \n"
+  syntax:
+    content: public virtual string FullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FullName As String
+  overload: SuperOffice.CRM.Services.PersonEntity.FullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.NoMailing
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.NoMailing
+  id: NoMailing
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: NoMailing
+  nameWithType: PersonEntity.NoMailing
+  fullName: SuperOffice.CRM.Services.PersonEntity.NoMailing
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSpam filter. Indicates if this person should retrieve advertising. \n"
+  syntax:
+    content: public virtual bool NoMailing { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property NoMailing As Boolean
+  overload: SuperOffice.CRM.Services.PersonEntity.NoMailing*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.UsePersonAddress
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.UsePersonAddress
+  id: UsePersonAddress
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: UsePersonAddress
+  nameWithType: PersonEntity.UsePersonAddress
+  fullName: SuperOffice.CRM.Services.PersonEntity.UsePersonAddress
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue if the person&apos;s address should be used as mailing address, instead of the contact&apos;s address. \n"
+  syntax:
+    content: public virtual bool UsePersonAddress { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property UsePersonAddress As Boolean
+  overload: SuperOffice.CRM.Services.PersonEntity.UsePersonAddress*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.Retired
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.Retired
+  id: Retired
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Retired
+  nameWithType: PersonEntity.Retired
+  fullName: SuperOffice.CRM.Services.PersonEntity.Retired
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue if the user is retired and should have no rights, not appear in lists, etc. \n"
+  syntax:
+    content: public virtual bool Retired { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Retired As Boolean
+  overload: SuperOffice.CRM.Services.PersonEntity.Retired*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.Urls
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.Urls
+  id: Urls
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Urls
+  nameWithType: PersonEntity.Urls
+  fullName: SuperOffice.CRM.Services.PersonEntity.Urls
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe urls related to this person. \n"
+  syntax:
+    content: public virtual EntityElement[] Urls { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.EntityElement[]
+    content.vb: Public Overridable Property Urls As EntityElement()
+  overload: SuperOffice.CRM.Services.PersonEntity.Urls*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.FormalName
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.FormalName
+  id: FormalName
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: FormalName
+  nameWithType: PersonEntity.FormalName
+  fullName: SuperOffice.CRM.Services.PersonEntity.FormalName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet formal name for a person, as used in labels. (Full name + person title + academic title) \n"
+  syntax:
+    content: public virtual string FormalName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FormalName As String
+  overload: SuperOffice.CRM.Services.PersonEntity.FormalName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.Address
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.Address
+  id: Address
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: PersonEntity.Address
+  fullName: SuperOffice.CRM.Services.PersonEntity.Address
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStructure holding formatted address data. The layout of the array structure indicates the layout of the localized address. \n"
+  syntax:
+    content: public virtual Address Address { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Address
+    content.vb: Public Overridable Property Address As Address
+  overload: SuperOffice.CRM.Services.PersonEntity.Address*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.Post3
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.Post3
+  id: Post3
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Post3
+  nameWithType: PersonEntity.Post3
+  fullName: SuperOffice.CRM.Services.PersonEntity.Post3
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPostal address, used in Japanese versions only \n"
+  syntax:
+    content: public virtual string Post3 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Post3 As String
+  overload: SuperOffice.CRM.Services.PersonEntity.Post3*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.Post2
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.Post2
+  id: Post2
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Post2
+  nameWithType: PersonEntity.Post2
+  fullName: SuperOffice.CRM.Services.PersonEntity.Post2
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPostal address, used in Japanese versions only \n"
+  syntax:
+    content: public virtual string Post2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Post2 As String
+  overload: SuperOffice.CRM.Services.PersonEntity.Post2*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.Post1
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.Post1
+  id: Post1
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Post1
+  nameWithType: PersonEntity.Post1
+  fullName: SuperOffice.CRM.Services.PersonEntity.Post1
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPostal address, used in Japanese versions only \n"
+  syntax:
+    content: public virtual string Post1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Post1 As String
+  overload: SuperOffice.CRM.Services.PersonEntity.Post1*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.Kanalname
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.Kanalname
+  id: Kanalname
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Kanalname
+  nameWithType: PersonEntity.Kanalname
+  fullName: SuperOffice.CRM.Services.PersonEntity.Kanalname
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nKana last name, used in Japanese versions only \n"
+  syntax:
+    content: public virtual string Kanalname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Kanalname As String
+  overload: SuperOffice.CRM.Services.PersonEntity.Kanalname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.Kanafname
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.Kanafname
+  id: Kanafname
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Kanafname
+  nameWithType: PersonEntity.Kanafname
+  fullName: SuperOffice.CRM.Services.PersonEntity.Kanafname
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nKana first name, used in Japanese versions only \n"
+  syntax:
+    content: public virtual string Kanafname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Kanafname As String
+  overload: SuperOffice.CRM.Services.PersonEntity.Kanafname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.CorrespondingAssociate
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.CorrespondingAssociate
+  id: CorrespondingAssociate
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: CorrespondingAssociate
+  nameWithType: PersonEntity.CorrespondingAssociate
+  fullName: SuperOffice.CRM.Services.PersonEntity.CorrespondingAssociate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe associate corresponding to this person. Will be empty if the person is not a user (internal associate user, external user). \n"
+  syntax:
+    content: public virtual Associate CorrespondingAssociate { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Associate
+    content.vb: Public Overridable Property CorrespondingAssociate As Associate
+  overload: SuperOffice.CRM.Services.PersonEntity.CorrespondingAssociate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.Category
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.Category
+  id: Category
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Category
+  nameWithType: PersonEntity.Category
+  fullName: SuperOffice.CRM.Services.PersonEntity.Category
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPerson&apos;s category. Usually null. Refer to the Contact.Category instead.  Intended for use when individual persons are created. (i.e. when Person.Contact is blank) \n<p>Use MDO List name &quot;category&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Category Category { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Category
+    content.vb: Public Overridable Property Category As Category
+  overload: SuperOffice.CRM.Services.PersonEntity.Category*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.Business
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.Business
+  id: Business
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Business
+  nameWithType: PersonEntity.Business
+  fullName: SuperOffice.CRM.Services.PersonEntity.Business
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPerson&apos;s business - usually blank. Use Contact.Business instead. Intended for use when individual persons are created. (i.e. when Person.Contact is blank) \n<p>Use MDO List name &quot;business&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Business Business { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Business
+    content.vb: Public Overridable Property Business As Business
+  overload: SuperOffice.CRM.Services.PersonEntity.Business*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.Associate
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.Associate
+  id: Associate
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: PersonEntity.Associate
+  fullName: SuperOffice.CRM.Services.PersonEntity.Associate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe associate owning this person (similar to contact.Associate) - usually blank. Use the Person.Contact.Associate instead.  Intended for use when individual persons are created (i.e. when Person.Contact is blank) \n<p>Use MDO List name &quot;associate&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Associate Associate { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Associate
+    content.vb: Public Overridable Property Associate As Associate
+  overload: SuperOffice.CRM.Services.PersonEntity.Associate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.Salutation
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.Salutation
+  id: Salutation
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Salutation
+  nameWithType: PersonEntity.Salutation
+  fullName: SuperOffice.CRM.Services.PersonEntity.Salutation
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAcademic title, populated from Salutation list but can be overwritten with anything at all \n<p>Use MDO List name &quot;salutation&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual string Salutation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Salutation As String
+  overload: SuperOffice.CRM.Services.PersonEntity.Salutation*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.ActiveInterests
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.ActiveInterests
+  id: ActiveInterests
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: ActiveInterests
+  nameWithType: PersonEntity.ActiveInterests
+  fullName: SuperOffice.CRM.Services.PersonEntity.ActiveInterests
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe number of active interests. \n"
+  syntax:
+    content: public virtual int ActiveInterests { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ActiveInterests As Integer
+  overload: SuperOffice.CRM.Services.PersonEntity.ActiveInterests*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.SupportAssociate
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.SupportAssociate
+  id: SupportAssociate
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: SupportAssociate
+  nameWithType: PersonEntity.SupportAssociate
+  fullName: SuperOffice.CRM.Services.PersonEntity.SupportAssociate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n<p>Use MDO List name &quot;associate&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Associate SupportAssociate { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Associate
+    content.vb: Public Overridable Property SupportAssociate As Associate
+  overload: SuperOffice.CRM.Services.PersonEntity.SupportAssociate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.TicketPriority
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.TicketPriority
+  id: TicketPriority
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketPriority
+  nameWithType: PersonEntity.TicketPriority
+  fullName: SuperOffice.CRM.Services.PersonEntity.TicketPriority
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n<p>Use MDO List name &quot;ticketpriority&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual TicketPriority TicketPriority { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.TicketPriority
+    content.vb: Public Overridable Property TicketPriority As TicketPriority
+  overload: SuperOffice.CRM.Services.PersonEntity.TicketPriority*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.CustomerLanguage
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.CustomerLanguage
+  id: CustomerLanguage
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: CustomerLanguage
+  nameWithType: PersonEntity.CustomerLanguage
+  fullName: SuperOffice.CRM.Services.PersonEntity.CustomerLanguage
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n<p>Use MDO List name &quot;customerlanguage&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual CustomerLanguage CustomerLanguage { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.CustomerLanguage
+    content.vb: Public Overridable Property CustomerLanguage As CustomerLanguage
+  overload: SuperOffice.CRM.Services.PersonEntity.CustomerLanguage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.DbiAgentId
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.DbiAgentId
+  id: DbiAgentId
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: DbiAgentId
+  nameWithType: PersonEntity.DbiAgentId
+  fullName: SuperOffice.CRM.Services.PersonEntity.DbiAgentId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIntegration agent (eJournal) \n"
+  syntax:
+    content: public virtual int DbiAgentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DbiAgentId As Integer
+  overload: SuperOffice.CRM.Services.PersonEntity.DbiAgentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.DbiKey
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.DbiKey
+  id: DbiKey
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: DbiKey
+  nameWithType: PersonEntity.DbiKey
+  fullName: SuperOffice.CRM.Services.PersonEntity.DbiKey
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe primary key for the integrated entry in the external datasource. \n"
+  syntax:
+    content: public virtual string DbiKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DbiKey As String
+  overload: SuperOffice.CRM.Services.PersonEntity.DbiKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.DbiLastModified
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.DbiLastModified
+  id: DbiLastModified
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: DbiLastModified
+  nameWithType: PersonEntity.DbiLastModified
+  fullName: SuperOffice.CRM.Services.PersonEntity.DbiLastModified
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhen the entry was last modified. \n"
+  syntax:
+    content: public virtual DateTime DbiLastModified { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property DbiLastModified As Date
+  overload: SuperOffice.CRM.Services.PersonEntity.DbiLastModified*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.DbiLastSyncronized
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.DbiLastSyncronized
+  id: DbiLastSyncronized
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: DbiLastSyncronized
+  nameWithType: PersonEntity.DbiLastSyncronized
+  fullName: SuperOffice.CRM.Services.PersonEntity.DbiLastSyncronized
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLast external syncronization. \n"
+  syntax:
+    content: public virtual DateTime DbiLastSyncronized { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property DbiLastSyncronized As Date
+  overload: SuperOffice.CRM.Services.PersonEntity.DbiLastSyncronized*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.SentInfo
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.SentInfo
+  id: SentInfo
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: SentInfo
+  nameWithType: PersonEntity.SentInfo
+  fullName: SuperOffice.CRM.Services.PersonEntity.SentInfo
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nHas information on username/password been sent (ejournal) \n"
+  syntax:
+    content: public virtual short SentInfo { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property SentInfo As Short
+  overload: SuperOffice.CRM.Services.PersonEntity.SentInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.ShowContactTickets
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.ShowContactTickets
+  id: ShowContactTickets
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: ShowContactTickets
+  nameWithType: PersonEntity.ShowContactTickets
+  fullName: SuperOffice.CRM.Services.PersonEntity.ShowContactTickets
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nShould tickets related to the company be shown to this person \n"
+  syntax:
+    content: public virtual short ShowContactTickets { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property ShowContactTickets As Short
+  overload: SuperOffice.CRM.Services.PersonEntity.ShowContactTickets*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.UserInfo
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.UserInfo
+  id: UserInfo
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: UserInfo
+  nameWithType: PersonEntity.UserInfo
+  fullName: SuperOffice.CRM.Services.PersonEntity.UserInfo
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInformation about the user if this person is a user.  If IsAssociate (e.g. is user is true) the UserInfo will be provided. \n"
+  syntax:
+    content: public virtual UserInfo UserInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.UserInfo
+    content.vb: Public Overridable Property UserInfo As UserInfo
+  overload: SuperOffice.CRM.Services.PersonEntity.UserInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.ChatEmails
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.ChatEmails
+  id: ChatEmails
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: ChatEmails
+  nameWithType: PersonEntity.ChatEmails
+  fullName: SuperOffice.CRM.Services.PersonEntity.ChatEmails
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual EntityElement[] ChatEmails { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.EntityElement[]
+    content.vb: Public Overridable Property ChatEmails As EntityElement()
+  overload: SuperOffice.CRM.Services.PersonEntity.ChatEmails*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.InternetPhones
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.InternetPhones
+  id: InternetPhones
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: InternetPhones
+  nameWithType: PersonEntity.InternetPhones
+  fullName: SuperOffice.CRM.Services.PersonEntity.InternetPhones
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual EntityElement[] InternetPhones { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.EntityElement[]
+    content.vb: Public Overridable Property InternetPhones As EntityElement()
+  overload: SuperOffice.CRM.Services.PersonEntity.InternetPhones*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.Source
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.Source
+  id: Source
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: PersonEntity.Source
+  fullName: SuperOffice.CRM.Services.PersonEntity.Source
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nHow did we get this person? For future integration needs \n"
+  syntax:
+    content: public virtual short Source { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Source As Short
+  overload: SuperOffice.CRM.Services.PersonEntity.Source*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.ActiveErpLinks
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.ActiveErpLinks
+  id: ActiveErpLinks
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: ActiveErpLinks
+  nameWithType: PersonEntity.ActiveErpLinks
+  fullName: SuperOffice.CRM.Services.PersonEntity.ActiveErpLinks
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nHow many active ERP links are there for this person? \n"
+  syntax:
+    content: public virtual int ActiveErpLinks { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ActiveErpLinks As Integer
+  overload: SuperOffice.CRM.Services.PersonEntity.ActiveErpLinks*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.ShipmentTypes
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.ShipmentTypes
+  id: ShipmentTypes
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: ShipmentTypes
+  nameWithType: PersonEntity.ShipmentTypes
+  fullName: SuperOffice.CRM.Services.PersonEntity.ShipmentTypes
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe person&apos;s available and selected shipment types. \n"
+  syntax:
+    content: public virtual SelectableMDOListItem[] ShipmentTypes { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+    content.vb: Public Overridable Property ShipmentTypes As SelectableMDOListItem()
+  overload: SuperOffice.CRM.Services.PersonEntity.ShipmentTypes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.Consents
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.Consents
+  id: Consents
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Consents
+  nameWithType: PersonEntity.Consents
+  fullName: SuperOffice.CRM.Services.PersonEntity.Consents
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe person&apos;s available consent information. Missing consents are not deleted. To remove a consent, mark its legalbase as &apos;WITHDRAWN&apos; \n"
+  syntax:
+    content: public virtual ConsentInfo[] Consents { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.ConsentInfo[]
+    content.vb: Public Overridable Property Consents As ConsentInfo()
+  overload: SuperOffice.CRM.Services.PersonEntity.Consents*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.BounceEmails
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.BounceEmails
+  id: BounceEmails
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: BounceEmails
+  nameWithType: PersonEntity.BounceEmails
+  fullName: SuperOffice.CRM.Services.PersonEntity.BounceEmails
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEmail addresses with a positive bounce counter. \n"
+  syntax:
+    content: public virtual string[] BounceEmails { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property BounceEmails As String()
+  overload: SuperOffice.CRM.Services.PersonEntity.BounceEmails*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.PersonEntity.UserDefinedFields
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.UserDefinedFields
+  id: UserDefinedFields
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFields
+  nameWithType: PersonEntity.UserDefinedFields
+  fullName: SuperOffice.CRM.Services.PersonEntity.UserDefinedFields
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeprecated: Use <xref href=\"SuperOffice.CRM.Services.PersonEntity.CustomFields\" data-throw-if-not-resolved=\"false\"></xref> instead.\nDictionary of user defined field data.\nThe key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format &quot;SuperOffice:[UdefFieldIdentity]&quot;, e.g. &quot;SuperOffice:1234&quot;\n"
+  syntax:
+    content: public StringDictionary UserDefinedFields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+    content.vb: Public Property UserDefinedFields As StringDictionary
+  overload: SuperOffice.CRM.Services.PersonEntity.UserDefinedFields*
+  implements:
+  - SuperOffice.CRM.Services.IUdefFieldCarrier.UserDefinedFields
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PersonEntity.ExtraFields
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.ExtraFields
+  id: ExtraFields
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: ExtraFields
+  nameWithType: PersonEntity.ExtraFields
+  fullName: SuperOffice.CRM.Services.PersonEntity.ExtraFields
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeprecated: Use <xref href=\"SuperOffice.CRM.Services.PersonEntity.CustomFields\" data-throw-if-not-resolved=\"false\"></xref> instead.\nExtra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc.\n"
+  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Plug-in data</td><td>\n	[Plug-in name].[Property name]\n	Example: DocumentPlugin.DocumentType\n</td></tr><tr><td>Foreign key data</td><td>\nThe device identity is appended directly to the device name if it exists. \n   This is not commonly used, but the database opens for this as a possibility to have several devices with the same name, \n   and hence we would ensure an unique key if this field is used.\n   Example: Audience.SecretService.DefaultCountry\n</td></tr><tr><td>User defined table data</td><td>\n[Table name].[Field name]\nExample: Phunneling.AggregatedSales\n</td></tr><tr><td>Other</td><td>\nOther data sources must ensure an unique name. If the key already exists we do not add the data to the dictionary. \nWe also ensure that SuperOffice data are added first, so that existing data doesnt change when more data sources are added (with duplicate data keys).\n</td></tr></tbody></table>\n"
+  syntax:
+    content: public StringDictionary ExtraFields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+    content.vb: Public Property ExtraFields As StringDictionary
+  overload: SuperOffice.CRM.Services.PersonEntity.ExtraFields*
+  implements:
+  - SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PersonEntity.CustomFields
+  commentId: P:SuperOffice.CRM.Services.PersonEntity.CustomFields
+  id: CustomFields
+  parent: SuperOffice.CRM.Services.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: CustomFields
+  nameWithType: PersonEntity.CustomFields
+  fullName: SuperOffice.CRM.Services.PersonEntity.CustomFields
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUdef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin.\nCustom fields combines user defined fields and extra fields into one bucket. \nThe individual <xref href=\"SuperOffice.CRM.Services.PersonEntity.ExtraFields\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.CRM.Services.PersonEntity.UserDefinedFields\" data-throw-if-not-resolved=\"false\"></xref> properties are deprecated in favor of this\ncombined collection.\n"
+  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Extra field data</td><td>\n	[Extra field name]<p></p>\n	Example: <pre><code>&apos;x_gorp&apos; = &apos;[I:123]&apos;</code></pre>\n</td></tr><tr><td>User defined field data</td><td>\n[Prog-id name]<p></p>\n   Example: <pre><code>&apos;SuperOffice:1&apos; = &apos;[I:123]&apos;</code></pre><p></p>\n</td></tr></tbody></table>\n"
+  syntax:
+    content: public StringDictionary CustomFields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+    content.vb: Public Property CustomFields As StringDictionary
+  overload: SuperOffice.CRM.Services.PersonEntity.CustomFields*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.IEntityCarrier
+  commentId: T:SuperOffice.CRM.Services.IEntityCarrier
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IEntityCarrier
+  nameWithType: IEntityCarrier
+  fullName: SuperOffice.CRM.Services.IEntityCarrier
+- uid: SuperOffice.CRM.Services.IUdefFieldCarrier
+  commentId: T:SuperOffice.CRM.Services.IUdefFieldCarrier
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IUdefFieldCarrier
+  nameWithType: IUdefFieldCarrier
+  fullName: SuperOffice.CRM.Services.IUdefFieldCarrier
+- uid: SuperOffice.CRM.Services.IExtraFieldCarrier
+  commentId: T:SuperOffice.CRM.Services.IExtraFieldCarrier
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IExtraFieldCarrier
+  nameWithType: IExtraFieldCarrier
+  fullName: SuperOffice.CRM.Services.IExtraFieldCarrier
+- uid: SuperOffice.CRM.Services.PersonAgent
+  commentId: T:SuperOffice.CRM.Services.PersonAgent
+  isExternal: true
+  name: PersonAgent
+  nameWithType: PersonAgent
+  fullName: SuperOffice.CRM.Services.PersonAgent
+- uid: SuperOffice.CRM.Services.IPersonAgent
+  commentId: T:SuperOffice.CRM.Services.IPersonAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IPersonAgent
+  nameWithType: IPersonAgent
+  fullName: SuperOffice.CRM.Services.IPersonAgent
+- uid: SuperOffice.CRM.Services.ArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.CRM.Services.ArchiveAgent
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  isExternal: true
+  name: GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
+  nameWithType: IArchiveAgent.GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    name: GetArchiveListByColumns2
+    nameWithType: IArchiveAgent.GetArchiveListByColumns2
+    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    name: GetArchiveListByColumns2
+    nameWithType: IArchiveAgent.GetArchiveListByColumns2
+    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.IArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.IArchiveAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IArchiveAgent
+  nameWithType: IArchiveAgent
+  fullName: SuperOffice.CRM.Services.IArchiveAgent
+- uid: SuperOffice.CRM.Services.PersonEntity.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.#ctor
+  isExternal: true
+  name: PersonEntity
+  nameWithType: PersonEntity.PersonEntity
+  fullName: SuperOffice.CRM.Services.PersonEntity.PersonEntity
+- uid: SuperOffice.CRM.Services.PersonEntity.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: PersonEntity.ToString
+  fullName: SuperOffice.CRM.Services.PersonEntity.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.PersonEntity.PersonId*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: PersonEntity.PersonId
+  fullName: SuperOffice.CRM.Services.PersonEntity.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.PersonEntity.Firstname*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.Firstname
+  isExternal: true
+  name: Firstname
+  nameWithType: PersonEntity.Firstname
+  fullName: SuperOffice.CRM.Services.PersonEntity.Firstname
+- uid: SuperOffice.CRM.Services.PersonEntity.MiddleName*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.MiddleName
+  isExternal: true
+  name: MiddleName
+  nameWithType: PersonEntity.MiddleName
+  fullName: SuperOffice.CRM.Services.PersonEntity.MiddleName
+- uid: SuperOffice.CRM.Services.PersonEntity.Lastname*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.Lastname
+  isExternal: true
+  name: Lastname
+  nameWithType: PersonEntity.Lastname
+  fullName: SuperOffice.CRM.Services.PersonEntity.Lastname
+- uid: SuperOffice.CRM.Services.PersonEntity.Mrmrs*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.Mrmrs
+  isExternal: true
+  name: Mrmrs
+  nameWithType: PersonEntity.Mrmrs
+  fullName: SuperOffice.CRM.Services.PersonEntity.Mrmrs
+- uid: SuperOffice.CRM.Services.PersonEntity.Title*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.Title
+  isExternal: true
+  name: Title
+  nameWithType: PersonEntity.Title
+  fullName: SuperOffice.CRM.Services.PersonEntity.Title
+- uid: SuperOffice.CRM.Services.PersonEntity.UpdatedDate*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.UpdatedDate
+  isExternal: true
+  name: UpdatedDate
+  nameWithType: PersonEntity.UpdatedDate
+  fullName: SuperOffice.CRM.Services.PersonEntity.UpdatedDate
+- uid: SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate
+  commentId: P:SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate
+  parent: SuperOffice.CRM.Services.IEntityCarrier
+  isExternal: true
+  name: UpdatedDate
+  nameWithType: IEntityCarrier.UpdatedDate
+  fullName: SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.PersonEntity.CreatedDate*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.CreatedDate
+  isExternal: true
+  name: CreatedDate
+  nameWithType: PersonEntity.CreatedDate
+  fullName: SuperOffice.CRM.Services.PersonEntity.CreatedDate
+- uid: SuperOffice.CRM.Services.IEntityCarrier.CreatedDate
+  commentId: P:SuperOffice.CRM.Services.IEntityCarrier.CreatedDate
+  parent: SuperOffice.CRM.Services.IEntityCarrier
+  isExternal: true
+  name: CreatedDate
+  nameWithType: IEntityCarrier.CreatedDate
+  fullName: SuperOffice.CRM.Services.IEntityCarrier.CreatedDate
+- uid: SuperOffice.CRM.Services.PersonEntity.BirthDate*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.BirthDate
+  isExternal: true
+  name: BirthDate
+  nameWithType: PersonEntity.BirthDate
+  fullName: SuperOffice.CRM.Services.PersonEntity.BirthDate
+- uid: SuperOffice.CRM.Services.PersonEntity.CreatedBy*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: PersonEntity.CreatedBy
+  fullName: SuperOffice.CRM.Services.PersonEntity.CreatedBy
+- uid: SuperOffice.CRM.Services.IEntityCarrier.CreatedBy
+  commentId: P:SuperOffice.CRM.Services.IEntityCarrier.CreatedBy
+  parent: SuperOffice.CRM.Services.IEntityCarrier
+  isExternal: true
+  name: CreatedBy
+  nameWithType: IEntityCarrier.CreatedBy
+  fullName: SuperOffice.CRM.Services.IEntityCarrier.CreatedBy
+- uid: SuperOffice.CRM.Services.Associate
+  commentId: T:SuperOffice.CRM.Services.Associate
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.CRM.Services.Associate
+- uid: SuperOffice.CRM.Services.PersonEntity.Emails*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.Emails
+  isExternal: true
+  name: Emails
+  nameWithType: PersonEntity.Emails
+  fullName: SuperOffice.CRM.Services.PersonEntity.Emails
+- uid: SuperOffice.CRM.Services.EntityElement[]
+  isExternal: true
+  name: EntityElement[]
+  nameWithType: EntityElement[]
+  fullName: SuperOffice.CRM.Services.EntityElement[]
+  nameWithType.vb: EntityElement()
+  fullName.vb: SuperOffice.CRM.Services.EntityElement()
+  name.vb: EntityElement()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.EntityElement
+    name: EntityElement
+    nameWithType: EntityElement
+    fullName: SuperOffice.CRM.Services.EntityElement
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.EntityElement
+    name: EntityElement
+    nameWithType: EntityElement
+    fullName: SuperOffice.CRM.Services.EntityElement
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.PersonEntity.Description*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.Description
+  isExternal: true
+  name: Description
+  nameWithType: PersonEntity.Description
+  fullName: SuperOffice.CRM.Services.PersonEntity.Description
+- uid: SuperOffice.CRM.Services.PersonEntity.IsAssociate*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.IsAssociate
+  isExternal: true
+  name: IsAssociate
+  nameWithType: PersonEntity.IsAssociate
+  fullName: SuperOffice.CRM.Services.PersonEntity.IsAssociate
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.PersonEntity.PrivatePhones*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.PrivatePhones
+  isExternal: true
+  name: PrivatePhones
+  nameWithType: PersonEntity.PrivatePhones
+  fullName: SuperOffice.CRM.Services.PersonEntity.PrivatePhones
+- uid: SuperOffice.CRM.Services.PersonEntity.Faxes*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.Faxes
+  isExternal: true
+  name: Faxes
+  nameWithType: PersonEntity.Faxes
+  fullName: SuperOffice.CRM.Services.PersonEntity.Faxes
+- uid: SuperOffice.CRM.Services.PersonEntity.MobilePhones*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.MobilePhones
+  isExternal: true
+  name: MobilePhones
+  nameWithType: PersonEntity.MobilePhones
+  fullName: SuperOffice.CRM.Services.PersonEntity.MobilePhones
+- uid: SuperOffice.CRM.Services.PersonEntity.OfficePhones*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.OfficePhones
+  isExternal: true
+  name: OfficePhones
+  nameWithType: PersonEntity.OfficePhones
+  fullName: SuperOffice.CRM.Services.PersonEntity.OfficePhones
+- uid: SuperOffice.CRM.Services.PersonEntity.OtherPhones*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.OtherPhones
+  isExternal: true
+  name: OtherPhones
+  nameWithType: PersonEntity.OtherPhones
+  fullName: SuperOffice.CRM.Services.PersonEntity.OtherPhones
+- uid: SuperOffice.CRM.Services.PersonEntity.Position*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.Position
+  isExternal: true
+  name: Position
+  nameWithType: PersonEntity.Position
+  fullName: SuperOffice.CRM.Services.PersonEntity.Position
+- uid: SuperOffice.CRM.Services.Position
+  commentId: T:SuperOffice.CRM.Services.Position
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Position
+  nameWithType: Position
+  fullName: SuperOffice.CRM.Services.Position
+- uid: SuperOffice.CRM.Services.PersonEntity.UpdatedBy*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.UpdatedBy
+  isExternal: true
+  name: UpdatedBy
+  nameWithType: PersonEntity.UpdatedBy
+  fullName: SuperOffice.CRM.Services.PersonEntity.UpdatedBy
+- uid: SuperOffice.CRM.Services.IEntityCarrier.UpdatedBy
+  commentId: P:SuperOffice.CRM.Services.IEntityCarrier.UpdatedBy
+  parent: SuperOffice.CRM.Services.IEntityCarrier
+  isExternal: true
+  name: UpdatedBy
+  nameWithType: IEntityCarrier.UpdatedBy
+  fullName: SuperOffice.CRM.Services.IEntityCarrier.UpdatedBy
+- uid: SuperOffice.CRM.Services.PersonEntity.Contact*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.Contact
+  isExternal: true
+  name: Contact
+  nameWithType: PersonEntity.Contact
+  fullName: SuperOffice.CRM.Services.PersonEntity.Contact
+- uid: SuperOffice.CRM.Services.Contact
+  commentId: T:SuperOffice.CRM.Services.Contact
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Contact
+  nameWithType: Contact
+  fullName: SuperOffice.CRM.Services.Contact
+- uid: SuperOffice.CRM.Services.PersonEntity.Country*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.Country
+  isExternal: true
+  name: Country
+  nameWithType: PersonEntity.Country
+  fullName: SuperOffice.CRM.Services.PersonEntity.Country
+- uid: SuperOffice.CRM.Services.Country
+  commentId: T:SuperOffice.CRM.Services.Country
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Country
+  nameWithType: Country
+  fullName: SuperOffice.CRM.Services.Country
+- uid: SuperOffice.CRM.Services.PersonEntity.Interests*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.Interests
+  isExternal: true
+  name: Interests
+  nameWithType: PersonEntity.Interests
+  fullName: SuperOffice.CRM.Services.PersonEntity.Interests
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem[]
+  isExternal: true
+  name: SelectableMDOListItem[]
+  nameWithType: SelectableMDOListItem[]
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem[]
+  nameWithType.vb: SelectableMDOListItem()
+  fullName.vb: SuperOffice.CRM.Services.SelectableMDOListItem()
+  name.vb: SelectableMDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.PersonEntity.PersonNumber*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.PersonNumber
+  isExternal: true
+  name: PersonNumber
+  nameWithType: PersonEntity.PersonNumber
+  fullName: SuperOffice.CRM.Services.PersonEntity.PersonNumber
+- uid: SuperOffice.CRM.Services.PersonEntity.FullName*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.FullName
+  isExternal: true
+  name: FullName
+  nameWithType: PersonEntity.FullName
+  fullName: SuperOffice.CRM.Services.PersonEntity.FullName
+- uid: SuperOffice.CRM.Services.PersonEntity.NoMailing*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.NoMailing
+  isExternal: true
+  name: NoMailing
+  nameWithType: PersonEntity.NoMailing
+  fullName: SuperOffice.CRM.Services.PersonEntity.NoMailing
+- uid: SuperOffice.CRM.Services.PersonEntity.UsePersonAddress*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.UsePersonAddress
+  isExternal: true
+  name: UsePersonAddress
+  nameWithType: PersonEntity.UsePersonAddress
+  fullName: SuperOffice.CRM.Services.PersonEntity.UsePersonAddress
+- uid: SuperOffice.CRM.Services.PersonEntity.Retired*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.Retired
+  isExternal: true
+  name: Retired
+  nameWithType: PersonEntity.Retired
+  fullName: SuperOffice.CRM.Services.PersonEntity.Retired
+- uid: SuperOffice.CRM.Services.PersonEntity.Urls*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.Urls
+  isExternal: true
+  name: Urls
+  nameWithType: PersonEntity.Urls
+  fullName: SuperOffice.CRM.Services.PersonEntity.Urls
+- uid: SuperOffice.CRM.Services.PersonEntity.FormalName*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.FormalName
+  isExternal: true
+  name: FormalName
+  nameWithType: PersonEntity.FormalName
+  fullName: SuperOffice.CRM.Services.PersonEntity.FormalName
+- uid: SuperOffice.CRM.Services.PersonEntity.Address*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.Address
+  isExternal: true
+  name: Address
+  nameWithType: PersonEntity.Address
+  fullName: SuperOffice.CRM.Services.PersonEntity.Address
+- uid: SuperOffice.CRM.Services.Address
+  commentId: T:SuperOffice.CRM.Services.Address
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Address
+  nameWithType: Address
+  fullName: SuperOffice.CRM.Services.Address
+- uid: SuperOffice.CRM.Services.PersonEntity.Post3*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.Post3
+  isExternal: true
+  name: Post3
+  nameWithType: PersonEntity.Post3
+  fullName: SuperOffice.CRM.Services.PersonEntity.Post3
+- uid: SuperOffice.CRM.Services.PersonEntity.Post2*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.Post2
+  isExternal: true
+  name: Post2
+  nameWithType: PersonEntity.Post2
+  fullName: SuperOffice.CRM.Services.PersonEntity.Post2
+- uid: SuperOffice.CRM.Services.PersonEntity.Post1*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.Post1
+  isExternal: true
+  name: Post1
+  nameWithType: PersonEntity.Post1
+  fullName: SuperOffice.CRM.Services.PersonEntity.Post1
+- uid: SuperOffice.CRM.Services.PersonEntity.Kanalname*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.Kanalname
+  isExternal: true
+  name: Kanalname
+  nameWithType: PersonEntity.Kanalname
+  fullName: SuperOffice.CRM.Services.PersonEntity.Kanalname
+- uid: SuperOffice.CRM.Services.PersonEntity.Kanafname*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.Kanafname
+  isExternal: true
+  name: Kanafname
+  nameWithType: PersonEntity.Kanafname
+  fullName: SuperOffice.CRM.Services.PersonEntity.Kanafname
+- uid: SuperOffice.CRM.Services.PersonEntity.CorrespondingAssociate*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.CorrespondingAssociate
+  isExternal: true
+  name: CorrespondingAssociate
+  nameWithType: PersonEntity.CorrespondingAssociate
+  fullName: SuperOffice.CRM.Services.PersonEntity.CorrespondingAssociate
+- uid: SuperOffice.CRM.Services.PersonEntity.Category*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.Category
+  isExternal: true
+  name: Category
+  nameWithType: PersonEntity.Category
+  fullName: SuperOffice.CRM.Services.PersonEntity.Category
+- uid: SuperOffice.CRM.Services.Category
+  commentId: T:SuperOffice.CRM.Services.Category
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Category
+  nameWithType: Category
+  fullName: SuperOffice.CRM.Services.Category
+- uid: SuperOffice.CRM.Services.PersonEntity.Business*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.Business
+  isExternal: true
+  name: Business
+  nameWithType: PersonEntity.Business
+  fullName: SuperOffice.CRM.Services.PersonEntity.Business
+- uid: SuperOffice.CRM.Services.Business
+  commentId: T:SuperOffice.CRM.Services.Business
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Business
+  nameWithType: Business
+  fullName: SuperOffice.CRM.Services.Business
+- uid: SuperOffice.CRM.Services.PersonEntity.Associate*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.Associate
+  isExternal: true
+  name: Associate
+  nameWithType: PersonEntity.Associate
+  fullName: SuperOffice.CRM.Services.PersonEntity.Associate
+- uid: SuperOffice.CRM.Services.PersonEntity.Salutation*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.Salutation
+  isExternal: true
+  name: Salutation
+  nameWithType: PersonEntity.Salutation
+  fullName: SuperOffice.CRM.Services.PersonEntity.Salutation
+- uid: SuperOffice.CRM.Services.PersonEntity.ActiveInterests*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.ActiveInterests
+  isExternal: true
+  name: ActiveInterests
+  nameWithType: PersonEntity.ActiveInterests
+  fullName: SuperOffice.CRM.Services.PersonEntity.ActiveInterests
+- uid: SuperOffice.CRM.Services.PersonEntity.SupportAssociate*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.SupportAssociate
+  isExternal: true
+  name: SupportAssociate
+  nameWithType: PersonEntity.SupportAssociate
+  fullName: SuperOffice.CRM.Services.PersonEntity.SupportAssociate
+- uid: SuperOffice.CRM.Services.PersonEntity.TicketPriority*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.TicketPriority
+  isExternal: true
+  name: TicketPriority
+  nameWithType: PersonEntity.TicketPriority
+  fullName: SuperOffice.CRM.Services.PersonEntity.TicketPriority
+- uid: SuperOffice.CRM.Services.TicketPriority
+  commentId: T:SuperOffice.CRM.Services.TicketPriority
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TicketPriority
+  nameWithType: TicketPriority
+  fullName: SuperOffice.CRM.Services.TicketPriority
+- uid: SuperOffice.CRM.Services.PersonEntity.CustomerLanguage*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.CustomerLanguage
+  isExternal: true
+  name: CustomerLanguage
+  nameWithType: PersonEntity.CustomerLanguage
+  fullName: SuperOffice.CRM.Services.PersonEntity.CustomerLanguage
+- uid: SuperOffice.CRM.Services.CustomerLanguage
+  commentId: T:SuperOffice.CRM.Services.CustomerLanguage
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: CustomerLanguage
+  nameWithType: CustomerLanguage
+  fullName: SuperOffice.CRM.Services.CustomerLanguage
+- uid: SuperOffice.CRM.Services.PersonEntity.DbiAgentId*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.DbiAgentId
+  isExternal: true
+  name: DbiAgentId
+  nameWithType: PersonEntity.DbiAgentId
+  fullName: SuperOffice.CRM.Services.PersonEntity.DbiAgentId
+- uid: SuperOffice.CRM.Services.PersonEntity.DbiKey*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.DbiKey
+  isExternal: true
+  name: DbiKey
+  nameWithType: PersonEntity.DbiKey
+  fullName: SuperOffice.CRM.Services.PersonEntity.DbiKey
+- uid: SuperOffice.CRM.Services.PersonEntity.DbiLastModified*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.DbiLastModified
+  isExternal: true
+  name: DbiLastModified
+  nameWithType: PersonEntity.DbiLastModified
+  fullName: SuperOffice.CRM.Services.PersonEntity.DbiLastModified
+- uid: SuperOffice.CRM.Services.PersonEntity.DbiLastSyncronized*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.DbiLastSyncronized
+  isExternal: true
+  name: DbiLastSyncronized
+  nameWithType: PersonEntity.DbiLastSyncronized
+  fullName: SuperOffice.CRM.Services.PersonEntity.DbiLastSyncronized
+- uid: SuperOffice.CRM.Services.PersonEntity.SentInfo*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.SentInfo
+  isExternal: true
+  name: SentInfo
+  nameWithType: PersonEntity.SentInfo
+  fullName: SuperOffice.CRM.Services.PersonEntity.SentInfo
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Services.PersonEntity.ShowContactTickets*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.ShowContactTickets
+  isExternal: true
+  name: ShowContactTickets
+  nameWithType: PersonEntity.ShowContactTickets
+  fullName: SuperOffice.CRM.Services.PersonEntity.ShowContactTickets
+- uid: SuperOffice.CRM.Services.PersonEntity.UserInfo*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.UserInfo
+  isExternal: true
+  name: UserInfo
+  nameWithType: PersonEntity.UserInfo
+  fullName: SuperOffice.CRM.Services.PersonEntity.UserInfo
+- uid: SuperOffice.CRM.Services.UserInfo
+  commentId: T:SuperOffice.CRM.Services.UserInfo
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: UserInfo
+  nameWithType: UserInfo
+  fullName: SuperOffice.CRM.Services.UserInfo
+- uid: SuperOffice.CRM.Services.PersonEntity.ChatEmails*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.ChatEmails
+  isExternal: true
+  name: ChatEmails
+  nameWithType: PersonEntity.ChatEmails
+  fullName: SuperOffice.CRM.Services.PersonEntity.ChatEmails
+- uid: SuperOffice.CRM.Services.PersonEntity.InternetPhones*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.InternetPhones
+  isExternal: true
+  name: InternetPhones
+  nameWithType: PersonEntity.InternetPhones
+  fullName: SuperOffice.CRM.Services.PersonEntity.InternetPhones
+- uid: SuperOffice.CRM.Services.PersonEntity.Source*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.Source
+  isExternal: true
+  name: Source
+  nameWithType: PersonEntity.Source
+  fullName: SuperOffice.CRM.Services.PersonEntity.Source
+- uid: SuperOffice.CRM.Services.PersonEntity.ActiveErpLinks*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.ActiveErpLinks
+  isExternal: true
+  name: ActiveErpLinks
+  nameWithType: PersonEntity.ActiveErpLinks
+  fullName: SuperOffice.CRM.Services.PersonEntity.ActiveErpLinks
+- uid: SuperOffice.CRM.Services.PersonEntity.ShipmentTypes*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.ShipmentTypes
+  isExternal: true
+  name: ShipmentTypes
+  nameWithType: PersonEntity.ShipmentTypes
+  fullName: SuperOffice.CRM.Services.PersonEntity.ShipmentTypes
+- uid: SuperOffice.CRM.Services.PersonEntity.Consents*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.Consents
+  isExternal: true
+  name: Consents
+  nameWithType: PersonEntity.Consents
+  fullName: SuperOffice.CRM.Services.PersonEntity.Consents
+- uid: SuperOffice.CRM.Services.ConsentInfo[]
+  isExternal: true
+  name: ConsentInfo[]
+  nameWithType: ConsentInfo[]
+  fullName: SuperOffice.CRM.Services.ConsentInfo[]
+  nameWithType.vb: ConsentInfo()
+  fullName.vb: SuperOffice.CRM.Services.ConsentInfo()
+  name.vb: ConsentInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ConsentInfo
+    name: ConsentInfo
+    nameWithType: ConsentInfo
+    fullName: SuperOffice.CRM.Services.ConsentInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ConsentInfo
+    name: ConsentInfo
+    nameWithType: ConsentInfo
+    fullName: SuperOffice.CRM.Services.ConsentInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.PersonEntity.BounceEmails*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.BounceEmails
+  isExternal: true
+  name: BounceEmails
+  nameWithType: PersonEntity.BounceEmails
+  fullName: SuperOffice.CRM.Services.PersonEntity.BounceEmails
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.PersonEntity.UserDefinedFields*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.UserDefinedFields
+  isExternal: true
+  name: UserDefinedFields
+  nameWithType: PersonEntity.UserDefinedFields
+  fullName: SuperOffice.CRM.Services.PersonEntity.UserDefinedFields
+- uid: SuperOffice.CRM.Services.IUdefFieldCarrier.UserDefinedFields
+  commentId: P:SuperOffice.CRM.Services.IUdefFieldCarrier.UserDefinedFields
+  parent: SuperOffice.CRM.Services.IUdefFieldCarrier
+  isExternal: true
+  name: UserDefinedFields
+  nameWithType: IUdefFieldCarrier.UserDefinedFields
+  fullName: SuperOffice.CRM.Services.IUdefFieldCarrier.UserDefinedFields
+- uid: SuperOffice.CRM.Services.StringDictionary
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: SuperOffice.CRM.Services.PersonEntity.ExtraFields*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.ExtraFields
+  isExternal: true
+  name: ExtraFields
+  nameWithType: PersonEntity.ExtraFields
+  fullName: SuperOffice.CRM.Services.PersonEntity.ExtraFields
+- uid: SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
+  commentId: P:SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
+  parent: SuperOffice.CRM.Services.IExtraFieldCarrier
+  isExternal: true
+  name: ExtraFields
+  nameWithType: IExtraFieldCarrier.ExtraFields
+  fullName: SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
+- uid: SuperOffice.CRM.Services.PersonEntity.CustomFields*
+  commentId: Overload:SuperOffice.CRM.Services.PersonEntity.CustomFields
+  isExternal: true
+  name: CustomFields
+  nameWithType: PersonEntity.CustomFields
+  fullName: SuperOffice.CRM.Services.PersonEntity.CustomFields

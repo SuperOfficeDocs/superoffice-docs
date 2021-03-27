@@ -1,0 +1,379 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.ContextStyle
+  commentId: T:SuperOffice.DCF.Web.UI.ContextStyle
+  id: ContextStyle
+  parent: SuperOffice.DCF.Web.UI
+  children:
+  - SuperOffice.DCF.Web.UI.ContextStyle.Custom
+  - SuperOffice.DCF.Web.UI.ContextStyle.DialogHeader
+  - SuperOffice.DCF.Web.UI.ContextStyle.Heading
+  - SuperOffice.DCF.Web.UI.ContextStyle.Heading2
+  - SuperOffice.DCF.Web.UI.ContextStyle.Important
+  - SuperOffice.DCF.Web.UI.ContextStyle.ImportantWarning
+  - SuperOffice.DCF.Web.UI.ContextStyle.Information
+  - SuperOffice.DCF.Web.UI.ContextStyle.Menu
+  - SuperOffice.DCF.Web.UI.ContextStyle.None
+  - SuperOffice.DCF.Web.UI.ContextStyle.Normal
+  - SuperOffice.DCF.Web.UI.ContextStyle.Subtle
+  - SuperOffice.DCF.Web.UI.ContextStyle.Warning
+  langs:
+  - csharp
+  - vb
+  name: ContextStyle
+  nameWithType: ContextStyle
+  fullName: SuperOffice.DCF.Web.UI.ContextStyle
+  type: Enum
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public enum ContextStyle
+    content.vb: Public Enum ContextStyle
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.DCF.Web.UI.ContextStyle.None
+  commentId: F:SuperOffice.DCF.Web.UI.ContextStyle.None
+  id: None
+  parent: SuperOffice.DCF.Web.UI.ContextStyle
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ContextStyle.None
+  fullName: SuperOffice.DCF.Web.UI.ContextStyle.None
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.DCF.Web.UI.ContextStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.ContextStyle.Normal
+  commentId: F:SuperOffice.DCF.Web.UI.ContextStyle.Normal
+  id: Normal
+  parent: SuperOffice.DCF.Web.UI.ContextStyle
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: ContextStyle.Normal
+  fullName: SuperOffice.DCF.Web.UI.ContextStyle.Normal
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Normal = 1
+    return:
+      type: SuperOffice.DCF.Web.UI.ContextStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.ContextStyle.Important
+  commentId: F:SuperOffice.DCF.Web.UI.ContextStyle.Important
+  id: Important
+  parent: SuperOffice.DCF.Web.UI.ContextStyle
+  langs:
+  - csharp
+  - vb
+  name: Important
+  nameWithType: ContextStyle.Important
+  fullName: SuperOffice.DCF.Web.UI.ContextStyle.Important
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Important = 2
+    return:
+      type: SuperOffice.DCF.Web.UI.ContextStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.ContextStyle.Heading
+  commentId: F:SuperOffice.DCF.Web.UI.ContextStyle.Heading
+  id: Heading
+  parent: SuperOffice.DCF.Web.UI.ContextStyle
+  langs:
+  - csharp
+  - vb
+  name: Heading
+  nameWithType: ContextStyle.Heading
+  fullName: SuperOffice.DCF.Web.UI.ContextStyle.Heading
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Heading = 3
+    return:
+      type: SuperOffice.DCF.Web.UI.ContextStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.ContextStyle.Heading2
+  commentId: F:SuperOffice.DCF.Web.UI.ContextStyle.Heading2
+  id: Heading2
+  parent: SuperOffice.DCF.Web.UI.ContextStyle
+  langs:
+  - csharp
+  - vb
+  name: Heading2
+  nameWithType: ContextStyle.Heading2
+  fullName: SuperOffice.DCF.Web.UI.ContextStyle.Heading2
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Heading2 = 4
+    return:
+      type: SuperOffice.DCF.Web.UI.ContextStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.ContextStyle.Subtle
+  commentId: F:SuperOffice.DCF.Web.UI.ContextStyle.Subtle
+  id: Subtle
+  parent: SuperOffice.DCF.Web.UI.ContextStyle
+  langs:
+  - csharp
+  - vb
+  name: Subtle
+  nameWithType: ContextStyle.Subtle
+  fullName: SuperOffice.DCF.Web.UI.ContextStyle.Subtle
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Subtle = 5
+    return:
+      type: SuperOffice.DCF.Web.UI.ContextStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.ContextStyle.Menu
+  commentId: F:SuperOffice.DCF.Web.UI.ContextStyle.Menu
+  id: Menu
+  parent: SuperOffice.DCF.Web.UI.ContextStyle
+  langs:
+  - csharp
+  - vb
+  name: Menu
+  nameWithType: ContextStyle.Menu
+  fullName: SuperOffice.DCF.Web.UI.ContextStyle.Menu
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Menu = 6
+    return:
+      type: SuperOffice.DCF.Web.UI.ContextStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.ContextStyle.DialogHeader
+  commentId: F:SuperOffice.DCF.Web.UI.ContextStyle.DialogHeader
+  id: DialogHeader
+  parent: SuperOffice.DCF.Web.UI.ContextStyle
+  langs:
+  - csharp
+  - vb
+  name: DialogHeader
+  nameWithType: ContextStyle.DialogHeader
+  fullName: SuperOffice.DCF.Web.UI.ContextStyle.DialogHeader
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: DialogHeader = 7
+    return:
+      type: SuperOffice.DCF.Web.UI.ContextStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.ContextStyle.Warning
+  commentId: F:SuperOffice.DCF.Web.UI.ContextStyle.Warning
+  id: Warning
+  parent: SuperOffice.DCF.Web.UI.ContextStyle
+  langs:
+  - csharp
+  - vb
+  name: Warning
+  nameWithType: ContextStyle.Warning
+  fullName: SuperOffice.DCF.Web.UI.ContextStyle.Warning
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Warning = 8
+    return:
+      type: SuperOffice.DCF.Web.UI.ContextStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.ContextStyle.ImportantWarning
+  commentId: F:SuperOffice.DCF.Web.UI.ContextStyle.ImportantWarning
+  id: ImportantWarning
+  parent: SuperOffice.DCF.Web.UI.ContextStyle
+  langs:
+  - csharp
+  - vb
+  name: ImportantWarning
+  nameWithType: ContextStyle.ImportantWarning
+  fullName: SuperOffice.DCF.Web.UI.ContextStyle.ImportantWarning
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: ImportantWarning = 9
+    return:
+      type: SuperOffice.DCF.Web.UI.ContextStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.ContextStyle.Information
+  commentId: F:SuperOffice.DCF.Web.UI.ContextStyle.Information
+  id: Information
+  parent: SuperOffice.DCF.Web.UI.ContextStyle
+  langs:
+  - csharp
+  - vb
+  name: Information
+  nameWithType: ContextStyle.Information
+  fullName: SuperOffice.DCF.Web.UI.ContextStyle.Information
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Information = 10
+    return:
+      type: SuperOffice.DCF.Web.UI.ContextStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.UI.ContextStyle.Custom
+  commentId: F:SuperOffice.DCF.Web.UI.ContextStyle.Custom
+  id: Custom
+  parent: SuperOffice.DCF.Web.UI.ContextStyle
+  langs:
+  - csharp
+  - vb
+  name: Custom
+  nameWithType: ContextStyle.Custom
+  fullName: SuperOffice.DCF.Web.UI.ContextStyle.Custom
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: Custom = 11
+    return:
+      type: SuperOffice.DCF.Web.UI.ContextStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: SuperOffice.DCF.Web.UI.ContextStyle
+  commentId: T:SuperOffice.DCF.Web.UI.ContextStyle
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: ContextStyle
+  nameWithType: ContextStyle
+  fullName: SuperOffice.DCF.Web.UI.ContextStyle

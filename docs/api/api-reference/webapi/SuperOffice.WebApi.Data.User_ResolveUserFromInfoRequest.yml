@@ -1,0 +1,361 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest
+  commentId: T:SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest
+  id: User_ResolveUserFromInfoRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.#ctor
+  - SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.ContactId
+  - SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.Credential
+  - SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.Emails
+  - SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.PersonName
+  - SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.PhoneNumbers
+  - SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.UserType
+  langs:
+  - csharp
+  - vb
+  name: User_ResolveUserFromInfoRequest
+  nameWithType: User_ResolveUserFromInfoRequest
+  fullName: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class User_ResolveUserFromInfoRequest : Object'
+    content.vb: >-
+      Public Class User_ResolveUserFromInfoRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: User_ResolveUserFromInfoRequest()
+  nameWithType: User_ResolveUserFromInfoRequest.User_ResolveUserFromInfoRequest()
+  fullName: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.User_ResolveUserFromInfoRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User_ResolveUserFromInfoRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.ContactId
+  commentId: P:SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: User_ResolveUserFromInfoRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.ContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.ContactId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.PersonName
+  commentId: P:SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.PersonName
+  id: PersonName
+  parent: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonName
+  nameWithType: User_ResolveUserFromInfoRequest.PersonName
+  fullName: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.PersonName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string PersonName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PersonName As String
+  overload: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.PersonName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.PhoneNumbers
+  commentId: P:SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.PhoneNumbers
+  id: PhoneNumbers
+  parent: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumbers
+  nameWithType: User_ResolveUserFromInfoRequest.PhoneNumbers
+  fullName: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.PhoneNumbers
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] PhoneNumbers { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property PhoneNumbers As String()
+  overload: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.PhoneNumbers*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.Emails
+  commentId: P:SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.Emails
+  id: Emails
+  parent: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: Emails
+  nameWithType: User_ResolveUserFromInfoRequest.Emails
+  fullName: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.Emails
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] Emails { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property Emails As String()
+  overload: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.Emails*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.UserType
+  commentId: P:SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.UserType
+  id: UserType
+  parent: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: UserType
+  nameWithType: User_ResolveUserFromInfoRequest.UserType
+  fullName: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.UserType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UserType UserType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.UserType
+    content.vb: Public Property UserType As UserType
+  overload: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.UserType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.Credential
+  commentId: P:SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.Credential
+  id: Credential
+  parent: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest
+  langs:
+  - csharp
+  - vb
+  name: Credential
+  nameWithType: User_ResolveUserFromInfoRequest.Credential
+  fullName: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.Credential
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Credential Credential { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Credential
+    content.vb: Public Property Credential As Credential
+  overload: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.Credential*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.#ctor
+  isExternal: true
+  name: User_ResolveUserFromInfoRequest
+  nameWithType: User_ResolveUserFromInfoRequest.User_ResolveUserFromInfoRequest
+  fullName: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.User_ResolveUserFromInfoRequest
+- uid: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: User_ResolveUserFromInfoRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.ContactId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.PersonName*
+  commentId: Overload:SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.PersonName
+  isExternal: true
+  name: PersonName
+  nameWithType: User_ResolveUserFromInfoRequest.PersonName
+  fullName: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.PersonName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.PhoneNumbers*
+  commentId: Overload:SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.PhoneNumbers
+  isExternal: true
+  name: PhoneNumbers
+  nameWithType: User_ResolveUserFromInfoRequest.PhoneNumbers
+  fullName: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.PhoneNumbers
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.Emails*
+  commentId: Overload:SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.Emails
+  isExternal: true
+  name: Emails
+  nameWithType: User_ResolveUserFromInfoRequest.Emails
+  fullName: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.Emails
+- uid: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.UserType*
+  commentId: Overload:SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.UserType
+  isExternal: true
+  name: UserType
+  nameWithType: User_ResolveUserFromInfoRequest.UserType
+  fullName: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.UserType
+- uid: SuperOffice.WebApi.Data.UserType
+  commentId: T:SuperOffice.WebApi.Data.UserType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: UserType
+  nameWithType: UserType
+  fullName: SuperOffice.WebApi.Data.UserType
+- uid: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.Credential*
+  commentId: Overload:SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.Credential
+  isExternal: true
+  name: Credential
+  nameWithType: User_ResolveUserFromInfoRequest.Credential
+  fullName: SuperOffice.WebApi.Data.User_ResolveUserFromInfoRequest.Credential
+- uid: SuperOffice.WebApi.Data.Credential
+  commentId: T:SuperOffice.WebApi.Data.Credential
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Credential
+  nameWithType: Credential
+  fullName: SuperOffice.WebApi.Data.Credential

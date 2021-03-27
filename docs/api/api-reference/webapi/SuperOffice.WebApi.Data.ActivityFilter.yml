@@ -1,0 +1,378 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ActivityFilter
+  commentId: T:SuperOffice.WebApi.Data.ActivityFilter
+  id: ActivityFilter
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ActivityFilter.#ctor
+  - SuperOffice.WebApi.Data.ActivityFilter.AssociateList
+  - SuperOffice.WebApi.Data.ActivityFilter.FromDate
+  - SuperOffice.WebApi.Data.ActivityFilter.FutureDateList
+  - SuperOffice.WebApi.Data.ActivityFilter.GroupList
+  - SuperOffice.WebApi.Data.ActivityFilter.ToDate
+  langs:
+  - csharp
+  - vb
+  name: ActivityFilter
+  nameWithType: ActivityFilter
+  fullName: SuperOffice.WebApi.Data.ActivityFilter
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ActivityFilter.\nActivity list filter information.    \n"
+  syntax:
+    content: 'public class ActivityFilter : Carrier'
+    content.vb: >-
+      Public Class ActivityFilter
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ArchiveAgent
+    commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ActivityFilter.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ActivityFilter.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ActivityFilter
+  langs:
+  - csharp
+  - vb
+  name: ActivityFilter()
+  nameWithType: ActivityFilter.ActivityFilter()
+  fullName: SuperOffice.WebApi.Data.ActivityFilter.ActivityFilter()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ActivityFilter()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ActivityFilter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ActivityFilter.FromDate
+  commentId: P:SuperOffice.WebApi.Data.ActivityFilter.FromDate
+  id: FromDate
+  parent: SuperOffice.WebApi.Data.ActivityFilter
+  langs:
+  - csharp
+  - vb
+  name: FromDate
+  nameWithType: ActivityFilter.FromDate
+  fullName: SuperOffice.WebApi.Data.ActivityFilter.FromDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe filtering From date\n"
+  syntax:
+    content: public virtual DateTime FromDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property FromDate As DateTime
+  overload: SuperOffice.WebApi.Data.ActivityFilter.FromDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ActivityFilter.ToDate
+  commentId: P:SuperOffice.WebApi.Data.ActivityFilter.ToDate
+  id: ToDate
+  parent: SuperOffice.WebApi.Data.ActivityFilter
+  langs:
+  - csharp
+  - vb
+  name: ToDate
+  nameWithType: ActivityFilter.ToDate
+  fullName: SuperOffice.WebApi.Data.ActivityFilter.ToDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe filtering To date\n"
+  syntax:
+    content: public virtual DateTime ToDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property ToDate As DateTime
+  overload: SuperOffice.WebApi.Data.ActivityFilter.ToDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ActivityFilter.AssociateList
+  commentId: P:SuperOffice.WebApi.Data.ActivityFilter.AssociateList
+  id: AssociateList
+  parent: SuperOffice.WebApi.Data.ActivityFilter
+  langs:
+  - csharp
+  - vb
+  name: AssociateList
+  nameWithType: ActivityFilter.AssociateList
+  fullName: SuperOffice.WebApi.Data.ActivityFilter.AssociateList
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe list of associates to filter on\n"
+  syntax:
+    content: public virtual SelectableMDOListItem[] AssociateList { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.SelectableMDOListItem[]
+    content.vb: Public Overridable Property AssociateList As SelectableMDOListItem()
+  overload: SuperOffice.WebApi.Data.ActivityFilter.AssociateList*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ActivityFilter.GroupList
+  commentId: P:SuperOffice.WebApi.Data.ActivityFilter.GroupList
+  id: GroupList
+  parent: SuperOffice.WebApi.Data.ActivityFilter
+  langs:
+  - csharp
+  - vb
+  name: GroupList
+  nameWithType: ActivityFilter.GroupList
+  fullName: SuperOffice.WebApi.Data.ActivityFilter.GroupList
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe list of groups to filter on\n"
+  syntax:
+    content: public virtual SelectableMDOListItem[] GroupList { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.SelectableMDOListItem[]
+    content.vb: Public Overridable Property GroupList As SelectableMDOListItem()
+  overload: SuperOffice.WebApi.Data.ActivityFilter.GroupList*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ActivityFilter.FutureDateList
+  commentId: P:SuperOffice.WebApi.Data.ActivityFilter.FutureDateList
+  id: FutureDateList
+  parent: SuperOffice.WebApi.Data.ActivityFilter
+  langs:
+  - csharp
+  - vb
+  name: FutureDateList
+  nameWithType: ActivityFilter.FutureDateList
+  fullName: SuperOffice.WebApi.Data.ActivityFilter.FutureDateList
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe list of future date selections. This is a static MDO list with standard values.\n"
+  syntax:
+    content: public virtual MDOListItem[] FutureDateList { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.MDOListItem[]
+    content.vb: Public Overridable Property FutureDateList As MDOListItem()
+  overload: SuperOffice.WebApi.Data.ActivityFilter.FutureDateList*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ActivityFilter.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ActivityFilter.#ctor
+  isExternal: true
+  name: ActivityFilter
+  nameWithType: ActivityFilter.ActivityFilter
+  fullName: SuperOffice.WebApi.Data.ActivityFilter.ActivityFilter
+- uid: SuperOffice.WebApi.Data.ActivityFilter.FromDate*
+  commentId: Overload:SuperOffice.WebApi.Data.ActivityFilter.FromDate
+  isExternal: true
+  name: FromDate
+  nameWithType: ActivityFilter.FromDate
+  fullName: SuperOffice.WebApi.Data.ActivityFilter.FromDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.ActivityFilter.ToDate*
+  commentId: Overload:SuperOffice.WebApi.Data.ActivityFilter.ToDate
+  isExternal: true
+  name: ToDate
+  nameWithType: ActivityFilter.ToDate
+  fullName: SuperOffice.WebApi.Data.ActivityFilter.ToDate
+- uid: SuperOffice.WebApi.Data.ActivityFilter.AssociateList*
+  commentId: Overload:SuperOffice.WebApi.Data.ActivityFilter.AssociateList
+  isExternal: true
+  name: AssociateList
+  nameWithType: ActivityFilter.AssociateList
+  fullName: SuperOffice.WebApi.Data.ActivityFilter.AssociateList
+- uid: SuperOffice.WebApi.Data.SelectableMDOListItem[]
+  isExternal: true
+  name: SelectableMDOListItem[]
+  nameWithType: SelectableMDOListItem[]
+  fullName: SuperOffice.WebApi.Data.SelectableMDOListItem[]
+  nameWithType.vb: SelectableMDOListItem()
+  fullName.vb: SuperOffice.WebApi.Data.SelectableMDOListItem()
+  name.vb: SelectableMDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.WebApi.Data.SelectableMDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.WebApi.Data.SelectableMDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.ActivityFilter.GroupList*
+  commentId: Overload:SuperOffice.WebApi.Data.ActivityFilter.GroupList
+  isExternal: true
+  name: GroupList
+  nameWithType: ActivityFilter.GroupList
+  fullName: SuperOffice.WebApi.Data.ActivityFilter.GroupList
+- uid: SuperOffice.WebApi.Data.ActivityFilter.FutureDateList*
+  commentId: Overload:SuperOffice.WebApi.Data.ActivityFilter.FutureDateList
+  isExternal: true
+  name: FutureDateList
+  nameWithType: ActivityFilter.FutureDateList
+  fullName: SuperOffice.WebApi.Data.ActivityFilter.FutureDateList
+- uid: SuperOffice.WebApi.Data.MDOListItem[]
+  isExternal: true
+  name: MDOListItem[]
+  nameWithType: MDOListItem[]
+  fullName: SuperOffice.WebApi.Data.MDOListItem[]
+  nameWithType.vb: MDOListItem()
+  fullName.vb: SuperOffice.WebApi.Data.MDOListItem()
+  name.vb: MDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.WebApi.Data.MDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.WebApi.Data.MDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

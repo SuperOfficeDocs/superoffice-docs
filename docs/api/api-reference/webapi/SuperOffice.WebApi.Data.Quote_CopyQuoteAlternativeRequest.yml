@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest
+  id: Quote_CopyQuoteAlternativeRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.QuoteAlternativeId
+  - SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.QuoteAlternativeName
+  - SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.QuoteVersionId
+  langs:
+  - csharp
+  - vb
+  name: Quote_CopyQuoteAlternativeRequest
+  nameWithType: Quote_CopyQuoteAlternativeRequest
+  fullName: SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_CopyQuoteAlternativeRequest : Object'
+    content.vb: >-
+      Public Class Quote_CopyQuoteAlternativeRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_CopyQuoteAlternativeRequest()
+  nameWithType: Quote_CopyQuoteAlternativeRequest.Quote_CopyQuoteAlternativeRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.Quote_CopyQuoteAlternativeRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_CopyQuoteAlternativeRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.QuoteVersionId
+  commentId: P:SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.QuoteVersionId
+  id: QuoteVersionId
+  parent: SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionId
+  nameWithType: Quote_CopyQuoteAlternativeRequest.QuoteVersionId
+  fullName: SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.QuoteVersionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int QuoteVersionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteVersionId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.QuoteVersionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.QuoteAlternativeId
+  commentId: P:SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.QuoteAlternativeId
+  id: QuoteAlternativeId
+  parent: SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteAlternativeId
+  nameWithType: Quote_CopyQuoteAlternativeRequest.QuoteAlternativeId
+  fullName: SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.QuoteAlternativeId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int QuoteAlternativeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteAlternativeId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.QuoteAlternativeId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.QuoteAlternativeName
+  commentId: P:SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.QuoteAlternativeName
+  id: QuoteAlternativeName
+  parent: SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteAlternativeName
+  nameWithType: Quote_CopyQuoteAlternativeRequest.QuoteAlternativeName
+  fullName: SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.QuoteAlternativeName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string QuoteAlternativeName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property QuoteAlternativeName As String
+  overload: SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.QuoteAlternativeName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.#ctor
+  isExternal: true
+  name: Quote_CopyQuoteAlternativeRequest
+  nameWithType: Quote_CopyQuoteAlternativeRequest.Quote_CopyQuoteAlternativeRequest
+  fullName: SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.Quote_CopyQuoteAlternativeRequest
+- uid: SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.QuoteVersionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.QuoteVersionId
+  isExternal: true
+  name: QuoteVersionId
+  nameWithType: Quote_CopyQuoteAlternativeRequest.QuoteVersionId
+  fullName: SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.QuoteVersionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.QuoteAlternativeId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.QuoteAlternativeId
+  isExternal: true
+  name: QuoteAlternativeId
+  nameWithType: Quote_CopyQuoteAlternativeRequest.QuoteAlternativeId
+  fullName: SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.QuoteAlternativeId
+- uid: SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.QuoteAlternativeName*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.QuoteAlternativeName
+  isExternal: true
+  name: QuoteAlternativeName
+  nameWithType: Quote_CopyQuoteAlternativeRequest.QuoteAlternativeName
+  fullName: SuperOffice.WebApi.Data.Quote_CopyQuoteAlternativeRequest.QuoteAlternativeName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

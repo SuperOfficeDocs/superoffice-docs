@@ -1,0 +1,685 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.DocTmplType
+  commentId: T:SuperOffice.Data.DocTmplType
+  id: DocTmplType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.DocTmplType.Appointment
+  - SuperOffice.Data.DocTmplType.Document
+  - SuperOffice.Data.DocTmplType.Email
+  - SuperOffice.Data.DocTmplType.Fax
+  - SuperOffice.Data.DocTmplType.MergeDraft
+  - SuperOffice.Data.DocTmplType.MergeFinal
+  - SuperOffice.Data.DocTmplType.Phone
+  - SuperOffice.Data.DocTmplType.SavedReport
+  - SuperOffice.Data.DocTmplType.Todo
+  - SuperOffice.Data.DocTmplType.Unknown
+  langs:
+  - csharp
+  - vb
+  name: DocTmplType
+  nameWithType: DocTmplType
+  fullName: SuperOffice.Data.DocTmplType
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nValue for field &apos;record_type&apos; in table &apos;doctmpl&apos;.\nThis Enum is used by:  DocTmpl.record_type\n"
+  syntax:
+    content: 'public enum DocTmplType : short'
+    content.vb: Public Enum DocTmplType As Short
+  extensionMethods:
+  - SuperOffice.Data.DocTmplType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.DocTmplType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.DocTmplType)
+  - SuperOffice.Data.DocTmplType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.DocTmplType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.DocTmplType.Unknown
+  commentId: F:SuperOffice.Data.DocTmplType.Unknown
+  id: Unknown
+  parent: SuperOffice.Data.DocTmplType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: DocTmplType.Unknown
+  fullName: SuperOffice.Data.DocTmplType.Unknown
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: The document type is unknown/undecided\n"
+  syntax:
+    content: Unknown = 0
+    return:
+      type: SuperOffice.Data.DocTmplType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DocTmplType.Appointment
+  commentId: F:SuperOffice.Data.DocTmplType.Appointment
+  id: Appointment
+  parent: SuperOffice.Data.DocTmplType
+  langs:
+  - csharp
+  - vb
+  name: Appointment
+  nameWithType: DocTmplType.Appointment
+  fullName: SuperOffice.Data.DocTmplType.Appointment
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: (not used for document templates)\n"
+  syntax:
+    content: Appointment = 1
+    return:
+      type: SuperOffice.Data.DocTmplType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DocTmplType.Document
+  commentId: F:SuperOffice.Data.DocTmplType.Document
+  id: Document
+  parent: SuperOffice.Data.DocTmplType
+  langs:
+  - csharp
+  - vb
+  name: Document
+  nameWithType: DocTmplType.Document
+  fullName: SuperOffice.Data.DocTmplType.Document
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Generic text document (for instance, a letter)\n"
+  syntax:
+    content: Document = 2
+    return:
+      type: SuperOffice.Data.DocTmplType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DocTmplType.Email
+  commentId: F:SuperOffice.Data.DocTmplType.Email
+  id: Email
+  parent: SuperOffice.Data.DocTmplType
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: DocTmplType.Email
+  fullName: SuperOffice.Data.DocTmplType.Email
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n3: Email message\n"
+  syntax:
+    content: Email = 3
+    return:
+      type: SuperOffice.Data.DocTmplType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DocTmplType.Fax
+  commentId: F:SuperOffice.Data.DocTmplType.Fax
+  id: Fax
+  parent: SuperOffice.Data.DocTmplType
+  langs:
+  - csharp
+  - vb
+  name: Fax
+  nameWithType: DocTmplType.Fax
+  fullName: SuperOffice.Data.DocTmplType.Fax
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Facsimile\n"
+  syntax:
+    content: Fax = 4
+    return:
+      type: SuperOffice.Data.DocTmplType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DocTmplType.Phone
+  commentId: F:SuperOffice.Data.DocTmplType.Phone
+  id: Phone
+  parent: SuperOffice.Data.DocTmplType
+  langs:
+  - csharp
+  - vb
+  name: Phone
+  nameWithType: DocTmplType.Phone
+  fullName: SuperOffice.Data.DocTmplType.Phone
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n5: (not used for document templates)\n"
+  syntax:
+    content: Phone = 5
+    return:
+      type: SuperOffice.Data.DocTmplType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DocTmplType.Todo
+  commentId: F:SuperOffice.Data.DocTmplType.Todo
+  id: Todo
+  parent: SuperOffice.Data.DocTmplType
+  langs:
+  - csharp
+  - vb
+  name: Todo
+  nameWithType: DocTmplType.Todo
+  fullName: SuperOffice.Data.DocTmplType.Todo
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n6: (not used for document templates)\n"
+  syntax:
+    content: Todo = 6
+    return:
+      type: SuperOffice.Data.DocTmplType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DocTmplType.MergeDraft
+  commentId: F:SuperOffice.Data.DocTmplType.MergeDraft
+  id: MergeDraft
+  parent: SuperOffice.Data.DocTmplType
+  langs:
+  - csharp
+  - vb
+  name: MergeDraft
+  nameWithType: DocTmplType.MergeDraft
+  fullName: SuperOffice.Data.DocTmplType.MergeDraft
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n7: Template for mailmerge operations\n"
+  syntax:
+    content: MergeDraft = 7
+    return:
+      type: SuperOffice.Data.DocTmplType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DocTmplType.MergeFinal
+  commentId: F:SuperOffice.Data.DocTmplType.MergeFinal
+  id: MergeFinal
+  parent: SuperOffice.Data.DocTmplType
+  langs:
+  - csharp
+  - vb
+  name: MergeFinal
+  nameWithType: DocTmplType.MergeFinal
+  fullName: SuperOffice.Data.DocTmplType.MergeFinal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n8: Result of a mailmerge operation\n"
+  syntax:
+    content: MergeFinal = 8
+    return:
+      type: SuperOffice.Data.DocTmplType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.DocTmplType.SavedReport
+  commentId: F:SuperOffice.Data.DocTmplType.SavedReport
+  id: SavedReport
+  parent: SuperOffice.Data.DocTmplType
+  langs:
+  - csharp
+  - vb
+  name: SavedReport
+  nameWithType: DocTmplType.SavedReport
+  fullName: SuperOffice.Data.DocTmplType.SavedReport
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n9: Saved result of running a report (output from Reporter)\n"
+  syntax:
+    content: SavedReport = 9
+    return:
+      type: SuperOffice.Data.DocTmplType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.DocTmplType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<DocTmplType, To>()
+  nameWithType: EnumUtil.MapEnums<DocTmplType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.DocTmplType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DocTmplType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.DocTmplType, To)()
+  name.vb: MapEnums(Of DocTmplType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DocTmplType, To>
+    nameWithType: EnumUtil.MapEnums<DocTmplType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.DocTmplType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DocTmplType, To)
+    nameWithType: EnumUtil.MapEnums(Of DocTmplType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.DocTmplType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.DocTmplType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.DocTmplType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<DocTmplType>(DocTmplType)
+  nameWithType: ObjectExtensions.AssignByReflection<DocTmplType>(DocTmplType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.DocTmplType>(SuperOffice.Data.DocTmplType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DocTmplType)(DocTmplType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.DocTmplType)(SuperOffice.Data.DocTmplType)
+  name.vb: AssignByReflection(Of DocTmplType)(DocTmplType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<DocTmplType>
+    nameWithType: ObjectExtensions.AssignByReflection<DocTmplType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.DocTmplType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.DocTmplType
+    name: DocTmplType
+    nameWithType: DocTmplType
+    fullName: SuperOffice.Data.DocTmplType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of DocTmplType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of DocTmplType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.DocTmplType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.DocTmplType
+    name: DocTmplType
+    nameWithType: DocTmplType
+    fullName: SuperOffice.Data.DocTmplType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.DocTmplType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<DocTmplType>()
+  nameWithType: ObjectExtensions.GraphCopy<DocTmplType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.DocTmplType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of DocTmplType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.DocTmplType)()
+  name.vb: GraphCopy(Of DocTmplType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<DocTmplType>
+    nameWithType: ObjectExtensions.GraphCopy<DocTmplType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.DocTmplType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of DocTmplType)
+    nameWithType: ObjectExtensions.GraphCopy(Of DocTmplType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.DocTmplType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.DocTmplType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<DocTmplType, To>()
+  nameWithType: Converters.MapEnums<DocTmplType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.DocTmplType, To>()
+  nameWithType.vb: Converters.MapEnums(Of DocTmplType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.DocTmplType, To)()
+  name.vb: MapEnums(Of DocTmplType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DocTmplType, To>
+    nameWithType: Converters.MapEnums<DocTmplType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.DocTmplType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DocTmplType, To)
+    nameWithType: Converters.MapEnums(Of DocTmplType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.DocTmplType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.DocTmplType
+  commentId: T:SuperOffice.Data.DocTmplType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: DocTmplType
+  nameWithType: DocTmplType
+  fullName: SuperOffice.Data.DocTmplType

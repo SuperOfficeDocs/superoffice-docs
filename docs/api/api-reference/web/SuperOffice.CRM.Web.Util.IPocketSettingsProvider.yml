@@ -1,0 +1,169 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Util.IPocketSettingsProvider
+  commentId: T:SuperOffice.CRM.Web.Util.IPocketSettingsProvider
+  id: IPocketSettingsProvider
+  parent: SuperOffice.CRM.Web.Util
+  children:
+  - SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetApplicationRoot
+  - SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketCrmLoginPage
+  - SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketLandingPageUrlOverride
+  - SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketServiceUrl
+  langs:
+  - csharp
+  - vb
+  name: IPocketSettingsProvider
+  nameWithType: IPocketSettingsProvider
+  fullName: SuperOffice.CRM.Web.Util.IPocketSettingsProvider
+  type: Interface
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public interface IPocketSettingsProvider
+    content.vb: Public Interface IPocketSettingsProvider
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetApplicationRoot
+  commentId: M:SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetApplicationRoot
+  id: GetApplicationRoot
+  parent: SuperOffice.CRM.Web.Util.IPocketSettingsProvider
+  langs:
+  - csharp
+  - vb
+  name: GetApplicationRoot()
+  nameWithType: IPocketSettingsProvider.GetApplicationRoot()
+  fullName: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetApplicationRoot()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: string GetApplicationRoot()
+    return:
+      type: System.String
+    content.vb: Function GetApplicationRoot As String
+  overload: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetApplicationRoot*
+- uid: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketCrmLoginPage
+  commentId: M:SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketCrmLoginPage
+  id: GetPocketCrmLoginPage
+  parent: SuperOffice.CRM.Web.Util.IPocketSettingsProvider
+  langs:
+  - csharp
+  - vb
+  name: GetPocketCrmLoginPage()
+  nameWithType: IPocketSettingsProvider.GetPocketCrmLoginPage()
+  fullName: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketCrmLoginPage()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: string GetPocketCrmLoginPage()
+    return:
+      type: System.String
+    content.vb: Function GetPocketCrmLoginPage As String
+  overload: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketCrmLoginPage*
+- uid: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketServiceUrl
+  commentId: M:SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketServiceUrl
+  id: GetPocketServiceUrl
+  parent: SuperOffice.CRM.Web.Util.IPocketSettingsProvider
+  langs:
+  - csharp
+  - vb
+  name: GetPocketServiceUrl()
+  nameWithType: IPocketSettingsProvider.GetPocketServiceUrl()
+  fullName: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketServiceUrl()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: string GetPocketServiceUrl()
+    return:
+      type: System.String
+    content.vb: Function GetPocketServiceUrl As String
+  overload: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketServiceUrl*
+- uid: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketLandingPageUrlOverride
+  commentId: M:SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketLandingPageUrlOverride
+  id: GetPocketLandingPageUrlOverride
+  parent: SuperOffice.CRM.Web.Util.IPocketSettingsProvider
+  langs:
+  - csharp
+  - vb
+  name: GetPocketLandingPageUrlOverride()
+  nameWithType: IPocketSettingsProvider.GetPocketLandingPageUrlOverride()
+  fullName: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketLandingPageUrlOverride()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: string GetPocketLandingPageUrlOverride()
+    return:
+      type: System.String
+    content.vb: Function GetPocketLandingPageUrlOverride As String
+  overload: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketLandingPageUrlOverride*
+references:
+- uid: SuperOffice.CRM.Web.Util
+  commentId: N:SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: SuperOffice.CRM.Web.Util
+  nameWithType: SuperOffice.CRM.Web.Util
+  fullName: SuperOffice.CRM.Web.Util
+- uid: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetApplicationRoot*
+  commentId: Overload:SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetApplicationRoot
+  isExternal: true
+  name: GetApplicationRoot
+  nameWithType: IPocketSettingsProvider.GetApplicationRoot
+  fullName: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetApplicationRoot
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketCrmLoginPage*
+  commentId: Overload:SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketCrmLoginPage
+  isExternal: true
+  name: GetPocketCrmLoginPage
+  nameWithType: IPocketSettingsProvider.GetPocketCrmLoginPage
+  fullName: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketCrmLoginPage
+- uid: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketServiceUrl*
+  commentId: Overload:SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketServiceUrl
+  isExternal: true
+  name: GetPocketServiceUrl
+  nameWithType: IPocketSettingsProvider.GetPocketServiceUrl
+  fullName: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketServiceUrl
+- uid: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketLandingPageUrlOverride*
+  commentId: Overload:SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketLandingPageUrlOverride
+  isExternal: true
+  name: GetPocketLandingPageUrlOverride
+  nameWithType: IPocketSettingsProvider.GetPocketLandingPageUrlOverride
+  fullName: SuperOffice.CRM.Web.Util.IPocketSettingsProvider.GetPocketLandingPageUrlOverride

@@ -1,0 +1,382 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.PluginUrlResponse
+  commentId: T:SuperOffice.WebApi.Data.PluginUrlResponse
+  id: PluginUrlResponse
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.PluginUrlResponse.#ctor
+  - SuperOffice.WebApi.Data.PluginUrlResponse.Changes
+  - SuperOffice.WebApi.Data.PluginUrlResponse.ErrorCode
+  - SuperOffice.WebApi.Data.PluginUrlResponse.IsOk
+  - SuperOffice.WebApi.Data.PluginUrlResponse.TechExplanation
+  - SuperOffice.WebApi.Data.PluginUrlResponse.Url
+  - SuperOffice.WebApi.Data.PluginUrlResponse.UserExplanation
+  langs:
+  - csharp
+  - vb
+  name: PluginUrlResponse
+  nameWithType: PluginUrlResponse
+  fullName: SuperOffice.WebApi.Data.PluginUrlResponse
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for PluginUrlResponse.\nPluginUrlResponse exists to be able to respond with more than just a true/false, but also an explanation. Such an explanation can be displayed on for instance a disabled “Place Order” button. In addition, an URL can be returned, which the GUI should navigate to/display if it is non-blank. The URL can be an SoProtocol or http(s)    \n"
+  syntax:
+    content: 'public class PluginUrlResponse : Carrier'
+    content.vb: >-
+      Public Class PluginUrlResponse
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.QuoteAgent
+    commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.PluginUrlResponse.#ctor
+  commentId: M:SuperOffice.WebApi.Data.PluginUrlResponse.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.PluginUrlResponse
+  langs:
+  - csharp
+  - vb
+  name: PluginUrlResponse()
+  nameWithType: PluginUrlResponse.PluginUrlResponse()
+  fullName: SuperOffice.WebApi.Data.PluginUrlResponse.PluginUrlResponse()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public PluginUrlResponse()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.PluginUrlResponse.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.PluginUrlResponse.IsOk
+  commentId: P:SuperOffice.WebApi.Data.PluginUrlResponse.IsOk
+  id: IsOk
+  parent: SuperOffice.WebApi.Data.PluginUrlResponse
+  langs:
+  - csharp
+  - vb
+  name: IsOk
+  nameWithType: PluginUrlResponse.IsOk
+  fullName: SuperOffice.WebApi.Data.PluginUrlResponse.IsOk
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAnswer to the question / An indication if the operation went well.\n"
+  syntax:
+    content: public virtual bool IsOk { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsOk As Boolean
+  overload: SuperOffice.WebApi.Data.PluginUrlResponse.IsOk*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PluginUrlResponse.UserExplanation
+  commentId: P:SuperOffice.WebApi.Data.PluginUrlResponse.UserExplanation
+  id: UserExplanation
+  parent: SuperOffice.WebApi.Data.PluginUrlResponse
+  langs:
+  - csharp
+  - vb
+  name: UserExplanation
+  nameWithType: PluginUrlResponse.UserExplanation
+  fullName: SuperOffice.WebApi.Data.PluginUrlResponse.UserExplanation
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA localized explanation to the answer.\n"
+  syntax:
+    content: public virtual string UserExplanation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property UserExplanation As String
+  overload: SuperOffice.WebApi.Data.PluginUrlResponse.UserExplanation*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PluginUrlResponse.TechExplanation
+  commentId: P:SuperOffice.WebApi.Data.PluginUrlResponse.TechExplanation
+  id: TechExplanation
+  parent: SuperOffice.WebApi.Data.PluginUrlResponse
+  langs:
+  - csharp
+  - vb
+  name: TechExplanation
+  nameWithType: PluginUrlResponse.TechExplanation
+  fullName: SuperOffice.WebApi.Data.PluginUrlResponse.TechExplanation
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAlways in English\n"
+  syntax:
+    content: public virtual string TechExplanation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TechExplanation As String
+  overload: SuperOffice.WebApi.Data.PluginUrlResponse.TechExplanation*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PluginUrlResponse.ErrorCode
+  commentId: P:SuperOffice.WebApi.Data.PluginUrlResponse.ErrorCode
+  id: ErrorCode
+  parent: SuperOffice.WebApi.Data.PluginUrlResponse
+  langs:
+  - csharp
+  - vb
+  name: ErrorCode
+  nameWithType: PluginUrlResponse.ErrorCode
+  fullName: SuperOffice.WebApi.Data.PluginUrlResponse.ErrorCode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAn error code, if available.\n"
+  syntax:
+    content: public virtual string ErrorCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ErrorCode As String
+  overload: SuperOffice.WebApi.Data.PluginUrlResponse.ErrorCode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PluginUrlResponse.Changes
+  commentId: P:SuperOffice.WebApi.Data.PluginUrlResponse.Changes
+  id: Changes
+  parent: SuperOffice.WebApi.Data.PluginUrlResponse
+  langs:
+  - csharp
+  - vb
+  name: Changes
+  nameWithType: PluginUrlResponse.Changes
+  fullName: SuperOffice.WebApi.Data.PluginUrlResponse.Changes
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTablename/recordid of data changed by this method, that the client may need to reload\n"
+  syntax:
+    content: public virtual ChangedData Changes { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ChangedData
+    content.vb: Public Overridable Property Changes As ChangedData
+  overload: SuperOffice.WebApi.Data.PluginUrlResponse.Changes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.PluginUrlResponse.Url
+  commentId: P:SuperOffice.WebApi.Data.PluginUrlResponse.Url
+  id: Url
+  parent: SuperOffice.WebApi.Data.PluginUrlResponse
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: PluginUrlResponse.Url
+  fullName: SuperOffice.WebApi.Data.PluginUrlResponse.Url
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUrl that the GUI should navigato to/open, if non-blank. The GUI cannot enforce any rules subsequent to opening the requested url.\n"
+  syntax:
+    content: public virtual string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Url As String
+  overload: SuperOffice.WebApi.Data.PluginUrlResponse.Url*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.QuoteAgent
+  commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  isExternal: true
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.WebApi.Agents.QuoteAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.PluginUrlResponse.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.PluginUrlResponse.#ctor
+  isExternal: true
+  name: PluginUrlResponse
+  nameWithType: PluginUrlResponse.PluginUrlResponse
+  fullName: SuperOffice.WebApi.Data.PluginUrlResponse.PluginUrlResponse
+- uid: SuperOffice.WebApi.Data.PluginUrlResponse.IsOk*
+  commentId: Overload:SuperOffice.WebApi.Data.PluginUrlResponse.IsOk
+  isExternal: true
+  name: IsOk
+  nameWithType: PluginUrlResponse.IsOk
+  fullName: SuperOffice.WebApi.Data.PluginUrlResponse.IsOk
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.PluginUrlResponse.UserExplanation*
+  commentId: Overload:SuperOffice.WebApi.Data.PluginUrlResponse.UserExplanation
+  isExternal: true
+  name: UserExplanation
+  nameWithType: PluginUrlResponse.UserExplanation
+  fullName: SuperOffice.WebApi.Data.PluginUrlResponse.UserExplanation
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.PluginUrlResponse.TechExplanation*
+  commentId: Overload:SuperOffice.WebApi.Data.PluginUrlResponse.TechExplanation
+  isExternal: true
+  name: TechExplanation
+  nameWithType: PluginUrlResponse.TechExplanation
+  fullName: SuperOffice.WebApi.Data.PluginUrlResponse.TechExplanation
+- uid: SuperOffice.WebApi.Data.PluginUrlResponse.ErrorCode*
+  commentId: Overload:SuperOffice.WebApi.Data.PluginUrlResponse.ErrorCode
+  isExternal: true
+  name: ErrorCode
+  nameWithType: PluginUrlResponse.ErrorCode
+  fullName: SuperOffice.WebApi.Data.PluginUrlResponse.ErrorCode
+- uid: SuperOffice.WebApi.Data.PluginUrlResponse.Changes*
+  commentId: Overload:SuperOffice.WebApi.Data.PluginUrlResponse.Changes
+  isExternal: true
+  name: Changes
+  nameWithType: PluginUrlResponse.Changes
+  fullName: SuperOffice.WebApi.Data.PluginUrlResponse.Changes
+- uid: SuperOffice.WebApi.Data.ChangedData
+  commentId: T:SuperOffice.WebApi.Data.ChangedData
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ChangedData
+  nameWithType: ChangedData
+  fullName: SuperOffice.WebApi.Data.ChangedData
+- uid: SuperOffice.WebApi.Data.PluginUrlResponse.Url*
+  commentId: Overload:SuperOffice.WebApi.Data.PluginUrlResponse.Url
+  isExternal: true
+  name: Url
+  nameWithType: PluginUrlResponse.Url
+  fullName: SuperOffice.WebApi.Data.PluginUrlResponse.Url

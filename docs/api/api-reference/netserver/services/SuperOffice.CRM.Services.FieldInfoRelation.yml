@@ -1,0 +1,841 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.FieldInfoRelation
+  commentId: T:SuperOffice.CRM.Services.FieldInfoRelation
+  id: FieldInfoRelation
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.FieldInfoRelation.#ctor
+  - SuperOffice.CRM.Services.FieldInfoRelation.DefaultValue
+  - SuperOffice.CRM.Services.FieldInfoRelation.MdoListName
+  - SuperOffice.CRM.Services.FieldInfoRelation.TargetLabel
+  - SuperOffice.CRM.Services.FieldInfoRelation.TargetTable
+  - SuperOffice.CRM.Services.FieldInfoRelation.ToString
+  - SuperOffice.CRM.Services.FieldInfoRelation.ToString(System.String)
+  - SuperOffice.CRM.Services.FieldInfoRelation.UseDropDown
+  langs:
+  - csharp
+  - vb
+  name: FieldInfoRelation
+  nameWithType: FieldInfoRelation
+  fullName: SuperOffice.CRM.Services.FieldInfoRelation
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRelation to other table database field.\n<p></p>\nCarrier object for FieldInfoRelation.\nServices for the FieldInfoRelation Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class FieldInfoRelation : FieldInfoBase'
+    content.vb: >-
+      Public Class FieldInfoRelation
+          Inherits FieldInfoBase
+  seealso:
+  - linkId: SuperOffice.CRM.Services.UserDefinedFieldInfoAgent
+    commentId: T:SuperOffice.CRM.Services.UserDefinedFieldInfoAgent
+  - linkId: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
+    commentId: T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.FieldInfoBase
+  inheritedMembers:
+  - SuperOffice.CRM.Services.FieldInfoBase.FieldType
+  - SuperOffice.CRM.Services.FieldInfoBase.FieldName
+  - SuperOffice.CRM.Services.FieldInfoBase.DisplayName
+  - SuperOffice.CRM.Services.FieldInfoBase.Description
+  - SuperOffice.CRM.Services.FieldInfoBase.ShortLabel
+  - SuperOffice.CRM.Services.FieldInfoBase.HideLabel
+  - SuperOffice.CRM.Services.FieldInfoBase.HideField
+  - SuperOffice.CRM.Services.FieldInfoBase.IsIndexed
+  - SuperOffice.CRM.Services.FieldInfoBase.IsMandatory
+  - SuperOffice.CRM.Services.FieldInfoBase.IsReadOnly
+  - SuperOffice.CRM.Services.FieldInfoBase.IsExternal
+  - SuperOffice.CRM.Services.FieldInfoBase.Rank
+  - SuperOffice.CRM.Services.FieldInfoBase.TemplateVariableName
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.FieldInfoRelation.#ctor
+  commentId: M:SuperOffice.CRM.Services.FieldInfoRelation.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.FieldInfoRelation
+  langs:
+  - csharp
+  - vb
+  name: FieldInfoRelation()
+  nameWithType: FieldInfoRelation.FieldInfoRelation()
+  fullName: SuperOffice.CRM.Services.FieldInfoRelation.FieldInfoRelation()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public FieldInfoRelation()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.FieldInfoRelation.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.FieldInfoRelation.ToString
+  commentId: M:SuperOffice.CRM.Services.FieldInfoRelation.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.FieldInfoRelation
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: FieldInfoRelation.ToString()
+  fullName: SuperOffice.CRM.Services.FieldInfoRelation.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overridden: SuperOffice.CRM.Services.FieldInfoBase.ToString
+  overload: SuperOffice.CRM.Services.FieldInfoRelation.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.FieldInfoRelation.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.FieldInfoRelation.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.FieldInfoRelation
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: FieldInfoRelation.ToString(String)
+  fullName: SuperOffice.CRM.Services.FieldInfoRelation.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public override string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString(prefix As String) As String
+  overridden: SuperOffice.CRM.Services.FieldInfoBase.ToString(System.String)
+  overload: SuperOffice.CRM.Services.FieldInfoRelation.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.FieldInfoRelation.DefaultValue
+  commentId: P:SuperOffice.CRM.Services.FieldInfoRelation.DefaultValue
+  id: DefaultValue
+  parent: SuperOffice.CRM.Services.FieldInfoRelation
+  langs:
+  - csharp
+  - vb
+  name: DefaultValue
+  nameWithType: FieldInfoRelation.DefaultValue
+  fullName: SuperOffice.CRM.Services.FieldInfoRelation.DefaultValue
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault record id. \n"
+  syntax:
+    content: public virtual int DefaultValue { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DefaultValue As Integer
+  overload: SuperOffice.CRM.Services.FieldInfoRelation.DefaultValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldInfoRelation.TargetTable
+  commentId: P:SuperOffice.CRM.Services.FieldInfoRelation.TargetTable
+  id: TargetTable
+  parent: SuperOffice.CRM.Services.FieldInfoRelation
+  langs:
+  - csharp
+  - vb
+  name: TargetTable
+  nameWithType: FieldInfoRelation.TargetTable
+  fullName: SuperOffice.CRM.Services.FieldInfoRelation.TargetTable
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of target table: &apos;contact&apos;, &apos;y_equipment&apos; \n"
+  syntax:
+    content: public virtual string TargetTable { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TargetTable As String
+  overload: SuperOffice.CRM.Services.FieldInfoRelation.TargetTable*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldInfoRelation.TargetLabel
+  commentId: P:SuperOffice.CRM.Services.FieldInfoRelation.TargetLabel
+  id: TargetLabel
+  parent: SuperOffice.CRM.Services.FieldInfoRelation
+  langs:
+  - csharp
+  - vb
+  name: TargetLabel
+  nameWithType: FieldInfoRelation.TargetLabel
+  fullName: SuperOffice.CRM.Services.FieldInfoRelation.TargetLabel
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDisplay name on target entity. \n"
+  syntax:
+    content: public virtual string TargetLabel { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TargetLabel As String
+  overload: SuperOffice.CRM.Services.FieldInfoRelation.TargetLabel*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldInfoRelation.UseDropDown
+  commentId: P:SuperOffice.CRM.Services.FieldInfoRelation.UseDropDown
+  id: UseDropDown
+  parent: SuperOffice.CRM.Services.FieldInfoRelation
+  langs:
+  - csharp
+  - vb
+  name: UseDropDown
+  nameWithType: FieldInfoRelation.UseDropDown
+  fullName: SuperOffice.CRM.Services.FieldInfoRelation.UseDropDown
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nShow as dropdown list on target? \n"
+  syntax:
+    content: public virtual bool UseDropDown { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property UseDropDown As Boolean
+  overload: SuperOffice.CRM.Services.FieldInfoRelation.UseDropDown*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.FieldInfoRelation.MdoListName
+  commentId: P:SuperOffice.CRM.Services.FieldInfoRelation.MdoListName
+  id: MdoListName
+  parent: SuperOffice.CRM.Services.FieldInfoRelation
+  langs:
+  - csharp
+  - vb
+  name: MdoListName
+  nameWithType: FieldInfoRelation.MdoListName
+  fullName: SuperOffice.CRM.Services.FieldInfoRelation.MdoListName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMDO list name used to populate this list. (Read-only - derived from TargetTable) \n"
+  syntax:
+    content: public virtual string MdoListName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property MdoListName As String
+  overload: SuperOffice.CRM.Services.FieldInfoRelation.MdoListName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.FieldInfoBase
+  commentId: T:SuperOffice.CRM.Services.FieldInfoBase
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: FieldInfoBase
+  nameWithType: FieldInfoBase
+  fullName: SuperOffice.CRM.Services.FieldInfoBase
+- uid: SuperOffice.CRM.Services.FieldInfoBase.FieldType
+  commentId: P:SuperOffice.CRM.Services.FieldInfoBase.FieldType
+  parent: SuperOffice.CRM.Services.FieldInfoBase
+  isExternal: true
+  name: FieldType
+  nameWithType: FieldInfoBase.FieldType
+  fullName: SuperOffice.CRM.Services.FieldInfoBase.FieldType
+- uid: SuperOffice.CRM.Services.FieldInfoBase.FieldName
+  commentId: P:SuperOffice.CRM.Services.FieldInfoBase.FieldName
+  parent: SuperOffice.CRM.Services.FieldInfoBase
+  isExternal: true
+  name: FieldName
+  nameWithType: FieldInfoBase.FieldName
+  fullName: SuperOffice.CRM.Services.FieldInfoBase.FieldName
+- uid: SuperOffice.CRM.Services.FieldInfoBase.DisplayName
+  commentId: P:SuperOffice.CRM.Services.FieldInfoBase.DisplayName
+  parent: SuperOffice.CRM.Services.FieldInfoBase
+  isExternal: true
+  name: DisplayName
+  nameWithType: FieldInfoBase.DisplayName
+  fullName: SuperOffice.CRM.Services.FieldInfoBase.DisplayName
+- uid: SuperOffice.CRM.Services.FieldInfoBase.Description
+  commentId: P:SuperOffice.CRM.Services.FieldInfoBase.Description
+  parent: SuperOffice.CRM.Services.FieldInfoBase
+  isExternal: true
+  name: Description
+  nameWithType: FieldInfoBase.Description
+  fullName: SuperOffice.CRM.Services.FieldInfoBase.Description
+- uid: SuperOffice.CRM.Services.FieldInfoBase.ShortLabel
+  commentId: P:SuperOffice.CRM.Services.FieldInfoBase.ShortLabel
+  parent: SuperOffice.CRM.Services.FieldInfoBase
+  isExternal: true
+  name: ShortLabel
+  nameWithType: FieldInfoBase.ShortLabel
+  fullName: SuperOffice.CRM.Services.FieldInfoBase.ShortLabel
+- uid: SuperOffice.CRM.Services.FieldInfoBase.HideLabel
+  commentId: P:SuperOffice.CRM.Services.FieldInfoBase.HideLabel
+  parent: SuperOffice.CRM.Services.FieldInfoBase
+  isExternal: true
+  name: HideLabel
+  nameWithType: FieldInfoBase.HideLabel
+  fullName: SuperOffice.CRM.Services.FieldInfoBase.HideLabel
+- uid: SuperOffice.CRM.Services.FieldInfoBase.HideField
+  commentId: P:SuperOffice.CRM.Services.FieldInfoBase.HideField
+  parent: SuperOffice.CRM.Services.FieldInfoBase
+  isExternal: true
+  name: HideField
+  nameWithType: FieldInfoBase.HideField
+  fullName: SuperOffice.CRM.Services.FieldInfoBase.HideField
+- uid: SuperOffice.CRM.Services.FieldInfoBase.IsIndexed
+  commentId: P:SuperOffice.CRM.Services.FieldInfoBase.IsIndexed
+  parent: SuperOffice.CRM.Services.FieldInfoBase
+  isExternal: true
+  name: IsIndexed
+  nameWithType: FieldInfoBase.IsIndexed
+  fullName: SuperOffice.CRM.Services.FieldInfoBase.IsIndexed
+- uid: SuperOffice.CRM.Services.FieldInfoBase.IsMandatory
+  commentId: P:SuperOffice.CRM.Services.FieldInfoBase.IsMandatory
+  parent: SuperOffice.CRM.Services.FieldInfoBase
+  isExternal: true
+  name: IsMandatory
+  nameWithType: FieldInfoBase.IsMandatory
+  fullName: SuperOffice.CRM.Services.FieldInfoBase.IsMandatory
+- uid: SuperOffice.CRM.Services.FieldInfoBase.IsReadOnly
+  commentId: P:SuperOffice.CRM.Services.FieldInfoBase.IsReadOnly
+  parent: SuperOffice.CRM.Services.FieldInfoBase
+  isExternal: true
+  name: IsReadOnly
+  nameWithType: FieldInfoBase.IsReadOnly
+  fullName: SuperOffice.CRM.Services.FieldInfoBase.IsReadOnly
+- uid: SuperOffice.CRM.Services.FieldInfoBase.IsExternal
+  commentId: P:SuperOffice.CRM.Services.FieldInfoBase.IsExternal
+  parent: SuperOffice.CRM.Services.FieldInfoBase
+  isExternal: true
+  name: IsExternal
+  nameWithType: FieldInfoBase.IsExternal
+  fullName: SuperOffice.CRM.Services.FieldInfoBase.IsExternal
+- uid: SuperOffice.CRM.Services.FieldInfoBase.Rank
+  commentId: P:SuperOffice.CRM.Services.FieldInfoBase.Rank
+  parent: SuperOffice.CRM.Services.FieldInfoBase
+  isExternal: true
+  name: Rank
+  nameWithType: FieldInfoBase.Rank
+  fullName: SuperOffice.CRM.Services.FieldInfoBase.Rank
+- uid: SuperOffice.CRM.Services.FieldInfoBase.TemplateVariableName
+  commentId: P:SuperOffice.CRM.Services.FieldInfoBase.TemplateVariableName
+  parent: SuperOffice.CRM.Services.FieldInfoBase
+  isExternal: true
+  name: TemplateVariableName
+  nameWithType: FieldInfoBase.TemplateVariableName
+  fullName: SuperOffice.CRM.Services.FieldInfoBase.TemplateVariableName
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.UserDefinedFieldInfoAgent
+  commentId: T:SuperOffice.CRM.Services.UserDefinedFieldInfoAgent
+  isExternal: true
+  name: UserDefinedFieldInfoAgent
+  nameWithType: UserDefinedFieldInfoAgent
+  fullName: SuperOffice.CRM.Services.UserDefinedFieldInfoAgent
+- uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
+  commentId: T:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IUserDefinedFieldInfoAgent
+  nameWithType: IUserDefinedFieldInfoAgent
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.FieldInfoRelation.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.FieldInfoRelation.#ctor
+  isExternal: true
+  name: FieldInfoRelation
+  nameWithType: FieldInfoRelation.FieldInfoRelation
+  fullName: SuperOffice.CRM.Services.FieldInfoRelation.FieldInfoRelation
+- uid: SuperOffice.CRM.Services.FieldInfoBase.ToString
+  commentId: M:SuperOffice.CRM.Services.FieldInfoBase.ToString
+  parent: SuperOffice.CRM.Services.FieldInfoBase
+  isExternal: true
+  name: ToString()
+  nameWithType: FieldInfoBase.ToString()
+  fullName: SuperOffice.CRM.Services.FieldInfoBase.ToString()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.FieldInfoBase.ToString
+    name: ToString
+    nameWithType: FieldInfoBase.ToString
+    fullName: SuperOffice.CRM.Services.FieldInfoBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.FieldInfoBase.ToString
+    name: ToString
+    nameWithType: FieldInfoBase.ToString
+    fullName: SuperOffice.CRM.Services.FieldInfoBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.FieldInfoRelation.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.FieldInfoRelation.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: FieldInfoRelation.ToString
+  fullName: SuperOffice.CRM.Services.FieldInfoRelation.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.FieldInfoBase.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.FieldInfoBase.ToString(System.String)
+  parent: SuperOffice.CRM.Services.FieldInfoBase
+  isExternal: true
+  name: ToString(String)
+  nameWithType: FieldInfoBase.ToString(String)
+  fullName: SuperOffice.CRM.Services.FieldInfoBase.ToString(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.FieldInfoBase.ToString(System.String)
+    name: ToString
+    nameWithType: FieldInfoBase.ToString
+    fullName: SuperOffice.CRM.Services.FieldInfoBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.FieldInfoBase.ToString(System.String)
+    name: ToString
+    nameWithType: FieldInfoBase.ToString
+    fullName: SuperOffice.CRM.Services.FieldInfoBase.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.FieldInfoRelation.DefaultValue*
+  commentId: Overload:SuperOffice.CRM.Services.FieldInfoRelation.DefaultValue
+  isExternal: true
+  name: DefaultValue
+  nameWithType: FieldInfoRelation.DefaultValue
+  fullName: SuperOffice.CRM.Services.FieldInfoRelation.DefaultValue
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.FieldInfoRelation.TargetTable*
+  commentId: Overload:SuperOffice.CRM.Services.FieldInfoRelation.TargetTable
+  isExternal: true
+  name: TargetTable
+  nameWithType: FieldInfoRelation.TargetTable
+  fullName: SuperOffice.CRM.Services.FieldInfoRelation.TargetTable
+- uid: SuperOffice.CRM.Services.FieldInfoRelation.TargetLabel*
+  commentId: Overload:SuperOffice.CRM.Services.FieldInfoRelation.TargetLabel
+  isExternal: true
+  name: TargetLabel
+  nameWithType: FieldInfoRelation.TargetLabel
+  fullName: SuperOffice.CRM.Services.FieldInfoRelation.TargetLabel
+- uid: SuperOffice.CRM.Services.FieldInfoRelation.UseDropDown*
+  commentId: Overload:SuperOffice.CRM.Services.FieldInfoRelation.UseDropDown
+  isExternal: true
+  name: UseDropDown
+  nameWithType: FieldInfoRelation.UseDropDown
+  fullName: SuperOffice.CRM.Services.FieldInfoRelation.UseDropDown
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.FieldInfoRelation.MdoListName*
+  commentId: Overload:SuperOffice.CRM.Services.FieldInfoRelation.MdoListName
+  isExternal: true
+  name: MdoListName
+  nameWithType: FieldInfoRelation.MdoListName
+  fullName: SuperOffice.CRM.Services.FieldInfoRelation.MdoListName

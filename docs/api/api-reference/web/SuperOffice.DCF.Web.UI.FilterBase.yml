@@ -1,0 +1,714 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.FilterBase
+  commentId: T:SuperOffice.DCF.Web.UI.FilterBase
+  id: FilterBase
+  parent: SuperOffice.DCF.Web.UI
+  children:
+  - SuperOffice.DCF.Web.UI.FilterBase.#ctor
+  - SuperOffice.DCF.Web.UI.FilterBase.DisableNode(System.Xml.XmlDocument,System.Xml.XmlNode)
+  - SuperOffice.DCF.Web.UI.FilterBase.EnableNode(System.Xml.XmlDocument,System.Xml.XmlNode)
+  - SuperOffice.DCF.Web.UI.FilterBase.HideNode(System.Xml.XmlNode)
+  - SuperOffice.DCF.Web.UI.FilterBase.Phase
+  - SuperOffice.DCF.Web.UI.FilterBase.Process(System.Xml.XmlDocument)
+  - SuperOffice.DCF.Web.UI.FilterBase.SetReasonTooltip(System.String,System.Xml.XmlNode)
+  langs:
+  - csharp
+  - vb
+  name: FilterBase
+  nameWithType: FilterBase
+  fullName: SuperOffice.DCF.Web.UI.FilterBase
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: 'public abstract class FilterBase : IFilter'
+    content.vb: >-
+      Public MustInherit Class FilterBase
+          Implements IFilter
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.CRM.Web.UI.Filters.ConditionalFilter
+  - SuperOffice.CRM.Web.UI.Filters.CustomCheckFilter
+  - SuperOffice.CRM.Web.UI.Filters.DataFilter
+  - SuperOffice.CRM.Web.UI.Filters.ErpSyncActorTypeMappingFilter
+  - SuperOffice.CRM.Web.UI.Filters.ErpSyncDefaultsFilter
+  - SuperOffice.CRM.Web.UI.Filters.ErpSyncRankFieldsFilter
+  - SuperOffice.CRM.Web.UI.Filters.FavouriteFilter
+  - SuperOffice.CRM.Web.UI.Filters.FeatureToggleFilter
+  - SuperOffice.CRM.Web.UI.Filters.FindFilter
+  - SuperOffice.CRM.Web.UI.Filters.FindInlineFilter
+  - SuperOffice.CRM.Web.UI.Filters.FramelessFilter
+  - SuperOffice.CRM.Web.UI.Filters.FreetextFindFilter
+  - SuperOffice.CRM.Web.UI.Filters.FunctionalRightsFilter
+  - SuperOffice.CRM.Web.UI.Filters.LicenseFilter
+  - SuperOffice.CRM.Web.UI.Filters.LicenseOwnerFilter
+  - SuperOffice.CRM.Web.UI.Filters.QuoteAlternativeFilter
+  - SuperOffice.CRM.Web.UI.Filters.QuoteDocsMenuFilter
+  - SuperOffice.CRM.Web.UI.Filters.RoleFilter
+  - SuperOffice.CRM.Web.UI.Filters.SelectionFilter
+  - SuperOffice.CRM.Web.UI.Filters.SentryFilter
+  - SuperOffice.CRM.Web.UI.Filters.SiteUrlFilter
+  - SuperOffice.CRM.Web.UI.Filters.TimeZoneFilter
+  - SuperOffice.CRM.Web.UI.Filters.UserCommandMenuFilter
+  - SuperOffice.CRM.Web.UI.Filters.UserPreferenceFilter
+  - SuperOffice.DCF.Web.UI.Filters.CrippleFilter
+  - SuperOffice.DCF.Web.UI.Filters.MergeFilter
+  - SuperOffice.DCF.Web.UI.Filters.ParameterFilter
+  - SuperOffice.DCF.Web.UI.Filters.SessionStateFilter
+  - SuperOffice.DCF.Web.UI.Filters.SoCurrentFilter
+  - SuperOffice.DCF.Web.UI.Filters.SoProtocolFilter
+  - SuperOffice.DCF.Web.UI.Filters.UserAgentFilter
+  - SuperOffice.DCF.Web.UI.Filters.WebPanelUserGroupFilter
+  implements:
+  - SuperOffice.DCF.Web.UI.IFilter
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.DCF.Web.UI.FilterBase.Process(System.Xml.XmlDocument)
+  commentId: M:SuperOffice.DCF.Web.UI.FilterBase.Process(System.Xml.XmlDocument)
+  id: Process(System.Xml.XmlDocument)
+  parent: SuperOffice.DCF.Web.UI.FilterBase
+  langs:
+  - csharp
+  - vb
+  name: Process(XmlDocument)
+  nameWithType: FilterBase.Process(XmlDocument)
+  fullName: SuperOffice.DCF.Web.UI.FilterBase.Process(System.Xml.XmlDocument)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public abstract void Process(XmlDocument xml)
+    parameters:
+    - id: xml
+      type: System.Xml.XmlDocument
+    content.vb: Public MustOverride Sub Process(xml As XmlDocument)
+  overload: SuperOffice.DCF.Web.UI.FilterBase.Process*
+  implements:
+  - SuperOffice.DCF.Web.UI.IFilter.Process(System.Xml.XmlDocument)
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: SuperOffice.DCF.Web.UI.FilterBase.HideNode(System.Xml.XmlNode)
+  commentId: M:SuperOffice.DCF.Web.UI.FilterBase.HideNode(System.Xml.XmlNode)
+  id: HideNode(System.Xml.XmlNode)
+  parent: SuperOffice.DCF.Web.UI.FilterBase
+  langs:
+  - csharp
+  - vb
+  name: HideNode(XmlNode)
+  nameWithType: FilterBase.HideNode(XmlNode)
+  fullName: SuperOffice.DCF.Web.UI.FilterBase.HideNode(System.Xml.XmlNode)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: protected void HideNode(XmlNode node)
+    parameters:
+    - id: node
+      type: System.Xml.XmlNode
+    content.vb: Protected Sub HideNode(node As XmlNode)
+  overload: SuperOffice.DCF.Web.UI.FilterBase.HideNode*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.DCF.Web.UI.FilterBase.DisableNode(System.Xml.XmlDocument,System.Xml.XmlNode)
+  commentId: M:SuperOffice.DCF.Web.UI.FilterBase.DisableNode(System.Xml.XmlDocument,System.Xml.XmlNode)
+  id: DisableNode(System.Xml.XmlDocument,System.Xml.XmlNode)
+  parent: SuperOffice.DCF.Web.UI.FilterBase
+  langs:
+  - csharp
+  - vb
+  name: DisableNode(XmlDocument, XmlNode)
+  nameWithType: FilterBase.DisableNode(XmlDocument, XmlNode)
+  fullName: SuperOffice.DCF.Web.UI.FilterBase.DisableNode(System.Xml.XmlDocument, System.Xml.XmlNode)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: protected void DisableNode(XmlDocument xml, XmlNode node)
+    parameters:
+    - id: xml
+      type: System.Xml.XmlDocument
+    - id: node
+      type: System.Xml.XmlNode
+    content.vb: Protected Sub DisableNode(xml As XmlDocument, node As XmlNode)
+  overload: SuperOffice.DCF.Web.UI.FilterBase.DisableNode*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.DCF.Web.UI.FilterBase.EnableNode(System.Xml.XmlDocument,System.Xml.XmlNode)
+  commentId: M:SuperOffice.DCF.Web.UI.FilterBase.EnableNode(System.Xml.XmlDocument,System.Xml.XmlNode)
+  id: EnableNode(System.Xml.XmlDocument,System.Xml.XmlNode)
+  parent: SuperOffice.DCF.Web.UI.FilterBase
+  langs:
+  - csharp
+  - vb
+  name: EnableNode(XmlDocument, XmlNode)
+  nameWithType: FilterBase.EnableNode(XmlDocument, XmlNode)
+  fullName: SuperOffice.DCF.Web.UI.FilterBase.EnableNode(System.Xml.XmlDocument, System.Xml.XmlNode)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: protected void EnableNode(XmlDocument xml, XmlNode node)
+    parameters:
+    - id: xml
+      type: System.Xml.XmlDocument
+    - id: node
+      type: System.Xml.XmlNode
+    content.vb: Protected Sub EnableNode(xml As XmlDocument, node As XmlNode)
+  overload: SuperOffice.DCF.Web.UI.FilterBase.EnableNode*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.DCF.Web.UI.FilterBase.SetReasonTooltip(System.String,System.Xml.XmlNode)
+  commentId: M:SuperOffice.DCF.Web.UI.FilterBase.SetReasonTooltip(System.String,System.Xml.XmlNode)
+  id: SetReasonTooltip(System.String,System.Xml.XmlNode)
+  parent: SuperOffice.DCF.Web.UI.FilterBase
+  langs:
+  - csharp
+  - vb
+  name: SetReasonTooltip(String, XmlNode)
+  nameWithType: FilterBase.SetReasonTooltip(String, XmlNode)
+  fullName: SuperOffice.DCF.Web.UI.FilterBase.SetReasonTooltip(System.String, System.Xml.XmlNode)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: protected static void SetReasonTooltip(string reason, XmlNode mainNode)
+    parameters:
+    - id: reason
+      type: System.String
+    - id: mainNode
+      type: System.Xml.XmlNode
+    content.vb: Protected Shared Sub SetReasonTooltip(reason As String, mainNode As XmlNode)
+  overload: SuperOffice.DCF.Web.UI.FilterBase.SetReasonTooltip*
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.FilterBase.#ctor
+  commentId: M:SuperOffice.DCF.Web.UI.FilterBase.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.UI.FilterBase
+  langs:
+  - csharp
+  - vb
+  name: FilterBase()
+  nameWithType: FilterBase.FilterBase()
+  fullName: SuperOffice.DCF.Web.UI.FilterBase.FilterBase()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: protected FilterBase()
+    content.vb: Protected Sub New
+  overload: SuperOffice.DCF.Web.UI.FilterBase.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.DCF.Web.UI.FilterBase.Phase
+  commentId: P:SuperOffice.DCF.Web.UI.FilterBase.Phase
+  id: Phase
+  parent: SuperOffice.DCF.Web.UI.FilterBase
+  langs:
+  - csharp
+  - vb
+  name: Phase
+  nameWithType: FilterBase.Phase
+  fullName: SuperOffice.DCF.Web.UI.FilterBase.Phase
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public FilterPhase Phase { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.DCF.Web.UI.FilterPhase
+    content.vb: Public Property Phase As FilterPhase
+  overload: SuperOffice.DCF.Web.UI.FilterBase.Phase*
+  implements:
+  - SuperOffice.DCF.Web.UI.IFilter.Phase
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.UI.IFilter
+  commentId: T:SuperOffice.DCF.Web.UI.IFilter
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: IFilter
+  nameWithType: IFilter
+  fullName: SuperOffice.DCF.Web.UI.IFilter
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.FilterBase.Process*
+  commentId: Overload:SuperOffice.DCF.Web.UI.FilterBase.Process
+  isExternal: true
+  name: Process
+  nameWithType: FilterBase.Process
+  fullName: SuperOffice.DCF.Web.UI.FilterBase.Process
+- uid: SuperOffice.DCF.Web.UI.IFilter.Process(System.Xml.XmlDocument)
+  commentId: M:SuperOffice.DCF.Web.UI.IFilter.Process(System.Xml.XmlDocument)
+  parent: SuperOffice.DCF.Web.UI.IFilter
+  isExternal: true
+  name: Process(XmlDocument)
+  nameWithType: IFilter.Process(XmlDocument)
+  fullName: SuperOffice.DCF.Web.UI.IFilter.Process(System.Xml.XmlDocument)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.IFilter.Process(System.Xml.XmlDocument)
+    name: Process
+    nameWithType: IFilter.Process
+    fullName: SuperOffice.DCF.Web.UI.IFilter.Process
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlDocument
+    name: XmlDocument
+    nameWithType: XmlDocument
+    fullName: System.Xml.XmlDocument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.IFilter.Process(System.Xml.XmlDocument)
+    name: Process
+    nameWithType: IFilter.Process
+    fullName: SuperOffice.DCF.Web.UI.IFilter.Process
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlDocument
+    name: XmlDocument
+    nameWithType: XmlDocument
+    fullName: System.Xml.XmlDocument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Xml.XmlDocument
+  isExternal: true
+  name: XmlDocument
+  nameWithType: XmlDocument
+  fullName: System.Xml.XmlDocument
+- uid: SuperOffice.DCF.Web.UI.FilterBase.HideNode*
+  commentId: Overload:SuperOffice.DCF.Web.UI.FilterBase.HideNode
+  isExternal: true
+  name: HideNode
+  nameWithType: FilterBase.HideNode
+  fullName: SuperOffice.DCF.Web.UI.FilterBase.HideNode
+- uid: System.Xml.XmlNode
+  isExternal: true
+  name: XmlNode
+  nameWithType: XmlNode
+  fullName: System.Xml.XmlNode
+- uid: SuperOffice.DCF.Web.UI.FilterBase.DisableNode*
+  commentId: Overload:SuperOffice.DCF.Web.UI.FilterBase.DisableNode
+  isExternal: true
+  name: DisableNode
+  nameWithType: FilterBase.DisableNode
+  fullName: SuperOffice.DCF.Web.UI.FilterBase.DisableNode
+- uid: SuperOffice.DCF.Web.UI.FilterBase.EnableNode*
+  commentId: Overload:SuperOffice.DCF.Web.UI.FilterBase.EnableNode
+  isExternal: true
+  name: EnableNode
+  nameWithType: FilterBase.EnableNode
+  fullName: SuperOffice.DCF.Web.UI.FilterBase.EnableNode
+- uid: SuperOffice.DCF.Web.UI.FilterBase.SetReasonTooltip*
+  commentId: Overload:SuperOffice.DCF.Web.UI.FilterBase.SetReasonTooltip
+  isExternal: true
+  name: SetReasonTooltip
+  nameWithType: FilterBase.SetReasonTooltip
+  fullName: SuperOffice.DCF.Web.UI.FilterBase.SetReasonTooltip
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.UI.FilterBase.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.UI.FilterBase.#ctor
+  isExternal: true
+  name: FilterBase
+  nameWithType: FilterBase.FilterBase
+  fullName: SuperOffice.DCF.Web.UI.FilterBase.FilterBase
+- uid: SuperOffice.DCF.Web.UI.FilterBase.Phase*
+  commentId: Overload:SuperOffice.DCF.Web.UI.FilterBase.Phase
+  isExternal: true
+  name: Phase
+  nameWithType: FilterBase.Phase
+  fullName: SuperOffice.DCF.Web.UI.FilterBase.Phase
+- uid: SuperOffice.DCF.Web.UI.IFilter.Phase
+  commentId: P:SuperOffice.DCF.Web.UI.IFilter.Phase
+  parent: SuperOffice.DCF.Web.UI.IFilter
+  isExternal: true
+  name: Phase
+  nameWithType: IFilter.Phase
+  fullName: SuperOffice.DCF.Web.UI.IFilter.Phase
+- uid: SuperOffice.DCF.Web.UI.FilterPhase
+  commentId: T:SuperOffice.DCF.Web.UI.FilterPhase
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: FilterPhase
+  nameWithType: FilterPhase
+  fullName: SuperOffice.DCF.Web.UI.FilterPhase

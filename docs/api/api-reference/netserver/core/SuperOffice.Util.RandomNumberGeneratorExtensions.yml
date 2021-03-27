@@ -1,0 +1,487 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.RandomNumberGeneratorExtensions
+  commentId: T:SuperOffice.Util.RandomNumberGeneratorExtensions
+  id: RandomNumberGeneratorExtensions
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator)
+  - SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
+  - SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator,System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: RandomNumberGeneratorExtensions
+  nameWithType: RandomNumberGeneratorExtensions
+  fullName: SuperOffice.Util.RandomNumberGeneratorExtensions
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static class RandomNumberGeneratorExtensions
+    content.vb: Public Module RandomNumberGeneratorExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator)
+  commentId: M:SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator)
+  id: Next(System.Security.Cryptography.RandomNumberGenerator)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.RandomNumberGeneratorExtensions
+  langs:
+  - csharp
+  - vb
+  name: Next(RandomNumberGenerator)
+  nameWithType: RandomNumberGeneratorExtensions.Next(RandomNumberGenerator)
+  fullName: SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nReturns a non-negative random integer.\n"
+  syntax:
+    content: public static int Next(this RandomNumberGenerator rnd)
+    parameters:
+    - id: rnd
+      type: System.Security.Cryptography.RandomNumberGenerator
+    return:
+      type: System.Int32
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Next(rnd As RandomNumberGenerator) As Integer
+  overload: SuperOffice.Util.RandomNumberGeneratorExtensions.Next*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
+  commentId: M:SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
+  id: Next(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.RandomNumberGeneratorExtensions
+  langs:
+  - csharp
+  - vb
+  name: Next(RandomNumberGenerator, Int32)
+  nameWithType: RandomNumberGeneratorExtensions.Next(RandomNumberGenerator, Int32)
+  fullName: SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator, System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nReturns a non-negative random integer that is less than the specified maximum.\n"
+  syntax:
+    content: public static int Next(this RandomNumberGenerator rnd, int maxValue)
+    parameters:
+    - id: rnd
+      type: System.Security.Cryptography.RandomNumberGenerator
+    - id: maxValue
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Next(rnd As RandomNumberGenerator, maxValue As Integer) As Integer
+  overload: SuperOffice.Util.RandomNumberGeneratorExtensions.Next*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator,System.Int32,System.Int32)
+  commentId: M:SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator,System.Int32,System.Int32)
+  id: Next(System.Security.Cryptography.RandomNumberGenerator,System.Int32,System.Int32)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.RandomNumberGeneratorExtensions
+  langs:
+  - csharp
+  - vb
+  name: Next(RandomNumberGenerator, Int32, Int32)
+  nameWithType: RandomNumberGeneratorExtensions.Next(RandomNumberGenerator, Int32, Int32)
+  fullName: SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nReturns a random integer that is within a specified range.\n"
+  syntax:
+    content: public static int Next(this RandomNumberGenerator rnd, int minValue, int maxValue)
+    parameters:
+    - id: rnd
+      type: System.Security.Cryptography.RandomNumberGenerator
+    - id: minValue
+      type: System.Int32
+      description: The inclusive lower bound of the random number returned.
+    - id: maxValue
+      type: System.Int32
+      description: The exclusive upper bound of the random number returned. maxValue must be greater than or equal to minValue.
+    return:
+      type: System.Int32
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Next(rnd As RandomNumberGenerator, minValue As Integer, maxValue As Integer) As Integer
+  overload: SuperOffice.Util.RandomNumberGeneratorExtensions.Next*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Util.RandomNumberGeneratorExtensions.Next*
+  commentId: Overload:SuperOffice.Util.RandomNumberGeneratorExtensions.Next
+  isExternal: true
+  name: Next
+  nameWithType: RandomNumberGeneratorExtensions.Next
+  fullName: SuperOffice.Util.RandomNumberGeneratorExtensions.Next
+- uid: System.Security.Cryptography.RandomNumberGenerator
+  commentId: T:System.Security.Cryptography.RandomNumberGenerator
+  parent: System.Security.Cryptography
+  isExternal: true
+  name: RandomNumberGenerator
+  nameWithType: RandomNumberGenerator
+  fullName: System.Security.Cryptography.RandomNumberGenerator
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Security.Cryptography
+  commentId: N:System.Security.Cryptography
+  isExternal: true
+  name: System.Security.Cryptography
+  nameWithType: System.Security.Cryptography
+  fullName: System.Security.Cryptography

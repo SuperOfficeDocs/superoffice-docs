@@ -1,0 +1,1582 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.ParameterBuilder
+  commentId: T:SuperOffice.Util.ParameterBuilder
+  id: ParameterBuilder
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.ParameterBuilder.#ctor
+  - SuperOffice.Util.ParameterBuilder.#ctor(System.String)
+  - SuperOffice.Util.ParameterBuilder.#ctor(System.String,System.String,System.String)
+  - SuperOffice.Util.ParameterBuilder.#ctor(System.String,System.String,System.String,System.String[])
+  - SuperOffice.Util.ParameterBuilder.Add(System.String[])
+  - SuperOffice.Util.ParameterBuilder.AddRange(System.Collections.Generic.IEnumerable{System.String})
+  - SuperOffice.Util.ParameterBuilder.Capacity
+  - SuperOffice.Util.ParameterBuilder.Clear
+  - SuperOffice.Util.ParameterBuilder.Count
+  - SuperOffice.Util.ParameterBuilder.EndDelimiter
+  - SuperOffice.Util.ParameterBuilder.Format(System.String,System.Boolean,System.String[])
+  - SuperOffice.Util.ParameterBuilder.Format(System.String,System.String[])
+  - SuperOffice.Util.ParameterBuilder.FormatObjects(System.String,System.Object[])
+  - SuperOffice.Util.ParameterBuilder.MiddleDelimiter
+  - SuperOffice.Util.ParameterBuilder.StartDelimiter
+  - SuperOffice.Util.ParameterBuilder.ToReverseString
+  - SuperOffice.Util.ParameterBuilder.ToString
+  - SuperOffice.Util.ParameterBuilder.UseDelimitersBetweenEmptyElements
+  - SuperOffice.Util.ParameterBuilder.UseDelimitersIfEmpty
+  langs:
+  - csharp
+  - vb
+  name: ParameterBuilder
+  nameWithType: ParameterBuilder
+  fullName: SuperOffice.Util.ParameterBuilder
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nThis class builds parameter strings of the type [item&amp;item&amp;item], with selectable start, middle and end delimiters\n"
+  remarks: "\nA StringBuilder class is used for improved performance, there should be only one memory allocation \nduring formatting regardless of the number of items. The item collection is a List and has its usual behavior.\n"
+  example:
+  - "\nXmlUtil.ParameterBuilder modebits = new XmlUtil.ParameterBuilder( &quot;[&quot;, &quot;&amp;&quot;, &quot;]&quot; );\nif( ( extApp.ShowState &amp; ShowState.ToolBar ) == ShowState.ToolBar )\nmodebits.Add( &quot;Toolbar=true&quot; );\nif( ( (int)extApp.ShowState &amp; (int)ShowState.MenuBar ) != 0 )\nmodebits.Add( &quot;Menubar=true&quot; );\nif( ( (int)extApp.ShowState &amp; (int)ShowState.AddressBar ) != 0 )\nmodebits.Add( &quot;Adressbar=true&quot; );\nif( ( (int)extApp.ShowState &amp; (int)ShowState.StatusBar ) != 0 )\nmodebits.Add( &quot;Statusbar=true&quot; );\n\n_soProtocolModeBits = modebits.ToString();\n"
+  syntax:
+    content: public class ParameterBuilder
+    content.vb: Public Class ParameterBuilder
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Util.ParameterBuilder.EnumUtil.MapEnums``2
+  - SuperOffice.Util.ParameterBuilder.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.ParameterBuilder)
+  - SuperOffice.Util.ParameterBuilder.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Util.ParameterBuilder.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Util.ParameterBuilder.#ctor
+  commentId: M:SuperOffice.Util.ParameterBuilder.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Util.ParameterBuilder
+  langs:
+  - csharp
+  - vb
+  name: ParameterBuilder()
+  nameWithType: ParameterBuilder.ParameterBuilder()
+  fullName: SuperOffice.Util.ParameterBuilder.ParameterBuilder()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nDefault constructor, makes a builder with all delimiters blank\n"
+  syntax:
+    content: public ParameterBuilder()
+    content.vb: Public Sub New
+  overload: SuperOffice.Util.ParameterBuilder.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ParameterBuilder.#ctor(System.String)
+  commentId: M:SuperOffice.Util.ParameterBuilder.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.Util.ParameterBuilder
+  langs:
+  - csharp
+  - vb
+  name: ParameterBuilder(String)
+  nameWithType: ParameterBuilder.ParameterBuilder(String)
+  fullName: SuperOffice.Util.ParameterBuilder.ParameterBuilder(System.String)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConstructor that sets the middle delimiter, and leaves the start and end delimiters blank\n"
+  syntax:
+    content: public ParameterBuilder(string middleDelimiter)
+    parameters:
+    - id: middleDelimiter
+      type: System.String
+      description: String to be used as the middle delimiter
+    content.vb: Public Sub New(middleDelimiter As String)
+  overload: SuperOffice.Util.ParameterBuilder.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ParameterBuilder.#ctor(System.String,System.String,System.String)
+  commentId: M:SuperOffice.Util.ParameterBuilder.#ctor(System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String)'
+  parent: SuperOffice.Util.ParameterBuilder
+  langs:
+  - csharp
+  - vb
+  name: ParameterBuilder(String, String, String)
+  nameWithType: ParameterBuilder.ParameterBuilder(String, String, String)
+  fullName: SuperOffice.Util.ParameterBuilder.ParameterBuilder(System.String, System.String, System.String)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConstructor that sets all delimiters\n"
+  syntax:
+    content: public ParameterBuilder(string startDelimiter, string middleDelimiter, string endDelimiter)
+    parameters:
+    - id: startDelimiter
+      type: System.String
+      description: String to be used as starting delimiter
+    - id: middleDelimiter
+      type: System.String
+      description: String to be used as middle delimiter
+    - id: endDelimiter
+      type: System.String
+      description: String to be used as end delimiter
+    content.vb: Public Sub New(startDelimiter As String, middleDelimiter As String, endDelimiter As String)
+  overload: SuperOffice.Util.ParameterBuilder.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ParameterBuilder.#ctor(System.String,System.String,System.String,System.String[])
+  commentId: M:SuperOffice.Util.ParameterBuilder.#ctor(System.String,System.String,System.String,System.String[])
+  id: '#ctor(System.String,System.String,System.String,System.String[])'
+  parent: SuperOffice.Util.ParameterBuilder
+  langs:
+  - csharp
+  - vb
+  name: ParameterBuilder(String, String, String, String[])
+  nameWithType: ParameterBuilder.ParameterBuilder(String, String, String, String[])
+  fullName: SuperOffice.Util.ParameterBuilder.ParameterBuilder(System.String, System.String, System.String, System.String[])
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConstructor that sets all delimiters and populates the item collection. You can add more items later as well.\n"
+  syntax:
+    content: public ParameterBuilder(string startDelimiter, string middleDelimiter, string endDelimiter, params string[] items)
+    parameters:
+    - id: startDelimiter
+      type: System.String
+      description: String to be used as starting delimiter
+    - id: middleDelimiter
+      type: System.String
+      description: String to be used as middle delimiter
+    - id: endDelimiter
+      type: System.String
+      description: String to be used as end delimiter
+    - id: items
+      type: System.String[]
+      description: One or more string items that will be put into the item collection. You can add more items later.
+    content.vb: Public Sub New(startDelimiter As String, middleDelimiter As String, endDelimiter As String, ParamArray items As String())
+  overload: SuperOffice.Util.ParameterBuilder.#ctor*
+  nameWithType.vb: ParameterBuilder.ParameterBuilder(String, String, String, String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.ParameterBuilder.ParameterBuilder(System.String, System.String, System.String, System.String())
+  name.vb: ParameterBuilder(String, String, String, String())
+- uid: SuperOffice.Util.ParameterBuilder.Format(System.String,System.String[])
+  commentId: M:SuperOffice.Util.ParameterBuilder.Format(System.String,System.String[])
+  id: Format(System.String,System.String[])
+  parent: SuperOffice.Util.ParameterBuilder
+  langs:
+  - csharp
+  - vb
+  name: Format(String, String[])
+  nameWithType: ParameterBuilder.Format(String, String[])
+  fullName: SuperOffice.Util.ParameterBuilder.Format(System.String, System.String[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nShortcut method that will create a parameterbuilder with the given middle delimiter, add all items to it, and return the\nresulting string\n"
+  syntax:
+    content: public static string Format(string middleDelimiter, params string[] items)
+    parameters:
+    - id: middleDelimiter
+      type: System.String
+      description: Middle delimiter to use
+    - id: items
+      type: System.String[]
+      description: Items to add, can be null or empty
+    return:
+      type: System.String
+      description: Items separated by given delimiter
+    content.vb: Public Shared Function Format(middleDelimiter As String, ParamArray items As String()) As String
+  overload: SuperOffice.Util.ParameterBuilder.Format*
+  nameWithType.vb: ParameterBuilder.Format(String, String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.ParameterBuilder.Format(System.String, System.String())
+  name.vb: Format(String, String())
+- uid: SuperOffice.Util.ParameterBuilder.Format(System.String,System.Boolean,System.String[])
+  commentId: M:SuperOffice.Util.ParameterBuilder.Format(System.String,System.Boolean,System.String[])
+  id: Format(System.String,System.Boolean,System.String[])
+  parent: SuperOffice.Util.ParameterBuilder
+  langs:
+  - csharp
+  - vb
+  name: Format(String, Boolean, String[])
+  nameWithType: ParameterBuilder.Format(String, Boolean, String[])
+  fullName: SuperOffice.Util.ParameterBuilder.Format(System.String, System.Boolean, System.String[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static string Format(string middleDelimiter, bool useDelimitersBetweenEmptyElements, params string[] items)
+    parameters:
+    - id: middleDelimiter
+      type: System.String
+    - id: useDelimitersBetweenEmptyElements
+      type: System.Boolean
+    - id: items
+      type: System.String[]
+    return:
+      type: System.String
+    content.vb: Public Shared Function Format(middleDelimiter As String, useDelimitersBetweenEmptyElements As Boolean, ParamArray items As String()) As String
+  overload: SuperOffice.Util.ParameterBuilder.Format*
+  nameWithType.vb: ParameterBuilder.Format(String, Boolean, String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.ParameterBuilder.Format(System.String, System.Boolean, System.String())
+  name.vb: Format(String, Boolean, String())
+- uid: SuperOffice.Util.ParameterBuilder.FormatObjects(System.String,System.Object[])
+  commentId: M:SuperOffice.Util.ParameterBuilder.FormatObjects(System.String,System.Object[])
+  id: FormatObjects(System.String,System.Object[])
+  parent: SuperOffice.Util.ParameterBuilder
+  langs:
+  - csharp
+  - vb
+  name: FormatObjects(String, Object[])
+  nameWithType: ParameterBuilder.FormatObjects(String, Object[])
+  fullName: SuperOffice.Util.ParameterBuilder.FormatObjects(System.String, System.Object[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nShortcut method that will create a parameterbuilder with the given middle delimiter, add all items to it, and return the\nresulting string\n"
+  syntax:
+    content: public static string FormatObjects(string middleDelimiter, params object[] items)
+    parameters:
+    - id: middleDelimiter
+      type: System.String
+      description: Middle delimiter to use
+    - id: items
+      type: System.Object[]
+      description: Items to add, can be null or empty
+    return:
+      type: System.String
+      description: Items separated by given delimiter
+    content.vb: Public Shared Function FormatObjects(middleDelimiter As String, ParamArray items As Object()) As String
+  overload: SuperOffice.Util.ParameterBuilder.FormatObjects*
+  nameWithType.vb: ParameterBuilder.FormatObjects(String, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.ParameterBuilder.FormatObjects(System.String, System.Object())
+  name.vb: FormatObjects(String, Object())
+- uid: SuperOffice.Util.ParameterBuilder.Add(System.String[])
+  commentId: M:SuperOffice.Util.ParameterBuilder.Add(System.String[])
+  id: Add(System.String[])
+  parent: SuperOffice.Util.ParameterBuilder
+  langs:
+  - csharp
+  - vb
+  name: Add(String[])
+  nameWithType: ParameterBuilder.Add(String[])
+  fullName: SuperOffice.Util.ParameterBuilder.Add(System.String[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nAdd one or more items to the end of the item collection\n"
+  syntax:
+    content: public void Add(params string[] items)
+    parameters:
+    - id: items
+      type: System.String[]
+    content.vb: Public Sub Add(ParamArray items As String())
+  overload: SuperOffice.Util.ParameterBuilder.Add*
+  nameWithType.vb: ParameterBuilder.Add(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.ParameterBuilder.Add(System.String())
+  name.vb: Add(String())
+- uid: SuperOffice.Util.ParameterBuilder.AddRange(System.Collections.Generic.IEnumerable{System.String})
+  commentId: M:SuperOffice.Util.ParameterBuilder.AddRange(System.Collections.Generic.IEnumerable{System.String})
+  id: AddRange(System.Collections.Generic.IEnumerable{System.String})
+  parent: SuperOffice.Util.ParameterBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddRange(IEnumerable<String>)
+  nameWithType: ParameterBuilder.AddRange(IEnumerable<String>)
+  fullName: SuperOffice.Util.ParameterBuilder.AddRange(System.Collections.Generic.IEnumerable<System.String>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nAdd one or more items to the end of the item collection\n"
+  syntax:
+    content: public void AddRange(IEnumerable<string> items)
+    parameters:
+    - id: items
+      type: System.Collections.Generic.IEnumerable{System.String}
+    content.vb: Public Sub AddRange(items As IEnumerable(Of String))
+  overload: SuperOffice.Util.ParameterBuilder.AddRange*
+  nameWithType.vb: ParameterBuilder.AddRange(IEnumerable(Of String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.ParameterBuilder.AddRange(System.Collections.Generic.IEnumerable(Of System.String))
+  name.vb: AddRange(IEnumerable(Of String))
+- uid: SuperOffice.Util.ParameterBuilder.Clear
+  commentId: M:SuperOffice.Util.ParameterBuilder.Clear
+  id: Clear
+  parent: SuperOffice.Util.ParameterBuilder
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: ParameterBuilder.Clear()
+  fullName: SuperOffice.Util.ParameterBuilder.Clear()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nClear all data, but keep all settings\n"
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear
+  overload: SuperOffice.Util.ParameterBuilder.Clear*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ParameterBuilder.ToString
+  commentId: M:SuperOffice.Util.ParameterBuilder.ToString
+  id: ToString
+  parent: SuperOffice.Util.ParameterBuilder
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ParameterBuilder.ToString()
+  fullName: SuperOffice.Util.ParameterBuilder.ToString()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nCombine all items and delimiters to produce the final result\n"
+  remarks: "\nA StringBuilder class is used for improved performance, there should be only one memory allocation regardless of the number of items.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: Formatted results, which is never null but may be string.Empty if there are no items and no delimiters
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.Util.ParameterBuilder.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Util.ParameterBuilder.ToReverseString
+  commentId: M:SuperOffice.Util.ParameterBuilder.ToReverseString
+  id: ToReverseString
+  parent: SuperOffice.Util.ParameterBuilder
+  langs:
+  - csharp
+  - vb
+  name: ToReverseString()
+  nameWithType: ParameterBuilder.ToReverseString()
+  fullName: SuperOffice.Util.ParameterBuilder.ToReverseString()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nCombine all items and delimiters to produce the final result - but iterate in reverse over the items\n"
+  remarks: "\nA StringBuilder class is used for improved performance, there should be only one memory allocation regardless of the number of items.\n"
+  syntax:
+    content: public string ToReverseString()
+    return:
+      type: System.String
+      description: Formatted results, which is never null but may be string.Empty if there are no items and no delimiters
+    content.vb: Public Function ToReverseString As String
+  overload: SuperOffice.Util.ParameterBuilder.ToReverseString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ParameterBuilder.StartDelimiter
+  commentId: P:SuperOffice.Util.ParameterBuilder.StartDelimiter
+  id: StartDelimiter
+  parent: SuperOffice.Util.ParameterBuilder
+  langs:
+  - csharp
+  - vb
+  name: StartDelimiter
+  nameWithType: ParameterBuilder.StartDelimiter
+  fullName: SuperOffice.Util.ParameterBuilder.StartDelimiter
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nStarting delimiter, will be at the beginning of the resulting string. Can be empty.\n"
+  syntax:
+    content: public string StartDelimiter { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StartDelimiter As String
+  overload: SuperOffice.Util.ParameterBuilder.StartDelimiter*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ParameterBuilder.EndDelimiter
+  commentId: P:SuperOffice.Util.ParameterBuilder.EndDelimiter
+  id: EndDelimiter
+  parent: SuperOffice.Util.ParameterBuilder
+  langs:
+  - csharp
+  - vb
+  name: EndDelimiter
+  nameWithType: ParameterBuilder.EndDelimiter
+  fullName: SuperOffice.Util.ParameterBuilder.EndDelimiter
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nEnd delimiter, will be at the end of the resulting string. Can be empty.\n"
+  syntax:
+    content: public string EndDelimiter { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EndDelimiter As String
+  overload: SuperOffice.Util.ParameterBuilder.EndDelimiter*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ParameterBuilder.MiddleDelimiter
+  commentId: P:SuperOffice.Util.ParameterBuilder.MiddleDelimiter
+  id: MiddleDelimiter
+  parent: SuperOffice.Util.ParameterBuilder
+  langs:
+  - csharp
+  - vb
+  name: MiddleDelimiter
+  nameWithType: ParameterBuilder.MiddleDelimiter
+  fullName: SuperOffice.Util.ParameterBuilder.MiddleDelimiter
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nMiddle delimiter, will be between items if there is more than one item. Can be empty.\n"
+  syntax:
+    content: public string MiddleDelimiter { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MiddleDelimiter As String
+  overload: SuperOffice.Util.ParameterBuilder.MiddleDelimiter*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ParameterBuilder.UseDelimitersIfEmpty
+  commentId: P:SuperOffice.Util.ParameterBuilder.UseDelimitersIfEmpty
+  id: UseDelimitersIfEmpty
+  parent: SuperOffice.Util.ParameterBuilder
+  langs:
+  - csharp
+  - vb
+  name: UseDelimitersIfEmpty
+  nameWithType: ParameterBuilder.UseDelimitersIfEmpty
+  fullName: SuperOffice.Util.ParameterBuilder.UseDelimitersIfEmpty
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nShould the start and end delimiters be in the output string, even if there are no items. Default false.\n"
+  syntax:
+    content: public bool UseDelimitersIfEmpty { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UseDelimitersIfEmpty As Boolean
+  overload: SuperOffice.Util.ParameterBuilder.UseDelimitersIfEmpty*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ParameterBuilder.UseDelimitersBetweenEmptyElements
+  commentId: P:SuperOffice.Util.ParameterBuilder.UseDelimitersBetweenEmptyElements
+  id: UseDelimitersBetweenEmptyElements
+  parent: SuperOffice.Util.ParameterBuilder
+  langs:
+  - csharp
+  - vb
+  name: UseDelimitersBetweenEmptyElements
+  nameWithType: ParameterBuilder.UseDelimitersBetweenEmptyElements
+  fullName: SuperOffice.Util.ParameterBuilder.UseDelimitersBetweenEmptyElements
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\n\n"
+  syntax:
+    content: public bool UseDelimitersBetweenEmptyElements { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UseDelimitersBetweenEmptyElements As Boolean
+  overload: SuperOffice.Util.ParameterBuilder.UseDelimitersBetweenEmptyElements*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ParameterBuilder.Count
+  commentId: P:SuperOffice.Util.ParameterBuilder.Count
+  id: Count
+  parent: SuperOffice.Util.ParameterBuilder
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: ParameterBuilder.Count
+  fullName: SuperOffice.Util.ParameterBuilder.Count
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nGet the number of items (excluding delimiters, but including empty items) currently in the items collection\n"
+  syntax:
+    content: public int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Count As Integer
+  overload: SuperOffice.Util.ParameterBuilder.Count*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Util.ParameterBuilder.Capacity
+  commentId: P:SuperOffice.Util.ParameterBuilder.Capacity
+  id: Capacity
+  parent: SuperOffice.Util.ParameterBuilder
+  langs:
+  - csharp
+  - vb
+  name: Capacity
+  nameWithType: ParameterBuilder.Capacity
+  fullName: SuperOffice.Util.ParameterBuilder.Capacity
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nGet or set the capacity of the items collection. Use this if you know in advance (or during use) how many items\nyou need to set; this will make the Add operation an O(1) task instead of O(n). Note that the default behaviour\nis to allocate 10 items at a time, which is usually good enough\n"
+  syntax:
+    content: public int Capacity { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Capacity As Integer
+  overload: SuperOffice.Util.ParameterBuilder.Capacity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ParameterBuilder.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ParameterBuilder, To>()
+  nameWithType: EnumUtil.MapEnums<ParameterBuilder, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.ParameterBuilder, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ParameterBuilder, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.ParameterBuilder, To)()
+  name.vb: MapEnums(Of ParameterBuilder, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ParameterBuilder, To>
+    nameWithType: EnumUtil.MapEnums<ParameterBuilder, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.ParameterBuilder, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ParameterBuilder, To)
+    nameWithType: EnumUtil.MapEnums(Of ParameterBuilder, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.ParameterBuilder, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ParameterBuilder.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.ParameterBuilder)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ParameterBuilder>(ParameterBuilder)
+  nameWithType: ObjectExtensions.AssignByReflection<ParameterBuilder>(ParameterBuilder)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.ParameterBuilder>(SuperOffice.Util.ParameterBuilder)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ParameterBuilder)(ParameterBuilder)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.ParameterBuilder)(SuperOffice.Util.ParameterBuilder)
+  name.vb: AssignByReflection(Of ParameterBuilder)(ParameterBuilder)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ParameterBuilder>
+    nameWithType: ObjectExtensions.AssignByReflection<ParameterBuilder>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.ParameterBuilder>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Util.ParameterBuilder
+    name: ParameterBuilder
+    nameWithType: ParameterBuilder
+    fullName: SuperOffice.Util.ParameterBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ParameterBuilder)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ParameterBuilder)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.ParameterBuilder)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Util.ParameterBuilder
+    name: ParameterBuilder
+    nameWithType: ParameterBuilder
+    fullName: SuperOffice.Util.ParameterBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ParameterBuilder.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ParameterBuilder>()
+  nameWithType: ObjectExtensions.GraphCopy<ParameterBuilder>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.ParameterBuilder>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ParameterBuilder)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.ParameterBuilder)()
+  name.vb: GraphCopy(Of ParameterBuilder)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ParameterBuilder>
+    nameWithType: ObjectExtensions.GraphCopy<ParameterBuilder>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.ParameterBuilder>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ParameterBuilder)
+    nameWithType: ObjectExtensions.GraphCopy(Of ParameterBuilder)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.ParameterBuilder)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ParameterBuilder.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ParameterBuilder, To>()
+  nameWithType: Converters.MapEnums<ParameterBuilder, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.ParameterBuilder, To>()
+  nameWithType.vb: Converters.MapEnums(Of ParameterBuilder, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.ParameterBuilder, To)()
+  name.vb: MapEnums(Of ParameterBuilder, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ParameterBuilder, To>
+    nameWithType: Converters.MapEnums<ParameterBuilder, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.ParameterBuilder, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ParameterBuilder, To)
+    nameWithType: Converters.MapEnums(Of ParameterBuilder, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.ParameterBuilder, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Util.ParameterBuilder.#ctor*
+  commentId: Overload:SuperOffice.Util.ParameterBuilder.#ctor
+  isExternal: true
+  name: ParameterBuilder
+  nameWithType: ParameterBuilder.ParameterBuilder
+  fullName: SuperOffice.Util.ParameterBuilder.ParameterBuilder
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Util.ParameterBuilder.Format*
+  commentId: Overload:SuperOffice.Util.ParameterBuilder.Format
+  isExternal: true
+  name: Format
+  nameWithType: ParameterBuilder.Format
+  fullName: SuperOffice.Util.ParameterBuilder.Format
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Util.ParameterBuilder.FormatObjects*
+  commentId: Overload:SuperOffice.Util.ParameterBuilder.FormatObjects
+  isExternal: true
+  name: FormatObjects
+  nameWithType: ParameterBuilder.FormatObjects
+  fullName: SuperOffice.Util.ParameterBuilder.FormatObjects
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Util.ParameterBuilder.Add*
+  commentId: Overload:SuperOffice.Util.ParameterBuilder.Add
+  isExternal: true
+  name: Add
+  nameWithType: ParameterBuilder.Add
+  fullName: SuperOffice.Util.ParameterBuilder.Add
+- uid: SuperOffice.Util.ParameterBuilder.AddRange*
+  commentId: Overload:SuperOffice.Util.ParameterBuilder.AddRange
+  isExternal: true
+  name: AddRange
+  nameWithType: ParameterBuilder.AddRange
+  fullName: SuperOffice.Util.ParameterBuilder.AddRange
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<String>
+  nameWithType: IEnumerable<String>
+  fullName: System.Collections.Generic.IEnumerable<System.String>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Util.ParameterBuilder.Clear*
+  commentId: Overload:SuperOffice.Util.ParameterBuilder.Clear
+  isExternal: true
+  name: Clear
+  nameWithType: ParameterBuilder.Clear
+  fullName: SuperOffice.Util.ParameterBuilder.Clear
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ParameterBuilder.ToString*
+  commentId: Overload:SuperOffice.Util.ParameterBuilder.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ParameterBuilder.ToString
+  fullName: SuperOffice.Util.ParameterBuilder.ToString
+- uid: SuperOffice.Util.ParameterBuilder.ToReverseString*
+  commentId: Overload:SuperOffice.Util.ParameterBuilder.ToReverseString
+  isExternal: true
+  name: ToReverseString
+  nameWithType: ParameterBuilder.ToReverseString
+  fullName: SuperOffice.Util.ParameterBuilder.ToReverseString
+- uid: SuperOffice.Util.ParameterBuilder.StartDelimiter*
+  commentId: Overload:SuperOffice.Util.ParameterBuilder.StartDelimiter
+  isExternal: true
+  name: StartDelimiter
+  nameWithType: ParameterBuilder.StartDelimiter
+  fullName: SuperOffice.Util.ParameterBuilder.StartDelimiter
+- uid: SuperOffice.Util.ParameterBuilder.EndDelimiter*
+  commentId: Overload:SuperOffice.Util.ParameterBuilder.EndDelimiter
+  isExternal: true
+  name: EndDelimiter
+  nameWithType: ParameterBuilder.EndDelimiter
+  fullName: SuperOffice.Util.ParameterBuilder.EndDelimiter
+- uid: SuperOffice.Util.ParameterBuilder.MiddleDelimiter*
+  commentId: Overload:SuperOffice.Util.ParameterBuilder.MiddleDelimiter
+  isExternal: true
+  name: MiddleDelimiter
+  nameWithType: ParameterBuilder.MiddleDelimiter
+  fullName: SuperOffice.Util.ParameterBuilder.MiddleDelimiter
+- uid: SuperOffice.Util.ParameterBuilder.UseDelimitersIfEmpty*
+  commentId: Overload:SuperOffice.Util.ParameterBuilder.UseDelimitersIfEmpty
+  isExternal: true
+  name: UseDelimitersIfEmpty
+  nameWithType: ParameterBuilder.UseDelimitersIfEmpty
+  fullName: SuperOffice.Util.ParameterBuilder.UseDelimitersIfEmpty
+- uid: SuperOffice.Util.ParameterBuilder.UseDelimitersBetweenEmptyElements*
+  commentId: Overload:SuperOffice.Util.ParameterBuilder.UseDelimitersBetweenEmptyElements
+  isExternal: true
+  name: UseDelimitersBetweenEmptyElements
+  nameWithType: ParameterBuilder.UseDelimitersBetweenEmptyElements
+  fullName: SuperOffice.Util.ParameterBuilder.UseDelimitersBetweenEmptyElements
+- uid: SuperOffice.Util.ParameterBuilder.Count*
+  commentId: Overload:SuperOffice.Util.ParameterBuilder.Count
+  isExternal: true
+  name: Count
+  nameWithType: ParameterBuilder.Count
+  fullName: SuperOffice.Util.ParameterBuilder.Count
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Util.ParameterBuilder.Capacity*
+  commentId: Overload:SuperOffice.Util.ParameterBuilder.Capacity
+  isExternal: true
+  name: Capacity
+  nameWithType: ParameterBuilder.Capacity
+  fullName: SuperOffice.Util.ParameterBuilder.Capacity

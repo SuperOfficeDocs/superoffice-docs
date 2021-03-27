@@ -1,0 +1,1104 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ExtAppEntity
+  commentId: T:SuperOffice.CRM.Services.ExtAppEntity
+  id: ExtAppEntity
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ExtAppEntity.#ctor
+  - SuperOffice.CRM.Services.ExtAppEntity.Deleted
+  - SuperOffice.CRM.Services.ExtAppEntity.ExecuteOnEvent
+  - SuperOffice.CRM.Services.ExtAppEntity.ExtAppId
+  - SuperOffice.CRM.Services.ExtAppEntity.Filename
+  - SuperOffice.CRM.Services.ExtAppEntity.Icon
+  - SuperOffice.CRM.Services.ExtAppEntity.Name
+  - SuperOffice.CRM.Services.ExtAppEntity.OnCentral
+  - SuperOffice.CRM.Services.ExtAppEntity.OnSalesMarketingPocket
+  - SuperOffice.CRM.Services.ExtAppEntity.OnSatellite
+  - SuperOffice.CRM.Services.ExtAppEntity.OnTravel
+  - SuperOffice.CRM.Services.ExtAppEntity.Parameters
+  - SuperOffice.CRM.Services.ExtAppEntity.Path
+  - SuperOffice.CRM.Services.ExtAppEntity.Rank
+  - SuperOffice.CRM.Services.ExtAppEntity.ShowInAddressBar
+  - SuperOffice.CRM.Services.ExtAppEntity.ShowInMenuBar
+  - SuperOffice.CRM.Services.ExtAppEntity.ShowInStatusBar
+  - SuperOffice.CRM.Services.ExtAppEntity.ShowInToolBar
+  - SuperOffice.CRM.Services.ExtAppEntity.ShowState
+  - SuperOffice.CRM.Services.ExtAppEntity.Tooltip
+  - SuperOffice.CRM.Services.ExtAppEntity.ToString
+  - SuperOffice.CRM.Services.ExtAppEntity.ToString(System.String)
+  - SuperOffice.CRM.Services.ExtAppEntity.VisibleIn
+  - SuperOffice.CRM.Services.ExtAppEntity.WaitToFinish
+  - SuperOffice.CRM.Services.ExtAppEntity.Workdir
+  langs:
+  - csharp
+  - vb
+  name: ExtAppEntity
+  nameWithType: ExtAppEntity
+  fullName: SuperOffice.CRM.Services.ExtAppEntity
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe ext app entity contains information on an external application\n<p></p>\nCarrier object for ExtAppEntity.\nServices for the ExtAppEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IListAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet ExtAppEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ListAgent();\n    var extAppEntity = agent.GetExtAppEntity( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class ExtAppEntity : Carrier'
+    content.vb: >-
+      Public Class ExtAppEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ListAgent
+    commentId: T:SuperOffice.CRM.Services.ListAgent
+  - linkId: SuperOffice.CRM.Services.IListAgent
+    commentId: T:SuperOffice.CRM.Services.IListAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ExtAppEntity.#ctor
+  commentId: M:SuperOffice.CRM.Services.ExtAppEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ExtAppEntity
+  langs:
+  - csharp
+  - vb
+  name: ExtAppEntity()
+  nameWithType: ExtAppEntity.ExtAppEntity()
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.ExtAppEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ExtAppEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ExtAppEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ExtAppEntity.ToString
+  commentId: M:SuperOffice.CRM.Services.ExtAppEntity.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ExtAppEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ExtAppEntity.ToString()
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.ExtAppEntity.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ExtAppEntity.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ExtAppEntity.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ExtAppEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ExtAppEntity.ToString(String)
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ExtAppEntity.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ExtAppEntity.ExtAppId
+  commentId: P:SuperOffice.CRM.Services.ExtAppEntity.ExtAppId
+  id: ExtAppId
+  parent: SuperOffice.CRM.Services.ExtAppEntity
+  langs:
+  - csharp
+  - vb
+  name: ExtAppId
+  nameWithType: ExtAppEntity.ExtAppId
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.ExtAppId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe identity of the external app \n"
+  syntax:
+    content: public virtual int ExtAppId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ExtAppId As Integer
+  overload: SuperOffice.CRM.Services.ExtAppEntity.ExtAppId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ExtAppEntity.Name
+  commentId: P:SuperOffice.CRM.Services.ExtAppEntity.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.ExtAppEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ExtAppEntity.Name
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe name of the web panel \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.ExtAppEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ExtAppEntity.Tooltip
+  commentId: P:SuperOffice.CRM.Services.ExtAppEntity.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Services.ExtAppEntity
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: ExtAppEntity.Tooltip
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe tooltip of the web panel \n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.CRM.Services.ExtAppEntity.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ExtAppEntity.Deleted
+  commentId: P:SuperOffice.CRM.Services.ExtAppEntity.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Services.ExtAppEntity
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: ExtAppEntity.Deleted
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.Deleted
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue if the application is marked as deleted \n"
+  syntax:
+    content: public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.CRM.Services.ExtAppEntity.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ExtAppEntity.Rank
+  commentId: P:SuperOffice.CRM.Services.ExtAppEntity.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Services.ExtAppEntity
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: ExtAppEntity.Rank
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.Rank
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe rank of the application \n"
+  syntax:
+    content: public virtual int Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Rank As Integer
+  overload: SuperOffice.CRM.Services.ExtAppEntity.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ExtAppEntity.Filename
+  commentId: P:SuperOffice.CRM.Services.ExtAppEntity.Filename
+  id: Filename
+  parent: SuperOffice.CRM.Services.ExtAppEntity
+  langs:
+  - csharp
+  - vb
+  name: Filename
+  nameWithType: ExtAppEntity.Filename
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.Filename
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFilename of the programfile \n"
+  syntax:
+    content: public virtual string Filename { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Filename As String
+  overload: SuperOffice.CRM.Services.ExtAppEntity.Filename*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ExtAppEntity.Parameters
+  commentId: P:SuperOffice.CRM.Services.ExtAppEntity.Parameters
+  id: Parameters
+  parent: SuperOffice.CRM.Services.ExtAppEntity
+  langs:
+  - csharp
+  - vb
+  name: Parameters
+  nameWithType: ExtAppEntity.Parameters
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.Parameters
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n&lt;template variable> &lt;other template variable> \n"
+  syntax:
+    content: public virtual string Parameters { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Parameters As String
+  overload: SuperOffice.CRM.Services.ExtAppEntity.Parameters*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ExtAppEntity.Workdir
+  commentId: P:SuperOffice.CRM.Services.ExtAppEntity.Workdir
+  id: Workdir
+  parent: SuperOffice.CRM.Services.ExtAppEntity
+  langs:
+  - csharp
+  - vb
+  name: Workdir
+  nameWithType: ExtAppEntity.Workdir
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.Workdir
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDirectory set to current when loading the application, if different from application&apos;s own \n"
+  syntax:
+    content: public virtual string Workdir { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Workdir As String
+  overload: SuperOffice.CRM.Services.ExtAppEntity.Workdir*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ExtAppEntity.ShowState
+  commentId: P:SuperOffice.CRM.Services.ExtAppEntity.ShowState
+  id: ShowState
+  parent: SuperOffice.CRM.Services.ExtAppEntity
+  langs:
+  - csharp
+  - vb
+  name: ShowState
+  nameWithType: ExtAppEntity.ShowState
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.ShowState
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe application is shown in which state Minimized, Maximized or Restored \n"
+  syntax:
+    content: public virtual ShowState ShowState { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.ShowState
+    content.vb: Public Overridable Property ShowState As ShowState
+  overload: SuperOffice.CRM.Services.ExtAppEntity.ShowState*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ExtAppEntity.VisibleIn
+  commentId: P:SuperOffice.CRM.Services.ExtAppEntity.VisibleIn
+  id: VisibleIn
+  parent: SuperOffice.CRM.Services.ExtAppEntity
+  langs:
+  - csharp
+  - vb
+  name: VisibleIn
+  nameWithType: ExtAppEntity.VisibleIn
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.VisibleIn
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe application is visible in \n"
+  syntax:
+    content: public virtual Navigation VisibleIn { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Navigation
+    content.vb: Public Overridable Property VisibleIn As Navigation
+  overload: SuperOffice.CRM.Services.ExtAppEntity.VisibleIn*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ExtAppEntity.OnCentral
+  commentId: P:SuperOffice.CRM.Services.ExtAppEntity.OnCentral
+  id: OnCentral
+  parent: SuperOffice.CRM.Services.ExtAppEntity
+  langs:
+  - csharp
+  - vb
+  name: OnCentral
+  nameWithType: ExtAppEntity.OnCentral
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.OnCentral
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIs the application visible when user is on central database \n"
+  syntax:
+    content: public virtual bool OnCentral { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property OnCentral As Boolean
+  overload: SuperOffice.CRM.Services.ExtAppEntity.OnCentral*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ExtAppEntity.OnSatellite
+  commentId: P:SuperOffice.CRM.Services.ExtAppEntity.OnSatellite
+  id: OnSatellite
+  parent: SuperOffice.CRM.Services.ExtAppEntity
+  langs:
+  - csharp
+  - vb
+  name: OnSatellite
+  nameWithType: ExtAppEntity.OnSatellite
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.OnSatellite
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIs the application visible when user is on a satellite \n"
+  syntax:
+    content: public virtual bool OnSatellite { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property OnSatellite As Boolean
+  overload: SuperOffice.CRM.Services.ExtAppEntity.OnSatellite*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ExtAppEntity.OnTravel
+  commentId: P:SuperOffice.CRM.Services.ExtAppEntity.OnTravel
+  id: OnTravel
+  parent: SuperOffice.CRM.Services.ExtAppEntity
+  langs:
+  - csharp
+  - vb
+  name: OnTravel
+  nameWithType: ExtAppEntity.OnTravel
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.OnTravel
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIs the application visible when user is on travel \n"
+  syntax:
+    content: public virtual bool OnTravel { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property OnTravel As Boolean
+  overload: SuperOffice.CRM.Services.ExtAppEntity.OnTravel*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ExtAppEntity.OnSalesMarketingPocket
+  commentId: P:SuperOffice.CRM.Services.ExtAppEntity.OnSalesMarketingPocket
+  id: OnSalesMarketingPocket
+  parent: SuperOffice.CRM.Services.ExtAppEntity
+  langs:
+  - csharp
+  - vb
+  name: OnSalesMarketingPocket
+  nameWithType: ExtAppEntity.OnSalesMarketingPocket
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.OnSalesMarketingPocket
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIs the webpanel visible when user is on pocket client \n"
+  syntax:
+    content: public virtual bool OnSalesMarketingPocket { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property OnSalesMarketingPocket As Boolean
+  overload: SuperOffice.CRM.Services.ExtAppEntity.OnSalesMarketingPocket*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ExtAppEntity.ShowInMenuBar
+  commentId: P:SuperOffice.CRM.Services.ExtAppEntity.ShowInMenuBar
+  id: ShowInMenuBar
+  parent: SuperOffice.CRM.Services.ExtAppEntity
+  langs:
+  - csharp
+  - vb
+  name: ShowInMenuBar
+  nameWithType: ExtAppEntity.ShowInMenuBar
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.ShowInMenuBar
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDoes the application have a menu bar \n"
+  syntax:
+    content: public virtual bool ShowInMenuBar { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property ShowInMenuBar As Boolean
+  overload: SuperOffice.CRM.Services.ExtAppEntity.ShowInMenuBar*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ExtAppEntity.ShowInToolBar
+  commentId: P:SuperOffice.CRM.Services.ExtAppEntity.ShowInToolBar
+  id: ShowInToolBar
+  parent: SuperOffice.CRM.Services.ExtAppEntity
+  langs:
+  - csharp
+  - vb
+  name: ShowInToolBar
+  nameWithType: ExtAppEntity.ShowInToolBar
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.ShowInToolBar
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDoes the webpanel have a toolbar \n"
+  syntax:
+    content: public virtual bool ShowInToolBar { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property ShowInToolBar As Boolean
+  overload: SuperOffice.CRM.Services.ExtAppEntity.ShowInToolBar*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ExtAppEntity.ShowInAddressBar
+  commentId: P:SuperOffice.CRM.Services.ExtAppEntity.ShowInAddressBar
+  id: ShowInAddressBar
+  parent: SuperOffice.CRM.Services.ExtAppEntity
+  langs:
+  - csharp
+  - vb
+  name: ShowInAddressBar
+  nameWithType: ExtAppEntity.ShowInAddressBar
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.ShowInAddressBar
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDoes the webpanel have an address bar \n"
+  syntax:
+    content: public virtual bool ShowInAddressBar { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property ShowInAddressBar As Boolean
+  overload: SuperOffice.CRM.Services.ExtAppEntity.ShowInAddressBar*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ExtAppEntity.ShowInStatusBar
+  commentId: P:SuperOffice.CRM.Services.ExtAppEntity.ShowInStatusBar
+  id: ShowInStatusBar
+  parent: SuperOffice.CRM.Services.ExtAppEntity
+  langs:
+  - csharp
+  - vb
+  name: ShowInStatusBar
+  nameWithType: ExtAppEntity.ShowInStatusBar
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.ShowInStatusBar
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDoes the webpanel have a status bar \n"
+  syntax:
+    content: public virtual bool ShowInStatusBar { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property ShowInStatusBar As Boolean
+  overload: SuperOffice.CRM.Services.ExtAppEntity.ShowInStatusBar*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ExtAppEntity.Icon
+  commentId: P:SuperOffice.CRM.Services.ExtAppEntity.Icon
+  id: Icon
+  parent: SuperOffice.CRM.Services.ExtAppEntity
+  langs:
+  - csharp
+  - vb
+  name: Icon
+  nameWithType: ExtAppEntity.Icon
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.Icon
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe id of the icon of the external app \n"
+  syntax:
+    content: public virtual short Icon { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Icon As Short
+  overload: SuperOffice.CRM.Services.ExtAppEntity.Icon*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ExtAppEntity.WaitToFinish
+  commentId: P:SuperOffice.CRM.Services.ExtAppEntity.WaitToFinish
+  id: WaitToFinish
+  parent: SuperOffice.CRM.Services.ExtAppEntity
+  langs:
+  - csharp
+  - vb
+  name: WaitToFinish
+  nameWithType: ExtAppEntity.WaitToFinish
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.WaitToFinish
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue if the application shall wait for fininsh event \n"
+  syntax:
+    content: public virtual bool WaitToFinish { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property WaitToFinish As Boolean
+  overload: SuperOffice.CRM.Services.ExtAppEntity.WaitToFinish*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ExtAppEntity.ExecuteOnEvent
+  commentId: P:SuperOffice.CRM.Services.ExtAppEntity.ExecuteOnEvent
+  id: ExecuteOnEvent
+  parent: SuperOffice.CRM.Services.ExtAppEntity
+  langs:
+  - csharp
+  - vb
+  name: ExecuteOnEvent
+  nameWithType: ExtAppEntity.ExecuteOnEvent
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.ExecuteOnEvent
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEvents that cause automatic execution of this app \n"
+  syntax:
+    content: public virtual ExecuteOnEvent ExecuteOnEvent { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.ExecuteOnEvent
+    content.vb: Public Overridable Property ExecuteOnEvent As ExecuteOnEvent
+  overload: SuperOffice.CRM.Services.ExtAppEntity.ExecuteOnEvent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ExtAppEntity.Path
+  commentId: P:SuperOffice.CRM.Services.ExtAppEntity.Path
+  id: Path
+  parent: SuperOffice.CRM.Services.ExtAppEntity
+  langs:
+  - csharp
+  - vb
+  name: Path
+  nameWithType: ExtAppEntity.Path
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.Path
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPath where the programfile is located; if empty, PATH is used \n"
+  syntax:
+    content: public virtual string Path { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Path As String
+  overload: SuperOffice.CRM.Services.ExtAppEntity.Path*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.ListAgent
+  commentId: T:SuperOffice.CRM.Services.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.CRM.Services.ListAgent
+- uid: SuperOffice.CRM.Services.IListAgent
+  commentId: T:SuperOffice.CRM.Services.IListAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IListAgent
+  nameWithType: IListAgent
+  fullName: SuperOffice.CRM.Services.IListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ExtAppEntity.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ExtAppEntity.#ctor
+  isExternal: true
+  name: ExtAppEntity
+  nameWithType: ExtAppEntity.ExtAppEntity
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.ExtAppEntity
+- uid: SuperOffice.CRM.Services.ExtAppEntity.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ExtAppEntity.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ExtAppEntity.ToString
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ExtAppEntity.ExtAppId*
+  commentId: Overload:SuperOffice.CRM.Services.ExtAppEntity.ExtAppId
+  isExternal: true
+  name: ExtAppId
+  nameWithType: ExtAppEntity.ExtAppId
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.ExtAppId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ExtAppEntity.Name*
+  commentId: Overload:SuperOffice.CRM.Services.ExtAppEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: ExtAppEntity.Name
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.Name
+- uid: SuperOffice.CRM.Services.ExtAppEntity.Tooltip*
+  commentId: Overload:SuperOffice.CRM.Services.ExtAppEntity.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: ExtAppEntity.Tooltip
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.Tooltip
+- uid: SuperOffice.CRM.Services.ExtAppEntity.Deleted*
+  commentId: Overload:SuperOffice.CRM.Services.ExtAppEntity.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: ExtAppEntity.Deleted
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.Deleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.ExtAppEntity.Rank*
+  commentId: Overload:SuperOffice.CRM.Services.ExtAppEntity.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: ExtAppEntity.Rank
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.Rank
+- uid: SuperOffice.CRM.Services.ExtAppEntity.Filename*
+  commentId: Overload:SuperOffice.CRM.Services.ExtAppEntity.Filename
+  isExternal: true
+  name: Filename
+  nameWithType: ExtAppEntity.Filename
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.Filename
+- uid: SuperOffice.CRM.Services.ExtAppEntity.Parameters*
+  commentId: Overload:SuperOffice.CRM.Services.ExtAppEntity.Parameters
+  isExternal: true
+  name: Parameters
+  nameWithType: ExtAppEntity.Parameters
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.Parameters
+- uid: SuperOffice.CRM.Services.ExtAppEntity.Workdir*
+  commentId: Overload:SuperOffice.CRM.Services.ExtAppEntity.Workdir
+  isExternal: true
+  name: Workdir
+  nameWithType: ExtAppEntity.Workdir
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.Workdir
+- uid: SuperOffice.CRM.Services.ExtAppEntity.ShowState*
+  commentId: Overload:SuperOffice.CRM.Services.ExtAppEntity.ShowState
+  isExternal: true
+  name: ShowState
+  nameWithType: ExtAppEntity.ShowState
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.ShowState
+- uid: SuperOffice.Data.ShowState
+  commentId: '!:SuperOffice.Data.ShowState'
+  isExternal: true
+  name: ShowState
+  nameWithType: ShowState
+  fullName: SuperOffice.Data.ShowState
+- uid: SuperOffice.CRM.Services.ExtAppEntity.VisibleIn*
+  commentId: Overload:SuperOffice.CRM.Services.ExtAppEntity.VisibleIn
+  isExternal: true
+  name: VisibleIn
+  nameWithType: ExtAppEntity.VisibleIn
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.VisibleIn
+- uid: SuperOffice.Data.Navigation
+  isExternal: true
+  name: Navigation
+  nameWithType: Navigation
+  fullName: SuperOffice.Data.Navigation
+- uid: SuperOffice.CRM.Services.ExtAppEntity.OnCentral*
+  commentId: Overload:SuperOffice.CRM.Services.ExtAppEntity.OnCentral
+  isExternal: true
+  name: OnCentral
+  nameWithType: ExtAppEntity.OnCentral
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.OnCentral
+- uid: SuperOffice.CRM.Services.ExtAppEntity.OnSatellite*
+  commentId: Overload:SuperOffice.CRM.Services.ExtAppEntity.OnSatellite
+  isExternal: true
+  name: OnSatellite
+  nameWithType: ExtAppEntity.OnSatellite
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.OnSatellite
+- uid: SuperOffice.CRM.Services.ExtAppEntity.OnTravel*
+  commentId: Overload:SuperOffice.CRM.Services.ExtAppEntity.OnTravel
+  isExternal: true
+  name: OnTravel
+  nameWithType: ExtAppEntity.OnTravel
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.OnTravel
+- uid: SuperOffice.CRM.Services.ExtAppEntity.OnSalesMarketingPocket*
+  commentId: Overload:SuperOffice.CRM.Services.ExtAppEntity.OnSalesMarketingPocket
+  isExternal: true
+  name: OnSalesMarketingPocket
+  nameWithType: ExtAppEntity.OnSalesMarketingPocket
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.OnSalesMarketingPocket
+- uid: SuperOffice.CRM.Services.ExtAppEntity.ShowInMenuBar*
+  commentId: Overload:SuperOffice.CRM.Services.ExtAppEntity.ShowInMenuBar
+  isExternal: true
+  name: ShowInMenuBar
+  nameWithType: ExtAppEntity.ShowInMenuBar
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.ShowInMenuBar
+- uid: SuperOffice.CRM.Services.ExtAppEntity.ShowInToolBar*
+  commentId: Overload:SuperOffice.CRM.Services.ExtAppEntity.ShowInToolBar
+  isExternal: true
+  name: ShowInToolBar
+  nameWithType: ExtAppEntity.ShowInToolBar
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.ShowInToolBar
+- uid: SuperOffice.CRM.Services.ExtAppEntity.ShowInAddressBar*
+  commentId: Overload:SuperOffice.CRM.Services.ExtAppEntity.ShowInAddressBar
+  isExternal: true
+  name: ShowInAddressBar
+  nameWithType: ExtAppEntity.ShowInAddressBar
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.ShowInAddressBar
+- uid: SuperOffice.CRM.Services.ExtAppEntity.ShowInStatusBar*
+  commentId: Overload:SuperOffice.CRM.Services.ExtAppEntity.ShowInStatusBar
+  isExternal: true
+  name: ShowInStatusBar
+  nameWithType: ExtAppEntity.ShowInStatusBar
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.ShowInStatusBar
+- uid: SuperOffice.CRM.Services.ExtAppEntity.Icon*
+  commentId: Overload:SuperOffice.CRM.Services.ExtAppEntity.Icon
+  isExternal: true
+  name: Icon
+  nameWithType: ExtAppEntity.Icon
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.Icon
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Services.ExtAppEntity.WaitToFinish*
+  commentId: Overload:SuperOffice.CRM.Services.ExtAppEntity.WaitToFinish
+  isExternal: true
+  name: WaitToFinish
+  nameWithType: ExtAppEntity.WaitToFinish
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.WaitToFinish
+- uid: SuperOffice.CRM.Services.ExtAppEntity.ExecuteOnEvent*
+  commentId: Overload:SuperOffice.CRM.Services.ExtAppEntity.ExecuteOnEvent
+  isExternal: true
+  name: ExecuteOnEvent
+  nameWithType: ExtAppEntity.ExecuteOnEvent
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.ExecuteOnEvent
+- uid: SuperOffice.Data.ExecuteOnEvent
+  commentId: '!:SuperOffice.Data.ExecuteOnEvent'
+  isExternal: true
+  name: ExecuteOnEvent
+  nameWithType: ExecuteOnEvent
+  fullName: SuperOffice.Data.ExecuteOnEvent
+- uid: SuperOffice.CRM.Services.ExtAppEntity.Path*
+  commentId: Overload:SuperOffice.CRM.Services.ExtAppEntity.Path
+  isExternal: true
+  name: Path
+  nameWithType: ExtAppEntity.Path
+  fullName: SuperOffice.CRM.Services.ExtAppEntity.Path

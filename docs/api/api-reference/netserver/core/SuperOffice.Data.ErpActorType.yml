@@ -1,0 +1,627 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.ErpActorType
+  commentId: T:SuperOffice.Data.ErpActorType
+  id: ErpActorType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.ErpActorType.Customer
+  - SuperOffice.Data.ErpActorType.Employee
+  - SuperOffice.Data.ErpActorType.Partner
+  - SuperOffice.Data.ErpActorType.Person
+  - SuperOffice.Data.ErpActorType.Project
+  - SuperOffice.Data.ErpActorType.Sale
+  - SuperOffice.Data.ErpActorType.Supplier
+  - SuperOffice.Data.ErpActorType.Unknown
+  langs:
+  - csharp
+  - vb
+  name: ErpActorType
+  nameWithType: ErpActorType
+  fullName: SuperOffice.Data.ErpActorType
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nActor type within the ERP system, related but not identitcal to SuperOffice Entity type\nThis Enum is used by:  ErpConnectionActorType.ActorTypeErp; ErpExternalKey.ActorType\n"
+  syntax:
+    content: 'public enum ErpActorType : short'
+    content.vb: Public Enum ErpActorType As Short
+  extensionMethods:
+  - SuperOffice.Data.ErpActorType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.ErpActorType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ErpActorType)
+  - SuperOffice.Data.ErpActorType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.ErpActorType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.ErpActorType.Unknown
+  commentId: F:SuperOffice.Data.ErpActorType.Unknown
+  id: Unknown
+  parent: SuperOffice.Data.ErpActorType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: ErpActorType.Unknown
+  fullName: SuperOffice.Data.ErpActorType.Unknown
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: Unknown - used when initializing\n"
+  syntax:
+    content: Unknown = 0
+    return:
+      type: SuperOffice.Data.ErpActorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ErpActorType.Customer
+  commentId: F:SuperOffice.Data.ErpActorType.Customer
+  id: Customer
+  parent: SuperOffice.Data.ErpActorType
+  langs:
+  - csharp
+  - vb
+  name: Customer
+  nameWithType: ErpActorType.Customer
+  fullName: SuperOffice.Data.ErpActorType.Customer
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Erp Customer\n"
+  syntax:
+    content: Customer = 1
+    return:
+      type: SuperOffice.Data.ErpActorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ErpActorType.Supplier
+  commentId: F:SuperOffice.Data.ErpActorType.Supplier
+  id: Supplier
+  parent: SuperOffice.Data.ErpActorType
+  langs:
+  - csharp
+  - vb
+  name: Supplier
+  nameWithType: ErpActorType.Supplier
+  fullName: SuperOffice.Data.ErpActorType.Supplier
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Supplier or Vendor\n"
+  syntax:
+    content: Supplier = 2
+    return:
+      type: SuperOffice.Data.ErpActorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ErpActorType.Partner
+  commentId: F:SuperOffice.Data.ErpActorType.Partner
+  id: Partner
+  parent: SuperOffice.Data.ErpActorType
+  langs:
+  - csharp
+  - vb
+  name: Partner
+  nameWithType: ErpActorType.Partner
+  fullName: SuperOffice.Data.ErpActorType.Partner
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n3: Both customer and supplier\n"
+  syntax:
+    content: Partner = 3
+    return:
+      type: SuperOffice.Data.ErpActorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ErpActorType.Person
+  commentId: F:SuperOffice.Data.ErpActorType.Person
+  id: Person
+  parent: SuperOffice.Data.ErpActorType
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: ErpActorType.Person
+  fullName: SuperOffice.Data.ErpActorType.Person
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Contact person\n"
+  syntax:
+    content: Person = 4
+    return:
+      type: SuperOffice.Data.ErpActorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ErpActorType.Project
+  commentId: F:SuperOffice.Data.ErpActorType.Project
+  id: Project
+  parent: SuperOffice.Data.ErpActorType
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: ErpActorType.Project
+  fullName: SuperOffice.Data.ErpActorType.Project
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n5: Project\n"
+  syntax:
+    content: Project = 5
+    return:
+      type: SuperOffice.Data.ErpActorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ErpActorType.Employee
+  commentId: F:SuperOffice.Data.ErpActorType.Employee
+  id: Employee
+  parent: SuperOffice.Data.ErpActorType
+  langs:
+  - csharp
+  - vb
+  name: Employee
+  nameWithType: ErpActorType.Employee
+  fullName: SuperOffice.Data.ErpActorType.Employee
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n6: Employee, often mapped to associate\n"
+  syntax:
+    content: Employee = 6
+    return:
+      type: SuperOffice.Data.ErpActorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ErpActorType.Sale
+  commentId: F:SuperOffice.Data.ErpActorType.Sale
+  id: Sale
+  parent: SuperOffice.Data.ErpActorType
+  langs:
+  - csharp
+  - vb
+  name: Sale
+  nameWithType: ErpActorType.Sale
+  fullName: SuperOffice.Data.ErpActorType.Sale
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n7: Sale\n"
+  syntax:
+    content: Sale = 7
+    return:
+      type: SuperOffice.Data.ErpActorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.ErpActorType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ErpActorType, To>()
+  nameWithType: EnumUtil.MapEnums<ErpActorType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ErpActorType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ErpActorType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ErpActorType, To)()
+  name.vb: MapEnums(Of ErpActorType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ErpActorType, To>
+    nameWithType: EnumUtil.MapEnums<ErpActorType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ErpActorType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ErpActorType, To)
+    nameWithType: EnumUtil.MapEnums(Of ErpActorType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ErpActorType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ErpActorType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ErpActorType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ErpActorType>(ErpActorType)
+  nameWithType: ObjectExtensions.AssignByReflection<ErpActorType>(ErpActorType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ErpActorType>(SuperOffice.Data.ErpActorType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ErpActorType)(ErpActorType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ErpActorType)(SuperOffice.Data.ErpActorType)
+  name.vb: AssignByReflection(Of ErpActorType)(ErpActorType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ErpActorType>
+    nameWithType: ObjectExtensions.AssignByReflection<ErpActorType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ErpActorType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.ErpActorType
+    name: ErpActorType
+    nameWithType: ErpActorType
+    fullName: SuperOffice.Data.ErpActorType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ErpActorType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ErpActorType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ErpActorType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.ErpActorType
+    name: ErpActorType
+    nameWithType: ErpActorType
+    fullName: SuperOffice.Data.ErpActorType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ErpActorType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ErpActorType>()
+  nameWithType: ObjectExtensions.GraphCopy<ErpActorType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ErpActorType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ErpActorType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ErpActorType)()
+  name.vb: GraphCopy(Of ErpActorType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ErpActorType>
+    nameWithType: ObjectExtensions.GraphCopy<ErpActorType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ErpActorType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ErpActorType)
+    nameWithType: ObjectExtensions.GraphCopy(Of ErpActorType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ErpActorType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ErpActorType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ErpActorType, To>()
+  nameWithType: Converters.MapEnums<ErpActorType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ErpActorType, To>()
+  nameWithType.vb: Converters.MapEnums(Of ErpActorType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ErpActorType, To)()
+  name.vb: MapEnums(Of ErpActorType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ErpActorType, To>
+    nameWithType: Converters.MapEnums<ErpActorType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ErpActorType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ErpActorType, To)
+    nameWithType: Converters.MapEnums(Of ErpActorType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ErpActorType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.ErpActorType
+  commentId: T:SuperOffice.Data.ErpActorType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ErpActorType
+  nameWithType: ErpActorType
+  fullName: SuperOffice.Data.ErpActorType

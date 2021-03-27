@@ -1,0 +1,1119 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem
+  commentId: T:SuperOffice.CRM.Services.SelectableMDOListItem
+  id: SelectableMDOListItem
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.SelectableMDOListItem.#ctor
+  - SuperOffice.CRM.Services.SelectableMDOListItem.ChildItems
+  - SuperOffice.CRM.Services.SelectableMDOListItem.ColorBlock
+  - SuperOffice.CRM.Services.SelectableMDOListItem.Deleted
+  - SuperOffice.CRM.Services.SelectableMDOListItem.ExtraInfo
+  - SuperOffice.CRM.Services.SelectableMDOListItem.FullName
+  - SuperOffice.CRM.Services.SelectableMDOListItem.GetFlattenedList(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  - SuperOffice.CRM.Services.SelectableMDOListItem.GetFlattenedList(SuperOffice.CRM.Services.SelectableMDOListItem[],System.Boolean)
+  - SuperOffice.CRM.Services.SelectableMDOListItem.GetFlattenedList(System.Collections.Generic.ICollection{SuperOffice.CRM.Services.SelectableMDOListItem})
+  - SuperOffice.CRM.Services.SelectableMDOListItem.Hidden
+  - SuperOffice.CRM.Services.SelectableMDOListItem.IconHint
+  - SuperOffice.CRM.Services.SelectableMDOListItem.Id
+  - SuperOffice.CRM.Services.SelectableMDOListItem.LastChanged
+  - SuperOffice.CRM.Services.SelectableMDOListItem.Name
+  - SuperOffice.CRM.Services.SelectableMDOListItem.Rank
+  - SuperOffice.CRM.Services.SelectableMDOListItem.Selected
+  - SuperOffice.CRM.Services.SelectableMDOListItem.StyleHint
+  - SuperOffice.CRM.Services.SelectableMDOListItem.ToolTip
+  - SuperOffice.CRM.Services.SelectableMDOListItem.ToString
+  - SuperOffice.CRM.Services.SelectableMDOListItem.ToString(System.String)
+  - SuperOffice.CRM.Services.SelectableMDOListItem.Type
+  langs:
+  - csharp
+  - vb
+  name: SelectableMDOListItem
+  nameWithType: SelectableMDOListItem
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for SelectableMDOListItem.\nServices for the SelectableMDOListItem Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IMDOAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class SelectableMDOListItem : Carrier'
+    content.vb: >-
+      Public Class SelectableMDOListItem
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.MDOAgent
+    commentId: T:SuperOffice.CRM.Services.MDOAgent
+  - linkId: SuperOffice.CRM.Services.IMDOAgent
+    commentId: T:SuperOffice.CRM.Services.IMDOAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.GetFlattenedList(SuperOffice.CRM.Services.SelectableMDOListItem[],System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.SelectableMDOListItem.GetFlattenedList(SuperOffice.CRM.Services.SelectableMDOListItem[],System.Boolean)
+  id: GetFlattenedList(SuperOffice.CRM.Services.SelectableMDOListItem[],System.Boolean)
+  parent: SuperOffice.CRM.Services.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: GetFlattenedList(SelectableMDOListItem[], Boolean)
+  nameWithType: SelectableMDOListItem.GetFlattenedList(SelectableMDOListItem[], Boolean)
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.GetFlattenedList(SuperOffice.CRM.Services.SelectableMDOListItem[], System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public static IEnumerable<SelectableMDOListItem> GetFlattenedList(SelectableMDOListItem[] listToFlatten, bool allowChildItemDuplicates)
+    parameters:
+    - id: listToFlatten
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+    - id: allowChildItemDuplicates
+      type: System.Boolean
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Services.SelectableMDOListItem}
+    content.vb: Public Shared Function GetFlattenedList(listToFlatten As SelectableMDOListItem(), allowChildItemDuplicates As Boolean) As IEnumerable(Of SelectableMDOListItem)
+  overload: SuperOffice.CRM.Services.SelectableMDOListItem.GetFlattenedList*
+  nameWithType.vb: SelectableMDOListItem.GetFlattenedList(SelectableMDOListItem(), Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Services.SelectableMDOListItem.GetFlattenedList(SuperOffice.CRM.Services.SelectableMDOListItem(), System.Boolean)
+  name.vb: GetFlattenedList(SelectableMDOListItem(), Boolean)
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.GetFlattenedList(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  commentId: M:SuperOffice.CRM.Services.SelectableMDOListItem.GetFlattenedList(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  id: GetFlattenedList(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  parent: SuperOffice.CRM.Services.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: GetFlattenedList(SelectableMDOListItem[])
+  nameWithType: SelectableMDOListItem.GetFlattenedList(SelectableMDOListItem[])
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.GetFlattenedList(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public static IEnumerable<SelectableMDOListItem> GetFlattenedList(SelectableMDOListItem[] listToFlatten)
+    parameters:
+    - id: listToFlatten
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Services.SelectableMDOListItem}
+    content.vb: Public Shared Function GetFlattenedList(listToFlatten As SelectableMDOListItem()) As IEnumerable(Of SelectableMDOListItem)
+  overload: SuperOffice.CRM.Services.SelectableMDOListItem.GetFlattenedList*
+  nameWithType.vb: SelectableMDOListItem.GetFlattenedList(SelectableMDOListItem())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Services.SelectableMDOListItem.GetFlattenedList(SuperOffice.CRM.Services.SelectableMDOListItem())
+  name.vb: GetFlattenedList(SelectableMDOListItem())
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.GetFlattenedList(System.Collections.Generic.ICollection{SuperOffice.CRM.Services.SelectableMDOListItem})
+  commentId: M:SuperOffice.CRM.Services.SelectableMDOListItem.GetFlattenedList(System.Collections.Generic.ICollection{SuperOffice.CRM.Services.SelectableMDOListItem})
+  id: GetFlattenedList(System.Collections.Generic.ICollection{SuperOffice.CRM.Services.SelectableMDOListItem})
+  parent: SuperOffice.CRM.Services.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: GetFlattenedList(ICollection<SelectableMDOListItem>)
+  nameWithType: SelectableMDOListItem.GetFlattenedList(ICollection<SelectableMDOListItem>)
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.GetFlattenedList(System.Collections.Generic.ICollection<SuperOffice.CRM.Services.SelectableMDOListItem>)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public static IEnumerable<SelectableMDOListItem> GetFlattenedList(ICollection<SelectableMDOListItem> listToFlatten)
+    parameters:
+    - id: listToFlatten
+      type: System.Collections.Generic.ICollection{SuperOffice.CRM.Services.SelectableMDOListItem}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Services.SelectableMDOListItem}
+    content.vb: Public Shared Function GetFlattenedList(listToFlatten As ICollection(Of SelectableMDOListItem)) As IEnumerable(Of SelectableMDOListItem)
+  overload: SuperOffice.CRM.Services.SelectableMDOListItem.GetFlattenedList*
+  nameWithType.vb: SelectableMDOListItem.GetFlattenedList(ICollection(Of SelectableMDOListItem))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Services.SelectableMDOListItem.GetFlattenedList(System.Collections.Generic.ICollection(Of SuperOffice.CRM.Services.SelectableMDOListItem))
+  name.vb: GetFlattenedList(ICollection(Of SelectableMDOListItem))
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.#ctor
+  commentId: M:SuperOffice.CRM.Services.SelectableMDOListItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: SelectableMDOListItem()
+  nameWithType: SelectableMDOListItem.SelectableMDOListItem()
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.SelectableMDOListItem()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public SelectableMDOListItem()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.SelectableMDOListItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.ToString
+  commentId: M:SuperOffice.CRM.Services.SelectableMDOListItem.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SelectableMDOListItem.ToString()
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.SelectableMDOListItem.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.SelectableMDOListItem.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: SelectableMDOListItem.ToString(String)
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.SelectableMDOListItem.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.Id
+  commentId: P:SuperOffice.CRM.Services.SelectableMDOListItem.Id
+  id: Id
+  parent: SuperOffice.CRM.Services.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: SelectableMDOListItem.Id
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.Id
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe Id of the ListItem \n"
+  syntax:
+    content: public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Id As Integer
+  overload: SuperOffice.CRM.Services.SelectableMDOListItem.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.Name
+  commentId: P:SuperOffice.CRM.Services.SelectableMDOListItem.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SelectableMDOListItem.Name
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe name of the ListItem \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.SelectableMDOListItem.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.ToolTip
+  commentId: P:SuperOffice.CRM.Services.SelectableMDOListItem.ToolTip
+  id: ToolTip
+  parent: SuperOffice.CRM.Services.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: ToolTip
+  nameWithType: SelectableMDOListItem.ToolTip
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.ToolTip
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe tooltip of the ListItem \n"
+  syntax:
+    content: public virtual string ToolTip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ToolTip As String
+  overload: SuperOffice.CRM.Services.SelectableMDOListItem.ToolTip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.Deleted
+  commentId: P:SuperOffice.CRM.Services.SelectableMDOListItem.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Services.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: SelectableMDOListItem.Deleted
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.Deleted
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe deleted status of the ListItem \n"
+  syntax:
+    content: public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.CRM.Services.SelectableMDOListItem.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.Rank
+  commentId: P:SuperOffice.CRM.Services.SelectableMDOListItem.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Services.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: SelectableMDOListItem.Rank
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.Rank
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe rank of the ListItem \n"
+  syntax:
+    content: public virtual int Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Rank As Integer
+  overload: SuperOffice.CRM.Services.SelectableMDOListItem.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.Type
+  commentId: P:SuperOffice.CRM.Services.SelectableMDOListItem.Type
+  id: Type
+  parent: SuperOffice.CRM.Services.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: SelectableMDOListItem.Type
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.Type
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe type of the ListItem. Custom field. \n"
+  syntax:
+    content: public virtual string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Type As String
+  overload: SuperOffice.CRM.Services.SelectableMDOListItem.Type*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.ColorBlock
+  commentId: P:SuperOffice.CRM.Services.SelectableMDOListItem.ColorBlock
+  id: ColorBlock
+  parent: SuperOffice.CRM.Services.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: ColorBlock
+  nameWithType: SelectableMDOListItem.ColorBlock
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.ColorBlock
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe color indicator of the ListItem color block \n"
+  syntax:
+    content: public virtual int ColorBlock { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ColorBlock As Integer
+  overload: SuperOffice.CRM.Services.SelectableMDOListItem.ColorBlock*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.IconHint
+  commentId: P:SuperOffice.CRM.Services.SelectableMDOListItem.IconHint
+  id: IconHint
+  parent: SuperOffice.CRM.Services.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: IconHint
+  nameWithType: SelectableMDOListItem.IconHint
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.IconHint
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe Icon hint of the ListItem. Custom field. \n"
+  syntax:
+    content: public virtual string IconHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property IconHint As String
+  overload: SuperOffice.CRM.Services.SelectableMDOListItem.IconHint*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.Selected
+  commentId: P:SuperOffice.CRM.Services.SelectableMDOListItem.Selected
+  id: Selected
+  parent: SuperOffice.CRM.Services.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: Selected
+  nameWithType: SelectableMDOListItem.Selected
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.Selected
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue if the ListItem is selected \n"
+  syntax:
+    content: public virtual bool Selected { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Selected As Boolean
+  overload: SuperOffice.CRM.Services.SelectableMDOListItem.Selected*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.LastChanged
+  commentId: P:SuperOffice.CRM.Services.SelectableMDOListItem.LastChanged
+  id: LastChanged
+  parent: SuperOffice.CRM.Services.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: LastChanged
+  nameWithType: SelectableMDOListItem.LastChanged
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.LastChanged
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTime of last change. \n"
+  syntax:
+    content: public virtual DateTime LastChanged { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property LastChanged As Date
+  overload: SuperOffice.CRM.Services.SelectableMDOListItem.LastChanged*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.ChildItems
+  commentId: P:SuperOffice.CRM.Services.SelectableMDOListItem.ChildItems
+  id: ChildItems
+  parent: SuperOffice.CRM.Services.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: ChildItems
+  nameWithType: SelectableMDOListItem.ChildItems
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.ChildItems
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe child items of the SelectableMDOListItem \n"
+  syntax:
+    content: public virtual SelectableMDOListItem[] ChildItems { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+    content.vb: Public Overridable Property ChildItems As SelectableMDOListItem()
+  overload: SuperOffice.CRM.Services.SelectableMDOListItem.ChildItems*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.ExtraInfo
+  commentId: P:SuperOffice.CRM.Services.SelectableMDOListItem.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.CRM.Services.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: SelectableMDOListItem.ExtraInfo
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.ExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nExtra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. \n"
+  syntax:
+    content: public virtual string ExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraInfo As String
+  overload: SuperOffice.CRM.Services.SelectableMDOListItem.ExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.StyleHint
+  commentId: P:SuperOffice.CRM.Services.SelectableMDOListItem.StyleHint
+  id: StyleHint
+  parent: SuperOffice.CRM.Services.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: StyleHint
+  nameWithType: SelectableMDOListItem.StyleHint
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.StyleHint
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStyle hint indicating, information such as background color etc. Custom field. \n"
+  syntax:
+    content: public virtual string StyleHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property StyleHint As String
+  overload: SuperOffice.CRM.Services.SelectableMDOListItem.StyleHint*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.Hidden
+  commentId: P:SuperOffice.CRM.Services.SelectableMDOListItem.Hidden
+  id: Hidden
+  parent: SuperOffice.CRM.Services.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: Hidden
+  nameWithType: SelectableMDOListItem.Hidden
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.Hidden
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue if the ListItem is hidden \n"
+  syntax:
+    content: public virtual bool Hidden { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Hidden As Boolean
+  overload: SuperOffice.CRM.Services.SelectableMDOListItem.Hidden*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.FullName
+  commentId: P:SuperOffice.CRM.Services.SelectableMDOListItem.FullName
+  id: FullName
+  parent: SuperOffice.CRM.Services.SelectableMDOListItem
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: SelectableMDOListItem.FullName
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.FullName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe name of the ListItem in its context \n"
+  syntax:
+    content: public virtual string FullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FullName As String
+  overload: SuperOffice.CRM.Services.SelectableMDOListItem.FullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.MDOAgent
+  commentId: T:SuperOffice.CRM.Services.MDOAgent
+  isExternal: true
+  name: MDOAgent
+  nameWithType: MDOAgent
+  fullName: SuperOffice.CRM.Services.MDOAgent
+- uid: SuperOffice.CRM.Services.IMDOAgent
+  commentId: T:SuperOffice.CRM.Services.IMDOAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IMDOAgent
+  nameWithType: IMDOAgent
+  fullName: SuperOffice.CRM.Services.IMDOAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.GetFlattenedList*
+  commentId: Overload:SuperOffice.CRM.Services.SelectableMDOListItem.GetFlattenedList
+  isExternal: true
+  name: GetFlattenedList
+  nameWithType: SelectableMDOListItem.GetFlattenedList
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.GetFlattenedList
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem[]
+  isExternal: true
+  name: SelectableMDOListItem[]
+  nameWithType: SelectableMDOListItem[]
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem[]
+  nameWithType.vb: SelectableMDOListItem()
+  fullName.vb: SuperOffice.CRM.Services.SelectableMDOListItem()
+  name.vb: SelectableMDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Services.SelectableMDOListItem}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Services.SelectableMDOListItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<SelectableMDOListItem>
+  nameWithType: IEnumerable<SelectableMDOListItem>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Services.SelectableMDOListItem>
+  nameWithType.vb: IEnumerable(Of SelectableMDOListItem)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Services.SelectableMDOListItem)
+  name.vb: IEnumerable(Of SelectableMDOListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.ICollection{SuperOffice.CRM.Services.SelectableMDOListItem}
+  commentId: T:System.Collections.Generic.ICollection{SuperOffice.CRM.Services.SelectableMDOListItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<SelectableMDOListItem>
+  nameWithType: ICollection<SelectableMDOListItem>
+  fullName: System.Collections.Generic.ICollection<SuperOffice.CRM.Services.SelectableMDOListItem>
+  nameWithType.vb: ICollection(Of SelectableMDOListItem)
+  fullName.vb: System.Collections.Generic.ICollection(Of SuperOffice.CRM.Services.SelectableMDOListItem)
+  name.vb: ICollection(Of SelectableMDOListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.SelectableMDOListItem.#ctor
+  isExternal: true
+  name: SelectableMDOListItem
+  nameWithType: SelectableMDOListItem.SelectableMDOListItem
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.SelectableMDOListItem
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.SelectableMDOListItem.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: SelectableMDOListItem.ToString
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.Id*
+  commentId: Overload:SuperOffice.CRM.Services.SelectableMDOListItem.Id
+  isExternal: true
+  name: Id
+  nameWithType: SelectableMDOListItem.Id
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.Name*
+  commentId: Overload:SuperOffice.CRM.Services.SelectableMDOListItem.Name
+  isExternal: true
+  name: Name
+  nameWithType: SelectableMDOListItem.Name
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.Name
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.ToolTip*
+  commentId: Overload:SuperOffice.CRM.Services.SelectableMDOListItem.ToolTip
+  isExternal: true
+  name: ToolTip
+  nameWithType: SelectableMDOListItem.ToolTip
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.ToolTip
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.Deleted*
+  commentId: Overload:SuperOffice.CRM.Services.SelectableMDOListItem.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: SelectableMDOListItem.Deleted
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.Deleted
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.Rank*
+  commentId: Overload:SuperOffice.CRM.Services.SelectableMDOListItem.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: SelectableMDOListItem.Rank
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.Rank
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.Type*
+  commentId: Overload:SuperOffice.CRM.Services.SelectableMDOListItem.Type
+  isExternal: true
+  name: Type
+  nameWithType: SelectableMDOListItem.Type
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.Type
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.ColorBlock*
+  commentId: Overload:SuperOffice.CRM.Services.SelectableMDOListItem.ColorBlock
+  isExternal: true
+  name: ColorBlock
+  nameWithType: SelectableMDOListItem.ColorBlock
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.ColorBlock
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.IconHint*
+  commentId: Overload:SuperOffice.CRM.Services.SelectableMDOListItem.IconHint
+  isExternal: true
+  name: IconHint
+  nameWithType: SelectableMDOListItem.IconHint
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.IconHint
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.Selected*
+  commentId: Overload:SuperOffice.CRM.Services.SelectableMDOListItem.Selected
+  isExternal: true
+  name: Selected
+  nameWithType: SelectableMDOListItem.Selected
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.Selected
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.LastChanged*
+  commentId: Overload:SuperOffice.CRM.Services.SelectableMDOListItem.LastChanged
+  isExternal: true
+  name: LastChanged
+  nameWithType: SelectableMDOListItem.LastChanged
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.LastChanged
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.ChildItems*
+  commentId: Overload:SuperOffice.CRM.Services.SelectableMDOListItem.ChildItems
+  isExternal: true
+  name: ChildItems
+  nameWithType: SelectableMDOListItem.ChildItems
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.ChildItems
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.ExtraInfo*
+  commentId: Overload:SuperOffice.CRM.Services.SelectableMDOListItem.ExtraInfo
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: SelectableMDOListItem.ExtraInfo
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.ExtraInfo
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.StyleHint*
+  commentId: Overload:SuperOffice.CRM.Services.SelectableMDOListItem.StyleHint
+  isExternal: true
+  name: StyleHint
+  nameWithType: SelectableMDOListItem.StyleHint
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.StyleHint
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.Hidden*
+  commentId: Overload:SuperOffice.CRM.Services.SelectableMDOListItem.Hidden
+  isExternal: true
+  name: Hidden
+  nameWithType: SelectableMDOListItem.Hidden
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.Hidden
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem.FullName*
+  commentId: Overload:SuperOffice.CRM.Services.SelectableMDOListItem.FullName
+  isExternal: true
+  name: FullName
+  nameWithType: SelectableMDOListItem.FullName
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem.FullName

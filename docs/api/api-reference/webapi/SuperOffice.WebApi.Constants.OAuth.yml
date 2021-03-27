@@ -1,0 +1,467 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Constants.OAuth
+  commentId: T:SuperOffice.WebApi.Constants.OAuth
+  id: Constants.OAuth
+  parent: SuperOffice.WebApi
+  children:
+  - SuperOffice.WebApi.Constants.OAuth.AccessToken
+  - SuperOffice.WebApi.Constants.OAuth.Authority
+  - SuperOffice.WebApi.Constants.OAuth.ClaimsIssuer
+  - SuperOffice.WebApi.Constants.OAuth.ClientId
+  - SuperOffice.WebApi.Constants.OAuth.ClientSecret
+  - SuperOffice.WebApi.Constants.OAuth.GrantType
+  - SuperOffice.WebApi.Constants.OAuth.IdToken
+  - SuperOffice.WebApi.Constants.OAuth.MetadataEndpoint
+  - SuperOffice.WebApi.Constants.OAuth.RedirectUri
+  - SuperOffice.WebApi.Constants.OAuth.RefreshToken
+  - SuperOffice.WebApi.Constants.OAuth.ResponseMode
+  - SuperOffice.WebApi.Constants.OAuth.ResponseType
+  - SuperOffice.WebApi.Constants.OAuth.Scope
+  - SuperOffice.WebApi.Constants.OAuth.State
+  langs:
+  - csharp
+  - vb
+  name: Constants.OAuth
+  nameWithType: Constants.OAuth
+  fullName: SuperOffice.WebApi.Constants.OAuth
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: 'public static class OAuth : Object'
+    content.vb: >-
+      Public Module OAuth
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Constants.OAuth.AccessToken
+  commentId: F:SuperOffice.WebApi.Constants.OAuth.AccessToken
+  id: AccessToken
+  parent: SuperOffice.WebApi.Constants.OAuth
+  langs:
+  - csharp
+  - vb
+  name: AccessToken
+  nameWithType: Constants.OAuth.AccessToken
+  fullName: SuperOffice.WebApi.Constants.OAuth.AccessToken
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string AccessToken = "access_token"
+    return:
+      type: System.String
+    content.vb: Public Const AccessToken As String = "access_token"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.OAuth.Authority
+  commentId: F:SuperOffice.WebApi.Constants.OAuth.Authority
+  id: Authority
+  parent: SuperOffice.WebApi.Constants.OAuth
+  langs:
+  - csharp
+  - vb
+  name: Authority
+  nameWithType: Constants.OAuth.Authority
+  fullName: SuperOffice.WebApi.Constants.OAuth.Authority
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string Authority = "https://{0}.superoffice.com/login"
+    return:
+      type: System.String
+    content.vb: Public Const Authority As String = "https://{0}.superoffice.com/login"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.OAuth.ClaimsIssuer
+  commentId: F:SuperOffice.WebApi.Constants.OAuth.ClaimsIssuer
+  id: ClaimsIssuer
+  parent: SuperOffice.WebApi.Constants.OAuth
+  langs:
+  - csharp
+  - vb
+  name: ClaimsIssuer
+  nameWithType: Constants.OAuth.ClaimsIssuer
+  fullName: SuperOffice.WebApi.Constants.OAuth.ClaimsIssuer
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string ClaimsIssuer = "https://{0}.superoffice.com"
+    return:
+      type: System.String
+    content.vb: Public Const ClaimsIssuer As String = "https://{0}.superoffice.com"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.OAuth.ClientId
+  commentId: F:SuperOffice.WebApi.Constants.OAuth.ClientId
+  id: ClientId
+  parent: SuperOffice.WebApi.Constants.OAuth
+  langs:
+  - csharp
+  - vb
+  name: ClientId
+  nameWithType: Constants.OAuth.ClientId
+  fullName: SuperOffice.WebApi.Constants.OAuth.ClientId
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string ClientId = "client_id"
+    return:
+      type: System.String
+    content.vb: Public Const ClientId As String = "client_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.OAuth.ClientSecret
+  commentId: F:SuperOffice.WebApi.Constants.OAuth.ClientSecret
+  id: ClientSecret
+  parent: SuperOffice.WebApi.Constants.OAuth
+  langs:
+  - csharp
+  - vb
+  name: ClientSecret
+  nameWithType: Constants.OAuth.ClientSecret
+  fullName: SuperOffice.WebApi.Constants.OAuth.ClientSecret
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string ClientSecret = "client_secret"
+    return:
+      type: System.String
+    content.vb: Public Const ClientSecret As String = "client_secret"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.OAuth.GrantType
+  commentId: F:SuperOffice.WebApi.Constants.OAuth.GrantType
+  id: GrantType
+  parent: SuperOffice.WebApi.Constants.OAuth
+  langs:
+  - csharp
+  - vb
+  name: GrantType
+  nameWithType: Constants.OAuth.GrantType
+  fullName: SuperOffice.WebApi.Constants.OAuth.GrantType
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string GrantType = "grant_type"
+    return:
+      type: System.String
+    content.vb: Public Const GrantType As String = "grant_type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.OAuth.IdToken
+  commentId: F:SuperOffice.WebApi.Constants.OAuth.IdToken
+  id: IdToken
+  parent: SuperOffice.WebApi.Constants.OAuth
+  langs:
+  - csharp
+  - vb
+  name: IdToken
+  nameWithType: Constants.OAuth.IdToken
+  fullName: SuperOffice.WebApi.Constants.OAuth.IdToken
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string IdToken = "id_token"
+    return:
+      type: System.String
+    content.vb: Public Const IdToken As String = "id_token"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.OAuth.MetadataEndpoint
+  commentId: F:SuperOffice.WebApi.Constants.OAuth.MetadataEndpoint
+  id: MetadataEndpoint
+  parent: SuperOffice.WebApi.Constants.OAuth
+  langs:
+  - csharp
+  - vb
+  name: MetadataEndpoint
+  nameWithType: Constants.OAuth.MetadataEndpoint
+  fullName: SuperOffice.WebApi.Constants.OAuth.MetadataEndpoint
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string MetadataEndpoint = "https://{0}.superoffice.com/login/.well-known/openid-configuration"
+    return:
+      type: System.String
+    content.vb: Public Const MetadataEndpoint As String = "https://{0}.superoffice.com/login/.well-known/openid-configuration"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.OAuth.RedirectUri
+  commentId: F:SuperOffice.WebApi.Constants.OAuth.RedirectUri
+  id: RedirectUri
+  parent: SuperOffice.WebApi.Constants.OAuth
+  langs:
+  - csharp
+  - vb
+  name: RedirectUri
+  nameWithType: Constants.OAuth.RedirectUri
+  fullName: SuperOffice.WebApi.Constants.OAuth.RedirectUri
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string RedirectUri = "redirect_uri"
+    return:
+      type: System.String
+    content.vb: Public Const RedirectUri As String = "redirect_uri"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.OAuth.RefreshToken
+  commentId: F:SuperOffice.WebApi.Constants.OAuth.RefreshToken
+  id: RefreshToken
+  parent: SuperOffice.WebApi.Constants.OAuth
+  langs:
+  - csharp
+  - vb
+  name: RefreshToken
+  nameWithType: Constants.OAuth.RefreshToken
+  fullName: SuperOffice.WebApi.Constants.OAuth.RefreshToken
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string RefreshToken = "refresh_token"
+    return:
+      type: System.String
+    content.vb: Public Const RefreshToken As String = "refresh_token"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.OAuth.ResponseMode
+  commentId: F:SuperOffice.WebApi.Constants.OAuth.ResponseMode
+  id: ResponseMode
+  parent: SuperOffice.WebApi.Constants.OAuth
+  langs:
+  - csharp
+  - vb
+  name: ResponseMode
+  nameWithType: Constants.OAuth.ResponseMode
+  fullName: SuperOffice.WebApi.Constants.OAuth.ResponseMode
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string ResponseMode = "response_mode"
+    return:
+      type: System.String
+    content.vb: Public Const ResponseMode As String = "response_mode"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.OAuth.ResponseType
+  commentId: F:SuperOffice.WebApi.Constants.OAuth.ResponseType
+  id: ResponseType
+  parent: SuperOffice.WebApi.Constants.OAuth
+  langs:
+  - csharp
+  - vb
+  name: ResponseType
+  nameWithType: Constants.OAuth.ResponseType
+  fullName: SuperOffice.WebApi.Constants.OAuth.ResponseType
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string ResponseType = "response_type"
+    return:
+      type: System.String
+    content.vb: Public Const ResponseType As String = "response_type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.OAuth.Scope
+  commentId: F:SuperOffice.WebApi.Constants.OAuth.Scope
+  id: Scope
+  parent: SuperOffice.WebApi.Constants.OAuth
+  langs:
+  - csharp
+  - vb
+  name: Scope
+  nameWithType: Constants.OAuth.Scope
+  fullName: SuperOffice.WebApi.Constants.OAuth.Scope
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string Scope = "scope"
+    return:
+      type: System.String
+    content.vb: Public Const Scope As String = "scope"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Constants.OAuth.State
+  commentId: F:SuperOffice.WebApi.Constants.OAuth.State
+  id: State
+  parent: SuperOffice.WebApi.Constants.OAuth
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: Constants.OAuth.State
+  fullName: SuperOffice.WebApi.Constants.OAuth.State
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  syntax:
+    content: public const string State = "state"
+    return:
+      type: System.String
+    content.vb: Public Const State As String = "state"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

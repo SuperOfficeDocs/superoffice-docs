@@ -1,0 +1,594 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.License.UserTypeHelper
+  commentId: T:SuperOffice.License.UserTypeHelper
+  id: UserTypeHelper
+  parent: SuperOffice.License
+  children:
+  - SuperOffice.License.UserTypeHelper.GetAssociateType(SuperOffice.License.UserType)
+  - SuperOffice.License.UserTypeHelper.GetLoginRightModuleName(SuperOffice.License.UserType)
+  - SuperOffice.License.UserTypeHelper.GetRoleType(SuperOffice.Data.AssociateType)
+  - SuperOffice.License.UserTypeHelper.GetRoleType(SuperOffice.License.UserType)
+  - SuperOffice.License.UserTypeHelper.GetUserType(SuperOffice.Data.AssociateType)
+  langs:
+  - csharp
+  - vb
+  name: UserTypeHelper
+  nameWithType: UserTypeHelper
+  fullName: SuperOffice.License.UserTypeHelper
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  syntax:
+    content: public static class UserTypeHelper
+    content.vb: Public Module UserTypeHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.License.UserTypeHelper.GetAssociateType(SuperOffice.License.UserType)
+  commentId: M:SuperOffice.License.UserTypeHelper.GetAssociateType(SuperOffice.License.UserType)
+  id: GetAssociateType(SuperOffice.License.UserType)
+  isExtensionMethod: true
+  parent: SuperOffice.License.UserTypeHelper
+  langs:
+  - csharp
+  - vb
+  name: GetAssociateType(UserType)
+  nameWithType: UserTypeHelper.GetAssociateType(UserType)
+  fullName: SuperOffice.License.UserTypeHelper.GetAssociateType(SuperOffice.License.UserType)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nConvert from <xref href=\"SuperOffice.License.UserType\" data-throw-if-not-resolved=\"false\"></xref> to <xref href=\"SuperOffice.License.UserType\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public static AssociateType GetAssociateType(this UserType allowedType)
+    parameters:
+    - id: allowedType
+      type: SuperOffice.License.UserType
+      description: Allowed associate type to convert from.
+    return:
+      type: SuperOffice.Data.AssociateType
+      description: Associate type to convert to.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetAssociateType(allowedType As UserType) As AssociateType
+  overload: SuperOffice.License.UserTypeHelper.GetAssociateType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.License.UserTypeHelper.GetUserType(SuperOffice.Data.AssociateType)
+  commentId: M:SuperOffice.License.UserTypeHelper.GetUserType(SuperOffice.Data.AssociateType)
+  id: GetUserType(SuperOffice.Data.AssociateType)
+  isExtensionMethod: true
+  parent: SuperOffice.License.UserTypeHelper
+  langs:
+  - csharp
+  - vb
+  name: GetUserType(AssociateType)
+  nameWithType: UserTypeHelper.GetUserType(AssociateType)
+  fullName: SuperOffice.License.UserTypeHelper.GetUserType(SuperOffice.Data.AssociateType)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nConvert from <xref href=\"SuperOffice.License.UserType\" data-throw-if-not-resolved=\"false\"></xref> to <xref href=\"SuperOffice.License.UserType\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public static UserType GetUserType(this AssociateType associateType)
+    parameters:
+    - id: associateType
+      type: SuperOffice.Data.AssociateType
+      description: 'Associate type to convert from '
+    return:
+      type: SuperOffice.License.UserType
+      description: Allowed license type to convert to.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetUserType(associateType As AssociateType) As UserType
+  overload: SuperOffice.License.UserTypeHelper.GetUserType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.License.UserTypeHelper.GetRoleType(SuperOffice.Data.AssociateType)
+  commentId: M:SuperOffice.License.UserTypeHelper.GetRoleType(SuperOffice.Data.AssociateType)
+  id: GetRoleType(SuperOffice.Data.AssociateType)
+  isExtensionMethod: true
+  parent: SuperOffice.License.UserTypeHelper
+  langs:
+  - csharp
+  - vb
+  name: GetRoleType(AssociateType)
+  nameWithType: UserTypeHelper.GetRoleType(AssociateType)
+  fullName: SuperOffice.License.UserTypeHelper.GetRoleType(SuperOffice.Data.AssociateType)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nConvert from <xref href=\"SuperOffice.License.UserType\" data-throw-if-not-resolved=\"false\"></xref> to RoleType (short)\n"
+  syntax:
+    content: public static short GetRoleType(this AssociateType associateType)
+    parameters:
+    - id: associateType
+      type: SuperOffice.Data.AssociateType
+      description: 'Associate type to convert from '
+    return:
+      type: System.Int16
+      description: Role type to convert to.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetRoleType(associateType As AssociateType) As Short
+  overload: SuperOffice.License.UserTypeHelper.GetRoleType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.License.UserTypeHelper.GetRoleType(SuperOffice.License.UserType)
+  commentId: M:SuperOffice.License.UserTypeHelper.GetRoleType(SuperOffice.License.UserType)
+  id: GetRoleType(SuperOffice.License.UserType)
+  isExtensionMethod: true
+  parent: SuperOffice.License.UserTypeHelper
+  langs:
+  - csharp
+  - vb
+  name: GetRoleType(UserType)
+  nameWithType: UserTypeHelper.GetRoleType(UserType)
+  fullName: SuperOffice.License.UserTypeHelper.GetRoleType(SuperOffice.License.UserType)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nConvert from <xref href=\"SuperOffice.License.UserType\" data-throw-if-not-resolved=\"false\"></xref> to RoleType (short)\n"
+  syntax:
+    content: public static short GetRoleType(this UserType userType)
+    parameters:
+    - id: userType
+      type: SuperOffice.License.UserType
+    return:
+      type: System.Int16
+      description: Role type to convert to.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetRoleType(userType As UserType) As Short
+  overload: SuperOffice.License.UserTypeHelper.GetRoleType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.License.UserTypeHelper.GetLoginRightModuleName(SuperOffice.License.UserType)
+  commentId: M:SuperOffice.License.UserTypeHelper.GetLoginRightModuleName(SuperOffice.License.UserType)
+  id: GetLoginRightModuleName(SuperOffice.License.UserType)
+  isExtensionMethod: true
+  parent: SuperOffice.License.UserTypeHelper
+  langs:
+  - csharp
+  - vb
+  name: GetLoginRightModuleName(UserType)
+  nameWithType: UserTypeHelper.GetLoginRightModuleName(UserType)
+  fullName: SuperOffice.License.UserTypeHelper.GetLoginRightModuleName(SuperOffice.License.UserType)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.License
+  summary: "\nGet the full name (including module owner) of the login right module license from user type.\n"
+  syntax:
+    content: public static string GetLoginRightModuleName(this UserType user)
+    parameters:
+    - id: user
+      type: SuperOffice.License.UserType
+      description: User type to get name of module owner.
+    return:
+      type: System.String
+      description: Full name (including module owner) of the login right module license from user type.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetLoginRightModuleName(user As UserType) As String
+  overload: SuperOffice.License.UserTypeHelper.GetLoginRightModuleName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.License
+  commentId: N:SuperOffice.License
+  isExternal: true
+  name: SuperOffice.License
+  nameWithType: SuperOffice.License
+  fullName: SuperOffice.License
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.License.UserTypeHelper.GetAssociateType*
+  commentId: Overload:SuperOffice.License.UserTypeHelper.GetAssociateType
+  isExternal: true
+  name: GetAssociateType
+  nameWithType: UserTypeHelper.GetAssociateType
+  fullName: SuperOffice.License.UserTypeHelper.GetAssociateType
+- uid: SuperOffice.License.UserType
+  isExternal: true
+  name: UserType
+  nameWithType: UserType
+  fullName: SuperOffice.License.UserType
+- uid: SuperOffice.Data.AssociateType
+  commentId: T:SuperOffice.Data.AssociateType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: AssociateType
+  nameWithType: AssociateType
+  fullName: SuperOffice.Data.AssociateType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.License.UserTypeHelper.GetUserType*
+  commentId: Overload:SuperOffice.License.UserTypeHelper.GetUserType
+  isExternal: true
+  name: GetUserType
+  nameWithType: UserTypeHelper.GetUserType
+  fullName: SuperOffice.License.UserTypeHelper.GetUserType
+- uid: SuperOffice.License.UserTypeHelper.GetRoleType*
+  commentId: Overload:SuperOffice.License.UserTypeHelper.GetRoleType
+  isExternal: true
+  name: GetRoleType
+  nameWithType: UserTypeHelper.GetRoleType
+  fullName: SuperOffice.License.UserTypeHelper.GetRoleType
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.License.UserTypeHelper.GetLoginRightModuleName*
+  commentId: Overload:SuperOffice.License.UserTypeHelper.GetLoginRightModuleName
+  isExternal: true
+  name: GetLoginRightModuleName
+  nameWithType: UserTypeHelper.GetLoginRightModuleName
+  fullName: SuperOffice.License.UserTypeHelper.GetLoginRightModuleName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

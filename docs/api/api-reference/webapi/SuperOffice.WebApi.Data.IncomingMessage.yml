@@ -1,0 +1,368 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.IncomingMessage
+  commentId: T:SuperOffice.WebApi.Data.IncomingMessage
+  id: IncomingMessage
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.IncomingMessage.#ctor
+  - SuperOffice.WebApi.Data.IncomingMessage.Content
+  - SuperOffice.WebApi.Data.IncomingMessage.Format
+  - SuperOffice.WebApi.Data.IncomingMessage.From
+  - SuperOffice.WebApi.Data.IncomingMessage.Plugin
+  - SuperOffice.WebApi.Data.IncomingMessage.SessionKey
+  - SuperOffice.WebApi.Data.IncomingMessage.To
+  langs:
+  - csharp
+  - vb
+  name: IncomingMessage
+  nameWithType: IncomingMessage
+  fullName: SuperOffice.WebApi.Data.IncomingMessage
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for IncomingMessage.\nDetails about a message to be sent    \n"
+  syntax:
+    content: 'public class IncomingMessage : Carrier'
+    content.vb: >-
+      Public Class IncomingMessage
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.MessagingAgent
+    commentId: T:SuperOffice.WebApi.Agents.MessagingAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.IncomingMessage.#ctor
+  commentId: M:SuperOffice.WebApi.Data.IncomingMessage.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.IncomingMessage
+  langs:
+  - csharp
+  - vb
+  name: IncomingMessage()
+  nameWithType: IncomingMessage.IncomingMessage()
+  fullName: SuperOffice.WebApi.Data.IncomingMessage.IncomingMessage()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public IncomingMessage()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.IncomingMessage.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.IncomingMessage.To
+  commentId: P:SuperOffice.WebApi.Data.IncomingMessage.To
+  id: To
+  parent: SuperOffice.WebApi.Data.IncomingMessage
+  langs:
+  - csharp
+  - vb
+  name: To
+  nameWithType: IncomingMessage.To
+  fullName: SuperOffice.WebApi.Data.IncomingMessage.To
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAddress of the recipient. This can be in the form of phone number or email.\n"
+  syntax:
+    content: public virtual string To { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property To As String
+  overload: SuperOffice.WebApi.Data.IncomingMessage.To*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.IncomingMessage.From
+  commentId: P:SuperOffice.WebApi.Data.IncomingMessage.From
+  id: From
+  parent: SuperOffice.WebApi.Data.IncomingMessage
+  langs:
+  - csharp
+  - vb
+  name: From
+  nameWithType: IncomingMessage.From
+  fullName: SuperOffice.WebApi.Data.IncomingMessage.From
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWho the message is from.  This can vary from provider to provider and can for SMS typically be a phone number or a string.  This is mail address on the form of an e-mail.\n"
+  syntax:
+    content: public virtual string From { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property From As String
+  overload: SuperOffice.WebApi.Data.IncomingMessage.From*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.IncomingMessage.Content
+  commentId: P:SuperOffice.WebApi.Data.IncomingMessage.Content
+  id: Content
+  parent: SuperOffice.WebApi.Data.IncomingMessage
+  langs:
+  - csharp
+  - vb
+  name: Content
+  nameWithType: IncomingMessage.Content
+  fullName: SuperOffice.WebApi.Data.IncomingMessage.Content
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nContent, or body, of the message.\n"
+  syntax:
+    content: public virtual string Content { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Content As String
+  overload: SuperOffice.WebApi.Data.IncomingMessage.Content*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.IncomingMessage.Format
+  commentId: P:SuperOffice.WebApi.Data.IncomingMessage.Format
+  id: Format
+  parent: SuperOffice.WebApi.Data.IncomingMessage
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: IncomingMessage.Format
+  fullName: SuperOffice.WebApi.Data.IncomingMessage.Format
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFormat of the content\n"
+  syntax:
+    content: public virtual string Format { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Format As String
+  overload: SuperOffice.WebApi.Data.IncomingMessage.Format*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.IncomingMessage.SessionKey
+  commentId: P:SuperOffice.WebApi.Data.IncomingMessage.SessionKey
+  id: SessionKey
+  parent: SuperOffice.WebApi.Data.IncomingMessage
+  langs:
+  - csharp
+  - vb
+  name: SessionKey
+  nameWithType: IncomingMessage.SessionKey
+  fullName: SuperOffice.WebApi.Data.IncomingMessage.SessionKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSession key used for threading.\n"
+  syntax:
+    content: public virtual string SessionKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SessionKey As String
+  overload: SuperOffice.WebApi.Data.IncomingMessage.SessionKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.IncomingMessage.Plugin
+  commentId: P:SuperOffice.WebApi.Data.IncomingMessage.Plugin
+  id: Plugin
+  parent: SuperOffice.WebApi.Data.IncomingMessage
+  langs:
+  - csharp
+  - vb
+  name: Plugin
+  nameWithType: IncomingMessage.Plugin
+  fullName: SuperOffice.WebApi.Data.IncomingMessage.Plugin
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of plugin\n"
+  syntax:
+    content: public virtual string Plugin { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Plugin As String
+  overload: SuperOffice.WebApi.Data.IncomingMessage.Plugin*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.MessagingAgent
+  commentId: T:SuperOffice.WebApi.Agents.MessagingAgent
+  isExternal: true
+  name: MessagingAgent
+  nameWithType: MessagingAgent
+  fullName: SuperOffice.WebApi.Agents.MessagingAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.IncomingMessage.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.IncomingMessage.#ctor
+  isExternal: true
+  name: IncomingMessage
+  nameWithType: IncomingMessage.IncomingMessage
+  fullName: SuperOffice.WebApi.Data.IncomingMessage.IncomingMessage
+- uid: SuperOffice.WebApi.Data.IncomingMessage.To*
+  commentId: Overload:SuperOffice.WebApi.Data.IncomingMessage.To
+  isExternal: true
+  name: To
+  nameWithType: IncomingMessage.To
+  fullName: SuperOffice.WebApi.Data.IncomingMessage.To
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.IncomingMessage.From*
+  commentId: Overload:SuperOffice.WebApi.Data.IncomingMessage.From
+  isExternal: true
+  name: From
+  nameWithType: IncomingMessage.From
+  fullName: SuperOffice.WebApi.Data.IncomingMessage.From
+- uid: SuperOffice.WebApi.Data.IncomingMessage.Content*
+  commentId: Overload:SuperOffice.WebApi.Data.IncomingMessage.Content
+  isExternal: true
+  name: Content
+  nameWithType: IncomingMessage.Content
+  fullName: SuperOffice.WebApi.Data.IncomingMessage.Content
+- uid: SuperOffice.WebApi.Data.IncomingMessage.Format*
+  commentId: Overload:SuperOffice.WebApi.Data.IncomingMessage.Format
+  isExternal: true
+  name: Format
+  nameWithType: IncomingMessage.Format
+  fullName: SuperOffice.WebApi.Data.IncomingMessage.Format
+- uid: SuperOffice.WebApi.Data.IncomingMessage.SessionKey*
+  commentId: Overload:SuperOffice.WebApi.Data.IncomingMessage.SessionKey
+  isExternal: true
+  name: SessionKey
+  nameWithType: IncomingMessage.SessionKey
+  fullName: SuperOffice.WebApi.Data.IncomingMessage.SessionKey
+- uid: SuperOffice.WebApi.Data.IncomingMessage.Plugin*
+  commentId: Overload:SuperOffice.WebApi.Data.IncomingMessage.Plugin
+  isExternal: true
+  name: Plugin
+  nameWithType: IncomingMessage.Plugin
+  fullName: SuperOffice.WebApi.Data.IncomingMessage.Plugin

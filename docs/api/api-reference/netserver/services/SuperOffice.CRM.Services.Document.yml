@@ -1,0 +1,920 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.Document
+  commentId: T:SuperOffice.CRM.Services.Document
+  id: Document
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.Document.#ctor
+  - SuperOffice.CRM.Services.Document.AssociateFullName
+  - SuperOffice.CRM.Services.Document.AssociateId
+  - SuperOffice.CRM.Services.Document.Attention
+  - SuperOffice.CRM.Services.Document.ContactId
+  - SuperOffice.CRM.Services.Document.ContactName
+  - SuperOffice.CRM.Services.Document.Description
+  - SuperOffice.CRM.Services.Document.DocumentId
+  - SuperOffice.CRM.Services.Document.DocumentTemplate
+  - SuperOffice.CRM.Services.Document.Header
+  - SuperOffice.CRM.Services.Document.IsPublished
+  - SuperOffice.CRM.Services.Document.Name
+  - SuperOffice.CRM.Services.Document.OurRef
+  - SuperOffice.CRM.Services.Document.PersonFullName
+  - SuperOffice.CRM.Services.Document.PersonId
+  - SuperOffice.CRM.Services.Document.ProjectId
+  - SuperOffice.CRM.Services.Document.ProjectName
+  - SuperOffice.CRM.Services.Document.Snum
+  - SuperOffice.CRM.Services.Document.ToString
+  - SuperOffice.CRM.Services.Document.ToString(System.String)
+  - SuperOffice.CRM.Services.Document.YourRef
+  langs:
+  - csharp
+  - vb
+  name: Document
+  nameWithType: Document
+  fullName: SuperOffice.CRM.Services.Document
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for Document.\nServices for the Document Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IDocumentAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet Document 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new DocumentAgent();\n    var document = agent.GetDocument( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class Document : Carrier'
+    content.vb: >-
+      Public Class Document
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.DocumentAgent
+    commentId: T:SuperOffice.CRM.Services.DocumentAgent
+  - linkId: SuperOffice.CRM.Services.IDocumentAgent
+    commentId: T:SuperOffice.CRM.Services.IDocumentAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.Document.#ctor
+  commentId: M:SuperOffice.CRM.Services.Document.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.Document
+  langs:
+  - csharp
+  - vb
+  name: Document()
+  nameWithType: Document.Document()
+  fullName: SuperOffice.CRM.Services.Document.Document()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public Document()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.Document.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Document.ToString
+  commentId: M:SuperOffice.CRM.Services.Document.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.Document
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Document.ToString()
+  fullName: SuperOffice.CRM.Services.Document.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.Document.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.Document.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.Document.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.Document
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: Document.ToString(String)
+  fullName: SuperOffice.CRM.Services.Document.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.Document.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.Document.DocumentId
+  commentId: P:SuperOffice.CRM.Services.Document.DocumentId
+  id: DocumentId
+  parent: SuperOffice.CRM.Services.Document
+  langs:
+  - csharp
+  - vb
+  name: DocumentId
+  nameWithType: Document.DocumentId
+  fullName: SuperOffice.CRM.Services.Document.DocumentId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int DocumentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DocumentId As Integer
+  overload: SuperOffice.CRM.Services.Document.DocumentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Document.Attention
+  commentId: P:SuperOffice.CRM.Services.Document.Attention
+  id: Attention
+  parent: SuperOffice.CRM.Services.Document
+  langs:
+  - csharp
+  - vb
+  name: Attention
+  nameWithType: Document.Attention
+  fullName: SuperOffice.CRM.Services.Document.Attention
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAttention/salutation \n"
+  syntax:
+    content: public virtual string Attention { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Attention As String
+  overload: SuperOffice.CRM.Services.Document.Attention*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Document.Header
+  commentId: P:SuperOffice.CRM.Services.Document.Header
+  id: Header
+  parent: SuperOffice.CRM.Services.Document
+  langs:
+  - csharp
+  - vb
+  name: Header
+  nameWithType: Document.Header
+  fullName: SuperOffice.CRM.Services.Document.Header
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nVisible document name \n"
+  syntax:
+    content: public virtual string Header { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Header As String
+  overload: SuperOffice.CRM.Services.Document.Header*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Document.Name
+  commentId: P:SuperOffice.CRM.Services.Document.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.Document
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Document.Name
+  fullName: SuperOffice.CRM.Services.Document.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFile name \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.Document.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Document.OurRef
+  commentId: P:SuperOffice.CRM.Services.Document.OurRef
+  id: OurRef
+  parent: SuperOffice.CRM.Services.Document
+  langs:
+  - csharp
+  - vb
+  name: OurRef
+  nameWithType: Document.OurRef
+  fullName: SuperOffice.CRM.Services.Document.OurRef
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOur reference, searchable field from freetext search \n"
+  syntax:
+    content: public virtual string OurRef { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property OurRef As String
+  overload: SuperOffice.CRM.Services.Document.OurRef*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Document.YourRef
+  commentId: P:SuperOffice.CRM.Services.Document.YourRef
+  id: YourRef
+  parent: SuperOffice.CRM.Services.Document
+  langs:
+  - csharp
+  - vb
+  name: YourRef
+  nameWithType: Document.YourRef
+  fullName: SuperOffice.CRM.Services.Document.YourRef
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nYour reference \n"
+  syntax:
+    content: public virtual string YourRef { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property YourRef As String
+  overload: SuperOffice.CRM.Services.Document.YourRef*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Document.Description
+  commentId: P:SuperOffice.CRM.Services.Document.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.Document
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: Document.Description
+  fullName: SuperOffice.CRM.Services.Document.Description
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe actual text, max 2047 significant characters even though it is stored as a larger data type on some databases \n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.Document.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Document.DocumentTemplate
+  commentId: P:SuperOffice.CRM.Services.Document.DocumentTemplate
+  id: DocumentTemplate
+  parent: SuperOffice.CRM.Services.Document
+  langs:
+  - csharp
+  - vb
+  name: DocumentTemplate
+  nameWithType: Document.DocumentTemplate
+  fullName: SuperOffice.CRM.Services.Document.DocumentTemplate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual string DocumentTemplate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DocumentTemplate As String
+  overload: SuperOffice.CRM.Services.Document.DocumentTemplate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Document.IsPublished
+  commentId: P:SuperOffice.CRM.Services.Document.IsPublished
+  id: IsPublished
+  parent: SuperOffice.CRM.Services.Document
+  langs:
+  - csharp
+  - vb
+  name: IsPublished
+  nameWithType: Document.IsPublished
+  fullName: SuperOffice.CRM.Services.Document.IsPublished
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue if document have an entry in published table \n"
+  syntax:
+    content: public virtual bool IsPublished { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsPublished As Boolean
+  overload: SuperOffice.CRM.Services.Document.IsPublished*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Document.PersonId
+  commentId: P:SuperOffice.CRM.Services.Document.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Services.Document
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: Document.PersonId
+  fullName: SuperOffice.CRM.Services.Document.PersonId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPerson ID of person the appointment is with, may be 0 \n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.CRM.Services.Document.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Document.PersonFullName
+  commentId: P:SuperOffice.CRM.Services.Document.PersonFullName
+  id: PersonFullName
+  parent: SuperOffice.CRM.Services.Document
+  langs:
+  - csharp
+  - vb
+  name: PersonFullName
+  nameWithType: Document.PersonFullName
+  fullName: SuperOffice.CRM.Services.Document.PersonFullName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe full name of the person this document belongs to. \n"
+  syntax:
+    content: public virtual string PersonFullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonFullName As String
+  overload: SuperOffice.CRM.Services.Document.PersonFullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Document.AssociateFullName
+  commentId: P:SuperOffice.CRM.Services.Document.AssociateFullName
+  id: AssociateFullName
+  parent: SuperOffice.CRM.Services.Document
+  langs:
+  - csharp
+  - vb
+  name: AssociateFullName
+  nameWithType: Document.AssociateFullName
+  fullName: SuperOffice.CRM.Services.Document.AssociateFullName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe associate&apos;s culture formatted fullname (firstname, middleName and lastname) \n"
+  syntax:
+    content: public virtual string AssociateFullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property AssociateFullName As String
+  overload: SuperOffice.CRM.Services.Document.AssociateFullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Document.ContactId
+  commentId: P:SuperOffice.CRM.Services.Document.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Services.Document
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: Document.ContactId
+  fullName: SuperOffice.CRM.Services.Document.ContactId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContact ID of owning contact, may be 0 \n"
+  syntax:
+    content: public virtual int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.CRM.Services.Document.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Document.ContactName
+  commentId: P:SuperOffice.CRM.Services.Document.ContactName
+  id: ContactName
+  parent: SuperOffice.CRM.Services.Document
+  langs:
+  - csharp
+  - vb
+  name: ContactName
+  nameWithType: Document.ContactName
+  fullName: SuperOffice.CRM.Services.Document.ContactName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContact name \n"
+  syntax:
+    content: public virtual string ContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactName As String
+  overload: SuperOffice.CRM.Services.Document.ContactName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Document.ProjectId
+  commentId: P:SuperOffice.CRM.Services.Document.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.Services.Document
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: Document.ProjectId
+  fullName: SuperOffice.CRM.Services.Document.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nID of project referred to, may be 0 \n"
+  syntax:
+    content: public virtual int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProjectId As Integer
+  overload: SuperOffice.CRM.Services.Document.ProjectId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Document.ProjectName
+  commentId: P:SuperOffice.CRM.Services.Document.ProjectName
+  id: ProjectName
+  parent: SuperOffice.CRM.Services.Document
+  langs:
+  - csharp
+  - vb
+  name: ProjectName
+  nameWithType: Document.ProjectName
+  fullName: SuperOffice.CRM.Services.Document.ProjectName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nProject name \n"
+  syntax:
+    content: public virtual string ProjectName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProjectName As String
+  overload: SuperOffice.CRM.Services.Document.ProjectName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Document.AssociateId
+  commentId: P:SuperOffice.CRM.Services.Document.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Services.Document
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: Document.AssociateId
+  fullName: SuperOffice.CRM.Services.Document.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nID of associate whose diary the appointment is in, REQUIRED \n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.CRM.Services.Document.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.Document.Snum
+  commentId: P:SuperOffice.CRM.Services.Document.Snum
+  id: Snum
+  parent: SuperOffice.CRM.Services.Document
+  langs:
+  - csharp
+  - vb
+  name: Snum
+  nameWithType: Document.Snum
+  fullName: SuperOffice.CRM.Services.Document.Snum
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe sequence number allocated from refcount on used template when creating the document \n"
+  syntax:
+    content: public virtual int Snum { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Snum As Integer
+  overload: SuperOffice.CRM.Services.Document.Snum*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.DocumentAgent
+  commentId: T:SuperOffice.CRM.Services.DocumentAgent
+  isExternal: true
+  name: DocumentAgent
+  nameWithType: DocumentAgent
+  fullName: SuperOffice.CRM.Services.DocumentAgent
+- uid: SuperOffice.CRM.Services.IDocumentAgent
+  commentId: T:SuperOffice.CRM.Services.IDocumentAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IDocumentAgent
+  nameWithType: IDocumentAgent
+  fullName: SuperOffice.CRM.Services.IDocumentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.Document.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.Document.#ctor
+  isExternal: true
+  name: Document
+  nameWithType: Document.Document
+  fullName: SuperOffice.CRM.Services.Document.Document
+- uid: SuperOffice.CRM.Services.Document.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.Document.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: Document.ToString
+  fullName: SuperOffice.CRM.Services.Document.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.Document.DocumentId*
+  commentId: Overload:SuperOffice.CRM.Services.Document.DocumentId
+  isExternal: true
+  name: DocumentId
+  nameWithType: Document.DocumentId
+  fullName: SuperOffice.CRM.Services.Document.DocumentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.Document.Attention*
+  commentId: Overload:SuperOffice.CRM.Services.Document.Attention
+  isExternal: true
+  name: Attention
+  nameWithType: Document.Attention
+  fullName: SuperOffice.CRM.Services.Document.Attention
+- uid: SuperOffice.CRM.Services.Document.Header*
+  commentId: Overload:SuperOffice.CRM.Services.Document.Header
+  isExternal: true
+  name: Header
+  nameWithType: Document.Header
+  fullName: SuperOffice.CRM.Services.Document.Header
+- uid: SuperOffice.CRM.Services.Document.Name*
+  commentId: Overload:SuperOffice.CRM.Services.Document.Name
+  isExternal: true
+  name: Name
+  nameWithType: Document.Name
+  fullName: SuperOffice.CRM.Services.Document.Name
+- uid: SuperOffice.CRM.Services.Document.OurRef*
+  commentId: Overload:SuperOffice.CRM.Services.Document.OurRef
+  isExternal: true
+  name: OurRef
+  nameWithType: Document.OurRef
+  fullName: SuperOffice.CRM.Services.Document.OurRef
+- uid: SuperOffice.CRM.Services.Document.YourRef*
+  commentId: Overload:SuperOffice.CRM.Services.Document.YourRef
+  isExternal: true
+  name: YourRef
+  nameWithType: Document.YourRef
+  fullName: SuperOffice.CRM.Services.Document.YourRef
+- uid: SuperOffice.CRM.Services.Document.Description*
+  commentId: Overload:SuperOffice.CRM.Services.Document.Description
+  isExternal: true
+  name: Description
+  nameWithType: Document.Description
+  fullName: SuperOffice.CRM.Services.Document.Description
+- uid: SuperOffice.CRM.Services.Document.DocumentTemplate*
+  commentId: Overload:SuperOffice.CRM.Services.Document.DocumentTemplate
+  isExternal: true
+  name: DocumentTemplate
+  nameWithType: Document.DocumentTemplate
+  fullName: SuperOffice.CRM.Services.Document.DocumentTemplate
+- uid: SuperOffice.CRM.Services.Document.IsPublished*
+  commentId: Overload:SuperOffice.CRM.Services.Document.IsPublished
+  isExternal: true
+  name: IsPublished
+  nameWithType: Document.IsPublished
+  fullName: SuperOffice.CRM.Services.Document.IsPublished
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.Document.PersonId*
+  commentId: Overload:SuperOffice.CRM.Services.Document.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: Document.PersonId
+  fullName: SuperOffice.CRM.Services.Document.PersonId
+- uid: SuperOffice.CRM.Services.Document.PersonFullName*
+  commentId: Overload:SuperOffice.CRM.Services.Document.PersonFullName
+  isExternal: true
+  name: PersonFullName
+  nameWithType: Document.PersonFullName
+  fullName: SuperOffice.CRM.Services.Document.PersonFullName
+- uid: SuperOffice.CRM.Services.Document.AssociateFullName*
+  commentId: Overload:SuperOffice.CRM.Services.Document.AssociateFullName
+  isExternal: true
+  name: AssociateFullName
+  nameWithType: Document.AssociateFullName
+  fullName: SuperOffice.CRM.Services.Document.AssociateFullName
+- uid: SuperOffice.CRM.Services.Document.ContactId*
+  commentId: Overload:SuperOffice.CRM.Services.Document.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: Document.ContactId
+  fullName: SuperOffice.CRM.Services.Document.ContactId
+- uid: SuperOffice.CRM.Services.Document.ContactName*
+  commentId: Overload:SuperOffice.CRM.Services.Document.ContactName
+  isExternal: true
+  name: ContactName
+  nameWithType: Document.ContactName
+  fullName: SuperOffice.CRM.Services.Document.ContactName
+- uid: SuperOffice.CRM.Services.Document.ProjectId*
+  commentId: Overload:SuperOffice.CRM.Services.Document.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: Document.ProjectId
+  fullName: SuperOffice.CRM.Services.Document.ProjectId
+- uid: SuperOffice.CRM.Services.Document.ProjectName*
+  commentId: Overload:SuperOffice.CRM.Services.Document.ProjectName
+  isExternal: true
+  name: ProjectName
+  nameWithType: Document.ProjectName
+  fullName: SuperOffice.CRM.Services.Document.ProjectName
+- uid: SuperOffice.CRM.Services.Document.AssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.Document.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: Document.AssociateId
+  fullName: SuperOffice.CRM.Services.Document.AssociateId
+- uid: SuperOffice.CRM.Services.Document.Snum*
+  commentId: Overload:SuperOffice.CRM.Services.Document.Snum
+  isExternal: true
+  name: Snum
+  nameWithType: Document.Snum
+  fullName: SuperOffice.CRM.Services.Document.Snum

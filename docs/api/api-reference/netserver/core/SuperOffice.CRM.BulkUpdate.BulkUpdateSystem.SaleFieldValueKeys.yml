@@ -1,0 +1,1059 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
+  commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
+  id: BulkUpdateSystem.SaleFieldValueKeys
+  parent: SuperOffice.CRM.BulkUpdate
+  children:
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Activitylink
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Amount
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Competitor
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Credited
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Currency
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Date
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Description
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Done
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.EarningAmount
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.EarningPercent
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Heading
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Number1
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Owner
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Probability
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.ProjectId
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Published
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.ReasonLost
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.ReasonSold
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.ReasonStalled
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Source
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Status
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.TypeAndStage
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.VisibleFor
+  langs:
+  - csharp
+  - vb
+  name: BulkUpdateSystem.SaleFieldValueKeys
+  nameWithType: BulkUpdateSystem.SaleFieldValueKeys
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static class SaleFieldValueKeys
+    content.vb: Public Module SaleFieldValueKeys
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Owner
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Owner
+  id: Owner
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Owner
+  nameWithType: BulkUpdateSystem.SaleFieldValueKeys.Owner
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Owner
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Owner
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Owner As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.ProjectId
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: BulkUpdateSystem.SaleFieldValueKeys.ProjectId
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.ProjectId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string ProjectId
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly ProjectId As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.TypeAndStage
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.TypeAndStage
+  id: TypeAndStage
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: TypeAndStage
+  nameWithType: BulkUpdateSystem.SaleFieldValueKeys.TypeAndStage
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.TypeAndStage
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string TypeAndStage
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly TypeAndStage As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Done
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Done
+  id: Done
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Done
+  nameWithType: BulkUpdateSystem.SaleFieldValueKeys.Done
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Done
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Done
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Done As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Date
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Date
+  id: Date
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: BulkUpdateSystem.SaleFieldValueKeys.Date
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Date
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Date
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Date As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Heading
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Heading
+  id: Heading
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Heading
+  nameWithType: BulkUpdateSystem.SaleFieldValueKeys.Heading
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Heading
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Heading
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Heading As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Description
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Description
+  id: Description
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: BulkUpdateSystem.SaleFieldValueKeys.Description
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Description
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Description As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Number1
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Number1
+  id: Number1
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Number1
+  nameWithType: BulkUpdateSystem.SaleFieldValueKeys.Number1
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Number1
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Number1
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Number1 As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.EarningAmount
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.EarningAmount
+  id: EarningAmount
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: EarningAmount
+  nameWithType: BulkUpdateSystem.SaleFieldValueKeys.EarningAmount
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.EarningAmount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string EarningAmount
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly EarningAmount As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.EarningPercent
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.EarningPercent
+  id: EarningPercent
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: EarningPercent
+  nameWithType: BulkUpdateSystem.SaleFieldValueKeys.EarningPercent
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.EarningPercent
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string EarningPercent
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly EarningPercent As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Amount
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Amount
+  id: Amount
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Amount
+  nameWithType: BulkUpdateSystem.SaleFieldValueKeys.Amount
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Amount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Amount
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Amount As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Probability
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Probability
+  id: Probability
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Probability
+  nameWithType: BulkUpdateSystem.SaleFieldValueKeys.Probability
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Probability
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Probability
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Probability As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Status
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Status
+  id: Status
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: BulkUpdateSystem.SaleFieldValueKeys.Status
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Status
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Status
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Status As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Source
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Source
+  id: Source
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: BulkUpdateSystem.SaleFieldValueKeys.Source
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Source
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Source
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Source As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Competitor
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Competitor
+  id: Competitor
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Competitor
+  nameWithType: BulkUpdateSystem.SaleFieldValueKeys.Competitor
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Competitor
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Competitor
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Competitor As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.ReasonSold
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.ReasonSold
+  id: ReasonSold
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: ReasonSold
+  nameWithType: BulkUpdateSystem.SaleFieldValueKeys.ReasonSold
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.ReasonSold
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string ReasonSold
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly ReasonSold As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.ReasonLost
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.ReasonLost
+  id: ReasonLost
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: ReasonLost
+  nameWithType: BulkUpdateSystem.SaleFieldValueKeys.ReasonLost
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.ReasonLost
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string ReasonLost
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly ReasonLost As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.ReasonStalled
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.ReasonStalled
+  id: ReasonStalled
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: ReasonStalled
+  nameWithType: BulkUpdateSystem.SaleFieldValueKeys.ReasonStalled
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.ReasonStalled
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string ReasonStalled
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly ReasonStalled As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Credited
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Credited
+  id: Credited
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Credited
+  nameWithType: BulkUpdateSystem.SaleFieldValueKeys.Credited
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Credited
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Credited
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Credited As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Currency
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Currency
+  id: Currency
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Currency
+  nameWithType: BulkUpdateSystem.SaleFieldValueKeys.Currency
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Currency
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Currency
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Currency As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.VisibleFor
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.VisibleFor
+  id: VisibleFor
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: VisibleFor
+  nameWithType: BulkUpdateSystem.SaleFieldValueKeys.VisibleFor
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.VisibleFor
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string VisibleFor
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly VisibleFor As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Activitylink
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Activitylink
+  id: Activitylink
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Activitylink
+  nameWithType: BulkUpdateSystem.SaleFieldValueKeys.Activitylink
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Activitylink
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Activitylink
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Activitylink As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Published
+  commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Published
+  id: Published
+  parent: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
+  langs:
+  - csharp
+  - vb
+  name: Published
+  nameWithType: BulkUpdateSystem.SaleFieldValueKeys.Published
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.Published
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.BulkUpdate
+  syntax:
+    content: public static readonly string Published
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Published As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.BulkUpdate
+  commentId: N:SuperOffice.CRM.BulkUpdate
+  isExternal: true
+  name: SuperOffice.CRM.BulkUpdate
+  nameWithType: SuperOffice.CRM.BulkUpdate
+  fullName: SuperOffice.CRM.BulkUpdate
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

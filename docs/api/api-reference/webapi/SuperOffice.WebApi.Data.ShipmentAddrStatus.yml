@@ -1,0 +1,459 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ShipmentAddrStatus
+  commentId: T:SuperOffice.WebApi.Data.ShipmentAddrStatus
+  id: ShipmentAddrStatus
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ShipmentAddrStatus.Blocked
+  - SuperOffice.WebApi.Data.ShipmentAddrStatus.Bounced
+  - SuperOffice.WebApi.Data.ShipmentAddrStatus.Clicked
+  - SuperOffice.WebApi.Data.ShipmentAddrStatus.Complained
+  - SuperOffice.WebApi.Data.ShipmentAddrStatus.Duplicate
+  - SuperOffice.WebApi.Data.ShipmentAddrStatus.NoSubscription
+  - SuperOffice.WebApi.Data.ShipmentAddrStatus.Opened
+  - SuperOffice.WebApi.Data.ShipmentAddrStatus.Ready
+  - SuperOffice.WebApi.Data.ShipmentAddrStatus.Sent
+  - SuperOffice.WebApi.Data.ShipmentAddrStatus.SoftBounced
+  - SuperOffice.WebApi.Data.ShipmentAddrStatus.TooManyBounces
+  - SuperOffice.WebApi.Data.ShipmentAddrStatus.Unknown
+  - SuperOffice.WebApi.Data.ShipmentAddrStatus.value__
+  langs:
+  - csharp
+  - vb
+  name: ShipmentAddrStatus
+  nameWithType: ShipmentAddrStatus
+  fullName: SuperOffice.WebApi.Data.ShipmentAddrStatus
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStatus for sending to a particular recipient\nThis Enum is used by:  s_shipment_addr.status\n"
+  syntax:
+    content: 'public sealed class ShipmentAddrStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class ShipmentAddrStatus
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ShipmentAddrStatus.value__
+  commentId: F:SuperOffice.WebApi.Data.ShipmentAddrStatus.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ShipmentAddrStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ShipmentAddrStatus.value__
+  fullName: SuperOffice.WebApi.Data.ShipmentAddrStatus.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ShipmentAddrStatus.Unknown
+  commentId: F:SuperOffice.WebApi.Data.ShipmentAddrStatus.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.ShipmentAddrStatus
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: ShipmentAddrStatus.Unknown
+  fullName: SuperOffice.WebApi.Data.ShipmentAddrStatus.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Default value for empty rows\n"
+  syntax:
+    content: public const ShipmentAddrStatus Unknown
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentAddrStatus
+    content.vb: Public Const Unknown As ShipmentAddrStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentAddrStatus.Ready
+  commentId: F:SuperOffice.WebApi.Data.ShipmentAddrStatus.Ready
+  id: Ready
+  parent: SuperOffice.WebApi.Data.ShipmentAddrStatus
+  langs:
+  - csharp
+  - vb
+  name: Ready
+  nameWithType: ShipmentAddrStatus.Ready
+  fullName: SuperOffice.WebApi.Data.ShipmentAddrStatus.Ready
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Ready for shipment\n"
+  syntax:
+    content: public const ShipmentAddrStatus Ready
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentAddrStatus
+    content.vb: Public Const Ready As ShipmentAddrStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentAddrStatus.Duplicate
+  commentId: F:SuperOffice.WebApi.Data.ShipmentAddrStatus.Duplicate
+  id: Duplicate
+  parent: SuperOffice.WebApi.Data.ShipmentAddrStatus
+  langs:
+  - csharp
+  - vb
+  name: Duplicate
+  nameWithType: ShipmentAddrStatus.Duplicate
+  fullName: SuperOffice.WebApi.Data.ShipmentAddrStatus.Duplicate
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Blocked because it duplicates another shipment addr in the same batch\n"
+  syntax:
+    content: public const ShipmentAddrStatus Duplicate
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentAddrStatus
+    content.vb: Public Const Duplicate As ShipmentAddrStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentAddrStatus.Blocked
+  commentId: F:SuperOffice.WebApi.Data.ShipmentAddrStatus.Blocked
+  id: Blocked
+  parent: SuperOffice.WebApi.Data.ShipmentAddrStatus
+  langs:
+  - csharp
+  - vb
+  name: Blocked
+  nameWithType: ShipmentAddrStatus.Blocked
+  fullName: SuperOffice.WebApi.Data.ShipmentAddrStatus.Blocked
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Blocked because of nomailing flag\n"
+  syntax:
+    content: public const ShipmentAddrStatus Blocked
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentAddrStatus
+    content.vb: Public Const Blocked As ShipmentAddrStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentAddrStatus.Sent
+  commentId: F:SuperOffice.WebApi.Data.ShipmentAddrStatus.Sent
+  id: Sent
+  parent: SuperOffice.WebApi.Data.ShipmentAddrStatus
+  langs:
+  - csharp
+  - vb
+  name: Sent
+  nameWithType: ShipmentAddrStatus.Sent
+  fullName: SuperOffice.WebApi.Data.ShipmentAddrStatus.Sent
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Sent\n"
+  syntax:
+    content: public const ShipmentAddrStatus Sent
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentAddrStatus
+    content.vb: Public Const Sent As ShipmentAddrStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentAddrStatus.Bounced
+  commentId: F:SuperOffice.WebApi.Data.ShipmentAddrStatus.Bounced
+  id: Bounced
+  parent: SuperOffice.WebApi.Data.ShipmentAddrStatus
+  langs:
+  - csharp
+  - vb
+  name: Bounced
+  nameWithType: ShipmentAddrStatus.Bounced
+  fullName: SuperOffice.WebApi.Data.ShipmentAddrStatus.Bounced
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Bounce received from transport channel\n"
+  syntax:
+    content: public const ShipmentAddrStatus Bounced
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentAddrStatus
+    content.vb: Public Const Bounced As ShipmentAddrStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentAddrStatus.Opened
+  commentId: F:SuperOffice.WebApi.Data.ShipmentAddrStatus.Opened
+  id: Opened
+  parent: SuperOffice.WebApi.Data.ShipmentAddrStatus
+  langs:
+  - csharp
+  - vb
+  name: Opened
+  nameWithType: ShipmentAddrStatus.Opened
+  fullName: SuperOffice.WebApi.Data.ShipmentAddrStatus.Opened
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: Recipient has opened the message, we know because of tracking\n"
+  syntax:
+    content: public const ShipmentAddrStatus Opened
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentAddrStatus
+    content.vb: Public Const Opened As ShipmentAddrStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentAddrStatus.Clicked
+  commentId: F:SuperOffice.WebApi.Data.ShipmentAddrStatus.Clicked
+  id: Clicked
+  parent: SuperOffice.WebApi.Data.ShipmentAddrStatus
+  langs:
+  - csharp
+  - vb
+  name: Clicked
+  nameWithType: ShipmentAddrStatus.Clicked
+  fullName: SuperOffice.WebApi.Data.ShipmentAddrStatus.Clicked
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: Recipient has actively clicked a link in the message\n"
+  syntax:
+    content: public const ShipmentAddrStatus Clicked
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentAddrStatus
+    content.vb: Public Const Clicked As ShipmentAddrStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentAddrStatus.SoftBounced
+  commentId: F:SuperOffice.WebApi.Data.ShipmentAddrStatus.SoftBounced
+  id: SoftBounced
+  parent: SuperOffice.WebApi.Data.ShipmentAddrStatus
+  langs:
+  - csharp
+  - vb
+  name: SoftBounced
+  nameWithType: ShipmentAddrStatus.SoftBounced
+  fullName: SuperOffice.WebApi.Data.ShipmentAddrStatus.SoftBounced
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: Vacation notice, etc\n"
+  syntax:
+    content: public const ShipmentAddrStatus SoftBounced
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentAddrStatus
+    content.vb: Public Const SoftBounced As ShipmentAddrStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentAddrStatus.NoSubscription
+  commentId: F:SuperOffice.WebApi.Data.ShipmentAddrStatus.NoSubscription
+  id: NoSubscription
+  parent: SuperOffice.WebApi.Data.ShipmentAddrStatus
+  langs:
+  - csharp
+  - vb
+  name: NoSubscription
+  nameWithType: ShipmentAddrStatus.NoSubscription
+  fullName: SuperOffice.WebApi.Data.ShipmentAddrStatus.NoSubscription
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n9: Recipient does not have subscription for shipmentType\n"
+  syntax:
+    content: public const ShipmentAddrStatus NoSubscription
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentAddrStatus
+    content.vb: Public Const NoSubscription As ShipmentAddrStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentAddrStatus.Complained
+  commentId: F:SuperOffice.WebApi.Data.ShipmentAddrStatus.Complained
+  id: Complained
+  parent: SuperOffice.WebApi.Data.ShipmentAddrStatus
+  langs:
+  - csharp
+  - vb
+  name: Complained
+  nameWithType: ShipmentAddrStatus.Complained
+  fullName: SuperOffice.WebApi.Data.ShipmentAddrStatus.Complained
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n10: Recipient sent a complaint\n"
+  syntax:
+    content: public const ShipmentAddrStatus Complained
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentAddrStatus
+    content.vb: Public Const Complained As ShipmentAddrStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ShipmentAddrStatus.TooManyBounces
+  commentId: F:SuperOffice.WebApi.Data.ShipmentAddrStatus.TooManyBounces
+  id: TooManyBounces
+  parent: SuperOffice.WebApi.Data.ShipmentAddrStatus
+  langs:
+  - csharp
+  - vb
+  name: TooManyBounces
+  nameWithType: ShipmentAddrStatus.TooManyBounces
+  fullName: SuperOffice.WebApi.Data.ShipmentAddrStatus.TooManyBounces
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n11: Recipient address has bounced too many times\n"
+  syntax:
+    content: public const ShipmentAddrStatus TooManyBounces
+    return:
+      type: SuperOffice.WebApi.Data.ShipmentAddrStatus
+    content.vb: Public Const TooManyBounces As ShipmentAddrStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.ShipmentAddrStatus
+  commentId: T:SuperOffice.WebApi.Data.ShipmentAddrStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ShipmentAddrStatus
+  nameWithType: ShipmentAddrStatus
+  fullName: SuperOffice.WebApi.Data.ShipmentAddrStatus

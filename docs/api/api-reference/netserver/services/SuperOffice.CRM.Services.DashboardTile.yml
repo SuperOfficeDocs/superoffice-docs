@@ -1,0 +1,841 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.DashboardTile
+  commentId: T:SuperOffice.CRM.Services.DashboardTile
+  id: DashboardTile
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.DashboardTile.#ctor
+  - SuperOffice.CRM.Services.DashboardTile.AssociateId
+  - SuperOffice.CRM.Services.DashboardTile.Caption
+  - SuperOffice.CRM.Services.DashboardTile.ChartId
+  - SuperOffice.CRM.Services.DashboardTile.ChartName
+  - SuperOffice.CRM.Services.DashboardTile.Config
+  - SuperOffice.CRM.Services.DashboardTile.DashboardTileId
+  - SuperOffice.CRM.Services.DashboardTile.Description
+  - SuperOffice.CRM.Services.DashboardTile.EntityType
+  - SuperOffice.CRM.Services.DashboardTile.GroupId
+  - SuperOffice.CRM.Services.DashboardTile.IsDefault
+  - SuperOffice.CRM.Services.DashboardTile.Options
+  - SuperOffice.CRM.Services.DashboardTile.SelectionId
+  - SuperOffice.CRM.Services.DashboardTile.ToString
+  - SuperOffice.CRM.Services.DashboardTile.ToString(System.String)
+  - SuperOffice.CRM.Services.DashboardTile.Type
+  - SuperOffice.CRM.Services.DashboardTile.VisibleFor
+  langs:
+  - csharp
+  - vb
+  name: DashboardTile
+  nameWithType: DashboardTile
+  fullName: SuperOffice.CRM.Services.DashboardTile
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDashboard Tile configuration\n<p></p>\nCarrier object for DashboardTile.\nServices for the DashboardTile Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IDashboardAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet DashboardTile 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new DashboardAgent();\n    var dashboardTile = agent.GetDashboardTile( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class DashboardTile : Carrier, IVisibleForCarrier'
+    content.vb: >-
+      Public Class DashboardTile
+          Inherits Carrier
+          Implements IVisibleForCarrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.DashboardAgent
+    commentId: T:SuperOffice.CRM.Services.DashboardAgent
+  - linkId: SuperOffice.CRM.Services.IDashboardAgent
+    commentId: T:SuperOffice.CRM.Services.IDashboardAgent
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.Services.IVisibleForCarrier
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.DashboardTile.#ctor
+  commentId: M:SuperOffice.CRM.Services.DashboardTile.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.DashboardTile
+  langs:
+  - csharp
+  - vb
+  name: DashboardTile()
+  nameWithType: DashboardTile.DashboardTile()
+  fullName: SuperOffice.CRM.Services.DashboardTile.DashboardTile()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public DashboardTile()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.DashboardTile.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DashboardTile.ToString
+  commentId: M:SuperOffice.CRM.Services.DashboardTile.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.DashboardTile
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: DashboardTile.ToString()
+  fullName: SuperOffice.CRM.Services.DashboardTile.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.DashboardTile.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.DashboardTile.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.DashboardTile.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.DashboardTile
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: DashboardTile.ToString(String)
+  fullName: SuperOffice.CRM.Services.DashboardTile.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.DashboardTile.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DashboardTile.DashboardTileId
+  commentId: P:SuperOffice.CRM.Services.DashboardTile.DashboardTileId
+  id: DashboardTileId
+  parent: SuperOffice.CRM.Services.DashboardTile
+  langs:
+  - csharp
+  - vb
+  name: DashboardTileId
+  nameWithType: DashboardTile.DashboardTileId
+  fullName: SuperOffice.CRM.Services.DashboardTile.DashboardTileId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe tile id \n"
+  syntax:
+    content: public virtual int DashboardTileId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property DashboardTileId As Integer
+  overload: SuperOffice.CRM.Services.DashboardTile.DashboardTileId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashboardTile.Caption
+  commentId: P:SuperOffice.CRM.Services.DashboardTile.Caption
+  id: Caption
+  parent: SuperOffice.CRM.Services.DashboardTile
+  langs:
+  - csharp
+  - vb
+  name: Caption
+  nameWithType: DashboardTile.Caption
+  fullName: SuperOffice.CRM.Services.DashboardTile.Caption
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe tile caption \n"
+  syntax:
+    content: public virtual string Caption { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Caption As String
+  overload: SuperOffice.CRM.Services.DashboardTile.Caption*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashboardTile.Description
+  commentId: P:SuperOffice.CRM.Services.DashboardTile.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.DashboardTile
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DashboardTile.Description
+  fullName: SuperOffice.CRM.Services.DashboardTile.Description
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe tile description \n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.DashboardTile.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashboardTile.ChartName
+  commentId: P:SuperOffice.CRM.Services.DashboardTile.ChartName
+  id: ChartName
+  parent: SuperOffice.CRM.Services.DashboardTile
+  langs:
+  - csharp
+  - vb
+  name: ChartName
+  nameWithType: DashboardTile.ChartName
+  fullName: SuperOffice.CRM.Services.DashboardTile.ChartName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe original chart name \n"
+  syntax:
+    content: public virtual string ChartName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ChartName As String
+  overload: SuperOffice.CRM.Services.DashboardTile.ChartName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashboardTile.ChartId
+  commentId: P:SuperOffice.CRM.Services.DashboardTile.ChartId
+  id: ChartId
+  parent: SuperOffice.CRM.Services.DashboardTile
+  langs:
+  - csharp
+  - vb
+  name: ChartId
+  nameWithType: DashboardTile.ChartId
+  fullName: SuperOffice.CRM.Services.DashboardTile.ChartId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe original chart Id \n"
+  syntax:
+    content: public virtual string ChartId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ChartId As String
+  overload: SuperOffice.CRM.Services.DashboardTile.ChartId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashboardTile.IsDefault
+  commentId: P:SuperOffice.CRM.Services.DashboardTile.IsDefault
+  id: IsDefault
+  parent: SuperOffice.CRM.Services.DashboardTile
+  langs:
+  - csharp
+  - vb
+  name: IsDefault
+  nameWithType: DashboardTile.IsDefault
+  fullName: SuperOffice.CRM.Services.DashboardTile.IsDefault
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue if this is one of the default tiles \n"
+  syntax:
+    content: public virtual bool IsDefault { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsDefault As Boolean
+  overload: SuperOffice.CRM.Services.DashboardTile.IsDefault*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashboardTile.AssociateId
+  commentId: P:SuperOffice.CRM.Services.DashboardTile.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Services.DashboardTile
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: DashboardTile.AssociateId
+  fullName: SuperOffice.CRM.Services.DashboardTile.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nId of the associate who owns this tile \n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.CRM.Services.DashboardTile.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashboardTile.GroupId
+  commentId: P:SuperOffice.CRM.Services.DashboardTile.GroupId
+  id: GroupId
+  parent: SuperOffice.CRM.Services.DashboardTile
+  langs:
+  - csharp
+  - vb
+  name: GroupId
+  nameWithType: DashboardTile.GroupId
+  fullName: SuperOffice.CRM.Services.DashboardTile.GroupId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nId of the associates primary group at storage time \n"
+  syntax:
+    content: public virtual int GroupId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property GroupId As Integer
+  overload: SuperOffice.CRM.Services.DashboardTile.GroupId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashboardTile.SelectionId
+  commentId: P:SuperOffice.CRM.Services.DashboardTile.SelectionId
+  id: SelectionId
+  parent: SuperOffice.CRM.Services.DashboardTile
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: DashboardTile.SelectionId
+  fullName: SuperOffice.CRM.Services.DashboardTile.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe selection that defines the data filter/restrictions \n"
+  syntax:
+    content: public virtual int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SelectionId As Integer
+  overload: SuperOffice.CRM.Services.DashboardTile.SelectionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashboardTile.Config
+  commentId: P:SuperOffice.CRM.Services.DashboardTile.Config
+  id: Config
+  parent: SuperOffice.CRM.Services.DashboardTile
+  langs:
+  - csharp
+  - vb
+  name: Config
+  nameWithType: DashboardTile.Config
+  fullName: SuperOffice.CRM.Services.DashboardTile.Config
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe tile config \n"
+  syntax:
+    content: public virtual string Config { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Config As String
+  overload: SuperOffice.CRM.Services.DashboardTile.Config*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashboardTile.Type
+  commentId: P:SuperOffice.CRM.Services.DashboardTile.Type
+  id: Type
+  parent: SuperOffice.CRM.Services.DashboardTile
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: DashboardTile.Type
+  fullName: SuperOffice.CRM.Services.DashboardTile.Type
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe tile type, what kind of tile this is \n"
+  syntax:
+    content: public virtual DashboardTileType Type { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.DashboardTileType
+    content.vb: Public Overridable Property Type As DashboardTileType
+  overload: SuperOffice.CRM.Services.DashboardTile.Type*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashboardTile.EntityType
+  commentId: P:SuperOffice.CRM.Services.DashboardTile.EntityType
+  id: EntityType
+  parent: SuperOffice.CRM.Services.DashboardTile
+  langs:
+  - csharp
+  - vb
+  name: EntityType
+  nameWithType: DashboardTile.EntityType
+  fullName: SuperOffice.CRM.Services.DashboardTile.EntityType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe tile entity type \n"
+  syntax:
+    content: public virtual DashboardTileEntityType EntityType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.DashboardTileEntityType
+    content.vb: Public Overridable Property EntityType As DashboardTileEntityType
+  overload: SuperOffice.CRM.Services.DashboardTile.EntityType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashboardTile.Options
+  commentId: P:SuperOffice.CRM.Services.DashboardTile.Options
+  id: Options
+  parent: SuperOffice.CRM.Services.DashboardTile
+  langs:
+  - csharp
+  - vb
+  name: Options
+  nameWithType: DashboardTile.Options
+  fullName: SuperOffice.CRM.Services.DashboardTile.Options
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe tile options \n"
+  syntax:
+    content: public virtual DashboardTileOption[] Options { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.DashboardTileOption[]
+    content.vb: Public Overridable Property Options As DashboardTileOption()
+  overload: SuperOffice.CRM.Services.DashboardTile.Options*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DashboardTile.VisibleFor
+  commentId: P:SuperOffice.CRM.Services.DashboardTile.VisibleFor
+  id: VisibleFor
+  parent: SuperOffice.CRM.Services.DashboardTile
+  langs:
+  - csharp
+  - vb
+  name: VisibleFor
+  nameWithType: DashboardTile.VisibleFor
+  fullName: SuperOffice.CRM.Services.DashboardTile.VisibleFor
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe set of users or groups the record is visible for\n"
+  syntax:
+    content: public VisibleFor[] VisibleFor { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.VisibleFor[]
+    content.vb: Public Property VisibleFor As VisibleFor()
+  overload: SuperOffice.CRM.Services.DashboardTile.VisibleFor*
+  implements:
+  - SuperOffice.CRM.Services.IVisibleForCarrier.VisibleFor
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.IVisibleForCarrier
+  commentId: T:SuperOffice.CRM.Services.IVisibleForCarrier
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IVisibleForCarrier
+  nameWithType: IVisibleForCarrier
+  fullName: SuperOffice.CRM.Services.IVisibleForCarrier
+- uid: SuperOffice.CRM.Services.DashboardAgent
+  commentId: T:SuperOffice.CRM.Services.DashboardAgent
+  isExternal: true
+  name: DashboardAgent
+  nameWithType: DashboardAgent
+  fullName: SuperOffice.CRM.Services.DashboardAgent
+- uid: SuperOffice.CRM.Services.IDashboardAgent
+  commentId: T:SuperOffice.CRM.Services.IDashboardAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IDashboardAgent
+  nameWithType: IDashboardAgent
+  fullName: SuperOffice.CRM.Services.IDashboardAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.DashboardTile.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.DashboardTile.#ctor
+  isExternal: true
+  name: DashboardTile
+  nameWithType: DashboardTile.DashboardTile
+  fullName: SuperOffice.CRM.Services.DashboardTile.DashboardTile
+- uid: SuperOffice.CRM.Services.DashboardTile.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.DashboardTile.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: DashboardTile.ToString
+  fullName: SuperOffice.CRM.Services.DashboardTile.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.DashboardTile.DashboardTileId*
+  commentId: Overload:SuperOffice.CRM.Services.DashboardTile.DashboardTileId
+  isExternal: true
+  name: DashboardTileId
+  nameWithType: DashboardTile.DashboardTileId
+  fullName: SuperOffice.CRM.Services.DashboardTile.DashboardTileId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.DashboardTile.Caption*
+  commentId: Overload:SuperOffice.CRM.Services.DashboardTile.Caption
+  isExternal: true
+  name: Caption
+  nameWithType: DashboardTile.Caption
+  fullName: SuperOffice.CRM.Services.DashboardTile.Caption
+- uid: SuperOffice.CRM.Services.DashboardTile.Description*
+  commentId: Overload:SuperOffice.CRM.Services.DashboardTile.Description
+  isExternal: true
+  name: Description
+  nameWithType: DashboardTile.Description
+  fullName: SuperOffice.CRM.Services.DashboardTile.Description
+- uid: SuperOffice.CRM.Services.DashboardTile.ChartName*
+  commentId: Overload:SuperOffice.CRM.Services.DashboardTile.ChartName
+  isExternal: true
+  name: ChartName
+  nameWithType: DashboardTile.ChartName
+  fullName: SuperOffice.CRM.Services.DashboardTile.ChartName
+- uid: SuperOffice.CRM.Services.DashboardTile.ChartId*
+  commentId: Overload:SuperOffice.CRM.Services.DashboardTile.ChartId
+  isExternal: true
+  name: ChartId
+  nameWithType: DashboardTile.ChartId
+  fullName: SuperOffice.CRM.Services.DashboardTile.ChartId
+- uid: SuperOffice.CRM.Services.DashboardTile.IsDefault*
+  commentId: Overload:SuperOffice.CRM.Services.DashboardTile.IsDefault
+  isExternal: true
+  name: IsDefault
+  nameWithType: DashboardTile.IsDefault
+  fullName: SuperOffice.CRM.Services.DashboardTile.IsDefault
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.DashboardTile.AssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.DashboardTile.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: DashboardTile.AssociateId
+  fullName: SuperOffice.CRM.Services.DashboardTile.AssociateId
+- uid: SuperOffice.CRM.Services.DashboardTile.GroupId*
+  commentId: Overload:SuperOffice.CRM.Services.DashboardTile.GroupId
+  isExternal: true
+  name: GroupId
+  nameWithType: DashboardTile.GroupId
+  fullName: SuperOffice.CRM.Services.DashboardTile.GroupId
+- uid: SuperOffice.CRM.Services.DashboardTile.SelectionId*
+  commentId: Overload:SuperOffice.CRM.Services.DashboardTile.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: DashboardTile.SelectionId
+  fullName: SuperOffice.CRM.Services.DashboardTile.SelectionId
+- uid: SuperOffice.CRM.Services.DashboardTile.Config*
+  commentId: Overload:SuperOffice.CRM.Services.DashboardTile.Config
+  isExternal: true
+  name: Config
+  nameWithType: DashboardTile.Config
+  fullName: SuperOffice.CRM.Services.DashboardTile.Config
+- uid: SuperOffice.CRM.Services.DashboardTile.Type*
+  commentId: Overload:SuperOffice.CRM.Services.DashboardTile.Type
+  isExternal: true
+  name: Type
+  nameWithType: DashboardTile.Type
+  fullName: SuperOffice.CRM.Services.DashboardTile.Type
+- uid: SuperOffice.Data.DashboardTileType
+  commentId: '!:SuperOffice.Data.DashboardTileType'
+  isExternal: true
+  name: DashboardTileType
+  nameWithType: DashboardTileType
+  fullName: SuperOffice.Data.DashboardTileType
+- uid: SuperOffice.CRM.Services.DashboardTile.EntityType*
+  commentId: Overload:SuperOffice.CRM.Services.DashboardTile.EntityType
+  isExternal: true
+  name: EntityType
+  nameWithType: DashboardTile.EntityType
+  fullName: SuperOffice.CRM.Services.DashboardTile.EntityType
+- uid: SuperOffice.Data.DashboardTileEntityType
+  commentId: '!:SuperOffice.Data.DashboardTileEntityType'
+  isExternal: true
+  name: DashboardTileEntityType
+  nameWithType: DashboardTileEntityType
+  fullName: SuperOffice.Data.DashboardTileEntityType
+- uid: SuperOffice.CRM.Services.DashboardTile.Options*
+  commentId: Overload:SuperOffice.CRM.Services.DashboardTile.Options
+  isExternal: true
+  name: Options
+  nameWithType: DashboardTile.Options
+  fullName: SuperOffice.CRM.Services.DashboardTile.Options
+- uid: SuperOffice.CRM.Services.DashboardTileOption[]
+  isExternal: true
+  name: DashboardTileOption[]
+  nameWithType: DashboardTileOption[]
+  fullName: SuperOffice.CRM.Services.DashboardTileOption[]
+  nameWithType.vb: DashboardTileOption()
+  fullName.vb: SuperOffice.CRM.Services.DashboardTileOption()
+  name.vb: DashboardTileOption()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.DashboardTileOption
+    name: DashboardTileOption
+    nameWithType: DashboardTileOption
+    fullName: SuperOffice.CRM.Services.DashboardTileOption
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.DashboardTileOption
+    name: DashboardTileOption
+    nameWithType: DashboardTileOption
+    fullName: SuperOffice.CRM.Services.DashboardTileOption
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.DashboardTile.VisibleFor*
+  commentId: Overload:SuperOffice.CRM.Services.DashboardTile.VisibleFor
+  isExternal: true
+  name: VisibleFor
+  nameWithType: DashboardTile.VisibleFor
+  fullName: SuperOffice.CRM.Services.DashboardTile.VisibleFor
+- uid: SuperOffice.CRM.Services.IVisibleForCarrier.VisibleFor
+  commentId: P:SuperOffice.CRM.Services.IVisibleForCarrier.VisibleFor
+  parent: SuperOffice.CRM.Services.IVisibleForCarrier
+  isExternal: true
+  name: VisibleFor
+  nameWithType: IVisibleForCarrier.VisibleFor
+  fullName: SuperOffice.CRM.Services.IVisibleForCarrier.VisibleFor
+- uid: SuperOffice.CRM.Services.VisibleFor[]
+  isExternal: true
+  name: VisibleFor[]
+  nameWithType: VisibleFor[]
+  fullName: SuperOffice.CRM.Services.VisibleFor[]
+  nameWithType.vb: VisibleFor()
+  fullName.vb: SuperOffice.CRM.Services.VisibleFor()
+  name.vb: VisibleFor()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.VisibleFor
+    name: VisibleFor
+    nameWithType: VisibleFor
+    fullName: SuperOffice.CRM.Services.VisibleFor
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.VisibleFor
+    name: VisibleFor
+    nameWithType: VisibleFor
+    fullName: SuperOffice.CRM.Services.VisibleFor
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

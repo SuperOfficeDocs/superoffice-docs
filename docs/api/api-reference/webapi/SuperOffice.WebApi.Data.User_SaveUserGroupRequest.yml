@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.User_SaveUserGroupRequest
+  commentId: T:SuperOffice.WebApi.Data.User_SaveUserGroupRequest
+  id: User_SaveUserGroupRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.User_SaveUserGroupRequest.#ctor
+  - SuperOffice.WebApi.Data.User_SaveUserGroupRequest.UserGroup
+  langs:
+  - csharp
+  - vb
+  name: User_SaveUserGroupRequest
+  nameWithType: User_SaveUserGroupRequest
+  fullName: SuperOffice.WebApi.Data.User_SaveUserGroupRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class User_SaveUserGroupRequest : Object'
+    content.vb: >-
+      Public Class User_SaveUserGroupRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.User_SaveUserGroupRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.User_SaveUserGroupRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.User_SaveUserGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: User_SaveUserGroupRequest()
+  nameWithType: User_SaveUserGroupRequest.User_SaveUserGroupRequest()
+  fullName: SuperOffice.WebApi.Data.User_SaveUserGroupRequest.User_SaveUserGroupRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public User_SaveUserGroupRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.User_SaveUserGroupRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.User_SaveUserGroupRequest.UserGroup
+  commentId: P:SuperOffice.WebApi.Data.User_SaveUserGroupRequest.UserGroup
+  id: UserGroup
+  parent: SuperOffice.WebApi.Data.User_SaveUserGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: UserGroup
+  nameWithType: User_SaveUserGroupRequest.UserGroup
+  fullName: SuperOffice.WebApi.Data.User_SaveUserGroupRequest.UserGroup
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public UserGroup UserGroup { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.UserGroup
+    content.vb: Public Property UserGroup As UserGroup
+  overload: SuperOffice.WebApi.Data.User_SaveUserGroupRequest.UserGroup*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.User_SaveUserGroupRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.User_SaveUserGroupRequest.#ctor
+  isExternal: true
+  name: User_SaveUserGroupRequest
+  nameWithType: User_SaveUserGroupRequest.User_SaveUserGroupRequest
+  fullName: SuperOffice.WebApi.Data.User_SaveUserGroupRequest.User_SaveUserGroupRequest
+- uid: SuperOffice.WebApi.Data.User_SaveUserGroupRequest.UserGroup*
+  commentId: Overload:SuperOffice.WebApi.Data.User_SaveUserGroupRequest.UserGroup
+  isExternal: true
+  name: UserGroup
+  nameWithType: User_SaveUserGroupRequest.UserGroup
+  fullName: SuperOffice.WebApi.Data.User_SaveUserGroupRequest.UserGroup
+- uid: SuperOffice.WebApi.Data.UserGroup
+  commentId: T:SuperOffice.WebApi.Data.UserGroup
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: UserGroup
+  nameWithType: UserGroup
+  fullName: SuperOffice.WebApi.Data.UserGroup

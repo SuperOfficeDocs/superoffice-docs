@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ChatSessionFlags
+  commentId: T:SuperOffice.WebApi.Data.ChatSessionFlags
+  id: ChatSessionFlags
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ChatSessionFlags.CustomerIsTyping
+  - SuperOffice.WebApi.Data.ChatSessionFlags.UserIsTyping
+  - SuperOffice.WebApi.Data.ChatSessionFlags.value__
+  langs:
+  - csharp
+  - vb
+  name: ChatSessionFlags
+  nameWithType: ChatSessionFlags
+  fullName: SuperOffice.WebApi.Data.ChatSessionFlags
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nValue for field &apos;flags&apos; in table &apos;chat_session&apos;.\nThis Enum is used by:  chat_session.flags\nThis Enum consists of flag values that can be combined.\n"
+  syntax:
+    content: 'public sealed class ChatSessionFlags : Enum'
+    content.vb: >-
+      Public NotInheritable Class ChatSessionFlags
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ChatSessionFlags.value__
+  commentId: F:SuperOffice.WebApi.Data.ChatSessionFlags.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ChatSessionFlags
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ChatSessionFlags.value__
+  fullName: SuperOffice.WebApi.Data.ChatSessionFlags.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ChatSessionFlags.CustomerIsTyping
+  commentId: F:SuperOffice.WebApi.Data.ChatSessionFlags.CustomerIsTyping
+  id: CustomerIsTyping
+  parent: SuperOffice.WebApi.Data.ChatSessionFlags
+  langs:
+  - csharp
+  - vb
+  name: CustomerIsTyping
+  nameWithType: ChatSessionFlags.CustomerIsTyping
+  fullName: SuperOffice.WebApi.Data.ChatSessionFlags.CustomerIsTyping
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Set if the customer is currently typing a chat message\n"
+  syntax:
+    content: public const ChatSessionFlags CustomerIsTyping
+    return:
+      type: SuperOffice.WebApi.Data.ChatSessionFlags
+    content.vb: Public Const CustomerIsTyping As ChatSessionFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.ChatSessionFlags.UserIsTyping
+  commentId: F:SuperOffice.WebApi.Data.ChatSessionFlags.UserIsTyping
+  id: UserIsTyping
+  parent: SuperOffice.WebApi.Data.ChatSessionFlags
+  langs:
+  - csharp
+  - vb
+  name: UserIsTyping
+  nameWithType: ChatSessionFlags.UserIsTyping
+  fullName: SuperOffice.WebApi.Data.ChatSessionFlags.UserIsTyping
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Set if the agent is currently typing a chat message\n"
+  syntax:
+    content: public const ChatSessionFlags UserIsTyping
+    return:
+      type: SuperOffice.WebApi.Data.ChatSessionFlags
+    content.vb: Public Const UserIsTyping As ChatSessionFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.ChatSessionFlags
+  commentId: T:SuperOffice.WebApi.Data.ChatSessionFlags
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ChatSessionFlags
+  nameWithType: ChatSessionFlags
+  fullName: SuperOffice.WebApi.Data.ChatSessionFlags

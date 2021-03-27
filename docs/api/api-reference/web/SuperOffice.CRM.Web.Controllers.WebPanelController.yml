@@ -1,0 +1,151 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Controllers.WebPanelController
+  commentId: T:SuperOffice.CRM.Web.Controllers.WebPanelController
+  id: WebPanelController
+  parent: SuperOffice.CRM.Web.Controllers
+  children:
+  - SuperOffice.CRM.Web.Controllers.WebPanelController.#ctor
+  - SuperOffice.CRM.Web.Controllers.WebPanelController.GetWebPanelsForNavigation(SuperOffice.CRM.Services.MDOListItem[])
+  langs:
+  - csharp
+  - vb
+  name: WebPanelController
+  nameWithType: WebPanelController
+  fullName: SuperOffice.CRM.Web.Controllers.WebPanelController
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: 'public class WebPanelController : ApiController'
+    content.vb: >-
+      Public Class WebPanelController
+          Inherits ApiController
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Controllers.WebPanelController.GetWebPanelsForNavigation(SuperOffice.CRM.Services.MDOListItem[])
+  commentId: M:SuperOffice.CRM.Web.Controllers.WebPanelController.GetWebPanelsForNavigation(SuperOffice.CRM.Services.MDOListItem[])
+  id: GetWebPanelsForNavigation(SuperOffice.CRM.Services.MDOListItem[])
+  parent: SuperOffice.CRM.Web.Controllers.WebPanelController
+  langs:
+  - csharp
+  - vb
+  name: GetWebPanelsForNavigation(MDOListItem[])
+  nameWithType: WebPanelController.GetWebPanelsForNavigation(MDOListItem[])
+  fullName: SuperOffice.CRM.Web.Controllers.WebPanelController.GetWebPanelsForNavigation(SuperOffice.CRM.Services.MDOListItem[])
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public MDOListItem[] GetWebPanelsForNavigation(MDOListItem[] source)
+    parameters:
+    - id: source
+      type: SuperOffice.CRM.Services.MDOListItem[]
+    return:
+      type: SuperOffice.CRM.Services.MDOListItem[]
+    content.vb: Public Function GetWebPanelsForNavigation(source As MDOListItem()) As MDOListItem()
+  overload: SuperOffice.CRM.Web.Controllers.WebPanelController.GetWebPanelsForNavigation*
+  nameWithType.vb: WebPanelController.GetWebPanelsForNavigation(MDOListItem())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Web.Controllers.WebPanelController.GetWebPanelsForNavigation(SuperOffice.CRM.Services.MDOListItem())
+  name.vb: GetWebPanelsForNavigation(MDOListItem())
+- uid: SuperOffice.CRM.Web.Controllers.WebPanelController.#ctor
+  commentId: M:SuperOffice.CRM.Web.Controllers.WebPanelController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Controllers.WebPanelController
+  langs:
+  - csharp
+  - vb
+  name: WebPanelController()
+  nameWithType: WebPanelController.WebPanelController()
+  fullName: SuperOffice.CRM.Web.Controllers.WebPanelController.WebPanelController()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public WebPanelController()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Controllers.WebPanelController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Controllers
+  commentId: N:SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperOffice.CRM.Web.Controllers
+  nameWithType: SuperOffice.CRM.Web.Controllers
+  fullName: SuperOffice.CRM.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Controllers.WebPanelController.GetWebPanelsForNavigation*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.WebPanelController.GetWebPanelsForNavigation
+  isExternal: true
+  name: GetWebPanelsForNavigation
+  nameWithType: WebPanelController.GetWebPanelsForNavigation
+  fullName: SuperOffice.CRM.Web.Controllers.WebPanelController.GetWebPanelsForNavigation
+- uid: SuperOffice.CRM.Services.MDOListItem[]
+  isExternal: true
+  name: MDOListItem[]
+  nameWithType: MDOListItem[]
+  fullName: SuperOffice.CRM.Services.MDOListItem[]
+  nameWithType.vb: MDOListItem()
+  fullName.vb: SuperOffice.CRM.Services.MDOListItem()
+  name.vb: MDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.Controllers.WebPanelController.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.WebPanelController.#ctor
+  isExternal: true
+  name: WebPanelController
+  nameWithType: WebPanelController.WebPanelController
+  fullName: SuperOffice.CRM.Web.Controllers.WebPanelController.WebPanelController

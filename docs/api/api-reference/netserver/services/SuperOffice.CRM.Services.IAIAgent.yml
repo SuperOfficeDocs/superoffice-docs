@@ -1,0 +1,256 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.IAIAgent
+  commentId: T:SuperOffice.CRM.Services.IAIAgent
+  id: IAIAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.IAIAgent.DetectLanguage(System.String)
+  - SuperOffice.CRM.Services.IAIAgent.DetectSentiment(System.String)
+  - SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.String,System.String)
+  - SuperOffice.CRM.Services.IAIAgent.TrainCategorizer
+  - SuperOffice.CRM.Services.IAIAgent.Translate(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IAIAgent
+  nameWithType: IAIAgent
+  fullName: SuperOffice.CRM.Services.IAIAgent
+  type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInterface for the AI Agent\nAI services, such as Translation, Statistics, Sentiment analysis, backed by calls to Public Cloud providers\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (AIAgent agent = new AIAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: >-
+      [Agent("AI Agent", "Interface for the AI Agent. AI services, such as Translation, Statistics, Sentiment analysis, backed by calls to Public Cloud providers")]
+
+      public interface IAIAgent : IAgent
+    content.vb: >-
+      <Agent("AI Agent", "Interface for the AI Agent. AI services, such as Translation, Statistics, Sentiment analysis, backed by calls to Public Cloud providers")>
+
+      Public Interface IAIAgent
+          Inherits IAgent
+  attributes:
+  - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
+    ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: AI Agent
+    - type: System.String
+      value: Interface for the AI Agent. AI services, such as Translation, Statistics, Sentiment analysis, backed by calls to Public Cloud providers
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Services.IAIAgent.DetectLanguage(System.String)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.DetectLanguage(System.String)
+  id: DetectLanguage(System.String)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: DetectLanguage(String)
+  nameWithType: IAIAgent.DetectLanguage(String)
+  fullName: SuperOffice.CRM.Services.IAIAgent.DetectLanguage(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGiven a (reasonably short) text, detect the language it is written in\n"
+  syntax:
+    content: string DetectLanguage(string text)
+    parameters:
+    - id: text
+      type: System.String
+      description: Text to be analyzed; there may be a cost-per-character so do not send a book here
+    return:
+      type: System.String
+      description: ISO Language code, such as NO, US, ES, FR
+    content.vb: Function DetectLanguage(text As String) As String
+  overload: SuperOffice.CRM.Services.IAIAgent.DetectLanguage*
+- uid: SuperOffice.CRM.Services.IAIAgent.DetectSentiment(System.String)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.DetectSentiment(System.String)
+  id: DetectSentiment(System.String)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: DetectSentiment(String)
+  nameWithType: IAIAgent.DetectSentiment(String)
+  fullName: SuperOffice.CRM.Services.IAIAgent.DetectSentiment(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDetect the sentiment of a (reasonably short) text. Sentiment analysis may cause a translation to be made, since sentiment analysis only supports a limited set of languages\n"
+  syntax:
+    content: Sentiment DetectSentiment(string text)
+    parameters:
+    - id: text
+      type: System.String
+      description: Text to be analyzed
+    return:
+      type: SuperOffice.CRM.Services.Sentiment
+      description: 'The sentiment information: score (-100 to +100) and confidence'
+    content.vb: Function DetectSentiment(text As String) As Sentiment
+  overload: SuperOffice.CRM.Services.IAIAgent.DetectSentiment*
+- uid: SuperOffice.CRM.Services.IAIAgent.Translate(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.Translate(System.String,System.String)
+  id: Translate(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: Translate(String, String)
+  nameWithType: IAIAgent.Translate(String, String)
+  fullName: SuperOffice.CRM.Services.IAIAgent.Translate(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTranslate a text from one language to another. Language of the text is automatically detected.\n"
+  syntax:
+    content: string Translate(string text, string targetLanguage)
+    parameters:
+    - id: text
+      type: System.String
+      description: Text to be translated. Language of the text is automatically detected.
+    - id: targetLanguage
+      type: System.String
+      description: ISO Language code (such as FR) to translate the text into.
+    return:
+      type: System.String
+      description: Translated text
+    content.vb: Function Translate(text As String, targetLanguage As String) As String
+  overload: SuperOffice.CRM.Services.IAIAgent.Translate*
+- uid: SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.String,System.String)
+  id: GuessCategory(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: GuessCategory(String, String)
+  nameWithType: IAIAgent.GuessCategory(String, String)
+  fullName: SuperOffice.CRM.Services.IAIAgent.GuessCategory(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGiven a ticket&apos;s subject and message body, guess the ticket category it should be placed in\n"
+  syntax:
+    content: string GuessCategory(string subject, string text)
+    parameters:
+    - id: subject
+      type: System.String
+      description: Ticket subject
+    - id: text
+      type: System.String
+      description: Ticket body text (not HTML)
+    return:
+      type: System.String
+      description: Suggested ticket category full name
+    content.vb: Function GuessCategory(subject As String, text As String) As String
+  overload: SuperOffice.CRM.Services.IAIAgent.GuessCategory*
+- uid: SuperOffice.CRM.Services.IAIAgent.TrainCategorizer
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.TrainCategorizer
+  id: TrainCategorizer
+  parent: SuperOffice.CRM.Services.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: TrainCategorizer()
+  nameWithType: IAIAgent.TrainCategorizer()
+  fullName: SuperOffice.CRM.Services.IAIAgent.TrainCategorizer()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrain categorizer with a \n"
+  syntax:
+    content: string TrainCategorizer()
+    return:
+      type: System.String
+      description: NULL on success, or Error message if something went wrong.
+    content.vb: Function TrainCategorizer As String
+  overload: SuperOffice.CRM.Services.IAIAgent.TrainCategorizer*
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.IAIAgent.DetectLanguage*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.DetectLanguage
+  isExternal: true
+  name: DetectLanguage
+  nameWithType: IAIAgent.DetectLanguage
+  fullName: SuperOffice.CRM.Services.IAIAgent.DetectLanguage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.IAIAgent.DetectSentiment*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.DetectSentiment
+  isExternal: true
+  name: DetectSentiment
+  nameWithType: IAIAgent.DetectSentiment
+  fullName: SuperOffice.CRM.Services.IAIAgent.DetectSentiment
+- uid: SuperOffice.CRM.Services.Sentiment
+  commentId: T:SuperOffice.CRM.Services.Sentiment
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Sentiment
+  nameWithType: Sentiment
+  fullName: SuperOffice.CRM.Services.Sentiment
+- uid: SuperOffice.CRM.Services.IAIAgent.Translate*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.Translate
+  isExternal: true
+  name: Translate
+  nameWithType: IAIAgent.Translate
+  fullName: SuperOffice.CRM.Services.IAIAgent.Translate
+- uid: SuperOffice.CRM.Services.IAIAgent.GuessCategory*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.GuessCategory
+  isExternal: true
+  name: GuessCategory
+  nameWithType: IAIAgent.GuessCategory
+  fullName: SuperOffice.CRM.Services.IAIAgent.GuessCategory
+- uid: SuperOffice.CRM.Services.IAIAgent.TrainCategorizer*
+  commentId: Overload:SuperOffice.CRM.Services.IAIAgent.TrainCategorizer
+  isExternal: true
+  name: TrainCategorizer
+  nameWithType: IAIAgent.TrainCategorizer
+  fullName: SuperOffice.CRM.Services.IAIAgent.TrainCategorizer

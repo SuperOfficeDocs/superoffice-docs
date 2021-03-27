@@ -1,0 +1,996 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1
+  commentId: T:SuperOffice.Threading.ParallelConsumerQueue`1
+  id: ParallelConsumerQueue`1
+  parent: SuperOffice.Threading
+  children:
+  - SuperOffice.Threading.ParallelConsumerQueue`1.#ctor
+  - SuperOffice.Threading.ParallelConsumerQueue`1.#ctor(System.Int32)
+  - SuperOffice.Threading.ParallelConsumerQueue`1.Consume(System.Int32,System.Action{`0})
+  - SuperOffice.Threading.ParallelConsumerQueue`1.Count
+  - SuperOffice.Threading.ParallelConsumerQueue`1.Dequeue
+  - SuperOffice.Threading.ParallelConsumerQueue`1.Enqueue(`0)
+  - SuperOffice.Threading.ParallelConsumerQueue`1.Peek
+  - SuperOffice.Threading.ParallelConsumerQueue`1.StartConsumers(System.Int32,System.Action{`0})
+  - SuperOffice.Threading.ParallelConsumerQueue`1.StopConsumers
+  langs:
+  - csharp
+  - vb
+  name: ParallelConsumerQueue<T>
+  nameWithType: ParallelConsumerQueue<T>
+  fullName: SuperOffice.Threading.ParallelConsumerQueue<T>
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  summary: "\nA simple, threadsafe/blocking implementation of Queue for ordinary operations. Note: please <strong>read the remarks</strong> to understand\nthe differences between this class and the ordinary <see cref=\"!:System.Collections.Generic.Queue\"></see> class.\nAlso contains methods to easily have multiple, identical consumer threads.\n"
+  remarks: "\nThis class has slightly different behaviour, as follows:\n<ul><li>Enqueue, Dequeue and Count are thread-safe</li><li>If the queue is empty, Dequeue will <strong>block</strong> instead of throwing an exception</li><li>If the queue is &quot;full&quot; (maxCapacity specified in constructor has been reached), then Enqueue will block</li><li>Peek <strong>will</strong> throw an exception if called while the queue is empty</li><li>Enumeration, and thus all kinds of LINQ operations, are <strong>not</strong> threadsafe</li></ul>\nThe purpose of this class is to be used in a producer/consumer scenario, where the producer thread adds to the queue\nwhile the consumer thread feeds off the queue. The producer thread should block if the queue becomes too large,\nwhile the consumer thread should block until work becomes available.\n<p></p>\nThere is no explicit method to signal &quot;end-of-processing&quot; to the consumer, but pushing NULL on the\nqueue as an end marker is a simple way to do it - generally valid queue items will not be null.\n<p></p>\nThe <xref href=\"SuperOffice.Threading.ParallelConsumerQueue%601.StartConsumers(System.Int32%2cSystem.Action%7b%600%7d)\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.Threading.ParallelConsumerQueue%601.StopConsumers\" data-throw-if-not-resolved=\"false\"></xref> methods are used if you have a consumer method to be run in its own thread,\nand you want one or more such to be easily started and stopped.\n"
+  syntax:
+    content: 'public class ParallelConsumerQueue<T> : Queue<T> where T : class'
+    typeParameters:
+    - id: T
+    content.vb: >-
+      Public Class ParallelConsumerQueue(Of T As Class)
+          Inherits Queue(Of T)
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Threading.ParallelConsumerQueue`1.EnumUtil.MapEnums``2
+  - SuperOffice.Threading.ParallelConsumerQueue`1.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Threading.ParallelConsumerQueue{{T}})
+  - SuperOffice.Threading.ParallelConsumerQueue`1.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Threading.ParallelConsumerQueue`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  nameWithType.vb: ParallelConsumerQueue(Of T)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue(Of T)
+  name.vb: ParallelConsumerQueue(Of T)
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1.#ctor
+  commentId: M:SuperOffice.Threading.ParallelConsumerQueue`1.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Threading.ParallelConsumerQueue`1
+  langs:
+  - csharp
+  - vb
+  name: ParallelConsumerQueue()
+  nameWithType: ParallelConsumerQueue<T>.ParallelConsumerQueue()
+  fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.ParallelConsumerQueue()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  summary: "\nInitialize a queue with no upper limit on the number of elements\n"
+  syntax:
+    content: public ParallelConsumerQueue()
+    content.vb: Public Sub New
+  overload: SuperOffice.Threading.ParallelConsumerQueue`1.#ctor*
+  nameWithType.vb: ParallelConsumerQueue(Of T).ParallelConsumerQueue()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue(Of T).ParallelConsumerQueue()
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1.#ctor(System.Int32)
+  commentId: M:SuperOffice.Threading.ParallelConsumerQueue`1.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: SuperOffice.Threading.ParallelConsumerQueue`1
+  langs:
+  - csharp
+  - vb
+  name: ParallelConsumerQueue(Int32)
+  nameWithType: ParallelConsumerQueue<T>.ParallelConsumerQueue(Int32)
+  fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.ParallelConsumerQueue(System.Int32)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  summary: "\nInitialize a queue with a maximum capacity; attempts to add more elements will block until\ncapacity becomes available\n"
+  syntax:
+    content: public ParallelConsumerQueue(int maxCapacity)
+    parameters:
+    - id: maxCapacity
+      type: System.Int32
+      description: Maximum capacity; queue is also preallocated to this size so insertions are <strong>O(1)</strong>
+    content.vb: Public Sub New(maxCapacity As Integer)
+  overload: SuperOffice.Threading.ParallelConsumerQueue`1.#ctor*
+  nameWithType.vb: ParallelConsumerQueue(Of T).ParallelConsumerQueue(Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue(Of T).ParallelConsumerQueue(System.Int32)
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1.Enqueue(`0)
+  commentId: M:SuperOffice.Threading.ParallelConsumerQueue`1.Enqueue(`0)
+  id: Enqueue(`0)
+  parent: SuperOffice.Threading.ParallelConsumerQueue`1
+  langs:
+  - csharp
+  - vb
+  name: Enqueue(T)
+  nameWithType: ParallelConsumerQueue<T>.Enqueue(T)
+  fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.Enqueue(T)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  summary: "\nLock the queue, add an element, and signal the internal semaphore\n"
+  syntax:
+    content: public void Enqueue(T item)
+    parameters:
+    - id: item
+      type: '{T}'
+      description: Item to add to queue
+    content.vb: Public Sub Enqueue(item As T)
+  overload: SuperOffice.Threading.ParallelConsumerQueue`1.Enqueue*
+  nameWithType.vb: ParallelConsumerQueue(Of T).Enqueue(T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue(Of T).Enqueue(T)
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1.Dequeue
+  commentId: M:SuperOffice.Threading.ParallelConsumerQueue`1.Dequeue
+  id: Dequeue
+  parent: SuperOffice.Threading.ParallelConsumerQueue`1
+  langs:
+  - csharp
+  - vb
+  name: Dequeue()
+  nameWithType: ParallelConsumerQueue<T>.Dequeue()
+  fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.Dequeue()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  summary: "\nWait until semaphore signals items available, then lock and dequeue an item\n"
+  syntax:
+    content: public T Dequeue()
+    return:
+      type: '{T}'
+      description: Oldest element in queue, which is removed from it
+    content.vb: Public Function Dequeue As T
+  overload: SuperOffice.Threading.ParallelConsumerQueue`1.Dequeue*
+  nameWithType.vb: ParallelConsumerQueue(Of T).Dequeue()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue(Of T).Dequeue()
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1.Peek
+  commentId: M:SuperOffice.Threading.ParallelConsumerQueue`1.Peek
+  id: Peek
+  parent: SuperOffice.Threading.ParallelConsumerQueue`1
+  langs:
+  - csharp
+  - vb
+  name: Peek()
+  nameWithType: ParallelConsumerQueue<T>.Peek()
+  fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.Peek()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  summary: "\nReturn the first element of the queue if available, otherwise throw an exception like the base class\n"
+  syntax:
+    content: public T Peek()
+    return:
+      type: '{T}'
+      description: Oldest element in queue, but does not modify queue contents
+    content.vb: Public Function Peek As T
+  overload: SuperOffice.Threading.ParallelConsumerQueue`1.Peek*
+  nameWithType.vb: ParallelConsumerQueue(Of T).Peek()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue(Of T).Peek()
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1.StartConsumers(System.Int32,System.Action{`0})
+  commentId: M:SuperOffice.Threading.ParallelConsumerQueue`1.StartConsumers(System.Int32,System.Action{`0})
+  id: StartConsumers(System.Int32,System.Action{`0})
+  parent: SuperOffice.Threading.ParallelConsumerQueue`1
+  langs:
+  - csharp
+  - vb
+  name: StartConsumers(Int32, Action<T>)
+  nameWithType: ParallelConsumerQueue<T>.StartConsumers(Int32, Action<T>)
+  fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.StartConsumers(System.Int32, System.Action<T>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  summary: "\nStart <strong>n</strong> simultaneous consumer threads, each running the same code. The consumer methods have to take a single\nparameter, a queue item, and are called whenever there is something on the queue (items are <xref href=\"SuperOffice.Threading.ParallelConsumerQueue%601.Dequeue\" data-throw-if-not-resolved=\"false\"></xref>&apos;d\nand the consumer method invoked once per item). null items cannot be used as they signal end-of-work on the queue\n"
+  syntax:
+    content: public AsyncContext[] StartConsumers(int numberOfThreads, Action<T> consumerAction)
+    parameters:
+    - id: numberOfThreads
+      type: System.Int32
+      description: Number of consumer threads to run
+    - id: consumerAction
+      type: System.Action{{T}}
+      description: >-
+        Method to be invoked per item to be consumed - the method should
+
+        <strong>not</strong> call <see cref="!:Deque"></see> as that has already been done
+    return:
+      type: SuperOffice.Threading.AsyncContext[]
+    content.vb: Public Function StartConsumers(numberOfThreads As Integer, consumerAction As Action(Of T)) As AsyncContext()
+  overload: SuperOffice.Threading.ParallelConsumerQueue`1.StartConsumers*
+  nameWithType.vb: ParallelConsumerQueue(Of T).StartConsumers(Int32, Action(Of T))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue(Of T).StartConsumers(System.Int32, System.Action(Of T))
+  name.vb: StartConsumers(Int32, Action(Of T))
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1.StopConsumers
+  commentId: M:SuperOffice.Threading.ParallelConsumerQueue`1.StopConsumers
+  id: StopConsumers
+  parent: SuperOffice.Threading.ParallelConsumerQueue`1
+  langs:
+  - csharp
+  - vb
+  name: StopConsumers()
+  nameWithType: ParallelConsumerQueue<T>.StopConsumers()
+  fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.StopConsumers()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  summary: "\nPush a null (end mark) on the queue, for each known consumer thread\n"
+  syntax:
+    content: public void StopConsumers()
+    content.vb: Public Sub StopConsumers
+  overload: SuperOffice.Threading.ParallelConsumerQueue`1.StopConsumers*
+  nameWithType.vb: ParallelConsumerQueue(Of T).StopConsumers()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue(Of T).StopConsumers()
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1.Consume(System.Int32,System.Action{`0})
+  commentId: M:SuperOffice.Threading.ParallelConsumerQueue`1.Consume(System.Int32,System.Action{`0})
+  id: Consume(System.Int32,System.Action{`0})
+  parent: SuperOffice.Threading.ParallelConsumerQueue`1
+  langs:
+  - csharp
+  - vb
+  name: Consume(Int32, Action<T>)
+  nameWithType: ParallelConsumerQueue<T>.Consume(Int32, Action<T>)
+  fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.Consume(System.Int32, System.Action<T>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  summary: "\nFactory method for a context object, suitable for <strong>using</strong> syntax\n"
+  remarks: "\nAn alternative to manually calling <xref href=\"SuperOffice.Threading.ParallelConsumerQueue%601.StartConsumers(System.Int32%2cSystem.Action%7b%600%7d)\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.Threading.ParallelConsumerQueue%601.StopConsumers\" data-throw-if-not-resolved=\"false\"></xref> is to use this method\nto obtain a disposable context class. Entering the using clause starts the consumers, and exiting it will cause the\nmain thread to block until all the work items in the queue have been consumed; end marks are pushed and the consumer \nthreads terminate. The main thread will the continue past the end of the using scope.\n<example>\nThis example is simplified for brevity. It shows how a queue with a limited capacity is set up,\nhow a variable number of parallel threads to process items are started, and how the consumer\nmethod is created. Note the absence of calls to Dequeue, and no explicit thread management.\n<pre><code>ParallelConsumerQueue>BulkImportInfo&lt; queue = new ParallelConsumerQueue>BulkImportInfo&lt;(5);\n// start the consumer threads, and then iterate over incoming data, queuing up batches\nusing (queue.Consume(NumShipoutThreads, WriteBulkRows))\n{\n	// pull data from the enumerable\n	DataTable batchBuffer = null;\n	foreach (object[] row in rows)\n	{\n		...\n		// if the batch is full, then ship it via the queue (blocks if the queue is &quot;full&quot;)\n		if (rowsInBatch == ShipoutBatchSize)\n		{\n			queue.Enqueue(new BulkImportInfo() { Data = batchBuffer, Table = table });\n			rowsInBatch = 0;\n		}\n	}\n}\n...\nprotected override void WriteBulkRows(BulkImportInfo importInfo)\n{\n	using (SqlBulkCopy bcp = new SqlBulkCopy(rawConn))\n	{\n		bcp.DestinationTableName = SoDatabase.GetCurrent().TablePrefix + &quot;.&quot; + importInfo.Table.DbName;\n		bcp.WriteToServer(importInfo.Data);\n	}\n}</code></pre>\n</example>\n"
+  syntax:
+    content: public ParallelConsumerQueue<T>.ConsumerContext<T> Consume(int threadCount, Action<T> consumerAction)
+    parameters:
+    - id: threadCount
+      type: System.Int32
+    - id: consumerAction
+      type: System.Action{{T}}
+    return:
+      type: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext{{T}}
+    content.vb: Public Function Consume(threadCount As Integer, consumerAction As Action(Of T)) As ParallelConsumerQueue(Of T).ConsumerContext(Of T)
+  overload: SuperOffice.Threading.ParallelConsumerQueue`1.Consume*
+  nameWithType.vb: ParallelConsumerQueue(Of T).Consume(Int32, Action(Of T))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue(Of T).Consume(System.Int32, System.Action(Of T))
+  name.vb: Consume(Int32, Action(Of T))
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1.Count
+  commentId: P:SuperOffice.Threading.ParallelConsumerQueue`1.Count
+  id: Count
+  parent: SuperOffice.Threading.ParallelConsumerQueue`1
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: ParallelConsumerQueue<T>.Count
+  fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.Count
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Threading
+  summary: "\nReturn the number of items in the queue\n"
+  syntax:
+    content: public int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Count As Integer
+  overload: SuperOffice.Threading.ParallelConsumerQueue`1.Count*
+  nameWithType.vb: ParallelConsumerQueue(Of T).Count
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue(Of T).Count
+references:
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ParallelConsumerQueue<T>, To>()
+  nameWithType: EnumUtil.MapEnums<ParallelConsumerQueue<T>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Threading.ParallelConsumerQueue<T>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ParallelConsumerQueue(Of T), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.ParallelConsumerQueue(Of T), To)()
+  name.vb: MapEnums(Of ParallelConsumerQueue(Of T), To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ParallelConsumerQueue<T>, To>
+    nameWithType: EnumUtil.MapEnums<ParallelConsumerQueue<T>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Threading.ParallelConsumerQueue<T>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ParallelConsumerQueue(Of T), To)
+    nameWithType: EnumUtil.MapEnums(Of ParallelConsumerQueue(Of T), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Threading.ParallelConsumerQueue(Of T), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Threading.ParallelConsumerQueue{{T}})
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ParallelConsumerQueue<T>>(ParallelConsumerQueue<T>)
+  nameWithType: ObjectExtensions.AssignByReflection<ParallelConsumerQueue<T>>(ParallelConsumerQueue<T>)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Threading.ParallelConsumerQueue<T>>(SuperOffice.Threading.ParallelConsumerQueue<T>)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ParallelConsumerQueue(Of T))(ParallelConsumerQueue(Of T))
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Threading.ParallelConsumerQueue(Of T))(SuperOffice.Threading.ParallelConsumerQueue(Of T))
+  name.vb: AssignByReflection(Of ParallelConsumerQueue(Of T))(ParallelConsumerQueue(Of T))
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ParallelConsumerQueue<T>>
+    nameWithType: ObjectExtensions.AssignByReflection<ParallelConsumerQueue<T>>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Threading.ParallelConsumerQueue<T>>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.ParallelConsumerQueue`1
+    name: ParallelConsumerQueue
+    nameWithType: ParallelConsumerQueue
+    fullName: SuperOffice.Threading.ParallelConsumerQueue
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ParallelConsumerQueue(Of T))
+    nameWithType: ObjectExtensions.AssignByReflection(Of ParallelConsumerQueue(Of T))
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Threading.ParallelConsumerQueue(Of T))
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.ParallelConsumerQueue`1
+    name: ParallelConsumerQueue
+    nameWithType: ParallelConsumerQueue
+    fullName: SuperOffice.Threading.ParallelConsumerQueue
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ParallelConsumerQueue<T>>()
+  nameWithType: ObjectExtensions.GraphCopy<ParallelConsumerQueue<T>>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Threading.ParallelConsumerQueue<T>>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ParallelConsumerQueue(Of T))()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Threading.ParallelConsumerQueue(Of T))()
+  name.vb: GraphCopy(Of ParallelConsumerQueue(Of T))()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ParallelConsumerQueue<T>>
+    nameWithType: ObjectExtensions.GraphCopy<ParallelConsumerQueue<T>>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Threading.ParallelConsumerQueue<T>>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ParallelConsumerQueue(Of T))
+    nameWithType: ObjectExtensions.GraphCopy(Of ParallelConsumerQueue(Of T))
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Threading.ParallelConsumerQueue(Of T))
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ParallelConsumerQueue<T>, To>()
+  nameWithType: Converters.MapEnums<ParallelConsumerQueue<T>, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.ParallelConsumerQueue<T>, To>()
+  nameWithType.vb: Converters.MapEnums(Of ParallelConsumerQueue(Of T), To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.ParallelConsumerQueue(Of T), To)()
+  name.vb: MapEnums(Of ParallelConsumerQueue(Of T), To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ParallelConsumerQueue<T>, To>
+    nameWithType: Converters.MapEnums<ParallelConsumerQueue<T>, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.ParallelConsumerQueue<T>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ParallelConsumerQueue(Of T), To)
+    nameWithType: Converters.MapEnums(Of ParallelConsumerQueue(Of T), To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.ParallelConsumerQueue(Of T), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1.#ctor*
+  commentId: Overload:SuperOffice.Threading.ParallelConsumerQueue`1.#ctor
+  isExternal: true
+  name: ParallelConsumerQueue
+  nameWithType: ParallelConsumerQueue<T>.ParallelConsumerQueue
+  fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.ParallelConsumerQueue
+  nameWithType.vb: ParallelConsumerQueue(Of T).ParallelConsumerQueue
+  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue(Of T).ParallelConsumerQueue
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1.Enqueue*
+  commentId: Overload:SuperOffice.Threading.ParallelConsumerQueue`1.Enqueue
+  isExternal: true
+  name: Enqueue
+  nameWithType: ParallelConsumerQueue<T>.Enqueue
+  fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.Enqueue
+  nameWithType.vb: ParallelConsumerQueue(Of T).Enqueue
+  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue(Of T).Enqueue
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1.Dequeue*
+  commentId: Overload:SuperOffice.Threading.ParallelConsumerQueue`1.Dequeue
+  isExternal: true
+  name: Dequeue
+  nameWithType: ParallelConsumerQueue<T>.Dequeue
+  fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.Dequeue
+  nameWithType.vb: ParallelConsumerQueue(Of T).Dequeue
+  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue(Of T).Dequeue
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1.Peek*
+  commentId: Overload:SuperOffice.Threading.ParallelConsumerQueue`1.Peek
+  isExternal: true
+  name: Peek
+  nameWithType: ParallelConsumerQueue<T>.Peek
+  fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.Peek
+  nameWithType.vb: ParallelConsumerQueue(Of T).Peek
+  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue(Of T).Peek
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1.StartConsumers*
+  commentId: Overload:SuperOffice.Threading.ParallelConsumerQueue`1.StartConsumers
+  isExternal: true
+  name: StartConsumers
+  nameWithType: ParallelConsumerQueue<T>.StartConsumers
+  fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.StartConsumers
+  nameWithType.vb: ParallelConsumerQueue(Of T).StartConsumers
+  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue(Of T).StartConsumers
+- uid: System.Action{{T}}
+  commentId: T:System.Action{`0}
+  parent: System
+  definition: System.Action`1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsyncContext[]
+  isExternal: true
+  name: AsyncContext[]
+  nameWithType: AsyncContext[]
+  fullName: SuperOffice.Threading.AsyncContext[]
+  nameWithType.vb: AsyncContext()
+  fullName.vb: SuperOffice.Threading.AsyncContext()
+  name.vb: AsyncContext()
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncContext
+    name: AsyncContext
+    nameWithType: AsyncContext
+    fullName: SuperOffice.Threading.AsyncContext
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncContext
+    name: AsyncContext
+    nameWithType: AsyncContext
+    fullName: SuperOffice.Threading.AsyncContext
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1.StopConsumers*
+  commentId: Overload:SuperOffice.Threading.ParallelConsumerQueue`1.StopConsumers
+  isExternal: true
+  name: StopConsumers
+  nameWithType: ParallelConsumerQueue<T>.StopConsumers
+  fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.StopConsumers
+  nameWithType.vb: ParallelConsumerQueue(Of T).StopConsumers
+  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue(Of T).StopConsumers
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1.Consume*
+  commentId: Overload:SuperOffice.Threading.ParallelConsumerQueue`1.Consume
+  isExternal: true
+  name: Consume
+  nameWithType: ParallelConsumerQueue<T>.Consume
+  fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.Consume
+  nameWithType.vb: ParallelConsumerQueue(Of T).Consume
+  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue(Of T).Consume
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext{{T}}
+  commentId: T:SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext{`0}
+  parent: SuperOffice.Threading
+  definition: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext`1
+  name: ParallelConsumerQueue.ConsumerContext<T>
+  nameWithType: ParallelConsumerQueue.ConsumerContext<T>
+  fullName: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext<T>
+  nameWithType.vb: ParallelConsumerQueue.ConsumerContext(Of T)
+  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext(Of T)
+  name.vb: ParallelConsumerQueue.ConsumerContext(Of T)
+  spec.csharp:
+  - uid: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext`1
+    name: ParallelConsumerQueue.ConsumerContext
+    nameWithType: ParallelConsumerQueue.ConsumerContext
+    fullName: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext`1
+    name: ParallelConsumerQueue.ConsumerContext
+    nameWithType: ParallelConsumerQueue.ConsumerContext
+    fullName: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext`1
+  commentId: T:SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext`1
+  isExternal: true
+  name: ParallelConsumerQueue.ConsumerContext<T>
+  nameWithType: ParallelConsumerQueue.ConsumerContext<T>
+  fullName: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext<T>
+  nameWithType.vb: ParallelConsumerQueue.ConsumerContext(Of T)
+  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext(Of T)
+  name.vb: ParallelConsumerQueue.ConsumerContext(Of T)
+  spec.csharp:
+  - uid: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext`1
+    name: ParallelConsumerQueue.ConsumerContext
+    nameWithType: ParallelConsumerQueue.ConsumerContext
+    fullName: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext`1
+    name: ParallelConsumerQueue.ConsumerContext
+    nameWithType: ParallelConsumerQueue.ConsumerContext
+    fullName: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.ParallelConsumerQueue`1.Count*
+  commentId: Overload:SuperOffice.Threading.ParallelConsumerQueue`1.Count
+  isExternal: true
+  name: Count
+  nameWithType: ParallelConsumerQueue<T>.Count
+  fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.Count
+  nameWithType.vb: ParallelConsumerQueue(Of T).Count
+  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue(Of T).Count

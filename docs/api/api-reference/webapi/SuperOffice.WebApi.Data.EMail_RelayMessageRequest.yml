@@ -1,0 +1,273 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_RelayMessageRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_RelayMessageRequest
+  id: EMail_RelayMessageRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_RelayMessageRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_RelayMessageRequest.ConnectionInfoExtended
+  - SuperOffice.WebApi.Data.EMail_RelayMessageRequest.From
+  - SuperOffice.WebApi.Data.EMail_RelayMessageRequest.Recipients
+  - SuperOffice.WebApi.Data.EMail_RelayMessageRequest.Rfc822
+  langs:
+  - csharp
+  - vb
+  name: EMail_RelayMessageRequest
+  nameWithType: EMail_RelayMessageRequest
+  fullName: SuperOffice.WebApi.Data.EMail_RelayMessageRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_RelayMessageRequest : Object'
+    content.vb: >-
+      Public Class EMail_RelayMessageRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_RelayMessageRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_RelayMessageRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_RelayMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_RelayMessageRequest()
+  nameWithType: EMail_RelayMessageRequest.EMail_RelayMessageRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_RelayMessageRequest.EMail_RelayMessageRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_RelayMessageRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_RelayMessageRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_RelayMessageRequest.ConnectionInfoExtended
+  commentId: P:SuperOffice.WebApi.Data.EMail_RelayMessageRequest.ConnectionInfoExtended
+  id: ConnectionInfoExtended
+  parent: SuperOffice.WebApi.Data.EMail_RelayMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: ConnectionInfoExtended
+  nameWithType: EMail_RelayMessageRequest.ConnectionInfoExtended
+  fullName: SuperOffice.WebApi.Data.EMail_RelayMessageRequest.ConnectionInfoExtended
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMailConnectionInfoExtended ConnectionInfoExtended { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EMailConnectionInfoExtended
+    content.vb: Public Property ConnectionInfoExtended As EMailConnectionInfoExtended
+  overload: SuperOffice.WebApi.Data.EMail_RelayMessageRequest.ConnectionInfoExtended*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_RelayMessageRequest.Rfc822
+  commentId: P:SuperOffice.WebApi.Data.EMail_RelayMessageRequest.Rfc822
+  id: Rfc822
+  parent: SuperOffice.WebApi.Data.EMail_RelayMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: Rfc822
+  nameWithType: EMail_RelayMessageRequest.Rfc822
+  fullName: SuperOffice.WebApi.Data.EMail_RelayMessageRequest.Rfc822
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Rfc822 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Rfc822 As String
+  overload: SuperOffice.WebApi.Data.EMail_RelayMessageRequest.Rfc822*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_RelayMessageRequest.From
+  commentId: P:SuperOffice.WebApi.Data.EMail_RelayMessageRequest.From
+  id: From
+  parent: SuperOffice.WebApi.Data.EMail_RelayMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: From
+  nameWithType: EMail_RelayMessageRequest.From
+  fullName: SuperOffice.WebApi.Data.EMail_RelayMessageRequest.From
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string From { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property From As String
+  overload: SuperOffice.WebApi.Data.EMail_RelayMessageRequest.From*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_RelayMessageRequest.Recipients
+  commentId: P:SuperOffice.WebApi.Data.EMail_RelayMessageRequest.Recipients
+  id: Recipients
+  parent: SuperOffice.WebApi.Data.EMail_RelayMessageRequest
+  langs:
+  - csharp
+  - vb
+  name: Recipients
+  nameWithType: EMail_RelayMessageRequest.Recipients
+  fullName: SuperOffice.WebApi.Data.EMail_RelayMessageRequest.Recipients
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string[] Recipients { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property Recipients As String()
+  overload: SuperOffice.WebApi.Data.EMail_RelayMessageRequest.Recipients*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_RelayMessageRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_RelayMessageRequest.#ctor
+  isExternal: true
+  name: EMail_RelayMessageRequest
+  nameWithType: EMail_RelayMessageRequest.EMail_RelayMessageRequest
+  fullName: SuperOffice.WebApi.Data.EMail_RelayMessageRequest.EMail_RelayMessageRequest
+- uid: SuperOffice.WebApi.Data.EMail_RelayMessageRequest.ConnectionInfoExtended*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_RelayMessageRequest.ConnectionInfoExtended
+  isExternal: true
+  name: ConnectionInfoExtended
+  nameWithType: EMail_RelayMessageRequest.ConnectionInfoExtended
+  fullName: SuperOffice.WebApi.Data.EMail_RelayMessageRequest.ConnectionInfoExtended
+- uid: SuperOffice.WebApi.Data.EMailConnectionInfoExtended
+  commentId: T:SuperOffice.WebApi.Data.EMailConnectionInfoExtended
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EMailConnectionInfoExtended
+  nameWithType: EMailConnectionInfoExtended
+  fullName: SuperOffice.WebApi.Data.EMailConnectionInfoExtended
+- uid: SuperOffice.WebApi.Data.EMail_RelayMessageRequest.Rfc822*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_RelayMessageRequest.Rfc822
+  isExternal: true
+  name: Rfc822
+  nameWithType: EMail_RelayMessageRequest.Rfc822
+  fullName: SuperOffice.WebApi.Data.EMail_RelayMessageRequest.Rfc822
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.EMail_RelayMessageRequest.From*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_RelayMessageRequest.From
+  isExternal: true
+  name: From
+  nameWithType: EMail_RelayMessageRequest.From
+  fullName: SuperOffice.WebApi.Data.EMail_RelayMessageRequest.From
+- uid: SuperOffice.WebApi.Data.EMail_RelayMessageRequest.Recipients*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_RelayMessageRequest.Recipients
+  isExternal: true
+  name: Recipients
+  nameWithType: EMail_RelayMessageRequest.Recipients
+  fullName: SuperOffice.WebApi.Data.EMail_RelayMessageRequest.Recipients
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

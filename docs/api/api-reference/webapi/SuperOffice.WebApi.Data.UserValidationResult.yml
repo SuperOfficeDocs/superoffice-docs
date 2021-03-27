@@ -1,0 +1,215 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserValidationResult
+  commentId: T:SuperOffice.WebApi.Data.UserValidationResult
+  id: UserValidationResult
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserValidationResult.#ctor
+  - SuperOffice.WebApi.Data.UserValidationResult.Reason
+  - SuperOffice.WebApi.Data.UserValidationResult.Result
+  langs:
+  - csharp
+  - vb
+  name: UserValidationResult
+  nameWithType: UserValidationResult
+  fullName: SuperOffice.WebApi.Data.UserValidationResult
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for UserValidationResult.\n\n"
+  syntax:
+    content: 'public class UserValidationResult : Carrier'
+    content.vb: >-
+      Public Class UserValidationResult
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.UserAgent
+    commentId: T:SuperOffice.WebApi.Agents.UserAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.UserValidationResult.#ctor
+  commentId: M:SuperOffice.WebApi.Data.UserValidationResult.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.UserValidationResult
+  langs:
+  - csharp
+  - vb
+  name: UserValidationResult()
+  nameWithType: UserValidationResult.UserValidationResult()
+  fullName: SuperOffice.WebApi.Data.UserValidationResult.UserValidationResult()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public UserValidationResult()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.UserValidationResult.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserValidationResult.Reason
+  commentId: P:SuperOffice.WebApi.Data.UserValidationResult.Reason
+  id: Reason
+  parent: SuperOffice.WebApi.Data.UserValidationResult
+  langs:
+  - csharp
+  - vb
+  name: Reason
+  nameWithType: UserValidationResult.Reason
+  fullName: SuperOffice.WebApi.Data.UserValidationResult.Reason
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual string Reason { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Reason As String
+  overload: SuperOffice.WebApi.Data.UserValidationResult.Reason*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserValidationResult.Result
+  commentId: P:SuperOffice.WebApi.Data.UserValidationResult.Result
+  id: Result
+  parent: SuperOffice.WebApi.Data.UserValidationResult
+  langs:
+  - csharp
+  - vb
+  name: Result
+  nameWithType: UserValidationResult.Result
+  fullName: SuperOffice.WebApi.Data.UserValidationResult.Result
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual bool Result { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Result As Boolean
+  overload: SuperOffice.WebApi.Data.UserValidationResult.Result*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.UserAgent
+  commentId: T:SuperOffice.WebApi.Agents.UserAgent
+  isExternal: true
+  name: UserAgent
+  nameWithType: UserAgent
+  fullName: SuperOffice.WebApi.Agents.UserAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.UserValidationResult.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.UserValidationResult.#ctor
+  isExternal: true
+  name: UserValidationResult
+  nameWithType: UserValidationResult.UserValidationResult
+  fullName: SuperOffice.WebApi.Data.UserValidationResult.UserValidationResult
+- uid: SuperOffice.WebApi.Data.UserValidationResult.Reason*
+  commentId: Overload:SuperOffice.WebApi.Data.UserValidationResult.Reason
+  isExternal: true
+  name: Reason
+  nameWithType: UserValidationResult.Reason
+  fullName: SuperOffice.WebApi.Data.UserValidationResult.Reason
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.UserValidationResult.Result*
+  commentId: Overload:SuperOffice.WebApi.Data.UserValidationResult.Result
+  isExternal: true
+  name: Result
+  nameWithType: UserValidationResult.Result
+  fullName: SuperOffice.WebApi.Data.UserValidationResult.Result
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -1,0 +1,482 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.ErpSyncResponseCode
+  commentId: T:SuperOffice.Data.ErpSyncResponseCode
+  id: ErpSyncResponseCode
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.ErpSyncResponseCode.ErrorConnectorHasConnections
+  - SuperOffice.Data.ErpSyncResponseCode.ErrorNotFound
+  - SuperOffice.Data.ErpSyncResponseCode.NoError
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncResponseCode
+  nameWithType: ErpSyncResponseCode
+  fullName: SuperOffice.Data.ErpSyncResponseCode
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nResponse codes used by ErpSync services\n"
+  syntax:
+    content: public enum ErpSyncResponseCode
+    content.vb: Public Enum ErpSyncResponseCode
+  extensionMethods:
+  - SuperOffice.Data.ErpSyncResponseCode.EnumUtil.MapEnums``2
+  - SuperOffice.Data.ErpSyncResponseCode.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ErpSyncResponseCode)
+  - SuperOffice.Data.ErpSyncResponseCode.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.ErpSyncResponseCode.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.ErpSyncResponseCode.NoError
+  commentId: F:SuperOffice.Data.ErpSyncResponseCode.NoError
+  id: NoError
+  parent: SuperOffice.Data.ErpSyncResponseCode
+  langs:
+  - csharp
+  - vb
+  name: NoError
+  nameWithType: ErpSyncResponseCode.NoError
+  fullName: SuperOffice.Data.ErpSyncResponseCode.NoError
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: No error\n"
+  syntax:
+    content: NoError = 0
+    return:
+      type: SuperOffice.Data.ErpSyncResponseCode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ErpSyncResponseCode.ErrorConnectorHasConnections
+  commentId: F:SuperOffice.Data.ErpSyncResponseCode.ErrorConnectorHasConnections
+  id: ErrorConnectorHasConnections
+  parent: SuperOffice.Data.ErpSyncResponseCode
+  langs:
+  - csharp
+  - vb
+  name: ErrorConnectorHasConnections
+  nameWithType: ErpSyncResponseCode.ErrorConnectorHasConnections
+  fullName: SuperOffice.Data.ErpSyncResponseCode.ErrorConnectorHasConnections
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Could not perform operation because connector has connections\n"
+  syntax:
+    content: ErrorConnectorHasConnections = 1
+    return:
+      type: SuperOffice.Data.ErpSyncResponseCode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ErpSyncResponseCode.ErrorNotFound
+  commentId: F:SuperOffice.Data.ErpSyncResponseCode.ErrorNotFound
+  id: ErrorNotFound
+  parent: SuperOffice.Data.ErpSyncResponseCode
+  langs:
+  - csharp
+  - vb
+  name: ErrorNotFound
+  nameWithType: ErpSyncResponseCode.ErrorNotFound
+  fullName: SuperOffice.Data.ErpSyncResponseCode.ErrorNotFound
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Could not perform operation because the entity wasn&apos;t found\n"
+  syntax:
+    content: ErrorNotFound = 2
+    return:
+      type: SuperOffice.Data.ErpSyncResponseCode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.ErpSyncResponseCode.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ErpSyncResponseCode, To>()
+  nameWithType: EnumUtil.MapEnums<ErpSyncResponseCode, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ErpSyncResponseCode, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ErpSyncResponseCode, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ErpSyncResponseCode, To)()
+  name.vb: MapEnums(Of ErpSyncResponseCode, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ErpSyncResponseCode, To>
+    nameWithType: EnumUtil.MapEnums<ErpSyncResponseCode, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ErpSyncResponseCode, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ErpSyncResponseCode, To)
+    nameWithType: EnumUtil.MapEnums(Of ErpSyncResponseCode, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ErpSyncResponseCode, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ErpSyncResponseCode.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ErpSyncResponseCode)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ErpSyncResponseCode>(ErpSyncResponseCode)
+  nameWithType: ObjectExtensions.AssignByReflection<ErpSyncResponseCode>(ErpSyncResponseCode)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ErpSyncResponseCode>(SuperOffice.Data.ErpSyncResponseCode)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ErpSyncResponseCode)(ErpSyncResponseCode)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ErpSyncResponseCode)(SuperOffice.Data.ErpSyncResponseCode)
+  name.vb: AssignByReflection(Of ErpSyncResponseCode)(ErpSyncResponseCode)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ErpSyncResponseCode>
+    nameWithType: ObjectExtensions.AssignByReflection<ErpSyncResponseCode>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ErpSyncResponseCode>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.ErpSyncResponseCode
+    name: ErpSyncResponseCode
+    nameWithType: ErpSyncResponseCode
+    fullName: SuperOffice.Data.ErpSyncResponseCode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ErpSyncResponseCode)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ErpSyncResponseCode)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ErpSyncResponseCode)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.ErpSyncResponseCode
+    name: ErpSyncResponseCode
+    nameWithType: ErpSyncResponseCode
+    fullName: SuperOffice.Data.ErpSyncResponseCode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ErpSyncResponseCode.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ErpSyncResponseCode>()
+  nameWithType: ObjectExtensions.GraphCopy<ErpSyncResponseCode>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ErpSyncResponseCode>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ErpSyncResponseCode)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ErpSyncResponseCode)()
+  name.vb: GraphCopy(Of ErpSyncResponseCode)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ErpSyncResponseCode>
+    nameWithType: ObjectExtensions.GraphCopy<ErpSyncResponseCode>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ErpSyncResponseCode>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ErpSyncResponseCode)
+    nameWithType: ObjectExtensions.GraphCopy(Of ErpSyncResponseCode)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ErpSyncResponseCode)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.ErpSyncResponseCode.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ErpSyncResponseCode, To>()
+  nameWithType: Converters.MapEnums<ErpSyncResponseCode, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ErpSyncResponseCode, To>()
+  nameWithType.vb: Converters.MapEnums(Of ErpSyncResponseCode, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ErpSyncResponseCode, To)()
+  name.vb: MapEnums(Of ErpSyncResponseCode, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ErpSyncResponseCode, To>
+    nameWithType: Converters.MapEnums<ErpSyncResponseCode, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ErpSyncResponseCode, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ErpSyncResponseCode, To)
+    nameWithType: Converters.MapEnums(Of ErpSyncResponseCode, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ErpSyncResponseCode, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.ErpSyncResponseCode
+  commentId: T:SuperOffice.Data.ErpSyncResponseCode
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ErpSyncResponseCode
+  nameWithType: ErpSyncResponseCode
+  fullName: SuperOffice.Data.ErpSyncResponseCode

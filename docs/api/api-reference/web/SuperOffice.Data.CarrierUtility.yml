@@ -1,0 +1,1830 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.CarrierUtility
+  commentId: T:SuperOffice.Data.CarrierUtility
+  id: CarrierUtility
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.CarrierUtility.#ctor
+  - SuperOffice.Data.CarrierUtility.CopyToListItem(SuperOffice.CRM.Services.SelectableMDOListItem)
+  - SuperOffice.Data.CarrierUtility.CopyToListItem(SuperOffice.CRM.Services.SelectableMDOListItem,System.Boolean)
+  - SuperOffice.Data.CarrierUtility.DeepCopySelectableItem(SuperOffice.CRM.Services.SelectableMDOListItem)
+  - SuperOffice.Data.CarrierUtility.DeepCopySelectableItemWithoutChildren(SuperOffice.CRM.Services.SelectableMDOListItem)
+  - SuperOffice.Data.CarrierUtility.DeepCopySelectableList(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  - SuperOffice.Data.CarrierUtility.DeepCopySelectableList(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem})
+  - SuperOffice.Data.CarrierUtility.DeSelectAll(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem})
+  - SuperOffice.Data.CarrierUtility.GetItemFromList(System.Int32,SuperOffice.CRM.Services.MDOListItem[])
+  - SuperOffice.Data.CarrierUtility.GetItemFromList(System.Int32,SuperOffice.CRM.Services.MDOListItem[],System.Boolean)
+  - SuperOffice.Data.CarrierUtility.GetItemFromList(System.Int32,SuperOffice.CRM.Services.MDOListItem[],System.Boolean,System.Boolean)
+  - SuperOffice.Data.CarrierUtility.GetItemFromList(System.Int32,System.Collections.Generic.List{SuperOffice.CRM.Services.MDOListItem})
+  - SuperOffice.Data.CarrierUtility.GetItemFromListByType(System.String,SuperOffice.CRM.Services.MDOListItem[])
+  - SuperOffice.Data.CarrierUtility.GetItemFromListByType(System.String,SuperOffice.CRM.Services.MDOListItem[],System.Boolean)
+  - SuperOffice.Data.CarrierUtility.GetItemFromSelectableList(System.Int32,SuperOffice.CRM.Services.SelectableMDOListItem[])
+  - SuperOffice.Data.CarrierUtility.GetItemFromSelectableList(System.Int32,System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem})
+  - SuperOffice.Data.CarrierUtility.GetItemTypeCountFromSelectableList(System.String,System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem})
+  - SuperOffice.Data.CarrierUtility.GetSelectedItem(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  - SuperOffice.Data.CarrierUtility.GetSelectedItemsByExtraInfo(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  - SuperOffice.Data.CarrierUtility.GetSelectedItemsById(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  - SuperOffice.Data.CarrierUtility.GetSelectedItemsByName(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  - SuperOffice.Data.CarrierUtility.SetSelectedItems(SuperOffice.CRM.Services.SelectableMDOListItem[],System.Boolean)
+  - SuperOffice.Data.CarrierUtility.SetSelectedItems(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem},System.Boolean)
+  - SuperOffice.Data.CarrierUtility.SetSelectedItemsByExtraInfo(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem},System.String[])
+  - SuperOffice.Data.CarrierUtility.SetSelectedItemsById(SuperOffice.CRM.Services.SelectableMDOListItem[],System.Int32[])
+  - SuperOffice.Data.CarrierUtility.SetSelectedItemsById(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem},System.Int32[])
+  - SuperOffice.Data.CarrierUtility.SortByRank(System.Collections.Generic.List{SuperOffice.CRM.Services.MDOListItem})
+  - SuperOffice.Data.CarrierUtility.SortByRank(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem})
+  - SuperOffice.Data.CarrierUtility.UpdateRank(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem},System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: CarrierUtility
+  nameWithType: CarrierUtility
+  fullName: SuperOffice.Data.CarrierUtility
+  type: Class
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nHelper class for working with data carrier objects\n"
+  syntax:
+    content: public class CarrierUtility
+    content.vb: Public Class CarrierUtility
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Data.CarrierUtility.GetItemTypeCountFromSelectableList(System.String,System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem})
+  commentId: M:SuperOffice.Data.CarrierUtility.GetItemTypeCountFromSelectableList(System.String,System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem})
+  id: GetItemTypeCountFromSelectableList(System.String,System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem})
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: GetItemTypeCountFromSelectableList(String, List<SelectableMDOListItem>)
+  nameWithType: CarrierUtility.GetItemTypeCountFromSelectableList(String, List<SelectableMDOListItem>)
+  fullName: SuperOffice.Data.CarrierUtility.GetItemTypeCountFromSelectableList(System.String, System.Collections.Generic.List<SuperOffice.CRM.Services.SelectableMDOListItem>)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static int GetItemTypeCountFromSelectableList(string type, List<SelectableMDOListItem> list)
+    parameters:
+    - id: type
+      type: System.String
+    - id: list
+      type: System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem}
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetItemTypeCountFromSelectableList(type As String, list As List(Of SelectableMDOListItem)) As Integer
+  overload: SuperOffice.Data.CarrierUtility.GetItemTypeCountFromSelectableList*
+  nameWithType.vb: CarrierUtility.GetItemTypeCountFromSelectableList(String, List(Of SelectableMDOListItem))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.CarrierUtility.GetItemTypeCountFromSelectableList(System.String, System.Collections.Generic.List(Of SuperOffice.CRM.Services.SelectableMDOListItem))
+  name.vb: GetItemTypeCountFromSelectableList(String, List(Of SelectableMDOListItem))
+- uid: SuperOffice.Data.CarrierUtility.GetItemFromSelectableList(System.Int32,SuperOffice.CRM.Services.SelectableMDOListItem[])
+  commentId: M:SuperOffice.Data.CarrierUtility.GetItemFromSelectableList(System.Int32,SuperOffice.CRM.Services.SelectableMDOListItem[])
+  id: GetItemFromSelectableList(System.Int32,SuperOffice.CRM.Services.SelectableMDOListItem[])
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: GetItemFromSelectableList(Int32, SelectableMDOListItem[])
+  nameWithType: CarrierUtility.GetItemFromSelectableList(Int32, SelectableMDOListItem[])
+  fullName: SuperOffice.Data.CarrierUtility.GetItemFromSelectableList(System.Int32, SuperOffice.CRM.Services.SelectableMDOListItem[])
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nGets a specific item from a SelectableList\n"
+  syntax:
+    content: public static SelectableMDOListItem GetItemFromSelectableList(int id, SelectableMDOListItem[] list)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: Item id
+    - id: list
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+      description: SelectableList
+    return:
+      type: SuperOffice.CRM.Services.SelectableMDOListItem
+      description: The item
+    content.vb: Public Shared Function GetItemFromSelectableList(id As Integer, list As SelectableMDOListItem()) As SelectableMDOListItem
+  overload: SuperOffice.Data.CarrierUtility.GetItemFromSelectableList*
+  nameWithType.vb: CarrierUtility.GetItemFromSelectableList(Int32, SelectableMDOListItem())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.CarrierUtility.GetItemFromSelectableList(System.Int32, SuperOffice.CRM.Services.SelectableMDOListItem())
+  name.vb: GetItemFromSelectableList(Int32, SelectableMDOListItem())
+- uid: SuperOffice.Data.CarrierUtility.GetItemFromSelectableList(System.Int32,System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem})
+  commentId: M:SuperOffice.Data.CarrierUtility.GetItemFromSelectableList(System.Int32,System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem})
+  id: GetItemFromSelectableList(System.Int32,System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem})
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: GetItemFromSelectableList(Int32, List<SelectableMDOListItem>)
+  nameWithType: CarrierUtility.GetItemFromSelectableList(Int32, List<SelectableMDOListItem>)
+  fullName: SuperOffice.Data.CarrierUtility.GetItemFromSelectableList(System.Int32, System.Collections.Generic.List<SuperOffice.CRM.Services.SelectableMDOListItem>)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nGets a specific item from a SelectableList\n"
+  syntax:
+    content: public static SelectableMDOListItem GetItemFromSelectableList(int id, List<SelectableMDOListItem> list)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: Item id
+    - id: list
+      type: System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem}
+      description: SelectableList
+    return:
+      type: SuperOffice.CRM.Services.SelectableMDOListItem
+      description: The item
+    content.vb: Public Shared Function GetItemFromSelectableList(id As Integer, list As List(Of SelectableMDOListItem)) As SelectableMDOListItem
+  overload: SuperOffice.Data.CarrierUtility.GetItemFromSelectableList*
+  nameWithType.vb: CarrierUtility.GetItemFromSelectableList(Int32, List(Of SelectableMDOListItem))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.CarrierUtility.GetItemFromSelectableList(System.Int32, System.Collections.Generic.List(Of SuperOffice.CRM.Services.SelectableMDOListItem))
+  name.vb: GetItemFromSelectableList(Int32, List(Of SelectableMDOListItem))
+- uid: SuperOffice.Data.CarrierUtility.GetItemFromList(System.Int32,SuperOffice.CRM.Services.MDOListItem[],System.Boolean)
+  commentId: M:SuperOffice.Data.CarrierUtility.GetItemFromList(System.Int32,SuperOffice.CRM.Services.MDOListItem[],System.Boolean)
+  id: GetItemFromList(System.Int32,SuperOffice.CRM.Services.MDOListItem[],System.Boolean)
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: GetItemFromList(Int32, MDOListItem[], Boolean)
+  nameWithType: CarrierUtility.GetItemFromList(Int32, MDOListItem[], Boolean)
+  fullName: SuperOffice.Data.CarrierUtility.GetItemFromList(System.Int32, SuperOffice.CRM.Services.MDOListItem[], System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nGets a specific item from a MDO List\n"
+  syntax:
+    content: public static MDOListItem GetItemFromList(int id, MDOListItem[] list, bool returnFirstOnNoMatch)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: Item id
+    - id: list
+      type: SuperOffice.CRM.Services.MDOListItem[]
+      description: SelectableList
+    - id: returnFirstOnNoMatch
+      type: System.Boolean
+      description: If true returns the first item in the list, if the id was not found
+    return:
+      type: SuperOffice.CRM.Services.MDOListItem
+      description: The item
+    content.vb: Public Shared Function GetItemFromList(id As Integer, list As MDOListItem(), returnFirstOnNoMatch As Boolean) As MDOListItem
+  overload: SuperOffice.Data.CarrierUtility.GetItemFromList*
+  nameWithType.vb: CarrierUtility.GetItemFromList(Int32, MDOListItem(), Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.CarrierUtility.GetItemFromList(System.Int32, SuperOffice.CRM.Services.MDOListItem(), System.Boolean)
+  name.vb: GetItemFromList(Int32, MDOListItem(), Boolean)
+- uid: SuperOffice.Data.CarrierUtility.GetItemFromList(System.Int32,SuperOffice.CRM.Services.MDOListItem[])
+  commentId: M:SuperOffice.Data.CarrierUtility.GetItemFromList(System.Int32,SuperOffice.CRM.Services.MDOListItem[])
+  id: GetItemFromList(System.Int32,SuperOffice.CRM.Services.MDOListItem[])
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: GetItemFromList(Int32, MDOListItem[])
+  nameWithType: CarrierUtility.GetItemFromList(Int32, MDOListItem[])
+  fullName: SuperOffice.Data.CarrierUtility.GetItemFromList(System.Int32, SuperOffice.CRM.Services.MDOListItem[])
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nGets a specific item from a MDO List\n"
+  syntax:
+    content: public static MDOListItem GetItemFromList(int id, MDOListItem[] list)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: Item id
+    - id: list
+      type: SuperOffice.CRM.Services.MDOListItem[]
+      description: SelectableList
+    return:
+      type: SuperOffice.CRM.Services.MDOListItem
+      description: The item
+    content.vb: Public Shared Function GetItemFromList(id As Integer, list As MDOListItem()) As MDOListItem
+  overload: SuperOffice.Data.CarrierUtility.GetItemFromList*
+  nameWithType.vb: CarrierUtility.GetItemFromList(Int32, MDOListItem())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.CarrierUtility.GetItemFromList(System.Int32, SuperOffice.CRM.Services.MDOListItem())
+  name.vb: GetItemFromList(Int32, MDOListItem())
+- uid: SuperOffice.Data.CarrierUtility.GetItemFromList(System.Int32,SuperOffice.CRM.Services.MDOListItem[],System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.Data.CarrierUtility.GetItemFromList(System.Int32,SuperOffice.CRM.Services.MDOListItem[],System.Boolean,System.Boolean)
+  id: GetItemFromList(System.Int32,SuperOffice.CRM.Services.MDOListItem[],System.Boolean,System.Boolean)
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: GetItemFromList(Int32, MDOListItem[], Boolean, Boolean)
+  nameWithType: CarrierUtility.GetItemFromList(Int32, MDOListItem[], Boolean, Boolean)
+  fullName: SuperOffice.Data.CarrierUtility.GetItemFromList(System.Int32, SuperOffice.CRM.Services.MDOListItem[], System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nGets a specific item from a MDO List\n"
+  syntax:
+    content: public static MDOListItem GetItemFromList(int id, MDOListItem[] list, bool returnFirstOnNoMatch, bool noHeadings)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: Item id
+    - id: list
+      type: SuperOffice.CRM.Services.MDOListItem[]
+      description: SelectableList
+    - id: returnFirstOnNoMatch
+      type: System.Boolean
+      description: If true returns the first item in the list, if the id was not found
+    - id: noHeadings
+      type: System.Boolean
+      description: If true do not return heading items
+    return:
+      type: SuperOffice.CRM.Services.MDOListItem
+      description: The item
+    content.vb: Public Shared Function GetItemFromList(id As Integer, list As MDOListItem(), returnFirstOnNoMatch As Boolean, noHeadings As Boolean) As MDOListItem
+  overload: SuperOffice.Data.CarrierUtility.GetItemFromList*
+  nameWithType.vb: CarrierUtility.GetItemFromList(Int32, MDOListItem(), Boolean, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.CarrierUtility.GetItemFromList(System.Int32, SuperOffice.CRM.Services.MDOListItem(), System.Boolean, System.Boolean)
+  name.vb: GetItemFromList(Int32, MDOListItem(), Boolean, Boolean)
+- uid: SuperOffice.Data.CarrierUtility.GetItemFromListByType(System.String,SuperOffice.CRM.Services.MDOListItem[],System.Boolean)
+  commentId: M:SuperOffice.Data.CarrierUtility.GetItemFromListByType(System.String,SuperOffice.CRM.Services.MDOListItem[],System.Boolean)
+  id: GetItemFromListByType(System.String,SuperOffice.CRM.Services.MDOListItem[],System.Boolean)
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: GetItemFromListByType(String, MDOListItem[], Boolean)
+  nameWithType: CarrierUtility.GetItemFromListByType(String, MDOListItem[], Boolean)
+  fullName: SuperOffice.Data.CarrierUtility.GetItemFromListByType(System.String, SuperOffice.CRM.Services.MDOListItem[], System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nGets a specific item from a MDO List by type\n"
+  syntax:
+    content: public static MDOListItem GetItemFromListByType(string type, MDOListItem[] list, bool returnFirstOnNoMatch)
+    parameters:
+    - id: type
+      type: System.String
+      description: Type
+    - id: list
+      type: SuperOffice.CRM.Services.MDOListItem[]
+      description: SelectableList
+    - id: returnFirstOnNoMatch
+      type: System.Boolean
+      description: If true returns the first item in the list, if the id was not found
+    return:
+      type: SuperOffice.CRM.Services.MDOListItem
+      description: The item
+    content.vb: Public Shared Function GetItemFromListByType(type As String, list As MDOListItem(), returnFirstOnNoMatch As Boolean) As MDOListItem
+  overload: SuperOffice.Data.CarrierUtility.GetItemFromListByType*
+  nameWithType.vb: CarrierUtility.GetItemFromListByType(String, MDOListItem(), Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.CarrierUtility.GetItemFromListByType(System.String, SuperOffice.CRM.Services.MDOListItem(), System.Boolean)
+  name.vb: GetItemFromListByType(String, MDOListItem(), Boolean)
+- uid: SuperOffice.Data.CarrierUtility.GetItemFromListByType(System.String,SuperOffice.CRM.Services.MDOListItem[])
+  commentId: M:SuperOffice.Data.CarrierUtility.GetItemFromListByType(System.String,SuperOffice.CRM.Services.MDOListItem[])
+  id: GetItemFromListByType(System.String,SuperOffice.CRM.Services.MDOListItem[])
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: GetItemFromListByType(String, MDOListItem[])
+  nameWithType: CarrierUtility.GetItemFromListByType(String, MDOListItem[])
+  fullName: SuperOffice.Data.CarrierUtility.GetItemFromListByType(System.String, SuperOffice.CRM.Services.MDOListItem[])
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nGets a specific item from a MDO List by type\n"
+  syntax:
+    content: public static MDOListItem GetItemFromListByType(string type, MDOListItem[] list)
+    parameters:
+    - id: type
+      type: System.String
+      description: Type
+    - id: list
+      type: SuperOffice.CRM.Services.MDOListItem[]
+      description: SelectableList
+    return:
+      type: SuperOffice.CRM.Services.MDOListItem
+      description: The item
+    content.vb: Public Shared Function GetItemFromListByType(type As String, list As MDOListItem()) As MDOListItem
+  overload: SuperOffice.Data.CarrierUtility.GetItemFromListByType*
+  nameWithType.vb: CarrierUtility.GetItemFromListByType(String, MDOListItem())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.CarrierUtility.GetItemFromListByType(System.String, SuperOffice.CRM.Services.MDOListItem())
+  name.vb: GetItemFromListByType(String, MDOListItem())
+- uid: SuperOffice.Data.CarrierUtility.GetItemFromList(System.Int32,System.Collections.Generic.List{SuperOffice.CRM.Services.MDOListItem})
+  commentId: M:SuperOffice.Data.CarrierUtility.GetItemFromList(System.Int32,System.Collections.Generic.List{SuperOffice.CRM.Services.MDOListItem})
+  id: GetItemFromList(System.Int32,System.Collections.Generic.List{SuperOffice.CRM.Services.MDOListItem})
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: GetItemFromList(Int32, List<MDOListItem>)
+  nameWithType: CarrierUtility.GetItemFromList(Int32, List<MDOListItem>)
+  fullName: SuperOffice.Data.CarrierUtility.GetItemFromList(System.Int32, System.Collections.Generic.List<SuperOffice.CRM.Services.MDOListItem>)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nGets a specific item from a MDO List\n"
+  syntax:
+    content: public static MDOListItem GetItemFromList(int id, List<MDOListItem> list)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: Item id
+    - id: list
+      type: System.Collections.Generic.List{SuperOffice.CRM.Services.MDOListItem}
+      description: SelectableList
+    return:
+      type: SuperOffice.CRM.Services.MDOListItem
+      description: The item
+    content.vb: Public Shared Function GetItemFromList(id As Integer, list As List(Of MDOListItem)) As MDOListItem
+  overload: SuperOffice.Data.CarrierUtility.GetItemFromList*
+  nameWithType.vb: CarrierUtility.GetItemFromList(Int32, List(Of MDOListItem))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.CarrierUtility.GetItemFromList(System.Int32, System.Collections.Generic.List(Of SuperOffice.CRM.Services.MDOListItem))
+  name.vb: GetItemFromList(Int32, List(Of MDOListItem))
+- uid: SuperOffice.Data.CarrierUtility.DeepCopySelectableList(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem})
+  commentId: M:SuperOffice.Data.CarrierUtility.DeepCopySelectableList(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem})
+  id: DeepCopySelectableList(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem})
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: DeepCopySelectableList(List<SelectableMDOListItem>)
+  nameWithType: CarrierUtility.DeepCopySelectableList(List<SelectableMDOListItem>)
+  fullName: SuperOffice.Data.CarrierUtility.DeepCopySelectableList(System.Collections.Generic.List<SuperOffice.CRM.Services.SelectableMDOListItem>)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nDeep copies a generic list of selectable items\n"
+  syntax:
+    content: public static List<SelectableMDOListItem> DeepCopySelectableList(List<SelectableMDOListItem> list)
+    parameters:
+    - id: list
+      type: System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem}
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem}
+      description: New list
+    content.vb: Public Shared Function DeepCopySelectableList(list As List(Of SelectableMDOListItem)) As List(Of SelectableMDOListItem)
+  overload: SuperOffice.Data.CarrierUtility.DeepCopySelectableList*
+  nameWithType.vb: CarrierUtility.DeepCopySelectableList(List(Of SelectableMDOListItem))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.CarrierUtility.DeepCopySelectableList(System.Collections.Generic.List(Of SuperOffice.CRM.Services.SelectableMDOListItem))
+  name.vb: DeepCopySelectableList(List(Of SelectableMDOListItem))
+- uid: SuperOffice.Data.CarrierUtility.DeepCopySelectableList(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  commentId: M:SuperOffice.Data.CarrierUtility.DeepCopySelectableList(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  id: DeepCopySelectableList(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: DeepCopySelectableList(SelectableMDOListItem[])
+  nameWithType: CarrierUtility.DeepCopySelectableList(SelectableMDOListItem[])
+  fullName: SuperOffice.Data.CarrierUtility.DeepCopySelectableList(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nDeep copies an array of selectable items\n"
+  syntax:
+    content: public static SelectableMDOListItem[] DeepCopySelectableList(SelectableMDOListItem[] list)
+    parameters:
+    - id: list
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+    return:
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+      description: New array
+    content.vb: Public Shared Function DeepCopySelectableList(list As SelectableMDOListItem()) As SelectableMDOListItem()
+  overload: SuperOffice.Data.CarrierUtility.DeepCopySelectableList*
+  nameWithType.vb: CarrierUtility.DeepCopySelectableList(SelectableMDOListItem())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.CarrierUtility.DeepCopySelectableList(SuperOffice.CRM.Services.SelectableMDOListItem())
+  name.vb: DeepCopySelectableList(SelectableMDOListItem())
+- uid: SuperOffice.Data.CarrierUtility.DeepCopySelectableItemWithoutChildren(SuperOffice.CRM.Services.SelectableMDOListItem)
+  commentId: M:SuperOffice.Data.CarrierUtility.DeepCopySelectableItemWithoutChildren(SuperOffice.CRM.Services.SelectableMDOListItem)
+  id: DeepCopySelectableItemWithoutChildren(SuperOffice.CRM.Services.SelectableMDOListItem)
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: DeepCopySelectableItemWithoutChildren(SelectableMDOListItem)
+  nameWithType: CarrierUtility.DeepCopySelectableItemWithoutChildren(SelectableMDOListItem)
+  fullName: SuperOffice.Data.CarrierUtility.DeepCopySelectableItemWithoutChildren(SuperOffice.CRM.Services.SelectableMDOListItem)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nDeep copies a selectable item\n"
+  syntax:
+    content: public static SelectableMDOListItem DeepCopySelectableItemWithoutChildren(SelectableMDOListItem item)
+    parameters:
+    - id: item
+      type: SuperOffice.CRM.Services.SelectableMDOListItem
+      description: The item to copy
+    return:
+      type: SuperOffice.CRM.Services.SelectableMDOListItem
+      description: New item
+    content.vb: Public Shared Function DeepCopySelectableItemWithoutChildren(item As SelectableMDOListItem) As SelectableMDOListItem
+  overload: SuperOffice.Data.CarrierUtility.DeepCopySelectableItemWithoutChildren*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.CarrierUtility.DeepCopySelectableItem(SuperOffice.CRM.Services.SelectableMDOListItem)
+  commentId: M:SuperOffice.Data.CarrierUtility.DeepCopySelectableItem(SuperOffice.CRM.Services.SelectableMDOListItem)
+  id: DeepCopySelectableItem(SuperOffice.CRM.Services.SelectableMDOListItem)
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: DeepCopySelectableItem(SelectableMDOListItem)
+  nameWithType: CarrierUtility.DeepCopySelectableItem(SelectableMDOListItem)
+  fullName: SuperOffice.Data.CarrierUtility.DeepCopySelectableItem(SuperOffice.CRM.Services.SelectableMDOListItem)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static SelectableMDOListItem DeepCopySelectableItem(SelectableMDOListItem item)
+    parameters:
+    - id: item
+      type: SuperOffice.CRM.Services.SelectableMDOListItem
+    return:
+      type: SuperOffice.CRM.Services.SelectableMDOListItem
+    content.vb: Public Shared Function DeepCopySelectableItem(item As SelectableMDOListItem) As SelectableMDOListItem
+  overload: SuperOffice.Data.CarrierUtility.DeepCopySelectableItem*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.CarrierUtility.CopyToListItem(SuperOffice.CRM.Services.SelectableMDOListItem)
+  commentId: M:SuperOffice.Data.CarrierUtility.CopyToListItem(SuperOffice.CRM.Services.SelectableMDOListItem)
+  id: CopyToListItem(SuperOffice.CRM.Services.SelectableMDOListItem)
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: CopyToListItem(SelectableMDOListItem)
+  nameWithType: CarrierUtility.CopyToListItem(SelectableMDOListItem)
+  fullName: SuperOffice.Data.CarrierUtility.CopyToListItem(SuperOffice.CRM.Services.SelectableMDOListItem)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nCopies a selectable item into a regular list item\n"
+  syntax:
+    content: public static MDOListItem CopyToListItem(SelectableMDOListItem item)
+    parameters:
+    - id: item
+      type: SuperOffice.CRM.Services.SelectableMDOListItem
+      description: The item to copy
+    return:
+      type: SuperOffice.CRM.Services.MDOListItem
+      description: New item
+    content.vb: Public Shared Function CopyToListItem(item As SelectableMDOListItem) As MDOListItem
+  overload: SuperOffice.Data.CarrierUtility.CopyToListItem*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.CarrierUtility.CopyToListItem(SuperOffice.CRM.Services.SelectableMDOListItem,System.Boolean)
+  commentId: M:SuperOffice.Data.CarrierUtility.CopyToListItem(SuperOffice.CRM.Services.SelectableMDOListItem,System.Boolean)
+  id: CopyToListItem(SuperOffice.CRM.Services.SelectableMDOListItem,System.Boolean)
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: CopyToListItem(SelectableMDOListItem, Boolean)
+  nameWithType: CarrierUtility.CopyToListItem(SelectableMDOListItem, Boolean)
+  fullName: SuperOffice.Data.CarrierUtility.CopyToListItem(SuperOffice.CRM.Services.SelectableMDOListItem, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nCopies a selectable item into a regular list item\n"
+  syntax:
+    content: public static MDOListItem CopyToListItem(SelectableMDOListItem item, bool includeChilds)
+    parameters:
+    - id: item
+      type: SuperOffice.CRM.Services.SelectableMDOListItem
+      description: The item to copy
+    - id: includeChilds
+      type: System.Boolean
+    return:
+      type: SuperOffice.CRM.Services.MDOListItem
+      description: New item
+    content.vb: Public Shared Function CopyToListItem(item As SelectableMDOListItem, includeChilds As Boolean) As MDOListItem
+  overload: SuperOffice.Data.CarrierUtility.CopyToListItem*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.CarrierUtility.SetSelectedItems(SuperOffice.CRM.Services.SelectableMDOListItem[],System.Boolean)
+  commentId: M:SuperOffice.Data.CarrierUtility.SetSelectedItems(SuperOffice.CRM.Services.SelectableMDOListItem[],System.Boolean)
+  id: SetSelectedItems(SuperOffice.CRM.Services.SelectableMDOListItem[],System.Boolean)
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: SetSelectedItems(SelectableMDOListItem[], Boolean)
+  nameWithType: CarrierUtility.SetSelectedItems(SelectableMDOListItem[], Boolean)
+  fullName: SuperOffice.Data.CarrierUtility.SetSelectedItems(SuperOffice.CRM.Services.SelectableMDOListItem[], System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nSets all items in the list either selected or not\n"
+  syntax:
+    content: public static void SetSelectedItems(SelectableMDOListItem[] list, bool selected)
+    parameters:
+    - id: list
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+      description: Selectable list
+    - id: selected
+      type: System.Boolean
+    content.vb: Public Shared Sub SetSelectedItems(list As SelectableMDOListItem(), selected As Boolean)
+  overload: SuperOffice.Data.CarrierUtility.SetSelectedItems*
+  nameWithType.vb: CarrierUtility.SetSelectedItems(SelectableMDOListItem(), Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.CarrierUtility.SetSelectedItems(SuperOffice.CRM.Services.SelectableMDOListItem(), System.Boolean)
+  name.vb: SetSelectedItems(SelectableMDOListItem(), Boolean)
+- uid: SuperOffice.Data.CarrierUtility.SetSelectedItems(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem},System.Boolean)
+  commentId: M:SuperOffice.Data.CarrierUtility.SetSelectedItems(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem},System.Boolean)
+  id: SetSelectedItems(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem},System.Boolean)
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: SetSelectedItems(List<SelectableMDOListItem>, Boolean)
+  nameWithType: CarrierUtility.SetSelectedItems(List<SelectableMDOListItem>, Boolean)
+  fullName: SuperOffice.Data.CarrierUtility.SetSelectedItems(System.Collections.Generic.List<SuperOffice.CRM.Services.SelectableMDOListItem>, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nSets all items in the list either selected or not\n"
+  syntax:
+    content: public static void SetSelectedItems(List<SelectableMDOListItem> list, bool selected)
+    parameters:
+    - id: list
+      type: System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem}
+      description: Selectable list
+    - id: selected
+      type: System.Boolean
+    content.vb: Public Shared Sub SetSelectedItems(list As List(Of SelectableMDOListItem), selected As Boolean)
+  overload: SuperOffice.Data.CarrierUtility.SetSelectedItems*
+  nameWithType.vb: CarrierUtility.SetSelectedItems(List(Of SelectableMDOListItem), Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.CarrierUtility.SetSelectedItems(System.Collections.Generic.List(Of SuperOffice.CRM.Services.SelectableMDOListItem), System.Boolean)
+  name.vb: SetSelectedItems(List(Of SelectableMDOListItem), Boolean)
+- uid: SuperOffice.Data.CarrierUtility.UpdateRank(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem},System.Int32)
+  commentId: M:SuperOffice.Data.CarrierUtility.UpdateRank(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem},System.Int32)
+  id: UpdateRank(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem},System.Int32)
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: UpdateRank(List<SelectableMDOListItem>, Int32)
+  nameWithType: CarrierUtility.UpdateRank(List<SelectableMDOListItem>, Int32)
+  fullName: SuperOffice.Data.CarrierUtility.UpdateRank(System.Collections.Generic.List<SuperOffice.CRM.Services.SelectableMDOListItem>, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nUpdates the list item&apos;s rank to match the list order\n"
+  syntax:
+    content: public static void UpdateRank(List<SelectableMDOListItem> itemList, int rankBase)
+    parameters:
+    - id: itemList
+      type: System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem}
+    - id: rankBase
+      type: System.Int32
+      description: The lowest rank
+    content.vb: Public Shared Sub UpdateRank(itemList As List(Of SelectableMDOListItem), rankBase As Integer)
+  overload: SuperOffice.Data.CarrierUtility.UpdateRank*
+  nameWithType.vb: CarrierUtility.UpdateRank(List(Of SelectableMDOListItem), Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.CarrierUtility.UpdateRank(System.Collections.Generic.List(Of SuperOffice.CRM.Services.SelectableMDOListItem), System.Int32)
+  name.vb: UpdateRank(List(Of SelectableMDOListItem), Int32)
+- uid: SuperOffice.Data.CarrierUtility.SortByRank(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem})
+  commentId: M:SuperOffice.Data.CarrierUtility.SortByRank(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem})
+  id: SortByRank(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem})
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: SortByRank(List<SelectableMDOListItem>)
+  nameWithType: CarrierUtility.SortByRank(List<SelectableMDOListItem>)
+  fullName: SuperOffice.Data.CarrierUtility.SortByRank(System.Collections.Generic.List<SuperOffice.CRM.Services.SelectableMDOListItem>)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nUpdates the list item&apos;s rank to match the list order\n"
+  syntax:
+    content: public static void SortByRank(List<SelectableMDOListItem> itemList)
+    parameters:
+    - id: itemList
+      type: System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem}
+    content.vb: Public Shared Sub SortByRank(itemList As List(Of SelectableMDOListItem))
+  overload: SuperOffice.Data.CarrierUtility.SortByRank*
+  nameWithType.vb: CarrierUtility.SortByRank(List(Of SelectableMDOListItem))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.CarrierUtility.SortByRank(System.Collections.Generic.List(Of SuperOffice.CRM.Services.SelectableMDOListItem))
+  name.vb: SortByRank(List(Of SelectableMDOListItem))
+- uid: SuperOffice.Data.CarrierUtility.SortByRank(System.Collections.Generic.List{SuperOffice.CRM.Services.MDOListItem})
+  commentId: M:SuperOffice.Data.CarrierUtility.SortByRank(System.Collections.Generic.List{SuperOffice.CRM.Services.MDOListItem})
+  id: SortByRank(System.Collections.Generic.List{SuperOffice.CRM.Services.MDOListItem})
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: SortByRank(List<MDOListItem>)
+  nameWithType: CarrierUtility.SortByRank(List<MDOListItem>)
+  fullName: SuperOffice.Data.CarrierUtility.SortByRank(System.Collections.Generic.List<SuperOffice.CRM.Services.MDOListItem>)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nUpdates the list item&apos;s rank to match the list order\n"
+  syntax:
+    content: public static void SortByRank(List<MDOListItem> itemList)
+    parameters:
+    - id: itemList
+      type: System.Collections.Generic.List{SuperOffice.CRM.Services.MDOListItem}
+    content.vb: Public Shared Sub SortByRank(itemList As List(Of MDOListItem))
+  overload: SuperOffice.Data.CarrierUtility.SortByRank*
+  nameWithType.vb: CarrierUtility.SortByRank(List(Of MDOListItem))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.CarrierUtility.SortByRank(System.Collections.Generic.List(Of SuperOffice.CRM.Services.MDOListItem))
+  name.vb: SortByRank(List(Of MDOListItem))
+- uid: SuperOffice.Data.CarrierUtility.GetSelectedItem(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  commentId: M:SuperOffice.Data.CarrierUtility.GetSelectedItem(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  id: GetSelectedItem(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: GetSelectedItem(SelectableMDOListItem[])
+  nameWithType: CarrierUtility.GetSelectedItem(SelectableMDOListItem[])
+  fullName: SuperOffice.Data.CarrierUtility.GetSelectedItem(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nReturns the first selected item in the list\n"
+  syntax:
+    content: public static SelectableMDOListItem GetSelectedItem(SelectableMDOListItem[] list)
+    parameters:
+    - id: list
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+    return:
+      type: SuperOffice.CRM.Services.SelectableMDOListItem
+    content.vb: Public Shared Function GetSelectedItem(list As SelectableMDOListItem()) As SelectableMDOListItem
+  overload: SuperOffice.Data.CarrierUtility.GetSelectedItem*
+  nameWithType.vb: CarrierUtility.GetSelectedItem(SelectableMDOListItem())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.CarrierUtility.GetSelectedItem(SuperOffice.CRM.Services.SelectableMDOListItem())
+  name.vb: GetSelectedItem(SelectableMDOListItem())
+- uid: SuperOffice.Data.CarrierUtility.SetSelectedItemsByExtraInfo(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem},System.String[])
+  commentId: M:SuperOffice.Data.CarrierUtility.SetSelectedItemsByExtraInfo(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem},System.String[])
+  id: SetSelectedItemsByExtraInfo(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem},System.String[])
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: SetSelectedItemsByExtraInfo(List<SelectableMDOListItem>, String[])
+  nameWithType: CarrierUtility.SetSelectedItemsByExtraInfo(List<SelectableMDOListItem>, String[])
+  fullName: SuperOffice.Data.CarrierUtility.SetSelectedItemsByExtraInfo(System.Collections.Generic.List<SuperOffice.CRM.Services.SelectableMDOListItem>, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nSets selected items from array of ids.\n"
+  syntax:
+    content: public static void SetSelectedItemsByExtraInfo(List<SelectableMDOListItem> list, string[] selectedIds)
+    parameters:
+    - id: list
+      type: System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem}
+    - id: selectedIds
+      type: System.String[]
+    content.vb: Public Shared Sub SetSelectedItemsByExtraInfo(list As List(Of SelectableMDOListItem), selectedIds As String())
+  overload: SuperOffice.Data.CarrierUtility.SetSelectedItemsByExtraInfo*
+  nameWithType.vb: CarrierUtility.SetSelectedItemsByExtraInfo(List(Of SelectableMDOListItem), String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.CarrierUtility.SetSelectedItemsByExtraInfo(System.Collections.Generic.List(Of SuperOffice.CRM.Services.SelectableMDOListItem), System.String())
+  name.vb: SetSelectedItemsByExtraInfo(List(Of SelectableMDOListItem), String())
+- uid: SuperOffice.Data.CarrierUtility.GetSelectedItemsByExtraInfo(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  commentId: M:SuperOffice.Data.CarrierUtility.GetSelectedItemsByExtraInfo(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  id: GetSelectedItemsByExtraInfo(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: GetSelectedItemsByExtraInfo(SelectableMDOListItem[])
+  nameWithType: CarrierUtility.GetSelectedItemsByExtraInfo(SelectableMDOListItem[])
+  fullName: SuperOffice.Data.CarrierUtility.GetSelectedItemsByExtraInfo(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nReturns the selected ids\n"
+  syntax:
+    content: public static string[] GetSelectedItemsByExtraInfo(SelectableMDOListItem[] list)
+    parameters:
+    - id: list
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function GetSelectedItemsByExtraInfo(list As SelectableMDOListItem()) As String()
+  overload: SuperOffice.Data.CarrierUtility.GetSelectedItemsByExtraInfo*
+  nameWithType.vb: CarrierUtility.GetSelectedItemsByExtraInfo(SelectableMDOListItem())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.CarrierUtility.GetSelectedItemsByExtraInfo(SuperOffice.CRM.Services.SelectableMDOListItem())
+  name.vb: GetSelectedItemsByExtraInfo(SelectableMDOListItem())
+- uid: SuperOffice.Data.CarrierUtility.GetSelectedItemsById(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  commentId: M:SuperOffice.Data.CarrierUtility.GetSelectedItemsById(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  id: GetSelectedItemsById(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: GetSelectedItemsById(SelectableMDOListItem[])
+  nameWithType: CarrierUtility.GetSelectedItemsById(SelectableMDOListItem[])
+  fullName: SuperOffice.Data.CarrierUtility.GetSelectedItemsById(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nReturns the selected ids\n"
+  syntax:
+    content: public static int[] GetSelectedItemsById(SelectableMDOListItem[] list)
+    parameters:
+    - id: list
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+    return:
+      type: System.Int32[]
+    content.vb: Public Shared Function GetSelectedItemsById(list As SelectableMDOListItem()) As Integer()
+  overload: SuperOffice.Data.CarrierUtility.GetSelectedItemsById*
+  nameWithType.vb: CarrierUtility.GetSelectedItemsById(SelectableMDOListItem())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.CarrierUtility.GetSelectedItemsById(SuperOffice.CRM.Services.SelectableMDOListItem())
+  name.vb: GetSelectedItemsById(SelectableMDOListItem())
+- uid: SuperOffice.Data.CarrierUtility.GetSelectedItemsByName(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  commentId: M:SuperOffice.Data.CarrierUtility.GetSelectedItemsByName(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  id: GetSelectedItemsByName(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: GetSelectedItemsByName(SelectableMDOListItem[])
+  nameWithType: CarrierUtility.GetSelectedItemsByName(SelectableMDOListItem[])
+  fullName: SuperOffice.Data.CarrierUtility.GetSelectedItemsByName(SuperOffice.CRM.Services.SelectableMDOListItem[])
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nReturns the selected names\n"
+  syntax:
+    content: public static string[] GetSelectedItemsByName(SelectableMDOListItem[] list)
+    parameters:
+    - id: list
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function GetSelectedItemsByName(list As SelectableMDOListItem()) As String()
+  overload: SuperOffice.Data.CarrierUtility.GetSelectedItemsByName*
+  nameWithType.vb: CarrierUtility.GetSelectedItemsByName(SelectableMDOListItem())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.CarrierUtility.GetSelectedItemsByName(SuperOffice.CRM.Services.SelectableMDOListItem())
+  name.vb: GetSelectedItemsByName(SelectableMDOListItem())
+- uid: SuperOffice.Data.CarrierUtility.SetSelectedItemsById(SuperOffice.CRM.Services.SelectableMDOListItem[],System.Int32[])
+  commentId: M:SuperOffice.Data.CarrierUtility.SetSelectedItemsById(SuperOffice.CRM.Services.SelectableMDOListItem[],System.Int32[])
+  id: SetSelectedItemsById(SuperOffice.CRM.Services.SelectableMDOListItem[],System.Int32[])
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: SetSelectedItemsById(SelectableMDOListItem[], Int32[])
+  nameWithType: CarrierUtility.SetSelectedItemsById(SelectableMDOListItem[], Int32[])
+  fullName: SuperOffice.Data.CarrierUtility.SetSelectedItemsById(SuperOffice.CRM.Services.SelectableMDOListItem[], System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nSets selected items from array of ids.\n"
+  syntax:
+    content: public static void SetSelectedItemsById(SelectableMDOListItem[] list, int[] selectedIds)
+    parameters:
+    - id: list
+      type: SuperOffice.CRM.Services.SelectableMDOListItem[]
+    - id: selectedIds
+      type: System.Int32[]
+    content.vb: Public Shared Sub SetSelectedItemsById(list As SelectableMDOListItem(), selectedIds As Integer())
+  overload: SuperOffice.Data.CarrierUtility.SetSelectedItemsById*
+  nameWithType.vb: CarrierUtility.SetSelectedItemsById(SelectableMDOListItem(), Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.CarrierUtility.SetSelectedItemsById(SuperOffice.CRM.Services.SelectableMDOListItem(), System.Int32())
+  name.vb: SetSelectedItemsById(SelectableMDOListItem(), Int32())
+- uid: SuperOffice.Data.CarrierUtility.SetSelectedItemsById(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem},System.Int32[])
+  commentId: M:SuperOffice.Data.CarrierUtility.SetSelectedItemsById(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem},System.Int32[])
+  id: SetSelectedItemsById(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem},System.Int32[])
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: SetSelectedItemsById(List<SelectableMDOListItem>, Int32[])
+  nameWithType: CarrierUtility.SetSelectedItemsById(List<SelectableMDOListItem>, Int32[])
+  fullName: SuperOffice.Data.CarrierUtility.SetSelectedItemsById(System.Collections.Generic.List<SuperOffice.CRM.Services.SelectableMDOListItem>, System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nSets selected items from array of ids.\n"
+  syntax:
+    content: public static void SetSelectedItemsById(List<SelectableMDOListItem> list, int[] selectedIds)
+    parameters:
+    - id: list
+      type: System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem}
+    - id: selectedIds
+      type: System.Int32[]
+    content.vb: Public Shared Sub SetSelectedItemsById(list As List(Of SelectableMDOListItem), selectedIds As Integer())
+  overload: SuperOffice.Data.CarrierUtility.SetSelectedItemsById*
+  nameWithType.vb: CarrierUtility.SetSelectedItemsById(List(Of SelectableMDOListItem), Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.CarrierUtility.SetSelectedItemsById(System.Collections.Generic.List(Of SuperOffice.CRM.Services.SelectableMDOListItem), System.Int32())
+  name.vb: SetSelectedItemsById(List(Of SelectableMDOListItem), Int32())
+- uid: SuperOffice.Data.CarrierUtility.DeSelectAll(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem})
+  commentId: M:SuperOffice.Data.CarrierUtility.DeSelectAll(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem})
+  id: DeSelectAll(System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem})
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: DeSelectAll(List<SelectableMDOListItem>)
+  nameWithType: CarrierUtility.DeSelectAll(List<SelectableMDOListItem>)
+  fullName: SuperOffice.Data.CarrierUtility.DeSelectAll(System.Collections.Generic.List<SuperOffice.CRM.Services.SelectableMDOListItem>)
+  type: Method
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  summary: "\nDeselect all items in a <xref href=\"SuperOffice.CRM.Services.SelectableMDOListItem\" data-throw-if-not-resolved=\"false\"></xref> array.\n"
+  syntax:
+    content: public static void DeSelectAll(List<SelectableMDOListItem> list)
+    parameters:
+    - id: list
+      type: System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem}
+    content.vb: Public Shared Sub DeSelectAll(list As List(Of SelectableMDOListItem))
+  overload: SuperOffice.Data.CarrierUtility.DeSelectAll*
+  nameWithType.vb: CarrierUtility.DeSelectAll(List(Of SelectableMDOListItem))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.CarrierUtility.DeSelectAll(System.Collections.Generic.List(Of SuperOffice.CRM.Services.SelectableMDOListItem))
+  name.vb: DeSelectAll(List(Of SelectableMDOListItem))
+- uid: SuperOffice.Data.CarrierUtility.#ctor
+  commentId: M:SuperOffice.Data.CarrierUtility.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Data.CarrierUtility
+  langs:
+  - csharp
+  - vb
+  name: CarrierUtility()
+  nameWithType: CarrierUtility.CarrierUtility()
+  fullName: SuperOffice.Data.CarrierUtility.CarrierUtility()
+  type: Constructor
+  source:
+    path: SuperOffice.DCF
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF
+  namespace: SuperOffice.Data
+  syntax:
+    content: public CarrierUtility()
+    content.vb: Public Sub New
+  overload: SuperOffice.Data.CarrierUtility.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.CarrierUtility.GetItemTypeCountFromSelectableList*
+  commentId: Overload:SuperOffice.Data.CarrierUtility.GetItemTypeCountFromSelectableList
+  isExternal: true
+  name: GetItemTypeCountFromSelectableList
+  nameWithType: CarrierUtility.GetItemTypeCountFromSelectableList
+  fullName: SuperOffice.Data.CarrierUtility.GetItemTypeCountFromSelectableList
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Services.SelectableMDOListItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<SelectableMDOListItem>
+  nameWithType: List<SelectableMDOListItem>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Services.SelectableMDOListItem>
+  nameWithType.vb: List(Of SelectableMDOListItem)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Services.SelectableMDOListItem)
+  name.vb: List(Of SelectableMDOListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Data.CarrierUtility.GetItemFromSelectableList*
+  commentId: Overload:SuperOffice.Data.CarrierUtility.GetItemFromSelectableList
+  isExternal: true
+  name: GetItemFromSelectableList
+  nameWithType: CarrierUtility.GetItemFromSelectableList
+  fullName: SuperOffice.Data.CarrierUtility.GetItemFromSelectableList
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem[]
+  isExternal: true
+  name: SelectableMDOListItem[]
+  nameWithType: SelectableMDOListItem[]
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem[]
+  nameWithType.vb: SelectableMDOListItem()
+  fullName.vb: SuperOffice.CRM.Services.SelectableMDOListItem()
+  name.vb: SelectableMDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.SelectableMDOListItem
+    name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.SelectableMDOListItem
+  isExternal: true
+  name: SelectableMDOListItem
+  nameWithType: SelectableMDOListItem
+  fullName: SuperOffice.CRM.Services.SelectableMDOListItem
+- uid: SuperOffice.Data.CarrierUtility.GetItemFromList*
+  commentId: Overload:SuperOffice.Data.CarrierUtility.GetItemFromList
+  isExternal: true
+  name: GetItemFromList
+  nameWithType: CarrierUtility.GetItemFromList
+  fullName: SuperOffice.Data.CarrierUtility.GetItemFromList
+- uid: SuperOffice.CRM.Services.MDOListItem[]
+  isExternal: true
+  name: MDOListItem[]
+  nameWithType: MDOListItem[]
+  fullName: SuperOffice.CRM.Services.MDOListItem[]
+  nameWithType.vb: MDOListItem()
+  fullName.vb: SuperOffice.CRM.Services.MDOListItem()
+  name.vb: MDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.MDOListItem
+  isExternal: true
+  name: MDOListItem
+  nameWithType: MDOListItem
+  fullName: SuperOffice.CRM.Services.MDOListItem
+- uid: SuperOffice.Data.CarrierUtility.GetItemFromListByType*
+  commentId: Overload:SuperOffice.Data.CarrierUtility.GetItemFromListByType
+  isExternal: true
+  name: GetItemFromListByType
+  nameWithType: CarrierUtility.GetItemFromListByType
+  fullName: SuperOffice.Data.CarrierUtility.GetItemFromListByType
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Services.MDOListItem}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Services.MDOListItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<MDOListItem>
+  nameWithType: List<MDOListItem>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Services.MDOListItem>
+  nameWithType.vb: List(Of MDOListItem)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Services.MDOListItem)
+  name.vb: List(Of MDOListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.CarrierUtility.DeepCopySelectableList*
+  commentId: Overload:SuperOffice.Data.CarrierUtility.DeepCopySelectableList
+  isExternal: true
+  name: DeepCopySelectableList
+  nameWithType: CarrierUtility.DeepCopySelectableList
+  fullName: SuperOffice.Data.CarrierUtility.DeepCopySelectableList
+- uid: SuperOffice.Data.CarrierUtility.DeepCopySelectableItemWithoutChildren*
+  commentId: Overload:SuperOffice.Data.CarrierUtility.DeepCopySelectableItemWithoutChildren
+  isExternal: true
+  name: DeepCopySelectableItemWithoutChildren
+  nameWithType: CarrierUtility.DeepCopySelectableItemWithoutChildren
+  fullName: SuperOffice.Data.CarrierUtility.DeepCopySelectableItemWithoutChildren
+- uid: SuperOffice.Data.CarrierUtility.DeepCopySelectableItem*
+  commentId: Overload:SuperOffice.Data.CarrierUtility.DeepCopySelectableItem
+  isExternal: true
+  name: DeepCopySelectableItem
+  nameWithType: CarrierUtility.DeepCopySelectableItem
+  fullName: SuperOffice.Data.CarrierUtility.DeepCopySelectableItem
+- uid: SuperOffice.Data.CarrierUtility.CopyToListItem*
+  commentId: Overload:SuperOffice.Data.CarrierUtility.CopyToListItem
+  isExternal: true
+  name: CopyToListItem
+  nameWithType: CarrierUtility.CopyToListItem
+  fullName: SuperOffice.Data.CarrierUtility.CopyToListItem
+- uid: SuperOffice.Data.CarrierUtility.SetSelectedItems*
+  commentId: Overload:SuperOffice.Data.CarrierUtility.SetSelectedItems
+  isExternal: true
+  name: SetSelectedItems
+  nameWithType: CarrierUtility.SetSelectedItems
+  fullName: SuperOffice.Data.CarrierUtility.SetSelectedItems
+- uid: SuperOffice.Data.CarrierUtility.UpdateRank*
+  commentId: Overload:SuperOffice.Data.CarrierUtility.UpdateRank
+  isExternal: true
+  name: UpdateRank
+  nameWithType: CarrierUtility.UpdateRank
+  fullName: SuperOffice.Data.CarrierUtility.UpdateRank
+- uid: SuperOffice.Data.CarrierUtility.SortByRank*
+  commentId: Overload:SuperOffice.Data.CarrierUtility.SortByRank
+  isExternal: true
+  name: SortByRank
+  nameWithType: CarrierUtility.SortByRank
+  fullName: SuperOffice.Data.CarrierUtility.SortByRank
+- uid: SuperOffice.Data.CarrierUtility.GetSelectedItem*
+  commentId: Overload:SuperOffice.Data.CarrierUtility.GetSelectedItem
+  isExternal: true
+  name: GetSelectedItem
+  nameWithType: CarrierUtility.GetSelectedItem
+  fullName: SuperOffice.Data.CarrierUtility.GetSelectedItem
+- uid: SuperOffice.Data.CarrierUtility.SetSelectedItemsByExtraInfo*
+  commentId: Overload:SuperOffice.Data.CarrierUtility.SetSelectedItemsByExtraInfo
+  isExternal: true
+  name: SetSelectedItemsByExtraInfo
+  nameWithType: CarrierUtility.SetSelectedItemsByExtraInfo
+  fullName: SuperOffice.Data.CarrierUtility.SetSelectedItemsByExtraInfo
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.CarrierUtility.GetSelectedItemsByExtraInfo*
+  commentId: Overload:SuperOffice.Data.CarrierUtility.GetSelectedItemsByExtraInfo
+  isExternal: true
+  name: GetSelectedItemsByExtraInfo
+  nameWithType: CarrierUtility.GetSelectedItemsByExtraInfo
+  fullName: SuperOffice.Data.CarrierUtility.GetSelectedItemsByExtraInfo
+- uid: SuperOffice.Data.CarrierUtility.GetSelectedItemsById*
+  commentId: Overload:SuperOffice.Data.CarrierUtility.GetSelectedItemsById
+  isExternal: true
+  name: GetSelectedItemsById
+  nameWithType: CarrierUtility.GetSelectedItemsById
+  fullName: SuperOffice.Data.CarrierUtility.GetSelectedItemsById
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.CarrierUtility.GetSelectedItemsByName*
+  commentId: Overload:SuperOffice.Data.CarrierUtility.GetSelectedItemsByName
+  isExternal: true
+  name: GetSelectedItemsByName
+  nameWithType: CarrierUtility.GetSelectedItemsByName
+  fullName: SuperOffice.Data.CarrierUtility.GetSelectedItemsByName
+- uid: SuperOffice.Data.CarrierUtility.SetSelectedItemsById*
+  commentId: Overload:SuperOffice.Data.CarrierUtility.SetSelectedItemsById
+  isExternal: true
+  name: SetSelectedItemsById
+  nameWithType: CarrierUtility.SetSelectedItemsById
+  fullName: SuperOffice.Data.CarrierUtility.SetSelectedItemsById
+- uid: SuperOffice.Data.CarrierUtility.DeSelectAll*
+  commentId: Overload:SuperOffice.Data.CarrierUtility.DeSelectAll
+  isExternal: true
+  name: DeSelectAll
+  nameWithType: CarrierUtility.DeSelectAll
+  fullName: SuperOffice.Data.CarrierUtility.DeSelectAll
+- uid: SuperOffice.Data.CarrierUtility.#ctor*
+  commentId: Overload:SuperOffice.Data.CarrierUtility.#ctor
+  isExternal: true
+  name: CarrierUtility
+  nameWithType: CarrierUtility.CarrierUtility
+  fullName: SuperOffice.Data.CarrierUtility.CarrierUtility

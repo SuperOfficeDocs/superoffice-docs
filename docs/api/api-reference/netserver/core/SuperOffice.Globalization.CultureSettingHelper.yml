@@ -1,0 +1,951 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Globalization.CultureSettingHelper
+  commentId: T:SuperOffice.Globalization.CultureSettingHelper
+  id: CultureSettingHelper
+  parent: SuperOffice.Globalization
+  children:
+  - SuperOffice.Globalization.CultureSettingHelper.#ctor
+  - SuperOffice.Globalization.CultureSettingHelper.#ctor(System.Globalization.CultureInfo)
+  - SuperOffice.Globalization.CultureSettingHelper.#ctor(System.Globalization.CultureInfo,System.Globalization.CultureInfo)
+  - SuperOffice.Globalization.CultureSettingHelper.#ctor(System.String)
+  - SuperOffice.Globalization.CultureSettingHelper.#ctor(System.String,System.String)
+  - SuperOffice.Globalization.CultureSettingHelper.Dispose
+  langs:
+  - csharp
+  - vb
+  name: CultureSettingHelper
+  nameWithType: CultureSettingHelper
+  fullName: SuperOffice.Globalization.CultureSettingHelper
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Globalization
+  summary: "\nContext class that will remember the current culture settings, and reset them\nwhen it is disposed.\n"
+  example:
+  - "\nThis class is meant for a using() clause, when you temporarily need to\nset the current culture to something else than the default, and want\nto go back afterwards.\n<pre><code>// in this example, the culture name is known\nusing( new CultureSettingHelper( myCultureName ))	// set both current and currentUI cultures on current thread\n{\n	// culture-dependent processing\n}\n// culture has been restored</code></pre>\n"
+  syntax:
+    content: 'public sealed class CultureSettingHelper : IDisposable'
+    content.vb: >-
+      Public NotInheritable Class CultureSettingHelper
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Globalization.CultureSettingHelper.EnumUtil.MapEnums``2
+  - SuperOffice.Globalization.CultureSettingHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Globalization.CultureSettingHelper)
+  - SuperOffice.Globalization.CultureSettingHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Globalization.CultureSettingHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Globalization.CultureSettingHelper.#ctor
+  commentId: M:SuperOffice.Globalization.CultureSettingHelper.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Globalization.CultureSettingHelper
+  langs:
+  - csharp
+  - vb
+  name: CultureSettingHelper()
+  nameWithType: CultureSettingHelper.CultureSettingHelper()
+  fullName: SuperOffice.Globalization.CultureSettingHelper.CultureSettingHelper()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Globalization
+  summary: "\nSave the current culture settings, and do not change them\n"
+  syntax:
+    content: public CultureSettingHelper()
+    content.vb: Public Sub New
+  overload: SuperOffice.Globalization.CultureSettingHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Globalization.CultureSettingHelper.#ctor(System.Globalization.CultureInfo)
+  commentId: M:SuperOffice.Globalization.CultureSettingHelper.#ctor(System.Globalization.CultureInfo)
+  id: '#ctor(System.Globalization.CultureInfo)'
+  parent: SuperOffice.Globalization.CultureSettingHelper
+  langs:
+  - csharp
+  - vb
+  name: CultureSettingHelper(CultureInfo)
+  nameWithType: CultureSettingHelper.CultureSettingHelper(CultureInfo)
+  fullName: SuperOffice.Globalization.CultureSettingHelper.CultureSettingHelper(System.Globalization.CultureInfo)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Globalization
+  summary: "\nSave the current culture settings, and set both the CurrentCulture and CurrentUICulture \non the current thread to the new value.\n"
+  syntax:
+    content: public CultureSettingHelper(CultureInfo newCurrentCulture)
+    parameters:
+    - id: newCurrentCulture
+      type: System.Globalization.CultureInfo
+      description: Culture to set (both current and currentUI)
+    content.vb: Public Sub New(newCurrentCulture As CultureInfo)
+  overload: SuperOffice.Globalization.CultureSettingHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Globalization.CultureSettingHelper.#ctor(System.Globalization.CultureInfo,System.Globalization.CultureInfo)
+  commentId: M:SuperOffice.Globalization.CultureSettingHelper.#ctor(System.Globalization.CultureInfo,System.Globalization.CultureInfo)
+  id: '#ctor(System.Globalization.CultureInfo,System.Globalization.CultureInfo)'
+  parent: SuperOffice.Globalization.CultureSettingHelper
+  langs:
+  - csharp
+  - vb
+  name: CultureSettingHelper(CultureInfo, CultureInfo)
+  nameWithType: CultureSettingHelper.CultureSettingHelper(CultureInfo, CultureInfo)
+  fullName: SuperOffice.Globalization.CultureSettingHelper.CultureSettingHelper(System.Globalization.CultureInfo, System.Globalization.CultureInfo)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Globalization
+  summary: "\nSave the current culture settings, and set both the CurrentCulture and CurrentUICulture \non the current thread to the new values.\n"
+  syntax:
+    content: public CultureSettingHelper(CultureInfo newCurrentCulture, CultureInfo newCurrentUICulture)
+    parameters:
+    - id: newCurrentCulture
+      type: System.Globalization.CultureInfo
+      description: Culture to set
+    - id: newCurrentUICulture
+      type: System.Globalization.CultureInfo
+      description: UI Culture to set
+    content.vb: Public Sub New(newCurrentCulture As CultureInfo, newCurrentUICulture As CultureInfo)
+  overload: SuperOffice.Globalization.CultureSettingHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Globalization.CultureSettingHelper.#ctor(System.String)
+  commentId: M:SuperOffice.Globalization.CultureSettingHelper.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.Globalization.CultureSettingHelper
+  langs:
+  - csharp
+  - vb
+  name: CultureSettingHelper(String)
+  nameWithType: CultureSettingHelper.CultureSettingHelper(String)
+  fullName: SuperOffice.Globalization.CultureSettingHelper.CultureSettingHelper(System.String)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Globalization
+  summary: "\nSave the current culture settings, and set both the CurrentCulture and CurrentUICulture \non the current thread to the new value.\n"
+  syntax:
+    content: public CultureSettingHelper(string newCultureName)
+    parameters:
+    - id: newCultureName
+      type: System.String
+    content.vb: Public Sub New(newCultureName As String)
+  overload: SuperOffice.Globalization.CultureSettingHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Globalization.CultureSettingHelper.#ctor(System.String,System.String)
+  commentId: M:SuperOffice.Globalization.CultureSettingHelper.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: SuperOffice.Globalization.CultureSettingHelper
+  langs:
+  - csharp
+  - vb
+  name: CultureSettingHelper(String, String)
+  nameWithType: CultureSettingHelper.CultureSettingHelper(String, String)
+  fullName: SuperOffice.Globalization.CultureSettingHelper.CultureSettingHelper(System.String, System.String)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Globalization
+  summary: "\nSave the current culture settings, and set both the CurrentCulture and CurrentUICulture \non the current thread to the new values.\n"
+  syntax:
+    content: public CultureSettingHelper(string newCultureName, string newUICultureName)
+    parameters:
+    - id: newCultureName
+      type: System.String
+    - id: newUICultureName
+      type: System.String
+    content.vb: Public Sub New(newCultureName As String, newUICultureName As String)
+  overload: SuperOffice.Globalization.CultureSettingHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Globalization.CultureSettingHelper.Dispose
+  commentId: M:SuperOffice.Globalization.CultureSettingHelper.Dispose
+  id: Dispose
+  parent: SuperOffice.Globalization.CultureSettingHelper
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: CultureSettingHelper.Dispose()
+  fullName: SuperOffice.Globalization.CultureSettingHelper.Dispose()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Globalization
+  summary: "\nReset the culture to the saved settings\n"
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: SuperOffice.Globalization.CultureSettingHelper.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Globalization
+  commentId: N:SuperOffice.Globalization
+  isExternal: true
+  name: SuperOffice.Globalization
+  nameWithType: SuperOffice.Globalization
+  fullName: SuperOffice.Globalization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Globalization.CultureSettingHelper.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<CultureSettingHelper, To>()
+  nameWithType: EnumUtil.MapEnums<CultureSettingHelper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Globalization.CultureSettingHelper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CultureSettingHelper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Globalization.CultureSettingHelper, To)()
+  name.vb: MapEnums(Of CultureSettingHelper, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CultureSettingHelper, To>
+    nameWithType: EnumUtil.MapEnums<CultureSettingHelper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Globalization.CultureSettingHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CultureSettingHelper, To)
+    nameWithType: EnumUtil.MapEnums(Of CultureSettingHelper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Globalization.CultureSettingHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Globalization.CultureSettingHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Globalization.CultureSettingHelper)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<CultureSettingHelper>(CultureSettingHelper)
+  nameWithType: ObjectExtensions.AssignByReflection<CultureSettingHelper>(CultureSettingHelper)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Globalization.CultureSettingHelper>(SuperOffice.Globalization.CultureSettingHelper)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CultureSettingHelper)(CultureSettingHelper)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Globalization.CultureSettingHelper)(SuperOffice.Globalization.CultureSettingHelper)
+  name.vb: AssignByReflection(Of CultureSettingHelper)(CultureSettingHelper)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<CultureSettingHelper>
+    nameWithType: ObjectExtensions.AssignByReflection<CultureSettingHelper>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Globalization.CultureSettingHelper>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Globalization.CultureSettingHelper
+    name: CultureSettingHelper
+    nameWithType: CultureSettingHelper
+    fullName: SuperOffice.Globalization.CultureSettingHelper
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of CultureSettingHelper)
+    nameWithType: ObjectExtensions.AssignByReflection(Of CultureSettingHelper)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Globalization.CultureSettingHelper)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Globalization.CultureSettingHelper
+    name: CultureSettingHelper
+    nameWithType: CultureSettingHelper
+    fullName: SuperOffice.Globalization.CultureSettingHelper
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Globalization.CultureSettingHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<CultureSettingHelper>()
+  nameWithType: ObjectExtensions.GraphCopy<CultureSettingHelper>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Globalization.CultureSettingHelper>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of CultureSettingHelper)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Globalization.CultureSettingHelper)()
+  name.vb: GraphCopy(Of CultureSettingHelper)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<CultureSettingHelper>
+    nameWithType: ObjectExtensions.GraphCopy<CultureSettingHelper>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Globalization.CultureSettingHelper>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of CultureSettingHelper)
+    nameWithType: ObjectExtensions.GraphCopy(Of CultureSettingHelper)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Globalization.CultureSettingHelper)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Globalization.CultureSettingHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CultureSettingHelper, To>()
+  nameWithType: Converters.MapEnums<CultureSettingHelper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Globalization.CultureSettingHelper, To>()
+  nameWithType.vb: Converters.MapEnums(Of CultureSettingHelper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Globalization.CultureSettingHelper, To)()
+  name.vb: MapEnums(Of CultureSettingHelper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CultureSettingHelper, To>
+    nameWithType: Converters.MapEnums<CultureSettingHelper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Globalization.CultureSettingHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CultureSettingHelper, To)
+    nameWithType: Converters.MapEnums(Of CultureSettingHelper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Globalization.CultureSettingHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Globalization.CultureSettingHelper.#ctor*
+  commentId: Overload:SuperOffice.Globalization.CultureSettingHelper.#ctor
+  isExternal: true
+  name: CultureSettingHelper
+  nameWithType: CultureSettingHelper.CultureSettingHelper
+  fullName: SuperOffice.Globalization.CultureSettingHelper.CultureSettingHelper
+- uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: true
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Globalization.CultureSettingHelper.Dispose*
+  commentId: Overload:SuperOffice.Globalization.CultureSettingHelper.Dispose
+  isExternal: true
+  name: Dispose
+  nameWithType: CultureSettingHelper.Dispose
+  fullName: SuperOffice.Globalization.CultureSettingHelper.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ApplicationDomain
+  commentId: N:SuperOffice.ApplicationDomain
+  id: SuperOffice.ApplicationDomain
+  children:
+  - SuperOffice.ApplicationDomain.SoAppDomain
+  - SuperOffice.ApplicationDomain.SoRemoteLoader
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.ApplicationDomain
+  nameWithType: SuperOffice.ApplicationDomain
+  fullName: SuperOffice.ApplicationDomain
+  type: Namespace
+  assemblies:
+  - SOCore
+references:
+- uid: SuperOffice.ApplicationDomain.SoAppDomain
+  commentId: T:SuperOffice.ApplicationDomain.SoAppDomain
+  parent: SuperOffice.ApplicationDomain
+  isExternal: true
+  name: SoAppDomain
+  nameWithType: SoAppDomain
+  fullName: SuperOffice.ApplicationDomain.SoAppDomain
+- uid: SuperOffice.ApplicationDomain.SoRemoteLoader
+  commentId: T:SuperOffice.ApplicationDomain.SoRemoteLoader
+  isExternal: true
+  name: SoRemoteLoader
+  nameWithType: SoRemoteLoader
+  fullName: SuperOffice.ApplicationDomain.SoRemoteLoader
+- uid: SuperOffice.ApplicationDomain
+  commentId: N:SuperOffice.ApplicationDomain
+  isExternal: true
+  name: SuperOffice.ApplicationDomain
+  nameWithType: SuperOffice.ApplicationDomain
+  fullName: SuperOffice.ApplicationDomain
